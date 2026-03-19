@@ -1,0 +1,8 @@
+{
+  "version": "0.4.39",
+  "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
+  "sha256": "70740465fdf87c6fb55abc13f85864ddcdc5e304473eb605786f5645e649ec1c",
+  "releaseNotes": "Hydrythm v0.4.39 stable firmware release.",
+  "publishedAt": "2026-03-19T21:15:01Z",
+  "channel": "stable"
+}
