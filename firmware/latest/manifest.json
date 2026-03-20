@@ -1,8 +1,8 @@
 {
-  "version": "0.4.43",
+  "version": "0.4.47",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "886ec2790984d525bd5a423c64ed136596cbf4177dc26d9f6b81fb6d4542e4d3",
-  "releaseNotes": "Hydrythm v0.4.43 stable firmware release with dedicated _hydrythm._tcp Bonjour discovery.",
-  "publishedAt": "2026-03-20T11:42:55Z",
+  "sha256": "453f25961a5774bf6a56f82ab7664e627160e7dcaa911a6ec94925a3a6257885",
+  "releaseNotes": "Hydrythm v0.4.47 stable firmware release with always-on BLE onboarding visibility and BLE-tagged debug log capture.",
+  "publishedAt": "2026-03-20T19:01:11Z",
   "channel": "stable"
 }
