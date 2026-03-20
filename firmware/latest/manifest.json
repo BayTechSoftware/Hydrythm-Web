@@ -1,8 +1,8 @@
 {
-  "version": "0.4.41",
+  "version": "0.4.42",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "8dd48af02a4c6493d5da2444fd71c0a5f370f7bc3f85e318f4923c782434c313",
-  "releaseNotes": "Hydrythm v0.4.41 stable firmware release.",
-  "publishedAt": "2026-03-20T06:13:05Z",
+  "sha256": "b86a5db0c01ce50b0ad08a9aa16b389839ae70ce1f9beb2e29edeb0d22579cc4",
+  "releaseNotes": "Hydrythm v0.4.42 stable firmware release with BLE-based iOS-first provisioning support.",
+  "publishedAt": "2026-03-20T07:37:31Z",
   "channel": "stable"
 }
