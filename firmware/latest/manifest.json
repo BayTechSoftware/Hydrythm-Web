@@ -1,8 +1,8 @@
 {
-  "version": "0.7.5",
+  "version": "0.7.6",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "59a8125f25e992cac0602eac1e7c8b29776a590d406b5aefa2b51b7fed94477c",
-  "releaseNotes": "Hydrythm v0.7.5 adds validated Save Home, boot home-check pause warnings, passive direction confidence from encoder trends, and motion notice fields for app-visible warnings.",
-  "publishedAt": "2026-03-21T11:18:26Z",
+  "sha256": "76020dd10baf9521b1fd4ced1be2e5a9819053cf4be79cbbfea718e7356ddf51",
+  "releaseNotes": "Hydrythm v0.7.6 fixes drift-stall sampling by evaluating over a fixed time window, accumulating step pulses across loops, and making mid-sweep stall detection easier to trigger reliably.",
+  "publishedAt": "2026-03-21T14:15:49Z",
   "channel": "stable"
 }
