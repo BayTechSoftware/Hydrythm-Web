@@ -1,8 +1,8 @@
 {
-  "version": "0.7.2",
+  "version": "0.7.5",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "93ff679282ae12a6fb564e44446bce16245eb82411dd81673317897e5990adff",
-  "releaseNotes": "Hydrythm v0.7.2 fixes HOME-state wrap handling, removes uncalibrated HOME deadlock, and adds temporary motion diagnostics for boot and homing analysis.",
-  "publishedAt": "2026-03-21T09:21:06Z",
+  "sha256": "59a8125f25e992cac0602eac1e7c8b29776a590d406b5aefa2b51b7fed94477c",
+  "releaseNotes": "Hydrythm v0.7.5 adds validated Save Home, boot home-check pause warnings, passive direction confidence from encoder trends, and motion notice fields for app-visible warnings.",
+  "publishedAt": "2026-03-21T11:18:26Z",
   "channel": "stable"
 }
