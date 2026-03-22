@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/hydrythm-mini/firmware/latest/firmware.bin",
-  "sha256": "21f9a92d168d992e2b90da1f8b353761986e7eb1537bb8fff1e804d1956908db",
-  "releaseNotes": "Hydrythm Mini v1.0.0 - Initial release. Reef aquarium monitoring with Neptune Apex 3 integration. Dashboard with arc gauges, group and detail views, auto-slideshow, Web UI configuration, OTA updates.",
-  "publishedAt": "2026-03-23T12:00:00Z",
+  "sha256": "64b2a21ac4603afc2e781ef270b560b59f69536b635dc63ab48cf71a2941e0bf",
+  "releaseNotes": "v1.1.0 - Battery indicator on all screens including slideshow. Deep sleep mode (long-press bottom button on dashboard). Factory reset label fix. WiFi scan fix in AP mode. LiPo discharge curve for accurate battery percentage. Auto-refresh dashboard on Apex poll.",
+  "publishedAt": "2026-03-23T16:00:00Z",
   "channel": "stable"
 }
