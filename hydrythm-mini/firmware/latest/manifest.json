@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/hydrythm-mini/firmware/latest/firmware.bin",
+  "sha256": "21f9a92d168d992e2b90da1f8b353761986e7eb1537bb8fff1e804d1956908db",
+  "releaseNotes": "Hydrythm Mini v1.0.0 - Initial release. Reef aquarium monitoring with Neptune Apex 3 integration. Dashboard with arc gauges, group and detail views, auto-slideshow, Web UI configuration, OTA updates.",
+  "publishedAt": "2026-03-23T12:00:00Z",
+  "channel": "stable"
+}
