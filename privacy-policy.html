@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hydrythm Privacy Policy</title>
+  <title>ReefIQ Privacy Policy</title>
   <style>
     :root {
       color-scheme: light;
@@ -95,64 +95,78 @@
 <body>
   <main>
     <article class="shell">
-      <p class="brand">Hydrythm</p>
+      <p class="brand">ReefIQ</p>
       <h1>Privacy Policy</h1>
-      <p class="effective"><strong>Effective date:</strong> March 20, 2026</p>
+      <p class="effective"><strong>Effective date:</strong> March 25, 2026</p>
 
-      <p>Hydrythm is designed for local-first device control. You can use core local features without creating an account.</p>
+      <p>ReefIQ is a reef aquarium ecosystem management app by BayTech Software. It combines local device control with optional cloud features. You can use core local features without creating an account.</p>
 
-      <h2>Information Hydrythm handles</h2>
-      <p>Hydrythm may handle the following information when you use the app:</p>
+      <h2>Information ReefIQ collects and handles</h2>
+      <p>ReefIQ may collect or handle the following information:</p>
       <ul>
-        <li>Device names and labels that you enter</li>
-        <li>Local device discovery and connection details on your WiFi network</li>
-        <li>Device status and telemetry displayed in the app</li>
-        <li>Notification preferences you choose inside the app</li>
-        <li>Configuration files you export, import, or share at your request</li>
-        <li>App version and build information used for release and support visibility</li>
+        <li><strong>Account information:</strong> Email address, display name, and authentication provider (email/password, Google, or Apple) when you create an account via Firebase Authentication</li>
+        <li><strong>Tank profiles:</strong> Tank names, volume, livestock descriptions, notes, selected metrics, and linked device identifiers — stored in Google Firebase Firestore under your user account</li>
+        <li><strong>Parameter data:</strong> Water chemistry readings from APEX controllers and manual entries, stored as daily snapshots in Firestore</li>
+        <li><strong>APEX controller credentials:</strong> Local IP address, username, and hostname are stored in Firestore. APEX passwords are stored in on-device secure storage (iOS Keychain) and are never sent to BayTech servers</li>
+        <li><strong>Device information:</strong> ReefIQ device names, hostnames, IP addresses, firmware versions, and operational state (angle, speed, running status)</li>
+        <li><strong>Voice and text conversations:</strong> When you use the ReefIQ Assistant, your text messages and voice audio are sent to OpenAI for processing. Conversation transcripts are stored in Firestore under your account for cross-session continuity</li>
+        <li><strong>Notification preferences:</strong> Push notification settings via Firebase Cloud Messaging</li>
+        <li><strong>App metadata:</strong> App version and build information for support and release visibility</li>
+      </ul>
+
+      <h2>How your data is processed</h2>
+      <ul>
+        <li><strong>Firebase (Google):</strong> Account authentication, cloud data storage (Firestore), real-time database, cloud functions, push notifications, and app attestation (App Check)</li>
+        <li><strong>OpenAI:</strong> The ReefIQ Assistant sends your text messages, voice audio, tank profile data, and parameter readings to OpenAI's API for AI-powered responses. Voice conversations use OpenAI's Realtime API which processes microphone audio on OpenAI's servers. OpenAI's data usage policies apply to this processing</li>
       </ul>
 
       <h2>What stays local</h2>
-      <p>Hydrythm is local-first for current mobile functionality. That means:</p>
+      <p>ReefIQ is local-first for device control:</p>
       <ul>
-        <li>Local device control does not require mandatory sign-in</li>
-        <li>Basic control and monitoring work on your local network</li>
-        <li>Firmware updates are delivered from a public release feed and applied directly to the device on your local network</li>
+        <li>Local device control and monitoring work on your local network without cloud dependency</li>
+        <li>APEX controller communication happens directly between your phone and the controller on your local network</li>
+        <li>APEX passwords are stored only in on-device secure storage</li>
+        <li>Firmware updates are delivered from a public release feed and applied directly to devices on your local network</li>
+        <li>Some app preferences are stored locally using Hive (on-device storage)</li>
       </ul>
+
+      <h2>Data consent</h2>
+      <p>ReefIQ provides a data consent toggle in Settings. When enabled, the ReefIQ Assistant may use your saved tank history, parameter data, and connected device information to provide personalized guidance. You can disable this at any time.</p>
 
       <h2>Permissions</h2>
-      <p>Hydrythm may request:</p>
+      <p>ReefIQ may request:</p>
       <ul>
-        <li>Local network access so it can discover and communicate with Hydrythm devices</li>
-        <li>Notification access so it can show device alerts on this phone</li>
-        <li>Photo library access if iOS requires it for system file-handling paths used by the app</li>
+        <li><strong>Local network access:</strong> To discover and communicate with ReefIQ devices and APEX controllers on your WiFi network</li>
+        <li><strong>Bluetooth:</strong> To discover and provision new ReefIQ devices during setup</li>
+        <li><strong>Microphone:</strong> To capture voice audio for the ReefIQ Assistant voice conversation feature</li>
+        <li><strong>Notifications:</strong> To show device alerts and fault notifications</li>
       </ul>
-      <p>You can deny some permissions, but related features may not work correctly.</p>
+      <p>You can deny permissions, but related features may not work correctly.</p>
 
       <h2>Data sharing</h2>
-      <p>Hydrythm does not intentionally sell personal data.</p>
-      <p>Hydrythm shares data only when needed to provide requested functionality, such as:</p>
+      <p>ReefIQ does not sell personal data. Data is shared only when needed to provide functionality:</p>
       <ul>
-        <li>Communicating with a Hydrythm device on your local network</li>
-        <li>Downloading a published firmware package from the public Hydrythm release repository</li>
-        <li>Exporting or sharing a configuration file when you request it</li>
-        <li>Opening external links such as this policy</li>
+        <li>Communicating with ReefIQ devices and APEX controllers on your local network</li>
+        <li>Storing and syncing your tank data via Firebase (Google Cloud)</li>
+        <li>Processing assistant conversations via OpenAI</li>
+        <li>Delivering push notifications via Firebase Cloud Messaging</li>
+        <li>Downloading firmware packages from the public ReefIQ release repository</li>
+        <li>Exporting or sharing configuration files when you request it</li>
       </ul>
-      <p>If future versions add account systems, remote access, analytics, or cloud telemetry, this policy will be updated accordingly.</p>
 
-      <h2>Retention</h2>
-      <p>Device data and preferences handled by the app may remain on your device until you remove the app data or exported files. Public firmware release files remain in the public Hydrythm release repository until they are replaced or removed.</p>
+      <h2>Data retention and deletion</h2>
+      <p>Cloud data (tank profiles, parameters, conversation history) is stored in Firebase under your user account. You may delete your account and all associated data at any time through the app. Local data remains on your device until you remove the app or clear app data.</p>
 
       <h2>Security</h2>
-      <p>Hydrythm depends in part on the security of your local network, your device configuration, and the permissions you choose to grant. You are responsible for protecting the WiFi network and devices you use with Hydrythm.</p>
+      <p>ReefIQ uses Firebase Authentication for secure sign-in, HTTPS for all cloud communication, and iOS Keychain for sensitive local credentials. The security of your setup also depends on your local network configuration and the permissions you grant.</p>
 
       <h2>Contact</h2>
-      <p>For questions about this policy or Hydrythm releases, use the public repository: <a href="https://github.com/BayTechSoftware/Hydrythm-Web">Hydrythm-Web</a>.</p>
+      <p>For questions about this policy, contact BayTech Software through the public repository: <a href="https://github.com/BayTechSoftware/Hydrythm-Web">ReefIQ Support</a>.</p>
 
       <h2>Changes</h2>
-      <p>This policy may be updated as the app or release flow changes. The current version is the one published with this page.</p>
+      <p>This policy may be updated as ReefIQ evolves. The current version is the one published on this page.</p>
 
-      <footer>Hydrythm Privacy Policy</footer>
+      <footer>ReefIQ Privacy Policy &mdash; BayTech Software</footer>
     </article>
   </main>
 </body>
