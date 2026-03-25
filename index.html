@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReefIQ — Ecosystem Control Workspace</title>
+  <style>
+    :root {
+      --bg: #f4f8ff;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --line: #d7e3fb;
+      --accent: #0070ff;
+      --accent-deep: #0056c6;
+    }
+
+    * { box-sizing: border-box; margin: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: radial-gradient(ellipse at top, #ffffff 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .hero img {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 6px;
+    }
+
+    .hero .tagline {
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 12px 32px rgba(0, 70, 198, 0.06);
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+      color: var(--accent-deep);
+    }
+
+    .card p, .card li {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .card ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .card li + li {
+      margin-top: 6px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 520px) {
+      .features { grid-template-columns: 1fr; }
+    }
+
+    .feature {
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .feature .icon {
+      font-size: 1.4rem;
+      margin-bottom: 6px;
+    }
+
+    .feature h3 {
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    .feature p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .links {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+
+    .links a:hover { opacity: 0.85; }
+
+    .links .primary {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .links .secondary {
+      background: var(--bg);
+      color: var(--accent-deep);
+      border: 1px solid var(--line);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <img src="reefiq_logo.png" alt="ReefIQ logo">
+      <h1>ReefIQ</h1>
+      <p class="tagline">Ecosystem Control Workspace</p>
+    </div>
+
+    <div class="card">
+      <h2>About ReefIQ</h2>
+      <p>
+        ReefIQ is a reef aquarium management app that brings your entire ecosystem into one workspace.
+        Monitor water parameters, control wavemakers, track tank history, and get AI-powered reef guidance
+        — all from your phone.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="icon">🌊</div>
+          <h3>Device Control</h3>
+          <p>Real-time wavemaker control over local WiFi with live angle, speed, and profile management.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">📊</div>
+          <h3>Parameter Tracking</h3>
+          <p>Automatic APEX readings and manual logs unified on one dashboard with history charts.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🤖</div>
+          <h3>AI Reef Assistant</h3>
+          <p>Text and voice conversations powered by AI, with full context of your tank data and parameters.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🔧</div>
+          <h3>OTA Updates</h3>
+          <p>Update device firmware over the air directly from the app with verified binary integrity.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Integrations</h2>
+      <ul>
+        <li><strong>Neptune APEX</strong> — Live probe readings with automatic daily snapshots and mDNS hostname fallback</li>
+        <li><strong>ReefIQ FlowMaster</strong> — Stepper-driven wavemaker with encoder feedback, multi-zone profiles</li>
+        <li><strong>ReefIQ Mini</strong> — Compact reef monitor with TFT display</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Legal</h2>
+      <div class="links">
+        <a href="privacy-policy.html" class="secondary">Privacy Policy</a>
+        <a href="terms-and-conditions.html" class="secondary">Terms &amp; Conditions</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>ReefIQ is a product of BayTech Software</p>
+    </footer>
+  </main>
+</body>
+</html>
