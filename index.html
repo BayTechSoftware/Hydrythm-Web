@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ReefIQ — Ecosystem Control Workspace</title>
+  <title>ReefIQ — Reef Aquarium Ecosystem Control App by BayTech Software</title>
+  <meta name="description" content="ReefIQ is a mobile app by BayTech Software for managing reef aquariums. Control wavemakers, monitor water parameters via Neptune APEX, track tank history, and get AI-powered reef guidance.">
   <style>
     :root {
       --bg: #f4f8ff;
@@ -25,10 +26,24 @@
       min-height: 100vh;
     }
 
+    nav {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .brand { font-weight: 700; font-size: 1rem; color: var(--text); text-decoration: none; }
+    nav .nav-links { display: flex; gap: 20px; }
+    nav .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; }
+    nav .nav-links a:hover { color: var(--accent); }
+
     main {
       max-width: 720px;
       margin: 0 auto;
-      padding: 48px 20px 80px;
+      padding: 32px 20px 80px;
     }
 
     .hero {
@@ -52,6 +67,19 @@
     .hero .tagline {
       color: var(--muted);
       font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .hero .app-store {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 24px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
     }
 
     .card {
@@ -117,6 +145,20 @@
       margin: 0;
     }
 
+    .data-section {
+      margin-top: 16px;
+    }
+
+    .data-section h3 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .data-section ul {
+      padding-left: 18px;
+    }
+
     .links {
       display: flex;
       gap: 14px;
@@ -136,11 +178,6 @@
 
     .links a:hover { opacity: 0.85; }
 
-    .links .primary {
-      background: var(--accent);
-      color: #fff;
-    }
-
     .links .secondary {
       background: var(--bg);
       color: var(--accent-deep);
@@ -150,49 +187,71 @@
     footer {
       text-align: center;
       margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
       color: var(--muted);
       font-size: 0.85rem;
     }
 
-    footer a { color: var(--accent); }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer .footer-links { margin-bottom: 8px; }
+    footer .footer-links a { margin: 0 10px; }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="/" class="brand">ReefIQ</a>
+    <div class="nav-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-and-conditions.html">Terms</a>
+    </div>
+  </nav>
+
   <main>
     <div class="hero">
-      <img src="reefiq_logo.png" alt="ReefIQ logo">
+      <img src="reefiq_logo.png" alt="ReefIQ app logo">
       <h1>ReefIQ</h1>
-      <p class="tagline">Ecosystem Control Workspace</p>
+      <p class="tagline">Reef Aquarium Ecosystem Control App</p>
     </div>
 
     <div class="card">
-      <h2>About ReefIQ</h2>
+      <h2>What is ReefIQ?</h2>
       <p>
-        ReefIQ is a reef aquarium management app that brings your entire ecosystem into one workspace.
-        Monitor water parameters, control wavemakers, track tank history, and get AI-powered reef guidance
-        — all from your phone.
+        <strong>ReefIQ</strong> is a mobile application developed by <strong>BayTech Software</strong> for reef aquarium hobbyists.
+        The app provides a unified workspace to control ReefIQ wavemaker devices, monitor water chemistry parameters
+        from Neptune APEX controllers, log manual test results, track parameter history over time, and receive
+        AI-powered reef keeping guidance through text and voice conversations.
       </p>
+      <p style="margin-top: 12px;">
+        ReefIQ connects to devices on your local WiFi network for real-time control and monitoring.
+        Optional cloud features (powered by Firebase) enable tank profile sync, parameter history storage,
+        and the AI assistant. The AI assistant uses OpenAI to provide personalized reef guidance based on
+        your tank data and water parameters.
+      </p>
+    </div>
 
+    <div class="card">
+      <h2>Features</h2>
       <div class="features">
         <div class="feature">
           <div class="icon">🌊</div>
           <h3>Device Control</h3>
-          <p>Real-time wavemaker control over local WiFi with live angle, speed, and profile management.</p>
+          <p>Real-time wavemaker control over local WiFi with live angle, speed, and motion profile management.</p>
         </div>
         <div class="feature">
           <div class="icon">📊</div>
           <h3>Parameter Tracking</h3>
-          <p>Automatic APEX readings and manual logs unified on one dashboard with history charts.</p>
+          <p>Automatic APEX probe readings and manual test logs unified on one dashboard with history charts.</p>
         </div>
         <div class="feature">
           <div class="icon">🤖</div>
           <h3>AI Reef Assistant</h3>
-          <p>Text and voice conversations powered by AI, with full context of your tank data and parameters.</p>
+          <p>Text and voice conversations powered by OpenAI, with full context of your tank data and parameters.</p>
         </div>
         <div class="feature">
           <div class="icon">🔧</div>
-          <h3>OTA Updates</h3>
-          <p>Update device firmware over the air directly from the app with verified binary integrity.</p>
+          <h3>OTA Firmware Updates</h3>
+          <p>Update device firmware over the air directly from the app.</p>
         </div>
       </div>
     </div>
@@ -200,10 +259,29 @@
     <div class="card">
       <h2>Integrations</h2>
       <ul>
-        <li><strong>Neptune APEX</strong> — Live probe readings with automatic daily snapshots and mDNS hostname fallback</li>
-        <li><strong>ReefIQ FlowMaster</strong> — Stepper-driven wavemaker with encoder feedback, multi-zone profiles</li>
+        <li><strong>Neptune APEX</strong> — Live probe readings (pH, ORP, temperature, salinity, alkalinity, calcium, magnesium, nitrate, phosphate) with automatic daily snapshots</li>
+        <li><strong>ReefIQ FlowMaster</strong> — Stepper-driven wavemaker with encoder feedback and multi-zone profiles</li>
         <li><strong>ReefIQ Mini</strong> — Compact reef monitor with TFT display</li>
       </ul>
+    </div>
+
+    <div class="card">
+      <h2>Data &amp; Permissions</h2>
+      <div class="data-section">
+        <h3>What data does ReefIQ access?</h3>
+        <ul>
+          <li><strong>Account:</strong> Email, display name (via Firebase Authentication with Google Sign-In)</li>
+          <li><strong>Tank data:</strong> Tank profiles, water parameters, and device configurations stored in Firebase</li>
+          <li><strong>AI conversations:</strong> Text and voice messages processed by OpenAI for reef guidance</li>
+          <li><strong>Microphone:</strong> Used for voice conversations with the AI assistant (audio is sent to OpenAI)</li>
+          <li><strong>Local network:</strong> Used to discover and communicate with ReefIQ devices and APEX controllers</li>
+          <li><strong>Bluetooth:</strong> Used for initial device setup and WiFi provisioning</li>
+        </ul>
+      </div>
+      <p style="margin-top: 14px;">
+        For full details, see our <a href="privacy-policy.html"><strong>Privacy Policy</strong></a>
+        and <a href="terms-and-conditions.html"><strong>Terms and Conditions</strong></a>.
+      </p>
     </div>
 
     <div class="card">
@@ -212,11 +290,19 @@
         <a href="privacy-policy.html" class="secondary">Privacy Policy</a>
         <a href="terms-and-conditions.html" class="secondary">Terms &amp; Conditions</a>
       </div>
+      <p style="margin-top: 14px; font-size: 0.85rem;">
+        ReefIQ is developed and published by BayTech Software. For questions or support,
+        contact us through the <a href="https://github.com/BayTechSoftware/Hydrythm-Web">public repository</a>.
+      </p>
     </div>
-
-    <footer>
-      <p>ReefIQ is a product of BayTech Software</p>
-    </footer>
   </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+    </div>
+    <p>&copy; 2026 BayTech Software. ReefIQ is a registered product of BayTech Software.</p>
+  </footer>
 </body>
 </html>
