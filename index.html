@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ReefIQ — Reef Aquarium Ecosystem Control App by BayTech Software</title>
-  <meta name="description" content="ReefIQ is a mobile app by BayTech Software for managing reef aquariums. Control wavemakers, monitor water parameters via Neptune APEX, track tank history, and get AI-powered reef guidance.">
+  <title>ReefIQ — Reef Aquarium Ecosystem Control App</title>
+  <meta name="description" content="ReefIQ is a mobile app for managing reef aquariums. Control wavemakers, monitor water parameters, track tank history, and get AI-powered reef guidance.">
   <style>
     :root {
       --bg: #f4f8ff;
       --card: #ffffff;
       --text: #0f172a;
       --muted: #475569;
+      --light: #6b7a96;
       --line: #d7e3fb;
       --accent: #0070ff;
       --accent-deep: #0056c6;
@@ -27,80 +28,79 @@
     }
 
     nav {
-      max-width: 720px;
+      max-width: 800px;
       margin: 0 auto;
-      padding: 16px 20px;
+      padding: 20px 20px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
-    nav .brand { font-weight: 700; font-size: 1rem; color: var(--text); text-decoration: none; }
+    nav .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    nav .brand img { width: 28px; height: 28px; }
+    nav .brand span { font-weight: 700; font-size: 1rem; color: var(--text); }
     nav .nav-links { display: flex; gap: 20px; }
-    nav .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; }
+    nav .nav-links a { color: var(--light); text-decoration: none; font-size: 0.88rem; }
     nav .nav-links a:hover { color: var(--accent); }
 
     main {
-      max-width: 720px;
+      max-width: 800px;
       margin: 0 auto;
-      padding: 32px 20px 80px;
+      padding: 40px 20px 60px;
     }
 
     .hero {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 48px;
     }
 
-    .hero img {
-      width: 120px;
-      height: 120px;
-      margin-bottom: 20px;
+    .hero-logo {
+      width: 160px;
+      margin-bottom: 24px;
+      filter: drop-shadow(0 8px 24px rgba(0, 70, 198, 0.12));
     }
 
     .hero h1 {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       font-weight: 800;
       letter-spacing: -0.5px;
-      margin-bottom: 6px;
+      margin-bottom: 10px;
     }
 
     .hero .tagline {
       color: var(--muted);
-      font-size: 1.1rem;
-      margin-bottom: 8px;
-    }
-
-    .hero .app-store {
-      display: inline-block;
-      margin-top: 14px;
-      padding: 10px 24px;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 0.9rem;
-      text-decoration: none;
+      font-size: 1.15rem;
+      max-width: 480px;
+      margin: 0 auto;
     }
 
     .card {
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 28px;
+      border-radius: 22px;
+      padding: 32px;
       margin-bottom: 20px;
-      box-shadow: 0 12px 32px rgba(0, 70, 198, 0.06);
+      box-shadow: 0 12px 32px rgba(0, 70, 198, 0.05);
     }
 
     .card h2 {
-      font-size: 1.15rem;
-      margin-bottom: 12px;
-      color: var(--accent-deep);
+      font-size: 1.2rem;
+      margin-bottom: 14px;
+      color: var(--text);
     }
 
     .card p, .card li {
       color: var(--muted);
       font-size: 0.95rem;
     }
+
+    .card p + p { margin-top: 12px; }
 
     .card ul {
       padding-left: 18px;
@@ -114,83 +114,82 @@
     .features {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      margin-top: 14px;
+      gap: 16px;
+      margin-top: 16px;
     }
 
-    @media (max-width: 520px) {
+    @media (max-width: 560px) {
       .features { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 1.8rem; }
     }
 
     .feature {
-      background: var(--bg);
+      background: linear-gradient(135deg, #f8faff 0%, #f0f5ff 100%);
       border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px;
+      border-radius: 16px;
+      padding: 20px;
     }
 
-    .feature .icon {
-      font-size: 1.4rem;
-      margin-bottom: 6px;
+    .feature-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
     }
+
+    .feature-icon.wave { background: linear-gradient(135deg, #e0f0ff, #c7e2ff); }
+    .feature-icon.chart { background: linear-gradient(135deg, #e0f7ef, #c7f0df); }
+    .feature-icon.ai { background: linear-gradient(135deg, #f0e6ff, #e0d0ff); }
+    .feature-icon.ota { background: linear-gradient(135deg, #fff3e0, #ffe8c7); }
 
     .feature h3 {
       font-size: 0.95rem;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
+      color: var(--text);
     }
 
     .feature p {
       font-size: 0.85rem;
-      color: var(--muted);
+      color: var(--light);
       margin: 0;
+      line-height: 1.5;
     }
 
-    .data-section {
-      margin-top: 16px;
-    }
-
-    .data-section h3 {
-      font-size: 1rem;
-      margin-bottom: 8px;
-      color: var(--text);
-    }
-
-    .data-section ul {
-      padding-left: 18px;
-    }
+    .data-section { margin-top: 16px; }
+    .data-section h3 { font-size: 1rem; margin-bottom: 10px; color: var(--text); }
 
     .links {
       display: flex;
       gap: 14px;
       flex-wrap: wrap;
-      margin-top: 16px;
     }
 
     .links a {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 10px 22px;
       border-radius: 10px;
       font-size: 0.9rem;
       font-weight: 600;
       text-decoration: none;
       transition: opacity 0.15s;
-    }
-
-    .links a:hover { opacity: 0.85; }
-
-    .links .secondary {
       background: var(--bg);
       color: var(--accent-deep);
       border: 1px solid var(--line);
     }
+
+    .links a:hover { opacity: 0.85; }
 
     footer {
       text-align: center;
       margin-top: 40px;
       padding-top: 20px;
       border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.85rem;
+      color: var(--light);
+      font-size: 0.82rem;
     }
 
     footer a { color: var(--accent); text-decoration: none; }
@@ -200,7 +199,10 @@
 </head>
 <body>
   <nav>
-    <a href="/" class="brand">ReefIQ</a>
+    <a href="/" class="brand">
+      <img src="reefiq_logo.png" alt="ReefIQ">
+      <span>ReefIQ</span>
+    </a>
     <div class="nav-links">
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="terms-and-conditions.html">Terms</a>
@@ -209,24 +211,22 @@
 
   <main>
     <div class="hero">
-      <img src="reefiq_logo.png" alt="ReefIQ app logo">
-      <h1>ReefIQ</h1>
-      <p class="tagline">Reef Aquarium Ecosystem Control App</p>
+      <img src="reefiq_logo.png" alt="ReefIQ" class="hero-logo">
+      <h1>Reef Aquarium,<br>Simplified.</h1>
+      <p class="tagline">Control your equipment, monitor water chemistry, track parameters, and get intelligent reef guidance — all in one app.</p>
     </div>
 
     <div class="card">
       <h2>What is ReefIQ?</h2>
       <p>
-        <strong>ReefIQ</strong> is a mobile application developed by <strong>BayTech Software</strong> for reef aquarium hobbyists.
-        The app provides a unified workspace to control ReefIQ wavemaker devices, monitor water chemistry parameters
-        from Neptune APEX controllers, log manual test results, track parameter history over time, and receive
-        AI-powered reef keeping guidance through text and voice conversations.
+        ReefIQ is a mobile app for reef aquarium hobbyists. It brings your entire reef ecosystem into one workspace
+        — wavemaker control, water parameter monitoring, tank history tracking, and an AI-powered reef assistant
+        that understands your specific setup.
       </p>
-      <p style="margin-top: 12px;">
-        ReefIQ connects to devices on your local WiFi network for real-time control and monitoring.
-        Optional cloud features (powered by Firebase) enable tank profile sync, parameter history storage,
-        and the AI assistant. The AI assistant uses OpenAI to provide personalized reef guidance based on
-        your tank data and water parameters.
+      <p>
+        Connect your devices over local WiFi for real-time control and monitoring. Sign in to sync your tank profiles,
+        parameter history, and assistant conversations across sessions. The ReefIQ Assistant provides personalized
+        guidance based on your actual tank data and water chemistry.
       </p>
     </div>
 
@@ -234,24 +234,24 @@
       <h2>Features</h2>
       <div class="features">
         <div class="feature">
-          <div class="icon">🌊</div>
-          <h3>Device Control</h3>
-          <p>Real-time wavemaker control over local WiFi with live angle, speed, and motion profile management.</p>
+          <div class="feature-icon wave">🌊</div>
+          <h3>Wavemaker Control</h3>
+          <p>Real-time speed, angle, and motion profile control over your local network. Multiple zone support with drag-to-reorder.</p>
         </div>
         <div class="feature">
-          <div class="icon">📊</div>
-          <h3>Parameter Tracking</h3>
-          <p>Automatic APEX probe readings and manual test logs unified on one dashboard with history charts.</p>
+          <div class="feature-icon chart">📈</div>
+          <h3>Parameter Dashboard</h3>
+          <p>Live APEX probe readings and manual test logs on one dashboard. Daily snapshots, history charts, and health-range indicators.</p>
         </div>
         <div class="feature">
-          <div class="icon">🤖</div>
-          <h3>AI Reef Assistant</h3>
-          <p>Text and voice conversations powered by OpenAI, with full context of your tank data and parameters.</p>
+          <div class="feature-icon ai">✨</div>
+          <h3>Reef Assistant</h3>
+          <p>Text and voice conversations with an AI that knows your tank — livestock, parameters, equipment, and history.</p>
         </div>
         <div class="feature">
-          <div class="icon">🔧</div>
-          <h3>OTA Firmware Updates</h3>
-          <p>Update device firmware over the air directly from the app.</p>
+          <div class="feature-icon ota">⬆️</div>
+          <h3>Over-the-Air Updates</h3>
+          <p>Update your device firmware directly from the app. Verified integrity, one-tap install.</p>
         </div>
       </div>
     </div>
@@ -268,13 +268,12 @@
     <div class="card">
       <h2>Data &amp; Permissions</h2>
       <div class="data-section">
-        <h3>What data does ReefIQ access?</h3>
         <ul>
-          <li><strong>Account:</strong> Email, display name (via Firebase Authentication with Google Sign-In)</li>
-          <li><strong>Tank data:</strong> Tank profiles, water parameters, and device configurations stored in Firebase</li>
-          <li><strong>AI conversations:</strong> Text and voice messages processed by OpenAI for reef guidance</li>
-          <li><strong>Microphone:</strong> Used for voice conversations with the AI assistant (audio is sent to OpenAI)</li>
-          <li><strong>Local network:</strong> Used to discover and communicate with ReefIQ devices and APEX controllers</li>
+          <li><strong>Account:</strong> Email and display name when you sign in (supports Google Sign-In)</li>
+          <li><strong>Tank data:</strong> Tank profiles, water parameters, and device configurations synced to your account</li>
+          <li><strong>AI conversations:</strong> Text and voice messages processed for reef guidance</li>
+          <li><strong>Microphone:</strong> Used for voice conversations with the Reef Assistant</li>
+          <li><strong>Local network:</strong> Discovers and communicates with ReefIQ devices and APEX controllers on your WiFi</li>
           <li><strong>Bluetooth:</strong> Used for initial device setup and WiFi provisioning</li>
         </ul>
       </div>
@@ -285,15 +284,10 @@
     </div>
 
     <div class="card">
-      <h2>Legal</h2>
       <div class="links">
-        <a href="privacy-policy.html" class="secondary">Privacy Policy</a>
-        <a href="terms-and-conditions.html" class="secondary">Terms &amp; Conditions</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
       </div>
-      <p style="margin-top: 14px; font-size: 0.85rem;">
-        ReefIQ is developed and published by BayTech Software. For questions or support,
-        contact us through the <a href="https://github.com/BayTechSoftware/Hydrythm-Web">public repository</a>.
-      </p>
     </div>
   </main>
 
@@ -302,7 +296,7 @@
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
     </div>
-    <p>&copy; 2026 BayTech Software. ReefIQ is a registered product of BayTech Software.</p>
+    <p>&copy; 2026 ReefIQ. All rights reserved.</p>
   </footer>
 </body>
 </html>
