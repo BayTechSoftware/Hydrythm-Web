@@ -1,8 +1,8 @@
 {
-  "version": "0.8.2",
+  "version": "0.8.3",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "f187a505888ef27ef07534a7847c578d71a47138c6fdbf231427e00d74de4623",
-  "releaseNotes": "ReefIQ FlowMaster v0.8.2 — Renamed to ReefIQ FlowMaster, unique 6-char device suffix, leave-home validation prevents stall faults at startup, clearFault fully resets detector state, stall detection suppressed during validation.",
-  "publishedAt": "2026-04-09T02:30:00Z",
+  "sha256": "20c8c023724cb5766bbfefcb95b6e6b3fa35ef8c4f048d714f845d7fbea46a1b",
+  "releaseNotes": "ReefIQ FlowMaster v0.8.3 — Fixed leave-home validation wrap bug. Movement delta now uses signed shortest-path angular computation, preventing false +359° pass when motor moves backward into wrap band.",
+  "publishedAt": "2026-04-09T10:15:00Z",
   "channel": "stable"
 }
