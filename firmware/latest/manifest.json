@@ -1,8 +1,8 @@
 {
-  "version": "0.7.6",
+  "version": "0.8.2",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "76020dd10baf9521b1fd4ced1be2e5a9819053cf4be79cbbfea718e7356ddf51",
-  "releaseNotes": "Hydrythm v0.7.6 fixes drift-stall sampling by evaluating over a fixed time window, accumulating step pulses across loops, and making mid-sweep stall detection easier to trigger reliably.",
-  "publishedAt": "2026-03-21T14:15:49Z",
+  "sha256": "f187a505888ef27ef07534a7847c578d71a47138c6fdbf231427e00d74de4623",
+  "releaseNotes": "ReefIQ FlowMaster v0.8.2 — Renamed to ReefIQ FlowMaster, unique 6-char device suffix, leave-home validation prevents stall faults at startup, clearFault fully resets detector state, stall detection suppressed during validation.",
+  "publishedAt": "2026-04-09T02:30:00Z",
   "channel": "stable"
 }
