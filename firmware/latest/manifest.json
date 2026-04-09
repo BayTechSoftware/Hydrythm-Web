@@ -1,8 +1,8 @@
 {
-  "version": "0.8.4",
+  "version": "0.8.5",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "1d71a99c79585d4ed26378e22a6879bf63b00692a538962f64dad4fd9d8a5016",
-  "releaseNotes": "ReefIQ FlowMaster v0.8.4 — Fixed wrap-home stepping direction, home/end classification overlap, leave-home validation now requires exit from home zone, validation failure persisted to prevent reboot loops.",
-  "publishedAt": "2026-04-09T11:30:00Z",
+  "sha256": "6d41c9e2f26e363f649e99ef9286ffbb45492b870726ed728bcb40accf58847b",
+  "releaseNotes": "ReefIQ FlowMaster v0.8.5 — Fixed BLE advertisement packet overflow. Shortened manufacturer data so device name fits within 31-byte scan response limit.",
+  "publishedAt": "2026-04-10T00:30:00Z",
   "channel": "stable"
 }
