@@ -1,8 +1,8 @@
 {
-  "version": "0.8.3",
+  "version": "0.8.4",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "20c8c023724cb5766bbfefcb95b6e6b3fa35ef8c4f048d714f845d7fbea46a1b",
-  "releaseNotes": "ReefIQ FlowMaster v0.8.3 — Fixed leave-home validation wrap bug. Movement delta now uses signed shortest-path angular computation, preventing false +359° pass when motor moves backward into wrap band.",
-  "publishedAt": "2026-04-09T10:15:00Z",
+  "sha256": "1d71a99c79585d4ed26378e22a6879bf63b00692a538962f64dad4fd9d8a5016",
+  "releaseNotes": "ReefIQ FlowMaster v0.8.4 — Fixed wrap-home stepping direction, home/end classification overlap, leave-home validation now requires exit from home zone, validation failure persisted to prevent reboot loops.",
+  "publishedAt": "2026-04-09T11:30:00Z",
   "channel": "stable"
 }
