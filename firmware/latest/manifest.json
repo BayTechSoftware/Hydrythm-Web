@@ -1,8 +1,8 @@
 {
-  "version": "0.8.5",
+  "version": "0.8.6",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "6d41c9e2f26e363f649e99ef9286ffbb45492b870726ed728bcb40accf58847b",
-  "releaseNotes": "ReefIQ FlowMaster v0.8.5 — Fixed BLE advertisement packet overflow. Shortened manufacturer data so device name fits within 31-byte scan response limit.",
-  "publishedAt": "2026-04-10T00:30:00Z",
+  "sha256": "3b3a99b0694e39ff5ed00b9577010a73a1de2d68da5874c6440259e9ff557dc0",
+  "releaseNotes": "ReefIQ FlowMaster v0.8.6 — Fixed device suffix using OUI bytes instead of device-unique bytes (all devices showed same suffix). Fixed MAC address display order to standard notation.",
+  "publishedAt": "2026-04-10T01:00:00Z",
   "channel": "stable"
 }
