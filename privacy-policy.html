@@ -15,9 +15,7 @@
       --accent: #2563eb;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -67,6 +65,11 @@
       font-size: 1.15rem;
     }
 
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 1.02rem;
+    }
+
     p, ul {
       margin: 0 0 14px;
     }
@@ -77,6 +80,28 @@
 
     li + li {
       margin-top: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 14px;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    td {
+      color: var(--muted);
     }
 
     footer {
@@ -97,76 +122,240 @@
     <article class="shell">
       <p class="brand">ReefIQ</p>
       <h1>Privacy Policy</h1>
-      <p class="effective"><strong>Effective date:</strong> March 25, 2026</p>
+      <p class="effective"><strong>Effective date:</strong> April 14, 2026</p>
 
-      <p>ReefIQ is a reef aquarium ecosystem management app by BayTech Software. It combines local device control with optional cloud features. You can use core local features without creating an account.</p>
+      <p>BayTech Software ("we", "us", "our") operates the ReefIQ mobile application and related cloud services. This Privacy Policy explains what information we collect, how we use it, and your rights regarding that information.</p>
 
-      <h2>Information ReefIQ collects and handles</h2>
-      <p>ReefIQ may collect or handle the following information:</p>
+      <h2>1. Information We Collect</h2>
+
+      <h3>1.1 Account Information</h3>
+      <p>When you create an account, we collect:</p>
       <ul>
-        <li><strong>Account information:</strong> Email address, display name, and authentication provider (email/password, Google, or Apple) when you create an account via Firebase Authentication</li>
-        <li><strong>Tank profiles:</strong> Tank names, volume, livestock descriptions, notes, selected metrics, and linked device identifiers — stored in Google Firebase Firestore under your user account</li>
-        <li><strong>Parameter data:</strong> Water chemistry readings from APEX controllers and manual entries, stored as daily snapshots in Firestore</li>
-        <li><strong>APEX controller credentials:</strong> Local IP address, username, and hostname are stored in Firestore. APEX passwords are stored in on-device secure storage (iOS Keychain) and are never sent to BayTech servers</li>
-        <li><strong>Device information:</strong> ReefIQ device names, hostnames, IP addresses, firmware versions, and operational state (angle, speed, running status)</li>
-        <li><strong>Voice and text conversations:</strong> When you use the ReefIQ Assistant, your text messages and voice audio are sent to OpenAI for processing. Conversation transcripts are stored in Firestore under your account for cross-session continuity</li>
-        <li><strong>Notification preferences:</strong> Push notification settings via Firebase Cloud Messaging</li>
-        <li><strong>App metadata:</strong> App version and build information for support and release visibility</li>
+        <li><strong>Email address and password</strong> (email/password sign-in)</li>
+        <li><strong>Name and email address</strong> from your Google account (Google Sign-In)</li>
+        <li><strong>Name and email address</strong> from your Apple ID (Sign in with Apple)</li>
+        <li><strong>Email verification status</strong></li>
+      </ul>
+      <p>Account credentials are managed by Firebase Authentication (Google). We do not store your raw password — Firebase handles hashing and credential storage.</p>
+
+      <h3>1.2 Tank Profile Data</h3>
+      <p>When you create a tank profile, we store the following in Firebase Firestore:</p>
+      <ul>
+        <li>Tank name, volume, type, salinity target, and other configuration details</li>
+        <li>Selected dashboard metrics and display preferences</li>
+        <li>Associated device IDs and integration settings</li>
       </ul>
 
-      <h2>How your data is processed</h2>
+      <h3>1.3 Water Parameter Data</h3>
+      <p>We store water chemistry parameters (pH, alkalinity, calcium, magnesium, nitrate, phosphate, salinity, temperature, ORP, and others) that you enter manually, import from a Neptune Apex controller, or receive from ReefIQ devices. All parameter data is stored in Firebase Firestore under your user account.</p>
+
+      <h3>1.4 ICP Report Data</h3>
+      <p>When you upload an ICP (Inductively Coupled Plasma) water analysis report:</p>
       <ul>
-        <li><strong>Firebase (Google):</strong> Account authentication, cloud data storage (Firestore), real-time database, cloud functions, push notifications, and app attestation (App Check)</li>
-        <li><strong>OpenAI:</strong> The ReefIQ Assistant sends your text messages, voice audio, tank profile data, and parameter readings to OpenAI's API for AI-powered responses. Voice conversations use OpenAI's Realtime API which processes microphone audio on OpenAI's servers. OpenAI's data usage policies apply to this processing</li>
+        <li>The PDF file is uploaded to Firebase Storage under your user account</li>
+        <li>The PDF content is sent to OpenAI's GPT API for extraction and analysis</li>
+        <li>The extracted parameter values and AI-generated analysis are stored in Firebase Firestore</li>
       </ul>
 
-      <h2>What stays local</h2>
-      <p>ReefIQ is local-first for device control:</p>
+      <h3>1.5 Health Reports</h3>
+      <p>When you generate a health report:</p>
       <ul>
-        <li>Local device control and monitoring work on your local network without cloud dependency</li>
-        <li>APEX controller communication happens directly between your phone and the controller on your local network</li>
-        <li>APEX passwords are stored only in on-device secure storage</li>
-        <li>Firmware updates are delivered from a public release feed and applied directly to devices on your local network</li>
-        <li>Some app preferences are stored locally using Hive (on-device storage)</li>
+        <li>Your tank parameters, livestock inventory, and journal entries are sent to OpenAI's GPT API</li>
+        <li>The AI-generated health assessment is stored in Firebase Firestore under your user account</li>
       </ul>
 
-      <h2>Data consent</h2>
-      <p>ReefIQ provides a data consent toggle in Settings. When enabled, the ReefIQ Assistant may use your saved tank history, parameter data, and connected device information to provide personalized guidance. You can disable this at any time.</p>
-
-      <h2>Permissions</h2>
-      <p>ReefIQ may request:</p>
+      <h3>1.6 ReefIQ Assistant (Text)</h3>
+      <p>When you use the text-based ReefIQ Assistant:</p>
       <ul>
-        <li><strong>Local network access:</strong> To discover and communicate with ReefIQ devices and APEX controllers on your WiFi network</li>
+        <li>Your messages and the AI responses are stored in Firebase Firestore under your user account</li>
+        <li>Your messages, along with your tank context (parameters, livestock, journal entries), are sent to OpenAI's GPT API to generate responses</li>
+        <li>A daily limit of 100 messages applies</li>
+        <li>Conversation history is retained in Firestore until you delete your account</li>
+      </ul>
+
+      <h3>1.7 ReefIQ Assistant (Voice)</h3>
+      <p>When you use the voice-based ReefIQ Assistant:</p>
+      <ul>
+        <li>Audio from your device microphone is transmitted in real time to OpenAI's Realtime API via a secure WebSocket connection</li>
+        <li>OpenAI processes the audio to generate spoken responses streamed back to your device</li>
+        <li>Voice sessions are ephemeral — audio is not stored on our servers or in your account</li>
+        <li>Text transcripts of voice conversations may be stored in Firebase Firestore under your user account</li>
+      </ul>
+
+      <h3>1.8 Livestock Tracking</h3>
+      <p>When you track livestock (coral, fish, invertebrates):</p>
+      <ul>
+        <li>Species, name, date added, and notes are stored in Firebase Firestore under your user account</li>
+      </ul>
+
+      <h3>1.9 Journal Entries</h3>
+      <p>When you create journal entries:</p>
+      <ul>
+        <li>Entry text, date, tags, and associated parameters are stored in Firebase Firestore</li>
+        <li>Journal data may be sent to OpenAI's GPT API when generating AI-powered correlations and health reports</li>
+      </ul>
+
+      <h3>1.10 Maintenance Scheduler</h3>
+      <p>When you create maintenance tasks:</p>
+      <ul>
+        <li>Task name, schedule, and completion history are stored in Firebase Firestore</li>
+        <li>Push notifications for due tasks are delivered via Firebase Cloud Messaging (FCM)</li>
+      </ul>
+
+      <h3>1.11 Parameter Alerts</h3>
+      <p>When you configure parameter alerts:</p>
+      <ul>
+        <li>Alert thresholds and notification preferences are stored in Firebase Firestore</li>
+        <li>Push notifications for triggered alerts are delivered via Firebase Cloud Messaging (FCM)</li>
+      </ul>
+
+      <h3>1.12 Push Notifications</h3>
+      <ul>
+        <li>We use Firebase Cloud Messaging (FCM) to deliver push notifications for maintenance reminders and parameter alerts</li>
+        <li>Your FCM device token is stored in Firebase to route notifications to your device</li>
+        <li>You can disable notifications at any time through your device settings or within the app</li>
+      </ul>
+
+      <h3>1.13 Neptune Apex Integration</h3>
+      <p>When you connect a Neptune Apex controller:</p>
+      <ul>
+        <li>Your Apex IP address and credentials are stored <strong>locally on your device only</strong> using encrypted storage</li>
+        <li>The app communicates with your Apex controller over your <strong>local network</strong> — Apex data does not pass through our servers</li>
+        <li>Parameter readings retrieved from the Apex are stored in Firebase Firestore as part of your tank data</li>
+      </ul>
+
+      <h3>1.14 ReefIQ Devices</h3>
+      <p>When you pair a ReefIQ hardware device (Flo, Specto, Cora, or other devices):</p>
+      <ul>
+        <li>Bluetooth Low Energy (BLE) is used during initial device provisioning</li>
+        <li>After provisioning, the app communicates with devices over your local network via HTTP</li>
+        <li>Device telemetry (sensor readings, operational status) is stored in Firebase Realtime Database under your user account</li>
+      </ul>
+
+      <h3>1.15 Local Storage</h3>
+      <p>The app stores the following data locally on your device using encrypted storage:</p>
+      <ul>
+        <li>Dark mode preference</li>
+        <li>Neptune Apex credentials and IP address</li>
+        <li>Device connection history and cached data</li>
+        <li>App configuration and preferences</li>
+      </ul>
+      <p>This local data is not transmitted to our servers unless explicitly stated otherwise in this policy.</p>
+
+      <h2>2. How We Use Your Information</h2>
+      <p>We use your information to:</p>
+      <ul>
+        <li>Provide and operate the ReefIQ app and its features</li>
+        <li>Authenticate your identity and secure your account</li>
+        <li>Store and display your tank data, parameters, livestock, and journal entries</li>
+        <li>Generate AI-powered analysis, health reports, and assistant responses via OpenAI</li>
+        <li>Deliver push notifications for maintenance reminders and parameter alerts</li>
+        <li>Communicate with your ReefIQ devices and Neptune Apex controller</li>
+        <li>Improve the app and diagnose technical issues</li>
+      </ul>
+
+      <h2>3. Third-Party Services</h2>
+      <p>ReefIQ relies on the following third-party services:</p>
+      <table>
+        <thead>
+          <tr><th>Service</th><th>Provider</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Firebase Authentication</td><td>Google</td><td>Account creation and sign-in</td></tr>
+          <tr><td>Firebase Firestore</td><td>Google</td><td>Cloud storage for tank data, parameters, livestock, journal, assistant history, reports</td></tr>
+          <tr><td>Firebase Realtime Database</td><td>Google</td><td>Device telemetry storage</td></tr>
+          <tr><td>Firebase Storage</td><td>Google</td><td>ICP report PDF file storage</td></tr>
+          <tr><td>Firebase Cloud Messaging</td><td>Google</td><td>Push notification delivery</td></tr>
+          <tr><td>Firebase App Check</td><td>Google</td><td>API abuse prevention</td></tr>
+          <tr><td>OpenAI GPT API</td><td>OpenAI</td><td>ICP report analysis, health reports, text assistant, journal correlations</td></tr>
+          <tr><td>OpenAI Realtime API</td><td>OpenAI</td><td>Voice assistant (real-time audio processing)</td></tr>
+          <tr><td>Google Sign-In</td><td>Google</td><td>Optional authentication method</td></tr>
+          <tr><td>Sign in with Apple</td><td>Apple</td><td>Optional authentication method</td></tr>
+        </tbody>
+      </table>
+      <p>Each third-party service is governed by its own privacy policy:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+        <li><a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a></li>
+        <li><a href="https://openai.com/privacy">OpenAI Privacy Policy</a></li>
+        <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+      </ul>
+
+      <h2>4. Data Consent</h2>
+      <p>ReefIQ provides a data consent toggle in Settings. When enabled, the ReefIQ Assistant may use your saved tank history, parameter data, livestock, journal entries, and connected device information to provide personalized guidance. You can disable this at any time. When disabled, the assistant provides general reef-keeping advice without access to your tank data.</p>
+
+      <h2>5. Data Sharing</h2>
+      <p>We do not sell, rent, or trade your personal information.</p>
+      <p>Your data may be shared with third parties only in the following circumstances:</p>
+      <ul>
+        <li><strong>Service providers:</strong> Data is transmitted to Firebase (Google) and OpenAI as described in Section 3, solely to provide app functionality</li>
+        <li><strong>Legal requirements:</strong> If required by law, regulation, or legal process</li>
+        <li><strong>Your direction:</strong> When you explicitly choose to export or share data (e.g., configuration files)</li>
+      </ul>
+
+      <h2>6. Data Retention</h2>
+      <ul>
+        <li><strong>Account data and Firestore content</strong> are retained as long as your account exists</li>
+        <li><strong>Voice audio</strong> is ephemeral and not retained after the session ends</li>
+        <li><strong>ICP report PDFs</strong> are retained in Firebase Storage until you delete them or your account</li>
+        <li><strong>Local data</strong> remains on your device until you uninstall the app or clear app data</li>
+        <li><strong>FCM tokens</strong> are retained as long as your account is active</li>
+      </ul>
+
+      <h2>7. Account Deletion and Your Rights</h2>
+      <p>You can delete your account at any time from within the app (Settings &gt; Delete Account). When you delete your account:</p>
+      <ul>
+        <li>Your Firebase Authentication account is permanently deleted</li>
+        <li>All data in Firebase Firestore associated with your account (tank profiles, parameters, livestock, journal entries, assistant history, health reports, ICP reports, maintenance tasks, alerts) is permanently deleted via a GDPR-compliant cascade deletion</li>
+        <li>All files in Firebase Storage associated with your account (ICP report PDFs) are permanently deleted</li>
+        <li>Device telemetry data in Firebase Realtime Database associated with your account is permanently deleted</li>
+        <li>Local data on your device remains until you uninstall the app</li>
+      </ul>
+      <p>Under applicable data protection laws (including GDPR), you may also have the right to:</p>
+      <ul>
+        <li><strong>Access</strong> the personal data we hold about you</li>
+        <li><strong>Correct</strong> inaccurate personal data</li>
+        <li><strong>Request deletion</strong> of your personal data</li>
+        <li><strong>Object to or restrict</strong> processing of your personal data</li>
+        <li><strong>Data portability</strong> — receive your data in a structured, machine-readable format</li>
+      </ul>
+      <p>To exercise these rights, contact us at the address below.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>ReefIQ is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can delete it.</p>
+
+      <h2>9. Permissions</h2>
+      <p>ReefIQ may request the following device permissions:</p>
+      <ul>
+        <li><strong>Local network access:</strong> To discover and communicate with ReefIQ devices and Apex controllers on your Wi-Fi network</li>
         <li><strong>Bluetooth:</strong> To discover and provision new ReefIQ devices during setup</li>
         <li><strong>Microphone:</strong> To capture voice audio for the ReefIQ Assistant voice conversation feature</li>
-        <li><strong>Notifications:</strong> To show device alerts and fault notifications</li>
+        <li><strong>Notifications:</strong> To deliver device alerts, parameter alerts, and maintenance reminders</li>
+        <li><strong>Location (Android only):</strong> Required by Android for Bluetooth scanning; ReefIQ does not track or store your location</li>
       </ul>
-      <p>You can deny permissions, but related features may not work correctly.</p>
+      <p>You can deny any permission, but related features may not work correctly.</p>
 
-      <h2>Data sharing</h2>
-      <p>ReefIQ does not sell personal data. Data is shared only when needed to provide functionality:</p>
+      <h2>10. Security</h2>
+      <p>We use industry-standard security measures to protect your data, including:</p>
       <ul>
-        <li>Communicating with ReefIQ devices and APEX controllers on your local network</li>
-        <li>Storing and syncing your tank data via Firebase (Google Cloud)</li>
-        <li>Processing assistant conversations via OpenAI</li>
-        <li>Delivering push notifications via Firebase Cloud Messaging</li>
-        <li>Downloading firmware packages from the public ReefIQ release repository</li>
-        <li>Exporting or sharing configuration files when you request it</li>
+        <li>Encrypted local storage for sensitive credentials</li>
+        <li>HTTPS/TLS for all cloud communications</li>
+        <li>Firebase Security Rules to restrict data access to authenticated users</li>
+        <li>Firebase App Check to prevent unauthorized API access</li>
+      </ul>
+      <p>The security of your local network, device, and account credentials is your responsibility.</p>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy as the app evolves. The effective date at the top of this page indicates the latest revision. Continued use of the app after changes constitutes acceptance of the updated policy. If we make material changes, we will make reasonable efforts to notify you.</p>
+
+      <h2>12. Contact</h2>
+      <p>For questions about this Privacy Policy or your data:</p>
+      <ul>
+        <li><strong>Email:</strong> support@baytechsoftware.com</li>
+        <li><strong>Web:</strong> <a href="https://reefiq.tech">reefiq.tech</a></li>
       </ul>
 
-      <h2>Data retention and deletion</h2>
-      <p>Cloud data (tank profiles, parameters, conversation history) is stored in Firebase under your user account. You may delete your account and all associated data at any time through the app. Local data remains on your device until you remove the app or clear app data.</p>
-
-      <h2>Security</h2>
-      <p>ReefIQ uses Firebase Authentication for secure sign-in, HTTPS for all cloud communication, and iOS Keychain for sensitive local credentials. The security of your setup also depends on your local network configuration and the permissions you grant.</p>
-
-      <h2>Contact</h2>
-      <p>For questions about this policy, contact BayTech Software through the public repository: <a href="https://github.com/BayTechSoftware/Hydrythm-Web">ReefIQ Support</a>.</p>
-
-      <h2>Changes</h2>
-      <p>This policy may be updated as ReefIQ evolves. The current version is the one published on this page.</p>
-
-      <footer>ReefIQ Privacy Policy &mdash; BayTech Software</footer>
+      <footer>ReefIQ Privacy Policy &mdash; BayTech Software &mdash; April 2026</footer>
     </article>
   </main>
 </body>

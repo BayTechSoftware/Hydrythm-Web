@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ReefIQ — Reef Aquarium Ecosystem Control App</title>
-  <meta name="description" content="ReefIQ is a mobile app for managing reef aquariums. Control wavemakers, monitor water parameters, track tank history, and get AI-powered reef guidance.">
+  <meta name="description" content="ReefIQ is a mobile app for managing reef aquariums. Control wavemakers, monitor water parameters, analyze ICP reports, track livestock, and get AI-powered reef guidance.">
   <style>
     :root {
       --bg: #f4f8ff;
@@ -76,7 +76,7 @@
     .hero .tagline {
       color: var(--muted);
       font-size: 1.15rem;
-      max-width: 480px;
+      max-width: 520px;
       margin: 0 auto;
     }
 
@@ -130,7 +130,6 @@
       padding: 20px;
     }
 
-
     .feature h3 {
       font-size: 0.95rem;
       margin-bottom: 6px;
@@ -143,9 +142,6 @@
       margin: 0;
       line-height: 1.5;
     }
-
-    .data-section { margin-top: 16px; }
-    .data-section h3 { font-size: 1rem; margin-bottom: 10px; color: var(--text); }
 
     .links {
       display: flex;
@@ -194,21 +190,24 @@
   <main>
     <div class="hero">
       <img src="reefiq_logo.png" alt="ReefIQ" class="hero-logo">
-      <h1>Reef in Motion</h1>
-      <p class="tagline">Control your equipment, monitor water chemistry, track parameters, and get intelligent reef guidance — all in one app.</p>
+      <h1>Intelligent Reefing</h1>
+      <p class="tagline">Control your equipment, monitor water chemistry, analyze reports, track livestock, and get intelligent reef guidance — all in one app.</p>
     </div>
 
     <div class="card">
       <h2>What is ReefIQ?</h2>
       <p>
         ReefIQ is a mobile app for reef aquarium hobbyists. It brings your entire reef ecosystem into one workspace
-        — wavemaker control, water parameter monitoring, tank history tracking, and an AI-powered reef assistant
-        that understands your specific setup.
+        — device control, water parameter monitoring, ICP report analysis, livestock and journal tracking, maintenance
+        scheduling, and an AI-powered reef assistant that understands your specific setup.
       </p>
       <p>
-        Connect your devices over local WiFi for real-time control and monitoring. Sign in to sync your tank profiles,
+        Connect your devices over local Wi-Fi for real-time control and monitoring. Sign in to sync your tank profiles,
         parameter history, and assistant conversations across sessions. The ReefIQ Assistant provides personalized
         guidance based on your actual tank data and water chemistry.
+      </p>
+      <p>
+        Available on iOS and Android.
       </p>
     </div>
 
@@ -216,34 +215,63 @@
       <h2>Features</h2>
       <div class="features">
         <div class="feature">
-
-          <h3>Wavemaker Control</h3>
-          <p>Real-time speed, angle, and motion profile control over your local network. Multiple zone support with drag-to-reorder.</p>
+          <h3>Device Control</h3>
+          <p>Real-time control of ReefIQ devices over your local network. Speed, angle, motion profiles, and multi-zone flow programming.</p>
         </div>
         <div class="feature">
-
           <h3>Parameter Dashboard</h3>
-          <p>Live APEX probe readings and manual test logs on one dashboard. Daily snapshots, history charts, and health-range indicators.</p>
+          <p>Live Apex probe readings and manual test logs on one dashboard. Daily snapshots, history charts, and health-range indicators.</p>
         </div>
         <div class="feature">
-
           <h3>Reef Assistant</h3>
           <p>Text and voice conversations with an AI that knows your tank — livestock, parameters, equipment, and history.</p>
         </div>
         <div class="feature">
-
+          <h3>ICP Report Analysis</h3>
+          <p>Upload ICP water analysis PDFs. AI extracts parameters, flags anomalies, and provides actionable recommendations.</p>
+        </div>
+        <div class="feature">
+          <h3>Health Reports</h3>
+          <p>AI-generated tank health assessments based on your parameters, livestock, and journal history.</p>
+        </div>
+        <div class="feature">
+          <h3>Livestock Tracking</h3>
+          <p>Track coral, fish, and invertebrates. Record species, placement, health notes, and date added.</p>
+        </div>
+        <div class="feature">
+          <h3>Journal &amp; Correlations</h3>
+          <p>Log dosing, water changes, and observations. AI identifies correlations between actions and parameter changes.</p>
+        </div>
+        <div class="feature">
+          <h3>Maintenance Scheduler</h3>
+          <p>Schedule recurring tasks with push notification reminders. Track completion history and stay on top of maintenance.</p>
+        </div>
+        <div class="feature">
+          <h3>Parameter Alerts</h3>
+          <p>Set thresholds for any parameter. Get push notifications when values go out of range.</p>
+        </div>
+        <div class="feature">
           <h3>Over-the-Air Updates</h3>
-          <p>Update your device firmware directly from the app. Verified integrity, one-tap install.</p>
+          <p>Update device firmware directly from the app. Verified integrity, one-tap install.</p>
         </div>
       </div>
     </div>
 
     <div class="card">
+      <h2>Hardware Ecosystem</h2>
+      <ul>
+        <li><strong>ReefIQ Flo</strong> — Programmable flow oscillator with stepper motor, magnetic encoder feedback, and multi-zone sweep profiles</li>
+        <li><strong>ReefIQ Specto</strong> — 14-channel spectral light meter for PAR, CCT, and spectrum analysis</li>
+        <li><strong>ReefIQ Cora</strong> — Touchscreen hub with multi-tank dashboard, device management, and voice assistant</li>
+      </ul>
+    </div>
+
+    <div class="card">
       <h2>Integrations</h2>
       <ul>
-        <li><strong>Neptune APEX</strong> — Live probe readings (pH, ORP, temperature, salinity, alkalinity, calcium, magnesium, nitrate, phosphate) with automatic daily snapshots</li>
-        <li><strong>ReefIQ FlowMaster</strong> — Stepper-driven wavemaker with encoder feedback and multi-zone profiles</li>
-        <li><strong>ReefIQ Mini</strong> — Compact reef monitor with TFT display</li>
+        <li><strong>Neptune Apex</strong> — Live probe readings (pH, ORP, temperature, salinity, alkalinity, calcium, magnesium, nitrate, phosphate) with automatic daily snapshots over your local network</li>
+        <li><strong>OpenAI</strong> — Powers the Reef Assistant (text and voice), ICP analysis, health reports, and journal correlations</li>
+        <li><strong>Firebase</strong> — Secure cloud sync for tank data, parameters, assistant history, and push notifications</li>
       </ul>
     </div>
 
@@ -260,7 +288,7 @@
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
     </div>
-    <p>&copy; 2026 ReefIQ. All rights reserved.</p>
+    <p>&copy; 2026 BayTech Software. All rights reserved.</p>
   </footer>
 </body>
 </html>

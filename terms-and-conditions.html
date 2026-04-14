@@ -1,157 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ReefIQ Terms and Conditions</title>
-    <style>
-      :root {
-        color-scheme: light;
-        --bg: #f4f8ff;
-        --card: #ffffff;
-        --text: #17233c;
-        --muted: #56657f;
-        --line: #d7e3fb;
-        --accent: #0070ff;
-      }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReefIQ Terms and Conditions</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5e6b85;
+      --border: #dde2ec;
+      --accent: #2563eb;
+    }
 
-      body {
-        margin: 0;
-        background: radial-gradient(circle at top, #ffffff, var(--bg));
-        color: var(--text);
-        font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-      }
+    * { box-sizing: border-box; }
 
-      main {
-        max-width: 880px;
-        margin: 0 auto;
-        padding: 48px 20px 80px;
-      }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
 
-      .card {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: 24px;
-        padding: 28px;
-        box-shadow: 0 18px 40px rgba(0, 86, 198, 0.08);
-      }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
 
-      h1, h2 {
-        line-height: 1.2;
-      }
+    .shell {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 12px 32px rgba(20, 32, 51, 0.06);
+    }
 
-      h1 {
-        margin-top: 0;
-        margin-bottom: 8px;
-        font-size: 2rem;
-      }
+    .brand {
+      margin: 0 0 6px;
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
 
-      h2 {
-        margin-top: 28px;
-        font-size: 1.15rem;
-      }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 2.5rem);
+      line-height: 1.15;
+    }
 
-      p, li {
-        color: var(--muted);
-      }
+    .effective {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
 
-      .eyebrow {
-        color: var(--accent);
-        text-transform: uppercase;
-        letter-spacing: 0.12em;
-        font-size: 0.82rem;
-        font-weight: 700;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <div class="card">
-        <div class="eyebrow">ReefIQ</div>
-        <h1>Terms and Conditions</h1>
-        <p>Effective date: March 25, 2026</p>
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 1.15rem;
+    }
 
-        <p>
-          ReefIQ is a reef aquarium ecosystem management application by BayTech Software. It provides local device
-          control, controller dashboards, parameter tracking, and AI-powered reef guidance. By using the app, you
-          agree to use it at your own discretion and to independently validate any operational, livestock, chemistry,
-          or equipment decision before acting on it.
-        </p>
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 1.02rem;
+    }
 
-        <h2>Advisory Use Only</h2>
-        <p>
-          ReefIQ and the ReefIQ Assistant provide general information and convenience features only. They do not
-          replace experienced reef-keeping judgment, manufacturer documentation, local safety checks, or qualified
-          professional advice.
-        </p>
+    p, ul {
+      margin: 0 0 14px;
+    }
 
-        <h2>User Responsibility</h2>
-        <p>
-          You are solely responsible for your aquarium, livestock, equipment, local network, automation, firmware
-          updates, and any manual or automatic configuration changes you make through the app.
-        </p>
+    ul {
+      padding-left: 20px;
+    }
 
-        <h2>Local Integrations</h2>
-        <p>
-          The app may connect to local devices such as ReefIQ controllers and Neptune APEX systems. Accuracy,
-          freshness, and availability of those local readings depend on the underlying hardware, network conditions,
-          and the data exposed by those systems.
-        </p>
+    li + li {
+      margin-top: 6px;
+    }
 
-        <h2>AI Assistant and Third-Party Processing</h2>
-        <p>
-          The ReefIQ Assistant is powered by OpenAI. When you use text or voice conversations, your messages, voice
-          audio, tank profile data, and parameter readings are sent to OpenAI's servers for processing. Voice
-          conversations use OpenAI's Realtime API which processes microphone audio in real time. OpenAI's terms of
-          service and data usage policies apply to this processing.
-        </p>
-        <p>
-          Assistant responses may be incomplete, outdated, or incorrect. Do not rely on assistant responses as the
-          sole basis for reef chemistry, livestock, or equipment decisions. BayTech Software is not responsible for
-          the accuracy or availability of AI-generated responses.
-        </p>
+    footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
 
-        <h2>Accounts and Data</h2>
-        <p>
-          If you sign in, you are responsible for maintaining control of your account credentials. You control what
-          tank information you save and whether you allow the ReefIQ Assistant to use your saved tank data for
-          personalized responses via the data consent toggle in Settings. You may delete your account and all
-          associated cloud data at any time.
-        </p>
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="shell">
+      <p class="brand">ReefIQ</p>
+      <h1>Terms and Conditions</h1>
+      <p class="effective"><strong>Effective date:</strong> April 14, 2026</p>
 
-        <h2>Availability</h2>
-        <p>
-          Features may change, be limited, or stop working without notice. Integrations may depend on third-party
-          systems (including OpenAI, Firebase, and Neptune Systems), firmware versions, local device availability,
-          and network access.
-        </p>
+      <p>By using the ReefIQ mobile application, firmware, hardware devices, or related cloud services (collectively, the "Service"), you agree to these Terms and Conditions. If you do not agree, do not use the Service.</p>
 
-        <h2>Limitation of Liability</h2>
-        <p>
-          To the maximum extent allowed by law, ReefIQ, BayTech Software, and related contributors are not liable
-          for losses, damages, livestock harm, equipment damage, water-quality events, or business interruption
-          arising from use of the app, controller integrations, firmware updates, AI assistant output, or third-party
-          service availability.
-        </p>
+      <h2>1. Definitions</h2>
+      <ul>
+        <li><strong>"BayTech Software"</strong> (also "we", "us", "our") refers to the entity that develops and operates ReefIQ.</li>
+        <li><strong>"ReefIQ"</strong> refers to the mobile application, firmware, hardware devices, and cloud services provided by BayTech Software.</li>
+        <li><strong>"User"</strong> (also "you", "your") refers to any individual who uses the Service.</li>
+      </ul>
 
-        <h2>Intellectual Property</h2>
-        <p>
-          ReefIQ, its firmware, mobile application, and related assets are the property of BayTech Software. You may
-          not reverse-engineer, redistribute, or create derivative works from the software without permission.
-        </p>
+      <h2>2. Account Registration</h2>
+      <ul>
+        <li>You must create an account to use cloud-connected features. Account creation is available via email/password, Google Sign-In, or Sign in with Apple.</li>
+        <li>You must verify your email address to access certain features.</li>
+        <li>You are responsible for maintaining the confidentiality of your account credentials. Do not share your password with others.</li>
+        <li>You must provide accurate information during registration. You may not create accounts for fraudulent or unlawful purposes.</li>
+        <li>You must be at least 13 years of age to create an account.</li>
+      </ul>
 
-        <h2>Changes to Terms</h2>
-        <p>
-          These terms may be updated as the product evolves. Continued use of the app after changes constitutes
-          acceptance of the updated terms.
-        </p>
+      <h2>3. Acceptable Use</h2>
+      <p>You may use ReefIQ for personal, non-commercial aquarium management. You agree not to:</p>
+      <ul>
+        <li>Reverse-engineer, decompile, or disassemble the software, firmware, or related services</li>
+        <li>Redistribute, sublicense, or create derivative works from the Service</li>
+        <li>Use the Service for any unlawful, abusive, or harmful purpose</li>
+        <li>Attempt to gain unauthorized access to other users' data or our infrastructure</li>
+        <li>Circumvent rate limits, usage quotas, or security measures</li>
+        <li>Use automated tools (bots, scrapers) to access the Service without authorization</li>
+      </ul>
 
-        <h2>Contact</h2>
-        <p>
-          If you have questions about these terms, contact BayTech Software through the support channel associated
-          with your product or the <a href="https://github.com/BayTechSoftware/Hydrythm-Web">public repository</a>.
-        </p>
-      </div>
-    </main>
-  </body>
+      <h2>4. Device Control</h2>
+      <p>ReefIQ communicates with hardware devices (Flo, Specto, Cora, and other devices) over your local network and via Bluetooth Low Energy (BLE) during provisioning. You are responsible for:</p>
+      <ul>
+        <li>The safe operation of your aquarium equipment</li>
+        <li>Proper equipment maintenance, monitoring, and safety precautions</li>
+        <li>Your local network configuration and security</li>
+      </ul>
+      <p>ReefIQ is a control and monitoring interface. It does not replace direct equipment supervision, safety devices, or professional aquarium maintenance.</p>
+
+      <h2>5. Neptune Apex Integration</h2>
+      <p>ReefIQ can connect to a Neptune Systems Apex controller on your local network. This integration:</p>
+      <ul>
+        <li>Operates entirely over your local network — data does not pass through our servers</li>
+        <li>Stores your Apex IP address and credentials locally on your device in encrypted storage</li>
+        <li>Is not affiliated with, endorsed by, or supported by Neptune Systems</li>
+      </ul>
+      <p>You are responsible for the accuracy and security of your Apex credentials.</p>
+
+      <h2>6. AI-Powered Features</h2>
+
+      <h3>6.1 ReefIQ Assistant (Text and Voice)</h3>
+      <p>The ReefIQ Assistant provides general reef aquarium guidance powered by OpenAI. Key terms:</p>
+      <ul>
+        <li><strong>Text chat</strong> messages and responses are stored in Firebase Firestore under your account. A limit of 100 messages per day applies.</li>
+        <li><strong>Voice chat</strong> audio is transmitted in real time to OpenAI's Realtime API for processing. Voice sessions are ephemeral — audio is not stored by BayTech Software.</li>
+        <li>All AI-generated responses are <strong>advisory only</strong>. They do not constitute professional advice and should not replace your own testing, research, or consultation with qualified reef experts.</li>
+      </ul>
+
+      <h3>6.2 ICP Report Analysis</h3>
+      <p>When you upload an ICP (water analysis) report PDF, the document is processed by OpenAI's GPT API to extract and analyze parameters. The uploaded PDF and analysis results are stored under your account.</p>
+
+      <h3>6.3 Health Reports</h3>
+      <p>Health reports are generated by sending your tank data (parameters, livestock, journal entries) to OpenAI's GPT API. Reports are AI-generated assessments and are <strong>advisory only</strong>.</p>
+
+      <h3>6.4 Journal AI Correlations</h3>
+      <p>Journal entries may be analyzed by OpenAI's GPT API to identify correlations between your actions and tank parameter changes. These correlations are <strong>advisory only</strong>.</p>
+
+      <h3>6.5 Disclaimer for All AI Features</h3>
+      <p>BayTech Software is <strong>not liable</strong> for any outcomes resulting from following AI-generated advice, analysis, or recommendations. AI features use third-party models (OpenAI) that may produce inaccurate, incomplete, or inappropriate responses. You use AI features at your own risk.</p>
+
+      <h2>7. Push Notifications</h2>
+      <p>ReefIQ uses Firebase Cloud Messaging (FCM) to deliver push notifications for:</p>
+      <ul>
+        <li>Maintenance task reminders</li>
+        <li>Parameter alert triggers</li>
+      </ul>
+      <p>You can disable notifications at any time through your device settings or within the app.</p>
+
+      <h2>8. Data and Privacy</h2>
+      <p>Your use of the Service is also governed by our <a href="https://reefiq.tech/privacy-policy.html">Privacy Policy</a>. Key points:</p>
+      <ul>
+        <li>Account data, tank profiles, parameters, livestock, journal entries, assistant history, health reports, and maintenance tasks are stored in Firebase (Google Cloud)</li>
+        <li>Device telemetry is stored in Firebase Realtime Database</li>
+        <li>ICP report PDFs are stored in Firebase Storage</li>
+        <li>Local data (preferences, Apex credentials) is stored in encrypted local storage on your device</li>
+        <li>You may delete your account and all associated data at any time from within the app</li>
+      </ul>
+
+      <h2>9. Account Deletion</h2>
+      <p>You may delete your account at any time from the app (Settings &gt; Delete Account). Upon deletion:</p>
+      <ul>
+        <li>Your authentication account is permanently removed</li>
+        <li>All associated cloud data (Firestore, Realtime Database, Storage) is permanently deleted via a GDPR-compliant cascade</li>
+        <li>Local data on your device remains until you uninstall the app</li>
+      </ul>
+      <p>This action is irreversible.</p>
+
+      <h2>10. Intellectual Property</h2>
+      <p>ReefIQ, including its mobile application, firmware, hardware designs, cloud functions, branding, and all related assets, is the intellectual property of BayTech Software. All rights are reserved.</p>
+      <p>You are granted a limited, non-exclusive, non-transferable, revocable license to use the Service for personal, non-commercial aquarium management, subject to these Terms.</p>
+
+      <h2>11. Third-Party Services</h2>
+      <p>ReefIQ integrates with third-party services including Firebase (Google), OpenAI, Google Sign-In, and Sign in with Apple. Your use of these services is subject to their respective terms:</p>
+      <ul>
+        <li><a href="https://policies.google.com/terms">Google Terms of Service</a></li>
+        <li><a href="https://firebase.google.com/terms">Firebase Terms of Service</a></li>
+        <li><a href="https://openai.com/terms">OpenAI Terms of Use</a></li>
+        <li><a href="https://www.apple.com/legal/internet-services/itunes/">Apple Terms and Conditions</a></li>
+      </ul>
+      <p>BayTech Software is not responsible for the availability, accuracy, or conduct of third-party services.</p>
+
+      <h2>12. Limitation of Liability</h2>
+      <p>The Service is provided <strong>"as is"</strong> and <strong>"as available"</strong> without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+      <p>BayTech Software is <strong>not liable</strong> for any damages arising from your use of the Service, including but not limited to:</p>
+      <ul>
+        <li>Equipment damage or malfunction</li>
+        <li>Livestock injury or loss</li>
+        <li>Data loss or corruption</li>
+        <li>Consequences of following AI-generated advice</li>
+        <li>Interruptions in service availability</li>
+        <li>Actions taken based on parameter readings, alerts, or reports</li>
+      </ul>
+      <p>Your total liability to BayTech Software, and BayTech Software's total liability to you, shall not exceed the amounts you have paid to BayTech Software in the twelve (12) months preceding the claim.</p>
+
+      <h2>13. Indemnification</h2>
+      <p>You agree to indemnify, defend, and hold harmless BayTech Software from any claims, damages, losses, or expenses (including reasonable attorney fees) arising from your use of the Service, your violation of these Terms, or your violation of any third-party rights.</p>
+
+      <h2>14. Termination</h2>
+      <p>We may suspend or terminate your access to the Service at any time, with or without cause, and with or without notice. Upon termination:</p>
+      <ul>
+        <li>Your right to use the Service ceases immediately</li>
+        <li>We may delete your account and associated data</li>
+        <li>Sections that by their nature should survive termination (Limitation of Liability, Indemnification, Intellectual Property) shall survive</li>
+      </ul>
+
+      <h2>15. Changes to These Terms</h2>
+      <p>We may update these Terms as the Service evolves. The effective date at the top of this page indicates the latest revision. Continued use of the Service after changes constitutes acceptance of the updated Terms. If we make material changes, we will make reasonable efforts to notify you.</p>
+
+      <h2>16. Governing Law</h2>
+      <p>These Terms shall be governed by and construed in accordance with applicable law, without regard to conflict of law provisions.</p>
+
+      <h2>17. Severability</h2>
+      <p>If any provision of these Terms is found to be unenforceable, the remaining provisions shall continue in full force and effect.</p>
+
+      <h2>18. Contact</h2>
+      <p>For questions about these Terms:</p>
+      <ul>
+        <li><strong>Email:</strong> support@baytechsoftware.com</li>
+        <li><strong>Web:</strong> <a href="https://reefiq.tech">reefiq.tech</a></li>
+      </ul>
+
+      <footer>ReefIQ Terms and Conditions &mdash; BayTech Software &mdash; April 2026</footer>
+    </article>
+  </main>
+</body>
 </html>
