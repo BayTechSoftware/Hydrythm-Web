@@ -1,8 +1,8 @@
 {
   "version": "0.8.6",
   "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
-  "sha256": "3b3a99b0694e39ff5ed00b9577010a73a1de2d68da5874c6440259e9ff557dc0",
-  "releaseNotes": "ReefIQ FlowMaster v0.8.6 — Fixed device suffix using OUI bytes instead of device-unique bytes (all devices showed same suffix). Fixed MAC address display order to standard notation.",
-  "publishedAt": "2026-04-10T01:00:00Z",
+  "sha256": "c4b5d5de1b6f4762dad23786b96db2ca97d144a3ebcb6bf5d8ab9c12d0bc4c4f",
+  "releaseNotes": "ReefIQ Flo v0.8.6 — Rebrand: FlowMaster renamed to Flo across all web UI pages.",
+  "publishedAt": "2026-04-15T00:00:00Z",
   "channel": "stable"
 }
