@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReefIQ — Delete Account</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5e6b85;
+      --border: #dde2ec;
+      --accent: #2563eb;
+      --danger: #dc2626;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+
+    .shell {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 12px 32px rgba(20, 32, 51, 0.06);
+    }
+
+    .brand {
+      margin: 0 0 6px;
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 2.5rem);
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 1.15rem;
+    }
+
+    p, ul, ol {
+      margin: 0 0 14px;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .warning {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 20px 0;
+      color: var(--danger);
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="shell">
+      <p class="brand">ReefIQ</p>
+      <h1>Delete Your Account</h1>
+
+      <p>You can delete your ReefIQ account and all associated data directly from within the app. No email or support request is needed.</p>
+
+      <h2>How to Delete Your Account</h2>
+      <ol>
+        <li>Open the <strong>ReefIQ</strong> app on your phone</li>
+        <li>Go to the <strong>Settings</strong> tab (bottom navigation)</li>
+        <li>Scroll to the bottom and tap <strong>Delete Account</strong></li>
+        <li>Confirm the deletion when prompted</li>
+      </ol>
+
+      <div class="warning">
+        This action is permanent and cannot be undone.
+      </div>
+
+      <h2>What Gets Deleted</h2>
+      <p>When you delete your account, the following data is permanently removed:</p>
+      <ul>
+        <li><strong>Authentication account</strong> — your Firebase login is permanently deleted</li>
+        <li><strong>Tank profiles</strong> — all tank names, settings, and configurations</li>
+        <li><strong>Water parameters</strong> — all stored readings (manual, Apex, device)</li>
+        <li><strong>Livestock records</strong> — coral, fish, and invertebrate entries</li>
+        <li><strong>Journal entries</strong> — all text and voice journal entries</li>
+        <li><strong>AI Assistant history</strong> — all chat and voice conversation transcripts</li>
+        <li><strong>Health reports</strong> — all AI-generated health assessments</li>
+        <li><strong>ICP reports</strong> — uploaded PDFs and analysis results</li>
+        <li><strong>Maintenance tasks</strong> — schedules and completion history</li>
+        <li><strong>Parameter alerts</strong> — all configured alert rules</li>
+        <li><strong>Device registrations</strong> — device links to your account</li>
+        <li><strong>Device telemetry</strong> — all stored sensor readings</li>
+        <li><strong>Push notification tokens</strong> — FCM registration</li>
+      </ul>
+
+      <h2>What Is NOT Deleted</h2>
+      <ul>
+        <li><strong>Local app data</strong> — preferences stored on your device remain until you uninstall the app</li>
+        <li><strong>Device firmware</strong> — your ReefIQ hardware devices (Flo, Cora, Specto) continue to operate independently</li>
+      </ul>
+
+      <h2>Additional Retention</h2>
+      <p>No user data is retained after account deletion. The deletion is carried out via a GDPR-compliant cascade that removes all associated data from Firebase Authentication, Firestore, Realtime Database, and Firebase Storage.</p>
+
+      <h2>Can't Access the App?</h2>
+      <p>If you are unable to access the app to delete your account, contact us at <a href="mailto:reefiq.tech@gmail.com">reefiq.tech@gmail.com</a> with the email address associated with your account and we will process the deletion manually.</p>
+
+      <footer>ReefIQ &mdash; BayTech Software &mdash; <a href="privacy-policy.html">Privacy Policy</a> &mdash; <a href="terms-and-conditions.html">Terms</a></footer>
+    </article>
+  </main>
+</body>
+</html>
