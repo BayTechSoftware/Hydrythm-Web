@@ -1,6 +1,6 @@
 {
   "version": "0.8.6",
-  "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/latest/Hydrythm.ino.bin",
+  "url": "https://firebasestorage.googleapis.com/v0/b/hydrythm-prod.firebasestorage.app/o/firmware%2Fflo%2Freefiq_flo.ino.bin?alt=media",
   "sha256": "c4b5d5de1b6f4762dad23786b96db2ca97d144a3ebcb6bf5d8ab9c12d0bc4c4f",
   "releaseNotes": "ReefIQ Flo v0.8.6 — Rebrand: FlowMaster renamed to Flo across all web UI pages.",
   "publishedAt": "2026-04-15T00:00:00Z",
