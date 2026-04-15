@@ -1,0 +1,9 @@
+{
+  "version": "1.3.0",
+  "url": "https://raw.githubusercontent.com/BayTechSoftware/Hydrythm-Web/main/firmware/controlmaster/latest/reefiq_controlmaster.bin",
+  "sha256": "306fcb2ed88d6fd9c84e0e372e083b63a8405253658c9993a33a609a6e44943c",
+  "size": 2947392,
+  "releaseNotes": "ReefIQ Cora v1.3.0 — Rebrand ControlMaster to Cora, voice session limit reached message, usage quota enforcement",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "channel": "stable"
+}
