@@ -1,8 +1,8 @@
 {
-  "version": "0.8.6",
+  "version": "0.9.9",
   "url": "https://firebasestorage.googleapis.com/v0/b/hydrythm-prod.firebasestorage.app/o/firmware%2Fflo%2Freefiq_flo.ino.bin?alt=media",
-  "sha256": "c4b5d5de1b6f4762dad23786b96db2ca97d144a3ebcb6bf5d8ab9c12d0bc4c4f",
-  "releaseNotes": "ReefIQ Flo v0.8.6 — Rebrand: FlowMaster renamed to Flo across all web UI pages.",
-  "publishedAt": "2026-04-15T00:00:00Z",
+  "sha256": "27520ffe14e72aab0b5b950b8582328f5b6d9060622a00415dbf6c72a66b6b9e",
+  "releaseNotes": "ReefIQ Flo v0.9.9 — Major reliability & safety update: redesigned seek-less homing (fixes recurring home failures), adjustable stall-protection sensitivity (Manual/Low/Med/High), a non-disableable jam / stuck-encoder / over-temperature safety cutout, smoother sweep with shortest-route recovery, and onboarding & accuracy fixes.",
+  "publishedAt": "2026-06-16T19:56:43Z",
   "channel": "stable"
 }
