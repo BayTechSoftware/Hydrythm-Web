@@ -114,10 +114,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   background: rgba(9,14,28,0.62);
   border-bottom: 1px solid var(--line);
 }
-.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
 .brand { display: inline-flex; align-items: center; text-decoration: none; }
 /* Real wordmark on a white chip so the two-tone logo stays legible on the dark nav */
-.brand img { height: 40px; width: auto; display: block; background: #fff; padding: 7px 12px; border-radius: 11px; box-shadow: 0 6px 18px rgba(0,0,0,0.28), 0 0 0 1px rgba(255,255,255,0.06); }
+.brand img { height: 50px; width: auto; display: block; background: #fff; padding: 6px 14px; border-radius: 13px; box-shadow: 0 6px 18px rgba(0,0,0,0.28), 0 0 0 1px rgba(255,255,255,0.06); }
 .nav-links { display: flex; align-items: center; gap: 30px; }
 .nav-links a { color: var(--text-2); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color .2s; }
 .nav-links a:hover { color: #fff; }
@@ -313,7 +313,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
   .hw-showcase .hw-media { order: 1; min-height: 240px; }
   .hw-showcase .hw-media::after { background: linear-gradient(0deg, #0A0F1E 0%, transparent 45%); }
   .nav-links { display: none; }
-  .nav-links.open { display: flex; position: absolute; top: 68px; left: 0; right: 0; flex-direction: column; gap: 4px; padding: 14px 24px 20px; background: rgba(9,14,28,0.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(16px); }
+  .nav-links.open { display: flex; position: absolute; top: 76px; left: 0; right: 0; flex-direction: column; gap: 4px; padding: 14px 24px 20px; background: rgba(9,14,28,0.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(16px); }
   .nav-links.open a { padding: 10px 0; }
   .nav-toggle { display: inline-flex; background: none; border: 1px solid var(--line-strong); border-radius: 10px; width: 42px; height: 40px; color: #fff; align-items: center; justify-content: center; cursor: pointer; }
   .nav-toggle svg { width: 22px; height: 22px; }
