@@ -1,9 +1,12 @@
 # Hydrythm-Web
 
-Public release assets for Hydrythm mobile and firmware distribution.
+Public marketing site and firmware-release manifests for ReefIQ — served at
+[reefiq.tech](https://reefiq.tech) via GitHub Pages (`main` branch, `CNAME`).
 
 ## Published paths
 
-- Firmware manifest: `firmware/latest/manifest.json`
-- Latest binary: `firmware/latest/Hydrythm.ino.bin`
-- Privacy policy: `privacy-policy.md`
+- **Site:** `index.html` + `privacy-policy.html`, `terms-and-conditions.html`, `delete-account.html`
+- **Flo firmware manifest:** `firmware/latest/manifest.json`
+  (the binary itself is hosted in ReefIQ Cloud storage — see the manifest's `url` field)
+- **Hydrythm Mini firmware:** `hydrythm-mini/firmware/latest/manifest.json` + `firmware.bin`
+- **SEO:** `sitemap.xml`, `robots.txt`

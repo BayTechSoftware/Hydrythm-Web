@@ -6,6 +6,7 @@
   <title>Delete Your Account — ReefIQ</title>
   <meta name="description" content="How to delete your ReefIQ account and all associated data.">
   <meta name="theme-color" content="#0A0F1E">
+  <link rel="canonical" href="https://reefiq.tech/delete-account.html">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -26,7 +27,7 @@
         <a href="terms-and-conditions.html">Terms</a>
         <a class="nav-cta" href="index.html#download">Get the App</a>
       </nav>
-      <button class="nav-toggle" id="navtoggle" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg></button>
+      <button class="nav-toggle" id="navtoggle" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg></button>
     </div>
   </header>
 
@@ -39,7 +40,7 @@
   </section>
 
   <main class="legal">
-    <a class="back-home" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg> Back to home</a>
+    <a class="back-home" href="index.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg> Back to home</a>
     <div class="legal-doc">
       <p class="lead">You can delete your ReefIQ account and all associated data directly from within the app. No email or support request is needed.</p>
 
@@ -95,7 +96,7 @@
 
   <script>
     var t = document.getElementById('navtoggle'), l = document.getElementById('navlinks');
-    if (t) t.addEventListener('click', function(){ l.classList.toggle('open'); });
+    if (t) t.addEventListener('click', function(){ l.classList.toggle('open'); t.setAttribute('aria-expanded', l.classList.contains('open') ? 'true' : 'false'); });
   </script>
 </body>
 </html>

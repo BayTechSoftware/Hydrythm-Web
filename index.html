@@ -6,11 +6,20 @@
   <title>ReefIQ — Intelligent Reefing</title>
   <meta name="description" content="ReefIQ is an intelligent reef-keeping ecosystem — precision hardware, a live parameter dashboard, cloud sync, and an AI reef assistant that knows your tank. Control your reef from one beautiful app.">
   <meta name="theme-color" content="#0A0F1E">
+  <link rel="canonical" href="https://reefiq.tech/">
+  <meta property="og:site_name" content="ReefIQ">
   <meta property="og:title" content="ReefIQ — Intelligent Reefing">
   <meta property="og:description" content="Precision reef hardware, a live parameter dashboard, and an AI assistant that knows your tank — all in one ecosystem.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://reefiq.tech">
-  <meta property="og:image" content="https://reefiq.tech/reefiq_logo.png">
+  <meta property="og:url" content="https://reefiq.tech/">
+  <meta property="og:image" content="https://reefiq.tech/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ReefIQ — Intelligent Reefing">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ReefIQ — Intelligent Reefing">
+  <meta name="twitter:description" content="Precision reef hardware, a live parameter dashboard, and an AI assistant that knows your tank — all in one ecosystem.">
+  <meta name="twitter:image" content="https://reefiq.tech/og-image.png">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -35,8 +44,8 @@
         <a href="#assistant">Assistant</a>
         <a class="nav-cta" href="#download">Get the App</a>
       </nav>
-      <button class="nav-toggle" id="navtoggle" aria-label="Menu">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+      <button class="nav-toggle" id="navtoggle" aria-label="Menu" aria-controls="navlinks" aria-expanded="false">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
       </button>
     </div>
   </header>
@@ -49,19 +58,19 @@
         <h1 class="reveal d1">The reef that <span class="grad-text">runs itself</span>, watched over by AI.</h1>
         <p class="sub reveal d2">ReefIQ unites precision hardware, a live water-chemistry dashboard, and an AI assistant that truly understands your tank — one calm, connected ecosystem for the reef you've worked hard to build.</p>
         <div class="hero-cta reveal d3">
-          <a class="btn btn-primary" href="#download">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.1 1.2-.4 2.4-1.1 3.2-.8.9-2 1.6-3.2 1.5-.1-1.2.4-2.3 1.1-3.1C14.1 2.7 15.4 2 16.5 2zm3.4 16c-.6 1.3-.9 1.9-1.6 3.1-1 1.6-2.4 3.6-4.1 3.6-1.5 0-1.9-1-4-.9-2 0-2.5 1-4 1-1.7 0-3-1.8-4-3.4C1.4 18 1 13.5 2.9 11c1-1.4 2.5-2.2 3.9-2.2 1.5 0 2.4 1 3.7 1 1.2 0 2-1 3.7-1 1.3 0 2.6.7 3.6 1.9-3.2 1.7-2.7 6.2.1 7.3z"/></svg>
-            <span class="stack"><small>Download on the</small><b>App Store</b></span>
-          </a>
-          <a class="btn btn-ghost" href="#download">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.3v16.8c0 .6.2 1 .5 1.3l.1.1L13 12.1v-.2L3.7 2.2l-.1.1zM16.3 15.4l-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1.1.6 1.1 1.6 0 2.2l-3.7 2.1-.1-.1zM14 13.5l-9.4 6.4c.4.4 1 .4 1.7.1l11-6.3-3.3-2.3zm3.3-6.7L6.3 4.1c-.7-.4-1.3-.3-1.7.1L14 10.6l3.3-3.8z"/></svg>
-            <span class="stack"><small>Get it on</small><b>Google Play</b></span>
-          </a>
+          <span class="btn btn-primary btn-soon" role="button" aria-disabled="true">
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.1 1.2-.4 2.4-1.1 3.2-.8.9-2 1.6-3.2 1.5-.1-1.2.4-2.3 1.1-3.1C14.1 2.7 15.4 2 16.5 2zm3.4 16c-.6 1.3-.9 1.9-1.6 3.1-1 1.6-2.4 3.6-4.1 3.6-1.5 0-1.9-1-4-.9-2 0-2.5 1-4 1-1.7 0-3-1.8-4-3.4C1.4 18 1 13.5 2.9 11c1-1.4 2.5-2.2 3.9-2.2 1.5 0 2.4 1 3.7 1 1.2 0 2-1 3.7-1 1.3 0 2.6.7 3.6 1.9-3.2 1.7-2.7 6.2.1 7.3z"/></svg>
+            <span class="stack"><small>Coming soon to</small><b>App Store</b></span>
+          </span>
+          <span class="btn btn-ghost btn-soon" role="button" aria-disabled="true">
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.3v16.8c0 .6.2 1 .5 1.3l.1.1L13 12.1v-.2L3.7 2.2l-.1.1zM16.3 15.4l-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1.1.6 1.1 1.6 0 2.2l-3.7 2.1-.1-.1zM14 13.5l-9.4 6.4c.4.4 1 .4 1.7.1l11-6.3-3.3-2.3zm3.3-6.7L6.3 4.1c-.7-.4-1.3-.3-1.7.1L14 10.6l3.3-3.8z"/></svg>
+            <span class="stack"><small>Coming soon to</small><b>Google Play</b></span>
+          </span>
         </div>
         <div class="hero-badges reveal d4">
-          <div class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Live parameter dashboard</div>
-          <div class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> AI reef assistant</div>
-          <div class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Works with your gear</div>
+          <div class="hero-badge"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Live parameter dashboard</div>
+          <div class="hero-badge"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> AI reef assistant</div>
+          <div class="hero-badge"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Works with your gear</div>
         </div>
       </div>
 
@@ -87,47 +96,47 @@
       </div>
       <div class="feat-grid">
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3 8 4-16 3 8h4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3 8 4-16 3 8h4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>Live parameter dashboard</h3>
           <p>Real-time readings and manual test logs on one screen — daily snapshots, history charts, and clear health-range indicators.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 8l7-5 7 5M5 8v8l7 5 7-5V8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 8l7-5 7 5M5 8v8l7 5 7-5V8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>Precision device control</h3>
           <p>Control your ReefIQ hardware over local Wi-Fi — flow speed, sweep angle, motion profiles, and multi-zone programming, in an instant.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 5.4L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.6-1.6L12 2z" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 5.4L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.6-1.6L12 2z" stroke-linejoin="round"/></svg></div>
           <h3>AI reef assistant</h3>
           <p>Chat by text or voice with an assistant that knows your livestock, parameters, equipment, and history — advice tuned to your tank.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3M16 3h3a2 2 0 012 2v3M8 21H5a2 2 0 01-2-2v-3M16 21h3a2 2 0 002-2v-3M9 12h6M12 9v6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3M16 3h3a2 2 0 012 2v3M8 21H5a2 2 0 01-2-2v-3M16 21h3a2 2 0 002-2v-3M9 12h6M12 9v6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>ICP report analysis</h3>
           <p>Upload an ICP water-analysis PDF and get parameters extracted, anomalies flagged, and clear, actionable recommendations.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z" stroke-linejoin="round"/><path d="M8 20h8M12 16v4M8 9l2.5 2.5L16 7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z" stroke-linejoin="round"/><path d="M8 20h8M12 16v4M8 9l2.5 2.5L16 7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>Health reports</h3>
           <p>Generate a whole-tank health assessment from your parameters, livestock, and journal — a second opinion, on demand.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-4-3-8-6.5-8-11a4 4 0 018-1 4 4 0 018 1c0 4.5-4 8-8 11z" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-4-3-8-6.5-8-11a4 4 0 018-1 4 4 0 018 1c0 4.5-4 8-8 11z" stroke-linejoin="round"/></svg></div>
           <h3>Livestock &amp; journal</h3>
           <p>Track coral, fish, and inverts, log dosing and water changes, and let ReefIQ surface correlations between what you do and what changes.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>Alerts &amp; reminders</h3>
           <p>Set thresholds on any parameter and schedule recurring maintenance — ReefIQ pushes a notification the moment it matters.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-9-9M21 3v6h-6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-9-9M21 3v6h-6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>Over-the-air updates</h3>
           <p>Keep your hardware current with verified, one-tap firmware updates delivered straight from the app.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg></div>
           <h3>Works with your gear</h3>
           <p>Bring the reef you already run. ReefIQ reads your Neptune Apex probes over the local network — no rip-and-replace.</p>
         </div>
@@ -204,10 +213,10 @@
         <h2>Calm, capable, and always in sync</h2>
         <p>Connect your devices over local Wi-Fi for instant control. Sign in and your tank profiles, parameter history, and assistant conversations follow you across every session and device — securely, through ReefIQ Cloud.</p>
         <ul class="checklist">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>One dashboard</b> for live chemistry, devices, and daily health at a glance.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Local-first control</b> — talk to your gear directly over your own network.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Cloud sync</b> keeps history, insight, and settings safe and available anywhere.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Push notifications</b> for out-of-range parameters and maintenance due.</span></li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>One dashboard</b> for live chemistry, devices, and daily health at a glance.</span></li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Local-first control</b> — talk to your gear directly over your own network.</span></li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Cloud sync</b> keeps history, insight, and settings safe and available anywhere.</span></li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Push notifications</b> for out-of-range parameters and maintenance due.</span></li>
         </ul>
       </div>
       <div class="device">
@@ -248,17 +257,17 @@
       </div>
       <div class="trust">
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 5.4L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.6-1.6L12 2z" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 5.4L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.6-1.6L12 2z" stroke-linejoin="round"/></svg></div>
           <h3>ReefIQ Assistant</h3>
           <p>Our own AI reef expert. It reads your live tank context — parameters, livestock, equipment, and journal — to give guidance specific to <em>your</em> reef, by text or natural voice. Advisory by design; you're always in control.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 17.6A5 5 0 0018 8h-1.3A7 7 0 103 15.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 17l4 4 4-4M12 12v9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 17.6A5 5 0 0018 8h-1.3A7 7 0 103 15.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 17l4 4 4-4M12 12v9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>ReefIQ Cloud</h3>
           <p>Secure, encrypted sync for your tank data, history, insights, and notifications. Sign in once and your reef follows you across devices — protected in transit and at rest.</p>
         </div>
         <div class="feat">
-          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="feat-ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <h3>Private by design</h3>
           <p>We never sell your data. Personalized mode is opt-in, credentials are stored encrypted, and you can export or permanently delete your account and all its data at any time.</p>
         </div>
@@ -273,14 +282,14 @@
       <h2>Bring intelligence to your reef</h2>
       <p>Download the ReefIQ app and connect your first device in minutes. Your reef, understood.</p>
       <div class="cta-actions">
-        <a class="btn btn-primary" href="#">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.1 1.2-.4 2.4-1.1 3.2-.8.9-2 1.6-3.2 1.5-.1-1.2.4-2.3 1.1-3.1C14.1 2.7 15.4 2 16.5 2zm3.4 16c-.6 1.3-.9 1.9-1.6 3.1-1 1.6-2.4 3.6-4.1 3.6-1.5 0-1.9-1-4-.9-2 0-2.5 1-4 1-1.7 0-3-1.8-4-3.4C1.4 18 1 13.5 2.9 11c1-1.4 2.5-2.2 3.9-2.2 1.5 0 2.4 1 3.7 1 1.2 0 2-1 3.7-1 1.3 0 2.6.7 3.6 1.9-3.2 1.7-2.7 6.2.1 7.3z"/></svg>
-          <span class="stack"><small>Download on the</small><b>App Store</b></span>
-        </a>
-        <a class="btn btn-ghost" href="#">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.3v16.8c0 .6.2 1 .5 1.3l.1.1L13 12.1v-.2L3.7 2.2l-.1.1zM16.3 15.4l-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1.1.6 1.1 1.6 0 2.2l-3.7 2.1-.1-.1zM14 13.5l-9.4 6.4c.4.4 1 .4 1.7.1l11-6.3-3.3-2.3zm3.3-6.7L6.3 4.1c-.7-.4-1.3-.3-1.7.1L14 10.6l3.3-3.8z"/></svg>
-          <span class="stack"><small>Get it on</small><b>Google Play</b></span>
-        </a>
+        <span class="btn btn-primary btn-soon" role="button" aria-disabled="true">
+          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.1 1.2-.4 2.4-1.1 3.2-.8.9-2 1.6-3.2 1.5-.1-1.2.4-2.3 1.1-3.1C14.1 2.7 15.4 2 16.5 2zm3.4 16c-.6 1.3-.9 1.9-1.6 3.1-1 1.6-2.4 3.6-4.1 3.6-1.5 0-1.9-1-4-.9-2 0-2.5 1-4 1-1.7 0-3-1.8-4-3.4C1.4 18 1 13.5 2.9 11c1-1.4 2.5-2.2 3.9-2.2 1.5 0 2.4 1 3.7 1 1.2 0 2-1 3.7-1 1.3 0 2.6.7 3.6 1.9-3.2 1.7-2.7 6.2.1 7.3z"/></svg>
+          <span class="stack"><small>Coming soon to</small><b>App Store</b></span>
+        </span>
+        <span class="btn btn-ghost btn-soon" role="button" aria-disabled="true">
+          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.3v16.8c0 .6.2 1 .5 1.3l.1.1L13 12.1v-.2L3.7 2.2l-.1.1zM16.3 15.4l-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1.1.6 1.1 1.6 0 2.2l-3.7 2.1-.1-.1zM14 13.5l-9.4 6.4c.4.4 1 .4 1.7.1l11-6.3-3.3-2.3zm3.3-6.7L6.3 4.1c-.7-.4-1.3-.3-1.7.1L14 10.6l3.3-3.8z"/></svg>
+          <span class="stack"><small>Coming soon to</small><b>Google Play</b></span>
+        </span>
       </div>
     </div>
   </section>
@@ -323,8 +332,9 @@
 
   <script>
     var t = document.getElementById('navtoggle'), l = document.getElementById('navlinks');
-    if (t) t.addEventListener('click', function(){ l.classList.toggle('open'); });
-    if (l) l.addEventListener('click', function(e){ if (e.target.tagName === 'A') l.classList.remove('open'); });
+    function setExpanded(){ if (t) t.setAttribute('aria-expanded', l.classList.contains('open') ? 'true' : 'false'); }
+    if (t) t.addEventListener('click', function(){ l.classList.toggle('open'); setExpanded(); });
+    if (l) l.addEventListener('click', function(e){ if (e.target.tagName === 'A') { l.classList.remove('open'); setExpanded(); } });
   </script>
 </body>
 </html>

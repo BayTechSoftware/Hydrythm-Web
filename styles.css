@@ -50,6 +50,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
+/* Keyboard focus ring — visible on the dark theme, hidden for mouse users */
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 6px; }
+:focus:not(:focus-visible) { outline: none; }
+
 body {
   font-family: var(--font-body);
   color: var(--text);
@@ -134,6 +138,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 .btn small { display: block; font-size: 0.66rem; font-weight: 500; opacity: 0.8; letter-spacing: 0.02em; line-height: 1; margin-bottom: 2px; }
 .btn b { font-weight: 700; font-size: 1.02rem; line-height: 1; }
 .btn .stack { text-align: left; }
+/* Store buttons before public launch — non-interactive "Coming soon" state */
+.btn-soon { opacity: 0.6; pointer-events: none; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 76px 0 40px; }
