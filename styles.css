@@ -236,6 +236,17 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 .soon { border: 1px dashed rgba(156,63,209,0.35); background: linear-gradient(165deg, rgba(216,116,255,0.05), #FFFFFF); }
 .soon .product-tag { color: var(--violet); }
 .badge-soon { position: relative; display: inline-block; margin-left: 10px; font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.14em; color: var(--violet); border: 1px solid rgba(156,63,209,0.4); border-radius: 999px; padding: 3px 9px; vertical-align: middle; }
+.badge-live { position: relative; display: inline-block; margin-left: 10px; font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.14em; color: var(--teal); border: 1px solid rgba(11,158,110,0.4); border-radius: 999px; padding: 3px 9px; vertical-align: middle; }
+
+/* Cora Max real-screen band: landscape screenshots in a tablet bezel */
+.max-screens { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 40px; }
+.tablet { border-radius: 22px; padding: 12px; background: linear-gradient(160deg, #223050, #101829); border: 1px solid rgba(11,42,84,0.30); box-shadow: 0 30px 70px rgba(23,59,110,0.22), inset 0 1px 0 rgba(255,255,255,0.08); }
+.tablet img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.max-screens figure { margin: 0; }
+.max-screens figcaption { margin-top: 14px; text-align: center; font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); }
+
+/* Integrations note */
+.integr-note { max-width: 720px; margin: 26px auto 0; text-align: center; font-size: 0.8rem; color: var(--text-3); }
 
 /* ---------- Split / app feature band ---------- */
 .band { background: linear-gradient(180deg, rgba(0,112,255,0.035), transparent); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -306,6 +317,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .hero-grid, .split, .dc-grid { grid-template-columns: 1fr; gap: 40px; }
+  .max-screens { grid-template-columns: 1fr; }
   .device { order: -1; }
   .feat-grid, .trust { grid-template-columns: 1fr 1fr; }
   .products { grid-template-columns: 1fr; }
