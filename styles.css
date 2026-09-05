@@ -1,7 +1,7 @@
 /* ==========================================================================
-   ReefIQ — reefiq.tech
+   Cora — coraiq.tech
    "Daylight Reef" design system · light, calm, evidence-forward
-   Brand tokens mirror the ReefIQ app (AppColors); light-mode variant 2026-07-17.
+   Brand tokens mirror the Cora app (AppColors); light-mode variant 2026-07-17.
    ========================================================================== */
 
 :root {
@@ -43,7 +43,7 @@
   --grad-brand:   linear-gradient(135deg, #0070FF 0%, #00D1FF 100%);
   --grad-brand-v: linear-gradient(135deg, #0056C6 0%, #0095D6 60%, #9C3FD1 130%);
 
-  /* Typography mirrors the ReefIQ app: Manrope headings · Inter body · JetBrains Mono data */
+  /* Typography mirrors the Cora app: Manrope headings · Inter body · JetBrains Mono data */
   --font-display: "Manrope", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-body:    "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", monospace;

@@ -1,13 +1,13 @@
 # Hydrythm-Web
 
-Public marketing site and firmware-release manifests for ReefIQ — served at
-[reefiq.tech](https://reefiq.tech) via GitHub Pages (`main` branch, `CNAME`).
+Public marketing site and firmware-release manifests for Cora — served at
+[coraiq.tech](https://coraiq.tech) via GitHub Pages (`main` branch, `CNAME`).
 
 ## Published paths
 
-- **Site:** `index.html` + `privacy-policy.html`, `terms-and-conditions.html`, `delete-account.html`
+- **Site:** `index.html` + `support.html`, `privacy-policy.html`, `terms-and-conditions.html`, `delete-account.html`
 - **Flo firmware:** `firmware/latest/manifest.json` + `Hydrythm.ino.bin`
   (source-of-record copy; the OTA the app actually downloads is served from
-  ReefIQ Cloud storage — see the manifest's `url` field)
+  Cora Cloud storage — see the manifest's `url` field)
 - **Hydrythm Mini firmware:** `hydrythm-mini/firmware/latest/manifest.json` + `firmware.bin`
 - **SEO:** `sitemap.xml`, `robots.txt`

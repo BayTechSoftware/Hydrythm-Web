@@ -3,4 +3,4 @@ Allow: /
 Disallow: /firmware/
 Disallow: /hydrythm-mini/
 
-Sitemap: https://reefiq.tech/sitemap.xml
+Sitemap: https://coraiq.tech/sitemap.xml
