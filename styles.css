@@ -543,8 +543,6 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .brand-mark { width: 40px; height: 40px; flex: none; object-fit: contain;
               border-radius: 11px; background: #fff; padding: 5px;
               border: 1px solid var(--line); }
-/* ⚠️ maxspect_logo.png is only 28x28 — never render it larger than this. */
-.brand-mark.small { padding: 7px; }
 .brand-mark.wide { width: auto; height: 28px; padding: 0; background: none;
                    border: 0; border-radius: 0; }
 .wordmark { font-family: var(--font-display); font-weight: 800; font-size: 1.3rem;
