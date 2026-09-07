@@ -436,14 +436,17 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
            border-radius: 1.25cqw; padding: .3cqw; background: #1C2336;
            box-shadow: 0 1cqw 2.6cqw rgba(23,59,110,.25); }
 .s-phone img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 1cqw; }
-.s-phone-lbl { position: absolute; left: 25%; top: 32.5926%; width: 14.0625%; text-align: center; }
+/* ⛔ Top-LEFT of the phone, not under it. Under the phone this pill overlapped
+   the Neptune hub at (330,380) — the video's copy fits on one line at 1920px,
+   ours wraps, and the extra width covered a whole brand. Owner, 2026-09-07. */
+.s-phone-lbl { position: absolute; left: 12.5%; top: 3.15%; width: 15.1%; text-align: right; }
 
 .lblbox { display: inline-flex; align-items: center; gap: .5cqw; background: #fff;
           border-radius: 999px; padding: .42cqw .9cqw;
           box-shadow: 0 .6cqw 1.6cqw rgba(15,23,42,.12), 0 0 0 .2cqw #fff; }
 .lblbox img { width: 1.55cqw; height: 1.55cqw; object-fit: contain; flex: none; }
-.lblbox b { font-family: var(--font-display); font-weight: 800; font-size: 1.35cqw; color: var(--ink); line-height: 1.05; }
-.lblbox i { display: block; font-style: normal; font-size: .84cqw; color: var(--text-3); }
+.lblbox b { font-family: var(--font-display); font-weight: 800; font-size: 1.35cqw; color: var(--ink); line-height: 1.05; white-space: nowrap; }
+.lblbox i { display: block; font-style: normal; font-size: .84cqw; color: var(--text-3); white-space: nowrap; }
 .s-phone-lbl .lblbox { text-align: left; }
 
 /* ---- Cora Cloud ---- */
@@ -477,7 +480,16 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .s-leaf .plate { position: absolute; inset: 0; border-radius: 50%; background: #fff; overflow: hidden;
                  box-shadow: 0 .7cqw 1.8cqw rgba(15,23,42,.14), 0 0 0 .21cqw #fff, 0 0 0 .32cqw rgba(11,158,110,.18); }
 .s-leaf.soon .plate { box-shadow: 0 .7cqw 1.8cqw rgba(15,23,42,.10), 0 0 0 .21cqw #fff, 0 0 0 .32cqw rgba(0,112,255,.22); }
-.s-leaf .plate img { position: absolute; left: 8%; top: 8%; width: 84%; height: 84%; object-fit: contain; }
+/* ⚖️ Device-type icons, NOT product photography. The vendor shots recovered
+   from the booth video are the manufacturers'/retailers' copyright and the
+   booth notes flag it ("confirm rights before printing"). Owner, 2026-09-07:
+   "use photos that will not create any legal issues, or worst case we can
+   switch to names only." There is no licensable source for third-party
+   product shots, so the plates carry a neutral glyph and the NAME. */
+.s-leaf .plate .devico { position: absolute; left: 26%; top: 26%; width: 48%; height: 48%;
+                         color: var(--brand); }
+.s-leaf.soon .plate .devico { color: var(--text-3); }
+.s-leaf .plate { display: grid; place-items: center; }
 .s-leaf .noimg { position: absolute; inset: 0; display: grid; place-items: center;
                  background: var(--surface-2); color: var(--brand); font-size: 2cqw; }
 .s-leaf .leaf-lbl { position: absolute; top: 106%; left: -95%; width: 290%; text-align: center;
