@@ -371,60 +371,110 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
 
 /* ==========================================================================
-   The Cora family — Cora Cloud in the centre, three products around it.
-   Flow markers follow the video: --teal = data IN, --brand = control OUT.
-   Desktop draws the SVG diagram; under 768px it collapses to stacked cards,
-   because a 900-unit viewBox squeezed into 390px renders 22px labels at 9px.
+   The Cora family — Cora Cloud in the centre, everything else around it.
+
+   ⛔ THIS WAS AN SVG AND THAT WAS THE WRONG TOOL. SVG <text> does not wrap and
+   does not clip, so labels silently ran out of their boxes (254px of text in a
+   220px box shipped on 2026-09-07), raster logos are awkward inside it, and the
+   whole thing had to be re-measured by hand at every breakpoint. It is now a
+   5x5 CSS grid of ordinary HTML cards: text wraps, logos are <img>, and the
+   layout is responsive for free. Connectors live in the grid's spare tracks and
+   are pure CSS — no library, no viewBox, nothing to measure.
    ========================================================================== */
-.family-wrap { max-width: 1040px; margin: 0 auto; }
-.family-svg { display: block; width: 100%; height: auto; overflow: visible; }
-.fam-node { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1.5; }
-.fam-node-soon { stroke-dasharray: 7 6; }
-.fam-cloud { fill: var(--surface); stroke: var(--brand); stroke-width: 2; }
-.fam-label { font-family: var(--font-display); font-weight: 700; font-size: 20px; fill: var(--ink); }
-/* ⛔ MEASURE, DON'T EYEBALL. At 15px, three of these overflowed their boxes —
-   "Coming soon · room climate · leaks" measured 254px inside a 220px box.
-   Boxes are now 250 wide and every string is asserted under 226px with
-   getComputedTextLength; the stack takes over below 900px so this never has
-   to survive a scale below ~0.82. */
-.fam-sub   { font-family: var(--font-body); font-weight: 500; font-size: 14px; fill: var(--text-3); }
-/* Third-party gear: present, but visibly not a Cora product. */
-.fam-node-ext  { fill: var(--surface-2); stroke: var(--line); stroke-width: 1.5; }
-.fam-label-ext { font-family: var(--font-display); font-weight: 700; font-size: 20px; fill: var(--text-2); }
-.fam-ico-ext   { fill: none; stroke: var(--text-3); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-.fam-badge { font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; fill: var(--violet); }
-.fam-ico   { fill: none; stroke: var(--brand); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-.fam-line  { fill: none; stroke-linecap: round; stroke-width: 3; stroke: var(--line-strong);
-             stroke-dasharray: 220; stroke-dashoffset: 220;
-             transition: stroke-dashoffset 1.1s cubic-bezier(.2,.7,.2,1) .2s; }
-.in .fam-line { stroke-dashoffset: 0; }
-.fam-dot { opacity: 0; }
-/* Dots ride the same paths the lines draw. No offset-path support = no dots,
-   and the diagram still reads correctly from the lines and labels alone. */
-@supports (offset-path: path("M 0 0 L 1 1")) {
-  .in .fam-dot { opacity: 1; animation: fam-flow 2.8s linear infinite; }
-  .in .fam-dot.rev { animation-direction: reverse; animation-delay: 1.4s; }
+.family-wrap { max-width: 1060px; margin: 0 auto; }
+
+.fam {
+  display: grid;
+  grid-template-columns: 1fr 68px 1.12fr 68px 1fr;
+  grid-template-rows: auto 58px auto 58px auto;
+  grid-template-areas:
+    ".    .    mob  .    ."
+    ".    .    c1   .    ."
+    "max  c2   cld  c3   hub"
+    "c4   .    c5   .    c6"
+    "eq   .    clg  .    rm";
 }
-@keyframes fam-flow { from { offset-distance: 0%; } to { offset-distance: 100%; } }
-@media (prefers-reduced-motion: reduce) {
-  .fam-line { transition: none; stroke-dashoffset: 0; }
-  .in .fam-dot, .in .fam-dot.rev { animation: none; opacity: 0; }
+.fam-mob { grid-area: mob; } .fam-max { grid-area: max; } .fam-cld { grid-area: cld; }
+.fam-hub { grid-area: hub; } .fam-eq  { grid-area: eq;  } .fam-clg { grid-area: clg; }
+.fam-rm  { grid-area: rm;  }
+.fam-c1 { grid-area: c1; } .fam-c2 { grid-area: c2; } .fam-c3 { grid-area: c3; }
+.fam-c4 { grid-area: c4; } .fam-c5 { grid-area: c5; } .fam-c6 { grid-area: c6; }
+
+/* ---- nodes ---- */
+.fnode {
+  display: flex; align-items: center; gap: 14px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px 18px;
+  box-shadow: var(--shadow-card);
+}
+.fnode h3 { font-size: 1.02rem; margin: 0 0 2px; }
+.fnode p  { font-size: .84rem; color: var(--text-3); margin: 0; line-height: 1.4; }
+.fnode-ico {
+  width: 44px; height: 44px; border-radius: 13px; flex: none;
+  display: grid; place-items: center;
+  background: linear-gradient(135deg, rgba(0,112,255,0.10), rgba(0,209,255,0.06));
+  border: 1px solid var(--line-strong);
+}
+.fnode-ico svg { width: 22px; height: 22px; color: var(--brand); }
+
+/* Cora Cloud is the hero of the diagram, and it carries the Cora mark. */
+.fnode.is-cloud {
+  flex-direction: column; text-align: center; gap: 10px; padding: 24px 20px;
+  border: 2px solid var(--brand); box-shadow: var(--shadow-deep);
+  background: linear-gradient(160deg, #FFFFFF, rgba(0,112,255,0.055));
+}
+.fnode.is-cloud .fam-logo { height: 34px; width: auto; display: block; }
+.fnode.is-cloud h3 { font-size: 1.16rem; }
+
+.fnode.is-soon { border-style: dashed; box-shadow: none; }
+.fnode.is-soon .soon-txt { color: var(--violet); font-weight: 600; }
+
+/* Third-party gear: visibly present, visibly not a Cora product. */
+.fnode.is-ext { background: var(--surface-2); box-shadow: none; }
+.fnode.is-ext h3 { color: var(--text-2); }
+.fam-logos { display: flex; align-items: center; gap: 7px; flex: none; }
+.fam-logos img {
+  width: 34px; height: 34px; object-fit: contain; border-radius: 9px;
+  background: #fff; padding: 4px; border: 1px solid var(--line);
+}
+/* A wordmark is not a square mark — let it keep its own proportions. */
+.fam-logos img.wide {
+  width: auto; height: 24px; padding: 0; background: none; border: 0; border-radius: 0;
 }
 
-/* Mobile fallback for the diagram */
-.family-stack { display: none; gap: 12px; }
-.fam-card { display: flex; align-items: flex-start; gap: 14px; background: var(--surface);
-            border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
-.fam-card.is-cloud { border-color: var(--brand); background: linear-gradient(165deg, rgba(0,112,255,.05), var(--surface)); }
-.fam-card.is-soon { border-style: dashed; }
-.fam-card.is-ext { background: var(--surface-2); }
-.fam-card.is-ext h3 { color: var(--text-2); }
-.fam-stack-head { margin: 18px 0 2px; font-family: var(--font-mono); font-size: .64rem;
-                  letter-spacing: .16em; text-transform: uppercase; color: var(--text-3); }
-.fam-card h3 { font-size: 1.05rem; margin-bottom: 3px; }
-.fam-card p { color: var(--text-3); font-size: .87rem; }
-.fam-card .feat-ico { margin: 0; flex: none; width: 40px; height: 40px; border-radius: 11px; }
-.fam-card .feat-ico svg { width: 20px; height: 20px; }
+/* ---- connectors: pure CSS, in the grid's spare tracks ---- */
+.fconn { position: relative; }
+.fconn::before {
+  content: ""; position: absolute; background: var(--line-strong); border-radius: 3px;
+  transition: transform .9s cubic-bezier(.2,.7,.2,1) .15s;
+}
+.fconn.v::before { left: 50%; top: 0; bottom: 0; width: 3px; transform: translateX(-50%) scaleY(0); transform-origin: 50% 0; }
+.fconn.h::before { top: 50%; left: 0; right: 0; height: 3px; transform: translateY(-50%) scaleX(0); transform-origin: 0 50%; }
+.in .fconn.v::before { transform: translateX(-50%) scaleY(1); }
+.in .fconn.h::before { transform: translateY(-50%) scaleX(1); }
+
+.fdot { position: absolute; width: 9px; height: 9px; border-radius: 50%; opacity: 0; }
+.fdot.d-in  { background: var(--teal);  }
+.fdot.d-out { background: var(--brand); }
+.fconn.v .fdot { left: 50%; margin-left: -4.5px; }
+.fconn.h .fdot { top: 50%; margin-top: -4.5px; }
+.in .fdot { opacity: 1; animation-duration: 2.8s; animation-iteration-count: infinite; animation-timing-function: linear; }
+.in .fdot.d-out { animation-delay: 1.4s; }
+.in .fdot.f-down  { animation-name: fd-down;  }
+.in .fdot.f-up    { animation-name: fd-up;    }
+.in .fdot.f-right { animation-name: fd-right; }
+.in .fdot.f-left  { animation-name: fd-left;  }
+@keyframes fd-down  { from { top: -7px; } to { top: 100%; } }
+@keyframes fd-up    { from { top: 100%; } to { top: -7px; } }
+@keyframes fd-right { from { left: -7px; } to { left: 100%; } }
+@keyframes fd-left  { from { left: 100%; } to { left: -7px; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .fconn::before { transition: none; }
+  .fconn.v::before { transform: translateX(-50%) scaleY(1); }
+  .fconn.h::before { transform: translateY(-50%) scaleX(1); }
+  .in .fdot { animation: none; opacity: 0; }
+}
 
 /* Legend shared by the family diagram and the brand tree */
 .legend { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
@@ -433,8 +483,21 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .legend i { width: 9px; height: 9px; border-radius: 50%; flex: none; }
 .legend i.dot-in { background: var(--teal); }
 .legend i.dot-out { background: var(--brand); }
-.legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
 .legend i.dot-ext { background: var(--surface-3); border: 1.5px solid var(--line-strong); }
+.legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
+
+/* One column below 900px. Each Cora surface is followed by what it reaches,
+   so the grouping survives the collapse. Connectors are meaningless stacked. */
+@media (max-width: 899px) {
+  .fam {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: "cld" "mob" "max" "eq" "hub" "rm" "clg";
+    gap: 12px;
+  }
+  .fconn { display: none; }
+  .fnode.is-cloud { flex-direction: row; text-align: left; padding: 18px; }
+}
 
 /* ==========================================================================
    Works with your gear — brand tree.
@@ -448,7 +511,18 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
              border-radius: var(--radius-lg); padding: 26px 26px 24px;
              transition: transform .25s ease, border-color .25s, box-shadow .25s; }
 .brandcard:hover { transform: translateY(-4px); border-color: var(--line-strong); box-shadow: var(--shadow-card); }
-.brandcard-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.brandcard-head { display: flex; align-items: center; gap: 13px; }
+.brandcard-head .bc-name { flex: 1 1 auto; min-width: 0; }
+/* Real vendor marks. All five exist in mobile/assets/images (+ the AquaWiz
+   wordmark in the booth kit) — an earlier pass wrongly concluded only two
+   survived, because it searched only the booth folder. */
+.brand-mark { width: 40px; height: 40px; flex: none; object-fit: contain;
+              border-radius: 11px; background: #fff; padding: 5px;
+              border: 1px solid var(--line); }
+/* ⚠️ maxspect_logo.png is only 28x28 — never render it larger than this. */
+.brand-mark.small { padding: 7px; }
+.brand-mark.wide { width: auto; height: 28px; padding: 0; background: none;
+                   border: 0; border-radius: 0; }
 .wordmark { font-family: var(--font-display); font-weight: 800; font-size: 1.3rem;
             letter-spacing: -.015em; color: var(--ink); }
 .brandcard .kind { font-family: var(--font-mono); font-size: .64rem; letter-spacing: .16em;
@@ -496,8 +570,8 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
   .benefits { grid-template-columns: 1fr; }
 }
 @media (max-width: 899px) {
-  .family-svg { display: none; }
-  .family-stack { display: grid; }
+  /* .family-svg / .family-stack are gone with the SVG diagram — the grid
+     handles its own collapse now. */
   .legend { gap: 14px 20px; }
 }
 @media (max-width: 560px) {
