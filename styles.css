@@ -341,3 +341,168 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
   .foot-cols { gap: 36px; }
   .dc-row { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* ==========================================================================
+   2026-09-07 — Rebuild to the booth-video story (hero → Max → Mobile →
+   family → gear → Hub → intelligence → benefits).
+   ⛔ ADDITIVE ONLY. The :root palette at the top of this file IS the site's
+   colour structure and is deliberately untouched (owner, 2026-09-07:
+   "Don't change the current website's color structure"). The booth/banner
+   deck quotes a DIFFERENT near-miss palette (#0F172A/#10B981/#64748B/#F1F5FB);
+   applying those over this file is what breaks the identity. Everything
+   below resolves through existing tokens — no new hex literals.
+   ========================================================================== */
+
+/* ---------- Scroll reveal (replaces load-only .reveal for new sections) --- */
+.sr { opacity: 0; transform: translateY(26px);
+      transition: opacity .75s cubic-bezier(.2,.7,.2,1), transform .75s cubic-bezier(.2,.7,.2,1); }
+.sr.in { opacity: 1; transform: none; }
+.sr.s1 { transition-delay: .06s; } .sr.s2 { transition-delay: .12s; }
+.sr.s3 { transition-delay: .18s; } .sr.s4 { transition-delay: .24s; }
+.sr.s5 { transition-delay: .30s; } .sr.s6 { transition-delay: .36s; }
+@media (prefers-reduced-motion: reduce) { .sr { opacity: 1; transform: none; transition: none; } }
+
+/* ---------- Hero motto sub-line ---------- */
+.motto { font-family: var(--font-display); font-weight: 600; font-size: 1.18rem;
+         line-height: 1.45; color: var(--text-2); max-width: 540px; margin-bottom: 14px; }
+.motto b { color: var(--ink); font-weight: 700; }
+
+/* ---------- Chip rows ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+
+/* ==========================================================================
+   The Cora family — Cora Cloud in the centre, three products around it.
+   Flow markers follow the video: --teal = data IN, --brand = control OUT.
+   Desktop draws the SVG diagram; under 768px it collapses to stacked cards,
+   because a 900-unit viewBox squeezed into 390px renders 22px labels at 9px.
+   ========================================================================== */
+.family-wrap { max-width: 940px; margin: 0 auto; }
+.family-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.fam-node { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1.5; }
+.fam-node-soon { stroke-dasharray: 7 6; }
+.fam-cloud { fill: var(--surface); stroke: var(--brand); stroke-width: 2; }
+.fam-label { font-family: var(--font-display); font-weight: 700; font-size: 21px; fill: var(--ink); }
+/* 15px, not 13: the viewBox scales to ~0.8 at the 768px breakpoint, so a
+   13px label renders at ~10px on a tablet. Sized for the smallest case. */
+.fam-sub   { font-family: var(--font-body); font-weight: 500; font-size: 15px; fill: var(--text-3); }
+.fam-badge { font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; fill: var(--violet); }
+.fam-ico   { fill: none; stroke: var(--brand); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.fam-line  { fill: none; stroke-linecap: round; stroke-width: 3; stroke: var(--line-strong);
+             stroke-dasharray: 220; stroke-dashoffset: 220;
+             transition: stroke-dashoffset 1.1s cubic-bezier(.2,.7,.2,1) .2s; }
+.in .fam-line { stroke-dashoffset: 0; }
+.fam-dot { opacity: 0; }
+/* Dots ride the same paths the lines draw. No offset-path support = no dots,
+   and the diagram still reads correctly from the lines and labels alone. */
+@supports (offset-path: path("M 0 0 L 1 1")) {
+  .in .fam-dot { opacity: 1; animation: fam-flow 2.8s linear infinite; }
+  .in .fam-dot.rev { animation-direction: reverse; animation-delay: 1.4s; }
+}
+@keyframes fam-flow { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+@media (prefers-reduced-motion: reduce) {
+  .fam-line { transition: none; stroke-dashoffset: 0; }
+  .in .fam-dot, .in .fam-dot.rev { animation: none; opacity: 0; }
+}
+
+/* Mobile fallback for the diagram */
+.family-stack { display: none; gap: 12px; }
+.fam-card { display: flex; align-items: flex-start; gap: 14px; background: var(--surface);
+            border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+.fam-card.is-cloud { border-color: var(--brand); background: linear-gradient(165deg, rgba(0,112,255,.05), var(--surface)); }
+.fam-card.is-soon { border-style: dashed; }
+.fam-card h3 { font-size: 1.05rem; margin-bottom: 3px; }
+.fam-card p { color: var(--text-3); font-size: .87rem; }
+.fam-card .feat-ico { margin: 0; flex: none; width: 40px; height: 40px; border-radius: 11px; }
+.fam-card .feat-ico svg { width: 20px; height: 20px; }
+
+/* Legend shared by the family diagram and the brand tree */
+.legend { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
+          margin-top: 30px; font-size: .82rem; color: var(--text-3); }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.legend i { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.legend i.dot-in { background: var(--teal); }
+.legend i.dot-out { background: var(--brand); }
+.legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
+
+/* ==========================================================================
+   Works with your gear — brand tree.
+   Text wordmarks, not logos (owner, 2026-09-07): only two of the five brand
+   logos survived the booth build, and two logos beside three text names reads
+   as an accident. It also sidesteps the trademark-rights question flagged in
+   the booth notes.
+   ========================================================================== */
+.tree { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.brandcard { background: var(--surface); border: 1px solid var(--line);
+             border-radius: var(--radius-lg); padding: 26px 26px 24px;
+             transition: transform .25s ease, border-color .25s, box-shadow .25s; }
+.brandcard:hover { transform: translateY(-4px); border-color: var(--line-strong); box-shadow: var(--shadow-card); }
+.brandcard-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.wordmark { font-family: var(--font-display); font-weight: 800; font-size: 1.3rem;
+            letter-spacing: -.015em; color: var(--ink); }
+.brandcard .kind { font-family: var(--font-mono); font-size: .64rem; letter-spacing: .16em;
+                   text-transform: uppercase; color: var(--text-3); margin-top: 4px; }
+.leaves { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.leaf { display: inline-flex; align-items: center; gap: 8px; font-size: .87rem; font-weight: 500;
+        color: var(--text-2); background: var(--surface-2); border: 1px solid var(--line);
+        border-radius: 999px; padding: 7px 14px 7px 11px; }
+.leaf::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--teal); flex: none; }
+.leaf.is-soon { border-style: dashed; color: var(--text-3); background: transparent; }
+.leaf.is-soon::before { background: transparent; border: 1.5px dashed var(--brand); }
+.brandcard.roadmap { background: linear-gradient(165deg, var(--surface-2), var(--surface));
+                     border-style: dashed; grid-column: 1 / -1; }
+.brandcard.roadmap .wordmark { color: var(--brand-deep); }
+.brandcard.roadmap p { color: var(--text-2); font-size: .95rem; margin-top: 8px; }
+
+/* ---------- Cora Hub capability cards ---------- */
+.hub-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.hubcard { display: flex; align-items: flex-start; gap: 15px; background: var(--surface-2);
+           border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 20px; }
+.hubcard .feat-ico { margin: 0; flex: none; width: 42px; height: 42px; border-radius: 12px; background: var(--surface); }
+.hubcard .feat-ico svg { width: 21px; height: 21px; }
+.hubcard h3 { font-size: 1rem; margin-bottom: 3px; }
+.hubcard p { color: var(--text-3); font-size: .86rem; line-height: 1.5; }
+.hub-lead { max-width: 720px; margin: 0 auto 40px; text-align: center; }
+
+/* ---------- Benefits ---------- */
+.benefits { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.benefit { position: relative; overflow: hidden; background: var(--surface);
+           border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 28px 26px 32px;
+           transition: transform .25s ease, box-shadow .25s; }
+.benefit:hover { transform: translateY(-4px); box-shadow: var(--shadow-card); }
+.benefit::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--grad-brand); }
+.benefit h3 { font-size: 1.12rem; margin-bottom: 8px; }
+.benefit p { color: var(--text-2); font-size: .95rem; }
+
+/* ---------- Disclaimers (GIZ-14 — both are mandatory) ---------- */
+.disclaimers { max-width: 800px; margin: 0 auto; display: grid; gap: 9px; }
+.disclaimers p { font-size: .8rem; line-height: 1.6; color: var(--text-3); text-align: center; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .tree { grid-template-columns: 1fr; }
+  .hub-grid { grid-template-columns: repeat(2, 1fr); }
+  .benefits { grid-template-columns: 1fr; }
+}
+@media (max-width: 767px) {
+  .family-svg { display: none; }
+  .family-stack { display: grid; }
+  .legend { gap: 14px 20px; }
+}
+@media (max-width: 560px) {
+  .hub-grid { grid-template-columns: 1fr; }
+  .motto { font-size: 1.06rem; }
+  .brandcard { padding: 22px 20px 20px; }
+}
+
+/* ⛔ Cora Max screens are RECTANGULAR — only the bezel is rounded.
+   The base .tablet rule rounds the screenshot itself by 12px, which is a
+   round-crop of the screen. Brand contract, 2026-09-07. */
+.tablet img { border-radius: 0; }
+
+/* ⚠️ Hero order on small screens. The base rule sets `.device { order: -1 }`,
+   which puts the ~650px-tall phone render above the copy — measured at 390px,
+   that pushed the <h1> to y≈740, below the fold on an iPhone 14. The headline
+   leads; the product shot follows immediately after. */
+@media (max-width: 900px) {
+  .hero .device { order: 0; }
+}
