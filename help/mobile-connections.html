@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connecting your gear — Cora Help</title>
+  <meta name="description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-connections">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Connecting your gear — Cora Help">
+  <meta property="og:description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-connections">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections" class="cur" aria-current="page">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Connecting your gear</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#jecod-jebao">Jecod / Jebao</a></li><li><a href="#aquawiz-kh-controller">AquaWiz KH Controller</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#logging-by-hand">Logging by hand</a></li><li><a href="#when-a-connection-stops-working">When a connection stops working</a></li></ul></nav>
+<p>Cora works with equipment you already own. This page covers what is supported and what each connection needs.</p>
+<p>Add any of these from <strong>Devices → Add Device</strong>.</p>
+<h2 id="neptune-apex">Neptune Apex</h2>
+<p>Cora reads your Apex over your local network — probes, outlets and any expansion modules you have fitted.</p>
+<p><strong>You will need:</strong> your Apex's address on your network, and its sign-in.</p>
+<p><strong>What you get:</strong> every probe your Apex reports appears as a source you can put on a dashboard. Outlets appear as controls. Fitted expansion modules get their own device tiles.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora does not take your Apex over</p><p>Your Apex keeps running its own programming. Cora reads it, shows it alongside everything else, and can switch outlets when you ask — it does not replace what you have set up.</p></aside>
+<h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
+<p>Cora talks to ReefBeat equipment on your local network — dosing units, ATO, mat rollers, wave pumps and lights, depending on what you own.</p>
+<p><strong>You will need:</strong> the equipment already set up in ReefBeat and on the same network as your phone when you add it.</p>
+<p><strong>What you get:</strong> a device tile per unit, plus each unit's readings as sources. A dosing unit reports its heads; an ATO reports its reservoir; a mat roller reports days remaining.</p>
+<h2 id="jecod-jebao">Jecod / Jebao</h2>
+<p>Cora connects to Jecod pumps, and can read and control them.</p>
+<p><strong>You will need:</strong> the pump on your network. Use <strong>Find a pump on your network</strong> rather than typing an address — it finds units that announce themselves.</p>
+<p><strong>What you get:</strong> live pump state, and control of mode and intensity.</p>
+<h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
+<p>Cora reads alkalinity from an AquaWiz KH controller through your AquaWiz account.</p>
+<p><strong>You will need:</strong> your AquaWiz username and password. Cora signs in on your behalf and keeps the sign-in so it can keep reading.</p>
+<p><strong>What you get:</strong> alkalinity as a source, updated as often as your controller titrates. pH is available as an option if your unit reports it.</p>
+<aside class="cal cal-warning"><p class="cal-t">One sign-in, shared</p><p>AquaWiz issues a single sign-in per account, so the one Cora holds is the same one their own app uses. Changing your AquaWiz password will disconnect Cora — reconnect it from the device row afterwards. To revoke Cora's access entirely, remove the device in Cora and change your AquaWiz password.</p></aside>
+<h2 id="maxspect">Maxspect</h2>
+<p>Support for Maxspect Gyre is coming. It is not connectable yet.</p>
+<h2 id="logging-by-hand">Logging by hand</h2>
+<p>Not everything is a device, and not every parameter has one. Anything from a test kit you log yourself — on the Dashboard, tap the pencil in the tank header and choose <strong>Log parameters</strong>.</p>
+<p>Hand-logged readings are first-class: they appear on widgets, carry their own source and age, feed Reef Buddy, and are what Cora compares your probes against when it tells you two sources disagree.</p>
+<h2 id="when-a-connection-stops-working">When a connection stops working</h2>
+<p>The device row tells you which kind of problem it is. See the table in <strong><a href="/help/mobile-devices">Adding, editing and removing devices</a></strong>, and <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> if it isn't obvious.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

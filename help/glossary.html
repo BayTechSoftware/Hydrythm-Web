@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glossary — Cora Help</title>
+  <meta name="description" content="The words Cora uses — tank, source, widget, preset, threshold, insight and the rest.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/glossary">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Glossary — Cora Help">
+  <meta property="og:description" content="The words Cora uses — tank, source, widget, preset, threshold, insight and the rest.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/glossary">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary" class="cur" aria-current="page">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Glossary</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#age">Age</a></li><li><a href="#alert">Alert</a></li><li><a href="#automation">Automation</a></li><li><a href="#cora-cloud">Cora Cloud</a></li><li><a href="#cora-assistant">Cora Assistant</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#cora-mobile">Cora Mobile</a></li><li><a href="#feed-mode">Feed mode</a></li><li><a href="#health-report">Health report</a></li><li><a href="#icp">ICP</a></li><li><a href="#insight">Insight</a></li><li><a href="#journal">Journal</a></li><li><a href="#outlet">Outlet</a></li><li><a href="#parameter">Parameter</a></li><li><a href="#preset">Preset</a></li><li><a href="#reef-buddy">Reef Buddy</a></li><li><a href="#source">Source</a></li><li><a href="#tank">Tank</a></li><li><a href="#threshold">Threshold</a></li><li><a href="#vacation-mode">Vacation mode</a></li><li><a href="#widget">Widget</a></li></ul></nav>
+<h2 id="age">Age</h2>
+<p>How long ago a reading was taken — shown on every widget as <code>now</code>, <code>1h</code>, <code>2d</code>. Not how recently the screen refreshed. A number with an old age is an old number, and Cora says so rather than presenting it as current.</p>
+<h2 id="alert">Alert</h2>
+<p>Cora telling you a reading has left the range you set. Clears by itself when the reading comes back. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
+<h2 id="automation">Automation</h2>
+<p>A rule or scene that runs by itself — "if temperature goes above 27, turn on the fan". Lives under <strong>Settings → Automation</strong>.</p>
+<h2 id="cora-cloud">Cora Cloud</h2>
+<p>The service that keeps your phone, your Cora Max and your equipment in step, and stores your history.</p>
+<h2 id="cora-assistant">Cora Assistant</h2>
+<p>The part of Cora you ask questions. Available by typing or by voice on both Cora Mobile and Cora Max.</p>
+<h2 id="cora-max">Cora Max</h2>
+<p>The wall screen for the reef room. Shows your tanks live and takes voice.</p>
+<h2 id="cora-mobile">Cora Mobile</h2>
+<p>The phone app. On your home screen the icon is labelled <strong>Cora</strong>.</p>
+<h2 id="feed-mode">Feed mode</h2>
+<p>A pause for feeding that stops the right equipment and restores it automatically. Safer than switching pumps off by hand, because nothing depends on you remembering to switch them back.</p>
+<h2 id="health-report">Health report</h2>
+<p>A deeper periodic assessment of a whole system — every parameter, source, dose and recent lab result, considered together. See <a href="/help/mobile-icp-health">ICP and health reports</a>.</p>
+<h2 id="icp">ICP</h2>
+<p>A laboratory water test covering a wide range of elements. Upload the result and Cora tracks every element over time.</p>
+<h2 id="insight">Insight</h2>
+<p>One specific observation in a Reef Buddy briefing — a parameter drifting, two sources disagreeing, something untested for a while.</p>
+<h2 id="journal">Journal</h2>
+<p>Your record of what you did to the tank. Cora reads it too, so "what did I do before the alkalinity dropped?" is an answerable question. See <a href="/help/mobile-journal">The journal</a>.</p>
+<h2 id="outlet">Outlet</h2>
+<p>A switchable socket on your equipment. In Cora it has three states: <strong>Auto</strong>, <strong>Off</strong> and <strong>On</strong>.</p>
+<h2 id="parameter">Parameter</h2>
+<p>Something measurable about your water — alkalinity, calcium, nitrate, temperature.</p>
+<h2 id="preset">Preset</h2>
+<p>A saved dashboard layout you can re-apply, share between tanks, or use as a starting point.</p>
+<h2 id="reef-buddy">Reef Buddy</h2>
+<p>Your daily briefing — a headline, a score and the insights behind it. See <a href="/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<h2 id="source">Source</h2>
+<p>Where a reading came from — a probe, a controller, a lab result, or you with a test kit. Every reading carries one, which is what lets Cora tell you when two disagree.</p>
+<h2 id="tank">Tank</h2>
+<p>A body of water you track. Most people have one; a frag system or quarantine is a separate tank.</p>
+<h2 id="threshold">Threshold</h2>
+<p>The range you consider acceptable for a parameter. Can be a range, a ceiling or a floor. Yours to set — the defaults are only a starting point.</p>
+<h2 id="vacation-mode">Vacation mode</h2>
+<p>Tells Cora you are away, so gaps in hand-logged readings are treated differently.</p>
+<h2 id="widget">Widget</h2>
+<p>One tile on a dashboard showing one thing. Six shapes: value, gauge, trend, status, control and device. See <a href="/help/mobile-widgets">Widget reference</a>.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

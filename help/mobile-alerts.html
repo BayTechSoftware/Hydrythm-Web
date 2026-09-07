@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alerts and thresholds — Cora Help</title>
+  <meta name="description" content="Set the range for each parameter, choose what you get told about, and understand why an alert fired.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-alerts">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Alerts and thresholds — Cora Help">
+  <meta property="og:description" content="Set the range for each parameter, choose what you get told about, and understand why an alert fired.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-alerts">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts" class="cur" aria-current="page">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Alerts and thresholds</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#alerts-you-dont-want-at-all">Alerts you don&#x27;t want at all</a></li></ul></nav>
+<p>An alert is Cora telling you a reading left the range you set for it. You decide the ranges and you decide what reaches your phone.</p>
+<h2 id="setting-a-range">Setting a range</h2>
+<p>Every parameter has a target range. Defaults come from your tank type and age when you set the tank up, which is usually a reasonable place to start.</p>
+<p>To change one: tap the widget, then <strong>Thresholds</strong>. Or set them all in one place under <strong>Settings → Tanks → [your tank] → Thresholds</strong>.</p>
+<p>You can set:</p>
+<ul><li><strong>A range</strong> — a low and a high, for things like alkalinity or temperature</li><li><strong>A ceiling</strong> — a high only, for things where low is fine, like nitrate or phosphate</li><li><strong>A floor</strong> — a low only</li></ul>
+<aside class="cal cal-tip"><p class="cal-t">Your range, not the internet's</p><p>The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when <em>you</em> drift.</p></aside>
+<h2 id="what-triggers-an-alert">What triggers an alert</h2>
+<p>An alert fires when a reading crosses a threshold. Cora does not fire on a single stray reading — it wants to see the parameter genuinely outside the range, so a momentary probe glitch does not wake you up.</p>
+<p>If a parameter has more than one source and they disagree, Cora says so rather than picking one.</p>
+<h2 id="where-alerts-appear">Where alerts appear</h2>
+<ul><li><strong>The bell</strong>, top right of every screen, holds your history. The number is how many you have not read.</li><li><strong>Push notifications</strong> reach your phone when you allow them.</li><li><strong>The widget</strong> turns amber or red on the dashboard.</li><li><strong>Cora Max</strong> shows the same alerts on the big screen.</li></ul>
+<h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
+<p><strong>Settings → Notifications.</strong> You can control:</p>
+<ul><li>Which parameters can push, and at what severity</li><li>Quiet hours</li><li>Whether the daily Reef Buddy briefing pushes</li></ul>
+<aside class="cal cal-note"><p class="cal-t">Cora tries hard not to be noisy</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
+<h2 id="clearing-an-alert">Clearing an alert</h2>
+<p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
+<p>If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
+<h2 id="alerts-you-dont-want-at-all">Alerts you don't want at all</h2>
+<p>If a parameter genuinely doesn't matter for your system, remove its range. With no threshold set, Cora shows the value and stops judging it.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

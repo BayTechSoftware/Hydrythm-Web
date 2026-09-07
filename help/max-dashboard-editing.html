@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editing the Cora Max dashboard — Cora Help</title>
+  <meta name="description" content="Choose a grid, add widgets, and save layouts for the Cora Max display.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/max-dashboard-editing">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Editing the Cora Max dashboard — Cora Help">
+  <meta property="og:description" content="Choose a grid, add widgets, and save layouts for the Cora Max display.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/max-dashboard-editing">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing" class="cur" aria-current="page">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Editing the Cora Max dashboard</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#choosing-a-grid">Choosing a grid</a></li><li><a href="#adding-and-arranging">Adding and arranging</a></li><li><a href="#designing-for-distance">Designing for distance</a></li><li><a href="#saving-layouts">Saving layouts</a></li><li><a href="#multiple-tanks">Multiple tanks</a></li></ul></nav>
+<p>The Cora Max dashboard is a <strong>fixed grid</strong> — everything has to fit on one screen, because nobody scrolls a wall display. That is the one real difference from the phone.</p>
+<aside class="cal cal-tip"><p class="cal-t">Edit it from your phone</p><p>You can build the Cora Max dashboard from Cora Mobile: <strong>Devices → your Cora Max → Edit dashboard</strong>. It is much quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.</p></aside>
+<h2 id="choosing-a-grid">Choosing a grid</h2>
+<p>Pick the density first, because changing it later re-flows everything.</p>
+<div class="tw"><table><thead><tr><th>Grid</th><th>Tiles</th><th>Feels like</th></tr></thead><tbody><tr><td>2×2, 3×2, 3×3</td><td>4–9</td><td>Large. Readable from right across the room.</td></tr><tr><td>4×4, 5×3, 6×4</td><td>16–24</td><td>The usual choice for a full system.</td></tr><tr><td>6×5, 8×4, 8×5</td><td>30–40</td><td>Dense — a whole reef room at once.</td></tr><tr><td>9×5, 10×5</td><td>45–50</td><td>Very dense. Best on the largest screens.</td></tr><tr><td><strong>Fill</strong></td><td>automatic</td><td>Cora picks a shape to fit however many widgets you added.</td></tr></tbody></table></div>
+<p>A Cora Max dashboard holds up to <strong>32 widgets</strong>. Add more than the grid can paint and the extras are kept but not shown — either reduce the count or pick a denser grid.</p>
+<aside class="cal cal-note"><p class="cal-t">Start with Fill if you're unsure</p><p>Add the widgets you want, set the grid to <strong>Fill</strong>, and Cora chooses a shape that fits them. If you like the result you can pin it to that fixed shape afterwards.</p></aside>
+<h2 id="adding-and-arranging">Adding and arranging</h2>
+<p>Same as on the phone: add a widget, choose what it shows and which shape it takes, then drag it where you want it. Widgets can be one or two cells wide and one or two cells tall.</p>
+<p>The six shapes — value, gauge, trend, status, control and device — are described in the <strong><a href="/help/mobile-widgets">Widget reference</a></strong>.</p>
+<h2 id="designing-for-distance">Designing for distance</h2>
+<p>A wall display is read from further away than a phone, and usually at a glance rather than with attention.</p>
+<ul><li><strong>Give your headline parameters two-by-two.</strong> Alkalinity, temperature, pH — the things you want to read without walking over.</li><li><strong>Put controls at the edges.</strong> Outlet tiles are the ones you reach for; they are easier to hit at the sides.</li><li><strong>Group by subject, not by type.</strong> Everything about dosing together, everything about flow together. You scan a wall by area.</li><li><strong>Leave the traces small.</strong> Trace elements and other slow numbers are reference, not monitoring — a one-by-one value tile is plenty.</li></ul>
+<h2 id="saving-layouts">Saving layouts</h2>
+<p>Save a dashboard you like as a preset, and switch between saved layouts from the <strong>grid icon</strong> in the top bar.</p>
+<p>This is genuinely useful on Cora Max: a dense everyday layout, and a big-tile layout for when you are working in the tank and reading from a distance.</p>
+<h2 id="multiple-tanks">Multiple tanks</h2>
+<p>Each tank has its own layout. Switch tanks from the top bar and edit that tank's dashboard separately.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

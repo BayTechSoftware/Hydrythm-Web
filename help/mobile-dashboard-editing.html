@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editing your dashboard — Cora Help</title>
+  <meta name="description" content="Choose a layout, add and arrange widgets, resize tiles, and save dashboards you can reuse across tanks.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-dashboard-editing">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Editing your dashboard — Cora Help">
+  <meta property="og:description" content="Choose a layout, add and arrange widgets, resize tiles, and save dashboards you can reuse across tanks.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-dashboard-editing">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing" class="cur" aria-current="page">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Editing your dashboard</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-grid">The grid</a></li><li><a href="#adding-a-widget">Adding a widget</a></li><li><a href="#the-widget-shapes">The widget shapes</a></li><li><a href="#moving-and-resizing">Moving and resizing</a></li><li><a href="#configuring-a-widget">Configuring a widget</a></li><li><a href="#saving-a-layout-you-like">Saving a layout you like</a></li><li><a href="#editing-the-cora-max-dashboard-from-your-phone">Editing the Cora Max dashboard from your phone</a></li><li><a href="#starting-over">Starting over</a></li></ul></nav>
+<p>Your dashboard starts with a sensible default. It gets genuinely useful once you make it yours — the parameters you actually watch, in the order you actually think about them.</p>
+<p>Open the editor with the <strong>pencil</strong> in the tank header.</p>
+<figure class="shot ph"><div class="ph-box"><span>Screenshot to come</span><small>The dashboard editor</small></div><figcaption>Edit mode: drag to move, tap to configure, and the widget catalog along the bottom.</figcaption></figure>
+<h2 id="the-grid">The grid</h2>
+<p>The phone dashboard is <strong>two to four columns wide</strong> and scrolls downward for as long as you need. Set the column count at the top of the editor.</p>
+<ul><li><strong>Two columns</strong> — big, readable tiles. Good if you watch a handful of parameters.</li><li><strong>Three columns</strong> — the default, and the right answer for most tanks.</li><li><strong>Four columns</strong> — dense. Good on a large phone, or when you want everything on one screen.</li></ul>
+<p>Rows are not fixed. Add widgets and the grid grows; the dashboard simply scrolls.</p>
+<h2 id="adding-a-widget">Adding a widget</h2>
+<p>Tap <strong>+</strong> where you want it, or pick from the catalog at the bottom of the editor. You are asked two things:</p>
+<ol><li><strong>What to show</strong> — a parameter (alkalinity, temperature, nitrate…), a device, or an outlet.</li><li><strong>How to show it</strong> — see the shapes below.</li></ol>
+<p>A widget only offers sources you actually have. If nothing in your system reports phosphate, phosphate is not in the list until you log it by hand or connect something that does.</p>
+<h2 id="the-widget-shapes">The widget shapes</h2>
+<div class="tw"><table><thead><tr><th>Shape</th><th>Best for</th><th>What it shows</th></tr></thead><tbody><tr><td><strong>Value</strong></td><td>Anything you just want the number for</td><td>Current reading, unit, age and source</td></tr><tr><td><strong>Gauge</strong></td><td>Parameters with a target range</td><td>An arc with your range banded onto it, and a knob at the current value</td></tr><tr><td><strong>Trend</strong></td><td>Anything that drifts</td><td>A sparkline over a window you choose, with high and low marked</td></tr><tr><td><strong>Status</strong></td><td>Things that are a state, not a number</td><td>Current state as text — running, idle, closed</td></tr><tr><td><strong>Control</strong></td><td>Outlets you switch</td><td>A three-way control: Auto, Off, On</td></tr><tr><td><strong>Device</strong></td><td>Equipment with several readings</td><td>One tile for the whole unit, with its own summary</td></tr></tbody></table></div>
+<p>Full detail on each: <strong><a href="/help/mobile-widgets">Widget reference</a></strong>.</p>
+<h2 id="moving-and-resizing">Moving and resizing</h2>
+<p><strong>Press and hold</strong> a widget, then drag it. Everything else reflows around it.</p>
+<p><strong>Tap</strong> a widget in edit mode to open its settings — including its size. A widget can be one or two cells wide and one or two cells tall. A gauge you care about at two-by-two reads across the room; a number you glance at can sit at one-by-one.</p>
+<aside class="cal cal-tip"><p class="cal-t">Put the drifty things at the top</p><p>You scroll past the bottom of a dashboard. Alkalinity, pH and temperature usually deserve the first row; the things that never move can live further down.</p></aside>
+<h2 id="configuring-a-widget">Configuring a widget</h2>
+<p>Tap any widget in edit mode. Depending on its shape you can set:</p>
+<ul><li><strong>Time window</strong> for trends — six hours, twenty-four hours, seven days, thirty days</li><li><strong>Range</strong> for gauges — inherited from your tank targets, or overridden just for this tile</li><li><strong>Label</strong> — rename it to whatever you call it</li><li><strong>Source</strong> — when more than one thing reports the same parameter, choose which one this tile trusts</li></ul>
+<h2 id="saving-a-layout-you-like">Saving a layout you like</h2>
+<p>Once a dashboard works, save it: <strong>Presets</strong>, then <strong>Save current as preset</strong>. Give it a name.</p>
+<p>A saved preset can be applied to another tank, restored after you have experimented, or used as the starting point for a new tank. This is the fastest way to set up a second tank — build one good dashboard, save it, apply it.</p>
+<aside class="cal cal-note"><p class="cal-t">Presets carry shapes, not readings</p><p>Applying a preset to another tank gives you the same widgets in the same places, pointed at <em>that</em> tank's data. Widgets whose source does not exist on the new tank are left empty rather than dropped, so you can see what is missing.</p></aside>
+<h2 id="editing-the-cora-max-dashboard-from-your-phone">Editing the Cora Max dashboard from your phone</h2>
+<p>Cora Max has its own dashboard, and you can build it here rather than typing on the wall. In <strong>Devices</strong>, open your Cora Max and choose <strong>Edit dashboard</strong>.</p>
+<p>The big screen works differently from a phone: instead of scrolling, it uses a <strong>fixed grid</strong> you pick up front, from 2×2 up to 10×5. Everything has to fit on one screen, because nobody scrolls a wall display.</p>
+<div class="tw"><table><thead><tr><th>Grid</th><th>Tiles</th><th>Feels like</th></tr></thead><tbody><tr><td>2×2, 3×2, 3×3</td><td>4–9</td><td>Large, readable from across the room</td></tr><tr><td>4×4, 5×3, 6×4</td><td>16–24</td><td>The usual choice for a full system</td></tr><tr><td>6×5, 8×4, 8×5</td><td>30–40</td><td>Dense — a whole reef room at once</td></tr><tr><td>9×5, 10×5</td><td>45–50</td><td>Very dense; best on the largest screens</td></tr><tr><td><strong>Fill</strong></td><td>automatic</td><td>Cora picks a shape to fit however many widgets you added</td></tr></tbody></table></div>
+<p>A Cora Max dashboard holds up to <strong>32 widgets</strong>. If you add more than the grid can show, the extras are kept but not painted — reduce the count or pick a denser grid.</p>
+<aside class="cal cal-warning"><p class="cal-t">Pick the grid before you build</p><p>Changing grid shape after you have arranged everything re-flows the whole layout. Choose roughly the density you want first, then fill it.</p></aside>
+<h2 id="starting-over">Starting over</h2>
+<p><strong>Presets → Reset to default</strong> rebuilds the dashboard from your tank profile. Nothing is lost: readings, history and journal entries are separate from layout.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

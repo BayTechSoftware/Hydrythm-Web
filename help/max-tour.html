@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Cora Max home screen — Cora Help</title>
+  <meta name="description" content="What everything on the Cora Max display means — the top bar, the dashboard grid, and the outlets drawer.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/max-tour">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="The Cora Max home screen — Cora Help">
+  <meta property="og:description" content="What everything on the Cora Max display means — the top bar, the dashboard grid, and the outlets drawer.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/max-tour">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour" class="cur" aria-current="page">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>The Cora Max home screen</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-top-bar">The top bar</a></li><li><a href="#the-dashboard">The dashboard</a></li><li><a href="#switching-tanks">Switching tanks</a></li><li><a href="#the-outlets-feed-drawer">The Outlets &amp; Feed drawer</a></li><li><a href="#when-the-screen-looks-wrong">When the screen looks wrong</a></li></ul></nav>
+<p>Cora Max shows one tank at a time, filling the screen with live readings you can read from across the room.</p>
+<figure class="shot"><img src="img/max-home.webp" alt="The Cora Max home screen" width="1280" height="800" loading="lazy" decoding="async"><figcaption>One tank, filling the screen.</figcaption></figure>
+<h2 id="the-top-bar">The top bar</h2>
+<p>Left to right:</p>
+<ul><li><strong>The grid icon</strong> opens your saved dashboards, so you can switch between layouts</li><li><strong>The tank name</strong>, with a chevron to switch tanks</li><li><strong>Alert pills</strong> — anything currently out of range, with a <strong>+n</strong> when there are more than fit. Tap to see them all.</li><li><strong>The clock</strong></li><li><strong>Online</strong> — Cora Max's own connection state. If this says anything else, the screen is showing you the last data it had.</li><li><strong>Battery and Wi-Fi</strong></li><li><strong>The devices icon</strong> — everything connected, and how it is doing</li><li><strong>The journal icon</strong> — add an entry without leaving the screen. A dot means there is something new.</li><li><strong>The Cora swoosh</strong> — starts a voice conversation</li><li><strong>The gear</strong> — settings</li></ul>
+<aside class="cal cal-warning"><p class="cal-t">The swoosh starts listening immediately</p><p>Tapping the Cora mark begins a live voice session. If you meant to open settings, that is the gear on the far right.</p></aside>
+<h2 id="the-dashboard">The dashboard</h2>
+<p>The rest of the screen is your dashboard: a fixed grid of widgets, all visible at once. Nothing scrolls — a wall display you have to scroll is a wall display nobody reads.</p>
+<p>Widgets work the same as on your phone, at a size you can read standing back. See <strong><a href="/help/mobile-widgets">Widget reference</a></strong> for what each shape shows, and <strong><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></strong> to change what is on it.</p>
+<p>Every widget carries its <strong>age</strong> and its <strong>source</strong>, just like on the phone. A number with <code>2d</code> next to it is two days old, and Cora will not pretend otherwise.</p>
+<h2 id="switching-tanks">Switching tanks</h2>
+<p>Tap the tank name in the top bar. Each tank keeps its own dashboard layout, so switching tanks changes the whole screen to that tank's arrangement.</p>
+<h2 id="the-outlets-feed-drawer">The Outlets &amp; Feed drawer</h2>
+<p>The tab at the bottom of the screen pulls up a drawer with every outlet on the system and the feed controls.</p>
+<ul><li><strong>Outlets</strong> — each one switchable between Auto, Off and On</li><li><strong>Feed</strong> — pauses the right equipment for a feeding and puts it all back afterwards</li></ul>
+<aside class="cal cal-warning"><p class="cal-t">This drawer controls real equipment</p><p>Everything in it acts immediately on your tank. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.</p></aside>
+<h2 id="when-the-screen-looks-wrong">When the screen looks wrong</h2>
+<p>If readings look stale or the top bar is not showing <strong>Online</strong>, start with <strong><a href="/help/troubleshooting">Troubleshooting</a></strong>.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

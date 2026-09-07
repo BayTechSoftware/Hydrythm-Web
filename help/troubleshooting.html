@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Troubleshooting — Cora Help</title>
+  <meta name="description" content="Readings stopped, a device went offline, alerts won&#x27;t clear, or something looks wrong — start here.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/troubleshooting">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Troubleshooting — Cora Help">
+  <meta property="og:description" content="Readings stopped, a device went offline, alerts won&#x27;t clear, or something looks wrong — start here.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/troubleshooting">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting" class="cur" aria-current="page">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Troubleshooting</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-says-it-cant-be-reached">A device says it can&#x27;t be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-wont-clear">An alert won&#x27;t clear</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#something-changed-and-i-dont-know-why">Something changed and I don&#x27;t know why</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
+<p>Start with the symptom.</p>
+<h2 id="a-widget-shows-no-value">A widget shows no value</h2>
+<p>Work down this list:</p>
+<ol><li><strong>Check the age on nearby widgets.</strong> If everything is stale, the problem is the connection, not the parameter.</li><li><strong>Open the Devices tab.</strong> A device that cannot be reached says so on its row.</li><li><strong>Check the tank assignment.</strong> A device reporting into the wrong tank looks exactly like a device that is not reporting. Open the device and confirm its tank.</li><li><strong>Check the source exists.</strong> Nothing reports phosphate unless you have equipment that measures it or you log it by hand.</li></ol>
+<h2 id="a-reading-is-stale">A reading is stale</h2>
+<p>The age badge is telling you the truth: nothing new has arrived.</p>
+<ul><li><strong>Hand-logged parameters</strong> go stale because nobody tested. Log a reading.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting — check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
+<h2 id="a-device-says-it-cant-be-reached">A device says it can't be reached</h2>
+<p>Usually the network.</p>
+<ol><li>Is the equipment powered and working in its own app?</li><li>Is it on the same network it was added on?</li><li>Has your router changed — new hardware, new network name, guest network isolation?</li></ol>
+<p>Equipment that connects over your local network needs to be reachable on that network. Equipment that connects through a manufacturer account does not, but needs that account to still be valid.</p>
+<h2 id="a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</h2>
+<p>The manufacturer rejected the stored sign-in. Almost always because you changed your password with them.</p>
+<p>Open the device row and sign in again.</p>
+<h2 id="cora-max-shows-old-data">Cora Max shows old data</h2>
+<p>Check the top bar. If it does not say <strong>Online</strong>, the screen has lost its connection and is showing the last data it had — which is the correct behaviour, but not current.</p>
+<ul><li>Check Wi-Fi under <strong>Settings → Cora Max</strong></li><li>Check the network itself is up</li><li>If the screen is Online but data is still old, the problem is upstream: check the same tank on your phone</li></ul>
+<h2 id="an-alert-wont-clear">An alert won't clear</h2>
+<p>An alert clears when the reading returns to range. If it will not clear:</p>
+<ul><li><strong>The reading really is out of range.</strong> Look at the widget's history.</li><li><strong>The threshold is wrong for your tank.</strong> See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li><strong>The source is wrong.</strong> A probe that needs calibrating reports a number that is genuinely out of range. Fix the probe rather than the threshold.</li></ul>
+<h2 id="two-sources-disagree">Two sources disagree</h2>
+<p>This is Cora working, not Cora failing. When your probe and your test kit disagree, that is a real fact about your system.</p>
+<p>Usually the probe needs calibrating. Sometimes the test kit is old. An ICP result is the tiebreaker — see <a href="/help/mobile-icp-health">ICP and health reports</a>.</p>
+<h2 id="im-not-getting-notifications">I'm not getting notifications</h2>
+<ol><li><strong>Settings → Notifications</strong> — check the alert type is allowed to push</li><li>Check quiet hours</li><li>Check your phone's own notification permissions for Cora</li><li>Remember the daily briefing is deliberately quiet on days when nothing changed</li></ol>
+<h2 id="something-changed-and-i-dont-know-why">Something changed and I don't know why</h2>
+<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what caused it — you, a rule, a schedule, or the Assistant.</p>
+<h2 id="my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</h2>
+<p><strong>Presets → Reset to default</strong> rebuilds it from your tank profile. Readings, history and journal entries are stored separately from layout, so nothing is lost.</p>
+<h2 id="still-stuck">Still stuck</h2>
+<p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see — it gets you a useful answer faster.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

@@ -2,5 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /firmware/
 Disallow: /hydrythm-mini/
+# ⛔ Unlisted while the guide is in review. Remove this line and add the
+#    /help/ URLs to sitemap.xml to publish it.
+Disallow: /help/
 
 Sitemap: https://coraiq.tech/sitemap.xml

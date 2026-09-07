@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading your dashboard — Cora Help</title>
+  <meta name="description" content="How to read Cora&#x27;s dashboard — widgets, freshness, sources, and what the colours mean.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-dashboard">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Reading your dashboard — Cora Help">
+  <meta property="og:description" content="How to read Cora&#x27;s dashboard — widgets, freshness, sources, and what the colours mean.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-dashboard">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard" class="cur" aria-current="page">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Reading your dashboard</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-tank-header">The tank header</a></li><li><a href="#the-reef-buddy-card">The Reef Buddy card</a></li><li><a href="#how-to-read-a-widget">How to read a widget</a></li><li><a href="#colours">Colours</a></li><li><a href="#tapping-through">Tapping through</a></li><li><a href="#when-a-number-is-missing">When a number is missing</a></li></ul></nav>
+<p>The dashboard is a grid of <strong>widgets</strong>, each showing one thing about one tank. What is on it is entirely up to you — see <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
+<figure class="shot phone"><img src="img/mobile-dashboard.webp" alt="A Cora Mobile dashboard" width="620" height="1348" loading="lazy" decoding="async"><figcaption>Gauges, numbers, trends and controls on one screen.</figcaption></figure>
+<h2 id="the-tank-header">The tank header</h2>
+<p>At the top of every dashboard:</p>
+<ul><li><strong>The tank name</strong>, with a pencil to rename it</li><li><strong>Feed</strong> — pauses flow and skimming for a feeding, then puts everything back</li><li><strong>Reef Buddy</strong> — opens this morning's briefing</li><li><strong>Share</strong> — sends a snapshot of the dashboard</li><li><strong>Edit</strong> — the pencil that opens dashboard editing</li></ul>
+<p>With more than one tank, swipe sideways to move between them.</p>
+<h2 id="the-reef-buddy-card">The Reef Buddy card</h2>
+<p>Under the header you will usually find a card summarising this morning's briefing — a headline, a score out of 100, and how many insights are waiting. Tap it to read the whole thing, or dismiss it with the <strong>×</strong> and it comes back tomorrow.</p>
+<h2 id="how-to-read-a-widget">How to read a widget</h2>
+<p>Every widget shows the same three things, in the same places.</p>
+<p><strong>The value</strong> is the reading itself, large and central.</p>
+<p><strong>The age</strong> sits below or beside it — <code>now</code>, <code>1h</code>, <code>2d</code>. This is how long ago the reading was taken, not how long ago the screen refreshed. A number that has not moved in two days says <code>2d</code>, and that is information.</p>
+<p><strong>The source badge</strong> is the small mark next to the age. It tells you where the number came from: a probe, a controller, a lab result, or you with a test kit. Tap any widget to see the source spelled out along with its recent history.</p>
+<aside class="cal cal-note"><p class="cal-t">Why age matters so much</p><p>A perfect alkalinity reading from four days ago is not a current alkalinity reading. Most systems hide this and show you the last number they have as though it were live. Cora puts the age next to every value so you always know what you are looking at.</p></aside>
+<h2 id="colours">Colours</h2>
+<p>Cora uses colour sparingly, and always to mean the same thing:</p>
+<div class="tw"><table><thead><tr><th>Colour</th><th>Meaning</th></tr></thead><tbody><tr><td>Green</td><td>Inside the range you set for this parameter</td></tr><tr><td>Amber</td><td>Drifting — outside your target but not dangerous</td></tr><tr><td>Red</td><td>Outside the range, and worth acting on</td></tr><tr><td>Grey</td><td>No recent reading, or no range set</td></tr></tbody></table></div>
+<p>A widget outlined in amber or red is one Cora wants you to look at. The outline is on the widget, not just the number, so you can spot it while scrolling.</p>
+<h2 id="tapping-through">Tapping through</h2>
+<p>Tap any widget to open its detail: the full history as a chart, every source that has reported it, and the thresholds currently applied. From there you can log a new reading by hand, change the range, or look further back.</p>
+<h2 id="when-a-number-is-missing">When a number is missing</h2>
+<p>A widget with no value has not received one. That is usually one of:</p>
+<ul><li>The device is offline — check the <strong>Devices</strong> tab</li><li>The parameter has no source yet — log it by hand, or connect equipment that reports it</li><li>The reading is older than the window the widget is showing — switch it to a longer window in dashboard editing</li></ul>
+<p>See <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> if none of those fit.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>
