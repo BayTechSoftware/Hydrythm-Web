@@ -376,15 +376,22 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
    Desktop draws the SVG diagram; under 768px it collapses to stacked cards,
    because a 900-unit viewBox squeezed into 390px renders 22px labels at 9px.
    ========================================================================== */
-.family-wrap { max-width: 940px; margin: 0 auto; }
+.family-wrap { max-width: 1040px; margin: 0 auto; }
 .family-svg { display: block; width: 100%; height: auto; overflow: visible; }
 .fam-node { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1.5; }
 .fam-node-soon { stroke-dasharray: 7 6; }
 .fam-cloud { fill: var(--surface); stroke: var(--brand); stroke-width: 2; }
-.fam-label { font-family: var(--font-display); font-weight: 700; font-size: 21px; fill: var(--ink); }
-/* 15px, not 13: the viewBox scales to ~0.8 at the 768px breakpoint, so a
-   13px label renders at ~10px on a tablet. Sized for the smallest case. */
-.fam-sub   { font-family: var(--font-body); font-weight: 500; font-size: 15px; fill: var(--text-3); }
+.fam-label { font-family: var(--font-display); font-weight: 700; font-size: 20px; fill: var(--ink); }
+/* ⛔ MEASURE, DON'T EYEBALL. At 15px, three of these overflowed their boxes —
+   "Coming soon · room climate · leaks" measured 254px inside a 220px box.
+   Boxes are now 250 wide and every string is asserted under 226px with
+   getComputedTextLength; the stack takes over below 900px so this never has
+   to survive a scale below ~0.82. */
+.fam-sub   { font-family: var(--font-body); font-weight: 500; font-size: 14px; fill: var(--text-3); }
+/* Third-party gear: present, but visibly not a Cora product. */
+.fam-node-ext  { fill: var(--surface-2); stroke: var(--line); stroke-width: 1.5; }
+.fam-label-ext { font-family: var(--font-display); font-weight: 700; font-size: 20px; fill: var(--text-2); }
+.fam-ico-ext   { fill: none; stroke: var(--text-3); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .fam-badge { font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; fill: var(--violet); }
 .fam-ico   { fill: none; stroke: var(--brand); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .fam-line  { fill: none; stroke-linecap: round; stroke-width: 3; stroke: var(--line-strong);
@@ -410,6 +417,10 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
             border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
 .fam-card.is-cloud { border-color: var(--brand); background: linear-gradient(165deg, rgba(0,112,255,.05), var(--surface)); }
 .fam-card.is-soon { border-style: dashed; }
+.fam-card.is-ext { background: var(--surface-2); }
+.fam-card.is-ext h3 { color: var(--text-2); }
+.fam-stack-head { margin: 18px 0 2px; font-family: var(--font-mono); font-size: .64rem;
+                  letter-spacing: .16em; text-transform: uppercase; color: var(--text-3); }
 .fam-card h3 { font-size: 1.05rem; margin-bottom: 3px; }
 .fam-card p { color: var(--text-3); font-size: .87rem; }
 .fam-card .feat-ico { margin: 0; flex: none; width: 40px; height: 40px; border-radius: 11px; }
@@ -423,6 +434,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .legend i.dot-in { background: var(--teal); }
 .legend i.dot-out { background: var(--brand); }
 .legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
+.legend i.dot-ext { background: var(--surface-3); border: 1.5px solid var(--line-strong); }
 
 /* ==========================================================================
    Works with your gear — brand tree.
@@ -483,7 +495,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
   .hub-grid { grid-template-columns: repeat(2, 1fr); }
   .benefits { grid-template-columns: 1fr; }
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
   .family-svg { display: none; }
   .family-stack { display: grid; }
   .legend { gap: 14px 20px; }

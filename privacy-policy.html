@@ -35,7 +35,7 @@
     <div class="wrap">
       <span class="eyebrow">Legal</span>
       <h1>Privacy Policy</h1>
-      <p class="date">Effective date: September 5, 2026</p>
+      <p class="date">Effective date: September 7, 2026</p>
     </div>
   </section>
 
@@ -133,7 +133,17 @@
 
             <div class="callout">Cora's integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners. Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</div>
 
-<h3>1.14 Cora Devices</h3>
+<h3>1.14 AquaWiz Integration</h3>
+      <p>When you link an AquaWiz KH Controller, Cora signs in to AquaWiz's online service on your behalf and reads that controller's measurements. Unlike the Neptune Apex integration, this one is not local — it runs in Cora Cloud, so your AquaWiz sign-in is held on our servers rather than only on your phone:</p>
+      <ul>
+        <li>Your AquaWiz username, and an access token issued to you by AquaWiz, are stored in Cora Cloud. The token is encrypted at rest using AES-256-GCM under a key held in a dedicated secrets manager, separate from the database</li>
+        <li><strong>Your AquaWiz password is stored only if you choose to save it</strong> when linking, and it is encrypted the same way. If you choose not to save it, we keep only the access token, and you will be asked to reconnect when it expires — roughly every 30 days</li>
+        <li>Cora connects to AquaWiz's servers on your behalf about every 30 minutes to retrieve alkalinity readings, and pH readings if you enable that option. Those readings are stored in Cora Cloud as part of your tank data</li>
+        <li>AquaWiz issues a single access token per account, so the token Cora holds is the same one their own app uses. We cannot revoke Cora's access independently — to cut it off, unlink the controller in Cora, or change your AquaWiz password</li>
+        <li>Your stored AquaWiz sign-in is permanently deleted when you unlink the controller, and when you delete your Cora account</li>
+      </ul>
+
+      <h3>1.15 Cora Devices</h3>
       <p>When you pair a Cora hardware device:</p>
       <ul>
         <li>Bluetooth Low Energy (BLE) is used during initial device provisioning</li>
@@ -141,7 +151,7 @@
         <li>Device telemetry (sensor readings, operational status) is stored in Cora Cloud under your user account</li>
       </ul>
 
-      <h3>1.15 Local Storage</h3>
+      <h3>1.16 Local Storage</h3>
       <p>The app stores the following data locally on your device using encrypted storage:</p>
       <ul>
         <li>Display and theme preferences</li>
@@ -202,6 +212,7 @@
         <li>All data in Cora Cloud associated with your account (tank profiles, parameters, livestock, journal entries, assistant history, health reports, ICP reports, maintenance tasks, alerts) is permanently deleted via a GDPR-compliant cascade deletion</li>
         <li>All files associated with your account (ICP report PDFs) are permanently deleted</li>
         <li>Device telemetry data associated with your account is permanently deleted</li>
+        <li>Any stored third-party service sign-in — such as an AquaWiz access token, and a password if you saved one — is permanently deleted</li>
         <li>If you have left "Contribute anonymized tank data" enabled, a fully anonymized copy of your aquarium's parameter history is retained as described in Section 6.1 — it contains nothing that identifies you</li>
         <li>Local data on your device remains until you uninstall the app</li>
       </ul>
