@@ -402,6 +402,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 
 /* ---- nodes ---- */
 .fnode {
+  position: relative;
   display: flex; align-items: center; gap: 14px;
   background: var(--surface); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 16px 18px;
@@ -486,18 +487,58 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .legend i.dot-ext { background: var(--surface-3); border: 1.5px solid var(--line-strong); }
 .legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
 
-/* One column below 900px. Each Cora surface is followed by what it reaches,
-   so the grouping survives the collapse. Connectors are meaningless stacked. */
+/* One column below 900px, as an indented tree. Each Cora surface is followed by
+   what it reaches, so the grouping survives the collapse.
+
+   ⛔ THE MOTION HAS TO SURVIVE TOO (owner, 2026-09-07: "Animation should work
+   also on Mobile!!!!"). The first version simply hid .fconn here, which left the
+   phone with a static list — the one view most visitors actually get. The grid's
+   straight-line connectors cannot be reused stacked: the topology is a TREE with
+   Cora Cloud at degree 4, so no single column can put every connected pair next
+   to each other, and drawing card-to-card edges here would assert links that do
+   not exist (Cora Mobile does not talk to Cora Max — the section copy says so).
+   So each card grows its own elbow instead: a vertical stub up toward the column
+   and a horizontal stub into the card. Both are flowing dashes rather than
+   travelling dots, which needs no extra markup and no measured height. */
 @media (max-width: 899px) {
   .fam {
     grid-template-columns: 1fr;
     grid-template-rows: none;
     grid-template-areas: "cld" "mob" "max" "eq" "hub" "rm" "clg";
-    gap: 12px;
+    gap: 16px;
   }
   .fconn { display: none; }
   .fnode.is-cloud { flex-direction: row; text-align: left; padding: 18px; }
+
+  /* Depth: what hangs off Cora Cloud, and what hangs off Max / Hub. */
+  .fam-mob, .fam-max, .fam-hub, .fam-clg { margin-left: 30px; }
+  .fam-eq,  .fam-rm                      { margin-left: 60px; }
+
+  .fam > .fnode:not(.is-cloud)::before,
+  .fam > .fnode:not(.is-cloud)::after {
+    content: ""; position: absolute; border-radius: 2px;
+  }
+  /* data in — flows up, toward Cora Cloud */
+  .fam > .fnode:not(.is-cloud)::before {
+    left: -17px; top: -22px; width: 3px; height: calc(50% + 22px);
+    background: repeating-linear-gradient(180deg, var(--teal) 0 5px, transparent 5px 15px);
+    animation: rail-in 1.25s linear infinite;
+  }
+  /* control out — flows along the elbow into the device */
+  .fam > .fnode:not(.is-cloud)::after {
+    left: -17px; top: calc(50% - 1.5px); width: 17px; height: 3px;
+    background: repeating-linear-gradient(90deg, var(--brand) 0 5px, transparent 5px 15px);
+    animation: rail-out 1.25s linear infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fam > .fnode:not(.is-cloud)::before,
+    .fam > .fnode:not(.is-cloud)::after {
+      animation: none; background: var(--line-strong);
+    }
+  }
 }
+@keyframes rail-in  { to { background-position: 0 -15px; } }
+@keyframes rail-out { to { background-position: 15px 0; } }
 
 /* ==========================================================================
    Works with your gear — brand tree.
@@ -574,7 +615,18 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
      handles its own collapse now. */
   .legend { gap: 14px 20px; }
 }
+/* Narrow phones: the tree indent costs horizontal room the second level cannot
+   spare — at 390px a 60px indent made "Your equipment" wrap its own title. */
 @media (max-width: 560px) {
+  .fam-mob, .fam-max, .fam-hub, .fam-clg { margin-left: 20px; }
+  .fam-eq,  .fam-rm                      { margin-left: 40px; }
+  .fam > .fnode:not(.is-cloud)::before { left: -12px; }
+  .fam > .fnode:not(.is-cloud)::after  { left: -12px; width: 12px; }
+  .fnode { padding: 14px; gap: 11px; }
+  .fam-logos { gap: 5px; }
+  .fam-logos img { width: 28px; height: 28px; padding: 3px; border-radius: 8px; }
+  .fam-logos img.wide { width: auto; height: 21px; padding: 0; }
+
   .hub-grid { grid-template-columns: 1fr; }
   .motto { font-size: 1.06rem; }
   .brandcard { padding: 22px 20px 20px; }
