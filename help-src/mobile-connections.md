@@ -51,7 +51,8 @@ AquaWiz issues a single sign-in per account, so the one Cora holds is the same o
 
 ## Maxspect
 
-Support for Maxspect Gyre is coming. It is not connectable yet.
+If you have a Maxspect Gyre, add it the same way — **Devices → Add Device**, then
+**Find a pump on your network**. It appears in its own group alongside your other brands.
 
 ## Logging by hand
 
