@@ -11,14 +11,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Non-blocking: this request cost 978 ms of render-blocking time (Lighthouse,
-       2026-09-07). display=swap paints the fallback first and swaps the face in. -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="styles.css?v=20260907d">
+  <!-- Fonts: SELF-HOSTED (no third-party request) and loaded OFF the critical
+       path. Measured 2026-09-07 on the local Lighthouse harness:
+         Google Fonts, non-blocking .............. 98
+         self-hosted, render-blocking sheet ...... 82
+         self-hosted, inlined in styles.css ...... 81
+       Under simulated slow 4G ~100 KB of woff2 discovered during the initial
+       paint competes with the LCP image. font-display:swap already paints the
+       fallback first, so the faces are deferred to after render.
+       ⛔ Do NOT add rel=preload for these — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. -->
+  <link rel="stylesheet" href="fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="styles.css?v=20260907e">
 </head>
 <body>
 
