@@ -371,174 +371,140 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
 
 /* ==========================================================================
-   The Cora family — Cora Cloud in the centre, everything else around it.
+   THE STAR — Cora Max at the centre, every device on a spoke.
 
-   ⛔ THIS WAS AN SVG AND THAT WAS THE WRONG TOOL. SVG <text> does not wrap and
-   does not clip, so labels silently ran out of their boxes (254px of text in a
-   220px box shipped on 2026-09-07), raster logos are awkward inside it, and the
-   whole thing had to be re-measured by hand at every breakpoint. It is now a
-   5x5 CSS grid of ordinary HTML cards: text wraps, logos are <img>, and the
-   layout is responsive for free. Connectors live in the grid's spare tracks and
-   are pure CSS — no library, no viewBox, nothing to measure.
+   ⭐ This is the booth video's scene 5, rebuilt for the web. Owner, 2026-09-07:
+   "we need to show like star diagram, exactly like in the promotional video
+   I shared. I don't want anything stacked for this." Two earlier attempts (an
+   SVG cross, then a CSS-grid cross) were my own invention and both were wrong.
+
+   ⛔ EVERY COORDINATE HERE IS LIFTED FROM `src/video.html`, NOT REDRAWN — the
+   1920x1080 canvas, TC2 {960,550,480,300}, the six hub centres, lx/ly0/dy for
+   the leaf columns, r=44 plates. The markup is generated from that same data so
+   the two cannot drift. The device photos were recovered by cropping the
+   rendered 1080p frame at those exact leaf coordinates, because the source
+   `dev_*.jpg` no longer exist anywhere on disk.
+
+   ⚠️ NOT RESPONSIVE BY COLLAPSING — by SCROLLING. A star has no honest stacked
+   form: flattening it into a column is what the owner rejected. Below ~1180px
+   it keeps its shape and the reader swipes, which is the same rule this site
+   already applies to any wide diagram.
    ========================================================================== */
-.family-wrap { max-width: 1060px; margin: 0 auto; }
-
-.fam {
-  display: grid;
-  grid-template-columns: 1fr 68px 1.12fr 68px 1fr;
-  grid-template-rows: auto 58px auto 58px auto;
-  grid-template-areas:
-    ".    .    mob  .    ."
-    ".    .    c1   .    ."
-    "max  c2   cld  c3   hub"
-    "c4   .    c5   .    c6"
-    "eq   .    clg  .    rm";
+/* ⚠️ FULL-BLEED, because .wrap caps at 1120px and the star's floor is 1180px —
+   inside the wrap it overflowed and scrolled even on a 1440px desktop. The star
+   gets the viewport; the rest of the section keeps the normal measure. */
+.star-scroll {
+  overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;
+  width: 100vw; margin-left: calc(50% - 50vw); padding: 0 24px;
 }
-.fam-mob { grid-area: mob; } .fam-max { grid-area: max; } .fam-cld { grid-area: cld; }
-.fam-hub { grid-area: hub; } .fam-eq  { grid-area: eq;  } .fam-clg { grid-area: clg; }
-.fam-rm  { grid-area: rm;  }
-.fam-c1 { grid-area: c1; } .fam-c2 { grid-area: c2; } .fam-c3 { grid-area: c3; }
-.fam-c4 { grid-area: c4; } .fam-c5 { grid-area: c5; } .fam-c6 { grid-area: c6; }
-
-/* ---- nodes ---- */
-.fnode {
-  position: relative;
-  display: flex; align-items: center; gap: 14px;
-  background: var(--surface); border: 1px solid var(--line);
-  border-radius: var(--radius); padding: 16px 18px;
-  box-shadow: var(--shadow-card);
+.star {
+  position: relative; width: 100%; min-width: 1180px; max-width: 1560px; margin: 0 auto;
+  aspect-ratio: 1920 / 1080;
+  container-type: inline-size;   /* 1cqw = 1% of the star's own width */
 }
-.fnode h3 { font-size: 1.02rem; margin: 0 0 2px; }
-.fnode p  { font-size: .84rem; color: var(--text-3); margin: 0; line-height: 1.4; }
-.fnode-ico {
-  width: 44px; height: 44px; border-radius: 13px; flex: none;
-  display: grid; place-items: center;
-  background: linear-gradient(135deg, rgba(0,112,255,0.10), rgba(0,209,255,0.06));
-  border: 1px solid var(--line-strong);
-}
-.fnode-ico svg { width: 22px; height: 22px; color: var(--brand); }
+.star-lines { position: absolute; inset: 0; width: 100%; height: 100%; }
 
-/* Cora Cloud is the hero of the diagram, and it carries the Cora mark. */
-.fnode.is-cloud {
-  flex-direction: column; text-align: center; gap: 10px; padding: 24px 20px;
-  border: 2px solid var(--brand); box-shadow: var(--shadow-deep);
-  background: linear-gradient(160deg, #FFFFFF, rgba(0,112,255,0.055));
-}
-.fnode.is-cloud .fam-logo { height: 34px; width: auto; display: block; }
-.fnode.is-cloud h3 { font-size: 1.16rem; }
+/* ---- spokes ---- */
+.sp { fill: none; stroke-width: 5; stroke-linecap: round; }
+.sp.live { stroke: var(--teal); stroke-dasharray: var(--len); stroke-dashoffset: var(--len);
+           transition: stroke-dashoffset 1.15s cubic-bezier(.2,.7,.2,1) .2s; }
+.in .sp.live { stroke-dashoffset: 0; }
+.sp.soon { stroke: var(--brand); stroke-dasharray: 11 9; opacity: 0; transition: opacity .8s ease .45s; }
+.in .sp.soon { opacity: .85; }
+.lf { fill: none; stroke-width: 3; stroke-linecap: round; opacity: 0; transition: opacity .7s ease .65s; }
+.lf.live { stroke: var(--teal); }
+.lf.soon { stroke: var(--brand); stroke-dasharray: 7 6; }
+.in .lf { opacity: .9; }
 
-.fnode.is-soon { border-style: dashed; box-shadow: none; }
-.fnode.is-soon .soon-txt { color: var(--violet); font-weight: 600; }
-
-/* Third-party gear: visibly present, visibly not a Cora product. */
-.fnode.is-ext { background: var(--surface-2); box-shadow: none; }
-.fnode.is-ext h3 { color: var(--text-2); }
-.fam-logos { display: flex; align-items: center; gap: 7px; flex: none; }
-.fam-logos img {
-  width: 34px; height: 34px; object-fit: contain; border-radius: 9px;
-  background: #fff; padding: 4px; border: 1px solid var(--line);
+/* travelling markers: teal inward (data), blue outward (control) */
+.spd { opacity: 0; }
+.spd.d-in  { fill: var(--teal);  }
+.spd.d-out { fill: var(--brand); }
+@supports (offset-path: path("M 0 0 L 1 1")) {
+  .in .spd { opacity: 1; animation: sp-flow 3.2s linear infinite; }
+  .in .spd.d-out { animation-direction: reverse; animation-delay: 1.6s; }
 }
-/* A wordmark is not a square mark — let it keep its own proportions. */
-.fam-logos img.wide {
-  width: auto; height: 24px; padding: 0; background: none; border: 0; border-radius: 0;
-}
+@keyframes sp-flow { from { offset-distance: 0%; } to { offset-distance: 100%; } }
 
-/* ---- connectors: pure CSS, in the grid's spare tracks ---- */
-.fconn { position: relative; }
-.fconn::before {
-  content: ""; position: absolute; background: var(--line-strong); border-radius: 3px;
-  transition: transform .9s cubic-bezier(.2,.7,.2,1) .15s;
-}
-.fconn.v::before { left: 50%; top: 0; bottom: 0; width: 3px; transform: translateX(-50%) scaleY(0); transform-origin: 50% 0; }
-.fconn.h::before { top: 50%; left: 0; right: 0; height: 3px; transform: translateY(-50%) scaleX(0); transform-origin: 0 50%; }
-.in .fconn.v::before { transform: translateX(-50%) scaleY(1); }
-.in .fconn.h::before { transform: translateY(-50%) scaleX(1); }
+/* ---- the centre: Cora Max ---- */
+.s-tab { position: absolute; left: 37.5%; top: 36.6667%; width: 25%; height: 28.6111%;
+         border-radius: 1.15cqw; padding: .55cqw; background: linear-gradient(160deg, #223050, #101829);
+         box-shadow: 0 1.6cqw 3.6cqw rgba(23,59,110,.28); }
+.s-tab img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: .55cqw; }
+.s-tab-lbl { position: absolute; left: 37.5%; top: 66.2963%; width: 25%; text-align: center; }
+.s-phone { position: absolute; left: 28.125%; top: 1.8519%; width: 7.8125%; height: 30.1852%;
+           border-radius: 1.25cqw; padding: .3cqw; background: #1C2336;
+           box-shadow: 0 1cqw 2.6cqw rgba(23,59,110,.25); }
+.s-phone img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 1cqw; }
+.s-phone-lbl { position: absolute; left: 25%; top: 32.5926%; width: 14.0625%; text-align: center; }
 
-.fdot { position: absolute; width: 9px; height: 9px; border-radius: 50%; opacity: 0; }
-.fdot.d-in  { background: var(--teal);  }
-.fdot.d-out { background: var(--brand); }
-.fconn.v .fdot { left: 50%; margin-left: -4.5px; }
-.fconn.h .fdot { top: 50%; margin-top: -4.5px; }
-.in .fdot { opacity: 1; animation-duration: 2.8s; animation-iteration-count: infinite; animation-timing-function: linear; }
-.in .fdot.d-out { animation-delay: 1.4s; }
-.in .fdot.f-down  { animation-name: fd-down;  }
-.in .fdot.f-up    { animation-name: fd-up;    }
-.in .fdot.f-right { animation-name: fd-right; }
-.in .fdot.f-left  { animation-name: fd-left;  }
-@keyframes fd-down  { from { top: -7px; } to { top: 100%; } }
-@keyframes fd-up    { from { top: 100%; } to { top: -7px; } }
-@keyframes fd-right { from { left: -7px; } to { left: 100%; } }
-@keyframes fd-left  { from { left: 100%; } to { left: -7px; } }
+.lblbox { display: inline-flex; align-items: center; gap: .5cqw; background: #fff;
+          border-radius: 999px; padding: .42cqw .9cqw;
+          box-shadow: 0 .6cqw 1.6cqw rgba(15,23,42,.12), 0 0 0 .2cqw #fff; }
+.lblbox img { width: 1.55cqw; height: 1.55cqw; object-fit: contain; flex: none; }
+.lblbox b { font-family: var(--font-display); font-weight: 800; font-size: 1.35cqw; color: var(--ink); line-height: 1.05; }
+.lblbox i { display: block; font-style: normal; font-size: .84cqw; color: var(--text-3); }
+.s-phone-lbl .lblbox { text-align: left; }
+
+/* ---- Cora Cloud ---- */
+.s-cloud { position: absolute; left: 41.6667%; top: 10.1852%; width: 16.6667%; height: 11.1111%;
+           display: flex; align-items: center; justify-content: center; gap: .7cqw;
+           background: #fff; border-radius: 3.2cqw;
+           box-shadow: 0 1cqw 2.6cqw rgba(15,23,42,.14), 0 0 0 .31cqw #fff, 0 0 0 .47cqw rgba(0,112,255,.12); }
+.s-cloud img { width: 2.9cqw; height: 2.9cqw; object-fit: contain; }
+.s-cloud b { display: block; font-family: var(--font-display); font-weight: 800; font-size: 1.25cqw; color: var(--ink); line-height: 1.05; }
+.s-cloud i { display: block; font-style: normal; font-size: .68cqw; color: var(--text-3); }
+
+/* ---- brand hubs ---- */
+.s-hub { position: absolute; transform: translate(-50%, -50%);
+         width: 13.0208%; height: 11.1111%;
+         display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .3cqw;
+         background: #fff; border-radius: 1.35cqw; padding: .5cqw;
+         box-shadow: 0 1cqw 2.6cqw rgba(15,23,42,.14), 0 0 0 .31cqw #fff, 0 0 0 .47cqw rgba(11,158,110,.13); }
+.s-hub.soon { box-shadow: 0 1cqw 2.6cqw rgba(15,23,42,.10), 0 0 0 .31cqw #fff;
+              border: .1cqw dashed rgba(0,112,255,.45); }
+.s-hub img { max-width: 74%; max-height: 52%; object-fit: contain; }
+.s-hub img.wide { max-width: 88%; max-height: 74%; }
+.s-hub .hub-name { font-family: var(--font-display); font-weight: 800; font-size: 1.02cqw; color: var(--ink); text-align: center; line-height: 1.1; }
+.s-hub .hub-name.only { font-size: 1.45cqw; }
+.s-hub img { }
+.s-hub.road { background: linear-gradient(165deg, var(--surface-2), #fff); gap: .25cqw; }
+.s-hub .road-t { font-family: var(--font-display); font-weight: 800; font-size: 1.15cqw; color: var(--brand-deep); }
+.s-hub .road-s { font-size: .72cqw; color: var(--text-2); text-align: center; line-height: 1.3; }
+
+/* ---- device plates on the rim ---- */
+.s-leaf { position: absolute; transform: translate(-50%, -50%); width: 4.5833%; aspect-ratio: 1; }
+.s-leaf .plate { position: absolute; inset: 0; border-radius: 50%; background: #fff; overflow: hidden;
+                 box-shadow: 0 .7cqw 1.8cqw rgba(15,23,42,.14), 0 0 0 .21cqw #fff, 0 0 0 .32cqw rgba(11,158,110,.18); }
+.s-leaf.soon .plate { box-shadow: 0 .7cqw 1.8cqw rgba(15,23,42,.10), 0 0 0 .21cqw #fff, 0 0 0 .32cqw rgba(0,112,255,.22); }
+.s-leaf .plate img { position: absolute; left: 8%; top: 8%; width: 84%; height: 84%; object-fit: contain; }
+.s-leaf .noimg { position: absolute; inset: 0; display: grid; place-items: center;
+                 background: var(--surface-2); color: var(--brand); font-size: 2cqw; }
+.s-leaf .leaf-lbl { position: absolute; top: 106%; left: -95%; width: 290%; text-align: center;
+                    font-family: var(--font-display); font-weight: 700; font-size: 1.02cqw;
+                    color: var(--ink); line-height: 1.15; }
+.soon-tag { font-family: var(--font-mono); font-size: .62cqw; letter-spacing: .1em;
+            text-transform: uppercase; color: var(--violet); }
+
+/* Swipe affordance, only when the star actually overflows. */
+.star-hint { display: none; text-align: center; font-size: .82rem; color: var(--text-3); margin-top: 14px; }
+@media (max-width: 1210px) { .star-hint { display: block; } }
 
 @media (prefers-reduced-motion: reduce) {
-  .fconn::before { transition: none; }
-  .fconn.v::before { transform: translateX(-50%) scaleY(1); }
-  .fconn.h::before { transform: translateY(-50%) scaleX(1); }
-  .in .fdot { animation: none; opacity: 0; }
+  .sp.live { transition: none; stroke-dashoffset: 0; }
+  .sp.soon, .lf { transition: none; opacity: .9; }
+  .in .spd { animation: none; opacity: 0; }
 }
 
-/* Legend shared by the family diagram and the brand tree */
+/* Legend shared by the star and the brand tree */
 .legend { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
-          margin-top: 30px; font-size: .82rem; color: var(--text-3); }
+          margin-top: 26px; font-size: .82rem; color: var(--text-3); }
 .legend span { display: inline-flex; align-items: center; gap: 8px; }
 .legend i { width: 9px; height: 9px; border-radius: 50%; flex: none; }
 .legend i.dot-in { background: var(--teal); }
 .legend i.dot-out { background: var(--brand); }
 .legend i.dot-ext { background: var(--surface-3); border: 1.5px solid var(--line-strong); }
 .legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
-
-/* One column below 900px, as an indented tree. Each Cora surface is followed by
-   what it reaches, so the grouping survives the collapse.
-
-   ⛔ THE MOTION HAS TO SURVIVE TOO (owner, 2026-09-07: "Animation should work
-   also on Mobile!!!!"). The first version simply hid .fconn here, which left the
-   phone with a static list — the one view most visitors actually get. The grid's
-   straight-line connectors cannot be reused stacked: the topology is a TREE with
-   Cora Cloud at degree 4, so no single column can put every connected pair next
-   to each other, and drawing card-to-card edges here would assert links that do
-   not exist (Cora Mobile does not talk to Cora Max — the section copy says so).
-   So each card grows its own elbow instead: a vertical stub up toward the column
-   and a horizontal stub into the card. Both are flowing dashes rather than
-   travelling dots, which needs no extra markup and no measured height. */
-@media (max-width: 899px) {
-  .fam {
-    grid-template-columns: 1fr;
-    grid-template-rows: none;
-    grid-template-areas: "cld" "mob" "max" "eq" "hub" "rm" "clg";
-    gap: 16px;
-  }
-  .fconn { display: none; }
-  .fnode.is-cloud { flex-direction: row; text-align: left; padding: 18px; }
-
-  /* Depth: what hangs off Cora Cloud, and what hangs off Max / Hub. */
-  .fam-mob, .fam-max, .fam-hub, .fam-clg { margin-left: 30px; }
-  .fam-eq,  .fam-rm                      { margin-left: 60px; }
-
-  .fam > .fnode:not(.is-cloud)::before,
-  .fam > .fnode:not(.is-cloud)::after {
-    content: ""; position: absolute; border-radius: 2px;
-  }
-  /* data in — flows up, toward Cora Cloud */
-  .fam > .fnode:not(.is-cloud)::before {
-    left: -17px; top: -22px; width: 3px; height: calc(50% + 22px);
-    background: repeating-linear-gradient(180deg, var(--teal) 0 5px, transparent 5px 15px);
-    animation: rail-in 1.25s linear infinite;
-  }
-  /* control out — flows along the elbow into the device */
-  .fam > .fnode:not(.is-cloud)::after {
-    left: -17px; top: calc(50% - 1.5px); width: 17px; height: 3px;
-    background: repeating-linear-gradient(90deg, var(--brand) 0 5px, transparent 5px 15px);
-    animation: rail-out 1.25s linear infinite;
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .fam > .fnode:not(.is-cloud)::before,
-    .fam > .fnode:not(.is-cloud)::after {
-      animation: none; background: var(--line-strong);
-    }
-  }
-}
-@keyframes rail-in  { to { background-position: 0 -15px; } }
-@keyframes rail-out { to { background-position: 15px 0; } }
 
 /* ==========================================================================
    Works with your gear — brand tree.
@@ -615,18 +581,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
      handles its own collapse now. */
   .legend { gap: 14px 20px; }
 }
-/* Narrow phones: the tree indent costs horizontal room the second level cannot
-   spare — at 390px a 60px indent made "Your equipment" wrap its own title. */
 @media (max-width: 560px) {
-  .fam-mob, .fam-max, .fam-hub, .fam-clg { margin-left: 20px; }
-  .fam-eq,  .fam-rm                      { margin-left: 40px; }
-  .fam > .fnode:not(.is-cloud)::before { left: -12px; }
-  .fam > .fnode:not(.is-cloud)::after  { left: -12px; width: 12px; }
-  .fnode { padding: 14px; gap: 11px; }
-  .fam-logos { gap: 5px; }
-  .fam-logos img { width: 28px; height: 28px; padding: 3px; border-radius: 8px; }
-  .fam-logos img.wide { width: auto; height: 21px; padding: 0; }
-
   .hub-grid { grid-template-columns: 1fr; }
   .motto { font-size: 1.06rem; }
   .brandcard { padding: 22px 20px 20px; }
