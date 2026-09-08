@@ -5,7 +5,25 @@ section: Cora Mobile
 order: 10
 ---
 
-An alert is Cora telling you a reading left the range you set for it. You decide the ranges and you decide what reaches your phone.
+An alert is raised when a reading leaves the range you set for it. You set the ranges, and you control which alerts reach your phone.
+
+Open the **Alert Center** from the shortcut row at the bottom of the dashboard.
+
+![The Alert Center](img/mobile-alerts.webp "Active alerts, each with its severity, what triggered it, and when.")
+
+## The Alert Center
+
+Two tabs:
+
+- **Active** — alerts currently raised, with a count badge
+- **Rules** — the thresholds and rate-of-change rules that produce them
+
+Each active alert shows the parameter and tank, the reading that triggered it, a plain explanation, a severity chip, the kind of rule that fired (**Threshold** or **Rate of Change**), and the time it fired.
+
+Two actions on each:
+
+- **View rule** — opens the rule that raised it, so you can adjust the range
+- **Explain this alert** — asks the Assistant to interpret it against your tank's history
 
 ## Setting a range
 

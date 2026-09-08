@@ -7,7 +7,7 @@ order: 25
 
 Everything you can configure, in the order it appears.
 
-![The Settings tab](img/mobile-settings.webp "Account at the top, then one row per area.")
+![The Settings tab](img/mobile-settings.webp "One row per area. Your account card sits above these.")
 
 ## Your account
 

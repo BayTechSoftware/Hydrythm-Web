@@ -49,6 +49,8 @@ Cora's advice is exactly that. Verify anything important with your own testing, 
 
 ## Memory
 
+![Assistant settings](img/mobile-assistant-settings.webp "Consent, memory, voice and usage limits, under Settings.")
+
 Cora remembers things about your tank between conversations — that you dose two-part, that your frag tank shares a sump, that you are trying to bring nutrients up. This is what stops you re-explaining your system every time.
 
 You can see and clear what it remembers under **Settings → Assistant & AI → Memory**.

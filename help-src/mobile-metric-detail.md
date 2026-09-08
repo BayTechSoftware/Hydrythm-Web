@@ -9,17 +9,19 @@ A widget shows you a number. Tapping it shows you the story behind the number.
 
 ## What you get
 
-**The full history** as a chart, over a window you choose — an hour up to a year.
+**A history chart**, with its own range selector: **1h · 6h · 12h · 24h · 3d · 7d** and longer.
 
-**Every source** that reports this parameter, and what each one currently says. This is where two sources disagreeing becomes visible: your probe and your test kit side by side, with their own timestamps.
+**A source filter.** Below the ranges is a row of chips — **All**, plus one per source reporting this parameter, such as *Apex*, *Cora*, *Red Sea* or *Manual*. Select one to see only its readings. This is how you compare a probe against a test kit directly: switch between them on the same chart.
+
+**A dose calculator link**, for parameters you dose. It uses the tank volume from your [tank profile](/help/mobile-tank-profile) and the strengths from [Dosing](/help/mobile-dosing).
 
 **The thresholds** currently applied, and a way to change them.
 
-**Log a reading** by hand, without going anywhere else.
+**Log a reading** by hand.
 
-## Reading the chart
+## Choosing a range
 
-The window buttons change the span. The right window depends on the rhythm of the parameter:
+The right range depends on the rhythm of the parameter:
 
 | Parameter | Useful window |
 |---|---|
@@ -32,11 +34,11 @@ The window buttons change the span. The right window depends on the rhythm of th
 A line that has not moved may indicate a stable parameter or a source that has stopped reporting. The age shown beside the value distinguishes the two.
 :::
 
-## When sources disagree
+## Comparing sources
 
-If more than one thing reports the same parameter and they do not agree, that is a real fact about your system, and Cora shows both rather than averaging them or silently preferring one.
+When more than one source reports a parameter, Cora keeps them separate rather than averaging them. Use the source chips to view each in turn.
 
-Usually the probe needs calibrating. Sometimes the test kit is old. An **[ICP result](/help/mobile-icp-health)** is the tiebreaker.
+A persistent offset between a probe and a hand-logged test usually indicates the probe needs calibrating. An [ICP result](/help/mobile-icp-health) provides an independent reference.
 
 ## Choosing which source a widget trusts
 

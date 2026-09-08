@@ -7,6 +7,8 @@ order: 11
 
 **Settings → Notifications** controls everything Cora may send you.
 
+![Notification settings](img/mobile-notifications.webp "Each category can push independently.")
+
 ## What can push
 
 Each kind can be turned on or off independently:

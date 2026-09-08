@@ -47,6 +47,8 @@ You can skip this and come back. A tank with no devices still works; you just lo
 
 Some parameters are only available from a test kit. Scroll to the bottom of the dashboard and tap **Log Parameters**.
 
+![Logging parameters](img/mobile-logparams.webp "Enter test-kit results for any parameter the tank tracks.")
+
 Each reading is stored with its source and timestamp. This is what allows Cora to report when a probe and a test kit disagree.
 
 ## What good looks like

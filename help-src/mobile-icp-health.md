@@ -7,13 +7,15 @@ order: 21
 
 The **Intelligence** tab is your lab work and your long view.
 
-![The Intelligence tab](img/mobile-intelligence.webp "Upload ICP, run a health report, and see what moved since last time.")
+![The Intelligence tab](img/mobile-intelligence.webp "Upload ICP, run a health report, and see what moved since the last one.")
 
 ## Uploading an ICP test
 
 Tap **Upload ICP**, pick your tank, and add the result from your lab. Cora reads the report, records every element, and lines it up against your previous tests.
 
 You do not have to type anything in. Cora handles the common lab formats.
+
+![An ICP report](img/mobile-icp-report.webp "Each report carries a score and a summary written for your tank.")
 
 ## What you get back
 

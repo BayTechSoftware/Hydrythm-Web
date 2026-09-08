@@ -9,6 +9,10 @@ An automation is a rule Cora runs for you: *when this happens, check that, then 
 
 **Settings → Automation.**
 
+![The automation list](img/mobile-automation.webp "Automations and Scenes are separate tabs. Each rule has an enable switch.")
+
+The screen has two tabs — **Automations** and **Scenes** — and a **New automation** button. Each rule shows a one-line summary of what it does, an enable switch, and a menu for editing or deleting it. A rule that has not run yet is marked as such.
+
 :::warning These act on real equipment
 A rule that switches a pump switches it whether or not you are watching. Build one at a time and check each does what you expect before adding the next.
 :::

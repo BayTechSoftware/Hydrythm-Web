@@ -95,22 +95,27 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Reef Buddy</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-is-in-a-briefing">What is in a briefing</a></li><li><a href="#when-it-arrives">When it arrives</a></li><li><a href="#reading-the-score">Reading the score</a></li><li><a href="#dismissing-the-card">Dismissing the card</a></li><li><a href="#turning-it-off">Turning it off</a></li><li><a href="#telling-it-when-its-wrong">Telling it when it&#x27;s wrong</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-is-in-a-briefing">What is in a briefing</a></li><li><a href="#when-it-arrives">When it arrives</a></li><li><a href="#reading-the-scores">Reading the scores</a></li><li><a href="#dismissing-the-card">Dismissing the card</a></li><li><a href="#turning-it-off">Turning it off</a></li><li><a href="#telling-it-when-its-wrong">Telling it when it&#x27;s wrong</a></li></ul></nav>
 <p>Reef Buddy is a short daily read on your tank. It arrives each morning, tells you what changed, and flags anything worth your attention before you notice it yourself.</p>
 <p>It appears as a card at the top of your dashboard, and as one notification.</p>
+<figure class="shot phone"><img src="img/mobile-reefbuddy.webp" alt="A Reef Buddy briefing" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Stability and Data scores, a summary, then the insights behind them.</figcaption></figure>
 <h2 id="what-is-in-a-briefing">What is in a briefing</h2>
-<p><strong>A headline</strong> — the single most useful sentence about your tank today.</p>
-<p><strong>A score out of 100</strong> — an overall read on how the system is doing. Treat it as a trend rather than a grade: a steady 88 is a healthy tank, and a drop from 94 to 78 is worth reading about.</p>
-<p><strong>Insights</strong> — the specific observations behind the headline. A parameter drifting, two sources disagreeing, something that has not been tested in a while, a dose that stopped matching consumption.</p>
-<p>Tap the card to read the whole thing.</p>
+<p><strong>A headline</strong> — a one-line summary of the tank today.</p>
+<p><strong>Two scores:</strong></p>
+<div class="tw"><table><thead><tr><th>Score</th><th>Means</th></tr></thead><tbody><tr><td><strong>Stability</strong></td><td>Out of 100. How steady the tank has been against your targets</td></tr><tr><td><strong>Data</strong></td><td>A percentage. How complete the data behind the assessment is</td></tr></tbody></table></div>
+<p>A low Data score means the assessment rests on fewer readings than it would like, and is worth more than the Stability number next to it.</p>
+<p><strong>A summary</strong> — a short paragraph explaining the headline, referencing your actual values and ranges.</p>
+<p><strong>Insights</strong> — the individual findings. Each carries a category (such as <em>Water Chemistry</em>), a cadence (such as <em>Daily</em>), and expands for detail. A chip at the top of the section shows the tank type and how complete its profile is, because both affect what Cora can conclude.</p>
+<p>Insights are filtered before they reach you: each appears only when it is biologically plausible, statistically persistent, and not already obvious from a single chart.</p>
+<p>Tap the card on the dashboard to open the full briefing.</p>
 <h2 id="when-it-arrives">When it arrives</h2>
 <p>Once a day, in the early morning, per tank.</p>
 <p>On a day when nothing needs your attention, Reef Buddy usually stays quiet rather than pushing to say everything is fine. <strong>If it pushed, something changed.</strong></p>
 <aside class="cal cal-note"><p class="cal-t">One tank, one briefing</p><p>Each tank gets its own briefing. If you run three systems you get three, and each is about that system alone.</p></aside>
-<h2 id="reading-the-score">Reading the score</h2>
-<p>The score is built from where your parameters sit against your ranges, how stable they have been, how complete your data is, and what the insights found.</p>
-<p>It falls when parameters drift, when readings go stale, or when something is flagged. It is not a competition — a mature tank running deliberately lean can sit lower than a beginner's and be in better shape. Watch your own line, not anyone else's.</p>
-<aside class="cal cal-tip"><p class="cal-t">A falling score with no obvious cause is usually staleness</p><p>The most common reason a good tank's score slides is that nothing has been tested for a week. Log a few readings and it recovers.</p></aside>
+<h2 id="reading-the-scores">Reading the scores</h2>
+<p><strong>Stability</strong> reflects where your parameters sit against your own targets and how steady they have been. It is a trend to watch over time rather than a grade — compare it against your own previous scores, not against another tank.</p>
+<p><strong>Data</strong> reflects how much recent information the assessment had. It falls when readings go stale.</p>
+<aside class="cal cal-note"><p class="cal-t">A falling Data score usually means readings have gone stale</p><p>If nothing has been tested for a week, the Data score drops and the Stability score becomes less reliable. Log readings to restore both.</p></aside>
 <h2 id="dismissing-the-card">Dismissing the card</h2>
 <p>The <strong>×</strong> clears today's card from the dashboard. Tomorrow's still arrives. Past briefings stay available from the <strong>Intelligence</strong> tab.</p>
 <h2 id="turning-it-off">Turning it off</h2>

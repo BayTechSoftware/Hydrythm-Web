@@ -9,6 +9,8 @@ Activity records every action that reached your equipment, together with what ca
 
 **Settings → Activity.**
 
+![The activity log](img/mobile-activity.webp "Every action, with the surface that requested it.")
+
 ## What is recorded
 
 Every action that reached your equipment:

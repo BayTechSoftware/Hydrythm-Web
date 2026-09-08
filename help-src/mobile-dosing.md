@@ -9,6 +9,8 @@ Cora can only do dosing maths if it knows how strong your products are. Set that
 
 **Settings → Dosing Products.**
 
+![Dosing products](img/mobile-dosing.webp "Products carry the strength Cora uses for dose and consumption calculations.")
+
 ## The product library
 
 Cora ships with a library of common products. Search for yours and add it — the strength comes with it.

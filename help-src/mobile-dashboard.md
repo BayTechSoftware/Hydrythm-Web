@@ -54,6 +54,8 @@ A widget outlined in amber or red is one Cora wants you to look at. The outline 
 
 ## Below the widgets
 
+![The foot of the dashboard](img/mobile-dashboard-foot.webp "Edit dashboard, Log Parameters, and shortcuts to the four record areas.")
+
 At the bottom of the dashboard:
 
 - **Edit dashboard** — opens the [dashboard editor](/help/mobile-dashboard-editing)

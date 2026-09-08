@@ -5,7 +5,20 @@ section: Cora Mobile
 order: 15
 ---
 
-Livestock records what the tank holds — corals, fish and invertebrates — together with when each item was added and its current status.
+Livestock records what the tank holds — corals, fish and invertebrates — together with when each item was added and its current status. Open it from the shortcut row at the bottom of the dashboard.
+
+![The livestock inventory](img/mobile-livestock.webp "Inventory summary and recent losses, with entries grouped by type.")
+
+## The summary
+
+At the top:
+
+- **Inventory Summary** — totals by broad category, such as corals, fish and inverts
+- **Losses** — how many entries have been marked lost in the last 90 days
+
+Entries are grouped by type — SPS coral, LPS coral, soft coral, fish and so on — each showing its quantity and the date it was added.
+
+**Show Lost** in the top bar includes items no longer in the tank.
 
 ## Adding something
 

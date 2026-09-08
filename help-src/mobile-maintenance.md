@@ -5,7 +5,18 @@ section: Cora Mobile
 order: 14
 ---
 
-Maintenance is the list of jobs your tank needs on a rhythm, and the reminders that stop you forgetting them.
+Maintenance holds the recurring jobs a tank needs and the reminders for them. Open it from the shortcut row at the bottom of the dashboard.
+
+![The maintenance list](img/mobile-maintenance.webp "Compliance, overdue count, and each task with its last completion and next due date.")
+
+## The summary
+
+At the top:
+
+- **Maintenance Compliance** — the proportion of tasks currently done on schedule
+- **Overdue count** — how many tasks have passed their due date
+
+Each task in the list is colour-coded by urgency: overdue, due soon, or scheduled. Every task shows when it was last completed and when it is next due.
 
 ## Adding a task
 

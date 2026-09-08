@@ -7,7 +7,7 @@ order: 8
 
 The **Devices** tab is everything you have connected, grouped by brand. Each group collapses so a reef room full of equipment stays readable.
 
-![The Devices tab](img/mobile-devices.webp "Equipment grouped by brand, each group collapsible.")
+![The Devices tab](img/mobile-devices.webp "Equipment is grouped by brand. Each group collapses.")
 
 ## Adding a device
 

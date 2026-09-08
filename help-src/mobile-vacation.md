@@ -9,6 +9,8 @@ Vacation mode turns your tank into something another person can look after. You 
 
 **Settings → Tanks → Vacation mode.**
 
+![Tank settings](img/mobile-tanks.webp "Tanks, profiles and vacation mode.")
+
 ## Building the plan
 
 **Dates** — when you leave and when you are back.

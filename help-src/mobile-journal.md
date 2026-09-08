@@ -9,6 +9,8 @@ The journal records what you did to the tank: water changes, livestock additions
 
 Its purpose is later comparison. When a parameter moves unexpectedly, the journal is the record of what changed around that date.
 
+![The journal](img/mobile-journal.webp "Entries in reverse order, with photos inline.")
+
 ## Adding an entry
 
 Tap the **Journal** button floating over the bottom right of the Dashboard.
