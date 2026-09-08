@@ -47,4 +47,4 @@ Once Cora can see both your doses and your readings, it can work out what your t
 
 ## Dosing equipment
 
-If you have a connected dosing unit, its heads appear as devices with their own readings — what each head has left, and what it has been dosing. See **[Connecting your gear](/help/mobile-connections)**.
+If you have a connected dosing unit, its heads appear as devices with their own readings — what each head has left, and what it has been dosing. See **[Connecting your equipment](/help/mobile-connections)**.

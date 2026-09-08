@@ -70,7 +70,7 @@ The same as on your phone: your live readings, how old each one is, your history
 
 If a reading is stale, Cora says so instead of answering as though it were current.
 
-## Which tank it's talking about
+## Which tank Cora is talking about
 
 Whichever tank the screen is showing. Switch tanks in the top bar first, or name the tank in your question.
 
@@ -82,7 +82,7 @@ Say *"stop"*, or tap to end the session. Cora stops listening when the session e
 
 Reef vocabulary is hard, and equipment names are harder. If Cora repeatedly mishears a device, rename it in **Devices** to something more distinct — short, ordinary words work best.
 
-## If it does not wake
+## If Cora does not respond
 
 **Settings → Wake-word diagnostics** shows the detector working in real time: a live meter with the trigger threshold marked, so you can see whether your voice is reaching it and how close it comes to triggering.
 

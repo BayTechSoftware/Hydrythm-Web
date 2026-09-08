@@ -57,7 +57,7 @@
 <li><a href="/help/mobile-widgets">Widget reference</a></li>
 <li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
 <li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
-<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Probes</a></li>
@@ -125,7 +125,7 @@
 <p>To see them all together, use <strong>Alerts</strong> in the row of buttons under the dashboard.</p>
 <p>You can set:</p>
 <ul><li><strong>A range</strong> — a low and a high, for things like alkalinity or temperature</li><li><strong>A ceiling</strong> — a high only, for things where low is fine, like nitrate or phosphate</li><li><strong>A floor</strong> — a low only</li></ul>
-<aside class="cal cal-tip"><p class="cal-t">Your range, not the internet's</p><p>The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when <em>you</em> drift.</p></aside>
+<aside class="cal cal-tip"><p class="cal-t">Set the range your tank actually runs at</p><p>The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when <em>you</em> drift.</p></aside>
 <h2 id="what-triggers-an-alert">What triggers an alert</h2>
 <p>An alert fires when a reading crosses a threshold. Cora checks each reading as it arrives, so a single reading outside your range is enough to raise one.</p>
 <p>Once an alert is up it will not keep re-notifying you about the same thing — there is a cooldown before it can fire again. And it <strong>clears itself</strong> the moment a reading comes back inside the range; there is nothing to acknowledge.</p>
@@ -136,14 +136,14 @@
 <p><strong>Settings → Notifications.</strong> You can control:</p>
 <ul><li>Which of the notification categories may push</li></ul>
 <p>Reef Buddy has no switch of its own: it sends a briefing when there is something worth acting on and stays quiet when there is not.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora tries hard not to be noisy</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Cora is built to stay quiet</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
 <p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
 <aside class="cal cal-note"><p class="cal-t">Transient readings raise alerts</p><p>A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.</p></aside>
 <p>If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
 <h2 id="disabling-alerts-for-a-parameter">Disabling alerts for a parameter</h2>
 <p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn its <strong>enable switch</strong> off. The rule and its range are kept, so you can switch it back on without rebuilding it.</p>
-<aside class="cal cal-warning"><p class="cal-t">Deleting a range is not the way to silence a parameter</p><p>Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Quieten a parameter without deleting its range</p><p>Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
       <p class="stamp">Written for Cora Max 0.28.33 and Cora Mobile 0.5.54.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>

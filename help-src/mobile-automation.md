@@ -40,7 +40,7 @@ Four things:
 
 Conditions decide whether the actions actually run. You get the usual comparisons — equals, not equals, greater than, less than, and so on — and you can combine them with **and**, **or** and **not**.
 
-There is also a **step** condition, which checks how the *previous* step turned out. That is what lets you write "try this; if it didn't work, do that instead."
+There is also a **step** condition, which checks how the *previous* step turned out. That is what lets you write "try this; if it did not work, do that instead."
 
 ## What a rule can do
 

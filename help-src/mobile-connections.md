@@ -1,5 +1,5 @@
 ---
-title: Connecting your gear
+title: Connecting your equipment
 description: How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.
 section: Cora Mobile
 order: 9
@@ -7,7 +7,7 @@ order: 9
 
 Cora works with equipment you already own. This page covers what is supported and what each connection needs.
 
-⚠️ **There is no single "add anything" button.** Where you start depends on the brand:
+Each brand connects in the way that suits it best, so start from the entry point for your equipment:
 
 | Brand | Start from |
 |---|---|
@@ -26,8 +26,8 @@ Cora reads your Apex over your local network — probes, outlets and any expansi
 
 **What you get:** every probe your Apex reports appears as a source you can put on a dashboard. Outlets appear as controls. Fitted expansion modules get their own device tiles.
 
-:::note Cora does not take your Apex over
-Your Apex keeps running its own programming. Cora reads it, shows it alongside everything else, and can switch outlets when you ask — it does not replace what you have set up.
+:::note Your Apex keeps its own programming
+Cora reads your Apex, shows it alongside everything else, and can switch outlets when you ask. Your own programming continues to run exactly as you configured it.
 :::
 
 ## Red Sea ReefBeat
@@ -52,7 +52,7 @@ Pumps answer one scan and miss the next. If yours is not listed, scan again rath
 
 **Over Bluetooth.** Some pumps are reachable only from a phone standing near them. The pump's page says so, and shows the last settings it managed to read along with how old they are.
 
-Cora needs Bluetooth permission for this. Without it, a Bluetooth-paired pump cannot be found at all — it will not simply be slower to appear.
+Cora needs Bluetooth permission for this. Grant it before adding a Bluetooth pump: without permission the pump cannot be discovered at all, rather than merely taking longer to appear.
 
 **What you get:** live state, mode and intensity, feeding pause, and a day program. See [Scheduling equipment](/help/mobile-schedules).
 
@@ -90,10 +90,10 @@ The page shows when the unit last reported. If that is stale, refresh it before 
 
 ## Logging by hand
 
-Not every parameter has a device behind it. To enter a test-kit result, scroll to the bottom of the dashboard and tap **Log Parameters**.
+Some parameters come from a test kit rather than from equipment. To enter a result, scroll to the bottom of the dashboard and tap **Log Parameters**.
 
 Hand-logged readings are first-class: they appear on widgets, carry their own source and age, feed Reef Buddy, and are what Cora compares your probes against when it tells you two sources disagree.
 
-## When a connection stops working
+## If a connection stops working
 
-The device row tells you which kind of problem it is. See the table in **[Adding, editing and removing devices](/help/mobile-devices)**, and **[Troubleshooting](/help/troubleshooting)** if it isn't obvious.
+The device row tells you which kind of problem it is. See the table in **[Adding, editing and removing devices](/help/mobile-devices)**, and **[Troubleshooting](/help/troubleshooting)** for anything it does not cover.

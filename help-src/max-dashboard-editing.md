@@ -29,7 +29,7 @@ Pick the density first, because changing it re-flows everything.
 
 A fixed grid holds as many tiles as it has cells — up to 50 on 10×5. **Auto** is the one option with its own ceiling: it stops at 32 tiles, because beyond that the text becomes too small to read at a distance.
 
-:::note Start with Auto if you're unsure
+:::note Start with Auto if you are unsure
 Add the tiles you want and leave the grid on **Auto**; Cora chooses a shape that fits them. If you like the result, pin it to that fixed shape afterwards.
 :::
 

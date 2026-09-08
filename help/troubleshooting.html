@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Troubleshooting — Cora Help</title>
-  <meta name="description" content="Readings stopped, a device went offline, alerts won&#x27;t clear, or something looks wrong — start here.">
+  <meta name="description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Troubleshooting — Cora Help">
-  <meta property="og:description" content="Readings stopped, a device went offline, alerts won&#x27;t clear, or something looks wrong — start here.">
+  <meta property="og:description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -57,7 +57,7 @@
 <li><a href="/help/mobile-widgets">Widget reference</a></li>
 <li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
 <li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
-<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Probes</a></li>
@@ -109,7 +109,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Troubleshooting</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-says-it-cant-be-reached">A device says it can&#x27;t be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-wont-clear">An alert won&#x27;t clear</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#establishing-why-something-changed">Establishing why something changed</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-cannot-be-reached">A device cannot be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-is-not-clearing">An alert is not clearing</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#establishing-why-something-changed">Establishing why something changed</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
 <p>Start with the symptom.</p>
 <h2 id="a-widget-shows-no-value">A widget shows no value</h2>
 <p>Work down this list:</p>
@@ -117,7 +117,7 @@
 <h2 id="a-reading-is-stale">A reading is stale</h2>
 <p>The age badge is telling you the truth: nothing new has arrived.</p>
 <ul><li><strong>Hand-logged parameters</strong> go stale when no reading has been entered. Log one.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting — check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
-<h2 id="a-device-says-it-cant-be-reached">A device says it can't be reached</h2>
+<h2 id="a-device-cannot-be-reached">A device cannot be reached</h2>
 <p>Usually the network.</p>
 <ol><li>Is the equipment powered and working in its own app?</li><li>Is it on the same network it was added on?</li><li>Has your router changed — new hardware, new network name, guest network isolation?</li></ol>
 <p>Equipment that connects over your local network needs to be reachable on that network. Equipment that connects through a manufacturer account does not, but needs that account to still be valid.</p>
@@ -127,9 +127,9 @@
 <h2 id="cora-max-shows-old-data">Cora Max shows old data</h2>
 <p>Check the top bar. If it does not say <strong>Online</strong>, the screen has lost its connection and is showing the last data it had — which is the correct behaviour, but not current.</p>
 <ul><li>Check Wi-Fi under <strong>Settings → Cora Max</strong></li><li>Check the network itself is up</li><li>If the screen is Online but data is still old, the problem is upstream: check the same tank on your phone</li></ul>
-<h2 id="an-alert-wont-clear">An alert won't clear</h2>
+<h2 id="an-alert-is-not-clearing">An alert is not clearing</h2>
 <p>An alert clears when the reading returns to range. If it will not clear:</p>
-<ul><li><strong>The reading really is out of range.</strong> Look at the widget's history.</li><li><strong>The threshold is wrong for your tank.</strong> See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li><strong>The source is wrong.</strong> A probe that needs calibrating reports a number that is genuinely out of range. Fix the probe rather than the threshold.</li></ul>
+<ul><li><strong>The reading is genuinely out of range.</strong> Look at the widget's history.</li><li><strong>The threshold is wrong for your tank.</strong> See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li><strong>The source is wrong.</strong> A probe that needs calibrating reports a number that is genuinely out of range. Fix the probe rather than the threshold.</li></ul>
 <h2 id="two-sources-disagree">Two sources disagree</h2>
 <p>This is Cora working, not Cora failing. When your probe and your test kit disagree, that is a real fact about your system.</p>
 <p>An ICP result is a useful third opinion here, but it does not settle the argument: laboratories differ from one another, and a sample's handling and transit move the result. Two tests agreeing is worth far more than one.</p>
@@ -140,7 +140,7 @@
 <p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what caused it — you, a rule, a schedule, or the Assistant.</p>
 <h2 id="my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</h2>
 <p>Load a saved design: <strong>My dashboards</strong>, then pick one.</p>
-<p>If you have not saved one, the layout has to be rebuilt by hand — there is no reset-to-default. Save a design once the dashboard is how you want it and a future bad edit becomes one tap to undo.</p>
+<p>If you have not saved one, rebuild the layout and then save it as a design. From that point on, returning to it is a single tap.</p>
 <p>Either way, readings, history and journal entries are stored separately from layout, so nothing behind the dashboard is lost.</p>
 <h2 id="still-stuck">Still stuck</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see — it gets you a useful answer faster.</p>

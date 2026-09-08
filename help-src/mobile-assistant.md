@@ -42,7 +42,7 @@ Tap **Start voice conversation** for a live back-and-forth. Cora listens, answer
 
 The chip above the message box — **Using your tank's live data** — tells you what is in scope. Tap it to see exactly what Cora is reading: current values, how old each one is, recent history, your journal, and your ICP results.
 
-:::note It knows what it doesn't know
+:::note It tells you when it does not know
 Cora reports the age of the readings it uses. If the most recent alkalinity reading is four days old, the answer will say so rather than presenting the value as current.
 :::
 
@@ -72,7 +72,7 @@ The reset clears the memory record you can see. Cora also keeps working context 
 
 Your plan includes a monthly allowance of messages. The count sits above the message box. Voice conversations draw on the same allowance.
 
-## When Cora gets it wrong
+## If an answer looks wrong
 
 Correct it in the conversation — that is the fastest fix and it usually carries forward, though it is not guaranteed to persist indefinitely.
 

@@ -11,7 +11,7 @@ Everything you need to run your reef with Cora. Pick where you are:
 <li><a href="/help/mobile-setup"><b>New to Cora Mobile</b><span>Create your account, add your first tank, and get readings on screen.</span></a></li>
 <li><a href="/help/max-setup"><b>New to Cora Max</b><span>First run, pairing, and getting your tanks onto the big screen.</span></a></li>
 <li><a href="/help/mobile-dashboard-editing"><b>Build your dashboard</b><span>Choose a layout, add widgets, and arrange them the way you think.</span></a></li>
-<li><a href="/help/troubleshooting"><b>Something's wrong</b><span>Readings stopped, a device went quiet, an alert won't clear.</span></a></li>
+<li><a href="/help/troubleshooting"><b>Resolve an issue</b><span>Readings stopped, a device went quiet, or an alert is not clearing.</span></a></li>
 </ul>
 
 ## The two halves of Cora
@@ -22,13 +22,13 @@ Everything you need to run your reef with Cora. Pick where you are:
 
 They share one account, so your tanks, readings, devices and records are the same on both, and you do not set them up twice.
 
-Not everything is shared. Each screen keeps its **own dashboard layout**, and settings that describe a particular screen — Wi-Fi, brightness, audio, wake word, child lock — belong to that screen alone. See [What is shared and what is not](/help/mobile-multi-device).
+Some things stay with the screen they belong to. Each screen keeps its **own dashboard layout**, and settings that describe a particular screen — Wi-Fi, brightness, audio, wake word, child lock — belong to that screen alone. See [What is shared and what is not](/help/mobile-multi-device).
 
 :::tip Start on your phone
 Even if Cora Max is what you bought, set your tanks and devices up in Cora Mobile first. Everything is easier to type on a phone, and Cora Max picks it all up automatically.
 :::
 
-## What Cora does that a controller doesn't
+## What Cora adds to a controller
 
 Most equipment tells you a number. Cora tells you whether to believe it.
 

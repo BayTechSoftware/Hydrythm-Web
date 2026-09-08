@@ -9,7 +9,7 @@ Vacation mode turns your tank into something another person can look after. You 
 
 **Settings → Tanks → Vacation mode.**
 
-![Tank settings](img/mobile-tanks.webp "Tanks, profiles and vacation mode.")
+![Vacation mode](img/mobile-vacation.webp "Travel dates, the sitter checklist, and the notes that go with it.")
 
 ## Building the plan
 
@@ -21,7 +21,7 @@ Vacation mode turns your tank into something another person can look after. You 
 |---|---|
 | **Daily** | Feeding, a quick look at the tank |
 | **Every 3 days** | Topping off, checking the skimmer |
-| **Once** | A water change while you're away |
+| **Once** | A water change while you are away |
 | **Always** | Standing instructions, such as equipment not to adjust |
 
 Write the checklist for someone unfamiliar with reef tanks. State quantities and methods explicitly — "feed one cube of frozen food, thawed, once a day" rather than "feed as usual".

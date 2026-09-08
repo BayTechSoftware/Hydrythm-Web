@@ -51,6 +51,6 @@ A unit that fails to start several times in a row can also roll itself back to t
 Your controller keeps running its own programming. But an [automation](/help/mobile-automation) whose action has to be carried out **by this Cora Max** cannot run while it is in recovery — the rule fires and the step does not reach the hardware.
 :::
 
-## If a unit will not come back
+## If a unit does not restart
 
 Email **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with the version shown on screen and what it says. Do not re-pair the unit first — pairing state is often useful in working out what happened.

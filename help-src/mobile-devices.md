@@ -21,27 +21,27 @@ Three buttons sit below the list, and they do different jobs:
 
 ![Adding a Cora device](img/mobile-add-device.webp "Add Device searches WiFi and Bluetooth for Cora hardware.")
 
-Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See [Connecting your gear](/help/mobile-connections).
+Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See [Connecting your equipment](/help/mobile-connections).
 
 :::note Cora and your phone need the same network
 Equipment discovered locally must be on the same network as your phone when you add it. **After setup it is still only reachable over that network** — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.
 
-So gear that reads fine at home may show stale values when you are away, unless a Cora Max is there to poll it. That is where the equipment lives, not a fault.
+Equipment that reads correctly at home may therefore show older values while you are away, unless a Cora Max on site can poll it. This reflects where the equipment is reachable from, rather than a fault.
 :::
 
 ## Assigning a device to a tank
 
 Every device belongs to a tank. That is what makes its readings appear on that tank's dashboard.
 
-Open the device and choose **Tank**. If you run more than one system, this is the setting that matters most — a heater reporting into the wrong tank will look like a mystery.
+Open the device and choose **Tank**. If you run more than one system, this is the setting that matters most: a heater assigned to the wrong tank reports perfectly well into the wrong place.
 
 :::warning Assign the tank before you rely on the readings
-A device with no tank still reports, but its numbers have nowhere to land. If a device you just added isn't showing up on a dashboard, this is the first thing to check.
+A device with no tank still reports, but its numbers have nowhere to land. If a device you have just added is not appearing on a dashboard, check this first.
 :::
 
 ## Renaming
 
-Open the device and edit its name. Use whatever you call it out loud — "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.
+Open the device and edit its name. Use the name you use for it day to day — "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.
 
 Renaming is local to Cora. It does not change the name on the manufacturer's own app.
 
@@ -65,6 +65,6 @@ Open the device and choose **Remove**. You will be asked to confirm, and told ex
 
 What you lose is the live link — and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.
 
-:::tip Removing is not how you silence an alert
-If a device is fine but noisy, change its thresholds or notification settings instead — see **[Alerts and thresholds](/help/mobile-alerts)**. Removing it loses the connection and gains you nothing.
+:::tip Quieten a noisy device without removing it
+If a device is working correctly but alerting too often, adjust its thresholds or notification settings — see **[Alerts and thresholds](/help/mobile-alerts)**. That keeps the connection and the data while stopping the noise.
 :::

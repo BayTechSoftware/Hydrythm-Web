@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Readings stopped, a device went offline, alerts won't clear, or something looks wrong — start here.
+description: Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.
 section: Help
 order: 1
 ---
@@ -24,7 +24,7 @@ The age badge is telling you the truth: nothing new has arrived.
 - **Equipment readings** going stale means the device stopped reporting — check its row in **Devices**.
 - **Some equipment is meant to be slow.** A titrator that measures hourly will normally read `1h`. That is not a fault.
 
-## A device says it can't be reached
+## A device cannot be reached
 
 Usually the network.
 
@@ -48,11 +48,11 @@ Check the top bar. If it does not say **Online**, the screen has lost its connec
 - Check the network itself is up
 - If the screen is Online but data is still old, the problem is upstream: check the same tank on your phone
 
-## An alert won't clear
+## An alert is not clearing
 
 An alert clears when the reading returns to range. If it will not clear:
 
-- **The reading really is out of range.** Look at the widget's history.
+- **The reading is genuinely out of range.** Look at the widget's history.
 - **The threshold is wrong for your tank.** See [Alerts and thresholds](/help/mobile-alerts).
 - **The source is wrong.** A probe that needs calibrating reports a number that is genuinely out of range. Fix the probe rather than the threshold.
 
@@ -78,7 +78,7 @@ Usually the probe needs calibrating. Sometimes the test kit is old. An ICP resul
 
 Load a saved design: **My dashboards**, then pick one.
 
-If you have not saved one, the layout has to be rebuilt by hand — there is no reset-to-default. Save a design once the dashboard is how you want it and a future bad edit becomes one tap to undo.
+If you have not saved one, rebuild the layout and then save it as a design. From that point on, returning to it is a single tap.
 
 Either way, readings, history and journal entries are stored separately from layout, so nothing behind the dashboard is lost.
 

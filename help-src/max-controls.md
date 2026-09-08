@@ -41,7 +41,7 @@ An outlet carrying a **padlock** requires an explicit confirmation before it cha
 
 Feed mode is the safe way to pause flow for feeding. It pauses the equipment that should be paused, leaves alone the equipment that should not, and **puts everything back by itself** when the time is up.
 
-Use it instead of switching pumps off by hand. The whole point is that it restores the system without depending on you remembering.
+Use it in preference to switching pumps off by hand, because it restores the system without depending on you to remember.
 
 Feed cycles are lettered **A**, **B**, **C** and **D** — the cycles your controller defines, each pausing a different set of equipment. Pick the one that matches what you are doing. **Cancel** ends a running cycle early and restores everything immediately.
 

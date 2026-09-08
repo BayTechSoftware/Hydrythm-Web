@@ -66,6 +66,6 @@ The tab at the bottom of the screen pulls up a drawer with every outlet on the s
 Everything in it acts on real equipment. A command is sent the moment you tap, but *sent* is not *done* — it comes back Confirmed, Unconfirmed, Refused or No change, and [Activity](/help/max-activity) is where you see which. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.
 :::
 
-## When the screen looks wrong
+## If something looks out of place
 
 If readings look stale or the top bar is not showing **Online**, start with **[Troubleshooting](/help/troubleshooting)**.

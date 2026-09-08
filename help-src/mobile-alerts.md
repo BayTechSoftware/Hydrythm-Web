@@ -39,7 +39,7 @@ You can set:
 - **A ceiling** — a high only, for things where low is fine, like nitrate or phosphate
 - **A floor** — a low only
 
-:::tip Your range, not the internet's
+:::tip Set the range your tank actually runs at
 The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when *you* drift.
 :::
 
@@ -66,7 +66,7 @@ You can also set a **rate-of-change** rule, which watches how fast a parameter m
 
 Reef Buddy has no switch of its own: it sends a briefing when there is something worth acting on and stays quiet when there is not.
 
-:::note Cora tries hard not to be noisy
+:::note Cora is built to stay quiet
 The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.
 :::
 
@@ -84,6 +84,6 @@ If a reading is wrong rather than the tank being wrong — a probe that needs ca
 
 Open the rule in the **Rules** tab of the Alert Center and turn its **enable switch** off. The rule and its range are kept, so you can switch it back on without rebuilding it.
 
-:::warning Deleting a range is not the way to silence a parameter
+:::warning Quieten a parameter without deleting its range
 Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.
 :::

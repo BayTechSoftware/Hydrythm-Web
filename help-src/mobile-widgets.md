@@ -81,14 +81,14 @@ A three-way switch for an outlet: **Auto**, **Off**, **On**.
 **Settings:** label, which outlet, size.
 
 :::warning A manual override does not expire
-Off means off until you set it back to Auto. If you switch a return pump off to work in the tank, put it back to Auto when you're done — Cora will not do it for you.
+Off means off until you set it back to Auto. If you switch a return pump off to work in the tank, put it back to Auto when you have finished — Cora will not do it for you.
 :::
 
 ## ReefBeat
 
 One tile for a whole piece of equipment, showing its own summary rather than a single parameter — an ATO's status and reservoir, a dosing unit's heads, a mat roller's remaining days.
 
-Which devices offer a tile depends on what you have connected. See **[Connecting your gear](/help/mobile-connections)**.
+Which devices offer a tile depends on what you have connected. See **[Connecting your equipment](/help/mobile-connections)**.
 
 **Settings:** label, which device, size.
 

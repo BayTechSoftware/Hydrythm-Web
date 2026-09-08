@@ -41,8 +41,8 @@ Account, tanks, dosing products, the Assistant, notifications, automation, and y
 
 Full detail: **[Settings](/help/mobile-settings)**.
 
-## The bits that aren't tabs
+## Two controls outside the tabs
 
-**The bell**, top right, is your notification history — every alert Cora has raised, newest first. The number on it is how many you haven't read.
+**The bell**, top right, is your notification history — every alert Cora has raised, newest first. The number on it is how many you have yet to read.
 
 **The Journal button** floats over the bottom right of the Dashboard. Tap it to write down what you just did — a water change, a new coral, a dose you changed. See **[The journal](/help/mobile-journal)**.

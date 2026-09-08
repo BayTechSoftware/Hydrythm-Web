@@ -19,7 +19,7 @@ At the top of every dashboard:
 - **Share** — sends a snapshot of the dashboard
 - **The pencil on the right** — opens [the tank profile](/help/mobile-tank-profile)
 
-:::note Three controls that look alike, and none of them is the same thing
+:::note Three similar controls, three destinations
 The glyph by the name renames the tank. The pencil on the right opens the tank **profile**. Editing the dashboard itself is neither — it is **Edit dashboard**, at the *foot* of the dashboard, below the widgets.
 :::
 
@@ -78,9 +78,9 @@ A line above them shows when the dashboard last updated and which sources it dre
 
 Tap any widget to open its detail: the full history as a chart, every source that has reported it, and the thresholds currently applied. From there you can log a new reading by hand, change the range, or look further back.
 
-## When a number is missing
+## If a widget has no value
 
-A widget with no value has not received one. That is usually one of:
+A widget shows a value once it receives one. When it is blank, the reason is usually one of these:
 
 - The device is offline — check the **Devices** tab
 - The parameter has no source yet — log it by hand, or connect equipment that reports it
@@ -88,4 +88,4 @@ A widget with no value has not received one. That is usually one of:
 
 An old reading does not vanish because the chart window is shorter than its age. It stays on the widget with its age shown, so a stale value reads as stale rather than as missing.
 
-See **[Troubleshooting](/help/troubleshooting)** if none of those fit.
+See **[Troubleshooting](/help/troubleshooting)** for anything beyond these.

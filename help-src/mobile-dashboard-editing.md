@@ -69,13 +69,13 @@ A layout you like can be saved and reused. **My dashboards → Save this design*
 
 A saved design can be loaded onto another tank, or onto a Cora Max screen.
 
-:::note What a tank cannot fill is left behind, not left empty
+:::note Tiles the target cannot fill are listed before you commit
 Loading a design keeps only the tiles the target can actually populate. Anything else is dropped and listed for you under **Left behind** before you commit, each with its reason — the tank has never reported that metric, there is no outlet with that name, the ReefBeat device or Apex module is not linked to this tank, or the grid ran out of room.
 :::
 
-## Recovering a layout you did not mean to change
+## Restoring a previous layout
 
-There is no reset-to-default for a dashboard. The way back is a saved design — which is the argument for saving one while the layout is how you want it, because that is what turns a bad edit into one tap to undo.
+A saved design is how you return to a layout you liked. Save one while the dashboard is arranged the way you want it, and any later edit becomes a single tap to undo.
 
 Readings, history and journal entries are stored separately from layout, so no edit to a dashboard can lose them.
 

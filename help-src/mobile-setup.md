@@ -13,7 +13,7 @@ Search for **Cora** on the App Store or Google Play and install it. On your home
 
 ## Looking around first
 
-Before creating an account you can choose **Explore a demo reef** — a sample tank with realistic data, laid out exactly like a real one. Nothing in it is connected to anything, and nothing is saved.
+Before creating an account you can choose **Explore a demo reef** — a sample tank with realistic data, laid out exactly like a real one. It runs entirely on sample data: no equipment is involved, and nothing you do in it is saved.
 
 Use it to see how dashboards, widgets and readings work before committing.
 
@@ -35,7 +35,7 @@ A **tank** in Cora is a body of water you want to track. Most people have one. I
 
 The setup wizard covers the following. All of it can be changed later from your [tank profile](/help/mobile-tank-profile):
 
-1. **Name** — whatever you call it out loud. "Display", "Frag", "QT".
+1. **Name** — the name you use for it day to day: "Display", "Frag", "QT".
 2. **Type** — mixed reef, SPS-dominant, softie, fish-only.
 3. **Dimensions and volume** — actual water volume including the sump. This is what dosing maths uses, so it is worth getting roughly right.
 
@@ -47,9 +47,9 @@ Cora judges readings against what is normal for a tank of the age you enter. Rec
 
 ## Connect your equipment
 
-With a tank in place, go to the **Devices** tab and add your gear. Cora works with equipment you already own — see **[Connecting your gear](/help/mobile-connections)** for what is supported and what each one needs.
+With a tank in place, go to the **Devices** tab and add your equipment. Cora works with equipment you already own — see **[Connecting your equipment](/help/mobile-connections)** for what is supported and what each one needs.
 
-You can skip this and come back. A tank with no devices still works; you just log readings by hand.
+You can skip this step and return to it later. A tank works perfectly well without devices — you log readings by hand instead.
 
 ## Log your first readings
 

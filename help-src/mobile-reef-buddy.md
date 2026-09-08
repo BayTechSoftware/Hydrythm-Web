@@ -60,7 +60,7 @@ The **×** clears today's card from the dashboard. Tomorrow's still arrives. Pas
 
 Reef Buddy is part of the paid tiers. It is included in the 30-day trial that starts when you sign up; after the trial, a free account no longer receives briefings. See [Plans](/help/mobile-plans).
 
-## Telling it when it's wrong
+## Correcting an insight
 
 Each insight takes one of four responses:
 
