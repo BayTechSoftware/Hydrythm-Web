@@ -2,7 +2,7 @@
 title: Guided journeys
 description: Step-by-step help for cycling a new tank and for working through a problem.
 section: Cora Mobile
-order: 20
+order: 23
 ---
 
 A journey is Cora walking you through something over days or weeks, rather than answering one question. There are two kinds: **cycling** a new tank, and working through an **issue**.

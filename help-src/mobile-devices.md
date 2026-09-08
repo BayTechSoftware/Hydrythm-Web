@@ -9,14 +9,19 @@ The **Devices** tab is everything you have connected, grouped by brand. Each gro
 
 ![The Devices tab](img/mobile-devices.webp "Equipment is grouped by brand. Each group collapses.")
 
-## Adding a device
+## Adding equipment
 
-Tap **Add Device** at the bottom of the list and pick what you are adding. What happens next depends on the brand — some connect over your network, some through the manufacturer's account. **[Connecting your gear](/help/mobile-connections)** covers each one.
+Three buttons sit below the list, and they do different jobs:
 
-Two shortcuts sit under the button:
+| Button | Adds |
+|---|---|
+| **Add Device** | Cora hardware. Finds units already on your WiFi, or nearby ones over Bluetooth. **Enter IP Address Manually** is inside this screen if discovery does not find it. |
+| **Find a pump on your network** | Jecod pumps that advertise themselves on the local network |
+| **Add AquaWiz** | An AquaWiz controller, through your AquaWiz account |
 
-- **Find a pump on your network** scans the local network for pumps that advertise themselves, so no address needs to be entered.
-- **Add AquaWiz** goes straight to the AquaWiz sign-in, since that one connects through your AquaWiz account rather than over your network.
+![Adding a Cora device](img/mobile-add-device.webp "Add Device searches WiFi and Bluetooth for Cora hardware.")
+
+Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See [Connecting your gear](/help/mobile-connections).
 
 :::note Cora and your phone need the same network
 Equipment discovered locally must be on the same network as your phone at the time you add it. Once added, the connection is maintained and your phone does not need to remain on that network.

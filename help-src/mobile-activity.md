@@ -2,7 +2,7 @@
 title: Activity and timeline
 description: Everything that has happened to your equipment, and what caused it.
 section: Cora Mobile
-order: 17
+order: 20
 ---
 
 Activity records every action that reached your equipment, together with what caused it.

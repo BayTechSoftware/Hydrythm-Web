@@ -2,7 +2,7 @@
 title: Plans
 description: What each plan includes, where to see your usage, and how to change or cancel.
 section: Cora Mobile
-order: 24
+order: 29
 ---
 
 Cora's core is free: tanks, dashboards, devices, alerts, journal, maintenance and livestock. The paid plans add the intelligence — the Assistant, Reef Buddy, ICP analysis and health reports — with more of each as you go up.

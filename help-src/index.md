@@ -50,3 +50,17 @@ Beyond readings and dashboards, Cora keeps the rest of the job in one place:
 - **[Activity](/help/mobile-activity)** — what happened to your equipment, and what caused it
 - **[Going away](/help/mobile-vacation)** — a plan you can hand to a tank sitter
 - **[Your data](/help/mobile-data-export)** — exports, and deleting your account
+
+## Your equipment
+
+- **[Controlling your equipment](/help/mobile-device-control)** — outlets, pumps, dosing heads and testers
+- **[Probes](/help/mobile-probes)** — mapping a controller's probes, and recording calibration
+- **[Consumables](/help/mobile-consumables)** — refill alerts for reagent, containers and reservoirs
+- **[More than one Cora device](/help/mobile-multi-device)** — which one answers voice, which one polls
+
+## On the big screen
+
+- **[The Reef Room](/help/max-reef-room)** — every tank at once
+- **[Devices and device health](/help/max-devices)** — what Cora Max sees, and its own diagnostics
+- **[Reef Buddy and reports](/help/max-intelligence)** — the briefing and your lab work at the wall
+- **[Updates and recovery](/help/max-updates)** — how the screen keeps itself current

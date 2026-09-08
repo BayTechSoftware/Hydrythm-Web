@@ -2,7 +2,7 @@
 title: Cora Max settings
 description: Settings on the Cora Max display — the screen itself, devices, tanks, notifications and updates.
 section: Cora Max
-order: 6
+order: 11
 ---
 
 Open settings with the **gear** at the far right of the top bar.

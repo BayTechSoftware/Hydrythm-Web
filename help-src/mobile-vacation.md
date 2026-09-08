@@ -2,7 +2,7 @@
 title: Going away
 description: Build a plan your tank sitter can follow, and share it as a page they can open without an account.
 section: Cora Mobile
-order: 22
+order: 26
 ---
 
 Vacation mode turns your tank into something another person can look after. You set the dates, list the jobs, and Cora produces a simple page you can send them.

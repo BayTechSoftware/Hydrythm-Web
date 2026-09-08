@@ -2,7 +2,7 @@
 title: Maintenance
 description: Recurring jobs with reminders — skimmer cleaning, filter socks, pump servicing.
 section: Cora Mobile
-order: 14
+order: 17
 ---
 
 Maintenance holds the recurring jobs a tank needs and the reminders for them. Open it from the shortcut row at the bottom of the dashboard.
