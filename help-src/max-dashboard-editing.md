@@ -5,15 +5,19 @@ section: Cora Max
 order: 4
 ---
 
-The Cora Max dashboard uses a **fixed grid**. All widgets must fit on one screen; the display does not scroll. This is the main difference from the phone dashboard.
+The Cora Max dashboard uses a **fixed grid**. Every tile must fit on one screen; the display does not scroll. That is the main difference from the phone dashboard.
 
-:::tip Edit it from your phone
-You can build the Cora Max dashboard from Cora Mobile: **Devices → your Cora Max → Edit dashboard**. It is much quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.
+Open the editor from **Settings → Tank settings → [your tank] → Dashboard layout**.
+
+![The dashboard editor on Cora Max](img/max-dashboard-editor.webp "Grid sizes across the top, then the tiles themselves. Nothing is written until you press Save.")
+
+:::tip You can also edit it from your phone
+**Devices → your Cora Max → Edit dashboard** builds the same layout from Cora Mobile. It is quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.
 :::
 
 ## Choosing a grid
 
-Pick the density first, because changing it later re-flows everything.
+Pick the density first, because changing it re-flows everything.
 
 | Grid | Tiles | Feels like |
 |---|---|---|
@@ -21,23 +25,25 @@ Pick the density first, because changing it later re-flows everything.
 | 4×4, 5×3, 6×4 | 16–24 | The usual choice for a full system. |
 | 6×5, 8×4, 8×5 | 30–40 | Dense — a whole reef room at once. |
 | 9×5, 10×5 | 45–50 | Very dense. Best on the largest screens. |
-| **Fill** | automatic | Cora picks a shape to fit however many widgets you added. |
+| **Auto** | up to 32 | Cora picks a shape to fit however many tiles you added. |
 
-The **32-widget limit applies to Fill only**. A fixed grid holds as many widgets as it has cells — up to 50 on 10×5.
+A fixed grid holds as many tiles as it has cells — up to 50 on 10×5. **Auto** is the one option with its own ceiling: it stops at 32 tiles, because beyond that the text becomes too small to read at a distance.
 
-:::warning Widgets that no longer fit are REMOVED when you change grid
-Moving to a smaller grid drops the widgets that will not fit, with a warning. They are not kept invisibly, so note what is on a dense layout before switching to a sparser one.
+:::note Start with Auto if you're unsure
+Add the tiles you want and leave the grid on **Auto**; Cora chooses a shape that fits them. If you like the result, pin it to that fixed shape afterwards.
 :::
 
-:::note Start with Fill if you're unsure
-Add the widgets you want, set the grid to **Fill**, and Cora chooses a shape that fits them. If you like the result you can pin it to that fixed shape afterwards.
+:::warning Changing grid can drop tiles — but only when there is no room
+Tiles are re-flowed into the new shape rather than discarded by position: anything already in a legal cell stays put, and the rest are packed back in, in order. Tiles are only lost when the new grid has **fewer cells than you have tiles**, and Cora tells you how many went. Moving from 10×5 (50 cells) to 3×3 (9) will lose most of them.
 :::
 
 ## Adding and arranging
 
-Same as on the phone: add a widget, choose what it shows and which shape it takes, then drag it where you want it. Widgets can be one or two cells wide and one or two cells tall.
+The editor tells you the three gestures along the top: **tap a tile to edit**, **long-press to move it**, and **✕ to remove it**. Tiles can be one or two cells wide and one or two cells tall.
 
-The six shapes — value, gauge, trend, status, control and device — are described in the **[Widget reference](/help/mobile-widgets)**.
+**Outlets & Feed** adds your controllable outlets and feed cycles in one step, rather than one tile at a time. **Clear all** empties the grid so you can start again.
+
+The tile shapes — value, gauge, trend, status, control and device — are described in the **[Widget reference](/help/mobile-widgets)**.
 
 ## Designing for distance
 
@@ -50,10 +56,10 @@ A wall display is read from further away than a phone, and usually at a glance r
 
 ## Saving layouts
 
-Save a dashboard you like as a preset, and switch between saved layouts from the **grid icon** in the top bar.
+Nothing you do in the editor takes effect until you press **Save**. Leaving without saving discards the changes.
 
-This is genuinely useful on Cora Max: a dense everyday layout, and a big-tile layout for when you are working in the tank and reading from a distance.
+**My dashboards** keeps layouts you want to come back to, so you can switch between them instead of rebuilding. This is genuinely useful on Cora Max: a dense everyday layout, and a big-tile layout for when you are working in the tank and reading from a distance.
 
 ## Multiple tanks
 
-Each tank has its own layout. Switch tanks from the top bar and edit that tank's dashboard separately.
+Each tank has its own layout. Edit them separately, one tank at a time, from that tank's own settings.

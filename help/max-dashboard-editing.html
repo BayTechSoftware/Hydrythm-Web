@@ -110,25 +110,28 @@
     <article class="doc">
       <h1>Editing the Cora Max dashboard</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#choosing-a-grid">Choosing a grid</a></li><li><a href="#adding-and-arranging">Adding and arranging</a></li><li><a href="#designing-for-distance">Designing for distance</a></li><li><a href="#saving-layouts">Saving layouts</a></li><li><a href="#multiple-tanks">Multiple tanks</a></li></ul></nav>
-<p>The Cora Max dashboard uses a <strong>fixed grid</strong>. All widgets must fit on one screen; the display does not scroll. This is the main difference from the phone dashboard.</p>
-<aside class="cal cal-tip"><p class="cal-t">Edit it from your phone</p><p>You can build the Cora Max dashboard from Cora Mobile: <strong>Devices → your Cora Max → Edit dashboard</strong>. It is much quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.</p></aside>
+<p>The Cora Max dashboard uses a <strong>fixed grid</strong>. Every tile must fit on one screen; the display does not scroll. That is the main difference from the phone dashboard.</p>
+<p>Open the editor from <strong>Settings → Tank settings → [your tank] → Dashboard layout</strong>.</p>
+<figure class="shot"><img src="img/max-dashboard-editor.webp" alt="The dashboard editor on Cora Max" width="1100" height="687" loading="lazy" decoding="async"><figcaption>Grid sizes across the top, then the tiles themselves. Nothing is written until you press Save.</figcaption></figure>
+<aside class="cal cal-tip"><p class="cal-t">You can also edit it from your phone</p><p><strong>Devices → your Cora Max → Edit dashboard</strong> builds the same layout from Cora Mobile. It is quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.</p></aside>
 <h2 id="choosing-a-grid">Choosing a grid</h2>
-<p>Pick the density first, because changing it later re-flows everything.</p>
-<div class="tw"><table><thead><tr><th>Grid</th><th>Tiles</th><th>Feels like</th></tr></thead><tbody><tr><td>2×2, 3×2, 3×3</td><td>4–9</td><td>Large. Readable from right across the room.</td></tr><tr><td>4×4, 5×3, 6×4</td><td>16–24</td><td>The usual choice for a full system.</td></tr><tr><td>6×5, 8×4, 8×5</td><td>30–40</td><td>Dense — a whole reef room at once.</td></tr><tr><td>9×5, 10×5</td><td>45–50</td><td>Very dense. Best on the largest screens.</td></tr><tr><td><strong>Fill</strong></td><td>automatic</td><td>Cora picks a shape to fit however many widgets you added.</td></tr></tbody></table></div>
-<p>The <strong>32-widget limit applies to Fill only</strong>. A fixed grid holds as many widgets as it has cells — up to 50 on 10×5.</p>
-<aside class="cal cal-warning"><p class="cal-t">Widgets that no longer fit are REMOVED when you change grid</p><p>Moving to a smaller grid drops the widgets that will not fit, with a warning. They are not kept invisibly, so note what is on a dense layout before switching to a sparser one.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Start with Fill if you're unsure</p><p>Add the widgets you want, set the grid to <strong>Fill</strong>, and Cora chooses a shape that fits them. If you like the result you can pin it to that fixed shape afterwards.</p></aside>
+<p>Pick the density first, because changing it re-flows everything.</p>
+<div class="tw"><table><thead><tr><th>Grid</th><th>Tiles</th><th>Feels like</th></tr></thead><tbody><tr><td>2×2, 3×2, 3×3</td><td>4–9</td><td>Large. Readable from right across the room.</td></tr><tr><td>4×4, 5×3, 6×4</td><td>16–24</td><td>The usual choice for a full system.</td></tr><tr><td>6×5, 8×4, 8×5</td><td>30–40</td><td>Dense — a whole reef room at once.</td></tr><tr><td>9×5, 10×5</td><td>45–50</td><td>Very dense. Best on the largest screens.</td></tr><tr><td><strong>Auto</strong></td><td>up to 32</td><td>Cora picks a shape to fit however many tiles you added.</td></tr></tbody></table></div>
+<p>A fixed grid holds as many tiles as it has cells — up to 50 on 10×5. <strong>Auto</strong> is the one option with its own ceiling: it stops at 32 tiles, because beyond that the text becomes too small to read at a distance.</p>
+<aside class="cal cal-note"><p class="cal-t">Start with Auto if you're unsure</p><p>Add the tiles you want and leave the grid on <strong>Auto</strong>; Cora chooses a shape that fits them. If you like the result, pin it to that fixed shape afterwards.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Changing grid can drop tiles — but only when there is no room</p><p>Tiles are re-flowed into the new shape rather than discarded by position: anything already in a legal cell stays put, and the rest are packed back in, in order. Tiles are only lost when the new grid has <strong>fewer cells than you have tiles</strong>, and Cora tells you how many went. Moving from 10×5 (50 cells) to 3×3 (9) will lose most of them.</p></aside>
 <h2 id="adding-and-arranging">Adding and arranging</h2>
-<p>Same as on the phone: add a widget, choose what it shows and which shape it takes, then drag it where you want it. Widgets can be one or two cells wide and one or two cells tall.</p>
-<p>The six shapes — value, gauge, trend, status, control and device — are described in the <strong><a href="/help/mobile-widgets">Widget reference</a></strong>.</p>
+<p>The editor tells you the three gestures along the top: <strong>tap a tile to edit</strong>, <strong>long-press to move it</strong>, and <strong>✕ to remove it</strong>. Tiles can be one or two cells wide and one or two cells tall.</p>
+<p><strong>Outlets &amp; Feed</strong> adds your controllable outlets and feed cycles in one step, rather than one tile at a time. <strong>Clear all</strong> empties the grid so you can start again.</p>
+<p>The tile shapes — value, gauge, trend, status, control and device — are described in the <strong><a href="/help/mobile-widgets">Widget reference</a></strong>.</p>
 <h2 id="designing-for-distance">Designing for distance</h2>
 <p>A wall display is read from further away than a phone, and usually at a glance rather than with attention.</p>
 <ul><li><strong>Give your headline parameters two-by-two.</strong> Alkalinity, temperature, pH — the things you want to read without walking over.</li><li><strong>Put controls at the edges.</strong> Outlet tiles are the ones you reach for; they are easier to hit at the sides.</li><li><strong>Group by subject, not by type.</strong> Everything about dosing together, everything about flow together. You scan a wall by area.</li><li><strong>Leave the traces small.</strong> Trace elements and other slow numbers are reference, not monitoring — a one-by-one value tile is plenty.</li></ul>
 <h2 id="saving-layouts">Saving layouts</h2>
-<p>Save a dashboard you like as a preset, and switch between saved layouts from the <strong>grid icon</strong> in the top bar.</p>
-<p>This is genuinely useful on Cora Max: a dense everyday layout, and a big-tile layout for when you are working in the tank and reading from a distance.</p>
+<p>Nothing you do in the editor takes effect until you press <strong>Save</strong>. Leaving without saving discards the changes.</p>
+<p><strong>My dashboards</strong> keeps layouts you want to come back to, so you can switch between them instead of rebuilding. This is genuinely useful on Cora Max: a dense everyday layout, and a big-tile layout for when you are working in the tank and reading from a distance.</p>
 <h2 id="multiple-tanks">Multiple tanks</h2>
-<p>Each tank has its own layout. Switch tanks from the top bar and edit that tank's dashboard separately.</p>
+<p>Each tank has its own layout. Edit them separately, one tank at a time, from that tank's own settings.</p>
       <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>

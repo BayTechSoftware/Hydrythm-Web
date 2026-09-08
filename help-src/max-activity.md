@@ -7,28 +7,32 @@ order: 10
 
 Cora Max shows the same activity log as the phone: every request that reached your equipment, and what became of it.
 
-Open it from **Settings → Tank settings → [your tank]**, or from the tank menu.
+Open it from **Settings → Tank settings → [your tank] → Activity**.
+
+![The activity log on Cora Max](img/max-activity.webp "The legend stays at the top of the screen, so an outcome never has to be remembered.")
 
 ## What each entry tells you
 
-Each row names the action, the equipment, the time, and two things that matter more than either:
+Each row names the action, the equipment and the time, then two things that matter more than either.
 
-**What asked for it** — you at this screen, you on your phone, a schedule, an [automation](/help/mobile-automation), or the Assistant.
+**What asked for it** — you at this screen, you on your phone, a schedule, an [automation](/help/mobile-automation), or the Assistant. An entry made at the wall says so in as many words.
 
-**What happened** — one of four outcomes:
+**How it travelled** — whether the command went across your own network or by way of your account, and which Cora carried it out. On a system with more than one Cora, this is how you tell which one acted.
+
+## The four outcomes
 
 | Outcome | Means |
 |---|---|
-| **Confirmed** | The equipment acknowledged it and reported its new state |
-| **Dispatched** | Sent, but nothing came back in time. This means *we do not know*, not *it worked* |
-| **Refused** | Declined — by a safety rule, a lock, or the equipment |
-| **No change** | It was already in the state requested |
+| **Confirmed** | The equipment reported back that it did it |
+| **Unconfirmed** | Sent, but nothing reported back. This means *we do not know* — not *it worked* |
+| **Refused** | Did not run. A safety rule, a lock, or the equipment itself declined it |
+| **No change** | It was already in the state you asked for |
 
 ## Why the outcome matters at the wall
 
-A command that was **dispatched** and never confirmed looks identical, at the moment you tap, to one that worked. This screen is where that difference becomes visible.
+A command that was sent but never acknowledged looks identical, at the moment you tap, to one that worked. This screen is where that difference becomes visible.
 
-If something you asked for does not appear to have happened, look here before assuming the equipment is broken — the answer is usually that the request was refused, or never acknowledged.
+If something you asked for does not appear to have happened, look here before assuming the equipment has failed. The answer is usually that the request was refused, or that nothing ever reported back.
 
 ## Reading it alongside the journal
 

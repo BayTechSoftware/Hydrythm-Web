@@ -21,7 +21,11 @@ Changing a threshold on one device changes it everywhere. Rearranging a dashboar
 
 ## Voice responder
 
-**Settings → Assistant & AI → Voice responder** chooses which **Cora device** answers the wake phrase across the household. Only one answers, however many can hear you — set it to whichever unit is nearest where you usually stand.
+**Settings → Assistant & AI → Voice responder** chooses which **Cora device** answers when you speak to the room. Only one answers, however many can hear you — set it to whichever unit is nearest where you usually stand.
+
+![The voice responder picker](img/mobile-voice-responder.webp "Each device shows what it listens for, and whether it is online.")
+
+Each device in the list shows the wake phrase it listens for, along with whether it is online. **These are not all the same.** A wake phrase is trained into the device itself, so different Cora models can listen for different ones. Read the phrase from the device's own row rather than assuming the household shares one.
 
 :::note Your phone is not in this picker
 The phone does not listen for a wake phrase. You start a conversation on it by tapping, which always works and is unaffected by this setting. The picker lists voice-capable Cora hardware only.
