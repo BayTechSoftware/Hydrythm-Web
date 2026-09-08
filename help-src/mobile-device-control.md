@@ -12,8 +12,21 @@ Connected equipment has its own page in Cora, showing live state and offering wh
 Every device page follows the same shape: identification at the top, a row of live readings, any state the device reports, then its controls. The bell in the title bar sets alert thresholds for that device — see [Consumables](/help/mobile-consumables).
 
 :::warning These controls act on live equipment
-Changes take effect immediately on the device. There is no preview and no undo.
+There is no preview and no undo. Some controls also ask you to confirm first.
 :::
+
+## What happens when you send a command
+
+A command does not always succeed, and Cora tells you which of four things happened rather than assuming:
+
+| Outcome | Means |
+|---|---|
+| **Confirmed** | The equipment acknowledged the change and reported its new state |
+| **Dispatched** | The command was sent, but no acknowledgement came back in time. **This means "we do not know", not "it worked"** — check the device's own state |
+| **Refused** | Something declined it — a safety rule, a lock, or the equipment itself |
+| **No change** | The equipment was already in the state you asked for |
+
+Every outcome is recorded in [Activity](/help/mobile-activity) with what caused it.
 
 ## Neptune Apex
 

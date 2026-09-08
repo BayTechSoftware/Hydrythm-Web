@@ -13,13 +13,9 @@ Activity records every action that reached your equipment, together with what ca
 
 ## What is recorded
 
-Every action that reached your equipment:
+Every **request**, not only the ones that worked — outlet switches, feed cycles, doses, plug changes, and anything a scene or automation did.
 
-- Outlet switches
-- Feed cycles
-- Doses
-- Smart plug changes
-- Anything a scene or automation did
+A request that was **refused**, that made **no change**, or that was **dispatched without confirmation** is recorded just as an executed one is. That is the point: a command that quietly did nothing is exactly what you want to find here.
 
 ## What caused it
 

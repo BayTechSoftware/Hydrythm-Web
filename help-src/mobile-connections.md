@@ -7,7 +7,16 @@ order: 9
 
 Cora works with equipment you already own. This page covers what is supported and what each connection needs.
 
-Add any of these from **Devices → Add Device**.
+⚠️ **There is no single "add anything" button.** Where you start depends on the brand:
+
+| Brand | Start from |
+|---|---|
+| Neptune Apex | The tank — its profile holds the Apex connection |
+| Red Sea ReefBeat | The tank |
+| Jecod / Jebao | **Devices → Find a pump on your network**, or Bluetooth |
+| AquaWiz | **Devices → Add AquaWiz** |
+| Maxspect | **Devices → Find a pump on your network** |
+| Cora hardware | **Devices → Add Device** |
 
 ## Neptune Apex
 
@@ -23,11 +32,11 @@ Your Apex keeps running its own programming. Cora reads it, shows it alongside e
 
 ## Red Sea ReefBeat
 
-Cora talks to ReefBeat equipment on your local network — dosing units, ATO, mat rollers, wave pumps and lights, depending on what you own.
+Cora talks to ReefBeat equipment on your local network. Supported units are **ReefDose**, **ReefATO+**, **ReefMat** and **ReefRun**.
 
 **You will need:** the equipment already set up in ReefBeat and on the same network as your phone when you add it.
 
-**What you get:** a device tile per unit, plus each unit's readings as sources. A dosing unit reports its heads; an ATO reports its reservoir; a mat roller reports days remaining.
+**What you get:** a device page per unit, plus each unit's readings as sources. ReefDose reports its heads and containers; ReefATO+ reports its reservoir and fills; ReefMat reports remaining days; ReefRun reports pump state.
 
 ## Jecod / Jebao
 
@@ -57,8 +66,15 @@ AquaWiz issues a single sign-in per account, so the one Cora holds is the same o
 
 ## Maxspect
 
-If you have a Maxspect Gyre, add it the same way — **Devices → Add Device**, then
-**Find a pump on your network**. It appears in its own group alongside your other brands.
+Cora connects to Maxspect Gyre pumps and can read and drive them.
+
+**You will need:** the gyre on your network. Use **Devices → Find a pump on your network**.
+
+**What you get:** mode and intensity **for each of its two motors**, the unit's schedule, and its current state with the time it was last read.
+
+:::warning A gyre must be read before it is changed
+The page shows when the unit last reported. If that is stale, refresh it before changing anything — otherwise a change is built on a state the pump may have moved away from. See [Scheduling equipment](/help/mobile-schedules).
+:::
 
 ## Logging by hand
 

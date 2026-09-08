@@ -44,7 +44,7 @@ There is also a **step** condition, which checks how the *previous* step turned 
 
 ## What a rule can do
 
-Eleven kinds of action:
+Twelve kinds of action:
 
 | Action | What it does |
 |---|---|
@@ -59,6 +59,11 @@ Eleven kinds of action:
 | **Wait Before Next Step** | Pause before continuing |
 | **Run a Scene** | Run another scene from inside this rule |
 | **Manage an Automation** | Turn another rule on or off |
+| **Dose** | Run a measured dose on a dosing head |
+
+:::warning Dosing from a rule is irreversible and capped
+A dose cannot be taken back out of the tank. The head must be **calibrated** before a rule may dose from it, and unattended dosing is capped at **10 mL per head per day** — a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.
+:::
 
 :::note Use Wait to sequence steps within one rule
 A pause allows a single rule to perform an ordered procedure — for example switching an outlet off, waiting, then switching it on again — without a second rule and a schedule.

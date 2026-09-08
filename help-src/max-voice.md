@@ -2,7 +2,7 @@
 title: Talking to Cora
 description: Using voice on Cora Max — starting a conversation, what you can ask, and how confirmations work.
 section: Cora Max
-order: 11
+order: 12
 ---
 
 Cora Max takes voice, which is the easiest way to use it when your hands are wet or you are across the room.
@@ -40,6 +40,12 @@ The swoosh begins a live session immediately — there is no confirmation step. 
 - *"Log that I did a twenty litre water change."*
 
 **Follow-ups.** You do not need to repeat yourself — *"and the frag tank?"* works after a question about the display.
+
+## Child lock
+
+**Settings → Cora Max → Child lock** blocks actuation from this screen. Questions and readings still work — Cora will answer what your alkalinity is, and refuse to switch the return pump off.
+
+Use it on a screen within reach of children or visitors.
 
 ## Confirmations
 

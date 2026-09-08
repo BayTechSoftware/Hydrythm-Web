@@ -7,20 +7,20 @@ order: 5
 
 Cora Max can switch the equipment on your system — from control widgets on the dashboard, from the Outlets & Feed drawer, or by voice.
 
-:::warning Everything here acts on your tank immediately
-There is no preview and no undo. A pump switched off is off.
+:::warning These controls act on your tank
+There is no undo. Outlets marked with a padlock ask you to confirm first; the rest apply as soon as you tap. A command can come back **Confirmed**, **Dispatched** (sent, not acknowledged), **Refused** or **No change** — see [Controlling your equipment](/help/mobile-device-control).
 :::
 
 ## The three states
 
 Every outlet is in one of three states.
 
-**Auto** hands the outlet back to whatever normally runs it — a schedule, an automation rule, or the controller that owns it. This is where an outlet should sit most of the time.
+**Auto** returns the outlet to its Apex programming. This is where an outlet should sit most of the time.
 
 **Off** and **On** are manual overrides. They take effect at once and **stay until you change them back**. They do not expire, and nothing puts them back for you.
 
-:::warning A manual override has no timer
-If you switch the return pump off to work in the tank, set it back to **Auto** when you are done. Cora will not do it for you, and a return pump left off overnight is the kind of mistake this warning exists for.
+:::warning A manual override does not expire
+Set it back to **Auto** when you are done; nothing does that for you. It can still be changed later by you, by voice, or by an automation — an override is not a lock.
 :::
 
 ## Switching from the dashboard
@@ -35,7 +35,7 @@ Pull up the tab at the bottom of the dashboard to open **Controls** — every ou
 
 ![The Controls drawer](img/max-controls.webp "Feed cycles across the top, then every outlet.")
 
-Outlets carrying a padlock are locked against accidental taps. Unlock one in tank settings if you genuinely need it.
+An outlet carrying a **padlock** requires an explicit confirmation before it changes. Tapping it opens a dialog naming the outlet, its current state, and the override you are about to apply. It is a confirmation step, not a lock to be switched off elsewhere.
 
 ## Feed mode
 

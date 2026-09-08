@@ -24,7 +24,9 @@ Three buttons sit below the list, and they do different jobs:
 Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See [Connecting your gear](/help/mobile-connections).
 
 :::note Cora and your phone need the same network
-Equipment discovered locally must be on the same network as your phone at the time you add it. Once added, the connection is maintained and your phone does not need to remain on that network.
+Equipment discovered locally must be on the same network as your phone when you add it. **After setup it is still only reachable over that network** — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.
+
+So gear that reads fine at home may show stale values when you are away, unless a Cora Max is there to poll it. That is where the equipment lives, not a fault.
 :::
 
 ## Assigning a device to a tank

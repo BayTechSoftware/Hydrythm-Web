@@ -11,35 +11,31 @@ order: 15
 
 ## What can push
 
-Each kind can be turned on or off independently:
+Each category is switched independently:
 
-- **Alerts** — a parameter left its range
-- **Reef Buddy** — the daily briefing
-- **Maintenance reminders** — a job is coming due
-- **Device problems** — something went offline or a sign-in was refused
+| Category | Covers |
+|---|---|
+| **Parameter alerts** | A reading left the range set for it |
+| **Maintenance due** | A task is approaching or past its due date |
+| **Equipment faults** | A device reported a fault — stall, brownout, encoder or homing |
+| **Supplies low** | A consumable crossed its refill threshold |
+| **ICP ready** | An uploaded lab result has finished analysing |
 
-## Quiet hours
-
-Set a window where nothing arrives. Anything raised during quiet hours is still recorded — you see it in the bell when you next look.
-
-:::warning Quiet hours apply to genuinely urgent alerts too
-Cora does not carve out exceptions. If you want to be woken for a temperature excursion, do not set quiet hours, or keep the window narrow.
-:::
+Turning a category off stops the push. The event is still recorded and still appears in the bell.
 
 ## The bell
 
 Top right of every screen. It holds everything Cora has raised, newest first, whether or not it pushed. The number is what you have not read.
 
-This is the right place to check after quiet hours, or after a day away from your phone.
+This is the right place to check after a day away from your phone, or after a category you switched off raised something.
 
 ## If nothing is arriving
 
 Work down this list:
 
-1. **Settings → Notifications** — is that kind allowed to push?
-2. Are you inside quiet hours?
-3. Your phone's own settings — is Cora allowed to notify at all? An iOS or Android permission denied at install time overrides everything here.
-4. Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed, which is deliberate rather than a fault.
+1. **Settings → Notifications** — is that category allowed to push?
+2. Your phone's own settings — is Cora allowed to notify at all? A permission denied at install time overrides everything here.
+3. Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.
 
 ## If too much is arriving
 

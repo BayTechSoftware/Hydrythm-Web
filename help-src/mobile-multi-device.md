@@ -5,16 +5,26 @@ section: Cora Mobile
 order: 28
 ---
 
-A household can have several Cora devices — more than one Cora Max, or a Cora Max alongside your phone. Two settings decide which device does what, so they do not duplicate each other's work.
+A household can have several Cora devices. Two settings decide which one does what, so they do not duplicate each other's work — and a third thing worth knowing is what is shared between them at all.
+
+## What is shared, and what is not
+
+| Shared across every device | Belongs to one screen |
+|---|---|
+| Tanks, readings and history | Its dashboard layout |
+| Devices and their settings | Wi-Fi, brightness, audio |
+| Journal, livestock, maintenance | Wake word and child lock |
+| Alerts, thresholds, automations | Which tanks that screen shows |
+| Plans and usage | |
+
+Changing a threshold on one device changes it everywhere. Rearranging a dashboard does not — each screen keeps its own layout, and the phone and Cora Max never share one.
 
 ## Voice responder
 
-When several devices can hear you, only one should answer.
+**Settings → Assistant & AI → Voice responder** chooses which **Cora device** answers the wake phrase across the household. Only one answers, however many can hear you — set it to whichever unit is nearest where you usually stand.
 
-**Settings → Assistant & AI → Voice responder** chooses which device responds to the wake word across the whole household.
-
-:::note One responder for the household, not per tank
-This is a single choice covering every device on the account. Set it to whichever unit is nearest where you usually stand.
+:::note Your phone is not in this picker
+The phone does not listen for a wake phrase. You start a conversation on it by tapping, which always works and is unaffected by this setting. The picker lists voice-capable Cora hardware only.
 :::
 
 ## Primary poller

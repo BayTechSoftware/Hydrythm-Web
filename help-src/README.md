@@ -59,8 +59,8 @@ Images taller than 1.4× their width are treated as phone screenshots and capped
 The guide is live-but-quiet: `NOINDEX = True` in `build_help.py`, `Disallow: /help/`
 in `robots.txt`, no sitemap entries, and nothing on the site links to it.
 
-To publish: set `NOINDEX = False`, remove the `robots.txt` line, add the 22 URLs to
-`sitemap.xml`, rebuild, and add a link from the main nav. One commit.
+To publish: set `NOINDEX = False`, remove the `robots.txt` line, add every page URL to
+`sitemap.xml` (47 at the time of writing — generate the list, do not hand-count), rebuild, and add a link from the main nav. One commit.
 
 ## Version stamp
 

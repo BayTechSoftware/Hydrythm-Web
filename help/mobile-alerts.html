@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -132,15 +133,16 @@
 <ul><li><strong>The bell</strong>, top right of every screen, holds your history. The number is how many you have not read.</li><li><strong>Push notifications</strong> reach your phone when you allow them.</li><li><strong>The widget</strong> turns amber or red on the dashboard.</li><li><strong>Cora Max</strong> shows the same alerts on the big screen.</li></ul>
 <h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
 <p><strong>Settings → Notifications.</strong> You can control:</p>
-<ul><li>Which parameters can push, and at what severity</li><li>Quiet hours</li><li>Whether the daily Reef Buddy briefing pushes</li></ul>
+<ul><li>Which parameters can push, and at what severity</li><li>Whether the daily Reef Buddy briefing pushes</li></ul>
 <aside class="cal cal-note"><p class="cal-t">Cora tries hard not to be noisy</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
 <p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
 <aside class="cal cal-note"><p class="cal-t">Transient readings raise alerts</p><p>A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.</p></aside>
 <p>If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
 <h2 id="disabling-alerts-for-a-parameter">Disabling alerts for a parameter</h2>
-<p>If a parameter genuinely doesn't matter for your system, remove its range. With no threshold set, Cora shows the value and stops judging it.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+<p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn its <strong>enable switch</strong> off. The rule and its range are kept, so you can switch it back on without rebuilding it.</p>
+<aside class="cal cal-warning"><p class="cal-t">Deleting a range is not the way to silence a parameter</p><p>Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

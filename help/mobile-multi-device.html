@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -108,12 +109,14 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>More than one Cora device</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#voice-responder">Voice responder</a></li><li><a href="#primary-poller">Primary poller</a></li><li><a href="#where-each-devices-state-is-shown">Where each device&#x27;s state is shown</a></li></ul></nav>
-<p>A household can have several Cora devices — more than one Cora Max, or a Cora Max alongside your phone. Two settings decide which device does what, so they do not duplicate each other's work.</p>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-is-shared-and-what-is-not">What is shared, and what is not</a></li><li><a href="#voice-responder">Voice responder</a></li><li><a href="#primary-poller">Primary poller</a></li><li><a href="#where-each-devices-state-is-shown">Where each device&#x27;s state is shown</a></li></ul></nav>
+<p>A household can have several Cora devices. Two settings decide which one does what, so they do not duplicate each other's work — and a third thing worth knowing is what is shared between them at all.</p>
+<h2 id="what-is-shared-and-what-is-not">What is shared, and what is not</h2>
+<div class="tw"><table><thead><tr><th>Shared across every device</th><th>Belongs to one screen</th></tr></thead><tbody><tr><td>Tanks, readings and history</td><td>Its dashboard layout</td></tr><tr><td>Devices and their settings</td><td>Wi-Fi, brightness, audio</td></tr><tr><td>Journal, livestock, maintenance</td><td>Wake word and child lock</td></tr><tr><td>Alerts, thresholds, automations</td><td>Which tanks that screen shows</td></tr><tr><td>Plans and usage</td><td></td></tr></tbody></table></div>
+<p>Changing a threshold on one device changes it everywhere. Rearranging a dashboard does not — each screen keeps its own layout, and the phone and Cora Max never share one.</p>
 <h2 id="voice-responder">Voice responder</h2>
-<p>When several devices can hear you, only one should answer.</p>
-<p><strong>Settings → Assistant &amp; AI → Voice responder</strong> chooses which device responds to the wake word across the whole household.</p>
-<aside class="cal cal-note"><p class="cal-t">One responder for the household, not per tank</p><p>This is a single choice covering every device on the account. Set it to whichever unit is nearest where you usually stand.</p></aside>
+<p><strong>Settings → Assistant &amp; AI → Voice responder</strong> chooses which <strong>Cora device</strong> answers the wake phrase across the household. Only one answers, however many can hear you — set it to whichever unit is nearest where you usually stand.</p>
+<aside class="cal cal-note"><p class="cal-t">Your phone is not in this picker</p><p>The phone does not listen for a wake phrase. You start a conversation on it by tapping, which always works and is unaffected by this setting. The picker lists voice-capable Cora hardware only.</p></aside>
 <h2 id="primary-poller">Primary poller</h2>
 <p>Equipment on your network is read by a Cora device. When more than one device could read the same controller, they would otherwise poll it in parallel.</p>
 <p>The <strong>primary poller</strong> is a per-tank choice of which device reads that tank's controller.</p>
@@ -122,7 +125,7 @@
 <aside class="cal cal-note"><p class="cal-t">Set a primary when two devices watch one tank</p><p>Naming a primary reduces load on the controller and removes duplicate readings from the same source.</p></aside>
 <h2 id="where-each-devices-state-is-shown">Where each device's state is shown</h2>
 <p>Cora Max reports its own polling and voice state under <strong>Settings → Devices → Device health</strong>. See <a href="/help/max-devices">Devices and device health</a>.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

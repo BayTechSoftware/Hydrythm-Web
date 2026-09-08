@@ -23,7 +23,11 @@ Pick the density first, because changing it later re-flows everything.
 | 9×5, 10×5 | 45–50 | Very dense. Best on the largest screens. |
 | **Fill** | automatic | Cora picks a shape to fit however many widgets you added. |
 
-A Cora Max dashboard holds up to **32 widgets**. Add more than the grid can paint and the extras are kept but not shown — either reduce the count or pick a denser grid.
+The **32-widget limit applies to Fill only**. A fixed grid holds as many widgets as it has cells — up to 50 on 10×5.
+
+:::warning Widgets that no longer fit are REMOVED when you change grid
+Moving to a smaller grid drops the widgets that will not fit, with a warning. They are not kept invisibly, so note what is on a dense layout before switching to a sparser one.
+:::
 
 :::note Start with Fill if you're unsure
 Add the widgets you want, set the grid to **Fill**, and Cora chooses a shape that fits them. If you like the result you can pin it to that fixed shape afterwards.

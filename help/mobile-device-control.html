@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -108,11 +109,15 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Controlling your equipment</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#trident">Trident</a></li><li><a href="#ds">DŌS</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#jecod-pumps">Jecod pumps</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#what-happens-after-you-change-something">What happens after you change something</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-happens-when-you-send-a-command">What happens when you send a command</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#trident">Trident</a></li><li><a href="#ds">DŌS</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#jecod-pumps">Jecod pumps</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#what-happens-after-you-change-something">What happens after you change something</a></li></ul></nav>
 <p>Connected equipment has its own page in Cora, showing live state and offering whatever controls that device supports. Open one from the <strong>Devices</strong> tab.</p>
 <figure class="shot phone"><img src="img/mobile-device-detail.webp" alt="A device page" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Live readings at the top, then the controls that device supports.</figcaption></figure>
 <p>Every device page follows the same shape: identification at the top, a row of live readings, any state the device reports, then its controls. The bell in the title bar sets alert thresholds for that device — see <a href="/help/mobile-consumables">Consumables</a>.</p>
-<aside class="cal cal-warning"><p class="cal-t">These controls act on live equipment</p><p>Changes take effect immediately on the device. There is no preview and no undo.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">These controls act on live equipment</p><p>There is no preview and no undo. Some controls also ask you to confirm first.</p></aside>
+<h2 id="what-happens-when-you-send-a-command">What happens when you send a command</h2>
+<p>A command does not always succeed, and Cora tells you which of four things happened rather than assuming:</p>
+<div class="tw"><table><thead><tr><th>Outcome</th><th>Means</th></tr></thead><tbody><tr><td><strong>Confirmed</strong></td><td>The equipment acknowledged the change and reported its new state</td></tr><tr><td><strong>Dispatched</strong></td><td>The command was sent, but no acknowledgement came back in time. <strong>This means "we do not know", not "it worked"</strong> — check the device's own state</td></tr><tr><td><strong>Refused</strong></td><td>Something declined it — a safety rule, a lock, or the equipment itself</td></tr><tr><td><strong>No change</strong></td><td>The equipment was already in the state you asked for</td></tr></tbody></table></div>
+<p>Every outcome is recorded in <a href="/help/mobile-activity">Activity</a> with what caused it.</p>
 <h2 id="neptune-apex">Neptune Apex</h2>
 <p>The Apex page lists your probes and outlets.</p>
 <ul><li><strong>Probes</strong> report into Cora as sources and can be placed on a dashboard.</li><li><strong>Outlets</strong> switch between <strong>Auto</strong>, <strong>Off</strong> and <strong>On</strong>. Auto returns control to your Apex programming.</li><li><strong>Fitted modules</strong> — Trident, DŌS and others — each have their own page.</li></ul>
@@ -134,7 +139,7 @@
 <aside class="cal cal-note"><p class="cal-t">A gyre must be read before it can be changed</p><p>The page shows when it last reported. If the reading is stale, refresh it before changing settings so the change is applied to the unit's actual current state.</p></aside>
 <h2 id="what-happens-after-you-change-something">What happens after you change something</h2>
 <p>Every change is recorded in <a href="/help/mobile-activity">Activity</a> with the surface that requested it. If a device does not accept a change, the failure is recorded there too.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

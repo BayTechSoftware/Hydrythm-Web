@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -108,12 +109,16 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Looking into a parameter</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-you-get">What you get</a></li><li><a href="#choosing-a-range">Choosing a range</a></li><li><a href="#comparing-sources">Comparing sources</a></li><li><a href="#choosing-which-source-a-widget-trusts">Choosing which source a widget trusts</a></li><li><a href="#logging-a-reading-by-hand">Logging a reading by hand</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-you-get">What you get</a></li><li><a href="#choosing-a-range">Choosing a range</a></li><li><a href="#comparing-sources">Comparing sources</a></li><li><a href="#choosing-which-source-a-widget-trusts">Choosing which source a widget trusts</a></li><li><a href="#excluding-a-bad-reading">Excluding a bad reading</a></li><li><a href="#recording-probe-care">Recording probe care</a></li><li><a href="#logging-a-reading-by-hand">Logging a reading by hand</a></li></ul></nav>
 <p>A widget shows you a number. Tapping it shows you the story behind the number.</p>
 <h2 id="what-you-get">What you get</h2>
 <p><strong>A history chart</strong>, with its own range selector: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> and longer.</p>
 <p><strong>A source filter.</strong> Below the ranges is a row of chips — <strong>All</strong>, plus one per source reporting this parameter, such as <em>Apex</em>, <em>Cora</em>, <em>Red Sea</em> or <em>Manual</em>. Select one to see only its readings. This is how you compare a probe against a test kit directly: switch between them on the same chart.</p>
 <p><strong>A dose calculator link</strong>, for parameters you dose. It uses the tank volume from your <a href="/help/mobile-tank-profile">tank profile</a> and the strengths from <a href="/help/mobile-dosing">Dosing</a>.</p>
+<p><strong>A comparison overlay.</strong> <em>Compare with</em> draws a second parameter on the same chart — alkalinity against calcium, pH against temperature — so a relationship you suspect becomes visible instead of remembered.</p>
+<p><strong>Summary statistics</strong> for the window on screen: minimum, average and maximum.</p>
+<p><strong>Dose markers</strong> on the chart, so a movement can be lined up against what you actually dosed.</p>
+<p><strong>The raw readings list</strong> — every individual reading behind the line, with its source and timestamp.</p>
 <p><strong>The thresholds</strong> currently applied, and a way to change them.</p>
 <p><strong>Log a reading</strong> by hand.</p>
 <h2 id="choosing-a-range">Choosing a range</h2>
@@ -122,13 +127,20 @@
 <aside class="cal cal-note"><p class="cal-t">Check the reading age on a flat trend</p><p>A line that has not moved may indicate a stable parameter or a source that has stopped reporting. The age shown beside the value distinguishes the two.</p></aside>
 <h2 id="comparing-sources">Comparing sources</h2>
 <p>When more than one source reports a parameter, Cora keeps them separate rather than averaging them. Use the source chips to view each in turn.</p>
-<p>A persistent offset between a probe and a hand-logged test usually indicates the probe needs calibrating. An <a href="/help/mobile-icp-health">ICP result</a> provides an independent reference.</p>
+<p>A persistent offset between a probe and a hand-logged test usually indicates the probe needs calibrating.</p>
+<p>An <a href="/help/mobile-icp-health">ICP result</a> is a useful third opinion, but not an arbiter. Laboratories differ from one another, and the sample's handling, storage and transit all move the result. Treat a single ICP as evidence, not as the true value — two tests agreeing is worth far more than one.</p>
 <h2 id="choosing-which-source-a-widget-trusts">Choosing which source a widget trusts</h2>
 <p>If you want a widget to follow one particular source, set that in the widget's settings — see <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
+<h2 id="excluding-a-bad-reading">Excluding a bad reading</h2>
+<p>A probe that spiked, a test misread, a sample taken mid water-change — a single wrong reading distorts the chart, the averages and anything reasoning from them.</p>
+<p>From the raw readings list you can <strong>exclude</strong> one. It is kept and can be <strong>restored</strong>; it simply stops counting toward charts, statistics and assessments.</p>
+<aside class="cal cal-warning"><p class="cal-t">Exclude a wrong reading, not an unwelcome one</p><p>Excluding is for readings you know to be invalid. A reading you dislike but cannot fault is data, and removing it makes every later comparison less honest.</p></aside>
+<h2 id="recording-probe-care">Recording probe care</h2>
+<p>Logging a calibration or cleaning from here stamps the date against that source, so a later disagreement can be read against when the probe was last seen to. See <a href="/help/mobile-probes">Probes</a>.</p>
 <h2 id="logging-a-reading-by-hand">Logging a reading by hand</h2>
 <p>Enter what your test kit says. Hand-logged readings are first-class: they get their own source and timestamp, they appear on the chart, they feed Reef Buddy, and they are what Cora compares your equipment against.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora checks entries that look implausible</p><p>If a value is far from what the tank has been running, you are asked to confirm it before it is saved. This catches a decimal point in the wrong place or a reading entered against the wrong parameter. Confirm it and the reading is stored normally.</p></aside>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

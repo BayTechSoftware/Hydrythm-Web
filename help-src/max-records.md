@@ -5,7 +5,16 @@ section: Cora Max
 order: 8
 ---
 
-Cora Max carries the same record-keeping as the phone, reading and writing the same data. Entries made here appear on your phone, and the other way round.
+Cora Max shows the same records as the phone, but it is not a full editor for all of them. What you can do at the wall differs by area:
+
+| Area | On Cora Max |
+|---|---|
+| **Journal** | Read and add entries |
+| **Readings** | Log test results with the on-screen keyboard |
+| **Maintenance** | Complete or snooze a task. Creating and editing tasks is done on the phone |
+| **Livestock** | Read-only. Add and edit on the phone |
+
+Anything you do add here appears on your phone immediately, and the other way round.
 
 Reach all of them from the **tank menu** — tap the tank name in the top bar.
 

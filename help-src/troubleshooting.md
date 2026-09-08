@@ -64,10 +64,9 @@ Usually the probe needs calibrating. Sometimes the test kit is old. An ICP resul
 
 ## I'm not getting notifications
 
-1. **Settings → Notifications** — check the alert type is allowed to push
-2. Check quiet hours
-3. Check your phone's own notification permissions for Cora
-4. Remember the daily briefing is deliberately quiet on days when nothing changed
+1. **Settings → Notifications** — check that category is allowed to push
+2. Check your phone's own notification permissions for Cora
+3. Remember the daily briefing is deliberately quiet on days when nothing changed
 
 ## Establishing why something changed
 

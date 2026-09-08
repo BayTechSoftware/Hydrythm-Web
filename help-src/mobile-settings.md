@@ -50,7 +50,6 @@ What reaches your phone, and when.
 
 - Which alerts push, and at what severity
 - Whether the daily Reef Buddy briefing pushes
-- Quiet hours
 - Reminders
 
 ## Automation

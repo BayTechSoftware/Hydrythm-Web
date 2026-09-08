@@ -20,7 +20,9 @@ Everything you need to run your reef with Cora. Pick where you are:
 
 **Cora Max** is the wall-mounted command centre for the reef room. It shows the same tanks and the same live data on a screen you can read from across the room, and it takes voice.
 
-They are two views of one system. A change you make on your phone appears on Cora Max, and the other way round — you do not set anything up twice.
+They share one account, so your tanks, readings, devices and records are the same on both, and you do not set them up twice.
+
+Not everything is shared. Each screen keeps its **own dashboard layout**, and settings that describe a particular screen — Wi-Fi, brightness, audio, wake word, child lock — belong to that screen alone. See [What is shared and what is not](/help/mobile-multi-device).
 
 :::tip Start on your phone
 Even if Cora Max is what you bought, set your tanks and devices up in Cora Mobile first. Everything is easier to type on a phone, and Cora Max picks it all up automatically.
@@ -65,4 +67,5 @@ Beyond readings and dashboards, Cora keeps the rest of the job in one place:
 - **[Devices and device health](/help/max-devices)** — what Cora Max sees, and its own diagnostics
 - **[Reef Buddy and reports](/help/max-intelligence)** — the briefing and your lab work at the wall
 - **[Controlling equipment from Cora Max](/help/max-device-control)** — device pages at the wall
+- **[Activity on Cora Max](/help/max-activity)** — what was carried out, refused, or never confirmed
 - **[Updates and recovery](/help/max-updates)** — how the screen keeps itself current

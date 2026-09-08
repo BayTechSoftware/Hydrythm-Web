@@ -40,7 +40,7 @@ Include standing instructions covering equipment the sitter should leave alone. 
 
 Everything else keeps working — readings, alerts, Reef Buddy, automations. Vacation mode adds the sitter page; it does not change how your tank is run.
 
-If you want to be reachable, check your **[notification settings](/help/mobile-notifications)** before you go, particularly quiet hours if you are changing timezone.
+If you want to be reachable, check your **[notification settings](/help/mobile-notifications)** before you go.
 
 ## Coming back
 

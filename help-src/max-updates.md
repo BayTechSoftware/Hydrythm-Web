@@ -2,7 +2,7 @@
 title: Updates and recovery
 description: How Cora Max updates itself, and what happens if an update goes wrong.
 section: Cora Max
-order: 13
+order: 14
 ---
 
 ## Automatic updates
@@ -19,7 +19,12 @@ Nothing is required from you to stay up to date.
 
 ## When an update is available
 
-A prompt appears on screen describing what is new. The update applies itself; the screen restarts and returns to the dashboard.
+A prompt appears describing what is new, with two choices:
+
+- **Update now** — installs immediately and restarts
+- **Snooze 3 hours** — asks again later
+
+Left alone, an update installs itself overnight, between roughly 3 and 5 in the morning, so the screen is not restarting while you are looking at it.
 
 :::note Readings are not lost during an update
 Data lives in your account, not on the screen. A unit that restarts comes back with the same tanks, dashboards and history.
@@ -27,9 +32,22 @@ Data lives in your account, not on the screen. A unit that restarts comes back w
 
 ## Recovery
 
-If a unit cannot start normally it enters a recovery state and says so on screen rather than sitting blank. From there it can retry, or reconnect to your account.
+Recovery is a maintenance mode for when a unit will not start normally, or when you need to repair its setup without a laptop.
 
-A screen in recovery is not controlling equipment. Anything the tank needs during that time continues to be handled by your controller's own programming and by any [automations](/help/mobile-automation), which run in Cora Cloud rather than on the screen.
+**To enter it:** hold **five fingers** on the top-right of the screen for about **ten seconds**. It is **PIN-protected**, so it cannot be reached by a guest or by accident.
+
+From recovery you can:
+
+- Repair the **Wi-Fi** connection
+- **Re-pair** the unit to your account
+- Force a **firmware update**
+- **Factory reset** the unit
+
+A unit that fails to start several times in a row can also roll itself back to the previous version.
+
+:::warning A screen in recovery is not controlling anything
+Your controller keeps running its own programming. But an [automation](/help/mobile-automation) whose action has to be carried out **by this Cora Max** cannot run while it is in recovery — the rule fires and the step does not reach the hardware.
+:::
 
 ## If a unit will not come back
 

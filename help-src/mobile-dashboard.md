@@ -13,7 +13,7 @@ The dashboard is a grid of **widgets**, each showing one thing about one tank. W
 
 At the top of every dashboard:
 
-- **The tank name**, with a pencil to rename it
+- **The tank name**, with a pencil that opens [the tank profile](/help/mobile-tank-profile) — not dashboard editing
 - **Feed** — pauses flow and skimming for a feeding, then puts everything back
 - **Reef Buddy** — opens this morning's briefing
 - **Share** — sends a snapshot of the dashboard
@@ -23,7 +23,7 @@ With more than one tank, swipe sideways to move between them.
 
 ## The Reef Buddy card
 
-Below the header, a card summarises the most recent briefing: a headline, a score out of 100, and the number of insights. Tap it to open the full briefing, or dismiss it with **×**. A new card appears with the next briefing.
+Below the header, a card summarises the most recent briefing: a headline, its **Stability** and **Data** scores, and the number of insights. Tap it to open the full briefing, or dismiss it with **×**. A new card appears with the next briefing.
 
 ## How to read a widget
 
@@ -74,6 +74,8 @@ A widget with no value has not received one. That is usually one of:
 
 - The device is offline — check the **Devices** tab
 - The parameter has no source yet — log it by hand, or connect equipment that reports it
-- The reading is older than the window the widget is showing — switch it to a longer window in dashboard editing
+- The parameter has never been reported or logged — nothing has been recorded for it yet
+
+An old reading does not vanish because the chart window is shorter than its age. It stays on the widget with its age shown, so a stale value reads as stale rather than as missing.
 
 See **[Troubleshooting](/help/troubleshooting)** if none of those fit.

@@ -17,18 +17,22 @@ Cora Max shows the tanks, devices and dashboards from your account. If you set t
 - Your Wi-Fi network name and password
 - The account you use for Cora Mobile
 
-## First run
+## Setup is driven from your phone
 
-Power on. Cora Max walks you through setup in order:
+Power the unit on. It shows a pairing screen and **advertises itself** — it does not ask you to type anything.
 
-1. **Language and region**
-2. **Wi-Fi** — pick your network and enter the password using the on-screen keyboard
-3. **Pairing** — connect Cora Max to your Cora account
-4. **Tanks** — choose which of your tanks this screen should show
+Everything else happens in Cora Mobile:
 
-## Pairing with your account
+1. **Devices → Add Device** on your phone. It finds the Cora Max over your network or over Bluetooth.
+2. Your phone sends it your **Wi-Fi credentials**, so you are typing the password on a phone keyboard rather than a wall screen.
+3. Your phone **authorises it against your account**.
+4. Your phone **assigns which tanks** it should show.
 
-Pairing is what ties this screen to you. Once paired, Cora Max sees the same tanks, devices, dashboards and history as your phone, and changes flow both ways.
+When that finishes, the screen comes up on its dashboard.
+
+:::note Pairing is what ties the screen to you
+Once paired, Cora Max sees the same tanks, devices, readings and records as your phone. **Dashboard layouts are not inherited** — Cora Max builds its own from your tank profile, and you arrange it separately.
+:::
 
 Follow the on-screen instructions to link it to your account. Cora Mobile will confirm when the pairing succeeds.
 
@@ -36,13 +40,13 @@ Follow the on-screen instructions to link it to your account. Cora Mobile will c
 You can pair more than one Cora Max to the same account — one in the reef room, one elsewhere — and each can show a different set of tanks and its own dashboard layout.
 :::
 
-## Choosing which tanks to show
+## Changing which tanks it shows
 
-A Cora Max can show one tank or several. Pick the ones this screen is for; you can change it later under **Settings → Devices**.
+Tank assignment belongs to the pairing, and is changed from **your phone** — open the unit in **Devices** and edit its assigned tanks. It is not changed from the Max's own settings.
 
 ## Building the dashboard
 
-Cora Max starts with a sensible layout built from your tank profile. To make it yours, the easiest route is from your phone: **Devices → your Cora Max → Edit dashboard**. It is far quicker than arranging tiles on a wall.
+Cora Max builds its own starting layout from your tank profile — it does **not** copy the one on your phone. To change it, the easiest route is from your phone: **Devices → your Cora Max → Edit Dashboard**, which is quicker than arranging tiles on a wall.
 
 The big-screen dashboard works differently from the phone — a fixed grid that all has to fit on one screen. See **[Editing the Cora Max dashboard](/help/max-dashboard-editing)**.
 

@@ -56,10 +56,23 @@ If nothing has been tested for a week, the Data score drops and the Stability sc
 
 The **×** clears today's card from the dashboard. Tomorrow's still arrives. Past briefings stay available from the **Intelligence** tab.
 
-## Turning it off
+## Availability
 
-**Settings → Notifications** controls whether the briefing pushes. The card still appears on the dashboard even with the push turned off, so you can have it without being interrupted.
+Reef Buddy is part of the paid tiers. It is included in the 30-day trial that starts when you sign up; after the trial, a free account no longer receives briefings. See [Plans](/help/mobile-plans).
 
 ## Telling it when it's wrong
 
-Each insight can be marked useful or not. That feedback shapes what you get told about — an insight you keep dismissing stops leading your briefings.
+Each insight takes one of four responses:
+
+| Response | Means |
+|---|---|
+| **Confirmed** | It was right, and useful |
+| **Doesn't match** | It does not reflect what you are seeing |
+| **Already knew** | Right, but you were aware |
+| **Not sure** | You cannot judge it yet |
+
+Feedback shapes what leads later briefings, and suppression is **time-limited** — an insight you dismiss comes back if the condition persists.
+
+:::note Serious findings are never suppressed
+Only lower-severity insights can be quietened by feedback. Warning and critical insights keep appearing regardless of how you have responded to them before.
+:::

@@ -62,7 +62,11 @@ Cora's advice is exactly that. Verify anything important with your own testing, 
 
 Cora remembers things about your tank between conversations — that you dose two-part, that your frag tank shares a sump, that you are trying to bring nutrients up. This is what stops you re-explaining your system every time.
 
-You can see and clear what it remembers under **Settings → Assistant & AI → Memory**.
+**Settings → Assistant & AI → AI memory** shows what Cora has recorded about your tank and lets you reset it.
+
+:::warning Clearing memory does not necessarily remove everything
+The reset clears the memory record you can see. Cora also keeps working context across a conversation and a longer-term profile that the reset may not cover in full. Treat it as "forget what you are showing me", not a guaranteed erase of everything ever inferred.
+:::
 
 ## Usage
 
@@ -70,4 +74,6 @@ Your plan includes a monthly allowance of messages. The count sits above the mes
 
 ## When Cora gets it wrong
 
-Tell it. Correcting Cora in the conversation is the fastest fix, and the correction sticks. If an answer looks confidently wrong, check the data chip first — often the answer is right about the data it was given, and the real problem is a stale or misassigned source.
+Correct it in the conversation — that is the fastest fix and it usually carries forward, though it is not guaranteed to persist indefinitely.
+
+If an answer looks confidently wrong, check the data chip first. Often the answer is right about the data it was given, and the real problem is a stale reading or a source assigned to the wrong tank.

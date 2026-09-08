@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -116,14 +117,20 @@
 <figure class="shot"><img src="img/max-updates.webp" alt="Device settings" width="1100" height="404" loading="lazy" decoding="async"><figcaption>Firmware update and device health, at the top of device settings.</figcaption></figure>
 <p><strong>Settings → Cora Max → Firmware Update</strong> covers checking, installing, the update channel and its schedule. <strong>Device health &amp; controls</strong> sits beside it. <strong>Settings → Devices → Device health</strong> shows the same, alongside the unit's other diagnostics.</p>
 <h2 id="when-an-update-is-available">When an update is available</h2>
-<p>A prompt appears on screen describing what is new. The update applies itself; the screen restarts and returns to the dashboard.</p>
+<p>A prompt appears describing what is new, with two choices:</p>
+<ul><li><strong>Update now</strong> — installs immediately and restarts</li><li><strong>Snooze 3 hours</strong> — asks again later</li></ul>
+<p>Left alone, an update installs itself overnight, between roughly 3 and 5 in the morning, so the screen is not restarting while you are looking at it.</p>
 <aside class="cal cal-note"><p class="cal-t">Readings are not lost during an update</p><p>Data lives in your account, not on the screen. A unit that restarts comes back with the same tanks, dashboards and history.</p></aside>
 <h2 id="recovery">Recovery</h2>
-<p>If a unit cannot start normally it enters a recovery state and says so on screen rather than sitting blank. From there it can retry, or reconnect to your account.</p>
-<p>A screen in recovery is not controlling equipment. Anything the tank needs during that time continues to be handled by your controller's own programming and by any <a href="/help/mobile-automation">automations</a>, which run in Cora Cloud rather than on the screen.</p>
+<p>Recovery is a maintenance mode for when a unit will not start normally, or when you need to repair its setup without a laptop.</p>
+<p><strong>To enter it:</strong> hold <strong>five fingers</strong> on the top-right of the screen for about <strong>ten seconds</strong>. It is <strong>PIN-protected</strong>, so it cannot be reached by a guest or by accident.</p>
+<p>From recovery you can:</p>
+<ul><li>Repair the <strong>Wi-Fi</strong> connection</li><li><strong>Re-pair</strong> the unit to your account</li><li>Force a <strong>firmware update</strong></li><li><strong>Factory reset</strong> the unit</li></ul>
+<p>A unit that fails to start several times in a row can also roll itself back to the previous version.</p>
+<aside class="cal cal-warning"><p class="cal-t">A screen in recovery is not controlling anything</p><p>Your controller keeps running its own programming. But an <a href="/help/mobile-automation">automation</a> whose action has to be carried out <strong>by this Cora Max</strong> cannot run while it is in recovery — the rule fires and the step does not reach the hardware.</p></aside>
 <h2 id="if-a-unit-will-not-come-back">If a unit will not come back</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the version shown on screen and what it says. Do not re-pair the unit first — pairing state is often useful in working out what happened.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

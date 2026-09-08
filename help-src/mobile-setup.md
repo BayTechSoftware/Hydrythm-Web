@@ -21,10 +21,12 @@ Use it to see how dashboards, widgets and readings work before committing.
 
 Open the app and choose **Create account**. You can sign up with an email address, or with Apple or Google if you would rather not manage another password.
 
-You will be asked to verify your email. The code arrives within a minute; check spam if it doesn't.
+You will be asked to verify your email. Cora sends a **link** — open it on the device and come back to the app. Check spam if it does not arrive within a minute.
 
 :::note One account, every screen
-Your account is what ties everything together. Sign in with the same account on Cora Max and on any other phone, and you get the same tanks, the same dashboards and the same history.
+Your account ties everything together. Sign in with the same account on Cora Max or another phone and you get the same tanks, devices, readings and records.
+
+Dashboard layouts are **not** shared — each screen keeps its own. See [What is shared and what is not](/help/mobile-multi-device).
 :::
 
 ## Add your first tank
@@ -34,10 +36,10 @@ A **tank** in Cora is a body of water you want to track. Most people have one. I
 The setup wizard covers the following. All of it can be changed later from your [tank profile](/help/mobile-tank-profile):
 
 1. **Name** — whatever you call it out loud. "Display", "Frag", "QT".
-2. **Volume** — your best estimate of actual water volume, sump included. This is what dosing maths uses, so it is worth getting roughly right.
-3. **Type and age** — mixed reef, SPS-dominant, softie, fish-only, and roughly when you set it up. Cora uses this to judge what is normal for *your* tank rather than for tanks in general.
-4. **What you keep** — a rough sense of your livestock load.
-5. **Targets** — the parameters you care about and where you want them. Sensible defaults are filled in for your tank type; adjust anything you already have an opinion about.
+2. **Type** — mixed reef, SPS-dominant, softie, fish-only.
+3. **Dimensions and volume** — actual water volume including the sump. This is what dosing maths uses, so it is worth getting roughly right.
+
+That is the whole wizard. Everything else — livestock, equipment, dosing, targets, lighting, flow — is filled in afterwards from [your tank profile](/help/mobile-tank-profile), at your own pace.
 
 :::note Tank age affects how readings are assessed
 Cora judges readings against what is normal for a tank of the age you enter. Record a cycling tank as such.

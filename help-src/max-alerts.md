@@ -2,7 +2,7 @@
 title: Alerts on Cora Max
 description: Alert pills in the top bar, the notification inbox, and editing thresholds at the wall.
 section: Cora Max
-order: 10
+order: 11
 ---
 
 ## Alert pills
@@ -13,7 +13,9 @@ The pills are the reason Cora Max works as a wall display: the tank's problems a
 
 ## The notification inbox
 
-**Settings → Notification history** holds everything this screen has raised, newest first — including alerts that arrived while nobody was looking.
+**Settings → Notification history** is the **account-wide** inbox — every briefing, alarm and account notice for your whole system, not just what this screen raised. It includes anything your phone missed.
+
+Alerts can also be snoozed per device, so a unit you are working on stops chiming without silencing the alert everywhere.
 
 ## Editing thresholds
 

@@ -5,7 +5,37 @@ section: Cora Mobile
 order: 30
 ---
 
-Cora's core is free: tanks, dashboards, devices, alerts, journal, maintenance and livestock. The paid plans add the intelligence — the Assistant, Reef Buddy, ICP analysis and health reports — with more of each as you go up.
+Monitoring your tank is free and unmetered. The paid tiers raise the AI allowances and unlock Reef Buddy.
+
+## What is always free
+
+- Live readings from your equipment, with dashboards and charts
+- Devices, alerts and thresholds
+- Journal, maintenance and livestock
+- Push notifications for critical alerts
+- **One tank**
+
+## The free allowances
+
+| Feature | Free |
+|---|---|
+| Assistant messages | 20 a month. Voice draws on the same pool and costs more per turn |
+| Health reports | 1 a month |
+| ICP analysis | **One, once** — a single lifetime analysis, then locked |
+| AI on tanks | Your primary tank only |
+| Reef Buddy | Not included |
+
+When an allowance runs out, everything already generated stays readable.
+
+## The trial
+
+A **30-day Pro trial starts when you sign up** — not when you first use a feature. It includes Reef Buddy and the higher allowances.
+
+When it ends the account falls back to Free. **Nothing is deleted**: every reading, journal entry, report and briefing you already have stays readable.
+
+## Paid tiers
+
+Three tiers, monthly or annual, each raising the allowances above. Current prices are shown in the app and at the store, since that is where they are charged.
 
 **Settings → your account** opens **Account & Subscription**.
 
@@ -38,7 +68,7 @@ Use **Manage Subscription**. Changes go through the App Store or Google Play and
 
 ## Cancelling
 
-Cancel through the App Store or Google Play, not in Cora. Your plan runs to the end of the period you have paid for, then drops back to free.
+Cancel through the App Store or Google Play, not in Cora. Your plan runs to the end of the period you have paid for, then drops back to Free.
 
 :::note Cancelling does not delete anything
 Your tanks, readings, history and journal stay exactly as they are. You lose access to the paid features, not the data. Come back later and it is all still there.

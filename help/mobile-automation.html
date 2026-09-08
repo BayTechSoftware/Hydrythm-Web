@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -124,8 +125,9 @@
 <p>Conditions decide whether the actions actually run. You get the usual comparisons — equals, not equals, greater than, less than, and so on — and you can combine them with <strong>and</strong>, <strong>or</strong> and <strong>not</strong>.</p>
 <p>There is also a <strong>step</strong> condition, which checks how the <em>previous</em> step turned out. That is what lets you write "try this; if it didn't work, do that instead."</p>
 <h2 id="what-a-rule-can-do">What a rule can do</h2>
-<p>Eleven kinds of action:</p>
-<div class="tw"><table><thead><tr><th>Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Control Apex Equipment</strong></td><td>Switch an outlet</td></tr><tr><td><strong>Control a Red Sea Equipment</strong></td><td>Drive a ReefBeat unit</td></tr><tr><td><strong>Control a wavemaker</strong></td><td>Change pump mode or intensity</td></tr><tr><td><strong>Control a Cora Equipment</strong></td><td>Switch a smart plug</td></tr><tr><td><strong>Control IR Device</strong></td><td>Send an infrared command</td></tr><tr><td><strong>Run Apex Feed Cycle</strong></td><td>Start a feed</td></tr><tr><td><strong>Run a Trident Test</strong></td><td>Trigger a test</td></tr><tr><td><strong>Notify Me</strong></td><td>Send yourself a push</td></tr><tr><td><strong>Wait Before Next Step</strong></td><td>Pause before continuing</td></tr><tr><td><strong>Run a Scene</strong></td><td>Run another scene from inside this rule</td></tr><tr><td><strong>Manage an Automation</strong></td><td>Turn another rule on or off</td></tr></tbody></table></div>
+<p>Twelve kinds of action:</p>
+<div class="tw"><table><thead><tr><th>Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Control Apex Equipment</strong></td><td>Switch an outlet</td></tr><tr><td><strong>Control a Red Sea Equipment</strong></td><td>Drive a ReefBeat unit</td></tr><tr><td><strong>Control a wavemaker</strong></td><td>Change pump mode or intensity</td></tr><tr><td><strong>Control a Cora Equipment</strong></td><td>Switch a smart plug</td></tr><tr><td><strong>Control IR Device</strong></td><td>Send an infrared command</td></tr><tr><td><strong>Run Apex Feed Cycle</strong></td><td>Start a feed</td></tr><tr><td><strong>Run a Trident Test</strong></td><td>Trigger a test</td></tr><tr><td><strong>Notify Me</strong></td><td>Send yourself a push</td></tr><tr><td><strong>Wait Before Next Step</strong></td><td>Pause before continuing</td></tr><tr><td><strong>Run a Scene</strong></td><td>Run another scene from inside this rule</td></tr><tr><td><strong>Manage an Automation</strong></td><td>Turn another rule on or off</td></tr><tr><td><strong>Dose</strong></td><td>Run a measured dose on a dosing head</td></tr></tbody></table></div>
+<aside class="cal cal-warning"><p class="cal-t">Dosing from a rule is irreversible and capped</p><p>A dose cannot be taken back out of the tank. The head must be <strong>calibrated</strong> before a rule may dose from it, and unattended dosing is capped at <strong>10 mL per head per day</strong> — a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Use Wait to sequence steps within one rule</p><p>A pause allows a single rule to perform an ordered procedure — for example switching an outlet off, waiting, then switching it on again — without a second rule and a schedule.</p></aside>
 <h2 id="scenes">Scenes</h2>
 <p>A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule — "Water change", "Photo mode", "Night".</p>
@@ -135,7 +137,7 @@
 <p>Every rule has an enable switch. Turning one off keeps its definition — useful when you want a rule back next season rather than rebuilding it.</p>
 <h2 id="seeing-what-a-rule-did">Seeing what a rule did</h2>
 <p>Every action a rule takes is recorded with the rule as its cause. See <strong><a href="/help/mobile-activity">Activity</a></strong>.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

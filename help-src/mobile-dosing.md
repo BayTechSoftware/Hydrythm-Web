@@ -29,9 +29,17 @@ An incorrect strength makes every dose calculation for that product wrong by the
 
 ## The dose calculator
 
-With products set up, Cora can tell you how much to dose to move a parameter from where it is to where you want it — using your tank's actual volume from its profile.
+With products set up, Cora can calculate a correction using your tank's actual volume from its profile.
 
-That is also why the volume you entered at setup matters. A tank whose stated volume is 20% out gives dose figures 20% out.
+It calculates **increases**: alkalinity, calcium, magnesium, and nitrate or phosphate when you are raising them.
+
+For **reductions** it gives guidance rather than a dose — you cannot dose a parameter downward, and the answer is a water change, a media change or a change in what you are already dosing.
+
+:::warning Large corrections are spread, not dosed at once
+Cora caps how much a parameter may be moved in a day and spreads a bigger correction over several. A single large dose is how a tank gets shocked; the calculator will not propose one.
+:::
+
+The volume you entered at setup matters here. A stated volume 20% out gives dose figures 20% out.
 
 ## Consumption
 

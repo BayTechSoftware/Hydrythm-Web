@@ -35,12 +35,11 @@ The tanks this unit shows are listed below those settings.
 
 ## Device health
 
-**Settings → Devices → Device health** is the diagnostics screen for the Cora Max unit itself. It reports:
+**Settings → Cora Max → Device health & controls** is the diagnostics screen for the unit itself. It reports:
 
-- **Software version and update state**
+- **Firmware and update state** for this unit
 - **Wake state** — whether this unit is currently the household's voice responder
-- **Polling** — for each tank, whether this unit is reading the controller, and whether it is the designated primary
-- **Write state** — whether this unit is permitted to send commands to a controller
+- **Per-tank Apex diagnostics** — whether this unit is polling that tank's controller, whether it is the designated primary, and whether its writes are getting through
 
 It also hosts a few controls, so common problems can be fixed at the wall rather than from a laptop:
 
@@ -52,7 +51,7 @@ It also hosts a few controls, so common problems can be fixed at the wall rather
 
 When more than one Cora device could read the same controller, one is designated the primary and the others defer. If readings stop for one tank but continue for another, this screen shows whether this unit believes it should be polling at all.
 
-The primary is chosen per tank from the phone — see [More than one Cora device](/help/mobile-multi-device).
+The primary can be chosen here, or from the phone — see [More than one Cora device](/help/mobile-multi-device).
 
 :::note Device health is read-first
 Most of the screen reports state rather than changing it. Use it to establish what is happening before altering anything.

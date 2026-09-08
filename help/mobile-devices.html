@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -116,7 +117,8 @@
 <div class="tw"><table><thead><tr><th>Button</th><th>Adds</th></tr></thead><tbody><tr><td><strong>Add Device</strong></td><td>Cora hardware. Finds units already on your WiFi, or nearby ones over Bluetooth. <strong>Enter IP Address Manually</strong> is inside this screen if discovery does not find it.</td></tr><tr><td><strong>Find a pump on your network</strong></td><td>Jecod pumps that advertise themselves on the local network</td></tr><tr><td><strong>Add AquaWiz</strong></td><td>An AquaWiz controller, through your AquaWiz account</td></tr></tbody></table></div>
 <figure class="shot phone"><img src="img/mobile-add-device.webp" alt="Adding a Cora device" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Add Device searches WiFi and Bluetooth for Cora hardware.</figcaption></figure>
 <p>Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See <a href="/help/mobile-connections">Connecting your gear</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora and your phone need the same network</p><p>Equipment discovered locally must be on the same network as your phone at the time you add it. Once added, the connection is maintained and your phone does not need to remain on that network.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Cora and your phone need the same network</p><p>Equipment discovered locally must be on the same network as your phone when you add it. <strong>After setup it is still only reachable over that network</strong> — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.</p>
+<p>So gear that reads fine at home may show stale values when you are away, unless a Cora Max is there to poll it. That is where the equipment lives, not a fault.</p></aside>
 <h2 id="assigning-a-device-to-a-tank">Assigning a device to a tank</h2>
 <p>Every device belongs to a tank. That is what makes its readings appear on that tank's dashboard.</p>
 <p>Open the device and choose <strong>Tank</strong>. If you run more than one system, this is the setting that matters most — a heater reporting into the wrong tank will look like a mystery.</p>
@@ -132,7 +134,7 @@
 <p><strong>Your readings are kept.</strong> Removing a device stops Cora collecting new data from it; the history it already gathered stays on the tank, and any widget pointed at it keeps its past readings.</p>
 <p>What you lose is the live link — and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.</p>
 <aside class="cal cal-tip"><p class="cal-t">Removing is not how you silence an alert</p><p>If a device is fine but noisy, change its thresholds or notification settings instead — see <strong><a href="/help/mobile-alerts">Alerts and thresholds</a></strong>. Removing it loses the connection and gains you nothing.</p></aside>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

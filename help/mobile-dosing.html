@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -120,13 +121,16 @@
 <p>If your product is not in the library, add it as a custom one and enter its strength. The manufacturer's label almost always states it — "1 ml per 100 litres raises alkalinity by 0.1 dKH", or similar.</p>
 <aside class="cal cal-warning"><p class="cal-t">Enter the manufacturer's stated strength</p><p>An incorrect strength makes every dose calculation for that product wrong by the same proportion. If the figure is not available, leave the product out rather than estimating.</p></aside>
 <h2 id="the-dose-calculator">The dose calculator</h2>
-<p>With products set up, Cora can tell you how much to dose to move a parameter from where it is to where you want it — using your tank's actual volume from its profile.</p>
-<p>That is also why the volume you entered at setup matters. A tank whose stated volume is 20% out gives dose figures 20% out.</p>
+<p>With products set up, Cora can calculate a correction using your tank's actual volume from its profile.</p>
+<p>It calculates <strong>increases</strong>: alkalinity, calcium, magnesium, and nitrate or phosphate when you are raising them.</p>
+<p>For <strong>reductions</strong> it gives guidance rather than a dose — you cannot dose a parameter downward, and the answer is a water change, a media change or a change in what you are already dosing.</p>
+<aside class="cal cal-warning"><p class="cal-t">Large corrections are spread, not dosed at once</p><p>Cora caps how much a parameter may be moved in a day and spreads a bigger correction over several. A single large dose is how a tank gets shocked; the calculator will not propose one.</p></aside>
+<p>The volume you entered at setup matters here. A stated volume 20% out gives dose figures 20% out.</p>
 <h2 id="consumption">Consumption</h2>
 <p>Once Cora can see both your doses and your readings, it can work out what your tank is actually consuming, and tell you when that changes. A tank whose alkalinity demand climbs is usually a tank that is growing; one whose demand drops suddenly is usually a tank with a problem.</p>
 <h2 id="dosing-equipment">Dosing equipment</h2>
 <p>If you have a connected dosing unit, its heads appear as devices with their own readings — what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your gear</a></strong>.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

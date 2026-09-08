@@ -37,8 +37,8 @@ CSS_VERSION = "20260908f"
 
 # The version stamp every page carries. A guide that does not say which build
 # it describes goes stale invisibly; this makes it visible instead.
-STAMP_MAX = "0.28.28"
-STAMP_MOBILE = "0.5.52"
+STAMP_MAX = "0.28.32"
+STAMP_MOBILE = "0.5.53"
 
 # ⛔ While the guide is unlisted. Flipping to public = set this False, drop the
 # robots.txt Disallow, and add the sitemap entries. One commit.

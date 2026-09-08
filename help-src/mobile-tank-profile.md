@@ -27,6 +27,11 @@ The percentage at the top shows how much of the profile is filled in. A more com
 | Temperature Control | Heating and cooling equipment |
 | Lighting | Fixtures and photoperiod |
 | Flow & Filtration | Pumps, skimming and media |
+| Neptune devices | The Apex on this tank and its modules |
+| Red Sea devices | ReefBeat units assigned here |
+| Cora devices | Which Cora hardware serves this tank |
+| Parameter sources | Which source each parameter is read from |
+| Pests & treatments | What you have dealt with, and what you used |
 
 Tap a section to expand it. The information icon beside each explains what the fields are used for.
 

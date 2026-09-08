@@ -61,7 +61,6 @@ You can also set a **rate-of-change** rule, which watches how fast a parameter m
 **Settings → Notifications.** You can control:
 
 - Which parameters can push, and at what severity
-- Quiet hours
 - Whether the daily Reef Buddy briefing pushes
 
 :::note Cora tries hard not to be noisy
@@ -80,4 +79,8 @@ If a reading is wrong rather than the tank being wrong — a probe that needs ca
 
 ## Disabling alerts for a parameter
 
-If a parameter genuinely doesn't matter for your system, remove its range. With no threshold set, Cora shows the value and stops judging it.
+Open the rule in the **Rules** tab of the Alert Center and turn its **enable switch** off. The rule and its range are kept, so you can switch it back on without rebuilding it.
+
+:::warning Deleting a range is not the way to silence a parameter
+Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.
+:::

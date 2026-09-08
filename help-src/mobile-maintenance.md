@@ -44,11 +44,15 @@ Turn reminders off for a task you would rather just see in the list.
 
 ## Marking a task done
 
-Tap it. Cora records when it was completed and schedules the next one from that moment — so a job done three days late pushes the next one out by three days rather than pretending it happened on time.
+Use the task's **Done** control, or swipe it. Cora records the completion time and schedules the next occurrence from that moment — so a job done three days late moves the next one out by three days rather than pretending it happened on time.
+
+:::note Tapping a task opens it for editing
+Tapping the row itself opens the task to change its name, interval or reminders. Use Done to complete it.
+:::
 
 ## Snoozing
 
-If you cannot do a job right now, snooze it. It disappears from your list until the snooze expires, and you are not nagged in between.
+If you cannot do a job right now, snooze it. It stays in the list in a muted **Snoozed** state showing its new date, so nothing disappears — you simply are not reminded again until then.
 
 :::warning Do not mark a task complete unless it was done
 The next due date is calculated from the completion date. Marking an outstanding task as complete shifts every subsequent due date. Snooze it instead.

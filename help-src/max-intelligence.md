@@ -33,4 +33,6 @@ Any parameter can be opened as a full-screen chart, over the same ranges as the 
 
 ## Guided journeys
 
-Cycling and issue journeys appear here too, with the same stages and outcomes. See [Guided journeys](/help/mobile-journeys).
+Journeys are **read-only** on Cora Max — you can follow one and see where it has got to.
+
+Starting a journey, completing a step, recording an outcome, and resolving or dismissing it are done on the phone. See [Guided journeys](/help/mobile-journeys).

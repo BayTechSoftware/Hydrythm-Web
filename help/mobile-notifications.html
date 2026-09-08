@@ -92,6 +92,7 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
 <li><a href="/help/max-intelligence">Reef Buddy and reports</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 <li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
@@ -108,24 +109,22 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Notifications</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-can-push">What can push</a></li><li><a href="#quiet-hours">Quiet hours</a></li><li><a href="#the-bell">The bell</a></li><li><a href="#if-nothing-is-arriving">If nothing is arriving</a></li><li><a href="#if-too-much-is-arriving">If too much is arriving</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-can-push">What can push</a></li><li><a href="#the-bell">The bell</a></li><li><a href="#if-nothing-is-arriving">If nothing is arriving</a></li><li><a href="#if-too-much-is-arriving">If too much is arriving</a></li></ul></nav>
 <p><strong>Settings → Notifications</strong> controls everything Cora may send you.</p>
 <figure class="shot phone"><img src="img/mobile-notifications.webp" alt="Notification settings" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Each category can push independently.</figcaption></figure>
 <h2 id="what-can-push">What can push</h2>
-<p>Each kind can be turned on or off independently:</p>
-<ul><li><strong>Alerts</strong> — a parameter left its range</li><li><strong>Reef Buddy</strong> — the daily briefing</li><li><strong>Maintenance reminders</strong> — a job is coming due</li><li><strong>Device problems</strong> — something went offline or a sign-in was refused</li></ul>
-<h2 id="quiet-hours">Quiet hours</h2>
-<p>Set a window where nothing arrives. Anything raised during quiet hours is still recorded — you see it in the bell when you next look.</p>
-<aside class="cal cal-warning"><p class="cal-t">Quiet hours apply to genuinely urgent alerts too</p><p>Cora does not carve out exceptions. If you want to be woken for a temperature excursion, do not set quiet hours, or keep the window narrow.</p></aside>
+<p>Each category is switched independently:</p>
+<div class="tw"><table><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td><strong>Parameter alerts</strong></td><td>A reading left the range set for it</td></tr><tr><td><strong>Maintenance due</strong></td><td>A task is approaching or past its due date</td></tr><tr><td><strong>Equipment faults</strong></td><td>A device reported a fault — stall, brownout, encoder or homing</td></tr><tr><td><strong>Supplies low</strong></td><td>A consumable crossed its refill threshold</td></tr><tr><td><strong>ICP ready</strong></td><td>An uploaded lab result has finished analysing</td></tr></tbody></table></div>
+<p>Turning a category off stops the push. The event is still recorded and still appears in the bell.</p>
 <h2 id="the-bell">The bell</h2>
 <p>Top right of every screen. It holds everything Cora has raised, newest first, whether or not it pushed. The number is what you have not read.</p>
-<p>This is the right place to check after quiet hours, or after a day away from your phone.</p>
+<p>This is the right place to check after a day away from your phone, or after a category you switched off raised something.</p>
 <h2 id="if-nothing-is-arriving">If nothing is arriving</h2>
 <p>Work down this list:</p>
-<ol><li><strong>Settings → Notifications</strong> — is that kind allowed to push?</li><li>Are you inside quiet hours?</li><li>Your phone's own settings — is Cora allowed to notify at all? An iOS or Android permission denied at install time overrides everything here.</li><li>Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed, which is deliberate rather than a fault.</li></ol>
+<ol><li><strong>Settings → Notifications</strong> — is that category allowed to push?</li><li>Your phone's own settings — is Cora allowed to notify at all? A permission denied at install time overrides everything here.</li><li>Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.</li></ol>
 <h2 id="if-too-much-is-arriving">If too much is arriving</h2>
 <p>Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
-      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
