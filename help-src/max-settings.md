@@ -7,6 +7,8 @@ order: 11
 
 Open settings with the **gear** at the far right of the top bar.
 
+![Cora Max settings](img/max-settings.webp "Tank settings first, then devices and notification history.")
+
 ## Cora Max
 
 Settings for this screen.

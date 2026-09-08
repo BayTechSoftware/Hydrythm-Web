@@ -7,7 +7,17 @@ order: 29
 
 Cora's core is free: tanks, dashboards, devices, alerts, journal, maintenance and livestock. The paid plans add the intelligence — the Assistant, Reef Buddy, ICP analysis and health reports — with more of each as you go up.
 
-**Settings → your account** shows what you are on.
+**Settings → your account** opens **Account & Subscription**.
+
+![Account and subscription](img/mobile-plans.webp "Your plan and its renewal date, with the store controls below it.")
+
+It shows your current plan and when it renews, plus:
+
+| Control | Does |
+|---|---|
+| **Redeem code** | Applies a promotional or partner code |
+| **Manage Subscription** | Opens your store's subscription settings |
+| **Restore Purchases** | Re-applies a purchase made on another device, or after reinstalling |
 
 ## Seeing what you have used
 
@@ -20,7 +30,7 @@ Those counters are the honest answer to "am I about to run out?".
 
 ## Changing plan
 
-**Settings → your account → Plan.** Changes go through the App Store or Google Play, so they follow the same rules as any other subscription on your device — including the refund and cancellation terms of whichever store you bought through.
+Use **Manage Subscription**. Changes go through the App Store or Google Play and follow the same rules as any other subscription on your device, including that store's refund and cancellation terms.
 
 ## Cancelling
 
@@ -38,4 +48,4 @@ Purchases occasionally take a moment to reach the app. If it has been a few minu
 2. Check you are signed in to the same account that made the purchase
 3. Check the store account on your device is the one you bought with
 
-If it still hasn't appeared, email **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with the date of purchase and we'll sort it out.
+If it still has not appeared, tap **Restore Purchases**. Failing that, email **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with the date of purchase.

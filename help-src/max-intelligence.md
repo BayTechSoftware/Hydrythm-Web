@@ -5,7 +5,9 @@ section: Cora Max
 order: 8
 ---
 
-Cora Max shows the same intelligence as the phone, on a screen large enough to read from a distance.
+Cora Max shows the same intelligence as the phone, on a screen large enough to read from a distance. Reach these from the **tank menu** — tap the tank name in the top bar.
+
+![Reef Buddy on Cora Max](img/max-intelligence.webp "The briefing at full size.")
 
 ## Reef Buddy
 
@@ -14,6 +16,8 @@ The daily briefing appears on the dashboard and has its own full screen: the Sta
 See [Reef Buddy](/help/mobile-reef-buddy) for what the scores mean.
 
 ## ICP results
+
+![ICP reports on Cora Max](img/max-icp.webp "Every uploaded result, with its score.")
 
 Your uploaded results, with the score and summary for each, and trends across every report.
 

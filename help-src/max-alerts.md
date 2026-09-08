@@ -17,6 +17,8 @@ The pills are the reason Cora Max works as a wall display: the tank's problems a
 
 ## Editing thresholds
 
+![Tank settings on Cora Max](img/max-tank-settings.webp "Each tank has its own journal, maintenance, alerts, livestock and briefing.")
+
 **Settings → Tank settings → Thresholds** edits the same ranges as the phone. A change made here applies everywhere.
 
 Individual thresholds can also be edited by opening a widget on the dashboard.

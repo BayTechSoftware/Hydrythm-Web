@@ -14,7 +14,7 @@ Cora Max shows one tank at a time, filling the screen with live readings you can
 Left to right:
 
 - **The grid icon** opens your saved dashboards, so you can switch between layouts
-- **The tank name**, with a chevron to switch tanks
+- **The tank name**, with a chevron. Tapping it opens the tank menu: Log parameters, Journal, Reef Buddy, Health Reports, Maintenance and ICP Reports
 - **Alert pills** — anything currently out of range, with a **+n** when there are more than fit. Tap to see them all.
 - **The clock**
 - **Online** — Cora Max's own connection state. If this says anything else, the screen is showing you the last data it had.
@@ -36,9 +36,24 @@ Widgets work the same as on your phone, at a size you can read standing back. Se
 
 Every widget carries its **age** and its **source**, just like on the phone. A number with `2d` next to it is two days old, and Cora will not pretend otherwise.
 
+## The tank menu
+
+![The tank menu](img/max-menu.webp "Everything for the current tank, from the tank name in the top bar.")
+
+Tapping the tank name opens the menu for the tank currently on screen:
+
+| Item | Opens |
+|---|---|
+| **Log parameters** | Enter test-kit readings on the on-screen keyboard |
+| **Journal** | [The journal](/help/mobile-journal) for this tank |
+| **Reef Buddy** | The current [briefing](/help/mobile-reef-buddy) |
+| **Health Reports** | Health assessments |
+| **Maintenance** | The [task list](/help/mobile-maintenance) |
+| **ICP Reports** | Uploaded [lab results](/help/mobile-icp-health) |
+
 ## Switching tanks
 
-Tap the tank name in the top bar. Each tank keeps its own dashboard layout, so switching tanks changes the whole screen to that tank's arrangement.
+Use the **grid icon** at the far left of the top bar to reach [the Reef Room](/help/max-reef-room), then open the tank you want. Each tank keeps its own dashboard layout, so the whole screen changes as you move between them.
 
 ## The Outlets & Feed drawer
 

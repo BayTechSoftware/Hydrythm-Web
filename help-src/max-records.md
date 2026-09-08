@@ -7,6 +7,10 @@ order: 7
 
 Cora Max carries the same record-keeping as the phone, reading and writing the same data. Entries made here appear on your phone, and the other way round.
 
+Reach all of them from the **tank menu** — tap the tank name in the top bar.
+
+![Maintenance on Cora Max](img/max-records.webp "Tasks due, with Snooze and Done on each, and what was completed recently.")
+
 ## Journal
 
 Add an entry without leaving the tank. This is usually the more convenient of the two — the wall screen is where you are standing when you do the work.

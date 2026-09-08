@@ -9,6 +9,8 @@ Everything Cora records about your tank is yours, and you can take it out at any
 
 ## Exporting
 
+**Settings → your account → Export My Data.**
+
 Cora exports as **CSV files** — spreadsheets that open in Excel, Numbers, Google Sheets, or anything that reads a table:
 
 | File | Contains |
@@ -23,6 +25,12 @@ The parameter export carries the **source** of each reading, not just the value 
 :::note Export before major changes
 Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of the app and your account.
 :::
+
+## Signing out versus deleting
+
+**Sign Out** disconnects this device from your account. Your data is untouched and signing back in restores everything.
+
+**Delete account** is permanent.
 
 ## Deleting your account
 
