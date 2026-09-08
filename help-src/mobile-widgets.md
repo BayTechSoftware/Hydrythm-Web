@@ -5,9 +5,31 @@ section: Cora Mobile
 order: 6
 ---
 
-A widget is one tile on your dashboard showing one thing. There are six shapes. This page covers what each is for and what you can configure.
+A widget is one tile on your dashboard showing one thing. This page covers each type and what you can configure.
 
-Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)**.
+Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)**; tap a widget there to open its settings.
+
+![Configuring a widget](img/mobile-widget-config.webp "Type, parameter, then width and height.")
+
+## The nine types
+
+| Type | Shows |
+|---|---|
+| **Value** | The current reading, its unit, age and source |
+| **Gauge** | An arc with your range banded onto it and a knob at the value |
+| **Graph** | A trend over a window you choose |
+| **Status** | A state as text — running, idle, closed |
+| **Outlet** | A three-way control: Auto, Off, On |
+| **ReefBeat** | One Red Sea unit, with its own summary |
+| **Apex module** | One fitted Apex module, such as a Trident or DŌS |
+| **Jecod** | One Jecod pump, with its mode and intensity |
+| **Maxspect** | One gyre, with both motors |
+
+The last four are **device** tiles: they are keyed to a piece of equipment rather than to a parameter, and each shows whatever that unit reports.
+
+## Sizing
+
+**Width** and **Height** are each **1×** or **2×**. A graph is never one cell wide.
 
 ## Value
 

@@ -17,7 +17,7 @@ A widget shows you a number. Tapping it shows you the story behind the number.
 
 **A comparison overlay.** *Compare with* draws a second parameter on the same chart — alkalinity against calcium, pH against temperature — so a relationship you suspect becomes visible instead of remembered.
 
-**Summary statistics** for the window on screen: minimum, average and maximum.
+**Summary statistics** for the window on screen: **MIN**, **AVG** and **MAX**, shown as a row under the current value.
 
 **Dose markers** on the chart, so a movement can be lined up against what you actually dosed.
 
@@ -58,7 +58,9 @@ If you want a widget to follow one particular source, set that in the widget's s
 
 A probe that spiked, a test misread, a sample taken mid water-change — a single wrong reading distorts the chart, the averages and anything reasoning from them.
 
-From the raw readings list you can **exclude** one. It is kept and can be **restored**; it simply stops counting toward charts, statistics and assessments.
+![The raw readings list](img/mobile-readings.webp "Every reading behind the line, with its source and time.")
+
+Open the readings list from the icon in the top bar, then tap a reading to exclude it. The screen says it plainly: *excluded from averages and insights, but it stays in your log.* Nothing is deleted, and it can be restored.
 
 :::warning Exclude a wrong reading, not an unwelcome one
 Excluding is for readings you know to be invalid. A reading you dislike but cannot fault is data, and removing it makes every later comparison less honest.

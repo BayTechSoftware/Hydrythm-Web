@@ -33,6 +33,8 @@ The percentage at the top shows how much of the profile is filled in. A more com
 | Parameter sources | Which source each parameter is read from |
 | Pests & treatments | What you have dealt with, and what you used |
 
+![The device and source sections](img/mobile-tank-profile-devices.webp "The lower half of the profile: your equipment, where each parameter comes from, and treatment history.")
+
 Tap a section to expand it. The information icon beside each explains what the fields are used for.
 
 ## Volume

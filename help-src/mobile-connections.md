@@ -42,9 +42,17 @@ Cora talks to ReefBeat equipment on your local network. Supported units are **Re
 
 Cora connects to Jecod pumps, and can read and control them. Jecod units reach Cora in one of two ways, and which one yours uses decides what is possible.
 
+![Finding a pump](img/mobile-connections.webp "The scan explains what it needs and why a pump may not appear on the first sweep.")
+
 **Over your network.** Use **Find a pump on your network** — it finds units that advertise themselves, so no address needs entering. These can be read and driven whenever the pump is powered.
 
+:::note A pump often misses the first sweep
+Pumps answer one scan and miss the next. If yours is not listed, scan again rather than assuming it is unreachable.
+:::
+
 **Over Bluetooth.** Some pumps are reachable only from a phone standing near them. The pump's page says so, and shows the last settings it managed to read along with how old they are.
+
+Cora needs Bluetooth permission for this. Without it, a Bluetooth-paired pump cannot be found at all — it will not simply be slower to appear.
 
 **What you get:** live state, mode and intensity, feeding pause, and a day program. See [Scheduling equipment](/help/mobile-schedules).
 

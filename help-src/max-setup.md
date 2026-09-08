@@ -21,6 +21,10 @@ Cora Max shows the tanks, devices and dashboards from your account. If you set t
 
 Power the unit on. It shows a pairing screen and **advertises itself** — it does not ask you to type anything.
 
+![The Cora Max pairing screen](img/max-pairing-screen.webp "The screen names itself so you can pick the right one from your phone.")
+
+The screen shows the name it is discoverable as, ending in a short identifier. If you are pairing more than one unit, that identifier is how you tell them apart in the list on your phone.
+
 Everything else happens in Cora Mobile:
 
 1. **Devices → Add Device** on your phone. It finds the Cora Max over your network or over Bluetooth.
