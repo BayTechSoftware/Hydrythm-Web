@@ -739,6 +739,32 @@ def load_pages() -> list[Page]:
         )
     if not pages:
         raise SystemExit("⛔ no pages found in help-src/ — nothing to build")
+
+    # ⛔ A section not in SECTION_ORDER is silently DROPPED FROM THE NAV by
+    # `nav_html`, while the page is still written and served. That is the worst
+    # shape of bug: live, linkable, and unreachable by anyone browsing. A typo
+    # in one frontmatter line was enough. Fail instead.
+    known = set(SECTION_ORDER)
+    for p in pages:
+        if p.section not in known:
+            raise SystemExit(
+                f"⛔ {p.slug}.md has section {p.section!r}, which is not in "
+                f"SECTION_ORDER {SECTION_ORDER!r}. The page would be published "
+                "but left out of the sidebar — fix the frontmatter, or add the "
+                "section to SECTION_ORDER."
+            )
+
+    # ⚠️ Two pages sharing an order inside a section sort arbitrarily, so the
+    # sidebar changes between builds for no reason anyone can see.
+    seen: dict[tuple[str, int], str] = {}
+    for p in pages:
+        key = (p.section, p.order)
+        if key in seen:
+            raise SystemExit(
+                f"⛔ {p.slug}.md and {seen[key]}.md are both order {p.order} in "
+                f"section {p.section!r} — the sidebar order would be unstable."
+            )
+        seen[key] = p.slug
     return pages
 
 

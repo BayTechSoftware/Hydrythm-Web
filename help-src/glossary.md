@@ -83,7 +83,7 @@ The range you consider acceptable for a parameter. Can be a range, a ceiling or 
 
 ## Vacation mode
 
-Tells Cora you are away, so gaps in hand-logged readings are treated differently.
+Tank-sitter mode. A dated plan with a checklist of jobs, which Cora turns into a read-only page you can share with whoever is minding the tank while you are away. See [Settings](/help/mobile-settings).
 
 ## Widget
 

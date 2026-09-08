@@ -92,8 +92,9 @@
 <ul><li><strong>A range</strong> — a low and a high, for things like alkalinity or temperature</li><li><strong>A ceiling</strong> — a high only, for things where low is fine, like nitrate or phosphate</li><li><strong>A floor</strong> — a low only</li></ul>
 <aside class="cal cal-tip"><p class="cal-t">Your range, not the internet's</p><p>The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when <em>you</em> drift.</p></aside>
 <h2 id="what-triggers-an-alert">What triggers an alert</h2>
-<p>An alert fires when a reading crosses a threshold. Cora does not fire on a single stray reading — it wants to see the parameter genuinely outside the range, so a momentary probe glitch does not wake you up.</p>
-<p>If a parameter has more than one source and they disagree, Cora says so rather than picking one.</p>
+<p>An alert fires when a reading crosses a threshold. Cora checks each reading as it arrives, so a single reading outside your range is enough to raise one.</p>
+<p>Once an alert is up it will not keep re-notifying you about the same thing — there is a cooldown before it can fire again. And it <strong>clears itself</strong> the moment a reading comes back inside the range; there is nothing to acknowledge.</p>
+<p>You can also set a <strong>rate-of-change</strong> rule, which watches how fast a parameter moves rather than where it currently sits. That is the one to use for things where the speed of a change matters more than the number.</p>
 <h2 id="where-alerts-appear">Where alerts appear</h2>
 <ul><li><strong>The bell</strong>, top right of every screen, holds your history. The number is how many you have not read.</li><li><strong>Push notifications</strong> reach your phone when you allow them.</li><li><strong>The widget</strong> turns amber or red on the dashboard.</li><li><strong>Cora Max</strong> shows the same alerts on the big screen.</li></ul>
 <h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
@@ -102,6 +103,7 @@
 <aside class="cal cal-note"><p class="cal-t">Cora tries hard not to be noisy</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
 <p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
+<aside class="cal cal-tip"><p class="cal-t">A glitchy probe will alert you</p><p>Because a single out-of-range reading is enough, a probe that spikes will raise an alert. That is deliberate — Cora would rather tell you about a reading it received than quietly decide it was noise. If one source is unreliable, fix or recalibrate it, or point the widget at a source you trust.</p></aside>
 <p>If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
 <h2 id="alerts-you-dont-want-at-all">Alerts you don't want at all</h2>
 <p>If a parameter genuinely doesn't matter for your system, remove its range. With no threshold set, Cora shows the value and stops judging it.</p>

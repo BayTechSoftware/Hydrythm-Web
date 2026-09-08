@@ -35,7 +35,9 @@ A sparkline over a window you choose, with the high and low marked and the curre
 
 Use it for anything that moves — pH through the day, temperature across a heatwave, alkalinity between doses.
 
-**Settings:** label, source, **time window** (6 hours, 24 hours, 7 days, 30 days), size.
+**Settings:** label, source, **time window** (1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year), size.
+
+A trend is always **at least two cells wide** — a sparkline squeezed into one cell tells you nothing, so the editor will not make one.
 
 :::note Choose the window to match the rhythm
 pH swings on a daily cycle, so 24 hours shows you the shape. Alkalinity moves over days, so 7 or 30 tells you more than 24 ever will.
@@ -80,4 +82,4 @@ Tap any widget to open its full history, every source that reports it, and the t
 
 ## Sizes
 
-Widgets are one or two cells wide and one or two cells tall. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.
+Widgets are one or two cells wide and one or two cells tall — except a **trend**, which is always at least two wide. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.

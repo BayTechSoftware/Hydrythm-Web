@@ -25,9 +25,11 @@ The defaults are a starting point, not a verdict. A tank running low-nutrient at
 
 ## What triggers an alert
 
-An alert fires when a reading crosses a threshold. Cora does not fire on a single stray reading — it wants to see the parameter genuinely outside the range, so a momentary probe glitch does not wake you up.
+An alert fires when a reading crosses a threshold. Cora checks each reading as it arrives, so a single reading outside your range is enough to raise one.
 
-If a parameter has more than one source and they disagree, Cora says so rather than picking one.
+Once an alert is up it will not keep re-notifying you about the same thing — there is a cooldown before it can fire again. And it **clears itself** the moment a reading comes back inside the range; there is nothing to acknowledge.
+
+You can also set a **rate-of-change** rule, which watches how fast a parameter moves rather than where it currently sits. That is the one to use for things where the speed of a change matters more than the number.
 
 ## Where alerts appear
 
@@ -51,6 +53,10 @@ The daily briefing is one push per tank per day, and on a day when nothing needs
 ## Clearing an alert
 
 An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.
+
+:::tip A glitchy probe will alert you
+Because a single out-of-range reading is enough, a probe that spikes will raise an alert. That is deliberate — Cora would rather tell you about a reading it received than quietly decide it was noise. If one source is unreliable, fix or recalibrate it, or point the widget at a source you trust.
+:::
 
 If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.
 

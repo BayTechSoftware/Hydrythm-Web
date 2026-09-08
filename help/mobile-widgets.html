@@ -98,7 +98,8 @@
 <h2 id="trend">Trend</h2>
 <p>A sparkline over a window you choose, with the high and low marked and the current value called out.</p>
 <p>Use it for anything that moves — pH through the day, temperature across a heatwave, alkalinity between doses.</p>
-<p><strong>Settings:</strong> label, source, <strong>time window</strong> (6 hours, 24 hours, 7 days, 30 days), size.</p>
+<p><strong>Settings:</strong> label, source, <strong>time window</strong> (1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year), size.</p>
+<p>A trend is always <strong>at least two cells wide</strong> — a sparkline squeezed into one cell tells you nothing, so the editor will not make one.</p>
 <aside class="cal cal-note"><p class="cal-t">Choose the window to match the rhythm</p><p>pH swings on a daily cycle, so 24 hours shows you the shape. Alkalinity moves over days, so 7 or 30 tells you more than 24 ever will.</p></aside>
 <h2 id="status">Status</h2>
 <p>Text rather than a number — for things that are a state. Running, idle, open, closed, feeding.</p>
@@ -117,7 +118,7 @@
 <ul><li><strong>The value</strong>, large</li><li><strong>The age</strong> — <code>now</code>, <code>1h</code>, <code>2d</code> — how old the reading is, not how recently the screen refreshed</li><li><strong>The source</strong> — a small badge saying where the number came from</li></ul>
 <p>Tap any widget to open its full history, every source that reports it, and the thresholds in force.</p>
 <h2 id="sizes">Sizes</h2>
-<p>Widgets are one or two cells wide and one or two cells tall. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.</p>
+<p>Widgets are one or two cells wide and one or two cells tall — except a <strong>trend</strong>, which is always at least two wide. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.</p>
       <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>

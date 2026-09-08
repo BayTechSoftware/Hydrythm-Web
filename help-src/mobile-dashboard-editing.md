@@ -47,7 +47,7 @@ Full detail on each: **[Widget reference](/help/mobile-widgets)**.
 
 **Press and hold** a widget, then drag it. Everything else reflows around it.
 
-**Tap** a widget in edit mode to open its settings — including its size. A widget can be one or two cells wide and one or two cells tall. A gauge you care about at two-by-two reads across the room; a number you glance at can sit at one-by-one.
+**Tap** a widget in edit mode to open its settings — including its size. A widget can be one or two cells wide and one or two cells tall; a **trend** is always at least two cells wide, because a sparkline in a single cell shows nothing useful. A gauge you care about at two-by-two reads across the room; a number you glance at can sit at one-by-one.
 
 :::tip Put the drifty things at the top
 You scroll past the bottom of a dashboard. Alkalinity, pH and temperature usually deserve the first row; the things that never move can live further down.
@@ -57,7 +57,7 @@ You scroll past the bottom of a dashboard. Alkalinity, pH and temperature usuall
 
 Tap any widget in edit mode. Depending on its shape you can set:
 
-- **Time window** for trends — six hours, twenty-four hours, seven days, thirty days
+- **Time window** for trends — one hour, six hours, twenty-four hours, seven days, thirty days, or one year
 - **Range** for gauges — inherited from your tank targets, or overridden just for this tile
 - **Label** — rename it to whatever you call it
 - **Source** — when more than one thing reports the same parameter, choose which one this tile trusts

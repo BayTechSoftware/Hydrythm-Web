@@ -16,7 +16,7 @@ Tap **Add Device** at the bottom of the list and pick what you are adding. What 
 Two shortcuts sit under the button:
 
 - **Find a pump on your network** scans your local network for pumps that announce themselves, so you don't have to type addresses.
-- **Add manually** is there for equipment that needs an address you already know.
+- **Add AquaWiz** goes straight to the AquaWiz sign-in, since that one connects through your AquaWiz account rather than over your network.
 
 :::note Cora and your phone need the same network
 Anything discovered locally has to be on the same network as your phone at the moment you add it. Once it is added, Cora keeps talking to it — you don't have to stay on that network.
