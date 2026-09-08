@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automations and scenes — Cora Help</title>
+  <meta name="description" content="Build rules that run by themselves — triggers, conditions, actions — and group them into scenes.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-automation">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Automations and scenes — Cora Help">
+  <meta property="og:description" content="Build rules that run by themselves — triggers, conditions, actions — and group them into scenes.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-automation">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <a class="hback" href="/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <aside class="hside" id="hside">
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/help/">Cora Help</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<ul>
+<li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
+<li><a href="/help/mobile-widgets">Widget reference</a></li>
+<li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-connections">Connecting your gear</a></li>
+<li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
+<li><a href="/help/mobile-notifications">Notifications</a></li>
+<li><a href="/help/mobile-automation" class="cur" aria-current="page">Automations and scenes</a></li>
+<li><a href="/help/mobile-dosing">Dosing</a></li>
+<li><a href="/help/mobile-maintenance">Maintenance</a></li>
+<li><a href="/help/mobile-livestock">Livestock</a></li>
+<li><a href="/help/mobile-journal">The journal</a></li>
+<li><a href="/help/mobile-activity">Activity and timeline</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
+<li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/help/mobile-journeys">Guided journeys</a></li>
+<li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-vacation">Going away</a></li>
+<li><a href="/help/mobile-data-export">Your data</a></li>
+<li><a href="/help/mobile-plans">Plans</a></li>
+<li><a href="/help/mobile-settings">Settings</a></li>
+</ul>
+<p class="nav-sec">Cora Max</p>
+<ul>
+<li><a href="/help/max-setup">Setting up Cora Max</a></li>
+<li><a href="/help/max-tour">The Cora Max home screen</a></li>
+<li><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></li>
+<li><a href="/help/max-controls">Outlets and controls</a></li>
+<li><a href="/help/max-voice">Talking to Cora</a></li>
+<li><a href="/help/max-settings">Cora Max settings</a></li>
+</ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Automations and scenes</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-shape-of-a-rule">The shape of a rule</a></li><li><a href="#what-can-wake-a-rule">What can wake a rule</a></li><li><a href="#conditions">Conditions</a></li><li><a href="#what-a-rule-can-do">What a rule can do</a></li><li><a href="#scenes">Scenes</a></li><li><a href="#turning-a-rule-off">Turning a rule off</a></li><li><a href="#seeing-what-a-rule-did">Seeing what a rule did</a></li></ul></nav>
+<p>An automation is a rule Cora runs for you: <em>when this happens, check that, then do this.</em> Scenes group several actions into one thing you can run or schedule.</p>
+<p><strong>Settings → Automation.</strong></p>
+<aside class="cal cal-warning"><p class="cal-t">These act on real equipment</p><p>A rule that switches a pump switches it whether or not you are watching. Build one at a time and check each does what you expect before adding the next.</p></aside>
+<h2 id="the-shape-of-a-rule">The shape of a rule</h2>
+<p>Every rule is the same three parts:</p>
+<p><strong>Trigger</strong> — what wakes it up <strong>Conditions</strong> — what must also be true <strong>Actions</strong> — what it then does, in order</p>
+<h2 id="what-can-wake-a-rule">What can wake a rule</h2>
+<p>Four things:</p>
+<div class="tw"><table><thead><tr><th>Trigger</th><th>Fires when</th></tr></thead><tbody><tr><td><strong>Metric</strong></td><td>A parameter crosses a value you set, in a direction you choose</td></tr><tr><td><strong>Alert</strong></td><td>An alert is raised, cleared, or either</td></tr><tr><td><strong>Schedule</strong></td><td>A time of day, in your own timezone</td></tr><tr><td><strong>Device status</strong></td><td>A device goes offline or comes back</td></tr></tbody></table></div>
+<h2 id="conditions">Conditions</h2>
+<p>Conditions decide whether the actions actually run. You get the usual comparisons — equals, not equals, greater than, less than, and so on — and you can combine them with <strong>and</strong>, <strong>or</strong> and <strong>not</strong>.</p>
+<p>There is also a <strong>step</strong> condition, which checks how the <em>previous</em> step turned out. That is what lets you write "try this; if it didn't work, do that instead."</p>
+<h2 id="what-a-rule-can-do">What a rule can do</h2>
+<p>Eleven kinds of action:</p>
+<div class="tw"><table><thead><tr><th>Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Control Apex Equipment</strong></td><td>Switch an outlet</td></tr><tr><td><strong>Control a Red Sea Equipment</strong></td><td>Drive a ReefBeat unit</td></tr><tr><td><strong>Control a wavemaker</strong></td><td>Change pump mode or intensity</td></tr><tr><td><strong>Control a Cora Equipment</strong></td><td>Switch a smart plug</td></tr><tr><td><strong>Control IR Device</strong></td><td>Send an infrared command</td></tr><tr><td><strong>Run Apex Feed Cycle</strong></td><td>Start a feed</td></tr><tr><td><strong>Run a Trident Test</strong></td><td>Trigger a test</td></tr><tr><td><strong>Notify Me</strong></td><td>Send yourself a push</td></tr><tr><td><strong>Wait Before Next Step</strong></td><td>Pause before continuing</td></tr><tr><td><strong>Run a Scene</strong></td><td>Run another scene from inside this rule</td></tr><tr><td><strong>Manage an Automation</strong></td><td>Turn another rule on or off</td></tr></tbody></table></div>
+<aside class="cal cal-tip"><p class="cal-t">Wait is what makes a rule read like a procedure</p><p>"Turn the return pump off, wait ten minutes, turn it back on" is one rule with three steps. Without the pause you would need two rules and a schedule.</p></aside>
+<h2 id="scenes">Scenes</h2>
+<p>A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule — "Water change", "Photo mode", "Night".</p>
+<p>Scenes can call other scenes, but only so far: Cora refuses to run a scene nested too deeply, and refuses a scene that would call itself. That is deliberate — a loop of scenes would keep acting on your tank forever.</p>
+<p>After a scene runs you are told what happened, step by step, including anything that failed.</p>
+<h2 id="turning-a-rule-off">Turning a rule off</h2>
+<p>Every rule has an enable switch. Turning one off keeps its definition — useful when you want a rule back next season rather than rebuilding it.</p>
+<h2 id="seeing-what-a-rule-did">Seeing what a rule did</h2>
+<p>Every action a rule takes is recorded with the rule as its cause. See <strong><a href="/help/mobile-activity">Activity</a></strong>.</p>
+      <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacy</a> ·
+      <a href="/terms-and-conditions.html">Terms</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  if (!b || !s) return;
+  b.addEventListener('click', function () {
+    var open = s.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+</body>
+</html>

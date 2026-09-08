@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you get told about, and understand why an alert fired.
 section: Cora Mobile
-order: 8
+order: 9
 ---
 
 An alert is Cora telling you a reading left the range you set for it. You decide the ranges and you decide what reaches your phone.
