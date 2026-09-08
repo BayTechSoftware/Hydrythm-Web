@@ -29,9 +29,13 @@ Control widgets show the three states with the current one highlighted. Tap the 
 
 Some outlets are locked — shown with a padlock. That is a safety lock set on the tank, and it exists so a stray tap cannot switch something critical. Unlock it in tank settings if you genuinely need to.
 
-## The Outlets & Feed drawer
+## The Controls drawer
 
-The tab at the bottom of the screen pulls up every outlet on the system in one place, whether or not it has a widget on the dashboard. Useful when you need something that did not earn a tile.
+Pull up the tab at the bottom of the dashboard to open **Controls** — every outlet on the system in one place, whether or not it has a widget, plus the feed cycles.
+
+![The Controls drawer](img/max-controls.webp "Feed cycles across the top, then every outlet.")
+
+Outlets carrying a padlock are locked against accidental taps. Unlock one in tank settings if you genuinely need it.
 
 ## Feed mode
 
@@ -39,7 +43,9 @@ Feed mode is the safe way to pause flow for feeding. It pauses the equipment tha
 
 Use it instead of switching pumps off by hand. The whole point is that it restores the system without depending on you remembering.
 
-Start it from the drawer, or say *"start feed mode"*.
+Feed cycles are lettered **A**, **B**, **C** and **D** — the cycles your controller defines, each pausing a different set of equipment. Pick the one that matches what you are doing. **Cancel** ends a running cycle early and restores everything immediately.
+
+Start one from the Controls drawer, or say *"start feed mode"*.
 
 ## By voice
 

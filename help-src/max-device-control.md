@@ -7,6 +7,8 @@ order: 6
 
 Cora Max reaches the same equipment as your phone, with a page for each device. Open them from **Settings → Devices**, or by tapping a device tile on the dashboard.
 
+![An Apex page on Cora Max](img/max-device-control.webp "Feed cycles and every outlet, laid out for a wall screen.")
+
 :::warning These controls act on live equipment
 Changes take effect immediately. There is no preview and no undo.
 :::

@@ -29,6 +29,15 @@ Type in the box at the bottom and send. Useful things to ask:
 
 Tap **Start voice conversation** for a live back-and-forth. Cora listens, answers out loud, and keeps listening until you stop it. It is the easier option when your hands are wet.
 
+## Consent
+
+![Assistant consent](img/mobile-assistant-consent.webp "Two separate permissions, and the memory Cora keeps.")
+
+**Settings → Assistant & AI** holds two independent switches:
+
+- **Allow Cora Assistant to use saved tank data** — off means the Assistant cannot see your history, metrics or devices, and answers only in general terms.
+- **Contribute anonymized tank data** — see [Your data](/help/mobile-data-export).
+
 ## What Cora can see
 
 The chip above the message box — **Using your tank's live data** — tells you what is in scope. Tap it to see exactly what Cora is reading: current values, how old each one is, recent history, your journal, and your ICP results.

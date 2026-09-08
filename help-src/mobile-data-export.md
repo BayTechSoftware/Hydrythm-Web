@@ -7,9 +7,13 @@ order: 29
 
 Everything Cora records about your tank is yours, and you can take it out at any time.
 
+![Account data controls](img/mobile-data.webp "Export and deletion sit together at the foot of Account & Subscription.")
+
 ## Exporting
 
 **Settings → your account → Export My Data.**
+
+Exporting is **free on every plan**, including the free one.
 
 Cora exports as **CSV files** — spreadsheets that open in Excel, Numbers, Google Sheets, or anything that reads a table:
 
@@ -39,6 +43,14 @@ Take an export before decommissioning a tank or making significant changes to yo
 This is permanent. It removes your account, your tanks, your readings, your journal, your lab results and your device links. It cannot be undone and there is no grace period.
 
 Export first if you want to keep anything.
+
+## Contributing anonymised data
+
+**Settings → Assistant & AI → Contribute anonymized tank data.**
+
+While this is on, your tank's parameter history is retained for reef research **with no link to you** even if you later delete your account. Turn it off and that history is deleted along with everything else.
+
+It is a separate decision from account deletion, and it is the only part of your data that outlives the account, so it is worth making deliberately.
 
 ## What Cora stores
 

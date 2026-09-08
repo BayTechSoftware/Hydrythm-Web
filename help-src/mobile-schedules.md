@@ -7,15 +7,26 @@ order: 11
 
 Pumps and gyres can run a **day program** — a set of periods, each with its own intensity, that repeats daily. Cora can author these directly.
 
-Open the device from the **Devices** tab and choose its schedule.
+Open the device from the **Devices** tab.
+
+![A pump schedule](img/mobile-schedules.webp "The day graph across 0–24 hours, with each period listed below it.")
+
+## Same all day, or Schedule
+
+A pump runs in one of two modes, chosen at the top of its page:
+
+- **Same all day** — one intensity, constantly
+- **Schedule** — a day program with periods
+
+Choosing between them here only changes what you are looking at until the pump is reachable; the change is written when Cora can reach it.
 
 ## The schedule editor
 
 Every schedule screen has the same three parts:
 
-**The day graph** — the whole day as a bar, showing where each period sits and how strong it is. This is the fastest way to see whether a program does what you think.
+**The day graph** — the whole day from 0 to 24 hours, with each period drawn as a block whose height is its intensity. This is the fastest way to see whether a program does what you think.
 
-**The period list** — each period with its start time, end time and intensity. Add, edit and remove periods here.
+**The period list** — each period below the graph, with its hours, its mode and its intensity: *Random, 00:00–03:00, Freq 50%, 40%*. Add, edit and remove periods here.
 
 **The action row** — save the program to the device, or discard your changes.
 

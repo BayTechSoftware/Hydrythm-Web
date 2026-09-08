@@ -13,7 +13,9 @@ Nothing is required from you to stay up to date.
 
 ## Checking the version
 
-**Settings → Cora Max** shows the version currently running and the update state. **Settings → Devices → Device health** shows the same, alongside the unit's other diagnostics.
+![Device settings](img/max-updates.webp "Firmware update and device health, at the top of device settings.")
+
+**Settings → Cora Max → Firmware Update** covers checking, installing, the update channel and its schedule. **Device health & controls** sits beside it. **Settings → Devices → Device health** shows the same, alongside the unit's other diagnostics.
 
 ## When an update is available
 

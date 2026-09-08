@@ -31,11 +31,17 @@ Cora talks to ReefBeat equipment on your local network — dosing units, ATO, ma
 
 ## Jecod / Jebao
 
-Cora connects to Jecod pumps, and can read and control them.
+Cora connects to Jecod pumps, and can read and control them. Jecod units reach Cora in one of two ways, and which one yours uses decides what is possible.
 
-**You will need:** the pump on your network. Use **Find a pump on your network** rather than typing an address — it finds units that announce themselves.
+**Over your network.** Use **Find a pump on your network** — it finds units that advertise themselves, so no address needs entering. These can be read and driven whenever the pump is powered.
 
-**What you get:** live pump state, and control of mode and intensity.
+**Over Bluetooth.** Some pumps are reachable only from a phone standing near them. The pump's page says so, and shows the last settings it managed to read along with how old they are.
+
+**What you get:** live state, mode and intensity, feeding pause, and a day program. See [Scheduling equipment](/help/mobile-schedules).
+
+:::warning A Bluetooth pump is only reachable when you are near it
+Its page shows the last settings Cora read and how long ago. Changing anything — including starting a feeding pause — needs the pump in range. Stand near it and reopen the page.
+:::
 
 ## AquaWiz KH Controller
 

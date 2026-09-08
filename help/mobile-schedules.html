@@ -108,13 +108,18 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Scheduling equipment</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-schedule-editor">The schedule editor</a></li><li><a href="#copying-a-program-between-pumps">Copying a program between pumps</a></li><li><a href="#grouping-pumps">Grouping pumps</a></li><li><a href="#applying-a-program">Applying a program</a></li><li><a href="#checking-it-took">Checking it took</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#same-all-day-or-schedule">Same all day, or Schedule</a></li><li><a href="#the-schedule-editor">The schedule editor</a></li><li><a href="#copying-a-program-between-pumps">Copying a program between pumps</a></li><li><a href="#grouping-pumps">Grouping pumps</a></li><li><a href="#applying-a-program">Applying a program</a></li><li><a href="#checking-it-took">Checking it took</a></li></ul></nav>
 <p>Pumps and gyres can run a <strong>day program</strong> — a set of periods, each with its own intensity, that repeats daily. Cora can author these directly.</p>
-<p>Open the device from the <strong>Devices</strong> tab and choose its schedule.</p>
+<p>Open the device from the <strong>Devices</strong> tab.</p>
+<figure class="shot phone"><img src="img/mobile-schedules.webp" alt="A pump schedule" width="620" height="1196" loading="lazy" decoding="async"><figcaption>The day graph across 0–24 hours, with each period listed below it.</figcaption></figure>
+<h2 id="same-all-day-or-schedule">Same all day, or Schedule</h2>
+<p>A pump runs in one of two modes, chosen at the top of its page:</p>
+<ul><li><strong>Same all day</strong> — one intensity, constantly</li><li><strong>Schedule</strong> — a day program with periods</li></ul>
+<p>Choosing between them here only changes what you are looking at until the pump is reachable; the change is written when Cora can reach it.</p>
 <h2 id="the-schedule-editor">The schedule editor</h2>
 <p>Every schedule screen has the same three parts:</p>
-<p><strong>The day graph</strong> — the whole day as a bar, showing where each period sits and how strong it is. This is the fastest way to see whether a program does what you think.</p>
-<p><strong>The period list</strong> — each period with its start time, end time and intensity. Add, edit and remove periods here.</p>
+<p><strong>The day graph</strong> — the whole day from 0 to 24 hours, with each period drawn as a block whose height is its intensity. This is the fastest way to see whether a program does what you think.</p>
+<p><strong>The period list</strong> — each period below the graph, with its hours, its mode and its intensity: <em>Random, 00:00–03:00, Freq 50%, 40%</em>. Add, edit and remove periods here.</p>
 <p><strong>The action row</strong> — save the program to the device, or discard your changes.</p>
 <p>A gyre has two motors, so its graph has <strong>two tracks</strong> — one per motor.</p>
 <aside class="cal cal-warning"><p class="cal-t">A schedule is written to the device</p><p>Saving sends the program to the equipment, which then runs it on its own clock. It continues running whether or not Cora is reachable.</p></aside>

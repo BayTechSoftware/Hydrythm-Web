@@ -21,6 +21,10 @@ It shows your current plan and when it renews, plus:
 
 ## Seeing what you have used
 
+![Usage and limits](img/mobile-usage.webp "Each metered feature against its monthly allowance.")
+
+**Settings → Assistant & AI → Usage & limits** shows every metered feature against its monthly allowance in one place — Assistant messages, ICP analyses and health reports.
+
 Each metered feature shows its own usage where you use it:
 
 - **Assistant** — messages this month, above the message box

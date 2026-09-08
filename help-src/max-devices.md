@@ -9,9 +9,29 @@ order: 7
 
 ## The device list
 
-Cora Max sees the same equipment as your phone, because both read the same account. Each entry shows its current state and when it last reported.
+![The device list](img/max-devices.webp "Filter by tank, then each device with a one-line summary of what it holds.")
+
+Cora Max sees the same equipment as your phone, because both read the same account.
+
+Filter chips at the top narrow the list to **All tanks** or one tank. Each entry carries a status dot, a one-line summary of what the device holds — *21 outlets · 4 feeds*, *19 tests left* — and the tank it belongs to.
 
 Adding and configuring equipment is easier on the phone — see [Adding, editing and removing devices](/help/mobile-devices).
+
+## Managing a Cora Max from your phone
+
+Open the unit from your phone's **Devices** tab to see its variant, firmware version and when it was last seen, and to change its settings without walking to it.
+
+![Cora Max settings from the phone](img/max-from-phone.webp "Polling interval, brightness, volume, on-screen alerts and dim timer.")
+
+| Setting | Does |
+|---|---|
+| **Apex Polling** | How often this unit reads the controller |
+| **Brightness** | Screen brightness |
+| **Volume** | Voice replies and the alert chime |
+| **Alerts** | On-screen alert banners. Turning them off does not affect alert history or push notifications |
+| **Dim after** | How long before the screen dims |
+
+The tanks this unit shows are listed below those settings.
 
 ## Device health
 

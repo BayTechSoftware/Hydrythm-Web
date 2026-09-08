@@ -7,9 +7,17 @@ order: 11
 
 Cora Max takes voice, which is the easiest way to use it when your hands are wet or you are across the room.
 
-## Starting a conversation
+## Two ways to start
 
-Tap the **Cora swoosh** in the top bar. Cora starts listening straight away, answers out loud, and keeps listening until you stop it.
+**Say "Hey Cora".** Cora Max listens in the background for the wake phrase and starts a session when it hears it.
+
+**Or tap the Cora swoosh** in the top bar. Cora starts listening straight away, answers out loud, and keeps listening until you stop it.
+
+![Voice settings](img/max-voice.webp "Wake-word listening can be turned off without losing tap-to-talk.")
+
+**Settings → Cora Max → Wake-word listening** turns background listening off. Tapping the swoosh still works, which is the setting to use if you would rather the screen were not listening all the time.
+
+**Audio output** in the same section chooses the internal speaker, a 3.5 mm connection or Bluetooth. The internal speaker is the weakest of the three for voice.
 
 :::note It starts the moment you tap
 The swoosh begins a live session immediately — there is no confirmation step. If you tapped it by accident, stop the session and nothing is lost.
