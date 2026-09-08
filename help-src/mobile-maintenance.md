@@ -2,7 +2,7 @@
 title: Maintenance
 description: Recurring jobs with reminders — skimmer cleaning, filter socks, pump servicing.
 section: Cora Mobile
-order: 13
+order: 14
 ---
 
 Maintenance is the list of jobs your tank needs on a rhythm, and the reminders that stop you forgetting them.
@@ -39,8 +39,8 @@ Tap it. Cora records when it was completed and schedules the next one from that 
 
 If you cannot do a job right now, snooze it. It disappears from your list until the snooze expires, and you are not nagged in between.
 
-:::tip Snooze rather than dismiss
-Snoozing keeps the rhythm; marking it done when you have not done it breaks the interval calculation and every future date after it.
+:::warning Do not mark a task complete unless it was done
+The next due date is calculated from the completion date. Marking an outstanding task as complete shifts every subsequent due date. Snooze it instead.
 :::
 
 ## Pausing a task

@@ -2,7 +2,7 @@
 title: Asking Cora
 description: How to use Cora Assistant — typing, voice, what it can see, and what it can change.
 section: Cora Mobile
-order: 17
+order: 18
 ---
 
 Cora Assistant answers questions about your tank in plain language. Because it can see your live readings, your history and your lab results, it answers about *your* tank rather than about reefs in general.
@@ -34,7 +34,7 @@ Tap **Start voice conversation** for a live back-and-forth. Cora listens, answer
 The chip above the message box — **Using your tank's live data** — tells you what is in scope. Tap it to see exactly what Cora is reading: current values, how old each one is, recent history, your journal, and your ICP results.
 
 :::note It knows what it doesn't know
-Cora sees the age of every reading. If your last alkalinity test was four days ago, it will say so rather than answering as though the number were current. That is deliberate — a confident answer built on stale data is worse than no answer.
+Cora reports the age of the readings it uses. If the most recent alkalinity reading is four days old, the answer will say so rather than presenting the value as current.
 :::
 
 ## What Cora can change

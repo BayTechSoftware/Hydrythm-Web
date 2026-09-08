@@ -2,7 +2,7 @@
 title: Your data
 description: Export everything as spreadsheets, and how to delete your account.
 section: Cora Mobile
-order: 22
+order: 23
 ---
 
 Everything Cora records about your tank is yours, and you can take it out at any time.
@@ -20,8 +20,8 @@ Cora exports as **CSV files** — spreadsheets that open in Excel, Numbers, Goog
 
 The parameter export carries the **source** of each reading, not just the value — so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.
 
-:::tip Export before anything drastic
-Before you tear down a tank, rehome livestock, or change your setup significantly, take an export. It costs nothing and it is the only copy that does not depend on the app.
+:::note Export before major changes
+Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of the app and your account.
 :::
 
 ## Deleting your account

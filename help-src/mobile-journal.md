@@ -2,12 +2,12 @@
 title: The journal
 description: Record what you did to your tank, so that later you can tell what caused what.
 section: Cora Mobile
-order: 15
+order: 16
 ---
 
-The journal is where you write down what you did. Water changes, new livestock, a dose you changed, a light you moved, a filter sock you forgot to swap.
+The journal records what you did to the tank: water changes, livestock additions, dosing changes, equipment work and maintenance.
 
-It exists for one reason: **six weeks from now, when something is off, the journal is how you find out what changed.**
+Its purpose is later comparison. When a parameter moves unexpectedly, the journal is the record of what changed around that date.
 
 ## Adding an entry
 
@@ -17,8 +17,8 @@ Write what you did in plain words. Add a photo if it helps — a coral colouring
 
 Entries are stamped with the tank and the time automatically.
 
-:::tip Write it when you do it
-The entry you write while your arm is still wet is worth ten you try to reconstruct later. It does not need to be tidy — "20l wc, dosed 5ml extra alk" is a perfectly good entry.
+:::note Entries do not need to be formal
+Brief entries are sufficient — "20 l water change, 5 ml extra alkalinity" is a complete record. Enter them at the time; reconstructed entries are less reliable.
 :::
 
 ## What to record
@@ -36,7 +36,7 @@ The things that turn out to matter most:
 
 The journal is a timeline per tank, newest first. Photos appear inline.
 
-Cora reads it too. Ask *"when did I last change water?"* or *"what did I do before the alkalinity dropped?"* and it answers from your journal alongside your readings — which is exactly why writing entries pays off.
+The Assistant reads the journal. Questions such as *"when did I last change water?"* are answered from your entries alongside your readings.
 
 ## On Cora Max
 

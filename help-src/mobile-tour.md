@@ -2,7 +2,7 @@
 title: The five tabs
 description: A tour of Cora Mobile — Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.
 section: Cora Mobile
-order: 2
+order: 3
 ---
 
 Cora Mobile has five tabs along the bottom. Almost everything you do lives in one of them.
@@ -11,7 +11,7 @@ Cora Mobile has five tabs along the bottom. Almost everything you do lives in on
 
 ## Dashboard
 
-Your tanks, at a glance. This is the screen you will spend most of your time on.
+Live readings for the selected tank. This is the main screen of the app.
 
 If you have more than one tank, swipe left and right to move between them — the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and the pencil that opens dashboard editing.
 

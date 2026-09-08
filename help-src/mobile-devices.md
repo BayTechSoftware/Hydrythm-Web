@@ -2,7 +2,7 @@
 title: Adding, editing and removing devices
 description: How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.
 section: Cora Mobile
-order: 7
+order: 8
 ---
 
 The **Devices** tab is everything you have connected, grouped by brand. Each group collapses so a reef room full of equipment stays readable.
@@ -15,11 +15,11 @@ Tap **Add Device** at the bottom of the list and pick what you are adding. What 
 
 Two shortcuts sit under the button:
 
-- **Find a pump on your network** scans your local network for pumps that announce themselves, so you don't have to type addresses.
+- **Find a pump on your network** scans the local network for pumps that advertise themselves, so no address needs to be entered.
 - **Add AquaWiz** goes straight to the AquaWiz sign-in, since that one connects through your AquaWiz account rather than over your network.
 
 :::note Cora and your phone need the same network
-Anything discovered locally has to be on the same network as your phone at the moment you add it. Once it is added, Cora keeps talking to it — you don't have to stay on that network.
+Equipment discovered locally must be on the same network as your phone at the time you add it. Once added, the connection is maintained and your phone does not need to remain on that network.
 :::
 
 ## Assigning a device to a tank

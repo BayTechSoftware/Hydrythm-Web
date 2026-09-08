@@ -2,7 +2,7 @@
 title: Going away
 description: Build a plan your tank sitter can follow, and share it as a page they can open without an account.
 section: Cora Mobile
-order: 21
+order: 22
 ---
 
 Vacation mode turns your tank into something another person can look after. You set the dates, list the jobs, and Cora produces a simple page you can send them.
@@ -20,9 +20,9 @@ Vacation mode turns your tank into something another person can look after. You 
 | **Daily** | Feeding, a quick look at the tank |
 | **Every 3 days** | Topping off, checking the skimmer |
 | **Once** | A water change while you're away |
-| **Always** | Standing instructions — "don't adjust anything" |
+| **Always** | Standing instructions, such as equipment not to adjust |
 
-Write the checklist for someone who does not keep reef tanks. "Feed one cube of frozen, thawed, once a day" beats "feed as usual".
+Write the checklist for someone unfamiliar with reef tanks. State quantities and methods explicitly — "feed one cube of frozen food, thawed, once a day" rather than "feed as usual".
 
 ## Sharing it
 
@@ -30,8 +30,8 @@ Cora turns the plan into a **read-only page**. Send your sitter the link — the
 
 They can read the checklist and see the tank. They cannot change anything, control equipment, or see the rest of your account.
 
-:::tip Include what NOT to do
-The most valuable line on most sitter pages is the one saying which knobs to leave alone. A helpful person adjusting a doser because a number "looked low" is a more common holiday disaster than anything they might forget to do.
+:::note State what should not be adjusted
+Include standing instructions covering equipment the sitter should leave alone. Use the **Always** frequency for these.
 :::
 
 ## While you are away

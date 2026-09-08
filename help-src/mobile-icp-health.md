@@ -2,7 +2,7 @@
 title: ICP and health reports
 description: Upload an ICP test, track every element over time, and run a full health assessment of your system.
 section: Cora Mobile
-order: 20
+order: 21
 ---
 
 The **Intelligence** tab is your lab work and your long view.

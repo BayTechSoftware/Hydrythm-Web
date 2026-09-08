@@ -30,7 +30,7 @@ Tapping the Cora mark begins a live voice session. If you meant to open settings
 
 ## The dashboard
 
-The rest of the screen is your dashboard: a fixed grid of widgets, all visible at once. Nothing scrolls — a wall display you have to scroll is a wall display nobody reads.
+The remainder of the screen is the dashboard: a fixed grid of widgets, all visible at once. The Cora Max dashboard does not scroll.
 
 Widgets work the same as on your phone, at a size you can read standing back. See **[Widget reference](/help/mobile-widgets)** for what each shape shows, and **[Editing the Cora Max dashboard](/help/max-dashboard-editing)** to change what is on it.
 

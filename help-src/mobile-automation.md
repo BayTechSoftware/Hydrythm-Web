@@ -2,7 +2,7 @@
 title: Automations and scenes
 description: Build rules that run by themselves — triggers, conditions, actions — and group them into scenes.
 section: Cora Mobile
-order: 11
+order: 12
 ---
 
 An automation is a rule Cora runs for you: *when this happens, check that, then do this.* Scenes group several actions into one thing you can run or schedule.
@@ -56,15 +56,15 @@ Eleven kinds of action:
 | **Run a Scene** | Run another scene from inside this rule |
 | **Manage an Automation** | Turn another rule on or off |
 
-:::tip Wait is what makes a rule read like a procedure
-"Turn the return pump off, wait ten minutes, turn it back on" is one rule with three steps. Without the pause you would need two rules and a schedule.
+:::note Use Wait to sequence steps within one rule
+A pause allows a single rule to perform an ordered procedure — for example switching an outlet off, waiting, then switching it on again — without a second rule and a schedule.
 :::
 
 ## Scenes
 
 A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule — "Water change", "Photo mode", "Night".
 
-Scenes can call other scenes, but only so far: Cora refuses to run a scene nested too deeply, and refuses a scene that would call itself. That is deliberate — a loop of scenes would keep acting on your tank forever.
+A scene may call another scene. Cora refuses to run a scene nested beyond its depth limit, and refuses a scene that would call itself, to prevent a loop that would continue acting on the tank indefinitely.
 
 After a scene runs you are told what happened, step by step, including anything that failed.
 

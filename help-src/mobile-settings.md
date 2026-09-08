@@ -2,7 +2,7 @@
 title: Settings
 description: A reference for every section of Cora Mobile's settings — account, tanks, dosing, the Assistant, notifications, automation and activity.
 section: Cora Mobile
-order: 24
+order: 25
 ---
 
 Everything you can configure, in the order it appears.
@@ -69,7 +69,7 @@ Full detail: **[Activity and timeline](/help/mobile-activity)**.
 
 A log of everything that has happened to your equipment — every outlet switch, feed, dose and plug change, and what caused it: you, a rule, a schedule, or the Assistant.
 
-This is the first place to look when something changed and you don't know why.
+Use it to establish the cause of an unexpected change.
 
 ## About
 

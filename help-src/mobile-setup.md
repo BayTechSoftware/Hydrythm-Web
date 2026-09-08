@@ -5,7 +5,7 @@ section: Cora Mobile
 order: 1
 ---
 
-This takes about ten minutes, and you only do it once. At the end you will have an account, a tank, and a dashboard with live readings on it.
+Setup takes around ten minutes. At the end you will have an account, a configured tank, and a dashboard showing live readings.
 
 ## Install the app
 
@@ -25,7 +25,7 @@ Your account is what ties everything together. Sign in with the same account on 
 
 A **tank** in Cora is a body of water you want to track. Most people have one. If you run a frag system or a quarantine, those are separate tanks.
 
-The setup wizard walks you through it in short steps. You can change any of this later, so don't agonise:
+The setup wizard covers the following. All of it can be changed later from your [tank profile](/help/mobile-tank-profile):
 
 1. **Name** — whatever you call it out loud. "Display", "Frag", "QT".
 2. **Volume** — your best estimate of actual water volume, sump included. This is what dosing maths uses, so it is worth getting roughly right.
@@ -33,8 +33,8 @@ The setup wizard walks you through it in short steps. You can change any of this
 4. **What you keep** — a rough sense of your livestock load.
 5. **Targets** — the parameters you care about and where you want them. Sensible defaults are filled in for your tank type; adjust anything you already have an opinion about.
 
-:::tip Be honest about age
-A three-month-old tank and a five-year-old tank behave completely differently, and Cora judges readings against what is normal for the age you gave it. A tank that is still cycling should say so.
+:::note Tank age affects how readings are assessed
+Cora judges readings against what is normal for a tank of the age you enter. Record a cycling tank as such.
 :::
 
 ## Connect your equipment
@@ -45,9 +45,9 @@ You can skip this and come back. A tank with no devices still works; you just lo
 
 ## Log your first readings
 
-Even with equipment connected, some parameters only come from a test kit. On the Dashboard, tap the pencil in the tank header and choose **Log parameters**, or use the **+** on any empty widget.
+Some parameters are only available from a test kit. Scroll to the bottom of the dashboard and tap **Log Parameters**.
 
-Enter what your test kit says. Cora records who the reading came from and when, which is what lets it later tell you that your probe and your test kit disagree.
+Each reading is stored with its source and timestamp. This is what allows Cora to report when a probe and a test kit disagree.
 
 ## What good looks like
 

@@ -20,7 +20,7 @@ Work down this list:
 
 The age badge is telling you the truth: nothing new has arrived.
 
-- **Hand-logged parameters** go stale because nobody tested. Log a reading.
+- **Hand-logged parameters** go stale when no reading has been entered. Log one.
 - **Equipment readings** going stale means the device stopped reporting — check its row in **Devices**.
 - **Some equipment is meant to be slow.** A titrator that measures hourly will normally read `1h`. That is not a fault.
 
@@ -69,7 +69,7 @@ Usually the probe needs calibrating. Sometimes the test kit is old. An ICP resul
 3. Check your phone's own notification permissions for Cora
 4. Remember the daily briefing is deliberately quiet on days when nothing changed
 
-## Something changed and I don't know why
+## Establishing why something changed
 
 **Settings → Activity** lists every outlet switch, feed, dose and plug change, with what caused it — you, a rule, a schedule, or the Assistant.
 

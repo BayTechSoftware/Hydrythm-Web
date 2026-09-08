@@ -2,7 +2,7 @@
 title: Guided journeys
 description: Step-by-step help for cycling a new tank and for working through a problem.
 section: Cora Mobile
-order: 19
+order: 20
 ---
 
 A journey is Cora walking you through something over days or weeks, rather than answering one question. There are two kinds: **cycling** a new tank, and working through an **issue**.
@@ -17,8 +17,8 @@ Every journey moves through the same stages, and you can see which one you are i
 4. **Acting** — you do it, over however long it takes.
 5. **Outcome** — did it work?
 
-:::tip The validate step is the point
-Most reef advice starts by assuming the problem is real. A journey starts by checking. Half the time the answer is "your readings don't support this" — which saves you from fixing something that was not broken.
+:::note Validation runs before any advice
+A journey checks your readings before accepting that a problem exists. If the data does not support it, the journey says so rather than proposing a fix.
 :::
 
 ## Recording the outcome
@@ -27,13 +27,13 @@ At the end you say what happened:
 
 **Resolved** · **Improving** · **No change** · **Worse** · **Stopped**
 
-Be honest here, including "worse". The outcome is kept with the journey, so a future problem that looks the same can be compared against what you actually tried and what it actually did.
+Record the outcome accurately, including **Worse**. The outcome is stored with the journey, so a similar problem later can be compared against what was tried and what resulted.
 
 ## Cycling journey
 
-For a new tank. It follows the cycle through its stages, tells you what to test and when, and tells you when the tank is genuinely ready for livestock rather than when a fixed number of weeks has passed.
+For a new tank. The journey follows the cycle through its stages, sets out what to test and when, and reports readiness for livestock based on your readings rather than elapsed time.
 
-Set your tank's age honestly at setup and this starts in the right place.
+The tank age recorded in your [tank profile](/help/mobile-tank-profile) determines where the journey starts.
 
 ## Issue journey
 

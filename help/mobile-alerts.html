@@ -50,6 +50,7 @@
 <p class="nav-sec">Cora Mobile</p>
 <ul>
 <li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tank-profile">Your tank profile</a></li>
 <li><a href="/help/mobile-tour">The five tabs</a></li>
 <li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
 <li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
@@ -94,7 +95,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerts and thresholds</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#alerts-you-dont-want-at-all">Alerts you don&#x27;t want at all</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#disabling-alerts-for-a-parameter">Disabling alerts for a parameter</a></li></ul></nav>
 <p>An alert is Cora telling you a reading left the range you set for it. You decide the ranges and you decide what reaches your phone.</p>
 <h2 id="setting-a-range">Setting a range</h2>
 <p>Every parameter has a target range. Defaults come from your tank type and age when you set the tank up, which is usually a reasonable place to start.</p>
@@ -114,9 +115,9 @@
 <aside class="cal cal-note"><p class="cal-t">Cora tries hard not to be noisy</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
 <p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
-<aside class="cal cal-tip"><p class="cal-t">A glitchy probe will alert you</p><p>Because a single out-of-range reading is enough, a probe that spikes will raise an alert. That is deliberate — Cora would rather tell you about a reading it received than quietly decide it was noise. If one source is unreliable, fix or recalibrate it, or point the widget at a source you trust.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Transient readings raise alerts</p><p>A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.</p></aside>
 <p>If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
-<h2 id="alerts-you-dont-want-at-all">Alerts you don't want at all</h2>
+<h2 id="disabling-alerts-for-a-parameter">Disabling alerts for a parameter</h2>
 <p>If a parameter genuinely doesn't matter for your system, remove its range. With no threshold set, Cora shows the value and stops judging it.</p>
       <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>

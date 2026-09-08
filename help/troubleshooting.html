@@ -50,6 +50,7 @@
 <p class="nav-sec">Cora Mobile</p>
 <ul>
 <li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
+<li><a href="/help/mobile-tank-profile">Your tank profile</a></li>
 <li><a href="/help/mobile-tour">The five tabs</a></li>
 <li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
 <li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
@@ -94,14 +95,14 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Troubleshooting</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-says-it-cant-be-reached">A device says it can&#x27;t be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-wont-clear">An alert won&#x27;t clear</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#something-changed-and-i-dont-know-why">Something changed and I don&#x27;t know why</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-says-it-cant-be-reached">A device says it can&#x27;t be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-wont-clear">An alert won&#x27;t clear</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#establishing-why-something-changed">Establishing why something changed</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
 <p>Start with the symptom.</p>
 <h2 id="a-widget-shows-no-value">A widget shows no value</h2>
 <p>Work down this list:</p>
 <ol><li><strong>Check the age on nearby widgets.</strong> If everything is stale, the problem is the connection, not the parameter.</li><li><strong>Open the Devices tab.</strong> A device that cannot be reached says so on its row.</li><li><strong>Check the tank assignment.</strong> A device reporting into the wrong tank looks exactly like a device that is not reporting. Open the device and confirm its tank.</li><li><strong>Check the source exists.</strong> Nothing reports phosphate unless you have equipment that measures it or you log it by hand.</li></ol>
 <h2 id="a-reading-is-stale">A reading is stale</h2>
 <p>The age badge is telling you the truth: nothing new has arrived.</p>
-<ul><li><strong>Hand-logged parameters</strong> go stale because nobody tested. Log a reading.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting — check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
+<ul><li><strong>Hand-logged parameters</strong> go stale when no reading has been entered. Log one.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting — check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
 <h2 id="a-device-says-it-cant-be-reached">A device says it can't be reached</h2>
 <p>Usually the network.</p>
 <ol><li>Is the equipment powered and working in its own app?</li><li>Is it on the same network it was added on?</li><li>Has your router changed — new hardware, new network name, guest network isolation?</li></ol>
@@ -120,7 +121,7 @@
 <p>Usually the probe needs calibrating. Sometimes the test kit is old. An ICP result is the tiebreaker — see <a href="/help/mobile-icp-health">ICP and health reports</a>.</p>
 <h2 id="im-not-getting-notifications">I'm not getting notifications</h2>
 <ol><li><strong>Settings → Notifications</strong> — check the alert type is allowed to push</li><li>Check quiet hours</li><li>Check your phone's own notification permissions for Cora</li><li>Remember the daily briefing is deliberately quiet on days when nothing changed</li></ol>
-<h2 id="something-changed-and-i-dont-know-why">Something changed and I don't know why</h2>
+<h2 id="establishing-why-something-changed">Establishing why something changed</h2>
 <p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what caused it — you, a rule, a schedule, or the Assistant.</p>
 <h2 id="my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</h2>
 <p><strong>Presets → Reset to default</strong> rebuilds it from your tank profile. Readings, history and journal entries are stored separately from layout, so nothing is lost.</p>

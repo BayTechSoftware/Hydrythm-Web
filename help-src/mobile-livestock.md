@@ -2,12 +2,10 @@
 title: Livestock
 description: Keep a record of what is in the tank, when it arrived, and what happened to it.
 section: Cora Mobile
-order: 14
+order: 15
 ---
 
-Livestock is your record of what you keep: corals, fish, inverts, and what became of each one.
-
-It earns its keep over time. Six months from now, "when did I add that Acro, and what were my levels then?" is a question only a record can answer.
+Livestock records what the tank holds — corals, fish and invertebrates — together with when each item was added and its current status.
 
 ## Adding something
 
@@ -18,11 +16,11 @@ Each entry takes:
 - **Species** — optional, if you know it
 - **Quantity** — for a group, like a shoal or a frag pack
 - **Date added** — defaults to today
-- **Notes** — anything worth remembering: where it came from, where it is placed, what it cost
+- **Notes** — supplier, placement, cost, or any other detail you want to keep
 
 ## What happened to it
 
-Every entry carries a status, and this is the part people skip and later wish they hadn't:
+Every entry carries a status:
 
 | Status | Means |
 |---|---|
@@ -32,10 +30,10 @@ Every entry carries a status, and this is the part people skip and later wish th
 | **Sold** | Went to someone else |
 | **Moved** | In another of your tanks |
 
-Marking something **lost** lets you record when and why. That is a hard thing to write down and the most useful thing in the whole feature — a pattern of losses in one part of the tank, or after one kind of event, is only visible if the losses were recorded.
+Marking an item **lost** records the date and, optionally, a reason. Recording losses consistently is what makes patterns visible later — losses concentrated in one area of the tank, or following a particular event.
 
-:::tip Record the loss reason honestly
-"Unknown" is a legitimate answer and better than a guess. What you want later is the date and the pattern, not a diagnosis you invented at the time.
+:::note "Unknown" is a valid loss reason
+Record the date even when the cause is not known. The date is what supports later comparison.
 :::
 
 ## Livestock and the rest of Cora

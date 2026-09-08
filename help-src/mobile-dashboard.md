@@ -2,7 +2,7 @@
 title: Reading your dashboard
 description: How to read Cora's dashboard — widgets, freshness, sources, and what the colours mean.
 section: Cora Mobile
-order: 3
+order: 4
 ---
 
 The dashboard is a grid of **widgets**, each showing one thing about one tank. What is on it is entirely up to you — see **[Editing your dashboard](/help/mobile-dashboard-editing)**.
@@ -23,7 +23,7 @@ With more than one tank, swipe sideways to move between them.
 
 ## The Reef Buddy card
 
-Under the header you will usually find a card summarising this morning's briefing — a headline, a score out of 100, and how many insights are waiting. Tap it to read the whole thing, or dismiss it with the **×** and it comes back tomorrow.
+Below the header, a card summarises the most recent briefing: a headline, a score out of 100, and the number of insights. Tap it to open the full briefing, or dismiss it with **×**. A new card appears with the next briefing.
 
 ## How to read a widget
 
@@ -51,6 +51,16 @@ Cora uses colour sparingly, and always to mean the same thing:
 | Grey | No recent reading, or no range set |
 
 A widget outlined in amber or red is one Cora wants you to look at. The outline is on the widget, not just the number, so you can spot it while scrolling.
+
+## Below the widgets
+
+At the bottom of the dashboard:
+
+- **Edit dashboard** — opens the [dashboard editor](/help/mobile-dashboard-editing)
+- **Log Parameters** — enter test-kit readings by hand
+- **Journal · Alerts · Maintenance · Livestock** — shortcuts to those areas for this tank
+
+A line above them shows when the dashboard last updated and which sources it drew on.
 
 ## Tapping through
 

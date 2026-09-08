@@ -2,7 +2,7 @@
 title: Dosing
 description: Tell Cora what you dose so it can turn millilitres into an actual change in your tank.
 section: Cora Mobile
-order: 12
+order: 13
 ---
 
 Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream — the calculator, consumption tracking, and what Cora tells you about your dosing — becomes real numbers rather than guesses.
@@ -21,8 +21,8 @@ Products can carry alkalinity, calcium, magnesium, nitrate or phosphate values �
 
 If your product is not in the library, add it as a custom one and enter its strength. The manufacturer's label almost always states it — "1 ml per 100 litres raises alkalinity by 0.1 dKH", or similar.
 
-:::warning Guessing the strength poisons everything downstream
-A wrong strength makes every dose calculation wrong in the same direction, quietly. If you cannot find the real figure, it is better to leave the product out than to invent a number.
+:::warning Enter the manufacturer's stated strength
+An incorrect strength makes every dose calculation for that product wrong by the same proportion. If the figure is not available, leave the product out rather than estimating.
 :::
 
 ## The dose calculator

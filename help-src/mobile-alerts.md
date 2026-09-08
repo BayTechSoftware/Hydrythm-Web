@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you get told about, and understand why an alert fired.
 section: Cora Mobile
-order: 9
+order: 10
 ---
 
 An alert is Cora telling you a reading left the range you set for it. You decide the ranges and you decide what reaches your phone.
@@ -54,12 +54,12 @@ The daily briefing is one push per tank per day, and on a day when nothing needs
 
 An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.
 
-:::tip A glitchy probe will alert you
-Because a single out-of-range reading is enough, a probe that spikes will raise an alert. That is deliberate — Cora would rather tell you about a reading it received than quietly decide it was noise. If one source is unreliable, fix or recalibrate it, or point the widget at a source you trust.
+:::note Transient readings raise alerts
+A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.
 :::
 
 If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.
 
-## Alerts you don't want at all
+## Disabling alerts for a parameter
 
 If a parameter genuinely doesn't matter for your system, remove its range. With no threshold set, Cora shows the value and stops judging it.

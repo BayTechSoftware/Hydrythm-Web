@@ -2,10 +2,10 @@
 title: Activity and timeline
 description: Everything that has happened to your equipment, and what caused it.
 section: Cora Mobile
-order: 16
+order: 17
 ---
 
-Activity is the answer to *"something changed and I don't know why."*
+Activity records every action that reached your equipment, together with what caused it.
 
 **Settings → Activity.**
 
@@ -31,7 +31,7 @@ This is the column that matters. Each entry names its cause:
 | **The Assistant** | You asked Cora to do it |
 | **The equipment** | The device did it on its own programming |
 
-When a pump turns off unexpectedly, this is the first place to look, and usually the last — either a rule you forgot about did it, or it wasn't Cora at all.
+When equipment changes state unexpectedly, this identifies whether an automation, a schedule, the Assistant or the equipment itself was responsible.
 
 ## The tank timeline
 
@@ -39,6 +39,6 @@ Separately from equipment actions, each tank has a **timeline** — readings, al
 
 Use activity when you are asking *"what did something do?"* and the timeline when you are asking *"what was happening around this date?"*
 
-:::tip Pair the timeline with the journal
-The timeline shows what Cora recorded. The journal shows what you did. Read together they usually explain each other — a parameter that moved the day after a water change is not a mystery.
+:::note The timeline and the journal are complementary
+The timeline holds what Cora recorded; the [journal](/help/mobile-journal) holds what you did. Read together they establish cause and effect around a given date.
 :::

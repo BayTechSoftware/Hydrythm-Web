@@ -5,7 +5,7 @@ section: Cora Max
 order: 3
 ---
 
-The Cora Max dashboard is a **fixed grid** — everything has to fit on one screen, because nobody scrolls a wall display. That is the one real difference from the phone.
+The Cora Max dashboard uses a **fixed grid**. All widgets must fit on one screen; the display does not scroll. This is the main difference from the phone dashboard.
 
 :::tip Edit it from your phone
 You can build the Cora Max dashboard from Cora Mobile: **Devices → your Cora Max → Edit dashboard**. It is much quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.

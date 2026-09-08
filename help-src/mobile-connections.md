@@ -2,7 +2,7 @@
 title: Connecting your gear
 description: How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.
 section: Cora Mobile
-order: 8
+order: 9
 ---
 
 Cora works with equipment you already own. This page covers what is supported and what each connection needs.
@@ -56,7 +56,7 @@ If you have a Maxspect Gyre, add it the same way — **Devices → Add Device**,
 
 ## Logging by hand
 
-Not everything is a device, and not every parameter has one. Anything from a test kit you log yourself — on the Dashboard, tap the pencil in the tank header and choose **Log parameters**.
+Not every parameter has a device behind it. To enter a test-kit result, scroll to the bottom of the dashboard and tap **Log Parameters**.
 
 Hand-logged readings are first-class: they appear on widgets, carry their own source and age, feed Reef Buddy, and are what Cora compares your probes against when it tells you two sources disagree.
 

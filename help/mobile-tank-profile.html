@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Going away — Cora Help</title>
-  <meta name="description" content="Build a plan your tank sitter can follow, and share it as a page they can open without an account.">
+  <title>Your tank profile — Cora Help</title>
+  <meta name="description" content="The volume, livestock, equipment and dosing details Cora uses to interpret your readings.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
-  <link rel="canonical" href="https://coraiq.tech/help/mobile-vacation">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-tank-profile">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Going away — Cora Help">
-  <meta property="og:description" content="Build a plan your tank sitter can follow, and share it as a page they can open without an account.">
+  <meta property="og:title" content="Your tank profile — Cora Help">
+  <meta property="og:description" content="The volume, livestock, equipment and dosing details Cora uses to interpret your readings.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://coraiq.tech/help/mobile-vacation">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-tank-profile">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -50,7 +50,7 @@
 <p class="nav-sec">Cora Mobile</p>
 <ul>
 <li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
-<li><a href="/help/mobile-tank-profile">Your tank profile</a></li>
+<li><a href="/help/mobile-tank-profile" class="cur" aria-current="page">Your tank profile</a></li>
 <li><a href="/help/mobile-tour">The five tabs</a></li>
 <li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
 <li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
@@ -70,7 +70,7 @@
 <li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
 <li><a href="/help/mobile-journeys">Guided journeys</a></li>
 <li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
-<li><a href="/help/mobile-vacation" class="cur" aria-current="page">Going away</a></li>
+<li><a href="/help/mobile-vacation">Going away</a></li>
 <li><a href="/help/mobile-data-export">Your data</a></li>
 <li><a href="/help/mobile-plans">Plans</a></li>
 <li><a href="/help/mobile-settings">Settings</a></li>
@@ -94,24 +94,23 @@
 
   <main class="hmain" id="main">
     <article class="doc">
-      <h1>Going away</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#building-the-plan">Building the plan</a></li><li><a href="#sharing-it">Sharing it</a></li><li><a href="#while-you-are-away">While you are away</a></li><li><a href="#coming-back">Coming back</a></li></ul></nav>
-<p>Vacation mode turns your tank into something another person can look after. You set the dates, list the jobs, and Cora produces a simple page you can send them.</p>
-<p><strong>Settings → Tanks → Vacation mode.</strong></p>
-<h2 id="building-the-plan">Building the plan</h2>
-<p><strong>Dates</strong> — when you leave and when you are back.</p>
-<p><strong>A checklist</strong> — each job with how often it needs doing. Cora renders the frequency as a plain tag next to it:</p>
-<div class="tw"><table><thead><tr><th>Frequency</th><th>For</th></tr></thead><tbody><tr><td><strong>Daily</strong></td><td>Feeding, a quick look at the tank</td></tr><tr><td><strong>Every 3 days</strong></td><td>Topping off, checking the skimmer</td></tr><tr><td><strong>Once</strong></td><td>A water change while you're away</td></tr><tr><td><strong>Always</strong></td><td>Standing instructions, such as equipment not to adjust</td></tr></tbody></table></div>
-<p>Write the checklist for someone unfamiliar with reef tanks. State quantities and methods explicitly — "feed one cube of frozen food, thawed, once a day" rather than "feed as usual".</p>
-<h2 id="sharing-it">Sharing it</h2>
-<p>Cora turns the plan into a <strong>read-only page</strong>. Send your sitter the link — they do not need the app and they do not need an account.</p>
-<p>They can read the checklist and see the tank. They cannot change anything, control equipment, or see the rest of your account.</p>
-<aside class="cal cal-note"><p class="cal-t">State what should not be adjusted</p><p>Include standing instructions covering equipment the sitter should leave alone. Use the <strong>Always</strong> frequency for these.</p></aside>
-<h2 id="while-you-are-away">While you are away</h2>
-<p>Everything else keeps working — readings, alerts, Reef Buddy, automations. Vacation mode adds the sitter page; it does not change how your tank is run.</p>
-<p>If you want to be reachable, check your <strong><a href="/help/mobile-notifications">notification settings</a></strong> before you go, particularly quiet hours if you are changing timezone.</p>
-<h2 id="coming-back">Coming back</h2>
-<p>End the plan when you are home. The checklist is kept, so next time you go away you can reuse it rather than writing it again.</p>
+      <h1>Your tank profile</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#completeness">Completeness</a></li><li><a href="#sections">Sections</a></li><li><a href="#volume">Volume</a></li><li><a href="#tank-age">Tank age</a></li><li><a href="#keeping-the-profile-current">Keeping the profile current</a></li></ul></nav>
+<p>The tank profile describes your system. Cora uses it to judge readings, calculate doses, and decide what is normal for your tank rather than for tanks in general.</p>
+<p>To open it, tap the <strong>pencil</strong> beside the tank name on the dashboard.</p>
+<figure class="shot phone"><img src="img/mobile-tank-profile.webp" alt="The tank profile editor" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Each section shows a completion state. The score at the top reflects how much Cora knows about the tank.</figcaption></figure>
+<h2 id="completeness">Completeness</h2>
+<p>The percentage at the top shows how much of the profile is filled in. A more complete profile produces more specific advice; an empty one leaves Cora working from defaults.</p>
+<h2 id="sections">Sections</h2>
+<div class="tw"><table><thead><tr><th>Section</th><th>Covers</th></tr></thead><tbody><tr><td>Tank Name &amp; Type</td><td>What you call the tank, its type, and its age</td></tr><tr><td>Tank Dimensions</td><td>Physical size and total water volume</td></tr><tr><td>Dosing</td><td>What you dose and how</td></tr><tr><td>Water Management</td><td>Water changes, top-off, salinity targets</td></tr><tr><td>Livestock</td><td>What the tank holds and how heavily it is stocked</td></tr><tr><td>Temperature Control</td><td>Heating and cooling equipment</td></tr><tr><td>Lighting</td><td>Fixtures and photoperiod</td></tr><tr><td>Flow &amp; Filtration</td><td>Pumps, skimming and media</td></tr></tbody></table></div>
+<p>Tap a section to expand it. The information icon beside each explains what the fields are used for.</p>
+<h2 id="volume">Volume</h2>
+<p>Enter the actual water volume including the sump, not the display volume printed on the tank.</p>
+<aside class="cal cal-warning"><p class="cal-t">Dose calculations scale directly with volume</p><p>A volume entered 20% high produces dose recommendations 20% high. If you are unsure, measure rather than estimate.</p></aside>
+<h2 id="tank-age">Tank age</h2>
+<p>Set the date the tank was started. Cora judges readings against what is normal for a tank of that age — a system three months old and one five years old are assessed differently. If the tank is still cycling, record it as such.</p>
+<h2 id="keeping-the-profile-current">Keeping the profile current</h2>
+<p>Update the profile when the system changes: new equipment, a change in stocking, a different dosing regime. The profile is what Cora reasons from, so an out-of-date profile produces out-of-date advice.</p>
       <p class="stamp">Written for Cora Max 0.28.28 and Cora Mobile 0.5.52.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>

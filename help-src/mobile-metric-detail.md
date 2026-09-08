@@ -2,7 +2,7 @@
 title: Looking into a parameter
 description: Tap any widget for full history, every source reporting it, and where to change its range.
 section: Cora Mobile
-order: 6
+order: 7
 ---
 
 A widget shows you a number. Tapping it shows you the story behind the number.
@@ -28,8 +28,8 @@ The window buttons change the span. The right window depends on the rhythm of th
 | Alkalinity | 7 or 30 days |
 | Trace elements | 30 days or a year |
 
-:::tip A flat line is information too
-A parameter that has not moved at all over 7 days is either very stable or not actually being measured. Check the age on the reading — a probe that stopped reporting looks exactly like perfect stability.
+:::note Check the reading age on a flat trend
+A line that has not moved may indicate a stable parameter or a source that has stopped reporting. The age shown beside the value distinguishes the two.
 :::
 
 ## When sources disagree

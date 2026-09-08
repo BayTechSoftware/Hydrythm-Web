@@ -2,7 +2,7 @@
 title: Notifications
 description: Choose what reaches your phone, when it may arrive, and where to read what you missed.
 section: Cora Mobile
-order: 10
+order: 11
 ---
 
 **Settings → Notifications** controls everything Cora may send you.
@@ -41,4 +41,4 @@ Work down this list:
 
 ## If too much is arriving
 
-Do not start by turning notifications off — start with the thresholds. Most notification noise is a range set tighter than the tank actually runs, or a source that needs calibrating. See **[Alerts and thresholds](/help/mobile-alerts)**.
+Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See [Alerts and thresholds](/help/mobile-alerts).

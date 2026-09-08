@@ -2,7 +2,7 @@
 title: Widget reference
 description: Every widget shape in Cora — value, gauge, trend, status, control and device tiles — and when to use each.
 section: Cora Mobile
-order: 5
+order: 6
 ---
 
 A widget is one tile on your dashboard showing one thing. There are six shapes. This page covers what each is for and what you can configure.
@@ -13,7 +13,7 @@ Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)
 
 The plain number. Current reading, its unit, how old it is and where it came from.
 
-Use it for anything you want to read at a glance but don't need a picture of — calcium, magnesium, nitrate.
+Use it for parameters you check numerically rather than by trend — calcium, magnesium, nitrate.
 
 **Settings:** label, source, size.
 
@@ -25,8 +25,8 @@ Use it for the parameters you actively manage — alkalinity, pH, salinity, temp
 
 **Settings:** label, source, range (inherited from your tank targets unless you override it here), size.
 
-:::tip Gauges earn their space at two-by-two
-A gauge is a picture, and a small picture is just a number with decoration. If a parameter matters enough for a gauge, give it the room.
+:::note Size gauges at two columns or more
+At a single column the arc is too small to read at a glance; use a **value** widget instead if space is limited.
 :::
 
 ## Trend
