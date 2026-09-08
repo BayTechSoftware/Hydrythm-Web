@@ -23,7 +23,7 @@ Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)
 | **ReefBeat** | One Red Sea unit, with its own summary |
 | **Apex module** | One fitted Apex module, such as a Trident or DŌS |
 | **Jecod** | One Jecod pump, with its mode and intensity |
-| **Maxspect** | One gyre, with both motors |
+| **Maxspect** *(coming soon)* | One gyre, with both motors |
 
 The last four are **device** tiles: they are keyed to a piece of equipment rather than to a parameter, and each shows whatever that unit reports.
 

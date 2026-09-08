@@ -22,7 +22,7 @@ There is no preview and no undo. A command goes out the moment you tap — but *
 | **DŌS** | Each head's dosing, schedule, runway and container volume — with pause, fill, dose now and a one-time twenty-second measure |
 | **Red Sea ReefBeat** | Whatever the unit is — dosing heads, reservoir, roller days, pump mode |
 | **Jecod** | Pump mode and intensity, and its day program |
-| **Maxspect** | Mode and intensity per motor, and its schedule |
+| **Maxspect** *(coming soon)* | Mode and intensity per motor, and its schedule |
 
 ## Schedules
 

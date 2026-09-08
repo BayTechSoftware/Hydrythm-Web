@@ -46,7 +46,8 @@ Images taller than 1.4× their width are treated as phone screenshots and capped
 - **Cora Assistant** and **Cora Cloud** — no third-party infrastructure is ever named.
 - Nothing about Flo, Senso, Specto, Cora Cube, Cora Base, Cora Pro or Cora Link.
 - Integrations named: Neptune Apex, Red Sea ReefBeat, Jecod/Jebao, AquaWiz KH Controller.
-  Maxspect is "coming soon".
+  Maxspect is "coming soon" — ⛔ ENFORCED by the self-test: any page naming Maxspect must
+  also carry "coming soon". This rule sat here unenforced and six pages broke it.
 - ⛔⛔ **Both GIZ-14 disclaimers appear in the shared footer of every page.** They are in
   `build_help.py`; do not paraphrase them and do not drop one.
 - Screenshots must not show: the Devices tab's Flo / Senso / Specto family headers, any

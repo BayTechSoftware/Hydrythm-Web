@@ -89,6 +89,10 @@ You can also:
 
 ## Maxspect
 
+:::note Maxspect support is coming soon
+Maxspect gyres are not yet generally available in Cora. This page describes how they work so it is ready when they arrive; until then, the controls below may not appear for your unit.
+:::
+
 The gyre page shows the current mode and intensity for each head, and when the unit last reported.
 
 :::note A gyre must be read before it can be changed

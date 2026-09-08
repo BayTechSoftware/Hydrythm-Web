@@ -30,7 +30,7 @@ Every schedule screen has the same three parts:
 
 **The action row** — save the program to the device, or discard your changes.
 
-A gyre has two motors, so its graph has **two tracks** — one per motor.
+A gyre has two motors, so its graph has **two tracks** — one per motor. *(Maxspect gyre support is coming soon; Jecod pumps are available now.)*
 
 :::warning A schedule is written to the device
 Saving sends the program to the equipment, which then runs it on its own clock. It continues running whether or not Cora is reachable.

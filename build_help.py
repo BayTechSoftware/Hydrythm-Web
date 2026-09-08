@@ -855,6 +855,20 @@ def self_test() -> int:
     ok("⛔ script is NOT passed through", "&lt;script&gt;" in render("<script>alert(1)</script>", []))
     ok("tokens extract", "--brand:" in extract_root())
 
+    # ⛔ CONTENT RULE, ENFORCED. help-src/README.md has said 'Maxspect is
+    # "coming soon"' since the guide was written, and SIX pages named it as a
+    # shipped integration anyway (found in review, 2026-09-09) while the public
+    # site carried a badge-soon. A rule nobody checks is a rule nobody follows.
+    unlabelled = []
+    for md in sorted(SRC.glob("*.md")):
+        if md.name == "README.md":
+            continue
+        body = md.read_text(encoding="utf-8")
+        if "maxspect" in body.lower() and "coming soon" not in body.lower():
+            unlabelled.append(md.name)
+    ok(f"⛔ Maxspect is labelled coming-soon wherever it is named ({unlabelled})",
+       not unlabelled)
+
     # ⛔ A zero-length render would make several checks above pass vacuously.
     ok("render is not empty", len(render("## A\n\ntext\n", [])) > 20)
 

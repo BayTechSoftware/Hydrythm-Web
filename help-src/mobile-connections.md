@@ -15,7 +15,7 @@ Cora works with equipment you already own. This page covers what is supported an
 | Red Sea ReefBeat | The tank |
 | Jecod / Jebao | **Devices → Find a pump on your network**, or Bluetooth |
 | AquaWiz | **Devices → Add AquaWiz** |
-| Maxspect | **Devices → Find a pump on your network** |
+| Maxspect *(coming soon)* | **Devices → Find a pump on your network** |
 | Cora Max | **Devices → Add Device** |
 
 ## Neptune Apex
@@ -73,6 +73,10 @@ AquaWiz issues a single sign-in per account, so the one Cora holds is the same o
 :::
 
 ## Maxspect
+
+:::note Maxspect support is coming soon
+Maxspect gyres are not yet generally available in Cora. This page describes how they work so it is ready when they arrive; until then, the controls below may not appear for your unit.
+:::
 
 Cora connects to Maxspect Gyre pumps and can read and drive them.
 

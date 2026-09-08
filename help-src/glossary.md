@@ -87,4 +87,4 @@ Tank-sitter mode. A dated plan with a checklist of jobs, which Cora turns into a
 
 ## Widget
 
-One tile on a dashboard showing one thing. Nine types: Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod and Maxspect. See [Widget reference](/help/mobile-widgets).
+One tile on a dashboard showing one thing. Nine types: Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod and Maxspect *(coming soon)*. See [Widget reference](/help/mobile-widgets).
