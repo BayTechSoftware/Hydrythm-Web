@@ -74,7 +74,11 @@ Usually the probe needs calibrating. Sometimes the test kit is old. An ICP resul
 
 ## My dashboard looks wrong after editing
 
-**Presets → Reset to default** rebuilds it from your tank profile. Readings, history and journal entries are stored separately from layout, so nothing is lost.
+Load a saved design: **My dashboards**, then pick one.
+
+If you have not saved one, the layout has to be rebuilt by hand — there is no reset-to-default. Save a design once the dashboard is how you want it and a future bad edit becomes one tap to undo.
+
+Either way, readings, history and journal entries are stored separately from layout, so nothing behind the dashboard is lost.
 
 ## Still stuck
 

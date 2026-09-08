@@ -5,7 +5,7 @@ section: Cora Max
 order: 3
 ---
 
-If Cora Max shows more than one tank, the **Reef Room** is an overview of all of them at once. Open it with the **grid icon** at the far left of the top bar.
+If Cora Max shows more than one tank, the Reef Room is an overview of all of them at once. Open it with the **grid icon** at the far left of the top bar — on screen it is headed **Cora Tanks**.
 
 ![The Reef Room](img/max-reef-room.webp "Each tank with its in-range score, headline parameters and anything out of range.")
 

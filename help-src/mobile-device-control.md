@@ -22,7 +22,7 @@ A command does not always succeed, and Cora tells you which of four things happe
 | Outcome | Means |
 |---|---|
 | **Confirmed** | The equipment acknowledged the change and reported its new state |
-| **Dispatched** | The command was sent, but no acknowledgement came back in time. **This means "we do not know", not "it worked"** — check the device's own state |
+| **Unconfirmed** | The command was sent, but nothing reported back. **This means "we do not know", not "it worked"** — check the device's own state |
 | **Refused** | Something declined it — a safety rule, a lock, or the equipment itself |
 | **No change** | The equipment was already in the state you asked for |
 

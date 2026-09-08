@@ -15,7 +15,7 @@ Nothing is required from you to stay up to date.
 
 ![Device settings](img/max-updates.webp "Firmware update and device health, at the top of device settings.")
 
-**Settings → Cora Max → Firmware Update** covers checking, installing, the update channel and its schedule. **Device health & controls** sits beside it. **Settings → Devices → Device health** shows the same, alongside the unit's other diagnostics.
+**Settings → Cora Max → Firmware Update** covers checking, installing, the update channel and its schedule. **Device health & controls** sits directly beside it in the same **Firmware** group, and is where the unit's own diagnostics live — polling primary, device links and voice responder included.
 
 ## When an update is available
 

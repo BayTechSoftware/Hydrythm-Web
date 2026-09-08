@@ -29,7 +29,9 @@ Two actions on each:
 
 Every parameter has a target range. Defaults come from your tank type and age when you set the tank up, which is usually a reasonable place to start.
 
-To change one: tap the widget, then **Thresholds**. Or set them all in one place under **Settings → Tanks → [your tank] → Thresholds**.
+To change one: **long-press its widget** on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead — the two gestures go to different places, and the long-press is the shortcut worth remembering.
+
+To see them all together, use **Alerts** in the row of buttons under the dashboard.
 
 You can set:
 

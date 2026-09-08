@@ -19,7 +19,7 @@ The polling setting in a tank's settings chooses which Cora device reads that ta
 
 ## Devices
 
-Everything this screen can see, how each one is doing, and **Device health** for the unit itself. Cora Max sees the same devices as your phone.
+Everything this screen can see and how each one is doing. Cora Max sees the same devices as your phone. Diagnostics for the *unit itself* are not here — they are under **Firmware → Device health & controls**.
 
 You can check state here, but adding and configuring equipment is easier in Cora Mobile — see **[Adding, editing and removing devices](/help/mobile-devices)**.
 

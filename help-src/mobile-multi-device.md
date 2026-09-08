@@ -50,4 +50,4 @@ Naming a primary reduces load on the controller and removes duplicate readings f
 
 ## Where each device's state is shown
 
-Cora Max reports its own polling and voice state under **Settings → Devices → Device health**. See [Devices and device health](/help/max-devices).
+Cora Max reports its own polling and voice state under **Settings → Cora Max → Firmware → Device health & controls**. See [Devices and device health](/help/max-devices).

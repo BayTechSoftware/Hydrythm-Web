@@ -15,13 +15,21 @@ Each category is switched independently:
 
 | Category | Covers |
 |---|---|
-| **Parameter alerts** | A reading left the range set for it |
-| **Maintenance due** | A task is approaching or past its due date |
-| **Equipment faults** | A device reported a fault — stall, brownout, encoder or homing |
-| **Supplies low** | A consumable crossed its refill threshold |
-| **ICP ready** | An uploaded lab result has finished analysing |
+| **Parameter Alerts** | Water chemistry outside a range you set |
+| **Maintenance Reminders** | Tasks you scheduled, like water changes |
+| **Equipment Faults** | A device reporting a problem — a Trident that has stopped testing, for example |
+| **Supplies Running Low** | Reagent, top-off water, dosing containers — and a full waste bottle |
+| **ICP Report Ready** | Your ICP results are analysed and ready to read |
 
 Turning a category off stops the push. The event is still recorded and still appears in the bell.
+
+:::warning "Parameter Alerts" means chemistry, and only chemistry
+It is natural to read that switch as covering everything the tank might tell you. It does not. A Trident that has stopped testing is an **Equipment Fault**, and reagent running out is **Supplies Running Low** — each has its own switch. If you have had Parameter Alerts on for a long time and assumed it covered the rest, check the other two.
+:::
+
+**Supplies Running Low includes the waste bottle**, which fills up rather than runs down. It is in this category because the action it needs is the same: something to empty or replace before it stops the tests.
+
+Equipment faults can be narrowed further. A separate set of switches covers the individual fault types — **Stall Detected**, **Encoder Error**, **Power Instability** and **Home Timeout** — for when you want the category on but one noisy fault off.
 
 ## The bell
 

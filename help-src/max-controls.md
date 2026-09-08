@@ -8,7 +8,7 @@ order: 5
 Cora Max can switch the equipment on your system — from control widgets on the dashboard, from the Outlets & Feed drawer, or by voice.
 
 :::warning These controls act on your tank
-There is no undo. Outlets marked with a padlock ask you to confirm first; the rest apply as soon as you tap. A command can come back **Confirmed**, **Dispatched** (sent, not acknowledged), **Refused** or **No change** — see [Controlling your equipment](/help/mobile-device-control).
+There is no undo. Outlets marked with a padlock ask you to confirm first; the rest apply as soon as you tap. A command can come back **Confirmed**, **Unconfirmed** (sent, nothing reported back), **Refused** or **No change** — see [Controlling your equipment](/help/mobile-device-control).
 :::
 
 ## The three states

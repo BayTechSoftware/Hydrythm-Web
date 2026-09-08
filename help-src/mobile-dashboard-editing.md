@@ -63,15 +63,21 @@ Depending on the widget type, you can set:
 
 Tap **Save** to apply the layout, or the close icon to discard your changes.
 
-## Presets
+## My dashboards
 
-To save the current layout: **Presets → Save current as preset**, then name it.
+A layout you like can be saved and reused. **My dashboards → Save this design**, then name it. You can keep up to **30**.
 
-A saved preset can be applied to another tank, or used to restore a layout after changes. Widgets whose source does not exist on the target tank are kept but left empty.
+A saved design can be loaded onto another tank, or onto a Cora Max screen.
 
-## Resetting
+:::note What a tank cannot fill is left behind, not left empty
+Loading a design keeps only the tiles the target can actually populate. Anything else is dropped and listed for you under **Left behind** before you commit, each with its reason — the tank has never reported that metric, there is no outlet with that name, the ReefBeat device or Apex module is not linked to this tank, or the grid ran out of room.
+:::
 
-**Presets → Reset to default** rebuilds the layout from the tank profile. Readings, history and journal entries are stored separately and are not affected.
+## Recovering a layout you did not mean to change
+
+There is no reset-to-default for a dashboard. The way back is a saved design — which is the argument for saving one while the layout is how you want it, because that is what turns a bad edit into one tap to undo.
+
+Readings, history and journal entries are stored separately from layout, so no edit to a dashboard can lose them.
 
 ## Editing the Cora Max dashboard
 

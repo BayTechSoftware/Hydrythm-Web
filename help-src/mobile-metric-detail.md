@@ -25,7 +25,7 @@ A widget shows you a number. Tapping it shows you the story behind the number.
 
 **The raw readings list** — every individual reading behind the line, with its source and timestamp.
 
-**The thresholds** currently applied, and a way to change them.
+**Your alert band**, shaded on the chart, so a reading is read against its range rather than in isolation. To change the range itself, long-press the widget on the dashboard — see [Alerts and thresholds](/help/mobile-alerts).
 
 **Log a reading** by hand.
 

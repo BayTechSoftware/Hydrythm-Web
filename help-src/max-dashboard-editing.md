@@ -43,7 +43,7 @@ The editor tells you the three gestures along the top: **tap a tile to edit**, *
 
 **Outlets & Feed** adds your controllable outlets and feed cycles in one step, rather than one tile at a time. **Clear all** empties the grid so you can start again.
 
-The tile shapes — value, gauge, trend, status, control and device — are described in the **[Widget reference](/help/mobile-widgets)**.
+The nine tile types — Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod and Maxspect — are described in the **[Widget reference](/help/mobile-widgets)**.
 
 ## Designing for distance
 

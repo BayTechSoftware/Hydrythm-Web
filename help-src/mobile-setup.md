@@ -13,7 +13,7 @@ Search for **Cora** on the App Store or Google Play and install it. On your home
 
 ## Looking around first
 
-Before creating an account you can open the **Demo Reef** — a sample tank with realistic data, laid out exactly like a real one. Nothing in it is connected to anything, and nothing is saved.
+Before creating an account you can choose **Explore a demo reef** — a sample tank with realistic data, laid out exactly like a real one. Nothing in it is connected to anything, and nothing is saved.
 
 Use it to see how dashboards, widgets and readings work before committing.
 

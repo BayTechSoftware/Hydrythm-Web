@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Widget reference — Cora Help</title>
-  <meta name="description" content="Every widget shape in Cora — value, gauge, trend, status, control and device tiles — and when to use each.">
+  <meta name="description" content="Every widget type in Cora — value, gauge, graph, status, outlet and the device tiles — and when to use each.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-widgets">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Widget reference — Cora Help">
-  <meta property="og:description" content="Every widget shape in Cora — value, gauge, trend, status, control and device tiles — and when to use each.">
+  <meta property="og:description" content="Every widget type in Cora — value, gauge, graph, status, outlet and the device tiles — and when to use each.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-widgets">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -109,7 +109,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Widget reference</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-nine-types">The nine types</a></li><li><a href="#sizing">Sizing</a></li><li><a href="#value">Value</a></li><li><a href="#gauge">Gauge</a></li><li><a href="#trend">Trend</a></li><li><a href="#status">Status</a></li><li><a href="#control">Control</a></li><li><a href="#device">Device</a></li><li><a href="#what-every-widget-shows">What every widget shows</a></li><li><a href="#sizes">Sizes</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-nine-types">The nine types</a></li><li><a href="#sizing">Sizing</a></li><li><a href="#value">Value</a></li><li><a href="#gauge">Gauge</a></li><li><a href="#graph">Graph</a></li><li><a href="#status">Status</a></li><li><a href="#outlet">Outlet</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#what-every-widget-shows">What every widget shows</a></li><li><a href="#sizes">Sizes</a></li></ul></nav>
 <p>A widget is one tile on your dashboard showing one thing. This page covers each type and what you can configure.</p>
 <p>Add and arrange them in <strong><a href="/help/mobile-dashboard-editing">the dashboard editor</a></strong>; tap a widget there to open its settings.</p>
 <figure class="shot phone"><img src="img/mobile-widget-config.webp" alt="Configuring a widget" width="620" height="1196" loading="lazy" decoding="async"><figcaption>Type, parameter, then width and height.</figcaption></figure>
@@ -127,7 +127,7 @@
 <p>Use it for the parameters you actively manage — alkalinity, pH, salinity, temperature.</p>
 <p><strong>Settings:</strong> label, source, range (inherited from your tank targets unless you override it here), size.</p>
 <aside class="cal cal-note"><p class="cal-t">Size gauges at two columns or more</p><p>At a single column the arc is too small to read at a glance; use a <strong>value</strong> widget instead if space is limited.</p></aside>
-<h2 id="trend">Trend</h2>
+<h2 id="graph">Graph</h2>
 <p>A sparkline over a window you choose, with the high and low marked and the current value called out.</p>
 <p>Use it for anything that moves — pH through the day, temperature across a heatwave, alkalinity between doses.</p>
 <p><strong>Settings:</strong> label, source, <strong>time window</strong> (1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year), size.</p>
@@ -136,12 +136,12 @@
 <h2 id="status">Status</h2>
 <p>Text rather than a number — for things that are a state. Running, idle, open, closed, feeding.</p>
 <p><strong>Settings:</strong> label, source, size.</p>
-<h2 id="control">Control</h2>
+<h2 id="outlet">Outlet</h2>
 <p>A three-way switch for an outlet: <strong>Auto</strong>, <strong>Off</strong>, <strong>On</strong>.</p>
 <ul><li><strong>Auto</strong> hands the outlet back to whatever normally runs it — a schedule, a rule, or the controller it belongs to.</li><li><strong>Off</strong> and <strong>On</strong> are manual overrides that stay until you change them back.</li></ul>
 <p><strong>Settings:</strong> label, which outlet, size.</p>
 <aside class="cal cal-warning"><p class="cal-t">A manual override does not expire</p><p>Off means off until you set it back to Auto. If you switch a return pump off to work in the tank, put it back to Auto when you're done — Cora will not do it for you.</p></aside>
-<h2 id="device">Device</h2>
+<h2 id="reefbeat">ReefBeat</h2>
 <p>One tile for a whole piece of equipment, showing its own summary rather than a single parameter — an ATO's status and reservoir, a dosing unit's heads, a mat roller's remaining days.</p>
 <p>Which devices offer a tile depends on what you have connected. See <strong><a href="/help/mobile-connections">Connecting your gear</a></strong>.</p>
 <p><strong>Settings:</strong> label, which device, size.</p>

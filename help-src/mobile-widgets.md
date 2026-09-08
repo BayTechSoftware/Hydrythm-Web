@@ -1,6 +1,6 @@
 ---
 title: Widget reference
-description: Every widget shape in Cora — value, gauge, trend, status, control and device tiles — and when to use each.
+description: Every widget type in Cora — value, gauge, graph, status, outlet and the device tiles — and when to use each.
 section: Cora Mobile
 order: 6
 ---
@@ -51,7 +51,7 @@ Use it for the parameters you actively manage — alkalinity, pH, salinity, temp
 At a single column the arc is too small to read at a glance; use a **value** widget instead if space is limited.
 :::
 
-## Trend
+## Graph
 
 A sparkline over a window you choose, with the high and low marked and the current value called out.
 
@@ -71,7 +71,7 @@ Text rather than a number — for things that are a state. Running, idle, open, 
 
 **Settings:** label, source, size.
 
-## Control
+## Outlet
 
 A three-way switch for an outlet: **Auto**, **Off**, **On**.
 
@@ -84,7 +84,7 @@ A three-way switch for an outlet: **Auto**, **Off**, **On**.
 Off means off until you set it back to Auto. If you switch a return pump off to work in the tank, put it back to Auto when you're done — Cora will not do it for you.
 :::
 
-## Device
+## ReefBeat
 
 One tile for a whole piece of equipment, showing its own summary rather than a single parameter — an ATO's status and reservoir, a dosing unit's heads, a mat roller's remaining days.
 
