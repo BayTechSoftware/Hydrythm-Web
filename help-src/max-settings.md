@@ -11,19 +11,27 @@ Open settings with the **gear** at the far right of the top bar.
 
 ## Tank settings
 
-One entry per tank this screen shows, each opening that tank's **journal, health, polling and thresholds**. See [Alerts on Cora Max](/help/max-alerts).
+One entry per tank this screen shows, each opening that tank's **journal, maintenance, alerts, livestock, reports and activity**. Thresholds set here are the same ranges you set on your phone — change one anywhere and it applies everywhere. See **[Alerts and thresholds](/help/mobile-alerts)**.
 
-**Polling** here selects which Cora device is the **primary poller** for that tank — not how often it polls. See [More than one Cora device](/help/mobile-multi-device).
+:::note Polling here means *which device*, not *how often*
+The polling setting in a tank's settings chooses which Cora device reads that tank's equipment — the **primary poller**. It does not change the interval. See [More than one Cora device](/help/mobile-multi-device).
+:::
 
 ## Devices
 
-The equipment this screen can see, and **Device health** for the unit itself. See [Devices and device health](/help/max-devices).
+Everything this screen can see, how each one is doing, and **Device health** for the unit itself. Cora Max sees the same devices as your phone.
+
+You can check state here, but adding and configuring equipment is easier in Cora Mobile — see **[Adding, editing and removing devices](/help/mobile-devices)**.
 
 ## Notification history
 
 The **account-wide** inbox — every briefing, alarm and account notice across your whole system, including anything your phone missed.
 
-## Cora Max — settings for this screen
+![Notification history on Cora Max](img/max-notifications.webp "Alarms and their recoveries, newest first, across every tank.")
+
+Recoveries are recorded as well as alarms, so a parameter that went out of range and came back reads as a closed pair rather than an unexplained warning.
+
+## Settings for this screen
 
 | Group | Covers |
 |---|---|
@@ -40,17 +48,21 @@ The **account-wide** inbox — every briefing, alarm and account notice across y
 Wi-Fi, display, audio, wake word and child lock describe this unit. They are not shared with your phone or another Cora Max.
 :::
 
-## Devices
+## Pairing, re-pairing and factory reset
 
-Everything connected, and how each one is doing. Cora Max sees the same devices as your phone.
+**Device settings** shows what this screen is currently bound to: its firmware version, which tanks it displays, whether an account is signed in, and when it was paired.
 
-You can check state here, but adding and configuring equipment is easier in Cora Mobile — see **[Adding, editing and removing devices](/help/mobile-devices)**.
+![Device settings on Cora Max](img/max-pairing-info.webp "What this screen is bound to — firmware, tanks, account and the date it was paired.")
 
-## Tank settings
+**Re-pair this device** moves the screen to a different account or tank set without clearing its preferences.
 
-Per-tank settings reachable from this screen: journal, health, how often readings are polled, and thresholds.
+**Factory reset** goes further, and the confirmation says exactly how far.
 
-**Thresholds** are the same ranges you set on your phone — change one here and it applies everywhere. See **[Alerts and thresholds](/help/mobile-alerts)**.
+![The factory reset confirmation](img/max-factory-reset.webp "The dialog states what is cleared and what survives before you commit.")
+
+:::warning A reset clears the screen, not your data
+Factory reset removes the pairing record and every on-device preference, and returns the unit to its pairing screen. **Tank data already saved to your account is kept** — pair the device again to a tank and it reappears. What you lose is this screen's own setup: its Wi-Fi, display, audio and voice settings, and its dashboard layouts.
+:::
 
 ## Which tanks this screen shows
 
@@ -58,9 +70,7 @@ A Cora Max can show one tank or several. Change the set under **Devices**, then 
 
 ## Updates
 
-Cora Max keeps itself up to date. New versions download in the background and install themselves, and you are told what changed.
-
-If a version has just arrived, the prompt appears on screen. There is nothing you need to do to stay current.
+Cora Max keeps itself up to date. New versions download in the background and install themselves, and you are told what changed. If a version has just arrived, the prompt appears on screen. There is nothing you need to do to stay current. See **[Keeping Cora Max updated](/help/max-updates)**.
 
 :::note Settings live in two places, on purpose
 Anything about *this screen* — Wi-Fi, brightness, sound — is here. Anything about your *account* — tanks, devices, dosing products, plans — belongs to your account and is easier to change in Cora Mobile, where it applies to every screen at once.

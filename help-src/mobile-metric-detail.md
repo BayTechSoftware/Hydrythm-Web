@@ -9,6 +9,8 @@ A widget shows you a number. Tapping it shows you the story behind the number.
 
 ## What you get
 
+![Looking into a parameter](img/mobile-metric-detail.webp "Ranges along the top, then the sources reporting this parameter, then the chart with your alert band shaded.")
+
 **A history chart**, with its own range selector: **1h · 6h · 12h · 24h · 3d · 7d** and longer.
 
 **A source filter.** Below the ranges is a row of chips — **All**, plus one per source reporting this parameter, such as *Apex*, *Cora*, *Red Sea* or *Manual*. Select one to see only its readings. This is how you compare a probe against a test kit directly: switch between them on the same chart.
