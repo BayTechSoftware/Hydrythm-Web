@@ -109,7 +109,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Widget reference</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-nine-types">The nine types</a></li><li><a href="#sizing">Sizing</a></li><li><a href="#value">Value</a></li><li><a href="#gauge">Gauge</a></li><li><a href="#graph">Graph</a></li><li><a href="#status">Status</a></li><li><a href="#outlet">Outlet</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#what-every-widget-shows">What every widget shows</a></li><li><a href="#sizes">Sizes</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-nine-types">The nine types</a></li><li><a href="#sizing">Sizing</a></li><li><a href="#value">Value</a></li><li><a href="#gauge">Gauge</a></li><li><a href="#graph">Graph</a></li><li><a href="#status">Status</a></li><li><a href="#outlet">Outlet</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#what-a-parameter-widget-shows">What a parameter widget shows</a></li><li><a href="#sizes">Sizes</a></li></ul></nav>
 <p>A widget is one tile on your dashboard showing one thing. This page covers each type and what you can configure.</p>
 <p>Add and arrange them in <strong><a href="/help/mobile-dashboard-editing">the dashboard editor</a></strong>; tap a widget there to open its settings.</p>
 <figure class="shot phone"><img src="img/mobile-widget-config.webp" alt="Configuring a widget" width="620" height="1196" loading="lazy" decoding="async"><figcaption>Type, parameter, then width and height.</figcaption></figure>
@@ -145,13 +145,13 @@
 <p>One tile for a whole piece of equipment, showing its own summary rather than a single parameter — an ATO's status and reservoir, a dosing unit's heads, a mat roller's remaining days.</p>
 <p>Which devices offer a tile depends on what you have connected. See <strong><a href="/help/mobile-connections">Connecting your gear</a></strong>.</p>
 <p><strong>Settings:</strong> label, which device, size.</p>
-<h2 id="what-every-widget-shows">What every widget shows</h2>
-<p>Whatever the shape, three things are always present:</p>
+<h2 id="what-a-parameter-widget-shows">What a parameter widget shows</h2>
+<p>On a widget backed by a measured parameter — Value, Gauge, Graph and Status — three things are always present. Outlet and device tiles show their own state instead, because no single reading sits behind them:</p>
 <ul><li><strong>The value</strong>, large</li><li><strong>The age</strong> — <code>now</code>, <code>1h</code>, <code>2d</code> — how old the reading is, not how recently the screen refreshed</li><li><strong>The source</strong> — a small badge saying where the number came from</li></ul>
 <p>Tap any widget to open its full history, every source that reports it, and the thresholds in force.</p>
 <h2 id="sizes">Sizes</h2>
 <p>Widgets are one or two cells wide and one or two cells tall — except a <strong>trend</strong>, which is always at least two wide. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.</p>
-      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
+      <p class="stamp">Written for Cora Max 0.28.33 and Cora Mobile 0.5.54.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

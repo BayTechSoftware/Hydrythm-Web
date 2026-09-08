@@ -13,7 +13,7 @@ Cora Mobile has five tabs along the bottom. Almost everything you do lives in on
 
 Live readings for the selected tank. This is the main screen of the app.
 
-If you have more than one tank, swipe left and right to move between them — the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and the pencil that opens dashboard editing.
+If you have more than one tank, swipe left and right to move between them — the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and a pencil that opens the tank profile. Editing the dashboard is a separate control, **Edit dashboard**, at the foot of the page.
 
 Full detail: **[Reading your dashboard](/help/mobile-dashboard)**.
 

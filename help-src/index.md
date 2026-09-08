@@ -38,7 +38,7 @@ Every reading carries where it came from and how old it is. When two sources dis
 
 - **[The five tabs](/help/mobile-tour)** — a tour of Cora Mobile in two minutes
 - **[The Cora Max home screen](/help/max-tour)** — what everything on the big screen means
-- **[Glossary](/help/glossary)** — tank, source, widget, preset, threshold, and the rest
+- **[Glossary](/help/glossary)** — tank, source, widget, saved design, threshold, and the rest
 
 ## Keeping the tank
 

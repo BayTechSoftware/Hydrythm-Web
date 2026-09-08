@@ -47,6 +47,13 @@ The swoosh begins a live session immediately — there is no confirmation step. 
 
 Use it on a screen within reach of children or visitors.
 
+**To unlock**, either:
+
+- press the **volume key three times within two seconds**, or
+- **hold five fingers in the top-right corner for ten seconds**.
+
+The two-second window is what makes it a lock rather than a suggestion — three presses at any spacing is something a child produces by accident. It is still a child lock, not a security lock: anyone who watches you do it can repeat it.
+
 ## Confirmations
 
 Anything that reaches your equipment is confirmed before it happens. Cora tells you exactly what it is about to do and waits for you to agree.

@@ -16,7 +16,7 @@ Cora works with equipment you already own. This page covers what is supported an
 | Jecod / Jebao | **Devices → Find a pump on your network**, or Bluetooth |
 | AquaWiz | **Devices → Add AquaWiz** |
 | Maxspect | **Devices → Find a pump on your network** |
-| Cora hardware | **Devices → Add Device** |
+| Cora Max | **Devices → Add Device** |
 
 ## Neptune Apex
 
@@ -44,7 +44,7 @@ Cora connects to Jecod pumps, and can read and control them. Jecod units reach C
 
 ![Finding a pump](img/mobile-connections.webp "The scan explains what it needs and why a pump may not appear on the first sweep.")
 
-**Over your network.** Use **Find a pump on your network** — it finds units that advertise themselves, so no address needs entering. These can be read and driven whenever the pump is powered.
+**Over your network.** Use **Find a pump on your network** — it finds units that advertise themselves, so no address needs entering. A network pump can be read and driven whenever it is powered **and reachable**: either your phone is on the same network, or a Cora Max on that network relays for you. Away from home with no Cora Max on site, a network-only pump is visible but not controllable.
 
 :::note A pump often misses the first sweep
 Pumps answer one scan and miss the next. If yours is not listed, scan again rather than assuming it is unreachable.

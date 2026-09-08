@@ -109,24 +109,27 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Reading your dashboard</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-tank-header">The tank header</a></li><li><a href="#the-reef-buddy-card">The Reef Buddy card</a></li><li><a href="#how-to-read-a-widget">How to read a widget</a></li><li><a href="#colours">Colours</a></li><li><a href="#below-the-widgets">Below the widgets</a></li><li><a href="#tapping-through">Tapping through</a></li><li><a href="#when-a-number-is-missing">When a number is missing</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-tank-header">The tank header</a></li><li><a href="#the-reef-buddy-card">The Reef Buddy card</a></li><li><a href="#how-to-read-a-parameter-widget">How to read a parameter widget</a></li><li><a href="#colours">Colours</a></li><li><a href="#below-the-widgets">Below the widgets</a></li><li><a href="#tapping-through">Tapping through</a></li><li><a href="#when-a-number-is-missing">When a number is missing</a></li></ul></nav>
 <p>The dashboard is a grid of <strong>widgets</strong>, each showing one thing about one tank. What is on it is entirely up to you — see <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
 <figure class="shot phone"><img src="img/mobile-dashboard.webp" alt="A Cora Mobile dashboard" width="620" height="1348" loading="lazy" decoding="async"><figcaption>Gauges, numbers, trends and controls on one screen.</figcaption></figure>
 <h2 id="the-tank-header">The tank header</h2>
 <p>At the top of every dashboard:</p>
-<ul><li><strong>The tank name</strong>, with a pencil that opens <a href="/help/mobile-tank-profile">the tank profile</a> — not dashboard editing</li><li><strong>Feed</strong> — pauses flow and skimming for a feeding, then puts everything back</li><li><strong>Reef Buddy</strong> — opens this morning's briefing</li><li><strong>Share</strong> — sends a snapshot of the dashboard</li><li><strong>Edit</strong> — the pencil that opens dashboard editing</li></ul>
+<ul><li><strong>The tank name</strong>, with a small glyph beside it — that one is a <strong>quick rename</strong>, nothing more</li><li><strong>Feed</strong> — pauses flow and skimming for a feeding, then puts everything back</li><li><strong>Reef Buddy</strong> — opens this morning's briefing</li><li><strong>Share</strong> — sends a snapshot of the dashboard</li><li><strong>The pencil on the right</strong> — opens <a href="/help/mobile-tank-profile">the tank profile</a></li></ul>
+<aside class="cal cal-note"><p class="cal-t">Three controls that look alike, and none of them is the same thing</p><p>The glyph by the name renames the tank. The pencil on the right opens the tank <strong>profile</strong>. Editing the dashboard itself is neither — it is <strong>Edit dashboard</strong>, at the <em>foot</em> of the dashboard, below the widgets.</p></aside>
 <p>With more than one tank, swipe sideways to move between them.</p>
 <h2 id="the-reef-buddy-card">The Reef Buddy card</h2>
 <p>Below the header, a card summarises the most recent briefing: a headline, its <strong>Stability</strong> and <strong>Data</strong> scores, and the number of insights. Tap it to open the full briefing, or dismiss it with <strong>×</strong>. A new card appears with the next briefing.</p>
-<h2 id="how-to-read-a-widget">How to read a widget</h2>
-<p>Every widget shows the same three things, in the same places.</p>
+<h2 id="how-to-read-a-parameter-widget">How to read a parameter widget</h2>
+<p>A widget that shows a <strong>measured parameter</strong> carries the same three things in the same places. Device and control tiles — an outlet, a dosing unit, a pump — show their own state instead, because there is no single reading behind them.</p>
 <p><strong>The value</strong> is the reading itself, large and central.</p>
 <p><strong>The age</strong> sits below or beside it — <code>now</code>, <code>1h</code>, <code>2d</code>. This is how long ago the reading was taken, not how long ago the screen refreshed. A number that has not moved in two days says <code>2d</code>, and that is information.</p>
 <p><strong>The source badge</strong> is the small mark next to the age. It tells you where the number came from: a probe, a controller, a lab result, or you with a test kit. Tap any widget to see the source spelled out along with its recent history.</p>
 <aside class="cal cal-note"><p class="cal-t">Why age matters so much</p><p>A perfect alkalinity reading from four days ago is not a current alkalinity reading. Most systems hide this and show you the last number they have as though it were live. Cora puts the age next to every value so you always know what you are looking at.</p></aside>
 <h2 id="colours">Colours</h2>
 <p>Cora uses colour sparingly, and always to mean the same thing:</p>
-<div class="tw"><table><thead><tr><th>Colour</th><th>Meaning</th></tr></thead><tbody><tr><td>Green</td><td>Inside the range you set for this parameter</td></tr><tr><td>Amber</td><td>Drifting — outside your target but not dangerous</td></tr><tr><td>Red</td><td>Outside the range, and worth acting on</td></tr><tr><td>Grey</td><td>No recent reading, or no range set</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>Colour</th><th>Meaning</th></tr></thead><tbody><tr><td>Green</td><td>Comfortably inside the range for this parameter</td></tr><tr><td>Amber</td><td>Close to an edge — <strong>usually still inside the range</strong>, within the last tenth of it</td></tr><tr><td>Red</td><td>Past the edge, and worth acting on</td></tr><tr><td>Grey</td><td>No verdict: no recent reading, or no usable range to judge against</td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">Amber usually means "still fine, but heading somewhere"</p><p>Amber is a <em>margin</em>, not a breach. A reading inside its range but within the last 10% of it is ambered deliberately, so drift is visible while there is still time to act rather than at the moment it becomes a problem.</p>
+<p>Two refinements follow from that. A <strong>one-sided</strong> limit — a contaminant ceiling, or a nutrient floor — is graded on its high edge only, so copper at zero reads green rather than being ambered for sitting near the bottom of the scale. And a range <strong>Cora supplied</strong> rather than one you set is treated as a soft reference; a boundary you drew yourself is treated as a declared one.</p></aside>
 <p>A widget outlined in amber or red is one Cora wants you to look at. The outline is on the widget, not just the number, so you can spot it while scrolling.</p>
 <h2 id="below-the-widgets">Below the widgets</h2>
 <figure class="shot"><img src="img/mobile-dashboard-foot.webp" alt="The foot of the dashboard" width="1000" height="426" loading="lazy" decoding="async"><figcaption>Edit dashboard, Log Parameters, and shortcuts to the four record areas.</figcaption></figure>
@@ -140,7 +143,7 @@
 <ul><li>The device is offline — check the <strong>Devices</strong> tab</li><li>The parameter has no source yet — log it by hand, or connect equipment that reports it</li><li>The parameter has never been reported or logged — nothing has been recorded for it yet</li></ul>
 <p>An old reading does not vanish because the chart window is shorter than its age. It stays on the widget with its age shown, so a stale value reads as stale rather than as missing.</p>
 <p>See <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> if none of those fit.</p>
-      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
+      <p class="stamp">Written for Cora Max 0.28.33 and Cora Mobile 0.5.54.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

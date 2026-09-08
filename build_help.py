@@ -13,7 +13,7 @@ ABORTS — a help page that renders with no tokens looks exactly like the
 black-SVG bug in OPS_Website.md §preview quirks, and would ship silently.
 
 Usage:
-    python3 build_help.py --self-test     # 12 checks, run this first
+    python3 build_help.py --self-test     # runs and reports its own count
     python3 build_help.py                 # write help/*.html + help/help.css
     python3 build_help.py --check         # non-zero if output is out of date
 """
@@ -37,8 +37,8 @@ CSS_VERSION = "20260908f"
 
 # The version stamp every page carries. A guide that does not say which build
 # it describes goes stale invisibly; this makes it visible instead.
-STAMP_MAX = "0.28.32"
-STAMP_MOBILE = "0.5.53"
+STAMP_MAX = "0.28.33"
+STAMP_MOBILE = "0.5.54"
 
 # ⛔ While the guide is unlisted. Flipping to public = set this False, drop the
 # robots.txt Disallow, and add the sitemap entries. One commit.
@@ -815,8 +815,13 @@ def build(check_only: bool = False) -> int:
 
 def self_test() -> int:
     fails = []
+    ran = []
 
     def ok(name, cond):
+        # ⭐ COUNT, don't restate. This total was hardcoded in the summary line
+        # AND claimed differently in this file's docstring AND in
+        # help-src/README.md — three numbers, all stale, found 2026-09-09.
+        ran.append(name)
         if not cond:
             fails.append(name)
 
@@ -858,7 +863,7 @@ def self_test() -> int:
         for f in fails:
             print(f"   · {f}")
         return 1
-    print("✅ self-test: 19/19")
+    print(f"✅ self-test: {len(ran)}/{len(ran)}")
     return 0
 
 

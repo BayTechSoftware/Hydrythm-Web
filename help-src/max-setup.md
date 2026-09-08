@@ -8,7 +8,9 @@ order: 1
 Cora Max is the command centre for the reef room — a wall screen showing your live system, readable across the room, that also takes voice.
 
 :::tip Set your tanks up on your phone first
-Cora Max shows the tanks, devices and dashboards from your account. If you set those up in Cora Mobile first, Cora Max picks everything up the moment you pair it, and you avoid typing on a wall.
+Cora Max shows the tanks and devices from your account, so if you set those up in Cora Mobile first the unit picks them up the moment you pair it and you avoid typing on a wall.
+
+**Dashboard layouts are the exception** — they are not inherited. Each screen keeps its own, so you arrange this one after pairing. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
 :::
 
 ## What you need

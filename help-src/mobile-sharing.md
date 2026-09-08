@@ -32,10 +32,6 @@ Two formats:
 
 **Share** hands the card to your phone's normal share sheet, so it can go anywhere your phone can send an image. Nothing leaves your account until you pick a destination.
 
-## Where it goes
-
-The preview hands the card to your phone's normal share sheet, so it can go anywhere your phone can send an image.
-
 :::note A snapshot is not access
 Sharing a snapshot gives no one access to your account, your history or your equipment. To let someone look after the tank while you are away, use [Going away](/help/mobile-vacation) instead, which produces a read-only page.
 :::

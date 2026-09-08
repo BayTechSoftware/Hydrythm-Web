@@ -27,7 +27,7 @@ Set it back to **Auto** when you are done; nothing does that for you. It can sti
 
 Control widgets show the three states with the current one highlighted. Tap the state you want.
 
-Some outlets are locked — shown with a padlock. That is a safety lock set on the tank, and it exists so a stray tap cannot switch something critical. Unlock it in tank settings if you genuinely need to.
+Some outlets carry a **padlock**. It does not have to be switched off anywhere — it means the outlet asks you to confirm before it changes, so a stray tap cannot switch something critical. See below.
 
 ## The Controls drawer
 
@@ -57,6 +57,6 @@ See **[Talking to Cora](/help/max-voice)**.
 
 ## Seeing what happened
 
-Every switch is recorded, along with what caused it — you, a rule, a schedule, or the Assistant. On your phone that is **Settings → Activity**.
+Every request is recorded, along with what asked for it — this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account — and how it travelled. On your phone that is **Settings → Activity**.
 
 This is the first place to look when something changed and you do not know why.

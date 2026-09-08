@@ -40,11 +40,14 @@ Saving sends the program to the equipment, which then runs it on its own clock. 
 
 If you run several pumps that should behave alike, build one program and copy it.
 
-Open the pump whose program you want, then **Copy schedule**, and choose the pump to copy it to.
+Open the pump whose program you want, then **Copy schedule to…**, and choose the pump to copy it to.
 
-## Grouping pumps
+## Keeping and sharing a schedule
 
-Pumps can be grouped so a change applies to all of them at once, rather than being set one at a time.
+A schedule you are happy with does not have to be rebuilt:
+
+- **Save schedule as…** keeps it under a name, and **Saved schedules…** applies it again later.
+- **Share this schedule** turns it into a short code, and **Paste a schedule code…** applies one someone sent you. This is a Cora Mobile feature — the code carries the schedule, not access to your account.
 
 ## Applying a program
 

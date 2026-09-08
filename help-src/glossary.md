@@ -1,17 +1,17 @@
 ---
 title: Glossary
-description: The words Cora uses — tank, source, widget, preset, threshold, insight and the rest.
+description: The words Cora uses — tank, source, widget, saved design, threshold, insight and the rest.
 section: Help
 order: 2
 ---
 
 ## Age
 
-How long ago a reading was taken — shown on every widget as `now`, `1h`, `2d`. Not how recently the screen refreshed. A number with an old age is an old number, and Cora says so rather than presenting it as current.
+How long ago a reading was taken — shown on every parameter widget as `now`, `1h`, `2d`. Not how recently the screen refreshed. A number with an old age is an old number, and Cora says so rather than presenting it as current.
 
 ## Alert
 
-Cora telling you a reading has left the range you set. Clears by itself when the reading comes back. See [Alerts and thresholds](/help/mobile-alerts).
+Cora telling you something needs attention. Most often a reading outside the range you set, but also a parameter moving too fast, an equipment fault, a consumable running low, or a lab result arriving. Most clear by themselves when the condition passes. See [Alerts and thresholds](/help/mobile-alerts).
 
 ## Automation
 
@@ -61,13 +61,13 @@ A switchable socket on your equipment. In Cora it has three states: **Auto**, **
 
 Something measurable about your water — alkalinity, calcium, nitrate, temperature.
 
-## Preset
+## Saved design
 
-A saved dashboard layout you can re-apply, share between tanks, or use as a starting point.
+A dashboard layout you have kept under **My dashboards**, to re-apply later or load onto another tank or screen.
 
 ## Reef Buddy
 
-Your daily briefing — a headline, a score and the insights behind it. See [Reef Buddy](/help/mobile-reef-buddy).
+Your daily briefing — a headline, two scores (**Stability** out of 100 and **Data**, a percentage) and the insights behind them. See [Reef Buddy](/help/mobile-reef-buddy).
 
 ## Source
 

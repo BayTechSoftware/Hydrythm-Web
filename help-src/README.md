@@ -3,7 +3,7 @@
 ⛔ **`help/*.html` is GENERATED. Never hand-edit it.** Edit the Markdown here and run:
 
 ```
-python3 build_help.py --self-test    # 16 checks, run this first
+python3 build_help.py --self-test    # reports its own count, run this first
 python3 build_help.py                # writes help/*.html + help/help.css
 python3 build_help.py --check        # non-zero if the output is stale
 ```
@@ -60,7 +60,7 @@ The guide is live-but-quiet: `NOINDEX = True` in `build_help.py`, `Disallow: /he
 in `robots.txt`, no sitemap entries, and nothing on the site links to it.
 
 To publish: set `NOINDEX = False`, remove the `robots.txt` line, add every page URL to
-`sitemap.xml` (47 at the time of writing — generate the list, do not hand-count), rebuild, and add a link from the main nav. One commit.
+`sitemap.xml` (generate the list, do not hand-count — a number written here goes stale silently), rebuild, and add a link from the main nav. One commit.
 
 ## Version stamp
 

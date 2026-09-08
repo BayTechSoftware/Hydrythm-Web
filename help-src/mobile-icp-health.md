@@ -43,7 +43,7 @@ Use it when you want a considered read rather than today's headline: before a bi
 
 Cora compares your lab results with what your equipment reports. When your alkalinity probe says 8.4 and your ICP says 7.6, that is a fact worth knowing, and Cora surfaces it rather than quietly preferring one.
 
-This is the single most valuable thing an ICP does inside Cora: it calibrates everything else.
+This is one of the most useful things an ICP does inside Cora. It is a **third opinion, not an arbiter**: laboratories differ from one another, and a sample's handling, storage and transit all move the result. Treat a single ICP as evidence — two tests agreeing is worth far more than one — and read a persistent gap as a reason to check the probe, not as proof the probe is wrong.
 
 ## Your allowance
 
@@ -51,4 +51,4 @@ Both are metered by your plan. The line under the buttons shows what you have us
 
 ## Where reports live
 
-Every report you have run stays in the list under **ICP Reports**, newest first, with its score. Tap one to reopen it in full.
+The Intelligence screen keeps the two kinds separately: lab results under **ICP Reports**, and generated reviews under **Health Reports**. Each list is newest first with its score; tap one to reopen it in full.

@@ -13,7 +13,7 @@ Cora Max shows one tank at a time, filling the screen with live readings you can
 
 Left to right:
 
-- **The grid icon** opens your saved dashboards, so you can switch between layouts
+- **The grid icon** opens the Reef Room, the overview of every tank this screen shows
 - **The tank name**, with a chevron. Tapping it opens the tank menu: Log parameters, Journal, Reef Buddy, Health Reports, Maintenance and ICP Reports
 - **Alert pills** — anything currently out of range, with a **+n** when there are more than fit. Tap to see them all.
 - **The clock**
@@ -34,7 +34,7 @@ The remainder of the screen is the dashboard: a fixed grid of widgets, all visib
 
 Widgets work the same as on your phone, at a size you can read standing back. See **[Widget reference](/help/mobile-widgets)** for what each shape shows, and **[Editing the Cora Max dashboard](/help/max-dashboard-editing)** to change what is on it.
 
-Every widget carries its **age** and its **source**, just like on the phone. A number with `2d` next to it is two days old, and Cora will not pretend otherwise.
+Every widget showing a measured parameter carries its **age** and its **source**, just like on the phone. A number with `2d` next to it is two days old, and Cora will not pretend otherwise. Device and control tiles show their own state instead.
 
 ## The tank menu
 
@@ -63,7 +63,7 @@ The tab at the bottom of the screen pulls up a drawer with every outlet on the s
 - **Feed** — pauses the right equipment for a feeding and puts it all back afterwards
 
 :::warning This drawer controls real equipment
-Everything in it acts immediately on your tank. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.
+Everything in it acts on real equipment. A command is sent the moment you tap, but *sent* is not *done* — it comes back Confirmed, Unconfirmed, Refused or No change, and [Activity](/help/max-activity) is where you see which. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.
 :::
 
 ## When the screen looks wrong

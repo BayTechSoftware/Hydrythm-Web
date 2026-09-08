@@ -61,12 +61,16 @@ Wi-Fi, display, audio, wake word and child lock describe this unit. They are not
 ![The factory reset confirmation](img/max-factory-reset.webp "The dialog states what is cleared and what survives before you commit.")
 
 :::warning A reset clears the screen, not your data
-Factory reset removes the pairing record and every on-device preference, and returns the unit to its pairing screen. **Tank data already saved to your account is kept** — pair the device again to a tank and it reappears. What you lose is this screen's own setup: its Wi-Fi, display, audio and voice settings, and its dashboard layouts.
+Factory reset removes the pairing record and every on-device preference, and returns the unit to its pairing screen. **Tank data already saved to your account is kept** — pair the device again to a tank and it reappears. What you lose is this screen's own setup: its Wi-Fi, display, audio and voice settings.
+:::
+
+:::note Your layouts may survive after all
+Before a reset, Cora Max archives its configuration. If you then pair the unit back to the **same tank**, it offers **Restore previous layout for this tank?** — take it, or choose **Start fresh** if wiping the screen was the point.
 :::
 
 ## Which tanks this screen shows
 
-A Cora Max can show one tank or several. Change the set under **Devices**, then switch between them from the top bar.
+A Cora Max can show one tank or several, and you switch between them from the top bar. **The set itself is chosen from your phone**, under **Devices → your Cora Max → assigned tanks** — not from this screen.
 
 ## Updates
 

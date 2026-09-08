@@ -44,7 +44,21 @@ You can set an alert threshold for remaining tests from this page, so Cora warns
 
 ## DŌS
 
-Each dosing head shows what it is dosing, its schedule, and how much is left in the container.
+Each dosing head shows what it is dosing, its schedule, what it has dosed today, how much is left in the container and its **runway** — how many days that will last at the current rate.
+
+Per head you can:
+
+- **Pause** and **Resume** its schedule
+- **Fill** — tell Cora the container is full again, or set the volume in it
+- **Dose now** — a measured manual dose
+
+:::note Schedules are edited in Apex Fusion, not here
+Cora shows the schedule and tracks what has been dosed, but does not change it. Editing the schedule, the dose rate or the number of doses is done in the Apex Fusion app. Pausing, filling and dosing by hand are all supported here.
+:::
+
+:::note Measure the head before dosing by hand
+On Cora Max, **Measure to dose** runs a head for twenty seconds so you can weigh or measure what actually came out. Cora turns that into the head's real rate and uses it for every manual dose afterwards — worth doing once per head, and again after changing tubing.
+:::
 
 :::warning A DŌS keeps dosing when its container is empty
 The unit has no level sensor and does not stop on its own. Set a refill alert from the head's page so Cora warns you before the container runs dry.
@@ -52,9 +66,16 @@ The unit has no level sensor and does not stop on its own. Set a refill alert fr
 
 ## Red Sea ReefBeat
 
-Each unit has a page appropriate to what it is: a dosing unit shows its heads and containers, an ATO shows its reservoir, a mat roller shows remaining days, a wave pump shows its current mode.
+Each unit has a page appropriate to what it is:
 
-Controls available depend on the unit.
+| Unit | Page shows | You can |
+|---|---|---|
+| **ReefDose** | Each head, its container and what it has dosed | Set refill alerts per head |
+| **ReefATO+** | Reservoir level and top-off activity | Set a reservoir alert |
+| **ReefMat** | Remaining roll, in days and metres | Advance the roll, set a refill alert |
+| **ReefRun** | Return and skimmer pump speed and state | Change speed, switch a pump, adjust skimmer settings |
+
+**ReefRun is a return and skimmer pump controller**, not a wave pump — it stops itself when the skimmer cup fills, and the page tells you when it has.
 
 ## Jecod pumps
 
@@ -62,9 +83,9 @@ The pump page shows its current mode and intensity, and lets you change both.
 
 You can also:
 
-- **Group pumps**, so a change applies to several at once
-- **Copy a schedule** from one pump to another
-- **Apply a program** to a pump
+- **Copy schedule to…** — put this pump's schedule on another one
+- **Save schedule as…** and **Saved schedules…** — keep a schedule and re-apply it later
+- **Share this schedule** and **Paste a schedule code…** — move a schedule between systems as a short code
 
 ## Maxspect
 

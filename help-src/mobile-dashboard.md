@@ -13,11 +13,15 @@ The dashboard is a grid of **widgets**, each showing one thing about one tank. W
 
 At the top of every dashboard:
 
-- **The tank name**, with a pencil that opens [the tank profile](/help/mobile-tank-profile) — not dashboard editing
+- **The tank name**, with a small glyph beside it — that one is a **quick rename**, nothing more
 - **Feed** — pauses flow and skimming for a feeding, then puts everything back
 - **Reef Buddy** — opens this morning's briefing
 - **Share** — sends a snapshot of the dashboard
-- **Edit** — the pencil that opens dashboard editing
+- **The pencil on the right** — opens [the tank profile](/help/mobile-tank-profile)
+
+:::note Three controls that look alike, and none of them is the same thing
+The glyph by the name renames the tank. The pencil on the right opens the tank **profile**. Editing the dashboard itself is neither — it is **Edit dashboard**, at the *foot* of the dashboard, below the widgets.
+:::
 
 With more than one tank, swipe sideways to move between them.
 
@@ -25,9 +29,9 @@ With more than one tank, swipe sideways to move between them.
 
 Below the header, a card summarises the most recent briefing: a headline, its **Stability** and **Data** scores, and the number of insights. Tap it to open the full briefing, or dismiss it with **×**. A new card appears with the next briefing.
 
-## How to read a widget
+## How to read a parameter widget
 
-Every widget shows the same three things, in the same places.
+A widget that shows a **measured parameter** carries the same three things in the same places. Device and control tiles — an outlet, a dosing unit, a pump — show their own state instead, because there is no single reading behind them.
 
 **The value** is the reading itself, large and central.
 
@@ -45,10 +49,16 @@ Cora uses colour sparingly, and always to mean the same thing:
 
 | Colour | Meaning |
 |---|---|
-| Green | Inside the range you set for this parameter |
-| Amber | Drifting — outside your target but not dangerous |
-| Red | Outside the range, and worth acting on |
-| Grey | No recent reading, or no range set |
+| Green | Comfortably inside the range for this parameter |
+| Amber | Close to an edge — **usually still inside the range**, within the last tenth of it |
+| Red | Past the edge, and worth acting on |
+| Grey | No verdict: no recent reading, or no usable range to judge against |
+
+:::note Amber usually means "still fine, but heading somewhere"
+Amber is a *margin*, not a breach. A reading inside its range but within the last 10% of it is ambered deliberately, so drift is visible while there is still time to act rather than at the moment it becomes a problem.
+
+Two refinements follow from that. A **one-sided** limit — a contaminant ceiling, or a nutrient floor — is graded on its high edge only, so copper at zero reads green rather than being ambered for sitting near the bottom of the scale. And a range **Cora supplied** rather than one you set is treated as a soft reference; a boundary you drew yourself is treated as a declared one.
+:::
 
 A widget outlined in amber or red is one Cora wants you to look at. The outline is on the widget, not just the number, so you can spot it while scrolling.
 

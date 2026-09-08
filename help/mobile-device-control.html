@@ -125,21 +125,26 @@
 <p>Shows the current test state, the remaining reagent and waste-water levels, and lets you start a test.</p>
 <p>You can set an alert threshold for remaining tests from this page, so Cora warns you before reagent runs out. See <a href="/help/mobile-consumables">Consumables</a>.</p>
 <h2 id="ds">DŌS</h2>
-<p>Each dosing head shows what it is dosing, its schedule, and how much is left in the container.</p>
+<p>Each dosing head shows what it is dosing, its schedule, what it has dosed today, how much is left in the container and its <strong>runway</strong> — how many days that will last at the current rate.</p>
+<p>Per head you can:</p>
+<ul><li><strong>Pause</strong> and <strong>Resume</strong> its schedule</li><li><strong>Fill</strong> — tell Cora the container is full again, or set the volume in it</li><li><strong>Dose now</strong> — a measured manual dose</li></ul>
+<aside class="cal cal-note"><p class="cal-t">Schedules are edited in Apex Fusion, not here</p><p>Cora shows the schedule and tracks what has been dosed, but does not change it. Editing the schedule, the dose rate or the number of doses is done in the Apex Fusion app. Pausing, filling and dosing by hand are all supported here.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Measure the head before dosing by hand</p><p>On Cora Max, <strong>Measure to dose</strong> runs a head for twenty seconds so you can weigh or measure what actually came out. Cora turns that into the head's real rate and uses it for every manual dose afterwards — worth doing once per head, and again after changing tubing.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">A DŌS keeps dosing when its container is empty</p><p>The unit has no level sensor and does not stop on its own. Set a refill alert from the head's page so Cora warns you before the container runs dry.</p></aside>
 <h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
-<p>Each unit has a page appropriate to what it is: a dosing unit shows its heads and containers, an ATO shows its reservoir, a mat roller shows remaining days, a wave pump shows its current mode.</p>
-<p>Controls available depend on the unit.</p>
+<p>Each unit has a page appropriate to what it is:</p>
+<div class="tw"><table><thead><tr><th>Unit</th><th>Page shows</th><th>You can</th></tr></thead><tbody><tr><td><strong>ReefDose</strong></td><td>Each head, its container and what it has dosed</td><td>Set refill alerts per head</td></tr><tr><td><strong>ReefATO+</strong></td><td>Reservoir level and top-off activity</td><td>Set a reservoir alert</td></tr><tr><td><strong>ReefMat</strong></td><td>Remaining roll, in days and metres</td><td>Advance the roll, set a refill alert</td></tr><tr><td><strong>ReefRun</strong></td><td>Return and skimmer pump speed and state</td><td>Change speed, switch a pump, adjust skimmer settings</td></tr></tbody></table></div>
+<p><strong>ReefRun is a return and skimmer pump controller</strong>, not a wave pump — it stops itself when the skimmer cup fills, and the page tells you when it has.</p>
 <h2 id="jecod-pumps">Jecod pumps</h2>
 <p>The pump page shows its current mode and intensity, and lets you change both.</p>
 <p>You can also:</p>
-<ul><li><strong>Group pumps</strong>, so a change applies to several at once</li><li><strong>Copy a schedule</strong> from one pump to another</li><li><strong>Apply a program</strong> to a pump</li></ul>
+<ul><li><strong>Copy schedule to…</strong> — put this pump's schedule on another one</li><li><strong>Save schedule as…</strong> and <strong>Saved schedules…</strong> — keep a schedule and re-apply it later</li><li><strong>Share this schedule</strong> and <strong>Paste a schedule code…</strong> — move a schedule between systems as a short code</li></ul>
 <h2 id="maxspect">Maxspect</h2>
 <p>The gyre page shows the current mode and intensity for each head, and when the unit last reported.</p>
 <aside class="cal cal-note"><p class="cal-t">A gyre must be read before it can be changed</p><p>The page shows when it last reported. If the reading is stale, refresh it before changing settings so the change is applied to the unit's actual current state.</p></aside>
 <h2 id="what-happens-after-you-change-something">What happens after you change something</h2>
 <p>Every change is recorded in <a href="/help/mobile-activity">Activity</a> with the surface that requested it. If a device does not accept a change, the failure is recorded there too.</p>
-      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
+      <p class="stamp">Written for Cora Max 0.28.33 and Cora Mobile 0.5.54.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

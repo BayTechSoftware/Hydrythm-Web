@@ -92,9 +92,9 @@ Which devices offer a tile depends on what you have connected. See **[Connecting
 
 **Settings:** label, which device, size.
 
-## What every widget shows
+## What a parameter widget shows
 
-Whatever the shape, three things are always present:
+On a widget backed by a measured parameter — Value, Gauge, Graph and Status — three things are always present. Outlet and device tiles show their own state instead, because no single reading sits behind them:
 
 - **The value**, large
 - **The age** — `now`, `1h`, `2d` — how old the reading is, not how recently the screen refreshed

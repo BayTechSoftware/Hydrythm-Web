@@ -10,7 +10,7 @@ Cora Max reaches the same equipment as your phone, with a page for each device. 
 ![An Apex page on Cora Max](img/max-device-control.webp "Feed cycles and every outlet, laid out for a wall screen.")
 
 :::warning These controls act on live equipment
-Changes take effect immediately. There is no preview and no undo.
+There is no preview and no undo. A command goes out the moment you tap — but *sent* is not *done*: it comes back **Confirmed**, **Unconfirmed**, **Refused** or **No change**, and [Activity](/help/max-activity) is where you see which it was.
 :::
 
 ## What has a page
@@ -19,7 +19,7 @@ Changes take effect immediately. There is no preview and no undo.
 |---|---|
 | **Neptune Apex** | Probes and outlets, with each outlet switchable |
 | **Trident** | Test state, reagent and waste levels, and the ability to start a test |
-| **DŌS** | Each head's dosing, schedule and remaining container volume |
+| **DŌS** | Each head's dosing, schedule, runway and container volume — with pause, fill, dose now and a one-time twenty-second measure |
 | **Red Sea ReefBeat** | Whatever the unit is — dosing heads, reservoir, roller days, pump mode |
 | **Jecod** | Pump mode and intensity, and its day program |
 | **Maxspect** | Mode and intensity per motor, and its schedule |

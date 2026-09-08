@@ -27,7 +27,7 @@ Two actions on each:
 
 ## Setting a range
 
-Every parameter has a target range. Defaults come from your tank type and age when you set the tank up, which is usually a reasonable place to start.
+Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up — usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.
 
 To change one: **long-press its widget** on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead — the two gestures go to different places, and the long-press is the shortcut worth remembering.
 
@@ -62,8 +62,9 @@ You can also set a **rate-of-change** rule, which watches how fast a parameter m
 
 **Settings → Notifications.** You can control:
 
-- Which parameters can push, and at what severity
-- Whether the daily Reef Buddy briefing pushes
+- Which of the notification categories may push
+
+Reef Buddy has no switch of its own: it sends a briefing when there is something worth acting on and stays quiet when there is not.
 
 :::note Cora tries hard not to be noisy
 The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.

@@ -28,7 +28,7 @@ The journal icon in the top bar shows a marker when there is something new. See 
 
 ## Livestock
 
-The full inventory, grouped by type, with the same statuses as the phone. Adding an item at the tank while you are placing it is quicker than reconstructing it later. See [Livestock](/help/mobile-livestock).
+The full inventory, grouped by type, with the same statuses as the phone — **read-only here**. Adding and editing livestock is done in Cora Mobile; the entry you make there appears on this screen straight away. See [Livestock](/help/mobile-livestock).
 
 ## Maintenance
 

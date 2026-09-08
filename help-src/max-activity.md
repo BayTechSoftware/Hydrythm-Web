@@ -5,7 +5,7 @@ section: Cora Max
 order: 10
 ---
 
-Cora Max shows the same activity log as the phone: every request that reached your equipment, and what became of it.
+Cora Max shows the same activity log as the phone: every **actuation request** — every attempt to change something — and what became of it. A refused or unconfirmed request may never have reached the equipment at all, which is exactly why it is recorded.
 
 Open it from **Settings → Tank settings → [your tank] → Activity**.
 

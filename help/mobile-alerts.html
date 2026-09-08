@@ -120,7 +120,7 @@
 <p>Two actions on each:</p>
 <ul><li><strong>View rule</strong> — opens the rule that raised it, so you can adjust the range</li><li><strong>Explain this alert</strong> — asks the Assistant to interpret it against your tank's history</li></ul>
 <h2 id="setting-a-range">Setting a range</h2>
-<p>Every parameter has a target range. Defaults come from your tank type and age when you set the tank up, which is usually a reasonable place to start.</p>
+<p>Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up — usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.</p>
 <p>To change one: <strong>long-press its widget</strong> on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead — the two gestures go to different places, and the long-press is the shortcut worth remembering.</p>
 <p>To see them all together, use <strong>Alerts</strong> in the row of buttons under the dashboard.</p>
 <p>You can set:</p>
@@ -134,7 +134,8 @@
 <ul><li><strong>The bell</strong>, top right of every screen, holds your history. The number is how many you have not read.</li><li><strong>Push notifications</strong> reach your phone when you allow them.</li><li><strong>The widget</strong> turns amber or red on the dashboard.</li><li><strong>Cora Max</strong> shows the same alerts on the big screen.</li></ul>
 <h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
 <p><strong>Settings → Notifications.</strong> You can control:</p>
-<ul><li>Which parameters can push, and at what severity</li><li>Whether the daily Reef Buddy briefing pushes</li></ul>
+<ul><li>Which of the notification categories may push</li></ul>
+<p>Reef Buddy has no switch of its own: it sends a briefing when there is something worth acting on and stays quiet when there is not.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora tries hard not to be noisy</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
 <p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
@@ -143,7 +144,7 @@
 <h2 id="disabling-alerts-for-a-parameter">Disabling alerts for a parameter</h2>
 <p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn its <strong>enable switch</strong> off. The rule and its range are kept, so you can switch it back on without rebuilding it.</p>
 <aside class="cal cal-warning"><p class="cal-t">Deleting a range is not the way to silence a parameter</p><p>Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
-      <p class="stamp">Written for Cora Max 0.28.32 and Cora Mobile 0.5.53.</p>
+      <p class="stamp">Written for Cora Max 0.28.33 and Cora Mobile 0.5.54.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

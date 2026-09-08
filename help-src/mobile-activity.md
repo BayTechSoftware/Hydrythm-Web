@@ -5,7 +5,9 @@ section: Cora Mobile
 order: 21
 ---
 
-Activity records every action that reached your equipment, together with what caused it.
+Activity records every **actuation request** — every attempt to change something — together with what asked for it and what became of it.
+
+A request is not the same as a change. Refused requests never ran, no-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded, which is the point.
 
 **Settings → Activity.**
 
@@ -23,13 +25,27 @@ This is the column that matters. Each entry names its cause:
 
 | Cause | Means |
 |---|---|
-| **You** | Someone tapped it, on the phone or on Cora Max |
-| **A rule** | An automation fired |
-| **A schedule** | A timed action |
-| **The Assistant** | You asked Cora to do it |
-| **The equipment** | The device did it on its own programming |
+| **This app** | You tapped it here |
+| **Voice in this app** | You asked, on this phone |
+| **Tapped on a Cora** | Someone used a Cora screen — the row says which |
+| **Voice on a Cora Max** | Someone spoke to a screen |
+| **Cora Assistant** | You asked Cora to do it |
+| **Automation rule** | A rule fired |
+| **Smart button** | A physical button was pressed |
+| **Sent from Cora Cloud** | Issued by your account rather than by a device in front of you |
+| **Unknown source** | Recorded before the source could be identified |
 
-When equipment changes state unexpectedly, this identifies whether an automation, a schedule, the Assistant or the equipment itself was responsible.
+## How it travelled
+
+Each row also carries a route chip, because *how* a request reached your equipment explains a lot of what went wrong when something did:
+
+| Chip | Means |
+|---|---|
+| **LAN** | Sent across your own network, directly to the equipment |
+| **VIA CLOUD** | Sent through your account, for equipment not reachable directly |
+| **ROUTE ?** | Recorded before routes were tracked — genuinely unknown, not assumed |
+
+On a system with more than one Cora, the row also names which one carried the request out.
 
 ## The tank timeline
 

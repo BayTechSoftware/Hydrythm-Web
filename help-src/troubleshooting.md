@@ -60,6 +60,8 @@ An alert clears when the reading returns to range. If it will not clear:
 
 This is Cora working, not Cora failing. When your probe and your test kit disagree, that is a real fact about your system.
 
+An ICP result is a useful third opinion here, but it does not settle the argument: laboratories differ from one another, and a sample's handling and transit move the result. Two tests agreeing is worth far more than one.
+
 Usually the probe needs calibrating. Sometimes the test kit is old. An ICP result is the tiebreaker — see [ICP and health reports](/help/mobile-icp-health).
 
 ## I'm not getting notifications

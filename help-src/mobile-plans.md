@@ -35,7 +35,21 @@ When it ends the account falls back to Free. **Nothing is deleted**: every readi
 
 ## Paid tiers
 
-Three tiers, monthly or annual, each raising the allowances above. Current prices are shown in the app and at the store, since that is where they are charged.
+Three tiers — **Plus**, **Pro** and **Max** — each monthly or annual. Current prices are shown in the app and at the store, since that is where they are charged.
+
+| | Plus | Pro | Max |
+|---|---|---|---|
+| Assistant messages / month | 500 | 2,000 | Fair use |
+| Voice sessions / month | 100 | 200 | Fair use |
+| Health Reports / month | 4 | 12 | 30 |
+| ICP analyses / month | 1 | 3 | Unlimited |
+| Tanks with AI features | 1 | 5 | 20 |
+
+Voice and messages draw on the same allowance. Every paid tier includes Reef Buddy, ICP upload and analysis for the labs Cora reads, and comparison against your own history.
+
+:::note Unlimited ICP is not a trick
+An ICP analysis is cheap for us to run and expensive for you to obtain — the lab test itself is the limit, so there is no reason to meter it on the top tier.
+:::
 
 **Settings → your account** opens **Account & Subscription**.
 

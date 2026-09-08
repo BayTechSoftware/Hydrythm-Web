@@ -16,7 +16,7 @@ The card at the top shows who you are signed in as and which plan you are on. Ta
 - **Display name** — what you are called in the app
 - **Plan and subscription** — what you have, what it includes, and how to change it
 - **Sign out**
-- **Delete account** — permanent, and it takes your data with it
+- **Delete account** — permanent. Read the two notes below before using it.
 
 ## Tanks
 
@@ -48,9 +48,26 @@ Full detail: **[Notifications](/help/mobile-notifications)**.
 
 What reaches your phone, and when.
 
-- Which alerts push, and at what severity
-- Whether the daily Reef Buddy briefing pushes
+- Which of the five categories may push
 - Reminders
+
+Reef Buddy has no switch of its own — it sends a briefing only when there is something worth acting on, and stays quiet otherwise.
+
+## Your data, and the three switches that govern it
+
+These are not in one place, so they are easy to miss:
+
+- **Export My Data** — on the **account card**, beside Delete account. Everything Cora holds for you, as files you keep, free on every plan. See **[Exporting your data](/help/mobile-data-export)**.
+- **Contribute anonymized tank data** — under **Assistant & AI**. Whether a de-identified copy of your parameter history is kept for reef research. **It is on unless you turn it off**, and it is the one thing that outlives an account deletion.
+- **Send crash reports** — beside **Report a Bug / Send Feedback**. The same promise as that row, made without you having to notice something broke and write it up.
+
+:::warning Deleting your account does NOT cancel your subscription
+An App Store or Google Play subscription belongs to the **store**, not to Cora. Deleting your account removes your record here and **nothing stops the billing** — the charges continue until you cancel with Apple or Google directly. Cancel the subscription first, then delete the account.
+:::
+
+:::note What a deletion does not reach
+If **Contribute anonymized tank data** is on — and it is on unless you turned it off — a de-identified copy of your tanks' profiles and parameter history is kept for research as part of the same deletion. It carries no link back to you. Turn that switch off *before* deleting if you want it gone too.
+:::
 
 ## Automation
 
@@ -66,7 +83,7 @@ A rule that switches a pump will switch it whether or not you are watching. Buil
 
 Full detail: **[Activity and timeline](/help/mobile-activity)**.
 
-A log of everything that has happened to your equipment — every outlet switch, feed, dose and plug change, and what caused it: you, a rule, a schedule, or the Assistant.
+A log of every actuation request — outlet switches, feeds, doses and plug changes — with what asked for it, how it travelled, and what became of it.
 
 Use it to establish the cause of an unexpected change.
 
