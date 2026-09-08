@@ -2,7 +2,7 @@
 title: Devices and device health
 description: What Cora Max can see, how it is polling, and the diagnostics screen.
 section: Cora Max
-order: 6
+order: 7
 ---
 
 **Settings → Devices** lists the equipment Cora Max can see and reports how it is doing.

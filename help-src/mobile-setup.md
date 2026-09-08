@@ -11,6 +11,12 @@ Setup takes around ten minutes. At the end you will have an account, a configure
 
 Search for **Cora** on the App Store or Google Play and install it. On your home screen the icon is labelled **Cora** — that is Cora Mobile.
 
+## Looking around first
+
+Before creating an account you can open the **Demo Reef** — a sample tank with realistic data, laid out exactly like a real one. Nothing in it is connected to anything, and nothing is saved.
+
+Use it to see how dashboards, widgets and readings work before committing.
+
 ## Create your account
 
 Open the app and choose **Create account**. You can sign up with an email address, or with Apple or Google if you would rather not manage another password.

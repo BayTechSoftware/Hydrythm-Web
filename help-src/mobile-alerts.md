@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you get told about, and understand why an alert fired.
 section: Cora Mobile
-order: 13
+order: 14
 ---
 
 An alert is raised when a reading leaves the range you set for it. You set the ranges, and you control which alerts reach your phone.

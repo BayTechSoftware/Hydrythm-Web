@@ -47,3 +47,7 @@ If you want a widget to follow one particular source, set that in the widget's s
 ## Logging a reading by hand
 
 Enter what your test kit says. Hand-logged readings are first-class: they get their own source and timestamp, they appear on the chart, they feed Reef Buddy, and they are what Cora compares your equipment against.
+
+:::note Cora checks entries that look implausible
+If a value is far from what the tank has been running, you are asked to confirm it before it is saved. This catches a decimal point in the wrong place or a reading entered against the wrong parameter. Confirm it and the reading is stored normally.
+:::

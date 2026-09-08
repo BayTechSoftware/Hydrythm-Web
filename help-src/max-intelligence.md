@@ -2,7 +2,7 @@
 title: Reef Buddy and reports
 description: The daily briefing, ICP results, health reports and history charts on Cora Max.
 section: Cora Max
-order: 8
+order: 9
 ---
 
 Cora Max shows the same intelligence as the phone, on a screen large enough to read from a distance. Reach these from the **tank menu** — tap the tank name in the top bar.

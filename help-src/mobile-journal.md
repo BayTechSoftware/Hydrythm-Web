@@ -2,7 +2,7 @@
 title: The journal
 description: Record what you did to your tank, so that later you can tell what caused what.
 section: Cora Mobile
-order: 19
+order: 20
 ---
 
 The journal records what you did to the tank: water changes, livestock additions, dosing changes, equipment work and maintenance.

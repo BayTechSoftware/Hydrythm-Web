@@ -2,7 +2,7 @@
 title: Your data
 description: Export everything as spreadsheets, and how to delete your account.
 section: Cora Mobile
-order: 28
+order: 29
 ---
 
 Everything Cora records about your tank is yours, and you can take it out at any time.

@@ -2,7 +2,7 @@
 title: Talking to Cora
 description: Using voice on Cora Max — starting a conversation, what you can ask, and how confirmations work.
 section: Cora Max
-order: 10
+order: 11
 ---
 
 Cora Max takes voice, which is the easiest way to use it when your hands are wet or you are across the room.
@@ -60,3 +60,13 @@ Say *"stop"*, or tap to end the session. Cora stops listening when the session e
 ## If it mishears
 
 Reef vocabulary is hard, and equipment names are harder. If Cora repeatedly mishears a device, rename it in **Devices** to something more distinct — short, ordinary words work best.
+
+## If it does not wake
+
+**Settings → Wake-word diagnostics** shows the detector working in real time: a live meter with the trigger threshold marked, so you can see whether your voice is reaching it and how close it comes to triggering.
+
+Use it to check placement and background noise. A unit that never approaches the threshold is usually too far away, or competing with a noisy sump.
+
+:::note Only one device answers
+If several Cora devices can hear you, only the designated responder replies. Change which one under [More than one Cora device](/help/mobile-multi-device).
+:::

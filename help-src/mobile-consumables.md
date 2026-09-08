@@ -2,7 +2,7 @@
 title: Consumables
 description: Set refill alerts for reagent, dosing containers, reservoirs and media.
 section: Cora Mobile
-order: 12
+order: 13
 ---
 
 Equipment that consumes something — reagent, dosing liquid, top-off water, filter media — can tell Cora how much is left. Cora can warn you before it runs out.

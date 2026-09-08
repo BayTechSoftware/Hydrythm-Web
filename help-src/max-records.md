@@ -2,7 +2,7 @@
 title: Journal, livestock and maintenance
 description: The record-keeping screens on Cora Max, and when to use them instead of your phone.
 section: Cora Max
-order: 7
+order: 8
 ---
 
 Cora Max carries the same record-keeping as the phone, reading and writing the same data. Entries made here appear on your phone, and the other way round.

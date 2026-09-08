@@ -56,6 +56,7 @@ Beyond readings and dashboards, Cora keeps the rest of the job in one place:
 - **[Controlling your equipment](/help/mobile-device-control)** — outlets, pumps, dosing heads and testers
 - **[Probes](/help/mobile-probes)** — mapping a controller's probes, and recording calibration
 - **[Consumables](/help/mobile-consumables)** — refill alerts for reagent, containers and reservoirs
+- **[Scheduling equipment](/help/mobile-schedules)** — day programs for pumps and gyres, and copying them
 - **[More than one Cora device](/help/mobile-multi-device)** — which one answers voice, which one polls
 
 ## On the big screen
@@ -63,4 +64,5 @@ Beyond readings and dashboards, Cora keeps the rest of the job in one place:
 - **[The Reef Room](/help/max-reef-room)** — every tank at once
 - **[Devices and device health](/help/max-devices)** — what Cora Max sees, and its own diagnostics
 - **[Reef Buddy and reports](/help/max-intelligence)** — the briefing and your lab work at the wall
+- **[Controlling equipment from Cora Max](/help/max-device-control)** — device pages at the wall
 - **[Updates and recovery](/help/max-updates)** — how the screen keeps itself current

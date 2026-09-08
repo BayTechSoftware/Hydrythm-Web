@@ -2,7 +2,7 @@
 title: Updates and recovery
 description: How Cora Max updates itself, and what happens if an update goes wrong.
 section: Cora Max
-order: 12
+order: 13
 ---
 
 ## Automatic updates
