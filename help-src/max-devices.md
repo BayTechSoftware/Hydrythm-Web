@@ -31,7 +31,16 @@ Open the unit from your phone's **Devices** tab to see its variant, firmware ver
 | **Alerts** | On-screen alert banners. Turning them off does not affect alert history or push notifications |
 | **Dim after** | How long before the screen dims |
 
-The tanks this unit shows are listed below those settings.
+Below those settings, **Assigned Tanks** lists each tank this unit manages, with per-tank controls:
+
+| Control | Does |
+|---|---|
+| **Edit Dashboard** | Opens that tank's Cora Max layout |
+| **Tank Settings** | Journal, health, polling and thresholds |
+| **Polling** | Names the device currently polling that tank |
+| **Make Primary Poller** | Hands that tank's polling to this unit |
+
+The minus button beside a tank removes it from this screen.
 
 ## Device health
 

@@ -34,7 +34,9 @@ Data lives in your account, not on the screen. A unit that restarts comes back w
 
 Recovery is a maintenance mode for when a unit will not start normally, or when you need to repair its setup without a laptop.
 
-**To enter it:** hold **five fingers** on the top-right of the screen for about **ten seconds**. It is **PIN-protected**, so it cannot be reached by a guest or by accident.
+**To enter it:** hold **five fingers** on the top-right of the screen for about **ten seconds**, then enter the unit's **Recovery PIN**.
+
+That six-digit PIN was shown when the unit was paired, and it is also in that device's settings in Cora Mobile. It is not shown on the Cora Max itself — which is the point: recovery cannot be reached by a guest, or by a child leaning on the screen.
 
 From recovery you can:
 

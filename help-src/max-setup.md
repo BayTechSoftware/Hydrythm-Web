@@ -25,14 +25,23 @@ Power the unit on. It shows a pairing screen and **advertises itself** — it do
 
 The screen shows the name it is discoverable as, ending in a short identifier. If you are pairing more than one unit, that identifier is how you tell them apart in the list on your phone.
 
-Everything else happens in Cora Mobile:
+Everything else happens in Cora Mobile, as five named steps you can see across the top of the sheet: **Connect · WiFi · Auth · Tanks · Done.**
 
-1. **Devices → Add Device** on your phone. It finds the Cora Max over your network or over Bluetooth.
-2. Your phone sends it your **Wi-Fi credentials**, so you are typing the password on a phone keyboard rather than a wall screen.
-3. Your phone **authorises it against your account**.
-4. Your phone **assigns which tanks** it should show.
+**1 · Connect.** **Devices → Add Device** on your phone finds the unit and shows what it found — its MAC address, firmware version, variant and hardware revision — so you can confirm it is the right one before continuing.
 
-When that finishes, the screen comes up on its dashboard.
+**2 · WiFi.** Pick your network from the list, or **Rescan**, then enter the password. You are typing it on a phone keyboard rather than a wall screen.
+
+**3 · Auth.** Your phone authorises the unit against your account. The Cora Max shows its own progress while this happens.
+
+![The kiosk during pairing](img/max-pairing-verifying.webp "The screen tracks the account check while your phone drives it.")
+
+**4 · Tanks.** Choose which tanks this screen manages — **up to four**. Each is listed with its name and type.
+
+**5 · Done.** The screen confirms it is provisioned and gives you a **Recovery PIN**.
+
+:::warning Write the Recovery PIN down
+The final step shows a six-digit **Recovery PIN**, and it is the only way into recovery on that unit. To use it: hold five fingers in the screen's top-right corner for ten seconds, then enter the PIN. You can find it again later in that device's settings on your phone — but not on the Cora Max itself.
+:::
 
 :::note Pairing is what ties the screen to you
 Once paired, Cora Max sees the same tanks, devices, readings and records as your phone. **Dashboard layouts are not inherited** — Cora Max builds its own from your tank profile, and you arrange it separately.
