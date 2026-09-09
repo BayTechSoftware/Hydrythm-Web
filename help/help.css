@@ -265,9 +265,17 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
     box-shadow: -18px 0 40px rgba(0,0,0,.18);
     padding: 56px 20px 40px; z-index: 60;
     transform: translateX(100%); visibility: hidden;
-    transition: transform .22s ease, visibility .22s;
+    /* ⚠️ visibility is stepped, NOT eased. Transitioning it over a duration
+       makes "is it visible yet" depend on where the transition has got to,
+       which is fragile and untestable. Flip it instantly on open; delay it
+       to the END of the slide on close so the drawer does not vanish
+       mid-animation. Only `transform` is actually animated. */
+    transition: transform .22s ease, visibility 0s linear .22s;
   }
-  .hside.open { transform: none; visibility: visible; }
+  .hside.open {
+    transform: none; visibility: visible;
+    transition: transform .22s ease, visibility 0s linear 0s;
+  }
 
   .hscrim {
     position: fixed; inset: 0; z-index: 55;
