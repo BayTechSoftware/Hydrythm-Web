@@ -23,8 +23,8 @@ SRC = ROOT / "help-src"
 # surface stem -> help page slug
 MAP = {
     # ── entry, profile, shell ──
-    "splash": "mobile-setup", "login": "mobile-setup", "register": "mobile-setup",
-    "verify_email": "mobile-setup", "onboarding": "mobile-setup",
+    "splash": "mobile-setup", "login": "mobile-account", "register": "mobile-setup",
+    "verify_email": "mobile-account", "onboarding": "mobile-setup",
     "demo_reef": "mobile-setup", "trial_intro": "mobile-plans",
     "tank_setup_wizard": "mobile-tank-profile", "tank_profile": "mobile-tank-profile",
     "guided_profile": "mobile-tank-profile", "main_shell": "mobile-tour",
@@ -53,7 +53,6 @@ MAP = {
     "gizwits_undrivable_device": "mobile-device-control",
     "maxspect_schedule": "mobile-schedules", "gizwits_schedule": "mobile-schedules",
     "gizwits_apply_program": "mobile-schedules", "gizwits_copy_schedule": "mobile-schedules",
-    "gizwits_group": "mobile-schedules",
     "probe_mapping": "mobile-probes", "record_probe_care": "mobile-probes",
     "consumable_alert": "mobile-consumables",
     "polling_primary": "mobile-multi-device", "voice_responder": "mobile-multi-device",
@@ -86,7 +85,7 @@ MAP = {
     # ── settings, plans, data ──
     "settings": "mobile-settings", "settings_hub": "max-settings",
     "tank_settings": "max-settings", "wifi_manager": "max-settings",
-    "dosing_products": "mobile-dosing", "feedback_report": "mobile-settings",
+    "dosing_products": "mobile-dosing", "feedback_report": "mobile-support",
     "paywall": "mobile-plans", "redeem_code": "mobile-plans",
     "ota": "max-updates", "recovery": "max-updates",
 }
@@ -157,9 +156,26 @@ def main() -> int:
     stale = {s for s in EXCLUDED if s not in found}
     if stale:
         print(f"\n⚠️ exclusions for surfaces that no longer exist: {sorted(stale)}")
-    if not unrouted and not badtarget:
-        print("\n✅ every surface is routed or explicitly excluded")
-    return 1 if ("--strict" in sys.argv and (unrouted or badtarget)) else 0
+
+    # ⛔ A MAPPING TO A SURFACE THAT NO LONGER EXISTS. This is the hole that
+    # made "0 unrouted" less reassuring than it reads: the audit proved every
+    # surface HAS a page, but never that every mapping still has a surface.
+    # `gizwits_group` sat here after Jecod grouping was removed from the
+    # product — and the help page went on describing the feature, because
+    # nothing pointed at the contradiction. A dead mapping is a live claim.
+    stale_map = sorted(k for k in MAP if k not in found)
+    if stale_map:
+        print("\n⛔ mapped surfaces that no longer exist in the source tree:")
+        for k in stale_map:
+            print(f"   {k:34} -> {MAP[k]}  (does the page still describe it?)")
+
+    if not unrouted and not badtarget and not stale_map:
+        print("\n✅ every surface is routed, and every mapping still has a surface")
+    return (
+        1
+        if ("--strict" in sys.argv and (unrouted or badtarget or stale_map))
+        else 0
+    )
 
 
 if __name__ == "__main__":
