@@ -151,7 +151,7 @@
 <p><strong>Settings → Wake-word diagnostics</strong> shows the detector working in real time: a live meter with the trigger threshold marked, so you can see whether your voice is reaching it and how close it comes to triggering.</p>
 <p>Use it to check placement and background noise. A unit that never approaches the threshold is usually too far away, or competing with a noisy sump.</p>
 <aside class="cal cal-note"><p class="cal-t">Only one device answers</p><p>If more than one screen can hear you, only the designated responder replies. Change which one under <a href="/help/mobile-multi-device">More than one Cora device</a>.</p></aside>
-      <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
+      <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -197,7 +197,21 @@
     if (open) {
       lastFocus = document.activeElement;
       reveal();
-      if (close) close.focus();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus —
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
     } else if (lastFocus) {
       lastFocus.focus();
     }

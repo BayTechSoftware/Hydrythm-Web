@@ -519,16 +519,16 @@ def shell(page: Page, pages: list[Page]) -> str:
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
-      if (close) {
+      if (close) {{
         var done = false;
-        var give = function () {
+        var give = function () {{
           if (done) return; done = true;
           s.removeEventListener('transitionend', give);
           close.focus();
-        };
+        }};
         s.addEventListener('transitionend', give);
         setTimeout(give, 260);
-      }
+      }}
     }} else if (lastFocus) {{
       lastFocus.focus();
     }}

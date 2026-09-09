@@ -151,7 +151,7 @@
 <p>Hand-logged readings are first-class: they appear on widgets, carry their own source and age, feed Reef Buddy, and are what Cora compares your probes against when it tells you two sources disagree.</p>
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you which kind of problem it is. See the table in <strong><a href="/help/mobile-devices">Adding, editing and removing devices</a></strong>, and <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> for anything it does not cover.</p>
-      <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
+      <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -197,7 +197,21 @@
     if (open) {
       lastFocus = document.activeElement;
       reveal();
-      if (close) close.focus();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus —
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
     } else if (lastFocus) {
       lastFocus.focus();
     }

@@ -131,7 +131,7 @@
 <ol><li><strong>Settings → Notifications</strong> — is that category allowed to push?</li><li>Your phone's own settings — is Cora allowed to notify at all? A permission denied at install time overrides everything here.</li><li>Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.</li></ol>
 <h2 id="if-too-much-is-arriving">If too much is arriving</h2>
 <p>Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
-      <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
+      <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -177,7 +177,21 @@
     if (open) {
       lastFocus = document.activeElement;
       reveal();
-      if (close) close.focus();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus —
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
     } else if (lastFocus) {
       lastFocus.focus();
     }

@@ -138,7 +138,7 @@
 <p>A task can be made inactive — for equipment you have taken offline, or a job that does not apply this season. It stays in the list, stops being due, and can be reactivated later.</p>
 <h2 id="maintenance-and-the-journal">Maintenance and the journal</h2>
 <p>Completing a task is not the same as writing a journal entry. Maintenance answers "what is due?"; the <strong><a href="/help/mobile-journal">journal</a></strong> answers "what did I actually do, and what happened next?". If a job was unusual — the pump was full of sand, the socks were black after one day — that belongs in the journal too.</p>
-      <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
+      <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -184,7 +184,21 @@
     if (open) {
       lastFocus = document.activeElement;
       reveal();
-      if (close) close.focus();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus —
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
     } else if (lastFocus) {
       lastFocus.focus();
     }

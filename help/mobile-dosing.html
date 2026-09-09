@@ -135,7 +135,7 @@
 <p>A change in demand is a prompt to look, not a diagnosis. Rising alkalinity demand often reflects growth; a sudden move in either direction can equally come from a dose that is not being delivered, a testing error, precipitation, a water change, or a change to the equipment. Check what changed around the date before drawing a conclusion.</p>
 <h2 id="dosing-equipment">Dosing equipment</h2>
 <p>If you have a connected dosing unit, its heads appear as devices with their own readings — what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your equipment</a></strong>.</p>
-      <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
+      <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -181,7 +181,21 @@
     if (open) {
       lastFocus = document.activeElement;
       reveal();
-      if (close) close.focus();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus —
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
     } else if (lastFocus) {
       lastFocus.focus();
     }
