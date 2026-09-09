@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -116,7 +120,7 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-product-library">The product library</a></li><li><a href="#adding-your-own">Adding your own</a></li><li><a href="#the-dose-calculator">The dose calculator</a></li><li><a href="#consumption">Consumption</a></li><li><a href="#dosing-equipment">Dosing equipment</a></li></ul></nav>
 <p>Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream — the calculator, consumption tracking, and what Cora tells you about your dosing — becomes real numbers rather than guesses.</p>
 <p><strong>Settings → Dosing Products.</strong></p>
-<figure class="shot phone"><img src="img/mobile-dosing.webp" alt="Dosing products" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Products carry the strength Cora uses for dose and consumption calculations.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Dosing products"><img src="img/mobile-dosing.webp" alt="Dosing products" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Products carry the strength Cora uses for dose and consumption calculations.</figcaption></figure>
 <h2 id="the-product-library">The product library</h2>
 <p>Cora ships with a library of common products. Search for yours and add it — the strength comes with it.</p>
 <p>Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a fixed volume of water. That is the number that turns "5 ml" into "+0.2 dKH in your tank".</p>
@@ -135,6 +139,7 @@
 <p>A change in demand is a prompt to look, not a diagnosis. Rising alkalinity demand often reflects growth; a sudden move in either direction can equally come from a dose that is not being delivered, a testing error, precipitation, a water change, or a change to the equipment. Check what changed around the date before drawing a conclusion.</p>
 <h2 id="dosing-equipment">Dosing equipment</h2>
 <p>If you have a connected dosing unit, its heads appear as devices with their own readings — what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your equipment</a></strong>.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-automation"><span>Previous</span><b>Automations and scenes</b></a><a class="pn-n" href="/help/mobile-maintenance"><span>Next</span><b>Maintenance</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -220,6 +225,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

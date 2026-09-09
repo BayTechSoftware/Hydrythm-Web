@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -118,21 +122,21 @@
 <h2 id="what-is-always-free">What is always free</h2>
 <ul><li>Live readings from your equipment, with dashboards and charts</li><li>Devices, alerts and thresholds</li><li>Journal, maintenance and livestock</li><li>Push notifications for critical alerts</li><li><strong>One tank</strong></li></ul>
 <h2 id="the-free-allowances">The free allowances</h2>
-<div class="tw"><table><thead><tr><th>Feature</th><th>Free</th></tr></thead><tbody><tr><td>Assistant messages</td><td>20 a month. Voice draws on the same pool and costs more per turn</td></tr><tr><td>Health reports</td><td>1 a month</td></tr><tr><td>ICP analysis</td><td><strong>One, once</strong> — a single lifetime analysis, then locked</td></tr><tr><td>AI on tanks</td><td>Your primary tank only</td></tr><tr><td>Reef Buddy</td><td>Not included</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Feature</th><th>Free</th></tr></thead><tbody><tr><td data-th="Feature">Assistant messages</td><td data-th="Free">20 a month. Voice draws on the same pool and costs more per turn</td></tr><tr><td data-th="Feature">Health reports</td><td data-th="Free">1 a month</td></tr><tr><td data-th="Feature">ICP analysis</td><td data-th="Free"><strong>One, once</strong> — a single lifetime analysis, then locked</td></tr><tr><td data-th="Feature">AI on tanks</td><td data-th="Free">Your primary tank only</td></tr><tr><td data-th="Feature">Reef Buddy</td><td data-th="Free">Not included</td></tr></tbody></table></div>
 <p>When an allowance runs out, everything already generated stays readable.</p>
 <h2 id="the-trial">The trial</h2>
 <p>A <strong>30-day Pro trial starts when you sign up</strong> — not when you first use a feature. It includes Reef Buddy and the higher allowances.</p>
 <p>When it ends the account falls back to Free. <strong>Nothing is deleted</strong>: every reading, journal entry, report and briefing you already have stays readable.</p>
 <h2 id="paid-tiers">Paid tiers</h2>
 <p>Three tiers — <strong>Plus</strong>, <strong>Pro</strong> and <strong>Max</strong> — each monthly or annual. Current prices are shown in the app and at the store, since that is where they are charged.</p>
-<div class="tw"><table><thead><tr><th></th><th>Plus</th><th>Pro</th><th>Max</th></tr></thead><tbody><tr><td>Assistant messages / month</td><td>500</td><td>2,000</td><td>Fair use</td></tr><tr><td>Voice sessions / month</td><td>100</td><td>200</td><td>Fair use</td></tr><tr><td>Health Reports / month</td><td>4</td><td>12</td><td>30</td></tr><tr><td>ICP analyses / month</td><td>1</td><td>3</td><td>Unlimited</td></tr><tr><td>Tanks with AI features</td><td>1</td><td>5</td><td>20</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th></th><th>Plus</th><th>Pro</th><th>Max</th></tr></thead><tbody><tr><td data-th="">Assistant messages / month</td><td data-th="Plus">500</td><td data-th="Pro">2,000</td><td data-th="Max">Fair use</td></tr><tr><td data-th="">Voice sessions / month</td><td data-th="Plus">100</td><td data-th="Pro">200</td><td data-th="Max">Fair use</td></tr><tr><td data-th="">Health Reports / month</td><td data-th="Plus">4</td><td data-th="Pro">12</td><td data-th="Max">30</td></tr><tr><td data-th="">ICP analyses / month</td><td data-th="Plus">1</td><td data-th="Pro">3</td><td data-th="Max">Unlimited</td></tr><tr><td data-th="">Tanks with AI features</td><td data-th="Plus">1</td><td data-th="Pro">5</td><td data-th="Max">20</td></tr></tbody></table></div>
 <p>Voice and messages draw on the same allowance. Every paid tier includes Reef Buddy, ICP upload and analysis for the labs Cora reads, and comparison against your own history.</p>
 <p><strong>Settings → your account</strong> opens <strong>Account &amp; Subscription</strong>.</p>
-<figure class="shot phone"><img src="img/mobile-plans.webp" alt="Account and subscription" width="620" height="917" loading="lazy" decoding="async"><figcaption>Your plan and its renewal date, with the store controls below it.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Account and subscription"><img src="img/mobile-plans.webp" alt="Account and subscription" width="620" height="917" loading="lazy" decoding="async"></button><figcaption>Your plan and its renewal date, with the store controls below it.</figcaption></figure>
 <p>It shows your current plan and when it renews, plus:</p>
-<div class="tw"><table><thead><tr><th>Control</th><th>Does</th></tr></thead><tbody><tr><td><strong>Redeem code</strong></td><td>Applies a promotional or partner code</td></tr><tr><td><strong>Manage Subscription</strong></td><td>Opens your store's subscription settings</td></tr><tr><td><strong>Restore Purchases</strong></td><td>Re-applies a purchase made on another device, or after reinstalling</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Control</th><th>Does</th></tr></thead><tbody><tr><td data-th="Control"><strong>Redeem code</strong></td><td data-th="Does">Applies a promotional or partner code</td></tr><tr><td data-th="Control"><strong>Manage Subscription</strong></td><td data-th="Does">Opens your store's subscription settings</td></tr><tr><td data-th="Control"><strong>Restore Purchases</strong></td><td data-th="Does">Re-applies a purchase made on another device, or after reinstalling</td></tr></tbody></table></div>
 <h2 id="seeing-what-you-have-used">Seeing what you have used</h2>
-<figure class="shot"><img src="img/mobile-usage.webp" alt="Usage and limits" width="620" height="356" loading="lazy" decoding="async"><figcaption>Each metered feature against its monthly allowance.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Usage and limits"><img src="img/mobile-usage.webp" alt="Usage and limits" width="620" height="356" loading="lazy" decoding="async"></button><figcaption>Each metered feature against its monthly allowance.</figcaption></figure>
 <p><strong>Settings → Assistant &amp; AI → Usage &amp; limits</strong> shows every metered feature against its monthly allowance in one place — Assistant messages, ICP analyses and health reports.</p>
 <p>Each metered feature shows its own usage where you use it:</p>
 <ul><li><strong>Assistant</strong> — messages this month, above the message box</li><li><strong>Intelligence</strong> — ICP and health reports this month, under the buttons</li></ul>
@@ -146,6 +150,7 @@
 <p>Purchases occasionally take a moment to reach the app. If it has been a few minutes:</p>
 <ol><li>Fully close and reopen Cora</li><li>Check you are signed in to the same account that made the purchase</li><li>Check the store account on your device is the one you bought with</li></ol>
 <p>If it still has not appeared, tap <strong>Restore Purchases</strong>. Failing that, email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the date of purchase.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-data-export"><span>Previous</span><b>Your data</b></a><a class="pn-n" href="/help/mobile-settings"><span>Next</span><b>Settings</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -231,6 +236,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

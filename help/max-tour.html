@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -115,7 +119,7 @@
       <h1>The Cora Max home screen</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-top-bar">The top bar</a></li><li><a href="#the-dashboard">The dashboard</a></li><li><a href="#the-tank-menu">The tank menu</a></li><li><a href="#switching-tanks">Switching tanks</a></li><li><a href="#the-outlets-feed-drawer">The Outlets &amp; Feed drawer</a></li><li><a href="#if-something-looks-out-of-place">If something looks out of place</a></li></ul></nav>
 <p>Cora Max shows one tank at a time, filling the screen with live readings you can read from across the room.</p>
-<figure class="shot"><img src="img/max-home.webp" alt="The Cora Max home screen" width="1280" height="800" loading="lazy" decoding="async"><figcaption>One tank, filling the screen.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The Cora Max home screen"><img src="img/max-home.webp" alt="The Cora Max home screen" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>One tank, filling the screen.</figcaption></figure>
 <h2 id="the-top-bar">The top bar</h2>
 <p>Left to right:</p>
 <ul><li><strong>The grid icon</strong> opens the Reef Room, the overview of every tank this screen shows</li><li><strong>The tank name</strong>, with a chevron. Tapping it opens the tank menu: Log parameters, Journal, Reef Buddy, Health Reports, Maintenance and ICP Reports</li><li><strong>Alert pills</strong> — anything currently out of range, with a <strong>+n</strong> when there are more than fit. Tap to see them all.</li><li><strong>The clock</strong></li><li><strong>Online</strong> — Cora Max's own connection state. If this says anything else, the screen is showing you the last data it had.</li><li><strong>Battery and Wi-Fi</strong></li><li><strong>The devices icon</strong> — everything connected, and how it is doing</li><li><strong>The Reef Buddy icon</strong> — opens today's briefing. A dot means the briefing has not been read yet.</li><li><strong>The Cora swoosh</strong> — starts a voice conversation</li><li><strong>The gear</strong> — settings</li></ul>
@@ -125,9 +129,9 @@
 <p>Widgets work the same as on your phone, at a size you can read standing back. See <strong><a href="/help/mobile-widgets">Widget reference</a></strong> for what each shape shows, and <strong><a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a></strong> to change what is on it.</p>
 <p>Every widget showing a measured parameter carries its <strong>age</strong> and its <strong>source</strong>, just like on the phone. A number with <code>2d</code> next to it is two days old, and is shown as such. Device and control tiles show their own state instead.</p>
 <h2 id="the-tank-menu">The tank menu</h2>
-<figure class="shot"><img src="img/max-menu.webp" alt="The tank menu" width="1100" height="688" loading="lazy" decoding="async"><figcaption>Everything for the current tank, from the tank name in the top bar.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The tank menu"><img src="img/max-menu.webp" alt="The tank menu" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Everything for the current tank, from the tank name in the top bar.</figcaption></figure>
 <p>Tapping the tank name opens the menu for the tank currently on screen:</p>
-<div class="tw"><table><thead><tr><th>Item</th><th>Opens</th></tr></thead><tbody><tr><td><strong>Log parameters</strong></td><td>Enter test-kit readings on the on-screen keyboard</td></tr><tr><td><strong>Journal</strong></td><td><a href="/help/mobile-journal">The journal</a> for this tank</td></tr><tr><td><strong>Reef Buddy</strong></td><td>The current <a href="/help/mobile-reef-buddy">briefing</a></td></tr><tr><td><strong>Health Reports</strong></td><td>Health assessments</td></tr><tr><td><strong>Maintenance</strong></td><td>The <a href="/help/mobile-maintenance">task list</a></td></tr><tr><td><strong>ICP Reports</strong></td><td>Uploaded <a href="/help/mobile-icp-health">lab results</a></td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Item</th><th>Opens</th></tr></thead><tbody><tr><td data-th="Item"><strong>Log parameters</strong></td><td data-th="Opens">Enter test-kit readings on the on-screen keyboard</td></tr><tr><td data-th="Item"><strong>Journal</strong></td><td data-th="Opens"><a href="/help/mobile-journal">The journal</a> for this tank</td></tr><tr><td data-th="Item"><strong>Reef Buddy</strong></td><td data-th="Opens">The current <a href="/help/mobile-reef-buddy">briefing</a></td></tr><tr><td data-th="Item"><strong>Health Reports</strong></td><td data-th="Opens">Health assessments</td></tr><tr><td data-th="Item"><strong>Maintenance</strong></td><td data-th="Opens">The <a href="/help/mobile-maintenance">task list</a></td></tr><tr><td data-th="Item"><strong>ICP Reports</strong></td><td data-th="Opens">Uploaded <a href="/help/mobile-icp-health">lab results</a></td></tr></tbody></table></div>
 <h2 id="switching-tanks">Switching tanks</h2>
 <p>Use the <strong>grid icon</strong> at the far left of the top bar to reach <a href="/help/max-reef-room">the Reef Room</a>, then open the tank you want. Each tank keeps its own dashboard layout, so the whole screen changes as you move between them.</p>
 <h2 id="the-outlets-feed-drawer">The Outlets &amp; Feed drawer</h2>
@@ -136,6 +140,7 @@
 <aside class="cal cal-warning"><p class="cal-t">This drawer controls real equipment</p><p>Everything in it acts on real equipment. A command is sent the moment you tap, but <em>sent</em> is not <em>done</em> — it comes back Confirmed, Unconfirmed, Refused or No change, and <a href="/help/max-activity">Activity</a> is where you see which. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.</p></aside>
 <h2 id="if-something-looks-out-of-place">If something looks out of place</h2>
 <p>If readings look stale or the top bar is not showing <strong>Online</strong>, start with <strong><a href="/help/troubleshooting">Troubleshooting</a></strong>.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-setup"><span>Previous</span><b>Setting up Cora Max</b></a><a class="pn-n" href="/help/max-reef-room"><span>Next</span><b>The Reef Room</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -221,6 +226,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -117,21 +121,22 @@
 <p>Activity records every <strong>actuation request</strong> — every attempt to change something — together with what asked for it and what became of it.</p>
 <p>A request is not the same as a change. Refused requests never ran, no-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded.</p>
 <p><strong>Settings → Activity.</strong></p>
-<figure class="shot phone"><img src="img/mobile-activity.webp" alt="The activity log" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Every action, with the surface that requested it.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The activity log"><img src="img/mobile-activity.webp" alt="The activity log" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Every action, with the surface that requested it.</figcaption></figure>
 <h2 id="what-is-recorded">What is recorded</h2>
 <p>Every <strong>request</strong>, not only the ones that worked — outlet switches, feed cycles, doses, plug changes, and anything a scene or automation did.</p>
 <p>A request that was <strong>refused</strong>, that made <strong>no change</strong>, or that went out and came back <strong>unconfirmed</strong> is recorded just as an executed one is. That is the point: a command that quietly did nothing is exactly what you want to find here.</p>
 <h2 id="what-caused-it">What caused it</h2>
 <p>Each entry names its cause:</p>
-<div class="tw"><table><thead><tr><th>Cause</th><th>Means</th></tr></thead><tbody><tr><td><strong>This app</strong></td><td>You tapped it here</td></tr><tr><td><strong>Voice in this app</strong></td><td>You asked, on this phone</td></tr><tr><td><strong>Tapped on a Cora</strong></td><td>Someone used a Cora screen — the row says which</td></tr><tr><td><strong>Voice on a Cora Max</strong></td><td>Someone spoke to a screen</td></tr><tr><td><strong>Cora Assistant</strong></td><td>You asked Cora to do it</td></tr><tr><td><strong>Automation rule</strong></td><td>A rule fired</td></tr><tr><td><strong>Smart button</strong></td><td>A physical button was pressed</td></tr><tr><td><strong>Sent from Cora Cloud</strong></td><td>Issued by your account rather than by a device in front of you</td></tr><tr><td><strong>Unknown source</strong></td><td>Recorded before the source could be identified</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Cause</th><th>Means</th></tr></thead><tbody><tr><td data-th="Cause"><strong>This app</strong></td><td data-th="Means">You tapped it here</td></tr><tr><td data-th="Cause"><strong>Voice in this app</strong></td><td data-th="Means">You asked, on this phone</td></tr><tr><td data-th="Cause"><strong>Tapped on a Cora</strong></td><td data-th="Means">Someone used a Cora screen — the row says which</td></tr><tr><td data-th="Cause"><strong>Voice on a Cora Max</strong></td><td data-th="Means">Someone spoke to a screen</td></tr><tr><td data-th="Cause"><strong>Cora Assistant</strong></td><td data-th="Means">You asked Cora to do it</td></tr><tr><td data-th="Cause"><strong>Automation rule</strong></td><td data-th="Means">A rule fired</td></tr><tr><td data-th="Cause"><strong>Smart button</strong></td><td data-th="Means">A physical button was pressed</td></tr><tr><td data-th="Cause"><strong>Sent from Cora Cloud</strong></td><td data-th="Means">Issued by your account rather than by a device in front of you</td></tr><tr><td data-th="Cause"><strong>Unknown source</strong></td><td data-th="Means">Recorded before the source could be identified</td></tr></tbody></table></div>
 <h2 id="how-it-travelled">How it travelled</h2>
 <p>Each row also carries a route chip, because <em>how</em> a request reached your equipment explains a lot of what went wrong when something did:</p>
-<div class="tw"><table><thead><tr><th>Chip</th><th>Means</th></tr></thead><tbody><tr><td><strong>LAN</strong></td><td>Sent across your own network, directly to the equipment</td></tr><tr><td><strong>VIA CLOUD</strong></td><td>Sent through your account, for equipment not reachable directly</td></tr><tr><td><strong>ROUTE ?</strong></td><td>Recorded before routes were tracked — genuinely unknown, not assumed</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Chip</th><th>Means</th></tr></thead><tbody><tr><td data-th="Chip"><strong>LAN</strong></td><td data-th="Means">Sent across your own network, directly to the equipment</td></tr><tr><td data-th="Chip"><strong>VIA CLOUD</strong></td><td data-th="Means">Sent through your account, for equipment not reachable directly</td></tr><tr><td data-th="Chip"><strong>ROUTE ?</strong></td><td data-th="Means">Recorded before routes were tracked — genuinely unknown, not assumed</td></tr></tbody></table></div>
 <p>On a system with more than one Cora, the row also names which one carried the request out.</p>
 <h2 id="the-tank-timeline">The tank timeline</h2>
 <p>Separately from equipment actions, each tank has a <strong>timeline</strong> — readings, alerts, journal entries, ICP results and livestock changes laid out in order.</p>
 <p>Use activity when you are asking <em>"what did something do?"</em> and the timeline when you are asking <em>"what was happening around this date?"</em></p>
 <aside class="cal cal-note"><p class="cal-t">The timeline and the journal are complementary</p><p>The timeline holds what Cora recorded; the <a href="/help/mobile-journal">journal</a> holds what you did. Read together they establish cause and effect around a given date.</p></aside>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-journal"><span>Previous</span><b>The journal</b></a><a class="pn-n" href="/help/mobile-assistant"><span>Next</span><b>Asking Cora</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -217,6 +222,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

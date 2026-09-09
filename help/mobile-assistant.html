@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -116,7 +120,7 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#pick-a-tank-first">Pick a tank first</a></li><li><a href="#typing">Typing</a></li><li><a href="#talking">Talking</a></li><li><a href="#consent">Consent</a></li><li><a href="#what-cora-can-see">What Cora can see</a></li><li><a href="#what-cora-can-change">What Cora can change</a></li><li><a href="#memory">Memory</a></li><li><a href="#usage">Usage</a></li><li><a href="#if-an-answer-looks-wrong">If an answer looks wrong</a></li></ul></nav>
 <p>Cora Assistant answers questions about your tank in plain language. Because it can see your live readings, your history and your lab results, it answers about <em>your</em> tank rather than about reefs in general.</p>
 <p>Open it from the <strong>Assistant</strong> tab.</p>
-<figure class="shot phone"><img src="img/mobile-assistant.webp" alt="Cora Assistant" width="620" height="1348" loading="lazy" decoding="async"><figcaption>Pick a tank, then type or talk.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Cora Assistant"><img src="img/mobile-assistant.webp" alt="Cora Assistant" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Pick a tank, then type or talk.</figcaption></figure>
 <h2 id="pick-a-tank-first">Pick a tank first</h2>
 <p>The tank selector at the top decides what Cora is talking about. Everything below it — the questions you type, the answers you get — is scoped to that tank.</p>
 <h2 id="typing">Typing</h2>
@@ -125,7 +129,7 @@
 <h2 id="talking">Talking</h2>
 <p>Tap <strong>Start voice conversation</strong> for a live back-and-forth. Cora listens, answers out loud, and keeps listening until you stop it. It is the easier option when your hands are wet.</p>
 <h2 id="consent">Consent</h2>
-<figure class="shot"><img src="img/mobile-assistant-consent.webp" alt="Assistant consent" width="620" height="620" loading="lazy" decoding="async"><figcaption>Two separate permissions, and the memory Cora keeps.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Assistant consent"><img src="img/mobile-assistant-consent.webp" alt="Assistant consent" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Two separate permissions, and the memory Cora keeps.</figcaption></figure>
 <p><strong>Settings → Assistant &amp; AI</strong> holds two independent switches:</p>
 <ul><li><strong>Allow Cora Assistant to use saved tank data</strong> — off means the Assistant cannot see your history, metrics or devices, and answers only in general terms.</li><li><strong>Contribute anonymized tank data</strong> — see <a href="/help/mobile-data-export">Your data</a>.</li></ul>
 <h2 id="what-cora-can-see">What Cora can see</h2>
@@ -136,7 +140,7 @@
 <p>Anything that affects your equipment is <strong>confirmed before it happens</strong>. You will be shown exactly what is about to change and asked to approve it. Cora does not act on an ambiguous instruction.</p>
 <aside class="cal cal-warning"><p class="cal-t">Advisory, not authority</p><p>Cora's advice is exactly that. Verify anything important with your own testing, and treat big changes the way you would treat advice from anyone else — sanity-check it before you act. The line under the message box says the same thing.</p></aside>
 <h2 id="memory">Memory</h2>
-<figure class="shot phone"><img src="img/mobile-assistant-settings.webp" alt="Assistant settings" width="620" height="1235" loading="lazy" decoding="async"><figcaption>Consent, memory, voice and usage limits, under Settings.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Assistant settings"><img src="img/mobile-assistant-settings.webp" alt="Assistant settings" width="620" height="1235" loading="lazy" decoding="async"></button><figcaption>Consent, memory, voice and usage limits, under Settings.</figcaption></figure>
 <aside class="cal cal-note"><p class="cal-t">What clearing memory does and does not touch</p><p>Clearing removes what Cora has remembered <em>about your conversations</em> — its profile of your system, the concerns it was tracking, and every stored session. If any part of that cannot be removed, the app tells you it failed rather than reporting success.</p>
 <p>It does not touch your <strong>tank data</strong>: readings, journal, livestock, maintenance and reports are yours and stay exactly as they are. Clearing memory makes the Assistant forget the conversation, not the tank.</p></aside>
 <p>Cora remembers things about your tank between conversations — that you dose two-part, that your frag tank shares a sump, that you are trying to bring nutrients up. This is what stops you re-explaining your system every time.</p>
@@ -147,6 +151,7 @@
 <h2 id="if-an-answer-looks-wrong">If an answer looks wrong</h2>
 <p>Correct it in the conversation — that is the fastest fix and it usually carries forward, though it is not guaranteed to persist indefinitely.</p>
 <p>If an answer looks confidently wrong, check the data chip first. Often the answer is right about the data it was given, and the real problem is a stale reading or a source assigned to the wrong tank.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-activity"><span>Previous</span><b>Activity and timeline</b></a><a class="pn-n" href="/help/mobile-reef-buddy"><span>Next</span><b>Reef Buddy</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -232,6 +237,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

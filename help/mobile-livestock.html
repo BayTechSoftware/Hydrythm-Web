@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -115,7 +119,7 @@
       <h1>Livestock</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-summary">The summary</a></li><li><a href="#adding-something">Adding something</a></li><li><a href="#what-happened-to-it">What happened to it</a></li><li><a href="#livestock-and-the-rest-of-cora">Livestock and the rest of Cora</a></li></ul></nav>
 <p>Livestock records what the tank holds — corals, fish and invertebrates — together with when each item was added and its current status. Open it from the shortcut row at the bottom of the dashboard.</p>
-<figure class="shot phone"><img src="img/mobile-livestock.webp" alt="The livestock inventory" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Inventory summary and recent losses, with entries grouped by type.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The livestock inventory"><img src="img/mobile-livestock.webp" alt="The livestock inventory" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Inventory summary and recent losses, with entries grouped by type.</figcaption></figure>
 <h2 id="the-summary">The summary</h2>
 <p>At the top:</p>
 <ul><li><strong>Inventory Summary</strong> — totals by broad category, such as corals, fish and inverts</li><li><strong>Losses</strong> — how many entries have been marked lost in the last 90 days</li></ul>
@@ -126,12 +130,13 @@
 <ul><li><strong>Name</strong> — what you call it</li><li><strong>Type</strong> — SPS coral, LPS coral, soft coral, fish, invertebrate, anemone, or other</li><li><strong>Species</strong> — optional, if you know it</li><li><strong>Quantity</strong> — for a group, like a shoal or a frag pack</li><li><strong>Date added</strong> — defaults to today</li><li><strong>Notes</strong> — supplier, placement, cost, or any other detail you want to keep</li></ul>
 <h2 id="what-happened-to-it">What happened to it</h2>
 <p>Every entry carries a status:</p>
-<div class="tw"><table><thead><tr><th>Status</th><th>Means</th></tr></thead><tbody><tr><td><strong>Alive</strong></td><td>Still in the tank</td></tr><tr><td><strong>Lost</strong></td><td>Died</td></tr><tr><td><strong>Fragged</strong></td><td>Cut up — the colony continues</td></tr><tr><td><strong>Sold</strong></td><td>Went to someone else</td></tr><tr><td><strong>Moved</strong></td><td>In another of your tanks</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Status</th><th>Means</th></tr></thead><tbody><tr><td data-th="Status"><strong>Alive</strong></td><td data-th="Means">Still in the tank</td></tr><tr><td data-th="Status"><strong>Lost</strong></td><td data-th="Means">Died</td></tr><tr><td data-th="Status"><strong>Fragged</strong></td><td data-th="Means">Cut up — the colony continues</td></tr><tr><td data-th="Status"><strong>Sold</strong></td><td data-th="Means">Went to someone else</td></tr><tr><td data-th="Status"><strong>Moved</strong></td><td data-th="Means">In another of your tanks</td></tr></tbody></table></div>
 <p>Marking an item <strong>lost</strong> records the date and, optionally, a reason. Recording losses consistently is what makes patterns visible later — losses concentrated in one area of the tank, or following a particular event.</p>
 <aside class="cal cal-note"><p class="cal-t">"Unknown" is a valid loss reason</p><p>Record the date even when the cause is not known. The date is what supports later comparison.</p></aside>
 <h2 id="livestock-and-the-rest-of-cora">Livestock and the rest of Cora</h2>
 <p>Your livestock load is part of what your parameters are assessed against — a heavily stocked SPS system and a lightly stocked softie tank are not held to the same standard.</p>
 <p>You can also ask about it. <em>"When did I add the hammer coral?"</em> or <em>"What have I lost this year?"</em> are answered from this record.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-maintenance"><span>Previous</span><b>Maintenance</b></a><a class="pn-n" href="/help/mobile-journal"><span>Next</span><b>The journal</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -217,6 +222,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

@@ -23,7 +23,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=664aef4ea7">
+  <link rel="stylesheet" href="/help/help.css?v=9fba89e0c8">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,6 +34,10 @@
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -115,7 +119,7 @@
       <h1>Reading your dashboard</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-tank-header">The tank header</a></li><li><a href="#the-reef-buddy-card">The Reef Buddy card</a></li><li><a href="#how-to-read-a-parameter-widget">How to read a parameter widget</a></li><li><a href="#colours">Colours</a></li><li><a href="#below-the-widgets">Below the widgets</a></li><li><a href="#tapping-through">Tapping through</a></li><li><a href="#if-a-widget-has-no-value">If a widget has no value</a></li></ul></nav>
 <p>The dashboard is a grid of <strong>widgets</strong>, each showing one thing about one tank. What is on it is entirely up to you — see <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
-<figure class="shot phone"><img src="img/mobile-dashboard.webp" alt="A Cora Mobile dashboard" width="620" height="1348" loading="lazy" decoding="async"><figcaption>Gauges, numbers, trends and controls on one screen.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A Cora Mobile dashboard"><img src="img/mobile-dashboard.webp" alt="A Cora Mobile dashboard" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Gauges, numbers, trends and controls on one screen.</figcaption></figure>
 <h2 id="the-tank-header">The tank header</h2>
 <p>At the top of every dashboard:</p>
 <ul><li><strong>The tank name</strong>, with a small glyph beside it — that one is a <strong>quick rename</strong>, nothing more</li><li><strong>Feed</strong> — pauses flow and skimming for a feeding, then puts everything back</li><li><strong>Reef Buddy</strong> — opens this morning's briefing</li><li><strong>Share</strong> — sends a snapshot of the dashboard</li><li><strong>The pencil on the right</strong> — opens <a href="/help/mobile-tank-profile">the tank profile</a></li></ul>
@@ -131,14 +135,14 @@
 <aside class="cal cal-note"><p class="cal-t">Why age matters so much</p><p>A perfect alkalinity reading from four days ago is not a current alkalinity reading. The age sits next to every value so you can tell the difference at a glance.</p></aside>
 <h2 id="colours">Colours</h2>
 <p>Cora uses colour sparingly, and always to mean the same thing:</p>
-<div class="tw"><table><thead><tr><th>Colour</th><th>Meaning</th></tr></thead><tbody><tr><td>Green</td><td>Comfortably inside the range for this parameter</td></tr><tr><td>Amber</td><td>Close to an edge — <strong>usually still inside the range</strong>, within the last tenth of it</td></tr><tr><td>Red</td><td>Past the edge, and worth acting on</td></tr><tr><td>Grey</td><td>No verdict: no recent reading, or no usable range to judge against</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Colour</th><th>Meaning</th></tr></thead><tbody><tr><td data-th="Colour">Green</td><td data-th="Meaning">Comfortably inside the range for this parameter</td></tr><tr><td data-th="Colour">Amber</td><td data-th="Meaning">Close to an edge — <strong>usually still inside the range</strong>, within the last tenth of it</td></tr><tr><td data-th="Colour">Red</td><td data-th="Meaning">Past the edge, and worth acting on</td></tr><tr><td data-th="Colour">Grey</td><td data-th="Meaning">No verdict: no recent reading, or no usable range to judge against</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Amber usually means "still fine, but heading somewhere"</p><p>Amber is a <em>margin</em>, not a breach. A reading inside its range but within the last 10% of it is ambered deliberately, so drift is visible while there is still time to act rather than at the moment it becomes a problem.</p>
 <p>Two refinements follow from that.</p>
 <p><strong>A range you set yourself is treated as a declared boundary.</strong> Cross it and the widget goes straight to red — no amber margin, because you drew that line deliberately. A range <strong>Cora supplied</strong> is a softer reference: crossing it shows amber for the first 10% beyond the edge, and turns red past that.</p>
 <p><strong>A one-sided limit</strong> — a contaminant ceiling, or a nutrient floor — is graded on its high edge only, so copper at zero reads green rather than being ambered for sitting near the bottom of the scale.</p></aside>
 <p>A widget outlined in amber or red is one that needs attention. The outline is on the widget, not just the number, so it is visible while scrolling.</p>
 <h2 id="below-the-widgets">Below the widgets</h2>
-<figure class="shot"><img src="img/mobile-dashboard-foot.webp" alt="The foot of the dashboard" width="1000" height="426" loading="lazy" decoding="async"><figcaption>Edit dashboard, Log Parameters, and shortcuts to the four record areas.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The foot of the dashboard"><img src="img/mobile-dashboard-foot.webp" alt="The foot of the dashboard" width="1000" height="426" loading="lazy" decoding="async"></button><figcaption>Edit dashboard, Log Parameters, and shortcuts to the four record areas.</figcaption></figure>
 <p>At the bottom of the dashboard:</p>
 <ul><li><strong>Edit dashboard</strong> — opens the <a href="/help/mobile-dashboard-editing">dashboard editor</a></li><li><strong>Log Parameters</strong> — enter test-kit readings by hand</li><li><strong>Journal · Alerts · Maintenance · Livestock</strong> — shortcuts to those areas for this tank</li></ul>
 <p>A line above them shows when the dashboard last updated and which sources it drew on.</p>
@@ -149,6 +153,7 @@
 <ul><li>The device is offline — check the <strong>Devices</strong> tab</li><li>The parameter has no source yet — log it by hand, or connect equipment that reports it</li><li>The parameter has never been reported or logged — nothing has been recorded for it yet</li></ul>
 <p>An old reading does not vanish because the chart window is shorter than its age. It stays on the widget with its age shown, so a stale value reads as stale rather than as missing.</p>
 <p>See <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> for anything beyond these.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-tour"><span>Previous</span><b>The five tabs</b></a><a class="pn-n" href="/help/mobile-dashboard-editing"><span>Next</span><b>Editing your dashboard</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.38 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
@@ -234,6 +239,163 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
   });
 })();
 </script>

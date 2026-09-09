@@ -24,6 +24,7 @@ import re
 import sys
 from dataclasses import dataclass, field
 import hashlib
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -200,11 +201,18 @@ def _img(m: re.Match) -> str:
             f'<small>{html.escape(alt, quote=False)}</small>'
             f"</div>{caption}</figure>"
         )
+    # ⭐ A <button>, not a click handler on the <img>: a phone screenshot is
+    # capped at 300 px here and dense screens are unreadable at that size, so
+    # enlarging has to be a real control — reachable by keyboard, announced as
+    # a control, and working before any script loads (it degrades to a plain
+    # image if JS never runs).
     return (
         f'<figure class="{cls}">'
+        f'<button type="button" class="zoom" '
+        f'aria-label="Enlarge: {html.escape(alt, quote=True)}">'
         f'<img src="{html.escape(src, quote=True)}" alt="{html.escape(alt, quote=True)}" '
         f'width="{w}" height="{h}" loading="lazy" decoding="async">'
-        f"{caption}</figure>"
+        f"</button>{caption}</figure>"
     )
 
 
@@ -316,12 +324,24 @@ def render(md: str, headings: list) -> str:
                 rows.append([c.strip() for c in lines[i].strip().strip("|").split("|")])
                 i += 1
             th = "".join(f"<th>{inline(c)}</th>" for c in head)
+            # ⭐ Each cell carries its column heading, so a narrow screen can
+            # stack the row into a labelled card instead of scrolling sideways
+            # and hiding the column that explains the other one. Only 2- and
+            # 3-column tables stack; wider ones stay scrollable, where a card
+            # would be worse than the scroll.
             tb = "".join(
-                "<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>"
+                "<tr>"
+                + "".join(
+                    f'<td data-th="{html.escape(head[j], quote=True) if j < len(head) else ""}">'
+                    f"{inline(c)}</td>"
+                    for j, c in enumerate(r)
+                )
+                + "</tr>"
                 for r in rows
             )
+            tcls = " class=\"stack\"" if len(head) <= 3 else ""
             out.append(
-                f'<div class="tw"><table><thead><tr>{th}</tr></thead>'
+                f'<div class="tw"><table{tcls}><thead><tr>{th}</tr></thead>'
                 f"<tbody>{tb}</tbody></table></div>"
             )
             continue
@@ -394,6 +414,66 @@ def nav_html(pages: list[Page], current: Page) -> str:
     return "\n".join(parts)
 
 
+def search_index(pages: list[Page]) -> str:
+    """A tiny static index, fetched only when someone opens search.
+
+    ⭐ 50 pages and ~28,000 words is past what a sidebar can expose. The index
+    is deliberately NOT inlined into every page: it is one file, fetched once
+    on first use, so the cost lands on the readers who search and nobody else.
+    """
+    docs = []
+    for p in pages:
+        body = re.sub(r"<[^>]+>", " ", p.html)
+        body = html.unescape(body)
+        body = re.sub(r"\s+", " ", body).strip()
+        docs.append(
+            {
+                "u": p.url,
+                "t": p.title,
+                "s": p.section or "Help",
+                "d": p.description,
+                "h": [t for _, t, _ in p.headings if _ == 2],
+                # Trimmed: enough to match and to show a snippet, not the page.
+                "b": body[:1800],
+            }
+        )
+    return json.dumps(docs, separators=(",", ":"), ensure_ascii=False)
+
+
+def prevnext_html(pages: list[Page], current: Page) -> str:
+    """Sequential navigation within a section.
+
+    ⭐ The sidebar answers "where am I"; it does not answer "what next". These
+    pages are ordered deliberately (setup → tour → dashboard → …) and a reader
+    working through a product had no way to follow that order without going
+    back to the list every time.
+    """
+    group = sorted(
+        [p for p in pages if p.section == current.section], key=lambda p: p.order
+    )
+    try:
+        i = [p.slug for p in group].index(current.slug)
+    except ValueError:
+        return ""
+    prev = group[i - 1] if i > 0 else None
+    nxt = group[i + 1] if i < len(group) - 1 else None
+    if not prev and not nxt:
+        return ""
+    out = ['<nav class="pn" aria-label="Continue reading">']
+    if prev:
+        out.append(
+            f'<a class="pn-p" href="{prev.url}"><span>Previous</span>'
+            f"<b>{html.escape(prev.title)}</b></a>"
+        )
+    if nxt:
+        out.append(
+            f'<a class="pn-n" href="{nxt.url}"><span>Next</span>'
+            f"<b>{html.escape(nxt.title)}</b></a>"
+        )
+    out.append("</nav>")
+    return "".join(out)
+
+
 def toc_html(page: Page) -> str:
     """On-page contents, h2 only. Skipped when a page has fewer than three."""
     h2 = [h for h in page.headings if h[0] == 2]
@@ -447,6 +527,10 @@ def shell(page: Page, pages: list[Page]) -> str:
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -468,6 +552,7 @@ def shell(page: Page, pages: list[Page]) -> str:
       <h1>{title}</h1>
       {toc_html(page)}
 {page.html}
+      {prevnext_html(pages, page)}
       <p class="stamp">Written for Cora Max {STAMP_MAX} and Cora Mobile {STAMP_MOBILE}.</p>
       <p class="ask">Still stuck? Email <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a> and we'll help.</p>
     </article>
@@ -553,6 +638,163 @@ def shell(page: Page, pages: list[Page]) -> str:
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {{
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  }});
+}})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {{
+  var box = null, opener = null;
+  function shut() {{
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }}
+  function open(img, btn) {{
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) {{ if (e.target !== big) shut(); }});
+    x.focus();
+  }}
+  document.addEventListener('click', function (e) {{
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) {{ e.preventDefault(); open(img, btn); }}
+  }});
+  document.addEventListener('keydown', function (e) {{
+    if (e.key === 'Escape') shut();
+  }});
+}})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {{
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {{
+    return t.replace(/[&<>]/g, function (c) {{
+      return {{'&': '&amp;', '<': '&lt;', '>': '&gt;'}}[c];
+    }});
+  }}
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {{
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }}
+
+  function score(d, q) {{
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {{
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }}
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }}
+
+  function run() {{
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) {{ list.innerHTML = ''; return; }}
+    var hits = docs.map(function (d) {{ return [score(d, q), d]; }})
+                   .filter(function (r) {{ return r[0] > 0; }})
+                   .sort(function (a, b) {{ return b[0] - a[0]; }})
+                   .slice(0, 12);
+    if (!hits.length) {{
+      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      return;
+    }}
+    list.innerHTML = hits.map(function (r, i) {{
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }}).join('');
+  }}
+
+  function shut() {{
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }}
+
+  function open() {{
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {{
+      if (!e.target.closest('.sbox')) shut();
+    }});
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    if (docs) {{ run(); return; }}
+    fetch('/help/search.json').then(function (r) {{ return r.json(); }})
+      .then(function (j) {{ docs = j; run(); }})
+      .catch(function () {{
+        list.innerHTML = '<li class="snone">Search is unavailable — '
+          + 'use the navigation instead.</li>';
+      }});
+  }}
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {{
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) {{ e.preventDefault(); open(); return; }}
+    if (!dlg) return;
+    if (e.key === 'Escape') {{ shut(); return; }}
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {{
+      if (at > -1) {{ e.preventDefault(); links[at].click(); }}
+      return;
+    }}
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({{block: 'nearest'}});
   }});
 }})();
 </script>
@@ -719,6 +961,93 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   box-shadow: 0 10px 26px rgba(23,59,110,0.07);
 }
 .shot figcaption { font-size: 13.5px; color: var(--text-3); margin-top: 8px; }
+
+/* ── Search ──────────────────────────────────────────────────────────── */
+.hfind {
+  display: inline-flex; align-items: center; gap: 7px; margin-left: auto;
+  padding: 6px 10px; font: inherit; font-size: 13.5px; cursor: pointer;
+  color: var(--text-2); background: var(--surface-2);
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+}
+.hfind:hover { border-color: var(--line-strong); color: var(--text); }
+.hfind svg { width: 15px; height: 15px; }
+.hfind kbd {
+  font: inherit; font-size: 11.5px; padding: 1px 5px; color: var(--text-3);
+  border: 1px solid var(--line); border-radius: 4px; background: var(--surface);
+}
+.sdlg {
+  position: fixed; inset: 0; z-index: 95; display: flex;
+  justify-content: center; padding: 10vh 20px 20px;
+  background: rgba(9,18,33,.5);
+}
+.sbox {
+  width: min(680px, 100%); max-height: 74vh; display: flex; flex-direction: column;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: 0 26px 70px rgba(0,0,0,.3);
+  overflow: hidden;
+}
+.sbox input {
+  font: inherit; font-size: 16px; padding: 15px 18px; border: 0;
+  border-bottom: 1px solid var(--line); outline: none; color: var(--text);
+  background: var(--surface);
+}
+.sres { overflow-y: auto; padding: 6px; margin: 0; list-style: none; }
+.sres li { margin: 0; }
+.sres a {
+  display: block; padding: 9px 12px; border-radius: var(--radius-sm);
+  text-decoration: none; color: var(--text);
+}
+.sres a:hover, .sres a.on { background: var(--surface-2); }
+.sres b { display: block; font-size: 14.5px; color: var(--brand-deep); }
+.sres em {
+  display: block; font-style: normal; font-size: 12.5px;
+  color: var(--text-3); margin-top: 2px;
+}
+.sres mark { background: #ffe9a8; color: inherit; padding: 0 1px; border-radius: 2px; }
+.snone { padding: 22px; color: var(--text-3); font-size: 14px; }
+@media (max-width: 900px) { .hfind span, .hfind kbd { display: none; } }
+
+/* ── Zoomable screenshots ────────────────────────────────────────────── */
+.zoom {
+  display: block; padding: 0; border: 0; background: none; width: 100%;
+  cursor: zoom-in; border-radius: var(--radius-sm);
+}
+.zoom:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+.shot.phone .zoom { max-width: 300px; }
+
+.lb {
+  position: fixed; inset: 0; z-index: 90; display: flex;
+  align-items: center; justify-content: center; padding: 24px;
+  background: rgba(9,18,33,.86);
+}
+.lb img {
+  max-width: min(1100px, 96vw); max-height: 92vh; width: auto; height: auto;
+  border-radius: var(--radius-sm); box-shadow: 0 24px 60px rgba(0,0,0,.45);
+}
+.lb-x {
+  position: absolute; top: 14px; right: 16px; width: 44px; height: 44px;
+  font-size: 30px; line-height: 1; color: #fff; cursor: pointer;
+  background: rgba(255,255,255,.12); border: 0; border-radius: var(--radius-sm);
+}
+.lb-x:hover { background: rgba(255,255,255,.22); }
+
+/* ── Previous / next ─────────────────────────────────────────────────── */
+.pn {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  margin: 40px 0 10px; padding-top: 22px; border-top: 1px solid var(--line);
+}
+.pn a {
+  flex: 1 1 220px; min-width: 0; text-decoration: none;
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+  padding: 12px 14px; background: var(--surface);
+}
+.pn a:hover { border-color: var(--line-strong); background: var(--surface-2); }
+.pn span {
+  display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--text-3); margin-bottom: 3px;
+}
+.pn b { color: var(--brand-deep); font-size: 15px; font-weight: 600; }
+.pn-n { text-align: right; }
 .shot.phone img { max-width: 300px; }
 .shot.phone { display: flex; flex-direction: column; align-items: flex-start; }
 .shot.ph .ph-box {
@@ -821,6 +1150,28 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
 @media (prefers-reduced-motion: reduce) {
   .hside { transition: none; }
 }
+@media (max-width: 640px) {
+  /* ⭐ A two-column reference table is the common shape here, and sideways
+     scrolling hides the half that explains the other half. Stack each row
+     into a card and label the cells from the header. */
+  .doc table.stack, .doc table.stack tbody, .doc table.stack tr, .doc table.stack td {
+    display: block; width: 100%;
+  }
+  .doc table.stack thead { display: none; }
+  .doc table.stack tr {
+    border: 1px solid var(--line); border-radius: var(--radius-sm);
+    padding: 10px 12px; margin: 0 0 10px; background: var(--surface);
+  }
+  .doc table.stack td { border: 0; padding: 3px 0; }
+  .doc table.stack td::before {
+    content: attr(data-th); display: block;
+    font-size: 11px; font-weight: 700; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--text-3);
+  }
+  .doc table.stack td:first-child { font-weight: 600; color: var(--text); }
+  .pn-n { text-align: left; }
+}
+
 @media (max-width: 520px) {
   .hnav-in, .hwrap, .hfoot-in { padding-left: 18px; padding-right: 18px; }
   .hbrand img { width: 78px; }
@@ -917,7 +1268,7 @@ def build(check_only: bool = False) -> int:
         FONTS_VERSION = hashlib.sha256(
             fonts.read_bytes()).hexdigest()[:10]
 
-    targets = [(OUT / "help.css", css)] + [(p.out_path, shell(p, pages)) for p in pages]
+    targets = [(OUT / "help.css", css), (OUT / "search.json", search_index(pages))] + [(p.out_path, shell(p, pages)) for p in pages]
 
     for path, content in targets:
         old = path.read_text(encoding="utf-8") if path.exists() else None
@@ -979,7 +1330,15 @@ def self_test() -> int:
 
     t = render("| A | B |\n|---|---|\n| 1 | 2 |", [])
     ok("table head", "<th>A</th>" in t)
-    ok("table body", "<td>2</td>" in t)
+    ok("table body", ">2</td>" in t)
+    # ⭐ Each cell carries its column heading so a phone can stack the row into
+    # a labelled card. Without `data-th` the stacked view loses the half that
+    # explains the other half, which is the whole reason it stacks.
+    ok("table cells carry their column label", 'data-th="B">2</td>' in t)
+    ok("narrow tables opt into stacking", 'class="stack"' in t)
+    wide = render("| A | B | C | D |\n|---|---|---|---|\n| 1 | 2 | 3 | 4 |", [])
+    ok("⚠️ but a 4-column table stays scrollable, not stacked",
+       'class="stack"' not in wide)
 
     ok("callout", 'class="cal cal-warning"' in render(":::warning Careful\nbody\n:::", []))
     ok("fence keeps markup literal", "**x**" in render("```\n**x**\n```", []))
@@ -993,6 +1352,39 @@ def self_test() -> int:
     ok("a lone < in prose is still escaped", "&lt; 5" in render("a value < 5", []))
     ok("⛔ script is NOT passed through", "&lt;script&gt;" in render("<script>alert(1)</script>", []))
     ok("tokens extract", "--brand:" in extract_root())
+
+    # ⛔⛔ THE INLINE SCRIPT MUST PARSE. The page shell is an f-string, so a
+    # single `{` in the JavaScript is a FORMAT PLACEHOLDER — that broke the
+    # build once (2026-09-09) and, because build+commit+push were chained, the
+    # breakage was committed. A brace-balance check is cheap and catches the
+    # whole class; `node --check` runs on top when node is available.
+    import shutil as _sh, subprocess as _sp, tempfile as _tf
+    _demo = Page(slug="x", title="T", description="d", section="Cora Mobile",
+                 order=1, body_md="body")
+    _demo.html = "<p>body</p>"
+    _shell = shell(_demo, [_demo])
+    _js = "\n".join(re.findall(r"<script>(.*?)</script>", _shell, re.S))
+    ok("inline script is present", len(_js) > 500)
+    ok("⛔ no unescaped f-string braces survive into the page",
+       "{{" not in _shell and "}}" not in _shell)
+    if _sh.which("node"):
+        with _tf.NamedTemporaryFile("w", suffix=".js", delete=False) as fh:
+            fh.write(_js)
+            _tmp = fh.name
+        _r = _sp.run(["node", "--check", _tmp], capture_output=True, text=True)
+        ok(f"⛔ inline JavaScript parses ({_r.stderr.strip()[:80]})", _r.returncode == 0)
+
+    # ⚠️ PERFORMANCE BUDGET. Nothing here is slow today; the budget exists so
+    # that stays true without anyone measuring. Numbers are ~2x current, so
+    # they flag a change in kind, not ordinary growth.
+    ok(f"a page stays under 90 KB ({len(_shell) // 1024} KB)", len(_shell) < 92_160)
+    _imgs = sorted((OUT / "img").glob("*.webp")) if (OUT / "img").exists() else []
+    _big = [f.name for f in _imgs if f.stat().st_size > 160_000]
+    ok(f"⚠️ no screenshot over 160 KB ({_big})", not _big)
+    _idx = OUT / "search.json"
+    if _idx.exists():
+        ok(f"search index under 250 KB ({_idx.stat().st_size // 1024} KB)",
+           _idx.stat().st_size < 256_000)
 
     # ⛔ CONTENT RULE, ENFORCED. help-src/README.md has said 'Maxspect is
     # "coming soon"' since the guide was written, and SIX pages named it as a
