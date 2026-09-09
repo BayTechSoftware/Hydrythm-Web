@@ -43,11 +43,11 @@ Open the device row and sign in again.
 
 ## Cora Max shows old data
 
-Check the top bar. If it does not say **Online**, the screen has lost its connection and is showing the last data it had — which is the correct behaviour, but not current.
+Check the status pill in the top bar. **Online** and **Cloud** are both healthy: with more than one Cora, the screen that is not doing the collecting shows **Cloud**, and its readings are just as current. **Stale** or **Offline** means the screen has lost its source and is showing the last data it received — correct behaviour, but not current.
 
 - Check Wi-Fi under **Settings → Cora Max → Network**
 - Check the network itself is up
-- If the screen is Online but data is still old, the problem is upstream: check the same tank on your phone
+- If the pill reads **Online** or **Cloud** and the data is still old, the problem is upstream: check the same tank on your phone
 
 ## An alert is not clearing
 

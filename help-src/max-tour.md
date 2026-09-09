@@ -19,12 +19,25 @@ Left to right:
 - **The tank name**, with a chevron. Tapping it opens the **tank menu** — every screen for the tank on display, from logging a test result to arranging the dashboard. The full list is below.
 - **Alert pills** — anything currently out of range, with a **+n** when there are more than fit. Tap to see them all.
 - **The clock**
-- **Online** — Cora Max's own connection state. If this says anything else, the screen is showing you the last data it had.
+- **The status pill** — what this screen is doing right now. Green is healthy, amber wants attention, red is a fault. The full vocabulary is below.
 - **Battery and Wi-Fi**
 - **The devices icon** — everything connected, and how it is doing
 - **The Reef Buddy icon** — opens today's briefing. A dot means the briefing has not been read yet.
 - **The Cora swoosh** — starts a voice conversation
 - **The gear** — settings
+
+### What the status pill means
+
+| Pill | Meaning |
+|---|---|
+| **Online** | This screen is collecting your readings, and they are current |
+| **Cloud** | Another Cora is collecting this tank's readings and this screen is showing them. Just as current as **Online** — with more than one Cora, the screen that is not doing the collecting shows this |
+| **Polling Apex**, **Voice active** | Working on something at this moment |
+| **Polling off** | Collection is switched off for this tank. You can turn it back on from Cora Mobile |
+| **Updating** | Collection is paused while an update installs |
+| **Stale** | Readings have stopped arriving. The screen shows the last it received |
+| **Offline** | No connection. The screen shows the last data it received |
+| **Apex password** | Your Apex rejected the stored password. See [Troubleshooting](/help/troubleshooting) |
 
 :::warning The swoosh starts listening immediately
 Tapping the Cora mark begins a live voice session. If you meant to open settings, that is the gear on the far right.
@@ -75,4 +88,4 @@ Everything in it acts on real equipment. A command is sent the moment you tap, b
 
 ## If something looks out of place
 
-If readings look stale or the top bar is not showing **Online**, start with **[Troubleshooting](/help/troubleshooting)**.
+If readings look stale, or the status pill is amber or red, start with **[Troubleshooting](/help/troubleshooting)**.
