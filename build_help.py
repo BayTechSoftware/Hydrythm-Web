@@ -1522,6 +1522,32 @@ def self_test() -> int:
     ok(f"⛔ Maxspect is labelled coming-soon wherever it is named ({unlabelled})",
        not unlabelled)
 
+    # ⛔ INTERNAL JARGON IN CUSTOMER-FACING COPY. Owner, 2026-09-09: *"There
+    # are mentions as 'The Cora swoosh'.. there is no such a thing, it is Cora
+    # Assistant."* Six of them, across the two pages that describe the top bar
+    # and voice — and "swoosh" is what WE call the mark internally, never what
+    # the product calls anything. The assistant has had a name and a glossary
+    # entry the whole time; the guide simply used our word in six places.
+    #
+    # ⚠️ The check is the WHOLE SOURCE TREE, not the two files that were wrong.
+    # A rule applied only where it was already broken never catches the next
+    # page. Same reasoning as the Maxspect guard above.
+    jargon = {
+        "swoosh": "the assistant control is 'Cora Assistant'",
+        "cora mark": "the assistant control is 'Cora Assistant'",
+        "kiosk": "the product is 'Cora Max' in public copy",
+        "e10": "the hardware model is never named publicly",
+    }
+    slips = []
+    for md in sorted(SRC.glob("*.md")):
+        if md.name == "README.md":  # the brief itself may quote the banned words
+            continue
+        low = md.read_text(encoding="utf-8").lower()
+        for word, why in jargon.items():
+            if word in low:
+                slips.append(f"{md.name}: '{word}' ({why})")
+    ok(f"⛔ no internal jargon in customer-facing copy ({slips})", not slips)
+
     # ⛔ A zero-length render would make several checks above pass vacuously.
     ok("render is not empty", len(render("## A\n\ntext\n", [])) > 20)
 

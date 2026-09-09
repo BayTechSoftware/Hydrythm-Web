@@ -37,7 +37,7 @@ Everything else happens in Cora Mobile, as five named steps you can see across t
 
 **3 · Auth.** Your phone authorises the unit against your account. The Cora Max shows its own progress while this happens.
 
-![The kiosk during pairing](img/max-pairing-verifying.webp "The screen tracks the account check while your phone drives it.")
+![Cora Max during pairing](img/max-pairing-verifying.webp "The screen tracks the account check while your phone drives it.")
 
 **4 · Tanks.** Choose which tanks this screen manages — **up to four**. Each is listed with its name and type.
 

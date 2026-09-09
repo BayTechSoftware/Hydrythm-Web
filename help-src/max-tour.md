@@ -23,7 +23,7 @@ Left to right:
 - **Battery and Wi-Fi**
 - **The devices icon** — everything connected, and how it is doing
 - **The Reef Buddy icon** — opens today's briefing. A dot means the briefing has not been read yet.
-- **The Cora swoosh** — starts a voice conversation
+- **The Cora Assistant icon** — starts a voice conversation
 - **The gear** — settings
 
 ### What the status pill means
@@ -39,8 +39,8 @@ Left to right:
 | **Offline** | No connection. The screen shows the last data it received |
 | **Apex password** | Your Apex rejected the stored password. See [Troubleshooting](/help/troubleshooting) |
 
-:::warning The swoosh starts listening immediately
-Tapping the Cora mark begins a live voice session. If you meant to open settings, that is the gear on the far right.
+:::warning Cora Assistant starts listening immediately
+Tapping the Cora Assistant icon begins a live voice session. If you meant to open settings, that is the gear on the far right.
 :::
 
 ## The dashboard
