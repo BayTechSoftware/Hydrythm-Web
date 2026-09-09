@@ -71,10 +71,6 @@ An App Store or Google Play subscription belongs to the **store**, not to Cora. 
 If **Contribute anonymized tank data** is on — and it is on unless you turned it off — a de-identified copy of your tanks' profiles and parameter history is kept for research as part of the same deletion. It carries no link back to you. Turn that switch off *before* deleting if you want it gone too.
 :::
 
-## About
-
-App version and release details, and **Replay tips** — which replays the dashboard tour described in **[The five tabs](/help/mobile-tour)**.
-
 ## Automation
 
 Full detail: **[Automations and scenes](/help/mobile-automation)**.
@@ -96,6 +92,8 @@ Use it to establish the cause of an unexpected change.
 ## About
 
 Appearance, the version you are running, and links to the privacy policy and terms.
+
+**Replay tips** is here too — it replays the first-run dashboard tour described in **[The five tabs](/help/mobile-tour)**, which is useful after an update or when handing the app to someone else.
 
 ## Getting help
 

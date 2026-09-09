@@ -1494,6 +1494,24 @@ def self_test() -> int:
     # "coming soon"' since the guide was written, and SIX pages named it as a
     # shipped integration anyway (found in review, 2026-09-09) while the public
     # site carried a badge-soon. A rule nobody checks is a rule nobody follows.
+    # ⛔ TWO SECTIONS WITH THE SAME NAME ON ONE PAGE. It has happened twice:
+    # max-settings.md carried `## Devices` and `## Tank settings` twice, and
+    # the two Tank-settings sections CONTRADICTED each other on what polling
+    # means; then I added a second `## About` to mobile-settings.md without
+    # noticing the first. It also breaks the on-page contents, which renders
+    # two identical entries pointing at the same anchor.
+    dupes = []
+    for md in sorted(SRC.glob("*.md")):
+        if md.name == "README.md":
+            continue
+        heads = re.findall(r"^## (.+)$", md.read_text(encoding="utf-8"), re.M)
+        seen_h, dup_h = set(), set()
+        for h in heads:
+            (dup_h if h in seen_h else seen_h).add(h)
+        if dup_h:
+            dupes.append(f"{md.name}: {sorted(dup_h)}")
+    ok(f"⛔ no page repeats a section heading ({dupes})", not dupes)
+
     unlabelled = []
     for md in sorted(SRC.glob("*.md")):
         if md.name == "README.md":
