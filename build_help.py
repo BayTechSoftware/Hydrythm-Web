@@ -514,7 +514,21 @@ def shell(page: Page, pages: list[Page]) -> str:
     if (open) {{
       lastFocus = document.activeElement;
       reveal();
-      if (close) close.focus();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus —
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
     }} else if (lastFocus) {{
       lastFocus.focus();
     }}
