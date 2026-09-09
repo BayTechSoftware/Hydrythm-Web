@@ -9,7 +9,7 @@ group: Your dashboard
 
 The Cora Max dashboard uses a **fixed grid**. Every tile must fit on one screen; the display does not scroll. That is the main difference from the phone dashboard.
 
-Open the editor from **Settings → Tank settings → [your tank] → Dashboard layout**.
+Open the editor from the **tank menu** — tap the tank name in the top bar, then **Dashboard layout**. It is also under **Settings → Tank settings → [your tank] → Dashboard layout**.
 
 ![The dashboard editor on Cora Max](img/max-dashboard-editor.webp "Grid sizes across the top, then the tiles. Each shows its type and source, not a reading — this is a layout screen. Nothing is written until you press Save.")
 

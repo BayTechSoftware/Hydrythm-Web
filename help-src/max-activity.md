@@ -9,7 +9,7 @@ group: Alerts
 
 Cora Max shows the same activity log as the phone: every **actuation request** — every attempt to change something — and what became of it. A refused or unconfirmed request may never have reached the equipment at all, which is exactly why it is recorded.
 
-Open it from **Settings → Tank settings → [your tank] → Activity**.
+Open it from the **tank menu** — tap the tank name in the top bar — or from **Settings → Tank settings → [your tank] → Activity**.
 
 ![The activity log on Cora Max](img/max-activity.webp "The legend stays at the top of the screen, so an outcome never has to be remembered.")
 

@@ -16,7 +16,7 @@ Cora Max shows one tank at a time, filling the screen with live readings you can
 Left to right:
 
 - **The grid icon** opens the Reef Room, the overview of every tank this screen shows
-- **The tank name**, with a chevron. Tapping it opens the tank menu: Log parameters, Journal, Reef Buddy, Health Reports, Maintenance and ICP Reports
+- **The tank name**, with a chevron. Tapping it opens the **tank menu** — every screen for the tank on display, from logging a test result to arranging the dashboard. The full list is below.
 - **Alert pills** — anything currently out of range, with a **+n** when there are more than fit. Tap to see them all.
 - **The clock**
 - **Online** — Cora Max's own connection state. If this says anything else, the screen is showing you the last data it had.
@@ -52,6 +52,11 @@ Tapping the tank name opens the menu for the tank currently on screen:
 | **Health Reports** | Health assessments |
 | **Maintenance** | The [task list](/help/mobile-maintenance) |
 | **ICP Reports** | Uploaded [lab results](/help/mobile-icp-health) |
+| **Alerts** | The healthy band for each metric on this tank |
+| **Livestock** | This tank's [inventory](/help/mobile-livestock), read-only on this screen |
+| **Activity** | [Every outlet, feed and dose](/help/max-activity), and what came of it |
+| **Dashboard layout** | [Arrange the widgets on this screen](/help/max-dashboard-editing) |
+| **Tank settings** | The full settings screen for this tank |
 
 ## Switching tanks
 
