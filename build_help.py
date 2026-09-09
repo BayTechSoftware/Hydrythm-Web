@@ -100,6 +100,8 @@ class Page:
     section: str
     order: int
     body_md: str
+    group: str = ""
+    reviewed: str = ""
     html: str = ""
     headings: list = field(default_factory=list)
 
@@ -398,19 +400,64 @@ def render(md: str, headings: list) -> str:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def nav_html(pages: list[Page], current: Page) -> str:
+    """Sidebar, grouped by task within each product.
+
+    ⭐ Cora Mobile alone is 33 pages. As one flat list it was a wall you
+    scanned rather than a structure you used — and "which of these is about
+    equipment?" had no answer short of reading all of them. Pages carry a
+    `group:`; the group containing the current page is open, the rest are
+    collapsed, so the shape of the product is visible at a glance.
+
+    ⚠️ <details>/<summary>, deliberately: it collapses with no JavaScript, so
+    the nav is usable before (and without) the script, and each group is a
+    real disclosure widget for a screen reader rather than a div with a
+    click handler.
+    """
     parts = []
     for section in SECTION_ORDER:
-        group = [p for p in pages if p.section == section]
-        if not group:
+        in_sec = sorted(
+            [p for p in pages if p.section == section], key=lambda p: p.order
+        )
+        if not in_sec:
             continue
-        group.sort(key=lambda p: p.order)
         if section:
             parts.append(f'<p class="nav-sec">{html.escape(section)}</p>')
-        parts.append("<ul>")
-        for p in group:
-            cur = ' class="cur" aria-current="page"' if p.slug == current.slug else ""
-            parts.append(f'<li><a href="{p.url}"{cur}>{html.escape(p.title)}</a></li>')
-        parts.append("</ul>")
+
+        # Preserve first-appearance order of the groups.
+        seen: list[str] = []
+        for p in in_sec:
+            if p.group and p.group not in seen:
+                seen.append(p.group)
+
+        ungrouped = [p for p in in_sec if not p.group]
+        if ungrouped:
+            parts.append("<ul>")
+            for p in ungrouped:
+                cur = (
+                    ' class="cur" aria-current="page"'
+                    if p.slug == current.slug
+                    else ""
+                )
+                parts.append(
+                    f'<li><a href="{p.url}"{cur}>{html.escape(p.title)}</a></li>'
+                )
+            parts.append("</ul>")
+
+        for g in seen:
+            members = [p for p in in_sec if p.group == g]
+            here = any(p.slug == current.slug for p in members)
+            parts.append(f'<details class="nav-g"{" open" if here else ""}>')
+            parts.append(f"<summary>{html.escape(g)}</summary><ul>")
+            for p in members:
+                cur = (
+                    ' class="cur" aria-current="page"'
+                    if p.slug == current.slug
+                    else ""
+                )
+                parts.append(
+                    f'<li><a href="{p.url}"{cur}>{html.escape(p.title)}</a></li>'
+                )
+            parts.append("</ul></details>")
     return "\n".join(parts)
 
 
@@ -446,6 +493,17 @@ def search_index(pages: list[Page]) -> str:
             }
         )
     return json.dumps(docs, separators=(",", ":"), ensure_ascii=False)
+
+
+def reviewed_html(page: Page) -> str:
+    """When this page was last checked against the running app.
+
+    ⭐ The build stamp says which RELEASE the guide describes, and it is easy
+    to read that as "every page was re-verified for this release" — which is
+    not what it means, and on a 50-page guide never will be. A per-page date
+    says the narrower, true thing.
+    """
+    return f" Last checked {html.escape(page.reviewed)}." if page.reviewed else ""
 
 
 def prevnext_html(pages: list[Page], current: Page) -> str:
@@ -561,7 +619,7 @@ def shell(page: Page, pages: list[Page]) -> str:
       {toc_html(page)}
 {page.html}
       {prevnext_html(pages, page)}
-      <p class="stamp">Written for Cora Max {STAMP_MAX} and Cora Mobile {STAMP_MOBILE}.</p>
+      <p class="stamp">Written for Cora Max {STAMP_MAX} and Cora Mobile {STAMP_MOBILE}.{reviewed_html(page)}</p>
       <p class="ask">Still stuck? Email <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a> and we'll help.</p>
     </article>
   </main>
@@ -892,6 +950,23 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   margin: 22px 0 8px;
 }
 .hside nav > ul:first-child { margin-top: 4px; }
+.nav-g { margin: 0 0 2px; }
+.nav-g > summary {
+  list-style: none; cursor: pointer; padding: 5px 10px; margin-left: -10px;
+  border-radius: var(--radius-sm); font-size: 14px; font-weight: 600;
+  color: var(--text-2); display: flex; align-items: center; gap: 6px;
+}
+.nav-g > summary::-webkit-details-marker { display: none; }
+.nav-g > summary::before {
+  content: ""; width: 0; height: 0; flex: none;
+  border-left: 5px solid currentColor;
+  border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+  transition: transform .15s ease; opacity: .55;
+}
+.nav-g[open] > summary::before { transform: rotate(90deg); }
+.nav-g > summary:hover { background: var(--surface-2); color: var(--text); }
+.nav-g > ul { margin: 2px 0 8px; padding-left: 12px; border-left: 1px solid var(--line); }
+@media (prefers-reduced-motion: reduce) { .nav-g > summary::before { transition: none; } }
 
 .hmain { padding: 34px 0 72px; min-width: 0; }
 .doc { max-width: 70ch; }
@@ -1223,6 +1298,8 @@ def load_pages() -> list[Page]:
                 description=meta["description"],
                 section=meta["section"] if meta["section"] != "-" else "",
                 order=int(meta["order"]),
+                group=meta.get("group", ""),
+                reviewed=meta.get("reviewed", ""),
                 body_md=body,
             )
         )
@@ -1233,6 +1310,25 @@ def load_pages() -> list[Page]:
     # `nav_html`, while the page is still written and served. That is the worst
     # shape of bug: live, linkable, and unreachable by anyone browsing. A typo
     # in one frontmatter line was enough. Fail instead.
+    # ⛔ A page with no `group:` inside a section whose OTHER pages are grouped
+    # renders above the groups with no label — it reads as a mistake, and it is
+    # exactly what happens when someone adds a page and copies the frontmatter
+    # from before groups existed.
+    #
+    # ⚠️ Deliberately conditional: a section can be entirely ungrouped and that
+    # is fine — "Help" is three pages, where grouping would be noise. The bug is
+    # a section that is PARTLY grouped, so that is what this catches.
+    grouped_sections = {p.section for p in pages if p.group}
+    orphans = [
+        p.slug for p in pages if p.section in grouped_sections and not p.group
+    ]
+    if orphans:
+        raise SystemExit(
+            f"⛔ {orphans} sit in a section whose other pages are grouped, but "
+            f"have no `group:` — they would render above the groups with no "
+            f"label. Add `group:` to the frontmatter."
+        )
+
     known = set(SECTION_ORDER)
     for p in pages:
         if p.section not in known:

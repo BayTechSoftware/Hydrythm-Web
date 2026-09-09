@@ -2,7 +2,9 @@
 title: Activity on Cora Max
 description: Every command this system carried out, refused, or could not confirm — readable at the wall.
 section: Cora Max
+reviewed: 2026-09-09
 order: 10
+group: Alerts
 ---
 
 Cora Max shows the same activity log as the phone: every **actuation request** — every attempt to change something — and what became of it. A refused or unconfirmed request may never have reached the equipment at all, which is exactly why it is recorded.

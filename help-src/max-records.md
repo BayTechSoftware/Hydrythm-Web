@@ -2,7 +2,9 @@
 title: Journal, livestock and maintenance
 description: The record-keeping screens on Cora Max, and when to use them instead of your phone.
 section: Cora Max
+reviewed: 2026-09-09
 order: 8
+group: Records
 ---
 
 Cora Max shows the same records as the phone, but it is not a full editor for all of them. What you can do at the wall differs by area:

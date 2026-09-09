@@ -2,7 +2,9 @@
 title: Asking Cora
 description: How to use Cora Assistant — typing, voice, what it can see, and what it can change.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 23
+group: Intelligence
 ---
 
 Cora Assistant answers questions about your tank in plain language. Because it can see your live readings, your history and your lab results, it answers about *your* tank rather than about reefs in general.

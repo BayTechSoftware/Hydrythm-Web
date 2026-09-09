@@ -2,7 +2,9 @@
 title: Plans
 description: What each plan includes, where to see your usage, and how to change or cancel.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 31
+group: Account
 ---
 
 Monitoring your tank is free and unmetered. The paid tiers raise the AI allowances and unlock Reef Buddy.

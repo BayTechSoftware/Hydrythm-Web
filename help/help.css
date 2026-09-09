@@ -121,6 +121,23 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   margin: 22px 0 8px;
 }
 .hside nav > ul:first-child { margin-top: 4px; }
+.nav-g { margin: 0 0 2px; }
+.nav-g > summary {
+  list-style: none; cursor: pointer; padding: 5px 10px; margin-left: -10px;
+  border-radius: var(--radius-sm); font-size: 14px; font-weight: 600;
+  color: var(--text-2); display: flex; align-items: center; gap: 6px;
+}
+.nav-g > summary::-webkit-details-marker { display: none; }
+.nav-g > summary::before {
+  content: ""; width: 0; height: 0; flex: none;
+  border-left: 5px solid currentColor;
+  border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+  transition: transform .15s ease; opacity: .55;
+}
+.nav-g[open] > summary::before { transform: rotate(90deg); }
+.nav-g > summary:hover { background: var(--surface-2); color: var(--text); }
+.nav-g > ul { margin: 2px 0 8px; padding-left: 12px; border-left: 1px solid var(--line); }
+@media (prefers-reduced-motion: reduce) { .nav-g > summary::before { transition: none; } }
 
 .hmain { padding: 34px 0 72px; min-width: 0; }
 .doc { max-width: 70ch; }

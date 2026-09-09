@@ -2,7 +2,9 @@
 title: Automations and scenes
 description: Build rules that run by themselves — triggers, conditions, actions — and group them into scenes.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 17
+group: Alerts and automation
 ---
 
 An automation is a rule Cora runs for you: *when this happens, check that, then do this.* Scenes group several actions into one thing you can run or schedule.

@@ -2,7 +2,9 @@
 title: Activity and timeline
 description: Everything that has happened to your equipment, and what caused it.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 22
+group: Records
 ---
 
 Activity records every **actuation request** — every attempt to change something — together with what asked for it and what became of it.

@@ -2,7 +2,9 @@
 title: Your data
 description: Export your readings, journal and alerts as spreadsheets, and how to delete your account.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 30
+group: Account
 ---
 
 Your tank records are yours, and you can take them out at any time.

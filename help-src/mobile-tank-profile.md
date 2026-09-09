@@ -2,7 +2,9 @@
 title: Your tank profile
 description: The volume, livestock, equipment and dosing details Cora uses to interpret your readings.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 3
+group: Getting started
 ---
 
 The tank profile describes your system. Cora uses it to judge readings, calculate doses, and decide what is normal for your tank rather than for tanks in general.

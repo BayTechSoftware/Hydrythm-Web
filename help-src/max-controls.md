@@ -2,7 +2,9 @@
 title: Outlets and controls
 description: Switching outlets from Cora Max, using feed mode, and what Auto actually means.
 section: Cora Max
+reviewed: 2026-09-09
 order: 5
+group: Equipment
 ---
 
 Cora Max can switch the equipment on your system — from control widgets on the dashboard, from the Outlets & Feed drawer, or by voice.

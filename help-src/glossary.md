@@ -2,6 +2,7 @@
 title: Glossary
 description: The words Cora uses — tank, source, widget, saved design, threshold, insight and the rest.
 section: Help
+reviewed: 2026-09-09
 order: 2
 ---
 

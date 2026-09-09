@@ -2,7 +2,9 @@
 title: Controlling equipment from Cora Max
 description: Device pages on the big screen — probes, outlets, dosing heads, testers and pumps.
 section: Cora Max
+reviewed: 2026-09-09
 order: 6
+group: Equipment
 ---
 
 Cora Max reaches the same equipment as your phone, with a page for each device. Open them from **Settings → Devices**, or by tapping a device tile on the dashboard.

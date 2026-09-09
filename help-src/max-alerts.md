@@ -2,7 +2,9 @@
 title: Alerts on Cora Max
 description: Alert pills in the top bar, the notification inbox, and editing thresholds at the wall.
 section: Cora Max
+reviewed: 2026-09-09
 order: 11
+group: Alerts
 ---
 
 ## Alert pills

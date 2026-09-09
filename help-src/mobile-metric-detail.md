@@ -2,7 +2,9 @@
 title: Looking into a parameter
 description: Tap any widget for full history, every source reporting it, and where to change its range.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 8
+group: Your dashboard
 ---
 
 A widget shows you a number. Tapping it shows you the story behind the number.

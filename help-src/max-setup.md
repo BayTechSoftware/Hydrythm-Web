@@ -2,7 +2,9 @@
 title: Setting up Cora Max
 description: First run, connecting to Wi-Fi, pairing with your account, and getting your tanks onto the big screen.
 section: Cora Max
+reviewed: 2026-09-09
 order: 1
+group: Getting started
 ---
 
 Cora Max is the command centre for the reef room — a wall screen showing your live system, readable across the room, that also takes voice.

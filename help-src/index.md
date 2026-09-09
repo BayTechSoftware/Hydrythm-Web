@@ -2,6 +2,7 @@
 title: Cora Help
 description: How to set up and run Cora Max and Cora Mobile — onboarding, dashboards, devices, alerts, Reef Buddy, ICP and health reports.
 section: -
+reviewed: 2026-09-09
 order: 0
 ---
 

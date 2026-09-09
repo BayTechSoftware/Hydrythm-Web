@@ -2,7 +2,9 @@
 title: Setting up Cora Mobile
 description: Install Cora, create your account, add your first tank, and get your first readings on screen.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 1
+group: Getting started
 ---
 
 Setup takes around ten minutes. At the end you will have an account, a configured tank, and a dashboard showing live readings.

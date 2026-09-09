@@ -2,7 +2,9 @@
 title: Talking to Cora
 description: Using voice on Cora Max — starting a conversation, what you can ask, and how confirmations work.
 section: Cora Max
+reviewed: 2026-09-09
 order: 12
+group: Intelligence
 ---
 
 Cora Max takes voice, which is the easiest way to use it when your hands are wet or you are across the room.

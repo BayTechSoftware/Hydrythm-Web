@@ -2,7 +2,9 @@
 title: Updates and recovery
 description: How Cora Max updates itself, and what happens if an update goes wrong.
 section: Cora Max
+reviewed: 2026-09-09
 order: 14
+group: Settings
 ---
 
 ## Automatic updates

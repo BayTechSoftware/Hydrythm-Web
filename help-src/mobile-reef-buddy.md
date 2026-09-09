@@ -2,7 +2,9 @@
 title: Reef Buddy
 description: Your daily briefing — what it covers, when it arrives, and how to read the score.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 24
+group: Intelligence
 ---
 
 Reef Buddy is a short daily read on your tank. It arrives each morning, tells you what changed, and flags anything worth your attention before you notice it yourself.

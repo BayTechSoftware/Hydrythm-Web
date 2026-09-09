@@ -2,7 +2,9 @@
 title: Editing your dashboard
 description: Set the column count, add and arrange widgets, resize tiles, and save layouts you can reuse across tanks.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 6
+group: Your dashboard
 ---
 
 The dashboard editor controls which widgets appear on a tank's dashboard and how they are arranged.

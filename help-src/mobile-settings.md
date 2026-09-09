@@ -2,7 +2,9 @@
 title: Settings
 description: A reference for every section of Cora Mobile's settings — account, tanks, dosing, the Assistant, notifications, automation and activity.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 32
+group: Account
 ---
 
 Everything you can configure, in the order it appears.

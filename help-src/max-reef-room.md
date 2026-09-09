@@ -2,7 +2,9 @@
 title: The Reef Room
 description: The multi-tank overview screen, and how to move between tanks on Cora Max.
 section: Cora Max
+reviewed: 2026-09-09
 order: 3
+group: Getting started
 ---
 
 If Cora Max shows more than one tank, the Reef Room is an overview of all of them at once. Open it with the **grid icon** at the far left of the top bar — on screen it is headed **Cora Tanks**.

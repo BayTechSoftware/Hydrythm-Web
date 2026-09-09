@@ -2,7 +2,9 @@
 title: The five tabs
 description: A tour of Cora Mobile — Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 4
+group: Getting started
 ---
 
 Cora Mobile has five tabs along the bottom. Almost everything you do lives in one of them.

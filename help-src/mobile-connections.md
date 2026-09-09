@@ -2,7 +2,9 @@
 title: Connecting your equipment
 description: How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 10
+group: Equipment
 ---
 
 Cora works with equipment you already own. This page covers what is supported and what each connection needs.

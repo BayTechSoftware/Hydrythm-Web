@@ -2,7 +2,9 @@
 title: Widget reference
 description: Every widget type in Cora — value, gauge, graph, status, outlet and the device tiles — and when to use each.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 7
+group: Your dashboard
 ---
 
 A widget is one tile on your dashboard showing one thing. This page covers each type and what you can configure.

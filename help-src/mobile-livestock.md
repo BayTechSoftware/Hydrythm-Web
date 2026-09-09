@@ -2,7 +2,9 @@
 title: Livestock
 description: Keep a record of what is in the tank, when it arrived, and what happened to it.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 20
+group: Records
 ---
 
 Livestock records what the tank holds — corals, fish and invertebrates — together with when each item was added and its current status. Open it from the shortcut row at the bottom of the dashboard.

@@ -2,7 +2,9 @@
 title: Editing the Cora Max dashboard
 description: Choose a grid, add widgets, and save layouts for the Cora Max display.
 section: Cora Max
+reviewed: 2026-09-09
 order: 4
+group: Your dashboard
 ---
 
 The Cora Max dashboard uses a **fixed grid**. Every tile must fit on one screen; the display does not scroll. That is the main difference from the phone dashboard.

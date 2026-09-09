@@ -2,7 +2,9 @@
 title: Getting help
 description: Report a problem from inside the app, and what is sent with it.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 33
+group: Account
 ---
 
 Reporting a problem from inside the app is more useful than describing it afterwards, because the app can attach the details that are hard to remember.

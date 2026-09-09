@@ -2,6 +2,7 @@
 title: Troubleshooting
 description: Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.
 section: Help
+reviewed: 2026-09-09
 order: 1
 ---
 

@@ -2,7 +2,9 @@
 title: Notifications
 description: Choose what reaches your phone, when it may arrive, and where to read what you missed.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 16
+group: Alerts and automation
 ---
 
 **Settings → Notifications** controls everything Cora may send you.

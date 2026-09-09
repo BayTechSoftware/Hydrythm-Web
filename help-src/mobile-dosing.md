@@ -2,7 +2,9 @@
 title: Dosing
 description: Tell Cora what you dose so it can turn millilitres into an actual change in your tank.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 18
+group: Records
 ---
 
 Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream — the calculator, consumption tracking, and what Cora tells you about your dosing — becomes real numbers rather than guesses.

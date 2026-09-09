@@ -2,7 +2,9 @@
 title: Controlling your equipment
 description: Open a device's own page to see its live state and drive it — outlets, pumps, dosing heads and testers.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 11
+group: Equipment
 ---
 
 Connected equipment has its own page in Cora, showing live state and offering whatever controls that device supports. Open one from the **Devices** tab.

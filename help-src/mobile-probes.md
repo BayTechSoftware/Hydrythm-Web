@@ -2,7 +2,9 @@
 title: Probes
 description: Map your controller's probes to Cora parameters, and record calibration and cleaning.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 13
+group: Equipment
 ---
 
 A controller reports probes by its own names. Probe mapping tells Cora which of those is your pH probe, which is temperature, and so on.

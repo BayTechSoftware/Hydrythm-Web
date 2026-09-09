@@ -2,7 +2,9 @@
 title: The Cora Max home screen
 description: What everything on the Cora Max display means — the top bar, the dashboard grid, and the outlets drawer.
 section: Cora Max
+reviewed: 2026-09-09
 order: 2
+group: Getting started
 ---
 
 Cora Max shows one tank at a time, filling the screen with live readings you can read from across the room.

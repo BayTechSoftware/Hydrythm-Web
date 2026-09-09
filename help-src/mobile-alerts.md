@@ -2,7 +2,9 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you get told about, and understand why an alert fired.
 section: Cora Mobile
+reviewed: 2026-09-09
 order: 15
+group: Alerts and automation
 ---
 
 An alert is raised when a reading leaves the range you set for it. You set the ranges, and you control which alerts reach your phone.
