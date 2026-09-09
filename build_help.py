@@ -433,8 +433,16 @@ def search_index(pages: list[Page]) -> str:
                 "s": p.section or "Help",
                 "d": p.description,
                 "h": [t for _, t, _ in p.headings if _ == 2],
-                # Trimmed: enough to match and to show a snippet, not the page.
-                "b": body[:1800],
+                # ⛔ THE WHOLE BODY, NOT A PREFIX. This was capped at 1,800
+                # chars, which is about HALF a typical page — and the bug that
+                # exposed it is instructive: searching "amber" returned
+                # nothing, although the dashboard page has a whole section on
+                # what amber means, because that section sits past 1,800 chars.
+                # A search that silently cannot see half of every page is worse
+                # than no search, because it answers "not here" with confidence.
+                # Longest page is ~5.4 KB; the full index is ~160 KB, well
+                # inside the 250 KB budget the self-test enforces.
+                "b": body,
             }
         )
     return json.dumps(docs, separators=(",", ":"), ensure_ascii=False)
