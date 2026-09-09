@@ -22,7 +22,7 @@ The card at the top shows who you are signed in as and which plan you are on. Ta
 
 Add, reorder and edit your tanks.
 
-- **Tank profiles** — name, volume, type, age, livestock and targets. These are what Cora judges your readings against, so keep them roughly honest as the tank matures.
+- **Tank profiles** — name, volume, type, age, livestock and targets. Your readings are assessed against these, so keep them up to date as the tank matures.
 - **Reorder** — the order your tanks appear when you swipe the dashboard
 - **Vacation mode** — a plan for whoever is minding the tank while you are away. Full detail: **[Going away](/help/mobile-vacation)**. You set the dates and build a checklist of jobs with how often each needs doing, and Cora turns it into a simple read-only page you can share with your tank sitter. They do not need an account.
 - **Removed tanks** — tanks you have deleted, in case you need something back

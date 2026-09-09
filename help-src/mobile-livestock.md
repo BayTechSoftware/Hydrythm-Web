@@ -51,6 +51,6 @@ Record the date even when the cause is not known. The date is what supports late
 
 ## Livestock and the rest of Cora
 
-Your livestock load is part of what Cora judges your parameters against — a heavily stocked SPS system and a lightly stocked softie tank are not held to the same standard.
+Your livestock load is part of what your parameters are assessed against — a heavily stocked SPS system and a lightly stocked softie tank are not held to the same standard.
 
 You can also ask about it. *"When did I add the hammer coral?"* or *"What have I lost this year?"* are answered from this record.

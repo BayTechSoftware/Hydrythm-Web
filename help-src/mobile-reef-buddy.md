@@ -22,13 +22,13 @@ It appears as a card at the top of your dashboard, and as one notification.
 | **Stability** | Out of 100. How steady the tank has been against your targets |
 | **Data** | A percentage. How complete the data behind the assessment is |
 
-A low Data score means the assessment rests on fewer readings than it would like, and is worth more than the Stability number next to it.
+A low Data score means the assessment rests on fewer readings than it would like. Read it first: when Data is low, treat the Stability number beside it as provisional rather than settled.
 
 **A summary** — a short paragraph explaining the headline, referencing your actual values and ranges.
 
 **Insights** — the individual findings. Each carries a category (such as *Water Chemistry*), a cadence (such as *Daily*), and expands for detail. A chip at the top of the section shows the tank type and how complete its profile is, because both affect what Cora can conclude.
 
-Insights are filtered before they reach you: each appears only when it is biologically plausible, statistically persistent, and not already obvious from a single chart.
+Insights are filtered before they reach you. An insight has to hold up over several readings rather than appearing on one, and has to say something a single chart would not already have shown you.
 
 Tap the card on the dashboard to open the full briefing.
 
@@ -36,7 +36,7 @@ Tap the card on the dashboard to open the full briefing.
 
 Once a day, in the early morning, per tank.
 
-On a day when nothing needs your attention, Reef Buddy usually stays quiet rather than pushing to say everything is fine. **If it pushed, something changed.**
+On a day when nothing needs your attention, Reef Buddy usually stays quiet rather than pushing to say everything is fine. **A push means there is something worth acting on** — which may be a new change, or a condition that has persisted long enough to be worth raising.
 
 :::note One tank, one briefing
 Each tank gets its own briefing. If you run three systems you get three, and each is about that system alone.

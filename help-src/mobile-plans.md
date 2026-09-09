@@ -47,10 +47,6 @@ Three tiers — **Plus**, **Pro** and **Max** — each monthly or annual. Curren
 
 Voice and messages draw on the same allowance. Every paid tier includes Reef Buddy, ICP upload and analysis for the labs Cora reads, and comparison against your own history.
 
-:::note Unlimited ICP is not a trick
-An ICP analysis is cheap for us to run and expensive for you to obtain — the lab test itself is the limit, so there is no reason to meter it on the top tier.
-:::
-
 **Settings → your account** opens **Account & Subscription**.
 
 ![Account and subscription](img/mobile-plans.webp "Your plan and its renewal date, with the store controls below it.")
@@ -74,7 +70,7 @@ Each metered feature shows its own usage where you use it:
 - **Assistant** — messages this month, above the message box
 - **Intelligence** — ICP and health reports this month, under the buttons
 
-Those counters are the honest answer to "am I about to run out?".
+Check these when you want to know how much of your monthly allowance is left.
 
 ## Changing plan
 

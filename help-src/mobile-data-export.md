@@ -1,11 +1,11 @@
 ---
 title: Your data
-description: Export everything as spreadsheets, and how to delete your account.
+description: Export your readings, journal and alerts as spreadsheets, and how to delete your account.
 section: Cora Mobile
 order: 29
 ---
 
-Everything Cora records about your tank is yours, and you can take it out at any time.
+Your tank records are yours, and you can take them out at any time.
 
 ![Account data controls](img/mobile-data.webp "Export and deletion sit together at the foot of Account & Subscription.")
 
@@ -19,10 +19,16 @@ Cora exports as **CSV files** — spreadsheets that open in Excel, Numbers, Goog
 
 | File | Contains |
 |---|---|
-| `cora_parameters.csv` | Every reading, with its source and timestamp |
+| `cora_parameters.csv` | Your readings, each with its source and timestamp |
 | `cora_journal.csv` | Your journal entries |
-| `cora_alerts.csv` | Every alert raised |
-| `cora_export_summary.csv` | What the export covers |
+| `cora_alerts.csv` | Alerts raised |
+| `cora_export_summary.csv` | What this export covers, including anything that was truncated |
+
+:::note What the export is, and what it is not
+It covers **readings, journal entries and alerts** — the three records people ask for. It is not a copy of everything in your account: dashboards, livestock, maintenance, automations, reports and device settings are not included.
+
+Each of the three is capped at **25,000 rows per tank**. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will be cut off at the cap. The summary file states plainly when that has happened — check it rather than assuming the file is complete.
+:::
 
 The parameter export carries the **source** of each reading, not just the value — so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.
 

@@ -40,7 +40,7 @@ A widget that shows a **measured parameter** carries the same three things in th
 **The source badge** is the small mark next to the age. It tells you where the number came from: a probe, a controller, a lab result, or you with a test kit. Tap any widget to see the source spelled out along with its recent history.
 
 :::note Why age matters so much
-A perfect alkalinity reading from four days ago is not a current alkalinity reading. Most systems hide this and show you the last number they have as though it were live. Cora puts the age next to every value so you always know what you are looking at.
+A perfect alkalinity reading from four days ago is not a current alkalinity reading. The age sits next to every value so you can tell the difference at a glance.
 :::
 
 ## Colours
@@ -57,10 +57,14 @@ Cora uses colour sparingly, and always to mean the same thing:
 :::note Amber usually means "still fine, but heading somewhere"
 Amber is a *margin*, not a breach. A reading inside its range but within the last 10% of it is ambered deliberately, so drift is visible while there is still time to act rather than at the moment it becomes a problem.
 
-Two refinements follow from that. A **one-sided** limit — a contaminant ceiling, or a nutrient floor — is graded on its high edge only, so copper at zero reads green rather than being ambered for sitting near the bottom of the scale. And a range **Cora supplied** rather than one you set is treated as a soft reference; a boundary you drew yourself is treated as a declared one.
+Two refinements follow from that.
+
+**A range you set yourself is treated as a declared boundary.** Cross it and the widget goes straight to red — no amber margin, because you drew that line deliberately. A range **Cora supplied** is a softer reference: crossing it shows amber for the first 10% beyond the edge, and turns red past that.
+
+**A one-sided limit** — a contaminant ceiling, or a nutrient floor — is graded on its high edge only, so copper at zero reads green rather than being ambered for sitting near the bottom of the scale.
 :::
 
-A widget outlined in amber or red is one Cora wants you to look at. The outline is on the widget, not just the number, so you can spot it while scrolling.
+A widget outlined in amber or red is one that needs attention. The outline is on the widget, not just the number, so it is visible while scrolling.
 
 ## Below the widgets
 

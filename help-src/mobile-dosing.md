@@ -43,7 +43,9 @@ The volume you entered at setup matters here. A stated volume 20% out gives dose
 
 ## Consumption
 
-Once Cora can see both your doses and your readings, it can work out what your tank is actually consuming, and tell you when that changes. A tank whose alkalinity demand climbs is usually a tank that is growing; one whose demand drops suddenly is usually a tank with a problem.
+Once Cora can see both your doses and your readings, it can work out what your tank is actually consuming, and tell you when that changes.
+
+A change in demand is a prompt to look, not a diagnosis. Rising alkalinity demand often reflects growth; a sudden move in either direction can equally come from a dose that is not being delivered, a testing error, precipitation, a water change, or a change to the equipment. Check what changed around the date before drawing a conclusion.
 
 ## Dosing equipment
 

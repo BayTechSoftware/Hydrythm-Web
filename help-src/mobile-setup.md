@@ -42,7 +42,7 @@ The setup wizard covers the following. All of it can be changed later from your 
 That is the whole wizard. Everything else — livestock, equipment, dosing, targets, lighting, flow — is filled in afterwards from [your tank profile](/help/mobile-tank-profile), at your own pace.
 
 :::note Tank age affects how readings are assessed
-Cora judges readings against what is normal for a tank of the age you enter. Record a cycling tank as such.
+Readings are assessed against what is normal for a tank of the age you enter. Record a cycling tank as such.
 :::
 
 ## Connect your equipment

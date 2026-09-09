@@ -39,7 +39,11 @@ The journey reports readiness on what you have logged, not on how many weeks hav
 
 ## Working through an issue
 
-For a problem — nutrients out of range, coral not doing well, something drifting you cannot explain. Cora starts one when it sees a pattern worth pursuing, and you can start one yourself.
+Issue journeys cover **one specific problem: dinoflagellates**. Cora offers one when your readings and your report suggest it; the journey is created only when you accept the offer, never automatically.
+
+:::note Journeys are not a general problem-solver yet
+Cycling and dinoflagellates are the two that exist today. Other problems are worked through with [Cora Assistant](/help/mobile-assistant) and the [journal](/help/mobile-journal) instead.
+:::
 
 An issue journey moves through five stages:
 
@@ -49,8 +53,8 @@ An issue journey moves through five stages:
 4. **Acting** — you do it, over however long it takes.
 5. **Outcome** — did it work?
 
-:::note Validation runs before any advice
-A journey checks your readings before accepting that a problem exists. If the data does not support it, the journey says so rather than proposing a fix.
+:::note Validate is a step you complete, not a check Cora runs
+An issue journey opens on **Validate**, which asks you to confirm what is actually happening before it shows a plan. It is a deliberate first step — you are being asked to look, not being graded. A cycling journey has no reading to validate and starts at **Acting**.
 :::
 
 ### Recording the outcome
@@ -63,4 +67,4 @@ Record the outcome accurately, including **Worse**. The outcome is stored with t
 
 ## Dismissing a journey
 
-If a journey is not useful, dismiss it. It stops appearing and Cora takes the hint.
+If a journey is not useful, dismiss it. It stops appearing, and the dismissal is recorded so similar journeys are offered less readily.

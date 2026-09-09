@@ -58,7 +58,7 @@ A wall display is read from further away than a phone, and usually at a glance r
 
 Nothing you do in the editor takes effect until you press **Save**. Leaving without saving discards the changes.
 
-**My dashboards** keeps layouts you want to come back to, so you can switch between them instead of rebuilding. This is genuinely useful on Cora Max: a dense everyday layout, and a big-tile layout for when you are working in the tank and reading from a distance.
+**My dashboards** keeps layouts you want to come back to, so you can switch between them instead of rebuilding. A dense everyday layout and a big-tile layout for when you are working in the tank suit different moments, and switching between them takes one tap.
 
 ## Multiple tanks
 

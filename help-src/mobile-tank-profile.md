@@ -29,7 +29,7 @@ The percentage at the top shows how much of the profile is filled in. A more com
 | Flow & Filtration | Pumps, skimming and media |
 | Neptune devices | The Apex on this tank and its modules |
 | Red Sea devices | ReefBeat units assigned here |
-| Cora devices | Which Cora hardware serves this tank |
+| Cora Max | Which screens serve this tank |
 | Parameter sources | Which source each parameter is read from |
 | Pests & treatments | What you have dealt with, and what you used |
 
@@ -47,7 +47,7 @@ A volume entered 20% high produces dose recommendations 20% high. If you are uns
 
 ## Tank age
 
-Set the date the tank was started. Cora judges readings against what is normal for a tank of that age — a system three months old and one five years old are assessed differently. If the tank is still cycling, record it as such.
+Set the date the tank was started. Readings are assessed against what is normal for a tank of that age — a system three months old and one five years old are assessed differently. If the tank is still cycling, record it as such.
 
 ## Keeping the profile current
 

@@ -15,11 +15,11 @@ Three buttons sit below the list, and they do different jobs:
 
 | Button | Adds |
 |---|---|
-| **Add Device** | Cora hardware. Finds units already on your WiFi, or nearby ones over Bluetooth. **Enter IP Address Manually** is inside this screen if discovery does not find it. |
+| **Add Device** | A Cora Max. Finds units already on your Wi-Fi, or nearby ones over Bluetooth. **Enter IP Address Manually** is inside this screen if discovery does not find it. |
 | **Find a pump on your network** | Jecod pumps that advertise themselves on the local network |
 | **Add AquaWiz** | An AquaWiz controller, through your AquaWiz account |
 
-![Adding a Cora device](img/mobile-add-device.webp "Add Device searches WiFi and Bluetooth for Cora hardware.")
+![Adding a Cora Max](img/mobile-add-device.webp "Add Device searches Wi-Fi and Bluetooth for a Cora Max.")
 
 Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See [Connecting your equipment](/help/mobile-connections).
 
@@ -31,7 +31,9 @@ Equipment that reads correctly at home may therefore show older values while you
 
 ## Assigning a device to a tank
 
-Every device belongs to a tank. That is what makes its readings appear on that tank's dashboard.
+Most equipment belongs to exactly one tank, and that is what makes its readings appear on that tank's dashboard.
+
+**Cora Max is the exception**: it can be assigned up to four tanks and switches between them on screen. See [More than one Cora device](/help/mobile-multi-device).
 
 Open the device and choose **Tank**. If you run more than one system, this is the setting that matters most: a heater assigned to the wrong tank reports perfectly well into the wrong place.
 

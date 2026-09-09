@@ -5,7 +5,7 @@ section: Cora Mobile
 order: 28
 ---
 
-A household can have several Cora devices. Two settings decide which one does what, so they do not duplicate each other's work — and a third thing worth knowing is what is shared between them at all.
+A household can have more than one Cora Max. Two settings decide which one does what, so they do not duplicate each other's work — and a third thing worth knowing is what is shared between them at all.
 
 ## What is shared, and what is not
 
@@ -33,7 +33,7 @@ The phone does not listen for a wake phrase. You start a conversation on it by t
 
 ## Primary poller
 
-Equipment on your network is read by a Cora device. When more than one device could read the same controller, they would otherwise poll it in parallel.
+Equipment on your network is read by a Cora Max. When more than one could read the same controller, they would otherwise poll it in parallel.
 
 The **primary poller** is a per-tank choice of which device reads that tank's controller.
 

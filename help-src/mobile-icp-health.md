@@ -21,7 +21,7 @@ You do not have to type anything in. Cora handles the common lab formats.
 
 **A score** for the report, and a plain-language summary of what it means for your system specifically — your tank type, your age, your livestock.
 
-**Every element tracked** — not just the headline parameters. Trace elements, contaminants, the lot.
+**Every element tracked** — not only the headline parameters, but trace elements and contaminants as well.
 
 **Top movers** — the "Since your last ICP" card shows what changed most since last time, which is usually the fastest way to understand a new report.
 

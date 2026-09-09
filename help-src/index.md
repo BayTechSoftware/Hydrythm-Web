@@ -30,7 +30,7 @@ Even if Cora Max is what you bought, set your tanks and devices up in Cora Mobil
 
 ## What Cora adds to a controller
 
-Most equipment tells you a number. Cora tells you whether to believe it.
+Cora shows you a number together with what it depends on: where it came from, and how old it is.
 
 Every reading carries where it came from and how old it is. When two sources disagree — a probe against a test kit, a doser against your ICP results — Cora says so rather than quietly averaging them. And when something drifts, **Reef Buddy** tells you in the morning instead of waiting for you to notice.
 

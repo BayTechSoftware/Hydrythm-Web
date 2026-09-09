@@ -33,6 +33,8 @@ Any parameter can be opened as a full-screen chart, over the same ranges as the 
 
 ## Guided journeys
 
-Journeys are **read-only** on Cora Max — you can follow one and see where it has got to.
+You can follow a journey on Cora Max and see where it has got to.
 
-Starting a journey, completing a step, recording an outcome, and resolving or dismissing it are done on the phone. See [Guided journeys](/help/mobile-journeys).
+**A cycling journey also takes readings here** — **Log a test** on the cycling screen records ammonia, nitrite and nitrate without going to your phone, which is the point when you are standing at the tank with a test kit.
+
+An **issue** journey is read-only at the wall: starting one, completing a step, recording an outcome, and resolving or dismissing it are done on the phone. See [Guided journeys](/help/mobile-journeys).

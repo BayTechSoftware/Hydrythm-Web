@@ -53,12 +53,18 @@ Cora can act on your tank as well as talk about it — switching an outlet, star
 Anything that affects your equipment is **confirmed before it happens**. You will be shown exactly what is about to change and asked to approve it. Cora does not act on an ambiguous instruction.
 
 :::warning Advisory, not authority
-Cora's advice is exactly that. Verify anything important with your own testing, and treat big changes the way you would treat advice from anyone else — sanity-check it before you act. The line under the message box says the same thing, and it means it.
+Cora's advice is exactly that. Verify anything important with your own testing, and treat big changes the way you would treat advice from anyone else — sanity-check it before you act. The line under the message box says the same thing.
 :::
 
 ## Memory
 
 ![Assistant settings](img/mobile-assistant-settings.webp "Consent, memory, voice and usage limits, under Settings.")
+
+:::note What clearing memory does and does not touch
+Clearing removes what Cora has remembered *about your conversations* — its profile of your system, the concerns it was tracking, and every stored session. If any part of that cannot be removed, the app tells you it failed rather than reporting success.
+
+It does not touch your **tank data**: readings, journal, livestock, maintenance and reports are yours and stay exactly as they are. Clearing memory makes the Assistant forget the conversation, not the tank.
+:::
 
 Cora remembers things about your tank between conversations — that you dose two-part, that your frag tank shares a sump, that you are trying to bring nutrients up. This is what stops you re-explaining your system every time.
 

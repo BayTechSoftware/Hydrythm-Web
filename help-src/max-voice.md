@@ -89,5 +89,5 @@ Reef vocabulary is hard, and equipment names are harder. If Cora repeatedly mish
 Use it to check placement and background noise. A unit that never approaches the threshold is usually too far away, or competing with a noisy sump.
 
 :::note Only one device answers
-If several Cora devices can hear you, only the designated responder replies. Change which one under [More than one Cora device](/help/mobile-multi-device).
+If more than one screen can hear you, only the designated responder replies. Change which one under [More than one Cora device](/help/mobile-multi-device).
 :::

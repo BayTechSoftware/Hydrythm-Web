@@ -62,7 +62,7 @@ This is Cora working, not Cora failing. When your probe and your test kit disagr
 
 An ICP result is a useful third opinion here, but it does not settle the argument: laboratories differ from one another, and a sample's handling and transit move the result. Two tests agreeing is worth far more than one.
 
-Usually the probe needs calibrating. Sometimes the test kit is old. An ICP result is the tiebreaker — see [ICP and health reports](/help/mobile-icp-health).
+Usually the probe needs calibrating; sometimes the test kit is old. Calibrate the probe, run the test again with fresh reagent, and compare the two under the same conditions. An [ICP result](/help/mobile-icp-health) adds a third data point to that comparison.
 
 ## I'm not getting notifications
 
@@ -72,7 +72,7 @@ Usually the probe needs calibrating. Sometimes the test kit is old. An ICP resul
 
 ## Establishing why something changed
 
-**Settings → Activity** lists every outlet switch, feed, dose and plug change, with what caused it — you, a rule, a schedule, or the Assistant.
+**Settings → Activity** lists every outlet switch, feed, dose and plug change, with what asked for it — this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.
 
 ## My dashboard looks wrong after editing
 

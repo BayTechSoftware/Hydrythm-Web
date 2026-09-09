@@ -15,7 +15,7 @@ Open it from **Settings → Tank settings → [your tank] → Activity**.
 
 Each row names the action, the equipment and the time, then two things that matter more than either.
 
-**What asked for it** — you at this screen, you on your phone, a schedule, an [automation](/help/mobile-automation), or the Assistant. An entry made at the wall says so in as many words.
+**What asked for it** — you at this screen, you on your phone, voice, the Assistant, an [automation](/help/mobile-automation) rule, a smart button, or your account. An entry made at the wall says so in as many words.
 
 **How it travelled** — whether the command went across your own network or by way of your account, and which Cora carried it out. On a system with more than one Cora, this is how you tell which one acted.
 

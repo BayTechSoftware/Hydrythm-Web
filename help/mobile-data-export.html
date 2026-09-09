@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Your data — Cora Help</title>
-  <meta name="description" content="Export everything as spreadsheets, and how to delete your account.">
+  <meta name="description" content="Export your readings, journal and alerts as spreadsheets, and how to delete your account.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-data-export">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Your data — Cora Help">
-  <meta property="og:description" content="Export everything as spreadsheets, and how to delete your account.">
+  <meta property="og:description" content="Export your readings, journal and alerts as spreadsheets, and how to delete your account.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-data-export">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -110,13 +110,15 @@
     <article class="doc">
       <h1>Your data</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#exporting">Exporting</a></li><li><a href="#signing-out-versus-deleting">Signing out versus deleting</a></li><li><a href="#deleting-your-account">Deleting your account</a></li><li><a href="#contributing-anonymised-data">Contributing anonymised data</a></li><li><a href="#what-cora-stores">What Cora stores</a></li></ul></nav>
-<p>Everything Cora records about your tank is yours, and you can take it out at any time.</p>
+<p>Your tank records are yours, and you can take them out at any time.</p>
 <figure class="shot phone"><img src="img/mobile-data.webp" alt="Account data controls" width="620" height="1196" loading="lazy" decoding="async"><figcaption>Export and deletion sit together at the foot of Account &amp;amp; Subscription.</figcaption></figure>
 <h2 id="exporting">Exporting</h2>
 <p><strong>Settings → your account → Export My Data.</strong></p>
 <p>Exporting is <strong>free on every plan</strong>, including the free one.</p>
 <p>Cora exports as <strong>CSV files</strong> — spreadsheets that open in Excel, Numbers, Google Sheets, or anything that reads a table:</p>
-<div class="tw"><table><thead><tr><th>File</th><th>Contains</th></tr></thead><tbody><tr><td><code>cora_parameters.csv</code></td><td>Every reading, with its source and timestamp</td></tr><tr><td><code>cora_journal.csv</code></td><td>Your journal entries</td></tr><tr><td><code>cora_alerts.csv</code></td><td>Every alert raised</td></tr><tr><td><code>cora_export_summary.csv</code></td><td>What the export covers</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>File</th><th>Contains</th></tr></thead><tbody><tr><td><code>cora_parameters.csv</code></td><td>Your readings, each with its source and timestamp</td></tr><tr><td><code>cora_journal.csv</code></td><td>Your journal entries</td></tr><tr><td><code>cora_alerts.csv</code></td><td>Alerts raised</td></tr><tr><td><code>cora_export_summary.csv</code></td><td>What this export covers, including anything that was truncated</td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">What the export is, and what it is not</p><p>It covers <strong>readings, journal entries and alerts</strong> — the three records people ask for. It is not a copy of everything in your account: dashboards, livestock, maintenance, automations, reports and device settings are not included.</p>
+<p>Each of the three is capped at <strong>25,000 rows per tank</strong>. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will be cut off at the cap. The summary file states plainly when that has happened — check it rather than assuming the file is complete.</p></aside>
 <p>The parameter export carries the <strong>source</strong> of each reading, not just the value — so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.</p>
 <aside class="cal cal-note"><p class="cal-t">Export before major changes</p><p>Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of the app and your account.</p></aside>
 <h2 id="signing-out-versus-deleting">Signing out versus deleting</h2>

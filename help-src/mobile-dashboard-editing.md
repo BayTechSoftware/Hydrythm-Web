@@ -75,7 +75,9 @@ Loading a design keeps only the tiles the target can actually populate. Anything
 
 ## Restoring a previous layout
 
-A saved design is how you return to a layout you liked. Save one while the dashboard is arranged the way you want it, and any later edit becomes a single tap to undo.
+A saved design is how you return to a layout you liked. Save one while the dashboard is arranged the way you want it, and you can reapply it later.
+
+It is a **restore, not an undo**: you pick the design from the list, confirm it, and it replaces the current layout — including dropping any tile the tank cannot fill. It brings back the layout you saved, not the state before your last edit.
 
 Readings, history and journal entries are stored separately from layout, so no edit to a dashboard can lose them.
 

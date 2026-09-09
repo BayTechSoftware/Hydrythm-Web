@@ -34,7 +34,7 @@ The remainder of the screen is the dashboard: a fixed grid of widgets, all visib
 
 Widgets work the same as on your phone, at a size you can read standing back. See **[Widget reference](/help/mobile-widgets)** for what each shape shows, and **[Editing the Cora Max dashboard](/help/max-dashboard-editing)** to change what is on it.
 
-Every widget showing a measured parameter carries its **age** and its **source**, just like on the phone. A number with `2d` next to it is two days old, and Cora will not pretend otherwise. Device and control tiles show their own state instead.
+Every widget showing a measured parameter carries its **age** and its **source**, just like on the phone. A number with `2d` next to it is two days old, and is shown as such. Device and control tiles show their own state instead.
 
 ## The tank menu
 

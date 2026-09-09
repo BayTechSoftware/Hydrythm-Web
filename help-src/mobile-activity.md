@@ -7,7 +7,7 @@ order: 21
 
 Activity records every **actuation request** — every attempt to change something — together with what asked for it and what became of it.
 
-A request is not the same as a change. Refused requests never ran, no-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded, which is what makes the log worth reading.
+A request is not the same as a change. Refused requests never ran, no-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded.
 
 **Settings → Activity.**
 
@@ -21,7 +21,7 @@ A request that was **refused**, that made **no change**, or that went out and ca
 
 ## What caused it
 
-This is the column that matters. Each entry names its cause:
+Each entry names its cause:
 
 | Cause | Means |
 |---|---|
