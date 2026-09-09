@@ -11,16 +11,18 @@ If Cora Max shows more than one tank, the Reef Room is an overview of all of the
 
 ## The layout
 
-Each tank gets a tile filling an equal share of the screen. The arrangement follows the number of tanks:
+A Cora Max shows **up to four tanks**, and the Reef Room gives each one an equal share of the screen:
 
 | Tanks | Layout |
 |---|---|
-| 1 | Full screen |
+| 1 | No Reef Room — the screen opens straight onto that tank |
 | 2 | Side by side |
 | 3 | Three across |
 | 4 | Two by two |
-| 5–6 | Three by two |
-| 7+ | A scrolling grid |
+
+:::note Four is the limit, and it is enforced
+A Cora Max can be assigned at most four tanks, both when you pair it and afterwards from **Devices → your Cora Max**. Adding a fifth asks you to remove one first. If you run more tanks than that, use a second screen — each keeps its own set.
+:::
 
 ## What a tile shows
 
@@ -39,7 +41,7 @@ A tank needing attention is identifiable from across the room without touching t
 
 - **Tap a tile**, or **Open dashboard**, to go to that tank.
 - **Swipe sideways** on the dashboard to move between tanks and back to the Reef Room.
-- **The grid icon** returns to the Reef Room from anywhere.
+- **The grid icon** returns to the Reef Room from any tank page. It is absent on the Reef Room itself, which is already where it goes.
 
 Each tank keeps its own dashboard layout, so the screen changes completely as you move between them. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
 

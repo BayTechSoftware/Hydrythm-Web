@@ -20,7 +20,7 @@ Left to right:
 - **Online** — Cora Max's own connection state. If this says anything else, the screen is showing you the last data it had.
 - **Battery and Wi-Fi**
 - **The devices icon** — everything connected, and how it is doing
-- **The journal icon** — add an entry without leaving the screen. A dot means there is something new.
+- **The Reef Buddy icon** — opens today's briefing. A dot means the briefing has not been read yet.
 - **The Cora swoosh** — starts a voice conversation
 - **The gear** — settings
 

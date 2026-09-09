@@ -24,7 +24,11 @@ Reach all of them from the **tank menu** — tap the tank name in the top bar.
 
 Add an entry without leaving the tank. This is usually the more convenient of the two — the wall screen is where you are standing when you do the work.
 
-The journal icon in the top bar shows a marker when there is something new. See [The journal](/help/mobile-journal).
+Reach it from the **tank menu** — tap the tank name in the top bar — then use **+** to add an entry, or say *"Hey Cora, log that I fed mysis."* See [The journal](/help/mobile-journal).
+
+:::note There is no journal icon in the top bar
+The icon beside the devices icon is **Reef Buddy**, and its dot means today's briefing is unread. Journal entries are added from the tank menu, or by voice.
+:::
 
 ## Livestock
 

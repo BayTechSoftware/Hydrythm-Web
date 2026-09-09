@@ -7,7 +7,7 @@ order: 2
 
 The tank profile describes your system. Cora uses it to judge readings, calculate doses, and decide what is normal for your tank rather than for tanks in general.
 
-To open it, tap the **pencil** beside the tank name on the dashboard.
+To open it, tap the **pencil on the right of the tank header**. The small glyph beside the tank name is a quick rename, not this.
 
 ![The tank profile editor](img/mobile-tank-profile.webp "Each section shows a completion state. The score at the top reflects how much Cora knows about the tank.")
 
