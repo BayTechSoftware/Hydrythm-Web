@@ -21,9 +21,9 @@
   <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=20260908f">
+  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=b753281bb5">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -42,7 +42,9 @@
 </header>
 
 <div class="hwrap">
-  <aside class="hside" id="hside">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Close navigation">&times;</button>
     <nav aria-label="Guide">
 <ul>
 <li><a href="/help/">Cora Help</a></li>
@@ -159,11 +161,57 @@
 
 <script>
 (function () {
-  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
   if (!b || !s) return;
-  b.addEventListener('click', function () {
-    var open = s.classList.toggle('open');
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
     b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      if (close) close.focus();
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
   });
 })();
 </script>

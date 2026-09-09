@@ -247,17 +247,50 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
 .legal a { color: var(--text-2); }
 
 /* ── Responsive ──────────────────────────────────────────────────────── */
+.hclose { display: none; }
+
 @media (max-width: 900px) {
   .hwrap { grid-template-columns: 1fr; gap: 0; }
   .hmenu { display: block; }
+
+  /* ⛔ WAS `display:block` ON A STATIC ASIDE, which inserted the whole guide
+     — 50 links — above the article and pushed the page you came to read off
+     the bottom of the screen. A drawer overlays instead, scrolls on its own,
+     and closes. */
   .hside {
-    display: none; position: static; max-height: none; overflow: visible;
-    padding: 18px 0 8px; border-bottom: 1px solid var(--line);
+    display: block; position: fixed; top: 0; right: 0; bottom: 0;
+    width: min(86vw, 340px); height: 100dvh; max-height: none;
+    overflow-y: auto; overscroll-behavior: contain;
+    background: var(--surface); border-left: 1px solid var(--line);
+    box-shadow: -18px 0 40px rgba(0,0,0,.18);
+    padding: 56px 20px 40px; z-index: 60;
+    transform: translateX(100%); visibility: hidden;
+    transition: transform .22s ease, visibility .22s;
   }
-  .hside.open { display: block; }
+  .hside.open { transform: none; visibility: visible; }
+
+  .hscrim {
+    position: fixed; inset: 0; z-index: 55;
+    background: rgba(0,0,0,.38);
+  }
+  .hclose {
+    display: block; position: absolute; top: 10px; right: 12px;
+    width: 40px; height: 40px; line-height: 1; font-size: 26px;
+    background: none; border: 0; border-radius: var(--radius-sm);
+    color: var(--text-2); cursor: pointer;
+  }
+  .hclose:hover { background: var(--surface-2); color: var(--text); }
+
+  /* Stop the page scrolling under an open drawer. */
+  html.nav-open, html.nav-open body { overflow: hidden; }
+
   .hmain { padding-top: 26px; }
   .toc ul { columns: 1; }
   .doc h1 { font-size: 29px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hside { transition: none; }
 }
 @media (max-width: 520px) {
   .hnav-in, .hwrap, .hfoot-in { padding-left: 18px; padding-right: 18px; }

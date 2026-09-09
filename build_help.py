@@ -23,6 +23,7 @@ import html
 import re
 import sys
 from dataclasses import dataclass, field
+import hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -30,10 +31,15 @@ SRC = ROOT / "help-src"
 OUT = ROOT / "help"
 SITE = "https://coraiq.tech"
 
-# ⚠️ Bump when help.css changes — GitHub Pages serves `max-age=600` with
-# INDEPENDENT windows per file, so new HTML + old CSS is a real, ordinary
-# state and it renders as a convincing fake bug.
-CSS_VERSION = "20260908f"
+# ⭐ DERIVED FROM THE CSS ITSELF, set in `main()` before any page renders.
+# It used to be a hand-bumped string, which is the same class of defect as the
+# hand-written self-test count and version stamp: a value restating something
+# the build already knows, wrong the moment somebody forgets. GitHub Pages
+# serves `max-age=600` with INDEPENDENT windows per file, so new HTML + old CSS
+# is an ordinary state that renders as a convincing fake bug — the hash makes
+# it impossible instead of merely remembered.
+CSS_VERSION = "dev"
+FONTS_VERSION = "1"
 
 # The version stamp every page carries. A guide that does not say which build
 # it describes goes stale invisibly; this makes it visible instead.
@@ -428,8 +434,8 @@ def shell(page: Page, pages: list[Page]) -> str:
   <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=1" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=1"></noscript>
+  <link rel="stylesheet" href="/fonts.css?v={FONTS_VERSION}" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v={FONTS_VERSION}"></noscript>
   <link rel="stylesheet" href="/help/help.css?v={CSS_VERSION}">
 </head>
 <body>
@@ -449,7 +455,9 @@ def shell(page: Page, pages: list[Page]) -> str:
 </header>
 
 <div class="hwrap">
-  <aside class="hside" id="hside">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Close navigation">&times;</button>
     <nav aria-label="Guide">
 {nav_html(pages, page)}
     </nav>
@@ -480,11 +488,57 @@ def shell(page: Page, pages: list[Page]) -> str:
 
 <script>
 (function () {{
-  var b = document.getElementById('hmenu'), s = document.getElementById('hside');
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
   if (!b || !s) return;
-  b.addEventListener('click', function () {{
-    var open = s.classList.toggle('open');
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {{
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }}
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {{
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
     b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {{
+      lastFocus = document.activeElement;
+      reveal();
+      if (close) close.focus();
+    }} else if (lastFocus) {{
+      lastFocus.focus();
+    }}
+  }}
+
+  b.addEventListener('click', function () {{ setOpen(!s.classList.contains('open')); }});
+  if (close) close.addEventListener('click', function () {{ setOpen(false); }});
+  if (scrim) scrim.addEventListener('click', function () {{ setOpen(false); }});
+
+  document.addEventListener('keydown', function (e) {{
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') {{ setOpen(false); return; }}
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) {{ e.preventDefault(); last.focus(); }}
+    else if (!e.shiftKey && document.activeElement === last) {{ e.preventDefault(); first.focus(); }}
+  }});
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {{
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
   }});
 }})();
 </script>
@@ -700,17 +754,50 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
 .legal a { color: var(--text-2); }
 
 /* ── Responsive ──────────────────────────────────────────────────────── */
+.hclose { display: none; }
+
 @media (max-width: 900px) {
   .hwrap { grid-template-columns: 1fr; gap: 0; }
   .hmenu { display: block; }
+
+  /* ⛔ WAS `display:block` ON A STATIC ASIDE, which inserted the whole guide
+     — 50 links — above the article and pushed the page you came to read off
+     the bottom of the screen. A drawer overlays instead, scrolls on its own,
+     and closes. */
   .hside {
-    display: none; position: static; max-height: none; overflow: visible;
-    padding: 18px 0 8px; border-bottom: 1px solid var(--line);
+    display: block; position: fixed; top: 0; right: 0; bottom: 0;
+    width: min(86vw, 340px); height: 100dvh; max-height: none;
+    overflow-y: auto; overscroll-behavior: contain;
+    background: var(--surface); border-left: 1px solid var(--line);
+    box-shadow: -18px 0 40px rgba(0,0,0,.18);
+    padding: 56px 20px 40px; z-index: 60;
+    transform: translateX(100%); visibility: hidden;
+    transition: transform .22s ease, visibility .22s;
   }
-  .hside.open { display: block; }
+  .hside.open { transform: none; visibility: visible; }
+
+  .hscrim {
+    position: fixed; inset: 0; z-index: 55;
+    background: rgba(0,0,0,.38);
+  }
+  .hclose {
+    display: block; position: absolute; top: 10px; right: 12px;
+    width: 40px; height: 40px; line-height: 1; font-size: 26px;
+    background: none; border: 0; border-radius: var(--radius-sm);
+    color: var(--text-2); cursor: pointer;
+  }
+  .hclose:hover { background: var(--surface-2); color: var(--text); }
+
+  /* Stop the page scrolling under an open drawer. */
+  html.nav-open, html.nav-open body { overflow: hidden; }
+
   .hmain { padding-top: 26px; }
   .toc ul { columns: 1; }
   .doc h1 { font-size: 29px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hside { transition: none; }
 }
 @media (max-width: 520px) {
   .hnav-in, .hwrap, .hfoot-in { padding-left: 18px; padding-right: 18px; }
@@ -799,6 +886,15 @@ def build(check_only: bool = False) -> int:
 
     written, stale = 0, []
     css = f"{extract_root()}\n{HELP_LAYOUT}"
+
+    # ⭐ Hash before rendering: `shell()` reads these globals at call time.
+    global CSS_VERSION, FONTS_VERSION
+    CSS_VERSION = hashlib.sha256(css.encode("utf-8")).hexdigest()[:10]
+    fonts = ROOT / "fonts.css"
+    if fonts.exists():
+        FONTS_VERSION = hashlib.sha256(
+            fonts.read_bytes()).hexdigest()[:10]
+
     targets = [(OUT / "help.css", css)] + [(p.out_path, shell(p, pages)) for p in pages]
 
     for path, content in targets:
