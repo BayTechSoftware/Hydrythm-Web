@@ -2,7 +2,7 @@
 title: Sharing your tank
 description: Produce a share-ready card showing your tank's current state.
 section: Cora Mobile
-order: 26
+order: 27
 ---
 
 Cora can produce a **tank snapshot** — a single card showing your tank's current parameters, formatted for sharing.

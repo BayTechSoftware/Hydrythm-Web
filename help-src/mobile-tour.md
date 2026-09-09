@@ -2,7 +2,7 @@
 title: The five tabs
 description: A tour of Cora Mobile — Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.
 section: Cora Mobile
-order: 3
+order: 4
 ---
 
 Cora Mobile has five tabs along the bottom. Almost everything you do lives in one of them.
@@ -40,6 +40,12 @@ Full detail: **[ICP and health reports](/help/mobile-icp-health)**.
 Account, tanks, dosing products, the Assistant, notifications, automation, and your plan.
 
 Full detail: **[Settings](/help/mobile-settings)**.
+
+## The first-run tour
+
+The first time you open the dashboard, Cora points out the parts of the screen in turn. It runs once.
+
+To see it again, use **Settings → About → Replay tips**. It restarts the tour and takes you to the dashboard so it begins straight away — useful after an update, or when handing the app to someone else.
 
 ## Two controls outside the tabs
 

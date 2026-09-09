@@ -2,7 +2,7 @@
 title: More than one Cora device
 description: Choose which device answers voice and which one polls each tank.
 section: Cora Mobile
-order: 28
+order: 29
 ---
 
 A household can have more than one Cora Max. Two settings decide which one does what, so they do not duplicate each other's work — and a third thing worth knowing is what is shared between them at all.

@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adding, editing and removing devices — Cora Help</title>
-  <meta name="description" content="How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.">
+  <title>Getting help — Cora Help</title>
+  <meta name="description" content="Report a problem from inside the app, and what is sent with it.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
-  <link rel="canonical" href="https://coraiq.tech/help/mobile-devices">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-support">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Adding, editing and removing devices — Cora Help">
-  <meta property="og:description" content="How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.">
+  <meta property="og:title" content="Getting help — Cora Help">
+  <meta property="og:description" content="Report a problem from inside the app, and what is sent with it.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://coraiq.tech/help/mobile-devices">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-support">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -57,7 +57,7 @@
 <li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
 <li><a href="/help/mobile-widgets">Widget reference</a></li>
 <li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
-<li><a href="/help/mobile-devices" class="cur" aria-current="page">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
 <li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
@@ -81,7 +81,7 @@
 <li><a href="/help/mobile-data-export">Your data</a></li>
 <li><a href="/help/mobile-plans">Plans</a></li>
 <li><a href="/help/mobile-settings">Settings</a></li>
-<li><a href="/help/mobile-support">Getting help</a></li>
+<li><a href="/help/mobile-support" class="cur" aria-current="page">Getting help</a></li>
 </ul>
 <p class="nav-sec">Cora Max</p>
 <ul>
@@ -110,33 +110,25 @@
 
   <main class="hmain" id="main">
     <article class="doc">
-      <h1>Adding, editing and removing devices</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#adding-equipment">Adding equipment</a></li><li><a href="#assigning-a-device-to-a-tank">Assigning a device to a tank</a></li><li><a href="#renaming">Renaming</a></li><li><a href="#checking-whether-a-device-is-healthy">Checking whether a device is healthy</a></li><li><a href="#removing-a-device">Removing a device</a></li></ul></nav>
-<p>The <strong>Devices</strong> tab is everything you have connected, grouped by brand. Each group collapses so a reef room full of equipment stays readable.</p>
-<figure class="shot"><img src="img/mobile-devices.webp" alt="The Devices tab" width="1100" height="493" loading="lazy" decoding="async"><figcaption>Equipment is grouped by brand. Each group collapses.</figcaption></figure>
-<h2 id="adding-equipment">Adding equipment</h2>
-<p>Three buttons sit below the list, and they do different jobs:</p>
-<div class="tw"><table><thead><tr><th>Button</th><th>Adds</th></tr></thead><tbody><tr><td><strong>Add Device</strong></td><td>A Cora Max. Finds units already on your Wi-Fi, or nearby ones over Bluetooth. <strong>Enter IP Address Manually</strong> is inside this screen if discovery does not find it.</td></tr><tr><td><strong>Find a pump on your network</strong></td><td>Jecod pumps that advertise themselves on the local network</td></tr><tr><td><strong>Add AquaWiz</strong></td><td>An AquaWiz controller, through your AquaWiz account</td></tr></tbody></table></div>
-<figure class="shot phone"><img src="img/mobile-add-device.webp" alt="Adding a Cora Max" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Add Device searches Wi-Fi and Bluetooth for a Cora Max.</figcaption></figure>
-<p>Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora and your phone need the same network</p><p>Equipment discovered locally must be on the same network as your phone when you add it. <strong>After setup it is still only reachable over that network</strong> — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.</p>
-<p>Equipment that reads correctly at home may therefore show older values while you are away, unless a Cora Max on site can poll it. This reflects where the equipment is reachable from, rather than a fault.</p></aside>
-<h2 id="assigning-a-device-to-a-tank">Assigning a device to a tank</h2>
-<p>Most equipment belongs to exactly one tank, and that is what makes its readings appear on that tank's dashboard.</p>
-<p><strong>Cora Max is the exception</strong>: it can be assigned up to four tanks and switches between them on screen. See <a href="/help/mobile-multi-device">More than one Cora device</a>.</p>
-<p>Open the device and choose <strong>Tank</strong>. If you run more than one system, this is the setting that matters most: a heater assigned to the wrong tank reports perfectly well into the wrong place.</p>
-<aside class="cal cal-warning"><p class="cal-t">Assign the tank before you rely on the readings</p><p>A device with no tank still reports, but its numbers have nowhere to land. If a device you have just added is not appearing on a dashboard, check this first.</p></aside>
-<h2 id="renaming">Renaming</h2>
-<p>Open the device and edit its name. Use the name you use for it day to day — "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.</p>
-<p>Renaming is local to Cora. It does not change the name on the manufacturer's own app.</p>
-<h2 id="checking-whether-a-device-is-healthy">Checking whether a device is healthy</h2>
-<p>Each row shows its current state. What you want to see is a recent update time and no warning.</p>
-<div class="tw"><table><thead><tr><th>What you see</th><th>What it means</th></tr></thead><tbody><tr><td>A recent update time</td><td>Working normally</td></tr><tr><td>"Updated 3 h ago" on something that reports hourly</td><td>Fine</td></tr><tr><td>"Could not reach…"</td><td>A network problem, or the device is off</td></tr><tr><td>"…refused the sign-in"</td><td>The manufacturer's account needs reconnecting — open the device and sign in again</td></tr><tr><td>Nothing at all</td><td>It has never reported; check the tank assignment and the connection</td></tr></tbody></table></div>
-<h2 id="removing-a-device">Removing a device</h2>
-<p>Open the device and choose <strong>Remove</strong>. You will be asked to confirm, and told exactly what is being removed.</p>
-<p><strong>Your readings are kept.</strong> Removing a device stops Cora collecting new data from it; the history it already gathered stays on the tank, and any widget pointed at it keeps its past readings.</p>
-<p>What you lose is the live link — and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.</p>
-<aside class="cal cal-tip"><p class="cal-t">Quieten a noisy device without removing it</p><p>If a device is working correctly but alerting too often, adjust its thresholds or notification settings — see <strong><a href="/help/mobile-alerts">Alerts and thresholds</a></strong>. That keeps the connection and the data while stopping the noise.</p></aside>
+      <h1>Getting help</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-you-fill-in">What you fill in</a></li><li><a href="#what-is-attached-automatically">What is attached automatically</a></li><li><a href="#screenshots">Screenshots</a></li><li><a href="#automatic-crash-reports">Automatic crash reports</a></li><li><a href="#elsewhere">Elsewhere</a></li></ul></nav>
+<p>Reporting a problem from inside the app is more useful than describing it afterwards, because the app can attach the details that are hard to remember.</p>
+<p><strong>Settings → Report a Bug / Send Feedback.</strong></p>
+<h2 id="what-you-fill-in">What you fill in</h2>
+<p>The sheet asks two things: <strong>what kind of thing it is</strong>, so the report reaches the right place, and <strong>what happened</strong> in your own words.</p>
+<p>Be specific about what you expected and what you saw instead. "Alkalinity showed 2 d old on the dashboard when the Apex was reading fine" is worth more than "readings broken".</p>
+<h2 id="what-is-attached-automatically">What is attached automatically</h2>
+<p>A short line of context goes with every report, and the sheet shows it to you before you send:</p>
+<ul><li>the <strong>app version</strong></li><li>your <strong>platform</strong> and OS version</li><li>the <strong>screen</strong> you were on when you opened the sheet</li></ul>
+<p>That is what turns "it did not work" into something reproducible. It is displayed rather than hidden, so nothing is sent that you have not seen.</p>
+<h2 id="screenshots">Screenshots</h2>
+<p><strong>Attach a screenshot</strong> adds an image to the report, and <strong>Remove screenshot</strong> takes it off again before sending.</p>
+<aside class="cal cal-warning"><p class="cal-t">A screenshot is visible to Cora support</p><p>The app says so above the control. Check the image before attaching it — a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Why there is no screenshot control in sitter mode</p><p>When you are viewing somebody else's tank through a shared link, the screenshot option is not offered. A screenshot taken then would attach <em>their</em> data to <em>your</em> support ticket, and they would never see it had happened.</p></aside>
+<h2 id="automatic-crash-reports">Automatic crash reports</h2>
+<p><strong>Send crash reports</strong>, beside the report row, is the same promise made without you having to notice something broke and write it up: if the app crashes, it reports the crash by itself. See <a href="/help/mobile-settings">Settings</a>.</p>
+<h2 id="elsewhere">Elsewhere</h2>
+<ul><li>Questions about your own tank are usually faster through <strong><a href="/help/mobile-assistant">Cora Assistant</a></strong>, which can see your readings.</li><li>Something not behaving as documented: <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> first.</li></ul>
       <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>

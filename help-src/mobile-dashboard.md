@@ -2,7 +2,7 @@
 title: Reading your dashboard
 description: How to read Cora's dashboard — widgets, freshness, sources, and what the colours mean.
 section: Cora Mobile
-order: 4
+order: 5
 ---
 
 The dashboard is a grid of **widgets**, each showing one thing about one tank. What is on it is entirely up to you — see **[Editing your dashboard](/help/mobile-dashboard-editing)**.

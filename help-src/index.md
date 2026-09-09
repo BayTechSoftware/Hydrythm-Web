@@ -52,6 +52,8 @@ Beyond readings and dashboards, Cora keeps the rest of the job in one place:
 - **[Activity](/help/mobile-activity)** — what happened to your equipment, and what caused it
 - **[Going away](/help/mobile-vacation)** — a plan you can hand to a tank sitter
 - **[Your data](/help/mobile-data-export)** — exports, and deleting your account
+- **[Signing in and account recovery](/help/mobile-account)** — passwords, verification, and a wrong email address
+- **[Getting help](/help/mobile-support)** — reporting a problem, and what is sent with it
 
 ## Your equipment
 

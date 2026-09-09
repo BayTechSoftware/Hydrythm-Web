@@ -2,7 +2,7 @@
 title: Adding, editing and removing devices
 description: How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.
 section: Cora Mobile
-order: 8
+order: 9
 ---
 
 The **Devices** tab is everything you have connected, grouped by brand. Each group collapses so a reef room full of equipment stays readable.

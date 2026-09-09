@@ -2,7 +2,7 @@
 title: Looking into a parameter
 description: Tap any widget for full history, every source reporting it, and where to change its range.
 section: Cora Mobile
-order: 7
+order: 8
 ---
 
 A widget shows you a number. Tapping it shows you the story behind the number.

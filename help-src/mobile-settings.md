@@ -2,7 +2,7 @@
 title: Settings
 description: A reference for every section of Cora Mobile's settings — account, tanks, dosing, the Assistant, notifications, automation and activity.
 section: Cora Mobile
-order: 31
+order: 32
 ---
 
 Everything you can configure, in the order it appears.
@@ -68,6 +68,10 @@ An App Store or Google Play subscription belongs to the **store**, not to Cora. 
 :::note What a deletion does not reach
 If **Contribute anonymized tank data** is on — and it is on unless you turned it off — a de-identified copy of your tanks' profiles and parameter history is kept for research as part of the same deletion. It carries no link back to you. Turn that switch off *before* deleting if you want it gone too.
 :::
+
+## About
+
+App version and release details, and **Replay tips** — which replays the dashboard tour described in **[The five tabs](/help/mobile-tour)**.
 
 ## Automation
 

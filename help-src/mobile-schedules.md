@@ -2,7 +2,7 @@
 title: Scheduling equipment
 description: Build a day program for pumps and gyres, and copy it between units.
 section: Cora Mobile
-order: 11
+order: 12
 ---
 
 Pumps and gyres can run a **day program** — a set of periods, each with its own intensity, that repeats daily. Cora can author these directly.

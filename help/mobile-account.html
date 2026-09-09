@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adding, editing and removing devices — Cora Help</title>
-  <meta name="description" content="How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.">
+  <title>Signing in and account recovery — Cora Help</title>
+  <meta name="description" content="Sign in, reset a forgotten password, and fix an email address you cannot verify.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
-  <link rel="canonical" href="https://coraiq.tech/help/mobile-devices">
+  <link rel="canonical" href="https://coraiq.tech/help/mobile-account">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Adding, editing and removing devices — Cora Help">
-  <meta property="og:description" content="How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.">
+  <meta property="og:title" content="Signing in and account recovery — Cora Help">
+  <meta property="og:description" content="Sign in, reset a forgotten password, and fix an email address you cannot verify.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://coraiq.tech/help/mobile-devices">
+  <meta property="og:url" content="https://coraiq.tech/help/mobile-account">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -50,14 +50,14 @@
 <p class="nav-sec">Cora Mobile</p>
 <ul>
 <li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
-<li><a href="/help/mobile-account">Signing in and account recovery</a></li>
+<li><a href="/help/mobile-account" class="cur" aria-current="page">Signing in and account recovery</a></li>
 <li><a href="/help/mobile-tank-profile">Your tank profile</a></li>
 <li><a href="/help/mobile-tour">The five tabs</a></li>
 <li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
 <li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
 <li><a href="/help/mobile-widgets">Widget reference</a></li>
 <li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
-<li><a href="/help/mobile-devices" class="cur" aria-current="page">Adding, editing and removing devices</a></li>
+<li><a href="/help/mobile-devices">Adding, editing and removing devices</a></li>
 <li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
@@ -110,33 +110,26 @@
 
   <main class="hmain" id="main">
     <article class="doc">
-      <h1>Adding, editing and removing devices</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#adding-equipment">Adding equipment</a></li><li><a href="#assigning-a-device-to-a-tank">Assigning a device to a tank</a></li><li><a href="#renaming">Renaming</a></li><li><a href="#checking-whether-a-device-is-healthy">Checking whether a device is healthy</a></li><li><a href="#removing-a-device">Removing a device</a></li></ul></nav>
-<p>The <strong>Devices</strong> tab is everything you have connected, grouped by brand. Each group collapses so a reef room full of equipment stays readable.</p>
-<figure class="shot"><img src="img/mobile-devices.webp" alt="The Devices tab" width="1100" height="493" loading="lazy" decoding="async"><figcaption>Equipment is grouped by brand. Each group collapses.</figcaption></figure>
-<h2 id="adding-equipment">Adding equipment</h2>
-<p>Three buttons sit below the list, and they do different jobs:</p>
-<div class="tw"><table><thead><tr><th>Button</th><th>Adds</th></tr></thead><tbody><tr><td><strong>Add Device</strong></td><td>A Cora Max. Finds units already on your Wi-Fi, or nearby ones over Bluetooth. <strong>Enter IP Address Manually</strong> is inside this screen if discovery does not find it.</td></tr><tr><td><strong>Find a pump on your network</strong></td><td>Jecod pumps that advertise themselves on the local network</td></tr><tr><td><strong>Add AquaWiz</strong></td><td>An AquaWiz controller, through your AquaWiz account</td></tr></tbody></table></div>
-<figure class="shot phone"><img src="img/mobile-add-device.webp" alt="Adding a Cora Max" width="620" height="1323" loading="lazy" decoding="async"><figcaption>Add Device searches Wi-Fi and Bluetooth for a Cora Max.</figcaption></figure>
-<p>Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora and your phone need the same network</p><p>Equipment discovered locally must be on the same network as your phone when you add it. <strong>After setup it is still only reachable over that network</strong> — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.</p>
-<p>Equipment that reads correctly at home may therefore show older values while you are away, unless a Cora Max on site can poll it. This reflects where the equipment is reachable from, rather than a fault.</p></aside>
-<h2 id="assigning-a-device-to-a-tank">Assigning a device to a tank</h2>
-<p>Most equipment belongs to exactly one tank, and that is what makes its readings appear on that tank's dashboard.</p>
-<p><strong>Cora Max is the exception</strong>: it can be assigned up to four tanks and switches between them on screen. See <a href="/help/mobile-multi-device">More than one Cora device</a>.</p>
-<p>Open the device and choose <strong>Tank</strong>. If you run more than one system, this is the setting that matters most: a heater assigned to the wrong tank reports perfectly well into the wrong place.</p>
-<aside class="cal cal-warning"><p class="cal-t">Assign the tank before you rely on the readings</p><p>A device with no tank still reports, but its numbers have nowhere to land. If a device you have just added is not appearing on a dashboard, check this first.</p></aside>
-<h2 id="renaming">Renaming</h2>
-<p>Open the device and edit its name. Use the name you use for it day to day — "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.</p>
-<p>Renaming is local to Cora. It does not change the name on the manufacturer's own app.</p>
-<h2 id="checking-whether-a-device-is-healthy">Checking whether a device is healthy</h2>
-<p>Each row shows its current state. What you want to see is a recent update time and no warning.</p>
-<div class="tw"><table><thead><tr><th>What you see</th><th>What it means</th></tr></thead><tbody><tr><td>A recent update time</td><td>Working normally</td></tr><tr><td>"Updated 3 h ago" on something that reports hourly</td><td>Fine</td></tr><tr><td>"Could not reach…"</td><td>A network problem, or the device is off</td></tr><tr><td>"…refused the sign-in"</td><td>The manufacturer's account needs reconnecting — open the device and sign in again</td></tr><tr><td>Nothing at all</td><td>It has never reported; check the tank assignment and the connection</td></tr></tbody></table></div>
-<h2 id="removing-a-device">Removing a device</h2>
-<p>Open the device and choose <strong>Remove</strong>. You will be asked to confirm, and told exactly what is being removed.</p>
-<p><strong>Your readings are kept.</strong> Removing a device stops Cora collecting new data from it; the history it already gathered stays on the tank, and any widget pointed at it keeps its past readings.</p>
-<p>What you lose is the live link — and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.</p>
-<aside class="cal cal-tip"><p class="cal-t">Quieten a noisy device without removing it</p><p>If a device is working correctly but alerting too often, adjust its thresholds or notification settings — see <strong><a href="/help/mobile-alerts">Alerts and thresholds</a></strong>. That keeps the connection and the data while stopping the noise.</p></aside>
+      <h1>Signing in and account recovery</h1>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#ways-to-sign-in">Ways to sign in</a></li><li><a href="#forgotten-password">Forgotten password</a></li><li><a href="#verifying-your-email">Verifying your email</a></li><li><a href="#the-email-address-is-wrong">The email address is wrong</a></li><li><a href="#still-verifying">Still verifying</a></li><li><a href="#signing-out">Signing out</a></li></ul></nav>
+<p>Your account is what ties your tanks, readings and devices together, so getting back into it matters more than any single setting.</p>
+<h2 id="ways-to-sign-in">Ways to sign in</h2>
+<p>Cora accepts an <strong>email address and password</strong>, or <strong>Continue with Apple</strong> and <strong>Continue with Google</strong>.</p>
+<p>Use the same method every time. Signing in with Google to an account you created with an email address gives you a <em>second, empty</em> account rather than access to the first — the tanks are not missing, you are simply in the wrong account. If that happens, sign out and sign in again the original way.</p>
+<h2 id="forgotten-password">Forgotten password</h2>
+<p>On the sign-in screen, choose <strong>Forgot password?</strong>, enter your email address, and tap <strong>Send Link</strong>. Open the link on the same device and set a new password.</p>
+<aside class="cal cal-note"><p class="cal-t">The confirmation is deliberately non-committal</p><p>The message reads <em>"if that address has a Cora account, a reset link is on its way"</em> — it says the same thing whether or not the address is registered. That is intentional: it stops the screen being used to find out who has an account. If no email arrives, the likeliest reason is that the address is not the one you signed up with.</p></aside>
+<p>If nothing arrives within a few minutes, check spam, then try the other sign-in methods — an account created with <strong>Continue with Apple</strong> or <strong>Continue with Google</strong> has no Cora password to reset.</p>
+<h2 id="verifying-your-email">Verifying your email</h2>
+<p>After signing up, Cora sends a verification link. Open it on the device and return to the app.</p>
+<p>If it has not arrived, you can <strong>resend</strong> it from the verification screen.</p>
+<h2 id="the-email-address-is-wrong">The email address is wrong</h2>
+<p>If you mistyped it, you do not have to start again. The verification screen has <strong>Change email</strong>: enter the correct address and a fresh link is sent to it.</p>
+<aside class="cal cal-note"><p class="cal-t">"Sign out and sign in again, then retry"</p><p>Changing the address on an account is a security-sensitive operation, so it sometimes requires a recent sign-in. If you are asked to sign out and back in, that is expected — do it, then use <strong>Change email</strong> again.</p></aside>
+<h2 id="still-verifying">Still verifying</h2>
+<p>The app checks verification when you return to it. If it still says the address is not verified, open the link again and give it a moment — the check is against the account, not the device, so it will clear on any of your devices once it succeeds.</p>
+<h2 id="signing-out">Signing out</h2>
+<p><strong>Settings → your account → Sign Out</strong> disconnects this device. Nothing is deleted, and signing back in restores your tanks, readings and devices. See <a href="/help/mobile-data-export">Your data</a> for the difference between signing out and deleting.</p>
       <p class="stamp">Written for Cora Max 0.28.37 and Cora Mobile 0.5.55.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>

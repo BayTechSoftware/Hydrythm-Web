@@ -2,7 +2,7 @@
 title: Notifications
 description: Choose what reaches your phone, when it may arrive, and where to read what you missed.
 section: Cora Mobile
-order: 15
+order: 16
 ---
 
 **Settings → Notifications** controls everything Cora may send you.

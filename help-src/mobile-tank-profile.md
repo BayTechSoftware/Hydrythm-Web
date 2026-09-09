@@ -2,12 +2,29 @@
 title: Your tank profile
 description: The volume, livestock, equipment and dosing details Cora uses to interpret your readings.
 section: Cora Mobile
-order: 2
+order: 3
 ---
 
 The tank profile describes your system. Cora uses it to judge readings, calculate doses, and decide what is normal for your tank rather than for tanks in general.
 
 To open it, tap the **pencil on the right of the tank header**. The small glyph beside the tank name is a quick rename, not this.
+
+## Guided setup
+
+A profile has a lot in it, so **Guided setup** walks the sections one at a time — dosing, lighting, flow and filtration, livestock, your equipment — instead of presenting the whole form at once.
+
+It is designed to be interrupted:
+
+- **Finish later** leaves the profile where it is and returns you to the app. Your answers so far are kept.
+- Reopening guided setup resumes at the section you stopped on, rather than starting again.
+- **Decide later** skips a question you are not ready to answer without blocking the rest.
+- Leaving a section with unsaved edits asks first, offering **Keep editing** or **Leave**.
+
+The completeness figure on the profile — and the prompt that appears on the dashboard while it is below 100% — are entry points back into the same flow.
+
+:::note Each section changes what Cora can say
+Completeness is not a score for its own sake. Dosing products make the dose calculator and consumption tracking work; livestock and tank type change what your readings are assessed against; equipment tells Cora what exists to talk about. A sparse profile gives correspondingly general answers.
+:::
 
 ![The tank profile editor](img/mobile-tank-profile.webp "Each section shows a completion state. The score at the top reflects how much Cora knows about the tank.")
 
