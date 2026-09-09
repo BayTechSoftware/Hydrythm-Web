@@ -37,8 +37,29 @@ CSS_VERSION = "20260908f"
 
 # The version stamp every page carries. A guide that does not say which build
 # it describes goes stale invisibly; this makes it visible instead.
-STAMP_MAX = "0.28.33"
-STAMP_MOBILE = "0.5.54"
+#
+# ⭐ DERIVED, NOT DECLARED. These were hardcoded and were wrong twice inside
+# two days — 0.28.32 while the tree said 0.28.33, then 0.28.33 while another
+# session shipped 0.28.36. A number restating something the repo already knows
+# will always rot, so read it from the pubspec and keep the literals only as a
+# fallback for a standalone clone of this site repo (where ../cora-max is
+# absent). Same fix as the self-test count below.
+_FALLBACK_MAX, _FALLBACK_MOBILE = "0.28.36", "0.5.54"
+
+
+def _pubspec_version(rel: str, fallback: str) -> str:
+    """`version: 1.2.3+45` from a sibling Flutter package → `1.2.3`."""
+    f = ROOT.parent / rel / "pubspec.yaml"
+    if not f.exists():
+        return fallback
+    for line in f.read_text(encoding="utf-8").splitlines():
+        if line.startswith("version:"):
+            return line.split(":", 1)[1].strip().split("+")[0]
+    return fallback
+
+
+STAMP_MAX = _pubspec_version("cora-max", _FALLBACK_MAX)
+STAMP_MOBILE = _pubspec_version("mobile", _FALLBACK_MOBILE)
 
 # ⛔ While the guide is unlisted. Flipping to public = set this False, drop the
 # robots.txt Disallow, and add the sitemap entries. One commit.
