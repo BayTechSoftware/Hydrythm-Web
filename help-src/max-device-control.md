@@ -43,7 +43,7 @@ Refill thresholds — reagent, containers, reservoirs — are set from the devic
 Two things are often more convenient at the wall than on a phone:
 
 - **Log parameters** — enter test results on the on-screen keyboard, from the tank menu
-- **Dose calculator** — work out a correction using the tank's volume and your product strengths, from a parameter's page
+- **Dose calculator** — work out a correction using the tank's volume and your product strengths, from a parameter's page. It uses the same volume and product strengths as the phone, so a dose worked out here matches one worked out there. See [Dosing](/help/mobile-dosing).
 
 ## What was changed, and by what
 
