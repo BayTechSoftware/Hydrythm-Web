@@ -44,7 +44,7 @@ Open the device row and sign in again.
 
 Check the top bar. If it does not say **Online**, the screen has lost its connection and is showing the last data it had — which is the correct behaviour, but not current.
 
-- Check Wi-Fi under **Settings → Cora Max**
+- Check Wi-Fi under **Settings → Cora Max → Network**
 - Check the network itself is up
 - If the screen is Online but data is still old, the problem is upstream: check the same tank on your phone
 

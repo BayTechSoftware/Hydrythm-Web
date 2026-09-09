@@ -19,7 +19,7 @@ The polling setting in a tank's settings chooses which Cora device reads that ta
 
 ## Devices
 
-Everything this screen can see and how each one is doing. Cora Max sees the same devices as your phone. Diagnostics for the *unit itself* are not here — they are under **Firmware → Device health & controls**.
+Everything this screen can see and how each one is doing. Cora Max sees the same devices as your phone. Diagnostics for the *unit itself* are not here — they are under **Cora Max → Firmware → Device health & controls**.
 
 You can check state here, but adding and configuring equipment is easier in Cora Mobile — see **[Adding, editing and removing devices](/help/mobile-devices)**.
 
@@ -31,18 +31,23 @@ The **account-wide** inbox — every briefing, alarm and account notice across y
 
 Recoveries are recorded as well as alarms, so a parameter that went out of range and came back reads as a closed pair rather than an unexplained warning.
 
-## Settings for this screen
+## Cora Max — everything about this screen
+
+Everything that describes *this unit* lives behind one row in Settings, under the **DEVICE SETTINGS** heading, labelled **Cora Max**. It opens a screen headed *Device settings*, organised into groups:
 
 | Group | Covers |
 |---|---|
-| **Firmware** | Update now or snooze, the update channel and schedule, and device health |
-| **Network** | Wi-Fi, an internet check, switching and forgetting networks, auto-join, and venue sign-in for captive portals |
-| **Audio** | Output — internal speaker, 3.5 mm or Bluetooth |
-| **Voice** | Wake-word listening on or off, and which device answers for the household |
-| **Alerts** | Audible chime with its volume, and spoken alerts |
-| **Display** | Brightness, idle behaviour, night settings |
-| **Child lock** | Blocks actuation while leaving questions and readings available |
-| **Pairing** | Which account this screen belongs to, re-pairing, and factory reset |
+| **Firmware** | Firmware Update — install, channel and schedule — and **Device health & controls**, which holds the unit's diagnostics, its polling primary and the voice responder |
+| **Network** | Wi-Fi |
+| **Audio** | Audio output, and **Wake-word listening** on or off |
+| **Alerts** | Audible alert chime, and spoken alerts |
+| **Display** | Idle dim after, and night dimming |
+| **Experience** | Wake screen on alarm, show clock, **Child lock** and its lock-after delay, briefing time and voice briefing |
+| **Device** | Re-pair this device, and factory reset |
+
+:::note Wake-word listening is under Audio, not Voice
+The **Voice** group holds diagnostics rather than the on/off switch. If you are looking to stop the screen listening, it is in **Audio**.
+:::
 
 :::note These belong to this screen only
 Wi-Fi, display, audio, wake word and child lock describe this unit. They are not shared with your phone or another Cora Max.

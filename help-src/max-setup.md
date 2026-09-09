@@ -73,4 +73,4 @@ You can check where you are under **Settings → Cora Max**.
 
 ## Moving it to a different network
 
-**Settings → Cora Max → Wi-Fi.** Pick the new network and enter the password. Pairing survives the change — you do not need to set the screen up again.
+**Settings → Cora Max → Network → Wi-Fi.** Pick the new network and enter the password. Pairing survives the change — you do not need to set the screen up again.

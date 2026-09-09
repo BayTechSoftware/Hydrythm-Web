@@ -44,7 +44,7 @@ The minus button beside a tank removes it from this screen.
 
 ## Device health
 
-**Settings → Cora Max → Device health & controls** is the diagnostics screen for the unit itself. It reports:
+**Settings → Cora Max → Firmware → Device health & controls** is the diagnostics screen for the unit itself. It reports:
 
 - **Firmware and update state** for this unit
 - **Wake state** — whether this unit is currently the household's voice responder

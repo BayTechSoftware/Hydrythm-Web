@@ -15,7 +15,7 @@ Cora Max takes voice, which is the easiest way to use it when your hands are wet
 
 ![Voice settings](img/max-voice.webp "Wake-word listening can be turned off without losing tap-to-talk.")
 
-**Settings → Cora Max → Wake-word listening** turns background listening off. Tapping the swoosh still works, which is the setting to use if you would rather the screen were not listening all the time.
+**Settings → Cora Max → Audio → Wake-word listening** turns background listening off. Tapping the swoosh still works, which is the setting to use if you would rather the screen were not listening all the time.
 
 **Audio output** in the same section chooses the internal speaker, a 3.5 mm connection or Bluetooth. The internal speaker is the weakest of the three for voice.
 
@@ -43,7 +43,7 @@ The swoosh begins a live session immediately — there is no confirmation step. 
 
 ## Child lock
 
-**Settings → Cora Max → Child lock** blocks actuation from this screen. Questions and readings still work — Cora will answer what your alkalinity is, and refuse to switch the return pump off.
+**Settings → Cora Max → Experience → Child lock** blocks actuation from this screen. Questions and readings still work — Cora will answer what your alkalinity is, and refuse to switch the return pump off.
 
 Use it on a screen within reach of children or visitors.
 

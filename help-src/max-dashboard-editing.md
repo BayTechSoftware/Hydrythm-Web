@@ -12,7 +12,7 @@ Open the editor from **Settings → Tank settings → [your tank] → Dashboard 
 ![The dashboard editor on Cora Max](img/max-dashboard-editor.webp "Grid sizes across the top, then the tiles. Each shows its type and source, not a reading — this is a layout screen. Nothing is written until you press Save.")
 
 :::tip You can also edit it from your phone
-**Devices → your Cora Max → Edit dashboard** builds the same layout from Cora Mobile. It is quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.
+**Devices → your Cora Max → Edit Dashboard** builds the same layout from Cora Mobile. It is quicker than arranging tiles by hand on a wall, and the result appears on the screen straight away.
 :::
 
 ## Choosing a grid
