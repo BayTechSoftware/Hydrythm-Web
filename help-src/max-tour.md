@@ -1,6 +1,6 @@
 ---
 title: The Cora Max home screen
-description: What everything on the Cora Max display means — the top bar, the dashboard grid, and the outlets drawer.
+description: What everything on the Cora Max display means: the top bar, the dashboard grid, and the outlets drawer.
 section: Cora Max
 reviewed: 2026-09-09
 order: 2
@@ -16,22 +16,22 @@ Cora Max shows one tank at a time, filling the screen with live readings you can
 Left to right:
 
 - **The grid icon** opens the Reef Room, the overview of every tank this screen shows
-- **The tank name**, with a chevron. Tapping it opens the **tank menu** — every screen for the tank on display, from logging a test result to arranging the dashboard. The full list is below.
-- **Alert pills** — anything currently out of range, with a **+n** when there are more than fit. Tap to see them all.
+- **The tank name**, with a chevron. Tapping it opens the **tank menu**: every screen for the tank on display, from logging a test result to arranging the dashboard. The full list is below.
+- **Alert pills**: anything currently out of range, with a **+n** when there are more than fit. Tap to see them all.
 - **The clock**
-- **The status pill** — what this screen is doing right now. Green is healthy, amber wants attention, red is a fault. The full vocabulary is below.
+- **The status pill**: what this screen is doing right now. Green is healthy, amber wants attention, red is a fault. The full vocabulary is below.
 - **Battery and Wi-Fi**
-- **The devices icon** — everything connected, and how it is doing
-- **The Reef Buddy icon** — opens today's briefing. A dot means the briefing has not been read yet.
-- **The Cora Assistant icon** — starts a voice conversation
-- **The gear** — settings
+- **The devices icon**: everything connected, and how it is doing
+- **The Reef Buddy icon**: opens today's briefing. A dot means the briefing has not been read yet.
+- **The Cora Assistant icon**: starts a voice conversation
+- **The gear**: settings
 
 ### What the status pill means
 
 | Pill | Meaning |
 |---|---|
 | **Online** | This screen is collecting your readings, and they are current |
-| **Cloud** | Another Cora is collecting this tank's readings and this screen is showing them. Just as current as **Online** — with more than one Cora, the screen that is not doing the collecting shows this |
+| **Cloud** | Another Cora is collecting this tank's readings and this screen is showing them. Just as current as **Online**; with more than one Cora, the screen that is not doing the collecting shows this |
 | **Polling Apex**, **Voice active** | Working on something at this moment |
 | **Polling off** | Collection is switched off for this tank. You can turn it back on from Cora Mobile |
 | **Updating** | Collection is paused while an update installs |
@@ -79,11 +79,11 @@ Use the **grid icon** at the far left of the top bar to reach [the Reef Room](/h
 
 The tab at the bottom of the screen pulls up a drawer with every outlet on the system and the feed controls.
 
-- **Outlets** — each one switchable between Auto, Off and On
-- **Feed** — pauses the right equipment for a feeding and puts it all back afterwards
+- **Outlets**: each one switchable between Auto, Off and On
+- **Feed**: pauses the right equipment for a feeding and puts it all back afterwards
 
 :::warning This drawer controls real equipment
-Everything in it acts on real equipment. A command is sent the moment you tap, but *sent* is not *done* — it comes back Confirmed, Unconfirmed, Refused or No change, and [Activity](/help/max-activity) is where you see which. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.
+Everything in it acts on real equipment. A command is sent the moment you tap, but *sent* is not *done*; it comes back Confirmed, Unconfirmed, Refused or No change, and [Activity](/help/max-activity) is where you see which. Feed mode is the safe way to pause flow for feeding, because it restores everything by itself; a manual Off stays off until you change it back.
 :::
 
 ## If something looks out of place

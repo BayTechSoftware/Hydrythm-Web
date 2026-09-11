@@ -1,6 +1,6 @@
 ---
 title: Reef Buddy
-description: Your daily briefing — what it covers, when it arrives, and how to read the score.
+description: Your daily briefing: what it covers, when it arrives, and how to read the score.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 24
@@ -15,7 +15,7 @@ It appears as a card at the top of your dashboard, and as one notification.
 
 ## What is in a briefing
 
-**A headline** — a one-line summary of the tank today.
+**A headline**: a one-line summary of the tank today.
 
 **Two scores:**
 
@@ -26,9 +26,9 @@ It appears as a card at the top of your dashboard, and as one notification.
 
 A low Data score means the assessment rests on fewer readings than it would like. Read it first: when Data is low, treat the Stability number beside it as provisional rather than settled.
 
-**A summary** — a short paragraph explaining the headline, referencing your actual values and ranges.
+**A summary**: a short paragraph explaining the headline, referencing your actual values and ranges.
 
-**Insights** — the individual findings. Each carries a category (such as *Water Chemistry*), a cadence (such as *Daily*), and expands for detail. A chip at the top of the section shows the tank type and how complete its profile is, because both affect what Cora can conclude.
+**Insights**: the individual findings. Each carries a category (such as *Water Chemistry*), a cadence (such as *Daily*), and expands for detail. A chip at the top of the section shows the tank type and how complete its profile is, because both affect what Cora can conclude.
 
 Insights are filtered before they reach you. An insight has to hold up over several readings rather than appearing on one, and has to say something a single chart would not already have shown you.
 
@@ -38,7 +38,7 @@ Tap the card on the dashboard to open the full briefing.
 
 Once a day, in the early morning, per tank.
 
-On a day when nothing needs your attention, Reef Buddy usually stays quiet rather than pushing to say everything is fine. **A push means there is something worth acting on** — which may be a new change, or a condition that has persisted long enough to be worth raising.
+On a day when nothing needs your attention, Reef Buddy usually stays quiet rather than pushing to say everything is fine. **A push means there is something worth acting on**, which may be a new change, or a condition that has persisted long enough to be worth raising.
 
 :::note One tank, one briefing
 Each tank gets its own briefing. If you run three systems you get three, and each is about that system alone.
@@ -46,7 +46,7 @@ Each tank gets its own briefing. If you run three systems you get three, and eac
 
 ## Reading the scores
 
-**Stability** reflects where your parameters sit against your own targets and how steady they have been. It is a trend to watch over time rather than a grade — compare it against your own previous scores, not against another tank.
+**Stability** reflects where your parameters sit against your own targets and how steady they have been. It is a trend to watch over time rather than a grade; compare it against your own previous scores, not against another tank.
 
 **Data** reflects how much recent information the assessment had. It falls when readings go stale.
 
@@ -73,7 +73,7 @@ Each insight takes one of four responses:
 | **Already knew** | Right, but you were aware |
 | **Not sure** | You cannot judge it yet |
 
-Feedback shapes what leads later briefings, and suppression is **time-limited** — an insight you dismiss comes back if the condition persists.
+Feedback shapes what leads later briefings, and suppression is **time-limited**; an insight you dismiss comes back if the condition persists.
 
 :::note Serious findings are never suppressed
 Only lower-severity insights can be quietened by feedback. Warning and critical insights keep appearing regardless of how you have responded to them before.

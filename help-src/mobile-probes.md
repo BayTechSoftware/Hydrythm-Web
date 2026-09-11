@@ -11,7 +11,7 @@ A controller reports probes by its own names. Probe mapping tells Cora which of 
 
 ## Mapping probes
 
-Open your **tank profile** — the pencil at the top of the dashboard — expand your controller's section, and choose **Probe Mapping**.
+Open your **tank profile** (the pencil at the top of the dashboard), expand your controller's section, and choose **Probe Mapping**.
 
 ![Probe mapping](img/mobile-probes.webp "Each probe your controller reports, its live reading, and what Cora is doing with it.")
 
@@ -19,13 +19,13 @@ Every probe your controller reports is listed with its current reading. Cora aut
 
 Each row offers three choices:
 
-- **A Cora parameter** — the metric that probe measures.
-- **Custom** — for a probe Cora has no standard parameter for. You give it a short upper-case token, and it is tracked under that name.
-- **Ignore** — for probes you do not want recorded at all.
+- **A Cora parameter**: the metric that probe measures.
+- **Custom**: for a probe Cora has no standard parameter for. You give it a short upper-case token, and it is tracked under that name.
+- **Ignore**: for probes you do not want recorded at all.
 
 An ignored or unmapped probe will not appear on a dashboard and will not feed alerts.
 
-Mappings take effect when readings are next recorded, so a correction here does not rewrite history — it changes what is stored from that point on. Press **Save** to apply them.
+Mappings take effect when readings are next recorded, so a correction here does not rewrite history; it changes what is stored from that point on. Press **Save** to apply them.
 
 :::warning An unmapped probe is invisible to Cora
 If a parameter shows no readings although the probe is working, check the mapping before anything else.

@@ -23,10 +23,10 @@ Three buttons sit below the list, and they do different jobs:
 
 ![Adding a Cora Max](img/mobile-add-device.webp "Add Device searches Wi-Fi and Bluetooth for a Cora Max.")
 
-Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See [Connecting your equipment](/help/mobile-connections).
+Other equipment (Neptune Apex and Red Sea ReefBeat) is connected from the tank rather than from this list. See [Connecting your equipment](/help/mobile-connections).
 
 :::note Cora and your phone need the same network
-Equipment discovered locally must be on the same network as your phone when you add it. **After setup it is still only reachable over that network** — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.
+Equipment discovered locally must be on the same network as your phone when you add it. **After setup it is still only reachable over that network** (or over Bluetooth, for units that use it) unless a Cora device on site can reach it for you.
 
 Equipment that reads correctly at home may therefore show older values while you are away, unless a Cora Max on site can poll it. This reflects where the equipment is reachable from, rather than a fault.
 :::
@@ -45,7 +45,7 @@ A device with no tank still reports, but its numbers have nowhere to land. If a 
 
 ## Renaming
 
-Open the device and edit its name. Use the name you use for it day to day — "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.
+Open the device and edit its name. Use the name you use for it day to day: "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.
 
 Renaming is local to Cora. It does not change the name on the manufacturer's own app.
 
@@ -58,7 +58,7 @@ Each row shows its current state. What you want to see is a recent update time a
 | A recent update time | Working normally |
 | "Updated 3 h ago" on something that reports hourly | Fine |
 | "Could not reach…" | A network problem, or the device is off |
-| "…refused the sign-in" | The manufacturer's account needs reconnecting — open the device and sign in again |
+| "…refused the sign-in" | The manufacturer's account needs reconnecting; open the device and sign in again |
 | Nothing at all | It has never reported; check the tank assignment and the connection |
 
 ## Removing a device
@@ -67,8 +67,8 @@ Open the device and choose **Remove**. You will be asked to confirm, and told ex
 
 **Your readings are kept.** Removing a device stops Cora collecting new data from it; the history it already gathered stays on the tank, and any widget pointed at it keeps its past readings.
 
-What you lose is the live link — and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.
+What you lose is the live link, and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.
 
 :::tip Quieten a noisy device without removing it
-If a device is working correctly but alerting too often, adjust its thresholds or notification settings — see **[Alerts and thresholds](/help/mobile-alerts)**. That keeps the connection and the data while stopping the noise.
+If a device is working correctly but alerting too often, adjust its thresholds or notification settings; see **[Alerts and thresholds](/help/mobile-alerts)**. That keeps the connection and the data while stopping the noise.
 :::

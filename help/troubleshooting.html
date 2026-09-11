@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Troubleshooting — Cora Help</title>
-  <meta name="description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.">
+  <title>Troubleshooting | Cora Help</title>
+  <meta name="description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Troubleshooting — Cora Help">
-  <meta property="og:description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.">
+  <meta property="og:title" content="Troubleshooting | Cora Help">
+  <meta property="og:description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -162,16 +162,16 @@
 <ol><li><strong>Check the age on nearby widgets.</strong> If everything is stale, the problem is the connection, not the parameter.</li><li><strong>Open the Devices tab.</strong> A device that cannot be reached says so on its row.</li><li><strong>Check the tank assignment.</strong> A device reporting into the wrong tank looks exactly like a device that is not reporting. Open the device and confirm its tank.</li><li><strong>Check the source exists.</strong> Nothing reports phosphate unless you have equipment that measures it or you log it by hand.</li></ol>
 <h2 id="a-reading-is-stale">A reading is stale</h2>
 <p>The age badge is telling you the truth: nothing new has arrived.</p>
-<ul><li><strong>Hand-logged parameters</strong> go stale when no reading has been entered. Log one.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting — check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
+<ul><li><strong>Hand-logged parameters</strong> go stale when no reading has been entered. Log one.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting; check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
 <h2 id="a-device-cannot-be-reached">A device cannot be reached</h2>
 <p>Usually the network.</p>
-<ol><li>Is the equipment powered and working in its own app?</li><li>Is it on the same network it was added on?</li><li>Has your router changed — new hardware, new network name, guest network isolation?</li></ol>
+<ol><li>Is the equipment powered and working in its own app?</li><li>Is it on the same network it was added on?</li><li>Has your router changed (new hardware, new network name, guest network isolation)?</li></ol>
 <p>Equipment that connects over your local network needs to be reachable on that network. Equipment that connects through a manufacturer account does not, but needs that account to still be valid.</p>
 <h2 id="a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</h2>
 <p>The manufacturer rejected the stored sign-in. Almost always because you changed your password with them.</p>
 <p>Open the device row and sign in again.</p>
 <h2 id="cora-max-shows-old-data">Cora Max shows old data</h2>
-<p>Check the status pill in the top bar. <strong>Online</strong> and <strong>Cloud</strong> are both healthy: with more than one Cora, the screen that is not doing the collecting shows <strong>Cloud</strong>, and its readings are just as current. <strong>Stale</strong> or <strong>Offline</strong> means the screen has lost its source and is showing the last data it received — correct behaviour, but not current.</p>
+<p>Check the status pill in the top bar. <strong>Online</strong> and <strong>Cloud</strong> are both healthy: with more than one Cora, the screen that is not doing the collecting shows <strong>Cloud</strong>, and its readings are just as current. <strong>Stale</strong> or <strong>Offline</strong> means the screen has lost its source and is showing the last data it received (correct behaviour, but not current).</p>
 <ul><li>Check Wi-Fi under <strong>Settings → Cora Max → Network</strong></li><li>Check the network itself is up</li><li>If the pill reads <strong>Online</strong> or <strong>Cloud</strong> and the data is still old, the problem is upstream: check the same tank on your phone</li></ul>
 <h2 id="an-alert-is-not-clearing">An alert is not clearing</h2>
 <p>An alert clears when the reading returns to range. If it will not clear:</p>
@@ -181,17 +181,17 @@
 <p>An ICP result is a useful third opinion here, but it does not settle the argument: laboratories differ from one another, and a sample's handling and transit move the result. Two tests agreeing is worth far more than one.</p>
 <p>Usually the probe needs calibrating; sometimes the test kit is old. Calibrate the probe, run the test again with fresh reagent, and compare the two under the same conditions. An <a href="/help/mobile-icp-health">ICP result</a> adds a third data point to that comparison.</p>
 <h2 id="im-not-getting-notifications">I'm not getting notifications</h2>
-<ol><li><strong>Settings → Notifications</strong> — check that category is allowed to push</li><li>Check your phone's own notification permissions for Cora</li><li>Remember the daily briefing is deliberately quiet on days when nothing changed</li></ol>
+<ol><li><strong>Settings → Notifications</strong>: check that category is allowed to push</li><li>Check your phone's own notification permissions for Cora</li><li>Remember the daily briefing is deliberately quiet on days when nothing changed</li></ol>
 <h2 id="establishing-why-something-changed">Establishing why something changed</h2>
-<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what asked for it — this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.</p>
+<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what asked for it: this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.</p>
 <h2 id="my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</h2>
 <p>Load a saved design: <strong>My dashboards</strong>, then pick one.</p>
 <p>If you have not saved one, rebuild the layout and then save it as a design. From that point on, returning to it is a single tap.</p>
 <p>Either way, readings, history and journal entries are stored separately from layout, so nothing behind the dashboard is lost.</p>
 <h2 id="still-stuck">Still stuck</h2>
-<p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see — it gets you a useful answer faster.</p>
+<p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see; it gets you a useful answer faster.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/help/glossary"><span>Next</span><b>Glossary</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -199,7 +199,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -218,7 +218,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -238,7 +238,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -400,13 +400,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

@@ -23,7 +23,7 @@ Monitoring your tank is free and unmetered. The paid tiers raise the AI allowanc
 |---|---|
 | Assistant messages | 20 a month. Voice draws on the same pool and costs more per turn |
 | Health reports | 1 a month |
-| ICP analysis | **One, once** — a single lifetime analysis, then locked |
+| ICP analysis | **One, once**: a single lifetime analysis, then locked |
 | AI on tanks | Your primary tank only |
 | Reef Buddy | Not included |
 
@@ -31,13 +31,13 @@ When an allowance runs out, everything already generated stays readable.
 
 ## The trial
 
-A **30-day Pro trial starts when you sign up** — not when you first use a feature. It includes Reef Buddy and the higher allowances.
+A **30-day Pro trial starts when you sign up**, not when you first use a feature. It includes Reef Buddy and the higher allowances.
 
 When it ends the account falls back to Free. **Nothing is deleted**: every reading, journal entry, report and briefing you already have stays readable.
 
 ## Paid tiers
 
-Three tiers — **Plus**, **Pro** and **Max** — each monthly or annual. Current prices are shown in the app and at the store, since that is where they are charged.
+Three tiers (**Plus**, **Pro** and **Max**), each monthly or annual. Current prices are shown in the app and at the store, since that is where they are charged.
 
 | | Plus | Pro | Max |
 |---|---|---|---|
@@ -65,12 +65,12 @@ It shows your current plan and when it renews, plus:
 
 ![Usage and limits](img/mobile-usage.webp "Each metered feature against its monthly allowance.")
 
-**Settings → Assistant & AI → Usage & limits** shows every metered feature against its monthly allowance in one place — Assistant messages, ICP analyses and health reports.
+**Settings → Assistant & AI → Usage & limits** shows every metered feature against its monthly allowance in one place: Assistant messages, ICP analyses and health reports.
 
 Each metered feature shows its own usage where you use it:
 
-- **Assistant** — messages this month, above the message box
-- **Intelligence** — ICP and health reports this month, under the buttons
+- **Assistant**: messages this month, above the message box
+- **Intelligence**: ICP and health reports this month, under the buttons
 
 Check these when you want to know how much of your monthly allowance is left.
 

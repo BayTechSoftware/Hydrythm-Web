@@ -7,7 +7,7 @@ order: 3
 group: Getting started
 ---
 
-If Cora Max shows more than one tank, the Reef Room is an overview of all of them at once. Open it with the **grid icon** at the far left of the top bar — on screen it is headed **Cora Tanks**.
+If Cora Max shows more than one tank, the Reef Room is an overview of all of them at once. Open it with the **grid icon** at the far left of the top bar; on screen it is headed **Cora Tanks**.
 
 ![The Reef Room](img/max-reef-room.webp "Each tank with its in-range score, headline parameters and anything out of range.")
 
@@ -17,20 +17,20 @@ A Cora Max shows **up to four tanks**, and the Reef Room gives each one an equal
 
 | Tanks | Layout |
 |---|---|
-| 1 | No Reef Room — the screen opens straight onto that tank |
+| 1 | No Reef Room: the screen opens straight onto that tank |
 | 2 | Side by side |
 | 3 | Three across |
 | 4 | Two by two |
 
 :::note Four is the limit, and it is enforced
-A Cora Max can be assigned at most four tanks, both when you pair it and afterwards from **Devices → your Cora Max**. Adding a fifth asks you to remove one first. If you run more tanks than that, use a second screen — each keeps its own set.
+A Cora Max can be assigned at most four tanks, both when you pair it and afterwards from **Devices → your Cora Max**. Adding a fifth asks you to remove one first. If you run more tanks than that, use a second screen; each keeps its own set.
 :::
 
 ## What a tile shows
 
 Each tile summarises one tank:
 
-- **A percentage in range**, with the counts behind it — how many parameters are in range, and how many are near their limits
+- **A percentage in range**, with the counts behind it: how many parameters are in range, and how many are near their limits
 - **An out-of-range chip** when something needs attention
 - **Four headline parameters** with recent trends
 - **When it last updated**, and a link into that tank's dashboard

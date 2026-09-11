@@ -2,7 +2,7 @@
    ⛔ WHY: the cross-origin request cost 1053 ms on the critical path in
    Lighthouse (two hosts, two handshakes: fonts.googleapis.com then
    fonts.gstatic.com). Self-hosting removes both, and removes a third-party
-   request from every visitor. OFL — self-hosting is permitted.
+   request from every visitor. OFL: self-hosting is permitted.
    Regenerate: fetch the css2 URL with a modern UA, keep the /* latin */
    blocks, download each woff2, rewrite the url() to fonts/. */
 

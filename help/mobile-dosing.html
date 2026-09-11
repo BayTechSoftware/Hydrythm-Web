@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dosing — Cora Help</title>
+  <title>Dosing | Cora Help</title>
   <meta name="description" content="Tell Cora what you dose so it can turn millilitres into an actual change in your tank.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-dosing">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Dosing — Cora Help">
+  <meta property="og:title" content="Dosing | Cora Help">
   <meta property="og:description" content="Tell Cora what you dose so it can turn millilitres into an actual change in your tank.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-dosing">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -156,29 +156,29 @@
     <article class="doc">
       <h1>Dosing</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-product-library">The product library</a></li><li><a href="#adding-your-own">Adding your own</a></li><li><a href="#the-dose-calculator">The dose calculator</a></li><li><a href="#consumption">Consumption</a></li><li><a href="#dosing-equipment">Dosing equipment</a></li></ul></nav>
-<p>Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream — the calculator, consumption tracking, and what Cora tells you about your dosing — becomes real numbers rather than guesses.</p>
+<p>Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream (the calculator, consumption tracking, and what Cora tells you about your dosing) becomes real numbers rather than guesses.</p>
 <p><strong>Settings → Dosing Products.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Dosing products"><img src="img/mobile-dosing.webp" alt="Dosing products" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Products carry the strength Cora uses for dose and consumption calculations.</figcaption></figure>
 <h2 id="the-product-library">The product library</h2>
-<p>Cora ships with a library of common products. Search for yours and add it — the strength comes with it.</p>
+<p>Cora ships with a library of common products. Search for yours and add it; the strength comes with it.</p>
 <p>Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a fixed volume of water. That is the number that turns "5 ml" into "+0.2 dKH in your tank".</p>
-<p>Products can carry alkalinity, calcium, magnesium, nitrate or phosphate values — a two-part carries one each, a balanced product several.</p>
+<p>Products can carry alkalinity, calcium, magnesium, nitrate or phosphate values; a two-part carries one each, a balanced product several.</p>
 <h2 id="adding-your-own">Adding your own</h2>
-<p>If your product is not in the library, add it as a custom one and enter its strength. The manufacturer's label almost always states it — "1 ml per 100 litres raises alkalinity by 0.1 dKH", or similar.</p>
+<p>If your product is not in the library, add it as a custom one and enter its strength. The manufacturer's label almost always states it: "1 ml per 100 litres raises alkalinity by 0.1 dKH", or similar.</p>
 <aside class="cal cal-warning"><p class="cal-t">Enter the manufacturer's stated strength</p><p>An incorrect strength makes every dose calculation for that product wrong by the same proportion. If the figure is not available, leave the product out rather than estimating.</p></aside>
 <h2 id="the-dose-calculator">The dose calculator</h2>
 <p>With products set up, Cora can calculate a correction using your tank's actual volume from its profile.</p>
 <p>It calculates <strong>increases</strong>: alkalinity, calcium, magnesium, and nitrate or phosphate when you are raising them.</p>
-<p>For <strong>reductions</strong> it gives guidance rather than a dose — you cannot dose a parameter downward, and the answer is a water change, a media change or a change in what you are already dosing.</p>
+<p>For <strong>reductions</strong> it gives guidance rather than a dose; you cannot dose a parameter downward, and the answer is a water change, a media change or a change in what you are already dosing.</p>
 <aside class="cal cal-warning"><p class="cal-t">Large corrections are spread, not dosed at once</p><p>Cora caps how much a parameter may be moved in a day and spreads a bigger correction over several. A single large dose is how a tank gets shocked; the calculator will not propose one.</p></aside>
 <p>The volume you entered at setup matters here. A stated volume 20% out gives dose figures 20% out.</p>
 <h2 id="consumption">Consumption</h2>
 <p>Once Cora can see both your doses and your readings, it can work out what your tank is actually consuming, and tell you when that changes.</p>
 <p>A change in demand is a prompt to look, not a diagnosis. Rising alkalinity demand often reflects growth; a sudden move in either direction can equally come from a dose that is not being delivered, a testing error, precipitation, a water change, or a change to the equipment. Check what changed around the date before drawing a conclusion.</p>
 <h2 id="dosing-equipment">Dosing equipment</h2>
-<p>If you have a connected dosing unit, its heads appear as devices with their own readings — what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your equipment</a></strong>.</p>
+<p>If you have a connected dosing unit, its heads appear as devices with their own readings: what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your equipment</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-automation"><span>Previous</span><b>Automations and scenes</b></a><a class="pn-n" href="/help/mobile-maintenance"><span>Next</span><b>Maintenance</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -186,7 +186,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -205,7 +205,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -225,7 +225,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -387,13 +387,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

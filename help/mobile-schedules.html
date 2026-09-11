@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scheduling equipment — Cora Help</title>
+  <title>Scheduling equipment | Cora Help</title>
   <meta name="description" content="Build a day program for pumps and gyres, and copy it between units.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Scheduling equipment — Cora Help">
+  <meta property="og:title" content="Scheduling equipment | Cora Help">
   <meta property="og:description" content="Build a day program for pumps and gyres, and copy it between units.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-schedules">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -156,33 +156,33 @@
     <article class="doc">
       <h1>Scheduling equipment</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#same-all-day-or-schedule">Same all day, or Schedule</a></li><li><a href="#the-schedule-editor">The schedule editor</a></li><li><a href="#copying-a-program-between-pumps">Copying a program between pumps</a></li><li><a href="#keeping-and-sharing-a-schedule">Keeping and sharing a schedule</a></li><li><a href="#applying-a-program">Applying a program</a></li><li><a href="#checking-it-took">Checking it took</a></li></ul></nav>
-<p>Pumps and gyres can run a <strong>day program</strong> — a set of periods, each with its own intensity, that repeats daily. Cora can author these directly.</p>
+<p>Pumps and gyres can run a <strong>day program</strong>: a set of periods, each with its own intensity, that repeats daily. Cora can author these directly.</p>
 <p>Open the device from the <strong>Devices</strong> tab.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A pump schedule"><img src="img/mobile-schedules.webp" alt="A pump schedule" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>The day graph across 0–24 hours, with each period listed below it.</figcaption></figure>
 <h2 id="same-all-day-or-schedule">Same all day, or Schedule</h2>
 <p>A pump runs in one of two modes, chosen at the top of its page:</p>
-<ul><li><strong>Same all day</strong> — one intensity, constantly</li><li><strong>Schedule</strong> — a day program with periods</li></ul>
+<ul><li><strong>Same all day</strong>: one intensity, constantly</li><li><strong>Schedule</strong>: a day program with periods</li></ul>
 <p>Choosing between them here only changes what you are looking at until the pump is reachable; the change is written when Cora can reach it.</p>
 <h2 id="the-schedule-editor">The schedule editor</h2>
 <p>Every schedule screen has the same three parts:</p>
-<p><strong>The day graph</strong> — the whole day from 0 to 24 hours, with each period drawn as a block whose height is its intensity. This is the fastest way to see whether a program does what you think.</p>
-<p><strong>The period list</strong> — each period below the graph, with its hours, its mode and its intensity: <em>Random, 00:00–03:00, Freq 50%, 40%</em>. Add, edit and remove periods here.</p>
-<p><strong>The action row</strong> — save the program to the device, or discard your changes.</p>
-<p>A gyre has two motors, so its graph has <strong>two tracks</strong> — one per motor. <em>(Maxspect gyre support is coming soon; Jecod pumps are available now.)</em></p>
+<p><strong>The day graph</strong>: the whole day from 0 to 24 hours, with each period drawn as a block whose height is its intensity. This is the fastest way to see whether a program does what you think.</p>
+<p><strong>The period list</strong>: each period below the graph, with its hours, its mode and its intensity: <em>Random, 00:00–03:00, Freq 50%, 40%</em>. Add, edit and remove periods here.</p>
+<p><strong>The action row</strong>: save the program to the device, or discard your changes.</p>
+<p>A gyre has two motors, so its graph has <strong>two tracks</strong>, one per motor. <em>(Maxspect gyre support is coming soon; Jecod pumps are available now.)</em></p>
 <aside class="cal cal-warning"><p class="cal-t">A schedule is written to the device</p><p>Saving sends the program to the equipment, which then runs it on its own clock. It continues running whether or not Cora is reachable.</p></aside>
 <h2 id="copying-a-program-between-pumps">Copying a program between pumps</h2>
 <p>If you run several pumps that should behave alike, build one program and copy it.</p>
 <p>Open the pump whose program you want, then <strong>Copy schedule to…</strong>, and choose the pump to copy it to.</p>
 <h2 id="keeping-and-sharing-a-schedule">Keeping and sharing a schedule</h2>
 <p>A schedule you are happy with does not have to be rebuilt:</p>
-<ul><li><strong>Save schedule as…</strong> keeps it under a name, and <strong>Saved schedules…</strong> applies it again later.</li><li><strong>Share this schedule</strong> turns it into a short code, and <strong>Paste a schedule code…</strong> applies one someone sent you. This is a Cora Mobile feature — the code carries the schedule, not access to your account.</li></ul>
+<ul><li><strong>Save schedule as…</strong> keeps it under a name, and <strong>Saved schedules…</strong> applies it again later.</li><li><strong>Share this schedule</strong> turns it into a short code, and <strong>Paste a schedule code…</strong> applies one someone sent you. This is a Cora Mobile feature; the code carries the schedule, not access to your account.</li></ul>
 <h2 id="applying-a-program">Applying a program</h2>
 <p>A pump can also be given a prepared program in one step, rather than by building periods by hand.</p>
 <h2 id="checking-it-took">Checking it took</h2>
-<p>After saving, the device page shows the program the unit is actually running. If the two disagree, the write did not land — check the device is reachable and try again.</p>
+<p>After saving, the device page shows the program the unit is actually running. If the two disagree, the write did not land; check the device is reachable and try again.</p>
 <aside class="cal cal-note"><p class="cal-t">Read the device before changing a gyre</p><p>A gyre's page shows when it last reported. If that reading is stale, refresh it before editing so the schedule is built on the unit's actual current state.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-device-control"><span>Previous</span><b>Controlling your equipment</b></a><a class="pn-n" href="/help/mobile-probes"><span>Next</span><b>Probes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -190,7 +190,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -209,7 +209,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -229,7 +229,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -391,13 +391,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

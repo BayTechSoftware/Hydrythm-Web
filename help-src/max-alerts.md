@@ -15,7 +15,7 @@ The pills are the reason Cora Max works as a wall display: the tank's problems a
 
 ## The notification inbox
 
-**Settings → Notification history** is the **account-wide** inbox — every briefing, alarm and account notice for your whole system, not just what this screen raised. It includes anything your phone missed.
+**Settings → Notification history** is the **account-wide** inbox: every briefing, alarm and account notice for your whole system, not just what this screen raised. It includes anything your phone missed.
 
 Alerts can also be snoozed per device, so a unit you are working on stops chiming without silencing the alert everywhere.
 
@@ -23,7 +23,7 @@ Alerts can also be snoozed per device, so a unit you are working on stops chimin
 
 ![Tank settings on Cora Max](img/max-tank-settings.webp "Each tank has its own journal, maintenance, alerts, livestock and briefing.")
 
-Tap the tank name in the top bar and choose **Alerts**, or go to **Settings → Tank settings → [your tank] → Alerts**. Either opens **Alert thresholds** — the same ranges as the phone. A change made here applies everywhere.
+Tap the tank name in the top bar and choose **Alerts**, or go to **Settings → Tank settings → [your tank] → Alerts**. Either opens **Alert thresholds**, the same ranges as the phone. A change made here applies everywhere.
 
 Individual thresholds can also be edited by opening a widget on the dashboard.
 

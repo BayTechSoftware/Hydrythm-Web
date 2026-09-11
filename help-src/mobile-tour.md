@@ -1,6 +1,6 @@
 ---
 title: The five tabs
-description: A tour of Cora Mobile — Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.
+description: A tour of Cora Mobile: Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 4
@@ -15,7 +15,7 @@ Cora Mobile has five tabs along the bottom. Almost everything you do lives in on
 
 Live readings for the selected tank. This is the main screen of the app.
 
-If you have more than one tank, swipe left and right to move between them — the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and a pencil that opens the tank profile. Editing the dashboard is a separate control, **Edit dashboard**, at the foot of the page.
+If you have more than one tank, swipe left and right to move between them; the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and a pencil that opens the tank profile. Editing the dashboard is a separate control, **Edit dashboard**, at the foot of the page.
 
 Full detail: **[Reading your dashboard](/help/mobile-dashboard)**.
 
@@ -47,10 +47,10 @@ Full detail: **[Settings](/help/mobile-settings)**.
 
 The first time you open the dashboard, Cora points out the parts of the screen in turn. It runs once.
 
-To see it again, use **Settings → About → Replay tips**. It restarts the tour and takes you to the dashboard so it begins straight away — useful after an update, or when handing the app to someone else.
+To see it again, use **Settings → About → Replay tips**. It restarts the tour and takes you to the dashboard so it begins straight away, useful after an update, or when handing the app to someone else.
 
 ## Two controls outside the tabs
 
-**The bell**, top right, is your notification history — every alert Cora has raised, newest first. The number on it is how many you have yet to read.
+**The bell**, top right, is your notification history: every alert Cora has raised, newest first. The number on it is how many you have yet to read.
 
-**The Journal button** floats over the bottom right of the Dashboard. Tap it to write down what you just did — a water change, a new coral, a dose you changed. See **[The journal](/help/mobile-journal)**.
+**The Journal button** floats over the bottom right of the Dashboard. Tap it to write down what you just did: a water change, a new coral, a dose you changed. See **[The journal](/help/mobile-journal)**.

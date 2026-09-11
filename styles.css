@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Cora — coraiq.tech
+   Cora | coraiq.tech
    "Daylight Reef" design system · light, calm, evidence-forward
    Brand tokens mirror the Cora app (AppColors); light-mode variant 2026-07-17.
    ========================================================================== */
@@ -32,7 +32,7 @@
      failed WCAG AA (4.5) on 12 elements. #5B6F8D is 4.71:1 on the worst of
      the three grounds. The owner's "don't change the colour structure" rule
      is respected: same hue family, one token, nothing else moved.
-     ⛔ #5F7391 looks like it should work and does NOT — it lands at 4.45. */
+     ⛔ #5F7391 looks like it should work and does NOT; it lands at 4.45. */
   --text-3:       #5B6F8D;
 
   /* Effects */
@@ -58,7 +58,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
-/* Keyboard focus ring — visible on the light theme, hidden for mouse users */
+/* Keyboard focus ring: visible on the light theme, hidden for mouse users */
 :focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; border-radius: 6px; }
 :focus:not(:focus-visible) { outline: none; }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
 .brand { display: inline-flex; align-items: center; text-decoration: none; }
-/* The two-tone wordmark sits directly on the light nav — no chip needed */
+/* The two-tone wordmark sits directly on the light nav; no chip needed */
 .brand img { height: 46px; width: auto; display: block; }
 .nav-links { display: flex; align-items: center; gap: 30px; }
 .nav-links a { color: var(--text-2); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color .2s; }
@@ -348,14 +348,14 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 }
 
 /* ==========================================================================
-   2026-09-07 — Rebuild to the booth-video story (hero → Max → Mobile →
+   2026-09-07: Rebuild to the booth-video story (hero → Max → Mobile →
    family → gear → Hub → intelligence → benefits).
    ⛔ ADDITIVE ONLY. The :root palette at the top of this file IS the site's
    colour structure and is deliberately untouched (owner, 2026-09-07:
    "Don't change the current website's color structure"). The booth/banner
    deck quotes a DIFFERENT near-miss palette (#0F172A/#10B981/#64748B/#F1F5FB);
    applying those over this file is what breaks the identity. Everything
-   below resolves through existing tokens — no new hex literals.
+   below resolves through existing tokens; no new hex literals.
    ========================================================================== */
 
 /* ---------- Scroll reveal (replaces load-only .reveal for new sections) --- */
@@ -376,26 +376,26 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
 
 /* ==========================================================================
-   THE STAR — Cora Max at the centre, every device on a spoke.
+   THE STAR: Cora Max at the centre, every device on a spoke.
 
    ⭐ This is the booth video's scene 5, rebuilt for the web. Owner, 2026-09-07:
    "we need to show like star diagram, exactly like in the promotional video
    I shared. I don't want anything stacked for this." Two earlier attempts (an
    SVG cross, then a CSS-grid cross) were my own invention and both were wrong.
 
-   ⛔ EVERY COORDINATE HERE IS LIFTED FROM `src/video.html`, NOT REDRAWN — the
+   ⛔ EVERY COORDINATE HERE IS LIFTED FROM `src/video.html`, NOT REDRAWN; the
    1920x1080 canvas, TC2 {960,550,480,300}, the six hub centres, lx/ly0/dy for
    the leaf columns, r=44 plates. The markup is generated from that same data so
    the two cannot drift. The device photos were recovered by cropping the
    rendered 1080p frame at those exact leaf coordinates, because the source
    `dev_*.jpg` no longer exist anywhere on disk.
 
-   ⚠️ NOT RESPONSIVE BY COLLAPSING — by SCROLLING. A star has no honest stacked
+   ⚠️ NOT RESPONSIVE BY COLLAPSING, by SCROLLING. A star has no honest stacked
    form: flattening it into a column is what the owner rejected. Below ~1180px
    it keeps its shape and the reader swipes, which is the same rule this site
    already applies to any wide diagram.
    ========================================================================== */
-/* ⚠️ FULL-BLEED, because .wrap caps at 1120px and the star's floor is 1180px —
+/* ⚠️ FULL-BLEED, because .wrap caps at 1120px and the star's floor is 1180px;
    inside the wrap it overflowed and scrolled even on a 1440px desktop. The star
    gets the viewport; the rest of the section keeps the normal measure. */
 .star-scroll {
@@ -442,7 +442,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
            box-shadow: 0 1cqw 2.6cqw rgba(23,59,110,.25); }
 .s-phone img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 1cqw; }
 /* ⛔ Top-LEFT of the phone, not under it. Under the phone this pill overlapped
-   the Neptune hub at (330,380) — the video's copy fits on one line at 1920px,
+   the Neptune hub at (330,380); the video's copy fits on one line at 1920px,
    ours wraps, and the extra width covered a whole brand. Owner, 2026-09-07. */
 .s-phone-lbl { position: absolute; left: 12.5%; top: 3.15%; width: 15.1%; text-align: right; }
 
@@ -524,7 +524,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .legend i.dot-soon { background: transparent; border: 1.5px dashed var(--brand); }
 
 /* ==========================================================================
-   Works with your gear — brand tree.
+   Works with your gear: brand tree.
    Text wordmarks, not logos (owner, 2026-09-07): only two of the five brand
    logos survived the booth build, and two logos beside three text names reads
    as an accident. It also sidesteps the trademark-rights question flagged in
@@ -538,7 +538,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .brandcard-head { display: flex; align-items: center; gap: 13px; }
 .brandcard-head .bc-name { flex: 1 1 auto; min-width: 0; }
 /* Real vendor marks. All five exist in mobile/assets/images (+ the AquaWiz
-   wordmark in the booth kit) — an earlier pass wrongly concluded only two
+   wordmark in the booth kit); an earlier pass wrongly concluded only two
    survived, because it searched only the booth folder. */
 .brand-mark { width: 40px; height: 40px; flex: none; object-fit: contain;
               border-radius: 11px; background: #fff; padding: 5px;
@@ -581,7 +581,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 .benefit h3 { font-size: 1.12rem; margin-bottom: 8px; }
 .benefit p { color: var(--text-2); font-size: .95rem; }
 
-/* ---------- Disclaimers (GIZ-14 — both are mandatory) ---------- */
+/* ---------- Disclaimers (GIZ-14: both are mandatory) ---------- */
 .disclaimers { max-width: 800px; margin: 0 auto; display: grid; gap: 9px; }
 .disclaimers p { font-size: .8rem; line-height: 1.6; color: var(--text-3); text-align: center; }
 
@@ -592,7 +592,7 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
   .benefits { grid-template-columns: 1fr; }
 }
 @media (max-width: 899px) {
-  /* .family-svg / .family-stack are gone with the SVG diagram — the grid
+  /* .family-svg / .family-stack are gone with the SVG diagram; the grid
      handles its own collapse now. */
   .legend { gap: 14px 20px; }
 }
@@ -602,13 +602,13 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
   .brandcard { padding: 22px 20px 20px; }
 }
 
-/* ⛔ Cora Max screens are RECTANGULAR — only the bezel is rounded.
+/* ⛔ Cora Max screens are RECTANGULAR; only the bezel is rounded.
    The base .tablet rule rounds the screenshot itself by 12px, which is a
    round-crop of the screen. Brand contract, 2026-09-07. */
 .tablet img { border-radius: 0; }
 
 /* ⚠️ Hero order on small screens. The base rule sets `.device { order: -1 }`,
-   which puts the ~650px-tall phone render above the copy — measured at 390px,
+   which puts the ~650px-tall phone render above the copy, measured at 390px,
    that pushed the <h1> to y≈740, below the fold on an iPhone 14. The headline
    leads; the product shot follows immediately after. */
 @media (max-width: 900px) {

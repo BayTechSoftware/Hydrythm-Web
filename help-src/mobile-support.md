@@ -32,7 +32,7 @@ That is what turns "it did not work" into something reproducible. It is displaye
 **Attach a screenshot** adds an image to the report, and **Remove screenshot** takes it off again before sending.
 
 :::warning A screenshot is visible to Cora support
-The app says so above the control. Check the image before attaching it — a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.
+The app says so above the control. Check the image before attaching it; a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.
 :::
 
 :::note Why there is no screenshot control in sitter mode

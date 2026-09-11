@@ -7,7 +7,7 @@ order: 22
 group: Records
 ---
 
-Activity records every **actuation request** — every attempt to change something — together with what asked for it and what became of it.
+Activity records every **actuation request** (every attempt to change something) together with what asked for it and what became of it.
 
 A request is not the same as a change. Refused requests never ran, no-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded.
 
@@ -17,7 +17,7 @@ A request is not the same as a change. Refused requests never ran, no-change req
 
 ## What is recorded
 
-Every **request**, not only the ones that worked — outlet switches, feed cycles, doses, plug changes, and anything a scene or automation did.
+Every **request**, not only the ones that worked: outlet switches, feed cycles, doses, plug changes, and anything a scene or automation did.
 
 A request that was **refused**, that made **no change**, or that went out and came back **unconfirmed** is recorded just as an executed one is. That is the point: a command that quietly did nothing is exactly what you want to find here.
 
@@ -29,7 +29,7 @@ Each entry names its cause:
 |---|---|
 | **This app** | You tapped it here |
 | **Voice in this app** | You asked, on this phone |
-| **Tapped on a Cora** | Someone used a Cora screen — the row says which |
+| **Tapped on a Cora** | Someone used a Cora screen; the row says which |
 | **Voice on a Cora Max** | Someone spoke to a screen |
 | **Cora Assistant** | You asked Cora to do it |
 | **Automation rule** | A rule fired |
@@ -45,13 +45,13 @@ Each row also carries a route chip, because *how* a request reached your equipme
 |---|---|
 | **LAN** | Sent across your own network, directly to the equipment |
 | **VIA CLOUD** | Sent through your account, for equipment not reachable directly |
-| **ROUTE ?** | Recorded before routes were tracked — genuinely unknown, not assumed |
+| **ROUTE ?** | Recorded before routes were tracked: genuinely unknown, not assumed |
 
 On a system with more than one Cora, the row also names which one carried the request out.
 
 ## The tank timeline
 
-Separately from equipment actions, each tank has a **timeline** — readings, alerts, journal entries, ICP results and livestock changes laid out in order.
+Separately from equipment actions, each tank has a **timeline**: readings, alerts, journal entries, ICP results and livestock changes laid out in order.
 
 Use activity when you are asking *"what did something do?"* and the timeline when you are asking *"what was happening around this date?"*
 

@@ -14,7 +14,7 @@ The dashboard editor controls which widgets appear on a tank's dashboard and how
 Scroll to the bottom of the dashboard and tap **Edit dashboard**.
 
 :::note The pencil beside the tank name is a different screen
-That opens **Edit tank** — the tank profile, covering volume, livestock, dosing and equipment. See [Your tank profile](/help/mobile-tank-profile).
+That opens **Edit tank**: the tank profile, covering volume, livestock, dosing and equipment. See [Your tank profile](/help/mobile-tank-profile).
 :::
 
 ![The dashboard editor](img/mobile-edit.webp "Each tile shows its name and type. Tap a red cross to remove it.")
@@ -32,7 +32,7 @@ Choose **2**, **3** or **4** columns at the top of the editor. The grid grows do
 ## Adding a widget
 
 1. Tap **+** in the editor.
-2. Choose what the widget shows — a parameter, a device, or an outlet.
+2. Choose what the widget shows: a parameter, a device, or an outlet.
 3. Choose the widget type. See [Widget reference](/help/mobile-widgets).
 
 Only sources that exist on the tank are offered. A parameter with no source appears once you connect equipment that reports it or log a reading by hand.
@@ -57,8 +57,8 @@ Depending on the widget type, you can set:
 |---|---|
 | Label | All types |
 | Source | Any parameter reported by more than one thing |
-| Time window | Trend — 1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year |
-| Range | Gauge — inherited from the tank's thresholds unless overridden here |
+| Time window | Trend: 1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year |
+| Range | Gauge: inherited from the tank's thresholds unless overridden here |
 | Size | All types |
 
 ## Saving
@@ -72,14 +72,14 @@ A layout you like can be saved and reused. **My dashboards → Save this design*
 A saved design can be loaded onto another tank, or onto a Cora Max screen.
 
 :::note Tiles the target cannot fill are listed before you commit
-Loading a design keeps only the tiles the target can actually populate. Anything else is dropped and listed for you under **Left behind** before you commit, each with its reason — the tank has never reported that metric, there is no outlet with that name, the ReefBeat device or Apex module is not linked to this tank, or the grid ran out of room.
+Loading a design keeps only the tiles the target can actually populate. Anything else is dropped and listed for you under **Left behind** before you commit, each with its reason: the tank has never reported that metric, there is no outlet with that name, the ReefBeat device or Apex module is not linked to this tank, or the grid ran out of room.
 :::
 
 ## Restoring a previous layout
 
 A saved design is how you return to a layout you liked. Save one while the dashboard is arranged the way you want it, and you can reapply it later.
 
-It is a **restore, not an undo**: you pick the design from the list, confirm it, and it replaces the current layout — including dropping any tile the tank cannot fill. It brings back the layout you saved, not the state before your last edit.
+It is a **restore, not an undo**: you pick the design from the list, confirm it, and it replaces the current layout, including dropping any tile the tank cannot fill. It brings back the layout you saved, not the state before your last edit.
 
 Readings, history and journal entries are stored separately from layout, so no edit to a dashboard can lose them.
 

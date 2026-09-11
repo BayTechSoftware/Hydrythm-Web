@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alerts and thresholds — Cora Help</title>
+  <title>Alerts and thresholds | Cora Help</title>
   <meta name="description" content="Set the range for each parameter, choose what you get told about, and understand why an alert fired.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-alerts">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Alerts and thresholds — Cora Help">
+  <meta property="og:title" content="Alerts and thresholds | Cora Help">
   <meta property="og:description" content="Set the range for each parameter, choose what you get told about, and understand why an alert fired.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-alerts">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -161,20 +161,20 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Alert Center"><img src="img/mobile-alerts.webp" alt="The Alert Center" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Active alerts, each with its severity, what triggered it, and when.</figcaption></figure>
 <h2 id="the-alert-center">The Alert Center</h2>
 <p>Two tabs:</p>
-<ul><li><strong>Active</strong> — alerts currently raised, with a count badge</li><li><strong>Rules</strong> — the thresholds and rate-of-change rules that produce them</li></ul>
+<ul><li><strong>Active</strong>: alerts currently raised, with a count badge</li><li><strong>Rules</strong>: the thresholds and rate-of-change rules that produce them</li></ul>
 <p>Each active alert shows the parameter and tank, the reading that triggered it, a plain explanation, a severity chip, the kind of rule that fired (<strong>Threshold</strong> or <strong>Rate of Change</strong>), and the time it fired.</p>
 <p>Two actions on each:</p>
-<ul><li><strong>View rule</strong> — opens the rule that raised it, so you can adjust the range</li><li><strong>Explain this alert</strong> — asks the Assistant to interpret it against your tank's history</li></ul>
+<ul><li><strong>View rule</strong>: opens the rule that raised it, so you can adjust the range</li><li><strong>Explain this alert</strong>: asks the Assistant to interpret it against your tank's history</li></ul>
 <h2 id="setting-a-range">Setting a range</h2>
-<p>Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up — usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.</p>
-<p>To change one: <strong>long-press its widget</strong> on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead — the two gestures go to different places, and the long-press is the shortcut worth remembering.</p>
+<p>Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up, usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.</p>
+<p>To change one: <strong>long-press its widget</strong> on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead; the two gestures go to different places, and the long-press is the shortcut worth remembering.</p>
 <p>To see them all together, use <strong>Alerts</strong> in the row of buttons under the dashboard.</p>
 <p>You can set:</p>
-<ul><li><strong>A range</strong> — a low and a high, for things like alkalinity or temperature</li><li><strong>A ceiling</strong> — a high only, for things where low is fine, like nitrate or phosphate</li><li><strong>A floor</strong> — a low only</li></ul>
+<ul><li><strong>A range</strong>: a low and a high, for things like alkalinity or temperature</li><li><strong>A ceiling</strong>: a high only, for things where low is fine, like nitrate or phosphate</li><li><strong>A floor</strong>: a low only</li></ul>
 <aside class="cal cal-tip"><p class="cal-t">Set the range your tank actually runs at</p><p>The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when <em>you</em> drift.</p></aside>
 <h2 id="what-triggers-an-alert">What triggers an alert</h2>
 <p>An alert fires when a reading crosses a threshold. Cora checks each reading as it arrives, so a single reading outside your range is enough to raise one.</p>
-<p>Once an alert is up it will not keep re-notifying you about the same thing — there is a cooldown before it can fire again. And it <strong>clears itself</strong> the moment a reading comes back inside the range; there is nothing to acknowledge.</p>
+<p>Once an alert is up it will not keep re-notifying you about the same thing; there is a cooldown before it can fire again. And it <strong>clears itself</strong> the moment a reading comes back inside the range; there is nothing to acknowledge.</p>
 <p>You can also set a <strong>rate-of-change</strong> rule, which watches how fast a parameter moves rather than where it currently sits. That is the one to use for things where the speed of a change matters more than the number.</p>
 <h2 id="where-alerts-appear">Where alerts appear</h2>
 <ul><li><strong>The bell</strong>, top right of every screen, holds your history. The number is how many you have not read.</li><li><strong>Push notifications</strong> reach your phone when you allow them.</li><li><strong>The widget</strong> turns amber or red on the dashboard.</li><li><strong>Cora Max</strong> shows the same alerts on the big screen.</li></ul>
@@ -184,14 +184,14 @@
 <p>Reef Buddy has no switch of its own: it sends a briefing when there is something worth acting on and stays quiet when there is not.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora is built to stay quiet</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
-<p>An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.</p>
+<p>An alert clears when the reading comes back into range. There is nothing to dismiss; it is a statement about the tank, not a task.</p>
 <aside class="cal cal-note"><p class="cal-t">Transient readings raise alerts</p><p>A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.</p></aside>
-<p>If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
+<p>If a reading is wrong rather than the tank being wrong (a probe that needs calibrating, say), fix the source. Widening a threshold to silence a bad probe hides the next real problem too.</p>
 <h2 id="disabling-alerts-for-a-parameter">Disabling alerts for a parameter</h2>
 <p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn its <strong>enable switch</strong> off. The rule and its range are kept, so you can switch it back on without rebuilding it.</p>
-<aside class="cal cal-warning"><p class="cal-t">Quieten a parameter without deleting its range</p><p>Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Quieten a parameter without deleting its range</p><p>Removing a threshold does not necessarily stop every assessment of that reading; default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-consumables"><span>Previous</span><b>Consumables</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -199,7 +199,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -218,7 +218,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -238,7 +238,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -400,13 +400,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

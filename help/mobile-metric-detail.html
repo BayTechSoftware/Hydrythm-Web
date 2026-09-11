@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Looking into a parameter — Cora Help</title>
+  <title>Looking into a parameter | Cora Help</title>
   <meta name="description" content="Tap any widget for full history, every source reporting it, and where to change its range.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-metric-detail">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Looking into a parameter — Cora Help">
+  <meta property="og:title" content="Looking into a parameter | Cora Help">
   <meta property="og:description" content="Tap any widget for full history, every source reporting it, and where to change its range.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-metric-detail">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -160,26 +160,26 @@
 <h2 id="what-you-get">What you get</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Looking into a parameter"><img src="img/mobile-metric-detail.webp" alt="Looking into a parameter" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Ranges along the top, then the sources reporting this parameter, then the chart with your alert band shaded.</figcaption></figure>
 <p><strong>A history chart</strong>, with its own range selector: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> and longer.</p>
-<p><strong>A source filter.</strong> Below the ranges is a row of chips — <strong>All</strong>, plus one per source reporting this parameter, such as <em>Apex</em>, <em>Cora</em>, <em>Red Sea</em> or <em>Manual</em>. Select one to see only its readings. This is how you compare a probe against a test kit directly: switch between them on the same chart.</p>
+<p><strong>A source filter.</strong> Below the ranges is a row of chips: <strong>All</strong>, plus one per source reporting this parameter, such as <em>Apex</em>, <em>Cora</em>, <em>Red Sea</em> or <em>Manual</em>. Select one to see only its readings. This is how you compare a probe against a test kit directly: switch between them on the same chart.</p>
 <p><strong>A dose calculator link</strong>, for parameters you dose. It uses the tank volume from your <a href="/help/mobile-tank-profile">tank profile</a> and the strengths from <a href="/help/mobile-dosing">Dosing</a>.</p>
-<p><strong>A comparison overlay.</strong> <em>Compare with</em> draws a second parameter on the same chart — alkalinity against calcium, pH against temperature — so a relationship you suspect becomes visible instead of remembered.</p>
+<p><strong>A comparison overlay.</strong> <em>Compare with</em> draws a second parameter on the same chart (alkalinity against calcium, pH against temperature), so a relationship you suspect becomes visible instead of remembered.</p>
 <p><strong>Summary statistics</strong> for the window on screen: <strong>MIN</strong>, <strong>AVG</strong> and <strong>MAX</strong>, shown as a row under the current value.</p>
 <p><strong>Dose markers</strong> on the chart, so a movement can be lined up against what you actually dosed.</p>
-<p><strong>The raw readings list</strong> — every individual reading behind the line, with its source and timestamp.</p>
-<p><strong>Your alert band</strong>, shaded on the chart, so a reading is read against its range rather than in isolation. To change the range itself, long-press the widget on the dashboard — see <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
+<p><strong>The raw readings list</strong>: every individual reading behind the line, with its source and timestamp.</p>
+<p><strong>Your alert band</strong>, shaded on the chart, so a reading is read against its range rather than in isolation. To change the range itself, long-press the widget on the dashboard. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
 <p><strong>Log a reading</strong> by hand.</p>
 <h2 id="choosing-a-range">Choosing a range</h2>
 <p>The right range depends on the rhythm of the parameter:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Parameter</th><th>Useful window</th></tr></thead><tbody><tr><td data-th="Parameter">pH</td><td data-th="Useful window">24 hours — it swings on a daily cycle</td></tr><tr><td data-th="Parameter">Temperature</td><td data-th="Useful window">24 hours or 7 days</td></tr><tr><td data-th="Parameter">Alkalinity</td><td data-th="Useful window">7 or 30 days</td></tr><tr><td data-th="Parameter">Trace elements</td><td data-th="Useful window">30 days or a year</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Parameter</th><th>Useful window</th></tr></thead><tbody><tr><td data-th="Parameter">pH</td><td data-th="Useful window">24 hours; it swings on a daily cycle</td></tr><tr><td data-th="Parameter">Temperature</td><td data-th="Useful window">24 hours or 7 days</td></tr><tr><td data-th="Parameter">Alkalinity</td><td data-th="Useful window">7 or 30 days</td></tr><tr><td data-th="Parameter">Trace elements</td><td data-th="Useful window">30 days or a year</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Check the reading age on a flat trend</p><p>A line that has not moved may indicate a stable parameter or a source that has stopped reporting. The age shown beside the value distinguishes the two.</p></aside>
 <h2 id="comparing-sources">Comparing sources</h2>
 <p>When more than one source reports a parameter, Cora keeps them separate rather than averaging them. Use the source chips to view each in turn.</p>
 <p>A persistent offset between a probe and a hand-logged test usually indicates the probe needs calibrating.</p>
-<p>An <a href="/help/mobile-icp-health">ICP result</a> is a useful third opinion, but not an arbiter. Laboratories differ from one another, and the sample's handling, storage and transit all move the result. Treat a single ICP as evidence, not as the true value — two tests agreeing is worth far more than one.</p>
+<p>An <a href="/help/mobile-icp-health">ICP result</a> is a useful third opinion, but not an arbiter. Laboratories differ from one another, and the sample's handling, storage and transit all move the result. Treat a single ICP as evidence, not as the true value; two tests agreeing is worth far more than one.</p>
 <h2 id="choosing-which-source-a-widget-trusts">Choosing which source a widget trusts</h2>
-<p>If you want a widget to follow one particular source, set that in the widget's settings — see <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
+<p>If you want a widget to follow one particular source, set that in the widget's settings. See <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
 <h2 id="excluding-a-bad-reading">Excluding a bad reading</h2>
-<p>A probe that spiked, a test misread, a sample taken mid water-change — a single wrong reading distorts the chart, the averages and anything reasoning from them.</p>
+<p>A probe that spiked, a test misread, a sample taken mid water-change: a single wrong reading distorts the chart, the averages and anything reasoning from them.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The raw readings list"><img src="img/mobile-readings.webp" alt="The raw readings list" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Every reading behind the line, with its source and time.</figcaption></figure>
 <p>Open the readings list from the icon in the top bar, then tap a reading to exclude it. The screen says it plainly: <em>excluded from averages and insights, but it stays in your log.</em> Nothing is deleted, and it can be restored.</p>
 <aside class="cal cal-warning"><p class="cal-t">Exclude a wrong reading, not an unwelcome one</p><p>Excluding is for readings you know to be invalid. A reading you dislike but cannot fault is data, and removing it makes every later comparison less honest.</p></aside>
@@ -189,7 +189,7 @@
 <p>Enter what your test kit says. Hand-logged readings are first-class: they get their own source and timestamp, they appear on the chart, they feed Reef Buddy, and they are what Cora compares your equipment against.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora checks entries that look implausible</p><p>If a value is far from what the tank has been running, you are asked to confirm it before it is saved. This catches a decimal point in the wrong place or a reading entered against the wrong parameter. Confirm it and the reading is stored normally.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-widgets"><span>Previous</span><b>Widget reference</b></a><a class="pn-n" href="/help/mobile-devices"><span>Next</span><b>Adding, editing and removing devices</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -197,7 +197,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -216,7 +216,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -236,7 +236,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -398,13 +398,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

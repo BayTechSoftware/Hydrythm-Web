@@ -7,7 +7,7 @@ order: 27
 group: Your dashboard
 ---
 
-Cora can produce a **tank snapshot** — a single card showing your tank's current parameters, formatted for sharing.
+Cora can produce a **tank snapshot**: a single card showing your tank's current parameters, formatted for sharing.
 
 ## Creating one
 
@@ -17,7 +17,7 @@ Tap the **share** icon in the tank header on the dashboard. Cora builds the card
 
 ## What it contains
 
-The card carries your tank's name, its age, its type and livestock count, then the metrics you chose — each with its current value and a recent trend.
+The card carries your tank's name, its age, its type and livestock count, then the metrics you chose, each with its current value and a recent trend.
 
 ## Choosing what appears
 
@@ -27,8 +27,8 @@ The card carries your tank's name, its age, its type and livestock count, then t
 
 Two formats:
 
-- **Square (1:1)** — for a post or a message
-- **Story (9:16)** — for a full-screen story
+- **Square (1:1)**: for a post or a message
+- **Story (9:16)**: for a full-screen story
 
 ## Sending it
 

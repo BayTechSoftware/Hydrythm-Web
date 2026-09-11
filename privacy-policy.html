@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — Cora</title>
+  <title>Privacy Policy | Cora</title>
   <meta name="description" content="How Cora collects, uses, and protects your data.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/privacy-policy.html">
@@ -19,11 +19,11 @@
        Under simulated slow 4G ~100 KB of woff2 discovered during the initial
        paint competes with the LCP image. font-display:swap already paints the
        fallback first, so the faces are deferred to after render.
-       ⛔ Do NOT add rel=preload for these — that is what put the old Google
+       ⛔ Do NOT add rel=preload for these. That is what put the old Google
        Fonts request on the critical path for 1053 ms. -->
-  <link rel="stylesheet" href="fonts.css?v=1" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="fonts.css?v=1"></noscript>
-  <link rel="stylesheet" href="styles.css?v=20260907f">
+  <link rel="stylesheet" href="fonts.css?v=2" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="fonts.css?v=2"></noscript>
+  <link rel="stylesheet" href="styles.css?v=20260911a">
 </head>
 <body>
 
@@ -63,7 +63,7 @@
         <li>Name and email address from your Apple ID (Sign in with Apple)</li>
         <li>Email verification status</li>
       </ul>
-      <p>Account credentials are managed securely through Cora Cloud. We do not store your raw password — credentials are hashed and stored using industry-standard practices.</p>
+      <p>Account credentials are managed securely through Cora Cloud. We do not store your raw password; credentials are hashed and stored using industry-standard practices.</p>
 
       <h3>1.2 Tank Profile Data</h3>
       <p>When you create a tank profile, we store the following in Cora Cloud:</p>
@@ -105,7 +105,7 @@
       <ul>
         <li>Audio from your device microphone is transmitted in real time over a secure connection for processing by the Cora Assistant</li>
         <li>The assistant processes the audio to generate spoken responses streamed back to your device</li>
-        <li>Voice sessions are ephemeral — audio is not stored on our servers or in your account</li>
+        <li>Voice sessions are ephemeral; audio is not stored on our servers or in your account</li>
         <li>Text transcripts of voice conversations may be stored in Cora Cloud under your user account</li>
       </ul>
 
@@ -136,19 +136,19 @@
       <p>When you connect a Neptune Apex controller:</p>
       <ul>
         <li>Your Apex IP address and credentials are stored locally on your device only, using encrypted storage</li>
-        <li>The app communicates with your Apex controller over your local network — Apex data does not pass through our servers</li>
+        <li>The app communicates with your Apex controller over your local network; Apex data does not pass through our servers</li>
         <li>Parameter readings retrieved from the Apex are stored in Cora Cloud as part of your tank data</li>
       </ul>
 
-            <div class="callout">Cora's integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners. Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</div>
+            <div class="callout">Cora's integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners. Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</div>
 
 <h3>1.14 AquaWiz Integration</h3>
-      <p>When you link an AquaWiz KH Controller, Cora signs in to AquaWiz's online service on your behalf and reads that controller's measurements. Unlike the Neptune Apex integration, this one is not local — it runs in Cora Cloud, so your AquaWiz sign-in is held on our servers rather than only on your phone:</p>
+      <p>When you link an AquaWiz KH Controller, Cora signs in to AquaWiz's online service on your behalf and reads that controller's measurements. Unlike the Neptune Apex integration, this one is not local; it runs in Cora Cloud, so your AquaWiz sign-in is held on our servers rather than only on your phone:</p>
       <ul>
         <li>Your AquaWiz username, and an access token issued to you by AquaWiz, are stored in Cora Cloud. The token is encrypted at rest using AES-256-GCM under a key held in a dedicated secrets manager, separate from the database</li>
-        <li><strong>Your AquaWiz password is stored only if you choose to save it</strong> when linking, and it is encrypted the same way. If you choose not to save it, we keep only the access token, and you will be asked to reconnect when it expires — roughly every 30 days</li>
+        <li><strong>Your AquaWiz password is stored only if you choose to save it</strong> when linking, and it is encrypted the same way. If you choose not to save it, we keep only the access token, and you will be asked to reconnect when it expires, roughly every 30 days</li>
         <li>Cora connects to AquaWiz's servers on your behalf about every 30 minutes to retrieve alkalinity readings, and pH readings if you enable that option. Those readings are stored in Cora Cloud as part of your tank data</li>
-        <li>AquaWiz issues a single access token per account, so the token Cora holds is the same one their own app uses. We cannot revoke Cora's access independently — to cut it off, unlink the controller in Cora, or change your AquaWiz password</li>
+        <li>AquaWiz issues a single access token per account, so the token Cora holds is the same one their own app uses. We cannot revoke Cora's access independently. To cut it off, unlink the controller in Cora, or change your AquaWiz password</li>
         <li>Your stored AquaWiz sign-in is permanently deleted when you unlink the controller, and when you delete your Cora account</li>
       </ul>
 
@@ -184,11 +184,11 @@
 
       <h2>3. Service Providers</h2>
       <p>Cora Cloud and the Cora Assistant are operated on secure, industry-leading third-party cloud infrastructure and AI processing providers. These providers act as our sub-processors under data-processing agreements and are bound by confidentiality and security obligations that provide the same or equal protection for your data as described in this policy. They process data only as necessary to deliver Cora features on our behalf.</p>
-      <p><strong>AI processing provider — OpenAI.</strong> The Cora Assistant is powered by <strong>OpenAI</strong>. When you use the assistant — text chat, voice conversation, health reports or ICP analysis — your question or voice message, together with the tank parameters and readings, livestock list, journal entries and connected-device information needed to answer it, is transmitted to OpenAI, which generates the reply and returns it to us. OpenAI processes this data solely to produce your response. Its handling of data submitted through its API is described in the <a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a> and the <a href="https://openai.com/enterprise-privacy/">OpenAI enterprise privacy commitments</a>. No data is sent to OpenAI until you have accepted the in-app data-sharing disclosure described in Section 4; if you decline, the assistant is not used and nothing is transmitted.</p>
+      <p><strong>AI processing provider: OpenAI.</strong> The Cora Assistant is powered by <strong>OpenAI</strong>. When you use the assistant (text chat, voice conversation, health reports or ICP analysis), your question or voice message, together with the tank parameters and readings, livestock list, journal entries and connected-device information needed to answer it, is transmitted to OpenAI, which generates the reply and returns it to us. OpenAI processes this data solely to produce your response. Its handling of data submitted through its API is described in the <a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a> and the <a href="https://openai.com/enterprise-privacy/">OpenAI enterprise privacy commitments</a>. No data is sent to OpenAI until you have accepted the in-app data-sharing disclosure described in Section 4; if you decline, the assistant is not used and nothing is transmitted.</p>
       <p>In addition, the following optional sign-in methods are provided directly to you, each governed by its own privacy policy:</p>
       <ul>
-        <li><a href="https://policies.google.com/privacy">Google Sign-In</a> — optional authentication method</li>
-        <li><a href="https://www.apple.com/legal/privacy/">Sign in with Apple</a> — optional authentication method</li>
+        <li><a href="https://policies.google.com/privacy">Google Sign-In</a>: optional authentication method</li>
+        <li><a href="https://www.apple.com/legal/privacy/">Sign in with Apple</a>: optional authentication method</li>
       </ul>
 
       <h2>4. Data Consent</h2>
@@ -213,7 +213,7 @@
       </ul>
 
       <h3>6.1 Anonymized Aquarium Data</h3>
-      <p>When you delete your account, a copy of your aquarium's non-identifying data — tank type, tank volume, water parameter history, lighting schedule, and general livestock categories — may be retained in fully anonymized form to support reef-keeping research and improve Cora's guidance. This anonymized data contains no name, email address, account identifier, device identifier, free-text notes, or photos, and cannot be linked back to you or your account.</p>
+      <p>When you delete your account, a copy of your aquarium's non-identifying data (tank type, tank volume, water parameter history, lighting schedule, and general livestock categories) may be retained in fully anonymized form to support reef-keeping research and improve Cora's guidance. This anonymized data contains no name, email address, account identifier, device identifier, free-text notes, or photos, and cannot be linked back to you or your account.</p>
       <p>You can turn this off at any time before deleting your account in the app under Settings &gt; Cora Assistant &gt; "Contribute anonymized tank data". With the switch off, your aquarium data is permanently deleted together with everything else.</p>
 
       <h2>7. Account Deletion and Your Rights</h2>
@@ -223,8 +223,8 @@
         <li>All data in Cora Cloud associated with your account (tank profiles, parameters, livestock, journal entries, assistant history, health reports, ICP reports, maintenance tasks, alerts) is permanently deleted via a GDPR-compliant cascade deletion</li>
         <li>All files associated with your account (ICP report PDFs) are permanently deleted</li>
         <li>Device telemetry data associated with your account is permanently deleted</li>
-        <li>Any stored third-party service sign-in — such as an AquaWiz access token, and a password if you saved one — is permanently deleted</li>
-        <li>If you have left "Contribute anonymized tank data" enabled, a fully anonymized copy of your aquarium's parameter history is retained as described in Section 6.1 — it contains nothing that identifies you</li>
+        <li>Any stored third-party service sign-in (such as an AquaWiz access token, and a password if you saved one) is permanently deleted</li>
+        <li>If you have left "Contribute anonymized tank data" enabled, a fully anonymized copy of your aquarium's parameter history is retained as described in Section 6.1; it contains nothing that identifies you</li>
         <li>Local data on your device remains until you uninstall the app</li>
       </ul>
       <p>Under applicable data protection laws (including GDPR), you may also have the right to:</p>
@@ -233,7 +233,7 @@
         <li>Correct inaccurate personal data</li>
         <li>Request deletion of your personal data</li>
         <li>Object to or restrict processing of your personal data</li>
-        <li>Data portability — receive your data in a structured, machine-readable format</li>
+        <li>Data portability: receive your data in a structured, machine-readable format</li>
       </ul>
       <p>To exercise these rights, contact us at the address below.</p>
 

@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: The words Cora uses — tank, source, widget, saved design, threshold, insight and the rest.
+description: The words Cora uses: tank, source, widget, saved design, threshold, insight and the rest.
 section: Help
 reviewed: 2026-09-09
 order: 2
@@ -8,7 +8,7 @@ order: 2
 
 ## Age
 
-How long ago a reading was taken — shown on every parameter widget as `now`, `1h`, `2d`. Not how recently the screen refreshed. A number with an old age is an old number, and Cora says so rather than presenting it as current.
+How long ago a reading was taken, shown on every parameter widget as `now`, `1h`, `2d`. Not how recently the screen refreshed. A number with an old age is an old number, and Cora says so rather than presenting it as current.
 
 ## Alert
 
@@ -16,7 +16,7 @@ Cora telling you something needs attention. Most often a reading outside the ran
 
 ## Automation
 
-A rule or scene that runs by itself — "if temperature goes above 27, turn on the fan". Lives under **Settings → Automation**.
+A rule or scene that runs by itself: "if temperature goes above 27, turn on the fan". Lives under **Settings → Automation**.
 
 ## Cora Cloud
 
@@ -40,7 +40,7 @@ A pause for feeding that stops the right equipment and restores it automatically
 
 ## Health report
 
-A deeper periodic assessment of a whole system — every parameter, source, dose and recent lab result, considered together. See [ICP and health reports](/help/mobile-icp-health).
+A deeper periodic assessment of a whole system: every parameter, source, dose and recent lab result, considered together. See [ICP and health reports](/help/mobile-icp-health).
 
 ## ICP
 
@@ -48,7 +48,7 @@ A laboratory water test covering a wide range of elements. Upload the result and
 
 ## Insight
 
-One specific observation in a Reef Buddy briefing — a parameter drifting, two sources disagreeing, something untested for a while.
+One specific observation in a Reef Buddy briefing: a parameter drifting, two sources disagreeing, something untested for a while.
 
 ## Journal
 
@@ -60,7 +60,7 @@ A switchable socket on your equipment. In Cora it has three states: **Auto**, **
 
 ## Parameter
 
-Something measurable about your water — alkalinity, calcium, nitrate, temperature.
+Something measurable about your water: alkalinity, calcium, nitrate, temperature.
 
 ## Saved design
 
@@ -68,11 +68,11 @@ A dashboard layout you have kept under **My dashboards**, to re-apply later or l
 
 ## Reef Buddy
 
-Your daily briefing — a headline, two scores (**Stability** out of 100 and **Data**, a percentage) and the insights behind them. See [Reef Buddy](/help/mobile-reef-buddy).
+Your daily briefing: a headline, two scores (**Stability** out of 100 and **Data**, a percentage) and the insights behind them. See [Reef Buddy](/help/mobile-reef-buddy).
 
 ## Source
 
-Where a reading came from — a probe, a controller, a lab result, or you with a test kit. Every reading carries one, which is what lets Cora tell you when two disagree.
+Where a reading came from: a probe, a controller, a lab result, or you with a test kit. Every reading carries one, which is what lets Cora tell you when two disagree.
 
 ## Tank
 
@@ -80,7 +80,7 @@ A body of water you track. Most people have one; a frag system or quarantine is 
 
 ## Threshold
 
-The range you consider acceptable for a parameter. Can be a range, a ceiling or a floor. Yours to set — the defaults are only a starting point.
+The range you consider acceptable for a parameter. Can be a range, a ceiling or a floor. Yours to set; the defaults are only a starting point.
 
 ## Vacation mode
 

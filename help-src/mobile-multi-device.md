@@ -7,7 +7,7 @@ order: 29
 group: Account
 ---
 
-A household can have more than one Cora Max. Two settings decide which one does what, so they do not duplicate each other's work — and a third thing worth knowing is what is shared between them at all.
+A household can have more than one Cora Max. Two settings decide which one does what, so they do not duplicate each other's work, and a third thing worth knowing is what is shared between them at all.
 
 ## What is shared, and what is not
 
@@ -19,11 +19,11 @@ A household can have more than one Cora Max. Two settings decide which one does 
 | Alerts, thresholds, automations | Which tanks that screen shows |
 | Plans and usage | |
 
-Changing a threshold on one device changes it everywhere. Rearranging a dashboard does not — each screen keeps its own layout, and the phone and Cora Max never share one.
+Changing a threshold on one device changes it everywhere. Rearranging a dashboard does not; each screen keeps its own layout, and the phone and Cora Max never share one.
 
 ## Voice responder
 
-**Settings → Assistant & AI → Voice responder** chooses which **Cora device** answers when you speak to the room. Only one answers, however many can hear you — set it to whichever unit is nearest where you usually stand.
+**Settings → Assistant & AI → Voice responder** chooses which **Cora device** answers when you speak to the room. Only one answers, however many can hear you; set it to whichever unit is nearest where you usually stand.
 
 ![The voice responder picker](img/mobile-voice-responder.webp "Each device shows what it listens for, and whether it is online.")
 

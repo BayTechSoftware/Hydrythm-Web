@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Readings stopped, a device went offline, alerts are not clearing, or something looks wrong — start here.
+description: Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.
 section: Help
 reviewed: 2026-09-09
 order: 1
@@ -22,7 +22,7 @@ Work down this list:
 The age badge is telling you the truth: nothing new has arrived.
 
 - **Hand-logged parameters** go stale when no reading has been entered. Log one.
-- **Equipment readings** going stale means the device stopped reporting — check its row in **Devices**.
+- **Equipment readings** going stale means the device stopped reporting; check its row in **Devices**.
 - **Some equipment is meant to be slow.** A titrator that measures hourly will normally read `1h`. That is not a fault.
 
 ## A device cannot be reached
@@ -31,7 +31,7 @@ Usually the network.
 
 1. Is the equipment powered and working in its own app?
 2. Is it on the same network it was added on?
-3. Has your router changed — new hardware, new network name, guest network isolation?
+3. Has your router changed (new hardware, new network name, guest network isolation)?
 
 Equipment that connects over your local network needs to be reachable on that network. Equipment that connects through a manufacturer account does not, but needs that account to still be valid.
 
@@ -43,7 +43,7 @@ Open the device row and sign in again.
 
 ## Cora Max shows old data
 
-Check the status pill in the top bar. **Online** and **Cloud** are both healthy: with more than one Cora, the screen that is not doing the collecting shows **Cloud**, and its readings are just as current. **Stale** or **Offline** means the screen has lost its source and is showing the last data it received — correct behaviour, but not current.
+Check the status pill in the top bar. **Online** and **Cloud** are both healthy: with more than one Cora, the screen that is not doing the collecting shows **Cloud**, and its readings are just as current. **Stale** or **Offline** means the screen has lost its source and is showing the last data it received (correct behaviour, but not current).
 
 - Check Wi-Fi under **Settings → Cora Max → Network**
 - Check the network itself is up
@@ -67,13 +67,13 @@ Usually the probe needs calibrating; sometimes the test kit is old. Calibrate th
 
 ## I'm not getting notifications
 
-1. **Settings → Notifications** — check that category is allowed to push
+1. **Settings → Notifications**: check that category is allowed to push
 2. Check your phone's own notification permissions for Cora
 3. Remember the daily briefing is deliberately quiet on days when nothing changed
 
 ## Establishing why something changed
 
-**Settings → Activity** lists every outlet switch, feed, dose and plug change, with what asked for it — this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.
+**Settings → Activity** lists every outlet switch, feed, dose and plug change, with what asked for it: this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.
 
 ## My dashboard looks wrong after editing
 
@@ -85,4 +85,4 @@ Either way, readings, history and journal entries are stored separately from lay
 
 ## Still stuck
 
-Email **[cora@coraiq.tech](mailto:cora@coraiq.tech)**. Tell us which tank, which screen, and what you expected to see — it gets you a useful answer faster.
+Email **[cora@coraiq.tech](mailto:cora@coraiq.tech)**. Tell us which tank, which screen, and what you expected to see; it gets you a useful answer faster.

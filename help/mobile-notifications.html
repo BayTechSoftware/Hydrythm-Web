@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Notifications — Cora Help</title>
+  <title>Notifications | Cora Help</title>
   <meta name="description" content="Choose what reaches your phone, when it may arrive, and where to read what you missed.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-notifications">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Notifications — Cora Help">
+  <meta property="og:title" content="Notifications | Cora Help">
   <meta property="og:description" content="Choose what reaches your phone, when it may arrive, and where to read what you missed.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-notifications">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -160,21 +160,21 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Notification settings"><img src="img/mobile-notifications.webp" alt="Notification settings" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Each category can push independently.</figcaption></figure>
 <h2 id="what-can-push">What can push</h2>
 <p>Each category is switched independently:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem — a Trident that has stopped testing, for example</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers — and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem: a Trident that has stopped testing, for example</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers, and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
 <p>Turning a category off stops the push. The event is still recorded and still appears in the bell.</p>
-<aside class="cal cal-warning"><p class="cal-t">"Parameter Alerts" means chemistry, and only chemistry</p><p>It is natural to read that switch as covering everything the tank might tell you. It does not. A Trident that has stopped testing is an <strong>Equipment Fault</strong>, and reagent running out is <strong>Supplies Running Low</strong> — each has its own switch. If you have had Parameter Alerts on for a long time and assumed it covered the rest, check the other two.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">"Parameter Alerts" means chemistry, and only chemistry</p><p>It is natural to read that switch as covering everything the tank might tell you. It does not. A Trident that has stopped testing is an <strong>Equipment Fault</strong>, and reagent running out is <strong>Supplies Running Low</strong>; each has its own switch. If you have had Parameter Alerts on for a long time and assumed it covered the rest, check the other two.</p></aside>
 <p><strong>Supplies Running Low includes the waste bottle</strong>, which fills up rather than runs down. It is in this category because the action it needs is the same: something to empty or replace before it stops the tests.</p>
-<p>Equipment faults can be narrowed further. A separate set of switches covers the individual fault types — <strong>Stall Detected</strong>, <strong>Encoder Error</strong>, <strong>Power Instability</strong> and <strong>Home Timeout</strong> — for when you want the category on but one noisy fault off.</p>
+<p>Equipment faults can be narrowed further. A separate set of switches covers the individual fault types (<strong>Stall Detected</strong>, <strong>Encoder Error</strong>, <strong>Power Instability</strong> and <strong>Home Timeout</strong>) for when you want the category on but one noisy fault off.</p>
 <h2 id="the-bell">The bell</h2>
 <p>Top right of every screen. It holds everything Cora has raised, newest first, whether or not it pushed. The number is what you have not read.</p>
 <p>This is the right place to check after a day away from your phone, or after a category you switched off raised something.</p>
 <h2 id="if-nothing-is-arriving">If nothing is arriving</h2>
 <p>Work down this list:</p>
-<ol><li><strong>Settings → Notifications</strong> — is that category allowed to push?</li><li>Your phone's own settings — is Cora allowed to notify at all? A permission denied at install time overrides everything here.</li><li>Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.</li></ol>
+<ol><li><strong>Settings → Notifications</strong>: is that category allowed to push?</li><li>Your phone's own settings: is Cora allowed to notify at all? A permission denied at install time overrides everything here.</li><li>Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.</li></ol>
 <h2 id="if-too-much-is-arriving">If too much is arriving</h2>
 <p>Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-alerts"><span>Previous</span><b>Alerts and thresholds</b></a><a class="pn-n" href="/help/mobile-automation"><span>Next</span><b>Automations and scenes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -182,7 +182,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -201,7 +201,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -221,7 +221,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -383,13 +383,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

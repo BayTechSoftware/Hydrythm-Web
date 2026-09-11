@@ -1,6 +1,6 @@
 ---
 title: Talking to Cora
-description: Using voice on Cora Max — starting a conversation, what you can ask, and how confirmations work.
+description: Using voice on Cora Max, starting a conversation, what you can ask, and how confirmations work.
 section: Cora Max
 reviewed: 2026-09-09
 order: 12
@@ -22,7 +22,7 @@ Cora Max takes voice, which is the easiest way to use it when your hands are wet
 **Audio output** in the same section chooses the internal speaker, a 3.5 mm connection or Bluetooth. The internal speaker is the weakest of the three for voice.
 
 :::note It starts the moment you tap
-Cora Assistant begins a live session immediately — there is no confirmation step. If you tapped it by accident, stop the session and nothing is lost.
+Cora Assistant begins a live session immediately; there is no confirmation step. If you tapped it by accident, stop the session and nothing is lost.
 :::
 
 ## What to ask
@@ -41,11 +41,11 @@ Cora Assistant begins a live session immediately — there is no confirmation st
 - *"Put the fan back on auto."*
 - *"Log that I did a twenty litre water change."*
 
-**Follow-ups.** You do not need to repeat yourself — *"and the frag tank?"* works after a question about the display.
+**Follow-ups.** You do not need to repeat yourself; *"and the frag tank?"* works after a question about the display.
 
 ## Child lock
 
-**Settings → Cora Max → Experience → Child lock** blocks actuation from this screen. Questions and readings still work — Cora will answer what your alkalinity is, and refuse to switch the return pump off.
+**Settings → Cora Max → Experience → Child lock** blocks actuation from this screen. Questions and readings still work; Cora will answer what your alkalinity is, and refuse to switch the return pump off.
 
 Use it on a screen within reach of children or visitors.
 
@@ -54,13 +54,13 @@ Use it on a screen within reach of children or visitors.
 - press the **volume key three times within two seconds**, or
 - **hold five fingers in the top-right corner for ten seconds**.
 
-The two-second window is what makes it a lock rather than a suggestion — three presses at any spacing is something a child produces by accident. It is still a child lock, not a security lock: anyone who watches you do it can repeat it.
+The two-second window is what makes it a lock rather than a suggestion; three presses at any spacing is something a child produces by accident. It is still a child lock, not a security lock: anyone who watches you do it can repeat it.
 
 ## Confirmations
 
 Anything that reaches your equipment is confirmed before it happens. Cora tells you exactly what it is about to do and waits for you to agree.
 
-If an instruction is ambiguous — you have two heaters and said "the heater" — Cora asks which one rather than guessing.
+If an instruction is ambiguous (you have two heaters and said "the heater"), Cora asks which one rather than guessing.
 
 :::warning Confirming is you taking responsibility
 The confirmation exists so nothing surprises you. Read what it says before agreeing, particularly for anything that switches off life support.
@@ -68,7 +68,7 @@ The confirmation exists so nothing surprises you. Read what it says before agree
 
 ## What Cora can see
 
-The same as on your phone: your live readings, how old each one is, your history, your journal and your lab results — for the tank currently on screen.
+The same as on your phone: your live readings, how old each one is, your history, your journal and your lab results, for the tank currently on screen.
 
 If a reading is stale, Cora says so instead of answering as though it were current.
 
@@ -82,7 +82,7 @@ Say *"stop"*, or tap to end the session. Cora stops listening when the session e
 
 ## If it mishears
 
-Reef vocabulary is hard, and equipment names are harder. If Cora repeatedly mishears a device, rename it in **Devices** to something more distinct — short, ordinary words work best.
+Reef vocabulary is hard, and equipment names are harder. If Cora repeatedly mishears a device, rename it in **Devices** to something more distinct; short, ordinary words work best.
 
 ## If Cora does not respond
 

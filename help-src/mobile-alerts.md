@@ -17,29 +17,29 @@ Open the **Alert Center** from the shortcut row at the bottom of the dashboard.
 
 Two tabs:
 
-- **Active** — alerts currently raised, with a count badge
-- **Rules** — the thresholds and rate-of-change rules that produce them
+- **Active**: alerts currently raised, with a count badge
+- **Rules**: the thresholds and rate-of-change rules that produce them
 
 Each active alert shows the parameter and tank, the reading that triggered it, a plain explanation, a severity chip, the kind of rule that fired (**Threshold** or **Rate of Change**), and the time it fired.
 
 Two actions on each:
 
-- **View rule** — opens the rule that raised it, so you can adjust the range
-- **Explain this alert** — asks the Assistant to interpret it against your tank's history
+- **View rule**: opens the rule that raised it, so you can adjust the range
+- **Explain this alert**: asks the Assistant to interpret it against your tank's history
 
 ## Setting a range
 
-Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up — usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.
+Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up, usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.
 
-To change one: **long-press its widget** on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead — the two gestures go to different places, and the long-press is the shortcut worth remembering.
+To change one: **long-press its widget** on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead; the two gestures go to different places, and the long-press is the shortcut worth remembering.
 
 To see them all together, use **Alerts** in the row of buttons under the dashboard.
 
 You can set:
 
-- **A range** — a low and a high, for things like alkalinity or temperature
-- **A ceiling** — a high only, for things where low is fine, like nitrate or phosphate
-- **A floor** — a low only
+- **A range**: a low and a high, for things like alkalinity or temperature
+- **A ceiling**: a high only, for things where low is fine, like nitrate or phosphate
+- **A floor**: a low only
 
 :::tip Set the range your tank actually runs at
 The defaults are a starting point, not a verdict. A tank running low-nutrient at 6 dKH is not "wrong" because a chart said 8–9. Set the range you actually run, and Cora will tell you when *you* drift.
@@ -49,7 +49,7 @@ The defaults are a starting point, not a verdict. A tank running low-nutrient at
 
 An alert fires when a reading crosses a threshold. Cora checks each reading as it arrives, so a single reading outside your range is enough to raise one.
 
-Once an alert is up it will not keep re-notifying you about the same thing — there is a cooldown before it can fire again. And it **clears itself** the moment a reading comes back inside the range; there is nothing to acknowledge.
+Once an alert is up it will not keep re-notifying you about the same thing; there is a cooldown before it can fire again. And it **clears itself** the moment a reading comes back inside the range; there is nothing to acknowledge.
 
 You can also set a **rate-of-change** rule, which watches how fast a parameter moves rather than where it currently sits. That is the one to use for things where the speed of a change matters more than the number.
 
@@ -74,18 +74,18 @@ The daily briefing is one push per tank per day, and on a day when nothing needs
 
 ## Clearing an alert
 
-An alert clears when the reading comes back into range. There is nothing to dismiss — it is a statement about the tank, not a task.
+An alert clears when the reading comes back into range. There is nothing to dismiss; it is a statement about the tank, not a task.
 
 :::note Transient readings raise alerts
 A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.
 :::
 
-If a reading is wrong rather than the tank being wrong — a probe that needs calibrating, say — fix the source. Widening a threshold to silence a bad probe hides the next real problem too.
+If a reading is wrong rather than the tank being wrong (a probe that needs calibrating, say), fix the source. Widening a threshold to silence a bad probe hides the next real problem too.
 
 ## Disabling alerts for a parameter
 
 Open the rule in the **Rules** tab of the Alert Center and turn its **enable switch** off. The rule and its range are kept, so you can switch it back on without rebuilding it.
 
 :::warning Quieten a parameter without deleting its range
-Removing a threshold does not necessarily stop every assessment of that reading — default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.
+Removing a threshold does not necessarily stop every assessment of that reading; default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.
 :::

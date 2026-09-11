@@ -13,7 +13,7 @@ To open it, tap the **pencil on the right of the tank header**. The small glyph 
 
 ## Guided setup
 
-A profile has a lot in it, so **Guided setup** walks the sections one at a time — dosing, lighting, flow and filtration, livestock, your equipment — instead of presenting the whole form at once.
+A profile has a lot in it, so **Guided setup** walks the sections one at a time (dosing, lighting, flow and filtration, livestock, your equipment) instead of presenting the whole form at once.
 
 It is designed to be interrupted:
 
@@ -22,7 +22,7 @@ It is designed to be interrupted:
 - **Decide later** skips a question you are not ready to answer without blocking the rest.
 - Leaving a section with unsaved edits asks first, offering **Keep editing** or **Leave**.
 
-The completeness figure on the profile — and the prompt that appears on the dashboard while it is below 100% — are entry points back into the same flow.
+The completeness figure on the profile, and the prompt that appears on the dashboard while it is below 100%, are entry points back into the same flow.
 
 :::note Each section changes what Cora can say
 Completeness is not a score for its own sake. Dosing products make the dose calculator and consumption tracking work; livestock and tank type change what your readings are assessed against; equipment tells Cora what exists to talk about. A sparse profile gives correspondingly general answers.
@@ -66,7 +66,7 @@ A volume entered 20% high produces dose recommendations 20% high. If you are uns
 
 ## Tank age
 
-Set the date the tank was started. Readings are assessed against what is normal for a tank of that age — a system three months old and one five years old are assessed differently. If the tank is still cycling, record it as such.
+Set the date the tank was started. Readings are assessed against what is normal for a tank of that age; a system three months old and one five years old are assessed differently. If the tank is still cycling, record it as such.
 
 ## Keeping the profile current
 

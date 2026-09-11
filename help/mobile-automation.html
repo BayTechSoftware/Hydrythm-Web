@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Automations and scenes — Cora Help</title>
-  <meta name="description" content="Build rules that run by themselves — triggers, conditions, actions — and group them into scenes.">
+  <title>Automations and scenes | Cora Help</title>
+  <meta name="description" content="Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Automations and scenes — Cora Help">
-  <meta property="og:description" content="Build rules that run by themselves — triggers, conditions, actions — and group them into scenes.">
+  <meta property="og:title" content="Automations and scenes | Cora Help">
+  <meta property="og:description" content="Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -159,32 +159,32 @@
 <p>An automation is a rule Cora runs for you: <em>when this happens, check that, then do this.</em> Scenes group several actions into one thing you can run or schedule.</p>
 <p><strong>Settings → Automation.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The automation list"><img src="img/mobile-automation.webp" alt="The automation list" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Automations and Scenes are separate tabs. Each rule has an enable switch.</figcaption></figure>
-<p>The screen has two tabs — <strong>Automations</strong> and <strong>Scenes</strong> — and a <strong>New automation</strong> button. Each rule shows a one-line summary of what it does, an enable switch, and a menu for editing or deleting it. A rule that has not run yet is marked as such.</p>
+<p>The screen has two tabs (<strong>Automations</strong> and <strong>Scenes</strong>) and a <strong>New automation</strong> button. Each rule shows a one-line summary of what it does, an enable switch, and a menu for editing or deleting it. A rule that has not run yet is marked as such.</p>
 <aside class="cal cal-warning"><p class="cal-t">These act on real equipment</p><p>A rule that switches a pump switches it whether or not you are watching. Build one at a time and check each does what you expect before adding the next.</p></aside>
 <h2 id="the-shape-of-a-rule">The shape of a rule</h2>
 <p>Every rule is the same three parts:</p>
-<p><strong>Trigger</strong> — what wakes it up <strong>Conditions</strong> — what must also be true <strong>Actions</strong> — what it then does, in order</p>
+<p><strong>Trigger</strong>: what wakes it up <strong>Conditions</strong>: what must also be true <strong>Actions</strong>: what it then does, in order</p>
 <h2 id="what-can-wake-a-rule">What can wake a rule</h2>
 <p>Four things:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Trigger</th><th>Fires when</th></tr></thead><tbody><tr><td data-th="Trigger"><strong>Metric</strong></td><td data-th="Fires when">A parameter crosses a value you set, in a direction you choose</td></tr><tr><td data-th="Trigger"><strong>Alert</strong></td><td data-th="Fires when">An alert is raised, cleared, or either</td></tr><tr><td data-th="Trigger"><strong>Schedule</strong></td><td data-th="Fires when">A time of day, in your own timezone</td></tr><tr><td data-th="Trigger"><strong>Device status</strong></td><td data-th="Fires when">A device goes offline or comes back</td></tr></tbody></table></div>
 <h2 id="conditions">Conditions</h2>
-<p>Conditions decide whether the actions actually run. You get the usual comparisons — equals, not equals, greater than, less than, and so on — and you can combine them with <strong>and</strong>, <strong>or</strong> and <strong>not</strong>.</p>
+<p>Conditions decide whether the actions actually run. You get the usual comparisons (equals, not equals, greater than, less than, and so on) and you can combine them with <strong>and</strong>, <strong>or</strong> and <strong>not</strong>.</p>
 <p>There is also a <strong>step</strong> condition, which checks how the <em>previous</em> step turned out. That is what lets you write "try this; if it did not work, do that instead."</p>
 <h2 id="what-a-rule-can-do">What a rule can do</h2>
 <p>Twelve kinds of action:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Action</th><th>What it does</th></tr></thead><tbody><tr><td data-th="Action"><strong>Control Apex Equipment</strong></td><td data-th="What it does">Switch an outlet</td></tr><tr><td data-th="Action"><strong>Control a Red Sea Equipment</strong></td><td data-th="What it does">Drive a ReefBeat unit</td></tr><tr><td data-th="Action"><strong>Control a wavemaker</strong></td><td data-th="What it does">Change pump mode or intensity</td></tr><tr><td data-th="Action"><strong>Control a Cora Equipment</strong></td><td data-th="What it does">Switch a smart plug</td></tr><tr><td data-th="Action"><strong>Control IR Device</strong></td><td data-th="What it does">Send an infrared command</td></tr><tr><td data-th="Action"><strong>Run Apex Feed Cycle</strong></td><td data-th="What it does">Start a feed</td></tr><tr><td data-th="Action"><strong>Run a Trident Test</strong></td><td data-th="What it does">Trigger a test</td></tr><tr><td data-th="Action"><strong>Notify Me</strong></td><td data-th="What it does">Send yourself a push</td></tr><tr><td data-th="Action"><strong>Wait Before Next Step</strong></td><td data-th="What it does">Pause before continuing</td></tr><tr><td data-th="Action"><strong>Run a Scene</strong></td><td data-th="What it does">Run another scene from inside this rule</td></tr><tr><td data-th="Action"><strong>Manage an Automation</strong></td><td data-th="What it does">Turn another rule on or off</td></tr><tr><td data-th="Action"><strong>Dose</strong></td><td data-th="What it does">Run a measured dose on a dosing head</td></tr></tbody></table></div>
-<aside class="cal cal-warning"><p class="cal-t">Dosing from a rule is irreversible and capped</p><p>A dose cannot be taken back out of the tank. The head must be <strong>calibrated</strong> before a rule may dose from it, and unattended dosing is capped at <strong>10 mL per head per day</strong> — a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Use Wait to sequence steps within one rule</p><p>A pause allows a single rule to perform an ordered procedure — for example switching an outlet off, waiting, then switching it on again — without a second rule and a schedule.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Dosing from a rule is irreversible and capped</p><p>A dose cannot be taken back out of the tank. The head must be <strong>calibrated</strong> before a rule may dose from it, and unattended dosing is capped at <strong>10 mL per head per day</strong>; a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Use Wait to sequence steps within one rule</p><p>A pause allows a single rule to perform an ordered procedure (for example switching an outlet off, waiting, then switching it on again) without a second rule and a schedule.</p></aside>
 <h2 id="scenes">Scenes</h2>
-<p>A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule — "Water change", "Photo mode", "Night".</p>
+<p>A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule: "Water change", "Photo mode", "Night".</p>
 <p>A scene may call another scene. Cora refuses to run a scene nested beyond its depth limit, and refuses a scene that would call itself, to prevent a loop that would continue acting on the tank indefinitely.</p>
 <p>After a scene runs you are told what happened, step by step, including anything that failed.</p>
 <h2 id="turning-a-rule-off">Turning a rule off</h2>
-<p>Every rule has an enable switch. Turning one off keeps its definition — useful when you want a rule back next season rather than rebuilding it.</p>
+<p>Every rule has an enable switch. Turning one off keeps its definition, useful when you want a rule back next season rather than rebuilding it.</p>
 <h2 id="seeing-what-a-rule-did">Seeing what a rule did</h2>
 <p>Every action a rule takes is recorded with the rule as its cause. See <strong><a href="/help/mobile-activity">Activity</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-notifications"><span>Previous</span><b>Notifications</b></a><a class="pn-n" href="/help/mobile-dosing"><span>Next</span><b>Dosing</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -192,7 +192,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -211,7 +211,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -231,7 +231,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -393,13 +393,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

@@ -18,15 +18,15 @@ Cora Max shows the same records as the phone, but it is not a full editor for al
 
 Anything you do add here appears on your phone immediately, and the other way round.
 
-Reach all of them from the **tank menu** — tap the tank name in the top bar.
+Reach all of them from the **tank menu**: tap the tank name in the top bar.
 
 ![Maintenance on Cora Max](img/max-records.webp "Tasks due, with Snooze and Done on each, and what was completed recently.")
 
 ## Journal
 
-Add an entry without leaving the tank. This is usually the more convenient of the two — the wall screen is where you are standing when you do the work.
+Add an entry without leaving the tank. This is usually the more convenient of the two; the wall screen is where you are standing when you do the work.
 
-Reach it from the **tank menu** — tap the tank name in the top bar — then use **+** to add an entry, or say *"Hey Cora, log that I fed mysis."* See [The journal](/help/mobile-journal).
+Reach it from the **tank menu** (tap the tank name in the top bar), then use **+** to add an entry, or say *"Hey Cora, log that I fed mysis."* See [The journal](/help/mobile-journal).
 
 :::note There is no journal icon in the top bar
 The icon beside the devices icon is **Reef Buddy**, and its dot means today's briefing is unread. Journal entries are added from the tank menu, or by voice.
@@ -34,7 +34,7 @@ The icon beside the devices icon is **Reef Buddy**, and its dot means today's br
 
 ## Livestock
 
-The full inventory, grouped by type, with the same statuses as the phone — **read-only here**. Adding and editing livestock is done in Cora Mobile; the entry you make there appears on this screen straight away. See [Livestock](/help/mobile-livestock).
+The full inventory, grouped by type, with the same statuses as the phone, **read-only here**. Adding and editing livestock is done in Cora Mobile; the entry you make there appears on this screen straight away. See [Livestock](/help/mobile-livestock).
 
 ## Maintenance
 

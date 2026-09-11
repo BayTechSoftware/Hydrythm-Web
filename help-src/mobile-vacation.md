@@ -15,9 +15,9 @@ Vacation mode turns your tank into something another person can look after. You 
 
 ## Building the plan
 
-**Dates** — when you leave and when you are back.
+**Dates**: when you leave and when you are back.
 
-**A checklist** — each job with how often it needs doing. Cora renders the frequency as a plain tag next to it:
+**A checklist**: each job with how often it needs doing. Cora renders the frequency as a plain tag next to it:
 
 | Frequency | For |
 |---|---|
@@ -26,11 +26,11 @@ Vacation mode turns your tank into something another person can look after. You 
 | **Once** | A water change while you are away |
 | **Always** | Standing instructions, such as equipment not to adjust |
 
-Write the checklist for someone unfamiliar with reef tanks. State quantities and methods explicitly — "feed one cube of frozen food, thawed, once a day" rather than "feed as usual".
+Write the checklist for someone unfamiliar with reef tanks. State quantities and methods explicitly: "feed one cube of frozen food, thawed, once a day" rather than "feed as usual".
 
 ## Sharing it
 
-Cora turns the plan into a **read-only page**. Send your sitter the link — they do not need the app and they do not need an account.
+Cora turns the plan into a **read-only page**. Send your sitter the link; they do not need the app and they do not need an account.
 
 They can read the checklist and see the tank. They cannot change anything, control equipment, or see the rest of your account.
 
@@ -40,7 +40,7 @@ Include standing instructions covering equipment the sitter should leave alone. 
 
 ## While you are away
 
-Everything else keeps working — readings, alerts, Reef Buddy, automations. Vacation mode adds the sitter page; it does not change how your tank is run.
+Everything else keeps working: readings, alerts, Reef Buddy, automations. Vacation mode adds the sitter page; it does not change how your tank is run.
 
 If you want to be reachable, check your **[notification settings](/help/mobile-notifications)** before you go.
 

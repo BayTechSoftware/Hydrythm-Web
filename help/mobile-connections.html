@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Connecting your equipment — Cora Help</title>
+  <title>Connecting your equipment | Cora Help</title>
   <meta name="description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-connections">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Connecting your equipment — Cora Help">
+  <meta property="og:title" content="Connecting your equipment | Cora Help">
   <meta property="og:description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-connections">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -158,9 +158,9 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#jecod-jebao">Jecod / Jebao</a></li><li><a href="#aquawiz-kh-controller">AquaWiz KH Controller</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#logging-by-hand">Logging by hand</a></li><li><a href="#if-a-connection-stops-working">If a connection stops working</a></li></ul></nav>
 <p>Cora works with equipment you already own. This page covers what is supported and what each connection needs.</p>
 <p>Each brand connects in the way that suits it best, so start from the entry point for your equipment:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Brand</th><th>Start from</th></tr></thead><tbody><tr><td data-th="Brand">Neptune Apex</td><td data-th="Start from">The tank — its profile holds the Apex connection</td></tr><tr><td data-th="Brand">Red Sea ReefBeat</td><td data-th="Start from">The tank</td></tr><tr><td data-th="Brand">Jecod / Jebao</td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong>, or Bluetooth</td></tr><tr><td data-th="Brand">AquaWiz</td><td data-th="Start from"><strong>Devices → Add AquaWiz</strong></td></tr><tr><td data-th="Brand">Maxspect <em>(coming soon)</em></td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong></td></tr><tr><td data-th="Brand">Cora Max</td><td data-th="Start from"><strong>Devices → Add Device</strong></td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Brand</th><th>Start from</th></tr></thead><tbody><tr><td data-th="Brand">Neptune Apex</td><td data-th="Start from">The tank; its profile holds the Apex connection</td></tr><tr><td data-th="Brand">Red Sea ReefBeat</td><td data-th="Start from">The tank</td></tr><tr><td data-th="Brand">Jecod / Jebao</td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong>, or Bluetooth</td></tr><tr><td data-th="Brand">AquaWiz</td><td data-th="Start from"><strong>Devices → Add AquaWiz</strong></td></tr><tr><td data-th="Brand">Maxspect <em>(coming soon)</em></td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong></td></tr><tr><td data-th="Brand">Cora Max</td><td data-th="Start from"><strong>Devices → Add Device</strong></td></tr></tbody></table></div>
 <h2 id="neptune-apex">Neptune Apex</h2>
-<p>Cora reads your Apex over your local network — probes, outlets and any expansion modules you have fitted.</p>
+<p>Cora reads your Apex over your local network: probes, outlets and any expansion modules you have fitted.</p>
 <p><strong>You will need:</strong> your Apex's address on your network, and its sign-in.</p>
 <p><strong>What you get:</strong> every probe your Apex reports appears as a source you can put on a dashboard. Outlets appear as controls. Fitted expansion modules get their own device tiles.</p>
 <aside class="cal cal-note"><p class="cal-t">Your Apex keeps its own programming</p><p>Cora reads your Apex, shows it alongside everything else, and can switch outlets when you ask. Your own programming continues to run exactly as you configured it.</p></aside>
@@ -171,30 +171,30 @@
 <h2 id="jecod-jebao">Jecod / Jebao</h2>
 <p>Cora connects to Jecod pumps, and can read and control them. Jecod units reach Cora in one of two ways, and which one yours uses decides what is possible.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Finding a pump"><img src="img/mobile-connections.webp" alt="Finding a pump" width="620" height="921" loading="lazy" decoding="async"></button><figcaption>The scan explains what it needs and why a pump may not appear on the first sweep.</figcaption></figure>
-<p><strong>Over your network.</strong> Use <strong>Find a pump on your network</strong> — it finds units that advertise themselves, so no address needs entering. A network pump can be read and driven whenever it is powered <strong>and reachable</strong>: either your phone is on the same network, or a Cora Max on that network relays for you. Away from home with no Cora Max on site, a network-only pump is visible but not controllable.</p>
+<p><strong>Over your network.</strong> Use <strong>Find a pump on your network</strong>; it finds units that advertise themselves, so no address needs entering. A network pump can be read and driven whenever it is powered <strong>and reachable</strong>: either your phone is on the same network, or a Cora Max on that network relays for you. Away from home with no Cora Max on site, a network-only pump is visible but not controllable.</p>
 <aside class="cal cal-note"><p class="cal-t">A pump often misses the first sweep</p><p>Pumps answer one scan and miss the next. If yours is not listed, scan again rather than assuming it is unreachable.</p></aside>
 <p><strong>Over Bluetooth.</strong> Some pumps are reachable only from a phone standing near them. The pump's page says so, and shows the last settings it managed to read along with how old they are.</p>
 <p>Cora needs Bluetooth permission for this. Grant it before adding a Bluetooth pump: without permission the pump cannot be discovered at all, rather than merely taking longer to appear.</p>
 <p><strong>What you get:</strong> live state, mode and intensity, feeding pause, and a day program. See <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
-<aside class="cal cal-warning"><p class="cal-t">A Bluetooth pump is only reachable when you are near it</p><p>Its page shows the last settings Cora read and how long ago. Changing anything — including starting a feeding pause — needs the pump in range. Stand near it and reopen the page.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">A Bluetooth pump is only reachable when you are near it</p><p>Its page shows the last settings Cora read and how long ago. Changing anything, including starting a feeding pause, needs the pump in range. Stand near it and reopen the page.</p></aside>
 <h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
 <p>Cora reads alkalinity from an AquaWiz KH controller through your AquaWiz account.</p>
 <p><strong>You will need:</strong> your AquaWiz username and password. Cora signs in on your behalf and keeps the sign-in so it can keep reading.</p>
 <p><strong>What you get:</strong> alkalinity as a source, updated as often as your controller titrates. pH is available as an option if your unit reports it.</p>
-<aside class="cal cal-warning"><p class="cal-t">One sign-in, shared</p><p>AquaWiz issues a single sign-in per account, so the one Cora holds is the same one their own app uses. Changing your AquaWiz password will disconnect Cora — reconnect it from the device row afterwards. To revoke Cora's access entirely, remove the device in Cora and change your AquaWiz password.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">One sign-in, shared</p><p>AquaWiz issues a single sign-in per account, so the one Cora holds is the same one their own app uses. Changing your AquaWiz password will disconnect Cora; reconnect it from the device row afterwards. To revoke Cora's access entirely, remove the device in Cora and change your AquaWiz password.</p></aside>
 <h2 id="maxspect">Maxspect</h2>
 <aside class="cal cal-note"><p class="cal-t">Maxspect support is coming soon</p><p>Maxspect gyres are not yet generally available in Cora. This page describes how they work so it is ready when they arrive; until then, the controls below may not appear for your unit.</p></aside>
 <p>Cora connects to Maxspect Gyre pumps and can read and drive them.</p>
 <p><strong>You will need:</strong> the gyre on your network. Use <strong>Devices → Find a pump on your network</strong>.</p>
 <p><strong>What you get:</strong> mode and intensity <strong>for each of its two motors</strong>, the unit's schedule, and its current state with the time it was last read.</p>
-<aside class="cal cal-warning"><p class="cal-t">A gyre must be read before it is changed</p><p>The page shows when the unit last reported. If that is stale, refresh it before changing anything — otherwise a change is built on a state the pump may have moved away from. See <a href="/help/mobile-schedules">Scheduling equipment</a>.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">A gyre must be read before it is changed</p><p>The page shows when the unit last reported. If that is stale, refresh it before changing anything; otherwise a change is built on a state the pump may have moved away from. See <a href="/help/mobile-schedules">Scheduling equipment</a>.</p></aside>
 <h2 id="logging-by-hand">Logging by hand</h2>
 <p>Some parameters come from a test kit rather than from equipment. To enter a result, scroll to the bottom of the dashboard and tap <strong>Log Parameters</strong>.</p>
 <p>Hand-logged readings are first-class: they appear on widgets, carry their own source and age, feed Reef Buddy, and are what Cora compares your probes against when it tells you two sources disagree.</p>
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you which kind of problem it is. See the table in <strong><a href="/help/mobile-devices">Adding, editing and removing devices</a></strong>, and <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> for anything it does not cover.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-devices"><span>Previous</span><b>Adding, editing and removing devices</b></a><a class="pn-n" href="/help/mobile-device-control"><span>Next</span><b>Controlling your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -202,7 +202,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -221,7 +221,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -241,7 +241,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -403,13 +403,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Probes — Cora Help</title>
+  <title>Probes | Cora Help</title>
   <meta name="description" content="Map your controller&#x27;s probes to Cora parameters, and record calibration and cleaning.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Probes — Cora Help">
+  <meta property="og:title" content="Probes | Cora Help">
   <meta property="og:description" content="Map your controller&#x27;s probes to Cora parameters, and record calibration and cleaning.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-probes">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -158,13 +158,13 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#mapping-probes">Mapping probes</a></li><li><a href="#multiple-probes-for-one-parameter">Multiple probes for one parameter</a></li><li><a href="#recording-probe-care">Recording probe care</a></li></ul></nav>
 <p>A controller reports probes by its own names. Probe mapping tells Cora which of those is your pH probe, which is temperature, and so on.</p>
 <h2 id="mapping-probes">Mapping probes</h2>
-<p>Open your <strong>tank profile</strong> — the pencil at the top of the dashboard — expand your controller's section, and choose <strong>Probe Mapping</strong>.</p>
+<p>Open your <strong>tank profile</strong> (the pencil at the top of the dashboard), expand your controller's section, and choose <strong>Probe Mapping</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Probe mapping"><img src="img/mobile-probes.webp" alt="Probe mapping" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Each probe your controller reports, its live reading, and what Cora is doing with it.</figcaption></figure>
 <p>Every probe your controller reports is listed with its current reading. Cora auto-detects the standard names, and the row shows which one it matched, so the job here is usually to correct the ones it could not place rather than to map all of them by hand.</p>
 <p>Each row offers three choices:</p>
-<ul><li><strong>A Cora parameter</strong> — the metric that probe measures.</li><li><strong>Custom</strong> — for a probe Cora has no standard parameter for. You give it a short upper-case token, and it is tracked under that name.</li><li><strong>Ignore</strong> — for probes you do not want recorded at all.</li></ul>
+<ul><li><strong>A Cora parameter</strong>: the metric that probe measures.</li><li><strong>Custom</strong>: for a probe Cora has no standard parameter for. You give it a short upper-case token, and it is tracked under that name.</li><li><strong>Ignore</strong>: for probes you do not want recorded at all.</li></ul>
 <p>An ignored or unmapped probe will not appear on a dashboard and will not feed alerts.</p>
-<p>Mappings take effect when readings are next recorded, so a correction here does not rewrite history — it changes what is stored from that point on. Press <strong>Save</strong> to apply them.</p>
+<p>Mappings take effect when readings are next recorded, so a correction here does not rewrite history; it changes what is stored from that point on. Press <strong>Save</strong> to apply them.</p>
 <aside class="cal cal-warning"><p class="cal-t">An unmapped probe is invisible to Cora</p><p>If a parameter shows no readings although the probe is working, check the mapping before anything else.</p></aside>
 <h2 id="multiple-probes-for-one-parameter">Multiple probes for one parameter</h2>
 <p>A system with two temperature probes can map both. Cora keeps them as separate sources; the widget's source setting decides which one a tile follows, and <a href="/help/mobile-metric-detail">the parameter view</a> lets you compare them.</p>
@@ -173,7 +173,7 @@
 <p>Record calibration or cleaning from the probe's entry. It also fits well as a recurring <a href="/help/mobile-maintenance">maintenance task</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Calibration history explains disagreements</p><p>When a probe and a test kit disagree, the date the probe was last calibrated is usually the first thing worth checking.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-schedules"><span>Previous</span><b>Scheduling equipment</b></a><a class="pn-n" href="/help/mobile-consumables"><span>Next</span><b>Consumables</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -181,7 +181,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -200,7 +200,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -220,7 +220,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -382,13 +382,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

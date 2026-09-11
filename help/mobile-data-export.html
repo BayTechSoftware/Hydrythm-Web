@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your data — Cora Help</title>
+  <title>Your data | Cora Help</title>
   <meta name="description" content="Export your readings, journal and alerts as spreadsheets, and how to delete your account.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-data-export">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Your data — Cora Help">
+  <meta property="og:title" content="Your data | Cora Help">
   <meta property="og:description" content="Export your readings, journal and alerts as spreadsheets, and how to delete your account.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-data-export">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -161,11 +161,11 @@
 <h2 id="exporting">Exporting</h2>
 <p><strong>Settings → your account → Export My Data.</strong></p>
 <p>Exporting is <strong>free on every plan</strong>, including the free one.</p>
-<p>Cora exports as <strong>CSV files</strong> — spreadsheets that open in Excel, Numbers, Google Sheets, or anything that reads a table:</p>
+<p>Cora exports as <strong>CSV files</strong>, spreadsheets that open in Excel, Numbers, Google Sheets, or anything that reads a table:</p>
 <div class="tw"><table class="stack"><thead><tr><th>File</th><th>Contains</th></tr></thead><tbody><tr><td data-th="File"><code>cora_parameters.csv</code></td><td data-th="Contains">Your readings, each with its source and timestamp</td></tr><tr><td data-th="File"><code>cora_journal.csv</code></td><td data-th="Contains">Your journal entries</td></tr><tr><td data-th="File"><code>cora_alerts.csv</code></td><td data-th="Contains">Alerts raised</td></tr><tr><td data-th="File"><code>cora_export_summary.csv</code></td><td data-th="Contains">What this export covers, including anything that was truncated</td></tr></tbody></table></div>
-<aside class="cal cal-note"><p class="cal-t">What the export is, and what it is not</p><p>It covers <strong>readings, journal entries and alerts</strong> — the three records people ask for. It is not a copy of everything in your account: dashboards, livestock, maintenance, automations, reports and device settings are not included.</p>
-<p>Each of the three is capped at <strong>25,000 rows per tank</strong>. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will be cut off at the cap. The summary file states plainly when that has happened — check it rather than assuming the file is complete.</p></aside>
-<p>The parameter export carries the <strong>source</strong> of each reading, not just the value — so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.</p>
+<aside class="cal cal-note"><p class="cal-t">What the export is, and what it is not</p><p>It covers <strong>readings, journal entries and alerts</strong>, the three records people ask for. It is not a copy of everything in your account: dashboards, livestock, maintenance, automations, reports and device settings are not included.</p>
+<p>Each of the three is capped at <strong>25,000 rows per tank</strong>. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will be cut off at the cap. The summary file states plainly when that has happened; check it rather than assuming the file is complete.</p></aside>
+<p>The parameter export carries the <strong>source</strong> of each reading, not just the value, so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.</p>
 <aside class="cal cal-note"><p class="cal-t">Export before major changes</p><p>Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of the app and your account.</p></aside>
 <h2 id="signing-out-versus-deleting">Signing out versus deleting</h2>
 <p><strong>Sign Out</strong> disconnects this device from your account. Your data is untouched and signing back in restores everything.</p>
@@ -174,16 +174,16 @@
 <p><strong>Settings → your account → Delete account.</strong></p>
 <p>This is permanent. It removes your account, your tanks, your readings, your journal, your lab results and your device links. It cannot be undone and there is no grace period.</p>
 <p>Export first if you want to keep anything.</p>
-<aside class="cal cal-warning"><p class="cal-t">It does not cancel your subscription</p><p>An App Store or Google Play subscription belongs to the <strong>store</strong>, not to Cora. Deleting your account removes your record here and <strong>nothing stops the billing</strong> — the charges continue until you cancel with Apple or Google yourself. Cancel there first, then delete.</p>
+<aside class="cal cal-warning"><p class="cal-t">It does not cancel your subscription</p><p>An App Store or Google Play subscription belongs to the <strong>store</strong>, not to Cora. Deleting your account removes your record here and <strong>nothing stops the billing</strong>; the charges continue until you cancel with Apple or Google yourself. Cancel there first, then delete.</p>
 <h2 id="contributing-anonymised-data">Contributing anonymised data</h2>
 <p><strong>Settings → Assistant &amp; AI → Contribute anonymized tank data.</strong></p>
 <p>While this is on, your tank's parameter history is retained for reef research <strong>with no link to you</strong> even if you later delete your account. Turn it off and that history is deleted along with everything else.</p>
-<p>It is a separate decision from account deletion, and it is the only part of your data that outlives the account, so it is worth making deliberately. Note that it is <strong>on by default</strong> — a deletion made without visiting this switch leaves the de-identified copy behind.</p>
+<p>It is a separate decision from account deletion, and it is the only part of your data that outlives the account, so it is worth making deliberately. Note that it is <strong>on by default</strong>; a deletion made without visiting this switch leaves the de-identified copy behind.</p>
 <h2 id="what-cora-stores">What Cora stores</h2>
 <p>The full detail is in the <a href="/privacy-policy.html">privacy policy</a>. In short: your tank data, your account, and the sign-ins for any equipment you connected through a manufacturer's account.</p>
-<p>Removing a device forgets that sign-in. Deleting your account removes everything held against you — with the two exceptions above: the anonymised research copy, if you left that switch on, and your store subscription, which only the store can cancel.</p></aside>
+<p>Removing a device forgets that sign-in. Deleting your account removes everything held against you, with the two exceptions above: the anonymised research copy, if you left that switch on, and your store subscription, which only the store can cancel.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-multi-device"><span>Previous</span><b>More than one Cora device</b></a><a class="pn-n" href="/help/mobile-plans"><span>Next</span><b>Plans</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -191,7 +191,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -210,7 +210,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -230,7 +230,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -392,13 +392,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

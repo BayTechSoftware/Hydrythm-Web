@@ -13,7 +13,7 @@ Each brand connects in the way that suits it best, so start from the entry point
 
 | Brand | Start from |
 |---|---|
-| Neptune Apex | The tank — its profile holds the Apex connection |
+| Neptune Apex | The tank; its profile holds the Apex connection |
 | Red Sea ReefBeat | The tank |
 | Jecod / Jebao | **Devices → Find a pump on your network**, or Bluetooth |
 | AquaWiz | **Devices → Add AquaWiz** |
@@ -22,7 +22,7 @@ Each brand connects in the way that suits it best, so start from the entry point
 
 ## Neptune Apex
 
-Cora reads your Apex over your local network — probes, outlets and any expansion modules you have fitted.
+Cora reads your Apex over your local network: probes, outlets and any expansion modules you have fitted.
 
 **You will need:** your Apex's address on your network, and its sign-in.
 
@@ -46,7 +46,7 @@ Cora connects to Jecod pumps, and can read and control them. Jecod units reach C
 
 ![Finding a pump](img/mobile-connections.webp "The scan explains what it needs and why a pump may not appear on the first sweep.")
 
-**Over your network.** Use **Find a pump on your network** — it finds units that advertise themselves, so no address needs entering. A network pump can be read and driven whenever it is powered **and reachable**: either your phone is on the same network, or a Cora Max on that network relays for you. Away from home with no Cora Max on site, a network-only pump is visible but not controllable.
+**Over your network.** Use **Find a pump on your network**; it finds units that advertise themselves, so no address needs entering. A network pump can be read and driven whenever it is powered **and reachable**: either your phone is on the same network, or a Cora Max on that network relays for you. Away from home with no Cora Max on site, a network-only pump is visible but not controllable.
 
 :::note A pump often misses the first sweep
 Pumps answer one scan and miss the next. If yours is not listed, scan again rather than assuming it is unreachable.
@@ -59,7 +59,7 @@ Cora needs Bluetooth permission for this. Grant it before adding a Bluetooth pum
 **What you get:** live state, mode and intensity, feeding pause, and a day program. See [Scheduling equipment](/help/mobile-schedules).
 
 :::warning A Bluetooth pump is only reachable when you are near it
-Its page shows the last settings Cora read and how long ago. Changing anything — including starting a feeding pause — needs the pump in range. Stand near it and reopen the page.
+Its page shows the last settings Cora read and how long ago. Changing anything, including starting a feeding pause, needs the pump in range. Stand near it and reopen the page.
 :::
 
 ## AquaWiz KH Controller
@@ -71,7 +71,7 @@ Cora reads alkalinity from an AquaWiz KH controller through your AquaWiz account
 **What you get:** alkalinity as a source, updated as often as your controller titrates. pH is available as an option if your unit reports it.
 
 :::warning One sign-in, shared
-AquaWiz issues a single sign-in per account, so the one Cora holds is the same one their own app uses. Changing your AquaWiz password will disconnect Cora — reconnect it from the device row afterwards. To revoke Cora's access entirely, remove the device in Cora and change your AquaWiz password.
+AquaWiz issues a single sign-in per account, so the one Cora holds is the same one their own app uses. Changing your AquaWiz password will disconnect Cora; reconnect it from the device row afterwards. To revoke Cora's access entirely, remove the device in Cora and change your AquaWiz password.
 :::
 
 ## Maxspect
@@ -87,7 +87,7 @@ Cora connects to Maxspect Gyre pumps and can read and drive them.
 **What you get:** mode and intensity **for each of its two motors**, the unit's schedule, and its current state with the time it was last read.
 
 :::warning A gyre must be read before it is changed
-The page shows when the unit last reported. If that is stale, refresh it before changing anything — otherwise a change is built on a state the pump may have moved away from. See [Scheduling equipment](/help/mobile-schedules).
+The page shows when the unit last reported. If that is stale, refresh it before changing anything; otherwise a change is built on a state the pump may have moved away from. See [Scheduling equipment](/help/mobile-schedules).
 :::
 
 ## Logging by hand

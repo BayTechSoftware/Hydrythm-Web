@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adding, editing and removing devices — Cora Help</title>
+  <title>Adding, editing and removing devices | Cora Help</title>
   <meta name="description" content="How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-devices">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Adding, editing and removing devices — Cora Help">
+  <meta property="og:title" content="Adding, editing and removing devices | Cora Help">
   <meta property="og:description" content="How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-devices">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -162,8 +162,8 @@
 <p>Three buttons sit below the list, and they do different jobs:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Button</th><th>Adds</th></tr></thead><tbody><tr><td data-th="Button"><strong>Add Device</strong></td><td data-th="Adds">A Cora Max. Finds units already on your Wi-Fi, or nearby ones over Bluetooth. <strong>Enter IP Address Manually</strong> is inside this screen if discovery does not find it.</td></tr><tr><td data-th="Button"><strong>Find a pump on your network</strong></td><td data-th="Adds">Jecod pumps that advertise themselves on the local network</td></tr><tr><td data-th="Button"><strong>Add AquaWiz</strong></td><td data-th="Adds">An AquaWiz controller, through your AquaWiz account</td></tr></tbody></table></div>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Adding a Cora Max"><img src="img/mobile-add-device.webp" alt="Adding a Cora Max" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Add Device searches Wi-Fi and Bluetooth for a Cora Max.</figcaption></figure>
-<p>Other equipment — Neptune Apex and Red Sea ReefBeat — is connected from the tank rather than from this list. See <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora and your phone need the same network</p><p>Equipment discovered locally must be on the same network as your phone when you add it. <strong>After setup it is still only reachable over that network</strong> — or over Bluetooth, for units that use it — unless a Cora device on site can reach it for you.</p>
+<p>Other equipment (Neptune Apex and Red Sea ReefBeat) is connected from the tank rather than from this list. See <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora and your phone need the same network</p><p>Equipment discovered locally must be on the same network as your phone when you add it. <strong>After setup it is still only reachable over that network</strong> (or over Bluetooth, for units that use it) unless a Cora device on site can reach it for you.</p>
 <p>Equipment that reads correctly at home may therefore show older values while you are away, unless a Cora Max on site can poll it. This reflects where the equipment is reachable from, rather than a fault.</p></aside>
 <h2 id="assigning-a-device-to-a-tank">Assigning a device to a tank</h2>
 <p>Most equipment belongs to exactly one tank, and that is what makes its readings appear on that tank's dashboard.</p>
@@ -171,18 +171,18 @@
 <p>Open the device and choose <strong>Tank</strong>. If you run more than one system, this is the setting that matters most: a heater assigned to the wrong tank reports perfectly well into the wrong place.</p>
 <aside class="cal cal-warning"><p class="cal-t">Assign the tank before you rely on the readings</p><p>A device with no tank still reports, but its numbers have nowhere to land. If a device you have just added is not appearing on a dashboard, check this first.</p></aside>
 <h2 id="renaming">Renaming</h2>
-<p>Open the device and edit its name. Use the name you use for it day to day — "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.</p>
+<p>Open the device and edit its name. Use the name you use for it day to day: "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.</p>
 <p>Renaming is local to Cora. It does not change the name on the manufacturer's own app.</p>
 <h2 id="checking-whether-a-device-is-healthy">Checking whether a device is healthy</h2>
 <p>Each row shows its current state. What you want to see is a recent update time and no warning.</p>
-<div class="tw"><table class="stack"><thead><tr><th>What you see</th><th>What it means</th></tr></thead><tbody><tr><td data-th="What you see">A recent update time</td><td data-th="What it means">Working normally</td></tr><tr><td data-th="What you see">"Updated 3 h ago" on something that reports hourly</td><td data-th="What it means">Fine</td></tr><tr><td data-th="What you see">"Could not reach…"</td><td data-th="What it means">A network problem, or the device is off</td></tr><tr><td data-th="What you see">"…refused the sign-in"</td><td data-th="What it means">The manufacturer's account needs reconnecting — open the device and sign in again</td></tr><tr><td data-th="What you see">Nothing at all</td><td data-th="What it means">It has never reported; check the tank assignment and the connection</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>What you see</th><th>What it means</th></tr></thead><tbody><tr><td data-th="What you see">A recent update time</td><td data-th="What it means">Working normally</td></tr><tr><td data-th="What you see">"Updated 3 h ago" on something that reports hourly</td><td data-th="What it means">Fine</td></tr><tr><td data-th="What you see">"Could not reach…"</td><td data-th="What it means">A network problem, or the device is off</td></tr><tr><td data-th="What you see">"…refused the sign-in"</td><td data-th="What it means">The manufacturer's account needs reconnecting; open the device and sign in again</td></tr><tr><td data-th="What you see">Nothing at all</td><td data-th="What it means">It has never reported; check the tank assignment and the connection</td></tr></tbody></table></div>
 <h2 id="removing-a-device">Removing a device</h2>
 <p>Open the device and choose <strong>Remove</strong>. You will be asked to confirm, and told exactly what is being removed.</p>
 <p><strong>Your readings are kept.</strong> Removing a device stops Cora collecting new data from it; the history it already gathered stays on the tank, and any widget pointed at it keeps its past readings.</p>
-<p>What you lose is the live link — and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.</p>
-<aside class="cal cal-tip"><p class="cal-t">Quieten a noisy device without removing it</p><p>If a device is working correctly but alerting too often, adjust its thresholds or notification settings — see <strong><a href="/help/mobile-alerts">Alerts and thresholds</a></strong>. That keeps the connection and the data while stopping the noise.</p></aside>
+<p>What you lose is the live link, and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.</p>
+<aside class="cal cal-tip"><p class="cal-t">Quieten a noisy device without removing it</p><p>If a device is working correctly but alerting too often, adjust its thresholds or notification settings; see <strong><a href="/help/mobile-alerts">Alerts and thresholds</a></strong>. That keeps the connection and the data while stopping the noise.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-metric-detail"><span>Previous</span><b>Looking into a parameter</b></a><a class="pn-n" href="/help/mobile-connections"><span>Next</span><b>Connecting your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -190,7 +190,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -209,7 +209,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -229,7 +229,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -391,13 +391,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 

@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Getting help — Cora Help</title>
+  <title>Getting help | Cora Help</title>
   <meta name="description" content="Report a problem from inside the app, and what is sent with it.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-support">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Getting help — Cora Help">
+  <meta property="og:title" content="Getting help | Cora Help">
   <meta property="og:description" content="Report a problem from inside the app, and what is sent with it.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-support">
@@ -18,12 +18,12 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- ⛔ Never add rel=preload for the faces — that is what put the old Google
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
        Fonts request on the critical path for 1053 ms. font-display:swap paints
        the fallback first, which is the behaviour we want. -->
-  <link rel="stylesheet" href="/fonts.css?v=517673d28c" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="/fonts.css?v=517673d28c"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=05a75bf451">
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -167,14 +167,14 @@
 <p>That is what turns "it did not work" into something reproducible. It is displayed rather than hidden, so nothing is sent that you have not seen.</p>
 <h2 id="screenshots">Screenshots</h2>
 <p><strong>Attach a screenshot</strong> adds an image to the report, and <strong>Remove screenshot</strong> takes it off again before sending.</p>
-<aside class="cal cal-warning"><p class="cal-t">A screenshot is visible to Cora support</p><p>The app says so above the control. Check the image before attaching it — a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">A screenshot is visible to Cora support</p><p>The app says so above the control. Check the image before attaching it; a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Why there is no screenshot control in sitter mode</p><p>When you are viewing somebody else's tank through a shared link, the screenshot option is not offered. A screenshot taken then would attach <em>their</em> data to <em>your</em> support ticket, and they would never see it had happened.</p></aside>
 <h2 id="automatic-crash-reports">Automatic crash reports</h2>
 <p><strong>Send crash reports</strong>, beside the report row, is the same promise made without you having to notice something broke and write it up: if the app crashes, it reports the crash by itself. See <a href="/help/mobile-settings">Settings</a>.</p>
 <h2 id="elsewhere">Elsewhere</h2>
 <ul><li>Questions about your own tank are usually faster through <strong><a href="/help/mobile-assistant">Cora Assistant</a></strong>, which can see your readings.</li><li>Something not behaving as documented: <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> first.</li></ul>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-settings"><span>Previous</span><b>Settings</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.45 and Cora Mobile 0.5.56. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -182,7 +182,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent — not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
@@ -201,7 +201,7 @@
   if (!b || !s) return;
 
   // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
-  // the nav always opened at scrollTop 0 — so on a deep page you were looking
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
   // at "Getting started" with no clue where you were. Centre it instead.
   function reveal() {
     var cur = s.querySelector('a.cur');
@@ -221,7 +221,7 @@
       lastFocus = document.activeElement;
       reveal();
       // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
-      // element that is still `visibility: hidden` silently refuses focus —
+      // element that is still `visibility: hidden` silently refuses focus,
       // measured: focus stayed on the menu button and Tab then walked the
       // PAGE behind the drawer. Wait for the transition, with a timeout in
       // case it is suppressed by prefers-reduced-motion.
@@ -383,13 +383,13 @@
       if (!e.target.closest('.sbox')) shut();
     });
     input.addEventListener('input', run);
-    // ⭐ Fetched ONCE, on first open — never on a page that is only read.
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) { run(); return; }
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable — '
-          + 'use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">Search is unavailable. '
+          + 'Use the navigation instead.</li>';
       });
   }
 
