@@ -2,16 +2,16 @@
 title: Setting up Cora Mobile
 description: Install Cora, create your account, add your first tank, and get your first readings on screen.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
 
 Setup takes around ten minutes. At the end you will have an account, a configured tank, and a dashboard showing live readings.
 
-## Install the app
+## Install Cora Mobile
 
-Search for **Cora** on the App Store or Google Play and install it. On your home screen the icon is labelled **Cora**; that is Cora Mobile.
+On iPhone, get **Cora Mobile** from the [App Store](https://apps.apple.com/app/cora-mobile/id6760301981). On Android, Cora Mobile is coming soon to Google Play. On your home screen the icon is labelled **Cora**; that is Cora Mobile.
 
 ## Looking around first
 
@@ -21,9 +21,9 @@ Use it to see how dashboards, widgets and readings work before committing.
 
 ## Create your account
 
-Open the app and choose **Create account**. You can sign up with an email address, or with Apple or Google if you would rather not manage another password.
+Open Cora Mobile and choose **Create account**. You can sign up with an email address, or with Apple or Google if you would rather not manage another password.
 
-You will be asked to verify your email. Cora sends a **link**; open it on the device and come back to the app. Check spam if it does not arrive within a minute.
+You will be asked to verify your email. Cora sends a **link**; open it on the device and come back to Cora Mobile. Check spam if it does not arrive within a minute.
 
 :::note One account, every screen
 Your account ties everything together. Sign in with the same account on Cora Max or another phone and you get the same tanks, devices, readings and records.

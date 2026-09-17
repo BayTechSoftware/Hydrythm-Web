@@ -614,3 +614,18 @@ footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 20
 @media (max-width: 900px) {
   .hero .device { order: 0; }
 }
+
+/* ---- Beta (owner, 2026-09-17: "let's flag MaxSpect as Beta ... it still testing and
+   development in progress"). A beta integration WORKS, so the diagram keeps its live
+   spoke, both travelling markers and the live leaf; an amber ring and a Beta tag on the
+   hub say it is still being tested. Text uses the palette amber darkened to #8D6116,
+   5.5:1 on white: plain --amber (#C98A1F) measures 2.9:1, too light for 0.6rem text. ---- */
+.badge-beta { position: relative; display: inline-block; margin-left: 10px; font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.14em; color: #8D6116; border: 1px solid rgba(201,138,31,0.55); border-radius: 999px; padding: 3px 9px; vertical-align: middle; }
+.legend i.dot-beta { background: transparent; border: 1.5px solid var(--amber); }
+.s-hub.beta { box-shadow: 0 1cqw 2.6cqw rgba(15,23,42,.14), 0 0 0 .31cqw #fff, 0 0 0 .47cqw rgba(201,138,31,.30); }
+.s-hub .hub-beta { position: absolute; top: -.85cqw; right: -.85cqw; font-family: var(--font-mono); font-size: .78cqw;
+                   letter-spacing: .12em; line-height: 1.2; color: #8D6116; background: #fff;
+                   border: .09cqw solid rgba(201,138,31,.6); border-radius: 999px; padding: .18cqw .6cqw;
+                   box-shadow: 0 .3cqw .8cqw rgba(15,23,42,.10); }
+.beta-tag { font-family: var(--font-mono); font-size: .62cqw; letter-spacing: .1em;
+            text-transform: uppercase; color: #8D6116; }

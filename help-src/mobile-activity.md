@@ -9,7 +9,7 @@ group: Records
 
 Activity records every **actuation request** (every attempt to change something) together with what asked for it and what became of it.
 
-A request is not the same as a change. Refused requests never ran, no-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded.
+A request is not the same as a change. Refused requests did not run, with one exception: an entry that says *No device answered in time* may still have run, so check the equipment before repeating it. No-change requests found the equipment already as asked, and an unconfirmed one may or may not have reached the device at all. All of them are recorded.
 
 **Settings → Activity.**
 

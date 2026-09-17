@@ -1,13 +1,13 @@
 ---
 title: Getting help
-description: Report a problem from inside the app, and what is sent with it.
+description: Report a problem from inside Cora Mobile, and what is sent with it.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Reporting a problem from inside the app is more useful than describing it afterwards, because the app can attach the details that are hard to remember.
+Reporting a problem from inside Cora Mobile is more useful than describing it afterwards, because Cora Mobile can attach the details that are hard to remember.
 
 **Settings → Report a Bug / Send Feedback.**
 
@@ -32,7 +32,7 @@ That is what turns "it did not work" into something reproducible. It is displaye
 **Attach a screenshot** adds an image to the report, and **Remove screenshot** takes it off again before sending.
 
 :::warning A screenshot is visible to Cora support
-The app says so above the control. Check the image before attaching it; a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.
+Cora Mobile says so above the control. Check the image before attaching it; a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.
 :::
 
 :::note Why there is no screenshot control in sitter mode
@@ -41,7 +41,7 @@ When you are viewing somebody else's tank through a shared link, the screenshot 
 
 ## Automatic crash reports
 
-**Send crash reports**, beside the report row, is the same promise made without you having to notice something broke and write it up: if the app crashes, it reports the crash by itself. See [Settings](/help/mobile-settings).
+**Send crash reports**, beside the report row, is the same promise made without you having to notice something broke and write it up: if Cora Mobile crashes, it reports the crash by itself. See [Settings](/help/mobile-settings).
 
 ## Elsewhere
 

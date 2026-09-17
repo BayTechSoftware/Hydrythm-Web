@@ -2,7 +2,7 @@
 title: Notifications
 description: Choose what reaches your phone, when it may arrive, and where to read what you missed.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 16
 group: Alerts and automation
 ---
@@ -30,8 +30,6 @@ It is natural to read that switch as covering everything the tank might tell you
 :::
 
 **Supplies Running Low includes the waste bottle**, which fills up rather than runs down. It is in this category because the action it needs is the same: something to empty or replace before it stops the tests.
-
-Equipment faults can be narrowed further. A separate set of switches covers the individual fault types (**Stall Detected**, **Encoder Error**, **Power Instability** and **Home Timeout**) for when you want the category on but one noisy fault off.
 
 ## The bell
 

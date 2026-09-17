@@ -2,7 +2,7 @@
 title: Cora Max settings
 description: Settings on the Cora Max display: the screen itself, devices, tanks, notifications and updates.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 13
 group: Settings
 ---
@@ -61,9 +61,11 @@ Wi-Fi, display, audio, wake word and child lock describe this unit. They are not
 
 ![Device settings on Cora Max](img/max-pairing-info.webp "What this screen is bound to: firmware, tanks, account and the date it was paired.")
 
-**Re-pair this device** moves the screen to a different account or tank set without clearing its preferences.
+**Re-pair this device** clears this screen's pairing and sends it back to the pairing screen.
 
-**Factory reset** goes further, and the confirmation says exactly how far.
+**Factory reset** also clears every preference stored on this screen. Its confirmation says exactly what is cleared and what is kept.
+
+Both keep the tank data already saved to Cora Cloud. Both also remove this Cora Max from your account and make it forget its Wi-Fi network, so you pair it again from Cora Mobile as you would a new unit. If Cora Max cannot reach Cora Cloud to remove itself, it tells you it is still listed in Cora Mobile: open it there under **Devices** and choose **Remove device**.
 
 ![The factory reset confirmation](img/max-factory-reset.webp "The dialog states what is cleared and what survives before you commit.")
 

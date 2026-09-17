@@ -2,7 +2,7 @@
 title: Settings
 description: A reference for every section of Cora Mobile's settings: account, tanks, dosing, the Assistant, notifications, automation and activity.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 32
 group: Account
 ---
@@ -15,7 +15,7 @@ Everything you can configure, in the order it appears.
 
 The card at the top shows who you are signed in as and which plan you are on. Tap it for:
 
-- **Display name**: what you are called in the app
+- **Display name**: what you are called in Cora Mobile
 - **Plan and subscription**: what you have, what it includes, and how to change it
 - **Sign out**
 - **Delete account**: permanent. Read the two notes below before using it.
@@ -29,6 +29,13 @@ Add, reorder and edit your tanks.
 - **Vacation mode**: a plan for whoever is minding the tank while you are away. Full detail: **[Going away](/help/mobile-vacation)**. You set the dates and build a checklist of jobs with how often each needs doing, and Cora turns it into a simple read-only page you can share with your tank sitter. They do not need an account.
 - **Removed tanks**: tanks you have deleted, in case you need something back
 
+## Device access
+
+**Device access** opens your phone's own settings for Cora, where you allow what it needs to find your equipment. The row does not show whether anything is switched off; it takes you to where you can check.
+
+- On iPhone: Local Network and Bluetooth. Without Local Network access, a search for equipment on your Wi-Fi finds nothing and shows no error. iPhone asks only once, so this is the way to turn it back on.
+- On Android: Bluetooth and location.
+
 ## Dosing Products
 
 Full detail: **[Dosing](/help/mobile-dosing)**.
@@ -39,10 +46,10 @@ This is what turns "5 ml" into an actual predicted change in your tank, so dose 
 
 ## Assistant & AI
 
-- **Consent**: whether Cora may use your tank data to answer questions. Off means the Assistant cannot see your readings.
-- **Memory**: what Cora remembers about your system between conversations. You can read it and clear it.
-- **Voice**: voice options for spoken conversations
-- **Usage limits**: your monthly message allowance and what you have used
+- **Allow Cora Assistant to use saved tank data**: whether Cora Assistant may use your tank history, metrics and devices. It needs this on to answer: with it off, Cora shows its consent screen again before your next message, and **Agree & Continue** there turns it back on. See [Asking Cora](/help/mobile-assistant).
+- **AI memory**: what Cora remembers about your system between conversations. You can read it and reset it. It appears only while the switch above is on.
+- **Voice responder**: which Cora device answers its wake phrase in your home
+- **Usage & Limits**: your monthly allowances and what you have used
 
 ## Notifications
 
@@ -93,7 +100,7 @@ Use it to establish the cause of an unexpected change.
 
 Appearance, the version you are running, and links to the privacy policy and terms.
 
-**Replay tips** is here too; it replays the first-run dashboard tour described in **[The five tabs](/help/mobile-tour)**, which is useful after an update or when handing the app to someone else.
+**Replay tips** is here too; it replays the first-run dashboard tour described in **[The five tabs](/help/mobile-tour)**, which is useful after an update or when someone new starts using Cora Mobile.
 
 ## Getting help
 

@@ -2,7 +2,7 @@
 title: Talking to Cora
 description: Using voice on Cora Max, starting a conversation, what you can ask, and how confirmations work.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 12
 group: Intelligence
 ---
@@ -33,6 +33,7 @@ Cora Assistant begins a live session immediately; there is no confirmation step.
 - *"Has the temperature been stable today?"*
 - *"When did I last change water?"*
 - *"Why is pH lower than usual?"*
+- *"Compare the last six months of my magnesium with my latest ICP."*
 
 **Things to do**
 
@@ -68,7 +69,7 @@ The confirmation exists so nothing surprises you. Read what it says before agree
 
 ## What Cora can see
 
-The same as on your phone: your live readings, how old each one is, your history, your journal and your lab results, for the tank currently on screen.
+The same as on your phone: your live readings, how old each one is, up to about six months of any parameter's history, your journal and your lab results, for the tank currently on screen.
 
 If a reading is stale, Cora says so instead of answering as though it were current.
 

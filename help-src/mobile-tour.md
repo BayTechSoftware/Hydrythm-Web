@@ -13,7 +13,7 @@ Cora Mobile has five tabs along the bottom. Almost everything you do lives in on
 
 ## Dashboard
 
-Live readings for the selected tank. This is the main screen of the app.
+Live readings for the selected tank. This is the main screen of Cora Mobile.
 
 If you have more than one tank, swipe left and right to move between them; the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and a pencil that opens the tank profile. Editing the dashboard is a separate control, **Edit dashboard**, at the foot of the page.
 
@@ -47,7 +47,7 @@ Full detail: **[Settings](/help/mobile-settings)**.
 
 The first time you open the dashboard, Cora points out the parts of the screen in turn. It runs once.
 
-To see it again, use **Settings → About → Replay tips**. It restarts the tour and takes you to the dashboard so it begins straight away, useful after an update, or when handing the app to someone else.
+To see it again, use **Settings → About → Replay tips**. It restarts the tour and takes you to the dashboard so it begins straight away, useful after an update, or when handing your phone to someone else.
 
 ## Two controls outside the tabs
 

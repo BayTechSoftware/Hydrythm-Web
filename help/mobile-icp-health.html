@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ICP and health reports | Cora Help</title>
   <meta name="description" content="Upload an ICP test, track every element over time, and run a full health assessment of your system.">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-icp-health">
   <meta property="og:site_name" content="Cora">
@@ -163,7 +162,8 @@
 <p>You do not have to type anything in. Cora handles the common lab formats.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: An ICP report"><img src="img/mobile-icp-report.webp" alt="An ICP report" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Each report carries a score and a summary written for your tank.</figcaption></figure>
 <h2 id="what-you-get-back">What you get back</h2>
-<p><strong>A score</strong> for the report, and a plain-language summary of what it means for your system specifically: your tank type, your age, your livestock.</p>
+<p><strong>A score</strong> out of 100, and a plain-language summary of what it means for your system specifically: your tank type, your age, your livestock.</p>
+<p>The score is calculated from your results against their target ranges, including any ranges you have set yourself. Any result outside its range holds the score at 70 or below, and one far outside holds it at 40 or below, however good the rest are. The label under the score reads <strong>Healthy</strong> above 70, <strong>Needs Attention</strong> from 40 to 70, and <strong>Critical</strong> below 40. Health Reports are scored the same way.</p>
 <p><strong>Every element tracked</strong>: not only the headline parameters, but trace elements and contaminants as well.</p>
 <p><strong>Top movers</strong>: the "Since your last ICP" card shows what changed most since last time, which is usually the fastest way to understand a new report.</p>
 <p><strong>Trends</strong>: tap <strong>Trends</strong> to see any element across every test you have uploaded. This is where ICP stops being a snapshot and starts being useful.</p>
@@ -175,12 +175,14 @@
 <h2 id="icp-against-your-probes">ICP against your probes</h2>
 <p>Cora compares your lab results with what your equipment reports. When your alkalinity probe says 8.4 and your ICP says 7.6, that is a fact worth knowing, and Cora surfaces it rather than quietly preferring one.</p>
 <p>This is one of the most useful things an ICP does inside Cora. It is a <strong>third opinion, not an arbiter</strong>: laboratories differ from one another, and a sample's handling, storage and transit all move the result. Treat a single ICP as evidence (two tests agreeing is worth far more than one) and read a persistent gap as a reason to check the probe, not as proof the probe is wrong.</p>
+<aside class="cal cal-tip"><p class="cal-t">Changing labs or test methods</p><p>Changing labs, or switching between a lab's ICP-OES and ICP-MS tests, can move your results with no change in your tank, and Cora points this out when it compares them. ICP-OES cannot measure very low chromium, tin, nickel, copper, cobalt or selenium, so a <strong>Below detection</strong> result for those on an ICP-OES test does not mean your tank has none.</p></aside>
 <h2 id="your-allowance">Your allowance</h2>
 <p>Both are metered by your plan. The line under the buttons shows what you have used this month.</p>
+<p>Separately from your plan, Cora accepts up to 10 ICP uploads a day. An upload refused for that reason uses none of your plan's ICP analyses, but Cora Mobile shows only a general upload error, so if uploads start failing after many in one day, try again tomorrow.</p>
 <h2 id="where-reports-live">Where reports live</h2>
 <p>The Intelligence screen keeps the two kinds separately: lab results under <strong>ICP Reports</strong>, and generated reviews under <strong>Health Reports</strong>. Each list is newest first with its score; tap one to reopen it in full.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-journeys"><span>Previous</span><b>Guided journeys</b></a><a class="pn-n" href="/help/mobile-sharing"><span>Next</span><b>Sharing your tank</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.58 and Cora Mobile 0.5.67. Last checked 2026-09-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

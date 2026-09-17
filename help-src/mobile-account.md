@@ -2,7 +2,7 @@
 title: Signing in and account recovery
 description: Sign in, reset a forgotten password, and fix an email address you cannot verify.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 2
 group: Getting started
 ---
@@ -27,21 +27,21 @@ If nothing arrives within a few minutes, check spam, then try the other sign-in 
 
 ## Verifying your email
 
-After signing up, Cora sends a verification link. Open it on the device and return to the app.
+After you sign up, Cora sends a verification email from noreply@coraiq.tech with the subject *"Confirm your email for Cora"*. Tap **Verify my email** in it; the link expires after 24 hours. Then go back to Cora Mobile and tap **I've Verified My Email**.
 
-If it has not arrived, you can **resend** it from the verification screen.
+If the email has not arrived, check spam, then tap **Resend verification email** on the verification screen. Cora sends at most one verification email a minute and five an hour, counting the first; tap it sooner and Cora asks you to wait.
 
 ## The email address is wrong
 
-If you mistyped it, you do not have to start again. The verification screen has **Change email**: enter the correct address and a fresh link is sent to it.
+If you mistyped it, you do not have to start again. The verification screen has **Wrong address? Change email**: enter the correct address and a fresh link is sent to it.
 
 :::note "Sign out and sign in again, then retry"
-Changing the address on an account is a security-sensitive operation, so it sometimes requires a recent sign-in. If you are asked to sign out and back in, that is expected; do it, then use **Change email** again.
+Changing the address on an account is a security-sensitive operation, so it sometimes requires a recent sign-in. If you are asked to sign out and back in, that is expected; do it, then tap **Wrong address? Change email** again.
 :::
 
 ## Still verifying
 
-The app checks verification when you return to it. If it still says the address is not verified, open the link again and give it a moment; the check is against the account, not the device, so it will clear on any of your devices once it succeeds.
+Cora Mobile checks when you tap **I've Verified My Email**. If it says the email is not yet verified, tap **Verify my email** in the newest email, give it a moment, then check again. If the link has expired, tap **Resend verification email** for a new one. The check is against the account, not the device, so once it succeeds it clears on any of your devices.
 
 ## Signing out
 

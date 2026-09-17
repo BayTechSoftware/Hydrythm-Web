@@ -2,7 +2,7 @@
 title: Asking Cora
 description: How to use Cora Assistant: typing, voice, what it can see, and what it can change.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 23
 group: Intelligence
 ---
@@ -37,12 +37,14 @@ Tap **Start voice conversation** for a live back-and-forth. Cora listens, answer
 
 **Settings → Assistant & AI** holds two independent switches:
 
-- **Allow Cora Assistant to use saved tank data**: off means the Assistant cannot see your history, metrics or devices, and answers only in general terms.
+- **Allow Cora Assistant to use saved tank data**: Cora Assistant needs this on to answer you. If it is off, Cora shows its consent screen again before your next message or voice conversation. The screen lists what Cora Assistant uses and, under **Where your data goes**, which AI provider writes the replies. **Agree & Continue** turns the switch back on and goes ahead; **Not now** sends nothing and keeps what you typed.
 - **Contribute anonymized tank data**: see [Your data](/help/mobile-data-export).
 
 ## What Cora can see
 
 The chip above the message box, **Using your tank's live data**, tells you what is in scope. Tap it to see exactly what Cora is reading: current values, how old each one is, recent history, your journal, and your ICP results.
+
+For a longer view, Cora Assistant can look back up to about six months of a parameter's history, so you can ask *"Compare the last six months of my magnesium with my latest ICP."*
 
 :::note It tells you when it does not know
 Cora reports the age of the readings it uses. If the most recent alkalinity reading is four days old, the answer will say so rather than presenting the value as current.
@@ -63,7 +65,7 @@ Cora's advice is exactly that. Verify anything important with your own testing, 
 ![Assistant settings](img/mobile-assistant-settings.webp "Consent, memory, voice and usage limits, under Settings.")
 
 :::note What clearing memory does and does not touch
-Clearing removes what Cora has remembered *about your conversations*: its profile of your system, the concerns it was tracking, and every stored session. If any part of that cannot be removed, the app tells you it failed rather than reporting success.
+Clearing removes what Cora has remembered *about your conversations*: its profile of your system, the concerns it was tracking, and every stored session. If any part of that cannot be removed, Cora Mobile tells you it failed rather than reporting success.
 
 It does not touch your **tank data**: readings, journal, livestock, maintenance and reports are yours and stay exactly as they are. Clearing memory makes the Assistant forget the conversation, not the tank.
 :::

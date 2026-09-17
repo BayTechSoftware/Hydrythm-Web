@@ -2,7 +2,7 @@
 title: Widget reference
 description: Every widget type in Cora (value, gauge, graph, status, outlet and the device tiles) and when to use each.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 7
 group: Your dashboard
 ---
@@ -25,7 +25,7 @@ Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)
 | **ReefBeat** | One Red Sea unit, with its own summary |
 | **Apex module** | One fitted Apex module, such as a Trident or DŌS |
 | **Jecod** | One Jecod pump, with its mode and intensity |
-| **Maxspect** *(coming soon)* | One gyre, with both motors |
+| **Maxspect** *(beta)* | One gyre, with both motors |
 
 The last four are **device** tiles: they are keyed to a piece of equipment rather than to a parameter, and each shows whatever that unit reports.
 
@@ -56,6 +56,8 @@ At a single column the arc is too small to read at a glance; use a **value** wid
 ## Graph
 
 A sparkline over a window you choose, with the high and low marked and the current value called out.
+
+For a parameter you test (by Trident or with a test kit), the line joins your actual tests. If the window holds only one test, the line runs in from the test before it, and no high or low is marked. With no test in the window, or nothing earlier to join a single test to, the tile shows **Collecting…** instead of a line.
 
 Use it for anything that moves: pH through the day, temperature across a heatwave, alkalinity between doses.
 

@@ -2,7 +2,7 @@
 title: Plans
 description: What each plan includes, where to see your usage, and how to change or cancel.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 31
 group: Account
 ---
@@ -37,17 +37,17 @@ When it ends the account falls back to Free. **Nothing is deleted**: every readi
 
 ## Paid tiers
 
-Three tiers (**Plus**, **Pro** and **Max**), each monthly or annual. Current prices are shown in the app and at the store, since that is where they are charged.
+Three tiers (**Plus**, **Pro** and **Max**), each monthly or annual. Current prices are shown in Cora Mobile and at the store, since that is where they are charged.
 
 | | Plus | Pro | Max |
 |---|---|---|---|
-| Assistant messages / month | 500 | 2,000 | Fair use |
-| Voice sessions / month | 100 | 200 | Fair use |
-| Health Reports / month | 4 | 12 | 30 |
-| ICP analyses / month | 1 | 3 | Unlimited |
-| Tanks with AI features | 1 | 5 | 20 |
+| Assistant messages / month | 500 | 1,200 | 2,500 (fair use) |
+| Voice sessions / month | 100 | 200 | 400 |
+| Health Reports / month | 4 | 12 | 100 |
+| ICP analyses / month | 1 | 3 | 30 |
+| Tanks with AI monitoring | 1 | 5 | 20 |
 
-Voice and messages draw on the same allowance. Every paid tier includes Reef Buddy, ICP upload and analysis for the labs Cora reads, and comparison against your own history.
+Voice sessions are counted on their own, and every spoken reply also draws on your message allowance. Every paid tier includes Reef Buddy, ICP upload and analysis for the labs Cora reads, and comparison against your own history.
 
 **Settings → your account** opens **Account & Subscription**.
 
@@ -65,7 +65,7 @@ It shows your current plan and when it renews, plus:
 
 ![Usage and limits](img/mobile-usage.webp "Each metered feature against its monthly allowance.")
 
-**Settings → Assistant & AI → Usage & limits** shows every metered feature against its monthly allowance in one place: Assistant messages, ICP analyses and health reports.
+**Settings → Assistant & AI → Usage & Limits** shows every metered feature against its monthly allowance in one place: Assistant messages, ICP analyses and health reports.
 
 Each metered feature shows its own usage where you use it:
 
@@ -88,7 +88,7 @@ Your tanks, readings, history and journal stay exactly as they are. You lose acc
 
 ## If your plan is not showing
 
-Purchases occasionally take a moment to reach the app. If it has been a few minutes:
+Purchases occasionally take a moment to reach Cora Mobile. If it has been a few minutes:
 
 1. Fully close and reopen Cora
 2. Check you are signed in to the same account that made the purchase

@@ -2,7 +2,7 @@
 title: Connecting your equipment
 description: How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 10
 group: Equipment
 ---
@@ -17,7 +17,7 @@ Each brand connects in the way that suits it best, so start from the entry point
 | Red Sea ReefBeat | The tank |
 | Jecod / Jebao | **Devices → Find a pump on your network**, or Bluetooth |
 | AquaWiz | **Devices → Add AquaWiz** |
-| Maxspect *(coming soon)* | **Devices → Find a pump on your network** |
+| Maxspect *(beta)* | **Devices → Find a pump on your network** |
 | Cora Max | **Devices → Add Device** |
 
 ## Neptune Apex
@@ -52,6 +52,8 @@ Cora connects to Jecod pumps, and can read and control them. Jecod units reach C
 Pumps answer one scan and miss the next. If yours is not listed, scan again rather than assuming it is unreachable.
 :::
 
+If a search finds nothing, the result shows the addresses it looked at over Wi-Fi. If your pump has a different address in the Jebao app, your phone is on another network. A guest or IoT network, or a 5 GHz-only band, will not see these pumps. On iPhone, Cora also needs Local Network access to see pumps on your Wi-Fi. If it is off, the list stays empty and no error appears, so the result explains this and offers **Open Settings** to turn it back on. **Settings → Device access** opens the same place at any time; see [Settings](/help/mobile-settings).
+
 **Over Bluetooth.** Some pumps are reachable only from a phone standing near them. The pump's page says so, and shows the last settings it managed to read along with how old they are.
 
 Cora needs Bluetooth permission for this. Grant it before adding a Bluetooth pump: without permission the pump cannot be discovered at all, rather than merely taking longer to appear.
@@ -76,18 +78,18 @@ AquaWiz issues a single sign-in per account, so the one Cora holds is the same o
 
 ## Maxspect
 
-:::note Maxspect support is coming soon
-Maxspect gyres are not yet generally available in Cora. This page describes how they work so it is ready when they arrive; until then, the controls below may not appear for your unit.
+:::note Maxspect support is in beta
+Maxspect gyre support is still being tested and developed, so some controls may be limited, and what you see here may change between updates. If something does not work as described, tell us from [Getting help](/help/mobile-support).
 :::
 
 Cora connects to Maxspect Gyre pumps and can read and drive them.
 
-**You will need:** the gyre on your network. Use **Devices → Find a pump on your network**.
+**You will need:** when you add it, the gyre and your phone on the same network. Use **Devices → Find a pump on your network**.
 
-**What you get:** mode and intensity **for each of its two motors**, the unit's schedule, and its current state with the time it was last read.
+**What you get:** wave pattern and speed for **Gyre A** and **Gyre B**, the gyre's schedule to view (set it in the Maxspect app), **Pump health**, and whether it is running, with when it was last read. See [Controlling your equipment](/help/mobile-device-control).
 
-:::warning A gyre must be read before it is changed
-The page shows when the unit last reported. If that is stale, refresh it before changing anything; otherwise a change is built on a state the pump may have moved away from. See [Scheduling equipment](/help/mobile-schedules).
+:::note How Cora Mobile reaches a gyre
+When a Cora Max serves the tank, Cora Mobile works through that Cora Max, including when you are away from home, and **Change settings** starts from that Cora Max's last reading. Otherwise your phone talks to the gyre directly and must be on the gyre's network. Opening the gyre's page then reads it; if the page is showing an older stored reading instead, **Change settings** stays hidden until you tap refresh.
 :::
 
 ## Logging by hand

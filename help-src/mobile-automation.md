@@ -2,7 +2,7 @@
 title: Automations and scenes
 description: Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 17
 group: Alerts and automation
 ---
@@ -46,13 +46,13 @@ There is also a **step** condition, which checks how the *previous* step turned 
 
 ## What a rule can do
 
-Twelve kinds of action:
+An action that needs equipment is offered only on a tank that has that equipment:
 
 | Action | What it does |
 |---|---|
 | **Control Apex Equipment** | Switch an outlet |
 | **Control a Red Sea Equipment** | Drive a ReefBeat unit |
-| **Control a wavemaker** | Change pump mode or intensity |
+| **Control a wavemaker** | Set a Jecod pump's flow, wave mode or power, or **Pause for feeding**: the Cora Max at the tank puts the pump back when the feed ends |
 | **Control a Cora Equipment** | Switch a smart plug |
 | **Control IR Device** | Send an infrared command |
 | **Run Apex Feed Cycle** | Start a feed |
@@ -61,7 +61,7 @@ Twelve kinds of action:
 | **Wait Before Next Step** | Pause before continuing |
 | **Run a Scene** | Run another scene from inside this rule |
 | **Manage an Automation** | Turn another rule on or off |
-| **Dose** | Run a measured dose on a dosing head |
+| **Dose a DŌS Head** | Run a measured dose on a DŌS head |
 
 :::warning Dosing from a rule is irreversible and capped
 A dose cannot be taken back out of the tank. The head must be **calibrated** before a rule may dose from it, and unattended dosing is capped at **10 mL per head per day**; a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.

@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.
 section: Help
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 1
 ---
 
@@ -41,6 +41,15 @@ The manufacturer rejected the stored sign-in. Almost always because you changed 
 
 Open the device row and sign in again.
 
+## Pairing a Cora Max fails
+
+If adding a Cora Max stops partway, Cora Mobile says which step failed and why, with **Cancel** and **Retry** below.
+
+- *"Your phone could not reach the Cora Max on your Wi-Fi."* Put your phone and the Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access: **Settings → Device access** takes you there (see [Settings](/help/mobile-settings)). Then tap **Retry**.
+- *"The Cora Max did not accept this pairing session."* Retrying will not help. Close the screen and start again from **Devices → Add Device**.
+
+For any other message, tap **Retry**.
+
 ## Cora Max shows old data
 
 Check the status pill in the top bar. **Online** and **Cloud** are both healthy: with more than one Cora, the screen that is not doing the collecting shows **Cloud**, and its readings are just as current. **Stale** or **Offline** means the screen has lost its source and is showing the last data it received (correct behaviour, but not current).
@@ -73,7 +82,7 @@ Usually the probe needs calibrating; sometimes the test kit is old. Calibrate th
 
 ## Establishing why something changed
 
-**Settings → Activity** lists every outlet switch, feed, dose and plug change, with what asked for it: this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.
+**Settings → Activity** lists every outlet switch, feed, dose and plug change, with what asked for it: Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.
 
 ## My dashboard looks wrong after editing
 

@@ -30,7 +30,7 @@ Write the checklist for someone unfamiliar with reef tanks. State quantities and
 
 ## Sharing it
 
-Cora turns the plan into a **read-only page**. Send your sitter the link; they do not need the app and they do not need an account.
+Cora turns the plan into a **read-only page**. Send your sitter the link; they do not need Cora Mobile and they do not need an account.
 
 They can read the checklist and see the tank. They cannot change anything, control equipment, or see the rest of your account.
 

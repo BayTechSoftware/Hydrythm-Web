@@ -2,7 +2,7 @@
 title: ICP and health reports
 description: Upload an ICP test, track every element over time, and run a full health assessment of your system.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 26
 group: Intelligence
 ---
@@ -21,7 +21,9 @@ You do not have to type anything in. Cora handles the common lab formats.
 
 ## What you get back
 
-**A score** for the report, and a plain-language summary of what it means for your system specifically: your tank type, your age, your livestock.
+**A score** out of 100, and a plain-language summary of what it means for your system specifically: your tank type, your age, your livestock.
+
+The score is calculated from your results against their target ranges, including any ranges you have set yourself. Any result outside its range holds the score at 70 or below, and one far outside holds it at 40 or below, however good the rest are. The label under the score reads **Healthy** above 70, **Needs Attention** from 40 to 70, and **Critical** below 40. Health Reports are scored the same way.
 
 **Every element tracked**: not only the headline parameters, but trace elements and contaminants as well.
 
@@ -47,9 +49,15 @@ Cora compares your lab results with what your equipment reports. When your alkal
 
 This is one of the most useful things an ICP does inside Cora. It is a **third opinion, not an arbiter**: laboratories differ from one another, and a sample's handling, storage and transit all move the result. Treat a single ICP as evidence (two tests agreeing is worth far more than one) and read a persistent gap as a reason to check the probe, not as proof the probe is wrong.
 
+:::tip Changing labs or test methods
+Changing labs, or switching between a lab's ICP-OES and ICP-MS tests, can move your results with no change in your tank, and Cora points this out when it compares them. ICP-OES cannot measure very low chromium, tin, nickel, copper, cobalt or selenium, so a **Below detection** result for those on an ICP-OES test does not mean your tank has none.
+:::
+
 ## Your allowance
 
 Both are metered by your plan. The line under the buttons shows what you have used this month.
+
+Separately from your plan, Cora accepts up to 10 ICP uploads a day. An upload refused for that reason uses none of your plan's ICP analyses, but Cora Mobile shows only a general upload error, so if uploads start failing after many in one day, try again tomorrow.
 
 ## Where reports live
 

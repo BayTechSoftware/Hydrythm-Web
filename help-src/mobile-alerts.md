@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you get told about, and understand why an alert fired.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 15
 group: Alerts and automation
 ---
@@ -33,6 +33,8 @@ Parameters Cora can grade have a target range, and defaults come from your tank 
 
 To change one: **long-press its widget** on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead; the two gestures go to different places, and the long-press is the shortcut worth remembering.
 
+If the parameter has no rule yet, the fields start on Cora's default, and a note under them says so. Change any value to set your own.
+
 To see them all together, use **Alerts** in the row of buttons under the dashboard.
 
 You can set:
@@ -59,6 +61,12 @@ You can also set a **rate-of-change** rule, which watches how fast a parameter m
 - **Push notifications** reach your phone when you allow them.
 - **The widget** turns amber or red on the dashboard.
 - **Cora Max** shows the same alerts on the big screen.
+
+## When equipment needs attention
+
+Some alerts are about equipment rather than a reading. When a device such as a Trident or a Jecod pump reports a fault, Cora sends a notification that names the tank and the device, for example *"Display tank: Return pump needs attention"*, and says what is wrong, such as a jammed rotor. When the fault clears, a second one follows: *"Display tank: Return pump is OK again"*. Both come under **Equipment Faults** in **Settings → Notifications**.
+
+A Maxspect gyre (beta) can raise the same alert when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat this as a warning, not a safeguard: the Cora Max checks from time to time rather than continuously, and only while it is running and can reach the gyre.
 
 ## Choosing what reaches you
 

@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alerts and thresholds | Cora Help</title>
   <meta name="description" content="Set the range for each parameter, choose what you get told about, and understand why an alert fired.">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-alerts">
   <meta property="og:site_name" content="Cora">
@@ -155,7 +154,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerts and thresholds</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-alert-center">The Alert Center</a></li><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#disabling-alerts-for-a-parameter">Disabling alerts for a parameter</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-alert-center">The Alert Center</a></li><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#when-equipment-needs-attention">When equipment needs attention</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#disabling-alerts-for-a-parameter">Disabling alerts for a parameter</a></li></ul></nav>
 <p>An alert is raised when a reading leaves the range you set for it. You set the ranges, and you control which alerts reach your phone.</p>
 <p>Open the <strong>Alert Center</strong> from the shortcut row at the bottom of the dashboard.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Alert Center"><img src="img/mobile-alerts.webp" alt="The Alert Center" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Active alerts, each with its severity, what triggered it, and when.</figcaption></figure>
@@ -168,6 +167,7 @@
 <h2 id="setting-a-range">Setting a range</h2>
 <p>Parameters Cora can grade have a target range, and defaults come from your tank type and age when you set the tank up, usually a reasonable place to start. A parameter with no usable range is not graded at all: it stays neutral grey rather than being guessed at.</p>
 <p>To change one: <strong>long-press its widget</strong> on the dashboard, which opens that parameter's thresholds directly. A plain tap opens the parameter view instead; the two gestures go to different places, and the long-press is the shortcut worth remembering.</p>
+<p>If the parameter has no rule yet, the fields start on Cora's default, and a note under them says so. Change any value to set your own.</p>
 <p>To see them all together, use <strong>Alerts</strong> in the row of buttons under the dashboard.</p>
 <p>You can set:</p>
 <ul><li><strong>A range</strong>: a low and a high, for things like alkalinity or temperature</li><li><strong>A ceiling</strong>: a high only, for things where low is fine, like nitrate or phosphate</li><li><strong>A floor</strong>: a low only</li></ul>
@@ -178,6 +178,9 @@
 <p>You can also set a <strong>rate-of-change</strong> rule, which watches how fast a parameter moves rather than where it currently sits. That is the one to use for things where the speed of a change matters more than the number.</p>
 <h2 id="where-alerts-appear">Where alerts appear</h2>
 <ul><li><strong>The bell</strong>, top right of every screen, holds your history. The number is how many you have not read.</li><li><strong>Push notifications</strong> reach your phone when you allow them.</li><li><strong>The widget</strong> turns amber or red on the dashboard.</li><li><strong>Cora Max</strong> shows the same alerts on the big screen.</li></ul>
+<h2 id="when-equipment-needs-attention">When equipment needs attention</h2>
+<p>Some alerts are about equipment rather than a reading. When a device such as a Trident or a Jecod pump reports a fault, Cora sends a notification that names the tank and the device, for example <em>"Display tank: Return pump needs attention"</em>, and says what is wrong, such as a jammed rotor. When the fault clears, a second one follows: <em>"Display tank: Return pump is OK again"</em>. Both come under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
+<p>A Maxspect gyre (beta) can raise the same alert when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat this as a warning, not a safeguard: the Cora Max checks from time to time rather than continuously, and only while it is running and can reach the gyre.</p>
 <h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
 <p><strong>Settings → Notifications.</strong> You can control:</p>
 <ul><li>Which of the notification categories may push</li></ul>
@@ -191,7 +194,7 @@
 <p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn its <strong>enable switch</strong> off. The rule and its range are kept, so you can switch it back on without rebuilding it.</p>
 <aside class="cal cal-warning"><p class="cal-t">Quieten a parameter without deleting its range</p><p>Removing a threshold does not necessarily stop every assessment of that reading; default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-consumables"><span>Previous</span><b>Consumables</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.58 and Cora Mobile 0.5.67. Last checked 2026-09-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Troubleshooting | Cora Help</title>
   <meta name="description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
@@ -155,7 +154,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Troubleshooting</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-cannot-be-reached">A device cannot be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-is-not-clearing">An alert is not clearing</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#establishing-why-something-changed">Establishing why something changed</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-cannot-be-reached">A device cannot be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#pairing-a-cora-max-fails">Pairing a Cora Max fails</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-is-not-clearing">An alert is not clearing</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#establishing-why-something-changed">Establishing why something changed</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
 <p>Start with the symptom.</p>
 <h2 id="a-widget-shows-no-value">A widget shows no value</h2>
 <p>Work down this list:</p>
@@ -170,6 +169,10 @@
 <h2 id="a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</h2>
 <p>The manufacturer rejected the stored sign-in. Almost always because you changed your password with them.</p>
 <p>Open the device row and sign in again.</p>
+<h2 id="pairing-a-cora-max-fails">Pairing a Cora Max fails</h2>
+<p>If adding a Cora Max stops partway, Cora Mobile says which step failed and why, with <strong>Cancel</strong> and <strong>Retry</strong> below.</p>
+<ul><li><em>"Your phone could not reach the Cora Max on your Wi-Fi."</em> Put your phone and the Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access: <strong>Settings → Device access</strong> takes you there (see <a href="/help/mobile-settings">Settings</a>). Then tap <strong>Retry</strong>.</li><li><em>"The Cora Max did not accept this pairing session."</em> Retrying will not help. Close the screen and start again from <strong>Devices → Add Device</strong>.</li></ul>
+<p>For any other message, tap <strong>Retry</strong>.</p>
 <h2 id="cora-max-shows-old-data">Cora Max shows old data</h2>
 <p>Check the status pill in the top bar. <strong>Online</strong> and <strong>Cloud</strong> are both healthy: with more than one Cora, the screen that is not doing the collecting shows <strong>Cloud</strong>, and its readings are just as current. <strong>Stale</strong> or <strong>Offline</strong> means the screen has lost its source and is showing the last data it received (correct behaviour, but not current).</p>
 <ul><li>Check Wi-Fi under <strong>Settings → Cora Max → Network</strong></li><li>Check the network itself is up</li><li>If the pill reads <strong>Online</strong> or <strong>Cloud</strong> and the data is still old, the problem is upstream: check the same tank on your phone</li></ul>
@@ -183,7 +186,7 @@
 <h2 id="im-not-getting-notifications">I'm not getting notifications</h2>
 <ol><li><strong>Settings → Notifications</strong>: check that category is allowed to push</li><li>Check your phone's own notification permissions for Cora</li><li>Remember the daily briefing is deliberately quiet on days when nothing changed</li></ol>
 <h2 id="establishing-why-something-changed">Establishing why something changed</h2>
-<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what asked for it: this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.</p>
+<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what asked for it: Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.</p>
 <h2 id="my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</h2>
 <p>Load a saved design: <strong>My dashboards</strong>, then pick one.</p>
 <p>If you have not saved one, rebuild the layout and then save it as a design. From that point on, returning to it is a single tap.</p>
@@ -191,7 +194,7 @@
 <h2 id="still-stuck">Still stuck</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see; it gets you a useful answer faster.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/help/glossary"><span>Next</span><b>Glossary</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.58 and Cora Mobile 0.5.67. Last checked 2026-09-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

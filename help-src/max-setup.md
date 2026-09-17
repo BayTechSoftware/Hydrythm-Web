@@ -2,7 +2,7 @@
 title: Setting up Cora Max
 description: First run, connecting to Wi-Fi, pairing with your account, and getting your tanks onto the big screen.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
@@ -54,7 +54,7 @@ Once paired, Cora Max sees the same tanks, devices, readings and records as your
 Follow the on-screen instructions to link it to your account. Cora Mobile will confirm when the pairing succeeds.
 
 :::note One account, many screens
-You can pair more than one Cora Max to the same account (one in the reef room, one elsewhere), and each can show a different set of tanks and its own dashboard layout.
+You can pair more than one Cora Max to the same account (one in the reef room, one elsewhere), and each can show a different set of tanks and its own dashboard layout. When two show the same tank, see [Controlling equipment from Cora Max](/help/max-device-control) for what the second one can do with its equipment.
 :::
 
 ## Changing which tanks it shows

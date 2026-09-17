@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Your daily briefing: what it covers, when it arrives, and how to read the score.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 24
 group: Intelligence
 ---
@@ -21,7 +21,7 @@ It appears as a card at the top of your dashboard, and as one notification.
 
 | Score | Means |
 |---|---|
-| **Stability** | Out of 100. How steady the tank has been against your targets |
+| **Stability** | Out of 100. How steady your readings have been over the last 30 days |
 | **Data** | A percentage. How complete the data behind the assessment is |
 
 A low Data score means the assessment rests on fewer readings than it would like. Read it first: when Data is low, treat the Stability number beside it as provisional rather than settled.
@@ -46,7 +46,7 @@ Each tank gets its own briefing. If you run three systems you get three, and eac
 
 ## Reading the scores
 
-**Stability** reflects where your parameters sit against your own targets and how steady they have been. It is a trend to watch over time rather than a grade; compare it against your own previous scores, not against another tank.
+**Stability** reflects how steady your readings have been over the last 30 days. It measures steadiness, not whether readings are in range: a tank held steadily at the wrong level can still score well. For a score against your target ranges, run a [Health Report](/help/mobile-icp-health). Stability is a trend to watch over time rather than a grade; compare it against your own previous scores, not against another tank.
 
 **Data** reflects how much recent information the assessment had. It falls when readings go stale.
 

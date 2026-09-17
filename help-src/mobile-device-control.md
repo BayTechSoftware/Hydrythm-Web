@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's own page to see its live state and drive it: outlets, pumps, dosing heads and testers.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 11
 group: Equipment
 ---
@@ -25,7 +25,7 @@ A command does not always succeed, and Cora tells you which of four things happe
 |---|---|
 | **Confirmed** | The equipment acknowledged the change and reported its new state |
 | **Unconfirmed** | The command was sent, but nothing reported back. **This means "we do not know", not "it worked"**; check the device's own state |
-| **Refused** | Something declined it: a safety rule, a lock, or the equipment itself |
+| **Refused** | Something declined it (a safety rule, a lock, or the equipment itself), or no Cora device picked it up in time, so it was cancelled and nothing ran |
 | **No change** | The equipment was already in the state you asked for |
 
 Every outcome is recorded in [Activity](/help/mobile-activity) with what caused it.
@@ -46,6 +46,8 @@ You can set an alert threshold for remaining tests from this page, so Cora warns
 
 ## DŌS
 
+A DŌS QD works exactly like a DŌS, and everything here applies to both. When a Cora Max reads your Apex, dosing heads appear on the DŌS page, never in the outlet list.
+
 Each dosing head shows what it is dosing, its schedule, what it has dosed today, how much is left in the container and its **runway**: how many days that will last at the current rate.
 
 Per head you can:
@@ -58,8 +60,8 @@ Per head you can:
 Cora shows the schedule and tracks what has been dosed, but does not change it. Editing the schedule, the dose rate or the number of doses is done in the Apex Fusion app. Pausing, filling and dosing by hand are all supported here.
 :::
 
-:::note Measure the head before dosing by hand
-On Cora Max, **Measure to dose** runs a head for twenty seconds so you can weigh or measure what actually came out. Cora turns that into the head's real rate and uses it for every manual dose afterwards: worth doing once per head, and again after changing tubing.
+:::note Measure a head before dosing it by hand
+Cora will not dose a head by hand until it has been measured. **Measure to dose** and **Re-measure** are on the Cora Max that doses for the tank: Cora runs the head for twenty seconds, you measure what came out, and Cora works out the head's real rate. One measurement serves every Cora Max and Cora Mobile, so measure each head once, and again after changing its tubing.
 :::
 
 :::warning A DŌS keeps dosing when its container is empty
@@ -72,12 +74,26 @@ Each unit has a page appropriate to what it is:
 
 | Unit | Page shows | You can |
 |---|---|---|
-| **ReefDose** | Each head, its container and what it has dosed | Set refill alerts per head |
+| **ReefDose** | Each head, its container and what it has dosed | For each head: **Dose per day**, **Remaining in bottle**, **Dose now** and **Activate schedule**. Set refill alerts per head |
 | **ReefATO+** | Reservoir level and top-off activity | Set a reservoir alert |
 | **ReefMat** | Remaining roll, in days and metres | Advance the roll, set a refill alert |
 | **ReefRun** | Return and skimmer pump speed and state | Change speed, switch a pump, adjust skimmer settings |
 
-**ReefRun is a return and skimmer pump controller**, not a wave pump; it stops itself when the skimmer cup fills, and the page tells you when it has.
+**ReefRun is a return and skimmer pump controller**, not a wave pump.
+
+A unit can stop itself, for example a ReefRun pump when the skimmer cup fills. When one does, its page says why and offers the fix:
+
+| Unit | The page says | Tap |
+|---|---|---|
+| ReefRun | Which pump stopped and why, for example *Full cup. Empty it, then resume.* | **Resume** |
+| ReefRun or ReefMat | **Emergency stop** | **Clear emergency** |
+| ReefMat | **Mat jammed**, **Installation error** or **Setup error** | **Resume** |
+| ReefMat | *Load a new roll, then confirm it in Red Sea's app.* | **I already loaded a new roll** |
+| ReefMat | **Sensor needs cleaning** | **Sensor cleaned** |
+| ReefDose | **Head malfunction**, with the head's name | **Reset** |
+| ReefATO+ | **Clear Fault** | **Resume** |
+
+Some of these ask you to confirm first. Away from the unit's network, Cora Mobile sends them through a Cora Max on the tank; if no Cora Max can do it, the page says so and nothing is sent.
 
 ## Jecod pumps
 
@@ -91,14 +107,20 @@ You can also:
 
 ## Maxspect
 
-:::note Maxspect support is coming soon
-Maxspect gyres are not yet generally available in Cora. This page describes how they work so it is ready when they arrive; until then, the controls below may not appear for your unit.
+:::note Maxspect support is in beta
+Maxspect gyre support is still being tested and developed, so some controls may be limited, and what you see here may change between updates. If something does not work as described, tell us from [Getting help](/help/mobile-support).
 :::
 
-The gyre page shows the current mode and intensity for each head, and when the unit last reported.
+The gyre page shows whether the gyre is running, the wave pattern and speed of **Gyre A** and **Gyre B**, and when that was last read. From it you can:
 
-:::note A gyre must be read before it can be changed
-The page shows when it last reported. If the reading is stale, refresh it before changing settings so the change is applied to the unit's actual current state.
+- Switch the gyre on or off with the switch beside its state. Cora asks you to confirm first. Switching off stops both gyres and leaves the schedule as it is.
+- Tap **Change settings** to set each gyre's wave pattern and pump speed (and duration, for a pattern that has one), and whether the two gyres are linked. Cora lists what will change and asks you to confirm before applying it. Alternating is set in the Maxspect app: a gyre running it keeps its ramps and hold times.
+- Tap **Set program** instead when the program saved on the gyre cannot be read. It sets both gyres so the gyre can start again.
+- See the gyre's day program on the **Schedule** card. It is view only: set the schedule in the Maxspect app.
+- Check **Pump health**: when the pump next needs cleaning (the pump counts this down itself), the current drawn by head A, which heads are fitted, and the firmware. Tap **Read** to fetch it.
+
+:::note How Cora Mobile reaches a gyre
+When a Cora Max serves the tank, Cora Mobile works through that Cora Max, including when you are away from home, and **Change settings** starts from that Cora Max's last reading. Otherwise your phone talks to the gyre directly and must be on the gyre's network. Opening the page then reads the gyre; if the page is showing an older stored reading instead, **Change settings** stays hidden until you tap refresh.
 :::
 
 ## What happens after you change something

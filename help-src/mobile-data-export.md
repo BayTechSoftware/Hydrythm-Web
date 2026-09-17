@@ -35,7 +35,7 @@ Each of the three is capped at **25,000 rows per tank**. A tank logging thirty m
 The parameter export carries the **source** of each reading, not just the value, so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.
 
 :::note Export before major changes
-Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of the app and your account.
+Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of Cora Mobile and your account.
 :::
 
 ## Signing out versus deleting

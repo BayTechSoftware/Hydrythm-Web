@@ -17,7 +17,7 @@ A profile has a lot in it, so **Guided setup** walks the sections one at a time 
 
 It is designed to be interrupted:
 
-- **Finish later** leaves the profile where it is and returns you to the app. Your answers so far are kept.
+- **Finish later** leaves the profile where it is and takes you back. Your answers so far are kept.
 - Reopening guided setup resumes at the section you stopped on, rather than starting again.
 - **Decide later** skips a question you are not ready to answer without blocking the rest.
 - Leaving a section with unsaved edits asks first, offering **Keep editing** or **Leave**.

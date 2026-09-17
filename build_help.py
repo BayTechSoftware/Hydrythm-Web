@@ -68,9 +68,10 @@ def _pubspec_version(rel: str, fallback: str) -> str:
 STAMP_MAX = _pubspec_version("cora-max", _FALLBACK_MAX)
 STAMP_MOBILE = _pubspec_version("mobile", _FALLBACK_MOBILE)
 
-# ⛔ While the guide is unlisted. Flipping to public = set this False, drop the
-# robots.txt Disallow, and add the sitemap entries. One commit.
-NOINDEX = True
+# PUBLISHED 2026-09-17 (owner: make coraiq.tech/help public once Cora Mobile was live
+# on the App Store). Hiding it again = set this True, restore the robots.txt
+# Disallow and remove the sitemap entries, in one commit.
+NOINDEX = False
 
 # ⛔⛔ GIZ-14 — BOTH disclaimers, verbatim, on every page that names a
 # manufacturer. On a help site that is most of them, so they live in the shared
@@ -1522,15 +1523,40 @@ def self_test() -> int:
             dupes.append(f"{md.name}: {sorted(dup_h)}")
     ok(f"⛔ no page repeats a section heading ({dupes})", not dupes)
 
-    unlabelled = []
+    unlabelled, stale_soon = [], []
     for md in sorted(SRC.glob("*.md")):
         if md.name == "README.md":
             continue
         body = md.read_text(encoding="utf-8")
-        if "maxspect" in body.lower() and "coming soon" not in body.lower():
+        # Owner, 2026-09-17: *"let's flag MaxSpect as Beta on Help pages, it still
+        # testing and development in progress."* It was "coming soon" until then, so
+        # the guard now demands "beta" and refuses a leftover "coming soon" on any
+        # line that names Maxspect (a page can say both only if one is stale).
+        low = body.lower()
+        if "maxspect" in low and not re.search(r"\bbeta\b", low):
             unlabelled.append(md.name)
-    ok(f"⛔ Maxspect is labelled coming-soon wherever it is named ({unlabelled})",
+        stale_soon.extend(f"{md.name}:{i}" for i, line in enumerate(low.splitlines(), 1)
+                          if "maxspect" in line and "coming soon" in line)
+    ok(f"⛔ Maxspect is labelled beta wherever it is named ({unlabelled})",
        not unlabelled)
+    ok(f"⛔ no line still calls Maxspect coming soon ({stale_soon})",
+       not stale_soon)
+
+    # ⛔ PUBLISHED 2026-09-17. While NOINDEX is False every page must be in
+    # sitemap.xml, or a new page ships invisible to search. Keyed on each page's
+    # own canonical URL, so no hand-kept count can drift.
+    if not NOINDEX:
+        _sm = ROOT / "sitemap.xml"
+        _sm_text = _sm.read_text(encoding="utf-8") if _sm.exists() else ""
+        not_in_sitemap = []
+        for md in sorted(SRC.glob("*.md")):
+            if md.name == "README.md":
+                continue
+            _url = "/help/" if md.stem == "index" else f"/help/{md.stem}"
+            if f"<loc>{SITE}{_url}</loc>" not in _sm_text:
+                not_in_sitemap.append(md.stem)
+        ok(f"⛔ every help page is in sitemap.xml ({not_in_sitemap})",
+           not not_in_sitemap)
 
     # ⛔ INTERNAL JARGON IN CUSTOMER-FACING COPY. Owner, 2026-09-09: *"There
     # are mentions as 'The Cora swoosh'.. there is no such a thing, it is Cora

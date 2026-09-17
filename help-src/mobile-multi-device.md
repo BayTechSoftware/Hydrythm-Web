@@ -2,7 +2,7 @@
 title: More than one Cora device
 description: Choose which device answers voice and which one polls each tank.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 29
 group: Account
 ---
@@ -37,14 +37,14 @@ The phone does not listen for a wake phrase. You start a conversation on it by t
 
 Equipment on your network is read by a Cora Max. When more than one could read the same controller, they would otherwise poll it in parallel.
 
-The **primary poller** is a per-tank choice of which device reads that tank's controller.
+The primary poller is a per-tank choice of which device reads that tank's controller. In Cora Mobile, look for **Polling primary** beside the tank in **Settings**.
 
 | Setting | Behaviour |
 |---|---|
-| A named device | Only that device polls the controller. Others defer to it. |
-| Any active (automatic) | Whichever device is active reads it. Suitable for a single-device household. |
+| A named device | It becomes the only Cora device that polls the controller, and it stays the primary even while it is offline: other Cora devices do not take over. Cora Mobile polls only while it is offline. |
+| Any active (automatic) | Cora Mobile and any online Cora device share the work, so if one goes offline another carries on. Suitable for a single-device household. |
 
-If the chosen device goes offline or its data goes stale, another device takes over so readings do not stop.
+While a device you named is offline, a command that has to go through it does not run: Cora tells you the tank is set to use that device, that it is offline, and that nothing ran, so you can try again once it is back. If it will be offline for a while, choose another device or **Any active (automatic)**.
 
 :::note Set a primary when two devices watch one tank
 Naming a primary reduces load on the controller and removes duplicate readings from the same source.

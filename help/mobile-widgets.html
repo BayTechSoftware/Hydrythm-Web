@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Widget reference | Cora Help</title>
   <meta name="description" content="Every widget type in Cora (value, gauge, graph, status, outlet and the device tiles) and when to use each.">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-widgets">
   <meta property="og:site_name" content="Cora">
@@ -160,7 +159,7 @@
 <p>Add and arrange them in <strong><a href="/help/mobile-dashboard-editing">the dashboard editor</a></strong>; tap a widget there to open its settings.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Configuring a widget"><img src="img/mobile-widget-config.webp" alt="Configuring a widget" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Type, parameter, then width and height.</figcaption></figure>
 <h2 id="the-nine-types">The nine types</h2>
-<div class="tw"><table class="stack"><thead><tr><th>Type</th><th>Shows</th></tr></thead><tbody><tr><td data-th="Type"><strong>Value</strong></td><td data-th="Shows">The current reading, its unit, age and source</td></tr><tr><td data-th="Type"><strong>Gauge</strong></td><td data-th="Shows">An arc with your range banded onto it and a knob at the value</td></tr><tr><td data-th="Type"><strong>Graph</strong></td><td data-th="Shows">A trend over a window you choose</td></tr><tr><td data-th="Type"><strong>Status</strong></td><td data-th="Shows">A state as text: running, idle, closed</td></tr><tr><td data-th="Type"><strong>Outlet</strong></td><td data-th="Shows">A three-way control: Auto, Off, On</td></tr><tr><td data-th="Type"><strong>ReefBeat</strong></td><td data-th="Shows">One Red Sea unit, with its own summary</td></tr><tr><td data-th="Type"><strong>Apex module</strong></td><td data-th="Shows">One fitted Apex module, such as a Trident or DŌS</td></tr><tr><td data-th="Type"><strong>Jecod</strong></td><td data-th="Shows">One Jecod pump, with its mode and intensity</td></tr><tr><td data-th="Type"><strong>Maxspect</strong> <em>(coming soon)</em></td><td data-th="Shows">One gyre, with both motors</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Type</th><th>Shows</th></tr></thead><tbody><tr><td data-th="Type"><strong>Value</strong></td><td data-th="Shows">The current reading, its unit, age and source</td></tr><tr><td data-th="Type"><strong>Gauge</strong></td><td data-th="Shows">An arc with your range banded onto it and a knob at the value</td></tr><tr><td data-th="Type"><strong>Graph</strong></td><td data-th="Shows">A trend over a window you choose</td></tr><tr><td data-th="Type"><strong>Status</strong></td><td data-th="Shows">A state as text: running, idle, closed</td></tr><tr><td data-th="Type"><strong>Outlet</strong></td><td data-th="Shows">A three-way control: Auto, Off, On</td></tr><tr><td data-th="Type"><strong>ReefBeat</strong></td><td data-th="Shows">One Red Sea unit, with its own summary</td></tr><tr><td data-th="Type"><strong>Apex module</strong></td><td data-th="Shows">One fitted Apex module, such as a Trident or DŌS</td></tr><tr><td data-th="Type"><strong>Jecod</strong></td><td data-th="Shows">One Jecod pump, with its mode and intensity</td></tr><tr><td data-th="Type"><strong>Maxspect</strong> <em>(beta)</em></td><td data-th="Shows">One gyre, with both motors</td></tr></tbody></table></div>
 <p>The last four are <strong>device</strong> tiles: they are keyed to a piece of equipment rather than to a parameter, and each shows whatever that unit reports.</p>
 <h2 id="sizing">Sizing</h2>
 <p><strong>Width</strong> and <strong>Height</strong> are each <strong>1×</strong> or <strong>2×</strong>. A graph is never one cell wide.</p>
@@ -175,6 +174,7 @@
 <aside class="cal cal-note"><p class="cal-t">Size gauges at two columns or more</p><p>At a single column the arc is too small to read at a glance; use a <strong>value</strong> widget instead if space is limited.</p></aside>
 <h2 id="graph">Graph</h2>
 <p>A sparkline over a window you choose, with the high and low marked and the current value called out.</p>
+<p>For a parameter you test (by Trident or with a test kit), the line joins your actual tests. If the window holds only one test, the line runs in from the test before it, and no high or low is marked. With no test in the window, or nothing earlier to join a single test to, the tile shows <strong>Collecting…</strong> instead of a line.</p>
 <p>Use it for anything that moves: pH through the day, temperature across a heatwave, alkalinity between doses.</p>
 <p><strong>Settings:</strong> label, source, <strong>time window</strong> (1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year), size.</p>
 <p>A trend is always <strong>at least two cells wide</strong>; a sparkline squeezed into one cell tells you nothing, so the editor will not make one.</p>
@@ -198,7 +198,7 @@
 <h2 id="sizes">Sizes</h2>
 <p>Widgets are one or two cells wide and one or two cells tall, except a <strong>trend</strong>, which is always at least two wide. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-dashboard-editing"><span>Previous</span><b>Editing your dashboard</b></a><a class="pn-n" href="/help/mobile-metric-detail"><span>Next</span><b>Looking into a parameter</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.58 and Cora Mobile 0.5.67. Last checked 2026-09-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

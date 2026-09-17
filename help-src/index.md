@@ -2,7 +2,7 @@
 title: Cora Help
 description: How to set up and run Cora Max and Cora Mobile: onboarding, dashboards, devices, alerts, Reef Buddy, ICP and health reports.
 section: -
-reviewed: 2026-09-09
+reviewed: 2026-09-17
 order: 0
 ---
 
@@ -61,7 +61,7 @@ Beyond readings and dashboards, Cora keeps the rest of the job in one place:
 - **[Controlling your equipment](/help/mobile-device-control)**: outlets, pumps, dosing heads and testers
 - **[Probes](/help/mobile-probes)**: mapping a controller's probes, and recording calibration
 - **[Consumables](/help/mobile-consumables)**: refill alerts for reagent, containers and reservoirs
-- **[Scheduling equipment](/help/mobile-schedules)**: day programs for pumps and gyres, and copying them
+- **[Scheduling equipment](/help/mobile-schedules)**: day programs for pumps, copying them, and viewing a gyre's schedule
 - **[More than one Cora device](/help/mobile-multi-device)**: which one answers voice, which one polls
 
 ## On the big screen

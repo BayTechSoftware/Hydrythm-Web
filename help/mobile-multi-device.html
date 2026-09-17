@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>More than one Cora device | Cora Help</title>
   <meta name="description" content="Choose which device answers voice and which one polls each tank.">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-multi-device">
   <meta property="og:site_name" content="Cora">
@@ -167,14 +166,14 @@
 <aside class="cal cal-note"><p class="cal-t">Your phone is not in this picker</p><p>The phone does not listen for a wake phrase. You start a conversation on it by tapping, which always works and is unaffected by this setting. The picker lists voice-capable Cora hardware only.</p></aside>
 <h2 id="primary-poller">Primary poller</h2>
 <p>Equipment on your network is read by a Cora Max. When more than one could read the same controller, they would otherwise poll it in parallel.</p>
-<p>The <strong>primary poller</strong> is a per-tank choice of which device reads that tank's controller.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Setting</th><th>Behaviour</th></tr></thead><tbody><tr><td data-th="Setting">A named device</td><td data-th="Behaviour">Only that device polls the controller. Others defer to it.</td></tr><tr><td data-th="Setting">Any active (automatic)</td><td data-th="Behaviour">Whichever device is active reads it. Suitable for a single-device household.</td></tr></tbody></table></div>
-<p>If the chosen device goes offline or its data goes stale, another device takes over so readings do not stop.</p>
+<p>The primary poller is a per-tank choice of which device reads that tank's controller. In Cora Mobile, look for <strong>Polling primary</strong> beside the tank in <strong>Settings</strong>.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Setting</th><th>Behaviour</th></tr></thead><tbody><tr><td data-th="Setting">A named device</td><td data-th="Behaviour">It becomes the only Cora device that polls the controller, and it stays the primary even while it is offline: other Cora devices do not take over. Cora Mobile polls only while it is offline.</td></tr><tr><td data-th="Setting">Any active (automatic)</td><td data-th="Behaviour">Cora Mobile and any online Cora device share the work, so if one goes offline another carries on. Suitable for a single-device household.</td></tr></tbody></table></div>
+<p>While a device you named is offline, a command that has to go through it does not run: Cora tells you the tank is set to use that device, that it is offline, and that nothing ran, so you can try again once it is back. If it will be offline for a while, choose another device or <strong>Any active (automatic)</strong>.</p>
 <aside class="cal cal-note"><p class="cal-t">Set a primary when two devices watch one tank</p><p>Naming a primary reduces load on the controller and removes duplicate readings from the same source.</p></aside>
 <h2 id="where-each-devices-state-is-shown">Where each device's state is shown</h2>
 <p>Cora Max reports its own polling and voice state under <strong>Settings → Cora Max → Firmware → Device health &amp; controls</strong>. See <a href="/help/max-devices">Devices and device health</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-vacation"><span>Previous</span><b>Going away</b></a><a class="pn-n" href="/help/mobile-data-export"><span>Next</span><b>Your data</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.47 and Cora Mobile 0.5.60. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.58 and Cora Mobile 0.5.67. Last checked 2026-09-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
