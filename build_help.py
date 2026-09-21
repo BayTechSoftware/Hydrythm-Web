@@ -77,9 +77,9 @@ NOINDEX = False
 # manufacturer. On a help site that is most of them, so they live in the shared
 # footer and appear on all of them. Do not paraphrase; do not drop one.
 DISCLAIMER_1 = (
-    "Cora's integrations are independent: not affiliated with, endorsed by, "
-    "or sponsored by any equipment manufacturer. Product names, logos and "
-    "images are property of their respective owners."
+    "All product names and trademarks are the property of their respective "
+    "owners. Cora is not affiliated with, sponsored by, or endorsed by these "
+    "manufacturers unless expressly stated otherwise."
 )
 DISCLAIMER_2 = (
     "Some devices are connected through APIs that are not officially supported "
@@ -87,6 +87,51 @@ DISCLAIMER_2 = (
 )
 
 SUPPORT_EMAIL = "cora@coraiq.tech"
+
+# ⭐ Owner, 2026-09-21: no third-party LOGOS anywhere on the site or in the guide;
+# each brand keeps its NAME with a ™ and DISCLAIMER_1 names the owners. Marked on
+# the first mention per page (the convention: once is the notice, every time is
+# noise). Order matters: "Neptune Systems" before "Neptune".
+TRADEMARKS = [
+    ("neptune", r"Neptune Systems|Neptune"),
+    ("redsea", r"Red Sea"),
+    ("jecod", r"Jecod"),
+    ("jebao", r"Jebao"),
+    ("maxspect", r"Maxspect"),
+    ("aquawiz", r"AquaWiz"),
+    ("hydros", r"Hydros|HYDROS"),
+    ("ghl", r"GHL"),
+    ("nyos", r"NYOS|Nyos"),
+    ("abyzz", r"Abyzz"),
+    ("deltec", r"Deltec"),
+]
+_TAG_SPLIT = re.compile(r"(<[^>]+>)")
+
+
+def mark_trademarks(body: str) -> str:
+    """™ after the first mention of each brand in a page body. Text nodes only:
+    never inside a tag or attribute, never inside code or pre."""
+    seen: set[str] = set()
+    parts = _TAG_SPLIT.split(body)
+    literal = 0
+    for i, part in enumerate(parts):
+        if part.startswith("<"):
+            if re.match(r"<(code|pre)\b", part, re.I):
+                literal += 1
+            elif re.match(r"</(code|pre)>", part, re.I):
+                literal = max(0, literal - 1)
+            continue
+        if literal or not part:
+            continue
+        for key, pat in TRADEMARKS:
+            if key in seen:
+                continue
+            m = re.search(rf"\b(?:{pat})\b(?![™®])", part)
+            if m:
+                part = part[: m.end()] + "™" + part[m.end():]
+                seen.add(key)
+        parts[i] = part
+    return "".join(parts)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -628,7 +673,7 @@ def shell(page: Page, pages: list[Page]) -> str:
     <article class="doc">
       <h1>{title}</h1>
       {toc_html(page)}
-{page.html}
+{mark_trademarks(page.html)}
       {prevnext_html(pages, page)}
       <p class="stamp">Written for Cora Max {STAMP_MAX} and Cora Mobile {STAMP_MOBILE}.{reviewed_html(page)}</p>
       <p class="ask">Still stuck? Email <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a> and we'll help.</p>
@@ -1467,6 +1512,14 @@ def self_test() -> int:
     ok("a lone < in prose is still escaped", "&lt; 5" in render("a value < 5", []))
     ok("⛔ script is NOT passed through", "&lt;script&gt;" in render("<script>alert(1)</script>", []))
     ok("tokens extract", "--brand:" in extract_root())
+
+    tm = mark_trademarks('<p>Neptune Systems and Red Sea. Red Sea again, <a href="/x?maxspect">Maxspect</a>.</p>'
+                         '<code>Jecod</code> then Jecod.')
+    ok("™ on the first brand mention", "Neptune Systems™ and Red Sea™." in tm)
+    ok("™ only once per brand per page", "Red Sea again" in tm and tm.count("Red Sea™") == 1)
+    ok("™ never inside a tag attribute", 'href="/x?maxspect"' in tm and ">Maxspect™<" in tm)
+    ok("™ never inside code", "<code>Jecod</code> then Jecod™." in tm)
+    ok("™ not doubled", mark_trademarks("Maxspect™ gyre") == "Maxspect™ gyre")
 
     # ⛔⛔ THE INLINE SCRIPT MUST PARSE. The page shell is an f-string, so a
     # single `{` in the JavaScript is a FORMAT PLACEHOLDER — that broke the

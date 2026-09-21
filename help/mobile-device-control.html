@@ -163,7 +163,7 @@
 <p>A command does not always succeed, and Cora tells you which of four things happened rather than assuming:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Outcome</th><th>Means</th></tr></thead><tbody><tr><td data-th="Outcome"><strong>Confirmed</strong></td><td data-th="Means">The equipment acknowledged the change and reported its new state</td></tr><tr><td data-th="Outcome"><strong>Unconfirmed</strong></td><td data-th="Means">The command was sent, but nothing reported back. <strong>This means "we do not know", not "it worked"</strong>; check the device's own state</td></tr><tr><td data-th="Outcome"><strong>Refused</strong></td><td data-th="Means">Something declined it (a safety rule, a lock, or the equipment itself), or no Cora device picked it up in time, so it was cancelled and nothing ran</td></tr><tr><td data-th="Outcome"><strong>No change</strong></td><td data-th="Means">The equipment was already in the state you asked for</td></tr></tbody></table></div>
 <p>Every outcome is recorded in <a href="/help/mobile-activity">Activity</a> with what caused it.</p>
-<h2 id="neptune-apex">Neptune Apex</h2>
+<h2 id="neptune-apex">Neptune™ Apex</h2>
 <p>The Apex page lists your probes and outlets.</p>
 <ul><li><strong>Probes</strong> report into Cora as sources and can be placed on a dashboard.</li><li><strong>Outlets</strong> switch between <strong>Auto</strong>, <strong>Off</strong> and <strong>On</strong>. Auto returns control to your Apex programming.</li><li><strong>Fitted modules</strong> (Trident, DŌS and others) each have their own page.</li></ul>
 <h2 id="trident">Trident</h2>
@@ -177,18 +177,18 @@
 <aside class="cal cal-note"><p class="cal-t">Schedules are edited in Apex Fusion, not here</p><p>Cora shows the schedule and tracks what has been dosed, but does not change it. Editing the schedule, the dose rate or the number of doses is done in the Apex Fusion app. Pausing, filling and dosing by hand are all supported here.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Measure a head before dosing it by hand</p><p>Cora will not dose a head by hand until it has been measured. <strong>Measure to dose</strong> and <strong>Re-measure</strong> are on the Cora Max that doses for the tank: Cora runs the head for twenty seconds, you measure what came out, and Cora works out the head's real rate. One measurement serves every Cora Max and Cora Mobile, so measure each head once, and again after changing its tubing.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">A DŌS keeps dosing when its container is empty</p><p>The unit has no level sensor and does not stop on its own. Set a refill alert from the head's page so Cora warns you before the container runs dry.</p></aside>
-<h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
+<h2 id="red-sea-reefbeat">Red Sea™ ReefBeat</h2>
 <p>Each unit has a page appropriate to what it is:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Unit</th><th>Page shows</th><th>You can</th></tr></thead><tbody><tr><td data-th="Unit"><strong>ReefDose</strong></td><td data-th="Page shows">Each head, its container and what it has dosed</td><td data-th="You can">For each head: <strong>Dose per day</strong>, <strong>Remaining in bottle</strong>, <strong>Dose now</strong> and <strong>Activate schedule</strong>. Set refill alerts per head</td></tr><tr><td data-th="Unit"><strong>ReefATO+</strong></td><td data-th="Page shows">Reservoir level and top-off activity</td><td data-th="You can">Set a reservoir alert</td></tr><tr><td data-th="Unit"><strong>ReefMat</strong></td><td data-th="Page shows">Remaining roll, in days and metres</td><td data-th="You can">Advance the roll, set a refill alert</td></tr><tr><td data-th="Unit"><strong>ReefRun</strong></td><td data-th="Page shows">Return and skimmer pump speed and state</td><td data-th="You can">Change speed, switch a pump, adjust skimmer settings</td></tr></tbody></table></div>
 <p><strong>ReefRun is a return and skimmer pump controller</strong>, not a wave pump.</p>
 <p>A unit can stop itself, for example a ReefRun pump when the skimmer cup fills. When one does, its page says why and offers the fix:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Unit</th><th>The page says</th><th>Tap</th></tr></thead><tbody><tr><td data-th="Unit">ReefRun</td><td data-th="The page says">Which pump stopped and why, for example <em>Full cup. Empty it, then resume.</em></td><td data-th="Tap"><strong>Resume</strong></td></tr><tr><td data-th="Unit">ReefRun or ReefMat</td><td data-th="The page says"><strong>Emergency stop</strong></td><td data-th="Tap"><strong>Clear emergency</strong></td></tr><tr><td data-th="Unit">ReefMat</td><td data-th="The page says"><strong>Mat jammed</strong>, <strong>Installation error</strong> or <strong>Setup error</strong></td><td data-th="Tap"><strong>Resume</strong></td></tr><tr><td data-th="Unit">ReefMat</td><td data-th="The page says"><em>Load a new roll, then confirm it in Red Sea's app.</em></td><td data-th="Tap"><strong>I already loaded a new roll</strong></td></tr><tr><td data-th="Unit">ReefMat</td><td data-th="The page says"><strong>Sensor needs cleaning</strong></td><td data-th="Tap"><strong>Sensor cleaned</strong></td></tr><tr><td data-th="Unit">ReefDose</td><td data-th="The page says"><strong>Head malfunction</strong>, with the head's name</td><td data-th="Tap"><strong>Reset</strong></td></tr><tr><td data-th="Unit">ReefATO+</td><td data-th="The page says"><strong>Clear Fault</strong></td><td data-th="Tap"><strong>Resume</strong></td></tr></tbody></table></div>
 <p>Some of these ask you to confirm first. Away from the unit's network, Cora Mobile sends them through a Cora Max on the tank; if no Cora Max can do it, the page says so and nothing is sent.</p>
-<h2 id="jecod-pumps">Jecod pumps</h2>
+<h2 id="jecod-pumps">Jecod™ pumps</h2>
 <p>The pump page shows its current mode and intensity, and lets you change both.</p>
 <p>You can also:</p>
 <ul><li><strong>Copy schedule to…</strong>: put this pump's schedule on another one</li><li><strong>Save schedule as…</strong> and <strong>Saved schedules…</strong>: keep a schedule and re-apply it later</li><li><strong>Share this schedule</strong> and <strong>Paste a schedule code…</strong>: move a schedule between systems as a short code</li></ul>
-<h2 id="maxspect">Maxspect</h2>
+<h2 id="maxspect">Maxspect™</h2>
 <aside class="cal cal-note"><p class="cal-t">Maxspect support is in beta</p><p>Maxspect gyre support is still being tested and developed, so some controls may be limited, and what you see here may change between updates. If something does not work as described, tell us from <a href="/help/mobile-support">Getting help</a>.</p></aside>
 <p>The gyre page shows whether the gyre is running, the wave pattern and speed of <strong>Gyre A</strong> and <strong>Gyre B</strong>, and when that was last read. From it you can:</p>
 <ul><li>Switch the gyre on or off with the switch beside its state. Cora asks you to confirm first. Switching off stops both gyres and leaves the schedule as it is.</li><li>Tap <strong>Change settings</strong> to set each gyre's wave pattern and pump speed (and duration, for a pattern that has one), and whether the two gyres are linked. Cora lists what will change and asks you to confirm before applying it. Alternating is set in the Maxspect app: a gyre running it keeps its ramps and hold times.</li><li>Tap <strong>Set program</strong> instead when the program saved on the gyre cannot be read. It sets both gyres so the gyre can start again.</li><li>See the gyre's day program on the <strong>Schedule</strong> card. It is view only: set the schedule in the Maxspect app.</li><li>Check <strong>Pump health</strong>: when the pump next needs cleaning (the pump counts this down itself), the current drawn by head A, which heads are fitted, and the firmware. Tap <strong>Read</strong> to fetch it.</li></ul>
@@ -196,7 +196,7 @@
 <h2 id="what-happens-after-you-change-something">What happens after you change something</h2>
 <p>Every change is recorded in <a href="/help/mobile-activity">Activity</a> with the surface that requested it. If a device does not accept a change, the failure is recorded there too.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-connections"><span>Previous</span><b>Connecting your equipment</b></a><a class="pn-n" href="/help/mobile-schedules"><span>Next</span><b>Scheduling equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.58 and Cora Mobile 0.5.67. Last checked 2026-09-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.60 and Cora Mobile 0.5.70. Last checked 2026-09-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
@@ -204,7 +204,7 @@
 
 <footer class="hfoot">
   <div class="hfoot-in">
-    <p class="disc">Cora&#x27;s integrations are independent: not affiliated with, endorsed by, or sponsored by any equipment manufacturer. Product names, logos and images are property of their respective owners.</p>
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
     <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
     <p class="legal">&copy; 2026 Cora IQ ·
       <a href="/">coraiq.tech</a> ·
