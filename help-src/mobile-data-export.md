@@ -2,7 +2,7 @@
 title: Your data
 description: Export your readings, journal and alerts as spreadsheets, and how to delete your account.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-27
 order: 30
 group: Account
 ---
@@ -57,7 +57,7 @@ An App Store or Google Play subscription belongs to the **store**, not to Cora. 
 
 ## Contributing anonymised data
 
-**Settings → Assistant & AI → Contribute anonymized tank data.**
+**Settings → Cora Assistant → Contribute anonymized tank data.**
 
 While this is on, your tank's parameter history is retained for reef research **with no link to you** even if you later delete your account. Turn it off and that history is deleted along with everything else.
 

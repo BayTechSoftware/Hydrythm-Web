@@ -88,6 +88,13 @@ MAP = {
     "dosing_products": "mobile-dosing", "feedback_report": "mobile-support",
     "paywall": "mobile-plans", "redeem_code": "mobile-plans",
     "ota": "max-updates", "recovery": "max-updates",
+    # ── added 2026-09-27 with the help rewrite (I18N-05 / help round) ──
+    "about": "max-settings", "help_support": "max-settings",
+    "answering_device": "max-voice", "language_settings": "max-settings",
+    "tank_units": "max-settings", "units_settings": "mobile-settings",
+    "dos_head_config": "max-device-control",
+    "scene_list": "max-automation", "scene_editor": "max-automation",
+    "scene_confirm": "max-automation",
 }
 
 # surface stem -> why it is deliberately NOT in the guide

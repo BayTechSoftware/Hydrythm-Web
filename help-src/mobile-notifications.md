@@ -2,7 +2,7 @@
 title: Notifications
 description: Choose what reaches your phone, when it may arrive, and where to read what you missed.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 16
 group: Alerts and automation
 ---
@@ -48,3 +48,5 @@ Work down this list:
 ## If too much is arriving
 
 Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See [Alerts and thresholds](/help/mobile-alerts).
+
+Turning a category off is all-or-nothing for that category. If instead one particular alert is pushing too often, change its **Cooldown between alerts** on the rule itself, from 15 minutes up to 1 week, rather than switching the whole category off. See [Alerts and thresholds](/help/mobile-alerts) for the cooldown options and what "snooze" means on Cora Max.

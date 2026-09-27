@@ -1,8 +1,8 @@
 ---
 title: Devices and device health
-description: What Cora Max can see, how it is polling, and the diagnostics screen.
+description: What Cora Max can see, which device polls each tank, and what to check when polling stops.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-27
 order: 7
 group: Equipment
 ---
@@ -19,51 +19,41 @@ Filter chips at the top narrow the list to **All tanks** or one tank. Each entry
 
 Adding and configuring equipment is easier on the phone; see [Adding, editing and removing devices](/help/mobile-devices).
 
+## Primary Cora Max: which tablet talks to your equipment
+
+**Primary Cora Max** is the tablet (or other Cora device) that reads a tank's controller and other equipment for the whole account. Only one device needs to do this per tank; every other screen simply shows what it reads.
+
+Open **Settings → [your tank] → Primary Cora Max** to see or change it. There are two kinds of choice:
+
+- **Any active (automatic)**: every online Cora device that can reach this tank's equipment shares the work, and the most recent write wins. This is the setting to use unless you have a specific reason to pin one device.
+- **Pin one device**: only that device polls. If the pinned device goes offline, nothing polls this tank's equipment until you pin a different one, or switch back to Any active (automatic).
+
+This choice is made once, for the tank, not once per Cora screen. Change it from any Cora Max showing that tank, or from Cora Mobile; see [More than one Cora device](/help/mobile-multi-device).
+
+:::note Primary Cora Max is not the same as Cora Assistant
+Primary Cora Max decides which device **reads your equipment**. A separate setting, **Cora Assistant**, decides which device **answers "Hey Cora"**. A household with more than one Cora Max can set these two independently. See [Talking to Cora](/help/max-voice).
+:::
+
+## If a tank's readings stop
+
+If one tank's readings stop while another tank on the same screen keeps updating, start with:
+
+1. **Settings → [that tank] → Primary Cora Max**: confirm a device is actually assigned, and that it is online.
+2. If a secondary Cora Max for this tank shows the pill **Main Cora offline** in its top bar, the primary has lost its connection; see [The Cora Max home screen](/help/max-tour) for what the status pill means.
+3. **Settings → Cora Max Settings → Network & Updates → Device polling** shows how often this unit itself reads your devices; this value is read-only here and is set from Cora Mobile.
+
+**If it does not work:** see [Troubleshooting](/help/troubleshooting).
+
 ## Managing a Cora Max from your phone
 
-Open the unit from your phone's **Devices** tab to see its variant, firmware version and when it was last seen, and to change its settings without walking to it.
+Open the unit from your phone's **Devices** tab to see its variant, firmware version and when it was last seen, and to rename it or change some of its settings without walking to it.
 
 ![Cora Max settings from the phone](img/max-from-phone.webp "Polling interval, brightness, volume, on-screen alerts and dim timer.")
 
-| Setting | Does |
-|---|---|
-| **Apex Polling** | How often this unit reads the controller |
-| **Brightness** | Screen brightness |
-| **Volume** | Voice replies and the alert chime |
-| **Alerts** | On-screen alert banners. Turning them off does not affect alert history or push notifications |
-| **Dim after** | How long before the screen dims |
+Settings shown this way describe **this screen only** (its brightness, volume, on-screen alert banners and dim timer), the same way they would if you changed them at the wall. Turning off on-screen alerts does not affect alert history or push notifications.
 
-Below those settings, **Assigned Tanks** lists each tank this unit manages, with per-tank controls:
-
-| Control | Does |
-|---|---|
-| **Edit Dashboard** | Opens that tank's Cora Max layout |
-| **Tank Settings** | Journal, health, polling and thresholds |
-| **Polling** | Names the device currently polling that tank |
-| **Make Primary Poller** | Hands that tank's polling to this unit |
-
-The minus button beside a tank removes it from this screen.
-
-## Device health
-
-**Settings → Cora Max → Firmware → Device health & controls** is the diagnostics screen for the unit itself. It reports:
-
-- **Firmware and update state** for this unit
-- **Wake state**: whether this unit is currently the household's voice responder
-- **Per-tank Apex diagnostics**: whether this unit is polling that tank's controller, whether it is the designated primary, and whether its writes are getting through
-
-It also hosts a few controls, so common problems can be fixed at the wall rather than from a laptop:
-
-- Claim or release the voice responder role
-- Re-configure a tank's controller connection
-- Open the outlets and feed controls
-
-## Why polling state matters
-
-When more than one Cora device could read the same controller, one is designated the primary and the others defer. If readings stop for one tank but continue for another, this screen shows whether this unit believes it should be polling at all.
-
-The primary can be chosen here, or from the phone; see [More than one Cora device](/help/mobile-multi-device).
+Which tanks a Cora Max shows, and which one is its Primary Cora Max for each tank, are account-wide choices; change them from either device, as described above.
 
 :::note Device health is read-first
-Most of the screen reports state rather than changing it. Use it to establish what is happening before altering anything.
+The **Status** section of **Settings → Cora Max Settings** on this screen reports polling status, last poll time and last cloud write for each tank, without changing anything. Use it to establish what is happening before altering a setting.
 :::

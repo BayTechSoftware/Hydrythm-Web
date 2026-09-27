@@ -2,12 +2,16 @@
 title: Signing in and account recovery
 description: Sign in, reset a forgotten password, and fix an email address you cannot verify.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 2
 group: Getting started
 ---
 
 Your account is what ties your tanks, readings and devices together, so getting back into it matters more than any single setting.
+
+## Creating an account
+
+When you sign up, you must check **I agree to: Terms and Conditions and Privacy Policy** before Cora will create your account. Both are links you can open and read before agreeing.
 
 ## Ways to sign in
 

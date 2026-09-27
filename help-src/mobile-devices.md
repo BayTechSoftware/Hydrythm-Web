@@ -2,7 +2,7 @@
 title: Adding, editing and removing devices
 description: How to add equipment to Cora, assign it to a tank, rename it, and remove it cleanly.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-27
 order: 9
 group: Equipment
 ---
@@ -24,6 +24,8 @@ Three buttons sit below the list, and they do different jobs:
 ![Adding a Cora Max](img/mobile-add-device.webp "Add Device searches Wi-Fi and Bluetooth for a Cora Max.")
 
 Other equipment (Neptune Apex and Red Sea ReefBeat) is connected from the tank rather than from this list. See [Connecting your equipment](/help/mobile-connections).
+
+Adding equipment such as a heater, pump or skimmer offers a brand and model **autocomplete**: start typing and Cora suggests from a large, source-verified list of equipment brands. If yours is not listed, type it in anyway; Cora keeps whatever you type.
 
 :::note Cora and your phone need the same network
 Equipment discovered locally must be on the same network as your phone when you add it. **After setup it is still only reachable over that network** (or over Bluetooth, for units that use it) unless a Cora device on site can reach it for you.

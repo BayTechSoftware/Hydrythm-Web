@@ -143,8 +143,13 @@
 <li><a href="/help/max-settings">Cora Max settings</a></li>
 <li><a href="/help/max-updates">Updates and recovery</a></li>
 </ul></details>
+<details class="nav-g">
+<summary>Automation</summary><ul>
+<li><a href="/help/max-automation">Scenes on Cora Max</a></li>
+</ul></details>
 <p class="nav-sec">Help</p>
 <ul>
+<li><a href="/help/faq">Frequently asked questions</a></li>
 <li><a href="/help/troubleshooting">Troubleshooting</a></li>
 <li><a href="/help/glossary">Glossary</a></li>
 </ul>
@@ -154,21 +159,25 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerts on Cora Max</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#alert-pills">Alert pills</a></li><li><a href="#the-notification-inbox">The notification inbox</a></li><li><a href="#editing-thresholds">Editing thresholds</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#alert-pills">Alert pills</a></li><li><a href="#when-an-alert-appears-at-the-wall">When an alert appears at the wall</a></li><li><a href="#the-notification-inbox">The notification inbox</a></li><li><a href="#editing-thresholds">Editing thresholds</a></li></ul></nav>
 <h2 id="alert-pills">Alert pills</h2>
 <p>Anything currently out of range appears as a pill in the top bar, with <strong>+n</strong> when there are more than fit. Tap a pill to see the full list.</p>
 <p>The pills are the reason Cora Max works as a wall display: the tank's problems are visible from across the room without touching anything.</p>
+<h2 id="when-an-alert-appears-at-the-wall">When an alert appears at the wall</h2>
+<p>When a reading goes out of range, Cora Max shows the full alert in the middle of the screen, not just as a pill. Three buttons sit under it:</p>
+<ol><li><strong>Respond by voice</strong>: talk to Cora about the alert without typing or tapping anything else. See <a href="/help/max-voice">Talking to Cora</a>.</li><li><strong>Snooze [duration]</strong>: stop the push notifications for this alert for a set time, without turning the alert off. The button's own label shows how long, for example <strong>Snooze 1 h</strong>. This is the same cooldown period set for this alert type in Cora Mobile's alert settings, and it can be as long as <strong>1 week</strong> for something like a low reagent level that will not change for days.</li><li><strong>Dismiss</strong>: close the alert now. It stays quiet until the reading returns to its normal range, then re-arms itself, so a repeat of the same problem raises a new alert rather than staying silent forever.</li></ol>
+<p><strong>If it does not work:</strong> if Snooze or Dismiss shows an error, try again once. If it keeps failing, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Snoozing does not hide the alert</p><p>Snooze and Dismiss only quiet <strong>this Cora Max</strong>. Here, the alert stops popping up, sounding and speaking, and it leaves the list at the top of the screen until the snooze time ends (or, after Dismiss, until the reading is back in its normal range). Your phone still gets its notifications, and any other Cora Max still shows the alert. The alert also stays in <strong>Notification history</strong>, and your alert settings do not change.</p></aside>
 <h2 id="the-notification-inbox">The notification inbox</h2>
-<p><strong>Settings → Notification history</strong> is the <strong>account-wide</strong> inbox: every briefing, alarm and account notice for your whole system, not just what this screen raised. It includes anything your phone missed.</p>
-<p>Alerts can also be snoozed per device, so a unit you are working on stops chiming without silencing the alert everywhere.</p>
+<p><strong>Settings → Cora Max Settings → Notifications → Notification history</strong> is the <strong>account-wide</strong> inbox: every briefing, alarm and account notice for your whole system, not just what this screen raised. It includes anything your phone missed.</p>
 <h2 id="editing-thresholds">Editing thresholds</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Tank settings on Cora Max"><img src="img/max-tank-settings.webp" alt="Tank settings on Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Each tank has its own journal, maintenance, alerts, livestock and briefing.</figcaption></figure>
-<p>Tap the tank name in the top bar and choose <strong>Alerts</strong>, or go to <strong>Settings → Tank settings → [your tank] → Alerts</strong>. Either opens <strong>Alert thresholds</strong>, the same ranges as the phone. A change made here applies everywhere.</p>
+<p>Tap the tank name in the top bar and choose <strong>Alerts</strong>, or go to <strong>Settings → [your tank] → Alert thresholds</strong>. Either opens the same ranges as the phone. A change made here applies everywhere.</p>
 <p>Individual thresholds can also be edited by opening a widget on the dashboard.</p>
 <p>See <a href="/help/mobile-alerts">Alerts and thresholds</a> for how ranges and rules work.</p>
 <aside class="cal cal-note"><p class="cal-t">Alerts are raised once, for the account</p><p>An alert is not raised separately by each device. Cora Max, your phone and any other screen show the same alert, and it clears everywhere at once when the reading returns to range.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-activity"><span>Previous</span><b>Activity on Cora Max</b></a><a class="pn-n" href="/help/max-voice"><span>Next</span><b>Talking to Cora</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.60 and Cora Mobile 0.5.70. Last checked 2026-09-09.</p>
+      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

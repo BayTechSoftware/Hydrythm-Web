@@ -2,7 +2,7 @@
 title: The Cora Max home screen
 description: What everything on the Cora Max display means: the top bar, the dashboard grid, and the outlets drawer.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 2
 group: Getting started
 ---
@@ -40,7 +40,12 @@ Left to right:
 | **Cloud sync failed** | Your Apex answered, but its readings could not be saved to Cora Cloud, so the dashboard falls behind. Cora Max keeps retrying |
 | **Offline** | No connection. The screen shows the last data it received |
 | **Offline, retrying in 45s** | Your network is up, but Cora Cloud has been out of reach for more than 30 seconds. Cora Max reconnects by itself; the countdown is the time to its next try |
+| **Main Cora offline** | This screen is a second Cora Max for this tank, and the **Primary Cora Max** (the one pinned to poll this tank's equipment) has gone offline. This screen keeps showing the last data it has until the primary comes back, or until you choose a different Primary Cora Max. See [More than one Cora device](/help/mobile-multi-device) |
 | **Apex password** | Your Apex rejected the stored password. See [Troubleshooting](/help/troubleshooting) |
+
+:::note How the retry countdown works
+Cora Max tries to reconnect at a fixed pace: about 15 seconds after the first drop, 15 seconds after that, then twice at 30 seconds, then once a minute until it succeeds. It does not retry instantly and it does not give up; a screen showing **Offline, retrying in 45s** is doing exactly what it should.
+:::
 
 :::warning Cora Assistant starts listening immediately
 Tapping the Cora Assistant icon begins a live voice session. If you meant to open settings, that is the gear on the far right.

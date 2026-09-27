@@ -143,8 +143,13 @@
 <li><a href="/help/max-settings">Cora Max settings</a></li>
 <li><a href="/help/max-updates">Updates and recovery</a></li>
 </ul></details>
+<details class="nav-g">
+<summary>Automation</summary><ul>
+<li><a href="/help/max-automation">Scenes on Cora Max</a></li>
+</ul></details>
 <p class="nav-sec">Help</p>
 <ul>
+<li><a href="/help/faq">Frequently asked questions</a></li>
 <li><a href="/help/troubleshooting">Troubleshooting</a></li>
 <li><a href="/help/glossary">Glossary</a></li>
 </ul>
@@ -154,7 +159,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerts and thresholds</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-alert-center">The Alert Center</a></li><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#when-equipment-needs-attention">When equipment needs attention</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#disabling-alerts-for-a-parameter">Disabling alerts for a parameter</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-alert-center">The Alert Center</a></li><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#when-equipment-needs-attention">When equipment needs attention</a></li><li><a href="#red-sea-readings-have-stopped-updating">&quot;Red Sea readings have stopped updating&quot;</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#cooldowns-how-often-the-same-alert-may-notify-you">Cooldowns: how often the same alert may notify you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#disabling-alerts-for-a-parameter">Disabling alerts for a parameter</a></li></ul></nav>
 <p>An alert is raised when a reading leaves the range you set for it. You set the ranges, and you control which alerts reach your phone.</p>
 <p>Open the <strong>Alert Center</strong> from the shortcut row at the bottom of the dashboard.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Alert Center"><img src="img/mobile-alerts.webp" alt="The Alert Center" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Active alerts, each with its severity, what triggered it, and when.</figcaption></figure>
@@ -181,11 +186,20 @@
 <h2 id="when-equipment-needs-attention">When equipment needs attention</h2>
 <p>Some alerts are about equipment rather than a reading. When a device such as a Trident or a Jecod™ pump reports a fault, Cora sends a notification that names the tank and the device, for example <em>"Display tank: Return pump needs attention"</em>, and says what is wrong, such as a jammed rotor. When the fault clears, a second one follows: <em>"Display tank: Return pump is OK again"</em>. Both come under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
 <p>A Maxspect™ gyre (beta) can raise the same alert when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat this as a warning, not a safeguard: the Cora Max checks from time to time rather than continuously, and only while it is running and can reach the gyre.</p>
+<h2 id="red-sea-readings-have-stopped-updating">"Red Sea™ readings have stopped updating"</h2>
+<p>You may see this banner on a tank's parameter page:</p>
+<blockquote><p>Red Sea readings have stopped updating. No device is currently reading this tank's Red Sea devices: check Primary Cora Max in Settings, or open this tank on a device on the same Wi-Fi.</p></blockquote>
+<p>It means no phone or Cora Max is currently polling that tank's ReefBeat equipment, so the readings shown are old, not necessarily wrong. Tap the banner to open <strong>Primary Cora Max</strong> and either pick a device that is on, or set it to <strong>Any active (automatic)</strong>. See <a href="/help/mobile-multi-device">More than one Cora device</a>. If it does not clear, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
 <h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
 <p><strong>Settings → Notifications.</strong> You can control:</p>
 <ul><li>Which of the notification categories may push</li></ul>
 <p>Reef Buddy has no switch of its own: it sends a briefing when there is something worth acting on and stays quiet when there is not.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora is built to stay quiet</p><p>The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.</p></aside>
+<h2 id="cooldowns-how-often-the-same-alert-may-notify-you">Cooldowns: how often the same alert may notify you</h2>
+<p>Each rule has its own <strong>Cooldown between alerts</strong>, set when you add or edit the rule (in the <strong>Rules</strong> tab of the Alert Center). The cooldown does not hide the alert itself: it only limits how often Cora sends you a push about it. The reading stays graded and the alert stays visible on the widget and in the bell the whole time.</p>
+<p>You can choose from: 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 day, 3 days, or <strong>1 week</strong>.</p>
+<p>A short cooldown suits a fast-moving reading like temperature. A long one, up to a week, suits something that stays wrong for days while you wait for a part, such as a Trident out of reagent or an empty dosing container: without a long cooldown, Cora would push about the same known problem several times a day.</p>
+<aside class="cal cal-note"><p class="cal-t">Snoozing an active alert lives on Cora Max</p><p>Cora Mobile does not have a Snooze button of its own on an active alert; that control is on the Cora Max screen at the tank, and it mutes the same alert for the cooldown length you picked here. From the phone, the way to change how often you hear about something is this per-rule cooldown, not a per-alert snooze.</p></aside>
 <h2 id="clearing-an-alert">Clearing an alert</h2>
 <p>An alert clears when the reading comes back into range. There is nothing to dismiss; it is a statement about the tank, not a task.</p>
 <aside class="cal cal-note"><p class="cal-t">Transient readings raise alerts</p><p>A single out-of-range reading is sufficient to raise an alert, so a probe that spikes will trigger one. If a source is unreliable, recalibrate it or point the widget at a different source rather than widening the threshold.</p></aside>
@@ -194,7 +208,7 @@
 <p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn its <strong>enable switch</strong> off. The rule and its range are kept, so you can switch it back on without rebuilding it.</p>
 <aside class="cal cal-warning"><p class="cal-t">Quieten a parameter without deleting its range</p><p>Removing a threshold does not necessarily stop every assessment of that reading; default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-consumables"><span>Previous</span><b>Consumables</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.60 and Cora Mobile 0.5.70. Last checked 2026-09-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

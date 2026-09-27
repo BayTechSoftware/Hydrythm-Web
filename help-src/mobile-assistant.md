@@ -2,7 +2,7 @@
 title: Asking Cora
 description: How to use Cora Assistant: typing, voice, what it can see, and what it can change.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 23
 group: Intelligence
 ---
@@ -35,10 +35,14 @@ Tap **Start voice conversation** for a live back-and-forth. Cora listens, answer
 
 ![Assistant consent](img/mobile-assistant-consent.webp "Two separate permissions, and the memory Cora keeps.")
 
-**Settings → Assistant & AI** holds two independent switches:
+**Settings → Cora Assistant** holds two independent switches:
 
 - **Allow Cora Assistant to use saved tank data**: Cora Assistant needs this on to answer you. If it is off, Cora shows its consent screen again before your next message or voice conversation. The screen lists what Cora Assistant uses and, under **Where your data goes**, which AI provider writes the replies. **Agree & Continue** turns the switch back on and goes ahead; **Not now** sends nothing and keeps what you typed.
 - **Contribute anonymized tank data**: see [Your data](/help/mobile-data-export).
+
+## The language Cora replies in
+
+Cora Assistant follows your **account language**, the one language set for the whole household in **Settings → Language**, not a separate setting of its own. Change it there and Cora Assistant answers, and speaks, in the new language on your next conversation. See [Settings](/help/mobile-settings).
 
 ## What Cora can see
 
@@ -72,7 +76,7 @@ It does not touch your **tank data**: readings, journal, livestock, maintenance 
 
 Cora remembers things about your tank between conversations: that you dose two-part, that your frag tank shares a sump, that you are trying to bring nutrients up. This is what stops you re-explaining your system every time.
 
-**Settings → Assistant & AI → AI memory** shows what Cora has recorded about your tank and lets you reset it.
+**Settings → Cora Assistant → AI memory** shows what Cora has recorded about your tank and lets you reset it.
 
 :::warning Clearing memory does not necessarily remove everything
 The reset clears the memory record you can see. Cora also keeps working context across a conversation and a longer-term profile that the reset may not cover in full. Treat it as "forget what you are showing me", not a guaranteed erase of everything ever inferred.

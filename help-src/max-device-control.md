@@ -2,7 +2,7 @@
 title: Controlling equipment from Cora Max
 description: Device pages on the big screen: probes, outlets, dosing heads, testers and pumps.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 6
 group: Equipment
 ---
@@ -33,6 +33,23 @@ If a Red Sea unit stops itself, its page says what is wrong and puts the fix bes
 A DŌS head has to be measured once before Cora will dose it by hand. **Measure to dose** runs the head for twenty seconds into a measuring container, and you enter how much came out. Cora keeps one measurement per head and uses the newest, whichever Cora Max took it; the head's page shows where and when it was measured.
 
 After a manual dose, a head you had set to Off in Apex Fusion stays Off. Any other head goes back to Auto.
+
+### What a head is used for
+
+Each head can be set to a **use type**, from its settings sheet: **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, or **Other**. The use type changes two things:
+
+- **How big a container it can track.** A Supplement head tracks up to 20 litres; every other use type can track a much larger container, up to 500 litres, so a head running a water change or a calcium reactor is not treated as if it were a small dosing bottle.
+- **Whether it can take a large dose by hand.** Supplement and Food heads keep today's small, careful ceiling. Every other use type can be given its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**.
+
+A water-change pair (new saltwater in, old water out) can be linked as **Paired head**, with a **Balance warning above** amount: if the two heads' totals for the day drift apart by more than that amount, Cora warns you, since a pair that is out of balance usually means one side is not pumping as expected.
+
+### If a large dose is interrupted
+
+A large dose temporarily changes what the head is doing on the Apex, then puts its normal schedule back afterwards. If the connection drops partway through, Cora Max shows a banner on that head's page: *"A large dose on [head] did not finish cleanly. Cora keeps trying to put its program back; check it in Apex Fusion."*
+
+Check the head in Apex Fusion yourself, then tap **I checked the head in Fusion** to clear the banner. Do this only after confirming the head's own schedule, not Cora's dosing program, is what is actually running.
+
+**If it does not work:** if the banner will not clear, or keeps coming back, see [Troubleshooting](/help/troubleshooting).
 
 ## Schedules
 

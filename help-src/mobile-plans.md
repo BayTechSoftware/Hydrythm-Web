@@ -2,7 +2,7 @@
 title: Plans
 description: What each plan includes, where to see your usage, and how to change or cancel.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 31
 group: Account
 ---
@@ -65,7 +65,7 @@ It shows your current plan and when it renews, plus:
 
 ![Usage and limits](img/mobile-usage.webp "Each metered feature against its monthly allowance.")
 
-**Settings → Assistant & AI → Usage & Limits** shows every metered feature against its monthly allowance in one place: Assistant messages, ICP analyses and health reports.
+**Settings → Cora Assistant → Usage & Limits** shows every metered feature against its monthly allowance in one place: Assistant messages, ICP analyses and health reports.
 
 Each metered feature shows its own usage where you use it:
 

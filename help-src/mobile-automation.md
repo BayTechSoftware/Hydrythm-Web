@@ -2,7 +2,7 @@
 title: Automations and scenes
 description: Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 17
 group: Alerts and automation
 ---
@@ -78,6 +78,12 @@ A scene is a named group of actions you can run on demand, from a schedule, or f
 A scene may call another scene. Cora refuses to run a scene nested beyond its depth limit, and refuses a scene that would call itself, to prevent a loop that would continue acting on the tank indefinitely.
 
 After a scene runs you are told what happened, step by step, including anything that failed.
+
+Running a scene by hand asks you to confirm first, since a scene can switch several pieces of equipment at once.
+
+## Scenes made on Cora Max
+
+Scenes can also be built and edited directly on a Cora Max tablet, not only on the phone: it is the same set of scenes either way, shared across the account. If a household has an older Cora Max, it can still run a scene made on the phone; only the on-device editing is a newer capability, so an older tablet may show a scene without letting you change it there. Edit it from the phone instead.
 
 ## Turning a rule off
 

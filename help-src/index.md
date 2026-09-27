@@ -2,7 +2,7 @@
 title: Cora Help
 description: How to set up and run Cora Max and Cora Mobile: onboarding, dashboards, devices, alerts, Reef Buddy, ICP and health reports.
 section: -
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 0
 ---
 
@@ -13,6 +13,7 @@ Everything you need to run your reef with Cora. Pick where you are:
 <li><a href="/help/max-setup"><b>New to Cora Max</b><span>First run, pairing, and getting your tanks onto the big screen.</span></a></li>
 <li><a href="/help/mobile-dashboard-editing"><b>Build your dashboard</b><span>Choose a layout, add widgets, and arrange them the way you think.</span></a></li>
 <li><a href="/help/troubleshooting"><b>Resolve an issue</b><span>Readings stopped, a device went quiet, or an alert is not clearing.</span></a></li>
+<li><a href="/help/faq"><b>Frequently asked questions</b><span>Quick answers about setup, Cora Max, devices, alerts, plans and privacy.</span></a></li>
 </ul>
 
 ## The two halves of Cora
@@ -39,6 +40,8 @@ Every reading carries where it came from and how old it is. When two sources dis
 
 - **[The five tabs](/help/mobile-tour)**: a tour of Cora Mobile in two minutes
 - **[The Cora Max home screen](/help/max-tour)**: what everything on the big screen means
+- **[Frequently asked questions](/help/faq)**: quick answers, grouped by topic
+- **[Troubleshooting](/help/troubleshooting)**: something looks wrong, start here
 - **[Glossary](/help/glossary)**: tank, source, widget, saved design, threshold, and the rest
 
 ## Keeping the tank

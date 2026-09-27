@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's own page to see its live state and drive it: outlets, pumps, dosing heads and testers.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 11
 group: Equipment
 ---
@@ -67,6 +67,14 @@ Cora will not dose a head by hand until it has been measured. **Measure to dose*
 :::warning A DŌS keeps dosing when its container is empty
 The unit has no level sensor and does not stop on its own. Set a refill alert from the head's page so Cora warns you before the container runs dry.
 :::
+
+### What each head is used for
+
+Each head is set to a **use type**, so Cora knows what it does and can talk about it correctly: **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food**, **Top-off**, or **Other**. Set this under **Used for** on the head's settings.
+
+The two water-change use types are meant to be **paired**: set one head's **Paired head** to the other one that moves water the opposite way, and Cora treats them as one water-change pair rather than two unrelated heads.
+
+Each head also has a **Largest dose by hand** ceiling, to stop a mistyped manual dose from being far larger than intended. Large hand-doses only become available once the head's rate has been measured against a real test at the tank.
 
 ## Red Sea ReefBeat
 

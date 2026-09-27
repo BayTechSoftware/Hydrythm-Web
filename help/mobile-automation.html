@@ -143,8 +143,13 @@
 <li><a href="/help/max-settings">Cora Max settings</a></li>
 <li><a href="/help/max-updates">Updates and recovery</a></li>
 </ul></details>
+<details class="nav-g">
+<summary>Automation</summary><ul>
+<li><a href="/help/max-automation">Scenes on Cora Max</a></li>
+</ul></details>
 <p class="nav-sec">Help</p>
 <ul>
+<li><a href="/help/faq">Frequently asked questions</a></li>
 <li><a href="/help/troubleshooting">Troubleshooting</a></li>
 <li><a href="/help/glossary">Glossary</a></li>
 </ul>
@@ -154,7 +159,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Automations and scenes</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-shape-of-a-rule">The shape of a rule</a></li><li><a href="#what-can-wake-a-rule">What can wake a rule</a></li><li><a href="#conditions">Conditions</a></li><li><a href="#what-a-rule-can-do">What a rule can do</a></li><li><a href="#scenes">Scenes</a></li><li><a href="#turning-a-rule-off">Turning a rule off</a></li><li><a href="#seeing-what-a-rule-did">Seeing what a rule did</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-shape-of-a-rule">The shape of a rule</a></li><li><a href="#what-can-wake-a-rule">What can wake a rule</a></li><li><a href="#conditions">Conditions</a></li><li><a href="#what-a-rule-can-do">What a rule can do</a></li><li><a href="#scenes">Scenes</a></li><li><a href="#scenes-made-on-cora-max">Scenes made on Cora Max</a></li><li><a href="#turning-a-rule-off">Turning a rule off</a></li><li><a href="#seeing-what-a-rule-did">Seeing what a rule did</a></li></ul></nav>
 <p>An automation is a rule Cora runs for you: <em>when this happens, check that, then do this.</em> Scenes group several actions into one thing you can run or schedule.</p>
 <p><strong>Settings → Automation.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The automation list"><img src="img/mobile-automation.webp" alt="The automation list" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Automations and Scenes are separate tabs. Each rule has an enable switch.</figcaption></figure>
@@ -178,12 +183,15 @@
 <p>A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule: "Water change", "Photo mode", "Night".</p>
 <p>A scene may call another scene. Cora refuses to run a scene nested beyond its depth limit, and refuses a scene that would call itself, to prevent a loop that would continue acting on the tank indefinitely.</p>
 <p>After a scene runs you are told what happened, step by step, including anything that failed.</p>
+<p>Running a scene by hand asks you to confirm first, since a scene can switch several pieces of equipment at once.</p>
+<h2 id="scenes-made-on-cora-max">Scenes made on Cora Max</h2>
+<p>Scenes can also be built and edited directly on a Cora Max tablet, not only on the phone: it is the same set of scenes either way, shared across the account. If a household has an older Cora Max, it can still run a scene made on the phone; only the on-device editing is a newer capability, so an older tablet may show a scene without letting you change it there. Edit it from the phone instead.</p>
 <h2 id="turning-a-rule-off">Turning a rule off</h2>
 <p>Every rule has an enable switch. Turning one off keeps its definition, useful when you want a rule back next season rather than rebuilding it.</p>
 <h2 id="seeing-what-a-rule-did">Seeing what a rule did</h2>
 <p>Every action a rule takes is recorded with the rule as its cause. See <strong><a href="/help/mobile-activity">Activity</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-notifications"><span>Previous</span><b>Notifications</b></a><a class="pn-n" href="/help/mobile-dosing"><span>Next</span><b>Dosing</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.60 and Cora Mobile 0.5.70. Last checked 2026-09-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>

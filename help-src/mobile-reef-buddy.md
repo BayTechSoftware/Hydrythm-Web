@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Your daily briefing: what it covers, when it arrives, and how to read the score.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 24
 group: Intelligence
 ---
@@ -42,6 +42,10 @@ On a day when nothing needs your attention, Reef Buddy usually stays quiet rathe
 
 :::note One tank, one briefing
 Each tank gets its own briefing. If you run three systems you get three, and each is about that system alone.
+:::
+
+:::note Cora Max has its own Reef Buddy setting
+A Cora Max tablet has its own **Reef Buddy** section in its Settings, with a switch and a time for when its on-screen briefing appears. That is separate from the phone: turning a briefing on or off on Cora Max does not change whether it reaches your phone, and the other way round.
 :::
 
 ## Reading the scores

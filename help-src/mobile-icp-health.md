@@ -2,7 +2,7 @@
 title: ICP and health reports
 description: Upload an ICP test, track every element over time, and run a full health assessment of your system.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 26
 group: Intelligence
 ---
@@ -16,6 +16,20 @@ The **Intelligence** tab is your lab work and your long view.
 Tap **Upload ICP**, pick your tank, and add the result from your lab. Cora reads the report, records every element, and lines it up against your previous tests.
 
 You do not have to type anything in. Cora handles the common lab formats.
+
+## Send to Cora: results a lab or an email delivers for you
+
+Some labs can send a result to Cora directly, and an emailed ICP result can be routed in the same way, without you uploading anything yourself.
+
+When one arrives, a banner appears: *"Lab result from {lab} is waiting."* Tap **Choose tank** and pick which of your tanks it belongs to; Cora cannot guess this on its own. Once you choose, Cora adds it to that tank the same way as an uploaded report.
+
+The report itself shows **Sent by {lab}** near its header, so you can tell it apart from one you uploaded yourself.
+
+:::note The first time
+The first time a result arrives this way, Cora shows a short hint explaining what is happening, so it does not look like an error.
+:::
+
+If it does not work: see [Troubleshooting](/help/troubleshooting).
 
 ![An ICP report](img/mobile-icp-report.webp "Each report carries a score and a summary written for your tank.")
 

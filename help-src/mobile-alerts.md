@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you get told about, and understand why an alert fired.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-27
 order: 15
 group: Alerts and automation
 ---
@@ -68,6 +68,14 @@ Some alerts are about equipment rather than a reading. When a device such as a T
 
 A Maxspect gyre (beta) can raise the same alert when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat this as a warning, not a safeguard: the Cora Max checks from time to time rather than continuously, and only while it is running and can reach the gyre.
 
+## "Red Sea readings have stopped updating"
+
+You may see this banner on a tank's parameter page:
+
+> Red Sea readings have stopped updating. No device is currently reading this tank's Red Sea devices: check Primary Cora Max in Settings, or open this tank on a device on the same Wi-Fi.
+
+It means no phone or Cora Max is currently polling that tank's ReefBeat equipment, so the readings shown are old, not necessarily wrong. Tap the banner to open **Primary Cora Max** and either pick a device that is on, or set it to **Any active (automatic)**. See [More than one Cora device](/help/mobile-multi-device). If it does not clear, see [Troubleshooting](/help/troubleshooting).
+
 ## Choosing what reaches you
 
 **Settings → Notifications.** You can control:
@@ -78,6 +86,18 @@ Reef Buddy has no switch of its own: it sends a briefing when there is something
 
 :::note Cora is built to stay quiet
 The daily briefing is one push per tank per day, and on a day when nothing needs your attention it usually stays silent rather than telling you everything is fine. If Cora is pushing, something changed.
+:::
+
+## Cooldowns: how often the same alert may notify you
+
+Each rule has its own **Cooldown between alerts**, set when you add or edit the rule (in the **Rules** tab of the Alert Center). The cooldown does not hide the alert itself: it only limits how often Cora sends you a push about it. The reading stays graded and the alert stays visible on the widget and in the bell the whole time.
+
+You can choose from: 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 day, 3 days, or **1 week**.
+
+A short cooldown suits a fast-moving reading like temperature. A long one, up to a week, suits something that stays wrong for days while you wait for a part, such as a Trident out of reagent or an empty dosing container: without a long cooldown, Cora would push about the same known problem several times a day.
+
+:::note Snoozing an active alert lives on Cora Max
+Cora Mobile does not have a Snooze button of its own on an active alert; that control is on the Cora Max screen at the tank, and it mutes the same alert for the cooldown length you picked here. From the phone, the way to change how often you hear about something is this per-rule cooldown, not a per-alert snooze.
 :::
 
 ## Clearing an alert

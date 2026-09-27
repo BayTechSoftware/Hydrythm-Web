@@ -2,7 +2,7 @@
 title: Dosing
 description: Tell Cora what you dose so it can turn millilitres into an actual change in your tank.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-27
 order: 18
 group: Records
 ---
@@ -28,6 +28,8 @@ If your product is not in the library, add it as a custom one and enter its stre
 :::warning Enter the manufacturer's stated strength
 An incorrect strength makes every dose calculation for that product wrong by the same proportion. If the figure is not available, leave the product out rather than estimating.
 :::
+
+Your tank's **salt mix** is a separate thing from a dosing product: it is set on the tank's profile, not here, and Cora keeps a sourced catalog of common reef salts with their published figures to choose from. See **[Tank profile](/help/mobile-tank-profile)**.
 
 ## The dose calculator
 

@@ -143,8 +143,13 @@
 <li><a href="/help/max-settings">Cora Max settings</a></li>
 <li><a href="/help/max-updates">Updates and recovery</a></li>
 </ul></details>
+<details class="nav-g">
+<summary>Automation</summary><ul>
+<li><a href="/help/max-automation">Scenes on Cora Max</a></li>
+</ul></details>
 <p class="nav-sec">Help</p>
 <ul>
+<li><a href="/help/faq">Frequently asked questions</a></li>
 <li><a href="/help/troubleshooting">Troubleshooting</a></li>
 <li><a href="/help/glossary">Glossary</a></li>
 </ul>
@@ -177,6 +182,10 @@
 <aside class="cal cal-note"><p class="cal-t">Schedules are edited in Apex Fusion, not here</p><p>Cora shows the schedule and tracks what has been dosed, but does not change it. Editing the schedule, the dose rate or the number of doses is done in the Apex Fusion app. Pausing, filling and dosing by hand are all supported here.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Measure a head before dosing it by hand</p><p>Cora will not dose a head by hand until it has been measured. <strong>Measure to dose</strong> and <strong>Re-measure</strong> are on the Cora Max that doses for the tank: Cora runs the head for twenty seconds, you measure what came out, and Cora works out the head's real rate. One measurement serves every Cora Max and Cora Mobile, so measure each head once, and again after changing its tubing.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">A DŌS keeps dosing when its container is empty</p><p>The unit has no level sensor and does not stop on its own. Set a refill alert from the head's page so Cora warns you before the container runs dry.</p></aside>
+<h3 id="what-each-head-is-used-for">What each head is used for</h3>
+<p>Each head is set to a <strong>use type</strong>, so Cora knows what it does and can talk about it correctly: <strong>Supplement</strong>, <strong>Water change: new saltwater in</strong>, <strong>Water change: old water out</strong>, <strong>Kalkwasser</strong>, <strong>Calcium reactor</strong>, <strong>Food</strong>, <strong>Top-off</strong>, or <strong>Other</strong>. Set this under <strong>Used for</strong> on the head's settings.</p>
+<p>The two water-change use types are meant to be <strong>paired</strong>: set one head's <strong>Paired head</strong> to the other one that moves water the opposite way, and Cora treats them as one water-change pair rather than two unrelated heads.</p>
+<p>Each head also has a <strong>Largest dose by hand</strong> ceiling, to stop a mistyped manual dose from being far larger than intended. Large hand-doses only become available once the head's rate has been measured against a real test at the tank.</p>
 <h2 id="red-sea-reefbeat">Red Sea™ ReefBeat</h2>
 <p>Each unit has a page appropriate to what it is:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Unit</th><th>Page shows</th><th>You can</th></tr></thead><tbody><tr><td data-th="Unit"><strong>ReefDose</strong></td><td data-th="Page shows">Each head, its container and what it has dosed</td><td data-th="You can">For each head: <strong>Dose per day</strong>, <strong>Remaining in bottle</strong>, <strong>Dose now</strong> and <strong>Activate schedule</strong>. Set refill alerts per head</td></tr><tr><td data-th="Unit"><strong>ReefATO+</strong></td><td data-th="Page shows">Reservoir level and top-off activity</td><td data-th="You can">Set a reservoir alert</td></tr><tr><td data-th="Unit"><strong>ReefMat</strong></td><td data-th="Page shows">Remaining roll, in days and metres</td><td data-th="You can">Advance the roll, set a refill alert</td></tr><tr><td data-th="Unit"><strong>ReefRun</strong></td><td data-th="Page shows">Return and skimmer pump speed and state</td><td data-th="You can">Change speed, switch a pump, adjust skimmer settings</td></tr></tbody></table></div>
@@ -196,7 +205,7 @@
 <h2 id="what-happens-after-you-change-something">What happens after you change something</h2>
 <p>Every change is recorded in <a href="/help/mobile-activity">Activity</a> with the surface that requested it. If a device does not accept a change, the failure is recorded there too.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-connections"><span>Previous</span><b>Connecting your equipment</b></a><a class="pn-n" href="/help/mobile-schedules"><span>Next</span><b>Scheduling equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.60 and Cora Mobile 0.5.70. Last checked 2026-09-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
     </article>
   </main>
