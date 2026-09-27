@@ -7,6 +7,14 @@
   <meta name="description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-connections">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-connections">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-connections">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-connections">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-connections">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-connections">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-connections">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-connections">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-connections">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Connecting your equipment | Cora Help">
   <meta property="og:description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-connections" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-connections">Deutsch</a></li><li><a href="/fr/help/mobile-connections">Français</a></li><li><a href="/tr/help/mobile-connections">Türkçe</a></li><li><a href="/it/help/mobile-connections">Italiano</a></li><li><a href="/es/help/mobile-connections">Español</a></li><li><a href="/pl/help/mobile-connections">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -174,7 +183,7 @@
 <p><strong>What you get:</strong> a device page per unit, plus each unit's readings as sources. ReefDose reports its heads and containers; ReefATO+ reports its reservoir and fills; ReefMat reports remaining days; ReefRun reports pump state.</p>
 <h2 id="jecod-jebao">Jecod / Jebao</h2>
 <p>Cora connects to Jecod pumps, and can read and control them. Jecod units reach Cora in one of two ways, and which one yours uses decides what is possible.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Finding a pump"><img src="img/mobile-connections.webp" alt="Finding a pump" width="620" height="921" loading="lazy" decoding="async"></button><figcaption>The scan explains what it needs and why a pump may not appear on the first sweep.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Finding a pump"><img src="/help/img/mobile-connections.webp" alt="Finding a pump" width="620" height="921" loading="lazy" decoding="async"></button><figcaption>The scan explains what it needs and why a pump may not appear on the first sweep.</figcaption></figure>
 <p><strong>Over your network.</strong> Use <strong>Find a pump on your network</strong>; it finds units that advertise themselves, so no address needs entering. A network pump can be read and driven whenever it is powered <strong>and reachable</strong>: either your phone is on the same network, or a Cora Max on that network relays for you. Away from home with no Cora Max on site, a network-only pump is visible but not controllable.</p>
 <aside class="cal cal-note"><p class="cal-t">A pump often misses the first sweep</p><p>Pumps answer one scan and miss the next. If yours is not listed, scan again rather than assuming it is unreachable.</p></aside>
 <p>If a search finds nothing, the result shows the addresses it looked at over Wi-Fi. If your pump has a different address in the Jebao app, your phone is on another network. A guest or IoT network, or a 5 GHz-only band, will not see these pumps. On iPhone, Cora also needs Local Network access to see pumps on your Wi-Fi. If it is off, the list stays empty and no error appears, so the result explains this and offers <strong>Open Settings</strong> to turn it back on. <strong>Settings → Device access</strong> opens the same place at any time; see <a href="/help/mobile-settings">Settings</a>.</p>
@@ -199,8 +208,8 @@
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you which kind of problem it is. See the table in <strong><a href="/help/mobile-devices">Adding, editing and removing devices</a></strong>, and <strong><a href="/help/troubleshooting">Troubleshooting</a></strong> for anything it does not cover.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-devices"><span>Previous</span><b>Adding, editing and removing devices</b></a><a class="pn-n" href="/help/mobile-device-control"><span>Next</span><b>Controlling your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-17.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-17.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -284,6 +293,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -371,7 +391,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -395,7 +415,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -413,8 +433,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

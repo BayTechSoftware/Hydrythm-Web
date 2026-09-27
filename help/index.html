@@ -7,6 +7,14 @@
   <meta name="description" content="How to set up and run Cora Max and Cora Mobile: onboarding, dashboards, devices, alerts, Reef Buddy, ICP and health reports.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Cora Help">
   <meta property="og:description" content="How to set up and run Cora Max and Cora Mobile: onboarding, dashboards, devices, alerts, Reef Buddy, ICP and health reports.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/" aria-current="true" class="cur">English</a></li><li><a href="/de/help/">Deutsch</a></li><li><a href="/fr/help/">Français</a></li><li><a href="/tr/help/">Türkçe</a></li><li><a href="/it/help/">Italiano</a></li><li><a href="/es/help/">Español</a></li><li><a href="/pl/help/">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -187,8 +196,8 @@
 <h2 id="on-the-big-screen">On the big screen</h2>
 <ul><li><strong><a href="/help/max-reef-room">The Reef Room</a></strong>: every tank at once</li><li><strong><a href="/help/max-devices">Devices and device health</a></strong>: what Cora Max sees, and its own diagnostics</li><li><strong><a href="/help/max-intelligence">Reef Buddy and reports</a></strong>: the briefing and your lab work at the wall</li><li><strong><a href="/help/max-device-control">Controlling equipment from Cora Max</a></strong>: device pages at the wall</li><li><strong><a href="/help/max-activity">Activity on Cora Max</a></strong>: what was carried out, refused, or never confirmed</li><li><strong><a href="/help/max-updates">Updates and recovery</a></strong>: how the screen keeps itself current</li></ul>
       
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -272,6 +281,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -359,7 +379,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -383,7 +403,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -401,8 +421,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorun giderme | Cora Help</title>
+  <meta name="description" content="Okumalar durdu, bir cihaz çevrimdışı oldu, uyarılar kapanmıyor, veya bir şey yanlış görünüyor. Buradan başlayın.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/tr/help/troubleshooting">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/troubleshooting">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/troubleshooting">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/troubleshooting">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/troubleshooting">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/troubleshooting">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/troubleshooting">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/troubleshooting">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Sorun giderme | Cora Help">
+  <meta property="og:description" content="Okumalar durdu, bir cihaz çevrimdışı oldu, uyarılar kapanmıyor, veya bir şey yanlış görünüyor. Buradan başlayın.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/tr/help/troubleshooting">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/tr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Kılavuzda ara">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Ara</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Dil"><span>Türkçe</span></summary><ul><li><a href="/help/troubleshooting">English</a></li><li><a href="/de/help/troubleshooting">Deutsch</a></li><li><a href="/fr/help/troubleshooting">Français</a></li><li><a href="/tr/help/troubleshooting" aria-current="true" class="cur">Türkçe</a></li><li><a href="/it/help/troubleshooting">Italiano</a></li><li><a href="/es/help/troubleshooting">Español</a></li><li><a href="/pl/help/troubleshooting">Polski</a></li></ul></details>
+    <a class="hback" href="/tr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Menüyü kapat">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/tr/help/">Cora Yardım</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
+<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
+<li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets">Widget referansı</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
+<li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
+<li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-probes">Problar</a></li>
+<li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar ve otomasyon</summary><ul>
+<li><a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a></li>
+<li><a href="/tr/help/mobile-notifications">Bildirimler</a></li>
+<li><a href="/tr/help/mobile-automation">Otomasyonlar ve sahneler</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/mobile-dosing">Dozaj</a></li>
+<li><a href="/tr/help/mobile-maintenance">Bakım</a></li>
+<li><a href="/tr/help/mobile-livestock">Canlılar</a></li>
+<li><a href="/tr/help/mobile-journal">Günlük</a></li>
+<li><a href="/tr/help/mobile-activity">Etkinlik ve zaman çizelgesi</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
+<li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Hesap</summary><ul>
+<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
+<li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
+<li><a href="/tr/help/mobile-plans">Planlar</a></li>
+<li><a href="/tr/help/mobile-settings">Ayarlar</a></li>
+<li><a href="/tr/help/mobile-support">Yardım alma</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/max-setup">Cora Max&#x27;i kurma</a></li>
+<li><a href="/tr/help/max-tour">Cora Max ana ekranı</a></li>
+<li><a href="/tr/help/max-reef-room">Reef Room</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/max-dashboard-editing">Cora Max panosunu düzenleme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/max-controls">Prizler ve kontroller</a></li>
+<li><a href="/tr/help/max-device-control">Cora Max&#x27;ten ekipman kontrolü</a></li>
+<li><a href="/tr/help/max-devices">Cihazlar ve cihaz sağlığı</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/max-records">Günlük, canlılar ve bakım</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/max-intelligence">Reef Buddy ve raporlar</a></li>
+<li><a href="/tr/help/max-voice">Cora ile konuşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar</summary><ul>
+<li><a href="/tr/help/max-activity">Cora Max&#x27;te etkinlik</a></li>
+<li><a href="/tr/help/max-alerts">Cora Max&#x27;te uyarılar</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ayarlar</summary><ul>
+<li><a href="/tr/help/max-settings">Cora Max ayarları</a></li>
+<li><a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Otomasyon</summary><ul>
+<li><a href="/tr/help/max-automation">Cora Max&#x27;te sahneler</a></li>
+</ul></details>
+<p class="nav-sec">Yardım</p>
+<ul>
+<li><a href="/tr/help/faq">Sıkça sorulan sorular</a></li>
+<li><a href="/tr/help/troubleshooting" class="cur" aria-current="page">Sorun giderme</a></li>
+<li><a href="/tr/help/glossary">Sözlük</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Sorun giderme</h1>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#bir-widget-deer-gstermiyor">Bir widget değer göstermiyor</a></li><li><a href="#bir-okuma-eski">Bir okuma eski</a></li><li><a href="#bir-cihaza-ulalamyor">Bir cihaza ulaşılamıyor</a></li><li><a href="#bir-cihaz-oturum-amann-reddedildiini-sylyor">Bir cihaz oturum açmanın reddedildiğini söylüyor</a></li><li><a href="#bir-cora-maxi-eletirme-baarsz-oluyor">Bir Cora Max&#x27;i eşleştirme başarısız oluyor</a></li><li><a href="#cora-max-eski-veri-gsteriyor">Cora Max eski veri gösteriyor</a></li><li><a href="#bir-uyar-kapanmyor">Bir uyarı kapanmıyor</a></li><li><a href="#iki-kaynak-anlamyor">İki kaynak anlaşmıyor</a></li><li><a href="#bildirim-almyorum">Bildirim almıyorum</a></li><li><a href="#bir-eyin-neden-deitiini-belirleme">Bir şeyin neden değiştiğini belirleme</a></li><li><a href="#panom-dzenledikten-sonra-yanl-grnyor">Panom düzenledikten sonra yanlış görünüyor</a></li><li><a href="#red-sea-okumalar-gncellenmeyi-durdurdu">&quot;Red Sea okumaları güncellenmeyi durdurdu&quot;</a></li><li><a href="#bu-pompaya-ulalamad-hibir-ey-gnderilmedi">&quot;Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi&quot;</a></li><li><a href="#bu-pompaya-bluetooth-zerinden-ulalamad-yanna-gidip-yeniden-d">&quot;Bu pompaya Bluetooth üzerinden ulaşılamadı. Yanına gidip yeniden deneyin.&quot;</a></li><li><a href="#o-gyreye-ulalamad-hibir-besleme-balatlmad">&quot;O gyre&#x27;ye ulaşılamadı. Hiçbir besleme başlatılmadı.&quot;</a></li><li><a href="#o-gyreye-ulalamad-program-deitirilmedi">&quot;O gyre&#x27;ye ulaşılamadı. Programı değiştirilmedi.&quot;</a></li><li><a href="#apexe-ulalamad-hibir-ey-deimedi-hibir-ey-dozajlanmad">&quot;Apex&#x27;e ulaşılamadı: hiçbir şey değişmedi&quot; / &quot;hiçbir şey dozajlanmadı&quot;</a></li><li><a href="#bu-gnderilemedi-bu-akvaryumda-hibir-cihaz-bunu-gnderemez">&quot;Bu gönderilemedi: bu akvaryumda hiçbir cihaz bunu gönderemez&quot;</a></li><li><a href="#ikincil-bir-cora-max-ana-cora-evrimd-gsteriyor">İkincil bir Cora Max &quot;Ana Cora çevrimdışı&quot; gösteriyor</a></li><li><a href="#cihaz-evrimd-bilinen-son-durum-gsteriliyor">&quot;Cihaz çevrimdışı. Bilinen son durum gösteriliyor.&quot;</a></li><li><a href="#baz-reefbeat-ayarlar-griye-dnm-veya-eksik">Bazı ReefBeat ayarları griye dönmüş veya eksik</a></li><li><a href="#coraya-ulalamad-wi-finizi-veya-mobil-verinizi-kontrol-edin-a">&quot;Cora&#x27;ya ulaşılamadı. Wi-Fi&#x27;nizi veya mobil verinizi kontrol edin, ardından yeniden deneyin.&quot;</a></li><li><a href="#her-ey-aniden-yanl-dilde">Her şey aniden yanlış dilde</a></li><li><a href="#deitirdikten-sonra-eski-bir-uyar-veya-rapor-hl-farkl-bir-dil">Değiştirdikten sonra eski bir uyarı veya rapor hâlâ farklı bir dilde</a></li><li><a href="#onayladktan-sonra-bile-bir-uyar-bildirmeyi-durdurmuyor">Onayladıktan sonra bile bir uyarı bildirmeyi durdurmuyor</a></li><li><a href="#bir-dozaj-yar-yolda-durdu-ve-bir-geri-getirme-uyars-belirdi">Bir dozaj yarı yolda durdu ve bir &quot;geri getirme&quot; uyarısı belirdi</a></li><li><a href="#telefonda-yaplan-bir-sahne-cora-maxte-dzenlenebilir-grnmyor">Telefonda yapılan bir sahne Cora Max&#x27;te düzenlenebilir görünmüyor</a></li><li><a href="#cora-assistant-yanl-akvaryum-hakknda-yant-veriyor">Cora Assistant yanlış akvaryum hakkında yanıt veriyor</a></li><li><a href="#cora-assistant-yant-vermeyi-reddediyor-veya-onay-ekrann-yeni">Cora Assistant yanıt vermeyi reddediyor, veya onay ekranını yeniden gösteriyor</a></li><li><a href="#bir-lab-veya-e-postayla-gelen-icp-sonucu-hi-grnmedi">Bir lab veya e-postayla gelen ICP sonucu hiç görünmedi</a></li><li><a href="#e-postayla-gelen-bir-icp-bildirimi-hibir-lab-adlandrmyor">E-postayla gelen bir ICP bildirimi hiçbir lab adlandırmıyor</a></li><li><a href="#bir-widget-yanl-birimleri-gsteriyor">Bir widget yanlış birimleri gösteriyor</a></li><li><a href="#grnt-birimlerini-deitirdikten-sonra-bir-gsterge-veya-eik-far">Görüntü birimlerini değiştirdikten sonra bir gösterge veya eşik farklı görünüyor</a></li><li><a href="#cora-max-bir-wi-fi-kesintisinden-sonra-hemen-yeniden-balanmy">Cora Max bir Wi-Fi kesintisinden sonra hemen yeniden bağlanmıyor</a></li><li><a href="#bir-cora-maxi-telefonda-yeniden-adlandrmak-tabletin-gsterdii">Bir Cora Max&#x27;i telefonda yeniden adlandırmak tabletin gösterdiğini değiştirmiyor</a></li><li><a href="#cora-maxte-uyandrma-szcn-nerede-kapatacam-bulamyorum">Cora Max&#x27;te uyandırma sözcüğünü nerede kapatacağımı bulamıyorum</a></li><li><a href="#ocuk-kilidi-kimseyi-ayarlara-brakmyor">Çocuk kilidi kimseyi Ayarlar&#x27;a bırakmıyor</a></li><li><a href="#hl-takl-kaldysanz">Hâlâ takılı kaldıysanız</a></li></ul></nav>
+<p>Belirtiden başlayın.</p>
+<h2 id="bir-widget-deer-gstermiyor">Bir widget değer göstermiyor</h2>
+<p>Bu listeyi sırayla kontrol edin:</p>
+<ol><li><strong>Yakındaki widget'larda yaşı kontrol edin.</strong> Her şey eskiyse, sorun bağlantıdır, parametre değil.</li><li><strong>Cihazlar sekmesini açın.</strong> Ulaşılamayan bir cihaz bunu kendi satırında söyler.</li><li><strong>Akvaryum atamasını kontrol edin.</strong> Yanlış akvaryuma bildiren bir cihaz, hiç bildirmeyen bir cihazla tıpatıp aynı görünür. Cihazı açın ve akvaryumunu doğrulayın.</li><li><strong>Kaynağın var olduğunu kontrol edin.</strong> Onu ölçen bir ekipmanınız olmadıkça veya elle kaydetmedikçe hiçbir şey fosfat bildirmez.</li></ol>
+<h2 id="bir-okuma-eski">Bir okuma eski</h2>
+<p>Yaş rozeti size gerçeği söylüyor: yeni bir şey gelmedi.</p>
+<ul><li><strong>Elle kaydedilen parametreler</strong>, hiçbir okuma girilmediğinde eskir. Bir tane kaydedin.</li><li><strong>Ekipman okumalarının</strong> eskimesi, cihazın bildirmeyi durdurduğu anlamına gelir; <strong>Cihazlar</strong>'da satırını kontrol edin.</li><li><strong>Bazı ekipman yavaş olmak üzere tasarlanmıştır.</strong> Saatlik ölçüm yapan bir titratör normal olarak <code>1s</code> okur. Bu bir arıza değildir.</li></ul>
+<h2 id="bir-cihaza-ulalamyor">Bir cihaza ulaşılamıyor</h2>
+<p>Genellikle ağdır.</p>
+<ol><li>Ekipman açık ve kendi uygulamasında çalışıyor mu?</li><li>Eklendiği ağda mı?</li><li>Yönlendiriciniz değişti mi (yeni donanım, yeni ağ adı, misafir ağ izolasyonu)?</li></ol>
+<p>Yerel ağınız üzerinden bağlanan ekipmanın o ağda erişilebilir olması gerekir. Bir üretici hesabı üzerinden bağlanan ekipmanın buna gereksinimi yoktur, ama o hesabın hâlâ geçerli olması gerekir.</p>
+<h2 id="bir-cihaz-oturum-amann-reddedildiini-sylyor">Bir cihaz oturum açmanın reddedildiğini söylüyor</h2>
+<p>Üretici kayıtlı oturum açmayı reddetti. Bu neredeyse her zaman parolanızı onların tarafında değiştirdiğiniz içindir.</p>
+<p>Cihaz satırını açın ve yeniden oturum açın.</p>
+<h2 id="bir-cora-maxi-eletirme-baarsz-oluyor">Bir Cora Max'i eşleştirme başarısız oluyor</h2>
+<p>Bir Cora Max ekleme ortasında dururuyorsa, Cora Mobile hangi adımın ve neden başarısız olduğunu, altında <strong>İptal</strong> ve <strong>Tekrar dene</strong> ile söyler.</p>
+<ul><li><em>"Telefonunuz Wi-Fi'nizdeki Cora Max'e ulaşamadı."</em> Telefonunuzu ve Cora Max'i aynı Wi-Fi ağına koyun. iPhone'da, Cora'nın Yerel Ağ erişimi olduğunu da kontrol edin: <strong>Ayarlar → Cihaz erişimi</strong> sizi oraya götürür (bkz. <a href="/tr/help/mobile-settings">Ayarlar</a>). Ardından <strong>Tekrar dene</strong>'ye dokunun.</li><li><em>"Cora Max bu eşleştirme oturumunu kabul etmedi."</em> Yeniden denemek yardımcı olmayacaktır. Ekranı kapatın ve <strong>Cihazlar → Cihaz Ekle</strong>'den yeniden başlayın.</li></ul>
+<p>Başka herhangi bir mesaj için, <strong>Tekrar dene</strong>'ye dokunun.</p>
+<h2 id="cora-max-eski-veri-gsteriyor">Cora Max eski veri gösteriyor</h2>
+<p>Üst çubuktaki durum hapını kontrol edin. <strong>Çevrimiçi</strong> ve <strong>Bulut</strong> ikisi de sağlıklıdır: birden fazla Cora'yla, toplamayı yapmayan ekran <strong>Bulut</strong> gösterir ve okumaları tam olarak aynı derecede günceldir. <strong>Eski</strong> veya <strong>Çevrimdışı</strong>, ekranın kaynağını kaybettiği ve aldığı son veriyi gösterdiği anlamına gelir (doğru davranış, ama güncel değil).</p>
+<ul><li><strong>Ayarlar → Cora Max → Ağ</strong> altında Wi-Fi'yi kontrol edin</li><li>Ağın kendisinin çalıştığını kontrol edin</li><li>Hap <strong>Çevrimiçi</strong> veya <strong>Bulut</strong> okuyorsa ve veri hâlâ eskiyse, sorun ondan önceki bir yerdedir: aynı akvaryumu telefonunuzda kontrol edin</li></ul>
+<h2 id="bir-uyar-kapanmyor">Bir uyarı kapanmıyor</h2>
+<p>Okuma aralığına döndüğünde bir uyarı kapanır. Kapanmıyorsa:</p>
+<ul><li><strong>Okuma gerçekten aralık dışında.</strong> Widget'ın geçmişine bakın.</li><li><strong>Eşik akvaryumunuz için yanlış.</strong> Bkz. <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a>.</li><li><strong>Kaynak yanlış.</strong> Kalibrasyon gerektiren bir prob, gerçekten aralık dışında bir sayı bildirir. Eşiği değil probu düzeltin.</li></ul>
+<h2 id="iki-kaynak-anlamyor">İki kaynak anlaşmıyor</h2>
+<p>Bu, Cora'nın çalışması, başarısız olması değil. Probunuz ve test kitiniz anlaşmadığında, bu sisteminiz hakkında gerçek bir gerçektir.</p>
+<p>Bir ICP sonucu burada kullanışlı bir üçüncü görüştür, ama tartışmayı çözmez: laboratuvarlar birbirinden farklıdır ve bir örneğin taşınması ve nakliyesi sonucu hareket ettirir. Anlaşan iki test, birinden çok daha değerlidir.</p>
+<p>Genellikle prob kalibrasyon gerektirir; bazen test kiti eskidir. Probu kalibre edin, testi taze reaktifle yeniden çalıştırın ve ikisini aynı koşullar altında karşılaştırın. Bir <a href="/tr/help/mobile-icp-health">ICP sonucu</a>, bu karşılaştırmaya üçüncü bir veri noktası ekler.</p>
+<h2 id="bildirim-almyorum">Bildirim almıyorum</h2>
+<ol><li><strong>Ayarlar → Bildirimler</strong>: o kategorinin push göndermeye izinli olduğunu kontrol edin</li><li>Telefonunuzun Cora için kendi bildirim izinlerini kontrol edin</li><li>Günlük briefinginin, hiçbir şey değişmediği günlerde bilerek sessiz kaldığını unutmayın</li></ol>
+<h2 id="bir-eyin-neden-deitiini-belirleme">Bir şeyin neden değiştiğini belirleme</h2>
+<p><strong>Ayarlar → Etkinlik</strong>, her priz değişikliğini, beslemeyi, dozajı ve fiş değişikliğini, onu kimin istediğiyle birlikte listeler: Cora Mobile, bir Cora ekranı, ses, Assistant, bir otomasyon kuralı, akıllı bir düğme veya hesabınız.</p>
+<h2 id="panom-dzenledikten-sonra-yanl-grnyor">Panom düzenledikten sonra yanlış görünüyor</h2>
+<p>Kaydedilmiş bir tasarım yükleyin: <strong>Panolarım</strong>, ardından bir tanesini seçin.</p>
+<p>Bir tane kaydetmediyseniz, düzeni yeniden oluşturun ve ardından bir tasarım olarak kaydedin. O noktadan sonra, ona geri dönmek tek bir dokunuştur.</p>
+<p>Her iki durumda da, okumalar, geçmiş ve günlük kayıtları düzenden ayrı saklanır, bu yüzden panonun arkasındaki hiçbir şey kaybolmaz.</p>
+<h2 id="red-sea-okumalar-gncellenmeyi-durdurdu">"Red Sea™ okumaları güncellenmeyi durdurdu"</h2>
+<p><strong>Ne anlama gelir:</strong> Bu akvaryumun ağındaki hiçbir cihaz şu anda Red Sea ekipmanınızı yoklamıyor, bu yüzden ekrandaki okumalar yenilenmemiş.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li><strong>Ayarlar → Birincil Cora Max</strong>'ı açın ve bir Cora Max'in ayarlandığını (veya <strong>Aktif olan herhangi biri (otomatik)</strong>'in seçildiğini) kontrol edin.</li><li>Akvaryumu, Red Sea ekipmanıyla aynı Wi-Fi'deki bir cihazda açın.</li><li>Red Sea ekipmanının açık olduğunu ve kendi uygulamasında çevrimiçi olduğunu doğrulayın.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-pompaya-ulalamad-hibir-ey-gnderilmedi">"Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi"</h2>
+<p><strong>Ne anlama gelir:</strong> Bir Jecod™ veya Jebao™ pompasına bir komut uygulamadan hiç ayrılmadı, genellikle pompa kapalı veya ağının dışında olduğu için.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Pompanın açık olduğunu kontrol edin.</li><li>Eklendiği ağda olduğunu kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-pompaya-bluetooth-zerinden-ulalamad-yanna-gidip-yeniden-d">"Bu pompaya Bluetooth üzerinden ulaşılamadı. Yanına gidip yeniden deneyin."</h2>
+<p><strong>Ne anlama gelir:</strong> Sadece Bluetooth üzerinden çalışan bir Jecod cihazı telefonunuzun menzilinin dışında.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Pompaya daha yakına gidin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="o-gyreye-ulalamad-hibir-besleme-balatlmad">"O gyre'ye ulaşılamadı. Hiçbir besleme başlatılmadı."</h2>
+<p><strong>Ne anlama gelir:</strong> Bir Maxspect™ gyre (beta entegrasyonu), Cora onda besleme modunu başlatmaya çalıştığında yanıt vermedi.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Gyre'nin açık ve ağında olduğunu kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="o-gyreye-ulalamad-program-deitirilmedi">"O gyre'ye ulaşılamadı. Programı değiştirilmedi."</h2>
+<p><strong>Ne anlama gelir:</strong> Bir Maxspect gyre'ye (beta entegrasyonu) bir zamanlama push'u ona ulaşmayı başaramadı.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Telefonunuzun veya Cora Max'inizin gyre'nin ağında olduğunu kontrol edin.</li><li>Zamanlama ekranından <strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="apexe-ulalamad-hibir-ey-deimedi-hibir-ey-dozajlanmad">"Apex'e ulaşılamadı: hiçbir şey değişmedi" / "hiçbir şey dozajlanmadı"</h2>
+<p><strong>Ne anlama gelir:</strong> Bir Neptune™ Apex, Trident veya DŌS kafası bir komuta veya dozaj isteğine yanıt vermedi.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Apex'in kendi uygulamasını açın ve çevrimiçi olduğunu doğrulayın.</li><li>Kullandığınız cihazda ağ bağlantısını kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-gnderilemedi-bu-akvaryumda-hibir-cihaz-bunu-gnderemez">"Bu gönderilemedi: bu akvaryumda hiçbir cihaz bunu gönderemez"</h2>
+<p><strong>Ne anlama gelir:</strong> Bu akvaryumdaki hiçbir Cora cihazı komutu yerine getirmek için gereken Apex bağlantı ayrıntılarına sahip değil, veya sahip olan çevrimdışı.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Şu anda çevrimiçi olan bir cihazda <strong>Ayarlar</strong>'da Apex ayrıntılarını ekleyin, veya</li><li>Bu akvaryum için farklı, çalışan bir Cora Max'i <strong>Birincil Cora Max</strong> olarak ayarlayın.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="ikincil-bir-cora-max-ana-cora-evrimd-gsteriyor">İkincil bir Cora Max "Ana Cora çevrimdışı" gösteriyor</h2>
+<p><strong>Ne anlama gelir:</strong> Bu akvaryum için birincil tablet çevrimdışı oldu, bu yüzden bu ikincil ekran canlı veri yerine aldığı son veriyi gösteriyor.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Birincil tabletin gücünü ve Wi-Fi'sini kontrol edin.</li><li>Yeniden bağlanmasını bekleyin, veya <strong>Birincil Cora Max</strong>'ı şu anda çevrimiçi olan bir cihaza değiştirin.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cihaz-evrimd-bilinen-son-durum-gsteriliyor">"Cihaz çevrimdışı. Bilinen son durum gösteriliyor."</h2>
+<p><strong>Ne anlama gelir:</strong> Normal çevrimdışı işleme: cihaz bildirmeyi durdurdu ve Cora, güncelmiş gibi davranmak yerine sahip olduğu son değerleri gösteriyor.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Cihazın kendi ağ bağlantısını kontrol edin.</li><li>Satır artık çevrimdışı demeyene kadar gösterilen değerleri canlı olmayan olarak ele alın.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="baz-reefbeat-ayarlar-griye-dnm-veya-eksik">Bazı ReefBeat ayarları griye dönmüş veya eksik</h2>
+<p><strong>Ne anlama gelir:</strong> Bu bir tasarım kararıdır, bir arıza değil. Cihaza özel ayarlar (okumaların aksine) yalnızca telefonunuz cihazın kendisiyle aynı ağdayken açılır; o ağın dışında, yalnızca okumalar gösterilir.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Bu ayarları değiştirmek için akvaryumun kendi Wi-Fi'sini ziyaret edin.</li><li>Okumalar ve geçmiş, akvaryumdan uzaktayken normal şekilde çalışmayı sürdürür.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="coraya-ulalamad-wi-finizi-veya-mobil-verinizi-kontrol-edin-a">"Cora'ya ulaşılamadı. Wi-Fi'nizi veya mobil verinizi kontrol edin, ardından yeniden deneyin."</h2>
+<p><strong>Ne anlama gelir:</strong> Telefonunuzun oturum açarken Cora Cloud'a kullanılabilir bir bağlantısı yok. Bu, akvaryum ekipmanınızla değil telefonunuzun kendi bağlantısıyla ilgilidir.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Telefonunuzun çalışan bir Wi-Fi veya mobil veri bağlantısı olduğunu kontrol edin.</li><li>Kullanılabiliyorsa farklı bir ağ deneyin.</li><li><strong>Tekrar dene</strong>.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="her-ey-aniden-yanl-dilde">Her şey aniden yanlış dilde</h2>
+<p><strong>Ne anlama gelir:</strong> Hesap dili herhangi bir cihazdan değiştirildi. Dil, cihaz başına değil tüm hesap için bir ayardır.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Her iki uygulamada da <strong>Ayarlar → Dil</strong>'i açın.</li><li>Yanlışlıkla değiştirildiyse geri ayarlayın; değişiklik her yerde aynı anda uygulanır.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="deitirdikten-sonra-eski-bir-uyar-veya-rapor-hl-farkl-bir-dil">Değiştirdikten sonra eski bir uyarı veya rapor hâlâ farklı bir dilde</h2>
+<p><strong>Ne anlama gelir:</strong> Bu beklenendir, bir hata değil. Cora zaten oluşturulmuş içeriği yeniden çevirmez; sadece yeni uyarılar, raporlar ve briefingler yeni dili takip eder.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Düzeltilecek bir şey yok. Geçerli dili kullanacak yeni içeriği bekleyin.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="onayladktan-sonra-bile-bir-uyar-bildirmeyi-durdurmuyor">Onayladıktan sonra bile bir uyarı bildirmeyi durdurmuyor</h2>
+<p><strong>Ne anlama gelir:</strong> <strong>Kapat</strong> (uyarıyı kalıcı olarak kapatır) ile <strong>Ertele</strong> (onu bir haftaya kadar geçici olarak susturur) arasında bir karışıklık.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Durumu anlıyor ve kabul ediyorsanız, <strong>Kapat</strong>'ı kullanın.</li><li>Sadece bir süreliğine sessizlik istiyorsanız, <strong>Ertele</strong>'yi kullanın ve bir uzunluk seçin.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bir-dozaj-yar-yolda-durdu-ve-bir-geri-getirme-uyars-belirdi">Bir dozaj yarı yolda durdu ve bir "geri getirme" uyarısı belirdi</h2>
+<p><strong>Ne anlama gelir:</strong> DŌS kafası dozaj ortasında bağlantısını kaybetti, bu yüzden Cora tam dozajın girdiğini varsaymak yerine bilerek size bunu söylüyor.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Uyarıyı açın ve durmadan önce gerçekte ne kadarının dozajlandığını kontrol edin.</li><li>Dozajı, orijinal olarak zamanlanan miktar yerine bu miktara göre sürdürün veya ayarlayın.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="telefonda-yaplan-bir-sahne-cora-maxte-dzenlenebilir-grnmyor">Telefonda yapılan bir sahne Cora Max'te düzenlenebilir görünmüyor</h2>
+<p><strong>Ne anlama gelir:</strong> Sahneleri doğrudan tablette düzenlemek daha yeni bir Cora Max yeteneğidir. Daha eski bir yazılım telefonda yapılan sahneleri hâlâ çalıştırabilir, sadece onları orada düzenleyemez.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Cora Max'i güncelleyin, veya</li><li>O sahneyi telefondan düzenlemeyi sürdürün; her iki durumda da tablette çalışmayı sürdürecektir.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-assistant-yanl-akvaryum-hakknda-yant-veriyor">Cora Assistant yanlış akvaryum hakkında yanıt veriyor</h2>
+<p><strong>Ne anlama gelir:</strong> Sormadan önce hiçbir akvaryum seçilmedi, veya şu anda yanlış akvaryum etkin.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Önce kastettiğiniz akvaryumu seçin.</li><li>Yeniden sorun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-assistant">Assistant</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-assistant-yant-vermeyi-reddediyor-veya-onay-ekrann-yeni">Cora Assistant yanıt vermeyi reddediyor, veya onay ekranını yeniden gösteriyor</h2>
+<p><strong>Ne anlama gelir:</strong> "Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver" kapatıldı, bu yüzden yanıt verecek hiçbir şeyi yok.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Onu yeniden açmak için onay ekranında <strong>Kabul Et ve Devam Et</strong>'e dokunun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-assistant">Assistant</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bir-lab-veya-e-postayla-gelen-icp-sonucu-hi-grnmedi">Bir lab veya e-postayla gelen ICP sonucu hiç görünmedi</h2>
+<p><strong>Ne anlama gelir:</strong> Bir sonucu Cora'ya almak, herhangi bir yere eklenmeden önce onun için seçilmiş bir akvaryum, ve bazen tanınan bir gönderen gerektirir.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Cora'ya bir sonuç gönderdiğiniz ilk seferde gösterilen giriş ipucunu kontrol edin.</li><li>İstendiğinde sonucun hangi akvaryuma eklenmesi gerektiğini doğrulayın.</li><li>Daha önce bir tane gönderdiyseniz, e-postanın önce kullandığınız adresten gönderildiğinden emin olun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="e-postayla-gelen-bir-icp-bildirimi-hibir-lab-adlandrmyor">E-postayla gelen bir ICP bildirimi hiçbir lab adlandırmıyor</h2>
+<p><strong>Ne anlama gelir:</strong> "Akvaryum seç" push bildiriminin lab adını kaçırdığı bilinen bir sorun. Geçerli sürümlerde düzeltildi.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Cora Mobile'ın en son sürüme güncellendiğinden emin olun.</li><li>Sonucun kendisi etkilenmez; yalnızca bildirim metninde bir ad eksikti.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bir-widget-yanl-birimleri-gsteriyor">Bir widget yanlış birimleri gösteriyor</h2>
+<p><strong>Ne anlama gelir:</strong> Bu akvaryumun görüntü birimleri ayarıdır, bir veri sorunu değil. Değerler, nasıl görüntülendiklerinden bağımsız olarak aynı şekilde saklanır.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>O akvaryum için <strong>Ayarlar</strong>'ı açın ve görüntü birimlerini kontrol edin.</li><li>Onları orada değiştirin; o akvaryumu gösteren her telefon ve Cora Max eşleşecek şekilde güncellenir.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="grnt-birimlerini-deitirdikten-sonra-bir-gsterge-veya-eik-far">Görüntü birimlerini değiştirdikten sonra bir gösterge veya eşik farklı görünüyor</h2>
+<p><strong>Ne anlama gelir:</strong> Beklenen. Göstergeler, kutular ve geçmiş, seçtiğiniz birimde yeniden çizilir; altta yatan değerler değişmedi.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Düzeltilecek bir şey yok; bu sadece görsel.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-max-bir-wi-fi-kesintisinden-sonra-hemen-yeniden-balanmy">Cora Max bir Wi-Fi kesintisinden sonra hemen yeniden bağlanmıyor</h2>
+<p><strong>Ne anlama gelir:</strong> Bağlantısını kaybettikten sonra Cora Max, ağı bombalamak yerine her tekrar denemeden önce biraz daha uzun bekler; yeniden denemeden önce kabaca bir dakikaya kadar geriler.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Ağınız geri geldikten sonra bir dakika kadar bekleyin.</li><li>O süreden sonra hâlâ yeniden bağlanmadıysa, <strong>Ayarlar → Ağ</strong> altında Wi-Fi'yi kontrol edin.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-tour">Cora Max ana ekranı</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bir-cora-maxi-telefonda-yeniden-adlandrmak-tabletin-gsterdii">Bir Cora Max'i telefonda yeniden adlandırmak tabletin gösterdiğini değiştirmiyor</h2>
+<p><strong>Ne anlama gelir:</strong> Telefondan belirlediğiniz ad, o cihaz için hesap düzeyinde bir etikettir. Eşleştirme sırasında tabletin kendisinde gösterilen ad farklı bir şey olabilir.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li>Hangi "ada" baktığınızı kontrol edin: telefondaki cihaz listenizdeki mi, yoksa tabletin kendi eşleştirme ekranındaki mi.</li><li>Değiştirmek istediğiniz hesap etiketiyse, telefonun cihaz listesinden yeniden adlandırın.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-maxte-uyandrma-szcn-nerede-kapatacam-bulamyorum">Cora Max'te uyandırma sözcüğünü nerede kapatacağımı bulamıyorum</h2>
+<p><strong>Ne anlama gelir:</strong> Uyandırma sözcüğü anahtarı, çoğu kişiyi şaşırtan bir şekilde Cora Assistant ayarları grubu altında değil <strong>Ses</strong> altındadır.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li><strong>Ayarlar → Ses → Uyandırma sözcüğü dinleme</strong>'ye gidin.</li><li>Onu kapatın; sesli bir oturum başlatmak için hâlâ Cora simgesine dokunabilirsiniz.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-settings">Cora Max'te ayarlar</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="ocuk-kilidi-kimseyi-ayarlara-brakmyor">Çocuk kilidi kimseyi Ayarlar'a bırakmıyor</h2>
+<p><strong>Ne anlama gelir:</strong> Bu, amaçlandığı gibi çalışıyor. Çocuk kilidi, dokunulmadan belirli bir süre geçtikten sonra dokunmatik ekranı ve ses kontrollerini kilitler; okumalar altında güncellenmeyi sürdürür.</p>
+<p><strong>Ne yapmalı:</strong></p>
+<ol><li><strong>Ses Arttır</strong> veya <strong>Ses Azalt</strong>'a iki saniye içinde üç kez basın, veya</li><li>Ekranın sağ üst köşesinde beş parmağınızı on saniye basılı tutun.</li></ol>
+<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-voice">Cora Max'te ses</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="hl-takl-kaldysanz">Hâlâ takılı kaldıysanız</h2>
+<p><strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin. Bize hangi akvaryumu, hangi ekranı ve ne görmeyi beklediğinizi söyleyin; bu size daha hızlı kullanışlı bir yanıt sağlar.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/faq"><span>Önceki</span><b>Sıkça sorulan sorular</b></a><a class="pn-n" href="/tr/help/glossary"><span>Sonraki</span><b>Sözlük</b></a></nav>
+      <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-27.</p>
+      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/tr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Gizlilik</a> ·
+      <a href="/terms-and-conditions.html">Koşullar</a> ·
+      <a href="/support.html">Destek</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "\u201c" + esc(q) + "\u201d i\u00e7in sonu\u00e7 bulunamad\u0131." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "K\u0131lavuzda ara");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Kılavuzda ara…" aria-label="Kılavuzda ara" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/tr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

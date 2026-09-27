@@ -7,6 +7,14 @@
   <meta name="description" content="Choose which device answers voice and which one polls each tank.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-multi-device">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-multi-device">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-multi-device">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-multi-device">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-multi-device">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-multi-device">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-multi-device">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-multi-device">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-multi-device">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="More than one Cora device | Cora Help">
   <meta property="og:description" content="Choose which device answers voice and which one polls each tank.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-multi-device" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-multi-device">Deutsch</a></li><li><a href="/fr/help/mobile-multi-device">Français</a></li><li><a href="/tr/help/mobile-multi-device">Türkçe</a></li><li><a href="/it/help/mobile-multi-device">Italiano</a></li><li><a href="/es/help/mobile-multi-device">Español</a></li><li><a href="/pl/help/mobile-multi-device">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -167,7 +176,7 @@
 <h2 id="cora-assistant-answering-device">Cora Assistant: Answering device</h2>
 <p><strong>Settings → Cora Assistant → Answering device</strong> chooses which <strong>Cora device</strong> answers when you speak to the room. Only one answers, however many can hear you; set it to whichever unit is nearest where you usually stand.</p>
 <p>This is a different choice from Primary Cora Max below: Answering device decides which device answers your voice, and Primary Cora Max decides which device polls a tank's equipment. A household with two tablets may want each set differently.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The voice responder picker"><img src="img/mobile-voice-responder.webp" alt="The voice responder picker" width="620" height="471" loading="lazy" decoding="async"></button><figcaption>Each device shows what it listens for, and whether it is online.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The voice responder picker"><img src="/help/img/mobile-voice-responder.webp" alt="The voice responder picker" width="620" height="471" loading="lazy" decoding="async"></button><figcaption>Each device shows what it listens for, and whether it is online.</figcaption></figure>
 <p>Each device in the list shows the wake phrase it listens for, along with whether it is online. <strong>These are not all the same.</strong> A wake phrase is trained into the device itself, so different Cora models can listen for different ones. Read the phrase from the device's own row rather than assuming the household shares one.</p>
 <aside class="cal cal-note"><p class="cal-t">Your phone is not in this picker</p><p>The phone does not listen for a wake phrase. You start a conversation on it by tapping, which always works and is unaffected by this setting. The picker lists voice-capable Cora hardware only.</p></aside>
 <h2 id="primary-cora-max">Primary Cora Max</h2>
@@ -187,8 +196,8 @@
 <h2 id="where-each-devices-state-is-shown">Where each device's state is shown</h2>
 <p>Cora Max reports its own polling and voice state under <strong>Settings → Cora Max → Firmware → Device health &amp; controls</strong>. See <a href="/help/max-devices">Devices and device health</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-vacation"><span>Previous</span><b>Going away</b></a><a class="pn-n" href="/help/mobile-data-export"><span>Next</span><b>Your data</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -272,6 +281,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -359,7 +379,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -383,7 +403,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -401,8 +421,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

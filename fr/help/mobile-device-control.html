@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contrôler votre équipement | Cora Help</title>
+  <meta name="description" content="Ouvrez la propre page d’un appareil pour voir son état en direct et le piloter : prises, pompes, têtes de dosage et testeurs.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-device-control">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-device-control">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-device-control">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-device-control">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-device-control">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-device-control">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-device-control">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-device-control">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-device-control">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Contrôler votre équipement | Cora Help">
+  <meta property="og:description" content="Ouvrez la propre page d’un appareil pour voir son état en direct et le piloter : prises, pompes, têtes de dosage et testeurs.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-device-control">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/fr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Rechercher dans le guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Rechercher</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Langue"><span>Français</span></summary><ul><li><a href="/help/mobile-device-control">English</a></li><li><a href="/de/help/mobile-device-control">Deutsch</a></li><li><a href="/fr/help/mobile-device-control" aria-current="true" class="cur">Français</a></li><li><a href="/tr/help/mobile-device-control">Türkçe</a></li><li><a href="/it/help/mobile-device-control">Italiano</a></li><li><a href="/es/help/mobile-device-control">Español</a></li><li><a href="/pl/help/mobile-device-control">Polski</a></li></ul></details>
+    <a class="hback" href="/fr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Fermer la navigation">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/fr/help/">Aide Cora</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Prise en main</summary><ul>
+<li><a href="/fr/help/mobile-setup">Configurer Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
+<li><a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a></li>
+<li><a href="/fr/help/mobile-tour">Les cinq onglets</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Votre tableau de bord</summary><ul>
+<li><a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-dashboard-editing">Modifier votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-widgets">Référence des widgets</a></li>
+<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
+<li><a href="/fr/help/mobile-sharing">Partager votre aquarium</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Équipement</summary><ul>
+<li><a href="/fr/help/mobile-devices">Ajouter, modifier et retirer des appareils</a></li>
+<li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
+<li><a href="/fr/help/mobile-device-control" class="cur" aria-current="page">Contrôler votre équipement</a></li>
+<li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
+<li><a href="/fr/help/mobile-probes">Sondes</a></li>
+<li><a href="/fr/help/mobile-consumables">Consommables</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertes et automatisation</summary><ul>
+<li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
+<li><a href="/fr/help/mobile-notifications">Notifications</a></li>
+<li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Journaux</summary><ul>
+<li><a href="/fr/help/mobile-dosing">Dosage</a></li>
+<li><a href="/fr/help/mobile-maintenance">Entretien</a></li>
+<li><a href="/fr/help/mobile-livestock">Population</a></li>
+<li><a href="/fr/help/mobile-journal">Le journal</a></li>
+<li><a href="/fr/help/mobile-activity">Activité et chronologie</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligence</summary><ul>
+<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
+<li><a href="/fr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
+<li><a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Compte</summary><ul>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances</a></li>
+<li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
+<li><a href="/fr/help/mobile-data-export">Vos données</a></li>
+<li><a href="/fr/help/mobile-plans">Forfaits</a></li>
+<li><a href="/fr/help/mobile-settings">Réglages</a></li>
+<li><a href="/fr/help/mobile-support">Obtenir de l’aide</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Prise en main</summary><ul>
+<li><a href="/fr/help/max-setup">Configurer Cora Max</a></li>
+<li><a href="/fr/help/max-tour">L’écran d’accueil de Cora Max</a></li>
+<li><a href="/fr/help/max-reef-room">La pièce du récif</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Votre tableau de bord</summary><ul>
+<li><a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Équipement</summary><ul>
+<li><a href="/fr/help/max-controls">Prises et commandes</a></li>
+<li><a href="/fr/help/max-device-control">Contrôler l’équipement depuis Cora Max</a></li>
+<li><a href="/fr/help/max-devices">Appareils et état des appareils</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Journaux</summary><ul>
+<li><a href="/fr/help/max-records">Journal, population et entretien</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligence</summary><ul>
+<li><a href="/fr/help/max-intelligence">Reef Buddy et rapports</a></li>
+<li><a href="/fr/help/max-voice">Parler à Cora</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertes</summary><ul>
+<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
+<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Paramètres</summary><ul>
+<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatisation</summary><ul>
+<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Aide</p>
+<ul>
+<li><a href="/fr/help/faq">Questions fréquentes</a></li>
+<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
+<li><a href="/fr/help/glossary">Glossaire</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Contrôler votre équipement</h1>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#ce-qui-se-passe-quand-vous-envoyez-une-commande">Ce qui se passe quand vous envoyez une commande</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#trident">Trident</a></li><li><a href="#ds">DŌS</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#pompes-jecod">Pompes Jecod</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#ce-qui-se-passe-aprs-avoir-chang-quelque-chose">Ce qui se passe après avoir changé quelque chose</a></li></ul></nav>
+<p>L’équipement connecté a sa propre page dans Cora, montrant l’état en direct et proposant les commandes que cet appareil prend en charge. Ouvrez-en une depuis l’onglet <strong>Appareils</strong>.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Une page d’appareil"><img src="/help/img/mobile-device-detail.webp" alt="Une page d’appareil" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Mesures en direct en haut, puis les commandes que cet appareil prend en charge.</figcaption></figure>
+<p>Chaque page d’appareil suit la même forme : identification en haut, une ligne de mesures en direct, tout état que l’appareil rapporte, puis ses commandes. La cloche dans la barre de titre règle les seuils d’alerte pour cet appareil ; voir <a href="/fr/help/mobile-consumables">Consommables</a>.</p>
+<aside class="cal cal-warning"><p class="cal-t">Ces commandes agissent sur un équipement en direct</p><p>Il n’y a pas d’aperçu et pas d’annulation. Certaines commandes vous demandent aussi de confirmer d’abord.</p></aside>
+<h2 id="ce-qui-se-passe-quand-vous-envoyez-une-commande">Ce qui se passe quand vous envoyez une commande</h2>
+<p>Une commande ne réussit pas toujours, et Cora vous dit laquelle des quatre choses s’est produite plutôt que de le supposer :</p>
+<div class="tw"><table class="stack"><thead><tr><th>Résultat</th><th>Signifie</th></tr></thead><tbody><tr><td data-th="Résultat"><strong>Confirmé</strong></td><td data-th="Signifie">L’équipement a accusé réception du changement et a rapporté son nouvel état</td></tr><tr><td data-th="Résultat"><strong>Non confirmé</strong></td><td data-th="Signifie">La commande a été envoyée, mais rien n’a été signalé en retour. <strong>Cela signifie « nous ne savons pas », pas « cela a fonctionné »</strong> ; vérifiez le propre état de l’appareil</td></tr><tr><td data-th="Résultat"><strong>Refusé</strong></td><td data-th="Signifie">Quelque chose l’a refusée (une règle de sécurité, un verrou, ou l’équipement lui-même), ou aucun appareil Cora ne l’a prise à temps, donc elle a été annulée et rien ne s’est exécuté</td></tr><tr><td data-th="Résultat"><strong>Aucun changement</strong></td><td data-th="Signifie">L’équipement était déjà dans l’état que vous demandiez</td></tr></tbody></table></div>
+<p>Chaque résultat est enregistré dans <a href="/fr/help/mobile-activity">Activité</a> avec ce qui l’a causé.</p>
+<h2 id="neptune-apex">Neptune™ Apex</h2>
+<p>La page Apex liste vos sondes et prises.</p>
+<ul><li><strong>Les sondes</strong> rapportent dans Cora comme des sources et peuvent être placées sur un tableau de bord.</li><li><strong>Les prises</strong> commutent entre <strong>Auto</strong>, <strong>Éteint</strong> et <strong>Allumé</strong>. Auto redonne le contrôle à votre programmation Apex.</li><li><strong>Les modules installés</strong> (Trident, DŌS et autres) ont chacun leur propre page.</li></ul>
+<h2 id="trident">Trident</h2>
+<p>Affiche l’état actuel du test, les niveaux restants de réactif et d’eau de déchet, et vous permet de démarrer un test.</p>
+<p>Vous pouvez régler un seuil d’alerte pour les tests restants depuis cette page, pour que Cora vous avertisse avant que le réactif ne s’épuise. Voir <a href="/fr/help/mobile-consumables">Consommables</a>.</p>
+<h2 id="ds">DŌS</h2>
+<p>Un DŌS QD fonctionne exactement comme un DŌS, et tout ce qui suit s’applique aux deux. Quand un Cora Max lit votre Apex, les têtes de dosage apparaissent sur la page DŌS, jamais dans la liste des prises.</p>
+<p>Chaque tête de dosage montre ce qu’elle dose, son programme, ce qu’elle a dosé aujourd’hui, combien il reste dans le contenant et son <strong>autonomie</strong> : combien de jours cela durera au rythme actuel.</p>
+<p>Par tête, vous pouvez :</p>
+<ul><li><strong>Suspendre</strong> et <strong>Reprendre</strong> son programme</li><li><strong>Remplir</strong> : dire à Cora que le contenant est de nouveau plein, ou régler le volume qu’il contient</li><li><strong>Doser maintenant</strong> : un dosage manuel mesuré</li></ul>
+<aside class="cal cal-note"><p class="cal-t">Les programmes se modifient dans Apex Fusion, pas ici</p><p>Cora affiche le programme et suit ce qui a été dosé, mais ne le change pas. Modifier le programme, le débit de dosage ou le nombre de dosages se fait dans l’application Apex Fusion. Suspendre, remplir et doser à la main sont tous pris en charge ici.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Mesurez une tête avant de la doser à la main</p><p>Cora ne dosera pas une tête à la main jusqu’à ce qu’elle ait été mesurée. <strong>Mesurer pour doser</strong> et <strong>Remesurer</strong> se trouvent sur le Cora Max qui dose pour l’aquarium : Cora exécute la tête pendant vingt secondes, vous mesurez ce qui en est sorti, et Cora calcule le débit réel de la tête. Une mesure sert chaque Cora Max et Cora Mobile, donc mesurez chaque tête une fois, et à nouveau après avoir changé son tuyau.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Un DŌS continue de doser quand son contenant est vide</p><p>L’unité n’a pas de capteur de niveau et ne s’arrête pas d’elle-même. Réglez une alerte de réapprovisionnement depuis la page de la tête pour que Cora vous avertisse avant que le contenant ne s’assèche.</p></aside>
+<h3 id="quoi-sert-chaque-tte">À quoi sert chaque tête</h3>
+<p>Chaque tête est réglée sur un <strong>type d’usage</strong>, pour que Cora sache ce qu’elle fait et puisse en parler correctement : <strong>Complément</strong>, <strong>Changement d’eau : entrée d’eau salée neuve</strong>, <strong>Changement d’eau : sortie d’eau ancienne</strong>, <strong>Kalkwasser</strong>, <strong>Réacteur à calcium</strong>, <strong>Nourriture</strong>, <strong>Appoint</strong>, ou <strong>Autre</strong>. Réglez cela sous <strong>Utilisée pour</strong> dans les réglages de la tête.</p>
+<p>Les deux types d’usage de changement d’eau sont conçus pour être <strong>associés</strong> : réglez la <strong>Tête associée</strong> d’une tête sur l’autre qui déplace l’eau dans le sens opposé, et Cora les traite comme une paire de changement d’eau plutôt que comme deux têtes sans rapport.</p>
+<p>Chaque tête a aussi un plafond de <strong>Dosage manuel maximal</strong>, pour empêcher un dosage manuel mal saisi d’être bien plus important que prévu. Les gros dosages manuels ne deviennent disponibles qu’une fois le débit de la tête mesuré par rapport à un vrai test à l’aquarium.</p>
+<h2 id="red-sea-reefbeat">Red Sea™ ReefBeat</h2>
+<p>Chaque unité a une page adaptée à ce qu’elle est :</p>
+<div class="tw"><table class="stack"><thead><tr><th>Unité</th><th>La page affiche</th><th>Vous pouvez</th></tr></thead><tbody><tr><td data-th="Unité"><strong>ReefDose</strong></td><td data-th="La page affiche">Chaque tête, son contenant et ce qu’elle a dosé</td><td data-th="Vous pouvez">Pour chaque tête : <strong>Dose par jour</strong>, <strong>Restant dans le flacon</strong>, <strong>Doser maintenant</strong> et <strong>Activer le programme</strong>. Réglez des alertes de réapprovisionnement par tête</td></tr><tr><td data-th="Unité"><strong>ReefATO+</strong></td><td data-th="La page affiche">Niveau du réservoir et activité de complément</td><td data-th="Vous pouvez">Réglez une alerte de réservoir</td></tr><tr><td data-th="Unité"><strong>ReefMat</strong></td><td data-th="La page affiche">Rouleau restant, en jours et mètres</td><td data-th="Vous pouvez">Avancez le rouleau, réglez une alerte de réapprovisionnement</td></tr><tr><td data-th="Unité"><strong>ReefRun</strong></td><td data-th="La page affiche">Vitesse et état des pompes de remontée et d’écumeur</td><td data-th="Vous pouvez">Changez la vitesse, commutez une pompe, ajustez les réglages de l’écumeur</td></tr></tbody></table></div>
+<p><strong>ReefRun est un contrôleur de pompe de remontée et d’écumeur</strong>, pas une pompe de brassage.</p>
+<p>Une unité peut s’arrêter elle-même, par exemple une pompe ReefRun quand le godet de l’écumeur se remplit. Quand cela arrive, sa page dit pourquoi et propose la correction :</p>
+<div class="tw"><table class="stack"><thead><tr><th>Unité</th><th>La page dit</th><th>Touchez</th></tr></thead><tbody><tr><td data-th="Unité">ReefRun</td><td data-th="La page dit">Quelle pompe s’est arrêtée et pourquoi, par exemple <em>Godet plein. Videz-le, puis reprenez.</em></td><td data-th="Touchez"><strong>Reprendre</strong></td></tr><tr><td data-th="Unité">ReefRun ou ReefMat</td><td data-th="La page dit"><strong>Arrêt d’urgence</strong></td><td data-th="Touchez"><strong>Effacer l’urgence</strong></td></tr><tr><td data-th="Unité">ReefMat</td><td data-th="La page dit"><strong>Tapis coincé</strong>, <strong>Erreur d’installation</strong> ou <strong>Erreur de configuration</strong></td><td data-th="Touchez"><strong>Reprendre</strong></td></tr><tr><td data-th="Unité">ReefMat</td><td data-th="La page dit"><em>Chargez un nouveau rouleau, puis confirmez-le dans l’application Red Sea.</em></td><td data-th="Touchez"><strong>J’ai déjà chargé un nouveau rouleau</strong></td></tr><tr><td data-th="Unité">ReefMat</td><td data-th="La page dit"><strong>Le capteur doit être nettoyé</strong></td><td data-th="Touchez"><strong>Capteur nettoyé</strong></td></tr><tr><td data-th="Unité">ReefDose</td><td data-th="La page dit"><strong>Dysfonctionnement de la tête</strong>, avec le nom de la tête</td><td data-th="Touchez"><strong>Réinitialiser</strong></td></tr><tr><td data-th="Unité">ReefATO+</td><td data-th="La page dit"><strong>Effacer la panne</strong></td><td data-th="Touchez"><strong>Reprendre</strong></td></tr></tbody></table></div>
+<p>Certaines de ces actions vous demandent de confirmer d’abord. Loin du réseau de l’unité, Cora Mobile les envoie via un Cora Max de l’aquarium ; si aucun Cora Max ne peut le faire, la page le précise et rien n’est envoyé.</p>
+<h2 id="pompes-jecod">Pompes Jecod™</h2>
+<p>La page de la pompe affiche son mode et son intensité actuels, et vous permet de changer les deux.</p>
+<p>Vous pouvez aussi :</p>
+<ul><li><strong>Copier le programme vers…</strong> : mettre le programme de cette pompe sur une autre</li><li><strong>Enregistrer le programme sous…</strong> et <strong>Programmes enregistrés…</strong> : garder un programme et le réappliquer plus tard</li><li><strong>Partager ce programme</strong> et <strong>Coller un code de programme…</strong> : déplacer un programme entre systèmes sous forme de code court</li></ul>
+<h2 id="maxspect">Maxspect™</h2>
+<aside class="cal cal-note"><p class="cal-t">La prise en charge Maxspect est en bêta</p><p>La prise en charge des pompes de brassage Maxspect est encore en cours de test et de développement, donc certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer entre les mises à jour. Si quelque chose ne fonctionne pas comme décrit, dites-le-nous depuis <a href="/fr/help/mobile-support">Obtenir de l’aide</a>.</p></aside>
+<p>La page de la pompe de brassage montre si elle fonctionne, le motif de vague et la vitesse de <strong>Gyre A</strong> et <strong>Gyre B</strong>, et quand cela a été lu pour la dernière fois. Depuis elle, vous pouvez :</p>
+<ul><li>Allumer ou éteindre la pompe de brassage avec le commutateur à côté de son état. Cora vous demande de confirmer d’abord. Éteindre arrête les deux gyres et laisse le programme tel qu’il est.</li><li>Toucher <strong>Modifier les réglages</strong> pour régler le motif de vague et la vitesse de pompe de chaque gyre (et la durée, pour un motif qui en a une), et si les deux gyres sont liés. Cora liste ce qui va changer et vous demande de confirmer avant de l’appliquer. L’alternance se règle dans l’application Maxspect : une pompe de brassage qui l’exécute garde ses rampes et temps de maintien.</li><li>Toucher <strong>Programme défini</strong> à la place quand le programme enregistré sur la pompe de brassage ne peut pas être lu. Cela règle les deux gyres pour que la pompe de brassage puisse redémarrer.</li><li>Voir le programme journalier de la pompe de brassage sur la carte <strong>Programme</strong>. Il est en lecture seule : réglez le programme dans l’application Maxspect.</li><li>Vérifier l’<strong>État de la pompe</strong> : quand la pompe aura besoin d’être nettoyée la prochaine fois (la pompe compte cela elle-même), le courant tiré par la tête A, quelles têtes sont installées, et le micrologiciel. Touchez <strong>Lire</strong> pour l’obtenir.</li></ul>
+<aside class="cal cal-note"><p class="cal-t">Comment Cora Mobile atteint une pompe de brassage</p><p>Quand un Cora Max dessert l’aquarium, Cora Mobile fonctionne via ce Cora Max, y compris quand vous êtes loin de chez vous, et <strong>Modifier les réglages</strong> part de la dernière lecture de ce Cora Max. Sinon, votre téléphone parle directement à la pompe de brassage et doit être sur son réseau. Ouvrir la page la lit alors ; si la page affiche à la place une lecture stockée plus ancienne, <strong>Modifier les réglages</strong> reste caché jusqu’à ce que vous touchiez actualiser.</p></aside>
+<h2 id="ce-qui-se-passe-aprs-avoir-chang-quelque-chose">Ce qui se passe après avoir changé quelque chose</h2>
+<p>Chaque changement est enregistré dans <a href="/fr/help/mobile-activity">Activité</a> avec l’interface qui l’a demandé. Si un appareil n’accepte pas un changement, l’échec y est aussi enregistré.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/mobile-connections"><span>Précédent</span><b>Connecter votre équipement</b></a><a class="pn-n" href="/fr/help/mobile-schedules"><span>Suivant</span><b>Programmer l’équipement</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.78 et Cora Mobile 0.5.79. Vérifié pour la dernière fois le 2026-09-27.</p>
+      <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/fr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Confidentialité</a> ·
+      <a href="/terms-and-conditions.html">Conditions</a> ·
+      <a href="/support.html">Assistance</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Aucun r\u00e9sultat pour \u00ab " + esc(q) + " \u00bb." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Rechercher dans le guide");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Rechercher dans le guide…" aria-label="Rechercher dans le guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/fr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

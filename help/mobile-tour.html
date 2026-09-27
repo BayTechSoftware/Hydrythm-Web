@@ -7,6 +7,14 @@
   <meta name="description" content="A tour of Cora Mobile: Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-tour">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-tour">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-tour">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-tour">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-tour">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-tour">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-tour">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-tour">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-tour">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="The five tabs | Cora Help">
   <meta property="og:description" content="A tour of Cora Mobile: Dashboard, Devices, Assistant, Intelligence and Settings, and what lives in each.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-tour" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-tour">Deutsch</a></li><li><a href="/fr/help/mobile-tour">Français</a></li><li><a href="/tr/help/mobile-tour">Türkçe</a></li><li><a href="/it/help/mobile-tour">Italiano</a></li><li><a href="/es/help/mobile-tour">Español</a></li><li><a href="/pl/help/mobile-tour">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -161,7 +170,7 @@
       <h1>The five tabs</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#dashboard">Dashboard</a></li><li><a href="#devices">Devices</a></li><li><a href="#assistant">Assistant</a></li><li><a href="#intelligence">Intelligence</a></li><li><a href="#settings">Settings</a></li><li><a href="#the-first-run-tour">The first-run tour</a></li><li><a href="#two-controls-outside-the-tabs">Two controls outside the tabs</a></li></ul></nav>
 <p>Cora Mobile has five tabs along the bottom. Almost everything you do lives in one of them.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The five tabs of Cora Mobile"><img src="img/mobile-tabs.webp" alt="The five tabs of Cora Mobile" width="1100" height="192" loading="lazy" decoding="async"></button><figcaption>Dashboard, Devices, Assistant, Intelligence, Settings.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The five tabs of Cora Mobile"><img src="/help/img/mobile-tabs.webp" alt="The five tabs of Cora Mobile" width="1100" height="192" loading="lazy" decoding="async"></button><figcaption>Dashboard, Devices, Assistant, Intelligence, Settings.</figcaption></figure>
 <h2 id="dashboard">Dashboard</h2>
 <p>Live readings for the selected tank. This is the main screen of Cora Mobile.</p>
 <p>If you have more than one tank, swipe left and right to move between them; the dots under the header show where you are. The tank header carries the tank name and a row of actions: feed mode, the Reef Buddy briefing, sharing, and a pencil that opens the tank profile. Editing the dashboard is a separate control, <strong>Edit dashboard</strong>, at the foot of the page.</p>
@@ -185,8 +194,8 @@
 <p><strong>The bell</strong>, top right, is your notification history: every alert Cora has raised, newest first. The number on it is how many you have yet to read.</p>
 <p><strong>The Journal button</strong> floats over the bottom right of the Dashboard. Tap it to write down what you just did: a water change, a new coral, a dose you changed. See <strong><a href="/help/mobile-journal">The journal</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-tank-profile"><span>Previous</span><b>Your tank profile</b></a><a class="pn-n" href="/help/mobile-dashboard"><span>Next</span><b>Reading your dashboard</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-09.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-09.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -270,6 +279,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -357,7 +377,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -381,7 +401,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -399,8 +419,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

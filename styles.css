@@ -136,6 +136,20 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 .nav-cta { padding: 9px 18px; border-radius: 999px; background: var(--grad-brand); color: #fff !important; font-weight: 600; box-shadow: 0 6px 20px rgba(0,112,255,0.28); }
 .nav-toggle { display: none; }
 
+/* ---------- Language menu ---------- */
+.lang-menu { position: relative; margin-left: 6px; }
+.lang-menu summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--text-2); border: 1px solid var(--line-strong); border-radius: 999px; padding: 7px 12px; user-select: none; }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary:hover { color: var(--ink); }
+.lang-menu[open] summary { color: var(--ink); }
+.lang-menu summary svg { width: 15px; height: 15px; }
+.lang-menu ul { position: absolute; right: 0; top: calc(100% + 8px); margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 12px 30px rgba(11,27,51,0.14); padding: 6px; list-style: none; min-width: 150px; z-index: 200; }
+.lang-menu li { margin: 0; }
+.lang-menu ul a { display: block; padding: 8px 10px; border-radius: 8px; color: var(--text-2); text-decoration: none; font-size: 0.88rem; white-space: nowrap; }
+.lang-menu ul a:hover { background: var(--surface-2); color: var(--ink); }
+.lang-menu ul a[aria-current="page"] { color: var(--brand); font-weight: 700; }
+@media (max-width: 560px) { .lang-menu ul { right: -8px; min-width: 140px; } }
+
 /* ---------- Buttons ---------- */
 .btn { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-body); font-weight: 600; font-size: 0.98rem; padding: 14px 24px; border-radius: 999px; text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: transform .18s ease, box-shadow .25s ease, background .25s; }
 .btn-primary { background: var(--grad-brand); color: #fff; box-shadow: 0 10px 30px rgba(0,112,255,0.30); }

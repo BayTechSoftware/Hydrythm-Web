@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rapports ICP et de santé | Cora Help</title>
+  <meta name="description" content="Téléchargez un test ICP, suivez chaque élément dans le temps, et exécutez une évaluation complète de la santé de votre système.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-icp-health">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-icp-health">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-icp-health">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-icp-health">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-icp-health">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-icp-health">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-icp-health">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-icp-health">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-icp-health">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Rapports ICP et de santé | Cora Help">
+  <meta property="og:description" content="Téléchargez un test ICP, suivez chaque élément dans le temps, et exécutez une évaluation complète de la santé de votre système.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-icp-health">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/fr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Rechercher dans le guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Rechercher</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Langue"><span>Français</span></summary><ul><li><a href="/help/mobile-icp-health">English</a></li><li><a href="/de/help/mobile-icp-health">Deutsch</a></li><li><a href="/fr/help/mobile-icp-health" aria-current="true" class="cur">Français</a></li><li><a href="/tr/help/mobile-icp-health">Türkçe</a></li><li><a href="/it/help/mobile-icp-health">Italiano</a></li><li><a href="/es/help/mobile-icp-health">Español</a></li><li><a href="/pl/help/mobile-icp-health">Polski</a></li></ul></details>
+    <a class="hback" href="/fr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Fermer la navigation">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/fr/help/">Aide Cora</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Prise en main</summary><ul>
+<li><a href="/fr/help/mobile-setup">Configurer Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
+<li><a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a></li>
+<li><a href="/fr/help/mobile-tour">Les cinq onglets</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Votre tableau de bord</summary><ul>
+<li><a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-dashboard-editing">Modifier votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-widgets">Référence des widgets</a></li>
+<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
+<li><a href="/fr/help/mobile-sharing">Partager votre aquarium</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Équipement</summary><ul>
+<li><a href="/fr/help/mobile-devices">Ajouter, modifier et retirer des appareils</a></li>
+<li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
+<li><a href="/fr/help/mobile-device-control">Contrôler votre équipement</a></li>
+<li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
+<li><a href="/fr/help/mobile-probes">Sondes</a></li>
+<li><a href="/fr/help/mobile-consumables">Consommables</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertes et automatisation</summary><ul>
+<li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
+<li><a href="/fr/help/mobile-notifications">Notifications</a></li>
+<li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Journaux</summary><ul>
+<li><a href="/fr/help/mobile-dosing">Dosage</a></li>
+<li><a href="/fr/help/mobile-maintenance">Entretien</a></li>
+<li><a href="/fr/help/mobile-livestock">Population</a></li>
+<li><a href="/fr/help/mobile-journal">Le journal</a></li>
+<li><a href="/fr/help/mobile-activity">Activité et chronologie</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Intelligence</summary><ul>
+<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
+<li><a href="/fr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
+<li><a href="/fr/help/mobile-icp-health" class="cur" aria-current="page">Rapports ICP et de santé</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Compte</summary><ul>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances</a></li>
+<li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
+<li><a href="/fr/help/mobile-data-export">Vos données</a></li>
+<li><a href="/fr/help/mobile-plans">Forfaits</a></li>
+<li><a href="/fr/help/mobile-settings">Réglages</a></li>
+<li><a href="/fr/help/mobile-support">Obtenir de l’aide</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Prise en main</summary><ul>
+<li><a href="/fr/help/max-setup">Configurer Cora Max</a></li>
+<li><a href="/fr/help/max-tour">L’écran d’accueil de Cora Max</a></li>
+<li><a href="/fr/help/max-reef-room">La pièce du récif</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Votre tableau de bord</summary><ul>
+<li><a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Équipement</summary><ul>
+<li><a href="/fr/help/max-controls">Prises et commandes</a></li>
+<li><a href="/fr/help/max-device-control">Contrôler l’équipement depuis Cora Max</a></li>
+<li><a href="/fr/help/max-devices">Appareils et état des appareils</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Journaux</summary><ul>
+<li><a href="/fr/help/max-records">Journal, population et entretien</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligence</summary><ul>
+<li><a href="/fr/help/max-intelligence">Reef Buddy et rapports</a></li>
+<li><a href="/fr/help/max-voice">Parler à Cora</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertes</summary><ul>
+<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
+<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Paramètres</summary><ul>
+<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatisation</summary><ul>
+<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Aide</p>
+<ul>
+<li><a href="/fr/help/faq">Questions fréquentes</a></li>
+<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
+<li><a href="/fr/help/glossary">Glossaire</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Rapports ICP et de santé</h1>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#tlcharger-un-test-icp">Télécharger un test ICP</a></li><li><a href="#envoyer-cora-rsultats-dlivrs-par-un-laboratoire-ou-un-e-mail">Envoyer à Cora : résultats délivrés par un laboratoire ou un e-mail</a></li><li><a href="#ce-que-vous-obtenez">Ce que vous obtenez</a></li><li><a href="#rapports-de-sant">Rapports de santé</a></li><li><a href="#licp-face-vos-sondes">L’ICP face à vos sondes</a></li><li><a href="#votre-allocation">Votre allocation</a></li><li><a href="#o-vivent-les-rapports">Où vivent les rapports</a></li></ul></nav>
+<p>L’onglet <strong>Intelligence</strong> est vos analyses de laboratoire et votre vue à long terme.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: L’onglet Intelligence"><img src="/help/img/mobile-intelligence.webp" alt="L’onglet Intelligence" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Téléchargez un ICP, exécutez un rapport de santé, et voyez ce qui a changé depuis le dernier.</figcaption></figure>
+<h2 id="tlcharger-un-test-icp">Télécharger un test ICP</h2>
+<p>Touchez <strong>Téléverser un ICP</strong>, choisissez votre aquarium, et ajoutez le résultat de votre laboratoire. Cora lit le rapport, enregistre chaque élément, et l’aligne avec vos tests précédents.</p>
+<p>Vous n’avez rien à saisir vous-même. Cora gère les formats de laboratoire courants.</p>
+<h2 id="envoyer-cora-rsultats-dlivrs-par-un-laboratoire-ou-un-e-mail">Envoyer à Cora : résultats délivrés par un laboratoire ou un e-mail</h2>
+<p>Certains laboratoires peuvent envoyer un résultat directement à Cora, et un résultat ICP envoyé par e-mail peut être acheminé de la même façon, sans que vous ayez à télécharger quoi que ce soit vous-même.</p>
+<p>Quand l’un arrive, une bannière apparaît : <em>« Un résultat de laboratoire de {lab} est en attente. »</em> Touchez <strong>Choisir un bac</strong> et choisissez à quel aquarium il appartient ; Cora ne peut pas le deviner seul. Une fois votre choix fait, Cora l’ajoute à cet aquarium de la même façon qu’un rapport téléchargé.</p>
+<p>Le rapport lui-même affiche <strong>Envoyé par {lab}</strong> près de son en-tête, pour que vous puissiez le distinguer de celui que vous avez téléchargé vous-même.</p>
+<aside class="cal cal-note"><p class="cal-t">La première fois</p><p>La première fois qu’un résultat arrive de cette façon, Cora affiche un court indice expliquant ce qui se passe, pour que cela ne ressemble pas à une erreur.</p></aside>
+<p>Si cela ne fonctionne pas : voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Un rapport ICP"><img src="/help/img/mobile-icp-report.webp" alt="Un rapport ICP" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Chaque rapport porte un score et un résumé rédigé pour votre aquarium.</figcaption></figure>
+<h2 id="ce-que-vous-obtenez">Ce que vous obtenez</h2>
+<p><strong>Un score</strong> sur 100, et un résumé en langage simple de ce qu’il signifie spécifiquement pour votre système : votre type d’aquarium, son âge, votre population.</p>
+<p>Le score est calculé à partir de vos résultats par rapport à leurs plages cibles, y compris toute plage que vous avez définie vous-même. Tout résultat hors de sa plage maintient le score à 70 ou moins, et un résultat très hors plage le maintient à 40 ou moins, quelle que soit la qualité du reste. L’étiquette sous le score indique <strong>Sain</strong> au-dessus de 70, <strong>Attention requise</strong> de 40 à 70, et <strong>Critique</strong> sous 40. Les rapports de santé sont notés de la même façon.</p>
+<p><strong>Chaque élément suivi</strong> : pas seulement les paramètres principaux, mais aussi les oligo-éléments et contaminants.</p>
+<p><strong>Principaux mouvements</strong> : la carte « Depuis votre dernier ICP » montre ce qui a le plus changé depuis la dernière fois, ce qui est généralement le moyen le plus rapide de comprendre un nouveau rapport.</p>
+<p><strong>Tendances</strong> : touchez <strong>Tendances</strong> pour voir un élément sur tous les tests que vous avez téléchargés. C’est là que l’ICP arrête d’être un instantané et devient utile.</p>
+<aside class="cal cal-tip"><p class="cal-t">C’est avec deux tests que cela devient intéressant</p><p>Un seul ICP vous dit où vous êtes. Le second vous dit dans quelle direction vous allez, ce qui est le fait le plus exploitable. Testez selon un rythme plutôt que seulement quand quelque chose va mal.</p></aside>
+<h2 id="rapports-de-sant">Rapports de santé</h2>
+<p>Un <strong>Rapport de santé</strong> est une évaluation périodique plus approfondie de tout le système : chaque paramètre, chaque source, votre dosage, votre historique et vos résultats ICP récents, examinés ensemble.</p>
+<p>Touchez <strong>Rapport de santé</strong> et choisissez un aquarium. Cela prend un moment à produire.</p>
+<p>Utilisez-le quand vous voulez une lecture réfléchie plutôt que le titre du jour : avant un grand changement, après un problème, ou toutes les quelques semaines comme point de contrôle.</p>
+<h2 id="licp-face-vos-sondes">L’ICP face à vos sondes</h2>
+<p>Cora compare vos résultats de laboratoire avec ce que rapporte votre équipement. Quand votre sonde d’alcalinité dit 8,4 et que votre ICP dit 7,6, c’est un fait qui vaut la peine d’être connu, et Cora le fait apparaître plutôt que de discrètement en préférer un.</p>
+<p>C’est l’une des choses les plus utiles qu’un ICP fait dans Cora. C’est un <strong>troisième avis, pas un arbitre</strong> : les laboratoires diffèrent les uns des autres, et la manipulation, le stockage et le transport d’un échantillon influencent tous le résultat. Traitez un seul ICP comme une preuve (deux tests d’accord valent bien plus qu’un seul) et lisez un écart persistant comme une raison de vérifier la sonde, pas comme la preuve que la sonde a tort.</p>
+<aside class="cal cal-tip"><p class="cal-t">Changer de laboratoire ou de méthode de test</p><p>Changer de laboratoire, ou passer entre les tests ICP-OES et ICP-MS d’un laboratoire, peut faire bouger vos résultats sans aucun changement dans votre aquarium, et Cora le signale quand il les compare. L’ICP-OES ne peut pas mesurer de très faibles niveaux de chrome, d’étain, de nickel, de cuivre, de cobalt ou de sélénium, donc un résultat <strong>Sous le seuil de détection</strong> pour ceux-ci sur un test ICP-OES ne signifie pas que votre aquarium n’en a pas.</p></aside>
+<h2 id="votre-allocation">Votre allocation</h2>
+<p>Les deux sont mesurés par votre forfait. La ligne sous les boutons montre ce que vous avez utilisé ce mois-ci.</p>
+<p>Séparément de votre forfait, Cora accepte jusqu’à 10 téléchargements ICP par jour. Un téléchargement refusé pour cette raison n’utilise aucune des analyses ICP de votre forfait, mais Cora Mobile affiche seulement une erreur de téléchargement générale, donc si les téléchargements commencent à échouer après en avoir fait beaucoup en une journée, réessayez le lendemain.</p>
+<h2 id="o-vivent-les-rapports">Où vivent les rapports</h2>
+<p>L’écran Intelligence garde les deux types séparément : les résultats de laboratoire sous <strong>Rapports ICP</strong>, et les analyses générées sous <strong>Rapports de santé</strong>. Chaque liste va du plus récent au plus ancien avec son score ; touchez-en un pour le rouvrir en entier.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/mobile-journeys"><span>Précédent</span><b>Parcours guidés</b></a><a class="pn-n" href="/fr/help/mobile-sharing"><span>Suivant</span><b>Partager votre aquarium</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.78 et Cora Mobile 0.5.79. Vérifié pour la dernière fois le 2026-09-27.</p>
+      <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/fr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Confidentialité</a> ·
+      <a href="/terms-and-conditions.html">Conditions</a> ·
+      <a href="/support.html">Assistance</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Aucun r\u00e9sultat pour \u00ab " + esc(q) + " \u00bb." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Rechercher dans le guide");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Rechercher dans le guide…" aria-label="Rechercher dans le guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/fr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

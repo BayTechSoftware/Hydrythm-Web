@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alertas y umbrales | Cora Help</title>
+  <meta name="description" content="Fija el rango de cada parámetro, elige de qué te avisan y entiende por qué se activó una alerta.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/es/help/mobile-alerts">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-alerts">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-alerts">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-alerts">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-alerts">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-alerts">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-alerts">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-alerts">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-alerts">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Alertas y umbrales | Cora Help">
+  <meta property="og:description" content="Fija el rango de cada parámetro, elige de qué te avisan y entiende por qué se activó una alerta.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/es/help/mobile-alerts">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/es/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Buscar en la guía">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Buscar</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Idioma"><span>Español</span></summary><ul><li><a href="/help/mobile-alerts">English</a></li><li><a href="/de/help/mobile-alerts">Deutsch</a></li><li><a href="/fr/help/mobile-alerts">Français</a></li><li><a href="/tr/help/mobile-alerts">Türkçe</a></li><li><a href="/it/help/mobile-alerts">Italiano</a></li><li><a href="/es/help/mobile-alerts" aria-current="true" class="cur">Español</a></li><li><a href="/pl/help/mobile-alerts">Polski</a></li></ul></details>
+    <a class="hback" href="/es/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menú" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Cerrar navegación">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/es/help/">Ayuda de Cora</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Primeros pasos</summary><ul>
+<li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
+<li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Tu panel</summary><ul>
+<li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
+<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
+<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
+<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Equipos</summary><ul>
+<li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
+<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
+<li><a href="/es/help/mobile-probes">Sondas</a></li>
+<li><a href="/es/help/mobile-consumables">Consumibles</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Alertas y automatización</summary><ul>
+<li><a href="/es/help/mobile-alerts" class="cur" aria-current="page">Alertas y umbrales</a></li>
+<li><a href="/es/help/mobile-notifications">Notificaciones</a></li>
+<li><a href="/es/help/mobile-automation">Automatizaciones y escenas</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Registros</summary><ul>
+<li><a href="/es/help/mobile-dosing">Dosificación</a></li>
+<li><a href="/es/help/mobile-maintenance">Mantenimiento</a></li>
+<li><a href="/es/help/mobile-livestock">Fauna</a></li>
+<li><a href="/es/help/mobile-journal">El diario</a></li>
+<li><a href="/es/help/mobile-activity">Actividad y línea de tiempo</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Inteligencia</summary><ul>
+<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
+<li><a href="/es/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
+<li><a href="/es/help/mobile-icp-health">ICP e informes de salud</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Cuenta</summary><ul>
+<li><a href="/es/help/mobile-vacation">Irse de viaje</a></li>
+<li><a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a></li>
+<li><a href="/es/help/mobile-data-export">Tus datos</a></li>
+<li><a href="/es/help/mobile-plans">Planes</a></li>
+<li><a href="/es/help/mobile-settings">Ajustes</a></li>
+<li><a href="/es/help/mobile-support">Obtener ayuda</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Primeros pasos</summary><ul>
+<li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
+<li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
+<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Tu panel</summary><ul>
+<li><a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Equipos</summary><ul>
+<li><a href="/es/help/max-controls">Tomas y controles</a></li>
+<li><a href="/es/help/max-device-control">Controlar equipos desde Cora Max</a></li>
+<li><a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Registros</summary><ul>
+<li><a href="/es/help/max-records">Diario, fauna y mantenimiento</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Inteligencia</summary><ul>
+<li><a href="/es/help/max-intelligence">Reef Buddy e informes</a></li>
+<li><a href="/es/help/max-voice">Hablar con Cora</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertas</summary><ul>
+<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
+<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ajustes</summary><ul>
+<li><a href="/es/help/max-settings">Ajustes de Cora Max</a></li>
+<li><a href="/es/help/max-updates">Actualizaciones y recuperación</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatización</summary><ul>
+<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Ayuda</p>
+<ul>
+<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
+<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
+<li><a href="/es/help/glossary">Glosario</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Alertas y umbrales</h1>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#el-centro-de-alertas">El Centro de alertas</a></li><li><a href="#fijar-un-rango">Fijar un rango</a></li><li><a href="#qu-activa-una-alerta">Qué activa una alerta</a></li><li><a href="#dnde-aparecen-las-alertas">Dónde aparecen las alertas</a></li><li><a href="#cuando-un-equipo-necesita-atencin">Cuando un equipo necesita atención</a></li><li><a href="#las-lecturas-de-red-sea-han-dejado-de-actualizarse">&quot;Las lecturas de Red Sea han dejado de actualizarse&quot;</a></li><li><a href="#elegir-qu-te-llega">Elegir qué te llega</a></li><li><a href="#tiempos-de-espera-con-qu-frecuencia-puede-avisarte-la-misma-">Tiempos de espera: con qué frecuencia puede avisarte la misma alerta</a></li><li><a href="#cerrar-una-alerta">Cerrar una alerta</a></li><li><a href="#desactivar-alertas-para-un-parmetro">Desactivar alertas para un parámetro</a></li></ul></nav>
+<p>Una alerta se genera cuando una lectura sale del rango que fijaste para ella. Tú fijas los rangos, y tú controlas qué alertas llegan a tu teléfono.</p>
+<p>Abre el <strong>Centro de alertas</strong> desde la fila de accesos directos en la parte inferior del panel.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El Centro de alertas"><img src="/help/img/mobile-alerts.webp" alt="El Centro de alertas" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Alertas activas, cada una con su gravedad, qué la activó, y cuándo.</figcaption></figure>
+<h2 id="el-centro-de-alertas">El Centro de alertas</h2>
+<p>Dos pestañas:</p>
+<ul><li><strong>Activas</strong>: alertas generadas en este momento, con una insignia de recuento</li><li><strong>Reglas</strong>: los umbrales y las reglas de velocidad de cambio que las producen</li></ul>
+<p>Cada alerta activa muestra el parámetro y el acuario, la lectura que la activó, una explicación sencilla, un chip de gravedad, el tipo de regla que se activó (<strong>Umbral</strong> o <strong>Tasa de cambio</strong>), y la hora en que se activó.</p>
+<p>Dos acciones en cada una:</p>
+<ul><li><strong>Ver regla</strong>: abre la regla que la generó, para que puedas ajustar el rango</li><li><strong>Explicar esta alerta</strong>: le pide al Asistente que la interprete frente al historial de tu acuario</li></ul>
+<h2 id="fijar-un-rango">Fijar un rango</h2>
+<p>Los parámetros que Cora puede calificar tienen un rango objetivo, y los valores predeterminados vienen del tipo y la antigüedad de tu acuario cuando lo configuraste, normalmente un punto de partida razonable. Un parámetro sin rango utilizable no se califica en absoluto: se queda en gris neutro en lugar de adivinarse.</p>
+<p>Para cambiar uno: <strong>mantén pulsado su widget</strong> en el panel, lo que abre directamente los umbrales de ese parámetro. Un toque simple abre en cambio la vista del parámetro; los dos gestos van a lugares distintos, y mantener pulsado es el atajo que vale la pena recordar.</p>
+<p>Si el parámetro todavía no tiene regla, los campos empiezan con el valor predeterminado de Cora, y una nota debajo lo indica. Cambia cualquier valor para fijar el tuyo.</p>
+<p>Para verlos todos juntos, usa <strong>Alertas</strong> en la fila de botones bajo el panel.</p>
+<p>Puedes fijar:</p>
+<ul><li><strong>Un rango</strong>: un mínimo y un máximo, para cosas como alcalinidad o temperatura</li><li><strong>Un techo</strong>: solo un máximo, para cosas donde un valor bajo está bien, como nitrato o fosfato</li><li><strong>Un suelo</strong>: solo un mínimo</li></ul>
+<aside class="cal cal-tip"><p class="cal-t">Fija el rango en el que realmente funciona tu acuario</p><p>Los valores predeterminados son un punto de partida, no un veredicto. Un acuario que funciona bajo en nutrientes a 6 dKH no está "mal" porque un gráfico diga 8-9. Fija el rango en el que realmente funcionas, y Cora te avisará cuando <em>tú</em> te desvíes.</p></aside>
+<h2 id="qu-activa-una-alerta">Qué activa una alerta</h2>
+<p>Una alerta se activa cuando una lectura cruza un umbral. Cora revisa cada lectura al llegar, así que una sola lectura fuera de tu rango basta para generar una.</p>
+<p>Una vez que una alerta está activa, no seguirá avisándote repetidamente sobre lo mismo; hay un tiempo de espera antes de que pueda activarse de nuevo. Y <strong>se cierra sola</strong> en el momento en que una lectura vuelve a estar dentro del rango; no hay nada que reconocer.</p>
+<p>También puedes fijar una regla de <strong>tasa de cambio</strong>, que observa la velocidad a la que se mueve un parámetro en lugar de dónde está en este momento. Es la que hay que usar para cosas donde la velocidad del cambio importa más que el número.</p>
+<h2 id="dnde-aparecen-las-alertas">Dónde aparecen las alertas</h2>
+<ul><li><strong>La campana</strong>, arriba a la derecha de cada pantalla, guarda tu historial. El número es cuántas no has leído.</li><li><strong>Las notificaciones push</strong> llegan a tu teléfono cuando las permites.</li><li><strong>El widget</strong> se pone ámbar o rojo en el panel.</li><li><strong>Cora Max</strong> muestra las mismas alertas en la pantalla grande.</li></ul>
+<h2 id="cuando-un-equipo-necesita-atencin">Cuando un equipo necesita atención</h2>
+<p>Algunas alertas son sobre equipo en lugar de una lectura. Cuando un dispositivo como un Trident o una bomba Jecod™ informa de un fallo, Cora envía una notificación que nombra el acuario y el dispositivo, por ejemplo <em>"Acuario principal: la bomba de retorno necesita atención"</em>, e indica qué está mal, como un rotor atascado. Cuando el fallo se resuelve, sigue una segunda: <em>"Acuario principal: la bomba de retorno vuelve a estar bien"</em>. Ambas entran en <strong>Fallas de equipos</strong> en <strong>Ajustes → Notificaciones</strong>.</p>
+<p>Un gyre Maxspect™ (beta) puede generar la misma alerta cuando un Cora Max en su red encuentra los dos cabezales fijados en 0%, o no obtiene respuesta del gyre dos veces seguidas. Trata esto como una advertencia, no como una salvaguarda: el Cora Max comprueba de vez en cuando en lugar de continuamente, y solo mientras está en marcha y puede alcanzar el gyre.</p>
+<h2 id="las-lecturas-de-red-sea-han-dejado-de-actualizarse">"Las lecturas de Red Sea™ han dejado de actualizarse"</h2>
+<p>Puede que veas este aviso en la página de parámetros de un acuario:</p>
+<blockquote><p>Las lecturas de Red Sea han dejado de actualizarse. Ningún dispositivo está leyendo los equipos Red Sea de este acuario: revisa el Cora Max principal en Ajustes o abre este acuario en un dispositivo conectado a la misma red Wi-Fi.</p></blockquote>
+<p>Significa que ningún teléfono ni Cora Max está consultando en este momento el equipo ReefBeat de ese acuario, así que las lecturas mostradas son antiguas, no necesariamente incorrectas. Toca el aviso para abrir <strong>Cora Max principal</strong> y elige un dispositivo que esté activo, o fíjalo en <strong>Cualquiera activo (automático)</strong>. Consulta <a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a>. Si no se resuelve, consulta <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
+<h2 id="elegir-qu-te-llega">Elegir qué te llega</h2>
+<p><strong>Ajustes → Notificaciones.</strong> Puedes controlar:</p>
+<ul><li>Cuál de las categorías de notificación puede enviarse</li></ul>
+<p>Reef Buddy no tiene un interruptor propio: envía un resumen cuando hay algo que merece la pena atender y se mantiene en silencio cuando no lo hay.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora está hecho para mantenerse en silencio</p><p>El resumen diario es un aviso por acuario al día, y en un día en que nada necesita tu atención normalmente se mantiene en silencio en lugar de decirte que todo va bien. Si Cora está avisando, algo cambió.</p></aside>
+<h2 id="tiempos-de-espera-con-qu-frecuencia-puede-avisarte-la-misma-">Tiempos de espera: con qué frecuencia puede avisarte la misma alerta</h2>
+<p>Cada regla tiene su propio <strong>Tiempo de espera entre alertas</strong>, fijado al añadir o editar la regla (en la pestaña <strong>Reglas</strong> del Centro de alertas). El tiempo de espera no oculta la propia alerta: solo limita con qué frecuencia Cora te envía un aviso sobre ella. La lectura sigue calificada y la alerta sigue visible en el widget y en la campana todo el tiempo.</p>
+<p>Puedes elegir entre: 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 día, 3 días, o <strong>1 semana</strong>.</p>
+<p>Un tiempo de espera corto conviene a una lectura que cambia rápido, como la temperatura. Uno largo, hasta una semana, conviene a algo que se mantiene mal durante días mientras esperas una pieza, como un Trident sin reactivo o un envase de dosificación vacío: sin un tiempo de espera largo, Cora avisaría varias veces al día sobre el mismo problema conocido.</p>
+<aside class="cal cal-note"><p class="cal-t">Posponer una alerta activa vive en Cora Max</p><p>Cora Mobile no tiene un botón de Posponer propio en una alerta activa; ese control está en la pantalla de Cora Max del acuario, y silencia la misma alerta durante el tiempo de espera que elegiste aquí. Desde el teléfono, la forma de cambiar con qué frecuencia te avisan de algo es este tiempo de espera por regla, no un aplazamiento por alerta.</p></aside>
+<h2 id="cerrar-una-alerta">Cerrar una alerta</h2>
+<p>Una alerta se cierra cuando la lectura vuelve a estar en rango. No hay nada que descartar; es una afirmación sobre el acuario, no una tarea.</p>
+<aside class="cal cal-note"><p class="cal-t">Las lecturas puntuales generan alertas</p><p>Una sola lectura fuera de rango basta para generar una alerta, así que una sonda que se dispara activará una. Si una fuente no es fiable, recalíbrala o apunta el widget a otra fuente en lugar de ampliar el umbral.</p></aside>
+<p>Si una lectura está mal en lugar de que el acuario esté mal (una sonda que necesita calibrarse, por ejemplo), arregla la fuente. Ampliar un umbral para silenciar una sonda defectuosa también oculta el próximo problema real.</p>
+<h2 id="desactivar-alertas-para-un-parmetro">Desactivar alertas para un parámetro</h2>
+<p>Abre la regla en la pestaña <strong>Reglas</strong> del Centro de alertas y desactiva su <strong>interruptor de activación</strong>. La regla y su rango se conservan, así que puedes volver a activarla sin crearla de nuevo.</p>
+<aside class="cal cal-warning"><p class="cal-t">Silencia un parámetro sin eliminar su rango</p><p>Eliminar un umbral no necesariamente detiene toda evaluación de esa lectura; las bandas de referencia predeterminadas siguen coloreando el valor y pueden seguir alimentando el resumen. Usa el interruptor de activación de la regla.</p></aside>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-consumables"><span>Anterior</span><b>Consumibles</b></a><a class="pn-n" href="/es/help/mobile-notifications"><span>Siguiente</span><b>Notificaciones</b></a></nav>
+      <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-27.</p>
+      <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/es/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacidad</a> ·
+      <a href="/terms-and-conditions.html">Términos</a> ·
+      <a href="/support.html">Soporte</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Sin resultados para \u201c" + esc(q) + "\u201d." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Buscar en la gu\u00eda");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Buscar en la guía…" aria-label="Buscar en la guía" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/es/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

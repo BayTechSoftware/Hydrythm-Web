@@ -261,6 +261,39 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
 .snone { padding: 22px; color: var(--text-3); font-size: 14px; }
 @media (max-width: 900px) { .hfind span, .hfind kbd { display: none; } }
 
+/* ── Language switcher ──────────────────────────────────────────────────
+   ⭐ <details>/<summary>, same as the sidebar groups: works with no
+   JavaScript, and is a real disclosure widget for assistive tech rather
+   than a div with a click handler bolted on. */
+.hlang { position: relative; font-size: 13.5px; }
+.hlang > summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center;
+  gap: 5px; padding: 6px 10px; color: var(--text-2); background: var(--surface-2);
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+}
+.hlang > summary::-webkit-details-marker { display: none; }
+.hlang > summary::after {
+  content: ""; width: 0; height: 0; margin-left: 2px;
+  border-left: 4px solid transparent; border-right: 4px solid transparent;
+  border-top: 5px solid currentColor; opacity: .6;
+}
+.hlang > summary:hover { border-color: var(--line-strong); color: var(--text); }
+.hlang[open] > summary { border-color: var(--line-strong); }
+.hlang > ul {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 45;
+  margin: 0; padding: 6px; list-style: none; min-width: 150px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); box-shadow: 0 14px 34px rgba(0,0,0,.14);
+}
+.hlang > ul li { margin: 0; }
+.hlang > ul a {
+  display: block; padding: 7px 10px; border-radius: 4px;
+  text-decoration: none; color: var(--text-2); font-size: 13.5px; white-space: nowrap;
+}
+.hlang > ul a:hover { background: var(--surface-2); color: var(--text); }
+.hlang > ul a.cur { color: var(--brand-deep); font-weight: 600; }
+@media (max-width: 640px) { .hlang > summary span { max-width: 64px; overflow: hidden; text-overflow: ellipsis; } }
+
 /* ── Zoomable screenshots ────────────────────────────────────────────── */
 .zoom {
   display: block; padding: 0; border: 0; background: none; width: 100%;
@@ -430,4 +463,9 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   .hnav-in, .hwrap, .hfoot-in { padding-left: 18px; padding-right: 18px; }
   .hbrand img { width: 78px; }
   .hback { font-size: 13px; }
+  /* 2026-09-27: with the language menu the header ran out of room at phone
+     width (the search button squeezed, "coraiq.tech ->" wrapped). The logo
+     and the footer still lead home. */
+  .hback { display: none; }
+  .hfind { flex-shrink: 0; }
 }

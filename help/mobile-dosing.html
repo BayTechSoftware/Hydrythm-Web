@@ -7,6 +7,14 @@
   <meta name="description" content="Tell Cora what you dose so it can turn millilitres into an actual change in your tank.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-dosing">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-dosing">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-dosing">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-dosing">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-dosing">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-dosing">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-dosing">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-dosing">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-dosing">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Dosing | Cora Help">
   <meta property="og:description" content="Tell Cora what you dose so it can turn millilitres into an actual change in your tank.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-dosing" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-dosing">Deutsch</a></li><li><a href="/fr/help/mobile-dosing">Français</a></li><li><a href="/tr/help/mobile-dosing">Türkçe</a></li><li><a href="/it/help/mobile-dosing">Italiano</a></li><li><a href="/es/help/mobile-dosing">Español</a></li><li><a href="/pl/help/mobile-dosing">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -162,7 +171,7 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-product-library">The product library</a></li><li><a href="#adding-your-own">Adding your own</a></li><li><a href="#the-dose-calculator">The dose calculator</a></li><li><a href="#consumption">Consumption</a></li><li><a href="#dosing-equipment">Dosing equipment</a></li></ul></nav>
 <p>Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream (the calculator, consumption tracking, and what Cora tells you about your dosing) becomes real numbers rather than guesses.</p>
 <p><strong>Settings → Dosing Products.</strong></p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Dosing products"><img src="img/mobile-dosing.webp" alt="Dosing products" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Products carry the strength Cora uses for dose and consumption calculations.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Dosing products"><img src="/help/img/mobile-dosing.webp" alt="Dosing products" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Products carry the strength Cora uses for dose and consumption calculations.</figcaption></figure>
 <h2 id="the-product-library">The product library</h2>
 <p>Cora ships with a library of common products. Search for yours and add it; the strength comes with it.</p>
 <p>Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a fixed volume of water. That is the number that turns "5 ml" into "+0.2 dKH in your tank".</p>
@@ -183,8 +192,8 @@
 <h2 id="dosing-equipment">Dosing equipment</h2>
 <p>If you have a connected dosing unit, its heads appear as devices with their own readings: what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your equipment</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-automation"><span>Previous</span><b>Automations and scenes</b></a><a class="pn-n" href="/help/mobile-maintenance"><span>Next</span><b>Maintenance</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -268,6 +277,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -355,7 +375,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -379,7 +399,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -397,8 +417,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

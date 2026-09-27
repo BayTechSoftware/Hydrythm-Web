@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uyarılar ve eşikler | Cora Help</title>
+  <meta name="description" content="Her parametre için aralığı belirleyin, ne hakkında bilgilendirileceğinizi seçin ve bir uyarının neden tetiklendiğini anlayın.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/tr/help/mobile-alerts">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-alerts">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-alerts">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-alerts">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-alerts">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-alerts">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-alerts">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-alerts">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-alerts">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Uyarılar ve eşikler | Cora Help">
+  <meta property="og:description" content="Her parametre için aralığı belirleyin, ne hakkında bilgilendirileceğinizi seçin ve bir uyarının neden tetiklendiğini anlayın.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/tr/help/mobile-alerts">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/tr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Kılavuzda ara">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Ara</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Dil"><span>Türkçe</span></summary><ul><li><a href="/help/mobile-alerts">English</a></li><li><a href="/de/help/mobile-alerts">Deutsch</a></li><li><a href="/fr/help/mobile-alerts">Français</a></li><li><a href="/tr/help/mobile-alerts" aria-current="true" class="cur">Türkçe</a></li><li><a href="/it/help/mobile-alerts">Italiano</a></li><li><a href="/es/help/mobile-alerts">Español</a></li><li><a href="/pl/help/mobile-alerts">Polski</a></li></ul></details>
+    <a class="hback" href="/tr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Menüyü kapat">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/tr/help/">Cora Yardım</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
+<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
+<li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets">Widget referansı</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
+<li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
+<li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-probes">Problar</a></li>
+<li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Uyarılar ve otomasyon</summary><ul>
+<li><a href="/tr/help/mobile-alerts" class="cur" aria-current="page">Uyarılar ve eşikler</a></li>
+<li><a href="/tr/help/mobile-notifications">Bildirimler</a></li>
+<li><a href="/tr/help/mobile-automation">Otomasyonlar ve sahneler</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/mobile-dosing">Dozaj</a></li>
+<li><a href="/tr/help/mobile-maintenance">Bakım</a></li>
+<li><a href="/tr/help/mobile-livestock">Canlılar</a></li>
+<li><a href="/tr/help/mobile-journal">Günlük</a></li>
+<li><a href="/tr/help/mobile-activity">Etkinlik ve zaman çizelgesi</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
+<li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Hesap</summary><ul>
+<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
+<li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
+<li><a href="/tr/help/mobile-plans">Planlar</a></li>
+<li><a href="/tr/help/mobile-settings">Ayarlar</a></li>
+<li><a href="/tr/help/mobile-support">Yardım alma</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/max-setup">Cora Max&#x27;i kurma</a></li>
+<li><a href="/tr/help/max-tour">Cora Max ana ekranı</a></li>
+<li><a href="/tr/help/max-reef-room">Reef Room</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/max-dashboard-editing">Cora Max panosunu düzenleme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/max-controls">Prizler ve kontroller</a></li>
+<li><a href="/tr/help/max-device-control">Cora Max&#x27;ten ekipman kontrolü</a></li>
+<li><a href="/tr/help/max-devices">Cihazlar ve cihaz sağlığı</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/max-records">Günlük, canlılar ve bakım</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/max-intelligence">Reef Buddy ve raporlar</a></li>
+<li><a href="/tr/help/max-voice">Cora ile konuşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar</summary><ul>
+<li><a href="/tr/help/max-activity">Cora Max&#x27;te etkinlik</a></li>
+<li><a href="/tr/help/max-alerts">Cora Max&#x27;te uyarılar</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ayarlar</summary><ul>
+<li><a href="/tr/help/max-settings">Cora Max ayarları</a></li>
+<li><a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Otomasyon</summary><ul>
+<li><a href="/tr/help/max-automation">Cora Max&#x27;te sahneler</a></li>
+</ul></details>
+<p class="nav-sec">Yardım</p>
+<ul>
+<li><a href="/tr/help/faq">Sıkça sorulan sorular</a></li>
+<li><a href="/tr/help/troubleshooting">Sorun giderme</a></li>
+<li><a href="/tr/help/glossary">Sözlük</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Uyarılar ve eşikler</h1>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#uyar-merkezi">Uyarı Merkezi</a></li><li><a href="#bir-aralk-belirleme">Bir aralık belirleme</a></li><li><a href="#bir-uyary-ne-tetikler">Bir uyarıyı ne tetikler</a></li><li><a href="#uyarlar-nerede-grnr">Uyarılar nerede görünür</a></li><li><a href="#ekipman-ilgi-gerektirdiinde">Ekipman ilgi gerektirdiğinde</a></li><li><a href="#red-sea-okumalar-gncellenmeyi-durdurdu">&quot;Red Sea okumaları güncellenmeyi durdurdu&quot;</a></li><li><a href="#size-ne-ulaacan-seme">Size ne ulaşacağını seçme</a></li><li><a href="#bekleme-sreleri-ayn-uyarnn-size-ne-sklkla-bildirebilecei">Bekleme süreleri: aynı uyarının size ne sıklıkla bildirebileceği</a></li><li><a href="#bir-uyary-temizleme">Bir uyarıyı temizleme</a></li><li><a href="#bir-parametre-iin-uyarlar-devre-d-brakma">Bir parametre için uyarıları devre dışı bırakma</a></li></ul></nav>
+<p>Bir okuma, onun için belirlediğiniz aralığın dışına çıktığında bir uyarı yükseltilir. Aralıkları siz belirlersiniz ve hangi uyarıların telefonunuza ulaştığını siz kontrol edersiniz.</p>
+<p><strong>Uyarı Merkezi</strong>'ni panonun altındaki kısayol satırından açın.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Uyarı Merkezi"><img src="/help/img/mobile-alerts.webp" alt="Uyarı Merkezi" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Etkin uyarılar, her biri önem derecesi, onu tetikleyen ve zamanıyla.</figcaption></figure>
+<h2 id="uyar-merkezi">Uyarı Merkezi</h2>
+<p>İki sekme:</p>
+<ul><li><strong>Etkin</strong>: şu anda yükseltilmiş uyarılar, bir sayaç rozetiyle</li><li><strong>Kurallar</strong>: onları üreten eşikler ve değişim hızı kuralları</li></ul>
+<p>Her etkin uyarı, parametreyi ve akvaryumu, onu tetikleyen okumayı, düz bir açıklamayı, bir önem derecesi çipini, tetiklenen kural türünü (<strong>Eşik</strong> veya <strong>Değişim Hızı</strong>) ve tetiklendiği zamanı gösterir.</p>
+<p>Her birinde iki eylem:</p>
+<ul><li><strong>Kuralı görüntüle</strong>: onu yükselten kuralı açar, böylece aralığı ayarlayabilirsiniz</li><li><strong>Bu uyarıyı açıkla</strong>: Assistant'tan onu akvaryumunuzun geçmişine karşı yorumlamasını ister</li></ul>
+<h2 id="bir-aralk-belirleme">Bir aralık belirleme</h2>
+<p>Cora'nın derecelendirebildiği parametrelerin bir hedef aralığı vardır ve varsayılanlar, akvaryumu kurduğunuzda akvaryum türünüzden ve yaşınızdan gelir, genellikle başlamak için makul bir yerdir. Kullanılabilir bir aralığı olmayan bir parametre hiç derecelendirilmez: tahmin edilmek yerine tarafsız gri kalır.</p>
+<p>Birini değiştirmek için: panodaki widget'ına <strong>uzun basın</strong>, bu doğrudan o parametrenin eşiklerini açar. Düz bir dokunuş bunun yerine parametre görünümünü açar; iki hareket farklı yerlere gider ve uzun basış hatırlanmaya değer kısayoldur.</p>
+<p>Parametrenin henüz bir kuralı yoksa, alanlar Cora'nın varsayılanıyla başlar ve altındaki bir not bunu söyler. Kendi değerinizi belirlemek için herhangi bir değeri değiştirin.</p>
+<p>Hepsini bir arada görmek için, panonun altındaki düğme satırında <strong>Uyarılar</strong>'ı kullanın.</p>
+<p>Şunları belirleyebilirsiniz:</p>
+<ul><li><strong>Bir aralık</strong>: alkalinite veya sıcaklık gibi şeyler için bir alt ve bir üst</li><li><strong>Bir tavan</strong>: düşük olmasının sorun olmadığı, nitrat veya fosfat gibi şeyler için yalnızca bir üst</li><li><strong>Bir zemin</strong>: yalnızca bir alt</li></ul>
+<aside class="cal cal-tip"><p class="cal-t">Akvaryumunuzun gerçekte çalıştığı aralığı belirleyin</p><p>Varsayılanlar bir başlangıç noktasıdır, bir hüküm değil. 6 dKH'de düşük besinli çalışan bir akvaryum, bir grafik 8-9 dediği için "yanlış" değildir. Gerçekte çalıştığınız aralığı belirleyin ve Cora <em>siz</em> kaydığınızda size söyler.</p></aside>
+<h2 id="bir-uyary-ne-tetikler">Bir uyarıyı ne tetikler</h2>
+<p>Bir okuma bir eşiği geçtiğinde bir uyarı tetiklenir. Cora her okumayı geldiği anda kontrol eder, bu yüzden aralığınızın dışında tek bir okuma birini yükseltmeye yeterlidir.</p>
+<p>Bir uyarı yükseldikten sonra sizi aynı şey hakkında tekrar tekrar bildirmeyi sürdürmez; yeniden tetiklenebilmesinden önce bir bekleme süresi vardır. Ve bir okuma aralığın içine geri döndüğü anda <strong>kendini kapatır</strong>; onaylanacak bir şey yoktur.</p>
+<p>Bir <strong>değişim hızı</strong> kuralı da belirleyebilirsiniz; bu, bir parametrenin şu anda nerede olduğuna değil, ne kadar hızlı hareket ettiğine bakar. Bir sayıdan çok değişimin hızının önemli olduğu şeyler için kullanılacak olan budur.</p>
+<h2 id="uyarlar-nerede-grnr">Uyarılar nerede görünür</h2>
+<ul><li>Her ekranın sağ üstündeki <strong>zil</strong>, geçmişinizi tutar. Sayı, okumadığınız kadarıdır.</li><li><strong>Push bildirimleri</strong>, izin verdiğinizde telefonunuza ulaşır.</li><li><strong>Widget</strong>, panoda amber veya kırmızıya döner.</li><li><strong>Cora Max</strong>, aynı uyarıları büyük ekranda gösterir.</li></ul>
+<h2 id="ekipman-ilgi-gerektirdiinde">Ekipman ilgi gerektirdiğinde</h2>
+<p>Bazı uyarılar bir okuma hakkında değil ekipman hakkındadır. Bir Trident veya bir Jecod™ pompası gibi bir cihaz bir arıza bildirdiğinde, Cora akvaryumu ve cihazı adlandıran bir bildirim gönderir, örneğin <em>"Sergi akvaryumu: Ana pompa ilgi gerektiriyor"</em>, ve sıkışmış bir rotor gibi neyin yanlış olduğunu söyler. Arıza temizlendiğinde, ikinci bir bildirim gelir: <em>"Sergi akvaryumu: Ana pompa yine iyi"</em>. İkisi de <strong>Ayarlar → Bildirimler</strong>'de <strong>Ekipman Arızaları</strong> altındadır.</p>
+<p>Bir Maxspect™ gyre (beta), ağında bir Cora Max her iki kafayı da %0'da bulduğunda, veya gyre'den art arda iki kez yanıt alamadığında aynı uyarıyı yükseltebilir. Bunu bir uyarı olarak ele alın, bir güvenlik önlemi olarak değil: Cora Max sürekli değil zaman zaman kontrol eder ve yalnızca çalışırken ve gyre'ye ulaşabildiğinde.</p>
+<h2 id="red-sea-okumalar-gncellenmeyi-durdurdu">"Red Sea™ okumaları güncellenmeyi durdurdu"</h2>
+<p>Bir akvaryumun parametre sayfasında bu banner'ı görebilirsiniz:</p>
+<blockquote><p>Red Sea okumaları güncellenmeyi durdurdu. Şu anda bu akvaryumun Red Sea cihazlarını okuyan bir cihaz yok: Ayarlar'da Birincil Cora Max'i kontrol edin, veya bu akvaryumu aynı Wi-Fi'deki bir cihazda açın.</p></blockquote>
+<p>Bu, şu anda o akvaryumun ReefBeat ekipmanını hiçbir telefonun veya Cora Max'in yoklamadığı anlamına gelir; bu yüzden gösterilen okumalar eski, mutlaka yanlış değil. Banner'a dokunun, <strong>Birincil Cora Max</strong>'i açın ve açık olan bir cihaz seçin, veya onu <strong>Aktif olan herhangi biri (otomatik)</strong>'e ayarlayın. Bkz. <a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a>. Kapanmıyorsa, bkz. <a href="/tr/help/troubleshooting">Sorun giderme</a>.</p>
+<h2 id="size-ne-ulaacan-seme">Size ne ulaşacağını seçme</h2>
+<p><strong>Ayarlar → Bildirimler.</strong> Şunları kontrol edebilirsiniz:</p>
+<ul><li>Hangi bildirim kategorilerinin push gönderebileceği</li></ul>
+<p>Reef Buddy'nin kendi anahtarı yoktur: harekete geçmeye değer bir şey olduğunda bir briefing gönderir ve olmadığında sessiz kalır.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora sessiz kalmak için tasarlandı</p><p>Günlük briefing, akvaryum başına günde bir push'tur ve hiçbir şeyin ilginizi gerektirmediği bir günde, size her şeyin iyi olduğunu söylemek yerine genellikle sessiz kalır. Cora push gönderiyorsa, bir şey değişti demektir.</p></aside>
+<h2 id="bekleme-sreleri-ayn-uyarnn-size-ne-sklkla-bildirebilecei">Bekleme süreleri: aynı uyarının size ne sıklıkla bildirebileceği</h2>
+<p>Her kuralın kendi <strong>Uyarılar arası bekleme süresi</strong> vardır, kuralı eklerken veya düzenlerken (Uyarı Merkezi'nin <strong>Kurallar</strong> sekmesinde) belirlenir. Bekleme süresi uyarının kendisini gizlemez: yalnızca Cora'nın onun hakkında size ne sıklıkla push gönderdiğini sınırlar. Okuma boyunca derecelendirilmiş kalır ve uyarı widget'ta ve zilde görünür kalır.</p>
+<p>Şunlardan seçebilirsiniz: 15 dk, 30 dk, 1 sa, 2 sa, 4 sa, 8 sa, 1 gün, 3 gün, veya <strong>1 hafta</strong>.</p>
+<p>Kısa bir bekleme süresi, sıcaklık gibi hızlı hareket eden bir okumaya uyar. Bir haftaya kadar uzun bir bekleme süresi, bir parça beklerken günlerce yanlış kalan bir şeye uyar, örneğin reaktifi bitmiş bir Trident veya boş bir dozaj kabı: uzun bir bekleme süresi olmadan, Cora aynı bilinen sorun hakkında günde birkaç kez push gönderirdi.</p>
+<aside class="cal cal-note"><p class="cal-t">Etkin bir uyarıyı erteleme Cora Max'te yaşar</p><p>Cora Mobile'ın etkin bir uyarıda kendi Ertele düğmesi yoktur; o kontrol akvaryumdaki Cora Max ekranındadır ve aynı uyarıyı burada seçtiğiniz bekleme süresi kadar susturur. Telefondan, bir şey hakkında ne sıklıkta bilgilendirileceğinizi değiştirmenin yolu bu kural başına bekleme süresidir, uyarı başına bir erteleme değil.</p></aside>
+<h2 id="bir-uyary-temizleme">Bir uyarıyı temizleme</h2>
+<p>Okuma aralığa geri döndüğünde bir uyarı kapanır. Kapatılacak bir şey yoktur; bu bir görev değil, akvaryum hakkında bir ifadedir.</p>
+<aside class="cal cal-note"><p class="cal-t">Geçici okumalar uyarı yükseltir</p><p>Aralık dışında tek bir okuma bir uyarı yükseltmeye yeterlidir, bu yüzden ani bir sıçrama yapan bir prob birini tetikler. Bir kaynak güvenilmezse, onu yeniden kalibre edin veya widget'ı farklı bir kaynağa işaret edin, eşiği genişletmek yerine.</p></aside>
+<p>Bir okuma yanlışsa, akvaryum yanlış olduğu için değilse (kalibrasyon gereken bir prob gibi), kaynağı düzeltin. Kötü bir probu susturmak için bir eşiği genişletmek, bir sonraki gerçek sorunu da gizler.</p>
+<h2 id="bir-parametre-iin-uyarlar-devre-d-brakma">Bir parametre için uyarıları devre dışı bırakma</h2>
+<p>Uyarı Merkezi'nin <strong>Kurallar</strong> sekmesinde kuralı açın ve <strong>etkinleştirme anahtarını</strong> kapatın. Kural ve aralığı korunur, böylece onu yeniden oluşturmadan geri açabilirsiniz.</p>
+<aside class="cal cal-warning"><p class="cal-t">Bir parametreyi silmeden susturun</p><p>Bir eşiği kaldırmak, o okumanın her değerlendirmesini durdurmayabilir; varsayılan referans bantları değeri hâlâ renklendirebilir ve briefingi hâlâ besleyebilir. Kuralın etkinleştirme anahtarını kullanın.</p></aside>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-consumables"><span>Önceki</span><b>Sarf malzemeleri</b></a><a class="pn-n" href="/tr/help/mobile-notifications"><span>Sonraki</span><b>Bildirimler</b></a></nav>
+      <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-27.</p>
+      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/tr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Gizlilik</a> ·
+      <a href="/terms-and-conditions.html">Koşullar</a> ·
+      <a href="/support.html">Destek</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "\u201c" + esc(q) + "\u201d i\u00e7in sonu\u00e7 bulunamad\u0131." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "K\u0131lavuzda ara");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Kılavuzda ara…" aria-label="Kılavuzda ara" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/tr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

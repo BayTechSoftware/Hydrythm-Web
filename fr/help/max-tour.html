@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L’écran d’accueil de Cora Max | Cora Help</title>
+  <meta name="description" content="Ce que signifie tout ce qui se trouve sur l’affichage Cora Max : la barre supérieure, la grille du tableau de bord, et le tiroir des prises.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/fr/help/max-tour">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-tour">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/max-tour">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/max-tour">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/max-tour">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/max-tour">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/max-tour">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/max-tour">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-tour">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="L’écran d’accueil de Cora Max | Cora Help">
+  <meta property="og:description" content="Ce que signifie tout ce qui se trouve sur l’affichage Cora Max : la barre supérieure, la grille du tableau de bord, et le tiroir des prises.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/fr/help/max-tour">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/fr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Rechercher dans le guide">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Rechercher</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Langue"><span>Français</span></summary><ul><li><a href="/help/max-tour">English</a></li><li><a href="/de/help/max-tour">Deutsch</a></li><li><a href="/fr/help/max-tour" aria-current="true" class="cur">Français</a></li><li><a href="/tr/help/max-tour">Türkçe</a></li><li><a href="/it/help/max-tour">Italiano</a></li><li><a href="/es/help/max-tour">Español</a></li><li><a href="/pl/help/max-tour">Polski</a></li></ul></details>
+    <a class="hback" href="/fr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Fermer la navigation">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/fr/help/">Aide Cora</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Prise en main</summary><ul>
+<li><a href="/fr/help/mobile-setup">Configurer Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
+<li><a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a></li>
+<li><a href="/fr/help/mobile-tour">Les cinq onglets</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Votre tableau de bord</summary><ul>
+<li><a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-dashboard-editing">Modifier votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-widgets">Référence des widgets</a></li>
+<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
+<li><a href="/fr/help/mobile-sharing">Partager votre aquarium</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Équipement</summary><ul>
+<li><a href="/fr/help/mobile-devices">Ajouter, modifier et retirer des appareils</a></li>
+<li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
+<li><a href="/fr/help/mobile-device-control">Contrôler votre équipement</a></li>
+<li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
+<li><a href="/fr/help/mobile-probes">Sondes</a></li>
+<li><a href="/fr/help/mobile-consumables">Consommables</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertes et automatisation</summary><ul>
+<li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
+<li><a href="/fr/help/mobile-notifications">Notifications</a></li>
+<li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Journaux</summary><ul>
+<li><a href="/fr/help/mobile-dosing">Dosage</a></li>
+<li><a href="/fr/help/mobile-maintenance">Entretien</a></li>
+<li><a href="/fr/help/mobile-livestock">Population</a></li>
+<li><a href="/fr/help/mobile-journal">Le journal</a></li>
+<li><a href="/fr/help/mobile-activity">Activité et chronologie</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligence</summary><ul>
+<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
+<li><a href="/fr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
+<li><a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Compte</summary><ul>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances</a></li>
+<li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
+<li><a href="/fr/help/mobile-data-export">Vos données</a></li>
+<li><a href="/fr/help/mobile-plans">Forfaits</a></li>
+<li><a href="/fr/help/mobile-settings">Réglages</a></li>
+<li><a href="/fr/help/mobile-support">Obtenir de l’aide</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g" open>
+<summary>Prise en main</summary><ul>
+<li><a href="/fr/help/max-setup">Configurer Cora Max</a></li>
+<li><a href="/fr/help/max-tour" class="cur" aria-current="page">L’écran d’accueil de Cora Max</a></li>
+<li><a href="/fr/help/max-reef-room">La pièce du récif</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Votre tableau de bord</summary><ul>
+<li><a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Équipement</summary><ul>
+<li><a href="/fr/help/max-controls">Prises et commandes</a></li>
+<li><a href="/fr/help/max-device-control">Contrôler l’équipement depuis Cora Max</a></li>
+<li><a href="/fr/help/max-devices">Appareils et état des appareils</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Journaux</summary><ul>
+<li><a href="/fr/help/max-records">Journal, population et entretien</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligence</summary><ul>
+<li><a href="/fr/help/max-intelligence">Reef Buddy et rapports</a></li>
+<li><a href="/fr/help/max-voice">Parler à Cora</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertes</summary><ul>
+<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
+<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Paramètres</summary><ul>
+<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatisation</summary><ul>
+<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Aide</p>
+<ul>
+<li><a href="/fr/help/faq">Questions fréquentes</a></li>
+<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
+<li><a href="/fr/help/glossary">Glossaire</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>L’écran d’accueil de Cora Max</h1>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#la-barre-suprieure">La barre supérieure</a></li><li><a href="#le-tableau-de-bord">Le tableau de bord</a></li><li><a href="#le-menu-de-laquarium">Le menu de l’aquarium</a></li><li><a href="#changer-daquarium">Changer d’aquarium</a></li><li><a href="#le-tiroir-prises-et-nourrissage">Le tiroir Prises et nourrissage</a></li><li><a href="#si-quelque-chose-semble-anormal">Si quelque chose semble anormal</a></li></ul></nav>
+<p>Cora Max affiche un aquarium à la fois, remplissant l’écran de mesures en direct que vous pouvez lire depuis l’autre bout de la pièce.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: L’écran d’accueil de Cora Max"><img src="/help/img/max-home.webp" alt="L’écran d’accueil de Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Un aquarium, remplissant l’écran.</figcaption></figure>
+<h2 id="la-barre-suprieure">La barre supérieure</h2>
+<p>De gauche à droite :</p>
+<ul><li><strong>L’icône de grille</strong> ouvre la Pièce du récif, la vue d’ensemble de chaque aquarium que cet écran affiche</li><li><strong>Le nom de l’aquarium</strong>, avec un chevron. Le toucher ouvre le <strong>menu de l’aquarium</strong> : chaque écran pour l’aquarium affiché, de l’enregistrement d’un résultat de test à l’arrangement du tableau de bord. La liste complète est ci-dessous.</li><li><strong>Pastilles d’alerte</strong> : tout ce qui est actuellement hors plage, avec un <strong>+n</strong> quand il y en a plus que ce qui tient. Touchez pour les voir toutes.</li><li><strong>L’horloge</strong></li><li><strong>La pastille d’état</strong> : ce que cet écran fait actuellement. Vert est en bon état, orange demande attention, rouge est une panne. Le vocabulaire complet est ci-dessous.</li><li><strong>Batterie et Wi-Fi</strong></li><li><strong>L’icône des appareils</strong> : tout ce qui est connecté, et comment cela se comporte</li><li><strong>L’icône Reef Buddy</strong> : ouvre le briefing d’aujourd’hui. Un point signifie que le briefing n’a pas encore été lu.</li><li><strong>L’icône Cora Assistant</strong> : démarre une conversation vocale</li><li><strong>La roue dentée</strong> : réglages</li></ul>
+<h3 id="ce-que-signifie-la-pastille-dtat">Ce que signifie la pastille d’état</h3>
+<div class="tw"><table class="stack"><thead><tr><th>Pastille</th><th>Signification</th></tr></thead><tbody><tr><td data-th="Pastille"><strong>En ligne</strong></td><td data-th="Signification">Cet écran collecte vos mesures, et elles sont actuelles</td></tr><tr><td data-th="Pastille"><strong>Cloud</strong></td><td data-th="Signification">Un autre Cora collecte les mesures de cet aquarium et cet écran les affiche. Tout aussi actuel qu’<strong>En ligne</strong> ; avec plus d’un Cora, l’écran qui ne fait pas la collecte affiche ceci</td></tr><tr><td data-th="Pastille"><strong>Interrogation de l’Apex</strong>, <strong>Voix active</strong></td><td data-th="Signification">Travaille sur quelque chose en ce moment</td></tr><tr><td data-th="Pastille"><strong>Interrogation désactivée</strong></td><td data-th="Signification">La collecte est désactivée pour cet aquarium. Vous pouvez la réactiver depuis Cora Mobile</td></tr><tr><td data-th="Pastille"><strong>Mise à jour</strong></td><td data-th="Signification">La collecte est en pause pendant l’installation d’une mise à jour</td></tr><tr><td data-th="Pastille"><strong>Obsolète</strong></td><td data-th="Signification">Les mesures ont arrêté d’arriver. L’écran affiche la dernière qu’il a reçue</td></tr><tr><td data-th="Pastille"><strong>Nouvelle tentative Apex dans 12 s</strong></td><td data-th="Signification">Votre Apex n’a pas répondu. Cora Max réessaie quand le compte à rebours se termine</td></tr><tr><td data-th="Pastille"><strong>Échec de la synchronisation cloud</strong></td><td data-th="Signification">Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées sur Cora Cloud, donc le tableau de bord prend du retard. Cora Max continue de réessayer</td></tr><tr><td data-th="Pastille"><strong>Hors ligne</strong></td><td data-th="Signification">Aucune connexion. L’écran affiche les dernières données qu’il a reçues</td></tr><tr><td data-th="Pastille"><strong>Hors ligne, nouvelle tentative dans 45 s</strong></td><td data-th="Signification">Votre réseau fonctionne, mais Cora Cloud est inaccessible depuis plus de 30 secondes. Cora Max se reconnecte lui-même ; le compte à rebours est le temps avant sa prochaine tentative</td></tr><tr><td data-th="Pastille"><strong>Cora principal hors ligne</strong></td><td data-th="Signification">Cet écran est un second Cora Max pour cet aquarium, et le <strong>Cora Max principal</strong> (celui épinglé pour interroger l’équipement de cet aquarium) est passé hors ligne. Cet écran continue d’afficher les dernières données qu’il a jusqu’à ce que le principal revienne, ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Voir <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></td></tr><tr><td data-th="Pastille"><strong>Mot de passe Apex</strong></td><td data-th="Signification">Votre Apex a rejeté le mot de passe enregistré. Voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a></td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">Comment fonctionne le compte à rebours de nouvelle tentative</p><p>Cora Max essaie de se reconnecter à un rythme fixe : environ 15 secondes après la première coupure, 15 secondes après cela, puis deux fois à 30 secondes, puis une fois par minute jusqu’à ce qu’il réussisse. Il ne réessaie pas instantanément et n’abandonne pas ; un écran affichant <strong>Hors ligne, nouvelle tentative dans 45 s</strong> fait exactement ce qu’il devrait.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Cora Assistant commence à écouter immédiatement</p><p>Toucher l’icône Cora Assistant démarre une session vocale en direct. Si vous vouliez ouvrir les réglages, c’est la roue dentée tout à droite.</p></aside>
+<h2 id="le-tableau-de-bord">Le tableau de bord</h2>
+<p>Le reste de l’écran est le tableau de bord : une grille fixe de widgets, tous visibles à la fois. Le tableau de bord Cora Max ne défile pas.</p>
+<p>Les widgets fonctionnent comme sur votre téléphone, à une taille que vous pouvez lire en vous tenant en retrait. Voir <strong><a href="/fr/help/mobile-widgets">Référence des widgets</a></strong> pour ce que montre chaque forme, et <strong><a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a></strong> pour changer ce qui s’y trouve.</p>
+<p>Chaque widget affichant un paramètre mesuré porte son <strong>ancienneté</strong> et sa <strong>source</strong>, tout comme sur le téléphone. Un chiffre avec <code>2d</code> à côté a deux jours, et est affiché comme tel. Les tuiles d’appareil et de commande affichent leur propre état à la place.</p>
+<h2 id="le-menu-de-laquarium">Le menu de l’aquarium</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Le menu de l’aquarium"><img src="/help/img/max-menu.webp" alt="Le menu de l’aquarium" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Tout pour l’aquarium actuel, depuis le nom de l’aquarium dans la barre supérieure.</figcaption></figure>
+<p>Toucher le nom de l’aquarium ouvre le menu pour l’aquarium actuellement à l’écran :</p>
+<div class="tw"><table class="stack"><thead><tr><th>Élément</th><th>Ouvre</th></tr></thead><tbody><tr><td data-th="Élément"><strong>Enregistrer les paramètres</strong></td><td data-th="Ouvre">Saisissez des mesures de test en kit sur le clavier à l’écran</td></tr><tr><td data-th="Élément"><strong>Journal</strong></td><td data-th="Ouvre"><a href="/fr/help/mobile-journal">Le journal</a> pour cet aquarium</td></tr><tr><td data-th="Élément"><strong>Reef Buddy</strong></td><td data-th="Ouvre">Le <a href="/fr/help/mobile-reef-buddy">briefing</a> actuel</td></tr><tr><td data-th="Élément"><strong>Rapports de santé</strong></td><td data-th="Ouvre">Les évaluations de santé</td></tr><tr><td data-th="Élément"><strong>Entretien</strong></td><td data-th="Ouvre">La <a href="/fr/help/mobile-maintenance">liste des tâches</a></td></tr><tr><td data-th="Élément"><strong>Rapports ICP</strong></td><td data-th="Ouvre">Les <a href="/fr/help/mobile-icp-health">résultats de laboratoire</a> téléchargés</td></tr><tr><td data-th="Élément"><strong>Alertes</strong></td><td data-th="Ouvre">La bande saine pour chaque mesure de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Population</strong></td><td data-th="Ouvre">L’<a href="/fr/help/mobile-livestock">inventaire</a> de cet aquarium, en lecture seule sur cet écran</td></tr><tr><td data-th="Élément"><strong>Activité</strong></td><td data-th="Ouvre"><a href="/fr/help/max-activity">Chaque prise, nourrissage et dosage</a>, et ce qui en est résulté</td></tr><tr><td data-th="Élément"><strong>Disposition du tableau de bord</strong></td><td data-th="Ouvre"><a href="/fr/help/max-dashboard-editing">Arranger les widgets sur cet écran</a></td></tr><tr><td data-th="Élément"><strong>Réglages de l’aquarium</strong></td><td data-th="Ouvre">L’écran de réglages complet pour cet aquarium</td></tr></tbody></table></div>
+<h2 id="changer-daquarium">Changer d’aquarium</h2>
+<p>Utilisez l’<strong>icône de grille</strong> tout à gauche de la barre supérieure pour atteindre <a href="/fr/help/max-reef-room">la Pièce du récif</a>, puis ouvrez l’aquarium que vous voulez. Chaque aquarium garde sa propre mise en page de tableau de bord, donc tout l’écran change quand vous passez de l’un à l’autre.</p>
+<h2 id="le-tiroir-prises-et-nourrissage">Le tiroir Prises et nourrissage</h2>
+<p>L’onglet en bas de l’écran tire un tiroir avec chaque prise du système et les commandes de nourrissage.</p>
+<ul><li><strong>Prises</strong> : chacune commutable entre Auto, Éteint et Allumé</li><li><strong>Nourrir</strong> : met en pause l’équipement approprié pour un nourrissage et remet tout en place ensuite</li></ul>
+<aside class="cal cal-warning"><p class="cal-t">Ce tiroir contrôle un équipement réel</p><p>Tout ce qu’il contient agit sur un équipement réel. Une commande est envoyée au moment où vous touchez, mais <em>envoyé</em> n’est pas <em>fait</em> ; elle revient Confirmée, Non confirmée, Refusée ou Aucun changement, et <a href="/fr/help/max-activity">Activité</a> est où vous voyez laquelle. Le mode nourrissage est la façon sûre de mettre le débit en pause pour le nourrissage, car il restaure tout lui-même ; un Éteint manuel reste éteint jusqu’à ce que vous le changiez à nouveau.</p></aside>
+<h2 id="si-quelque-chose-semble-anormal">Si quelque chose semble anormal</h2>
+<p>Si les mesures semblent périmées, ou si la pastille d’état est orange ou rouge, commencez par <strong><a href="/fr/help/troubleshooting">Résolution de problèmes</a></strong>.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/max-setup"><span>Précédent</span><b>Configurer Cora Max</b></a><a class="pn-n" href="/fr/help/max-reef-room"><span>Suivant</span><b>La pièce du récif</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.78 et Cora Mobile 0.5.79. Vérifié pour la dernière fois le 2026-09-27.</p>
+      <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/fr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Confidentialité</a> ·
+      <a href="/terms-and-conditions.html">Conditions</a> ·
+      <a href="/support.html">Assistance</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Aucun r\u00e9sultat pour \u00ab " + esc(q) + " \u00bb." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Rechercher dans le guide");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Rechercher dans le guide…" aria-label="Rechercher dans le guide" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/fr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

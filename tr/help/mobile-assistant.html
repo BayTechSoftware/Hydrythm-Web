@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cora&#x27;ya sorma | Cora Help</title>
+  <meta name="description" content="Cora Assistant&#x27;ı nasıl kullanmalı: yazma, ses, görebildikleri ve değiştirebildikleri.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/tr/help/mobile-assistant">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-assistant">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-assistant">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-assistant">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-assistant">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-assistant">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-assistant">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-assistant">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-assistant">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Cora&#x27;ya sorma | Cora Help">
+  <meta property="og:description" content="Cora Assistant&#x27;ı nasıl kullanmalı: yazma, ses, görebildikleri ve değiştirebildikleri.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/tr/help/mobile-assistant">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/tr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Kılavuzda ara">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Ara</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Dil"><span>Türkçe</span></summary><ul><li><a href="/help/mobile-assistant">English</a></li><li><a href="/de/help/mobile-assistant">Deutsch</a></li><li><a href="/fr/help/mobile-assistant">Français</a></li><li><a href="/tr/help/mobile-assistant" aria-current="true" class="cur">Türkçe</a></li><li><a href="/it/help/mobile-assistant">Italiano</a></li><li><a href="/es/help/mobile-assistant">Español</a></li><li><a href="/pl/help/mobile-assistant">Polski</a></li></ul></details>
+    <a class="hback" href="/tr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Menüyü kapat">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/tr/help/">Cora Yardım</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
+<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
+<li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets">Widget referansı</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
+<li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
+<li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-probes">Problar</a></li>
+<li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar ve otomasyon</summary><ul>
+<li><a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a></li>
+<li><a href="/tr/help/mobile-notifications">Bildirimler</a></li>
+<li><a href="/tr/help/mobile-automation">Otomasyonlar ve sahneler</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/mobile-dosing">Dozaj</a></li>
+<li><a href="/tr/help/mobile-maintenance">Bakım</a></li>
+<li><a href="/tr/help/mobile-livestock">Canlılar</a></li>
+<li><a href="/tr/help/mobile-journal">Günlük</a></li>
+<li><a href="/tr/help/mobile-activity">Etkinlik ve zaman çizelgesi</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/mobile-assistant" class="cur" aria-current="page">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
+<li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Hesap</summary><ul>
+<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
+<li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
+<li><a href="/tr/help/mobile-plans">Planlar</a></li>
+<li><a href="/tr/help/mobile-settings">Ayarlar</a></li>
+<li><a href="/tr/help/mobile-support">Yardım alma</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/max-setup">Cora Max&#x27;i kurma</a></li>
+<li><a href="/tr/help/max-tour">Cora Max ana ekranı</a></li>
+<li><a href="/tr/help/max-reef-room">Reef Room</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/max-dashboard-editing">Cora Max panosunu düzenleme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/max-controls">Prizler ve kontroller</a></li>
+<li><a href="/tr/help/max-device-control">Cora Max&#x27;ten ekipman kontrolü</a></li>
+<li><a href="/tr/help/max-devices">Cihazlar ve cihaz sağlığı</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/max-records">Günlük, canlılar ve bakım</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/max-intelligence">Reef Buddy ve raporlar</a></li>
+<li><a href="/tr/help/max-voice">Cora ile konuşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar</summary><ul>
+<li><a href="/tr/help/max-activity">Cora Max&#x27;te etkinlik</a></li>
+<li><a href="/tr/help/max-alerts">Cora Max&#x27;te uyarılar</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ayarlar</summary><ul>
+<li><a href="/tr/help/max-settings">Cora Max ayarları</a></li>
+<li><a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Otomasyon</summary><ul>
+<li><a href="/tr/help/max-automation">Cora Max&#x27;te sahneler</a></li>
+</ul></details>
+<p class="nav-sec">Yardım</p>
+<ul>
+<li><a href="/tr/help/faq">Sıkça sorulan sorular</a></li>
+<li><a href="/tr/help/troubleshooting">Sorun giderme</a></li>
+<li><a href="/tr/help/glossary">Sözlük</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Cora&#x27;ya sorma</h1>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#nce-bir-akvaryum-sein">Önce bir akvaryum seçin</a></li><li><a href="#yazma">Yazma</a></li><li><a href="#konuma">Konuşma</a></li><li><a href="#onay">Onay</a></li><li><a href="#corann-yant-verdii-dil">Cora&#x27;nın yanıt verdiği dil</a></li><li><a href="#corann-grebildikleri">Cora&#x27;nın görebildikleri</a></li><li><a href="#corann-deitirebildikleri">Cora&#x27;nın değiştirebildikleri</a></li><li><a href="#hafza">Hafıza</a></li><li><a href="#kullanm">Kullanım</a></li><li><a href="#bir-yant-yanl-grnyorsa">Bir yanıt yanlış görünüyorsa</a></li></ul></nav>
+<p>Cora Assistant, akvaryumunuz hakkındaki soruları düz bir dille yanıtlar. Canlı okumalarınızı, geçmişinizi ve lab sonuçlarınızı görebildiği için, genel olarak reefler hakkında değil <em>sizin</em> akvaryumunuz hakkında yanıt verir.</p>
+<p>Bunu <strong>Asistan</strong> sekmesinden açın.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Cora Assistant"><img src="/help/img/mobile-assistant.webp" alt="Cora Assistant" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Bir akvaryum seçin, ardından yazın veya konuşun.</figcaption></figure>
+<h2 id="nce-bir-akvaryum-sein">Önce bir akvaryum seçin</h2>
+<p>Üstteki akvaryum seçici, Cora'nın neden bahsettiğine karar verir. Altındaki her şey (yazdığınız sorular, aldığınız yanıtlar) o akvaryumla sınırlıdır.</p>
+<h2 id="yazma">Yazma</h2>
+<p>Alttaki kutuya yazın ve gönderin. Sormaya değer şeyler:</p>
+<ul><li><em>"Alkalinitem neden düşüyor?"</em></li><li><em>"Geçen haftadan bu yana ne değişti?"</em></li><li><em>"Kalsiyumum bir SPS akvaryumu için olması gereken yerde mi?"</em></li><li><em>"Son su değişimini ne zaman yaptım?"</em></li><li><em>"Skimmer'ı bir saatliğine kapat."</em></li></ul>
+<h2 id="konuma">Konuşma</h2>
+<p>Canlı bir karşılıklı konuşma için <strong>Sesli sohbet başlat</strong>'a dokunun. Cora dinler, sesli yanıt verir ve siz durdurana kadar dinlemeyi sürdürür. Elleriniz ıslakken daha kolay seçenektir.</p>
+<h2 id="onay">Onay</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Assistant onayı"><img src="/help/img/mobile-assistant-consent.webp" alt="Assistant onayı" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>İki ayrı izin ve Cora'nın tuttuğu hafıza.</figcaption></figure>
+<p><strong>Ayarlar → Cora Assistant</strong>, iki bağımsız anahtar tutar:</p>
+<ul><li><strong>Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver</strong>: Cora Assistant'ın size yanıt vermesi için bunun açık olması gerekir. Kapalıysa, Cora bir sonraki mesajınızdan veya sesli konuşmanızdan önce onay ekranını yeniden gösterir. Ekran, Cora Assistant'ın ne kullandığını ve <strong>Verileriniz nereye gidiyor</strong> altında hangi yapay zeka sağlayıcısının yanıtları yazdığını listeler. <strong>Kabul Et ve Devam Et</strong>, anahtarı yeniden açar ve devam eder; <strong>Şimdi Değil</strong> hiçbir şey göndermez ve yazdığınızı tutar.</li><li><strong>Anonimleştirilmiş akvaryum verisine katkıda bulun</strong>: bkz. <a href="/tr/help/mobile-data-export">Verileriniz</a>.</li></ul>
+<h2 id="corann-yant-verdii-dil">Cora'nın yanıt verdiği dil</h2>
+<p>Cora Assistant, kendine özgü ayrı bir ayar yerine tüm hane için <strong>Ayarlar → Dil</strong>'de belirlenen tek dil olan <strong>hesap dilinizi</strong> takip eder. Onu orada değiştirin ve Cora Assistant bir sonraki konuşmanızda yeni dilde yanıt verir ve konuşur. Bkz. <a href="/tr/help/mobile-settings">Ayarlar</a>.</p>
+<h2 id="corann-grebildikleri">Cora'nın görebildikleri</h2>
+<p>Mesaj kutusunun üstündeki çip, <strong>Akvaryumunuzun canlı verisi kullanılıyor</strong>, kapsamda ne olduğunu söyler. Cora'nın tam olarak ne okuduğunu görmek için ona dokunun: geçerli değerler, her birinin ne kadar eski olduğu, son geçmiş, günlüğünüz ve ICP sonuçlarınız.</p>
+<p>Daha uzun bir görüş için, Cora Assistant bir parametrenin geçmişine yaklaşık altı aya kadar geriye bakabilir; böylece <em>"Son altı ayın magnezyumunu en son ICP'imle karşılaştır"</em> diye sorabilirsiniz.</p>
+<aside class="cal cal-note"><p class="cal-t">Bilmediğinde size söyler</p><p>Cora, kullandığı okumaların yaşını bildirir. En son alkalinite okuması dört gün eskiyse, yanıt değeri geçerliymiş gibi sunmak yerine bunu söyler.</p></aside>
+<h2 id="corann-deitirebildikleri">Cora'nın değiştirebildikleri</h2>
+<p>Cora, akvaryumunuz hakkında konuşabildiği kadar üzerinde de eylem gerçekleştirebilir: bir prizi açıp kapatma, bir besleme başlatma, bir ayarı değiştirme.</p>
+<p>Ekipmanınızı etkileyen her şey <strong>gerçekleşmeden önce onaylanır</strong>. Değişmek üzere olan şey size tam olarak gösterilir ve onaylamanız istenir. Cora belirsiz bir talimata göre hareket etmez.</p>
+<aside class="cal cal-warning"><p class="cal-t">Danışmandır, otorite değil</p><p>Cora'nın önerisi tam olarak budur. Önemli her şeyi kendi testinizle doğrulayın ve büyük değişiklikleri başka herhangi birinin önerisi gibi ele alın; harekete geçmeden önce mantık kontrolünden geçirin. Mesaj kutusunun altındaki satır da aynı şeyi söyler.</p></aside>
+<h2 id="hafza">Hafıza</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Assistant ayarları"><img src="/help/img/mobile-assistant-settings.webp" alt="Assistant ayarları" width="620" height="1235" loading="lazy" decoding="async"></button><figcaption>Ayarlar altında onay, hafıza, ses ve kullanım sınırları.</figcaption></figure>
+<aside class="cal cal-note"><p class="cal-t">Hafızayı temizlemenin dokunduğu ve dokunmadığı şeyler</p><p>Temizleme, Cora'nın <em>konuşmalarınız hakkında</em> hatırladıklarını kaldırır: sisteminizin profilini, takip ettiği kaygıları ve saklanan her oturumu. Bunun herhangi bir parçası kaldırılamazsa, Cora Mobile başarı bildirmek yerine başarısız olduğunu söyler.</p>
+<p>Bu, <strong>akvaryum verinize</strong> dokunmaz: okumalar, günlük, canlılar, bakım ve raporlar sizindir ve tam olarak oldukları gibi kalır. Hafızayı temizlemek Assistant'ı konuşmayı unutturur, akvaryumu değil.</p></aside>
+<p>Cora, akvaryumunuz hakkında konuşmalar arasında şeyler hatırlar: iki bileşenli dozladığınızı, frag akvaryumunuzun bir sump paylaştığını, besinleri yükseltmeye çalıştığınızı. Sisteminizi her seferinde yeniden anlatmanızı durduran şey budur.</p>
+<p><strong>Ayarlar → Cora Assistant → Yapay zeka hafızası</strong>, Cora'nın akvaryumunuz hakkında kaydettiklerini gösterir ve sıfırlamanıza izin verir.</p>
+<aside class="cal cal-warning"><p class="cal-t">Hafızayı temizlemek her şeyi kaldırmaz</p><p>Sıfırlama, görebildiğiniz hafıza kaydını temizler. Cora, ayrıca bir konuşma boyunca çalışan bağlamı ve sıfırlamanın tam olarak kapsamayabileceği daha uzun vadeli bir profili de tutar. Bunu "sana gösterdiğimi unut" olarak ele alın, o zamana kadar çıkarılmış her şeyin garanti edilmiş bir silinmesi olarak değil.</p></aside>
+<h2 id="kullanm">Kullanım</h2>
+<p>Planınız aylık bir mesaj tahsisatı içerir. Sayaç mesaj kutusunun üstünde oturur. Sesli konuşmalar aynı tahsisattan harcanır.</p>
+<h2 id="bir-yant-yanl-grnyorsa">Bir yanıt yanlış görünüyorsa</h2>
+<p>Konuşma içinde düzeltin; bu en hızlı düzeltmedir ve genellikle devam eder, ama süresiz kalması garanti edilmez.</p>
+<p>Bir yanıt kendinden emin ama yanlış görünüyorsa, önce veri çipini kontrol edin. Genellikle yanıt, kendisine verilen veri hakkında doğrudur ve gerçek sorun eski bir okuma veya yanlış akvaryuma atanmış bir kaynaktır.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-activity"><span>Önceki</span><b>Etkinlik ve zaman çizelgesi</b></a><a class="pn-n" href="/tr/help/mobile-reef-buddy"><span>Sonraki</span><b>Reef Buddy</b></a></nav>
+      <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-27.</p>
+      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/tr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Gizlilik</a> ·
+      <a href="/terms-and-conditions.html">Koşullar</a> ·
+      <a href="/support.html">Destek</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "\u201c" + esc(q) + "\u201d i\u00e7in sonu\u00e7 bulunamad\u0131." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "K\u0131lavuzda ara");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Kılavuzda ara…" aria-label="Kılavuzda ara" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/tr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

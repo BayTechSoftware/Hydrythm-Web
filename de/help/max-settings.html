@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cora Max-Einstellungen | Cora Help</title>
+  <meta name="description" content="Der Einstellungsbildschirm auf Cora Max: Haushaltseinstellungen, jedes Becken, und alles über diesen Bildschirm selbst.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/de/help/max-settings">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-settings">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/max-settings">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/max-settings">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/max-settings">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/max-settings">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/max-settings">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/max-settings">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-settings">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Cora Max-Einstellungen | Cora Help">
+  <meta property="og:description" content="Der Einstellungsbildschirm auf Cora Max: Haushaltseinstellungen, jedes Becken, und alles über diesen Bildschirm selbst.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/de/help/max-settings">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/de/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Anleitung durchsuchen">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Suche</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Sprache"><span>Deutsch</span></summary><ul><li><a href="/help/max-settings">English</a></li><li><a href="/de/help/max-settings" aria-current="true" class="cur">Deutsch</a></li><li><a href="/fr/help/max-settings">Français</a></li><li><a href="/tr/help/max-settings">Türkçe</a></li><li><a href="/it/help/max-settings">Italiano</a></li><li><a href="/es/help/max-settings">Español</a></li><li><a href="/pl/help/max-settings">Polski</a></li></ul></details>
+    <a class="hback" href="/de/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Navigation schließen">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/de/help/">Cora Hilfe</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Erste Schritte</summary><ul>
+<li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Kontowiederherstellung</a></li>
+<li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
+<li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Dein Dashboard</summary><ul>
+<li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
+<li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
+<li><a href="/de/help/mobile-widgets">Widget-Referenz</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer betrachten</a></li>
+<li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Geräte</summary><ul>
+<li><a href="/de/help/mobile-devices">Geräte hinzufügen, bearbeiten und entfernen</a></li>
+<li><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></li>
+<li><a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></li>
+<li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
+<li><a href="/de/help/mobile-probes">Sonden</a></li>
+<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Warnungen und Automatisierung</summary><ul>
+<li><a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a></li>
+<li><a href="/de/help/mobile-notifications">Benachrichtigungen</a></li>
+<li><a href="/de/help/mobile-automation">Automationen und Szenen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Aufzeichnungen</summary><ul>
+<li><a href="/de/help/mobile-dosing">Dosierung</a></li>
+<li><a href="/de/help/mobile-maintenance">Wartung</a></li>
+<li><a href="/de/help/mobile-livestock">Besatz</a></li>
+<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
+<li><a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligenz</summary><ul>
+<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
+<li><a href="/de/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/de/help/mobile-journeys">Geführte Journeys</a></li>
+<li><a href="/de/help/mobile-icp-health">ICP und Zustandsberichte</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Konto</summary><ul>
+<li><a href="/de/help/mobile-vacation">Verreisen</a></li>
+<li><a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></li>
+<li><a href="/de/help/mobile-data-export">Deine Daten</a></li>
+<li><a href="/de/help/mobile-plans">Abos</a></li>
+<li><a href="/de/help/mobile-settings">Einstellungen</a></li>
+<li><a href="/de/help/mobile-support">Hilfe erhalten</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Erste Schritte</summary><ul>
+<li><a href="/de/help/max-setup">Cora Max einrichten</a></li>
+<li><a href="/de/help/max-tour">Der Cora Max Startbildschirm</a></li>
+<li><a href="/de/help/max-reef-room">Der Riffraum</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Dein Dashboard</summary><ul>
+<li><a href="/de/help/max-dashboard-editing">Das Cora Max Dashboard bearbeiten</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Geräte</summary><ul>
+<li><a href="/de/help/max-controls">Steckdosen und Steuerungen</a></li>
+<li><a href="/de/help/max-device-control">Ausrüstung von Cora Max aus steuern</a></li>
+<li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Aufzeichnungen</summary><ul>
+<li><a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligenz</summary><ul>
+<li><a href="/de/help/max-intelligence">Reef Buddy und Berichte</a></li>
+<li><a href="/de/help/max-voice">Mit Cora sprechen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Warnungen</summary><ul>
+<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
+<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Einstellungen</summary><ul>
+<li><a href="/de/help/max-settings" class="cur" aria-current="page">Cora Max-Einstellungen</a></li>
+<li><a href="/de/help/max-updates">Updates und Wiederherstellung</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatisierung</summary><ul>
+<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Hilfe</p>
+<ul>
+<li><a href="/de/help/faq">Häufig gestellte Fragen</a></li>
+<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
+<li><a href="/de/help/glossary">Glossar</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Cora Max-Einstellungen</h1>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#cora">CORA</a></li><li><a href="#becken">BECKEN</a></li><li><a href="#cora-max-einstellungen-alles-ber-diesen-bildschirm">Cora Max-Einstellungen: alles über diesen Bildschirm</a></li><li><a href="#koppeln-neukoppeln-und-werksreset">Koppeln, Neukoppeln und Werksreset</a></li><li><a href="#welche-becken-dieser-bildschirm-zeigt">Welche Becken dieser Bildschirm zeigt</a></li><li><a href="#updates">Updates</a></li></ul></nav>
+<p>Öffne die Einstellungen mit dem <strong>Zahnrad</strong> ganz rechts in der oberen Leiste.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Cora Max-Einstellungen"><img src="/help/img/max-settings.webp" alt="Cora Max-Einstellungen" width="1100" height="370" loading="lazy" decoding="async"></button><figcaption>Cora, dann deine Becken, dann Cora Max-Einstellungen.</figcaption></figure>
+<p>Die Einstellungen sind in drei Gruppen organisiert: <strong>CORA</strong> (Dinge, die für deinen ganzen Haushalt von Cora-Geräten gelten), <strong>BECKEN</strong> (eine Zeile pro Becken), und eine einzelne Zeile <strong>Cora Max-Einstellungen</strong> für alles, das nur diesen Bildschirm betrifft.</p>
+<aside class="cal cal-note"><p class="cal-t">Zwei Arten von Einstellung, mit Absicht</p><p>Manche Einstellungen gehören zu deinem <strong>Konto</strong>: Sie sind gleich, egal von welchem Handy oder Cora Max aus du sie betrachtest, und eine zu ändern ändert sie überall. Andere gehören nur zu <strong>diesem Bildschirm</strong>, wie seine eigene Helligkeit oder WLAN. Die Gruppen CORA und BECKEN unten sind Kontoeinstellungen. Cora Max-Einstellungen, die dritte Gruppe, sind die eigenen Einstellungen dieses Bildschirms.</p></aside>
+<h2 id="cora">CORA</h2>
+<p>Dinge, die für jedes Cora-Gerät deines Kontos gelten, nicht nur für dieses.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Zeile</th><th>Öffnet</th></tr></thead><tbody><tr><td data-th="Zeile"><strong>Automationen</strong></td><td data-th="Öffnet">Jede Szene über jedes Becken, mit einem Filter nach Becken. Siehe <a href="/de/help/max-automation">Szenen auf Cora Max</a></td></tr><tr><td data-th="Zeile"><strong>Geräte</strong></td><td data-th="Öffnet">Die Ausrüstung, die Cora steuert, über jedes Becken. Siehe <a href="/de/help/max-devices">Geräte und Gerätezustand</a></td></tr><tr><td data-th="Zeile"><strong>Cora Assistant</strong></td><td data-th="Öffnet">Welches Gerät antwortet, wenn jemand "Hey Cora" sagt. Siehe <a href="/de/help/max-voice">Mit Cora sprechen</a></td></tr></tbody></table></div>
+<h2 id="becken">BECKEN</h2>
+<p>Eine Zeile pro Becken, die die eigenen Einstellungen dieses Beckens öffnet:</p>
+<ul><li><strong>Warnschwellen</strong>: das gesunde Band für jeden Wasserwert. Siehe <a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a></li><li><strong>Einheiten</strong>: welche Einheiten dieses Becken für Salinität, Temperatur, Alkalinität, Volumen, Phosphat und Nitrat zeigt. <strong>Auto</strong> für einen Wasserwert zu wählen zeigt jeden Messwert in der Einheit, in der ihn seine eigene Quelle erfasst hat; eine bestimmte Einheit zu wählen wandelt alles an diesem Becken in sie um, auf jedem Bildschirm und in dem, was der Assistent spricht</li><li><strong>Primäres Cora Max</strong>: welches Gerät die Ausrüstung dieses Beckens abfragt. Siehe <a href="/de/help/max-devices">Geräte und Gerätezustand</a></li><li><strong>Dashboard-Layout</strong>: das Cora Max-Layout dieses Beckens. Siehe <a href="/de/help/max-dashboard-editing">Das Cora Max Dashboard bearbeiten</a></li><li>Aufzeichnungen und Berichte für dieses Becken: <strong>Tagebuch</strong>, <strong>Wartung</strong>, <strong>Besatz</strong>, <strong>Reef Buddy</strong>, <strong>Zustandsberichte</strong> und <strong>ICP-Berichte</strong></li></ul>
+<h2 id="cora-max-einstellungen-alles-ber-diesen-bildschirm">Cora Max-Einstellungen: alles über diesen Bildschirm</h2>
+<p>Die einzelne Zeile am unteren Rand der Einstellungen, beschriftet mit dem Namen dieses Geräts, öffnet alles, was <strong>nur diesen Bildschirm</strong> beschreibt. Sie ist in Gruppen organisiert:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Gruppe</th><th>Umfasst</th></tr></thead><tbody><tr><td data-th="Gruppe"><strong>Anzeige</strong></td><td data-th="Umfasst">Helligkeit, Dimm-Timer und seine Helligkeit, Nachtdimmung, Uhr anzeigen, und den Bildschirm bei einem Alarm aufwecken</td></tr><tr><td data-th="Gruppe"><strong>Ton &amp; Sprache</strong></td><td data-th="Umfasst">Audioausgabe (interner Lautsprecher, 3,5 mm oder Bluetooth), der hörbare Warnton und seine Lautstärke, gesprochene Warnungen, und <strong>Weckwort-Erkennung</strong> ein oder aus</td></tr><tr><td data-th="Gruppe"><strong>Reef Buddy</strong></td><td data-th="Umfasst">Die Stunde, zu der die tägliche Zusammenfassung erscheint, und ob sie vorgelesen wird</td></tr><tr><td data-th="Gruppe"><strong>Kindersicherung</strong></td><td data-th="Umfasst">Ein oder aus, und die Verzögerung, bevor sie sperrt. Siehe <a href="/de/help/max-voice">Mit Cora sprechen</a> für das Entsperren</td></tr><tr><td data-th="Gruppe"><strong>Benachrichtigungen</strong></td><td data-th="Umfasst">Benachrichtigungsverlauf, der kontoweite Posteingang für jede Zusammenfassung, jeden Alarm und jeden Kontohinweis</td></tr><tr><td data-th="Gruppe"><strong>Sprache</strong></td><td data-th="Umfasst">Die eine Sprache, die dein ganzes Konto verwendet. Siehe den Hinweis unten</td></tr><tr><td data-th="Gruppe"><strong>Netzwerk &amp; Updates</strong></td><td data-th="Umfasst">WLAN, Firmware-Updates, und eine nur lesbare Zeile, die zeigt, wie oft dieses Gerät deine Geräte abfragt (von Cora Mobile aus festgelegt)</td></tr><tr><td data-th="Gruppe"><strong>Status</strong></td><td data-th="Umfasst">Eine Karte pro Becken, das dieser Bildschirm zeigt: Abfragestatus, letzte Abfrage, und letzter Cloud-Schreibvorgang. Nur zur Ansicht</td></tr><tr><td data-th="Gruppe"><strong>Hilfe &amp; Über</strong></td><td data-th="Umfasst">Hilfe &amp; Support, und Über (App-Version und <strong>Lizenzen</strong>)</td></tr><tr><td data-th="Gruppe"><strong>Zurücksetzen</strong></td><td data-th="Umfasst">Dieses Gerät neu koppeln, und Werksreset</td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">Sprache ist eine Kontoeinstellung, keine pro Bildschirm</p><p>Die Sprache unter <strong>Sprache</strong> zu ändern, ändert sie für dein ganzes Konto: jedes Handy und jedes Cora Max wechselt gemeinsam. Neue Berichte, Warnungen und Zusammenfassungen folgen der neuen Sprache. Bereits geschriebene Berichte und Warnungen bleiben in der Sprache, in der sie geschrieben wurden; sie werden nicht neu übersetzt.</p></aside>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Benachrichtigungsverlauf auf Cora Max"><img src="/help/img/max-notifications.webp" alt="Benachrichtigungsverlauf auf Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Alarme und ihre Erholungen, neueste zuerst, über jedes Becken.</figcaption></figure>
+<p>Erholungen werden ebenso erfasst wie Alarme, sodass ein Wasserwert, der außerhalb des Bereichs geriet und zurückkam, als abgeschlossenes Paar gelesen wird statt als unerklärte Warnung.</p>
+<h2 id="koppeln-neukoppeln-und-werksreset">Koppeln, Neukoppeln und Werksreset</h2>
+<p><strong>Cora Max-Einstellungen → Zurücksetzen</strong> zeigt, an was dieser Bildschirm gerade gebunden ist, und bietet zwei Aktionen:</p>
+<p><strong>Dieses Gerät neu koppeln</strong> löscht die Kopplung dieses Bildschirms und schickt ihn zurück zum Kopplungsbildschirm.</p>
+<p><strong>Werksreset</strong> löscht außerdem jede auf diesem Bildschirm gespeicherte Voreinstellung. Seine Bestätigung sagt genau, was gelöscht wird und was bleibt.</p>
+<p>Beide behalten die bereits in Cora Cloud gespeicherten Beckendaten. Beide entfernen dieses Cora Max außerdem aus deinem Konto und lassen es sein WLAN-Netzwerk vergessen, daher koppelst du es von Cora Mobile aus erneut, wie ein neues Gerät. Wenn Cora Max Cora Cloud nicht erreichen kann, um sich selbst zu entfernen, sagt es dir, dass es noch in Cora Mobile aufgeführt ist: Öffne es dort unter <strong>Geräte</strong> und wähle <strong>Gerät entfernen</strong>.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Die Werksreset-Bestätigung"><img src="/help/img/max-factory-reset.webp" alt="Die Werksreset-Bestätigung" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Der Dialog nennt, was gelöscht wird und was übersteht, bevor du bestätigst.</figcaption></figure>
+<aside class="cal cal-warning"><p class="cal-t">Ein Reset löscht den Bildschirm, nicht deine Daten</p><p>Werksreset entfernt den Kopplungseintrag und jede Voreinstellung auf dem Gerät, und bringt das Gerät zurück zu seinem Kopplungsbildschirm. <strong>Bereits in deinem Konto gespeicherte Beckendaten bleiben erhalten</strong>; koppel das Gerät erneut mit einem Becken, und sie erscheinen wieder. Was du verlierst, ist die eigene Einrichtung dieses Bildschirms: sein WLAN, Anzeige-, Ton- und Spracheinstellungen.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Deine Layouts überleben vielleicht doch</p><p>Vor einem Reset archiviert Cora Max seine Konfiguration. Koppelst du das Gerät danach zurück an dasselbe <strong>Becken</strong>, bietet es <strong>Vorheriges Layout für dieses Becken wiederherstellen?</strong> an. Nimm das an, oder wähle <strong>Neu beginnen</strong>, wenn das Löschen des Bildschirms genau der Sinn war.</p></aside>
+<h2 id="welche-becken-dieser-bildschirm-zeigt">Welche Becken dieser Bildschirm zeigt</h2>
+<p>Ein Cora Max kann ein Becken oder mehrere zeigen, und du wechselst zwischen ihnen über die obere Leiste. <strong>Die Auswahl selbst wird von deinem Handy aus gewählt</strong>, unter <strong>Geräte → dein Cora Max</strong>, nicht von diesem Bildschirm.</p>
+<h2 id="updates">Updates</h2>
+<p>Cora Max hält sich selbst aktuell. Neue Versionen laden im Hintergrund herunter und installieren sich selbst, und dir wird gesagt, was sich geändert hat. Wenn eine Version gerade angekommen ist, erscheint der Hinweis auf dem Bildschirm. Es gibt nichts, was du tun musst, um aktuell zu bleiben. Siehe <strong><a href="/de/help/max-updates">Cora Max aktuell halten</a></strong>.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/max-voice"><span>Zurück</span><b>Mit Cora sprechen</b></a><a class="pn-n" href="/de/help/max-updates"><span>Weiter</span><b>Updates und Wiederherstellung</b></a></nav>
+      <p class="stamp">Geschrieben für Cora Max 0.28.78 und Cora Mobile 0.5.79. Zuletzt geprüft am 2026-09-27.</p>
+      <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/de/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Datenschutz</a> ·
+      <a href="/terms-and-conditions.html">AGB</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Keine Treffer f\u00fcr \u201e" + esc(q) + "\u201c." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Anleitung durchsuchen");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Anleitung durchsuchen…" aria-label="Anleitung durchsuchen" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/de/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

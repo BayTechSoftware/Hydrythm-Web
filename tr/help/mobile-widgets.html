@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Widget referansı | Cora Help</title>
+  <meta name="description" content="Cora&#x27;daki her widget türü (değer, gösterge, grafik, durum, priz ve cihaz kutuları) ve her birini ne zaman kullanmalı.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/tr/help/mobile-widgets">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-widgets">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-widgets">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-widgets">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-widgets">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-widgets">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-widgets">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-widgets">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-widgets">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Widget referansı | Cora Help">
+  <meta property="og:description" content="Cora&#x27;daki her widget türü (değer, gösterge, grafik, durum, priz ve cihaz kutuları) ve her birini ne zaman kullanmalı.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/tr/help/mobile-widgets">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/tr/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Kılavuzda ara">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Ara</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Dil"><span>Türkçe</span></summary><ul><li><a href="/help/mobile-widgets">English</a></li><li><a href="/de/help/mobile-widgets">Deutsch</a></li><li><a href="/fr/help/mobile-widgets">Français</a></li><li><a href="/tr/help/mobile-widgets" aria-current="true" class="cur">Türkçe</a></li><li><a href="/it/help/mobile-widgets">Italiano</a></li><li><a href="/es/help/mobile-widgets">Español</a></li><li><a href="/pl/help/mobile-widgets">Polski</a></li></ul></details>
+    <a class="hback" href="/tr/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Menüyü kapat">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/tr/help/">Cora Yardım</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
+<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
+<li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets" class="cur" aria-current="page">Widget referansı</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
+<li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
+<li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-probes">Problar</a></li>
+<li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar ve otomasyon</summary><ul>
+<li><a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a></li>
+<li><a href="/tr/help/mobile-notifications">Bildirimler</a></li>
+<li><a href="/tr/help/mobile-automation">Otomasyonlar ve sahneler</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/mobile-dosing">Dozaj</a></li>
+<li><a href="/tr/help/mobile-maintenance">Bakım</a></li>
+<li><a href="/tr/help/mobile-livestock">Canlılar</a></li>
+<li><a href="/tr/help/mobile-journal">Günlük</a></li>
+<li><a href="/tr/help/mobile-activity">Etkinlik ve zaman çizelgesi</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
+<li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Hesap</summary><ul>
+<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
+<li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
+<li><a href="/tr/help/mobile-plans">Planlar</a></li>
+<li><a href="/tr/help/mobile-settings">Ayarlar</a></li>
+<li><a href="/tr/help/mobile-support">Yardım alma</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Başlarken</summary><ul>
+<li><a href="/tr/help/max-setup">Cora Max&#x27;i kurma</a></li>
+<li><a href="/tr/help/max-tour">Cora Max ana ekranı</a></li>
+<li><a href="/tr/help/max-reef-room">Reef Room</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Panonuz</summary><ul>
+<li><a href="/tr/help/max-dashboard-editing">Cora Max panosunu düzenleme</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ekipman</summary><ul>
+<li><a href="/tr/help/max-controls">Prizler ve kontroller</a></li>
+<li><a href="/tr/help/max-device-control">Cora Max&#x27;ten ekipman kontrolü</a></li>
+<li><a href="/tr/help/max-devices">Cihazlar ve cihaz sağlığı</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Kayıtlar</summary><ul>
+<li><a href="/tr/help/max-records">Günlük, canlılar ve bakım</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Zeka</summary><ul>
+<li><a href="/tr/help/max-intelligence">Reef Buddy ve raporlar</a></li>
+<li><a href="/tr/help/max-voice">Cora ile konuşma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Uyarılar</summary><ul>
+<li><a href="/tr/help/max-activity">Cora Max&#x27;te etkinlik</a></li>
+<li><a href="/tr/help/max-alerts">Cora Max&#x27;te uyarılar</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ayarlar</summary><ul>
+<li><a href="/tr/help/max-settings">Cora Max ayarları</a></li>
+<li><a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Otomasyon</summary><ul>
+<li><a href="/tr/help/max-automation">Cora Max&#x27;te sahneler</a></li>
+</ul></details>
+<p class="nav-sec">Yardım</p>
+<ul>
+<li><a href="/tr/help/faq">Sıkça sorulan sorular</a></li>
+<li><a href="/tr/help/troubleshooting">Sorun giderme</a></li>
+<li><a href="/tr/help/glossary">Sözlük</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Widget referansı</h1>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#dokuz-tr">Dokuz tür</a></li><li><a href="#boyutlandrma">Boyutlandırma</a></li><li><a href="#deer">Değer</a></li><li><a href="#gsterge">Gösterge</a></li><li><a href="#grafik">Grafik</a></li><li><a href="#durum">Durum</a></li><li><a href="#priz">Priz</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#bir-parametre-widget-ne-gsterir">Bir parametre widget&#x27;ı ne gösterir</a></li><li><a href="#boyutlar">Boyutlar</a></li></ul></nav>
+<p>Bir widget, panonuzda bir şey gösteren bir kutudur. Bu sayfa her türü ve neyi yapılandırabileceğinizi kapsar.</p>
+<p>Bunları <strong><a href="/tr/help/mobile-dashboard-editing">pano düzenleyicisinde</a></strong> ekleyin ve düzenleyin; ayarlarını açmak için orada bir widget'a dokunun.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Bir widget&#x27;ı yapılandırma"><img src="/help/img/mobile-widget-config.webp" alt="Bir widget&#x27;ı yapılandırma" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Tür, parametre, ardından genişlik ve yükseklik.</figcaption></figure>
+<h2 id="dokuz-tr">Dokuz tür</h2>
+<div class="tw"><table class="stack"><thead><tr><th>Tür</th><th>Gösterdiği</th></tr></thead><tbody><tr><td data-th="Tür"><strong>Değer</strong></td><td data-th="Gösterdiği">Geçerli okuma, birimi, yaşı ve kaynağı</td></tr><tr><td data-th="Tür"><strong>Gösterge</strong></td><td data-th="Gösterdiği">Aralığınızın bantlandığı bir yay ve değerde bir topuz</td></tr><tr><td data-th="Tür"><strong>Grafik</strong></td><td data-th="Gösterdiği">Seçtiğiniz bir pencere boyunca bir eğilim</td></tr><tr><td data-th="Tür"><strong>Durum</strong></td><td data-th="Gösterdiği">Metin olarak bir durum: çalışıyor, boşta, kapalı</td></tr><tr><td data-th="Tür"><strong>Priz</strong></td><td data-th="Gösterdiği">Üç yönlü bir kontrol: Otomatik, Kapalı, Açık</td></tr><tr><td data-th="Tür"><strong>ReefBeat</strong></td><td data-th="Gösterdiği">Kendi özetiyle bir Red Sea™ birimi</td></tr><tr><td data-th="Tür"><strong>Apex modülü</strong></td><td data-th="Gösterdiği">Bir Trident veya DŌS gibi takılı bir Apex modülü</td></tr><tr><td data-th="Tür"><strong>Jecod™</strong></td><td data-th="Gösterdiği">Modu ve yoğunluğuyla bir Jecod pompası</td></tr><tr><td data-th="Tür"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Gösterdiği">İki motoruyla bir gyre</td></tr></tbody></table></div>
+<p>Son dört tür <strong>cihaz</strong> kutularıdır: bir parametreye değil bir ekipman parçasına bağlıdırlar ve her biri o birimin bildirdiği her neyse onu gösterir.</p>
+<h2 id="boyutlandrma">Boyutlandırma</h2>
+<p><strong>Genişlik</strong> ve <strong>Yükseklik</strong>, her biri <strong>1×</strong> veya <strong>2×</strong> olabilir. Bir grafik hiçbir zaman bir hücre genişliğinde olmaz.</p>
+<h2 id="deer">Değer</h2>
+<p>Düz sayı. Geçerli okuma, birimi, ne kadar eski olduğu ve nereden geldiği.</p>
+<p>Eğilimle değil sayısal olarak kontrol ettiğiniz parametreler için kullanın: kalsiyum, magnezyum, nitrat.</p>
+<p><strong>Ayarlar:</strong> etiket, kaynak, boyut.</p>
+<h2 id="gsterge">Gösterge</h2>
+<p>Hedef aralığınızın bantlandığı bir yay ve geçerli değerde bir topuz. Topuzun rengi nerede durduğunuzu söyler: bant içinde, kayıyor, veya dışında.</p>
+<p>Aktif olarak yönettiğiniz parametreler için kullanın: alkalinite, pH, tuzluluk, sıcaklık.</p>
+<p><strong>Ayarlar:</strong> etiket, kaynak, aralık (burada geçersiz kılmadıkça akvaryum hedeflerinizden miras alınır), boyut.</p>
+<aside class="cal cal-note"><p class="cal-t">Göstergeleri iki sütun veya daha fazlasında boyutlandırın</p><p>Tek bir sütunda yay bir bakışta okunamayacak kadar küçüktür; alan sınırlıysa bunun yerine bir <strong>değer</strong> widget'ı kullanın.</p></aside>
+<h2 id="grafik">Grafik</h2>
+<p>Seçtiğiniz bir pencere boyunca bir sparkline, yüksek ve alçak işaretlenmiş ve geçerli değer belirtilmiş.</p>
+<p>Test ettiğiniz bir parametre için (Trident'la veya bir test kitiyle), çizgi gerçek testlerinizi birleştirir. Pencere yalnızca bir test içeriyorsa, çizgi ondan öncekinden gelir ve yüksek veya alçak işaretlenmez. Pencerede hiç test yoksa, veya tek bir testi birleştirecek daha önceki bir şey yoksa, kutu bir çizgi yerine <strong>Toplanıyor…</strong> gösterir.</p>
+<p>Hareket eden her şey için kullanın: gün boyunca pH, bir sıcak dalgası boyunca sıcaklık, dozlar arasında alkalinite.</p>
+<p><strong>Ayarlar:</strong> etiket, kaynak, <strong>zaman penceresi</strong> (1 saat, 6 saat, 24 saat, 7 gün, 30 gün, 1 yıl), boyut.</p>
+<p>Bir eğilim her zaman <strong>en az iki hücre genişliğindedir</strong>; bir hücreye sıkıştırılmış bir sparkline size hiçbir şey söylemez, bu yüzden düzenleyici böyle bir şey yapmaz.</p>
+<aside class="cal cal-note"><p class="cal-t">Pencereyi ritme uyacak şekilde seçin</p><p>pH günlük bir döngüde salınır, bu yüzden 24 saat size şekli gösterir. Alkalinite günler içinde hareket eder, bu yüzden 7 veya 30, 24'ün asla söyleyemeyeceğini söyler.</p></aside>
+<h2 id="durum">Durum</h2>
+<p>Bir sayı değil metin, bir durum olan şeyler için. Çalışıyor, boşta, açık, kapalı, besleniyor.</p>
+<p><strong>Ayarlar:</strong> etiket, kaynak, boyut.</p>
+<h2 id="priz">Priz</h2>
+<p>Bir priz için üç yönlü bir anahtar: <strong>Otomatik</strong>, <strong>Kapalı</strong>, <strong>Açık</strong>.</p>
+<ul><li><strong>Otomatik</strong>, prizi normalde onu çalıştıran şeye geri verir: bir zamanlama, bir kural, veya ait olduğu kontrolcü.</li><li><strong>Kapalı</strong> ve <strong>Açık</strong>, siz geri değiştirene kadar kalan elle yapılan geçersiz kılmalardır.</li></ul>
+<p><strong>Ayarlar:</strong> etiket, hangi priz, boyut.</p>
+<aside class="cal cal-warning"><p class="cal-t">Elle yapılan bir geçersiz kılmanın süresi dolmaz</p><p>Kapalı, siz onu Otomatik'e geri ayarlayana kadar kapalı anlamına gelir. Akvaryumda çalışmak için ana pompayı kapatırsanız, bitirdiğinizde onu Otomatik'e geri koyun; Cora bunu sizin için yapmaz.</p></aside>
+<h2 id="reefbeat">ReefBeat</h2>
+<p>Bütün bir ekipman parçası için tek bir kutu, tek bir parametre yerine kendi özetini gösterir: bir ATO'nun durumu ve rezervuarı, bir dozaj biriminin kafaları, bir mat rulosunun kalan günleri.</p>
+<p>Hangi cihazların bir kutu sunduğu, neyi bağladığınıza bağlıdır. Bkz. <strong><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></strong>.</p>
+<p><strong>Ayarlar:</strong> etiket, hangi cihaz, boyut.</p>
+<h2 id="bir-parametre-widget-ne-gsterir">Bir parametre widget'ı ne gösterir</h2>
+<p>Ölçülen bir parametreyle desteklenen bir widget'ta (Değer, Gösterge, Grafik ve Durum), üç şey her zaman mevcuttur. Priz ve cihaz kutuları bunun yerine kendi durumlarını gösterir, çünkü arkalarında tek bir okuma yoktur:</p>
+<ul><li><strong>Değer</strong>, büyük</li><li><strong>Yaş</strong> (<code>şimdi</code>, <code>1s</code>, <code>2g</code>): okumanın ne kadar eski olduğu, ekranın en son ne zaman yenilendiği değil</li><li><strong>Kaynak</strong>: sayının nereden geldiğini söyleyen küçük bir rozet</li></ul>
+<p>Tam geçmişini, onu bildiren her kaynağı ve geçerli eşikleri açmak için herhangi bir widget'a dokunun.</p>
+<h2 id="boyutlar">Boyutlar</h2>
+<p>Widget'lar bir veya iki hücre genişliğinde ve bir veya iki hücre yüksekliğindedir, her zaman en az iki genişliğinde olan bir <strong>eğilim</strong> hariç. Üç sütunlu bir panoda iki genişliğinde bir gösterge, satırın üçte ikisini kaplar; bu genellikle en önemli parametreniz için doğru şekildir.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-dashboard-editing"><span>Önceki</span><b>Panonuzu düzenleme</b></a><a class="pn-n" href="/tr/help/mobile-metric-detail"><span>Sonraki</span><b>Bir parametreye bakma</b></a></nav>
+      <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-17.</p>
+      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/tr/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Gizlilik</a> ·
+      <a href="/terms-and-conditions.html">Koşullar</a> ·
+      <a href="/support.html">Destek</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "\u201c" + esc(q) + "\u201d i\u00e7in sonu\u00e7 bulunamad\u0131." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "K\u0131lavuzda ara");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Kılavuzda ara…" aria-label="Kılavuzda ara" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/tr/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

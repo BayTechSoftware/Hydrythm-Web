@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Szenen auf Cora Max | Cora Help</title>
+  <meta name="description" content="Szenen direkt auf dem Cora Max-Bildschirm erstellen, ausführen und bearbeiten.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/de/help/max-automation">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-automation">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/max-automation">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/max-automation">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/max-automation">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/max-automation">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/max-automation">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/max-automation">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-automation">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Szenen auf Cora Max | Cora Help">
+  <meta property="og:description" content="Szenen direkt auf dem Cora Max-Bildschirm erstellen, ausführen und bearbeiten.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/de/help/max-automation">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/de/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Anleitung durchsuchen">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Suche</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Sprache"><span>Deutsch</span></summary><ul><li><a href="/help/max-automation">English</a></li><li><a href="/de/help/max-automation" aria-current="true" class="cur">Deutsch</a></li><li><a href="/fr/help/max-automation">Français</a></li><li><a href="/tr/help/max-automation">Türkçe</a></li><li><a href="/it/help/max-automation">Italiano</a></li><li><a href="/es/help/max-automation">Español</a></li><li><a href="/pl/help/max-automation">Polski</a></li></ul></details>
+    <a class="hback" href="/de/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Navigation schließen">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/de/help/">Cora Hilfe</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Erste Schritte</summary><ul>
+<li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Kontowiederherstellung</a></li>
+<li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
+<li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Dein Dashboard</summary><ul>
+<li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
+<li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
+<li><a href="/de/help/mobile-widgets">Widget-Referenz</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer betrachten</a></li>
+<li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Geräte</summary><ul>
+<li><a href="/de/help/mobile-devices">Geräte hinzufügen, bearbeiten und entfernen</a></li>
+<li><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></li>
+<li><a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></li>
+<li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
+<li><a href="/de/help/mobile-probes">Sonden</a></li>
+<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Warnungen und Automatisierung</summary><ul>
+<li><a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a></li>
+<li><a href="/de/help/mobile-notifications">Benachrichtigungen</a></li>
+<li><a href="/de/help/mobile-automation">Automationen und Szenen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Aufzeichnungen</summary><ul>
+<li><a href="/de/help/mobile-dosing">Dosierung</a></li>
+<li><a href="/de/help/mobile-maintenance">Wartung</a></li>
+<li><a href="/de/help/mobile-livestock">Besatz</a></li>
+<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
+<li><a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligenz</summary><ul>
+<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
+<li><a href="/de/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/de/help/mobile-journeys">Geführte Journeys</a></li>
+<li><a href="/de/help/mobile-icp-health">ICP und Zustandsberichte</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Konto</summary><ul>
+<li><a href="/de/help/mobile-vacation">Verreisen</a></li>
+<li><a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></li>
+<li><a href="/de/help/mobile-data-export">Deine Daten</a></li>
+<li><a href="/de/help/mobile-plans">Abos</a></li>
+<li><a href="/de/help/mobile-settings">Einstellungen</a></li>
+<li><a href="/de/help/mobile-support">Hilfe erhalten</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Erste Schritte</summary><ul>
+<li><a href="/de/help/max-setup">Cora Max einrichten</a></li>
+<li><a href="/de/help/max-tour">Der Cora Max Startbildschirm</a></li>
+<li><a href="/de/help/max-reef-room">Der Riffraum</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Dein Dashboard</summary><ul>
+<li><a href="/de/help/max-dashboard-editing">Das Cora Max Dashboard bearbeiten</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Geräte</summary><ul>
+<li><a href="/de/help/max-controls">Steckdosen und Steuerungen</a></li>
+<li><a href="/de/help/max-device-control">Ausrüstung von Cora Max aus steuern</a></li>
+<li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Aufzeichnungen</summary><ul>
+<li><a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligenz</summary><ul>
+<li><a href="/de/help/max-intelligence">Reef Buddy und Berichte</a></li>
+<li><a href="/de/help/max-voice">Mit Cora sprechen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Warnungen</summary><ul>
+<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
+<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Einstellungen</summary><ul>
+<li><a href="/de/help/max-settings">Cora Max-Einstellungen</a></li>
+<li><a href="/de/help/max-updates">Updates und Wiederherstellung</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Automatisierung</summary><ul>
+<li><a href="/de/help/max-automation" class="cur" aria-current="page">Szenen auf Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Hilfe</p>
+<ul>
+<li><a href="/de/help/faq">Häufig gestellte Fragen</a></li>
+<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
+<li><a href="/de/help/glossary">Glossar</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Szenen auf Cora Max</h1>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#wo-du-szenen-findest">Wo du Szenen findest</a></li><li><a href="#eine-szene-erstellen">Eine Szene erstellen</a></li><li><a href="#eine-szene-ausfhren">Eine Szene ausführen</a></li><li><a href="#eine-szene-bearbeiten-oder-lschen">Eine Szene bearbeiten oder löschen</a></li></ul></nav>
+<p>Eine <strong>Szene</strong> ist eine gespeicherte Gruppe von Ausrüstungsaktionen, die gemeinsam läuft, entweder für eine feste Zeit oder bis du sie stoppst. Szenen funktionieren gleich, egal ob du sie auf deinem Handy oder auf Cora Max erstellst; diese Seite deckt ab, wie du das an der Wand tust.</p>
+<h2 id="wo-du-szenen-findest">Wo du Szenen findest</h2>
+<p><strong>Einstellungen → Automationen</strong> listet jede Szene über jedes deiner Becken, mit einem Filter-Chip für jedes Becken, wenn du mehr als eines hast. Sie öffnet dieselbe Liste, egal ob die Szene auf dem Handy oder auf Cora Max erstellt wurde.</p>
+<p>Tippe auf eine Szene, um sie zu bearbeiten, oder auf <strong>+</strong>, um eine neue zu erstellen. Wenn du mehr als ein Becken hast und kein Filter gewählt ist, fragt Cora Max, zu welchem Becken die neue Szene gehört.</p>
+<h2 id="eine-szene-erstellen">Eine Szene erstellen</h2>
+<ol><li>Gib der Szene einen <strong>Namen</strong>.</li><li>Füge <strong>Schritte</strong> hinzu. Von Cora Max aus kann ein Schritt eine Apex-Steckdose schalten (<strong>Ein</strong>, <strong>Aus</strong> oder <strong>Auto</strong>) oder eine Zigbee-Steckdose (<strong>ein</strong>, <strong>aus</strong> oder <strong>umschalten</strong>). Schritte, die auf dem Handy für andere Arten von Ausrüstung hinzugefügt wurden, erscheinen trotzdem hier, und können weiterhin neu geordnet oder entfernt werden, auch wenn dieser Bildschirm keinen weiteren dieser Art hinzufügen kann.</li><li>Wähle, wie lange sie läuft: eine feste Anzahl von Minuten, oder <strong>dauerhaft</strong> (sie läuft weiter, bis du sie stoppst).</li><li>Wähle, ob das Ausführen der Szene einen <strong>Bestätigungsschritt</strong> braucht. Lass das eingeschaltet, sofern du dir nicht sicher bist, dass die Szene nie etwas berührt, das unsicher zu ändern wäre, ohne noch einmal hinzusehen.</li><li>Speichern.</li></ol>
+<aside class="cal cal-note"><p class="cal-t">DŌS-Dosierköpfe sind nie ein Szenenschritt</p><p>Eine Szene, ob auf Cora Max oder auf dem Handy erstellt, kann niemals einen Dosierkopf einschalten. Das ist Absicht: Eine Dosierung ist nicht die Art von Aktion, die eine Szene versehentlich auslösen sollte.</p></aside>
+<h2 id="eine-szene-ausfhren">Eine Szene ausführen</h2>
+<p>Szenen erscheinen als Kacheln auf dem Dashboard. Tippe auf <strong>Start</strong>, um eine zu beginnen.</p>
+<p>Wenn die Szene eine Bestätigung braucht, listet Cora Max genau auf, was sie gleich tun wird, eine Zeile pro Schritt, bevor irgendetwas passiert. Lies es, und entscheide dann, sie auszuführen oder abzubrechen.</p>
+<p>Während eine zeitbegrenzte Szene läuft, zeigt ihre Kachel einen Countdown bis zu ihrem Ende, und eine <strong>Stopp</strong>-Schaltfläche, um sie vorzeitig zu beenden. Die Kachel einer dauerhaften Szene bleibt in ihrem laufenden Zustand, bis du sie stoppst.</p>
+<p>Eine Szene auszuführen oder zu stoppen läuft immer über Cora Cloud, genauso wie jeder andere Befehl; siehe <a href="/de/help/max-activity">Was geändert wurde, und von was</a> für den Ort, an dem das Ergebnis erfasst wird.</p>
+<p><strong>Wenn es nicht funktioniert:</strong> Wenn eine Szene sich nicht starten oder nicht stoppen lässt, siehe <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Die Kindersicherung deckt auch Szenen ab</p><p>Wenn die <a href="/de/help/max-voice">Kindersicherung</a> eingeschaltet ist, ist das Ausführen oder Stoppen einer Szene von diesem Bildschirm aus zusammen mit jeder anderen Steuerung blockiert. Fragen zu einer Szene funktionieren per Sprache weiterhin; sie zu starten oder zu stoppen nicht.</p></aside>
+<h2 id="eine-szene-bearbeiten-oder-lschen">Eine Szene bearbeiten oder löschen</h2>
+<p>Öffne die Szene über <strong>Einstellungen → Automationen</strong>, oder halte ihre Kachel auf dem Dashboard lange gedrückt, um ihren Namen, ihre Schritte, Dauer oder Bestätigungseinstellung zu ändern, oder um sie zu löschen.</p>
+<aside class="cal cal-note"><p class="cal-t">Ältere Cora Max-Bildschirme können eine Szene ausführen, aber nicht bearbeiten</p><p>Szenen an der Wand zu erstellen und zu bearbeiten ist eine neuere Cora Max-Fähigkeit. Ein älteres Cora Max im selben Konto kann trotzdem eine Szene zeigen und ausführen, die auf dem Handy oder auf einem neueren Cora Max erstellt wurde; es kann sie einfach nicht ändern. Aktualisiere Cora Max, oder bearbeite die Szene vom Handy oder von einem neueren Bildschirm aus, wenn das vorkommt.</p></aside>
+<p>Siehe <a href="/de/help/mobile-automation">Szenen und Automationen</a> für mehr Details dazu, was eine Szene tun kann, und wie sie auf dem Handy erstellt werden.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/max-updates"><span>Zurück</span><b>Updates und Wiederherstellung</b></a></nav>
+      <p class="stamp">Geschrieben für Cora Max 0.28.78 und Cora Mobile 0.5.79. Zuletzt geprüft am 2026-09-27.</p>
+      <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/de/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Datenschutz</a> ·
+      <a href="/terms-and-conditions.html">AGB</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Keine Treffer f\u00fcr \u201e" + esc(q) + "\u201c." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Anleitung durchsuchen");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Anleitung durchsuchen…" aria-label="Anleitung durchsuchen" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/de/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

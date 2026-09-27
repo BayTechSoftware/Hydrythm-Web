@@ -135,6 +135,248 @@ def mark_trademarks(body: str) -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Languages.
+#
+# ⭐ `en` is the source: help-src/*.md → /help/... . Each other language is a
+# TRANSLATION TREE that mirrors it: help-src/<lang>/*.md → /<lang>/help/... .
+# A translated file must keep the same filename and the same frontmatter KEYS
+# as its English counterpart (title/description translated, section/order/
+# group left exactly as the English file has them — those are structural, not
+# prose, and the sidebar grouping depends on them matching across languages).
+# A language simply has fewer files while translators are still working; a
+# missing page is never an error, it is just not built for that language yet.
+# ─────────────────────────────────────────────────────────────────────────────
+
+LANGS = ["de", "fr", "tr", "it", "es", "pl"]
+ALL_LANGS = ["en"] + LANGS
+
+NATIVE_NAMES = {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "tr": "Türkçe",
+    "it": "Italiano",
+    "es": "Español",
+    "pl": "Polski",
+}
+
+# ⭐ ONE TABLE, every fixed UI word the shell prints, keyed by language. A
+# string missing here is a hole no translator can see (it is not in any .md
+# file), so the self-test checks every language has every key.
+#
+# ⚠️ `sections`/`groups` translate the SIDEBAR LABEL only — the frontmatter
+# `section:`/`group:` VALUE that drives the lookup stays the English string in
+# every language's .md file (see the note above `LANGS`). "Cora Mobile" and
+# "Cora Max" are product names and are never translated; only the generic
+# word "Help" and the ten task groups have entries.
+UI_STRINGS = {
+    "en": {
+        "skip": "Skip to content",
+        "menu": "Menu",
+        "close_nav": "Close navigation",
+        "search_button": "Search",
+        "search_aria": "Search the guide",
+        "search_placeholder": "Search the guide…",
+        "on_this_page": "On this page",
+        "previous": "Previous",
+        "next": "Next",
+        "written_for": "Written for Cora Max {max} and Cora Mobile {mobile}.",
+        "last_checked": "Last checked {date}.",
+        "still_stuck": "Still stuck? Email {email} and we'll help.",
+        "footer_privacy": "Privacy",
+        "footer_terms": "Terms",
+        "footer_support": "Support",
+        "search_none": "Nothing matched “{q}”.",
+        "search_unavailable": "Search is unavailable. Use the navigation instead.",
+        "lang_label": "Language",
+        "sections": {"Help": "Help"},
+        "groups": {
+            "Account": "Account", "Alerts": "Alerts",
+            "Alerts and automation": "Alerts and automation",
+            "Automation": "Automation", "Equipment": "Equipment",
+            "Getting started": "Getting started", "Intelligence": "Intelligence",
+            "Records": "Records", "Settings": "Settings",
+            "Your dashboard": "Your dashboard",
+        },
+    },
+    "de": {
+        "skip": "Zum Inhalt springen",
+        "menu": "Menü",
+        "close_nav": "Navigation schließen",
+        "search_button": "Suche",
+        "search_aria": "Anleitung durchsuchen",
+        "search_placeholder": "Anleitung durchsuchen…",
+        "on_this_page": "Auf dieser Seite",
+        "previous": "Zurück",
+        "next": "Weiter",
+        "written_for": "Geschrieben für Cora Max {max} und Cora Mobile {mobile}.",
+        "last_checked": "Zuletzt geprüft am {date}.",
+        "still_stuck": "Kommst du nicht weiter? Schreib eine E-Mail an {email}, wir helfen dir.",
+        "footer_privacy": "Datenschutz",
+        "footer_terms": "AGB",
+        "footer_support": "Support",
+        "search_none": "Keine Treffer für „{q}“.",
+        "search_unavailable": "Die Suche ist nicht verfügbar. Nutze die Navigation.",
+        "lang_label": "Sprache",
+        "sections": {"Help": "Hilfe"},
+        "groups": {
+            "Account": "Konto", "Alerts": "Warnungen",
+            "Alerts and automation": "Warnungen und Automatisierung",
+            "Automation": "Automatisierung", "Equipment": "Geräte",
+            "Getting started": "Erste Schritte", "Intelligence": "Intelligenz",
+            "Records": "Aufzeichnungen", "Settings": "Einstellungen",
+            "Your dashboard": "Dein Dashboard",
+        },
+    },
+    "fr": {
+        "skip": "Aller au contenu",
+        "menu": "Menu",
+        "close_nav": "Fermer la navigation",
+        "search_button": "Rechercher",
+        "search_aria": "Rechercher dans le guide",
+        "search_placeholder": "Rechercher dans le guide…",
+        "on_this_page": "Sur cette page",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "written_for": "Rédigé pour Cora Max {max} et Cora Mobile {mobile}.",
+        "last_checked": "Vérifié pour la dernière fois le {date}.",
+        "still_stuck": "Toujours bloqué ? Écrivez à {email}, nous vous aiderons.",
+        "footer_privacy": "Confidentialité",
+        "footer_terms": "Conditions",
+        "footer_support": "Assistance",
+        "search_none": "Aucun résultat pour « {q} ».",
+        "search_unavailable": "La recherche est indisponible. Utilisez la navigation.",
+        "lang_label": "Langue",
+        "sections": {"Help": "Aide"},
+        "groups": {
+            "Account": "Compte", "Alerts": "Alertes",
+            "Alerts and automation": "Alertes et automatisation",
+            "Automation": "Automatisation", "Equipment": "Équipement",
+            "Getting started": "Prise en main", "Intelligence": "Intelligence",
+            "Records": "Journaux", "Settings": "Paramètres",
+            "Your dashboard": "Votre tableau de bord",
+        },
+    },
+    "tr": {
+        "skip": "İçeriğe geç",
+        "menu": "Menü",
+        "close_nav": "Menüyü kapat",
+        "search_button": "Ara",
+        "search_aria": "Kılavuzda ara",
+        "search_placeholder": "Kılavuzda ara…",
+        "on_this_page": "Bu sayfada",
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "written_for": "Cora Max {max} ve Cora Mobile {mobile} için yazılmıştır.",
+        "last_checked": "Son kontrol: {date}.",
+        "still_stuck": "Yine de takıldınız mı? {email} adresine yazın, yardımcı olalım.",
+        "footer_privacy": "Gizlilik",
+        "footer_terms": "Koşullar",
+        "footer_support": "Destek",
+        "search_none": "“{q}” için sonuç bulunamadı.",
+        "search_unavailable": "Arama şu anda kullanılamıyor. Menüyü kullanın.",
+        "lang_label": "Dil",
+        "sections": {"Help": "Yardım"},
+        "groups": {
+            "Account": "Hesap", "Alerts": "Uyarılar",
+            "Alerts and automation": "Uyarılar ve otomasyon",
+            "Automation": "Otomasyon", "Equipment": "Ekipman",
+            "Getting started": "Başlarken", "Intelligence": "Zeka",
+            "Records": "Kayıtlar", "Settings": "Ayarlar",
+            "Your dashboard": "Panonuz",
+        },
+    },
+    "it": {
+        "skip": "Vai al contenuto",
+        "menu": "Menu",
+        "close_nav": "Chiudi la navigazione",
+        "search_button": "Cerca",
+        "search_aria": "Cerca nella guida",
+        "search_placeholder": "Cerca nella guida…",
+        "on_this_page": "In questa pagina",
+        "previous": "Precedente",
+        "next": "Successivo",
+        "written_for": "Scritto per Cora Max {max} e Cora Mobile {mobile}.",
+        "last_checked": "Ultimo controllo il {date}.",
+        "still_stuck": "Ancora bloccato? Scrivi a {email}, ti aiutiamo.",
+        "footer_privacy": "Privacy",
+        "footer_terms": "Termini",
+        "footer_support": "Assistenza",
+        "search_none": "Nessun risultato per “{q}”.",
+        "search_unavailable": "La ricerca non è disponibile. Usa la navigazione.",
+        "lang_label": "Lingua",
+        "sections": {"Help": "Aiuto"},
+        "groups": {
+            "Account": "Account", "Alerts": "Avvisi",
+            "Alerts and automation": "Avvisi e automazione",
+            "Automation": "Automazione", "Equipment": "Apparecchiature",
+            "Getting started": "Per iniziare", "Intelligence": "Intelligenza",
+            "Records": "Registri", "Settings": "Impostazioni",
+            "Your dashboard": "La tua dashboard",
+        },
+    },
+    "es": {
+        "skip": "Ir al contenido",
+        "menu": "Menú",
+        "close_nav": "Cerrar navegación",
+        "search_button": "Buscar",
+        "search_aria": "Buscar en la guía",
+        "search_placeholder": "Buscar en la guía…",
+        "on_this_page": "En esta página",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "written_for": "Escrito para Cora Max {max} y Cora Mobile {mobile}.",
+        "last_checked": "Última revisión el {date}.",
+        "still_stuck": "¿Sigues atascado? Escribe a {email} y te ayudamos.",
+        "footer_privacy": "Privacidad",
+        "footer_terms": "Términos",
+        "footer_support": "Soporte",
+        "search_none": "Sin resultados para “{q}”.",
+        "search_unavailable": "La búsqueda no está disponible. Usa la navegación.",
+        "lang_label": "Idioma",
+        "sections": {"Help": "Ayuda"},
+        "groups": {
+            "Account": "Cuenta", "Alerts": "Alertas",
+            "Alerts and automation": "Alertas y automatización",
+            "Automation": "Automatización", "Equipment": "Equipos",
+            "Getting started": "Primeros pasos", "Intelligence": "Inteligencia",
+            "Records": "Registros", "Settings": "Ajustes",
+            "Your dashboard": "Tu panel",
+        },
+    },
+    "pl": {
+        "skip": "Przejdź do treści",
+        "menu": "Menu",
+        "close_nav": "Zamknij menu",
+        "search_button": "Szukaj",
+        "search_aria": "Szukaj w przewodniku",
+        "search_placeholder": "Szukaj w przewodniku…",
+        "on_this_page": "Na tej stronie",
+        "previous": "Poprzedni",
+        "next": "Następny",
+        "written_for": "Napisano dla Cora Max {max} i Cora Mobile {mobile}.",
+        "last_checked": "Ostatnio sprawdzono {date}.",
+        "still_stuck": "Wciąż masz problem? Napisz na {email}, pomożemy.",
+        "footer_privacy": "Prywatność",
+        "footer_terms": "Warunki",
+        "footer_support": "Wsparcie",
+        "search_none": "Brak wyników dla „{q}”.",
+        "search_unavailable": "Wyszukiwanie jest niedostępne. Użyj menu.",
+        "lang_label": "Język",
+        "sections": {"Help": "Pomoc"},
+        "groups": {
+            "Account": "Konto", "Alerts": "Alerty",
+            "Alerts and automation": "Alerty i automatyzacja",
+            "Automation": "Automatyzacja", "Equipment": "Sprzęt",
+            "Getting started": "Pierwsze kroki", "Intelligence": "Inteligencja",
+            "Records": "Zapisy", "Settings": "Ustawienia",
+            "Your dashboard": "Twój panel",
+        },
+    },
+}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Content model
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -148,16 +390,19 @@ class Page:
     body_md: str
     group: str = ""
     reviewed: str = ""
+    lang: str = "en"
     html: str = ""
     headings: list = field(default_factory=list)
 
     @property
     def url(self) -> str:
-        return "/help/" if self.slug == "index" else f"/help/{self.slug}"
+        prefix = "/help/" if self.lang == "en" else f"/{self.lang}/help/"
+        return prefix if self.slug == "index" else f"{prefix}{self.slug}"
 
     @property
     def out_path(self) -> Path:
-        return OUT / ("index.html" if self.slug == "index" else f"{self.slug}.html")
+        base = OUT if self.lang == "en" else ROOT / self.lang / "help"
+        return base / ("index.html" if self.slug == "index" else f"{self.slug}.html")
 
 
 SECTION_ORDER = ["", "Cora Mobile", "Cora Max", "Help"]
@@ -245,6 +490,12 @@ def _img(m: re.Match) -> str:
     alt, src, cap = m.group(1), m.group(2), m.group(3)
     w, h = _dimensions(src)
     caption = f"<figcaption>{inline(cap)}</figcaption>" if cap else ""
+    # ⭐ ALWAYS ABSOLUTE, under /help/ — never relative. English pages live at
+    # /help/<slug> so "img/x.webp" happens to resolve there too, but a
+    # translated page lives at /<lang>/help/<slug> and the SAME relative path
+    # would resolve to /<lang>/help/img/x.webp, a 404: images are shared, not
+    # duplicated per language (see help-src/README.md "Translations").
+    out_src = src if src.startswith(("http://", "https://", "/")) else f"/help/{src}"
     # ⚠️ A full phone screenshot is ~2.2x taller than it is wide. Rendered at
     # the column width it is absurd — one screenshot fills three scrolls. Tall
     # images get the `phone` class, which caps them at a sensible width.
@@ -268,7 +519,7 @@ def _img(m: re.Match) -> str:
         f'<figure class="{cls}">'
         f'<button type="button" class="zoom" '
         f'aria-label="Enlarge: {html.escape(alt, quote=True)}">'
-        f'<img src="{html.escape(src, quote=True)}" alt="{html.escape(alt, quote=True)}" '
+        f'<img src="{html.escape(out_src, quote=True)}" alt="{html.escape(alt, quote=True)}" '
         f'width="{w}" height="{h}" loading="lazy" decoding="async">'
         f"</button>{caption}</figure>"
     )
@@ -452,6 +703,49 @@ def render(md: str, headings: list) -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Internal link localization.
+#
+# ⭐ Translators write English-STYLE links — /help/<slug>, /help/<slug>#anchor,
+# or /help/ for the index — exactly as they read in the English source, never
+# the /<lang>/ form. That is the one thing that keeps translation a content
+# job rather than a build job: rewriting them to the right language happens
+# here, once, for every page of that language, after render().
+#
+# ⚠️ Heading anchors are slugified from the TRANSLATED heading text, so a
+# cross-page `#anchor` copied from English may not exist once the target page
+# is translated. Rather than ship a link that jumps to nothing, the anchor is
+# dropped (the reader lands on the page, just not mid-scroll) unless it is
+# confirmed present in the target page's own headings.
+#
+# ⛔ A slug with NO translation yet must never become a dead link: it falls
+# back to that language's help index, same rule as the language switcher.
+# ─────────────────────────────────────────────────────────────────────────────
+
+_HELP_HREF_RE = re.compile(r'href="/help/([a-z0-9-]*)(?:#([a-z0-9-]+))?"')
+
+
+def localize_links(body: str, lang: str, by_slug: dict[str, "Page"]) -> str:
+    if lang == "en":
+        return body
+
+    def repl(m: re.Match) -> str:
+        slug, anchor = m.group(1), m.group(2)
+        if not slug:  # /help/  → the index
+            return f'href="/{lang}/help/"'
+        target = by_slug.get(slug)
+        if target is None:
+            # Not translated yet — never a dead link.
+            return f'href="/{lang}/help/"'
+        if anchor:
+            ids = {hid for _, _, hid in target.headings}
+            if anchor in ids:
+                return f'href="/{lang}/help/{slug}#{anchor}"'
+        return f'href="/{lang}/help/{slug}"'
+
+    return _HELP_HREF_RE.sub(repl, body)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # The page shell — minimal chrome, with a link back to the site.
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -469,6 +763,7 @@ def nav_html(pages: list[Page], current: Page) -> str:
     real disclosure widget for a screen reader rather than a div with a
     click handler.
     """
+    strings = UI_STRINGS[current.lang]
     parts = []
     for section in SECTION_ORDER:
         in_sec = sorted(
@@ -477,7 +772,8 @@ def nav_html(pages: list[Page], current: Page) -> str:
         if not in_sec:
             continue
         if section:
-            parts.append(f'<p class="nav-sec">{html.escape(section)}</p>')
+            label = strings["sections"].get(section, section)
+            parts.append(f'<p class="nav-sec">{html.escape(label)}</p>')
 
         # Preserve first-appearance order of the groups.
         seen: list[str] = []
@@ -502,8 +798,9 @@ def nav_html(pages: list[Page], current: Page) -> str:
         for g in seen:
             members = [p for p in in_sec if p.group == g]
             here = any(p.slug == current.slug for p in members)
+            g_label = strings["groups"].get(g, g)
             parts.append(f'<details class="nav-g"{" open" if here else ""}>')
-            parts.append(f"<summary>{html.escape(g)}</summary><ul>")
+            parts.append(f"<summary>{html.escape(g_label)}</summary><ul>")
             for p in members:
                 cur = (
                     ' class="cur" aria-current="page"'
@@ -526,14 +823,16 @@ def search_index(pages: list[Page]) -> str:
     """
     docs = []
     for p in pages:
+        strings = UI_STRINGS[p.lang]
         body = re.sub(r"<[^>]+>", " ", p.html)
         body = html.unescape(body)
         body = re.sub(r"\s+", " ", body).strip()
+        section = p.section or "Help"
         docs.append(
             {
                 "u": p.url,
                 "t": p.title,
-                "s": p.section or "Help",
+                "s": strings["sections"].get(section, section),
                 "d": p.description,
                 "h": [t for _, t, _ in p.headings if _ == 2],
                 # ⛔ THE WHOLE BODY, NOT A PREFIX. This was capped at 1,800
@@ -559,7 +858,10 @@ def reviewed_html(page: Page) -> str:
     not what it means, and on a 50-page guide never will be. A per-page date
     says the narrower, true thing.
     """
-    return f" Last checked {html.escape(page.reviewed)}." if page.reviewed else ""
+    if not page.reviewed:
+        return ""
+    tmpl = UI_STRINGS[page.lang]["last_checked"]
+    return " " + html.escape(tmpl.format(date=page.reviewed))
 
 
 def prevnext_html(pages: list[Page], current: Page) -> str:
@@ -581,15 +883,16 @@ def prevnext_html(pages: list[Page], current: Page) -> str:
     nxt = group[i + 1] if i < len(group) - 1 else None
     if not prev and not nxt:
         return ""
+    strings = UI_STRINGS[current.lang]
     out = ['<nav class="pn" aria-label="Continue reading">']
     if prev:
         out.append(
-            f'<a class="pn-p" href="{prev.url}"><span>Previous</span>'
+            f'<a class="pn-p" href="{prev.url}"><span>{html.escape(strings["previous"])}</span>'
             f"<b>{html.escape(prev.title)}</b></a>"
         )
     if nxt:
         out.append(
-            f'<a class="pn-n" href="{nxt.url}"><span>Next</span>'
+            f'<a class="pn-n" href="{nxt.url}"><span>{html.escape(strings["next"])}</span>'
             f"<b>{html.escape(nxt.title)}</b></a>"
         )
     out.append("</nav>")
@@ -601,21 +904,87 @@ def toc_html(page: Page) -> str:
     h2 = [h for h in page.headings if h[0] == 2]
     if len(h2) < 3:
         return ""
+    label = html.escape(UI_STRINGS[page.lang]["on_this_page"])
     items = "".join(f'<li><a href="#{hid}">{html.escape(t)}</a></li>' for _, t, hid in h2)
-    return f'<nav class="toc" aria-label="On this page"><p>On this page</p><ul>{items}</ul></nav>'
+    return f'<nav class="toc" aria-label="{label}"><p>{label}</p><ul>{items}</ul></nav>'
 
 
-def shell(page: Page, pages: list[Page]) -> str:
+def build_slug_index(lang_pages_map: dict[str, list[Page]]) -> dict[str, dict[str, Page]]:
+    """slug → {lang: Page}, across every language that has that slug built."""
+    idx: dict[str, dict[str, Page]] = {}
+    for lang, pages in lang_pages_map.items():
+        for p in pages:
+            idx.setdefault(p.slug, {})[lang] = p
+    return idx
+
+
+def lang_menu_html(page: Page, slug_index: dict[str, dict[str, Page]]) -> str:
+    """The language switcher in the help header.
+
+    ⭐ <details>/<summary>, same reasoning as the sidebar groups: no
+    JavaScript required, and a real disclosure widget for a screen reader.
+
+    ⛔ A language missing this SLUG (not translated yet) links to that
+    language's help index instead of a dead link — never omitted, because an
+    absent entry reads as "this guide has no German", not "not yet on this
+    page".
+    """
+    entries = slug_index.get(page.slug, {})
+    items = []
+    for lang in ALL_LANGS:
+        name = NATIVE_NAMES[lang]
+        target = entries.get(lang)
+        href = target.url if target is not None else ("/help/" if lang == "en" else f"/{lang}/help/")
+        cur = ' aria-current="true" class="cur"' if lang == page.lang else ""
+        items.append(f'<li><a href="{href}"{cur}>{html.escape(name)}</a></li>')
+    label = html.escape(UI_STRINGS[page.lang]["lang_label"])
+    current_name = html.escape(NATIVE_NAMES[page.lang])
+    return (
+        f'<details class="hlang"><summary aria-label="{label}">'
+        f"<span>{current_name}</span></summary><ul>{''.join(items)}</ul></details>"
+    )
+
+
+def hreflang_html(page: Page, slug_index: dict[str, dict[str, Page]]) -> str:
+    """<link rel="alternate"> for every language version of this page, plus
+    x-default pointing at English — the SEO half of the language switcher."""
+    entries = slug_index.get(page.slug, {})
+    out = []
+    for lang in ALL_LANGS:
+        target = entries.get(lang)
+        if target is not None:
+            out.append(f'<link rel="alternate" hreflang="{lang}" href="{SITE}{target.url}">')
+    en_page = entries.get("en")
+    if en_page is not None:
+        out.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}{en_page.url}">')
+    return "\n  ".join(out)
+
+
+def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]]) -> str:
+    lang = page.lang
+    strings = UI_STRINGS[lang]
     canonical = f"{SITE}{page.url}"
     robots = (
         '\n  <meta name="robots" content="noindex, nofollow">' if NOINDEX else ""
     )
     desc = html.escape(page.description, quote=True)
     title = html.escape(page.title)
+    home_url = "/help/" if lang == "en" else f"/{lang}/help/"
+    back_url = "/" if lang == "en" else f"/{lang}/"
     full_title = "Cora Help" if page.slug == "index" else f"{title} | Cora Help"
+    hreflang = hreflang_html(page, slug_index)
+    langmenu = lang_menu_html(page, slug_index)
+    skip = html.escape(strings["skip"])
+    menu_label = html.escape(strings["menu"])
+    close_label = html.escape(strings["close_nav"])
+    search_button = html.escape(strings["search_button"])
+    search_aria = html.escape(strings["search_aria"])
+    search_placeholder = html.escape(strings["search_placeholder"])
+    still_stuck_pre, _, still_stuck_post = strings["still_stuck"].partition("{email}")
+    search_none_pre, _, search_none_post = strings["search_none"].partition("{q}")
 
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -623,6 +992,7 @@ def shell(page: Page, pages: list[Page]) -> str:
   <meta name="description" content="{desc}">{robots}
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="{canonical}">
+  {hreflang}
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="{full_title}">
   <meta property="og:description" content="{desc}">
@@ -641,20 +1011,21 @@ def shell(page: Page, pages: list[Page]) -> str:
   <link rel="stylesheet" href="/help/help.css?v={CSS_VERSION}">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">{skip}</a>
 
 <header class="hnav">
   <div class="hnav-in">
-    <a class="hbrand" href="/help/">
+    <a class="hbrand" href="{home_url}">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
       <span>Help</span>
     </a>
-    <button class="hfind" id="hfind" type="button" aria-label="Search the guide">
+    <button class="hfind" id="hfind" type="button" aria-label="{search_aria}">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
-      <span>Search</span><kbd>/</kbd>
+      <span>{search_button}</span><kbd>/</kbd>
     </button>
-    <a class="hback" href="/">coraiq.tech &rarr;</a>
-    <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
+    {langmenu}
+    <a class="hback" href="{back_url}">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="{menu_label}" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
     </button>
   </div>
@@ -663,7 +1034,7 @@ def shell(page: Page, pages: list[Page]) -> str:
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
   <aside class="hside" id="hside" aria-label="Guide navigation">
-    <button class="hclose" id="hclose" type="button" aria-label="Close navigation">&times;</button>
+    <button class="hclose" id="hclose" type="button" aria-label="{close_label}">&times;</button>
     <nav aria-label="Guide">
 {nav_html(pages, page)}
     </nav>
@@ -675,8 +1046,8 @@ def shell(page: Page, pages: list[Page]) -> str:
       {toc_html(page)}
 {mark_trademarks(page.html)}
       {prevnext_html(pages, page)}
-      <p class="stamp">Written for Cora Max {STAMP_MAX} and Cora Mobile {STAMP_MOBILE}.{reviewed_html(page)}</p>
-      <p class="ask">Still stuck? Email <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a> and we'll help.</p>
+      <p class="stamp">{html.escape(strings["written_for"].format(max=STAMP_MAX, mobile=STAMP_MOBILE))}{reviewed_html(page)}</p>
+      <p class="ask">{html.escape(still_stuck_pre)}<a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>{html.escape(still_stuck_post)}</p>
     </article>
   </main>
 </div>
@@ -686,10 +1057,10 @@ def shell(page: Page, pages: list[Page]) -> str:
     <p class="disc">{html.escape(DISCLAIMER_1)}</p>
     <p class="disc">{html.escape(DISCLAIMER_2)}</p>
     <p class="legal">&copy; 2026 Cora IQ ·
-      <a href="/">coraiq.tech</a> ·
-      <a href="/privacy-policy.html">Privacy</a> ·
-      <a href="/terms-and-conditions.html">Terms</a> ·
-      <a href="/support.html">Support</a></p>
+      <a href="{back_url}">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">{html.escape(strings["footer_privacy"])}</a> ·
+      <a href="/terms-and-conditions.html">{html.escape(strings["footer_terms"])}</a> ·
+      <a href="/support.html">{html.escape(strings["footer_support"])}</a></p>
   </div>
 </footer>
 
@@ -760,6 +1131,17 @@ def shell(page: Page, pages: list[Page]) -> str:
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {{
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  }});
+}})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {{
+  document.addEventListener('click', function (e) {{
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {{
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    }});
   }});
 }})();
 
@@ -847,7 +1229,7 @@ def shell(page: Page, pages: list[Page]) -> str:
                    .sort(function (a, b) {{ return b[0] - a[0]; }})
                    .slice(0, 12);
     if (!hits.length) {{
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + {json.dumps(search_none_pre)} + esc(q) + {json.dumps(search_none_post)} + '</li>';
       return;
     }}
     list.innerHTML = hits.map(function (r, i) {{
@@ -871,9 +1253,9 @@ def shell(page: Page, pages: list[Page]) -> str:
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', {json.dumps(strings["search_aria"])});
     dlg.innerHTML = '<div class="sbox"><input type="search" '
-      + 'placeholder="Search the guide…" aria-label="Search the guide" '
+      + 'placeholder="{search_placeholder}" aria-label="{search_aria}" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
     document.body.appendChild(dlg);
     document.documentElement.classList.add('nav-open');
@@ -886,11 +1268,10 @@ def shell(page: Page, pages: list[Page]) -> str:
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
     if (docs) {{ run(); return; }}
-    fetch('/help/search.json').then(function (r) {{ return r.json(); }})
+    fetch('{home_url}search.json').then(function (r) {{ return r.json(); }})
       .then(function (j) {{ docs = j; run(); }})
       .catch(function () {{
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + {json.dumps(strings["search_unavailable"])} + '</li>';
       }});
   }}
 
@@ -1146,6 +1527,39 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
 .snone { padding: 22px; color: var(--text-3); font-size: 14px; }
 @media (max-width: 900px) { .hfind span, .hfind kbd { display: none; } }
 
+/* ── Language switcher ──────────────────────────────────────────────────
+   ⭐ <details>/<summary>, same as the sidebar groups: works with no
+   JavaScript, and is a real disclosure widget for assistive tech rather
+   than a div with a click handler bolted on. */
+.hlang { position: relative; font-size: 13.5px; }
+.hlang > summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center;
+  gap: 5px; padding: 6px 10px; color: var(--text-2); background: var(--surface-2);
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+}
+.hlang > summary::-webkit-details-marker { display: none; }
+.hlang > summary::after {
+  content: ""; width: 0; height: 0; margin-left: 2px;
+  border-left: 4px solid transparent; border-right: 4px solid transparent;
+  border-top: 5px solid currentColor; opacity: .6;
+}
+.hlang > summary:hover { border-color: var(--line-strong); color: var(--text); }
+.hlang[open] > summary { border-color: var(--line-strong); }
+.hlang > ul {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 45;
+  margin: 0; padding: 6px; list-style: none; min-width: 150px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); box-shadow: 0 14px 34px rgba(0,0,0,.14);
+}
+.hlang > ul li { margin: 0; }
+.hlang > ul a {
+  display: block; padding: 7px 10px; border-radius: 4px;
+  text-decoration: none; color: var(--text-2); font-size: 13.5px; white-space: nowrap;
+}
+.hlang > ul a:hover { background: var(--surface-2); color: var(--text); }
+.hlang > ul a.cur { color: var(--brand-deep); font-weight: 600; }
+@media (max-width: 640px) { .hlang > summary span { max-width: 64px; overflow: hidden; text-overflow: ellipsis; } }
+
 /* ── Zoomable screenshots ────────────────────────────────────────────── */
 .zoom {
   display: block; padding: 0; border: 0; background: none; width: 100%;
@@ -1315,6 +1729,11 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   .hnav-in, .hwrap, .hfoot-in { padding-left: 18px; padding-right: 18px; }
   .hbrand img { width: 78px; }
   .hback { font-size: 13px; }
+  /* 2026-09-27: with the language menu the header ran out of room at phone
+     width (the search button squeezed, "coraiq.tech ->" wrapped). The logo
+     and the footer still lead home. */
+  .hback { display: none; }
+  .hfind { flex-shrink: 0; }
 }
 """
 
@@ -1337,9 +1756,21 @@ def extract_root() -> str:
     return block
 
 
-def load_pages() -> list[Page]:
+def load_pages(lang: str = "en") -> list[Page]:
+    """Load one language's tree.
+
+    ⭐ `en` reads help-src/*.md, exactly as before. Any other language reads
+    help-src/<lang>/*.md — a MIRROR, not a copy: whatever slugs exist there
+    are the pages that language has been translated for. An entirely absent
+    directory, or one with no .md files yet, is not an error — it means that
+    language's translator has not started, and the site simply does not
+    publish that language's help section yet (see help-src/README.md).
+    """
+    src_dir = SRC if lang == "en" else SRC / lang
     pages: list[Page] = []
-    for path in sorted(SRC.glob("*.md")):
+    if not src_dir.exists():
+        return pages
+    for path in sorted(src_dir.glob("*.md")):
         # Notes that live beside the content but are not pages.
         if path.name == "README.md" or path.name.startswith("_"):
             continue
@@ -1356,11 +1787,14 @@ def load_pages() -> list[Page]:
                 order=int(meta["order"]),
                 group=meta.get("group", ""),
                 reviewed=meta.get("reviewed", ""),
+                lang=lang,
                 body_md=body,
             )
         )
     if not pages:
-        raise SystemExit("⛔ no pages found in help-src/ — nothing to build")
+        if lang == "en":
+            raise SystemExit("⛔ no pages found in help-src/ — nothing to build")
+        return pages
 
     # ⛔ A section not in SECTION_ORDER is silently DROPPED FROM THE NAV by
     # `nav_html`, while the page is still written and served. That is the worst
@@ -1409,13 +1843,85 @@ def load_pages() -> list[Page]:
     return pages
 
 
-def build(check_only: bool = False) -> int:
-    pages = load_pages()
-    OUT.mkdir(parents=True, exist_ok=True)
+_SITEMAP_LANG_BLOCK_RE = re.compile(
+    r"  <url>\s*<loc>https://coraiq\.tech/(?:" + "|".join(LANGS) + r")/[^<]*</loc>.*?</url>\n",
+    re.S,
+)
 
-    for p in pages:
-        p.headings = []
-        p.html = render(p.body_md, p.headings)
+
+def _sitemap_url_block(loc: str, lastmod: str, priority: str) -> str:
+    return (
+        f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n"
+        f"    <changefreq>monthly</changefreq>\n    <priority>{priority}</priority>\n  </url>\n"
+    )
+
+
+def desired_sitemap_text(lang_pages_map: dict[str, list[Page]]) -> str | None:
+    """The next sitemap.xml — every existing (English) entry untouched, plus a
+    freshly regenerated block of language entries.
+
+    ⭐ REGENERATED, NOT HAND-KEPT, same reasoning as the ⭐-marked derivations
+    at the top of this file: a sitemap entry restating a URL the build already
+    knows will eventually drift from it. Existing language blocks are removed
+    and rebuilt each run, which makes this idempotent — running the build
+    twice in a row produces byte-identical output.
+
+    ⛔ The English entries above are NEVER touched here — requirement is to
+    ADD language entries, not to take over a file another workflow also
+    edits by hand.
+    """
+    path = ROOT / "sitemap.xml"
+    if not path.exists():
+        return None
+    text = _SITEMAP_LANG_BLOCK_RE.sub("", path.read_text(encoding="utf-8"))
+
+    blocks = []
+    for lang in LANGS:
+        pages = lang_pages_map.get(lang) or []
+        if not pages:
+            continue
+        # The language's site root and support page are another agent's
+        # files; list them only once they actually exist, so this never
+        # advertises a page that 404s.
+        if (ROOT / lang / "index.html").exists():
+            blocks.append(_sitemap_url_block(f"{SITE}/{lang}/", "2026-09-27", "0.6"))
+        if (ROOT / lang / "support.html").exists():
+            blocks.append(_sitemap_url_block(f"{SITE}/{lang}/support.html", "2026-09-27", "0.5"))
+        for p in sorted(pages, key=lambda p: p.slug):
+            lastmod = p.reviewed or "2026-09-27"
+            priority = "0.6" if p.slug == "index" else "0.5"
+            blocks.append(_sitemap_url_block(f"{SITE}{p.url}", lastmod, priority))
+
+    return text.replace("</urlset>", "".join(blocks) + "</urlset>")
+
+
+def build(check_only: bool = False) -> int:
+    en_pages = load_pages("en")
+    lang_pages_map: dict[str, list[Page]] = {"en": en_pages}
+    for lang in LANGS:
+        lang_pages_map[lang] = load_pages(lang)
+
+    # Render every language's pages first: rendering only needs the page's
+    # OWN body, but `localize_links` (next) needs every OTHER page's
+    # headings already collected, so the two cannot be one pass.
+    for pages in lang_pages_map.values():
+        for p in pages:
+            p.headings = []
+            p.html = render(p.body_md, p.headings)
+
+    # Rewrite English-style /help/... links in translated pages to
+    # /<lang>/help/..., dropping an anchor that does not exist in the
+    # translated target and falling back to that language's index when the
+    # target page has not been translated at all (see `localize_links`).
+    for lang in LANGS:
+        pages = lang_pages_map[lang]
+        by_slug = {p.slug: p for p in pages}
+        for p in pages:
+            p.html = localize_links(p.html, lang, by_slug)
+
+    slug_index = build_slug_index(lang_pages_map)
+
+    OUT.mkdir(parents=True, exist_ok=True)
 
     written, stale = 0, []
     css = f"{extract_root()}\n{HELP_LAYOUT}"
@@ -1428,14 +1934,35 @@ def build(check_only: bool = False) -> int:
         FONTS_VERSION = hashlib.sha256(
             fonts.read_bytes()).hexdigest()[:10]
 
-    targets = [(OUT / "help.css", css), (OUT / "search.json", search_index(pages))] + [(p.out_path, shell(p, pages)) for p in pages]
+    # ⭐ ONE shared help.css at /help/help.css for every language — it is the
+    # same design system, not translated content, and a translated page's
+    # <link> in `shell()` points at that one absolute path regardless of
+    # which /<lang>/ directory it is served from. Only the search index is
+    # per language, since each language searches only its own pages.
+    targets = [(OUT / "help.css", css), (OUT / "search.json", search_index(en_pages))]
+    targets += [(p.out_path, shell(p, en_pages, slug_index)) for p in en_pages]
+
+    total_pages = len(en_pages)
+    for lang in LANGS:
+        pages = lang_pages_map[lang]
+        if not pages:
+            continue
+        total_pages += len(pages)
+        out_dir = ROOT / lang / "help"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        targets.append((out_dir / "search.json", search_index(pages)))
+        targets += [(p.out_path, shell(p, pages, slug_index)) for p in pages]
+
+    sitemap_text = desired_sitemap_text(lang_pages_map)
+    if sitemap_text is not None:
+        targets.append((ROOT / "sitemap.xml", sitemap_text))
 
     for path, content in targets:
         old = path.read_text(encoding="utf-8") if path.exists() else None
         if old == content:
             continue
         if check_only:
-            stale.append(path.name)
+            stale.append(str(path.relative_to(ROOT)))
             continue
         path.write_text(content, encoding="utf-8")
         written += 1
@@ -1444,10 +1971,10 @@ def build(check_only: bool = False) -> int:
         if stale:
             print(f"⛔ out of date: {', '.join(stale)}")
             return 1
-        print(f"✅ help/ is up to date ({len(pages)} pages)")
+        print(f"✅ help/ is up to date ({total_pages} pages)")
         return 0
 
-    print(f"✅ {len(pages)} pages · {written} file(s) written · css v{CSS_VERSION}")
+    print(f"✅ {total_pages} pages · {written} file(s) written · css v{CSS_VERSION}")
     if NOINDEX:
         print("⚠️  NOINDEX is ON — pages carry robots noindex and are unlisted.")
     if _MISSING:
@@ -1530,7 +2057,7 @@ def self_test() -> int:
     _demo = Page(slug="x", title="T", description="d", section="Cora Mobile",
                  order=1, body_md="body")
     _demo.html = "<p>body</p>"
-    _shell = shell(_demo, [_demo])
+    _shell = shell(_demo, [_demo], build_slug_index({"en": [_demo]}))
     _js = "\n".join(re.findall(r"<script>(.*?)</script>", _shell, re.S))
     ok("inline script is present", len(_js) > 500)
     ok("⛔ no unescaped f-string braces survive into the page",
@@ -1639,6 +2166,85 @@ def self_test() -> int:
 
     # ⛔ A zero-length render would make several checks above pass vacuously.
     ok("render is not empty", len(render("## A\n\ntext\n", [])) > 20)
+
+    # ─────────────────────────────────────────────────────────────────────
+    # Languages. ⚠️ These are UNIT tests against the functions, not a full
+    # build — they must hold even before any translator has written a file,
+    # which is exactly the state most languages are in most of the time.
+    # ─────────────────────────────────────────────────────────────────────
+
+    _home = Page(slug="index", title="Home", description="d", section="",
+                 order=0, body_md="")
+    _setup = Page(slug="setup", title="Setup", description="d",
+                  section="Cora Mobile", order=1, body_md="")
+    _setup.headings = [(2, "Wi-Fi", "wi-fi")]
+    _by_slug_de = {"index": _home, "setup": _setup}
+
+    ok("link rewriting: plain slug",
+       localize_links('<a href="/help/setup">x</a>', "de", _by_slug_de)
+       == '<a href="/de/help/setup">x</a>')
+    ok("link rewriting: the index",
+       localize_links('<a href="/help/">x</a>', "de", _by_slug_de)
+       == '<a href="/de/help/">x</a>')
+    ok("link rewriting: an anchor that exists in the translation survives",
+       localize_links('<a href="/help/setup#wi-fi">x</a>', "de", _by_slug_de)
+       == '<a href="/de/help/setup#wi-fi">x</a>')
+    ok("⛔ an anchor that does NOT exist in the translation is dropped, not broken",
+       localize_links('<a href="/help/setup#missing">x</a>', "de", _by_slug_de)
+       == '<a href="/de/help/setup">x</a>')
+    ok("⛔ a slug with no translation falls back to that language's index, never a dead link",
+       localize_links('<a href="/help/untranslated">x</a>', "de", _by_slug_de)
+       == '<a href="/de/help/">x</a>')
+    ok("link rewriting leaves English untouched",
+       localize_links('<a href="/help/setup">x</a>', "en", _by_slug_de)
+       == '<a href="/help/setup">x</a>')
+    ok("link rewriting never touches an image path",
+       '/help/img/x.webp' in localize_links(
+           '<img src="/help/img/x.webp">', "de", _by_slug_de))
+    ok("link rewriting never touches an external or legal-page link",
+       localize_links(
+           '<a href="/support.html">s</a><a href="https://example.com/help/x">e</a>',
+           "de", _by_slug_de)
+       == '<a href="/support.html">s</a><a href="https://example.com/help/x">e</a>')
+
+    _idx = build_slug_index({"en": [_home, _setup], "de": [_home]})
+    _hl = hreflang_html(_setup, _idx)
+    ok("hreflang: every language that has this slug is listed",
+       'hreflang="en"' in _hl and 'hreflang="de"' not in _hl)
+    ok("hreflang: x-default points at the English URL",
+       f'hreflang="x-default" href="{SITE}/help/setup"' in _hl)
+    _hl_home = hreflang_html(_home, _idx)
+    ok("hreflang: a slug present in both languages lists both",
+       'hreflang="en"' in _hl_home and 'hreflang="de"' in _hl_home)
+
+    _menu = lang_menu_html(_setup, _idx)
+    ok("language menu: the untranslated language falls back to its help index",
+       f'href="/de/help/"' in _menu)
+    ok("language menu: the current language is marked",
+       'aria-current="true"' in _menu)
+    ok("language menu: lists a native name for every language",
+       all(NATIVE_NAMES[l] in _menu for l in ALL_LANGS))
+
+    _en_keys = set(UI_STRINGS["en"])
+    for _l in LANGS:
+        ok(f"UI strings for {_l} have every key English has",
+           set(UI_STRINGS[_l]) == _en_keys)
+        ok(f"UI strings for {_l} have every group English has",
+           set(UI_STRINGS[_l]["groups"]) == set(UI_STRINGS["en"]["groups"]))
+        _flat = [v for k, v in UI_STRINGS[_l].items() if isinstance(v, str)]
+        _flat += list(UI_STRINGS[_l]["groups"].values())
+        _flat += list(UI_STRINGS[_l]["sections"].values())
+        ok(f"⛔ no em dash (U+2014) in {_l} UI strings",
+           not any("—" in v for v in _flat))
+
+    _de_page = Page(slug="setup", title="T", description="d", section="Cora Mobile",
+                     order=1, body_md="", lang="de")
+    _de_page.html = "<p>x</p>"
+    _de_shell = shell(_de_page, [_de_page], build_slug_index({"de": [_de_page]}))
+    ok('html lang attribute matches the page language',
+       '<html lang="de">' in _de_shell)
+    ok("a translated page still carries hreflang links",
+       'rel="alternate"' in _de_shell)
 
     if fails:
         print("⛔ FAILED:")

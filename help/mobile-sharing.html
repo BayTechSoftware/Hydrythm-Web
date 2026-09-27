@@ -7,6 +7,14 @@
   <meta name="description" content="Produce a share-ready card showing your tank&#x27;s current state.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-sharing">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-sharing">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-sharing">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-sharing">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-sharing">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-sharing">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-sharing">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-sharing">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-sharing">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sharing your tank | Cora Help">
   <meta property="og:description" content="Produce a share-ready card showing your tank&#x27;s current state.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-sharing" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-sharing">Deutsch</a></li><li><a href="/fr/help/mobile-sharing">Français</a></li><li><a href="/tr/help/mobile-sharing">Türkçe</a></li><li><a href="/it/help/mobile-sharing">Italiano</a></li><li><a href="/es/help/mobile-sharing">Español</a></li><li><a href="/pl/help/mobile-sharing">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -163,7 +172,7 @@
 <p>Cora can produce a <strong>tank snapshot</strong>: a single card showing your tank's current parameters, formatted for sharing.</p>
 <h2 id="creating-one">Creating one</h2>
 <p>Tap the <strong>share</strong> icon in the tank header on the dashboard. Cora builds the card and shows a preview before anything is sent.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The tank snapshot sheet"><img src="img/mobile-sharing.webp" alt="The tank snapshot sheet" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Choose which metrics appear, and the shape of the card.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The tank snapshot sheet"><img src="/help/img/mobile-sharing.webp" alt="The tank snapshot sheet" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Choose which metrics appear, and the shape of the card.</figcaption></figure>
 <h2 id="what-it-contains">What it contains</h2>
 <p>The card carries your tank's name, its age, its type and livestock count, then the metrics you chose, each with its current value and a recent trend.</p>
 <h2 id="choosing-what-appears">Choosing what appears</h2>
@@ -175,8 +184,8 @@
 <p><strong>Share</strong> hands the card to your phone's normal share sheet, so it can go anywhere your phone can send an image. Nothing leaves your account until you pick a destination.</p>
 <aside class="cal cal-note"><p class="cal-t">A snapshot is not access</p><p>Sharing a snapshot gives no one access to your account, your history or your equipment. To let someone look after the tank while you are away, use <a href="/help/mobile-vacation">Going away</a> instead, which produces a read-only page.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-icp-health"><span>Previous</span><b>ICP and health reports</b></a><a class="pn-n" href="/help/mobile-vacation"><span>Next</span><b>Going away</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-09.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-09.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -260,6 +269,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -347,7 +367,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -371,7 +391,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -389,8 +409,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

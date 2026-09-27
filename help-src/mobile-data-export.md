@@ -54,6 +54,7 @@ Export first if you want to keep anything.
 
 :::warning It does not cancel your subscription
 An App Store or Google Play subscription belongs to the **store**, not to Cora. Deleting your account removes your record here and **nothing stops the billing**; the charges continue until you cancel with Apple or Google yourself. Cancel there first, then delete.
+:::
 
 ## Contributing anonymised data
 

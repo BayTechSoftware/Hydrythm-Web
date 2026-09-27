@@ -66,6 +66,47 @@ page that is missing. Generate entries from the pages' canonical URLs, never by 
 To hide the guide again: `NOINDEX = True`, restore the `robots.txt` line, and remove the
 sitemap entries, in one commit.
 
+## Translations
+
+The guide publishes in English plus six languages: German (`de`), French (`fr`),
+Turkish (`tr`), Italian (`it`), Spanish (`es`), Polish (`pl`).
+
+**Where files go.** English is `help-src/*.md` → `/help/...`. Each other language is a
+mirror tree, `help-src/<lang>/*.md` → `/<lang>/help/...` — for example
+`help-src/de/mobile-setup.md` becomes `/de/help/mobile-setup`. A translated file must
+have the **same filename** as its English counterpart, and the **same frontmatter
+keys**. `title:` and `description:` are translated. **`section:`, `order:`, and
+`group:` are copied EXACTLY as the English file has them, never translated** — the
+sidebar's structure and grouping are matched across languages by those literal
+strings, and translating one silently drops the page into the wrong place, or out of
+the nav entirely (the same guard that catches an unknown `section:` in English also
+runs against every language). The English label shown in the sidebar for a `section`/
+`group` value comes from a small translation table in `build_help.py`
+(`UI_STRINGS[lang]["sections"|"groups"]`), not from the frontmatter.
+
+**A missing page is not an error.** If a language's translator has not gotten to a
+page yet, that `.md` file simply does not exist in `help-src/<lang>/`, and the build
+does not produce that page for that language — it is skipped, not blocked. Every
+place the guide would otherwise link to it instead links to that language's help
+index (`/<lang>/help/`), so there is never a dead link.
+
+**Links.** Write links exactly the way the English source does —
+`/help/<slug>`, `/help/<slug>#anchor`, or `/help/` for the index. The build rewrites
+these to `/<lang>/help/...` for you. Do **not** write `/de/help/...` etc. by hand.
+An `#anchor` is dropped (the link still goes to the right page, just not to that
+spot) if the translated target page does not have a heading that slugifies to it —
+headings are re-slugified from the TRANSLATED text, so a copied English anchor is not
+guaranteed to exist once a heading is translated. Links to `/support.html` and the
+legal pages, and any external URL, are left exactly as written — those pages stay
+English (owner decision). Images (`img/name.webp`) are shared across every language;
+do not create per-language copies.
+
+**Adding an eighth language.** Add its code to `LANGS` in `build_help.py`, add a
+`NATIVE_NAMES` entry, and add a full `UI_STRINGS` entry (every key the English one
+has — the self-test refuses a language with a key missing, and refuses an em dash in
+any UI string). Then create `help-src/<code>/` and start translating; nothing else
+needs to know the language exists ahead of time.
+
 ## Version stamp
 
 `STAMP_MAX` / `STAMP_MOBILE` in `build_help.py` print at the foot of every page. Bump

@@ -7,6 +7,14 @@
   <meta name="description" content="Choose what reaches your phone, when it may arrive, and where to read what you missed.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-notifications">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-notifications">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-notifications">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-notifications">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-notifications">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-notifications">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-notifications">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-notifications">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-notifications">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Notifications | Cora Help">
   <meta property="og:description" content="Choose what reaches your phone, when it may arrive, and where to read what you missed.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-notifications" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-notifications">Deutsch</a></li><li><a href="/fr/help/mobile-notifications">Français</a></li><li><a href="/tr/help/mobile-notifications">Türkçe</a></li><li><a href="/it/help/mobile-notifications">Italiano</a></li><li><a href="/es/help/mobile-notifications">Español</a></li><li><a href="/pl/help/mobile-notifications">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -161,7 +170,7 @@
       <h1>Notifications</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-can-push">What can push</a></li><li><a href="#the-bell">The bell</a></li><li><a href="#if-nothing-is-arriving">If nothing is arriving</a></li><li><a href="#if-too-much-is-arriving">If too much is arriving</a></li></ul></nav>
 <p><strong>Settings → Notifications</strong> controls everything Cora may send you.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Notification settings"><img src="img/mobile-notifications.webp" alt="Notification settings" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Each category can push independently.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Notification settings"><img src="/help/img/mobile-notifications.webp" alt="Notification settings" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Each category can push independently.</figcaption></figure>
 <h2 id="what-can-push">What can push</h2>
 <p>Each category is switched independently:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem: a Trident that has stopped testing, for example</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers, and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
@@ -178,8 +187,8 @@
 <p>Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
 <p>Turning a category off is all-or-nothing for that category. If instead one particular alert is pushing too often, change its <strong>Cooldown between alerts</strong> on the rule itself, from 15 minutes up to 1 week, rather than switching the whole category off. See <a href="/help/mobile-alerts">Alerts and thresholds</a> for the cooldown options and what "snooze" means on Cora Max.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-alerts"><span>Previous</span><b>Alerts and thresholds</b></a><a class="pn-n" href="/help/mobile-automation"><span>Next</span><b>Automations and scenes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-27.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -263,6 +272,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -350,7 +370,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -374,7 +394,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -392,8 +412,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 

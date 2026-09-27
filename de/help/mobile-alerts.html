@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warnungen und Schwellenwerte | Cora Help</title>
+  <meta name="description" content="Lege den Bereich für jeden Wasserwert fest, wähle, worüber du informiert werden willst, und verstehe, warum eine Warnung ausgelöst wurde.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/de/help/mobile-alerts">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-alerts">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-alerts">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-alerts">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-alerts">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-alerts">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-alerts">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-alerts">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-alerts">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Warnungen und Schwellenwerte | Cora Help">
+  <meta property="og:description" content="Lege den Bereich für jeden Wasserwert fest, wähle, worüber du informiert werden willst, und verstehe, warum eine Warnung ausgelöst wurde.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/de/help/mobile-alerts">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/de/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Anleitung durchsuchen">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Suche</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Sprache"><span>Deutsch</span></summary><ul><li><a href="/help/mobile-alerts">English</a></li><li><a href="/de/help/mobile-alerts" aria-current="true" class="cur">Deutsch</a></li><li><a href="/fr/help/mobile-alerts">Français</a></li><li><a href="/tr/help/mobile-alerts">Türkçe</a></li><li><a href="/it/help/mobile-alerts">Italiano</a></li><li><a href="/es/help/mobile-alerts">Español</a></li><li><a href="/pl/help/mobile-alerts">Polski</a></li></ul></details>
+    <a class="hback" href="/de/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menü" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Navigation schließen">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/de/help/">Cora Hilfe</a></li>
+</ul>
+<p class="nav-sec">Cora Mobile</p>
+<details class="nav-g">
+<summary>Erste Schritte</summary><ul>
+<li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Kontowiederherstellung</a></li>
+<li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
+<li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Dein Dashboard</summary><ul>
+<li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
+<li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
+<li><a href="/de/help/mobile-widgets">Widget-Referenz</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer betrachten</a></li>
+<li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Geräte</summary><ul>
+<li><a href="/de/help/mobile-devices">Geräte hinzufügen, bearbeiten und entfernen</a></li>
+<li><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></li>
+<li><a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></li>
+<li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
+<li><a href="/de/help/mobile-probes">Sonden</a></li>
+<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Warnungen und Automatisierung</summary><ul>
+<li><a href="/de/help/mobile-alerts" class="cur" aria-current="page">Warnungen und Schwellenwerte</a></li>
+<li><a href="/de/help/mobile-notifications">Benachrichtigungen</a></li>
+<li><a href="/de/help/mobile-automation">Automationen und Szenen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Aufzeichnungen</summary><ul>
+<li><a href="/de/help/mobile-dosing">Dosierung</a></li>
+<li><a href="/de/help/mobile-maintenance">Wartung</a></li>
+<li><a href="/de/help/mobile-livestock">Besatz</a></li>
+<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
+<li><a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligenz</summary><ul>
+<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
+<li><a href="/de/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/de/help/mobile-journeys">Geführte Journeys</a></li>
+<li><a href="/de/help/mobile-icp-health">ICP und Zustandsberichte</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Konto</summary><ul>
+<li><a href="/de/help/mobile-vacation">Verreisen</a></li>
+<li><a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></li>
+<li><a href="/de/help/mobile-data-export">Deine Daten</a></li>
+<li><a href="/de/help/mobile-plans">Abos</a></li>
+<li><a href="/de/help/mobile-settings">Einstellungen</a></li>
+<li><a href="/de/help/mobile-support">Hilfe erhalten</a></li>
+</ul></details>
+<p class="nav-sec">Cora Max</p>
+<details class="nav-g">
+<summary>Erste Schritte</summary><ul>
+<li><a href="/de/help/max-setup">Cora Max einrichten</a></li>
+<li><a href="/de/help/max-tour">Der Cora Max Startbildschirm</a></li>
+<li><a href="/de/help/max-reef-room">Der Riffraum</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Dein Dashboard</summary><ul>
+<li><a href="/de/help/max-dashboard-editing">Das Cora Max Dashboard bearbeiten</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Geräte</summary><ul>
+<li><a href="/de/help/max-controls">Steckdosen und Steuerungen</a></li>
+<li><a href="/de/help/max-device-control">Ausrüstung von Cora Max aus steuern</a></li>
+<li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Aufzeichnungen</summary><ul>
+<li><a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Intelligenz</summary><ul>
+<li><a href="/de/help/max-intelligence">Reef Buddy und Berichte</a></li>
+<li><a href="/de/help/max-voice">Mit Cora sprechen</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Warnungen</summary><ul>
+<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
+<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Einstellungen</summary><ul>
+<li><a href="/de/help/max-settings">Cora Max-Einstellungen</a></li>
+<li><a href="/de/help/max-updates">Updates und Wiederherstellung</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatisierung</summary><ul>
+<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Hilfe</p>
+<ul>
+<li><a href="/de/help/faq">Häufig gestellte Fragen</a></li>
+<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
+<li><a href="/de/help/glossary">Glossar</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Warnungen und Schwellenwerte</h1>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-warnzentrale">Die Warnzentrale</a></li><li><a href="#einen-bereich-festlegen">Einen Bereich festlegen</a></li><li><a href="#was-eine-warnung-auslst">Was eine Warnung auslöst</a></li><li><a href="#wo-warnungen-erscheinen">Wo Warnungen erscheinen</a></li><li><a href="#wenn-ausrstung-aufmerksamkeit-braucht">Wenn Ausrüstung Aufmerksamkeit braucht</a></li><li><a href="#red-sea-messwerte-haben-aufgehrt-sich-zu-aktualisieren">&quot;Red Sea-Messwerte haben aufgehört, sich zu aktualisieren&quot;</a></li><li><a href="#whlen-was-dich-erreicht">Wählen, was dich erreicht</a></li><li><a href="#abklingzeiten-wie-oft-dieselbe-warnung-dich-benachrichtigen-">Abklingzeiten: wie oft dieselbe Warnung dich benachrichtigen darf</a></li><li><a href="#eine-warnung-lschen">Eine Warnung löschen</a></li><li><a href="#warnungen-fr-einen-wasserwert-deaktivieren">Warnungen für einen Wasserwert deaktivieren</a></li></ul></nav>
+<p>Eine Warnung wird ausgelöst, wenn ein Messwert den dafür festgelegten Bereich verlässt. Du legst die Bereiche fest, und du steuerst, welche Warnungen dein Handy erreichen.</p>
+<p>Öffne die <strong>Warnzentrale</strong> aus der Verknüpfungsreihe am unteren Rand des Dashboards.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Die Warnzentrale"><img src="/help/img/mobile-alerts.webp" alt="Die Warnzentrale" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Aktive Warnungen, jede mit ihrem Schweregrad, was sie ausgelöst hat, und wann.</figcaption></figure>
+<h2 id="die-warnzentrale">Die Warnzentrale</h2>
+<p>Zwei Tabs:</p>
+<ul><li><strong>Aktiv</strong>: derzeit ausgelöste Warnungen, mit einem Zähler-Abzeichen</li><li><strong>Regeln</strong>: die Schwellenwert- und Änderungsraten-Regeln, die sie erzeugen</li></ul>
+<p>Jede aktive Warnung zeigt den Wasserwert und das Becken, den Messwert, der sie ausgelöst hat, eine einfache Erklärung, ein Schweregrad-Chip, die Art der ausgelösten Regel (<strong>Schwellenwert</strong> oder <strong>Änderungsrate</strong>), und den Zeitpunkt, zu dem sie ausgelöst wurde.</p>
+<p>Zwei Aktionen bei jeder:</p>
+<ul><li><strong>Regel ansehen</strong>: öffnet die Regel, die sie ausgelöst hat, damit du den Bereich anpassen kannst</li><li><strong>Diese Warnung erklären</strong>: bittet den Assistenten, sie im Licht der Historie deines Beckens zu interpretieren</li></ul>
+<h2 id="einen-bereich-festlegen">Einen Bereich festlegen</h2>
+<p>Wasserwerte, die Cora bewerten kann, haben einen Zielbereich, und die Standardwerte stammen von deinem Beckentyp und -alter, die du bei der Einrichtung angegeben hast, meist ein vernünftiger Ausgangspunkt. Ein Wasserwert ohne nutzbaren Bereich wird gar nicht bewertet: Er bleibt neutral grau, statt geraten zu werden.</p>
+<p>Um einen zu ändern: <strong>Halte das Widget lange gedrückt</strong> auf dem Dashboard, was direkt die Schwellenwerte dieses Wasserwerts öffnet. Ein einfaches Tippen öffnet stattdessen die Wasserwert-Ansicht; die beiden Gesten führen an verschiedene Orte, und das lange Drücken ist die Verknüpfung, die sich zu merken lohnt.</p>
+<p>Wenn der Wasserwert noch keine Regel hat, starten die Felder mit Coras Standardwert, und ein Hinweis darunter sagt das auch. Ändere einen beliebigen Wert, um deinen eigenen festzulegen.</p>
+<p>Um sie alle zusammen zu sehen, nutze <strong>Warnungen</strong> in der Schaltflächenreihe unter dem Dashboard.</p>
+<p>Du kannst festlegen:</p>
+<ul><li><strong>Einen Bereich</strong>: eine Unter- und eine Obergrenze, für Dinge wie Alkalinität oder Temperatur</li><li><strong>Eine Obergrenze</strong>: nur eine Obergrenze, für Dinge, bei denen niedrig in Ordnung ist, wie Nitrat oder Phosphat</li><li><strong>Eine Untergrenze</strong>: nur eine Untergrenze</li></ul>
+<aside class="cal cal-tip"><p class="cal-t">Lege den Bereich fest, in dem dein Becken tatsächlich läuft</p><p>Die Standardwerte sind ein Ausgangspunkt, kein Urteil. Ein Becken, das nährstoffarm bei 6 dKH läuft, ist nicht "falsch", weil eine Tabelle 8–9 gesagt hat. Lege den Bereich fest, in dem du tatsächlich läufst, und Cora sagt es dir, wenn <em>du</em> davon abweichst.</p></aside>
+<h2 id="was-eine-warnung-auslst">Was eine Warnung auslöst</h2>
+<p>Eine Warnung wird ausgelöst, wenn ein Messwert einen Schwellenwert überschreitet. Cora prüft jeden Messwert, sobald er eintrifft, daher reicht ein einzelner Messwert außerhalb deines Bereichs aus, um eine auszulösen.</p>
+<p>Sobald eine Warnung aktiv ist, benachrichtigt sie dich nicht ständig erneut über dieselbe Sache; es gibt eine Abklingzeit, bevor sie erneut ausgelöst werden kann. Und sie <strong>löscht sich selbst</strong> in dem Moment, in dem ein Messwert wieder in den Bereich zurückkehrt; es gibt nichts zu bestätigen.</p>
+<p>Du kannst außerdem eine <strong>Änderungsraten</strong>-Regel festlegen, die beobachtet, wie schnell sich ein Wasserwert bewegt, statt wo er gerade steht. Das ist die richtige für Dinge, bei denen die Geschwindigkeit einer Veränderung wichtiger ist als die Zahl.</p>
+<h2 id="wo-warnungen-erscheinen">Wo Warnungen erscheinen</h2>
+<ul><li><strong>Die Glocke</strong>, oben rechts auf jedem Bildschirm, enthält deine Historie. Die Zahl zeigt, wie viele du noch nicht gelesen hast.</li><li><strong>Push-Benachrichtigungen</strong> erreichen dein Handy, wenn du sie erlaubst.</li><li><strong>Das Widget</strong> wird auf dem Dashboard gelb oder rot.</li><li><strong>Cora Max</strong> zeigt dieselben Warnungen auf dem großen Bildschirm.</li></ul>
+<h2 id="wenn-ausrstung-aufmerksamkeit-braucht">Wenn Ausrüstung Aufmerksamkeit braucht</h2>
+<p>Manche Warnungen betreffen Ausrüstung statt eines Messwerts. Wenn ein Gerät wie ein Trident oder eine Jecod™-Pumpe einen Fehler meldet, sendet Cora eine Benachrichtigung, die das Becken und das Gerät benennt, zum Beispiel <em>"Display-Becken: Rückförderpumpe braucht Aufmerksamkeit"</em>, und sagt, was nicht stimmt, etwa ein blockierter Rotor. Wenn der Fehler behoben ist, folgt eine zweite: <em>"Display-Becken: Rückförderpumpe ist wieder in Ordnung"</em>. Beide fallen unter <strong>Gerätefehler</strong> in <strong>Einstellungen → Benachrichtigungen</strong>.</p>
+<p>Eine Maxspect™-Gyre (Beta) kann dieselbe Warnung auslösen, wenn ein Cora Max in ihrem Netzwerk feststellt, dass beide Köpfe auf 0 % stehen, oder zweimal in Folge keine Antwort von der Gyre bekommt. Behandle das als Warnung, nicht als Absicherung: Das Cora Max prüft von Zeit zu Zeit, nicht dauerhaft, und nur während es läuft und die Gyre erreichen kann.</p>
+<h2 id="red-sea-messwerte-haben-aufgehrt-sich-zu-aktualisieren">"Red Sea™-Messwerte haben aufgehört, sich zu aktualisieren"</h2>
+<p>Auf der Wasserwert-Seite eines Beckens könntest du diesen Banner sehen:</p>
+<blockquote><p>Red Sea-Messwerte haben aufgehört, sich zu aktualisieren. Kein Gerät liest derzeit die Red Sea-Geräte dieses Beckens: Prüfe Primäres Cora Max in den Einstellungen, oder öffne dieses Becken auf einem Gerät im selben WLAN.</p></blockquote>
+<p>Das bedeutet, dass gerade kein Handy oder Cora Max die ReefBeat-Ausrüstung dieses Beckens abfragt, daher sind die gezeigten Messwerte alt, nicht notwendigerweise falsch. Tippe auf den Banner, um <strong>Primäres Cora Max</strong> zu öffnen, und wähle entweder ein Gerät, das eingeschaltet ist, oder stelle es auf <strong>Jedes aktive (automatisch)</strong>. Siehe <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a>. Wenn es nicht verschwindet, siehe <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
+<h2 id="whlen-was-dich-erreicht">Wählen, was dich erreicht</h2>
+<p><strong>Einstellungen → Benachrichtigungen.</strong> Du kannst steuern:</p>
+<ul><li>Welche der Benachrichtigungskategorien senden dürfen</li></ul>
+<p>Reef Buddy hat keinen eigenen Schalter: Es sendet eine Zusammenfassung, wenn es etwas gibt, das eine Handlung wert ist, und bleibt still, wenn nicht.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora ist darauf ausgelegt, still zu bleiben</p><p>Die tägliche Zusammenfassung ist ein Push pro Becken pro Tag, und an einem Tag, an dem nichts deine Aufmerksamkeit braucht, bleibt sie meist still, statt dir mitzuteilen, dass alles in Ordnung ist. Wenn Cora sendet, hat sich etwas geändert.</p></aside>
+<h2 id="abklingzeiten-wie-oft-dieselbe-warnung-dich-benachrichtigen-">Abklingzeiten: wie oft dieselbe Warnung dich benachrichtigen darf</h2>
+<p>Jede Regel hat ihre eigene <strong>Abklingzeit zwischen Warnungen</strong>, festgelegt, wenn du die Regel hinzufügst oder bearbeitest (im Tab <strong>Regeln</strong> der Warnzentrale). Die Abklingzeit versteckt die Warnung selbst nicht: Sie begrenzt nur, wie oft Cora dir einen Push darüber sendet. Der Messwert bleibt die ganze Zeit bewertet, und die Warnung bleibt auf dem Widget und in der Glocke sichtbar.</p>
+<p>Du kannst wählen zwischen: 15 Min., 30 Min., 1 Std., 2 Std., 4 Std., 8 Std., 1 Tag, 3 Tage, oder <strong>1 Woche</strong>.</p>
+<p>Eine kurze Abklingzeit passt zu einem schnell wechselnden Messwert wie Temperatur. Eine lange, bis zu einer Woche, passt zu etwas, das tagelang falsch bleibt, während du auf ein Ersatzteil wartest, etwa ein Trident ohne Reagenz oder ein leerer Dosierbehälter: Ohne eine lange Abklingzeit würde Cora mehrmals am Tag über dasselbe bekannte Problem senden.</p>
+<aside class="cal cal-note"><p class="cal-t">Eine aktive Warnung schlummern legen läuft auf Cora Max</p><p>Cora Mobile hat auf einer aktiven Warnung keine eigene Schlummern-Schaltfläche; diese Steuerung befindet sich auf dem Cora Max-Bildschirm am Becken, und sie schaltet dieselbe Warnung für die hier gewählte Abklingzeit stumm. Vom Handy aus änderst du, wie oft du davon hörst, über diese Abklingzeit pro Regel, nicht über ein Schlummern pro Warnung.</p></aside>
+<h2 id="eine-warnung-lschen">Eine Warnung löschen</h2>
+<p>Eine Warnung wird gelöscht, wenn der Messwert wieder in den Bereich zurückkehrt. Es gibt nichts zu verwerfen; es ist eine Aussage über das Becken, keine Aufgabe.</p>
+<aside class="cal cal-note"><p class="cal-t">Vorübergehende Messwerte lösen Warnungen aus</p><p>Ein einzelner Messwert außerhalb des Bereichs reicht aus, um eine Warnung auszulösen, daher löst eine Sonde, die kurz ausschlägt, eine aus. Wenn eine Quelle unzuverlässig ist, kalibriere sie neu, oder richte das Widget auf eine andere Quelle, statt den Schwellenwert zu erweitern.</p></aside>
+<p>Wenn ein Messwert falsch ist, statt dass das Becken falsch liegt (eine Sonde, die kalibriert werden muss, zum Beispiel), behebe die Quelle. Einen Schwellenwert zu erweitern, um eine schlechte Sonde zum Schweigen zu bringen, versteckt auch das nächste echte Problem.</p>
+<h2 id="warnungen-fr-einen-wasserwert-deaktivieren">Warnungen für einen Wasserwert deaktivieren</h2>
+<p>Öffne die Regel im Tab <strong>Regeln</strong> der Warnzentrale, und schalte ihren <strong>Aktivierungsschalter</strong> aus. Die Regel und ihr Bereich bleiben erhalten, sodass du sie wieder einschalten kannst, ohne sie neu aufzubauen.</p>
+<aside class="cal cal-warning"><p class="cal-t">Einen Wasserwert stummschalten, ohne seinen Bereich zu löschen</p><p>Einen Schwellenwert zu entfernen, stoppt nicht notwendigerweise jede Bewertung dieses Messwerts; Standard-Referenzbänder färben den Wert weiterhin ein und können weiterhin in die Zusammenfassung einfließen. Nutze den Aktivierungsschalter der Regel.</p></aside>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/mobile-consumables"><span>Zurück</span><b>Verbrauchsmaterial</b></a><a class="pn-n" href="/de/help/mobile-notifications"><span>Weiter</span><b>Benachrichtigungen</b></a></nav>
+      <p class="stamp">Geschrieben für Cora Max 0.28.78 und Cora Mobile 0.5.79. Zuletzt geprüft am 2026-09-27.</p>
+      <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/de/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Datenschutz</a> ·
+      <a href="/terms-and-conditions.html">AGB</a> ·
+      <a href="/support.html">Support</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Keine Treffer f\u00fcr \u201e" + esc(q) + "\u201c." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Anleitung durchsuchen");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Anleitung durchsuchen…" aria-label="Anleitung durchsuchen" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/de/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

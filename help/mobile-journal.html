@@ -7,6 +7,14 @@
   <meta name="description" content="Record what you did to your tank, so that later you can tell what caused what.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-journal">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-journal">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-journal">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-journal">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-journal">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-journal">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-journal">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-journal">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-journal">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="The journal | Cora Help">
   <meta property="og:description" content="Record what you did to your tank, so that later you can tell what caused what.">
@@ -22,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=1bd4e73743">
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +45,7 @@
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
       <span>Search</span><kbd>/</kbd>
     </button>
+    <details class="hlang"><summary aria-label="Language"><span>English</span></summary><ul><li><a href="/help/mobile-journal" aria-current="true" class="cur">English</a></li><li><a href="/de/help/mobile-journal">Deutsch</a></li><li><a href="/fr/help/mobile-journal">Français</a></li><li><a href="/tr/help/mobile-journal">Türkçe</a></li><li><a href="/it/help/mobile-journal">Italiano</a></li><li><a href="/es/help/mobile-journal">Español</a></li><li><a href="/pl/help/mobile-journal">Polski</a></li></ul></details>
     <a class="hback" href="/">coraiq.tech &rarr;</a>
     <button class="hmenu" id="hmenu" aria-label="Menu" aria-controls="hside" aria-expanded="false">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
@@ -162,7 +171,7 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#adding-an-entry">Adding an entry</a></li><li><a href="#what-to-record">What to record</a></li><li><a href="#editing-and-removing-entries">Editing and removing entries</a></li><li><a href="#asking-cora-about-an-entry">Asking Cora about an entry</a></li><li><a href="#reading-it-back">Reading it back</a></li><li><a href="#on-cora-max">On Cora Max</a></li></ul></nav>
 <p>The journal records what you did to the tank: water changes, livestock additions, dosing changes, equipment work and maintenance.</p>
 <p>Its purpose is later comparison. When a parameter moves unexpectedly, the journal is the record of what changed around that date.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The journal"><img src="img/mobile-journal.webp" alt="The journal" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Entries in reverse order, with photos inline.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The journal"><img src="/help/img/mobile-journal.webp" alt="The journal" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Entries in reverse order, with photos inline.</figcaption></figure>
 <h2 id="adding-an-entry">Adding an entry</h2>
 <p>Tap the <strong>Journal</strong> button floating over the bottom right of the Dashboard.</p>
 <p>Write what you did in plain words. Add a photo if it helps: a coral colouring up, a piece of equipment behaving oddly, a test kit result.</p>
@@ -183,8 +192,8 @@
 <h2 id="on-cora-max">On Cora Max</h2>
 <p>You can add journal entries on Cora Max as well, which is often more convenient when you are standing at the tank. Reach the journal from the tank menu, or dictate an entry by voice.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-livestock"><span>Previous</span><b>Livestock</b></a><a class="pn-n" href="/help/mobile-activity"><span>Next</span><b>Activity and timeline</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.77 and Cora Mobile 0.5.78. Last checked 2026-09-09.</p>
-      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we'll help.</p>
+      <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-09.</p>
+      <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
 </div>
@@ -268,6 +277,17 @@
   // A tap on a link navigates; make sure the drawer is not left open behind it.
   s.addEventListener('click', function (e) {
     if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
   });
 })();
 
@@ -355,7 +375,7 @@
                    .sort(function (a, b) { return b[0] - a[0]; })
                    .slice(0, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">Nothing matched “' + esc(q) + '”.</li>';
+      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
@@ -379,7 +399,7 @@
     dlg.className = 'sdlg';
     dlg.setAttribute('role', 'dialog');
     dlg.setAttribute('aria-modal', 'true');
-    dlg.setAttribute('aria-label', 'Search the guide');
+    dlg.setAttribute('aria-label', "Search the guide");
     dlg.innerHTML = '<div class="sbox"><input type="search" '
       + 'placeholder="Search the guide…" aria-label="Search the guide" '
       + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
@@ -397,8 +417,7 @@
     fetch('/help/search.json').then(function (r) { return r.json(); })
       .then(function (j) { docs = j; run(); })
       .catch(function () {
-        list.innerHTML = '<li class="snone">Search is unavailable. '
-          + 'Use the navigation instead.</li>';
+        list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });
   }
 
