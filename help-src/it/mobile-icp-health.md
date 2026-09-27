@@ -37,7 +37,7 @@ Se qualcosa non funziona, guarda in [Risoluzione dei problemi](/help/troubleshoo
 
 **Un punteggio** su 100, con un riassunto semplice di cosa significa per il tuo impianto: il tipo di vasca, la sua età, la popolazione.
 
-Il punteggio confronta i tuoi risultati con gli intervalli obiettivo, compresi quelli che hai impostato tu. Se anche un solo risultato è fuori intervallo, il punteggio non supera 70. Se è molto fuori, non supera 40, anche se tutti gli altri sono buoni. Sotto il punteggio vedi **Sano** sopra 70, **Richiede attenzione** da 40 a 70 e **Critico** sotto 40. I rapporti di salute usano lo stesso punteggio.
+Il punteggio confronta i tuoi risultati con gli intervalli obiettivo, compresi quelli che hai impostato tu. Se anche un solo risultato è fuori intervallo, il punteggio non supera 70, quindi non può risultare **Sano**. Se è molto fuori, non supera 40, anche se tutti gli altri sono buoni. Sotto il punteggio vedi **Sano** da 71 a 100, **Richiede attenzione** da 40 a 70 e **Critico** da 0 a 39. I rapporti di salute usano lo stesso punteggio.
 
 **Tutti gli elementi**: oltre ai parametri principali, anche gli elementi in traccia e i contaminanti.
 

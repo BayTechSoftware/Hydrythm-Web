@@ -38,8 +38,8 @@ Tamamlanma yüzdesi süs olsun diye yok. Dozaj ürünlerini girerseniz dozaj hes
 
 | Bölüm | Neleri kapsar |
 |---|---|
-| Akvaryum Adı ve Türü | Akvaryumun adı, türü ve yaşı |
-| Akvaryum Boyutları | Fiziksel boyutlar ve toplam su hacmi |
+| Akvaryum Adı ve Türü | Akvaryumun adı ve türü |
+| Akvaryum Boyutları | Fiziksel boyutlar, toplam su hacmi ve akvaryumun başlangıç tarihi |
 | Dozaj | Neyi nasıl dozladığınız |
 | Su Yönetimi | Su değişimleri, su tamamlama, tuzluluk hedefleri |
 | Canlılar | Akvaryumda neler olduğu ve ne kadar kalabalık olduğu |
@@ -66,7 +66,7 @@ Hacmi %20 fazla girerseniz önerilen dozlar da %20 fazla çıkar. Emin değilsen
 
 ## Akvaryumun yaşı
 
-Akvaryumu kurduğunuz tarihi girin. Cora ölçümleri o yaştaki bir akvaryum için normal olan değerlere göre değerlendirir. Üç aylık bir sistemle beş yıllık bir sistem farklı değerlendirilir. Akvaryumun döngüsü sürüyorsa bunu da belirtin.
+**Akvaryum Boyutları** bölümünde **Akvaryum başlangıç tarihi** alanını doldurun. Cora ölçümleri o yaştaki bir akvaryum için normal olan değerlere göre değerlendirir. Üç aylık bir sistemle beş yıllık bir sistem farklı değerlendirilir. Akvaryumun döngüsü sürüyorsa rehberli döngüyü panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartından başlatın.
 
 ## Profili güncel tutma
 

@@ -19,11 +19,11 @@ Trag alle zwei bis drei Tage einen Test auf Ammoniak, Nitrit und Nitrat ein. Anh
 
 | Phase | Was passiert |
 |---|---|
-| **Wartet auf den ersten Test** | Noch nichts eingetragen. Ohne Zahlen kann die Journey dich nicht einordnen |
-| **Noch nicht begonnen** | Alles liegt nahe null, Nitrat gibt es noch nicht. Entweder hast du noch kein Ammoniak zugegeben, oder die Umwandlung hat noch nicht begonnen |
-| **Ammoniak** | Die erste Kolonie siedelt sich an und baut Ammoniak ab |
-| **Nitrit** | Die zweite Kolonie baut Nitrit ab. Diese Phase dauert meist am längsten. Weil sich die Zahlen kaum noch bewegen, denken viele, es sei etwas schiefgelaufen |
-| **Eingefahren** | Ammoniak und Nitrit sind abgebaut, Nitrat ist vorhanden. Das Becken ist bereit für Besatz |
+| **Erfasse deinen ersten Test** | Noch nichts eingetragen. Ohne Zahlen kann die Journey dich nicht einordnen |
+| **Bereit zum Start** | Alles liegt nahe null, Nitrat gibt es noch nicht. Entweder hast du noch kein Ammoniak zugegeben, oder die Umwandlung hat noch nicht begonnen |
+| **Ammoniakphase** | Die erste Kolonie siedelt sich an und baut Ammoniak ab |
+| **Nitritphase: etwa zur Hälfte** | Die zweite Kolonie baut Nitrit ab. Diese Phase dauert meist am längsten. Weil sich die Zahlen kaum noch bewegen, denken viele, es sei etwas schiefgelaufen |
+| **Sieht eingefahren aus** | Ammoniak und Nitrit sind abgebaut, Nitrat ist vorhanden. Mach den abschließenden Test, den die Journey beschreibt, und tippe dann auf **Mein Becken als eingefahren markieren** |
 
 **Dein bisheriger Zyklus** zeigt die drei Kurven gemeinsam. Sie sind relativ zueinander skaliert und nicht auf absolute Werte. So siehst du, wie eine Kolonie an die nächste übergibt. Tippe auf einen Namen, um die echten Zahlen zu sehen.
 
@@ -32,7 +32,7 @@ Bei **Ammoniak oder Nitrit über 5 ppm** stellen die Bakterien, die du heranzieh
 :::
 
 :::note Trag immer alle drei Werte ein
-Als eingefahren gilt ein Becken erst, wenn Ammoniak und Nitrit jeweils nachweislich bei null *gemessen* wurden und Nitrat vorhanden ist. Nitrat allein reicht nicht. Oft bringt schon das Ausgangswasser etwas davon mit. Für sich genommen sähe das wie ein fertiger Zyklus aus, und du würdest Besatz in ein Becken setzen, das ihn noch nicht verkraftet.
+**Sieht eingefahren aus** zeigt Cora erst an, wenn Ammoniak und Nitrit jeweils nachweislich bei null *gemessen* wurden und Nitrat vorhanden ist. Nitrat allein reicht nicht. Oft bringt schon das Ausgangswasser etwas davon mit. Für sich genommen sähe das wie ein fertiger Zyklus aus, und du würdest Besatz in ein Becken setzen, das ihn noch nicht verkraftet.
 :::
 
 :::note Ob das Becken bereit ist, entscheiden deine Messwerte, nicht der Kalender
@@ -47,16 +47,14 @@ Problem-Journeys gibt es für **ein bestimmtes Problem: Dinoflagellaten**. Cora 
 Heute gibt es zwei Journeys: Einfahren und Dinoflagellaten. Andere Probleme arbeitest du mit [Cora Assistant](/help/mobile-assistant) und dem [Tagebuch](/help/mobile-journal) durch.
 :::
 
-Eine Problem-Journey hat fünf Phasen:
+Eine Problem-Journey hat drei Phasen:
 
-1. **Prüfen**: Passiert das wirklich? Cora schaut sich deine Messwerte an, bevor es ein Problem bestätigt.
-2. **Nachweis**: Du sammelst, was gebraucht wird, meist einen Test, manchmal ein Foto oder eine Beobachtung.
-3. **Plan**: Cora schlägt vor, was zu tun ist, und erklärt, warum.
-4. **Umsetzung**: Du setzt den Plan um, so lange es eben dauert.
-5. **Ergebnis**: Hat es geklappt?
+1. **Prüfen**: Kannst du dem Messwert trauen? Bestätige ihn mit einem frischen Test und tippe dann auf **Bestätigt: Er stimmt**. Passt er nicht zu deinem Becken, tippe auf **Das ist es nicht / verwerfen**.
+2. **Plan**: Cora listet die Schritte auf, jeweils mit Warum und Wie. Hake sie ab, so lange es eben dauert, und tippe dann auf **Wie läuft's?**
+3. **Ergebnis**: Hat es geklappt?
 
 :::note Prüfen erledigst du selbst, Cora prüft dich nicht
-Eine Problem-Journey beginnt mit **Prüfen**. Dort bestätigst du, was wirklich los ist, bevor ein Plan kommt. Dieser erste Schritt ist gewollt. Du sollst genau hinschauen, und niemand bewertet dich dabei. Eine Einfahr-Journey hat keinen Messwert, den du prüfen müsstest, und beginnt direkt bei **Umsetzung**.
+Eine Problem-Journey beginnt mit **Prüfen**. Dort bestätigst du den Messwert, bevor ein Plan kommt. Du sollst genau hinschauen, und niemand bewertet dich dabei. Eine Einfahr-Journey hat keinen Schritt **Prüfen**. Sie arbeitet mit den Tests, die du einträgst.
 :::
 
 ### Das Ergebnis festhalten

@@ -19,11 +19,11 @@ Log an ammonia, nitrite and nitrate test every two to three days. Cora works out
 
 | Stage | What is happening |
 |---|---|
-| **Waiting for a first test** | Nothing logged yet. The journey needs numbers before it can place you |
-| **Not started** | Everything is near zero and there's no nitrate yet. Ammonia hasn't been added, or hasn't started converting |
-| **Ammonia** | The first colony is growing and eating ammonia |
-| **Nitrite** | The second colony is clearing nitrite. This is usually the longest stretch, and the one where people think something's gone wrong because the numbers stop moving |
-| **Cycled** | Ammonia and nitrite are both gone and nitrate is present. Ready for livestock |
+| **Log your first test** | Nothing logged yet. The journey needs numbers before it can place you |
+| **Ready to start** | Everything is near zero and there's no nitrate yet. Ammonia hasn't been added, or hasn't started converting |
+| **Ammonia stage** | The first colony is growing and eating ammonia |
+| **Nitrite stage: about halfway** | The second colony is clearing nitrite. This is usually the longest stretch, and the one where people think something's gone wrong because the numbers stop moving |
+| **Looks cycled** | Ammonia and nitrite are both gone and nitrate is present. Do the final check on screen, then tap **Mark my tank as cycled** |
 
 **Your cycle so far** plots the three curves together. They're scaled against each other instead of to their real values, so you can see one colony hand over to the next. Tap a name to see the real numbers.
 
@@ -32,7 +32,7 @@ Log an ammonia, nitrite and nitrate test every two to three days. Cora works out
 :::
 
 :::note Log all three tests
-Cora only reports a tank as cycled when ammonia and nitrite have each been *measured* at zero and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.
+Cora only shows **Looks cycled** when ammonia and nitrite have each been *measured* at zero and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.
 :::
 
 :::note Readiness comes from your readings
@@ -47,16 +47,14 @@ Issue journeys cover **one problem: dinoflagellates**. Cora offers one when your
 Cycling and dinoflagellates are the only journeys for now. For other problems, use [Cora Assistant](/help/mobile-assistant) and the [journal](/help/mobile-journal).
 :::
 
-An issue journey has five stages:
+An issue journey has three stages:
 
-1. **Validate**: is this really happening? Cora checks your readings before it agrees there's a problem.
-2. **Evidence**: gather what's needed. Usually a test, sometimes a photo or an observation.
-3. **Plan**: Cora suggests what to do, and why.
-4. **Acting**: you do it, for as long as it takes.
-5. **Outcome**: did it work?
+1. **Verify**: can you trust the reading? Confirm it with a fresh test, then tap **Confirmed: it's real**. If it doesn't match your tank, tap **It's not that / dismiss**.
+2. **Plan**: Cora lists the steps, with why and how for each. Tick them off as you go, for as long as it takes, then tap **How's it going?**
+3. **Outcome**: did it work?
 
-:::note You complete Validate yourself
-An issue journey opens on **Validate**. It asks you to confirm what's really happening before it shows a plan. You're being asked to take a look, not being tested. A cycling journey has no reading to validate, so it starts at **Acting**.
+:::note You complete Verify yourself
+An issue journey opens on **Verify**. It asks you to confirm the reading before it shows a plan. You're being asked to take a look, not being tested. A cycling journey has no **Verify** step. It works from the tests you log.
 :::
 
 ### Recording the outcome

@@ -59,6 +59,6 @@ More about this in [Talking to Cora](/help/max-voice).
 
 ## Seeing what happened
 
-Every request is logged, along with what asked for it and how it travelled. The request can come from Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account. On your phone, you'll find it in **Settings → Activity**.
+Every request is logged, along with what asked for it and how it travelled. The request can come from Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account. On Cora Max, tap the tank name in the top bar and choose **Activity**. On your phone, you'll find it in **Settings → Activity**.
 
 When something changed and you don't know why, look there first.

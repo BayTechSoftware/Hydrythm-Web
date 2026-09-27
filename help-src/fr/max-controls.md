@@ -59,6 +59,6 @@ Voir **[Parler à Cora](/help/max-voice)**.
 
 ## Voir ce qui s’est passé
 
-Chaque demande est enregistrée. Vous voyez d’où elle vient (Cora Mobile, un écran Cora, la voix, l’Assistant, une règle d’automatisation, un bouton intelligent ou votre compte) et par quel chemin elle est passée. Sur votre téléphone, c’est dans **Réglages → Activité**.
+Chaque demande est enregistrée. Vous voyez d’où elle vient (Cora Mobile, un écran Cora, la voix, l’Assistant, une règle d’automatisation, un bouton intelligent ou votre compte) et par quel chemin elle est passée. Sur Cora Max, touchez le nom de l’aquarium dans la barre du haut et choisissez **Activité**. Sur votre téléphone, c’est dans **Réglages → Activité**.
 
 C’est le premier endroit à regarder quand quelque chose a changé sans que vous sachiez pourquoi.

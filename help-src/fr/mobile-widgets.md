@@ -31,7 +31,7 @@ Les quatre derniers sont des tuiles d’**appareil**. Elles sont liées à un é
 
 ## Taille
 
-**Largeur** et **Hauteur** valent chacune **1×** ou **2×**. Un graphique ne fait jamais une seule case de large.
+**Largeur** et **Hauteur** valent chacune **1×** ou **2×**. Un widget fait donc une ou deux cases de large, et une ou deux cases de haut. Un graphique ne fait jamais une seule case de large. Sur un tableau de bord à trois colonnes, une jauge de deux cases prend les deux tiers de la ligne. C’est souvent le bon format pour votre paramètre le plus important.
 
 ## Valeur
 
@@ -105,7 +105,3 @@ Un widget lié à un paramètre mesuré (Valeur, Jauge, Graphique et État) affi
 - **La source** : un petit badge qui indique d’où vient le chiffre
 
 Touchez un widget pour ouvrir tout son historique, toutes les sources qui mesurent ce paramètre et les seuils en vigueur.
-
-## Tailles
-
-Un widget fait une ou deux cases de large, et une ou deux cases de haut. Seule exception, un graphique de **tendance** fait toujours au moins deux cases de large. Sur un tableau de bord à trois colonnes, une jauge de deux cases prend les deux tiers de la ligne. C’est souvent le bon format pour votre paramètre le plus important.

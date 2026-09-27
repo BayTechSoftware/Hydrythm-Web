@@ -61,9 +61,9 @@ Quando il telefono non è sulla rete della pompa, Cora Mobile passa dal Cora Max
 
 Una pompa Bluetooth si raggiunge solo da un telefono vicino. Per cambiarne la modalità o il programma, o per usare una di quelle voci, devi essere a portata.
 
-## Applicare un programma già pronto
+## Applicare un programma
 
-Puoi anche dare a una pompa un programma già pronto in un solo passaggio, senza creare le fasce una per una.
+Puoi dare a una pompa un programma salvato in un solo passaggio, senza ricreare le fasce. Apri la pompa, tocca **Altro** in alto e scegli **Programmi salvati…**. L'elenco contiene tutti i programmi salvati per questa vasca, anche quelli creati su un'altra pompa. Scegline uno e tocca **Applica**. Sostituisce l'intera giornata della pompa.
 
 ## Controllare che il programma sia arrivato
 

@@ -59,6 +59,6 @@ Sesli komutların ayrıntıları **[Cora ile konuşma](/help/max-voice)** sayfas
 
 ## Ne olduğunu görme
 
-Her istek kaydedilir. Kayıtta isteği kimin verdiği (Cora Mobile, bir Cora ekranı, sesli komut, Assistant, bir otomasyon kuralı, akıllı düğme ya da hesabınız) ve komutun hangi yoldan gittiği yazar. Telefonunuzda bunu **Ayarlar → Etkinlik** altında bulursunuz.
+Her istek kaydedilir. Kayıtta isteği kimin verdiği (Cora Mobile, bir Cora ekranı, sesli komut, Assistant, bir otomasyon kuralı, akıllı düğme ya da hesabınız) ve komutun hangi yoldan gittiği yazar. Cora Max'te üst çubukta akvaryum adına dokunup **Etkinlik**'i seçin. Telefonunuzda bunu **Ayarlar → Etkinlik** altında bulursunuz.
 
 Bir şey değiştiyse ve nedenini bilmiyorsanız ilk bakacağınız yer burasıdır.

@@ -69,17 +69,17 @@ Rada Cory to tylko rada. Wszystko ważne sprawdź własnym testem. Do dużych zm
 ![Ustawienia Asystenta](img/mobile-assistant-settings.webp "Zgoda, pamięć, głos i limity użycia w Ustawieniach.")
 
 :::note Co usuwa czyszczenie pamięci, a czego nie
-Czyszczenie usuwa to, co Cora zapamiętała *z Waszych rozmów*: profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało. Nie zgłosi sukcesu.
+Czyszczenie usuwa to, co Cora zapamiętała *z Waszych rozmów* o jednym akwarium: profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało. Nie zgłosi sukcesu.
 
 **Dane akwarium** zostają nietknięte. Odczyty, dziennik, obsada, konserwacja i raporty należą do Ciebie i zostają bez zmian. Po wyczyszczeniu pamięci Asystent zapomina rozmowy, a nie akwarium.
 :::
 
 Cora pamięta między rozmowami różne rzeczy o akwarium. Na przykład to, że dozujesz metodą dwuskładnikową, że akwarium z fragami ma wspólny sump albo że próbujesz podnieść poziom składników odżywczych. Dzięki temu nie musisz za każdym razem od nowa opisywać swojego systemu.
 
-W **Ustawienia → Cora Assistant → Pamięć AI** zobaczysz, co Cora zapisała o Twoim akwarium, i możesz to zresetować.
+W **Ustawienia → Cora Assistant → Pamięć AI** zobaczysz, co Cora zapisała o Twoim akwarium, i możesz to zresetować. Każde akwarium ma własną pamięć, więc najpierw wybierz akwarium.
 
-:::warning Czyszczenie pamięci nie zawsze usuwa wszystko
-Reset czyści widoczny zapis pamięci. Cora ma też kontekst bieżącej rozmowy i dłuższy profil, których reset może nie objąć w całości. Traktuj reset jak „zapomnij to, co tu widzę”, a nie jak gwarancję, że zniknie wszystko, co Cora kiedykolwiek wywnioskowała.
+:::warning Ostatnie wiadomości zostają
+Reset nie usuwa wiadomości z Twojej rozmowy z Corą. Jeśli wrócisz do rozmowy, przez mniej więcej pół godziny Cora nadal widzi kilka ostatnich.
 :::
 
 ## Limit wiadomości

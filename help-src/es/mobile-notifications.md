@@ -1,6 +1,6 @@
 ---
 title: Notificaciones
-description: Elige qué llega a tu teléfono, cuándo puede llegar y dónde ver lo que te perdiste.
+description: Elige qué llega a tu teléfono y dónde ver lo que te perdiste.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 16

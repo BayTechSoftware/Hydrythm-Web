@@ -31,7 +31,7 @@ Los cuatro últimos son casillas de **dispositivo**. Cada una va ligada a un equ
 
 ## Tamaño
 
-**Ancho** y **Alto** pueden ser **1×** o **2×**. Un gráfico nunca ocupa una sola celda de ancho.
+**Ancho** y **Alto** pueden ser **1×** o **2×**, así que un widget ocupa una o dos celdas de ancho y una o dos de alto. Un gráfico nunca ocupa una sola celda de ancho. En un panel de tres columnas, un medidor de dos de ancho llena dos tercios de la fila. Suele ser la mejor forma de mostrar tu parámetro más importante.
 
 ## Valor
 
@@ -107,7 +107,3 @@ Los widgets que dependen de un parámetro medido (Valor, Medidor, Gráfico y Est
 Las casillas de toma y de dispositivo muestran su propio estado, porque detrás de ellas no hay una sola lectura.
 
 Toca cualquier widget para abrir su historial completo, todas las fuentes que lo informan y los umbrales que se aplican.
-
-## Tamaños
-
-Los widgets ocupan una o dos celdas de ancho y una o dos de alto. La excepción es la **tendencia**, que siempre ocupa al menos dos de ancho. En un panel de tres columnas, un medidor de dos de ancho llena dos tercios de la fila. Suele ser la mejor forma de mostrar tu parámetro más importante.

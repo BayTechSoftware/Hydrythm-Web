@@ -218,7 +218,7 @@ Voir [Alertes et seuils](/help/mobile-alerts).
 
 ### Pourquoi une alerte est arrivée sur mon téléphone et pas sur Cora Max, ou l’inverse ?
 
-Chaque téléphone et chaque Cora Max a ses propres réglages de notifications. Une catégorie autorisée sur l’un peut donc être coupée sur l’autre. Vérifiez **Réglages → Notifications** des deux côtés.
+Les interrupteurs de **Réglages → Notifications** dans Cora Mobile appartiennent à votre compte. Ils s’appliquent à chaque téléphone sur lequel vous êtes connecté. Cora Max n’a pas d’interrupteurs de notifications. Il affiche chaque alerte au mur, sauf si vous l’avez reportée ou ignorée sur cet écran. Si votre téléphone reste muet, vérifiez que la catégorie est activée et que votre téléphone autorise les notifications de Cora.
 
 Voir [Notifications](/help/mobile-notifications) et [Alertes sur Cora Max](/help/max-alerts).
 

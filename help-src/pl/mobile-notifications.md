@@ -1,6 +1,6 @@
 ---
 title: Powiadomienia
-description: Wybierz, co ma docierać na telefon i kiedy, i sprawdź, gdzie znaleźć to, co Cię ominęło.
+description: Wybierz, co ma docierać na telefon, i sprawdź, gdzie znaleźć to, co Cię ominęło.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 16

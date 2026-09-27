@@ -61,9 +61,9 @@ Gdy telefon nie jest w sieci pompy, Cora Mobile łączy się przez Cora Max przy
 
 Z pompą Bluetooth połączy się tylko telefon, który jest blisko niej. Podejdź w jej zasięg, żeby ją przełączyć, zmienić harmonogram albo użyć którejś z tych opcji.
 
-## Gotowy program
+## Zastosowanie programu
 
-Pompie możesz też jednym krokiem nadać gotowy program, bez ręcznego układania okresów.
+Pompie możesz jednym krokiem nadać zapisany harmonogram, bez ponownego układania okresów. Otwórz pompę, dotknij **Więcej** u góry i wybierz **Zapisane harmonogramy…**. Na liście są wszystkie harmonogramy zapisane dla tego akwarium, także te utworzone na innej pompie. Wybierz jeden i dotknij **Zastosuj**. Zastąpi on cały dzień pompy.
 
 ## Czy program się zapisał
 

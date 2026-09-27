@@ -1,6 +1,6 @@
 ---
 title: Notifications
-description: Choose what reaches your phone, when it can arrive, and where to read what you missed.
+description: Choose what reaches your phone and where to read what you missed.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 16

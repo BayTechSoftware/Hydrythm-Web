@@ -37,7 +37,7 @@ Si algo falla, mira [Solución de problemas](/help/troubleshooting).
 
 Una **puntuación** sobre 100 y un resumen en palabras sencillas de lo que significa para tu sistema en concreto, según el tipo de acuario, su antigüedad y tu fauna.
 
-La puntuación compara tus resultados con sus rangos objetivo, incluidos los que hayas fijado tú. Si un resultado está fuera de rango, la puntuación no pasa de 70. Si está muy fuera, no pasa de 40, por buenos que sean los demás. Debajo de la puntuación verás **Saludable** por encima de 70, **Necesita atención** entre 40 y 70 y **Crítico** por debajo de 40. Los informes de salud se puntúan igual.
+La puntuación compara tus resultados con sus rangos objetivo, incluidos los que hayas fijado tú. Si un resultado está fuera de rango, la puntuación no pasa de 70, así que no puede salir **Saludable**. Si está muy fuera, no pasa de 40, por buenos que sean los demás. Debajo de la puntuación verás **Saludable** de 71 a 100, **Necesita atención** de 40 a 70 y **Crítico** de 0 a 39. Los informes de salud se puntúan igual.
 
 Cora sigue **todos los elementos**, también los oligoelementos y los contaminantes, además de los parámetros principales.
 

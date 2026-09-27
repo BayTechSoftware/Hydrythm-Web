@@ -61,9 +61,9 @@ Quand votre téléphone n’est pas sur le réseau de la pompe, Cora Mobile pass
 
 Une pompe Bluetooth n’est joignable que depuis un téléphone proche. Restez à portée pour changer son mode, modifier son programme ou utiliser l’une de ces options.
 
-## Appliquer un programme tout prêt
+## Appliquer un programme
 
-Une pompe peut aussi recevoir un programme préparé en une seule étape, sans créer les périodes à la main.
+Vous pouvez donner à une pompe un programme enregistré en une seule étape, sans recréer les périodes. Ouvrez la pompe, touchez **Plus** en haut et choisissez **Programmes enregistrés…**. La liste contient tous les programmes enregistrés pour cet aquarium, y compris ceux créés sur une autre pompe. Choisissez-en un et touchez **Appliquer**. Il remplace toute la journée de la pompe.
 
 ## Vérifier que le programme est passé
 

@@ -59,6 +59,6 @@ Mehr dazu unter **[Mit Cora sprechen](/help/max-voice)**.
 
 ## Nachsehen, was passiert ist
 
-Jede Anfrage wird festgehalten. Dazu steht, wer sie ausgelöst hat (diese App, ein Cora-Bildschirm, die Sprachsteuerung, der Assistent, eine Automationsregel, eine Smart-Taste oder dein Konto) und welchen Weg sie genommen hat. Auf dem Handy findest du das unter **Einstellungen → Aktivität**.
+Jede Anfrage wird festgehalten. Dazu steht, wer sie ausgelöst hat (diese App, ein Cora-Bildschirm, die Sprachsteuerung, der Assistent, eine Automationsregel, eine Smart-Taste oder dein Konto) und welchen Weg sie genommen hat. Auf Cora Max tippst du in der oberen Leiste auf den Beckennamen und wählst **Aktivität**. Auf dem Handy findest du das unter **Einstellungen → Aktivität**.
 
 Hat sich etwas geändert und du weißt nicht, warum, schau zuerst dort nach.

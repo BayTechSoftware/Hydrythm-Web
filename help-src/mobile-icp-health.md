@@ -37,7 +37,7 @@ If it doesn't work, see [Troubleshooting](/help/troubleshooting).
 
 You get a score out of 100 and a plain-language summary of what it means for your system, taking in your tank type, its age and your livestock.
 
-The score compares your results with their target ranges, including any ranges you've set yourself. If any result is outside its range, the score can't go above 70. If one is far outside, it can't go above 40, however good the rest are. The label under the score reads **Healthy** above 70, **Needs Attention** from 40 to 70 and **Critical** below 40. Health Reports are scored the same way.
+The score compares your results with their target ranges, including any ranges you've set yourself. If any result is outside its range, the score can't go above 70, so it can't read **Healthy**. If one is far outside, it can't go above 40, however good the rest are. The label under the score reads **Healthy** from 71 to 100, **Needs Attention** from 40 to 70 and **Critical** from 0 to 39. Health Reports are scored the same way.
 
 Every element is tracked, including trace elements and contaminants as well as the main parameters.
 

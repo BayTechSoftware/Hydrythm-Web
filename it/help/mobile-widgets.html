@@ -168,7 +168,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Guida di riferimento ai widget</h1>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#i-nove-tipi">I nove tipi</a></li><li><a href="#dimensioni-del-riquadro">Dimensioni del riquadro</a></li><li><a href="#valore">Valore</a></li><li><a href="#indicatore">Indicatore</a></li><li><a href="#grafico">Grafico</a></li><li><a href="#stato">Stato</a></li><li><a href="#presa">Presa</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#cosa-mostra-un-widget-di-parametro">Cosa mostra un widget di parametro</a></li><li><a href="#misure">Misure</a></li></ul></nav>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#i-nove-tipi">I nove tipi</a></li><li><a href="#dimensioni-del-riquadro">Dimensioni del riquadro</a></li><li><a href="#valore">Valore</a></li><li><a href="#indicatore">Indicatore</a></li><li><a href="#grafico">Grafico</a></li><li><a href="#stato">Stato</a></li><li><a href="#presa">Presa</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#cosa-mostra-un-widget-di-parametro">Cosa mostra un widget di parametro</a></li></ul></nav>
 <p>Un widget è un riquadro della dashboard che mostra una cosa sola. Qui trovi tutti i tipi e cosa puoi impostare per ciascuno.</p>
 <p>I widget si aggiungono e si dispongono nell'<strong><a href="/it/help/mobile-dashboard-editing">editor della dashboard</a></strong>. Lì tocca un widget per aprirne le impostazioni.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Configurazione di un widget"><img src="/help/img/mobile-widget-config.webp" alt="Configurazione di un widget" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Tipo, parametro, poi larghezza e altezza.</figcaption></figure>
@@ -176,7 +176,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Tipo</th><th>Cosa mostra</th></tr></thead><tbody><tr><td data-th="Tipo"><strong>Valore</strong></td><td data-th="Cosa mostra">La lettura attuale con unità, età e fonte</td></tr><tr><td data-th="Tipo"><strong>Indicatore</strong></td><td data-th="Cosa mostra">Un arco con il tuo intervallo diviso in fasce e un pallino sul valore</td></tr><tr><td data-th="Tipo"><strong>Grafico</strong></td><td data-th="Cosa mostra">L'andamento nel periodo che scegli</td></tr><tr><td data-th="Tipo"><strong>Stato</strong></td><td data-th="Cosa mostra">Uno stato scritto a parole: in funzione, inattivo, chiuso</td></tr><tr><td data-th="Tipo"><strong>Presa</strong></td><td data-th="Cosa mostra">Un comando a tre posizioni: Auto, Off, On</td></tr><tr><td data-th="Tipo"><strong>ReefBeat</strong></td><td data-th="Cosa mostra">Un'unità Red Sea™ con il suo riepilogo</td></tr><tr><td data-th="Tipo"><strong>Modulo Apex</strong></td><td data-th="Cosa mostra">Un modulo Apex installato, come un Trident o un DŌS</td></tr><tr><td data-th="Tipo"><strong>Jecod™</strong></td><td data-th="Cosa mostra">Una pompa Jecod con modalità e intensità</td></tr><tr><td data-th="Tipo"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Cosa mostra">Una gyre con entrambi i motori</td></tr></tbody></table></div>
 <p>Gli ultimi quattro sono riquadri <strong>dispositivo</strong>. Sono legati a un apparecchio e non a un parametro, e mostrano quello che l'unità riporta.</p>
 <h2 id="dimensioni-del-riquadro">Dimensioni del riquadro</h2>
-<p><strong>Larghezza</strong> e <strong>Altezza</strong> possono essere <strong>1×</strong> o <strong>2×</strong>. Un grafico non è mai largo una sola cella.</p>
+<p><strong>Larghezza</strong> e <strong>Altezza</strong> possono essere <strong>1×</strong> o <strong>2×</strong>, quindi un widget è largo una o due celle e alto una o due celle. Un grafico non è mai largo una sola cella. Su una dashboard a tre colonne un indicatore largo due occupa due terzi della riga, e di solito è la forma giusta per il parametro più importante.</p>
 <h2 id="valore">Valore</h2>
 <p>Il numero e basta: lettura attuale, unità, età e fonte.</p>
 <p>Usalo per i parametri di cui ti interessa il numero più dell'andamento: calcio, magnesio, nitrati.</p>
@@ -209,10 +209,8 @@
 <p>Un widget legato a un parametro misurato (Valore, Indicatore, Grafico e Stato) mostra sempre tre cose. I riquadri di prese e dispositivi mostrano invece il loro stato, perché dietro non c'è una singola lettura:</p>
 <ul><li><strong>Il valore</strong>, in grande</li><li><strong>L'età</strong> (<code>now</code>, <code>1h</code>, <code>2d</code>), cioè quanto è vecchia la lettura, non quando si è aggiornato lo schermo</li><li><strong>La fonte</strong>, un piccolo badge che dice da dove arriva il numero</li></ul>
 <p>Tocca un widget per aprire lo storico completo, tutte le fonti che misurano il parametro e le soglie in vigore.</p>
-<h2 id="misure">Misure</h2>
-<p>I widget sono larghi una o due celle e alti una o due celle. Fa eccezione il <strong>grafico</strong>, che è sempre largo almeno due celle. Su una dashboard a tre colonne un indicatore largo due occupa due terzi della riga, e di solito è la forma giusta per il parametro più importante.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/mobile-dashboard-editing"><span>Precedente</span><b>Modificare la dashboard</b></a><a class="pn-n" href="/it/help/mobile-metric-detail"><span>Successivo</span><b>Approfondire un parametro</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.78 e Cora Mobile 0.5.79. Ultimo controllo il 2026-09-17.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.79 e Cora Mobile 0.5.80. Ultimo controllo il 2026-09-17.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>

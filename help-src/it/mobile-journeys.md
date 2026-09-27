@@ -19,11 +19,11 @@ Registra un test di ammoniaca, nitriti e nitrati ogni due o tre giorni. In base 
 
 | Fase | Cosa succede |
 |---|---|
-| **In attesa di un primo test** | Non hai ancora registrato nulla. Senza numeri il percorso non sa dove sei |
-| **Non iniziato** | Tutto vicino a zero e ancora niente nitrati. L'ammoniaca non è stata aggiunta o non ha ancora iniziato a trasformarsi |
-| **Ammoniaca** | La prima colonia si sta formando e consuma ammoniaca |
-| **Nitrito** | La seconda colonia sta eliminando i nitriti. Di solito è la fase più lunga, quella in cui i numeri sembrano fermi e si pensa che qualcosa sia andato storto |
-| **Ciclata** | Ammoniaca e nitriti azzerati e nitrati presenti. La vasca è pronta per gli animali |
+| **Registra il tuo primo test** | Non hai ancora registrato nulla. Senza numeri il percorso non sa dove sei |
+| **Pronto per iniziare** | Tutto vicino a zero e ancora niente nitrati. L'ammoniaca non è stata aggiunta o non ha ancora iniziato a trasformarsi |
+| **Fase dell'ammoniaca** | La prima colonia si sta formando e consuma ammoniaca |
+| **Fase del nitrito: circa a metà** | La seconda colonia sta eliminando i nitriti. Di solito è la fase più lunga, quella in cui i numeri sembrano fermi e si pensa che qualcosa sia andato storto |
+| **Sembra ciclata** | Ammoniaca e nitriti azzerati e nitrati presenti. Fai il controllo finale indicato sullo schermo, poi tocca **Contrassegna la mia vasca come ciclata** |
 
 **Il tuo ciclo finora** mostra le tre curve insieme. Sono in scala l'una rispetto all'altra e non in valori assoluti, così vedi il passaggio da una colonia all'altra. Tocca un nome per vedere i numeri veri.
 
@@ -32,7 +32,7 @@ Registra un test di ammoniaca, nitriti e nitrati ogni due o tre giorni. In base 
 :::
 
 :::note Registra sempre tutti e tre i valori
-Cora considera la vasca ciclata solo quando ammoniaca e nitriti sono stati *misurati* a zero e ci sono nitrati. I nitrati da soli non bastano. L'acqua di partenza spesso ne contiene un po', e da soli farebbero sembrare il ciclo finito, invitandoti a inserire animali in una vasca che non è pronta.
+Cora mostra **Sembra ciclata** solo quando ammoniaca e nitriti sono stati *misurati* a zero e ci sono nitrati. I nitrati da soli non bastano. L'acqua di partenza spesso ne contiene un po', e da soli farebbero sembrare il ciclo finito, invitandoti a inserire animali in una vasca che non è pronta.
 :::
 
 :::note Conta quello che misuri, non il calendario
@@ -47,16 +47,14 @@ I percorsi per i problemi riguardano **un problema preciso: i dinoflagellati**. 
 Per ora esistono solo i percorsi per il ciclo e per i dinoflagellati. Gli altri problemi si affrontano con [Cora Assistant](/help/mobile-assistant) e il [diario](/help/mobile-journal).
 :::
 
-Un percorso per un problema ha cinque fasi:
+Un percorso per un problema ha tre fasi:
 
-1. **Verifica**: sta succedendo davvero? Cora controlla le letture prima di confermare che c'è un problema.
-2. **Prove**: raccogli quello che serve. Di solito un test, a volte una foto o un'osservazione.
-3. **Piano**: Cora ti propone cosa fare e ti spiega perché.
-4. **Azione**: fai quello che serve, per tutto il tempo necessario.
-5. **Risultato**: ha funzionato?
+1. **Verifica**: puoi fidarti della lettura? Confermala con un test nuovo, poi tocca **Confermato: è reale**. Se non corrisponde alla tua vasca, tocca **Non è questo / ignora**.
+2. **Piano**: Cora elenca i passi, ognuno con il perché e il come. Spuntali man mano, per tutto il tempo necessario, poi tocca **Come sta andando?**
+3. **Risultato**: ha funzionato?
 
 :::note La verifica la fai tu
-Un percorso per un problema si apre su **Verifica**, che ti chiede di confermare cosa sta succedendo prima di mostrarti un piano. Ti chiede di guardare la vasca, non ti sta dando un voto. Un percorso di ciclo non ha niente da verificare e parte direttamente da **Azione**.
+Un percorso per un problema si apre su **Verifica**, che ti chiede di confermare la lettura prima di mostrarti un piano. Ti chiede di guardare la vasca, non ti sta dando un voto. Un percorso di ciclo non ha la fase **Verifica**. Si basa sui test che registri.
 :::
 
 ### Registrare il risultato

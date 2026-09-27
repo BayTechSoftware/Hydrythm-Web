@@ -38,8 +38,8 @@ Le pourcentage en haut indique quelle part du profil est remplie. Plus le profil
 
 | Section | Contenu |
 |---|---|
-| Nom et type de l’aquarium | Le nom de l’aquarium, son type et son âge |
-| Dimensions de l’aquarium | La taille du bac et le volume d’eau total |
+| Nom et type de l’aquarium | Le nom de l’aquarium et son type |
+| Dimensions de l’aquarium | La taille du bac, le volume d’eau total et la date de démarrage |
 | Dosage | Ce que vous dosez, et comment |
 | Gestion de l’eau | Changements d’eau, osmolateur, salinité visée |
 | Population | Ce que contient l’aquarium, et sa densité de population |
@@ -66,7 +66,7 @@ Un volume trop élevé de 20 % donne des doses recommandées trop élevées de 2
 
 ## Âge de l’aquarium
 
-Indiquez la date de mise en eau. Les mesures sont jugées par rapport à ce qui est normal à cet âge. Un bac de trois mois et un bac de cinq ans ne sont pas évalués de la même façon. Si l’aquarium est encore en cyclage, indiquez-le.
+Renseignez la **Date de démarrage de l’aquarium** sous **Dimensions de l’aquarium**. Les mesures sont jugées par rapport à ce qui est normal à cet âge. Un bac de trois mois et un bac de cinq ans ne sont pas évalués de la même façon. Si l’aquarium est encore en cyclage, lancez le cyclage guidé depuis la carte **Vous démarrez un nouvel aquarium ?** du tableau de bord.
 
 ## Garder le profil à jour
 

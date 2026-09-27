@@ -63,7 +63,7 @@ Eine Bluetooth-Pumpe erreicht nur ein Handy in ihrer Nähe. Stell dich in Reichw
 
 ## Ein Programm übernehmen
 
-Du kannst einer Pumpe auch in einem Schritt ein fertiges Programm geben und musst die Zeiträume dann nicht von Hand bauen.
+Du kannst einer Pumpe einen gespeicherten Zeitplan in einem Schritt geben und musst die Zeiträume dann nicht noch einmal bauen. Öffne die Pumpe, tippe oben auf **Mehr** und wähle **Gespeicherte Zeitpläne…**. Die Liste enthält jeden Zeitplan, der für dieses Becken gespeichert ist, auch solche, die du an einer anderen Pumpe gebaut hast. Wähl einen aus und tippe auf **Anwenden**. Er ersetzt den ganzen Tag der Pumpe.
 
 ## Prüfen, ob es angekommen ist
 

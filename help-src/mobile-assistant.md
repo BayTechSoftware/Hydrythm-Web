@@ -69,17 +69,17 @@ Check anything important with your own testing. Treat big changes the way you'd 
 ![Assistant settings](img/mobile-assistant-settings.webp "Consent, memory, voice and usage limits, under Settings.")
 
 :::note What clearing memory touches
-Clearing removes what Cora has remembered *about your conversations*. That's its profile of your system, the concerns it was tracking, and every stored session. If any part of that can't be removed, Cora Mobile tells you it failed.
+Clearing removes what Cora has remembered *about your conversations* for one tank. That's its profile of your system, the concerns it was tracking, and every stored session. If any part of that can't be removed, Cora Mobile tells you it failed.
 
 Your **tank data** stays as it is. Clearing memory doesn't remove readings, journal entries, livestock, maintenance or reports. It only affects what the Assistant remembers from your conversations.
 :::
 
 Cora remembers things about your tank from one conversation to the next. For example, that you dose two-part, that your frag tank shares a sump, or that you're trying to bring nutrients up. You don't have to explain your system every time.
 
-**Settings → Cora Assistant → AI memory** shows what Cora has recorded about your tank and lets you reset it.
+**Settings → Cora Assistant → AI memory** shows what Cora has recorded about your tank and lets you reset it. Each tank has its own memory, so pick the tank first.
 
-:::warning Clearing memory may not remove everything
-The reset clears the memory record you can see. Cora also keeps working context during a conversation and a longer-term profile, and the reset may not fully cover them. Think of it as "forget what you're showing me". It isn't a guaranteed erase of everything Cora ever worked out.
+:::warning Your recent messages stay
+The reset doesn't delete the messages you've exchanged with Cora. For about half an hour afterwards, Cora can still see the last few of them when you carry on talking.
 :::
 
 ## Usage

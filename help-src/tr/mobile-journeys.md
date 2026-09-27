@@ -19,11 +19,11 @@ Henüz canlı eklemeye hazır olmayan akvaryumlar içindir. Döngü sırasında 
 
 | Aşama | Ne oluyor |
 |---|---|
-| **İlk testi bekliyor** | Henüz kayıt yok. Yolculuk sayılar olmadan aşamayı belirleyemez |
-| **Başlamadı** | Her şey sıfıra yakın, henüz nitrat yok. Amonyak eklenmemiş ya da henüz dönüşmeye başlamamış |
-| **Amonyak** | İlk bakteri kolonisi yerleşiyor ve amonyağı tüketiyor |
-| **Nitrit** | İkinci koloni nitriti temizliyor. Genellikle en uzun süren aşama budur. Sayılar kıpırdamadığı için çoğu kişi bir şeylerin ters gittiğini düşünür |
-| **Döngü tamamlandı** | Amonyak ve nitrit sıfırlandı, nitrat var. Akvaryum canlılar için hazır |
+| **İlk testinizi kaydedin** | Henüz kayıt yok. Yolculuk sayılar olmadan aşamayı belirleyemez |
+| **Başlamaya hazır** | Her şey sıfıra yakın, henüz nitrat yok. Amonyak eklenmemiş ya da henüz dönüşmeye başlamamış |
+| **Amonyak aşaması** | İlk bakteri kolonisi yerleşiyor ve amonyağı tüketiyor |
+| **Nitrit aşaması: yaklaşık yarı yolda** | İkinci koloni nitriti temizliyor. Genellikle en uzun süren aşama budur. Sayılar kıpırdamadığı için çoğu kişi bir şeylerin ters gittiğini düşünür |
+| **Döngü tamamlanmış görünüyor** | Amonyak ve nitrit sıfırlandı, nitrat var. Ekranda anlatılan son kontrolü yapın, ardından **Akvaryumumu döngü tamamlandı olarak işaretle** düğmesine dokunun |
 
 **Şu ana kadarki döngünüz** grafiği üç eğriyi birlikte çizer. Eğriler gerçek değerlere göre değil, birbirine göre ölçeklenir. Böylece bir koloniden diğerine geçişi görürsünüz. Gerçek sayıları görmek için bir değerin adına dokunun.
 
@@ -32,7 +32,7 @@ Henüz canlı eklemeye hazır olmayan akvaryumlar içindir. Döngü sırasında 
 :::
 
 :::note Yalnızca değişeni değil, üçünü de kaydedin
-Akvaryumun döngüsü ancak amonyak ve nitritin ikisinin de sıfır *ölçüldüğü* ve nitratın bulunduğu durumda tamamlanmış sayılır. Tek başına nitrat yetmez. Kaynak suda çoğu zaman biraz nitrat bulunur. Yalnızca nitrata bakılırsa döngü bitmiş gibi görünür ve canlılar, onları henüz taşıyamayacak bir akvaryuma konabilir.
+Cora **Döngü tamamlanmış görünüyor** durumunu ancak amonyak ve nitritin ikisi de sıfır *ölçüldüğünde* ve nitrat bulunduğunda gösterir. Tek başına nitrat yetmez. Kaynak suda çoğu zaman biraz nitrat bulunur. Yalnızca nitrata bakılırsa döngü bitmiş gibi görünür ve canlılar, onları henüz taşıyamayacak bir akvaryuma konabilir.
 :::
 
 :::note Hazır olup olmadığını takvim değil, ölçümleriniz belirler
@@ -47,16 +47,14 @@ Sorun yolculukları **tek bir sorunu kapsar: dinoflagellatlar**. Ölçümleriniz
 Şu an yalnızca iki yolculuk var: döngü ve dinoflagellatlar. Diğer sorunlarda [Cora Assistant](/help/mobile-assistant) ve [günlük](/help/mobile-journal) ile ilerleyin.
 :::
 
-Sorun yolculuğu beş aşamadan geçer:
+Sorun yolculuğu üç aşamadan geçer:
 
-1. **Doğrula**: Sorun gerçekten var mı? Cora sorunu kabul etmeden önce ölçümlerinizi kontrol eder.
-2. **Kanıt**: Gerekenleri toplayın. Genellikle bir test, bazen bir fotoğraf ya da gözlem.
-3. **Plan**: Cora ne yapılacağını ve nedenini önerir.
-4. **Uygulama**: Planı siz uygularsınız, ne kadar sürerse sürsün.
-5. **Sonuç**: İşe yaradı mı?
+1. **Doğrula**: Ölçüme güvenebilir misiniz? Yeni bir testle doğrulayın, ardından **Doğrulandı: gerçek** düğmesine dokunun. Akvaryumunuzla uyuşmuyorsa **Bu değil / reddet** düğmesine dokunun.
+2. **Plan**: Cora adımları, her birinin nedeni ve nasıl yapılacağıyla birlikte listeler. Ne kadar sürerse sürsün, yaptıkça işaretleyin. Sonra **Nasıl gidiyor?** düğmesine dokunun.
+3. **Sonuç**: İşe yaradı mı?
 
 :::note Doğrula adımını siz tamamlarsınız
-Sorun yolculuğu **Doğrula** adımıyla açılır. Cora size plan göstermeden önce gerçekte neler olduğunu onaylamanızı ister. Bu bilinçli bir ilk adımdır. Sizi sınamıyor, yalnızca akvaryuma bakmanızı istiyor. Döngü yolculuğunda doğrulanacak bir ölçüm olmadığı için yolculuk doğrudan **Uygulama** aşamasından başlar.
+Sorun yolculuğu **Doğrula** adımıyla açılır. Cora size plan göstermeden önce ölçümü onaylamanızı ister. Sizi sınamıyor, yalnızca akvaryuma bakmanızı istiyor. Döngü yolculuğunda **Doğrula** adımı yoktur. Yolculuk kaydettiğiniz testlerle ilerler.
 :::
 
 ### Sonucu kaydetme

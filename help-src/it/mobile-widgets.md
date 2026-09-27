@@ -31,7 +31,7 @@ Gli ultimi quattro sono riquadri **dispositivo**. Sono legati a un apparecchio e
 
 ## Dimensioni del riquadro
 
-**Larghezza** e **Altezza** possono essere **1×** o **2×**. Un grafico non è mai largo una sola cella.
+**Larghezza** e **Altezza** possono essere **1×** o **2×**, quindi un widget è largo una o due celle e alto una o due celle. Un grafico non è mai largo una sola cella. Su una dashboard a tre colonne un indicatore largo due occupa due terzi della riga, e di solito è la forma giusta per il parametro più importante.
 
 ## Valore
 
@@ -105,7 +105,3 @@ Un widget legato a un parametro misurato (Valore, Indicatore, Grafico e Stato) m
 - **La fonte**, un piccolo badge che dice da dove arriva il numero
 
 Tocca un widget per aprire lo storico completo, tutte le fonti che misurano il parametro e le soglie in vigore.
-
-## Misure
-
-I widget sono larghi una o due celle e alti una o due celle. Fa eccezione il **grafico**, che è sempre largo almeno due celle. Su una dashboard a tre colonne un indicatore largo due occupa due terzi della riga, e di solito è la forma giusta per il parametro più importante.

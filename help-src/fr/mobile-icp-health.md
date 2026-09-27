@@ -37,7 +37,7 @@ En cas de problème, consultez la page [Résolution de problèmes](/help/trouble
 
 D’abord, **un score** sur 100, avec un résumé en langage simple de ce qu’il veut dire pour votre système : votre type d’aquarium, son âge, votre population.
 
-Le score compare vos résultats à leurs plages cibles, y compris les plages que vous avez réglées vous-même. Un seul résultat hors de sa plage bloque le score à 70 au plus. Un résultat très hors plage le bloque à 40 au plus, même si tout le reste est bon. Sous le score, l’étiquette indique **Sain** au-dessus de 70, **Attention requise** de 40 à 70 et **Critique** sous 40. Les rapports de santé sont notés de la même façon.
+Le score compare vos résultats à leurs plages cibles, y compris les plages que vous avez réglées vous-même. Un seul résultat hors de sa plage bloque le score à 70 au plus. Il ne peut donc pas afficher **Sain**. Un résultat très hors plage le bloque à 40 au plus, même si tout le reste est bon. Sous le score, l’étiquette indique **Sain** de 71 à 100, **Attention requise** de 40 à 70 et **Critique** de 0 à 39. Les rapports de santé sont notés de la même façon.
 
 Ensuite, **tous les éléments suivis** : les paramètres principaux, mais aussi les oligo-éléments et les contaminants.
 

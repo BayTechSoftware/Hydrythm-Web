@@ -38,8 +38,8 @@ The percentage at the top shows how much of the profile you've filled in. The fu
 
 | Section | Covers |
 |---|---|
-| Tank Name & Type | What you call the tank, its type, and its age |
-| Tank Dimensions | Physical size and total water volume |
+| Tank Name & Type | What you call the tank and its type |
+| Tank Dimensions | Physical size, total water volume and the tank's start date |
 | Dosing | What you dose and how |
 | Water Management | Water changes, top-off, salinity targets |
 | Livestock | What the tank holds and how heavily it is stocked |
@@ -66,7 +66,7 @@ If the volume is 20% too high, dose suggestions are 20% too high as well. If you
 
 ## Tank age
 
-Set the date you started the tank. Cora judges readings against what's normal for a tank that age, so a three-month-old system and a five-year-old one are judged differently. If the tank is still cycling, say so.
+Set **Tank start date** under **Tank Dimensions**. Cora judges readings against what's normal for a tank that age, so a three-month-old system and a five-year-old one are judged differently. If the tank is still cycling, start the cycling guide from the **Starting a new tank?** card on the dashboard.
 
 ## Keeping the profile current
 

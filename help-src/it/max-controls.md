@@ -59,6 +59,6 @@ Trovi di più in [Parlare con Cora](/help/max-voice).
 
 ## Vedere cosa è successo
 
-Ogni richiesta viene registrata, insieme a chi l'ha fatta (Cora Mobile, uno schermo Cora, la voce, l'Assistant, una regola di automazione, un pulsante smart o il tuo account) e alla strada che ha fatto. Sul telefono la trovi in **Impostazioni → Attività**.
+Ogni richiesta viene registrata, insieme a chi l'ha fatta (Cora Mobile, uno schermo Cora, la voce, l'Assistant, una regola di automazione, un pulsante smart o il tuo account) e alla strada che ha fatto. Su Cora Max tocca il nome della vasca nella barra in alto e scegli **Attività**. Sul telefono la trovi in **Impostazioni → Attività**.
 
 Quando qualcosa è cambiato e non sai perché, guarda prima qui.

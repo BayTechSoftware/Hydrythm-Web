@@ -218,7 +218,7 @@ Más información: [Alertas y umbrales](/help/mobile-alerts)
 
 ### ¿Por qué me llegó una alerta al teléfono y no a Cora Max, o al revés?
 
-Cada teléfono y cada Cora Max tiene sus propios ajustes de notificaciones, así que una categoría puede estar activada en uno y desactivada en el otro. Revisa **Ajustes → Notificaciones** en los dos.
+Los interruptores de **Ajustes → Notificaciones** en Cora Mobile son de tu cuenta y valen para cada teléfono en el que hayas iniciado sesión. Cora Max no tiene interruptores de notificaciones. Muestra cada alerta en la pared, salvo que la hayas pospuesto o descartado en esa pantalla. Si tu teléfono no avisa, comprueba que la categoría esté activada y que el teléfono permita las notificaciones de Cora.
 
 Más información: [Notificaciones](/help/mobile-notifications), [Alertas en Cora Max](/help/max-alerts)
 

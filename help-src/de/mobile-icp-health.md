@@ -37,7 +37,7 @@ Klappt es nicht, schau in die [Problembehebung](/help/troubleshooting).
 
 Du bekommst **eine Bewertung** von 0 bis 100 und eine verständliche Zusammenfassung, was das Ergebnis für genau dein System bedeutet, also für deinen Beckentyp, sein Alter und deinen Besatz.
 
-Die Bewertung ergibt sich aus deinen Ergebnissen im Vergleich zu ihren Zielbereichen, auch zu Bereichen, die du selbst festgelegt hast. Liegt ein Ergebnis außerhalb seines Bereichs, bleibt die Bewertung bei höchstens 70. Liegt eines weit außerhalb, bleibt sie bei höchstens 40, egal wie gut der Rest ist. Unter der Bewertung steht über 70 **Gesund**, von 40 bis 70 **Braucht Aufmerksamkeit** und unter 40 **Kritisch**. Zustandsberichte werden genauso bewertet.
+Die Bewertung ergibt sich aus deinen Ergebnissen im Vergleich zu ihren Zielbereichen, auch zu Bereichen, die du selbst festgelegt hast. Liegt ein Ergebnis außerhalb seines Bereichs, bleibt die Bewertung bei höchstens 70 und zeigt damit nie **Gesund**. Liegt eines weit außerhalb, bleibt sie bei höchstens 40, egal wie gut der Rest ist. Unter der Bewertung steht von 71 bis 100 **Gesund**, von 40 bis 70 **Braucht Aufmerksamkeit** und von 0 bis 39 **Kritisch**. Zustandsberichte werden genauso bewertet.
 
 Cora verfolgt **jedes Element**, von den wichtigsten Wasserwerten bis zu Spurenelementen und Schadstoffen.
 

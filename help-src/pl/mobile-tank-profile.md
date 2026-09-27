@@ -38,8 +38,8 @@ Procent na górze pokazuje, jaka część profilu jest wypełniona. Im pełniejs
 
 | Sekcja | Co obejmuje |
 |---|---|
-| Nazwa i typ akwarium | Nazwę akwarium, jego typ i wiek |
-| Wymiary akwarium | Wymiary i całkowitą objętość wody |
+| Nazwa i typ akwarium | Nazwę akwarium i jego typ |
+| Wymiary akwarium | Wymiary, całkowitą objętość wody i datę uruchomienia akwarium |
 | Dozowanie | Co i jak dozujesz |
 | Zarządzanie wodą | Podmiany wody, dolewkę, docelowe zasolenie |
 | Obsada | Co mieszka w akwarium i jak gęsto jest obsadzone |
@@ -66,7 +66,7 @@ Jeśli wpiszesz objętość o 20% za dużą, zalecane dawki też będą o 20% za
 
 ## Wiek akwarium
 
-Podaj datę uruchomienia akwarium. Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku. Trzymiesięczny system i pięcioletni są oceniane inaczej. Jeśli akwarium wciąż się cykluje, zaznacz to.
+W sekcji **Wymiary akwarium** ustaw pole **Data uruchomienia akwarium**. Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku. Trzymiesięczny system i pięcioletni są oceniane inaczej. Jeśli akwarium wciąż się cykluje, włącz prowadzone cyklowanie z karty **Zaczynasz nowe akwarium?** na pulpicie.
 
 ## Aktualny profil
 

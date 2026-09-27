@@ -38,8 +38,8 @@ Die Prozentzahl oben zeigt, wie viel vom Profil ausgefüllt ist. Je vollständig
 
 | Bereich | Inhalt |
 |---|---|
-| Beckenname & -typ | wie du das Becken nennst, sein Typ und sein Alter |
-| Beckenmaße | Abmessungen und gesamtes Wasservolumen |
+| Beckenname & -typ | wie du das Becken nennst und sein Typ |
+| Beckenmaße | Abmessungen, gesamtes Wasservolumen und das Startdatum des Beckens |
 | Dosierung | was du dosierst und wie |
 | Wassermanagement | Wasserwechsel, Nachfüllung, Zielwerte für die Salinität |
 | Besatz | was im Becken lebt und wie dicht es besetzt ist |
@@ -66,7 +66,7 @@ Trägst du ein 20 % zu hohes Volumen ein, fallen auch die empfohlenen Dosierunge
 
 ## Beckenalter
 
-Trag das Datum ein, an dem du das Becken gestartet hast. Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. Ein drei Monate altes System wird also anders bewertet als eins, das fünf Jahre läuft. Fährt dein Becken noch ein, trag es auch so ein.
+Trag unter **Beckenmaße** das **Startdatum des Beckens** ein. Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. Ein drei Monate altes System wird also anders bewertet als eins, das fünf Jahre läuft. Fährt dein Becken noch ein, starte das begleitete Einfahren über die Karte **Startest du ein neues Becken?** auf dem Dashboard.
 
 ## Das Profil aktuell halten
 

@@ -31,7 +31,7 @@ Die letzten vier sind **Gerätekacheln**. Sie gehören zu einem Gerät und nicht
 
 ## Größe
 
-**Breite** und **Höhe** sind jeweils **1×** oder **2×**. Ein Diagramm ist nie nur eine Zelle breit.
+**Breite** und **Höhe** sind jeweils **1×** oder **2×**. Ein Widget ist also eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Ein Diagramm ist nie nur eine Zelle breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Für deinen wichtigsten Wasserwert passt diese Form meist am besten.
 
 ## Wert
 
@@ -105,7 +105,3 @@ Ein Widget für einen gemessenen Wasserwert (Wert, Anzeige, Diagramm und Status)
 - **die Quelle** als kleines Abzeichen, das zeigt, woher die Zahl kommt
 
 Tippe auf ein Widget, dann siehst du die ganze Historie, jede Quelle, die den Wert meldet, und die gerade geltenden Schwellenwerte.
-
-## Größen
-
-Widgets sind eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Nur ein **Verlauf** ist immer mindestens zwei Zellen breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Für deinen wichtigsten Wasserwert passt diese Form meist am besten.

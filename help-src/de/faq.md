@@ -218,7 +218,7 @@ Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
 ### Warum kam eine Warnung auf meinem Handy an, aber nicht auf Cora Max, oder umgekehrt?
 
-Jede App und jedes Cora Max hat eigene Benachrichtigungseinstellungen. Eine Kategorie kann also auf dem einen Gerät erlaubt und auf dem anderen ausgeschaltet sein. Prüf auf beiden **Einstellungen → Benachrichtigungen**.
+Die Schalter unter **Einstellungen → Benachrichtigungen** in Cora Mobile gehören zu deinem Konto und gelten auf jedem Handy, auf dem du angemeldet bist. Cora Max hat keine Benachrichtigungsschalter. Es zeigt jede Warnung an der Wand, außer du hast sie auf diesem Bildschirm schlummern lassen oder verworfen. Bleibt dein Handy stumm, prüf, ob die Kategorie eingeschaltet ist und ob dein Handy Benachrichtigungen von Cora erlaubt.
 
 Mehr dazu unter [Benachrichtigungen](/help/mobile-notifications) und [Warnungen auf Cora Max](/help/max-alerts).
 

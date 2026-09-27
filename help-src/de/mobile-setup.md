@@ -44,7 +44,7 @@ Der Einrichtungsassistent fragt die folgenden Punkte ab. Alles davon kannst du s
 Mehr fragt der Assistent nicht. Alles andere, also Besatz, Ausrüstung, Dosierung, Zielwerte, Beleuchtung und Strömung, trägst du danach in deinem [Beckenprofil](/help/mobile-tank-profile) ein, wann es dir passt.
 
 :::note Das Alter des Beckens beeinflusst die Bewertung
-Cora bewertet Messwerte danach, was für ein Becken im angegebenen Alter normal ist. Ein Becken, das gerade einfährt, trägst du also auch so ein.
+Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. Der Einrichtungsassistent fragt nicht danach. Trag das **Startdatum des Beckens** in deinem Beckenprofil unter **Beckenmaße** ein. Fährt dein Becken gerade ein, tippe auf dem Dashboard auf **Startest du ein neues Becken?** und schalte das begleitete Einfahren ein.
 :::
 
 ## Deine Ausrüstung verbinden

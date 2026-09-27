@@ -69,17 +69,17 @@ Les conseils de Cora restent des conseils. Vérifiez ce qui compte avec vos prop
 ![Réglages de l’Assistant](img/mobile-assistant-settings.webp "Consentement, mémoire, voix et limites d’utilisation, sous Réglages.")
 
 :::note Ce que l’effacement de la mémoire touche, et ce qu’il ne touche pas
-L’effacement retire ce que Cora a retenu *de vos conversations* : son profil de votre installation, les points qu’il suivait et toutes les sessions enregistrées. Si une partie ne peut pas être supprimée, Cora Mobile vous signale l’échec. Il ne vous annonce pas un succès.
+L’effacement retire ce que Cora a retenu *de vos conversations* pour un aquarium : son profil de votre installation, les points qu’il suivait et toutes les sessions enregistrées. Si une partie ne peut pas être supprimée, Cora Mobile vous signale l’échec. Il ne vous annonce pas un succès.
 
 Vos **données d’aquarium** ne sont pas touchées. Mesures, journal, population, entretien et rapports vous appartiennent et restent tels quels. L’Assistant oublie la conversation, pas l’aquarium.
 :::
 
 Cora retient des choses sur votre aquarium d’une conversation à l’autre. Par exemple, que vous dosez en deux parties, que votre bac à boutures partage une décantation, ou que vous essayez de remonter les nutriments. Vous n’avez donc pas à réexpliquer votre installation à chaque fois.
 
-**Réglages → Cora Assistant → Mémoire IA** affiche ce que Cora a enregistré sur votre aquarium. Vous pouvez aussi le réinitialiser depuis cet écran.
+**Réglages → Cora Assistant → Mémoire IA** affiche ce que Cora a enregistré sur votre aquarium. Vous pouvez aussi le réinitialiser depuis cet écran. Chaque aquarium a sa propre mémoire : choisissez d’abord l’aquarium.
 
-:::warning Effacer la mémoire ne supprime pas forcément tout
-La réinitialisation efface la mémoire que vous voyez. Cora garde aussi un contexte de travail pendant une conversation, et un profil à plus long terme que la réinitialisation ne couvre peut-être pas en entier. Voyez-la comme « oublie ce qui est affiché ici », pas comme l’effacement garanti de tout ce que Cora a pu en déduire.
+:::warning Vos derniers messages restent
+La réinitialisation ne supprime pas les messages échangés avec Cora. Pendant environ une demi-heure, Cora voit encore les derniers si vous reprenez la conversation.
 :::
 
 ## Utilisation

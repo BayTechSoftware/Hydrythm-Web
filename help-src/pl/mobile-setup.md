@@ -44,7 +44,7 @@ Kreator konfiguracji pyta o poniższe rzeczy. Wszystko możesz później zmieni�
 To cały kreator. Resztę (obsadę, sprzęt, dozowanie, wartości docelowe, oświetlenie, przepływ) uzupełnisz później w [profilu akwarium](/help/mobile-tank-profile), we własnym tempie.
 
 :::note Wiek akwarium wpływa na ocenę odczytów
-Cora ocenia odczyty względem tego, co jest normalne dla akwarium w podanym wieku. Jeśli akwarium dopiero się cykluje, zaznacz to.
+Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku. Kreator o to nie pyta. W profilu akwarium, w sekcji **Wymiary akwarium**, ustaw pole **Data uruchomienia akwarium**. Jeśli akwarium dopiero się cykluje, dotknij **Zaczynasz nowe akwarium?** na pulpicie, żeby włączyć prowadzone cyklowanie.
 :::
 
 ## Podłączanie sprzętu

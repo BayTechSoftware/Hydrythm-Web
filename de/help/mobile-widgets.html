@@ -168,7 +168,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Widget-Referenz</h1>
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-neun-typen">Die neun Typen</a></li><li><a href="#gre">Größe</a></li><li><a href="#wert">Wert</a></li><li><a href="#anzeige">Anzeige</a></li><li><a href="#diagramm">Diagramm</a></li><li><a href="#status">Status</a></li><li><a href="#steckdose">Steckdose</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#was-ein-wasserwert-widget-zeigt">Was ein Wasserwert-Widget zeigt</a></li><li><a href="#gren">Größen</a></li></ul></nav>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-neun-typen">Die neun Typen</a></li><li><a href="#gre">Größe</a></li><li><a href="#wert">Wert</a></li><li><a href="#anzeige">Anzeige</a></li><li><a href="#diagramm">Diagramm</a></li><li><a href="#status">Status</a></li><li><a href="#steckdose">Steckdose</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#was-ein-wasserwert-widget-zeigt">Was ein Wasserwert-Widget zeigt</a></li></ul></nav>
 <p>Ein Widget ist eine Kachel auf deinem Dashboard, die eine Sache zeigt. Hier findest du alle Typen und was du bei ihnen einstellen kannst.</p>
 <p>Du fügst Widgets im <strong><a href="/de/help/mobile-dashboard-editing">Dashboard-Editor</a></strong> hinzu und ordnest sie dort an. Tippst du dort auf ein Widget, öffnen sich seine Einstellungen.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Ein Widget konfigurieren"><img src="/help/img/mobile-widget-config.webp" alt="Ein Widget konfigurieren" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Typ, Wasserwert, dann Breite und Höhe.</figcaption></figure>
@@ -176,7 +176,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Typ</th><th>Zeigt</th></tr></thead><tbody><tr><td data-th="Typ"><strong>Wert</strong></td><td data-th="Zeigt">den aktuellen Messwert mit Einheit, Alter und Quelle</td></tr><tr><td data-th="Typ"><strong>Anzeige</strong></td><td data-th="Zeigt">einen Bogen, auf dem dein Bereich eingezeichnet ist, mit einem Knopf beim aktuellen Wert</td></tr><tr><td data-th="Typ"><strong>Diagramm</strong></td><td data-th="Zeigt">einen Verlauf über einen Zeitraum, den du wählst</td></tr><tr><td data-th="Typ"><strong>Status</strong></td><td data-th="Zeigt">einen Zustand als Text, etwa läuft, ruht, geschlossen</td></tr><tr><td data-th="Typ"><strong>Steckdose</strong></td><td data-th="Zeigt">einen Schalter mit drei Stellungen: Auto, Aus, Ein</td></tr><tr><td data-th="Typ"><strong>ReefBeat</strong></td><td data-th="Zeigt">ein Red Sea™-Gerät mit eigener Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>Apex-Modul</strong></td><td data-th="Zeigt">ein eingebautes Apex-Modul, etwa ein Trident oder DŌS</td></tr><tr><td data-th="Typ"><strong>Jecod™</strong></td><td data-th="Zeigt">eine Jecod-Pumpe mit Modus und Intensität</td></tr><tr><td data-th="Typ"><strong>Maxspect™</strong> <em>(Beta)</em></td><td data-th="Zeigt">eine Gyre mit beiden Motoren</td></tr></tbody></table></div>
 <p>Die letzten vier sind <strong>Gerätekacheln</strong>. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.</p>
 <h2 id="gre">Größe</h2>
-<p><strong>Breite</strong> und <strong>Höhe</strong> sind jeweils <strong>1×</strong> oder <strong>2×</strong>. Ein Diagramm ist nie nur eine Zelle breit.</p>
+<p><strong>Breite</strong> und <strong>Höhe</strong> sind jeweils <strong>1×</strong> oder <strong>2×</strong>. Ein Widget ist also eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Ein Diagramm ist nie nur eine Zelle breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Für deinen wichtigsten Wasserwert passt diese Form meist am besten.</p>
 <h2 id="wert">Wert</h2>
 <p>Die reine Zahl: der aktuelle Messwert mit Einheit, wie alt er ist und woher er kommt.</p>
 <p>Nimm ihn für Wasserwerte, bei denen dich die Zahl interessiert und weniger der Verlauf, etwa Calcium, Magnesium oder Nitrat.</p>
@@ -209,10 +209,8 @@
 <p>Ein Widget für einen gemessenen Wasserwert (Wert, Anzeige, Diagramm und Status) zeigt immer drei Dinge. Steckdosen- und Gerätekacheln zeigen stattdessen ihren eigenen Zustand, denn hinter ihnen steht kein einzelner Messwert:</p>
 <ul><li><strong>den Wert</strong>, groß</li><li><strong>das Alter</strong> (<code>jetzt</code>, <code>1h</code>, <code>2d</code>), also wie alt der Messwert ist und nicht, wann der Bildschirm zuletzt aktualisiert wurde</li><li><strong>die Quelle</strong> als kleines Abzeichen, das zeigt, woher die Zahl kommt</li></ul>
 <p>Tippe auf ein Widget, dann siehst du die ganze Historie, jede Quelle, die den Wert meldet, und die gerade geltenden Schwellenwerte.</p>
-<h2 id="gren">Größen</h2>
-<p>Widgets sind eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Nur ein <strong>Verlauf</strong> ist immer mindestens zwei Zellen breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Für deinen wichtigsten Wasserwert passt diese Form meist am besten.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/mobile-dashboard-editing"><span>Zurück</span><b>Dein Dashboard bearbeiten</b></a><a class="pn-n" href="/de/help/mobile-metric-detail"><span>Weiter</span><b>Einen Wasserwert genauer ansehen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.78 und Cora Mobile 0.5.79. Zuletzt geprüft am 2026-09-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.79 und Cora Mobile 0.5.80. Zuletzt geprüft am 2026-09-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>

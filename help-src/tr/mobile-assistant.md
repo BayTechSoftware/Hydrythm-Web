@@ -69,17 +69,17 @@ Cora'nın önerisi yalnızca bir öneridir. Önemli konuları kendi testlerinizl
 ![Asistan ayarları](img/mobile-assistant-settings.webp "Ayarlar altında izin, hafıza, ses ve kullanım sınırları.")
 
 :::note Hafızayı temizlemek neleri siler, neleri silmez
-Temizleme, Cora'nın *sohbetlerinizden* hatırladıklarını siler: sisteminiz hakkındaki profili, takip ettiği sorunları ve kayıtlı bütün oturumları. Bunlardan herhangi biri silinemezse Cora Mobile başarılı oldu demez, silme işleminin başarısız olduğunu söyler.
+Temizleme, Cora'nın bir akvaryum için *sohbetlerinizden* hatırladıklarını siler: sisteminiz hakkındaki profili, takip ettiği sorunları ve kayıtlı bütün oturumları. Bunlardan herhangi biri silinemezse Cora Mobile başarılı oldu demez, silme işleminin başarısız olduğunu söyler.
 
 **Akvaryum verileriniz** bundan etkilenmez. Ölçümler, günlük, canlılar, bakım ve raporlar olduğu gibi kalır. Yalnızca asistanın sohbetlerden hatırladıkları silinir.
 :::
 
 Cora sohbetler arasında akvaryumunuzla ilgili bazı şeyleri hatırlar. Örneğin iki bileşenli dozaj yaptığınızı, frag akvaryumunuzun aynı sump'ı kullandığını ya da besin seviyelerini artırmaya çalıştığınızı. Bu sayede sisteminizi her seferinde baştan anlatmanız gerekmez.
 
-**Ayarlar → Cora Assistant → Yapay zeka hafızası** bölümünde Cora'nın akvaryumunuz hakkında kaydettiklerini görebilir ve sıfırlayabilirsiniz.
+**Ayarlar → Cora Assistant → Yapay zeka hafızası** bölümünde Cora'nın akvaryumunuz hakkında kaydettiklerini görebilir ve sıfırlayabilirsiniz. Her akvaryumun hafızası ayrıdır, bu yüzden önce akvaryumu seçin.
 
-:::warning Hafızayı temizlemek her şeyi silmeyebilir
-Sıfırlama, gördüğünüz hafıza kaydını temizler. Cora bunun dışında bir sohbet boyunca kullandığı bağlamı ve daha uzun vadeli bir profili de tutar. Sıfırlama bunları tam olarak kapsamayabilir. Sıfırlamayı "bana gösterdiklerini unut" olarak düşünün. O ana kadar çıkarılan her şeyin kesin olarak silinmesi olarak görmeyin.
+:::warning Son mesajlarınız kalır
+Sıfırlama, Cora ile yazıştığınız mesajları silmez. Sohbete devam ederseniz Cora yaklaşık yarım saat boyunca son birkaç mesajı görmeye devam eder.
 :::
 
 ## Kullanım

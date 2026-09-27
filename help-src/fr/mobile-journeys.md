@@ -19,11 +19,11 @@ Enregistrez un test d’ammoniac, de nitrite et de nitrate tous les deux ou troi
 
 | Étape | Ce qui se passe |
 |---|---|
-| **En attente d’un premier test** | Rien n’est encore enregistré. Sans chiffres, le parcours ne peut pas vous situer |
-| **Pas commencé** | Tout est proche de zéro, sans nitrate pour l’instant. L’ammoniac n’a pas été ajouté, ou sa transformation n’a pas commencé |
-| **Ammoniac** | La première colonie s’installe et consomme l’ammoniac |
-| **Nitrite** | La deuxième colonie élimine le nitrite. C’est souvent l’étape la plus longue. Les chiffres ne bougent plus, et beaucoup pensent à tort que quelque chose ne va pas |
-| **Cyclé** | L’ammoniac et le nitrite sont éliminés et le nitrate est présent. L’aquarium est prêt pour ses habitants |
+| **Enregistrez votre premier test** | Rien n’est encore enregistré. Sans chiffres, le parcours ne peut pas vous situer |
+| **Prêt à démarrer** | Tout est proche de zéro, sans nitrate pour l’instant. L’ammoniac n’a pas été ajouté, ou sa transformation n’a pas commencé |
+| **Étape ammoniac** | La première colonie s’installe et consomme l’ammoniac |
+| **Étape nitrite : environ à mi-parcours** | La deuxième colonie élimine le nitrite. C’est souvent l’étape la plus longue. Les chiffres ne bougent plus, et beaucoup pensent à tort que quelque chose ne va pas |
+| **Semble cyclé** | L’ammoniac et le nitrite sont éliminés et le nitrate est présent. Faites le dernier contrôle indiqué à l’écran, puis touchez **Marquer mon aquarium comme cyclé** |
 
 **Votre cycle jusqu’à présent** trace les trois courbes ensemble. Elles sont mises à l’échelle les unes par rapport aux autres, sans valeurs absolues, pour que vous voyiez le relais d’une colonie à l’autre. Touchez un nom pour voir les vrais chiffres.
 
@@ -32,7 +32,7 @@ Enregistrez un test d’ammoniac, de nitrite et de nitrate tous les deux ou troi
 :::
 
 :::note Enregistrez les trois tests, même ceux qui ne bougent pas
-Un aquarium n’est considéré comme cyclé que si l’ammoniac et le nitrite ont chacun été *mesurés* à zéro, avec du nitrate présent. Le nitrate seul ne suffit pas. L’eau de départ en contient souvent. Pris seul, il ferait croire à un cycle terminé et vous pousserait à mettre des habitants dans un aquarium qui ne peut pas encore les accueillir.
+Cora n’affiche **Semble cyclé** que si l’ammoniac et le nitrite ont chacun été *mesurés* à zéro, avec du nitrate présent. Le nitrate seul ne suffit pas. L’eau de départ en contient souvent. Pris seul, il ferait croire à un cycle terminé et vous pousserait à mettre des habitants dans un aquarium qui ne peut pas encore les accueillir.
 :::
 
 :::note Ce sont vos mesures qui comptent, pas le calendrier
@@ -47,16 +47,14 @@ Les parcours de problème ne couvrent **qu’un seul problème pour l’instant�
 Il existe aujourd’hui deux parcours : le cyclage et les dinoflagellés. Pour les autres problèmes, appuyez-vous sur [Cora Assistant](/help/mobile-assistant) et sur le [journal](/help/mobile-journal).
 :::
 
-Un parcours de problème passe par cinq étapes.
+Un parcours de problème passe par trois étapes.
 
-1. **Valider** : est-ce que le problème est bien réel ? Cora vérifie vos mesures avant d’admettre qu’il y a un problème.
-2. **Preuves** : réunir ce qu’il faut. En général un test, parfois une photo ou une observation.
-3. **Plan** : Cora propose quoi faire, et explique pourquoi.
-4. **Action** : vous le faites, le temps qu’il faudra.
-5. **Résultat** : est-ce que ça a marché ?
+1. **Vérifier** : pouvez-vous vous fier à la mesure ? Confirmez-la avec un nouveau test, puis touchez **Confirmé : c’est réel**. Si elle ne correspond pas à votre aquarium, touchez **Ce n’est pas ça / ignorer**.
+2. **Plan** : Cora liste les étapes, avec le pourquoi et le comment de chacune. Cochez-les au fur et à mesure, le temps qu’il faudra, puis touchez **Comment ça se passe ?**
+3. **Résultat** : est-ce que ça a marché ?
 
-:::note Valider, c’est à vous de le faire
-Un parcours de problème commence par **Valider**. Avant de montrer un plan, il vous demande de confirmer ce qui se passe vraiment. C’est une première étape voulue. On vous demande de regarder, pas de passer un examen. Un parcours de cyclage n’a rien à valider et commence directement à **Action**.
+:::note Vérifier, c’est à vous de le faire
+Un parcours de problème commence par **Vérifier**. Avant de montrer un plan, il vous demande de confirmer la mesure. On vous demande de regarder, pas de passer un examen. Un parcours de cyclage n’a pas d’étape **Vérifier**. Il se base sur les tests que vous enregistrez.
 :::
 
 ### Enregistrer le résultat

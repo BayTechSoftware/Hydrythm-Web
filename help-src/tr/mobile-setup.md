@@ -44,7 +44,7 @@ Kurulum sihirbazı şunları sorar. Hepsini sonradan [akvaryum profilinizden](/h
 Sihirbaz bu kadar. Canlılar, ekipman, dozaj, hedefler, aydınlatma ve akış gibi diğer bilgileri sonra, dilediğiniz zaman [akvaryum profilinizden](/help/mobile-tank-profile) doldurursunuz.
 
 :::note Akvaryumun yaşı ölçümlerin değerlendirmesini etkiler
-Cora ölçümleri, girdiğiniz yaştaki bir akvaryum için normal kabul edilen değerlere göre değerlendirir. Döngüsü devam eden akvaryumu da öyle kaydedin.
+Cora ölçümleri, o yaştaki bir akvaryum için normal kabul edilen değerlere göre değerlendirir. Kurulum sihirbazı yaşı sormaz. **Akvaryum başlangıç tarihi** alanını akvaryum profilinde, **Akvaryum Boyutları** bölümünde doldurun. Akvaryumunuzun döngüsü hâlâ sürüyorsa rehberli döngüyü açmak için panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun.
 :::
 
 ## Ekipmanınızı bağlayın

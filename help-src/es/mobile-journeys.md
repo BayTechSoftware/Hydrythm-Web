@@ -19,11 +19,11 @@ Registra una prueba de amoniaco, nitrito y nitrato cada dos o tres días. Con es
 
 | Etapa | Qué está pasando |
 |---|---|
-| **Esperando una primera prueba** | Aún no hay nada registrado. El itinerario necesita números para situarte |
-| **Sin empezar** | Todo está cerca de cero y todavía no hay nitrato. No se ha añadido amoniaco o aún no ha empezado a transformarse |
-| **Amoniaco** | La primera colonia se está asentando y consume amoniaco |
-| **Nitrito** | La segunda colonia está eliminando el nitrito. Suele ser la fase más larga. Como los números dejan de moverse, mucha gente cree que algo va mal |
-| **Ciclado** | El amoniaco y el nitrito han desaparecido y hay nitrato. El acuario está listo para fauna |
+| **Registra tu primera prueba** | Aún no hay nada registrado. El itinerario necesita números para situarte |
+| **Listo para empezar** | Todo está cerca de cero y todavía no hay nitrato. No se ha añadido amoniaco o aún no ha empezado a transformarse |
+| **Etapa del amoniaco** | La primera colonia se está asentando y consume amoniaco |
+| **Etapa de nitrito: a medio camino** | La segunda colonia está eliminando el nitrito. Suele ser la fase más larga. Como los números dejan de moverse, mucha gente cree que algo va mal |
+| **Parece ciclado** | El amoniaco y el nitrito han desaparecido y hay nitrato. Haz la comprobación final que se indica en pantalla y luego toca **Marcar mi acuario como ciclado** |
 
 **Tu ciclo hasta ahora** dibuja las tres curvas juntas. Están escaladas entre sí, no en valores absolutos, para que veas cómo una colonia toma el relevo de la otra. Toca un nombre para ver los números reales.
 
@@ -32,7 +32,7 @@ Con **amoniaco o nitrito por encima de 5 ppm**, las bacterias que quieres cultiv
 :::
 
 :::note Registra los tres valores, aunque solo cambie uno
-El acuario solo aparece como ciclado cuando has *medido* el amoniaco y el nitrito en cero y hay nitrato. El nitrato por sí solo no basta. El agua de origen suele traer algo, y parecería que el ciclo ha terminado. Acabarías metiendo fauna en un acuario que todavía no puede mantenerla.
+Cora solo muestra **Parece ciclado** cuando has *medido* el amoniaco y el nitrito en cero y hay nitrato. El nitrato por sí solo no basta. El agua de origen suele traer algo, y parecería que el ciclo ha terminado. Acabarías metiendo fauna en un acuario que todavía no puede mantenerla.
 :::
 
 :::note Lo que cuenta son tus lecturas, no el calendario
@@ -47,16 +47,14 @@ De momento, los itinerarios de problema cubren **un caso concreto, los dinoflage
 Por ahora solo existen el del ciclo y el de los dinoflagelados. Para otros problemas, usa [Cora Assistant](/help/mobile-assistant) y el [diario](/help/mobile-journal).
 :::
 
-Un itinerario de problema tiene cinco etapas:
+Un itinerario de problema tiene tres etapas:
 
-1. **Validar**. ¿Está pasando de verdad? Cora revisa tus lecturas antes de dar por hecho que hay un problema.
-2. **Evidencia**. Reúne lo que haga falta. Normalmente una prueba, a veces una foto o una observación.
-3. **Plan**. Cora propone qué hacer y explica por qué.
-4. **Actuando**. Lo pones en práctica durante el tiempo que haga falta.
-5. **Resultado**. ¿Ha funcionado?
+1. **Verificar**. ¿Puedes fiarte de la lectura? Confírmala con una prueba nueva y luego toca **Confirmado: es real**. Si no encaja con tu acuario, toca **No es eso / descartar**.
+2. **Plan**. Cora enumera los pasos, cada uno con su porqué y su cómo. Márcalos a medida que avanzas, durante el tiempo que haga falta, y luego toca **¿Cómo va?**
+3. **Resultado**. ¿Ha funcionado?
 
-:::note Validar lo haces tú, no es una comprobación de Cora
-Un itinerario de problema empieza en **Validar**. Ahí se te pide que confirmes lo que está pasando antes de ver un plan. Es un primer paso intencionado. Solo tienes que mirar, nadie te está poniendo nota. El itinerario del ciclo no tiene ninguna lectura que validar y empieza directamente en **Actuando**.
+:::note Verificar lo haces tú, no es una comprobación de Cora
+Un itinerario de problema empieza en **Verificar**. Ahí se te pide que confirmes la lectura antes de ver un plan. Solo tienes que mirar, nadie te está poniendo nota. El itinerario del ciclo no tiene la etapa **Verificar**. Se basa en las pruebas que registras.
 :::
 
 ### Anotar el resultado

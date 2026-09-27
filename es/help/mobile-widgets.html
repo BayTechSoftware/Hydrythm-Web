@@ -168,7 +168,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Tipos de widget</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#los-nueve-tipos">Los nueve tipos</a></li><li><a href="#tamao">Tamaño</a></li><li><a href="#valor">Valor</a></li><li><a href="#medidor">Medidor</a></li><li><a href="#grfico">Gráfico</a></li><li><a href="#estado">Estado</a></li><li><a href="#toma">Toma</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#qu-muestra-un-widget-de-parmetro">Qué muestra un widget de parámetro</a></li><li><a href="#tamaos">Tamaños</a></li></ul></nav>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#los-nueve-tipos">Los nueve tipos</a></li><li><a href="#tamao">Tamaño</a></li><li><a href="#valor">Valor</a></li><li><a href="#medidor">Medidor</a></li><li><a href="#grfico">Gráfico</a></li><li><a href="#estado">Estado</a></li><li><a href="#toma">Toma</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#qu-muestra-un-widget-de-parmetro">Qué muestra un widget de parámetro</a></li></ul></nav>
 <p>Un widget es una casilla de tu panel que muestra una sola cosa. Aquí tienes cada tipo y lo que puedes configurar en él.</p>
 <p>Los añades y los colocas en <a href="/es/help/mobile-dashboard-editing">el editor del panel</a>. Toca un widget en el editor para abrir sus ajustes.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Configurar un widget"><img src="/help/img/mobile-widget-config.webp" alt="Configurar un widget" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Tipo, parámetro, y luego ancho y alto.</figcaption></figure>
@@ -176,7 +176,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Tipo</th><th>Muestra</th></tr></thead><tbody><tr><td data-th="Tipo"><strong>Valor</strong></td><td data-th="Muestra">La lectura actual, con su unidad, su antigüedad y su fuente</td></tr><tr><td data-th="Tipo"><strong>Medidor</strong></td><td data-th="Muestra">Un arco con tu rango marcado en bandas y una marca en el valor</td></tr><tr><td data-th="Tipo"><strong>Gráfico</strong></td><td data-th="Muestra">La tendencia en el periodo que elijas</td></tr><tr><td data-th="Tipo"><strong>Estado</strong></td><td data-th="Muestra">Un estado en texto, como en marcha, inactivo o cerrado</td></tr><tr><td data-th="Tipo"><strong>Toma</strong></td><td data-th="Muestra">Un control de tres posiciones: Auto, Apagado, Encendido</td></tr><tr><td data-th="Tipo"><strong>ReefBeat</strong></td><td data-th="Muestra">Un equipo Red Sea™, con su propio resumen</td></tr><tr><td data-th="Tipo"><strong>Módulo del Apex</strong></td><td data-th="Muestra">Un módulo Apex instalado, como un Trident o un DŌS</td></tr><tr><td data-th="Tipo"><strong>Jecod™</strong></td><td data-th="Muestra">Una bomba Jecod, con su modo y su intensidad</td></tr><tr><td data-th="Tipo"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Muestra">Un gyre, con sus dos motores</td></tr></tbody></table></div>
 <p>Los cuatro últimos son casillas de <strong>dispositivo</strong>. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.</p>
 <h2 id="tamao">Tamaño</h2>
-<p><strong>Ancho</strong> y <strong>Alto</strong> pueden ser <strong>1×</strong> o <strong>2×</strong>. Un gráfico nunca ocupa una sola celda de ancho.</p>
+<p><strong>Ancho</strong> y <strong>Alto</strong> pueden ser <strong>1×</strong> o <strong>2×</strong>, así que un widget ocupa una o dos celdas de ancho y una o dos de alto. Un gráfico nunca ocupa una sola celda de ancho. En un panel de tres columnas, un medidor de dos de ancho llena dos tercios de la fila. Suele ser la mejor forma de mostrar tu parámetro más importante.</p>
 <h2 id="valor">Valor</h2>
 <p>El número tal cual. Ves la lectura actual, su unidad, su antigüedad y de dónde viene.</p>
 <p>Va bien para los parámetros que miras por el número más que por la tendencia, como el calcio, el magnesio o el nitrato.</p>
@@ -210,10 +210,8 @@
 <ul><li><strong>El valor</strong>, en grande</li><li><strong>La antigüedad</strong> (<code>now</code>, <code>1h</code>, <code>2d</code>), es decir, cuánto tiempo tiene la lectura, no cuándo se actualizó la pantalla</li><li><strong>La fuente</strong>, una pequeña insignia que indica de dónde viene el número</li></ul>
 <p>Las casillas de toma y de dispositivo muestran su propio estado, porque detrás de ellas no hay una sola lectura.</p>
 <p>Toca cualquier widget para abrir su historial completo, todas las fuentes que lo informan y los umbrales que se aplican.</p>
-<h2 id="tamaos">Tamaños</h2>
-<p>Los widgets ocupan una o dos celdas de ancho y una o dos de alto. La excepción es la <strong>tendencia</strong>, que siempre ocupa al menos dos de ancho. En un panel de tres columnas, un medidor de dos de ancho llena dos tercios de la fila. Suele ser la mejor forma de mostrar tu parámetro más importante.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-dashboard-editing"><span>Anterior</span><b>Editar tu panel</b></a><a class="pn-n" href="/es/help/mobile-metric-detail"><span>Siguiente</span><b>Ver un parámetro a fondo</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.79 y Cora Mobile 0.5.80. Última revisión el 2026-09-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>

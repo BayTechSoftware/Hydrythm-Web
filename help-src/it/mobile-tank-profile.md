@@ -38,8 +38,8 @@ La percentuale in alto indica quanta parte del profilo hai compilato. Più il pr
 
 | Sezione | Cosa contiene |
 |---|---|
-| Nome e tipo di vasca | Il nome della vasca, il tipo e l'età |
-| Dimensioni vasca | Misure e volume d'acqua totale |
+| Nome e tipo di vasca | Il nome della vasca e il tipo |
+| Dimensioni vasca | Misure, volume d'acqua totale e data di avvio della vasca |
 | Dosaggio | Cosa dosi e come |
 | Gestione dell'acqua | Cambi d'acqua, rabbocco, salinità obiettivo |
 | Popolazione | Cosa c'è in vasca e quanto è popolata |
@@ -66,7 +66,7 @@ Se inserisci un volume più alto del 20%, anche le dosi consigliate saranno più
 
 ## Età della vasca
 
-Indica la data in cui hai avviato la vasca. Cora valuta le letture in base a quello che è normale per una vasca di quell'età: un impianto di tre mesi e uno di cinque anni vengono giudicati in modo diverso. Se la vasca sta ancora facendo il ciclo, indicalo.
+Imposta la **Data di avvio della vasca** sotto **Dimensioni vasca**. Cora valuta le letture in base a quello che è normale per una vasca di quell'età: un impianto di tre mesi e uno di cinque anni vengono giudicati in modo diverso. Se la vasca sta ancora facendo il ciclo, avvia il ciclo guidato dalla scheda **Stai avviando una nuova vasca?** sulla dashboard.
 
 ## Tenere aggiornato il profilo
 

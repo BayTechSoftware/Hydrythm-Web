@@ -37,7 +37,7 @@ Jeśli to nie działa, zajrzyj do [Rozwiązywania problemów](/help/troubleshoot
 
 **Ocenę** w skali do 100 i podsumowanie zwykłym językiem, co to oznacza dla Twojego systemu: typu akwarium, jego wieku i obsady.
 
-Ocena wynika z porównania wyników z zakresami docelowymi, także z tymi, które ustawiasz samodzielnie. Każdy wynik poza zakresem ogranicza ocenę do 70 lub mniej, a wynik daleko poza zakresem do 40 lub mniej, bez względu na to, jak dobre są pozostałe. Pod oceną jest etykieta: **Zdrowe** powyżej 70, **Wymaga uwagi** od 40 do 70 i **Krytyczne** poniżej 40. Raporty zdrowia są oceniane tak samo.
+Ocena wynika z porównania wyników z zakresami docelowymi, także z tymi, które ustawiasz samodzielnie. Każdy wynik poza zakresem ogranicza ocenę do 70 lub mniej, więc nie może ona pokazać **Zdrowe**. Wynik daleko poza zakresem ogranicza ją do 40 lub mniej, bez względu na to, jak dobre są pozostałe. Pod oceną jest etykieta: **Zdrowe** od 71 do 100, **Wymaga uwagi** od 40 do 70 i **Krytyczne** od 0 do 39. Raporty zdrowia są oceniane tak samo.
 
 **Wszystkie śledzone pierwiastki**, czyli główne parametry, a także pierwiastki śladowe i zanieczyszczenia.
 

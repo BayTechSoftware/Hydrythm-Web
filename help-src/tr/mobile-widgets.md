@@ -31,7 +31,7 @@ Son dördü **cihaz** kutucuklarıdır. Parametreye değil, ekipmana bağlıdır
 
 ## Boyut
 
-**Genişlik** ve **Yükseklik** için **1×** ya da **2×** seçebilirsiniz. Grafik hiçbir zaman tek hücre genişliğinde olmaz.
+**Genişlik** ve **Yükseklik** için **1×** ya da **2×** seçebilirsiniz. Yani widget'lar bir ya da iki hücre genişliğinde, bir ya da iki hücre yüksekliğindedir. Grafik hiçbir zaman tek hücre genişliğinde olmaz. Üç sütunlu panoda iki hücrelik gösterge satırın üçte ikisini kaplar. En önemli parametreniz için genellikle en uygun boyut budur.
 
 ## Değer
 
@@ -105,7 +105,3 @@ Ayarlarda etiketi, cihazı ve boyutu seçersiniz.
 - **Kaynak**: sayının nereden geldiğini gösteren küçük rozet
 
 Tüm geçmişi, değeri bildiren bütün kaynakları ve geçerli eşikleri görmek için bir widget'a dokunun.
-
-## Boyutlar
-
-Widget'lar bir ya da iki hücre genişliğinde, bir ya da iki hücre yüksekliğindedir. Tek istisna **eğilim** widget'ıdır, o her zaman en az iki hücre genişliğindedir. Üç sütunlu panoda iki hücrelik gösterge satırın üçte ikisini kaplar. En önemli parametreniz için genellikle en uygun boyut budur.

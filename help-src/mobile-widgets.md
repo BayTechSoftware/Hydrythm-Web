@@ -31,7 +31,7 @@ The last four are **device** tiles. Each one belongs to a piece of equipment ins
 
 ## Sizing
 
-**Width** and **Height** can each be **1×** or **2×**. A graph is never one cell wide.
+**Width** and **Height** can each be **1×** or **2×**, so a widget is one or two cells wide and one or two cells tall. A graph is never one cell wide. On a three-column dashboard, a two-wide gauge takes up two thirds of the row. That's usually a good shape for your most important parameter.
 
 ## Value
 
@@ -105,7 +105,3 @@ Value, Gauge, Graph and Status widgets all show a measured parameter, and they a
 - **The source**, a small badge that says where the number came from
 
 Tap any widget to see its full history, every source that reports it and the thresholds that apply.
-
-## Sizes
-
-Widgets are one or two cells wide and one or two cells tall. The exception is a **trend**, which is always at least two wide. On a three-column dashboard, a two-wide gauge takes up two thirds of the row. That's usually a good shape for your most important parameter.

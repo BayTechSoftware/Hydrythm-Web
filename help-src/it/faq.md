@@ -218,7 +218,7 @@ Trovi di più in [Avvisi e soglie](/help/mobile-alerts).
 
 ### Perché ho ricevuto un avviso sul telefono ma non su Cora Max, o il contrario?
 
-Il telefono e ogni Cora Max hanno le loro impostazioni delle notifiche. Una categoria attiva su uno può essere spenta sull'altro. Controlla **Impostazioni → Notifiche** su tutti e due.
+Gli interruttori in **Impostazioni → Notifiche** di Cora Mobile appartengono al tuo account e valgono su ogni telefono su cui hai fatto l'accesso. Cora Max non ha interruttori per le notifiche. Mostra ogni avviso a parete, a meno che tu non l'abbia rinviato o ignorato su quello schermo. Se il telefono resta muto, controlla che la categoria sia attiva e che il telefono consenta le notifiche di Cora.
 
 Trovi di più in [Notifiche](/help/mobile-notifications) e in [Avvisi su Cora Max](/help/max-alerts).
 

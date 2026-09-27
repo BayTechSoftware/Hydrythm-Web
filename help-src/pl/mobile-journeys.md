@@ -19,11 +19,11 @@ Co dwa, trzy dni zapisuj wyniki testów na amoniak, azotyn i azotan. Na ich pods
 
 | Etap | Co się dzieje |
 |---|---|
-| **Czekanie na pierwszy test** | Nie ma jeszcze żadnego wyniku. Bez liczb przewodnik nie ustali etapu |
-| **Nierozpoczęte** | Wszystko blisko zera, azotanu jeszcze nie ma. Amoniak nie został dodany albo jeszcze się nie przekształca |
-| **Amoniak** | Pierwsza kolonia bakterii się zakłada i zużywa amoniak |
-| **Azotyn** | Druga kolonia usuwa azotyn. Zwykle to najdłuższy etap. Wiele osób myśli wtedy, że coś poszło nie tak, bo liczby przestają się zmieniać |
-| **Zacyklowane** | Amoniaku i azotynu już nie ma, azotan jest obecny. Akwarium jest gotowe na obsadę |
+| **Zapisz swój pierwszy test** | Nie ma jeszcze żadnego wyniku. Bez liczb przewodnik nie ustali etapu |
+| **Gotowe do rozpoczęcia** | Wszystko blisko zera, azotanu jeszcze nie ma. Amoniak nie został dodany albo jeszcze się nie przekształca |
+| **Etap amoniaku** | Pierwsza kolonia bakterii się zakłada i zużywa amoniak |
+| **Etap azotynu: w połowie drogi** | Druga kolonia usuwa azotyn. Zwykle to najdłuższy etap. Wiele osób myśli wtedy, że coś poszło nie tak, bo liczby przestają się zmieniać |
+| **Wygląda na zacyklowane** | Amoniaku i azotynu już nie ma, azotan jest obecny. Zrób końcowe sprawdzenie opisane na ekranie, a potem dotknij **Oznacz moje akwarium jako zacyklowane** |
 
 Wykres **Twój cykl do tej pory** pokazuje trzy krzywe razem. Są przeskalowane względem siebie, a nie do wartości bezwzględnych, żeby było widać, jak jedna kolonia przejmuje pracę od drugiej. Dotknij nazwy, żeby zobaczyć prawdziwe liczby.
 
@@ -32,7 +32,7 @@ Wykres **Twój cykl do tej pory** pokazuje trzy krzywe razem. Są przeskalowane 
 :::
 
 :::note Zapisuj wszystkie trzy wyniki, także te, które stoją w miejscu
-Cora uznaje akwarium za zacyklowane dopiero wtedy, gdy amoniak i azotyn zostały *zmierzone* na zerze, a azotan jest obecny. Sam azotan nie wystarczy. Woda, której używasz, często go zawiera, a sam azotan wyglądałby jak koniec cyklu. Do akwarium, które nie jest jeszcze gotowe, mogłaby wtedy trafić obsada.
+Cora pokazuje **Wygląda na zacyklowane** dopiero wtedy, gdy amoniak i azotyn zostały *zmierzone* na zerze, a azotan jest obecny. Sam azotan nie wystarczy. Woda, której używasz, często go zawiera, a sam azotan wyglądałby jak koniec cyklu. Do akwarium, które nie jest jeszcze gotowe, mogłaby wtedy trafić obsada.
 :::
 
 :::note O gotowości decydują odczyty, a nie kalendarz
@@ -47,16 +47,14 @@ Przewodniki problemowe dotyczą **jednego konkretnego problemu: bruzdnic (dinofl
 Na razie są dwa: cyklowanie i bruzdnice. Z innymi problemami pomogą Ci [Cora Assistant](/help/mobile-assistant) i [dziennik](/help/mobile-journal).
 :::
 
-Przewodnik problemowy ma pięć etapów:
+Przewodnik problemowy ma trzy etapy:
 
-1. **Weryfikacja**: czy problem naprawdę występuje? Zanim Cora uzna, że jest problem, sprawdza Twoje odczyty.
-2. **Dowody**: zbierasz to, co potrzebne. Zwykle wynik testu, czasem zdjęcie albo obserwację.
-3. **Plan**: Cora proponuje, co zrobić, i wyjaśnia dlaczego.
-4. **Działanie**: robisz to tak długo, jak trzeba.
-5. **Wynik**: czy to pomogło?
+1. **Weryfikacja**: czy możesz ufać odczytowi? Potwierdź go świeżym testem, a potem dotknij **Potwierdzone: to jest prawdziwe**. Jeśli nie pasuje do Twojego akwarium, dotknij **To nie to / odrzuć**.
+2. **Plan**: Cora wypisuje kroki i przy każdym wyjaśnia, dlaczego i jak. Odhaczaj je na bieżąco, tak długo, jak trzeba, a potem dotknij **Jak to idzie?**
+3. **Wynik**: czy to pomogło?
 
 :::note Weryfikację robisz Ty, a nie Cora
-Przewodnik problemowy zaczyna się od **Weryfikacji**. Zanim pokaże plan, prosi Cię o potwierdzenie, co naprawdę się dzieje. To zamierzony pierwszy krok. Cora prosi Cię o przyjrzenie się akwarium, a nie wystawia oceny. Przewodnik cyklowania nie ma czego weryfikować i zaczyna się od **Działania**.
+Przewodnik problemowy zaczyna się od **Weryfikacji**. Zanim pokaże plan, prosi Cię o potwierdzenie odczytu. Cora prosi Cię o przyjrzenie się akwarium, a nie wystawia oceny. Przewodnik cyklowania nie ma etapu **Weryfikacja**. Opiera się na testach, które zapisujesz.
 :::
 
 ### Zapisywanie wyniku

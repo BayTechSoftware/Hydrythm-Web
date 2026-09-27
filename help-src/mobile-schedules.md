@@ -63,7 +63,7 @@ You can only reach a Bluetooth pump from a phone close to it. Stand in range to 
 
 ## Applying a program
 
-You can also give a pump a ready-made program in one step, without building the periods yourself.
+You can give a pump a saved schedule in one step, without building the periods again. Open the pump, tap **More** at the top and choose **Saved schedules…**. The list holds every schedule saved on this tank, including ones you built on another pump. Pick one and tap **Apply**. It replaces the pump's whole day.
 
 ## Checking it took
 

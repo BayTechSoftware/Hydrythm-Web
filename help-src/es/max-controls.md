@@ -59,6 +59,6 @@ Más información en **[Hablar con Cora](/help/max-voice)**.
 
 ## Ver qué pasó
 
-Cada solicitud queda registrada, con quién la pidió (Cora Mobile, una pantalla Cora, la voz, Cora Assistant, una regla de automatización, un botón inteligente o tu cuenta) y por dónde fue. En el teléfono lo encuentras en **Ajustes → Actividad**.
+Cada solicitud queda registrada, con quién la pidió (Cora Mobile, una pantalla Cora, la voz, Cora Assistant, una regla de automatización, un botón inteligente o tu cuenta) y por dónde fue. En Cora Max, toca el nombre del acuario en la barra superior y elige **Actividad**. En el teléfono lo encuentras en **Ajustes → Actividad**.
 
 Es lo primero que conviene mirar cuando algo ha cambiado y no sabes por qué.

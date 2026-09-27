@@ -61,9 +61,9 @@ Telefonunuz pompanın ağında değilse Cora Mobile akvaryumdaki Cora Max üzeri
 
 Bluetooth pompaya yalnızca yakınındaki bir telefondan ulaşılır. Pompayı açıp kapatmak, programını değiştirmek ya da bu seçenekleri kullanmak için menzil içinde durun.
 
-## Hazır program uygulama
+## Program uygulama
 
-Periyotları tek tek elle oluşturmak yerine pompaya tek adımda hazır bir program da verebilirsiniz.
+Kayıtlı bir programı, periyotları yeniden oluşturmadan tek adımda pompaya verebilirsiniz. Pompayı açın, üstteki **Daha fazla** menüsüne dokunun ve **Kayıtlı programlar…** seçeneğini seçin. Listede bu akvaryum için kaydedilen bütün programlar vardır, başka bir pompada oluşturduklarınız da. Birini seçip **Uygula** düğmesine dokunun. Program, pompanın bütün gününü değiştirir.
 
 ## Programın uygulandığını kontrol etme
 

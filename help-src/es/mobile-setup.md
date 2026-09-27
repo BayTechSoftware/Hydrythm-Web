@@ -44,7 +44,7 @@ El asistente de configuración te pide lo siguiente. Puedes cambiarlo todo despu
 Eso es todo el asistente. Lo demás (fauna, equipo, dosificación, objetivos, iluminación, flujo) lo rellenas después en [tu perfil del acuario](/help/mobile-tank-profile), a tu ritmo.
 
 :::note La antigüedad del acuario cambia cómo se evalúan las lecturas
-Cora compara las lecturas con lo normal para un acuario de la edad que indiques. Si el acuario está en ciclado, indícalo.
+Cora compara las lecturas con lo normal para un acuario de esa edad. El asistente de configuración no la pregunta. Indica la **Fecha de inicio del acuario** en el perfil del acuario, en **Dimensiones del acuario**. Si el acuario todavía está en ciclado, toca **¿Estás empezando un acuario nuevo?** en el panel para activar el ciclado guiado.
 :::
 
 ## Conecta tu equipo

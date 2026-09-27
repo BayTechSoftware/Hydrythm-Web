@@ -37,7 +37,7 @@ Bu yoldan ilk sonuç geldiğinde Cora neler olduğunu anlatan kısa ipucu göste
 
 **100 üzerinden bir puan** ve bunun sizin sisteminiz için ne anlama geldiğini anlatan sade özet. Özet akvaryumunuzun türüne, yaşına ve canlılarına göre yazılır.
 
-Puan, sonuçlarınızın hedef aralıklarına göre hesaplanır. Kendi belirlediğiniz aralıklar da hesaba katılır. Aralığın dışında tek bir sonuç bile varsa, diğerleri ne kadar iyi olursa olsun puan en fazla 70 olur. Aralığın çok dışında bir sonuç varsa puan en fazla 40 olur. Puanın altındaki etiket 70'in üstünde **Sağlıklı**, 40 ile 70 arasında **Dikkat Gerekiyor**, 40'ın altında **Kritik** olur. Sağlık Raporları da aynı şekilde puanlanır.
+Puan, sonuçlarınızın hedef aralıklarına göre hesaplanır. Kendi belirlediğiniz aralıklar da hesaba katılır. Aralığın dışında tek bir sonuç bile varsa, diğerleri ne kadar iyi olursa olsun puan en fazla 70 olur, yani **Sağlıklı** görünemez. Aralığın çok dışında bir sonuç varsa puan en fazla 40 olur. Puanın altındaki etiket 71 ile 100 arasında **Sağlıklı**, 40 ile 70 arasında (ikisi de dahil) **Dikkat Gerekiyor**, 0 ile 39 arasında **Kritik** olur. Sağlık Raporları da aynı şekilde puanlanır.
 
 **Takip edilen bütün elementler**: yalnızca ana parametreler değil, eser elementler ve kirleticiler de.
 

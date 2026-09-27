@@ -44,7 +44,7 @@ L’assistant de configuration vous demande les informations suivantes. Vous pou
 L’assistant s’arrête là. Tout le reste (population, équipement, dosage, cibles, éclairage, brassage) se remplit ensuite dans [le profil de l’aquarium](/help/mobile-tank-profile), à votre rythme.
 
 :::note L’âge de l’aquarium compte dans l’évaluation des mesures
-Les mesures sont jugées par rapport à ce qui est normal pour un aquarium de l’âge indiqué. Si votre aquarium est en cours de cyclage, indiquez-le.
+Cora juge les mesures par rapport à ce qui est normal pour un aquarium de cet âge. L’assistant de configuration ne le demande pas. Renseignez la **Date de démarrage de l’aquarium** dans le profil de l’aquarium, sous **Dimensions de l’aquarium**. Si votre aquarium est en cours de cyclage, touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord pour activer le cyclage guidé.
 :::
 
 ## Connecter votre équipement

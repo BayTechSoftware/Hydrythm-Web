@@ -168,7 +168,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Widget rehberi</h1>
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#dokuz-tr">Dokuz tür</a></li><li><a href="#boyut">Boyut</a></li><li><a href="#deer">Değer</a></li><li><a href="#gsterge">Gösterge</a></li><li><a href="#grafik">Grafik</a></li><li><a href="#durum">Durum</a></li><li><a href="#priz">Priz</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#parametre-widgetnda-neler-grnr">Parametre widget&#x27;ında neler görünür</a></li><li><a href="#boyutlar">Boyutlar</a></li></ul></nav>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#dokuz-tr">Dokuz tür</a></li><li><a href="#boyut">Boyut</a></li><li><a href="#deer">Değer</a></li><li><a href="#gsterge">Gösterge</a></li><li><a href="#grafik">Grafik</a></li><li><a href="#durum">Durum</a></li><li><a href="#priz">Priz</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#parametre-widgetnda-neler-grnr">Parametre widget&#x27;ında neler görünür</a></li></ul></nav>
 <p>Widget, panonuzda tek bir şeyi gösteren kutucuktur. Bu sayfada bütün widget türlerini ve her birinde neleri ayarlayabileceğinizi bulabilirsiniz.</p>
 <p>Widget'ları <strong><a href="/tr/help/mobile-dashboard-editing">pano düzenleyicide</a></strong> ekleyip yerleştirirsiniz. Bir widget'ın ayarlarını açmak için düzenleyicide üzerine dokunun.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Widget ayarları"><img src="/help/img/mobile-widget-config.webp" alt="Widget ayarları" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Tür, parametre, ardından genişlik ve yükseklik.</figcaption></figure>
@@ -176,7 +176,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Tür</th><th>Ne gösterir</th></tr></thead><tbody><tr><td data-th="Tür"><strong>Değer</strong></td><td data-th="Ne gösterir">Güncel ölçüm, birimi, yaşı ve kaynağı</td></tr><tr><td data-th="Tür"><strong>Gösterge</strong></td><td data-th="Ne gösterir">Aralığınızın işaretli olduğu yay ve değeri gösteren düğme</td></tr><tr><td data-th="Tür"><strong>Grafik</strong></td><td data-th="Ne gösterir">Seçtiğiniz zaman aralığındaki eğilim</td></tr><tr><td data-th="Tür"><strong>Durum</strong></td><td data-th="Ne gösterir">Yazıyla durum: çalışıyor, boşta, kapalı</td></tr><tr><td data-th="Tür"><strong>Priz</strong></td><td data-th="Ne gösterir">Üç konumlu anahtar: Otomatik, Kapalı, Açık</td></tr><tr><td data-th="Tür"><strong>ReefBeat</strong></td><td data-th="Ne gösterir">Tek bir Red Sea™ ünitesi ve kendi özeti</td></tr><tr><td data-th="Tür"><strong>Apex modülü</strong></td><td data-th="Ne gösterir">Trident ya da DŌS gibi takılı tek bir Apex modülü</td></tr><tr><td data-th="Tür"><strong>Jecod™</strong></td><td data-th="Ne gösterir">Tek bir Jecod pompası, modu ve yoğunluğuyla</td></tr><tr><td data-th="Tür"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Ne gösterir">Tek bir gyre, iki motoruyla birlikte</td></tr></tbody></table></div>
 <p>Son dördü <strong>cihaz</strong> kutucuklarıdır. Parametreye değil, ekipmana bağlıdırlar. Her biri o ünitenin bildirdiği bilgileri gösterir.</p>
 <h2 id="boyut">Boyut</h2>
-<p><strong>Genişlik</strong> ve <strong>Yükseklik</strong> için <strong>1×</strong> ya da <strong>2×</strong> seçebilirsiniz. Grafik hiçbir zaman tek hücre genişliğinde olmaz.</p>
+<p><strong>Genişlik</strong> ve <strong>Yükseklik</strong> için <strong>1×</strong> ya da <strong>2×</strong> seçebilirsiniz. Yani widget'lar bir ya da iki hücre genişliğinde, bir ya da iki hücre yüksekliğindedir. Grafik hiçbir zaman tek hücre genişliğinde olmaz. Üç sütunlu panoda iki hücrelik gösterge satırın üçte ikisini kaplar. En önemli parametreniz için genellikle en uygun boyut budur.</p>
 <h2 id="deer">Değer</h2>
 <p>Yalnızca sayı. Güncel ölçüm, birimi, ne kadar eski olduğu ve nereden geldiği.</p>
 <p>Eğilimine değil, sayısına baktığınız parametreler için kullanın: kalsiyum, magnezyum, nitrat.</p>
@@ -209,10 +209,8 @@
 <p>Ölçülen bir parametreyi gösteren widget'larda (Değer, Gösterge, Grafik ve Durum) şu üç bilgi hep bulunur. Priz ve cihaz kutucuklarının arkasında tek bir ölçüm olmadığı için bunlar kendi durumlarını gösterir:</p>
 <ul><li><strong>Değer</strong>, büyük yazıyla</li><li><strong>Yaş</strong> (<code>şimdi</code>, <code>1 sa</code>, <code>2 g</code>): ekranın ne zaman yenilendiği değil, ölçümün ne kadar eski olduğu</li><li><strong>Kaynak</strong>: sayının nereden geldiğini gösteren küçük rozet</li></ul>
 <p>Tüm geçmişi, değeri bildiren bütün kaynakları ve geçerli eşikleri görmek için bir widget'a dokunun.</p>
-<h2 id="boyutlar">Boyutlar</h2>
-<p>Widget'lar bir ya da iki hücre genişliğinde, bir ya da iki hücre yüksekliğindedir. Tek istisna <strong>eğilim</strong> widget'ıdır, o her zaman en az iki hücre genişliğindedir. Üç sütunlu panoda iki hücrelik gösterge satırın üçte ikisini kaplar. En önemli parametreniz için genellikle en uygun boyut budur.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-dashboard-editing"><span>Önceki</span><b>Panoyu düzenleme</b></a><a class="pn-n" href="/tr/help/mobile-metric-detail"><span>Sonraki</span><b>Parametre ayrıntıları</b></a></nav>
-      <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-17.</p>
+      <p class="stamp">Cora Max 0.28.79 ve Cora Mobile 0.5.80 için yazılmıştır. Son kontrol: 2026-09-17.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>

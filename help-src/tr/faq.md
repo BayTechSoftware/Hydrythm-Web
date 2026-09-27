@@ -218,7 +218,7 @@ Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
 ### Uyarı telefonuma geldi ama Cora Max'te çıkmadı ya da tersi oldu, neden?
 
-Her uygulamanın ve her Cora Max'in kendi bildirim ayarları vardır. Birinde açık olan bir kategori diğerinde kapalı olabilir. İkisinde de **Ayarlar → Bildirimler**'e bakın.
+Cora Mobile'daki **Ayarlar → Bildirimler** anahtarları hesabınıza aittir ve oturum açtığınız her telefonda geçerlidir. Cora Max'te bildirim anahtarı yoktur. Cora Max her uyarıyı duvarda gösterir, o ekranda ertelediğiniz ya da kapattığınız uyarılar hariç. Telefonunuza bir şey gelmiyorsa kategorinin açık olduğunu ve telefonunuzun Cora'dan bildirimlere izin verdiğini kontrol edin.
 
 Ayrıntılar [Bildirimler](/help/mobile-notifications) ve [Cora Max'te uyarılar](/help/max-alerts) sayfalarında.
 

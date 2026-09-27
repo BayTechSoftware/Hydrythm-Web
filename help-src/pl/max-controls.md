@@ -59,6 +59,6 @@ Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice).
 
 ## Co się stało
 
-Każde żądanie jest zapisywane razem ze źródłem (Cora Mobile, ekran Cora, głos, Asystent, reguła automatyzacji, inteligentny przycisk albo Twoje konto) i drogą, którą przeszło. Na telefonie znajdziesz je w **Ustawienia → Aktywność**.
+Każde żądanie jest zapisywane razem ze źródłem (Cora Mobile, ekran Cora, głos, Asystent, reguła automatyzacji, inteligentny przycisk albo Twoje konto) i drogą, którą przeszło. Na Cora Max dotknij nazwy akwarium na górnym pasku i wybierz **Aktywność**. Na telefonie znajdziesz je w **Ustawienia → Aktywność**.
 
 Tu najpierw zajrzyj, gdy coś się zmieniło i nie wiesz dlaczego.

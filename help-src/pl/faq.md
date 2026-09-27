@@ -218,7 +218,7 @@ Więcej: [Alerty i progi](/help/mobile-alerts)
 
 ### Dlaczego alert pojawił się na telefonie, a na Cora Max nie (albo odwrotnie)?
 
-Cora Mobile i każdy Cora Max mają własne ustawienia powiadomień. Kategoria włączona w jednym miejscu może być wyłączona w drugim. Sprawdź **Ustawienia → Powiadomienia** na obu urządzeniach.
+Przełączniki w **Ustawienia → Powiadomienia** w Cora Mobile należą do Twojego konta i działają na każdym telefonie, na którym się logujesz. Cora Max nie ma przełączników powiadomień. Pokazuje każdy alert na ścianie, chyba że uśpisz go albo odrzucisz na tym ekranie. Jeśli telefon milczy, sprawdź, czy kategoria jest włączona i czy telefon pozwala Corze wysyłać powiadomienia.
 
 Więcej: [Powiadomienia](/help/mobile-notifications), [Alerty na Cora Max](/help/max-alerts)
 

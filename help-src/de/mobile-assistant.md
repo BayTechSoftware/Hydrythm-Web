@@ -69,17 +69,17 @@ Coras Rat bleibt ein Rat. Prüf alles Wichtige mit deinen eigenen Tests nach. Be
 ![Assistent-Einstellungen](img/mobile-assistant-settings.webp "Zustimmung, Gedächtnis, Sprache und Nutzungsgrenzen, unter Einstellungen.")
 
 :::note Was beim Löschen des Gedächtnisses verschwindet und was bleibt
-Beim Löschen entfernt Cora, was er sich *aus euren Gesprächen* gemerkt hat: sein Bild von deinem System, die Themen, die er im Blick hatte, und alle gespeicherten Sitzungen. Lässt sich ein Teil davon nicht entfernen, meldet Cora Mobile einen Fehler und keinen Erfolg.
+Beim Löschen entfernt Cora, was er sich *aus euren Gesprächen* über ein Becken gemerkt hat: sein Bild von deinem System, die Themen, die er im Blick hatte, und alle gespeicherten Sitzungen. Lässt sich ein Teil davon nicht entfernen, meldet Cora Mobile einen Fehler und keinen Erfolg.
 
 Deine **Beckendaten** bleiben unberührt. Messwerte, Tagebuch, Besatz, Wartung und Berichte gehören dir und bleiben genau so, wie sie sind. Der Assistent vergisst das Gespräch, nicht das Becken.
 :::
 
 Cora merkt sich von Gespräch zu Gespräch Dinge über dein Becken. Zum Beispiel, dass du mit zwei Komponenten dosierst, dass dein Fragbecken am selben Technikbecken hängt oder dass du die Nährstoffe anheben willst. So musst du dein System nicht jedes Mal neu erklären.
 
-Unter **Einstellungen → Cora Assistant → KI-Gedächtnis** siehst du, was Cora über dein Becken gespeichert hat, und kannst es zurücksetzen.
+Unter **Einstellungen → Cora Assistant → KI-Gedächtnis** siehst du, was Cora über dein Becken gespeichert hat, und kannst es zurücksetzen. Jedes Becken hat sein eigenes Gedächtnis, also wähle zuerst das Becken aus.
 
-:::warning Löschen entfernt nicht unbedingt alles
-Das Zurücksetzen löscht den Gedächtniseintrag, den du dort siehst. Daneben behält Cora während eines Gesprächs den laufenden Zusammenhang und ein längerfristiges Profil. Das Zurücksetzen erfasst das möglicherweise nicht ganz. Versteh es also als "Vergiss, was du mir hier zeigst" und nicht als garantierte Löschung von allem, was Cora je abgeleitet hat.
+:::warning Deine letzten Nachrichten bleiben
+Das Zurücksetzen löscht nicht die Nachrichten, die du mit Cora ausgetauscht hast. Etwa eine halbe Stunde lang sieht Cora die letzten davon noch, wenn du weiterredest.
 :::
 
 ## Nutzung

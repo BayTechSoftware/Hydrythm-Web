@@ -69,17 +69,17 @@ Quello di Cora è un consiglio e basta. Verifica le cose importanti con i tuoi t
 ![Impostazioni dell'Assistant](img/mobile-assistant-settings.webp "Consenso, memoria, voce e limiti di utilizzo, sotto Impostazioni.")
 
 :::note Cosa cancella l'azzeramento della memoria
-L'azzeramento cancella quello che Cora ricorda *delle vostre conversazioni*: il profilo che si è fatta del tuo impianto, le questioni che stava seguendo e tutte le sessioni salvate. Se una parte non si riesce a cancellare, Cora Mobile ti dice che l'operazione non è riuscita.
+L'azzeramento cancella quello che Cora ricorda *delle vostre conversazioni* su una vasca: il profilo che si è fatta del tuo impianto, le questioni che stava seguendo e tutte le sessioni salvate. Se una parte non si riesce a cancellare, Cora Mobile ti dice che l'operazione non è riuscita.
 
 I tuoi **dati della vasca** restano come sono: letture, diario, popolazione, manutenzione e rapporti sono tuoi. L'Assistant dimentica le conversazioni, non la vasca.
 :::
 
 Cora ricorda alcune cose sulla tua vasca da una conversazione all'altra: che dosi a due componenti, che la vasca frag condivide la sump, che stai cercando di alzare i nutrienti. Così non devi rispiegare il tuo impianto ogni volta.
 
-In **Impostazioni → Cora Assistant → Memoria IA** vedi cosa ha registrato Cora sulla tua vasca e puoi azzerarlo.
+In **Impostazioni → Cora Assistant → Memoria IA** vedi cosa ha registrato Cora sulla tua vasca e puoi azzerarlo. Ogni vasca ha la sua memoria, quindi scegli prima la vasca.
 
-:::warning L'azzeramento potrebbe non cancellare tutto
-L'azzeramento cancella la memoria che vedi. Cora tiene anche un contesto di lavoro durante una conversazione e un profilo a lungo termine, che l'azzeramento potrebbe non coprire del tutto. Pensalo come un "dimentica quello che mi stai mostrando", non come la cancellazione garantita di tutto ciò che Cora ha dedotto.
+:::warning I messaggi recenti restano
+L'azzeramento non cancella i messaggi della conversazione con Cora. Per circa mezz'ora, se riprendi a parlare, Cora vede ancora gli ultimi.
 :::
 
 ## Utilizzo

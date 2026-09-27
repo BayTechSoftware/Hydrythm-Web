@@ -38,8 +38,8 @@ El porcentaje de arriba muestra cuánto del perfil has rellenado. Cuanto más co
 
 | Sección | Qué incluye |
 |---|---|
-| Nombre y tipo de acuario | Cómo se llama el acuario, de qué tipo es y cuánto tiempo lleva montado |
-| Dimensiones del acuario | Tamaño físico y volumen total de agua |
+| Nombre y tipo de acuario | Cómo se llama el acuario y de qué tipo es |
+| Dimensiones del acuario | Tamaño físico, volumen total de agua y fecha de inicio del acuario |
 | Dosificación | Qué dosificas y cómo |
 | Gestión del agua | Cambios de agua, rellenado, salinidad objetivo |
 | Fauna | Qué vive en el acuario y cuánta carga tiene |
@@ -66,7 +66,7 @@ Si pones un volumen un 20% más alto, las dosis recomendadas salen un 20% más a
 
 ## Antigüedad del acuario
 
-Indica la fecha en que montaste el acuario. Cora compara las lecturas con lo normal para un acuario de esa edad. Un sistema de tres meses y otro de cinco años no se evalúan igual. Si el acuario todavía está en ciclado, indícalo.
+Indica la **Fecha de inicio del acuario** en **Dimensiones del acuario**. Cora compara las lecturas con lo normal para un acuario de esa edad. Un sistema de tres meses y otro de cinco años no se evalúan igual. Si el acuario todavía está en ciclado, inicia el ciclado guiado desde la tarjeta **¿Estás empezando un acuario nuevo?** del panel.
 
 ## Mantén el perfil al día
 

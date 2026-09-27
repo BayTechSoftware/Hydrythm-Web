@@ -69,17 +69,17 @@ Los consejos de Cora son solo eso, consejos. Comprueba lo importante con tus pro
 ![Ajustes del asistente](img/mobile-assistant-settings.webp "Consentimiento, memoria, voz y límites de uso, en Ajustes.")
 
 :::note Qué borra la memoria y qué no
-Al borrarla, desaparece lo que Cora recuerda *de tus conversaciones*: su perfil de tu sistema, los temas que estaba siguiendo y todas las sesiones guardadas. Si alguna parte no se puede eliminar, Cora Mobile te dirá que ha fallado y no dará el borrado por hecho.
+Al borrarla, desaparece lo que Cora recuerda *de tus conversaciones* sobre un acuario: su perfil de tu sistema, los temas que estaba siguiendo y todas las sesiones guardadas. Si alguna parte no se puede eliminar, Cora Mobile te dirá que ha fallado y no dará el borrado por hecho.
 
 Tus **datos del acuario** no se tocan. Lecturas, diario, fauna, mantenimiento e informes son tuyos y se quedan igual. El Asistente olvida la conversación, no el acuario.
 :::
 
 Cora recuerda cosas de tu acuario de una conversación a otra. Por ejemplo, que dosificas en dos partes, que tu acuario de esquejes comparte sump o que intentas subir los nutrientes. Así no tienes que explicarle tu sistema cada vez.
 
-En **Ajustes → Cora Assistant → Memoria de IA** ves lo que Cora ha guardado sobre tu acuario y puedes restablecerlo.
+En **Ajustes → Cora Assistant → Memoria de IA** ves lo que Cora ha guardado sobre tu acuario y puedes restablecerlo. Cada acuario tiene su propia memoria, así que elige primero el acuario.
 
-:::warning Borrar la memoria no siempre lo elimina todo
-El restablecimiento borra el registro de memoria que ves. Cora también usa contexto durante la conversación y un perfil a más largo plazo que el restablecimiento puede no borrar del todo. Piensa en él como "olvida lo que me estás enseñando", no como un borrado completo de todo lo que Cora haya deducido.
+:::warning Tus mensajes recientes se quedan
+El restablecimiento no borra los mensajes que has intercambiado con Cora. Durante una media hora, si sigues hablando, Cora todavía ve los últimos.
 :::
 
 ## Uso

@@ -152,7 +152,7 @@ The snooze lasts as long as the alert rule's **Cooldown between alerts**, which 
 
 ### Why did I get an alert on my phone but not on Cora Max, or vice versa?
 
-Your phone and each Cora Max have their own notification settings, so a category can be on for one and off for the other. Check **Settings → Notifications** on both. See [Notifications](/help/mobile-notifications) and [Alerts on Cora Max](/help/max-alerts).
+The switches in Cora Mobile's **Settings → Notifications** belong to your account, so they apply to every phone you're signed in on. Cora Max has no notification switches. It shows every alert at the wall, unless you've snoozed or dismissed it on that screen. If your phone stays silent, check that the category is switched on and that your phone allows notifications from Cora. See [Notifications](/help/mobile-notifications) and [Alerts on Cora Max](/help/max-alerts).
 
 ## Reef Buddy and Cora Assistant
 

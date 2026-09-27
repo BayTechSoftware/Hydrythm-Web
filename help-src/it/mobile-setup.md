@@ -44,7 +44,7 @@ La configurazione guidata ti chiede queste cose, e puoi cambiarle tutte più ava
 La configurazione guidata finisce qui. Tutto il resto (popolazione, attrezzatura, dosaggio, obiettivi, illuminazione, movimento) lo completi dopo, con calma, dal [profilo della vasca](/help/mobile-tank-profile).
 
 :::note L'età della vasca conta nella valutazione
-Cora valuta le letture in base a quello che è normale per una vasca dell'età che hai indicato. Se la vasca sta facendo il ciclo, indicalo.
+Cora valuta le letture in base a quello che è normale per una vasca di quell'età. La configurazione guidata non la chiede. Imposta la **Data di avvio della vasca** nel profilo della vasca, sotto **Dimensioni vasca**. Se la vasca sta ancora facendo il ciclo, tocca **Stai avviando una nuova vasca?** sulla dashboard per attivare il ciclo guidato.
 :::
 
 ## Collegare l'attrezzatura

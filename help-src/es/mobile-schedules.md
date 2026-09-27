@@ -61,9 +61,9 @@ Cuando tu teléfono no está en la red de la bomba, Cora Mobile trabaja a travé
 
 A una bomba Bluetooth solo se llega desde un teléfono que esté cerca. Acércate para cambiarle el modo, cambiar su horario o usar cualquiera de esas opciones.
 
-## Aplicar un programa preparado
+## Aplicar un programa
 
-También puedes darle a una bomba un programa ya preparado en un solo paso, sin crear los periodos a mano.
+Puedes darle a una bomba un horario guardado en un solo paso, sin volver a crear los periodos. Abre la bomba, toca **Más** arriba y elige **Horarios guardados…**. La lista incluye todos los horarios guardados en este acuario, también los que creaste en otra bomba. Elige uno y toca **Aplicar**. Sustituye el día completo de la bomba.
 
 ## Comprobar que se ha aplicado
 

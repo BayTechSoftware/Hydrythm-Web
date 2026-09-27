@@ -44,7 +44,7 @@ The setup wizard asks for three things. You can change all of them later in your
 That's the whole wizard. You fill in the rest later from [your tank profile](/help/mobile-tank-profile), whenever it suits you. That covers livestock, equipment, dosing, targets, lighting and flow.
 
 :::note Tank age changes how readings are judged
-Cora judges readings against what's normal for a tank of the age you enter. If your tank is still cycling, say so.
+Cora judges readings against what's normal for a tank of that age. The wizard doesn't ask for it. Set **Tank start date** in your tank profile, under **Tank Dimensions**. If your tank is still cycling, tap **Starting a new tank?** on the dashboard to turn on guided cycling.
 :::
 
 ## Connect your equipment

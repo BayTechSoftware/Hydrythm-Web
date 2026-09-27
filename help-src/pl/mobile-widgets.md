@@ -31,7 +31,7 @@ Ostatnie cztery to kafelki **urządzeń**. Są powiązane z konkretnym sprzętem
 
 ## Rozmiar
 
-**Szerokość** i **Wysokość** mają wartość **1×** albo **2×**. Wykres nigdy nie ma szerokości jednej komórki.
+**Szerokość** i **Wysokość** mają wartość **1×** albo **2×**, więc widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres nigdy nie ma szerokości jednej komórki. Na pulpicie z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. Zwykle to dobry kształt dla najważniejszego parametru.
 
 ## Wartość
 
@@ -105,7 +105,3 @@ Widżet oparty na zmierzonym parametrze (Wartość, Wskaźnik, Wykres i Stan) za
 - **Źródło**: mały znaczek, który mówi, skąd pochodzi liczba
 
 Dotknij widżetu, żeby zobaczyć pełną historię, wszystkie źródła tego parametru i obowiązujące progi.
-
-## Rozmiary
-
-Widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wyjątkiem jest **wykres**, który ma zawsze co najmniej dwie komórki szerokości. Na pulpicie z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. Zwykle to dobry kształt dla najważniejszego parametru.
