@@ -1,93 +1,93 @@
 ---
 title: Fare domande a Cora
-description: Come usare Cora Assistant: scrivere, la voce, cosa può vedere, e cosa può cambiare.
+description: Come usare Cora Assistant, per iscritto o a voce, cosa vede e cosa può cambiare.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 23
 group: Intelligence
 ---
 
-Cora Assistant risponde a domande sulla tua vasca in linguaggio semplice. Poiché può vedere le tue letture in tempo reale, il tuo storico e i tuoi risultati di laboratorio, risponde sulla *tua* vasca invece che sui reef in generale.
+Cora Assistant risponde alle domande sulla tua vasca con parole semplici. Vede le letture in tempo reale, lo storico e i risultati di laboratorio, quindi parla della *tua* vasca e non dei reef in generale.
 
-Aprilo dalla scheda **Assistente**.
+Lo trovi nella scheda **Assistente**.
 
 ![Cora Assistant](img/mobile-assistant.webp "Scegli una vasca, poi scrivi o parla.")
 
-## Scegli prima una vasca
+## Prima scegli una vasca
 
-Il selettore di vasca in alto decide di cosa sta parlando Cora. Tutto sotto di esso (le domande che scrivi, le risposte che ottieni) è limitato a quella vasca.
+Il selettore in alto decide di quale vasca si parla. Tutto quello che c'è sotto, domande e risposte, riguarda solo quella vasca.
 
 ## Scrivere
 
-Scrivi nella casella in fondo e invia. Cose utili da chiedere:
+Scrivi nella casella in basso e invia. Qualche esempio:
 
 - *"Perché la mia alcalinità sta scendendo?"*
 - *"Cosa è cambiato dalla scorsa settimana?"*
-- *"Il mio calcio è dove dovrebbe essere per una vasca SPS?"*
+- *"Il calcio è al livello giusto per una vasca SPS?"*
 - *"Quando ho fatto l'ultimo cambio d'acqua?"*
-- *"Spegni lo skimmer per un'ora."*
+- *"Spegni lo schiumatoio per un'ora."*
 
 ## Parlare
 
-Tocca **Avvia conversazione vocale** per uno scambio in tempo reale. Cora ascolta, risponde ad alta voce, e continua ad ascoltare finché non la fermi. È l'opzione più semplice quando hai le mani bagnate.
+Tocca **Avvia conversazione vocale** per parlare con Cora in tempo reale. Cora ascolta, risponde a voce e continua ad ascoltare finché non la fermi. Con le mani bagnate è la cosa più comoda.
 
 ## Consenso
 
 ![Consenso dell'Assistant](img/mobile-assistant-consent.webp "Due permessi separati, e la memoria che Cora conserva.")
 
-**Impostazioni → Cora Assistant** contiene due interruttori indipendenti:
+In **Impostazioni → Cora Assistant** ci sono due interruttori separati:
 
-- **Consenti al Cora Assistant di usare i dati salvati della vasca**: Cora Assistant ha bisogno che sia attivo per risponderti. Se è disattivo, Cora mostra di nuovo la sua schermata di consenso prima del tuo prossimo messaggio o conversazione vocale. La schermata elenca cosa usa Cora Assistant e, sotto **Dove vanno i tuoi dati**, quale fornitore IA scrive le risposte. **Accetta e continua** riattiva l'interruttore e procede; **Non ora** non invia nulla e conserva quello che hai scritto.
-- **Contribuisci con dati anonimi della vasca**: vedi [I tuoi dati](/help/mobile-data-export).
+- **Consenti al Cora Assistant di usare i dati salvati della vasca**. Deve essere attivo perché Cora Assistant ti risponda. Se è spento, Cora ti mostra di nuovo la schermata del consenso prima del prossimo messaggio o della prossima conversazione vocale. La schermata elenca cosa usa Cora Assistant e, sotto **Dove vanno i tuoi dati**, quale fornitore di IA scrive le risposte. **Accetta e continua** riaccende l'interruttore e va avanti. **Non ora** non invia nulla e tiene quello che hai scritto.
+- **Contribuisci con dati anonimi della vasca**. Ne parliamo in [I tuoi dati](/help/mobile-data-export).
 
-## La lingua in cui risponde Cora
+## In che lingua risponde Cora
 
-Cora Assistant segue la tua **lingua dell'account**, l'unica lingua impostata per tutta la casa in **Impostazioni → Lingua**, non un'impostazione separata propria. Cambiala lì e Cora Assistant risponde, e parla, nella nuova lingua alla tua prossima conversazione. Vedi [Impostazioni](/help/mobile-settings).
+Cora Assistant usa la **lingua dell'account**, cioè la lingua unica di tutta la casa che imposti in **Impostazioni → Lingua**. Non ha un'impostazione separata. Se la cambi lì, dalla conversazione successiva Cora Assistant risponde e parla nella nuova lingua. Altri dettagli in [Impostazioni](/help/mobile-settings).
 
-## Cosa può vedere Cora
+## Cosa vede Cora
 
-Il chip sopra la casella dei messaggi, **Uso dei dati dal vivo della tua vasca**, ti dice cosa è compreso. Toccalo per vedere esattamente cosa sta leggendo Cora: valori attuali, quanto è vecchio ognuno, storico recente, il tuo diario, e i tuoi risultati ICP.
+L'etichetta sopra la casella dei messaggi, **Uso dei dati dal vivo della tua vasca**, ti dice quali dati usa. Toccala per vedere esattamente cosa sta leggendo Cora: valori attuali con la loro età, storico recente, diario e risultati ICP.
 
-Per una visione più lunga, Cora Assistant può guardare indietro fino a circa sei mesi di storico di un parametro, così puoi chiedere *"Confronta gli ultimi sei mesi del mio magnesio con il mio ultimo ICP."*
+Cora Assistant può guardare indietro fino a circa sei mesi di storico di un parametro. Puoi chiedere, per esempio, *"Confronta gli ultimi sei mesi del mio magnesio con l'ultimo ICP."*
 
-:::note Ti dice quando non sa qualcosa
-Cora riporta l'età delle letture che usa. Se la lettura di alcalinità più recente ha quattro giorni, la risposta lo dirà invece di presentare il valore come attuale.
+:::note Ti dice quando un dato è vecchio
+Cora indica quanto sono vecchie le letture che usa. Se l'ultima lettura di alcalinità ha quattro giorni, la risposta lo dice e non la presenta come attuale.
 :::
 
 ## Cosa può cambiare Cora
 
-Cora può agire sulla tua vasca oltre a parlarne: commutare una presa, avviare un'alimentazione, cambiare un'impostazione.
+Cora può anche agire sulla vasca: accendere o spegnere una presa, avviare l'alimentazione, cambiare un'impostazione.
 
-Qualsiasi cosa che riguarda il tuo equipaggiamento viene **confermata prima che accada**. Ti verrà mostrato esattamente cosa sta per cambiare e ti verrà chiesto di approvarlo. Cora non agisce su un'istruzione ambigua.
+Tutto quello che tocca la tua attrezzatura va **confermato prima**. Vedi esattamente cosa sta per cambiare e devi approvarlo. Se l'istruzione non è chiara, Cora non fa nulla.
 
-:::warning Consultivo, non autoritativo
-Il consiglio di Cora è esattamente quello. Verifica qualsiasi cosa importante con i tuoi propri test, e tratta i grandi cambiamenti come tratteresti il consiglio di chiunque altro; controllane la ragionevolezza prima di agire. La riga sotto la casella dei messaggi dice la stessa cosa.
+:::warning Un consiglio, non un ordine
+Quello di Cora è un consiglio e basta. Verifica le cose importanti con i tuoi test e valuta i cambiamenti grossi come faresti con il consiglio di chiunque altro, prima di agire. Lo dice anche la riga sotto la casella dei messaggi.
 :::
 
 ## Memoria
 
 ![Impostazioni dell'Assistant](img/mobile-assistant-settings.webp "Consenso, memoria, voce e limiti di utilizzo, sotto Impostazioni.")
 
-:::note Cosa tocca e cosa non tocca l'azzeramento della memoria
-Azzerare rimuove ciò che Cora ha ricordato *sulle tue conversazioni*: il suo profilo del tuo sistema, le preoccupazioni che stava seguendo, e ogni sessione memorizzata. Se qualche parte di questo non può essere rimossa, Cora Mobile ti dice che non è riuscita invece di segnalare un successo.
+:::note Cosa cancella l'azzeramento della memoria
+L'azzeramento cancella quello che Cora ricorda *delle vostre conversazioni*: il profilo che si è fatta del tuo impianto, le questioni che stava seguendo e tutte le sessioni salvate. Se una parte non si riesce a cancellare, Cora Mobile ti dice che l'operazione non è riuscita.
 
-Non tocca i tuoi **dati della vasca**: letture, diario, popolazione, manutenzione e rapporti sono tuoi e restano esattamente come sono. Azzerare la memoria fa dimenticare all'Assistant la conversazione, non la vasca.
+I tuoi **dati della vasca** restano come sono: letture, diario, popolazione, manutenzione e rapporti sono tuoi. L'Assistant dimentica le conversazioni, non la vasca.
 :::
 
-Cora ricorda cose sulla tua vasca tra una conversazione e l'altra: che dosi a due componenti, che la tua vasca frag condivide un sump, che stai cercando di alzare i nutrienti. È questo che ti evita di rispiegare il tuo sistema ogni volta.
+Cora ricorda alcune cose sulla tua vasca da una conversazione all'altra: che dosi a due componenti, che la vasca frag condivide la sump, che stai cercando di alzare i nutrienti. Così non devi rispiegare il tuo impianto ogni volta.
 
-**Impostazioni → Cora Assistant → Memoria IA** mostra cosa Cora ha registrato sulla tua vasca e ti permette di azzerarlo.
+In **Impostazioni → Cora Assistant → Memoria IA** vedi cosa ha registrato Cora sulla tua vasca e puoi azzerarlo.
 
-:::warning Azzerare la memoria non rimuove necessariamente tutto
-L'azzeramento cancella il registro di memoria che puoi vedere. Cora mantiene anche un contesto di lavoro durante una conversazione e un profilo a più lungo termine che l'azzeramento potrebbe non coprire completamente. Trattalo come "dimentica cosa mi stai mostrando", non come una cancellazione garantita di tutto ciò che è mai stato dedotto.
+:::warning L'azzeramento potrebbe non cancellare tutto
+L'azzeramento cancella la memoria che vedi. Cora tiene anche un contesto di lavoro durante una conversazione e un profilo a lungo termine, che l'azzeramento potrebbe non coprire del tutto. Pensalo come un "dimentica quello che mi stai mostrando", non come la cancellazione garantita di tutto ciò che Cora ha dedotto.
 :::
 
 ## Utilizzo
 
-Il tuo piano include una quota mensile di messaggi. Il conteggio sta sopra la casella dei messaggi. Le conversazioni vocali usano la stessa quota.
+Il tuo piano comprende un certo numero di messaggi al mese. Il conteggio è sopra la casella dei messaggi. Le conversazioni vocali consumano la stessa quota.
 
-## Se una risposta sembra sbagliata
+## Se una risposta ti sembra sbagliata
 
-Correggila nella conversazione; è la correzione più rapida e di solito viene mantenuta, anche se non è garantito che persista indefinitamente.
+Correggila direttamente nella conversazione. È il modo più rapido e di solito Cora se ne ricorda anche dopo, ma non è garantito per sempre.
 
-Se una risposta sembra sicuramente sbagliata, controlla prima il chip dei dati. Spesso la risposta è corretta rispetto ai dati che le sono stati dati, e il vero problema è una lettura obsoleta o una fonte assegnata alla vasca sbagliata.
+Se una risposta sembra sbagliata ma molto sicura, guarda prima l'etichetta dei dati. Spesso la risposta è giusta per i dati che Cora ha ricevuto, e il problema vero è una lettura vecchia o una fonte assegnata alla vasca sbagliata.

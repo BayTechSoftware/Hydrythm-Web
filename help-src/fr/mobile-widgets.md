@@ -1,15 +1,15 @@
 ---
 title: Référence des widgets
-description: Chaque type de widget dans Cora (valeur, jauge, graphique, état, prise et les tuiles d’appareil) et quand utiliser chacun.
+description: Tous les types de widgets de Cora (valeur, jauge, graphique, état, prise et tuiles d’appareil), et quand utiliser chacun.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 7
 group: Your dashboard
 ---
 
-Un widget est une tuile sur votre tableau de bord qui montre une chose. Cette page couvre chaque type et ce que vous pouvez configurer.
+Un widget est une tuile du tableau de bord qui affiche une seule information. Cette page présente chaque type et ses réglages.
 
-Ajoutez-les et disposez-les dans **[l’éditeur de tableau de bord](/help/mobile-dashboard-editing)** ; touchez un widget là pour ouvrir ses réglages.
+Vous ajoutez et placez les widgets dans **[l’éditeur de tableau de bord](/help/mobile-dashboard-editing)**. Dans l’éditeur, touchez un widget pour ouvrir ses réglages.
 
 ![Configurer un widget](img/mobile-widget-config.webp "Type, paramètre, puis largeur et hauteur.")
 
@@ -17,95 +17,95 @@ Ajoutez-les et disposez-les dans **[l’éditeur de tableau de bord](/help/mobil
 
 | Type | Affiche |
 |---|---|
-| **Valeur** | La mesure actuelle, son unité, son ancienneté et sa source |
-| **Jauge** | Un arc avec votre plage indiquée par bandes et un repère à la valeur |
-| **Graphique** | Une tendance sur une fenêtre que vous choisissez |
-| **État** | Un état en texte : en marche, à l’arrêt, fermé |
-| **Prise** | Une commande à trois positions : Auto, Éteint, Allumé |
-| **ReefBeat** | Une unité Red Sea, avec son propre résumé |
+| **Valeur** | La mesure actuelle, avec son unité, son âge et sa source |
+| **Jauge** | Un arc où figure votre plage, avec un curseur sur la valeur |
+| **Graphique** | Une tendance sur la période de votre choix |
+| **État** | Un état en toutes lettres : en marche, à l’arrêt, fermé |
+| **Prise** | Une commande à trois positions : Auto, Éteint, Allumé |
+| **ReefBeat** | Un appareil Red Sea, avec son propre résumé |
 | **Module Apex** | Un module Apex installé, comme un Trident ou un DŌS |
 | **Jecod** | Une pompe Jecod, avec son mode et son intensité |
-| **Maxspect** *(bêta)* | Une pompe de brassage, avec ses deux moteurs |
+| **Maxspect** *(bêta)* | Une pompe Gyre, avec ses deux moteurs |
 
-Les quatre derniers sont des tuiles d’**appareil** : elles sont liées à un équipement plutôt qu’à un paramètre, et chacune affiche ce que cette unité rapporte.
+Les quatre derniers sont des tuiles d’**appareil**. Elles sont liées à un équipement, pas à un paramètre, et chacune affiche ce que cet appareil transmet.
 
-## Dimensionnement
+## Taille
 
-**Largeur** et **Hauteur** sont chacune **1×** ou **2×**. Un graphique n’est jamais large d’une seule cellule.
+**Largeur** et **Hauteur** valent chacune **1×** ou **2×**. Un graphique ne fait jamais une seule case de large.
 
 ## Valeur
 
-Le chiffre simple. Mesure actuelle, son unité, son ancienneté et d’où elle vient.
+Le chiffre, tout simplement : la mesure actuelle, son unité, son âge et sa provenance.
 
-Utilisez-la pour les paramètres que vous vérifiez numériquement plutôt que par tendance : calcium, magnésium, nitrate.
+Choisissez-la pour les paramètres dont seul le chiffre vous intéresse : calcium, magnésium, nitrates.
 
-**Réglages :** étiquette, source, taille.
+Réglages : étiquette, source, taille.
 
 ## Jauge
 
-Un arc avec votre plage cible indiquée par bandes et un repère à la valeur actuelle. La couleur du repère vous dit où vous vous situez : dans la bande, en dérive, ou hors plage.
+Un arc où figure votre plage cible, avec un curseur sur la valeur actuelle. La couleur du curseur vous dit où vous en êtes : dans la plage, en train de dériver, ou dehors.
 
-Utilisez-la pour les paramètres que vous gérez activement : alcalinité, pH, salinité, température.
+Choisissez-la pour les paramètres que vous suivez de près : alcalinité, pH, salinité, température.
 
-**Réglages :** étiquette, source, plage (héritée des cibles de votre aquarium à moins que vous ne la remplaciez ici), taille.
+Réglages : étiquette, source, plage (reprise des cibles de votre aquarium, sauf si vous la changez ici), taille.
 
-:::note Dimensionnez les jauges à deux colonnes ou plus
-Sur une seule colonne, l’arc est trop petit pour être lu d’un coup d’œil ; utilisez un widget **valeur** à la place si l’espace est limité.
+:::note Donnez au moins deux colonnes à une jauge
+Sur une seule colonne, l’arc est trop petit pour être lu d’un coup d’œil. Si la place manque, prenez plutôt un widget **Valeur**.
 :::
 
 ## Graphique
 
-Une mini-courbe sur une fenêtre que vous choisissez, avec le haut et le bas marqués et la valeur actuelle indiquée.
+Une petite courbe sur la période de votre choix. Le plus haut et le plus bas y sont marqués, et la valeur actuelle est mise en avant.
 
-Pour un paramètre que vous testez (par Trident ou avec un test en kit), la ligne relie vos tests réels. Si la fenêtre ne contient qu’un seul test, la ligne part du test précédent, et aucun haut ni bas n’est marqué. Sans test dans la fenêtre, ou rien de plus tôt pour relier un test unique, la tuile affiche **Collecte en cours…** au lieu d’une ligne.
+Pour un paramètre que vous testez (avec un Trident ou un test en kit), la courbe relie vos vrais tests. Si la période ne contient qu’un test, la courbe part du test précédent, et aucun plus haut ni plus bas n’est marqué. S’il n’y a aucun test sur la période, ou aucun test plus ancien auquel relier un test isolé, la tuile affiche **Collecte en cours…** à la place de la courbe.
 
-Utilisez-la pour tout ce qui évolue : le pH au fil de la journée, la température pendant une vague de chaleur, l’alcalinité entre les dosages.
+Choisissez-le pour tout ce qui bouge : le pH au fil de la journée, la température pendant une canicule, l’alcalinité entre deux doses.
 
-**Réglages :** étiquette, source, **fenêtre temporelle** (1 heure, 6 heures, 24 heures, 7 jours, 30 jours, 1 an), taille.
+Réglages : étiquette, source, **période** (1 heure, 6 heures, 24 heures, 7 jours, 30 jours, 1 an), taille.
 
-Une tendance est toujours **large d’au moins deux cellules** ; une mini-courbe compressée dans une seule cellule ne vous dit rien, donc l’éditeur n’en créera pas une.
+Un graphique de tendance fait toujours **au moins deux cases de large**. Serrée dans une seule case, une courbe ne dit rien. L’éditeur ne le permet donc pas.
 
-:::note Choisissez la fenêtre selon le rythme
-Le pH varie sur un cycle quotidien, donc 24 heures vous montre la forme. L’alcalinité évolue sur des jours, donc 7 ou 30 vous en dit plus que 24 ne le fera jamais.
+:::note Choisissez la période selon le rythme du paramètre
+Le pH varie au fil de la journée. Sur 24 heures, vous voyez la forme de ce cycle. L’alcalinité évolue sur plusieurs jours. Sur 7 ou 30 jours, vous en apprendrez bien plus que sur 24 heures.
 :::
 
 ## État
 
-Du texte plutôt qu’un chiffre, pour les choses qui sont un état. En marche, à l’arrêt, ouvert, fermé, en train de nourrir.
+Du texte à la place d’un chiffre, pour ce qui est un état : en marche, à l’arrêt, ouvert, fermé, nourrissage en cours.
 
-**Réglages :** étiquette, source, taille.
+Réglages : étiquette, source, taille.
 
 ## Prise
 
-Un commutateur à trois positions pour une prise : **Auto**, **Éteint**, **Allumé**.
+Un interrupteur à trois positions pour une prise : **Auto**, **Éteint**, **Allumé**.
 
-- **Auto** rend la prise à ce qui la commande normalement : un programme, une règle, ou le contrôleur auquel elle appartient.
-- **Éteint** et **Allumé** sont des dérogations manuelles qui restent jusqu’à ce que vous les changiez à nouveau.
+- **Auto** rend la prise à ce qui la commande d’habitude : un programme, une règle ou son contrôleur.
+- **Éteint** et **Allumé** sont des forçages manuels. Ils restent en place jusqu’à ce que vous les changiez.
 
-**Réglages :** étiquette, quelle prise, taille.
+Réglages : étiquette, prise concernée, taille.
 
-:::warning Une dérogation manuelle n’expire pas
-Éteint signifie éteint jusqu’à ce que vous le remettiez sur Auto. Si vous éteignez une pompe de remontée pour travailler dans l’aquarium, remettez-la sur Auto une fois terminé ; Cora ne le fera pas pour vous.
+:::warning Un forçage manuel n’expire pas
+Éteint reste éteint tant que vous ne repassez pas sur Auto. Si vous coupez la pompe de remontée pour intervenir dans l’aquarium, remettez-la sur Auto quand vous avez fini. Cora ne le fera pas à votre place.
 :::
 
 ## ReefBeat
 
-Une tuile pour tout un équipement, montrant son propre résumé plutôt qu’un seul paramètre : l’état et le réservoir d’un ATO, les têtes d’une unité de dosage, les jours restants d’un rouleau de mat.
+Une tuile pour un appareil entier. Elle affiche son propre résumé, pas un paramètre unique : l’état et le réservoir d’un osmolateur, les têtes d’une unité de dosage, les jours restants d’un rouleau de mat.
 
-Quels appareils proposent une tuile dépend de ce que vous avez connecté. Voir **[Connecter votre équipement](/help/mobile-connections)**.
+Les appareils qui proposent une tuile dépendent de ce que vous avez connecté. Voir **[Connecter votre équipement](/help/mobile-connections)**.
 
-**Réglages :** étiquette, quel appareil, taille.
+Réglages : étiquette, appareil concerné, taille.
 
 ## Ce qu’affiche un widget de paramètre
 
-Sur un widget adossé à un paramètre mesuré (Valeur, Jauge, Graphique et État), trois choses sont toujours présentes. Les tuiles de prise et d’appareil affichent leur propre état à la place, car aucune mesure unique ne se trouve derrière elles :
+Un widget lié à un paramètre mesuré (Valeur, Jauge, Graphique et État) affiche toujours trois éléments. Les tuiles de prise et d’appareil affichent leur état à la place, car il n’y a pas une mesure unique derrière elles.
 
 - **La valeur**, en grand
-- **L’ancienneté** (`now`, `1h`, `2d`) : depuis combien de temps date la mesure, pas depuis quand l’écran s’est actualisé
-- **La source** : un petit badge disant d’où vient le chiffre
+- **L’âge** (`maintenant`, `1 h`, `2 j`) : l’ancienneté de la mesure, pas celle du dernier rafraîchissement de l’écran
+- **La source** : un petit badge qui indique d’où vient le chiffre
 
-Touchez n’importe quel widget pour ouvrir son historique complet, chaque source qui le rapporte, et les seuils en vigueur.
+Touchez un widget pour ouvrir tout son historique, toutes les sources qui mesurent ce paramètre et les seuils en vigueur.
 
 ## Tailles
 
-Les widgets sont larges d’une ou deux cellules et hauts d’une ou deux cellules, sauf une **tendance**, qui est toujours large d’au moins deux. Sur un tableau de bord à trois colonnes, une jauge large de deux prend les deux tiers de la ligne, ce qui est généralement la bonne forme pour votre paramètre le plus important.
+Un widget fait une ou deux cases de large, et une ou deux cases de haut. Seule exception, un graphique de **tendance** fait toujours au moins deux cases de large. Sur un tableau de bord à trois colonnes, une jauge de deux cases prend les deux tiers de la ligne. C’est souvent le bon format pour votre paramètre le plus important.

@@ -1,39 +1,39 @@
 ---
 title: Compartir tu acuario
-description: Genera una tarjeta lista para compartir con el estado actual de tu acuario.
+description: Crea una tarjeta con el estado actual de tu acuario, lista para compartir.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 27
 group: Your dashboard
 ---
 
-Cora puede generar una **instantánea del acuario**: una sola tarjeta con los parámetros actuales de tu acuario, con un formato pensado para compartir.
+Cora puede crear una **instantánea del acuario**. Es una tarjeta con los parámetros actuales de tu acuario, preparada para compartirla.
 
-## Crear una
+## Crear una instantánea
 
-Toca el icono de **compartir** en la cabecera del acuario en el panel. Cora genera la tarjeta y muestra una vista previa antes de enviar nada.
+En el panel, toca el icono de **compartir** en la cabecera del acuario. Cora crea la tarjeta y te enseña una vista previa antes de enviar nada.
 
 ![La hoja de instantánea del acuario](img/mobile-sharing.webp "Elige qué parámetros aparecen, y la forma de la tarjeta.")
 
-## Qué contiene
+## Qué incluye
 
-La tarjeta lleva el nombre de tu acuario, su antigüedad, su tipo y el número de ejemplares, y después los parámetros que elegiste, cada uno con su valor actual y una tendencia reciente.
+La tarjeta muestra el nombre, la antigüedad y el tipo de tu acuario, y cuántos ejemplares tiene. Debajo aparecen los parámetros que elegiste, cada uno con su valor actual y su tendencia reciente.
 
 ## Elegir qué aparece
 
-**Parámetros en la tarjeta** lista como chip cada parámetro que sigue el acuario. Marca los que quieras incluir, o usa **Seleccionar todo**. Se lee mejor con tres o cuatro; a partir de ahí la tarjeta queda apretada.
+En **Parámetros en la tarjeta** aparece como etiqueta cada parámetro que sigue el acuario. Marca los que quieras o toca **Seleccionar todo**. Con tres o cuatro se lee mejor. Si pones más, la tarjeta queda muy cargada.
 
-## Forma
+## Formato
 
-Dos formatos:
+Hay dos formatos:
 
 - **Cuadrado (1:1)**: para una publicación o un mensaje
 - **Historia (9:16)**: para una historia a pantalla completa
 
 ## Enviarla
 
-**Compartir** entrega la tarjeta a la hoja de compartir normal de tu teléfono, así que puede ir a cualquier sitio al que tu teléfono pueda enviar una imagen. Nada sale de tu cuenta hasta que elijas un destino.
+**Compartir** abre el menú de compartir de tu teléfono, así que puedes mandar la tarjeta a cualquier sitio al que tu teléfono envíe imágenes. No sale nada de tu cuenta hasta que eliges un destino.
 
-:::note Una instantánea no es acceso
-Compartir una instantánea no le da a nadie acceso a tu cuenta, tu historial ni tu equipo. Para que alguien cuide el acuario mientras estás fuera, usa [Irse de viaje](/help/mobile-vacation), que genera una página de solo lectura.
+:::note Compartir una instantánea no da acceso
+Una instantánea no da a nadie acceso a tu cuenta, tu historial ni tus equipos. Si alguien va a cuidar el acuario mientras estás fuera, usa [Irse de viaje](/help/mobile-vacation). Ahí se crea una página de solo lectura.
 :::

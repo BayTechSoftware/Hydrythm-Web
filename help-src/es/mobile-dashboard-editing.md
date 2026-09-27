@@ -1,88 +1,88 @@
 ---
 title: Editar tu panel
-description: Fija el número de columnas, añade y ordena widgets, cambia el tamaño de las casillas y guarda diseños que puedas reutilizar entre acuarios.
+description: Elige cuántas columnas quieres, añade y ordena widgets, cambia el tamaño de las casillas y guarda diseños para usarlos en otros acuarios.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 6
 group: Your dashboard
 ---
 
-El editor de panel controla qué widgets aparecen en el panel de un acuario y cómo se ordenan.
+En el editor decides qué widgets salen en el panel de un acuario y en qué orden.
 
 ## Abrir el editor
 
-Desplázate hasta el final del panel y toca **Editar panel**.
+Baja hasta el final del panel y toca **Editar panel**.
 
-:::note El lápiz junto al nombre del acuario es otra pantalla
-Eso abre **Editar acuario**: el perfil del acuario, que cubre volumen, fauna, dosificación y equipo. Consulta [El perfil de tu acuario](/help/mobile-tank-profile).
+:::note El lápiz junto al nombre del acuario abre otra pantalla
+Ese lápiz abre **Editar acuario**, es decir, el perfil del acuario con el volumen, la fauna, la dosificación y el equipo. Más información en [El perfil de tu acuario](/help/mobile-tank-profile).
 :::
 
-![El editor de panel](img/mobile-edit.webp "Cada casilla muestra su nombre y tipo. Toca una cruz roja para eliminarla.")
+![El editor de panel](img/mobile-edit.webp "Cada casilla muestra su nombre y su tipo. Toca la cruz roja para quitarla.")
 
-## Fijar el número de columnas
+## Elegir el número de columnas
 
-Elige **2**, **3** o **4** columnas en la parte superior del editor. La cuadrícula crece hacia abajo a medida que añades widgets, y el panel se desplaza.
+Arriba del editor, elige **2**, **3** o **4** columnas. La cuadrícula crece hacia abajo cuando añades widgets, y el panel se desplaza.
 
-| Columnas | Úsalo cuando |
+| Columnas | Cuándo usarlas |
 |---|---|
-| 2 | Sigues un número pequeño de parámetros y quieres casillas grandes |
-| 3 | Predeterminado. Adecuado para la mayoría de acuarios |
-| 4 | Quieres una vista densa, o usas un teléfono grande |
+| 2 | Sigues pocos parámetros y quieres casillas grandes |
+| 3 | Es la opción predeterminada y va bien en la mayoría de acuarios |
+| 4 | Quieres ver mucho de un vistazo o tienes un teléfono grande |
 
 ## Añadir un widget
 
 1. Toca **+** en el editor.
-2. Elige qué muestra el widget: un parámetro, un dispositivo o una toma.
-3. Elige el tipo de widget. Consulta [Referencia de widgets](/help/mobile-widgets).
+2. Elige qué va a mostrar el widget: un parámetro, un dispositivo o una toma.
+3. Elige el tipo de widget. Los tienes todos en [Tipos de widget](/help/mobile-widgets).
 
-Solo se ofrecen las fuentes que existen en el acuario. Un parámetro sin fuente aparece en cuanto conectas un equipo que lo reporta o registras una lectura a mano.
+Solo aparecen las fuentes que tiene el acuario. Un parámetro sin fuente aparece cuando conectas un equipo que lo mide o cuando registras una lectura a mano.
 
 ## Ordenar widgets
 
-- **Para mover un widget**, mantenlo pulsado y luego arrástralo. Los demás widgets se reorganizan a su alrededor.
-- **Para eliminar un widget**, toca la cruz roja en su esquina.
-- **Para cambiar los ajustes de un widget**, tócalo.
+- **Para mover un widget**, mantenlo pulsado y arrástralo. Los demás se recolocan a su alrededor.
+- **Para quitar un widget**, toca la cruz roja de su esquina.
+- **Para cambiar sus ajustes**, tócalo.
 
 ## Cambiar el tamaño
 
-Un widget ocupa una o dos columnas y una o dos filas. Fija el tamaño en los ajustes del widget.
+Un widget ocupa una o dos columnas y una o dos filas. El tamaño se elige en los ajustes del widget.
 
-Un widget de **tendencia** siempre ocupa al menos dos columnas de ancho.
+Un widget de **tendencia** siempre ocupa como mínimo dos columnas.
 
 ## Ajustes del widget
 
-Según el tipo de widget, puedes fijar:
+Según el tipo de widget, puedes cambiar lo siguiente.
 
-| Ajuste | Se aplica a |
+| Ajuste | Para qué widgets |
 |---|---|
-| Etiqueta | Todos los tipos |
-| Fuente | Cualquier parámetro que reporte más de una cosa |
+| Etiqueta | Todos |
+| Fuente | Parámetros que llegan de más de un equipo |
 | Ventana de tiempo | Tendencia: 1 hora, 6 horas, 24 horas, 7 días, 30 días, 1 año |
-| Rango | Medidor: heredado de los umbrales del acuario a menos que se anule aquí |
-| Tamaño | Todos los tipos |
+| Rango | Medidor. Usa los umbrales del acuario salvo que pongas otro aquí |
+| Tamaño | Todos |
 
 ## Guardar
 
-Toca **Guardar** para aplicar el diseño, o el icono de cierre para descartar tus cambios.
+Toca **Guardar** para aplicar el diseño. Si quieres descartar los cambios, toca el icono de cerrar.
 
 ## Mis paneles
 
-Un diseño que te gusta se puede guardar y reutilizar. **Mis paneles → Guardar este diseño**, y luego dale un nombre. Puedes guardar hasta **30**.
+Si te gusta un diseño, puedes guardarlo para usarlo otra vez. Ve a **Mis paneles → Guardar este diseño** y ponle un nombre. Puedes guardar hasta **30**.
 
-Un diseño guardado se puede cargar en otro acuario, o en una pantalla Cora Max.
+Puedes cargar un diseño guardado en otro acuario o en una pantalla Cora Max.
 
-:::note Las casillas que el destino no puede completar se listan antes de confirmar
-Cargar un diseño conserva solo las casillas que el destino puede completar de verdad. Todo lo demás se descarta y se lista para ti en **Se quedan fuera** antes de confirmar, cada una con su motivo: el acuario nunca ha reportado ese parámetro, no hay ninguna toma con ese nombre, el dispositivo ReefBeat o el módulo Apex no está vinculado a este acuario, o la cuadrícula se quedó sin espacio.
+:::note Antes de confirmar, ves qué casillas no se pueden cargar
+Al cargar un diseño, solo se quedan las casillas que el destino puede rellenar de verdad. El resto se quita. Antes de confirmar, lo ves en **Se quedan fuera**, cada casilla con su motivo. Puede que el acuario nunca haya enviado ese dato, que no haya ninguna toma con ese nombre, que el dispositivo ReefBeat o el módulo Apex no esté vinculado a este acuario o que no quepa en la cuadrícula.
 :::
 
-## Restaurar un diseño anterior
+## Volver a un diseño anterior
 
-Un diseño guardado es cómo vuelves a un diseño que te gustó. Guarda uno mientras el panel está organizado como quieres, y podrás volver a aplicarlo más tarde.
+Para volver a un diseño que te gustaba, usa un diseño guardado. Guárdalo cuando el panel esté como quieres y podrás aplicarlo de nuevo más adelante.
 
-Es una **restauración, no un deshacer**: eliges el diseño de la lista, lo confirmas, y sustituye al diseño actual, descartando también cualquier casilla que el acuario no pueda completar. Trae de vuelta el diseño que guardaste, no el estado anterior a tu última edición.
+Esto **restaura un diseño, no deshace cambios**. Eliges el diseño en la lista, confirmas y sustituye al actual. Las casillas que el acuario no puede rellenar también se quitan. Recuperas el diseño que guardaste, no cómo estaba el panel antes de tu último cambio.
 
-Las lecturas, el historial y las entradas del diario se guardan por separado del diseño, así que ninguna edición de un panel puede hacerlos desaparecer.
+Las lecturas, el historial y las entradas del diario se guardan aparte del diseño. Ningún cambio en el panel puede borrarlos.
 
 ## Editar el panel de Cora Max
 
-El panel de Cora Max se edita por separado: **Dispositivos → tu Cora Max → Editar panel**. Usa una cuadrícula fija en lugar de una que se desplaza. Consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
+El panel de Cora Max se edita aparte, en **Dispositivos → tu Cora Max → Editar panel**. Usa una cuadrícula fija que no se desplaza. Más información en [Editar el panel de Cora Max](/help/max-dashboard-editing).

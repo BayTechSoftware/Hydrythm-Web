@@ -1,64 +1,64 @@
 ---
 title: Prizler ve kontroller
-description: Cora Max'ten priz açıp kapatma, besleme modunu kullanma ve Otomatik'in gerçekte ne anlama geldiği.
+description: Cora Max'ten prizleri açıp kapatma, besleme modu ve Otomatik'in tam olarak ne yaptığı.
 section: Cora Max
 reviewed: 2026-09-09
 order: 5
 group: Equipment
 ---
 
-Cora Max, sisteminizdeki ekipmanı açıp kapatabilir: panodaki kontrol widget'larından, Prizler ve Besleme çekmecesinden veya sesle.
+Cora Max sisteminizdeki ekipmanı açıp kapatabilir. Bunu panodaki kontrol widget'larından, Prizler ve Besleme çekmecesinden ya da sesle yaparsınız.
 
-:::warning Bu kontroller akvaryumunuz üzerinde etkilidir
-Geri alma yoktur. Asma kilit işaretli prizler önce onay ister; diğerleri dokunduğunuz anda uygulanır. Bir komut **Onaylandı**, **Onaylanmadı** (gönderildi, hiçbir şey bildirilmedi), **Reddedildi** veya **Değişiklik yok** şeklinde geri dönebilir; bkz. [Ekipmanınızı kontrol etme](/help/mobile-device-control).
+:::warning Bu kontroller doğrudan akvaryumunuzu etkiler
+Geri alma yoktur. Asma kilitli prizler önce onay ister. Diğerleri dokunduğunuz anda değişir. Komutun sonucu **Onaylandı**, **Onaylanmadı** (komut gitti ama yanıt gelmedi), **Reddedildi** ya da **Değişiklik yok** olabilir. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 :::
 
 ## Üç durum
 
 Her priz üç durumdan birindedir.
 
-**Otomatik**, prizi Apex programlamasına döndürür. Bir prizin çoğu zaman bulunması gereken durum budur.
+**Otomatik**, prizi Apex programına geri verir. Bir priz çoğu zaman bu durumda olmalıdır.
 
-**Kapalı** ve **Açık**, elle yapılan geçersiz kılmalardır. Anında etkiye girerler ve **siz geri değiştirene kadar öyle kalırlar**. Süreleri dolmaz ve bunları sizin için kimse geri koymaz.
+**Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Hemen devreye girer ve **siz değiştirene kadar öyle kalırlar**. Süreleri dolmaz, kimse de sizin yerinize geri almaz.
 
-:::warning Elle yapılan bir geçersiz kılmanın süresi dolmaz
-İşiniz bitince onu tekrar **Otomatik**'e ayarlayın; bunu sizin için kimse yapmaz. Daha sonra siz, ses veya bir otomasyon tarafından yine değiştirilebilir; bir geçersiz kılma bir kilit değildir.
+:::warning Elle yaptığınız ayarın süresi dolmaz
+İşiniz bitince prizi yeniden **Otomatik**'e alın. Bunu sizin yerinize yapan bir şey yok. Bu ayar kilit de değildir. Daha sonra siz, sesli komut ya da bir otomasyon onu yine değiştirebilir.
 :::
 
 ## Panodan açıp kapatma
 
-Kontrol widget'ları üç durumu, geçerli olanı vurgulanmış şekilde gösterir. İstediğiniz duruma dokunun.
+Kontrol widget'larında üç durum yan yana durur, geçerli olan vurgulanır. İstediğiniz duruma dokunun.
 
-Bazı prizler bir **asma kilit** taşır. Bunun herhangi bir yerden kapatılması gerekmez; bu, prizin değişmeden önce onayınızı istediği anlamına gelir, böylece rastgele bir dokunuş kritik bir şeyi kapatamaz. Aşağıya bakın.
+Bazı prizlerde **asma kilit** vardır. Bu kilidi bir yerden kapatmanız gerekmez. Priz değişmeden önce sizden onay ister, o kadar. Böylece yanlışlıkla yapılan bir dokunuş önemli bir cihazı kapatamaz. Ayrıntılar aşağıda.
 
 ## Kontroller çekmecesi
 
-**Kontroller**'i açmak için panonun altındaki sekmeyi yukarı çekin: sistemdeki her priz, widget'ı olsun olmasın, artı besleme döngüleri, tek bir yerde.
+Panonun altındaki sekmeyi yukarı çekince **Kontroller** açılır. Sistemdeki tüm prizler, widget'ı olsun olmasın, burada bir arada durur. Besleme döngüleri de buradadır.
 
-![Kontroller çekmecesi](img/max-controls.webp "Üstte besleme döngüleri, ardından her priz.")
+![Kontroller çekmecesi](img/max-controls.webp "En üstte besleme döngüleri, altında tüm prizler.")
 
-**Asma kilit** taşıyan bir priz, değişmeden önce açık bir onay ister. Ona dokunmak, prizi, geçerli durumunu ve uygulamak üzere olduğunuz geçersiz kılmayı adlandıran bir iletişim kutusu açar. Bu bir onay adımıdır, başka bir yerden kapatılacak bir kilit değil.
+**Asma kilitli** bir priz değişmeden önce açıkça onay ister. Dokunduğunuzda bir pencere açılır. Pencerede prizin adı, şu anki durumu ve uygulamak üzere olduğunuz ayar yazar. Bu yalnızca bir onay adımıdır, başka yerden kapatılacak bir kilit değildir.
 
 ## Besleme modu
 
-Besleme modu, besleme için akışı duraklatmanın güvenli yoludur. Duraklatılması gereken ekipmanı duraklatır, duraklatılmaması gerekeni kendi haline bırakır ve süre dolduğunda **her şeyi kendisi geri koyar**.
+Yem verirken akışı güvenle durdurmak için besleme modunu kullanın. Durması gereken ekipmanı durdurur, gerisine dokunmaz. Süre dolunca da **her şeyi kendisi eski haline getirir**.
 
-Pompaları elle kapatmak yerine bunu kullanın, çünkü sistemi geri açmayı hatırlamanıza bağlı değildir.
+Pompaları elle kapatmaktan daha iyidir, çünkü sistemi yeniden açmayı hatırlamanız gerekmez.
 
-Besleme döngüleri **A**, **B**, **C** ve **D** olarak harflendirilir: kontrolcünüzün tanımladığı döngüler, her biri farklı bir ekipman grubunu duraklatır. Yaptığınıza uyanı seçin. **İptal**, çalışan bir döngüyü erken bitirir ve her şeyi anında geri getirir.
+Besleme döngülerinin adı **A**, **B**, **C** ve **D**'dir. Bunları kontrol cihazınız tanımlar ve her biri farklı bir ekipman grubunu durdurur. Yaptığınız işe uygun olanı seçin. **İptal** çalışan döngüyü erken bitirir ve her şeyi hemen eski haline getirir.
 
-Kontroller çekmecesinden bir döngü başlatın veya *"besleme modunu başlat"* deyin.
+Döngüyü Kontroller çekmecesinden başlatın ya da *"besleme modunu başlat"* deyin.
 
 ## Sesle
 
-Prizleri sesle açıp kapatabilirsiniz: *"skimmer'ı kapat"*, *"fanı yeniden otomatiğe al"*.
+Prizleri sesle de açıp kapatabilirsiniz: *"skimmer'ı kapat"*, *"fanı yeniden otomatiğe al"*.
 
-Ekipmanınıza ulaşan her şey **gerçekleşmeden önce onaylanır**: Cora ne yapmak üzere olduğunu söyler ve onaylamanızı bekler. Emin olmadığı bir talimata göre hareket etmez.
+Ekipmanınıza giden her komut **uygulanmadan önce onaylanır**. Cora ne yapacağını söyler ve sizin onayınızı bekler. Emin olmadığı bir komutu uygulamaz.
 
-Bkz. **[Cora ile konuşma](/help/max-voice)**.
+Sesli komutların ayrıntıları **[Cora ile konuşma](/help/max-voice)** sayfasında.
 
 ## Ne olduğunu görme
 
-Her istek, bunu kimin istediğiyle (bu uygulama, bir Cora ekranı, ses, Assistant, bir otomasyon kuralı, akıllı bir düğme veya hesabınız) ve nasıl ilerlediğiyle birlikte kaydedilir. Telefonunuzda bu **Ayarlar → Etkinlik**'tir.
+Her istek kaydedilir. Kayıtta isteği kimin verdiği (Cora Mobile, bir Cora ekranı, sesli komut, Assistant, bir otomasyon kuralı, akıllı düğme ya da hesabınız) ve komutun hangi yoldan gittiği yazar. Telefonunuzda bunu **Ayarlar → Etkinlik** altında bulursunuz.
 
-Bir şey değiştiğinde ve nedenini bilmiyorsanız, bakılacak ilk yer burasıdır.
+Bir şey değiştiyse ve nedenini bilmiyorsanız ilk bakacağınız yer burasıdır.

@@ -1,49 +1,49 @@
 ---
 title: Hilfe erhalten
-description: Melde ein Problem aus Cora Mobile heraus, und was dabei mitgeschickt wird.
+description: So meldest du ein Problem direkt aus Cora Mobile, und das wird dabei mitgeschickt.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Ein Problem aus Cora Mobile heraus zu melden ist nützlicher, als es nachträglich zu beschreiben, weil Cora Mobile die Details anhängen kann, die schwer zu merken sind.
+Meldest du ein Problem direkt aus Cora Mobile, hilft das mehr, als es später zu beschreiben. Cora Mobile hängt nämlich Details an, die man sich schlecht merken kann.
 
 **Einstellungen → Fehler melden / Feedback senden.**
 
-## Was du eingibst
+## Was du ausfüllst
 
-Das Formular fragt zwei Dinge: **welche Art von Sache es ist**, damit der Bericht am richtigen Ort ankommt, und **was passiert ist**, in deinen eigenen Worten.
+Das Formular fragt nach zwei Dingen. Zuerst, **worum es geht**, damit dein Bericht bei der richtigen Stelle landet. Dann, **was passiert ist**, in deinen eigenen Worten.
 
-Sei konkret darüber, was du erwartet hast und was du statt dessen gesehen hast. "Alkalinität zeigte im Dashboard 2 Tage alt an, obwohl der Apex einwandfrei gemeldet hat" ist mehr wert als "Messwerte kaputt".
+Beschreib genau, was du erwartet hast und was du stattdessen gesehen hast. "Die Alkalinität war auf dem Dashboard 2 Tage alt, obwohl der Apex ganz normal Werte geliefert hat" hilft uns viel mehr als "Messwerte kaputt".
 
 ## Was automatisch angehängt wird
 
-Eine kurze Kontextzeile geht mit jedem Bericht mit, und das Formular zeigt sie dir, bevor du sendest:
+Jeder Bericht bekommt eine kurze Zeile mit Zusatzinfos. Das Formular zeigt sie dir vor dem Senden:
 
 - die **App-Version**
-- deine **Plattform** und OS-Version
-- der **Bildschirm**, auf dem du warst, als du das Formular geöffnet hast
+- deine **Plattform** und die Version des Betriebssystems
+- den **Bildschirm**, auf dem du warst, als du das Formular geöffnet hast
 
-Das ist es, was aus "hat nicht funktioniert" etwas Reproduzierbares macht. Es wird angezeigt statt versteckt, daher wird nichts gesendet, das du nicht gesehen hast.
+Damit lässt sich ein "hat nicht geklappt" nachstellen. Die Zeile ist sichtbar und nicht versteckt. Es wird also nichts gesendet, was du nicht gesehen hast.
 
 ## Screenshots
 
-**Screenshot anhängen** fügt dem Bericht ein Bild hinzu, und **Screenshot entfernen** nimmt es vor dem Senden wieder heraus.
+Mit **Screenshot anhängen** fügst du dem Bericht ein Bild hinzu. Mit **Screenshot entfernen** nimmst du es vor dem Senden wieder heraus.
 
-:::warning Ein Screenshot ist für den Cora-Support sichtbar
-Cora Mobile sagt das über der Steuerung. Prüfe das Bild, bevor du es anhängst; ein Dashboard-Screenshot trägt deine Beckennamen und Messwerte, und alles andere, was zu diesem Zeitpunkt auf dem Bildschirm war.
+:::warning Den Screenshot sieht der Cora-Support
+Das steht auch in Cora Mobile über der Schaltfläche. Schau dir das Bild vor dem Anhängen an. Ein Screenshot vom Dashboard zeigt deine Beckennamen und Messwerte und alles andere, was in dem Moment auf dem Bildschirm war.
 :::
 
-:::note Warum es im Sitter-Modus keine Screenshot-Steuerung gibt
-Wenn du das Becken einer anderen Person über einen geteilten Link betrachtest, wird die Screenshot-Option nicht angeboten. Ein dann aufgenommener Screenshot würde *deren* Daten an *dein* Support-Ticket anhängen, und sie würden nie sehen, dass es passiert ist.
+:::note Warum es im Sitter-Modus keine Screenshots gibt
+Schaust du dir über einen geteilten Link das Becken von jemand anderem an, bietet Cora Mobile keine Screenshots an. Ein Screenshot würde sonst *deren* Daten an *dein* Support-Ticket hängen, und sie würden nie davon erfahren.
 :::
 
 ## Automatische Absturzberichte
 
-**Absturzberichte senden**, neben der Fehlerbericht-Zeile, ist dasselbe Versprechen, gemacht, ohne dass du merken musst, dass etwas kaputt ist, und es aufschreiben musst: Wenn Cora Mobile abstürzt, meldet es den Absturz von selbst. Siehe [Einstellungen](/help/mobile-settings).
+**Absturzberichte senden** steht neben der Zeile für Fehlerberichte. Der Schalter dient demselben Zweck, nur musst du nicht selbst merken, dass etwas kaputt ist, und es aufschreiben. Stürzt Cora Mobile ab, meldet es den Absturz von selbst. Mehr dazu unter [Einstellungen](/help/mobile-settings).
 
-## Anderswo
+## Andere Wege
 
-- Fragen zu deinem eigenen Becken sind meist über **[Cora Assistant](/help/mobile-assistant)** schneller, der deine Messwerte sehen kann.
-- Etwas verhält sich nicht wie beschrieben: zuerst **[Problembehebung](/help/troubleshooting)**.
+- Fragen zu deinem eigenen Becken beantwortet dir meist **[Cora Assistant](/help/mobile-assistant)** schneller, denn er sieht deine Messwerte.
+- Verhält sich etwas anders als beschrieben, schau zuerst in die **[Problembehebung](/help/troubleshooting)**.

@@ -1,46 +1,46 @@
 ---
 title: Probes
-description: Map your controller's probes to Cora parameters, and record calibration and cleaning.
+description: Match your controller's probes to Cora parameters, and log calibration and cleaning.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 13
 group: Equipment
 ---
 
-A controller reports probes by its own names. Probe mapping tells Cora which of those is your pH probe, which is temperature, and so on.
+Your controller gives its probes its own names. Probe mapping tells Cora which one is your pH probe, which one is temperature, and so on.
 
 ## Mapping probes
 
-Open your **tank profile** (the pencil at the top of the dashboard), expand your controller's section, and choose **Probe Mapping**.
+Open your **tank profile** (the pencil at the top of the dashboard), expand your controller's section and choose **Probe Mapping**.
 
 ![Probe mapping](img/mobile-probes.webp "Each probe your controller reports, its live reading, and what Cora is doing with it.")
 
-Every probe your controller reports is listed with its current reading. Cora auto-detects the standard names, and the row shows which one it matched, so the job here is usually to correct the ones it could not place rather than to map all of them by hand.
+You'll see every probe your controller reports, with its current reading. Cora recognises the standard names on its own, and each row shows what it matched. Usually you only need to fix the few it couldn't place.
 
-Each row offers three choices:
+Each row gives you three choices.
 
-- **A Cora parameter**: the metric that probe measures.
-- **Custom**: for a probe Cora has no standard parameter for. You give it a short upper-case token, and it is tracked under that name.
-- **Ignore**: for probes you do not want recorded at all.
+- **A Cora parameter** is the metric that probe measures.
+- **Custom** is for a probe Cora has no standard parameter for. Give it a short upper-case name, and Cora tracks it under that name.
+- **Ignore** is for probes you don't want recorded at all.
 
-An ignored or unmapped probe will not appear on a dashboard and will not feed alerts.
+An ignored or unmapped probe won't show on a dashboard and won't trigger alerts.
 
-Mappings take effect when readings are next recorded, so a correction here does not rewrite history; it changes what is stored from that point on. Press **Save** to apply them.
+A mapping starts working the next time readings come in. Fixing one here doesn't rewrite history. It only changes what gets saved from then on. Tap **Save** to apply your changes.
 
-:::warning An unmapped probe is invisible to Cora
-If a parameter shows no readings although the probe is working, check the mapping before anything else.
+:::warning Cora can't see an unmapped probe
+If a parameter shows no readings but the probe is working, check the mapping first.
 :::
 
 ## Multiple probes for one parameter
 
-A system with two temperature probes can map both. Cora keeps them as separate sources; the widget's source setting decides which one a tile follows, and [the parameter view](/help/mobile-metric-detail) lets you compare them.
+If you have two temperature probes, you can map both. Cora keeps them as separate sources. The widget's source setting decides which one a tile follows, and you can compare them in [the parameter view](/help/mobile-metric-detail).
 
 ## Recording probe care
 
-Probes drift. Cora can track when each was last calibrated or cleaned, so you can tell a real change from a probe that needs attention.
+Probes drift. Cora can keep track of when you last calibrated or cleaned each one. That helps you tell a real change from a probe that needs attention.
 
-Record calibration or cleaning from the probe's entry. It also fits well as a recurring [maintenance task](/help/mobile-maintenance).
+Log a calibration or cleaning from the probe's entry. It also works well as a recurring [maintenance task](/help/mobile-maintenance).
 
-:::note Calibration history explains disagreements
-When a probe and a test kit disagree, the date the probe was last calibrated is usually the first thing worth checking.
+:::note Calibration dates explain disagreements
+When a probe and a test kit disagree, check when you last calibrated the probe. That's usually the answer.
 :::

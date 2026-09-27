@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fauna | Cora Help</title>
-  <meta name="description" content="Mantén un registro de lo que hay en el acuario, cuándo llegó y qué le pasó.">
+  <meta name="description" content="Lleva un registro de lo que vive en el acuario, cuándo llegó y qué fue de cada ejemplar.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-livestock">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-livestock">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-livestock">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Fauna | Cora Help">
-  <meta property="og:description" content="Mantén un registro de lo que hay en el acuario, cuándo llegó y qué le pasó.">
+  <meta property="og:description" content="Lleva un registro de lo que vive en el acuario, cuándo llegó y qué fue de cada ejemplar.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-livestock">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,25 +168,25 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Fauna</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#el-resumen">El resumen</a></li><li><a href="#aadir-algo">Añadir algo</a></li><li><a href="#qu-le-pas">Qué le pasó</a></li><li><a href="#la-fauna-y-el-resto-de-cora">La fauna y el resto de Cora</a></li></ul></nav>
-<p>Fauna registra lo que contiene el acuario (corales, peces e invertebrados) junto con cuándo se añadió cada ejemplar y su estado actual. Ábrela desde la fila de accesos directos en la parte inferior del panel.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El inventario de fauna"><img src="/help/img/mobile-livestock.webp" alt="El inventario de fauna" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Resumen del inventario y pérdidas recientes, con las entradas agrupadas por tipo.</figcaption></figure>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#el-resumen">El resumen</a></li><li><a href="#aadir-un-ejemplar">Añadir un ejemplar</a></li><li><a href="#qu-fue-de-cada-ejemplar">Qué fue de cada ejemplar</a></li><li><a href="#la-fauna-y-el-resto-de-cora">La fauna y el resto de Cora</a></li></ul></nav>
+<p>En Fauna apuntas lo que vive en el acuario (corales, peces e invertebrados), cuándo llegó cada ejemplar y cómo está ahora. Se abre desde la fila de accesos directos, al final del panel.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El inventario de fauna"><img src="/help/img/mobile-livestock.webp" alt="El inventario de fauna" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>El resumen del inventario y las pérdidas recientes, con los ejemplares agrupados por tipo.</figcaption></figure>
 <h2 id="el-resumen">El resumen</h2>
-<p>En la parte superior:</p>
-<ul><li><strong>Resumen del inventario</strong>: totales por categoría amplia, como corales, peces e invertebrados</li><li><strong>Pérdidas</strong>: cuántas entradas se han marcado como perdidas en los últimos 90 días</li></ul>
-<p>Las entradas se agrupan por tipo (coral SPS, coral LPS, coral blando, peces y así sucesivamente), cada una con su cantidad y la fecha en que se añadió.</p>
-<p><strong>Mostrar perdidos</strong> en la barra superior incluye ejemplares que ya no están en el acuario.</p>
-<h2 id="aadir-algo">Añadir algo</h2>
-<p>Cada entrada lleva:</p>
-<ul><li><strong>Nombre</strong>: cómo lo llamas</li><li><strong>Tipo</strong>: coral SPS, coral LPS, coral blando, pez, invertebrado, anémona u otro</li><li><strong>Especie</strong>: opcional, si la conoces</li><li><strong>Cantidad</strong>: para un grupo, como un cardumen o un paquete de fragmentos</li><li><strong>Fecha añadido</strong>: por defecto, hoy</li><li><strong>Notas</strong>: proveedor, ubicación, coste o cualquier otro detalle que quieras guardar</li></ul>
-<h2 id="qu-le-pas">Qué le pasó</h2>
-<p>Cada entrada lleva un estado:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Estado</th><th>Significa</th></tr></thead><tbody><tr><td data-th="Estado"><strong>Vivo</strong></td><td data-th="Significa">Todavía en el acuario</td></tr><tr><td data-th="Estado"><strong>Perdido</strong></td><td data-th="Significa">Murió</td></tr><tr><td data-th="Estado"><strong>Fragmentado</strong></td><td data-th="Significa">Cortado; la colonia continúa</td></tr><tr><td data-th="Estado"><strong>Vendido</strong></td><td data-th="Significa">Fue a parar a otra persona</td></tr><tr><td data-th="Estado"><strong>Trasladado</strong></td><td data-th="Significa">En otro de tus acuarios</td></tr></tbody></table></div>
-<p>Marcar un ejemplar como <strong>perdido</strong> registra la fecha y, opcionalmente, un motivo. Registrar las pérdidas de forma constante es lo que hace visibles los patrones más adelante: pérdidas concentradas en una zona del acuario, o que siguen a un evento concreto.</p>
-<aside class="cal cal-note"><p class="cal-t">"Desconocido" es un motivo de pérdida válido</p><p>Registra la fecha aunque no se conozca la causa. La fecha es lo que respalda la comparación posterior.</p></aside>
+<p>Arriba verás dos datos.</p>
+<ul><li><strong>Resumen del inventario</strong> muestra los totales por grandes grupos, como corales, peces e invertebrados.</li><li><strong>Pérdidas</strong> indica cuántos ejemplares has marcado como perdidos en los últimos 90 días.</li></ul>
+<p>Los ejemplares se agrupan por tipo (coral SPS, coral LPS, coral blando, peces, etc.). Cada uno muestra su cantidad y la fecha en que llegó.</p>
+<p>Con <strong>Mostrar perdidos</strong>, en la barra de arriba, ves también los ejemplares que ya no están en el acuario.</p>
+<h2 id="aadir-un-ejemplar">Añadir un ejemplar</h2>
+<p>Cada ejemplar tiene estos campos.</p>
+<ul><li><strong>Nombre</strong>, el que tú le das</li><li><strong>Tipo</strong>, que puede ser coral SPS, coral LPS, coral blando, pez, invertebrado, anémona u otro</li><li><strong>Especie</strong>, si la conoces (es opcional)</li><li><strong>Cantidad</strong>, para grupos como un banco de peces o un lote de esquejes</li><li><strong>Fecha de llegada</strong>, que por defecto es hoy</li><li><strong>Notas</strong>, para la tienda, la ubicación, el precio o cualquier otro detalle</li></ul>
+<h2 id="qu-fue-de-cada-ejemplar">Qué fue de cada ejemplar</h2>
+<p>Cada ejemplar tiene un estado.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Estado</th><th>Qué significa</th></tr></thead><tbody><tr><td data-th="Estado"><strong>Vivo</strong></td><td data-th="Qué significa">Sigue en el acuario</td></tr><tr><td data-th="Estado"><strong>Perdido</strong></td><td data-th="Qué significa">Murió</td></tr><tr><td data-th="Estado"><strong>Fragmentado</strong></td><td data-th="Qué significa">Se cortó en esquejes y la colonia sigue</td></tr><tr><td data-th="Estado"><strong>Vendido</strong></td><td data-th="Qué significa">Ahora lo tiene otra persona</td></tr><tr><td data-th="Estado"><strong>Trasladado</strong></td><td data-th="Qué significa">Está en otro de tus acuarios</td></tr></tbody></table></div>
+<p>Al marcar un ejemplar como <strong>perdido</strong>, se guarda la fecha y, si quieres, un motivo. Si apuntas todas las pérdidas, más adelante verás patrones, como pérdidas en una misma zona del acuario o después de algo concreto.</p>
+<aside class="cal cal-note"><p class="cal-t">"Desconocido" también vale como motivo</p><p>Apunta la fecha aunque no sepas la causa. Con la fecha podrás comparar más adelante.</p></aside>
 <h2 id="la-fauna-y-el-resto-de-cora">La fauna y el resto de Cora</h2>
-<p>Tu carga de fauna forma parte de aquello frente a lo que se evalúan tus parámetros; un sistema SPS muy poblado y un acuario de corales blandos poco poblado no se juzgan con el mismo criterio.</p>
-<p>También puedes preguntar por ella. <em>"¿Cuándo añadí el coral martillo?"</em> o <em>"¿Qué he perdido este año?"</em> se responden a partir de este registro.</p>
+<p>Cora evalúa tus parámetros teniendo en cuenta cuánta fauna tienes. Un sistema SPS muy poblado y un acuario de corales blandos con poca carga no se juzgan igual.</p>
+<p>También puedes preguntar por tu fauna. Cora responde a preguntas como <em>"¿Cuándo añadí el coral martillo?"</em> o <em>"¿Qué he perdido este año?"</em> con este registro.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-maintenance"><span>Anterior</span><b>Mantenimiento</b></a><a class="pn-n" href="/es/help/mobile-journal"><span>Siguiente</span><b>El diario</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-09.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

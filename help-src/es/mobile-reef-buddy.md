@@ -1,84 +1,84 @@
 ---
 title: Reef Buddy
-description: Tu resumen diario: qué cubre, cuándo llega y cómo leer la puntuación.
+description: Tu resumen diario. Qué incluye, cuándo llega y cómo leer las puntuaciones.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 24
 group: Intelligence
 ---
 
-Reef Buddy es una lectura diaria breve de tu acuario. Llega cada mañana, te dice qué cambió y señala cualquier cosa que merezca tu atención antes de que la notes tú mismo.
+Reef Buddy te da cada mañana un breve repaso de tu acuario. Te cuenta qué ha cambiado y te avisa de lo que merece tu atención antes de que lo notes tú.
 
-Aparece como una tarjeta en la parte superior de tu panel, y como una notificación.
+Lo verás como una tarjeta en la parte superior del panel y como una notificación.
 
-![Un resumen de Reef Buddy](img/mobile-reefbuddy.webp "Puntuaciones de Estabilidad y Datos, un resumen, y luego los análisis que hay detrás.")
+![Un resumen de Reef Buddy](img/mobile-reefbuddy.webp "Las puntuaciones de Estabilidad y Datos, un resumen y después los análisis en los que se basan.")
 
-## Qué contiene un resumen
+## Qué incluye un resumen
 
-**Un titular**: un resumen de una línea del acuario hoy.
+Un **titular**, que resume en una línea cómo está hoy el acuario.
 
-**Dos puntuaciones:**
+Dos **puntuaciones**:
 
-| Puntuación | Significa |
+| Puntuación | Qué indica |
 |---|---|
-| **Estabilidad** | Sobre 100. Cuán constantes han sido tus lecturas en los últimos 30 días |
-| **Datos** | Un porcentaje. Cuán completos son los datos detrás de la evaluación |
+| **Estabilidad** | Sobre 100. Lo constantes que han sido tus lecturas en los últimos 30 días |
+| **Datos** | Un porcentaje. Lo completos que son los datos en los que se basa la evaluación |
 
-Una puntuación de Datos baja significa que la evaluación se apoya en menos lecturas de las que le gustaría. Léela primero: cuando Datos es baja, trata el número de Estabilidad junto a ella como provisional en lugar de definitivo.
+Si la puntuación de Datos es baja, la evaluación se apoya en menos lecturas de las necesarias. Mírala primero. Con Datos bajo, toma la Estabilidad que aparece al lado como algo provisional.
 
-**Un resumen**: un párrafo breve que explica el titular, con referencia a tus valores y rangos reales.
+Un **resumen**, un párrafo corto que explica el titular con tus valores y rangos reales.
 
-**Análisis**: los hallazgos individuales. Cada uno lleva una categoría (como *Química del agua*), una frecuencia (como *Diaria*), y se despliega para más detalle. Un chip en la parte superior de la sección muestra el tipo de acuario y cuán completo está su perfil, porque ambos afectan a lo que Cora puede concluir.
+Los **análisis**, cada uno de los hallazgos por separado. Cada análisis tiene una categoría (por ejemplo *Química del agua*) y una frecuencia (por ejemplo *Diaria*), y puedes desplegarlo para ver más. Arriba de la sección hay un chip con el tipo de acuario y lo completo que está su perfil. Las dos cosas influyen en lo que Cora puede concluir.
 
-Los análisis se filtran antes de llegar a ti. Un análisis tiene que sostenerse a lo largo de varias lecturas en lugar de aparecer en una sola, y tiene que decir algo que un solo gráfico no te hubiera mostrado ya.
+Los análisis pasan un filtro antes de llegarte. Tienen que repetirse en varias lecturas, no basta con una. Y tienen que contarte algo que no verías ya en un simple gráfico.
 
-Toca la tarjeta en el panel para abrir el resumen completo.
+Toca la tarjeta del panel para abrir el resumen completo.
 
 ## Cuándo llega
 
-Una vez al día, a primera hora de la mañana, por acuario.
+Una vez al día, a primera hora de la mañana, para cada acuario.
 
-En un día en el que nada necesita tu atención, Reef Buddy normalmente se mantiene en silencio en lugar de avisarte para decir que todo va bien. **Un aviso significa que hay algo que merece la pena atender**, que puede ser un cambio nuevo, o una condición que ha persistido lo suficiente como para merecer mención.
+Si ese día no hay nada que requiera tu atención, Reef Buddy normalmente no te envía nada para decirte que todo va bien. **Si recibes un aviso, es que hay algo que atender.** Puede ser un cambio nuevo o una situación que ya dura lo bastante como para comentarla.
 
-:::note Un acuario, un resumen
-Cada acuario recibe su propio resumen. Si tienes tres sistemas, obtienes tres, y cada uno trata solo de ese sistema.
+:::note Un resumen por acuario
+Cada acuario tiene su propio resumen. Si tienes tres sistemas, recibes tres, y cada uno habla solo de su sistema.
 :::
 
 :::note Cora Max tiene su propio ajuste de Reef Buddy
-Una tableta Cora Max tiene su propia sección de **Reef Buddy** en sus Ajustes, con un interruptor y una hora para cuándo aparece su resumen en pantalla. Eso es independiente del teléfono: activar o desactivar un resumen en Cora Max no cambia si llega a tu teléfono, y al revés tampoco.
+Cora Max tiene una sección **Reef Buddy** en sus Ajustes, con un interruptor y la hora a la que el resumen aparece en su pantalla. Es independiente del teléfono. Si activas o desactivas el resumen en Cora Max, no cambia lo que llega a tu teléfono, ni al revés.
 :::
 
-## Leer las puntuaciones
+## Cómo leer las puntuaciones
 
-**Estabilidad** refleja cuán constantes han sido tus lecturas en los últimos 30 días. Mide la constancia, no si las lecturas están en rango: un acuario mantenido de forma constante en el nivel equivocado puede seguir puntuando bien. Para una puntuación frente a tus rangos objetivo, ejecuta un [Informe de salud](/help/mobile-icp-health). Estabilidad es una tendencia que observar con el tiempo más que una nota; compárala con tus propias puntuaciones anteriores, no con las de otro acuario.
+**Estabilidad** indica lo constantes que han sido tus lecturas en los últimos 30 días. Mide la constancia, no si las lecturas están dentro de rango. Un acuario que se mantiene siempre en un nivel equivocado puede puntuar bien. Si quieres una puntuación frente a tus rangos objetivo, genera un [Informe de salud](/help/mobile-icp-health). La Estabilidad sirve para ver cómo evoluciona con el tiempo, no es una nota. Compárala con tus puntuaciones anteriores, no con las de otro acuario.
 
-**Datos** refleja cuánta información reciente tuvo la evaluación. Baja cuando las lecturas se quedan desactualizadas.
+**Datos** indica cuánta información reciente tenía la evaluación. Baja cuando las lecturas se quedan antiguas.
 
-:::note Una puntuación de Datos que baja suele significar que las lecturas se han quedado desactualizadas
-Si no se ha probado nada en una semana, la puntuación de Datos baja y la puntuación de Estabilidad se vuelve menos fiable. Registra lecturas para restaurar ambas.
+:::note Si Datos baja, suele ser porque faltan lecturas recientes
+Si no has medido nada en una semana, la puntuación de Datos baja y la de Estabilidad se vuelve menos fiable. Registra lecturas y las dos se recuperan.
 :::
 
-## Descartar la tarjeta
+## Cerrar la tarjeta
 
-La **×** cierra la tarjeta de hoy en el panel. La de mañana sigue llegando. Los resúmenes anteriores siguen disponibles en la pestaña **Inteligencia**.
+La **×** quita la tarjeta de hoy del panel. La de mañana llegará igual. Los resúmenes anteriores siguen en la pestaña **Inteligencia**.
 
 ## Disponibilidad
 
-Reef Buddy forma parte de los niveles de pago. Está incluido en la prueba de 30 días que empieza cuando te registras; después de la prueba, una cuenta gratuita ya no recibe resúmenes. Consulta [Planes](/help/mobile-plans).
+Reef Buddy está en los planes de pago. Lo tienes durante la prueba de 30 días que empieza al registrarte. Cuando acaba la prueba, una cuenta gratuita deja de recibir resúmenes. Más información en [Planes](/help/mobile-plans).
 
-## Corregir un análisis
+## Responder a un análisis
 
-Cada análisis admite una de cuatro respuestas:
+Puedes responder a cada análisis de cuatro formas:
 
-| Respuesta | Significa |
+| Respuesta | Qué quiere decir |
 |---|---|
-| **Confirmado** | Fue correcto, y útil |
+| **Confirmado** | Era correcto y te ha servido |
 | **No coincide** | No refleja lo que estás viendo |
-| **Ya lo sabía** | Correcto, pero ya lo sabías |
-| **No estoy seguro** | Todavía no puedes juzgarlo |
+| **Ya lo sabía** | Era correcto, pero ya lo sabías |
+| **No estoy seguro** | Todavía no puedes valorarlo |
 
-Los comentarios dan forma a lo que aparece en resúmenes posteriores, y la supresión es **limitada en el tiempo**; un análisis que descartas vuelve si la condición persiste.
+Tus respuestas influyen en lo que aparece primero en los resúmenes siguientes. Cuando descartas un análisis, se oculta **solo durante un tiempo**. Si la situación continúa, vuelve a aparecer.
 
-:::note Los hallazgos graves nunca se suprimen
-Solo los análisis de menor gravedad se pueden silenciar con comentarios. Los análisis de advertencia y críticos siguen apareciendo sin importar cómo hayas respondido a ellos antes.
+:::note Los hallazgos graves no se ocultan nunca
+Tus respuestas solo pueden silenciar los análisis menos graves. Los de advertencia y los críticos siguen apareciendo, respondieras lo que respondieras antes.
 :::

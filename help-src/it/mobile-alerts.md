@@ -1,119 +1,117 @@
 ---
 title: Avvisi e soglie
-description: Imposta l'intervallo per ogni parametro, scegli di cosa vuoi essere informato, e capisci perché è scattato un avviso.
+description: Imposta l'intervallo di ogni parametro, scegli quali avvisi ricevere e capisci perché ne è scattato uno.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 15
 group: Alerts and automation
 ---
 
-Un avviso viene generato quando una lettura esce dall'intervallo che hai impostato per essa. Imposti tu gli intervalli, e controlli tu quali avvisi arrivano al tuo telefono.
+Un avviso scatta quando una lettura esce dall'intervallo che hai impostato. Gli intervalli li decidi tu, e sei sempre tu a scegliere quali avvisi arrivano sul telefono.
 
-Apri il **Centro avvisi** dalla riga di scorciatoie in fondo alla dashboard.
+Il **Centro avvisi** si apre dalla riga di scorciatoie in fondo alla dashboard.
 
 ![Il Centro avvisi](img/mobile-alerts.webp "Avvisi attivi, ciascuno con la sua gravità, cosa lo ha attivato, e quando.")
 
 ## Il Centro avvisi
 
-Due schede:
+Ha due schede:
 
-- **Attivi**: avvisi attualmente generati, con un badge del conteggio
-- **Regole**: le soglie e le regole di velocità di variazione che li producono
+- **Attivi**: gli avvisi in corso, con il numero sul badge
+- **Regole**: le soglie e le regole sulla velocità di variazione che li fanno scattare
 
-Ogni avviso attivo mostra il parametro e la vasca, la lettura che l'ha attivato, una spiegazione semplice, un chip di gravità, il tipo di regola che è scattata (**Soglia** o **Velocità di variazione**), e l'ora in cui è scattato.
+Per ogni avviso attivo vedi parametro e vasca, la lettura che l'ha fatto scattare, una spiegazione semplice, un'etichetta con la gravità, il tipo di regola (**Soglia** o **Velocità di variazione**) e l'ora.
 
-Due azioni su ciascuno:
+Su ogni avviso puoi fare due cose:
 
-- **Vedi la regola**: apre la regola che l'ha generato, così puoi correggere l'intervallo
-- **Spiega questo avviso**: chiede all'Assistente di interpretarlo rispetto allo storico della tua vasca
+- **Vedi la regola** apre la regola che l'ha fatto scattare, così puoi correggere l'intervallo
+- **Spiega questo avviso** chiede all'Assistente di leggerlo alla luce dello storico della tua vasca
 
 ## Impostare un intervallo
 
-I parametri che Cora può valutare hanno un intervallo obiettivo, e i valori predefiniti provengono dal tipo e dall'età della tua vasca quando l'hai configurata, di solito un buon punto di partenza. Un parametro senza un intervallo utilizzabile non viene valutato affatto: resta grigio neutro invece di essere indovinato.
+I parametri che Cora può valutare hanno un intervallo obiettivo. I valori predefiniti dipendono dal tipo e dall'età della vasca che hai indicato alla configurazione, e di solito sono un buon punto di partenza. Se un parametro non ha un intervallo utilizzabile, Cora non lo valuta: resta grigio e Cora non tira a indovinare.
 
-Per cambiarne uno: **tieni premuto il suo widget** sulla dashboard, che apre direttamente le soglie di quel parametro. Un tocco semplice apre invece la vista del parametro; i due gesti portano a posti diversi, e la pressione prolungata è la scorciatoia da ricordare.
+Per cambiarlo, **tieni premuto il widget** sulla dashboard: si aprono direttamente le soglie di quel parametro. Con un tocco normale apri invece la pagina del parametro. Sono due gesti diversi, e la pressione prolungata è la scorciatoia da ricordare.
 
-Se il parametro non ha ancora una regola, i campi partono dal valore predefinito di Cora, e una nota sotto di essi lo indica. Cambia qualsiasi valore per impostare il tuo.
+Se il parametro non ha ancora una regola, i campi partono dal valore predefinito di Cora e una nota sotto lo segnala. Cambia un valore qualsiasi per usare il tuo.
 
-Per vederli tutti insieme, usa **Avvisi** nella riga di pulsanti sotto la dashboard.
+Per vederli tutti insieme, tocca **Avvisi** nella riga di pulsanti sotto la dashboard.
 
 Puoi impostare:
 
-- **Un intervallo**: un minimo e un massimo, per cose come alcalinità o temperatura
-- **Un tetto**: solo un massimo, per cose dove basso va bene, come nitrati o fosfati
-- **Un minimo**: solo un valore basso
+- **Un intervallo**, con minimo e massimo, per esempio per alcalinità o temperatura
+- **Un tetto**, solo il massimo, per valori che possono stare bassi come nitrati o fosfati
+- **Un minimo**, solo il valore basso
 
-:::tip Imposta l'intervallo su cui la tua vasca funziona davvero
-I valori predefiniti sono un punto di partenza, non un giudizio. Una vasca a basso contenuto di nutrienti a 6 dKH non è "sbagliata" perché un grafico diceva 8-9. Imposta l'intervallo su cui funzioni davvero, e Cora ti dirà quando sei *tu* a derivare.
+:::tip Imposta l'intervallo in cui gira la tua vasca
+I valori predefiniti sono solo un punto di partenza. Una vasca a bassi nutrienti a 6 dKH non è "sbagliata" solo perché una tabella dice 8–9. Imposta l'intervallo in cui tieni davvero la vasca, e Cora ti avvisa quando sei *tu* a spostarti.
 :::
 
-## Cosa attiva un avviso
+## Quando scatta un avviso
 
-Un avviso scatta quando una lettura supera una soglia. Cora controlla ogni lettura non appena arriva, quindi una singola lettura fuori dal tuo intervallo è sufficiente per generarne uno.
+Un avviso scatta quando una lettura supera una soglia. Cora controlla ogni lettura appena arriva, quindi basta una sola lettura fuori intervallo.
 
-Una volta generato, un avviso non continuerà a notificarti sulla stessa cosa; c'è un'attesa prima che possa scattare di nuovo. E **si chiude da solo** nel momento in cui una lettura torna dentro l'intervallo; non c'è nulla da confermare.
+Una volta scattato, l'avviso non continua a notificarti per la stessa cosa: prima che possa scattare di nuovo passa un periodo di attesa. E **si chiude da solo** appena una lettura torna nell'intervallo. Non devi confermare niente.
 
-Puoi anche impostare una regola di **velocità di variazione**, che osserva quanto velocemente si muove un parametro invece di dove si trova attualmente. È quella da usare per le cose dove la velocità di un cambiamento conta più del numero.
+Puoi anche impostare una regola sulla **velocità di variazione**, che guarda quanto in fretta si muove un parametro e non il suo valore attuale. Usala quando conta più la velocità del cambiamento del numero in sé.
 
-## Dove appaiono gli avvisi
+## Dove compaiono gli avvisi
 
-- **La campana**, in alto a destra di ogni schermata, contiene il tuo storico. Il numero indica quanti non hai letto.
-- **Le notifiche push** arrivano al tuo telefono quando le consenti.
-- **Il widget** diventa ambra o rosso sulla dashboard.
+- **La campanella** in alto a destra in ogni schermata raccoglie lo storico. Il numero indica quanti non hai ancora letto.
+- **Le notifiche push** arrivano sul telefono, se le hai permesse.
+- **Il widget** sulla dashboard diventa ambra o rosso.
 - **Cora Max** mostra gli stessi avvisi sullo schermo grande.
 
-## Quando l'equipaggiamento ha bisogno di attenzione
+## Quando l'attrezzatura ha un problema
 
-Alcuni avvisi riguardano l'equipaggiamento invece di una lettura. Quando un dispositivo come un Trident o una pompa Jecod riporta un guasto, Cora invia una notifica che nomina la vasca e il dispositivo, per esempio *"Vasca Display: la pompa di risalita ha bisogno di attenzione"*, e dice cosa non va, come un rotore inceppato. Quando il guasto si risolve, ne segue una seconda: *"Vasca Display: la pompa di risalita è di nuovo a posto"*. Entrambe rientrano in **Guasti dell'apparecchiatura** in **Impostazioni → Notifiche**.
+Alcuni avvisi riguardano l'attrezzatura e non una lettura. Quando un dispositivo come un Trident o una pompa Jecod segnala un guasto, Cora ti manda una notifica con il nome della vasca e del dispositivo, per esempio *"Vasca Display: la pompa di risalita ha bisogno di attenzione"*, e ti dice cosa non va, come un rotore bloccato. Quando il guasto si risolve, arriva una seconda notifica: *"Vasca Display: la pompa di risalita è di nuovo a posto"*. Tutte e due rientrano in **Guasti dell'apparecchiatura** in **Impostazioni → Notifiche**.
 
-Una gyre Maxspect (beta) può generare lo stesso avviso quando un Cora Max sulla sua rete trova entrambe le teste impostate a 0%, oppure non ottiene risposta dalla gyre due volte di fila. Trattalo come un avvertimento, non come una garanzia: il Cora Max controlla di tanto in tanto invece che continuamente, e solo mentre è in funzione e può raggiungere la gyre.
+Una gyre Maxspect (beta) può dare lo stesso avviso quando un Cora Max sulla sua rete trova entrambe le teste impostate a 0% o quando la gyre non risponde per due volte di fila. Consideralo un avvertimento e non una protezione. Il Cora Max controlla ogni tanto e non di continuo, e solo quando è acceso e riesce a raggiungere la gyre.
 
 ## "Le letture Red Sea hanno smesso di aggiornarsi"
 
-Potresti vedere questo banner sulla pagina di un parametro di una vasca:
+Nella pagina di un parametro potresti vedere questo banner:
 
 > Le letture Red Sea hanno smesso di aggiornarsi. Nessun dispositivo sta attualmente leggendo i dispositivi Red Sea di questa vasca: controlla il Cora Max principale in Impostazioni, oppure apri questa vasca su un dispositivo sullo stesso Wi-Fi.
 
-Significa che nessun telefono o Cora Max sta attualmente interrogando l'equipaggiamento ReefBeat di quella vasca, quindi le letture mostrate sono vecchie, non necessariamente sbagliate. Tocca il banner per aprire **Cora Max principale** e scegli un dispositivo che è attivo, oppure impostalo su **Qualsiasi attivo (automatico)**. Vedi [Più di un dispositivo Cora](/help/mobile-multi-device). Se non si chiude, vedi [Risoluzione dei problemi](/help/troubleshooting).
+Vuol dire che al momento nessun telefono e nessun Cora Max sta leggendo l'attrezzatura ReefBeat di quella vasca. Le letture che vedi sono vecchie, ma non per forza sbagliate. Tocca il banner per aprire **Cora Max principale**, poi scegli un dispositivo acceso oppure **Qualsiasi attivo (automatico)**. Trovi i dettagli in [Più di un dispositivo Cora](/help/mobile-multi-device). Se il banner resta, guarda in [Risoluzione dei problemi](/help/troubleshooting).
 
-## Scegliere cosa ti raggiunge
+## Scegliere cosa ricevere
 
-**Impostazioni → Notifiche.** Puoi controllare:
+In **Impostazioni → Notifiche** scegli quali categorie di notifica possono mandarti notifiche push.
 
-- Quali delle categorie di notifica possono inviare notifiche push
+Reef Buddy non ha un interruttore suo. Manda un briefing quando c'è qualcosa da fare e resta zitto quando non c'è.
 
-Reef Buddy non ha un proprio interruttore: invia un briefing quando c'è qualcosa che vale la pena affrontare e resta silenzioso quando non c'è.
-
-:::note Cora è progettato per restare silenzioso
-Il briefing giornaliero è una notifica push per vasca al giorno, e in un giorno in cui nulla richiede la tua attenzione di solito resta in silenzio invece di dirti che tutto va bene. Se Cora invia una notifica, qualcosa è cambiato.
+:::note Cora parla solo quando serve
+Il briefing giornaliero è al massimo una notifica push per vasca al giorno. Nei giorni in cui non c'è niente da guardare, di solito non arriva proprio: Cora non ti scrive solo per dirti che va tutto bene. Se Cora ti manda una notifica, qualcosa è cambiato.
 :::
 
-## Attese: quanto spesso lo stesso avviso può notificarti
+## Attesa: ogni quanto lo stesso avviso ti può notificare
 
-Ogni regola ha la propria **Attesa tra gli avvisi**, impostata quando aggiungi o modifichi la regola (nella scheda **Regole** del Centro avvisi). L'attesa non nasconde l'avviso stesso: limita solo quanto spesso Cora ti invia una notifica push su di esso. La lettura resta valutata e l'avviso resta visibile sul widget e nella campana per tutto il tempo.
+Ogni regola ha la sua **Attesa tra gli avvisi**, che imposti quando aggiungi o modifichi la regola nella scheda **Regole** del Centro avvisi. L'attesa non nasconde l'avviso. Limita solo quante notifiche push ricevi. La lettura continua a essere valutata e l'avviso resta visibile sul widget e nella campanella.
 
-Puoi scegliere tra: 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 giorno, 3 giorni, oppure **1 settimana**.
+Puoi scegliere 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 giorno, 3 giorni oppure **1 settimana**.
 
-Un'attesa breve è adatta a una lettura che si muove rapidamente come la temperatura. Una lunga, fino a una settimana, è adatta a qualcosa che resta sbagliato per giorni mentre aspetti un pezzo di ricambio, come un Trident senza reagente o un contenitore di dosaggio vuoto: senza un'attesa lunga, Cora ti invierebbe notifiche sullo stesso problema noto più volte al giorno.
+Un'attesa breve va bene per una lettura che cambia in fretta, come la temperatura. Una lunga, fino a una settimana, serve per un problema che resta per giorni mentre aspetti un ricambio, come un Trident senza reagente o un contenitore di dosaggio vuoto. Con un'attesa breve Cora ti avviserebbe dello stesso problema più volte al giorno.
 
-:::note Rinviare un avviso attivo vive su Cora Max
-Cora Mobile non ha un proprio pulsante Rinvia su un avviso attivo; quel controllo si trova sullo schermo del Cora Max alla vasca, e silenzia lo stesso avviso per la durata di attesa che hai scelto qui. Dal telefono, il modo per cambiare quanto spesso senti parlare di qualcosa è questa attesa per regola, non un rinvio per singolo avviso.
+:::note Il rinvio di un avviso si fa su Cora Max
+In Cora Mobile gli avvisi attivi non hanno un pulsante per rinviarli. Quel comando è sullo schermo del Cora Max vicino alla vasca, e silenzia l'avviso per l'attesa che hai scelto qui. Dal telefono decidi ogni quanto sentirne parlare con l'attesa della regola.
 :::
 
 ## Chiudere un avviso
 
-Un avviso si chiude quando la lettura torna nell'intervallo. Non c'è nulla da ignorare; è un'affermazione sulla vasca, non un compito.
+Un avviso si chiude quando la lettura torna nell'intervallo. Non c'è niente da archiviare: l'avviso descrive lo stato della vasca e non è un compito da spuntare.
 
-:::note Le letture transitorie generano avvisi
-Una singola lettura fuori intervallo è sufficiente per generare un avviso, quindi una sonda che ha un picco ne attiverà uno. Se una fonte non è affidabile, calibrala di nuovo o punta il widget su una fonte diversa invece di allargare la soglia.
+:::note Anche una lettura isolata fa scattare un avviso
+Basta una lettura fuori intervallo per far scattare un avviso, quindi anche un picco della sonda ne genera uno. Se una fonte non è affidabile, ricalibrala o collega il widget a un'altra fonte. Non allargare la soglia.
 :::
 
-Se una lettura è sbagliata invece che la vasca sia sbagliata (una sonda che ha bisogno di calibrazione, per esempio), correggi la fonte. Allargare una soglia per silenziare una sonda difettosa nasconde anche il prossimo problema reale.
+Se a essere sbagliata è la lettura e non la vasca (per esempio una sonda da calibrare), sistema la fonte. Se allarghi la soglia per zittire una sonda difettosa, nascondi anche il prossimo problema vero.
 
-## Disattivare gli avvisi per un parametro
+## Disattivare gli avvisi di un parametro
 
-Apri la regola nella scheda **Regole** del Centro avvisi e disattiva il suo **interruttore di attivazione**. La regola e il suo intervallo vengono conservati, così puoi riattivarla senza ricrearla.
+Apri la regola nella scheda **Regole** del Centro avvisi e spegni il suo **interruttore di attivazione**. Regola e intervallo restano salvati, così puoi riattivarla senza rifarla da capo.
 
-:::warning Silenzia un parametro senza eliminare il suo intervallo
-Rimuovere una soglia non necessariamente ferma ogni valutazione di quella lettura; le fasce di riferimento predefinite continuano a colorare il valore e possono ancora alimentare il briefing. Usa l'interruttore di attivazione della regola.
+:::warning Silenzia il parametro senza cancellare l'intervallo
+Se elimini una soglia, la lettura può comunque essere valutata. Le fasce di riferimento predefinite continuano a colorare il valore e possono finire nel briefing. Usa l'interruttore di attivazione della regola.
 :::

@@ -1,83 +1,83 @@
 ---
-title: Bir parametreye bakma
-description: Tam geçmiş, onu bildiren her kaynak ve aralığını değiştirecek yer için herhangi bir widget'a dokunun.
+title: Parametre ayrıntıları
+description: Bir widget'a dokunun. Tüm geçmişi, değeri bildiren her kaynağı ve aralığı nereden değiştireceğinizi görün.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 8
 group: Your dashboard
 ---
 
-Bir widget size bir sayı gösterir. Ona dokunmak, sayının arkasındaki öyküyü gösterir.
+Widget size bir sayı gösterir. Widget'a dokunduğunuzda o sayının arkasındaki hikâyeyi görürsünüz.
 
-## Aldığınız şey
+## Bu ekranda neler var
 
-![Bir parametreye bakma](img/mobile-metric-detail.webp "Üstte aralıklar, ardından bu parametreyi bildiren kaynaklar, ardından uyarı bandınız gölgeli grafik.")
+![Parametre ayrıntıları](img/mobile-metric-detail.webp "Üstte zaman aralıkları, altında bu parametreyi bildiren kaynaklar, en altta uyarı aralığı gölgeli grafik.")
 
-**Kendi aralık seçicisiyle bir geçmiş grafiği**: **1s · 6s · 12s · 24s · 3g · 7g** ve daha uzunu.
+**Geçmiş grafiği** ve kendi zaman aralığı seçicisi: **1h · 6h · 12h · 24h · 3d · 7d** ve daha uzunları.
 
-**Bir kaynak filtresi.** Aralıkların altında bir çip satırı vardır: **Tümü**, artı bu parametreyi bildiren her kaynak için bir tane, örneğin *Apex*, *Cora*, *Red Sea* veya *Elle*. Yalnızca onun okumalarını görmek için birini seçin. Bir probu bir test kitine karşı doğrudan karşılaştırmanın yolu budur: aynı grafikte aralarında geçiş yapın.
+**Kaynak filtresi.** Zaman aralıklarının altında çipler var: **Tümü** ve bu parametreyi bildiren her kaynak için bir çip. Örneğin *Apex*, *Cora*, *Red Sea* ya da *Manuel*. Yalnızca o kaynağın ölçümlerini görmek için bir çip seçin. Probu test kitiyle doğrudan böyle karşılaştırırsınız: aynı grafikte ikisi arasında geçiş yapın.
 
-**Dozajladığınız parametreler için bir dozaj hesaplayıcı bağlantısı.** [Akvaryum profilinizden](/help/mobile-tank-profile) akvaryum hacmini ve [Dozaj](/help/mobile-dosing)'dan güçleri kullanır.
+**Dozaj hesaplayıcı bağlantısı** (dozladığınız parametrelerde). Hesaplayıcı akvaryum hacmini [akvaryum profilinizden](/help/mobile-tank-profile), ürün güçlerini [Dozaj](/help/mobile-dosing) ayarlarından alır.
 
-**Bir karşılaştırma katmanı.** *Şununla karşılaştır*, aynı grafikte ikinci bir parametre çizer (kalsiyuma karşı alkalinite, sıcaklığa karşı pH); böylece şüphelendiğiniz bir ilişki hatırlanan bir şey olmaktan çıkıp görünür hale gelir.
+**Karşılaştırma katmanı.** *Şununla karşılaştır* ile aynı grafiğe ikinci bir parametre eklersiniz. Örneğin alkaliniteyle kalsiyumu ya da pH ile sıcaklığı üst üste koyabilirsiniz. Aklınızdaki bir ilişkiyi hatırlamaya çalışmadan grafikte görürsünüz.
 
-**Ekrandaki pencere için özet istatistikler**: geçerli değerin altında bir satır olarak gösterilen **MİN**, **ORT** ve **MAKS**.
+**Özet istatistikler**: ekrandaki zaman aralığı için **MİN**, **ORT** ve **MAKS**. Güncel değerin altında bir satır olarak görünür.
 
-**Grafikte dozaj işaretleri**; böylece bir hareket, gerçekte dozajladığınızla karşılaştırılabilir.
+**Grafikte dozaj işaretleri.** Bir değişimi gerçekte verdiğiniz dozlarla yan yana görürsünüz.
 
-**Ham okumalar listesi**: çizginin arkasındaki her tek okuma, kaynağı ve zaman damgasıyla.
+**Ham ölçüm listesi**: çizginin arkasındaki her ölçüm, kaynağı ve zamanıyla.
 
-**Uyarı bandınız**, grafikte gölgeli; böylece bir okuma yalıtılmış olarak değil aralığına karşı okunur. Aralığın kendisini değiştirmek için, panodaki widget'a uzun basın. Bkz. [Uyarılar ve eşikler](/help/mobile-alerts).
+**Uyarı aralığınız** grafikte gölgeli olarak görünür. Böylece her ölçümü tek başına değil, aralığıyla birlikte okursunuz. Aralığı değiştirmek için panodaki widget'a uzun basın. Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
-Elle **bir okuma kaydedin**.
+**Ölçüm girme**: test sonuçlarını elle girebilirsiniz.
 
-## Bir aralık seçme
+## Zaman aralığı seçme
 
-Doğru aralık, parametrenin ritmine bağlıdır:
+Doğru aralık, parametrenin ne kadar hızlı değiştiğine bağlıdır:
 
-| Parametre | Kullanışlı pencere |
+| Parametre | İşe yarayan aralık |
 |---|---|
-| pH | 24 saat; günlük bir döngüde salınır |
-| Sıcaklık | 24 saat veya 7 gün |
-| Alkalinite | 7 veya 30 gün |
-| Eser elementler | 30 gün veya bir yıl |
+| pH | 24 saat. pH gün içinde iner çıkar |
+| Sıcaklık | 24 saat ya da 7 gün |
+| Alkalinite | 7 ya da 30 gün |
+| Eser elementler | 30 gün ya da 1 yıl |
 
-:::note Düz bir eğilimde okuma yaşını kontrol edin
-Hareket etmemiş bir çizgi, kararlı bir parametreyi veya bildirmeyi durdurmuş bir kaynağı gösterebilir. Değerin yanındaki gösterilen yaş ikisini birbirinden ayırır.
+:::note Düz çizgide ölçümün ne kadar eski olduğuna bakın
+Hiç kıpırdamayan bir çizgi parametrenin sabit olduğunu gösterebilir. Ama veri göndermeyi bırakmış bir kaynak da aynı görüntüyü verir. Değerin yanındaki ölçüm yaşı hangisi olduğunu söyler.
 :::
 
 ## Kaynakları karşılaştırma
 
-Birden fazla kaynak bir parametreyi bildirdiğinde, Cora onları ortalamak yerine ayrı tutar. Her birini sırayla görmek için kaynak çiplerini kullanın.
+Bir parametreyi birden fazla kaynak bildiriyorsa Cora bunların ortalamasını almaz, ayrı tutar. Kaynak çipleriyle her birine sırayla bakın.
 
-Bir prob ile elle kaydedilen bir test arasındaki kalıcı bir fark, genellikle probun kalibrasyon gerektirdiğini gösterir.
+Probla elle girilen test arasında sürekli bir fark varsa genellikle probun kalibre edilmesi gerekiyordur.
 
-Bir [ICP sonucu](/help/mobile-icp-health) kullanışlı bir üçüncü görüştür, ama bir hakem değildir. Laboratuvarlar birbirinden farklıdır ve örneğin taşınması, saklanması ve nakliyesi hepsi sonucu hareket ettirir. Tek bir ICP'yi gerçek değer olarak değil kanıt olarak ele alın; anlaşan iki test, birinden çok daha değerlidir.
+[ICP sonucu](/help/mobile-icp-health) işe yarar bir üçüncü görüştür, ama son sözü söylemez. Laboratuvarlar birbirinden farklı sonuç verebilir. Numunenin nasıl alındığı, saklandığı ve taşındığı da sonucu değiştirir. Tek ICP'yi kesin değer olarak değil, kanıt olarak görün. Birbiriyle uyuşan iki test, tek testten çok daha değerlidir.
 
-## Bir widget'ın hangi kaynağa güveneceğini seçme
+## Widget'ın hangi kaynağı izleyeceğini seçme
 
-Bir widget'ın belirli bir kaynağı takip etmesini istiyorsanız, bunu widget'ın ayarlarında belirleyin. Bkz. **[Panonuzu düzenleme](/help/mobile-dashboard-editing)**.
+Widget'ın belli bir kaynağı izlemesini istiyorsanız bunu widget'ın ayarlarından seçin. Ayrıntılar **[Panoyu düzenleme](/help/mobile-dashboard-editing)** sayfasında.
 
-## Kötü bir okumayı hariç tutma
+## Hatalı ölçümü hariç tutma
 
-Ani sıçrama yapan bir prob, yanlış okunan bir test, su değişimi ortasında alınan bir örnek: tek bir yanlış okuma, grafiği, ortalamaları ve onlardan çıkarım yapan her şeyi bozar.
+Probun bir anlık sıçraması, yanlış okunmuş bir test, su değişimi sırasında alınmış bir numune. Tek bir hatalı ölçüm grafiği, ortalamaları ve bunlara dayanan her şeyi bozar.
 
-![Ham okumalar listesi](img/mobile-readings.webp "Çizginin arkasındaki her okuma, kaynağı ve zamanıyla.")
+![Ham ölçüm listesi](img/mobile-readings.webp "Çizginin arkasındaki her ölçüm, kaynağı ve zamanıyla.")
 
-Okumalar listesini üst çubuktaki simgeden açın, ardından hariç tutmak için bir okumaya dokunun. Ekran bunu açıkça söyler: *ortalamalardan ve içgörülerden hariç tutulur, ama günlüğünüzde kalır.* Hiçbir şey silinmez ve geri yüklenebilir.
+Üst çubuktaki simgeden ölçüm listesini açın. Hariç tutmak istediğiniz ölçüme dokunun. Ekranda bu açıkça yazar: *Ortalamalardan ve içgörülerden hariç tutmak için bir ölçüme dokunun. Günlüğünüzde kalır.* Hiçbir şey silinmez, ölçümü istediğiniz zaman geri getirebilirsiniz.
 
-:::warning Yanlış bir okumayı hariç tutun, hoşunuza gitmeyen bir okumayı değil
-Hariç tutma, geçersiz olduğunu bildiğiniz okumalar içindir. Beğenmediğiniz ama kusur bulamadığınız bir okuma veridir ve onu kaldırmak sonraki her karşılaştırmayı daha az dürüst yapar.
+:::warning Hoşunuza gitmeyen ölçümü değil, hatalı ölçümü hariç tutun
+Hariç tutma, geçersiz olduğunu bildiğiniz ölçümler içindir. Beğenmediğiniz ama hatasını bulamadığınız bir ölçüm de veridir. Onu çıkarırsanız sonraki bütün karşılaştırmalar yanıltıcı olur.
 :::
 
 ## Prob bakımını kaydetme
 
-Buradan bir kalibrasyon veya temizlik kaydetmek, o kaynağa karşı tarihi damgalar; böylece daha sonraki bir anlaşmazlık, probun son ne zaman bakıldığına karşı okunabilir. Bkz. [Problar](/help/mobile-probes).
+Kalibrasyonu ya da temizliği buradan kaydederseniz tarih o kaynağa işlenir. İleride bir uyuşmazlık çıktığında probun en son ne zaman bakım gördüğüne bakabilirsiniz. Ayrıntılar [Problar](/help/mobile-probes) sayfasında.
 
-## Elle bir okuma kaydetme
+## Elle ölçüm girme
 
-Test kitinizin ne dediğini girin. Elle kaydedilen okumalar birinci sınıftır: kendi kaynaklarını ve zaman damgalarını alırlar, grafikte görünürler, Reef Buddy'yi beslerler ve Cora'nın ekipmanınızı neyle karşılaştırdığı budur.
+Test kitinizin sonucunu girin. Elle girilen ölçümler diğerlerinden aşağı sayılmaz. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'ye veri sağlarlar. Cora ekipmanınızı da bu ölçümlerle karşılaştırır.
 
-:::note Cora, mantıksız görünen kayıtları kontrol eder
-Bir değer, akvaryumun çalıştığı yerden çok farklıysa, kaydedilmeden önce onaylamanız istenir. Bu, yanlış yere konmuş bir ondalık noktasını veya yanlış parametreye karşı girilmiş bir okumayı yakalar. Onaylayın ve okuma normal şekilde saklanır.
+:::note Cora mantıksız görünen değerleri sorar
+Girdiğiniz değer akvaryumun alışılmış değerlerinden çok farklıysa Cora kaydetmeden önce onay ister. Böylece yanlış yere konmuş bir virgül ya da yanlış parametreye girilmiş bir değer yakalanır. Onaylarsanız ölçüm normal şekilde kaydedilir.
 :::

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sondas | Cora Help</title>
-  <meta name="description" content="Asigna las sondas de tu controlador a los parámetros de Cora, y registra calibración y limpieza.">
+  <meta name="description" content="Asigna las sondas de tu controlador a los parámetros de Cora y registra la calibración y la limpieza.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-probes">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-probes">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sondas | Cora Help">
-  <meta property="og:description" content="Asigna las sondas de tu controlador a los parámetros de Cora, y registra calibración y limpieza.">
+  <meta property="og:description" content="Asigna las sondas de tu controlador a los parámetros de Cora y registra la calibración y la limpieza.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-probes">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes" class="cur" aria-current="page">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -169,22 +169,22 @@
     <article class="doc">
       <h1>Sondas</h1>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#asignar-sondas">Asignar sondas</a></li><li><a href="#varias-sondas-para-un-mismo-parmetro">Varias sondas para un mismo parámetro</a></li><li><a href="#registrar-el-cuidado-de-las-sondas">Registrar el cuidado de las sondas</a></li></ul></nav>
-<p>Un controlador informa de sus sondas con sus propios nombres. La asignación de sondas le indica a Cora cuál es tu sonda de pH, cuál es de temperatura, y así.</p>
+<p>Cada controlador llama a sus sondas con sus propios nombres. Con la asignación de sondas le dices a Cora cuál es la de pH, cuál la de temperatura, etc.</p>
 <h2 id="asignar-sondas">Asignar sondas</h2>
-<p>Abre tu <strong>perfil del acuario</strong> (el lápiz en la parte superior del panel), despliega la sección de tu controlador y elige <strong>Asignación de sondas</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Asignación de sondas"><img src="/help/img/mobile-probes.webp" alt="Asignación de sondas" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Cada sonda que informa tu controlador, su lectura en vivo y qué hace Cora con ella.</figcaption></figure>
-<p>Cada sonda que informa tu controlador aparece en la lista con su lectura actual. Cora detecta automáticamente los nombres estándar, y la fila muestra con cuál la ha emparejado, así que aquí normalmente solo hay que corregir las que no pudo ubicar, en lugar de asignarlas todas a mano.</p>
-<p>Cada fila ofrece tres opciones:</p>
-<ul><li><strong>Un parámetro de Cora</strong>: la magnitud que mide esa sonda.</li><li><strong>Personalizado</strong>: para una sonda para la que Cora no tiene un parámetro estándar. Le das un identificador corto en mayúsculas, y se hace seguimiento con ese nombre.</li><li><strong>Ignorar</strong>: para sondas que no quieres que se registren en absoluto.</li></ul>
-<p>Una sonda ignorada o sin asignar no aparecerá en un panel y no alimentará alertas.</p>
-<p>Las asignaciones surten efecto la próxima vez que se registren lecturas, así que una corrección aquí no reescribe el historial; cambia lo que se guarda a partir de ese momento. Pulsa <strong>Guardar</strong> para aplicarlas.</p>
-<aside class="cal cal-warning"><p class="cal-t">Una sonda sin asignar es invisible para Cora</p><p>Si un parámetro no muestra lecturas aunque la sonda funcione, revisa primero la asignación antes que ninguna otra cosa.</p></aside>
+<p>Abre el <strong>perfil del acuario</strong> (el lápiz de la parte superior del panel), despliega la sección de tu controlador y elige <strong>Asignación de sondas</strong>.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Asignación de sondas"><img src="/help/img/mobile-probes.webp" alt="Asignación de sondas" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Cada sonda de tu controlador, su lectura en vivo y qué hace Cora con ella.</figcaption></figure>
+<p>La lista muestra cada sonda de tu controlador con su lectura actual. Cora reconoce sola los nombres estándar, y cada fila indica con qué parámetro la ha emparejado. Normalmente solo tienes que corregir las que no ha sabido identificar.</p>
+<p>En cada fila tienes tres opciones:</p>
+<ul><li><strong>Un parámetro de Cora</strong>: lo que mide esa sonda.</li><li><strong>Personalizado</strong>: para una sonda sin parámetro estándar en Cora. Le pones un identificador corto en mayúsculas y Cora la sigue con ese nombre.</li><li><strong>Ignorar</strong>: para las sondas que no quieres registrar.</li></ul>
+<p>Una sonda ignorada o sin asignar no sale en ningún panel y no genera alertas.</p>
+<p>Los cambios se aplican a partir de las siguientes lecturas. El historial no se reescribe, solo cambia lo que se guarda desde ese momento. Toca <strong>Guardar</strong> para aplicarlos.</p>
+<aside class="cal cal-warning"><p class="cal-t">Cora no ve una sonda sin asignar</p><p>Si un parámetro no muestra lecturas pero la sonda funciona, revisa primero la asignación.</p></aside>
 <h2 id="varias-sondas-para-un-mismo-parmetro">Varias sondas para un mismo parámetro</h2>
-<p>Un sistema con dos sondas de temperatura puede asignar ambas. Cora las mantiene como fuentes distintas; el ajuste de fuente del widget decide a cuál sigue una casilla, y <a href="/es/help/mobile-metric-detail">la vista del parámetro</a> te permite compararlas.</p>
+<p>Si tienes dos sondas de temperatura, puedes asignar las dos. Cora las guarda como fuentes distintas. El ajuste de fuente del widget decide qué sonda muestra cada casilla, y en <a href="/es/help/mobile-metric-detail">la vista del parámetro</a> puedes compararlas.</p>
 <h2 id="registrar-el-cuidado-de-las-sondas">Registrar el cuidado de las sondas</h2>
-<p>Las sondas se desvían. Cora puede hacer seguimiento de cuándo se calibró o limpió cada una por última vez, para que puedas distinguir un cambio real de una sonda que necesita atención.</p>
-<p>Registra la calibración o la limpieza desde la ficha de la sonda. También funciona bien como una <a href="/es/help/mobile-maintenance">tarea de mantenimiento</a> recurrente.</p>
-<aside class="cal cal-note"><p class="cal-t">El historial de calibración explica las discrepancias</p><p>Cuando una sonda y un kit de pruebas no coinciden, la fecha en que se calibró la sonda por última vez suele ser lo primero que vale la pena revisar.</p></aside>
+<p>Con el tiempo, las sondas se descalibran. Cora puede guardar cuándo calibraste o limpiaste cada una por última vez. Así sabrás si un cambio es real o si la sonda necesita atención.</p>
+<p>Registra la calibración o la limpieza desde la ficha de la sonda. También puedes crear una <a href="/es/help/mobile-maintenance">tarea de mantenimiento</a> recurrente para ello.</p>
+<aside class="cal cal-note"><p class="cal-t">La calibración explica muchas diferencias</p><p>Si una sonda y un kit de pruebas no coinciden, lo primero que conviene mirar es cuándo calibraste la sonda por última vez.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-schedules"><span>Anterior</span><b>Programar equipos</b></a><a class="pn-n" href="/es/help/mobile-consumables"><span>Siguiente</span><b>Consumibles</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-09.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

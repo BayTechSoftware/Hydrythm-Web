@@ -1,41 +1,41 @@
 ---
 title: Consumibles
-description: Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios.
+description: Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios filtrantes.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 14
 group: Equipment
 ---
 
-El equipo que consume algo (reactivo, líquido de dosificación, agua de reposición, medio filtrante) puede decirle a Cora cuánto queda. Cora puede avisarte antes de que se acabe.
+Hay equipos que gastan algo: reactivo, líquido de dosificación, agua de reposición o medio filtrante. Pueden decirle a Cora cuánto queda, y Cora puede avisarte antes de que se acabe.
 
 ## Configurar una alerta de reposición
 
-Abre el dispositivo (desde la pestaña **Dispositivos**, o tocando su casilla en el panel), y luego usa la **campana** en la barra superior.
+Abre el dispositivo desde la pestaña **Dispositivos** o tocando su casilla en el panel. Después toca la **campana** de la barra superior.
 
-![Alertas de reposición para una unidad de dosificación](img/mobile-consumables.webp "Un umbral por cabezal, cada uno activado o desactivado de forma independiente.")
+![Alertas de reposición de una unidad de dosificación](img/mobile-consumables.webp "Un umbral por cabezal, y cada uno se activa o desactiva por separado.")
 
-El equipo con más de un envase tiene un umbral por envase, así que un cabezal que vigilas de cerca y uno que casi no tocas pueden configurarse de forma distinta.
+Si el equipo tiene más de un envase, cada envase tiene su propio umbral. Así puedes configurar de forma distinta un cabezal que vigilas de cerca y otro que casi no tocas.
 
-**La mayoría de los umbrales se fijan en días, no en volumen.** Cora calcula cuánto durará lo que queda al ritmo con el que realmente lo estás usando, que es el número sobre el que puedes actuar; "quedan cuatro días de calcio" te dice algo que "quedan 180 mL" no te dice.
+**La mayoría de los umbrales van en días, no en volumen.** Cora calcula cuánto te durará lo que queda según lo que gastas de verdad. Ese es el dato que te sirve para actuar. "Quedan cuatro días de calcio" te dice mucho más que "quedan 180 mL".
 
-| Dispositivo | Umbral en |
+| Dispositivo | Umbral según |
 |---|---|
-| Trident | Pruebas restantes, y cuán llena está la botella de residuos |
-| Cabezal de dosificación | Días de suplemento restantes; algunos también ofrecen mililitros restantes |
-| ATO | Días de depósito restantes |
-| Rodillo de estera | Días de rollo restantes |
+| Trident | Pruebas que quedan y lo llena que está la botella de residuos |
+| Cabezal de dosificación | Días de suplemento que quedan. Algunos también ofrecen mililitros restantes |
+| ATO | Días de depósito que quedan |
+| Rodillo de estera | Días de rollo que quedan |
 
-Una alerta de consumible se comporta como cualquier otra alerta: aparece en el [Centro de alertas](/help/mobile-alerts) y puede enviarse a tu teléfono. Recibes **una** notificación cuando se supera un nivel, no un flujo repetido, y se cierra cuando el nivel vuelve a estar por encima del umbral.
+Una alerta de consumible funciona como cualquier otra alerta. Aparece en el [Centro de alertas](/help/mobile-alerts) y puede llegarte como notificación al teléfono. Recibes **una** sola notificación cuando el nivel baja del umbral, sin avisos repetidos. La alerta desaparece cuando el nivel vuelve a estar por encima.
 
 ## Elegir un umbral
 
-Fíjalo con suficiente antelación para poder actuar. Un umbral que se activa el día en que algo se acaba no da ningún aviso.
+Ponlo con margen suficiente para poder reaccionar. Si salta el mismo día en que algo se acaba, no te sirve de aviso.
 
-:::warning Algunos equipos no se detienen al vaciarse
-Un cabezal de dosificación con el envase vacío sigue ejecutando su programa e informa de dosis que no llegó a entregar. La alerta de reposición es lo que evita esto, así que configura una para cada cabezal desde el que dosifiques.
+:::warning Algunos equipos no se paran al quedarse vacíos
+Un cabezal de dosificación con el envase vacío sigue con su programa y registra dosis que no llegó a dar. La alerta de reposición te protege de esto. Configura una para cada cabezal que uses.
 :::
 
 ## Después de rellenar
 
-Restablece o actualiza el nivel en la página del dispositivo para que la alerta se cierre y el próximo aviso se calcule correctamente.
+Restablece o actualiza el nivel en la página del dispositivo. Así la alerta desaparece y el siguiente aviso se calcula bien.

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dosing | Cora Help</title>
-  <meta name="description" content="Tell Cora what you dose so it can turn millilitres into an actual change in your tank.">
+  <meta name="description" content="Tell Cora what you dose so it can turn millilitres into a real change in your tank.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-dosing">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-dosing">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-dosing">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Dosing | Cora Help">
-  <meta property="og:description" content="Tell Cora what you dose so it can turn millilitres into an actual change in your tank.">
+  <meta property="og:description" content="Tell Cora what you dose so it can turn millilitres into a real change in your tank.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-dosing">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,28 +169,28 @@
     <article class="doc">
       <h1>Dosing</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-product-library">The product library</a></li><li><a href="#adding-your-own">Adding your own</a></li><li><a href="#the-dose-calculator">The dose calculator</a></li><li><a href="#consumption">Consumption</a></li><li><a href="#dosing-equipment">Dosing equipment</a></li></ul></nav>
-<p>Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream (the calculator, consumption tracking, and what Cora tells you about your dosing) becomes real numbers rather than guesses.</p>
+<p>Cora can only do dosing maths if it knows how strong your products are. Set that up once, and the calculator, consumption tracking and what Cora tells you about your dosing all use real numbers instead of guesses.</p>
 <p><strong>Settings → Dosing Products.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Dosing products"><img src="/help/img/mobile-dosing.webp" alt="Dosing products" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Products carry the strength Cora uses for dose and consumption calculations.</figcaption></figure>
 <h2 id="the-product-library">The product library</h2>
-<p>Cora ships with a library of common products. Search for yours and add it; the strength comes with it.</p>
-<p>Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a fixed volume of water. That is the number that turns "5 ml" into "+0.2 dKH in your tank".</p>
-<p>Products can carry alkalinity, calcium, magnesium, nitrate or phosphate values; a two-part carries one each, a balanced product several.</p>
+<p>Cora comes with a library of common products. Search for yours and add it. Its strength comes with it.</p>
+<p>Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a set volume of water. That's the number that turns "5 ml" into "+0.2 dKH in your tank".</p>
+<p>A product can carry values for alkalinity, calcium, magnesium, nitrate or phosphate. A two-part carries one each. A balanced product carries several.</p>
 <h2 id="adding-your-own">Adding your own</h2>
-<p>If your product is not in the library, add it as a custom one and enter its strength. The manufacturer's label almost always states it: "1 ml per 100 litres raises alkalinity by 0.1 dKH", or similar.</p>
-<aside class="cal cal-warning"><p class="cal-t">Enter the manufacturer's stated strength</p><p>An incorrect strength makes every dose calculation for that product wrong by the same proportion. If the figure is not available, leave the product out rather than estimating.</p></aside>
-<p>Your tank's <strong>salt mix</strong> is a separate thing from a dosing product: it is set on the tank's profile, not here, and Cora keeps a sourced catalog of common reef salts with their published figures to choose from. See <strong><a href="/help/mobile-tank-profile">Tank profile</a></strong>.</p>
+<p>If your product isn't in the library, add it as a custom product and enter its strength. It's almost always on the label, something like "1 ml per 100 litres raises alkalinity by 0.1 dKH".</p>
+<aside class="cal cal-warning"><p class="cal-t">Use the strength the manufacturer gives</p><p>If the strength is wrong, every dose Cora works out for that product is wrong by the same proportion. If you can't find the figure, leave the product out. Don't guess.</p></aside>
+<p>Your tank's <strong>salt mix</strong> isn't a dosing product. You set it on the tank's profile, and Cora has a catalog of common reef salts with their published figures, with sources, to choose from. See <a href="/help/mobile-tank-profile">Tank profile</a>.</p>
 <h2 id="the-dose-calculator">The dose calculator</h2>
-<p>With products set up, Cora can calculate a correction using your tank's actual volume from its profile.</p>
-<p>It calculates <strong>increases</strong>: alkalinity, calcium, magnesium, and nitrate or phosphate when you are raising them.</p>
-<p>For <strong>reductions</strong> it gives guidance rather than a dose; you cannot dose a parameter downward, and the answer is a water change, a media change or a change in what you are already dosing.</p>
-<aside class="cal cal-warning"><p class="cal-t">Large corrections are spread, not dosed at once</p><p>Cora caps how much a parameter may be moved in a day and spreads a bigger correction over several. A single large dose is how a tank gets shocked; the calculator will not propose one.</p></aside>
-<p>The volume you entered at setup matters here. A stated volume 20% out gives dose figures 20% out.</p>
+<p>Once your products are set up, Cora can work out a correction using your tank's volume from its profile.</p>
+<p>It works out <strong>increases</strong> for alkalinity, calcium and magnesium, and for nitrate or phosphate when you're raising them.</p>
+<p>For <strong>reductions</strong> it gives you guidance instead of a dose. You can't dose a parameter down. The answer is a water change, a media change, or changing what you already dose.</p>
+<aside class="cal cal-warning"><p class="cal-t">Cora spreads big corrections over several days</p><p>Cora limits how far a parameter can move in a day and spreads a bigger correction over several days. One large dose is how a tank gets shocked, so the calculator won't suggest one.</p></aside>
+<p>The volume you entered at setup matters here. If it's 20% out, the doses are 20% out too.</p>
 <h2 id="consumption">Consumption</h2>
-<p>Once Cora can see both your doses and your readings, it can work out what your tank is actually consuming, and tell you when that changes.</p>
-<p>A change in demand is a prompt to look, not a diagnosis. Rising alkalinity demand often reflects growth; a sudden move in either direction can equally come from a dose that is not being delivered, a testing error, precipitation, a water change, or a change to the equipment. Check what changed around the date before drawing a conclusion.</p>
+<p>Once Cora can see both your doses and your readings, it can work out what your tank is using and tell you when that changes.</p>
+<p>A change in demand is a reason to look, not a diagnosis. Rising alkalinity demand often means growth. A sudden move either way can also come from a dose that isn't being delivered, a testing error, precipitation, a water change or an equipment change. Check what changed around that date before you decide.</p>
 <h2 id="dosing-equipment">Dosing equipment</h2>
-<p>If you have a connected dosing unit, its heads appear as devices with their own readings: what each head has left, and what it has been dosing. See <strong><a href="/help/mobile-connections">Connecting your equipment</a></strong>.</p>
+<p>If you have a connected dosing unit, its heads show up as devices with their own readings, including what each head has left and what it's been dosing. See <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-automation"><span>Previous</span><b>Automations and scenes</b></a><a class="pn-n" href="/help/mobile-maintenance"><span>Next</span><b>Maintenance</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

@@ -1,49 +1,49 @@
 ---
 title: Obtener ayuda
-description: Informa de un problema desde dentro de Cora Mobile, y qué se envía con él.
+description: Cómo informar de un problema desde Cora Mobile y qué se envía con el informe.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Informar de un problema desde dentro de Cora Mobile es más útil que describirlo después, porque Cora Mobile puede adjuntar los detalles que son difíciles de recordar.
+Es mejor informar de un problema desde Cora Mobile que contarlo más tarde. Cora Mobile puede adjuntar los detalles que cuesta recordar.
 
 **Ajustes → Reportar un error / Enviar comentarios.**
 
-## Qué rellenas
+## Qué tienes que rellenar
 
-La hoja pregunta dos cosas: **qué tipo de asunto es**, para que el informe llegue al lugar correcto, y **qué pasó** en tus propias palabras.
+El formulario te pide dos cosas. Primero, **de qué tipo es el problema**, para que el informe llegue a quien corresponde. Después, **qué pasó**, con tus palabras.
 
-Sé concreto sobre lo que esperabas y lo que viste en su lugar. "La alcalinidad mostraba 2 d de antigüedad en el panel cuando el Apex leía bien" vale más que "las lecturas están rotas".
+Explica con detalle qué esperabas y qué viste. "En el panel, la alcalinidad salía con 2 d de antigüedad y el Apex la leía bien" ayuda mucho más que "las lecturas no van".
 
-## Qué se adjunta automáticamente
+## Qué se adjunta solo
 
-Una línea breve de contexto acompaña cada informe, y la hoja te la muestra antes de enviarlo:
+Cada informe lleva una línea breve de contexto. El formulario te la enseña antes de enviar.
 
 - la **versión de la app**
-- tu **plataforma** y versión del sistema operativo
-- la **pantalla** en la que estabas cuando abriste la hoja
+- tu **plataforma** y la versión del sistema operativo
+- la **pantalla** en la que estabas al abrir el formulario
 
-Eso es lo que convierte "no funcionó" en algo reproducible. Se muestra en lugar de ocultarse, así que no se envía nada que no hayas visto.
+Con estos datos, un "no funcionó" se puede reproducir. Está a la vista, así que no se envía nada que no hayas visto.
 
 ## Capturas de pantalla
 
-**Adjuntar una captura de pantalla** añade una imagen al informe, y **Quitar captura de pantalla** la retira de nuevo antes de enviarlo.
+**Adjuntar una captura de pantalla** añade una imagen al informe. Con **Quitar captura de pantalla** la quitas antes de enviarlo.
 
-:::warning Una captura de pantalla es visible para el soporte de Cora
-Cora Mobile lo indica encima del control. Revisa la imagen antes de adjuntarla; una captura del panel lleva los nombres y las lecturas de tu acuario, y cualquier otra cosa que estuviera en pantalla en ese momento.
+:::warning El soporte de Cora puede ver la captura
+Cora Mobile lo avisa encima del botón. Revisa la imagen antes de adjuntarla. Una captura del panel muestra los nombres y las lecturas de tus acuarios, y todo lo que hubiera en pantalla en ese momento.
 :::
 
-:::note Por qué no hay control de captura de pantalla en el modo cuidador
-Cuando estás viendo el acuario de otra persona a través de un enlace compartido, no se ofrece la opción de captura de pantalla. Una captura tomada entonces adjuntaría los datos *de esa persona* a *tu* ticket de soporte, y ella nunca sabría que había pasado.
+:::note Por qué no puedes adjuntar capturas en el modo cuidador
+Si estás viendo el acuario de otra persona con un enlace compartido, no aparece la opción de captura. Esa captura añadiría los datos *de esa persona* a *tu* consulta de soporte, y ella nunca se enteraría.
 :::
 
 ## Informes de errores automáticos
 
-**Enviar informes de errores**, junto a la fila de informes, es la misma promesa hecha sin que tengas que darte cuenta de que algo se rompió y escribirlo: si Cora Mobile falla, informa del fallo por sí sola. Consulta [Ajustes](/help/mobile-settings).
+**Enviar informes de errores** está junto a la fila de informes. Hace lo mismo sin que tengas que darte cuenta del fallo ni escribir nada. Si Cora Mobile se cierra por un error, informa del fallo por su cuenta. Más información en [Ajustes](/help/mobile-settings).
 
-## En otro lugar
+## Otras opciones
 
-- Las preguntas sobre tu propio acuario suelen ser más rápidas a través de **[Cora Assistant](/help/mobile-assistant)**, que puede ver tus lecturas.
-- Algo que no se comporta como está documentado: primero **[Solución de problemas](/help/troubleshooting)**.
+- Si tienes una pregunta sobre tu acuario, suele ser más rápido preguntar a **[Cora Assistant](/help/mobile-assistant)**, que puede ver tus lecturas.
+- Si algo no funciona como dice esta guía, mira primero **[Solución de problemas](/help/troubleshooting)**.

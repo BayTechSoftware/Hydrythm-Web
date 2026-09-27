@@ -1,64 +1,64 @@
 ---
 title: Tomas y controles
-description: Cambiar el estado de las tomas desde Cora Max, usar el modo alimentación, y qué significa Auto en realidad.
+description: Cómo cambiar las tomas desde Cora Max, cómo usar el modo alimentación y qué significa Auto.
 section: Cora Max
 reviewed: 2026-09-09
 order: 5
 group: Equipment
 ---
 
-Cora Max puede cambiar el estado del equipo de tu sistema: desde los widgets de control en el panel, desde el cajón Tomas y alimentación, o por voz.
+Desde Cora Max puedes encender y apagar el equipo de tu sistema con los widgets de control del panel, con el cajón **Tomas y alimentación** o por voz.
 
 :::warning Estos controles actúan sobre tu acuario
-No hay deshacer. Las tomas marcadas con un candado te piden confirmar primero; el resto se aplica en cuanto tocas. Una orden puede volver como **Confirmado**, **Sin confirmar** (enviado, no llegó ninguna respuesta), **Rechazado** o **Sin cambios**; consulta [Cómo controlar tu equipo](/help/mobile-device-control).
+No se pueden deshacer. Las tomas con candado te piden confirmación antes. Las demás cambian en cuanto tocas. Una orden puede volver como **Confirmado**, **Sin confirmar** (se envió pero no llegó respuesta), **Rechazado** o **Sin cambios**. Más detalles en [Controlar tus equipos](/help/mobile-device-control).
 :::
 
 ## Los tres estados
 
-Cada toma está en uno de tres estados.
+Cada toma está siempre en uno de estos tres estados.
 
-**Auto** devuelve la toma a su programación del Apex. Aquí es donde debería estar una toma la mayor parte del tiempo.
+**Auto** devuelve la toma a su programación del Apex. Es donde debería estar casi siempre.
 
-**Apagado** y **Encendido** son anulaciones manuales. Surten efecto de inmediato y **se quedan así hasta que las cambies de vuelta**. No caducan, y nada las devuelve por ti.
+**Apagado** y **Encendido** son cambios manuales. Se aplican al momento y **se quedan así hasta que tú los cambies**. No caducan y nada los devuelve a su estado por ti.
 
-:::warning Una anulación manual no caduca
-Vuelve a poner **Auto** cuando termines; nada lo hace por ti. Todavía se puede cambiar más tarde por ti, por voz o por una automatización; una anulación no es un bloqueo.
+:::warning Un cambio manual no caduca
+Cuando termines, vuelve a poner **Auto**. Nada lo hará por ti. Aun así, tú, la voz o una automatización pueden cambiarla más tarde. Un cambio manual no es un bloqueo.
 :::
 
-## Cambiar el estado desde el panel
+## Cambiar una toma desde el panel
 
-Los widgets de control muestran los tres estados con el actual resaltado. Toca el estado que quieras.
+Los widgets de control muestran los tres estados, con el actual resaltado. Toca el que quieras.
 
-Algunas tomas llevan un **candado**. No significa que haya que desactivarlo en algún sitio; significa que la toma te pide confirmar antes de cambiar, así que un toque accidental no puede cambiar algo crítico. Consulta más abajo.
+Algunas tomas llevan un **candado**. No hay que desactivarlo en ningún sitio. Solo indica que la toma te pide confirmación antes de cambiar, para que un toque sin querer no apague algo importante. Lo verás más abajo.
 
 ## El cajón de controles
 
-Tira hacia arriba de la pestaña en la parte inferior del panel para abrir **Controles**: todas las tomas del sistema en un solo lugar, tengan o no un widget, más los ciclos de alimentación.
+Desliza hacia arriba la pestaña de la parte inferior del panel para abrir **Controles**. Ahí están todas las tomas del sistema, tengan widget o no, y los ciclos de alimentación.
 
-![El cajón de controles](img/max-controls.webp "Ciclos de alimentación en la parte superior, y después cada toma.")
+![El cajón de controles](img/max-controls.webp "Arriba los ciclos de alimentación y debajo todas las tomas.")
 
-Una toma que lleva un **candado** requiere una confirmación explícita antes de cambiar. Tocarla abre un cuadro de diálogo que nombra la toma, su estado actual y la anulación que estás a punto de aplicar. Es un paso de confirmación, no un bloqueo que haya que desactivar en otro sitio.
+Si una toma lleva **candado**, tienes que confirmar antes de que cambie. Al tocarla se abre un diálogo con el nombre de la toma, su estado actual y el cambio que vas a aplicar. Es solo un paso de confirmación. No hay nada que desactivar en otro sitio.
 
 ## Modo alimentación
 
-El modo alimentación es la forma segura de pausar el flujo para alimentar. Pausa el equipo que debe pausarse, deja en paz el que no debe pausarse, y **lo restaura todo por sí solo** cuando se cumple el tiempo.
+El modo alimentación es la forma segura de parar el flujo para dar de comer. Pausa el equipo que tiene que pararse, deja funcionando el resto y **lo vuelve a poner todo como estaba** cuando se acaba el tiempo.
 
-Úsalo en lugar de apagar las bombas a mano, porque restaura el sistema sin depender de que lo recuerdes.
+Úsalo antes que apagar las bombas a mano. Así no depende de que te acuerdes de volver a encenderlas.
 
-Los ciclos de alimentación se identifican con letras **A**, **B**, **C** y **D**: los ciclos que define tu controlador, cada uno pausando un conjunto distinto de equipo. Elige el que corresponda a lo que estás haciendo. **Cancelar** termina un ciclo en curso antes de tiempo y lo restaura todo de inmediato.
+Los ciclos de alimentación van con letras: **A**, **B**, **C** y **D**. Son los ciclos que define tu controlador, y cada uno pausa un grupo distinto de equipos. Elige el que encaje con lo que vas a hacer. **Cancelar** termina el ciclo antes de tiempo y lo restablece todo al momento.
 
-Inícialo desde el cajón de controles, o di *"inicia el modo alimentación"*.
+Inícialo desde el cajón de controles o di *"inicia el modo alimentación"*.
 
 ## Por voz
 
-Puedes cambiar el estado de las tomas por voz: *"apaga el skimmer"*, *"vuelve a poner el ventilador en auto"*.
+También puedes cambiar las tomas por voz: *"apaga el skimmer"*, *"vuelve a poner el ventilador en auto"*.
 
-Cualquier cosa que llegue a tu equipo se **confirma antes de que ocurra**: Cora te dice qué está a punto de hacer y espera a que estés de acuerdo. No actuará sobre una instrucción de la que no esté segura.
+Antes de tocar tu equipo, Cora **te pide confirmación**. Te dice lo que va a hacer y espera a que digas que sí. Si no tiene clara una instrucción, no actúa.
 
-Consulta **[Hablar con Cora](/help/max-voice)**.
+Más información en **[Hablar con Cora](/help/max-voice)**.
 
 ## Ver qué pasó
 
-Cada solicitud se registra, junto con qué la pidió (esta aplicación, una pantalla Cora, la voz, el Assistant, una regla de automatización, un botón inteligente o tu cuenta) y cómo viajó. En tu teléfono eso es **Ajustes → Actividad**.
+Cada solicitud queda registrada, con quién la pidió (Cora Mobile, una pantalla Cora, la voz, Cora Assistant, una regla de automatización, un botón inteligente o tu cuenta) y por dónde fue. En el teléfono lo encuentras en **Ajustes → Actividad**.
 
-Es el primer sitio donde mirar cuando algo cambió y no sabes por qué.
+Es lo primero que conviene mirar cuando algo ha cambiado y no sabes por qué.

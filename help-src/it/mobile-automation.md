@@ -1,94 +1,94 @@
 ---
 title: Automazioni e scene
-description: Crea regole che si eseguono da sole (trigger, condizioni, azioni) e raggruppale in scene.
+description: Crea regole che partono da sole, con trigger, condizioni e azioni, e raggruppa le azioni in scene.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 17
 group: Alerts and automation
 ---
 
-Un'automazione è una regola che Cora esegue per te: *quando succede questo, controlla quest'altro, poi fai questo.* Le scene raggruppano diverse azioni in una sola cosa che puoi eseguire o programmare.
+Un'automazione è una regola che Cora esegue al posto tuo: *quando succede questo, controlla quello, poi fai quest'altro.* Una scena mette insieme più azioni in un'unica cosa da avviare a mano o da programmare.
 
 **Impostazioni → Automazione.**
 
 ![L'elenco delle automazioni](img/mobile-automation.webp "Automazioni e Scene sono schede separate. Ogni regola ha un interruttore di attivazione.")
 
-La schermata ha due schede (**Automazioni** e **Scena**) e un pulsante **Nuova automazione**. Ogni regola mostra un riassunto di una riga di cosa fa, un interruttore di attivazione, e un menu per modificarla o eliminarla. Una regola che non è ancora stata eseguita è segnata come tale.
+La schermata ha due schede, **Automazioni** e **Scene**, e il pulsante **Nuova automazione**. Ogni regola ha una riga che riassume cosa fa, un interruttore di attivazione e un menu per modificarla o eliminarla. Le regole mai eseguite sono segnalate.
 
-:::warning Queste agiscono su equipaggiamento reale
-Una regola che commuta una pompa la commuta indipendentemente dal fatto che tu stia guardando. Creane una alla volta e controlla che ognuna faccia ciò che ti aspetti prima di aggiungere la successiva.
+:::warning Le regole agiscono sull'attrezzatura vera
+Una regola che spegne una pompa la spegne anche se non stai guardando. Crea una regola alla volta e controlla che faccia quello che ti aspetti prima di aggiungerne un'altra.
 :::
 
-## La forma di una regola
+## Com'è fatta una regola
 
-Ogni regola ha le stesse tre parti:
+Ogni regola ha tre parti:
 
-**Trigger**: cosa la attiva
-**Condizioni**: cosa deve anche essere vero
-**Azioni**: cosa fa poi, in ordine
+**Trigger**: cosa la fa partire
+**Condizioni**: cos'altro deve essere vero
+**Azioni**: cosa fa poi, nell'ordine
 
-## Cosa può attivare una regola
+## Cosa fa partire una regola
 
-Quattro cose:
+Ci sono quattro trigger:
 
 | Trigger | Scatta quando |
 |---|---|
-| **Parametro** | Un parametro supera un valore che imposti, in una direzione che scegli |
-| **Avviso** | Un avviso viene generato, chiuso, o entrambi |
-| **Programma** | Un'ora del giorno, nel tuo stesso fuso orario |
+| **Parametro** | Un parametro supera un valore che hai impostato, nella direzione che scegli |
+| **Avviso** | Un avviso scatta, si chiude, o in tutti e due i casi |
+| **Programma** | È una certa ora del giorno, nel tuo fuso orario |
 | **Stato dispositivo** | Un dispositivo va offline o torna online |
 
 ## Condizioni
 
-Le condizioni decidono se le azioni vengono effettivamente eseguite. Hai i confronti abituali (uguale, non uguale, maggiore di, minore di, e così via) e puoi combinarli con **e**, **o** e **non**.
+Le condizioni decidono se le azioni partono davvero. Hai i confronti di sempre (uguale, diverso, maggiore di, minore di e così via) e puoi combinarli con **e**, **o** e **non**.
 
-C'è anche una condizione di **passo**, che controlla come è andato il passo *precedente*. È questo che ti permette di scrivere "provo questo; se non ha funzionato, fai quest'altro invece."
+Esiste anche una condizione **passo**, che guarda com'è andato il passo *precedente*. Con questa puoi scrivere "prova questo e, se non ha funzionato, fai quest'altro".
 
 ## Cosa può fare una regola
 
-Un'azione che richiede equipaggiamento viene offerta solo su una vasca che ha quell'equipaggiamento:
+Le azioni che richiedono un'attrezzatura compaiono solo nelle vasche che ce l'hanno:
 
 | Azione | Cosa fa |
 |---|---|
-| **Controlla apparecchiatura Apex** | Commuta una presa |
-| **Controlla un'apparecchiatura Red Sea** | Guida un'unità ReefBeat |
-| **Controlla una pompa di movimento** | Imposta il flusso, la modalità onda o la potenza di una pompa Jecod, oppure **Pausa per l'alimentazione**: il Cora Max alla vasca riporta la pompa a posto quando l'alimentazione finisce |
-| **Controlla un'apparecchiatura Cora** | Commuta una presa intelligente |
-| **Controlla dispositivo IR** | Invia un comando infrarossi |
-| **Esegui ciclo di alimentazione Apex** | Avvia un'alimentazione |
-| **Esegui un test Trident** | Attiva un test |
-| **Avvisami** | Invia una notifica push a te stesso |
-| **Attendi prima del passo successivo** | Sospende prima di continuare |
-| **Esegui una scena** | Esegue un'altra scena dall'interno di questa regola |
+| **Controlla apparecchiatura Apex** | Accende o spegne una presa |
+| **Controlla un'apparecchiatura Red Sea** | Comanda un'unità ReefBeat |
+| **Controlla una pompa di movimento** | Imposta flusso, modalità onda o potenza di una pompa Jecod, oppure **Pausa per l'alimentazione**. A fine alimentazione il Cora Max vicino alla vasca rimette la pompa com'era |
+| **Controlla un'apparecchiatura Cora** | Accende o spegne una presa smart |
+| **Controlla dispositivo IR** | Invia un comando a infrarossi |
+| **Esegui ciclo di alimentazione Apex** | Avvia l'alimentazione |
+| **Esegui un test Trident** | Avvia un test |
+| **Avvisami** | Ti manda una notifica push |
+| **Attendi prima del passo successivo** | Fa una pausa prima di continuare |
+| **Esegui una scena** | Avvia una scena dall'interno di questa regola |
 | **Gestisci un'automazione** | Attiva o disattiva un'altra regola |
-| **Dosa una testa DŌS** | Esegue un dosaggio misurato su una testa DŌS |
+| **Dosa una testa DŌS** | Dosa una quantità precisa da una testa DŌS |
 
-:::warning Dosare da una regola è irreversibile e limitato
-Un dosaggio non può essere ritirato dalla vasca. La testa deve essere **calibrata** prima che una regola possa dosare da essa, e il dosaggio non sorvegliato è limitato a **10 mL per testa al giorno**; una regola non può superare quel limite comunque sia scritta. Le azioni di dosaggio appaiono solo una volta che le tue teste sono riconosciute come teste di dosaggio.
+:::warning Un dosaggio da regola non si annulla ed è limitato
+Quello che hai dosato non si può togliere dalla vasca. Una regola può dosare solo da una testa **calibrata**, e senza sorveglianza il limite è **10 mL per testa al giorno**. Nessuna regola può superarlo, comunque sia scritta. Le azioni di dosaggio compaiono solo quando Cora riconosce le tue teste come teste dosatrici.
 :::
 
-:::note Usa Attendi per sequenziare i passi in una regola
-Una pausa permette a una singola regola di eseguire una procedura ordinata (per esempio spegnere una presa, attendere, poi riaccenderla) senza una seconda regola e un programma.
+:::note Con Attendi metti in fila i passi di una regola
+Con una pausa, una sola regola può seguire una procedura in ordine: per esempio spegnere una presa, aspettare e poi riaccenderla. Non ti servono una seconda regola e un programma.
 :::
 
 ## Scene
 
-Una scena è un gruppo di azioni con un nome che puoi eseguire su richiesta, da un programma, o dall'interno di un'altra regola: "Cambio d'acqua", "Modalità foto", "Notte".
+Una scena è un gruppo di azioni con un nome, come "Cambio d'acqua", "Modalità foto" o "Notte". Puoi avviarla quando vuoi, da un programma o dall'interno di un'altra regola.
 
-Una scena può richiamare un'altra scena. Cora si rifiuta di eseguire una scena annidata oltre il suo limite di profondità, e si rifiuta di eseguire una scena che richiamerebbe se stessa, per impedire un ciclo che continuerebbe ad agire sulla vasca indefinitamente.
+Una scena può richiamarne un'altra. Cora non esegue una scena annidata oltre il limite di profondità, né una scena che richiamerebbe se stessa. Così si evita un ciclo che continuerebbe ad agire sulla vasca all'infinito.
 
-Dopo che una scena viene eseguita ti viene detto cosa è successo, passo per passo, incluso qualsiasi cosa sia fallita.
+Quando una scena finisce, Cora ti dice cosa è successo passo per passo, compreso quello che non è riuscito.
 
-Eseguire una scena a mano richiede prima una conferma, poiché una scena può commutare diversi pezzi di equipaggiamento contemporaneamente.
+Se avvii una scena a mano, Cora ti chiede prima di confermare, perché una scena può comandare più apparecchi insieme.
 
 ## Scene create su Cora Max
 
-Le scene possono anche essere create e modificate direttamente su un tablet Cora Max, non solo sul telefono: è lo stesso insieme di scene in entrambi i casi, condiviso su tutto l'account. Se una casa ha un Cora Max più vecchio, può comunque eseguire una scena creata sul telefono; solo la modifica sul dispositivo è una funzione più recente, quindi un tablet più vecchio potrebbe mostrare una scena senza permetterti di modificarla lì. Modificala invece dal telefono.
+Puoi creare e modificare le scene anche direttamente su un tablet Cora Max. Le scene sono le stesse sul telefono e sul Cora Max, condivise in tutto l'account. Un Cora Max più vecchio può comunque eseguire una scena creata sul telefono. La modifica sul dispositivo è arrivata dopo, quindi un tablet più vecchio potrebbe mostrarti la scena senza farti cambiare nulla. In quel caso modificala dal telefono.
 
 ## Disattivare una regola
 
-Ogni regola ha un interruttore di attivazione. Disattivarne una conserva la sua definizione, utile quando la vuoi di nuovo la stagione successiva invece di ricrearla.
+Ogni regola ha un interruttore di attivazione. Se la spegni, la regola resta salvata: comodo se ti servirà di nuovo la prossima stagione e non vuoi rifarla da capo.
 
 ## Vedere cosa ha fatto una regola
 
-Ogni azione eseguita da una regola viene registrata con la regola come sua causa. Vedi **[Attività](/help/mobile-activity)**.
+Ogni azione eseguita da una regola viene registrata con la regola come origine. Vedi **[Attività](/help/mobile-activity)**.

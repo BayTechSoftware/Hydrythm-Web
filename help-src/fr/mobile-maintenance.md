@@ -1,69 +1,69 @@
 ---
 title: Entretien
-description: Tâches récurrentes avec rappels : nettoyage de l’écumeur, chaussettes de filtration, entretien des pompes.
+description: Les tâches qui reviennent, avec des rappels : nettoyage de l’écumeur, chaussettes de filtration, entretien des pompes.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 19
 group: Records
 ---
 
-Entretien contient les tâches récurrentes dont un aquarium a besoin et leurs rappels. Ouvrez-le depuis la ligne de raccourcis en bas du tableau de bord.
+Entretien regroupe les tâches régulières dont votre aquarium a besoin, et leurs rappels. Ouvrez-le depuis la ligne de raccourcis en bas du tableau de bord.
 
 ![La liste d’entretien](img/mobile-maintenance.webp "Conformité, nombre de retards, et chaque tâche avec sa dernière réalisation et sa prochaine échéance.")
 
 ## Le résumé
 
-En haut :
+En haut de l’écran :
 
-- **Conformité de l’entretien** : la proportion de tâches actuellement à jour dans leur calendrier
-- **Nombre en retard** : combien de tâches ont dépassé leur échéance
+- **Conformité de l’entretien** : la part des tâches qui sont à jour
+- **Nombre en retard** : le nombre de tâches qui ont dépassé leur échéance
 
-Chaque tâche de la liste est codée par couleur selon son urgence : en retard, bientôt due, ou programmée. Chaque tâche montre quand elle a été terminée pour la dernière fois et quand elle est due la prochaine fois.
+La couleur de chaque tâche indique son urgence : en retard, bientôt à faire ou programmée. Chaque tâche affiche la date de sa dernière réalisation et sa prochaine échéance.
 
 ## Ajouter une tâche
 
-Donnez-lui un nom, une icône, et sa fréquence en jours. Cora calcule sa prochaine échéance.
+Donnez-lui un nom, une icône et une fréquence en jours. Cora calcule la prochaine échéance.
 
-Tâches typiques :
+Quelques tâches courantes :
 
-| Tâche | Intervalle |
+| Tâche | Fréquence |
 |---|---|
-| Changer les chaussettes de filtration | 3 à 7 jours |
+| Changer les chaussettes de filtration | 3–7 jours |
 | Nettoyer le godet de l’écumeur | 7 jours |
 | Nettoyer la vitre | 7 jours |
 | Remplacer le charbon ou le GFO | 30 jours |
-| Entretenir la pompe de remontée | 90 à 180 jours |
-| Étalonner les sondes | 30 à 90 jours |
+| Entretenir la pompe de remontée | 90–180 jours |
+| Étalonner les sondes | 30–90 jours |
 
 ## Rappels
 
-Chaque tâche peut vous rappeler, et vous contrôlez le moment :
+Chaque tâche peut vous envoyer un rappel. Vous choisissez :
 
-- **Combien de jours avant** son échéance
-- **À quelle heure** le rappel arrive
+- **combien de jours avant** l’échéance
+- **à quelle heure** le rappel arrive
 
-Désactivez les rappels pour une tâche que vous préférez simplement voir dans la liste.
+Si vous préférez simplement voir une tâche dans la liste, coupez ses rappels.
 
-## Marquer une tâche comme terminée
+## Marquer une tâche comme faite
 
-Utilisez le contrôle **Terminé** de la tâche, ou glissez-la. Cora enregistre l’heure de réalisation et programme la prochaine occurrence à partir de ce moment, donc une tâche faite avec trois jours de retard décale la suivante de trois jours plutôt que de prétendre qu’elle a été faite à temps.
+Touchez **Terminé** sur la tâche, ou faites-la glisser. Cora note l’heure et programme la suivante à partir de ce moment. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours. Cora ne fait pas comme si elle avait été faite à temps.
 
-:::note Toucher une tâche l’ouvre pour modification
-Toucher la ligne elle-même ouvre la tâche pour changer son nom, son intervalle ou ses rappels. Utilisez Terminé pour la terminer.
+:::note Toucher une tâche l’ouvre en modification
+Si vous touchez la ligne elle-même, la tâche s’ouvre pour modifier son nom, sa fréquence ou ses rappels. Pour la marquer comme faite, utilisez Terminé.
 :::
 
 ## Reporter
 
-Si vous ne pouvez pas faire une tâche maintenant, reportez-la. Elle reste dans la liste dans un état estompé **Reportée** montrant sa nouvelle date, donc rien ne disparaît ; vous n’êtes simplement pas rappelé à nouveau avant cela.
+Si vous ne pouvez pas faire une tâche tout de suite, reportez-la. Elle reste dans la liste, grisée, avec l’état **Reportée** et sa nouvelle date. Rien ne disparaît. Vous ne recevez simplement plus de rappel d’ici là.
 
-:::warning Ne marquez pas une tâche comme terminée si elle ne l’a pas été
-La prochaine échéance est calculée à partir de la date de réalisation. Marquer une tâche en attente comme terminée décale chaque échéance suivante. Reportez-la plutôt.
+:::warning Ne marquez comme faite qu’une tâche vraiment faite
+La prochaine échéance se calcule à partir de la date de réalisation. Si vous marquez comme faite une tâche en attente, toutes les échéances suivantes se décalent. Reportez-la à la place.
 :::
 
 ## Mettre une tâche en pause
 
-Une tâche peut être rendue inactive (pour un équipement que vous avez mis hors service, ou une tâche qui ne s’applique pas cette saison). Elle reste dans la liste, cesse d’être due, et peut être réactivée plus tard.
+Vous pouvez désactiver une tâche, par exemple pour un équipement que vous avez arrêté ou une tâche hors saison. Elle reste dans la liste mais n’a plus d’échéance. Vous pourrez la réactiver plus tard.
 
-## Entretien et le journal
+## Entretien et journal
 
-Terminer une tâche n’est pas la même chose qu’écrire une entrée de journal. Entretien répond à « qu’est-ce qui est dû ? » ; le **[journal](/help/mobile-journal)** répond à « qu’ai-je réellement fait, et qu’est-il arrivé ensuite ? ». Si une tâche était inhabituelle (la pompe était pleine de sable, les chaussettes étaient noires après un jour), cela appartient aussi au journal.
+Terminer une tâche, ce n’est pas écrire dans le journal. Entretien répond à « qu’est-ce qui est à faire ? ». Le **[journal](/help/mobile-journal)** répond à « qu’ai-je vraiment fait, et que s’est-il passé ensuite ? ». Si une tâche a réservé une surprise (une pompe pleine de sable, des chaussettes noires au bout d’un jour), notez-la aussi dans le journal.

@@ -1,78 +1,78 @@
 ---
 title: Plus d’un appareil Cora
-description: Choisissez quel appareil répond à la voix et lequel interroge chaque aquarium.
+description: Choisissez l’appareil qui répond à la voix et celui qui interroge chaque aquarium.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 29
 group: Account
 ---
 
-Un foyer peut avoir plus d’un Cora Max. Deux réglages déterminent lequel fait quoi, pour qu’ils ne dupliquent pas le travail l’un de l’autre, et une troisième chose qui vaut la peine d’être connue est ce qui est partagé entre eux, ou pas.
+Un foyer peut avoir plusieurs Cora Max. Deux réglages répartissent le travail entre eux, pour qu’ils ne fassent pas deux fois la même chose. Il est aussi utile de savoir ce qu’ils partagent, et ce qu’ils ne partagent pas.
 
 ## Ce qui est partagé, et ce qui ne l’est pas
 
-| Partagé sur chaque appareil | Appartient à un seul écran |
+| Partagé par tous les appareils | Propre à chaque écran |
 |---|---|
 | Aquariums, mesures et historique | Sa mise en page de tableau de bord |
-| Appareils et leurs réglages | Wi-Fi, luminosité, audio |
+| Appareils et leurs réglages | Wi-Fi, luminosité, son |
 | Journal, population, entretien | Mot d’activation et verrouillage enfant |
-| Alertes, seuils, automatisations | Quels aquariums cet écran affiche |
+| Alertes, seuils, automatisations | Les aquariums affichés sur cet écran |
 | Forfaits et utilisation | |
 
-Changer un seuil sur un appareil le change partout. Réarranger un tableau de bord ne le fait pas ; chaque écran garde sa propre mise en page, et le téléphone et le Cora Max n’en partagent jamais une.
+Un seuil changé sur un appareil change partout. Un tableau de bord réorganisé, non. Chaque écran garde sa propre mise en page, et le téléphone et le Cora Max n’en partagent jamais.
 
-## Cora Assistant : appareil répondant
+## Cora Assistant : Appareil répondant
 
-**Réglages → Cora Assistant → Appareil répondant** choisit quel **appareil Cora** répond quand vous parlez à la pièce. Un seul répond, quel que soit le nombre qui peut vous entendre ; réglez-le sur l’unité la plus proche de l’endroit où vous vous tenez habituellement.
+**Réglages → Cora Assistant → Appareil répondant** choisit l’**appareil Cora** qui répond quand vous parlez dans la pièce. Un seul répond, même si plusieurs vous entendent. Choisissez celui qui est le plus près de l’endroit où vous vous tenez d’habitude.
 
-C’est un choix différent de Cora Max principal ci-dessous : Appareil répondant détermine quel appareil répond à votre voix, et Cora Max principal détermine quel appareil interroge l’équipement d’un aquarium. Un foyer avec deux tablettes peut vouloir régler chacun différemment.
+Ce choix est différent de Cora Max principal, décrit plus bas. Appareil répondant décide quel appareil répond à votre voix. Cora Max principal décide quel appareil interroge l’équipement d’un aquarium. Avec deux Cora Max, vous voudrez peut-être régler ces deux choix différemment.
 
 ![Le sélecteur de répondeur vocal](img/mobile-voice-responder.webp "Chaque appareil montre ce qu’il écoute, et s’il est en ligne.")
 
-Chaque appareil de la liste montre le mot d’activation qu’il écoute, ainsi que s’il est en ligne. **Ce ne sont pas tous les mêmes.** Un mot d’activation est entraîné dans l’appareil lui-même, donc différents modèles de Cora peuvent en écouter des différents. Lisez le mot d’activation sur la propre ligne de l’appareil plutôt que de supposer que le foyer en partage un seul.
+Chaque appareil de la liste indique le mot d’activation qu’il attend, et s’il est en ligne. **Ce mot n’est pas le même partout.** Le mot d’activation est appris par l’appareil lui-même, et des modèles de Cora différents peuvent attendre des mots différents. Lisez-le sur la ligne de chaque appareil, sans supposer que tout le foyer utilise le même.
 
-:::note Votre téléphone n’est pas dans ce sélecteur
-Le téléphone n’écoute pas de mot d’activation. Vous démarrez une conversation en le touchant, ce qui fonctionne toujours et n’est pas affecté par ce réglage. Le sélecteur ne liste que le matériel Cora capable de voix.
+:::note Votre téléphone n’apparaît pas dans cette liste
+Le téléphone n’attend pas de mot d’activation. Vous lancez une conversation en touchant l’écran. Cela marche toujours, quel que soit ce réglage. La liste ne montre que le matériel Cora doté de la voix.
 :::
 
 ## Cora Max principal
 
-L’équipement de votre réseau est lu par un Cora Max. Quand plus d’un pourrait lire le même contrôleur, ils l’interrogeraient sinon en parallèle.
+L’équipement de votre réseau est lu par un Cora Max. Si plusieurs Cora Max peuvent lire le même contrôleur, ils l’interrogent tous en parallèle, sauf si vous en désignez un.
 
-**Cora Max principal** est un choix par aquarium de quel appareil lit le contrôleur de cet aquarium. Dans Cora Mobile, ouvrez l’aquarium et touchez **Cora Max principal**.
+**Cora Max principal** se règle pour chaque aquarium. Il désigne l’appareil qui lit le contrôleur de cet aquarium. Dans Cora Mobile, ouvrez l’aquarium et touchez **Cora Max principal**.
 
-| Réglage | Comportement |
+| Réglage | Fonctionnement |
 |---|---|
-| Un appareil nommé | Il devient le seul appareil Cora qui interroge le contrôleur, et il reste le principal même quand il est hors ligne : les autres appareils Cora ne prennent pas le relais. Cora Mobile interroge seulement quand il est hors ligne. |
-| **Tout appareil actif (automatique)** | L’application et tout appareil Cora en ligne partagent le travail (la dernière écriture l’emporte), donc si l’un passe hors ligne, un autre continue. Convient à un foyer à un seul appareil, et le choix par défaut plus sûr quand vous n’êtes pas sûr de quel appareil devrait le posséder. |
+| Un appareil précis | Il devient le seul appareil Cora à interroger le contrôleur. Il reste le principal même s’il est hors ligne, et les autres appareils Cora ne prennent pas le relais. Cora Mobile n’interroge le contrôleur que pendant que cet appareil est hors ligne. |
+| **Tout appareil actif (automatique)** | Cora Mobile et tous les appareils Cora en ligne se partagent le travail (la dernière écriture l’emporte). Si l’un se déconnecte, un autre continue. Convient à un foyer avec un seul appareil, et c’est le choix le plus sûr si vous hésitez. |
 
-Tant qu’un appareil que vous avez nommé est hors ligne, une commande qui doit passer par lui ne s’exécute pas : Cora vous dit que l’aquarium est réglé pour utiliser cet appareil, qu’il est hors ligne, et que rien ne s’est exécuté, pour que vous puissiez réessayer une fois qu’il est de retour. S’il doit rester hors ligne un moment, choisissez un autre appareil ou **Tout appareil actif (automatique)**.
+Tant que l’appareil choisi est hors ligne, une commande qui doit passer par lui ne s’exécute pas. Cora vous indique que l’aquarium utilise cet appareil, qu’il est hors ligne et que rien ne s’est exécuté. Vous pouvez réessayer quand il est de retour. S’il doit rester hors ligne un moment, choisissez un autre appareil ou **Tout appareil actif (automatique)**.
 
-:::note Réglez un principal quand deux appareils surveillent un aquarium
-Nommer un principal réduit la charge sur le contrôleur et retire les mesures dupliquées de la même source.
+:::note Choisissez un principal quand deux appareils suivent un même aquarium
+Avec un principal, le contrôleur est moins sollicité, et vous n’avez plus de mesures en double pour la même source.
 :::
 
-:::note C’est un réglage à l’échelle du compte, par aquarium, pas par appareil
-Cora Max principal appartient à l’aquarium, pas au téléphone ou à la tablette que vous regardez. Le changer depuis n’importe quel appareil le change pour tout le foyer.
+:::note Ce réglage vaut pour tout le compte, aquarium par aquarium
+Cora Max principal appartient à l’aquarium, pas au téléphone ni au Cora Max que vous avez en main. Si vous le changez depuis un appareil, il change pour tout le foyer.
 :::
 
-## Ce qui fonctionne loin de chez vous
+## Ce qui marche quand vous n’êtes pas chez vous
 
-Votre téléphone ne parle pas directement à votre équipement quand vous êtes loin du Wi-Fi de votre aquarium. Au lieu de cela, une commande voyage jusqu’à Cora Cloud, qui la transmet à un Cora Max présent à l’aquarium ; c’est ce Cora Max qui atteint réellement l’équipement.
+Loin du Wi-Fi de votre aquarium, votre téléphone ne parle pas directement à votre équipement. La commande passe par Cora Cloud, qui la transmet à un Cora Max installé près de l’aquarium. C’est ce Cora Max qui agit sur l’équipement.
 
-Cela signifie :
+En pratique :
 
 - **Les mesures et l’historique** sont toujours disponibles, où que vous soyez, car ils sont déjà stockés dans Cora Cloud.
-- **Contrôler l’équipement** (commuter une prise, démarrer un nourrissage, doser une tête, mettre une pompe en pause) fonctionne aussi loin de chez vous, tant qu’un Cora Max à l’aquarium est en ligne et peut atteindre cet équipement. S’il n’y en a aucun, la commande ne peut pas être délivrée.
-- **Les réglages propres à un appareil** (par opposition à ses mesures) ont parfois besoin d’un téléphone sur le *même* réseau que l’appareil lui-même, pas seulement d’un Cora Max à l’aquarium. Là où cela s’applique, la page le précise.
+- **Le pilotage de l’équipement** (allumer ou éteindre une prise, lancer un nourrissage, doser avec une tête, mettre une pompe en pause) marche aussi à distance, tant qu’un Cora Max près de l’aquarium est en ligne et peut joindre l’équipement. Sinon, la commande ne peut pas arriver.
+- **Les réglages internes d’un appareil** (pas ses mesures) demandent parfois un téléphone sur le *même* réseau que l’appareil. Un Cora Max près de l’aquarium ne suffit pas toujours. Dans ce cas, la page le précise.
 
-Deux messages vous disent que la commande n’a pas simplement réussi :
+Deux messages signalent qu’une commande n’a pas abouti normalement.
 
-- **« Rien n’a été envoyé »** : la commande n’a jamais quitté votre téléphone, ou aucun Cora Max à l’aquarium n’a pu la prendre. Rien ne s’est exécuté. C’est ce que vous verrez si le Cora Max principal de l’aquarium est hors ligne et qu’aucun autre appareil sur cet aquarium ne peut prendre le relais.
-- **« Cela a peut-être déjà été exécuté »** : la commande a été envoyée, mais aucun Cora Max n’a répondu à temps pour la confirmer. Cora ne sait réellement pas si elle s’est exécutée. Vérifiez l’état propre de l’équipement avant de réessayer, pour ne pas l’envoyer deux fois.
+- **« Rien n’a été envoyé »** : la commande n’est jamais partie de votre téléphone, ou aucun Cora Max près de l’aquarium n’a pu la prendre. Rien ne s’est exécuté. Vous verrez ce message si le Cora Max principal de l’aquarium est hors ligne et qu’aucun autre appareil de cet aquarium ne peut prendre le relais.
+- **« Cela a peut-être déjà été exécuté »** : la commande est partie, mais aucun Cora Max n’a confirmé à temps. Cora ne sait vraiment pas si elle s’est exécutée. Regardez l’état de l’équipement avant de réessayer, pour ne pas l’envoyer deux fois.
 
-Si l’un des deux messages continue d’apparaître, vérifiez qu’un Cora Max à l’aquarium est en ligne, ou réglez **Cora Max principal** sur **Tout appareil actif (automatique)** pour que tout appareil en ligne puisse prendre la commande. Voir [Contrôler votre équipement](/help/mobile-device-control) pour tous les résultats qu’une commande peut avoir.
+Si l’un de ces messages revient souvent, vérifiez qu’un Cora Max près de l’aquarium est en ligne. Vous pouvez aussi régler **Cora Max principal** sur **Tout appareil actif (automatique)**, pour que n’importe quel appareil en ligne puisse prendre la commande. Tous les résultats possibles d’une commande sont décrits dans [Contrôler votre équipement](/help/mobile-device-control).
 
-## Où l’état de chaque appareil est affiché
+## Où voir l’état de chaque appareil
 
-Cora Max signale son propre état d’interrogation et de voix sous **Réglages → Cora Max → Micrologiciel → État et commandes de l’appareil**. Voir [Appareils et état des appareils](/help/max-devices).
+Cora Max indique l’état d’interrogation de chaque aquarium dans **Réglages → Réglages Cora Max → État**. Voir [Appareils et état des appareils](/help/max-devices).

@@ -1,52 +1,52 @@
 ---
 title: Benachrichtigungen
-description: Wähle, was dein Handy erreicht, wann es ankommen darf, und wo du nachliest, was du verpasst hast.
+description: Leg fest, was auf deinem Handy ankommt, und finde heraus, wo du nachliest, was du verpasst hast.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 16
 group: Alerts and automation
 ---
 
-**Einstellungen → Benachrichtigungen** steuert alles, was Cora dir senden darf.
+Unter **Einstellungen → Benachrichtigungen** legst du fest, was Cora dir alles schicken darf.
 
 ![Benachrichtigungseinstellungen](img/mobile-notifications.webp "Jede Kategorie kann unabhängig senden.")
 
-## Was senden darf
+## Was Push-Nachrichten schicken darf
 
-Jede Kategorie wird unabhängig geschaltet:
+Jede Kategorie hat ihren eigenen Schalter:
 
-| Kategorie | Umfasst |
+| Kategorie | Worum es geht |
 |---|---|
-| **Wasserwert-Warnungen** | Wasserchemie außerhalb eines von dir festgelegten Bereichs |
-| **Wartungserinnerungen** | Von dir geplante Aufgaben, wie Wasserwechsel |
-| **Gerätefehler** | Ein Gerät meldet ein Problem: ein Trident, der aufgehört hat zu testen, zum Beispiel |
-| **Vorräte werden knapp** | Reagenz, Nachfüllwasser, Dosierbehälter, und eine volle Abfallflasche |
-| **ICP-Bericht bereit** | Deine ICP-Ergebnisse sind analysiert und bereit zum Lesen |
+| **Wasserwert-Warnungen** | Die Wasserchemie liegt außerhalb eines Bereichs, den du festgelegt hast |
+| **Wartungserinnerungen** | Aufgaben, die du geplant hast, etwa Wasserwechsel |
+| **Gerätefehler** | Ein Gerät meldet ein Problem, zum Beispiel ein Trident, der nicht mehr testet |
+| **Vorräte werden knapp** | Reagenz, Nachfüllwasser, Dosierbehälter und eine volle Abfallflasche |
+| **ICP-Bericht bereit** | Deine ICP-Ergebnisse sind ausgewertet und können gelesen werden |
 
-Eine Kategorie auszuschalten stoppt den Push. Das Ereignis wird trotzdem erfasst und erscheint weiterhin in der Glocke.
+Schaltest du eine Kategorie aus, kommt keine Push-Nachricht mehr. Das Ereignis wird trotzdem gespeichert und erscheint weiter in der Glocke.
 
-:::warning "Wasserwert-Warnungen" bedeutet Chemie, und nur Chemie
-Es ist naheliegend, diesen Schalter so zu lesen, als würde er alles abdecken, was das Becken dir mitteilen könnte. Das tut er nicht. Ein Trident, der aufgehört hat zu testen, ist ein **Gerätefehler**, und ausgehendes Reagenz ist **Vorräte werden knapp**; jedes hat seinen eigenen Schalter. Wenn Wasserwert-Warnungen bei dir schon lange eingeschaltet ist und du angenommen hast, dass das den Rest abdeckt, prüf die anderen beiden.
+:::warning "Wasserwert-Warnungen" heißt nur Wasserchemie
+Man könnte meinen, dieser Schalter deckt alles ab, was das Becken dir mitteilen will. Das stimmt nicht. Ein Trident, der nicht mehr testet, ist ein **Gerätefehler**. Geht das Reagenz aus, fällt das unter **Vorräte werden knapp**. Beide haben einen eigenen Schalter. Hast du die Wasserwert-Warnungen schon lange an und dachtest, das reicht, prüf die anderen beiden.
 :::
 
-**Vorräte werden knapp umfasst auch die Abfallflasche**, die sich füllt statt leerläuft. Sie ist in dieser Kategorie, weil die nötige Handlung dieselbe ist: etwas leeren oder ersetzen, bevor es die Tests stoppt.
+**Vorräte werden knapp** umfasst auch die Abfallflasche, obwohl sie voll- und nicht leerläuft. Du musst ja dasselbe tun: etwas leeren oder ersetzen, bevor die Tests stoppen.
 
 ## Die Glocke
 
-Oben rechts auf jedem Bildschirm. Sie enthält alles, was Cora ausgelöst hat, neueste zuerst, ob es gesendet wurde oder nicht. Die Zahl zeigt, was du noch nicht gelesen hast.
+Die Glocke sitzt oben rechts auf jedem Bildschirm. Darin steht alles, was Cora gemeldet hat, das Neueste zuerst, egal ob es eine Push-Nachricht gab oder nicht. Die Zahl zeigt, was du noch nicht gelesen hast.
 
-Das ist der richtige Ort, um nach einem Tag ohne Handy nachzusehen, oder nachdem eine ausgeschaltete Kategorie etwas ausgelöst hat.
+Hier schaust du nach, wenn du einen Tag lang nicht aufs Handy geschaut hast oder wenn eine ausgeschaltete Kategorie etwas gemeldet hat.
 
 ## Wenn nichts ankommt
 
 Geh diese Liste durch:
 
-1. **Einstellungen → Benachrichtigungen**: Darf diese Kategorie senden?
-2. Die eigenen Einstellungen deines Handys: Darf Cora überhaupt benachrichtigen? Eine bei der Installation verweigerte Berechtigung übersteuert alles hier.
-3. Gibt es überhaupt etwas zu senden? Reef Buddy bleibt an Tagen still, an denen sich nichts geändert hat.
+1. **Einstellungen → Benachrichtigungen**: Darf diese Kategorie Push-Nachrichten schicken?
+2. Die Einstellungen deines Handys: Darf Cora überhaupt benachrichtigen? Hast du die Berechtigung bei der Installation abgelehnt, hilft keine Einstellung hier.
+3. Gibt es überhaupt etwas zu melden? An Tagen, an denen sich nichts geändert hat, bleibt Reef Buddy still.
 
 ## Wenn zu viel ankommt
 
-Überprüfe deine Schwellenwerte, bevor du Benachrichtigungen deaktivierst. Übermäßige Warnungen deuten meist auf einen Bereich hin, der enger eingestellt ist, als das Becken tatsächlich läuft, oder auf eine Quelle, die kalibriert werden muss. Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts).
+Schau dir erst deine Schwellenwerte an, bevor du Benachrichtigungen abschaltest. Viele Warnungen bedeuten meist, dass ein Bereich enger eingestellt ist, als dein Becken läuft, oder dass eine Quelle kalibriert werden muss. Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
-Eine Kategorie auszuschalten ist für diese Kategorie alles oder nichts. Wenn statt dessen eine bestimmte Warnung zu oft sendet, ändere ihre **Abklingzeit zwischen Warnungen** an der Regel selbst, von 15 Minuten bis zu 1 Woche, statt die ganze Kategorie auszuschalten. Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts) für die Abklingzeit-Optionen und was "Schlummern" auf Cora Max bedeutet.
+Eine Kategorie schaltest du immer ganz ein oder ganz aus. Meldet sich nur eine bestimmte Warnung zu oft, ändere lieber an ihrer Regel die **Abklingzeit zwischen Warnungen**, von 15 Minuten bis zu 1 Woche. Die ganze Kategorie musst du dann nicht abschalten. Die möglichen Abklingzeiten und was "Schlummern" am Cora Max bedeutet, findest du unter [Warnungen und Schwellenwerte](/help/mobile-alerts).

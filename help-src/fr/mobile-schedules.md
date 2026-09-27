@@ -1,13 +1,13 @@
 ---
 title: Programmer l’équipement
-description: Créez un programme journalier pour une pompe Jecod et copiez-le entre pompes, et consultez le programme d’une pompe de brassage Maxspect (bêta).
+description: Créez un programme journalier pour une pompe Jecod, copiez-le vers d’autres pompes, et consultez le programme d’une pompe Maxspect (bêta).
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 12
 group: Equipment
 ---
 
-Les pompes et pompes de brassage peuvent exécuter un **programme journalier** : un ensemble de périodes, chacune avec sa propre intensité, qui se répète chaque jour. Cora peut les créer directement pour les pompes Jecod. Le programme d’une pompe de brassage Maxspect *(bêta)* ne peut être que consulté ici : réglez-le dans l’application Maxspect.
+Les pompes, dont les pompes Gyre, peuvent suivre un **programme journalier**. C’est une suite de périodes, chacune avec sa propre intensité, qui se répète tous les jours. Cora peut créer ces programmes directement pour les pompes Jecod. Pour une pompe Maxspect *(bêta)*, vous pouvez seulement consulter le programme ici. Il se règle dans l’application Maxspect.
 
 Ouvrez l’appareil depuis l’onglet **Appareils**.
 
@@ -15,56 +15,56 @@ Ouvrez l’appareil depuis l’onglet **Appareils**.
 
 ## Constant toute la journée, ou Programme
 
-Une pompe fonctionne selon l’un de deux modes, choisi en haut de sa page :
+Une pompe fonctionne dans l’un de ces deux modes, à choisir en haut de sa page :
 
-- **Constant toute la journée** : une intensité, en permanence
-- **Programme** : un programme journalier avec des périodes
+- **Constant toute la journée** : une seule intensité, en continu
+- **Programme** : un programme journalier découpé en périodes
 
-Votre choix est envoyé à la pompe, via le Cora Max de l’aquarium quand votre téléphone n’est pas sur le réseau de la pompe. Une pompe Bluetooth doit être à portée : jusqu’à ce qu’elle le soit, choisir ici ne change que ce que vous regardez.
+Votre choix est envoyé à la pompe. Si votre téléphone n’est pas sur le réseau de la pompe, il passe par le Cora Max de l’aquarium. Une pompe Bluetooth doit être à portée. Tant qu’elle ne l’est pas, votre choix ne change que l’affichage.
 
 ## L’éditeur de programme
 
-Chaque écran de programme a les mêmes trois parties :
+Chaque écran de programme a trois parties.
 
-**Le graphique journalier** : toute la journée de 0 à 24 heures, avec chaque période dessinée comme un bloc dont la hauteur est son intensité. C’est la façon la plus rapide de voir si un programme fait ce que vous pensez.
+**Le graphique de la journée** couvre les 24 heures. Chaque période y forme un bloc dont la hauteur correspond à l’intensité. C’est le moyen le plus rapide de vérifier qu’un programme fait bien ce que vous pensez.
 
-**La liste des périodes** : chaque période sous le graphique, avec ses heures, son mode et son intensité : *Aléatoire, 00:00–03:00, Fréq 50 %, 40 %*. Ajoutez, modifiez et retirez des périodes ici.
+**La liste des périodes**, sous le graphique, indique pour chacune ses horaires, son mode et son intensité, par exemple *Aléatoire, 00:00–03:00, Fréq 50 %, 40 %*. C’est ici que vous ajoutez, modifiez et retirez des périodes.
 
-**Ajouter et modifier des périodes** : **Ajouter au programme** ajoute une période. Ouvrez une période pour la modifier et touchez **Enregistrer**, ou **Supprimer**-la ; on vous demande de confirmer avant qu’elle ne parte.
+Pour **ajouter ou modifier une période**, touchez **Ajouter au programme** pour en créer une. Ouvrez une période pour la modifier, puis touchez **Enregistrer**, ou **Supprimer** pour la retirer. Cora vous demande de confirmer avant de la supprimer.
 
-Une pompe de brassage Maxspect *(bêta)* a deux têtes, affichées comme Gyre A et Gyre B, donc son graphique journalier a deux pistes, une pour chacune, et ses plans sont listés sous **GYRE A** et **GYRE B**. Le programme d’une pompe de brassage est en lecture seule : sa ligne d’action indique **Lecture seule**, et le programme se règle dans l’application Maxspect.
+Une pompe Maxspect *(bêta)* a deux têtes, Gyre A et Gyre B. Son graphique a donc deux pistes, une par tête, et ses plans sont listés sous **GYRE A** et **GYRE B**. Son programme est en lecture seule. La ligne d’action indique **Lecture seule**, et le programme se règle dans l’application Maxspect.
 
-:::warning Un programme est écrit sur l’appareil
-Enregistrer envoie le programme à l’équipement, qui l’exécute ensuite selon sa propre horloge. Il continue de s’exécuter que Cora soit accessible ou non.
+:::warning Le programme est écrit dans l’appareil
+Quand vous enregistrez, le programme est envoyé à l’équipement, qui le suit ensuite avec sa propre horloge. Il continue de tourner, que Cora soit joignable ou non.
 :::
 
-## Copier un programme entre pompes
+## Copier un programme vers une autre pompe
 
-Si vous gérez plusieurs pompes qui devraient se comporter de la même façon, créez un programme et copiez-le.
+Si plusieurs pompes doivent se comporter de la même façon, créez un programme puis copiez-le.
 
-Ouvrez la pompe dont vous voulez le programme, puis **Copier le programme vers…**, et choisissez la pompe vers laquelle le copier.
+Ouvrez la pompe dont vous voulez reprendre le programme, touchez **Copier le programme vers…**, puis choisissez la pompe de destination.
 
 ## Garder et partager un programme
 
-Un programme dont vous êtes satisfait n’a pas besoin d’être recréé :
+Un programme qui vous convient n’est pas à refaire.
 
-- **Enregistrer le programme sous…** le garde sous un nom, et **Programmes enregistrés…** l’applique à nouveau plus tard.
-- **Partager ce programme** le transforme en un code court, et **Coller un code de programme…** applique celui que quelqu’un vous a envoyé. C’est une fonctionnalité de Cora Mobile ; le code porte le programme, pas un accès à votre compte.
+- **Enregistrer le programme sous…** le garde sous un nom. Vous le réappliquez plus tard depuis **Programmes enregistrés…**.
+- **Partager ce programme** le transforme en code court. **Coller un code de programme…** applique un code qu’on vous a envoyé. Cette fonction est propre à Cora Mobile. Le code contient le programme, et ne donne aucun accès à votre compte.
 
 ## Loin du réseau de la pompe
 
-Quand votre téléphone n’est pas sur le réseau de la pompe, Cora Mobile fonctionne via le Cora Max de l’aquarium, avec des limites :
+Quand votre téléphone n’est pas sur le réseau de la pompe, Cora Mobile passe par le Cora Max de l’aquarium, avec quelques limites.
 
-- **Constant toute la journée** et **Programme** commutent la pompe via ce Cora Max.
-- Une période que vous ajoutez ou modifiez passe par lui seulement s’il a atteint la pompe dans la dernière heure. Si ce n’est pas le cas, le programme le dit et ne peut pas être changé de là où vous êtes.
-- **Copier le programme vers…**, **Enregistrer le programme sous…**, **Programmes enregistrés…**, **Partager ce programme** et **Coller un code de programme…** nécessitent que votre téléphone soit sur le réseau de la pompe. Jusqu’à ce moment-là, ces options sont grisées, et le menu indique pourquoi.
+- **Constant toute la journée** et **Programme** changent le mode de la pompe par ce Cora Max.
+- Une période ajoutée ou modifiée ne passe par lui que s’il a joint la pompe dans la dernière heure. Sinon, le programme l’indique, et vous ne pouvez pas le modifier d’où vous êtes.
+- **Copier le programme vers…**, **Enregistrer le programme sous…**, **Programmes enregistrés…**, **Partager ce programme** et **Coller un code de programme…** demandent que votre téléphone soit sur le réseau de la pompe. En attendant, ces options sont grisées et le menu explique pourquoi.
 
-Une pompe Bluetooth ne peut être atteinte que depuis un téléphone à proximité : restez à portée pour la commuter, changer son programme ou utiliser l’un de ces éléments.
+Une pompe Bluetooth n’est joignable que depuis un téléphone proche. Restez à portée pour changer son mode, modifier son programme ou utiliser l’une de ces options.
 
-## Appliquer un programme
+## Appliquer un programme tout prêt
 
-Une pompe peut aussi recevoir un programme préparé en une seule étape, plutôt qu’en créant des périodes à la main.
+Une pompe peut aussi recevoir un programme préparé en une seule étape, sans créer les périodes à la main.
 
-## Vérifier que cela a fonctionné
+## Vérifier que le programme est passé
 
-Après l’enregistrement, la page de l’appareil affiche le programme réellement exécuté par l’unité. Si les deux ne correspondent pas, l’écriture n’a pas abouti ; vérifiez que l’appareil est accessible et réessayez.
+Après l’enregistrement, la page de l’appareil affiche le programme que la pompe exécute vraiment. S’il ne correspond pas au vôtre, l’écriture a échoué. Vérifiez que l’appareil est joignable et réessayez.

@@ -1,58 +1,58 @@
 ---
 title: Canlılar
-description: Akvaryumda ne olduğunun, ne zaman geldiğinin ve ona ne olduğunun bir kaydını tutun.
+description: Akvaryumda neler olduğunu, ne zaman geldiklerini ve onlara ne olduğunu kaydedin.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 20
 group: Records
 ---
 
-Canlılar, akvaryumun tuttuklarını (mercanlar, balıklar ve omurgasızlar) her öğenin ne zaman eklendiği ve geçerli durumuyla birlikte kaydeder. Panonun altındaki kısayol satırından açın.
+Canlılar ekranı, akvaryumdaki mercanları, balıkları ve omurgasızları kaydeder. Her kaydın ne zaman eklendiği ve şu anki durumu da burada tutulur. Ekranı panonun altındaki kısayol satırından açın.
 
-![Canlı envanteri](img/mobile-livestock.webp "Envanter özeti ve son kayıplar, türe göre gruplanmış kayıtlarla.")
+![Canlı envanteri](img/mobile-livestock.webp "Envanter özeti ve son kayıplar. Kayıtlar türe göre gruplanır.")
 
 ## Özet
 
-Üstte:
+Üst kısımda şunlar var:
 
-- **Envanter Özeti**: mercanlar, balıklar ve omurgasızlar gibi geniş kategoriye göre toplamlar
-- **Kayıplar**: son 90 günde kaç kaydın kayıp olarak işaretlendiği
+- **Envanter Özeti**: mercan, balık ve omurgasız gibi ana gruplara göre toplamlar
+- **Kayıplar**: son 90 günde kayıp olarak işaretlenen kayıt sayısı
 
-Kayıtlar türe göre gruplanır (SPS mercanı, LPS mercanı, yumuşak mercan, balık vb.), her biri miktarını ve eklendiği tarihi gösterir.
+Kayıtlar türe göre gruplanır (SPS mercan, LPS mercan, yumuşak mercan, balık gibi). Her kayıtta miktar ve eklenme tarihi görünür.
 
-Üst çubuktaki **Kayıpları Göster**, artık akvaryumda olmayan öğeleri içerir.
+Artık akvaryumda olmayanları da görmek için üst çubuktaki **Kayıpları Göster**'e dokunun.
 
-## Bir şey ekleme
+## Kayıt ekleme
 
-Her kayıt şunları alır:
+Her kayıtta şu alanlar var:
 
-- **Ad**: ona ne dediğiniz
-- **Tür**: SPS mercanı, LPS mercanı, yumuşak mercan, balık, omurgasız, deniz anemonu, veya diğer
-- **Tür (bilimsel)**: biliyorsanız isteğe bağlı
-- **Miktar**: bir sürü veya bir frag paketi gibi bir grup için
+- **Ad**: canlıya verdiğiniz ad
+- **Tür**: SPS mercan, LPS mercan, yumuşak mercan, balık, omurgasız, anemon ya da diğer
+- **Tür (bilimsel)**: biliyorsanız doldurun, zorunlu değil
+- **Miktar**: sürü ya da frag paketi gibi gruplar için
 - **Eklenme tarihi**: varsayılan olarak bugün
-- **Notlar**: tedarikçi, yerleşim, maliyet, veya tutmak istediğiniz başka herhangi bir ayrıntı
+- **Notlar**: tedarikçi, yerleşim, fiyat ya da saklamak istediğiniz başka bir ayrıntı
 
-## Ona ne oldu
+## Canlıya ne oldu
 
-Her kayıt bir durum taşır:
+Her kaydın bir durumu var:
 
 | Durum | Anlamı |
 |---|---|
 | **Canlı** | Hâlâ akvaryumda |
 | **Kayıp** | Öldü |
-| **Parçalandı** | Kesildi; koloni sürüyor |
+| **Parçalandı** | Kesildi, koloni yaşamaya devam ediyor |
 | **Satıldı** | Başka birine gitti |
-| **Taşındı** | Diğer akvaryumlarınızdan birinde |
+| **Taşındı** | Başka bir akvaryumunuzda |
 
-Bir öğeyi **kayıp** olarak işaretlemek tarihi ve isteğe bağlı olarak bir nedeni kaydeder. Kayıpları düzenli olarak kaydetmek, sonradan örüntüleri görünür kılan şeydir: akvaryumun bir bölgesinde yoğunlaşan kayıplar, veya belirli bir olayı takip eden kayıplar.
+Bir canlıyı **kayıp** olarak işaretlediğinizde tarih kaydedilir. İsterseniz nedenini de yazabilirsiniz. Kayıpları düzenli kaydederseniz ileride örüntüleri görürsünüz. Örneğin kayıplar akvaryumun bir köşesinde toplanıyor olabilir ya da belli bir olayın ardından gelmiş olabilir.
 
-:::note "Bilinmiyor" geçerli bir kayıp nedenidir
-Neden bilinmediğinde bile tarihi kaydedin. Sonraki karşılaştırmayı destekleyen şey tarihtir.
+:::note Neden olarak "Bilinmiyor" da yazabilirsiniz
+Nedeni bilmeseniz de tarihi kaydedin. Sonradan karşılaştırma yaparken işinize yarayan tarihtir.
 :::
 
-## Canlılar ve Cora'nın diğer her şeyi
+## Canlılar ve Cora'nın geri kalanı
 
-Canlı yükünüz, parametrelerinizin karşı değerlendirildiği şeyin bir parçasıdır; yoğun stoklu bir SPS sistemi ve az stoklu bir softie akvaryumu aynı standarda tutulmaz.
+Cora parametrelerinizi değerlendirirken canlı yükünüzü de hesaba katar. Kalabalık bir SPS sistemiyle az canlılı bir yumuşak mercan akvaryumu aynı ölçüte göre değerlendirilmez.
 
-Onun hakkında da sorabilirsiniz. *"Çakmak mercanını ne zaman ekledim?"* veya *"Bu yıl ne kaybettim?"* bu kayıttan yanıtlanır.
+Canlılarınızla ilgili soru da sorabilirsiniz. *"Çekiç mercanını ne zaman ekledim?"* ya da *"Bu yıl neleri kaybettim?"* gibi soruların yanıtı bu kayıttan gelir.

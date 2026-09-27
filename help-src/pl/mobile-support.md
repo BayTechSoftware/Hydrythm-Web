@@ -1,49 +1,49 @@
 ---
 title: Pomoc
-description: Zgłoś problem z wewnątrz Cora Mobile i co jest z nim wysyłane.
+description: Jak zgłosić problem prosto z Cora Mobile i co jest wysyłane razem ze zgłoszeniem.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Zgłoszenie problemu z wewnątrz Cora Mobile jest bardziej użyteczne niż opisanie go później, bo Cora Mobile może dołączyć szczegóły, które są trudne do zapamiętania.
+Zgłoszenie wysłane prosto z Cora Mobile przydaje się bardziej niż opis problemu po czasie. Cora Mobile dołącza szczegóły, które trudno potem zapamiętać.
 
-**Ustawienia → Report a Bug / Send Feedback.**
+**Ustawienia → Zgłoś błąd / wyślij opinię.**
 
 ## Co wypełniasz
 
-Formularz pyta o dwie rzeczy: **jakiego rodzaju jest to sprawa**, aby zgłoszenie trafiło we właściwe miejsce, i **co się stało** własnymi słowami.
+Formularz pyta o dwie rzeczy: **czego dotyczy zgłoszenie**, żeby trafiło we właściwe miejsce, i **co się stało**, opisane własnymi słowami.
 
-Bądź konkretny co do tego, czego się spodziewałeś i co zobaczyłeś w zamian. "Alkaliczność pokazywała 2 dni wiek na pulpicie, gdy Apex czytał prawidłowo" jest wartościowsze niż "odczyty nie działają".
+Napisz konkretnie, czego się spodziewasz i co widzisz. „Alkaliczność na pulpicie miała 2 dni, choć Apex odczytywał ją normalnie” pomoże bardziej niż „odczyty nie działają”.
 
-## Co jest dołączane automatycznie
+## Co dołącza się automatycznie
 
-Krótka linia kontekstu idzie z każdym zgłoszeniem, a formularz pokazuje ją Tobie przed wysłaniem:
+Do każdego zgłoszenia dołącza się krótka linijka z kontekstem. Formularz pokazuje ją przed wysłaniem:
 
 - **wersja aplikacji**
-- Twoja **platforma** i wersja systemu
-- **ekran**, na którym byłeś, gdy otworzyłeś formularz
+- **platforma** i wersja systemu
+- **ekran**, z którego otwarto formularz
 
-To jest to, co zamienia "nie działało" w coś powtarzalnego. Jest wyświetlane, a nie skryte, więc nic nie jest wysyłane, czego nie widziałeś.
+Dzięki temu „nie działało” zamienia się w coś, co da się odtworzyć. Linijka jest widoczna, więc nie wysyłamy niczego, czego nie widzisz.
 
 ## Zrzuty ekranu
 
-**Dołącz zrzut ekranu** dodaje obraz do zgłoszenia, a **Usuń zrzut ekranu** zdejmuje go z powrotem przed wysłaniem.
+**Dołącz zrzut ekranu** dodaje obraz do zgłoszenia, a **Usuń zrzut ekranu** usuwa go przed wysłaniem.
 
-:::warning Zrzut ekranu jest widoczny dla wsparcia Cory
-Cora Mobile mówi to wprost nad kontrolką. Sprawdź obraz przed dołączeniem; zrzut ekranu pulpitu niesie nazwy Twoich akwariów i odczyty, i wszystko inne, co było na ekranie w tamtym momencie.
+:::warning Zrzut ekranu zobaczy zespół pomocy Cory
+Cora Mobile pisze o tym wprost nad przyciskiem. Zanim dołączysz zrzut, przejrzyj go. Zrzut pulpitu pokazuje nazwy akwariów, odczyty i wszystko inne, co było wtedy na ekranie.
 :::
 
-:::note Czemu nie ma kontrolki zrzutu ekranu w trybie opiekuna
-Gdy przeglądasz akwarium kogoś innego przez udostępniony link, opcja zrzutu ekranu nie jest oferowana. Zrzut ekranu wykonany wtedy dołączyłby *ich* dane do *Twojego* zgłoszenia wsparcia, a oni nigdy by się o tym nie dowiedzieli.
+:::note Dlaczego w trybie opiekuna nie ma zrzutów ekranu
+Gdy oglądasz cudze akwarium przez udostępniony link, opcja zrzutu ekranu jest niedostępna. Taki zrzut dołączyłby *cudze* dane do *Twojego* zgłoszenia, a właściciel akwarium nigdy by się o tym nie dowiedział.
 :::
 
 ## Automatyczne raporty awarii
 
-**Wysyłaj raporty awarii**, przy wierszu zgłoszenia, jest tą samą obietnicą złożoną bez konieczności zauważenia przez Ciebie, że coś się zepsuło, i napisania tego: jeśli Cora Mobile ulegnie awarii, zgłasza ją sama. Zobacz [Ustawienia](/help/mobile-settings).
+**Wysyłaj raporty awarii**, obok wiersza zgłoszeń, działa podobnie, tylko nie musisz samodzielnie zauważać problemu ani go opisywać. Jeśli Cora Mobile ulegnie awarii, sama ją zgłosi. Więcej w [Ustawieniach](/help/mobile-settings).
 
-## Gdzie indziej
+## Inne miejsca
 
-- Pytania o Twoje własne akwarium są zwykle szybsze przez **[Cora Assistant](/help/mobile-assistant)**, który widzi Twoje odczyty.
-- Coś nie zachowuje się tak, jak opisano: najpierw **[Rozwiązywanie problemów](/help/troubleshooting)**.
+- Pytania o własne akwarium zwykle szybciej rozwiąże **[Cora Assistant](/help/mobile-assistant)**, który widzi Twoje odczyty.
+- Jeśli coś działa inaczej, niż opisano, najpierw zajrzyj do **[Rozwiązywania problemów](/help/troubleshooting)**.

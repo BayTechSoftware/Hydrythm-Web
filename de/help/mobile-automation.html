@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Automationen und Szenen | Cora Help</title>
-  <meta name="description" content="Erstelle Regeln, die von selbst laufen (Trigger, Bedingungen, Aktionen), und gruppiere sie zu Szenen.">
+  <meta name="description" content="Leg Regeln an, die von selbst laufen (Auslöser, Bedingungen, Aktionen), und fasse Aktionen zu Szenen zusammen.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/mobile-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Automationen und Szenen | Cora Help">
-  <meta property="og:description" content="Erstelle Regeln, die von selbst laufen (Trigger, Bedingungen, Aktionen), und gruppiere sie zu Szenen.">
+  <meta property="og:description" content="Leg Regeln an, die von selbst laufen (Auslöser, Bedingungen, Aktionen), und fasse Aktionen zu Szenen zusammen.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Erste Schritte</summary><ul>
 <li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
-<li><a href="/de/help/mobile-account">Anmelden und Kontowiederherstellung</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
 <li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
 <li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
 </ul></details>
@@ -74,7 +74,7 @@
 <li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
 <li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
 <li><a href="/de/help/mobile-widgets">Widget-Referenz</a></li>
-<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer betrachten</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
 </ul></details>
 <details class="nav-g">
@@ -120,17 +120,17 @@
 <details class="nav-g">
 <summary>Erste Schritte</summary><ul>
 <li><a href="/de/help/max-setup">Cora Max einrichten</a></li>
-<li><a href="/de/help/max-tour">Der Cora Max Startbildschirm</a></li>
+<li><a href="/de/help/max-tour">Der Cora Max-Startbildschirm</a></li>
 <li><a href="/de/help/max-reef-room">Der Riffraum</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Dein Dashboard</summary><ul>
-<li><a href="/de/help/max-dashboard-editing">Das Cora Max Dashboard bearbeiten</a></li>
+<li><a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Geräte</summary><ul>
-<li><a href="/de/help/max-controls">Steckdosen und Steuerungen</a></li>
-<li><a href="/de/help/max-device-control">Ausrüstung von Cora Max aus steuern</a></li>
+<li><a href="/de/help/max-controls">Steckdosen und Steuerung</a></li>
+<li><a href="/de/help/max-device-control">Ausrüstung mit Cora Max steuern</a></li>
 <li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
 </ul></details>
 <details class="nav-g">
@@ -158,7 +158,7 @@
 </ul></details>
 <p class="nav-sec">Hilfe</p>
 <ul>
-<li><a href="/de/help/faq">Häufig gestellte Fragen</a></li>
+<li><a href="/de/help/faq">Häufige Fragen</a></li>
 <li><a href="/de/help/troubleshooting">Problembehebung</a></li>
 <li><a href="/de/help/glossary">Glossar</a></li>
 </ul>
@@ -168,37 +168,37 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Automationen und Szenen</h1>
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#der-aufbau-einer-regel">Der Aufbau einer Regel</a></li><li><a href="#was-eine-regel-aufwecken-kann">Was eine Regel aufwecken kann</a></li><li><a href="#bedingungen">Bedingungen</a></li><li><a href="#was-eine-regel-tun-kann">Was eine Regel tun kann</a></li><li><a href="#szenen">Szenen</a></li><li><a href="#auf-cora-max-erstellte-szenen">Auf Cora Max erstellte Szenen</a></li><li><a href="#eine-regel-ausschalten">Eine Regel ausschalten</a></li><li><a href="#sehen-was-eine-regel-getan-hat">Sehen, was eine Regel getan hat</a></li></ul></nav>
-<p>Eine Automation ist eine Regel, die Cora für dich ausführt: <em>wenn das passiert, prüfe das, und tu dann dies.</em> Szenen gruppieren mehrere Aktionen zu einer Sache, die du ausführen oder planen kannst.</p>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#wie-eine-regel-aufgebaut-ist">Wie eine Regel aufgebaut ist</a></li><li><a href="#was-eine-regel-startet">Was eine Regel startet</a></li><li><a href="#bedingungen">Bedingungen</a></li><li><a href="#was-eine-regel-tun-kann">Was eine Regel tun kann</a></li><li><a href="#szenen">Szenen</a></li><li><a href="#szenen-vom-cora-max">Szenen vom Cora Max</a></li><li><a href="#eine-regel-ausschalten">Eine Regel ausschalten</a></li><li><a href="#nachsehen-was-eine-regel-getan-hat">Nachsehen, was eine Regel getan hat</a></li></ul></nav>
+<p>Eine Automation ist eine Regel, die Cora für dich ausführt: <em>Wenn das passiert, prüf jenes und tu dann dies.</em> In einer Szene fasst du mehrere Aktionen zusammen, die du dann auf einmal startest oder nach Zeitplan laufen lässt.</p>
 <p><strong>Einstellungen → Automation.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Die Automations-Liste"><img src="/help/img/mobile-automation.webp" alt="Die Automations-Liste" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Automationen und Szenen sind getrennte Tabs. Jede Regel hat einen Aktivierungsschalter.</figcaption></figure>
-<p>Der Bildschirm hat zwei Tabs (<strong>Automationen</strong> und <strong>Szenen</strong>) und eine Schaltfläche <strong>Neue Automation</strong>. Jede Regel zeigt eine einzeilige Zusammenfassung dessen, was sie tut, einen Aktivierungsschalter, und ein Menü zum Bearbeiten oder Löschen. Eine Regel, die noch nicht gelaufen ist, wird als solche gekennzeichnet.</p>
-<aside class="cal cal-warning"><p class="cal-t">Diese wirken auf echte Ausrüstung</p><p>Eine Regel, die eine Pumpe schaltet, schaltet sie, ob du zuschaust oder nicht. Erstelle eine nach der anderen, und prüfe bei jeder, dass sie das tut, was du erwartest, bevor du die nächste hinzufügst.</p></aside>
-<h2 id="der-aufbau-einer-regel">Der Aufbau einer Regel</h2>
-<p>Jede Regel besteht aus denselben drei Teilen:</p>
-<p><strong>Auslöser</strong>: was sie aufweckt <strong>Bedingungen</strong>: was außerdem zutreffen muss <strong>Aktionen</strong>: was sie dann tut, in der Reihenfolge</p>
-<h2 id="was-eine-regel-aufwecken-kann">Was eine Regel aufwecken kann</h2>
-<p>Vier Dinge:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Trigger</th><th>Löst aus, wenn</th></tr></thead><tbody><tr><td data-th="Trigger"><strong>Wasserwert</strong></td><td data-th="Löst aus, wenn">Ein Wasserwert einen von dir festgelegten Wert überschreitet, in einer von dir gewählten Richtung</td></tr><tr><td data-th="Trigger"><strong>Warnung</strong></td><td data-th="Löst aus, wenn">Eine Warnung ausgelöst, gelöscht, oder beides wird</td></tr><tr><td data-th="Trigger"><strong>Zeitplan</strong></td><td data-th="Löst aus, wenn">Eine Tageszeit, in deiner eigenen Zeitzone</td></tr><tr><td data-th="Trigger"><strong>Gerätestatus</strong></td><td data-th="Löst aus, wenn">Ein Gerät offline geht oder zurückkommt</td></tr></tbody></table></div>
+<p>Der Bildschirm hat zwei Tabs, <strong>Automationen</strong> und <strong>Szenen</strong>, und die Schaltfläche <strong>Neue Automation</strong>. Zu jeder Regel siehst du in einer Zeile, was sie tut, dazu einen Aktivierungsschalter und ein Menü zum Bearbeiten oder Löschen. Ist eine Regel noch nie gelaufen, steht das dabei.</p>
+<aside class="cal cal-warning"><p class="cal-t">Regeln schalten echte Geräte</p><p>Eine Regel, die eine Pumpe schaltet, schaltet sie auch dann, wenn du nicht hinschaust. Leg eine Regel nach der anderen an. Prüf bei jeder, ob sie tut, was du erwartest, bevor du die nächste hinzufügst.</p></aside>
+<h2 id="wie-eine-regel-aufgebaut-ist">Wie eine Regel aufgebaut ist</h2>
+<p>Jede Regel hat dieselben drei Teile:</p>
+<p><strong>Auslöser</strong>: was sie startet <strong>Bedingungen</strong>: was zusätzlich zutreffen muss <strong>Aktionen</strong>: was sie dann der Reihe nach tut</p>
+<h2 id="was-eine-regel-startet">Was eine Regel startet</h2>
+<p>Es gibt vier Auslöser:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Auslöser</th><th>Startet, wenn</th></tr></thead><tbody><tr><td data-th="Auslöser"><strong>Wasserwert</strong></td><td data-th="Startet, wenn">ein Wasserwert einen von dir gewählten Wert in der gewählten Richtung überschreitet</td></tr><tr><td data-th="Auslöser"><strong>Warnung</strong></td><td data-th="Startet, wenn">eine Warnung kommt, verschwindet oder beides</td></tr><tr><td data-th="Auslöser"><strong>Zeitplan</strong></td><td data-th="Startet, wenn">eine bestimmte Uhrzeit erreicht ist, in deiner eigenen Zeitzone</td></tr><tr><td data-th="Auslöser"><strong>Gerätestatus</strong></td><td data-th="Startet, wenn">ein Gerät offline geht oder wieder erreichbar ist</td></tr></tbody></table></div>
 <h2 id="bedingungen">Bedingungen</h2>
-<p>Bedingungen entscheiden, ob die Aktionen tatsächlich ausgeführt werden. Du hast die üblichen Vergleiche (gleich, ungleich, größer als, kleiner als, und so weiter) und kannst sie mit <strong>und</strong>, <strong>oder</strong> und <strong>nicht</strong> kombinieren.</p>
-<p>Es gibt außerdem eine <strong>Schritt</strong>-Bedingung, die prüft, wie der <em>vorherige</em> Schritt ausgegangen ist. Das ist es, was dir erlaubt zu schreiben: "versuche das; wenn es nicht funktioniert hat, tu statt dessen jenes."</p>
+<p>Mit Bedingungen entscheidest du, ob die Aktionen wirklich laufen. Du hast die üblichen Vergleiche (gleich, ungleich, größer als, kleiner als und so weiter) und kannst sie mit <strong>und</strong>, <strong>oder</strong> und <strong>nicht</strong> verknüpfen.</p>
+<p>Dazu kommt eine <strong>Schritt</strong>-Bedingung. Sie prüft, wie der <em>vorige</em> Schritt ausgegangen ist. Damit kannst du Regeln schreiben wie: "Versuch das. Hat es nicht geklappt, mach stattdessen jenes."</p>
 <h2 id="was-eine-regel-tun-kann">Was eine Regel tun kann</h2>
-<p>Eine Aktion, die Ausrüstung braucht, wird nur auf einem Becken angeboten, das diese Ausrüstung hat:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Aktion</th><th>Was sie tut</th></tr></thead><tbody><tr><td data-th="Aktion"><strong>Apex-Gerät steuern</strong></td><td data-th="Was sie tut">Eine Steckdose schalten</td></tr><tr><td data-th="Aktion"><strong>Ein Red-Sea-Gerät steuern</strong></td><td data-th="Was sie tut">Ein ReefBeat-Gerät ansteuern</td></tr><tr><td data-th="Aktion"><strong>Eine Strömungspumpe steuern</strong></td><td data-th="Was sie tut">Strömung, Wellenmodus oder Leistung einer Jecod™-Pumpe festlegen, oder <strong>Für Fütterung pausieren</strong>: Das Cora Max am Becken stellt die Pumpe zurück, wenn die Fütterung endet</td></tr><tr><td data-th="Aktion"><strong>Ein Cora-Gerät steuern</strong></td><td data-th="Was sie tut">Eine Smart-Steckdose schalten</td></tr><tr><td data-th="Aktion"><strong>IR-Gerät steuern</strong></td><td data-th="Was sie tut">Einen Infrarot-Befehl senden</td></tr><tr><td data-th="Aktion"><strong>Apex Fütterungszyklus starten</strong></td><td data-th="Was sie tut">Eine Fütterung starten</td></tr><tr><td data-th="Aktion"><strong>Einen Trident Test durchführen</strong></td><td data-th="Was sie tut">Einen Test auslösen</td></tr><tr><td data-th="Aktion"><strong>Mich benachrichtigen</strong></td><td data-th="Was sie tut">Dir selbst einen Push senden</td></tr><tr><td data-th="Aktion"><strong>Vor dem nächsten Schritt warten</strong></td><td data-th="Was sie tut">Vor dem Fortfahren pausieren</td></tr><tr><td data-th="Aktion"><strong>Eine Szene ausführen</strong></td><td data-th="Was sie tut">Eine andere Szene innerhalb dieser Regel ausführen</td></tr><tr><td data-th="Aktion"><strong>Eine Automation verwalten</strong></td><td data-th="Was sie tut">Eine andere Regel ein- oder ausschalten</td></tr><tr><td data-th="Aktion"><strong>Einen DŌS Kopf dosieren</strong></td><td data-th="Was sie tut">Eine bemessene Dosierung an einem DŌS-Kopf ausführen</td></tr></tbody></table></div>
-<aside class="cal cal-warning"><p class="cal-t">Dosieren aus einer Regel ist unumkehrbar und begrenzt</p><p>Eine Dosierung kann nicht aus dem Becken zurückgeholt werden. Der Kopf muss <strong>kalibriert</strong> sein, bevor eine Regel aus ihm dosieren darf, und unbeaufsichtigtes Dosieren ist auf <strong>10 mL pro Kopf pro Tag</strong> begrenzt; eine Regel kann das nicht überschreiten, egal wie sie geschrieben ist. Dosier-Aktionen erscheinen erst, sobald deine Köpfe als Dosierköpfe erkannt sind.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Nutze Warten, um Schritte innerhalb einer Regel zu ordnen</p><p>Eine Pause erlaubt einer einzelnen Regel, einen geordneten Ablauf durchzuführen (zum Beispiel eine Steckdose ausschalten, warten, und sie dann wieder einschalten), ohne eine zweite Regel und einen Zeitplan.</p></aside>
+<p>Aktionen für bestimmte Geräte bekommst du nur bei einem Becken angeboten, zu dem diese Geräte gehören:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Aktion</th><th>Was sie tut</th></tr></thead><tbody><tr><td data-th="Aktion"><strong>Apex-Gerät steuern</strong></td><td data-th="Was sie tut">schaltet eine Steckdose</td></tr><tr><td data-th="Aktion"><strong>Ein Red-Sea-Gerät steuern</strong></td><td data-th="Was sie tut">steuert ein ReefBeat-Gerät</td></tr><tr><td data-th="Aktion"><strong>Eine Strömungspumpe steuern</strong></td><td data-th="Was sie tut">stellt bei einer Jecod™-Pumpe Strömung, Wellenmodus oder Leistung ein. Oder du wählst <strong>Für Fütterung pausieren</strong>. Dann stellt das Cora Max am Becken die Pumpe nach der Fütterung zurück</td></tr><tr><td data-th="Aktion"><strong>Ein Cora-Gerät steuern</strong></td><td data-th="Was sie tut">schaltet eine Smart-Steckdose</td></tr><tr><td data-th="Aktion"><strong>IR-Gerät steuern</strong></td><td data-th="Was sie tut">sendet einen Infrarot-Befehl</td></tr><tr><td data-th="Aktion"><strong>Apex Fütterungszyklus starten</strong></td><td data-th="Was sie tut">startet eine Fütterung</td></tr><tr><td data-th="Aktion"><strong>Einen Trident Test durchführen</strong></td><td data-th="Was sie tut">startet einen Test</td></tr><tr><td data-th="Aktion"><strong>Mich benachrichtigen</strong></td><td data-th="Was sie tut">schickt dir eine Push-Nachricht</td></tr><tr><td data-th="Aktion"><strong>Vor dem nächsten Schritt warten</strong></td><td data-th="Was sie tut">legt eine Pause ein, bevor es weitergeht</td></tr><tr><td data-th="Aktion"><strong>Eine Szene ausführen</strong></td><td data-th="Was sie tut">startet eine andere Szene aus dieser Regel heraus</td></tr><tr><td data-th="Aktion"><strong>Eine Automation verwalten</strong></td><td data-th="Was sie tut">schaltet eine andere Regel ein oder aus</td></tr><tr><td data-th="Aktion"><strong>Einen DŌS Kopf dosieren</strong></td><td data-th="Was sie tut">gibt an einem DŌS-Kopf eine abgemessene Dosis ab</td></tr></tbody></table></div>
+<aside class="cal cal-warning"><p class="cal-t">Dosieren per Regel lässt sich nicht rückgängig machen und ist begrenzt</p><p>Was einmal dosiert ist, bekommst du nicht mehr aus dem Becken. Ein Kopf muss <strong>kalibriert</strong> sein, bevor eine Regel damit dosieren darf. Unbeaufsichtigtes Dosieren ist auf <strong>10 mL pro Kopf und Tag</strong> begrenzt. Keine Regel kann das überschreiten, egal wie sie geschrieben ist. Dosier-Aktionen tauchen erst auf, wenn Cora deine Köpfe als Dosierköpfe erkannt hat.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Mit Warten Schritte in einer Regel ordnen</p><p>Mit einer Pause kann eine einzige Regel einen festen Ablauf abarbeiten. Sie schaltet zum Beispiel eine Steckdose aus, wartet und schaltet sie dann wieder ein. Eine zweite Regel mit Zeitplan brauchst du dafür nicht.</p></aside>
 <h2 id="szenen">Szenen</h2>
-<p>Eine Szene ist eine benannte Gruppe von Aktionen, die du auf Verlangen, nach einem Zeitplan, oder innerhalb einer anderen Regel ausführen kannst: "Wasserwechsel", "Fotomodus", "Nacht".</p>
-<p>Eine Szene kann eine andere Szene aufrufen. Cora verweigert die Ausführung einer Szene, die tiefer verschachtelt ist als das Tiefenlimit, und verweigert eine Szene, die sich selbst aufrufen würde, um eine Schleife zu verhindern, die unbegrenzt auf das Becken wirken würde.</p>
-<p>Nachdem eine Szene gelaufen ist, wird dir Schritt für Schritt gesagt, was passiert ist, einschließlich allem, was fehlgeschlagen ist.</p>
-<p>Eine Szene von Hand auszuführen fragt zuerst nach Bestätigung, da eine Szene mehrere Geräte auf einmal schalten kann.</p>
-<h2 id="auf-cora-max-erstellte-szenen">Auf Cora Max erstellte Szenen</h2>
-<p>Szenen können auch direkt auf einem Cora Max-Tablet erstellt und bearbeitet werden, nicht nur auf dem Handy: Es ist in beiden Fällen dieselbe Menge an Szenen, kontoübergreifend geteilt. Wenn ein Haushalt ein älteres Cora Max hat, kann es trotzdem eine auf dem Handy erstellte Szene ausführen; nur das Bearbeiten direkt auf dem Gerät ist eine neuere Funktion, daher zeigt ein älteres Tablet vielleicht eine Szene, ohne dir dort eine Änderung zu erlauben. Bearbeite sie statt dessen vom Handy aus.</p>
+<p>Eine Szene ist eine Gruppe von Aktionen mit einem Namen, etwa "Wasserwechsel", "Fotomodus" oder "Nacht". Du startest sie von Hand, per Zeitplan oder aus einer anderen Regel heraus.</p>
+<p>Eine Szene darf eine andere Szene aufrufen. Ist eine Szene tiefer verschachtelt als erlaubt, führt Cora sie nicht aus. Das gilt auch für eine Szene, die sich selbst aufrufen würde. So kann keine Endlosschleife entstehen, die immer weiter auf das Becken einwirkt.</p>
+<p>Nach jedem Lauf zeigt dir Cora Schritt für Schritt, was passiert ist, auch was nicht geklappt hat.</p>
+<p>Startest du eine Szene von Hand, fragt Cora vorher nach. Eine Szene kann ja mehrere Geräte auf einmal schalten.</p>
+<h2 id="szenen-vom-cora-max">Szenen vom Cora Max</h2>
+<p>Du kannst Szenen auch direkt auf einem Cora Max anlegen und bearbeiten. Es sind dieselben Szenen wie auf dem Handy, sie gelten für das ganze Konto. Ein älteres Cora Max im Haushalt kann eine auf dem Handy erstellte Szene trotzdem ausführen. Nur das Bearbeiten direkt am Gerät ist neuer. Ein älteres Cora Max zeigt dir die Szene also vielleicht an, lässt dich dort aber nichts ändern. Bearbeite sie dann am Handy.</p>
 <h2 id="eine-regel-ausschalten">Eine Regel ausschalten</h2>
-<p>Jede Regel hat einen Aktivierungsschalter. Eine auszuschalten behält ihre Definition, nützlich, wenn du eine Regel zur nächsten Saison zurückwillst, statt sie neu aufzubauen.</p>
-<h2 id="sehen-was-eine-regel-getan-hat">Sehen, was eine Regel getan hat</h2>
-<p>Jede Aktion, die eine Regel ausführt, wird mit der Regel als ihrer Ursache erfasst. Siehe <strong><a href="/de/help/mobile-activity">Aktivität</a></strong>.</p>
+<p>Jede Regel hat einen Aktivierungsschalter. Schaltest du eine Regel aus, bleibt sie gespeichert. Das ist praktisch, wenn du sie nächste Saison wieder brauchst und nicht neu bauen willst.</p>
+<h2 id="nachsehen-was-eine-regel-getan-hat">Nachsehen, was eine Regel getan hat</h2>
+<p>Jede Aktion einer Regel wird protokolliert, mit der Regel als Auslöser. Du findest sie unter <strong><a href="/de/help/mobile-activity">Aktivität</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/mobile-notifications"><span>Zurück</span><b>Benachrichtigungen</b></a><a class="pn-n" href="/de/help/mobile-dosing"><span>Weiter</span><b>Dosierung</b></a></nav>
       <p class="stamp">Geschrieben für Cora Max 0.28.78 und Cora Mobile 0.5.79. Zuletzt geprüft am 2026-09-27.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>

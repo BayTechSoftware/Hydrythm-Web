@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Otomasyonlar ve sahneler | Cora Help</title>
-  <meta name="description" content="Kendi başına çalışan kurallar (tetikleyiciler, koşullar, eylemler) oluşturun ve bunları sahnelere gruplayın.">
+  <meta name="description" content="Kendi kendine çalışan kurallar (tetikleyiciler, koşullar, eylemler) oluşturun ve bunları sahnelerde toplayın.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/tr/help/mobile-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Otomasyonlar ve sahneler | Cora Help">
-  <meta property="og:description" content="Kendi başına çalışan kurallar (tetikleyiciler, koşullar, eylemler) oluşturun ve bunları sahnelere gruplayın.">
+  <meta property="og:description" content="Kendi kendine çalışan kurallar (tetikleyiciler, koşullar, eylemler) oluşturun ve bunları sahnelerde toplayın.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/tr/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -64,25 +64,25 @@
 <p class="nav-sec">Cora Mobile</p>
 <details class="nav-g">
 <summary>Başlarken</summary><ul>
-<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
-<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-setup">Cora Mobile kurulumu</a></li>
+<li><a href="/tr/help/mobile-account">Giriş yapma ve hesabı kurtarma</a></li>
 <li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
 <li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Panonuz</summary><ul>
-<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
-<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
-<li><a href="/tr/help/mobile-widgets">Widget referansı</a></li>
-<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
-<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+<li><a href="/tr/help/mobile-dashboard">Panoyu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panoyu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets">Widget rehberi</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Parametre ayrıntıları</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşın</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Ekipman</summary><ul>
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
 <li><a href="/tr/help/mobile-probes">Problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
 </ul></details>
@@ -102,14 +102,14 @@
 </ul></details>
 <details class="nav-g">
 <summary>Zeka</summary><ul>
-<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorun</a></li>
 <li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
 <li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
 <li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Hesap</summary><ul>
-<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-vacation">Tatile çıkarken</a></li>
 <li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
 <li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
 <li><a href="/tr/help/mobile-plans">Planlar</a></li>
@@ -168,40 +168,40 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Otomasyonlar ve sahneler</h1>
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#bir-kuraln-ekli">Bir kuralın şekli</a></li><li><a href="#bir-kural-ne-uyandrabilir">Bir kuralı ne uyandırabilir</a></li><li><a href="#koullar">Koşullar</a></li><li><a href="#bir-kural-ne-yapabilir">Bir kural ne yapabilir</a></li><li><a href="#sahneler">Sahneler</a></li><li><a href="#cora-maxte-yaplan-sahneler">Cora Max&#x27;te yapılan sahneler</a></li><li><a href="#bir-kural-kapatma">Bir kuralı kapatma</a></li><li><a href="#bir-kuraln-ne-yaptn-grme">Bir kuralın ne yaptığını görme</a></li></ul></nav>
-<p>Bir otomasyon, Cora'nın sizin için çalıştırdığı bir kuraldır: <em>bu olduğunda, şunu kontrol et, ardından bunu yap.</em> Sahneler, çalıştırabileceğiniz veya zamanlayabileceğiniz tek bir şeye birkaç eylemi gruplar.</p>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#kuraln-yaps">Kuralın yapısı</a></li><li><a href="#kural-ne-balatabilir">Kuralı ne başlatabilir</a></li><li><a href="#koullar">Koşullar</a></li><li><a href="#kural-neler-yapabilir">Kural neler yapabilir</a></li><li><a href="#sahneler">Sahneler</a></li><li><a href="#cora-maxte-hazrlanan-sahneler">Cora Max&#x27;te hazırlanan sahneler</a></li><li><a href="#kural-kapatma">Kuralı kapatma</a></li><li><a href="#kuraln-neler-yaptn-grme">Kuralın neler yaptığını görme</a></li></ul></nav>
+<p>Otomasyon, Cora'nın sizin yerinize çalıştırdığı bir kuraldır: <em>şu olunca şunu kontrol et, sonra şunu yap.</em> Sahneler ise birkaç eylemi tek seferde çalıştırabileceğiniz ya da zamanlayabileceğiniz tek grupta toplar.</p>
 <p><strong>Ayarlar → Otomasyon.</strong></p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Otomasyon listesi"><img src="/help/img/mobile-automation.webp" alt="Otomasyon listesi" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Otomasyonlar ve Sahneler ayrı sekmelerdir. Her kuralın bir etkinleştirme anahtarı vardır.</figcaption></figure>
-<p>Ekranda iki sekme (<strong>Otomasyonlar</strong> ve <strong>Sahneler</strong>) ve bir <strong>Yeni otomasyon</strong> düğmesi bulunur. Her kural, ne yaptığının tek satırlık bir özetini, bir etkinleştirme anahtarını ve düzenleme veya silme için bir menüyü gösterir. Henüz çalışmamış bir kural bu şekilde işaretlenir.</p>
-<aside class="cal cal-warning"><p class="cal-t">Bunlar gerçek ekipman üzerinde etkilidir</p><p>Bir pompayı açıp kapatan bir kural, izliyor olsanız da olmasanız da onu açıp kapatır. Bir kerede bir kural oluşturun ve bir sonrakini eklemeden önce her birinin beklediğinizi yaptığını kontrol edin.</p></aside>
-<h2 id="bir-kuraln-ekli">Bir kuralın şekli</h2>
-<p>Her kural aynı üç parçadır:</p>
-<p><strong>Tetikleyici</strong>: onu neyin uyandırdığı <strong>Koşullar</strong>: ayrıca doğru olması gereken şey <strong>Eylemler</strong>: ardından sırayla ne yaptığı</p>
-<h2 id="bir-kural-ne-uyandrabilir">Bir kuralı ne uyandırabilir</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Otomasyon listesi"><img src="/help/img/mobile-automation.webp" alt="Otomasyon listesi" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Otomasyonlar ve Sahneler ayrı sekmelerdir. Her kuralın açma kapama anahtarı var.</figcaption></figure>
+<p>Ekranda iki sekme (<strong>Otomasyonlar</strong> ve <strong>Sahneler</strong>) ve bir <strong>Yeni otomasyon</strong> düğmesi var. Her kuralda ne yaptığını anlatan tek satırlık özet, açma kapama anahtarı ve düzenleme ya da silme menüsü bulunur. Henüz hiç çalışmamış kurallarda bu da belirtilir.</p>
+<aside class="cal cal-warning"><p class="cal-t">Kurallar gerçek ekipmanı çalıştırır</p><p>Pompayı açıp kapatan bir kural, siz başında olsanız da olmasanız da pompayı açıp kapatır. Kuralları tek tek oluşturun. Yenisini eklemeden önce her birinin beklediğiniz gibi çalıştığını kontrol edin.</p></aside>
+<h2 id="kuraln-yaps">Kuralın yapısı</h2>
+<p>Her kural aynı üç bölümden oluşur:</p>
+<p><strong>Tetikleyici</strong>: kuralı neyin başlattığı <strong>Koşullar</strong>: ayrıca neyin doğru olması gerektiği <strong>Eylemler</strong>: kuralın sırasıyla ne yaptığı</p>
+<h2 id="kural-ne-balatabilir">Kuralı ne başlatabilir</h2>
 <p>Dört şey:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Tetikleyici</th><th>Şu durumda tetiklenir</th></tr></thead><tbody><tr><td data-th="Tetikleyici"><strong>Bir parametre değiştiğinde</strong></td><td data-th="Şu durumda tetiklenir">Bir parametre, seçtiğiniz bir yönde belirlediğiniz bir değeri geçtiğinde</td></tr><tr><td data-th="Tetikleyici"><strong>Bir uyarı tetiklendiğinde</strong></td><td data-th="Şu durumda tetiklenir">Bir uyarı yükseltildiğinde, kapandığında, veya ikisinde de</td></tr><tr><td data-th="Tetikleyici"><strong>Günün belirli bir saatinde</strong></td><td data-th="Şu durumda tetiklenir">Kendi saat diliminizde bir günün saati</td></tr><tr><td data-th="Tetikleyici"><strong>Bir cihaz çevrimdışı olduğunda</strong></td><td data-th="Şu durumda tetiklenir">Bir cihaz çevrimdışı olduğunda veya geri geldiğinde</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Tetikleyici</th><th>Ne zaman çalışır</th></tr></thead><tbody><tr><td data-th="Tetikleyici"><strong>Bir parametre değiştiğinde</strong></td><td data-th="Ne zaman çalışır">Bir parametre, belirlediğiniz değeri seçtiğiniz yönde geçtiğinde</td></tr><tr><td data-th="Tetikleyici"><strong>Bir uyarı tetiklendiğinde</strong></td><td data-th="Ne zaman çalışır">Bir uyarı verildiğinde, kapandığında ya da ikisinde de</td></tr><tr><td data-th="Tetikleyici"><strong>Günün belirli bir saatinde</strong></td><td data-th="Ne zaman çalışır">Kendi saat diliminize göre günün belli bir saatinde</td></tr><tr><td data-th="Tetikleyici"><strong>Bir cihaz çevrimdışı olduğunda</strong></td><td data-th="Ne zaman çalışır">Bir cihaz çevrimdışı olduğunda ya da yeniden bağlandığında</td></tr></tbody></table></div>
 <h2 id="koullar">Koşullar</h2>
-<p>Koşullar, eylemlerin gerçekten çalışıp çalışmayacağına karar verir. Olağan karşılaştırmaları alırsınız (eşittir, eşit değildir, büyüktür, küçüktür, vb.) ve bunları <strong>ve</strong>, <strong>veya</strong> ve <strong>değil</strong> ile birleştirebilirsiniz.</p>
-<p>Ayrıca <em>önceki</em> adımın nasıl sonuçlandığını kontrol eden bir <strong>adım</strong> koşulu da vardır. "Bunu dene; işe yaramazsa, bunun yerine şunu yap" yazmanızı sağlayan budur.</p>
-<h2 id="bir-kural-ne-yapabilir">Bir kural ne yapabilir</h2>
-<p>Ekipman gerektiren bir eylem, yalnızca o ekipmana sahip bir akvaryumda sunulur:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Eylem</th><th>Ne yaptığı</th></tr></thead><tbody><tr><td data-th="Eylem"><strong>Apex Ekipmanını Kontrol Et</strong></td><td data-th="Ne yaptığı">Bir prizi açıp kapatın</td></tr><tr><td data-th="Eylem"><strong>Bir Red Sea™ Ekipmanını Kontrol Et</strong></td><td data-th="Ne yaptığı">Bir ReefBeat birimini çalıştırın</td></tr><tr><td data-th="Eylem"><strong>Bir Dalga Pompasını Kontrol Et</strong></td><td data-th="Ne yaptığı">Bir Jecod™ pompasının akışını, dalga modunu veya gücünü ayarlayın, veya <strong>Besleme için duraklat</strong>: akvaryumdaki Cora Max, besleme bittiğinde pompayı geri koyar</td></tr><tr><td data-th="Eylem"><strong>Bir Cora Ekipmanını Kontrol Et</strong></td><td data-th="Ne yaptığı">Akıllı bir fişi açıp kapatın</td></tr><tr><td data-th="Eylem"><strong>IR Cihazını Kontrol Et</strong></td><td data-th="Ne yaptığı">Bir kızılötesi komut gönderin</td></tr><tr><td data-th="Eylem"><strong>Apex Besleme Döngüsünü Çalıştır</strong></td><td data-th="Ne yaptığı">Bir besleme başlatın</td></tr><tr><td data-th="Eylem"><strong>Bir Trident Testi Çalıştır</strong></td><td data-th="Ne yaptığı">Bir testi tetikleyin</td></tr><tr><td data-th="Eylem"><strong>Beni Bilgilendir</strong></td><td data-th="Ne yaptığı">Kendinize bir push gönderin</td></tr><tr><td data-th="Eylem"><strong>Sonraki Adımdan Önce Bekle</strong></td><td data-th="Ne yaptığı">Devam etmeden önce duraklayın</td></tr><tr><td data-th="Eylem"><strong>Bir Sahne Çalıştır</strong></td><td data-th="Ne yaptığı">Bu kuralın içinden başka bir sahne çalıştırın</td></tr><tr><td data-th="Eylem"><strong>Bir Otomasyonu Yönet</strong></td><td data-th="Ne yaptığı">Başka bir kuralı açıp kapatın</td></tr><tr><td data-th="Eylem"><strong>Bir DŌS Kafasından Dozaj Ver</strong></td><td data-th="Ne yaptığı">Bir DŌS kafasında ölçülmüş bir dozaj çalıştırın</td></tr></tbody></table></div>
-<aside class="cal cal-warning"><p class="cal-t">Bir kuraldan dozajlamak geri alınamaz ve sınırlıdır</p><p>Bir dozaj akvaryumdan geri alınamaz. Bir kural ondan dozaj verebilmeden önce kafanın <strong>kalibre edilmiş</strong> olması gerekir ve gözetimsiz dozajlama <strong>kafa başına günde 10 mL</strong> ile sınırlıdır; bir kural nasıl yazılmış olursa olsun bunu aşamaz. Dozaj eylemleri, kafalarınız dozaj kafası olarak tanındıktan sonra görünür.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Bekle'yi bir kural içindeki adımları sıralamak için kullanın</p><p>Bir duraklama, tek bir kuralın (örneğin bir prizi kapatma, bekleme, ardından yeniden açma gibi) ikinci bir kural ve bir zamanlama olmadan sıralı bir işlem gerçekleştirmesine izin verir.</p></aside>
+<p>Eylemlerin gerçekten çalışıp çalışmayacağına koşullar karar verir. Bilinen karşılaştırmaları kullanabilirsiniz (eşittir, eşit değildir, büyüktür, küçüktür ve diğerleri). Bunları <strong>ve</strong>, <strong>veya</strong> ve <strong>değil</strong> ile birleştirebilirsiniz.</p>
+<p>Bir de <em>önceki</em> adımın sonucuna bakan <strong>adım</strong> koşulu var. "Bunu dene, olmazsa şunu yap" gibi kurallar bu koşulla yazılır.</p>
+<h2 id="kural-neler-yapabilir">Kural neler yapabilir</h2>
+<p>Ekipman gerektiren eylemler yalnızca o ekipmanın olduğu akvaryumlarda çıkar:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Eylem</th><th>Ne yapar</th></tr></thead><tbody><tr><td data-th="Eylem"><strong>Apex Ekipmanını Kontrol Et</strong></td><td data-th="Ne yapar">Prizi açıp kapatır</td></tr><tr><td data-th="Eylem"><strong>Bir Red Sea™ Ekipmanını Kontrol Et</strong></td><td data-th="Ne yapar">Bir ReefBeat ünitesini çalıştırır</td></tr><tr><td data-th="Eylem"><strong>Bir Dalga Pompasını Kontrol Et</strong></td><td data-th="Ne yapar">Jecod™ pompasının akışını, dalga modunu ya da gücünü ayarlar. <strong>Besleme için duraklat</strong> seçeneği de var. Besleme bitince akvaryumdaki Cora Max pompayı eski ayarına döndürür</td></tr><tr><td data-th="Eylem"><strong>Bir Cora Ekipmanını Kontrol Et</strong></td><td data-th="Ne yapar">Akıllı fişi açıp kapatır</td></tr><tr><td data-th="Eylem"><strong>IR Cihazını Kontrol Et</strong></td><td data-th="Ne yapar">Kızılötesi komut gönderir</td></tr><tr><td data-th="Eylem"><strong>Apex Besleme Döngüsünü Çalıştır</strong></td><td data-th="Ne yapar">Beslemeyi başlatır</td></tr><tr><td data-th="Eylem"><strong>Bir Trident Testi Çalıştır</strong></td><td data-th="Ne yapar">Test başlatır</td></tr><tr><td data-th="Eylem"><strong>Beni Bilgilendir</strong></td><td data-th="Ne yapar">Size bildirim gönderir</td></tr><tr><td data-th="Eylem"><strong>Sonraki Adımdan Önce Bekle</strong></td><td data-th="Ne yapar">Devam etmeden önce bekler</td></tr><tr><td data-th="Eylem"><strong>Bir Sahne Çalıştır</strong></td><td data-th="Ne yapar">Bu kuralın içinden başka bir sahneyi çalıştırır</td></tr><tr><td data-th="Eylem"><strong>Bir Otomasyonu Yönet</strong></td><td data-th="Ne yapar">Başka bir kuralı açar ya da kapatır</td></tr><tr><td data-th="Eylem"><strong>Bir DŌS Kafasından Dozaj Ver</strong></td><td data-th="Ne yapar">DŌS kafasından ölçülü doz verir</td></tr></tbody></table></div>
+<aside class="cal cal-warning"><p class="cal-t">Kuralla yapılan dozaj geri alınamaz ve sınırlıdır</p><p>Verilen dozu akvaryumdan geri alamazsınız. Kuralın bir kafadan dozaj yapabilmesi için kafanın <strong>kalibre edilmiş</strong> olması gerekir. Siz başında değilken yapılan dozaj <strong>kafa başına günde 10 mL</strong> ile sınırlıdır. Kural nasıl yazılırsa yazılsın bu sınırı aşamaz. Dozaj eylemleri, kafalarınız dozaj kafası olarak tanındıktan sonra listede çıkar.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Adımları sıralamak için Bekle'yi kullanın</p><p>Bekleme adımıyla tek kural sırayla birkaç iş yapabilir. Örneğin prizi kapatır, bekler, sonra yeniden açar. Bunun için ikinci kurala ve programa gerek kalmaz.</p></aside>
 <h2 id="sahneler">Sahneler</h2>
-<p>Bir sahne, talep üzerine, bir zamanlamadan, veya başka bir kuralın içinden çalıştırabileceğiniz adlandırılmış bir eylem grubudur: "Su değişimi", "Fotoğraf modu", "Gece".</p>
-<p>Bir sahne başka bir sahneyi çağırabilir. Cora, derinlik sınırını aşan iç içe bir sahneyi çalıştırmayı ve kendini çağıracak bir sahneyi reddeder; bu, akvaryum üzerinde süresiz devam edecek bir döngüyü önler.</p>
-<p>Bir sahne çalıştığında size adım adım ne olduğu, başarısız olan her şey dahil, söylenir.</p>
-<p>Bir sahneyi elle çalıştırmak önce onaylamanızı ister, çünkü bir sahne aynı anda birden fazla ekipman parçasını açıp kapatabilir.</p>
-<h2 id="cora-maxte-yaplan-sahneler">Cora Max'te yapılan sahneler</h2>
-<p>Sahneler, sadece telefonda değil, doğrudan bir Cora Max tabletinde de oluşturulup düzenlenebilir: her iki durumda da aynı sahne setidir, hesap boyunca paylaşılır. Bir hanede daha eski bir Cora Max varsa, telefonda yapılmış bir sahneyi hâlâ çalıştırabilir; yalnızca cihaz üzerinde düzenleme daha yeni bir yetenektir, bu yüzden eski bir tablet bir sahneyi gösterebilir ama orada değiştirmenize izin vermeyebilir. Bunun yerine telefondan düzenleyin.</p>
-<h2 id="bir-kural-kapatma">Bir kuralı kapatma</h2>
-<p>Her kuralın bir etkinleştirme anahtarı vardır. Birini kapatmak tanımını korur; bir kuralı yeniden oluşturmak yerine bir sonraki sezon geri istediğinizde kullanışlıdır.</p>
-<h2 id="bir-kuraln-ne-yaptn-grme">Bir kuralın ne yaptığını görme</h2>
-<p>Bir kuralın gerçekleştirdiği her eylem, nedeni olarak kuralla birlikte kaydedilir. Bkz. <strong><a href="/tr/help/mobile-activity">Etkinlik</a></strong>.</p>
+<p>Sahne, adı olan eylem grubudur: "Su değişimi", "Fotoğraf modu", "Gece" gibi. Sahneyi istediğiniz an, bir programla ya da başka bir kuralın içinden çalıştırabilirsiniz.</p>
+<p>Bir sahne başka bir sahneyi çağırabilir. Ama Cora, iç içe geçme sınırını aşan sahneleri ve kendi kendini çağıran sahneleri çalıştırmaz. Böylece akvaryumda sonsuza kadar dönen döngü oluşmaz.</p>
+<p>Sahne çalıştıktan sonra Cora adım adım neler olduğunu, başarısız olan adımlarla birlikte size bildirir.</p>
+<p>Bir sahneyi elle çalıştırmak istediğinizde Cora önce onay ister. Çünkü sahne aynı anda birkaç ekipmanı açıp kapatabilir.</p>
+<h2 id="cora-maxte-hazrlanan-sahneler">Cora Max'te hazırlanan sahneler</h2>
+<p>Sahneleri yalnızca telefondan değil, doğrudan Cora Max tabletten de oluşturup düzenleyebilirsiniz. İki yerde de aynı sahneler görünür, çünkü sahneler hesapta ortaktır. Evinizde eski bir Cora Max varsa telefonda hazırlanan sahneyi yine çalıştırır. Yalnızca cihaz üzerinde düzenleme yeni bir özelliktir. Bu yüzden eski tablet sahneyi gösterip değiştirmenize izin vermeyebilir. Bu durumda sahneyi telefondan düzenleyin.</p>
+<h2 id="kural-kapatma">Kuralı kapatma</h2>
+<p>Her kuralın açma kapama anahtarı var. Kuralı kapattığınızda tanımı silinmez. Kuralı gelecek mevsim yeniden kullanmak istiyorsanız baştan kurmak yerine kapatıp bekletin.</p>
+<h2 id="kuraln-neler-yaptn-grme">Kuralın neler yaptığını görme</h2>
+<p>Kuralın yaptığı her işlem, kaynağı olarak o kuralla birlikte kaydedilir. Ayrıntılar <strong><a href="/tr/help/mobile-activity">Etkinlik</a></strong> sayfasında.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-notifications"><span>Önceki</span><b>Bildirimler</b></a><a class="pn-n" href="/tr/help/mobile-dosing"><span>Sonraki</span><b>Dozaj</b></a></nav>
       <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-27.</p>
-      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+      <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
 </div>

@@ -1,13 +1,13 @@
 ---
 title: Verreisen
-description: Erstelle einen Plan, dem dein Beckensitter folgen kann, und teile ihn als Seite, die er ohne Konto öffnen kann.
+description: Erstell einen Plan für deine Urlaubsvertretung und teil ihn als Seite, die sich ohne Konto öffnen lässt.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 28
 group: Account
 ---
 
-Der Urlaubsmodus verwandelt dein Becken in etwas, um das sich eine andere Person kümmern kann. Du legst die Daten fest, listest die Aufgaben auf, und Cora erstellt eine einfache Seite, die du ihr senden kannst.
+Mit dem Urlaubsmodus kann sich jemand anderes um dein Becken kümmern. Du legst die Daten fest und schreibst die Aufgaben auf. Cora macht daraus eine einfache Seite, die du weiterschicken kannst.
 
 **Einstellungen → Becken → Urlaubsmodus.**
 
@@ -15,35 +15,35 @@ Der Urlaubsmodus verwandelt dein Becken in etwas, um das sich eine andere Person
 
 ## Den Plan erstellen
 
-**Daten**: wann du abreist und wann du zurück bist.
+Trag zuerst die **Daten** ein, also wann du wegfährst und wann du zurück bist.
 
-**Eine Checkliste**: jede Aufgabe mit ihrer Häufigkeit. Cora zeigt die Häufigkeit als einfaches Etikett daneben:
+Dann stellst du eine **Checkliste** zusammen, mit jeder Aufgabe und wie oft sie anfällt. Cora zeigt die Häufigkeit als einfaches Etikett daneben:
 
-| Häufigkeit | Für |
+| Häufigkeit | Passt für |
 |---|---|
 | **Täglich** | Füttern, ein kurzer Blick aufs Becken |
-| **Alle 3 Tage** | Nachfüllen, den Abschäumer prüfen |
-| **Einmal** | Ein Wasserwechsel während deiner Abwesenheit |
-| **Immer** | Stehende Anweisungen, wie Ausrüstung, die nicht verstellt werden soll |
+| **Alle 3 Tage** | Nachfüllen, Abschäumer kontrollieren |
+| **Einmal** | einen Wasserwechsel während deiner Abwesenheit |
+| **Immer** | Anweisungen, die die ganze Zeit gelten, etwa Geräte, die nicht verstellt werden dürfen |
 
-Schreib die Checkliste für jemanden, der mit Riffbecken nicht vertraut ist. Nenne Mengen und Methoden ausdrücklich: "einen Würfel Frostfutter füttern, aufgetaut, einmal am Tag" statt "wie gewohnt füttern".
+Schreib die Checkliste für jemanden, der sich mit Meerwasserbecken nicht auskennt. Nenn Mengen und Vorgehen genau: "einmal am Tag einen Würfel Frostfutter füttern, vorher auftauen" und nicht "wie immer füttern".
 
-## Sie teilen
+## Den Plan teilen
 
-Cora verwandelt den Plan in eine **schreibgeschützte Seite**. Sende deinem Sitter den Link; er braucht kein Cora Mobile und kein Konto.
+Cora macht aus dem Plan eine **Seite, die man nur lesen kann**. Schick deiner Urlaubsvertretung den Link. Sie braucht dafür weder Cora Mobile noch ein Konto.
 
-Er kann die Checkliste lesen und das Becken sehen. Er kann nichts ändern, keine Ausrüstung steuern, und den Rest deines Kontos nicht sehen.
+Deine Vertretung kann die Checkliste lesen und das Becken sehen. Ändern kann sie nichts. Sie kann keine Geräte steuern und den Rest deines Kontos nicht sehen.
 
-:::note Nenne, was nicht verstellt werden soll
-Füge stehende Anweisungen für Ausrüstung hinzu, die der Sitter in Ruhe lassen soll. Nutze dafür die Häufigkeit **Immer**.
+:::note Schreib dazu, was nicht verstellt werden darf
+Nimm Anweisungen für die Geräte auf, die deine Vertretung in Ruhe lassen soll. Gib ihnen die Häufigkeit **Immer**.
 :::
 
 ## Während du weg bist
 
-Alles andere läuft weiter: Messwerte, Warnungen, Reef Buddy, Automationen. Der Urlaubsmodus fügt die Sitter-Seite hinzu; er ändert nicht, wie dein Becken betrieben wird.
+Alles andere läuft weiter: Messwerte, Warnungen, Reef Buddy und Automationen. Der Urlaubsmodus fügt nur die Seite für deine Vertretung hinzu. Wie dein Becken läuft, ändert er nicht.
 
-Wenn du erreichbar sein willst, prüfe deine **[Benachrichtigungseinstellungen](/help/mobile-notifications)**, bevor du gehst.
+Willst du unterwegs erreichbar sein, prüf vor der Abreise deine **[Benachrichtigungseinstellungen](/help/mobile-notifications)**.
 
-## Zurückkommen
+## Wieder zu Hause
 
-Beende den Plan, wenn du zu Hause bist. Die Checkliste bleibt erhalten, sodass du sie beim nächsten Verreisen wiederverwenden kannst, statt sie erneut zu schreiben.
+Beende den Plan, wenn du zurück bist. Die Checkliste bleibt gespeichert. Beim nächsten Mal kannst du sie wiederverwenden und musst sie nicht neu schreiben.

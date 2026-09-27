@@ -1,108 +1,108 @@
 ---
 title: Ustawienia
-description: Opis każdej sekcji ustawień Cora Mobile: konto, akwaria, Cora Assistant, język, powiadomienia, automatyzacja i aktywność.
+description: Opis wszystkich sekcji ustawień Cora Mobile: konto, akwaria, Cora Assistant, język, powiadomienia, automatyzacja i aktywność.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 32
 group: Account
 ---
 
-Wszystko, co możesz skonfigurować, w porządku, w jakim się pojawia.
+Wszystko, co możesz ustawić, w tej samej kolejności co na ekranie.
 
-![Zakładka Settings](img/mobile-settings.webp "Jeden wiersz na obszar. Karta Twojego konta znajduje się nad nimi.")
+![Zakładka Ustawienia](img/mobile-settings.webp "Jeden wiersz na każdy obszar. Nad nimi jest karta Twojego konta.")
 
 ## Twoje konto
 
-Karta na górze pokazuje, jako kto jesteś zalogowany i na jakim planie jesteś. Dotknij jej, aby uzyskać:
+Karta na górze pokazuje, na jakie konto się logujesz i jaki masz plan. Dotknij jej, a znajdziesz:
 
-- **Nazwa wyświetlana**: jak jesteś nazywany w Cora Mobile
-- **Plan and subscription**: co masz, co to obejmuje i jak to zmienić
+- **Nazwa wyświetlana**: jak Cora Mobile się do Ciebie zwraca
+- **Konto i subskrypcja**: jaki masz plan, co obejmuje i jak go zmienić
 - **Wyloguj się**
-- **Delete account**: nieodwracalne. Przeczytaj dwie notatki poniżej, zanim tego użyjesz.
+- **Usuń konto**: działa na stałe. Zanim z tego skorzystasz, przeczytaj dwie uwagi poniżej.
 
 ## Cora
 
-- **Automatyzacje**: reguły i scenki, które działają same. Pełne informacje: **[Automatyzacje i scenki](/help/mobile-automation)**.
-- **Cora Assistant**: AI, które odpowiada na pytania o Twoje akwarium, i które urządzenie odpowiada na Twój głos. Zobacz "Cora Assistant" poniżej i **[Rozmowa z Corą](/help/mobile-assistant)**.
-- **Aktywność**: zapis każdego polecenia wysłanego do Twojego sprzętu. Pełne informacje: **[Aktywność i oś czasu](/help/mobile-activity)**.
-- **Produkty dozujące**: siła tego, co dozujesz. Pełne informacje: **[Dozowanie](/help/mobile-dosing)**.
+- **Automatyzacja**: reguły i sceny, które działają same. Opisują je **[Automatyzacje i sceny](/help/mobile-automation)**.
+- **Cora Assistant**: AI, które odpowiada na pytania o akwarium, oraz wybór urządzenia, które odpowiada na Twój głos. Zobacz sekcję „Cora Assistant” poniżej i **[Rozmowę z Corą](/help/mobile-assistant)**.
+- **Aktywność**: zapis wszystkich poleceń wysłanych do sprzętu. Więcej w **[Aktywności i osi czasu](/help/mobile-activity)**.
+- **Produkty dozujące**: stężenie tego, co dozujesz. Szczegóły w **[Dozowaniu](/help/mobile-dosing)**.
 
-:::warning Automatyzacja działa na rzeczywistym sprzęcie
-Reguła, która przełącza pompę, przełączy ją niezależnie od tego, czy patrzysz. Buduj je po jednej naraz i sprawdzaj, czy każda robi to, czego oczekujesz, przed dodaniem następnej.
+:::warning Automatyzacje sterują prawdziwym sprzętem
+Reguła, która przełącza pompę, przełączy ją także wtedy, gdy nie patrzysz. Twórz reguły po jednej i sprawdź, czy każda robi to, czego się spodziewasz, zanim dodasz następną.
 :::
 
 ## Akwaria
 
-Jeden wiersz na akwarium, a potem:
+Każde akwarium ma swój wiersz, a pod nimi są:
 
 - **Dodaj akwarium**
-- **Zmień kolejność akwariów**: porządek, w jakim się pojawiają, gdy przesuwasz palcem po pulpicie
-- **Usunięte akwaria**: akwaria, które usunąłeś, na wypadek, gdybyś potrzebował czegoś z powrotem
+- **Zmień kolejność akwariów**: kolejność, w jakiej przewijasz akwaria na pulpicie
+- **Usunięte akwaria**: akwaria, które usunięto, gdyby trzeba było coś z nich odzyskać
 
-Otwórz akwarium, aby dostać się do **Główne Cora Max** (które urządzenie odpytuje sprzęt tego akwarium) i **Prowadzona konfiguracja**, oraz aby edytować samo akwarium. Pełne informacje o Primary Cora Max: **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**.
+Po otwarciu akwarium znajdziesz **Główne Cora Max** (które urządzenie odpytuje sprzęt tego akwarium) i **Prowadzona konfiguracja**. Tam też edytujesz samo akwarium. Główne Cora Max opisuje strona **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**.
 
-- **Tryb wakacyjny**: plan dla osoby doglądającej akwarium podczas Twojej nieobecności. Pełne informacje: **[Wyjazd](/help/mobile-vacation)**. Ustawiasz daty i budujesz listę zadań z tym, jak często trzeba je wykonywać, a Cora zamienia to w prostą stronę tylko do odczytu, którą możesz udostępnić opiekunowi. Nie potrzebuje konta.
+- **Tryb wakacyjny**: plan dla osoby, która zajmuje się akwarium pod Twoją nieobecność. Więcej w **[Wyjeździe](/help/mobile-vacation)**. Ustawiasz daty i listę prac z częstotliwością każdej z nich, a Cora zamienia to w prostą stronę tylko do odczytu, którą udostępnisz opiekunowi. Opiekun nie potrzebuje konta.
 
 ## Ustawienia aplikacji
 
-- **Powiadomienia**: co dociera do Twojego telefonu. Pełne informacje: **[Powiadomienia](/help/mobile-notifications)**.
-- **Język**: język konta, opisany poniżej.
-- **Wygląd**: jasny, ciemny albo zgodny z telefonem.
-- **Dostęp do urządzeń**: opisane poniżej.
-- **Pomoc i wsparcie**: kontakt ze wsparciem, zgłoszenie błędu lub wysłanie opinii oraz strona Cory i FAQ.
-- **O aplikacji**: opisane poniżej.
+- **Powiadomienia**: co trafia na telefon. Opisuje je strona **[Powiadomienia](/help/mobile-notifications)**.
+- **Język**: język konta, opisany niżej.
+- **Wygląd**: jasny, ciemny albo taki jak w telefonie.
+- **Dostęp do urządzeń**: opisany niżej.
+- **Pomoc i wsparcie**: kontakt z pomocą, zgłoszenie błędu albo opinii oraz strona Cory i FAQ.
+- **O aplikacji**: opisane niżej.
 
 ## Język
 
-**Jeden język dla całego konta, nie jeden na urządzenie.** Zmiana go na telefonie zmienia go też na każdym Cora Max w gospodarstwie domowym i w drugą stronę. Nowe raporty, alerty i briefingi Reef Buddy od tej pory są w nowym języku; starsze zostają w języku, w którym zostały napisane, i nie są tłumaczone na nowo.
+**Jeden język dla całego konta, a nie osobny dla każdego urządzenia.** Zmiana na telefonie zmienia język także na każdym Cora Max w domu, i odwrotnie. Nowe raporty, alerty i briefingi Reef Buddy są od tej chwili w nowym języku. Starsze zostają w języku, w którym powstały, i nie są tłumaczone ponownie.
 
-Jeśli wszystko w aplikacji jest nagle w języku, którego się nie spodziewałeś, ktoś (albo inne urządzenie na koncie) zmienił to tutaj albo w odpowiadającym ustawieniu **Język** na Cora Max; jest to wspólne, nie na urządzenie.
+Jeśli nagle wszystko jest w innym języku, niż się spodziewasz, ktoś (albo inne urządzenie na koncie) zmienił go tutaj albo w ustawieniu **Język** na Cora Max. To ustawienie jest wspólne, a nie osobne dla urządzenia.
 
 ## Dostęp do urządzeń
 
-**Dostęp do urządzeń** otwiera własne ustawienia Twojego telefonu dla Cory, gdzie zezwalasz na to, czego potrzebuje, aby znaleźć Twój sprzęt. Ten wiersz nie pokazuje, czy coś jest wyłączone; przenosi Cię tam, gdzie możesz to sprawdzić.
+**Dostęp do urządzeń** otwiera ustawienia telefonu dla Cory. Pozwalasz tam na to, czego Cora potrzebuje, żeby znaleźć Twój sprzęt. Sam wiersz nie pokazuje, czy coś jest wyłączone. Przenosi Cię tylko tam, gdzie to sprawdzisz.
 
-- Na iPhone: sieć lokalna i Bluetooth. Bez dostępu do sieci lokalnej wyszukiwanie sprzętu w Twoim Wi-Fi nic nie znajduje i nie pokazuje żadnego błędu. iPhone pyta tylko raz, więc to jest sposób, aby to z powrotem włączyć.
+- Na iPhonie: sieć lokalna i Bluetooth. Bez dostępu do sieci lokalnej wyszukiwanie sprzętu w Wi-Fi nic nie znajdzie i nie pokaże żadnego błędu. iPhone pyta o to tylko raz, więc tędy włączysz dostęp ponownie.
 - Na Androidzie: Bluetooth i lokalizacja.
 
 ## Cora Assistant
 
-Otwiera się z wiersza **Cora Assistant** pod **Cora**, powyżej.
+Otwierasz tę sekcję wierszem **Cora Assistant** w części **Cora** powyżej.
 
-- **Pozwól Cora Assistant korzystać z zapisanych danych akwarium**: czy Cora Assistant może używać historii Twojego akwarium, metryk i urządzeń. Musi to być włączone, aby odpowiadać: gdy jest wyłączone, Cora pokazuje ponownie swój ekran zgody przed Twoją kolejną wiadomością, a **Zgadzam się i kontynuuję** tam włącza to z powrotem. Zobacz [Rozmowa z Corą](/help/mobile-assistant).
-- **Udostępniaj zanonimizowane dane akwarium**: czy zanonimizowana kopia historii Twoich parametrów jest zachowywana dla badań reefowych. **Jest włączona, jeśli jej nie wyłączysz**, i to jest jedyna rzecz, która przetrwa usunięcie konta.
-- **Pamięć AI**: co Cora pamięta o Twoim systemie między rozmowami. Możesz to przeczytać i zresetować. Pojawia się tylko, gdy przełącznik zgody powyżej jest włączony.
-- **Urządzenie odpowiadające**: które urządzenie Cora odpowiada na frazę budzącą w Twoim domu. Pełne informacje: **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**.
-- **Użycie i limity**: Twoje miesięczne limity i to, co wykorzystałeś
+- **Pozwól Cora Assistant korzystać z zapisanych danych akwarium**: czy Cora Assistant może korzystać z historii akwarium, parametrów i urządzeń. Bez tego nie odpowie. Gdy przełącznik jest wyłączony, przed kolejną wiadomością znów pojawi się ekran zgody, a **Zgadzam się i kontynuuję** włączy go z powrotem. Więcej w [Rozmowie z Corą](/help/mobile-assistant).
+- **Udostępniaj zanonimizowane dane akwarium**: czy zanonimizowana kopia historii parametrów jest zachowywana do badań nad rafami. **Jest włączone, dopóki tego nie wyłączysz.** To jedyna rzecz, która zostaje po usunięciu konta.
+- **Pamięć AI**: co Cora pamięta o Twoim systemie między rozmowami. Możesz to przeczytać i zresetować. Ten wiersz widać tylko wtedy, gdy przełącznik zgody powyżej jest włączony.
+- **Urządzenie odpowiadające**: które urządzenie Cora w domu odpowiada na frazę wybudzającą. Szczegóły na stronie **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**.
+- **Użycie i limity**: miesięczne limity i to, ile z nich wykorzystano
 
-## Twoje dane i trzy przełączniki, które nimi zarządzają
+## Twoje dane i prywatność
 
-Nie znajdują się w jednym miejscu, więc łatwo je przegapić:
+Trzy ustawienia dotyczące Twoich danych są w różnych miejscach, więc łatwo je przeoczyć.
 
-- **Eksportuj moje dane**: na **karcie konta**, przy Delete account. Wszystko, co Cora przechowuje dla Ciebie, jako pliki, które zachowujesz, darmowe na każdym planie. Zobacz **[Eksportowanie danych](/help/mobile-data-export)**.
-- **Udostępniaj zanonimizowane dane akwarium**: pod **Cora Assistant**, powyżej. **Jest włączona, jeśli jej nie wyłączysz**, i to jest jedyna rzecz, która przetrwa usunięcie konta.
-- **Wysyłaj raporty awarii**: przy **Zgłoś błąd / wyślij opinię**. Ta sama obietnica co ten wiersz, złożona bez konieczności zauważenia przez Ciebie, że coś się zepsuło, i napisania tego.
+- **Eksportuj moje dane** jest na **karcie konta**, obok **Usuń konto**. Dostajesz swoje odczyty, wpisy w dzienniku i alerty w plikach, które zostają u Ciebie. Bezpłatnie w każdym planie. Więcej w **[Eksporcie danych](/help/mobile-data-export)**.
+- **Udostępniaj zanonimizowane dane akwarium** jest w sekcji **Cora Assistant** powyżej. **Jest włączone, dopóki tego nie wyłączysz.** To jedyna rzecz, która zostaje po usunięciu konta.
+- **Wysyłaj raporty awarii** jest obok **Zgłoś błąd / wyślij opinię**. Działa jak zgłoszenie błędu, tylko nie musisz samodzielnie zauważać problemu ani go opisywać.
 
-:::warning Usunięcie konta NIE anuluje Twojej subskrypcji
-Subskrypcja App Store albo Google Play należy do **sklepu**, nie do Cory. Usunięcie konta usuwa Twój zapis tutaj i **nic nie zatrzymuje rozliczeń**; opłaty trwają, aż sam anulujesz u Apple albo Google. Anuluj subskrypcję najpierw, a potem usuń konto.
+:::warning Usunięcie konta NIE anuluje subskrypcji
+Subskrypcja w App Store albo Google Play należy do **sklepu**, a nie do Cory. Usunięcie konta kasuje Twoje dane u nas, ale **nie zatrzymuje płatności**. Opłaty będą pobierane, dopóki nie anulujesz subskrypcji bezpośrednio w Apple albo Google. Najpierw anuluj subskrypcję, a dopiero potem usuń konto.
 :::
 
-:::note Czego usunięcie nie dosięga
-Jeśli **Udostępniaj zanonimizowane dane akwarium** jest włączone (a jest włączone, jeśli tego nie wyłączyłeś), zanonimizowana kopia profili Twoich akwariów i historii parametrów jest zachowywana dla badań jako część tego samego usunięcia. Nie niesie żadnego powiązania z Tobą. Wyłącz ten przełącznik *przed* usunięciem, jeśli chcesz, aby to też zniknęło.
+:::note Czego nie obejmuje usunięcie konta
+Jeśli **Udostępniaj zanonimizowane dane akwarium** jest włączone (a jest, chyba że to wyłączono), przy usuwaniu konta zanonimizowana kopia profili akwariów i historii parametrów zostaje zachowana do badań. Nie ma w niej żadnego powiązania z Tobą. Jeśli chcesz, żeby też zniknęła, wyłącz ten przełącznik *przed* usunięciem konta.
 :::
 
 ## O aplikacji
 
-Wersja, którą używasz, oraz:
+Tu widać wersję Cora Mobile, a także:
 
-- **Powtórz wskazówki**: odtwarza wycieczkę po pulpicie przy pierwszym uruchomieniu, opisaną w **[Pięć zakładek](/help/mobile-tour)**, przydatne po aktualizacji albo gdy ktoś nowy zaczyna korzystać z Cora Mobile
-- **Polityka prywatności** i **Warunki korzystania**: linki do stron prawnych (po angielsku)
-- **Licencje**: oprogramowanie open-source, na którym zbudowana jest Cora Mobile
+- **Powtórz wskazówki**: ponownie pokazuje wprowadzenie do pulpitu, opisane w **[Pięciu zakładkach](/help/mobile-tour)**. Przydaje się po aktualizacji albo gdy z Cora Mobile zaczyna korzystać ktoś nowy.
+- **Polityka prywatności** i **Warunki korzystania**: linki do dokumentów prawnych (po angielsku)
+- **Licencje**: oprogramowanie open source, na którym zbudowano Cora Mobile
 
 ## Pomoc
 
-Na dole Settings:
+Na dole Ustawień:
 
-- **Kontakt z pomocą**: wysyła nam e-mail; zwykle odpowiadamy w ciągu dnia
+- **Kontakt z pomocą**: wysyła do nas e-mail. Zwykle odpowiadamy w ciągu doby.
 - **Zgłoś błąd / wyślij opinię**
 - **Strona i FAQ Cora**

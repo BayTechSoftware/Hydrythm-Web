@@ -1,28 +1,28 @@
 ---
 title: Wartung
-description: Wiederkehrende Aufgaben mit Erinnerungen: Abschäumer-Reinigung, Filtersocken, Pumpenwartung.
+description: Wiederkehrende Aufgaben mit Erinnerungen, vom Abschäumer über Filtersocken bis zur Pumpenwartung.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 19
 group: Records
 ---
 
-Wartung enthält die wiederkehrenden Aufgaben, die ein Becken braucht, und die Erinnerungen dafür. Öffne sie aus der Verknüpfungsreihe am unteren Rand des Dashboards.
+Unter Wartung stehen die Aufgaben, die an deinem Becken regelmäßig anfallen, samt Erinnerungen. Du öffnest sie über die Reihe mit Verknüpfungen unten auf dem Dashboard.
 
 ![Die Wartungsliste](img/mobile-maintenance.webp "Erfüllung, Anzahl der überfälligen Aufgaben, und jede Aufgabe mit ihrer letzten Erledigung und ihrem nächsten Fälligkeitsdatum.")
 
 ## Die Übersicht
 
-Oben:
+Ganz oben siehst du:
 
-- **Wartungserfüllung**: der Anteil der Aufgaben, die derzeit im Zeitplan erledigt sind
-- **Anzahl überfällig**: wie viele Aufgaben ihr Fälligkeitsdatum überschritten haben
+- die **Wartungserfüllung**, also den Anteil der Aufgaben, die gerade im Zeitplan sind
+- wie viele Aufgaben **überfällig** sind
 
-Jede Aufgabe in der Liste ist nach Dringlichkeit farbcodiert: überfällig, bald fällig, oder geplant. Jede Aufgabe zeigt, wann sie zuletzt erledigt wurde und wann sie als Nächstes fällig ist.
+Die Farbe jeder Aufgabe zeigt, wie dringend sie ist: überfällig, bald fällig oder geplant. Zu jeder Aufgabe siehst du, wann du sie zuletzt erledigt hast und wann sie wieder fällig ist.
 
 ## Eine Aufgabe hinzufügen
 
-Gib ihr einen Namen, ein Symbol, und wie oft sie in Tagen erledigt werden muss. Cora berechnet, wann sie als Nächstes fällig ist.
+Gib der Aufgabe einen Namen und ein Symbol und leg fest, alle wie viele Tage sie anfällt. Cora rechnet aus, wann sie das nächste Mal fällig ist.
 
 Typische Aufgaben:
 
@@ -30,40 +30,40 @@ Typische Aufgaben:
 |---|---|
 | Filtersocken wechseln | 3–7 Tage |
 | Abschäumerbecher reinigen | 7 Tage |
-| Glas reinigen | 7 Tage |
-| Kohle oder GFO ersetzen | 30 Tage |
+| Scheiben putzen | 7 Tage |
+| Kohle oder GFO wechseln | 30 Tage |
 | Rückförderpumpe warten | 90–180 Tage |
 | Sonden kalibrieren | 30–90 Tage |
 
 ## Erinnerungen
 
-Jede Aufgabe kann dich erinnern, und du steuerst das Timing:
+Jede Aufgabe kann dich erinnern. Du legst fest,
 
-- **Wie viele Tage vorher** sie fällig ist
-- **Zu welcher Tageszeit** die Erinnerung ankommt
+- **wie viele Tage vorher** die Erinnerung kommt
+- **zu welcher Uhrzeit** sie kommt
 
-Schalte Erinnerungen für eine Aufgabe aus, die du lieber nur in der Liste sehen möchtest.
+Willst du eine Aufgabe nur in der Liste sehen, schalte ihre Erinnerungen aus.
 
-## Eine Aufgabe als erledigt markieren
+## Eine Aufgabe abhaken
 
-Nutze die **Fertig**-Steuerung der Aufgabe, oder wische sie. Cora erfasst den Erledigungszeitpunkt und plant das nächste Vorkommen von diesem Moment an, sodass eine drei Tage zu spät erledigte Aufgabe die nächste um drei Tage verschiebt, statt vorzugeben, dass sie pünktlich erledigt wurde.
+Tippe bei der Aufgabe auf **Fertig** oder wisch sie zur Seite. Cora speichert, wann du sie erledigt hast, und plant die nächste Fälligkeit ab diesem Moment. Erledigst du eine Aufgabe drei Tage zu spät, rückt die nächste also auch drei Tage nach hinten. Cora tut nicht so, als wäre alles pünktlich gewesen.
 
-:::note Auf eine Aufgabe tippen öffnet sie zum Bearbeiten
-Auf die Zeile selbst zu tippen öffnet die Aufgabe, um ihren Namen, ihr Intervall oder ihre Erinnerungen zu ändern. Nutze Fertig, um sie zu erledigen.
+:::note Ein Tipp auf die Aufgabe öffnet sie zum Bearbeiten
+Tippst du auf die Zeile selbst, kannst du Name, Intervall oder Erinnerungen ändern. Zum Abhaken nimmst du Fertig.
 :::
 
 ## Verschieben
 
-Wenn du eine Aufgabe gerade nicht erledigen kannst, verschiebe sie. Sie bleibt in der Liste in einem gedämpften **Verschoben**-Zustand mit ihrem neuen Datum, daher verschwindet nichts; du wirst einfach erst dann wieder erinnert.
+Kommst du gerade nicht dazu, verschieb die Aufgabe. Sie bleibt gedämpft mit dem Status **Verschoben** und dem neuen Datum in der Liste stehen. Es verschwindet also nichts. Du wirst nur erst dann wieder erinnert.
 
-:::warning Markiere eine Aufgabe nicht als erledigt, wenn sie nicht erledigt wurde
-Das nächste Fälligkeitsdatum wird aus dem Erledigungsdatum berechnet. Eine ausstehende Aufgabe als erledigt zu markieren, verschiebt jedes nachfolgende Fälligkeitsdatum. Verschiebe sie statt dessen.
+:::warning Hake eine Aufgabe nur ab, wenn du sie wirklich erledigt hast
+Die nächste Fälligkeit rechnet Cora ab dem Tag, an dem du abgehakt hast. Hakst du eine offene Aufgabe ab, verschieben sich alle folgenden Termine. Verschieb sie lieber.
 :::
 
 ## Eine Aufgabe pausieren
 
-Eine Aufgabe kann inaktiv gemacht werden (für Ausrüstung, die du außer Betrieb genommen hast, oder eine Aufgabe, die diese Saison nicht zutrifft). Sie bleibt in der Liste, wird nicht mehr fällig, und kann später wieder aktiviert werden.
+Du kannst eine Aufgabe auf inaktiv setzen, etwa für ein Gerät, das du abgebaut hast, oder für eine Arbeit, die in dieser Saison nicht anfällt. Sie bleibt in der Liste, wird aber nicht mehr fällig. Später kannst du sie wieder aktivieren.
 
-## Wartung und das Tagebuch
+## Wartung und Tagebuch
 
-Eine Aufgabe zu erledigen ist nicht dasselbe wie einen Tagebucheintrag zu schreiben. Wartung beantwortet "was ist fällig?"; das **[Tagebuch](/help/mobile-journal)** beantwortet "was habe ich tatsächlich getan, und was ist danach passiert?". Wenn eine Aufgabe ungewöhnlich war (die Pumpe war voller Sand, die Socken waren nach einem Tag schwarz), gehört das auch ins Tagebuch.
+Eine Aufgabe abzuhaken ist etwas anderes als ein Tagebucheintrag. Die Wartung sagt dir, was fällig ist. Im **[Tagebuch](/help/mobile-journal)** steht, was du tatsächlich getan hast und was danach passiert ist. War bei einer Aufgabe etwas ungewöhnlich, etwa eine Pumpe voller Sand oder Filtersocken, die nach einem Tag schwarz waren, gehört das zusätzlich ins Tagebuch.

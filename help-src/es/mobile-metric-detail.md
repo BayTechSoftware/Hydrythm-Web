@@ -1,83 +1,83 @@
 ---
-title: Profundizar en un parámetro
-description: Toca cualquier widget para ver el historial completo, cada fuente que lo informa y dónde cambiar su rango.
+title: Ver un parámetro a fondo
+description: Toca cualquier widget para ver el historial completo, todas las fuentes que lo informan y dónde cambiar su rango.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 8
 group: Your dashboard
 ---
 
-Un widget te muestra un número. Tocarlo te muestra la historia detrás del número.
+Un widget te da un número. Si lo tocas, ves la historia que hay detrás.
 
-## Qué obtienes
+## Qué encuentras
 
-![Profundizar en un parámetro](img/mobile-metric-detail.webp "Rangos en la parte superior, luego las fuentes que informan este parámetro, luego el gráfico con tu franja de alerta sombreada.")
+![Ver un parámetro a fondo](img/mobile-metric-detail.webp "Arriba los rangos, después las fuentes que informan el parámetro y luego el gráfico con tu franja de alerta sombreada.")
 
-**Un gráfico de historial**, con su propio selector de rango: **1h · 6h · 12h · 24h · 3d · 7d** y más.
+Un **gráfico de historial** con su propio selector de rango: **1h · 6h · 12h · 24h · 3d · 7d** y periodos más largos.
 
-**Un filtro de fuente.** Debajo de los rangos hay una fila de chips: **Todas**, más una por cada fuente que informa este parámetro, como *Apex*, *Cora*, *Red Sea* o *Manual*. Selecciona una para ver solo sus lecturas. Así comparas una sonda con un kit de pruebas directamente: cambia entre ellas en el mismo gráfico.
+Un **filtro de fuente**. Debajo de los rangos hay una fila de chips con **Todas** y uno por cada fuente que informa el parámetro, como *Apex*, *Cora*, *Red Sea* o *Manual*. Elige uno para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.
 
-**Un enlace a la calculadora de dosis**, para parámetros que dosificas. Usa el volumen del acuario de tu [perfil del acuario](/help/mobile-tank-profile) y las concentraciones de [Dosificación](/help/mobile-dosing).
+Un **acceso a la calculadora de dosis** en los parámetros que dosificas. Usa el volumen de tu [perfil del acuario](/help/mobile-tank-profile) y las concentraciones de [Dosificación](/help/mobile-dosing).
 
-**Una superposición de comparación.** *Comparar con* dibuja un segundo parámetro en el mismo gráfico (alcalinidad frente a calcio, pH frente a temperatura), así una relación que sospechas se vuelve visible en lugar de recordada.
+**Comparar con** dibuja un segundo parámetro en el mismo gráfico, por ejemplo alcalinidad y calcio, o pH y temperatura. Si sospechas que dos cosas van unidas, aquí lo ves.
 
-**Estadísticas de resumen** para la ventana en pantalla: **MÍN**, **PROM** y **MÁX**, mostradas en una fila bajo el valor actual.
+**MÍN**, **PROM** y **MÁX** del periodo que tienes en pantalla, en una fila debajo del valor actual.
 
-**Marcadores de dosis** en el gráfico, para poder alinear un movimiento con lo que realmente dosificaste.
+**Marcas de dosis** en el gráfico, para relacionar un cambio con lo que dosificaste de verdad.
 
-**La lista de lecturas en bruto**: cada lectura individual detrás de la línea, con su fuente y marca de tiempo.
+La **lista de lecturas**, con cada lectura que forma la línea, su fuente y su hora.
 
-**Tu franja de alerta**, sombreada en el gráfico, para que una lectura se lea frente a su rango en lugar de aislada. Para cambiar el rango en sí, mantén pulsado el widget en el panel. Consulta [Alertas y umbrales](/help/mobile-alerts).
+Tu **franja de alerta**, sombreada en el gráfico, para que veas cada lectura junto a su rango. Para cambiar el rango, mantén pulsado el widget en el panel. Lo explicamos en [Alertas y umbrales](/help/mobile-alerts).
 
-**Registrar una lectura** a mano.
+Y la opción de **registrar una lectura** a mano.
 
 ## Elegir un rango
 
-El rango adecuado depende del ritmo del parámetro:
+El rango que te conviene depende del ritmo del parámetro:
 
-| Parámetro | Ventana útil |
+| Parámetro | Periodo útil |
 |---|---|
-| pH | 24 horas; oscila en un ciclo diario |
+| pH | 24 horas, porque sube y baja cada día |
 | Temperatura | 24 horas o 7 días |
 | Alcalinidad | 7 o 30 días |
-| Elementos traza | 30 días o un año |
+| Oligoelementos | 30 días o un año |
 
-:::note Revisa la antigüedad de la lectura en una tendencia plana
-Una línea que no se ha movido puede indicar un parámetro estable o una fuente que ha dejado de informar. La antigüedad mostrada junto al valor distingue entre las dos.
+:::note Si la línea está plana, mira la antigüedad
+Una línea que no se mueve puede ser un parámetro estable o una fuente que ha dejado de informar. La antigüedad que aparece junto al valor te dice cuál de las dos es.
 :::
 
 ## Comparar fuentes
 
-Cuando más de una fuente informa un parámetro, Cora las mantiene separadas en lugar de promediarlas. Usa los chips de fuente para ver cada una por turno.
+Cuando varias fuentes informan el mismo parámetro, Cora las muestra por separado y no hace la media. Usa los chips de fuente para verlas una a una.
 
-Un desajuste persistente entre una sonda y una prueba registrada a mano suele indicar que la sonda necesita calibrarse.
+Si una sonda y tus pruebas a mano no coinciden durante un tiempo, lo normal es que haya que calibrar la sonda.
 
-Un [resultado de ICP](/help/mobile-icp-health) es una tercera opinión útil, pero no un árbitro. Los laboratorios difieren entre sí, y la manipulación, el almacenamiento y el transporte de la muestra también mueven el resultado. Trata un solo ICP como evidencia, no como el valor verdadero; que dos pruebas coincidan vale mucho más que una sola.
+Un [resultado ICP](/help/mobile-icp-health) es una buena tercera opinión, pero no tiene la última palabra. Los laboratorios no coinciden entre sí, y la forma de manipular, guardar y enviar la muestra también cambia el resultado. Toma un solo ICP como un indicio, no como el valor exacto. Dos análisis que coinciden valen mucho más que uno.
 
 ## Elegir qué fuente sigue un widget
 
-Si quieres que un widget siga una fuente concreta, fíjalo en los ajustes del widget. Consulta **[Editar tu panel](/help/mobile-dashboard-editing)**.
+Si quieres que un widget siga una fuente concreta, elígela en los ajustes del widget. Lo tienes en [Editar tu panel](/help/mobile-dashboard-editing).
 
 ## Excluir una lectura errónea
 
-Una sonda que se disparó, una prueba mal leída, una muestra tomada a mitad de un cambio de agua: una sola lectura errónea distorsiona el gráfico, los promedios y cualquier cosa que razone a partir de ellos.
+Un pico de la sonda, una prueba mal leída, una muestra tomada en pleno cambio de agua. Una sola lectura errónea deforma el gráfico, las medias y todo lo que se calcula a partir de ellos.
 
-![La lista de lecturas en bruto](img/mobile-readings.webp "Cada lectura detrás de la línea, con su fuente y hora.")
+![La lista de lecturas](img/mobile-readings.webp "Cada lectura que forma la línea, con su fuente y su hora.")
 
-Abre la lista de lecturas desde el icono en la barra superior, y luego toca una lectura para excluirla. La pantalla lo indica claramente: *excluida de promedios y análisis, pero se queda en tu registro.* No se elimina nada, y se puede restaurar.
+Abre la lista de lecturas con el icono de la barra superior y toca una lectura para excluirla. La pantalla lo explica: la lectura deja de contar en los promedios y análisis, pero sigue en tu registro. No se borra nada y puedes recuperarla.
 
-:::warning Excluye una lectura equivocada, no una que no te gusta
-Excluir es para lecturas que sabes que no son válidas. Una lectura que no te gusta pero que no puedes cuestionar es un dato, y quitarla hace menos honesta cualquier comparación posterior.
+:::warning Excluye lecturas erróneas, no lecturas que no te gustan
+Excluir sirve para lecturas que sabes que no son válidas. Si una lectura no te gusta pero no tiene nada de raro, es un dato. Quitarla hace que todas las comparaciones posteriores sean menos fiables.
 :::
 
-## Registrar el cuidado de la sonda
+## Anotar el cuidado de la sonda
 
-Registrar una calibración o limpieza desde aquí marca la fecha contra esa fuente, así una discrepancia posterior se puede leer en función de cuándo se atendió por última vez la sonda. Consulta [Sondas](/help/mobile-probes).
+Si registras aquí una calibración o una limpieza, la fecha queda asociada a esa fuente. Así, si más adelante hay una diferencia, sabes cuándo se revisó la sonda por última vez. Más información en [Sondas](/help/mobile-probes).
 
 ## Registrar una lectura a mano
 
-Introduce lo que dice tu kit de pruebas. Las lecturas registradas a mano son de primera clase: tienen su propia fuente y marca de tiempo, aparecen en el gráfico, alimentan a Reef Buddy, y son con lo que Cora compara tu equipo.
+Introduce lo que marca tu kit de pruebas. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico, Reef Buddy las usa y Cora compara tus equipos con ellas.
 
-:::note Cora revisa las entradas que parecen inverosímiles
-Si un valor está muy lejos de lo que ha estado dando el acuario, se te pide que lo confirmes antes de guardarlo. Esto detecta un punto decimal en el lugar equivocado o una lectura introducida en el parámetro equivocado. Confírmala y la lectura se guarda con normalidad.
+:::note Cora revisa los valores que parecen raros
+Si un valor está muy lejos de lo que viene marcando el acuario, Cora te pide que lo confirmes antes de guardarlo. Así se detecta una coma decimal fuera de sitio o una lectura puesta en el parámetro equivocado. Si la confirmas, se guarda con normalidad.
 :::

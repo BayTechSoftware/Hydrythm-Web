@@ -1,67 +1,67 @@
 ---
-title: Das Cora Max Dashboard bearbeiten
-description: Wähle ein Raster, füge Widgets hinzu, und speichere Layouts für das Cora Max Display.
+title: Das Cora Max-Dashboard bearbeiten
+description: Raster wählen, Widgets hinzufügen und Layouts für den Cora Max-Bildschirm speichern.
 section: Cora Max
 reviewed: 2026-09-09
 order: 4
 group: Your dashboard
 ---
 
-Das Cora Max Dashboard nutzt ein **festes Raster**. Jede Kachel muss auf einen Bildschirm passen; das Display scrollt nicht. Das ist der Hauptunterschied zum Handy-Dashboard.
+Das Cora Max-Dashboard hat ein **festes Raster**. Alle Kacheln müssen auf einen Bildschirm passen, denn der Bildschirm scrollt nicht. Das ist der größte Unterschied zum Dashboard auf dem Handy.
 
-Öffne den Editor über das **Beckenmenü**: tippe auf den Beckennamen in der oberen Leiste, dann **Dashboard-Layout**. Er befindet sich auch unter **Einstellungen → Beckeneinstellungen → [dein Becken] → Dashboard-Layout**.
+Den Editor öffnest du über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen und dann auf **Dashboard-Layout**. Du findest ihn auch unter **Einstellungen → Beckeneinstellungen → [dein Becken] → Dashboard-Layout**.
 
-![Der Dashboard-Editor auf Cora Max](img/max-dashboard-editor.webp "Rastergrößen oben, dann die Kacheln. Jede zeigt ihren Typ und ihre Quelle, keinen Messwert; das ist ein Layout-Bildschirm. Nichts wird geschrieben, bis du auf Speichern tippst.")
+![Der Dashboard-Editor auf Cora Max](img/max-dashboard-editor.webp "Oben die Rastergrößen, darunter die Kacheln. Jede Kachel zeigt ihren Typ und ihre Quelle, aber keinen Messwert, denn hier geht es nur um das Layout. Gespeichert wird erst, wenn du auf Speichern tippst.")
 
-:::tip Du kannst es auch von deinem Handy aus bearbeiten
-**Geräte → dein Cora Max → Dashboard bearbeiten** erstellt dasselbe Layout von Cora Mobile aus. Das geht schneller, als Kacheln von Hand an einer Wand anzuordnen, und das Ergebnis erscheint sofort auf dem Bildschirm.
+:::tip Du kannst das Dashboard auch auf dem Handy bearbeiten
+Unter **Geräte → dein Cora Max → Dashboard bearbeiten** baust du in Cora Mobile dasselbe Layout. Das geht schneller, als Kacheln an der Wand von Hand anzuordnen, und das Ergebnis erscheint sofort auf dem Bildschirm.
 :::
 
 ## Ein Raster wählen
 
-Wähle zuerst die Dichte, denn sie zu ändern ordnet alles neu an.
+Wähle zuerst die Dichte. Änderst du sie später, ordnen sich alle Kacheln neu an.
 
-| Raster | Kacheln | Fühlt sich an wie |
+| Raster | Kacheln | So wirkt es |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Groß. Quer durch den Raum lesbar. |
-| 4×4, 5×3, 6×4 | 16–24 | Die übliche Wahl für ein vollständiges System. |
-| 6×5, 8×4, 8×5 | 30–40 | Dicht. Ein ganzer Riffraum auf einmal. |
+| 4×4, 5×3, 6×4 | 16–24 | Die übliche Wahl für ein komplettes System. |
+| 6×5, 8×4, 8×5 | 30–40 | Dicht. Ein ganzer Riffraum auf einen Blick. |
 | 9×5, 10×5 | 45–50 | Sehr dicht. Am besten auf den größten Bildschirmen. |
-| **Auto** | bis zu 32 | Cora wählt eine Form passend zur Anzahl der hinzugefügten Kacheln. |
+| **Auto** | bis zu 32 | Cora wählt eine Form, die zur Zahl deiner Kacheln passt. |
 
-Ein festes Raster fasst so viele Kacheln, wie es Zellen hat, bis zu 50 bei 10×5. **Auto** ist die einzige Option mit eigener Obergrenze: Sie stoppt bei 32 Kacheln, weil der Text darüber hinaus zu klein wird, um aus der Entfernung lesbar zu sein.
+Ein festes Raster fasst so viele Kacheln, wie es Zellen hat, bei 10×5 also bis zu 50. Nur **Auto** hat eine eigene Obergrenze von 32 Kacheln. Bei mehr Kacheln wird die Schrift zu klein, um sie aus der Entfernung zu lesen.
 
-:::note Beginne mit Auto, wenn du unsicher bist
-Füge die Kacheln hinzu, die du willst, und lass das Raster auf **Auto**; Cora wählt eine passende Form. Wenn dir das Ergebnis gefällt, lege es danach auf diese feste Form fest.
+:::note Im Zweifel mit Auto anfangen
+Füge die Kacheln hinzu, die du haben willst, und lass das Raster auf **Auto**. Cora wählt dann eine passende Form. Gefällt dir das Ergebnis, kannst du diese Form danach fest einstellen.
 :::
 
-:::warning Das Ändern des Rasters kann Kacheln verwerfen, aber nur, wenn kein Platz ist
-Kacheln werden in die neue Form neu angeordnet, statt nach Position verworfen zu werden: Alles, das schon in einer gültigen Zelle ist, bleibt, und der Rest wird der Reihe nach wieder eingepackt. Kacheln gehen nur verloren, wenn das neue Raster **weniger Zellen hat, als du Kacheln hast**, und Cora sagt dir, wie viele weg sind. Von 10×5 (50 Zellen) auf 3×3 (9) zu wechseln verliert die meisten davon.
+:::warning Beim Rasterwechsel gehen Kacheln nur verloren, wenn der Platz fehlt
+Cora verwirft beim Wechsel keine Kacheln wegen ihrer Position, sondern ordnet sie in die neue Form ein. Was schon in einer gültigen Zelle liegt, bleibt dort. Der Rest wird der Reihe nach wieder einsortiert. Verloren gehen Kacheln nur, wenn das neue Raster **weniger Zellen hat, als du Kacheln hast**. Cora sagt dir dann, wie viele weggefallen sind. Wechselst du von 10×5 (50 Zellen) auf 3×3 (9), sind die meisten weg.
 :::
 
-## Hinzufügen und Anordnen
+## Hinzufügen und anordnen
 
-Der Editor nennt oben die drei Gesten: **auf eine Kachel tippen, um sie zu bearbeiten**, **lange drücken, um sie zu verschieben**, und **✕, um sie zu entfernen**. Kacheln können eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein.
+Oben im Editor stehen die drei Gesten: **Tippe auf eine Kachel, um sie zu bearbeiten**, **drück lange, um sie zu verschieben**, und tippe auf **✕, um sie zu entfernen**. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein.
 
-**Steckdosen & Fütterung** fügt deine steuerbaren Steckdosen und Fütterungszyklen in einem Schritt hinzu, statt eine Kachel nach der anderen. **Alles löschen** leert das Raster, damit du neu beginnen kannst.
+Mit **Steckdosen & Füttern** fügst du alle schaltbaren Steckdosen und Fütterungszyklen auf einmal hinzu. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 
-Die neun Kachel-Typen (Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod und Maxspect *(Beta)*) sind in der **[Widget-Referenz](/help/mobile-widgets)** beschrieben.
+Die neun Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod und Maxspect *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
 
-## Für die Entfernung gestalten
+## Für den Blick aus der Entfernung
 
-Ein Wandbildschirm wird von weiter weg gelesen als ein Handy, und meist auf einen Blick statt mit Aufmerksamkeit.
+Einen Wandbildschirm liest du aus größerer Entfernung als ein Handy, und meist nur im Vorbeigehen.
 
-- **Gib deinen Hauptwasserwerten Zwei-mal-zwei.** Alkalinität, Temperatur, pH: die Dinge, die du ohne Hinlaufen lesen willst.
-- **Setze Steuerungen an die Ränder.** Steckdosenkacheln sind die, nach denen du greifst; sie sind an den Seiten leichter zu treffen.
-- **Gruppiere nach Thema, nicht nach Typ.** Alles zur Dosierung zusammen, alles zur Strömung zusammen. Du überblickst eine Wand nach Bereich.
-- **Lass die Spurenelemente klein.** Spurenelemente und andere langsame Zahlen sind Referenz, keine Überwachung; eine Eins-mal-eins-Wert-Kachel reicht völlig.
+- **Gib deinen wichtigsten Wasserwerten zwei mal zwei Zellen.** Alkalinität, Temperatur, pH: alles, was du ablesen willst, ohne hinzugehen.
+- **Leg die Steuerung an den Rand.** Nach Steckdosenkacheln greifst du am häufigsten, und an den Seiten triffst du sie leichter.
+- **Sortiere nach Thema.** Alles zur Dosierung zusammen, alles zur Strömung zusammen. An der Wand suchst du nach Bereichen.
+- **Lass die Spurenelemente klein.** Spurenelemente und andere Werte, die sich langsam ändern, schaust du nur gelegentlich nach. Dafür reicht eine Wert-Kachel mit einer Zelle.
 
 ## Layouts speichern
 
-Nichts, was du im Editor tust, wirkt sich aus, bis du auf **Speichern** tippst. Ohne zu speichern zu verlassen verwirft die Änderungen.
+Was du im Editor änderst, wirkt erst, wenn du auf **Speichern** tippst. Verlässt du den Editor ohne zu speichern, sind die Änderungen weg.
 
-**Meine Dashboards** behält Layouts, zu denen du zurückkehren willst, sodass du zwischen ihnen wechseln kannst, statt sie neu aufzubauen. Ein dichtes Alltagslayout und ein Layout mit großen Kacheln für die Arbeit am Becken passen zu unterschiedlichen Momenten, und zwischen ihnen zu wechseln braucht nur einen Tipp.
+In **Meine Dashboards** legst du Layouts ab, zu denen du zurückkehren willst. So wechselst du zwischen ihnen, ohne sie neu zu bauen. Ein dichtes Layout für den Alltag und eines mit großen Kacheln für die Arbeit am Becken passen zu verschiedenen Situationen, und der Wechsel kostet nur einen Tipp.
 
 ## Mehrere Becken
 
-Jedes Becken hat sein eigenes Layout. Bearbeite sie getrennt, ein Becken nach dem anderen, über die eigenen Einstellungen dieses Beckens.
+Jedes Becken hat sein eigenes Layout. Du bearbeitest sie nacheinander, jeweils in den Einstellungen des Beckens.

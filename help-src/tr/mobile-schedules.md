@@ -1,70 +1,70 @@
 ---
-title: Ekipman zamanlama
-description: Bir Jecod pompası için bir gün programı oluşturun ve onu pompalar arasında kopyalayın, ve bir Maxspect gyre'nin zamanlamasını görüntüleyin (beta).
+title: Ekipman programları
+description: Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın. Maxspect gyre programını görüntüleyin (beta).
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 12
 group: Equipment
 ---
 
-Pompalar ve gyre'ler bir **gün programı** çalıştırabilir: her biri kendi yoğunluğuna sahip, her gün tekrarlanan bir dizi periyot. Cora bunları Jecod pompaları için doğrudan yazabilir. Bir Maxspect gyre'nin zamanlaması *(beta)* burada yalnızca görüntülenebilir: onu Maxspect uygulamasında ayarlayın.
+Pompalar ve gyre'ler **günlük program** çalıştırabilir. Günlük program, her birinin kendi yoğunluğu olan ve her gün tekrarlanan periyotlardan oluşur. Cora, Jecod pompalarının programını doğrudan yazabilir. Maxspect gyre'lerin *(beta)* programını ise burada yalnızca görüntüleyebilirsiniz. Bu programı Maxspect uygulamasından ayarlayın.
 
 Cihazı **Cihazlar** sekmesinden açın.
 
-![Bir pompa zamanlaması](img/mobile-schedules.webp "0-24 saat boyunca gün grafiği, altında listelenen her periyotla.")
+![Pompa programı](img/mobile-schedules.webp "0–24 saatlik gün grafiği ve altında listelenen periyotlar.")
 
-## Tüm gün aynı, veya Zamanlama
+## Tüm gün aynı ya da Program
 
-Bir pompa, sayfasının üstünde seçilen iki moddan birinde çalışır:
+Pompa iki moddan birinde çalışır. Modu pompanın sayfasının üstünden seçersiniz:
 
-- **Tüm gün aynı**: sürekli bir yoğunluk
-- **Zamanlama**: periyotlu bir gün programı
+- **Tüm gün aynı**: gün boyu sabit tek yoğunluk
+- **Program**: periyotlardan oluşan günlük program
 
-Seçiminiz, telefonunuz pompanın ağında değilse akvaryumdaki Cora Max üzerinden pompaya gönderilir. Bir Bluetooth pompasının menzilde olması gerekir: olana kadar, burada seçim yapmak yalnızca baktığınız şeyi değiştirir.
+Seçiminiz pompaya gönderilir. Telefonunuz pompanın ağında değilse seçim akvaryumdaki Cora Max üzerinden gider. Bluetooth pompanın menzilde olması gerekir. Menzile girene kadar buradaki seçim yalnızca ekranda gördüğünüzü değiştirir.
 
-## Zamanlama düzenleyicisi
+## Program düzenleyici
 
-Her zamanlama ekranı aynı üç parçaya sahiptir:
+Her program ekranı aynı üç bölümden oluşur:
 
-**Gün grafiği**: 0'dan 24 saate kadar tüm gün, her periyot yüksekliği yoğunluğu olan bir blok olarak çizilir. Bir programın düşündüğünüzü yapıp yapmadığını görmenin en hızlı yolu budur.
+**Gün grafiği**: 0'dan 24'e kadar bütün gün. Her periyot bir blok olarak çizilir, bloğun yüksekliği yoğunluğu gösterir. Programın istediğiniz gibi çalışıp çalışmadığını en hızlı buradan görürsünüz.
 
-**Periyot listesi**: grafiğin altında her periyot, saatleri, modu ve yoğunluğuyla: *Rastgele, 00:00-03:00, Frekans %50, %40*. Periyotları buradan ekleyin, düzenleyin ve kaldırın.
+**Periyot listesi**: grafiğin altında her periyot saatleri, modu ve yoğunluğuyla listelenir. Örneğin *Rastgele, 00:00–03:00, Frek 50%, 40%*. Periyotları buradan ekler, düzenler ve silersiniz.
 
-**Periyot ekleme ve değiştirme**: **Programa ekle** bir periyot ekler. Değiştirmek için bir periyodu açın ve **Kaydet**'e dokunun, veya onu **Sil**; gitmeden önce onaylamanız istenir.
+**Periyot ekleme ve değiştirme**: **Programa ekle** yeni bir periyot ekler. Bir periyodu değiştirmek için açın ve **Kaydet**'e dokunun. Silmek için **Sil**'e dokunun. Cora silmeden önce onay ister.
 
-Bir Maxspect gyre'nin *(beta)* Gyre A ve Gyre B olarak gösterilen iki kafası vardır, bu yüzden gün grafiğinin her biri için bir olmak üzere iki izi vardır ve planları **GYRE A** ve **GYRE B** altında listelenir. Bir gyre'nin zamanlaması yalnızca görüntülenir: eylem satırı **Yalnızca görüntüle** okur ve zamanlama Maxspect uygulamasında ayarlanır.
+Maxspect gyre'nin *(beta)* Gyre A ve Gyre B adlı iki kafası var. Bu yüzden gün grafiğinde her kafa için ayrı bir iz görünür ve planlar **GYRE A** ve **GYRE B** başlıkları altında listelenir. Gyre programı yalnızca görüntülenebilir. İşlem satırında **Yalnızca görüntüle** yazar. Programı Maxspect uygulamasından ayarlarsınız.
 
-:::warning Bir zamanlama cihaza yazılır
-Kaydetmek programı ekipmana gönderir, o da ardından kendi saatinde çalıştırır. Cora'ya ulaşılabilir olsun olmasın çalışmayı sürdürür.
+:::warning Program cihaza yazılır
+Kaydettiğinizde program ekipmana gönderilir. Ekipman programı kendi saatine göre çalıştırır. Cora'ya bağlantı olsa da olmasa da program çalışmaya devam eder.
 :::
 
-## Bir programı pompalar arasında kopyalama
+## Programı pompalar arasında kopyalama
 
-Aynı şekilde davranması gereken birkaç pompa işletiyorsanız, bir program oluşturun ve kopyalayın.
+Aynı şekilde çalışması gereken birkaç pompanız varsa bir program hazırlayıp kopyalayın.
 
-İstediğiniz programa sahip pompayı açın, ardından **Programı şuraya kopyala…**'yı kullanın ve kopyalanacak pompayı seçin.
+Kopyalamak istediğiniz programın olduğu pompayı açın. **Programı şuraya kopyala…**'ya dokunun ve hedef pompayı seçin.
 
-## Bir zamanlamayı tutma ve paylaşma
+## Programı saklama ve paylaşma
 
-Beğendiğiniz bir zamanlamayı yeniden oluşturmanız gerekmez:
+Beğendiğiniz bir programı yeniden hazırlamanız gerekmez:
 
-- **Programı farklı kaydet…**, onu bir adla tutar ve **Kayıtlı programlar…**, onu daha sonra yeniden uygular.
-- **Bu zamanlamayı paylaş**, onu kısa bir koda çevirir ve **Bir zamanlama kodu yapıştır…**, size gönderilen birini uygular. Bu bir Cora Mobile özelliğidir; kod zamanlamayı taşır, hesabınıza erişimi değil.
+- **Programı farklı kaydet…** programı bir adla saklar. **Kayıtlı programlar…** ile sonra yeniden uygularsınız.
+- **Bu zamanlamayı paylaş** programı kısa bir koda çevirir. Size gönderilen bir kodu **Bir zamanlama kodu yapıştır…** ile uygularsınız. Bu özellik Cora Mobile'a özeldir. Kod yalnızca programı taşır, hesabınıza erişim vermez.
 
-## Pompanın ağının dışında
+## Pompanın ağında değilken
 
-Telefonunuz pompanın ağında değilken, Cora Mobile akvaryumdaki Cora Max üzerinden çalışır, sınırlamalarla:
+Telefonunuz pompanın ağında değilse Cora Mobile akvaryumdaki Cora Max üzerinden çalışır. Bu durumda bazı sınırlar var:
 
-- **Tüm gün aynı** ve **Zamanlama**, pompayı o Cora Max üzerinden değiştirir.
-- Eklediğiniz veya değiştirdiğiniz bir periyot, o Cora Max pompaya son bir saat içinde ulaştıysa onun üzerinden gider. Ulaşmadıysa, zamanlama bunu söyler ve bulunduğunuz yerden değiştirilemez.
-- **Programı şuraya kopyala…**, **Programı farklı kaydet…**, **Kayıtlı programlar…**, **Bu zamanlamayı paylaş** ve **Bir zamanlama kodu yapıştır…**, telefonunuzun pompanın ağında olmasını gerektirir. O zamana kadar grileşirler ve menü nedenini söyler.
+- **Tüm gün aynı** ve **Program** seçimi pompaya o Cora Max üzerinden gider.
+- Eklediğiniz ya da değiştirdiğiniz bir periyot, ancak o Cora Max son bir saat içinde pompaya ulaştıysa gider. Ulaşmadıysa program ekranı bunu söyler ve bulunduğunuz yerden değişiklik yapamazsınız.
+- **Programı şuraya kopyala…**, **Programı farklı kaydet…**, **Kayıtlı programlar…**, **Bu zamanlamayı paylaş** ve **Bir zamanlama kodu yapıştır…** için telefonunuzun pompanın ağında olması gerekir. O zamana kadar bu seçenekler soluk görünür ve menüde nedeni yazar.
 
-Bir Bluetooth pompasına yalnızca yakınındaki bir telefondan ulaşılabilir: onu açıp kapatmak, zamanlamasını değiştirmek veya bu öğelerden herhangi birini kullanmak için menzilde durun.
+Bluetooth pompaya yalnızca yakınındaki bir telefondan ulaşılır. Pompayı açıp kapatmak, programını değiştirmek ya da bu seçenekleri kullanmak için menzil içinde durun.
 
-## Bir program uygulama
+## Hazır program uygulama
 
-Bir pompaya, periyotları elle oluşturmak yerine bir adımda hazır bir program da verilebilir.
+Periyotları tek tek elle oluşturmak yerine pompaya tek adımda hazır bir program da verebilirsiniz.
 
-## Uygulandığını kontrol etme
+## Programın uygulandığını kontrol etme
 
-Kaydettikten sonra, cihaz sayfası birimin gerçekte çalıştırdığı programı gösterir. İkisi anlaşmıyorsa, yazma ulaşmadı; cihazın erişilebilir olduğunu kontrol edin ve yeniden deneyin.
+Kaydettikten sonra cihaz sayfası, ünitenin gerçekte çalıştırdığı programı gösterir. İkisi farklıysa program cihaza yazılamamıştır. Cihaza erişilebildiğini kontrol edip tekrar deneyin.

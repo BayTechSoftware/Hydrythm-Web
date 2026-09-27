@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Notifications | Cora Help</title>
-  <meta name="description" content="Choose what reaches your phone, when it may arrive, and where to read what you missed.">
+  <meta name="description" content="Choose what reaches your phone, when it can arrive, and where to read what you missed.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-notifications">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-notifications">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-notifications">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Notifications | Cora Help">
-  <meta property="og:description" content="Choose what reaches your phone, when it may arrive, and where to read what you missed.">
+  <meta property="og:description" content="Choose what reaches your phone, when it can arrive, and where to read what you missed.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-notifications">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,23 +169,23 @@
     <article class="doc">
       <h1>Notifications</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-can-push">What can push</a></li><li><a href="#the-bell">The bell</a></li><li><a href="#if-nothing-is-arriving">If nothing is arriving</a></li><li><a href="#if-too-much-is-arriving">If too much is arriving</a></li></ul></nav>
-<p><strong>Settings → Notifications</strong> controls everything Cora may send you.</p>
+<p><strong>Settings → Notifications</strong> controls everything Cora can send you.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Notification settings"><img src="/help/img/mobile-notifications.webp" alt="Notification settings" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Each category can push independently.</figcaption></figure>
 <h2 id="what-can-push">What can push</h2>
-<p>Each category is switched independently:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem: a Trident that has stopped testing, for example</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers, and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
-<p>Turning a category off stops the push. The event is still recorded and still appears in the bell.</p>
-<aside class="cal cal-warning"><p class="cal-t">"Parameter Alerts" means chemistry, and only chemistry</p><p>It is natural to read that switch as covering everything the tank might tell you. It does not. A Trident that has stopped testing is an <strong>Equipment Fault</strong>, and reagent running out is <strong>Supplies Running Low</strong>; each has its own switch. If you have had Parameter Alerts on for a long time and assumed it covered the rest, check the other two.</p></aside>
-<p><strong>Supplies Running Low includes the waste bottle</strong>, which fills up rather than runs down. It is in this category because the action it needs is the same: something to empty or replace before it stops the tests.</p>
+<p>Each category has its own switch.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem, for example a Trident that has stopped testing</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers, and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
+<p>When you turn a category off, it stops pushing. Cora still records the event, and you'll still find it under the bell.</p>
+<aside class="cal cal-warning"><p class="cal-t">"Parameter Alerts" is only about chemistry</p><p>It's easy to think that switch covers everything the tank might tell you. It doesn't. A Trident that has stopped testing is an <strong>Equipment Fault</strong>. Reagent running out is <strong>Supplies Running Low</strong>. Each has its own switch. If you've relied on Parameter Alerts for a long time, check the other two.</p></aside>
+<p><strong>Supplies Running Low includes the waste bottle</strong>, even though it fills up instead of running down. You deal with it the same way. It's something to empty or replace before it stops the tests.</p>
 <h2 id="the-bell">The bell</h2>
-<p>Top right of every screen. It holds everything Cora has raised, newest first, whether or not it pushed. The number is what you have not read.</p>
-<p>This is the right place to check after a day away from your phone, or after a category you switched off raised something.</p>
+<p>The bell sits at the top right of every screen. It holds everything Cora has raised, newest first, whether or not it was pushed. The number on it is how many you haven't read.</p>
+<p>Check it after a day away from your phone, or when a category you switched off has raised something.</p>
 <h2 id="if-nothing-is-arriving">If nothing is arriving</h2>
-<p>Work down this list:</p>
-<ol><li><strong>Settings → Notifications</strong>: is that category allowed to push?</li><li>Your phone's own settings: is Cora allowed to notify at all? A permission denied at install time overrides everything here.</li><li>Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.</li></ol>
+<p>Go through these in order.</p>
+<ol><li>Open <strong>Settings → Notifications</strong>. Is that category allowed to push?</li><li>Check your phone's own settings. Is Cora allowed to send notifications at all? If you said no when you installed it, that overrides everything here.</li><li>Is there anything to send? Reef Buddy stays quiet on days when nothing changed.</li></ol>
 <h2 id="if-too-much-is-arriving">If too much is arriving</h2>
-<p>Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
-<p>Turning a category off is all-or-nothing for that category. If instead one particular alert is pushing too often, change its <strong>Cooldown between alerts</strong> on the rule itself, from 15 minutes up to 1 week, rather than switching the whole category off. See <a href="/help/mobile-alerts">Alerts and thresholds</a> for the cooldown options and what "snooze" means on Cora Max.</p>
+<p>Look at your thresholds before you turn notifications off. Too many alerts usually means a range is tighter than the tank really runs, or a source needs calibrating. More in <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
+<p>Turning a category off silences all of it. If it's one alert pushing too often, change <strong>Cooldown between alerts</strong> on that rule instead. It goes from 15 minutes up to 1 week. The cooldown options, and what "snooze" means on Cora Max, are in <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-alerts"><span>Previous</span><b>Alerts and thresholds</b></a><a class="pn-n" href="/help/mobile-automation"><span>Next</span><b>Automations and scenes</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

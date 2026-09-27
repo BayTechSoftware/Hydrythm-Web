@@ -1,51 +1,51 @@
 ---
 title: Editing your dashboard
-description: Set the column count, add and arrange widgets, resize tiles, and save layouts you can reuse across tanks.
+description: Set the column count, add and arrange widgets, resize tiles, and save layouts to reuse on other tanks.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 6
 group: Your dashboard
 ---
 
-The dashboard editor controls which widgets appear on a tank's dashboard and how they are arranged.
+The dashboard editor sets which widgets appear on a tank's dashboard and how they're arranged.
 
 ## Opening the editor
 
 Scroll to the bottom of the dashboard and tap **Edit dashboard**.
 
-:::note The pencil beside the tank name is a different screen
-That opens **Edit tank**: the tank profile, covering volume, livestock, dosing and equipment. See [Your tank profile](/help/mobile-tank-profile).
+:::note The pencil next to the tank name opens something else
+It opens **Edit tank**, the tank profile with volume, livestock, dosing and equipment. That's covered in [Your tank profile](/help/mobile-tank-profile).
 :::
 
 ![The dashboard editor](img/mobile-edit.webp "Each tile shows its name and type. Tap a red cross to remove it.")
 
 ## Setting the column count
 
-Choose **2**, **3** or **4** columns at the top of the editor. The grid grows downward as you add widgets, and the dashboard scrolls.
+Pick **2**, **3** or **4** columns at the top of the editor. The grid grows downward as you add widgets, and the dashboard scrolls.
 
 | Columns | Use when |
 |---|---|
-| 2 | You watch a small number of parameters and want large tiles |
-| 3 | Default. Suitable for most tanks |
-| 4 | You want a dense view, or you use a large phone |
+| 2 | You watch a few parameters and want big tiles |
+| 3 | The default. Works for most tanks |
+| 4 | You want a dense view, or you have a big phone |
 
 ## Adding a widget
 
 1. Tap **+** in the editor.
-2. Choose what the widget shows: a parameter, a device, or an outlet.
-3. Choose the widget type. See [Widget reference](/help/mobile-widgets).
+2. Pick what the widget shows: a parameter, a device or an outlet.
+3. Pick the widget type. The [Widget reference](/help/mobile-widgets) describes each one.
 
-Only sources that exist on the tank are offered. A parameter with no source appears once you connect equipment that reports it or log a reading by hand.
+You only see sources the tank has. A parameter with no source shows up once you connect equipment that reports it, or log a reading by hand.
 
 ## Arranging widgets
 
-- **To move a widget**, press and hold it, then drag. The remaining widgets reflow around it.
-- **To remove a widget**, tap the red cross in its corner.
-- **To change a widget's settings**, tap it.
+- To move a widget, press and hold it, then drag. The others move around it.
+- To remove a widget, tap the red cross in its corner.
+- To change a widget's settings, tap it.
 
 ## Resizing
 
-A widget occupies one or two columns and one or two rows. Set the size in the widget's settings.
+A widget takes up one or two columns and one or two rows. Set the size in the widget's settings.
 
 A **trend** widget is always at least two columns wide.
 
@@ -58,31 +58,31 @@ Depending on the widget type, you can set:
 | Label | All types |
 | Source | Any parameter reported by more than one thing |
 | Time window | Trend: 1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year |
-| Range | Gauge: inherited from the tank's thresholds unless overridden here |
+| Range | Gauge. Taken from the tank's thresholds unless you change it here |
 | Size | All types |
 
 ## Saving
 
-Tap **Save** to apply the layout, or the close icon to discard your changes.
+Tap **Save** to keep the layout, or the close icon to throw away your changes.
 
 ## My dashboards
 
-A layout you like can be saved and reused. **My dashboards → Save this design**, then name it. You can keep up to **30**.
+You can save a layout you like and use it again. Tap **My dashboards → Save this design** and give it a name. You can keep up to **30**.
 
-A saved design can be loaded onto another tank, or onto a Cora Max screen.
+You can load a saved design onto another tank or onto a Cora Max screen.
 
-:::note Tiles the target cannot fill are listed before you commit
-Loading a design keeps only the tiles the target can actually populate. Anything else is dropped and listed for you under **Left behind** before you commit, each with its reason: the tank has never reported that metric, there is no outlet with that name, the ReefBeat device or Apex module is not linked to this tank, or the grid ran out of room.
+:::note You see which tiles won't fit before you load
+Loading a design keeps only the tiles the target can fill. The rest are dropped and listed under **Left behind** before you confirm, each with its reason. The tank may never have reported that metric, there may be no outlet with that name, the ReefBeat device or Apex module may not be linked to this tank, or the grid may have run out of room.
 :::
 
 ## Restoring a previous layout
 
-A saved design is how you return to a layout you liked. Save one while the dashboard is arranged the way you want it, and you can reapply it later.
+A saved design is how you get back to a layout you liked. Save one while the dashboard looks the way you want, and you can apply it again later.
 
-It is a **restore, not an undo**: you pick the design from the list, confirm it, and it replaces the current layout, including dropping any tile the tank cannot fill. It brings back the layout you saved, not the state before your last edit.
+This restores a saved layout. It isn't an undo. You pick the design from the list and confirm, and it replaces the current layout, dropping any tile the tank can't fill. You get the layout you saved, not whatever was there before your last edit.
 
-Readings, history and journal entries are stored separately from layout, so no edit to a dashboard can lose them.
+Readings, history and journal entries are stored apart from the layout, so editing a dashboard can never lose them.
 
 ## Editing the Cora Max dashboard
 
-The Cora Max dashboard is edited separately: **Devices → your Cora Max → Edit Dashboard**. It uses a fixed grid rather than a scrolling one. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
+You edit the Cora Max dashboard separately, from **Devices → your Cora Max → Edit Dashboard**. It uses a fixed grid that doesn't scroll. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).

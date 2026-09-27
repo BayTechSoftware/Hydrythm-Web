@@ -1,46 +1,46 @@
 ---
 title: Sonde
-description: Mappa le sonde del tuo controller sui parametri di Cora, e registra calibrazione e pulizia.
+description: Associa le sonde del controller ai parametri di Cora e annota calibrazioni e pulizie.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 13
 group: Equipment
 ---
 
-Un controller riporta le sonde con i propri nomi. La mappatura delle sonde dice a Cora quale di esse è la tua sonda di pH, quale è la temperatura, e così via.
+Il controller chiama le sonde con nomi suoi. Con la mappatura delle sonde dici a Cora qual è la sonda del pH, quale quella della temperatura e così via.
 
 ## Mappare le sonde
 
-Apri il tuo **profilo della vasca** (la matita in alto sulla dashboard), espandi la sezione del tuo controller, e scegli **Mappatura sonde**.
+Apri il **profilo della vasca** (la matita in alto sulla dashboard), apri la sezione del controller e scegli **Mappatura sonde**.
 
 ![Mappatura delle sonde](img/mobile-probes.webp "Ogni sonda riportata dal tuo controller, la sua lettura in tempo reale, e cosa ne fa Cora.")
 
-Ogni sonda riportata dal tuo controller è elencata con la sua lettura attuale. Cora rileva automaticamente i nomi standard, e la riga mostra quale ha associato, quindi il lavoro qui è di solito correggere quelle che non è riuscita a collocare invece di mapparle tutte a mano.
+Vedi tutte le sonde del controller, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.
 
-Ogni riga offre tre scelte:
+Per ogni riga hai tre scelte:
 
-- **Un parametro Cora**: la metrica misurata da quella sonda.
-- **Personalizzato**: per una sonda per cui Cora non ha un parametro standard. Le dai un breve nome in lettere maiuscole, e viene tracciata sotto quel nome.
-- **Ignora**: per le sonde che non vuoi registrare affatto.
+- **Un parametro Cora**: il valore che misura quella sonda.
+- **Personalizzato**: per una sonda che non corrisponde a nessun parametro standard di Cora. Le dai un nome breve in maiuscolo e Cora la registra con quel nome.
+- **Ignora**: per le sonde che non vuoi registrare.
 
-Una sonda ignorata o non mappata non apparirà su una dashboard e non alimenterà gli avvisi.
+Una sonda ignorata o non mappata non compare sulla dashboard e non fa scattare avvisi.
 
-Le mappature entrano in vigore alla prossima registrazione delle letture, quindi una correzione qui non riscrive lo storico; cambia cosa viene memorizzato da quel momento in poi. Premi **Salva** per applicarle.
+La mappatura vale dalla prossima lettura registrata. Una correzione quindi non riscrive lo storico, ma cambia quello che viene salvato da quel momento. Tocca **Salva** per applicarla.
 
-:::warning Una sonda non mappata è invisibile a Cora
-Se un parametro non mostra letture anche se la sonda funziona, controlla prima di tutto la mappatura.
+:::warning Una sonda non mappata per Cora non esiste
+Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la mappatura.
 :::
 
-## Più sonde per un parametro
+## Più sonde per lo stesso parametro
 
-Un sistema con due sonde di temperatura può mappare entrambe. Cora le mantiene come fonti separate; l'impostazione della fonte del widget decide quale segue un riquadro, e [la vista del parametro](/help/mobile-metric-detail) ti permette di confrontarle.
+Se hai due sonde di temperatura, puoi mapparle tutte e due. Cora le tiene come fonti separate. Nelle impostazioni del widget scegli quale fonte segue il riquadro, e nella [pagina del parametro](/help/mobile-metric-detail) puoi confrontarle.
 
-## Registrare la cura delle sonde
+## Annotare la cura delle sonde
 
-Le sonde derivano. Cora può tracciare quando ognuna è stata calibrata o pulita l'ultima volta, così puoi distinguere un cambiamento reale da una sonda che ha bisogno di attenzione.
+Con il tempo le sonde perdono precisione. Cora può tenere traccia di quando hai calibrato o pulito ogni sonda l'ultima volta, così capisci se un valore è cambiato davvero o se la sonda ha bisogno di una sistemata.
 
-Registra la calibrazione o la pulizia dalla voce della sonda. Si adatta bene anche come [attività di manutenzione](/help/mobile-maintenance) ricorrente.
+Registra calibrazione o pulizia dalla voce della sonda. È anche un buon candidato per un [lavoro di manutenzione](/help/mobile-maintenance) ricorrente.
 
-:::note Lo storico di calibrazione spiega i disaccordi
-Quando una sonda e un kit di test non sono d'accordo, la data dell'ultima calibrazione della sonda è di solito la prima cosa che vale la pena controllare.
+:::note La data di calibrazione spiega le differenze
+Quando sonda e test non concordano, la prima cosa da guardare di solito è quando hai calibrato la sonda l'ultima volta.
 :::

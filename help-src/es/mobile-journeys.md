@@ -1,72 +1,72 @@
 ---
 title: Itinerarios guiados
-description: Ayuda paso a paso para poner en marcha el ciclo de un acuario nuevo y para resolver un problema.
+description: Ayuda paso a paso para hacer el ciclo de un acuario nuevo y para resolver un problema.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 25
 group: Intelligence
 ---
 
-Un itinerario es Cora guiándote a través de algo durante días o semanas, en lugar de responder una sola pregunta. Hay dos tipos, y no funcionan igual: el **arranque del ciclo** de un acuario nuevo, y resolver un **problema**.
+En un itinerario, Cora te acompaña durante días o semanas en algo que no se resuelve con una sola pregunta. Hay dos tipos y cada uno funciona a su manera. Uno es el **ciclo** de un acuario nuevo y el otro sirve para resolver un **problema**.
 
-## Arrancar el ciclo de un acuario nuevo
+## Hacer el ciclo de un acuario nuevo
 
-Para un acuario que todavía no está listo para fauna. El ciclo hace crecer las bacterias que convierten el amoniaco tóxico en nitrato seguro, y el itinerario sigue ese proceso hasta el final.
+Es para un acuario que todavía no está listo para fauna. Durante el ciclo crecen las bacterias que convierten el amoniaco, que es tóxico, en nitrato, que es seguro. El itinerario sigue todo el proceso hasta el final.
 
-![Un itinerario de arranque del ciclo en curso](img/mobile-journeys.webp "La etapa, los tres números que la definen, y cuánto hace de tu última prueba.")
+![Un itinerario de ciclo en marcha](img/mobile-journeys.webp "La etapa, los tres valores que la definen y el tiempo desde tu última prueba.")
 
-Registra una prueba de amoniaco, nitrito y nitrato cada dos o tres días. Cora te sitúa en una etapa a partir de esas lecturas:
+Registra una prueba de amoniaco, nitrito y nitrato cada dos o tres días. Con esas lecturas, Cora te sitúa en una etapa:
 
 | Etapa | Qué está pasando |
 |---|---|
-| **Esperando una primera prueba** | Todavía no hay nada registrado; el itinerario no puede situarte hasta que tenga números |
-| **Sin empezar** | Todo cerca de cero y sin nitrato todavía. No se ha añadido amoniaco, o no ha empezado a convertirse |
-| **Amoniaco** | La primera colonia se está estableciendo y consumiendo amoniaco |
-| **Nitrito** | La segunda colonia está eliminando el nitrito. Suele ser el tramo más largo, y aquel en el que la gente asume que algo ha ido mal porque los números dejan de moverse |
-| **Ciclado** | Amoniaco y nitrito ya eliminados y nitrato presente, listo para fauna |
+| **Esperando una primera prueba** | Aún no hay nada registrado. El itinerario necesita números para situarte |
+| **Sin empezar** | Todo está cerca de cero y todavía no hay nitrato. No se ha añadido amoniaco o aún no ha empezado a transformarse |
+| **Amoniaco** | La primera colonia se está asentando y consume amoniaco |
+| **Nitrito** | La segunda colonia está eliminando el nitrito. Suele ser la fase más larga. Como los números dejan de moverse, mucha gente cree que algo va mal |
+| **Ciclado** | El amoniaco y el nitrito han desaparecido y hay nitrato. El acuario está listo para fauna |
 
-**Tu ciclo hasta ahora** representa las tres curvas juntas, escaladas entre sí en lugar de a valores absolutos, para que puedas ver el traspaso de una colonia a la siguiente. Toca un nombre para ver los números reales.
+**Tu ciclo hasta ahora** dibuja las tres curvas juntas. Están escaladas entre sí, no en valores absolutos, para que veas cómo una colonia toma el relevo de la otra. Toca un nombre para ver los números reales.
 
-:::warning Dos cosas detienen un ciclo
-**Amoniaco o nitrito por encima de 5 ppm** detendrá a las bacterias que estás intentando hacer crecer; si te pasas, un cambio de agua parcial lo devuelve a su sitio. **pH por debajo de 7** también lo detiene. El itinerario te avisa cuando se da cualquiera de los dos casos, porque en ambos esperar más no va a ayudar.
+:::warning Dos cosas frenan el ciclo
+Con **amoniaco o nitrito por encima de 5 ppm**, las bacterias que quieres cultivar dejan de crecer. Si te pasas, un cambio de agua parcial lo corrige. Un **pH por debajo de 7** también frena el ciclo. El itinerario te avisa en los dos casos, porque esperar más no va a servir de nada.
 :::
 
-:::note Registra los tres, no solo el que se mueve
-Un acuario solo se informa como ciclado cuando el amoniaco y el nitrito se han *medido* en cero, cada uno, y hay nitrato presente. El nitrato solo no es suficiente; el agua de origen a menudo lleva algo, y por sí solo se leería como un ciclo terminado e invitaría a meter fauna en un acuario que no puede sostenerla.
+:::note Registra los tres valores, aunque solo cambie uno
+El acuario solo aparece como ciclado cuando has *medido* el amoniaco y el nitrito en cero y hay nitrato. El nitrato por sí solo no basta. El agua de origen suele traer algo, y parecería que el ciclo ha terminado. Acabarías metiendo fauna en un acuario que todavía no puede mantenerla.
 :::
 
-:::note La preparación viene de tus lecturas, no del calendario
-El itinerario informa de la preparación según lo que has registrado, no según cuántas semanas han pasado. Un acuario que no se ha probado en quince días se queda donde estaba; muestra cuánto hace de la última prueba precisamente por este motivo.
+:::note Lo que cuenta son tus lecturas, no el calendario
+El itinerario decide si el acuario está listo por lo que has registrado, no por las semanas que han pasado. Si llevas quince días sin hacer pruebas, se queda donde estaba. Por eso muestra el tiempo que ha pasado desde la última prueba.
 :::
 
 ## Resolver un problema
 
-Los itinerarios de problema cubren **uno específico: los dinoflagelados**. Cora te ofrece uno cuando tus lecturas y tu informe lo sugieren; el itinerario se crea solo cuando aceptas la oferta, nunca automáticamente.
+De momento, los itinerarios de problema cubren **un caso concreto, los dinoflagelados**. Cora te propone uno cuando tus lecturas y tu informe apuntan a ellos. El itinerario solo se crea si aceptas la propuesta, nunca de forma automática.
 
-:::note Los itinerarios todavía no son un solucionador de problemas general
-El arranque del ciclo y los dinoflagelados son los dos que existen hoy. Otros problemas se resuelven con [Cora Assistant](/help/mobile-assistant) y el [diario](/help/mobile-journal) en su lugar.
+:::note Los itinerarios aún no sirven para cualquier problema
+Por ahora solo existen el del ciclo y el de los dinoflagelados. Para otros problemas, usa [Cora Assistant](/help/mobile-assistant) y el [diario](/help/mobile-journal).
 :::
 
-Un itinerario de problema pasa por cinco etapas:
+Un itinerario de problema tiene cinco etapas:
 
-1. **Validar**: ¿esto está pasando realmente? Cora revisa tus lecturas antes de confirmar que hay un problema.
-2. **Evidencia**: reúne lo que se necesita. Normalmente una prueba, a veces una foto o una observación.
-3. **Plan**: Cora propone qué hacer, y por qué.
-4. **Actuando**: lo haces, durante el tiempo que sea necesario.
-5. **Resultado**: ¿funcionó?
+1. **Validar**. ¿Está pasando de verdad? Cora revisa tus lecturas antes de dar por hecho que hay un problema.
+2. **Evidencia**. Reúne lo que haga falta. Normalmente una prueba, a veces una foto o una observación.
+3. **Plan**. Cora propone qué hacer y explica por qué.
+4. **Actuando**. Lo pones en práctica durante el tiempo que haga falta.
+5. **Resultado**. ¿Ha funcionado?
 
-:::note Validar es un paso que tú completas, no una comprobación que ejecuta Cora
-Un itinerario de problema se abre en **Validar**, que te pide confirmar qué está pasando realmente antes de mostrar un plan. Es un primer paso deliberado; se te pide que mires, no que apruebes un examen. Un itinerario de arranque del ciclo no tiene lectura que validar y empieza en **Actuando**.
+:::note Validar lo haces tú, no es una comprobación de Cora
+Un itinerario de problema empieza en **Validar**. Ahí se te pide que confirmes lo que está pasando antes de ver un plan. Es un primer paso intencionado. Solo tienes que mirar, nadie te está poniendo nota. El itinerario del ciclo no tiene ninguna lectura que validar y empieza directamente en **Actuando**.
 :::
 
-### Registrar el resultado
+### Anotar el resultado
 
-Al final dices qué pasó:
+Al final indicas qué ha pasado:
 
 **Resuelto** · **Mejorando** · **Sin cambios** · **Peor** · **Detenido**
 
-Registra el resultado con precisión, incluido **Peor**. El resultado se guarda con el itinerario, así que un problema parecido más adelante se puede comparar con lo que se probó y lo que resultó.
+Anota el resultado tal como fue, también si es **Peor**. Se guarda con el itinerario. Si más adelante tienes un problema parecido, podrás ver qué probaste y qué resultado dio.
 
 ## Descartar un itinerario
 
-Si un itinerario no te resulta útil, descártalo. Deja de aparecer, y el descarte se registra para que itinerarios parecidos se ofrezcan con menos frecuencia.
+Si un itinerario no te sirve, descártalo. Deja de aparecer, y Cora lo tiene en cuenta para proponerte menos itinerarios parecidos.

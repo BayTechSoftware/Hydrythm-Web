@@ -1,46 +1,46 @@
 ---
 title: Cora Max'te uyarılar
-description: Üst çubuktaki uyarı hapları, bildirim gelen kutusu ve eşikleri duvarda düzenleme.
+description: Üst çubuktaki uyarı etiketleri, bildirim geçmişi ve eşikleri duvardaki ekrandan değiştirme.
 section: Cora Max
 reviewed: 2026-09-27
 order: 11
 group: Alerts
 ---
 
-## Uyarı hapları
+## Uyarı etiketleri
 
-Şu anda aralık dışında olan her şey üst çubukta bir hap olarak görünür, sığandan fazlası olduğunda bir **+n** ile. Tam listeyi görmek için bir hapa dokunun.
+Aralık dışına çıkan her değer üst çubukta küçük bir etiket olarak görünür. Hepsi sığmazsa **+2** gibi bir sayı çıkar. Tüm listeyi görmek için etiketlerden birine dokunun.
 
-Haplar, Cora Max'in bir duvar ekranı olarak işe yaramasının nedenidir: akvaryumun sorunları hiçbir şeye dokunmadan odanın karşısından görülebilir.
+Böylece akvaryumdaki sorunları ekrana dokunmadan, odanın öbür ucundan görürsünüz.
 
-## Duvarda bir uyarı belirdiğinde
+## Duvardaki ekranda uyarı çıktığında
 
-Bir okuma aralık dışına çıktığında, Cora Max tam uyarıyı sadece bir hap olarak değil, ekranın ortasında gösterir. Altında üç düğme bulunur:
+Bir değer aralık dışına çıkınca Cora Max uyarıyı ekranın ortasında da gösterir. Altında üç düğme var:
 
-1. **Sesle yanıtla**: başka bir şey yazmadan veya dokunmadan Cora'yla uyarı hakkında konuşun. Bkz. [Cora ile konuşma](/help/max-voice).
-2. **[süre] ertele**: uyarıyı kapatmadan bu uyarı için push bildirimlerini belirli bir süre durdurun. Düğmenin kendi etiketi süreyi gösterir, örneğin **1 sa ertele**. Bu, Cora Mobile'ın uyarı ayarlarında bu uyarı türü için belirlenen aynı bekleme süresidir ve günlerce değişmeyecek düşük bir reaktif seviyesi gibi bir şey için **1 hafta** kadar uzun olabilir.
-3. **Kapat**: uyarıyı şimdi kapatın. Okuma normal aralığına dönene kadar sessiz kalır, ardından kendini yeniden silahlandırır; böylece aynı sorunun tekrarı sonsuza kadar sessiz kalmak yerine yeni bir uyarı yükseltir.
+1. **Sesle yanıtla**: Başka hiçbir şeye dokunmadan uyarı hakkında Cora ile konuşun. Nasıl konuşulacağı [Cora ile konuşma](/help/max-voice) sayfasında.
+2. **[süre] ertele**: Uyarıyı kapatmadan bu Cora Max'te belli bir süre susturun. Süre düğmenin üzerinde yazar, örneğin **1 sa ertele**. Bu süre, Cora Mobile'ın uyarı ayarlarında bu uyarı türü için seçilen bekleme süresidir. Günlerce değişmeyecek bir durumda, örneğin azalan bir reaktifte, **1 hafta** kadar uzun olabilir.
+3. **Kapat**: Uyarıyı hemen kapatın. Değer normal aralığa dönene kadar ses çıkmaz. Sorun daha sonra yeniden başlarsa yeni bir uyarı gelir.
 
-**Çalışmazsa:** Ertele veya Kapat bir hata gösterirse, bir kez daha deneyin. Devam ederse bkz. [Sorun giderme](/help/troubleshooting).
+Ertele ya da Kapat hata verirse bir kez daha deneyin. Hata sürerse [Sorun giderme](/help/troubleshooting) sayfasına bakın.
 
-:::note Erteleme uyarıyı gizlemez
-Ertele ve Kapat sadece **bu Cora Max'i** susturur. Burada uyarı açılmayı, çalmayı ve konuşmayı durdurur ve erteleme süresi bitene kadar (veya Kapat'tan sonra, okuma normal aralığına dönene kadar) ekranın üstündeki listeden çıkmaz. Telefonunuz bildirimlerini almayı sürdürür ve başka herhangi bir Cora Max uyarıyı göstermeyi sürdürür. Uyarı ayrıca **Bildirim geçmişinde** kalır ve uyarı ayarlarınız değişmez.
+:::note Erteleme yalnızca bu Cora Max'i etkiler
+Ertele ve Kapat yalnızca **bu Cora Max**'i susturur. Uyarı burada artık açılmaz, ses çıkarmaz ve sesli okunmaz. Üst çubuktaki listeden de çıkar. Ertele'de erteleme süresi bitince, Kapat'ta değer normal aralığa dönünce geri gelir. Telefonunuz bildirimleri almaya devam eder, diğer Cora Max ekranları da uyarıyı göstermeye devam eder. Uyarı **Bildirim geçmişi**'nde kalır, uyarı ayarlarınız değişmez.
 :::
 
-## Bildirim gelen kutusu
+## Bildirim geçmişi
 
-**Ayarlar → Cora Max Ayarları → Bildirimler → Bildirim geçmişi**, tüm sisteminiz için **hesap genelinde** bir gelen kutusudur: sadece bu ekranın yükselttiği değil, her briefing, alarm ve hesap bildirimi. Telefonunuzun kaçırdığı her şeyi içerir.
+**Ayarlar → Cora Max Ayarları → Bildirimler → Bildirim geçmişi**, **hesabınızın tamamı** için tek gelen kutusudur. Tüm sisteminizin özetleri, alarmları ve hesap bildirimleri burada toplanır, başka ekranlardan gelenler de. Telefonunuzun kaçırdıkları da buradadır.
 
-## Eşikleri düzenleme
+## Eşikleri değiştirme
 
-![Cora Max'te akvaryum ayarları](img/max-tank-settings.webp "Her akvaryumun kendi günlüğü, bakımı, uyarıları, canlıları ve briefingi vardır.")
+![Cora Max'te akvaryum ayarları](img/max-tank-settings.webp "Her akvaryumun kendi günlüğü, bakımı, uyarıları, canlıları ve özeti vardır.")
 
-Üst çubuktaki akvaryum adına dokunun ve **Uyarılar**'ı seçin, veya **Ayarlar → [akvaryumunuz] → Uyarı eşikleri**'ne gidin. İkisi de telefondakiyle aynı aralıkları açar. Burada yapılan bir değişiklik her yerde uygulanır.
+Üst çubukta akvaryum adına dokunup **Uyarılar**'ı seçin ya da **Ayarlar → [akvaryumunuz] → Uyarı eşikleri**'ne gidin. İkisi de telefondaki aralıkları açar. Burada yaptığınız değişiklik her yerde geçerli olur.
 
-Tek tek eşikler, panoda bir widget açılarak da düzenlenebilir.
+Tek bir eşiği değiştirmek için panodaki widget'ına dokunmanız da yeter.
 
-Aralıkların ve kuralların nasıl çalıştığı için bkz. [Uyarılar ve eşikler](/help/mobile-alerts).
+Aralıkların ve kuralların nasıl işlediğini [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında bulabilirsiniz.
 
-:::note Uyarılar hesap için bir kez yükseltilir
-Bir uyarı her cihaz tarafından ayrı ayrı yükseltilmez. Cora Max, telefonunuz ve başka herhangi bir ekran aynı uyarıyı gösterir ve okuma aralığına döndüğünde her yerde aynı anda kapanır.
+:::note Uyarı hesap için bir kez verilir
+Her cihaz ayrı ayrı uyarı vermez. Cora Max, telefonunuz ve diğer ekranlar aynı uyarıyı gösterir. Değer aralığa dönünce uyarı her yerde aynı anda kapanır.
 :::

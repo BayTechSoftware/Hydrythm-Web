@@ -1,108 +1,108 @@
 ---
 title: Settings
-description: A reference for every section of Cora Mobile's settings: account, tanks, Cora Assistant, language, notifications, automation and activity.
+description: A guide to every section of Cora Mobile's settings, from your account and tanks to Cora Assistant, language, notifications, automation and activity.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 32
 group: Account
 ---
 
-Everything you can configure, in the order it appears.
+Here's everything you can set up, in the order you'll find it.
 
 ![The Settings tab](img/mobile-settings.webp "One row per area. Your account card sits above these.")
 
 ## Your account
 
-The card at the top shows who you are signed in as and which plan you are on. Tap it for:
+The card at the top shows who you're signed in as and which plan you're on. Tap it to get to these.
 
-- **Display name**: what you are called in Cora Mobile
-- **Plan and subscription**: what you have, what it includes, and how to change it
+- **Display name** is what Cora Mobile calls you.
+- **Plan and subscription** shows what you have, what it includes and how to change it.
 - **Sign out**
-- **Delete account**: permanent. Read the two notes below before using it.
+- **Delete account** is permanent. Read the two notes further down before you use it.
 
 ## Cora
 
-- **Automations**: rules and scenes that run by themselves. Full detail: **[Automations and scenes](/help/mobile-automation)**.
-- **Cora Assistant**: the AI that answers questions about your tank, and which device answers your voice. See "Cora Assistant" below and **[Asking Cora](/help/mobile-assistant)**.
-- **Activity**: a log of every command sent to your equipment. Full detail: **[Activity and timeline](/help/mobile-activity)**.
-- **Dosing Products**: the strength of what you dose. Full detail: **[Dosing](/help/mobile-dosing)**.
+- **Automations** are rules and scenes that run on their own. There's more in [Automations and scenes](/help/mobile-automation).
+- **Cora Assistant** is the AI that answers questions about your tank. This is also where you pick which device answers your voice. See "Cora Assistant" below, and [Asking Cora](/help/mobile-assistant).
+- **Activity** is a log of every command sent to your equipment. More in [Activity and timeline](/help/mobile-activity).
+- **Dosing Products** holds the strength of what you dose. More in [Dosing](/help/mobile-dosing).
 
-:::warning Automation acts on real equipment
-A rule that switches a pump will switch it whether or not you are watching. Build them one at a time, and check each one does what you expect before adding the next.
+:::warning Automations act on real equipment
+A rule that switches a pump will switch it even when you're not watching. Build rules one at a time, and check each one does what you expect before you add the next.
 :::
 
 ## Tanks
 
-One row per tank, then:
+You'll see one row for each tank, then these.
 
 - **Add tank**
-- **Reorder tanks**: the order they appear when you swipe the dashboard
-- **Removed tanks**: tanks you have deleted, in case you need something back
+- **Reorder tanks** sets the order they come up when you swipe the dashboard.
+- **Removed tanks** keeps tanks you've deleted, in case you need something back.
 
-Open a tank to reach **Primary Cora Max** (which device polls that tank's equipment) and **Guided setup**, and to edit the tank itself. Full detail on Primary Cora Max: **[More than one Cora device](/help/mobile-multi-device)**.
+Open a tank to edit it, or to reach **Primary Cora Max** (which device polls that tank's equipment) and **Guided setup**. Primary Cora Max is explained in [More than one Cora device](/help/mobile-multi-device).
 
-- **Vacation mode**: a plan for whoever is minding the tank while you are away. Full detail: **[Going away](/help/mobile-vacation)**. You set the dates and build a checklist of jobs with how often each needs doing, and Cora turns it into a simple read-only page you can share with your tank sitter. They do not need an account.
+- **Vacation mode** is a plan for whoever looks after the tank while you're away. You set the dates and make a checklist of jobs, with how often each one needs doing. Cora turns it into a simple read-only page you can share with your tank sitter. They don't need an account. More in [Going away](/help/mobile-vacation).
 
 ## App Settings
 
-- **Notifications**: what reaches your phone. Full detail: **[Notifications](/help/mobile-notifications)**.
-- **Language**: the account's language, described below.
-- **Appearance**: light, dark, or match your phone.
-- **Device access**: described below.
-- **Help & Support**: contact support, report a bug or send feedback, and the Cora website and FAQ.
-- **About**: described below.
+- **Notifications** decides what reaches your phone. More in [Notifications](/help/mobile-notifications).
+- **Language** is the account's language. See below.
+- **Appearance** is light, dark or the same as your phone.
+- **Device access** is explained below.
+- **Help & Support** is where you contact support, report a bug or send feedback, and find the Cora website and FAQ.
+- **About** is explained below.
 
 ## Language
 
-**One language for the whole account, not one per device.** Changing it on your phone changes it on every Cora Max in the household too, and the other way round. New reports, alerts and Reef Buddy briefings follow the new language from that point on; older ones stay in the language they were written in and are not retranslated.
+**There's one language for the whole account.** Devices don't each have their own. If you change it on your phone, it changes on every Cora Max in the household too, and the other way round. New reports, alerts and Reef Buddy briefings use the new language from then on. Older ones stay in the language they were written in. They aren't translated again.
 
-If everything in the app is suddenly in a language you did not expect, someone (or another device on the account) changed it here or in the matching **Language** setting on a Cora Max; it is shared, not per device.
+If everything suddenly shows up in a language you didn't expect, someone changed it. They may have done it here, from another device on the account, or in the **Language** setting on a Cora Max. It's the same setting everywhere.
 
 ## Device access
 
-**Device access** opens your phone's own settings for Cora, where you allow what it needs to find your equipment. The row does not show whether anything is switched off; it takes you to where you can check.
+**Device access** opens your phone's own settings for Cora. That's where you allow what Cora needs to find your equipment. The row doesn't show whether anything is turned off. It just takes you to the place where you can check.
 
-- On iPhone: Local Network and Bluetooth. Without Local Network access, a search for equipment on your Wi-Fi finds nothing and shows no error. iPhone asks only once, so this is the way to turn it back on.
-- On Android: Bluetooth and location.
+- On iPhone, it's Local Network and Bluetooth. Without Local Network access, a search for equipment on your Wi-Fi finds nothing, and you won't see an error. iPhone only asks once, so this is how you turn it back on.
+- On Android, it's Bluetooth and location.
 
 ## Cora Assistant
 
-Opens from the **Cora Assistant** row under **Cora**, above.
+You open this from the **Cora Assistant** row under **Cora**, further up.
 
-- **Allow Cora Assistant to use saved tank data**: whether Cora Assistant may use your tank history, metrics and devices. It needs this on to answer: with it off, Cora shows its consent screen again before your next message, and **Agree & Continue** there turns it back on. See [Asking Cora](/help/mobile-assistant).
-- **Contribute anonymized tank data**: whether a de-identified copy of your parameter history is kept for reef research. **It is on unless you turn it off**, and it is the one thing that outlives an account deletion.
-- **AI memory**: what Cora remembers about your system between conversations. You can read it and reset it. It appears only while the consent switch above is on.
-- **Answering device**: which Cora device answers the wake phrase in your home. Full detail: **[More than one Cora device](/help/mobile-multi-device)**.
-- **Usage & Limits**: your monthly allowances and what you have used
+- **Allow Cora Assistant to use saved tank data** lets Cora Assistant use your tank history, metrics and devices. It has to be on for Cora to answer. If it's off, Cora shows its consent screen again before your next message, and tapping **Agree & Continue** there turns it back on. See [Asking Cora](/help/mobile-assistant).
+- **Contribute anonymized tank data** keeps a de-identified copy of your parameter history for reef research. **It's on unless you turn it off.** It's also the only thing kept after you delete your account.
+- **AI memory** is what Cora remembers about your system from one conversation to the next. You can read it and reset it. It only shows while the consent switch above is on.
+- **Answering device** picks which Cora device answers the wake phrase in your home. More in [More than one Cora device](/help/mobile-multi-device).
+- **Usage & Limits** shows your monthly allowances and how much you've used.
 
-## Your data, and the three switches that govern it
+## Your data and privacy
 
-These are not in one place, so they are easy to miss:
+Three settings about your data live in different places, so they're easy to miss.
 
-- **Export My Data**: on the **account card**, beside Delete account. Everything Cora holds for you, as files you keep, free on every plan. See **[Exporting your data](/help/mobile-data-export)**.
-- **Contribute anonymized tank data**: under **Cora Assistant**, above. **It is on unless you turn it off**, and it is the one thing that outlives an account deletion.
-- **Send crash reports**: beside **Report a Bug / Send Feedback**. The same promise as that row, made without you having to notice something broke and write it up.
+- **Export My Data** is on the **account card**, next to Delete account. It gives you your readings, journal entries and alerts as files you keep, free on every plan. See [Exporting your data](/help/mobile-data-export).
+- **Contribute anonymized tank data** is under **Cora Assistant**, above. **It's on unless you turn it off.** It's also the only thing kept after you delete your account.
+- **Send crash reports** sits next to **Report a Bug / Send Feedback**. It does the same job as that row, without you having to notice something broke and write it up.
 
 :::warning Deleting your account does NOT cancel your subscription
-An App Store or Google Play subscription belongs to the **store**, not to Cora. Deleting your account removes your record here and **nothing stops the billing**; the charges continue until you cancel with Apple or Google directly. Cancel the subscription first, then delete the account.
+An App Store or Google Play subscription belongs to the **store**, not to Cora. Deleting your account removes your record here, but **the billing doesn't stop**. You keep being charged until you cancel with Apple or Google yourself. Cancel the subscription first, then delete the account.
 :::
 
-:::note What a deletion does not reach
-If **Contribute anonymized tank data** is on (and it is on unless you turned it off), a de-identified copy of your tanks' profiles and parameter history is kept for research as part of the same deletion. It carries no link back to you. Turn that switch off *before* deleting if you want it gone too.
+:::note What deleting doesn't remove
+If **Contribute anonymized tank data** is on (and it is, unless you turned it off), a de-identified copy of your tanks' profiles and parameter history is kept for research when you delete your account. It has no link back to you. If you want that gone too, turn the switch off *before* you delete.
 :::
 
 ## About
 
-The version you are running, and:
+This shows the version you're running, and a few more rows.
 
-- **Replay tips**: replays the first-run dashboard tour described in **[The five tabs](/help/mobile-tour)**, useful after an update or when someone new starts using Cora Mobile
-- **Privacy Policy** and **Terms and Conditions**: links to the legal pages
-- **Licenses**: the open-source software Cora Mobile is built on
+- **Replay tips** plays the first-run dashboard tour again, the one described in [The five tabs](/help/mobile-tour). It's handy after an update, or when someone new starts using Cora Mobile.
+- **Privacy Policy** and **Terms and Conditions** link to the legal pages.
+- **Licenses** lists the open-source software Cora Mobile is built on.
 
 ## Getting help
 
-At the bottom of Settings:
+At the bottom of Settings you'll find these.
 
-- **Contact Support**: emails us; we usually reply within a day
+- **Contact Support** sends us an email. We usually reply within a day.
 - **Report a Bug / Send Feedback**
 - **Cora Website & FAQ**

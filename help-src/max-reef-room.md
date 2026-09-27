@@ -7,48 +7,48 @@ order: 3
 group: Getting started
 ---
 
-If Cora Max shows more than one tank, the Reef Room is an overview of all of them at once. Open it with the **grid icon** at the far left of the top bar; on screen it is headed **Cora Tanks**.
+If Cora Max shows more than one tank, the Reef Room gives you an overview of all of them. Open it with the **grid icon** at the far left of the top bar. On screen, it's called **Cora Tanks**.
 
 ![The Reef Room](img/max-reef-room.webp "Each tank with its health score, headline parameters and anything out of range.")
 
 ## The layout
 
-A Cora Max shows **up to four tanks**, and the Reef Room gives each one an equal share of the screen:
+A Cora Max shows **up to four tanks**, and the Reef Room gives each one an equal share of the screen.
 
 | Tanks | Layout |
 |---|---|
-| 1 | No Reef Room: the screen opens straight onto that tank |
+| 1 | No Reef Room. The screen opens right on that tank |
 | 2 | Side by side |
 | 3 | Three across |
 | 4 | Two by two |
 
-:::note Four is the limit, and it is enforced
-A Cora Max can be assigned at most four tanks, both when you pair it and afterwards from **Devices → your Cora Max**. Adding a fifth asks you to remove one first. If you run more tanks than that, use a second screen; each keeps its own set.
+:::note Four tanks is the limit
+You can assign at most four tanks to a Cora Max, both when you pair it and later from **Devices → your Cora Max**. If you try to add a fifth, you'll be asked to remove one first. If you have more tanks than that, use a second screen. Each one keeps its own set.
 :::
 
 ## What a tile shows
 
-Each tile summarises one tank:
+Each tile sums up one tank.
 
-- **A health score** in a ring, with a line beside it such as *3 of 37 parameters out of range* (or *All 37 parameters in range*), and how many are near their limits
-- **An out-of-range chip** when something needs attention
-- **Four headline parameters** with recent trends
-- **When it last updated**, and a link into that tank's dashboard
+- A **health score** in a ring. Next to it is a line like *3 of 37 parameters out of range* (or *All 37 parameters in range*), and how many are near their limits.
+- An **out-of-range chip** when something needs attention.
+- **Four key parameters** with recent trends.
+- **When it last updated**, and a link to that tank's dashboard.
 
-The health score weighs how far out each parameter is and how much it matters, so one serious problem is not hidden by many good readings. It reads 100% only when nothing is out of range. One major parameter, such as alkalinity, calcium or magnesium, far out of range holds it at 33% or below, and a heavy metal far out of range can bring it to 0%. Parameters near their limits are counted on the tile but do not lower the score.
+The health score looks at how far out each parameter is and how much it matters, so lots of good readings can't hide one serious problem. It only reads 100% when nothing is out of range. If a major parameter like alkalinity, calcium or magnesium is far out of range, the score can't go above 33%. A heavy metal far out of range can bring it down to 0%. Parameters near their limits are counted on the tile but don't lower the score.
 
-Below the tiles, a ticker shows the current health headline for each tank in turn.
+Under the tiles, a ticker shows each tank's current health headline in turn.
 
-A tank needing attention is identifiable from across the room without touching the screen.
+You can tell which tank needs attention from across the room without touching the screen.
 
 ## Moving between tanks
 
 - **Tap a tile**, or **Open dashboard**, to go to that tank.
 - **Swipe sideways** on the dashboard to move between tanks and back to the Reef Room.
-- **The grid icon** returns to the Reef Room from any tank page. It is absent on the Reef Room itself, which is already where it goes.
+- **The grid icon** takes you back to the Reef Room from any tank page. You won't see it on the Reef Room itself.
 
-Each tank keeps its own dashboard layout, so the screen changes completely as you move between them. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
+Each tank has its own dashboard layout, so the screen changes completely as you move between them. More about this in [Editing the Cora Max dashboard](/help/max-dashboard-editing).
 
 ## Single-tank systems
 
-With one tank paired, Cora Max opens straight onto that tank's dashboard and there is no Reef Room page.
+With one tank paired, Cora Max opens right on that tank's dashboard and there's no Reef Room page.

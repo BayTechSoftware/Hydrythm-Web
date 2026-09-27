@@ -1,73 +1,73 @@
 ---
 title: Dein Beckenprofil
-description: Die Angaben zu Volumen, Besatz, Ausrüstung und Dosierung, die Cora nutzt, um deine Messwerte zu interpretieren.
+description: Volumen, Besatz, Ausrüstung und Dosierung, mit denen Cora deine Messwerte einordnet.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 3
 group: Getting started
 ---
 
-Das Beckenprofil beschreibt dein System. Cora nutzt es, um Messwerte zu bewerten, Dosierungen zu berechnen und zu entscheiden, was für dein Becken normal ist, statt für Becken im Allgemeinen.
+Das Beckenprofil beschreibt dein System. Damit bewertet Cora Messwerte, berechnet Dosierungen und erkennt, was für genau dein Becken normal ist.
 
-Um es zu öffnen, tippe auf den **Stift rechts in der Beckenkopfzeile**. Das kleine Symbol neben dem Beckennamen ist eine schnelle Umbenennung, nicht das hier.
+Du öffnest es mit dem **Stift rechts in der Kopfzeile des Beckens**. Das kleine Symbol neben dem Beckennamen ist nur zum schnellen Umbenennen da.
 
 ## Geführte Einrichtung
 
-Ein Profil enthält viel, daher führt dich die **Geführte Einrichtung** einen Bereich nach dem anderen durch (Dosierung, Beleuchtung, Strömung und Filterung, Besatz, deine Ausrüstung), statt das ganze Formular auf einmal zu präsentieren.
+In einem Profil steckt viel. Die **Geführte Einrichtung** geht deshalb einen Bereich nach dem anderen mit dir durch: Dosierung, Beleuchtung, Strömung und Filterung, Besatz und deine Ausrüstung. So musst du nicht das ganze Formular auf einmal ausfüllen.
 
-Sie ist so gedacht, dass du sie unterbrechen kannst:
+Du kannst jederzeit unterbrechen:
 
-- **Später fertigstellen** lässt das Profil, wo es ist, und bringt dich zurück. Deine bisherigen Antworten bleiben erhalten.
-- Die geführte Einrichtung erneut zu öffnen, setzt bei dem Bereich fort, bei dem du aufgehört hast, statt neu zu beginnen.
-- **Später entscheiden** überspringt eine Frage, auf die du noch nicht antworten möchtest, ohne den Rest zu blockieren.
-- Einen Bereich mit ungespeicherten Änderungen zu verlassen, fragt zuerst nach und bietet **Weiter bearbeiten** oder **Verlassen**.
+- **Später fertigstellen** lässt das Profil, wie es ist, und bringt dich zurück. Deine bisherigen Antworten bleiben gespeichert.
+- Öffnest du die geführte Einrichtung wieder, geht es bei dem Bereich weiter, bei dem du aufgehört hast.
+- **Später entscheiden** überspringt eine Frage, die du noch nicht beantworten willst. Der Rest geht trotzdem weiter.
+- Willst du einen Bereich mit ungespeicherten Änderungen verlassen, fragt Cora nach und bietet dir **Weiter bearbeiten** oder **Verlassen** an.
 
-Die Vollständigkeitsangabe im Profil, und der Hinweis, der auf dem Dashboard erscheint, während sie unter 100 % liegt, sind Einstiegspunkte zurück in denselben Ablauf.
+Über die Prozentzahl im Profil kommst du jederzeit zurück in die geführte Einrichtung. Dasselbe gilt für den Hinweis auf dem Dashboard, der erscheint, solange das Profil unter 100 % liegt.
 
-:::note Jeder Bereich ändert, was Cora sagen kann
-Vollständigkeit ist kein Selbstzweck. Dosierprodukte lassen den Dosierrechner und die Verbrauchsverfolgung funktionieren; Besatz und Beckentyp ändern, worauf deine Messwerte bewertet werden; Ausrüstung sagt Cora, worüber es überhaupt etwas geben kann. Ein spärliches Profil gibt entsprechend allgemeine Antworten.
+:::note Jeder Bereich macht Coras Antworten genauer
+Vollständigkeit ist kein Selbstzweck. Mit deinen Dosierprodukten funktionieren der Dosierrechner und die Verbrauchsübersicht. Besatz und Beckentyp bestimmen, woran deine Messwerte gemessen werden. Aus der Ausrüstung weiß Cora, worüber es überhaupt sprechen kann. Ist das Profil dünn, fallen auch die Antworten allgemein aus.
 :::
 
 ![Der Beckenprofil-Editor](img/mobile-tank-profile.webp "Jeder Bereich zeigt einen Vollständigkeitsstatus. Die Bewertung oben spiegelt wider, wie viel Cora über das Becken weiß.")
 
 ## Vollständigkeit
 
-Der Prozentsatz oben zeigt, wie viel vom Profil ausgefüllt ist. Ein vollständigeres Profil liefert spezifischeren Rat; ein leeres lässt Cora mit Standardwerten arbeiten.
+Die Prozentzahl oben zeigt, wie viel vom Profil ausgefüllt ist. Je vollständiger das Profil, desto genauer die Tipps. Ist es leer, arbeitet Cora mit Standardwerten.
 
 ## Bereiche
 
-| Bereich | Umfasst |
+| Bereich | Inhalt |
 |---|---|
-| Beckenname & -typ | Wie du das Becken nennst, seinen Typ und sein Alter |
-| Beckenmaße | Physische Größe und Gesamtwasservolumen |
-| Dosierung | Was du dosierst und wie |
-| Wassermanagement | Wasserwechsel, Nachfüllung, Salinitätsziele |
-| Besatz | Was das Becken enthält und wie dicht es besetzt ist |
-| Temperaturregelung | Heiz- und Kühlausrüstung |
-| Beleuchtung | Leuchten und Photoperiode |
-| Strömung & Filterung | Pumpen, Abschäumung und Filtermedien |
-| Neptune-Geräte | Der Apex an diesem Becken und seine Module |
-| Red-Sea-Geräte | Hier zugewiesene ReefBeat-Geräte |
-| Cora Max | Welche Bildschirme dieses Becken bedienen |
-| Wasserwert-Quellen | Aus welcher Quelle jeder Wasserwert gelesen wird |
-| Schädlinge & Behandlung | Was du behandelt hast, und was du verwendet hast |
+| Beckenname & -typ | wie du das Becken nennst, sein Typ und sein Alter |
+| Beckenmaße | Abmessungen und gesamtes Wasservolumen |
+| Dosierung | was du dosierst und wie |
+| Wassermanagement | Wasserwechsel, Nachfüllung, Zielwerte für die Salinität |
+| Besatz | was im Becken lebt und wie dicht es besetzt ist |
+| Temperaturregelung | Heizer und Kühlung |
+| Beleuchtung | Leuchten und Beleuchtungsdauer |
+| Strömung & Filterung | Pumpen, Abschäumer und Filtermedien |
+| Neptune-Geräte | der Apex an diesem Becken und seine Module |
+| Red-Sea-Geräte | ReefBeat-Geräte, die diesem Becken zugeordnet sind |
+| Cora Max | welche Bildschirme dieses Becken zeigen |
+| Wasserwert-Quellen | aus welcher Quelle jeder Wasserwert kommt |
+| Schädlinge & Behandlung | womit du zu kämpfen hattest und was du eingesetzt hast |
 
 ![Die Geräte- und Quellenbereiche](img/mobile-tank-profile-devices.webp "Die untere Hälfte des Profils: deine Ausrüstung, woher jeder Wasserwert kommt, und die Behandlungshistorie.")
 
-Tippe auf einen Bereich, um ihn zu erweitern. Das Info-Symbol neben jedem erklärt, wofür die Felder verwendet werden.
+Tippe auf einen Bereich, um ihn aufzuklappen. Das Info-Symbol daneben erklärt, wofür die Felder gebraucht werden.
 
 ## Volumen
 
-Trage das tatsächliche Wasservolumen einschließlich des Technikbeckens ein, nicht das auf dem Becken aufgedruckte Anzeigevolumen.
+Trag das tatsächliche Wasservolumen mit Technikbecken ein, nicht das Nennvolumen, das auf dem Becken steht.
 
-:::warning Dosierberechnungen skalieren direkt mit dem Volumen
-Ein 20 % zu hoch eingetragenes Volumen erzeugt Dosierempfehlungen, die 20 % zu hoch sind. Wenn du unsicher bist, messe, statt zu schätzen.
+:::warning Die Dosierberechnung hängt direkt am Volumen
+Trägst du ein 20 % zu hohes Volumen ein, fallen auch die empfohlenen Dosierungen 20 % zu hoch aus. Bist du unsicher, miss lieber nach.
 :::
 
 ## Beckenalter
 
-Lege das Datum fest, an dem das Becken gestartet wurde. Messwerte werden danach bewertet, was für ein Becken dieses Alters normal ist; ein drei Monate altes System und eines, das fünf Jahre alt ist, werden unterschiedlich bewertet. Wenn das Becken noch einfährt, erfasse es auch so.
+Trag das Datum ein, an dem du das Becken gestartet hast. Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. Ein drei Monate altes System wird also anders bewertet als eins, das fünf Jahre läuft. Fährt dein Becken noch ein, trag es auch so ein.
 
 ## Das Profil aktuell halten
 
-Aktualisiere das Profil, wenn sich das System ändert: neue Ausrüstung, eine Änderung des Besatzes, ein anderes Dosierschema. Das Profil ist die Grundlage, von der aus Cora schlussfolgert, daher erzeugt ein veraltetes Profil veralteten Rat.
+Pass das Profil an, wenn sich an deinem System etwas ändert, etwa bei neuer Ausrüstung, geändertem Besatz oder einem anderen Dosierschema. Cora zieht seine Schlüsse aus dem Profil. Ist es veraltet, sind es die Tipps auch.

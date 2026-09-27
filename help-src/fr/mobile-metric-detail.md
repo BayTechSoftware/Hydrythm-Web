@@ -1,83 +1,83 @@
 ---
 title: Examiner un paramètre
-description: Touchez n’importe quel widget pour l’historique complet, chaque source qui le rapporte, et où changer sa plage.
+description: Touchez un widget pour voir tout l’historique, chaque source qui mesure ce paramètre et l’endroit où changer sa plage.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 8
 group: Your dashboard
 ---
 
-Un widget vous montre un chiffre. Le toucher vous montre l’histoire derrière le chiffre.
+Un widget vous donne un chiffre. Touchez-le, et vous voyez l’histoire qui se cache derrière.
 
-## Ce que vous obtenez
+## Ce que vous trouvez
 
 ![Examiner un paramètre](img/mobile-metric-detail.webp "Plages en haut, puis les sources qui rapportent ce paramètre, puis le graphique avec votre bande d’alerte ombrée.")
 
-**Un graphique d’historique**, avec son propre sélecteur de plage : **1h · 6h · 12h · 24h · 3j · 7j** et plus long.
+**Un graphique de l’historique**, avec son propre choix de période : **1h · 6h · 12h · 24h · 3d · 7d** et plus.
 
-**Un filtre de source.** Sous les plages se trouve une ligne de puces : **Tous**, plus une par source rapportant ce paramètre, comme *Apex*, *Cora*, *Red Sea* ou *Manuel*. Sélectionnez-en une pour ne voir que ses mesures. C’est ainsi que vous comparez directement une sonde à un test en kit : basculez entre elles sur le même graphique.
+**Un filtre par source.** Sous les périodes, une rangée d’étiquettes affiche **Tous**, puis une étiquette par source qui mesure ce paramètre, par exemple *Apex*, *Cora*, *Red Sea* ou *Manuel*. Choisissez-en une pour ne voir que ses mesures. C’est comme cela que vous comparez une sonde et un test en kit : passez de l’une à l’autre sur le même graphique.
 
-**Un lien vers le calculateur de dose**, pour les paramètres que vous dosez. Il utilise le volume de l’aquarium tiré de votre [profil d’aquarium](/help/mobile-tank-profile) et les concentrations de [Dosage](/help/mobile-dosing).
+**Un lien vers le calculateur de dose**, pour les paramètres que vous dosez. Il se sert du volume indiqué dans le [profil de l’aquarium](/help/mobile-tank-profile) et des concentrations réglées dans [Dosage](/help/mobile-dosing).
 
-**Une superposition de comparaison.** *Comparer avec* trace un second paramètre sur le même graphique (alcalinité contre calcium, pH contre température), pour qu’une relation que vous suspectez devienne visible plutôt que mémorisée.
+**Une superposition.** *Comparer avec* trace un deuxième paramètre sur le même graphique (alcalinité et calcium, pH et température). Un lien que vous soupçonnez devient visible, sans avoir à vous en souvenir.
 
-**Des statistiques récapitulatives** pour la fenêtre affichée : **MIN**, **MOY** et **MAX**, montrées comme une ligne sous la valeur actuelle.
+**Des statistiques** sur la période affichée : **MIN**, **MOY** et **MAX**, sur une ligne sous la valeur actuelle.
 
-**Des marqueurs de dosage** sur le graphique, pour qu’un mouvement puisse être aligné avec ce que vous avez réellement dosé.
+**Des repères de dosage** sur le graphique, pour mettre un mouvement en regard de ce que vous avez vraiment dosé.
 
-**La liste des mesures brutes** : chaque mesure individuelle derrière la ligne, avec sa source et son horodatage.
+**La liste des mesures brutes** : toutes les mesures derrière la courbe, avec leur source, leur date et leur heure.
 
-**Votre bande d’alerte**, ombrée sur le graphique, pour qu’une mesure soit lue par rapport à sa plage plutôt qu’isolément. Pour changer la plage elle-même, appuyez longuement sur le widget sur le tableau de bord. Voir [Alertes et seuils](/help/mobile-alerts).
+**Votre bande d’alerte**, en grisé sur le graphique. Vous lisez ainsi chaque mesure par rapport à sa plage. Pour changer la plage elle-même, appuyez longuement sur le widget dans le tableau de bord. Voir [Alertes et seuils](/help/mobile-alerts).
 
-**Enregistrer une mesure** à la main.
+**La saisie d’une mesure** à la main.
 
-## Choisir une plage
+## Choisir une période
 
-La bonne plage dépend du rythme du paramètre :
+La bonne période dépend du rythme du paramètre.
 
-| Paramètre | Fenêtre utile |
+| Paramètre | Période utile |
 |---|---|
-| pH | 24 heures ; il varie sur un cycle quotidien |
+| pH | 24 heures. Il varie au fil de la journée |
 | Température | 24 heures ou 7 jours |
 | Alcalinité | 7 ou 30 jours |
 | Oligo-éléments | 30 jours ou un an |
 
-:::note Vérifiez l’ancienneté de la mesure sur une tendance plate
-Une ligne qui n’a pas bougé peut indiquer un paramètre stable ou une source qui a arrêté de rapporter. L’ancienneté affichée à côté de la valeur distingue les deux.
+:::note Courbe plate ? Vérifiez l’âge de la mesure
+Une courbe qui ne bouge pas peut vouloir dire un paramètre stable, ou une source qui n’envoie plus rien. L’âge affiché à côté de la valeur fait la différence.
 :::
 
 ## Comparer les sources
 
-Quand plus d’une source rapporte un paramètre, Cora les garde séparées plutôt que de les moyenner. Utilisez les puces de source pour voir chacune à tour de rôle.
+Quand plusieurs sources mesurent un même paramètre, Cora les garde séparées et n’en fait pas la moyenne. Touchez les étiquettes de source pour les voir l’une après l’autre.
 
-Un décalage persistant entre une sonde et un test enregistré à la main indique généralement que la sonde a besoin d’un étalonnage.
+Un écart constant entre une sonde et un test saisi à la main veut souvent dire que la sonde doit être étalonnée.
 
-Un [résultat ICP](/help/mobile-icp-health) est un troisième avis utile, mais pas un arbitre. Les laboratoires diffèrent les uns des autres, et la manipulation, le stockage et le transport de l’échantillon influencent tous le résultat. Traitez un seul ICP comme une preuve, pas comme la valeur vraie ; deux tests d’accord valent bien plus qu’un seul.
+Un [résultat ICP](/help/mobile-icp-health) est un troisième avis utile, mais pas un arbitre. Les laboratoires ne donnent pas tous les mêmes résultats, et la manipulation, la conservation et le transport de l’échantillon jouent sur la mesure. Voyez un ICP comme un indice, pas comme la vraie valeur. Deux tests qui concordent valent bien plus qu’un seul.
 
-## Choisir quelle source un widget suit
+## Choisir la source suivie par un widget
 
-Si vous voulez qu’un widget suive une source particulière, réglez-le dans les réglages du widget. Voir **[Modifier votre tableau de bord](/help/mobile-dashboard-editing)**.
+Pour qu’un widget suive une source précise, réglez-la dans les réglages du widget. Voir **[Modifier votre tableau de bord](/help/mobile-dashboard-editing)**.
 
-## Exclure une mauvaise mesure
+## Écarter une mauvaise mesure
 
-Une sonde qui a eu un pic, un test mal lu, un échantillon pris en plein changement d’eau : une seule mesure erronée déforme le graphique, les moyennes et tout ce qui raisonne à partir d’elles.
+Un pic de sonde, un test mal lu, un échantillon pris pendant un changement d’eau… Une seule mesure fausse suffit à déformer le graphique, les moyennes et tout ce qui en découle.
 
 ![La liste des mesures brutes](img/mobile-readings.webp "Chaque mesure derrière la ligne, avec sa source et son heure.")
 
-Ouvrez la liste des mesures depuis l’icône dans la barre supérieure, puis touchez une mesure pour l’exclure. L’écran le dit clairement : *exclue des moyennes et des observations, mais elle reste dans votre journal.* Rien n’est supprimé, et elle peut être restaurée.
+Ouvrez la liste des mesures avec l’icône de la barre du haut, puis touchez une mesure pour l’exclure. L’écran le dit clairement : *exclue des moyennes et des observations, mais elle reste dans votre journal.* Rien n’est supprimé, et vous pouvez la rétablir.
 
-:::warning Excluez une mesure erronée, pas une mesure indésirable
-Exclure est pour les mesures que vous savez invalides. Une mesure que vous n’aimez pas mais ne pouvez pas mettre en défaut est une donnée, et la retirer rend chaque comparaison ultérieure moins honnête.
+:::warning Écartez une mesure fausse, pas une mesure qui vous déplaît
+L’exclusion sert aux mesures dont vous savez qu’elles sont fausses. Une mesure qui vous déplaît mais que vous ne pouvez pas mettre en cause reste une donnée. La retirer fausse toutes les comparaisons suivantes.
 :::
 
-## Enregistrer l’entretien des sondes
+## Noter l’entretien d’une sonde
 
-Enregistrer un étalonnage ou un nettoyage depuis ici horodate la date pour cette source, pour qu’un désaccord ultérieur puisse être lu par rapport à quand la sonde a été vue pour la dernière fois. Voir [Sondes](/help/mobile-probes).
+Si vous notez ici un étalonnage ou un nettoyage, la date est enregistrée pour cette source. Plus tard, en cas de désaccord, vous saurez quand la sonde a été entretenue pour la dernière fois. Voir [Sondes](/help/mobile-probes).
 
-## Enregistrer une mesure à la main
+## Saisir une mesure à la main
 
-Saisissez ce que dit votre test en kit. Les mesures enregistrées à la main sont de première classe : elles obtiennent leur propre source et horodatage, elles apparaissent sur le graphique, elles alimentent Reef Buddy, et c’est contre elles que Cora compare votre équipement.
+Saisissez le résultat de votre test en kit. Les mesures saisies à la main comptent autant que les autres. Elles ont leur propre source, leur date et leur heure, elles apparaissent sur le graphique et alimentent Reef Buddy. C’est aussi à elles que Cora compare votre équipement.
 
-:::note Cora vérifie les entrées qui semblent invraisemblables
-Si une valeur est très loin de ce que l’aquarium a connu, on vous demande de la confirmer avant qu’elle ne soit enregistrée. Cela intercepte une décimale mal placée ou une mesure saisie contre le mauvais paramètre. Confirmez-la et la mesure est stockée normalement.
+:::note Cora vérifie les valeurs étonnantes
+Si une valeur est très éloignée de ce que l’aquarium affiche d’habitude, Cora vous demande de la confirmer avant de l’enregistrer. Cela évite une virgule mal placée ou une mesure saisie sur le mauvais paramètre. Une fois confirmée, la mesure est enregistrée normalement.
 :::

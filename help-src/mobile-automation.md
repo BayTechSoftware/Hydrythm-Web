@@ -1,94 +1,94 @@
 ---
 title: Automations and scenes
-description: Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.
+description: Build rules that run on their own with triggers, conditions and actions, and group actions into scenes.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 17
 group: Alerts and automation
 ---
 
-An automation is a rule Cora runs for you: *when this happens, check that, then do this.* Scenes group several actions into one thing you can run or schedule.
+An automation is a rule Cora runs for you: *when this happens, check that, then do this.* A scene groups several actions into one thing you can run or schedule.
 
 **Settings → Automation.**
 
 ![The automation list](img/mobile-automation.webp "Automations and Scenes are separate tabs. Each rule has an enable switch.")
 
-The screen has two tabs (**Automations** and **Scenes**) and a **New automation** button. Each rule shows a one-line summary of what it does, an enable switch, and a menu for editing or deleting it. A rule that has not run yet is marked as such.
+The screen has two tabs, **Automations** and **Scenes**, and a **New automation** button. Each rule shows a one-line summary, an enable switch and a menu to edit or delete it. A rule that hasn't run yet says so.
 
-:::warning These act on real equipment
-A rule that switches a pump switches it whether or not you are watching. Build one at a time and check each does what you expect before adding the next.
+:::warning Rules act on real equipment
+If a rule switches a pump, the pump switches even when you aren't watching. Build one rule at a time and check it does what you expect before you add the next.
 :::
 
 ## The shape of a rule
 
-Every rule is the same three parts:
+Every rule has three parts.
 
-**Trigger**: what wakes it up
-**Conditions**: what must also be true
-**Actions**: what it then does, in order
+- The trigger wakes it up.
+- The conditions must also be true.
+- The actions are what it then does, in order.
 
 ## What can wake a rule
 
-Four things:
+There are four triggers:
 
 | Trigger | Fires when |
 |---|---|
-| **Metric** | A parameter crosses a value you set, in a direction you choose |
+| **Metric** | A parameter crosses a value you set, in the direction you choose |
 | **Alert** | An alert is raised, cleared, or either |
 | **Schedule** | A time of day, in your own timezone |
 | **Device status** | A device goes offline or comes back |
 
 ## Conditions
 
-Conditions decide whether the actions actually run. You get the usual comparisons (equals, not equals, greater than, less than, and so on) and you can combine them with **and**, **or** and **not**.
+Conditions decide whether the actions run. You get the usual comparisons, like equals, not equals, greater than and less than, and you can combine them with **and**, **or** and **not**.
 
-There is also a **step** condition, which checks how the *previous* step turned out. That is what lets you write "try this; if it did not work, do that instead."
+There's also a **step** condition. It checks how the *previous* step went, so you can write "try this, and if it didn't work, do that instead."
 
 ## What a rule can do
 
-An action that needs equipment is offered only on a tank that has that equipment:
+Actions that need equipment only show up on a tank that has that equipment:
 
 | Action | What it does |
 |---|---|
 | **Control Apex Equipment** | Switch an outlet |
 | **Control a Red Sea Equipment** | Drive a ReefBeat unit |
-| **Control a wavemaker** | Set a Jecod pump's flow, wave mode or power, or **Pause for feeding**: the Cora Max at the tank puts the pump back when the feed ends |
+| **Control a wavemaker** | Set a Jecod pump's flow, wave mode or power, or **Pause for feeding**. The Cora Max at the tank puts the pump back when the feed ends |
 | **Control a Cora Equipment** | Switch a smart plug |
 | **Control IR Device** | Send an infrared command |
 | **Run Apex Feed Cycle** | Start a feed |
-| **Run a Trident Test** | Trigger a test |
+| **Run a Trident Test** | Start a test |
 | **Notify Me** | Send yourself a push |
-| **Wait Before Next Step** | Pause before continuing |
-| **Run a Scene** | Run another scene from inside this rule |
+| **Wait Before Next Step** | Pause before carrying on |
+| **Run a Scene** | Run a scene from inside this rule |
 | **Manage an Automation** | Turn another rule on or off |
 | **Dose a DŌS Head** | Run a measured dose on a DŌS head |
 
-:::warning Dosing from a rule is irreversible and capped
-A dose cannot be taken back out of the tank. The head must be **calibrated** before a rule may dose from it, and unattended dosing is capped at **10 mL per head per day**; a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.
+:::warning A dose can't be undone, and it's capped
+You can't take a dose back out of the tank. A head has to be **calibrated** before a rule can dose from it. Unattended dosing is capped at **10 mL per head per day**, however the rule is written. Dosing actions only show up once Cora recognises your heads as dosing heads.
 :::
 
-:::note Use Wait to sequence steps within one rule
-A pause allows a single rule to perform an ordered procedure (for example switching an outlet off, waiting, then switching it on again) without a second rule and a schedule.
+:::note Use Wait to run steps in order
+With a pause, one rule can run a sequence, for example switching an outlet off, waiting, then switching it back on. You don't need a second rule and a schedule.
 :::
 
 ## Scenes
 
-A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule: "Water change", "Photo mode", "Night".
+A scene is a named group of actions, like "Water change", "Photo mode" or "Night". You can run it when you want, on a schedule, or from inside another rule.
 
-A scene may call another scene. Cora refuses to run a scene nested beyond its depth limit, and refuses a scene that would call itself, to prevent a loop that would continue acting on the tank indefinitely.
+A scene can call another scene. Cora won't run a scene nested deeper than its limit, and it won't run a scene that calls itself. Either could loop and keep acting on the tank.
 
-After a scene runs you are told what happened, step by step, including anything that failed.
+After a scene runs, you see what happened step by step, including anything that failed.
 
-Running a scene by hand asks you to confirm first, since a scene can switch several pieces of equipment at once.
+When you run a scene by hand, Cora asks you to confirm first, because a scene can switch several pieces of equipment together.
 
 ## Scenes made on Cora Max
 
-Scenes can also be built and edited directly on a Cora Max tablet, not only on the phone: it is the same set of scenes either way, shared across the account. If a household has an older Cora Max, it can still run a scene made on the phone; only the on-device editing is a newer capability, so an older tablet may show a scene without letting you change it there. Edit it from the phone instead.
+You can also build and edit scenes on a Cora Max. It's the same set of scenes, shared across the account. An older Cora Max can still run a scene made on the phone. Editing on the device is newer, though, so an older Cora Max may show a scene without letting you change it. Edit it from the phone instead.
 
 ## Turning a rule off
 
-Every rule has an enable switch. Turning one off keeps its definition, useful when you want a rule back next season rather than rebuilding it.
+Every rule has an enable switch. Turning a rule off keeps its settings, which helps when you want it back next season.
 
 ## Seeing what a rule did
 
-Every action a rule takes is recorded with the rule as its cause. See **[Activity](/help/mobile-activity)**.
+Every action a rule takes is recorded with the rule as its cause. You'll find it in [Activity](/help/mobile-activity).

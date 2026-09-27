@@ -1,59 +1,59 @@
 ---
 title: El diario
-description: Registra lo que le hiciste a tu acuario, para que más adelante puedas saber qué causó qué.
+description: Apunta lo que haces en tu acuario y más adelante podrás ver qué causó qué.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 21
 group: Records
 ---
 
-El diario registra lo que le hiciste al acuario: cambios de agua, ejemplares añadidos, cambios de dosificación, trabajo en el equipo y mantenimiento.
+En el diario apuntas lo que haces en el acuario, como cambios de agua, fauna nueva, cambios de dosificación, trabajos en el equipo y mantenimiento.
 
-Su propósito es la comparación posterior. Cuando un parámetro cambia de forma inesperada, el diario es el registro de qué cambió alrededor de esa fecha.
+Sirve para comparar más adelante. Cuando un parámetro cambia sin motivo aparente, el diario te dice qué cambió por esas fechas.
 
-![El diario](img/mobile-journal.webp "Entradas en orden inverso, con fotos incluidas.")
+![El diario](img/mobile-journal.webp "Las entradas, de la más nueva a la más antigua, con sus fotos.")
 
 ## Añadir una entrada
 
-Toca el botón **Diario** que flota sobre la parte inferior derecha del Panel.
+Toca el botón **Diario** que flota abajo a la derecha del **Panel**.
 
-Escribe lo que hiciste con palabras sencillas. Añade una foto si ayuda: un coral que está cogiendo color, un equipo que se comporta de forma extraña, el resultado de un kit de pruebas.
+Escribe lo que hiciste con palabras sencillas. Si ayuda, añade una foto, por ejemplo de un coral que está cogiendo color, de un equipo que hace algo raro o del resultado de un kit de pruebas.
 
-También puedes **dictar** una entrada en lugar de escribirla, la opción más fácil con las manos mojadas. Habla, y lo que dijiste se escribe en la entrada por ti.
+También puedes **dictar** la entrada. Con las manos mojadas es lo más cómodo. Habla y lo que digas se escribe en la entrada.
 
-Las entradas quedan marcadas automáticamente con el acuario y la hora.
+Cada entrada guarda sola el acuario y la hora.
 
-:::note Las entradas no necesitan ser formales
-Las entradas breves son suficientes; "cambio de agua de 20 l, 5 ml de alcalinidad extra" es un registro completo. Anótalas en el momento; las entradas reconstruidas después son menos fiables.
+:::note Las entradas no tienen que ser formales
+Basta con algo breve. "Cambio de agua de 20 l, 5 ml de alcalinidad extra" ya es un registro completo. Apúntalo en el momento. Lo que se escribe días después es menos fiable.
 :::
 
-## Qué registrar
+## Qué apuntar
 
-Las cosas que al final resultan más importantes:
+Esto es lo que más suele importar después.
 
-- **Cambios de agua**: cuánto, y cuándo
-- **Cualquier novedad en el acuario**: fauna, roca, medios
-- **Cambios de dosificación**: qué cambiaste y por qué
-- **Equipo**: limpiado, sustituido, movido, averiado
-- **Mantenimiento**: skimmer limpiado, medias cambiadas, bombas revisadas
-- **Cualquier cosa inusual**: un corte de luz, un día caluroso, un derrame
+- **Cambios de agua**, cuánta agua y cuándo
+- **Todo lo nuevo en el acuario**, como fauna, roca o material filtrante
+- **Cambios de dosificación**, qué cambiaste y por qué
+- **Equipo**, si lo limpiaste, lo cambiaste, lo moviste o se averió
+- **Mantenimiento**, como limpiar el skimmer, cambiar las mangas o revisar las bombas
+- **Cualquier cosa rara**, como un corte de luz, un día de mucho calor o un derrame
 
 ## Editar y eliminar entradas
 
-Toca una entrada para abrirla y cambiarla. Para eliminar una, deslízala y confirma; se te pregunta primero, porque una entrada que escribiste en el momento no se puede reconstruir después.
+Toca una entrada para abrirla y cambiarla. Para eliminarla, deslízala y confirma. Cora te lo pregunta antes, porque lo que escribiste en el momento no se puede recuperar después.
 
-## Preguntarle a Cora sobre una entrada
+## Preguntar a Cora por una entrada
 
-Una entrada que marcaste como **preocupación** o **emergencia** lleva una acción de **Analizar**. Entrega esa entrada, junto con las lecturas del acuario de fechas cercanas, a [Cora Assistant](/help/mobile-assistant) y vuelve con una evaluación. Úsala cuando hayas anotado algo que te preocupa y quieras una segunda opinión.
+Las entradas que marcaste como **Preocupación** o **Emergencia** tienen la opción **Analizar**. Envía la entrada a [Cora Assistant](/help/mobile-assistant) junto con las lecturas del acuario de esos días, y recibes una valoración. Úsala cuando hayas apuntado algo que te preocupa y quieras otra opinión.
 
-## Volver a leerlo
+## Repasar el diario
 
-El diario es una línea de tiempo por acuario, de más reciente a más antiguo. Las fotos aparecen incluidas.
+Cada acuario tiene su propio diario en forma de línea de tiempo, con lo más nuevo arriba. Las fotos se ven dentro de cada entrada.
 
-Filtra por categoría para reducir un diario largo a un solo tipo de entrada: observaciones, preocupaciones o emergencias.
+Si el diario es largo, filtra por categoría para ver un solo tipo de entrada: observaciones, preocupaciones o emergencias.
 
-El Asistente lee el diario. Preguntas como *"¿cuándo cambié agua por última vez?"* se responden a partir de tus entradas junto con tus lecturas.
+Cora Assistant lee el diario. Para responder a preguntas como *"¿cuándo cambié el agua por última vez?"*, usa tus entradas y tus lecturas.
 
 ## En Cora Max
 
-También puedes añadir entradas del diario en Cora Max, lo que suele ser más práctico cuando estás de pie junto al acuario. Accede al diario desde el menú del acuario, o dicta una entrada por voz.
+También puedes añadir entradas en Cora Max. Suele ser más práctico cuando estás de pie junto al acuario. Abre el diario desde el menú del acuario o dicta una entrada por voz.

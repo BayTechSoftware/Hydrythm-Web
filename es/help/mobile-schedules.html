@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Programar equipos | Cora Help</title>
-  <meta name="description" content="Crea un programa diario para una bomba Jecod y cópialo entre bombas, y consulta el programa de un gyre Maxspect (beta).">
+  <meta name="description" content="Crea un programa diario para una bomba Jecod, cópialo a otras bombas y consulta el programa de un gyre Maxspect (beta).">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-schedules">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-schedules">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Programar equipos | Cora Help">
-  <meta property="og:description" content="Crea un programa diario para una bomba Jecod y cópialo entre bombas, y consulta el programa de un gyre Maxspect (beta).">
+  <meta property="og:description" content="Crea un programa diario para una bomba Jecod, cópialo a otras bombas y consulta el programa de un gyre Maxspect (beta).">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-schedules">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules" class="cur" aria-current="page">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,36 +168,36 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Programar equipos</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#igual-todo-el-da-u-horario">Igual todo el día, u Horario</a></li><li><a href="#el-editor-de-horarios">El editor de horarios</a></li><li><a href="#copiar-un-programa-entre-bombas">Copiar un programa entre bombas</a></li><li><a href="#conservar-y-compartir-un-horario">Conservar y compartir un horario</a></li><li><a href="#fuera-de-la-red-de-la-bomba">Fuera de la red de la bomba</a></li><li><a href="#aplicar-un-programa">Aplicar un programa</a></li><li><a href="#comprobar-que-se-aplic">Comprobar que se aplicó</a></li></ul></nav>
-<p>Las bombas y los gyres pueden ejecutar un <strong>programa diario</strong>: un conjunto de periodos, cada uno con su propia intensidad, que se repite cada día. Cora puede crear estos directamente para bombas Jecod™. El programa de un gyre Maxspect™ <em>(beta)</em> solo se puede consultar aquí: se fija en la aplicación Maxspect.</p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#igual-todo-el-da-u-horario">Igual todo el día, u Horario</a></li><li><a href="#el-editor-de-horarios">El editor de horarios</a></li><li><a href="#copiar-un-programa-a-otras-bombas">Copiar un programa a otras bombas</a></li><li><a href="#guardar-y-compartir-un-horario">Guardar y compartir un horario</a></li><li><a href="#lejos-de-la-red-de-la-bomba">Lejos de la red de la bomba</a></li><li><a href="#aplicar-un-programa-preparado">Aplicar un programa preparado</a></li><li><a href="#comprobar-que-se-ha-aplicado">Comprobar que se ha aplicado</a></li></ul></nav>
+<p>Las bombas y los gyres pueden seguir un <strong>programa diario</strong>. Es un conjunto de periodos, cada uno con su intensidad, que se repite todos los días. En las bombas Jecod™ puedes crear el programa directamente desde Cora. El programa de un gyre Maxspect™ <em>(beta)</em> aquí solo se puede ver. Se configura en la aplicación de Maxspect.</p>
 <p>Abre el dispositivo desde la pestaña <strong>Dispositivos</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El horario de una bomba"><img src="/help/img/mobile-schedules.webp" alt="El horario de una bomba" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>El gráfico del día de 0 a 24 horas, con cada periodo listado debajo.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El horario de una bomba"><img src="/help/img/mobile-schedules.webp" alt="El horario de una bomba" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>El gráfico del día de 0 a 24 horas, con los periodos en una lista debajo.</figcaption></figure>
 <h2 id="igual-todo-el-da-u-horario">Igual todo el día, u Horario</h2>
-<p>Una bomba funciona en uno de dos modos, elegido en la parte superior de su página:</p>
-<ul><li><strong>Igual todo el día</strong>: una intensidad, constante</li><li><strong>Horario</strong>: un programa diario con periodos</li></ul>
-<p>Tu elección se envía a la bomba, a través del Cora Max del acuario cuando tu teléfono no está en la red de la bomba. Una bomba Bluetooth tiene que estar al alcance: hasta entonces, elegir aquí solo cambia lo que estás viendo.</p>
+<p>En la parte superior de la página de la bomba eliges uno de estos dos modos:</p>
+<ul><li><strong>Igual todo el día</strong>, con una sola intensidad constante</li><li><strong>Horario</strong>, con un programa diario dividido en periodos</li></ul>
+<p>Tu elección se envía a la bomba. Si tu teléfono no está en la red de la bomba, se envía a través del Cora Max del acuario. Una bomba Bluetooth tiene que estar a tu alcance. Mientras no lo esté, lo que elijas aquí solo cambia lo que ves en pantalla.</p>
 <h2 id="el-editor-de-horarios">El editor de horarios</h2>
-<p>Cada pantalla de horario tiene las mismas tres partes:</p>
-<p><strong>El gráfico del día</strong>: el día completo de 0 a 24 horas, con cada periodo dibujado como un bloque cuya altura es su intensidad. Es la forma más rápida de ver si un programa hace lo que crees.</p>
-<p><strong>La lista de periodos</strong>: cada periodo debajo del gráfico, con sus horas, su modo y su intensidad: <em>Aleatorio, 00:00-03:00, Frec 50%, 40%</em>. Añade, edita y elimina periodos aquí.</p>
-<p><strong>Añadir y cambiar periodos</strong>: <strong>Agregar al programa</strong> añade un periodo. Abre un periodo para cambiarlo y toca <strong>Guardar</strong>, o <strong>Eliminar</strong> para quitarlo; se te pide confirmar antes de que se vaya.</p>
-<p>Un gyre Maxspect <em>(beta)</em> tiene dos cabezales, mostrados como Gyre A y Gyre B, así que su gráfico del día tiene dos pistas, una para cada uno, y sus planes se listan bajo <strong>GYRE A</strong> y <strong>GYRE B</strong>. El horario de un gyre es solo de lectura: su fila de acción dice <strong>Solo lectura</strong>, y el horario se fija en la aplicación Maxspect.</p>
-<aside class="cal cal-warning"><p class="cal-t">Un horario se escribe en el dispositivo</p><p>Guardar envía el programa al equipo, que luego lo ejecuta con su propio reloj. Sigue funcionando tanto si Cora es accesible como si no.</p></aside>
-<h2 id="copiar-un-programa-entre-bombas">Copiar un programa entre bombas</h2>
-<p>Si usas varias bombas que deberían comportarse igual, crea un programa y cópialo.</p>
-<p>Abre la bomba cuyo programa quieres, luego <strong>Copiar horario a…</strong>, y elige la bomba a la que copiarlo.</p>
-<h2 id="conservar-y-compartir-un-horario">Conservar y compartir un horario</h2>
-<p>Un horario con el que estés satisfecho no tiene que crearse de nuevo:</p>
-<ul><li><strong>Guardar horario como…</strong> lo guarda con un nombre, y <strong>Horarios guardados…</strong> lo aplica de nuevo más tarde.</li><li><strong>Compartir este horario</strong> lo convierte en un código corto, y <strong>Pegar un código de horario…</strong> aplica uno que alguien te envió. Esto es una función de Cora Mobile; el código lleva el horario, no acceso a tu cuenta.</li></ul>
-<h2 id="fuera-de-la-red-de-la-bomba">Fuera de la red de la bomba</h2>
-<p>Cuando tu teléfono no está en la red de la bomba, Cora Mobile funciona a través del Cora Max del acuario, con límites:</p>
-<ul><li><strong>Igual todo el día</strong> y <strong>Horario</strong> cambian el modo de la bomba a través de ese Cora Max.</li><li>Un periodo que añadas o cambies pasa por él solo si ha llegado a la bomba en la última hora. Si no, el horario lo indica y no se puede cambiar desde donde estás.</li><li><strong>Copiar horario a…</strong>, <strong>Guardar horario como…</strong>, <strong>Horarios guardados…</strong>, <strong>Compartir este horario</strong> y <strong>Pegar un código de horario…</strong> necesitan que tu teléfono esté en la red de la bomba. Hasta entonces aparecen en gris, y el menú indica por qué.</li></ul>
-<p>Una bomba Bluetooth solo se puede alcanzar desde un teléfono cercano: ponte al alcance para cambiar su estado, cambiar su horario o usar cualquiera de esos elementos.</p>
-<h2 id="aplicar-un-programa">Aplicar un programa</h2>
-<p>A una bomba también se le puede dar un programa preparado en un solo paso, en lugar de crear los periodos a mano.</p>
-<h2 id="comprobar-que-se-aplic">Comprobar que se aplicó</h2>
-<p>Después de guardar, la página del dispositivo muestra el programa que la unidad está ejecutando realmente. Si los dos no coinciden, la escritura no llegó; comprueba que el dispositivo es accesible e inténtalo de nuevo.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-device-control"><span>Anterior</span><b>Cómo controlar tu equipo</b></a><a class="pn-n" href="/es/help/mobile-probes"><span>Siguiente</span><b>Sondas</b></a></nav>
+<p>Todas las pantallas de horario tienen las mismas tres partes.</p>
+<p>El <strong>gráfico del día</strong> muestra el día entero, de 0 a 24 horas. Cada periodo es un bloque y su altura es la intensidad. Es la forma más rápida de comprobar que el programa hace lo que crees.</p>
+<p>La <strong>lista de periodos</strong>, debajo del gráfico, muestra cada periodo con su horario, su modo y su intensidad, por ejemplo <em>Aleatorio, 00:00–03:00, Frec 50%, 40%</em>. Aquí añades, editas y quitas periodos.</p>
+<p>Con <strong>Agregar al programa</strong> añades un periodo. Para cambiar uno, ábrelo y toca <strong>Guardar</strong>. Para quitarlo, toca <strong>Eliminar</strong>. Antes de borrarlo se te pide que lo confirmes.</p>
+<p>Un gyre Maxspect <em>(beta)</em> tiene dos cabezales, que aparecen como Gyre A y Gyre B. Por eso su gráfico del día tiene dos pistas, una por cabezal, y sus planes salen en <strong>GYRE A</strong> y <strong>GYRE B</strong>. El horario de un gyre solo se puede ver. En su fila de acciones pone <strong>Solo lectura</strong>, y el horario se configura en la aplicación de Maxspect.</p>
+<aside class="cal cal-warning"><p class="cal-t">El horario se guarda en el propio equipo</p><p>Al guardar, el programa se envía al equipo, que lo sigue con su propio reloj. Sigue funcionando aunque Cora no pueda conectarse con él.</p></aside>
+<h2 id="copiar-un-programa-a-otras-bombas">Copiar un programa a otras bombas</h2>
+<p>Si tienes varias bombas que deben funcionar igual, crea un programa y cópialo.</p>
+<p>Abre la bomba que tiene el programa, toca <strong>Copiar horario a…</strong> y elige la bomba de destino.</p>
+<h2 id="guardar-y-compartir-un-horario">Guardar y compartir un horario</h2>
+<p>No tienes que volver a crear un horario que ya te funciona:</p>
+<ul><li><strong>Guardar horario como…</strong> lo guarda con un nombre, y con <strong>Horarios guardados…</strong> lo vuelves a aplicar cuando quieras.</li><li><strong>Compartir este horario</strong> lo convierte en un código corto, y <strong>Pegar un código de horario…</strong> aplica uno que te hayan enviado. Es una función de Cora Mobile. El código contiene el horario, no da acceso a tu cuenta.</li></ul>
+<h2 id="lejos-de-la-red-de-la-bomba">Lejos de la red de la bomba</h2>
+<p>Cuando tu teléfono no está en la red de la bomba, Cora Mobile trabaja a través del Cora Max del acuario, con algunos límites:</p>
+<ul><li><strong>Igual todo el día</strong> y <strong>Horario</strong> cambian el modo de la bomba a través de ese Cora Max.</li><li>Un periodo que añadas o cambies solo pasa por el Cora Max si este ha conectado con la bomba en la última hora. Si no, el horario te lo indica y no puedes cambiarlo desde donde estás.</li><li><strong>Copiar horario a…</strong>, <strong>Guardar horario como…</strong>, <strong>Horarios guardados…</strong>, <strong>Compartir este horario</strong> y <strong>Pegar un código de horario…</strong> necesitan que tu teléfono esté en la red de la bomba. Mientras tanto aparecen en gris y el menú te explica por qué.</li></ul>
+<p>A una bomba Bluetooth solo se llega desde un teléfono que esté cerca. Acércate para cambiarle el modo, cambiar su horario o usar cualquiera de esas opciones.</p>
+<h2 id="aplicar-un-programa-preparado">Aplicar un programa preparado</h2>
+<p>También puedes darle a una bomba un programa ya preparado en un solo paso, sin crear los periodos a mano.</p>
+<h2 id="comprobar-que-se-ha-aplicado">Comprobar que se ha aplicado</h2>
+<p>Después de guardar, la página del dispositivo muestra el programa que el equipo está siguiendo de verdad. Si no coincide con el tuyo, el cambio no llegó. Comprueba que el dispositivo está conectado y vuelve a intentarlo.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-device-control"><span>Anterior</span><b>Controlar tus equipos</b></a><a class="pn-n" href="/es/help/mobile-probes"><span>Siguiente</span><b>Sondas</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>

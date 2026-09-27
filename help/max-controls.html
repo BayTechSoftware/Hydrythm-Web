@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Outlets and controls | Cora Help</title>
-  <meta name="description" content="Switching outlets from Cora Max, using feed mode, and what Auto actually means.">
+  <meta name="description" content="Switching outlets from Cora Max, using feed mode, and what Auto really means.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/max-controls">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-controls">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-controls">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Outlets and controls | Cora Help">
-  <meta property="og:description" content="Switching outlets from Cora Max, using feed mode, and what Auto actually means.">
+  <meta property="og:description" content="Switching outlets from Cora Max, using feed mode, and what Auto really means.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/max-controls">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,32 +169,32 @@
     <article class="doc">
       <h1>Outlets and controls</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-three-states">The three states</a></li><li><a href="#switching-from-the-dashboard">Switching from the dashboard</a></li><li><a href="#the-controls-drawer">The Controls drawer</a></li><li><a href="#feed-mode">Feed mode</a></li><li><a href="#by-voice">By voice</a></li><li><a href="#seeing-what-happened">Seeing what happened</a></li></ul></nav>
-<p>Cora Max can switch the equipment on your system: from control widgets on the dashboard, from the Outlets &amp; Feed drawer, or by voice.</p>
-<aside class="cal cal-warning"><p class="cal-t">These controls act on your tank</p><p>There is no undo. Outlets marked with a padlock ask you to confirm first; the rest apply as soon as you tap. A command can come back <strong>Confirmed</strong>, <strong>Unconfirmed</strong> (sent, nothing reported back), <strong>Refused</strong> or <strong>No change</strong>; see <a href="/help/mobile-device-control">Controlling your equipment</a>.</p></aside>
+<p>Cora Max can switch the equipment on your system. You can do it from control widgets on the dashboard, from the Outlets &amp; Feed drawer, or by voice.</p>
+<aside class="cal cal-warning"><p class="cal-t">These controls act on your tank</p><p>There's no undo. Outlets with a padlock ask you to confirm first. The rest change as soon as you tap. A command can come back <strong>Confirmed</strong>, <strong>Unconfirmed</strong> (sent, but nothing reported back), <strong>Refused</strong> or <strong>No change</strong>. More about this in <a href="/help/mobile-device-control">Controlling your equipment</a>.</p></aside>
 <h2 id="the-three-states">The three states</h2>
 <p>Every outlet is in one of three states.</p>
-<p><strong>Auto</strong> returns the outlet to its Apex programming. This is where an outlet should sit most of the time.</p>
-<p><strong>Off</strong> and <strong>On</strong> are manual overrides. They take effect at once and <strong>stay until you change them back</strong>. They do not expire, and nothing puts them back for you.</p>
-<aside class="cal cal-warning"><p class="cal-t">A manual override does not expire</p><p>Set it back to <strong>Auto</strong> when you are done; nothing does that for you. It can still be changed later by you, by voice, or by an automation; an override is not a lock.</p></aside>
+<p><strong>Auto</strong> hands the outlet back to its Apex programming. Most of the time, that's where an outlet should be.</p>
+<p><strong>Off</strong> and <strong>On</strong> are manual overrides. They take effect right away and <strong>stay until you change them back</strong>. They don't expire, and nothing resets them for you.</p>
+<aside class="cal cal-warning"><p class="cal-t">A manual override doesn't expire</p><p>Set it back to <strong>Auto</strong> when you're done, because nothing else will. An override isn't a lock, though. You, your voice or an automation can still change it later.</p></aside>
 <h2 id="switching-from-the-dashboard">Switching from the dashboard</h2>
-<p>Control widgets show the three states with the current one highlighted. Tap the state you want.</p>
-<p>Some outlets carry a <strong>padlock</strong>. It does not have to be switched off anywhere; it means the outlet asks you to confirm before it changes, so a stray tap cannot switch something critical. See below.</p>
+<p>Control widgets show the three states, with the current one highlighted. Tap the one you want.</p>
+<p>Some outlets have a <strong>padlock</strong>. There's nothing to switch off for it. It means the outlet asks you to confirm before it changes, so a stray tap can't switch something critical. There's more on this below.</p>
 <h2 id="the-controls-drawer">The Controls drawer</h2>
-<p>Pull up the tab at the bottom of the dashboard to open <strong>Controls</strong>: every outlet on the system in one place, whether or not it has a widget, plus the feed cycles.</p>
+<p>Pull up the tab at the bottom of the dashboard to open <strong>Controls</strong>. It shows every outlet on the system, with or without a widget, plus the feed cycles.</p>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The Controls drawer"><img src="/help/img/max-controls.webp" alt="The Controls drawer" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Feed cycles across the top, then every outlet.</figcaption></figure>
-<p>An outlet carrying a <strong>padlock</strong> requires an explicit confirmation before it changes. Tapping it opens a dialog naming the outlet, its current state, and the override you are about to apply. It is a confirmation step, not a lock to be switched off elsewhere.</p>
+<p>An outlet with a <strong>padlock</strong> needs you to confirm before it changes. When you tap it, a dialog shows the outlet, its current state and the override you're about to set. It's a confirmation step, and there's no lock to turn off somewhere else.</p>
 <h2 id="feed-mode">Feed mode</h2>
-<p>Feed mode is the safe way to pause flow for feeding. It pauses the equipment that should be paused, leaves alone the equipment that should not, and <strong>puts everything back by itself</strong> when the time is up.</p>
-<p>Use it in preference to switching pumps off by hand, because it restores the system without depending on you to remember.</p>
-<p>Feed cycles are lettered <strong>A</strong>, <strong>B</strong>, <strong>C</strong> and <strong>D</strong>: the cycles your controller defines, each pausing a different set of equipment. Pick the one that matches what you are doing. <strong>Cancel</strong> ends a running cycle early and restores everything immediately.</p>
+<p>Feed mode is the safe way to pause flow while you feed. It pauses the equipment that should pause, leaves the rest alone, and <strong>puts everything back by itself</strong> when time's up.</p>
+<p>Use it instead of switching pumps off by hand. It puts the system back even if you forget.</p>
+<p>Feed cycles are lettered <strong>A</strong>, <strong>B</strong>, <strong>C</strong> and <strong>D</strong>. They're the cycles your controller defines, and each one pauses a different set of equipment. Pick the one that fits what you're doing. <strong>Cancel</strong> ends a running cycle early and puts everything back right away.</p>
 <p>Start one from the Controls drawer, or say <em>"start feed mode"</em>.</p>
 <h2 id="by-voice">By voice</h2>
-<p>You can switch outlets by voice: <em>"turn the skimmer off"</em>, <em>"put the fan back on auto"</em>.</p>
-<p>Anything that reaches your equipment is <strong>confirmed before it happens</strong>: Cora tells you what it is about to do and waits for you to agree. It will not act on an instruction it is not sure about.</p>
-<p>See <strong><a href="/help/max-voice">Talking to Cora</a></strong>.</p>
+<p>You can switch outlets by voice, for example <em>"turn the skimmer off"</em> or <em>"put the fan back on auto"</em>.</p>
+<p>Before anything reaches your equipment, Cora <strong>checks with you first</strong>. It tells you what it's about to do and waits for your OK. If it isn't sure what you asked, it won't act.</p>
+<p>More about this in <a href="/help/max-voice">Talking to Cora</a>.</p>
 <h2 id="seeing-what-happened">Seeing what happened</h2>
-<p>Every request is recorded, along with what asked for it (this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account) and how it travelled. On your phone that is <strong>Settings → Activity</strong>.</p>
-<p>This is the first place to look when something changed and you do not know why.</p>
+<p>Every request is logged, along with what asked for it and how it travelled. The request can come from Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account. On your phone, you'll find it in <strong>Settings → Activity</strong>.</p>
+<p>When something changed and you don't know why, look there first.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-dashboard-editing"><span>Previous</span><b>Editing the Cora Max dashboard</b></a><a class="pn-n" href="/help/max-device-control"><span>Next</span><b>Controlling equipment from Cora Max</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

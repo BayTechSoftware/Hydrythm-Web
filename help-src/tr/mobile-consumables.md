@@ -1,41 +1,41 @@
 ---
 title: Sarf malzemeleri
-description: Reaktif, dozaj kapları, rezervuarlar ve medya için yeniden doldurma uyarıları belirleyin.
+description: Reaktif, dozaj kapları, rezervuarlar ve filtre medyası için dolum uyarıları kurun.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 14
 group: Equipment
 ---
 
-Bir şey tüketen ekipman (reaktif, dozaj sıvısı, tamamlama suyu, filtre medyası) Cora'ya ne kadar kaldığını söyleyebilir. Cora, bitmeden önce sizi uyarabilir.
+Bir şey tüketen ekipman (reaktif, dozaj sıvısı, tamamlama suyu, filtre medyası) Cora'ya ne kadar kaldığını bildirir. Cora da bitmeden önce sizi uyarır.
 
-## Bir yeniden doldurma uyarısı belirleme
+## Dolum uyarısı kurma
 
-Cihazı açın (**Cihazlar** sekmesinden, veya panodaki kutusuna dokunarak), ardından üst çubuktaki **zili** kullanın.
+Cihazı açın. Bunun için **Cihazlar** sekmesini kullanabilir ya da panodaki kutucuğuna dokunabilirsiniz. Sonra üst çubuktaki **zil** simgesine dokunun.
 
-![Bir dozaj birimi için yeniden doldurma uyarıları](img/mobile-consumables.webp "Kap başına bir eşik, her biri bağımsız olarak açılıp kapatılabilir.")
+![Dozaj ünitesi için dolum uyarıları](img/mobile-consumables.webp "Her kafa için ayrı eşik. Her biri tek tek açılıp kapatılır.")
 
-Birden fazla kabı olan ekipman, kap başına bir eşik alır; böylece yakından izlediğiniz bir kafa ve nadiren dokunduğunuz bir kafa farklı ayarlanabilir.
+Birden fazla kabı olan ekipmanda her kabın kendi eşiği olur. Yakından izlediğiniz kafayla nadiren elinizi sürdüğünüz kafayı farklı ayarlayabilirsiniz.
 
-**Çoğu eşik hacim olarak değil gün olarak belirlenir.** Cora, gerçekte kullandığınız hızda kalan miktarın ne kadar süreceğini hesaplar; bu, harekete geçebileceğiniz sayıdır. "Kalsiyumun dört günü kaldı" size "180 mL kaldı"nın söylemediği bir şey söyler.
+**Eşiklerin çoğu hacim yerine gün olarak girilir.** Cora, kalan miktarın sizin gerçek kullanım hızınızla kaç gün yeteceğini hesaplar. İşinize yarayan sayı budur. "Dört günlük kalsiyum kaldı" bilgisi, "180 mL kaldı" bilgisinden çok daha fazlasını anlatır.
 
 | Cihaz | Eşik neye göre |
 |---|---|
-| Trident | Kalan testler ve atık şişesinin ne kadar dolu olduğu |
-| Dozaj kafası | Kalan takviye günü; bazıları kalan mililitreyi de sunar |
-| ATO | Kalan rezervuar günü |
-| Mat rulosu | Kalan rulo günü |
+| Trident | Kalan test sayısı ve atık şişesinin doluluğu |
+| Dozaj kafası | Takviyenin kaç gün yeteceği. Bazı kafalarda kalan mililitre de seçilebilir |
+| ATO | Rezervuarın kaç gün yeteceği |
+| Mat rulosu | Rulonun kaç gün yeteceği |
 
-Bir sarf malzemesi uyarısı, başka herhangi bir uyarı gibi davranır: [Uyarı Merkezi](/help/mobile-alerts)'nde görünür ve telefonunuza push gönderebilir. Bir seviye aşıldığında **bir** bildirim alırsınız, tekrarlayan bir akış değil, ve seviye eşiğin üstüne döndüğünde kapanır.
+Sarf malzemesi uyarısı diğer uyarılar gibi çalışır. [Uyarı Merkezi](/help/mobile-alerts)'nde görünür ve telefonunuza bildirim gönderebilir. Seviye eşiğin altına indiğinde **tek** bildirim alırsınız, bildirimler art arda gelmez. Seviye yeniden eşiğin üstüne çıkınca uyarı kapanır.
 
-## Bir eşik seçme
+## Eşik seçme
 
-Harekete geçebileceğiniz kadar önceden belirleyin. Bir şey bittiği gün tetiklenen bir eşik hiçbir uyarı vermez.
+Eşiği, harekete geçmeye vaktiniz kalacak kadar erken ayarlayın. Malzemenin bittiği gün gelen uyarı işe yaramaz.
 
-:::warning Bazı ekipman boşken durmaz
-Boş bir kabı olan bir dozaj kafası, zamanlamasını çalıştırmayı sürdürür ve teslim etmediği dozajları bildirir. Bunu önleyen yeniden doldurma uyarısıdır, bu yüzden dozajladığınız her kafa için bir tane belirleyin.
+:::warning Bazı ekipmanlar boşalınca durmaz
+Kabı boşalan dozaj kafası zamanlamasına göre çalışmaya devam eder ve aslında vermediği dozları da vermiş gibi kaydeder. Bunu dolum uyarısı önler. Dozaj yaptığınız her kafa için bir uyarı kurun.
 :::
 
-## Yeniden doldurduktan sonra
+## Doldurduktan sonra
 
-Uyarının kapanması ve bir sonraki uyarının doğru hesaplanması için cihazın sayfasında seviyeyi sıfırlayın veya güncelleyin.
+Cihazın sayfasında seviyeyi sıfırlayın ya da güncelleyin. Böylece uyarı kapanır ve bir sonraki uyarı doğru hesaplanır.

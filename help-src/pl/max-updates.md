@@ -1,6 +1,6 @@
 ---
-title: Aktualizacje i przywracanie
-description: Jak Cora Max aktualizuje się sama i co się dzieje, gdy aktualizacja się nie powiedzie.
+title: Aktualizacje i tryb odzyskiwania
+description: Jak Cora Max sam się aktualizuje i co się dzieje, gdy aktualizacja się nie uda.
 section: Cora Max
 reviewed: 2026-09-09
 order: 14
@@ -9,50 +9,50 @@ group: Settings
 
 ## Automatyczne aktualizacje
 
-Cora Max utrzymuje się na bieżąco. Nowe wersje pobierają się w tle i instalują się same; jesteś informowany, co się zmieniło.
+Cora Max sam dba o aktualne oprogramowanie. Nowe wersje pobierają się w tle i same się instalują. Dostajesz informację, co się zmieniło.
 
-Nic nie jest wymagane od Ciebie, aby być na bieżąco.
+Nie musisz nic robić, żeby mieć najnowszą wersję.
 
 ## Sprawdzanie wersji
 
-![Ustawienia urządzenia](img/max-updates.webp "Firmware Update i stan urządzenia, na górze ustawień urządzenia.")
+![Ustawienia urządzenia](img/max-updates.webp "Aktualizacja oprogramowania w sekcji Sieć i aktualizacje w Ustawieniach Cora Max.")
 
-**Ustawienia → Cora Max → Oprogramowanie → Aktualizacja oprogramowania** obejmuje sprawdzanie, instalowanie, kanał aktualizacji i jego harmonogram. **Stan i sterowanie urządzeniem** znajduje się prosto przy nim, w tej samej grupie **Oprogramowanie**, i jest miejscem, gdzie żyje własna diagnostyka urządzenia: w tym główne odpytywanie, połączenia urządzeń i odpowiadający głosem.
+W **Ustawienia → Ustawienia Cora Max → Aktualizacja oprogramowania** (w sekcji **Sieć i aktualizacje**) sprawdzisz i zainstalujesz aktualizacje oraz ustawisz kanał aktualizacji i jego harmonogram. Niżej na tym samym ekranie, w sekcji **Stan**, zobaczysz stan odpytywania każdego akwarium, ostatnie odpytanie i ostatni zapis w chmurze.
 
-## Gdy aktualizacja jest dostępna
+## Gdy jest dostępna aktualizacja
 
-Pojawia się podpowiedź opisująca, co jest nowe, z dwoma wyborami:
+Pojawi się okno z opisem nowości i dwoma przyciskami:
 
-- **Zaktualizuj teraz**: instaluje natychmiast i uruchamia się na nowo
-- **Odłóż na 3 godziny**: pyta ponownie później
+- **Zaktualizuj teraz**: instaluje aktualizację od razu i uruchamia urządzenie ponownie
+- **Odłóż na 3 godziny**: zapyta ponownie później
 
-Zostawiona bez zmian aktualizacja instaluje się sama w nocy, między około 3 a 5 rano, więc ekran nie uruchamia się na nowo, gdy na niego patrzysz.
+Jeśli nic nie wybierzesz, aktualizacja zainstaluje się sama w nocy, mniej więcej między 3 a 5 rano. Ekran nie uruchomi się więc ponownie, gdy na niego patrzysz.
 
-:::note Odczyty nie są utracone podczas aktualizacji
-Dane żyją na Twoim koncie, nie na ekranie. Urządzenie, które uruchamia się na nowo, wraca z tymi samymi akwariami, pulpitami i historią.
+:::note Aktualizacja nie usuwa odczytów
+Dane są zapisane na Twoim koncie, a nie na ekranie. Po ponownym uruchomieniu urządzenie ma te same akwaria, pulpity i historię.
 :::
 
-## Przywracanie
+## Tryb odzyskiwania
 
-Przywracanie to tryb serwisowy dla sytuacji, gdy urządzenie nie chce się uruchomić normalnie, albo gdy trzeba naprawić jego konfigurację bez laptopa.
+Tryb odzyskiwania to tryb serwisowy. Przydaje się, gdy urządzenie nie chce się normalnie uruchomić albo gdy trzeba naprawić jego konfigurację bez laptopa.
 
-**Aby w niego wejść:** przytrzymaj **pięć palców** w prawym górnym rogu ekranu na około **dziesięć sekund**, potem wpisz **PIN odzyskiwania** urządzenia.
+Żeby go włączyć, przytrzymaj **pięć palców** w prawym górnym rogu ekranu przez około **dziesięć sekund**, a potem wpisz **PIN odzyskiwania** urządzenia.
 
-Ten sześciocyfrowy PIN był pokazany, gdy urządzenie było parowane, i jest też w ustawieniach tego urządzenia w Cora Mobile. Nie jest pokazywany na samym Cora Max, co jest właśnie celem: przywracanie nie jest dostępne dla gościa czy dziecka opierającego się o ekran.
+Ten sześciocyfrowy PIN pojawił się przy parowaniu urządzenia. Znajdziesz go też w ustawieniach tego urządzenia w Cora Mobile. Sam Cora Max go nie pokazuje, więc gość ani dziecko opierające się o ekran nie wejdą w tryb odzyskiwania.
 
-Z przywracania możesz:
+W trybie odzyskiwania możesz:
 
-- Naprawić połączenie **Wi-Fi**
-- **Sparuj ponownie** urządzenie do Twojego konta
-- Wymusić **aktualizację firmware**
-- **Ustawienia fabryczne** urządzenia
+- naprawić połączenie **Wi-Fi**
+- połączyć urządzenie z kontem od nowa (**Sparuj ponownie**)
+- wymusić **aktualizację oprogramowania**
+- przywrócić ustawienia fabryczne (**Ustawienia fabryczne**)
 
-Urządzenie, które nie startuje kilka razy z rzędu, może też samo wrócić do poprzedniej wersji.
+Jeśli urządzenie kilka razy z rzędu nie uruchomi się poprawnie, może też samo wrócić do poprzedniej wersji.
 
-:::warning Ekran w przywracaniu niczym nie steruje
-Twój kontroler dalej działa według własnego programowania. Ale [automatyzacja](/help/mobile-automation), której akcja musi zostać wykonana **przez to Cora Max**, nie może działać, gdy jest w przywracaniu; reguła się uruchamia, a krok nie dociera do sprzętu.
+:::warning W trybie odzyskiwania ekran niczym nie steruje
+Kontroler dalej działa według własnego programu. Jednak [automatyzacja](/help/mobile-automation), której akcję musi wykonać **ten Cora Max**, nie zadziała, gdy jest on w trybie odzyskiwania. Reguła się uruchomi, ale krok nie dotrze do sprzętu.
 :::
 
-## Jeśli urządzenie nie uruchamia się na nowo
+## Gdy urządzenie nie uruchamia się ponownie
 
-Wyślij e-mail na **[cora@coraiq.tech](mailto:cora@coraiq.tech)** z wersją pokazaną na ekranie i tym, co mówi. Nie paruj urządzenia ponownie najpierw; stan parowania jest często użyteczny, aby ustalić, co się stało.
+Napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)**. Podaj wersję widoczną na ekranie i to, jaki komunikat się wyświetla. Nie paruj urządzenia ponownie przed kontaktem z nami. Stan parowania często pomaga ustalić, co się stało.

@@ -1,13 +1,13 @@
 ---
 title: Asking Cora
-description: How to use Cora Assistant: typing, voice, what it can see, and what it can change.
+description: How to use Cora Assistant by typing or talking, what it can see, and what it can change.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 23
 group: Intelligence
 ---
 
-Cora Assistant answers questions about your tank in plain language. Because it can see your live readings, your history and your lab results, it answers about *your* tank rather than about reefs in general.
+Cora Assistant answers questions about your tank in plain language. It can see your live readings, your history and your lab results, so its answers are about *your* tank.
 
 Open it from the **Assistant** tab.
 
@@ -15,11 +15,11 @@ Open it from the **Assistant** tab.
 
 ## Pick a tank first
 
-The tank selector at the top decides what Cora is talking about. Everything below it (the questions you type, the answers you get) is scoped to that tank.
+The tank selector at the top sets what Cora is talking about. The questions you type and the answers you get all belong to that tank.
 
 ## Typing
 
-Type in the box at the bottom and send. Useful things to ask:
+Type in the box at the bottom and send. Some things worth asking:
 
 - *"Why is my alkalinity falling?"*
 - *"What changed since last week?"*
@@ -29,65 +29,65 @@ Type in the box at the bottom and send. Useful things to ask:
 
 ## Talking
 
-Tap **Start voice conversation** for a live back-and-forth. Cora listens, answers out loud, and keeps listening until you stop it. It is the easier option when your hands are wet.
+Tap **Start voice conversation** to talk back and forth. Cora listens, answers out loud and keeps listening until you stop it. It's handy when your hands are wet.
 
 ## Consent
 
 ![Assistant consent](img/mobile-assistant-consent.webp "Two separate permissions, and the memory Cora keeps.")
 
-**Settings → Cora Assistant** holds two independent switches:
+**Settings → Cora Assistant** has two separate switches.
 
-- **Allow Cora Assistant to use saved tank data**: Cora Assistant needs this on to answer you. If it is off, Cora shows its consent screen again before your next message or voice conversation. The screen lists what Cora Assistant uses and, under **Where your data goes**, which AI provider writes the replies. **Agree & Continue** turns the switch back on and goes ahead; **Not now** sends nothing and keeps what you typed.
-- **Contribute anonymized tank data**: see [Your data](/help/mobile-data-export).
+- **Allow Cora Assistant to use saved tank data** has to be on for Cora Assistant to answer you. If it's off, Cora shows its consent screen again before your next message or voice conversation. The screen lists what Cora Assistant uses, and **Where your data goes** names the AI provider that writes the replies. **Agree & Continue** turns the switch back on and carries on. **Not now** sends nothing and keeps what you typed.
+- **Contribute anonymized tank data** is covered in [Your data](/help/mobile-data-export).
 
 ## The language Cora replies in
 
-Cora Assistant follows your **account language**, the one language set for the whole household in **Settings → Language**, not a separate setting of its own. Change it there and Cora Assistant answers, and speaks, in the new language on your next conversation. See [Settings](/help/mobile-settings).
+Cora Assistant uses your account language. That's the one language for the whole household, set in **Settings → Language**. Cora Assistant has no language setting of its own. Change it there, and from your next conversation Cora Assistant writes and speaks in the new language. More in [Settings](/help/mobile-settings).
 
 ## What Cora can see
 
-The chip above the message box, **Using your tank's live data**, tells you what is in scope. Tap it to see exactly what Cora is reading: current values, how old each one is, recent history, your journal, and your ICP results.
+The chip above the message box, **Using your tank's live data**, shows what's in scope. Tap it to see what Cora is reading: current values and how old each one is, recent history, your journal and your ICP results.
 
-For a longer view, Cora Assistant can look back up to about six months of a parameter's history, so you can ask *"Compare the last six months of my magnesium with my latest ICP."*
+Cora Assistant can look back over about six months of a parameter's history. So you can ask *"Compare the last six months of my magnesium with my latest ICP."*
 
-:::note It tells you when it does not know
-Cora reports the age of the readings it uses. If the most recent alkalinity reading is four days old, the answer will say so rather than presenting the value as current.
+:::note It tells you how old the data is
+Cora reports the age of the readings it uses. If your latest alkalinity reading is four days old, the answer says so and doesn't pass it off as current.
 :::
 
 ## What Cora can change
 
-Cora can act on your tank as well as talk about it: switching an outlet, starting a feed, changing a setting.
+Cora can also act on your tank. It can switch an outlet, start a feed or change a setting.
 
-Anything that affects your equipment is **confirmed before it happens**. You will be shown exactly what is about to change and asked to approve it. Cora does not act on an ambiguous instruction.
+Before anything touches your equipment, Cora shows you exactly what's about to change and asks you to approve it. It won't act on an unclear instruction.
 
-:::warning Advisory, not authority
-Cora's advice is exactly that. Verify anything important with your own testing, and treat big changes the way you would treat advice from anyone else; sanity-check it before you act. The line under the message box says the same thing.
+:::warning Cora advises. You decide
+Check anything important with your own testing. Treat big changes the way you'd treat advice from anyone else, and sanity-check them before you act. The line under the message box says the same.
 :::
 
 ## Memory
 
 ![Assistant settings](img/mobile-assistant-settings.webp "Consent, memory, voice and usage limits, under Settings.")
 
-:::note What clearing memory does and does not touch
-Clearing removes what Cora has remembered *about your conversations*: its profile of your system, the concerns it was tracking, and every stored session. If any part of that cannot be removed, Cora Mobile tells you it failed rather than reporting success.
+:::note What clearing memory touches
+Clearing removes what Cora has remembered *about your conversations*. That's its profile of your system, the concerns it was tracking, and every stored session. If any part of that can't be removed, Cora Mobile tells you it failed.
 
-It does not touch your **tank data**: readings, journal, livestock, maintenance and reports are yours and stay exactly as they are. Clearing memory makes the Assistant forget the conversation, not the tank.
+Your **tank data** isn't touched. Readings, journal, livestock, maintenance and reports stay exactly as they are. The Assistant forgets the conversations, not the tank.
 :::
 
-Cora remembers things about your tank between conversations: that you dose two-part, that your frag tank shares a sump, that you are trying to bring nutrients up. This is what stops you re-explaining your system every time.
+Cora remembers things about your tank from one conversation to the next. For example, that you dose two-part, that your frag tank shares a sump, or that you're trying to bring nutrients up. You don't have to explain your system every time.
 
 **Settings → Cora Assistant → AI memory** shows what Cora has recorded about your tank and lets you reset it.
 
-:::warning Clearing memory does not necessarily remove everything
-The reset clears the memory record you can see. Cora also keeps working context across a conversation and a longer-term profile that the reset may not cover in full. Treat it as "forget what you are showing me", not a guaranteed erase of everything ever inferred.
+:::warning Clearing memory may not remove everything
+The reset clears the memory record you can see. Cora also keeps working context during a conversation and a longer-term profile, and the reset may not fully cover them. Think of it as "forget what you're showing me". It isn't a guaranteed erase of everything Cora ever worked out.
 :::
 
 ## Usage
 
-Your plan includes a monthly allowance of messages. The count sits above the message box. Voice conversations draw on the same allowance.
+Your plan includes a monthly allowance of messages. The count sits above the message box. Voice conversations use the same allowance.
 
 ## If an answer looks wrong
 
-Correct it in the conversation; that is the fastest fix and it usually carries forward, though it is not guaranteed to persist indefinitely.
+Correct it in the conversation. That's the quickest fix and it usually sticks, though it may not last forever.
 
-If an answer looks confidently wrong, check the data chip first. Often the answer is right about the data it was given, and the real problem is a stale reading or a source assigned to the wrong tank.
+If an answer sounds sure of itself but wrong, check the data chip first. Often the answer is right about the data Cora was given. The real problem is a stale reading, or a source assigned to the wrong tank.

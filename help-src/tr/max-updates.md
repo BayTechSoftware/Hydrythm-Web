@@ -1,6 +1,6 @@
 ---
 title: Güncellemeler ve kurtarma
-description: Cora Max kendini nasıl günceller ve bir güncelleme ters giderse ne olur.
+description: Cora Max nasıl güncellenir, güncelleme ters giderse ne olur.
 section: Cora Max
 reviewed: 2026-09-09
 order: 14
@@ -9,50 +9,50 @@ group: Settings
 
 ## Otomatik güncellemeler
 
-Cora Max kendini güncel tutar. Yeni sürümler arka planda indirilir ve kendilerini kurar; size ne değiştiği söylenir.
+Cora Max kendini güncel tutar. Yeni sürümler arka planda iner ve kendiliğinden kurulur. Nelerin değiştiği size bildirilir.
 
-Güncel kalmak için sizden hiçbir şey gerekmez.
+Güncel kalmak için bir şey yapmanız gerekmez.
 
 ## Sürümü kontrol etme
 
-![Cihaz ayarları](img/max-updates.webp "Cihaz ayarlarının üstünde yazılım güncellemesi ve cihaz sağlığı.")
+![Cihaz ayarları](img/max-updates.webp "Yazılım Güncellemesi, Cora Max Ayarları'nın Ağ ve güncellemeler bölümünde.")
 
-**Ayarlar → Cora Max → Yazılım → Yazılım Güncellemesi**, kontrol etmeyi, kurmayı, güncelleme kanalını ve zamanlamasını kapsar. **Cihaz sağlığı ve kontroller**, aynı **Yazılım** grubunda tam yanında yer alır ve cihazın kendi tanılamalarının bulunduğu yerdir: birincil sorgulama, cihaz bağlantıları ve ses yanıtlayıcı dahil.
+Güncelleme olup olmadığına bakmak, güncellemeyi kurmak, güncelleme kanalını ve zamanını seçmek için **Ayarlar → Cora Max Ayarları → Yazılım Güncellemesi**'ne gidin (**Ağ ve Güncellemeler** bölümünde). Aynı ekranın aşağısındaki **Durum** bölümü her akvaryum için sorgulama durumunu, son sorgulamayı ve buluta son yazmayı gösterir.
 
-## Bir güncelleme mevcut olduğunda
+## Güncelleme geldiğinde
 
-Yeni olanı açıklayan bir istem görünür, iki seçenekle:
+Yenilikleri anlatan bir pencere açılır. İki seçeneğiniz var:
 
-- **Şimdi güncelle**: hemen kurar ve yeniden başlatır
-- **3 saat ertele**: daha sonra yeniden sorar
+- **Şimdi güncelle**: Güncellemeyi hemen kurar ve yeniden başlar
+- **3 saat ertele**: Daha sonra yeniden sorar
 
-Kendi haline bırakılırsa, bir güncelleme gece kendini kurar, kabaca sabah 3 ile 5 arasında; böylece ekrana bakarken yeniden başlamaz.
+Hiçbir şey seçmezseniz güncelleme gece, aşağı yukarı saat 3 ile 5 arasında kendiliğinden kurulur. Böylece siz ekrana bakarken yeniden başlamaz.
 
-:::note Bir güncelleme sırasında okumalar kaybolmaz
-Veri hesabınızda yaşar, ekranda değil. Yeniden başlayan bir birim aynı akvaryumlar, panolar ve geçmişle geri gelir.
+:::note Güncelleme sırasında ölçümler kaybolmaz
+Verileriniz ekranda değil, hesabınızda saklanır. Yeniden başlayan cihaz aynı akvaryumlar, panolar ve geçmişle açılır.
 :::
 
 ## Kurtarma
 
-Kurtarma, bir birim normal şekilde başlamadığında veya bir dizüstü bilgisayar olmadan kurulumunu onarmanız gerektiğinde kullanılan bir bakım modudur.
+Kurtarma bir bakım modudur. Cihaz normal açılmıyorsa ya da kurulumunu dizüstü bilgisayar olmadan onarmanız gerekiyorsa kullanılır.
 
-**Girmek için:** ekranın sağ üstünde **beş parmağınızı** yaklaşık **on saniye** basılı tutun, ardından birimin **Kurtarma PIN'ini** girin.
+Kurtarmaya girmek için ekranın sağ üst köşesine **beş parmağınızı** koyup yaklaşık **on saniye** basılı tutun. Ardından cihazın **Kurtarma PIN'i**ni girin.
 
-O altı haneli PIN, birim eşleştirildiğinde gösterildi ve aynı zamanda Cora Mobile'da o cihazın ayarlarındadır. Cora Max'in kendisinde gösterilmez; bunun amacı da budur: kurtarmaya bir misafir veya ekrana yaslanan bir çocuk tarafından ulaşılamaz.
+Bu altı haneli PIN, cihazı eşleştirdiğinizde gösterilmişti. Cora Mobile'da o cihazın ayarlarında da bulunur. Cora Max'in kendisinde görünmez. Böylece bir misafir ya da ekrana yaslanan bir çocuk kurtarmaya giremez.
 
-Kurtarmadan şunları yapabilirsiniz:
+Kurtarma modunda şunları yapabilirsiniz:
 
-- **Wi-Fi** bağlantısını onarma
-- Birimi hesabınıza **yeniden eşleştirme**
-- Zorla bir **yazılım güncellemesi** yapma
-- Birimi **fabrika ayarlarına sıfırlama**
+- **Wi-Fi** bağlantısını onarmak
+- Cihazı hesabınıza **yeniden eşleştirmek**
+- **Yazılım güncellemesini** zorla başlatmak
+- Cihazı **fabrika ayarlarına sıfırlamak**
 
-Art arda birkaç kez başlamayı başaramayan bir birim, kendisini önceki sürüme de geri alabilir.
+Üst üste birkaç kez açılamayan cihaz kendini önceki sürüme de geri alabilir.
 
-:::warning Kurtarmadaki bir ekran hiçbir şeyi kontrol etmiyor
-Kontrolcünüz kendi programlamasını çalıştırmaya devam eder. Ancak eylemi **bu Cora Max tarafından** yerine getirilmesi gereken bir [otomasyon](/help/mobile-automation), o kurtarmadayken çalışamaz; kural tetiklenir ve adım donanıma ulaşmaz.
+:::warning Kurtarma modundaki ekran hiçbir şeyi kontrol etmez
+Kontrol cihazınız kendi programını çalıştırmaya devam eder. Ama işini **bu Cora Max**'in yapması gereken bir [otomasyon](/help/mobile-automation), cihaz kurtarma modundayken çalışamaz. Kural tetiklenir ama adım donanıma ulaşmaz.
 :::
 
-## Bir birim yeniden başlamazsa
+## Cihaz yeniden açılmazsa
 
-Ekranda gösterilen sürümü ve ne yazdığını belirterek **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin. Önce birimi yeniden eşleştirmeyin; eşleştirme durumu genellikle ne olduğunu çözmede işe yarar.
+Ekranda görünen sürümü ve ekranda ne yazdığını **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-postayla gönderin. Cihazı önce yeniden eşleştirmeyin. Eşleştirme durumu, ne olduğunu anlamamıza çoğu zaman yardım eder.

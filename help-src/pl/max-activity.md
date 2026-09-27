@@ -1,41 +1,41 @@
 ---
 title: Aktywność na Cora Max
-description: Każde polecenie, które ten system wykonał, odmówił albo nie mógł potwierdzić, czytelne przy ścianie.
+description: Każde polecenie, które system wykonał, odrzucił albo którego nie mógł potwierdzić, czytelne z Cora Max.
 section: Cora Max
 reviewed: 2026-09-09
 order: 10
 group: Alerts
 ---
 
-Cora Max pokazuje ten sam dziennik aktywności co telefon: każde **żądanie akcji** (każdą próbę zmiany czegoś) i co się z tym stało. Odmówione albo niepotwierdzone żądanie mogło nigdy nie dotrzeć do sprzętu w ogóle, i to jest właśnie powód, dla którego jest zapisywane.
+Cora Max pokazuje ten sam dziennik aktywności co telefon. Jest w nim każde **żądanie akcji** (każda próba zmiany czegoś) i to, co się z nim stało. Odrzucone albo niepotwierdzone żądanie mogło w ogóle nie dotrzeć do sprzętu i dlatego też trafia do dziennika.
 
-Otwórz go z **menu akwarium** (dotknij nazwy akwarium na górnym pasku) albo z **Ustawienia → Ustawienia akwarium → [your tank] → Aktywność**.
+Otworzysz go z **menu akwarium** (dotknij nazwy akwarium na górnym pasku) albo przez **Ustawienia → Ustawienia akwarium → [Twoje akwarium] → Aktywność**.
 
-![Dziennik aktywności na Cora Max](img/max-activity.webp "Legenda zostaje na górze ekranu, więc wyniku nigdy nie trzeba pamiętać.")
+![Dziennik aktywności na Cora Max](img/max-activity.webp "Legenda jest zawsze na górze ekranu, więc nie musisz pamiętać, co oznacza każdy wynik.")
 
-## Co mówi Ci każdy wpis
+## Co mówi każdy wpis
 
-Każdy wiersz nazywa akcję, sprzęt i czas, a potem dwie rzeczy ważniejsze niż którakolwiek z nich.
+Każdy wiersz podaje akcję, sprzęt i godzinę. Ważniejsze są jednak dwie inne rzeczy.
 
-**Co o to poprosiło**: Ty na tym ekranie, Ty na telefonie, głos, Asystent, reguła [automatyzacji](/help/mobile-automation), smart przycisk albo Twoje konto. Wpis dokonany przy ścianie mówi to wprost.
+Pierwsza to źródło polecenia. Może nim być Ty na tym ekranie, Ty na telefonie, głos, Asystent, reguła [automatyzacji](/help/mobile-automation), inteligentny przycisk albo Twoje konto. Jeśli polecenie wydano na Cora Max, wpis mówi to wprost.
 
-**Jak dotarło**: czy polecenie przeszło przez Twoją własną sieć albo przez Twoje konto, i które Cora je wykonało. W systemie z więcej niż jednym Cora to jest sposób, jak stwierdzić, które zadziałało.
+Druga to droga polecenia. Wpis pokazuje, czy polecenie poszło przez Twoją sieć domową, czy przez konto, i które Cora je wykonało. Gdy masz kilka urządzeń Cora, tak sprawdzisz, które z nich zadziałało.
 
 ## Cztery wyniki
 
-| Wynik | Znaczy |
+| Wynik | Znaczenie |
 |---|---|
-| **Potwierdzono** | Sprzęt zgłosił z powrotem, że to zrobił |
-| **Niepotwierdzone** | Wysłane, ale nic nie zgłoszono z powrotem. To znaczy *nie wiemy*, nie *zadziałało* |
-| **Odmówiono** | Nie zostało wykonane. Reguła bezpieczeństwa, blokada albo sam sprzęt to odmówił |
-| **Bez zmian** | Był już w stanie, o który poprosiłeś |
+| **Potwierdzono** | Sprzęt odpowiedział, że wykonał polecenie |
+| **Niepotwierdzone** | Polecenie wysłano, ale nic nie odpowiedziało. To znaczy *nie wiemy*, a nie *zadziałało* |
+| **Odmówiono** | Polecenie nie zostało wykonane. Zablokowała je reguła bezpieczeństwa, blokada albo sam sprzęt |
+| **Bez zmian** | Sprzęt był już w stanie, o który prosisz |
 
-## Czemu wynik ma znaczenie przy ścianie
+## Dlaczego wynik jest ważny
 
-Polecenie, które zostało wysłane, ale nigdy nie potwierdzone, wygląda identycznie, w chwili dotknięcia, jak to, które zadziałało. Ten ekran jest miejscem, gdzie ta różnica staje się widoczna.
+W chwili dotknięcia polecenie wysłane, ale niepotwierdzone, wygląda tak samo jak polecenie, które zadziałało. Różnicę widać dopiero na tym ekranie.
 
-Jeśli coś, o co poprosiłeś, wydaje się niewykonane, sprawdź tutaj, zanim założysz, że sprzęt zawiódł. Odpowiedzią zwykle jest, że żądanie zostało odmówione albo że nic nigdy nie zgłosiło się z powrotem.
+Jeśli coś się chyba nie wykonało, zajrzyj tutaj, zanim uznasz, że sprzęt się zepsuł. Zwykle okazuje się, że żądanie odrzucono albo że nic na nie nie odpowiedziało.
 
-## Czytanie razem z dziennikiem
+## Aktywność i dziennik
 
-Aktywność przechowuje to, co zrobił system. [Dziennik](/help/mobile-journal) przechowuje to, co zrobiłeś ręcznie. Razem wyjaśniają większość niespodzianek.
+Aktywność pokazuje, co zrobił system. W [dzienniku](/help/mobile-journal) jest to, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.

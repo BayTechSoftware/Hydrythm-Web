@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Looking into a parameter | Cora Help</title>
-  <meta name="description" content="Tap any widget for full history, every source reporting it, and where to change its range.">
+  <meta name="description" content="Tap any widget to see its full history, every source that reports it, and where to change its range.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-metric-detail">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-metric-detail">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-metric-detail">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Looking into a parameter | Cora Help">
-  <meta property="og:description" content="Tap any widget for full history, every source reporting it, and where to change its range.">
+  <meta property="og:description" content="Tap any widget to see its full history, every source that reports it, and where to change its range.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-metric-detail">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,38 +169,30 @@
     <article class="doc">
       <h1>Looking into a parameter</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-you-get">What you get</a></li><li><a href="#choosing-a-range">Choosing a range</a></li><li><a href="#comparing-sources">Comparing sources</a></li><li><a href="#choosing-which-source-a-widget-trusts">Choosing which source a widget trusts</a></li><li><a href="#excluding-a-bad-reading">Excluding a bad reading</a></li><li><a href="#recording-probe-care">Recording probe care</a></li><li><a href="#logging-a-reading-by-hand">Logging a reading by hand</a></li></ul></nav>
-<p>A widget shows you a number. Tapping it shows you the story behind the number.</p>
+<p>A widget shows you a number. Tap it to see the story behind that number.</p>
 <h2 id="what-you-get">What you get</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Looking into a parameter"><img src="/help/img/mobile-metric-detail.webp" alt="Looking into a parameter" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Ranges along the top, then the sources reporting this parameter, then the chart with your alert band shaded.</figcaption></figure>
-<p><strong>A history chart</strong>, with its own range selector: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> and longer.</p>
-<p><strong>A source filter.</strong> Below the ranges is a row of chips: <strong>All</strong>, plus one per source reporting this parameter, such as <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> or <em>Manual</em>. Select one to see only its readings. This is how you compare a probe against a test kit directly: switch between them on the same chart.</p>
-<p><strong>A dose calculator link</strong>, for parameters you dose. It uses the tank volume from your <a href="/help/mobile-tank-profile">tank profile</a> and the strengths from <a href="/help/mobile-dosing">Dosing</a>.</p>
-<p><strong>A comparison overlay.</strong> <em>Compare with</em> draws a second parameter on the same chart (alkalinity against calcium, pH against temperature), so a relationship you suspect becomes visible instead of remembered.</p>
-<p><strong>Summary statistics</strong> for the window on screen: <strong>MIN</strong>, <strong>AVG</strong> and <strong>MAX</strong>, shown as a row under the current value.</p>
-<p><strong>Dose markers</strong> on the chart, so a movement can be lined up against what you actually dosed.</p>
-<p><strong>The raw readings list</strong>: every individual reading behind the line, with its source and timestamp.</p>
-<p><strong>Your alert band</strong>, shaded on the chart, so a reading is read against its range rather than in isolation. To change the range itself, long-press the widget on the dashboard. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
-<p><strong>Log a reading</strong> by hand.</p>
+<ul><li>A history chart with its own range selector: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> and longer.</li><li>A row of source chips under the ranges. There's <strong>All</strong>, plus one chip for each source that reports this parameter, such as <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> or <em>Manual</em>. Pick one to see only its readings. It's the quickest way to compare a probe with a test kit. Just switch between them on the same chart.</li><li>A link to the dose calculator, for parameters you dose. It uses the tank volume from your <a href="/help/mobile-tank-profile">tank profile</a> and the strengths from <a href="/help/mobile-dosing">Dosing</a>.</li><li><em>Compare with</em>, which draws a second parameter on the same chart, like alkalinity with calcium or pH with temperature. If you suspect two things move together, you can see it here.</li><li><strong>MIN</strong>, <strong>AVG</strong> and <strong>MAX</strong> for the time window on screen, in a row under the current value.</li><li>Dose markers on the chart, so you can line up a change with what you dosed.</li><li>The raw readings list, with every reading behind the line and its source and time.</li><li>Your alert band, shaded on the chart, so you see each reading against its range. To change the range, long-press the widget on the dashboard. More about that in <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li>A way to log a reading by hand.</li></ul>
 <h2 id="choosing-a-range">Choosing a range</h2>
-<p>The right range depends on the rhythm of the parameter:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Parameter</th><th>Useful window</th></tr></thead><tbody><tr><td data-th="Parameter">pH</td><td data-th="Useful window">24 hours; it swings on a daily cycle</td></tr><tr><td data-th="Parameter">Temperature</td><td data-th="Useful window">24 hours or 7 days</td></tr><tr><td data-th="Parameter">Alkalinity</td><td data-th="Useful window">7 or 30 days</td></tr><tr><td data-th="Parameter">Trace elements</td><td data-th="Useful window">30 days or a year</td></tr></tbody></table></div>
-<aside class="cal cal-note"><p class="cal-t">Check the reading age on a flat trend</p><p>A line that has not moved may indicate a stable parameter or a source that has stopped reporting. The age shown beside the value distinguishes the two.</p></aside>
+<p>Pick the range that fits how the parameter moves.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Parameter</th><th>Useful window</th></tr></thead><tbody><tr><td data-th="Parameter">pH</td><td data-th="Useful window">24 hours, since it swings on a daily cycle</td></tr><tr><td data-th="Parameter">Temperature</td><td data-th="Useful window">24 hours or 7 days</td></tr><tr><td data-th="Parameter">Alkalinity</td><td data-th="Useful window">7 or 30 days</td></tr><tr><td data-th="Parameter">Trace elements</td><td data-th="Useful window">30 days or a year</td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">Flat line? Check how old the reading is</p><p>A line that hasn't moved can mean the parameter is stable. It can also mean the source stopped reporting. The age next to the value tells you which.</p></aside>
 <h2 id="comparing-sources">Comparing sources</h2>
-<p>When more than one source reports a parameter, Cora keeps them separate rather than averaging them. Use the source chips to view each in turn.</p>
-<p>A persistent offset between a probe and a hand-logged test usually indicates the probe needs calibrating.</p>
-<p>An <a href="/help/mobile-icp-health">ICP result</a> is a useful third opinion, but not an arbiter. Laboratories differ from one another, and the sample's handling, storage and transit all move the result. Treat a single ICP as evidence, not as the true value; two tests agreeing is worth far more than one.</p>
+<p>When more than one source reports a parameter, Cora keeps them separate and doesn't average them. Use the source chips to look at each one.</p>
+<p>If a probe and your hand-logged tests stay apart by the same amount, the probe usually needs calibrating.</p>
+<p>An <a href="/help/mobile-icp-health">ICP result</a> is a useful third opinion, but it doesn't settle the question. Labs differ from each other, and how the sample was handled, stored and shipped all change the result. Treat one ICP as evidence. Two tests that agree are worth far more than one.</p>
 <h2 id="choosing-which-source-a-widget-trusts">Choosing which source a widget trusts</h2>
-<p>If you want a widget to follow one particular source, set that in the widget's settings. See <strong><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></strong>.</p>
+<p>If you want a widget to follow one source, set that in the widget's settings. You'll find how in <a href="/help/mobile-dashboard-editing">Editing your dashboard</a>.</p>
 <h2 id="excluding-a-bad-reading">Excluding a bad reading</h2>
-<p>A probe that spiked, a test misread, a sample taken mid water-change: a single wrong reading distorts the chart, the averages and anything reasoning from them.</p>
+<p>Maybe a probe spiked, you misread a test, or you took the sample in the middle of a water change. One wrong reading throws off the chart, the averages and anything worked out from them.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The raw readings list"><img src="/help/img/mobile-readings.webp" alt="The raw readings list" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Every reading behind the line, with its source and time.</figcaption></figure>
-<p>Open the readings list from the icon in the top bar, then tap a reading to exclude it. The screen says it plainly: <em>excluded from averages and insights, but it stays in your log.</em> Nothing is deleted, and it can be restored.</p>
-<aside class="cal cal-warning"><p class="cal-t">Exclude a wrong reading, not an unwelcome one</p><p>Excluding is for readings you know to be invalid. A reading you dislike but cannot fault is data, and removing it makes every later comparison less honest.</p></aside>
+<p>Open the readings list from the icon in the top bar, then tap a reading to exclude it. The screen tells you what happens: <em>excluded from averages and insights, but it stays in your log.</em> Nothing is deleted, and you can bring it back.</p>
+<aside class="cal cal-warning"><p class="cal-t">Exclude wrong readings, not unwelcome ones</p><p>Only exclude a reading you know is invalid. If you just don't like a reading but can't find anything wrong with it, it's real data. Removing it makes every later comparison less honest.</p></aside>
 <h2 id="recording-probe-care">Recording probe care</h2>
-<p>Logging a calibration or cleaning from here stamps the date against that source, so a later disagreement can be read against when the probe was last seen to. See <a href="/help/mobile-probes">Probes</a>.</p>
+<p>When you log a calibration or cleaning here, Cora puts the date on that source. Later, if the probe disagrees with something, you can see when it was last looked after. More in <a href="/help/mobile-probes">Probes</a>.</p>
 <h2 id="logging-a-reading-by-hand">Logging a reading by hand</h2>
-<p>Enter what your test kit says. Hand-logged readings are first-class: they get their own source and timestamp, they appear on the chart, they feed Reef Buddy, and they are what Cora compares your equipment against.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora checks entries that look implausible</p><p>If a value is far from what the tank has been running, you are asked to confirm it before it is saved. This catches a decimal point in the wrong place or a reading entered against the wrong parameter. Confirm it and the reading is stored normally.</p></aside>
+<p>Enter what your test kit says. Hand-logged readings count as much as any other. They get their own source and time, show on the chart and feed Reef Buddy. They're also what Cora checks your equipment against.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora double-checks odd-looking entries</p><p>If a value is far from where the tank has been, Cora asks you to confirm it before saving. This catches a decimal point in the wrong place, or a reading entered under the wrong parameter. Once you confirm, the reading is saved as usual.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-widgets"><span>Previous</span><b>Widget reference</b></a><a class="pn-n" href="/help/mobile-devices"><span>Next</span><b>Adding, editing and removing devices</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

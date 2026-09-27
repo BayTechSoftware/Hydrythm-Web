@@ -1,94 +1,94 @@
 ---
 title: Automationen und Szenen
-description: Erstelle Regeln, die von selbst laufen (Trigger, Bedingungen, Aktionen), und gruppiere sie zu Szenen.
+description: Leg Regeln an, die von selbst laufen (Auslöser, Bedingungen, Aktionen), und fasse Aktionen zu Szenen zusammen.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 17
 group: Alerts and automation
 ---
 
-Eine Automation ist eine Regel, die Cora für dich ausführt: *wenn das passiert, prüfe das, und tu dann dies.* Szenen gruppieren mehrere Aktionen zu einer Sache, die du ausführen oder planen kannst.
+Eine Automation ist eine Regel, die Cora für dich ausführt: *Wenn das passiert, prüf jenes und tu dann dies.* In einer Szene fasst du mehrere Aktionen zusammen, die du dann auf einmal startest oder nach Zeitplan laufen lässt.
 
 **Einstellungen → Automation.**
 
 ![Die Automations-Liste](img/mobile-automation.webp "Automationen und Szenen sind getrennte Tabs. Jede Regel hat einen Aktivierungsschalter.")
 
-Der Bildschirm hat zwei Tabs (**Automationen** und **Szenen**) und eine Schaltfläche **Neue Automation**. Jede Regel zeigt eine einzeilige Zusammenfassung dessen, was sie tut, einen Aktivierungsschalter, und ein Menü zum Bearbeiten oder Löschen. Eine Regel, die noch nicht gelaufen ist, wird als solche gekennzeichnet.
+Der Bildschirm hat zwei Tabs, **Automationen** und **Szenen**, und die Schaltfläche **Neue Automation**. Zu jeder Regel siehst du in einer Zeile, was sie tut, dazu einen Aktivierungsschalter und ein Menü zum Bearbeiten oder Löschen. Ist eine Regel noch nie gelaufen, steht das dabei.
 
-:::warning Diese wirken auf echte Ausrüstung
-Eine Regel, die eine Pumpe schaltet, schaltet sie, ob du zuschaust oder nicht. Erstelle eine nach der anderen, und prüfe bei jeder, dass sie das tut, was du erwartest, bevor du die nächste hinzufügst.
+:::warning Regeln schalten echte Geräte
+Eine Regel, die eine Pumpe schaltet, schaltet sie auch dann, wenn du nicht hinschaust. Leg eine Regel nach der anderen an. Prüf bei jeder, ob sie tut, was du erwartest, bevor du die nächste hinzufügst.
 :::
 
-## Der Aufbau einer Regel
+## Wie eine Regel aufgebaut ist
 
-Jede Regel besteht aus denselben drei Teilen:
+Jede Regel hat dieselben drei Teile:
 
-**Auslöser**: was sie aufweckt
-**Bedingungen**: was außerdem zutreffen muss
-**Aktionen**: was sie dann tut, in der Reihenfolge
+**Auslöser**: was sie startet
+**Bedingungen**: was zusätzlich zutreffen muss
+**Aktionen**: was sie dann der Reihe nach tut
 
-## Was eine Regel aufwecken kann
+## Was eine Regel startet
 
-Vier Dinge:
+Es gibt vier Auslöser:
 
-| Trigger | Löst aus, wenn |
+| Auslöser | Startet, wenn |
 |---|---|
-| **Wasserwert** | Ein Wasserwert einen von dir festgelegten Wert überschreitet, in einer von dir gewählten Richtung |
-| **Warnung** | Eine Warnung ausgelöst, gelöscht, oder beides wird |
-| **Zeitplan** | Eine Tageszeit, in deiner eigenen Zeitzone |
-| **Gerätestatus** | Ein Gerät offline geht oder zurückkommt |
+| **Wasserwert** | ein Wasserwert einen von dir gewählten Wert in der gewählten Richtung überschreitet |
+| **Warnung** | eine Warnung kommt, verschwindet oder beides |
+| **Zeitplan** | eine bestimmte Uhrzeit erreicht ist, in deiner eigenen Zeitzone |
+| **Gerätestatus** | ein Gerät offline geht oder wieder erreichbar ist |
 
 ## Bedingungen
 
-Bedingungen entscheiden, ob die Aktionen tatsächlich ausgeführt werden. Du hast die üblichen Vergleiche (gleich, ungleich, größer als, kleiner als, und so weiter) und kannst sie mit **und**, **oder** und **nicht** kombinieren.
+Mit Bedingungen entscheidest du, ob die Aktionen wirklich laufen. Du hast die üblichen Vergleiche (gleich, ungleich, größer als, kleiner als und so weiter) und kannst sie mit **und**, **oder** und **nicht** verknüpfen.
 
-Es gibt außerdem eine **Schritt**-Bedingung, die prüft, wie der *vorherige* Schritt ausgegangen ist. Das ist es, was dir erlaubt zu schreiben: "versuche das; wenn es nicht funktioniert hat, tu statt dessen jenes."
+Dazu kommt eine **Schritt**-Bedingung. Sie prüft, wie der *vorige* Schritt ausgegangen ist. Damit kannst du Regeln schreiben wie: "Versuch das. Hat es nicht geklappt, mach stattdessen jenes."
 
 ## Was eine Regel tun kann
 
-Eine Aktion, die Ausrüstung braucht, wird nur auf einem Becken angeboten, das diese Ausrüstung hat:
+Aktionen für bestimmte Geräte bekommst du nur bei einem Becken angeboten, zu dem diese Geräte gehören:
 
 | Aktion | Was sie tut |
 |---|---|
-| **Apex-Gerät steuern** | Eine Steckdose schalten |
-| **Ein Red-Sea-Gerät steuern** | Ein ReefBeat-Gerät ansteuern |
-| **Eine Strömungspumpe steuern** | Strömung, Wellenmodus oder Leistung einer Jecod-Pumpe festlegen, oder **Für Fütterung pausieren**: Das Cora Max am Becken stellt die Pumpe zurück, wenn die Fütterung endet |
-| **Ein Cora-Gerät steuern** | Eine Smart-Steckdose schalten |
-| **IR-Gerät steuern** | Einen Infrarot-Befehl senden |
-| **Apex Fütterungszyklus starten** | Eine Fütterung starten |
-| **Einen Trident Test durchführen** | Einen Test auslösen |
-| **Mich benachrichtigen** | Dir selbst einen Push senden |
-| **Vor dem nächsten Schritt warten** | Vor dem Fortfahren pausieren |
-| **Eine Szene ausführen** | Eine andere Szene innerhalb dieser Regel ausführen |
-| **Eine Automation verwalten** | Eine andere Regel ein- oder ausschalten |
-| **Einen DŌS Kopf dosieren** | Eine bemessene Dosierung an einem DŌS-Kopf ausführen |
+| **Apex-Gerät steuern** | schaltet eine Steckdose |
+| **Ein Red-Sea-Gerät steuern** | steuert ein ReefBeat-Gerät |
+| **Eine Strömungspumpe steuern** | stellt bei einer Jecod-Pumpe Strömung, Wellenmodus oder Leistung ein. Oder du wählst **Für Fütterung pausieren**. Dann stellt das Cora Max am Becken die Pumpe nach der Fütterung zurück |
+| **Ein Cora-Gerät steuern** | schaltet eine Smart-Steckdose |
+| **IR-Gerät steuern** | sendet einen Infrarot-Befehl |
+| **Apex Fütterungszyklus starten** | startet eine Fütterung |
+| **Einen Trident Test durchführen** | startet einen Test |
+| **Mich benachrichtigen** | schickt dir eine Push-Nachricht |
+| **Vor dem nächsten Schritt warten** | legt eine Pause ein, bevor es weitergeht |
+| **Eine Szene ausführen** | startet eine andere Szene aus dieser Regel heraus |
+| **Eine Automation verwalten** | schaltet eine andere Regel ein oder aus |
+| **Einen DŌS Kopf dosieren** | gibt an einem DŌS-Kopf eine abgemessene Dosis ab |
 
-:::warning Dosieren aus einer Regel ist unumkehrbar und begrenzt
-Eine Dosierung kann nicht aus dem Becken zurückgeholt werden. Der Kopf muss **kalibriert** sein, bevor eine Regel aus ihm dosieren darf, und unbeaufsichtigtes Dosieren ist auf **10 mL pro Kopf pro Tag** begrenzt; eine Regel kann das nicht überschreiten, egal wie sie geschrieben ist. Dosier-Aktionen erscheinen erst, sobald deine Köpfe als Dosierköpfe erkannt sind.
+:::warning Dosieren per Regel lässt sich nicht rückgängig machen und ist begrenzt
+Was einmal dosiert ist, bekommst du nicht mehr aus dem Becken. Ein Kopf muss **kalibriert** sein, bevor eine Regel damit dosieren darf. Unbeaufsichtigtes Dosieren ist auf **10 mL pro Kopf und Tag** begrenzt. Keine Regel kann das überschreiten, egal wie sie geschrieben ist. Dosier-Aktionen tauchen erst auf, wenn Cora deine Köpfe als Dosierköpfe erkannt hat.
 :::
 
-:::note Nutze Warten, um Schritte innerhalb einer Regel zu ordnen
-Eine Pause erlaubt einer einzelnen Regel, einen geordneten Ablauf durchzuführen (zum Beispiel eine Steckdose ausschalten, warten, und sie dann wieder einschalten), ohne eine zweite Regel und einen Zeitplan.
+:::note Mit Warten Schritte in einer Regel ordnen
+Mit einer Pause kann eine einzige Regel einen festen Ablauf abarbeiten. Sie schaltet zum Beispiel eine Steckdose aus, wartet und schaltet sie dann wieder ein. Eine zweite Regel mit Zeitplan brauchst du dafür nicht.
 :::
 
 ## Szenen
 
-Eine Szene ist eine benannte Gruppe von Aktionen, die du auf Verlangen, nach einem Zeitplan, oder innerhalb einer anderen Regel ausführen kannst: "Wasserwechsel", "Fotomodus", "Nacht".
+Eine Szene ist eine Gruppe von Aktionen mit einem Namen, etwa "Wasserwechsel", "Fotomodus" oder "Nacht". Du startest sie von Hand, per Zeitplan oder aus einer anderen Regel heraus.
 
-Eine Szene kann eine andere Szene aufrufen. Cora verweigert die Ausführung einer Szene, die tiefer verschachtelt ist als das Tiefenlimit, und verweigert eine Szene, die sich selbst aufrufen würde, um eine Schleife zu verhindern, die unbegrenzt auf das Becken wirken würde.
+Eine Szene darf eine andere Szene aufrufen. Ist eine Szene tiefer verschachtelt als erlaubt, führt Cora sie nicht aus. Das gilt auch für eine Szene, die sich selbst aufrufen würde. So kann keine Endlosschleife entstehen, die immer weiter auf das Becken einwirkt.
 
-Nachdem eine Szene gelaufen ist, wird dir Schritt für Schritt gesagt, was passiert ist, einschließlich allem, was fehlgeschlagen ist.
+Nach jedem Lauf zeigt dir Cora Schritt für Schritt, was passiert ist, auch was nicht geklappt hat.
 
-Eine Szene von Hand auszuführen fragt zuerst nach Bestätigung, da eine Szene mehrere Geräte auf einmal schalten kann.
+Startest du eine Szene von Hand, fragt Cora vorher nach. Eine Szene kann ja mehrere Geräte auf einmal schalten.
 
-## Auf Cora Max erstellte Szenen
+## Szenen vom Cora Max
 
-Szenen können auch direkt auf einem Cora Max-Tablet erstellt und bearbeitet werden, nicht nur auf dem Handy: Es ist in beiden Fällen dieselbe Menge an Szenen, kontoübergreifend geteilt. Wenn ein Haushalt ein älteres Cora Max hat, kann es trotzdem eine auf dem Handy erstellte Szene ausführen; nur das Bearbeiten direkt auf dem Gerät ist eine neuere Funktion, daher zeigt ein älteres Tablet vielleicht eine Szene, ohne dir dort eine Änderung zu erlauben. Bearbeite sie statt dessen vom Handy aus.
+Du kannst Szenen auch direkt auf einem Cora Max anlegen und bearbeiten. Es sind dieselben Szenen wie auf dem Handy, sie gelten für das ganze Konto. Ein älteres Cora Max im Haushalt kann eine auf dem Handy erstellte Szene trotzdem ausführen. Nur das Bearbeiten direkt am Gerät ist neuer. Ein älteres Cora Max zeigt dir die Szene also vielleicht an, lässt dich dort aber nichts ändern. Bearbeite sie dann am Handy.
 
 ## Eine Regel ausschalten
 
-Jede Regel hat einen Aktivierungsschalter. Eine auszuschalten behält ihre Definition, nützlich, wenn du eine Regel zur nächsten Saison zurückwillst, statt sie neu aufzubauen.
+Jede Regel hat einen Aktivierungsschalter. Schaltest du eine Regel aus, bleibt sie gespeichert. Das ist praktisch, wenn du sie nächste Saison wieder brauchst und nicht neu bauen willst.
 
-## Sehen, was eine Regel getan hat
+## Nachsehen, was eine Regel getan hat
 
-Jede Aktion, die eine Regel ausführt, wird mit der Regel als ihrer Ursache erfasst. Siehe **[Aktivität](/help/mobile-activity)**.
+Jede Aktion einer Regel wird protokolliert, mit der Regel als Auslöser. Du findest sie unter **[Aktivität](/help/mobile-activity)**.

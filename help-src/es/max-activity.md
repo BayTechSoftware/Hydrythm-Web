@@ -1,41 +1,41 @@
 ---
 title: Actividad en Cora Max
-description: Cada orden que este sistema llevó a cabo, rechazó o no pudo confirmar, legible en la pared.
+description: Todas las órdenes que tu sistema ejecutó, rechazó o no pudo confirmar, a la vista en la pantalla de pared.
 section: Cora Max
 reviewed: 2026-09-09
 order: 10
 group: Alerts
 ---
 
-Cora Max muestra el mismo registro de actividad que el teléfono: cada **solicitud de actuación** (cada intento de cambiar algo) y qué pasó con ella. Una solicitud rechazada o sin confirmar puede no haber llegado nunca al equipo, y por eso precisamente se registra.
+Cora Max muestra el mismo registro de actividad que el teléfono. Ahí aparece cada **solicitud de actuación** (cada intento de cambiar algo) y lo que pasó con ella. Una solicitud rechazada o sin confirmar puede que nunca llegara al equipo, y por eso queda registrada.
 
 Ábrelo desde el **menú del acuario** (toca el nombre del acuario en la barra superior) o desde **Ajustes → Ajustes del acuario → [tu acuario] → Actividad**.
 
-![El registro de actividad en Cora Max](img/max-activity.webp "La leyenda permanece en la parte superior de la pantalla, así que un resultado nunca hay que recordarlo.")
+![El registro de actividad en Cora Max](img/max-activity.webp "La leyenda se queda arriba en la pantalla, así no tienes que recordar qué significa cada resultado.")
 
-## Qué te dice cada entrada
+## Qué indica cada entrada
 
-Cada fila nombra la acción, el equipo y la hora, y luego dos cosas que importan más que cualquiera de esas.
+Cada fila dice la acción, el equipo y la hora. Además muestra dos datos que suelen importar más.
 
-**Qué lo pidió**: tú desde esta pantalla, tú desde tu teléfono, la voz, el Assistant, una regla de [automatización](/help/mobile-automation), un botón inteligente o tu cuenta. Una entrada hecha en la pared lo indica con esas mismas palabras.
+**Quién lo pidió**: tú desde esta pantalla, tú desde el teléfono, la voz, Cora Assistant, una regla de [automatización](/help/mobile-automation), un botón inteligente o tu cuenta. Si la orden salió de la pantalla de pared, la entrada lo dice tal cual.
 
-**Cómo viajó**: si la orden pasó por tu propia red o a través de tu cuenta, y qué Cora la llevó a cabo. En un sistema con más de un Cora, así distingues cuál actuó.
+**Por dónde fue**: si la orden pasó por tu propia red o a través de tu cuenta, y qué Cora la ejecutó. Si tienes más de un Cora, así sabes cuál actuó.
 
 ## Los cuatro resultados
 
 | Resultado | Significa |
 |---|---|
-| **Confirmado** | El equipo informó de que lo hizo |
-| **Sin confirmar** | Enviado, pero no llegó ninguna respuesta. Esto significa *no lo sabemos*, no *funcionó* |
-| **Rechazado** | No se ejecutó. Una regla de seguridad, un bloqueo o el propio equipo lo rechazó |
-| **Sin cambios** | Ya estaba en el estado que pediste |
+| **Confirmado** | El equipo respondió que lo hizo |
+| **Sin confirmar** | Se envió, pero no llegó respuesta. Quiere decir *no lo sabemos*, no que *funcionó* |
+| **Rechazado** | No se ejecutó. Lo bloqueó una regla de seguridad, un bloqueo o el propio equipo |
+| **Sin cambios** | Ya estaba como lo pediste |
 
-## Por qué el resultado importa en la pared
+## Por qué importa el resultado
 
-Una orden que se envió pero nunca se confirmó parece idéntica, en el momento en que tocas, a una que funcionó. Esta pantalla es donde esa diferencia se hace visible.
+Cuando tocas, una orden que se envió pero nunca se confirmó se ve igual que una que funcionó. Aquí es donde ves la diferencia.
 
-Si algo que pediste no parece haber ocurrido, mira aquí antes de asumir que el equipo ha fallado. La respuesta suele ser que la solicitud fue rechazada, o que nunca llegó ninguna confirmación.
+Si algo que pediste no parece haber pasado, mira aquí antes de pensar que el equipo ha fallado. Lo normal es que la solicitud se rechazara o que nunca llegara la confirmación.
 
-## Leerlo junto con el diario
+## Con el diario al lado
 
-Actividad guarda lo que hizo el sistema. El [diario](/help/mobile-journal) guarda lo que hiciste tú a mano. Juntos explican la mayoría de las sorpresas.
+Actividad guarda lo que hizo el sistema. El [diario](/help/mobile-journal) guarda lo que hiciste tú a mano. Entre los dos se explican la mayoría de las sorpresas.

@@ -1,64 +1,64 @@
 ---
 title: Prese e controlli
-description: Commutare le prese da Cora Max, usare la modalità alimentazione, e cosa significa davvero Auto.
+description: Accendere e spegnere le prese da Cora Max, usare la modalità alimentazione e cosa vuol dire davvero AUTO.
 section: Cora Max
 reviewed: 2026-09-09
 order: 5
 group: Equipment
 ---
 
-Cora Max può commutare l'equipaggiamento sul tuo sistema: dai widget di controllo sulla dashboard, dal cassetto Prese e Alimentazione, o a voce.
+Da Cora Max puoi comandare l'attrezzatura del tuo sistema: dai widget di controllo sulla dashboard, dal cassetto Prese e alimentazione oppure a voce.
 
 :::warning Questi controlli agiscono sulla tua vasca
-Non c'è annullamento. Le prese contrassegnate con un lucchetto ti chiedono prima di confermare; il resto si applica non appena tocchi. Un comando può tornare **Confermato**, **Non confermato** (inviato, nulla riportato), **Rifiutato** o **Nessun cambiamento**; vedi [Controllare il tuo equipaggiamento](/help/mobile-device-control).
+Non si può annullare. Le prese con il lucchetto ti chiedono prima una conferma. Le altre cambiano appena tocchi. Un comando può tornare **Confermato**, **Non confermato** (inviato, ma senza risposta), **Rifiutato** o **Nessun cambiamento**. Trovi di più in [Controllare la tua attrezzatura](/help/mobile-device-control).
 :::
 
 ## I tre stati
 
-Ogni presa è in uno dei tre stati.
+Ogni presa è sempre in uno di questi tre stati.
 
-**Auto** restituisce la presa alla programmazione del suo Apex. Qui è dove una presa dovrebbe stare la maggior parte del tempo.
+**AUTO** rimette la presa sulla programmazione del suo Apex. Di solito una presa dovrebbe stare qui.
 
-**Disattivata** e **On** sono sovrascritture manuali. Hanno effetto immediato e **restano finché non le cambi di nuovo**. Non scadono, e nulla le ripristina per te.
+**OFF** e **ON** sono comandi manuali. Valgono subito e **restano finché non li cambi tu**. Non scadono e niente li riporta indietro al posto tuo.
 
-:::warning Una sovrascrittura manuale non scade
-Riportala su **Auto** quando hai finito; nulla lo fa per te. Può ancora essere cambiata più avanti da te, a voce, o da un'automazione; una sovrascrittura non è un blocco.
+:::warning Un comando manuale non scade
+Quando hai finito, rimetti la presa su **AUTO**. Nessuno lo fa per te. Tu, la voce o un'automazione potete comunque cambiarla in seguito, perché un comando manuale non è un blocco.
 :::
 
-## Commutare dalla dashboard
+## Dalla dashboard
 
-I widget di controllo mostrano i tre stati con quello attuale evidenziato. Tocca lo stato che vuoi.
+I widget di controllo mostrano i tre stati, con quello attuale evidenziato. Tocca lo stato che vuoi.
 
-Alcune prese portano un **lucchetto**. Non deve essere disattivato da nessuna parte; significa che la presa chiede di confermare prima di cambiare, così un tocco accidentale non può commutare qualcosa di critico. Vedi sotto.
+Alcune prese hanno un **lucchetto**. Non c'è niente da disattivare. Vuol dire solo che la presa chiede una conferma prima di cambiare, così un tocco per sbaglio non spegne qualcosa di importante. Più sotto trovi i dettagli.
 
 ## Il cassetto Controlli
 
-Tira su la scheda in fondo alla dashboard per aprire **Controlli**: ogni presa del sistema in un solo posto, che abbia o no un widget, più i cicli di alimentazione.
+Trascina verso l'alto la linguetta in fondo alla dashboard per aprire **Controlli**. Qui ci sono tutte le prese del sistema, con o senza widget, e i cicli di alimentazione.
 
-![Il cassetto Controlli](img/max-controls.webp "Cicli di alimentazione in alto, poi ogni presa.")
+![Il cassetto Controlli](img/max-controls.webp "In alto i cicli di alimentazione, sotto tutte le prese.")
 
-Una presa che porta un **lucchetto** richiede una conferma esplicita prima di cambiare. Toccarla apre una finestra che nomina la presa, il suo stato attuale, e la sovrascrittura che stai per applicare. È un passaggio di conferma, non un blocco da disattivare altrove.
+Una presa con il **lucchetto** chiede una conferma esplicita prima di cambiare. Quando la tocchi si apre una finestra con il nome della presa, il suo stato attuale e lo stato che stai per impostare. È solo una conferma, non un blocco da togliere da qualche altra parte.
 
 ## Modalità alimentazione
 
-La modalità alimentazione è il modo sicuro per sospendere il flusso per l'alimentazione. Sospende l'equipaggiamento che dovrebbe essere sospeso, lascia stare quello che non dovrebbe, e **ripristina tutto da sola** quando il tempo è finito.
+La modalità alimentazione ferma il movimento dell'acqua mentre dai da mangiare, in sicurezza. Mette in pausa l'attrezzatura che va fermata, lascia andare il resto e **rimette tutto a posto da sola** quando il tempo è finito.
 
-Usala di preferenza allo spegnere le pompe a mano, perché ripristina il sistema senza dipendere dal fatto che tu te ne ricordi.
+Usala al posto di spegnere le pompe a mano. Il sistema torna com'era anche se te ne dimentichi.
 
-I cicli di alimentazione sono contrassegnati con le lettere **A**, **B**, **C** e **D**: i cicli che il tuo controller definisce, ognuno sospendendo un insieme diverso di equipaggiamento. Scegli quello che corrisponde a ciò che stai facendo. **Annulla** termina un ciclo in corso in anticipo e ripristina tutto immediatamente.
+I cicli di alimentazione si chiamano **A**, **B**, **C** e **D**. Sono quelli definiti nel tuo controller e ognuno ferma un gruppo diverso di attrezzatura. Scegli quello adatto a quello che stai facendo. **Annulla** chiude prima del tempo un ciclo in corso e rimette subito tutto a posto.
 
-Avviane uno dal cassetto Controlli, oppure dì *"avvia modalità alimentazione"*.
+Avvia un ciclo dal cassetto Controlli oppure di' *"avvia modalità alimentazione"*.
 
 ## A voce
 
-Puoi commutare le prese a voce: *"spegni lo skimmer"*, *"rimetti la ventola in auto"*.
+Puoi comandare le prese anche a voce: *"spegni lo schiumatoio"*, *"rimetti la ventola in automatico"*.
 
-Qualsiasi cosa che raggiunge il tuo equipaggiamento viene **confermata prima che accada**: Cora ti dice cosa sta per fare e aspetta che tu sia d'accordo. Non agirà su un'istruzione di cui non è sicura.
+Prima di toccare la tua attrezzatura, Cora **ti chiede sempre conferma**: ti dice cosa sta per fare e aspetta il tuo sì. Se non è sicura di aver capito, non fa niente.
 
-Vedi **[Parlare con Cora](/help/max-voice)**.
+Trovi di più in [Parlare con Cora](/help/max-voice).
 
 ## Vedere cosa è successo
 
-Ogni richiesta viene registrata, insieme a cosa l'ha richiesta (questa app, uno schermo Cora, la voce, l'Assistant, una regola di automazione, un pulsante smart o il tuo account) e come è arrivata. Sul tuo telefono è **Impostazioni → Attività**.
+Ogni richiesta viene registrata, insieme a chi l'ha fatta (Cora Mobile, uno schermo Cora, la voce, l'Assistant, una regola di automazione, un pulsante smart o il tuo account) e alla strada che ha fatto. Sul telefono la trovi in **Impostazioni → Attività**.
 
-Questo è il primo posto da controllare quando qualcosa è cambiato e non sai perché.
+Quando qualcosa è cambiato e non sai perché, guarda prima qui.

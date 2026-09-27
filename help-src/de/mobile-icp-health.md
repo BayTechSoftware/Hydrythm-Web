@@ -1,78 +1,78 @@
 ---
 title: ICP und Zustandsberichte
-description: Lade einen ICP-Test hoch, verfolge jedes Element über die Zeit, und führe eine vollständige Zustandsbewertung deines Systems durch.
+description: Lade einen ICP-Test hoch, verfolge jedes Element über die Zeit und lass dein ganzes System gründlich bewerten.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 26
 group: Intelligence
 ---
 
-Der Tab **Intelligence** ist deine Laborarbeit und dein Blick auf das große Ganze.
+Im Tab **Intelligenz** liegen deine Laborergebnisse und der Blick auf die lange Entwicklung deines Beckens.
 
 ![Der Tab Intelligence](img/mobile-intelligence.webp "ICP hochladen, einen Zustandsbericht ausführen, und sehen, was sich seit dem letzten verändert hat.")
 
 ## Einen ICP-Test hochladen
 
-Tippe auf **ICP hochladen**, wähle dein Becken, und füge das Ergebnis von deinem Labor hinzu. Cora liest den Bericht, erfasst jedes Element und reiht es gegen deine vorherigen Tests ein.
+Tippe auf **ICP hochladen**, wähl dein Becken und füg das Ergebnis deines Labors hinzu. Cora liest den Bericht, speichert jedes Element und stellt es neben deine früheren Tests.
 
-Du musst nichts selbst eintippen. Cora verarbeitet die gängigen Laborformate.
+Abtippen musst du nichts. Cora kommt mit den gängigen Laborformaten zurecht.
 
-## An Cora senden: Ergebnisse, die ein Labor oder eine E-Mail für dich liefert
+## An Cora senden: Ergebnisse direkt vom Labor oder per E-Mail
 
-Manche Labore können ein Ergebnis direkt an Cora senden, und ein per E-Mail zugestelltes ICP-Ergebnis kann auf demselben Weg weitergeleitet werden, ohne dass du selbst etwas hochlädst.
+Manche Labore können ein Ergebnis direkt an Cora schicken. Ein ICP-Ergebnis, das per E-Mail kommt, lässt sich auf dieselbe Weise weiterleiten. Hochladen musst du dann nichts.
 
-Wenn eines eintrifft, erscheint ein Banner: *"Laborergebnis von {lab} wartet."* Tippe auf **Becken wählen** und wähle, zu welchem deiner Becken es gehört; Cora kann das nicht von selbst erraten. Sobald du gewählt hast, fügt Cora es diesem Becken genauso hinzu wie einen selbst hochgeladenen Bericht.
+Kommt ein Ergebnis an, erscheint ein Banner: *"Laborergebnis von {lab} wartet auf dich."* Tippe auf **Becken wählen** und wähl das Becken aus, zu dem es gehört. Das kann Cora nicht selbst erraten. Danach legt Cora das Ergebnis bei diesem Becken ab, genau wie einen hochgeladenen Bericht.
 
-Der Bericht selbst zeigt **Gesendet von {lab}** nahe seiner Kopfzeile, sodass du ihn von einem selbst hochgeladenen unterscheiden kannst.
+Oben im Bericht steht dann **Gesendet von {lab}**. So erkennst du, dass du ihn nicht selbst hochgeladen hast.
 
-:::note Das erste Mal
-Wenn zum ersten Mal ein Ergebnis auf diesem Weg eintrifft, zeigt Cora einen kurzen Hinweis, der erklärt, was passiert, damit es nicht wie ein Fehler aussieht.
+:::note Beim ersten Mal
+Kommt zum ersten Mal ein Ergebnis auf diesem Weg an, zeigt Cora einen kurzen Hinweis dazu. So hältst du es nicht für einen Fehler.
 :::
 
-Wenn es nicht funktioniert: siehe [Problembehebung](/help/troubleshooting).
+Klappt es nicht, schau in die [Problembehebung](/help/troubleshooting).
 
 ![Ein ICP-Bericht](img/mobile-icp-report.webp "Jeder Bericht trägt eine Bewertung und eine für dein Becken geschriebene Zusammenfassung.")
 
 ## Was du zurückbekommst
 
-**Eine Bewertung** von 100, und eine Zusammenfassung in einfacher Sprache, was das speziell für dein System bedeutet: deinen Beckentyp, dein Alter, deinen Besatz.
+Du bekommst **eine Bewertung** von 0 bis 100 und eine verständliche Zusammenfassung, was das Ergebnis für genau dein System bedeutet, also für deinen Beckentyp, sein Alter und deinen Besatz.
 
-Die Bewertung wird aus deinen Ergebnissen gegen deren Zielbereiche berechnet, einschließlich aller Bereiche, die du selbst festgelegt hast. Jedes Ergebnis außerhalb seines Bereichs hält die Bewertung bei 70 oder darunter, und eines weit außerhalb hält sie bei 40 oder darunter, egal wie gut der Rest ist. Die Beschriftung unter der Bewertung liest **Gesund** über 70, **Braucht Aufmerksamkeit** von 40 bis 70, und **Kritisch** unter 40. Zustandsberichte werden auf dieselbe Weise bewertet.
+Die Bewertung ergibt sich aus deinen Ergebnissen im Vergleich zu ihren Zielbereichen, auch zu Bereichen, die du selbst festgelegt hast. Liegt ein Ergebnis außerhalb seines Bereichs, bleibt die Bewertung bei höchstens 70. Liegt eines weit außerhalb, bleibt sie bei höchstens 40, egal wie gut der Rest ist. Unter der Bewertung steht über 70 **Gesund**, von 40 bis 70 **Braucht Aufmerksamkeit** und unter 40 **Kritisch**. Zustandsberichte werden genauso bewertet.
 
-**Jedes verfolgte Element**: nicht nur die Hauptwasserwerte, sondern auch Spurenelemente und Schadstoffe.
+Cora verfolgt **jedes Element**, von den wichtigsten Wasserwerten bis zu Spurenelementen und Schadstoffen.
 
-**Größte Veränderungen**: Die Karte "Seit deinem letzten ICP" zeigt, was sich seit dem letzten Mal am meisten verändert hat, meist der schnellste Weg, einen neuen Bericht zu verstehen.
+Die Karte "Seit deinem letzten ICP" zeigt dir die **größten Veränderungen** seit dem letzten Test. Damit verstehst du einen neuen Bericht meist am schnellsten.
 
-**Trends**: Tippe auf **Trends**, um ein beliebiges Element über alle deine hochgeladenen Tests zu sehen. Hier hört ICP auf, eine Momentaufnahme zu sein, und wird nützlich.
+Unter **Trends** siehst du jedes Element über alle deine hochgeladenen Tests hinweg. Ab hier ist ICP mehr als eine Momentaufnahme und wird richtig nützlich.
 
-:::tip Bei zwei Tests wird es interessant
-Ein einzelner ICP-Test sagt dir, wo du stehst. Der zweite sagt dir, in welche Richtung du dich bewegst, und das ist die handlungsrelevantere Tatsache. Teste in einem Rhythmus, statt nur, wenn etwas nicht stimmt.
+:::tip Ab dem zweiten Test wird es spannend
+Ein einzelner ICP zeigt dir, wo du stehst. Der zweite zeigt dir, in welche Richtung es geht, und damit kannst du mehr anfangen. Teste regelmäßig, nicht erst, wenn etwas nicht stimmt.
 :::
 
 ## Zustandsberichte
 
-Ein **Zustandsbericht** ist eine tiefere, regelmäßige Bewertung des gesamten Systems: jeder Wasserwert, jede Quelle, deine Dosierung, deine Historie und deine aktuellen ICP-Ergebnisse, gemeinsam betrachtet.
+Ein **Zustandsbericht** ist eine gründlichere Bewertung deines ganzen Systems in regelmäßigen Abständen. Cora betrachtet dafür jeden Wasserwert, jede Quelle, deine Dosierung, deine Historie und deine letzten ICP-Ergebnisse zusammen.
 
-Tippe auf **Zustandsbericht** und wähle ein Becken. Die Erstellung dauert einen Moment.
+Tippe auf **Zustandsbericht** und wähl ein Becken. Die Erstellung dauert einen Moment.
 
-Nutze ihn, wenn du eine durchdachte Einschätzung willst statt der heutigen Schlagzeile: vor einer großen Änderung, nach einem Problem, oder alle paar Wochen als Check-in.
+Nimm ihn, wenn du eine überlegte Einschätzung willst, mehr als die Schlagzeile des Tages: vor einer großen Änderung, nach einem Problem oder alle paar Wochen zur Kontrolle.
 
-## ICP gegen deine Sonden
+## ICP und deine Sonden
 
-Cora vergleicht deine Laborergebnisse mit dem, was deine Ausrüstung meldet. Wenn deine Alkalinitäts-Sonde 8,4 sagt und dein ICP 7,6 sagt, ist das eine Tatsache, die es wert ist, gewusst zu werden, und Cora zeigt sie auf, statt still eine zu bevorzugen.
+Cora vergleicht deine Laborergebnisse mit dem, was deine Geräte melden. Zeigt deine Alkalinitäts-Sonde 8,4 und dein ICP 7,6, solltest du das wissen. Cora zeigt dir den Unterschied und entscheidet sich nicht still für einen der beiden Werte.
 
-Das ist eines der nützlichsten Dinge, die ein ICP innerhalb von Cora leistet. Es ist eine **dritte Meinung, kein Schiedsrichter**: Laboratorien unterscheiden sich voneinander, und die Handhabung, Lagerung und der Transport einer Probe verändern alle das Ergebnis. Behandle einen einzelnen ICP als Hinweis (zwei übereinstimmende Tests sind weit mehr wert als einer), und lies eine anhaltende Abweichung als einen Grund, die Sonde zu prüfen, nicht als Beweis, dass die Sonde falsch liegt.
+Das ist einer der größten Vorteile eines ICP in Cora. Es ist eine **dritte Meinung, kein Schiedsrichter**. Labore messen unterschiedlich, und Handhabung, Lagerung und Versand einer Probe verändern das Ergebnis. Nimm einen einzelnen ICP als Hinweis. Zwei Tests, die übereinstimmen, sind viel mehr wert als einer. Bleibt ein Unterschied bestehen, ist das ein Grund, die Sonde zu prüfen, aber noch kein Beweis, dass sie falsch misst.
 
-:::tip Labore oder Testmethoden wechseln
-Ein Laborwechsel, oder das Wechseln zwischen den ICP-OES- und ICP-MS-Tests eines Labors, kann deine Ergebnisse verändern, ohne dass sich an deinem Becken etwas ändert, und Cora weist beim Vergleich darauf hin. ICP-OES kann sehr niedriges Chrom, Zinn, Nickel, Kupfer, Kobalt oder Selen nicht messen, daher bedeutet ein **Unter der Nachweisgrenze**-Ergebnis für diese bei einem ICP-OES-Test nicht, dass dein Becken keine davon hat.
+:::tip Labor oder Testverfahren wechseln
+Wechselst du das Labor oder zwischen dem ICP-OES- und dem ICP-MS-Test eines Labors, können sich deine Ergebnisse verschieben, obwohl sich am Becken nichts geändert hat. Cora weist beim Vergleich darauf hin. ICP-OES kann sehr niedrige Werte von Chrom, Zinn, Nickel, Kupfer, Kobalt und Selen nicht messen. Steht bei einem ICP-OES-Test für diese Elemente **Unter der Nachweisgrenze**, heißt das also nicht, dass sie in deinem Becken fehlen.
 :::
 
 ## Dein Kontingent
 
-Beide werden von deinem Plan begrenzt. Die Zeile unter den Schaltflächen zeigt, was du diesen Monat verwendet hast.
+Wie viele ICP-Analysen und Zustandsberichte du bekommst, hängt von deinem Plan ab. Die Zeile unter den Schaltflächen zeigt, wie viel du diesen Monat verbraucht hast.
 
-Getrennt von deinem Plan akzeptiert Cora bis zu 10 ICP-Uploads pro Tag. Ein aus diesem Grund abgelehnter Upload verbraucht keine der ICP-Analysen deines Plans, aber Cora Mobile zeigt nur einen allgemeinen Upload-Fehler, daher versuch es morgen erneut, falls Uploads nach vielen an einem Tag fehlzuschlagen beginnen.
+Unabhängig vom Plan nimmt Cora bis zu 10 ICP-Uploads pro Tag an. Ein Upload, der deshalb abgelehnt wird, verbraucht keine ICP-Analyse aus deinem Plan. Cora Mobile zeigt dann aber nur einen allgemeinen Upload-Fehler. Schlagen Uploads also nach vielen Versuchen an einem Tag fehl, probier es am nächsten Tag noch einmal.
 
-## Wo Berichte leben
+## Wo die Berichte liegen
 
-Der Intelligence-Bildschirm hält die beiden Arten getrennt: Laborergebnisse unter **ICP-Berichte**, und erstellte Bewertungen unter **Zustandsberichte**. Jede Liste ist neueste zuerst mit ihrer Bewertung; tippe auf einen, um ihn vollständig erneut zu öffnen.
+Auf dem Intelligenz-Bildschirm sind die beiden Arten getrennt: Laborergebnisse unter **ICP-Berichte**, erstellte Bewertungen unter **Gesundheitsberichte**. Beide Listen zeigen die neuesten Berichte zuerst, jeweils mit Bewertung. Tippe auf einen Bericht, um ihn wieder ganz zu öffnen.

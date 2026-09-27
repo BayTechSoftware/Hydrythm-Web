@@ -1,6 +1,6 @@
 ---
 title: Aggiornamenti e ripristino
-description: Come si aggiorna da solo Cora Max, e cosa succede se un aggiornamento va male.
+description: Come si aggiorna Cora Max e cosa succede se un aggiornamento va storto.
 section: Cora Max
 reviewed: 2026-09-09
 order: 14
@@ -9,50 +9,50 @@ group: Settings
 
 ## Aggiornamenti automatici
 
-Cora Max si mantiene aggiornato da solo. Le nuove versioni si scaricano in background e si installano da sole; ti viene detto cosa è cambiato.
+Cora Max si aggiorna da solo. Le nuove versioni si scaricano in background e si installano da sole, e poi ti dice cosa è cambiato.
 
-Non è richiesto nulla da parte tua per restare aggiornato.
+Per restare aggiornato non devi fare niente.
 
-## Controllare la versione
+## Vedere la versione
 
-![Impostazioni del dispositivo](img/max-updates.webp "Aggiornamento firmware e salute del dispositivo, in alto nelle impostazioni del dispositivo.")
+![Impostazioni del dispositivo](img/max-updates.webp "Aggiornamento firmware, nella sezione Rete e aggiornamenti delle Impostazioni Cora Max.")
 
-**Impostazioni → Cora Max → Firmware → Aggiornamento firmware** riguarda il controllo, l'installazione, il canale di aggiornamento e la sua pianificazione. **Salute dispositivo e controlli** sta proprio accanto, nello stesso gruppo **Firmware**, ed è dove vive la diagnostica propria dell'unità: polling principale, collegamenti dei dispositivi e dispositivo di risposta inclusi.
+In **Impostazioni → Impostazioni Cora Max → Aggiornamento firmware** (nella sezione **Rete e aggiornamenti**) controlli e installi gli aggiornamenti, e scegli il canale e quando aggiornare. Più in basso nella stessa schermata, la sezione **Stato** mostra per ogni vasca lo stato del polling, l'ultimo polling e l'ultima scrittura sul cloud.
 
-## Quando è disponibile un aggiornamento
+## Quando c'è un aggiornamento
 
-Appare un avviso che descrive cosa c'è di nuovo, con due scelte:
+Compare un messaggio con le novità e due scelte:
 
-- **Aggiorna ora**: installa immediatamente e riavvia
-- **Rinvia 3 ore**: chiede di nuovo più avanti
+- **Aggiorna ora**: installa subito e riavvia
+- **Rinvia 3 ore**: te lo richiede più tardi
 
-Lasciato in pace, un aggiornamento si installa da solo durante la notte, tra circa le 3 e le 5 del mattino, così lo schermo non si riavvia mentre lo stai guardando.
+Se non fai niente, l'aggiornamento si installa da solo di notte, più o meno tra le 3 e le 5. Così lo schermo non si riavvia mentre lo stai guardando.
 
-:::note Le letture non vengono perse durante un aggiornamento
-I dati vivono nel tuo account, non sullo schermo. Un'unità che si riavvia torna con le stesse vasche, dashboard e storico.
+:::note Durante un aggiornamento non perdi letture
+I dati sono nel tuo account, non sullo schermo. Dopo il riavvio Cora Max torna con le stesse vasche, le stesse dashboard e lo stesso storico.
 :::
 
 ## Ripristino
 
-Il ripristino è una modalità di manutenzione per quando un'unità non si avvia normalmente, oppure quando devi riparare la sua configurazione senza un computer.
+Il ripristino è una modalità di manutenzione. Serve quando Cora Max non si avvia normalmente, o quando devi sistemare la sua configurazione senza un computer.
 
-**Per entrarci:** tieni **cinque dita** in alto a destra dello schermo per circa **dieci secondi**, poi inserisci il **PIN di ripristino** dell'unità.
+Per entrare, tieni **cinque dita** nell'angolo in alto a destra dello schermo per circa **dieci secondi**, poi inserisci il **PIN di ripristino** di quel Cora Max.
 
-Quel PIN di sei cifre è stato mostrato quando l'unità è stata associata, ed è anche nelle impostazioni di quel dispositivo in Cora Mobile. Non viene mostrato su Cora Max stesso, che è il punto: il ripristino non può essere raggiunto da un ospite, o da un bambino che si appoggia allo schermo.
+Il PIN di sei cifre ti è stato mostrato durante l'associazione, e lo trovi anche nelle impostazioni di quel dispositivo in Cora Mobile. Su Cora Max non compare mai. Così un ospite, o un bambino che si appoggia allo schermo, non può entrare nel ripristino.
 
 Dal ripristino puoi:
 
-- Riparare la connessione **Wi-Fi**
-- **Ri-accoppiare** l'unità al tuo account
-- Forzare un **aggiornamento firmware**
-- Eseguire un **ripristino di fabbrica** dell'unità
+- Sistemare la connessione **Wi-Fi**
+- **Associare di nuovo** Cora Max al tuo account
+- Forzare un **aggiornamento del firmware**
+- Fare un **ripristino di fabbrica**
 
-Un'unità che non riesce ad avviarsi diverse volte di seguito può anche tornare da sola alla versione precedente.
+Se Cora Max non riesce ad avviarsi più volte di fila, può anche tornare da solo alla versione precedente.
 
-:::warning Uno schermo in ripristino non controlla nulla
-Il tuo controller continua a eseguire la propria programmazione. Ma un'[automazione](/help/mobile-automation) la cui azione deve essere eseguita **da questo Cora Max** non può funzionare mentre è in ripristino; la regola scatta e il passo non raggiunge l'hardware.
+:::warning Uno schermo in ripristino non comanda niente
+Il tuo controller continua con la sua programmazione. Però un'[automazione](/help/mobile-automation) la cui azione deve partire **da questo Cora Max** non funziona finché lo schermo è in ripristino. La regola scatta, ma il comando non arriva all'attrezzatura.
 :::
 
-## Se un'unità non si riavvia
+## Se Cora Max non si riavvia
 
-Scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con la versione mostrata sullo schermo e cosa dice. Non ri-accoppiare l'unità prima; lo stato dell'associazione è spesso utile per capire cosa è successo.
+Scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indicando la versione che vedi sullo schermo e il messaggio che compare. Non associarlo di nuovo prima di scriverci. Lo stato dell'associazione spesso aiuta a capire cosa è successo.

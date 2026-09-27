@@ -1,78 +1,78 @@
 ---
 title: Configurare Cora Max
-description: Primo avvio, connessione al Wi-Fi, associazione con il tuo account, e come portare le tue vasche sullo schermo grande.
+description: Prima accensione, collegamento al Wi-Fi, associazione al tuo account e come portare le tue vasche sullo schermo grande.
 section: Cora Max
 reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
 
-Cora Max è il centro di comando per la stanza della vasca: uno schermo a parete che mostra il tuo sistema in tempo reale, leggibile da tutta la stanza, e che risponde anche alla voce.
+Cora Max è il centro di comando della stanza della vasca. È uno schermo a parete che mostra il tuo sistema in tempo reale, si legge da tutta la stanza e risponde anche alla voce.
 
-:::tip Configura prima le tue vasche sul telefono
-Cora Max mostra le vasche e i dispositivi del tuo account, quindi se li configuri prima in Cora Mobile l'unità li recepisce nel momento in cui la associ ed eviti di digitare su una parete.
+:::tip Prima configura le vasche sul telefono
+Cora Max mostra le vasche e i dispositivi del tuo account. Se li configuri prima in Cora Mobile, Cora Max li trova appena lo associ e non devi scrivere niente sullo schermo a parete.
 
-**I layout di dashboard sono l'eccezione**; non vengono eredati. Ogni schermo mantiene il proprio, quindi disponi questo dopo l'associazione. Vedi [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
+**I layout della dashboard fanno eccezione** e non vengono copiati. Ogni schermo ha il suo, quindi questo lo sistemi dopo l'associazione. Trovi come fare in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
 :::
 
 ## Cosa ti serve
 
-- Cora Max, alimentato
+- Cora Max, acceso
 - Il nome e la password della tua rete Wi-Fi
-- L'account che usi per Cora Mobile
+- L'account che usi in Cora Mobile
 
-## La configurazione è guidata dal tuo telefono
+## La configurazione si fa dal telefono
 
-Accendi l'unità. Mostra una schermata di associazione e **si annuncia**; non ti chiede di digitare nulla.
+Accendi Cora Max. Compare una schermata di associazione e lo schermo **si rende visibile** al telefono. Non devi scrivere niente.
 
-![La schermata di associazione di Cora Max](img/max-pairing-screen.webp "Lo schermo indica il proprio nome così puoi scegliere quello giusto dal tuo telefono.")
+![La schermata di associazione di Cora Max](img/max-pairing-screen.webp "Lo schermo mostra il suo nome, così dal telefono scegli quello giusto.")
 
-Lo schermo mostra il nome con cui è individuabile, che termina con un breve identificatore. Se stai associando più di un'unità, quell'identificatore è come le distingui nell'elenco sul tuo telefono.
+Sullo schermo vedi il nome con cui il telefono lo trova, che finisce con un breve codice. Se associ più di un Cora Max, è quel codice che ti fa distinguere l'uno dall'altro nell'elenco sul telefono.
 
-Tutto il resto avviene in Cora Mobile, come cinque passaggi nominati che puoi vedere in alto nel modulo: **Connetti · WiFi · Autenticazione · Vasche · Fatto.**
+Tutto il resto si fa in Cora Mobile, in cinque passi che vedi in alto nel foglio: **Connetti · Wi-Fi · Accesso · Vasche · Fatto.**
 
-**1 · Connetti.** **Dispositivi → Aggiungi dispositivo** sul tuo telefono trova l'unità e mostra cosa ha trovato (il suo indirizzo MAC, la versione del firmware, la variante e la revisione hardware) così puoi confermare che sia quella giusta prima di continuare.
+**1 · Connetti.** Sul telefono, **Dispositivi → Aggiungi dispositivo** trova Cora Max e ti mostra cosa ha trovato (indirizzo MAC, versione del firmware, variante e revisione hardware). Così controlli che sia quello giusto prima di andare avanti.
 
-**2 · WiFi.** Scegli la tua rete dall'elenco, oppure **Ripeti scansione**, poi inserisci la password. La stai digitando su una tastiera del telefono invece che su uno schermo a parete.
+**2 · Wi-Fi.** Scegli la tua rete dall'elenco, oppure tocca **Ripeti scansione**, poi scrivi la password. La scrivi con la tastiera del telefono, non sullo schermo a parete.
 
-**3 · Autenticazione.** Il tuo telefono autorizza l'unità rispetto al tuo account. Cora Max mostra il proprio progresso mentre questo succede.
+**3 · Accesso.** Il telefono autorizza Cora Max sul tuo account. Nel frattempo Cora Max mostra a che punto è.
 
-![Cora Max durante l'associazione](img/max-pairing-verifying.webp "Lo schermo segue il controllo dell'account mentre il tuo telefono lo guida.")
+![Cora Max durante l'associazione](img/max-pairing-verifying.webp "Lo schermo segue il controllo dell'account mentre il telefono lo guida.")
 
-**4 · Vasche.** Scegli quali vasche gestisce questo schermo, **fino a quattro**. Ognuna è elencata con il suo nome e tipo.
+**4 · Vasche.** Scegli quali vasche gestisce questo schermo, **fino a quattro**. Ogni vasca compare con il suo nome e il suo tipo.
 
-**5 · Fatto.** Lo schermo conferma di essere configurato e ti dà un **PIN di ripristino**.
+**5 · Fatto.** Lo schermo conferma che la configurazione è finita e ti dà un **PIN di ripristino**.
 
-:::warning Scrivi il PIN di ripristino
-Il passaggio finale mostra un **PIN di ripristino** a sei cifre, ed è il solo modo per entrare nel ripristino su quell'unità. Per usarlo: tieni cinque dita nell'angolo in alto a destra dello schermo per dieci secondi, poi inserisci il PIN. Puoi ritrovarlo più avanti nelle impostazioni di quel dispositivo sul tuo telefono, ma non su Cora Max stesso.
+:::warning Scriviti il PIN di ripristino
+L'ultimo passo mostra un **PIN di ripristino** di sei cifre. È l'unico modo per entrare nel ripristino di quel Cora Max. Per usarlo, tieni cinque dita nell'angolo in alto a destra dello schermo per dieci secondi, poi inserisci il PIN. Più avanti lo ritrovi nelle impostazioni di quel dispositivo sul telefono, ma non su Cora Max.
 :::
 
-:::note L'associazione è ciò che collega lo schermo a te
-Una volta associato, Cora Max vede le stesse vasche, dispositivi, letture e registri del tuo telefono. **I layout di dashboard non vengono eredati**; Cora Max crea il proprio dal profilo della tua vasca, e li disponi separatamente.
+:::note L'associazione collega lo schermo a te
+Una volta associato, Cora Max vede le stesse vasche, gli stessi dispositivi, le stesse letture e gli stessi registri del telefono. **I layout della dashboard non vengono copiati**. Cora Max ne crea uno suo partendo dal profilo della vasca, e lo sistemi a parte.
 :::
 
-Segui le istruzioni sullo schermo per collegarlo al tuo account. Cora Mobile confermerà quando l'associazione riesce.
+Segui le istruzioni sullo schermo per collegarlo al tuo account. Cora Mobile ti conferma quando l'associazione è riuscita.
 
-:::note Un account, molti schermi
-Puoi associare più di un Cora Max allo stesso account (uno nella stanza della vasca, uno altrove), e ognuno può mostrare un insieme diverso di vasche e il proprio layout di dashboard. Quando due mostrano la stessa vasca, vedi [Controllare l'equipaggiamento da Cora Max](/help/max-device-control) per cosa può fare il secondo con il suo equipaggiamento.
+:::note Un account, più schermi
+Puoi associare più di un Cora Max allo stesso account (uno nella stanza della vasca, uno da un'altra parte). Ognuno può mostrare vasche diverse e ha il suo layout della dashboard. Se due mostrano la stessa vasca, cosa può fare il secondo con l'attrezzatura lo spiega [Controllare l'equipaggiamento da Cora Max](/help/max-device-control).
 :::
 
-## Cambiare quali vasche mostra
+## Cambiare le vasche che mostra
 
-L'assegnazione delle vasche appartiene all'associazione, e si cambia dal **tuo telefono**; apri l'unità in **Dispositivi** e modifica le vasche assegnate. Non si cambia dalle impostazioni proprie del Max.
+Le vasche assegnate fanno parte dell'associazione e si cambiano **dal telefono**: apri Cora Max in **Dispositivi** e modifica le vasche assegnate. Dalle impostazioni di Cora Max non si cambiano.
 
 ## Creare la dashboard
 
-Cora Max crea il proprio layout iniziale dal profilo della tua vasca; **non** copia quello sul tuo telefono. Per cambiarlo, la strada più facile è dal tuo telefono: **Dispositivi → il tuo Cora Max → Modifica Dashboard**, che è più rapido che disporre riquadri su una parete.
+Cora Max crea il suo layout iniziale partendo dal profilo della vasca e **non** copia quello del telefono. Per cambiarlo, la strada più comoda è il telefono: **Dispositivi → il tuo Cora Max → Modifica dashboard**. Fai prima che sistemare i riquadri sullo schermo a parete.
 
-La dashboard sullo schermo grande funziona diversamente dal telefono, una griglia fissa che deve stare tutta su un solo schermo. Vedi **[Modificare la dashboard di Cora Max](/help/max-dashboard-editing)**.
+La dashboard dello schermo grande funziona in modo diverso da quella del telefono: è una griglia fissa che deve stare tutta in una schermata. Trovi di più in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
 
 ## Aggiornamenti
 
-Cora Max si aggiorna da solo. Quando è disponibile una nuova versione, la scarica in background e la applica, e ti dice cosa è cambiato.
+Cora Max si aggiorna da solo. Quando c'è una nuova versione, la scarica in background, la installa e ti dice cosa è cambiato.
 
-Puoi controllare a che punto sei sotto **Impostazioni → Cora Max**.
+Puoi vedere a che punto sei in **Impostazioni → Cora Max**.
 
-## Spostarlo su una rete diversa
+## Spostarlo su un'altra rete
 
-**Impostazioni → Cora Max → Rete → Wi-Fi.** Scegli la nuova rete e inserisci la password. L'associazione sopravvive al cambiamento; non devi configurare di nuovo lo schermo.
+Vai in **Impostazioni → Impostazioni Cora Max → Wi-Fi**, scegli la nuova rete e inserisci la password. L'associazione resta valida e non devi configurare di nuovo lo schermo.

@@ -1,46 +1,46 @@
 ---
 title: Sondy
-description: Zmapuj sondy swojego kontrolera na parametry Cory i zapisuj kalibrację i czyszczenie.
+description: Przypisz sondy kontrolera do parametrów Cory i zapisuj kalibrację oraz czyszczenie.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 13
 group: Equipment
 ---
 
-Kontroler zgłasza sondy pod własnymi nazwami. Mapowanie sond mówi Corze, która z nich jest Twoją sondą pH, która temperaturą, i tak dalej.
+Kontroler nazywa sondy po swojemu. W mapowaniu sond wskazujesz Corze, która z nich mierzy pH, która temperaturę i tak dalej.
 
 ## Mapowanie sond
 
-Otwórz swój **profil akwarium** (ołówek na górze pulpitu), rozwiń sekcję swojego kontrolera i wybierz **Mapowanie sond**.
+Otwórz **profil akwarium** (ołówek na górze pulpitu), rozwiń sekcję swojego kontrolera i wybierz **Mapowanie sond**.
 
-![Mapowanie sond](img/mobile-probes.webp "Każda sonda zgłaszana przez Twój kontroler, jej odczyt na żywo i to, co Cora z nią robi.")
+![Mapowanie sond](img/mobile-probes.webp "Każda sonda zgłaszana przez kontroler, jej odczyt na żywo i to, co robi z nią Cora.")
 
-Każda sonda zgłaszana przez Twój kontroler jest wypisana wraz z jej aktualnym odczytem. Cora automatycznie wykrywa standardowe nazwy, a wiersz pokazuje, którą dopasowała, więc zadaniem tutaj jest zwykle poprawienie tych, których nie mogła umieścić, a nie mapowanie wszystkich ręcznie.
+Na liście jest każda sonda, którą zgłasza kontroler, razem z bieżącym odczytem. Cora sama rozpoznaje standardowe nazwy, a w wierszu widać, co dopasowała. Zwykle wystarczy więc poprawić te sondy, których Cora nie umiała przypisać. Nie trzeba mapować wszystkich ręcznie.
 
-Każdy wiersz oferuje trzy możliwości:
+W każdym wierszu są trzy możliwości:
 
-- **A Cora parameter**: metryka, którą ta sonda mierzy.
-- **Własna**: dla sondy, dla której Cora nie ma standardowego parametru. Podajesz krótki token wielkimi literami, i sonda jest śledzona pod tą nazwą.
-- **Ignoruj**: dla sond, których wcale nie chcesz zapisywać.
+- **Parametr Cory**, czyli to, co mierzy ta sonda.
+- **Własny…** dla sondy, dla której Cora nie ma standardowego parametru. Podajesz krótki identyfikator wielkimi literami i sonda jest śledzona pod tą nazwą.
+- **Ignoruj** dla sond, których w ogóle nie chcesz zapisywać.
 
-Zignorowana lub niezmapowana sonda nie pojawi się na pulpicie i nie zasili alertów.
+Zignorowana albo nieprzypisana sonda nie pojawi się na pulpicie i nie wywoła alertów.
 
-Mapowania zaczynają działać od następnego zapisanego odczytu, więc poprawka tutaj nie zmienia historii; zmienia to, co jest zapisywane od tej pory. Naciśnij **Zapisz**, aby je zastosować.
+Mapowanie działa od następnego zapisanego odczytu. Poprawka nie zmienia więc historii, tylko to, co będzie zapisywane od teraz. Dotknij **Zapisz**, żeby zastosować zmiany.
 
-:::warning Niezmapowana sonda jest niewidoczna dla Cory
-Jeśli parametr nie pokazuje żadnych odczytów, mimo że sonda działa, sprawdź najpierw mapowanie.
+:::warning Cora nie widzi nieprzypisanej sondy
+Jeśli parametr nie ma żadnych odczytów, choć sonda działa, najpierw sprawdź mapowanie.
 :::
 
-## Wiele sond dla jednego parametru
+## Kilka sond dla jednego parametru
 
-System z dwiema sondami temperatury może zmapować obie. Cora zachowuje je jako odrębne źródła; ustawienie źródła w widżecie decyduje, którą z nich śledzi kafelek, a [widok parametru](/help/mobile-metric-detail) pozwala je porównać.
+W systemie z dwiema sondami temperatury możesz przypisać obie. Cora traktuje je jako osobne źródła. Ustawienie źródła w widżecie decyduje, którą z nich pokazuje kafelek, a w [szczegółach parametru](/help/mobile-metric-detail) porównasz obie.
 
-## Zapisywanie opieki nad sondami
+## Zapisywanie konserwacji sond
 
-Sondy dryfują. Cora może śledzić, kiedy każda z nich była ostatnio kalibrowana lub czyszczona, dzięki czemu możesz odróżnić rzeczywistą zmianę od sondy, która wymaga uwagi.
+Sondy z czasem dryfują. Cora może śledzić, kiedy każdą z nich ostatnio kalibrowano albo czyszczono. Dzięki temu odróżnisz prawdziwą zmianę od sondy, która wymaga uwagi.
 
-Zapisz kalibrację lub czyszczenie z wpisu sondy. Świetnie sprawdza się też jako powtarzające się [zadanie konserwacji](/help/mobile-maintenance).
+Kalibrację albo czyszczenie zapiszesz we wpisie sondy. To dobry kandydat na powtarzalne [zadanie konserwacyjne](/help/mobile-maintenance).
 
-:::note Historia kalibracji wyjaśnia niezgodności
-Gdy sonda i test kroplowy się nie zgadzają, data ostatniej kalibracji sondy jest zwykle pierwszą rzeczą, którą warto sprawdzić.
+:::note Historia kalibracji wyjaśnia rozbieżności
+Gdy sonda i test kropelkowy podają różne wartości, najpierw sprawdź, kiedy sonda była ostatnio kalibrowana.
 :::

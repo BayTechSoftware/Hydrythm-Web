@@ -1,76 +1,76 @@
 ---
 title: Dodawanie, edytowanie i usuwanie urządzeń
-description: Jak dodać sprzęt do Cory, przypisać go do akwarium, zmienić jego nazwę i usunąć go bez problemów.
+description: Jak dodać sprzęt do Cory, przypisać go do akwarium, zmienić jego nazwę i bezpiecznie go usunąć.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 9
 group: Equipment
 ---
 
-Zakładka **Urządzenia** to wszystko, co masz podłączone, pogrupowane według marki. Każda grupa się zwija, więc pokój pełen sprzętu zostaje czytelny.
+W zakładce **Urządzenia** jest cały podłączony sprzęt, pogrupowany według marek. Każdą grupę można zwinąć, więc nawet przy dużej ilości sprzętu lista pozostaje czytelna.
 
-![Zakładka Devices](img/mobile-devices.webp "Sprzęt jest pogrupowany według marki. Każda grupa się zwija.")
+![Zakładka Urządzenia](img/mobile-devices.webp "Sprzęt pogrupowany według marek. Każdą grupę można zwinąć.")
 
 ## Dodawanie sprzętu
 
-Pod listą znajdują się trzy przyciski, które robią różne rzeczy:
+Pod listą są trzy przyciski i każdy służy do czegoś innego:
 
-| Przycisk | Dodaje |
+| Przycisk | Co dodaje |
 |---|---|
-| **Dodaj urządzenie** | Cora Max. Znajduje urządzenia już w Twojej sieci Wi-Fi albo pobliskie przez Bluetooth. **Wpisz adres IP ręcznie** znajduje się na tym samym ekranie, jeśli wyszukiwanie go nie znajdzie. |
-| **Znajdź pompę w Twojej sieci** | Pompy Jecod, które ogłaszają się w lokalnej sieci |
+| **Dodaj urządzenie** | Cora Max. Wyszukuje urządzenia w Twojej sieci Wi-Fi albo w pobliżu przez Bluetooth. Jeśli wyszukiwanie nic nie znajdzie, na tym samym ekranie jest przycisk **Wpisz adres IP ręcznie**. |
+| **Znajdź pompę w Twojej sieci** | Pompy Jecod, które same ogłaszają się w sieci lokalnej |
 | **Dodaj AquaWiz** | Kontroler AquaWiz, przez Twoje konto AquaWiz |
 
-![Dodawanie Cora Max](img/mobile-add-device.webp "Add Device przeszukuje Wi-Fi i Bluetooth w poszukiwaniu Cora Max.")
+![Dodawanie Cora Max](img/mobile-add-device.webp "Dodaj urządzenie szuka Cora Max przez Wi-Fi i Bluetooth.")
 
-Inny sprzęt (Neptune Apex i Red Sea ReefBeat) łączy się z poziomu akwarium, a nie z tej listy. Zobacz [Podłączanie sprzętu](/help/mobile-connections).
+Pozostały sprzęt, czyli Neptune Apex i Red Sea ReefBeat, podłączasz z poziomu akwarium, a nie z tej listy. Więcej w [Podłączaniu sprzętu](/help/mobile-connections).
 
-Dodawanie sprzętu takiego jak grzałka, pompa czy skimmer oferuje **autouzupełnianie** marki i modelu: zacznij pisać, a Cora zaproponuje coś z obszernej, zweryfikowanej listy marek sprzętu. Jeśli Twojej nie ma na liście, wpisz ją mimo to; Cora zachowa to, co wpiszesz.
+Gdy dodajesz sprzęt, np. grzałkę, pompę albo odpieniacz, Cora **podpowiada** markę i model. Zacznij pisać, a Cora zaproponuje nazwy z dużej, sprawdzonej listy marek. Jeśli Twojej marki nie ma, i tak ją wpisz. Cora zapisze to, co wpiszesz.
 
-:::note Cora i Twój telefon muszą być w tej samej sieci
-Sprzęt wykryty lokalnie musi być w tej samej sieci co Twój telefon w momencie dodawania. **Po konfiguracji jest wciąż dostępny tylko w tej sieci** (lub przez Bluetooth, dla urządzeń, które go używają), o ile jakieś urządzenie Cora na miejscu nie może go odpytać za Ciebie.
+:::note Cora i telefon muszą być w tej samej sieci
+Sprzęt wykrywany lokalnie musi przy dodawaniu być w tej samej sieci co telefon. **Po konfiguracji też jest osiągalny tylko w tej sieci** (albo przez Bluetooth, jeśli z niego korzysta), chyba że na miejscu jest urządzenie Cora, które się z nim połączy.
 
-Sprzęt, który poprawnie odczytuje się w domu, może więc pokazywać starsze wartości, gdy jesteś poza domem, o ile żaden Cora Max na miejscu nie może go odpytywać. To odzwierciedla, skąd sprzęt jest dostępny, a nie usterkę.
+Sprzęt, który w domu pokazuje dobre odczyty, poza domem może więc pokazywać starsze wartości, jeśli na miejscu nie ma Cora Max, który by go odpytywał. To nie usterka. Po prostu sprzęt jest osiągalny tylko z określonego miejsca.
 :::
 
-## Przypisywanie urządzenia do akwarium
+## Przypisanie urządzenia do akwarium
 
-Większość sprzętu należy do dokładnie jednego akwarium, i to jest to, co sprawia, że jego odczyty pojawiają się na pulpicie tego akwarium.
+Większość sprzętu należy do dokładnie jednego akwarium. Dzięki temu jego odczyty pojawiają się na pulpicie tego akwarium.
 
-**Cora Max jest wyjątkiem**: można je przypisać do maksymalnie czterech akwariów i przełącza się między nimi na ekranie. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
+**Wyjątkiem jest Cora Max.** Można go przypisać do maksymalnie czterech akwariów i przełączać się między nimi na ekranie. Szczegóły są na stronie [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
 
-Otwórz urządzenie i wybierz **Akwarium**. Jeśli prowadzisz więcej niż jeden system, to jest ustawienie, które ma największe znaczenie: grzałka przypisana do złego akwarium zgłasza się doskonale, tylko w złe miejsce.
+Otwórz urządzenie i wybierz **Akwarium**. Jeśli masz więcej niż jeden system, to najważniejsze ustawienie. Grzałka przypisana do złego akwarium działa bez zarzutu, tylko jej odczyty trafiają w złe miejsce.
 
-:::warning Przypisz akwarium, zanim zaczniesz ufać odczytom
-Urządzenie bez akwarium wciąż zgłasza dane, ale jego liczby nie mają gdzie wylądować. Jeśli właśnie dodane urządzenie nie pojawia się na pulpicie, sprawdź to najpierw.
+:::warning Przypisz akwarium, zanim zaczniesz polegać na odczytach
+Urządzenie bez akwarium nadal wysyła odczyty, ale nie mają one gdzie trafić. Jeśli nowo dodane urządzenie nie pojawia się na pulpicie, najpierw sprawdź właśnie to.
 :::
 
 ## Zmiana nazwy
 
-Otwórz urządzenie i zmień jego nazwę. Użyj nazwy, którą stosujesz na co dzień: "Powrotna", "Lewy gyre", "Grzałka w sumpie". Nazwa pojawia się na widżetach, w alertach i we wszystkim, o co pytasz Corę, więc nazwa, która coś dla Ciebie znaczy, sprawia, że wszystko dalej jest jasne.
+Otwórz urządzenie i zmień nazwę. Nazwij je tak, jak mówisz o nim na co dzień, np. „Powrotna”, „Lewy gyre”, „Grzałka w sumpie”. Nazwa pojawia się na widżetach, w alertach i w rozmowach z Corą, więc czytelna dla Ciebie nazwa ułatwia wszystko.
 
-Zmiana nazwy działa tylko w Corze. Nie zmienia nazwy w aplikacji producenta.
+Nowa nazwa obowiązuje tylko w Corze. W aplikacji producenta nazwa się nie zmienia.
 
-## Sprawdzanie, czy urządzenie jest sprawne
+## Czy urządzenie działa poprawnie
 
-Każdy wiersz pokazuje swój aktualny stan. To, co chcesz zobaczyć, to niedawny czas aktualizacji i brak ostrzeżenia.
+Każdy wiersz pokazuje bieżący stan. Dobrze, gdy widać niedawny czas aktualizacji i żadnego ostrzeżenia.
 
 | Co widzisz | Co to znaczy |
 |---|---|
-| Niedawny czas aktualizacji | Działa normalnie |
-| "Zaktualizowano 3 godz. temu" na czymś, co zgłasza się co godzinę | W porządku |
-| "Nie można było się połączyć…" | Problem z siecią albo urządzenie jest wyłączone |
-| "…odrzucił logowanie" | Konto producenta wymaga ponownego połączenia; otwórz urządzenie i zaloguj się ponownie |
-| Nic | Nigdy się nie zgłosiło; sprawdź przypisanie akwarium i połączenie |
+| Niedawny czas aktualizacji | Wszystko działa |
+| „Zaktualizowano 3 godz. temu” przy urządzeniu, które zgłasza się tylko co kilka godzin | Wszystko w porządku |
+| „Nie udało się połączyć…” | Problem z siecią albo urządzenie jest wyłączone |
+| „…odmówiło logowania” | Trzeba ponownie połączyć konto producenta. Otwórz urządzenie i zaloguj się jeszcze raz |
+| Nic | Urządzenie nigdy nie wysłało danych. Sprawdź przypisanie do akwarium i połączenie |
 
 ## Usuwanie urządzenia
 
-Otwórz urządzenie i wybierz **Usuń**. Zostaniesz poproszony o potwierdzenie i poinformowany, co dokładnie zostanie usunięte.
+Otwórz urządzenie i wybierz **Usuń**. Cora poprosi o potwierdzenie i powie dokładnie, co zostanie usunięte.
 
-**Twoje odczyty są zachowywane.** Usunięcie urządzenia zatrzymuje zbieranie nowych danych przez Corę; historia, którą już zebrano, zostaje przy akwarium, a każdy widżet skierowany na to urządzenie zachowuje swoje wcześniejsze odczyty.
+**Odczyty zostają.** Po usunięciu urządzenia Cora przestaje zbierać z niego nowe dane. Zebrana historia zostaje przy akwarium, a widżety, które z niego korzystały, zachowują wcześniejsze odczyty.
 
-To, co utracisz, to bieżące połączenie oraz, jeśli urządzenie łączyło się przez konto producenta, zapisane logowanie. Dodanie go z powrotem oznacza ponowne zalogowanie.
+Tracisz połączenie na żywo, a jeśli urządzenie łączyło się przez konto producenta, także zapisane dane logowania. Gdy dodasz je ponownie, trzeba będzie znów się zalogować.
 
-:::tip Ucisz hałaśliwe urządzenie bez jego usuwania
-Jeśli urządzenie działa poprawnie, ale zbyt często alertuje, dostosuj jego progi albo ustawienia powiadomień; zobacz **[Alerty i progi](/help/mobile-alerts)**. To zachowuje połączenie i dane, jednocześnie zatrzymując hałas.
+:::tip Wycisz uciążliwe urządzenie bez usuwania
+Jeśli urządzenie działa dobrze, ale za często wywołuje alerty, zmień jego progi albo ustawienia powiadomień. Więcej w **[Alertach i progach](/help/mobile-alerts)**. Połączenie i dane zostają, a powiadomień będzie mniej.
 :::

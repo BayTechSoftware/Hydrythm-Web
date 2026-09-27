@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tomas y controles | Cora Help</title>
-  <meta name="description" content="Cambiar el estado de las tomas desde Cora Max, usar el modo alimentación, y qué significa Auto en realidad.">
+  <meta name="description" content="Cómo cambiar las tomas desde Cora Max, cómo usar el modo alimentación y qué significa Auto.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/max-controls">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-controls">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-controls">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Tomas y controles | Cora Help">
-  <meta property="og:description" content="Cambiar el estado de las tomas desde Cora Max, usar el modo alimentación, y qué significa Auto en realidad.">
+  <meta property="og:description" content="Cómo cambiar las tomas desde Cora Max, cómo usar el modo alimentación y qué significa Auto.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/max-controls">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,33 +168,33 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Tomas y controles</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#los-tres-estados">Los tres estados</a></li><li><a href="#cambiar-el-estado-desde-el-panel">Cambiar el estado desde el panel</a></li><li><a href="#el-cajn-de-controles">El cajón de controles</a></li><li><a href="#modo-alimentacin">Modo alimentación</a></li><li><a href="#por-voz">Por voz</a></li><li><a href="#ver-qu-pas">Ver qué pasó</a></li></ul></nav>
-<p>Cora Max puede cambiar el estado del equipo de tu sistema: desde los widgets de control en el panel, desde el cajón Tomas y alimentación, o por voz.</p>
-<aside class="cal cal-warning"><p class="cal-t">Estos controles actúan sobre tu acuario</p><p>No hay deshacer. Las tomas marcadas con un candado te piden confirmar primero; el resto se aplica en cuanto tocas. Una orden puede volver como <strong>Confirmado</strong>, <strong>Sin confirmar</strong> (enviado, no llegó ninguna respuesta), <strong>Rechazado</strong> o <strong>Sin cambios</strong>; consulta <a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a>.</p></aside>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#los-tres-estados">Los tres estados</a></li><li><a href="#cambiar-una-toma-desde-el-panel">Cambiar una toma desde el panel</a></li><li><a href="#el-cajn-de-controles">El cajón de controles</a></li><li><a href="#modo-alimentacin">Modo alimentación</a></li><li><a href="#por-voz">Por voz</a></li><li><a href="#ver-qu-pas">Ver qué pasó</a></li></ul></nav>
+<p>Desde Cora Max puedes encender y apagar el equipo de tu sistema con los widgets de control del panel, con el cajón <strong>Tomas y alimentación</strong> o por voz.</p>
+<aside class="cal cal-warning"><p class="cal-t">Estos controles actúan sobre tu acuario</p><p>No se pueden deshacer. Las tomas con candado te piden confirmación antes. Las demás cambian en cuanto tocas. Una orden puede volver como <strong>Confirmado</strong>, <strong>Sin confirmar</strong> (se envió pero no llegó respuesta), <strong>Rechazado</strong> o <strong>Sin cambios</strong>. Más detalles en <a href="/es/help/mobile-device-control">Controlar tus equipos</a>.</p></aside>
 <h2 id="los-tres-estados">Los tres estados</h2>
-<p>Cada toma está en uno de tres estados.</p>
-<p><strong>Auto</strong> devuelve la toma a su programación del Apex. Aquí es donde debería estar una toma la mayor parte del tiempo.</p>
-<p><strong>Apagado</strong> y <strong>Encendido</strong> son anulaciones manuales. Surten efecto de inmediato y <strong>se quedan así hasta que las cambies de vuelta</strong>. No caducan, y nada las devuelve por ti.</p>
-<aside class="cal cal-warning"><p class="cal-t">Una anulación manual no caduca</p><p>Vuelve a poner <strong>Auto</strong> cuando termines; nada lo hace por ti. Todavía se puede cambiar más tarde por ti, por voz o por una automatización; una anulación no es un bloqueo.</p></aside>
-<h2 id="cambiar-el-estado-desde-el-panel">Cambiar el estado desde el panel</h2>
-<p>Los widgets de control muestran los tres estados con el actual resaltado. Toca el estado que quieras.</p>
-<p>Algunas tomas llevan un <strong>candado</strong>. No significa que haya que desactivarlo en algún sitio; significa que la toma te pide confirmar antes de cambiar, así que un toque accidental no puede cambiar algo crítico. Consulta más abajo.</p>
+<p>Cada toma está siempre en uno de estos tres estados.</p>
+<p><strong>Auto</strong> devuelve la toma a su programación del Apex. Es donde debería estar casi siempre.</p>
+<p><strong>Apagado</strong> y <strong>Encendido</strong> son cambios manuales. Se aplican al momento y <strong>se quedan así hasta que tú los cambies</strong>. No caducan y nada los devuelve a su estado por ti.</p>
+<aside class="cal cal-warning"><p class="cal-t">Un cambio manual no caduca</p><p>Cuando termines, vuelve a poner <strong>Auto</strong>. Nada lo hará por ti. Aun así, tú, la voz o una automatización pueden cambiarla más tarde. Un cambio manual no es un bloqueo.</p></aside>
+<h2 id="cambiar-una-toma-desde-el-panel">Cambiar una toma desde el panel</h2>
+<p>Los widgets de control muestran los tres estados, con el actual resaltado. Toca el que quieras.</p>
+<p>Algunas tomas llevan un <strong>candado</strong>. No hay que desactivarlo en ningún sitio. Solo indica que la toma te pide confirmación antes de cambiar, para que un toque sin querer no apague algo importante. Lo verás más abajo.</p>
 <h2 id="el-cajn-de-controles">El cajón de controles</h2>
-<p>Tira hacia arriba de la pestaña en la parte inferior del panel para abrir <strong>Controles</strong>: todas las tomas del sistema en un solo lugar, tengan o no un widget, más los ciclos de alimentación.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: El cajón de controles"><img src="/help/img/max-controls.webp" alt="El cajón de controles" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Ciclos de alimentación en la parte superior, y después cada toma.</figcaption></figure>
-<p>Una toma que lleva un <strong>candado</strong> requiere una confirmación explícita antes de cambiar. Tocarla abre un cuadro de diálogo que nombra la toma, su estado actual y la anulación que estás a punto de aplicar. Es un paso de confirmación, no un bloqueo que haya que desactivar en otro sitio.</p>
+<p>Desliza hacia arriba la pestaña de la parte inferior del panel para abrir <strong>Controles</strong>. Ahí están todas las tomas del sistema, tengan widget o no, y los ciclos de alimentación.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: El cajón de controles"><img src="/help/img/max-controls.webp" alt="El cajón de controles" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Arriba los ciclos de alimentación y debajo todas las tomas.</figcaption></figure>
+<p>Si una toma lleva <strong>candado</strong>, tienes que confirmar antes de que cambie. Al tocarla se abre un diálogo con el nombre de la toma, su estado actual y el cambio que vas a aplicar. Es solo un paso de confirmación. No hay nada que desactivar en otro sitio.</p>
 <h2 id="modo-alimentacin">Modo alimentación</h2>
-<p>El modo alimentación es la forma segura de pausar el flujo para alimentar. Pausa el equipo que debe pausarse, deja en paz el que no debe pausarse, y <strong>lo restaura todo por sí solo</strong> cuando se cumple el tiempo.</p>
-<p>Úsalo en lugar de apagar las bombas a mano, porque restaura el sistema sin depender de que lo recuerdes.</p>
-<p>Los ciclos de alimentación se identifican con letras <strong>A</strong>, <strong>B</strong>, <strong>C</strong> y <strong>D</strong>: los ciclos que define tu controlador, cada uno pausando un conjunto distinto de equipo. Elige el que corresponda a lo que estás haciendo. <strong>Cancelar</strong> termina un ciclo en curso antes de tiempo y lo restaura todo de inmediato.</p>
-<p>Inícialo desde el cajón de controles, o di <em>"inicia el modo alimentación"</em>.</p>
+<p>El modo alimentación es la forma segura de parar el flujo para dar de comer. Pausa el equipo que tiene que pararse, deja funcionando el resto y <strong>lo vuelve a poner todo como estaba</strong> cuando se acaba el tiempo.</p>
+<p>Úsalo antes que apagar las bombas a mano. Así no depende de que te acuerdes de volver a encenderlas.</p>
+<p>Los ciclos de alimentación van con letras: <strong>A</strong>, <strong>B</strong>, <strong>C</strong> y <strong>D</strong>. Son los ciclos que define tu controlador, y cada uno pausa un grupo distinto de equipos. Elige el que encaje con lo que vas a hacer. <strong>Cancelar</strong> termina el ciclo antes de tiempo y lo restablece todo al momento.</p>
+<p>Inícialo desde el cajón de controles o di <em>"inicia el modo alimentación"</em>.</p>
 <h2 id="por-voz">Por voz</h2>
-<p>Puedes cambiar el estado de las tomas por voz: <em>"apaga el skimmer"</em>, <em>"vuelve a poner el ventilador en auto"</em>.</p>
-<p>Cualquier cosa que llegue a tu equipo se <strong>confirma antes de que ocurra</strong>: Cora te dice qué está a punto de hacer y espera a que estés de acuerdo. No actuará sobre una instrucción de la que no esté segura.</p>
-<p>Consulta <strong><a href="/es/help/max-voice">Hablar con Cora</a></strong>.</p>
+<p>También puedes cambiar las tomas por voz: <em>"apaga el skimmer"</em>, <em>"vuelve a poner el ventilador en auto"</em>.</p>
+<p>Antes de tocar tu equipo, Cora <strong>te pide confirmación</strong>. Te dice lo que va a hacer y espera a que digas que sí. Si no tiene clara una instrucción, no actúa.</p>
+<p>Más información en <strong><a href="/es/help/max-voice">Hablar con Cora</a></strong>.</p>
 <h2 id="ver-qu-pas">Ver qué pasó</h2>
-<p>Cada solicitud se registra, junto con qué la pidió (esta aplicación, una pantalla Cora, la voz, el Assistant, una regla de automatización, un botón inteligente o tu cuenta) y cómo viajó. En tu teléfono eso es <strong>Ajustes → Actividad</strong>.</p>
-<p>Es el primer sitio donde mirar cuando algo cambió y no sabes por qué.</p>
+<p>Cada solicitud queda registrada, con quién la pidió (Cora Mobile, una pantalla Cora, la voz, Cora Assistant, una regla de automatización, un botón inteligente o tu cuenta) y por dónde fue. En el teléfono lo encuentras en <strong>Ajustes → Actividad</strong>.</p>
+<p>Es lo primero que conviene mirar cuando algo ha cambiado y no sabes por qué.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/max-dashboard-editing"><span>Anterior</span><b>Editar el panel de Cora Max</b></a><a class="pn-n" href="/es/help/max-device-control"><span>Siguiente</span><b>Controlar equipos desde Cora Max</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-09.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

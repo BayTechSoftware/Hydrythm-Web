@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Automazioni e scene | Cora Help</title>
-  <meta name="description" content="Crea regole che si eseguono da sole (trigger, condizioni, azioni) e raggruppale in scene.">
+  <meta name="description" content="Crea regole che partono da sole, con trigger, condizioni e azioni, e raggruppa le azioni in scene.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/mobile-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Automazioni e scene | Cora Help">
-  <meta property="og:description" content="Crea regole che si eseguono da sole (trigger, condizioni, azioni) e raggruppale in scene.">
+  <meta property="og:description" content="Crea regole che partono da sole, con trigger, condizioni e azioni, e raggruppa le azioni in scene.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -71,8 +71,8 @@
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
-<li><a href="/it/help/mobile-dashboard">Leggere la tua dashboard</a></li>
-<li><a href="/it/help/mobile-dashboard-editing">Modificare la tua dashboard</a></li>
+<li><a href="/it/help/mobile-dashboard">Leggere la dashboard</a></li>
+<li><a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a></li>
 <li><a href="/it/help/mobile-widgets">Guida di riferimento ai widget</a></li>
 <li><a href="/it/help/mobile-metric-detail">Approfondire un parametro</a></li>
 <li><a href="/it/help/mobile-sharing">Condividere la tua vasca</a></li>
@@ -80,9 +80,9 @@
 <details class="nav-g">
 <summary>Apparecchiature</summary><ul>
 <li><a href="/it/help/mobile-devices">Aggiungere, modificare e rimuovere dispositivi</a></li>
-<li><a href="/it/help/mobile-connections">Collegare il tuo equipaggiamento</a></li>
-<li><a href="/it/help/mobile-device-control">Controllare il tuo equipaggiamento</a></li>
-<li><a href="/it/help/mobile-schedules">Pianificare l&#x27;equipaggiamento</a></li>
+<li><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></li>
+<li><a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a></li>
+<li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
 <li><a href="/it/help/mobile-probes">Sonde</a></li>
 <li><a href="/it/help/mobile-consumables">Materiali di consumo</a></li>
 </ul></details>
@@ -121,7 +121,7 @@
 <summary>Per iniziare</summary><ul>
 <li><a href="/it/help/max-setup">Configurare Cora Max</a></li>
 <li><a href="/it/help/max-tour">La schermata Home di Cora Max</a></li>
-<li><a href="/it/help/max-reef-room">La Stanza della Vasca</a></li>
+<li><a href="/it/help/max-reef-room">La Stanza barriera</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
@@ -168,37 +168,37 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Automazioni e scene</h1>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#la-forma-di-una-regola">La forma di una regola</a></li><li><a href="#cosa-pu-attivare-una-regola">Cosa può attivare una regola</a></li><li><a href="#condizioni">Condizioni</a></li><li><a href="#cosa-pu-fare-una-regola">Cosa può fare una regola</a></li><li><a href="#scene">Scene</a></li><li><a href="#scene-create-su-cora-max">Scene create su Cora Max</a></li><li><a href="#disattivare-una-regola">Disattivare una regola</a></li><li><a href="#vedere-cosa-ha-fatto-una-regola">Vedere cosa ha fatto una regola</a></li></ul></nav>
-<p>Un'automazione è una regola che Cora esegue per te: <em>quando succede questo, controlla quest'altro, poi fai questo.</em> Le scene raggruppano diverse azioni in una sola cosa che puoi eseguire o programmare.</p>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#com-fatta-una-regola">Com&#x27;è fatta una regola</a></li><li><a href="#cosa-fa-partire-una-regola">Cosa fa partire una regola</a></li><li><a href="#condizioni">Condizioni</a></li><li><a href="#cosa-pu-fare-una-regola">Cosa può fare una regola</a></li><li><a href="#scene">Scene</a></li><li><a href="#scene-create-su-cora-max">Scene create su Cora Max</a></li><li><a href="#disattivare-una-regola">Disattivare una regola</a></li><li><a href="#vedere-cosa-ha-fatto-una-regola">Vedere cosa ha fatto una regola</a></li></ul></nav>
+<p>Un'automazione è una regola che Cora esegue al posto tuo: <em>quando succede questo, controlla quello, poi fai quest'altro.</em> Una scena mette insieme più azioni in un'unica cosa da avviare a mano o da programmare.</p>
 <p><strong>Impostazioni → Automazione.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: L&#x27;elenco delle automazioni"><img src="/help/img/mobile-automation.webp" alt="L&#x27;elenco delle automazioni" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Automazioni e Scene sono schede separate. Ogni regola ha un interruttore di attivazione.</figcaption></figure>
-<p>La schermata ha due schede (<strong>Automazioni</strong> e <strong>Scena</strong>) e un pulsante <strong>Nuova automazione</strong>. Ogni regola mostra un riassunto di una riga di cosa fa, un interruttore di attivazione, e un menu per modificarla o eliminarla. Una regola che non è ancora stata eseguita è segnata come tale.</p>
-<aside class="cal cal-warning"><p class="cal-t">Queste agiscono su equipaggiamento reale</p><p>Una regola che commuta una pompa la commuta indipendentemente dal fatto che tu stia guardando. Creane una alla volta e controlla che ognuna faccia ciò che ti aspetti prima di aggiungere la successiva.</p></aside>
-<h2 id="la-forma-di-una-regola">La forma di una regola</h2>
-<p>Ogni regola ha le stesse tre parti:</p>
-<p><strong>Trigger</strong>: cosa la attiva <strong>Condizioni</strong>: cosa deve anche essere vero <strong>Azioni</strong>: cosa fa poi, in ordine</p>
-<h2 id="cosa-pu-attivare-una-regola">Cosa può attivare una regola</h2>
-<p>Quattro cose:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Trigger</th><th>Scatta quando</th></tr></thead><tbody><tr><td data-th="Trigger"><strong>Parametro</strong></td><td data-th="Scatta quando">Un parametro supera un valore che imposti, in una direzione che scegli</td></tr><tr><td data-th="Trigger"><strong>Avviso</strong></td><td data-th="Scatta quando">Un avviso viene generato, chiuso, o entrambi</td></tr><tr><td data-th="Trigger"><strong>Programma</strong></td><td data-th="Scatta quando">Un'ora del giorno, nel tuo stesso fuso orario</td></tr><tr><td data-th="Trigger"><strong>Stato dispositivo</strong></td><td data-th="Scatta quando">Un dispositivo va offline o torna online</td></tr></tbody></table></div>
+<p>La schermata ha due schede, <strong>Automazioni</strong> e <strong>Scene</strong>, e il pulsante <strong>Nuova automazione</strong>. Ogni regola ha una riga che riassume cosa fa, un interruttore di attivazione e un menu per modificarla o eliminarla. Le regole mai eseguite sono segnalate.</p>
+<aside class="cal cal-warning"><p class="cal-t">Le regole agiscono sull'attrezzatura vera</p><p>Una regola che spegne una pompa la spegne anche se non stai guardando. Crea una regola alla volta e controlla che faccia quello che ti aspetti prima di aggiungerne un'altra.</p></aside>
+<h2 id="com-fatta-una-regola">Com'è fatta una regola</h2>
+<p>Ogni regola ha tre parti:</p>
+<p><strong>Trigger</strong>: cosa la fa partire <strong>Condizioni</strong>: cos'altro deve essere vero <strong>Azioni</strong>: cosa fa poi, nell'ordine</p>
+<h2 id="cosa-fa-partire-una-regola">Cosa fa partire una regola</h2>
+<p>Ci sono quattro trigger:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Trigger</th><th>Scatta quando</th></tr></thead><tbody><tr><td data-th="Trigger"><strong>Parametro</strong></td><td data-th="Scatta quando">Un parametro supera un valore che hai impostato, nella direzione che scegli</td></tr><tr><td data-th="Trigger"><strong>Avviso</strong></td><td data-th="Scatta quando">Un avviso scatta, si chiude, o in tutti e due i casi</td></tr><tr><td data-th="Trigger"><strong>Programma</strong></td><td data-th="Scatta quando">È una certa ora del giorno, nel tuo fuso orario</td></tr><tr><td data-th="Trigger"><strong>Stato dispositivo</strong></td><td data-th="Scatta quando">Un dispositivo va offline o torna online</td></tr></tbody></table></div>
 <h2 id="condizioni">Condizioni</h2>
-<p>Le condizioni decidono se le azioni vengono effettivamente eseguite. Hai i confronti abituali (uguale, non uguale, maggiore di, minore di, e così via) e puoi combinarli con <strong>e</strong>, <strong>o</strong> e <strong>non</strong>.</p>
-<p>C'è anche una condizione di <strong>passo</strong>, che controlla come è andato il passo <em>precedente</em>. È questo che ti permette di scrivere "provo questo; se non ha funzionato, fai quest'altro invece."</p>
+<p>Le condizioni decidono se le azioni partono davvero. Hai i confronti di sempre (uguale, diverso, maggiore di, minore di e così via) e puoi combinarli con <strong>e</strong>, <strong>o</strong> e <strong>non</strong>.</p>
+<p>Esiste anche una condizione <strong>passo</strong>, che guarda com'è andato il passo <em>precedente</em>. Con questa puoi scrivere "prova questo e, se non ha funzionato, fai quest'altro".</p>
 <h2 id="cosa-pu-fare-una-regola">Cosa può fare una regola</h2>
-<p>Un'azione che richiede equipaggiamento viene offerta solo su una vasca che ha quell'equipaggiamento:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Azione</th><th>Cosa fa</th></tr></thead><tbody><tr><td data-th="Azione"><strong>Controlla apparecchiatura Apex</strong></td><td data-th="Cosa fa">Commuta una presa</td></tr><tr><td data-th="Azione"><strong>Controlla un'apparecchiatura Red Sea™</strong></td><td data-th="Cosa fa">Guida un'unità ReefBeat</td></tr><tr><td data-th="Azione"><strong>Controlla una pompa di movimento</strong></td><td data-th="Cosa fa">Imposta il flusso, la modalità onda o la potenza di una pompa Jecod™, oppure <strong>Pausa per l'alimentazione</strong>: il Cora Max alla vasca riporta la pompa a posto quando l'alimentazione finisce</td></tr><tr><td data-th="Azione"><strong>Controlla un'apparecchiatura Cora</strong></td><td data-th="Cosa fa">Commuta una presa intelligente</td></tr><tr><td data-th="Azione"><strong>Controlla dispositivo IR</strong></td><td data-th="Cosa fa">Invia un comando infrarossi</td></tr><tr><td data-th="Azione"><strong>Esegui ciclo di alimentazione Apex</strong></td><td data-th="Cosa fa">Avvia un'alimentazione</td></tr><tr><td data-th="Azione"><strong>Esegui un test Trident</strong></td><td data-th="Cosa fa">Attiva un test</td></tr><tr><td data-th="Azione"><strong>Avvisami</strong></td><td data-th="Cosa fa">Invia una notifica push a te stesso</td></tr><tr><td data-th="Azione"><strong>Attendi prima del passo successivo</strong></td><td data-th="Cosa fa">Sospende prima di continuare</td></tr><tr><td data-th="Azione"><strong>Esegui una scena</strong></td><td data-th="Cosa fa">Esegue un'altra scena dall'interno di questa regola</td></tr><tr><td data-th="Azione"><strong>Gestisci un'automazione</strong></td><td data-th="Cosa fa">Attiva o disattiva un'altra regola</td></tr><tr><td data-th="Azione"><strong>Dosa una testa DŌS</strong></td><td data-th="Cosa fa">Esegue un dosaggio misurato su una testa DŌS</td></tr></tbody></table></div>
-<aside class="cal cal-warning"><p class="cal-t">Dosare da una regola è irreversibile e limitato</p><p>Un dosaggio non può essere ritirato dalla vasca. La testa deve essere <strong>calibrata</strong> prima che una regola possa dosare da essa, e il dosaggio non sorvegliato è limitato a <strong>10 mL per testa al giorno</strong>; una regola non può superare quel limite comunque sia scritta. Le azioni di dosaggio appaiono solo una volta che le tue teste sono riconosciute come teste di dosaggio.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Usa Attendi per sequenziare i passi in una regola</p><p>Una pausa permette a una singola regola di eseguire una procedura ordinata (per esempio spegnere una presa, attendere, poi riaccenderla) senza una seconda regola e un programma.</p></aside>
+<p>Le azioni che richiedono un'attrezzatura compaiono solo nelle vasche che ce l'hanno:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Azione</th><th>Cosa fa</th></tr></thead><tbody><tr><td data-th="Azione"><strong>Controlla apparecchiatura Apex</strong></td><td data-th="Cosa fa">Accende o spegne una presa</td></tr><tr><td data-th="Azione"><strong>Controlla un'apparecchiatura Red Sea™</strong></td><td data-th="Cosa fa">Comanda un'unità ReefBeat</td></tr><tr><td data-th="Azione"><strong>Controlla una pompa di movimento</strong></td><td data-th="Cosa fa">Imposta flusso, modalità onda o potenza di una pompa Jecod™, oppure <strong>Pausa per l'alimentazione</strong>. A fine alimentazione il Cora Max vicino alla vasca rimette la pompa com'era</td></tr><tr><td data-th="Azione"><strong>Controlla un'apparecchiatura Cora</strong></td><td data-th="Cosa fa">Accende o spegne una presa smart</td></tr><tr><td data-th="Azione"><strong>Controlla dispositivo IR</strong></td><td data-th="Cosa fa">Invia un comando a infrarossi</td></tr><tr><td data-th="Azione"><strong>Esegui ciclo di alimentazione Apex</strong></td><td data-th="Cosa fa">Avvia l'alimentazione</td></tr><tr><td data-th="Azione"><strong>Esegui un test Trident</strong></td><td data-th="Cosa fa">Avvia un test</td></tr><tr><td data-th="Azione"><strong>Avvisami</strong></td><td data-th="Cosa fa">Ti manda una notifica push</td></tr><tr><td data-th="Azione"><strong>Attendi prima del passo successivo</strong></td><td data-th="Cosa fa">Fa una pausa prima di continuare</td></tr><tr><td data-th="Azione"><strong>Esegui una scena</strong></td><td data-th="Cosa fa">Avvia una scena dall'interno di questa regola</td></tr><tr><td data-th="Azione"><strong>Gestisci un'automazione</strong></td><td data-th="Cosa fa">Attiva o disattiva un'altra regola</td></tr><tr><td data-th="Azione"><strong>Dosa una testa DŌS</strong></td><td data-th="Cosa fa">Dosa una quantità precisa da una testa DŌS</td></tr></tbody></table></div>
+<aside class="cal cal-warning"><p class="cal-t">Un dosaggio da regola non si annulla ed è limitato</p><p>Quello che hai dosato non si può togliere dalla vasca. Una regola può dosare solo da una testa <strong>calibrata</strong>, e senza sorveglianza il limite è <strong>10 mL per testa al giorno</strong>. Nessuna regola può superarlo, comunque sia scritta. Le azioni di dosaggio compaiono solo quando Cora riconosce le tue teste come teste dosatrici.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Con Attendi metti in fila i passi di una regola</p><p>Con una pausa, una sola regola può seguire una procedura in ordine: per esempio spegnere una presa, aspettare e poi riaccenderla. Non ti servono una seconda regola e un programma.</p></aside>
 <h2 id="scene">Scene</h2>
-<p>Una scena è un gruppo di azioni con un nome che puoi eseguire su richiesta, da un programma, o dall'interno di un'altra regola: "Cambio d'acqua", "Modalità foto", "Notte".</p>
-<p>Una scena può richiamare un'altra scena. Cora si rifiuta di eseguire una scena annidata oltre il suo limite di profondità, e si rifiuta di eseguire una scena che richiamerebbe se stessa, per impedire un ciclo che continuerebbe ad agire sulla vasca indefinitamente.</p>
-<p>Dopo che una scena viene eseguita ti viene detto cosa è successo, passo per passo, incluso qualsiasi cosa sia fallita.</p>
-<p>Eseguire una scena a mano richiede prima una conferma, poiché una scena può commutare diversi pezzi di equipaggiamento contemporaneamente.</p>
+<p>Una scena è un gruppo di azioni con un nome, come "Cambio d'acqua", "Modalità foto" o "Notte". Puoi avviarla quando vuoi, da un programma o dall'interno di un'altra regola.</p>
+<p>Una scena può richiamarne un'altra. Cora non esegue una scena annidata oltre il limite di profondità, né una scena che richiamerebbe se stessa. Così si evita un ciclo che continuerebbe ad agire sulla vasca all'infinito.</p>
+<p>Quando una scena finisce, Cora ti dice cosa è successo passo per passo, compreso quello che non è riuscito.</p>
+<p>Se avvii una scena a mano, Cora ti chiede prima di confermare, perché una scena può comandare più apparecchi insieme.</p>
 <h2 id="scene-create-su-cora-max">Scene create su Cora Max</h2>
-<p>Le scene possono anche essere create e modificate direttamente su un tablet Cora Max, non solo sul telefono: è lo stesso insieme di scene in entrambi i casi, condiviso su tutto l'account. Se una casa ha un Cora Max più vecchio, può comunque eseguire una scena creata sul telefono; solo la modifica sul dispositivo è una funzione più recente, quindi un tablet più vecchio potrebbe mostrare una scena senza permetterti di modificarla lì. Modificala invece dal telefono.</p>
+<p>Puoi creare e modificare le scene anche direttamente su un tablet Cora Max. Le scene sono le stesse sul telefono e sul Cora Max, condivise in tutto l'account. Un Cora Max più vecchio può comunque eseguire una scena creata sul telefono. La modifica sul dispositivo è arrivata dopo, quindi un tablet più vecchio potrebbe mostrarti la scena senza farti cambiare nulla. In quel caso modificala dal telefono.</p>
 <h2 id="disattivare-una-regola">Disattivare una regola</h2>
-<p>Ogni regola ha un interruttore di attivazione. Disattivarne una conserva la sua definizione, utile quando la vuoi di nuovo la stagione successiva invece di ricrearla.</p>
+<p>Ogni regola ha un interruttore di attivazione. Se la spegni, la regola resta salvata: comodo se ti servirà di nuovo la prossima stagione e non vuoi rifarla da capo.</p>
 <h2 id="vedere-cosa-ha-fatto-una-regola">Vedere cosa ha fatto una regola</h2>
-<p>Ogni azione eseguita da una regola viene registrata con la regola come sua causa. Vedi <strong><a href="/it/help/mobile-activity">Attività</a></strong>.</p>
+<p>Ogni azione eseguita da una regola viene registrata con la regola come origine. Vedi <strong><a href="/it/help/mobile-activity">Attività</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/mobile-notifications"><span>Precedente</span><b>Notifiche</b></a><a class="pn-n" href="/it/help/mobile-dosing"><span>Successivo</span><b>Dosaggio</b></a></nav>
       <p class="stamp">Scritto per Cora Max 0.28.78 e Cora Mobile 0.5.79. Ultimo controllo il 2026-09-27.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>

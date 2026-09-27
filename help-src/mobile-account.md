@@ -1,52 +1,52 @@
 ---
 title: Signing in and account recovery
-description: Sign in, reset a forgotten password, and fix an email address you cannot verify.
+description: Sign in, reset a forgotten password, and fix an email address you can't verify.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 2
 group: Getting started
 ---
 
-Your account is what ties your tanks, readings and devices together, so getting back into it matters more than any single setting.
+Your account holds your tanks, readings and devices together. Here's how to get into it and back into it.
 
 ## Creating an account
 
-When you sign up, you must check **I agree to: Terms and Conditions and Privacy Policy** before Cora will create your account. Both are links you can open and read before agreeing.
+When you sign up, check **I agree to: Terms and Conditions and Privacy Policy** before Cora creates your account. Both are links, so you can open and read them first.
 
 ## Ways to sign in
 
-Cora accepts an **email address and password**, or **Continue with Apple** and **Continue with Google**.
+You can sign in with an **email address and password**, or with **Continue with Apple** or **Continue with Google**.
 
-Use the same method every time. Signing in with Google to an account you created with an email address gives you a *second, empty* account rather than access to the first; the tanks are not missing, you are simply in the wrong account. If that happens, sign out and sign in again the original way.
+Use the same method every time. If you created your account with an email address and then sign in with Google, you'll land in a second, empty account. Your tanks aren't gone. You're just in the wrong account. Sign out and sign in again the way you did the first time.
 
 ## Forgotten password
 
-On the sign-in screen, choose **Forgot password?**, enter your email address, and tap **Send Link**. Open the link on the same device and set a new password.
+On the sign-in screen, tap **Forgot password?**, enter your email address and tap **Send Link**. Open the link on the same device and set a new password.
 
-:::note The confirmation is deliberately non-committal
-The message reads *"if that address has a Cora account, a reset link is on its way"*; it says the same thing whether or not the address is registered. That is intentional: it stops the screen being used to find out who has an account. If no email arrives, the likeliest reason is that the address is not the one you signed up with.
+:::note The message is the same either way
+You'll see *"if that address has a Cora account, a reset link is on its way"*, whether or not the address is registered. This stops anyone using the screen to find out who has an account. If no email arrives, you probably signed up with a different address.
 :::
 
-If nothing arrives within a few minutes, check spam, then try the other sign-in methods; an account created with **Continue with Apple** or **Continue with Google** has no Cora password to reset.
+If nothing arrives within a few minutes, check your spam folder. Then try the other ways to sign in. An account created with **Continue with Apple** or **Continue with Google** has no Cora password to reset.
 
 ## Verifying your email
 
-After you sign up, Cora sends a verification email from noreply@coraiq.tech with the subject *"Confirm your email for Cora"*. Tap **Verify my email** in it; the link expires after 24 hours. Then go back to Cora Mobile and tap **I've Verified My Email**.
+After you sign up, Cora sends a verification email from noreply@coraiq.tech with the subject *"Confirm your email for Cora"*. Tap **Verify my email** in it. The link expires after 24 hours. Then go back to Cora Mobile and tap **I've Verified My Email**.
 
-If the email has not arrived, check spam, then tap **Resend verification email** on the verification screen. Cora sends at most one verification email a minute and five an hour, counting the first; tap it sooner and Cora asks you to wait.
+If the email hasn't arrived, check your spam folder, then tap **Resend verification email** on the verification screen. Cora sends at most one verification email a minute and five an hour, and the first one counts. If you tap too soon, Cora asks you to wait.
 
 ## The email address is wrong
 
-If you mistyped it, you do not have to start again. The verification screen has **Wrong address? Change email**: enter the correct address and a fresh link is sent to it.
+If you mistyped it, you don't have to start again. Tap **Wrong address? Change email** on the verification screen and enter the right address. Cora sends a new link to it.
 
 :::note "Sign out and sign in again, then retry"
-Changing the address on an account is a security-sensitive operation, so it sometimes requires a recent sign-in. If you are asked to sign out and back in, that is expected; do it, then tap **Wrong address? Change email** again.
+Changing an account's email address is a security step, so Cora sometimes wants a recent sign-in first. If it asks you to sign out and back in, do that, then tap **Wrong address? Change email** again.
 :::
 
 ## Still verifying
 
-Cora Mobile checks when you tap **I've Verified My Email**. If it says the email is not yet verified, tap **Verify my email** in the newest email, give it a moment, then check again. If the link has expired, tap **Resend verification email** for a new one. The check is against the account, not the device, so once it succeeds it clears on any of your devices.
+Cora Mobile checks when you tap **I've Verified My Email**. If it says your email isn't verified yet, tap **Verify my email** in the newest email, wait a moment and check again. If the link has expired, tap **Resend verification email** to get a new one. Cora checks the account, not the device. Once it goes through, you're verified on all your devices.
 
 ## Signing out
 
-**Settings → your account → Sign Out** disconnects this device. Nothing is deleted, and signing back in restores your tanks, readings and devices. See [Your data](/help/mobile-data-export) for the difference between signing out and deleting.
+**Settings → your account → Sign Out** signs this device out. Nothing is deleted, and when you sign back in your tanks, readings and devices are all there. [Your data](/help/mobile-data-export) explains how signing out differs from deleting your account.

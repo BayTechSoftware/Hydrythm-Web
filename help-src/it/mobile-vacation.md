@@ -1,49 +1,49 @@
 ---
 title: Andare in vacanza
-description: Crea un piano che chi si occupa della tua vasca può seguire, e condividilo come pagina che può aprire senza un account.
+description: Prepara un piano per chi si occupa della vasca e condividilo come pagina che si apre senza account.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 28
 group: Account
 ---
 
-La modalità vacanza trasforma la tua vasca in qualcosa che un'altra persona può gestire. Imposti le date, elenchi i lavori, e Cora produce una pagina semplice che puoi inviarle.
+Con la modalità vacanza un'altra persona può occuparsi della tua vasca. Imposti le date, scrivi l'elenco dei lavori e Cora prepara una pagina semplice da mandarle.
 
 **Impostazioni → Vasche → Modalità vacanza.**
 
 ![Modalità vacanza](img/mobile-vacation.webp "Date del viaggio, la lista di controllo per chi si occupa della vasca, e le note che l'accompagnano.")
 
-## Creare il piano
+## Preparare il piano
 
-**Date**: quando parti e quando torni.
+Prima indichi le **date**, cioè quando parti e quando torni.
 
-**Una lista di controllo**: ogni lavoro con quanto spesso deve essere svolto. Cora rende la frequenza come un'etichetta semplice accanto ad esso:
+Poi scrivi una **lista di controllo** con tutti i lavori e ogni quanto va fatto ciascuno. Cora mostra la frequenza come una semplice etichetta accanto al lavoro:
 
-| Frequenza | Per |
+| Frequenza | Per esempio |
 |---|---|
-| **Giornaliero** | Alimentazione, un'occhiata rapida alla vasca |
-| **Ogni 3 giorni** | Rabbocco, controllo dello skimmer |
+| **Giornaliero** | Dare da mangiare, dare un'occhiata alla vasca |
+| **Ogni 3 giorni** | Fare il rabbocco, controllare lo schiumatoio |
 | **Una volta** | Un cambio d'acqua mentre sei via |
-| **Sempre** | Istruzioni permanenti, come equipaggiamento da non toccare |
+| **Sempre** | Istruzioni valide per tutto il periodo, per esempio l'attrezzatura da non toccare |
 
-Scrivi la lista di controllo per qualcuno che non conosce le vasche reef. Indica quantità e metodi in modo esplicito: "alimenta con un cubetto di cibo congelato, scongelato, una volta al giorno" invece di "alimenta come al solito".
+Scrivi la lista pensando a una persona che non conosce le vasche marine. Indica quantità e modi in modo preciso: "un cubetto di surgelato, scongelato, una volta al giorno" e non "dai da mangiare come al solito".
 
-## Condividerlo
+## Condividere il piano
 
-Cora trasforma il piano in una **pagina di sola lettura**. Invia il link a chi si occupa della vasca; non ha bisogno di Cora Mobile e non ha bisogno di un account.
+Cora trasforma il piano in una **pagina in sola lettura**. Manda il link a chi si occupa della vasca: non gli serve Cora Mobile e non gli serve un account.
 
-Può leggere la lista di controllo e vedere la vasca. Non può cambiare nulla, controllare l'equipaggiamento, o vedere il resto del tuo account.
+Può leggere la lista e vedere la vasca. Non può cambiare niente, non può comandare l'attrezzatura e non vede il resto del tuo account.
 
-:::note Indica cosa non dovrebbe essere toccato
-Includi istruzioni permanenti che riguardano l'equipaggiamento che chi si occupa della vasca dovrebbe lasciare stare. Usa la frequenza **Sempre** per queste.
+:::note Scrivi anche cosa non va toccato
+Aggiungi istruzioni sull'attrezzatura che non va toccata. Usa la frequenza **Sempre**.
 :::
 
 ## Mentre sei via
 
-Tutto il resto continua a funzionare: letture, avvisi, Reef Buddy, automazioni. La modalità vacanza aggiunge la pagina per chi si occupa della vasca; non cambia come viene gestita la tua vasca.
+Tutto il resto funziona come sempre: letture, avvisi, Reef Buddy, automazioni. La modalità vacanza aggiunge solo la pagina per chi ti sostituisce e non cambia il modo in cui viene gestita la vasca.
 
-Se vuoi essere raggiungibile, controlla le tue **[impostazioni di notifica](/help/mobile-notifications)** prima di partire.
+Se vuoi essere raggiungibile, prima di partire controlla le **[impostazioni delle notifiche](/help/mobile-notifications)**.
 
 ## Al ritorno
 
-Termina il piano quando sei a casa. La lista di controllo viene conservata, così la prossima volta che vai via puoi riutilizzarla invece di scriverla di nuovo.
+Quando torni a casa, chiudi il piano. La lista resta salvata, così la prossima volta puoi riusarla senza riscriverla.

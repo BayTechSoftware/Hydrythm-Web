@@ -1,78 +1,78 @@
 ---
 title: Rapports ICP et de santé
-description: Téléchargez un test ICP, suivez chaque élément dans le temps, et exécutez une évaluation complète de la santé de votre système.
+description: Importez un test ICP, suivez chaque élément dans le temps et lancez un bilan complet de votre système.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 26
 group: Intelligence
 ---
 
-L’onglet **Intelligence** est vos analyses de laboratoire et votre vue à long terme.
+L’onglet **Intelligence** rassemble vos analyses de laboratoire et le suivi de votre aquarium sur la durée.
 
 ![L’onglet Intelligence](img/mobile-intelligence.webp "Téléchargez un ICP, exécutez un rapport de santé, et voyez ce qui a changé depuis le dernier.")
 
-## Télécharger un test ICP
+## Importer un test ICP
 
-Touchez **Téléverser un ICP**, choisissez votre aquarium, et ajoutez le résultat de votre laboratoire. Cora lit le rapport, enregistre chaque élément, et l’aligne avec vos tests précédents.
+Touchez **Téléverser un ICP**, choisissez votre aquarium et ajoutez le résultat du laboratoire. Cora lit le rapport, enregistre chaque élément et le compare à vos tests précédents.
 
-Vous n’avez rien à saisir vous-même. Cora gère les formats de laboratoire courants.
+Vous n’avez rien à taper. Cora reconnaît les formats de laboratoire courants.
 
-## Envoyer à Cora : résultats délivrés par un laboratoire ou un e-mail
+## Envoyer à Cora : les résultats transmis par un laboratoire ou par e-mail
 
-Certains laboratoires peuvent envoyer un résultat directement à Cora, et un résultat ICP envoyé par e-mail peut être acheminé de la même façon, sans que vous ayez à télécharger quoi que ce soit vous-même.
+Certains laboratoires peuvent envoyer un résultat directement à Cora. Un résultat ICP reçu par e-mail peut aussi arriver de cette façon. Vous n’avez alors rien à importer vous-même.
 
-Quand l’un arrive, une bannière apparaît : *« Un résultat de laboratoire de {lab} est en attente. »* Touchez **Choisir un bac** et choisissez à quel aquarium il appartient ; Cora ne peut pas le deviner seul. Une fois votre choix fait, Cora l’ajoute à cet aquarium de la même façon qu’un rapport téléchargé.
+Quand un résultat arrive, une bannière s’affiche : *« Un résultat de laboratoire de {lab} est en attente. »* Touchez **Choisir un bac** et indiquez l’aquarium concerné. Cora ne peut pas le deviner. Une fois l’aquarium choisi, Cora y ajoute le rapport comme s’il avait été importé.
 
-Le rapport lui-même affiche **Envoyé par {lab}** près de son en-tête, pour que vous puissiez le distinguer de celui que vous avez téléchargé vous-même.
+Le rapport affiche **Envoyé par {lab}** près de son en-tête. Vous le distinguez ainsi d’un rapport que vous avez importé vous-même.
 
 :::note La première fois
-La première fois qu’un résultat arrive de cette façon, Cora affiche un court indice expliquant ce qui se passe, pour que cela ne ressemble pas à une erreur.
+La première fois qu’un résultat arrive par ce chemin, Cora affiche une courte explication, pour que vous ne le preniez pas pour une erreur.
 :::
 
-Si cela ne fonctionne pas : voir [Résolution de problèmes](/help/troubleshooting).
+En cas de problème, consultez la page [Résolution de problèmes](/help/troubleshooting).
 
 ![Un rapport ICP](img/mobile-icp-report.webp "Chaque rapport porte un score et un résumé rédigé pour votre aquarium.")
 
 ## Ce que vous obtenez
 
-**Un score** sur 100, et un résumé en langage simple de ce qu’il signifie spécifiquement pour votre système : votre type d’aquarium, son âge, votre population.
+D’abord, **un score** sur 100, avec un résumé en langage simple de ce qu’il veut dire pour votre système : votre type d’aquarium, son âge, votre population.
 
-Le score est calculé à partir de vos résultats par rapport à leurs plages cibles, y compris toute plage que vous avez définie vous-même. Tout résultat hors de sa plage maintient le score à 70 ou moins, et un résultat très hors plage le maintient à 40 ou moins, quelle que soit la qualité du reste. L’étiquette sous le score indique **Sain** au-dessus de 70, **Attention requise** de 40 à 70, et **Critique** sous 40. Les rapports de santé sont notés de la même façon.
+Le score compare vos résultats à leurs plages cibles, y compris les plages que vous avez réglées vous-même. Un seul résultat hors de sa plage bloque le score à 70 au plus. Un résultat très hors plage le bloque à 40 au plus, même si tout le reste est bon. Sous le score, l’étiquette indique **Sain** au-dessus de 70, **Attention requise** de 40 à 70 et **Critique** sous 40. Les rapports de santé sont notés de la même façon.
 
-**Chaque élément suivi** : pas seulement les paramètres principaux, mais aussi les oligo-éléments et contaminants.
+Ensuite, **tous les éléments suivis** : les paramètres principaux, mais aussi les oligo-éléments et les contaminants.
 
-**Principaux mouvements** : la carte « Depuis votre dernier ICP » montre ce qui a le plus changé depuis la dernière fois, ce qui est généralement le moyen le plus rapide de comprendre un nouveau rapport.
+La carte « Depuis votre dernier ICP » montre **les plus gros changements** depuis le test précédent. C’est souvent le moyen le plus rapide de comprendre un nouveau rapport.
 
-**Tendances** : touchez **Tendances** pour voir un élément sur tous les tests que vous avez téléchargés. C’est là que l’ICP arrête d’être un instantané et devient utile.
+Enfin, touchez **Tendances** pour suivre un élément sur tous les tests que vous avez importés. C’est là que l’ICP devient vraiment utile, au-delà d’une simple photo à un instant donné.
 
-:::tip C’est avec deux tests que cela devient intéressant
-Un seul ICP vous dit où vous êtes. Le second vous dit dans quelle direction vous allez, ce qui est le fait le plus exploitable. Testez selon un rythme plutôt que seulement quand quelque chose va mal.
+:::tip Tout devient intéressant au deuxième test
+Un ICP vous dit où vous en êtes. Le deuxième vous dit dans quelle direction vous allez, et c’est ce qui vous aide le plus à agir. Faites vos tests à un rythme régulier, et pas uniquement quand quelque chose ne va pas.
 :::
 
 ## Rapports de santé
 
-Un **Rapport de santé** est une évaluation périodique plus approfondie de tout le système : chaque paramètre, chaque source, votre dosage, votre historique et vos résultats ICP récents, examinés ensemble.
+Un **Rapport de santé** est un bilan plus complet de tout le système, à faire de temps en temps. Il examine ensemble tous les paramètres, toutes les sources, votre dosage, votre historique et vos derniers résultats ICP.
 
-Touchez **Rapport de santé** et choisissez un aquarium. Cela prend un moment à produire.
+Touchez **Rapport de santé** et choisissez un aquarium. Le rapport met un moment à se préparer.
 
-Utilisez-le quand vous voulez une lecture réfléchie plutôt que le titre du jour : avant un grand changement, après un problème, ou toutes les quelques semaines comme point de contrôle.
+Lancez-en un quand le titre du jour ne suffit pas et que vous voulez un avis réfléchi : avant un gros changement, après un problème, ou toutes les quelques semaines pour faire le point.
 
 ## L’ICP face à vos sondes
 
-Cora compare vos résultats de laboratoire avec ce que rapporte votre équipement. Quand votre sonde d’alcalinité dit 8,4 et que votre ICP dit 7,6, c’est un fait qui vaut la peine d’être connu, et Cora le fait apparaître plutôt que de discrètement en préférer un.
+Cora compare vos résultats de laboratoire avec ce que mesure votre équipement. Si votre sonde d’alcalinité indique 8,4 et votre ICP 7,6, c’est bon à savoir. Cora vous le montre, sans choisir l’un des deux en silence.
 
-C’est l’une des choses les plus utiles qu’un ICP fait dans Cora. C’est un **troisième avis, pas un arbitre** : les laboratoires diffèrent les uns des autres, et la manipulation, le stockage et le transport d’un échantillon influencent tous le résultat. Traitez un seul ICP comme une preuve (deux tests d’accord valent bien plus qu’un seul) et lisez un écart persistant comme une raison de vérifier la sonde, pas comme la preuve que la sonde a tort.
+C’est l’un des grands intérêts d’un ICP dans Cora. Voyez-le comme **un troisième avis, pas un arbitre**. Les laboratoires ne donnent pas tous les mêmes résultats, et la manipulation, la conservation et le transport de l’échantillon jouent tous sur la mesure. Un ICP est un indice. Deux tests qui concordent valent bien plus qu’un seul. Si l’écart persiste, vérifiez la sonde, sans conclure pour autant qu’elle se trompe.
 
-:::tip Changer de laboratoire ou de méthode de test
-Changer de laboratoire, ou passer entre les tests ICP-OES et ICP-MS d’un laboratoire, peut faire bouger vos résultats sans aucun changement dans votre aquarium, et Cora le signale quand il les compare. L’ICP-OES ne peut pas mesurer de très faibles niveaux de chrome, d’étain, de nickel, de cuivre, de cobalt ou de sélénium, donc un résultat **Sous le seuil de détection** pour ceux-ci sur un test ICP-OES ne signifie pas que votre aquarium n’en a pas.
+:::tip Changer de laboratoire ou de méthode
+Changer de laboratoire, ou passer de l’ICP-OES à l’ICP-MS dans un même laboratoire, peut faire bouger vos résultats sans que rien ne change dans l’aquarium. Cora le signale quand il compare les tests. L’ICP-OES ne mesure pas les très faibles taux de chrome, d’étain, de nickel, de cuivre, de cobalt ou de sélénium. Un résultat **Sous le seuil de détection** pour ces éléments sur un test ICP-OES ne veut donc pas dire que votre aquarium n’en contient pas.
 :::
 
-## Votre allocation
+## Votre quota
 
-Les deux sont mesurés par votre forfait. La ligne sous les boutons montre ce que vous avez utilisé ce mois-ci.
+Les ICP et les rapports de santé sont décomptés selon votre forfait. La ligne sous les boutons montre ce que vous avez utilisé ce mois-ci.
 
-Séparément de votre forfait, Cora accepte jusqu’à 10 téléchargements ICP par jour. Un téléchargement refusé pour cette raison n’utilise aucune des analyses ICP de votre forfait, mais Cora Mobile affiche seulement une erreur de téléchargement générale, donc si les téléchargements commencent à échouer après en avoir fait beaucoup en une journée, réessayez le lendemain.
+En plus de votre forfait, Cora accepte au maximum 10 imports ICP par jour. Un import refusé pour cette raison ne compte pas dans les analyses ICP de votre forfait. Mais Cora Mobile n’affiche alors qu’une erreur d’import générale. Si vos imports échouent après en avoir fait beaucoup dans la journée, réessayez le lendemain.
 
-## Où vivent les rapports
+## Où trouver vos rapports
 
-L’écran Intelligence garde les deux types séparément : les résultats de laboratoire sous **Rapports ICP**, et les analyses générées sous **Rapports de santé**. Chaque liste va du plus récent au plus ancien avec son score ; touchez-en un pour le rouvrir en entier.
+L’écran Intelligence range les deux types à part : les résultats de laboratoire dans **Rapports ICP**, les bilans générés dans **Rapports de santé**. Chaque liste commence par le plus récent et affiche son score. Touchez un rapport pour le rouvrir en entier.

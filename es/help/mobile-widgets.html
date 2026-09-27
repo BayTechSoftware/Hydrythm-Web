@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Referencia de widgets | Cora Help</title>
-  <meta name="description" content="Cada tipo de widget en Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo usar cada uno.">
+  <title>Tipos de widget | Cora Help</title>
+  <meta name="description" content="Los tipos de widget de Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo te conviene cada uno.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-widgets">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-widgets">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-widgets">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-widgets">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Referencia de widgets | Cora Help">
-  <meta property="og:description" content="Cada tipo de widget en Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo usar cada uno.">
+  <meta property="og:title" content="Tipos de widget | Cora Help">
+  <meta property="og:description" content="Los tipos de widget de Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo te conviene cada uno.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-widgets">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets" class="cur" aria-current="page">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets" class="cur" aria-current="page">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -167,51 +167,52 @@
 
   <main class="hmain" id="main">
     <article class="doc">
-      <h1>Referencia de widgets</h1>
+      <h1>Tipos de widget</h1>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#los-nueve-tipos">Los nueve tipos</a></li><li><a href="#tamao">Tamaño</a></li><li><a href="#valor">Valor</a></li><li><a href="#medidor">Medidor</a></li><li><a href="#grfico">Gráfico</a></li><li><a href="#estado">Estado</a></li><li><a href="#toma">Toma</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#qu-muestra-un-widget-de-parmetro">Qué muestra un widget de parámetro</a></li><li><a href="#tamaos">Tamaños</a></li></ul></nav>
-<p>Un widget es una casilla en tu panel que muestra una sola cosa. Esta página cubre cada tipo y qué puedes configurar.</p>
-<p>Añádelos y ordénalos en <strong><a href="/es/help/mobile-dashboard-editing">el editor de panel</a></strong>; toca un widget ahí para abrir sus ajustes.</p>
+<p>Un widget es una casilla de tu panel que muestra una sola cosa. Aquí tienes cada tipo y lo que puedes configurar en él.</p>
+<p>Los añades y los colocas en <a href="/es/help/mobile-dashboard-editing">el editor del panel</a>. Toca un widget en el editor para abrir sus ajustes.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Configurar un widget"><img src="/help/img/mobile-widget-config.webp" alt="Configurar un widget" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Tipo, parámetro, y luego ancho y alto.</figcaption></figure>
 <h2 id="los-nueve-tipos">Los nueve tipos</h2>
-<div class="tw"><table class="stack"><thead><tr><th>Tipo</th><th>Muestra</th></tr></thead><tbody><tr><td data-th="Tipo"><strong>Valor</strong></td><td data-th="Muestra">La lectura actual, su unidad, antigüedad y fuente</td></tr><tr><td data-th="Tipo"><strong>Medidor</strong></td><td data-th="Muestra">Un arco con tu rango marcado en bandas y una marca en el valor</td></tr><tr><td data-th="Tipo"><strong>Gráfico</strong></td><td data-th="Muestra">Una tendencia en una ventana que elijas</td></tr><tr><td data-th="Tipo"><strong>Estado</strong></td><td data-th="Muestra">Un estado como texto: en marcha, inactivo, cerrado</td></tr><tr><td data-th="Tipo"><strong>Toma</strong></td><td data-th="Muestra">Un control de tres posiciones: Auto, Apagado, Encendido</td></tr><tr><td data-th="Tipo"><strong>ReefBeat</strong></td><td data-th="Muestra">Una unidad Red Sea™, con su propio resumen</td></tr><tr><td data-th="Tipo"><strong>Módulo Apex</strong></td><td data-th="Muestra">Un módulo Apex instalado, como un Trident o un DŌS</td></tr><tr><td data-th="Tipo"><strong>Jecod™</strong></td><td data-th="Muestra">Una bomba Jecod, con su modo e intensidad</td></tr><tr><td data-th="Tipo"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Muestra">Un gyre, con ambos motores</td></tr></tbody></table></div>
-<p>Los últimos cuatro son casillas de <strong>dispositivo</strong>: están vinculadas a un equipo en lugar de a un parámetro, y cada una muestra lo que esa unidad reporte.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Tipo</th><th>Muestra</th></tr></thead><tbody><tr><td data-th="Tipo"><strong>Valor</strong></td><td data-th="Muestra">La lectura actual, con su unidad, su antigüedad y su fuente</td></tr><tr><td data-th="Tipo"><strong>Medidor</strong></td><td data-th="Muestra">Un arco con tu rango marcado en bandas y una marca en el valor</td></tr><tr><td data-th="Tipo"><strong>Gráfico</strong></td><td data-th="Muestra">La tendencia en el periodo que elijas</td></tr><tr><td data-th="Tipo"><strong>Estado</strong></td><td data-th="Muestra">Un estado en texto, como en marcha, inactivo o cerrado</td></tr><tr><td data-th="Tipo"><strong>Toma</strong></td><td data-th="Muestra">Un control de tres posiciones: Auto, Apagado, Encendido</td></tr><tr><td data-th="Tipo"><strong>ReefBeat</strong></td><td data-th="Muestra">Un equipo Red Sea™, con su propio resumen</td></tr><tr><td data-th="Tipo"><strong>Módulo Apex</strong></td><td data-th="Muestra">Un módulo Apex instalado, como un Trident o un DŌS</td></tr><tr><td data-th="Tipo"><strong>Jecod™</strong></td><td data-th="Muestra">Una bomba Jecod, con su modo y su intensidad</td></tr><tr><td data-th="Tipo"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Muestra">Un gyre, con sus dos motores</td></tr></tbody></table></div>
+<p>Los cuatro últimos son casillas de <strong>dispositivo</strong>. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.</p>
 <h2 id="tamao">Tamaño</h2>
-<p><strong>Ancho</strong> y <strong>Alto</strong> son cada uno <strong>1×</strong> o <strong>2×</strong>. Un gráfico nunca tiene un ancho de una sola celda.</p>
+<p><strong>Ancho</strong> y <strong>Alto</strong> pueden ser <strong>1×</strong> o <strong>2×</strong>. Un gráfico nunca ocupa una sola celda de ancho.</p>
 <h2 id="valor">Valor</h2>
-<p>El número simple. Lectura actual, su unidad, cuán antigua es y de dónde viene.</p>
-<p>Úsalo para parámetros que revisas numéricamente en lugar de por tendencia: calcio, magnesio, nitrato.</p>
-<p><strong>Ajustes:</strong> etiqueta, fuente, tamaño.</p>
+<p>El número tal cual. Ves la lectura actual, su unidad, su antigüedad y de dónde viene.</p>
+<p>Va bien para los parámetros que miras por el número más que por la tendencia, como el calcio, el magnesio o el nitrato.</p>
+<p>Puedes cambiar la etiqueta, la fuente y el tamaño.</p>
 <h2 id="medidor">Medidor</h2>
-<p>Un arco con tu rango objetivo marcado en bandas y una marca en el valor actual. El color de la marca te dice dónde estás: dentro de la banda, desviándose, o fuera.</p>
-<p>Úsalo para los parámetros que gestionas activamente: alcalinidad, pH, salinidad, temperatura.</p>
-<p><strong>Ajustes:</strong> etiqueta, fuente, rango (heredado de los objetivos de tu acuario a menos que lo anules aquí), tamaño.</p>
-<aside class="cal cal-note"><p class="cal-t">Usa medidores de dos columnas o más</p><p>En una sola columna el arco es demasiado pequeño para leerlo de un vistazo; usa un widget de <strong>valor</strong> en su lugar si el espacio es limitado.</p></aside>
+<p>Un arco con tu rango objetivo marcado en bandas y una marca en el valor actual. El color de la marca te dice dónde estás. Puede estar dentro de la banda, empezando a desviarse o fuera.</p>
+<p>Va bien para los parámetros que controlas de cerca, como la alcalinidad, el pH, la salinidad o la temperatura.</p>
+<p>Puedes cambiar la etiqueta, la fuente, el rango y el tamaño. El rango sale de los objetivos de tu acuario, salvo que pongas otro aquí.</p>
+<aside class="cal cal-note"><p class="cal-t">Dale al medidor dos columnas o más</p><p>En una sola columna el arco queda demasiado pequeño para leerlo de un vistazo. Si te falta espacio, usa un widget de <strong>valor</strong>.</p></aside>
 <h2 id="grfico">Gráfico</h2>
-<p>Una minigráfica en una ventana que elijas, con el máximo y el mínimo marcados y el valor actual destacado.</p>
-<p>Para un parámetro que pruebas (con Trident o con un kit de pruebas), la línea une tus pruebas reales. Si la ventana solo contiene una prueba, la línea entra desde la prueba anterior a ella, y no se marca ni máximo ni mínimo. Sin ninguna prueba en la ventana, o sin nada anterior con qué unir una sola prueba, la casilla muestra <strong>Recopilando…</strong> en lugar de una línea.</p>
-<p>Úsalo para cualquier cosa que se mueva: pH a lo largo del día, temperatura durante una ola de calor, alcalinidad entre dosis.</p>
-<p><strong>Ajustes:</strong> etiqueta, fuente, <strong>ventana de tiempo</strong> (1 hora, 6 horas, 24 horas, 7 días, 30 días, 1 año), tamaño.</p>
-<p>Una tendencia siempre tiene <strong>al menos dos celdas de ancho</strong>; una minigráfica apretada en una sola celda no te dice nada, así que el editor no va a crear una así.</p>
-<aside class="cal cal-note"><p class="cal-t">Elige la ventana según el ritmo</p><p>El pH oscila en un ciclo diario, así que 24 horas te muestra la forma. La alcalinidad se mueve durante días, así que 7 o 30 te dicen más de lo que 24 dirá nunca.</p></aside>
+<p>Una línea de tendencia en el periodo que elijas, con el máximo y el mínimo marcados y el valor actual destacado.</p>
+<p>Si el parámetro lo mides con pruebas (con Trident o con un kit), la línea une tus pruebas reales. Cuando en el periodo solo hay una prueba, la línea llega desde la prueba anterior y no se marcan máximo ni mínimo. Si no hay ninguna prueba en el periodo, o no hay una prueba anterior con la que unir la única que hay, la casilla muestra <strong>Recopilando…</strong> y no dibuja línea.</p>
+<p>Úsalo para todo lo que cambia: el pH a lo largo del día, la temperatura durante una ola de calor, la alcalinidad entre dosis.</p>
+<p>Puedes cambiar la etiqueta, la fuente, el <strong>rango de tiempo</strong> (1 hora, 6 horas, 24 horas, 7 días, 30 días, 1 año) y el tamaño.</p>
+<p>Una tendencia ocupa siempre <strong>al menos dos celdas de ancho</strong>. En una sola celda la línea no dice nada, así que el editor no la crea.</p>
+<aside class="cal cal-note"><p class="cal-t">Elige el periodo según el ritmo del parámetro</p><p>El pH sube y baja cada día, así que con 24 horas ves bien el ciclo. La alcalinidad cambia a lo largo de varios días, y con 7 o 30 días verás mucho más que con 24 horas.</p></aside>
 <h2 id="estado">Estado</h2>
-<p>Texto en lugar de un número, para cosas que son un estado. En marcha, inactivo, abierto, cerrado, alimentando.</p>
-<p><strong>Ajustes:</strong> etiqueta, fuente, tamaño.</p>
+<p>Muestra un texto para las cosas que son un estado y no un número. Por ejemplo, en marcha, inactivo, abierto, cerrado o alimentando.</p>
+<p>Puedes cambiar la etiqueta, la fuente y el tamaño.</p>
 <h2 id="toma">Toma</h2>
-<p>Un interruptor de tres posiciones para una toma: <strong>Auto</strong>, <strong>Apagado</strong>, <strong>Encendido</strong>.</p>
-<ul><li><strong>Auto</strong> devuelve la toma a lo que normalmente la gestiona: un horario, una regla, o el controlador al que pertenece.</li><li><strong>Apagado</strong> y <strong>Encendido</strong> son anulaciones manuales que se quedan hasta que las cambies de vuelta.</li></ul>
-<p><strong>Ajustes:</strong> etiqueta, qué toma, tamaño.</p>
-<aside class="cal cal-warning"><p class="cal-t">Una anulación manual no caduca</p><p>Apagado significa apagado hasta que lo vuelvas a poner en Auto. Si apagas una bomba de retorno para trabajar en el acuario, vuelve a ponerla en Auto cuando termines; Cora no lo hará por ti.</p></aside>
+<p>Un interruptor de tres posiciones para una toma: <strong>Auto</strong>, <strong>Apagado</strong> y <strong>Encendido</strong>.</p>
+<ul><li><strong>Auto</strong> devuelve la toma a lo que la controla normalmente, sea un programa, una regla o el controlador al que pertenece.</li><li><strong>Apagado</strong> y <strong>Encendido</strong> son cambios manuales. Se mantienen hasta que tú los cambies.</li></ul>
+<p>Puedes cambiar la etiqueta, la toma y el tamaño.</p>
+<aside class="cal cal-warning"><p class="cal-t">Un cambio manual no caduca</p><p>Apagado es apagado hasta que vuelvas a ponerla en Auto. Si apagas la bomba de retorno para trabajar en el acuario, vuelve a ponerla en Auto al terminar. Cora no lo hace por ti.</p></aside>
 <h2 id="reefbeat">ReefBeat</h2>
-<p>Una casilla para todo un equipo, mostrando su propio resumen en lugar de un solo parámetro: el estado y el depósito de un ATO, los cabezales de una unidad de dosificación, los días restantes de un rodillo de estera.</p>
-<p>Qué dispositivos ofrecen una casilla depende de lo que tengas conectado. Consulta <strong><a href="/es/help/mobile-connections">Conectar tu equipo</a></strong>.</p>
-<p><strong>Ajustes:</strong> etiqueta, qué dispositivo, tamaño.</p>
+<p>Una casilla para un equipo completo, con su propio resumen. Por ejemplo, el estado y el depósito de un ATO, los cabezales de una dosificadora o los días que le quedan a un rollo de fieltro.</p>
+<p>Los dispositivos que tienen casilla dependen de lo que hayas conectado. Lo tienes en <a href="/es/help/mobile-connections">Conectar tus equipos</a>.</p>
+<p>Puedes cambiar la etiqueta, el dispositivo y el tamaño.</p>
 <h2 id="qu-muestra-un-widget-de-parmetro">Qué muestra un widget de parámetro</h2>
-<p>En un widget respaldado por un parámetro medido (Valor, Medidor, Gráfico y Estado), siempre hay tres cosas presentes. Las casillas de Toma y de dispositivo muestran su propio estado en su lugar, porque no hay una sola lectura detrás de ellas:</p>
-<ul><li><strong>El valor</strong>, en grande</li><li><strong>La antigüedad</strong> (<code>now</code>, <code>1h</code>, <code>2d</code>): cuán antigua es la lectura, no cuándo se actualizó la pantalla por última vez</li><li><strong>La fuente</strong>: una pequeña insignia que indica de dónde vino el número</li></ul>
-<p>Toca cualquier widget para abrir su historial completo, cada fuente que lo reporta y los umbrales en vigor.</p>
+<p>Los widgets que dependen de un parámetro medido (Valor, Medidor, Gráfico y Estado) muestran siempre tres cosas:</p>
+<ul><li><strong>El valor</strong>, en grande</li><li><strong>La antigüedad</strong> (<code>now</code>, <code>1h</code>, <code>2d</code>), es decir, cuánto tiempo tiene la lectura, no cuándo se actualizó la pantalla</li><li><strong>La fuente</strong>, una pequeña insignia que indica de dónde viene el número</li></ul>
+<p>Las casillas de toma y de dispositivo muestran su propio estado, porque detrás de ellas no hay una sola lectura.</p>
+<p>Toca cualquier widget para abrir su historial completo, todas las fuentes que lo informan y los umbrales que se aplican.</p>
 <h2 id="tamaos">Tamaños</h2>
-<p>Los widgets tienen uno o dos celdas de ancho y una o dos de alto, excepto una <strong>tendencia</strong>, que siempre tiene al menos dos de ancho. En un panel de tres columnas, un medidor de dos de ancho ocupa dos tercios de la fila, que suele ser la forma adecuada para tu parámetro más importante.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-dashboard-editing"><span>Anterior</span><b>Editar tu panel</b></a><a class="pn-n" href="/es/help/mobile-metric-detail"><span>Siguiente</span><b>Profundizar en un parámetro</b></a></nav>
+<p>Los widgets ocupan una o dos celdas de ancho y una o dos de alto. La excepción es la <strong>tendencia</strong>, que siempre ocupa al menos dos de ancho. En un panel de tres columnas, un medidor de dos de ancho llena dos tercios de la fila. Suele ser la mejor forma de mostrar tu parámetro más importante.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-dashboard-editing"><span>Anterior</span><b>Editar tu panel</b></a><a class="pn-n" href="/es/help/mobile-metric-detail"><span>Siguiente</span><b>Ver un parámetro a fondo</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>

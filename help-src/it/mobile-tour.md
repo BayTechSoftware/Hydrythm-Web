@@ -1,56 +1,56 @@
 ---
 title: Le cinque schede
-description: Un tour di Cora Mobile: Dashboard, Dispositivi, Assistente, Intelligence e Impostazioni, e cosa vive in ognuna.
+description: Un giro di Cora Mobile: Dashboard, Dispositivi, Assistente, Intelligence e Impostazioni, e cosa trovi in ognuna.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 4
 group: Getting started
 ---
 
-Cora Mobile ha cinque schede lungo il fondo. Quasi tutto quello che fai vive in una di esse.
+In basso Cora Mobile ha cinque schede. Quasi tutto quello che fai passa da una di queste.
 
 ![Le cinque schede di Cora Mobile](img/mobile-tabs.webp "Dashboard, Dispositivi, Assistente, Intelligence, Impostazioni.")
 
 ## Dashboard
 
-Letture in tempo reale per la vasca selezionata. Questa è la schermata principale di Cora Mobile.
+Le letture in tempo reale della vasca selezionata. È la schermata principale di Cora Mobile.
 
-Se hai più di una vasca, scorri a sinistra e a destra per passare da una all'altra; i punti sotto l'intestazione mostrano dove ti trovi. L'intestazione della vasca porta il nome della vasca e una riga di azioni: modalità alimentazione, il briefing di Reef Buddy, la condivisione e una matita che apre il profilo della vasca. Modificare la dashboard è un controllo separato, **Modifica dashboard**, in fondo alla pagina.
+Se hai più vasche, scorri a destra e a sinistra per passare dall'una all'altra. I puntini sotto l'intestazione ti dicono dove sei. Nell'intestazione ci sono il nome della vasca e una fila di comandi: modalità alimentazione, briefing di Reef Buddy, condivisione e una matita che apre il profilo della vasca. Per modificare la dashboard c'è un comando a parte, **Modifica dashboard**, in fondo alla pagina.
 
-Dettagli completi: **[Leggere la tua dashboard](/help/mobile-dashboard)**.
+Tutti i dettagli in **[Leggere la dashboard](/help/mobile-dashboard)**.
 
 ## Dispositivi
 
-Tutto ciò che hai collegato, raggruppato per marca. Ogni gruppo si può chiudere, così una stanza della vasca piena di equipaggiamento resta leggibile.
+Tutto quello che hai collegato, diviso per marca. Ogni gruppo si può chiudere, così l'elenco resta leggibile anche con una stanza piena di attrezzatura.
 
-Qui è dove aggiungi nuovo equipaggiamento, lo rinomini, lo assegni a una vasca e lo rimuovi. Dettagli completi: **[Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices)**.
+Qui aggiungi nuova attrezzatura, la rinomini, la assegni a una vasca e la rimuovi. Tutti i dettagli in **[Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices)**.
 
 ## Assistente
 
-Fai domande a Cora sulla tua vasca in linguaggio semplice, scrivendo o a voce. Può vedere le tue letture in tempo reale, il tuo storico e i tuoi risultati ICP, quindi "perché la mia alcalinità sta scendendo?" è una domanda a cui può davvero rispondere sulla *tua* vasca.
+Qui fai domande a Cora sulla tua vasca con parole semplici, scrivendo o a voce. Cora vede le letture in tempo reale, lo storico e i risultati ICP. Quindi a una domanda come "perché la mia alcalinità sta scendendo?" risponde parlando proprio della *tua* vasca.
 
-Dettagli completi: **[Fare domande a Cora](/help/mobile-assistant)**.
+Tutti i dettagli in **[Fare domande a Cora](/help/mobile-assistant)**.
 
 ## Intelligence
 
-Il tuo lavoro di laboratorio e la tua visione a lungo termine. Carica un test ICP e Cora lo legge, traccia ogni elemento nel tempo e ti dice cosa è cambiato dall'ultima volta. I Rapporti di Salute sono una valutazione periodica più approfondita di tutto il sistema.
+Qui trovi i risultati di laboratorio e l'andamento della vasca sul lungo periodo. Carica un test ICP: Cora lo legge, segue ogni elemento nel tempo e ti dice cosa è cambiato dall'ultima volta. I Rapporti di Salute sono una valutazione periodica più approfondita di tutto l'impianto.
 
-Dettagli completi: **[ICP e rapporti di salute](/help/mobile-icp-health)**.
+Tutti i dettagli in **[ICP e rapporti di salute](/help/mobile-icp-health)**.
 
 ## Impostazioni
 
-Account, vasche, prodotti di dosaggio, l'Assistente, notifiche, automazione, e il tuo piano.
+Account, vasche, prodotti di dosaggio, Assistente, notifiche, automazioni e piano.
 
-Dettagli completi: **[Impostazioni](/help/mobile-settings)**.
+Tutti i dettagli in **[Impostazioni](/help/mobile-settings)**.
 
 ## Il tour del primo avvio
 
-La prima volta che apri la dashboard, Cora indica a turno le parti dello schermo. Va in scena una sola volta.
+La prima volta che apri la dashboard, Cora ti mostra una alla volta le parti dello schermo. Il tour parte una volta sola.
 
-Per rivederlo, usa **Impostazioni → Informazioni → Riguarda i suggerimenti**. Riavvia il tour e ti porta alla dashboard così inizia immediatamente, utile dopo un aggiornamento, o quando passi il telefono a qualcun altro.
+Per rivederlo vai in **Impostazioni → Informazioni → Riguarda i suggerimenti**. Il tour riparte e ti porta alla dashboard per cominciare subito. È utile dopo un aggiornamento o quando passi il telefono a qualcun altro.
 
-## Due controlli fuori dalle schede
+## Due comandi fuori dalle schede
 
-**La campana**, in alto a destra, è il tuo storico delle notifiche: ogni avviso che Cora ha generato, dal più recente. Il numero su di essa è quanti devi ancora leggere.
+**La campanella** in alto a destra è lo storico delle notifiche: tutti gli avvisi di Cora, dal più recente. Il numero indica quanti non hai ancora letto.
 
-**Il pulsante del Diario** fluttua sopra la parte inferiore destra della Dashboard. Toccalo per scrivere cosa hai appena fatto: un cambio d'acqua, un nuovo corallo, un dosaggio che hai cambiato. Vedi **[Il diario](/help/mobile-journal)**.
+**Il pulsante Diario** è in basso a destra, sopra la Dashboard. Toccalo per annotare quello che hai appena fatto: un cambio d'acqua, un corallo nuovo, un dosaggio modificato. Vedi **[Il diario](/help/mobile-journal)**.

@@ -1,108 +1,108 @@
 ---
 title: Impostazioni
-description: Una guida di riferimento per ogni sezione delle impostazioni di Cora Mobile: account, vasche, Cora Assistant, lingua, notifiche, automazione e attività.
+description: Tutte le sezioni delle impostazioni di Cora Mobile: account, vasche, Cora Assistant, lingua, notifiche, automazione e attività.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 32
 group: Account
 ---
 
-Tutto ciò che puoi configurare, nell'ordine in cui appare.
+Qui trovi tutto quello che puoi impostare, nell'ordine in cui compare.
 
 ![La scheda Impostazioni](img/mobile-settings.webp "Una riga per area. La tua scheda account sta sopra queste.")
 
 ## Il tuo account
 
-La scheda in alto mostra con chi hai fatto l'accesso e su quale piano sei. Toccala per:
+La scheda in alto mostra con quale account hai fatto l'accesso e che piano hai. Toccala per:
 
-- **Nome visualizzato**: come vieni chiamato in Cora Mobile
-- **Piano e abbonamento**: cosa hai, cosa include, e come cambiarlo
+- **Nome visualizzato**: il nome con cui ti chiama Cora Mobile
+- **Piano e abbonamento**: cosa hai, cosa comprende e come cambiarlo
 - **Esci**
-- **Elimina account**: permanente. Leggi le due note sotto prima di usarlo.
+- **Elimina account**: è definitivo. Prima di usarlo leggi le due note più sotto.
 
 ## Cora
 
-- **Automazioni**: regole e scene che si eseguono da sole. Dettagli completi: **[Automazioni e scene](/help/mobile-automation)**.
-- **Cora Assistant**: l'IA che risponde alle domande sulla tua vasca, e quale dispositivo risponde alla tua voce. Vedi "Cora Assistant" sotto e **[Fare domande a Cora](/help/mobile-assistant)**.
-- **Attività**: un registro di ogni comando inviato al tuo equipaggiamento. Dettagli completi: **[Attività e cronologia](/help/mobile-activity)**.
-- **Prodotti di dosaggio**: la concentrazione di ciò che dosi. Dettagli completi: **[Dosaggio](/help/mobile-dosing)**.
+- **Automazioni**: regole e scene che partono da sole. Tutti i dettagli in **[Automazioni e scene](/help/mobile-automation)**.
+- **Cora Assistant**: l'IA che risponde alle domande sulla tua vasca, e la scelta del dispositivo che risponde alla tua voce. Vedi "Cora Assistant" più sotto e **[Fare domande a Cora](/help/mobile-assistant)**.
+- **Attività**: il registro di tutti i comandi inviati alla tua attrezzatura. Tutti i dettagli in **[Attività e cronologia](/help/mobile-activity)**.
+- **Prodotti di dosaggio**: la concentrazione dei prodotti che dosi. Tutti i dettagli in **[Dosaggio](/help/mobile-dosing)**.
 
-:::warning L'automazione agisce su equipaggiamento reale
-Una regola che commuta una pompa la commuterà indipendentemente dal fatto che tu stia guardando. Creale una alla volta, e controlla che ognuna faccia ciò che ti aspetti prima di aggiungere la successiva.
+:::warning Le automazioni agiscono sull'attrezzatura vera
+Una regola che spegne una pompa la spegne anche se non stai guardando. Crea una regola alla volta e controlla che faccia quello che ti aspetti prima di aggiungerne un'altra.
 :::
 
 ## Vasche
 
-Una riga per vasca, poi:
+C'è una riga per ogni vasca, poi:
 
 - **Aggiungi vasca**
-- **Riordina vasche**: l'ordine in cui appaiono quando scorri la dashboard
-- **Vasche rimosse**: vasche che hai eliminato, nel caso ti serva riavere qualcosa
+- **Riordina vasche**: l'ordine in cui compaiono quando scorri la dashboard
+- **Vasche rimosse**: le vasche che hai eliminato, se ti serve recuperare qualcosa
 
-Apri una vasca per raggiungere **Cora Max principale** (quale dispositivo interroga l'equipaggiamento di quella vasca) e **Configurazione guidata**, e per modificare la vasca stessa. Dettagli completi sul Cora Max principale: **[Più di un dispositivo Cora](/help/mobile-multi-device)**.
+Apri una vasca per trovare **Cora Max principale** (il dispositivo che legge l'attrezzatura di quella vasca) e **Configurazione guidata**, e per modificare la vasca. Tutto sul Cora Max principale in **[Più di un dispositivo Cora](/help/mobile-multi-device)**.
 
-- **Modalità vacanza**: un piano per chi si occupa della vasca mentre sei via. Dettagli completi: **[Andare in vacanza](/help/mobile-vacation)**. Imposti le date e crei una lista di controllo di lavori con quanto spesso ognuno deve essere svolto, e Cora la trasforma in una semplice pagina di sola lettura che puoi condividere con chi si occupa della tua vasca. Non ha bisogno di un account.
+- **Modalità vacanza**: un piano per chi si occupa della vasca mentre sei via. Tutti i dettagli in **[Andare in vacanza](/help/mobile-vacation)**. Imposti le date e fai una lista dei lavori, indicando ogni quanto va fatto ciascuno. Cora la trasforma in una pagina semplice, in sola lettura, da condividere con chi ti sostituisce. Non serve un account.
 
 ## Impostazioni app
 
-- **Notifiche**: cosa raggiunge il tuo telefono. Dettagli completi: **[Notifiche](/help/mobile-notifications)**.
-- **Lingua**: la lingua dell'account, descritta sotto.
-- **Aspetto**: chiaro, scuro, o come il tuo telefono.
-- **Accesso dispositivi**: descritto sotto.
-- **Aiuto e assistenza**: contatta l'assistenza, segnala un bug o invia un feedback, e il sito web e le FAQ di Cora.
-- **Informazioni**: descritto sotto.
+- **Notifiche**: quali notifiche arrivano sul telefono. Tutti i dettagli in **[Notifiche](/help/mobile-notifications)**.
+- **Lingua**: la lingua dell'account, spiegata più sotto.
+- **Aspetto**: chiaro, scuro o come il telefono.
+- **Accesso dispositivi**: spiegato più sotto.
+- **Aiuto e assistenza**: per contattare l'assistenza, segnalare un bug o mandare un feedback, e per aprire il sito e le FAQ di Cora.
+- **Informazioni**: spiegato più sotto.
 
 ## Lingua
 
-**Una lingua per tutto l'account, non una per dispositivo.** Cambiarla sul tuo telefono la cambia anche su ogni Cora Max nella casa, e viceversa. I nuovi rapporti, avvisi e briefing di Reef Buddy seguono la nuova lingua da quel momento in poi; quelli più vecchi restano nella lingua in cui sono stati scritti e non vengono ritradotti.
+**La lingua è una sola per tutto l'account, non una per dispositivo.** Se la cambi sul telefono, cambia anche su tutti i Cora Max di casa, e viceversa. Da quel momento i nuovi rapporti, avvisi e briefing di Reef Buddy sono nella nuova lingua. Quelli vecchi restano nella lingua in cui sono stati scritti e non vengono tradotti.
 
-Se improvvisamente tutto nell'app è in una lingua che non ti aspettavi, qualcuno (o un altro dispositivo sull'account) l'ha cambiata qui o nell'impostazione **Lingua** corrispondente su un Cora Max; è condivisa, non per dispositivo.
+Se all'improvviso vedi tutto in una lingua inaspettata, qualcuno (o un altro dispositivo dell'account) l'ha cambiata qui o nell'impostazione **Lingua** di un Cora Max. La lingua è condivisa, non è per dispositivo.
 
 ## Accesso dispositivi
 
-**Accesso dispositivi** apre le impostazioni del tuo telefono per Cora, dove consenti ciò di cui ha bisogno per trovare il tuo equipaggiamento. La riga non mostra se qualcosa è disattivato; ti porta dove puoi controllare.
+**Accesso dispositivi** apre le impostazioni del telefono dedicate a Cora, dove dai i permessi che le servono per trovare la tua attrezzatura. La riga non ti dice se qualcosa è spento, ma ti porta dove puoi controllarlo.
 
-- Su iPhone: Rete locale e Bluetooth. Senza l'accesso alla Rete locale, una ricerca di equipaggiamento sul tuo Wi-Fi non trova nulla e non mostra alcun errore. iPhone chiede solo una volta, quindi questo è il modo per riattivarlo.
+- Su iPhone: Rete locale e Bluetooth. Senza l'accesso alla Rete locale, la ricerca di attrezzatura sul Wi-Fi non trova nulla e non mostra nessun errore. iPhone chiede il permesso una volta sola, quindi da qui lo riattivi.
 - Su Android: Bluetooth e posizione.
 
 ## Cora Assistant
 
-Si apre dalla riga **Cora Assistant** sotto **Cora**, sopra.
+Si apre dalla riga **Cora Assistant** nella sezione **Cora** più sopra.
 
-- **Consenti al Cora Assistant di usare i dati salvati della vasca**: se Cora Assistant può usare lo storico, le metriche e i dispositivi della tua vasca. Ha bisogno che sia attivo per rispondere: se è disattivo, Cora mostra di nuovo la sua schermata di consenso prima del tuo prossimo messaggio, e **Accetta e continua** lì lo riattiva. Vedi [Fare domande a Cora](/help/mobile-assistant).
-- **Contribuisci con dati anonimi della vasca**: se una copia de-identificata del tuo storico dei parametri viene conservata per la ricerca sui reef. **È attivo a meno che non lo disattivi**, ed è l'unica cosa che sopravvive all'eliminazione di un account.
-- **Memoria IA**: cosa Cora ricorda del tuo sistema tra una conversazione e l'altra. Puoi leggerla e azzerarla. Appare solo mentre l'interruttore di consenso sopra è attivo.
-- **Dispositivo di risposta**: quale dispositivo Cora risponde alla parola di attivazione nella tua casa. Dettagli completi: **[Più di un dispositivo Cora](/help/mobile-multi-device)**.
-- **Utilizzo e limiti**: le tue quote mensili e cosa hai usato
+- **Consenti al Cora Assistant di usare i dati salvati della vasca**: decide se Cora Assistant può usare storico, parametri e dispositivi della tua vasca. Per rispondere ha bisogno che sia attivo. Se è spento, Cora ti mostra di nuovo la schermata del consenso prima del prossimo messaggio, e lì **Accetta e continua** lo riaccende. Vedi [Fare domande a Cora](/help/mobile-assistant).
+- **Contribuisci con dati anonimi della vasca**: decide se una copia anonima dello storico dei parametri viene conservata per la ricerca sui reef. **È attivo finché non lo spegni**, ed è l'unica cosa che resta dopo l'eliminazione dell'account.
+- **Memoria IA**: quello che Cora ricorda del tuo impianto da una conversazione all'altra. Puoi leggerla e azzerarla. Compare solo se l'interruttore del consenso qui sopra è attivo.
+- **Dispositivo di risposta**: il dispositivo Cora che risponde alla parola di attivazione in casa. Tutti i dettagli in **[Più di un dispositivo Cora](/help/mobile-multi-device)**.
+- **Utilizzo e limiti**: le quote mensili e quanto hai usato
 
-## I tuoi dati, e i tre interruttori che li governano
+## I tuoi dati e la privacy
 
-Non sono in un solo posto, quindi è facile perderli:
+Tre impostazioni sui tuoi dati stanno in posti diversi, quindi è facile non vederle.
 
-- **Esporta i miei dati**: sulla **scheda account**, accanto a Elimina account. Tutto ciò che Cora conserva per te, come file che tieni tu, gratuito su ogni piano. Vedi **[Esportare i tuoi dati](/help/mobile-data-export)**.
-- **Contribuisci con dati anonimi della vasca**: sotto **Cora Assistant**, sopra. **È attivo a meno che non lo disattivi**, ed è l'unica cosa che sopravvive all'eliminazione di un account.
-- **Invia segnalazioni di arresto anomalo**: accanto a **Segnala un bug / Invia feedback**. La stessa promessa di quella riga, fatta senza che tu debba notare che qualcosa si è rotto e scriverlo.
+- **Esporta i miei dati**: nella **scheda account**, accanto a Elimina account. Le tue letture, le voci del diario e gli avvisi, in file che tieni tu, gratis con qualsiasi piano. Vedi **[I tuoi dati](/help/mobile-data-export)**.
+- **Contribuisci con dati anonimi della vasca**: in **Cora Assistant**, più sopra. **È attivo finché non lo spegni**, ed è l'unica cosa che resta dopo l'eliminazione dell'account.
+- **Invia segnalazioni di arresto anomalo**: accanto a **Segnala un bug / Invia feedback**. Serve allo stesso scopo di quella riga, ma senza che tu debba accorgerti che qualcosa si è rotto e scriverci.
 
-:::warning Eliminare il tuo account NON annulla il tuo abbonamento
-Un abbonamento App Store o Google Play appartiene allo **store**, non a Cora. Eliminare il tuo account rimuove il tuo registro qui e **nulla ferma la fatturazione**; gli addebiti continuano finché non annulli con Apple o Google direttamente. Annulla prima l'abbonamento, poi elimina l'account.
+:::warning Eliminare l'account NON annulla l'abbonamento
+Un abbonamento App Store o Google Play appartiene allo **store**, non a Cora. Se elimini l'account cancelli i tuoi dati qui, ma **gli addebiti continuano** finché non annulli direttamente con Apple o Google. Annulla prima l'abbonamento, poi elimina l'account.
 :::
 
-:::note Cosa non raggiunge un'eliminazione
-Se **Contribuisci con dati anonimi della vasca** è attivo (ed è attivo a meno che non l'abbia disattivato tu), una copia de-identificata dei profili delle tue vasche e del tuo storico dei parametri viene conservata per la ricerca come parte della stessa eliminazione. Non porta nessun collegamento a te. Disattiva quell'interruttore *prima* di eliminare se vuoi che sparisca anche quella.
+:::note Cosa resta dopo l'eliminazione
+Se **Contribuisci con dati anonimi della vasca** è attivo (e lo è, se non l'hai spento tu), durante l'eliminazione una copia anonima dei profili delle vasche e dello storico dei parametri viene conservata per la ricerca. Non ha nessun legame con te. Se vuoi che sparisca anche questa, spegni l'interruttore *prima* di eliminare l'account.
 :::
 
 ## Informazioni
 
-La versione che stai usando, e:
+Qui vedi la versione che stai usando, e trovi:
 
-- **Riguarda i suggerimenti**: rivede il tour della dashboard del primo avvio descritto in **[Le cinque schede](/help/mobile-tour)**, utile dopo un aggiornamento o quando qualcuno nuovo inizia a usare Cora Mobile
-- **Informativa sulla Privacy** e **Termini e Condizioni**: link alle pagine legali
-- **Licenze**: il software open-source su cui è costruito Cora Mobile
+- **Riguarda i suggerimenti**: ripropone il tour della dashboard del primo avvio, descritto in **[Le cinque schede](/help/mobile-tour)**. Utile dopo un aggiornamento o quando qualcuno inizia a usare Cora Mobile
+- **Informativa sulla Privacy** e **Termini e Condizioni**: i link alle pagine legali
+- **Licenze**: il software open source usato da Cora Mobile
 
 ## Ottenere assistenza
 
-In fondo a Impostazioni:
+In fondo alle Impostazioni:
 
-- **Contatta l'assistenza**: ci invia un'email; di solito rispondiamo entro un giorno
+- **Contatta l'assistenza**: ci scrivi un'email. Di solito rispondiamo entro un giorno
 - **Segnala un bug / Invia feedback**
 - **Sito web e FAQ di Cora**

@@ -1,49 +1,49 @@
 ---
-title: Uzaklaşma
-description: Akvaryum bakıcınızın takip edebileceği bir plan oluşturun ve onu hesap gerektirmeden açabilecekleri bir sayfa olarak paylaşın.
+title: Tatile çıkarken
+description: Akvaryum bakıcınız için bir plan hazırlayın ve bunu hesap gerektirmeyen bir sayfa olarak paylaşın.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 28
 group: Account
 ---
 
-Tatil modu, akvaryumunuzu başka birinin bakabileceği bir şeye çevirir. Tarihleri belirlersiniz, işleri listelersiniz ve Cora onlara gönderebileceğiniz basit bir sayfa üretir.
+Tatil modu, siz yokken akvaryumunuza başka birinin bakmasını kolaylaştırır. Tarihleri girer, yapılacak işleri yazarsınız. Cora da bakıcıya gönderebileceğiniz sade bir sayfa hazırlar.
 
 **Ayarlar → Akvaryumlar → Tatil modu.**
 
-![Tatil modu](img/mobile-vacation.webp "Seyahat tarihleri, bakıcı kontrol listesi ve onunla birlikte gelen notlar.")
+![Tatil modu](img/mobile-vacation.webp "Seyahat tarihleri, bakıcının kontrol listesi ve notlar.")
 
-## Planı oluşturma
+## Planı hazırlama
 
-**Tarihler**: ne zaman gittiğiniz ve ne zaman döndüğünüz.
+**Tarihler**: ne zaman gideceğiniz ve ne zaman döneceğiniz.
 
-**Bir kontrol listesi**: her iş, ne sıklıkta yapılması gerektiğiyle. Cora sıklığı yanına düz bir etiket olarak yerleştirir:
+**Kontrol listesi**: her iş ve ne sıklıkla yapılacağı. Cora sıklığı işin yanında sade bir etiket olarak gösterir:
 
-| Sıklık | Ne için |
+| Sıklık | Örnek |
 |---|---|
-| **Günlük** | Besleme, akvaryuma hızlı bir bakış |
-| **Her 3 günde bir** | Tamamlama, skimmer'ı kontrol etme |
-| **Bir kez** | Uzaktayken bir su değişimi |
-| **Her zaman** | Ayarlanmaması gereken ekipman gibi kalıcı talimatlar |
+| **Günlük** | Besleme, akvaryuma kısa bir göz atma |
+| **Her 3 günde bir** | Su tamamlama, skimmer kontrolü |
+| **Bir kez** | Siz yokken yapılacak su değişimi |
+| **Her zaman** | Dokunulmaması gereken ekipman gibi kalıcı talimatlar |
 
-Kontrol listesini reef akvaryumlarına aşina olmayan biri için yazın. Miktarları ve yöntemleri açıkça belirtin: "her gün bir kez, çözdürülmüş bir küp donmuş yem ver" gibi, "her zamanki gibi besle" değil.
+Listeyi, reef akvaryumunu hiç tanımayan birine yazıyormuş gibi yazın. Miktarı ve yöntemi açıkça söyleyin. "Her zamanki gibi besle" yerine "Günde bir kez, çözdürülmüş bir küp donmuş yem ver" yazın.
 
 ## Paylaşma
 
-Cora, planı **salt okunur bir sayfaya** çevirir. Bakıcınıza bağlantıyı gönderin; Cora Mobile'a ihtiyaçları olmaz ve bir hesaba ihtiyaçları olmaz.
+Cora planı **salt okunur bir sayfaya** dönüştürür. Bağlantıyı bakıcınıza gönderin. Bakıcının Cora Mobile'a da hesaba da ihtiyacı yok.
 
-Kontrol listesini okuyabilir ve akvaryumu görebilirler. Hiçbir şeyi değiştiremez, ekipmanı kontrol edemez veya hesabınızın diğer kısımlarını göremezler.
+Bakıcı kontrol listesini okur ve akvaryumu görür. Hiçbir şeyi değiştiremez, ekipmanı kontrol edemez, hesabınızın geri kalanını göremez.
 
-:::note Ayarlanmaması gerekeni belirtin
-Bakıcının rahat bırakması gereken ekipmanı kapsayan kalıcı talimatlar ekleyin. Bunlar için **Her zaman** sıklığını kullanın.
+:::note Neye dokunulmayacağını yazın
+Bakıcının elini sürmemesi gereken ekipman için kalıcı talimatlar ekleyin. Bunlarda **Her zaman** sıklığını kullanın.
 :::
 
-## Uzaktayken
+## Siz yokken
 
-Diğer her şey çalışmayı sürdürür: okumalar, uyarılar, Reef Buddy, otomasyonlar. Tatil modu bakıcı sayfasını ekler; akvaryumunuzun nasıl çalıştırıldığını değiştirmez.
+Diğer her şey olduğu gibi çalışır: ölçümler, uyarılar, Reef Buddy ve otomasyonlar. Tatil modu yalnızca bakıcı sayfasını ekler. Akvaryumun işleyişini değiştirmez.
 
-Ulaşılabilir olmak istiyorsanız, gitmeden önce **[bildirim ayarlarınızı](/help/mobile-notifications)** kontrol edin.
+Size ulaşılabilsin istiyorsanız yola çıkmadan önce **[bildirim ayarlarınıza](/help/mobile-notifications)** göz atın.
 
-## Geri dönme
+## Döndüğünüzde
 
-Evdeyken planı sona erdirin. Kontrol listesi tutulur, böylece bir dahaki sefere gittiğinizde yeniden yazmak yerine yeniden kullanabilirsiniz.
+Eve gelince planı sonlandırın. Kontrol listesi saklanır. Bir sonraki tatilde yeniden yazmanıza gerek kalmaz.

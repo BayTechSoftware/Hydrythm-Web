@@ -1,46 +1,46 @@
 ---
 title: Reef Buddy ve raporlar
-description: Cora Max'te günlük briefing, ICP sonuçları, sağlık raporları ve geçmiş grafikleri.
+description: Cora Max'te günlük özet, ICP sonuçları, sağlık raporları ve geçmiş grafikleri.
 section: Cora Max
 reviewed: 2026-09-17
 order: 9
 group: Intelligence
 ---
 
-Cora Max, telefonla aynı zeki içeriği, uzaktan okunabilecek büyüklükte bir ekranda gösterir. Bunlara **akvaryum menüsünden** ulaşın: üst çubuktaki akvaryum adına dokunun.
+Cora Max telefondaki analizlerin aynısını gösterir, üstelik uzaktan okunacak kadar büyük. Hepsine **akvaryum menüsünden** ulaşırsınız. Üst çubukta akvaryum adına dokunun.
 
-![Cora Max'te Reef Buddy](img/max-intelligence.webp "Briefing tam boyutta.")
+![Cora Max'te Reef Buddy](img/max-intelligence.webp "Özet tam boyutta.")
 
 ## Reef Buddy
 
-Günlük briefing panoda görünür ve kendi tam ekranına sahiptir: Stability ve Data puanları, özet ve bunların arkasındaki içgörüler.
+Günlük özet panoda görünür ve ayrıca kendi tam ekranı vardır. Orada **Kararlılık** ve **Veri** puanlarını, özeti ve arkasındaki içgörüleri görürsünüz.
 
-Puanların ne anlama geldiği için bkz. [Reef Buddy](/help/mobile-reef-buddy).
+Puanların ne anlama geldiğini [Reef Buddy](/help/mobile-reef-buddy) sayfasında bulabilirsiniz.
 
 ## ICP sonuçları
 
-![Cora Max'te ICP raporları](img/max-icp.webp "Yüklenen her sonuç, puanıyla birlikte.")
+![Cora Max'te ICP raporları](img/max-icp.webp "Yüklenen her sonuç ve puanı.")
 
-Yüklediğiniz sonuçlar, her biri için puan ve özetle birlikte, ve her rapor boyunca eğilimler.
+Yüklediğiniz sonuçları burada görürsünüz. Her birinin puanı ve özeti vardır. Tüm raporlar boyunca eğilimleri de izleyebilirsiniz.
 
-100 üzerinden puan, sonuçlarınızın aralıklarına göre hesaplanır. Aralık dışındaki herhangi bir parametre puanı 70 veya altında tutar, aralığın çok dışındaki bir parametre ise 40 veya altında tutar. Rengi bandı verir: 70 üzeri yeşil (sağlıklı), 40 ile 70 arası amber (ilgi gerektirir) ve 40 altı kırmızı (kritik).
+100 üzerinden puan, sonuçlarınızın aralıklarına göre hesaplanır. Aralık dışında tek bir parametre bile puanı en fazla 70'te tutar. Aralığın çok dışındaki bir parametre ise puanı en fazla 40'ta tutar. Renk durumu gösterir: 70'in üstü yeşil (sağlıklı), 40 ile 70 arası turuncu (dikkat gerekiyor), 40'ın altı kırmızı (kritik).
 
-Bir sonuç yükleme telefondan yapılır; bkz. [ICP ve sağlık raporları](/help/mobile-icp-health).
+Sonuç yüklemeyi telefondan yaparsınız. Nasıl yapılacağı [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
 
 ## Sağlık raporları
 
-Duvarda bir sağlık raporu çalıştırın ve okuyun. Bu, telefonun ürettiği değerlendirmeyle aynıdır ve puanı bir ICP puanıyla aynı şekilde hesaplanır.
+Sağlık raporunu duvardaki ekranda çalıştırıp okuyabilirsiniz. Telefondaki değerlendirmenin aynısıdır. Puanı da ICP puanıyla aynı şekilde hesaplanır.
 
 ## Geçmiş grafikleri
 
-Herhangi bir parametre, telefondakiyle aynı aralıklarda tam ekran bir grafik olarak açılabilir. Duvar ekranında yavaş bir kaymaya bakmanın en kullanışlı yolu budur; tam ekranda bir aylık alkalinite, küçük bir kutunun gösteremeyeceği bir eğilimi gösterir.
+Her parametreyi telefondaki zaman aralıklarıyla tam ekran grafik olarak açabilirsiniz. Yavaş bir kaymayı görmenin en iyi yolu budur. Tam ekranda bir aylık alkalinite, küçük bir kutucuğun gösteremeyeceği eğilimi ortaya çıkarır.
 
-Çipler hangi okumaların gösterileceğini seçer: **Tümü**, **Apex**, **Elle**, **ICP**, **Cora**, **ReefBeat** veya **AquaWiz**. Her kaynağın kendi rengi vardır ve çipler aynı zamanda gösterge görevi görür. ReefBeat ve AquaWiz noktaları kare olarak çizilir, birinin aldığı okumalar (Elle ve ICP) ise daha büyük noktalar olarak. **Tümü**, her kaynağı yan yana gösterir ve bir kaynağın okumalarını asla bir diğeriyle ortalamaz.
+Hangi ölçümlerin görüneceğini üstteki çiplerle seçersiniz: **Tümü**, **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** ya da **AquaWiz**. Her kaynağın kendi rengi var ve çipler aynı zamanda renk açıklaması işini görür. ReefBeat ve AquaWiz noktaları kare çizilir. Birinin elle aldığı ölçümler (Manuel ve ICP) daha büyük noktalarla gösterilir. **Tümü** tüm kaynakları yan yana gösterir. Farklı kaynakların ölçümlerinin ortalaması hiçbir zaman alınmaz.
 
 ## Rehberli yolculuklar
 
-Cora Max'te bir yolculuğu takip edebilir ve nereye geldiğini görebilirsiniz.
+Cora Max'te bir yolculuğu izleyebilir, nereye geldiğini görebilirsiniz.
 
-**Bir döngüleme (cycling) yolculuğu burada da okuma alır**; döngüleme ekranındaki **Bir test kaydet**, telefona gitmeden amonyak, nitrit ve nitratı kaydeder; bu da elinizde bir test kitiyle akvaryumun başında dururken tam istediğiniz şeydir.
+**Döngüleme (cycling) yolculuğunda burada da ölçüm girebilirsiniz.** Döngüleme ekranındaki **Bir test kaydet** ile amonyak, nitrit ve nitratı telefonu açmadan kaydedersiniz. Test kiti elinizde, akvaryumun başındayken işinize yarar.
 
-Bir **sorun** yolculuğu duvarda salt okunurdur: birini başlatmak, bir adımı tamamlamak, bir sonuç kaydetmek ve onu çözmek veya kapatmak telefonda yapılır. Bkz. [Rehberli yolculuklar](/help/mobile-journeys).
+**Sorun** yolculuğu ise duvardaki ekranda yalnızca okunur. Yolculuğu başlatmak, adım tamamlamak, sonuç kaydetmek, yolculuğu çözmek ya da kapatmak için telefonu kullanın. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.

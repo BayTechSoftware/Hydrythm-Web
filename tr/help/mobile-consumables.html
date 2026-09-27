@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sarf malzemeleri | Cora Help</title>
-  <meta name="description" content="Reaktif, dozaj kapları, rezervuarlar ve medya için yeniden doldurma uyarıları belirleyin.">
+  <meta name="description" content="Reaktif, dozaj kapları, rezervuarlar ve filtre medyası için dolum uyarıları kurun.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/tr/help/mobile-consumables">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-consumables">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-consumables">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sarf malzemeleri | Cora Help">
-  <meta property="og:description" content="Reaktif, dozaj kapları, rezervuarlar ve medya için yeniden doldurma uyarıları belirleyin.">
+  <meta property="og:description" content="Reaktif, dozaj kapları, rezervuarlar ve filtre medyası için dolum uyarıları kurun.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/tr/help/mobile-consumables">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -64,25 +64,25 @@
 <p class="nav-sec">Cora Mobile</p>
 <details class="nav-g">
 <summary>Başlarken</summary><ul>
-<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
-<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-setup">Cora Mobile kurulumu</a></li>
+<li><a href="/tr/help/mobile-account">Giriş yapma ve hesabı kurtarma</a></li>
 <li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
 <li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Panonuz</summary><ul>
-<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
-<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
-<li><a href="/tr/help/mobile-widgets">Widget referansı</a></li>
-<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
-<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+<li><a href="/tr/help/mobile-dashboard">Panoyu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panoyu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets">Widget rehberi</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Parametre ayrıntıları</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşın</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Ekipman</summary><ul>
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
 <li><a href="/tr/help/mobile-probes">Problar</a></li>
 <li><a href="/tr/help/mobile-consumables" class="cur" aria-current="page">Sarf malzemeleri</a></li>
 </ul></details>
@@ -102,14 +102,14 @@
 </ul></details>
 <details class="nav-g">
 <summary>Zeka</summary><ul>
-<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorun</a></li>
 <li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
 <li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
 <li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Hesap</summary><ul>
-<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-vacation">Tatile çıkarken</a></li>
 <li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
 <li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
 <li><a href="/tr/help/mobile-plans">Planlar</a></li>
@@ -168,23 +168,23 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Sarf malzemeleri</h1>
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#bir-yeniden-doldurma-uyars-belirleme">Bir yeniden doldurma uyarısı belirleme</a></li><li><a href="#bir-eik-seme">Bir eşik seçme</a></li><li><a href="#yeniden-doldurduktan-sonra">Yeniden doldurduktan sonra</a></li></ul></nav>
-<p>Bir şey tüketen ekipman (reaktif, dozaj sıvısı, tamamlama suyu, filtre medyası) Cora'ya ne kadar kaldığını söyleyebilir. Cora, bitmeden önce sizi uyarabilir.</p>
-<h2 id="bir-yeniden-doldurma-uyars-belirleme">Bir yeniden doldurma uyarısı belirleme</h2>
-<p>Cihazı açın (<strong>Cihazlar</strong> sekmesinden, veya panodaki kutusuna dokunarak), ardından üst çubuktaki <strong>zili</strong> kullanın.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Bir dozaj birimi için yeniden doldurma uyarıları"><img src="/help/img/mobile-consumables.webp" alt="Bir dozaj birimi için yeniden doldurma uyarıları" width="620" height="740" loading="lazy" decoding="async"></button><figcaption>Kap başına bir eşik, her biri bağımsız olarak açılıp kapatılabilir.</figcaption></figure>
-<p>Birden fazla kabı olan ekipman, kap başına bir eşik alır; böylece yakından izlediğiniz bir kafa ve nadiren dokunduğunuz bir kafa farklı ayarlanabilir.</p>
-<p><strong>Çoğu eşik hacim olarak değil gün olarak belirlenir.</strong> Cora, gerçekte kullandığınız hızda kalan miktarın ne kadar süreceğini hesaplar; bu, harekete geçebileceğiniz sayıdır. "Kalsiyumun dört günü kaldı" size "180 mL kaldı"nın söylemediği bir şey söyler.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Cihaz</th><th>Eşik neye göre</th></tr></thead><tbody><tr><td data-th="Cihaz">Trident</td><td data-th="Eşik neye göre">Kalan testler ve atık şişesinin ne kadar dolu olduğu</td></tr><tr><td data-th="Cihaz">Dozaj kafası</td><td data-th="Eşik neye göre">Kalan takviye günü; bazıları kalan mililitreyi de sunar</td></tr><tr><td data-th="Cihaz">ATO</td><td data-th="Eşik neye göre">Kalan rezervuar günü</td></tr><tr><td data-th="Cihaz">Mat rulosu</td><td data-th="Eşik neye göre">Kalan rulo günü</td></tr></tbody></table></div>
-<p>Bir sarf malzemesi uyarısı, başka herhangi bir uyarı gibi davranır: <a href="/tr/help/mobile-alerts">Uyarı Merkezi</a>'nde görünür ve telefonunuza push gönderebilir. Bir seviye aşıldığında <strong>bir</strong> bildirim alırsınız, tekrarlayan bir akış değil, ve seviye eşiğin üstüne döndüğünde kapanır.</p>
-<h2 id="bir-eik-seme">Bir eşik seçme</h2>
-<p>Harekete geçebileceğiniz kadar önceden belirleyin. Bir şey bittiği gün tetiklenen bir eşik hiçbir uyarı vermez.</p>
-<aside class="cal cal-warning"><p class="cal-t">Bazı ekipman boşken durmaz</p><p>Boş bir kabı olan bir dozaj kafası, zamanlamasını çalıştırmayı sürdürür ve teslim etmediği dozajları bildirir. Bunu önleyen yeniden doldurma uyarısıdır, bu yüzden dozajladığınız her kafa için bir tane belirleyin.</p></aside>
-<h2 id="yeniden-doldurduktan-sonra">Yeniden doldurduktan sonra</h2>
-<p>Uyarının kapanması ve bir sonraki uyarının doğru hesaplanması için cihazın sayfasında seviyeyi sıfırlayın veya güncelleyin.</p>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#dolum-uyars-kurma">Dolum uyarısı kurma</a></li><li><a href="#eik-seme">Eşik seçme</a></li><li><a href="#doldurduktan-sonra">Doldurduktan sonra</a></li></ul></nav>
+<p>Bir şey tüketen ekipman (reaktif, dozaj sıvısı, tamamlama suyu, filtre medyası) Cora'ya ne kadar kaldığını bildirir. Cora da bitmeden önce sizi uyarır.</p>
+<h2 id="dolum-uyars-kurma">Dolum uyarısı kurma</h2>
+<p>Cihazı açın. Bunun için <strong>Cihazlar</strong> sekmesini kullanabilir ya da panodaki kutucuğuna dokunabilirsiniz. Sonra üst çubuktaki <strong>zil</strong> simgesine dokunun.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Dozaj ünitesi için dolum uyarıları"><img src="/help/img/mobile-consumables.webp" alt="Dozaj ünitesi için dolum uyarıları" width="620" height="740" loading="lazy" decoding="async"></button><figcaption>Her kafa için ayrı eşik. Her biri tek tek açılıp kapatılır.</figcaption></figure>
+<p>Birden fazla kabı olan ekipmanda her kabın kendi eşiği olur. Yakından izlediğiniz kafayla nadiren elinizi sürdüğünüz kafayı farklı ayarlayabilirsiniz.</p>
+<p><strong>Eşiklerin çoğu hacim yerine gün olarak girilir.</strong> Cora, kalan miktarın sizin gerçek kullanım hızınızla kaç gün yeteceğini hesaplar. İşinize yarayan sayı budur. "Dört günlük kalsiyum kaldı" bilgisi, "180 mL kaldı" bilgisinden çok daha fazlasını anlatır.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Cihaz</th><th>Eşik neye göre</th></tr></thead><tbody><tr><td data-th="Cihaz">Trident</td><td data-th="Eşik neye göre">Kalan test sayısı ve atık şişesinin doluluğu</td></tr><tr><td data-th="Cihaz">Dozaj kafası</td><td data-th="Eşik neye göre">Takviyenin kaç gün yeteceği. Bazı kafalarda kalan mililitre de seçilebilir</td></tr><tr><td data-th="Cihaz">ATO</td><td data-th="Eşik neye göre">Rezervuarın kaç gün yeteceği</td></tr><tr><td data-th="Cihaz">Mat rulosu</td><td data-th="Eşik neye göre">Rulonun kaç gün yeteceği</td></tr></tbody></table></div>
+<p>Sarf malzemesi uyarısı diğer uyarılar gibi çalışır. <a href="/tr/help/mobile-alerts">Uyarı Merkezi</a>'nde görünür ve telefonunuza bildirim gönderebilir. Seviye eşiğin altına indiğinde <strong>tek</strong> bildirim alırsınız, bildirimler art arda gelmez. Seviye yeniden eşiğin üstüne çıkınca uyarı kapanır.</p>
+<h2 id="eik-seme">Eşik seçme</h2>
+<p>Eşiği, harekete geçmeye vaktiniz kalacak kadar erken ayarlayın. Malzemenin bittiği gün gelen uyarı işe yaramaz.</p>
+<aside class="cal cal-warning"><p class="cal-t">Bazı ekipmanlar boşalınca durmaz</p><p>Kabı boşalan dozaj kafası zamanlamasına göre çalışmaya devam eder ve aslında vermediği dozları da vermiş gibi kaydeder. Bunu dolum uyarısı önler. Dozaj yaptığınız her kafa için bir uyarı kurun.</p></aside>
+<h2 id="doldurduktan-sonra">Doldurduktan sonra</h2>
+<p>Cihazın sayfasında seviyeyi sıfırlayın ya da güncelleyin. Böylece uyarı kapanır ve bir sonraki uyarı doğru hesaplanır.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-probes"><span>Önceki</span><b>Problar</b></a><a class="pn-n" href="/tr/help/mobile-alerts"><span>Sonraki</span><b>Uyarılar ve eşikler</b></a></nav>
       <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-09.</p>
-      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+      <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
 </div>

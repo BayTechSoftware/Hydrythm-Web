@@ -1,41 +1,41 @@
 ---
 title: Materiały eksploatacyjne
-description: Ustaw alerty uzupełniania dla reagentu, pojemników dozujących, zbiorników i mediów.
+description: Ustaw alerty uzupełnienia dla odczynników, pojemników dozujących, zbiorników i mediów.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 14
 group: Equipment
 ---
 
-Sprzęt, który zużywa coś (reagent, płyn dozujący, wodę do dolewki, media filtracyjne), może powiedzieć Corze, ile zostało. Cora może ostrzec Cię, zanim się skończy.
+Sprzęt, który coś zużywa (odczynnik, płyn do dozowania, wodę do dolewki, media filtracyjne), może podawać Corze, ile jeszcze zostało. Cora ostrzeże Cię, zanim się skończy.
 
 ## Ustawianie alertu uzupełnienia
 
-Otwórz urządzenie (z zakładki **Urządzenia** albo dotykając jego kafelka na pulpicie), a potem użyj **dzwonka** na górnym pasku.
+Otwórz urządzenie w zakładce **Urządzenia** albo dotknij jego kafelka na pulpicie. Potem dotknij **dzwonka** na górnym pasku.
 
-![Alerty uzupełnienia dla jednostki dozującej](img/mobile-consumables.webp "Jeden próg na głowicę, każdy włączany lub wyłączany niezależnie.")
+![Alerty uzupełnienia dla pompy dozującej](img/mobile-consumables.webp "Osobny próg dla każdej głowicy, każdy włączany i wyłączany niezależnie.")
 
-Sprzęt z więcej niż jednym pojemnikiem otrzymuje jeden próg na pojemnik, więc głowicę, którą obserwujesz uważnie, i głowicę, której rzadko dotykasz, można ustawić inaczej.
+Sprzęt z kilkoma pojemnikami ma osobny próg dla każdego z nich. Głowicę, którą uważnie pilnujesz, i tę, której prawie nie ruszasz, możesz więc ustawić inaczej.
 
-**Większość progów jest ustawiana w dniach, nie w objętości.** Cora wylicza, jak długo wystarczy to, co zostało, przy tempie, w jakim faktycznie tego używasz, co jest liczbą, na podstawie której można działać; "cztery dni wapnia zostało" mówi coś, czego nie mówi "zostało 180 mL".
+**Większość progów ustawia się w dniach, a nie w objętości.** Cora liczy, na ile wystarczy to, co zostało, przy Twoim rzeczywistym zużyciu. Z tą liczbą łatwiej coś zrobić. „Wapnia zostało na cztery dni” mówi więcej niż „zostało 180 mL”.
 
-| Urządzenie | Próg dotyczy |
+| Urządzenie | Czego dotyczy próg |
 |---|---|
-| Trident | Pozostałych testów i jak pełna jest butelka odpadowa |
-| Głowica dozująca | Dni pozostałego suplementu; niektóre oferują też pozostałe mililitry |
-| ATO | Dni pozostałego zbiornika |
-| Rolka maty | Dni pozostałej rolki |
+| Trident | Liczby pozostałych testów i zapełnienia butelki na odpady |
+| Głowica dozująca | Na ile dni wystarczy suplementu. Niektóre podają też pozostałe mililitry |
+| ATO | Na ile dni wystarczy wody w zbiorniku |
+| Rolka maty | Na ile dni wystarczy rolki |
 
-Alert materiału eksploatacyjnego działa jak każdy inny alert: pojawia się w [Centrum alertów](/help/mobile-alerts) i może wysłać powiadomienie push na Twój telefon. Otrzymujesz **jedno** powiadomienie, gdy poziom zostanie przekroczony, nie ciągły strumień, i alert gaśnie, gdy poziom wróci powyżej progu.
+Alert materiału eksploatacyjnego działa jak każdy inny. Pojawia się w [Centrum alertów](/help/mobile-alerts) i może wysłać push na telefon. Po przekroczeniu poziomu dostajesz **jedno** powiadomienie, a nie serię. Alert znika, gdy poziom znów będzie powyżej progu.
 
-## Wybieranie progu
+## Jaki próg wybrać
 
-Ustaw go z odpowiednim wyprzedzeniem, aby móc zareagować. Próg, który uruchamia się w dniu, w którym coś się kończy, nie daje żadnego ostrzeżenia.
+Ustaw próg z takim wyprzedzeniem, żeby zdążyć zareagować. Próg, który zadziała w dniu, gdy coś się skończy, niczego już nie ostrzeże.
 
-:::warning Część sprzętu nie zatrzymuje się po opróżnieniu
-Głowica dozująca z pustym pojemnikiem dalej wykonuje swój harmonogram i zgłasza dawki, których nie dostarczyła. Alert uzupełnienia jest tym, co temu zapobiega, więc ustaw go dla każdej głowicy, z której dozujesz.
+:::warning Część sprzętu pracuje dalej na pusto
+Głowica dozująca z pustym pojemnikiem dalej realizuje harmonogram i zgłasza dawki, których nie podała. Przed tym chroni właśnie alert uzupełnienia, więc ustaw go dla każdej głowicy, z której dozujesz.
 :::
 
 ## Po uzupełnieniu
 
-Zresetuj lub zaktualizuj poziom na stronie urządzenia, aby alert zgasł i kolejne ostrzeżenie było poprawnie obliczone.
+Zresetuj albo zaktualizuj poziom na stronie urządzenia. Wtedy alert zniknie, a kolejne ostrzeżenie zostanie dobrze policzone.

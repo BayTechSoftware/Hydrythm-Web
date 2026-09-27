@@ -1,98 +1,98 @@
 ---
 title: Parlare con Cora
-description: Usare la voce su Cora Max, avviare una conversazione, cosa puoi chiedere, e come funzionano le conferme.
+description: La voce su Cora Max: come iniziare una conversazione, cosa puoi chiedere e come funzionano le conferme.
 section: Cora Max
 reviewed: 2026-09-27
 order: 12
 group: Intelligence
 ---
 
-Cora Max risponde alla voce, che è il modo più semplice per usarlo quando hai le mani bagnate o sei dall'altra parte della stanza.
+Cora Max risponde alla voce. È il modo più comodo di usarlo quando hai le mani bagnate o sei dall'altra parte della stanza.
 
 ## Due modi per iniziare
 
-**Dì "Hey Cora".** Cora Max ascolta in background la parola di attivazione e avvia una sessione quando la sente.
+**Di' "Hey Cora".** Cora Max resta in ascolto della parola di attivazione e, quando la sente, avvia una conversazione.
 
-**Oppure tocca l'icona di Cora Assistant** nella barra superiore. Cora inizia ad ascoltare immediatamente, risponde ad alta voce, e continua ad ascoltare finché non la fermi.
+**Oppure tocca l'icona di Cora Assistant** nella barra in alto. Cora inizia subito ad ascoltare, risponde a voce e continua ad ascoltare finché non la fermi.
 
-![Impostazioni voce](img/max-voice.webp "L'ascolto della parola di attivazione può essere disattivato senza perdere il tocca per parlare.")
+![Impostazioni voce](img/max-voice.webp "Puoi spegnere l'ascolto della parola di attivazione e continuare a parlare toccando l'icona.")
 
-**Impostazioni → Impostazioni Cora Max → Suono e voce → Ascolto parola di attivazione** disattiva l'ascolto in background. Toccare l'icona di Cora Assistant continua a funzionare, che è l'impostazione da usare se preferisci che lo schermo non ascolti tutto il tempo.
+Con **Impostazioni → Impostazioni Cora Max → Audio e voce → Ascolto parola di attivazione** spegni l'ascolto continuo. L'icona di Cora Assistant continua a funzionare. Usa questa impostazione se preferisci che lo schermo non ascolti sempre.
 
-**Uscita audio**, nella stessa sezione **Suono e voce**, scegli l'altoparlante interno, una connessione da 3,5 mm o il Bluetooth. L'altoparlante interno è il più debole dei tre per la voce.
+Nella stessa sezione **Audio e voce**, con **Uscita audio** scegli tra altoparlante interno, jack da 3,5 mm e Bluetooth. Per la voce l'altoparlante interno è il più debole dei tre.
 
 ## Quale dispositivo risponde a "Hey Cora"
 
-Se la tua casa ha più di un Cora Max, solo uno di essi risponde alla parola di attivazione. Questo si chiama **Dispositivo di risposta**, ed è una scelta separata da quale dispositivo interroga il tuo equipaggiamento (**Cora Max principale**; vedi [Dispositivi e salute dei dispositivi](/help/max-devices)).
+Se in casa hai più di un Cora Max, alla parola di attivazione ne risponde uno solo. Si chiama **Dispositivo di risposta**. È una scelta diversa da quella del dispositivo che legge la tua attrezzatura (il **Cora Max principale**, spiegato in [Dispositivi e salute dei dispositivi](/help/max-devices)).
 
-Cambialo da **Impostazioni → Cora Assistant**, su entrambi i Cora Max, oppure da Cora Mobile. Questo si applica a tutta la tua casa, non solo a questo schermo.
+Lo cambi da **Impostazioni → Cora Assistant** su qualsiasi Cora Max, oppure da Cora Mobile. La scelta vale per tutta la casa, non per il singolo schermo.
 
-:::note Inizia nel momento in cui tocchi
-Cora Assistant avvia una sessione in tempo reale immediatamente; non c'è nessun passaggio di conferma. Se l'hai toccato per errore, ferma la sessione e non si perde nulla.
+:::note Parte appena tocchi
+Cora Assistant avvia subito la conversazione, senza chiederti conferma. Se l'hai toccato per sbaglio, ferma la conversazione. Non si perde niente.
 :::
 
-## Cosa chiedere
+## Cosa puoi chiedere
 
 **Domande sulla vasca**
 
-- *"Qual è la mia alcalinità?"*
-- *"La temperatura è stata stabile oggi?"*
+- *"Com'è la mia alcalinità?"*
+- *"La temperatura è rimasta stabile oggi?"*
 - *"Quando ho cambiato l'acqua l'ultima volta?"*
 - *"Perché il pH è più basso del solito?"*
-- *"Confronta gli ultimi sei mesi del mio magnesio con il mio ultimo ICP."*
+- *"Confronta gli ultimi sei mesi di magnesio con il mio ultimo ICP."*
 
 **Cose da fare**
 
-- *"Spegni lo skimmer."*
-- *"Avvia modalità alimentazione."*
-- *"Rimetti la ventola in auto."*
-- *"Registra che ho fatto un cambio d'acqua di venti litri."*
+- *"Spegni lo schiumatoio."*
+- *"Avvia la modalità alimentazione."*
+- *"Rimetti la ventola in automatico."*
+- *"Annota che ho fatto un cambio d'acqua di venti litri."*
 
-**Domande di seguito.** Non devi ripeterti; *"e la vasca frag?"* funziona dopo una domanda sulla vasca a schermo.
+**Domande successive.** Non devi ripetere tutto. Dopo una domanda sulla vasca principale funziona anche *"e la vasca delle talee?"*.
 
 ## Blocco bambini
 
-**Impostazioni → Impostazioni Cora Max → Blocco bambini** blocca le azioni da questo schermo. Domande e letture continuano a funzionare; Cora risponderà qual è la tua alcalinità, e si rifiuterà di spegnere la pompa di risalita.
+**Impostazioni → Impostazioni Cora Max → Blocco bambini** impedisce di comandare l'attrezzatura da questo schermo. Domande e letture funzionano ancora. Cora ti dice quanto è l'alcalinità, ma non spegne la pompa di risalita.
 
-Usalo su uno schermo a portata di bambini o visitatori.
+Attivalo se lo schermo è alla portata di bambini o di ospiti.
 
-**Per sbloccare**, in uno di questi modi:
+**Per sbloccare** hai due modi:
 
-- premi il **tasto volume tre volte entro due secondi**, oppure
+- premi il **tasto del volume tre volte entro due secondi**, oppure
 - **tieni cinque dita nell'angolo in alto a destra per dieci secondi**.
 
-La finestra di due secondi è ciò che lo rende un blocco invece che un suggerimento; tre pressioni con qualsiasi intervallo sono qualcosa che un bambino produce per caso. È ancora un blocco per bambini, non un blocco di sicurezza: chiunque ti guardi farlo può ripeterlo.
+Il limite dei due secondi è quello che lo rende un vero blocco. Tre pressioni con calma un bambino le fa anche per caso. Resta comunque un blocco per bambini e non una protezione di sicurezza: chi ti vede sbloccarlo può rifarlo.
 
 ## Conferme
 
-Qualsiasi cosa che raggiunge il tuo equipaggiamento viene confermata prima che accada. Cora ti dice esattamente cosa sta per fare e aspetta che tu sia d'accordo.
+Prima di fare qualsiasi cosa sulla tua attrezzatura, Cora ti chiede conferma. Ti dice esattamente cosa sta per fare e aspetta il tuo sì.
 
-Se un'istruzione è ambigua (hai due riscaldatori e hai detto "il riscaldatore"), Cora chiede quale invece di indovinare.
+Se un comando non è chiaro (hai due riscaldatori e hai detto "il riscaldatore"), Cora ti chiede quale, senza tirare a indovinare.
 
-:::warning Confermare significa assumersi la responsabilità
-La conferma esiste così nulla ti sorprende. Leggi cosa dice prima di accettare, in particolare per qualsiasi cosa che spegne il supporto vitale.
+:::warning Quando confermi, la responsabilità è tua
+La conferma serve a evitarti sorprese. Leggi cosa dice prima di dire sì, soprattutto se stai spegnendo qualcosa da cui dipende la vita in vasca.
 :::
 
-## Cosa può vedere Cora
+## Cosa vede Cora
 
-Lo stesso del tuo telefono: le tue letture in tempo reale, quanto è vecchia ognuna, fino a circa sei mesi di storico di qualsiasi parametro, il tuo diario e i tuoi risultati di laboratorio, per la vasca attualmente sullo schermo.
+Le stesse cose che vedi sul telefono: le letture in tempo reale, quanto è vecchia ognuna, fino a circa sei mesi di storico di ogni parametro, il diario e i risultati di laboratorio della vasca che hai sullo schermo.
 
-Se una lettura è obsoleta, Cora lo dice invece di rispondere come se fosse attuale.
+Se una lettura è vecchia, Cora te lo dice e non risponde come se fosse aggiornata.
 
-## Di quale vasca sta parlando Cora
+## Di quale vasca parla Cora
 
-Qualunque vasca lo schermo stia mostrando. Cambia vasca nella barra superiore prima, oppure nomina la vasca nella tua domanda.
+Di quella che vedi sullo schermo. Prima cambia vasca dalla barra in alto, oppure di' il nome della vasca nella domanda.
 
-## Fermare
+## Fermare Cora
 
-Dì *"stop"*, oppure tocca per terminare la sessione. Cora smette di ascoltare quando la sessione termina.
+Di' *"stop"*, oppure tocca per chiudere la conversazione. Quando la conversazione finisce, Cora smette di ascoltare.
 
-## Se non capisce bene
+## Se capisce male
 
-Il vocabolario reef è difficile, e i nomi dell'equipaggiamento sono più difficili. Se Cora capisce ripetutamente male un dispositivo, rinominalo in **Dispositivi** con qualcosa di più distinto; parole brevi e comuni funzionano meglio.
+Il vocabolario del reef è difficile, e i nomi dell'attrezzatura ancora di più. Se Cora continua a capire male il nome di un dispositivo, rinominalo in **Dispositivi** con qualcosa di più riconoscibile. Parole brevi e comuni funzionano meglio.
 
 ## Se Cora non risponde
 
-Controlla che **Ascolto parola di attivazione** sia ancora attivo (**Impostazioni → Impostazioni Cora Max → Suono e voce**), che questa unità sia il **Dispositivo di risposta** della casa (sopra), e che il suo volume sia alzato. Il rumore di fondo di un sump rumoroso o di un filtro proprio vicino all'unità può anche impedire che la parola di attivazione venga sentita con affidabilità; spostare l'unità, o parlare un po' più vicino ad essa, di solito risolve questo.
+Controlla che **Ascolto parola di attivazione** sia ancora acceso (**Impostazioni → Impostazioni Cora Max → Audio e voce**), che questo Cora Max sia il **Dispositivo di risposta** di casa (vedi sopra) e che il volume sia alto. Anche il rumore di una sump rumorosa o di un filtro proprio accanto allo schermo può impedire di sentire bene la parola di attivazione. Di solito basta spostare Cora Max o parlare un po' più vicino.
 
-**Se non funziona:** vedi [Risoluzione dei problemi](/help/troubleshooting).
+Se ancora non va, guarda la pagina [Risoluzione dei problemi](/help/troubleshooting).

@@ -1,94 +1,94 @@
 ---
 title: Automatizaciones y escenas
-description: Crea reglas que se ejecutan solas (disparadores, condiciones, acciones) y agrúpalas en escenas.
+description: Crea reglas que funcionan solas (disparadores, condiciones y acciones) y agrúpalas en escenas.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 17
 group: Alerts and automation
 ---
 
-Una automatización es una regla que Cora ejecuta por ti: *cuando pasa esto, comprueba aquello, y luego haz esto.* Las escenas agrupan varias acciones en una sola cosa que puedes ejecutar o programar.
+Una automatización es una regla que Cora ejecuta por ti: *cuando pase esto, comprueba aquello y luego haz esto otro.* Una escena reúne varias acciones en una sola que puedes ejecutar o programar.
 
 **Ajustes → Automatización.**
 
-![La lista de automatizaciones](img/mobile-automation.webp "Automatizaciones y Escenas son pestañas separadas. Cada regla tiene un interruptor de activación.")
+![La lista de automatizaciones](img/mobile-automation.webp "Automatizaciones y Escenas son pestañas distintas. Cada regla tiene un interruptor para activarla.")
 
-La pantalla tiene dos pestañas (**Automatizaciones** y **Escenas**) y un botón de **Nueva automatización**. Cada regla muestra un resumen de una línea de lo que hace, un interruptor de activación y un menú para editarla o eliminarla. Una regla que todavía no se ha ejecutado se marca como tal.
+La pantalla tiene dos pestañas, **Automatizaciones** y **Escenas**, y un botón **Nueva automatización**. Cada regla muestra en una línea lo que hace, un interruptor para activarla y un menú para editarla o eliminarla. Las reglas que aún no se han ejecutado llevan una marca.
 
-:::warning Esto actúa sobre equipo real
-Una regla que cambia el estado de una bomba lo cambia tanto si estás mirando como si no. Crea una a la vez y comprueba que cada una hace lo que esperas antes de añadir la siguiente.
+:::warning Estas reglas mueven equipos de verdad
+Si una regla apaga una bomba, la apaga aunque no estés mirando. Crea las reglas de una en una y comprueba que cada una funciona como esperas antes de añadir la siguiente.
 :::
 
-## La forma de una regla
+## Cómo es una regla
 
-Toda regla tiene las mismas tres partes:
+Todas las reglas tienen tres partes:
 
-**Disparador**: qué la activa
-**Condiciones**: qué también tiene que ser cierto
-**Acciones**: qué hace después, en orden
+**Disparador**: lo que la pone en marcha
+**Condiciones**: lo que también tiene que cumplirse
+**Acciones**: lo que hace después, en orden
 
-## Qué puede activar una regla
+## Qué pone en marcha una regla
 
-Cuatro cosas:
+Hay cuatro disparadores:
 
 | Disparador | Se activa cuando |
 |---|---|
-| **Parámetro** | Un parámetro cruza un valor que fijaste, en una dirección que elijas |
-| **Alerta** | Se genera una alerta, se cierra, o cualquiera de las dos |
-| **Horario** | Una hora del día, en tu propia zona horaria |
+| **Parámetro** | Un parámetro pasa de un valor que tú fijas, en la dirección que elijas |
+| **Alerta** | Salta una alerta, se resuelve, o cualquiera de las dos cosas |
+| **Horario** | Llega una hora del día, en tu zona horaria |
 | **Estado del dispositivo** | Un dispositivo se desconecta o vuelve a conectarse |
 
 ## Condiciones
 
-Las condiciones deciden si las acciones se ejecutan de verdad. Tienes las comparaciones habituales (igual, distinto, mayor que, menor que, y así sucesivamente) y puedes combinarlas con **y**, **o** y **no**.
+Las condiciones deciden si las acciones se ejecutan o no. Tienes las comparaciones de siempre (igual, distinto, mayor que, menor que, etc.) y puedes combinarlas con **y**, **o** y **no**.
 
-También hay una condición de **paso**, que comprueba cómo resultó el paso *anterior*. Eso es lo que te permite escribir "intenta esto; si no funcionó, haz aquello en su lugar".
+También hay una condición de **paso**, que mira cómo salió el paso *anterior*. Con ella puedes escribir "prueba esto y, si no funciona, haz esto otro".
 
 ## Qué puede hacer una regla
 
-Una acción que necesita equipo solo se ofrece en un acuario que tenga ese equipo:
+Las acciones que necesitan un equipo solo aparecen en los acuarios que lo tienen:
 
 | Acción | Qué hace |
 |---|---|
-| **Controlar equipo del Apex** | Cambiar el estado de una toma |
-| **Controlar un equipo Red Sea** | Manejar una unidad ReefBeat |
-| **Controlar una bomba de circulación** | Fijar el flujo, el modo de olas o la potencia de una bomba Jecod, o **Pausar para alimentar**: el Cora Max del acuario devuelve la bomba a su estado cuando termina la alimentación |
-| **Controlar un equipo Cora** | Cambiar el estado de un enchufe inteligente |
-| **Controlar dispositivo IR** | Enviar una orden por infrarrojos |
-| **Ejecutar ciclo de alimentación del Apex** | Iniciar una alimentación |
-| **Ejecutar una prueba del Trident** | Activar una prueba |
-| **Notificarme** | Enviarte un aviso push |
-| **Esperar antes del siguiente paso** | Pausar antes de continuar |
-| **Ejecutar una escena** | Ejecutar otra escena desde dentro de esta regla |
-| **Gestionar una automatización** | Activar o desactivar otra regla |
-| **Dosificar una cabeza DŌS** | Ejecutar una dosis medida en una cabeza DŌS |
+| **Controlar equipo del Apex** | Enciende o apaga una toma |
+| **Controlar un equipo Red Sea** | Maneja una unidad ReefBeat |
+| **Controlar una bomba de circulación** | Ajusta el caudal, el modo de olas o la potencia de una bomba Jecod, o usa **Pausar para alimentar**. El Cora Max del acuario vuelve a poner la bomba como estaba al terminar la alimentación |
+| **Controlar un equipo Cora** | Enciende o apaga un enchufe inteligente |
+| **Controlar dispositivo IR** | Envía una orden por infrarrojos |
+| **Ejecutar ciclo de alimentación del Apex** | Empieza una alimentación |
+| **Ejecutar una prueba del Trident** | Lanza una prueba |
+| **Notificarme** | Te envía una notificación push |
+| **Esperar antes del siguiente paso** | Hace una pausa antes de seguir |
+| **Ejecutar una escena** | Ejecuta otra escena desde esta regla |
+| **Gestionar una automatización** | Activa o desactiva otra regla |
+| **Dosificar una cabeza DŌS** | Da una dosis medida con un cabezal DŌS |
 
-:::warning Dosificar desde una regla es irreversible y tiene un límite
-Una dosis no se puede sacar de nuevo del acuario. El cabezal debe estar **calibrado** antes de que una regla pueda dosificar desde él, y la dosificación sin supervisión tiene un límite de **10 mL por cabezal al día**; una regla no puede superarlo sea como sea que esté escrita. Las acciones de dosificación solo aparecen una vez que tus cabezales se reconocen como cabezales de dosificación.
+:::warning Dosificar con una regla no tiene vuelta atrás y tiene un límite
+Una dosis ya no se puede sacar del acuario. El cabezal tiene que estar **calibrado** para que una regla pueda dosificar con él. La dosificación sin supervisión tiene un máximo de **10 mL por cabezal al día**, y ninguna regla puede pasar de ahí, esté como esté escrita. Las acciones de dosificación solo aparecen cuando Cora reconoce tus cabezales como cabezales de dosificación.
 :::
 
-:::note Usa Esperar para secuenciar pasos dentro de una regla
-Una pausa permite que una sola regla realice un procedimiento ordenado (por ejemplo, apagar una toma, esperar y luego volver a encenderla) sin una segunda regla y un horario.
+:::note Usa Esperar para ordenar pasos en una regla
+Con una pausa, una sola regla puede seguir un procedimiento por pasos. Por ejemplo, apagar una toma, esperar y volver a encenderla. No hace falta una segunda regla ni un horario.
 :::
 
 ## Escenas
 
-Una escena es un grupo con nombre de acciones que puedes ejecutar a demanda, desde un horario, o desde dentro de otra regla: "Cambio de agua", "Modo foto", "Noche".
+Una escena es un grupo de acciones con nombre, como "Cambio de agua", "Modo foto" o "Noche". Puedes ejecutarla cuando quieras, con un horario o desde otra regla.
 
-Una escena puede llamar a otra escena. Cora se niega a ejecutar una escena anidada más allá de su límite de profundidad, y se niega a una escena que se llamaría a sí misma, para evitar un bucle que seguiría actuando sobre el acuario de forma indefinida.
+Una escena puede llamar a otra. Cora no ejecuta escenas anidadas por encima de su límite de niveles, ni una escena que se llame a sí misma. Así evita un bucle que seguiría actuando sobre el acuario sin parar.
 
-Después de que una escena se ejecuta, se te informa de qué pasó, paso a paso, incluido cualquier fallo.
+Cuando termina una escena, Cora te cuenta paso a paso qué ha pasado, incluido lo que haya fallado.
 
-Ejecutar una escena a mano te pide confirmar primero, ya que una escena puede cambiar el estado de varios equipos a la vez.
+Si ejecutas una escena a mano, antes tienes que confirmarlo, porque puede encender o apagar varios equipos a la vez.
 
 ## Escenas creadas en Cora Max
 
-Las escenas también se pueden crear y editar directamente en una tableta Cora Max, no solo en el teléfono: es el mismo conjunto de escenas de cualquier forma, compartido en toda la cuenta. Si un hogar tiene un Cora Max más antiguo, todavía puede ejecutar una escena creada en el teléfono; solo la edición en el propio dispositivo es una funcionalidad más reciente, así que una tableta más antigua puede mostrar una escena sin permitirte cambiarla ahí. Edítala desde el teléfono en su lugar.
+También puedes crear y editar escenas directamente en Cora Max. Las escenas son las mismas en el teléfono y en Cora Max, y se comparten en toda la cuenta. Un Cora Max más antiguo puede ejecutar una escena creada en el teléfono. Lo nuevo es poder editarlas en el propio dispositivo, así que un Cora Max antiguo puede mostrar una escena sin dejarte cambiarla. En ese caso, edítala desde el teléfono.
 
 ## Desactivar una regla
 
-Cada regla tiene un interruptor de activación. Desactivar una conserva su definición, útil cuando quieres recuperar una regla la próxima temporada en lugar de crearla de nuevo.
+Cada regla tiene un interruptor para activarla o desactivarla. Si la desactivas, se guarda tal cual. Te viene bien si quieres recuperarla la próxima temporada sin tener que crearla otra vez.
 
 ## Ver qué hizo una regla
 
-Cada acción que realiza una regla se registra con la regla como su causa. Consulta **[Actividad](/help/mobile-activity)**.
+Cada acción de una regla queda registrada con esa regla como causa. Consúltalo en **[Actividad](/help/mobile-activity)**.

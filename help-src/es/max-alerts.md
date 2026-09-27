@@ -1,46 +1,46 @@
 ---
 title: Alertas en Cora Max
-description: Las píldoras de alerta en la barra superior, la bandeja de notificaciones y editar umbrales en la pared.
+description: Las alertas de la barra superior, el historial de notificaciones y cómo cambiar umbrales desde la pantalla de pared.
 section: Cora Max
 reviewed: 2026-09-27
 order: 11
 group: Alerts
 ---
 
-## Píldoras de alerta
+## Etiquetas de alerta
 
-Cualquier cosa que esté actualmente fuera de rango aparece como una píldora en la barra superior, con **+n** cuando hay más de las que caben. Toca una píldora para ver la lista completa.
+Cuando una lectura está fuera de rango, aparece como una etiqueta en la barra superior. Si no caben todas, verás **+2** (o el número que corresponda). Toca una etiqueta para ver la lista completa.
 
-Las píldoras son la razón por la que Cora Max funciona como pantalla de pared: los problemas del acuario se ven desde el otro lado de la sala sin tocar nada.
+Se ven desde el otro lado de la habitación, sin tocar nada.
 
-## Cuando aparece una alerta en la pared
+## Cuando aparece una alerta en la pantalla
 
-Cuando una lectura sale de rango, Cora Max muestra la alerta completa en el centro de la pantalla, no solo como píldora. Debajo hay tres botones:
+Cuando una lectura sale de rango, Cora Max también muestra la alerta en el centro de la pantalla. Debajo tiene tres botones:
 
-1. **Responder por voz**: habla con Cora sobre la alerta sin escribir ni tocar nada más. Consulta [Hablar con Cora](/help/max-voice).
-2. **Posponer [duración]**: detiene las notificaciones push de esta alerta durante un tiempo fijado, sin desactivar la alerta. La etiqueta del propio botón muestra cuánto tiempo, por ejemplo **Posponer 1 h**. Es el mismo periodo de espera fijado para este tipo de alerta en los ajustes de alertas de Cora Mobile, y puede llegar a ser de hasta **1 semana** para algo como un nivel bajo de reactivo que no va a cambiar en varios días.
-3. **Descartar**: cierra la alerta ahora. Se mantiene en silencio hasta que la lectura vuelve a su rango normal, y entonces se rearma sola, así que una repetición del mismo problema genera una alerta nueva en lugar de quedarse callada para siempre.
+1. **Responder por voz**: habla con Cora sobre la alerta sin escribir ni tocar nada más. Más información en [Hablar con Cora](/help/max-voice).
+2. **Posponer [duración]**: silencia la alerta en este Cora Max durante un tiempo, sin desactivarla. El botón indica cuánto, por ejemplo **Posponer 1 h**. Es el mismo tiempo de espera que tiene este tipo de alerta en los ajustes de alertas de Cora Mobile, y puede llegar a **1 semana** para cosas como un reactivo bajo, que no va a cambiar en días.
+3. **Descartar**: cierra la alerta ahora. Se queda en silencio hasta que la lectura vuelve a su rango normal. Si el problema se repite más adelante, recibirás una alerta nueva.
 
-**Si no funciona:** si Posponer o Descartar muestran un error, inténtalo de nuevo una vez. Si sigue fallando, consulta [Solución de problemas](/help/troubleshooting).
+Si **Posponer** o **Descartar** dan error, vuelve a intentarlo una vez. Si sigue fallando, consulta [Solución de problemas](/help/troubleshooting).
 
-:::note Posponer no oculta la alerta
-Posponer y Descartar solo silencian **este Cora Max**. Aquí, la alerta deja de aparecer, sonar y hablar, y sale de la lista en la parte superior de la pantalla hasta que termina el tiempo de espera (o, después de Descartar, hasta que la lectura vuelve a su rango normal). Tu teléfono sigue recibiendo sus notificaciones, y cualquier otro Cora Max sigue mostrando la alerta. La alerta también permanece en el **Historial de notificaciones**, y tus ajustes de alertas no cambian.
+:::note Posponer solo afecta a este Cora Max
+**Posponer** y **Descartar** solo silencian la alerta en **este Cora Max**. Aquí deja de aparecer, de sonar y de hablar, y sale de la lista de la barra superior hasta que termina el tiempo pospuesto (o, con **Descartar**, hasta que la lectura vuelve a estar en rango). Tu teléfono sigue recibiendo las notificaciones y los demás Cora Max siguen mostrando la alerta. También se queda en el **Historial de notificaciones**, y tus ajustes de alertas no cambian.
 :::
 
-## La bandeja de notificaciones
+## El historial de notificaciones
 
-**Ajustes → Ajustes de Cora Max → Notificaciones → Historial de notificaciones** es la bandeja de entrada **de toda la cuenta**: cada resumen, alarma y aviso de cuenta de todo tu sistema, no solo lo que generó esta pantalla. Incluye cualquier cosa que tu teléfono se haya perdido.
+En **Ajustes → Ajustes de Cora Max → Notificaciones → Historial de notificaciones** tienes la bandeja de **toda la cuenta**. Ahí están todos los resúmenes, alarmas y avisos de cuenta de tu sistema, también los que no salieron de esta pantalla y los que tu teléfono se perdió.
 
-## Editar umbrales
+## Cambiar umbrales
 
 ![Ajustes del acuario en Cora Max](img/max-tank-settings.webp "Cada acuario tiene su propio diario, mantenimiento, alertas, fauna y resumen.")
 
-Toca el nombre del acuario en la barra superior y elige **Alertas**, o ve a **Ajustes → [tu acuario] → Umbrales de alerta**. Cualquiera de las dos abre los mismos rangos que el teléfono. Un cambio hecho aquí se aplica en todas partes.
+Toca el nombre del acuario en la barra superior y elige **Alertas**, o ve a **Ajustes → [tu acuario] → Umbrales de alerta**. Los dos caminos abren los mismos rangos que ves en el teléfono, y lo que cambies aquí se aplica en todas partes.
 
-Los umbrales individuales también se pueden editar abriendo un widget en el panel.
+También puedes cambiar un umbral abriendo su widget en el panel.
 
-Consulta [Alertas y umbrales](/help/mobile-alerts) para saber cómo funcionan los rangos y las reglas.
+Cómo funcionan los rangos y las reglas se explica en [Alertas y umbrales](/help/mobile-alerts).
 
-:::note Las alertas se generan una vez, para la cuenta
-Una alerta no se genera por separado en cada dispositivo. Cora Max, tu teléfono y cualquier otra pantalla muestran la misma alerta, y se cierra en todas partes a la vez cuando la lectura vuelve a estar en rango.
+:::note Una sola alerta para toda la cuenta
+Cada dispositivo no genera su propia alerta. Cora Max, tu teléfono y cualquier otra pantalla muestran la misma, y desaparece de todas a la vez cuando la lectura vuelve a estar en rango.
 :::

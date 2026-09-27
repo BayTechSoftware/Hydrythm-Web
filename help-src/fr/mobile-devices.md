@@ -1,76 +1,76 @@
 ---
 title: Ajouter, modifier et retirer des appareils
-description: Comment ajouter un équipement à Cora, l’attribuer à un aquarium, le renommer, et le retirer proprement.
+description: Ajouter un équipement à Cora, le rattacher à un aquarium, le renommer et le retirer proprement.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 9
 group: Equipment
 ---
 
-L’onglet **Appareils** contient tout ce que vous avez connecté, regroupé par marque. Chaque groupe se replie pour qu’une pièce de récif pleine d’équipement reste lisible.
+L’onglet **Appareils** réunit tout ce que vous avez connecté, classé par marque. Chaque groupe peut se replier, pour que la liste reste lisible même avec beaucoup d’équipement.
 
 ![L’onglet Appareils](img/mobile-devices.webp "L’équipement est regroupé par marque. Chaque groupe se replie.")
 
 ## Ajouter un équipement
 
-Trois boutons se trouvent sous la liste, et ils font des travaux différents :
+Sous la liste, trois boutons servent à des choses différentes.
 
 | Bouton | Ajoute |
 |---|---|
-| **Ajouter un appareil** | Un Cora Max. Trouve les unités déjà sur votre Wi-Fi, ou les unités proches par Bluetooth. **Saisir l’adresse IP manuellement** se trouve dans cet écran si la découverte ne le trouve pas. |
-| **Trouver une pompe sur votre réseau** | Les pompes Jecod qui s’annoncent sur le réseau local |
-| **Ajouter AquaWiz** | Un contrôleur AquaWiz, via votre compte AquaWiz |
+| **Ajouter un appareil** | Un Cora Max. Cherche les appareils déjà sur votre Wi-Fi, ou ceux à proximité en Bluetooth. Si la recherche ne trouve rien, **Saisir l’adresse IP manuellement** se trouve sur cet écran. |
+| **Trouver une pompe sur votre réseau** | Les pompes Jecod qui se signalent sur le réseau local |
+| **Ajouter AquaWiz** | Un contrôleur AquaWiz, par votre compte AquaWiz |
 
 ![Ajouter un Cora Max](img/mobile-add-device.webp "Ajouter un appareil recherche un Cora Max sur le Wi-Fi et le Bluetooth.")
 
-Les autres équipements (Neptune Apex et Red Sea ReefBeat) se connectent depuis l’aquarium plutôt que depuis cette liste. Voir [Connecter votre équipement](/help/mobile-connections).
+Les autres équipements (Neptune Apex et Red Sea ReefBeat) se connectent depuis l’aquarium, pas depuis cette liste. Voir [Connecter votre équipement](/help/mobile-connections).
 
-Ajouter un équipement comme un chauffage, une pompe ou un écumeur propose une **saisie automatique** de marque et de modèle : commencez à taper et Cora suggère à partir d’une longue liste sourcée de marques d’équipement. Si la vôtre n’est pas listée, tapez-la quand même ; Cora garde tout ce que vous saisissez.
+Quand vous ajoutez un équipement comme un chauffage, une pompe ou un écumeur, la marque et le modèle se **complètent automatiquement**. Commencez à taper, et Cora propose des noms tirés d’une longue liste de marques vérifiée à la source. Si la vôtre n’y est pas, tapez-la quand même. Cora garde ce que vous saisissez.
 
-:::note Cora et votre téléphone ont besoin du même réseau
-L’équipement découvert localement doit être sur le même réseau que votre téléphone quand vous l’ajoutez. **Après la configuration, il n’est toujours accessible que sur ce réseau** (ou par Bluetooth, pour les unités qui l’utilisent), à moins qu’un appareil Cora présent sur les lieux puisse l’atteindre pour vous.
+:::note Cora et votre téléphone doivent être sur le même réseau
+Un équipement trouvé sur le réseau local doit être sur le même réseau que votre téléphone au moment de l’ajout. **Après l’installation, il reste joignable uniquement sur ce réseau** (ou en Bluetooth pour les appareils qui l’utilisent), sauf si un appareil Cora sur place peut le joindre pour vous.
 
-Un équipement qui se lit correctement chez vous peut donc afficher des valeurs plus anciennes pendant que vous êtes absent, à moins qu’un Cora Max sur les lieux puisse l’interroger. Cela reflète depuis où l’équipement est accessible, plutôt qu’un défaut.
+Un équipement qui s’affiche bien à la maison peut donc montrer des valeurs plus anciennes quand vous êtes absent, sauf si un Cora Max sur place peut l’interroger. Ce n’est pas une panne. Cela dépend simplement de l’endroit d’où l’équipement est joignable.
 :::
 
-## Attribuer un appareil à un aquarium
+## Rattacher un appareil à un aquarium
 
-La plupart des équipements appartiennent exactement à un aquarium, et c’est ce qui fait apparaître leurs mesures sur le tableau de bord de cet aquarium.
+La plupart des équipements appartiennent à un seul aquarium. C’est ce rattachement qui fait apparaître leurs mesures sur le tableau de bord de cet aquarium.
 
-**Cora Max est l’exception** : il peut être attribué à jusqu’à quatre aquariums et bascule entre eux à l’écran. Voir [Plus d’un appareil Cora](/help/mobile-multi-device).
+**Cora Max fait exception.** Il peut être rattaché à quatre aquariums au plus et passe de l’un à l’autre à l’écran. Voir [Plus d’un appareil Cora](/help/mobile-multi-device).
 
-Ouvrez l’appareil et choisissez **Aquarium**. Si vous gérez plus d’un système, c’est le réglage qui compte le plus : un chauffage attribué au mauvais aquarium rapporte parfaitement bien au mauvais endroit.
+Ouvrez l’appareil et choisissez **Aquarium**. Si vous avez plusieurs bacs, c’est le réglage le plus important. Un chauffage rattaché au mauvais aquarium envoie des mesures parfaitement justes… au mauvais endroit.
 
-:::warning Attribuez l’aquarium avant de compter sur les mesures
-Un appareil sans aquarium rapporte tout de même, mais ses chiffres n’ont nulle part où se poser. Si un appareil que vous venez d’ajouter n’apparaît pas sur un tableau de bord, vérifiez cela d’abord.
+:::warning Choisissez l’aquarium avant de vous fier aux mesures
+Un appareil sans aquarium envoie quand même ses mesures, mais elles ne s’affichent nulle part. Si un appareil que vous venez d’ajouter n’apparaît sur aucun tableau de bord, vérifiez d’abord ce point.
 :::
 
 ## Renommer
 
-Ouvrez l’appareil et modifiez son nom. Utilisez le nom que vous employez pour lui au quotidien : « Remontée », « Pompe de brassage gauche », « Chauffage du sump ». Le nom apparaît sur les widgets, dans les alertes et dans tout ce que vous demandez à Cora, donc un nom qui a un sens pour vous rend tout ce qui en découle plus clair.
+Ouvrez l’appareil et modifiez son nom. Donnez-lui le nom que vous utilisez tous les jours : « Remontée », « Brassage gauche », « Chauffage décantation ». Ce nom apparaît sur les widgets, dans les alertes et dans vos échanges avec Cora. Un nom parlant rend donc tout le reste plus clair.
 
-Renommer est local à Cora. Cela ne change pas le nom dans l’application propre du fabricant.
+Le nouveau nom ne vaut que dans Cora. Il ne change pas dans l’application du fabricant.
 
-## Vérifier si un appareil est en bon état
+## Vérifier qu’un appareil va bien
 
-Chaque ligne affiche son état actuel. Ce que vous voulez voir est une heure de mise à jour récente et aucun avertissement.
+Chaque ligne affiche l’état de l’appareil. Ce que vous voulez voir, c’est une mise à jour récente et aucun avertissement.
 
-| Ce que vous voyez | Ce que cela signifie |
+| Ce que vous voyez | Ce que cela veut dire |
 |---|---|
-| Une heure de mise à jour récente | Fonctionne normalement |
-| « Mis à jour il y a 3 h » sur quelque chose qui rapporte toutes les heures | Normal |
-| « Impossible d’atteindre… » | Un problème de réseau, ou l’appareil est éteint |
-| « …a refusé la connexion » | Le compte du fabricant doit être reconnecté ; ouvrez l’appareil et reconnectez-vous |
-| Rien du tout | Il n’a jamais rapporté ; vérifiez l’attribution de l’aquarium et la connexion |
+| Une heure de mise à jour récente | Tout fonctionne |
+| « Mis à jour il y a 3 h » sur un appareil qui n’envoie ses mesures qu’à quelques heures d’intervalle | Normal |
+| « Impossible d’atteindre… » | Un problème de réseau, ou l’appareil est éteint |
+| « …a refusé la connexion » | Le compte du fabricant doit être reconnecté. Ouvrez l’appareil et reconnectez-vous |
+| Rien du tout | L’appareil n’a jamais rien envoyé. Vérifiez l’aquarium choisi et la connexion |
 
 ## Retirer un appareil
 
-Ouvrez l’appareil et choisissez **Retirer**. On vous demandera de confirmer, et on vous dira exactement ce qui est retiré.
+Ouvrez l’appareil et choisissez **Retirer**. Cora vous demande de confirmer et vous indique exactement ce qui sera retiré.
 
-**Vos mesures sont conservées.** Retirer un appareil arrête Cora de collecter de nouvelles données depuis celui-ci ; l’historique déjà rassemblé reste sur l’aquarium, et tout widget qui le pointe garde ses mesures passées.
+**Vos mesures sont conservées.** Une fois l’appareil retiré, Cora arrête d’en recevoir de nouvelles données. L’historique déjà recueilli reste sur l’aquarium, et les widgets liés à cet appareil gardent ses anciennes mesures.
 
-Ce que vous perdez, c’est le lien en direct, et, quand l’appareil se connectait via un compte de fabricant, la connexion enregistrée. L’ajouter à nouveau signifie se reconnecter.
+Vous perdez le lien en direct. Si l’appareil passait par un compte de fabricant, vous perdez aussi la connexion enregistrée. Pour le rajouter, il faudra vous reconnecter.
 
-:::tip Faire taire un appareil bruyant sans le retirer
-Si un appareil fonctionne correctement mais alerte trop souvent, ajustez ses seuils ou ses réglages de notifications ; voir **[Alertes et seuils](/help/mobile-alerts)**. Cela garde la connexion et les données tout en arrêtant le bruit.
+:::tip Calmer un appareil trop bavard sans le retirer
+Si un appareil fonctionne bien mais envoie trop d’alertes, ajustez ses seuils ou ses réglages de notification. Tout est expliqué dans **[Alertes et seuils](/help/mobile-alerts)**. Vous gardez la connexion et les données, sans le bruit.
 :::

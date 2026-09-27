@@ -1,54 +1,54 @@
 ---
 title: Reef Room
-description: Çoklu akvaryum genel görünüm ekranı ve Cora Max'te akvaryumlar arasında geçiş yapma.
+description: Tüm akvaryumlarınızı tek ekranda görün ve Cora Max'te akvaryumlar arasında geçin.
 section: Cora Max
 reviewed: 2026-09-17
 order: 3
 group: Getting started
 ---
 
-Cora Max birden fazla akvaryum gösteriyorsa, Reef Room bunların tümünün aynı anda bir genel görünümüdür. Bunu üst çubuğun en solundaki **ızgara simgesiyle** açın; ekranda başlığı **Cora Akvaryumları**'dır.
+Cora Max'te birden çok akvaryum varsa, Reef Room hepsini tek ekranda gösterir. Üst çubuğun en solundaki **ızgara simgesine** dokunarak açın. Ekranın başlığında **Cora Akvaryumları** yazar.
 
-![Reef Room](img/max-reef-room.webp "Her akvaryum, sağlık puanı, öncü parametreleri ve aralık dışındaki her şeyle birlikte.")
+![Reef Room](img/max-reef-room.webp "Her akvaryum, sağlık puanı, öne çıkan parametreleri ve aralık dışındaki değerleriyle.")
 
-## Düzen
+## Yerleşim
 
-Bir Cora Max **en fazla dört akvaryum** gösterir ve Reef Room her birine ekranın eşit bir payını verir:
+Bir Cora Max **en fazla dört akvaryum** gösterir. Reef Room ekranı bunlar arasında eşit böler:
 
-| Akvaryum | Düzen |
+| Akvaryum | Yerleşim |
 |---|---|
-| 1 | Reef Room yok: ekran doğrudan o akvaryuma açılır |
+| 1 | Reef Room yok. Ekran doğrudan o akvaryumla açılır |
 | 2 | Yan yana |
-| 3 | Üçlü sıra |
-| 4 | İkişerli iki sıra |
+| 3 | Üçü yan yana |
+| 4 | İki satırda ikişer |
 
-:::note Dört sınırdır ve uygulanır
-Bir Cora Max'e, hem eşleştirirken hem de sonrasında **Cihazlar → Cora Max'iniz** üzerinden en fazla dört akvaryum atanabilir. Beşincisini eklemek önce birini kaldırmanızı ister. Bundan fazla akvaryum işletiyorsanız ikinci bir ekran kullanın; her biri kendi setini tutar.
+:::note Sınır dört akvaryum
+Bir Cora Max'e en fazla dört akvaryum atayabilirsiniz. Bu sınır eşleştirirken de, sonradan **Cihazlar → Cora Max'iniz** yolundan eklerken de geçerlidir. Beşinciyi eklemek isterseniz önce birini kaldırmanız istenir. Daha çok akvaryumunuz varsa ikinci bir ekran kullanın. Her ekran kendi akvaryumlarını tutar.
 :::
 
-## Bir kutu ne gösterir
+## Kutucukta neler var
 
-Her kutu bir akvaryumu özetler:
+Her kutucuk bir akvaryumun özetidir:
 
-- Yanında *37 parametreden 3'ü aralık dışında* (veya *37 parametrenin tümü aralıkta*) gibi bir satırla birlikte bir halka içinde **sağlık puanı**, ve kaçının sınırlarına yakın olduğu
-- Bir şeyin ilgi gerektirdiğinde bir **aralık dışı çipi**
-- Son eğilimlerle **dört öncü parametre**
-- **Son güncellendiği zaman** ve o akvaryumun panosuna bir bağlantı
+- Halka içinde **sağlık puanı**. Yanında *37 parametreden 3'ü aralık dışında* (ya da *37 parametrenin tümü aralıkta*) gibi bir satır ve sınıra yakın parametrelerin sayısı yazar
+- Dikkat gereken bir şey varsa **aralık dışı çipi**
+- Son eğilimleriyle **öne çıkan dört parametre**
+- **Son güncelleme zamanı** ve o akvaryumun panosuna giden bağlantı
 
-Sağlık puanı, her parametrenin ne kadar aralık dışında olduğunu ve ne kadar önemli olduğunu tartar; böylece bir ciddi sorun birçok iyi okuma tarafından gizlenmez. Sadece hiçbir şey aralık dışında olmadığında %100 okur. Alkalinite, kalsiyum veya magnezyum gibi önemli bir parametrenin aralığın çok dışında olması puanı %33 veya altında tutar, ve aralığın çok dışında bir ağır metal onu %0'a kadar düşürebilir. Sınırlarına yakın parametreler kutuda sayılır ama puanı düşürmez.
+Sağlık puanı her parametrenin aralıktan ne kadar saptığına ve ne kadar önemli olduğuna bakar. Böylece ciddi bir sorun, iyi giden onlarca ölçümün arasında kaybolmaz. Puan yalnızca hiçbir değer aralık dışında değilken %100 olur. Alkalinite, kalsiyum ya da magnezyum gibi önemli bir parametre aralığın çok dışındaysa puan en fazla %33 olur. Aralığın çok dışındaki bir ağır metal puanı %0'a kadar indirebilir. Sınıra yakın parametreler kutucukta sayılır ama puanı düşürmez.
 
-Kutuların altında bir kayan yazı, sırayla her akvaryumun geçerli sağlık başlığını gösterir.
+Kutucukların altındaki kayan yazı, her akvaryumun güncel sağlık başlığını sırayla gösterir.
 
-İlgi gerektiren bir akvaryum, ekrana dokunmadan odanın karşısından tanınabilir.
+Dikkat isteyen akvaryumu ekrana dokunmadan, odanın öbür ucundan fark edersiniz.
 
 ## Akvaryumlar arasında geçiş
 
-- Bir akvaryuma gitmek için **bir kutuya dokunun** veya **Panoyu aç**'a dokunun.
-- Akvaryumlar arasında ve Reef Room'a geri gitmek için panoda **yana kaydırın**.
-- **Izgara simgesi**, herhangi bir akvaryum sayfasından Reef Room'a geri döner. Reef Room'un kendisinde yoktur, çünkü zaten gidilecek yer odur.
+- Bir akvaryuma gitmek için **kutucuğuna** ya da **Panoyu aç**'a dokunun.
+- Panoda **yana kaydırarak** akvaryumlar arasında geçin ve Reef Room'a dönün.
+- **Izgara simgesi** her akvaryum sayfasından Reef Room'a döndürür. Reef Room'da bu simge görünmez, çünkü zaten oradasınız.
 
-Her akvaryum kendi pano düzenini tutar, böylece aralarında hareket ettikçe ekran tamamen değişir. Bkz. [Cora Max panosunu düzenleme](/help/max-dashboard-editing).
+Her akvaryumun kendi pano düzeni vardır. Akvaryum değiştirdikçe ekran da tamamen değişir. Düzeni nasıl değiştireceğiniz [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.
 
 ## Tek akvaryumlu sistemler
 
-Tek bir akvaryum eşleştirildiğinde, Cora Max doğrudan o akvaryumun panosuna açılır ve bir Reef Room sayfası olmaz.
+Tek akvaryum eşleştirdiyseniz Cora Max doğrudan o akvaryumun panosuyla açılır. Reef Room sayfası olmaz.

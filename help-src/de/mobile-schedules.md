@@ -1,70 +1,70 @@
 ---
 title: Ausrüstung planen
-description: Erstelle ein Tagesprogramm für eine Jecod-Pumpe und kopiere es zwischen Pumpen, und sieh den Zeitplan einer Maxspect-Gyre (Beta) an.
+description: Bau ein Tagesprogramm für eine Jecod-Pumpe, kopier es auf andere Pumpen und sieh dir den Zeitplan einer Maxspect Gyre (Beta) an.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 12
 group: Equipment
 ---
 
-Pumpen und Gyres können ein **Tagesprogramm** ausführen: eine Reihe von Zeiträumen, jeweils mit eigener Intensität, das sich täglich wiederholt. Cora kann diese direkt für Jecod-Pumpen erstellen. Der Zeitplan einer Maxspect-Gyre *(Beta)* kann hier nur angesehen werden: Lege ihn in der Maxspect-App fest.
+Pumpen und Gyres können ein **Tagesprogramm** abspielen. Das ist eine Folge von Zeiträumen mit jeweils eigener Intensität, die sich jeden Tag wiederholt. Für Jecod-Pumpen erstellst du solche Programme direkt in Cora. Den Zeitplan einer Maxspect Gyre *(Beta)* kannst du hier nur ansehen. Festlegen musst du ihn in der Maxspect-App.
 
-Öffne das Gerät aus dem Tab **Geräte**.
+Öffne das Gerät über den Tab **Geräte**.
 
 ![Ein Pumpenzeitplan](img/mobile-schedules.webp "Der Tagesgraph über 0–24 Stunden, mit jedem Zeitraum darunter aufgelistet.")
 
-## Den ganzen Tag gleich, oder Zeitplan
+## Den ganzen Tag gleich oder Zeitplan
 
-Eine Pumpe läuft in einem von zwei Modi, oben auf ihrer Seite gewählt:
+Eine Pumpe läuft in einem von zwei Modi. Welchen, wählst du oben auf ihrer Seite:
 
-- **Den ganzen Tag gleich**: eine Intensität, dauerhaft
-- **Zeitplan**: ein Tagesprogramm mit Zeiträumen
+- **Den ganzen Tag gleich**: immer dieselbe Intensität
+- **Zeitplan**: ein Tagesprogramm mit mehreren Zeiträumen
 
-Deine Wahl wird an die Pumpe gesendet, über das Cora Max am Becken, wenn dein Handy nicht im Netzwerk der Pumpe ist. Eine Bluetooth-Pumpe muss in Reichweite sein: Bis dahin ändert die Auswahl hier nur, was du gerade betrachtest.
+Deine Wahl geht an die Pumpe. Ist dein Handy nicht im Netzwerk der Pumpe, läuft das über das Cora Max am Becken. Eine Bluetooth-Pumpe muss in Reichweite sein. Solange sie das nicht ist, ändert deine Auswahl hier nur die Anzeige.
 
 ## Der Zeitplan-Editor
 
-Jeder Zeitplan-Bildschirm hat dieselben drei Teile:
+Jeder Zeitplan-Bildschirm besteht aus denselben drei Teilen.
 
-**Der Tagesgraph**: der ganze Tag von 0 bis 24 Stunden, mit jedem Zeitraum als Block gezeichnet, dessen Höhe seine Intensität ist. Das ist der schnellste Weg zu sehen, ob ein Programm das tut, was du denkst.
+Der **Tagesgraph** zeigt den ganzen Tag von 0 bis 24 Uhr. Jeder Zeitraum ist ein Block, und seine Höhe steht für die Intensität. So siehst du am schnellsten, ob ein Programm das tut, was du denkst.
 
-**Die Zeitraumliste**: jeder Zeitraum unter dem Graph, mit seinen Stunden, seinem Modus und seiner Intensität: *Zufall, 00:00–03:00, Freq 50 %, 40 %*. Füge hier Zeiträume hinzu, bearbeite und entferne sie.
+Die **Liste der Zeiträume** steht unter dem Graphen. Zu jedem Zeitraum siehst du die Uhrzeiten, den Modus und die Intensität, zum Beispiel *Zufällig, 00:00–03:00, Freq 50 %, 40 %*. Hier fügst du Zeiträume hinzu, bearbeitest und entfernst sie.
 
-**Zeiträume hinzufügen und ändern**: **Zum Zeitplan hinzufügen** fügt einen Zeitraum hinzu. Öffne einen Zeitraum, um ihn zu ändern, und tippe auf **Speichern**, oder **Löschen** ihn; du wirst um Bestätigung gebeten, bevor er verschwindet.
+Mit **Zum Zeitplan hinzufügen** legst du einen neuen Zeitraum an. Um einen Zeitraum zu ändern, öffnest du ihn und tippst auf **Speichern**. Mit **Löschen** entfernst du ihn. Cora fragt vorher noch einmal nach.
 
-Eine Maxspect-Gyre *(Beta)* hat zwei Köpfe, gezeigt als Gyre A und Gyre B, daher hat ihr Tagesgraph zwei Spuren, eine für jeden, und ihre Pläne stehen unter **GYRE A** und **GYRE B**. Der Zeitplan einer Gyre ist nur zur Ansicht: Ihre Aktionszeile liest **Nur Ansicht**, und der Zeitplan wird in der Maxspect-App festgelegt.
+Eine Maxspect Gyre *(Beta)* hat zwei Köpfe, Gyre A und Gyre B. Ihr Tagesgraph hat deshalb zwei Spuren, eine für jeden Kopf, und ihre Pläne stehen unter **GYRE A** und **GYRE B**. Den Zeitplan einer Gyre kannst du nur ansehen. In ihrer Aktionszeile steht **Nur Ansicht**, und du legst den Zeitplan in der Maxspect-App fest.
 
-:::warning Ein Zeitplan wird auf das Gerät geschrieben
-Das Speichern sendet das Programm an die Ausrüstung, die es dann nach ihrer eigenen Uhr ausführt. Es läuft weiter, egal ob Cora erreichbar ist oder nicht.
+:::warning Der Zeitplan wird aufs Gerät geschrieben
+Beim Speichern geht das Programm an das Gerät. Das Gerät spielt es dann nach seiner eigenen Uhr ab, auch wenn Cora gerade nicht erreichbar ist.
 :::
 
-## Ein Programm zwischen Pumpen kopieren
+## Ein Programm auf andere Pumpen kopieren
 
-Wenn du mehrere Pumpen betreibst, die sich gleich verhalten sollen, erstelle ein Programm und kopiere es.
+Sollen sich mehrere Pumpen gleich verhalten, bau ein Programm und kopier es.
 
-Öffne die Pumpe, deren Programm du willst, dann **Zeitplan kopieren nach…**, und wähle die Pumpe, zu der es kopiert werden soll.
+Öffne die Pumpe mit dem gewünschten Programm, tippe auf **Zeitplan kopieren nach…** und wähl die Pumpe aus, die es bekommen soll.
 
-## Einen Zeitplan behalten und teilen
+## Einen Zeitplan aufheben und teilen
 
-Ein Zeitplan, mit dem du zufrieden bist, muss nicht neu aufgebaut werden:
+Einen Zeitplan, der dir gefällt, musst du nicht neu bauen:
 
-- **Zeitplan speichern als…** behält ihn unter einem Namen, und **Gespeicherte Zeitpläne…** wendet ihn später erneut an.
-- **Diesen Zeitplan teilen** verwandelt ihn in einen kurzen Code, und **Zeitplan-Code einfügen…** wendet einen an, den dir jemand gesendet hat. Das ist eine Cora Mobile-Funktion; der Code trägt den Zeitplan, nicht Zugriff auf dein Konto.
+- Mit **Zeitplan speichern als…** hebst du ihn unter einem Namen auf. Über **Gespeicherte Zeitpläne…** wendest du ihn später wieder an.
+- Mit **Diesen Zeitplan teilen** wird daraus ein kurzer Code. Mit **Zeitplan-Code einfügen…** übernimmst du einen Code, den dir jemand geschickt hat. Das ist eine Funktion von Cora Mobile. Der Code enthält nur den Zeitplan und keinen Zugang zu deinem Konto.
 
-## Fern vom Netzwerk der Pumpe
+## Wenn du nicht im Netzwerk der Pumpe bist
 
-Wenn dein Handy nicht im Netzwerk der Pumpe ist, arbeitet Cora Mobile über das Cora Max am Becken, mit Einschränkungen:
+Ist dein Handy nicht im Netzwerk der Pumpe, arbeitet Cora Mobile über das Cora Max am Becken. Dabei gibt es Grenzen:
 
-- **Den ganzen Tag gleich** und **Zeitplan** schalten die Pumpe über dieses Cora Max.
-- Ein von dir hinzugefügter oder geänderter Zeitraum geht nur über es, wenn es die Pumpe in der letzten Stunde erreicht hat. Wenn nicht, sagt der Zeitplan das, und er kann von dort, wo du bist, nicht geändert werden.
-- **Zeitplan kopieren nach…**, **Zeitplan speichern als…**, **Gespeicherte Zeitpläne…**, **Diesen Zeitplan teilen** und **Zeitplan-Code einfügen…** brauchen dein Handy im Netzwerk der Pumpe. Bis dahin sind sie ausgegraut, und das Menü sagt, warum.
+- **Den ganzen Tag gleich** und **Zeitplan** schalten die Pumpe über dieses Cora Max um.
+- Einen neuen oder geänderten Zeitraum schickt das Cora Max nur weiter, wenn es die Pumpe in der letzten Stunde erreicht hat. Sonst steht das beim Zeitplan, und du kannst ihn von unterwegs nicht ändern.
+- **Zeitplan kopieren nach…**, **Zeitplan speichern als…**, **Gespeicherte Zeitpläne…**, **Diesen Zeitplan teilen** und **Zeitplan-Code einfügen…** gehen nur, wenn dein Handy im Netzwerk der Pumpe ist. Bis dahin sind sie ausgegraut, und das Menü sagt dir, warum.
 
-Eine Bluetooth-Pumpe kann nur von einem Handy in ihrer Nähe erreicht werden: Steh in Reichweite, um sie zu schalten, ihren Zeitplan zu ändern, oder eines dieser Elemente zu nutzen.
+Eine Bluetooth-Pumpe erreicht nur ein Handy in ihrer Nähe. Stell dich in Reichweite, wenn du sie schalten, ihren Zeitplan ändern oder eine dieser Funktionen nutzen willst.
 
-## Ein Programm anwenden
+## Ein Programm übernehmen
 
-Einer Pumpe kann auch in einem Schritt ein vorbereitetes Programm gegeben werden, statt Zeiträume von Hand aufzubauen.
+Du kannst einer Pumpe auch in einem Schritt ein fertiges Programm geben und musst die Zeiträume dann nicht von Hand bauen.
 
 ## Prüfen, ob es angekommen ist
 
-Nach dem Speichern zeigt die Geräteseite das Programm, das das Gerät tatsächlich ausführt. Wenn die beiden nicht übereinstimmen, ist das Schreiben nicht angekommen; prüfe, ob das Gerät erreichbar ist, und versuch es erneut.
+Nach dem Speichern zeigt die Geräteseite das Programm, das das Gerät tatsächlich abspielt. Stimmen die beiden nicht überein, ist das Programm nicht angekommen. Prüf, ob das Gerät erreichbar ist, und versuch es noch einmal.

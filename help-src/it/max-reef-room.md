@@ -1,54 +1,54 @@
 ---
-title: La Stanza della Vasca
-description: La schermata panoramica multi-vasca, e come passare tra le vasche su Cora Max.
+title: La Stanza barriera
+description: La panoramica di tutte le vasche e come passare da una vasca all'altra su Cora Max.
 section: Cora Max
 reviewed: 2026-09-17
 order: 3
 group: Getting started
 ---
 
-Se Cora Max mostra più di una vasca, la Stanza della Vasca è una panoramica di tutte contemporaneamente. Aprila con **l'icona della griglia** all'estrema sinistra della barra superiore; sullo schermo è intitolata **Vasche Cora**.
+Se Cora Max mostra più di una vasca, la Stanza barriera te le fa vedere tutte insieme. Aprila con l'**icona a griglia** all'estrema sinistra della barra in alto. Sullo schermo il titolo è **Vasche Cora**.
 
-![La Stanza della Vasca](img/max-reef-room.webp "Ogni vasca con il suo punteggio di salute, i parametri principali e qualsiasi cosa fuori intervallo.")
+![La Stanza barriera](img/max-reef-room.webp "Ogni vasca con il punteggio di salute, i parametri principali e quello che è fuori intervallo.")
 
-## Il layout
+## Come è disposta
 
-Un Cora Max mostra **fino a quattro vasche**, e la Stanza della Vasca dà a ognuna una parte uguale dello schermo:
+Un Cora Max mostra **fino a quattro vasche**, e la Stanza barriera dà a ognuna la stessa porzione di schermo:
 
-| Vasche | Layout |
+| Vasche | Disposizione |
 |---|---|
-| 1 | Nessuna Stanza della Vasca: lo schermo si apre direttamente su quella vasca |
-| 2 | Fianco a fianco |
+| 1 | Niente Stanza barriera: lo schermo si apre direttamente su quella vasca |
+| 2 | Una accanto all'altra |
 | 3 | Tre in fila |
 | 4 | Due per due |
 
-:::note Quattro è il limite, ed è applicato
-Un Cora Max può avere assegnate al massimo quattro vasche, sia quando lo associ sia in seguito da **Dispositivi → il tuo Cora Max**. Aggiungere una quinta ti chiede di rimuoverne prima una. Se gestisci più vasche di così, usa un secondo schermo; ognuno mantiene il proprio insieme.
+:::note Il limite è quattro, e non si supera
+A un Cora Max puoi assegnare al massimo quattro vasche, sia quando lo associ sia dopo, da **Dispositivi → il tuo Cora Max**. Se provi ad aggiungerne una quinta, ti chiede prima di toglierne una. Se hai più vasche, usa un secondo schermo. Ognuno tiene le sue.
 :::
 
-## Cosa mostra un riquadro
+## Cosa c'è in un riquadro
 
 Ogni riquadro riassume una vasca:
 
-- **Un punteggio di salute** in un anello, con una riga accanto come *3 di 37 parametri fuori intervallo* (oppure *Tutti i 37 parametri nell'intervallo*), e quanti sono vicini ai loro limiti
-- **Un chip fuori intervallo** quando qualcosa richiede attenzione
-- **Quattro parametri principali** con tendenze recenti
-- **Quando si è aggiornata l'ultima volta**, e un link alla dashboard di quella vasca
+- **Il punteggio di salute** in un anello, con accanto una riga come *3 di 37 parametri fuori intervallo* (oppure *Tutti i 37 parametri nell'intervallo*) e quanti sono vicini ai limiti
+- **Un'etichetta fuori intervallo** quando qualcosa va controllato
+- **Quattro parametri principali** con l'andamento recente
+- **L'ora dell'ultimo aggiornamento** e un link alla dashboard di quella vasca
 
-Il punteggio di salute pesa quanto è fuori ogni parametro e quanto conta, così un problema serio non viene nascosto da molte letture buone. Legge 100% solo quando nulla è fuori intervallo. Un parametro principale, come alcalinità, calcio o magnesio, molto fuori intervallo lo mantiene al 33% o sotto, e un metallo pesante molto fuori intervallo può portarlo a 0%. I parametri vicini ai loro limiti vengono contati sul riquadro ma non abbassano il punteggio.
+Il punteggio di salute tiene conto di quanto è fuori ogni parametro e di quanto è importante. Così un problema serio non si perde in mezzo a tante letture buone. Arriva al 100% solo se niente è fuori intervallo. Basta un parametro principale molto fuori intervallo, come alcalinità, calcio o magnesio, per tenerlo al 33% o meno. Un metallo pesante molto fuori intervallo può portarlo a 0%. I parametri vicini ai limiti vengono contati nel riquadro ma non abbassano il punteggio.
 
-Sotto i riquadri, un ticker mostra il titolo di salute attuale per ogni vasca a turno.
+Sotto i riquadri scorre una riga che mostra, a turno, il titolo sulla salute di ogni vasca.
 
-Una vasca che richiede attenzione è identificabile da tutta la stanza senza toccare lo schermo.
+Vedi quale vasca ha bisogno di attenzione anche dall'altra parte della stanza, senza toccare lo schermo.
 
-## Passare tra le vasche
+## Passare da una vasca all'altra
 
 - **Tocca un riquadro**, oppure **Apri dashboard**, per andare a quella vasca.
-- **Scorri lateralmente** sulla dashboard per passare tra le vasche e tornare alla Stanza della Vasca.
-- **L'icona della griglia** torna alla Stanza della Vasca da qualsiasi pagina di vasca. È assente sulla Stanza della Vasca stessa, che è già dove porta.
+- **Scorri di lato** sulla dashboard per passare da una vasca all'altra e tornare alla Stanza barriera.
+- **L'icona a griglia** ti riporta alla Stanza barriera da qualsiasi pagina di vasca. Nella Stanza barriera non c'è, perché ci sei già.
 
-Ogni vasca mantiene il proprio layout di dashboard, quindi lo schermo cambia completamente mentre passi da una all'altra. Vedi [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
+Ogni vasca ha il suo layout della dashboard, quindi lo schermo cambia del tutto quando passi da una all'altra. Trovi di più in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
 
-## Sistemi a una vasca
+## Con una vasca sola
 
-Con una vasca associata, Cora Max si apre direttamente sulla dashboard di quella vasca e non c'è nessuna pagina Stanza della Vasca.
+Se hai associato una sola vasca, Cora Max si apre direttamente sulla sua dashboard e la Stanza barriera non c'è.

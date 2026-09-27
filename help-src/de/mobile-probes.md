@@ -1,46 +1,46 @@
 ---
 title: Sonden
-description: Ordne die Sonden deines Controllers Cora-Wasserwerten zu, und erfasse Kalibrierung und Reinigung.
+description: Ordne die Sonden deines Controllers den Wasserwerten in Cora zu und halte Kalibrierung und Reinigung fest.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 13
 group: Equipment
 ---
 
-Ein Controller meldet Sonden unter seinen eigenen Namen. Die Sondenzuordnung sagt Cora, welche davon deine pH-Sonde ist, welche Temperatur ist, und so weiter.
+Ein Controller meldet seine Sonden unter eigenen Namen. Mit der Sondenzuordnung sagst du Cora, welche davon deine pH-Sonde ist, welche die Temperatur misst und so weiter.
 
 ## Sonden zuordnen
 
-Öffne dein **Beckenprofil** (der Stift oben auf dem Dashboard), erweitere den Bereich deines Controllers, und wähle **Sondenzuordnung**.
+Öffne dein **Beckenprofil** über den Stift oben auf dem Dashboard. Klapp den Bereich deines Controllers auf und wähl **Sondenzuordnung**.
 
 ![Sondenzuordnung](img/mobile-probes.webp "Jede von deinem Controller gemeldete Sonde, ihr Live-Messwert, und was Cora mit ihr macht.")
 
-Jede von deinem Controller gemeldete Sonde wird mit ihrem aktuellen Messwert aufgelistet. Cora erkennt die Standardnamen automatisch, und die Zeile zeigt, welchen sie zugeordnet hat, daher besteht die Aufgabe hier meist darin, die zu korrigieren, die es nicht einordnen konnte, statt alle von Hand zuzuordnen.
+Dort steht jede Sonde, die dein Controller meldet, mit ihrem aktuellen Messwert. Die Standardnamen erkennt Cora selbst, und in der Zeile siehst du, welchem Wasserwert es die Sonde zugeordnet hat. Meist musst du also nur die Sonden korrigieren, die Cora nicht einordnen konnte, und nicht alle von Hand zuordnen.
 
-Jede Zeile bietet drei Möglichkeiten:
+In jeder Zeile hast du drei Möglichkeiten:
 
-- **Einen Cora-Wasserwert**: den Wasserwert, den diese Sonde misst.
-- **Eigen**: für eine Sonde, für die Cora keinen Standard-Wasserwert hat. Du gibst ihr ein kurzes Kürzel in Großbuchstaben, und sie wird unter diesem Namen verfolgt.
-- **Ignorieren**: für Sonden, die du gar nicht erfassen willst.
+- **Einen Cora-Wasserwert**, also den Wert, den diese Sonde misst.
+- **Eigen** für eine Sonde, für die Cora keinen Standard-Wasserwert kennt. Du gibst ihr ein kurzes Kürzel in Großbuchstaben, und Cora zeichnet sie unter diesem Namen auf.
+- **Ignorieren** für Sonden, die Cora gar nicht aufzeichnen soll.
 
-Eine ignorierte oder nicht zugeordnete Sonde erscheint auf keinem Dashboard und speist keine Warnungen.
+Eine ignorierte oder nicht zugeordnete Sonde erscheint auf keinem Dashboard und löst keine Warnungen aus.
 
-Zuordnungen wirken sich ab dem nächsten erfassten Messwert aus, daher schreibt eine Korrektur hier die Historie nicht neu; sie ändert, was ab diesem Zeitpunkt gespeichert wird. Tippe auf **Speichern**, um sie anzuwenden.
+Eine Zuordnung gilt ab dem nächsten Messwert. Korrigierst du hier etwas, bleibt die Historie also, wie sie ist. Nur was ab jetzt gespeichert wird, ändert sich. Tippe auf **Speichern**, um die Zuordnungen zu übernehmen.
 
-:::warning Eine nicht zugeordnete Sonde ist für Cora unsichtbar
-Wenn ein Wasserwert keine Messwerte zeigt, obwohl die Sonde funktioniert, prüfe zuerst die Zuordnung.
+:::warning Eine nicht zugeordnete Sonde sieht Cora nicht
+Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf als Erstes die Zuordnung.
 :::
 
 ## Mehrere Sonden für einen Wasserwert
 
-Ein System mit zwei Temperatursonden kann beide zuordnen. Cora behält sie als getrennte Quellen; die Quelleinstellung des Widgets entscheidet, welcher eine Kachel folgt, und [die Wasserwert-Ansicht](/help/mobile-metric-detail) lässt dich sie vergleichen.
+Hast du zwei Temperatursonden, kannst du beide zuordnen. Cora führt sie als getrennte Quellen. Welcher davon eine Kachel folgt, legst du in der Quelleinstellung des Widgets fest. In der [Wasserwert-Ansicht](/help/mobile-metric-detail) kannst du sie vergleichen.
 
-## Sondenpflege erfassen
+## Sondenpflege festhalten
 
-Sonden weichen ab. Cora kann verfolgen, wann jede zuletzt kalibriert oder gereinigt wurde, damit du eine echte Veränderung von einer Sonde unterscheiden kannst, die Aufmerksamkeit braucht.
+Sonden driften mit der Zeit. Cora kann festhalten, wann du jede zuletzt kalibriert oder gereinigt hast. So erkennst du, ob sich wirklich etwas im Becken ändert oder ob eine Sonde Pflege braucht.
 
-Erfasse Kalibrierung oder Reinigung über den Eintrag der Sonde. Das passt auch gut als wiederkehrende [Wartungsaufgabe](/help/mobile-maintenance).
+Kalibrierung oder Reinigung trägst du beim Eintrag der Sonde ein. Das passt auch gut als wiederkehrende [Wartungsaufgabe](/help/mobile-maintenance).
 
-:::note Die Kalibrierhistorie erklärt Widersprüche
-Wenn sich eine Sonde und ein Testkit widersprechen, ist das Datum der letzten Kalibrierung der Sonde meist das Erste, das es sich zu prüfen lohnt.
+:::note Die Kalibrierhistorie erklärt Abweichungen
+Zeigen Sonde und Testkit unterschiedliche Werte, schau zuerst nach, wann du die Sonde zuletzt kalibriert hast.
 :::

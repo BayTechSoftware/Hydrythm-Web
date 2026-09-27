@@ -1,94 +1,94 @@
 ---
-title: Automatyzacje i scenki
-description: Zbuduj reguły, które działają same (wyzwalacze, warunki, akcje), i pogrupuj je w scenki.
+title: Automatyzacje i sceny
+description: Twórz reguły, które działają same (wyzwalacze, warunki, akcje), i łącz akcje w sceny.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 17
 group: Alerts and automation
 ---
 
-Automatyzacja to reguła, którą Cora wykonuje za Ciebie: *gdy to się stanie, sprawdź to, potem zrób to.* Scenki grupują kilka akcji w jedną rzecz, którą możesz uruchomić albo zaplanować.
+Automatyzacja to reguła, którą Cora wykonuje za Ciebie: *gdy stanie się to, sprawdź tamto i zrób to.* Scena łączy kilka akcji w jedną całość, którą możesz uruchomić ręcznie albo zaplanować.
 
-**Ustawienia → Automation.**
+**Ustawienia → Automatyzacja.**
 
-![Lista automatyzacji](img/mobile-automation.webp "Automations i Scenes to odrębne zakładki. Każda reguła ma przełącznik włączenia.")
+![Lista automatyzacji](img/mobile-automation.webp "Automatyzacje i Sceny to osobne zakładki. Każda reguła ma swój przełącznik.")
 
-Ekran ma dwie zakładki (**Automatyzacje** i **Sceny**) oraz przycisk **Nowa automatyzacja**. Każda reguła pokazuje jednolinijkowe podsumowanie tego, co robi, przełącznik włączenia i menu do edycji lub usunięcia. Reguła, która jeszcze nie zadziałała, jest tak oznaczona.
+Na ekranie są dwie zakładki, **Automatyzacje** i **Sceny**, oraz przycisk **Nowa automatyzacja**. Przy każdej regule widać jednolinijkowy opis tego, co robi, przełącznik i menu do edycji albo usuwania. Reguła, która jeszcze ani razu nie zadziałała, ma odpowiednie oznaczenie.
 
-:::warning Działają na rzeczywistym sprzęcie
-Reguła, która przełącza pompę, przełącza ją niezależnie od tego, czy patrzysz. Buduj po jednej naraz i sprawdzaj, czy każda robi to, czego oczekujesz, przed dodaniem następnej.
+:::warning Reguły sterują prawdziwym sprzętem
+Reguła, która przełącza pompę, przełączy ją także wtedy, gdy nie patrzysz. Twórz reguły po jednej i sprawdź, czy każda robi to, czego się spodziewasz, zanim dodasz następną.
 :::
 
-## Kształt reguły
+## Z czego składa się reguła
 
 Każda reguła ma te same trzy części:
 
-**Wyzwalacz**: co ją wybudza
-**Conditions**: co też musi być prawdą
-**Actions**: co potem robi, po kolei
+**Wyzwalacz**: co ją uruchamia
+**Warunki**: co musi być dodatkowo spełnione
+**Akcje**: co reguła potem robi, po kolei
 
-## Co może wybudzić regułę
+## Co może uruchomić regułę
 
-Cztery rzeczy:
+Są cztery wyzwalacze:
 
-| Wyzwalacz | Uruchamia się, gdy |
+| Wyzwalacz | Kiedy działa |
 |---|---|
-| **Parametr** | Parametr przekracza ustawioną przez Ciebie wartość, w wybranym przez Ciebie kierunku |
-| **Alert** | Alert zostaje podniesiony, zamknięty, albo dowolne z tych dwóch |
-| **Harmonogram** | Godzina dnia, w Twojej własnej strefie czasowej |
-| **Device status** | Urządzenie przechodzi offline albo wraca |
+| **Parametr** | Parametr przekracza ustawioną wartość w wybranym kierunku |
+| **Alert** | Alert się pojawia, znika albo jedno i drugie |
+| **Harmonogram** | O wybranej godzinie, w Twojej strefie czasowej |
+| **Stan urządzenia** | Urządzenie traci połączenie albo znów jest online |
 
 ## Warunki
 
-Warunki decydują, czy akcje faktycznie się wykonają. Masz dostęp do zwykłych porównań (równa się, nie równa się, większe niż, mniejsze niż i tak dalej) i możesz je łączyć za pomocą **i**, **or** i **not**.
+Warunki decydują, czy akcje się wykonają. Masz zwykłe porównania (równe, różne, większe, mniejsze i tak dalej) i możesz je łączyć przez **i**, **lub** oraz **nie**.
 
-Jest też warunek **step**, który sprawdza, jak zakończył się *poprzedni* krok. To pozwala napisać "spróbuj tego; jeśli nie zadziałało, zrób to za to."
+Jest też warunek **kroku**, który sprawdza, jak poszedł *poprzedni* krok. Dzięki niemu napiszesz „spróbuj tego, a jeśli się nie uda, zrób coś innego”.
 
-## Co reguła może zrobić
+## Co może zrobić reguła
 
-Akcja, która wymaga sprzętu, jest oferowana tylko na akwarium, które ten sprzęt ma:
+Akcje wymagające sprzętu pojawiają się tylko przy akwarium, które ma ten sprzęt:
 
 | Akcja | Co robi |
 |---|---|
 | **Steruj sprzętem Apex** | Przełącza gniazdo |
-| **Steruj sprzętem Red Sea** | Steruje jednostką ReefBeat |
-| **Steruj pompą cyrkulacyjną** | Ustawia przepływ, tryb fali lub moc pompy Jecod, albo **Wstrzymaj na czas karmienia**: Cora Max przy akwarium przywraca pompę, gdy karmienie się kończy |
+| **Steruj sprzętem Red Sea** | Steruje urządzeniem ReefBeat |
+| **Steruj pompą cyrkulacyjną** | Ustawia przepływ, tryb fali albo moc pompy Jecod. Może też użyć **Wstrzymaj na czas karmienia**, a wtedy Cora Max przy akwarium przywraca pompę po karmieniu |
 | **Steruj sprzętem Cora** | Przełącza smart wtyczkę |
-| **Steruj urządzeniem IR** | Wysyła polecenie w podczerwieni |
-| **Uruchom cykl karmienia Apex** | Uruchamia karmienie |
-| **Uruchom test Trident** | Wywołuje test |
+| **Steruj urządzeniem IR** | Wysyła polecenie podczerwienią |
+| **Uruchom cykl karmienia Apex** | Zaczyna karmienie |
+| **Uruchom test Trident** | Zleca test |
 | **Powiadom mnie** | Wysyła Ci powiadomienie push |
-| **Czekaj przed następnym krokiem** | Wstrzymuje przed kontynuowaniem |
-| **Uruchom scenariusz** | Uruchamia inną scenkę z wewnątrz tej reguły |
+| **Czekaj przed następnym krokiem** | Robi przerwę przed dalszym ciągiem |
+| **Uruchom scenariusz** | Uruchamia scenę z wnętrza tej reguły |
 | **Zarządzaj automatyzacją** | Włącza albo wyłącza inną regułę |
-| **Zdawkuj z głowicy DŌS** | Wykonuje zmierzoną dawkę z głowicy DŌS |
+| **Zdawkuj z głowicy DŌS** | Podaje odmierzoną dawkę z głowicy DŌS |
 
-:::warning Dozowanie z reguły jest nieodwracalne i ograniczone
-Dawki nie można wycofać z akwarium. Głowica musi być **skalibrowana**, zanim reguła może z niej dozować, a dozowanie bez nadzoru jest ograniczone do **10 mL na głowicę dziennie**; reguła nie może tego przekroczyć, niezależnie jak jest napisana. Akcje dozowania pojawiają się tylko wtedy, gdy Twoje głowice są rozpoznane jako głowice dozujące.
+:::warning Dawki z reguły nie da się cofnąć
+Raz podanej dawki nie wyjmiesz z akwarium. Reguła może dozować tylko ze **skalibrowanej** głowicy. Dozowanie bez nadzoru ma limit **10 mL na głowicę na dobę** i żadna reguła go nie przekroczy, bez względu na to, jak jest napisana. Akcje dozowania pojawią się dopiero wtedy, gdy Cora rozpozna Twoje głowice jako głowice dozujące.
 :::
 
-:::note Użyj Wait, aby uszeregować kroki w jednej regule
-Wstrzymanie pozwala jednej regule wykonać uporządkowaną procedurę (na przykład wyłączenie gniazda, poczekanie, a potem włączenie go z powrotem) bez drugiej reguły i harmonogramu.
+:::note Przerwa porządkuje kroki w jednej regule
+Dzięki przerwie jedna reguła może wykonać kroki po kolei, np. wyłączyć gniazdo, odczekać i włączyć je ponownie. Nie potrzebujesz do tego drugiej reguły ani harmonogramu.
 :::
 
-## Scenki
+## Sceny
 
-Scenka to nazwana grupa akcji, którą możesz uruchomić na żądanie, z harmonogramu albo z wewnątrz innej reguły: "Podmiana wody", "Tryb zdjęcia", "Noc".
+Scena to nazwana grupa akcji, np. „Podmiana wody”, „Tryb zdjęć” albo „Noc”. Uruchomisz ją ręcznie, z harmonogramu albo z innej reguły.
 
-Scenka może wywołać inną scenkę. Cora odmawia uruchomienia scenki zagnieżdżonej głębiej niż limit głębokości i odmawia scenki, która wywołałaby samą siebie, aby zapobiec pętli, która działałaby na akwarium bez końca.
+Scena może wywołać inną scenę. Cora nie uruchomi sceny zagnieżdżonej głębiej niż pozwala limit ani sceny, która wywołuje samą siebie. Taka pętla działałaby na akwarium bez końca.
 
-Po uruchomieniu scenki dostajesz informację, co się stało, krok po kroku, w tym o wszystkim, co się nie powiodło.
+Po uruchomieniu sceny zobaczysz krok po kroku, co się stało, także to, co się nie udało.
 
-Ręczne uruchomienie scenki prosi najpierw o potwierdzenie, bo scenka może przełączyć kilka urządzeń jednocześnie.
+Gdy uruchamiasz scenę ręcznie, Cora najpierw prosi o potwierdzenie, bo scena może przełączyć kilka urządzeń naraz.
 
-## Scenki tworzone na Cora Max
+## Sceny tworzone na Cora Max
 
-Scenki można też budować i edytować prosto na tablecie Cora Max, nie tylko na telefonie: to jest ten sam zestaw scenek w obu przypadkach, wspólny dla całego konta. Jeśli gospodarstwo domowe ma starsze Cora Max, może wciąż uruchomić scenkę utworzoną na telefonie; tylko edycja na samym urządzeniu jest nowszą możliwością, więc starszy tablet może pokazać scenkę bez umożliwienia jej zmiany tam. Edytuj ją za to z telefonu.
+Sceny możesz też tworzyć i edytować bezpośrednio na Cora Max. Na telefonie i na Cora Max to ten sam zestaw scen, wspólny dla całego konta. Starszy Cora Max w domu nadal uruchomi scenę utworzoną na telefonie. Edycja na samym urządzeniu to nowsza funkcja, więc starszy Cora Max może pokazać scenę, ale nie pozwoli jej tam zmienić. Wtedy edytuj ją na telefonie.
 
 ## Wyłączanie reguły
 
-Każda reguła ma przełącznik włączenia. Jego wyłączenie zachowuje definicję reguły, przydatne, gdy chcesz mieć regułę z powrotem w następnym sezonie, a nie budować ją od nowa.
+Każda reguła ma przełącznik. Po wyłączeniu reguła zostaje zapisana. Przydaje się to, gdy chcesz wrócić do niej w kolejnym sezonie bez tworzenia jej od nowa.
 
-## Sprawdzanie, co reguła zrobiła
+## Co zrobiła reguła
 
-Każda akcja podjęta przez regułę jest zapisywana z regułą jako jej przyczyną. Zobacz **[Aktywność](/help/mobile-activity)**.
+Każda akcja reguły jest zapisywana z tą regułą jako źródłem. Znajdziesz je w **[Aktywności](/help/mobile-activity)**.

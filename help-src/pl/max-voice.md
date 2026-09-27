@@ -1,98 +1,98 @@
 ---
 title: Rozmowa z Corą na Cora Max
-description: Używanie głosu na Cora Max, zaczynanie rozmowy, co można zapytać i jak działają potwierdzenia.
+description: Sterowanie głosem na Cora Max: jak zacząć rozmowę, o co pytać i jak działają potwierdzenia.
 section: Cora Max
 reviewed: 2026-09-27
 order: 12
 group: Intelligence
 ---
 
-Cora Max przyjmuje polecenia głosowe, co jest najłatwiejszym sposobem korzystania z niego, gdy masz mokre ręce albo jesteś z drugiej strony pokoju.
+Cora Max rozumie polecenia głosowe. To najwygodniejszy sposób, gdy masz mokre ręce albo stoisz po drugiej stronie pokoju.
 
-## Dwa sposoby zaczęcia
+## Dwa sposoby na rozpoczęcie
 
-**Powiedz "Hey Cora".** Cora Max nasłuchuje w tle frazy budzącej i zaczyna sesję, gdy ją usłyszy.
+**Powiedz „Hey Cora”.** Cora Max w tle nasłuchuje frazy aktywującej i gdy ją usłyszy, zaczyna sesję.
 
-**Albo dotknij ikony Cora Assistant** na górnym pasku. Cora zaczyna słuchać od razu, odpowiada na głos i słucha dalej, aż to zatrzymasz.
+**Albo dotknij ikony Cora Assistant** na górnym pasku. Cora od razu zaczyna słuchać, odpowiada na głos i słucha dalej, dopóki jej nie zatrzymasz.
 
-![Ustawienia głosowe](img/max-voice.webp "Nasłuchiwanie słowa aktywującego można wyłączyć bez utraty dotknięcia, aby mówić.")
+![Ustawienia głosu](img/max-voice.webp "Nasłuchiwanie słowa aktywującego możesz wyłączyć, a dotknięcie ikony dalej będzie działać.")
 
-**Ustawienia → Ustawienia Cora Max → Dźwięk i głos → Nasłuchiwanie słowa aktywującego** wyłącza nasłuchiwanie w tle. Dotknięcie ikony Cora Assistant wciąż działa, co jest ustawieniem do użycia, jeśli chcesz, aby ekran nie nasłuchiwał cały czas.
+W **Ustawienia → Ustawienia Cora Max → Dźwięk i głos → Nasłuchiwanie słowa aktywującego** wyłączysz nasłuchiwanie w tle. Dotknięcie ikony Cora Assistant dalej działa. Wybierz to ustawienie, jeśli wolisz, żeby ekran nie nasłuchiwał przez cały czas.
 
-**Wyjście audio**, w tej samej sekcji **Dźwięk i głos**, wybiera wbudowany głośnik, połączenie 3,5 mm albo Bluetooth. Wbudowany głośnik jest najsłabszy z trzech dla głosu.
+W tej samej sekcji **Dźwięk i głos** w **Wyjście audio** wybierzesz wbudowany głośnik, złącze 3,5 mm albo Bluetooth. Do głosu wbudowany głośnik sprawdza się najsłabiej z tych trzech.
 
-## Które urządzenie odpowiada na "Hey Cora"
+## Które urządzenie odpowiada na „Hey Cora”
 
-Jeśli Twoje gospodarstwo domowe ma więcej niż jedno Cora Max, tylko jedno z nich odpowiada na frazę budzącą. Nazywa się to **urządzeniem odpowiadającym** (Answering device) i jest to odrębny wybór od tego, które urządzenie odpytuje Twój sprzęt (**Główne Cora Max**; zobacz [Urządzenia i ich stan](/help/max-devices)).
+Jeśli masz w domu kilka Cora Max, na frazę aktywującą odpowiada tylko jeden z nich. To **Urządzenie odpowiadające**. Wybierasz je niezależnie od urządzenia, które odpytuje Twój sprzęt (**Główne Cora Max**, więcej w [Urządzenia i ich stan](/help/max-devices)).
 
-Zmień to z **Ustawienia → Cora Assistant**, na którymkolwiek Cora Max, albo z Cora Mobile. Dotyczy to całego Twojego gospodarstwa domowego, nie tylko tego ekranu.
+Zmienisz je w **Ustawienia → Cora Assistant** na dowolnym Cora Max albo w Cora Mobile. To ustawienie dotyczy całego domu, a nie pojedynczego ekranu.
 
-:::note Zaczyna w momencie dotknięcia
-Cora Assistant zaczyna żywą sesję natychmiast; nie ma kroku potwierdzenia. Jeśli dotknąłeś przez przypadek, zatrzymaj sesję i nic nie zostanie utracone.
+:::note Sesja zaczyna się w chwili dotknięcia
+Cora Assistant od razu zaczyna sesję i nie prosi o potwierdzenie. Jeśli dotkniesz ikony przez przypadek, zatrzymaj sesję. Nic nie przepadnie.
 :::
 
-## Co zapytać
+## O co pytać
 
 **Pytania o akwarium**
 
-- *"Jaka jest moja alkaliczność?"*
-- *"Czy temperatura była dzisiaj stabilna?"*
-- *"Kiedy ostatnio zmieniałem wodę?"*
-- *"Czemu pH jest niższe niż zwykle?"*
-- *"Porównaj ostatnie sześć miesięcy mojego magnezu z moim najnowszym ICP."*
+- *„Jaka jest moja alkaliczność?”*
+- *„Czy temperatura była dziś stabilna?”*
+- *„Kiedy była ostatnia podmiana wody?”*
+- *„Dlaczego pH jest niższe niż zwykle?”*
+- *„Porównaj magnez z ostatnich sześciu miesięcy z moim najnowszym ICP.”*
 
-**Rzeczy do zrobienia**
+**Polecenia**
 
-- *"Wyłącz skimmer."*
-- *"Zacznij tryb karmienia."*
-- *"Ustaw wentylator z powrotem na auto."*
-- *"Zapisz, że zrobiłem dwudziestolitrową podmianę wody."*
+- *„Wyłącz odpieniacz.”*
+- *„Włącz tryb karmienia.”*
+- *„Ustaw wentylator z powrotem na auto.”*
+- *„Zapisz podmianę dwudziestu litrów wody.”*
 
-**Kontynuacje.** Nie musisz się powtarzać; *"a akwarium fragowe?"* działa po pytaniu o wyświetlane akwarium.
+**Pytania uzupełniające.** Nie musisz się powtarzać. Po pytaniu o akwarium na ekranie możesz zapytać *„a akwarium z sadzonkami?”*.
 
 ## Blokada rodzicielska
 
-**Ustawienia → Ustawienia Cora Max → Blokada rodzicielska** blokuje wykonywanie akcji z tego ekranu. Pytania i odczyty wciąż działają; Cora odpowie, jaka jest Twoja alkaliczność, i odmówi wyłączenia pompy powrotnej.
+**Ustawienia → Ustawienia Cora Max → Blokada rodzicielska** blokuje sterowanie sprzętem z tego ekranu. Pytania i odczyty dalej działają. Cora powie Ci, jaka jest alkaliczność, ale odmówi wyłączenia pompy powrotnej.
 
-Użyj tego na ekranie w zasięgu dzieci albo gości.
+Włącz ją na ekranie, do którego mają dostęp dzieci albo goście.
 
-**Aby odblokować**, albo:
+**Żeby odblokować ekran**:
 
-- naciśnij **przycisk głośności trzy razy w ciągu dwóch sekund**, albo
-- **przytrzymaj pięć palców w prawym górnym rogu na dziesięć sekund**.
+- naciśnij **przycisk głośności trzy razy w ciągu dwóch sekund** albo
+- **przytrzymaj pięć palców w prawym górnym rogu przez dziesięć sekund**.
 
-Dwusekundowe okno jest tym, co czyni to blokadą, a nie propozycją; trzy naciśnięcia w jakimkolwiek odstępie to coś, co dziecko wytworzy przez przypadek. Jest to wciąż blokada rodzicielska, nie blokada bezpieczeństwa: każdy, kto Cię obserwuje, jak to robisz, może to powtórzyć.
+Dzięki limitowi dwóch sekund blokada naprawdę działa. Trzy naciśnięcia w dowolnych odstępach dziecko łatwo zrobi przez przypadek. To jednak dalej blokada przed dziećmi, a nie zabezpieczenie. Każdy, kto zobaczy, jak ją zdejmujesz, może to powtórzyć.
 
 ## Potwierdzenia
 
-Wszystko, co dosięga Twojego sprzętu, jest potwierdzane przed wykonaniem. Cora mówi Ci dokładnie, co zamierza zrobić, i czeka na Twoją zgodę.
+Wszystko, co dotyczy sprzętu, Cora potwierdza przed wykonaniem. Mówi dokładnie, co zamierza zrobić, i czeka na Twoją zgodę.
 
-Jeśli polecenie jest niejasne (masz dwie grzałki i powiedziałeś "grzałka"), Cora pyta, którą, a nie zgaduje.
+Jeśli polecenie jest niejasne (na przykład masz dwie grzałki, a mówisz tylko „grzałka”), Cora dopyta, o którą chodzi, i nie będzie zgadywać.
 
-:::warning Potwierdzenie to Ty biorący odpowiedzialność
-Potwierdzenie istnieje, aby nic Cię nie zaskoczyło. Przeczytaj, co mówi, zanim się zgodzisz, szczególnie dla wszystkiego, co wyłącza podporę życia.
+:::warning Potwierdzając, bierzesz odpowiedzialność
+Potwierdzenie jest po to, żeby nic Cię nie zaskoczyło. Zanim się zgodzisz, posłuchaj, co mówi Cora, zwłaszcza gdy chodzi o wyłączenie sprzętu podtrzymującego życie w akwarium.
 :::
 
-## Co Cora widzi
+## Co widzi Cora
 
-To samo co na telefonie: Twoje odczyty na żywo, jak stary jest każdy z nich, do około sześciu miesięcy historii dowolnego parametru, Twój dziennik i Twoje wyniki laboratoryjne, dla akwarium aktualnie na ekranie.
+To samo co na telefonie: odczyty na żywo i ich wiek, historię każdego parametru z mniej więcej sześciu miesięcy, Twój dziennik i wyniki laboratoryjne. Wszystko to dotyczy akwarium, które jest teraz na ekranie.
 
-Jeśli odczyt jest nieaktualny, Cora mówi to wprost, zamiast odpowiadać, jakby był aktualny.
+Jeśli odczyt jest nieaktualny, Cora mówi to wprost i nie odpowiada tak, jakby był aktualny.
 
-## O którym akwarium Cora rozmawia
+## O którym akwarium mówi Cora
 
-O tym, które akwarium ekran pokazuje. Przełącz akwaria na górnym pasku najpierw, albo nazwij akwarium w swoim pytaniu.
+O tym, które jest na ekranie. Najpierw przełącz akwarium na górnym pasku albo podaj jego nazwę w pytaniu.
 
-## Zatrzymywanie
+## Kończenie rozmowy
 
-Powiedz *"stop"* albo dotknij, aby zakończyć sesję. Cora przestaje słuchać, gdy sesja się kończy.
+Powiedz *„stop”* albo dotknij ekranu, żeby zakończyć sesję. Gdy sesja się kończy, Cora przestaje słuchać.
 
-## Jeśli źle rozumie
+## Gdy Cora źle słyszy
 
-Słownictwo reefowe jest trudne, a nazwy sprzętu są trudniejsze. Jeśli Cora wielokrotnie źle rozumie urządzenie, zmień jego nazwę w **Urządzenia** na coś bardziej wyraźne; krótkie, zwykłe słowa działają najlepiej.
+Słownictwo akwarystyczne jest trudne, a nazwy sprzętu jeszcze trudniejsze. Jeśli Cora ciągle myli jakieś urządzenie, zmień jego nazwę w **Urządzenia** na bardziej wyrazistą. Najlepiej działają krótkie, zwykłe słowa.
 
-## Jeśli Cora nie odpowiada
+## Gdy Cora nie odpowiada
 
-Sprawdź, czy **Nasłuchiwanie słowa aktywującego** jest wciąż włączone (**Ustawienia → Ustawienia Cora Max → Dźwięk i głos**), czy to urządzenie jest **urządzeniem odpowiadającym** gospodarstwa domowego (powyżej), i czy jego głośność jest podkręcona. Szum tła z hałaśliwego sumpa albo filtra prosto przy urządzeniu może też uniemożliwić wiarygodne usłyszenie frazy budzącej; przesunięcie urządzenia albo mówienie odrobinę bliżej niego zwykle to naprawia.
+Sprawdź, czy **Nasłuchiwanie słowa aktywującego** jest dalej włączone (**Ustawienia → Ustawienia Cora Max → Dźwięk i głos**), czy to urządzenie jest ustawione jako **Urządzenie odpowiadające** (patrz wyżej) i czy głośność jest wystarczająco wysoka. Frazę aktywującą może też zagłuszać hałas z głośnego sumpa albo filtra tuż obok urządzenia. Zwykle pomaga przestawienie urządzenia albo mówienie trochę bliżej.
 
-**Jeśli to nie działa:** zobacz [Rozwiązywanie problemów](/help/troubleshooting).
+Jeśli to nie pomoże, zajrzyj do [Rozwiązywanie problemów](/help/troubleshooting).

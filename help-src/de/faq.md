@@ -1,367 +1,367 @@
 ---
-title: Häufig gestellte Fragen
-description: Schnelle Antworten zu Einrichtung, Cora Max, der Handy-App, Geräten, Warnungen, Reef Buddy und Cora Assistant, Sprachen und deinem Konto.
+title: Häufige Fragen
+description: Kurze Antworten zu Einrichtung, Cora Max, der Handy-App, Geräten, Warnungen, Reef Buddy und Cora Assistant, Sprachen und deinem Konto.
 section: Help
 reviewed: 2026-09-27
 order: 0
 ---
 
-Zuerst kurze Antworten, mit einem Link zur ausführlichen Seite für Details. Wenn deine Frage eigentlich "etwas sieht falsch aus" lautet, geh direkt zu [Problembehebung](/help/troubleshooting).
+Hier stehen zuerst die kurzen Antworten, mit einem Link zur ausführlichen Seite. Sieht bei dir etwas falsch aus, geh gleich zur [Problembehebung](/help/troubleshooting).
 
 ## Erste Schritte
 
 ### Was muss ich kaufen, um Cora zu nutzen?
 
-Ein Handy reicht zum Anfangen: Cora Mobile betreibt deine Becken, Geräte und Warnungen eigenständig. Ein Cora Max ist ein optionaler Wandbildschirm für den Riffraum, keine Voraussetzung.
+Für den Anfang reicht ein Handy. Cora Mobile verwaltet deine Becken, Geräte und Warnungen ganz allein. Cora Max ist ein zusätzlicher Wandbildschirm für den Riffraum, den du nicht unbedingt brauchst.
 
-Mehr: [Cora Hilfe](/help/)
+Mehr dazu unter [Cora Hilfe](/help/).
 
-### Brauche ich ein Cora Max-Tablet, oder kann ich nur die Handy-App nutzen?
+### Brauche ich ein Cora Max-Tablet, oder reicht die Handy-App?
 
-Die Handy-App allein reicht. Jede Kernfunktion (Becken, Geräte, Dashboards, Warnungen, Dosierung) lebt zuerst in Cora Mobile, und Cora Max zeigt einfach dieselben Becken auf einem größeren Bildschirm mit zusätzlicher Sprachsteuerung.
+Die Handy-App reicht. Alle wichtigen Funktionen wie Becken, Geräte, Dashboards, Warnungen und Dosierung gibt es zuerst in Cora Mobile. Cora Max zeigt dieselben Becken nur auf einem größeren Bildschirm und versteht zusätzlich Sprache.
 
-Mehr: [Cora Hilfe](/help/), [Cora Mobile einrichten](/help/mobile-setup)
+Mehr dazu unter [Cora Hilfe](/help/) und [Cora Mobile einrichten](/help/mobile-setup).
 
 ### Wie füge ich mein erstes Becken hinzu?
 
-Cora Mobile führt dich durch den Vorgang: erstelle dein Konto, füge dann ein Becken hinzu und beantworte die Fragen zu seinem Profil. Geräte und Dashboards kommen erst, nachdem das Becken existiert.
+Cora Mobile führt dich Schritt für Schritt hin. Leg dein Konto an, füg ein Becken hinzu und beantworte die Fragen zum Beckenprofil. Geräte und Dashboards kommen erst, wenn das Becken angelegt ist.
 
-Mehr: [Cora Mobile einrichten](/help/mobile-setup)
+Mehr dazu unter [Cora Mobile einrichten](/help/mobile-setup).
 
-### Was bedeutet "Beckenprofil" und warum werden so viele Fragen gestellt?
+### Was ist das „Beckenprofil“, und warum fragt es so viel?
 
-Das Beckenprofil ist die grundlegende Beschreibung deines Systems: Größe, Wassertyp, Besatz und wie du dosierst und testest. Cora nutzt diese Antworten, um sinnvolle Anfangsschwellenwerte festzulegen und damit Reef Buddy und Cora Assistant Antworten geben, die speziell zu deinem Becken passen, statt allgemein zu bleiben.
+Im Beckenprofil beschreibst du dein System: Größe, Wasserart, Besatz und wie du dosierst und testest. Mit diesen Antworten legt Cora passende erste Schwellenwerte fest. Außerdem beziehen sich Reef Buddy und Cora Assistant dann in ihren Antworten auf dein Becken und bleiben nicht allgemein.
 
-Mehr: [Beckenprofil](/help/mobile-tank-profile)
+Mehr dazu unter [Beckenprofil](/help/mobile-tank-profile).
 
 ### Wie lange dauert die Einrichtung?
 
-Ein einzelnes Becken ohne Ausrüstung dauert nur wenige Minuten. Echte Geräte hinzuzufügen (Sonden, Controller, Pumpen) dauert nur deshalb länger, weil jedes seinen eigenen Kopplungsschritt braucht; du kannst jederzeit später mehr hinzufügen.
+Ein einzelnes Becken ohne Ausrüstung ist in wenigen Minuten eingerichtet. Echte Geräte wie Sonden, Controller oder Pumpen dauern etwas länger, weil du jedes einzeln koppelst. Weitere Geräte kannst du jederzeit später hinzufügen.
 
-Mehr: [Cora Mobile einrichten](/help/mobile-setup)
+Mehr dazu unter [Cora Mobile einrichten](/help/mobile-setup).
 
 ## Cora Max
 
 ### Kann ein Cora Max mehr als ein Becken zeigen?
 
-Ja. Ein einzelnes Cora Max kann jedes Becken auf deinem Konto zeigen, eines nach dem anderen, und die Riffraum-Ansicht zeigt sie alle zusammen.
+Ja. Ein Cora Max kann jedes Becken aus deinem Konto zeigen, eines nach dem anderen. Im Riffraum siehst du alle zusammen.
 
-Mehr: [Der Riffraum](/help/max-reef-room)
+Mehr dazu unter [Der Riffraum](/help/max-reef-room).
 
-### Was ist "Primäres Cora Max", und muss ich es festlegen?
+### Was ist das „Primäre Cora Max“, und muss ich es festlegen?
 
-Primäres Cora Max entscheidet, welches Tablet mit der lokalen Ausrüstung eines Beckens spricht. Die meisten fassen es nie an: Bei einem Tablet gibt es nichts zu wählen, und der Standard, **Jedes aktive (automatisch)**, lässt jedes Online-Cora Max die Arbeit automatisch teilen. Lege ein bestimmtes Tablet nur fest, wenn du willst, dass nur ein Gerät die Abfrage macht.
+Das Primäre Cora Max bestimmt, welches Tablet mit der Ausrüstung eines Beckens vor Ort spricht. Die meisten ändern hier nie etwas. Mit einem Tablet gibt es nichts zu wählen, und bei der Standardeinstellung **Jedes aktive (automatisch)** teilen sich alle Cora Max, die online sind, die Arbeit von selbst. Leg nur dann ein bestimmtes Tablet fest, wenn ein einziges Gerät die Abfrage übernehmen soll.
 
-Mehr: [Mehr als ein Cora-Gerät](/help/mobile-multi-device)
+Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-### Welches Gerät antwortet auf "Hey Cora", wenn ich mehr als ein Cora Max habe?
+### Welches Gerät antwortet auf „Hey Cora“, wenn ich mehrere Cora Max habe?
 
-Immer nur ein Cora-Gerät antwortet auf die Wake-Phrase, ausgewählt in den Einstellungen unter **Cora Assistant**. Das ist eine getrennte Wahl von Primäres Cora Max: Bei der einen geht es um Sprache, bei der anderen darum, mit deiner Ausrüstung zu sprechen.
+Es antwortet immer nur ein Cora-Gerät auf das Weckwort. Welches, legst du in den Einstellungen unter **Cora Assistant** fest. Das ist unabhängig vom Primären Cora Max. Beim einen geht es um Sprache, beim anderen um die Verbindung zu deiner Ausrüstung.
 
-Mehr: [Sprache auf Cora Max](/help/max-voice), [Mehr als ein Cora-Gerät](/help/mobile-multi-device)
+Mehr dazu unter [Sprache auf Cora Max](/help/max-voice) und [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-### Braucht Cora Max das Internet, oder nur mein WLAN zu Hause?
+### Braucht Cora Max Internet, oder reicht mein WLAN zu Hause?
 
-Cora Max braucht dein WLAN zu Hause, um deine Ausrüstung zu erreichen, und eine Internetverbindung, um Cora Cloud für Anmeldung, Synchronisierung und den Assistenten zu erreichen. Die Status-Pille in der oberen Leiste zeigt dir, welche davon es gerade hat.
+Cora Max braucht dein WLAN, um deine Ausrüstung zu erreichen. Für Anmeldung, Abgleich und den Assistenten braucht es außerdem Internet, um Cora Cloud zu erreichen. Der Status-Chip in der oberen Leiste zeigt dir, welche Verbindung gerade steht.
 
-Mehr: [Der Cora Max Startbildschirm](/help/max-tour)
+Mehr dazu unter [Der Cora Max-Startbildschirm](/help/max-tour).
 
 ### Funktioniert Cora Max weiter, wenn Cora Cloud nicht erreichbar ist?
 
-Cora Max zeigt weiterhin die letzten Daten, die es hat, und arbeitet weiter mit Ausrüstung im eigenen Netzwerk, aber Anmeldung, Synchronisierung zwischen Geräten und der Assistent brauchen Cora Cloud zurück, bevor sie wieder funktionieren.
+Cora Max zeigt weiter die letzten Daten, die es hat, und arbeitet weiter mit der Ausrüstung im eigenen Netzwerk. Anmeldung, Abgleich zwischen Geräten und der Assistent funktionieren aber erst wieder, wenn Cora Cloud erreichbar ist.
 
-Mehr: [Der Cora Max Startbildschirm](/help/max-tour), [Geräte und Gerätezustand](/help/max-devices)
+Mehr dazu unter [Der Cora Max-Startbildschirm](/help/max-tour) und [Geräte und Gerätezustand](/help/max-devices).
 
-### Kann ich mein Cora Max später in ein anderes WLAN-Netzwerk umziehen?
+### Kann ich mein Cora Max später mit einem anderen WLAN verbinden?
 
-Ja, direkt vom Cora Max aus: Tritt dem neuen Netzwerk in den eigenen Netzwerkeinstellungen bei. Deine Becken, Geräte und dein Konto bleiben gleich; nur die WLAN-Verbindung ändert sich.
+Ja, direkt am Cora Max. Verbinde es in seinen Netzwerkeinstellungen mit dem neuen WLAN. Becken, Geräte und Konto bleiben gleich, nur die WLAN-Verbindung ändert sich.
 
-Mehr: [Cora Max einrichten](/help/max-setup)
+Mehr dazu unter [Cora Max einrichten](/help/max-setup).
 
 ## Handy-App
 
-### Warum fragt Cora Mobile nach Zugriff auf das lokale Netzwerk und Bluetooth?
+### Warum will Cora Mobile Zugriff auf das lokale Netzwerk und auf Bluetooth?
 
-Cora Mobile braucht Zugriff auf das lokale Netzwerk, um ein Cora Max oder WLAN-Ausrüstung in deinem Heimnetzwerk zu finden und zu koppeln, und Bluetooth-Zugriff für Ausrüstung, die so gekoppelt wird. Ohne diese Berechtigungen kann die Kopplung das Gerät einfach nicht finden.
+Über das lokale Netzwerk findet und koppelt Cora Mobile ein Cora Max oder WLAN-Geräte bei dir zu Hause. Bluetooth braucht es für Geräte, die darüber gekoppelt werden. Ohne diese Berechtigungen findet die Kopplung das Gerät schlicht nicht.
 
-Mehr: [Einstellungen](/help/mobile-settings), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Einstellungen](/help/mobile-settings) und [Problembehebung](/help/troubleshooting).
 
 ### Können zwei Cora Max-Tablets dasselbe Becken zeigen?
 
-Ja. Füge beide zum selben Becken hinzu, und jedes zeigt dieselben Live-Daten; Primäres Cora Max entscheidet nur, welches mit der lokalen Ausrüstung spricht, nicht welches das Becken anzeigen darf.
+Ja. Füg beide demselben Becken hinzu, dann zeigen beide dieselben Live-Daten. Das Primäre Cora Max bestimmt nur, welches Gerät mit der Ausrüstung vor Ort spricht. Anzeigen können das Becken beide.
 
-Mehr: [Mehr als ein Cora-Gerät](/help/mobile-multi-device)
+Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-### Kann ich von meinem Handy aus nach meinem Becken sehen, wenn ich nicht zu Hause bin?
+### Kann ich unterwegs auf dem Handy nach meinem Becken sehen?
 
-Ja, Messwerte und Historie sind über Cora Cloud immer verfügbar, egal wo du bist. Ein paar geräteeigene Einstellungen (im Gegensatz zu Messwerten) öffnen sich nur, wenn dein Handy im selben Netzwerk wie das Gerät selbst ist.
+Ja. Messwerte und Verlauf sind über Cora Cloud immer verfügbar, egal wo du bist. Nur ein paar gerätespezifische Einstellungen öffnen sich ausschließlich, wenn dein Handy im selben Netzwerk ist wie das Gerät.
 
-Mehr: [Mehr als ein Cora-Gerät](/help/mobile-multi-device)
+Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-### Kann ich Ausrüstung steuern, zum Beispiel eine Pumpe ausschalten, wenn ich nicht zu Hause bin?
+### Kann ich unterwegs Geräte steuern, zum Beispiel eine Pumpe ausschalten?
 
-Bei der meisten Ausrüstung ja: Steckdosen, Fütterungsmodus und ähnliche Steuerungen laufen über Cora Cloud, sodass sie außerhalb des Netzwerks deines Beckens funktionieren. Ein paar geräteeigene Einstellungen brauchen dein Handy noch immer im eigenen WLAN des Beckens.
+Bei den meisten Geräten ja. Steckdosen, Fütterungsmodus und ähnliche Steuerungen laufen über Cora Cloud und funktionieren deshalb auch außerhalb des Netzwerks deines Beckens. Ein paar gerätespezifische Einstellungen gehen aber nur, wenn dein Handy im WLAN des Beckens ist.
 
-Mehr: [Mehr als ein Cora-Gerät](/help/mobile-multi-device), [Deine Ausrüstung steuern](/help/mobile-device-control)
+Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device) und [Deine Ausrüstung steuern](/help/mobile-device-control).
 
 ### Können zwei Personen dasselbe Becken nutzen?
 
-Cora ist heute um ein Konto pro Becken herum aufgebaut. Wenn eine andere Person ein Becken sehen oder dabei helfen soll, ist das Teilen mit ihr der unterstützte Weg, statt sich mit demselben Konto auf zwei Handys anzumelden.
+Cora ist derzeit auf ein Konto pro Becken ausgelegt. Soll jemand anderes dein Becken sehen oder dir helfen, teil es mit dieser Person. Dafür ist das Teilen gedacht. Dasselbe Konto auf zwei Handys zu nutzen, ist nicht vorgesehen.
 
-Mehr: [Teilen](/help/mobile-sharing)
+Mehr dazu unter [Teilen](/help/mobile-sharing).
 
 ## Geräte und Integrationen
 
-### Mit welcher Ausrüstung funktioniert Cora?
+### Mit welchen Geräten funktioniert Cora?
 
-Cora arbeitet mit einer wachsenden Liste von Controllern und Ausrüstung zusammen, von WLAN-Controllern bis zu Dosierpumpen und Gyres. Die aktuelle Liste steht auf der Verbindungen-Seite, und Cora unterstützt außerdem handnotierte Messwerte für alles, mit dem es sich nicht direkt verbindet.
+Cora arbeitet mit immer mehr Controllern und Geräten zusammen, von WLAN-Controllern bis zu Dosierpumpen und Gyres. Die aktuelle Liste steht auf der Seite zu den Verbindungen. Für alles, womit sich Cora nicht direkt verbindet, kannst du Messwerte von Hand eintragen.
 
-Mehr: [Verbindungen](/help/mobile-connections)
+Mehr dazu unter [Verbindungen](/help/mobile-connections).
 
-### Ist Cora mit Neptune, Red Sea, Jebao oder Maxspect verbunden?
+### Gehört Cora zu Neptune, Red Sea, Jebao oder Maxspect?
 
-Nein. Cora ist mit keinem Ausrüstungshersteller, mit dem es sich verbindet, verbunden, wird von keinem unterstützt oder ist mit keinem verpartnert, einschließlich Maxspect, dessen Integration sich noch in der Beta befindet. Cora spricht mit deren öffentlichen Konten oder lokalen Netzwerkprotokollen, und ein Update der eigenen App oder Firmware eines Herstellers kann diese Verbindung jederzeit auf deren Seite ändern oder unterbrechen, ohne Vorwarnung.
+Nein. Cora gehört zu keinem der Hersteller, mit deren Geräten es sich verbindet, und wird von keinem unterstützt oder als Partner geführt. Das gilt auch für Maxspect, dessen Anbindung noch in der Beta ist. Cora nutzt die öffentlichen Konten oder lokalen Netzwerkprotokolle der Hersteller. Ein Update ihrer App oder Firmware kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen.
 
-Mehr: [Verbindungen](/help/mobile-connections)
+Mehr dazu unter [Verbindungen](/help/mobile-connections).
 
-### Warum findet Cora Mobile mein Cora Max nicht, wenn ich es koppeln möchte?
+### Warum findet Cora Mobile mein Cora Max beim Koppeln nicht?
 
-Fast immer WLAN: Dein Handy und das Cora Max müssen für die Kopplung im selben Netzwerk sein, und auf dem iPhone braucht Cora außerdem Zugriff auf das lokale Netzwerk. Cora Mobile zeigt, welcher Kopplungsschritt fehlgeschlagen ist, und bietet dir **Erneut versuchen**.
+Fast immer liegt es am WLAN. Zum Koppeln müssen dein Handy und das Cora Max im selben Netzwerk sein. Auf dem iPhone braucht Cora außerdem Zugriff auf das lokale Netzwerk. Cora Mobile zeigt dir, bei welchem Schritt die Kopplung gescheitert ist, und bietet **Erneut versuchen** an.
 
-Mehr: [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Problembehebung](/help/troubleshooting).
 
-### Muss mein Handy im selben WLAN wie mein Cora Max sein?
+### Muss mein Handy im selben WLAN sein wie mein Cora Max?
 
-Zum Koppeln, ja. Einmal gekoppelt, funktioniert die tägliche Nutzung von überall aus über Cora Cloud; nur eine Handvoll geräteeigener Einstellungen braucht das Handy wieder in diesem WLAN.
+Zum Koppeln ja. Danach funktioniert der Alltag über Cora Cloud von überall. Nur für eine Handvoll gerätespezifischer Einstellungen muss das Handy wieder in diesem WLAN sein.
 
-Mehr: [Mehr als ein Cora-Gerät](/help/mobile-multi-device), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device) und [Problembehebung](/help/troubleshooting).
 
-### Was passiert, wenn ich meinen WLAN-Router oder Netzwerknamen ändere?
+### Was passiert, wenn ich meinen Router oder den WLAN-Namen ändere?
 
-Jede Ausrüstung oder jedes Cora Max, das über dieses Netzwerk verbunden war, ist nicht mehr erreichbar, bis es dem neuen Netzwerk oder Namen wieder beitritt. Verbinde das Gerät auf demselben Weg neu, wie du es zuerst hinzugefügt hast.
+Alle Geräte und Cora Max, die über dieses Netzwerk verbunden waren, sind dann nicht mehr erreichbar, bis sie sich mit dem neuen Netzwerk verbinden. Verbinde jedes Gerät so neu, wie du es beim ersten Mal hinzugefügt hast.
 
-Mehr: [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Problembehebung](/help/troubleshooting).
 
-### Mein Gerät hat bei der Suche nach Ausrüstung nichts gefunden, was stimmt nicht?
+### Die Gerätesuche hat nichts gefunden. Was ist los?
 
-Prüfe, ob die Ausrüstung eingeschaltet ist und, falls nötig, bereits in ihrer eigenen Hersteller-App eingerichtet wurde, und ob dein Handy Zugriff auf das lokale Netzwerk und Bluetooth erlaubt hat. Ausrüstung, die noch nie deinem Netzwerk beigetreten ist, kann erst gefunden werden, wenn sie es tut.
+Prüf, ob das Gerät eingeschaltet ist und, falls nötig, schon in der App des Herstellers eingerichtet wurde. Prüf auch, ob du auf dem Handy den Zugriff auf lokales Netzwerk und Bluetooth erlaubt hast. Ein Gerät, das noch nie in deinem Netzwerk war, kann Cora erst finden, wenn es sich verbunden hat.
 
-Mehr: [Einstellungen](/help/mobile-settings), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Einstellungen](/help/mobile-settings) und [Problembehebung](/help/troubleshooting).
 
-### Warum haben die Messwerte meines Red Sea-Geräts aufgehört zu aktualisieren?
+### Warum aktualisieren sich die Messwerte meines Red Sea-Geräts nicht mehr?
 
-Cora zeigt einen Hinweis, dass gerade kein Gerät es liest, wenn nichts im Netzwerk dieses Beckens deine Red Sea-Ausrüstung derzeit abfragt. Prüfe Primäres Cora Max in den Einstellungen, oder öffne das Becken auf einem Gerät, das im selben WLAN wie die Red Sea-Ausrüstung ist.
+Fragt im Netzwerk dieses Beckens gerade nichts deine Red Sea-Geräte ab, zeigt Cora einen Hinweis, dass kein Gerät sie liest. Prüf in den Einstellungen das Primäre Cora Max, oder öffne das Becken auf einem Gerät, das im selben WLAN ist wie deine Red Sea-Geräte.
 
-Mehr: [Problembehebung](/help/troubleshooting), [Mehr als ein Cora-Gerät](/help/mobile-multi-device)
+Mehr dazu unter [Problembehebung](/help/troubleshooting) und [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-### Warum heißt es "Die Pumpe konnte nicht erreicht werden", wenn ich versuche, meine Jecod-Pumpe zu steuern?
+### Warum steht „Die Pumpe konnte nicht erreicht werden“, wenn ich meine Jecod-Pumpe steuern will?
 
-Der Befehl hat die Pumpe nie erreicht, meist weil sie ausgeschaltet ist, nicht im Netzwerk ist, oder (bei einer reinen Bluetooth-Pumpe) außer Reichweite ist. Prüfe Strom und Verbindung, geh näher heran, wenn sie über Bluetooth koppelt, und versuch es erneut.
+Der Befehl ist nie bei der Pumpe angekommen. Meist ist sie ausgeschaltet, nicht im Netzwerk oder, bei einer reinen Bluetooth-Pumpe, außer Reichweite. Prüf Strom und Verbindung, geh bei Bluetooth näher heran und versuch es noch einmal.
 
-Mehr: [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Problembehebung](/help/troubleshooting).
 
-### Warum wird das Gyre-Programm nicht angewendet?
+### Warum wird das Gyre-Programm nicht übernommen?
 
-Ein Zeitplan, der an eine Gyre gesendet wird, kann auf dieselbe Weise fehlschlagen wie ein Befehl: Die Gyre hat nicht geantwortet. Prüfe, ob sie eingeschaltet und im Netzwerk ist, und versuch es dann vom Zeitplan-Bildschirm aus erneut.
+Ein Zeitplan für eine Gyre kann genauso scheitern wie ein Befehl, nämlich wenn die Gyre nicht antwortet. Prüf, ob sie eingeschaltet und im Netzwerk ist, und versuch es dann im Zeitplan-Bildschirm noch einmal.
 
-Mehr: [Ausrüstung planen](/help/mobile-schedules), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules) und [Problembehebung](/help/troubleshooting).
 
-### Ist es sicher, Cora meine Dosierpumpe automatisch steuern zu lassen?
+### Kann ich Cora meine Dosierpumpe gefahrlos automatisch steuern lassen?
 
-Cora dosiert nur das, was du eingerichtet hast: ein Produkt, eine Stärke und einen Zeitplan, die du festlegst. Wird eine Dosierung mitten in der Ausführung unterbrochen, löst Cora eine spezifische Warnung dazu aus, statt anzunehmen, dass sie abgeschlossen wurde, sodass nichts still unter- oder überdosiert wird.
+Cora dosiert nur, was du eingerichtet hast, also das Produkt, die Stärke und den Zeitplan, die du festlegst. Bricht eine Dosierung mittendrin ab, bekommst du eine eigene Warnung dazu. Cora geht nicht einfach davon aus, dass sie fertig ist. So wird nie unbemerkt zu wenig oder zu viel dosiert.
 
-Mehr: [Dosierung](/help/mobile-dosing), [Deine Ausrüstung steuern](/help/mobile-device-control)
+Mehr dazu unter [Dosierung](/help/mobile-dosing) und [Deine Ausrüstung steuern](/help/mobile-device-control).
 
-### Was passiert, wenn eine Dosierung auf halbem Weg unterbrochen wird?
+### Was passiert, wenn eine Dosierung mittendrin abbricht?
 
-Cora löst eine Warnung aus, die dir sagt, dass eine Dosierung nicht abgeschlossen wurde, und, wenn erkennbar, wie viel tatsächlich abgegeben wurde. Prüfe diese Warnung, bevor du davon ausgehst, dass die volle Dosis abgegeben wurde, und setze von dort aus fort oder passe an.
+Du bekommst eine Warnung, dass die Dosierung nicht fertig wurde, und wenn Cora es erkennen kann, auch wie viel tatsächlich dosiert wurde. Schau dir diese Warnung an, bevor du von der vollen Dosis ausgehst, und setz dann fort oder pass die Menge an.
 
-Mehr: [Deine Ausrüstung steuern](/help/mobile-device-control)
+Mehr dazu unter [Deine Ausrüstung steuern](/help/mobile-device-control).
 
-### Wie weiß Cora, wie stark mein Dosierprodukt ist?
+### Woher weiß Cora, wie stark mein Dosierprodukt ist?
 
-Entweder aus einer eingebauten Produktbibliothek von Salzen und Dosierprodukten mit veröffentlichten Werten, oder aus der Stärke, die du selbst eingibst, wenn du dein eigenes Produkt hinzufügst.
+Entweder aus der eingebauten Produktbibliothek mit Salzen und Dosierprodukten und deren veröffentlichten Werten, oder du gibst die Stärke selbst ein, wenn du ein eigenes Produkt anlegst.
 
-Mehr: [Dosierung](/help/mobile-dosing)
+Mehr dazu unter [Dosierung](/help/mobile-dosing).
 
 ## Warnungen und Benachrichtigungen
 
-### Warum bekomme ich überhaupt keine Benachrichtigungen?
+### Warum bekomme ich gar keine Benachrichtigungen?
 
-Prüfe, ob die Kategorie der Warnung unter **Einstellungen → Benachrichtigungen** zum Senden erlaubt ist, und prüfe die Benachrichtigungsberechtigung deines Handys selbst für Cora. Die tägliche Zusammenfassung ist außerdem an Tagen, an denen sich nichts geändert hat, bewusst still, was erwartet ist und kein Fehler.
+Prüf unter **Einstellungen → Benachrichtigungen**, ob die Kategorie der Warnung Push-Benachrichtigungen senden darf. Prüf auch, ob Cora in den Einstellungen deines Handys Benachrichtigungen senden darf. An Tagen, an denen sich nichts geändert hat, bleibt die tägliche Zusammenfassung außerdem still. Das ist so gewollt und kein Fehler.
 
-Mehr: [Benachrichtigungen](/help/mobile-notifications), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Benachrichtigungen](/help/mobile-notifications) und [Problembehebung](/help/troubleshooting).
 
 ### Warum verschwindet eine Warnung nicht, obwohl der Messwert gut aussieht?
 
-Entweder ist der Messwert wirklich noch außerhalb des Bereichs (prüfe seine Historie), der Schwellenwert passt nicht zu deinem Becken, oder die Quelle selbst (oft eine Sonde, die kalibriert werden muss) meldet eine Zahl, die außerhalb des Bereichs liegt. Die Quelle zu beheben ist meist der richtige Schritt, nicht der Schwellenwert.
+Dafür gibt es drei mögliche Gründe. Der Messwert liegt wirklich noch außerhalb des Bereichs (schau dir den Verlauf an), der Schwellenwert passt nicht zu deinem Becken, oder die Quelle selbst liefert einen Wert außerhalb des Bereichs, oft eine Sonde, die kalibriert werden muss. Meist hilft es, die Quelle zu reparieren und nicht den Schwellenwert zu ändern.
 
-Mehr: [Warnungen und Schwellenwerte](/help/mobile-alerts), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts) und [Problembehebung](/help/troubleshooting).
 
-### Wie schalte ich eine Warnung vorübergehend stumm, ohne sie ganz abzustellen?
+### Wie mache ich eine Warnung vorübergehend still, ohne sie abzuschalten?
 
-Nutze **Schlummern**. Das schaltet diese Warnung für einen von dir gewählten Zeitraum stumm, ohne sie zu schließen oder den Schwellenwert zu ändern, der sie ausgelöst hat.
+Tippe auf Cora Max auf **Schlummern**. Damit ist die Warnung auf diesem Bildschirm still, und zwar so lange, wie die Abklingzeit der Warnregel dauert. Die Warnung bleibt offen, und ihr Schwellenwert ändert sich nicht. Auf dem Handy stellst du stattdessen an der Regel eine längere **Abklingzeit zwischen Warnungen** ein.
 
-Mehr: [Warnungen und Schwellenwerte](/help/mobile-alerts)
+Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
-### Was ist der Unterschied zwischen einer Warnung schlummern legen und sie verwerfen?
+### Was ist der Unterschied zwischen Schlummern und Verwerfen?
 
-**Verwerfen** schließt die Warnung endgültig, für den Fall, dass du sie gesehen und die Situation akzeptiert hast. **Schlummern** schaltet sie nur für eine Weile stumm; die Warnung kann zurückkommen, sobald die Schlummerzeit endet, wenn der Zustand noch besteht.
+Beide Tasten gibt es auf Cora Max, und beide wirken nur auf diesem Bildschirm. **Schlummern** macht die Warnung dort eine Weile still. Besteht das Problem nach Ablauf der Schlummerzeit noch, kommt sie zurück. **Verwerfen** schließt sie dort, bis der Messwert wieder im Bereich liegt. Tritt das Problem später erneut auf, bekommst du eine neue Warnung.
 
-Mehr: [Warnungen und Schwellenwerte](/help/mobile-alerts)
+Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
-### Kann ich festlegen, wie lange eine Warnung schlummert, ist eine Woche das Maximum?
+### Kann ich festlegen, wie lange eine Warnung schlummert? Ist eine Woche das Maximum?
 
-Ja, du wählst die Dauer beim Schlummern, und eine Woche ist der längste Cooldown, den Cora anbietet.
+Das Schlummern dauert so lange wie die **Abklingzeit zwischen Warnungen** der Warnregel, die du in Cora Mobile einstellst. Das Maximum ist 1 Woche.
 
-Mehr: [Warnungen und Schwellenwerte](/help/mobile-alerts)
+Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
-### Warum habe ich eine Warnung auf meinem Handy bekommen, aber nicht auf Cora Max, oder umgekehrt?
+### Warum kam eine Warnung auf meinem Handy an, aber nicht auf Cora Max, oder umgekehrt?
 
-Jede App und jedes Cora Max hat seine eigenen Benachrichtigungseinstellungen, sodass eine Kategorie, die auf dem einen erlaubt ist, auf dem anderen abgeschaltet sein kann. Prüfe **Einstellungen → Benachrichtigungen** auf beiden.
+Jede App und jedes Cora Max hat eigene Benachrichtigungseinstellungen. Eine Kategorie kann also auf dem einen Gerät erlaubt und auf dem anderen ausgeschaltet sein. Prüf auf beiden **Einstellungen → Benachrichtigungen**.
 
-Mehr: [Benachrichtigungen](/help/mobile-notifications), [Warnungen auf Cora Max](/help/max-alerts)
+Mehr dazu unter [Benachrichtigungen](/help/mobile-notifications) und [Warnungen auf Cora Max](/help/max-alerts).
 
 ## Reef Buddy und Cora Assistant
 
-### Was kann ich Cora fragen, und was kann er nicht?
+### Was kann ich Cora fragen, und was kann Cora nicht?
 
-Cora Assistant beantwortet Fragen zu den Messwerten, der Historie, der Dosierung und dem Tagebuch deines Beckens, und kann Ausrüstungsaktionen ausführen, die du per Sprache oder Text verlangst. Er kann nichts tun, wofür er keine Daten oder Verbindung hat, und er sagt das, statt zu raten.
+Cora Assistant beantwortet Fragen zu Messwerten, Verlauf, Dosierung und Tagebuch deines Beckens. Du kannst Cora auch per Sprache oder Text bitten, etwas an deiner Ausrüstung zu tun. Fehlen die Daten oder die Verbindung, kann Cora nichts ausrichten. Cora sagt dir das dann und rät nicht.
 
-Mehr: [Der Assistent](/help/mobile-assistant)
+Mehr dazu unter [Der Assistent](/help/mobile-assistant).
 
-### Kann Cora meine Ausrüstung wirklich steuern, oder mir nur Dinge sagen?
+### Kann Cora meine Geräte wirklich steuern, oder nur Auskunft geben?
 
-Beides. Stell ihm eine Frage, und er antwortet aus den Daten deines Beckens; bitte ihn, etwas zu tun (wie den Fütterungsmodus zu starten), und, wenn die Ausrüstung es unterstützt, führt er es aus.
+Beides. Stellst du eine Frage, antwortet Cora aus den Daten deines Beckens. Bittest du Cora, etwas zu tun, zum Beispiel den Fütterungsmodus zu starten, erledigt Cora das, sofern das Gerät es unterstützt.
 
-Mehr: [Der Assistent](/help/mobile-assistant), [Sprache auf Cora Max](/help/max-voice)
+Mehr dazu unter [Der Assistent](/help/mobile-assistant) und [Sprache auf Cora Max](/help/max-voice).
 
-### Erinnert sich Cora, was ich ihm letztes Mal gesagt habe?
+### Merkt sich Cora, was ich beim letzten Mal gesagt habe?
 
-Innerhalb der auf der Assistent-Seite beschriebenen Grenzen, ja: Er kann früheren Kontext aus deinem Becken nutzen, sodass du dich nicht jedes Mal wiederholen musst.
+Ja, in den Grenzen, die auf der Seite zum Assistenten beschrieben sind. Cora kann frühere Zusammenhänge zu deinem Becken nutzen, damit du nicht jedes Mal alles wiederholen musst.
 
-Mehr: [Der Assistent](/help/mobile-assistant)
+Mehr dazu unter [Der Assistent](/help/mobile-assistant).
 
-### Warum hat Cora mir eine falsche oder seltsame Antwort gegeben?
+### Warum war die Antwort von Cora falsch oder seltsam?
 
-Cora Assistant antwortet aus den Daten, die er für das gerade ausgewählte Becken hat; ein falsch gewähltes Becken, fehlende Messwerte, oder eine mehrdeutige Frage sind die üblichen Ursachen. Formuliere neu, oder prüfe die Beckenauswahl, und versuch es erneut.
+Cora Assistant antwortet aus den Daten des Beckens, das du gerade ausgewählt hast. Meist ist das falsche Becken gewählt, es fehlen Messwerte oder die Frage war nicht eindeutig. Formulier die Frage anders oder prüf die Beckenauswahl, und versuch es noch einmal.
 
-Mehr: [Der Assistent](/help/mobile-assistant)
+Mehr dazu unter [Der Assistent](/help/mobile-assistant).
 
-### Was ist Reef Buddy, und wie unterscheidet er sich vom Assistenten?
+### Was ist Reef Buddy, und was ist der Unterschied zum Assistenten?
 
-Reef Buddy ist deine tägliche Zusammenfassung, für dich geschrieben, ohne dass du fragen musst: eine Schlagzeile, zwei Werte und die Insights dahinter. Cora Assistant ist derjenige, dem du auf Verlangen Fragen stellst, per Tippen oder Sprache.
+Reef Buddy ist deine tägliche Zusammenfassung. Du bekommst sie, ohne zu fragen, mit einer Schlagzeile, zwei Bewertungen und den Insights dahinter. Cora Assistant fragst du dagegen selbst, wann immer du willst, per Tippen oder Sprache.
 
-Mehr: [Reef Buddy](/help/mobile-reef-buddy), [Glossar](/help/glossary)
+Mehr dazu unter [Reef Buddy](/help/mobile-reef-buddy) und im [Glossar](/help/glossary).
 
 ## Sprachen
 
 ### Welche Sprache spricht Cora, und können Familienmitglieder eine andere nutzen?
 
-Cora verwendet eine Sprache für das ganze Konto, nicht eine eigene pro Person oder Gerät. Jeder, der in diesem Konto angemeldet ist, sieht überall dieselbe Sprache.
+Cora nutzt eine Sprache für das ganze Konto, nicht eine pro Person oder pro Gerät. Alle, die mit diesem Konto angemeldet sind, sehen überall dieselbe Sprache.
 
-Mehr: [Einstellungen](/help/mobile-settings), [Glossar](/help/glossary)
+Mehr dazu unter [Einstellungen](/help/mobile-settings) und im [Glossar](/help/glossary).
 
-### Ich habe die Sprache auf meinem Handy geändert, warum hat sich mein Cora Max auch geändert?
+### Ich habe die Sprache auf dem Handy geändert. Warum hat sich auch mein Cora Max geändert?
 
-Weil Sprache eine Kontoeinstellung ist, keine Geräteeinstellung. Änderst du sie irgendwo (Handy oder ein beliebiges Cora Max), ändert sie sich innerhalb von Momenten überall.
+Weil die Sprache zum Konto gehört und nicht zum Gerät. Änderst du sie irgendwo, auf dem Handy oder auf einem Cora Max, ändert sie sich kurz danach überall.
 
-Mehr: [Einstellungen](/help/mobile-settings), [Glossar](/help/glossary)
+Mehr dazu unter [Einstellungen](/help/mobile-settings) und im [Glossar](/help/glossary).
 
-### Werden alte Berichte und Warnungen übersetzt, nachdem ich die Sprache geändert habe?
+### Werden alte Berichte und Warnungen übersetzt, wenn ich die Sprache ändere?
 
-Nein, und das ist erwartet. Alles bereits Erstellte bleibt in der Sprache, in der es geschrieben wurde; nur neue Warnungen, Berichte und Reef Buddy-Zusammenfassungen von diesem Zeitpunkt an nutzen die neue Sprache.
+Nein, das ist so vorgesehen. Was schon erstellt ist, bleibt in seiner ursprünglichen Sprache. Nur neue Warnungen, Berichte und Reef Buddy-Zusammenfassungen kommen ab dann in der neuen Sprache.
 
-Mehr: [Einstellungen](/help/mobile-settings), [Glossar](/help/glossary)
+Mehr dazu unter [Einstellungen](/help/mobile-settings) und im [Glossar](/help/glossary).
 
 ## Konto, Abos und Datenschutz
 
-### Was ist für immer kostenlos, und was braucht ein Abo?
+### Was ist dauerhaft kostenlos, und wofür brauche ich ein Abo?
 
-Die aktuellen Pläne, ihre Grenzen und was jeder davon enthält, stehen auf der Abo-Seite in der App und auf der Abo-Hilfeseite; schau dort nach, statt dich auf eine Zahl hier zu verlassen, da sich Pläne ändern können.
+Die aktuellen Abos, ihre Grenzen und was sie enthalten, findest du auf der Abo-Seite in der App und auf der Hilfeseite zu den Abos. Schau dort nach, denn Abos können sich ändern, und eine Zahl an dieser Stelle wäre schnell veraltet.
 
-Mehr: [Abos](/help/mobile-plans)
+Mehr dazu unter [Abos](/help/mobile-plans).
 
-### Was passiert mit meinen Daten, wenn meine Testphase oder mein Abo endet?
+### Was passiert mit meinen Daten, wenn die Testphase oder mein Abo endet?
 
-Deine Beckenhistorie wird nicht gelöscht, wenn eine Testphase oder ein Abo endet. Was sich ändert, ist, welche Funktionen verfügbar bleiben; sieh auf der Abo-Seite genau, was jede Stufe enthält.
+Dein Beckenverlauf wird dann nicht gelöscht. Es ändert sich nur, welche Funktionen du weiter nutzen kannst. Was in welcher Stufe enthalten ist, steht genau auf der Abo-Seite.
 
-Mehr: [Abos](/help/mobile-plans)
+Mehr dazu unter [Abos](/help/mobile-plans).
 
-### Wenn ich mein Cora-Konto lösche, kündigt das mein Apple- oder Google-Abo?
+### Kündige ich mit meinem Cora-Konto auch mein Abo bei Apple oder Google?
 
-Nein. Das Löschen deines Cora-Kontos kündigt kein Abo, das über den App Store oder Google Play gekauft wurde; kündige das separat über Apple oder Google.
+Nein. Wenn du dein Cora-Konto löschst, wird ein Abo aus dem App Store oder von Google Play nicht gekündigt. Kündige es separat bei Apple oder Google.
 
-Mehr: [Einstellungen](/help/mobile-settings)
+Mehr dazu unter [Einstellungen](/help/mobile-settings).
 
-### Kann ich meinen Plan ändern oder kündigen, ohne meine Beckenhistorie zu verlieren?
+### Kann ich mein Abo ändern oder kündigen, ohne meinen Beckenverlauf zu verlieren?
 
-Ja, deine Becken, Geräte und Historie bleiben unabhängig von Planänderungen bei deinem Konto; nur ändert sich, welche Funktionen du nutzen kannst.
+Ja. Becken, Geräte und Verlauf bleiben in deinem Konto, egal wie du dein Abo änderst. Es ändert sich nur, welche Funktionen du nutzen kannst.
 
-Mehr: [Abos](/help/mobile-plans)
+Mehr dazu unter [Abos](/help/mobile-plans).
 
 ### Was macht Cora mit meinen Beckendaten?
 
-Cora nutzt deine Beckendaten, um dir deine Messwerte zu zeigen, Warnungen und Schwellenwerte zu steuern, und Reef Buddy und Cora Assistant zu betreiben. Details dazu, was gespeichert wird und wie es verwendet werden kann, stehen auf den Seiten für Datenexport und Einstellungen, und in der Datenschutzerklärung.
+Cora nutzt deine Beckendaten, um dir deine Messwerte zu zeigen, Warnungen und Schwellenwerte zu prüfen und Reef Buddy und Cora Assistant zu betreiben. Was genau gespeichert wird und wie es genutzt werden darf, steht auf den Seiten zu Datenexport und Einstellungen und in der Datenschutzerklärung.
 
-Mehr: [Deine Daten](/help/mobile-data-export), [Einstellungen](/help/mobile-settings)
+Mehr dazu unter [Deine Daten](/help/mobile-data-export) und [Einstellungen](/help/mobile-settings).
 
-### Kann ich eine Kopie von allem bekommen, was Cora über mein Becken gespeichert hat?
+### Bekomme ich eine Kopie von allem, was Cora über mein Becken gespeichert hat?
 
-Ja, ein Export ist über die App verfügbar; sieh auf der Datenexport-Seite, was er enthält und wie du ihn anfordern kannst.
+Ja, du kannst in der App einen Export anfordern. Was er enthält und wie du ihn anforderst, steht auf der Seite zum Datenexport.
 
-Mehr: [Deine Daten](/help/mobile-data-export)
+Mehr dazu unter [Deine Daten](/help/mobile-data-export).
 
 ### Wenn ich mein Konto lösche, ist dann wirklich alles weg?
 
-Das Löschen deines Kontos entfernt deine Daten wie auf der Einstellungen-Seite beschrieben, einschließlich der Option zum Beitragen anonymisierter Daten. Lies diese Seite vor dem Löschen, wenn du das genaue Detail willst.
+Wenn du dein Konto löschst, werden deine Daten so entfernt, wie es auf der Seite zu den Einstellungen beschrieben ist. Dort steht auch, was mit der Option passiert, anonymisierte Daten beizutragen. Lies die Seite vor dem Löschen, wenn du es genau wissen willst.
 
-Mehr: [Einstellungen](/help/mobile-settings)
+Mehr dazu unter [Einstellungen](/help/mobile-settings).
 
-## Hinweise zur Problembehebung
+## Kurze Hilfe bei Problemen
 
 ### Warum zeigt ein Widget keinen Wert?
 
-Meist ein Verbindungsproblem, kein fehlender Wasserwert: Prüfe benachbarte Widgets auf dasselbe Problem, und dann die Zeile des Geräts unter **Geräte**.
+Meist liegt es an der Verbindung und nicht an einem fehlenden Wasserwert. Schau, ob Widgets daneben dasselbe Problem haben, und prüf dann die Zeile des Geräts unter **Geräte**.
 
-Mehr: [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Problembehebung](/help/troubleshooting).
 
-### Warum sagt ein Messwert, dass er von vor einer Stunde ist?
+### Warum ist ein Messwert eine Stunde alt?
 
-Das Alters-Abzeichen ist korrekt: Nichts Neueres ist eingetroffen. Manche Ausrüstung ist tatsächlich absichtlich langsam (ein stündlicher Titrator zum Beispiel); bei allem anderen prüfe die Zeile des Geräts unter **Geräte**.
+Die Altersanzeige stimmt, es ist einfach nichts Neueres angekommen. Manche Geräte messen von sich aus selten, zum Beispiel ein Titrator, der einmal pro Stunde misst. In allen anderen Fällen prüf die Zeile des Geräts unter **Geräte**.
 
-Mehr: [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Problembehebung](/help/troubleshooting).
 
-### Mein Gerät sagt "Anmeldung abgelehnt", was mache ich?
+### Mein Gerät zeigt „Anmeldung abgelehnt“. Was mache ich?
 
-Das Konto des Herstellers hat die gespeicherte Anmeldung abgelehnt, fast immer, weil das Passwort auf deren Seite geändert wurde. Öffne die Gerätezeile und melde dich erneut an.
+Das Herstellerkonto hat die gespeicherten Anmeldedaten abgelehnt. Fast immer wurde dort das Passwort geändert. Öffne die Zeile des Geräts und melde dich neu an.
 
-Mehr: [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Problembehebung](/help/troubleshooting).
 
-### Warum zeigt Cora Max alte Daten, obwohl es "Online" heißt?
+### Warum zeigt Cora Max alte Daten, obwohl „Online“ dasteht?
 
-**Online** und **Cloud** bedeuten beide, dass der Bildschirm selbst gesund ist; wenn die Pille eines der beiden zeigt und die Daten trotzdem alt sind, liegt das Problem vor Cora Max, nicht am Bildschirm. Prüfe dasselbe Becken auf deinem Handy.
+**Online** und **Cloud** heißen beide, dass mit dem Bildschirm selbst alles in Ordnung ist. Steht eines davon im Chip und die Daten sind trotzdem alt, liegt das Problem vor Cora Max und nicht am Bildschirm. Schau dir dasselbe Becken auf deinem Handy an.
 
-Mehr: [Problembehebung](/help/troubleshooting), [Der Cora Max Startbildschirm](/help/max-tour)
+Mehr dazu unter [Problembehebung](/help/troubleshooting) und [Der Cora Max-Startbildschirm](/help/max-tour).
 
 ### Warum widersprechen sich meine Sonde und mein Testkit?
 
-Das ist Cora, das einen echten Widerspruch meldet, kein Fehler. Kalibriere die Sonde, teste mit frischem Reagenz erneut, und vergleiche beide unter denselben Bedingungen; ein ICP-Ergebnis kann einen dritten Datenpunkt hinzufügen.
+Hier meldet Cora einen echten Widerspruch, das ist kein Fehler. Kalibriere die Sonde, teste noch einmal mit frischem Reagenz und vergleiche beide unter denselben Bedingungen. Ein ICP-Ergebnis kann dir einen dritten Vergleichswert liefern.
 
-Mehr: [Problembehebung](/help/troubleshooting), [ICP und Zustandsberichte](/help/mobile-icp-health)
+Mehr dazu unter [Problembehebung](/help/troubleshooting) und [ICP und Zustandsberichte](/help/mobile-icp-health).
 
 ### Was passiert, wenn mein Internet ausfällt?
 
-Cora Max und Cora Mobile zeigen weiterhin die letzten erhaltenen Daten und arbeiten weiter mit Ausrüstung, die bereits im eigenen Netzwerk ist. Anmeldung, Synchronisierung und der Assistent kommen zurück, sobald die Verbindung wiederkehrt.
+Cora Max und Cora Mobile zeigen weiter die zuletzt empfangenen Daten und arbeiten weiter mit Geräten im eigenen Netzwerk. Anmeldung, Abgleich und der Assistent sind wieder da, sobald die Verbindung zurück ist.
 
-Mehr: [Problembehebung](/help/troubleshooting), [Der Cora Max Startbildschirm](/help/max-tour)
+Mehr dazu unter [Problembehebung](/help/troubleshooting) und [Der Cora Max-Startbildschirm](/help/max-tour).
 
 ### Funktioniert Cora ohne Internet?
 
-Teilweise. Messwerte, die schon zugestellt wurden, und die Steuerung von Ausrüstung, die bereits im selben lokalen Netzwerk ist, funktionieren weiter. Anmeldung, geräteübergreifende Synchronisierung, Cora Cloud-Speicherung und der Assistent brauchen alle eine Internetverbindung.
+Zum Teil. Messwerte, die schon angekommen sind, und die Steuerung von Geräten im selben lokalen Netzwerk funktionieren weiter. Für Anmeldung, Abgleich zwischen Geräten, Speichern in Cora Cloud und den Assistenten brauchst du eine Internetverbindung.
 
-Mehr: [Der Cora Max Startbildschirm](/help/max-tour), [Problembehebung](/help/troubleshooting)
+Mehr dazu unter [Der Cora Max-Startbildschirm](/help/max-tour) und [Problembehebung](/help/troubleshooting).
 
 ---
 
-Immer noch keine Antwort gefunden? Geh zu [Problembehebung](/help/troubleshooting) für Lösungen nach Symptom, oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Keine Antwort gefunden? In der [Problembehebung](/help/troubleshooting) findest du Lösungen nach Symptom sortiert, oder du schreibst eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

@@ -1,359 +1,333 @@
 ---
 title: Problembehebung
-description: Messwerte sind ausgeblieben, ein Gerät ist offline gegangen, Warnungen verschwinden nicht, oder etwas sieht falsch aus. Hier anfangen.
+description: Keine neuen Messwerte, ein Gerät offline, eine Warnung, die nicht verschwindet, oder etwas sieht falsch aus. Fang hier an.
 section: Help
 reviewed: 2026-09-27
 order: 1
 ---
 
-Beginne mit dem Symptom.
+Such dir das Symptom heraus, das zu deinem Problem passt.
 
 ## Ein Widget zeigt keinen Wert
 
-Geh diese Liste durch:
+Geh diese Punkte der Reihe nach durch:
 
-1. **Prüfe das Alter benachbarter Widgets.** Wenn alles veraltet ist, liegt das Problem an der Verbindung, nicht am Wasserwert.
-2. **Öffne den Tab Geräte.** Ein nicht erreichbares Gerät sagt das in seiner Zeile.
-3. **Prüfe die Beckenzuweisung.** Ein Gerät, das an das falsche Becken meldet, sieht genauso aus wie eines, das nicht meldet. Öffne das Gerät und bestätige sein Becken.
-4. **Prüfe, ob die Quelle existiert.** Nichts meldet Phosphat, sofern du keine Ausrüstung hast, die es misst, oder du es von Hand protokollierst.
+1. **Schau dir das Alter der Widgets daneben an.** Ist alles veraltet, liegt es an der Verbindung und nicht am Wasserwert.
+2. **Öffne den Tab Geräte.** Ist ein Gerät nicht erreichbar, steht das in seiner Zeile.
+3. **Prüf, zu welchem Becken das Gerät gehört.** Ein Gerät, das an das falsche Becken meldet, sieht genauso aus wie eines, das gar nicht meldet. Öffne das Gerät und prüf sein Becken.
+4. **Prüf, ob es überhaupt eine Quelle gibt.** Phosphat erscheint nur, wenn ein Gerät es misst oder du es von Hand einträgst.
 
 ## Ein Messwert ist veraltet
 
-Das Alters-Abzeichen sagt dir die Wahrheit: nichts Neues ist eingetroffen.
+Die Altersanzeige stimmt. Es ist einfach nichts Neues angekommen.
 
-- **Von Hand protokollierte Wasserwerte** veralten, wenn kein Messwert eingetragen wurde. Protokolliere einen.
-- **Ausrüstungsmesswerte, die veralten**, bedeutet, dass das Gerät aufgehört hat zu melden; prüfe seine Zeile unter **Geräte**.
-- **Manche Ausrüstung soll langsam sein.** Ein Titrator, der stündlich misst, zeigt normalerweise `1h`. Das ist kein Fehler.
+- **Von Hand eingetragene Wasserwerte** veralten, wenn du keinen neuen Wert einträgst. Trag einen ein.
+- **Veraltet ein Messwert von einem Gerät**, meldet das Gerät nicht mehr. Prüf seine Zeile unter **Geräte**.
+- **Manche Geräte messen von sich aus selten.** Ein Titrator, der einmal pro Stunde misst, zeigt normalerweise `1h`. Das ist kein Fehler.
 
 ## Ein Gerät ist nicht erreichbar
 
-Meist das Netzwerk.
+Meist liegt es am Netzwerk.
 
-1. Ist die Ausrüstung eingeschaltet und funktioniert sie in ihrer eigenen App?
-2. Ist sie im selben Netzwerk, in dem sie hinzugefügt wurde?
-3. Hat sich dein Router geändert (neue Hardware, neuer Netzwerkname, Gastnetzwerk-Isolierung)?
+1. Ist das Gerät eingeschaltet, und funktioniert es in seiner eigenen App?
+2. Ist es noch im selben Netzwerk wie beim Hinzufügen?
+3. Hat sich an deinem Router etwas geändert, etwa neue Hardware, ein neuer Netzwerkname oder ein abgeschottetes Gastnetz?
 
-Ausrüstung, die sich über dein lokales Netzwerk verbindet, muss in diesem Netzwerk erreichbar sein. Ausrüstung, die sich über ein Herstellerkonto verbindet, muss das nicht, braucht aber dieses Konto weiterhin gültig.
+Geräte, die sich über dein lokales Netzwerk verbinden, müssen in diesem Netzwerk erreichbar sein. Geräte, die sich über ein Herstellerkonto verbinden, brauchen das nicht. Dafür muss das Konto weiter gültig sein.
 
-## Ein Gerät sagt, die Anmeldung wurde abgelehnt
+## Ein Gerät meldet, dass die Anmeldung abgelehnt wurde
 
-Der Hersteller hat die gespeicherte Anmeldung abgelehnt. Fast immer, weil du dein Passwort bei ihm geändert hast.
+Der Hersteller hat die gespeicherten Anmeldedaten abgelehnt. Fast immer liegt es daran, dass du dort dein Passwort geändert hast.
 
-Öffne die Gerätezeile und melde dich erneut an.
+Öffne die Zeile des Geräts und melde dich neu an.
 
-## Ein Cora Max zu koppeln schlägt fehl
+## Das Koppeln eines Cora Max klappt nicht
 
-Wenn das Hinzufügen eines Cora Max mitten im Vorgang stoppt, sagt Cora Mobile, welcher Schritt fehlgeschlagen ist und warum, mit **Abbrechen** und **Erneut versuchen** darunter.
+Bleibt das Hinzufügen eines Cora Max mittendrin stehen, zeigt Cora Mobile, welcher Schritt gescheitert ist und warum. Darunter stehen **Abbrechen** und **Erneut versuchen**.
 
-- *"Dein Handy konnte das Cora Max in deinem WLAN nicht erreichen."* Bring dein Handy und das Cora Max ins selbe WLAN-Netzwerk. Auf dem iPhone prüfe außerdem, dass Cora Zugriff auf das lokale Netzwerk hat: **Einstellungen → Gerätezugriff** bringt dich dorthin (siehe [Einstellungen](/help/mobile-settings)). Tippe dann auf **Erneut versuchen**.
-- *"Das Cora Max hat diese Kopplungssitzung nicht angenommen."* Erneut zu versuchen hilft nicht. Schließe den Bildschirm und beginne erneut über **Geräte → Gerät hinzufügen**.
+- *„Dein Handy konnte das Cora Max in deinem WLAN nicht erreichen.“* Verbinde Handy und Cora Max mit demselben WLAN. Auf dem iPhone prüf außerdem, ob Cora auf das lokale Netzwerk zugreifen darf. Über **Einstellungen → Gerätezugriff** kommst du dorthin (mehr dazu unter [Einstellungen](/help/mobile-settings)). Tippe dann auf **Erneut versuchen**.
+- *„Das Cora Max hat diese Kopplungssitzung nicht angenommen.“* Ein neuer Versuch hilft hier nicht. Schließ den Bildschirm und fang über **Geräte → Gerät hinzufügen** von vorne an.
 
-Für jede andere Meldung, tippe auf **Erneut versuchen**.
+Bei jeder anderen Meldung tippe auf **Erneut versuchen**.
 
 ## Cora Max zeigt alte Daten
 
-Prüfe die Status-Pille in der oberen Leiste. **Online** und **Cloud** sind beide gesund: Bei mehr als einem Cora zeigt der Bildschirm, der nicht sammelt, **Cloud**, und seine Messwerte sind genauso aktuell. **Veraltet** oder **Offline** bedeutet, dass der Bildschirm seine Quelle verloren hat und die letzten erhaltenen Daten zeigt (korrektes Verhalten, aber nicht aktuell).
+Schau auf den Status-Chip in der oberen Leiste. **Online** und **Cloud** heißen beide, dass alles in Ordnung ist. Hast du mehrere Cora, zeigt der Bildschirm, der nicht selbst sammelt, **Cloud**, und seine Werte sind genauso aktuell. **Veraltet** oder **Offline** heißt, dass der Bildschirm seine Quelle verloren hat. Er zeigt dann die letzten Daten, die er bekommen hat. Das ist richtig so, aber sie sind eben nicht aktuell.
 
-- Prüfe WLAN unter **Einstellungen → Cora Max → Netzwerk**
-- Prüfe, ob das Netzwerk selbst läuft
-- Wenn die Pille **Online** oder **Cloud** liest und die Daten trotzdem alt sind, liegt das Problem vorgelagert: Prüfe dasselbe Becken auf deinem Handy
+- Prüf das WLAN unter **Einstellungen → Cora Max-Einstellungen → Wi-Fi**.
+- Prüf, ob das Netzwerk selbst läuft.
+- Steht im Chip **Online** oder **Cloud** und die Daten sind trotzdem alt, liegt das Problem vor Cora Max. Schau dir dasselbe Becken auf deinem Handy an.
 
 ## Eine Warnung verschwindet nicht
 
-Eine Warnung verschwindet, wenn der Messwert wieder in den Bereich zurückkehrt. Wenn sie nicht verschwindet:
+Eine Warnung verschwindet, sobald der Messwert wieder im Bereich ist. Bleibt sie trotzdem, kann das drei Gründe haben:
 
-- **Der Messwert ist wirklich außerhalb des Bereichs.** Sieh dir die Historie des Widgets an.
-- **Der Schwellenwert passt nicht zu deinem Becken.** Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts).
-- **Die Quelle ist falsch.** Eine Sonde, die kalibriert werden muss, meldet eine Zahl, die wirklich außerhalb des Bereichs liegt. Behebe die Sonde, nicht den Schwellenwert.
+- **Der Messwert liegt wirklich außerhalb des Bereichs.** Schau dir den Verlauf im Widget an.
+- **Der Schwellenwert passt nicht zu deinem Becken.** Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
+- **Die Quelle liefert falsche Werte.** Eine Sonde, die kalibriert werden muss, meldet eine Zahl, die tatsächlich außerhalb des Bereichs liegt. Bring die Sonde in Ordnung und lass den Schwellenwert, wie er ist.
 
 ## Zwei Quellen widersprechen sich
 
-Das ist Cora, das funktioniert, nicht Cora, das versagt. Wenn sich deine Sonde und dein Testkit widersprechen, ist das eine echte Tatsache über dein System.
+Dann macht Cora genau das, was es soll. Widersprechen sich Sonde und Testkit, erfährst du damit etwas Echtes über dein System.
 
-Ein ICP-Ergebnis ist hier eine nützliche dritte Meinung, entscheidet den Streit aber nicht: Laboratorien unterscheiden sich voneinander, und die Handhabung und der Transport einer Probe verändern das Ergebnis. Zwei übereinstimmende Tests sind weit mehr wert als einer.
+Ein ICP-Ergebnis ist hier eine nützliche dritte Meinung, entscheidet den Streit aber nicht. Labore messen unterschiedlich, und wie die Probe behandelt und verschickt wird, beeinflusst das Ergebnis. Zwei Tests, die übereinstimmen, sagen viel mehr als einer.
 
-Meist muss die Sonde kalibriert werden; manchmal ist das Testkit alt. Kalibriere die Sonde, führe den Test mit frischem Reagenz erneut durch, und vergleiche beide unter denselben Bedingungen. Ein [ICP-Ergebnis](/help/mobile-icp-health) fügt diesem Vergleich einen dritten Datenpunkt hinzu.
+Meist muss die Sonde kalibriert werden, manchmal ist das Testkit zu alt. Kalibriere die Sonde, teste noch einmal mit frischem Reagenz und vergleiche beide unter denselben Bedingungen. Ein [ICP-Ergebnis](/help/mobile-icp-health) liefert dir dabei einen dritten Vergleichswert.
 
 ## Ich bekomme keine Benachrichtigungen
 
-1. **Einstellungen → Benachrichtigungen**: prüfe, ob diese Kategorie senden darf
-2. Prüfe die eigenen Benachrichtigungsberechtigungen deines Handys für Cora
-3. Denk daran, dass die tägliche Zusammenfassung an Tagen, an denen sich nichts geändert hat, bewusst still ist
+1. Prüf unter **Einstellungen → Benachrichtigungen**, ob diese Kategorie Benachrichtigungen senden darf.
+2. Prüf in den Einstellungen deines Handys, ob Cora Benachrichtigungen senden darf.
+3. Denk daran, dass die tägliche Zusammenfassung an Tagen ohne Änderungen still bleibt. Das ist so gewollt.
 
 ## Herausfinden, warum sich etwas geändert hat
 
-**Einstellungen → Aktivität** listet jede Steckdosenschaltung, Fütterung, Dosierung und Steckdosenänderung, mit dem, was danach gefragt hat: Cora Mobile, ein Cora-Bildschirm, Sprache, der Assistent, eine Automationsregel, eine Smart-Taste, oder dein Konto.
+Unter **Einstellungen → Aktivität** steht jedes Schalten einer Steckdose, jede Fütterung, jede Dosierung und jede Änderung an einer Steckdose. Dazu siehst du, wer es ausgelöst hat: Cora Mobile, ein Cora-Bildschirm, die Sprachsteuerung, der Assistent, eine Automationsregel, eine Smart-Taste oder dein Konto.
 
 ## Mein Dashboard sieht nach dem Bearbeiten falsch aus
 
-Lade ein gespeichertes Design: **Meine Dashboards**, dann eines auswählen.
+Lade ein gespeichertes Design. Öffne dazu **Meine Dashboards** und wähle eines aus.
 
-Wenn du noch keines gespeichert hast, bau das Layout neu auf und speichere es dann als Design. Von diesem Zeitpunkt an ist die Rückkehr dazu ein einziger Tipp.
+Hast du noch keines gespeichert, bau das Layout neu auf und speichere es als Design. Ab dann kommst du mit einem Tipp dorthin zurück.
 
-In jedem Fall werden Messwerte, Historie und Tagebucheinträge getrennt vom Layout gespeichert, daher geht nichts hinter dem Dashboard verloren.
+Messwerte, Verlauf und Tagebucheinträge werden getrennt vom Layout gespeichert. Hinter dem Dashboard geht also nichts verloren.
 
-## "Red Sea-Messwerte haben aufgehört, sich zu aktualisieren"
+## „Red Sea-Messwerte haben aufgehört, sich zu aktualisieren“
 
-**Was es bedeutet:** Kein Gerät im Netzwerk dieses Beckens fragt derzeit deine Red Sea-Ausrüstung ab, daher wurden die Messwerte auf dem Bildschirm nicht aktualisiert.
+Im Netzwerk dieses Beckens fragt gerade kein Gerät deine Red Sea-Geräte ab. Deshalb werden die Werte auf dem Bildschirm nicht mehr aktualisiert.
 
-**Was zu tun ist:**
-1. Öffne **Einstellungen → Primäres Cora Max** und prüfe, ob ein Cora Max festgelegt ist (oder **Jedes aktive (automatisch)** gewählt ist).
-2. Öffne das Becken auf einem Gerät, das im selben WLAN wie die Red Sea-Ausrüstung ist.
-3. Bestätige, dass die Red Sea-Ausrüstung eingeschaltet und online in ihrer eigenen App ist.
+1. Öffne **Einstellungen → Primäres Cora Max** und prüf, ob ein Cora Max festgelegt oder **Jedes aktive (automatisch)** gewählt ist.
+2. Öffne das Becken auf einem Gerät, das im selben WLAN ist wie deine Red Sea-Geräte.
+3. Prüf, ob die Red Sea-Geräte eingeschaltet und in ihrer eigenen App online sind.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Die Pumpe konnte nicht erreicht werden: nichts wurde gesendet"
+## „Die Pumpe konnte nicht erreicht werden: nichts wurde gesendet“
 
-**Was es bedeutet:** Ein Befehl an eine Jecod- oder Jebao-Pumpe hat die App nie verlassen, meist weil die Pumpe aus ist oder nicht im Netzwerk ist.
+Ein Befehl an eine Jecod- oder Jebao-Pumpe hat die App nie verlassen. Meist ist die Pumpe ausgeschaltet oder nicht im Netzwerk.
 
-**Was zu tun ist:**
-1. Prüfe, ob die Pumpe eingeschaltet ist.
-2. Prüfe, ob sie im selben Netzwerk ist, in dem sie hinzugefügt wurde.
+1. Prüf, ob die Pumpe eingeschaltet ist.
+2. Prüf, ob sie im selben Netzwerk ist wie beim Hinzufügen.
 3. Tippe auf **Erneut versuchen**.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Konnte diese Pumpe nicht über Bluetooth erreichen. Steh in ihrer Nähe und versuch es erneut."
+## „Konnte diese Pumpe nicht über Bluetooth erreichen. Steh in ihrer Nähe und versuch es erneut.“
 
-**Was es bedeutet:** Ein reines Bluetooth-Jecod-Gerät ist außer Reichweite deines Handys.
+Ein Jecod-Gerät, das nur Bluetooth kann, ist außer Reichweite deines Handys.
 
-**Was zu tun ist:**
 1. Geh näher an die Pumpe heran.
 2. Tippe auf **Erneut versuchen**.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Konnte diese Gyre nicht erreichen. Keine Fütterung wurde gestartet."
+## „Konnte diese Gyre nicht erreichen. Keine Fütterung wurde gestartet.“
 
-**Was es bedeutet:** Eine Maxspect-Gyre (Beta-Integration) hat nicht geantwortet, als Cora versuchte, den Fütterungsmodus darauf zu starten.
+Eine Maxspect-Gyre (Anbindung in der Beta) hat nicht geantwortet, als Cora den Fütterungsmodus starten wollte.
 
-**Was zu tun ist:**
-1. Prüfe, ob die Gyre eingeschaltet und im Netzwerk ist.
+1. Prüf, ob die Gyre eingeschaltet und im Netzwerk ist.
 2. Tippe auf **Erneut versuchen**.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Konnte diese Gyre nicht erreichen. Ihr Programm wurde nicht geändert."
+## „Konnte diese Gyre nicht erreichen. Ihr Programm wurde nicht geändert.“
 
-**Was es bedeutet:** Ein Zeitplan, der an eine Maxspect-Gyre (Beta-Integration) gesendet wurde, hat sie nicht erreicht.
+Ein Zeitplan für eine Maxspect-Gyre (Anbindung in der Beta) ist nicht bei ihr angekommen.
 
-**Was zu tun ist:**
-1. Prüfe, ob dein Handy oder Cora Max im Netzwerk der Gyre ist.
-2. Tippe auf **Erneut versuchen** vom Zeitplan-Bildschirm aus.
+1. Prüf, ob dein Handy oder Cora Max im Netzwerk der Gyre ist.
+2. Tippe im Zeitplan-Bildschirm auf **Erneut versuchen**.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Konnte den Apex nicht erreichen: nichts geändert" / "nichts dosiert"
+## „Konnte den Apex nicht erreichen: nichts geändert“ / „nichts dosiert“
 
-**Was es bedeutet:** Ein Neptune Apex, Trident, oder DŌS-Kopf hat nicht auf einen Befehl oder eine Dosieranfrage geantwortet.
+Ein Neptune Apex, ein Trident oder ein DŌS-Kopf hat nicht auf einen Befehl oder eine Dosieranfrage geantwortet.
 
-**Was zu tun ist:**
-1. Öffne die eigene App des Apex und bestätige, dass er online ist.
-2. Prüfe die Netzwerkverbindung auf dem Gerät, das du nutzt.
+1. Öffne die App des Apex und prüf, ob er online ist.
+2. Prüf die Netzwerkverbindung des Geräts, das du gerade benutzt.
 3. Tippe auf **Erneut versuchen**.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Das konnte nicht gesendet werden: kein Gerät an diesem Becken kann es senden"
+## „Das konnte nicht gesendet werden: kein Gerät an diesem Becken kann es senden“
 
-**Was es bedeutet:** Kein Cora-Gerät an diesem Becken hat die Apex-Verbindungsdaten, die nötig sind, um den Befehl auszuführen, oder das Gerät, das sie hat, ist offline.
+Kein Cora-Gerät an diesem Becken hat die Verbindungsdaten für den Apex, die es für den Befehl braucht. Oder das Gerät, das sie hat, ist offline.
 
-**Was zu tun ist:**
-1. Füge die Apex-Details unter **Einstellungen** auf einem Gerät hinzu, das derzeit online ist, oder
-2. Lege ein anderes, funktionierendes Cora Max als **Primäres Cora Max** für dieses Becken fest.
+1. Trag die Apex-Daten unter **Einstellungen** auf einem Gerät ein, das gerade online ist, oder
+2. leg ein anderes Cora Max, das funktioniert, als **Primäres Cora Max** für dieses Becken fest.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## Ein sekundäres Cora Max zeigt "Haupt-Cora offline"
+## Ein zweites Cora Max zeigt „Haupt-Cora offline“
 
-**Was es bedeutet:** Das primäre Tablet für dieses Becken ist offline gegangen, daher zeigt dieser sekundäre Bildschirm die letzten erhaltenen Daten statt Live-Daten.
+Das primäre Tablet für dieses Becken ist offline. Dieser zweite Bildschirm zeigt deshalb die zuletzt empfangenen Daten und keine Live-Daten.
 
-**Was zu tun ist:**
-1. Prüfe Strom und WLAN des primären Tablets.
-2. Warte, bis es sich wieder verbindet, oder ändere das **Primäre Cora Max** auf ein Gerät, das derzeit online ist.
+1. Prüf Strom und WLAN des primären Tablets.
+2. Warte, bis es wieder verbunden ist, oder stell das **Primäre Cora Max** auf ein Gerät um, das gerade online ist.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## "Gerät ist offline. Zeigt letzten bekannten Zustand."
+## „Gerät ist offline. Zeigt letzten bekannten Zustand.“
 
-**Was es bedeutet:** Normale Offline-Behandlung: Das Gerät hat aufgehört zu melden, und Cora zeigt die letzten Werte, die es hatte, statt vorzugeben, dass sie aktuell sind.
+So geht Cora mit Geräten um, die offline sind. Das Gerät meldet nichts mehr, und Cora zeigt die letzten Werte, die es hatte, ohne so zu tun, als wären sie aktuell.
 
-**Was zu tun ist:**
-1. Prüfe die eigene Netzwerkverbindung des Geräts.
-2. Behandle die gezeigten Werte als nicht live, bis die Zeile nicht mehr offline sagt.
+1. Prüf die Netzwerkverbindung des Geräts.
+2. Betrachte die angezeigten Werte nicht als live, bis in der Zeile nicht mehr offline steht.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
 ## Manche ReefBeat-Einstellungen sind ausgegraut oder fehlen
 
-**Was es bedeutet:** Das ist so gestaltet, kein Fehler. Geräteeigene Einstellungen (im Gegensatz zu Messwerten) öffnen sich nur, wenn dein Handy im selben Netzwerk wie das Gerät selbst ist; fern von diesem Netzwerk zeigen sich nur Messwerte.
+Das ist gewollt und kein Fehler. Gerätespezifische Einstellungen öffnen sich nur, wenn dein Handy im selben Netzwerk ist wie das Gerät. Bist du nicht in diesem Netzwerk, siehst du nur die Messwerte.
 
-**Was zu tun ist:**
-1. Besuch das eigene WLAN des Beckens, um diese Einstellungen zu ändern.
-2. Messwerte und Historie funktionieren fern vom Becken weiterhin normal.
+1. Verbinde dich mit dem WLAN am Becken, um diese Einstellungen zu ändern.
+2. Messwerte und Verlauf funktionieren auch unterwegs ganz normal.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## "Konnte Cora nicht erreichen. Prüfe dein WLAN oder deine Mobildaten, und versuch es erneut."
+## „Konnte Cora nicht erreichen. Prüfe dein WLAN oder deine Mobildaten, und versuch es erneut.“
 
-**Was es bedeutet:** Dein Handy hat bei der Anmeldung keine nutzbare Verbindung zu Cora Cloud. Das betrifft die eigene Konnektivität deines Handys, nicht deine Beckenausrüstung.
+Dein Handy hat bei der Anmeldung keine brauchbare Verbindung zu Cora Cloud. Das liegt an der Verbindung deines Handys und nicht an den Geräten am Becken.
 
-**Was zu tun ist:**
-1. Prüfe, ob dein Handy eine funktionierende WLAN- oder Mobildatenverbindung hat.
-2. Versuch ein anderes Netzwerk, falls eines verfügbar ist.
-3. **Erneut versuchen**.
+1. Prüf, ob dein Handy funktionierendes WLAN oder mobile Daten hat.
+2. Probier ein anderes Netzwerk, wenn du eines hast.
+3. Tippe auf **Erneut versuchen**.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Auf einmal ist alles in der falschen Sprache
+## Plötzlich ist alles in der falschen Sprache
 
-**Was es bedeutet:** Die Kontosprache wurde von einem beliebigen Gerät aus geändert. Sprache ist eine Einstellung für das ganze Konto, nicht pro Gerät.
+Jemand hat die Kontosprache auf irgendeinem Gerät geändert. Die Sprache gilt für das ganze Konto und nicht für einzelne Geräte.
 
-**Was zu tun ist:**
-1. Öffne **Einstellungen → Sprache** in einer der beiden Apps.
-2. Stell sie zurück, falls sie versehentlich geändert wurde; die Änderung gilt überall gleichzeitig.
+1. Öffne in einer der beiden Apps **Einstellungen → Sprache**.
+2. Stell die Sprache zurück, falls sie versehentlich geändert wurde. Die Änderung gilt sofort überall.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Eine alte Warnung oder ein alter Bericht ist nach dem Wechsel noch in einer anderen Sprache
+## Eine alte Warnung oder ein alter Bericht ist nach dem Wechsel noch in der alten Sprache
 
-**Was es bedeutet:** Das ist erwartet, kein Fehler. Cora übersetzt bereits erstellte Inhalte nicht neu; nur neue Warnungen, Berichte und Zusammenfassungen folgen der neuen Sprache.
+Das ist so vorgesehen. Cora übersetzt nichts neu, was schon erstellt ist. Nur neue Warnungen, Berichte und Zusammenfassungen kommen in der neuen Sprache.
 
-**Was zu tun ist:**
-1. Nichts zu beheben. Warte auf neue Inhalte, die die aktuelle Sprache verwenden.
+1. Du musst nichts tun. Neue Inhalte erscheinen in der aktuellen Sprache.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Eine Warnung hört nicht auf zu benachrichtigen, auch nachdem ich sie bestätigt habe
+## Eine Warnung meldet sich immer wieder, obwohl ich sie bestätigt habe
 
-**Was es bedeutet:** Verwechslung zwischen **Verwerfen** (schließt die Warnung endgültig) und **Schlummern** (schaltet sie vorübergehend stumm, bis zu einer Woche).
+**Schlummern** und **Verwerfen** auf Cora Max machen nur dieses eine Cora Max still. Dein Handy bekommt weiter Benachrichtigungen, solange der Messwert außerhalb des Bereichs liegt.
 
-**Was zu tun ist:**
-1. Wenn du den Zustand verstehst und akzeptierst, nutze **Verwerfen**.
-2. Wenn du nur für eine Weile Ruhe willst, nutze **Schlummern** und wähle eine Dauer.
+1. Willst du auf dem Handy seltener davon hören, öffne die Warnregel in Cora Mobile und stell eine längere **Abklingzeit zwischen Warnungen** ein (bis zu 1 Woche).
+2. Passt der Schwellenwert nicht zu deinem Becken, ändere den Schwellenwert selbst.
 
-**Funktioniert es immer noch nicht?** Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Warnungen und Schwellenwerte](/help/mobile-alerts) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Eine Dosierung stoppte mitten in der Ausführung, und eine "Wiederherstellungs"-Warnung erschien
+## Eine Dosierung hat mittendrin aufgehört, und eine Warnung zur Wiederherstellung ist erschienen
 
-**Was es bedeutet:** Der DŌS-Kopf hat mitten in der Dosierung den Kontakt verloren, daher sagt Cora dir das absichtlich, statt anzunehmen, dass die volle Dosis abgegeben wurde.
+Der DŌS-Kopf hat mitten in der Dosierung die Verbindung verloren. Cora sagt dir das, damit du nicht von der vollen Dosis ausgehst.
 
-**Was zu tun ist:**
-1. Öffne die Warnung und prüfe, wie viel tatsächlich dosiert wurde, bevor sie stoppte.
-2. Setze fort oder passe die Dosierung basierend auf dieser Menge an, nicht der ursprünglich geplanten.
+1. Öffne die Warnung und prüf, wie viel vor dem Abbruch tatsächlich dosiert wurde.
+2. Setz die Dosierung fort oder pass sie an. Rechne dabei mit dieser Menge und nicht mit der geplanten.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Becken- und Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
-## Eine auf dem Handy erstellte Szene erscheint auf Cora Max nicht als bearbeitbar
+## Eine auf dem Handy erstellte Szene lässt sich auf Cora Max nicht bearbeiten
 
-**Was es bedeutet:** Szenen direkt auf dem Tablet zu bearbeiten ist eine neuere Cora Max-Fähigkeit. Ältere Firmware kann trotzdem auf dem Handy erstellte Szenen ausführen, sie dort nur nicht bearbeiten.
+Szenen direkt am Tablet bearbeiten kann erst ein neueres Cora Max. Mit älterer Firmware laufen Szenen vom Handy trotzdem, nur bearbeiten kannst du sie dort nicht.
 
-**Was zu tun ist:**
 1. Aktualisiere Cora Max, oder
-2. Bearbeite diese Szene weiterhin vom Handy aus; sie läuft in jedem Fall trotzdem auf dem Tablet.
+2. bearbeite die Szene weiter auf dem Handy. Auf dem Tablet läuft sie so oder so.
 
-**Funktioniert es immer noch nicht?** Siehe [Updates und Wiederherstellung](/help/max-updates), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Updates und Wiederherstellung](/help/max-updates) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
 ## Cora Assistant antwortet zum falschen Becken
 
-**Was es bedeutet:** Vor dem Fragen wurde kein Becken gewählt, oder das falsche Becken ist derzeit aktiv.
+Vor der Frage wurde kein Becken gewählt, oder gerade ist das falsche Becken aktiv.
 
-**Was zu tun ist:**
-1. Wähle zuerst das Becken, das du meinst.
-2. Frag erneut.
+1. Wähl zuerst das Becken, das du meinst.
+2. Frag noch einmal.
 
-**Funktioniert es immer noch nicht?** Siehe [Der Assistent](/help/mobile-assistant), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Der Assistent](/help/mobile-assistant) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Cora Assistant weigert sich zu antworten, oder zeigt erneut einen Zustimmungsbildschirm
+## Cora Assistant antwortet nicht oder zeigt wieder die Zustimmung an
 
-**Was es bedeutet:** "Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen" wurde ausgeschaltet, daher hat er nichts, wovon aus er antworten kann.
+Die Einstellung „Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen“ ist ausgeschaltet. Ohne diese Daten kann Cora nichts beantworten.
 
-**Was zu tun ist:**
-1. Tippe auf **Zustimmen und fortfahren** auf dem Zustimmungsbildschirm, um es wieder einzuschalten.
+1. Tippe auf dem Bildschirm zur Zustimmung auf **Zustimmen und fortfahren**, um sie wieder einzuschalten.
 
-**Funktioniert es immer noch nicht?** Siehe [Der Assistent](/help/mobile-assistant), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Der Assistent](/help/mobile-assistant) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Ein Labor- oder per E-Mail gesendetes ICP-Ergebnis ist nie erschienen
+## Ein ICP-Ergebnis vom Labor oder per E-Mail ist nie angekommen
 
-**Was es bedeutet:** Ein Ergebnis in Cora zu bekommen braucht ein dafür gewähltes Becken, und manchmal einen erkannten Absender, bevor es irgendwo angehängt wird.
+Damit ein Ergebnis in Cora landet, muss ein Becken dafür gewählt sein. Manchmal muss Cora außerdem den Absender kennen, bevor das Ergebnis zugeordnet wird.
 
-**Was zu tun ist:**
-1. Prüfe den Einführungshinweis, der beim ersten Senden eines Ergebnisses an Cora angezeigt wird.
-2. Bestätige, zu welchem Becken das Ergebnis gehören soll, wenn du gefragt wirst.
-3. Stell sicher, dass die E-Mail von derselben Adresse gesendet wurde, mit der du zuvor gesendet hast, falls du schon einmal eine gesendet hast.
+1. Lies den Hinweis, der erscheint, wenn du zum ersten Mal ein Ergebnis an Cora schickst.
+2. Bestätige das passende Becken, wenn Cora danach fragt.
+3. Hast du schon einmal ein Ergebnis geschickt, prüf, ob die E-Mail von derselben Adresse kam wie damals.
 
-**Funktioniert es immer noch nicht?** Siehe [ICP und Zustandsberichte](/help/mobile-icp-health), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [ICP und Zustandsberichte](/help/mobile-icp-health) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Eine per E-Mail gesendete ICP-Benachrichtigung nennt kein Labor
+## In einer ICP-Benachrichtigung per E-Mail fehlt der Name des Labors
 
-**Was es bedeutet:** Ein bekanntes Problem, bei dem der Name des Labors in der Push-Benachrichtigung "Becken wählen" fehlt. Es wurde in aktuellen Builds behoben.
+Das war ein bekannter Fehler. In der Push-Benachrichtigung „Becken wählen“ fehlte der Name des Labors. In aktuellen Versionen ist das behoben.
 
-**Was zu tun ist:**
-1. Stell sicher, dass Cora Mobile auf die neueste Version aktualisiert ist.
-2. Das Ergebnis selbst ist nicht betroffen; nur im Benachrichtigungstext fehlte ein Name.
+1. Prüf, ob Cora Mobile auf dem neuesten Stand ist.
+2. Das Ergebnis selbst ist nicht betroffen, nur im Text der Benachrichtigung fehlte der Name.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
 ## Ein Widget zeigt die falschen Einheiten
 
-**Was es bedeutet:** Das ist die Anzeigeeinheiten-Einstellung des Beckens, kein Datenproblem. Werte werden unabhängig davon, wie sie angezeigt werden, gleich gespeichert.
+Das liegt an den Anzeigeeinheiten des Beckens und nicht an den Daten. Die Werte werden immer gleich gespeichert, egal wie sie angezeigt werden.
 
-**Was zu tun ist:**
-1. Öffne **Einstellungen** für dieses Becken und prüfe seine Anzeigeeinheiten.
-2. Ändere sie dort; jedes Handy und Cora Max, das dieses Becken zeigt, aktualisiert sich entsprechend.
+1. Öffne die **Einstellungen** dieses Beckens und prüf die Anzeigeeinheiten.
+2. Ändere sie dort. Alle Handys und Cora Max, die dieses Becken zeigen, übernehmen die Änderung.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Eine Anzeige oder ein Schwellenwert sieht nach dem Ändern der Anzeigeeinheiten anders aus
+## Eine Anzeige oder ein Schwellenwert sieht nach dem Ändern der Einheiten anders aus
 
-**Was es bedeutet:** Erwartet. Anzeigen, Kacheln und Historie zeichnen sich in der von dir gewählten Einheit neu; die zugrunde liegenden Werte haben sich nicht geändert.
+Das ist normal. Anzeigen, Kacheln und Verlauf werden in der neuen Einheit dargestellt. Die Werte dahinter haben sich nicht geändert.
 
-**Was zu tun ist:**
-1. Nichts zu beheben; das ist nur kosmetisch.
+1. Du musst nichts tun. Es ändert sich nur die Darstellung.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
 ## Cora Max verbindet sich nach einem WLAN-Ausfall nicht sofort neu
 
-**Was es bedeutet:** Nach dem Verbindungsverlust wartet Cora Max vor jedem erneuten Versuch etwas länger, statt das Netzwerk zu bombardieren, und dehnt das auf etwa eine Minute aus, bevor es erneut versucht.
+Nach einem Verbindungsabbruch wartet Cora Max vor jedem neuen Versuch etwas länger, damit es das Netzwerk nicht mit Anfragen überhäuft. Die Pause wächst bis auf etwa eine Minute.
 
-**Was zu tun ist:**
-1. Warte etwa eine Minute, nachdem dein Netzwerk zurück ist.
-2. Wenn es sich danach immer noch nicht neu verbunden hat, prüfe WLAN unter **Einstellungen → Netzwerk**.
+1. Warte etwa eine Minute, nachdem dein Netzwerk wieder da ist.
+2. Ist Cora Max danach immer noch nicht verbunden, prüf das WLAN unter **Einstellungen → Cora Max-Einstellungen → Wi-Fi**.
 
-**Funktioniert es immer noch nicht?** Siehe [Der Cora Max Startbildschirm](/help/max-tour), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Der Cora Max-Startbildschirm](/help/max-tour) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Ein Cora Max auf dem Handy umzubenennen ändert nicht, was das Tablet zeigt
+## Ich habe ein Cora Max auf dem Handy umbenannt, aber das Tablet zeigt den alten Namen
 
-**Was es bedeutet:** Der Name, den du vom Handy aus festlegst, ist eine Bezeichnung auf Kontoebene für dieses Gerät. Der auf dem Tablet selbst während der Kopplung gezeigte Name kann etwas anderes sein.
+Der Name, den du auf dem Handy vergibst, gilt für dieses Gerät in deinem Konto. Das Tablet kann beim Koppeln selbst einen anderen Namen anzeigen.
 
-**Was zu tun ist:**
-1. Prüfe, welchen "Namen" du gerade betrachtest: den in deiner Geräteliste auf dem Handy, oder den auf dem eigenen Kopplungsbildschirm des Tablets.
-2. Benenne über die Geräteliste des Handys um, wenn es die Kontobezeichnung ist, die du ändern willst.
+1. Prüf, welchen Namen du gerade siehst: den in der Geräteliste auf dem Handy oder den auf dem Kopplungsbildschirm des Tablets.
+2. Willst du den Namen in deinem Konto ändern, benenne das Gerät in der Geräteliste auf dem Handy um.
 
-**Funktioniert es immer noch nicht?** Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Gerätenamen.
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen des Geräts.
 
-## Ich finde nicht, wo ich das Wake-Word auf Cora Max ausschalte
+## Ich finde nicht, wo ich das Weckwort auf Cora Max ausschalte
 
-**Was es bedeutet:** Der Wake-Word-Schalter liegt unter **Ton**, nicht unter der Einstellungsgruppe Cora Assistant, was die meisten überrascht.
+Der Schalter für das Weckwort liegt im Bereich **Ton & Sprache** und nicht bei Cora Assistant, wo die meisten zuerst suchen.
 
-**Was zu tun ist:**
-1. Geh zu **Einstellungen → Ton → Weckwort-Erkennung**.
-2. Schalte es aus; du kannst weiterhin auf das Cora-Symbol tippen, um eine Sprachsitzung zu starten.
+1. Öffne **Einstellungen → Cora Max-Einstellungen → Ton & Sprache → Weckwort-Erkennung**.
+2. Schalte sie aus. Mit einem Tipp auf das Cora-Symbol kannst du trotzdem ein Gespräch starten.
 
-**Funktioniert es immer noch nicht?** Siehe [Einstellungen auf Cora Max](/help/max-settings), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Cora Max-Einstellungen](/help/max-settings) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Die Kindersicherung lässt niemanden in die Einstellungen
+## Wegen der Kindersicherung kommt niemand in die Einstellungen
 
-**Was es bedeutet:** Das funktioniert wie beabsichtigt. Die Kindersicherung sperrt den Touchscreen und die Sprachsteuerung nach einer festgelegten Zeit ohne Berührung; Messwerte aktualisieren sich darunter weiterhin.
+Die Kindersicherung arbeitet so, wie sie soll. Nach einer festgelegten Zeit ohne Berührung kann niemand mehr Geräte von diesem Bildschirm aus schalten, weder per Touch noch per Sprache. Die Messwerte aktualisieren sich weiter, und du kannst Cora weiterhin Fragen stellen. So entsperrst du:
 
-**Was zu tun ist:**
-1. Drücke **Lauter** oder **Leiser** dreimal innerhalb von zwei Sekunden, oder
-2. Halte fünf Finger zehn Sekunden lang in die obere rechte Ecke des Bildschirms.
+1. Drück dreimal innerhalb von zwei Sekunden auf **Lauter** oder **Leiser**, oder
+2. halte fünf Finger zehn Sekunden lang in die obere rechte Ecke des Bildschirms.
 
-**Funktioniert es immer noch nicht?** Siehe [Sprache auf Cora Max](/help/max-voice), oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Hilft das nicht, schau unter [Mit Cora sprechen](/help/max-voice) nach oder schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 
-## Immer noch nicht weiter
+## Immer noch nicht weiter?
 
-Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**. Sag uns, welches Becken, welcher Bildschirm, und was du erwartet hast zu sehen; das bringt dir schneller eine nützliche Antwort.
+Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**. Sag uns, um welches Becken und welchen Bildschirm es geht und was du erwartet hast. Dann können wir dir schneller helfen.

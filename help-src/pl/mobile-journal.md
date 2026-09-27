@@ -1,59 +1,59 @@
 ---
 title: Dziennik
-description: Zapisuj, co robiłeś w swoim akwarium, aby móc później stwierdzić, co spowodowało co.
+description: Zapisuj, co robisz przy akwarium, żeby później ustalić, co było przyczyną czego.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 21
 group: Records
 ---
 
-Dziennik zapisuje, co robiłeś w akwarium: podmiany wody, dodane organizmy, zmiany dozowania, prace na sprzęcie i konserwację.
+W dzienniku zapisujesz, co robisz przy akwarium: podmiany wody, nowe organizmy, zmiany w dozowaniu, prace przy sprzęcie i konserwację.
 
-Jego celem jest późniejsze porównanie. Gdy parametr zmienia się nieoczekiwanie, dziennik jest zapisem tego, co zmieniło się wokół tej daty.
+Dziennik przydaje się później, do porównań. Gdy parametr zmieni się niespodziewanie, w dzienniku widać, co działo się w okolicach tej daty.
 
-![Dziennik](img/mobile-journal.webp "Wpisy w odwrotnym porządku, ze zdjęciami wewnątrz.")
+![Dziennik](img/mobile-journal.webp "Najnowsze wpisy na górze, zdjęcia w treści wpisów.")
 
 ## Dodawanie wpisu
 
-Dotknij przycisku **Dziennik** unoszącego się w prawym dolnym rogu Panelu.
+Dotknij pływającego przycisku **Dziennik** w prawym dolnym rogu pulpitu.
 
-Napisz, co zrobiłeś, prostymi słowami. Dodaj zdjęcie, jeśli to pomaga: koral nabierający koloru, sprzęt zachowujący się dziwnie, wynik testu kroplowego.
+Opisz zwykłymi słowami, co zostało zrobione. Jeśli to pomoże, dodaj zdjęcie: koralowiec, który nabiera koloru, sprzęt, który dziwnie się zachowuje, wynik testu kropelkowego.
 
-Możesz też **dyktować** wpis, zamiast go pisać, co jest łatwiejszą opcją z mokrymi rękami. Powiedz, a to, co powiedziałeś, zostanie za Ciebie zapisane we wpisie.
+Wpis możesz też **podyktować**, co jest wygodniejsze przy mokrych rękach. Mów, a Cora zapisze Twoje słowa we wpisie.
 
-Wpisy są automatycznie oznaczane akwarium i czasem.
+Akwarium i czas dodają się do wpisu automatycznie.
 
-:::note Wpisy nie muszą być formalne
-Krótkie wpisy są wystarczające; "20 l podmiana wody, 5 ml dodatkowej alkaliczności" to kompletny zapis. Wpisuj je na bieżąco; zrekonstruowane później wpisy są mniej wiarygodne.
+:::note Wpisy nie muszą być oficjalne
+Krótki wpis wystarczy. „Podmiana 20 l, 5 ml alkaliczności więcej” to pełny zapis. Dodawaj wpisy na bieżąco, bo te odtwarzane z pamięci są mniej wiarygodne.
 :::
 
-## Co zapisywać
+## Co warto zapisywać
 
-Rzeczy, które okazują się mieć największe znaczenie:
+Najbardziej przydają się później:
 
 - **Podmiany wody**: ile i kiedy
-- **Cokolwiek nowego w akwarium**: organizmy, skała, media
-- **Zmiany dozowania**: co zmieniłeś i czemu
-- **Sprzęt**: wyczyszczony, wymieniony, przeniesiony, uszkodzony
-- **Konserwacja**: wyczyszczony skimmer, zmienione skarpety, serwisowane pompy
-- **Cokolwiek nietypowego**: przerwa w zasilaniu, gorący dzień, wyciek
+- **Wszystko nowe w akwarium**: organizmy, skała, media
+- **Zmiany w dozowaniu**: co się zmieniło i dlaczego
+- **Sprzęt**: czyszczenie, wymiana, przestawienie, awaria
+- **Konserwacja**: czyszczenie odpieniacza, wymiana skarpet, serwis pomp
+- **Wszystko nietypowe**: brak prądu, upalny dzień, wyciek
 
 ## Edytowanie i usuwanie wpisów
 
-Dotknij wpisu, aby go otworzyć i zmienić. Aby usunąć jeden, przesuń go i potwierdź; jesteś pytany najpierw, bo wpis, który napisałeś w danym momencie, nie da się później zrekonstruować.
+Dotknij wpisu, żeby go otworzyć i zmienić. Żeby usunąć wpis, przesuń go palcem i potwierdź. Cora najpierw pyta, bo wpisu zrobionego na bieżąco nie da się później odtworzyć.
 
 ## Pytanie Cory o wpis
 
-Wpis oznaczony przez Ciebie jako **concern** albo **emergency** ma akcję **Analizuj**. Przekazuje ten wpis, wraz z odczytami akwarium z tego samego okresu, do [Cora Assistant](/help/mobile-assistant) i wraca z oceną. Użyj tego, gdy zapisałeś coś, co Cię niepokoi, i chcesz drugiej opinii.
+Wpis z kategorią **Niepokój** albo **Sytuacja awaryjna** ma przycisk **Analizuj**. Przekazuje on ten wpis razem z odczytami akwarium z tego samego okresu do [Cora Assistant](/help/mobile-assistant), a Cora odpowiada oceną. Przydaje się, gdy zapisujesz coś, co Cię niepokoi, i chcesz poznać drugą opinię.
 
-## Odczytywanie z powrotem
+## Przeglądanie dziennika
 
-Dziennik jest osią czasu dla każdego akwarium, od najnowszego. Zdjęcia pojawiają się wewnątrz wpisów.
+Dziennik to oś czasu dla każdego akwarium, z najnowszymi wpisami na górze. Zdjęcia są widoczne w treści wpisów.
 
-Filtruj według kategorii, aby zwężyć długi dziennik do jednego typu wpisu: obserwacje, niepokoje albo sytuacje awaryjne.
+Długi dziennik możesz przefiltrować według kategorii, żeby zobaczyć tylko jeden rodzaj wpisów: obserwacje, niepokoje albo sytuacje awaryjne.
 
-Asystent czyta dziennik. Pytania takie jak *"kiedy ostatnio zmieniałem wodę?"* są odpowiadane na podstawie Twoich wpisów wraz z Twoimi odczytami.
+Asystent czyta dziennik. Na pytania w rodzaju *„kiedy była ostatnia podmiana wody?”* odpowiada na podstawie Twoich wpisów i odczytów.
 
 ## Na Cora Max
 
-Wpisy dziennika możesz dodawać też na Cora Max, co jest często wygodniejsze, gdy stoisz przy akwarium. Dostęp do dziennika znajdziesz w menu akwarium albo zdyktuj wpis głosem.
+Wpisy do dziennika możesz też dodawać na Cora Max. Często jest to wygodniejsze, gdy stoisz przy akwarium. Dziennik otworzysz z menu akwarium. Możesz też podyktować wpis głosem.

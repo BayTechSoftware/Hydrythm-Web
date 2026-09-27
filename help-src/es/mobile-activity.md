@@ -1,15 +1,15 @@
 ---
 title: Actividad y línea de tiempo
-description: Todo lo que le ha pasado a tu equipo, y qué lo causó.
+description: Todo lo que ha pasado con tus equipos y qué lo provocó.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 22
 group: Records
 ---
 
-Actividad registra cada **solicitud de actuación** (cada intento de cambiar algo) junto con qué la pidió y qué pasó con ella.
+Actividad guarda cada **solicitud de actuación**, es decir, cada intento de cambiar algo. Para cada una ves qué la pidió y qué pasó con ella.
 
-Una solicitud no es lo mismo que un cambio. Las solicitudes rechazadas no se ejecutaron, con una excepción: una entrada que dice *Ningún dispositivo respondió a tiempo* puede haberse ejecutado igualmente, así que revisa el equipo antes de repetirla. Las solicitudes sin cambios encontraron el equipo ya como se pedía, y una sin confirmar puede o no haber llegado al dispositivo. Todas se registran.
+Una solicitud no es lo mismo que un cambio. Las solicitudes rechazadas no se ejecutaron, con una excepción. Si una entrada dice *Ningún dispositivo respondió a tiempo*, puede que sí se ejecutara, así que revisa el equipo antes de repetirla. En una solicitud sin cambios, el equipo ya estaba como se pedía. Una solicitud sin confirmar puede haber llegado al dispositivo o no. Todas quedan registradas.
 
 **Ajustes → Actividad.**
 
@@ -17,44 +17,44 @@ Una solicitud no es lo mismo que un cambio. Las solicitudes rechazadas no se eje
 
 ## Qué se registra
 
-Cada **solicitud**, no solo las que funcionaron: cambios de estado de tomas, ciclos de alimentación, dosis, cambios de enchufe, y cualquier cosa que hiciera una escena o una automatización.
+Se registran todas las **solicitudes**, también las que no funcionaron. Eso incluye encender o apagar tomas, ciclos de alimentación, dosis, cambios de enchufe y todo lo que haya hecho una escena o una automatización.
 
-Una solicitud que fue **rechazada**, que **no produjo cambios**, o que salió y volvió **sin confirmar** se registra igual que una ejecutada. Ese es el propósito: una orden que en silencio no hizo nada es exactamente lo que quieres encontrar aquí.
+Una solicitud **rechazada**, **sin cambios** o que volvió **sin confirmar** se registra igual que una que se ejecutó. Una orden que no hizo nada sin avisar es justo lo que te interesa encontrar aquí.
 
-## Qué la causó
+## Qué la provocó
 
-Cada entrada nombra su causa:
+Cada entrada indica su origen:
 
-| Causa | Significa |
+| Origen | Qué significa |
 |---|---|
 | **Esta aplicación** | La tocaste aquí |
-| **Voz en esta aplicación** | La pediste, en este teléfono |
-| **Toque en un Cora** | Alguien usó una pantalla Cora; la fila indica cuál |
+| **Voz en esta aplicación** | La pediste con la voz en este teléfono |
+| **Toque en un Cora** | Alguien usó una pantalla Cora. La fila indica cuál |
 | **Voz en un Cora Max** | Alguien le habló a una pantalla |
 | **Cora Assistant** | Le pediste a Cora que lo hiciera |
 | **Regla de automatización** | Se activó una regla |
-| **Botón inteligente** | Se pulsó un botón físico |
-| **Enviado desde Cora Cloud** | Emitido por tu cuenta en lugar de por un dispositivo delante de ti |
-| **Origen desconocido** | Registrado antes de poder identificar el origen |
+| **Botón inteligente** | Alguien pulsó un botón físico |
+| **Enviado desde Cora Cloud** | Lo envió tu cuenta, no un dispositivo que tengas delante |
+| **Origen desconocido** | Se registró antes de que se pudiera identificar el origen |
 
-## Cómo viajó
+## Por dónde llegó
 
-Cada fila también lleva un chip de ruta, porque *cómo* llegó una solicitud a tu equipo explica buena parte de lo que salió mal cuando algo lo hizo:
+Cada fila lleva también una etiqueta de ruta. Saber *cómo* llegó una solicitud a tu equipo ayuda mucho a entender qué falló cuando algo sale mal:
 
-| Chip | Significa |
+| Etiqueta | Qué significa |
 |---|---|
-| **LAN** | Enviado por tu propia red, directamente al equipo |
-| **VÍA LA NUBE** | Enviado a través de tu cuenta, para equipo no accesible directamente |
-| **¿RUTA?** | Registrado antes de que se hiciera seguimiento de las rutas: realmente desconocido, no supuesto |
+| **LAN** | Se envió por tu propia red, directamente al equipo |
+| **VÍA LA NUBE** | Se envió a través de tu cuenta porque no se podía llegar al equipo directamente |
+| **¿RUTA?** | Se registró antes de que se guardaran las rutas. No se sabe, y Cora no lo supone |
 
-En un sistema con más de un Cora, la fila también indica cuál llevó a cabo la solicitud.
+Si tienes más de un Cora, la fila también indica cuál de ellos hizo la solicitud.
 
 ## La línea de tiempo del acuario
 
-Aparte de las acciones sobre el equipo, cada acuario tiene una **línea de tiempo**: lecturas, alertas, entradas del diario, resultados de ICP y cambios de fauna, ordenados en el tiempo.
+Además de las acciones sobre los equipos, cada acuario tiene una **línea de tiempo**. En ella ves por orden las lecturas, las alertas, las entradas del diario, los resultados de ICP y los cambios de fauna.
 
-Usa actividad cuando te preguntes *"¿qué hizo algo?"* y la línea de tiempo cuando te preguntes *"¿qué estaba pasando alrededor de esta fecha?"*
+Usa Actividad cuando quieras saber *"¿qué hizo este equipo?"*. Usa la línea de tiempo cuando quieras saber *"¿qué estaba pasando por estas fechas?"*.
 
-:::note La línea de tiempo y el diario son complementarios
-La línea de tiempo guarda lo que registró Cora; el [diario](/help/mobile-journal) guarda lo que hiciste tú. Leídos juntos establecen causa y efecto alrededor de una fecha dada.
+:::note La línea de tiempo y el diario se complementan
+La línea de tiempo guarda lo que registró Cora. El [diario](/help/mobile-journal) guarda lo que hiciste tú. Si los lees juntos, verás qué causó qué alrededor de una fecha.
 :::

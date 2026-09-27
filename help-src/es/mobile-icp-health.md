@@ -1,78 +1,78 @@
 ---
 title: ICP e informes de salud
-description: Sube una prueba de ICP, sigue cada elemento en el tiempo y ejecuta una evaluación completa de la salud de tu sistema.
+description: Sube un análisis ICP, sigue cada elemento a lo largo del tiempo y pide una evaluación completa de tu sistema.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 26
 group: Intelligence
 ---
 
-La pestaña **Inteligencia** es tu trabajo de laboratorio y tu visión a largo plazo.
+En la pestaña **Inteligencia** están tus resultados de laboratorio y la evolución de tu acuario a largo plazo.
 
-![La pestaña Inteligencia](img/mobile-intelligence.webp "Sube un ICP, ejecuta un informe de salud, y ve qué cambió desde el último.")
+![La pestaña Inteligencia](img/mobile-intelligence.webp "Sube un ICP, genera un informe de salud y mira qué ha cambiado desde el último.")
 
-## Subir una prueba de ICP
+## Subir un análisis ICP
 
-Toca **Subir ICP**, elige tu acuario y añade el resultado de tu laboratorio. Cora lee el informe, registra cada elemento y lo compara con tus pruebas anteriores.
+Toca **Subir ICP**, elige el acuario y añade el resultado del laboratorio. Cora lee el informe, guarda cada elemento y lo compara con tus análisis anteriores.
 
-No tienes que escribir nada. Cora se encarga de los formatos de laboratorio habituales.
+No tienes que teclear nada. Cora entiende los formatos de laboratorio más habituales.
 
-## Enviar a Cora: resultados que te entrega un laboratorio o un correo
+## Enviar a Cora: resultados que llegan de un laboratorio o por correo
 
-Algunos laboratorios pueden enviar un resultado a Cora directamente, y un resultado de ICP recibido por correo se puede encaminar de la misma forma, sin que tengas que subir nada tú mismo.
+Algunos laboratorios pueden enviar el resultado directamente a Cora. Un resultado ICP que recibas por correo también puede llegar de la misma forma, sin que tengas que subirlo tú.
 
-Cuando llega uno, aparece un aviso: *"Hay un resultado de laboratorio de {lab} esperando."* Toca **Elegir acuario** y elige a cuál de tus acuarios pertenece; Cora no puede adivinarlo por sí sola. En cuanto elijas, Cora lo añade a ese acuario igual que un informe subido por ti.
+Cuando llega uno, verás un aviso: *"Un resultado de laboratorio de {lab} te está esperando."* Toca **Elegir acuario** y elige a qué acuario pertenece. Cora no puede adivinarlo. En cuanto lo eliges, Cora lo añade a ese acuario igual que un informe que hubieras subido tú.
 
-El propio informe muestra **Enviado por {lab}** cerca de su cabecera, para que puedas distinguirlo de uno que subiste tú.
+En la cabecera del informe verás **Enviado por {lab}**, así sabes que no lo subiste tú.
 
 :::note La primera vez
-La primera vez que llega un resultado así, Cora muestra una breve explicación de qué está pasando, para que no parezca un error.
+La primera vez que llega un resultado así, Cora te explica brevemente qué está pasando para que no lo confundas con un error.
 :::
 
-Si no funciona: consulta [Solución de problemas](/help/troubleshooting).
+Si algo falla, mira [Solución de problemas](/help/troubleshooting).
 
-![Un informe ICP](img/mobile-icp-report.webp "Cada informe lleva una puntuación y un resumen escrito para tu acuario.")
+![Un informe ICP](img/mobile-icp-report.webp "Cada informe incluye una puntuación y un resumen pensado para tu acuario.")
 
-## Qué obtienes
+## Qué recibes
 
-**Una puntuación** sobre 100, y un resumen en lenguaje sencillo de qué significa para tu sistema en concreto: tu tipo de acuario, su antigüedad, tu fauna.
+Una **puntuación** sobre 100 y un resumen en palabras sencillas de lo que significa para tu sistema en concreto, según el tipo de acuario, su antigüedad y tu fauna.
 
-La puntuación se calcula a partir de tus resultados frente a sus rangos objetivo, incluidos los rangos que hayas fijado tú mismo. Cualquier resultado fuera de su rango mantiene la puntuación en 70 o menos, y uno muy fuera de rango la mantiene en 40 o menos, sin importar lo buenos que sean los demás. La etiqueta bajo la puntuación dice **Saludable** por encima de 70, **Necesita atención** entre 40 y 70, y **Crítico** por debajo de 40. Los informes de salud se puntúan igual.
+La puntuación compara tus resultados con sus rangos objetivo, incluidos los que hayas fijado tú. Si un resultado está fuera de rango, la puntuación no pasa de 70. Si está muy fuera, no pasa de 40, por buenos que sean los demás. Debajo de la puntuación verás **Saludable** por encima de 70, **Necesita atención** entre 40 y 70 y **Crítico** por debajo de 40. Los informes de salud se puntúan igual.
 
-**Cada elemento con seguimiento**: no solo los parámetros principales, sino también elementos traza y contaminantes.
+Cora sigue **todos los elementos**, también los oligoelementos y los contaminantes, además de los parámetros principales.
 
-**Mayores cambios**: la tarjeta "Desde tu último ICP" muestra qué cambió más desde la última vez, que suele ser la forma más rápida de entender un informe nuevo.
+La tarjeta **Desde tu último ICP** muestra lo que más ha cambiado desde la vez anterior. Suele ser la forma más rápida de entender un informe nuevo.
 
-**Tendencias**: toca **Tendencias** para ver cualquier elemento a lo largo de todas las pruebas que has subido. Aquí es donde el ICP deja de ser una foto fija y empieza a ser útil.
+Toca **Tendencias** para ver cualquier elemento en todos los análisis que has subido. Aquí es donde el ICP empieza a ser útil de verdad, porque ya no ves una sola foto.
 
-:::tip Con dos pruebas se pone interesante
-Un solo ICP te dice dónde estás. El segundo te dice en qué dirección te mueves, que es el dato más útil para actuar. Prueba con un ritmo en lugar de solo cuando algo va mal.
+:::tip Con dos análisis empieza lo interesante
+Un ICP te dice dónde estás. El segundo te dice hacia dónde vas, y eso es lo que te ayuda a decidir. Haz análisis con cierta regularidad, también cuando todo va bien.
 :::
 
 ## Informes de salud
 
-Un **Informe de salud** es una evaluación periódica más profunda de todo el sistema: cada parámetro, cada fuente, tu dosificación, tu historial y tus resultados de ICP recientes, considerados en conjunto.
+Un **Informe de salud** es una evaluación periódica y más a fondo de todo el sistema. Tiene en cuenta a la vez cada parámetro, cada fuente, tu dosificación, tu historial y tus ICP recientes.
 
 Toca **Informe de salud** y elige un acuario. Tarda un momento en generarse.
 
-Úsalo cuando quieras una lectura reflexiva en lugar del titular de hoy: antes de un cambio grande, después de un problema, o cada pocas semanas como revisión.
+Pídelo cuando quieras una valoración pensada, más allá de lo que pasa hoy. Por ejemplo, antes de un cambio grande, después de un problema o cada pocas semanas como revisión.
 
-## El ICP frente a tus sondas
+## El ICP y tus sondas
 
-Cora compara tus resultados de laboratorio con lo que informa tu equipo. Cuando tu sonda de alcalinidad dice 8,4 y tu ICP dice 7,6, eso es un dato que vale la pena conocer, y Cora lo muestra en lugar de preferir uno en silencio.
+Cora compara tus resultados de laboratorio con lo que miden tus equipos. Si tu sonda de alcalinidad marca 8,4 y el ICP dice 7,6, conviene que lo sepas. Cora te muestra la diferencia y no da por buena una de las dos sin avisar.
 
-Esto es una de las cosas más útiles que hace un ICP dentro de Cora. Es una **tercera opinión, no un árbitro**: los laboratorios difieren entre sí, y la manipulación, el almacenamiento y el transporte de una muestra también mueven el resultado. Trata un solo ICP como evidencia (que dos pruebas coincidan vale mucho más que una sola) y lee una diferencia persistente como una razón para revisar la sonda, no como prueba de que la sonda está mal.
+Es una de las cosas más útiles que aporta un ICP dentro de Cora. Tómalo como **una tercera opinión, no como un juez**. Los laboratorios no coinciden entre sí, y la forma de manipular, guardar y enviar la muestra también cambia el resultado. Un solo ICP es un indicio, y dos análisis que coinciden valen mucho más que uno. Si la diferencia se mantiene, revisa la sonda, pero eso no demuestra que la sonda esté mal.
 
-:::tip Cambiar de laboratorio o de método de prueba
-Cambiar de laboratorio, o alternar entre las pruebas ICP-OES e ICP-MS de un laboratorio, puede mover tus resultados sin que haya cambiado nada en tu acuario, y Cora lo señala cuando los compara. El ICP-OES no puede medir cromo, estaño, níquel, cobre, cobalto o selenio muy bajos, así que un resultado de **Por debajo del límite de detección** para esos elementos en una prueba ICP-OES no significa que tu acuario no tenga nada.
+:::tip Si cambias de laboratorio o de método
+Cambiar de laboratorio, o pasar del ICP-OES al ICP-MS de un mismo laboratorio, puede mover tus resultados aunque en el acuario no haya cambiado nada. Cora te lo indica al compararlos. El ICP-OES no detecta niveles muy bajos de cromo, estaño, níquel, cobre, cobalto o selenio. Un resultado **Por debajo del límite de detección** en esos elementos con ICP-OES no significa que tu acuario no tenga nada.
 :::
 
-## Tu asignación
+## Cuánto puedes usar
 
-Ambos se miden según tu plan. La línea bajo los botones muestra lo que has usado este mes.
+Los dos dependen de tu plan. La línea debajo de los botones muestra lo que llevas usado este mes.
 
-Aparte de tu plan, Cora acepta hasta 10 subidas de ICP al día. Una subida rechazada por ese motivo no consume ninguno de los análisis de ICP de tu plan, pero Cora Mobile solo muestra un error genérico de subida, así que si las subidas empiezan a fallar después de muchas en un día, inténtalo de nuevo al día siguiente.
+Aparte del plan, Cora acepta como máximo 10 subidas de ICP al día. Una subida rechazada por este límite no gasta ninguno de los análisis ICP de tu plan. Eso sí, Cora Mobile solo muestra un error de subida genérico. Si después de muchas subidas en un día empiezan a fallar, vuelve a intentarlo al día siguiente.
 
-## Dónde viven los informes
+## Dónde encontrar los informes
 
-La pantalla de Inteligencia mantiene los dos tipos por separado: los resultados de laboratorio en **Informes ICP**, y las revisiones generadas en **Informes de salud**. Cada lista va de más reciente a más antigua con su puntuación; toca uno para volver a abrirlo completo.
+En la pantalla Inteligencia los dos tipos están separados. Los resultados de laboratorio están en **Informes ICP** y las revisiones generadas en **Informes de salud**. Cada lista va de más reciente a más antiguo, con su puntuación. Toca uno para abrirlo completo.

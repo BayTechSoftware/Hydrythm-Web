@@ -1,56 +1,56 @@
 ---
 title: Las cinco pestañas
-description: Un recorrido por Cora Mobile: Panel, Dispositivos, Asistente, Inteligencia y Ajustes, y qué vive en cada una.
+description: Un recorrido por Cora Mobile y lo que encontrarás en Panel, Dispositivos, Asistente, Inteligencia y Ajustes.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 4
 group: Getting started
 ---
 
-Cora Mobile tiene cinco pestañas en la parte inferior. Casi todo lo que haces vive en una de ellas.
+Cora Mobile tiene cinco pestañas en la parte de abajo. Casi todo lo que haces está en una de ellas.
 
 ![Las cinco pestañas de Cora Mobile](img/mobile-tabs.webp "Panel, Dispositivos, Asistente, Inteligencia, Ajustes.")
 
 ## Panel
 
-Lecturas en vivo del acuario seleccionado. Esta es la pantalla principal de Cora Mobile.
+Aquí ves las lecturas en directo del acuario elegido. Es la pantalla principal de Cora Mobile.
 
-Si tienes más de un acuario, desliza a izquierda y derecha para moverte entre ellos; los puntos bajo la cabecera muestran dónde estás. La cabecera del acuario lleva el nombre del acuario y una fila de acciones: modo alimentación, el resumen de Reef Buddy, compartir, y un lápiz que abre el perfil del acuario. Editar el panel es un control aparte, **Editar panel**, al pie de la página.
+Si tienes más de un acuario, desliza a la izquierda o a la derecha para pasar de uno a otro. Los puntos bajo la cabecera te indican en cuál estás. La cabecera muestra el nombre del acuario y una fila de acciones. Son el modo alimentación, el resumen de Reef Buddy, compartir y un lápiz que abre el perfil del acuario. Para editar el panel, usa **Editar panel**, al final de la página.
 
-Más detalle: **[Leer tu panel](/help/mobile-dashboard)**.
+Más información en [Leer tu panel](/help/mobile-dashboard).
 
 ## Dispositivos
 
-Todo lo que tienes conectado, agrupado por marca. Cada grupo se pliega, así que un cuarto de acuarios lleno de equipos sigue siendo legible.
+Aquí está todo lo que tienes conectado, agrupado por marca. Cada grupo se puede plegar, así que la lista se lee bien aunque tengas una sala llena de equipos.
 
-Aquí es donde añades equipo nuevo, lo renombras, lo asignas a un acuario y lo eliminas. Más detalle: **[Añadir, editar y eliminar dispositivos](/help/mobile-devices)**.
+Desde aquí añades equipos nuevos, les cambias el nombre, los asignas a un acuario y los eliminas. Más información en [Añadir, editar y eliminar dispositivos](/help/mobile-devices).
 
 ## Asistente
 
-Pregúntale a Cora sobre tu acuario en lenguaje sencillo, escribiendo o por voz. Puede ver tus lecturas en vivo, tu historial y tus resultados de ICP, así que "¿por qué está bajando mi alcalinidad?" es una pregunta que puede responder de verdad sobre *tu* acuario.
+Pregúntale a Cora por tu acuario con tus propias palabras, por escrito o con la voz. Cora ve tus lecturas en directo, tu historial y tus resultados de ICP. Por eso puede responder a "¿por qué me está bajando la alcalinidad?" pensando en *tu* acuario.
 
-Más detalle: **[Preguntar a Cora](/help/mobile-assistant)**.
+Más información en [Preguntar a Cora](/help/mobile-assistant).
 
 ## Inteligencia
 
-Tu trabajo de laboratorio y tu visión a largo plazo. Sube una prueba de ICP y Cora la lee, hace seguimiento de cada elemento en el tiempo, y te dice qué cambió desde la última vez. Los informes de salud son una evaluación periódica más profunda de todo el sistema.
+Aquí están tus resultados de laboratorio y la evolución a largo plazo. Sube una prueba de ICP y Cora la lee, sigue cada elemento a lo largo del tiempo y te dice qué ha cambiado desde la última vez. Los informes de salud son una revisión periódica y más a fondo de todo el sistema.
 
-Más detalle: **[ICP e informes de salud](/help/mobile-icp-health)**.
+Más información en [ICP e informes de salud](/help/mobile-icp-health).
 
 ## Ajustes
 
-Cuenta, acuarios, productos de dosificación, el Asistente, notificaciones, automatización y tu plan.
+Aquí están la cuenta, los acuarios, los productos de dosificación, el asistente, las notificaciones, la automatización y tu plan.
 
-Más detalle: **[Ajustes](/help/mobile-settings)**.
+Más información en [Ajustes](/help/mobile-settings).
 
-## El recorrido de la primera vez
+## El recorrido inicial
 
-La primera vez que abres el panel, Cora señala las partes de la pantalla una por una. Se ejecuta una sola vez.
+La primera vez que abres el panel, Cora te señala una a una las partes de la pantalla. Solo pasa una vez.
 
-Para volver a verlo, usa **Ajustes → Acerca de → Repetir consejos**. Reinicia el recorrido y te lleva al panel para que empiece de inmediato, algo útil después de una actualización, o al entregar tu teléfono a otra persona.
+Para verlo otra vez, ve a **Ajustes → Acerca de → Repetir consejos**. El recorrido vuelve a empezar y te lleva al panel para que arranque enseguida. Viene bien después de una actualización o si le dejas el teléfono a otra persona.
 
 ## Dos controles fuera de las pestañas
 
-**La campana**, arriba a la derecha, es tu historial de notificaciones: cada alerta que Cora ha generado, de más reciente a más antigua. El número que muestra indica cuántas te quedan por leer.
+**La campana**, arriba a la derecha, es tu historial de notificaciones. Ahí está cada alerta que ha generado Cora, de la más reciente a la más antigua. El número indica cuántas te quedan por leer.
 
-**El botón del diario** flota sobre la parte inferior derecha del Panel. Tócalo para anotar lo que acabas de hacer: un cambio de agua, un coral nuevo, una dosis que cambiaste. Consulta **[El diario](/help/mobile-journal)**.
+**El botón del diario** está en la esquina inferior derecha del Panel. Tócalo para apuntar lo que acabas de hacer, como un cambio de agua, un coral nuevo o un cambio de dosis. Más información en [El diario](/help/mobile-journal).

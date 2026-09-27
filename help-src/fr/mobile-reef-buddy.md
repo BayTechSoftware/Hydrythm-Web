@@ -1,84 +1,84 @@
 ---
 title: Reef Buddy
-description: Votre briefing quotidien : ce qu’il couvre, quand il arrive, et comment lire le score.
+description: Votre briefing du matin : ce qu’il contient, quand il arrive et comment lire ses scores.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 24
 group: Intelligence
 ---
 
-Reef Buddy est une courte lecture quotidienne de votre aquarium. Il arrive chaque matin, vous dit ce qui a changé, et signale tout ce qui vaut votre attention avant que vous ne le remarquiez vous-même.
+Reef Buddy fait chaque jour un court point sur votre aquarium. Il arrive le matin, vous dit ce qui a changé et vous signale ce qui mérite votre attention, avant que vous ne le remarquiez vous-même.
 
-Il apparaît comme une carte en haut de votre tableau de bord, et comme une notification.
+Il s’affiche sous forme de carte en haut du tableau de bord, et vous envoie une notification.
 
 ![Un briefing Reef Buddy](img/mobile-reefbuddy.webp "Scores Stabilité et Données, un résumé, puis les observations derrière eux.")
 
-## Ce qu’il y a dans un briefing
+## Le contenu d’un briefing
 
-**Un titre** : un résumé en une ligne de l’aquarium aujourd’hui.
+Le briefing commence par **un titre**, qui résume l’état de l’aquarium aujourd’hui en une ligne.
 
-**Deux scores :**
+Viennent ensuite **deux scores**.
 
-| Score | Signifie |
+| Score | Signification |
 |---|---|
-| **Stabilité** | Sur 100. À quel point vos mesures ont été stables au cours des 30 derniers jours |
-| **Données** | Un pourcentage. À quel point les données derrière l’évaluation sont complètes |
+| **Stabilité** | Sur 100. La régularité de vos mesures sur les 30 derniers jours |
+| **Données** | En pourcentage. La quantité de données sur laquelle repose l’évaluation |
 
-Un score Données bas signifie que l’évaluation repose sur moins de mesures qu’elle ne le voudrait. Lisez-le en premier : quand Données est bas, traitez le chiffre de Stabilité à côté comme provisoire plutôt que définitif.
+Un score Données bas veut dire que l’évaluation repose sur moins de mesures que prévu. Regardez-le en premier. S’il est bas, prenez le score Stabilité d’à côté comme une indication provisoire.
 
-**Un résumé** : un court paragraphe expliquant le titre, en référence à vos valeurs et plages réelles.
+Puis **un résumé** : un court paragraphe qui explique le titre, à partir de vos vraies valeurs et de vos plages.
 
-**Observations** : les constatations individuelles. Chacune porte une catégorie (comme *Chimie de l’eau*), une fréquence (comme *Quotidien*), et se développe pour le détail. Une puce en haut de la section montre le type d’aquarium et à quel point son profil est complet, car les deux affectent ce que Cora peut conclure.
+Enfin, **les observations**, c’est-à-dire les constats un par un. Chacune a une catégorie (par exemple *Chimie de l’eau*) et une fréquence (par exemple *Quotidien*). Touchez-la pour voir le détail. En haut de la section, une étiquette indique le type d’aquarium et le degré de complétude de son profil. Les deux influencent ce que Cora peut en conclure.
 
-Les observations sont filtrées avant de vous parvenir. Une observation doit se confirmer sur plusieurs mesures plutôt qu’apparaître sur une seule, et doit dire quelque chose qu’un seul graphique ne vous aurait pas déjà montré.
+Les observations sont triées avant de vous arriver. Une observation doit se vérifier sur plusieurs mesures, pas sur une seule. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne vous aurait pas déjà montré.
 
-Touchez la carte sur le tableau de bord pour ouvrir le briefing complet.
+Touchez la carte dans le tableau de bord pour ouvrir le briefing complet.
 
 ## Quand il arrive
 
-Une fois par jour, tôt le matin, par aquarium.
+Une fois par jour, tôt le matin, pour chaque aquarium.
 
-Un jour où rien n’a besoin de votre attention, Reef Buddy reste généralement silencieux plutôt que d’envoyer une notification pour dire que tout va bien. **Une notification signifie qu’il y a quelque chose sur lequel agir**, ce qui peut être un nouveau changement, ou une condition qui a persisté assez longtemps pour valoir la peine d’être signalée.
+Les jours où rien ne demande votre attention, Reef Buddy reste en général silencieux. Il ne vous envoie pas de notification juste pour dire que tout va bien. **Une notification veut dire qu’il y a quelque chose à faire.** Ce peut être un nouveau changement, ou une situation qui dure depuis assez longtemps pour être signalée.
 
 :::note Un aquarium, un briefing
-Chaque aquarium a son propre briefing. Si vous gérez trois systèmes, vous en avez trois, et chacun ne concerne que ce système.
+Chaque aquarium a son propre briefing. Si vous avez trois bacs, vous recevez trois briefings, chacun sur son bac.
 :::
 
 :::note Cora Max a son propre réglage Reef Buddy
-Une tablette Cora Max a sa propre section **Reef Buddy** dans ses Réglages, avec un commutateur et une heure pour quand son briefing à l’écran apparaît. C’est séparé du téléphone : activer ou désactiver un briefing sur Cora Max ne change pas s’il atteint votre téléphone, et inversement.
+Un Cora Max a sa propre section **Reef Buddy** dans ses Réglages, avec un interrupteur et l’heure d’affichage du briefing à l’écran. Ce réglage est indépendant du téléphone. Activer ou couper le briefing sur Cora Max ne change rien à ce que reçoit votre téléphone, et inversement.
 :::
 
 ## Lire les scores
 
-**Stabilité** reflète à quel point vos mesures ont été stables au cours des 30 derniers jours. Elle mesure la stabilité, pas si les mesures sont dans la plage : un aquarium maintenu stable au mauvais niveau peut tout de même bien scorer. Pour un score par rapport à vos plages cibles, exécutez un [Rapport de santé](/help/mobile-icp-health). Stabilité est une tendance à surveiller dans le temps plutôt qu’une note ; comparez-la à vos propres scores précédents, pas à un autre aquarium.
+**Stabilité** indique à quel point vos mesures ont été régulières sur les 30 derniers jours. Ce score mesure la régularité, pas le fait d’être dans la plage. Un aquarium stable à un mauvais niveau peut donc avoir un bon score. Pour un score qui tient compte de vos plages cibles, lancez un [Rapport de santé](/help/mobile-icp-health). Stabilité se suit dans le temps, ce n’est pas une note. Comparez-le à vos propres scores passés, pas à celui d’un autre aquarium.
 
-**Données** reflète la quantité d’informations récentes dont disposait l’évaluation. Elle baisse quand les mesures deviennent périmées.
+**Données** indique la quantité d’informations récentes utilisées pour l’évaluation. Ce score baisse quand les mesures vieillissent.
 
-:::note Un score Données en baisse signifie généralement que les mesures sont devenues périmées
-Si rien n’a été testé depuis une semaine, le score Données chute et le score Stabilité devient moins fiable. Enregistrez des mesures pour restaurer les deux.
+:::note Un score Données qui baisse signale souvent des mesures trop anciennes
+Si rien n’a été testé depuis une semaine, le score Données chute et le score Stabilité devient moins fiable. Enregistrez des mesures pour faire remonter les deux.
 :::
 
 ## Fermer la carte
 
-Le **×** efface la carte du jour du tableau de bord. Celle de demain arrive tout de même. Les briefings passés restent disponibles depuis l’onglet **Intelligence**.
+Le **×** retire la carte du jour du tableau de bord. Celle de demain arrivera quand même. Les anciens briefings restent accessibles depuis l’onglet **Intelligence**.
 
 ## Disponibilité
 
-Reef Buddy fait partie des forfaits payants. Il est inclus dans l’essai gratuit de 30 jours qui commence à l’inscription ; après l’essai, un compte gratuit ne reçoit plus de briefings. Voir [Forfaits](/help/mobile-plans).
+Reef Buddy fait partie des forfaits payants. Il est inclus dans l’essai de 30 jours qui commence à l’inscription. Après l’essai, un compte gratuit ne reçoit plus de briefing. Voir [Forfaits](/help/mobile-plans).
 
-## Corriger une observation
+## Réagir à une observation
 
-Chaque observation prend une des quatre réponses :
+Vous pouvez répondre à chaque observation de quatre façons.
 
-| Réponse | Signifie |
+| Réponse | Signification |
 |---|---|
 | **Confirmé** | C’était juste, et utile |
-| **Ne correspond pas** | Cela ne reflète pas ce que vous voyez |
-| **Le savais déjà** | Juste, mais vous en étiez conscient |
-| **Pas sûr** | Vous ne pouvez pas encore en juger |
+| **Ne correspond pas** | Ça ne correspond pas à ce que vous voyez |
+| **Le savais déjà** | C’est juste, mais vous le saviez |
+| **Pas sûr** | Vous ne pouvez pas encore juger |
 
-Les retours influencent ce qui mène les briefings ultérieurs, et la suppression est **limitée dans le temps** ; une observation que vous ignorez revient si la condition persiste.
+Vos réponses influencent ce qui passe en tête des briefings suivants. Une observation écartée ne l’est que **pour un temps**. Si la situation dure, elle revient.
 
-:::note Les constatations sérieuses ne sont jamais supprimées
-Seules les observations de faible gravité peuvent être atténuées par les retours. Les observations d’avertissement et critiques continuent d’apparaître, quels que soient vos retours précédents.
+:::note Les constats sérieux ne sont jamais écartés
+Vos réponses ne peuvent atténuer que les observations de faible gravité. Les observations d’avertissement et les observations critiques continuent d’apparaître, quelles que soient vos réponses passées.
 :::

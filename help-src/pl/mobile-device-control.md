@@ -1,136 +1,136 @@
 ---
-title: Kontrola sprzętu
-description: Otwórz własną stronę urządzenia, aby zobaczyć jego stan na żywo i sterować nim: gniazda, pompy, głowice dozujące i testery.
+title: Sterowanie sprzętem
+description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i nim sterować: gniazda, pompy, głowice dozujące i testery.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 11
 group: Equipment
 ---
 
-Podłączony sprzęt ma swoją własną stronę w Corze, pokazującą stan na żywo i oferującą wszystkie kontrolki, jakie to urządzenie wspiera. Otwórz taką stronę z zakładki **Urządzenia**.
+Każde podłączone urządzenie ma w Corze własną stronę. Widać na niej stan na żywo i wszystkie ustawienia, które urządzenie obsługuje. Otworzysz ją w zakładce **Urządzenia**.
 
-![Strona urządzenia](img/mobile-device-detail.webp "Odczyty na żywo na górze, potem kontrolki wspierane przez to urządzenie.")
+![Strona urządzenia](img/mobile-device-detail.webp "Odczyty na żywo na górze, niżej ustawienia, które obsługuje urządzenie.")
 
-Każda strona urządzenia ma ten sam układ: identyfikacja na górze, rząd odczytów na żywo, stan zgłaszany przez urządzenie, a potem jego kontrolki. Dzwonek na pasku tytułu ustawia progi alertów dla tego urządzenia; zobacz [Materiały eksploatacyjne](/help/mobile-consumables).
+Każda strona urządzenia wygląda podobnie. Na górze jest opis urządzenia, potem rząd odczytów na żywo, stan zgłaszany przez urządzenie, a na końcu przyciski sterowania. Dzwonek na pasku tytułu ustawia progi alertów dla tego urządzenia. Więcej w [Materiałach eksploatacyjnych](/help/mobile-consumables).
 
-:::warning Te kontrolki działają na żywym sprzęcie
-Nie ma podglądu i nie ma cofnięcia. Niektóre kontrolki proszą też najpierw o potwierdzenie.
+:::warning Te przyciski sterują prawdziwym sprzętem
+Nie ma podglądu ani cofania. Niektóre przyciski najpierw proszą o potwierdzenie.
 :::
 
-## Co się dzieje, gdy wysyłasz polecenie
+## Co się dzieje po wysłaniu polecenia
 
-Polecenie nie zawsze się powiedzie, i Cora mówi Ci, które z czterech zdarzeń nastąpiło, a nie zakłada domyślnie:
+Polecenie nie zawsze się udaje. Cora nie zakłada, że się udało, tylko mówi, który z czterech wyników wystąpił:
 
-| Wynik | Znaczy |
+| Wynik | Co oznacza |
 |---|---|
-| **Potwierdzono** | Sprzęt potwierdził zmianę i zgłosił swój nowy stan |
-| **Niepotwierdzone** | Polecenie zostało wysłane, ale nic nie zgłoszono z powrotem. **To znaczy "nie wiemy", nie "zadziałało"**; sprawdź stan samego urządzenia |
-| **Odmówiono** | Coś odmówiło (reguła bezpieczeństwa, blokada albo sam sprzęt) albo żadne urządzenie Cora nie odebrało go na czas, więc zostało anulowane i nic nie zostało wykonane |
-| **Bez zmian** | Sprzęt był już w stanie, o który poprosiłeś |
+| **Potwierdzono** | Sprzęt potwierdził zmianę i zgłosił nowy stan |
+| **Niepotwierdzone** | Polecenie zostało wysłane, ale nic nie wróciło. **To znaczy „nie wiemy”, a nie „zadziałało”**. Sprawdź stan na samym urządzeniu |
+| **Odmówiono** | Coś zablokowało polecenie (reguła bezpieczeństwa, blokada albo sam sprzęt) albo żadne urządzenie Cora nie odebrało go na czas. Polecenie anulowano i nic się nie wykonało |
+| **Bez zmian** | Sprzęt już był w żądanym stanie |
 
-Każdy wynik jest zapisywany w [Aktywności](/help/mobile-activity) wraz z tym, co go spowodowało.
+Każdy wynik trafia do [Aktywności](/help/mobile-activity) razem z informacją, skąd przyszło polecenie.
 
 ## Neptune Apex
 
-Strona Apex wypisuje Twoje sondy i gniazda.
+Na stronie Apex są Twoje sondy i gniazda.
 
-- **Sondy** zgłaszają się do Cory jako źródła i można je umieścić na pulpicie.
-- **Gniazda** przełączają się między **Auto**, **Wyłączone** i **On**. Auto przekazuje kontrolę Twojemu programowaniu Apex.
-- **Zamontowane moduły** (Trident, DŌS i inne) mają każdy swoją własną stronę.
+- **Sondy** przekazują odczyty do Cory jako źródła, które możesz umieścić na pulpicie.
+- **Gniazda** mają trzy stany: **AUTO**, **WYŁ.** i **WŁ.** AUTO oddaje sterowanie Twojemu programowi w Apex.
+- **Zamontowane moduły** (Trident, DŌS i inne) mają własne strony.
 
 ## Trident
 
-Pokazuje aktualny stan testu, poziomy pozostałego reagentu i wody odpadowej oraz pozwala rozpocząć test.
+Strona pokazuje bieżący stan testu, ilość pozostałego odczynnika i poziom wody odpadowej. Stąd też uruchomisz test.
 
-Na tej stronie możesz ustawić próg alertu dla liczby pozostałych testów, aby Cora ostrzegła Cię, zanim skończy się reagent. Zobacz [Materiały eksploatacyjne](/help/mobile-consumables).
+Możesz tu ustawić próg alertu dla liczby pozostałych testów. Cora ostrzeże Cię wtedy, zanim skończy się odczynnik. Więcej w [Materiałach eksploatacyjnych](/help/mobile-consumables).
 
 ## DŌS
 
-DŌS QD działa dokładnie jak DŌS, i wszystko tutaj dotyczy obu. Gdy Cora Max odczytuje Twój Apex, głowice dozujące pojawiają się na stronie DŌS, nigdy na liście gniazd.
+DŌS QD działa tak samo jak DŌS i wszystko poniżej dotyczy obu. Gdy Cora Max odczytuje Twój Apex, głowice dozujące są na stronie DŌS, nigdy na liście gniazd.
 
-Każda głowica dozująca pokazuje, co dozuje, swój harmonogram, co dozowała dzisiaj, ile zostało w pojemniku i jej **runway**: ile dni to wystarczy przy aktualnym tempie.
+Przy każdej głowicy widać, co dozuje, jej harmonogram, ile podała dzisiaj, ile zostało w pojemniku i **Zasięg**, czyli na ile dni wystarczy płynu przy obecnym tempie.
 
 Dla każdej głowicy możesz:
 
-- **Wstrzymaj** i **Wznów** jej harmonogram
-- **Napełnij**: powiedzieć Corze, że pojemnik jest znowu pełny, albo ustawić w nim objętość
-- **Dawkuj teraz**: zmierzoną, ręczną dawkę
+- **Wstrzymaj** albo **Wznów** jej harmonogram
+- **Napełnij**, czyli podać Corze, że pojemnik jest znów pełny, albo wpisać, ile w nim jest
+- **Dawkuj teraz**, czyli podać odmierzoną dawkę ręcznie
 
-:::note Harmonogramy edytuje się w Apex Fusion, nie tutaj
-Cora pokazuje harmonogram i śledzi, co zostało zdozowane, ale go nie zmienia. Edytowanie harmonogramu, tempa dawki albo liczby dawek odbywa się w aplikacji Apex Fusion. Wstrzymywanie, napełnianie i dozowanie ręczne są tutaj wszystkie wspierane.
+:::note Harmonogramy edytujesz w Apex Fusion
+Cora pokazuje harmonogram i śledzi, ile już podano, ale go nie zmienia. Harmonogram, tempo i liczbę dawek zmieniasz w aplikacji Apex Fusion. Wstrzymywanie, napełnianie i ręczne dozowanie działają tutaj.
 :::
 
-:::note Zmierz głowicę, zanim zdozujesz nią ręcznie
-Cora nie zdozuje głowicą ręcznie, aż zostanie zmierzona. **Zmierz, aby dozować** i **Zmierz ponownie** znajdują się na Cora Max, który dozuje dla danego akwarium: Cora uruchamia głowicę na dwadzieścia sekund, Ty mierzysz, co wyszło, a Cora wylicza rzeczywiste tempo głowicy. Jeden pomiar obsługuje każde Cora Max i Cora Mobile, więc zmierz każdą głowicę raz, i ponownie po zmianie jej przewodów.
+:::note Zanim zadozujesz ręcznie, zmierz głowicę
+Cora nie zadozuje ręcznie z głowicy, która nie była zmierzona. Przyciski **Zmierz, aby dozować** i **Zmierz ponownie** są na Cora Max, który dozuje dla danego akwarium. Cora włącza głowicę na dwadzieścia sekund, Ty mierzysz, ile wypłynęło, a Cora wylicza prawdziwe tempo głowicy. Jeden pomiar wystarcza dla wszystkich Cora Max i Cora Mobile. Zmierz więc każdą głowicę raz i powtórz pomiar po wymianie wężyka.
 :::
 
-:::warning DŌS dozuje dalej, gdy pojemnik jest pusty
-Jednostka nie ma czujnika poziomu i nie zatrzymuje się sama. Ustaw alert uzupełnienia na stronie głowicy, aby Cora ostrzegła Cię, zanim pojemnik wyschnie.
+:::warning DŌS dozuje dalej z pustego pojemnika
+Urządzenie nie ma czujnika poziomu i samo się nie zatrzyma. Ustaw alert uzupełnienia na stronie głowicy, żeby Cora ostrzegła Cię, zanim pojemnik się opróżni.
 :::
 
-### Do czego służy każda głowica
+### Do czego służy głowica
 
-Każda głowica ma ustawiony **typ użycia**, dzięki czemu Cora wie, co ona robi, i może o niej mówić poprawnie: **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm**, **Dolewka** albo **Inne**. Ustawiasz to w **Używana do** w ustawieniach głowicy.
+Każda głowica ma ustawiony **typ użycia**. Dzięki temu Cora wie, co głowica robi, i dobrze o niej mówi. Do wyboru są: **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm**, **Dolewka** i **Inne**. Typ ustawiasz w polu **Używana do** w ustawieniach głowicy.
 
-Dwa typy użycia dla podmiany wody są przeznaczone do **parowania**: ustaw **Sparowana głowica** jednej głowicy na drugą, przenoszącą wodę w drugą stronę, a Cora będzie traktować je jako jedną parę do podmiany wody, a nie dwie niepowiązane głowice.
+Dwa typy dla podmiany wody działają **w parze**. W jednej głowicy ustaw **Sparowana głowica** na tę drugą, która przenosi wodę w przeciwną stronę. Cora potraktuje je wtedy jako jedną parę do podmiany wody.
 
-Każda głowica ma też sufit **Największa dawka ręczna**, aby błędnie wpisana ręczna dawka nie była dużo większa niż zamierzona. Duże dawki ręczne stają się dostępne tylko wtedy, gdy tempo głowicy zostało zmierzone względem rzeczywistego testu przy akwarium.
+Każda głowica ma też limit **Największa dawka ręczna**. Chroni on przed literówką, przez którą ręczna dawka byłaby dużo większa niż planowana. Duże dawki ręczne są dostępne dopiero wtedy, gdy tempo głowicy zmierzono prawdziwym testem przy akwarium.
 
 ## Red Sea ReefBeat
 
-Każda jednostka ma stronę odpowiednią do tego, czym jest:
+Każde urządzenie ma stronę dopasowaną do tego, czym jest:
 
-| Jednostka | Strona pokazuje | Możesz |
+| Urządzenie | Co pokazuje strona | Co możesz zrobić |
 |---|---|---|
-| **ReefDose** | Każdą głowicę, jej pojemnik i to, co zdozowała | Dla każdej głowicy: **Dawka dzienna**, **Pozostało w butelce**, **Dawkuj teraz** i **Aktywuj harmonogram**. Ustaw alerty uzupełnienia dla każdej głowicy |
-| **ReefATO+** | Poziom zbiornika i aktywność dolewki | Ustawić alert zbiornika |
-| **ReefMat** | Pozostałą rolkę, w dniach i metrach | Przesunąć rolkę, ustawić alert uzupełnienia |
-| **ReefRun** | Prędkość i stan pompy powrotnej i skimmerowej | Zmienić prędkość, przełączyć pompę, dostosować ustawienia skimmera |
+| **ReefDose** | Każdą głowicę, jej pojemnik i to, ile podała | Dla każdej głowicy: **Dawka dzienna**, **Pozostało w butelce**, **Dawkuj teraz** i **Aktywuj harmonogram**. Ustawić alerty uzupełnienia dla każdej głowicy |
+| **ReefATO+** | Poziom w zbiorniku i pracę dolewki | Ustawić alert zbiornika |
+| **ReefMat** | Ile zostało rolki, w dniach i metrach | Przewinąć rolkę, ustawić alert uzupełnienia |
+| **ReefRun** | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, włączyć albo wyłączyć pompę, zmienić ustawienia odpieniacza |
 
-**ReefRun to kontroler pompy powrotnej i skimmerowej**, a nie pompa falowa.
+**ReefRun to sterownik pompy powrotnej i pompy odpieniacza**, a nie pompa cyrkulacyjna.
 
-Jednostka może zatrzymać się sama, na przykład pompa ReefRun, gdy kubek skimmera się napełni. Gdy to się stanie, jej strona mówi, dlaczego, i proponuje rozwiązanie:
+Urządzenie może zatrzymać się samo, np. pompa ReefRun, gdy kubek odpieniacza się zapełni. Wtedy jego strona mówi, dlaczego, i podpowiada, co zrobić:
 
-| Jednostka | Strona mówi | Dotknij |
+| Urządzenie | Komunikat na stronie | Dotknij |
 |---|---|---|
-| ReefRun | Która pompa się zatrzymała i czemu, na przykład *Pełny kubek. Opróżnij go, a potem wznów.* | **Wznów** |
-| ReefRun lub ReefMat | **Zatrzymanie awaryjne** | **Usuń stan awaryjny** |
-| ReefMat | **Mata zablokowana**, **Błąd instalacji** lub **Błąd konfiguracji** | **Wznów** |
+| ReefRun | Która pompa stanęła i dlaczego, np. *Pełny kubek. Opróżnij go, a potem wznów.* | **Wznów** |
+| ReefRun albo ReefMat | **Zatrzymanie awaryjne** | **Usuń stan awaryjny** |
+| ReefMat | **Mata zablokowana**, **Błąd instalacji** albo **Błąd konfiguracji** | **Wznów** |
 | ReefMat | *Załaduj nową rolkę, a potem potwierdź to w aplikacji Red Sea.* | **Nowa rolka już załadowana** |
 | ReefMat | **Czujnik wymaga wyczyszczenia** | **Czujnik wyczyszczony** |
-| ReefDose | **Awaria głowicy**, z nazwą głowicy | **Resetuj** |
+| ReefDose | **Awaria głowicy** z nazwą głowicy | **Resetuj** |
 | ReefATO+ | **Usuń awarię** | **Wznów** |
 
-Niektóre z nich proszą najpierw o potwierdzenie. Poza siecią jednostki Cora Mobile wysyła je przez Cora Max przy akwarium; jeśli żaden Cora Max nie może tego zrobić, strona mówi to wprost i nic nie zostaje wysłane.
+Część z nich najpierw prosi o potwierdzenie. Gdy jesteś poza siecią urządzenia, Cora Mobile wysyła polecenie przez Cora Max przy akwarium. Jeśli żaden Cora Max nie może tego zrobić, strona mówi to wprost i nic nie zostaje wysłane.
 
 ## Pompy Jecod
 
-Strona pompy pokazuje jej aktualny tryb i intensywność i pozwala zmienić obie te wartości.
+Strona pompy pokazuje bieżący tryb i intensywność. Możesz zmienić jedno i drugie.
 
 Możesz też:
 
-- **Skopiuj harmonogram do…**: skopiować harmonogram tej pompy na inną
-- **Zapisz harmonogram jako…** i **Zapisane harmonogramy…**: zachować harmonogram i zastosować go później ponownie
-- **Udostępnij ten harmonogram** i **Wklej kod harmonogramu…**: przenieść harmonogram między systemami jako krótki kod
+- **Skopiuj harmonogram do…**, żeby przenieść harmonogram tej pompy na inną
+- **Zapisz harmonogram jako…** i **Zapisane harmonogramy…**, żeby zachować harmonogram i później go przywrócić
+- **Udostępnij ten harmonogram** i **Wklej kod harmonogramu…**, żeby przenieść harmonogram do innego systemu jako krótki kod
 
 ## Maxspect
 
-:::note Wsparcie dla Maxspect jest w wersji beta
-Wsparcie dla gyre Maxspect jest wciąż testowane i rozwijane, więc niektóre kontrolki mogą być ograniczone, a to, co widzisz tutaj, może się zmienić między aktualizacjami. Jeśli coś nie działa tak, jak opisano, powiedz nam o tym w [Pomoc](/help/mobile-support).
+:::note Obsługa Maxspect jest w wersji beta
+Obsługę gyre Maxspect wciąż testujemy i rozwijamy. Część ustawień może być ograniczona, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
 :::
 
-Strona gyre pokazuje, czy gyre działa, wzór fali i prędkość **Gyre A** i **Gyre B** oraz kiedy zostało to ostatnio odczytane. Z niej możesz:
+Strona gyre pokazuje, czy gyre pracuje, wzór fali i prędkość **Gyre A** i **Gyre B** oraz czas ostatniego odczytu. Możesz tu:
 
-- Włączyć lub wyłączyć gyre przełącznikiem przy jego stanie. Cora najpierw prosi o potwierdzenie. Wyłączenie zatrzymuje obydwa gyre i zachowuje harmonogram bez zmian.
-- Dotknąć **Zmień ustawienia**, aby ustawić wzór fali i prędkość pompy każdego gyre (oraz czas trwania, dla wzoru, który go ma), i czy dwa gyre są połączone. Cora wypisuje, co się zmieni, i prosi o potwierdzenie przed zastosowaniem. Alternowanie ustawia się w aplikacji Maxspect: gyre je uruchamiające zachowuje swoje narastania i czasy trzymania.
-- Dotknąć **Ustaw program** za to, gdy programu zapisanego na gyre nie można odczytać. Ustawia oba gyre, aby gyre mogło znowu wystartować.
-- Zobaczyć program dnia gyre na karcie **Harmonogram**. Jest tylko do podglądu: harmonogram ustawiasz w aplikacji Maxspect.
-- Sprawdzić **Stan pompy**: kiedy pompa będzie następnie wymagać czyszczenia (pompa sama odlicza ten czas), pobór prądu przez głowicę A, które głowice są zamontowane, oraz firmware. Dotknij **Odczytaj**, aby to pobrać.
+- Włączyć albo wyłączyć gyre przełącznikiem obok jego stanu. Cora najpierw prosi o potwierdzenie. Wyłączenie zatrzymuje oba gyre, a harmonogram zostaje bez zmian.
+- Dotknąć **Zmień ustawienia**, żeby ustawić wzór fali i prędkość pompy każdego gyre (oraz czas trwania, jeśli dany wzór go ma) i to, czy oba gyre są połączone. Cora pokazuje, co się zmieni, i przed zastosowaniem prosi o potwierdzenie. Tryb naprzemienny ustawiasz w aplikacji Maxspect. Gyre, który z niego korzysta, zachowuje swoje narastania i czasy utrzymania.
+- Dotknąć **Ustaw program**, gdy programu zapisanego w gyre nie da się odczytać. Ten przycisk ustawia oba gyre, żeby gyre mógł znowu ruszyć.
+- Zobaczyć program dnia gyre na karcie **Harmonogram**. Służy tylko do podglądu, a harmonogram ustawiasz w aplikacji Maxspect.
+- Sprawdzić **Stan pompy**: kiedy pompa będzie wymagać czyszczenia (pompa sama odlicza ten czas), jaki prąd pobiera głowica A, które głowice są zamontowane i jaki jest firmware. Dotknij **Odczytaj**, żeby pobrać te dane.
 
-:::note Jak Cora Mobile dociera do gyre
-Gdy akwarium obsługuje Cora Max, Cora Mobile działa przez ten Cora Max, także wtedy, gdy jesteś poza domem, a **Zmień ustawienia** wychodzi od ostatniego odczytu tego Cora Max. W innym przypadku Twój telefon rozmawia z gyre bezpośrednio i musi być w sieci gyre. Otwarcie strony wtedy odczytuje gyre; jeśli strona pokazuje starszy zapisany odczyt, **Zmień ustawienia** zostaje ukryte, aż dotkniesz odświeżenia.
+:::note Jak Cora Mobile łączy się z gyre
+Jeśli akwarium obsługuje Cora Max, Cora Mobile łączy się przez niego, także poza domem. **Zmień ustawienia** zaczyna wtedy od ostatniego odczytu z tego Cora Max. W przeciwnym razie telefon łączy się z gyre bezpośrednio i musi być w jego sieci. Otwarcie strony odczytuje wtedy gyre. Jeśli strona pokazuje starszy zapisany odczyt, przycisk **Zmień ustawienia** pozostaje ukryty, dopóki nie odświeżysz strony.
 :::
 
-## Co się dzieje po zmianie czegoś
+## Co się dzieje po zmianie
 
-Każda zmiana jest zapisywana w [Aktywności](/help/mobile-activity) wraz z miejscem, z którego pochodziło żądanie. Jeśli urządzenie nie przyjmie zmiany, niepowodzenie jest tam także zapisywane.
+Każda zmiana trafia do [Aktywności](/help/mobile-activity) razem z miejscem, z którego ją zlecono. Jeśli urządzenie nie przyjmie zmiany, to też zostanie tam zapisane.

@@ -1,97 +1,97 @@
 ---
 title: Lire votre tableau de bord
-description: Comment lire le tableau de bord de Cora : widgets, fraîcheur, sources, et ce que signifient les couleurs.
+description: Les widgets du tableau de bord Cora, l’âge des mesures, leurs sources et le sens des couleurs.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 5
 group: Your dashboard
 ---
 
-Le tableau de bord est une grille de **widgets**, chacun montrant une chose à propos d’un aquarium. Ce qui s’y trouve dépend entièrement de vous ; voir **[Modifier votre tableau de bord](/help/mobile-dashboard-editing)**.
+Le tableau de bord est une grille de **widgets**. Chacun affiche une information sur un aquarium. Vous choisissez librement ce qui s’y trouve, comme expliqué dans **[Modifier votre tableau de bord](/help/mobile-dashboard-editing)**.
 
 ![Un tableau de bord Cora Mobile](img/mobile-dashboard.webp "Jauges, chiffres, tendances et commandes sur un seul écran.")
 
 ## L’en-tête de l’aquarium
 
-En haut de chaque tableau de bord :
+En haut de chaque tableau de bord, vous trouvez :
 
-- **Le nom de l’aquarium**, avec un petit symbole à côté : celui-là est un **renommage rapide**, rien de plus
-- **Nourrir** : met en pause le débit et l’écumage pour un nourrissage, puis remet tout en place
-- **Reef Buddy** : ouvre le briefing de ce matin
-- **Partager** : envoie un instantané du tableau de bord
-- **Le crayon à droite** : ouvre [le profil de l’aquarium](/help/mobile-tank-profile)
+- **le nom de l’aquarium**, avec un petit symbole à côté. Ce symbole sert uniquement à **renommer rapidement** l’aquarium
+- **Nourrir**, qui met en pause le brassage et l’écumage le temps du nourrissage, puis remet tout en marche
+- **Reef Buddy**, qui ouvre le briefing du matin
+- **Partager**, qui envoie une capture du tableau de bord
+- **le crayon à droite**, qui ouvre [le profil de l’aquarium](/help/mobile-tank-profile)
 
-:::note Trois commandes similaires, trois destinations
-Le symbole près du nom renomme l’aquarium. Le crayon à droite ouvre le **profil** de l’aquarium. Modifier le tableau de bord lui-même n’est ni l’un ni l’autre ; c’est **Modifier le tableau de bord**, au *bas* du tableau de bord, sous les widgets.
+:::note Trois boutons proches, trois écrans différents
+Le symbole près du nom renomme l’aquarium. Le crayon à droite ouvre le **profil** de l’aquarium. Pour modifier le tableau de bord lui-même, c’est encore ailleurs : touchez **Modifier le tableau de bord**, tout *en bas*, sous les widgets.
 :::
 
-Avec plus d’un aquarium, glissez latéralement pour passer de l’un à l’autre.
+Si vous avez plusieurs aquariums, balayez l’écran vers la gauche ou la droite pour passer de l’un à l’autre.
 
 ## La carte Reef Buddy
 
-Sous l’en-tête, une carte résume le briefing le plus récent : un titre, ses scores **Stabilité** et **Données**, et le nombre d’observations. Touchez-la pour ouvrir le briefing complet, ou fermez-la avec **×**. Une nouvelle carte apparaît avec le prochain briefing.
+Sous l’en-tête, une carte résume le dernier briefing : un titre, les scores **Stabilité** et **Données**, et le nombre d’observations. Touchez-la pour lire le briefing complet, ou fermez-la avec **×**. Une nouvelle carte arrive avec le briefing suivant.
 
-## Comment lire un widget de paramètre
+## Lire un widget de paramètre
 
-Un widget qui affiche un **paramètre mesuré** porte les mêmes trois choses aux mêmes endroits. Les tuiles d’appareil et de commande (une prise, une unité de dosage, une pompe) affichent leur propre état à la place, car il n’y a pas de mesure unique derrière elles.
+Un widget qui affiche un **paramètre mesuré** montre toujours les trois mêmes éléments, aux mêmes endroits. Les tuiles d’appareils et de commandes (une prise, une unité de dosage, une pompe) affichent leur état, car il n’y a pas une mesure unique derrière.
 
-**La valeur** est la mesure elle-même, grande et centrale.
+**La valeur**, c’est la mesure elle-même, en grand au centre.
 
-**L’ancienneté** se trouve dessous ou à côté : `now`, `1h`, `2d`. C’est depuis combien de temps la mesure a été prise, pas depuis quand l’écran s’est actualisé. Un chiffre qui n’a pas bougé depuis deux jours affiche `2d`, et c’est une information.
+**L’âge** est juste dessous ou à côté : `maintenant`, `1 h`, `2 j`. Il indique quand la mesure a été prise, pas quand l’écran s’est actualisé. Un chiffre qui n’a pas bougé depuis deux jours affiche `2 j`, et c’est une information en soi.
 
-**Le badge de source** est la petite marque à côté de l’ancienneté. Il vous dit d’où vient le chiffre : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un test en kit. Touchez n’importe quel widget pour voir la source détaillée avec son historique récent.
+**Le badge de source** est la petite marque à côté de l’âge. Il indique d’où vient le chiffre : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un test en kit. Touchez un widget pour voir la source en toutes lettres avec son historique récent.
 
-:::note Pourquoi l’ancienneté compte autant
-Une mesure d’alcalinité parfaite datant de quatre jours n’est pas une mesure d’alcalinité actuelle. L’ancienneté se trouve à côté de chaque valeur pour que vous puissiez faire la différence d’un coup d’œil.
+:::note Pourquoi l’âge compte autant
+Une mesure d’alcalinité parfaite vieille de quatre jours ne dit rien de l’alcalinité actuelle. L’âge est affiché à côté de chaque valeur pour que vous voyiez la différence d’un coup d’œil.
 :::
 
 ## Couleurs
 
-Cora utilise la couleur avec parcimonie, et toujours pour signifier la même chose :
+Cora utilise peu de couleurs, et chacune veut toujours dire la même chose.
 
 | Couleur | Signification |
 |---|---|
-| Vert | Confortablement dans la plage pour ce paramètre |
-| Orange | Proche d’un bord : **généralement toujours dans la plage**, dans le dernier dixième de celle-ci |
-| Rouge | Passé le bord, et qui vaut la peine d’agir |
-| Gris | Pas de verdict : pas de mesure récente, ou pas de plage utilisable pour juger |
+| Vert | Bien dans la plage de ce paramètre |
+| Orange | Près d’une limite. **En général encore dans la plage**, dans son dernier dixième |
+| Rouge | Au-delà de la limite. Il vaut la peine d’agir |
+| Gris | Pas d’avis : pas de mesure récente, ou pas de plage utilisable pour juger |
 
-:::note Orange signifie généralement « toujours bien, mais en train d’aller quelque part »
-Orange est une *marge*, pas une infraction. Une mesure dans sa plage mais dans les derniers 10 % de celle-ci passe à l’orange délibérément, pour que la dérive soit visible tant qu’il y a encore le temps d’agir plutôt qu’au moment où elle devient un problème.
+:::note L’orange veut souvent dire « encore bon, mais ça bouge »
+L’orange est une *marge*, pas un dépassement. Une mesure dans sa plage mais dans les derniers 10 % passe volontairement à l’orange. Vous voyez ainsi une dérive quand il est encore temps d’agir, avant qu’elle devienne un problème.
 
-Deux raffinements en découlent.
+Il y a deux nuances.
 
-**Une plage que vous réglez vous-même est traitée comme une limite déclarée.** La franchir fait passer le widget directement au rouge : pas de marge orange, parce que vous avez tracé cette ligne délibérément. Une plage **fournie par Cora** est une référence plus souple : la franchir affiche l’orange pour les premiers 10 % au-delà du bord, et passe au rouge après cela.
+Une plage que vous avez réglée vous-même compte comme une limite ferme. Si la mesure la franchit, le widget passe directement au rouge, sans marge orange, puisque c’est vous qui avez tracé cette limite. Une plage **fournie par Cora** est une référence plus souple. Au-delà de la limite, le widget reste orange sur les premiers 10 %, puis passe au rouge.
 
-**Une limite à sens unique** (un plafond de contaminant, ou un plancher de nutriment) est graduée sur son bord haut seulement, donc le cuivre à zéro se lit vert plutôt que d’être orangé pour être proche du bas de l’échelle.
+Une limite dans un seul sens (un plafond pour un contaminant, un plancher pour un nutriment) n’est jugée que sur son bord haut. Du cuivre à zéro s’affiche donc en vert. Il ne passe pas à l’orange parce qu’il est en bas de l’échelle.
 :::
 
-Un widget entouré en orange ou en rouge est un widget qui a besoin d’attention. Le contour est sur le widget, pas seulement sur le chiffre, il reste donc visible en faisant défiler.
+Un widget entouré d’orange ou de rouge demande votre attention. Le contour entoure tout le widget. Il reste donc visible quand vous faites défiler.
 
 ## Sous les widgets
 
 ![Le bas du tableau de bord](img/mobile-dashboard-foot.webp "Modifier le tableau de bord, Enregistrer les paramètres, et raccourcis vers les quatre zones d’enregistrement.")
 
-Au bas du tableau de bord :
+En bas du tableau de bord :
 
-- **Modifier le tableau de bord** : ouvre l’[éditeur de tableau de bord](/help/mobile-dashboard-editing)
-- **Enregistrer les paramètres** : saisissez des mesures de test en kit à la main
-- **Journal · Alertes · Entretien · Population** : raccourcis vers ces zones pour cet aquarium
+- **Modifier le tableau de bord** ouvre l’[éditeur de tableau de bord](/help/mobile-dashboard-editing)
+- **Enregistrer les paramètres** sert à saisir à la main les résultats de vos tests en kit
+- **Journal · Alertes · Entretien · Population** mènent à ces pages pour cet aquarium
 
-Une ligne au-dessus d’eux montre quand le tableau de bord s’est mis à jour pour la dernière fois et sur quelles sources il s’est appuyé.
+Juste au-dessus, une ligne indique la dernière mise à jour du tableau de bord et les sources utilisées.
 
-## Toucher pour approfondir
+## Toucher pour en savoir plus
 
-Touchez n’importe quel widget pour ouvrir son détail : l’historique complet en graphique, chaque source qui l’a rapporté, et les seuils actuellement appliqués. De là, vous pouvez enregistrer une nouvelle mesure à la main, changer la plage, ou regarder plus loin en arrière.
+Touchez un widget pour ouvrir son détail : l’historique complet en graphique, toutes les sources qui ont fourni ce paramètre et les seuils en vigueur. Depuis cet écran, vous pouvez saisir une nouvelle mesure, changer la plage ou remonter plus loin dans le temps.
 
-## Si un widget n’a aucune valeur
+## Si un widget reste vide
 
-Un widget affiche une valeur une fois qu’il en reçoit une. Quand il est vide, la raison est généralement l’une de celles-ci :
+Un widget affiche une valeur dès qu’il en reçoit une. S’il est vide, c’est en général pour l’une de ces raisons :
 
-- L’appareil est hors ligne ; vérifiez l’onglet **Appareils**
-- Le paramètre n’a pas encore de source ; enregistrez-le à la main, ou connectez un équipement qui le rapporte
-- Le paramètre n’a jamais été rapporté ou enregistré ; rien n’a encore été enregistré pour lui
+- l’appareil est hors ligne. Regardez l’onglet **Appareils**
+- le paramètre n’a pas encore de source. Saisissez-le à la main, ou connectez un équipement qui le mesure
+- rien n’a encore jamais été mesuré ni saisi pour ce paramètre
 
-Une mesure ancienne ne disparaît pas parce que la fenêtre du graphique est plus courte que son ancienneté. Elle reste sur le widget avec son ancienneté affichée, donc une valeur périmée se lit comme périmée plutôt que comme manquante.
+Une mesure ancienne ne disparaît pas quand elle est plus vieille que la période du graphique. Elle reste sur le widget avec son âge. Une valeur périmée apparaît donc comme périmée, et non comme absente.
 
-Voir **[Résolution de problèmes](/help/troubleshooting)** pour tout ce qui va au-delà.
+Pour les autres cas, consultez **[Résolution de problèmes](/help/troubleshooting)**.

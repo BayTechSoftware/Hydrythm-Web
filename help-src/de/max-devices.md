@@ -1,59 +1,59 @@
 ---
 title: Geräte und Gerätezustand
-description: Was Cora Max sehen kann, welches Gerät jedes Becken abfragt, und was zu prüfen ist, wenn die Abfrage stoppt.
+description: Was Cora Max sieht, welches Gerät die Werte eines Beckens abfragt und was du prüfst, wenn keine neuen Werte mehr kommen.
 section: Cora Max
 reviewed: 2026-09-27
 order: 7
 group: Equipment
 ---
 
-**Einstellungen → Geräte** listet die Ausrüstung, die Cora Max sehen kann, und meldet, wie es ihr geht.
+Unter **Einstellungen → Geräte** siehst du die Ausrüstung, die Cora Max erreicht, und wie es ihr geht.
 
 ## Die Geräteliste
 
-![Die Geräteliste](img/max-devices.webp "Nach Becken filtern, dann jedes Gerät mit einer einzeiligen Zusammenfassung dessen, was es enthält.")
+![Die Geräteliste](img/max-devices.webp "Nach Becken filtern, darunter jedes Gerät mit einer kurzen Zusammenfassung.")
 
 Cora Max sieht dieselbe Ausrüstung wie dein Handy, weil beide dasselbe Konto lesen.
 
-Filter-Chips oben grenzen die Liste auf **Alle Becken** oder ein Becken ein. Jeder Eintrag trägt einen Statuspunkt, eine einzeilige Zusammenfassung dessen, was das Gerät enthält (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*), und das Becken, zu dem es gehört.
+Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur ein Becken. Jeder Eintrag hat einen Statuspunkt, eine kurze Zusammenfassung (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*) und das Becken, zu dem das Gerät gehört.
 
-Ausrüstung hinzuzufügen und zu konfigurieren ist auf dem Handy einfacher; siehe [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices).
+Geräte hinzufügen und einrichten geht auf dem Handy leichter. Wie das geht, steht unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices).
 
 ## Primäres Cora Max: welches Tablet mit deiner Ausrüstung spricht
 
-**Primäres Cora Max** ist das Tablet (oder andere Cora-Gerät), das den Controller und andere Ausrüstung eines Beckens für das ganze Konto liest. Nur ein Gerät muss das pro Becken tun; jeder andere Bildschirm zeigt einfach, was es liest.
+Das **Primäre Cora Max** ist das Tablet (oder ein anderes Cora-Gerät), das für das ganze Konto den Controller und die übrige Ausrüstung eines Beckens liest. Pro Becken reicht dafür ein Gerät. Alle anderen Bildschirme zeigen nur an, was es liest.
 
-Öffne **Einstellungen → [dein Becken] → Primäres Cora Max**, um es zu sehen oder zu ändern. Es gibt zwei Arten von Wahl:
+Unter **Einstellungen → [dein Becken] → Primäres Cora Max** siehst und änderst du es. Du hast zwei Möglichkeiten:
 
-- **Jedes aktive (automatisch)**: Jedes Online-Cora-Gerät, das die Ausrüstung dieses Beckens erreichen kann, teilt sich die Arbeit, und der neueste Schreibvorgang gewinnt. Das ist die Einstellung, die du nutzen solltest, sofern du keinen bestimmten Grund hast, ein Gerät festzulegen.
-- **Ein Gerät festlegen**: Nur dieses Gerät fragt ab. Geht das festgelegte Gerät offline, fragt nichts die Ausrüstung dieses Beckens ab, bis du ein anderes festlegst, oder zurück auf Jedes aktive (automatisch) wechselst.
+- **Jedes aktive (automatisch)**: Alle Cora-Geräte, die online sind und die Ausrüstung dieses Beckens erreichen, teilen sich die Arbeit. Der neueste Schreibvorgang gewinnt. Nimm diese Einstellung, außer du hast einen bestimmten Grund, ein einzelnes Gerät festzulegen.
+- **Ein Gerät festlegen**: Nur dieses Gerät fragt ab. Geht es offline, fragt niemand mehr die Ausrüstung dieses Beckens ab, bis du ein anderes Gerät festlegst oder wieder auf **Jedes aktive (automatisch)** stellst.
 
-Diese Wahl wird einmal getroffen, für das Becken, nicht einmal pro Cora-Bildschirm. Ändere sie von jedem Cora Max aus, das dieses Becken zeigt, oder von Cora Mobile; siehe [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
+Du legst das einmal pro Becken fest und nicht für jeden Cora-Bildschirm einzeln. Ändern kannst du es an jedem Cora Max, das dieses Becken zeigt, oder in Cora Mobile. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-:::note Primäres Cora Max ist nicht dasselbe wie Cora Assistant
-Primäres Cora Max entscheidet, welches Gerät **deine Ausrüstung liest**. Eine getrennte Einstellung, **Cora Assistant**, entscheidet, welches Gerät **auf "Hey Cora" antwortet**. Ein Haushalt mit mehr als einem Cora Max kann diese beiden unabhängig festlegen. Siehe [Mit Cora sprechen](/help/max-voice).
+:::note Primäres Cora Max und Cora Assistant sind zwei verschiedene Dinge
+Das Primäre Cora Max bestimmt, welches Gerät **deine Ausrüstung liest**. Die eigene Einstellung **Cora Assistant** bestimmt, welches Gerät **auf „Hey Cora“ antwortet**. Hast du mehr als ein Cora Max, kannst du beides unabhängig voneinander festlegen. Mehr dazu unter [Mit Cora sprechen](/help/max-voice).
 :::
 
-## Wenn die Messwerte eines Beckens stoppen
+## Wenn bei einem Becken keine neuen Werte mehr kommen
 
-Wenn die Messwerte eines Beckens stoppen, während ein anderes Becken auf demselben Bildschirm weiter aktualisiert, beginne mit:
+Bleiben die Werte eines Beckens stehen, während ein anderes Becken auf demselben Bildschirm weiter aktualisiert wird, geh so vor:
 
-1. **Einstellungen → [dieses Becken] → Primäres Cora Max**: bestätige, dass tatsächlich ein Gerät zugewiesen ist, und dass es online ist.
-2. Wenn ein sekundäres Cora Max für dieses Becken die Pille **Haupt-Cora offline** in seiner oberen Leiste zeigt, hat das primäre seine Verbindung verloren; siehe [Der Cora Max Startbildschirm](/help/max-tour) für das, was die Status-Pille bedeutet.
-3. **Einstellungen → Cora Max-Einstellungen → Netzwerk & Updates → Geräteabfrage** zeigt, wie oft dieses Gerät selbst deine Geräte liest; dieser Wert ist hier nur zur Ansicht und wird von Cora Mobile aus festgelegt.
+1. Öffne **Einstellungen → [dieses Becken] → Primäres Cora Max** und prüf, ob wirklich ein Gerät zugewiesen und online ist.
+2. Zeigt ein zweites Cora Max für dieses Becken in der oberen Leiste den Chip **Haupt-Cora offline**, hat das primäre Gerät seine Verbindung verloren. Was der Status-Chip bedeutet, steht unter [Der Cora Max-Startbildschirm](/help/max-tour).
+3. Unter **Einstellungen → Cora Max-Einstellungen → Netzwerk & Updates → Geräteabfrage** siehst du, wie oft dieses Gerät selbst deine Geräte liest. Hier kannst du den Wert nur ansehen. Einstellen kannst du ihn in Cora Mobile.
 
-**Wenn es nicht funktioniert:** siehe [Problembehebung](/help/troubleshooting).
+Hilft das nicht weiter, schau in die [Problembehebung](/help/troubleshooting).
 
-## Ein Cora Max von deinem Handy aus verwalten
+## Ein Cora Max vom Handy aus verwalten
 
-Öffne das Gerät im Tab **Geräte** deines Handys, um seine Variante, Firmware-Version und den Zeitpunkt zu sehen, an dem es zuletzt gesehen wurde, und um es umzubenennen oder einige seiner Einstellungen zu ändern, ohne zu ihm zu gehen.
+Öffne das Gerät auf dem Handy im Tab **Geräte**. Dort siehst du Variante, Firmware-Version und wann es zuletzt online war. Du kannst es umbenennen oder einige Einstellungen ändern, ohne hinzugehen.
 
-![Cora Max-Einstellungen vom Handy aus](img/max-from-phone.webp "Abfrageintervall, Helligkeit, Lautstärke, Warnungen auf dem Bildschirm und Dimmer-Timer.")
+![Cora Max-Einstellungen vom Handy aus](img/max-from-phone.webp "Abfrageintervall, Helligkeit, Lautstärke, Warnungen auf dem Bildschirm und Dimm-Timer.")
 
-So angezeigte Einstellungen beschreiben **nur diesen Bildschirm** (seine Helligkeit, Lautstärke, Warnbanner auf dem Bildschirm und Dimmer-Timer), genauso, wie sie es täten, wenn du sie an der Wand geändert hättest. Warnungen auf dem Bildschirm auszuschalten hat keinen Einfluss auf die Warnhistorie oder Push-Benachrichtigungen.
+Diese Einstellungen gelten **nur für diesen einen Bildschirm** (Helligkeit, Lautstärke, Warnbanner auf dem Bildschirm und Dimm-Timer), genau als hättest du sie an der Wand geändert. Schaltest du die Warnungen auf dem Bildschirm aus, ändert das nichts am Warnungsverlauf oder an den Push-Benachrichtigungen.
 
-Welche Becken ein Cora Max zeigt, und welches sein Primäres Cora Max für jedes Becken ist, sind kontoweite Entscheidungen; ändere sie von jedem der beiden Geräte aus, wie oben beschrieben.
+Welche Becken ein Cora Max zeigt und welches Gerät für jedes Becken das Primäre Cora Max ist, gilt dagegen für das ganze Konto. Das änderst du wie oben beschrieben auf einem der beiden Geräte.
 
-:::note Gerätezustand ist zuerst zum Lesen da
-Der Abschnitt **Status** von **Einstellungen → Cora Max-Einstellungen** auf diesem Bildschirm meldet den Abfragestatus, die letzte Abfragezeit und den letzten Cloud-Schreibvorgang für jedes Becken, ohne irgendetwas zu ändern. Nutze ihn, um festzustellen, was passiert, bevor du eine Einstellung änderst.
+:::note Den Gerätezustand erst mal nur ansehen
+Der Abschnitt **Status** unter **Einstellungen → Cora Max-Einstellungen** zeigt dir auf diesem Bildschirm für jedes Becken den Abfragestatus, die letzte Abfrage und den letzten Schreibvorgang in die Cloud. Dabei ändert sich nichts. Schau hier zuerst nach, was los ist, bevor du eine Einstellung änderst.
 :::

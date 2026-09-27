@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dosificación | Cora Help</title>
-  <meta name="description" content="Dile a Cora qué dosificas para que pueda convertir mililitros en un cambio real en tu acuario.">
+  <meta name="description" content="Dile a Cora qué dosificas y podrá convertir mililitros en un cambio real en tu acuario.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-dosing">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-dosing">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-dosing">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Dosificación | Cora Help">
-  <meta property="og:description" content="Dile a Cora qué dosificas para que pueda convertir mililitros en un cambio real en tu acuario.">
+  <meta property="og:description" content="Dile a Cora qué dosificas y podrá convertir mililitros en un cambio real en tu acuario.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-dosing">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,29 +168,29 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Dosificación</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#la-biblioteca-de-productos">La biblioteca de productos</a></li><li><a href="#aadir-el-tuyo">Añadir el tuyo</a></li><li><a href="#la-calculadora-de-dosis">La calculadora de dosis</a></li><li><a href="#consumo">Consumo</a></li><li><a href="#equipo-de-dosificacin">Equipo de dosificación</a></li></ul></nav>
-<p>Cora solo puede hacer los cálculos de dosificación si sabe la concentración de tus productos. Configúralo una vez y todo lo que depende de ello (la calculadora, el seguimiento del consumo, y lo que Cora te dice sobre tu dosificación) se convierte en números reales en lugar de suposiciones.</p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#la-biblioteca-de-productos">La biblioteca de productos</a></li><li><a href="#aadir-tu-propio-producto">Añadir tu propio producto</a></li><li><a href="#la-calculadora-de-dosis">La calculadora de dosis</a></li><li><a href="#consumo">Consumo</a></li><li><a href="#equipos-de-dosificacin">Equipos de dosificación</a></li></ul></nav>
+<p>Para calcular dosis, Cora necesita saber la concentración de tus productos. Configúralo una vez. A partir de ahí, la calculadora, el seguimiento del consumo y lo que Cora te dice sobre tu dosificación trabajan con números reales, no con suposiciones.</p>
 <p><strong>Ajustes → Productos de dosificación.</strong></p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Productos de dosificación"><img src="/help/img/mobile-dosing.webp" alt="Productos de dosificación" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Los productos llevan la concentración que usa Cora para los cálculos de dosis y consumo.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Productos de dosificación"><img src="/help/img/mobile-dosing.webp" alt="Productos de dosificación" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Cada producto lleva la concentración que usa Cora para calcular dosis y consumo.</figcaption></figure>
 <h2 id="la-biblioteca-de-productos">La biblioteca de productos</h2>
-<p>Cora viene con una biblioteca de productos comunes. Busca el tuyo y añádelo; la concentración viene incluida.</p>
-<p>Cada producto registra cuánto sube un parámetro por mililitro (o por gramo, para productos secos) en un volumen fijo de agua. Ese es el número que convierte "5 ml" en "+0,2 dKH en tu acuario".</p>
-<p>Los productos pueden llevar valores de alcalinidad, calcio, magnesio, nitrato o fosfato; un producto de dos partes lleva uno de cada, un producto equilibrado varios.</p>
-<h2 id="aadir-el-tuyo">Añadir el tuyo</h2>
-<p>Si tu producto no está en la biblioteca, añádelo como uno personalizado e introduce su concentración. La etiqueta del fabricante casi siempre lo indica: "1 ml por 100 litros sube la alcalinidad 0,1 dKH", o similar.</p>
-<aside class="cal cal-warning"><p class="cal-t">Introduce la concentración indicada por el fabricante</p><p>Una concentración incorrecta hace que todos los cálculos de dosis de ese producto queden mal en la misma proporción. Si no tienes el dato, deja fuera el producto en lugar de estimarlo.</p></aside>
-<p>La <strong>mezcla de sal</strong> de tu acuario es algo distinto de un producto de dosificación: se fija en el perfil del acuario, no aquí, y Cora mantiene un catálogo verificado de sales de arrecife comunes con sus valores publicados para elegir. Consulta <strong><a href="/es/help/mobile-tank-profile">Perfil del acuario</a></strong>.</p>
+<p>Cora trae una biblioteca de productos habituales. Busca el tuyo y añádelo. La concentración ya viene incluida.</p>
+<p>Cada producto guarda cuánto sube un parámetro por mililitro (o por gramo, en productos secos) en un volumen fijo de agua. Con ese número, "5 ml" se convierte en "+0,2 dKH en tu acuario".</p>
+<p>Un producto puede tener valores de alcalinidad, calcio, magnesio, nitrato o fosfato. Un producto de dos partes tiene uno en cada parte. Un producto equilibrado tiene varios.</p>
+<h2 id="aadir-tu-propio-producto">Añadir tu propio producto</h2>
+<p>Si tu producto no está en la biblioteca, añádelo como personalizado y escribe su concentración. Casi siempre viene en la etiqueta del fabricante, con algo como "1 ml por 100 litros sube la alcalinidad 0,1 dKH".</p>
+<aside class="cal cal-warning"><p class="cal-t">Usa la concentración que indica el fabricante</p><p>Si la concentración está mal, todos los cálculos de dosis de ese producto salen mal en la misma proporción. Si no tienes el dato, no añadas el producto. No lo calcules a ojo.</p></aside>
+<p>La <strong>sal</strong> de tu acuario no es un producto de dosificación. Se indica en el perfil del acuario, no aquí. Cora tiene un catálogo verificado de sales de arrecife habituales con sus valores publicados para que elijas la tuya. Más información en <strong><a href="/es/help/mobile-tank-profile">Perfil del acuario</a></strong>.</p>
 <h2 id="la-calculadora-de-dosis">La calculadora de dosis</h2>
-<p>Con los productos configurados, Cora puede calcular una corrección usando el volumen real de tu acuario a partir de su perfil.</p>
-<p>Calcula <strong>subidas</strong>: alcalinidad, calcio, magnesio, y nitrato o fosfato cuando los estás subiendo.</p>
-<p>Para <strong>bajadas</strong> da orientación en lugar de una dosis; no se puede dosificar un parámetro hacia abajo, y la respuesta es un cambio de agua, un cambio de medio filtrante o un cambio en lo que ya estás dosificando.</p>
-<aside class="cal cal-warning"><p class="cal-t">Las correcciones grandes se reparten, no se dosifican de una vez</p><p>Cora limita cuánto se puede mover un parámetro en un día y reparte una corrección mayor en varios días. Una sola dosis grande es como se sobresalta un acuario; la calculadora no va a proponer una.</p></aside>
-<p>El volumen que introdujiste al configurar importa aquí. Un volumen indicado con un 20% de error da cifras de dosis con un 20% de error.</p>
+<p>Con los productos configurados, Cora calcula una corrección con el volumen real que figura en el perfil de tu acuario.</p>
+<p>Calcula <strong>subidas</strong> de alcalinidad, calcio y magnesio, y de nitrato o fosfato cuando quieres subirlos.</p>
+<p>Para <strong>bajadas</strong>, Cora te orienta pero no te da una dosis. Ningún parámetro baja dosificando. La solución es un cambio de agua, cambiar el material filtrante o cambiar lo que ya dosificas.</p>
+<aside class="cal cal-warning"><p class="cal-t">Las correcciones grandes se reparten en varios días</p><p>Cora limita cuánto puede cambiar un parámetro en un día. Si la corrección es mayor, la reparte en varios días. Una dosis grande de golpe puede causar un choque en el acuario, y la calculadora nunca la propondrá.</p></aside>
+<p>Aquí importa el volumen que indicaste al configurar el acuario. Si se desvía un 20%, las dosis también se desvían un 20%.</p>
 <h2 id="consumo">Consumo</h2>
-<p>Una vez que Cora puede ver tanto tus dosis como tus lecturas, puede calcular qué está consumiendo realmente tu acuario, y avisarte cuando eso cambia.</p>
-<p>Un cambio en la demanda es una señal para mirar, no un diagnóstico. Una demanda de alcalinidad en aumento suele reflejar crecimiento; un cambio brusco en cualquier dirección puede venir igual de una dosis que no se está entregando, un error de medición, precipitación, un cambio de agua o un cambio en el equipo. Revisa qué cambió alrededor de esa fecha antes de sacar una conclusión.</p>
-<h2 id="equipo-de-dosificacin">Equipo de dosificación</h2>
-<p>Si tienes una unidad de dosificación conectada, sus cabezales aparecen como dispositivos con sus propias lecturas: cuánto le queda a cada cabezal, y qué ha estado dosificando. Consulta <strong><a href="/es/help/mobile-connections">Conectar tu equipo</a></strong>.</p>
+<p>Cuando Cora ve tus dosis y tus lecturas, puede calcular cuánto consume de verdad tu acuario y avisarte cuando eso cambia.</p>
+<p>Un cambio en el consumo es una señal para revisar, no un diagnóstico. Si la alcalinidad se consume cada vez más, suele ser por crecimiento. Un cambio brusco, hacia arriba o hacia abajo, también puede deberse a una dosis que no llega, un error al medir, precipitación, un cambio de agua o un cambio en el equipo. Antes de sacar conclusiones, revisa qué cambió por esas fechas.</p>
+<h2 id="equipos-de-dosificacin">Equipos de dosificación</h2>
+<p>Si tienes una bomba dosificadora conectada, sus cabezales aparecen como dispositivos con sus propias lecturas. Verás cuánto le queda a cada cabezal y qué ha dosificado. Más información en <strong><a href="/es/help/mobile-connections">Conectar tus equipos</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-automation"><span>Anterior</span><b>Automatizaciones y escenas</b></a><a class="pn-n" href="/es/help/mobile-maintenance"><span>Siguiente</span><b>Mantenimiento</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-27.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

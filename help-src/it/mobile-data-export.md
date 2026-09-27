@@ -1,13 +1,13 @@
 ---
 title: I tuoi dati
-description: Esporta le tue letture, il diario e gli avvisi come foglio di calcolo, e come eliminare il tuo account.
+description: Esporta letture, diario e avvisi in un foglio di calcolo, ed elimina l'account se vuoi.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 30
 group: Account
 ---
 
-I registri della tua vasca sono tuoi, e puoi estrarli in qualsiasi momento.
+I dati della tua vasca sono tuoi e puoi scaricarli quando vuoi.
 
 ![Controlli dei dati dell'account](img/mobile-data.webp "Esportazione ed eliminazione stanno insieme in fondo ad Account e Abbonamento.")
 
@@ -15,57 +15,57 @@ I registri della tua vasca sono tuoi, e puoi estrarli in qualsiasi momento.
 
 **Impostazioni → il tuo account → Esporta i miei dati.**
 
-L'esportazione è **gratuita su ogni piano**, incluso quello gratuito.
+L'esportazione è **gratuita con tutti i piani**, anche con quello gratuito.
 
-Cora esporta come **file CSV**, fogli di calcolo che si aprono in Excel, Numbers, Google Sheets, o qualsiasi cosa legga una tabella:
+Cora esporta **file CSV**, cioè fogli di calcolo che si aprono con Excel, Numbers, Google Sheets o qualsiasi programma che legge tabelle:
 
-| File | Contiene |
+| File | Contenuto |
 |---|---|
-| `cora_parameters.csv` | Le tue letture, ciascuna con la sua fonte e il suo orario |
-| `cora_journal.csv` | Le tue voci di diario |
-| `cora_alerts.csv` | Gli avvisi generati |
-| `cora_export_summary.csv` | Cosa copre questa esportazione, incluso qualsiasi cosa sia stata troncata |
+| `cora_parameters.csv` | Le tue letture, ciascuna con fonte e orario |
+| `cora_journal.csv` | Le voci del diario |
+| `cora_alerts.csv` | Gli avvisi scattati |
+| `cora_export_summary.csv` | Cosa comprende l'esportazione, compreso quello che è stato tagliato |
 
-:::note Cosa è l'esportazione, e cosa non è
-Copre **letture, voci di diario e avvisi**, i tre registri che le persone richiedono. Non è una copia di tutto ciò che c'è nel tuo account: dashboard, popolazione, manutenzione, automazioni, rapporti e impostazioni dei dispositivi non sono incluse.
+:::note Cosa c'è nell'esportazione e cosa no
+Comprende **letture, voci di diario e avvisi**, i tre archivi che ci chiedono più spesso. Non è una copia di tutto l'account: dashboard, popolazione, manutenzione, automazioni, rapporti e impostazioni dei dispositivi restano fuori.
 
-Ognuno dei tre è limitato a **25.000 righe per vasca**. Una vasca che registra trenta metriche ogni cinque minuti scrive più di quello in tre giorni, quindi una vasca che funziona da tempo verrà tagliata al limite. Il file di riepilogo lo dice chiaramente quando è successo; controllalo invece di supporre che il file sia completo.
+Ognuno dei tre ha un limite di **25.000 righe per vasca**. Una vasca che registra trenta parametri ogni cinque minuti supera questo numero in tre giorni, quindi per una vasca attiva da tempo l'esportazione si ferma al limite. Quando succede, il file di riepilogo lo dice chiaramente. Controllalo prima di dare per scontato che il file sia completo.
 :::
 
-L'esportazione dei parametri porta la **fonte** di ogni lettura, non solo il valore, così un foglio di calcolo della tua alcalinità mantiene la distinzione tra cosa ha detto la tua sonda e cosa ha detto il tuo kit di test.
+Nell'esportazione dei parametri c'è anche la **fonte** di ogni lettura. In un foglio con la tua alcalinità vedi quindi cosa ha misurato la sonda e cosa il test.
 
-:::note Esporta prima di cambiamenti importanti
-Fai un'esportazione prima di smantellare una vasca o fare cambiamenti significativi alla tua configurazione. I file esportati sono indipendenti da Cora Mobile e dal tuo account.
+:::note Esporta prima dei grandi cambiamenti
+Fai un'esportazione prima di smontare una vasca o di cambiare molto l'impianto. I file esportati sono tuoi e non dipendono da Cora Mobile né dall'account.
 :::
 
-## Uscire rispetto a eliminare
+## Uscire o eliminare
 
-**Esci** disconnette questo dispositivo dal tuo account. I tuoi dati restano intatti e accedere di nuovo ripristina tutto.
+**Esci** scollega questo dispositivo dal tuo account. I dati restano come sono e, quando accedi di nuovo, ritrovi tutto.
 
-**Elimina account** è permanente.
+**Elimina account** è definitivo.
 
-## Eliminare il tuo account
+## Eliminare l'account
 
 **Impostazioni → il tuo account → Elimina account.**
 
-Questo è permanente. Rimuove il tuo account, le tue vasche, le tue letture, il tuo diario, i tuoi risultati di laboratorio e i collegamenti ai tuoi dispositivi. Non può essere annullato e non c'è periodo di grazia.
+L'eliminazione è definitiva. Cancella l'account, le vasche, le letture, il diario, i risultati di laboratorio e i collegamenti ai dispositivi. Non si può annullare e non c'è un periodo di ripensamento.
 
-Esporta prima se vuoi conservare qualcosa.
+Se vuoi tenere qualcosa, esporta prima.
 
-:::warning Non annulla il tuo abbonamento
-Un abbonamento App Store o Google Play appartiene allo **store**, non a Cora. Eliminare il tuo account rimuove il tuo registro qui e **nulla ferma la fatturazione**; gli addebiti continuano finché non annulli tu stesso con Apple o Google. Annulla lì prima, poi elimina.
+:::warning L'abbonamento non viene annullato
+Un abbonamento App Store o Google Play appartiene allo **store**, non a Cora. Se elimini l'account cancelli i tuoi dati qui, ma **gli addebiti continuano** finché non annulli tu l'abbonamento con Apple o Google. Annulla prima lì, poi elimina l'account.
 :::
 
-## Contribuire con dati anonimizzati
+## Contribuire con dati anonimi
 
 **Impostazioni → Cora Assistant → Contribuisci con dati anonimi della vasca.**
 
-Mentre questo è attivo, lo storico dei parametri della tua vasca viene conservato per la ricerca sui reef **senza nessun collegamento a te** anche se in seguito elimini il tuo account. Disattivalo e quello storico viene eliminato insieme a tutto il resto.
+Finché questa opzione è attiva, lo storico dei parametri della vasca viene conservato per la ricerca sui reef **senza alcun legame con te**, anche se poi elimini l'account. Se la spegni, anche quello storico viene cancellato insieme al resto.
 
-È una decisione separata dall'eliminazione dell'account, ed è la sola parte dei tuoi dati che sopravvive all'account, quindi vale la pena farla deliberatamente. Nota che è **attivo per impostazione predefinita**; un'eliminazione fatta senza visitare questo interruttore lascia indietro la copia de-identificata.
+È una scelta diversa dall'eliminazione dell'account ed è l'unica parte dei tuoi dati che resta dopo. Vale la pena deciderla con attenzione. Tieni presente che l'opzione è **attiva di default**: se elimini l'account senza passare da questo interruttore, la copia anonima resta.
 
-## Cosa memorizza Cora
+## Cosa conserva Cora
 
-Il dettaglio completo è nella [politica sulla privacy](/privacy-policy.html) (in inglese). In breve: i dati della tua vasca, il tuo account, e gli accessi per qualsiasi equipaggiamento che hai collegato tramite un account del produttore.
+Tutti i dettagli sono nella [politica sulla privacy](/privacy-policy.html) (in inglese). In breve Cora conserva i dati della vasca, il tuo account e gli accessi dell'attrezzatura che hai collegato con un account del produttore.
 
-Rimuovere un dispositivo dimentica quell'accesso. Eliminare il tuo account rimuove tutto ciò che è conservato a tuo nome, con le due eccezioni sopra: la copia anonimizzata per la ricerca, se hai lasciato attivo quell'interruttore, e il tuo abbonamento sullo store, che solo lo store può annullare.
+Quando rimuovi un dispositivo, Cora dimentica quell'accesso. Quando elimini l'account, Cora cancella tutto quello che ha a tuo nome, con le due eccezioni viste sopra: la copia anonima per la ricerca, se hai lasciato attivo l'interruttore, e l'abbonamento sullo store, che solo lo store può annullare.

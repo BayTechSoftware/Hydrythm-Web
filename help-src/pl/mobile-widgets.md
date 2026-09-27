@@ -1,111 +1,111 @@
 ---
-title: Opis widżetów
-description: Każdy typ widżetu w Corze (wartość, wskaźnik, wykres, stan, gniazdo i kafelki urządzeń) i kiedy go używać.
+title: Rodzaje widżetów
+description: Wszystkie typy widżetów w Corze (wartość, wskaźnik, wykres, stan, gniazdo i kafelki urządzeń) i kiedy których używać.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 7
 group: Your dashboard
 ---
 
-Widżet to jedna kafelka na Twoim pulpicie, pokazująca jedną rzecz. Ta strona opisuje każdy typ i co można skonfigurować.
+Widżet to jeden kafelek na pulpicie, który pokazuje jedną rzecz. Tutaj opisujemy każdy typ i jego ustawienia.
 
-Dodawaj je i rozmieszczaj w **[edytorze pulpitu](/help/mobile-dashboard-editing)**; dotknij tam widżetu, aby otworzyć jego ustawienia.
+Widżety dodajesz i układasz w **[edytorze pulpitu](/help/mobile-dashboard-editing)**. Tam też dotknięcie widżetu otwiera jego ustawienia.
 
-![Konfigurowanie widżetu](img/mobile-widget-config.webp "Typ, parametr, a potem szerokość i wysokość.")
+![Ustawienia widżetu](img/mobile-widget-config.webp "Typ, parametr, a potem szerokość i wysokość.")
 
 ## Dziewięć typów
 
-| Typ | Pokazuje |
+| Typ | Co pokazuje |
 |---|---|
-| **Wartość** | Aktualny odczyt, jego jednostkę, wiek i źródło |
-| **Wskaźnik** | Łuk z zaznaczonym Twoim zakresem i gałką na wartości |
-| **Wykres** | Trend w wybranym przez Ciebie oknie czasowym |
-| **Stan** | Stan jako tekst: działa, bezczynny, zamknięty |
-| **Gniazdo** | Trójstanowa kontrolka: Auto, Off, On |
-| **ReefBeat** | Jedno urządzenie Red Sea, z własnym podsumowaniem |
-| **Moduł Apex** | Jeden zamontowany moduł Apex, na przykład Trident lub DŌS |
-| **Jecod** | Jedna pompa Jecod, z jej trybem i intensywnością |
-| **Maxspect** *(beta)* | Jeden gyre, z obydwoma silnikami |
+| **Wartość** | Bieżący odczyt z jednostką, wiekiem i źródłem |
+| **Wskaźnik** | Łuk z zaznaczonym Twoim zakresem i znacznikiem na bieżącej wartości |
+| **Wykres** | Trend w wybranym okresie |
+| **Stan** | Stan opisany słowem: pracuje, bezczynny, zamknięty |
+| **Gniazdo** | Przełącznik z trzema pozycjami: AUTO, WYŁ., WŁ. |
+| **ReefBeat** | Jedno urządzenie Red Sea z jego własnym podsumowaniem |
+| **Moduł Apex** | Jeden zamontowany moduł Apex, np. Trident albo DŌS |
+| **Jecod** | Jedna pompa Jecod z trybem i intensywnością |
+| **Maxspect** *(beta)* | Jeden gyre z oboma silnikami |
 
-Ostatnie cztery to kafelki **urządzeń**: są przypisane do konkretnego sprzętu, a nie do parametru, i każdy pokazuje to, co dane urządzenie zgłasza.
+Ostatnie cztery to kafelki **urządzeń**. Są powiązane z konkretnym sprzętem, a nie z parametrem, i pokazują to, co zgłasza dane urządzenie.
 
 ## Rozmiar
 
-**Szerokość** i **Wysokość** mają zawsze wartość **1×** albo **2×**. Wykres nigdy nie ma jednej komórki szerokości.
+**Szerokość** i **Wysokość** mają wartość **1×** albo **2×**. Wykres nigdy nie ma szerokości jednej komórki.
 
-## Value
+## Wartość
 
-Zwykła liczba. Aktualny odczyt, jego jednostka, jak stary jest i skąd pochodzi.
+Sama liczba: bieżący odczyt, jednostka, wiek odczytu i jego źródło.
 
-Użyj go dla parametrów, które sprawdzasz liczbowo, a nie przez trend: wapń, magnez, azotany.
+Pasuje do parametrów, które sprawdzasz po liczbie, a nie po trendzie, np. wapnia, magnezu, azotanów.
 
-**Ustawienia:** etykieta, źródło, rozmiar.
+Ustawienia: etykieta, źródło, rozmiar.
 
-## Gauge
+## Wskaźnik
 
-Łuk z zaznaczonym Twoim docelowym zakresem i gałką na aktualnej wartości. Kolor gałki mówi, gdzie jesteś: w paśmie, dryfujesz albo jesteś poza nim.
+Łuk z zaznaczonym zakresem docelowym i znacznikiem na bieżącej wartości. Kolor znacznika pokazuje, gdzie jesteś: w zakresie, blisko granicy albo poza nim.
 
-Użyj go dla parametrów, które aktywnie zarządzasz: alkaliczność, pH, zasolenie, temperatura.
+Pasuje do parametrów, którymi aktywnie zarządzasz, np. alkaliczności, pH, zasolenia, temperatury.
 
-**Ustawienia:** etykieta, źródło, zakres (dziedziczony z celów Twojego akwarium, jeśli nie zostanie tutaj nadpisany), rozmiar.
+Ustawienia: etykieta, źródło, zakres (brany z wartości docelowych akwarium, chyba że zmienisz go tutaj), rozmiar.
 
-:::note Ustaw wskaźniki na dwie kolumny lub więcej
-Przy jednej kolumnie łuk jest zbyt mały, by odczytać go na pierwszy rzut oka; użyj widżetu **value** zamiast tego, jeśli miejsca jest mało.
+:::note Wskaźnik najlepiej wygląda na dwóch kolumnach
+Na jednej kolumnie łuk jest za mały, żeby odczytać go jednym spojrzeniem. Jeśli brakuje miejsca, użyj widżetu **Wartość**.
 :::
 
-## Graph
+## Wykres
 
-Mikrowykres w wybranym przez Ciebie oknie czasowym, z zaznaczonym maksimum i minimum oraz podaną aktualną wartością.
+Mały wykres liniowy dla wybranego okresu, z zaznaczonym maksimum i minimum oraz podaną bieżącą wartością.
 
-Dla parametru, który testujesz (Tridentem lub testem kroplowym), linia łączy Twoje faktyczne testy. Jeśli okno zawiera tylko jeden test, linia dochodzi z testu przed nim, a maksimum i minimum nie są zaznaczone. Bez żadnego testu w oknie, albo bez wcześniejszego testu, do którego można połączyć jeden test, kafelek pokazuje **Zbieranie…** zamiast linii.
+Dla parametru, który testujesz (Tridentem albo testem kropelkowym), linia łączy Twoje rzeczywiste testy. Jeśli w okresie jest tylko jeden test, linia biegnie od testu sprzed tego okresu, a maksimum i minimum nie są zaznaczone. Jeśli w okresie nie ma żadnego testu albo pojedynczego testu nie ma z czym połączyć, kafelek pokazuje **Zbieranie…** w miejscu linii.
 
-Użyj go dla wszystkiego, co się zmienia: pH w ciągu dnia, temperatura podczas upału, alkaliczność między dawkami.
+Pasuje do wszystkiego, co się zmienia: pH w ciągu dnia, temperatury w czasie upałów, alkaliczności między dawkami.
 
-**Ustawienia:** etykieta, źródło, **okno czasowe** (1 godzina, 6 godzin, 24 godziny, 7 dni, 30 dni, 1 rok), rozmiar.
+Ustawienia: etykieta, źródło, **okno czasowe** (1 godzina, 6 godzin, 24 godziny, 7 dni, 30 dni, 1 rok), rozmiar.
 
-Trend ma zawsze **co najmniej dwie komórki szerokości**; mikrowykres wciśnięty w jedną komórkę nic nie mówi, więc edytor nie pozwoli takiego stworzyć.
+Wykres ma zawsze **co najmniej dwie komórki szerokości**. Wykres ściśnięty w jedną komórkę nic nie mówi, więc edytor na to nie pozwala.
 
-:::note Wybierz okno odpowiadające rytmowi
-pH zmienia się w cyklu dobowym, więc 24 godziny pokazują jego kształt. Alkaliczność zmienia się w ciągu dni, więc 7 lub 30 mówi więcej niż 24 kiedykolwiek pokaże.
+:::note Dopasuj okres do rytmu parametru
+pH zmienia się w cyklu dobowym, więc 24 godziny pokazują jego przebieg. Alkaliczność zmienia się w ciągu dni, więc 7 albo 30 dni powie więcej niż 24 godziny.
 :::
 
-## Status
+## Stan
 
-Tekst, a nie liczba, dla rzeczy będących stanem. Działa, bezczynny, otwarty, zamknięty, karmienie.
+Słowo, a nie liczba. Dla rzeczy, które mają stan: pracuje, bezczynny, otwarty, zamknięty, karmienie.
 
-**Ustawienia:** etykieta, źródło, rozmiar.
+Ustawienia: etykieta, źródło, rozmiar.
 
-## Outlet
+## Gniazdo
 
-Trójstanowy przełącznik dla gniazda: **Auto**, **Wyłączone**, **On**.
+Przełącznik gniazda z trzema pozycjami: **AUTO**, **WYŁ.** i **WŁ.**
 
-- **Auto** przekazuje gniazdo z powrotem temu, co normalnie nim zarządza: harmonogramowi, regule albo kontrolerowi, do którego należy.
-- **Wyłączone** i **On** to ręczne nadpisania, które trwają, aż je zmienisz z powrotem.
+- **AUTO** oddaje gniazdo temu, co nim zwykle steruje: harmonogramowi, regule albo kontrolerowi, do którego należy.
+- **WYŁ.** i **WŁ.** to ręczne ustawienia, które obowiązują, dopóki ich nie zmienisz.
 
-**Ustawienia:** etykieta, które gniazdo, rozmiar.
+Ustawienia: etykieta, wybór gniazda, rozmiar.
 
-:::warning Ręczne nadpisanie nie wygasa samo
-Off znaczy wyłączone, aż ustawisz z powrotem na Auto. Jeśli wyłączysz pompę powrotną, aby popracować w akwarium, ustaw ją z powrotem na Auto, gdy skończysz; Cora nie zrobi tego za Ciebie.
+:::warning Ręczne ustawienie nie wygasa samo
+WYŁ. oznacza wyłączone, dopóki nie przestawisz gniazda z powrotem na AUTO. Jeśli wyłączasz pompę powrotną na czas pracy w akwarium, po skończeniu ustaw ją z powrotem na AUTO. Cora nie zrobi tego za Ciebie.
 :::
 
 ## ReefBeat
 
-Jedna kafelka dla całego urządzenia, pokazująca jego własne podsumowanie, a nie jeden parametr: stan i zbiornik ATO, głowice jednostki dozującej, liczbę pozostałych dni maty.
+Jeden kafelek dla całego urządzenia. Pokazuje jego własne podsumowanie, a nie pojedynczy parametr: stan ATO i zbiornika, głowice pompy dozującej albo liczbę dni, na które wystarczy rolki maty.
 
-Które urządzenia oferują kafelkę, zależy od tego, co masz podłączone. Zobacz **[Podłączanie sprzętu](/help/mobile-connections)**.
+To, które urządzenia mają swój kafelek, zależy od podłączonego sprzętu. Więcej w **[Podłączaniu sprzętu](/help/mobile-connections)**.
 
-**Ustawienia:** etykieta, które urządzenie, rozmiar.
+Ustawienia: etykieta, wybór urządzenia, rozmiar.
 
 ## Co pokazuje widżet parametru
 
-W widżecie opartym na zmierzonym parametrze (Value, Gauge, Graph i Status) obecne są zawsze te trzy rzeczy. Kafelki gniazd i urządzeń pokazują za to własny stan, bo nie stoi za nimi jeden konkretny odczyt:
+Widżet oparty na zmierzonym parametrze (Wartość, Wskaźnik, Wykres i Stan) zawsze pokazuje trzy rzeczy. Kafelki gniazd i urządzeń pokazują swój stan, bo nie stoi za nimi pojedynczy odczyt.
 
-- **Wartość**, duża
-- **Wiek** (`now`, `1h`, `2d`): jak stary jest odczyt, nie jak niedawno odświeżył się ekran
-- **Źródło**: mały znaczek mówiący, skąd pochodzi liczba
+- **Wartość**, dużymi cyframi
+- **Wiek** (`teraz`, `1g`, `2d`): jak stary jest odczyt, a nie kiedy odświeżył się ekran
+- **Źródło**: mały znaczek, który mówi, skąd pochodzi liczba
 
-Dotknij dowolnego widżetu, aby otworzyć jego pełną historię, każde źródło, które go zgłasza, i obowiązujące progi.
+Dotknij widżetu, żeby zobaczyć pełną historię, wszystkie źródła tego parametru i obowiązujące progi.
 
 ## Rozmiary
 
-Widżety mają jedną lub dwie komórki szerokości i jedną lub dwie komórki wysokości, z wyjątkiem **trendu**, który ma zawsze co najmniej dwie szerokości. Na trzykolumnowym pulpicie wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu, co zwykle jest właściwym kształtem dla Twojego najważniejszego parametru.
+Widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wyjątkiem jest **wykres**, który ma zawsze co najmniej dwie komórki szerokości. Na pulpicie z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. Zwykle to dobry kształt dla najważniejszego parametru.

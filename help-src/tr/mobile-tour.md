@@ -1,56 +1,56 @@
 ---
 title: Beş sekme
-description: Cora Mobile turu: Pano, Cihazlar, Assistant, Intelligence ve Ayarlar, ve her birinde ne bulunduğu.
+description: Cora Mobile'da gezinti. Panel, Cihazlar, Asistan, Zeka ve Ayarlar sekmelerinde neler olduğunu görün.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 4
 group: Getting started
 ---
 
-Cora Mobile'ın altında beş sekme vardır. Yaptığınız neredeyse her şey bunlardan birinde bulunur.
+Cora Mobile'ın alt kısmında beş sekme var. Yapacağınız işlerin neredeyse hepsi bu sekmelerden birinde.
 
-![Cora Mobile'ın beş sekmesi](img/mobile-tabs.webp "Pano, Cihazlar, Assistant, Intelligence, Ayarlar.")
+![Cora Mobile'ın beş sekmesi](img/mobile-tabs.webp "Panel, Cihazlar, Asistan, Zeka, Ayarlar.")
 
-## Pano
+## Panel
 
-Seçili akvaryum için canlı okumalar. Bu, Cora Mobile'ın ana ekranıdır.
+Seçili akvaryumun canlı ölçümleri burada. Cora Mobile'ın ana ekranı budur.
 
-Birden fazla akvaryumunuz varsa, aralarında geçmek için sola ve sağa kaydırın; başlığın altındaki noktalar nerede olduğunuzu gösterir. Akvaryum başlığı, akvaryum adını ve bir eylem satırını taşır: besleme modu, Reef Buddy briefingi, paylaşma ve akvaryum profilini açan bir kalem. Panoyu düzenlemek ayrı bir kontroldür, sayfanın altındaki **Gösterge panelini düzenle**.
+Birden fazla akvaryumunuz varsa aralarında geçmek için sağa ya da sola kaydırın. Başlığın altındaki noktalar hangi akvaryumda olduğunuzu gösterir. Akvaryum başlığında akvaryumun adı ve bir sıra kısayol var: besleme modu, Reef Buddy özeti, paylaşım ve akvaryum profilini açan kalem simgesi. Panoyu düzenlemek için sayfanın en altındaki **Gösterge panelini düzenle** düğmesini kullanın.
 
-Tam ayrıntı: **[Panonuzu okuma](/help/mobile-dashboard)**.
+Ayrıntılar **[Panoyu okuma](/help/mobile-dashboard)** sayfasında.
 
 ## Cihazlar
 
-Bağladığınız her şey, markaya göre gruplanmış. Her grup daralır, böylece ekipman dolu bir reef odası okunabilir kalır.
+Bağladığınız her şey burada, markaya göre gruplanmış olarak durur. Her grubu daraltabilirsiniz. Böylece ekipmanla dolu bir reef odası bile derli toplu görünür.
 
-Yeni ekipman eklediğiniz, yeniden adlandırdığınız, bir akvaryuma atadığınız ve kaldırdığınız yer burasıdır. Tam ayrıntı: **[Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices)**.
+Yeni ekipman eklemek, adını değiştirmek, bir akvaryuma atamak ve kaldırmak için bu sekmeyi kullanın. Ayrıntılar **[Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices)** sayfasında.
 
-## Assistant
+## Asistan
 
-Cora'ya akvaryumunuz hakkında düz bir dille, yazarak veya sesle sorun. Canlı okumalarınızı, geçmişinizi ve ICP sonuçlarınızı görebilir; bu yüzden "alkalinitem neden düşüyor?" *sizin* akvaryumunuz hakkında gerçekten yanıtlayabileceği bir sorudur.
+Akvaryumunuzla ilgili sorularınızı Cora'ya günlük dille, yazarak ya da konuşarak sorun. Cora canlı ölçümlerinizi, geçmişinizi ve ICP sonuçlarınızı görür. Bu yüzden "Alkalinitem neden düşüyor?" sorusunu *sizin* akvaryumunuza bakarak yanıtlar.
 
-Tam ayrıntı: **[Cora'ya sorma](/help/mobile-assistant)**.
+Ayrıntılar **[Cora'ya sorun](/help/mobile-assistant)** sayfasında.
 
-## Intelligence
+## Zeka
 
-Lab çalışmanız ve uzun görüşünüz. Bir ICP testi yükleyin ve Cora onu okur, her elementi zaman içinde takip eder ve son kezden bu yana ne değiştiğini söyler. Sağlık Raporları, tüm sistemin daha derin, periyodik bir değerlendirmesidir.
+Laboratuvar sonuçlarınız ve uzun vadeli takibiniz burada. ICP testinizi yükleyin. Cora sonucu okur, her elementi zaman içinde izler ve bir önceki testten bu yana nelerin değiştiğini söyler. Sağlık Raporları ise tüm sistemi belli aralıklarla daha derinlemesine değerlendirir.
 
-Tam ayrıntı: **[ICP ve sağlık raporları](/help/mobile-icp-health)**.
+Ayrıntılar **[ICP ve sağlık raporları](/help/mobile-icp-health)** sayfasında.
 
 ## Ayarlar
 
-Hesap, akvaryumlar, dozaj ürünleri, Assistant, bildirimler, otomasyon ve planınız.
+Hesap, akvaryumlar, dozaj ürünleri, Asistan, bildirimler, otomasyon ve aboneliğiniz.
 
-Tam ayrıntı: **[Ayarlar](/help/mobile-settings)**.
+Ayrıntılar **[Ayarlar](/help/mobile-settings)** sayfasında.
 
-## İlk çalıştırma turu
+## İlk açılıştaki tanıtım
 
-Panoyu ilk açtığınızda, Cora ekranın bölümlerini sırayla gösterir. Bir kez çalışır.
+Panoyu ilk açtığınızda Cora ekranın bölümlerini sırayla tanıtır. Bu tanıtım yalnızca bir kez gösterilir.
 
-Yeniden görmek için **Ayarlar → Hakkında → İpuçlarını tekrar oynat**'ı kullanın. Turu yeniden başlatır ve sizi panoya götürür, böylece hemen başlar; bir güncellemeden sonra veya telefonunuzu başka birine verirken kullanışlıdır.
+Tekrar görmek için **Ayarlar → Hakkında → İpuçlarını tekrar oynat**'a dokunun. Tanıtım baştan başlar ve sizi panoya götürür. Bir güncellemeden sonra ya da telefonunuzu başka birine verirken işe yarar.
 
-## Sekmelerin dışındaki iki kontrol
+## Sekmelerin dışındaki iki düğme
 
-Sağ üstteki **zil**, bildirim geçmişinizdir: Cora'nın yükselttiği her uyarı, en yeniden en eskiye. Üzerindeki sayı, henüz okumadığınız kadarını gösterir.
+Sağ üstteki **zil**, bildirim geçmişinizi açar. Cora'nın verdiği bütün uyarılar en yeniden eskiye doğru sıralanır. Zilin üstündeki sayı, henüz okumadığınız uyarıların sayısıdır.
 
-**Günlük düğmesi**, Panonun sağ altında yüzer. Az önce yaptığınızı yazmak için ona dokunun: bir su değişimi, yeni bir mercan, değiştirdiğiniz bir dozaj. Bkz. **[Günlük](/help/mobile-journal)**.
+**Günlük düğmesi**, panonun sağ alt köşesinde durur. Az önce yaptığınız işi not etmek için dokunun: su değişimi, yeni bir mercan, değiştirdiğiniz bir dozaj. Ayrıntılar **[Günlük](/help/mobile-journal)** sayfasında.

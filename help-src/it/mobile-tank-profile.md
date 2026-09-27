@@ -1,73 +1,73 @@
 ---
 title: Il profilo della tua vasca
-description: Il volume, la popolazione, l'equipaggiamento e i dettagli di dosaggio che Cora usa per interpretare le tue letture.
+description: Volume, popolazione, attrezzatura e dosaggio: i dati che Cora usa per interpretare le tue letture.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 3
 group: Getting started
 ---
 
-Il profilo della vasca descrive il tuo sistema. Cora lo usa per valutare le letture, calcolare i dosaggi, e decidere cosa è normale per la tua vasca invece che per le vasche in generale.
+Il profilo della vasca descrive il tuo impianto. Cora lo usa per valutare le letture, calcolare i dosaggi e capire cosa è normale per la tua vasca in particolare.
 
-Per aprirlo, tocca la **matita a destra dell'intestazione della vasca**. Il piccolo simbolo accanto al nome della vasca è una rinomina rapida, non questo.
+Per aprirlo tocca la **matita a destra dell'intestazione della vasca**. Il piccolo simbolo accanto al nome serve solo a rinominare la vasca.
 
 ## Configurazione guidata
 
-Un profilo contiene molto, quindi la **Configurazione guidata** ti porta attraverso le sezioni una alla volta (dosaggio, illuminazione, flusso e filtrazione, popolazione, il tuo equipaggiamento) invece di presentare l'intero modulo in una volta.
+Nel profilo ci sono tante informazioni. Per questo la **Configurazione guidata** ti fa compilare una sezione alla volta (dosaggio, illuminazione, movimento e filtrazione, popolazione, attrezzatura) e non tutto il modulo insieme.
 
-È progettata per essere interrotta:
+Puoi interromperla quando vuoi:
 
-- **Termina più tardi** lascia il profilo dov'è e ti porta indietro. Le tue risposte finora vengono conservate.
-- Riaprire la configurazione guidata riprende dalla sezione dove ti sei fermato, invece di ricominciare da capo.
-- **Decidi più tardi** salta una domanda a cui non sei pronto a rispondere senza bloccare il resto.
-- Lasciare una sezione con modifiche non salvate chiede prima, offrendo **Continua a modificare** oppure **Esci**.
+- **Termina più tardi** lascia il profilo com'è e ti riporta indietro. Le risposte date fin lì restano salvate.
+- Quando riapri la configurazione guidata, riparti dalla sezione in cui ti eri fermato.
+- **Decidi più tardi** salta una domanda a cui non sai ancora rispondere, senza bloccare le altre.
+- Se esci da una sezione con modifiche non salvate, Cora te lo chiede prima e ti propone **Continua a modificare** oppure **Esci**.
 
-Il valore di completezza sul profilo, e il suggerimento che appare sulla dashboard mentre è sotto il 100%, sono punti di ingresso di ritorno nello stesso flusso.
+Alla stessa procedura torni anche dalla percentuale di completamento sul profilo e dal suggerimento che compare sulla dashboard finché il profilo non è al 100%.
 
-:::note Ogni sezione cambia cosa Cora può dire
-La completezza non è un punteggio fine a se stesso. I prodotti di dosaggio fanno funzionare il calcolatore di dosaggio e il tracciamento del consumo; la popolazione e il tipo di vasca cambiano rispetto a cosa vengono valutate le tue letture; l'equipaggiamento dice a Cora cosa esiste di cui parlare. Un profilo scarso dà risposte corrispondentemente generiche.
+:::note Ogni sezione cambia quello che Cora può dirti
+La percentuale di completamento non è un voto. I prodotti di dosaggio fanno funzionare il calcolatore e il calcolo dei consumi. Popolazione e tipo di vasca cambiano il metro con cui Cora valuta le letture. L'attrezzatura dice a Cora di cosa può parlarti. Con un profilo scarno, anche le risposte sono generiche.
 :::
 
 ![L'editor del profilo della vasca](img/mobile-tank-profile.webp "Ogni sezione mostra uno stato di completamento. Il punteggio in alto riflette quanto Cora sa sulla vasca.")
 
-## Completezza
+## Completamento
 
-La percentuale in alto mostra quanto del profilo è compilato. Un profilo più completo produce consigli più specifici; uno vuoto lascia Cora a lavorare con valori predefiniti.
+La percentuale in alto indica quanta parte del profilo hai compilato. Più il profilo è completo, più i consigli sono precisi. Con un profilo vuoto Cora lavora con i valori predefiniti.
 
 ## Sezioni
 
-| Sezione | Riguarda |
+| Sezione | Cosa contiene |
 |---|---|
-| Nome e tipo di vasca | Come chiami la vasca, il suo tipo, e la sua età |
-| Dimensioni vasca | Dimensioni fisiche e volume d'acqua totale |
+| Nome e tipo di vasca | Il nome della vasca, il tipo e l'età |
+| Dimensioni vasca | Misure e volume d'acqua totale |
 | Dosaggio | Cosa dosi e come |
-| Gestione dell'acqua | Cambi d'acqua, rabbocco, obiettivi di salinità |
-| Popolazione | Cosa contiene la vasca e quanto densamente è popolata |
-| Controllo della temperatura | Equipaggiamento di riscaldamento e refrigerazione |
-| Illuminazione | Impianti e fotoperiodo |
-| Flusso e filtrazione | Pompe, skimmer e media |
-| Dispositivi Neptune | L'Apex su questa vasca e i suoi moduli |
-| Dispositivi Red Sea | Le unità ReefBeat assegnate qui |
-| Cora Max | Quali schermi servono questa vasca |
-| Fonti dei parametri | Da quale fonte viene letto ogni parametro |
-| Parassiti e trattamento | Con cosa hai avuto a che fare, e cosa hai usato |
+| Gestione dell'acqua | Cambi d'acqua, rabbocco, salinità obiettivo |
+| Popolazione | Cosa c'è in vasca e quanto è popolata |
+| Controllo della temperatura | Riscaldatori e refrigeratori |
+| Illuminazione | Plafoniere e fotoperiodo |
+| Flusso e filtrazione | Pompe, schiumatoio e materiali filtranti |
+| Dispositivi Neptune | L'Apex di questa vasca e i suoi moduli |
+| Dispositivi Red Sea | Le unità ReefBeat assegnate a questa vasca |
+| Cora Max | Gli schermi che servono questa vasca |
+| Fonti dei parametri | Da quale fonte arriva ogni parametro |
+| Parassiti e trattamento | I problemi che hai avuto e cosa hai usato |
 
-![Le sezioni di dispositivi e fonti](img/mobile-tank-profile-devices.webp "La metà inferiore del profilo: il tuo equipaggiamento, da dove viene ogni parametro, e lo storico dei trattamenti.")
+![Le sezioni di dispositivi e fonti](img/mobile-tank-profile-devices.webp "La metà inferiore del profilo: la tua attrezzatura, da dove viene ogni parametro, e lo storico dei trattamenti.")
 
-Tocca una sezione per espanderla. L'icona informativa accanto a ciascuna spiega a cosa servono i campi.
+Tocca una sezione per aprirla. L'icona delle informazioni accanto a ogni sezione spiega a cosa servono i campi.
 
 ## Volume
 
-Inserisci il volume d'acqua effettivo incluso il sump, non il volume nominale stampato sulla vasca.
+Inserisci il volume d'acqua reale, sump compresa, non quello nominale scritto sulla vasca.
 
-:::warning I calcoli di dosaggio scalano direttamente con il volume
-Un volume inserito con il 20% in eccesso produce raccomandazioni di dosaggio con il 20% in eccesso. Se non sei sicuro, misura invece di stimare.
+:::warning I calcoli di dosaggio dipendono direttamente dal volume
+Se inserisci un volume più alto del 20%, anche le dosi consigliate saranno più alte del 20%. Se non sei sicuro, misuralo e non andare a occhio.
 :::
 
 ## Età della vasca
 
-Imposta la data in cui la vasca è stata avviata. Le letture vengono valutate rispetto a cosa è normale per una vasca di quell'età; un sistema di tre mesi e uno di cinque anni vengono valutati diversamente. Se la vasca è ancora in ciclaggio, registrala come tale.
+Indica la data in cui hai avviato la vasca. Cora valuta le letture in base a quello che è normale per una vasca di quell'età: un impianto di tre mesi e uno di cinque anni vengono giudicati in modo diverso. Se la vasca sta ancora facendo il ciclo, indicalo.
 
-## Mantenere il profilo aggiornato
+## Tenere aggiornato il profilo
 
-Aggiorna il profilo quando il sistema cambia: nuovo equipaggiamento, un cambiamento nella popolazione, un regime di dosaggio diverso. Il profilo è ciò da cui Cora ragiona, quindi un profilo obsoleto produce consigli obsoleti.
+Aggiorna il profilo quando l'impianto cambia: nuova attrezzatura, cambi nella popolazione, un dosaggio diverso. Cora ragiona partendo dal profilo, e un profilo vecchio porta a consigli superati.

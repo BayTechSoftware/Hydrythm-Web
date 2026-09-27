@@ -1,52 +1,52 @@
 ---
 title: Notifications
-description: Choose what reaches your phone, when it may arrive, and where to read what you missed.
+description: Choose what reaches your phone, when it can arrive, and where to read what you missed.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 16
 group: Alerts and automation
 ---
 
-**Settings → Notifications** controls everything Cora may send you.
+**Settings → Notifications** controls everything Cora can send you.
 
 ![Notification settings](img/mobile-notifications.webp "Each category can push independently.")
 
 ## What can push
 
-Each category is switched independently:
+Each category has its own switch.
 
 | Category | Covers |
 |---|---|
 | **Parameter Alerts** | Water chemistry outside a range you set |
 | **Maintenance Reminders** | Tasks you scheduled, like water changes |
-| **Equipment Faults** | A device reporting a problem: a Trident that has stopped testing, for example |
+| **Equipment Faults** | A device reporting a problem, for example a Trident that has stopped testing |
 | **Supplies Running Low** | Reagent, top-off water, dosing containers, and a full waste bottle |
 | **ICP Report Ready** | Your ICP results are analysed and ready to read |
 
-Turning a category off stops the push. The event is still recorded and still appears in the bell.
+When you turn a category off, it stops pushing. Cora still records the event, and you'll still find it under the bell.
 
-:::warning "Parameter Alerts" means chemistry, and only chemistry
-It is natural to read that switch as covering everything the tank might tell you. It does not. A Trident that has stopped testing is an **Equipment Fault**, and reagent running out is **Supplies Running Low**; each has its own switch. If you have had Parameter Alerts on for a long time and assumed it covered the rest, check the other two.
+:::warning "Parameter Alerts" is only about chemistry
+It's easy to think that switch covers everything the tank might tell you. It doesn't. A Trident that has stopped testing is an **Equipment Fault**. Reagent running out is **Supplies Running Low**. Each has its own switch. If you've relied on Parameter Alerts for a long time, check the other two.
 :::
 
-**Supplies Running Low includes the waste bottle**, which fills up rather than runs down. It is in this category because the action it needs is the same: something to empty or replace before it stops the tests.
+**Supplies Running Low includes the waste bottle**, even though it fills up instead of running down. You deal with it the same way. It's something to empty or replace before it stops the tests.
 
 ## The bell
 
-Top right of every screen. It holds everything Cora has raised, newest first, whether or not it pushed. The number is what you have not read.
+The bell sits at the top right of every screen. It holds everything Cora has raised, newest first, whether or not it was pushed. The number on it is how many you haven't read.
 
-This is the right place to check after a day away from your phone, or after a category you switched off raised something.
+Check it after a day away from your phone, or when a category you switched off has raised something.
 
 ## If nothing is arriving
 
-Work down this list:
+Go through these in order.
 
-1. **Settings → Notifications**: is that category allowed to push?
-2. Your phone's own settings: is Cora allowed to notify at all? A permission denied at install time overrides everything here.
-3. Is there actually anything to send? Reef Buddy stays quiet on days when nothing changed.
+1. Open **Settings → Notifications**. Is that category allowed to push?
+2. Check your phone's own settings. Is Cora allowed to send notifications at all? If you said no when you installed it, that overrides everything here.
+3. Is there anything to send? Reef Buddy stays quiet on days when nothing changed.
 
 ## If too much is arriving
 
-Review your thresholds before disabling notifications. Excessive alerts usually indicate a range set tighter than the tank runs, or a source requiring calibration. See [Alerts and thresholds](/help/mobile-alerts).
+Look at your thresholds before you turn notifications off. Too many alerts usually means a range is tighter than the tank really runs, or a source needs calibrating. More in [Alerts and thresholds](/help/mobile-alerts).
 
-Turning a category off is all-or-nothing for that category. If instead one particular alert is pushing too often, change its **Cooldown between alerts** on the rule itself, from 15 minutes up to 1 week, rather than switching the whole category off. See [Alerts and thresholds](/help/mobile-alerts) for the cooldown options and what "snooze" means on Cora Max.
+Turning a category off silences all of it. If it's one alert pushing too often, change **Cooldown between alerts** on that rule instead. It goes from 15 minutes up to 1 week. The cooldown options, and what "snooze" means on Cora Max, are in [Alerts and thresholds](/help/mobile-alerts).

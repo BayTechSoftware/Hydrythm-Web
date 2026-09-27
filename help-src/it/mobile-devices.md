@@ -1,76 +1,76 @@
 ---
 title: Aggiungere, modificare e rimuovere dispositivi
-description: Come aggiungere equipaggiamento a Cora, assegnarlo a una vasca, rinominarlo e rimuoverlo in modo corretto.
+description: Come aggiungere attrezzatura a Cora, assegnarla a una vasca, rinominarla e rimuoverla nel modo giusto.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 9
 group: Equipment
 ---
 
-La scheda **Dispositivi** è tutto ciò che hai collegato, raggruppato per marca. Ogni gruppo si chiude così una stanza della vasca piena di equipaggiamento resta leggibile.
+Nella scheda **Dispositivi** trovi tutto quello che hai collegato, diviso per marca. Ogni gruppo si può chiudere, così l'elenco resta leggibile anche con una stanza piena di attrezzatura.
 
-![La scheda Dispositivi](img/mobile-devices.webp "L'equipaggiamento è raggruppato per marca. Ogni gruppo si può chiudere.")
+![La scheda Dispositivi](img/mobile-devices.webp "L'attrezzatura è raggruppata per marca. Ogni gruppo si può chiudere.")
 
-## Aggiungere equipaggiamento
+## Aggiungere attrezzatura
 
-Sotto l'elenco ci sono tre pulsanti, e fanno lavori diversi:
+Sotto l'elenco ci sono tre pulsanti, ognuno con il suo compito:
 
-| Pulsante | Aggiunge |
+| Pulsante | Cosa aggiunge |
 |---|---|
-| **Aggiungi dispositivo** | Un Cora Max. Trova unità già sul tuo Wi-Fi, o unità vicine via Bluetooth. **Inserisci l'indirizzo IP manualmente** si trova dentro questa schermata se la scoperta automatica non lo trova. |
-| **Trova una pompa sulla tua rete** | Pompe Jecod che si annunciano sulla rete locale |
-| **Aggiungi AquaWiz** | Un controller AquaWiz, tramite il tuo account AquaWiz |
+| **Aggiungi dispositivo** | Un Cora Max. Trova le unità già sul tuo Wi-Fi o quelle vicine via Bluetooth. Se la ricerca non lo trova, in questa schermata c'è anche **Inserisci l'indirizzo IP manualmente**. |
+| **Trova una pompa sulla tua rete** | Le pompe Jecod che si annunciano sulla rete locale |
+| **Aggiungi AquaWiz** | Un controller AquaWiz, attraverso il tuo account AquaWiz |
 
 ![Aggiungere un Cora Max](img/mobile-add-device.webp "Aggiungi dispositivo cerca un Cora Max su Wi-Fi e Bluetooth.")
 
-Altri equipaggiamenti (Neptune Apex e Red Sea ReefBeat) si collegano dalla vasca invece che da questo elenco. Vedi [Collegare il tuo equipaggiamento](/help/mobile-connections).
+Neptune Apex e Red Sea ReefBeat si collegano dalla vasca e non da questo elenco. Trovi come fare in [Collegare la tua attrezzatura](/help/mobile-connections).
 
-Aggiungere equipaggiamento come un riscaldatore, una pompa o uno schiumatoio offre un **completamento automatico** di marca e modello: inizia a digitare e Cora suggerisce da un ampio elenco verificato alla fonte di marche di equipaggiamento. Se la tua non è elencata, digitala comunque; Cora conserva qualunque cosa tu digiti.
+Quando aggiungi un riscaldatore, una pompa o uno schiumatoio, marca e modello si **completano da soli**. Inizia a scrivere e Cora ti suggerisce le marche da un lungo elenco verificato. Se la tua non c'è, scrivila lo stesso: Cora salva quello che scrivi.
 
-:::note Cora e il tuo telefono hanno bisogno della stessa rete
-L'equipaggiamento trovato localmente deve essere sulla stessa rete del tuo telefono quando lo aggiungi. **Dopo la configurazione resta raggiungibile solo su quella rete** (o via Bluetooth, per le unità che lo usano), a meno che un dispositivo Cora sul posto non possa raggiungerlo per tuo conto.
+:::note Cora e il telefono devono essere sulla stessa rete
+Quando aggiungi un'attrezzatura trovata in rete locale, deve essere sulla stessa rete del telefono. **Anche dopo la configurazione si raggiunge solo da quella rete** (o via Bluetooth, per le unità che lo usano), a meno che un dispositivo Cora sul posto non la raggiunga per te.
 
-L'equipaggiamento che legge correttamente a casa può quindi mostrare valori più vecchi mentre sei via, a meno che un Cora Max sul posto non possa interrogarlo. Questo riflette da dove è raggiungibile l'equipaggiamento, non un guasto.
+Quindi un'attrezzatura che a casa legge bene può mostrare valori più vecchi quando sei fuori, a meno che sul posto non ci sia un Cora Max che la legge. Non è un guasto: dipende da dove si può raggiungere l'attrezzatura.
 :::
 
 ## Assegnare un dispositivo a una vasca
 
-La maggior parte dell'equipaggiamento appartiene esattamente a una vasca, ed è questo che fa apparire le sue letture sulla dashboard di quella vasca.
+Quasi tutta l'attrezzatura appartiene a una sola vasca. È questa assegnazione che fa comparire le letture sulla dashboard di quella vasca.
 
-**Cora Max è l'eccezione**: può essere assegnato a fino a quattro vasche e passa da una all'altra sullo schermo. Vedi [Più di un dispositivo Cora](/help/mobile-multi-device).
+**Cora Max fa eccezione**: si può assegnare fino a quattro vasche e passa dall'una all'altra sullo schermo. Ne parliamo in [Più di un dispositivo Cora](/help/mobile-multi-device).
 
-Apri il dispositivo e scegli **Vasca**. Se gestisci più di un sistema, questa è l'impostazione che conta più di tutte: un riscaldatore assegnato alla vasca sbagliata riporta perfettamente bene nel posto sbagliato.
+Apri il dispositivo e scegli **Vasca**. Se hai più impianti, è l'impostazione più importante: un riscaldatore assegnato alla vasca sbagliata funziona benissimo, ma i dati finiscono nel posto sbagliato.
 
-:::warning Assegna la vasca prima di fare affidamento sulle letture
-Un dispositivo senza vasca continua a riportare, ma i suoi numeri non hanno dove finire. Se un dispositivo che hai appena aggiunto non appare su una dashboard, controlla prima questo.
+:::warning Assegna la vasca prima di fidarti delle letture
+Un dispositivo senza vasca continua a mandare dati, ma i numeri non finiscono da nessuna parte. Se un dispositivo appena aggiunto non compare su nessuna dashboard, controlla prima questo.
 :::
 
 ## Rinominare
 
-Apri il dispositivo e modifica il suo nome. Usa il nome che usi per lui giorno per giorno: "Ritorno", "Gyre sinistra", "Riscaldatore sump". Il nome appare sui widget, negli avvisi e in qualsiasi cosa chiedi a Cora, quindi un nome che ha un senso per te rende tutto più chiaro a valle.
+Apri il dispositivo e cambia il nome. Usa il nome con cui lo chiami tutti i giorni: "Risalita", "Gyre sinistra", "Riscaldatore sump". Il nome compare sui widget, negli avvisi e in tutto quello che chiedi a Cora, quindi un nome che per te ha senso rende tutto più chiaro.
 
-Rinominare è locale a Cora. Non cambia il nome nell'app del produttore.
+Il nuovo nome vale solo in Cora. Nell'app del produttore il nome resta quello di prima.
 
-## Controllare se un dispositivo è in salute
+## Controllare se un dispositivo funziona
 
-Ogni riga mostra il suo stato attuale. Ciò che vuoi vedere è un orario di aggiornamento recente e nessun avviso.
+Ogni riga mostra lo stato attuale. Quello che vuoi vedere è un aggiornamento recente e nessun avviso.
 
 | Cosa vedi | Cosa significa |
 |---|---|
-| Un orario di aggiornamento recente | Funziona normalmente |
-| "Aggiornato 3 h fa" su qualcosa che riporta ogni ora | Va bene |
-| "Impossibile raggiungere…" | Un problema di rete, oppure il dispositivo è spento |
-| "…ha rifiutato l'accesso" | L'account del produttore ha bisogno di essere riconnesso; apri il dispositivo ed accedi di nuovo |
-| Nulla del tutto | Non ha mai riportato; controlla l'assegnazione della vasca e la connessione |
+| Un aggiornamento recente | Funziona normalmente |
+| "Aggiornato 3 h fa" su un dispositivo che riporta solo ogni poche ore | Va bene |
+| "Impossibile raggiungere…" | C'è un problema di rete o il dispositivo è spento |
+| "…ha rifiutato l'accesso" | L'account del produttore va ricollegato. Apri il dispositivo e accedi di nuovo |
+| Niente | Non ha mai mandato dati. Controlla la vasca assegnata e il collegamento |
 
 ## Rimuovere un dispositivo
 
-Apri il dispositivo e scegli **Rimuovi**. Ti verrà chiesto di confermare, e ti verrà detto esattamente cosa viene rimosso.
+Apri il dispositivo e scegli **Rimuovi**. Cora ti chiede di confermare e ti dice esattamente cosa viene rimosso.
 
-**Le tue letture vengono conservate.** Rimuovere un dispositivo interrompe la raccolta di nuovi dati da parte di Cora; lo storico già raccolto resta sulla vasca, e qualsiasi widget puntato su di esso conserva le sue letture passate.
+**Le letture restano.** Dopo la rimozione Cora non raccoglie più nuovi dati da quel dispositivo, ma lo storico già raccolto resta nella vasca e i widget collegati mantengono le letture passate.
 
-Ciò che perdi è il collegamento in tempo reale, e, dove il dispositivo si collegava tramite un account del produttore, l'accesso memorizzato. Aggiungerlo di nuovo significa accedere di nuovo.
+Perdi il collegamento in tempo reale e, se il dispositivo passava da un account del produttore, anche l'accesso salvato. Per aggiungerlo di nuovo dovrai accedere un'altra volta.
 
-:::tip Rendi silenzioso un dispositivo rumoroso senza rimuoverlo
-Se un dispositivo funziona correttamente ma avvisa troppo spesso, correggi le sue soglie o le impostazioni di notifica; vedi **[Avvisi e soglie](/help/mobile-alerts)**. Questo mantiene la connessione e i dati mentre ferma il rumore.
+:::tip Zittisci un dispositivo troppo insistente senza rimuoverlo
+Se un dispositivo funziona bene ma ti avvisa troppo spesso, cambia le soglie o le impostazioni delle notifiche, come spiegato in **[Avvisi e soglie](/help/mobile-alerts)**. Collegamento e dati restano, e le notifiche inutili finiscono.
 :::

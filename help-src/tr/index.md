@@ -1,77 +1,77 @@
 ---
 title: Cora Yardım
-description: Cora Max ve Cora Mobile'ı kurma ve çalıştırma: kayıt, panolar, cihazlar, uyarılar, Reef Buddy, ICP ve sağlık raporları.
+description: Cora Max ve Cora Mobile'ı kurma ve kullanma: ilk adımlar, panolar, cihazlar, uyarılar, Reef Buddy, ICP ve sağlık raporları.
 section: -
 reviewed: 2026-09-27
 order: 0
 ---
 
-Cora ile reefinizi işletmek için gereken her şey. Nerede olduğunuzu seçin:
+Reefinizi Cora ile yönetmek için gereken her şey burada. Nereden başlamak istediğinizi seçin:
 
 <ul class="tiles">
-<li><a href="/help/mobile-setup"><b>Cora Mobile'a yeniyim</b><span>Hesabınızı oluşturun, ilk akvaryumunuzu ekleyin ve ekranda okumalar alın.</span></a></li>
-<li><a href="/help/max-setup"><b>Cora Max'e yeniyim</b><span>İlk çalıştırma, eşleştirme ve akvaryumlarınızı büyük ekrana getirme.</span></a></li>
-<li><a href="/help/mobile-dashboard-editing"><b>Panonuzu oluşturun</b><span>Bir düzen seçin, widget ekleyin ve onları düşündüğünüz şekilde dizin.</span></a></li>
-<li><a href="/help/troubleshooting"><b>Bir sorunu çözün</b><span>Okumalar durdu, bir cihaz sessizleşti, veya bir uyarı kapanmıyor.</span></a></li>
-<li><a href="/help/faq"><b>Sıkça sorulan sorular</b><span>Kurulum, Cora Max, cihazlar, uyarılar, planlar ve gizlilik hakkında hızlı yanıtlar.</span></a></li>
+<li><a href="/help/mobile-setup"><b>Cora Mobile'a yeniyim</b><span>Hesabınızı açın, ilk akvaryumunuzu ekleyin ve ölçümleri ekranda görün.</span></a></li>
+<li><a href="/help/max-setup"><b>Cora Max'e yeniyim</b><span>İlk açılış, eşleştirme ve akvaryumlarınızı büyük ekrana getirme.</span></a></li>
+<li><a href="/help/mobile-dashboard-editing"><b>Panonuzu kurun</b><span>Düzen seçin, widget ekleyin ve istediğiniz gibi yerleştirin.</span></a></li>
+<li><a href="/help/troubleshooting"><b>Sorun çözün</b><span>Ölçümler durdu, bir cihaz sustu ya da bir uyarı kapanmıyor.</span></a></li>
+<li><a href="/help/faq"><b>Sıkça sorulan sorular</b><span>Kurulum, Cora Max, cihazlar, uyarılar, planlar ve gizlilikle ilgili kısa cevaplar.</span></a></li>
 </ul>
 
-## Cora'nın iki yarısı
+## Cora'nın iki parçası
 
-**Cora Mobile**, telefon uygulamasıdır. Neredeyse her şeyi (akvaryumlar, cihazlar, panolar, uyarılar, dozaj ürünleri) kurduğunuz yerdir ve akvaryumdan uzaktayken taşıdığınız şeydir. Ana ekranınızda simge basitçe **Cora**'dır.
+**Cora Mobile** telefon uygulamasıdır. Akvaryumlar, cihazlar, panolar, uyarılar ve dozaj ürünleri gibi neredeyse her şeyi burada kurarsınız. Akvaryumdan uzaktayken de yanınızda olan odur. Telefonunuzun ana ekranında simgenin adı yalnızca **Cora**'dır.
 
-**Cora Max**, reef odası için duvara monte komuta merkezidir. Aynı akvaryumları ve aynı canlı veriyi, odanın karşısından okuyabileceğiniz bir ekranda gösterir ve sesi alır.
+**Cora Max** reef odanızın duvarına asılan kontrol merkezidir. Aynı akvaryumları ve aynı canlı verileri odanın öbür ucundan okunabilen bir ekranda gösterir. Sesli komutları da dinler.
 
-Bir hesabı paylaşırlar, bu yüzden akvaryumlarınız, okumalarınız, cihazlarınız ve kayıtlarınız ikisinde de aynıdır ve onları iki kez kurmazsınız.
+İkisi aynı hesabı kullanır. Akvaryumlarınız, ölçümleriniz, cihazlarınız ve kayıtlarınız ikisinde de aynıdır. Hiçbir şeyi iki kez kurmanız gerekmez.
 
-Bazı şeyler ait olduğu ekranla kalır. Her ekran kendi **pano düzenini** tutar ve belirli bir ekranı tanımlayan ayarlar (Wi-Fi, parlaklık, ses, uyandırma sözcüğü, çocuk kilidi) yalnızca o ekrana aittir. Bkz. [Ne paylaşılır ve ne paylaşılmaz](/help/mobile-multi-device).
+Bazı şeyler ise yalnızca ait olduğu ekranda kalır. Her ekranın **kendi pano düzeni** vardır. Wi-Fi, parlaklık, ses, uyandırma sözcüğü ve çocuk kilidi gibi ekrana özgü ayarlar da yalnızca o ekranı etkiler. Neyin paylaşılıp neyin paylaşılmadığı [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında.
 
-:::tip Telefonunuzda başlayın
-Satın aldığınız Cora Max olsa bile, akvaryumlarınızı ve cihazlarınızı önce Cora Mobile'da kurun. Bir telefonda yazmak her şeyden daha kolaydır ve Cora Max hepsini otomatik olarak alır.
+:::tip Telefonunuzdan başlayın
+Aldığınız Cora Max olsa bile akvaryumlarınızı ve cihazlarınızı önce Cora Mobile'da kurun. Telefonda yazmak çok daha kolaydır. Cora Max da hepsini kendiliğinden alır.
 :::
 
-## Cora'nın bir kontrolcüye kattığı
+## Cora kontrol cihazınıza ne katar
 
-Cora size bir sayıyı, neye dayandığıyla birlikte gösterir: nereden geldiği ve ne kadar eski olduğu.
+Cora size her değeri dayandığı bilgiyle birlikte gösterir.
 
-Her okuma nereden geldiğini ve ne kadar eski olduğunu taşır. İki kaynak anlaşmadığında (bir prob bir test kitine karşı, bir doser ICP sonuçlarınıza karşı), Cora sessizce ortalamak yerine bunu söyler. Ve bir şey kaydığında, **Reef Buddy** siz fark etmeden bunu size sabah söyler.
+Her ölçümün nereden geldiği ve ne kadar eski olduğu yanında yazar. İki kaynak birbirini tutmazsa, örneğin prob ile test kiti ya da dozaj pompası ile ICP sonuçlarınız, Cora ikisinin ortalamasını alıp geçmez, bunu size söyler. Bir değer yavaş yavaş kayıyorsa **Reef Buddy** siz fark etmeden sabah size haber verir.
 
-## Etrafta yolunuzu bulma
+## Yolunuzu bulun
 
-- **[Beş sekme](/help/mobile-tour)**: Cora Mobile'ın iki dakikalık bir turu
-- **[Cora Max ana ekranı](/help/max-tour)**: büyük ekrandaki her şeyin ne anlama geldiği
-- **[Sıkça sorulan sorular](/help/faq)**: konuya göre gruplanmış hızlı yanıtlar
-- **[Sorun giderme](/help/troubleshooting)**: bir şey yanlış görünüyorsa, buradan başlayın
-- **[Sözlük](/help/glossary)**: akvaryum, kaynak, widget, kaydedilmiş tasarım, eşik ve gerisi
+- **[Beş sekme](/help/mobile-tour)**: İki dakikada Cora Mobile turu
+- **[Cora Max ana ekranı](/help/max-tour)**: Büyük ekranda ne nerede
+- **[Sıkça sorulan sorular](/help/faq)**: Konulara göre kısa cevaplar
+- **[Sorun giderme](/help/troubleshooting)**: Bir şey ters gidiyorsa buradan başlayın
+- **[Sözlük](/help/glossary)**: Akvaryum, kaynak, widget, kayıtlı tasarım, eşik ve diğer terimler
 
-## Akvaryumu tutmak
+## Akvaryumun bakımı
 
-Okumaların ve panoların ötesinde, Cora işin kalanını da bir yerde tutar:
+Cora ölçümlerin ve panoların dışında kalan işleri de bir arada tutar:
 
-- **[Otomasyonlar ve sahneler](/help/mobile-automation)**: kendi başına çalışan kurallar
-- **[Dozaj](/help/mobile-dosing)**: ürün güçleri, hesaplayıcı ve tüketim
-- **[Bakım](/help/mobile-maintenance)**: hatırlatmalarla tekrarlanan işler
-- **[Canlılar](/help/mobile-livestock)**: ne tuttuğunuz ve ona ne olduğu
-- **[Rehberli yolculuklar](/help/mobile-journeys)**: bir akvaryumu döngüleme, veya bir sorunun içinden geçme
-- **[Etkinlik](/help/mobile-activity)**: ekipmanınıza ne olduğu ve buna neyin sebep olduğu
-- **[Uzaklaşma](/help/mobile-vacation)**: bir bakıcıya verebileceğiniz bir plan
-- **[Verileriniz](/help/mobile-data-export)**: dışa aktarımlar ve hesabınızı silme
-- **[Oturum açma ve hesap kurtarma](/help/mobile-account)**: parolalar, doğrulama ve yanlış bir e-posta adresi
-- **[Yardım alma](/help/mobile-support)**: bir sorunu bildirme ve onunla ne gönderildiği
+- **[Otomasyonlar ve sahneler](/help/mobile-automation)**: Kendi kendine çalışan kurallar
+- **[Dozaj](/help/mobile-dosing)**: Ürün konsantrasyonları, hesaplayıcı ve tüketim
+- **[Bakım](/help/mobile-maintenance)**: Hatırlatmalı, tekrarlanan işler
+- **[Canlılar](/help/mobile-livestock)**: Akvaryumunuzdaki canlılar ve onlara ne olduğu
+- **[Rehberli yolculuklar](/help/mobile-journeys)**: Akvaryumu döngüleme ya da bir sorunu adım adım çözme
+- **[Etkinlik](/help/mobile-activity)**: Ekipmanınıza ne oldu, buna ne yol açtı
+- **[Tatile çıkarken](/help/mobile-vacation)**: Akvaryumunuza bakacak kişiye verebileceğiniz bir plan
+- **[Verileriniz](/help/mobile-data-export)**: Dışa aktarma ve hesabınızı silme
+- **[Giriş ve hesap kurtarma](/help/mobile-account)**: Şifreler, doğrulama ve yanlış girilen e-posta adresi
+- **[Yardım alma](/help/mobile-support)**: Sorun bildirme ve bildirimle birlikte neyin gönderildiği
 
 ## Ekipmanınız
 
-- **[Ekipmanınızı kontrol etme](/help/mobile-device-control)**: prizler, pompalar, dozaj kafaları ve test cihazları
-- **[Problar](/help/mobile-probes)**: bir kontrolcünün problarını eşleme ve kalibrasyonu kaydetme
-- **[Sarf malzemeleri](/help/mobile-consumables)**: reaktif, kaplar ve rezervuarlar için yeniden doldurma uyarıları
-- **[Ekipman zamanlama](/help/mobile-schedules)**: pompalar için gün programları, onları kopyalama ve bir gyre'nin zamanlamasını görüntüleme
-- **[Birden fazla Cora cihazı](/help/mobile-multi-device)**: hangisinin sesi yanıtladığı, hangisinin yokladığı
+- **[Ekipmanınızı kontrol etme](/help/mobile-device-control)**: Prizler, pompalar, dozaj kafaları ve test cihazları
+- **[Problar](/help/mobile-probes)**: Kontrol cihazının problarını eşleme ve kalibrasyonu kaydetme
+- **[Sarf malzemeleri](/help/mobile-consumables)**: Reaktif, kap ve rezervuarlar için yeniden doldurma uyarıları
+- **[Ekipman programları](/help/mobile-schedules)**: Pompaların günlük programları, programları kopyalama ve gyre zamanlamasını görüntüleme
+- **[Birden çok Cora cihazı](/help/mobile-multi-device)**: Sese hangisi cevap verir, ekipmanı hangisi yoklar
 
 ## Büyük ekranda
 
-- **[Reef Room](/help/max-reef-room)**: her akvaryum bir kerede
-- **[Cihazlar ve cihaz sağlığı](/help/max-devices)**: Cora Max'in gördüğü ve kendi tanılamaları
-- **[Reef Buddy ve raporlar](/help/max-intelligence)**: duvardaki briefing ve lab çalışmanız
-- **[Cora Max'ten ekipman kontrolü](/help/max-device-control)**: duvardaki cihaz sayfaları
-- **[Cora Max'te etkinlik](/help/max-activity)**: yerine getirilenler, reddedilenler veya asla onaylanmayanlar
-- **[Güncellemeler ve kurtarma](/help/max-updates)**: ekranın kendini nasıl güncel tuttuğu
+- **[Reef Room](/help/max-reef-room)**: Tüm akvaryumlar tek ekranda
+- **[Cihazlar ve cihaz sağlığı](/help/max-devices)**: Cora Max'in gördükleri ve kendi tanılama bilgileri
+- **[Reef Buddy ve raporlar](/help/max-intelligence)**: Duvardaki ekranda günlük özet ve laboratuvar sonuçlarınız
+- **[Cora Max'ten ekipman kontrolü](/help/max-device-control)**: Duvardaki ekranda cihaz sayfaları
+- **[Cora Max'te etkinlik](/help/max-activity)**: Uygulanan, reddedilen ya da hiç onaylanmayan komutlar
+- **[Güncellemeler ve kurtarma](/help/max-updates)**: Ekran kendini nasıl güncel tutar

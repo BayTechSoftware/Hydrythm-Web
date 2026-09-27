@@ -1,72 +1,72 @@
 ---
 title: Rehberli yolculuklar
-description: Yeni bir akvaryumu döngülemek ve bir sorunu çözmek için adım adım yardım.
+description: Yeni bir akvaryumun döngüsünü tamamlamak ve bir sorunu çözmek için adım adım yardım.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 25
 group: Intelligence
 ---
 
-Bir yolculuk, Cora'nın tek bir soruyu yanıtlamak yerine sizi günler veya haftalar boyunca bir şeyin içinden geçirmesidir. İki tür vardır ve aynı şekilde çalışmazlar: yeni bir akvaryumu **döngüleme** ve bir **sorunun** içinden geçme.
+Yolculukta Cora tek bir soruyu yanıtlamakla kalmaz, günler ya da haftalar süren bir süreçte size eşlik eder. İki tür yolculuk var ve farklı çalışırlar: yeni bir akvaryumun **döngüsü** ve bir **sorunun** çözümü.
 
-## Yeni bir akvaryumu döngüleme
+## Yeni akvaryumun döngüsü
 
-Henüz canlılar için hazır olmayan bir akvaryum için. Döngüleme, toksik amonyağı güvenli nitrata çeviren bakterileri büyütür ve yolculuk bu süreci sona kadar takip eder.
+Henüz canlı eklemeye hazır olmayan akvaryumlar içindir. Döngü sırasında zehirli amonyağı zararsız nitrata çeviren bakteriler çoğalır. Yolculuk bu süreci sonuna kadar takip eder.
 
-![Devam eden bir döngüleme yolculuğu](img/mobile-journeys.webp "Aşama, onu tanımlayan üç sayı ve son testten bu yana ne kadar geçtiği.")
+![Devam eden bir döngü yolculuğu](img/mobile-journeys.webp "Aşama, onu belirleyen üç değer ve son testten bu yana geçen süre.")
 
-Her iki üç günde bir amonyak, nitrit ve nitrat testi kaydedin. Cora sizi bu okumalardan bir aşamaya yerleştirir:
+İki üç günde bir amonyak, nitrit ve nitrat testi yapıp kaydedin. Cora bu ölçümlere bakarak hangi aşamada olduğunuzu belirler:
 
-| Aşama | Ne olduğu |
+| Aşama | Ne oluyor |
 |---|---|
-| **İlk testi bekliyor** | Henüz hiçbir şey kaydedilmedi; yolculuk sayıları olmadan sizi yerleştiremez |
-| **Başlamadı** | Her şey sıfıra yakın ve henüz nitrat yok. Amonyak eklenmedi, veya dönüşmeye başlamadı |
-| **Amonyak** | İlk koloni kuruluyor ve amonyağı tüketiyor |
-| **Nitrit** | İkinci koloni nitriti temizliyor. Genellikle en uzun süre ve sayılar hareket etmeyi durdurduğu için insanların bir şeyin yanlış gittiğini düşündüğü aşama |
-| **Döngülendi** | Amonyak ve nitrit ikisi de temizlendi ve nitrat mevcut, canlılar için hazır |
+| **İlk testi bekliyor** | Henüz kayıt yok. Yolculuk sayılar olmadan aşamayı belirleyemez |
+| **Başlamadı** | Her şey sıfıra yakın, henüz nitrat yok. Amonyak eklenmemiş ya da henüz dönüşmeye başlamamış |
+| **Amonyak** | İlk bakteri kolonisi yerleşiyor ve amonyağı tüketiyor |
+| **Nitrit** | İkinci koloni nitriti temizliyor. Genellikle en uzun süren aşama budur. Sayılar kıpırdamadığı için çoğu kişi bir şeylerin ters gittiğini düşünür |
+| **Döngü tamamlandı** | Amonyak ve nitrit sıfırlandı, nitrat var. Akvaryum canlılar için hazır |
 
-**Şimdiye kadarki döngünüz**, üç eğriyi birbirine göre ölçeklendirilmiş, mutlak değerlere göre değil, birlikte çizer; böylece bir koloniden bir sonrakine geçişi görebilirsiniz. Gerçek sayılar için bir isme dokunun.
+**Şu ana kadarki döngünüz** grafiği üç eğriyi birlikte çizer. Eğriler gerçek değerlere göre değil, birbirine göre ölçeklenir. Böylece bir koloniden diğerine geçişi görürsünüz. Gerçek sayıları görmek için bir değerin adına dokunun.
 
-:::warning İki şey bir döngüyü durdurur
-**5 ppm üzerinde amonyak veya nitrit**, büyütmeye çalıştığınız bakterileri durduracaktır; aşarsanız, kısmi bir su değişimi onu geri getirir. **7'nin altında pH** de onu durdurur. Yolculuk her iki durumda da sizi uyarır, çünkü ikisinde de daha fazla beklemek yardımcı olmaz.
+:::warning İki şey döngüyü durdurur
+**Amonyak ya da nitrit 5 ppm'in üstüne çıkarsa** çoğaltmaya çalıştığınız bakteriler durur. Bu sınırı aştıysanız kısmi su değişimiyle değeri geri düşürün. **pH 7'nin altına inerse** de döngü durur. Bu iki durumda beklemek işe yaramaz. Yolculuk bu yüzden sizi uyarır.
 :::
 
-:::note Sadece hareket edeni değil, üçünü de kaydedin
-Bir akvaryum, ancak amonyak ve nitrit her ikisi de *ölçülerek* temizlendiğinde ve nitrat mevcut olduğunda döngülenmiş olarak bildirilir. Nitrat tek başına yeterli değildir; kaynak su genellikle biraz taşır ve kendi başına, bitmiş bir döngü gibi okunup canlıları onları destekleyemeyecek bir akvaryuma davet eder.
+:::note Yalnızca değişeni değil, üçünü de kaydedin
+Akvaryumun döngüsü ancak amonyak ve nitritin ikisinin de sıfır *ölçüldüğü* ve nitratın bulunduğu durumda tamamlanmış sayılır. Tek başına nitrat yetmez. Kaynak suda çoğu zaman biraz nitrat bulunur. Yalnızca nitrata bakılırsa döngü bitmiş gibi görünür ve canlılar, onları henüz taşıyamayacak bir akvaryuma konabilir.
 :::
 
-:::note Hazır olma takvimden değil okumalarınızdan gelir
-Yolculuk, hazır olma durumunu kaç hafta geçtiğine değil, kaydettiğinize göre bildirir. İki haftadır test edilmemiş bir akvaryum, olduğu yerde kalır; tam olarak bu nedenle son testten bu yana ne kadar geçtiğini gösterir.
+:::note Hazır olup olmadığını takvim değil, ölçümleriniz belirler
+Yolculuk, akvaryumun hazır olup olmadığını kaç hafta geçtiğine değil, kaydettiğiniz sonuçlara göre söyler. İki haftadır test edilmeyen bir akvaryum olduğu aşamada kalır. Yolculuk son testten bu yana geçen süreyi de bu yüzden gösterir.
 :::
 
-## Bir sorunun içinden geçme
+## Bir sorunu çözme
 
-Sorun yolculukları **tek bir belirli sorunu** kapsar: dinoflagellatlar. Cora, okumalarınız ve raporunuz bunu önerdiğinde birini sunar; yolculuk yalnızca teklifi kabul ettiğinizde oluşturulur, hiçbir zaman otomatik olarak değil.
+Sorun yolculukları **tek bir sorunu kapsar: dinoflagellatlar**. Ölçümleriniz ve raporunuz bu soruna işaret ettiğinde Cora size bir yolculuk önerir. Yolculuk yalnızca siz öneriyi kabul ederseniz başlar, kendiliğinden hiç başlamaz.
 
-:::note Yolculuklar henüz genel bir sorun çözücü değil
-Döngüleme ve dinoflagellatlar bugün var olan iki tanesidir. Diğer sorunlar bunun yerine [Cora Assistant](/help/mobile-assistant) ve [günlük](/help/mobile-journal) ile çözülür.
+:::note Yolculuklar henüz her sorun için yok
+Şu an yalnızca iki yolculuk var: döngü ve dinoflagellatlar. Diğer sorunlarda [Cora Assistant](/help/mobile-assistant) ve [günlük](/help/mobile-journal) ile ilerleyin.
 :::
 
-Bir sorun yolculuğu beş aşamadan geçer:
+Sorun yolculuğu beş aşamadan geçer:
 
-1. **Doğrulama**: bu gerçekten oluyor mu? Cora, bir sorun olduğunu kabul etmeden önce okumalarınızı kontrol eder.
-2. **Kanıt**: gerekeni toplayın. Genellikle bir test, bazen bir fotoğraf veya bir gözlem.
+1. **Doğrula**: Sorun gerçekten var mı? Cora sorunu kabul etmeden önce ölçümlerinizi kontrol eder.
+2. **Kanıt**: Gerekenleri toplayın. Genellikle bir test, bazen bir fotoğraf ya da gözlem.
 3. **Plan**: Cora ne yapılacağını ve nedenini önerir.
-4. **Uygulama**: ne kadar sürerse sürsün, siz yaparsınız.
-5. **Sonuç**: işe yaradı mı?
+4. **Uygulama**: Planı siz uygularsınız, ne kadar sürerse sürsün.
+5. **Sonuç**: İşe yaradı mı?
 
-:::note Doğrulama, Cora'nın çalıştırdığı bir kontrol değil, sizin tamamladığınız bir adımdır
-Bir sorun yolculuğu **Doğrulama** ile açılır; bu, bir plan göstermeden önce gerçekte ne olduğunu onaylamanızı ister. Bu bilerek yapılan bir ilk adımdır; değerlendirilmiyorsunuz, bakmanız isteniyor. Bir döngüleme yolculuğunun doğrulanacak bir okuması yoktur ve **Uygulama**'da başlar.
+:::note Doğrula adımını siz tamamlarsınız
+Sorun yolculuğu **Doğrula** adımıyla açılır. Cora size plan göstermeden önce gerçekte neler olduğunu onaylamanızı ister. Bu bilinçli bir ilk adımdır. Sizi sınamıyor, yalnızca akvaryuma bakmanızı istiyor. Döngü yolculuğunda doğrulanacak bir ölçüm olmadığı için yolculuk doğrudan **Uygulama** aşamasından başlar.
 :::
 
 ### Sonucu kaydetme
 
-Sonunda ne olduğunu söylersiniz:
+Yolculuğun sonunda ne olduğunu seçersiniz:
 
 **Çözüldü** · **İyileşiyor** · **Değişiklik yok** · **Kötüleşti** · **Durduruldu**
 
-Sonucu, **Kötüleşti** dahil, doğru şekilde kaydedin. Sonuç yolculukla birlikte saklanır; böylece daha sonraki benzer bir sorun, denenenle ve ortaya çıkanla karşılaştırılabilir.
+Sonucu, **Kötüleşti** de olsa doğru kaydedin. Sonuç yolculukla birlikte saklanır. İleride benzer bir sorun çıkarsa neyin denendiğini ve neyle sonuçlandığını karşılaştırabilirsiniz.
 
-## Bir yolculuğu kapatma
+## Yolculuğu kapatma
 
-Bir yolculuk kullanışlı değilse, onu kapatın. Görünmeyi durdurur ve kapatma kaydedilir, böylece benzer yolculuklar daha az sunulur.
+Bir yolculuk işinize yaramıyorsa kapatın. Yolculuk artık görünmez. Kapattığınız kaydedilir ve benzer yolculuklar size daha seyrek önerilir.

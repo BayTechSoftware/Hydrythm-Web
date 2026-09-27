@@ -1,49 +1,49 @@
 ---
 title: Yardım alma
-description: Cora Mobile içinden bir sorunu bildirin ve bununla birlikte neler gönderildiğini öğrenin.
+description: Sorunları Cora Mobile içinden bildirin ve rapora nelerin eklendiğini öğrenin.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Bir sorunu Cora Mobile içinden bildirmek, daha sonra anlatmaktan daha faydalıdır, çünkü Cora Mobile hatırlaması zor olan ayrıntıları kendisi ekler.
+Sorunu Cora Mobile içinden bildirmek, sonradan anlatmaktan daha çok işe yarar. Cora Mobile, akılda tutması zor ayrıntıları rapora kendisi ekler.
 
 **Ayarlar → Hata Bildir / Geri Bildirim Gönder.**
 
-## Doldurduğunuz bilgiler
+## Sizin doldurduklarınız
 
-Form iki şey sorar: raporun doğru yere gitmesi için **ne tür bir şey olduğu** ve kendi ifadelerinizle **ne olduğu**.
+Form iki şey sorar. Raporun doğru yere ulaşması için sorunun **türünü** seçersiniz. Sonra **ne olduğunu** kendi cümlelerinizle yazarsınız.
 
-Ne beklediğinizi ve yerine ne gördüğünüzü net yazın. "Apex düzgün okurken panoda alkalinite 2 gün eski görünüyordu" ifadesi "okumalar bozuk" demekten daha değerlidir.
+Ne beklediğinizi ve onun yerine ne gördüğünüzü açıkça yazın. "Apex doğru ölçerken panoda alkalinite 2 gün önceki değeri gösteriyordu" gibi bir cümle, "ölçümler bozuk" demekten çok daha işe yarar.
 
-## Otomatik olarak eklenenler
+## Otomatik eklenenler
 
-Her raporla birlikte kısa bir bağlam satırı gider ve form göndermeden önce bunu size gösterir:
+Her rapora kısa bir bilgi satırı eklenir. Form bu satırı göndermeden önce size gösterir:
 
 - **uygulama sürümü**
-- **platformunuz** ve işletim sistemi sürümünüz
-- formu açtığınızda üzerinde olduğunuz **ekran**
+- **platformunuz** ve işletim sistemi sürümü
+- formu açtığınız sırada bulunduğunuz **ekran**
 
-"Çalışmadı" demeyi yeniden üretilebilir bir şeye çeviren de budur. Gizlenmez, gösterilir; böylece görmediğiniz hiçbir şey gönderilmez.
+"Çalışmadı" şikâyetini tekrar denenebilir bir hataya çeviren bu bilgilerdir. Satır gizli değildir, ekranda görünür. Görmediğiniz hiçbir şey gönderilmez.
 
 ## Ekran görüntüleri
 
-**Bir ekran görüntüsü ekle**, rapora bir görsel ekler; **Ekran görüntüsünü kaldır** ise göndermeden önce onu tekrar çıkarır.
+**Bir ekran görüntüsü ekle** ile rapora resim eklersiniz. **Ekran görüntüsünü kaldır** ile göndermeden önce resmi yeniden çıkarırsınız.
 
-:::warning Ekran görüntüsü Cora desteği tarafından görülür
-Cora Mobile bunu kontrolün üzerinde belirtir. Eklemeden önce görseli kontrol edin; bir pano ekran görüntüsü akvaryum adlarınızı, okumalarınızı ve o anda ekranda olan başka her şeyi taşır.
+:::warning Ekran görüntülerini Cora destek ekibi görür
+Cora Mobile bunu düğmenin hemen üstünde yazar. Eklemeden önce resme göz atın. Pano ekran görüntüsünde akvaryum adlarınız, ölçümleriniz ve o an ekranda olan her şey görünür.
 :::
 
-:::note Bakıcı modunda neden ekran görüntüsü seçeneği yok
-Paylaşılan bir bağlantı üzerinden başka birinin akvaryumunu görüntülerken ekran görüntüsü seçeneği sunulmaz. O sırada alınacak bir ekran görüntüsü, *onların* verisini *sizin* destek talebinize ekler ve bunun olduğunu asla görmezler.
+:::note Bakıcı modunda ekran görüntüsü neden eklenemez
+Başka birinin akvaryumuna paylaşılan bir bağlantıdan bakıyorsanız ekran görüntüsü seçeneği çıkmaz. O sırada alınan ekran görüntüsü, *onların* verisini *sizin* destek talebinize ekler. Üstelik onlar bunu hiç fark etmez.
 :::
 
 ## Otomatik çökme raporları
 
-Rapor satırının yanındaki **Çökme raporları gönder**, bir şeyin bozulduğunu fark edip yazmanıza gerek kalmadan aynı sözü tutar: Cora Mobile çökerse çökmeyi kendisi bildirir. Bkz. [Ayarlar](/help/mobile-settings).
+Bildirim satırının yanındaki **Çökme raporları gönder** aynı işi sizin yerinize yapar. Bir şeyin bozulduğunu fark edip yazmanız gerekmez. Cora Mobile çökerse çökmeyi kendisi bildirir. Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
 
-## Başka yerlerde
+## Başka nereden yardım alabilirsiniz
 
-- Kendi akvaryumunuzla ilgili sorular genellikle okumalarınızı görebilen **[Cora Assistant](/help/mobile-assistant)** üzerinden daha hızlı yanıtlanır.
-- Belgelenenden farklı bir davranış: önce **[Sorun giderme](/help/troubleshooting)**.
+- Kendi akvaryumunuzla ilgili sorulara genellikle **[Cora Assistant](/help/mobile-assistant)** daha hızlı yanıt verir. Asistan ölçümlerinizi görebilir.
+- Bir şey burada anlatıldığı gibi çalışmıyorsa önce **[Sorun giderme](/help/troubleshooting)** sayfasına bakın.

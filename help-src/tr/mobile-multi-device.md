@@ -1,78 +1,78 @@
 ---
 title: Birden fazla Cora cihazı
-description: Hangi cihazın sesi yanıtladığını ve hangisinin her akvaryumu yokladığını seçin.
+description: Sesinize hangi cihazın yanıt vereceğini ve her akvaryumu hangi cihazın yoklayacağını seçin.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 29
 group: Account
 ---
 
-Bir hanede birden fazla Cora Max olabilir. İki ayar hangisinin neyi yaptığına karar verir, böylece birbirinin işini tekrarlamazlar ve bilmeye değer üçüncü bir şey, aralarında neyin hiç paylaşıldığıdır.
+Bir evde birden fazla Cora Max olabilir. İki ayar hangi cihazın ne yapacağını belirler. Böylece cihazlar aynı işi iki kez yapmaz. Bir de cihazlar arasında nelerin paylaşıldığını bilmeniz işinize yarar.
 
-## Ne paylaşılır ve ne paylaşılmaz
+## Neler paylaşılır, neler paylaşılmaz
 
-| Her cihazda paylaşılan | Bir ekrana ait |
+| Bütün cihazlarda ortak | Her ekranın kendine ait |
 |---|---|
-| Akvaryumlar, okumalar ve geçmiş | Pano düzeni |
+| Akvaryumlar, ölçümler ve geçmiş | Pano düzeni |
 | Cihazlar ve ayarları | Wi-Fi, parlaklık, ses |
 | Günlük, canlılar, bakım | Uyandırma sözcüğü ve çocuk kilidi |
-| Uyarılar, eşikler, otomasyonlar | Bu ekranın gösterdiği akvaryumlar |
+| Uyarılar, eşikler, otomasyonlar | Ekranın hangi akvaryumları gösterdiği |
 | Planlar ve kullanım | |
 
-Bir cihazda bir eşiği değiştirmek onu her yerde değiştirir. Bir panoyu yeniden düzenlemek değiştirmez; her ekran kendisininkini tutar ve telefon ile Cora Max hiçbir zaman bir tanesini paylaşmaz.
+Bir cihazda eşiği değiştirirseniz her yerde değişir. Panonun düzenini değiştirmek ise yalnızca o ekranı etkiler. Her ekran kendi düzenini tutar. Telefon ile Cora Max hiçbir zaman aynı düzeni paylaşmaz.
 
 ## Cora Assistant: Yanıtlayan cihaz
 
-**Ayarlar → Cora Assistant → Yanıtlayan cihaz**, odaya konuştuğunuzda hangi **Cora cihazının** yanıt vereceğini seçer. Kaçı sizi işitebilirse işitsin, yalnızca biri yanıt verir; genellikle durduğunuz yere en yakın birime ayarlayın.
+Odada konuştuğunuzda hangi **Cora cihazının** yanıt vereceğini **Ayarlar → Cora Assistant → Yanıtlayan cihaz** bölümünden seçersiniz. Sizi kaç cihaz duyarsa duysun, yalnızca biri yanıt verir. Genellikle en çok durduğunuz yere en yakın cihazı seçin.
 
-Bu, aşağıdaki Birincil Cora Max'ten farklı bir seçimdir: Yanıtlayan cihaz hangi cihazın sesinizi yanıtladığına, Birincil Cora Max ise hangi cihazın bir akvaryumun ekipmanını yokladığına karar verir. İki tableti olan bir hane, bunları farklı şekilde ayarlamak isteyebilir.
+Bu ayar, aşağıda anlatılan Birincil Cora Max'ten farklıdır. Yanıtlayan cihaz sesinize hangi cihazın yanıt vereceğini belirler. Birincil Cora Max ise akvaryumun ekipmanını hangi cihazın yoklayacağını belirler. İki tableti olan bir evde bu iki ayarı farklı cihazlara vermek isteyebilirsiniz.
 
-![Ses yanıtlayıcı seçici](img/mobile-voice-responder.webp "Her cihaz ne dinlediğini ve çevrimiçi olup olmadığını gösterir.")
+![Yanıtlayan cihaz seçimi](img/mobile-voice-responder.webp "Her cihaz hangi ifadeyi dinlediğini ve çevrimiçi olup olmadığını gösterir.")
 
-Listedeki her cihaz, dinlediği uyandırma ifadesini ve çevrimiçi olup olmadığını gösterir. **Bunlar hepsi aynı değildir.** Bir uyandırma ifadesi cihazın kendisine eğitilir, bu yüzden farklı Cora modelleri farklı ifadeleri dinleyebilir. İfadeyi hanenin bir tanesini paylaştığını varsaymak yerine cihazın kendi satırından okuyun.
+Listedeki her cihazda dinlediği uyandırma ifadesi ve çevrimiçi olup olmadığı görünür. **Uyandırma ifadeleri her cihazda aynı olmayabilir.** Uyandırma ifadesi cihazın kendisine öğretilir. Bu yüzden farklı Cora modelleri farklı ifadeler dinleyebilir. Evdeki bütün cihazların aynı ifadeyi dinlediğini varsaymayın, ifadeyi her cihazın kendi satırından okuyun.
 
-:::note Telefonunuz bu seçicide değildir
-Telefon bir uyandırma ifadesi dinlemez. Onda bir konuşma dokunarak başlatılır, bu her zaman çalışır ve bu ayardan etkilenmez. Seçici yalnızca ses yeteneği olan Cora donanımını listeler.
+:::note Telefonunuz bu listede yok
+Telefon uyandırma ifadesi dinlemez. Telefonda sohbeti dokunarak başlatırsınız. Bu her zaman çalışır ve bu ayardan etkilenmez. Listede yalnızca sesli komut destekleyen Cora cihazları görünür.
 :::
 
 ## Birincil Cora Max
 
-Ağınızdaki ekipman bir Cora Max tarafından okunur. Aynı kontrolcüyü birden fazlası okuyabilseydi, aksi halde onu paralel olarak yoklarlardı.
+Ağınızdaki ekipmanı bir Cora Max okur. Aynı kontrol ünitesini birden fazla Cora Max okuyabiliyorsa, bir ayar yapılmadıkça hepsi aynı anda yoklar.
 
-**Birincil Cora Max**, hangi cihazın o akvaryumun kontrolcüsünü okuyacağının akvaryum başına bir seçimidir. Cora Mobile'da, akvaryumu açın ve **Birincil Cora Max**'a dokunun.
+**Birincil Cora Max**, her akvaryum için o akvaryumun kontrol ünitesini hangi cihazın okuyacağını belirler. Cora Mobile'da akvaryumu açın ve **Birincil Cora Max**'e dokunun.
 
-| Ayar | Davranış |
+| Ayar | Ne olur |
 |---|---|
-| Adlandırılmış bir cihaz | Kontrolcüyü yoklayan tek Cora cihazı olur ve çevrimdışıyken bile birincil kalır: diğer Cora cihazları devralmaz. Cora Mobile yalnızca o çevrimdışıyken yoklar. |
-| **Aktif olan herhangi biri (otomatik)** | Uygulama ve herhangi bir çevrimiçi Cora cihazı işi paylaşır (en son yazma kazanır), böylece biri çevrimdışı olursa diğeri sürdürür. Tek cihazlı bir hane için uygundur ve hangi cihazın onu sahiplenmesi gerektiğinden emin olmadığınızda daha güvenli varsayılandır. |
+| Belirli bir cihaz | Kontrol ünitesini yalnızca bu Cora cihazı yoklar. Cihaz çevrimdışı olsa da birincil olarak kalır, diğer Cora cihazları işi devralmaz. Cihaz çevrimdışıyken yalnızca Cora Mobile yoklar. |
+| **Aktif olan herhangi biri (otomatik)** | Uygulama ve çevrimiçi Cora cihazları işi paylaşır (en son yazan geçerli olur). Biri çevrimdışı olursa diğeri devam eder. Tek cihazlı evler için uygundur. Hangi cihazın bu işi üstlenmesi gerektiğinden emin değilseniz de daha güvenli seçenektir. |
 
-Adlandırdığınız bir cihaz çevrimdışıyken, onun üzerinden gitmesi gereken bir komut çalışmaz: Cora size akvaryumun o cihazı kullanmaya ayarlı olduğunu, çevrimdışı olduğunu ve hiçbir şeyin çalışmadığını söyler, böylece o geri geldiğinde yeniden deneyebilirsiniz. Bir süre çevrimdışı kalacaksa, başka bir cihaz veya **Aktif olan herhangi biri (otomatik)**'i seçin.
+Seçtiğiniz cihaz çevrimdışıyken, o cihaz üzerinden gitmesi gereken komutlar çalışmaz. Cora size akvaryumun o cihazı kullanacak şekilde ayarlı olduğunu, cihazın çevrimdışı olduğunu ve hiçbir şeyin çalışmadığını söyler. Cihaz geri geldiğinde yeniden deneyebilirsiniz. Cihaz bir süre çevrimdışı kalacaksa başka bir cihaz ya da **Aktif olan herhangi biri (otomatik)** seçin.
 
-:::note İki cihaz bir akvaryumu izlediğinde bir birincil belirleyin
-Bir birincili adlandırmak, kontrolcü üzerindeki yükü azaltır ve aynı kaynaktan tekrarlanan okumaları kaldırır.
+:::note İki cihaz aynı akvaryumu izliyorsa birincil cihaz seçin
+Birincil cihaz seçmek kontrol ünitesinin yükünü azaltır ve aynı kaynaktan gelen tekrarlı ölçümleri önler.
 :::
 
-:::note Bu, cihaz başına değil hesap genelinde, akvaryum başına bir ayardır
-Birincil Cora Max, baktığınız telefona veya tablete değil akvaryuma aittir. Onu herhangi bir cihazdan değiştirmek tüm hane için değiştirir.
+:::note Bu ayar cihaza değil, akvaryuma aittir
+Birincil Cora Max, baktığınız telefonun ya da tabletin değil, akvaryumun ayarıdır ve bütün hesapta geçerlidir. Hangi cihazdan değiştirirseniz değiştirin bütün ev için değişir.
 :::
 
-## Evden uzakta ne çalışır
+## Evden uzaktayken neler çalışır
 
-Akvaryumunuzun kendi Wi-Fi'sinden uzaktayken telefonunuz ekipmanınızla doğrudan konuşmaz. Bunun yerine, bir komut Cora Cloud'a gider, o da onu akvaryumun başındaki bir Cora Max'e iletir; ekipmana gerçekten ulaşan cihaz odur.
+Akvaryumun Wi-Fi ağından uzaktayken telefonunuz ekipmanınızla doğrudan konuşmaz. Komut önce Cora Cloud'a gider. Cora Cloud da komutu akvaryumun yanındaki Cora Max'e iletir. Ekipmana asıl ulaşan o Cora Max'tir.
 
 Bu şu anlama gelir:
 
-- **Okumalar ve geçmiş**, zaten Cora Cloud'da saklandığı için nerede olursanız olun her zaman kullanılabilir.
-- **Ekipmanı kontrol etme** (bir prizi açıp kapatma, bir besleme başlatma, bir kafayı dozajlama, bir pompayı duraklatma), akvaryumdaki bir Cora Max çevrimiçiyse ve o ekipmana ulaşabiliyorsa, evden uzaktayken de çalışır. Hiçbiri değilse, komut teslim edilemez.
-- **Bir cihazın kendi yerel ayarları** (okumalarının aksine) bazen akvaryumdaki bir Cora Max değil, cihazın kendisiyle *aynı* ağda bir telefon gerektirir. Bu geçerli olduğunda, sayfa bunu söyler.
+- **Ölçümler ve geçmiş** her yerden görünür, çünkü zaten Cora Cloud'da saklanır.
+- **Ekipmanı kontrol etmek** (prizi açıp kapatmak, beslemeyi başlatmak, bir kafadan dozaj yapmak, pompayı duraklatmak) evden uzaktayken de çalışır. Bunun için akvaryumun yanındaki bir Cora Max'in çevrimiçi olması ve o ekipmana ulaşabilmesi gerekir. Böyle bir Cora Max yoksa komut ulaştırılamaz.
+- **Cihazın kendi ayarları** için (ölçümleri için değil) bazen akvaryumdaki Cora Max yetmez, cihazla *aynı* ağda bir telefon gerekir. Böyle durumlarda sayfada bu yazar.
 
-İki mesaj, komutun basitçe başarılı olmadığını size söyler:
+İki mesaj komutun normal şekilde tamamlanmadığını gösterir:
 
-- **"Hiçbir şey gönderilmedi"**: komut telefonunuzdan hiç ayrılmadı, veya akvaryumdaki hiçbir Cora Max onu alamadı. Hiçbir şey çalışmadı. Akvaryumun Birincil Cora Max'i çevrimdışıysa ve o akvaryumda devreye girebilecek başka bir cihaz yoksa göreceğiniz şey budur.
-- **"Zaten çalışmış olabilir"**: komut gönderildi, ama zamanında hiçbir Cora Max onu onaylamak için yanıt vermedi. Cora, gerçekten çalışıp çalışmadığını bilmiyor. İki kez göndermemek için yeniden denemeden önce ekipmanın kendi durumunu kontrol edin.
+- **"Hiçbir şey gönderilmedi"**: komut telefonunuzdan hiç çıkmadı ya da akvaryumdaki hiçbir Cora Max komutu alamadı. Hiçbir şey çalışmadı. Akvaryumun Birincil Cora Max'i çevrimdışıysa ve o akvaryumda işi devralabilecek başka cihaz yoksa bu mesajı görürsünüz.
+- **"Zaten çalışmış olabilir"**: komut gönderildi ama hiçbir Cora Max zamanında onaylamadı. Cora komutun çalışıp çalışmadığını gerçekten bilmiyor. Komutu iki kez göndermemek için tekrar denemeden önce ekipmanın durumuna bakın.
 
-Bu mesajlardan biri görünmeyi sürdürürse, akvaryumdaki bir Cora Max'in çevrimiçi olduğunu kontrol edin, veya herhangi bir çevrimiçi cihazın komutu alabilmesi için **Birincil Cora Max**'ı **Aktif olan herhangi biri (otomatik)**'e ayarlayın. Bir komutun alabileceği tam sonuçlar için bkz. [Ekipmanınızı kontrol etme](/help/mobile-device-control).
+Bu mesajlardan biri sürekli çıkıyorsa akvaryumdaki bir Cora Max'in çevrimiçi olduğunu kontrol edin. Ya da **Birincil Cora Max** ayarını **Aktif olan herhangi biri (otomatik)** yapın. Böylece çevrimiçi olan herhangi bir cihaz komutu alabilir. Bir komutun olası bütün sonuçları [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 
-## Her cihazın durumunun gösterildiği yer
+## Her cihazın durumu nerede görünür
 
-Cora Max, kendi yoklama ve ses durumunu **Ayarlar → Cora Max → Yazılım → Cihaz sağlığı ve kontroller** altında bildirir. Bkz. [Cihazlar ve cihaz sağlığı](/help/max-devices).
+Cora Max her akvaryumun yoklama durumunu **Ayarlar → Cora Max Ayarları → Durum** bölümünde gösterir. Ayrıntılar [Cihazlar ve cihaz sağlığı](/help/max-devices) sayfasında.

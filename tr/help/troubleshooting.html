@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sorun giderme | Cora Help</title>
-  <meta name="description" content="Okumalar durdu, bir cihaz çevrimdışı oldu, uyarılar kapanmıyor, veya bir şey yanlış görünüyor. Buradan başlayın.">
+  <meta name="description" content="Ölçümler durdu, bir cihaz çevrimdışı, uyarı kapanmıyor ya da bir şey ters gidiyor. Buradan başlayın.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/tr/help/troubleshooting">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/troubleshooting">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sorun giderme | Cora Help">
-  <meta property="og:description" content="Okumalar durdu, bir cihaz çevrimdışı oldu, uyarılar kapanmıyor, veya bir şey yanlış görünüyor. Buradan başlayın.">
+  <meta property="og:description" content="Ölçümler durdu, bir cihaz çevrimdışı, uyarı kapanmıyor ya da bir şey ters gidiyor. Buradan başlayın.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/tr/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -64,25 +64,25 @@
 <p class="nav-sec">Cora Mobile</p>
 <details class="nav-g">
 <summary>Başlarken</summary><ul>
-<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
-<li><a href="/tr/help/mobile-account">Oturum açma ve hesap kurtarma</a></li>
+<li><a href="/tr/help/mobile-setup">Cora Mobile kurulumu</a></li>
+<li><a href="/tr/help/mobile-account">Giriş yapma ve hesabı kurtarma</a></li>
 <li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
 <li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Panonuz</summary><ul>
-<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
-<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
-<li><a href="/tr/help/mobile-widgets">Widget referansı</a></li>
-<li><a href="/tr/help/mobile-metric-detail">Bir parametreye bakma</a></li>
-<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşma</a></li>
+<li><a href="/tr/help/mobile-dashboard">Panoyu okuma</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panoyu düzenleme</a></li>
+<li><a href="/tr/help/mobile-widgets">Widget rehberi</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Parametre ayrıntıları</a></li>
+<li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşın</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Ekipman</summary><ul>
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman zamanlama</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
 <li><a href="/tr/help/mobile-probes">Problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
 </ul></details>
@@ -102,14 +102,14 @@
 </ul></details>
 <details class="nav-g">
 <summary>Zeka</summary><ul>
-<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorma</a></li>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorun</a></li>
 <li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
 <li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
 <li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Hesap</summary><ul>
-<li><a href="/tr/help/mobile-vacation">Uzaklaşma</a></li>
+<li><a href="/tr/help/mobile-vacation">Tatile çıkarken</a></li>
 <li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
 <li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
 <li><a href="/tr/help/mobile-plans">Planlar</a></li>
@@ -168,178 +168,175 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Sorun giderme</h1>
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#bir-widget-deer-gstermiyor">Bir widget değer göstermiyor</a></li><li><a href="#bir-okuma-eski">Bir okuma eski</a></li><li><a href="#bir-cihaza-ulalamyor">Bir cihaza ulaşılamıyor</a></li><li><a href="#bir-cihaz-oturum-amann-reddedildiini-sylyor">Bir cihaz oturum açmanın reddedildiğini söylüyor</a></li><li><a href="#bir-cora-maxi-eletirme-baarsz-oluyor">Bir Cora Max&#x27;i eşleştirme başarısız oluyor</a></li><li><a href="#cora-max-eski-veri-gsteriyor">Cora Max eski veri gösteriyor</a></li><li><a href="#bir-uyar-kapanmyor">Bir uyarı kapanmıyor</a></li><li><a href="#iki-kaynak-anlamyor">İki kaynak anlaşmıyor</a></li><li><a href="#bildirim-almyorum">Bildirim almıyorum</a></li><li><a href="#bir-eyin-neden-deitiini-belirleme">Bir şeyin neden değiştiğini belirleme</a></li><li><a href="#panom-dzenledikten-sonra-yanl-grnyor">Panom düzenledikten sonra yanlış görünüyor</a></li><li><a href="#red-sea-okumalar-gncellenmeyi-durdurdu">&quot;Red Sea okumaları güncellenmeyi durdurdu&quot;</a></li><li><a href="#bu-pompaya-ulalamad-hibir-ey-gnderilmedi">&quot;Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi&quot;</a></li><li><a href="#bu-pompaya-bluetooth-zerinden-ulalamad-yanna-gidip-yeniden-d">&quot;Bu pompaya Bluetooth üzerinden ulaşılamadı. Yanına gidip yeniden deneyin.&quot;</a></li><li><a href="#o-gyreye-ulalamad-hibir-besleme-balatlmad">&quot;O gyre&#x27;ye ulaşılamadı. Hiçbir besleme başlatılmadı.&quot;</a></li><li><a href="#o-gyreye-ulalamad-program-deitirilmedi">&quot;O gyre&#x27;ye ulaşılamadı. Programı değiştirilmedi.&quot;</a></li><li><a href="#apexe-ulalamad-hibir-ey-deimedi-hibir-ey-dozajlanmad">&quot;Apex&#x27;e ulaşılamadı: hiçbir şey değişmedi&quot; / &quot;hiçbir şey dozajlanmadı&quot;</a></li><li><a href="#bu-gnderilemedi-bu-akvaryumda-hibir-cihaz-bunu-gnderemez">&quot;Bu gönderilemedi: bu akvaryumda hiçbir cihaz bunu gönderemez&quot;</a></li><li><a href="#ikincil-bir-cora-max-ana-cora-evrimd-gsteriyor">İkincil bir Cora Max &quot;Ana Cora çevrimdışı&quot; gösteriyor</a></li><li><a href="#cihaz-evrimd-bilinen-son-durum-gsteriliyor">&quot;Cihaz çevrimdışı. Bilinen son durum gösteriliyor.&quot;</a></li><li><a href="#baz-reefbeat-ayarlar-griye-dnm-veya-eksik">Bazı ReefBeat ayarları griye dönmüş veya eksik</a></li><li><a href="#coraya-ulalamad-wi-finizi-veya-mobil-verinizi-kontrol-edin-a">&quot;Cora&#x27;ya ulaşılamadı. Wi-Fi&#x27;nizi veya mobil verinizi kontrol edin, ardından yeniden deneyin.&quot;</a></li><li><a href="#her-ey-aniden-yanl-dilde">Her şey aniden yanlış dilde</a></li><li><a href="#deitirdikten-sonra-eski-bir-uyar-veya-rapor-hl-farkl-bir-dil">Değiştirdikten sonra eski bir uyarı veya rapor hâlâ farklı bir dilde</a></li><li><a href="#onayladktan-sonra-bile-bir-uyar-bildirmeyi-durdurmuyor">Onayladıktan sonra bile bir uyarı bildirmeyi durdurmuyor</a></li><li><a href="#bir-dozaj-yar-yolda-durdu-ve-bir-geri-getirme-uyars-belirdi">Bir dozaj yarı yolda durdu ve bir &quot;geri getirme&quot; uyarısı belirdi</a></li><li><a href="#telefonda-yaplan-bir-sahne-cora-maxte-dzenlenebilir-grnmyor">Telefonda yapılan bir sahne Cora Max&#x27;te düzenlenebilir görünmüyor</a></li><li><a href="#cora-assistant-yanl-akvaryum-hakknda-yant-veriyor">Cora Assistant yanlış akvaryum hakkında yanıt veriyor</a></li><li><a href="#cora-assistant-yant-vermeyi-reddediyor-veya-onay-ekrann-yeni">Cora Assistant yanıt vermeyi reddediyor, veya onay ekranını yeniden gösteriyor</a></li><li><a href="#bir-lab-veya-e-postayla-gelen-icp-sonucu-hi-grnmedi">Bir lab veya e-postayla gelen ICP sonucu hiç görünmedi</a></li><li><a href="#e-postayla-gelen-bir-icp-bildirimi-hibir-lab-adlandrmyor">E-postayla gelen bir ICP bildirimi hiçbir lab adlandırmıyor</a></li><li><a href="#bir-widget-yanl-birimleri-gsteriyor">Bir widget yanlış birimleri gösteriyor</a></li><li><a href="#grnt-birimlerini-deitirdikten-sonra-bir-gsterge-veya-eik-far">Görüntü birimlerini değiştirdikten sonra bir gösterge veya eşik farklı görünüyor</a></li><li><a href="#cora-max-bir-wi-fi-kesintisinden-sonra-hemen-yeniden-balanmy">Cora Max bir Wi-Fi kesintisinden sonra hemen yeniden bağlanmıyor</a></li><li><a href="#bir-cora-maxi-telefonda-yeniden-adlandrmak-tabletin-gsterdii">Bir Cora Max&#x27;i telefonda yeniden adlandırmak tabletin gösterdiğini değiştirmiyor</a></li><li><a href="#cora-maxte-uyandrma-szcn-nerede-kapatacam-bulamyorum">Cora Max&#x27;te uyandırma sözcüğünü nerede kapatacağımı bulamıyorum</a></li><li><a href="#ocuk-kilidi-kimseyi-ayarlara-brakmyor">Çocuk kilidi kimseyi Ayarlar&#x27;a bırakmıyor</a></li><li><a href="#hl-takl-kaldysanz">Hâlâ takılı kaldıysanız</a></li></ul></nav>
-<p>Belirtiden başlayın.</p>
-<h2 id="bir-widget-deer-gstermiyor">Bir widget değer göstermiyor</h2>
-<p>Bu listeyi sırayla kontrol edin:</p>
-<ol><li><strong>Yakındaki widget'larda yaşı kontrol edin.</strong> Her şey eskiyse, sorun bağlantıdır, parametre değil.</li><li><strong>Cihazlar sekmesini açın.</strong> Ulaşılamayan bir cihaz bunu kendi satırında söyler.</li><li><strong>Akvaryum atamasını kontrol edin.</strong> Yanlış akvaryuma bildiren bir cihaz, hiç bildirmeyen bir cihazla tıpatıp aynı görünür. Cihazı açın ve akvaryumunu doğrulayın.</li><li><strong>Kaynağın var olduğunu kontrol edin.</strong> Onu ölçen bir ekipmanınız olmadıkça veya elle kaydetmedikçe hiçbir şey fosfat bildirmez.</li></ol>
-<h2 id="bir-okuma-eski">Bir okuma eski</h2>
-<p>Yaş rozeti size gerçeği söylüyor: yeni bir şey gelmedi.</p>
-<ul><li><strong>Elle kaydedilen parametreler</strong>, hiçbir okuma girilmediğinde eskir. Bir tane kaydedin.</li><li><strong>Ekipman okumalarının</strong> eskimesi, cihazın bildirmeyi durdurduğu anlamına gelir; <strong>Cihazlar</strong>'da satırını kontrol edin.</li><li><strong>Bazı ekipman yavaş olmak üzere tasarlanmıştır.</strong> Saatlik ölçüm yapan bir titratör normal olarak <code>1s</code> okur. Bu bir arıza değildir.</li></ul>
-<h2 id="bir-cihaza-ulalamyor">Bir cihaza ulaşılamıyor</h2>
-<p>Genellikle ağdır.</p>
-<ol><li>Ekipman açık ve kendi uygulamasında çalışıyor mu?</li><li>Eklendiği ağda mı?</li><li>Yönlendiriciniz değişti mi (yeni donanım, yeni ağ adı, misafir ağ izolasyonu)?</li></ol>
-<p>Yerel ağınız üzerinden bağlanan ekipmanın o ağda erişilebilir olması gerekir. Bir üretici hesabı üzerinden bağlanan ekipmanın buna gereksinimi yoktur, ama o hesabın hâlâ geçerli olması gerekir.</p>
-<h2 id="bir-cihaz-oturum-amann-reddedildiini-sylyor">Bir cihaz oturum açmanın reddedildiğini söylüyor</h2>
-<p>Üretici kayıtlı oturum açmayı reddetti. Bu neredeyse her zaman parolanızı onların tarafında değiştirdiğiniz içindir.</p>
-<p>Cihaz satırını açın ve yeniden oturum açın.</p>
-<h2 id="bir-cora-maxi-eletirme-baarsz-oluyor">Bir Cora Max'i eşleştirme başarısız oluyor</h2>
-<p>Bir Cora Max ekleme ortasında dururuyorsa, Cora Mobile hangi adımın ve neden başarısız olduğunu, altında <strong>İptal</strong> ve <strong>Tekrar dene</strong> ile söyler.</p>
-<ul><li><em>"Telefonunuz Wi-Fi'nizdeki Cora Max'e ulaşamadı."</em> Telefonunuzu ve Cora Max'i aynı Wi-Fi ağına koyun. iPhone'da, Cora'nın Yerel Ağ erişimi olduğunu da kontrol edin: <strong>Ayarlar → Cihaz erişimi</strong> sizi oraya götürür (bkz. <a href="/tr/help/mobile-settings">Ayarlar</a>). Ardından <strong>Tekrar dene</strong>'ye dokunun.</li><li><em>"Cora Max bu eşleştirme oturumunu kabul etmedi."</em> Yeniden denemek yardımcı olmayacaktır. Ekranı kapatın ve <strong>Cihazlar → Cihaz Ekle</strong>'den yeniden başlayın.</li></ul>
-<p>Başka herhangi bir mesaj için, <strong>Tekrar dene</strong>'ye dokunun.</p>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#widget-deer-gstermiyor">Widget değer göstermiyor</a></li><li><a href="#lm-eski">Ölçüm eski</a></li><li><a href="#cihaza-ulalamyor">Cihaza ulaşılamıyor</a></li><li><a href="#cihazda-oturum-ama-reddedildi-yazyor">Cihazda oturum açma reddedildi yazıyor</a></li><li><a href="#cora-max-eletirmesi-baarsz-oluyor">Cora Max eşleştirmesi başarısız oluyor</a></li><li><a href="#cora-max-eski-veri-gsteriyor">Cora Max eski veri gösteriyor</a></li><li><a href="#uyar-kapanmyor">Uyarı kapanmıyor</a></li><li><a href="#iki-kaynak-farkl-sonu-veriyor">İki kaynak farklı sonuç veriyor</a></li><li><a href="#bildirim-gelmiyor">Bildirim gelmiyor</a></li><li><a href="#bir-eyin-neden-deitiini-bulmak">Bir şeyin neden değiştiğini bulmak</a></li><li><a href="#dzenlemeden-sonra-pano-bozuk-grnyor">Düzenlemeden sonra pano bozuk görünüyor</a></li><li><a href="#red-sea-deerleri-gncellenmiyor">&quot;Red Sea değerleri güncellenmiyor&quot;</a></li><li><a href="#bu-pompaya-ulalamad-hibir-ey-gnderilmedi">&quot;Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi&quot;</a></li><li><a href="#bu-pompaya-bluetooth-zerinden-ulalamad-yaknna-gidip-tekrar-d">&quot;Bu pompaya Bluetooth üzerinden ulaşılamadı. Yakınına gidip tekrar deneyin.&quot;</a></li><li><a href="#bu-gyreye-ulalamad-besleme-balatlmad">&quot;Bu Gyre&#x27;ye ulaşılamadı. Besleme başlatılmadı.&quot;</a></li><li><a href="#bu-gyreye-ulalamad-program-deitirilmedi">&quot;Bu Gyre&#x27;ye ulaşılamadı. Programı değiştirilmedi.&quot;</a></li><li><a href="#apexe-ulalamad-hibir-ey-deimedi-hibir-ey-dozajlanmad">&quot;Apex&#x27;e ulaşılamadı: hiçbir şey değişmedi&quot; / &quot;hiçbir şey dozajlanmadı&quot;</a></li><li><a href="#bu-gnderilemedi-bu-akvaryumda-bunu-gnderebilecek-cihaz-yok">&quot;Bu gönderilemedi: bu akvaryumda bunu gönderebilecek cihaz yok&quot;</a></li><li><a href="#ikincil-cora-maxte-ana-cora-evrimd-yazyor">İkincil Cora Max&#x27;te &quot;Ana Cora çevrimdışı&quot; yazıyor</a></li><li><a href="#cihaz-evrimd-son-bilinen-durum-gsteriliyor">&quot;Cihaz çevrimdışı. Son bilinen durum gösteriliyor.&quot;</a></li><li><a href="#baz-reefbeat-ayarlar-gri-ya-da-hi-grnmyor">Bazı ReefBeat ayarları gri ya da hiç görünmüyor</a></li><li><a href="#coraya-ulalamad-wi-fi-veya-mobil-verinizi-kontrol-edip-tekra">&quot;Cora&#x27;ya ulaşılamadı. Wi-Fi veya mobil verinizi kontrol edip tekrar deneyin.&quot;</a></li><li><a href="#her-ey-birden-baka-bir-dilde-grnyor">Her şey birden başka bir dilde görünüyor</a></li><li><a href="#dil-deitikten-sonra-eski-bir-uyar-ya-da-rapor-hl-eski-dilde">Dil değiştikten sonra eski bir uyarı ya da rapor hâlâ eski dilde</a></li><li><a href="#uyary-grdm-ama-bildirim-gelmeye-devam-ediyor">Uyarıyı gördüm ama bildirim gelmeye devam ediyor</a></li><li><a href="#dozaj-yarda-kald-ve-geri-ykleme-uyars-geldi">Dozaj yarıda kaldı ve &quot;geri yükleme&quot; uyarısı geldi</a></li><li><a href="#telefonda-oluturulan-sahne-cora-maxte-dzenlenemiyor">Telefonda oluşturulan sahne Cora Max&#x27;te düzenlenemiyor</a></li><li><a href="#cora-assistant-yanl-akvaryumdan-bahsediyor">Cora Assistant yanlış akvaryumdan bahsediyor</a></li><li><a href="#cora-assistant-cevap-vermiyor-ya-da-onay-ekran-yeniden-kyor">Cora Assistant cevap vermiyor ya da onay ekranı yeniden çıkıyor</a></li><li><a href="#laboratuvardan-ya-da-e-postayla-gelen-icp-sonucu-hi-grnmedi">Laboratuvardan ya da e-postayla gelen ICP sonucu hiç görünmedi</a></li><li><a href="#e-postayla-gelen-icp-bildiriminde-laboratuvarn-ad-yok">E-postayla gelen ICP bildiriminde laboratuvarın adı yok</a></li><li><a href="#widget-yanl-birimle-gsteriyor">Widget yanlış birimle gösteriyor</a></li><li><a href="#grntleme-birimini-deitirince-gsterge-ya-da-eik-farkl-grnyor">Görüntüleme birimini değiştirince gösterge ya da eşik farklı görünüyor</a></li><li><a href="#wi-fi-kesintisinden-sonra-cora-max-hemen-yeniden-balanmyor">Wi-Fi kesintisinden sonra Cora Max hemen yeniden bağlanmıyor</a></li><li><a href="#cora-maxin-adn-telefonda-deitirdim-ama-tablette-deimedi">Cora Max&#x27;in adını telefonda değiştirdim ama tablette değişmedi</a></li><li><a href="#cora-maxte-uyandrma-szcn-nereden-kapatacam-bulamyorum">Cora Max&#x27;te uyandırma sözcüğünü nereden kapatacağımı bulamıyorum</a></li><li><a href="#ocuk-kilidi-ayarlara-girmeye-izin-vermiyor">Çocuk kilidi Ayarlar&#x27;a girmeye izin vermiyor</a></li><li><a href="#hl-zemediyseniz">Hâlâ çözemediyseniz</a></li></ul></nav>
+<p>Gördüğünüz belirtiyi aşağıda bulun.</p>
+<h2 id="widget-deer-gstermiyor">Widget değer göstermiyor</h2>
+<p>Şunları sırayla kontrol edin:</p>
+<ol><li><strong>Yakındaki widget'larda ölçümlerin yaşına bakın.</strong> Hepsi eskiyse sorun parametrede değil, bağlantıdadır.</li><li><strong>Cihazlar sekmesini açın.</strong> Ulaşılamayan cihazın satırında bu yazar.</li><li><strong>Cihazın hangi akvaryuma atandığına bakın.</strong> Yanlış akvaryuma veri gönderen bir cihaz, hiç veri göndermeyen bir cihazla tıpatıp aynı görünür. Cihazı açın ve akvaryumunu kontrol edin.</li><li><strong>Bu değeri ölçen bir kaynak var mı, bakın.</strong> Fosfatı ölçen bir ekipmanınız yoksa ya da fosfatı elle girmiyorsanız hiçbir yerden fosfat değeri gelmez.</li></ol>
+<h2 id="lm-eski">Ölçüm eski</h2>
+<p>Yaş etiketi doğruyu söylüyor, yeni bir ölçüm gelmemiş.</p>
+<ul><li><strong>Elle girilen parametreler</strong> yeni ölçüm girilmezse eskir. Yeni bir ölçüm girin.</li><li><strong>Ekipmandan gelen ölçümler</strong> eskiyorsa cihaz veri göndermeyi bırakmıştır. <strong>Cihazlar</strong>'da cihazın satırına bakın.</li><li><strong>Bazı ekipmanlar zaten yavaştır.</strong> Saatte bir ölçüm yapan bir titratörde normalde <code>1 sa</code> yazar. Bu bir arıza değildir.</li></ul>
+<h2 id="cihaza-ulalamyor">Cihaza ulaşılamıyor</h2>
+<p>Sorun genellikle ağdadır.</p>
+<ol><li>Ekipman açık mı ve kendi uygulamasında çalışıyor mu?</li><li>Eklendiği ağa bağlı mı?</li><li>Modeminiz değişti mi? Yeni cihaz, yeni ağ adı ya da misafir ağı yalıtımı olabilir.</li></ol>
+<p>Yerel ağınız üzerinden bağlanan ekipmana o ağdan ulaşılabilmesi gerekir. Üretici hesabı üzerinden bağlanan ekipman için bu gerekmez, ama o hesabın hâlâ geçerli olması gerekir.</p>
+<h2 id="cihazda-oturum-ama-reddedildi-yazyor">Cihazda oturum açma reddedildi yazıyor</h2>
+<p>Üretici kayıtlı giriş bilgilerini kabul etmedi. Bunun sebebi neredeyse her zaman üreticinin hesabındaki şifrenizi değiştirmiş olmanızdır.</p>
+<p>Cihazın satırını açın ve yeniden giriş yapın.</p>
+<h2 id="cora-max-eletirmesi-baarsz-oluyor">Cora Max eşleştirmesi başarısız oluyor</h2>
+<p>Cora Max eklerken işlem yarıda kalırsa Cora Mobile hangi adımın neden başarısız olduğunu söyler. Altında <strong>İptal</strong> ve <strong>Tekrar dene</strong> düğmeleri olur.</p>
+<ul><li><em>"Telefonunuz Wi-Fi'nizdeki Cora Max'e ulaşamadı."</em> Telefonunuzu ve Cora Max'i aynı Wi-Fi ağına bağlayın. iPhone'da Cora'nın Yerel Ağ izni olduğunu da kontrol edin. <strong>Ayarlar → Cihaz erişimi</strong> sizi bu izne götürür (<a href="/tr/help/mobile-settings">Ayarlar</a> sayfasında anlatılıyor). Sonra <strong>Tekrar dene</strong>'ye dokunun.</li><li><em>"Cora Max bu eşleştirme oturumunu kabul etmedi."</em> Yeniden denemek işe yaramaz. Ekranı kapatın ve <strong>Cihazlar → Cihaz Ekle</strong>'den baştan başlayın.</li></ul>
+<p>Başka bir mesaj görürseniz <strong>Tekrar dene</strong>'ye dokunun.</p>
 <h2 id="cora-max-eski-veri-gsteriyor">Cora Max eski veri gösteriyor</h2>
-<p>Üst çubuktaki durum hapını kontrol edin. <strong>Çevrimiçi</strong> ve <strong>Bulut</strong> ikisi de sağlıklıdır: birden fazla Cora'yla, toplamayı yapmayan ekran <strong>Bulut</strong> gösterir ve okumaları tam olarak aynı derecede günceldir. <strong>Eski</strong> veya <strong>Çevrimdışı</strong>, ekranın kaynağını kaybettiği ve aldığı son veriyi gösterdiği anlamına gelir (doğru davranış, ama güncel değil).</p>
-<ul><li><strong>Ayarlar → Cora Max → Ağ</strong> altında Wi-Fi'yi kontrol edin</li><li>Ağın kendisinin çalıştığını kontrol edin</li><li>Hap <strong>Çevrimiçi</strong> veya <strong>Bulut</strong> okuyorsa ve veri hâlâ eskiyse, sorun ondan önceki bir yerdedir: aynı akvaryumu telefonunuzda kontrol edin</li></ul>
-<h2 id="bir-uyar-kapanmyor">Bir uyarı kapanmıyor</h2>
-<p>Okuma aralığına döndüğünde bir uyarı kapanır. Kapanmıyorsa:</p>
-<ul><li><strong>Okuma gerçekten aralık dışında.</strong> Widget'ın geçmişine bakın.</li><li><strong>Eşik akvaryumunuz için yanlış.</strong> Bkz. <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a>.</li><li><strong>Kaynak yanlış.</strong> Kalibrasyon gerektiren bir prob, gerçekten aralık dışında bir sayı bildirir. Eşiği değil probu düzeltin.</li></ul>
-<h2 id="iki-kaynak-anlamyor">İki kaynak anlaşmıyor</h2>
-<p>Bu, Cora'nın çalışması, başarısız olması değil. Probunuz ve test kitiniz anlaşmadığında, bu sisteminiz hakkında gerçek bir gerçektir.</p>
-<p>Bir ICP sonucu burada kullanışlı bir üçüncü görüştür, ama tartışmayı çözmez: laboratuvarlar birbirinden farklıdır ve bir örneğin taşınması ve nakliyesi sonucu hareket ettirir. Anlaşan iki test, birinden çok daha değerlidir.</p>
-<p>Genellikle prob kalibrasyon gerektirir; bazen test kiti eskidir. Probu kalibre edin, testi taze reaktifle yeniden çalıştırın ve ikisini aynı koşullar altında karşılaştırın. Bir <a href="/tr/help/mobile-icp-health">ICP sonucu</a>, bu karşılaştırmaya üçüncü bir veri noktası ekler.</p>
-<h2 id="bildirim-almyorum">Bildirim almıyorum</h2>
-<ol><li><strong>Ayarlar → Bildirimler</strong>: o kategorinin push göndermeye izinli olduğunu kontrol edin</li><li>Telefonunuzun Cora için kendi bildirim izinlerini kontrol edin</li><li>Günlük briefinginin, hiçbir şey değişmediği günlerde bilerek sessiz kaldığını unutmayın</li></ol>
-<h2 id="bir-eyin-neden-deitiini-belirleme">Bir şeyin neden değiştiğini belirleme</h2>
-<p><strong>Ayarlar → Etkinlik</strong>, her priz değişikliğini, beslemeyi, dozajı ve fiş değişikliğini, onu kimin istediğiyle birlikte listeler: Cora Mobile, bir Cora ekranı, ses, Assistant, bir otomasyon kuralı, akıllı bir düğme veya hesabınız.</p>
-<h2 id="panom-dzenledikten-sonra-yanl-grnyor">Panom düzenledikten sonra yanlış görünüyor</h2>
-<p>Kaydedilmiş bir tasarım yükleyin: <strong>Panolarım</strong>, ardından bir tanesini seçin.</p>
-<p>Bir tane kaydetmediyseniz, düzeni yeniden oluşturun ve ardından bir tasarım olarak kaydedin. O noktadan sonra, ona geri dönmek tek bir dokunuştur.</p>
-<p>Her iki durumda da, okumalar, geçmiş ve günlük kayıtları düzenden ayrı saklanır, bu yüzden panonun arkasındaki hiçbir şey kaybolmaz.</p>
-<h2 id="red-sea-okumalar-gncellenmeyi-durdurdu">"Red Sea™ okumaları güncellenmeyi durdurdu"</h2>
-<p><strong>Ne anlama gelir:</strong> Bu akvaryumun ağındaki hiçbir cihaz şu anda Red Sea ekipmanınızı yoklamıyor, bu yüzden ekrandaki okumalar yenilenmemiş.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li><strong>Ayarlar → Birincil Cora Max</strong>'ı açın ve bir Cora Max'in ayarlandığını (veya <strong>Aktif olan herhangi biri (otomatik)</strong>'in seçildiğini) kontrol edin.</li><li>Akvaryumu, Red Sea ekipmanıyla aynı Wi-Fi'deki bir cihazda açın.</li><li>Red Sea ekipmanının açık olduğunu ve kendi uygulamasında çevrimiçi olduğunu doğrulayın.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<p>Üst çubuktaki durum etiketine bakın. <strong>Çevrimiçi</strong> de <strong>Bulut</strong> da her şeyin yolunda olduğunu gösterir. Birden çok Cora varsa, ölçüm toplamayan ekranda <strong>Bulut</strong> yazar ve ölçümleri aynı ölçüde günceldir. <strong>Eski</strong> ya da <strong>Çevrimdışı</strong> ise ekranın veri kaynağıyla bağlantısını kaybettiğini ve aldığı son veriyi gösterdiğini anlatır. Ekran doğru davranıyor, ama veriler güncel değil.</p>
+<ul><li>Wi-Fi bağlantısını <strong>Ayarlar → Cora Max Ayarları → Wi-Fi</strong> altından kontrol edin</li><li>Ağın kendisinin çalıştığından emin olun</li><li>Etikette <strong>Çevrimiçi</strong> ya da <strong>Bulut</strong> yazıyor ama veri hâlâ eskiyse sorun ekranda değil, Cora Max'ten önceki bir yerdedir. Aynı akvaryuma telefonunuzdan bakın</li></ul>
+<h2 id="uyar-kapanmyor">Uyarı kapanmıyor</h2>
+<p>Ölçüm aralığa dönünce uyarı kapanır. Kapanmıyorsa şu üç durumdan biri geçerlidir:</p>
+<ul><li><strong>Ölçüm gerçekten aralık dışında.</strong> Widget'ın geçmişine bakın.</li><li><strong>Eşik akvaryumunuza uymuyor.</strong> Eşikleri <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> sayfasından düzenleyin.</li><li><strong>Kaynak yanlış ölçüyor.</strong> Kalibrasyonu gereken bir prob gerçekten aralık dışında bir değer bildirir. Eşiği değil, probu düzeltin.</li></ul>
+<h2 id="iki-kaynak-farkl-sonu-veriyor">İki kaynak farklı sonuç veriyor</h2>
+<p>Bu Cora'nın hatası değil, tam da yapması gereken şey. Probunuzla test kitiniz farklı sonuç veriyorsa bu, sisteminizle ilgili gerçek bir bilgidir.</p>
+<p>Böyle bir durumda ICP sonucu işe yarayan üçüncü bir görüştür. Ama tartışmayı tek başına bitirmez. Laboratuvarlar birbirinden farklı sonuç verebilir, numunenin nasıl alındığı ve taşındığı da sonucu etkiler. Birbirini tutan iki test, tek bir testten çok daha değerlidir.</p>
+<p>Çoğu zaman probun kalibrasyonu gerekir. Bazen de test kiti eskimiştir. Probu kalibre edin, testi taze reaktifle tekrarlayın ve ikisini aynı koşullarda karşılaştırın. Bir <a href="/tr/help/mobile-icp-health">ICP sonucu</a> bu karşılaştırmaya üçüncü bir veri ekler.</p>
+<h2 id="bildirim-gelmiyor">Bildirim gelmiyor</h2>
+<ol><li><strong>Ayarlar → Bildirimler</strong>'de o kategori için anlık bildirimin açık olduğunu kontrol edin</li><li>Telefonunuzun kendi ayarlarında Cora'nın bildirim izinlerine bakın</li><li>Günlük özetin, hiçbir şeyin değişmediği günlerde zaten sessiz kaldığını unutmayın</li></ol>
+<h2 id="bir-eyin-neden-deitiini-bulmak">Bir şeyin neden değiştiğini bulmak</h2>
+<p><strong>Ayarlar → Etkinlik</strong>'te tüm priz değişiklikleri, beslemeler, dozajlar ve fiş değişiklikleri listelenir. Her kayıtta isteği kimin verdiği de yazar: Cora Mobile, bir Cora ekranı, sesli komut, Assistant, bir otomasyon kuralı, akıllı düğme ya da hesabınız.</p>
+<h2 id="dzenlemeden-sonra-pano-bozuk-grnyor">Düzenlemeden sonra pano bozuk görünüyor</h2>
+<p>Kayıtlı bir tasarımı yükleyin. <strong>Panolarım</strong>'ı açın ve birini seçin.</p>
+<p>Hiç tasarım kaydetmediyseniz düzeni yeniden kurun ve tasarım olarak kaydedin. Bundan sonra o düzene tek dokunuşla dönersiniz.</p>
+<p>Her iki durumda da ölçümler, geçmiş ve günlük kayıtları düzenden ayrı saklanır. Panonun arkasındaki hiçbir veri kaybolmaz.</p>
+<h2 id="red-sea-deerleri-gncellenmiyor">"Red Sea™ değerleri güncellenmiyor"</h2>
+<p>Bu akvaryumun ağındaki hiçbir cihaz şu anda Red Sea ekipmanınızı yoklamıyor. Bu yüzden ekrandaki ölçümler yenilenmedi.</p>
+<p>Şunları deneyin:</p>
+<ol><li><strong>Ayarlar → Birincil Cora Max</strong>'ı açın ve bir Cora Max'in seçili olduğunu (ya da <strong>Aktif olan herhangi biri (otomatik)</strong> seçeneğinin açık olduğunu) kontrol edin.</li><li>Akvaryumu, Red Sea ekipmanıyla aynı Wi-Fi'ye bağlı bir cihazda açın.</li><li>Red Sea ekipmanının açık ve kendi uygulamasında çevrimiçi olduğunu kontrol edin.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
 <h2 id="bu-pompaya-ulalamad-hibir-ey-gnderilmedi">"Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi"</h2>
-<p><strong>Ne anlama gelir:</strong> Bir Jecod™ veya Jebao™ pompasına bir komut uygulamadan hiç ayrılmadı, genellikle pompa kapalı veya ağının dışında olduğu için.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Pompanın açık olduğunu kontrol edin.</li><li>Eklendiği ağda olduğunu kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="bu-pompaya-bluetooth-zerinden-ulalamad-yanna-gidip-yeniden-d">"Bu pompaya Bluetooth üzerinden ulaşılamadı. Yanına gidip yeniden deneyin."</h2>
-<p><strong>Ne anlama gelir:</strong> Sadece Bluetooth üzerinden çalışan bir Jecod cihazı telefonunuzun menzilinin dışında.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Pompaya daha yakına gidin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="o-gyreye-ulalamad-hibir-besleme-balatlmad">"O gyre'ye ulaşılamadı. Hiçbir besleme başlatılmadı."</h2>
-<p><strong>Ne anlama gelir:</strong> Bir Maxspect™ gyre (beta entegrasyonu), Cora onda besleme modunu başlatmaya çalıştığında yanıt vermedi.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Gyre'nin açık ve ağında olduğunu kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="o-gyreye-ulalamad-program-deitirilmedi">"O gyre'ye ulaşılamadı. Programı değiştirilmedi."</h2>
-<p><strong>Ne anlama gelir:</strong> Bir Maxspect gyre'ye (beta entegrasyonu) bir zamanlama push'u ona ulaşmayı başaramadı.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Telefonunuzun veya Cora Max'inizin gyre'nin ağında olduğunu kontrol edin.</li><li>Zamanlama ekranından <strong>Tekrar dene</strong>'ye dokunun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<p>Jecod™ ya da Jebao™ pompasına verilen komut uygulamadan hiç çıkmadı. Genellikle pompa kapalıdır ya da ağına bağlı değildir.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Pompanın açık olduğunu kontrol edin.</li><li>Eklendiği ağa bağlı olduğunu kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-pompaya-bluetooth-zerinden-ulalamad-yaknna-gidip-tekrar-d">"Bu pompaya Bluetooth üzerinden ulaşılamadı. Yakınına gidip tekrar deneyin."</h2>
+<p>Yalnızca Bluetooth ile çalışan Jecod cihazı telefonunuzun menzili dışında.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Pompaya yaklaşın.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-gyreye-ulalamad-besleme-balatlmad">"Bu Gyre'ye ulaşılamadı. Besleme başlatılmadı."</h2>
+<p>Cora besleme modunu başlatmaya çalıştığında Maxspect™ gyre (beta entegrasyon) cevap vermedi.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Gyre'nin açık ve ağına bağlı olduğunu kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-gyreye-ulalamad-program-deitirilmedi">"Bu Gyre'ye ulaşılamadı. Programı değiştirilmedi."</h2>
+<p>Maxspect gyre'ye (beta entegrasyon) gönderilen zamanlama ona ulaşmadı.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Telefonunuzun ya da Cora Max'inizin gyre ile aynı ağda olduğunu kontrol edin.</li><li>Zamanlama ekranından <strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
 <h2 id="apexe-ulalamad-hibir-ey-deimedi-hibir-ey-dozajlanmad">"Apex'e ulaşılamadı: hiçbir şey değişmedi" / "hiçbir şey dozajlanmadı"</h2>
-<p><strong>Ne anlama gelir:</strong> Bir Neptune™ Apex, Trident veya DŌS kafası bir komuta veya dozaj isteğine yanıt vermedi.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Apex'in kendi uygulamasını açın ve çevrimiçi olduğunu doğrulayın.</li><li>Kullandığınız cihazda ağ bağlantısını kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="bu-gnderilemedi-bu-akvaryumda-hibir-cihaz-bunu-gnderemez">"Bu gönderilemedi: bu akvaryumda hiçbir cihaz bunu gönderemez"</h2>
-<p><strong>Ne anlama gelir:</strong> Bu akvaryumdaki hiçbir Cora cihazı komutu yerine getirmek için gereken Apex bağlantı ayrıntılarına sahip değil, veya sahip olan çevrimdışı.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Şu anda çevrimiçi olan bir cihazda <strong>Ayarlar</strong>'da Apex ayrıntılarını ekleyin, veya</li><li>Bu akvaryum için farklı, çalışan bir Cora Max'i <strong>Birincil Cora Max</strong> olarak ayarlayın.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="ikincil-bir-cora-max-ana-cora-evrimd-gsteriyor">İkincil bir Cora Max "Ana Cora çevrimdışı" gösteriyor</h2>
-<p><strong>Ne anlama gelir:</strong> Bu akvaryum için birincil tablet çevrimdışı oldu, bu yüzden bu ikincil ekran canlı veri yerine aldığı son veriyi gösteriyor.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Birincil tabletin gücünü ve Wi-Fi'sini kontrol edin.</li><li>Yeniden bağlanmasını bekleyin, veya <strong>Birincil Cora Max</strong>'ı şu anda çevrimiçi olan bir cihaza değiştirin.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="cihaz-evrimd-bilinen-son-durum-gsteriliyor">"Cihaz çevrimdışı. Bilinen son durum gösteriliyor."</h2>
-<p><strong>Ne anlama gelir:</strong> Normal çevrimdışı işleme: cihaz bildirmeyi durdurdu ve Cora, güncelmiş gibi davranmak yerine sahip olduğu son değerleri gösteriyor.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Cihazın kendi ağ bağlantısını kontrol edin.</li><li>Satır artık çevrimdışı demeyene kadar gösterilen değerleri canlı olmayan olarak ele alın.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="baz-reefbeat-ayarlar-griye-dnm-veya-eksik">Bazı ReefBeat ayarları griye dönmüş veya eksik</h2>
-<p><strong>Ne anlama gelir:</strong> Bu bir tasarım kararıdır, bir arıza değil. Cihaza özel ayarlar (okumaların aksine) yalnızca telefonunuz cihazın kendisiyle aynı ağdayken açılır; o ağın dışında, yalnızca okumalar gösterilir.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Bu ayarları değiştirmek için akvaryumun kendi Wi-Fi'sini ziyaret edin.</li><li>Okumalar ve geçmiş, akvaryumdan uzaktayken normal şekilde çalışmayı sürdürür.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="coraya-ulalamad-wi-finizi-veya-mobil-verinizi-kontrol-edin-a">"Cora'ya ulaşılamadı. Wi-Fi'nizi veya mobil verinizi kontrol edin, ardından yeniden deneyin."</h2>
-<p><strong>Ne anlama gelir:</strong> Telefonunuzun oturum açarken Cora Cloud'a kullanılabilir bir bağlantısı yok. Bu, akvaryum ekipmanınızla değil telefonunuzun kendi bağlantısıyla ilgilidir.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Telefonunuzun çalışan bir Wi-Fi veya mobil veri bağlantısı olduğunu kontrol edin.</li><li>Kullanılabiliyorsa farklı bir ağ deneyin.</li><li><strong>Tekrar dene</strong>.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="her-ey-aniden-yanl-dilde">Her şey aniden yanlış dilde</h2>
-<p><strong>Ne anlama gelir:</strong> Hesap dili herhangi bir cihazdan değiştirildi. Dil, cihaz başına değil tüm hesap için bir ayardır.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Her iki uygulamada da <strong>Ayarlar → Dil</strong>'i açın.</li><li>Yanlışlıkla değiştirildiyse geri ayarlayın; değişiklik her yerde aynı anda uygulanır.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="deitirdikten-sonra-eski-bir-uyar-veya-rapor-hl-farkl-bir-dil">Değiştirdikten sonra eski bir uyarı veya rapor hâlâ farklı bir dilde</h2>
-<p><strong>Ne anlama gelir:</strong> Bu beklenendir, bir hata değil. Cora zaten oluşturulmuş içeriği yeniden çevirmez; sadece yeni uyarılar, raporlar ve briefingler yeni dili takip eder.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Düzeltilecek bir şey yok. Geçerli dili kullanacak yeni içeriği bekleyin.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="onayladktan-sonra-bile-bir-uyar-bildirmeyi-durdurmuyor">Onayladıktan sonra bile bir uyarı bildirmeyi durdurmuyor</h2>
-<p><strong>Ne anlama gelir:</strong> <strong>Kapat</strong> (uyarıyı kalıcı olarak kapatır) ile <strong>Ertele</strong> (onu bir haftaya kadar geçici olarak susturur) arasında bir karışıklık.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Durumu anlıyor ve kabul ediyorsanız, <strong>Kapat</strong>'ı kullanın.</li><li>Sadece bir süreliğine sessizlik istiyorsanız, <strong>Ertele</strong>'yi kullanın ve bir uzunluk seçin.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="bir-dozaj-yar-yolda-durdu-ve-bir-geri-getirme-uyars-belirdi">Bir dozaj yarı yolda durdu ve bir "geri getirme" uyarısı belirdi</h2>
-<p><strong>Ne anlama gelir:</strong> DŌS kafası dozaj ortasında bağlantısını kaybetti, bu yüzden Cora tam dozajın girdiğini varsaymak yerine bilerek size bunu söylüyor.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Uyarıyı açın ve durmadan önce gerçekte ne kadarının dozajlandığını kontrol edin.</li><li>Dozajı, orijinal olarak zamanlanan miktar yerine bu miktara göre sürdürün veya ayarlayın.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Akvaryum ve cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="telefonda-yaplan-bir-sahne-cora-maxte-dzenlenebilir-grnmyor">Telefonda yapılan bir sahne Cora Max'te düzenlenebilir görünmüyor</h2>
-<p><strong>Ne anlama gelir:</strong> Sahneleri doğrudan tablette düzenlemek daha yeni bir Cora Max yeteneğidir. Daha eski bir yazılım telefonda yapılan sahneleri hâlâ çalıştırabilir, sadece onları orada düzenleyemez.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Cora Max'i güncelleyin, veya</li><li>O sahneyi telefondan düzenlemeyi sürdürün; her iki durumda da tablette çalışmayı sürdürecektir.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="cora-assistant-yanl-akvaryum-hakknda-yant-veriyor">Cora Assistant yanlış akvaryum hakkında yanıt veriyor</h2>
-<p><strong>Ne anlama gelir:</strong> Sormadan önce hiçbir akvaryum seçilmedi, veya şu anda yanlış akvaryum etkin.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Önce kastettiğiniz akvaryumu seçin.</li><li>Yeniden sorun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-assistant">Assistant</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="cora-assistant-yant-vermeyi-reddediyor-veya-onay-ekrann-yeni">Cora Assistant yanıt vermeyi reddediyor, veya onay ekranını yeniden gösteriyor</h2>
-<p><strong>Ne anlama gelir:</strong> "Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver" kapatıldı, bu yüzden yanıt verecek hiçbir şeyi yok.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Onu yeniden açmak için onay ekranında <strong>Kabul Et ve Devam Et</strong>'e dokunun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-assistant">Assistant</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="bir-lab-veya-e-postayla-gelen-icp-sonucu-hi-grnmedi">Bir lab veya e-postayla gelen ICP sonucu hiç görünmedi</h2>
-<p><strong>Ne anlama gelir:</strong> Bir sonucu Cora'ya almak, herhangi bir yere eklenmeden önce onun için seçilmiş bir akvaryum, ve bazen tanınan bir gönderen gerektirir.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Cora'ya bir sonuç gönderdiğiniz ilk seferde gösterilen giriş ipucunu kontrol edin.</li><li>İstendiğinde sonucun hangi akvaryuma eklenmesi gerektiğini doğrulayın.</li><li>Daha önce bir tane gönderdiyseniz, e-postanın önce kullandığınız adresten gönderildiğinden emin olun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="e-postayla-gelen-bir-icp-bildirimi-hibir-lab-adlandrmyor">E-postayla gelen bir ICP bildirimi hiçbir lab adlandırmıyor</h2>
-<p><strong>Ne anlama gelir:</strong> "Akvaryum seç" push bildiriminin lab adını kaçırdığı bilinen bir sorun. Geçerli sürümlerde düzeltildi.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Cora Mobile'ın en son sürüme güncellendiğinden emin olun.</li><li>Sonucun kendisi etkilenmez; yalnızca bildirim metninde bir ad eksikti.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="bir-widget-yanl-birimleri-gsteriyor">Bir widget yanlış birimleri gösteriyor</h2>
-<p><strong>Ne anlama gelir:</strong> Bu akvaryumun görüntü birimleri ayarıdır, bir veri sorunu değil. Değerler, nasıl görüntülendiklerinden bağımsız olarak aynı şekilde saklanır.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>O akvaryum için <strong>Ayarlar</strong>'ı açın ve görüntü birimlerini kontrol edin.</li><li>Onları orada değiştirin; o akvaryumu gösteren her telefon ve Cora Max eşleşecek şekilde güncellenir.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="grnt-birimlerini-deitirdikten-sonra-bir-gsterge-veya-eik-far">Görüntü birimlerini değiştirdikten sonra bir gösterge veya eşik farklı görünüyor</h2>
-<p><strong>Ne anlama gelir:</strong> Beklenen. Göstergeler, kutular ve geçmiş, seçtiğiniz birimde yeniden çizilir; altta yatan değerler değişmedi.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Düzeltilecek bir şey yok; bu sadece görsel.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="cora-max-bir-wi-fi-kesintisinden-sonra-hemen-yeniden-balanmy">Cora Max bir Wi-Fi kesintisinden sonra hemen yeniden bağlanmıyor</h2>
-<p><strong>Ne anlama gelir:</strong> Bağlantısını kaybettikten sonra Cora Max, ağı bombalamak yerine her tekrar denemeden önce biraz daha uzun bekler; yeniden denemeden önce kabaca bir dakikaya kadar geriler.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Ağınız geri geldikten sonra bir dakika kadar bekleyin.</li><li>O süreden sonra hâlâ yeniden bağlanmadıysa, <strong>Ayarlar → Ağ</strong> altında Wi-Fi'yi kontrol edin.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-tour">Cora Max ana ekranı</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="bir-cora-maxi-telefonda-yeniden-adlandrmak-tabletin-gsterdii">Bir Cora Max'i telefonda yeniden adlandırmak tabletin gösterdiğini değiştirmiyor</h2>
-<p><strong>Ne anlama gelir:</strong> Telefondan belirlediğiniz ad, o cihaz için hesap düzeyinde bir etikettir. Eşleştirme sırasında tabletin kendisinde gösterilen ad farklı bir şey olabilir.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li>Hangi "ada" baktığınızı kontrol edin: telefondaki cihaz listenizdeki mi, yoksa tabletin kendi eşleştirme ekranındaki mi.</li><li>Değiştirmek istediğiniz hesap etiketiyse, telefonun cihaz listesinden yeniden adlandırın.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Cihaz adıyla <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="cora-maxte-uyandrma-szcn-nerede-kapatacam-bulamyorum">Cora Max'te uyandırma sözcüğünü nerede kapatacağımı bulamıyorum</h2>
-<p><strong>Ne anlama gelir:</strong> Uyandırma sözcüğü anahtarı, çoğu kişiyi şaşırtan bir şekilde Cora Assistant ayarları grubu altında değil <strong>Ses</strong> altındadır.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li><strong>Ayarlar → Ses → Uyandırma sözcüğü dinleme</strong>'ye gidin.</li><li>Onu kapatın; sesli bir oturum başlatmak için hâlâ Cora simgesine dokunabilirsiniz.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-settings">Cora Max'te ayarlar</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="ocuk-kilidi-kimseyi-ayarlara-brakmyor">Çocuk kilidi kimseyi Ayarlar'a bırakmıyor</h2>
-<p><strong>Ne anlama gelir:</strong> Bu, amaçlandığı gibi çalışıyor. Çocuk kilidi, dokunulmadan belirli bir süre geçtikten sonra dokunmatik ekranı ve ses kontrollerini kilitler; okumalar altında güncellenmeyi sürdürür.</p>
-<p><strong>Ne yapmalı:</strong></p>
-<ol><li><strong>Ses Arttır</strong> veya <strong>Ses Azalt</strong>'a iki saniye içinde üç kez basın, veya</li><li>Ekranın sağ üst köşesinde beş parmağınızı on saniye basılı tutun.</li></ol>
-<p><strong>Hâlâ çalışmıyor mu?</strong> Bkz. <a href="/tr/help/max-voice">Cora Max'te ses</a>, veya <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
-<h2 id="hl-takl-kaldysanz">Hâlâ takılı kaldıysanız</h2>
-<p><strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin. Bize hangi akvaryumu, hangi ekranı ve ne görmeyi beklediğinizi söyleyin; bu size daha hızlı kullanışlı bir yanıt sağlar.</p>
+<p>Neptune™ Apex, Trident ya da DŌS kafası komuta veya dozaj isteğine cevap vermedi.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Apex'in kendi uygulamasını açın ve çevrimiçi olduğunu kontrol edin.</li><li>Kullandığınız cihazın ağ bağlantısını kontrol edin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="bu-gnderilemedi-bu-akvaryumda-bunu-gnderebilecek-cihaz-yok">"Bu gönderilemedi: bu akvaryumda bunu gönderebilecek cihaz yok"</h2>
+<p>Bu akvaryumdaki hiçbir Cora cihazında komutu uygulamak için gereken Apex bağlantı bilgileri yok. Ya da bu bilgilere sahip cihaz çevrimdışı.</p>
+<p>Şunlardan birini yapın:</p>
+<ol><li>Şu anda çevrimiçi olan bir cihazda <strong>Ayarlar</strong>'dan Apex bilgilerini ekleyin.</li><li>Bu akvaryum için çalışan başka bir Cora Max'i <strong>Birincil Cora Max</strong> olarak seçin.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="ikincil-cora-maxte-ana-cora-evrimd-yazyor">İkincil Cora Max'te "Ana Cora çevrimdışı" yazıyor</h2>
+<p>Bu akvaryumun birincil tableti çevrimdışı oldu. Bu yüzden ikincil ekran canlı veri yerine aldığı son veriyi gösteriyor.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Birincil tabletin gücünü ve Wi-Fi bağlantısını kontrol edin.</li><li>Yeniden bağlanmasını bekleyin ya da <strong>Birincil Cora Max</strong> olarak şu anda çevrimiçi olan bir cihazı seçin.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cihaz-evrimd-son-bilinen-durum-gsteriliyor">"Cihaz çevrimdışı. Son bilinen durum gösteriliyor."</h2>
+<p>Bu, cihaz çevrimdışı olduğunda olması gereken davranıştır. Cihaz veri göndermeyi bıraktı. Cora da elindeki son değerleri gösteriyor, onları güncelmiş gibi sunmuyor.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Cihazın kendi ağ bağlantısını kontrol edin.</li><li>Satırda çevrimdışı yazısı kaybolana kadar gösterilen değerlerin canlı olmadığını unutmayın.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="baz-reefbeat-ayarlar-gri-ya-da-hi-grnmyor">Bazı ReefBeat ayarları gri ya da hiç görünmüyor</h2>
+<p>Bu bir arıza değil, böyle tasarlandı. Cihaza özel ayarlar yalnızca telefonunuz cihazla aynı ağdayken açılır. Ağın dışındayken yalnızca ölçümler görünür.</p>
+<p>Şunları bilin:</p>
+<ol><li>Bu ayarları değiştirmek için telefonunuzu akvaryumun Wi-Fi'sine bağlayın.</li><li>Akvaryumdan uzaktayken de ölçümler ve geçmiş normal şekilde çalışır.</li></ol>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="coraya-ulalamad-wi-fi-veya-mobil-verinizi-kontrol-edip-tekra">"Cora'ya ulaşılamadı. Wi-Fi veya mobil verinizi kontrol edip tekrar deneyin."</h2>
+<p>Giriş yaparken telefonunuz Cora Cloud'a bağlanamıyor. Sorun akvaryum ekipmanınızda değil, telefonunuzun kendi bağlantısında.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Telefonunuzun Wi-Fi ya da mobil veri bağlantısının çalıştığını kontrol edin.</li><li>Başka bir ağ varsa onu deneyin.</li><li><strong>Tekrar dene</strong>'ye dokunun.</li></ol>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="her-ey-birden-baka-bir-dilde-grnyor">Her şey birden başka bir dilde görünüyor</h2>
+<p>Hesap dili bir cihazdan değiştirilmiş. Dil cihaz başına değil, tüm hesap için tek bir ayardır.</p>
+<p>Şunları deneyin:</p>
+<ol><li>Uygulamalardan birinde <strong>Ayarlar → Dil</strong>'i açın.</li><li>Dil yanlışlıkla değiştirildiyse geri alın. Değişiklik her yerde aynı anda geçerli olur.</li></ol>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="dil-deitikten-sonra-eski-bir-uyar-ya-da-rapor-hl-eski-dilde">Dil değiştikten sonra eski bir uyarı ya da rapor hâlâ eski dilde</h2>
+<p>Bu bir hata değil, beklenen bir durum. Cora önceden oluşturulmuş içeriği yeniden çevirmez. Yalnızca yeni uyarılar, raporlar ve özetler yeni dilde gelir.</p>
+<p>Yapmanız gereken bir şey yok. Yeni içerik güncel dilde gelecek.</p>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="uyary-grdm-ama-bildirim-gelmeye-devam-ediyor">Uyarıyı gördüm ama bildirim gelmeye devam ediyor</h2>
+<p>Cora Max'teki <strong>Ertele</strong> ve <strong>Kapat</strong> yalnızca o Cora Max'i susturur. Ölçüm aralık dışında kaldığı sürece telefonunuza bildirim gelmeye devam eder.</p>
+<p>Şunları yapın:</p>
+<ol><li>Telefonunuzda daha seyrek haber almak için Cora Mobile'da uyarı kuralını açın ve daha uzun bir <strong>Uyarılar arası bekleme süresi</strong> seçin (en fazla 1 hafta).</li><li>Eşik akvaryumunuza uymuyorsa eşiğin kendisini değiştirin.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="dozaj-yarda-kald-ve-geri-ykleme-uyars-geldi">Dozaj yarıda kaldı ve "geri yükleme" uyarısı geldi</h2>
+<p>DŌS kafasının bağlantısı dozajın ortasında koptu. Cora dozajın tamamının verildiğini varsaymıyor, bunu size bilerek söylüyor.</p>
+<p>Şunları yapın:</p>
+<ol><li>Uyarıyı açın ve dozaj durmadan önce gerçekte ne kadar verildiğine bakın.</li><li>Dozajı başta planlanan miktara göre değil, verilen bu miktara göre sürdürün ya da ayarlayın.</li></ol>
+<p>Sorun sürerse akvaryumun ve cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="telefonda-oluturulan-sahne-cora-maxte-dzenlenemiyor">Telefonda oluşturulan sahne Cora Max'te düzenlenemiyor</h2>
+<p>Sahneleri doğrudan tablette düzenlemek, Cora Max'e yeni gelen bir özellik. Eski bir yazılım, telefonda oluşturulan sahneleri çalıştırır ama düzenleyemez.</p>
+<p>Şunlardan birini yapın:</p>
+<ol><li>Cora Max'i güncelleyin.</li><li>Sahneyi telefondan düzenlemeye devam edin. Sahne her iki durumda da tablette çalışır.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-assistant-yanl-akvaryumdan-bahsediyor">Cora Assistant yanlış akvaryumdan bahsediyor</h2>
+<p>Soruyu sormadan önce akvaryum seçilmemiş ya da şu anda yanlış akvaryum seçili.</p>
+<p>Şunları yapın:</p>
+<ol><li>Önce kastettiğiniz akvaryumu seçin.</li><li>Soruyu yeniden sorun.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/mobile-assistant">Assistant</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-assistant-cevap-vermiyor-ya-da-onay-ekran-yeniden-kyor">Cora Assistant cevap vermiyor ya da onay ekranı yeniden çıkıyor</h2>
+<p>"Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver" ayarı kapatılmış. Bu yüzden Assistant'ın cevap verirken kullanacağı veri yok.</p>
+<p>Ayarı yeniden açmak için onay ekranında <strong>Kabul Et ve Devam Et</strong>'e dokunun.</p>
+<p>Sorun sürerse <a href="/tr/help/mobile-assistant">Assistant</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="laboratuvardan-ya-da-e-postayla-gelen-icp-sonucu-hi-grnmedi">Laboratuvardan ya da e-postayla gelen ICP sonucu hiç görünmedi</h2>
+<p>Bir sonucun Cora'ya eklenebilmesi için önce bir akvaryum seçilmesi gerekir. Bazen gönderenin de tanınması gerekir.</p>
+<p>Şunları kontrol edin:</p>
+<ol><li>Cora'ya ilk kez sonuç gönderdiğinizde çıkan ipucunu okuyun.</li><li>Sorulduğunda sonucun hangi akvaryuma ekleneceğini onaylayın.</li><li>Daha önce de sonuç gönderdiyseniz e-postayı yine aynı adresten gönderdiğinizden emin olun.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="e-postayla-gelen-icp-bildiriminde-laboratuvarn-ad-yok">E-postayla gelen ICP bildiriminde laboratuvarın adı yok</h2>
+<p>Bu, "akvaryum seç" bildiriminde laboratuvar adının eksik çıktığı, bilinen bir sorundu. Güncel sürümlerde düzeltildi.</p>
+<p>Şunları bilin:</p>
+<ol><li>Cora Mobile'ın en son sürüme güncel olduğundan emin olun.</li><li>Sonucun kendisi etkilenmez. Yalnızca bildirim metninde bir ad eksikti.</li></ol>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="widget-yanl-birimle-gsteriyor">Widget yanlış birimle gösteriyor</h2>
+<p>Bu bir veri sorunu değil, akvaryumun görüntüleme birimi ayarıdır. Değerler nasıl gösterilirse gösterilsin aynı şekilde saklanır.</p>
+<p>Şunları yapın:</p>
+<ol><li>O akvaryumun <strong>Ayarlar</strong>'ını açın ve görüntüleme birimlerine bakın.</li><li>Birimleri orada değiştirin. O akvaryumu gösteren tüm telefonlar ve Cora Max ekranları da buna göre güncellenir.</li></ol>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="grntleme-birimini-deitirince-gsterge-ya-da-eik-farkl-grnyor">Görüntüleme birimini değiştirince gösterge ya da eşik farklı görünüyor</h2>
+<p>Bu beklenen bir durum. Göstergeler, kutucuklar ve geçmiş seçtiğiniz birimle yeniden çizilir. Arkadaki değerler değişmez.</p>
+<p>Yapmanız gereken bir şey yok. Değişen yalnızca görünüm.</p>
+<p>Sorun sürerse <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="wi-fi-kesintisinden-sonra-cora-max-hemen-yeniden-balanmyor">Wi-Fi kesintisinden sonra Cora Max hemen yeniden bağlanmıyor</h2>
+<p>Bağlantısı koptuktan sonra Cora Max ağı sürekli yoklamaz. Her denemeden önce biraz daha uzun bekler ve bekleme süresi aşağı yukarı bir dakikaya kadar çıkar.</p>
+<p>Şunları yapın:</p>
+<ol><li>Ağınız geri geldikten sonra bir dakika kadar bekleyin.</li><li>Bu süreden sonra hâlâ bağlanmadıysa Wi-Fi bağlantısını <strong>Ayarlar → Cora Max Ayarları → Wi-Fi</strong> altından kontrol edin.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/max-tour">Cora Max ana ekranı</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-maxin-adn-telefonda-deitirdim-ama-tablette-deimedi">Cora Max'in adını telefonda değiştirdim ama tablette değişmedi</h2>
+<p>Telefondan verdiğiniz ad, o cihazın hesaptaki etiketidir. Eşleştirme sırasında tablette görünen ad bundan farklı olabilir.</p>
+<p>Şunları yapın:</p>
+<ol><li>Hangi ada baktığınızı kontrol edin: telefondaki cihaz listesindeki ad mı, tabletin kendi eşleştirme ekranındaki ad mı?</li><li>Değiştirmek istediğiniz hesap etiketiyse, adı telefondaki cihaz listesinden değiştirin.</li></ol>
+<p>Sorun sürerse cihazın adını yazarak <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="cora-maxte-uyandrma-szcn-nereden-kapatacam-bulamyorum">Cora Max'te uyandırma sözcüğünü nereden kapatacağımı bulamıyorum</h2>
+<p>Uyandırma sözcüğü ayarı <strong>Ses ve Konuşma</strong> bölümünde. Çoğu kişinin ilk baktığı Cora Assistant ayarlarında değil.</p>
+<p>Şunları yapın:</p>
+<ol><li><strong>Ayarlar → Cora Max Ayarları → Ses ve Konuşma → Uyandırma sözcüğü dinleme</strong>'ye gidin.</li><li>Ayarı kapatın. Sesli konuşma başlatmak için Cora simgesine dokunmaya devam edebilirsiniz.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/max-settings">Cora Max'te ayarlar</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="ocuk-kilidi-ayarlara-girmeye-izin-vermiyor">Çocuk kilidi Ayarlar'a girmeye izin vermiyor</h2>
+<p>Çocuk kilidi olması gerektiği gibi çalışıyor. Ekrana belli bir süre dokunulmazsa, kimse bu ekrandan ne dokunarak ne de sesle ekipmanı açıp kapatamaz. Ölçümler güncellenmeye devam eder ve Cora'ya soru sormaya devam edebilirsiniz.</p>
+<p>Kilidi açmak için şunlardan birini yapın:</p>
+<ol><li><strong>Ses Açma</strong> ya da <strong>Ses Kısma</strong> tuşuna iki saniye içinde üç kez basın.</li><li>Ekranın sağ üst köşesine beş parmağınızı koyup on saniye basılı tutun.</li></ol>
+<p>Sorun sürerse <a href="/tr/help/max-voice">Cora Max'te ses</a> sayfasına bakın ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
+<h2 id="hl-zemediyseniz">Hâlâ çözemediyseniz</h2>
+<p><strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin. Hangi akvaryum, hangi ekran olduğunu ve ne görmeyi beklediğinizi yazın. Böylece size daha hızlı ve işe yarar bir cevap verebiliriz.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/faq"><span>Önceki</span><b>Sıkça sorulan sorular</b></a><a class="pn-n" href="/tr/help/glossary"><span>Sonraki</span><b>Sözlük</b></a></nav>
       <p class="stamp">Cora Max 0.28.78 ve Cora Mobile 0.5.79 için yazılmıştır. Son kontrol: 2026-09-27.</p>
-      <p class="ask">Yine de takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
+      <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
 </div>

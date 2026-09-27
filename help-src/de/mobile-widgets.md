@@ -1,15 +1,15 @@
 ---
 title: Widget-Referenz
-description: Jeder Widget-Typ in Cora (Wert, Anzeige, Diagramm, Status, Steckdose und die Gerätekacheln) und wann du welchen nutzt.
+description: Alle Widget-Typen in Cora, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 7
 group: Your dashboard
 ---
 
-Ein Widget ist eine Kachel auf deinem Dashboard, die eine Sache zeigt. Diese Seite deckt jeden Typ ab und was du konfigurieren kannst.
+Ein Widget ist eine Kachel auf deinem Dashboard, die eine Sache zeigt. Hier findest du alle Typen und was du bei ihnen einstellen kannst.
 
-Füge sie im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinzu und ordne sie an; tippe dort auf ein Widget, um seine Einstellungen zu öffnen.
+Du fügst Widgets im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinzu und ordnest sie dort an. Tippst du dort auf ein Widget, öffnen sich seine Einstellungen.
 
 ![Ein Widget konfigurieren](img/mobile-widget-config.webp "Typ, Wasserwert, dann Breite und Höhe.")
 
@@ -17,95 +17,95 @@ Füge sie im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinzu und or
 
 | Typ | Zeigt |
 |---|---|
-| **Wert** | Den aktuellen Messwert, seine Einheit, sein Alter und seine Quelle |
-| **Anzeige** | Einen Bogen mit deinem Bereich darauf gebändert und einem Zeiger am Wert |
-| **Diagramm** | Einen Trend über ein von dir gewähltes Fenster |
-| **Status** | Einen Zustand als Text: läuft, ruht, geschlossen |
-| **Steckdose** | Eine Dreiwege-Steuerung: Auto, Aus, Ein |
-| **ReefBeat** | Ein Red Sea-Gerät, mit seiner eigenen Zusammenfassung |
-| **Apex-Modul** | Ein eingebautes Apex-Modul, wie ein Trident oder DŌS |
-| **Jecod** | Eine Jecod-Pumpe, mit ihrem Modus und ihrer Intensität |
-| **Maxspect** *(Beta)* | Eine Gyre, mit beiden Motoren |
+| **Wert** | den aktuellen Messwert mit Einheit, Alter und Quelle |
+| **Anzeige** | einen Bogen, auf dem dein Bereich eingezeichnet ist, mit einem Knopf beim aktuellen Wert |
+| **Diagramm** | einen Verlauf über einen Zeitraum, den du wählst |
+| **Status** | einen Zustand als Text, etwa läuft, ruht, geschlossen |
+| **Steckdose** | einen Schalter mit drei Stellungen: Auto, Aus, Ein |
+| **ReefBeat** | ein Red Sea-Gerät mit eigener Zusammenfassung |
+| **Apex-Modul** | ein eingebautes Apex-Modul, etwa ein Trident oder DŌS |
+| **Jecod** | eine Jecod-Pumpe mit Modus und Intensität |
+| **Maxspect** *(Beta)* | eine Gyre mit beiden Motoren |
 
-Die letzten vier sind **Geräte**-Kacheln: Sie sind an ein Stück Ausrüstung gebunden statt an einen Wasserwert, und jede zeigt, was dieses Gerät meldet.
+Die letzten vier sind **Gerätekacheln**. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.
 
 ## Größe
 
-**Breite** und **Höhe** sind jeweils **1×** oder **2×**. Ein Diagramm ist nie eine Zelle breit.
+**Breite** und **Höhe** sind jeweils **1×** oder **2×**. Ein Diagramm ist nie nur eine Zelle breit.
 
 ## Wert
 
-Die einfache Zahl. Aktueller Messwert, seine Einheit, wie alt er ist, und woher er kommt.
+Die reine Zahl: der aktuelle Messwert mit Einheit, wie alt er ist und woher er kommt.
 
-Nutze das für Wasserwerte, die du numerisch prüfst statt nach Trend: Calcium, Magnesium, Nitrat.
+Nimm ihn für Wasserwerte, bei denen dich die Zahl interessiert und weniger der Verlauf, etwa Calcium, Magnesium oder Nitrat.
 
-**Einstellungen:** Bezeichnung, Quelle, Größe.
+Einstellbar sind Bezeichnung, Quelle und Größe.
 
 ## Anzeige
 
-Ein Bogen mit deinem Zielbereich darauf gebändert und einem Zeiger am aktuellen Wert. Die Farbe des Zeigers sagt dir, wo du stehst: innerhalb des Bandes, abweichend, oder außerhalb.
+Ein Bogen, auf dem dein Zielbereich eingezeichnet ist, mit einem Knopf beim aktuellen Wert. An der Farbe des Knopfs siehst du, wo du stehst: im Bereich, auf dem Weg nach draußen oder außerhalb.
 
-Nutze das für die Wasserwerte, die du aktiv steuerst: Alkalinität, pH, Salinität, Temperatur.
+Nimm sie für die Wasserwerte, die du aktiv steuerst, etwa Alkalinität, pH, Salinität und Temperatur.
 
-**Einstellungen:** Bezeichnung, Quelle, Bereich (übernommen von deinen Beckenzielen, sofern du ihn hier nicht überschreibst), Größe.
+Einstellbar sind Bezeichnung, Quelle, Bereich (kommt aus den Zielwerten deines Beckens, außer du legst hier einen eigenen fest) und Größe.
 
-:::note Stelle Anzeigen auf zwei Spalten oder mehr
-Bei einer einzelnen Spalte ist der Bogen zu klein, um ihn auf einen Blick zu lesen; nutze statt dessen ein **Wert**-Widget, wenn der Platz begrenzt ist.
+:::note Gib Anzeigen mindestens zwei Spalten
+In einer einzelnen Spalte ist der Bogen zu klein, um ihn schnell abzulesen. Ist wenig Platz, nimm lieber ein **Wert**-Widget.
 :::
 
 ## Diagramm
 
-Eine Sparkline über ein von dir gewähltes Fenster, mit markiertem Höchst- und Tiefstwert, und dem aktuellen Wert hervorgehoben.
+Eine kleine Verlaufskurve über einen Zeitraum, den du wählst. Höchst- und Tiefstwert sind markiert, und der aktuelle Wert ist hervorgehoben.
 
-Bei einem Wasserwert, den du testest (per Trident oder mit einem Testkit), verbindet die Linie deine tatsächlichen Tests. Wenn das Fenster nur einen Test enthält, läuft die Linie vom Test davor herein, und es wird kein Höchst- oder Tiefstwert markiert. Ohne Test im Fenster, oder ohne etwas Früheres, mit dem ein einzelner Test verbunden werden könnte, zeigt die Kachel **Wird gesammelt…** statt einer Linie.
+Bei einem Wasserwert, den du testest (mit Trident oder Testkit), verbindet die Linie deine tatsächlichen Tests. Liegt im Zeitraum nur ein Test, kommt die Linie vom Test davor, und Höchst- und Tiefstwert werden nicht markiert. Gibt es im Zeitraum keinen Test oder keinen früheren Test, mit dem sich ein einzelner verbinden ließe, zeigt die Kachel **Wird gesammelt…** und keine Linie.
 
-Nutze das für alles, was sich bewegt: pH über den Tag, Temperatur während einer Hitzewelle, Alkalinität zwischen Dosierungen.
+Nimm es für alles, was sich bewegt, etwa pH im Tagesverlauf, Temperatur während einer Hitzewelle oder Alkalinität zwischen den Dosierungen.
 
-**Einstellungen:** Bezeichnung, Quelle, **Zeitfenster** (1 Stunde, 6 Stunden, 24 Stunden, 7 Tage, 30 Tage, 1 Jahr), Größe.
+Einstellbar sind Bezeichnung, Quelle, **Zeitfenster** (1 Stunde, 6 Stunden, 24 Stunden, 7 Tage, 30 Tage, 1 Jahr) und Größe.
 
-Ein Trend ist immer **mindestens zwei Zellen breit**; eine in eine Zelle gepresste Sparkline sagt dir nichts, daher erstellt der Editor keine solche.
+Ein Verlauf ist immer **mindestens zwei Zellen breit**. In einer einzelnen Zelle würde die Kurve nichts aussagen, deshalb lässt der Editor das nicht zu.
 
-:::note Wähle das Fenster passend zum Rhythmus
-pH schwankt in einem Tageszyklus, daher zeigen dir 24 Stunden die Form. Alkalinität bewegt sich über Tage, daher sagen dir 7 oder 30 mehr, als 24 es je könnte.
+:::note Wähl den Zeitraum passend zum Rhythmus
+pH schwankt im Tagesverlauf. In 24 Stunden siehst du also die typische Kurve. Alkalinität verändert sich über Tage. Da sagen dir 7 oder 30 Tage viel mehr als 24 Stunden.
 :::
 
 ## Status
 
-Text statt einer Zahl, für Dinge, die ein Zustand sind. Läuft, ruht, offen, geschlossen, füttert.
+Ein Zustand als Text, für alles, was sich nicht in Zahlen ausdrücken lässt: läuft, ruht, offen, geschlossen, füttert.
 
-**Einstellungen:** Bezeichnung, Quelle, Größe.
+Einstellbar sind Bezeichnung, Quelle und Größe.
 
 ## Steckdose
 
-Ein Dreiwege-Schalter für eine Steckdose: **Auto**, **Aus**, **Ein**.
+Ein Schalter mit drei Stellungen für eine Steckdose: **Auto**, **Aus**, **Ein**.
 
-- **Auto** gibt die Steckdose an das zurück, was sie normalerweise steuert: einen Zeitplan, eine Regel, oder den Controller, zu dem sie gehört.
-- **Aus** und **Ein** sind manuelle Übersteuerungen, die bleiben, bis du sie zurückänderst.
+- **Auto** gibt die Steckdose an das zurück, was sie sonst steuert, also einen Zeitplan, eine Regel oder den Controller, zu dem sie gehört.
+- **Aus** und **Ein** schalten sie von Hand. Das bleibt so, bis du es zurückstellst.
 
-**Einstellungen:** Bezeichnung, welche Steckdose, Größe.
+Einstellbar sind Bezeichnung, Steckdose und Größe.
 
-:::warning Eine manuelle Übersteuerung läuft nicht ab
-Aus bedeutet aus, bis du es zurück auf Auto stellst. Wenn du eine Rückförderpumpe ausschaltest, um im Becken zu arbeiten, stelle sie zurück auf Auto, wenn du fertig bist; Cora tut das nicht für dich.
+:::warning Von Hand geschaltet bleibt geschaltet
+Aus bleibt aus, bis du wieder auf Auto stellst. Schaltest du die Rückförderpumpe aus, um im Becken zu arbeiten, stell sie danach wieder auf Auto. Cora macht das nicht für dich.
 :::
 
 ## ReefBeat
 
-Eine Kachel für ein ganzes Ausrüstungsstück, die eine eigene Zusammenfassung zeigt statt eines einzelnen Wasserwerts: den Status und das Reservoir eines ATO, die Köpfe einer Dosiereinheit, die verbleibenden Tage eines Mattenrollers.
+Eine Kachel für ein ganzes Gerät. Sie zeigt eine eigene Zusammenfassung und keinen einzelnen Wasserwert, etwa Status und Vorratsbehälter einer Nachfüllanlage, die Köpfe einer Dosiereinheit oder die verbleibenden Tage eines Mattenrollers.
 
-Welche Geräte eine Kachel anbieten, hängt davon ab, was du verbunden hast. Siehe **[Deine Ausrüstung verbinden](/help/mobile-connections)**.
+Für welche Geräte es eine Kachel gibt, hängt davon ab, was du verbunden hast. Mehr dazu unter **[Deine Ausrüstung verbinden](/help/mobile-connections)**.
 
-**Einstellungen:** Bezeichnung, welches Gerät, Größe.
+Einstellbar sind Bezeichnung, Gerät und Größe.
 
 ## Was ein Wasserwert-Widget zeigt
 
-Bei einem Widget, das auf einem gemessenen Wasserwert basiert (Wert, Anzeige, Diagramm und Status), sind immer drei Dinge vorhanden. Steckdosen- und Gerätekacheln zeigen statt dessen ihren eigenen Zustand, weil kein einzelner Messwert hinter ihnen steht:
+Ein Widget für einen gemessenen Wasserwert (Wert, Anzeige, Diagramm und Status) zeigt immer drei Dinge. Steckdosen- und Gerätekacheln zeigen stattdessen ihren eigenen Zustand, denn hinter ihnen steht kein einzelner Messwert:
 
-- **Der Wert**, groß
-- **Das Alter** (`jetzt`, `1h`, `2d`): wie alt der Messwert ist, nicht wie kürzlich sich der Bildschirm aktualisiert hat
-- **Die Quelle**: ein kleines Abzeichen, das sagt, woher die Zahl kommt
+- **den Wert**, groß
+- **das Alter** (`jetzt`, `1h`, `2d`), also wie alt der Messwert ist und nicht, wann der Bildschirm zuletzt aktualisiert wurde
+- **die Quelle** als kleines Abzeichen, das zeigt, woher die Zahl kommt
 
-Tippe auf ein beliebiges Widget, um seine vollständige Historie zu öffnen, jede Quelle, die es meldet, und die aktuell geltenden Schwellenwerte.
+Tippe auf ein Widget, dann siehst du die ganze Historie, jede Quelle, die den Wert meldet, und die gerade geltenden Schwellenwerte.
 
 ## Größen
 
-Widgets sind eine oder zwei Zellen breit und eine oder zwei Zellen hoch, außer einem **Trend**, der immer mindestens zwei breit ist. Auf einem dreispaltigen Dashboard nimmt eine zwei breite Anzeige zwei Drittel der Zeile ein, meist die richtige Form für deinen wichtigsten Wasserwert.
+Widgets sind eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Nur ein **Verlauf** ist immer mindestens zwei Zellen breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Für deinen wichtigsten Wasserwert passt diese Form meist am besten.

@@ -269,7 +269,7 @@ UI_STRINGS = {
         "next": "Sonraki",
         "written_for": "Cora Max {max} ve Cora Mobile {mobile} için yazılmıştır.",
         "last_checked": "Son kontrol: {date}.",
-        "still_stuck": "Yine de takıldınız mı? {email} adresine yazın, yardımcı olalım.",
+        "still_stuck": "Sorun devam ediyor mu? {email} adresine yazın, yardımcı olalım.",
         "footer_privacy": "Gizlilik",
         "footer_terms": "Koşullar",
         "footer_support": "Destek",

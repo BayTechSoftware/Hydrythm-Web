@@ -1,76 +1,76 @@
 ---
 title: Geräte hinzufügen, bearbeiten und entfernen
-description: So fügst du Ausrüstung zu Cora hinzu, weist sie einem Becken zu, benennst sie um und entfernst sie sauber.
+description: So fügst du Geräte zu Cora hinzu, ordnest sie einem Becken zu, benennst sie um und entfernst sie sauber.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 9
 group: Equipment
 ---
 
-Der Tab **Geräte** ist alles, was du verbunden hast, nach Marke gruppiert. Jede Gruppe klappt sich zusammen, sodass ein Riffraum voller Ausrüstung übersichtlich bleibt.
+Im Tab **Geräte** steht alles, was du verbunden hast, nach Marke gruppiert. Jede Gruppe lässt sich zuklappen. So behältst du auch in einem Technikraum voller Geräte den Überblick.
 
 ![Der Tab Geräte](img/mobile-devices.webp "Ausrüstung ist nach Marke gruppiert. Jede Gruppe klappt sich zusammen.")
 
-## Ausrüstung hinzufügen
+## Geräte hinzufügen
 
-Unter der Liste stehen drei Schaltflächen, und sie erledigen unterschiedliche Aufgaben:
+Unter der Liste stehen drei Schaltflächen für unterschiedliche Aufgaben:
 
 | Schaltfläche | Fügt hinzu |
 |---|---|
-| **Gerät hinzufügen** | Ein Cora Max. Findet Geräte, die schon in deinem WLAN sind, oder nahe gelegene über Bluetooth. **IP-Adresse manuell eingeben** befindet sich innerhalb dieses Bildschirms, falls die Suche es nicht findet. |
-| **Pumpe im Netzwerk suchen** | Jecod-Pumpen, die sich selbst im lokalen Netzwerk bekannt geben |
-| **AquaWiz hinzufügen** | Einen AquaWiz-Controller, über dein AquaWiz-Konto |
+| **Gerät hinzufügen** | ein Cora Max. Findet Geräte, die schon in deinem WLAN sind, oder Geräte in der Nähe per Bluetooth. Findet die Suche nichts, gibt es auf diesem Bildschirm **IP-Adresse manuell eingeben**. |
+| **Pumpe im Netzwerk suchen** | Jecod-Pumpen, die sich im lokalen Netzwerk selbst melden |
+| **AquaWiz hinzufügen** | einen AquaWiz-Controller über dein AquaWiz-Konto |
 
 ![Ein Cora Max hinzufügen](img/mobile-add-device.webp "Gerät hinzufügen sucht in WLAN und Bluetooth nach einem Cora Max.")
 
-Andere Ausrüstung (Neptune Apex und Red Sea ReefBeat) wird über das Becken verbunden, nicht über diese Liste. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+Andere Geräte, also Neptune Apex und Red Sea ReefBeat, verbindest du über das Becken und nicht über diese Liste. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 
-Beim Hinzufügen von Ausrüstung wie einem Heizer, einer Pumpe oder einem Abschäumer wird eine **Autovervollständigung** für Marke und Modell angeboten: Fang an zu tippen, und Cora schlägt aus einer großen, quellengeprüften Liste von Ausrüstungsmarken vor. Wenn deine nicht aufgeführt ist, tippe sie trotzdem ein; Cora behält, was du eintippst.
+Fügst du Ausrüstung wie einen Heizer, eine Pumpe oder einen Abschäumer hinzu, hilft dir eine **Autovervollständigung** bei Marke und Modell. Fang an zu tippen, und Cora macht Vorschläge aus einer großen, geprüften Liste von Herstellern. Steht deine Marke nicht drin, tipp sie trotzdem ein. Cora übernimmt, was du schreibst.
 
 :::note Cora und dein Handy brauchen dasselbe Netzwerk
-Lokal gefundene Ausrüstung muss beim Hinzufügen im selben Netzwerk wie dein Handy sein. **Nach der Einrichtung ist sie weiterhin nur über dieses Netzwerk erreichbar** (oder über Bluetooth, für Geräte, die das nutzen), sofern nicht ein Cora-Gerät vor Ort sie für dich erreichen kann.
+Geräte, die Cora lokal findet, müssen beim Hinzufügen im selben Netzwerk sein wie dein Handy. **Auch nach der Einrichtung erreichst du sie nur über dieses Netzwerk** (oder per Bluetooth, bei Geräten, die das nutzen). Die Ausnahme ist ein Cora-Gerät vor Ort, das sie für dich erreicht.
 
-Ausrüstung, die zu Hause korrekt lesbar ist, kann daher ältere Werte zeigen, während du weg bist, sofern nicht ein Cora Max vor Ort sie abfragen kann. Das spiegelt wider, von wo aus die Ausrüstung erreichbar ist, und ist kein Fehler.
+Ein Gerät, das zu Hause einwandfrei Werte liefert, kann unterwegs also ältere Werte zeigen, außer ein Cora Max vor Ort fragt es ab. Das liegt daran, von wo aus das Gerät erreichbar ist, und ist kein Fehler.
 :::
 
-## Ein Gerät einem Becken zuweisen
+## Ein Gerät einem Becken zuordnen
 
-Die meiste Ausrüstung gehört zu genau einem Becken, und das ist es, was ihre Messwerte auf dem Dashboard dieses Beckens erscheinen lässt.
+Die meisten Geräte gehören zu genau einem Becken. Erst dadurch erscheinen ihre Messwerte auf dem Dashboard dieses Beckens.
 
-**Cora Max ist die Ausnahme**: Es kann bis zu vier Becken zugewiesen werden und wechselt auf dem Bildschirm zwischen ihnen. Siehe [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
+**Cora Max ist die Ausnahme.** Es kann bis zu vier Becken zugeordnet werden und wechselt auf dem Bildschirm zwischen ihnen. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
-Öffne das Gerät und wähle **Becken**. Wenn du mehr als ein System betreibst, ist das die wichtigste Einstellung: Ein Heizer, der dem falschen Becken zugewiesen ist, meldet einwandfrei an den falschen Ort.
+Öffne das Gerät und wähl **Becken**. Hast du mehrere Systeme, ist das die wichtigste Einstellung. Ein Heizer, der dem falschen Becken zugeordnet ist, meldet seine Werte tadellos, nur eben an der falschen Stelle.
 
-:::warning Weise das Becken zu, bevor du dich auf die Messwerte verlässt
-Ein Gerät ohne Becken meldet trotzdem, aber seine Zahlen haben nirgendwo, wo sie landen. Wenn ein gerade hinzugefügtes Gerät nicht auf einem Dashboard erscheint, prüfe das zuerst.
+:::warning Erst das Becken zuordnen, dann den Messwerten trauen
+Ein Gerät ohne Becken meldet trotzdem Werte, aber sie landen nirgends. Taucht ein gerade hinzugefügtes Gerät auf keinem Dashboard auf, prüf das zuerst.
 :::
 
 ## Umbenennen
 
-Öffne das Gerät und bearbeite seinen Namen. Nutze den Namen, den du im Alltag dafür verwendest: "Rückförderung", "Gyre links", "Technikbecken-Heizer". Der Name erscheint auf Widgets, in Warnungen und in allem, was du Cora fragst, daher macht ein Name, der für dich Bedeutung hat, alles Nachfolgende klarer.
+Öffne das Gerät und ändere seinen Namen. Nimm den Namen, den du im Alltag benutzt, etwa "Rückförderung", "Gyre links" oder "Heizer Technikbecken". Der Name steht auf Widgets, in Warnungen und in allem, was du Cora fragst. Ein Name, mit dem du etwas anfangen kannst, macht also alles Weitere klarer.
 
-Das Umbenennen ist lokal in Cora. Es ändert nicht den Namen in der eigenen App des Herstellers.
+Der neue Name gilt nur in Cora. In der App des Herstellers bleibt der alte Name.
 
-## Prüfen, ob ein Gerät gesund ist
+## Prüfen, ob ein Gerät in Ordnung ist
 
-Jede Zeile zeigt ihren aktuellen Zustand. Was du sehen willst, ist eine aktuelle Aktualisierungszeit und keine Warnung.
+Jede Zeile zeigt den aktuellen Zustand des Geräts. Gut ist eine aktuelle Aktualisierungszeit ohne Warnung.
 
 | Was du siehst | Was es bedeutet |
 |---|---|
-| Eine aktuelle Aktualisierungszeit | Funktioniert normal |
-| "Vor 3 Std. aktualisiert" bei etwas, das stündlich meldet | In Ordnung |
-| "Konnte nicht erreicht werden…" | Ein Netzwerkproblem, oder das Gerät ist aus |
-| "…hat die Anmeldung abgelehnt" | Das Konto des Herstellers muss neu verbunden werden; öffne das Gerät und melde dich erneut an |
-| Gar nichts | Es hat noch nie gemeldet; prüfe die Beckenzuweisung und die Verbindung |
+| eine aktuelle Aktualisierungszeit | alles normal |
+| "Vor 3 Std. aktualisiert" bei einem Gerät, das nur alle paar Stunden meldet | in Ordnung |
+| "Konnte nicht erreicht werden…" | ein Netzwerkproblem, oder das Gerät ist aus |
+| "…hat die Anmeldung abgelehnt" | Das Herstellerkonto muss neu verbunden werden. Öffne das Gerät und melde dich erneut an |
+| gar nichts | Das Gerät hat noch nie etwas gemeldet. Prüf die Zuordnung zum Becken und die Verbindung |
 
 ## Ein Gerät entfernen
 
-Öffne das Gerät und wähle **Entfernen**. Du wirst um Bestätigung gebeten und erfährst genau, was entfernt wird.
+Öffne das Gerät und wähl **Entfernen**. Cora fragt nach und sagt dir genau, was entfernt wird.
 
-**Deine Messwerte bleiben erhalten.** Das Entfernen eines Geräts stoppt, dass Cora neue Daten davon sammelt; die bereits erfasste Historie bleibt beim Becken, und jedes Widget, das darauf verweist, behält seine bisherigen Messwerte.
+**Deine Messwerte bleiben erhalten.** Nach dem Entfernen sammelt Cora keine neuen Daten mehr von dem Gerät. Die bisherige Historie bleibt beim Becken, und jedes Widget, das auf das Gerät zeigt, behält seine alten Messwerte.
 
-Was du verlierst, ist die Live-Verbindung und, wo das Gerät über ein Herstellerkonto verbunden war, die gespeicherte Anmeldung. Es wieder hinzuzufügen bedeutet, sich erneut anzumelden.
+Du verlierst die Live-Verbindung. War das Gerät über ein Herstellerkonto verbunden, ist auch die gespeicherte Anmeldung weg. Fügst du es wieder hinzu, musst du dich neu anmelden.
 
 :::tip Ein lautes Gerät beruhigen, ohne es zu entfernen
-Wenn ein Gerät korrekt funktioniert, aber zu oft warnt, passe seine Schwellenwerte oder Benachrichtigungseinstellungen an; siehe **[Warnungen und Schwellenwerte](/help/mobile-alerts)**. Das behält die Verbindung und die Daten, während es den Lärm stoppt.
+Funktioniert ein Gerät richtig, meldet sich aber zu oft, pass seine Schwellenwerte oder Benachrichtigungen an. Wie das geht, steht unter **[Warnungen und Schwellenwerte](/help/mobile-alerts)**. Verbindung und Daten bleiben, und trotzdem ist Ruhe.
 :::

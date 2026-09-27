@@ -1,59 +1,59 @@
 ---
 title: Il diario
-description: Registra cosa hai fatto alla tua vasca, così più avanti puoi capire cosa ha causato cosa.
+description: Annota cosa fai alla vasca, così più avanti capisci cosa ha causato cosa.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 21
 group: Records
 ---
 
-Il diario registra cosa hai fatto alla vasca: cambi d'acqua, aggiunte di popolazione, cambi di dosaggio, lavori sull'equipaggiamento e manutenzione.
+Nel diario annoti cosa hai fatto alla vasca: cambi d'acqua, nuovi animali, modifiche al dosaggio, lavori sull'attrezzatura e manutenzione.
 
-Il suo scopo è il confronto successivo. Quando un parametro si sposta inaspettatamente, il diario è il registro di cosa è cambiato attorno a quella data.
+Serve per confrontare dopo. Quando un parametro si sposta senza motivo apparente, il diario ti dice cosa è cambiato intorno a quella data.
 
 ![Il diario](img/mobile-journal.webp "Voci in ordine inverso, con le foto incorporate.")
 
 ## Aggiungere una voce
 
-Tocca il pulsante **Diario** che fluttua sopra la parte inferiore destra della Dashboard.
+Tocca il pulsante **Diario** che si trova in basso a destra sopra la Dashboard.
 
-Scrivi cosa hai fatto con parole semplici. Aggiungi una foto se aiuta: un corallo che si colora, un pezzo di equipaggiamento che si comporta in modo strano, il risultato di un kit di test.
+Scrivi cosa hai fatto con parole semplici. Se serve, aggiungi una foto: un corallo che prende colore, un apparecchio che si comporta in modo strano, il risultato di un test.
 
-Puoi anche **dettare** una voce invece di digitarla, che è l'opzione più semplice con le mani bagnate. Parla, e ciò che hai detto viene scritto nella voce per te.
+Puoi anche **dettare** la voce. Con le mani bagnate è la cosa più comoda: parli e quello che dici viene scritto nella voce.
 
-Le voci sono timbrate automaticamente con la vasca e l'orario.
+Vasca e orario vengono aggiunti da soli.
 
-:::note Le voci non devono essere formali
-Voci brevi sono sufficienti; "cambio acqua 20 l, 5 ml di alcalinità extra" è un registro completo. Inseriscile al momento; le voci ricostruite sono meno affidabili.
+:::note Bastano poche parole
+Una voce breve va benissimo: "cambio acqua 20 l, 5 ml di alcalinità in più" è già completa. Scrivila subito, perché le voci ricostruite a memoria sono meno affidabili.
 :::
 
-## Cosa registrare
+## Cosa annotare
 
-Le cose che si rivelano più importanti:
+Le cose che poi contano di più:
 
-- **Cambi d'acqua**: quanto, e quando
-- **Qualsiasi cosa nuova nella vasca**: popolazione, roccia, media
-- **Cambi di dosaggio**: cosa hai cambiato e perché
-- **Equipaggiamento**: pulito, sostituito, spostato, guasto
-- **Manutenzione**: skimmer pulito, calzini cambiati, pompe revisionate
-- **Qualsiasi cosa inusuale**: un'interruzione di corrente, una giornata caldissima, una fuoriuscita
+- **Cambi d'acqua**: quanta acqua e quando
+- **Tutto quello che entra in vasca**: animali, rocce, materiali filtranti
+- **Modifiche al dosaggio**: cosa hai cambiato e perché
+- **Attrezzatura**: pulita, sostituita, spostata, guasta
+- **Manutenzione**: schiumatoio pulito, calze filtranti cambiate, pompe revisionate
+- **Imprevisti**: un blackout, una giornata molto calda, una perdita d'acqua
 
-## Modificare e rimuovere voci
+## Modificare ed eliminare le voci
 
-Tocca una voce per aprirla e cambiarla. Per rimuoverne una, scorrila e confermala; ti viene chiesto prima, perché una voce che hai scritto al momento non è ricostruibile più avanti.
+Tocca una voce per aprirla e modificarla. Per eliminarla, scorrila di lato e conferma. Cora ti chiede conferma perché una voce scritta sul momento non si può ricostruire dopo.
 
-## Chiedere a Cora su una voce
+## Chiedere a Cora di una voce
 
-Una voce che hai segnato come **preoccupazione** o **emergenza** porta un'azione **Analizza**. Consegna quella voce, con le letture della vasca attorno alla stessa data, a [Cora Assistant](/help/mobile-assistant) e torna con una valutazione. Usala quando hai scritto qualcosa che ti preoccupa e vuoi una seconda lettura su di essa.
+Le voci che hai segnato come **preoccupazione** o **emergenza** hanno il comando **Analizza**. Passa la voce a [Cora Assistant](/help/mobile-assistant) insieme alle letture della vasca di quei giorni, e ricevi una valutazione. Usalo quando hai annotato qualcosa che ti preoccupa e vuoi un secondo parere.
 
-## Rileggerlo
+## Rileggere il diario
 
-Il diario è una linea temporale per vasca, dal più recente. Le foto appaiono incorporate.
+Il diario è una sequenza per vasca che parte dalla voce più recente. Le foto compaiono direttamente nelle voci.
 
-Filtra per categoria per restringere un diario lungo a un solo tipo di voce: osservazioni, preoccupazioni, o emergenze.
+Se il diario è lungo, filtra per categoria per vedere un solo tipo di voce: osservazioni, preoccupazioni o emergenze.
 
-L'Assistant legge il diario. Domande come *"quando ho cambiato l'acqua l'ultima volta?"* vengono risposte dalle tue voci insieme alle tue letture.
+L'Assistant legge il diario. A domande come *"quando ho cambiato l'acqua l'ultima volta?"* risponde usando le tue voci e le tue letture.
 
 ## Su Cora Max
 
-Puoi aggiungere voci di diario anche su Cora Max, il che è spesso più comodo quando sei in piedi davanti alla vasca. Raggiungi il diario dal menu della vasca, oppure detta una voce a voce.
+Puoi aggiungere voci al diario anche da Cora Max, spesso più comodo quando sei in piedi davanti alla vasca. Il diario si apre dal menu della vasca, oppure puoi dettare una voce a voce.

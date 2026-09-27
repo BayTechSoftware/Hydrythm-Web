@@ -1,54 +1,54 @@
 ---
-title: Scenki na Cora Max
-description: Budowanie, uruchamianie i edytowanie scenek prosto na ekranie Cora Max.
+title: Sceny na Cora Max
+description: Jak tworzyć, uruchamiać i edytować sceny bezpośrednio na ekranie Cora Max.
 section: Cora Max
 reviewed: 2026-09-27
 order: 15
 group: Automation
 ---
 
-**Scenka** to zapisany zestaw akcji na sprzęcie, który działa razem, albo na ustalony czas, albo aż to zatrzymasz. Scenki działają tak samo, niezależnie od tego, czy budujesz je na telefonie, czy na Cora Max; ta strona opisuje robienie tego przy ścianie.
+**Scena** to zapisany zestaw akcji na sprzęcie, które działają razem przez ustalony czas albo do chwili, gdy je zatrzymasz. Sceny działają tak samo, bez względu na to, czy tworzysz je na telefonie, czy na Cora Max. Ta strona opisuje pracę ze scenami na Cora Max.
 
-## Gdzie znaleźć scenki
+## Gdzie są sceny
 
-**Ustawienia → Automatyzacje** wypisuje każdą scenkę na każdym Twoim akwarium, z plakietką filtra dla każdego akwarium, gdy masz więcej niż jedno. Otwiera tę samą listę, niezależnie od tego, czy scenka została zbudowana na telefonie, czy na Cora Max.
+W **Ustawienia → Automatyzacje** zobaczysz wszystkie sceny ze wszystkich akwariów. Jeśli masz więcej niż jedno akwarium, nad listą są plakietki filtrów, po jednej na akwarium. Lista jest ta sama, bez względu na to, gdzie scenę utworzono.
 
-Dotknij scenki, aby ją edytować, albo dotknij **+**, aby zbudować nową. Jeśli masz więcej niż jedno akwarium i żaden filtr nie jest wybrany, Cora Max pyta, do którego akwarium nowa scenka należy.
+Dotknij sceny, żeby ją edytować, albo dotknij **+**, żeby utworzyć nową. Jeśli masz kilka akwariów i nie wybierzesz filtra, Cora Max zapyta, do którego akwarium ma należeć nowa scena.
 
-## Budowanie scenki
+## Tworzenie sceny
 
-1. Nadaj scence **nazwę**.
-2. Dodaj **kroki**. Z Cora Max krok może przełączyć gniazdo Apex (**On**, **Wyłączone** albo **Auto**) albo wtyczkę Zigbee (**on**, **wyłączona** albo **toggle**). Kroki dodane na telefonie dla innych rodzajów sprzętu wciąż tutaj się pokazują i wciąż mogą być przestawiane albo usuwane, mimo że ten ekran nie może dodać kolejnego takiego kroku.
-3. Wybierz, jak długo działa: ustaloną liczbę minut albo **permanent** (działa, aż to zatrzymasz).
-4. Wybierz, czy uruchomienie scenki wymaga kroku **confirmation**. Zostaw to włączone, o ile nie jesteś pewien, że scenka nigdy nie dotyka niczego, co byłoby niebezpieczne zmienić bez drugiego spojrzenia.
+1. Wpisz **Nazwa sceny**.
+2. Dodaj **Kroki**. Na Cora Max krok może przełączyć gniazdo Apex (**WŁ.**, **WYŁ.** albo **AUTO**) albo wtyczkę Zigbee (**Włącz**, **Wyłącz** albo **Przełącz**). Kroki dodane na telefonie dla innego sprzętu też tu widać. Możesz zmienić ich kolejność albo je usunąć, ale nie dodasz tu nowego kroku tego rodzaju.
+3. Wybierz czas działania: określoną liczbę minut albo **Stałe** (scena działa, dopóki jej nie zatrzymasz).
+4. Zdecyduj, czy scena ma prosić o potwierdzenie przed uruchomieniem (**Pytaj przed uruchomieniem**). Zostaw to włączone, chyba że masz pewność, że scena nie zmienia niczego, co wymaga drugiego spojrzenia.
 5. Zapisz.
 
-:::note Głowice dozujące DŌS nigdy nie są krokiem scenki
-Scenka, zbudowana na Cora Max albo na telefonie, nigdy nie może włączyć głowicy dozującej. To jest zamierzone: dawka nie jest rodzajem akcji, którą scenka powinna móc wywołać przez przypadek.
+:::note Głowice dozujące DŌS nie mogą być krokiem sceny
+Żadna scena, utworzona na Cora Max czy na telefonie, nie włączy głowicy dozującej. Dawki nie da się w ten sposób podać przez przypadek.
 :::
 
-## Uruchamianie scenki
+## Uruchamianie sceny
 
-Scenki pojawiają się jako kafelki na pulpicie. Dotknij **Uruchom**, aby jedną uruchomić.
+Sceny widać na pulpicie jako kafelki. Dotknij **Uruchom**, żeby uruchomić scenę.
 
-Jeśli scenka wymaga potwierdzenia, Cora Max wypisuje dokładnie, co zamierza zrobić, jedna linia na krok, przed tym, jak coś się stanie. Przeczytaj to, a potem wybierz uruchomienie albo anulowanie.
+Jeśli scena wymaga potwierdzenia, Cora Max najpierw pokaże dokładnie, co zrobi, po jednej linii na krok. Przeczytaj listę, a potem uruchom scenę albo anuluj.
 
-Podczas działania scenki na czas jej kafelek pokazuje odliczanie do zakończenia i przycisk **Zatrzymaj**, aby zakończyć wcześniej. Kafelek scenki permanentnej zostaje w stanie działania, aż go zatrzymasz.
+Gdy działa scena z ustalonym czasem, jej kafelek odlicza czas do końca. Ma też przycisk **Zatrzymaj**, jeśli chcesz ją zakończyć wcześniej. Kafelek stałej sceny pokazuje, że działa, dopóki jej nie zatrzymasz.
 
-Uruchamianie albo zatrzymywanie scenki zawsze przechodzi przez Cora Cloud, tak jak każde inne polecenie; zobacz [Co zostało zmienione i przez co](/help/max-activity) po to, gdzie zapisywany jest wynik.
+Uruchomienie i zatrzymanie sceny zawsze przechodzi przez Cora Cloud, tak jak każde inne polecenie. Wynik znajdziesz w [Co zostało zmienione i przez co](/help/max-activity).
 
-**Jeśli to nie działa:** jeśli scenka nie chce się uruchomić albo nie chce się zatrzymać, zobacz [Rozwiązywanie problemów](/help/troubleshooting).
+Jeśli scena nie chce się uruchomić albo zatrzymać, zajrzyj do [Rozwiązywanie problemów](/help/troubleshooting).
 
-:::note Blokada rodzicielska obejmuje też scenki
-Jeśli [blokada rodzicielska](/help/max-voice) jest włączona, uruchamianie albo zatrzymywanie scenki z tego ekranu jest blokowane razem z każdą inną kontrolką. Pytania o scenkę wciąż działają głosem; uruchomienie albo zatrzymanie jej nie.
+:::note Blokada rodzicielska dotyczy też scen
+Gdy włączona jest [Blokada rodzicielska](/help/max-voice), z tego ekranu nie uruchomisz ani nie zatrzymasz sceny, tak jak nie użyjesz innych przycisków sterowania. Głosem możesz dalej pytać o scenę, ale nie uruchomisz jej ani nie zatrzymasz.
 :::
 
-## Edytowanie albo usuwanie scenki
+## Edytowanie i usuwanie sceny
 
-Otwórz scenkę z **Ustawienia → Automatyzacje** albo przytrzymaj jej kafelek na pulpicie, aby zmienić jej nazwę, kroki, czas trwania albo ustawienie potwierdzenia, albo aby ją usunąć.
+Otwórz scenę w **Ustawienia → Automatyzacje** albo przytrzymaj jej kafelek na pulpicie. Możesz wtedy zmienić nazwę, kroki, czas działania i potwierdzenie albo usunąć scenę.
 
-:::note Starsze ekrany Cora Max mogą uruchomić scenkę, ale nie edytować jej
-Budowanie i edytowanie scenek przy ścianie jest nowszą możliwością Cora Max. Starsze Cora Max na tym samym koncie wciąż może pokazać i uruchomić scenkę utworzoną na telefonie albo na nowszym Cora Max; po prostu nie może jej zmienić. Zaktualizuj Cora Max albo edytuj scenkę z telefonu albo z nowszego ekranu, jeśli to się zdarzy.
+:::note Starszy Cora Max uruchomi scenę, ale jej nie zmieni
+Tworzenie i edytowanie scen na ekranie to nowsza funkcja Cora Max. Starszy Cora Max na tym samym koncie pokaże i uruchomi scenę utworzoną na telefonie albo na nowszym Cora Max, ale nie może jej zmienić. W takiej sytuacji zaktualizuj Cora Max albo edytuj scenę na telefonie lub nowszym ekranie.
 :::
 
-Zobacz [Scenki i automatyzacje](/help/mobile-automation) po to, co scenka może robić w większych szczegółach, i jak są budowane na telefonie.
+Więcej o tym, co potrafi scena i jak tworzy się ją na telefonie, przeczytasz w [Sceny i automatyzacje](/help/mobile-automation).

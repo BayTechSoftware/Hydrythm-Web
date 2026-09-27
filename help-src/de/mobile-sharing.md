@@ -1,39 +1,39 @@
 ---
 title: Dein Becken teilen
-description: Erstelle eine teilbare Karte, die den aktuellen Zustand deines Beckens zeigt.
+description: Erstell eine Karte zum Teilen, die zeigt, wie es deinem Becken gerade geht.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 27
 group: Your dashboard
 ---
 
-Cora kann einen **Beckenschnappschuss** erstellen: eine einzelne Karte, die die aktuellen Wasserwerte deines Beckens zeigt, formatiert zum Teilen.
+Cora kann einen **Beckenschnappschuss** für dich erstellen. Das ist eine einzelne Karte mit den aktuellen Wasserwerten deines Beckens, fertig zum Teilen.
 
-## Einen erstellen
+## Einen Schnappschuss erstellen
 
-Tippe auf das **Teilen**-Symbol in der Beckenkopfzeile auf dem Dashboard. Cora erstellt die Karte und zeigt eine Vorschau, bevor irgendetwas gesendet wird.
+Tippe auf dem Dashboard in der Kopfzeile des Beckens auf das Symbol **Teilen**. Cora baut die Karte und zeigt dir eine Vorschau, bevor irgendetwas verschickt wird.
 
 ![Das Beckenschnappschuss-Formular](img/mobile-sharing.webp "Wähle, welche Wasserwerte erscheinen, und die Form der Karte.")
 
-## Was sie enthält
+## Was auf der Karte steht
 
-Die Karte trägt den Namen deines Beckens, sein Alter, seinen Typ und die Anzahl des Besatzes, dann die von dir gewählten Wasserwerte, jeweils mit aktuellem Wert und einem aktuellen Trend.
+Auf der Karte stehen Name, Alter und Typ deines Beckens und wie viele Tiere darin leben. Darunter folgen die Wasserwerte, die du ausgewählt hast, jeweils mit aktuellem Wert und dem jüngsten Verlauf.
 
-## Wählen, was erscheint
+## Auswählen, was draufkommt
 
-**Wasserwerte auf der Karte** listet jeden vom Becken verfolgten Wasserwert als Chip. Hake die aus, die enthalten sein sollen, oder **Alle auswählen**. Drei oder vier lesen sich am besten; darüber hinaus wird die Karte eng.
+Unter **Wasserwerte auf der Karte** steht jeder Wasserwert des Beckens als Chip. Hak die an, die auf die Karte sollen, oder tippe auf **Alle auswählen**. Drei oder vier lesen sich am besten. Bei mehr wird es auf der Karte eng.
 
-## Form
+## Format
 
-Zwei Formate:
+Es gibt zwei Formate:
 
-- **Quadratisch (1:1)**: für einen Beitrag oder eine Nachricht
-- **Story (9:16)**: für eine Vollbild-Story
+- **Quadratisch (1:1)** für einen Beitrag oder eine Nachricht
+- **Story (9:16)** für eine Story im Vollbild
 
-## Sie senden
+## Verschicken
 
-**Teilen** übergibt die Karte an das normale Teilen-Menü deines Handys, sodass sie überallhin gehen kann, wohin dein Handy ein Bild senden kann. Nichts verlässt dein Konto, bis du ein Ziel wählst.
+Mit **Teilen** übergibst du die Karte an das normale Teilen-Menü deines Handys. Du kannst sie also überallhin schicken, wohin dein Handy Bilder senden kann. Solange du kein Ziel auswählst, verlässt nichts dein Konto.
 
-:::note Ein Schnappschuss ist kein Zugriff
-Einen Schnappschuss zu teilen gibt niemandem Zugriff auf dein Konto, deine Historie oder deine Ausrüstung. Um jemanden das Becken betreuen zu lassen, während du weg bist, nutze statt dessen [Verreisen](/help/mobile-vacation), was eine schreibgeschützte Seite erstellt.
+:::note Ein Schnappschuss gibt keinen Zugang
+Teilst du einen Schnappschuss, bekommt niemand Zugang zu deinem Konto, deiner Historie oder deiner Ausrüstung. Soll sich jemand um dein Becken kümmern, während du weg bist, nimm stattdessen [Verreisen](/help/mobile-vacation). Damit erstellst du eine Seite, die man nur lesen kann.
 :::

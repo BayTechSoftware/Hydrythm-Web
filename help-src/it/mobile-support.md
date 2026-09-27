@@ -1,49 +1,49 @@
 ---
 title: Ottenere assistenza
-description: Segnala un problema dall'interno di Cora Mobile, e cosa viene inviato insieme ad esso.
+description: Segnala un problema direttamente da Cora Mobile e scopri cosa viene inviato insieme alla segnalazione.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Segnalare un problema dall'interno di Cora Mobile è più utile che descriverlo dopo, perché Cora Mobile può allegare i dettagli difficili da ricordare.
+Conviene segnalare un problema direttamente da Cora Mobile, nel momento in cui succede, perché Cora Mobile allega da sola i dettagli difficili da ricordare.
 
 **Impostazioni → Segnala un bug / Invia feedback.**
 
-## Cosa compili
+## Cosa scrivi tu
 
-Il modulo chiede due cose: **che tipo di cosa è**, così la segnalazione arriva al posto giusto, e **cosa è successo** con le tue parole.
+Il modulo ti chiede due cose: **di che tipo di problema si tratta**, così la segnalazione arriva alla persona giusta, e **cosa è successo**, con parole tue.
 
-Sii specifico su cosa ti aspettavi e cosa hai visto invece. "L'alcalinità mostrava 2 g di età sulla dashboard mentre l'Apex leggeva correttamente" vale più di "letture rotte".
+Scrivi con precisione cosa ti aspettavi e cosa hai visto. "Sulla dashboard l'alcalinità risultava vecchia di 2 g mentre l'Apex la leggeva bene" è molto più utile di "letture rotte".
 
-## Cosa viene allegato automaticamente
+## Cosa viene allegato in automatico
 
-Una breve riga di contesto accompagna ogni segnalazione, e il modulo te la mostra prima di inviarla:
+A ogni segnalazione si aggiunge una breve riga di contesto, che il modulo ti mostra prima dell'invio:
 
 - la **versione dell'app**
-- la tua **piattaforma** e versione del sistema operativo
-- la **schermata** su cui eri quando hai aperto il modulo
+- la **piattaforma** e la versione del sistema operativo
+- la **schermata** in cui eri quando hai aperto il modulo
 
-È questo che trasforma "non ha funzionato" in qualcosa di riproducibile. Viene mostrato invece che nascosto, così non viene inviato nulla che tu non abbia visto.
+Con queste informazioni un "non ha funzionato" diventa un problema che si può riprodurre. La riga è visibile, quindi non parte nulla che tu non abbia visto.
 
 ## Screenshot
 
-**Allega uno screenshot** aggiunge un'immagine alla segnalazione, e **Rimuovi screenshot** la rimuove di nuovo prima dell'invio.
+**Allega uno screenshot** aggiunge un'immagine alla segnalazione. Con **Rimuovi screenshot** la togli prima dell'invio.
 
-:::warning Uno screenshot è visibile all'assistenza Cora
-Cora Mobile lo dice sopra il controllo. Controlla l'immagine prima di allegarla; uno screenshot della dashboard porta i nomi e le letture della tua vasca, e qualsiasi altra cosa sullo schermo in quel momento.
+:::warning L'assistenza Cora vede lo screenshot
+Cora Mobile te lo ricorda sopra il comando. Guarda bene l'immagine prima di allegarla. Uno screenshot della dashboard mostra i nomi e le letture delle tue vasche, e tutto quello che c'era sullo schermo in quel momento.
 :::
 
-:::note Perché non c'è un controllo screenshot in modalità sitter
-Quando stai visualizzando la vasca di qualcun altro tramite un link condiviso, l'opzione screenshot non viene offerta. Uno screenshot preso allora allegherebbe i dati *loro* al *tuo* ticket di assistenza, e loro non saprebbero mai che è successo.
+:::note In modalità sitter non si possono allegare screenshot
+Quando guardi la vasca di un'altra persona da un link condiviso, l'opzione screenshot non c'è. Uno screenshot allegherebbe i dati *suoi* alla *tua* richiesta di assistenza, e quella persona non lo saprebbe mai.
 :::
 
 ## Segnalazioni automatiche di arresto anomalo
 
-**Invia segnalazioni di arresto anomalo**, accanto alla riga di segnalazione, è la stessa promessa fatta senza che tu debba notare che qualcosa si è rotto e scriverlo: se Cora Mobile va in crash, lo segnala da sola. Vedi [Impostazioni](/help/mobile-settings).
+**Invia segnalazioni di arresto anomalo**, accanto alla riga delle segnalazioni, fa lo stesso lavoro senza che tu debba accorgerti del problema e scriverci: se Cora Mobile si blocca, lo segnala da sola. Vedi [Impostazioni](/help/mobile-settings).
 
-## Altrove
+## Altre strade
 
-- Le domande sulla tua vasca sono di solito più rapide tramite **[Cora Assistant](/help/mobile-assistant)**, che può vedere le tue letture.
-- Qualcosa che non si comporta come documentato: prima **[Risoluzione dei problemi](/help/troubleshooting)**.
+- Per le domande sulla tua vasca di solito fai prima con **[Cora Assistant](/help/mobile-assistant)**, che vede le tue letture.
+- Se qualcosa non funziona come descritto nella guida, guarda prima in **[Risoluzione dei problemi](/help/troubleshooting)**.

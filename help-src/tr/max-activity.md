@@ -1,41 +1,41 @@
 ---
 title: Cora Max'te etkinlik
-description: Bu sistemin yerine getirdiği, reddettiği veya onaylayamadığı her komut, duvarda okunabilir.
+description: Sisteminizin yaptığı, reddettiği ya da doğrulayamadığı her komutu duvardaki ekranda görün.
 section: Cora Max
 reviewed: 2026-09-09
 order: 10
 group: Alerts
 ---
 
-Cora Max, telefondakiyle aynı etkinlik günlüğünü gösterir: her **eyleme geçirme isteği** (bir şeyi değiştirme girişimi) ve sonucunda ne olduğu. Reddedilen veya onaylanmamış bir istek ekipmana hiç ulaşmamış olabilir; kaydedilmesinin nedeni tam olarak budur.
+Cora Max'teki etkinlik günlüğü telefondakiyle aynıdır. Burada her **eyleme geçirme isteği**, yani bir şeyi değiştirme denemesi, sonucuyla birlikte listelenir. Reddedilen ya da doğrulanmayan bir istek ekipmana hiç ulaşmamış olabilir. Bu yüzden onlar da kaydedilir.
 
-Bunu **akvaryum menüsünden** (üst çubuktaki akvaryum adına dokunun) veya **Ayarlar → Akvaryum ayarları → [akvaryumunuz] → Etkinlik** üzerinden açın.
+Günlüğü **akvaryum menüsünden** (üst çubukta akvaryum adına dokunun) ya da **Ayarlar → Akvaryum ayarları → [akvaryumunuz] → Etkinlik** yolundan açın.
 
-![Cora Max'te etkinlik günlüğü](img/max-activity.webp "Açıklama ekranın üst kısmında kalır; böylece bir sonucun hatırlanması gerekmez.")
+![Cora Max'te etkinlik günlüğü](img/max-activity.webp "Açıklamalar ekranın üstünde durur, sonuçların anlamını ezberlemeniz gerekmez.")
 
-## Her satır size ne anlatır
+## Her satırda ne var
 
-Her satır eylemi, ekipmanı ve zamanı adlandırır, ardından ikisinden de daha önemli iki şeyi belirtir.
+Her satırda eylem, ekipman ve saat yazar. Asıl önemli olan iki bilgi daha vardır.
 
-**Bunu kim istedi**: bu ekrandaki siz, telefonunuzdaki siz, ses, Assistant, bir [otomasyon](/help/mobile-automation) kuralı, akıllı bir düğme veya hesabınız. Duvarda yapılan bir kayıt bunu açıkça belirtir.
+**İsteği kim verdi**: Bu ekranda siz, telefonunuzda siz, sesli komut, Assistant, bir [otomasyon](/help/mobile-automation) kuralı, akıllı düğme ya da hesabınız. Duvardaki ekrandan verilen komutlarda bu açıkça yazar.
 
-**Nasıl ilerledi**: komutun kendi ağınız üzerinden mi yoksa hesabınız üzerinden mi gittiği ve hangi Cora'nın onu yerine getirdiği. Birden fazla Cora'ya sahip bir sistemde hangisinin harekete geçtiğini buradan anlarsınız.
+**Komut hangi yoldan gitti**: Kendi ağınız üzerinden mi, hesabınız üzerinden mi gittiği ve hangi Cora'nın uyguladığı. Birden çok Cora'nız varsa hangisinin çalıştığını buradan anlarsınız.
 
 ## Dört sonuç
 
 | Sonuç | Anlamı |
 |---|---|
-| **Onaylandı** | Ekipman bunu yaptığını bildirdi |
-| **Onaylanmadı** | Gönderildi ama hiçbir şey bildirilmedi. Bu *bilmiyoruz* anlamına gelir, *çalıştı* değil |
-| **Reddedildi** | Çalışmadı. Bir güvenlik kuralı, bir kilit veya ekipmanın kendisi bunu reddetti |
-| **Değişiklik yok** | Zaten istediğiniz durumdaydı |
+| **Onaylandı** | Ekipman işi yaptığını bildirdi |
+| **Onaylanmadı** | Komut gitti ama yanıt gelmedi. Yani çalışıp çalışmadığını *bilmiyoruz* |
+| **Reddedildi** | Komut çalışmadı. Bir güvenlik kuralı, bir kilit ya da ekipmanın kendisi reddetti |
+| **Değişiklik yok** | Ekipman zaten istediğiniz durumdaydı |
 
-## Sonuç duvarda neden önemli
+## Sonuç neden önemli
 
-Gönderilen ama hiç onaylanmamış bir komut, dokunduğunuz anda çalışmış bir komutla tıpatıp aynı görünür. Bu fark, bu ekranda görünür hale gelir.
+Dokunduğunuz anda, yanıt gelmeyen bir komut ile çalışan bir komut tıpatıp aynı görünür. Farkı bu ekranda görürsünüz.
 
-İstediğiniz bir şey gerçekleşmemiş görünüyorsa, ekipmanın arızalandığını düşünmeden önce buraya bakın. Genellikle cevap, isteğin reddedilmiş olması ya da hiçbir şeyin bildirilmemiş olmasıdır.
+İstediğiniz bir şey olmamış gibi görünüyorsa, ekipmanın bozulduğunu düşünmeden önce buraya bakın. Çoğu zaman istek reddedilmiştir ya da hiç yanıt gelmemiştir.
 
-## Günlükle birlikte okuma
+## Günlükle birlikte okuyun
 
-Etkinlik, sistemin yaptığını tutar. [Günlük](/help/mobile-journal) ise elle yaptığınızı tutar. İkisi birlikte çoğu sürprizi açıklar.
+Etkinlik, sistemin yaptıklarını tutar. [Günlük](/help/mobile-journal) ise sizin elle yaptıklarınızı. İkisine birlikte baktığınızda çoğu sürprizin nedenini bulursunuz.

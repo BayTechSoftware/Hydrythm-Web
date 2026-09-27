@@ -1,52 +1,52 @@
 ---
 title: Logowanie i odzyskiwanie konta
-description: Zaloguj się, zresetuj zapomniane hasło i napraw adres e-mail, którego nie możesz zweryfikować.
+description: Jak się zalogować, zresetować zapomniane hasło i poprawić adres e-mail, którego nie da się zweryfikować.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 2
 group: Getting started
 ---
 
-Twoje konto jest tym, co łączy Twoje akwaria, odczyty i urządzenia, więc powrót do niego ma większe znaczenie niż jakiekolwiek pojedyncze ustawienie.
+Na koncie są wszystkie Twoje akwaria, odczyty i urządzenia. Dlatego dostęp do niego jest ważniejszy niż jakiekolwiek pojedyncze ustawienie.
 
-## Tworzenie konta
+## Zakładanie konta
 
-Podczas rejestracji musisz zaznaczyć **I agree to: Terms and Conditions and Privacy Policy**, zanim Cora utworzy Twoje konto. Obydwa są linkami, które możesz otworzyć i przeczytać przed zgodą.
+Przy rejestracji zaznacz **Akceptuję: Warunki korzystania i Polityka prywatności**. Bez tego Cora nie założy konta. Oba dokumenty to linki, więc możesz je otworzyć i przeczytać przed akceptacją.
 
-## Sposoby logowania
+## Jak się zalogować
 
-Cora przyjmuje **adres e-mail i hasło**, albo **Kontynuuj z Apple** i **Kontynuuj z Google**.
+Możesz zalogować się **adresem e-mail i hasłem** albo przyciskiem **Kontynuuj z Apple** lub **Kontynuuj z Google**.
 
-Używaj tej samej metody każdym razem. Zalogowanie się Google do konta utworzonego adresem e-mail daje Ci *drugie, puste* konto, a nie dostęp do pierwszego; akwaria nie zniknęły, jesteś po prostu w złym koncie. Jeśli to się stanie, wyloguj się i zaloguj ponownie oryginalnym sposobem.
+Loguj się zawsze tak samo. Jeśli konto ma login e-mailowy, a zalogujesz się przez Google, dostaniesz *drugie, puste* konto. Akwaria nie zniknęły, to po prostu inne konto. Wtedy wyloguj się i zaloguj ponownie tak jak za pierwszym razem.
 
 ## Zapomniane hasło
 
-Na ekranie logowania wybierz **Nie pamiętasz hasła?**, wpisz swój adres e-mail i dotknij **Wyślij link**. Otwórz link na tym samym urządzeniu i ustaw nowe hasło.
+Na ekranie logowania wybierz **Nie pamiętasz hasła?**, wpisz adres e-mail i dotknij **Wyślij link**. Otwórz link na tym samym urządzeniu i ustaw nowe hasło.
 
-:::note Potwierdzenie jest celowo niezobowiązujące
-Wiadomość mówi *"jeśli ten adres ma konto Cora, link resetujący jest w drodze"*; mówi to samo niezależnie od tego, czy adres jest zarejestrowany. To jest zamierzone: powstrzymuje ekran od bycia użytym do sprawdzenia, kto ma konto. Jeśli żaden e-mail nie przychodzi, najbardziej prawdopodobnym powodem jest to, że adres nie jest tym, którym się zarejestrowałeś.
+:::note Dlaczego komunikat brzmi tak ogólnie
+Komunikat mówi *„jeśli ten adres ma konto Cora, link do resetu jest już w drodze”*. Brzmi tak samo bez względu na to, czy adres jest zarejestrowany. Dzięki temu nikt nie sprawdzi na tym ekranie, kto ma konto. Jeśli e-mail nie przychodzi, najczęściej chodzi o inny adres niż ten użyty przy rejestracji.
 :::
 
-Jeśli nic nie przyjdzie w ciągu kilku minut, sprawdź spam, a potem spróbuj innych metod logowania; konto utworzone przez **Kontynuuj z Apple** albo **Kontynuuj z Google** nie ma hasła Cora do zresetowania.
+Jeśli po kilku minutach nic nie przyjdzie, zajrzyj do spamu, a potem spróbuj innych sposobów logowania. Konto założone przez **Kontynuuj z Apple** albo **Kontynuuj z Google** nie ma hasła Cora, więc nie ma czego resetować.
 
-## Weryfikacja Twojego e-maila
+## Weryfikacja adresu e-mail
 
-Po rejestracji Cora wysyła e-mail weryfikacyjny z noreply@coraiq.tech z tematem *"Potwierdź swój e-mail dla Cora"*. Dotknij **Potwierdź mój e-mail** w nim; link wygasa po 24 godzinach. Potem wróć do Cora Mobile i dotknij **Zweryfikowałem swój e-mail**.
+Po rejestracji Cora wysyła e-mail weryfikacyjny z adresu noreply@coraiq.tech z tematem *„Potwierdź swój e-mail dla Cora”*. Dotknij w nim **Potwierdź mój e-mail**. Link jest ważny 24 godziny. Potem wróć do Cora Mobile i dotknij **Zweryfikowałem swój e-mail**.
 
-Jeśli e-mail nie przyszedł, sprawdź spam, a potem dotknij **Wyślij ponownie e-mail weryfikacyjny** na ekranie weryfikacji. Cora wysyła maksymalnie jeden e-mail weryfikacyjny na minutę i pięć na godzinę, licząc pierwszy; dotknij szybciej, a Cora poprosi Cię o poczekanie.
+Jeśli e-mail nie dotarł, sprawdź spam, a potem dotknij **Wyślij ponownie e-mail weryfikacyjny** na ekranie weryfikacji. Cora wysyła najwyżej jeden taki e-mail na minutę i pięć na godzinę, licząc pierwszy. Jeśli dotkniesz przycisku za wcześnie, Cora poprosi, żeby chwilę poczekać.
 
-## Adres e-mail jest błędny
+## Błędny adres e-mail
 
-Jeśli wpisałeś go błędnie, nie musisz zaczynać od nowa. Ekran weryfikacji ma **Błędny adres? Zmień e-mail**: wpisz poprawny adres, a nowy link zostanie na niego wysłany.
+Literówka w adresie nie oznacza, że trzeba zaczynać od nowa. Na ekranie weryfikacji jest przycisk **Błędny adres? Zmień e-mail**. Wpisz poprawny adres, a nowy link przyjdzie właśnie na niego.
 
-:::note "Wyloguj się i zaloguj ponownie, a potem spróbuj jeszcze raz"
-Zmiana adresu na koncie jest operacją wymagającą uwagi bezpieczeństwa, więc czasem wymaga niedawnego logowania. Jeśli zostaniesz poproszony o wylogowanie i ponowne zalogowanie, to jest oczekiwane; zrób to, a potem dotknij **Błędny adres? Zmień e-mail** ponownie.
+:::note „Wyloguj się, zaloguj ponownie i spróbuj jeszcze raz”
+Zmiana adresu konta dotyczy bezpieczeństwa, więc czasem wymaga świeżego logowania. Jeśli pojawi się prośba o ponowne zalogowanie, tak ma być. Wyloguj się, zaloguj i jeszcze raz dotknij **Błędny adres? Zmień e-mail**.
 :::
 
-## Wciąż weryfikuje
+## Weryfikacja wciąż trwa
 
-Cora Mobile sprawdza, gdy dotykasz **Zweryfikowałem swój e-mail**. Jeśli mówi, że e-mail nie jest jeszcze zweryfikowany, dotknij **Potwierdź mój e-mail** w najnowszym e-mailu, daj temu chwilę, a potem sprawdź ponownie. Jeśli link wygasł, dotknij **Wyślij ponownie e-mail weryfikacyjny** po nowy. Sprawdzenie jest wykonywane względem konta, nie urządzenia, więc gdy się powiedzie, jest widoczne na każdym z Twoich urządzeń.
+Cora Mobile sprawdza stan weryfikacji, gdy dotkniesz **Zweryfikowałem swój e-mail**. Jeśli adres nadal nie jest zweryfikowany, dotknij **Potwierdź mój e-mail** w najnowszym e-mailu, odczekaj chwilę i sprawdź jeszcze raz. Jeśli link wygasł, dotknij **Wyślij ponownie e-mail weryfikacyjny**, żeby dostać nowy. Weryfikacja dotyczy konta, a nie urządzenia. Gdy się uda, zobaczysz to na każdym swoim urządzeniu.
 
-## Wylogowywanie
+## Wylogowanie
 
-**Ustawienia → your account → Wyloguj się** odłącza to urządzenie. Nic nie jest usuwane, a ponowne zalogowanie przywraca Twoje akwaria, odczyty i urządzenia. Zobacz [Twoje dane](/help/mobile-data-export) po różnicę między wylogowaniem a usunięciem.
+**Ustawienia → Twoje konto → Wyloguj się** odłącza to urządzenie od konta. Nic nie zostaje usunięte. Po ponownym zalogowaniu wrócą Twoje akwaria, odczyty i urządzenia. Czym wylogowanie różni się od usunięcia konta, przeczytasz w [Twoich danych](/help/mobile-data-export).

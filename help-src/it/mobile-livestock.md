@@ -1,58 +1,58 @@
 ---
 title: Popolazione
-description: Tieni un registro di cosa c'è nella vasca, quando è arrivato, e cosa gli è successo.
+description: Tieni traccia di cosa c'è in vasca, quando è arrivato e che fine ha fatto.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 20
 group: Records
 ---
 
-Popolazione registra cosa contiene la vasca (coralli, pesci e invertebrati) insieme a quando ogni elemento è stato aggiunto e il suo stato attuale. Aprila dalla riga di scorciatoie in fondo alla dashboard.
+In Popolazione tieni l'elenco di quello che c'è in vasca (coralli, pesci e invertebrati), con la data in cui l'hai aggiunto e lo stato attuale. La apri dalla riga di scorciatoie in fondo alla dashboard.
 
 ![L'inventario della popolazione](img/mobile-livestock.webp "Riepilogo dell'inventario e perdite recenti, con le voci raggruppate per tipo.")
 
 ## Il riepilogo
 
-In alto:
+In alto trovi:
 
-- **Riepilogo inventario**: totali per categoria generale, come coralli, pesci e invertebrati
-- **Perdite**: quante voci sono state segnate come perse negli ultimi 90 giorni
+- **Riepilogo inventario**: i totali per grandi categorie, come coralli, pesci e invertebrati
+- **Perdite**: quante voci hai segnato come perse negli ultimi 90 giorni
 
-Le voci sono raggruppate per tipo (corallo SPS, corallo LPS, corallo molle, pesce e così via), ognuna con la sua quantità e la data in cui è stata aggiunta.
+Le voci sono raggruppate per tipo (corallo SPS, corallo LPS, corallo molle, pesce e così via), ognuna con la quantità e la data di inserimento.
 
-**Mostra persi** nella barra superiore include gli elementi non più nella vasca.
+Con **Mostra persi** nella barra in alto vedi anche quello che non è più in vasca.
 
-## Aggiungere qualcosa
+## Aggiungere un animale
 
-Ogni voce richiede:
+Per ogni voce indichi:
 
-- **Nome**: come lo chiami
-- **Tipo**: corallo SPS, corallo LPS, corallo molle, pesce, invertebrato, anemone, o altro
-- **Specie**: opzionale, se la conosci
-- **Quantità**: per un gruppo, come un branco o una confezione di frag
-- **Data aggiunta**: predefinita a oggi
-- **Nota**: fornitore, posizionamento, costo, o qualsiasi altro dettaglio che vuoi conservare
+- **Nome**: come lo chiami tu
+- **Tipo**: corallo SPS, corallo LPS, corallo molle, pesce, invertebrato, anemone o altro
+- **Specie**: facoltativa, se la conosci
+- **Quantità**: per un gruppo, come un branco o un lotto di frag
+- **Data aggiunta**: di default è oggi
+- **Nota**: fornitore, posizione, prezzo o qualsiasi altro dettaglio che vuoi ricordare
 
-## Cosa gli è successo
+## Che fine ha fatto
 
-Ogni voce porta uno stato:
+Ogni voce ha uno stato:
 
-| Stato | Significa |
+| Stato | Significato |
 |---|---|
-| **Vivo** | Ancora nella vasca |
-| **Perso** | Morto |
-| **Fraggato** | Tagliato; la colonia continua |
-| **Venduto** | Passato a qualcun altro |
-| **Trasferito** | In un'altra delle tue vasche |
+| **Vivo** | È ancora in vasca |
+| **Perso** | È morto |
+| **Fraggato** | È stato tagliato e la colonia continua a vivere |
+| **Venduto** | È passato a qualcun altro |
+| **Trasferito** | È in un'altra delle tue vasche |
 
-Segnare un elemento come **perso** registra la data e, opzionalmente, un motivo. Registrare le perdite in modo coerente è ciò che rende visibili i pattern più avanti: perdite concentrate in un'area della vasca, o che seguono un evento particolare.
+Quando segni un animale come **perso**, Cora registra la data e, se vuoi, il motivo. Se registri le perdite con costanza, col tempo vedi degli schemi: perdite concentrate in una zona della vasca, oppure dopo un certo evento.
 
-:::note "Sconosciuto" è un motivo di perdita valido
-Registra la data anche quando la causa non è conosciuta. La data è ciò che supporta il confronto successivo.
+:::note Anche "Sconosciuto" va bene come motivo
+Registra la data anche quando non sai la causa. È la data che ti permette di confrontare dopo.
 :::
 
-## La popolazione e il resto di Cora
+## La popolazione nel resto di Cora
 
-Il tuo carico di popolazione fa parte di ciò rispetto a cui vengono valutati i tuoi parametri; un sistema SPS densamente popolato e una vasca softie leggermente popolata non sono tenuti allo stesso standard.
+Cora valuta i parametri tenendo conto anche di quanti animali hai. Un impianto SPS molto popolato e una vasca di coralli molli con pochi animali non vengono giudicati con lo stesso metro.
 
-Puoi anche fare domande su di essa. *"Quando ho aggiunto il corallo martello?"* oppure *"Cosa ho perso quest'anno?"* vengono risposte da questo registro.
+Puoi anche fare domande sulla popolazione. Domande come *"Quando ho aggiunto il corallo martello?"* o *"Cosa ho perso quest'anno?"* trovano risposta in questo elenco.

@@ -1,64 +1,64 @@
 ---
-title: Gniazda i kontrolki
-description: Przełączanie gniazd z Cora Max, używanie trybu karmienia i co Auto naprawdę znaczy.
+title: Gniazda i sterowanie
+description: Przełączanie gniazd z Cora Max, tryb karmienia i to, co naprawdę oznacza Auto.
 section: Cora Max
 reviewed: 2026-09-09
 order: 5
 group: Equipment
 ---
 
-Cora Max może przełączać sprzęt w Twoim systemie: z widżetów kontrolnych na pulpicie, z szuflady Outlets & Feed albo głosem.
+Cora Max może przełączać sprzęt w Twoim systemie. Użyjesz do tego widżetów sterowania na pulpicie, szuflady **Gniazda i karmienie** albo głosu.
 
-:::warning Te kontrolki działają na Twoim akwarium
-Nie ma cofnięcia. Gniazda oznaczone kłódką proszą Cię najpierw o potwierdzenie; resztę stosuje się od razu po dotknięciu. Polecenie może wrócić jako **Potwierdzono**, **Niepotwierdzone** (wysłane, nic nie zgłoszono z powrotem), **Odmówiono** albo **Bez zmian**; zobacz [Kontrola sprzętu](/help/mobile-device-control).
+:::warning Te przyciski działają na prawdziwym akwarium
+Nie da się tego cofnąć. Gniazda z kłódką najpierw proszą o potwierdzenie. Pozostałe przełączają się od razu po dotknięciu. Wynik polecenia to **Potwierdzono**, **Niepotwierdzone** (wysłane, ale nic nie odpowiedziało), **Odmówiono** albo **Bez zmian**. Więcej w [Sterowanie sprzętem](/help/mobile-device-control).
 :::
 
 ## Trzy stany
 
 Każde gniazdo jest w jednym z trzech stanów.
 
-**Auto** przekazuje gniazdo z powrotem do jego programowania Apex. Tu gniazdo powinno zostawać większość czasu.
+**AUTO** oddaje gniazdo z powrotem programowi Apex. W tym stanie gniazdo powinno być przez większość czasu.
 
-**Wyłączone** i **On** to ręczne nadpisania. Wchodzą w życie natychmiast i **trwają, aż je zmienisz z powrotem**. Nie wygasają i nic nie przywraca ich za Ciebie.
+**WYŁ.** i **WŁ.** to ręczne nadpisania. Działają od razu i **zostają, dopóki ich nie zmienisz**. Nie wygasają i nic nie przywróci ich za Ciebie.
 
-:::warning Ręczne nadpisanie nie wygasa samo
-Ustaw je z powrotem na **Auto**, gdy skończysz; nic tego za Ciebie nie zrobi. Może wciąż zostać zmienione później przez Ciebie, głosem albo przez automatyzację; nadpisanie nie jest blokadą.
+:::warning Ręczne nadpisanie samo nie wygasa
+Gdy skończysz, ustaw gniazdo z powrotem na **AUTO**. Nic nie zrobi tego za Ciebie. Nadpisanie to jednak nie blokada. Później możesz je zmienić Ty, głos albo automatyzacja.
 :::
 
 ## Przełączanie z pulpitu
 
-Widżety kontrolne pokazują trzy stany z aktualnym podświetlonym. Dotknij stanu, który chcesz.
+Widżety sterowania pokazują trzy stany, a aktualny jest podświetlony. Dotknij stanu, który chcesz ustawić.
 
-Niektóre gniazda niosą **kłódkę**. Nie musi być nigdzie wyłączona; znaczy, że gniazdo prosi Cię o potwierdzenie przed zmianą, więc przypadkowe dotknięcie nie może przełączyć czegoś krytycznego. Zobacz poniżej.
+Niektóre gniazda mają **kłódkę**. Nie trzeba jej nigdzie wyłączać. Oznacza tylko, że gniazdo prosi o potwierdzenie przed zmianą, więc przypadkowe dotknięcie nie przełączy niczego ważnego. Więcej niżej.
 
-## Szuflada Controls
+## Szuflada Sterowanie
 
-Wysuń zakładkę na dole pulpitu, aby otworzyć **Sterowanie**: każde gniazdo w systemie w jednym miejscu, niezależnie od tego, czy ma widżet, plus cykle karmienia.
+Wysuń uchwyt na dole pulpitu, żeby otworzyć **Sterowanie**. Znajdziesz tam wszystkie gniazda w systemie, także te bez widżetu, i cykle karmienia.
 
-![Szuflada Controls](img/max-controls.webp "Cykle karmienia na górze, potem każde gniazdo.")
+![Szuflada Sterowanie](img/max-controls.webp "U góry cykle karmienia, niżej wszystkie gniazda.")
 
-Gniazdo niosące **kłódkę** wymaga wyraźnego potwierdzenia przed zmianą. Dotknięcie go otwiera okno nazywające gniazdo, jego aktualny stan i nadpisanie, które zamierzasz zastosować. To jest krok potwierdzenia, nie blokada do wyłączenia gdzie indziej.
+Gniazdo z **kłódką** wymaga wyraźnego potwierdzenia przed zmianą. Po dotknięciu otwiera się okno z nazwą gniazda, jego aktualnym stanem i stanem, który chcesz ustawić. To tylko krok potwierdzenia, a nie blokada, którą trzeba gdzieś wyłączyć.
 
 ## Tryb karmienia
 
-Tryb karmienia to bezpieczny sposób na wstrzymanie przepływu na czas karmienia. Wstrzymuje sprzęt, który powinien być wstrzymany, zostawia w spokoju sprzęt, który nie powinien, i **przywraca wszystko sam**, gdy czas się kończy.
+Tryb karmienia to bezpieczny sposób, żeby na czas karmienia wstrzymać przepływ. Wstrzymuje sprzęt, który ma stanąć, nie rusza reszty i **sam przywraca wszystko**, gdy czas minie.
 
-Użyj go zamiast ręcznego wyłączania pomp, bo przywraca system bez zależności od Twojej pamięci.
+Lepiej użyć trybu karmienia niż wyłączać pompy ręcznie, bo system wróci do normy, nawet jeśli o tym zapomnisz.
 
-Cykle karmienia są oznaczone literami **A**, **B**, **C** i **D**: cykle zdefiniowane przez Twój kontroler, każdy wstrzymujący inny zestaw sprzętu. Wybierz ten, który odpowiada temu, co robisz. **Cancel** kończy działający cykl wcześniej i przywraca wszystko natychmiast.
+Cykle karmienia są oznaczone literami **A**, **B**, **C** i **D**. Definiuje je Twój kontroler i każdy wstrzymuje inny zestaw sprzętu. Wybierz ten, który pasuje do tego, co robisz. **Odwołaj karmienie** kończy działający cykl wcześniej i od razu wszystko przywraca.
 
-Uruchom jeden z szuflady Controls albo powiedz *"start feed mode"*.
+Cykl uruchomisz z szuflady **Sterowanie** albo mówiąc *„włącz tryb karmienia”*.
 
 ## Głosem
 
-Możesz przełączać gniazda głosem: *"wyłącz skimmer"*, *"ustaw wentylator z powrotem na auto"*.
+Gniazda możesz przełączać głosem, na przykład: *„wyłącz odpieniacz”*, *„ustaw wentylator z powrotem na auto”*.
 
-Wszystko, co dosięga Twojego sprzętu, jest **potwierdzane, zanim się wykona**: Cora mówi Ci, co zamierza zrobić, i czeka na Twoją zgodę. Nie działa na poleceniu, którego nie jest pewna.
+Wszystko, co dotyczy sprzętu, jest **potwierdzane przed wykonaniem**. Cora mówi, co zamierza zrobić, i czeka na Twoją zgodę. Nie wykona polecenia, którego nie jest pewna.
 
-Zobacz **[Rozmowa z Corą na Cora Max](/help/max-voice)**.
+Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice).
 
-## Sprawdzanie, co się stało
+## Co się stało
 
-Każde żądanie jest zapisywane, wraz z tym, co o to poprosiło (ta aplikacja, ekran Cora, głos, Asystent, reguła automatyzacji, smart przycisk albo Twoje konto) i jak dotarło. Na Twoim telefonie to jest **Ustawienia → Aktywność**.
+Każde żądanie jest zapisywane razem ze źródłem (Cora Mobile, ekran Cora, głos, Asystent, reguła automatyzacji, inteligentny przycisk albo Twoje konto) i drogą, którą przeszło. Na telefonie znajdziesz je w **Ustawienia → Aktywność**.
 
-To jest pierwsze miejsce do sprawdzenia, gdy coś się zmieniło, a Ty nie wiesz czemu.
+Tu najpierw zajrzyj, gdy coś się zmieniło i nie wiesz dlaczego.

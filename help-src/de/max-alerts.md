@@ -1,46 +1,46 @@
 ---
 title: Warnungen auf Cora Max
-description: Warnungs-Pillen in der oberen Leiste, der Benachrichtigungs-Posteingang, und Schwellenwerte an der Wand bearbeiten.
+description: Warnungen in der oberen Leiste, der Benachrichtigungsverlauf und Schwellenwerte direkt an der Wand ändern.
 section: Cora Max
 reviewed: 2026-09-27
 order: 11
 group: Alerts
 ---
 
-## Warnungs-Pillen
+## Warnungen in der oberen Leiste
 
-Alles, was derzeit außerhalb des Bereichs liegt, erscheint als Pille in der oberen Leiste, mit **+n**, wenn mehr nicht hineinpassen. Tippe auf eine Pille, um die vollständige Liste zu sehen.
+Liegt ein Messwert außerhalb seines Bereichs, erscheint er als kleiner Hinweis-Chip in der oberen Leiste. Passen nicht alle hinein, siehst du zum Beispiel **+2**. Tippe auf einen Chip, um alle zu sehen.
 
-Die Pillen sind der Grund, warum Cora Max als Wandbildschirm funktioniert: Die Probleme des Beckens sind quer durch den Raum sichtbar, ohne irgendetwas zu berühren.
+So erkennst du Probleme am Becken schon quer durch den Raum, ohne etwas anzufassen.
 
 ## Wenn eine Warnung an der Wand erscheint
 
-Wenn ein Messwert außerhalb des Bereichs gerät, zeigt Cora Max die vollständige Warnung in der Mitte des Bildschirms, nicht nur als Pille. Drei Schaltflächen stehen darunter:
+Gerät ein Messwert aus dem Bereich, zeigt Cora Max die Warnung zusätzlich groß in der Mitte des Bildschirms. Darunter findest du drei Schaltflächen:
 
-1. **Sprachantwort**: sprich mit Cora über die Warnung, ohne etwas anderes zu tippen. Siehe [Mit Cora sprechen](/help/max-voice).
-2. **[Dauer] schlummern**: stoppt die Push-Benachrichtigungen für diese Warnung für eine festgelegte Zeit, ohne die Warnung auszuschalten. Die Beschriftung der Schaltfläche selbst zeigt, wie lange, zum Beispiel **1 Std. schlummern**. Das ist dieselbe Abklingzeit, die für diesen Warnungstyp in den Warnungseinstellungen von Cora Mobile festgelegt ist, und sie kann bis zu **1 Woche** lang sein, für etwas wie einen niedrigen Reagenzstand, der sich tagelang nicht ändern wird.
-3. **Verwerfen**: schließt die Warnung jetzt. Sie bleibt still, bis der Messwert wieder in seinen normalen Bereich zurückkehrt, und schärft sich dann selbst wieder, sodass eine Wiederholung desselben Problems eine neue Warnung auslöst, statt für immer stumm zu bleiben.
+1. **Sprachantwort**: Sprich mit Cora über die Warnung, ohne noch etwas zu tippen. Mehr dazu unter [Mit Cora sprechen](/help/max-voice).
+2. **[Dauer] schlummern**: Die Warnung ist auf diesem Cora Max für eine Weile still, bleibt aber eingeschaltet. Wie lange, steht auf der Schaltfläche selbst, zum Beispiel **1 Std. schlummern**. Es ist dieselbe Pause, die du für diesen Warnungstyp in den Warnungseinstellungen von Cora Mobile festgelegt hast. Sie kann bis zu **1 Woche** dauern, etwa bei einem niedrigen Reagenzstand, der sich tagelang nicht ändert.
+3. **Verwerfen**: Schließt die Warnung sofort. Sie bleibt still, bis der Messwert wieder im Bereich ist. Tritt das Problem später erneut auf, bekommst du eine neue Warnung.
 
-**Wenn es nicht funktioniert:** Wenn Schlummern oder Verwerfen einen Fehler zeigt, versuch es noch einmal. Wenn es weiterhin fehlschlägt, siehe [Problembehebung](/help/troubleshooting).
+Kommt beim Schlummern oder Verwerfen eine Fehlermeldung, versuch es noch einmal. Klappt es weiterhin nicht, hilft dir die [Problembehebung](/help/troubleshooting).
 
-:::note Schlummern versteckt die Warnung nicht
-Schlummern und Verwerfen schalten nur **dieses Cora Max** stumm. Hier hört die Warnung auf, aufzupoppen, zu klingen und zu sprechen, und sie verlässt die Liste oben auf dem Bildschirm erst, wenn die Schlummerzeit endet (oder, nach Verwerfen, bis der Messwert wieder in seinem normalen Bereich ist). Dein Handy bekommt weiterhin seine Benachrichtigungen, und jedes andere Cora Max zeigt die Warnung weiterhin. Die Warnung bleibt auch im **Benachrichtigungsverlauf**, und deine Warnungseinstellungen ändern sich nicht.
+:::note Schlummern wirkt nur auf diesem Cora Max
+Schlummern und Verwerfen machen die Warnung nur auf **diesem Cora Max** still. Hier poppt sie nicht mehr auf, klingelt nicht und spricht nicht. Aus der Liste in der oberen Leiste verschwindet sie, bis die Schlummerzeit abgelaufen ist (beim Schlummern) oder der Messwert wieder im Bereich liegt (beim Verwerfen). Dein Handy bekommt weiterhin Benachrichtigungen, und andere Cora Max-Bildschirme zeigen die Warnung weiter an. Sie bleibt außerdem im **Benachrichtigungsverlauf**, und an deinen Warnungseinstellungen ändert sich nichts.
 :::
 
-## Der Benachrichtigungs-Posteingang
+## Der Benachrichtigungsverlauf
 
-**Einstellungen → Cora Max-Einstellungen → Benachrichtigungen → Benachrichtigungsverlauf** ist der **kontoweite** Posteingang: jede Zusammenfassung, jeder Alarm und jeder Kontohinweis für dein ganzes System, nicht nur, was dieser Bildschirm ausgelöst hat. Er enthält alles, was dein Handy verpasst hat.
+Unter **Einstellungen → Cora Max-Einstellungen → Benachrichtigungen → Benachrichtigungsverlauf** findest du den Posteingang für dein **ganzes Konto**. Dort landen alle Zusammenfassungen, Alarme und Kontohinweise für dein gesamtes System, auch solche, die dieser Bildschirm gar nicht ausgelöst hat. Was dein Handy verpasst hat, steht ebenfalls hier.
 
-## Schwellenwerte bearbeiten
+## Schwellenwerte ändern
 
 ![Beckeneinstellungen auf Cora Max](img/max-tank-settings.webp "Jedes Becken hat sein eigenes Tagebuch, Wartung, Warnungen, Besatz und Zusammenfassung.")
 
-Tippe auf den Beckennamen in der oberen Leiste und wähle **Warnungen**, oder geh zu **Einstellungen → [dein Becken] → Warnschwellen**. Beides öffnet dieselben Bereiche wie das Handy. Eine hier gemachte Änderung gilt überall.
+Tippe in der oberen Leiste auf den Beckennamen und wähle **Warnungen**. Oder geh zu **Einstellungen → [dein Becken] → Warnschwellen**. Beide Wege führen zu denselben Bereichen wie auf dem Handy. Was du hier änderst, gilt überall.
 
-Einzelne Schwellenwerte können auch durch Öffnen eines Widgets auf dem Dashboard bearbeitet werden.
+Einen einzelnen Schwellenwert kannst du auch ändern, indem du auf dem Dashboard ein Widget öffnest.
 
-Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts) für die Funktionsweise von Bereichen und Regeln.
+Wie Bereiche und Regeln funktionieren, erfährst du unter [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
-:::note Warnungen werden einmal ausgelöst, für das Konto
-Eine Warnung wird nicht von jedem Gerät getrennt ausgelöst. Cora Max, dein Handy und jeder andere Bildschirm zeigen dieselbe Warnung, und sie löscht sich überall auf einmal, wenn der Messwert wieder in den Bereich zurückkehrt.
+:::note Eine Warnung gilt für das ganze Konto
+Nicht jedes Gerät löst eine eigene Warnung aus. Cora Max, dein Handy und alle anderen Bildschirme zeigen dieselbe Warnung. Ist der Messwert wieder im Bereich, verschwindet sie überall gleichzeitig.
 :::

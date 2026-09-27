@@ -1,59 +1,59 @@
 ---
 title: Le journal
-description: Enregistrez ce que vous avez fait à votre aquarium, pour pouvoir plus tard identifier ce qui a causé quoi.
+description: Notez ce que vous faites sur votre aquarium, pour retrouver plus tard ce qui a causé quoi.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 21
 group: Records
 ---
 
-Le journal enregistre ce que vous avez fait à l’aquarium : changements d’eau, ajouts de population, changements de dosage, travaux d’équipement et entretien.
+Le journal garde la trace de ce que vous avez fait sur l’aquarium : changements d’eau, nouveaux habitants, changements de dosage, interventions sur l’équipement et entretien.
 
-Son but est la comparaison ultérieure. Quand un paramètre bouge de façon inattendue, le journal est l’enregistrement de ce qui a changé autour de cette date.
+Il sert à faire des rapprochements plus tard. Quand un paramètre bouge sans raison apparente, le journal vous montre ce qui a changé autour de cette date.
 
 ![Le journal](img/mobile-journal.webp "Entrées en ordre inverse, avec des photos intégrées.")
 
 ## Ajouter une entrée
 
-Touchez le bouton **Journal** qui flotte en bas à droite du Tableau de bord.
+Touchez le bouton **Journal** qui flotte en bas à droite du tableau de bord.
 
-Écrivez ce que vous avez fait en mots simples. Ajoutez une photo si cela aide : un corail qui prend des couleurs, un équipement qui se comporte bizarrement, un résultat de test en kit.
+Décrivez ce que vous avez fait avec des mots simples. Ajoutez une photo si c’est utile : un corail qui se colore, un équipement qui se comporte bizarrement, le résultat d’un test en kit.
 
-Vous pouvez aussi **dicter** une entrée plutôt que de la taper, ce qui est plus facile avec les mains mouillées. Parlez, et ce que vous avez dit est écrit dans l’entrée pour vous.
+Vous pouvez aussi **dicter** l’entrée. C’est plus pratique avec les mains mouillées. Parlez, et vos mots sont écrits dans l’entrée.
 
-Les entrées sont horodatées avec l’aquarium et l’heure automatiquement.
+Chaque entrée reçoit automatiquement le nom de l’aquarium, la date et l’heure.
 
-:::note Les entrées n’ont pas besoin d’être formelles
-De brèves entrées suffisent ; « changement d’eau de 20 l, 5 ml d’alcalinité en plus » est un enregistrement complet. Saisissez-les au moment même ; les entrées reconstituées sont moins fiables.
+:::note Pas besoin de style soigné
+Quelques mots suffisent. « Changement d’eau de 20 l, 5 ml d’alcalinité en plus » est une entrée complète. Notez les choses sur le moment. Une entrée reconstituée après coup est moins fiable.
 :::
 
-## Quoi enregistrer
+## Quoi noter
 
-Les choses qui s’avèrent le plus importantes :
+Voici ce qui compte le plus, à l’usage :
 
-- **Changements d’eau** : combien, et quand
-- **Tout ce qui est nouveau dans l’aquarium** : population, roche, média
-- **Changements de dosage** : ce que vous avez changé et pourquoi
-- **Équipement** : nettoyé, remplacé, déplacé, en panne
-- **Entretien** : écumeur nettoyé, chaussettes changées, pompes entretenues
-- **Tout ce qui est inhabituel** : une coupure de courant, une journée chaude, un déversement
+- **Changements d’eau** : combien, et quand
+- **Tout ce qui entre dans l’aquarium** : habitants, roche, média
+- **Changements de dosage** : ce que vous avez changé, et pourquoi
+- **Équipement** : nettoyé, remplacé, déplacé, tombé en panne
+- **Entretien** : écumeur nettoyé, chaussettes changées, pompes révisées
+- **Tout ce qui sort de l’ordinaire** : une coupure de courant, une journée de canicule, un débordement
 
-## Modifier et retirer des entrées
+## Modifier ou supprimer une entrée
 
-Touchez une entrée pour l’ouvrir et la modifier. Pour en retirer une, glissez-la et confirmez ; on vous le demande d’abord, car une entrée que vous avez écrite sur le moment n’est pas reconstituable plus tard.
+Touchez une entrée pour l’ouvrir et la modifier. Pour la supprimer, faites-la glisser et confirmez. Cora vous demande confirmation parce qu’une entrée écrite sur le moment ne peut pas être reconstituée plus tard.
 
 ## Interroger Cora sur une entrée
 
-Une entrée que vous avez marquée comme une **préoccupation** ou une **urgence** porte une action **Analyser**. Elle remet cette entrée, avec les mesures de l’aquarium autour de la même date, à [Cora Assistant](/help/mobile-assistant) et revient avec une évaluation. Utilisez-la quand vous avez noté quelque chose qui vous inquiète et voulez un second regard sur le sujet.
+Une entrée marquée comme **préoccupation** ou **urgence** propose le bouton **Analyser**. Il transmet l’entrée à [Cora Assistant](/help/mobile-assistant), avec les mesures de l’aquarium autour de la même date, et vous renvoie une analyse. Servez-vous-en quand vous avez noté quelque chose qui vous inquiète et que vous voulez un deuxième avis.
 
-## La relire
+## Relire le journal
 
-Le journal est une chronologie par aquarium, du plus récent au plus ancien. Les photos apparaissent intégrées.
+Le journal est une chronologie par aquarium, du plus récent au plus ancien. Les photos s’affichent dans le fil.
 
-Filtrez par catégorie pour réduire un long journal à un type d’entrée : observations, préoccupations, ou urgences.
+Pour y voir plus clair dans un long journal, filtrez par catégorie : observations, préoccupations ou urgences.
 
-L’Assistant lit le journal. Des questions comme *« quand ai-je changé l’eau pour la dernière fois ? »* sont répondues à partir de vos entrées avec vos mesures.
+L’Assistant lit le journal. Pour répondre à une question comme *« quand ai-je changé l’eau pour la dernière fois ? »*, il s’appuie sur vos entrées et sur vos mesures.
 
 ## Sur Cora Max
 
-Vous pouvez aussi ajouter des entrées de journal sur Cora Max, ce qui est souvent plus pratique quand vous êtes debout devant l’aquarium. Accédez au journal depuis le menu de l’aquarium, ou dictez une entrée par la voix.
+Vous pouvez aussi ajouter des entrées sur Cora Max. C’est souvent plus pratique quand vous êtes devant l’aquarium. Ouvrez le journal depuis le menu de l’aquarium, ou dictez une entrée à la voix.

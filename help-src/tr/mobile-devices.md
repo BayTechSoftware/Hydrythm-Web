@@ -1,76 +1,76 @@
 ---
 title: Cihaz ekleme, düzenleme ve kaldırma
-description: Cora'ya ekipman ekleme, bir akvaryuma atama, yeniden adlandırma ve temiz bir şekilde kaldırma.
+description: Cora'ya ekipman ekleyin, akvaryuma atayın, adını değiştirin ve sorunsuz şekilde kaldırın.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 9
 group: Equipment
 ---
 
-**Cihazlar** sekmesi, bağladığınız her şeydir, markaya göre gruplanmış. Her grup daralır, böylece ekipman dolu bir reef odası okunabilir kalır.
+**Cihazlar** sekmesinde bağladığınız her şey markaya göre gruplanmış olarak durur. Her grubu daraltabilirsiniz. Böylece ekipmanla dolu bir reef odası bile derli toplu görünür.
 
-![Cihazlar sekmesi](img/mobile-devices.webp "Ekipman markaya göre gruplanmıştır. Her grup daralır.")
+![Cihazlar sekmesi](img/mobile-devices.webp "Ekipman markaya göre gruplanır. Her grup daraltılabilir.")
 
 ## Ekipman ekleme
 
-Listenin altında üç düğme bulunur ve farklı işler yaparlar:
+Listenin altında üç düğme var. Her biri farklı bir iş yapar:
 
-| Düğme | Eklediği |
+| Düğme | Ne ekler |
 |---|---|
-| **Cihaz Ekle** | Bir Cora Max. Wi-Fi'nizde zaten bulunan birimleri, veya Bluetooth üzerinden yakındakileri bulur. Keşif onu bulamazsa **IP Adresini Elle Girin** bu ekranın içindedir. |
-| **Ağınızda bir pompa bulun** | Yerel ağda kendini duyuran Jecod pompaları |
-| **AquaWiz Ekle** | AquaWiz hesabınız üzerinden bir AquaWiz kontrolcüsü |
+| **Cihaz Ekle** | Cora Max ekler. Wi-Fi ağınızdaki üniteleri ya da Bluetooth ile yakındakileri bulur. Arama cihazı bulamazsa aynı ekranda **IP Adresini Elle Girin** seçeneği var. |
+| **Ağınızda bir pompa bulun** | Yerel ağda kendini gösteren Jecod pompaları |
+| **AquaWiz Ekle** | AquaWiz hesabınız üzerinden AquaWiz kontrol ünitesi |
 
-![Bir Cora Max ekleme](img/mobile-add-device.webp "Cihaz Ekle, bir Cora Max için Wi-Fi ve Bluetooth'u arar.")
+![Cora Max ekleme](img/mobile-add-device.webp "Cihaz Ekle, Cora Max'i Wi-Fi ve Bluetooth üzerinden arar.")
 
-Diğer ekipman (Neptune Apex ve Red Sea ReefBeat) bu listeden değil, akvaryumdan bağlanır. Bkz. [Ekipmanınızı bağlama](/help/mobile-connections).
+Neptune Apex ve Red Sea ReefBeat gibi diğer ekipmanları bu listeden değil, akvaryumun kendisinden bağlarsınız. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 
-Bir ısıtıcı, pompa veya skimmer gibi ekipman eklemek bir marka ve model **otomatik tamamlama** sunar: yazmaya başlayın ve Cora, büyük, kaynağı doğrulanmış bir ekipman markası listesinden önerir. Sizinki listede değilse, yine de yazın; Cora ne yazarsanız onu tutar.
+Isıtıcı, pompa ya da skimmer gibi bir ekipman eklerken marka ve model alanı **otomatik tamamlama** yapar. Yazmaya başlayın, Cora kaynağı doğrulanmış geniş bir marka listesinden öneriler getirir. Sizin markanız listede yoksa yine de yazın. Cora ne yazarsanız onu kaydeder.
 
-:::note Cora ve telefonunuz aynı ağa ihtiyaç duyar
-Yerel olarak keşfedilen ekipman, eklediğinizde telefonunuzla aynı ağda olmalıdır. **Kurulumdan sonra da hâlâ yalnızca o ağ üzerinden** (veya onu kullanan birimler için Bluetooth üzerinden) erişilebilirdir, saha üzerindeki bir Cora cihazı sizin için ona ulaşamıyorsa.
+:::note Cora ve telefonunuz aynı ağda olmalı
+Yerel ağda bulunan ekipmanı eklerken telefonunuz da aynı ağda olmalıdır. **Kurulumdan sonra da ekipmana yalnızca o ağ üzerinden** (Bluetooth kullanan ünitelerde Bluetooth üzerinden) ulaşılır. Tek istisna, ekipmana sizin yerinize ulaşabilen ve akvaryumun yanında duran bir Cora cihazıdır.
 
-Evde doğru okuyan ekipman, bu yüzden, sahada bir Cora Max onu yoklayamıyorsa, uzaktayken daha eski değerler gösterebilir. Bu bir arıza değil, ekipmana nereden erişilebildiğini yansıtır.
+Bu yüzden evde doğru ölçüm gösteren ekipman, siz dışarıdayken daha eski değerler gösterebilir. Akvaryumun yanında onu yoklayan bir Cora Max varsa bu olmaz. Bu bir arıza değildir. Ekipmana nereden ulaşılabildiğiyle ilgilidir.
 :::
 
-## Bir cihazı bir akvaryuma atama
+## Cihazı akvaryuma atama
 
-Çoğu ekipman tam olarak bir akvaryuma aittir ve okumalarının o akvaryumun panosunda görünmesini sağlayan da budur.
+Çoğu ekipman tek bir akvaryuma aittir. Ölçümlerin o akvaryumun panosunda görünmesini sağlayan da bu atamadır.
 
-**Cora Max istisnadır**: en fazla dört akvaryuma atanabilir ve ekranda aralarında geçiş yapar. Bkz. [Birden fazla Cora cihazı](/help/mobile-multi-device).
+**Cora Max bu kuralın istisnasıdır.** En fazla dört akvaryuma atanabilir ve ekranda bunlar arasında geçiş yapar. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında.
 
-Cihazı açın ve **Akvaryum**'u seçin. Birden fazla sistem işletiyorsanız, en önemli ayar budur: yanlış akvaryuma atanmış bir ısıtıcı, gayet iyi bir şekilde yanlış yere bildirir.
+Cihazı açın ve **Akvaryum**'u seçin. Birden fazla sisteminiz varsa en önemli ayar budur. Yanlış akvaryuma atanan bir ısıtıcı sorunsuz çalışır, ama ölçümlerini yanlış yere gönderir.
 
-:::warning Okumalara güvenmeden önce akvaryumu atayın
-Akvaryumu olmayan bir cihaz hâlâ bildirir, ama sayılarının inecek bir yeri yoktur. Az önce eklediğiniz bir cihaz bir panoda görünmüyorsa, önce bunu kontrol edin.
+:::warning Ölçümlere güvenmeden önce akvaryumu atayın
+Akvaryuma atanmamış bir cihaz ölçüm göndermeye devam eder, ama bu sayıların gideceği bir yer yoktur. Yeni eklediğiniz cihaz panoda görünmüyorsa önce bunu kontrol edin.
 :::
 
-## Yeniden adlandırma
+## Adını değiştirme
 
-Cihazı açın ve adını düzenleyin. Günlük olarak kullandığınız adı kullanın: "Ana pompa", "Sol gyre", "Sump ısıtıcısı". Ad widget'larda, uyarılarda ve Cora'ya sorduğunuz her şeyde görünür; bu yüzden sizin için bir anlamı olan bir ad, sonrasındaki her şeyi netleştirir.
+Cihazı açın ve adını düzenleyin. Günlük hayatta kullandığınız adı verin: "Ana pompa", "Sol gyre", "Sump ısıtıcısı". Bu ad widget'larda, uyarılarda ve Cora'ya sorduğunuz her soruda geçer. Sizin için anlamlı bir ad seçerseniz her şey daha kolay anlaşılır.
 
-Yeniden adlandırma yalnızca Cora'ya özeldir. Üreticinin kendi uygulamasındaki adı değiştirmez.
+Yeni ad yalnızca Cora'da geçerlidir. Üreticinin kendi uygulamasındaki adı değiştirmez.
 
-## Bir cihazın sağlıklı olup olmadığını kontrol etme
+## Cihazın sağlıklı çalışıp çalışmadığını kontrol etme
 
-Her satır geçerli durumunu gösterir. Görmek istediğiniz şey, yakın bir güncelleme zamanı ve hiçbir uyarı olmamasıdır.
+Her satırda cihazın şu anki durumu görünür. Görmek istediğiniz şey yakın zamanlı bir güncelleme saati ve hiçbir uyarı olmamasıdır.
 
 | Gördüğünüz | Anlamı |
 |---|---|
-| Yakın bir güncelleme zamanı | Normal çalışıyor |
-| Saatlik bildiren bir şeyde "3 sa önce güncellendi" | Sorun yok |
-| "Ulaşılamadı…" | Bir ağ sorunu, veya cihaz kapalı |
-| "…oturum açmayı reddetti" | Üreticinin hesabının yeniden bağlanması gerekiyor; cihazı açın ve yeniden oturum açın |
-| Hiçbir şey | Hiç bildirmedi; akvaryum atamasını ve bağlantıyı kontrol edin |
+| Yakın zamanlı bir güncelleme saati | Normal çalışıyor |
+| Yalnızca birkaç saatte bir veri gönderen bir cihazda "3 sa önce güncellendi" | Sorun yok |
+| "… ulaşılamadı" | Ağ sorunu var ya da cihaz kapalı |
+| "… girişi reddetti" | Üretici hesabının yeniden bağlanması gerekiyor. Cihazı açıp yeniden giriş yapın |
+| Hiçbir şey | Cihaz hiç veri göndermemiş. Akvaryum atamasını ve bağlantıyı kontrol edin |
 
-## Bir cihazı kaldırma
+## Cihazı kaldırma
 
-Cihazı açın ve **Kaldır**'ı seçin. Onaylamanız istenecek ve tam olarak neyin kaldırıldığı söylenecektir.
+Cihazı açın ve **Kaldır**'ı seçin. Cora sizden onay ister ve tam olarak neyin kaldırılacağını söyler.
 
-**Okumalarınız korunur.** Bir cihazı kaldırmak, Cora'nın ondan yeni veri toplamasını durdurur; zaten topladığı geçmiş akvaryumda kalır ve ona işaret eden herhangi bir widget geçmiş okumalarını tutar.
+**Ölçümleriniz silinmez.** Cihazı kaldırdığınızda Cora ondan yeni veri toplamayı bırakır. Önceden toplanan geçmiş akvaryumda kalır. O cihaza bağlı widget'lar da geçmiş ölçümleri göstermeye devam eder.
 
-Kaybettiğiniz şey canlı bağlantıdır ve, cihaz bir üretici hesabı üzerinden bağlandıysa, kayıtlı oturum açma bilgisidir. Onu geri eklemek yeniden oturum açmak anlamına gelir.
+Kaybettiğiniz şey canlı bağlantıdır. Cihaz bir üretici hesabıyla bağlandıysa kayıtlı giriş bilgisi de silinir. Cihazı yeniden eklerseniz tekrar giriş yapmanız gerekir.
 
-:::tip Kaldırmadan gürültülü bir cihazı susturun
-Bir cihaz doğru çalışıyor ama çok sık uyarı veriyorsa, eşiklerini veya bildirim ayarlarını düzenleyin; bkz. **[Uyarılar ve eşikler](/help/mobile-alerts)**. Bu, gürültüyü durdururken bağlantıyı ve veriyi korur.
+:::tip Çok uyarı veren cihazı kaldırmadan sessize alın
+Cihaz doğru çalışıyor ama çok sık uyarı veriyorsa eşiklerini ya da bildirim ayarlarını değiştirin. Ayrıntılar **[Uyarılar ve eşikler](/help/mobile-alerts)** sayfasında. Böylece hem bağlantı hem veriler korunur, gereksiz uyarılar da kesilir.
 :::

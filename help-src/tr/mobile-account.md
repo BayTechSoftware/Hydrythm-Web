@@ -1,52 +1,52 @@
 ---
-title: Oturum açma ve hesap kurtarma
-description: Oturum açın, unutulan bir parolayı sıfırlayın ve doğrulayamadığınız bir e-posta adresini düzeltin.
+title: Giriş yapma ve hesabı kurtarma
+description: Giriş yapın, unuttuğunuz şifreyi sıfırlayın ve doğrulayamadığınız e-posta adresini düzeltin.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 2
 group: Getting started
 ---
 
-Hesabınız akvaryumlarınızı, okumalarınızı ve cihazlarınızı birbirine bağlayan şeydir, bu yüzden ona geri girebilmek herhangi bir tek ayardan daha önemlidir.
+Akvaryumlarınız, ölçümleriniz ve cihazlarınız hesabınızda toplanır. Bu yüzden hesabınıza yeniden girebilmek her ayardan daha önemlidir.
 
-## Bir hesap oluşturma
+## Hesap açma
 
-Kayıt olurken, Cora hesabınızı oluşturmadan önce **Kabul ediyorum: Şartlar ve Koşullar ve Gizlilik Politikası**'nı işaretlemeniz gerekir. İkisi de kabul etmeden önce açıp okuyabileceğiniz bağlantılardır.
+Kaydolurken **Kabul ediyorum: Şartlar ve Koşullar ve Gizlilik Politikası** kutusunu işaretlemeniz gerekir. İşaretlemeden Cora hesabınızı açmaz. İki metin de bağlantıdır, kabul etmeden önce açıp okuyabilirsiniz.
 
-## Oturum açma yolları
+## Giriş yöntemleri
 
-Cora bir **e-posta adresi ve parola**, veya **Apple ile devam et** ve **Google ile devam et**'i kabul eder.
+Cora'ya **e-posta adresi ve şifreyle**, ya da **Apple ile devam et** veya **Google ile devam et** ile giriş yapabilirsiniz.
 
-Her zaman aynı yöntemi kullanın. Bir e-posta adresiyle oluşturduğunuz bir hesaba Google ile oturum açmak, ilkine erişim yerine size *ikinci, boş* bir hesap verir; akvaryumlar kaybolmuş değildir, sadece yanlış hesaptasınız. Bu olursa, çıkış yapın ve orijinal yöntemle yeniden oturum açın.
+Her seferinde aynı yöntemi kullanın. E-posta adresiyle açtığınız hesaba Google ile girmeye çalışırsanız ilk hesabınıza değil, *ikinci ve boş* bir hesaba girersiniz. Akvaryumlarınız kaybolmamıştır, yalnızca yanlış hesaptasınız. Böyle olursa çıkış yapın ve ilk kullandığınız yöntemle yeniden giriş yapın.
 
-## Unutulan parola
+## Şifrenizi unuttuysanız
 
-Oturum açma ekranında, **Şifrenizi mi unuttunuz?**'u seçin, e-posta adresinizi girin ve **Bağlantı Gönder**'e dokunun. Bağlantıyı aynı cihazda açın ve yeni bir parola belirleyin.
+Giriş ekranında **Şifrenizi mi unuttunuz?**'a dokunun, e-posta adresinizi girin ve **Bağlantı Gönder**'e dokunun. Gelen bağlantıyı aynı cihazda açın ve yeni şifrenizi belirleyin.
 
-:::note Onay bilerek belirsiz bırakılmıştır
-Mesaj *"o adresin bir Cora hesabı varsa, bir sıfırlama bağlantısı yolda"* der; adres kayıtlı olsun olmasın aynı şeyi söyler. Bu bilerek yapılır: ekranın kimin hesabı olduğunu bulmak için kullanılmasını durdurur. Hiçbir e-posta gelmezse, en olası neden adresin kayıt olduğunuz adres olmamasıdır.
+:::note Onay mesajı bilerek belirsiz yazılmıştır
+Mesajda *"Bu adreste bir Cora hesabı varsa sıfırlama bağlantısı yola çıktı"* yazar. Adres kayıtlı olsa da olmasa da aynı mesaj çıkar. Böylece bu ekran, kimin hesabı olduğunu öğrenmek için kullanılamaz. E-posta gelmiyorsa büyük ihtimalle kaydolurken başka bir adres kullandınız.
 :::
 
-Birkaç dakika içinde hiçbir şey gelmezse, spam'i kontrol edin, ardından diğer oturum açma yöntemlerini deneyin; **Apple ile devam et** veya **Google ile devam et** ile oluşturulmuş bir hesabın sıfırlanacak bir Cora parolası yoktur.
+Birkaç dakika içinde e-posta gelmezse spam klasörüne bakın. Sonra diğer giriş yöntemlerini deneyin. **Apple ile devam et** ya da **Google ile devam et** ile açılan hesapların sıfırlanacak bir Cora şifresi yoktur.
 
 ## E-postanızı doğrulama
 
-Kayıt olduktan sonra, Cora noreply@coraiq.tech'ten *"Cora için e-postanızı onaylayın"* konu satırıyla bir doğrulama e-postası gönderir. İçindeki **E-postamı onayla**'ya dokunun; bağlantı 24 saat sonra sona erer. Ardından Cora Mobile'a geri dönün ve **E-postamı Doğruladım**'a dokunun.
+Kaydolduktan sonra Cora, noreply@coraiq.tech adresinden *"Cora için e-postanızı onaylayın"* konulu bir doğrulama e-postası gönderir. E-postadaki **E-postamı onayla** düğmesine dokunun. Bağlantı 24 saat geçerlidir. Sonra Cora Mobile'a dönüp **E-postamı Doğruladım**'a dokunun.
 
-E-posta gelmediyse, spam'i kontrol edin, ardından doğrulama ekranında **Doğrulama e-postasını yeniden gönder**'e dokunun. Cora en fazla dakikada bir ve saatte beş (birincisi dahil) doğrulama e-postası gönderir; onu daha erken dokunursanız Cora sizden beklemenizi ister.
+E-posta gelmediyse spam klasörüne bakın. Sonra doğrulama ekranındaki **Doğrulama e-postasını yeniden gönder**'e dokunun. Cora dakikada en fazla bir, saatte en fazla beş doğrulama e-postası gönderir. İlk e-posta da bu sayıya dahildir. Daha erken dokunursanız Cora biraz beklemenizi ister.
 
-## E-posta adresi yanlış
+## E-posta adresi yanlışsa
 
-Yanlış yazdıysanız, yeniden başlamanız gerekmez. Doğrulama ekranında **Adres yanlış mı? E-postayı değiştir** vardır: doğru adresi girin ve ona yeni bir bağlantı gönderilir.
+Adresi yanlış yazdıysanız baştan başlamanız gerekmez. Doğrulama ekranında **Adres yanlış mı? E-postayı değiştir** seçeneği var. Doğru adresi girin, yeni bağlantı o adrese gider.
 
-:::note "Çıkış yapın ve yeniden oturum açın, ardından yeniden deneyin"
-Bir hesaptaki adresi değiştirmek güvenlik açısından hassas bir işlemdir, bu yüzden bazen yakın bir oturum açma gerektirir. Çıkış yapıp yeniden oturum açmanız istenirse, bu beklenendir; yapın, ardından **Adres yanlış mı? E-postayı değiştir**'e yeniden dokunun.
+:::note "Çıkış yapıp yeniden giriş yapın, sonra tekrar deneyin"
+Hesaptaki e-posta adresini değiştirmek güvenlik açısından hassas bir işlemdir. Bu yüzden Cora bazen yakın zamanda giriş yapmış olmanızı ister. Sizden çıkış yapıp yeniden girmeniz istenirse bu normaldir. Çıkış yapıp girin, sonra **Adres yanlış mı? E-postayı değiştir**'e yeniden dokunun.
 :::
 
-## Hâlâ doğrulanıyor
+## Doğrulama hâlâ görünmüyorsa
 
-**E-postamı Doğruladım**'a dokunduğunuzda Cora Mobile kontrol eder. E-postanın henüz doğrulanmadığını söylüyorsa, en yeni e-postadaki **E-postamı doğrula**'ya dokunun, bir dakika verin, ardından yeniden kontrol edin. Bağlantının süresi dolduysa, yeni bir tane için **Doğrulama e-postasını yeniden gönder**'e dokunun. Kontrol cihaza değil hesaba karşıdır, bu yüzden bir kez başarılı olduğunda cihazlarınızdan herhangi birinde temizlenir.
+**E-postamı Doğruladım**'a dokunduğunuzda Cora Mobile durumu kontrol eder. E-postanın henüz doğrulanmadığını söylüyorsa en son gelen e-postadaki **E-postamı onayla** düğmesine dokunun, biraz bekleyin ve yeniden kontrol edin. Bağlantının süresi dolduysa **Doğrulama e-postasını yeniden gönder** ile yenisini isteyin. Doğrulama cihaza değil hesaba bağlıdır. Bir kez başarılı olunca bütün cihazlarınızda geçerli olur.
 
 ## Çıkış yapma
 
-**Ayarlar → hesabınız → Çıkış Yap**, bu cihazın bağlantısını keser. Hiçbir şey silinmez ve yeniden oturum açmak akvaryumlarınızı, okumalarınızı ve cihazlarınızı geri getirir. Çıkış yapma ile silme arasındaki fark için bkz. [Verileriniz](/help/mobile-data-export).
+**Ayarlar → hesabınız → Çıkış Yap** bu cihazın hesapla bağlantısını keser. Hiçbir şey silinmez. Yeniden giriş yaptığınızda akvaryumlarınız, ölçümleriniz ve cihazlarınız geri gelir. Çıkış yapmakla hesabı silmek arasındaki farkı [Verileriniz](/help/mobile-data-export) sayfasında bulabilirsiniz.

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Controlar equipos desde Cora Max | Cora Help</title>
-  <meta name="description" content="Páginas de dispositivo en la pantalla grande: sondas, tomas, cabezales de dosificación, equipos de análisis y bombas.">
+  <meta name="description" content="Las páginas de dispositivo en la pantalla grande: sondas, tomas, cabezales de dosificación, analizadores y bombas.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/max-device-control">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-device-control">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-device-control">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Controlar equipos desde Cora Max | Cora Help">
-  <meta property="og:description" content="Páginas de dispositivo en la pantalla grande: sondas, tomas, cabezales de dosificación, equipos de análisis y bombas.">
+  <meta property="og:description" content="Las páginas de dispositivo en la pantalla grande: sondas, tomas, cabezales de dosificación, analizadores y bombas.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/max-device-control">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,41 +168,41 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Controlar equipos desde Cora Max</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#qu-tiene-una-pgina">Qué tiene una página</a></li><li><a href="#cabezales-ds">Cabezales DŌS</a></li><li><a href="#horarios">Horarios</a></li><li><a href="#tomas">Tomas</a></li><li><a href="#consumibles">Consumibles</a></li><li><a href="#registrar-y-calcular-junto-al-acuario">Registrar y calcular junto al acuario</a></li><li><a href="#en-un-segundo-cora-max">En un segundo Cora Max</a></li><li><a href="#qu-se-cambi-y-con-qu">Qué se cambió, y con qué</a></li></ul></nav>
-<p>Cora Max llega al mismo equipo que tu teléfono, con una página por dispositivo. Ábrelas desde <strong>Ajustes → Dispositivos</strong>, o tocando la casilla de un dispositivo en el panel.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Una página de Apex en Cora Max"><img src="/help/img/max-device-control.webp" alt="Una página de Apex en Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Ciclos de alimentación y cada toma, organizados para una pantalla de pared.</figcaption></figure>
-<aside class="cal cal-warning"><p class="cal-t">Estos controles actúan sobre equipo en vivo</p><p>No hay vista previa ni deshacer. Una orden sale en el momento en que tocas, pero <em>enviado</em> no es <em>hecho</em>: vuelve como <strong>Confirmado</strong>, <strong>Sin confirmar</strong>, <strong>Rechazado</strong> o <strong>Sin cambios</strong>, y <a href="/es/help/max-activity">Actividad</a> es donde ves cuál fue.</p></aside>
-<h2 id="qu-tiene-una-pgina">Qué tiene una página</h2>
-<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Muestra</th></tr></thead><tbody><tr><td data-th="Dispositivo"><strong>Neptune™ Apex</strong></td><td data-th="Muestra">Sondas y tomas, con cada toma conmutable</td></tr><tr><td data-th="Dispositivo"><strong>Trident</strong></td><td data-th="Muestra">Estado de la prueba, niveles de reactivo y residuos, y la posibilidad de iniciar una prueba</td></tr><tr><td data-th="Dispositivo"><strong>DŌS</strong>, incluido el DŌS QD</td><td data-th="Muestra">La dosificación, el programa, la autonomía y el volumen del envase de cada cabezal (con pausar, rellenar, dosificar ahora y una medición única de veinte segundos)</td></tr><tr><td data-th="Dispositivo"><strong>Red Sea™ ReefBeat</strong></td><td data-th="Muestra">Lo que sea la unidad: cabezales de dosificación, depósito, días de rodillo, modo de bomba</td></tr><tr><td data-th="Dispositivo"><strong>Jecod™</strong></td><td data-th="Muestra">Modo e intensidad de la bomba, y su programa diario</td></tr><tr><td data-th="Dispositivo"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Muestra">Modo y velocidad para <strong>Gyre A</strong> y <strong>Gyre B</strong>, <strong>Salud de la bomba</strong> (cuenta atrás de limpieza, corriente del cabezal A, cabezales instalados, firmware), y su horario, solo lectura</td></tr></tbody></table></div>
-<p>Si una unidad Red Sea se detiene sola, su página indica qué está mal y pone la solución al lado: <strong>Reanudar</strong>, <strong>Borrar emergencia</strong>, <strong>Sensor limpiado</strong>, <strong>Ya cargué un rollo nuevo</strong>, o <strong>Restablecer</strong> para un cabezal de dosificación.</p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#qu-dispositivos-tienen-pgina">Qué dispositivos tienen página</a></li><li><a href="#cabezales-ds">Cabezales DŌS</a></li><li><a href="#horarios">Horarios</a></li><li><a href="#tomas">Tomas</a></li><li><a href="#consumibles">Consumibles</a></li><li><a href="#anotar-y-calcular-junto-al-acuario">Anotar y calcular junto al acuario</a></li><li><a href="#en-un-segundo-cora-max">En un segundo Cora Max</a></li><li><a href="#qu-cambi-y-por-qu">Qué cambió y por qué</a></li></ul></nav>
+<p>Cora Max llega a los mismos equipos que tu teléfono, con una página para cada dispositivo. Ábrelas desde <strong>Ajustes → Dispositivos</strong> o tocando la casilla de un dispositivo en el panel.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Una página de Apex en Cora Max"><img src="/help/img/max-device-control.webp" alt="Una página de Apex en Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Los ciclos de alimentación y todas las tomas, colocados para una pantalla de pared.</figcaption></figure>
+<aside class="cal cal-warning"><p class="cal-t">Estos controles actúan sobre equipos en marcha</p><p>No hay vista previa ni forma de deshacer. La orden sale en cuanto tocas, pero que se haya <em>enviado</em> no quiere decir que esté <em>hecha</em>. Vuelve como <strong>Confirmado</strong>, <strong>Sin confirmar</strong>, <strong>Rechazado</strong> o <strong>Sin cambios</strong>, y en <a href="/es/help/max-activity">Actividad</a> ves cuál fue.</p></aside>
+<h2 id="qu-dispositivos-tienen-pgina">Qué dispositivos tienen página</h2>
+<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Qué muestra</th></tr></thead><tbody><tr><td data-th="Dispositivo"><strong>Neptune™ Apex</strong></td><td data-th="Qué muestra">Sondas y tomas. Puedes cambiar cada toma</td></tr><tr><td data-th="Dispositivo"><strong>Trident</strong></td><td data-th="Qué muestra">Estado de la prueba, niveles de reactivo y de residuos, y un botón para iniciar una prueba</td></tr><tr><td data-th="Dispositivo"><strong>DŌS</strong>, también el DŌS QD</td><td data-th="Qué muestra">Para cada cabezal, la dosificación, el programa, la autonomía y el volumen del envase (con pausar, rellenar, dosificar ahora y una medición única de veinte segundos)</td></tr><tr><td data-th="Dispositivo"><strong>Red Sea™ ReefBeat</strong></td><td data-th="Qué muestra">Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de bomba</td></tr><tr><td data-th="Dispositivo"><strong>Jecod™</strong></td><td data-th="Qué muestra">Modo e intensidad de la bomba y su programa diario</td></tr><tr><td data-th="Dispositivo"><strong>Maxspect™</strong> <em>(beta)</em></td><td data-th="Qué muestra">Modo y velocidad de <strong>Gyre A</strong> y <strong>Gyre B</strong>, <strong>Salud de la bomba</strong> (cuenta atrás de limpieza, corriente del cabezal A, cabezales instalados, firmware) y su horario, solo para consulta</td></tr></tbody></table></div>
+<p>Si una unidad Red Sea se detiene sola, su página te dice qué pasa y pone al lado el botón para arreglarlo: <strong>Reanudar</strong>, <strong>Borrar emergencia</strong>, <strong>Sensor limpiado</strong>, <strong>Ya cargué un rollo nuevo</strong> o, en un cabezal de dosificación, <strong>Restablecer</strong>.</p>
 <h2 id="cabezales-ds">Cabezales DŌS</h2>
-<p>Un cabezal DŌS tiene que medirse una vez antes de que Cora lo dosifique a mano. <strong>Medir para dosificar</strong> ejecuta el cabezal durante veinte segundos en un envase de medición, y tú introduces cuánto salió. Cora guarda una medición por cabezal y usa la más reciente, sea el Cora Max que la haya tomado; la página del cabezal muestra dónde y cuándo se midió.</p>
-<p>Después de una dosis manual, un cabezal que habías puesto en Apagado en Apex Fusion se queda en Apagado. Cualquier otro cabezal vuelve a Auto.</p>
-<h3 id="para-qu-se-usa-un-cabezal">Para qué se usa un cabezal</h3>
-<p>Cada cabezal se puede fijar en un <strong>tipo de uso</strong>, desde su hoja de ajustes: <strong>Suplemento</strong>, <strong>Cambio de agua: entrada de agua salada nueva</strong>, <strong>Cambio de agua: salida de agua vieja</strong>, <strong>Agua de kalk</strong>, <strong>Reactor de calcio</strong>, <strong>Alimento</strong> o <strong>Relleno</strong>, u <strong>Otro</strong>. El tipo de uso cambia dos cosas:</p>
-<ul><li><strong>Cuán grande puede ser el envase que hace seguimiento.</strong> Un cabezal de Suplemento hace seguimiento hasta 20 litros; cualquier otro tipo de uso puede hacer seguimiento de un envase mucho mayor, hasta 500 litros, así que un cabezal que ejecuta un cambio de agua o un reactor de calcio no se trata como si fuera una botella de dosificación pequeña.</li><li><strong>Si puede recibir una dosis grande a mano.</strong> Los cabezales de Suplemento y Alimento mantienen el límite pequeño y cuidadoso actual. Cualquier otro tipo de uso puede tener su propio límite de <strong>Dosis manual más grande</strong>, hasta un techo fijo de 10 litros, y su propio <strong>límite diario para automatizaciones y el asistente</strong>.</li></ul>
-<p>Un par de cambio de agua (entrada de agua salada nueva, salida de agua vieja) se puede vincular como <strong>Cabezal emparejado</strong>, con una cantidad de <strong>Aviso de balance por encima de</strong>: si los totales del día de los dos cabezales se separan más de esa cantidad, Cora te avisa, ya que un par desequilibrado suele significar que un lado no está bombeando como se espera.</p>
-<h3 id="si-una-dosis-grande-se-interrumpe">Si una dosis grande se interrumpe</h3>
-<p>Una dosis grande cambia temporalmente lo que está haciendo el cabezal en el Apex, y luego devuelve su programa normal después. Si la conexión se corta a mitad de camino, Cora Max muestra un aviso en la página de ese cabezal: <em>"Una dosis grande en [cabezal] no terminó correctamente. Cora sigue intentando devolver su programa; revísalo en Apex Fusion."</em></p>
-<p>Revisa el cabezal en Apex Fusion tú mismo, y luego toca <strong>Ya revisé el cabezal en Fusion</strong> para cerrar el aviso. Haz esto solo después de confirmar que el propio horario del cabezal, no el programa de dosificación de Cora, es lo que realmente se está ejecutando.</p>
-<p><strong>Si no funciona:</strong> si el aviso no se cierra, o sigue volviendo, consulta <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
+<p>Antes de que Cora dosifique a mano con un cabezal DŌS, hay que medirlo una vez. <strong>Medir para dosificar</strong> hace funcionar el cabezal veinte segundos sobre un recipiente de medida, y tú anotas cuánto ha salido. Cora guarda una medición por cabezal y usa la más reciente, la haya hecho el Cora Max que sea. La página del cabezal indica dónde y cuándo se midió.</p>
+<p>Después de una dosis manual, si el cabezal estaba en Apagado en Apex Fusion, se queda en Apagado. Los demás vuelven a Auto.</p>
+<h3 id="para-qu-usas-cada-cabezal">Para qué usas cada cabezal</h3>
+<p>En la hoja de ajustes de cada cabezal puedes elegir un <strong>tipo de uso</strong>: <strong>Suplemento</strong>, <strong>Cambio de agua: entrada de agua salada nueva</strong>, <strong>Cambio de agua: salida de agua vieja</strong>, <strong>Agua de kalk</strong>, <strong>Reactor de calcio</strong>, <strong>Alimento</strong> o <strong>Relleno</strong>, u <strong>Otro</strong>. El tipo de uso cambia dos cosas:</p>
+<ul><li><strong>El tamaño del envase que puede controlar.</strong> Un cabezal de Suplemento controla hasta 20 litros. Con cualquier otro tipo de uso puede controlar un envase mucho mayor, de hasta 500 litros. Así, un cabezal que hace un cambio de agua o alimenta un reactor de calcio no se trata como una botellita de dosificación.</li><li><strong>Si admite una dosis manual grande.</strong> Los cabezales de Suplemento y Alimento mantienen el límite bajo y prudente de siempre. Con los demás tipos de uso puedes fijar tu propia <strong>Dosis manual más grande</strong>, hasta un máximo fijo de 10 litros, y tu propio <strong>Límite diario para automatizaciones y el asistente</strong>.</li></ul>
+<p>Los dos cabezales de un cambio de agua (entrada de agua salada nueva y salida de agua vieja) se pueden unir como <strong>Cabezal emparejado</strong>, con un valor de <strong>Aviso de balance por encima de</strong>. Si los totales del día de los dos cabezales se separan más de esa cantidad, Cora te avisa. Cuando una pareja se desequilibra, lo normal es que uno de los dos no esté bombeando como debe.</p>
+<h3 id="si-se-corta-una-dosis-grande">Si se corta una dosis grande</h3>
+<p>Durante una dosis grande, Cora cambia por un rato lo que hace el cabezal en el Apex y después le devuelve su programa normal. Si la conexión se corta a mitad, Cora Max muestra un aviso en la página de ese cabezal: <em>"Una dosis grande en [cabezal] no terminó correctamente. Cora sigue intentando devolver su programa; revísalo en Apex Fusion."</em></p>
+<p>Revisa tú el cabezal en Apex Fusion y luego toca <strong>Ya revisé el cabezal en Fusion</strong> para quitar el aviso. Hazlo solo cuando hayas comprobado que lo que está funcionando es el horario propio del cabezal y no el programa de dosificación de Cora.</p>
+<p>Si el aviso no se quita o vuelve a salir, consulta <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
 <h2 id="horarios">Horarios</h2>
-<p>Los programas diarios de bombas Jecod se pueden crear en la pared igual que en el teléfono. El editor es el mismo: un gráfico del día, una lista de periodos y una fila de acciones. Consulta <a href="/es/help/mobile-schedules">Programar equipos</a>.</p>
-<p>El horario de un gyre Maxspect <em>(beta)</em> se puede consultar aquí pero no guardar. Fíjalo en la aplicación Maxspect.</p>
+<p>Los programas diarios de las bombas Jecod se pueden crear en la pantalla de pared igual que en el teléfono. El editor es el mismo: un gráfico del día, una lista de periodos y una fila de acciones. Lo tienes explicado en <a href="/es/help/mobile-schedules">Programar equipos</a>.</p>
+<p>El horario de un gyre Maxspect <em>(beta)</em> se puede ver aquí, pero no guardar. Configúralo en la app de Maxspect.</p>
 <h2 id="tomas">Tomas</h2>
-<p>Las tomas también son accesibles desde el cajón <strong>Tomas y alimentación</strong> en la parte inferior del panel, que lista en un solo lugar las tomas habilitadas para este panel (todas, si no se ha elegido ninguna). Consulta <a href="/es/help/max-controls">Tomas y controles</a>.</p>
-<p>Los cabezales DŌS nunca aparecen en la lista de tomas, así que un cabezal no se puede encender ahí y dejar en marcha; dosifica desde su propia página. Un Apex grande con varios módulos muestra todas sus tomas y sondas.</p>
+<p>Las tomas también están en el cajón <strong>Tomas y alimentación</strong>, en la parte inferior del panel. Ahí ves juntas las tomas activadas para este panel (o todas, si no has elegido ninguna). Consulta <a href="/es/help/max-controls">Tomas y controles</a>.</p>
+<p>Los cabezales DŌS nunca aparecen en la lista de tomas, así que no se pueden encender desde ahí y quedarse en marcha. Para dosificar, usa la página del cabezal. Un Apex grande con varios módulos muestra todas sus tomas y sondas.</p>
 <h2 id="consumibles">Consumibles</h2>
-<p>Los umbrales de reposición (reactivo, envases, depósitos) se fijan desde la propia página del dispositivo aquí, exactamente igual que en el teléfono. Consulta <a href="/es/help/mobile-consumables">Consumibles</a>.</p>
-<h2 id="registrar-y-calcular-junto-al-acuario">Registrar y calcular junto al acuario</h2>
-<p>Dos cosas suelen ser más prácticas en la pared que en un teléfono:</p>
-<ul><li><strong>Registrar parámetros</strong>: introduce resultados de pruebas en el teclado en pantalla, desde el menú del acuario</li><li><strong>Calculadora de dosis</strong>: calcula una corrección usando el volumen del acuario y las concentraciones de tus productos, desde la página de un parámetro. Usa el mismo volumen y las mismas concentraciones de producto que el teléfono, así que una dosis calculada aquí coincide con una calculada allí. Consulta <a href="/es/help/mobile-dosing">Dosificación</a>.</li></ul>
+<p>Los umbrales de reposición (reactivo, envases, depósitos) se ajustan aquí desde la página de cada dispositivo, igual que en el teléfono. Consulta <a href="/es/help/mobile-consumables">Consumibles</a>.</p>
+<h2 id="anotar-y-calcular-junto-al-acuario">Anotar y calcular junto al acuario</h2>
+<p>Hay dos cosas que suelen ser más cómodas en la pantalla de pared que en el teléfono:</p>
+<ul><li><strong>Registrar parámetros</strong>: anota los resultados de tus pruebas con el teclado en pantalla, desde el menú del acuario</li><li><strong>Calculadora de dosis</strong>: calcula una corrección con el volumen del acuario y la concentración de tus productos, desde la página de un parámetro. Usa el mismo volumen y las mismas concentraciones que el teléfono, así que la dosis que calcules aquí coincide con la de allí. Más información en <a href="/es/help/mobile-dosing">Dosificación</a>.</li></ul>
 <h2 id="en-un-segundo-cora-max">En un segundo Cora Max</h2>
-<p>Cuando más de un Cora Max muestra un acuario, uno de ellos lee el equipo de ese acuario; las páginas de dispositivo lo llaman el Cora Max del acuario. Los demás igualmente abren las páginas de dispositivo (una píldora de estado que dice <strong>Nube</strong> significa que esta pantalla es uno de ellos). Muestran lo que el Cora Max del acuario leyó por última vez, y cuánto hace, y pasan cada orden a través de Cora Cloud a ese Cora Max para que la lleve a cabo.</p>
-<p>Algunas cosas se quedan con el Cora Max del acuario:</p>
-<ul><li><strong>Medir para dosificar</strong> y <strong>Volver a medir</strong> aparecen solo ahí. Una vez medido un cabezal, <strong>Dosificar ahora</strong> funciona desde cualquier Cora Max.</li><li>Un horario Jecod solo se puede cambiar desde otro Cora Max si el Cora Max del acuario ha leído la bomba en la última hora, y nunca para una bomba que solo habla por Bluetooth. Un <strong>Aplicar a la bomba</strong> desde ahí envía como máximo 12 cambios, así que envía una edición mayor en partes.</li></ul>
-<h2 id="qu-se-cambi-y-con-qu">Qué se cambió, y con qué</h2>
-<p>Cada acción se registra con su causa. Consulta <a href="/es/help/mobile-activity">Actividad y línea de tiempo</a>.</p>
+<p>Cuando un acuario aparece en más de un Cora Max, solo uno de ellos lee los equipos de ese acuario. Las páginas de dispositivo lo llaman el Cora Max del acuario. Los demás también pueden abrir las páginas de dispositivo (si ves una etiqueta de estado que dice <strong>Nube</strong>, esta pantalla es una de ellas). Muestran lo último que leyó el Cora Max del acuario y hace cuánto, y envían cada orden a través de Cora Cloud a ese Cora Max para que la ejecute.</p>
+<p>Algunas cosas solo se pueden hacer en el Cora Max del acuario:</p>
+<ul><li><strong>Medir para dosificar</strong> y <strong>Volver a medir</strong> solo aparecen allí. Cuando un cabezal ya está medido, <strong>Dosificar ahora</strong> funciona desde cualquier Cora Max.</li><li>Desde otro Cora Max solo puedes cambiar un horario Jecod si el Cora Max del acuario ha leído la bomba en la última hora, y nunca si la bomba solo se comunica por Bluetooth. Cada <strong>Aplicar a la bomba</strong> desde ahí envía como mucho 12 cambios, así que divide los cambios grandes en varias partes.</li></ul>
+<h2 id="qu-cambi-y-por-qu">Qué cambió y por qué</h2>
+<p>Cada acción queda registrada con su causa. Puedes verlo en <a href="/es/help/mobile-activity">Actividad y línea de tiempo</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/max-controls"><span>Anterior</span><b>Tomas y controles</b></a><a class="pn-n" href="/es/help/max-devices"><span>Siguiente</span><b>Dispositivos y estado de los dispositivos</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-27.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

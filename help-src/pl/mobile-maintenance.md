@@ -1,69 +1,69 @@
 ---
 title: Konserwacja
-description: Powtarzające się czynności z przypomnieniami: czyszczenie skimmera, skarpety filtracyjne, serwis pomp.
+description: Powtarzalne prace z przypomnieniami: czyszczenie odpieniacza, skarpety filtracyjne, serwis pomp.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 19
 group: Records
 ---
 
-Konserwacja przechowuje powtarzające się czynności, których akwarium wymaga, oraz przypomnienia o nich. Otwórz ją z rzędu skrótów na dole pulpitu.
+W konserwacji są powtarzalne prace, których wymaga akwarium, i przypomnienia o nich. Otworzysz ją z rzędu skrótów na dole pulpitu.
 
-![Lista konserwacji](img/mobile-maintenance.webp "Zgodność, liczba zaległych i każde zadanie z ostatnim wykonaniem i kolejnym terminem.")
+![Lista konserwacji](img/mobile-maintenance.webp "Zgodność, liczba zaległych zadań i każde zadanie z datą ostatniego wykonania i kolejnym terminem.")
 
 ## Podsumowanie
 
-Na górze:
+Na górze są:
 
-- **Zgodność konserwacji**: proporcja zadań aktualnie wykonywanych na czas
-- **Overdue count**: ile zadań przekroczyło swój termin
+- **Zgodność konserwacji**, czyli jaka część zadań jest teraz wykonywana na czas
+- **Liczba zaległych**, czyli ile zadań ma przekroczony termin
 
-Każde zadanie na liście jest kolorowane według ważności: zaległe, zbliżający się termin albo zaplanowane. Każde zadanie pokazuje, kiedy było ostatnio wykonane i kiedy jest kolejny termin.
+Zadania na liście mają kolory według pilności: zaległe, z bliskim terminem albo zaplanowane. Przy każdym widać, kiedy wykonano je ostatnio i kiedy jest następny termin.
 
 ## Dodawanie zadania
 
-Podaj nazwę, ikonę i jak często trzeba je wykonywać, w dniach. Cora wylicza, kiedy jest kolejny termin.
+Podaj nazwę, wybierz ikonę i wpisz, co ile dni trzeba je wykonywać. Cora wyliczy następny termin.
 
 Typowe zadania:
 
-| Zadanie | Interwał |
+| Zadanie | Co ile |
 |---|---|
-| Zmiana skarpet filtracyjnych | 3-7 dni |
-| Czyszczenie kubka skimmera | 7 dni |
-| Czyszczenie szyby | 7 dni |
+| Wymiana skarpet filtracyjnych | 3–7 dni |
+| Czyszczenie kubka odpieniacza | 7 dni |
+| Czyszczenie szyb | 7 dni |
 | Wymiana węgla albo GFO | 30 dni |
-| Serwis pompy powrotnej | 90-180 dni |
-| Kalibracja sond | 30-90 dni |
+| Serwis pompy powrotnej | 90–180 dni |
+| Kalibracja sond | 30–90 dni |
 
 ## Przypomnienia
 
-Każde zadanie może Ci przypomnieć, a Ty kontrolujesz czas:
+Każde zadanie może Ci przypominać, a Ty ustalasz kiedy:
 
-- **How many days before** terminem
-- **What time of day** przychodzi przypomnienie
+- ile dni przed terminem
+- o której godzinie przychodzi przypomnienie
 
-Wyłącz przypomnienia dla zadania, które chcesz po prostu widzieć na liście.
+Jeśli chcesz tylko widzieć zadanie na liście, wyłącz dla niego przypomnienia.
 
-## Oznaczanie zadania jako wykonane
+## Oznaczanie zadania jako wykonanego
 
-Użyj kontrolki **Gotowe** zadania albo przesuń je. Cora zapisuje czas wykonania i planuje kolejne wystąpienie od tego momentu, więc zadanie wykonane trzy dni później przesuwa następne o trzy dni, zamiast udawać, że zostało wykonane na czas.
+Dotknij **Zakończ** przy zadaniu albo przesuń je palcem. Cora zapisze czas wykonania i od tego momentu wyliczy następny termin. Jeśli zrobisz coś trzy dni po terminie, następny termin też przesunie się o trzy dni. Cora nie udaje, że zadanie było zrobione na czas.
 
-:::note Dotknięcie zadania otwiera je do edycji
-Dotknięcie samego wiersza otwiera zadanie, aby zmienić jego nazwę, interwał albo przypomnienia. Użyj Done, aby je zakończyć.
+:::note Dotknięcie zadania otwiera edycję
+Dotknięcie samego wiersza otwiera zadanie, żeby zmienić nazwę, częstotliwość albo przypomnienia. Żeby oznaczyć je jako wykonane, użyj **Zakończ**.
 :::
 
-## Wyciszanie
+## Odkładanie
 
-Jeśli nie możesz teraz wykonać zadania, wycisz je. Zostaje na liście w przygaszonym stanie **Odłożone**, pokazując nową datę, więc nic nie znika; po prostu nie zostaniesz przypomniany aż do tego czasu.
+Jeśli nie możesz teraz wykonać zadania, odłóż je. Zostanie na liście, wyszarzone, ze statusem **Odłożone** i nową datą. Nic nie znika, po prostu do tej daty nie dostaniesz przypomnienia.
 
-:::warning Nie oznaczaj zadania jako wykonane, jeśli nie było wykonane
-Kolejny termin jest wyliczany na podstawie daty wykonania. Oznaczenie zaległego zadania jako wykonane przesuwa każdy następny termin. Wycisz je za to.
+:::warning Nie oznaczaj zadania jako wykonanego, jeśli nie zostało zrobione
+Następny termin liczy się od daty wykonania. Jeśli oznaczysz zaległe zadanie jako wykonane, przesuniesz wszystkie kolejne terminy. Lepiej je odłóż.
 :::
 
-## Wstrzymywanie zadania
+## Wstrzymanie zadania
 
-Zadanie można uczynić nieaktywnym (dla sprzętu, który wyłączyłeś, albo pracy, która nie ma zastosowania w tym sezonie). Zostaje na liście, przestaje mieć termin i może zostać ponownie aktywowane później.
+Zadanie możesz ustawić jako nieaktywne, np. gdy wyłączasz dany sprzęt albo praca nie dotyczy bieżącego sezonu. Zadanie zostaje na liście, nie ma terminu i możesz je później znów aktywować.
 
-## Konserwacja i dziennik
+## Konserwacja a dziennik
 
-Wykonanie zadania to nie to samo co napisanie wpisu w dzienniku. Konserwacja odpowiada na "co jest do zrobienia?"; **[dziennik](/help/mobile-journal)** odpowiada na "co faktycznie zrobiłem i co się potem stało?". Jeśli praca była nietypowa (pompa była pełna piasku, skarpety poczerniały po jednym dniu), to też należy do dziennika.
+Wykonanie zadania to nie to samo co wpis w dzienniku. Konserwacja mówi, co jest do zrobienia. **[Dziennik](/help/mobile-journal)** mówi, co naprawdę zostało zrobione i co działo się potem. Jeśli coś było nietypowe (pompa pełna piasku, skarpety czarne po jednym dniu), dopisz to też do dziennika.

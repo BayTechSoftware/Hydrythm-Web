@@ -1,54 +1,54 @@
 ---
 title: Szenen auf Cora Max
-description: Szenen direkt auf dem Cora Max-Bildschirm erstellen, ausführen und bearbeiten.
+description: Szenen direkt auf dem Cora Max-Bildschirm erstellen, starten und bearbeiten.
 section: Cora Max
 reviewed: 2026-09-27
 order: 15
 group: Automation
 ---
 
-Eine **Szene** ist eine gespeicherte Gruppe von Ausrüstungsaktionen, die gemeinsam läuft, entweder für eine feste Zeit oder bis du sie stoppst. Szenen funktionieren gleich, egal ob du sie auf deinem Handy oder auf Cora Max erstellst; diese Seite deckt ab, wie du das an der Wand tust.
+Eine **Szene** ist eine gespeicherte Gruppe von Aktionen für deine Ausrüstung, die gemeinsam ablaufen. Sie läuft entweder eine feste Zeit lang oder bis du sie stoppst. Szenen funktionieren gleich, ob du sie auf dem Handy oder auf Cora Max anlegst. Hier geht es darum, wie du das an der Wand machst.
 
 ## Wo du Szenen findest
 
-**Einstellungen → Automationen** listet jede Szene über jedes deiner Becken, mit einem Filter-Chip für jedes Becken, wenn du mehr als eines hast. Sie öffnet dieselbe Liste, egal ob die Szene auf dem Handy oder auf Cora Max erstellt wurde.
+Unter **Einstellungen → Automationen** stehen alle Szenen aus all deinen Becken. Hast du mehr als ein Becken, gibt es für jedes einen Filter-Chip. Die Liste ist dieselbe, egal ob die Szene auf dem Handy oder auf Cora Max entstanden ist.
 
-Tippe auf eine Szene, um sie zu bearbeiten, oder auf **+**, um eine neue zu erstellen. Wenn du mehr als ein Becken hast und kein Filter gewählt ist, fragt Cora Max, zu welchem Becken die neue Szene gehört.
+Tippe auf eine Szene, um sie zu bearbeiten, oder auf **+**, um eine neue anzulegen. Hast du mehrere Becken und keinen Filter gewählt, fragt Cora Max, zu welchem Becken die neue Szene gehört.
 
-## Eine Szene erstellen
+## Eine Szene anlegen
 
 1. Gib der Szene einen **Namen**.
-2. Füge **Schritte** hinzu. Von Cora Max aus kann ein Schritt eine Apex-Steckdose schalten (**Ein**, **Aus** oder **Auto**) oder eine Zigbee-Steckdose (**ein**, **aus** oder **umschalten**). Schritte, die auf dem Handy für andere Arten von Ausrüstung hinzugefügt wurden, erscheinen trotzdem hier, und können weiterhin neu geordnet oder entfernt werden, auch wenn dieser Bildschirm keinen weiteren dieser Art hinzufügen kann.
-3. Wähle, wie lange sie läuft: eine feste Anzahl von Minuten, oder **dauerhaft** (sie läuft weiter, bis du sie stoppst).
-4. Wähle, ob das Ausführen der Szene einen **Bestätigungsschritt** braucht. Lass das eingeschaltet, sofern du dir nicht sicher bist, dass die Szene nie etwas berührt, das unsicher zu ändern wäre, ohne noch einmal hinzusehen.
-5. Speichern.
+2. Füge **Schritte** hinzu. Auf Cora Max kann ein Schritt eine Apex-Steckdose schalten (**Ein**, **Aus** oder **Auto**) oder einen Zigbee-Stecker (**ein**, **aus** oder **umschalten**). Schritte für andere Geräte, die du auf dem Handy hinzugefügt hast, erscheinen hier auch. Du kannst sie umsortieren oder entfernen, aber an diesem Bildschirm keine neuen dieser Art hinzufügen.
+3. Leg fest, wie lange sie läuft: eine feste Zahl an Minuten oder **dauerhaft** (bis du sie stoppst).
+4. Leg fest, ob du die Szene vor dem Start **bestätigen** musst. Lass das eingeschaltet, außer du bist dir sicher, dass die Szene nichts berührt, was du ohne zweiten Blick besser nicht ändern solltest.
+5. Speichere.
 
-:::note DŌS-Dosierköpfe sind nie ein Szenenschritt
-Eine Szene, ob auf Cora Max oder auf dem Handy erstellt, kann niemals einen Dosierkopf einschalten. Das ist Absicht: Eine Dosierung ist nicht die Art von Aktion, die eine Szene versehentlich auslösen sollte.
+:::note DŌS-Dosierköpfe gehören nie in eine Szene
+Keine Szene kann einen Dosierkopf einschalten, egal ob du sie auf Cora Max oder auf dem Handy anlegst. Das ist gewollt. Eine Dosierung soll nie versehentlich durch eine Szene ausgelöst werden.
 :::
 
-## Eine Szene ausführen
+## Eine Szene starten
 
-Szenen erscheinen als Kacheln auf dem Dashboard. Tippe auf **Start**, um eine zu beginnen.
+Szenen erscheinen als Kacheln auf dem Dashboard. Tippe auf **Start**, um eine zu starten.
 
-Wenn die Szene eine Bestätigung braucht, listet Cora Max genau auf, was sie gleich tun wird, eine Zeile pro Schritt, bevor irgendetwas passiert. Lies es, und entscheide dann, sie auszuführen oder abzubrechen.
+Muss die Szene bestätigt werden, zeigt Cora Max vorher genau, was passieren wird, eine Zeile pro Schritt. Lies es durch und starte die Szene oder brich ab.
 
-Während eine zeitbegrenzte Szene läuft, zeigt ihre Kachel einen Countdown bis zu ihrem Ende, und eine **Stopp**-Schaltfläche, um sie vorzeitig zu beenden. Die Kachel einer dauerhaften Szene bleibt in ihrem laufenden Zustand, bis du sie stoppst.
+Läuft eine zeitbegrenzte Szene, zeigt ihre Kachel einen Countdown bis zum Ende. Mit **Stopp** beendest du sie früher. Eine dauerhafte Szene bleibt auf ihrer Kachel als laufend markiert, bis du sie stoppst.
 
-Eine Szene auszuführen oder zu stoppen läuft immer über Cora Cloud, genauso wie jeder andere Befehl; siehe [Was geändert wurde, und von was](/help/max-activity) für den Ort, an dem das Ergebnis erfasst wird.
+Das Starten und Stoppen einer Szene läuft immer über Cora Cloud, wie jeder andere Befehl auch. Wo das Ergebnis festgehalten wird, steht unter [Was geändert wurde, und von was](/help/max-activity).
 
-**Wenn es nicht funktioniert:** Wenn eine Szene sich nicht starten oder nicht stoppen lässt, siehe [Problembehebung](/help/troubleshooting).
+Lässt sich eine Szene nicht starten oder nicht stoppen, hilft dir die [Problembehebung](/help/troubleshooting).
 
-:::note Die Kindersicherung deckt auch Szenen ab
-Wenn die [Kindersicherung](/help/max-voice) eingeschaltet ist, ist das Ausführen oder Stoppen einer Szene von diesem Bildschirm aus zusammen mit jeder anderen Steuerung blockiert. Fragen zu einer Szene funktionieren per Sprache weiterhin; sie zu starten oder zu stoppen nicht.
+:::note Die Kindersicherung sperrt auch Szenen
+Ist die [Kindersicherung](/help/max-voice) eingeschaltet, kannst du an diesem Bildschirm keine Szene starten oder stoppen, genau wie bei allen anderen Steuerungen. Per Sprache kannst du weiterhin Fragen zu einer Szene stellen, sie aber nicht starten oder stoppen.
 :::
 
 ## Eine Szene bearbeiten oder löschen
 
-Öffne die Szene über **Einstellungen → Automationen**, oder halte ihre Kachel auf dem Dashboard lange gedrückt, um ihren Namen, ihre Schritte, Dauer oder Bestätigungseinstellung zu ändern, oder um sie zu löschen.
+Öffne die Szene über **Einstellungen → Automationen** oder halte ihre Kachel auf dem Dashboard gedrückt. Dann kannst du Namen, Schritte, Dauer und Bestätigung ändern oder die Szene löschen.
 
-:::note Ältere Cora Max-Bildschirme können eine Szene ausführen, aber nicht bearbeiten
-Szenen an der Wand zu erstellen und zu bearbeiten ist eine neuere Cora Max-Fähigkeit. Ein älteres Cora Max im selben Konto kann trotzdem eine Szene zeigen und ausführen, die auf dem Handy oder auf einem neueren Cora Max erstellt wurde; es kann sie einfach nicht ändern. Aktualisiere Cora Max, oder bearbeite die Szene vom Handy oder von einem neueren Bildschirm aus, wenn das vorkommt.
+:::note Ältere Cora Max können Szenen starten, aber nicht bearbeiten
+Szenen an der Wand anlegen und bearbeiten kann erst ein neueres Cora Max. Ein älteres Cora Max im selben Konto zeigt und startet trotzdem Szenen, die auf dem Handy oder einem neueren Cora Max entstanden sind. Ändern kann es sie nicht. Aktualisiere in dem Fall Cora Max, oder bearbeite die Szene auf dem Handy oder an einem neueren Bildschirm.
 :::
 
-Siehe [Szenen und Automationen](/help/mobile-automation) für mehr Details dazu, was eine Szene tun kann, und wie sie auf dem Handy erstellt werden.
+Was eine Szene alles kann und wie du sie auf dem Handy anlegst, erfährst du unter [Szenen und Automationen](/help/mobile-automation).

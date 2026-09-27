@@ -9,50 +9,50 @@ group: Settings
 
 ## Automatic updates
 
-Cora Max keeps itself current. New versions download in the background and install themselves; you are told what changed.
+Cora Max keeps itself up to date. New versions download in the background and install themselves, and Cora Max tells you what changed.
 
-Nothing is required from you to stay up to date.
+You don't need to do anything to stay current.
 
 ## Checking the version
 
-![Device settings](img/max-updates.webp "Firmware update and device health, at the top of device settings.")
+![Device settings](img/max-updates.webp "Firmware Update, in the Network & Updates section of Cora Max Settings.")
 
-**Settings → Cora Max → Firmware → Firmware Update** covers checking, installing, the update channel and its schedule. **Device health & controls** sits directly beside it in the same **Firmware** group, and is where the unit's own diagnostics live: polling primary, device links and voice responder included.
+Go to **Settings → Cora Max Settings → Firmware Update** (in the **Network & Updates** section) to check for and install updates, and to set the update channel and schedule. Further down the same screen, the **Status** section shows each tank's polling status, last poll and last cloud write.
 
 ## When an update is available
 
-A prompt appears describing what is new, with two choices:
+A prompt tells you what's new and gives you two choices.
 
-- **Update now**: installs immediately and restarts
-- **Snooze 3 hours**: asks again later
+- **Update now** installs right away and restarts.
+- **Snooze 3 hours** asks you again later.
 
-Left alone, an update installs itself overnight, between roughly 3 and 5 in the morning, so the screen is not restarting while you are looking at it.
+If you leave it, the update installs itself overnight, roughly between 3 and 5 in the morning, so the screen doesn't restart while you're looking at it.
 
-:::note Readings are not lost during an update
-Data lives in your account, not on the screen. A unit that restarts comes back with the same tanks, dashboards and history.
+:::note You don't lose readings during an update
+Your data lives in your account. When Cora Max restarts, it comes back with the same tanks, dashboards and history.
 :::
 
 ## Recovery
 
-Recovery is a maintenance mode for when a unit will not start normally, or when you need to repair its setup without a laptop.
+Recovery is a maintenance mode for when Cora Max won't start normally, or when you need to fix its setup without a laptop.
 
-**To enter it:** hold **five fingers** on the top-right of the screen for about **ten seconds**, then enter the unit's **Recovery PIN**.
+To get in, hold **five fingers** on the top-right of the screen for about **ten seconds**, then enter the **Recovery PIN**.
 
-That six-digit PIN was shown when the unit was paired, and it is also in that device's settings in Cora Mobile. It is not shown on the Cora Max itself, which is the point: recovery cannot be reached by a guest, or by a child leaning on the screen.
+You saw that six-digit PIN when you paired Cora Max, and it's also in that device's settings in Cora Mobile. Cora Max itself never shows it, so a guest or a child leaning on the screen can't get into recovery.
 
 From recovery you can:
 
-- Repair the **Wi-Fi** connection
-- **Re-pair** the unit to your account
+- Fix the **Wi-Fi** connection
+- **Re-pair** Cora Max to your account
 - Force a **firmware update**
-- **Factory reset** the unit
+- **Factory reset** Cora Max
 
-A unit that fails to start several times in a row can also roll itself back to the previous version.
+If Cora Max fails to start several times in a row, it can also roll itself back to the previous version.
 
-:::warning A screen in recovery is not controlling anything
-Your controller keeps running its own programming. But an [automation](/help/mobile-automation) whose action has to be carried out **by this Cora Max** cannot run while it is in recovery; the rule fires and the step does not reach the hardware.
+:::warning A screen in recovery isn't controlling anything
+Your controller keeps running its own programming. But an [automation](/help/mobile-automation) step that **this Cora Max** has to carry out can't run while it's in recovery. The rule fires, but the step never reaches the equipment.
 :::
 
 ## If a unit does not restart
 
-Email **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with the version shown on screen and what it says. Do not re-pair the unit first; pairing state is often useful in working out what happened.
+Email **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with the version shown on screen and the message it shows. Don't re-pair it first. The pairing state often helps work out what happened.

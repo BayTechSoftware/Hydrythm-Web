@@ -1,67 +1,67 @@
 ---
 title: Edytowanie pulpitu Cora Max
-description: Wybierz siatkę, dodaj widżety i zapisuj układy dla wyświetlacza Cora Max.
+description: Wybierz siatkę, dodaj widżety i zapisz układy pulpitu na Cora Max.
 section: Cora Max
 reviewed: 2026-09-09
 order: 4
 group: Your dashboard
 ---
 
-Pulpit Cora Max używa **ustalonej siatki**. Każdy kafelek musi zmieścić się na jednym ekranie; wyświetlacz się nie przewija. To jest główna różnica względem pulpitu na telefonie.
+Pulpit Cora Max ma **stałą siatkę**. Wszystkie kafelki muszą zmieścić się na jednym ekranie, bo ekranu nie da się przewijać. To główna różnica w porównaniu z pulpitem na telefonie.
 
-Otwórz edytor z **menu akwarium**: dotknij nazwy akwarium na górnym pasku, potem **Układ panelu**. Jest też w **Ustawienia → Ustawienia akwarium → [your tank] → Układ panelu**.
+Edytor otworzysz z **menu akwarium**. Dotknij nazwy akwarium na górnym pasku, a potem **Układ panelu**. Ta sama opcja jest w **Ustawienia → Ustawienia akwarium → [Twoje akwarium] → Układ panelu**.
 
-![Edytor pulpitu na Cora Max](img/max-dashboard-editor.webp "Rozmiary siatki na górze, potem kafelki. Każdy pokazuje swój typ i źródło, nie odczyt; to jest ekran układu. Nic nie jest zapisywane, aż dotkniesz Save.")
+![Edytor pulpitu na Cora Max](img/max-dashboard-editor.webp "U góry rozmiary siatki, niżej kafelki. Każdy kafelek pokazuje swój typ i źródło danych, a nie odczyt, bo to ekran układu. Nic się nie zapisze, dopóki nie dotkniesz Zapisz.")
 
-:::tip Możesz to też edytować z telefonu
-**Urządzenia → Twój Cora Max → Edytuj panel** buduje ten sam układ z Cora Mobile. Jest szybsze niż rozmieszczanie kafelków ręcznie na ścianie, a wynik pojawia się na ekranie od razu.
+:::tip Pulpit możesz też edytować na telefonie
+W Cora Mobile przejdź do **Urządzenia → Twój Cora Max → Edytuj panel** i ułóż ten sam układ. To szybsze niż przestawianie kafelków na ekranie na ścianie, a zmiany od razu pojawiają się na Cora Max.
 :::
 
-## Wybieranie siatki
+## Wybór siatki
 
-Wybierz gęstość najpierw, bo jej zmiana przepływa wszystko na nowo.
+Najpierw wybierz gęstość siatki, bo jej zmiana układa wszystkie kafelki od nowa.
 
-| Siatka | Kafelki | Wygląda jak |
+| Siatka | Kafelki | Jak to wygląda |
 |---|---|---|
-| 2×2, 3×2, 3×3 | 4-9 | Duże. Czytelne z drugiego końca pokoju. |
-| 4×4, 5×3, 6×4 | 16-24 | Zwykły wybór dla pełnego systemu. |
-| 6×5, 8×4, 8×5 | 30-40 | Gęste. Cały pokój z akwariami naraz. |
-| 9×5, 10×5 | 45-50 | Bardzo gęste. Najlepsze na największych ekranach. |
-| **Auto** | do 32 | Cora wybiera kształt pasujący do liczby dodanych kafelków. |
+| 2×2, 3×2, 3×3 | 4–9 | Duże kafelki. Czytelne z drugiego końca pokoju. |
+| 4×4, 5×3, 6×4 | 16–24 | Zwykle najlepsze dla pełnego systemu. |
+| 6×5, 8×4, 8×5 | 30–40 | Gęsto. Cały pokój z akwariami na jednym ekranie. |
+| 9×5, 10×5 | 45–50 | Bardzo gęsto. Najlepiej na największych ekranach. |
+| **Auto** | do 32 | Cora dobiera kształt do liczby dodanych kafelków. |
 
-Ustalona siatka pomieści tyle kafelków, ile ma komórek, do 50 na 10×5. **Auto** jest jedyną opcją z własnym sufitem: zatrzymuje się na 32 kafelkach, bo poza tym tekst staje się za mały, aby czytać z odległości.
+Stała siatka mieści tyle kafelków, ile ma pól, czyli do 50 przy 10×5. Tylko **Auto** ma własny limit. Kończy się na 32 kafelkach, bo przy większej liczbie tekst jest za mały, żeby przeczytać go z daleka.
 
-:::note Zacznij od Auto, jeśli nie jesteś pewien
-Dodaj kafelki, które chcesz, i zostaw siatkę na **Auto**; Cora wybiera kształt, który je pomieści. Jeśli wynik Ci się podoba, przypnij go do tego ustalonego kształtu potem.
+:::note Nie wiesz, co wybrać? Zacznij od Auto
+Dodaj potrzebne kafelki i zostaw siatkę na **Auto**. Cora dobierze kształt, w którym się zmieszczą. Jeśli wynik Ci się spodoba, możesz potem ustawić ten sam stały kształt.
 :::
 
-:::warning Zmiana siatki może odrzucić kafelki, ale tylko, gdy nie ma miejsca
-Kafelki są przepływane na nowo do nowego kształtu, a nie odrzucane według pozycji: wszystko już w prawidłowej komórce zostaje na miejscu, a resztę pakuje się z powrotem, po kolei. Kafelki są tracone tylko, gdy nowa siatka ma **mniej komórek niż masz kafelków**, i Cora mówi Ci, ile poszło. Przejście z 10×5 (50 komórek) na 3×3 (9) utraci większość z nich.
+:::warning Zmiana siatki usuwa kafelki tylko wtedy, gdy brakuje miejsca
+Po zmianie siatki kafelki są układane od nowa, a nie usuwane według pozycji. Kafelki, które mieszczą się w nowej siatce, zostają na swoich miejscach, a pozostałe są dokładane po kolei. Tracisz kafelki tylko wtedy, gdy nowa siatka ma **mniej pól, niż masz kafelków**. Cora powie Ci wtedy, ile ich ubyło. Przejście z 10×5 (50 pól) na 3×3 (9 pól) usunie większość z nich.
 :::
 
-## Dodawanie i rozmieszczanie
+## Dodawanie i układanie kafelków
 
-Edytor mówi Ci trzy gesty na górze: **dotknij kafelka, aby edytować**, **przytrzymaj, aby go przenieść**, i **✕, aby go usunąć**. Kafelki mogą mieć jedną albo dwie komórki szerokości i jedną albo dwie komórki wysokości.
+U góry edytora widać trzy gesty: **Dotknij kafelek, aby edytować · przytrzymaj, aby przenieść · ✕, aby usunąć**. Kafelek może mieć szerokość i wysokość jednego albo dwóch pól.
 
-**Gniazda i karmienie** dodaje Twoje sterowalne gniazda i cykle karmienia w jednym kroku, a nie kafelek po kafelku. **Wyczyść wszystko** czyści siatkę, abyś mógł zacząć od nowa.
+**Gniazda i karmienie** dodaje w jednym kroku wszystkie sterowalne gniazda i cykle karmienia, więc nie musisz dodawać ich po kolei. **Wyczyść wszystko** opróżnia siatkę, jeśli chcesz zacząć od nowa.
 
-Dziewięć typów kafelków (Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod i Maxspect *(beta)*) są opisane w **[Opisie widżetów](/help/mobile-widgets)**.
+Dziewięć typów kafelków (Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod i Maxspect *(beta)*) opisuje [Rodzaje widżetów](/help/mobile-widgets).
 
-## Projektowanie na odległość
+## Pulpit czytany z daleka
 
-Wyświetlacz ścienny jest czytany z większej odległości niż telefon, i zwykle jednym rzutem oka, a nie z uwagą.
+Ekran na ścianie czyta się z większej odległości niż telefon i zwykle tylko rzuca się na niego okiem.
 
-- **Umieść swoje główne parametry po dwa.** Alkaliczność, temperatura, pH: rzeczy, które chcesz przeczytać bez podchodzenia.
-- **Umieść kontrolki na krawędziach.** Kafelki gniazd to te, po które sięgasz; łatwiej je trafić po bokach.
-- **Grupuj według tematu, nie typu.** Wszystko o dozowaniu razem, wszystko o przepływie razem. Skanujesz ścianę według obszaru.
-- **Zostaw elementy śladowe małe.** Elementy śladowe i inne wolno zmieniające się liczby są odniesieniem, nie monitorowaniem; kafelek wartości jeden na jeden jest w pełni wystarczający.
+- **Najważniejsze parametry ustaw jako kafelki 2×2.** Alkaliczność, temperatura, pH, czyli to, co chcesz odczytać bez podchodzenia.
+- **Sterowanie umieść przy krawędziach.** Po kafelki gniazd sięgasz najczęściej, a z boku łatwiej w nie trafić.
+- **Grupuj według tematu, a nie typu kafelka.** Wszystko o dozowaniu w jednym miejscu, wszystko o przepływie w drugim. Ekran na ścianie przeglądasz obszarami.
+- **Pierwiastki śladowe mogą być małe.** Pierwiastki śladowe i inne wolno zmieniające się wartości sprawdzasz tylko od czasu do czasu. Wystarczy im kafelek wartości 1×1.
 
 ## Zapisywanie układów
 
-Nic, co robisz w edytorze, nie wchodzi w życie, aż dotkniesz **Zapisz**. Opuszczenie bez zapisania odrzuca zmiany.
+Zmiany w edytorze zaczynają działać dopiero po dotknięciu **Zapisz**. Jeśli wyjdziesz bez zapisywania, zmiany przepadną.
 
-**Moje panele** przechowuje układy, do których chcesz wracać, więc możesz przełączać się między nimi, zamiast budować od nowa. Gęsty codzienny układ i układ z dużymi kafelkami na czas pracy przy akwarium odpowiadają różnym chwilom, a przełączanie między nimi zajmuje jedno dotknięcie.
+W **Moje panele** możesz zachować układy, do których chcesz wracać, i przełączać się między nimi bez układania wszystkiego od nowa. Gęsty układ na co dzień i układ z dużymi kafelkami na czas pracy przy akwarium przydają się w różnych sytuacjach. Przełączenie się między nimi to jedno dotknięcie.
 
-## Wiele akwariów
+## Kilka akwariów
 
-Każde akwarium ma swój własny układ. Edytuj je odrębnie, po jednym naraz, z własnych ustawień tego akwarium.
+Każde akwarium ma własny układ. Edytujesz je osobno, każde w ustawieniach danego akwarium.

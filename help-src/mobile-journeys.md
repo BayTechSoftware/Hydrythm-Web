@@ -7,66 +7,66 @@ order: 25
 group: Intelligence
 ---
 
-A journey is Cora walking you through something over days or weeks, rather than answering one question. There are two kinds, and they do not work the same way: **cycling** a new tank, and working through an **issue**.
+In a journey, Cora walks you through something over days or weeks. There are two kinds, and they work differently: **cycling** a new tank, and working through an **issue**.
 
 ## Cycling a new tank
 
-For a tank that is not yet ready for livestock. Cycling grows the bacteria that turn toxic ammonia into safe nitrate, and the journey follows that process through to the end.
+This is for a tank that isn't ready for livestock yet. Cycling grows the bacteria that turn toxic ammonia into safe nitrate, and the journey follows that process to the end.
 
 ![A cycling journey in progress](img/mobile-journeys.webp "The stage, the three numbers that define it, and how long since you last tested.")
 
-Log an ammonia, nitrite and nitrate test every two to three days. Cora places you at a stage from those readings:
+Log an ammonia, nitrite and nitrate test every two to three days. Cora works out your stage from those readings:
 
 | Stage | What is happening |
 |---|---|
-| **Waiting for a first test** | Nothing logged yet; the journey cannot place you until it has numbers |
-| **Not started** | Everything near zero with no nitrate yet. Ammonia has not been added, or has not begun converting |
-| **Ammonia** | The first colony is establishing and consuming ammonia |
-| **Nitrite** | The second colony is clearing nitrite. Usually the longest stretch, and the one where people assume something has gone wrong because the numbers stop moving |
-| **Cycled** | Ammonia and nitrite both cleared and nitrate present, ready for livestock |
+| **Waiting for a first test** | Nothing logged yet. The journey needs numbers before it can place you |
+| **Not started** | Everything is near zero and there's no nitrate yet. Ammonia hasn't been added, or hasn't started converting |
+| **Ammonia** | The first colony is growing and eating ammonia |
+| **Nitrite** | The second colony is clearing nitrite. This is usually the longest stretch, and the one where people think something's gone wrong because the numbers stop moving |
+| **Cycled** | Ammonia and nitrite are both gone and nitrate is present. Ready for livestock |
 
-**Your cycle so far** plots the three curves together, scaled to each other rather than to absolute values, so you can see the handover from one colony to the next. Tap a name for the real numbers.
+**Your cycle so far** plots the three curves together. They're scaled against each other instead of to their real values, so you can see one colony hand over to the next. Tap a name to see the real numbers.
 
 :::warning Two things stall a cycle
-**Ammonia or nitrite above 5 ppm** will stall the bacteria you are trying to grow; if you overshoot, a partial water change brings it back. **pH under 7** stalls it too. The journey warns you when either applies, because in both cases more waiting will not help.
+**Ammonia or nitrite above 5 ppm** stalls the bacteria you're trying to grow. If you overshoot, a partial water change brings it back down. **pH under 7** stalls it too. The journey warns you if either happens, because waiting longer won't help.
 :::
 
-:::note Log all three, not just the one that is moving
-A tank is only reported as cycled when ammonia and nitrite have each been *measured* clear and nitrate is present. Nitrate alone is not enough; source water often carries some, and on its own it would read as a finished cycle and invite livestock into a tank that cannot support them.
+:::note Log all three tests
+Cora only reports a tank as cycled when ammonia and nitrite have each been *measured* at zero and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.
 :::
 
-:::note Readiness comes from your readings, not the calendar
-The journey reports readiness on what you have logged, not on how many weeks have passed. A tank that has not been tested for a fortnight stays where it was; it shows how long it has been since the last test for exactly this reason.
+:::note Readiness comes from your readings
+The journey judges readiness on what you've logged. How many weeks have gone by doesn't count. If you haven't tested for a fortnight, the tank stays where it was. That's why it shows how long it's been since your last test.
 :::
 
 ## Working through an issue
 
-Issue journeys cover **one specific problem: dinoflagellates**. Cora offers one when your readings and your report suggest it; the journey is created only when you accept the offer, never automatically.
+Issue journeys cover **one problem: dinoflagellates**. Cora offers one when your readings and your report point to it. The journey only starts if you accept. Cora never starts one on its own.
 
-:::note Journeys are not a general problem-solver yet
-Cycling and dinoflagellates are the two that exist today. Other problems are worked through with [Cora Assistant](/help/mobile-assistant) and the [journal](/help/mobile-journal) instead.
+:::note Only two journeys so far
+Cycling and dinoflagellates are the only journeys for now. For other problems, use [Cora Assistant](/help/mobile-assistant) and the [journal](/help/mobile-journal).
 :::
 
-An issue journey moves through five stages:
+An issue journey has five stages:
 
-1. **Validate**: is this actually happening? Cora checks your readings before agreeing there is a problem.
-2. **Evidence**: gather what is needed. Usually a test, sometimes a photo or an observation.
-3. **Plan**: Cora proposes what to do, and why.
-4. **Acting**: you do it, over however long it takes.
+1. **Validate**: is this really happening? Cora checks your readings before it agrees there's a problem.
+2. **Evidence**: gather what's needed. Usually a test, sometimes a photo or an observation.
+3. **Plan**: Cora suggests what to do, and why.
+4. **Acting**: you do it, for as long as it takes.
 5. **Outcome**: did it work?
 
-:::note Validate is a step you complete, not a check Cora runs
-An issue journey opens on **Validate**, which asks you to confirm what is actually happening before it shows a plan. It is a deliberate first step; you are being asked to look, not being graded. A cycling journey has no reading to validate and starts at **Acting**.
+:::note You complete Validate yourself
+An issue journey opens on **Validate**. It asks you to confirm what's really happening before it shows a plan. You're being asked to take a look, not being tested. A cycling journey has no reading to validate, so it starts at **Acting**.
 :::
 
 ### Recording the outcome
 
-At the end you say what happened:
+At the end, you say what happened:
 
 **Resolved** · **Improving** · **No change** · **Worse** · **Stopped**
 
-Record the outcome accurately, including **Worse**. The outcome is stored with the journey, so a similar problem later can be compared against what was tried and what resulted.
+Be honest, even if it's **Worse**. The outcome is saved with the journey, so if a similar problem comes up later you can compare it with what you tried and how it went.
 
 ## Dismissing a journey
 
-If a journey is not useful, dismiss it. It stops appearing, and the dismissal is recorded so similar journeys are offered less readily.
+If a journey isn't useful, dismiss it. It stops showing up, and Cora records the dismissal so it offers similar journeys less often.

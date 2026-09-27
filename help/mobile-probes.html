@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Probes | Cora Help</title>
-  <meta name="description" content="Map your controller&#x27;s probes to Cora parameters, and record calibration and cleaning.">
+  <meta name="description" content="Match your controller&#x27;s probes to Cora parameters, and log calibration and cleaning.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-probes">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-probes">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Probes | Cora Help">
-  <meta property="og:description" content="Map your controller&#x27;s probes to Cora parameters, and record calibration and cleaning.">
+  <meta property="og:description" content="Match your controller&#x27;s probes to Cora parameters, and log calibration and cleaning.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-probes">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,22 +169,22 @@
     <article class="doc">
       <h1>Probes</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#mapping-probes">Mapping probes</a></li><li><a href="#multiple-probes-for-one-parameter">Multiple probes for one parameter</a></li><li><a href="#recording-probe-care">Recording probe care</a></li></ul></nav>
-<p>A controller reports probes by its own names. Probe mapping tells Cora which of those is your pH probe, which is temperature, and so on.</p>
+<p>Your controller gives its probes its own names. Probe mapping tells Cora which one is your pH probe, which one is temperature, and so on.</p>
 <h2 id="mapping-probes">Mapping probes</h2>
-<p>Open your <strong>tank profile</strong> (the pencil at the top of the dashboard), expand your controller's section, and choose <strong>Probe Mapping</strong>.</p>
+<p>Open your <strong>tank profile</strong> (the pencil at the top of the dashboard), expand your controller's section and choose <strong>Probe Mapping</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Probe mapping"><img src="/help/img/mobile-probes.webp" alt="Probe mapping" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Each probe your controller reports, its live reading, and what Cora is doing with it.</figcaption></figure>
-<p>Every probe your controller reports is listed with its current reading. Cora auto-detects the standard names, and the row shows which one it matched, so the job here is usually to correct the ones it could not place rather than to map all of them by hand.</p>
-<p>Each row offers three choices:</p>
-<ul><li><strong>A Cora parameter</strong>: the metric that probe measures.</li><li><strong>Custom</strong>: for a probe Cora has no standard parameter for. You give it a short upper-case token, and it is tracked under that name.</li><li><strong>Ignore</strong>: for probes you do not want recorded at all.</li></ul>
-<p>An ignored or unmapped probe will not appear on a dashboard and will not feed alerts.</p>
-<p>Mappings take effect when readings are next recorded, so a correction here does not rewrite history; it changes what is stored from that point on. Press <strong>Save</strong> to apply them.</p>
-<aside class="cal cal-warning"><p class="cal-t">An unmapped probe is invisible to Cora</p><p>If a parameter shows no readings although the probe is working, check the mapping before anything else.</p></aside>
+<p>You'll see every probe your controller reports, with its current reading. Cora recognises the standard names on its own, and each row shows what it matched. Usually you only need to fix the few it couldn't place.</p>
+<p>Each row gives you three choices.</p>
+<ul><li><strong>A Cora parameter</strong> is the metric that probe measures.</li><li><strong>Custom</strong> is for a probe Cora has no standard parameter for. Give it a short upper-case name, and Cora tracks it under that name.</li><li><strong>Ignore</strong> is for probes you don't want recorded at all.</li></ul>
+<p>An ignored or unmapped probe won't show on a dashboard and won't trigger alerts.</p>
+<p>A mapping starts working the next time readings come in. Fixing one here doesn't rewrite history. It only changes what gets saved from then on. Tap <strong>Save</strong> to apply your changes.</p>
+<aside class="cal cal-warning"><p class="cal-t">Cora can't see an unmapped probe</p><p>If a parameter shows no readings but the probe is working, check the mapping first.</p></aside>
 <h2 id="multiple-probes-for-one-parameter">Multiple probes for one parameter</h2>
-<p>A system with two temperature probes can map both. Cora keeps them as separate sources; the widget's source setting decides which one a tile follows, and <a href="/help/mobile-metric-detail">the parameter view</a> lets you compare them.</p>
+<p>If you have two temperature probes, you can map both. Cora keeps them as separate sources. The widget's source setting decides which one a tile follows, and you can compare them in <a href="/help/mobile-metric-detail">the parameter view</a>.</p>
 <h2 id="recording-probe-care">Recording probe care</h2>
-<p>Probes drift. Cora can track when each was last calibrated or cleaned, so you can tell a real change from a probe that needs attention.</p>
-<p>Record calibration or cleaning from the probe's entry. It also fits well as a recurring <a href="/help/mobile-maintenance">maintenance task</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Calibration history explains disagreements</p><p>When a probe and a test kit disagree, the date the probe was last calibrated is usually the first thing worth checking.</p></aside>
+<p>Probes drift. Cora can keep track of when you last calibrated or cleaned each one. That helps you tell a real change from a probe that needs attention.</p>
+<p>Log a calibration or cleaning from the probe's entry. It also works well as a recurring <a href="/help/mobile-maintenance">maintenance task</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Calibration dates explain disagreements</p><p>When a probe and a test kit disagree, check when you last calibrated the probe. That's usually the answer.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-schedules"><span>Previous</span><b>Scheduling equipment</b></a><a class="pn-n" href="/help/mobile-consumables"><span>Next</span><b>Consumables</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-09.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

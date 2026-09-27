@@ -1,64 +1,64 @@
 ---
-title: Steckdosen und Steuerungen
-description: Steckdosen von Cora Max aus schalten, den Fütterungsmodus nutzen, und was Auto tatsächlich bedeutet.
+title: Steckdosen und Steuerung
+description: Steckdosen auf Cora Max schalten, den Fütterungsmodus nutzen und verstehen, was Auto bedeutet.
 section: Cora Max
 reviewed: 2026-09-09
 order: 5
 group: Equipment
 ---
 
-Cora Max kann die Ausrüstung in deinem System schalten: über Steuerungs-Widgets auf dem Dashboard, über die Schublade Steckdosen & Fütterung, oder per Sprache.
+Mit Cora Max schaltest du die Ausrüstung in deinem System. Das geht über Steuerungs-Widgets auf dem Dashboard, über die Schublade **Steckdosen & Füttern** oder per Sprache.
 
-:::warning Diese Steuerungen wirken auf dein Becken
-Es gibt kein Rückgängig. Steckdosen mit einem Vorhängeschloss bitten zuerst um Bestätigung; der Rest wirkt sich an, sobald du tippst. Ein Befehl kann als **Bestätigt**, **Unbestätigt** (gesendet, nichts zurückgemeldet), **Abgelehnt** oder **Keine Änderung** zurückkommen; siehe [Deine Ausrüstung steuern](/help/mobile-device-control).
+:::warning Diese Steuerung wirkt direkt auf dein Becken
+Es gibt kein Rückgängig. Steckdosen mit Vorhängeschloss fragen vorher nach einer Bestätigung. Alle anderen schalten, sobald du tippst. Als Ergebnis bekommst du **Bestätigt**, **Unbestätigt** (gesendet, aber keine Rückmeldung), **Abgelehnt** oder **Keine Änderung**. Mehr dazu unter [Deine Ausrüstung steuern](/help/mobile-device-control).
 :::
 
 ## Die drei Zustände
 
 Jede Steckdose ist in einem von drei Zuständen.
 
-**Auto** gibt die Steckdose an ihre Apex-Programmierung zurück. Hier sollte eine Steckdose die meiste Zeit stehen.
+**Auto** gibt die Steckdose an ihr Apex-Programm zurück. Meistens sollte eine Steckdose hier stehen.
 
-**Aus** und **Ein** sind manuelle Übersteuerungen. Sie treten sofort in Kraft und **bleiben, bis du sie zurückänderst**. Sie laufen nicht ab, und nichts stellt sie für dich zurück.
+**Aus** und **Ein** sind manuelle Übersteuerungen. Sie wirken sofort und **bleiben, bis du sie zurückstellst**. Sie laufen nicht ab, und nichts stellt sie für dich zurück.
 
 :::warning Eine manuelle Übersteuerung läuft nicht ab
-Stell sie zurück auf **Auto**, wenn du fertig bist; nichts tut das für dich. Sie kann später trotzdem von dir, per Sprache, oder von einer Automation geändert werden; eine Übersteuerung ist keine Sperre.
+Stell die Steckdose zurück auf **Auto**, wenn du fertig bist. Das macht sonst niemand. Du, die Sprachsteuerung oder eine Automation können sie später trotzdem ändern. Eine Übersteuerung ist keine Sperre.
 :::
 
-## Vom Dashboard aus schalten
+## Auf dem Dashboard schalten
 
-Steuerungs-Widgets zeigen die drei Zustände, mit dem aktuellen hervorgehoben. Tippe auf den gewünschten Zustand.
+Steuerungs-Widgets zeigen alle drei Zustände und heben den aktuellen hervor. Tippe auf den Zustand, den du willst.
 
-Manche Steckdosen tragen ein **Vorhängeschloss**. Es muss nirgendwo ausgeschaltet werden; es bedeutet, dass die Steckdose um Bestätigung bittet, bevor sie sich ändert, damit ein versehentliches Tippen nichts Kritisches schalten kann. Siehe unten.
+Manche Steckdosen haben ein **Vorhängeschloss**. Du musst es nirgends ausschalten. Es bedeutet nur, dass die Steckdose vor jeder Änderung nachfragt, damit ein versehentliches Tippen nichts Wichtiges schaltet. Mehr dazu weiter unten.
 
-## Die Steuerungs-Schublade
+## Die Schublade Steuerung
 
-Zieh den Tab am unteren Rand des Dashboards hoch, um **Steuerungen** zu öffnen: jede Steckdose im System an einem Ort, ob sie ein Widget hat oder nicht, sowie die Fütterungszyklen.
+Zieh die Lasche am unteren Rand des Dashboards nach oben, um die **Steuerung** zu öffnen. Dort findest du alle Steckdosen deines Systems, auch die ohne eigenes Widget, und die Fütterungszyklen.
 
-![Die Steuerungs-Schublade](img/max-controls.webp "Fütterungszyklen oben, dann jede Steckdose.")
+![Die Steuerungs-Schublade](img/max-controls.webp "Oben die Fütterungszyklen, darunter alle Steckdosen.")
 
-Eine Steckdose mit einem **Vorhängeschloss** braucht eine ausdrückliche Bestätigung, bevor sie sich ändert. Darauf zu tippen öffnet einen Dialog, der die Steckdose, ihren aktuellen Zustand, und die Übersteuerung benennt, die du gerade anwenden willst. Das ist ein Bestätigungsschritt, keine Sperre, die anderswo ausgeschaltet werden müsste.
+Eine Steckdose mit **Vorhängeschloss** ändert sich erst, wenn du ausdrücklich bestätigst. Tippst du darauf, öffnet sich ein Dialog. Er nennt die Steckdose, ihren aktuellen Zustand und die Übersteuerung, die du gleich auslöst. Das ist ein Bestätigungsschritt und keine Sperre, die du anderswo lösen müsstest.
 
 ## Fütterungsmodus
 
-Der Fütterungsmodus ist der sichere Weg, den Durchfluss für die Fütterung zu pausieren. Er pausiert die Ausrüstung, die pausiert werden soll, lässt die Ausrüstung in Ruhe, die es nicht soll, und **stellt alles selbst wieder her**, wenn die Zeit abgelaufen ist.
+Mit dem Fütterungsmodus pausierst du die Strömung sicher zum Füttern. Er pausiert die Geräte, die pausieren sollen, und lässt die anderen weiterlaufen. Wenn die Zeit um ist, **stellt er alles von selbst wieder her**.
 
-Nutze ihn statt Pumpen von Hand abzuschalten, weil er das System wiederherstellt, ohne davon abhängig zu sein, dass du dich erinnerst.
+Nimm lieber den Fütterungsmodus, als Pumpen von Hand auszuschalten. Dann musst du nicht selbst daran denken, alles wieder einzuschalten.
 
-Fütterungszyklen sind mit **A**, **B**, **C** und **D** beschriftet: die von deinem Controller definierten Zyklen, jeder pausiert eine andere Gruppe von Ausrüstung. Wähle den, der zu dem passt, was du tust. **Abbrechen** beendet einen laufenden Zyklus vorzeitig und stellt alles sofort wieder her.
+Die Fütterungszyklen heißen **A**, **B**, **C** und **D**. Dein Controller legt sie fest, und jeder pausiert andere Geräte. Wähl den, der zu deinem Vorhaben passt. Mit **Abbrechen** beendest du einen laufenden Zyklus vorzeitig, und alles läuft sofort wieder.
 
-Starte einen aus der Steuerungs-Schublade, oder sag *"Fütterungsmodus starten"*.
+Starte einen Zyklus in der Steuerungs-Schublade, oder sag *„Fütterungsmodus starten“*.
 
 ## Per Sprache
 
-Du kannst Steckdosen per Sprache schalten: *"schalte den Abschäumer aus"*, *"stell den Lüfter zurück auf Auto"*.
+Du kannst Steckdosen auch per Sprache schalten, etwa mit *„Schalte den Abschäumer aus“* oder *„Stell den Lüfter zurück auf Auto“*.
 
-Alles, was deine Ausrüstung erreicht, wird **bestätigt, bevor es passiert**: Cora sagt dir, was es gleich tun wird, und wartet, bis du zustimmst. Es handelt nicht auf eine Anweisung, bei der es sich nicht sicher ist.
+Bevor Cora etwas an deiner Ausrüstung ändert, **fragt Cora nach**. Du hörst, was gleich passiert, und Cora wartet auf dein Okay. Ist eine Anweisung unklar, passiert nichts.
 
-Siehe **[Mit Cora sprechen](/help/max-voice)**.
+Mehr dazu unter **[Mit Cora sprechen](/help/max-voice)**.
 
-## Sehen, was passiert ist
+## Nachsehen, was passiert ist
 
-Jede Anfrage wird erfasst, zusammen mit dem, was danach gefragt hat (diese App, ein Cora-Bildschirm, Sprache, der Assistent, eine Automationsregel, eine Smart-Taste oder dein Konto) und wie sie gereist ist. Auf deinem Handy ist das **Einstellungen → Aktivität**.
+Jede Anfrage wird festgehalten. Dazu steht, wer sie ausgelöst hat (diese App, ein Cora-Bildschirm, die Sprachsteuerung, der Assistent, eine Automationsregel, eine Smart-Taste oder dein Konto) und welchen Weg sie genommen hat. Auf dem Handy findest du das unter **Einstellungen → Aktivität**.
 
-Das ist der erste Ort, an dem du nachsehen solltest, wenn sich etwas geändert hat und du nicht weißt, warum.
+Hat sich etwas geändert und du weißt nicht, warum, schau zuerst dort nach.

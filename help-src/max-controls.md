@@ -1,64 +1,64 @@
 ---
 title: Outlets and controls
-description: Switching outlets from Cora Max, using feed mode, and what Auto actually means.
+description: Switching outlets from Cora Max, using feed mode, and what Auto really means.
 section: Cora Max
 reviewed: 2026-09-09
 order: 5
 group: Equipment
 ---
 
-Cora Max can switch the equipment on your system: from control widgets on the dashboard, from the Outlets & Feed drawer, or by voice.
+Cora Max can switch the equipment on your system. You can do it from control widgets on the dashboard, from the Outlets & Feed drawer, or by voice.
 
 :::warning These controls act on your tank
-There is no undo. Outlets marked with a padlock ask you to confirm first; the rest apply as soon as you tap. A command can come back **Confirmed**, **Unconfirmed** (sent, nothing reported back), **Refused** or **No change**; see [Controlling your equipment](/help/mobile-device-control).
+There's no undo. Outlets with a padlock ask you to confirm first. The rest change as soon as you tap. A command can come back **Confirmed**, **Unconfirmed** (sent, but nothing reported back), **Refused** or **No change**. More about this in [Controlling your equipment](/help/mobile-device-control).
 :::
 
 ## The three states
 
 Every outlet is in one of three states.
 
-**Auto** returns the outlet to its Apex programming. This is where an outlet should sit most of the time.
+**Auto** hands the outlet back to its Apex programming. Most of the time, that's where an outlet should be.
 
-**Off** and **On** are manual overrides. They take effect at once and **stay until you change them back**. They do not expire, and nothing puts them back for you.
+**Off** and **On** are manual overrides. They take effect right away and **stay until you change them back**. They don't expire, and nothing resets them for you.
 
-:::warning A manual override does not expire
-Set it back to **Auto** when you are done; nothing does that for you. It can still be changed later by you, by voice, or by an automation; an override is not a lock.
+:::warning A manual override doesn't expire
+Set it back to **Auto** when you're done, because nothing else will. An override isn't a lock, though. You, your voice or an automation can still change it later.
 :::
 
 ## Switching from the dashboard
 
-Control widgets show the three states with the current one highlighted. Tap the state you want.
+Control widgets show the three states, with the current one highlighted. Tap the one you want.
 
-Some outlets carry a **padlock**. It does not have to be switched off anywhere; it means the outlet asks you to confirm before it changes, so a stray tap cannot switch something critical. See below.
+Some outlets have a **padlock**. There's nothing to switch off for it. It means the outlet asks you to confirm before it changes, so a stray tap can't switch something critical. There's more on this below.
 
 ## The Controls drawer
 
-Pull up the tab at the bottom of the dashboard to open **Controls**: every outlet on the system in one place, whether or not it has a widget, plus the feed cycles.
+Pull up the tab at the bottom of the dashboard to open **Controls**. It shows every outlet on the system, with or without a widget, plus the feed cycles.
 
 ![The Controls drawer](img/max-controls.webp "Feed cycles across the top, then every outlet.")
 
-An outlet carrying a **padlock** requires an explicit confirmation before it changes. Tapping it opens a dialog naming the outlet, its current state, and the override you are about to apply. It is a confirmation step, not a lock to be switched off elsewhere.
+An outlet with a **padlock** needs you to confirm before it changes. When you tap it, a dialog shows the outlet, its current state and the override you're about to set. It's a confirmation step, and there's no lock to turn off somewhere else.
 
 ## Feed mode
 
-Feed mode is the safe way to pause flow for feeding. It pauses the equipment that should be paused, leaves alone the equipment that should not, and **puts everything back by itself** when the time is up.
+Feed mode is the safe way to pause flow while you feed. It pauses the equipment that should pause, leaves the rest alone, and **puts everything back by itself** when time's up.
 
-Use it in preference to switching pumps off by hand, because it restores the system without depending on you to remember.
+Use it instead of switching pumps off by hand. It puts the system back even if you forget.
 
-Feed cycles are lettered **A**, **B**, **C** and **D**: the cycles your controller defines, each pausing a different set of equipment. Pick the one that matches what you are doing. **Cancel** ends a running cycle early and restores everything immediately.
+Feed cycles are lettered **A**, **B**, **C** and **D**. They're the cycles your controller defines, and each one pauses a different set of equipment. Pick the one that fits what you're doing. **Cancel** ends a running cycle early and puts everything back right away.
 
 Start one from the Controls drawer, or say *"start feed mode"*.
 
 ## By voice
 
-You can switch outlets by voice: *"turn the skimmer off"*, *"put the fan back on auto"*.
+You can switch outlets by voice, for example *"turn the skimmer off"* or *"put the fan back on auto"*.
 
-Anything that reaches your equipment is **confirmed before it happens**: Cora tells you what it is about to do and waits for you to agree. It will not act on an instruction it is not sure about.
+Before anything reaches your equipment, Cora **checks with you first**. It tells you what it's about to do and waits for your OK. If it isn't sure what you asked, it won't act.
 
-See **[Talking to Cora](/help/max-voice)**.
+More about this in [Talking to Cora](/help/max-voice).
 
 ## Seeing what happened
 
-Every request is recorded, along with what asked for it (this app, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account) and how it travelled. On your phone that is **Settings → Activity**.
+Every request is logged, along with what asked for it and how it travelled. The request can come from Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account. On your phone, you'll find it in **Settings → Activity**.
 
-This is the first place to look when something changed and you do not know why.
+When something changed and you don't know why, look there first.

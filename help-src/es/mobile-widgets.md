@@ -1,15 +1,15 @@
 ---
-title: Referencia de widgets
-description: Cada tipo de widget en Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo usar cada uno.
+title: Tipos de widget
+description: Los tipos de widget de Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo te conviene cada uno.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 7
 group: Your dashboard
 ---
 
-Un widget es una casilla en tu panel que muestra una sola cosa. Esta página cubre cada tipo y qué puedes configurar.
+Un widget es una casilla de tu panel que muestra una sola cosa. Aquí tienes cada tipo y lo que puedes configurar en él.
 
-Añádelos y ordénalos en **[el editor de panel](/help/mobile-dashboard-editing)**; toca un widget ahí para abrir sus ajustes.
+Los añades y los colocas en [el editor del panel](/help/mobile-dashboard-editing). Toca un widget en el editor para abrir sus ajustes.
 
 ![Configurar un widget](img/mobile-widget-config.webp "Tipo, parámetro, y luego ancho y alto.")
 
@@ -17,95 +17,97 @@ Añádelos y ordénalos en **[el editor de panel](/help/mobile-dashboard-editing
 
 | Tipo | Muestra |
 |---|---|
-| **Valor** | La lectura actual, su unidad, antigüedad y fuente |
+| **Valor** | La lectura actual, con su unidad, su antigüedad y su fuente |
 | **Medidor** | Un arco con tu rango marcado en bandas y una marca en el valor |
-| **Gráfico** | Una tendencia en una ventana que elijas |
-| **Estado** | Un estado como texto: en marcha, inactivo, cerrado |
+| **Gráfico** | La tendencia en el periodo que elijas |
+| **Estado** | Un estado en texto, como en marcha, inactivo o cerrado |
 | **Toma** | Un control de tres posiciones: Auto, Apagado, Encendido |
-| **ReefBeat** | Una unidad Red Sea, con su propio resumen |
+| **ReefBeat** | Un equipo Red Sea, con su propio resumen |
 | **Módulo Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
-| **Jecod** | Una bomba Jecod, con su modo e intensidad |
-| **Maxspect** *(beta)* | Un gyre, con ambos motores |
+| **Jecod** | Una bomba Jecod, con su modo y su intensidad |
+| **Maxspect** *(beta)* | Un gyre, con sus dos motores |
 
-Los últimos cuatro son casillas de **dispositivo**: están vinculadas a un equipo en lugar de a un parámetro, y cada una muestra lo que esa unidad reporte.
+Los cuatro últimos son casillas de **dispositivo**. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.
 
 ## Tamaño
 
-**Ancho** y **Alto** son cada uno **1×** o **2×**. Un gráfico nunca tiene un ancho de una sola celda.
+**Ancho** y **Alto** pueden ser **1×** o **2×**. Un gráfico nunca ocupa una sola celda de ancho.
 
 ## Valor
 
-El número simple. Lectura actual, su unidad, cuán antigua es y de dónde viene.
+El número tal cual. Ves la lectura actual, su unidad, su antigüedad y de dónde viene.
 
-Úsalo para parámetros que revisas numéricamente en lugar de por tendencia: calcio, magnesio, nitrato.
+Va bien para los parámetros que miras por el número más que por la tendencia, como el calcio, el magnesio o el nitrato.
 
-**Ajustes:** etiqueta, fuente, tamaño.
+Puedes cambiar la etiqueta, la fuente y el tamaño.
 
 ## Medidor
 
-Un arco con tu rango objetivo marcado en bandas y una marca en el valor actual. El color de la marca te dice dónde estás: dentro de la banda, desviándose, o fuera.
+Un arco con tu rango objetivo marcado en bandas y una marca en el valor actual. El color de la marca te dice dónde estás. Puede estar dentro de la banda, empezando a desviarse o fuera.
 
-Úsalo para los parámetros que gestionas activamente: alcalinidad, pH, salinidad, temperatura.
+Va bien para los parámetros que controlas de cerca, como la alcalinidad, el pH, la salinidad o la temperatura.
 
-**Ajustes:** etiqueta, fuente, rango (heredado de los objetivos de tu acuario a menos que lo anules aquí), tamaño.
+Puedes cambiar la etiqueta, la fuente, el rango y el tamaño. El rango sale de los objetivos de tu acuario, salvo que pongas otro aquí.
 
-:::note Usa medidores de dos columnas o más
-En una sola columna el arco es demasiado pequeño para leerlo de un vistazo; usa un widget de **valor** en su lugar si el espacio es limitado.
+:::note Dale al medidor dos columnas o más
+En una sola columna el arco queda demasiado pequeño para leerlo de un vistazo. Si te falta espacio, usa un widget de **valor**.
 :::
 
 ## Gráfico
 
-Una minigráfica en una ventana que elijas, con el máximo y el mínimo marcados y el valor actual destacado.
+Una línea de tendencia en el periodo que elijas, con el máximo y el mínimo marcados y el valor actual destacado.
 
-Para un parámetro que pruebas (con Trident o con un kit de pruebas), la línea une tus pruebas reales. Si la ventana solo contiene una prueba, la línea entra desde la prueba anterior a ella, y no se marca ni máximo ni mínimo. Sin ninguna prueba en la ventana, o sin nada anterior con qué unir una sola prueba, la casilla muestra **Recopilando…** en lugar de una línea.
+Si el parámetro lo mides con pruebas (con Trident o con un kit), la línea une tus pruebas reales. Cuando en el periodo solo hay una prueba, la línea llega desde la prueba anterior y no se marcan máximo ni mínimo. Si no hay ninguna prueba en el periodo, o no hay una prueba anterior con la que unir la única que hay, la casilla muestra **Recopilando…** y no dibuja línea.
 
-Úsalo para cualquier cosa que se mueva: pH a lo largo del día, temperatura durante una ola de calor, alcalinidad entre dosis.
+Úsalo para todo lo que cambia: el pH a lo largo del día, la temperatura durante una ola de calor, la alcalinidad entre dosis.
 
-**Ajustes:** etiqueta, fuente, **ventana de tiempo** (1 hora, 6 horas, 24 horas, 7 días, 30 días, 1 año), tamaño.
+Puedes cambiar la etiqueta, la fuente, el **rango de tiempo** (1 hora, 6 horas, 24 horas, 7 días, 30 días, 1 año) y el tamaño.
 
-Una tendencia siempre tiene **al menos dos celdas de ancho**; una minigráfica apretada en una sola celda no te dice nada, así que el editor no va a crear una así.
+Una tendencia ocupa siempre **al menos dos celdas de ancho**. En una sola celda la línea no dice nada, así que el editor no la crea.
 
-:::note Elige la ventana según el ritmo
-El pH oscila en un ciclo diario, así que 24 horas te muestra la forma. La alcalinidad se mueve durante días, así que 7 o 30 te dicen más de lo que 24 dirá nunca.
+:::note Elige el periodo según el ritmo del parámetro
+El pH sube y baja cada día, así que con 24 horas ves bien el ciclo. La alcalinidad cambia a lo largo de varios días, y con 7 o 30 días verás mucho más que con 24 horas.
 :::
 
 ## Estado
 
-Texto en lugar de un número, para cosas que son un estado. En marcha, inactivo, abierto, cerrado, alimentando.
+Muestra un texto para las cosas que son un estado y no un número. Por ejemplo, en marcha, inactivo, abierto, cerrado o alimentando.
 
-**Ajustes:** etiqueta, fuente, tamaño.
+Puedes cambiar la etiqueta, la fuente y el tamaño.
 
 ## Toma
 
-Un interruptor de tres posiciones para una toma: **Auto**, **Apagado**, **Encendido**.
+Un interruptor de tres posiciones para una toma: **Auto**, **Apagado** y **Encendido**.
 
-- **Auto** devuelve la toma a lo que normalmente la gestiona: un horario, una regla, o el controlador al que pertenece.
-- **Apagado** y **Encendido** son anulaciones manuales que se quedan hasta que las cambies de vuelta.
+- **Auto** devuelve la toma a lo que la controla normalmente, sea un programa, una regla o el controlador al que pertenece.
+- **Apagado** y **Encendido** son cambios manuales. Se mantienen hasta que tú los cambies.
 
-**Ajustes:** etiqueta, qué toma, tamaño.
+Puedes cambiar la etiqueta, la toma y el tamaño.
 
-:::warning Una anulación manual no caduca
-Apagado significa apagado hasta que lo vuelvas a poner en Auto. Si apagas una bomba de retorno para trabajar en el acuario, vuelve a ponerla en Auto cuando termines; Cora no lo hará por ti.
+:::warning Un cambio manual no caduca
+Apagado es apagado hasta que vuelvas a ponerla en Auto. Si apagas la bomba de retorno para trabajar en el acuario, vuelve a ponerla en Auto al terminar. Cora no lo hace por ti.
 :::
 
 ## ReefBeat
 
-Una casilla para todo un equipo, mostrando su propio resumen en lugar de un solo parámetro: el estado y el depósito de un ATO, los cabezales de una unidad de dosificación, los días restantes de un rodillo de estera.
+Una casilla para un equipo completo, con su propio resumen. Por ejemplo, el estado y el depósito de un ATO, los cabezales de una dosificadora o los días que le quedan a un rollo de fieltro.
 
-Qué dispositivos ofrecen una casilla depende de lo que tengas conectado. Consulta **[Conectar tu equipo](/help/mobile-connections)**.
+Los dispositivos que tienen casilla dependen de lo que hayas conectado. Lo tienes en [Conectar tus equipos](/help/mobile-connections).
 
-**Ajustes:** etiqueta, qué dispositivo, tamaño.
+Puedes cambiar la etiqueta, el dispositivo y el tamaño.
 
 ## Qué muestra un widget de parámetro
 
-En un widget respaldado por un parámetro medido (Valor, Medidor, Gráfico y Estado), siempre hay tres cosas presentes. Las casillas de Toma y de dispositivo muestran su propio estado en su lugar, porque no hay una sola lectura detrás de ellas:
+Los widgets que dependen de un parámetro medido (Valor, Medidor, Gráfico y Estado) muestran siempre tres cosas:
 
 - **El valor**, en grande
-- **La antigüedad** (`now`, `1h`, `2d`): cuán antigua es la lectura, no cuándo se actualizó la pantalla por última vez
-- **La fuente**: una pequeña insignia que indica de dónde vino el número
+- **La antigüedad** (`now`, `1h`, `2d`), es decir, cuánto tiempo tiene la lectura, no cuándo se actualizó la pantalla
+- **La fuente**, una pequeña insignia que indica de dónde viene el número
 
-Toca cualquier widget para abrir su historial completo, cada fuente que lo reporta y los umbrales en vigor.
+Las casillas de toma y de dispositivo muestran su propio estado, porque detrás de ellas no hay una sola lectura.
+
+Toca cualquier widget para abrir su historial completo, todas las fuentes que lo informan y los umbrales que se aplican.
 
 ## Tamaños
 
-Los widgets tienen uno o dos celdas de ancho y una o dos de alto, excepto una **tendencia**, que siempre tiene al menos dos de ancho. En un panel de tres columnas, un medidor de dos de ancho ocupa dos tercios de la fila, que suele ser la forma adecuada para tu parámetro más importante.
+Los widgets ocupan una o dos celdas de ancho y una o dos de alto. La excepción es la **tendencia**, que siempre ocupa al menos dos de ancho. En un panel de tres columnas, un medidor de dos de ancho llena dos tercios de la fila. Suele ser la mejor forma de mostrar tu parámetro más importante.

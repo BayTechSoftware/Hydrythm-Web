@@ -1,56 +1,56 @@
 ---
 title: Die fünf Tabs
-description: Eine Führung durch Cora Mobile: Dashboard, Geräte, Assistent, Intelligence und Einstellungen, und was jeweils dazugehört.
+description: Ein Rundgang durch Cora Mobile mit Dashboard, Geräte, Assistent, Intelligenz und Einstellungen, und was du wo findest.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 4
 group: Getting started
 ---
 
-Cora Mobile hat fünf Tabs am unteren Rand. Fast alles, was du tust, findet in einem davon statt.
+Unten in Cora Mobile gibt es fünf Tabs. Fast alles, was du tust, spielt sich in einem davon ab.
 
 ![Die fünf Tabs von Cora Mobile](img/mobile-tabs.webp "Dashboard, Geräte, Assistent, Intelligence, Einstellungen.")
 
 ## Dashboard
 
-Live-Messwerte für das ausgewählte Becken. Das ist der Hauptbildschirm von Cora Mobile.
+Hier siehst du die Live-Messwerte des ausgewählten Beckens. Das ist der Hauptbildschirm von Cora Mobile.
 
-Wenn du mehr als ein Becken hast, wische nach links und rechts, um zwischen ihnen zu wechseln; die Punkte unter der Kopfzeile zeigen, wo du gerade bist. Die Kopfzeile des Beckens trägt den Beckennamen und eine Reihe von Aktionen: Fütterungsmodus, die Reef Buddy-Zusammenfassung, Teilen, und einen Stift, der das Beckenprofil öffnet. Das Bearbeiten des Dashboards ist ein eigenes Steuerelement, **Dashboard bearbeiten**, am unteren Rand der Seite.
+Hast du mehrere Becken, wischst du nach links und rechts zwischen ihnen hin und her. Die Punkte unter der Kopfzeile zeigen dir, wo du gerade bist. In der Kopfzeile stehen der Beckenname und eine Reihe Aktionen: Fütterungsmodus, die Reef Buddy-Zusammenfassung, Teilen und ein Stift, der das Beckenprofil öffnet. Das Dashboard selbst bearbeitest du über **Dashboard bearbeiten** ganz unten auf der Seite.
 
-Alle Details: **[Dein Dashboard lesen](/help/mobile-dashboard)**.
+Alles dazu unter **[Dein Dashboard lesen](/help/mobile-dashboard)**.
 
 ## Geräte
 
-Alles, was du verbunden hast, nach Marke gruppiert. Jede Gruppe klappt sich zusammen, sodass ein Riffraum voller Ausrüstung übersichtlich bleibt.
+Hier steht alles, was du verbunden hast, nach Marke gruppiert. Jede Gruppe lässt sich zuklappen. So behältst du auch in einem Technikraum voller Geräte den Überblick.
 
-Hier fügst du neue Ausrüstung hinzu, benennst sie um, weist sie einem Becken zu und entfernst sie. Alle Details: **[Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices)**.
+Hier fügst du neue Geräte hinzu, benennst sie um, ordnest sie einem Becken zu und entfernst sie. Alles dazu unter **[Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices)**.
 
 ## Assistent
 
-Frag Cora in einfacher Sprache nach deinem Becken, per Tippen oder per Sprache. Er sieht deine Live-Messwerte, deine Historie und deine ICP-Ergebnisse, sodass "warum sinkt meine Alkalinität?" eine Frage ist, die tatsächlich zu *deinem* Becken beantwortet werden kann.
+Frag Cora in normaler Sprache nach deinem Becken, per Text oder per Sprache. Cora sieht deine Live-Messwerte, deine Historie und deine ICP-Ergebnisse. Auf "Warum sinkt meine Alkalinität?" bekommst du also eine Antwort, die wirklich zu *deinem* Becken passt.
 
-Alle Details: **[Cora fragen](/help/mobile-assistant)**.
+Alles dazu unter **[Cora fragen](/help/mobile-assistant)**.
 
-## Intelligence
+## Intelligenz
 
-Deine Laborarbeit und dein Blick auf das große Ganze. Lade einen ICP-Test hoch, und Cora liest ihn ein, verfolgt jedes Element über die Zeit und sagt dir, was sich seit dem letzten Mal verändert hat. Zustandsberichte sind eine tiefere, regelmäßige Bewertung des gesamten Systems.
+Hier liegen deine Laborergebnisse und der Blick auf die lange Entwicklung. Lade einen ICP-Test hoch, dann liest Cora ihn ein, verfolgt jedes Element über die Zeit und sagt dir, was sich seit dem letzten Mal verändert hat. Zustandsberichte bewerten dein ganzes System gründlicher und in regelmäßigen Abständen.
 
-Alle Details: **[ICP und Zustandsberichte](/help/mobile-icp-health)**.
+Alles dazu unter **[ICP und Zustandsberichte](/help/mobile-icp-health)**.
 
 ## Einstellungen
 
 Konto, Becken, Dosierprodukte, der Assistent, Benachrichtigungen, Automation und dein Abo.
 
-Alle Details: **[Einstellungen](/help/mobile-settings)**.
+Alles dazu unter **[Einstellungen](/help/mobile-settings)**.
 
-## Die erste Tour
+## Die Tour beim ersten Start
 
-Wenn du das Dashboard zum ersten Mal öffnest, zeigt Cora dir nacheinander die Bereiche des Bildschirms. Das läuft nur einmal ab.
+Öffnest du das Dashboard zum ersten Mal, zeigt dir Cora nacheinander die einzelnen Bereiche des Bildschirms. Das passiert nur einmal.
 
-Um sie erneut zu sehen, nutze **Einstellungen → Über → Tipps erneut ansehen**. Das startet die Tour neu und bringt dich zum Dashboard, sodass sie sofort beginnt: nützlich nach einem Update, oder wenn du dein Handy an jemand anderen weitergibst.
+Willst du die Tour noch einmal sehen, tippe auf **Einstellungen → Über → Tipps erneut ansehen**. Die Tour startet dann neu, und du landest direkt auf dem Dashboard. Das ist praktisch nach einem Update oder wenn du dein Handy jemand anderem gibst.
 
-## Zwei Steuerelemente außerhalb der Tabs
+## Zwei Schaltflächen außerhalb der Tabs
 
-**Die Glocke**, oben rechts, ist deine Benachrichtigungshistorie: jede Warnung, die Cora ausgelöst hat, neueste zuerst. Die Zahl darauf zeigt, wie viele du noch nicht gelesen hast.
+**Die Glocke** oben rechts enthält den Verlauf deiner Benachrichtigungen, also jede Warnung, die Cora gemeldet hat, die neueste zuerst. Die Zahl darauf zeigt, wie viele du noch nicht gelesen hast.
 
-**Die Tagebuch-Schaltfläche** schwebt über der unteren rechten Ecke des Dashboards. Tippe darauf, um festzuhalten, was du gerade getan hast: einen Wasserwechsel, eine neue Koralle, eine geänderte Dosierung. Siehe **[Das Tagebuch](/help/mobile-journal)**.
+**Die Schaltfläche Tagebuch** schwebt unten rechts über dem Dashboard. Tippe darauf, um festzuhalten, was du gerade gemacht hast, etwa einen Wasserwechsel, eine neue Koralle oder eine geänderte Dosierung. Mehr dazu unter **[Das Tagebuch](/help/mobile-journal)**.

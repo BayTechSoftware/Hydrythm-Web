@@ -1,58 +1,58 @@
 ---
 title: Obsada
-description: Prowadź zapis tego, co jest w akwarium, kiedy się pojawiło i co się z tym stało.
+description: Zapisuj, co jest w akwarium, kiedy trafiło do niego i co się z tym stało.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 20
 group: Records
 ---
 
-Obsada zapisuje, co akwarium zawiera (korale, ryby i bezkręgowce) wraz z datą dodania każdej pozycji i jej aktualnym statusem. Otwórz ją z rzędu skrótów na dole pulpitu.
+W obsadzie zapisujesz, co mieszka w akwarium (koralowce, ryby i bezkręgowce), kiedy każda pozycja została dodana i jaki ma teraz status. Obsadę otworzysz z rzędu skrótów na dole pulpitu.
 
-![Spis obsady](img/mobile-livestock.webp "Podsumowanie inwentarza i ostatnie straty, z pozycjami pogrupowanymi według typu.")
+![Spis obsady](img/mobile-livestock.webp "Podsumowanie obsady i ostatnie straty, z pozycjami pogrupowanymi według typu.")
 
 ## Podsumowanie
 
-Na górze:
+Na górze są:
 
-- **Podsumowanie obsady**: sumy według głównych kategorii, takich jak korale, ryby i bezkręgowce
-- **Straty**: ile pozycji zostało oznaczonych jako utracone w ostatnich 90 dniach
+- **Podsumowanie obsady**, czyli liczby w głównych grupach, takich jak koralowce, ryby i bezkręgowce
+- **Straty**, czyli liczba pozycji oznaczonych jako utracone w ciągu ostatnich 90 dni
 
-Pozycje są pogrupowane według typu (koral SPS, koral LPS, koral miękki, ryba i tak dalej), każda pokazująca swoją liczbę i datę dodania.
+Pozycje są pogrupowane według typu (koralowiec SPS, koralowiec LPS, koralowiec miękki, ryba i tak dalej). Przy każdej widać liczbę sztuk i datę dodania.
 
-**Pokaż utracone** na górnym pasku obejmuje pozycje, które nie są już w akwarium.
+**Pokaż utracone** na górnym pasku dołącza pozycje, których nie ma już w akwarium.
 
 ## Dodawanie pozycji
 
-Każda pozycja zawiera:
+Każda pozycja ma pola:
 
 - **Nazwa**: jak ją nazywasz
-- **Typ**: koral SPS, koral LPS, koral miękki, ryba, bezkręgowiec, ukwiał albo inne
-- **Species**: opcjonalnie, jeśli znasz
-- **Liczba**: dla grupy, jak ławica albo zestaw fragów
-- **Date added**: domyślnie dzisiaj
-- **Notatki**: dostawca, umiejscowienie, koszt albo inny szczegół, który chcesz zachować
+- **Typ**: koralowiec SPS, koralowiec LPS, koralowiec miękki, ryba, bezkręgowiec, anemon albo inne
+- **Gatunek**: opcjonalnie, jeśli go znasz
+- **Liczba**: dla grupy, np. ławicy albo zestawu fragów
+- **Data dodania**: domyślnie dzisiejsza
+- **Notatki**: sprzedawca, miejsce w akwarium, cena albo inny szczegół, który chcesz zapamiętać
 
 ## Co się z tym stało
 
 Każda pozycja ma status:
 
-| Status | Znaczy |
+| Status | Co oznacza |
 |---|---|
-| **Żywe** | Wciąż w akwarium |
-| **Utracone** | Zginęło |
-| **Zafragowane** | Pofragowane; kolonia trwa dalej |
-| **Sprzedane** | Odeszło do kogoś innego |
-| **Przeniesione** | W innym z Twoich akwariów |
+| **Żywe** | Nadal w akwarium |
+| **Utracone** | Nie przeżyło |
+| **Odfragowano** | Podzielone na fragi, kolonia rośnie dalej |
+| **Sprzedano** | Trafiło do kogoś innego |
+| **Przeniesiono** | Jest w innym Twoim akwarium |
 
-Oznaczenie pozycji jako **lost** zapisuje datę i, opcjonalnie, powód. Konsekwentne zapisywanie strat jest tym, co uwidacznia wzorce później: straty skoncentrowane w jednym obszarze akwarium albo następujące po konkretnym zdarzeniu.
+Gdy oznaczysz pozycję jako **utraconą**, Cora zapisze datę i opcjonalnie przyczynę. Jeśli zapisujesz straty na bieżąco, później łatwiej zauważyć wzorce, np. straty w jednej części akwarium albo po konkretnym zdarzeniu.
 
-:::note "Nieznany" jest prawidłowym powodem straty
-Zapisz datę, nawet gdy przyczyna nie jest znana. To data jest tym, co wspiera późniejsze porównanie.
+:::note „Nieznane” to też dobra przyczyna
+Zapisz datę, nawet jeśli nie wiesz, co się stało. To właśnie data pozwala później coś porównać.
 :::
 
 ## Obsada a reszta Cory
 
-Twoje obciążenie obsadą jest częścią tego, względem czego oceniane są Twoje parametry; system gęsto obsadzony koralami SPS i lekko obsadzone akwarium z koralami miękkimi nie są mierzone tą samą miarą.
+Obsada wpływa na to, jak Cora ocenia Twoje parametry. Gęsto obsadzony system z koralowcami SPS i akwarium z kilkoma koralowcami miękkimi nie są oceniane tą samą miarą.
 
-Możesz też o to zapytać. *"Kiedy dodałem korala młotka?"* albo *"Co straciłem w tym roku?"* są odpowiadane na podstawie tego zapisu.
+Możesz też pytać o obsadę. Na pytania w rodzaju *„Kiedy pojawił się młotek?”* albo *„Co zginęło w tym roku?”* Cora odpowie na podstawie tego spisu.

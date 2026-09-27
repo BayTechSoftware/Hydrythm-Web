@@ -1,97 +1,97 @@
 ---
 title: Abos
-description: Was jeder Plan enthält, wo du deine Nutzung siehst, und wie du wechselst oder kündigst.
+description: Was in welchem Plan steckt, wo du deine Nutzung siehst und wie du wechselst oder kündigst.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 31
 group: Account
 ---
 
-Dein Becken zu überwachen ist kostenlos und unbegrenzt. Die kostenpflichtigen Stufen erhöhen die KI-Kontingente und schalten Reef Buddy frei.
+Dein Becken zu überwachen kostet nichts und ist unbegrenzt. Die bezahlten Stufen erhöhen die KI-Kontingente und schalten Reef Buddy frei.
 
 ## Was immer kostenlos ist
 
-- Live-Messwerte von deiner Ausrüstung, mit Dashboards und Diagrammen
+- Live-Messwerte deiner Ausrüstung mit Dashboards und Diagrammen
 - Geräte, Warnungen und Schwellenwerte
 - Tagebuch, Wartung und Besatz
-- Push-Benachrichtigungen für kritische Warnungen
-- **Ein Becken**
+- Push-Benachrichtigungen bei kritischen Warnungen
+- **ein Becken**
 
 ## Die kostenlosen Kontingente
 
 | Funktion | Kostenlos |
 |---|---|
-| Assistent-Nachrichten | 20 pro Monat. Sprache zehrt vom selben Kontingent und kostet pro Runde mehr |
+| Nachrichten an den Assistenten | 20 pro Monat. Sprache zählt zum selben Kontingent und verbraucht pro Runde mehr |
 | Zustandsberichte | 1 pro Monat |
-| ICP-Analyse | **Eine, einmalig**: eine einzige Analyse fürs ganze Konto, dann gesperrt |
-| KI auf Becken | Nur dein primäres Becken |
-| Reef Buddy | Nicht enthalten |
+| ICP-Analyse | **eine einzige**, einmal für das ganze Konto, danach gesperrt |
+| KI für Becken | nur für dein primäres Becken |
+| Reef Buddy | nicht enthalten |
 
-Wenn ein Kontingent aufgebraucht ist, bleibt alles bereits Erstellte lesbar.
+Ist ein Kontingent aufgebraucht, kannst du alles, was schon erstellt wurde, weiter lesen.
 
 ## Die Testphase
 
-Eine **30-tägige Pro-Testphase beginnt, wenn du dich anmeldest**, nicht, wenn du zum ersten Mal eine Funktion nutzt. Sie enthält Reef Buddy und die höheren Kontingente.
+Eine **30-tägige Pro-Testphase beginnt mit deiner Registrierung**, nicht erst, wenn du eine Funktion zum ersten Mal nutzt. Sie enthält Reef Buddy und die höheren Kontingente.
 
-Wenn sie endet, fällt das Konto auf Kostenlos zurück. **Nichts wird gelöscht**: Jeder Messwert, Tagebucheintrag, Bericht und jede Zusammenfassung, die du schon hast, bleibt lesbar.
+Danach fällt das Konto auf Kostenlos zurück. **Gelöscht wird nichts.** Alle Messwerte, Tagebucheinträge, Berichte und Zusammenfassungen, die du schon hast, bleiben lesbar.
 
-## Kostenpflichtige Stufen
+## Bezahlte Stufen
 
-Drei Stufen (**Plus**, **Pro** und **Max**), jeweils monatlich oder jährlich. Aktuelle Preise werden in Cora Mobile und im Store angezeigt, da dort die Abrechnung erfolgt.
+Es gibt drei Stufen, **Plus**, **Pro** und **Max**, jeweils monatlich oder jährlich. Die aktuellen Preise siehst du in Cora Mobile und im Store, denn dort wird abgerechnet.
 
 | | Plus | Pro | Max |
 |---|---|---|---|
-| Assistent-Nachrichten / Monat | 500 | 1.200 | 2.500 (angemessene Nutzung) |
+| Nachrichten an den Assistenten / Monat | 500 | 1.200 | 2.500 (faire Nutzung) |
 | Sprachsitzungen / Monat | 100 | 200 | 400 |
 | Zustandsberichte / Monat | 4 | 12 | 100 |
 | ICP-Analysen / Monat | 1 | 3 | 30 |
 | Becken mit KI-Überwachung | 1 | 5 | 20 |
 
-Sprachsitzungen werden eigenständig gezählt, und jede gesprochene Antwort zehrt außerdem von deinem Nachrichtenkontingent. Jede kostenpflichtige Stufe enthält Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora liest, und den Vergleich mit deiner eigenen Historie.
+Sprachsitzungen werden eigens gezählt, und jede gesprochene Antwort zählt zusätzlich zu deinem Nachrichtenkontingent. In jeder bezahlten Stufe sind Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora lesen kann, und der Vergleich mit deiner eigenen Historie enthalten.
 
-**Einstellungen → dein Konto** öffnet **Konto & Abo**.
+Über **Einstellungen → dein Konto** öffnest du **Konto & Abo**.
 
 ![Konto und Abo](img/mobile-plans.webp "Dein Plan und sein Verlängerungsdatum, mit den Store-Steuerungen darunter.")
 
-Es zeigt deinen aktuellen Plan und wann er sich verlängert, sowie:
+Dort siehst du deinen aktuellen Plan und wann er sich verlängert. Außerdem findest du:
 
-| Steuerung | Tut |
+| Steuerung | Funktion |
 |---|---|
-| **Code einlösen** | Wendet einen Promotions- oder Partnercode an |
-| **Abo verwalten** | Öffnet die Abo-Einstellungen deines Stores |
-| **Käufe wiederherstellen** | Wendet einen auf einem anderen Gerät, oder nach einer Neuinstallation getätigten Kauf erneut an |
+| **Code einlösen** | löst einen Aktions- oder Partnercode ein |
+| **Abo verwalten** | öffnet die Abo-Einstellungen deines Stores |
+| **Käufe wiederherstellen** | holt einen Kauf zurück, den du auf einem anderen Gerät oder vor einer Neuinstallation gemacht hast |
 
-## Sehen, was du verwendet hast
+## Nachsehen, was du verbraucht hast
 
 ![Nutzung und Limits](img/mobile-usage.webp "Jede bemessene Funktion gegen ihr monatliches Kontingent.")
 
-**Einstellungen → Cora Assistant → Nutzung & Limits** zeigt jede bemessene Funktion gegen ihr monatliches Kontingent an einem Ort: Assistent-Nachrichten, ICP-Analysen und Zustandsberichte.
+Unter **Einstellungen → Cora Assistant → Nutzung & Limits** siehst du an einer Stelle alle gezählten Funktionen mit ihrem Monatskontingent: Nachrichten an den Assistenten, ICP-Analysen und Zustandsberichte.
 
-Jede bemessene Funktion zeigt ihre eigene Nutzung dort, wo du sie verwendest:
+Außerdem zeigt dir jede gezählte Funktion dort, wo du sie nutzt, wie viel du verbraucht hast:
 
-- **Assistent**: Nachrichten diesen Monat, über dem Nachrichtenfeld
-- **Intelligence**: ICP- und Zustandsberichte diesen Monat, unter den Schaltflächen
+- **Assistent**: die Nachrichten dieses Monats, über dem Nachrichtenfeld
+- **Intelligenz**: die ICP- und Zustandsberichte dieses Monats, unter den Schaltflächen
 
-Prüfe diese, wenn du wissen willst, wie viel von deinem monatlichen Kontingent übrig ist.
+Dort siehst du, wie viel von deinem Monatskontingent noch übrig ist.
 
-## Den Plan ändern
+## Den Plan wechseln
 
-Nutze **Abo verwalten**. Änderungen laufen über den App Store oder Google Play und folgen denselben Regeln wie jedes andere Abo auf deinem Gerät, einschließlich der Erstattungs- und Kündigungsbedingungen dieses Stores.
+Tippe auf **Abo verwalten**. Änderungen laufen über den App Store oder Google Play. Es gelten dieselben Regeln wie für jedes andere Abo auf deinem Gerät, auch die Erstattungs- und Kündigungsbedingungen des Stores.
 
 ## Kündigen
 
-Kündige über den App Store oder Google Play, nicht in Cora. Dein Plan läuft bis zum Ende des bezahlten Zeitraums, und fällt dann auf Kostenlos zurück.
+Du kündigst im App Store oder bei Google Play, nicht in Cora. Dein Plan läuft bis zum Ende des bezahlten Zeitraums und fällt dann auf Kostenlos zurück.
 
-:::note Kündigen löscht nichts
-Deine Becken, Messwerte, Historie und dein Tagebuch bleiben genau, wie sie sind. Du verlierst den Zugriff auf die kostenpflichtigen Funktionen, nicht die Daten. Komm später zurück, und alles ist noch da.
+:::note Beim Kündigen wird nichts gelöscht
+Deine Becken, Messwerte, Historie und dein Tagebuch bleiben genau so, wie sie sind. Du verlierst den Zugang zu den bezahlten Funktionen, aber nicht deine Daten. Kommst du später zurück, ist alles noch da.
 :::
 
 ## Wenn dein Plan nicht angezeigt wird
 
-Käufe brauchen manchmal einen Moment, um Cora Mobile zu erreichen. Wenn es schon ein paar Minuten her ist:
+Manchmal dauert es einen Moment, bis ein Kauf in Cora Mobile ankommt. Sind schon ein paar Minuten vergangen:
 
-1. Schließe Cora vollständig und öffne es erneut
-2. Prüfe, ob du bei demselben Konto angemeldet bist, mit dem der Kauf getätigt wurde
-3. Prüfe, ob das Store-Konto auf deinem Gerät das ist, mit dem du gekauft hast
+1. Schließ Cora Mobile ganz und öffne es wieder.
+2. Prüf, ob du mit demselben Konto angemeldet bist, mit dem du gekauft hast.
+3. Prüf, ob auf deinem Gerät das Store-Konto aktiv ist, mit dem du gekauft hast.
 
-Wenn es immer noch nicht erschienen ist, tippe auf **Käufe wiederherstellen**. Andernfalls schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit dem Kaufdatum.
+Taucht der Plan immer noch nicht auf, tippe auf **Käufe wiederherstellen**. Hilft auch das nicht, schreib eine E-Mail mit dem Kaufdatum an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

@@ -1,46 +1,46 @@
 ---
 title: Problar
-description: Kontrolcünüzün problarını Cora parametrelerine eşleyin ve kalibrasyon ile temizliği kaydedin.
+description: Kontrol ünitenizdeki probları Cora parametreleriyle eşleyin, kalibrasyon ve temizliği kaydedin.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 13
 group: Equipment
 ---
 
-Bir kontrolcü problarını kendi adlarıyla bildirir. Prob eşlemesi, Cora'ya bunlardan hangisinin pH probunuz, hangisinin sıcaklık olduğunu, vb. söyler.
+Kontrol ünitesi probları kendi verdiği adlarla bildirir. Prob eşlemesiyle Cora'ya hangisinin pH probu, hangisinin sıcaklık probu olduğunu ve diğerlerini söylersiniz.
 
 ## Probları eşleme
 
-**Akvaryum profilinizi** açın (panonun üstündeki kalem), kontrolcünüzün bölümünü genişletin ve **Prob Eşlemesi**'ni seçin.
+**Akvaryum profilinizi** açın (panonun üstündeki kalem simgesi). Kontrol ünitenizin bölümünü genişletin ve **Prob Eşlemesi**'ni seçin.
 
-![Prob eşlemesi](img/mobile-probes.webp "Kontrolcünüzün bildirdiği her prob, canlı okuması ve Cora'nın onunla ne yaptığı.")
+![Prob eşlemesi](img/mobile-probes.webp "Kontrol ünitenizin bildirdiği her prob, canlı ölçümü ve Cora'nın onu nasıl kullandığı.")
 
-Kontrolcünüzün bildirdiği her prob geçerli okumasıyla listelenir. Cora standart adları otomatik algılar ve satır hangisiyle eşleştiğini gösterir; bu yüzden buradaki iş genellikle hepsini elle eşlemek değil, yerleştiremediklerini düzeltmektir.
+Kontrol ünitenizin bildirdiği her prob, güncel ölçümüyle birlikte listelenir. Cora standart adları kendisi tanır ve her satırda neyle eşleştirdiğini gösterir. Bu yüzden hepsini elle eşlemeniz gerekmez. Genellikle Cora'nın tanıyamadıklarını düzeltmeniz yeterlidir.
 
-Her satır üç seçenek sunar:
+Her satırda üç seçenek var:
 
-- **Bir Cora parametresi**: o probun ölçtüğü metrik.
-- **Özel…**: Cora'nın standart bir parametresi olmayan bir prob için. Ona kısa büyük harfli bir simge verirsiniz ve o adla takip edilir.
+- **Cora parametresi**: probun ölçtüğü değer.
+- **Özel…**: Cora'da standart karşılığı olmayan problar için. Proba büyük harfle kısa bir kod verirsiniz, Cora onu bu adla takip eder.
 - **Yok say**: hiç kaydedilmesini istemediğiniz problar için.
 
-Yok sayılan veya eşlenmemiş bir prob panoda görünmez ve uyarıları beslemez.
+Yok sayılan ya da eşlenmemiş prob panoda görünmez ve uyarı üretmez.
 
-Eşlemeler bir sonraki okuma kaydedildiğinde etkiye girer, bu yüzden buradaki bir düzeltme geçmişi yeniden yazmaz; o noktadan sonra ne saklandığını değiştirir. Uygulamak için **Kaydet**'e basın.
+Eşlemeler bir sonraki ölçüm kaydından itibaren geçerli olur. Burada yaptığınız düzeltme geçmişi değiştirmez, yalnızca bundan sonra kaydedilenleri etkiler. Uygulamak için **Kaydet**'e dokunun.
 
-:::warning Eşlenmemiş bir prob Cora'ya görünmezdir
-Prob çalışırken bir parametre hiç okuma göstermiyorsa, her şeyden önce eşlemeyi kontrol edin.
+:::warning Cora eşlenmemiş probu görmez
+Prob çalıştığı hâlde bir parametrede hiç ölçüm görünmüyorsa ilk iş eşlemeyi kontrol edin.
 :::
 
-## Bir parametre için birden fazla prob
+## Aynı parametre için birden fazla prob
 
-İki sıcaklık probu olan bir sistem ikisini de eşleyebilir. Cora onları ayrı kaynaklar olarak tutar; widget'ın kaynak ayarı bir kutunun hangisini takip edeceğine karar verir ve [parametre görünümü](/help/mobile-metric-detail) onları karşılaştırmanızı sağlar.
+Sisteminizde iki sıcaklık probu varsa ikisini de eşleyebilirsiniz. Cora bunları ayrı kaynaklar olarak tutar. Bir kutucuğun hangisini izleyeceğini widget'ın kaynak ayarı belirler. İkisini [parametre ekranında](/help/mobile-metric-detail) karşılaştırabilirsiniz.
 
 ## Prob bakımını kaydetme
 
-Problar kayar. Cora, her birinin son ne zaman kalibre edildiğini veya temizlendiğini takip edebilir; böylece gerçek bir değişimi ilgi gerektiren bir probdan ayırt edebilirsiniz.
+Problar zamanla kayar. Cora her probun en son ne zaman kalibre edildiğini ya da temizlendiğini takip eder. Böylece gerçek bir değişimi, bakıma ihtiyacı olan bir probdan ayırt edebilirsiniz.
 
-Kalibrasyonu veya temizliği probun kaydından kaydedin. Tekrarlanan bir [bakım görevi](/help/mobile-maintenance) olarak da iyi uyar.
+Kalibrasyonu ya da temizliği probun kaydından girin. Bunu düzenli bir [bakım görevi](/help/mobile-maintenance) olarak da ekleyebilirsiniz.
 
-:::note Kalibrasyon geçmişi anlaşmazlıkları açıklar
-Bir prob ve bir test kiti anlaşmadığında, probun son ne zaman kalibre edildiği genellikle kontrol edilmeye değer ilk şeydir.
+:::note Kalibrasyon geçmişi farkları açıklar
+Probla test kiti farklı sonuç veriyorsa önce probun en son ne zaman kalibre edildiğine bakın.
 :::

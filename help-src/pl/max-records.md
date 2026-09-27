@@ -1,49 +1,49 @@
 ---
 title: Dziennik, obsada i konserwacja
-description: Ekrany zapisów na Cora Max i kiedy używać ich zamiast telefonu.
+description: Ekrany z zapisami na Cora Max i kiedy wygodniej użyć ich niż telefonu.
 section: Cora Max
 reviewed: 2026-09-09
 order: 8
 group: Records
 ---
 
-Cora Max pokazuje te same zapisy co telefon, ale nie jest pełnym edytorem dla wszystkich z nich. To, co możesz zrobić przy ścianie, różni się w zależności od obszaru:
+Cora Max pokazuje te same zapisy co telefon, ale nie wszystkie da się na nim w pełni edytować. Co możesz zrobić na Cora Max, zależy od obszaru:
 
 | Obszar | Na Cora Max |
 |---|---|
 | **Dziennik** | Czytanie i dodawanie wpisów |
 | **Odczyty** | Zapisywanie wyników testów na klawiaturze ekranowej |
-| **Konserwacja** | Zakończenie albo wyciszenie zadania. Tworzenie i edytowanie zadań odbywa się na telefonie |
-| **Obsada** | Tylko do odczytu. Dodawanie i edytowanie na telefonie |
+| **Konserwacja** | Oznaczanie zadania jako wykonanego albo odkładanie go. Zadania tworzysz i edytujesz na telefonie |
+| **Obsada** | Tylko do odczytu. Dodajesz i edytujesz ją na telefonie |
 
-Wszystko, co tutaj dodasz, pojawia się na Twoim telefonie natychmiast, i w drugą stronę.
+Wszystko, co tu dodasz, od razu pojawi się na telefonie, i odwrotnie.
 
-Dostęp do wszystkich znajdziesz w **menu akwarium**: dotknij nazwy akwarium na górnym pasku.
+Wszystkie te ekrany znajdziesz w **menu akwarium**. Dotknij nazwy akwarium na górnym pasku.
 
-![Konserwacja na Cora Max](img/max-records.webp "Zadania do wykonania, z Snooze i Done na każdym, i co zostało niedawno zakończone.")
+![Konserwacja na Cora Max](img/max-records.webp "Zadania do zrobienia, każde z przyciskami Odłóż i Gotowe, oraz ostatnio wykonane zadania.")
 
 ## Dziennik
 
-Dodaj wpis bez odchodzenia od akwarium. To jest zwykle wygodniejsze z tych dwóch; ekran ścienny jest tam, gdzie stojisz, gdy wykonujesz pracę.
+Wpis dodasz bez odchodzenia od akwarium. Zwykle tak jest wygodniej, bo ekran na ścianie masz obok siebie, gdy pracujesz przy akwarium.
 
-Dostęp do niego znajdziesz w **menu akwarium** (dotknij nazwy akwarium na górnym pasku), a potem użyj **+**, aby dodać wpis, albo powiedz *"Hey Cora, zapisz, że nakarmiłem mizisem."* Zobacz [Dziennik](/help/mobile-journal).
+Otwórz **menu akwarium** (dotknij nazwy akwarium na górnym pasku) i dotknij **+**, żeby dodać wpis. Możesz też powiedzieć *„Hey Cora, zapisz karmienie mysis”*. Więcej w [Dziennik](/help/mobile-journal).
 
-:::note Nie ma ikony dziennika na górnym pasku
-Ikona przy ikonie urządzeń to **Reef Buddy**, i jej punkt znaczy, że dzisiejszy briefing jest nieprzeczytany. Wpisy dziennika są dodawane z menu akwarium albo głosem.
+:::note Na górnym pasku nie ma ikony dziennika
+Ikona obok ikony urządzeń to **Reef Buddy**. Kropka przy niej oznacza, że dzisiejszy briefing nie został jeszcze przeczytany. Wpisy do dziennika dodajesz z menu akwarium albo głosem.
 :::
 
 ## Obsada
 
-Cały inwentarz, pogrupowany według typu, z tymi samymi statusami co telefon, **tutaj tylko do odczytu**. Dodawanie i edytowanie obsady odbywa się w Cora Mobile; wpis, który tam zrobisz, pojawia się na tym ekranie od razu. Zobacz [Obsada](/help/mobile-livestock).
+Tu jest cała obsada, pogrupowana według typu, z tymi samymi statusami co na telefonie. Na Cora Max jest **tylko do odczytu**. Obsadę dodajesz i edytujesz w Cora Mobile, a nowy wpis od razu pojawia się na tym ekranie. Więcej w [Obsada](/help/mobile-livestock).
 
 ## Konserwacja
 
-Lista zadań z jej wskaźnikiem zgodności i liczbą zaległych oraz możliwość oznaczenia zadania jako wykonane, gdy je kończysz. Zobacz [Konserwacja](/help/mobile-maintenance).
+Tu jest lista zadań ze wskaźnikiem regularności i liczbą zaległych zadań. Zadanie możesz oznaczyć jako wykonane, gdy tylko je skończysz. Więcej w [Konserwacja](/help/mobile-maintenance).
 
 ## Zapisywanie odczytów
 
-Cora Max ma klawiaturę ekranową do wpisywania wyników testów bezpośrednio, więc test wykonany przy akwarium może być zapisany przy akwarium.
+Cora Max ma klawiaturę ekranową, więc wynik testu zrobionego przy akwarium zapiszesz od razu na miejscu.
 
-:::note Zapisy są wspólne, nie zduplikowane
-Jest jeden dziennik, jeden inwentarz obsady i jedna lista konserwacji na akwarium. Cora Max i Twój telefon to dwa widoki tych samych zapisów.
+:::note Jedne zapisy, dwa widoki
+Każde akwarium ma jeden dziennik, jedną listę obsady i jedną listę konserwacji. Cora Max i telefon pokazują te same zapisy.
 :::

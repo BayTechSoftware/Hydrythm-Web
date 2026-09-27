@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Actividad y línea de tiempo | Cora Help</title>
-  <meta name="description" content="Todo lo que le ha pasado a tu equipo, y qué lo causó.">
+  <meta name="description" content="Todo lo que ha pasado con tus equipos y qué lo provocó.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-activity">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-activity">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-activity">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Actividad y línea de tiempo | Cora Help">
-  <meta property="og:description" content="Todo lo que le ha pasado a tu equipo, y qué lo causó.">
+  <meta property="og:description" content="Todo lo que ha pasado con tus equipos y qué lo provocó.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-activity">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,25 +168,25 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Actividad y línea de tiempo</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#qu-se-registra">Qué se registra</a></li><li><a href="#qu-la-caus">Qué la causó</a></li><li><a href="#cmo-viaj">Cómo viajó</a></li><li><a href="#la-lnea-de-tiempo-del-acuario">La línea de tiempo del acuario</a></li></ul></nav>
-<p>Actividad registra cada <strong>solicitud de actuación</strong> (cada intento de cambiar algo) junto con qué la pidió y qué pasó con ella.</p>
-<p>Una solicitud no es lo mismo que un cambio. Las solicitudes rechazadas no se ejecutaron, con una excepción: una entrada que dice <em>Ningún dispositivo respondió a tiempo</em> puede haberse ejecutado igualmente, así que revisa el equipo antes de repetirla. Las solicitudes sin cambios encontraron el equipo ya como se pedía, y una sin confirmar puede o no haber llegado al dispositivo. Todas se registran.</p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#qu-se-registra">Qué se registra</a></li><li><a href="#qu-la-provoc">Qué la provocó</a></li><li><a href="#por-dnde-lleg">Por dónde llegó</a></li><li><a href="#la-lnea-de-tiempo-del-acuario">La línea de tiempo del acuario</a></li></ul></nav>
+<p>Actividad guarda cada <strong>solicitud de actuación</strong>, es decir, cada intento de cambiar algo. Para cada una ves qué la pidió y qué pasó con ella.</p>
+<p>Una solicitud no es lo mismo que un cambio. Las solicitudes rechazadas no se ejecutaron, con una excepción. Si una entrada dice <em>Ningún dispositivo respondió a tiempo</em>, puede que sí se ejecutara, así que revisa el equipo antes de repetirla. En una solicitud sin cambios, el equipo ya estaba como se pedía. Una solicitud sin confirmar puede haber llegado al dispositivo o no. Todas quedan registradas.</p>
 <p><strong>Ajustes → Actividad.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El registro de actividad"><img src="/help/img/mobile-activity.webp" alt="El registro de actividad" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Cada acción, con la superficie que la solicitó.</figcaption></figure>
 <h2 id="qu-se-registra">Qué se registra</h2>
-<p>Cada <strong>solicitud</strong>, no solo las que funcionaron: cambios de estado de tomas, ciclos de alimentación, dosis, cambios de enchufe, y cualquier cosa que hiciera una escena o una automatización.</p>
-<p>Una solicitud que fue <strong>rechazada</strong>, que <strong>no produjo cambios</strong>, o que salió y volvió <strong>sin confirmar</strong> se registra igual que una ejecutada. Ese es el propósito: una orden que en silencio no hizo nada es exactamente lo que quieres encontrar aquí.</p>
-<h2 id="qu-la-caus">Qué la causó</h2>
-<p>Cada entrada nombra su causa:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Causa</th><th>Significa</th></tr></thead><tbody><tr><td data-th="Causa"><strong>Esta aplicación</strong></td><td data-th="Significa">La tocaste aquí</td></tr><tr><td data-th="Causa"><strong>Voz en esta aplicación</strong></td><td data-th="Significa">La pediste, en este teléfono</td></tr><tr><td data-th="Causa"><strong>Toque en un Cora</strong></td><td data-th="Significa">Alguien usó una pantalla Cora; la fila indica cuál</td></tr><tr><td data-th="Causa"><strong>Voz en un Cora Max</strong></td><td data-th="Significa">Alguien le habló a una pantalla</td></tr><tr><td data-th="Causa"><strong>Cora Assistant</strong></td><td data-th="Significa">Le pediste a Cora que lo hiciera</td></tr><tr><td data-th="Causa"><strong>Regla de automatización</strong></td><td data-th="Significa">Se activó una regla</td></tr><tr><td data-th="Causa"><strong>Botón inteligente</strong></td><td data-th="Significa">Se pulsó un botón físico</td></tr><tr><td data-th="Causa"><strong>Enviado desde Cora Cloud</strong></td><td data-th="Significa">Emitido por tu cuenta en lugar de por un dispositivo delante de ti</td></tr><tr><td data-th="Causa"><strong>Origen desconocido</strong></td><td data-th="Significa">Registrado antes de poder identificar el origen</td></tr></tbody></table></div>
-<h2 id="cmo-viaj">Cómo viajó</h2>
-<p>Cada fila también lleva un chip de ruta, porque <em>cómo</em> llegó una solicitud a tu equipo explica buena parte de lo que salió mal cuando algo lo hizo:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Chip</th><th>Significa</th></tr></thead><tbody><tr><td data-th="Chip"><strong>LAN</strong></td><td data-th="Significa">Enviado por tu propia red, directamente al equipo</td></tr><tr><td data-th="Chip"><strong>VÍA LA NUBE</strong></td><td data-th="Significa">Enviado a través de tu cuenta, para equipo no accesible directamente</td></tr><tr><td data-th="Chip"><strong>¿RUTA?</strong></td><td data-th="Significa">Registrado antes de que se hiciera seguimiento de las rutas: realmente desconocido, no supuesto</td></tr></tbody></table></div>
-<p>En un sistema con más de un Cora, la fila también indica cuál llevó a cabo la solicitud.</p>
+<p>Se registran todas las <strong>solicitudes</strong>, también las que no funcionaron. Eso incluye encender o apagar tomas, ciclos de alimentación, dosis, cambios de enchufe y todo lo que haya hecho una escena o una automatización.</p>
+<p>Una solicitud <strong>rechazada</strong>, <strong>sin cambios</strong> o que volvió <strong>sin confirmar</strong> se registra igual que una que se ejecutó. Una orden que no hizo nada sin avisar es justo lo que te interesa encontrar aquí.</p>
+<h2 id="qu-la-provoc">Qué la provocó</h2>
+<p>Cada entrada indica su origen:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Origen</th><th>Qué significa</th></tr></thead><tbody><tr><td data-th="Origen"><strong>Esta aplicación</strong></td><td data-th="Qué significa">La tocaste aquí</td></tr><tr><td data-th="Origen"><strong>Voz en esta aplicación</strong></td><td data-th="Qué significa">La pediste con la voz en este teléfono</td></tr><tr><td data-th="Origen"><strong>Toque en un Cora</strong></td><td data-th="Qué significa">Alguien usó una pantalla Cora. La fila indica cuál</td></tr><tr><td data-th="Origen"><strong>Voz en un Cora Max</strong></td><td data-th="Qué significa">Alguien le habló a una pantalla</td></tr><tr><td data-th="Origen"><strong>Cora Assistant</strong></td><td data-th="Qué significa">Le pediste a Cora que lo hiciera</td></tr><tr><td data-th="Origen"><strong>Regla de automatización</strong></td><td data-th="Qué significa">Se activó una regla</td></tr><tr><td data-th="Origen"><strong>Botón inteligente</strong></td><td data-th="Qué significa">Alguien pulsó un botón físico</td></tr><tr><td data-th="Origen"><strong>Enviado desde Cora Cloud</strong></td><td data-th="Qué significa">Lo envió tu cuenta, no un dispositivo que tengas delante</td></tr><tr><td data-th="Origen"><strong>Origen desconocido</strong></td><td data-th="Qué significa">Se registró antes de que se pudiera identificar el origen</td></tr></tbody></table></div>
+<h2 id="por-dnde-lleg">Por dónde llegó</h2>
+<p>Cada fila lleva también una etiqueta de ruta. Saber <em>cómo</em> llegó una solicitud a tu equipo ayuda mucho a entender qué falló cuando algo sale mal:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Etiqueta</th><th>Qué significa</th></tr></thead><tbody><tr><td data-th="Etiqueta"><strong>LAN</strong></td><td data-th="Qué significa">Se envió por tu propia red, directamente al equipo</td></tr><tr><td data-th="Etiqueta"><strong>VÍA LA NUBE</strong></td><td data-th="Qué significa">Se envió a través de tu cuenta porque no se podía llegar al equipo directamente</td></tr><tr><td data-th="Etiqueta"><strong>¿RUTA?</strong></td><td data-th="Qué significa">Se registró antes de que se guardaran las rutas. No se sabe, y Cora no lo supone</td></tr></tbody></table></div>
+<p>Si tienes más de un Cora, la fila también indica cuál de ellos hizo la solicitud.</p>
 <h2 id="la-lnea-de-tiempo-del-acuario">La línea de tiempo del acuario</h2>
-<p>Aparte de las acciones sobre el equipo, cada acuario tiene una <strong>línea de tiempo</strong>: lecturas, alertas, entradas del diario, resultados de ICP y cambios de fauna, ordenados en el tiempo.</p>
-<p>Usa actividad cuando te preguntes <em>"¿qué hizo algo?"</em> y la línea de tiempo cuando te preguntes <em>"¿qué estaba pasando alrededor de esta fecha?"</em></p>
-<aside class="cal cal-note"><p class="cal-t">La línea de tiempo y el diario son complementarios</p><p>La línea de tiempo guarda lo que registró Cora; el <a href="/es/help/mobile-journal">diario</a> guarda lo que hiciste tú. Leídos juntos establecen causa y efecto alrededor de una fecha dada.</p></aside>
+<p>Además de las acciones sobre los equipos, cada acuario tiene una <strong>línea de tiempo</strong>. En ella ves por orden las lecturas, las alertas, las entradas del diario, los resultados de ICP y los cambios de fauna.</p>
+<p>Usa Actividad cuando quieras saber <em>"¿qué hizo este equipo?"</em>. Usa la línea de tiempo cuando quieras saber <em>"¿qué estaba pasando por estas fechas?"</em>.</p>
+<aside class="cal cal-note"><p class="cal-t">La línea de tiempo y el diario se complementan</p><p>La línea de tiempo guarda lo que registró Cora. El <a href="/es/help/mobile-journal">diario</a> guarda lo que hiciste tú. Si los lees juntos, verás qué causó qué alrededor de una fecha.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-journal"><span>Anterior</span><b>El diario</b></a><a class="pn-n" href="/es/help/mobile-assistant"><span>Siguiente</span><b>Preguntar a Cora</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-09.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

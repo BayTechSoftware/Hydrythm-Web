@@ -1,78 +1,78 @@
 ---
 title: Configurar Cora Max
-description: Primer arranque, conexión al Wi-Fi, emparejamiento con tu cuenta y cómo llevar tus acuarios a la pantalla grande.
+description: El primer arranque, la conexión Wi-Fi, el emparejamiento con tu cuenta y cómo llevar tus acuarios a la pantalla grande.
 section: Cora Max
 reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
 
-Cora Max es el centro de mando del cuarto de acuarios: una pantalla de pared que muestra tu sistema en vivo, legible desde el otro lado de la sala, y que también responde por voz.
+Cora Max es el centro de mando de tu cuarto de acuarios. Es una pantalla de pared que muestra tu sistema en directo, se lee desde el otro lado de la habitación y además entiende la voz.
 
-:::tip Configura tus acuarios primero en tu teléfono
-Cora Max muestra los acuarios y dispositivos de tu cuenta, así que si los configuras primero en Cora Mobile, la unidad los recoge en el momento en que la emparejas y evitas escribir en una pared.
+:::tip Configura primero tus acuarios en el teléfono
+Cora Max muestra los acuarios y dispositivos de tu cuenta. Si los configuras antes en Cora Mobile, aparecen en cuanto emparejas el Cora Max y no tienes que escribir en la pared.
 
-**Los diseños de panel son la excepción**; no se heredan. Cada pantalla mantiene el suyo, así que ordenas este después de emparejar. Consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
+Los diseños de panel son la excepción, porque no se copian. Cada pantalla tiene el suyo, así que este lo colocas después de emparejar. Consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
 :::
 
 ## Qué necesitas
 
-- Cora Max, encendido
+- Cora Max encendido
 - El nombre y la contraseña de tu red Wi-Fi
-- La cuenta que usas para Cora Mobile
+- La cuenta que usas en Cora Mobile
 
-## La configuración se dirige desde tu teléfono
+## La configuración se hace desde el teléfono
 
-Enciende la unidad. Muestra una pantalla de emparejamiento y **se anuncia**; no te pide que escribas nada.
+Enciende Cora Max. Aparece una pantalla de emparejamiento y el Cora Max **se da a conocer** por sí solo. No tienes que escribir nada en él.
 
-![La pantalla de emparejamiento de Cora Max](img/max-pairing-screen.webp "La pantalla se nombra a sí misma para que puedas elegir la correcta desde tu teléfono.")
+![La pantalla de emparejamiento de Cora Max](img/max-pairing-screen.webp "La pantalla muestra su nombre para que elijas la correcta desde el teléfono.")
 
-La pantalla muestra el nombre con el que es detectable, terminado en un identificador corto. Si estás emparejando más de una unidad, ese identificador es cómo las distingues en la lista de tu teléfono.
+En la pantalla ves el nombre con el que aparece, que termina en un código corto. Si vas a emparejar varios, ese código te sirve para distinguirlos en la lista del teléfono.
 
-Todo lo demás pasa en Cora Mobile, en cinco pasos con nombre que puedes ver en la parte superior de la hoja: **Conectar · Wi-Fi · Autenticación · Acuarios · Listo.**
+Todo lo demás se hace en Cora Mobile, en cinco pasos que ves arriba en la hoja: **Conectar · Wi-Fi · Autenticación · Acuarios · Listo.**
 
-**1 · Conectar.** **Dispositivos → Agregar dispositivo** en tu teléfono encuentra la unidad y muestra lo que encontró (su dirección MAC, versión de firmware, variante y revisión de hardware) para que confirmes que es la correcta antes de continuar.
+**1 · Conectar.** En el teléfono, **Dispositivos → Agregar dispositivo** encuentra el Cora Max y te enseña lo que ha encontrado (dirección MAC, versión de firmware, variante y revisión de hardware). Así compruebas que es el correcto antes de seguir.
 
-**2 · Wi-Fi.** Elige tu red de la lista, o **Volver a buscar**, y luego introduce la contraseña. La escribes en el teclado de un teléfono en lugar de en una pantalla de pared.
+**2 · Wi-Fi.** Elige tu red en la lista, o toca **Volver a buscar**, y escribe la contraseña. La escribes con el teclado del teléfono, no en la pantalla de pared.
 
-**3 · Autenticación.** Tu teléfono autoriza la unidad frente a tu cuenta. Cora Max muestra su propio progreso mientras esto ocurre.
+**3 · Autenticación.** El teléfono autoriza el Cora Max con tu cuenta. Mientras tanto, Cora Max muestra su propio progreso.
 
-![Cora Max durante el emparejamiento](img/max-pairing-verifying.webp "La pantalla sigue la comprobación de la cuenta mientras tu teléfono la dirige.")
+![Cora Max durante el emparejamiento](img/max-pairing-verifying.webp "La pantalla sigue la comprobación de la cuenta mientras el teléfono la dirige.")
 
-**4 · Acuarios.** Elige qué acuarios gestiona esta pantalla, **hasta cuatro**. Cada uno se lista con su nombre y tipo.
+**4 · Acuarios.** Elige qué acuarios va a mostrar esta pantalla, **hasta cuatro**. Cada uno aparece con su nombre y su tipo.
 
-**5 · Listo.** La pantalla confirma que está aprovisionada y te da un **PIN de recuperación**.
+**5 · Listo.** La pantalla confirma que ya está configurada y te da un **PIN de recuperación**.
 
-:::warning Anota el PIN de recuperación
-El último paso muestra un **PIN de recuperación** de seis cifras, y es la única forma de entrar en recuperación en esa unidad. Para usarlo: mantén cinco dedos en la esquina superior derecha de la pantalla durante diez segundos, y luego introduce el PIN. Puedes volver a encontrarlo más tarde en los ajustes de ese dispositivo en tu teléfono, pero no en el propio Cora Max.
+:::warning Apunta el PIN de recuperación
+El último paso muestra un **PIN de recuperación** de seis cifras. Es la única forma de entrar en recuperación en ese Cora Max. Para usarlo, mantén cinco dedos en la esquina superior derecha de la pantalla durante diez segundos y escribe el PIN. Más adelante lo puedes volver a ver en los ajustes de ese dispositivo en el teléfono, pero no en el propio Cora Max.
 :::
 
-:::note El emparejamiento es lo que vincula la pantalla contigo
-Una vez emparejado, Cora Max ve los mismos acuarios, dispositivos, lecturas y registros que tu teléfono. **Los diseños de panel no se heredan**; Cora Max construye el suyo a partir de tu perfil del acuario, y lo ordenas por separado.
+:::note El emparejamiento une la pantalla a tu cuenta
+Una vez emparejado, Cora Max ve los mismos acuarios, dispositivos, lecturas y registros que tu teléfono. **Los diseños de panel no se copian.** Cora Max crea el suyo a partir del perfil de tu acuario y tú lo colocas aparte.
 :::
 
-Sigue las instrucciones en pantalla para vincularlo a tu cuenta. Cora Mobile confirmará cuando el emparejamiento tenga éxito.
+Sigue las instrucciones de la pantalla para vincularlo a tu cuenta. Cora Mobile te avisará cuando el emparejamiento haya terminado bien.
 
-:::note Una cuenta, muchas pantallas
-Puedes emparejar más de un Cora Max con la misma cuenta (uno en el cuarto de acuarios, otro en otro lugar), y cada uno puede mostrar un conjunto distinto de acuarios y su propio diseño de panel. Cuando dos muestran el mismo acuario, consulta [Controlar equipos desde Cora Max](/help/max-device-control) para saber qué puede hacer el segundo con su equipo.
+:::note Una cuenta, varias pantallas
+Puedes emparejar más de un Cora Max con la misma cuenta (uno en el cuarto de acuarios y otro en otro sitio). Cada uno puede mostrar sus propios acuarios y tener su propio diseño de panel. Si dos muestran el mismo acuario, en [Controlar equipos desde Cora Max](/help/max-device-control) verás qué puede hacer el segundo con los equipos.
 :::
 
 ## Cambiar qué acuarios muestra
 
-La asignación de acuarios pertenece al emparejamiento, y se cambia desde **tu teléfono**; abre la unidad en **Dispositivos** y edita sus acuarios asignados. No se cambia desde los propios ajustes del Max.
+Los acuarios asignados forman parte del emparejamiento y se cambian desde **el teléfono**. Abre el Cora Max en **Dispositivos** y edita sus acuarios. No se cambian desde los ajustes del propio Cora Max.
 
 ## Crear el panel
 
-Cora Max crea su propio diseño inicial a partir de tu perfil del acuario; **no** copia el de tu teléfono. Para cambiarlo, la vía más fácil es desde tu teléfono: **Dispositivos → tu Cora Max → Editar panel**, que es más rápido que ordenar casillas en una pared.
+Cora Max crea su diseño inicial a partir del perfil de tu acuario. **No** copia el del teléfono. Para cambiarlo, lo más fácil es hacerlo desde el teléfono en **Dispositivos → tu Cora Max → Editar panel**, que es más rápido que colocar casillas en la pared.
 
-El panel de pantalla grande funciona distinto que el del teléfono, una cuadrícula fija que tiene que encajar toda en una pantalla. Consulta **[Editar el panel de Cora Max](/help/max-dashboard-editing)**.
+El panel de la pantalla grande funciona distinto que el del teléfono. Es una cuadrícula fija que tiene que caber entera en una pantalla. Consulta **[Editar el panel de Cora Max](/help/max-dashboard-editing)**.
 
 ## Actualizaciones
 
-Cora Max se actualiza solo. Cuando hay una versión nueva disponible, se descarga en segundo plano y se aplica, y te dice qué cambió.
+Cora Max se actualiza solo. Cuando hay una versión nueva, la descarga en segundo plano, la instala y te cuenta qué ha cambiado.
 
-Puedes comprobar en qué versión estás en **Ajustes → Cora Max**.
+Para ver qué versión tienes, ve a **Ajustes → Cora Max**.
 
-## Cambiarlo a una red distinta
+## Cambiar de red
 
-**Ajustes → Cora Max → Red → Wi-Fi.** Elige la nueva red e introduce la contraseña. El emparejamiento sobrevive al cambio; no necesitas configurar la pantalla de nuevo.
+Ve a **Ajustes → Ajustes de Cora Max → Wi-Fi**, elige la red nueva y escribe la contraseña. El emparejamiento se mantiene y no tienes que volver a configurar la pantalla.

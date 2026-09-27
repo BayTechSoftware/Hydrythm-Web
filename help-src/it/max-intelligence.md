@@ -1,46 +1,46 @@
 ---
 title: Reef Buddy e rapporti
-description: Il briefing giornaliero, i risultati ICP, i rapporti di salute e i grafici storici su Cora Max.
+description: Il briefing del giorno, i risultati ICP, i rapporti di salute e i grafici storici su Cora Max.
 section: Cora Max
 reviewed: 2026-09-17
 order: 9
 group: Intelligence
 ---
 
-Cora Max mostra la stessa intelligence del telefono, su uno schermo grande abbastanza da leggere a distanza. Raggiungi queste sezioni dal **menu della vasca**: tocca il nome della vasca nella barra superiore.
+Cora Max mostra le stesse analisi del telefono, su uno schermo abbastanza grande da leggerle a distanza. Ci arrivi dal **menu della vasca**: tocca il nome della vasca nella barra in alto.
 
-![Reef Buddy su Cora Max](img/max-intelligence.webp "Il briefing a piena dimensione.")
+![Reef Buddy su Cora Max](img/max-intelligence.webp "Il briefing a schermo intero.")
 
 ## Reef Buddy
 
-Il briefing giornaliero appare sulla dashboard e ha una propria schermata a piena grandezza: i punteggi Stabilità e Dati, il riepilogo, e gli insight dietro di essi.
+Il briefing del giorno compare sulla dashboard e ha anche una sua schermata intera. Lì trovi i punteggi Stabilità e Dati, il riepilogo e gli insight da cui nascono.
 
-Vedi [Reef Buddy](/help/mobile-reef-buddy) per cosa significano i punteggi.
+Cosa vogliono dire i punteggi lo spiega la pagina [Reef Buddy](/help/mobile-reef-buddy).
 
 ## Risultati ICP
 
-![Rapporti ICP su Cora Max](img/max-icp.webp "Ogni risultato caricato, con il suo punteggio.")
+![Rapporti ICP su Cora Max](img/max-icp.webp "Tutti i risultati caricati, ognuno con il suo punteggio.")
 
-I tuoi risultati caricati, con il punteggio e il riepilogo per ognuno, e le tendenze attraverso ogni rapporto.
+Qui vedi i risultati che hai caricato, ognuno con punteggio e riepilogo, e l'andamento da un rapporto all'altro.
 
-Il punteggio su 100 viene calcolato dai tuoi risultati rispetto ai loro intervalli. Qualsiasi parametro fuori intervallo lo mantiene a 70 o sotto, e uno molto fuori intervallo lo mantiene a 40 o sotto. Il suo colore dà la fascia: verde (sano) sopra 70, ambra (richiede attenzione) da 40 a 70, e rosso (critico) sotto 40.
+Il punteggio su 100 si calcola confrontando i tuoi risultati con i loro intervalli. Basta un parametro fuori intervallo per tenerlo a 70 o meno, e uno molto fuori intervallo lo tiene a 40 o meno. Il colore indica la fascia: verde (sano) sopra 70, ambra (da tenere d'occhio) da 40 a 70 e rosso (critico) sotto 40.
 
-Caricare un risultato si fa dal telefono; vedi [ICP e rapporti di salute](/help/mobile-icp-health).
+I risultati si caricano dal telefono. Trovi come fare in [ICP e rapporti di salute](/help/mobile-icp-health).
 
 ## Rapporti di salute
 
-Esegui e leggi un rapporto di salute alla parete. È la stessa valutazione che produce il telefono, e il suo punteggio viene calcolato allo stesso modo di un punteggio ICP.
+Puoi avviare e leggere un rapporto di salute anche dallo schermo a parete. È la stessa valutazione che fa il telefono, e il punteggio si calcola come quello ICP.
 
 ## Grafici storici
 
-Qualsiasi parametro può essere aperto come grafico a piena schermo, sugli stessi periodi del telefono. Su un display a parete questo è il modo più utile per osservare una deriva lenta; un mese di alcalinità a piena schermo mostra una tendenza che un piccolo riquadro non può.
+Ogni parametro si apre come grafico a schermo intero, con gli stessi periodi del telefono. Su uno schermo a parete è il modo migliore per vedere una deriva lenta. Un mese di alcalinità a schermo intero mostra un andamento che un riquadro piccolo non fa vedere.
 
-I chip scelgono quali letture mostrare: **Tutte**, **Apex**, **Manuale**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. Ogni fonte ha il proprio colore, e i chip fungono anche da legenda. I punti ReefBeat e AquaWiz sono disegnati come quadrati, e le letture prese da qualcuno (Manuale e ICP) come punti più grandi. **Tutte** mostra ogni fonte fianco a fianco e non fa mai la media delle letture di una fonte con quelle di un'altra.
+Con i filtri scegli quali letture mostrare: **Tutti**, **Apex**, **Manuale**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. Ogni fonte ha il suo colore, e i filtri fanno anche da legenda. I punti ReefBeat e AquaWiz sono quadrati, mentre le letture prese a mano (Manuale e ICP) sono punti più grandi. **Tutti** mostra le fonti una accanto all'altra e non fa mai la media tra letture di fonti diverse.
 
 ## Percorsi guidati
 
-Puoi seguire un percorso su Cora Max e vedere a che punto è arrivato.
+Su Cora Max puoi seguire un percorso e vedere a che punto sei.
 
-**Anche un percorso di ciclaggio prende letture qui**; **Registra un test** sulla schermata di ciclaggio registra ammoniaca, nitrito e nitrato senza andare al tuo telefono, che è il punto quando sei in piedi davanti alla vasca con un kit di test.
+**Nel percorso di ciclaggio puoi anche registrare le letture da qui.** Con **Registra un test** nella schermata di ciclaggio salvi ammoniaca, nitriti e nitrati senza prendere il telefono. Comodo quando sei davanti alla vasca con il kit dei test in mano.
 
-Un percorso per **problemi** è di sola lettura alla parete: avviarne uno, completare un passo, registrare un risultato, e risolverlo o ignorarlo si fanno sul telefono. Vedi [Percorsi guidati](/help/mobile-journeys).
+Un percorso per un **problema** sullo schermo a parete si può solo leggere. Avviarlo, completare un passo, registrare un esito, chiuderlo o ignorarlo si fa dal telefono. Trovi di più in [Percorsi guidati](/help/mobile-journeys).

@@ -1,97 +1,97 @@
 ---
 title: Leer tu panel
-description: Cómo leer el panel de Cora: widgets, actualidad, fuentes y qué significan los colores.
+description: Cómo leer el panel de Cora: widgets, antigüedad de las lecturas, fuentes y significado de los colores.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 5
 group: Your dashboard
 ---
 
-El panel es una cuadrícula de **widgets**, cada uno mostrando una cosa sobre un acuario. Qué hay en él depende totalmente de ti; consulta **[Editar tu panel](/help/mobile-dashboard-editing)**.
+El panel es una cuadrícula de **widgets**. Cada uno muestra un dato de un acuario, y tú decides qué widgets pones. Más información en **[Editar tu panel](/help/mobile-dashboard-editing)**.
 
-![Un panel de Cora Mobile](img/mobile-dashboard.webp "Medidores, números, tendencias y controles en una pantalla.")
+![Un panel de Cora Mobile](img/mobile-dashboard.webp "Medidores, números, tendencias y controles en una sola pantalla.")
 
 ## La cabecera del acuario
 
-En la parte superior de cada panel:
+Arriba del todo, en cada panel, tienes:
 
-- **El nombre del acuario**, con un pequeño icono junto a él: eso es un **renombrado rápido**, nada más
-- **Alimentar**: pausa el flujo y el skimming para una alimentación, y luego lo devuelve todo a su estado
+- **El nombre del acuario**, con un pequeño icono al lado. Ese icono es para **cambiar el nombre** y nada más
+- **Alimentar**: detiene el caudal y el skimmer durante la alimentación y luego lo deja todo como estaba
 - **Reef Buddy**: abre el resumen de esta mañana
-- **Compartir**: envía una instantánea del panel
-- **El lápiz a la derecha**: abre [el perfil del acuario](/help/mobile-tank-profile)
+- **Compartir**: envía una captura del panel
+- **El lápiz de la derecha**: abre [el perfil del acuario](/help/mobile-tank-profile)
 
-:::note Tres controles parecidos, tres destinos
-El icono junto al nombre renombra el acuario. El lápiz a la derecha abre el **perfil** del acuario. Editar el propio panel no es ninguno de los dos; es **Editar panel**, al *pie* del panel, debajo de los widgets.
+:::note Tres botones parecidos que hacen cosas distintas
+El icono junto al nombre cambia el nombre del acuario. El lápiz de la derecha abre el **perfil** del acuario. Para editar el panel en sí, usa **Editar panel**, que está al *final* del panel, debajo de los widgets.
 :::
 
-Con más de un acuario, desliza hacia los lados para moverte entre ellos.
+Si tienes más de un acuario, desliza hacia los lados para pasar de uno a otro.
 
 ## La tarjeta de Reef Buddy
 
-Debajo de la cabecera, una tarjeta resume el resumen más reciente: un titular, sus puntuaciones de **Estabilidad** y **Datos**, y el número de análisis. Tócala para abrir el resumen completo, o descártala con **×**. Aparece una tarjeta nueva con el siguiente resumen.
+Debajo de la cabecera hay una tarjeta con el último resumen. Muestra un titular, las puntuaciones de **Estabilidad** y **Datos** y el número de análisis. Tócala para abrir el resumen completo o ciérrala con **×**. Con el siguiente resumen aparece una tarjeta nueva.
 
 ## Cómo leer un widget de parámetro
 
-Un widget que muestra un **parámetro medido** lleva las mismas tres cosas en los mismos lugares. Las casillas de dispositivo y control (una toma, una unidad de dosificación, una bomba) muestran su propio estado en su lugar, porque no hay una sola lectura detrás de ellas.
+Los widgets de un **parámetro medido** muestran siempre tres cosas en el mismo sitio. Las casillas de dispositivos y controles (una toma, una unidad de dosificación, una bomba) muestran su estado, porque no dependen de una sola lectura.
 
-**El valor** es la lectura en sí, grande y central.
+**El valor** es la lectura, en grande y en el centro.
 
-**La antigüedad** está debajo o al lado: `now`, `1h`, `2d`. Es cuánto hace que se tomó la lectura, no cuánto hace que se actualizó la pantalla. Un número que no se ha movido en dos días dice `2d`, y eso es información.
+**La antigüedad** aparece debajo o al lado: `now`, `1h`, `2d`. Indica cuánto hace que se tomó la lectura, no cuándo se actualizó la pantalla. Si un número lleva dos días sin cambiar, verás `2d`, y eso también te dice algo.
 
-**La insignia de fuente** es la pequeña marca junto a la antigüedad. Te indica de dónde vino el número: una sonda, un controlador, un resultado de laboratorio, o tú con un kit de pruebas. Toca cualquier widget para ver la fuente detallada junto con su historial reciente.
+**La insignia de fuente** es la pequeña marca junto a la antigüedad. Indica de dónde viene el número: una sonda, un controlador, un resultado de laboratorio o tu propio kit de pruebas. Toca cualquier widget para ver la fuente con detalle y su historial reciente.
 
-:::note Por qué importa tanto la antigüedad
-Una lectura de alcalinidad perfecta de hace cuatro días no es una lectura de alcalinidad actual. La antigüedad está junto a cada valor para que puedas notar la diferencia de un vistazo.
+:::note La antigüedad importa
+Una lectura de alcalinidad perfecta de hace cuatro días no es tu alcalinidad de hoy. Por eso cada valor lleva su antigüedad al lado, para que lo veas de un vistazo.
 :::
 
 ## Colores
 
-Cora usa el color con moderación, y siempre para significar lo mismo:
+Cora usa pocos colores, y cada uno significa siempre lo mismo:
 
 | Color | Significado |
 |---|---|
-| Verde | Cómodamente dentro del rango para este parámetro |
-| Ámbar | Cerca de un límite: **normalmente todavía dentro del rango**, dentro de su último décimo |
-| Rojo | Más allá del límite, y algo sobre lo que vale la pena actuar |
-| Gris | Sin veredicto: sin lectura reciente, o sin rango utilizable frente al que juzgar |
+| Verde | Bien dentro del rango de este parámetro |
+| Ámbar | Cerca de un límite. **Normalmente aún dentro del rango**, en su último 10 % |
+| Rojo | Fuera del límite. Conviene hacer algo |
+| Gris | Sin valoración. No hay lectura reciente o no hay un rango con el que comparar |
 
-:::note Ámbar normalmente significa "todavía bien, pero yendo hacia algo"
-Ámbar es un *margen*, no una infracción. Una lectura dentro de su rango pero dentro del último 10% de este se marca en ámbar deliberadamente, así la desviación es visible mientras todavía hay tiempo para actuar en lugar de en el momento en que se convierte en un problema.
+:::note Ámbar suele querer decir "bien, pero cambiando"
+El ámbar es un *margen de aviso*. Una lectura que está dentro de su rango, pero en el último 10 %, se marca en ámbar. Así ves que el valor se está desviando cuando todavía tienes tiempo de reaccionar, antes de que sea un problema.
 
-De ahí se derivan dos matices.
+Hay dos detalles más.
 
-**Un rango que fijas tú mismo se trata como un límite declarado.** Cruzarlo lleva el widget directo a rojo: sin margen ámbar, porque tú trazaste esa línea deliberadamente. Un rango **proporcionado por Cora** es una referencia más suave: cruzarlo muestra ámbar durante el primer 10% más allá del límite, y se vuelve rojo a partir de ahí.
+**Un rango que fijas tú es un límite firme.** Si la lectura lo pasa, el widget se pone directamente en rojo, sin margen ámbar, porque esa línea la has puesto tú. Un rango **que propone Cora** es una referencia más flexible. Durante el primer 10 % fuera del límite se muestra en ámbar, y a partir de ahí en rojo.
 
-**Un límite unilateral** (un techo de contaminante, o un suelo de nutriente) se gradúa solo en su borde alto, así que el cobre a cero se lee en verde en lugar de marcarse en ámbar por estar cerca del extremo bajo de la escala.
+**Un límite de un solo lado** (un máximo para un contaminante o un mínimo para un nutriente) solo se valora por su extremo superior. Por eso el cobre a cero sale en verde y no en ámbar por estar cerca del mínimo de la escala.
 :::
 
-Un widget con contorno ámbar o rojo es uno que necesita atención. El contorno está en el widget, no solo en el número, así que es visible mientras te desplazas.
+Un widget con borde ámbar o rojo necesita tu atención. El borde rodea todo el widget, así que lo ves aunque estés desplazándote.
 
 ## Debajo de los widgets
 
-![El pie del panel](img/mobile-dashboard-foot.webp "Editar panel, Registrar parámetros, y accesos directos a las cuatro áreas de registro.")
+![El final del panel](img/mobile-dashboard-foot.webp "Editar panel, Registrar parámetros y accesos directos a las cuatro áreas de registro.")
 
-En la parte inferior del panel:
+Al final del panel tienes:
 
-- **Editar panel**: abre el [editor de panel](/help/mobile-dashboard-editing)
-- **Registrar parámetros**: introduce lecturas de kit de pruebas a mano
-- **Diario · Alertas · Mantenimiento · Fauna**: accesos directos a esas áreas para este acuario
+- **Editar panel**: abre el [editor del panel](/help/mobile-dashboard-editing)
+- **Registrar parámetros**: para anotar a mano las lecturas de tus kits de pruebas
+- **Diario · Alertas · Mantenimiento · Fauna**: accesos directos a esas secciones de este acuario
 
-Una línea encima de ellos muestra cuándo se actualizó el panel por última vez y de qué fuentes se surtió.
+Encima hay una línea que indica cuándo se actualizó el panel por última vez y de qué fuentes tomó los datos.
 
-## Tocar para profundizar
+## Ver más detalle
 
-Toca cualquier widget para abrir su detalle: el historial completo como gráfico, cada fuente que lo ha reportado y los umbrales actualmente aplicados. Desde ahí puedes registrar una lectura nueva a mano, cambiar el rango o mirar más atrás.
+Toca cualquier widget para abrir su detalle. Verás todo el historial en un gráfico, cada fuente que ha enviado ese dato y los umbrales que se aplican ahora. Desde ahí puedes anotar una lectura a mano, cambiar el rango o ver datos más antiguos.
 
-## Si un widget no tiene valor
+## Si un widget no muestra ningún valor
 
-Un widget muestra un valor en cuanto recibe uno. Cuando está en blanco, el motivo suele ser uno de estos:
+Un widget muestra un valor en cuanto recibe uno. Si está vacío, suele ser por una de estas razones:
 
-- El dispositivo está sin conexión; revisa la pestaña **Dispositivos**
-- El parámetro todavía no tiene fuente; regístralo a mano, o conecta un equipo que lo reporte
-- El parámetro nunca se ha reportado ni registrado; todavía no se ha guardado nada para él
+- El dispositivo está desconectado. Revisa la pestaña **Dispositivos**
+- El parámetro todavía no tiene fuente. Regístralo a mano o conecta un equipo que lo mida
+- Nunca se ha enviado ni registrado ese parámetro, así que aún no hay nada guardado
 
-Una lectura antigua no desaparece porque la ventana del gráfico sea más corta que su antigüedad. Se queda en el widget con su antigüedad mostrada, así que un valor desactualizado se lee como desactualizado en lugar de como ausente.
+Una lectura antigua no desaparece aunque el gráfico abarque menos tiempo que su antigüedad. Se queda en el widget con su antigüedad, así sabes que es un dato viejo y no que falta.
 
-Consulta **[Solución de problemas](/help/troubleshooting)** para cualquier cosa más allá de esto.
+Para cualquier otro problema, consulta **[Solución de problemas](/help/troubleshooting)**.

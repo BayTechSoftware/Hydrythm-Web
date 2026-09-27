@@ -1,49 +1,49 @@
 ---
 title: Günlük, canlılar ve bakım
-description: Cora Max'teki kayıt tutma ekranları ve telefonunuz yerine bunları ne zaman kullanacağınız.
+description: Cora Max'teki kayıt ekranları ve hangi işi telefon yerine duvardaki ekranda yapacağınız.
 section: Cora Max
 reviewed: 2026-09-09
 order: 8
 group: Records
 ---
 
-Cora Max, telefondakiyle aynı kayıtları gösterir ama tümü için tam bir düzenleyici değildir. Duvarda yapabildikleriniz alana göre değişir:
+Cora Max telefondaki kayıtların aynısını gösterir. Ama hepsini düzenleyemezsiniz. Duvardaki ekranda neler yapabileceğiniz bölüme göre değişir:
 
-| Alan | Cora Max'te |
+| Bölüm | Cora Max'te |
 |---|---|
-| **Günlük** | Kayıtları okuyun ve ekleyin |
-| **Okumalar** | Ekrandaki klavyeyle test sonuçlarını kaydedin |
-| **Bakım** | Bir görevi tamamlayın veya erteleyin. Görev oluşturma ve düzenleme telefonda yapılır |
-| **Canlılar** | Salt okunur. Telefonda ekleyin ve düzenleyin |
+| **Günlük** | Kayıtları okuyun ve yeni kayıt ekleyin |
+| **Ölçümler** | Test sonuçlarını ekran klavyesiyle girin |
+| **Bakım** | Görevi tamamlayın ya da erteleyin. Görev oluşturma ve düzenleme telefonda yapılır |
+| **Canlılar** | Yalnızca okunur. Ekleme ve düzenleme telefonda yapılır |
 
-Buraya eklediğiniz her şey anında telefonunuzda görünür, ve tersi de geçerlidir.
+Burada eklediğiniz her şey hemen telefonunuzda da görünür. Telefonda eklediğiniz de burada.
 
-Tümüne **akvaryum menüsünden** ulaşın: üst çubuktaki akvaryum adına dokunun.
+Hepsine **akvaryum menüsünden** ulaşırsınız. Üst çubukta akvaryum adına dokunmanız yeter.
 
-![Cora Max'te bakım](img/max-records.webp "Vadesi gelen görevler, her birinde Ertele ve Tamamlandı ile birlikte, ve son zamanlarda tamamlananlar.")
+![Cora Max'te bakım](img/max-records.webp "Zamanı gelen görevler, her birinin yanında Ertele ve Bitti düğmeleri, altta da son tamamlananlar.")
 
 ## Günlük
 
-Akvaryumdan ayrılmadan bir kayıt ekleyin. Bu genellikle ikisinden daha kullanışlı olanıdır; işi yaparken durduğunuz yer duvar ekranıdır.
+Akvaryumun başından ayrılmadan kayıt ekleyin. Çoğu zaman bu daha pratiktir, çünkü işi yaparken zaten duvardaki ekranın önündesiniz.
 
-Buna **akvaryum menüsünden** ulaşın (üst çubuktaki akvaryum adına dokunun), ardından bir kayıt eklemek için **+** kullanın, veya *"Hey Cora, mysis ile beslediğimi kaydet"* deyin. Bkz. [Günlük](/help/mobile-journal).
+**Akvaryum menüsünü** açın (üst çubukta akvaryum adına dokunun) ve **+** ile kayıt ekleyin. Ya da *"Hey Cora, mysis ile beslediğimi kaydet"* deyin. Günlüğün ayrıntıları [Günlük](/help/mobile-journal) sayfasında.
 
 :::note Üst çubukta günlük simgesi yok
-Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir ve üzerindeki nokta günün briefinginin okunmadığı anlamına gelir. Günlük kayıtları akvaryum menüsünden veya sesle eklenir.
+Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir. Üzerindeki nokta, günün özetini henüz okumadığınızı gösterir. Günlüğe kaydı akvaryum menüsünden ya da sesle eklersiniz.
 :::
 
 ## Canlılar
 
-Türe göre gruplanmış tam envanter, telefondakiyle aynı durumlarla, **burada salt okunur**. Canlı ekleme ve düzenleme Cora Mobile'da yapılır; orada yaptığınız kayıt anında bu ekranda görünür. Bkz. [Canlılar](/help/mobile-livestock).
+Türe göre gruplanmış tüm envanteri telefondaki durumlarıyla birlikte görürsünüz. Bu ekran **yalnızca okunur**. Canlı eklemek ve düzenlemek için Cora Mobile'ı kullanın. Orada girdiğiniz kayıt hemen bu ekranda da çıkar. Ayrıntılar [Canlılar](/help/mobile-livestock) sayfasında.
 
 ## Bakım
 
-Uyum oranı ve gecikmiş sayısıyla birlikte görev listesi, bitirdiğiniz anda bir görevi tamamlandı olarak işaretleme yeteneğiyle. Bkz. [Bakım](/help/mobile-maintenance).
+Görev listesini, uyum oranını ve geciken görev sayısını görürsünüz. Bir işi bitirdiğinizde görevi hemen tamamlandı olarak işaretleyebilirsiniz. Ayrıntılar [Bakım](/help/mobile-maintenance) sayfasında.
 
-## Okuma kaydetme
+## Ölçüm girme
 
-Cora Max'te test sonuçlarını doğrudan girmek için ekranda bir klavye vardır; böylece akvaryumun başında yapılan bir test akvaryumun başında kaydedilebilir.
+Cora Max'te test sonuçlarını doğrudan girebileceğiniz bir ekran klavyesi var. Testi akvaryumun başında yaptıysanız sonucu da orada kaydedersiniz.
 
-:::note Kayıtlar paylaşılır, çoğaltılmaz
-Akvaryum başına bir günlük, bir canlı envanteri ve bir bakım listesi vardır. Cora Max ve telefonunuz aynı kayıtların iki görünümüdür.
+:::note Kayıtlar ortaktır, kopyalanmaz
+Her akvaryumun tek bir günlüğü, tek bir canlı envanteri ve tek bir bakım listesi vardır. Cora Max ve telefonunuz aynı kayıtları gösterir.
 :::

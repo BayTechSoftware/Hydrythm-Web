@@ -1,136 +1,136 @@
 ---
 title: Ekipmanınızı kontrol etme
-description: Canlı durumunu görmek ve çalıştırmak için bir cihazın kendi sayfasını açın: prizler, pompalar, dozaj kafaları ve test cihazları.
+description: Cihazın sayfasını açın, canlı durumunu görün ve kontrol edin. Prizler, pompalar, dozaj kafaları ve test cihazları.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 11
 group: Equipment
 ---
 
-Bağlı ekipmanın Cora'da kendi sayfası vardır; canlı durumu gösterir ve o cihazın desteklediği her kontrolü sunar. Birini **Cihazlar** sekmesinden açın.
+Bağlı her ekipmanın Cora'da kendi sayfası var. Sayfa cihazın canlı durumunu ve cihazın desteklediği bütün kontrolleri gösterir. Sayfayı **Cihazlar** sekmesinden açın.
 
-![Bir cihaz sayfası](img/mobile-device-detail.webp "Üstte canlı okumalar, ardından o cihazın desteklediği kontroller.")
+![Cihaz sayfası](img/mobile-device-detail.webp "Üstte canlı ölçümler, altında cihazın desteklediği kontroller.")
 
-Her cihaz sayfası aynı şekli takip eder: üstte tanımlama, bir canlı okuma satırı, cihazın bildirdiği herhangi bir durum, ardından kontrolleri. Başlık çubuğundaki zil, o cihaz için uyarı eşiklerini belirler; bkz. [Sarf malzemeleri](/help/mobile-consumables).
+Bütün cihaz sayfaları aynı düzendedir: en üstte cihazın kimliği, altında canlı ölçümler satırı, cihazın bildirdiği durumlar ve en altta kontroller. Başlık çubuğundaki zil simgesiyle o cihazın uyarı eşiklerini ayarlarsınız. Ayrıntılar [Sarf malzemeleri](/help/mobile-consumables) sayfasında.
 
-:::warning Bu kontroller canlı ekipman üzerinde etkilidir
-Önizleme ve geri alma yoktur. Bazı kontroller de önce onaylamanızı ister.
+:::warning Bu kontroller çalışan ekipmanı etkiler
+Önizleme ya da geri alma yoktur. Bazı kontroller önce onay ister.
 :::
 
-## Bir komut gönderdiğinizde ne olur
+## Komut gönderdiğinizde ne olur
 
-Bir komut her zaman başarılı olmaz ve Cora, varsaymak yerine dört şeyden hangisinin gerçekleştiğini söyler:
+Komutlar her zaman başarılı olmaz. Cora varsayım yapmaz, dört sonuçtan hangisinin gerçekleştiğini söyler:
 
 | Sonuç | Anlamı |
 |---|---|
 | **Onaylandı** | Ekipman değişikliği kabul etti ve yeni durumunu bildirdi |
-| **Onaylanmadı** | Komut gönderildi ama hiçbir şey bildirilmedi. **Bu "bilmiyoruz" anlamına gelir, "çalıştı" değil**; cihazın kendi durumunu kontrol edin |
-| **Reddedildi** | Bir şey onu reddetti (bir güvenlik kuralı, bir kilit veya ekipmanın kendisi), veya zamanında hiçbir Cora cihazı onu almadı, bu yüzden iptal edildi ve hiçbir şey çalışmadı |
+| **Onaylanmadı** | Komut gönderildi ama geri bildirim gelmedi. **Bu "çalıştı" değil, "bilmiyoruz" demektir.** Cihazın kendi durumuna bakın |
+| **Reddedildi** | Bir güvenlik kuralı, kilit ya da ekipmanın kendisi komutu reddetti. Ya da hiçbir Cora cihazı komutu zamanında almadı ve komut iptal edildi. Hiçbir şey çalışmadı |
 | **Değişiklik yok** | Ekipman zaten istediğiniz durumdaydı |
 
-Her sonuç, nedeniyle birlikte [Etkinlik](/help/mobile-activity)'te kaydedilir.
+Her sonuç, kaynağıyla birlikte [Etkinlik](/help/mobile-activity) ekranına kaydedilir.
 
 ## Neptune Apex
 
-Apex sayfası problarınızı ve prizlerinizi listeler.
+Apex sayfasında problarınız ve prizleriniz listelenir.
 
-- **Problar**, Cora'ya kaynak olarak bildirir ve bir panoya yerleştirilebilir.
-- **Prizler**, **Otomatik**, **Kapalı** ve **Açık** arasında değişir. Otomatik, kontrolü Apex programlamanıza geri verir.
-- **Takılı modüllerin** (Trident, DŌS ve diğerleri) her birinin kendi sayfası vardır.
+- **Problar** Cora'ya kaynak olarak veri gönderir. Onları panoya ekleyebilirsiniz.
+- **Prizler** **Otomatik**, **Kapalı** ve **Açık** arasında geçiş yapar. Otomatik, kontrolü Apex'teki programınıza geri verir.
+- **Takılı modüllerin** (Trident, DŌS ve diğerleri) her birinin kendi sayfası var.
 
 ## Trident
 
-Geçerli test durumunu, kalan reaktif ve atık su seviyelerini gösterir ve bir test başlatmanızı sağlar.
+Trident sayfası o anki test durumunu, kalan reaktif ve atık su seviyelerini gösterir. Buradan test başlatabilirsiniz.
 
-Bu sayfadan kalan testler için bir uyarı eşiği belirleyebilirsiniz; böylece reaktif bitmeden Cora sizi uyarır. Bkz. [Sarf malzemeleri](/help/mobile-consumables).
+Bu sayfadan kalan test sayısı için uyarı eşiği de koyabilirsiniz. Böylece Cora reaktif bitmeden sizi uyarır. Ayrıntılar [Sarf malzemeleri](/help/mobile-consumables) sayfasında.
 
 ## DŌS
 
-Bir DŌS QD tam olarak bir DŌS gibi çalışır ve buradaki her şey ikisi için de geçerlidir. Bir Cora Max Apex'inizi okuduğunda, dozaj kafaları priz listesinde değil DŌS sayfasında görünür.
+DŌS QD tıpkı DŌS gibi çalışır. Burada anlatılan her şey ikisi için de geçerlidir. Apex'inizi bir Cora Max okuyorsa dozaj kafaları priz listesinde değil, her zaman DŌS sayfasında görünür.
 
-Her dozaj kafası, neyi dozajladığını, zamanlamasını, bugün ne dozajladığını, kapta ne kadar kaldığını ve **kalan süresini** gösterir: bunun geçerli hızda kaç gün süreceği.
+Her dozaj kafasında şunlar görünür: neyi dozladığı, programı, bugün ne kadar dozladığı, kapta ne kadar kaldığı ve **kalan süresi**, yani şu anki hızla kaç gün yeteceği.
 
-Kafa başına şunları yapabilirsiniz:
+Her kafa için şunları yapabilirsiniz:
 
-- Zamanlamasını **Duraklat** ve **Sürdür**
-- **Doldur**: kabın yeniden dolu olduğunu Cora'ya söyleyin, veya içindeki hacmi belirleyin
-- **Şimdi dozajla**: ölçülmüş elle bir dozaj
+- Programı **Duraklat** ve **Sürdür**
+- **Doldur**: Cora'ya kabın yeniden dolduğunu söyleyin ya da içindeki miktarı girin
+- **Şimdi dozajla**: ölçülü dozu elle verin
 
-:::note Zamanlamalar burada değil Apex Fusion'da düzenlenir
-Cora zamanlamayı gösterir ve dozajlananı takip eder, ama onu değiştirmez. Zamanlamayı, dozaj hızını veya dozaj sayısını düzenlemek Apex Fusion uygulamasında yapılır. Duraklatma, doldurma ve elle dozajlama burada desteklenir.
+:::note Programlar burada değil, Apex Fusion'da düzenlenir
+Cora programı gösterir ve verilen dozları takip eder, ama programı değiştirmez. Programı, doz hızını ya da doz sayısını Apex Fusion uygulamasından düzenlersiniz. Duraklatma, doldurma ve elle dozajı buradan yapabilirsiniz.
 :::
 
-:::note Elle dozajlamadan önce bir kafayı ölçün
-Cora, ölçülene kadar bir kafayı elle dozajlamaz. **Dozajlamak için ölç** ve **Yeniden ölç**, akvaryum için dozajlayan Cora Max'tedir: Cora kafayı yirmi saniye çalıştırır, ne çıktığını ölçersiniz ve Cora kafanın gerçek hızını hesaplar. Bir ölçüm her Cora Max ve Cora Mobile'a hizmet eder, bu yüzden her kafayı bir kez ölçün ve borusunu değiştirdikten sonra yeniden ölçün.
+:::note Elle dozajdan önce kafayı ölçün
+Bir kafa ölçülmeden Cora o kafadan elle dozaj yapmaz. **Dozajlamak için ölç** ve **Yeniden ölç**, akvaryumun dozajını yapan Cora Max'te bulunur. Cora kafayı yirmi saniye çalıştırır, siz çıkan sıvıyı ölçersiniz, Cora da kafanın gerçek hızını hesaplar. Tek ölçüm bütün Cora Max'ler ve Cora Mobile için geçerlidir. Her kafayı bir kez ölçün. Hortumunu değiştirdikten sonra yeniden ölçün.
 :::
 
-:::warning Bir DŌS, kabı boşken de dozajlamayı sürdürür
-Birimin bir seviye sensörü yoktur ve kendiliğinden durmaz. Kap kurumadan Cora'nın sizi uyarması için kafanın sayfasından bir yeniden doldurma uyarısı belirleyin.
+:::warning DŌS, kap boşalsa da dozaja devam eder
+Ünitede seviye sensörü yoktur ve kendi kendine durmaz. Kap kurumadan Cora'nın sizi uyarması için kafanın sayfasından dolum uyarısı kurun.
 :::
 
-### Her kafa ne için kullanılır
+### Her kafa ne için kullanılıyor
 
-Her kafa, Cora'nın ne yaptığını bilmesi ve onun hakkında doğru konuşabilmesi için bir **kullanım türüne** ayarlanır: **Takviye**, **Su değişimi: yeni tuzlu su girişi**, **Su değişimi: eski su çıkışı**, **Kalkwasser**, **Kalsiyum reaktörü**, **Besin**, **Tamamlama**, veya **Diğer**. Bunu kafanın ayarlarında **Kullanım amacı** altında belirleyin.
+Her kafaya **kullanım türü** atanır. Böylece Cora kafanın ne iş yaptığını bilir ve onun hakkında doğru konuşur. Türler: **Takviye**, **Su değişimi: yeni tuzlu su girişi**, **Su değişimi: eski su çıkışı**, **Kalkwasser**, **Kalsiyum reaktörü**, **Yem**, **Su tamamlama** ya da **Diğer**. Türü kafanın ayarlarında **Kullanım amacı** altından seçin.
 
-İki su değişimi kullanım türü **eşleştirilmek** üzere tasarlanmıştır: bir kafanın **Eşleştirilmiş kafa**'sını, suyu ters yönde hareket ettiren diğer kafaya ayarlayın ve Cora bunları iki ilgisiz kafa yerine bir su değişimi çifti olarak ele alır.
+İki su değişimi türü **eşleştirilmek** için vardır. Bir kafanın **Eşleştirilmiş kafa** ayarını, suyu ters yönde taşıyan diğer kafaya ayarlayın. Cora bu iki kafayı birbirinden bağımsız iki kafa olarak değil, tek bir su değişimi çifti olarak görür.
 
-Her kafa, yanlış yazılmış elle bir dozajın istenenden çok daha büyük olmasını durdurmak için bir **Elle verilecek en büyük dozaj** tavanına da sahiptir. Büyük elle dozajlar, kafanın hızı akvaryumda gerçek bir teste karşı ölçüldükten sonra kullanılabilir hale gelir.
+Her kafanın ayrıca **Elle verilecek en büyük dozaj** sınırı var. Bu sınır, yanlış yazılan elle dozun istenenden çok daha büyük olmasını önler. Büyük elle dozlar, ancak kafanın hızı akvaryumda gerçek testle ölçüldükten sonra açılır.
 
 ## Red Sea ReefBeat
 
-Her birimin ne olduğuna uygun bir sayfası vardır:
+Her ünitenin kendine uygun sayfası var:
 
-| Birim | Sayfa gösterir | Yapabilirsiniz |
+| Ünite | Sayfada neler var | Neler yapabilirsiniz |
 |---|---|---|
-| **ReefDose** | Her kafa, kabı ve dozajladığı | Her kafa için: **Günlük dozaj**, **Şişede kalan**, **Şimdi dozajla** ve **Zaman planını etkinleştir**. Kafa başına yeniden doldurma uyarıları belirleyin |
-| **ReefATO+** | Rezervuar seviyesi ve tamamlama etkinliği | Bir rezervuar uyarısı belirleyin |
-| **ReefMat** | Kalan rulo, gün ve metre olarak | Ruloyu ilerletin, bir yeniden doldurma uyarısı belirleyin |
-| **ReefRun** | Ana pompa ve skimmer pompası hızı ve durumu | Hızı değiştirin, bir pompayı açıp kapatın, skimmer ayarlarını değiştirin |
+| **ReefDose** | Her kafa, kabı ve verdiği dozlar | Her kafa için: **Günlük dozaj**, **Şişede kalan**, **Şimdi dozajla** ve **Zaman planını etkinleştir**. Her kafa için ayrı dolum uyarısı kurun |
+| **ReefATO+** | Rezervuar seviyesi ve su tamamlama hareketleri | Rezervuar uyarısı kurun |
+| **ReefMat** | Kalan rulo, gün ve metre olarak | Ruloyu ilerletin, dolum uyarısı kurun |
+| **ReefRun** | Ana pompa ve skimmer pompasının hızı ve durumu | Hızı değiştirin, pompayı açıp kapatın, skimmer ayarlarını değiştirin |
 
-**ReefRun bir ana pompa ve skimmer pompası kontrolcüsüdür**, bir dalga pompası değil.
+**ReefRun ana pompa ve skimmer pompası kontrol ünitesidir**, dalga pompası değildir.
 
-Bir birim kendini durdurabilir, örneğin skimmer kupası dolduğunda bir ReefRun pompası. Bu olduğunda, sayfası nedenini söyler ve düzeltmeyi sunar:
+Bir ünite kendini durdurabilir. Örneğin skimmer kabı dolunca ReefRun pompası durur. Bu durumda ünitenin sayfası nedenini yazar ve çözümü gösterir:
 
-| Birim | Sayfa söyler | Dokunun |
+| Ünite | Sayfada yazan | Dokunun |
 |---|---|---|
-| ReefRun | Hangi pompanın ve neden durduğunu, örneğin *Kupa dolu. Boşaltın, ardından sürdürün.* | **Sürdür** |
-| ReefRun veya ReefMat | **Acil durdurma** | **Acil durumu temizle** |
-| ReefMat | **Mat sıkıştı**, **Kurulum hatası** veya **Ayar hatası** | **Sürdür** |
-| ReefMat | *Yeni bir rulo yükleyin, ardından Red Sea'nin uygulamasında onaylayın.* | **Zaten yeni bir rulo yükledim** |
-| ReefMat | **Sensör temizlenmeli** | **Sensör temizlendi** |
-| ReefDose | Kafanın adıyla **Kafa arızası** | **Sıfırla** |
+| ReefRun | Hangi pompanın neden durduğu. Örneğin *Kap dolu. Boşaltın, ardından devam edin.* | **Sürdür** |
+| ReefRun ya da ReefMat | **Acil durdurma** | **Acil durumu temizle** |
+| ReefMat | **Mat sıkıştı**, **Kurulum hatası** ya da **Ayar hatası** | **Sürdür** |
+| ReefMat | *Yeni bir rulo yükleyin, sonra Red Sea uygulamasında onaylayın.* | **Zaten yeni bir rulo yükledim** |
+| ReefMat | **Sensörün temizlenmesi gerekiyor** | **Sensör temizlendi** |
+| ReefDose | **Kafa arızası** ve kafanın adı | **Sıfırla** |
 | ReefATO+ | **Arızayı Temizle** | **Sürdür** |
 
-Bunların bazıları önce onaylamanızı ister. Birimin ağının dışındayken, Cora Mobile bunları akvaryumdaki bir Cora Max üzerinden gönderir; hiçbir Cora Max bunu yapamıyorsa, sayfa bunu söyler ve hiçbir şey gönderilmez.
+Bunların bazıları önce onay ister. Ünitenin ağında değilseniz Cora Mobile bu komutları akvaryumdaki bir Cora Max üzerinden gönderir. Bunu yapabilecek bir Cora Max yoksa sayfada bu yazar ve hiçbir şey gönderilmez.
 
 ## Jecod pompaları
 
-Pompa sayfası geçerli modunu ve yoğunluğunu gösterir ve ikisini de değiştirmenizi sağlar.
+Pompa sayfası pompanın şu anki modunu ve yoğunluğunu gösterir. İkisini de buradan değiştirebilirsiniz.
 
-Ayrıca şunları da yapabilirsiniz:
+Ayrıca şunları yapabilirsiniz:
 
-- **Programı şuraya kopyala…**: bu pompanın programını başka birine koyun
-- **Programı farklı kaydet…** ve **Kayıtlı programlar…**: bir programı tutun ve daha sonra yeniden uygulayın
-- **Bu zamanlamayı paylaş** ve **Bir zamanlama kodu yapıştır…**: bir zamanlamayı kısa bir kod olarak sistemler arasında taşıyın
+- **Programı şuraya kopyala…**: bu pompanın programını başka bir pompaya aktarın
+- **Programı farklı kaydet…** ve **Kayıtlı programlar…**: programı saklayın ve sonra yeniden uygulayın
+- **Bu zamanlamayı paylaş** ve **Bir zamanlama kodu yapıştır…**: programı kısa kodla başka sisteme taşıyın
 
 ## Maxspect
 
 :::note Maxspect desteği beta aşamasında
-Maxspect gyre desteği hâlâ test edilip geliştiriliyor, bu yüzden bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemeler arasında değişebilir. Bir şey açıklandığı gibi çalışmıyorsa, bize [Yardım alma](/help/mobile-support)'dan bildirin.
+Maxspect gyre desteğinin testleri ve geliştirmesi sürüyor. Bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
 :::
 
-Gyre sayfası, gyre'nin çalışıp çalışmadığını, **Gyre A** ve **Gyre B**'nin dalga deseni ve hızını, ve bunun son ne zaman okunduğunu gösterir. Ondan şunları yapabilirsiniz:
+Gyre sayfası gyre'nin çalışıp çalışmadığını, **Gyre A** ve **Gyre B**'nin dalga desenini ve hızını ve bu bilgilerin en son ne zaman okunduğunu gösterir. Bu sayfada şunları yapabilirsiniz:
 
-- Gyre'yi durumunun yanındaki anahtarla açıp kapatın. Cora önce onaylamanızı ister. Kapatmak her iki gyre'yi de durdurur ve zamanlamayı olduğu gibi bırakır.
-- Her gyre'nin dalga desenini ve pompa hızını (ve bir deseninkiyse süresini), ve iki gyre'nin bağlı olup olmadığını ayarlamak için **Ayarları değiştir**'e dokunun. Cora neyin değişeceğini listeler ve uygulamadan önce onaylamanızı ister. Alternatif (Alternating) Maxspect uygulamasında ayarlanır: bunu çalıştıran bir gyre kendi rampalarını ve tutma sürelerini korur.
-- Gyre'de kayıtlı program okunamıyorsa bunun yerine **Programı ayarla**'ya dokunun. Bu, gyre'nin yeniden başlayabilmesi için her iki gyre'yi de ayarlar.
-- Gyre'nin gün programını **Zamanlama** kartında görün. Yalnızca görüntülenir: zamanlamayı Maxspect uygulamasında ayarlayın.
-- **Pompa sağlığını** kontrol edin: pompanın bir dahaki sefere ne zaman temizlenmesi gerektiği (pompa bunu kendisi geri sayar), kafa A'nın çektiği akım, hangi kafaların takılı olduğu ve yazılımı. Almak için **Oku**'ya dokunun.
+- Durumun yanındaki anahtarla gyre'yi açıp kapatın. Cora önce onay ister. Kapatınca iki gyre de durur, program olduğu gibi kalır.
+- **Ayarları değiştir**'e dokunarak her gyre'nin dalga desenini ve pompa hızını (süresi olan desenlerde süreyi de) ve iki gyre'nin bağlı çalışıp çalışmayacağını ayarlayın. Cora neyin değişeceğini listeler ve uygulamadan önce onay ister. Dönüşümlü mod Maxspect uygulamasından ayarlanır. Bu modda çalışan bir gyre kendi hızlanma ve bekleme sürelerini korur.
+- Gyre'de kayıtlı program okunamıyorsa bunun yerine **Programı ayarla**'ya dokunun. Bu seçenek iki gyre'yi de ayarlar ve gyre yeniden çalışabilir.
+- Gyre'nin günlük programını **Program** kartında görün. Program yalnızca görüntülenir. Programı Maxspect uygulamasından ayarlayın.
+- **Pompa sağlığı** bilgisine bakın: pompanın bir sonraki temizliğe ne kadar kaldığı (pompa bunu kendisi geri sayar), A kafasının çektiği akım, hangi kafaların takılı olduğu ve yazılım sürümü. Bilgileri almak için **Oku**'ya dokunun.
 
-:::note Cora Mobile bir gyre'ye nasıl ulaşır
-Bir Cora Max akvaryuma hizmet ettiğinde, Cora Mobile, evden uzaktayken dahil, o Cora Max üzerinden çalışır ve **Ayarları değiştir**, o Cora Max'in son okumasından başlar. Aksi halde telefonunuz doğrudan gyre'yle konuşur ve gyre'nin ağında olmalıdır. Sayfayı açmak sonra gyre'yi okur; sayfa bunun yerine daha eski kaydedilmiş bir okuma gösteriyorsa, yenilemeye dokunana kadar **Ayarları değiştir** gizli kalır.
+:::note Cora Mobile gyre'ye nasıl ulaşır
+Akvaryuma bağlı bir Cora Max varsa Cora Mobile, evden uzaktayken de o Cora Max üzerinden çalışır. **Ayarları değiştir** de o Cora Max'in son okumasından başlar. Cora Max yoksa telefonunuz gyre'yle doğrudan bağlantı kurar ve gyre'yle aynı ağda olması gerekir. Bu durumda sayfayı açınca gyre okunur. Sayfa daha eski, kayıtlı okumayı gösteriyorsa yenile simgesine dokunana kadar **Ayarları değiştir** görünmez.
 :::
 
-## Bir şeyi değiştirdikten sonra ne olur
+## Bir şeyi değiştirdikten sonra
 
-Her değişiklik, onu isteyen yüzeyle birlikte [Etkinlik](/help/mobile-activity)'te kaydedilir. Bir cihaz bir değişikliği kabul etmezse, başarısızlık da orada kaydedilir.
+Her değişiklik, onu isteyen yüzeyle birlikte [Etkinlik](/help/mobile-activity) ekranına kaydedilir. Cihaz değişikliği kabul etmezse bu hata da orada kaydedilir.

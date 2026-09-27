@@ -1,56 +1,56 @@
 ---
 title: Les cinq onglets
-description: Un tour de Cora Mobile : Tableau de bord, Appareils, Assistant, Intelligence et Réglages, et ce qui vit dans chacun.
+description: Tour d’horizon de Cora Mobile : Tableau de bord, Appareils, Assistant, Intelligence et Réglages, et ce que contient chacun.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 4
 group: Getting started
 ---
 
-Cora Mobile a cinq onglets en bas de l’écran. Presque tout ce que vous faites vit dans l’un d’eux.
+Cora Mobile a cinq onglets en bas de l’écran. Presque tout ce que vous faites se passe dans l’un d’eux.
 
 ![Les cinq onglets de Cora Mobile](img/mobile-tabs.webp "Tableau de bord, Appareils, Assistant, Intelligence, Réglages.")
 
 ## Tableau de bord
 
-Mesures en direct pour l’aquarium sélectionné. C’est l’écran principal de Cora Mobile.
+Les mesures en direct de l’aquarium sélectionné. C’est l’écran principal de Cora Mobile.
 
-Si vous avez plus d’un aquarium, glissez à gauche et à droite pour passer de l’un à l’autre ; les points sous l’en-tête indiquent où vous êtes. L’en-tête de l’aquarium porte le nom de l’aquarium et une ligne d’actions : mode nourrissage, le briefing Reef Buddy, le partage, et un crayon qui ouvre le profil de l’aquarium. Modifier le tableau de bord est un contrôle séparé, **Modifier le tableau de bord**, au bas de la page.
+Si vous avez plusieurs aquariums, balayez vers la gauche ou la droite pour passer de l’un à l’autre. Les points sous l’en-tête indiquent où vous êtes. L’en-tête affiche le nom de l’aquarium et une rangée d’actions : mode nourrissage, briefing Reef Buddy, partage, et un crayon qui ouvre le profil de l’aquarium. Pour modifier le tableau de bord lui-même, touchez **Modifier le tableau de bord**, tout en bas de la page.
 
-Détail complet : **[Lire votre tableau de bord](/help/mobile-dashboard)**.
+Tout est expliqué dans **[Lire votre tableau de bord](/help/mobile-dashboard)**.
 
 ## Appareils
 
-Tout ce que vous avez connecté, regroupé par marque. Chaque groupe se replie, donc une pièce de récif pleine d’équipement reste lisible.
+Tout ce que vous avez connecté, classé par marque. Chaque groupe se replie, pour que la liste reste lisible même avec beaucoup d’équipement.
 
-C’est ici que vous ajoutez un nouvel équipement, le renommez, l’attribuez à un aquarium, et le retirez. Détail complet : **[Ajouter, modifier et retirer des appareils](/help/mobile-devices)**.
+C’est ici que vous ajoutez un équipement, le renommez, le rattachez à un aquarium ou le retirez. Tout est expliqué dans **[Ajouter, modifier et retirer des appareils](/help/mobile-devices)**.
 
 ## Assistant
 
-Posez à Cora des questions sur votre aquarium en langage simple, en tapant ou par la voix. Il peut voir vos mesures en direct, votre historique et vos résultats ICP, donc « pourquoi mon alcalinité baisse-t-elle ? » est une question à laquelle il peut réellement répondre pour *votre* aquarium.
+Posez vos questions à Cora sur votre aquarium, avec vos mots, à l’écrit ou à la voix. Il voit vos mesures en direct, votre historique et vos résultats ICP. À « pourquoi mon alcalinité baisse-t-elle ? », il peut donc répondre pour *votre* aquarium.
 
-Détail complet : **[Interroger Cora](/help/mobile-assistant)**.
+Tout est expliqué dans **[Interroger Cora](/help/mobile-assistant)**.
 
 ## Intelligence
 
-Vos analyses de laboratoire et votre vue à long terme. Téléchargez un test ICP et Cora le lit, suit chaque élément dans le temps, et vous dit ce qui a changé depuis la dernière fois. Les rapports de santé sont une évaluation périodique plus approfondie de tout le système.
+Vos analyses de laboratoire et le suivi sur la durée. Importez un test ICP : Cora le lit, suit chaque élément dans le temps et vous dit ce qui a changé depuis le dernier. Les rapports de santé sont des bilans plus complets de tout le système, à faire de temps en temps.
 
-Détail complet : **[Rapports ICP et de santé](/help/mobile-icp-health)**.
+Tout est expliqué dans **[Rapports ICP et de santé](/help/mobile-icp-health)**.
 
 ## Réglages
 
-Compte, aquariums, produits de dosage, l’Assistant, notifications, automatisation, et votre forfait.
+Compte, aquariums, produits de dosage, Assistant, notifications, automatisation et forfait.
 
-Détail complet : **[Réglages](/help/mobile-settings)**.
+Tout est expliqué dans **[Réglages](/help/mobile-settings)**.
 
-## Le tour du premier lancement
+## La visite du premier lancement
 
-La première fois que vous ouvrez le tableau de bord, Cora vous montre les parties de l’écran l’une après l’autre. Il ne s’exécute qu’une fois.
+La première fois que vous ouvrez le tableau de bord, Cora vous montre les parties de l’écran une par une. Cette visite n’a lieu qu’une fois.
 
-Pour le revoir, utilisez **Réglages → À propos → Revoir les conseils**. Cela redémarre le tour et vous emmène au tableau de bord pour qu’il commence immédiatement, utile après une mise à jour, ou en confiant votre téléphone à quelqu’un d’autre.
+Pour la revoir, touchez **Réglages → À propos → Revoir les conseils**. La visite repart de zéro et vous emmène au tableau de bord pour démarrer tout de suite. C’est pratique après une mise à jour, ou quand vous prêtez votre téléphone à quelqu’un.
 
-## Deux contrôles hors des onglets
+## Deux boutons hors des onglets
 
-**La cloche**, en haut à droite, est votre historique de notifications : chaque alerte que Cora a déclenchée, la plus récente d’abord. Le chiffre qu’elle porte indique combien vous n’avez pas encore lues.
+**La cloche**, en haut à droite, contient l’historique de vos notifications : toutes les alertes de Cora, de la plus récente à la plus ancienne. Le chiffre indique combien vous n’en avez pas encore lu.
 
-**Le bouton Journal** flotte en bas à droite du Tableau de bord. Touchez-le pour noter ce que vous venez de faire : un changement d’eau, un nouveau corail, une dose que vous avez changée. Voir **[Le journal](/help/mobile-journal)**.
+**Le bouton Journal** flotte en bas à droite du tableau de bord. Touchez-le pour noter ce que vous venez de faire : un changement d’eau, un nouveau corail, une dose modifiée. Voir **[Le journal](/help/mobile-journal)**.

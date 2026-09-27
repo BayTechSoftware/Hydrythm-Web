@@ -1,97 +1,97 @@
 ---
-title: Panonuzu okuma
-description: Cora'nın panosunu nasıl okumalı: widget'lar, tazelik, kaynaklar ve renklerin ne anlama geldiği.
+title: Panoyu okuma
+description: Cora panosu nasıl okunur. Widget'lar, ölçümlerin yaşı, kaynaklar ve renklerin anlamı.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 5
 group: Your dashboard
 ---
 
-Pano, her biri bir akvaryum hakkında bir şey gösteren **widget'lardan** oluşan bir ızgaradır. Üzerinde ne olduğu tamamen size bağlıdır; bkz. **[Panonuzu düzenleme](/help/mobile-dashboard-editing)**.
+Pano, **widget'lardan** oluşan bir ızgaradır. Her widget bir akvaryumla ilgili tek bir şeyi gösterir. Panoda ne olacağına tamamen siz karar verirsiniz. Ayrıntılar **[Panoyu düzenleme](/help/mobile-dashboard-editing)** sayfasında.
 
-![Bir Cora Mobile panosu](img/mobile-dashboard.webp "Bir ekranda göstergeler, sayılar, eğilimler ve kontroller.")
+![Cora Mobile panosu](img/mobile-dashboard.webp "Göstergeler, sayılar, eğilimler ve kontroller tek ekranda.")
 
 ## Akvaryum başlığı
 
-Her panonun üstünde:
+Her panonun üstünde şunlar var:
 
-- **Akvaryum adı**, yanında küçük bir simgeyle: bu sadece bir **hızlı yeniden adlandırmadır**, başka bir şey değil
-- **Besle**: bir besleme için akışı ve skimmerlamayı duraklatır, ardından her şeyi geri koyar
-- **Reef Buddy**: bu sabahın briefingini açar
-- **Paylaş**: panonun bir görüntüsünü gönderir
+- **Akvaryumun adı** ve yanında küçük bir simge. Bu simge yalnızca **adı hızlıca değiştirmek** içindir
+- **Besle**: besleme için akışı ve skimmer'ı durdurur, sonra her şeyi eski hâline getirir
+- **Reef Buddy**: bu sabahki özeti açar
+- **Paylaş**: panonun anlık görüntüsünü gönderir
 - **Sağdaki kalem**: [akvaryum profilini](/help/mobile-tank-profile) açar
 
-:::note Üç benzer kontrol, üç hedef
-Adın yanındaki simge akvaryumu yeniden adlandırır. Sağdaki kalem akvaryum **profilini** açar. Panonun kendisini düzenlemek bunların hiçbiri değildir; bu, widget'ların *altında*, panonun *altındaki* **Gösterge panelini düzenle**'dir.
+:::note Birbirine benzeyen üç düğme, üç farklı ekran
+Adın yanındaki simge akvaryumun adını değiştirir. Sağdaki kalem akvaryum **profilini** açar. Panonun kendisini düzenlemek için ikisi de değil, widget'ların *altında*, panonun *en altındaki* **Gösterge panelini düzenle** düğmesi kullanılır.
 :::
 
-Birden fazla akvaryumunuz varsa, aralarında geçmek için yana kaydırın.
+Birden fazla akvaryumunuz varsa aralarında geçmek için yana kaydırın.
 
 ## Reef Buddy kartı
 
-Başlığın altında, bir kart en son briefingi özetler: bir başlık, **Kararlılık** ve **Veri** puanları, ve içgörü sayısı. Tam briefingi açmak için dokunun, veya **×** ile kapatın. Bir sonraki briefingle yeni bir kart görünür.
+Başlığın altındaki kart en son özeti kısaca gösterir: bir başlık, **Kararlılık** ve **Veri** puanları ve bulgu sayısı. Özetin tamamını açmak için karta dokunun. Kapatmak için **×**'e dokunun. Bir sonraki özetle yeni kart gelir.
 
-## Bir parametre widget'ı nasıl okunur
+## Parametre widget'ı nasıl okunur
 
-**Ölçülen bir parametreyi** gösteren bir widget, aynı üç şeyi aynı yerlerde taşır. Cihaz ve kontrol kutuları (bir priz, bir dozaj birimi, bir pompa) bunun yerine kendi durumlarını gösterir, çünkü arkalarında tek bir okuma yoktur.
+**Ölçülen bir parametreyi** gösteren her widget'ta aynı üç bilgi hep aynı yerde durur. Priz, dozaj ünitesi ya da pompa gibi cihaz ve kontrol kutucuklarında ise tek bir ölçüm olmadığı için cihazın durumu görünür.
 
-**Değer**, okumanın kendisidir, büyük ve ortada.
+**Değer**, ölçümün kendisidir. Büyük harflerle ortada durur.
 
-**Yaş**, altında veya yanında oturur: `şimdi`, `1s`, `2g`. Bu, okumanın ne kadar önce alındığıdır, ekranın ne kadar önce yenilendiği değil. İki gündür değişmemiş bir sayı `2g` der, ve bu bir bilgidir.
+**Yaş**, değerin altında ya da yanında yazar: `şimdi`, `1 sa`, `2 g`. Bu, ekranın ne zaman yenilendiğini değil, ölçümün ne kadar önce alındığını gösterir. İki gündür değişmeyen bir sayının yanında `2 g` yazar. Bu da bir bilgidir.
 
-**Kaynak rozeti**, yaşın yanındaki küçük işarettir. Sayının nereden geldiğini söyler: bir prob, bir kontrolcü, bir lab sonucu, veya bir test kitiyle siz. Kaynağın açıkça belirtildiğini ve son geçmişini görmek için herhangi bir widget'a dokunun.
+**Kaynak rozeti**, yaşın yanındaki küçük işarettir. Sayının nereden geldiğini gösterir: prob, kontrol ünitesi, laboratuvar sonucu ya da test kitiyle sizin girdiğiniz ölçüm. Kaynağın açık adını ve yakın geçmişi görmek için widget'a dokunun.
 
 :::note Yaş neden bu kadar önemli
-Dört gün önceki mükemmel bir alkalinite okuması, geçerli bir alkalinite okuması değildir. Yaş, farkı bir bakışta anlayabilmeniz için her değerin yanında oturur.
+Dört gün önce ölçülmüş kusursuz bir alkalinite değeri, bugünün alkalinite değeri değildir. Farkı bir bakışta görebilmeniz için her değerin yanında yaşı yazar.
 :::
 
 ## Renkler
 
-Cora rengi tutumlu kullanır ve her zaman aynı şeyi ifade eder:
+Cora rengi az kullanır ve her renk hep aynı anlama gelir:
 
 | Renk | Anlamı |
 |---|---|
-| Yeşil | Bu parametre için aralığın rahatça içinde |
-| Amber | Bir kenara yakın: **genellikle hâlâ aralığın içinde**, son onda biri içinde |
-| Kırmızı | Kenarın ötesinde ve harekete geçmeye değer |
-| Gri | Bir hüküm yok: yakın zamanda okuma yok, veya karşılaştırılacak kullanılabilir bir aralık yok |
+| Yeşil | Değer bu parametrenin aralığının rahatça içinde |
+| Turuncu | Sınıra yakın: **genellikle hâlâ aralığın içinde**, aralığın son onda birlik kısmında |
+| Kırmızı | Sınır aşıldı, harekete geçmek gerekiyor |
+| Gri | Değerlendirme yok: yakın zamanda ölçüm yok ya da karşılaştırılacak bir aralık yok |
 
-:::note Amber genellikle "hâlâ iyi ama bir yere gidiyor" demektir
-Amber bir *pay*dır, bir ihlal değil. Aralığının içinde ama son %10'unda olan bir okuma bilerek amberlenir; böylece kayma, bir sorun haline geldiği anda değil, hâlâ harekete geçecek zaman varken görünür olur.
+:::note Turuncu genellikle "şimdilik iyi ama bir yöne gidiyor" demektir
+Turuncu bir *uyarı payıdır*, sınırın aşıldığı anlamına gelmez. Aralığın içinde ama son %10'luk kısmında kalan bir ölçüm bilerek turuncu gösterilir. Böylece kayma sorun olduğu anda değil, harekete geçmek için hâlâ vakit varken görünür.
 
 Bundan iki ayrıntı çıkar.
 
-**Kendinizin belirlediği bir aralık, beyan edilmiş bir sınır olarak ele alınır.** Onu geçin ve widget doğrudan kırmızıya döner: amber pay yoktur, çünkü o çizgiyi bilerek siz çizdiniz. **Cora'nın sağladığı** bir aralık daha yumuşak bir referanstır: onu geçmek, kenarın ötesindeki ilk %10 için amber gösterir ve bunun ötesinde kırmızıya döner.
+**Kendi belirlediğiniz aralık kesin bir sınır sayılır.** Değer bu sınırı geçerse widget doğrudan kırmızıya döner. Turuncu pay yoktur, çünkü o çizgiyi bilerek siz çektiniz. **Cora'nın önerdiği** aralık ise daha esnek bir referanstır. Sınırı geçen değer, sınırın ötesindeki ilk %10'da turuncu görünür, daha ötesinde kırmızıya döner.
 
-**Tek taraflı bir sınır** (bir kirletici tavanı veya bir besin zemini) yalnızca üst kenarında derecelendirilir; böylece sıfırdaki bakır, ölçeğin dibine yakın olduğu için amberlenmek yerine yeşil okur.
+**Tek yönlü sınırlar** (kirleticiler için üst sınır ya da besinler için alt sınır) yalnızca sınır tarafında değerlendirilir. Bu yüzden sıfırdaki bakır, ölçeğin en altında durduğu için turuncu olmaz, yeşil görünür.
 :::
 
-Amber veya kırmızıyla çevrelenmiş bir widget, ilgi gerektiren bir widget'tır. Çevre çizgisi sadece sayıda değil widget'ın kendisindedir, böylece kaydırırken görünür kalır.
+Turuncu ya da kırmızı çerçeveli widget ilgilenmeniz gereken widget'tır. Çerçeve yalnızca sayının değil, widget'ın tamamının etrafındadır. Böylece ekranı kaydırırken de gözünüze çarpar.
 
 ## Widget'ların altında
 
-![Panonun altı](img/mobile-dashboard-foot.webp "Gösterge panelini düzenle, Parametreleri Kaydet ve dört kayıt alanına kısayollar.")
+![Panonun alt kısmı](img/mobile-dashboard-foot.webp "Gösterge panelini düzenle, Parametreleri Kaydet ve dört kayıt alanının kısayolları.")
 
-Panonun altında:
+Panonun en altında şunlar var:
 
-- **Gösterge panelini düzenle**: [pano düzenleyicisini](/help/mobile-dashboard-editing) açar
-- **Parametreleri Kaydet**: test kiti okumalarını elle girin
-- **Günlük · Uyarılar · Bakım · Canlılar**: bu akvaryum için o alanlara kısayollar
+- **Gösterge panelini düzenle**: [pano düzenleyiciyi](/help/mobile-dashboard-editing) açar
+- **Parametreleri Kaydet**: test kiti sonuçlarını elle girersiniz
+- **Günlük · Uyarılar · Bakım · Canlılar**: bu akvaryumun ilgili bölümlerine kısayollar
 
-Üstlerindeki bir satır, panonun son ne zaman güncellendiğini ve hangi kaynaklardan beslendiğini gösterir.
+Bunların üstündeki satır panonun en son ne zaman güncellendiğini ve hangi kaynaklardan veri aldığını gösterir.
 
-## Dokunarak açma
+## Ayrıntılara geçme
 
-Ayrıntısını açmak için herhangi bir widget'a dokunun: tam geçmiş bir grafik olarak, onu bildiren her kaynak ve şu anda uygulanan eşikler. Oradan elle yeni bir okuma kaydedebilir, aralığı değiştirebilir veya daha geriye bakabilirsiniz.
+Ayrıntıları açmak için bir widget'a dokunun. Tüm geçmişi grafik olarak, değeri bildiren bütün kaynakları ve şu an geçerli olan eşikleri görürsünüz. Buradan elle yeni ölçüm girebilir, aralığı değiştirebilir ya da daha eskiye bakabilirsiniz.
 
-## Bir widget'ta değer yoksa
+## Widget'ta değer yoksa
 
-Bir widget, bir değer aldığında onu gösterir. Boşsa, neden genellikle şunlardan biridir:
+Widget, değer gelir gelmez onu gösterir. Widget boşsa nedeni genellikle şunlardan biridir:
 
-- Cihaz çevrimdışı; **Cihazlar** sekmesini kontrol edin
-- Parametrenin henüz bir kaynağı yok; elle kaydedin, veya onu bildiren ekipman bağlayın
-- Parametre hiç bildirilmedi veya kaydedilmedi; henüz onun için hiçbir şey kaydedilmedi
+- Cihaz çevrimdışı. **Cihazlar** sekmesine bakın
+- Parametrenin henüz bir kaynağı yok. Değeri elle girin ya da bu değeri ölçen ekipmanı bağlayın
+- Parametre için henüz hiç ölçüm gelmemiş ya da girilmemiş
 
-Grafik penceresi yaşından daha kısa olduğu için eski bir okuma kaybolmaz. Yaşı gösterilerek widget'ta kalır; böylece eski bir değer eksik gibi değil eski gibi okunur.
+Eski bir ölçüm, grafiğin zaman aralığından daha eski diye widget'tan kaybolmaz. Yaşıyla birlikte widget'ta kalır. Böylece eski bir değer eksik değil, eski olarak görünür.
 
-Bunların dışında herhangi bir şey için bkz. **[Sorun giderme](/help/troubleshooting)**.
+Bunların dışındaki durumlar için **[Sorun giderme](/help/troubleshooting)** sayfasına bakın.

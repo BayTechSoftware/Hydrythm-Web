@@ -1,49 +1,49 @@
 ---
 title: Tagebuch, Besatz und Wartung
-description: Die Aufzeichnungsbildschirme auf Cora Max, und wann du sie statt deines Handys nutzt.
+description: Tagebuch, Besatz und Wartung auf Cora Max und wann du dafür lieber zum Handy greifst.
 section: Cora Max
 reviewed: 2026-09-09
 order: 8
 group: Records
 ---
 
-Cora Max zeigt dieselben Aufzeichnungen wie das Handy, ist aber kein vollständiger Editor für alle davon. Was du an der Wand tun kannst, unterscheidet sich nach Bereich:
+Cora Max zeigt dieselben Aufzeichnungen wie dein Handy. Bearbeiten kannst du an der Wand aber nicht alles. Was geht, hängt vom Bereich ab:
 
 | Bereich | Auf Cora Max |
 |---|---|
 | **Tagebuch** | Einträge lesen und hinzufügen |
-| **Messwerte** | Testergebnisse über die Bildschirmtastatur protokollieren |
-| **Wartung** | Eine Aufgabe erledigen oder verschieben. Aufgaben erstellen und bearbeiten geschieht auf dem Handy |
-| **Besatz** | Nur zur Ansicht. Auf dem Handy hinzufügen und bearbeiten |
+| **Messwerte** | Testergebnisse über die Bildschirmtastatur eintragen |
+| **Wartung** | Eine Aufgabe erledigen oder verschieben. Aufgaben anlegen und bearbeiten kannst du nur auf dem Handy |
+| **Besatz** | Nur ansehen. Hinzufügen und bearbeiten kannst du auf dem Handy |
 
-Alles, was du hier hinzufügst, erscheint sofort auf deinem Handy, und umgekehrt.
+Was du hier einträgst, siehst du sofort auf dem Handy, und umgekehrt.
 
-Erreiche alle davon über das **Beckenmenü**: tippe auf den Beckennamen in der oberen Leiste.
+Alle Bereiche erreichst du über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen.
 
-![Wartung auf Cora Max](img/max-records.webp "Fällige Aufgaben, mit Verschieben und Fertig bei jeder, und was zuletzt erledigt wurde.")
+![Wartung auf Cora Max](img/max-records.webp "Fällige Aufgaben mit Verschieben und Fertig, darunter die zuletzt erledigten.")
 
 ## Tagebuch
 
-Füge einen Eintrag hinzu, ohne das Becken zu verlassen. Das ist meist die bequemere der beiden Optionen; der Wandbildschirm ist der Ort, an dem du stehst, wenn du die Arbeit erledigst.
+Einen Eintrag schreibst du, ohne vom Becken wegzugehen. Meist ist das hier bequemer als auf dem Handy, denn am Wandbildschirm stehst du ja gerade, wenn du am Becken arbeitest.
 
-Erreiche es über das **Beckenmenü** (tippe auf den Beckennamen in der oberen Leiste), und nutze dann **+**, um einen Eintrag hinzuzufügen, oder sag *"Hey Cora, protokolliere, dass ich Mysis gefüttert habe."* Siehe [Das Tagebuch](/help/mobile-journal).
+Öffne das **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) und tippe auf **+**, um einen Eintrag hinzuzufügen. Oder sag *„Hey Cora, notiere, dass ich Mysis gefüttert habe.“* Mehr dazu unter [Das Tagebuch](/help/mobile-journal).
 
-:::note Es gibt kein Tagebuch-Symbol in der oberen Leiste
-Das Symbol neben dem Geräte-Symbol ist **Reef Buddy**, und sein Punkt bedeutet, dass die heutige Zusammenfassung ungelesen ist. Tagebucheinträge werden über das Beckenmenü hinzugefügt, oder per Sprache.
+:::note In der oberen Leiste gibt es kein Tagebuch-Symbol
+Das Symbol neben dem Geräte-Symbol ist **Reef Buddy**. Sein Punkt bedeutet, dass du die heutige Zusammenfassung noch nicht gelesen hast. Tagebucheinträge fügst du über das Beckenmenü oder per Sprache hinzu.
 :::
 
 ## Besatz
 
-Das vollständige Inventar, nach Typ gruppiert, mit denselben Zuständen wie auf dem Handy, **hier nur zur Ansicht**. Besatz hinzuzufügen und zu bearbeiten geschieht in Cora Mobile; der dort erstellte Eintrag erscheint sofort auf diesem Bildschirm. Siehe [Besatz](/help/mobile-livestock).
+Hier siehst du deinen ganzen Besatz, nach Typ gruppiert und mit denselben Zuständen wie auf dem Handy. **An der Wand kannst du ihn nur ansehen.** Tiere hinzufügen und bearbeiten machst du in Cora Mobile. Was du dort einträgst, erscheint sofort auf diesem Bildschirm. Mehr dazu unter [Besatz](/help/mobile-livestock).
 
 ## Wartung
 
-Die Aufgabenliste mit ihrer Erfüllungszahl und der Anzahl überfälliger Aufgaben, und die Möglichkeit, eine Aufgabe als erledigt zu markieren, sobald du fertig bist. Siehe [Wartung](/help/mobile-maintenance).
+Du siehst die Aufgabenliste mit deiner Erledigungsquote und der Zahl überfälliger Aufgaben. Bist du mit einer Aufgabe fertig, hakst du sie direkt hier ab. Mehr dazu unter [Wartung](/help/mobile-maintenance).
 
-## Messwerte protokollieren
+## Messwerte eintragen
 
-Cora Max hat eine Bildschirmtastatur zur direkten Eingabe von Testergebnissen, sodass ein am Becken durchgeführter Test auch am Becken erfasst werden kann.
+Cora Max hat eine Bildschirmtastatur für Testergebnisse. Einen Test, den du am Becken machst, trägst du also auch gleich am Becken ein.
 
-:::note Aufzeichnungen werden geteilt, nicht verdoppelt
-Es gibt ein Tagebuch, ein Besatz-Inventar und eine Wartungsliste pro Becken. Cora Max und dein Handy sind zwei Ansichten derselben Aufzeichnungen.
+:::note Alle Geräte teilen dieselben Aufzeichnungen
+Pro Becken gibt es ein Tagebuch, eine Besatzliste und eine Wartungsliste. Cora Max und dein Handy zeigen nur dieselben Aufzeichnungen auf zwei Bildschirmen.
 :::

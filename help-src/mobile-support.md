@@ -1,49 +1,49 @@
 ---
 title: Getting help
-description: Report a problem from inside Cora Mobile, and what is sent with it.
+description: Report a problem from inside Cora Mobile, and see what gets sent with it.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Reporting a problem from inside Cora Mobile is more useful than describing it afterwards, because Cora Mobile can attach the details that are hard to remember.
+It's best to report a problem from inside Cora Mobile. Cora Mobile can then attach the details that are hard to remember later.
 
-**Settings → Report a Bug / Send Feedback.**
+Go to **Settings → Report a Bug / Send Feedback.**
 
 ## What you fill in
 
-The sheet asks two things: **what kind of thing it is**, so the report reaches the right place, and **what happened** in your own words.
+The form asks you two things. First, **what kind of thing it is**, so the report reaches the right person. Second, **what happened**, in your own words.
 
-Be specific about what you expected and what you saw instead. "Alkalinity showed 2 d old on the dashboard when the Apex was reading fine" is worth more than "readings broken".
+Say what you expected and what you saw. "Alkalinity showed 2 d old on the dashboard when the Apex was reading fine" helps far more than "readings broken".
 
 ## What is attached automatically
 
-A short line of context goes with every report, and the sheet shows it to you before you send:
+Every report includes a short line of context. The form shows it to you before you send.
 
-- the **app version**
+- the **Cora Mobile version**
 - your **platform** and OS version
-- the **screen** you were on when you opened the sheet
+- the **screen** you were on when you opened the form
 
-That is what turns "it did not work" into something reproducible. It is displayed rather than hidden, so nothing is sent that you have not seen.
+With that, we can usually reproduce what went wrong. It's shown on screen, so nothing goes out that you haven't seen.
 
 ## Screenshots
 
-**Attach a screenshot** adds an image to the report, and **Remove screenshot** takes it off again before sending.
+**Attach a screenshot** adds an image to the report. **Remove screenshot** takes it off again before you send.
 
-:::warning A screenshot is visible to Cora support
-Cora Mobile says so above the control. Check the image before attaching it; a dashboard screenshot carries your tank names and readings, and anything else on screen at the time.
+:::warning Cora support will see your screenshot
+Cora Mobile tells you this above the button. Check the image before you attach it. A dashboard screenshot shows your tank names and readings, plus anything else that was on screen.
 :::
 
-:::note Why there is no screenshot control in sitter mode
-When you are viewing somebody else's tank through a shared link, the screenshot option is not offered. A screenshot taken then would attach *their* data to *your* support ticket, and they would never see it had happened.
+:::note No screenshots in sitter mode
+When you're looking at someone else's tank through a shared link, you can't attach a screenshot. It would put *their* data in *your* support ticket, and they'd never know.
 :::
 
 ## Automatic crash reports
 
-**Send crash reports**, beside the report row, is the same promise made without you having to notice something broke and write it up: if Cora Mobile crashes, it reports the crash by itself. See [Settings](/help/mobile-settings).
+**Send crash reports**, next to the report row, does the same job without you having to notice something broke and write it up. If Cora Mobile crashes, it reports the crash on its own. See [Settings](/help/mobile-settings).
 
 ## Elsewhere
 
-- Questions about your own tank are usually faster through **[Cora Assistant](/help/mobile-assistant)**, which can see your readings.
-- Something not behaving as documented: **[Troubleshooting](/help/troubleshooting)** first.
+- Questions about your own tank are usually quicker to answer with [Cora Assistant](/help/mobile-assistant), since it can see your readings.
+- If something doesn't work the way this guide says, check [Troubleshooting](/help/troubleshooting) first.

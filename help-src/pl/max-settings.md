@@ -1,91 +1,91 @@
 ---
 title: Ustawienia Cora Max
-description: Ekran Settings na Cora Max: ustawienia gospodarstwa domowego, każde akwarium i wszystko o samym tym ekranie.
+description: Ekran Ustawienia na Cora Max: ustawienia wspólne dla domu, każde akwarium i wszystko, co dotyczy samego ekranu.
 section: Cora Max
 reviewed: 2026-09-27
 order: 13
 group: Settings
 ---
 
-Otwórz ustawienia **zębatką** po prawej stronie górnego paska.
+Ustawienia otworzysz **ikoną koła zębatego** po prawej stronie górnego paska.
 
-![Ustawienia Cora Max](img/max-settings.webp "Cora, potem Twoje akwaria, potem Cora Max Settings.")
+![Ustawienia Cora Max](img/max-settings.webp "Najpierw Cora, potem Twoje akwaria, a na końcu Ustawienia Cora Max.")
 
-Settings jest zorganizowane w trzy grupy: **CORA** (rzeczy stosujące się do całego gospodarstwa domowego urządzeń Cora), **AKWARIA** (jeden wiersz na akwarium) i jeden wiersz **Ustawienia Cora Max** dla wszystkiego o samym tym ekranie.
+Ustawienia mają trzy grupy. **CORA** dotyczy wszystkich urządzeń Cora w domu. W **AKWARIA** jest jeden wiersz na każde akwarium. Wiersz **Ustawienia Cora Max** zawiera wszystko, co dotyczy tylko tego ekranu.
 
-:::note Dwa rodzaje ustawień, celowo
-Niektóre ustawienia należą do Twojego **konta**: są takie same niezależnie od tego, z jakiego telefonu czy Cora Max na nie patrzysz, a zmiana jednego zmienia je wszędzie. Inne należą tylko do **tego ekranu**, takie jak jego własna jasność czy Wi-Fi. Grupy CORA i TANKS poniżej to ustawienia konta. Cora Max Settings, trzecia grupa, to własne ustawienia tego ekranu.
+:::note Dwa rodzaje ustawień
+Część ustawień należy do Twojego **konta**. Są takie same bez względu na to, na którym telefonie czy Cora Max je oglądasz, a zmiana w jednym miejscu działa wszędzie. Inne dotyczą tylko **tego ekranu**, na przykład jego jasność albo Wi-Fi. Grupy CORA i AKWARIA to ustawienia konta. Trzecia grupa, Ustawienia Cora Max, to ustawienia samego ekranu.
 :::
 
 ## CORA
 
-Rzeczy stosujące się do każdego urządzenia Cora na Twoim koncie, nie tylko tego jednego.
+Te ustawienia dotyczą wszystkich urządzeń Cora na Twoim koncie.
 
-| Wiersz | Otwiera |
+| Wiersz | Co otwiera |
 |---|---|
-| **Automatyzacje** | Każdą scenkę na każdym akwarium, z filtrem według akwarium. Zobacz [Scenki na Cora Max](/help/max-automation) |
-| **Urządzenia** | Sprzęt, którym steruje Cora, na każdym akwarium. Zobacz [Urządzenia i ich stan](/help/max-devices) |
-| **Cora Assistant** | Które urządzenie odpowiada, gdy ktoś mówi "Hey Cora". Zobacz [Rozmowa z Corą na Cora Max](/help/max-voice) |
+| **Automatyzacje** | Wszystkie sceny ze wszystkich akwariów, z filtrem według akwarium. Więcej w [Sceny na Cora Max](/help/max-automation) |
+| **Urządzenia** | Sprzęt, którym steruje Cora, we wszystkich akwariach. Więcej w [Urządzenia i ich stan](/help/max-devices) |
+| **Cora Assistant** | Które urządzenie odpowiada, gdy ktoś powie „Hey Cora”. Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice) |
 
-## TANKS
+## AKWARIA
 
-Jeden wiersz na akwarium, otwierający własne ustawienia tego akwarium:
+Każde akwarium ma tu swój wiersz. Otwiera on ustawienia tego akwarium:
 
-- **Progi alertów**: zdrowe pasmo dla każdej metryki. Zobacz [Alerty i progi](/help/mobile-alerts)
-- **Jednostki**: jakie jednostki to akwarium pokazuje dla zasolenia, temperatury, alkaliczności, objętości, fosforanu i azotanu. Wybranie **Auto** dla metryki pokazuje każdy odczyt w jednostce, w jakiej zapisało go jego źródło; wybranie konkretnej jednostki przelicza wszystko na tym akwarium na nią, na każdym ekranie i w tym, co mówi Asystent
-- **Główne Cora Max**: które urządzenie odpytuje sprzęt tego akwarium. Zobacz [Urządzenia i ich stan](/help/max-devices)
-- **Układ panelu**: układ Cora Max tego akwarium. Zobacz [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing)
-- Zapisy i raporty dla tego akwarium: **Dziennik**, **Konserwacja**, **Obsada**, **Reef Buddy**, **Raporty zdrowia** i **Raporty ICP**
+- **Progi alertów**: prawidłowy zakres dla każdego parametru. Więcej w [Alerty i progi](/help/mobile-alerts)
+- **Jednostki**: w jakich jednostkach to akwarium pokazuje zasolenie, temperaturę, alkaliczność, objętość, fosforany i azotany. Gdy dla parametru wybierzesz **Auto**, każdy odczyt pojawi się w jednostce, w której zapisało go źródło. Gdy wybierzesz konkretną jednostkę, wszystko w tym akwarium zostanie na nią przeliczone, na każdym ekranie i w tym, co mówi Asystent
+- **Główne Cora Max**: które urządzenie odpytuje sprzęt tego akwarium. Więcej w [Urządzenia i ich stan](/help/max-devices)
+- **Układ panelu**: układ pulpitu tego akwarium na Cora Max. Więcej w [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing)
+- Zapisy i raporty tego akwarium: **Dziennik**, **Konserwacja**, **Obsada**, **Reef Buddy**, **Raporty zdrowia** i **Raporty ICP**
 
-## Cora Max Settings: wszystko o tym ekranie
+## Ustawienia Cora Max: wszystko o tym ekranie
 
-Jeden wiersz na dole Settings, oznaczony nazwą tego urządzenia, otwiera wszystko, co opisuje **tylko ten ekran**. Jest zorganizowane w grupy:
+Ostatni wiersz w Ustawieniach, podpisany nazwą tego urządzenia, otwiera wszystko, co dotyczy **tylko tego ekranu**. Ustawienia są podzielone na grupy:
 
-| Grupa | Obejmuje |
+| Grupa | Co zawiera |
 |---|---|
-| **Ekran** | Jasność, licznik przygaszania i jego jasność, przygaszanie nocne, pokazywanie zegara i wybudzanie ekranu przy alarmie |
-| **Dźwięk i głos** | Wyjście audio (wbudowany głośnik, 3,5 mm albo Bluetooth), dźwięk alertu i jego głośność, wypowiadane alerty i **Nasłuchiwanie słowa aktywującego** włączone albo wyłączone |
-| **Reef Buddy** | Godzinę, w której pojawia się codzienny briefing, i czy jest czytany na głos |
-| **Blokada rodzicielska** | Włączona albo wyłączona, i opóźnienie przed zablokowaniem. Zobacz [Rozmowa z Corą na Cora Max](/help/max-voice) po to, jak ją odblokować |
-| **Powiadomienia** | Historię powiadomień, skrzynkę dla całego konta z każdym briefingiem, alarmem i powiadomieniem konta |
-| **Język** | Jeden język, którego używa całe Twoje konto. Zobacz notatkę poniżej |
-| **Sieć i aktualizacje** | Wi-Fi, aktualizacje firmware i linię tylko do odczytu pokazującą, jak często to urządzenie odpytuje Twoje urządzenia (ustawiane z Cora Mobile) |
-| **Stan** | Jedną kartę na akwarium, które ten ekran pokazuje: stan odpytywania, ostatnie odpytanie i ostatni zapis do chmury. Tylko do odczytu |
-| **Help & About** | Help & Support i About (wersja aplikacji i **Licencje**) |
-| **Resetuj** | Ponowne sparowanie urządzenia i ustawienia fabryczne |
+| **Ekran** | Jasność, czas do przygaszenia i jasność po przygaszeniu, przygaszanie nocne, wyświetlanie zegara i wybudzanie ekranu przy alarmie |
+| **Dźwięk i głos** | Wyjście audio (wbudowany głośnik, 3,5 mm albo Bluetooth), dźwięk alertu i jego głośność, alerty czytane na głos oraz włączanie i wyłączanie **Nasłuchiwanie słowa aktywującego** |
+| **Reef Buddy** | Godzina, o której pojawia się codzienny briefing, i czy ma być czytany na głos |
+| **Blokada rodzicielska** | Włączenie lub wyłączenie i czas, po którym ekran się blokuje. Jak odblokować ekran, przeczytasz w [Rozmowa z Corą na Cora Max](/help/max-voice) |
+| **Powiadomienia** | Historia powiadomień, czyli skrzynka całego konta z każdym briefingiem, alarmem i komunikatem konta |
+| **Język** | Jeden język dla całego konta. Zobacz notatkę niżej |
+| **Sieć i aktualizacje** | Wi-Fi, aktualizacje oprogramowania i informacja (tylko do odczytu), jak często to urządzenie odpytuje Twój sprzęt. Tę wartość ustawiasz w Cora Mobile |
+| **Stan** | Po jednej karcie na każde akwarium widoczne na tym ekranie: stan odpytywania, ostatnie odpytanie i ostatni zapis w chmurze. Tylko do odczytu |
+| **Pomoc i o aplikacji** | **Pomoc i wsparcie** oraz **O aplikacji** (wersja aplikacji i **Licencje**) |
+| **Reset** | Ponowne sparowanie urządzenia i przywrócenie ustawień fabrycznych |
 
-:::note Język jest ustawieniem konta, nie ekranu
-Zmiana języka w **Język** zmienia go dla całego Twojego konta: każdy telefon i każde Cora Max przełącza się razem. Nowe raporty, alerty i briefingi używają nowego języka. Raporty i alerty już napisane zostają w języku, w którym zostały napisane; nie są tłumaczone na nowo.
+:::note Język ustawiasz dla konta, a nie dla ekranu
+Zmiana w **Język** działa na całym koncie. Wszystkie telefony i wszystkie Cora Max zmieniają język jednocześnie. Nowe raporty, alerty i briefingi są już w nowym języku. Raporty i alerty napisane wcześniej zostają w swoim pierwotnym języku i nie są tłumaczone ponownie.
 :::
 
-![Historia powiadomień na Cora Max](img/max-notifications.webp "Alarmy i ich zamknięcia, od najnowszych, dla każdego akwarium.")
+![Historia powiadomień na Cora Max](img/max-notifications.webp "Alarmy i powroty do normy, od najnowszych, ze wszystkich akwariów.")
 
-Zamknięcia są zapisywane tak samo jak alarmy, więc parametr, który wyszedł poza zakres i wrócił, jest odczytywany jako zamknięta para, a nie niewyjaśnione ostrzeżenie.
+Historia zapisuje zarówno alarmy, jak i powroty do normy. Parametr, który wyszedł poza zakres i wrócił, widać więc jako zamkniętą parę, a nie jako niewyjaśnione ostrzeżenie.
 
 ## Parowanie, ponowne parowanie i ustawienia fabryczne
 
-**Ustawienia Cora Max → Resetuj** pokazuje, do czego ten ekran jest aktualnie przypisany, i oferuje dwie akcje:
+**Ustawienia Cora Max → Reset** pokazuje, z czym ten ekran jest teraz połączony, i ma dwie opcje.
 
-**Sparuj urządzenie ponownie** czyści parowanie tego ekranu i wysyła go z powrotem na ekran parowania.
+**Sparuj urządzenie ponownie** usuwa parowanie tego ekranu i wraca do ekranu parowania.
 
-**Ustawienia fabryczne** czyści też każdą preferencję zapisaną na tym ekranie. Jego potwierdzenie mówi dokładnie, co jest czyszczone i co zostaje.
+**Ustawienia fabryczne** usuwa też wszystkie preferencje zapisane na tym ekranie. Okno potwierdzenia dokładnie opisuje, co zostanie usunięte, a co zostanie.
 
-Obydwie zachowują dane akwarium już zapisane w Cora Cloud. Obydwie też usuwają to Cora Max z Twojego konta i sprawiają, że zapomina swoją sieć Wi-Fi, więc parujesz je ponownie z Cora Mobile, tak jak nowe urządzenie. Jeśli Cora Max nie może dosięgnąć Cora Cloud, aby się usunąć, mówi Ci, że wciąż jest wypisane w Cora Mobile: otwórz je tam w **Urządzenia** i wybierz **Usuń urządzenie**.
+W obu przypadkach dane akwarium zapisane w Cora Cloud zostają. Obie opcje usuwają też ten Cora Max z Twojego konta, a urządzenie zapomina swoją sieć Wi-Fi. Trzeba je potem sparować w Cora Mobile od nowa, jak nowe urządzenie. Jeśli Cora Max nie może połączyć się z Cora Cloud, żeby się usunąć, poinformuje Cię, że dalej jest na liście w Cora Mobile. Otwórz go wtedy w **Urządzenia** i wybierz **Usuń urządzenie**.
 
-![Potwierdzenie ustawień fabrycznych](img/max-factory-reset.webp "Okno mówi, co jest czyszczone, a co przetrwa, przed zatwierdzeniem.")
+![Potwierdzenie przywrócenia ustawień fabrycznych](img/max-factory-reset.webp "Zanim potwierdzisz, okno pokazuje, co zostanie usunięte, a co zostanie.")
 
-:::warning Reset czyści ekran, nie Twoje dane
-Factory reset usuwa zapis parowania i każdą preferencję na urządzeniu i przywraca urządzenie do jego ekranu parowania. **Dane akwarium już zapisane na Twoim koncie są zachowywane**; sparuj urządzenie ponownie do akwarium, a pojawią się z powrotem. To, co utracisz, to własna konfiguracja tego ekranu: jego Wi-Fi, ustawienia ekranu, dźwięku i głosu.
+:::warning Reset czyści ekran, a nie Twoje dane
+Przywrócenie ustawień fabrycznych usuwa zapis parowania i wszystkie preferencje zapisane na urządzeniu, a potem wraca do ekranu parowania. **Dane akwarium zapisane na Twoim koncie zostają**. Gdy znów sparujesz urządzenie z akwarium, wszystko wróci. Tracisz tylko konfigurację samego ekranu: Wi-Fi oraz ustawienia ekranu, dźwięku i głosu.
 :::
 
-:::note Twoje układy mogą jednak przetrwać
-Przed resetem Cora Max archiwizuje swoją konfigurację. Jeśli potem sparujesz urządzenie z powrotem do **tego samego akwarium**, proponuje **Przywrócić poprzedni układ dla tego akwarium?**. Przyjmij to albo wybierz **Zacznij od nowa**, jeśli wyczyszczenie ekranu było celem.
+:::note Układy pulpitu mogą jednak przetrwać
+Przed resetem Cora Max archiwizuje swoją konfigurację. Jeśli potem sparujesz urządzenie z **tym samym akwarium**, zobaczysz pytanie **Przywrócić poprzedni układ dla tego akwarium?**. Zgódź się albo wybierz **Zacznij od nowa**, jeśli chcesz mieć czysty ekran.
 :::
 
 ## Które akwaria pokazuje ten ekran
 
-Cora Max może pokazywać jedno akwarium albo kilka, i przełączasz się między nimi z górnego paska. **Sam zestaw jest wybierany z Twojego telefonu**, w **Urządzenia → Twój Cora Max**, nie z tego ekranu.
+Cora Max może pokazywać jedno akwarium albo kilka, a przełączasz się między nimi z górnego paska. **Zestaw akwariów wybierasz na telefonie** w **Urządzenia → Twój Cora Max**, a nie na tym ekranie.
 
 ## Aktualizacje
 
-Cora Max utrzymuje się na bieżąco. Nowe wersje pobierają się w tle i instalują się same, a Ty jesteś informowany, co się zmieniło. Jeśli wersja właśnie przyszła, podpowiedź pojawia się na ekranie. Nie musisz robić niczego, aby być na bieżąco. Zobacz **[Aktualizacje i przywracanie](/help/max-updates)**.
+Cora Max sam dba o aktualne oprogramowanie. Nowe wersje pobierają się w tle i same się instalują, a Ty dostajesz informację, co się zmieniło. Gdy nowa wersja właśnie się pojawi, zobaczysz okno na ekranie. Nie musisz nic robić, żeby mieć najnowszą wersję. Więcej w [Aktualizacje i tryb odzyskiwania](/help/max-updates).

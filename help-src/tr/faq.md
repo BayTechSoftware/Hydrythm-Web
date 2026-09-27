@@ -1,367 +1,367 @@
 ---
 title: Sıkça sorulan sorular
-description: Kurulum, Cora Max, telefon uygulaması, cihazlar, uyarılar, Reef Buddy ve Cora Assistant, diller ve hesabınız hakkında hızlı yanıtlar.
+description: Kurulum, Cora Max, telefon uygulaması, cihazlar, uyarılar, Reef Buddy ve Cora Assistant, diller ve hesabınızla ilgili kısa cevaplar.
 section: Help
 reviewed: 2026-09-27
 order: 0
 ---
 
-Önce kısa yanıtlar, ayrıntılar için tam sayfaya bir bağlantıyla. Sorunuz gerçekten "bir şey yanlış görünüyor" ise, bunun yerine doğrudan [Sorun giderme](/help/troubleshooting)'ye gidin.
+Burada önce kısa cevabı bulursunuz. Ayrıntılar için her cevabın altında ilgili sayfanın bağlantısı var. Sorunuz aslında "bir şey ters gidiyor" ise doğrudan [Sorun giderme](/help/troubleshooting) sayfasına gidin.
 
 ## Başlarken
 
-### Cora'yı kullanmak için ne satın almam gerekir?
+### Cora'yı kullanmak için ne almam gerekiyor?
 
-Başlamak için sadece bir telefon yeterlidir: Cora Mobile akvaryumlarınızı, cihazlarınızı ve uyarılarınızı kendi başına işletir. Bir Cora Max, reef odası için isteğe bağlı bir duvar ekranıdır, bir gereklilik değil.
+Başlamak için telefon yeter. Cora Mobile akvaryumlarınızı, cihazlarınızı ve uyarılarınızı tek başına yönetir. Cora Max ise reef odası için duvar ekranıdır. İsterseniz alırsınız, şart değildir.
 
-Daha fazlası: [Cora Yardım](/help/)
+Ayrıntılar [Cora Yardım](/help/) sayfasında.
 
-### Bir Cora Max tablete ihtiyacım var mı, yoksa sadece telefon uygulamasını kullanabilir miyim?
+### Cora Max şart mı, telefon uygulaması yeter mi?
 
-Sadece telefon uygulaması yeter. Her temel özellik (akvaryumlar, cihazlar, panolar, uyarılar, dozaj) önce Cora Mobile'da yaşar ve Cora Max sadece aynı akvaryumları daha büyük bir ekranda, ses eklenmiş olarak gösterir.
+Telefon uygulaması tek başına yeter. Akvaryumlar, cihazlar, panolar, uyarılar ve dozaj gibi tüm temel özellikler önce Cora Mobile'da bulunur. Cora Max aynı akvaryumları daha büyük bir ekranda gösterir ve üstüne sesli komut ekler.
 
-Daha fazlası: [Cora Yardım](/help/), [Cora Mobile'ı kurma](/help/mobile-setup)
+Ayrıntılar [Cora Yardım](/help/) ve [Cora Mobile kurulumu](/help/mobile-setup) sayfalarında.
 
 ### İlk akvaryumumu nasıl eklerim?
 
-Cora Mobile sizi bu süreçten geçirir: hesabınızı oluşturun, ardından bir akvaryum ekleyin ve profil sorularını yanıtlayın. Cihazlar ve panolar akvaryum var olduktan sonra gelir.
+Cora Mobile size adım adım yol gösterir. Hesabınızı açın, akvaryum ekleyin ve profil sorularını cevaplayın. Cihazları ve panoları akvaryumu ekledikten sonra kurarsınız.
 
-Daha fazlası: [Cora Mobile'ı kurma](/help/mobile-setup)
+Ayrıntılar [Cora Mobile kurulumu](/help/mobile-setup) sayfasında.
 
-### "Akvaryum profili" ne anlama gelir ve neden bu kadar çok soru sorar?
+### "Akvaryum profili" ne demek, neden bu kadar çok soru soruyor?
 
-Akvaryum profili, sisteminizin temel açıklamasıdır: boyut, su türü, canlılar ve nasıl dozajladığınız ile test ettiğiniz. Cora bu yanıtları makul başlangıç eşikleri belirlemek ve Reef Buddy ile Cora Assistant yanıtlarını genel değil sizin akvaryumunuza özel yapmak için kullanır.
+Akvaryum profili sisteminizin temel tanımıdır: boyutu, su türü, canlılar, nasıl dozaj yapıp nasıl test ettiğiniz. Cora bu cevaplarla makul başlangıç eşikleri belirler. Reef Buddy ve Cora Assistant da genel geçer cevaplar yerine sizin akvaryumunuza özel cevaplar verir.
 
-Daha fazlası: [Akvaryum profili](/help/mobile-tank-profile)
+Ayrıntılar [Akvaryum profili](/help/mobile-tank-profile) sayfasında.
 
 ### Kurulum ne kadar sürer?
 
-Henüz ekipmanı olmayan tek bir akvaryum birkaç dakika sürer. Gerçek cihazlar (problar, kontrolcüler, pompalar) eklemek, her birinin kendi eşleştirme adımına ihtiyacı olduğu için daha uzun sürer; her zaman daha sonra daha fazla ekleyebilirsiniz.
+Henüz ekipmanı olmayan tek bir akvaryum birkaç dakikada kurulur. Prob, kontrol cihazı, pompa gibi gerçek cihazları eklemek biraz daha uzun sürer, çünkü her birini ayrıca eşleştirmeniz gerekir. Cihaz eklemeye sonra da devam edebilirsiniz.
 
-Daha fazlası: [Cora Mobile'ı kurma](/help/mobile-setup)
+Ayrıntılar [Cora Mobile kurulumu](/help/mobile-setup) sayfasında.
 
 ## Cora Max
 
-### Bir Cora Max birden fazla akvaryumu gösterebilir mi?
+### Bir Cora Max birden çok akvaryum gösterebilir mi?
 
-Evet. Tek bir Cora Max, hesabınızdaki her akvaryumu, bir kerede bir tanesini, gösterebilir ve Reef Room görünümü hepsini birlikte gösterir.
+Evet. Tek bir Cora Max hesabınızdaki tüm akvaryumları tek tek gösterebilir. Reef Room ekranı ise hepsini bir arada gösterir.
 
-Daha fazlası: [Reef Room](/help/max-reef-room)
+Ayrıntılar [Reef Room](/help/max-reef-room) sayfasında.
 
-### "Birincil Cora Max" nedir ve onu ayarlamam gerekir mi?
+### "Birincil Cora Max" nedir, ayarlamam gerekir mi?
 
-Birincil Cora Max, hangi tabletin bir akvaryumun yerel ekipmanıyla konuştuğuna karar verir. Çoğu kişi buna hiç dokunmaz: bir tabletle seçilecek bir şey yoktur ve varsayılan **Aktif olan herhangi biri (otomatik)**, her çevrimiçi Cora Max'in işi otomatik olarak paylaşmasına izin verir. Yalnızca tek bir cihazın yoklamasını istiyorsanız belirli bir tableti sabitleyin.
+Birincil Cora Max, akvaryumun yerel ekipmanıyla hangi tabletin konuşacağını belirler. Çoğu kişi bu ayara hiç dokunmaz. Tek tabletiniz varsa seçecek bir şey yoktur. Varsayılan ayar olan **Aktif olan herhangi biri (otomatik)** ile de tüm çevrimiçi Cora Max'ler işi kendiliğinden paylaşır. Yoklamayı yalnızca tek bir cihazın yapmasını istiyorsanız o tableti sabitleyin.
 
-Daha fazlası: [Birden fazla Cora cihazı](/help/mobile-multi-device)
+Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında.
 
-### Birden fazla Cora Max'im varsa "Hey Cora"yı hangi cihaz yanıtlar?
+### Birden çok Cora Max'im varsa "Hey Cora"ya hangisi cevap verir?
 
-Aynı anda yalnızca bir Cora cihazı uyandırma ifadesini yanıtlar; Ayarlar'da **Cora Assistant** altında seçilir. Bu, Birincil Cora Max'ten ayrı bir seçimdir: biri sesle ilgilidir, diğeri ekipmanınızla konuşmakla.
+Uyandırma sözüne aynı anda yalnızca bir Cora cihazı cevap verir. Hangisi olacağını Ayarlar'da **Cora Assistant** altında seçersiniz. Bu seçim Birincil Cora Max'ten ayrıdır. Biri sesle, diğeri ekipmanınızla konuşmakla ilgilidir.
 
-Daha fazlası: [Cora Max'te ses](/help/max-voice), [Birden fazla Cora cihazı](/help/mobile-multi-device)
+Ayrıntılar [Cora Max'te ses](/help/max-voice) ve [Birden çok Cora cihazı](/help/mobile-multi-device) sayfalarında.
 
-### Cora Max çalışmak için internete mi ihtiyaç duyar, yoksa sadece ev Wi-Fi'ime mi?
+### Cora Max için internet mi gerekli, ev Wi-Fi'm yeter mi?
 
-Cora Max, ekipmanınıza ulaşmak için ev Wi-Fi'inize ihtiyaç duyar ve oturum açma, senkronizasyon ve Assistant için Cora Cloud'a ulaşmak için bir internet bağlantısına ihtiyaç duyar. Üst çubuktaki durum hapı, şu anda hangisine sahip olduğunu size söyler.
+Cora Max ekipmanınıza ulaşmak için ev Wi-Fi'nize ihtiyaç duyar. Giriş, eşitleme ve Assistant için Cora Cloud'a ulaşması gerekir, bunun için de internet bağlantısı şarttır. Hangisinin şu anda çalıştığını üst çubuktaki durum etiketi gösterir.
 
-Daha fazlası: [Cora Max ana ekranı](/help/max-tour)
+Ayrıntılar [Cora Max ana ekranı](/help/max-tour) sayfasında.
 
-### Cora Cloud'a ulaşılamazsa Cora Max çalışmayı sürdürür mü?
+### Cora Cloud'a ulaşılamazsa Cora Max çalışmaya devam eder mi?
 
-Cora Max, elindeki son veriyi göstermeyi ve kendi ağındaki ekipmanla çalışmayı sürdürür, ama oturum açma, cihazlar arası senkronizasyon ve Assistant'ın yeniden çalışması için Cora Cloud'un geri gelmesi gerekir.
+Cora Max elindeki son veriyi göstermeye ve kendi ağındaki ekipmanla çalışmaya devam eder. Ama giriş, cihazlar arası eşitleme ve Assistant, Cora Cloud'a yeniden ulaşılana kadar çalışmaz.
 
-Daha fazlası: [Cora Max ana ekranı](/help/max-tour), [Cihazlar ve cihaz sağlığı](/help/max-devices)
+Ayrıntılar [Cora Max ana ekranı](/help/max-tour) ve [Cihazlar ve cihaz sağlığı](/help/max-devices) sayfalarında.
 
-### Cora Max'imi daha sonra farklı bir Wi-Fi ağına taşıyabilir miyim?
+### Cora Max'imi daha sonra başka bir Wi-Fi ağına taşıyabilir miyim?
 
-Evet, Cora Max'in kendisinden: kendi ağ ayarları altında yeni ağa katılın. Akvaryumlarınız, cihazlarınız ve hesabınız aynı kalır; yalnızca Wi-Fi bağlantısı değişir.
+Evet, Cora Max'in kendisinden. Ağ ayarlarından yeni ağa bağlanın. Akvaryumlarınız, cihazlarınız ve hesabınız aynı kalır, yalnızca Wi-Fi bağlantısı değişir.
 
-Daha fazlası: [Cora Max'i kurma](/help/max-setup)
+Ayrıntılar [Cora Max'i kurma](/help/max-setup) sayfasında.
 
 ## Telefon uygulaması
 
-### Cora Mobile neden Yerel Ağ ve Bluetooth erişimi ister?
+### Cora Mobile neden Yerel Ağ ve Bluetooth izni istiyor?
 
-Cora Mobile, ev ağınızda bir Cora Max veya Wi-Fi ekipmanını bulup eşleştirmek için Yerel Ağ erişimine, ve bu şekilde eşleşen ekipman için Bluetooth erişimine ihtiyaç duyar. Bunlar olmadan, eşleştirme cihazı basitçe bulamaz.
+Cora Mobile, ev ağınızdaki Cora Max'i ya da Wi-Fi ekipmanını bulup eşleştirmek için Yerel Ağ iznine ihtiyaç duyar. Bluetooth ile eşleşen ekipman için de Bluetooth iznine. Bu izinler olmazsa eşleştirme sırasında cihaz bulunamaz.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Ayarlar](/help/mobile-settings) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
-### İki Cora Max tableti aynı akvaryumu gösterebilir mi?
+### İki Cora Max tablet aynı akvaryumu gösterebilir mi?
 
-Evet. İkisini de aynı akvaryuma ekleyin ve her biri aynı canlı veriyi gösterir; Birincil Cora Max yalnızca hangisinin yerel ekipmanla konuştuğuna karar verir, hangisinin akvaryumu gösterebildiğine değil.
+Evet. İkisine de aynı akvaryumu ekleyin, ikisi de aynı canlı veriyi gösterir. Birincil Cora Max yalnızca yerel ekipmanla hangisinin konuşacağını belirler. Akvaryumu hangisinin gösterebileceğini belirlemez.
 
-Daha fazlası: [Birden fazla Cora cihazı](/help/mobile-multi-device)
+Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında.
 
-### Evde değilken akvaryumumu telefonumdan kontrol edebilir miyim?
+### Evde değilken akvaryumuma telefonumdan bakabilir miyim?
 
-Evet, okumalar ve geçmiş nerede olursanız olun her zaman Cora Cloud üzerinden kullanılabilir. Birkaç cihaza özel ayar (okumaların aksine) yalnızca telefonunuz cihazın kendisiyle aynı ağdayken açılır.
+Evet. Ölçümler ve geçmiş, nerede olursanız olun Cora Cloud üzerinden her zaman açılır. Yalnızca cihaza özel birkaç ayar, telefonunuz cihazla aynı ağdayken açılır. Ölçümler için bu şart yoktur.
 
-Daha fazlası: [Birden fazla Cora cihazı](/help/mobile-multi-device)
+Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında.
 
-### Evden uzaktayken bir pompayı kapatmak gibi ekipmanı kontrol edebilir miyim?
+### Evden uzaktayken ekipmanı kontrol edebilir miyim, örneğin pompayı kapatabilir miyim?
 
-Çoğu ekipman için evet: prizler, besleme modu ve benzer kontroller Cora Cloud üzerinden gider, bu yüzden akvaryumunuzun ağının dışında da çalışır. Birkaç cihaza özel ayar hâlâ telefonunuzun akvaryumun kendi Wi-Fi'inde olmasını gerektirir.
+Çoğu ekipman için evet. Prizler, besleme modu ve benzeri kontroller Cora Cloud üzerinden gider, bu yüzden akvaryumun ağı dışında da çalışır. Cihaza özel birkaç ayar için ise telefonunuzun akvaryumun Wi-Fi'sine bağlı olması gerekir.
 
-Daha fazlası: [Birden fazla Cora cihazı](/help/mobile-multi-device), [Ekipmanınızı kontrol etme](/help/mobile-device-control)
+Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) ve [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfalarında.
 
 ### İki kişi aynı akvaryumu kullanabilir mi?
 
-Cora bugün akvaryum başına bir hesap etrafında kurulmuştur. Başka birinin bir akvaryumu görmesini veya yardım etmesini istiyorsanız, onu paylaşmak, aynı hesaba iki telefonda oturum açmak yerine desteklenen yoldur.
+Cora şu anda her akvaryum için tek bir hesapla çalışır. Başka birinin akvaryumu görmesini ya da size yardım etmesini istiyorsanız akvaryumu onunla paylaşın. Aynı hesaba iki telefondan giriş yapmak desteklenen yol değildir.
 
-Daha fazlası: [Paylaşma](/help/mobile-sharing)
+Ayrıntılar [Paylaşma](/help/mobile-sharing) sayfasında.
 
 ## Cihazlar ve entegrasyonlar
 
 ### Cora hangi ekipmanla çalışır?
 
-Cora, Wi-Fi kontrolcülerinden dozaj pompalarına ve gyre'lere kadar büyüyen bir kontrolcü ve ekipman listesiyle entegre olur. Geçerli liste bağlantılar sayfasındadır ve Cora, doğrudan bağlanmadığı her şey için elle kaydedilen okumaları da destekler.
+Cora, Wi-Fi kontrol cihazlarından dozaj pompalarına ve gyre'lere kadar giderek büyüyen bir ekipman listesiyle çalışır. Güncel liste Bağlantılar sayfasında. Cora'nın doğrudan bağlanmadığı her şey için ölçümleri elle de girebilirsiniz.
 
-Daha fazlası: [Bağlantılar](/help/mobile-connections)
+Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 
-### Cora, Neptune, Red Sea, Jebao veya Maxspect ile ilişkili mi?
+### Cora'nın Neptune, Red Sea, Jebao ya da Maxspect ile bir bağı var mı?
 
-Hayır. Cora, entegrasyonu hâlâ beta aşamasında olan Maxspect dahil, bağlandığı hiçbir ekipman üreticisiyle ilişkili değildir, onlar tarafından onaylanmamıştır veya ortaklık kurmamıştır. Cora onların herkese açık hesaplarıyla veya yerel ağ protokolleriyle konuşur ve bir üreticinin kendi uygulaması veya yazılım güncellemesi, kendi tarafında, bildirimde bulunmadan bu bağlantıyı herhangi bir zamanda değiştirebilir veya bozabilir.
+Hayır. Cora, bağlandığı hiçbir ekipman üreticisiyle bağlantılı değildir. Bu üreticiler Cora'yı onaylamamıştır ve Cora'nın ortağı da değildir. Entegrasyonu hâlâ beta aşamasında olan Maxspect de buna dahildir. Cora bu üreticilerin herkese açık hesaplarını ya da yerel ağ protokollerini kullanır. Üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı istediği zaman, haber vermeden değiştirebilir ya da bozabilir.
 
-Daha fazlası: [Bağlantılar](/help/mobile-connections)
+Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 
-### Cora Mobile, eşleştirmeye çalıştığımda Cora Max'imi neden bulamıyor?
+### Eşleştirmeye çalışırken Cora Mobile, Cora Max'imi neden bulamıyor?
 
-Neredeyse her zaman Wi-Fi: telefonunuz ve Cora Max, eşleştirme için aynı ağda olmalıdır ve iPhone'da Cora'nın Yerel Ağ erişimine de ihtiyacı vardır. Cora Mobile hangi eşleştirme adımının başarısız olduğunu gösterir ve size bir **Tekrar dene** verir.
+Neredeyse her zaman sorun Wi-Fi'dir. Eşleştirme için telefonunuzla Cora Max'in aynı ağda olması gerekir. iPhone'da Cora'nın ayrıca Yerel Ağ iznine ihtiyacı vardır. Cora Mobile hangi eşleştirme adımının başarısız olduğunu gösterir ve size **Tekrar dene** düğmesi sunar.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) sayfasında.
 
-### Telefonumun Cora Max'imle aynı Wi-Fi'de olması gerekir mi?
+### Telefonumun Cora Max'le aynı Wi-Fi'de olması gerekir mi?
 
-Onu eşleştirmek için, evet. Eşleştirildikten sonra, günlük kullanım her yerden Cora Cloud üzerinden çalışır; sadece bir avuç cihaza özel ayarın telefonun o Wi-Fi'ye geri dönmesi gerekir.
+Eşleştirme için evet. Eşleştirdikten sonra günlük kullanım her yerden Cora Cloud üzerinden çalışır. Yalnızca cihaza özel birkaç ayar için telefonun yine o Wi-Fi'ye bağlanması gerekir.
 
-Daha fazlası: [Birden fazla Cora cihazı](/help/mobile-multi-device), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
-### Wi-Fi yönlendiricimi veya ağ adımı değiştirirsem ne olur?
+### Modemimi ya da ağ adımı değiştirirsem ne olur?
 
-O ağ üzerinden bağlanan herhangi bir ekipman veya Cora Max, yeni ağa veya ada yeniden katılana kadar erişilemez olur. Cihazı ilk eklediğiniz şekilde yeniden katılın.
+O ağ üzerinden bağlanan ekipmana ve Cora Max'e, yeni ağa ya da yeni ağ adına bağlanana kadar ulaşılamaz. Cihazı ilk eklediğiniz gibi yeni ağa bağlayın.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) sayfasında.
 
 ### Ekipman ararken cihazım hiçbir şey bulamadı, sorun ne?
 
-Ekipmanın açık olduğunu ve gerekiyorsa kendi üretici uygulamasında zaten kurulmuş olduğunu, ve telefonunuzun Yerel Ağ ve Bluetooth erişimine izin verdiğini kontrol edin. Ağınıza hiç katılmamış ekipman, katılana kadar bulunamaz.
+Ekipmanın açık olduğunu kontrol edin. Üreticinin kendi uygulamasında kurulum gerekiyorsa bu kurulumun yapıldığından emin olun. Telefonunuzda Yerel Ağ ve Bluetooth izinlerinin açık olduğuna da bakın. Ağınıza hiç bağlanmamış ekipman, bağlanana kadar bulunamaz.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Ayarlar](/help/mobile-settings) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
-### Red Sea cihazımın okumaları neden güncellenmeyi durdurdu?
+### Red Sea cihazımın ölçümleri neden güncellenmiyor?
 
-Bu akvaryumun ağındaki hiçbir şey şu anda Red Sea ekipmanınızı yoklamıyorsa Cora, hiçbir cihazın şu anda onu okumadığını söyleyen bir banner gösterir. Ayarlar'da Birincil Cora Max'i kontrol edin, veya akvaryumu Red Sea ekipmanıyla aynı Wi-Fi'deki bir cihazda açın.
+O akvaryumun ağındaki hiçbir cihaz Red Sea ekipmanınızı yoklamıyorsa Cora bir uyarı bandı gösterir. Bantta şu anda hiçbir cihazın ekipmanı okumadığı yazar. Ayarlar'da Birincil Cora Max'i kontrol edin ya da akvaryumu, Red Sea ekipmanıyla aynı Wi-Fi'deki bir cihazda açın.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting), [Birden fazla Cora cihazı](/help/mobile-multi-device)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) ve [Birden çok Cora cihazı](/help/mobile-multi-device) sayfalarında.
 
-### Jecod pompamı kontrol etmeye çalıştığımda neden "Pompaya ulaşılamadı" diyor?
+### Jecod pompamı kontrol etmeye çalışınca neden "Pompaya ulaşılamadı" yazıyor?
 
-Komut pompaya hiç ulaşmadı, genellikle kapalı olduğu, ağının dışında olduğu, veya (sadece Bluetooth pompası için) menzil dışında olduğu için. Gücünü ve bağlantısını kontrol edin, Bluetooth üzerinden eşleşiyorsa daha yakına gidin, ardından yeniden deneyin.
+Komut pompaya hiç ulaşmamıştır. Genellikle pompa kapalıdır, ağının dışındadır ya da yalnızca Bluetooth ile çalışan bir pompaysa menzil dışındadır. Gücünü ve bağlantısını kontrol edin. Bluetooth ile eşleşiyorsa pompaya yaklaşın ve yeniden deneyin.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) sayfasında.
 
 ### Gyre programı neden uygulanmıyor?
 
-Bir gyre'ye zamanlama push'u, bir komutun başarısız olabileceği gibi başarısız olabilir: gyre yanıt vermedi. Açık ve ağında olduğunu kontrol edin, ardından zamanlama ekranından yeniden deneyin.
+Gyre'ye zamanlama göndermek de tıpkı bir komut gibi başarısız olabilir. Gyre cevap vermemiştir. Açık ve ağına bağlı olduğunu kontrol edin, sonra zamanlama ekranından yeniden deneyin.
 
-Daha fazlası: [Ekipman zamanlama](/help/mobile-schedules), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Ekipman programları](/help/mobile-schedules) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
-### Cora'nın dozaj pompamı otomatik olarak kontrol etmesine izin vermek güvenli mi?
+### Dozaj pompamı otomatik olarak Cora'ya bırakmak güvenli mi?
 
-Cora yalnızca sizin kurduğunuzu dozajlar: tanımladığınız bir ürün, bir güç ve bir zamanlama. Bir dozaj ortasında kesintiye uğrarsa, Cora tamamlandığını varsaymak yerine bunun hakkında belirli bir uyarı yükseltir, bu yüzden hiçbir şey sessizce az veya çok dozajlanmaz.
+Cora yalnızca sizin kurduğunuz dozajı verir: sizin tanımladığınız ürün, konsantrasyon ve zamanlama. Dozaj yarıda kesilirse Cora dozajın tamamlandığını varsaymaz, bununla ilgili ayrı bir uyarı verir. Böylece hiçbir şey sessizce eksik ya da fazla verilmez.
 
-Daha fazlası: [Dozaj](/help/mobile-dosing), [Ekipmanınızı kontrol etme](/help/mobile-device-control)
+Ayrıntılar [Dozaj](/help/mobile-dosing) ve [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfalarında.
 
-### Bir dozaj yarı yolda kesintiye uğrarsa ne olur?
+### Dozaj yarıda kesilirse ne olur?
 
-Cora, bir dozajın bitmediğini ve söyleyebildiği yerde gerçekte ne kadarının girdiğini size bildiren bir uyarı yükseltir. Dozajın tamamının teslim edildiğini varsaymadan önce bu uyarıyı kontrol edin ve oradan sürdürün veya ayarlayın.
+Cora dozajın bitmediğini bildiren bir uyarı verir. Anlayabildiği durumlarda gerçekte ne kadar verildiğini de söyler. Dozajın tamamının verildiğini varsaymadan önce bu uyarıya bakın ve dozajı oradan sürdürün ya da ayarlayın.
 
-Daha fazlası: [Ekipmanınızı kontrol etme](/help/mobile-device-control)
+Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 
-### Cora, dozaj ürünümün ne kadar güçlü olduğunu nasıl bilir?
+### Cora dozaj ürünümün konsantrasyonunu nereden biliyor?
 
-Ya yayınlanmış rakamlarla kaynaklı tuzların ve dozaj ürünlerinin yerleşik bir kütüphanesinden, ya da kendi ürününüzü eklerken kendiniz girdiğiniz güçten.
+İki yoldan biriyle. Ya yerleşik ürün kütüphanesinden (değerleri yayımlanmış tuzlar ve dozaj ürünleri) ya da kendi ürününüzü eklerken girdiğiniz konsantrasyondan.
 
-Daha fazlası: [Dozaj](/help/mobile-dosing)
+Ayrıntılar [Dozaj](/help/mobile-dosing) sayfasında.
 
 ## Uyarılar ve bildirimler
 
 ### Hiç bildirim almıyorum, neden?
 
-Uyarının kategorisinin **Ayarlar → Bildirimler** altında push göndermeye izinli olduğunu ve telefonunuzun Cora için kendi bildirim izninin olduğunu kontrol edin. Günlük briefing de hiçbir şey değişmediği günlerde bilerek sessiz kalır; bu beklenen bir şeydir, bir arıza değil.
+**Ayarlar → Bildirimler** altında uyarının kategorisi için anlık bildirimin açık olduğunu kontrol edin. Telefonunuzun kendi ayarlarında Cora için bildirim izninin verildiğine de bakın. Günlük özet, hiçbir şeyin değişmediği günlerde zaten sessiz kalır. Bu bir arıza değildir.
 
-Daha fazlası: [Bildirimler](/help/mobile-notifications), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Bildirimler](/help/mobile-notifications) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
-### Okuma iyi görünmesine rağmen bir uyarı neden kapanmıyor?
+### Ölçüm normal görünüyor, uyarı neden kapanmıyor?
 
-Ya okuma gerçekten hâlâ aralık dışındadır (geçmişini kontrol edin), eşik akvaryumunuza uymuyor, ya da kaynağın kendisi (genellikle kalibrasyon gerektiren bir prob) aralık dışında bir sayı bildiriyordur. Kaynağı düzeltmek genellikle doğru hareket, eşiği değil.
+Üç olasılık var. Ölçüm gerçekten hâlâ aralık dışındadır (geçmişine bakın), eşik akvaryumunuza uymuyordur ya da kaynağın kendisi, çoğu zaman kalibrasyon isteyen bir prob, aralık dışında bir değer bildiriyordur. Genellikle doğru çözüm eşiği değil, kaynağı düzeltmektir.
 
-Daha fazlası: [Uyarılar ve eşikler](/help/mobile-alerts), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
 ### Bir uyarıyı kapatmadan geçici olarak nasıl susturabilirim?
 
-**Ertele**'yi kullanın. Onu kapatmadan veya onu tetikleyen eşiği değiştirmeden, seçtiğiniz bir süre için o uyarıyı susturur.
+Cora Max'te **Ertele**'ye dokunun. Uyarı o ekranda, uyarı kuralında ayarlı bekleme süresi boyunca susar. Uyarı açık kalır, eşiği de değişmez. Telefonunuzda ise bunun yerine kuralda daha uzun bir **Uyarılar arası bekleme süresi** seçin.
 
-Daha fazlası: [Uyarılar ve eşikler](/help/mobile-alerts)
+Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
-### Bir uyarıyı ertelemek ile kapatmak arasındaki fark nedir?
+### Uyarıyı ertelemekle kapatmak arasındaki fark ne?
 
-**Kapat**, uyarıyı gördüğünüzde ve durumu kabul ettiğinizde kalıcı olarak kapatır. **Ertele** onu sadece bir süreliğine susturur; erteleme süresi bittiğinde durum hâlâ varsa uyarı geri gelebilir.
+İkisi de Cora Max'te bulunur ve yalnızca o ekranı etkiler. **Ertele** uyarıyı orada bir süre susturur. Erteleme bittiğinde sorun hâlâ sürüyorsa uyarı geri gelir. **Kapat** ise uyarıyı ölçüm yeniden aralığa dönene kadar orada kapatır. Sorun daha sonra tekrar ortaya çıkarsa yeni bir uyarı alırsınız.
 
-Daha fazlası: [Uyarılar ve eşikler](/help/mobile-alerts)
+Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
-### Bir uyarının ne kadar süre ertelenmiş kalacağını belirleyebilir miyim, en uzunu bir hafta mı?
+### Uyarının ne kadar ertelenmiş kalacağını seçebilir miyim, en fazla bir hafta mı?
 
-Evet, ertelerken uzunluğu siz seçersiniz ve bir hafta Cora'nın sunduğu en uzun bekleme süresidir.
+Erteleme, uyarı kuralının Cora Mobile'da ayarladığınız **Uyarılar arası bekleme süresi** kadar sürer. En uzun süre 1 haftadır.
 
-Daha fazlası: [Uyarılar ve eşikler](/help/mobile-alerts)
+Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
-### Telefonumda bir uyarı aldım ama Cora Max'te almadım, veya tersi, neden?
+### Uyarı telefonuma geldi ama Cora Max'te çıkmadı ya da tersi oldu, neden?
 
-Her uygulama ve her Cora Max'in kendi bildirim ayarları vardır, bu yüzden birinde izin verilen bir kategori diğerinde kapalı olabilir. İkisinde de **Ayarlar → Bildirimler**'i kontrol edin.
+Her uygulamanın ve her Cora Max'in kendi bildirim ayarları vardır. Birinde açık olan bir kategori diğerinde kapalı olabilir. İkisinde de **Ayarlar → Bildirimler**'e bakın.
 
-Daha fazlası: [Bildirimler](/help/mobile-notifications), [Cora Max'te uyarılar](/help/max-alerts)
+Ayrıntılar [Bildirimler](/help/mobile-notifications) ve [Cora Max'te uyarılar](/help/max-alerts) sayfalarında.
 
 ## Reef Buddy ve Cora Assistant
 
-### Cora'ya ne sorabilirim, ve ne yapamaz?
+### Cora'ya neler sorabilirim, neleri yapamaz?
 
-Cora Assistant, akvaryumunuzun okumaları, geçmişi, dozajı ve günlüğü hakkındaki soruları yanıtlar ve sesle veya metinle istediğiniz ekipman eylemlerini gerçekleştirebilir. Hiçbir veri veya bağlantısı olmayan bir şey üzerinde eylem gerçekleştiremez ve tahmin etmek yerine bunu söyler.
+Cora Assistant akvaryumunuzun ölçümleri, geçmişi, dozajı ve günlüğüyle ilgili soruları cevaplar. Sesle ya da yazarak istediğiniz ekipman işlemlerini de yapabilir. Hakkında verisi ya da bağlantısı olmayan bir şeye dokunamaz. Böyle bir durumda tahmin yürütmez, bunu size söyler.
 
-Daha fazlası: [Assistant](/help/mobile-assistant)
+Ayrıntılar [Assistant](/help/mobile-assistant) sayfasında.
 
-### Cora gerçekten ekipmanımı kontrol edebilir mi, yoksa sadece bana bir şeyler mi söyler?
+### Cora ekipmanımı gerçekten kontrol edebiliyor mu, yoksa yalnızca bilgi mi veriyor?
 
-İkisi de. Ona bir soru sorun, akvaryumunuzun verisinden yanıtlar; bir şey yapmasını isteyin (besleme modunu başlatmak gibi) ve ekipman destekliyorsa, bunu gerçekleştirir.
+İkisini de yapar. Soru sorarsanız akvaryumunuzun verilerine bakarak cevap verir. Bir iş yapmasını isterseniz, örneğin besleme modunu başlatmasını, ekipman destekliyorsa bunu yapar.
 
-Daha fazlası: [Assistant](/help/mobile-assistant), [Cora Max'te ses](/help/max-voice)
+Ayrıntılar [Assistant](/help/mobile-assistant) ve [Cora Max'te ses](/help/max-voice) sayfalarında.
 
-### Cora, ona son sefer söylediğimi hatırlıyor mu?
+### Cora geçen sefer söylediklerimi hatırlıyor mu?
 
-Assistant sayfasında açıklanan sınırlar dahilinde, evet: akvaryumunuzdan önceki bağlamı kullanabilir, böylece her seferinde kendinizi tekrar etmeniz gerekmez.
+Assistant sayfasında anlatılan sınırlar içinde evet. Akvaryumunuzla ilgili önceki konuşmaları kullanabilir, böylece her seferinde aynı şeyleri tekrarlamanız gerekmez.
 
-Daha fazlası: [Assistant](/help/mobile-assistant)
+Ayrıntılar [Assistant](/help/mobile-assistant) sayfasında.
 
-### Cora bana neden yanlış veya tuhaf bir yanıt verdi?
+### Cora neden yanlış ya da tuhaf bir cevap verdi?
 
-Cora Assistant, seçtiğiniz akvaryum için elindeki veriden yanıt verir; yanlış seçilmiş bir akvaryum, eksik okumalar veya belirsiz bir soru genellikle sebeptir. Yeniden ifade edin, veya akvaryum seçiciyi kontrol edin ve yeniden deneyin.
+Cora Assistant, seçtiğiniz akvaryum için elindeki verilere göre cevap verir. Çoğu zaman sebep yanlış seçilmiş bir akvaryum, eksik ölçümler ya da belirsiz bir sorudur. Sorunuzu başka türlü sorun ya da akvaryum seçiciyi kontrol edip yeniden deneyin.
 
-Daha fazlası: [Assistant](/help/mobile-assistant)
+Ayrıntılar [Assistant](/help/mobile-assistant) sayfasında.
 
-### Reef Buddy nedir ve Assistant'tan nasıl farklıdır?
+### Reef Buddy nedir, Assistant'tan farkı ne?
 
-Reef Buddy, sorulmadan sizin için yazılan günlük briefinginizdir: bir başlık, iki puan ve bunların arkasındaki içgörüler. Cora Assistant ise yazarak veya sesle, talep üzerine soru sorduğunuz şeydir.
+Reef Buddy, siz sormadan her gün sizin için hazırlanan özettir. Bir başlık, iki puan ve bu puanların arkasındaki içgörülerden oluşur. Cora Assistant'a ise istediğiniz zaman yazarak ya da sesle soru sorarsınız.
 
-Daha fazlası: [Reef Buddy](/help/mobile-reef-buddy), [Sözlük](/help/glossary)
+Ayrıntılar [Reef Buddy](/help/mobile-reef-buddy) ve [Sözlük](/help/glossary) sayfalarında.
 
 ## Diller
 
-### Cora hangi dili konuşur ve aile üyeleri farklı bir dil kullanabilir mi?
+### Cora hangi dili konuşur, aile üyeleri farklı bir dil kullanabilir mi?
 
-Cora, tüm hesap için bir dil kullanır, kişi başına veya cihaz başına ayrı bir dil değil. O hesapta oturum açan herkes her yerde aynı dili görür.
+Cora tüm hesap için tek bir dil kullanır. Kişiye ya da cihaza göre ayrı dil seçilmez. O hesaba giriş yapan herkes her yerde aynı dili görür.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings), [Sözlük](/help/glossary)
+Ayrıntılar [Ayarlar](/help/mobile-settings) ve [Sözlük](/help/glossary) sayfalarında.
 
-### Telefonumda dili değiştirdim, Cora Max'im neden de değişti?
+### Telefonumda dili değiştirdim, Cora Max'im neden değişti?
 
-Çünkü dil bir hesap ayarıdır, bir cihaz ayarı değil. Onu herhangi bir yerde (telefon veya herhangi bir Cora Max) değiştirmek kısa süre içinde her yerde değiştirir.
+Çünkü dil cihaz ayarı değil, hesap ayarıdır. Telefondan ya da herhangi bir Cora Max'ten değiştirdiğinizde birkaç saniye içinde her yerde değişir.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings), [Sözlük](/help/glossary)
+Ayrıntılar [Ayarlar](/help/mobile-settings) ve [Sözlük](/help/glossary) sayfalarında.
 
-### Dilleri değiştirdikten sonra eski raporlar ve uyarılar çevrilecek mi?
+### Dili değiştirince eski raporlar ve uyarılar da çevrilir mi?
 
-Hayır, ve bu beklenendir. Zaten oluşturulmuş her şey yazıldığı dilde kalır; yalnızca o noktadan sonraki yeni uyarılar, raporlar ve Reef Buddy briefingleri yeni dili kullanır.
+Hayır. Önceden oluşturulanlar yazıldıkları dilde kalır. Yalnızca bundan sonraki uyarılar, raporlar ve Reef Buddy özetleri yeni dilde gelir.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings), [Sözlük](/help/glossary)
+Ayrıntılar [Ayarlar](/help/mobile-settings) ve [Sözlük](/help/glossary) sayfalarında.
 
 ## Hesap, planlar ve gizlilik
 
-### Sonsuza kadar ücretsiz olan ne ve bir abonelik gerektiren ne?
+### Neler hep ücretsiz, neler için abonelik gerekiyor?
 
-Geçerli planlar, sınırları ve her birinin içerdiği şeyler, uygulama içindeki Planlar sayfasında ve Planlar yardım sayfasında listelenir; planlar değişebileceği için buradaki bir sayıya güvenmek yerine oraya bakın.
+Güncel planlar, sınırları ve her planın içeriği uygulamadaki Planlar sayfasında ve Planlar yardım sayfasında yazar. Planlar değişebilir. Bu yüzden buraya sayı yazmıyoruz, lütfen oraya bakın.
 
-Daha fazlası: [Planlar](/help/mobile-plans)
+Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
 
-### Denememin veya aboneliğimin süresi dolarsa verilerime ne olur?
+### Deneme sürem ya da aboneliğim biterse verilerime ne olur?
 
-Bir deneme veya abonelik sona erdiğinde akvaryum geçmişiniz silinmez. Değişen şey hangi özelliklerin kullanılabilir kaldığıdır; her katmanın tam olarak neyi içerdiği için Planlar sayfasına bakın.
+Deneme süresi ya da abonelik bitince akvaryum geçmişiniz silinmez. Yalnızca hangi özellikleri kullanabileceğiniz değişir. Her planın tam olarak neleri içerdiğini Planlar sayfasında bulabilirsiniz.
 
-Daha fazlası: [Planlar](/help/mobile-plans)
+Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
 
-### Cora hesabımı silersem, bu Apple veya Google aboneliğimi iptal eder mi?
+### Cora hesabımı silersem Apple ya da Google aboneliğim de iptal olur mu?
 
-Hayır. Cora hesabınızı silmek, App Store veya Google Play üzerinden satın alınmış bir aboneliği iptal etmez; onu Apple veya Google üzerinden ayrıca iptal edin.
+Hayır. Cora hesabınızı silmek, App Store ya da Google Play üzerinden aldığınız aboneliği iptal etmez. Aboneliği Apple ya da Google üzerinden ayrıca iptal edin.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings)
+Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
 
-### Akvaryum geçmişimi kaybetmeden planımı değiştirebilir veya iptal edebilir miyim?
+### Akvaryum geçmişimi kaybetmeden planımı değiştirebilir ya da iptal edebilir miyim?
 
-Evet, akvaryumlarınız, cihazlarınız ve geçmişiniz plan değişikliklerinden bağımsız olarak hesabınızda kalır; değişen sadece hangi özellikleri kullanabileceğinizdir.
+Evet. Planınız değişse de akvaryumlarınız, cihazlarınız ve geçmişiniz hesabınızda kalır. Değişen yalnızca hangi özellikleri kullanabileceğinizdir.
 
-Daha fazlası: [Planlar](/help/mobile-plans)
+Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
 
-### Cora, akvaryum verimle ne yapar?
+### Cora akvaryum verilerimi ne için kullanıyor?
 
-Cora, akvaryum verinizi size okumalarınızı göstermek, uyarıları ve eşikleri çalıştırmak, ve Reef Buddy ile Cora Assistant'ı beslemek için kullanır. Ne saklandığı ve nasıl kullanılabileceğinin ayrıntıları veri dışa aktarma ve ayarlar sayfalarında, ve gizlilik politikasındadır.
+Cora verilerinizi ölçümlerinizi göstermek, uyarıları ve eşikleri çalıştırmak, Reef Buddy ile Cora Assistant'ı beslemek için kullanır. Nelerin saklandığı ve nasıl kullanılabileceği veri dışa aktarma ve ayarlar sayfalarında, ayrıca gizlilik politikasında anlatılıyor.
 
-Daha fazlası: [Verileriniz](/help/mobile-data-export), [Ayarlar](/help/mobile-settings)
+Ayrıntılar [Verileriniz](/help/mobile-data-export) ve [Ayarlar](/help/mobile-settings) sayfalarında.
 
 ### Cora'nın akvaryumum hakkında sakladığı her şeyin bir kopyasını alabilir miyim?
 
-Evet, uygulamadan bir dışa aktarma kullanılabilir; neyi içerdiği ve nasıl isteneceği için veri dışa aktarma sayfasına bakın.
+Evet, uygulamadan dışa aktarabilirsiniz. Dışa aktarmanın neleri içerdiğini ve nasıl isteneceğini veri dışa aktarma sayfasında bulabilirsiniz.
 
-Daha fazlası: [Verileriniz](/help/mobile-data-export)
+Ayrıntılar [Verileriniz](/help/mobile-data-export) sayfasında.
 
-### Hesabımı silersem, her şey gerçekten gider mi?
+### Hesabımı silersem her şey gerçekten silinir mi?
 
-Hesabınızı silmek, Ayarlar sayfasında açıklandığı gibi, anonimleştirilmiş veriye katkıda bulunma seçeneği dahil, verinizi kaldırır. Tam ayrıntıyı istiyorsanız silmeden önce o sayfayı okuyun.
+Hesabınızı sildiğinizde verileriniz Ayarlar sayfasında anlatıldığı gibi silinir. Anonim verilere katkı seçeneğinin ne olacağı da orada yazar. Tüm ayrıntıları öğrenmek istiyorsanız silmeden önce o sayfayı okuyun.
 
-Daha fazlası: [Ayarlar](/help/mobile-settings)
+Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
 
 ## Sorun giderme ipuçları
 
-### Bir widget neden değer göstermiyor?
+### Widget neden değer göstermiyor?
 
-Genellikle eksik bir parametre değil bir bağlantı sorunudur: yakındaki widget'ları aynı sorun için kontrol edin, ardından **Cihazlar** altında cihazın satırını kontrol edin.
+Genellikle sorun eksik bir parametre değil, bağlantıdır. Yakındaki widget'larda aynı sorun var mı bakın. Sonra **Cihazlar** altında cihazın satırını kontrol edin.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) sayfasında.
 
-### Bir okuma neden bir saat önce olduğunu söylüyor?
+### Ölçümün yanında neden bir saat önce yazıyor?
 
-Yaş rozeti doğrudur: daha yenisi gelmemiştir. Bazı ekipman tasarım olarak gerçekten yavaştır (saatlik bir titratör gibi); başka herhangi bir şey için, **Cihazlar** altında cihazın satırını kontrol edin.
+Yaş etiketi doğrudur, daha yeni bir ölçüm gelmemiştir. Bazı ekipmanlar zaten yavaştır, örneğin saatte bir ölçüm yapan bir titratör. Başka bir cihazsa **Cihazlar** altında cihazın satırını kontrol edin.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) sayfasında.
 
-### Cihazım "oturum açma reddedildi" diyor, ne yapmalıyım?
+### Cihazımda "oturum açma reddedildi" yazıyor, ne yapmalıyım?
 
-Üreticinin hesabı kayıtlı oturum açmayı reddetti, bu neredeyse her zaman parolanın onların tarafında değişmesindendir. Cihaz satırını açın ve yeniden oturum açın.
+Üreticinin hesabı kayıtlı giriş bilgilerini kabul etmedi. Bunun sebebi neredeyse her zaman şifrenin üretici tarafında değişmiş olmasıdır. Cihazın satırını açın ve yeniden giriş yapın.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) sayfasında.
 
-### Cora Max "Çevrimiçi" dediği halde neden eski veri gösteriyor?
+### Cora Max'te "Çevrimiçi" yazıyor ama neden eski veri görünüyor?
 
-**Çevrimiçi** ve **Bulut** ikisi de ekranın kendisinin sağlıklı olduğu anlamına gelir; hap ikisinden birini okuyorsa ve veri hâlâ eskiyse, sorun Cora Max'in kendisinden değil, ondan önceki bir yerdedir. Aynı akvaryumu telefonunuzda kontrol edin.
+**Çevrimiçi** ve **Bulut** ekranın kendisinin sorunsuz çalıştığını gösterir. Etikette bunlardan biri yazıyor ama veri hâlâ eskiyse sorun ekranda değil, Cora Max'ten önceki bir yerdedir. Aynı akvaryuma telefonunuzdan bakın.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting), [Cora Max ana ekranı](/help/max-tour)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) ve [Cora Max ana ekranı](/help/max-tour) sayfalarında.
 
-### Probum ve test kitim neden anlaşmıyor?
+### Probum ile test kitim neden farklı sonuç veriyor?
 
-Bu, Cora'nın gerçek bir anlaşmazlığı bildirmesidir, bir arıza değil. Probu kalibre edin, taze reaktifle yeniden test edin ve ikisini aynı koşullar altında karşılaştırın; bir ICP sonucu üçüncü bir veri noktası ekleyebilir.
+Cora burada gerçek bir tutarsızlığı size bildiriyor, bu bir arıza değil. Probu kalibre edin, taze reaktifle yeniden test edin ve ikisini aynı koşullarda karşılaştırın. Bir ICP sonucu da üçüncü bir veri noktası olarak işe yarar.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting), [ICP ve sağlık raporları](/help/mobile-icp-health)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) ve [ICP ve sağlık raporları](/help/mobile-icp-health) sayfalarında.
 
 ### İnternetim kesilirse ne olur?
 
-Cora Max ve Cora Mobile, aldıkları son veriyi göstermeyi ve kendi ağlarındaki ekipmanla çalışmayı sürdürür. Oturum açma, senkronizasyon ve Assistant bağlantı geri geldiğinde geri gelir.
+Cora Max ve Cora Mobile aldıkları son veriyi göstermeye ve kendi ağlarındaki ekipmanla çalışmaya devam eder. Giriş, eşitleme ve Assistant bağlantı gelince yeniden çalışır.
 
-Daha fazlası: [Sorun giderme](/help/troubleshooting), [Cora Max ana ekranı](/help/max-tour)
+Ayrıntılar [Sorun giderme](/help/troubleshooting) ve [Cora Max ana ekranı](/help/max-tour) sayfalarında.
 
 ### Cora internetsiz çalışır mı?
 
-Kısmen. Zaten teslim edilmiş okumalar ve aynı yerel ağdaki ekipmanın kontrolü çalışmayı sürdürür. Oturum açma, cihazlar arası senkronizasyon, Cora Cloud saklama ve Assistant'ın tümü bir internet bağlantısına ihtiyaç duyar.
+Kısmen. Önceden gelmiş ölçümler ve aynı yerel ağdaki ekipmanın kontrolü çalışmaya devam eder. Giriş, cihazlar arası eşitleme, Cora Cloud'da saklama ve Assistant için internet bağlantısı gerekir.
 
-Daha fazlası: [Cora Max ana ekranı](/help/max-tour), [Sorun giderme](/help/troubleshooting)
+Ayrıntılar [Cora Max ana ekranı](/help/max-tour) ve [Sorun giderme](/help/troubleshooting) sayfalarında.
 
 ---
 
-Yanıtınızı hâlâ bulamadınız mı? Belirtiye göre düzeltmeler için [Sorun giderme](/help/troubleshooting)'ye gidin, veya **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.
+Cevabınızı bulamadınız mı? Belirtiye göre çözümler için [Sorun giderme](/help/troubleshooting) sayfasına bakın ya da **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.

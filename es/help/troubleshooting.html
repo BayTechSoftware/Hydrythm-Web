@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Solución de problemas | Cora Help</title>
-  <meta name="description" content="Las lecturas se detuvieron, un dispositivo quedó sin conexión, las alertas no se cierran, o algo se ve mal. Empieza aquí.">
+  <meta name="description" content="Las lecturas se han parado, un dispositivo se ha desconectado, una alerta no desaparece o algo no cuadra. Empieza aquí.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/troubleshooting">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/troubleshooting">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Solución de problemas | Cora Help">
-  <meta property="og:description" content="Las lecturas se detuvieron, un dispositivo quedó sin conexión, las alertas no se cierran, o algo se ve mal. Empieza aquí.">
+  <meta property="og:description" content="Las lecturas se han parado, un dispositivo se ha desconectado, una alerta no desaparece o algo no cuadra. Empieza aquí.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
@@ -168,175 +168,149 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Solución de problemas</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#un-widget-no-muestra-valor">Un widget no muestra valor</a></li><li><a href="#una-lectura-est-desactualizada">Una lectura está desactualizada</a></li><li><a href="#no-se-puede-llegar-a-un-dispositivo">No se puede llegar a un dispositivo</a></li><li><a href="#un-dispositivo-dice-que-se-rechaz-el-inicio-de-sesin">Un dispositivo dice que se rechazó el inicio de sesión</a></li><li><a href="#el-emparejamiento-de-un-cora-max-falla">El emparejamiento de un Cora Max falla</a></li><li><a href="#cora-max-muestra-datos-antiguos">Cora Max muestra datos antiguos</a></li><li><a href="#una-alerta-no-se-cierra">Una alerta no se cierra</a></li><li><a href="#dos-fuentes-no-coinciden">Dos fuentes no coinciden</a></li><li><a href="#no-me-llegan-notificaciones">No me llegan notificaciones</a></li><li><a href="#averiguar-por-qu-algo-cambi">Averiguar por qué algo cambió</a></li><li><a href="#mi-panel-se-ve-mal-despus-de-editarlo">Mi panel se ve mal después de editarlo</a></li><li><a href="#las-lecturas-de-red-sea-han-dejado-de-actualizarse">&quot;Las lecturas de Red Sea han dejado de actualizarse&quot;</a></li><li><a href="#no-se-pudo-contactar-a-esta-bomba-no-se-envi-nada">&quot;No se pudo contactar a esta bomba: no se envió nada&quot;</a></li><li><a href="#no-se-pudo-contactar-a-esta-bomba-por-bluetooth-acrcate-a-el">&quot;No se pudo contactar a esta bomba por Bluetooth. Acércate a ella e intenta de nuevo.&quot;</a></li><li><a href="#no-se-pudo-contactar-con-ese-gyre-no-se-inici-ninguna-alimen">&quot;No se pudo contactar con ese Gyre. No se inició ninguna alimentación.&quot;</a></li><li><a href="#no-se-pudo-contactar-con-ese-gyre-su-programa-no-cambi">&quot;No se pudo contactar con ese Gyre. Su programa no cambió.&quot;</a></li><li><a href="#no-se-pudo-contactar-al-apex-nada-cambi-no-se-dosific-nada">&quot;No se pudo contactar al Apex: nada cambió&quot; / &quot;no se dosificó nada&quot;</a></li><li><a href="#esto-no-se-pudo-enviar-ningn-dispositivo-de-este-acuario-pue">&quot;Esto no se pudo enviar: ningún dispositivo de este acuario puede enviarlo&quot;</a></li><li><a href="#un-cora-max-secundario-muestra-cora-principal-sin-conexin">Un Cora Max secundario muestra &quot;Cora principal sin conexión&quot;</a></li><li><a href="#el-dispositivo-est-sin-conexin-mostrando-el-ltimo-estado-con">&quot;El dispositivo está sin conexión. Mostrando el último estado conocido.&quot;</a></li><li><a href="#algunos-ajustes-de-reefbeat-aparecen-en-gris-o-no-aparecen">Algunos ajustes de ReefBeat aparecen en gris o no aparecen</a></li><li><a href="#no-se-pudo-contactar-con-cora-comprueba-tu-wi-fi-o-tus-datos">&quot;No se pudo contactar con Cora. Comprueba tu Wi-Fi o tus datos móviles, y vuelve a intentarlo.&quot;</a></li><li><a href="#todo-est-de-repente-en-el-idioma-equivocado">Todo está de repente en el idioma equivocado</a></li><li><a href="#una-alerta-o-informe-antiguo-sigue-en-otro-idioma-despus-de-">Una alerta o informe antiguo sigue en otro idioma después de cambiar</a></li><li><a href="#una-alerta-no-deja-de-avisar-aunque-la-haya-confirmado">Una alerta no deja de avisar aunque la haya confirmado</a></li><li><a href="#una-dosis-se-detuvo-a-mitad-de-camino-y-apareci-una-alerta-d">Una dosis se detuvo a mitad de camino y apareció una alerta de &quot;restauración&quot;</a></li><li><a href="#una-escena-creada-en-el-telfono-no-aparece-como-editable-en-">Una escena creada en el teléfono no aparece como editable en Cora Max</a></li><li><a href="#cora-assistant-responde-sobre-el-acuario-equivocado">Cora Assistant responde sobre el acuario equivocado</a></li><li><a href="#cora-assistant-se-niega-a-responder-o-vuelve-a-mostrar-una-p">Cora Assistant se niega a responder, o vuelve a mostrar una pantalla de consentimiento</a></li><li><a href="#un-resultado-de-icp-de-un-laboratorio-o-por-correo-nunca-apa">Un resultado de ICP de un laboratorio o por correo nunca apareció</a></li><li><a href="#una-notificacin-de-icp-por-correo-no-nombra-ningn-laboratori">Una notificación de ICP por correo no nombra ningún laboratorio</a></li><li><a href="#un-widget-muestra-las-unidades-equivocadas">Un widget muestra las unidades equivocadas</a></li><li><a href="#un-medidor-o-umbral-se-ve-distinto-despus-de-cambiar-las-uni">Un medidor o umbral se ve distinto después de cambiar las unidades de visualización</a></li><li><a href="#cora-max-no-se-reconecta-enseguida-despus-de-un-corte-de-wi-">Cora Max no se reconecta enseguida después de un corte de Wi-Fi</a></li><li><a href="#renombrar-un-cora-max-en-el-telfono-no-cambia-lo-que-muestra">Renombrar un Cora Max en el teléfono no cambia lo que muestra la tableta</a></li><li><a href="#no-encuentro-dnde-desactivar-la-palabra-de-activacin-en-cora">No encuentro dónde desactivar la palabra de activación en Cora Max</a></li><li><a href="#el-bloqueo-infantil-no-deja-entrar-a-nadie-en-ajustes">El bloqueo infantil no deja entrar a nadie en Ajustes</a></li><li><a href="#sigo-atascado">Sigo atascado</a></li></ul></nav>
-<p>Empieza por el síntoma.</p>
-<h2 id="un-widget-no-muestra-valor">Un widget no muestra valor</h2>
-<p>Repasa esta lista en orden:</p>
-<ol><li><strong>Revisa la antigüedad de los widgets cercanos.</strong> Si todo está desactualizado, el problema es la conexión, no el parámetro.</li><li><strong>Abre la pestaña Dispositivos.</strong> Un dispositivo al que no se puede llegar lo indica en su fila.</li><li><strong>Revisa la asignación del acuario.</strong> Un dispositivo que informa al acuario equivocado se ve exactamente igual que uno que no informa. Abre el dispositivo y confirma su acuario.</li><li><strong>Comprueba que la fuente existe.</strong> Nada informa fosfato a menos que tengas equipo que lo mida o lo registres a mano.</li></ol>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#un-widget-no-muestra-ningn-valor">Un widget no muestra ningún valor</a></li><li><a href="#una-lectura-est-desactualizada">Una lectura está desactualizada</a></li><li><a href="#no-se-puede-llegar-a-un-dispositivo">No se puede llegar a un dispositivo</a></li><li><a href="#un-dispositivo-dice-que-se-rechaz-el-inicio-de-sesin">Un dispositivo dice que se rechazó el inicio de sesión</a></li><li><a href="#falla-el-emparejamiento-de-un-cora-max">Falla el emparejamiento de un Cora Max</a></li><li><a href="#cora-max-muestra-datos-viejos">Cora Max muestra datos viejos</a></li><li><a href="#una-alerta-no-desaparece">Una alerta no desaparece</a></li><li><a href="#dos-fuentes-no-coinciden">Dos fuentes no coinciden</a></li><li><a href="#no-me-llegan-notificaciones">No me llegan notificaciones</a></li><li><a href="#saber-por-qu-ha-cambiado-algo">Saber por qué ha cambiado algo</a></li><li><a href="#el-panel-ha-quedado-mal-despus-de-editarlo">El panel ha quedado mal después de editarlo</a></li><li><a href="#las-lecturas-de-red-sea-han-dejado-de-actualizarse">&quot;Las lecturas de Red Sea han dejado de actualizarse&quot;</a></li><li><a href="#no-se-pudo-contactar-con-esta-bomba-no-se-envi-nada">&quot;No se pudo contactar con esta bomba: no se envió nada&quot;</a></li><li><a href="#no-se-pudo-contactar-a-esta-bomba-por-bluetooth-acrcate-a-el">&quot;No se pudo contactar a esta bomba por Bluetooth. Acércate a ella e intenta de nuevo.&quot;</a></li><li><a href="#no-se-pudo-contactar-con-ese-gyre-no-se-inici-ninguna-alimen">&quot;No se pudo contactar con ese Gyre. No se inició ninguna alimentación.&quot;</a></li><li><a href="#no-se-pudo-contactar-con-ese-gyre-su-programa-no-cambi">&quot;No se pudo contactar con ese Gyre. Su programa no cambió.&quot;</a></li><li><a href="#no-se-pudo-contactar-al-apex-nada-cambi-no-se-dosific-nada">&quot;No se pudo contactar al Apex: nada cambió&quot; / &quot;no se dosificó nada&quot;</a></li><li><a href="#esto-no-se-pudo-enviar-ningn-dispositivo-de-este-acuario-pue">&quot;Esto no se pudo enviar: ningún dispositivo de este acuario puede enviarlo&quot;</a></li><li><a href="#un-cora-max-secundario-muestra-cora-principal-sin-conexin">Un Cora Max secundario muestra &quot;Cora principal sin conexión&quot;</a></li><li><a href="#el-dispositivo-est-sin-conexin-mostrando-el-ltimo-estado-con">&quot;El dispositivo está sin conexión. Mostrando el último estado conocido.&quot;</a></li><li><a href="#algunos-ajustes-de-reefbeat-salen-en-gris-o-no-aparecen">Algunos ajustes de ReefBeat salen en gris o no aparecen</a></li><li><a href="#no-se-pudo-contactar-con-cora-comprueba-tu-wi-fi-o-tus-datos">&quot;No se pudo contactar con Cora. Comprueba tu Wi-Fi o tus datos móviles, y vuelve a intentarlo.&quot;</a></li><li><a href="#de-repente-todo-est-en-otro-idioma">De repente todo está en otro idioma</a></li><li><a href="#una-alerta-o-un-informe-antiguo-sigue-en-el-otro-idioma">Una alerta o un informe antiguo sigue en el otro idioma</a></li><li><a href="#una-alerta-sigue-avisando-aunque-ya-la-he-visto">Una alerta sigue avisando aunque ya la he visto</a></li><li><a href="#una-dosis-se-par-a-mitad-y-sali-una-alerta-de-restauracin">Una dosis se paró a mitad y salió una alerta de &quot;restauración&quot;</a></li><li><a href="#una-escena-creada-en-el-telfono-no-se-puede-editar-en-cora-m">Una escena creada en el teléfono no se puede editar en Cora Max</a></li><li><a href="#cora-assistant-responde-sobre-otro-acuario">Cora Assistant responde sobre otro acuario</a></li><li><a href="#cora-assistant-no-responde-o-vuelve-a-mostrar-la-pantalla-de">Cora Assistant no responde o vuelve a mostrar la pantalla de consentimiento</a></li><li><a href="#un-resultado-de-icp-del-laboratorio-o-enviado-por-correo-no-">Un resultado de ICP del laboratorio o enviado por correo no ha aparecido</a></li><li><a href="#una-notificacin-de-icp-por-correo-no-dice-de-qu-laboratorio-">Una notificación de ICP por correo no dice de qué laboratorio es</a></li><li><a href="#un-widget-muestra-unidades-que-no-quiero">Un widget muestra unidades que no quiero</a></li><li><a href="#un-medidor-o-un-umbral-se-ve-distinto-despus-de-cambiar-las-">Un medidor o un umbral se ve distinto después de cambiar las unidades</a></li><li><a href="#cora-max-no-se-vuelve-a-conectar-enseguida-despus-de-un-cort">Cora Max no se vuelve a conectar enseguida después de un corte de Wi-Fi</a></li><li><a href="#cambi-el-nombre-de-un-cora-max-en-el-telfono-y-en-la-pantall">Cambié el nombre de un Cora Max en el teléfono y en la pantalla no cambia</a></li><li><a href="#no-encuentro-dnde-desactivar-la-palabra-de-activacin-en-cora">No encuentro dónde desactivar la palabra de activación en Cora Max</a></li><li><a href="#el-bloqueo-infantil-no-deja-entrar-a-nadie-en-ajustes">El bloqueo infantil no deja entrar a nadie en Ajustes</a></li><li><a href="#sigo-sin-solucionarlo">Sigo sin solucionarlo</a></li></ul></nav>
+<p>Busca lo que te está pasando.</p>
+<h2 id="un-widget-no-muestra-ningn-valor">Un widget no muestra ningún valor</h2>
+<p>Sigue esta lista en orden:</p>
+<ol><li><strong>Mira la antigüedad de los widgets de al lado.</strong> Si todo está desactualizado, el problema es la conexión, no el parámetro.</li><li><strong>Abre la pestaña Dispositivos.</strong> Si no se puede llegar a un dispositivo, lo pone en su fila.</li><li><strong>Revisa a qué acuario está asignado.</strong> Un dispositivo que envía datos al acuario equivocado se ve igual que uno que no envía nada. Abre el dispositivo y comprueba su acuario.</li><li><strong>Comprueba que existe la fuente.</strong> Si no tienes un equipo que mida el fosfato ni lo anotas a mano, no habrá datos de fosfato.</li></ol>
 <h2 id="una-lectura-est-desactualizada">Una lectura está desactualizada</h2>
-<p>La insignia de antigüedad te está diciendo la verdad: no ha llegado nada nuevo.</p>
-<ul><li><strong>Los parámetros registrados a mano</strong> se desactualizan cuando no se ha introducido ninguna lectura. Registra una.</li><li><strong>Las lecturas de equipo</strong> desactualizadas significan que el dispositivo dejó de informar; revisa su fila en <strong>Dispositivos</strong>.</li><li><strong>Algún equipo está pensado para ser lento.</strong> Un titulador que mide cada hora normalmente se leerá <code>1h</code>. Eso no es un fallo.</li></ul>
+<p>La antigüedad no miente: no ha llegado nada nuevo.</p>
+<ul><li><strong>Los parámetros que anotas a mano</strong> se quedan desactualizados si no anotas ninguna lectura. Anota una.</li><li><strong>Si se desactualiza la lectura de un equipo</strong>, es que el dispositivo ha dejado de enviar datos. Revisa su fila en <strong>Dispositivos</strong>.</li><li><strong>Algunos equipos son lentos de por sí.</strong> Un valorador que mide cada hora mostrará normalmente <code>1h</code>. No es un fallo.</li></ul>
 <h2 id="no-se-puede-llegar-a-un-dispositivo">No se puede llegar a un dispositivo</h2>
-<p>Normalmente es la red.</p>
-<ol><li>¿Está el equipo encendido y funcionando en su propia aplicación?</li><li>¿Está en la misma red en la que se añadió?</li><li>¿Ha cambiado tu router (hardware nuevo, nombre de red nuevo, aislamiento de red de invitados)?</li></ol>
-<p>El equipo que se conecta por tu red local necesita ser accesible en esa red. El equipo que se conecta a través de una cuenta del fabricante no necesita eso, pero necesita que esa cuenta siga siendo válida.</p>
+<p>Casi siempre es la red.</p>
+<ol><li>¿El equipo está encendido y funciona en su propia app?</li><li>¿Está en la misma red en la que lo añadiste?</li><li>¿Has cambiado algo del router (uno nuevo, otro nombre de red, aislamiento de la red de invitados)?</li></ol>
+<p>Los equipos que se conectan por tu red local tienen que estar accesibles en esa red. Los que se conectan a través de una cuenta del fabricante no lo necesitan, pero esa cuenta tiene que seguir siendo válida.</p>
 <h2 id="un-dispositivo-dice-que-se-rechaz-el-inicio-de-sesin">Un dispositivo dice que se rechazó el inicio de sesión</h2>
-<p>El fabricante rechazó el inicio de sesión guardado. Casi siempre porque cambiaste tu contraseña con ellos.</p>
-<p>Abre la fila del dispositivo e inicia sesión de nuevo.</p>
-<h2 id="el-emparejamiento-de-un-cora-max-falla">El emparejamiento de un Cora Max falla</h2>
-<p>Si añadir un Cora Max se detiene a mitad de camino, Cora Mobile te dice qué paso falló y por qué, con <strong>Cancelar</strong> y <strong>Reintentar</strong> debajo.</p>
-<ul><li><em>"Tu teléfono no pudo comunicarse con el Cora Max en tu red Wi-Fi."</em> Pon tu teléfono y el Cora Max en la misma red Wi-Fi. En iPhone, comprueba también que Cora tenga acceso a la Red local: <strong>Ajustes → Acceso a dispositivos</strong> te lleva ahí (consulta <a href="/es/help/mobile-settings">Ajustes</a>). Luego toca <strong>Reintentar</strong>.</li><li><em>"El Cora Max no aceptó esta sesión de emparejamiento."</em> Reintentar no ayudará. Cierra la pantalla y vuelve a empezar desde <strong>Dispositivos → Agregar dispositivo</strong>.</li></ul>
-<p>Para cualquier otro mensaje, toca <strong>Reintentar</strong>.</p>
-<h2 id="cora-max-muestra-datos-antiguos">Cora Max muestra datos antiguos</h2>
-<p>Revisa la píldora de estado en la barra superior. <strong>En línea</strong> y <strong>Nube</strong> son ambas saludables: con más de un Cora, la pantalla que no está recopilando muestra <strong>Nube</strong>, y sus lecturas son igual de actuales. <strong>Desactualizado</strong> o <strong>Sin conexión</strong> significa que la pantalla perdió su fuente y está mostrando los últimos datos que recibió (comportamiento correcto, pero no actual).</p>
-<ul><li>Revisa el Wi-Fi en <strong>Ajustes → Cora Max → Red</strong></li><li>Comprueba que la propia red esté activa</li><li>Si la píldora dice <strong>En línea</strong> o <strong>Nube</strong> y los datos siguen siendo antiguos, el problema está más arriba: revisa el mismo acuario en tu teléfono</li></ul>
-<h2 id="una-alerta-no-se-cierra">Una alerta no se cierra</h2>
-<p>Una alerta se cierra cuando la lectura vuelve al rango. Si no se cierra:</p>
-<ul><li><strong>La lectura está realmente fuera de rango.</strong> Mira el historial del widget.</li><li><strong>El umbral está mal para tu acuario.</strong> Consulta <a href="/es/help/mobile-alerts">Alertas y umbrales</a>.</li><li><strong>La fuente está mal.</strong> Una sonda que necesita calibrarse informa un número que realmente está fuera de rango. Arregla la sonda en lugar del umbral.</li></ul>
+<p>El fabricante ha rechazado el inicio de sesión guardado. Casi siempre es porque cambiaste tu contraseña en su cuenta.</p>
+<p>Abre la fila del dispositivo y vuelve a iniciar sesión.</p>
+<h2 id="falla-el-emparejamiento-de-un-cora-max">Falla el emparejamiento de un Cora Max</h2>
+<p>Si al añadir un Cora Max el proceso se para a mitad, Cora Mobile te dice en qué paso ha fallado y por qué, con <strong>Cancelar</strong> y <strong>Reintentar</strong> debajo.</p>
+<ul><li><em>"Tu teléfono no pudo comunicarse con el Cora Max en tu red Wi-Fi."</em> Conecta el teléfono y el Cora Max a la misma red Wi-Fi. En iPhone, comprueba también que Cora tiene acceso a la red local. <strong>Ajustes → Acceso a dispositivos</strong> te lleva ahí (más en <a href="/es/help/mobile-settings">Ajustes</a>). Luego toca <strong>Reintentar</strong>.</li><li><em>"El Cora Max no aceptó esta sesión de emparejamiento."</em> Reintentar no servirá. Cierra la pantalla y empieza de nuevo desde <strong>Dispositivos → Agregar dispositivo</strong>.</li></ul>
+<p>Con cualquier otro mensaje, toca <strong>Reintentar</strong>.</p>
+<h2 id="cora-max-muestra-datos-viejos">Cora Max muestra datos viejos</h2>
+<p>Mira la etiqueta de estado de la barra superior. <strong>En línea</strong> y <strong>Nube</strong> quieren decir que todo va bien. Si tienes más de un Cora, la pantalla que no recoge las lecturas muestra <strong>Nube</strong>, y sus datos están igual de al día. <strong>Desactualizado</strong> o <strong>Sin conexión</strong> quieren decir que la pantalla ha perdido su fuente y muestra los últimos datos que recibió. Es lo que debe hacer, pero esos datos no son actuales.</p>
+<ul><li>Revisa el Wi-Fi en <strong>Ajustes → Ajustes de Cora Max → Wi-Fi</strong></li><li>Comprueba que la red funciona</li><li>Si la etiqueta dice <strong>En línea</strong> o <strong>Nube</strong> y los datos siguen siendo viejos, el problema está antes de Cora Max. Mira el mismo acuario en el teléfono</li></ul>
+<h2 id="una-alerta-no-desaparece">Una alerta no desaparece</h2>
+<p>Una alerta desaparece cuando la lectura vuelve a estar en rango. Si no desaparece:</p>
+<ul><li><strong>La lectura sigue fuera de rango.</strong> Mira el historial del widget.</li><li><strong>El umbral no encaja con tu acuario.</strong> Consulta <a href="/es/help/mobile-alerts">Alertas y umbrales</a>.</li><li><strong>La fuente falla.</strong> Una sonda que necesita calibración da un número que de verdad está fuera de rango. Arregla la sonda, no el umbral.</li></ul>
 <h2 id="dos-fuentes-no-coinciden">Dos fuentes no coinciden</h2>
-<p>Esto es Cora funcionando, no Cora fallando. Cuando tu sonda y tu kit de pruebas no coinciden, eso es un hecho real sobre tu sistema.</p>
-<p>Un resultado de ICP es una tercera opinión útil aquí, pero no resuelve la discusión: los laboratorios difieren entre sí, y la manipulación y el transporte de una muestra mueven el resultado. Que dos pruebas coincidan vale mucho más que una sola.</p>
-<p>Normalmente la sonda necesita calibrarse; a veces el kit de pruebas está caducado. Calibra la sonda, repite la prueba con reactivo fresco, y compara las dos en las mismas condiciones. Un <a href="/es/help/mobile-icp-health">resultado de ICP</a> añade un tercer dato a esa comparación.</p>
+<p>Aquí Cora está funcionando bien. Si tu sonda y tu kit de pruebas no coinciden, eso es algo real que está pasando en tu sistema.</p>
+<p>Un resultado de ICP es una buena tercera opinión, pero no zanja la cuestión. Cada laboratorio da resultados algo distintos, y cómo se manipula y se envía la muestra también influye. Que dos pruebas coincidan vale mucho más que una sola.</p>
+<p>Lo normal es que haya que calibrar la sonda. A veces el kit de pruebas está caducado. Calibra la sonda, repite la prueba con reactivo nuevo y compara las dos en las mismas condiciones. Un <a href="/es/help/mobile-icp-health">resultado de ICP</a> te da un tercer dato para comparar.</p>
 <h2 id="no-me-llegan-notificaciones">No me llegan notificaciones</h2>
-<ol><li><strong>Ajustes → Notificaciones</strong>: comprueba que esa categoría tenga permiso para enviarse</li><li>Revisa los propios permisos de notificación de tu teléfono para Cora</li><li>Recuerda que el resumen diario es deliberadamente silencioso los días en que nada cambió</li></ol>
-<h2 id="averiguar-por-qu-algo-cambi">Averiguar por qué algo cambió</h2>
-<p><strong>Ajustes → Actividad</strong> lista cada cambio de toma, alimentación, dosis y cambio de enchufe, con qué lo pidió: Cora Mobile, una pantalla Cora, la voz, el Assistant, una regla de automatización, un botón inteligente o tu cuenta.</p>
-<h2 id="mi-panel-se-ve-mal-despus-de-editarlo">Mi panel se ve mal después de editarlo</h2>
-<p>Carga un diseño guardado: <strong>Mis paneles</strong>, y elige uno.</p>
-<p>Si no has guardado ninguno, reconstruye el diseño y luego guárdalo como uno. A partir de ese momento, volver a él es un solo toque.</p>
-<p>De cualquier forma, las lecturas, el historial y las entradas del diario se guardan por separado del diseño, así que nada detrás del panel se pierde.</p>
+<ol><li>En <strong>Ajustes → Notificaciones</strong>, comprueba que esa categoría tiene permitidas las notificaciones push</li><li>Revisa los permisos de notificaciones de Cora en los ajustes del teléfono</li><li>Recuerda que el resumen diario no avisa los días en que no ha cambiado nada</li></ol>
+<h2 id="saber-por-qu-ha-cambiado-algo">Saber por qué ha cambiado algo</h2>
+<p>En <strong>Ajustes → Actividad</strong> tienes cada cambio de toma, alimentación, dosis y enchufe, y quién lo pidió: Cora Mobile, una pantalla Cora, la voz, Cora Assistant, una regla de automatización, un botón inteligente o tu cuenta.</p>
+<h2 id="el-panel-ha-quedado-mal-despus-de-editarlo">El panel ha quedado mal después de editarlo</h2>
+<p>Carga un diseño guardado. Abre <strong>Mis paneles</strong> y elige uno.</p>
+<p>Si no tienes ninguno guardado, vuelve a montar el diseño y guárdalo. A partir de ahí, volver a él es un solo toque.</p>
+<p>En cualquier caso, las lecturas, el historial y las entradas del diario se guardan aparte del diseño, así que no se pierde nada de lo que hay detrás del panel.</p>
 <h2 id="las-lecturas-de-red-sea-han-dejado-de-actualizarse">"Las lecturas de Red Sea™ han dejado de actualizarse"</h2>
-<p><strong>Qué significa:</strong> Ningún dispositivo en la red de este acuario está consultando en este momento tu equipo Red Sea, así que las lecturas en pantalla no se han actualizado.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Abre <strong>Ajustes → Cora Max principal</strong> y comprueba que hay un Cora Max fijado (o que está elegido <strong>Cualquiera activo (automático)</strong>).</li><li>Abre el acuario en un dispositivo que esté en la misma Wi-Fi que el equipo Red Sea.</li><li>Confirma que el equipo Red Sea está encendido y en línea en su propia aplicación.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
-<h2 id="no-se-pudo-contactar-a-esta-bomba-no-se-envi-nada">"No se pudo contactar a esta bomba: no se envió nada"</h2>
-<p><strong>Qué significa:</strong> Una orden para una bomba Jecod™ o Jebao™ nunca salió de la aplicación, normalmente porque la bomba está apagada o fuera de su red.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Comprueba que la bomba está encendida.</li><li>Comprueba que está en la misma red en la que se añadió.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>Ningún dispositivo de la red de este acuario está consultando ahora tu equipo Red Sea, así que las lecturas de la pantalla no se han actualizado.</p>
+<ol><li>Abre <strong>Ajustes → Cora Max principal</strong> y comprueba que hay un Cora Max fijado (o que está elegido <strong>Cualquiera activo (automático)</strong>).</li><li>Abre el acuario en un dispositivo que esté en el mismo Wi-Fi que el equipo Red Sea.</li><li>Comprueba que el equipo Red Sea está encendido y conectado en su propia app.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<h2 id="no-se-pudo-contactar-con-esta-bomba-no-se-envi-nada">"No se pudo contactar con esta bomba: no se envió nada"</h2>
+<p>Una orden para una bomba Jecod™ o Jebao™ no llegó a salir. Lo normal es que la bomba esté apagada o fuera de su red.</p>
+<ol><li>Comprueba que la bomba está encendida.</li><li>Comprueba que está en la misma red en la que la añadiste.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="no-se-pudo-contactar-a-esta-bomba-por-bluetooth-acrcate-a-el">"No se pudo contactar a esta bomba por Bluetooth. Acércate a ella e intenta de nuevo."</h2>
-<p><strong>Qué significa:</strong> Un dispositivo Jecod solo por Bluetooth está fuera del alcance de tu teléfono.</p>
-<p><strong>Qué hacer:</strong></p>
+<p>Un equipo Jecod que solo funciona por Bluetooth está fuera del alcance de tu teléfono.</p>
 <ol><li>Acércate a la bomba.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="no-se-pudo-contactar-con-ese-gyre-no-se-inici-ninguna-alimen">"No se pudo contactar con ese Gyre. No se inició ninguna alimentación."</h2>
-<p><strong>Qué significa:</strong> Un gyre Maxspect™ (integración beta) no respondió cuando Cora intentó iniciar el modo alimentación en él.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Comprueba que el gyre está encendido y en su red.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>Un gyre Maxspect™ (integración en beta) no respondió cuando Cora intentó ponerlo en modo alimentación.</p>
+<ol><li>Comprueba que el gyre está encendido y conectado a su red.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="no-se-pudo-contactar-con-ese-gyre-su-programa-no-cambi">"No se pudo contactar con ese Gyre. Su programa no cambió."</h2>
-<p><strong>Qué significa:</strong> Un envío de horario a un gyre Maxspect (integración beta) no logró llegar a él.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Comprueba que tu teléfono o Cora Max está en la red del gyre.</li><li>Toca <strong>Reintentar</strong> desde la pantalla de horario.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>No se pudo enviar el horario a un gyre Maxspect (integración en beta).</p>
+<ol><li>Comprueba que tu teléfono o tu Cora Max están en la red del gyre.</li><li>Toca <strong>Reintentar</strong> en la pantalla del horario.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="no-se-pudo-contactar-al-apex-nada-cambi-no-se-dosific-nada">"No se pudo contactar al Apex: nada cambió" / "no se dosificó nada"</h2>
-<p><strong>Qué significa:</strong> Un Neptune™ Apex, Trident o cabezal DŌS no respondió a una orden o solicitud de dosis.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Abre la propia aplicación del Apex y confirma que está en línea.</li><li>Revisa la conectividad de red en el dispositivo que estás usando.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>Un Neptune™ Apex, un Trident o un cabezal DŌS no respondió a una orden o a una dosis.</p>
+<ol><li>Abre la app del Apex y comprueba que está conectado.</li><li>Revisa la conexión de red del dispositivo que estás usando.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="esto-no-se-pudo-enviar-ningn-dispositivo-de-este-acuario-pue">"Esto no se pudo enviar: ningún dispositivo de este acuario puede enviarlo"</h2>
-<p><strong>Qué significa:</strong> Ningún dispositivo Cora de este acuario tiene los datos de conexión del Apex necesarios para llevar a cabo la orden, o el que los tiene está sin conexión.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Añade los datos del Apex en <strong>Ajustes</strong> en un dispositivo que esté en línea en ese momento, o</li><li>Fija un Cora Max distinto que funcione como <strong>Cora Max principal</strong> de este acuario.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>Ningún dispositivo Cora de este acuario tiene los datos de conexión del Apex que hacen falta para ejecutar la orden, o el que los tiene está desconectado.</p>
+<ol><li>Añade los datos del Apex en <strong>Ajustes</strong> desde un dispositivo que esté conectado, o</li><li>Fija otro Cora Max que funcione como <strong>Cora Max principal</strong> de este acuario.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="un-cora-max-secundario-muestra-cora-principal-sin-conexin">Un Cora Max secundario muestra "Cora principal sin conexión"</h2>
-<p><strong>Qué significa:</strong> La tableta principal de este acuario se ha quedado sin conexión, así que esta pantalla secundaria muestra los últimos datos que recibió en lugar de datos en vivo.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Comprueba la alimentación y el Wi-Fi de la tableta principal.</li><li>Espera a que se reconecte, o cambia el <strong>Cora Max principal</strong> a un dispositivo que esté en línea en ese momento.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<p>El Cora Max principal de este acuario se ha desconectado, así que esta pantalla secundaria muestra los últimos datos que recibió, no datos en directo.</p>
+<ol><li>Comprueba la alimentación y el Wi-Fi del Cora Max principal.</li><li>Espera a que se vuelva a conectar, o cambia el <strong>Cora Max principal</strong> a un dispositivo que esté conectado.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
 <h2 id="el-dispositivo-est-sin-conexin-mostrando-el-ltimo-estado-con">"El dispositivo está sin conexión. Mostrando el último estado conocido."</h2>
-<p><strong>Qué significa:</strong> Manejo normal de desconexión: el dispositivo dejó de informar, y Cora muestra los últimos valores que tenía en lugar de simular que son actuales.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Revisa la propia conexión de red del dispositivo.</li><li>Trata los valores mostrados como no actuales hasta que la fila ya no diga sin conexión.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
-<h2 id="algunos-ajustes-de-reefbeat-aparecen-en-gris-o-no-aparecen">Algunos ajustes de ReefBeat aparecen en gris o no aparecen</h2>
-<p><strong>Qué significa:</strong> Esto es intencionado, no un fallo. Los ajustes propios del dispositivo (a diferencia de las lecturas) solo se abren cuando tu teléfono está en la misma red que el propio dispositivo; fuera de esa red, solo se muestran las lecturas.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Visita el Wi-Fi del propio acuario para cambiar esos ajustes.</li><li>Las lecturas y el historial siguen funcionando con normalidad fuera del acuario.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>Es lo normal cuando un dispositivo se desconecta. Ha dejado de enviar datos, y Cora muestra los últimos valores que tenía sin hacerlos pasar por actuales.</p>
+<ol><li>Revisa la conexión de red del dispositivo.</li><li>No tomes esos valores como actuales hasta que la fila deje de decir que está sin conexión.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<h2 id="algunos-ajustes-de-reefbeat-salen-en-gris-o-no-aparecen">Algunos ajustes de ReefBeat salen en gris o no aparecen</h2>
+<p>No es un fallo. Los ajustes propios del dispositivo (lo que no son lecturas) solo se abren cuando el teléfono está en la misma red que el dispositivo. Fuera de esa red solo ves las lecturas.</p>
+<ol><li>Conéctate al Wi-Fi del acuario para cambiar esos ajustes.</li><li>Lejos del acuario, las lecturas y el historial siguen funcionando con normalidad.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
 <h2 id="no-se-pudo-contactar-con-cora-comprueba-tu-wi-fi-o-tus-datos">"No se pudo contactar con Cora. Comprueba tu Wi-Fi o tus datos móviles, y vuelve a intentarlo."</h2>
-<p><strong>Qué significa:</strong> Tu teléfono no tiene una conexión utilizable a Cora Cloud al iniciar sesión. Esto es sobre la propia conectividad de tu teléfono, no sobre el equipo de tu acuario.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Comprueba que tu teléfono tiene una conexión Wi-Fi o de datos móviles funcionando.</li><li>Prueba una red distinta si hay alguna disponible.</li><li><strong>Reintentar</strong>.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="todo-est-de-repente-en-el-idioma-equivocado">Todo está de repente en el idioma equivocado</h2>
-<p><strong>Qué significa:</strong> El idioma de la cuenta se cambió desde algún dispositivo. El idioma es un ajuste para toda la cuenta, no por dispositivo.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Abre <strong>Ajustes → Idioma</strong> en cualquiera de las dos aplicaciones.</li><li>Vuelve a fijarlo si se cambió por error; el cambio se aplica en todas partes a la vez.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="una-alerta-o-informe-antiguo-sigue-en-otro-idioma-despus-de-">Una alerta o informe antiguo sigue en otro idioma después de cambiar</h2>
-<p><strong>Qué significa:</strong> Esto es lo esperado, no un error. Cora no retraduce contenido que ya se generó; solo las alertas, informes y resúmenes nuevos siguen el idioma nuevo.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Nada que arreglar. Espera contenido nuevo, que usará el idioma actual.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="una-alerta-no-deja-de-avisar-aunque-la-haya-confirmado">Una alerta no deja de avisar aunque la haya confirmado</h2>
-<p><strong>Qué significa:</strong> Confusión entre <strong>Descartar</strong> (cierra la alerta para siempre) y <strong>Posponer</strong> (la silencia temporalmente, hasta una semana).</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Si entiendes y aceptas la condición, usa <strong>Descartar</strong>.</li><li>Si solo quieres silencio por un tiempo, usa <strong>Posponer</strong> y elige una duración.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/mobile-alerts">Alertas y umbrales</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="una-dosis-se-detuvo-a-mitad-de-camino-y-apareci-una-alerta-d">Una dosis se detuvo a mitad de camino y apareció una alerta de "restauración"</h2>
-<p><strong>Qué significa:</strong> El cabezal DŌS perdió contacto a mitad de una dosis, así que Cora te lo dice deliberadamente en lugar de asumir que entró la dosis completa.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Abre la alerta y revisa cuánto se dosificó realmente antes de que se detuviera.</li><li>Reanuda o ajusta la dosis según esa cantidad, no la cantidad programada originalmente.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
-<h2 id="una-escena-creada-en-el-telfono-no-aparece-como-editable-en-">Una escena creada en el teléfono no aparece como editable en Cora Max</h2>
-<p><strong>Qué significa:</strong> Editar escenas directamente en la tableta es una funcionalidad más reciente de Cora Max. El firmware más antiguo todavía puede ejecutar escenas creadas en el teléfono, solo que no editarlas ahí.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Actualiza Cora Max, o</li><li>Sigue editando esa escena desde el teléfono; se seguirá ejecutando en la tableta de cualquier forma.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/max-updates">Actualizaciones y recuperación</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="cora-assistant-responde-sobre-el-acuario-equivocado">Cora Assistant responde sobre el acuario equivocado</h2>
-<p><strong>Qué significa:</strong> No se eligió ningún acuario antes de preguntar, o el acuario equivocado está activo en ese momento.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Elige primero el acuario que quieres decir.</li><li>Pregunta de nuevo.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/mobile-assistant">El Asistente</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="cora-assistant-se-niega-a-responder-o-vuelve-a-mostrar-una-p">Cora Assistant se niega a responder, o vuelve a mostrar una pantalla de consentimiento</h2>
-<p><strong>Qué significa:</strong> "Permitir que el Cora Assistant use los datos guardados del acuario" se desactivó, así que no tiene nada a partir de lo cual responder.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Toca <strong>Aceptar y continuar</strong> en la pantalla de consentimiento para volver a activarlo.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/mobile-assistant">El Asistente</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="un-resultado-de-icp-de-un-laboratorio-o-por-correo-nunca-apa">Un resultado de ICP de un laboratorio o por correo nunca apareció</h2>
-<p><strong>Qué significa:</strong> Que un resultado entre en Cora necesita que se elija un acuario para él, y a veces un remitente reconocido, antes de que se adjunte a algún sitio.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Revisa el aviso de recepción que se muestra la primera vez que envías un resultado a Cora.</li><li>Confirma a qué acuario debe adjuntarse el resultado cuando se te pregunte.</li><li>Asegúrate de que el correo se envió desde la dirección que usaste para enviarlo antes, si has enviado uno anteriormente.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/mobile-icp-health">ICP e informes de salud</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="una-notificacin-de-icp-por-correo-no-nombra-ningn-laboratori">Una notificación de ICP por correo no nombra ningún laboratorio</h2>
-<p><strong>Qué significa:</strong> Un problema conocido con la notificación push de "elegir acuario" que no incluía el nombre del laboratorio. Ya se ha corregido en las versiones actuales.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Asegúrate de que Cora Mobile está actualizado a la última versión.</li><li>El resultado en sí no se ve afectado; solo al texto de la notificación le faltaba un nombre.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="un-widget-muestra-las-unidades-equivocadas">Un widget muestra las unidades equivocadas</h2>
-<p><strong>Qué significa:</strong> Este es el ajuste de unidades de visualización del acuario, no un problema de datos. Los valores se guardan igual sin importar cómo se muestren.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Abre <strong>Ajustes</strong> de ese acuario y revisa sus unidades de visualización.</li><li>Cámbialas ahí; cada teléfono y Cora Max que muestre ese acuario se actualiza para coincidir.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="un-medidor-o-umbral-se-ve-distinto-despus-de-cambiar-las-uni">Un medidor o umbral se ve distinto después de cambiar las unidades de visualización</h2>
-<p><strong>Qué significa:</strong> Es lo esperado. Los medidores, casillas e historial se vuelven a dibujar en la unidad que elegiste; los valores subyacentes no han cambiado.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Nada que arreglar; esto es solo cosmético.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="cora-max-no-se-reconecta-enseguida-despus-de-un-corte-de-wi-">Cora Max no se reconecta enseguida después de un corte de Wi-Fi</h2>
-<p><strong>Qué significa:</strong> Después de perder su conexión, Cora Max espera un poco más antes de cada reintento en lugar de saturar la red, aumentando la espera hasta aproximadamente un minuto antes de volver a intentarlo.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Espera aproximadamente un minuto después de que tu red vuelva.</li><li>Si todavía no se ha reconectado después de eso, revisa el Wi-Fi en <strong>Ajustes → Red</strong>.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="renombrar-un-cora-max-en-el-telfono-no-cambia-lo-que-muestra">Renombrar un Cora Max en el teléfono no cambia lo que muestra la tableta</h2>
-<p><strong>Qué significa:</strong> El nombre que fijas desde el teléfono es una etiqueta de nivel de cuenta para ese dispositivo. El nombre que se muestra en la propia tableta durante el emparejamiento puede ser otra cosa distinta.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Comprueba qué "nombre" estás mirando: el de tu lista de dispositivos en el teléfono, o el de la propia pantalla de emparejamiento de la tableta.</li><li>Renombra desde la lista de dispositivos del teléfono si es la etiqueta de cuenta la que quieres cambiar.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del dispositivo.</p>
+<p>Al iniciar sesión, tu teléfono no tiene una conexión que funcione con Cora Cloud. El problema es la conexión del teléfono, no los equipos de tu acuario.</p>
+<ol><li>Comprueba que el teléfono tiene Wi-Fi o datos móviles funcionando.</li><li>Si tienes otra red a mano, prueba con ella.</li><li>Toca <strong>Reintentar</strong>.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="de-repente-todo-est-en-otro-idioma">De repente todo está en otro idioma</h2>
+<p>Alguien ha cambiado el idioma de la cuenta desde algún dispositivo. El idioma es un solo ajuste para toda la cuenta, no uno por dispositivo.</p>
+<ol><li>Abre <strong>Ajustes → Idioma</strong> en Cora Mobile o en Cora Max.</li><li>Si se cambió por error, vuelve a ponerlo. El cambio se aplica en todas partes a la vez.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="una-alerta-o-un-informe-antiguo-sigue-en-el-otro-idioma">Una alerta o un informe antiguo sigue en el otro idioma</h2>
+<p>Es lo esperado. Cora no vuelve a traducir lo que ya estaba generado. Solo las alertas, informes y resúmenes nuevos salen en el idioma nuevo.</p>
+<ol><li>No hay nada que arreglar. Lo nuevo que llegue saldrá en el idioma actual.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="una-alerta-sigue-avisando-aunque-ya-la-he-visto">Una alerta sigue avisando aunque ya la he visto</h2>
+<p><strong>Posponer</strong> y <strong>Descartar</strong> en Cora Max solo silencian ese Cora Max. Tu teléfono sigue recibiendo notificaciones mientras la lectura esté fuera de rango.</p>
+<ol><li>Para recibir avisos con menos frecuencia en el teléfono, abre la regla de alerta en Cora Mobile y pon un <strong>Tiempo de espera entre alertas</strong> más largo (hasta 1 semana).</li><li>Si el umbral no encaja con tu acuario, cambia el propio umbral.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/mobile-alerts">Alertas y umbrales</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="una-dosis-se-par-a-mitad-y-sali-una-alerta-de-restauracin">Una dosis se paró a mitad y salió una alerta de "restauración"</h2>
+<p>El cabezal DŌS perdió la conexión a mitad de la dosis. Cora te avisa y no da por hecho que entró la dosis completa.</p>
+<ol><li>Abre la alerta y mira cuánto se dosificó de verdad antes de que se parara.</li><li>Reanuda o ajusta la dosis según esa cantidad, no según la que estaba programada.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del acuario y del dispositivo.</p>
+<h2 id="una-escena-creada-en-el-telfono-no-se-puede-editar-en-cora-m">Una escena creada en el teléfono no se puede editar en Cora Max</h2>
+<p>Editar escenas directamente en Cora Max es una función reciente. Con un firmware más antiguo, Cora Max puede ejecutar las escenas creadas en el teléfono, pero no editarlas.</p>
+<ol><li>Actualiza Cora Max, o</li><li>Sigue editando esa escena desde el teléfono. Cora Max la ejecutará igual.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/max-updates">Actualizaciones y recuperación</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="cora-assistant-responde-sobre-otro-acuario">Cora Assistant responde sobre otro acuario</h2>
+<p>No elegiste un acuario antes de preguntar, o el acuario activo no es el que querías.</p>
+<ol><li>Elige primero el acuario del que quieres hablar.</li><li>Vuelve a preguntar.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/mobile-assistant">El Asistente</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="cora-assistant-no-responde-o-vuelve-a-mostrar-la-pantalla-de">Cora Assistant no responde o vuelve a mostrar la pantalla de consentimiento</h2>
+<p>La opción <strong>Permitir que el Cora Assistant use los datos guardados del acuario</strong> está desactivada, así que no tiene datos con los que responder.</p>
+<ol><li>Toca <strong>Aceptar y continuar</strong> en la pantalla de consentimiento para volver a activarla.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/mobile-assistant">El Asistente</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="un-resultado-de-icp-del-laboratorio-o-enviado-por-correo-no-">Un resultado de ICP del laboratorio o enviado por correo no ha aparecido</h2>
+<p>Para que un resultado entre en Cora, hay que elegir a qué acuario va. A veces también tiene que llegar de un remitente conocido.</p>
+<ol><li>Mira el aviso de recepción que aparece la primera vez que envías un resultado a Cora.</li><li>Cuando te lo pregunte, confirma a qué acuario va el resultado.</li><li>Si ya habías enviado alguno antes, comprueba que el correo sale de la misma dirección que usaste entonces.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/mobile-icp-health">ICP e informes de salud</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="una-notificacin-de-icp-por-correo-no-dice-de-qu-laboratorio-">Una notificación de ICP por correo no dice de qué laboratorio es</h2>
+<p>Era un fallo conocido: la notificación push de "elegir acuario" no incluía el nombre del laboratorio. Está corregido en las versiones actuales.</p>
+<ol><li>Actualiza Cora Mobile a la última versión.</li><li>El resultado en sí está bien. Solo faltaba el nombre en el texto de la notificación.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="un-widget-muestra-unidades-que-no-quiero">Un widget muestra unidades que no quiero</h2>
+<p>Es el ajuste de unidades del acuario, no un problema de datos. Los valores se guardan igual, se muestren como se muestren.</p>
+<ol><li>Abre los <strong>Ajustes</strong> de ese acuario y revisa sus unidades.</li><li>Cámbialas ahí. Todos los teléfonos y Cora Max que muestran ese acuario se actualizan.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="un-medidor-o-un-umbral-se-ve-distinto-despus-de-cambiar-las-">Un medidor o un umbral se ve distinto después de cambiar las unidades</h2>
+<p>Es lo esperado. Los medidores, las casillas y el historial se vuelven a dibujar en la unidad que elegiste. Los valores no han cambiado.</p>
+<ol><li>No hay nada que arreglar. Solo cambia cómo se ve.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="cora-max-no-se-vuelve-a-conectar-enseguida-despus-de-un-cort">Cora Max no se vuelve a conectar enseguida después de un corte de Wi-Fi</h2>
+<p>Cuando pierde la conexión, Cora Max espera un poco más antes de cada intento para no saturar la red, hasta llegar a más o menos un minuto entre intentos.</p>
+<ol><li>Espera un minuto más o menos después de que vuelva la red.</li><li>Si pasado ese tiempo sigue sin conectarse, revisa el Wi-Fi en <strong>Ajustes → Ajustes de Cora Max → Wi-Fi</strong>.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="cambi-el-nombre-de-un-cora-max-en-el-telfono-y-en-la-pantall">Cambié el nombre de un Cora Max en el teléfono y en la pantalla no cambia</h2>
+<p>El nombre que pones desde el teléfono es una etiqueta de la cuenta para ese dispositivo. El nombre que aparece en el propio Cora Max durante el emparejamiento puede ser otro.</p>
+<ol><li>Comprueba qué nombre estás mirando: el de la lista de dispositivos del teléfono o el de la pantalla de emparejamiento del Cora Max.</li><li>Si lo que quieres cambiar es la etiqueta de la cuenta, cámbiala desde la lista de dispositivos del teléfono.</li></ol>
+<p>Si sigue sin funcionar, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con el nombre del dispositivo.</p>
 <h2 id="no-encuentro-dnde-desactivar-la-palabra-de-activacin-en-cora">No encuentro dónde desactivar la palabra de activación en Cora Max</h2>
-<p><strong>Qué significa:</strong> El interruptor de palabra de activación vive bajo <strong>Sonido</strong>, no bajo el grupo de ajustes de Cora Assistant, lo cual sorprende a la mayoría de las personas.</p>
-<p><strong>Qué hacer:</strong></p>
-<ol><li>Ve a <strong>Ajustes → Sonido → Escucha de palabra de activación</strong>.</li><li>Desactívala; todavía puedes tocar el icono de Cora para iniciar una sesión de voz.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/max-settings">Ajustes en Cora Max</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>El interruptor de la palabra de activación está en la sección <strong>Sonido y voz</strong>, no en los ajustes de Cora Assistant, que es donde casi todo el mundo mira primero.</p>
+<ol><li>Ve a <strong>Ajustes → Ajustes de Cora Max → Sonido y voz → Escucha de palabra de activación</strong>.</li><li>Desactívala. Podrás seguir tocando el icono de Cora para empezar una sesión de voz.</li></ol>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/max-settings">Ajustes en Cora Max</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
 <h2 id="el-bloqueo-infantil-no-deja-entrar-a-nadie-en-ajustes">El bloqueo infantil no deja entrar a nadie en Ajustes</h2>
-<p><strong>Qué significa:</strong> Esto funciona como está previsto. El bloqueo infantil bloquea la pantalla táctil y los controles de voz después de un tiempo fijado sin ningún toque; las lecturas siguen actualizándose por debajo.</p>
-<p><strong>Qué hacer:</strong></p>
+<p>Funciona así. Pasado un tiempo sin que nadie toque la pantalla, el bloqueo infantil impide que nadie encienda o apague equipos desde esta pantalla, ni tocando ni por voz. Las lecturas siguen actualizándose, y puedes seguir haciéndole preguntas a Cora. Para desbloquear:</p>
 <ol><li>Pulsa <strong>Subir volumen</strong> o <strong>Bajar volumen</strong> tres veces en dos segundos, o</li><li>Mantén cinco dedos en la esquina superior derecha de la pantalla durante diez segundos.</li></ol>
-<p><strong>¿Sigue sin funcionar?</strong> Consulta <a href="/es/help/max-voice">Voz en Cora Max</a>, o envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="sigo-atascado">Sigo atascado</h2>
-<p>Envía un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Dinos qué acuario, qué pantalla y qué esperabas ver; así consigues una respuesta útil más rápido.</p>
+<p>Si sigue sin funcionar, consulta <a href="/es/help/max-voice">Voz en Cora Max</a> o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<h2 id="sigo-sin-solucionarlo">Sigo sin solucionarlo</h2>
+<p>Escríbenos a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Dinos qué acuario, qué pantalla y qué esperabas ver. Así te podremos ayudar antes.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/faq"><span>Anterior</span><b>Preguntas frecuentes</b></a><a class="pn-n" href="/es/help/glossary"><span>Siguiente</span><b>Glosario</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-27.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

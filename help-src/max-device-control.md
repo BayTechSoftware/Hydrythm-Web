@@ -1,88 +1,88 @@
 ---
 title: Controlling equipment from Cora Max
-description: Device pages on the big screen: probes, outlets, dosing heads, testers and pumps.
+description: Device pages on the big screen for probes, outlets, dosing heads, testers and pumps.
 section: Cora Max
 reviewed: 2026-09-27
 order: 6
 group: Equipment
 ---
 
-Cora Max reaches the same equipment as your phone, with a page for each device. Open them from **Settings → Devices**, or by tapping a device tile on the dashboard.
+Cora Max reaches the same equipment as your phone, and each device has its own page. Open one from **Settings → Devices**, or tap a device tile on the dashboard.
 
 ![An Apex page on Cora Max](img/max-device-control.webp "Feed cycles and every outlet, laid out for a wall screen.")
 
 :::warning These controls act on live equipment
-There is no preview and no undo. A command goes out the moment you tap, but *sent* is not *done*: it comes back **Confirmed**, **Unconfirmed**, **Refused** or **No change**, and [Activity](/help/max-activity) is where you see which it was.
+There's no preview and no undo. A command goes out the moment you tap, but sending it doesn't mean it's done. It comes back **Confirmed**, **Unconfirmed**, **Refused** or **No change**, and you can see which in [Activity](/help/max-activity).
 :::
 
 ## What has a page
 
 | Device | Shows |
 |---|---|
-| **Neptune Apex** | Probes and outlets, with each outlet switchable |
-| **Trident** | Test state, reagent and waste levels, and the ability to start a test |
+| **Neptune Apex** | Probes and outlets, and you can switch each outlet |
+| **Trident** | Test state, reagent and waste levels, and a button to start a test |
 | **DŌS**, including the DŌS QD | Each head's dosing, schedule, runway and container volume (with pause, fill, dose now and a one-time twenty-second measure) |
-| **Red Sea ReefBeat** | Whatever the unit is: dosing heads, reservoir, roller days, pump mode |
+| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode |
 | **Jecod** | Pump mode and intensity, and its day program |
 | **Maxspect** *(beta)* | Mode and speed for **Gyre A** and **Gyre B**, **Pump health** (cleaning countdown, head A current, fitted heads, firmware), and its schedule, view only |
 
-If a Red Sea unit stops itself, its page says what is wrong and puts the fix beside it: **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
+If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
 
 ## DŌS heads
 
-A DŌS head has to be measured once before Cora will dose it by hand. **Measure to dose** runs the head for twenty seconds into a measuring container, and you enter how much came out. Cora keeps one measurement per head and uses the newest, whichever Cora Max took it; the head's page shows where and when it was measured.
+You have to measure a DŌS head once before Cora will dose with it by hand. **Measure to dose** runs the head for twenty seconds into a measuring container, and you enter how much came out. Cora keeps one measurement per head and uses the newest, whichever Cora Max took it. The head's page shows where and when it was measured.
 
-After a manual dose, a head you had set to Off in Apex Fusion stays Off. Any other head goes back to Auto.
+After a manual dose, a head you'd set to Off in Apex Fusion stays Off. Any other head goes back to Auto.
 
 ### What a head is used for
 
-Each head can be set to a **use type**, from its settings sheet: **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, or **Other**. The use type changes two things:
+In a head's settings sheet you can set its **use type**. The options are **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, and **Other**. The use type changes two things.
 
-- **How big a container it can track.** A Supplement head tracks up to 20 litres; every other use type can track a much larger container, up to 500 litres, so a head running a water change or a calcium reactor is not treated as if it were a small dosing bottle.
-- **Whether it can take a large dose by hand.** Supplement and Food heads keep today's small, careful ceiling. Every other use type can be given its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**.
+- How big a container it can track. A Supplement head tracks up to 20 litres. Every other use type can track a container of up to 500 litres, so a head running a water change or a calcium reactor isn't treated like a small dosing bottle.
+- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**.
 
-A water-change pair (new saltwater in, old water out) can be linked as **Paired head**, with a **Balance warning above** amount: if the two heads' totals for the day drift apart by more than that amount, Cora warns you, since a pair that is out of balance usually means one side is not pumping as expected.
+You can link a water-change pair (new saltwater in, old water out) as a **Paired head** and set a **Balance warning above** amount. If the two heads' totals for the day drift apart by more than that, Cora warns you. A pair that's out of balance usually means one side isn't pumping as it should.
 
 ### If a large dose is interrupted
 
-A large dose temporarily changes what the head is doing on the Apex, then puts its normal schedule back afterwards. If the connection drops partway through, Cora Max shows a banner on that head's page: *"A large dose on [head] did not finish cleanly. Cora keeps trying to put its program back; check it in Apex Fusion."*
+A large dose changes what the head is doing on the Apex for a while, then puts its normal schedule back. If the connection drops partway through, Cora Max shows a banner on that head's page: *"A large dose on [head] did not finish cleanly. Cora keeps trying to put its program back; check it in Apex Fusion."*
 
-Check the head in Apex Fusion yourself, then tap **I checked the head in Fusion** to clear the banner. Do this only after confirming the head's own schedule, not Cora's dosing program, is what is actually running.
+Check the head in Apex Fusion yourself, then tap **I checked the head in Fusion** to clear the banner. Only do this once you've confirmed that the head's own schedule is running, not Cora's dosing program.
 
-**If it does not work:** if the banner will not clear, or keeps coming back, see [Troubleshooting](/help/troubleshooting).
+If the banner won't clear, or keeps coming back, have a look at [Troubleshooting](/help/troubleshooting).
 
 ## Schedules
 
-Jecod pump day programs can be authored at the wall as well as on the phone. The editor is the same: a day graph, a period list, and an action row. See [Scheduling equipment](/help/mobile-schedules).
+You can write Jecod pump day programs at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More about this in [Scheduling equipment](/help/mobile-schedules).
 
-A Maxspect gyre's schedule *(beta)* can be viewed here but not saved. Set it in the Maxspect app.
+You can view a Maxspect gyre's schedule *(beta)* here, but you can't save it. Set it in the Maxspect app.
 
 ## Outlets
 
-Outlets are also reachable from the **Outlets & Feed** drawer at the bottom of the dashboard, which lists the outlets enabled for this dashboard in one place (all of them, if none have been chosen). See [Outlets and controls](/help/max-controls).
+You can also reach outlets from the **Outlets & Feed** drawer at the bottom of the dashboard. It lists the outlets turned on for this dashboard (or all of them, if you haven't picked any). More about this in [Outlets and controls](/help/max-controls).
 
-DŌS heads never appear in the outlet list, so a head cannot be switched on there and left running; dose from its own page. A large Apex with several modules shows all of its outlets and probes.
+DŌS heads never show up in the outlet list, so you can't switch one on there and leave it running. Dose from the head's own page. A large Apex with several modules shows all of its outlets and probes.
 
 ## Consumables
 
-Refill thresholds (reagent, containers, reservoirs) are set from the device's own page here, exactly as on the phone. See [Consumables](/help/mobile-consumables).
+You set refill thresholds (reagent, containers, reservoirs) on the device's own page here, the same as on your phone. More about this in [Consumables](/help/mobile-consumables).
 
 ## Logging and calculating at the tank
 
-Two things are often more convenient at the wall than on a phone:
+Two things are often easier at the wall than on a phone.
 
-- **Log parameters**: enter test results on the on-screen keyboard, from the tank menu
-- **Dose calculator**: work out a correction using the tank's volume and your product strengths, from a parameter's page. It uses the same volume and product strengths as the phone, so a dose worked out here matches one worked out there. See [Dosing](/help/mobile-dosing).
+- **Log parameters** lets you type test results on the on-screen keyboard. It's in the tank menu.
+- **Dose calculator** works out a correction from the tank's volume and your product strengths. Open it from a parameter's page. It uses the same volume and product strengths as your phone, so a dose worked out here matches one worked out there. More about this in [Dosing](/help/mobile-dosing).
 
 ## On a second Cora Max
 
-When more than one Cora Max shows a tank, one of them reads that tank's equipment; the device pages call it the Cora Max at the tank. The others still open the device pages (a status pill reading **Cloud** means this screen is one of them). They show what the Cora Max at the tank last read, and how long ago, and pass each command through Cora Cloud to that Cora Max to carry out.
+When more than one Cora Max shows a tank, one of them reads that tank's equipment. The device pages call it the Cora Max at the tank. The others can still open the device pages, and a status tag reading **Cloud** means you're on one of them. They show what the Cora Max at the tank last read and how long ago. Each command goes through Cora Cloud to the Cora Max at the tank, which carries it out.
 
-A few things stay with the Cora Max at the tank:
+A few things only work on the Cora Max at the tank.
 
-- **Measure to dose** and **Re-measure** appear only there. Once a head is measured, **Dose now** works from any Cora Max.
-- A Jecod schedule can be changed from another Cora Max only if the Cora Max at the tank has read the pump in the last hour, and never for a pump that only talks over Bluetooth. One **Apply to the pump** from there sends at most 12 changes, so send a bigger edit in parts.
+- **Measure to dose** and **Re-measure** only show up there. Once a head is measured, **Dose now** works from any Cora Max.
+- You can change a Jecod schedule from another Cora Max only if the Cora Max at the tank has read the pump in the last hour, and never for a pump that only talks over Bluetooth. One **Apply to the pump** from there sends at most 12 changes, so send a bigger edit in parts.
 
 ## What was changed, and by what
 
-Every action is recorded with its cause. See [Activity and timeline](/help/mobile-activity).
+Every action is logged along with what caused it. More about this in [Activity and timeline](/help/mobile-activity).

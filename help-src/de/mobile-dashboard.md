@@ -1,97 +1,97 @@
 ---
 title: Dein Dashboard lesen
-description: So liest du Coras Dashboard: Widgets, Aktualität, Quellen und was die Farben bedeuten.
+description: So liest du Coras Dashboard, von den Widgets über Alter und Quellen bis zu den Farben.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 5
 group: Your dashboard
 ---
 
-Das Dashboard ist ein Raster aus **Widgets**, jedes zeigt eine Sache über ein Becken. Was darauf ist, entscheidest du ganz allein; siehe **[Dein Dashboard bearbeiten](/help/mobile-dashboard-editing)**.
+Das Dashboard ist ein Raster aus **Widgets**. Jedes zeigt eine Sache zu einem Becken. Was darauf steht, bestimmst du ganz allein. Wie das geht, steht unter **[Dein Dashboard bearbeiten](/help/mobile-dashboard-editing)**.
 
 ![Ein Cora Mobile Dashboard](img/mobile-dashboard.webp "Anzeigen, Zahlen, Trends und Steuerungen auf einem Bildschirm.")
 
-## Die Beckenkopfzeile
+## Die Kopfzeile des Beckens
 
-Oben auf jedem Dashboard:
+Ganz oben auf jedem Dashboard findest du:
 
-- **Der Beckenname**, mit einem kleinen Symbol daneben: das ist eine **schnelle Umbenennung**, nicht mehr
-- **Füttern**: pausiert Strömung und Abschäumung für eine Fütterung und stellt danach alles wieder her
-- **Reef Buddy**: öffnet die heutige Zusammenfassung
-- **Teilen**: sendet einen Schnappschuss des Dashboards
-- **Der Stift rechts**: öffnet [das Beckenprofil](/help/mobile-tank-profile)
+- **den Beckennamen** mit einem kleinen Symbol daneben. Damit benennst du das Becken **schnell um**, sonst nichts.
+- **Füttern** pausiert Strömung und Abschäumer für die Fütterung und stellt danach alles wieder her.
+- **Reef Buddy** öffnet die Zusammenfassung von heute Morgen.
+- **Teilen** verschickt einen Schnappschuss des Dashboards.
+- **den Stift rechts**. Er öffnet [das Beckenprofil](/help/mobile-tank-profile).
 
-:::note Drei ähnliche Steuerelemente, drei Ziele
-Das Symbol neben dem Namen benennt das Becken um. Der Stift rechts öffnet das **Profil** des Beckens. Das Bearbeiten des Dashboards selbst ist keines von beiden; das ist **Dashboard bearbeiten**, am *unteren Rand* des Dashboards, unterhalb der Widgets.
+:::note Drei ähnliche Symbole, drei Ziele
+Das Symbol neben dem Namen benennt das Becken um. Der Stift rechts öffnet das **Profil** des Beckens. Das Dashboard selbst bearbeitest du mit keinem von beiden, sondern über **Dashboard bearbeiten** ganz *unten* auf dem Dashboard, unter den Widgets.
 :::
 
-Mit mehr als einem Becken wische seitwärts, um zwischen ihnen zu wechseln.
+Hast du mehrere Becken, wischst du seitlich zwischen ihnen hin und her.
 
 ## Die Reef Buddy-Karte
 
-Unter der Kopfzeile fasst eine Karte die neueste Zusammenfassung zusammen: eine Schlagzeile, ihre **Stabilitäts**- und **Daten**-Werte, und die Anzahl der Insights. Tippe darauf, um die vollständige Zusammenfassung zu öffnen, oder verwerfe sie mit **×**. Eine neue Karte erscheint mit der nächsten Zusammenfassung.
+Unter der Kopfzeile fasst eine Karte die neueste Zusammenfassung zusammen. Du siehst eine Schlagzeile, die Werte für **Stabilität** und **Daten** und die Zahl der Insights. Tippe darauf, um die ganze Zusammenfassung zu öffnen, oder blende die Karte mit **×** aus. Mit der nächsten Zusammenfassung kommt eine neue Karte.
 
-## Wie du ein Wasserwert-Widget liest
+## Ein Wasserwert-Widget lesen
 
-Ein Widget, das einen **gemessenen Wasserwert** zeigt, trägt dieselben drei Dinge an denselben Stellen. Geräte- und Steuerungskacheln (eine Steckdose, eine Dosiereinheit, eine Pumpe) zeigen stattdessen ihren eigenen Zustand, weil kein einzelner Messwert hinter ihnen steht.
+Ein Widget für einen **gemessenen Wasserwert** zeigt immer dieselben drei Dinge an denselben Stellen. Kacheln für Geräte und Steuerungen, etwa eine Steckdose, eine Dosiereinheit oder eine Pumpe, zeigen ihren eigenen Zustand. Hinter ihnen steht kein einzelner Messwert.
 
-**Der Wert** ist der Messwert selbst, groß und zentral.
+Der **Wert** ist der Messwert selbst, groß in der Mitte.
 
-**Das Alter** steht darunter oder daneben: `jetzt`, `1h`, `2d`. Das ist, wie lange es her ist, dass der Messwert erfasst wurde, nicht, wie lange es her ist, dass sich der Bildschirm aktualisiert hat. Eine Zahl, die sich seit zwei Tagen nicht bewegt hat, zeigt `2d`, und das ist eine Information.
+Das **Alter** steht darunter oder daneben: `jetzt`, `1h`, `2d`. Es gibt an, wie lange die Messung her ist, und nicht, wann der Bildschirm zuletzt aktualisiert wurde. Hat sich eine Zahl seit zwei Tagen nicht bewegt, steht dort `2d`. Auch das sagt dir etwas.
 
-**Das Quellen-Abzeichen** ist die kleine Markierung neben dem Alter. Es zeigt dir, woher die Zahl kommt: eine Sonde, ein Controller, ein Laborergebnis, oder du selbst mit einem Testkit. Tippe auf ein beliebiges Widget, um die Quelle ausgeschrieben zu sehen, zusammen mit ihrer letzten Historie.
+Das **Quellen-Abzeichen** ist die kleine Markierung neben dem Alter. Es zeigt, woher die Zahl kommt: von einer Sonde, einem Controller, einem Laborergebnis oder von dir mit einem Testkit. Tippst du auf ein Widget, siehst du die Quelle ausgeschrieben und dazu die jüngste Historie.
 
 :::note Warum das Alter so wichtig ist
-Ein perfekter Alkalinitäts-Messwert von vor vier Tagen ist kein aktueller Alkalinitäts-Messwert. Das Alter steht neben jedem Wert, damit du den Unterschied auf einen Blick erkennst.
+Ein perfekter Alkalinitäts-Messwert von vor vier Tagen ist kein aktueller Alkalinitäts-Messwert. Deshalb steht das Alter neben jedem Wert, und du siehst den Unterschied sofort.
 :::
 
 ## Farben
 
-Cora setzt Farbe sparsam ein, und immer mit derselben Bedeutung:
+Cora setzt Farbe sparsam ein, und jede Farbe bedeutet immer dasselbe:
 
 | Farbe | Bedeutung |
 |---|---|
-| Grün | Deutlich innerhalb des Bereichs für diesen Wasserwert |
-| Gelb | Nahe an einer Kante: **meist noch innerhalb des Bereichs**, innerhalb des letzten Zehntels davon |
-| Rot | Über die Kante hinaus, und es lohnt sich, zu handeln |
-| Grau | Kein Urteil: kein aktueller Messwert, oder kein nutzbarer Bereich zum Vergleich |
+| Grün | sicher im Bereich für diesen Wasserwert |
+| Gelb | nah am Rand. **Meist noch im Bereich**, aber im letzten Zehntel |
+| Rot | über den Rand hinaus, du solltest etwas tun |
+| Grau | keine Bewertung, weil es keinen aktuellen Messwert oder keinen brauchbaren Bereich zum Vergleich gibt |
 
-:::note Gelb bedeutet meist "noch in Ordnung, aber auf dem Weg wohin"
-Gelb ist eine *Marge*, kein Verstoß. Ein Messwert innerhalb seines Bereichs, aber innerhalb der letzten 10 % davon, wird absichtlich gelb markiert, damit Abweichungen sichtbar sind, während noch Zeit zum Handeln bleibt, statt erst in dem Moment, in dem es zum Problem wird.
+:::note Gelb heißt meist "noch in Ordnung, aber mit Tendenz"
+Gelb ist ein *Puffer*, noch kein Verstoß. Liegt ein Messwert im Bereich, aber in dessen letzten 10 %, färbt Cora ihn gelb. So siehst du, wohin sich ein Wert bewegt, solange du noch Zeit zum Handeln hast, und nicht erst, wenn es schon ein Problem ist.
 
-Daraus folgen zwei Verfeinerungen.
+Dazu gibt es zwei Feinheiten.
 
-**Ein Bereich, den du selbst festgelegt hast, wird als erklärte Grenze behandelt.** Überschreite ihn, und das Widget wird direkt rot: keine gelbe Marge, weil du diese Linie absichtlich gezogen hast. Ein von **Cora vorgegebener** Bereich ist eine weichere Referenz: Ihn zu überschreiten zeigt für die ersten 10 % über der Kante Gelb, und wird darüber hinaus rot.
+Einen Bereich, den du selbst festgelegt hast, behandelt Cora als feste Grenze. Überschreitet ein Wert sie, wird das Widget sofort rot, ohne gelben Puffer. Du hast diese Linie ja bewusst gezogen. Ein Bereich, den **Cora vorgibt**, ist eher ein Richtwert. Wird er überschritten, zeigt das Widget für die ersten 10 % jenseits des Rands Gelb und erst danach Rot.
 
-**Eine einseitige Grenze** (eine Obergrenze für einen Schadstoff, oder eine Untergrenze für einen Nährstoff) wird nur an ihrer hohen Kante bewertet, sodass Kupfer bei null grün angezeigt wird, statt gelb markiert zu werden, weil es nahe am unteren Ende der Skala liegt.
+Eine einseitige Grenze, also eine Obergrenze für einen Schadstoff oder eine Untergrenze für einen Nährstoff, bewertet Cora nur an ihrer oberen Kante. Kupfer bei null ist also grün und wird nicht gelb, nur weil es am unteren Ende der Skala liegt.
 :::
 
-Ein Widget mit gelbem oder rotem Rahmen braucht Aufmerksamkeit. Der Rahmen liegt am Widget, nicht nur an der Zahl, daher ist er auch beim Scrollen sichtbar.
+Hat ein Widget einen gelben oder roten Rahmen, solltest du hinschauen. Der Rahmen liegt um das ganze Widget. So fällt er dir auch beim Scrollen auf.
 
-## Unterhalb der Widgets
+## Unter den Widgets
 
 ![Der untere Rand des Dashboards](img/mobile-dashboard-foot.webp "Dashboard bearbeiten, Wasserwerte protokollieren, und Verknüpfungen zu den vier Aufzeichnungsbereichen.")
 
-Am unteren Rand des Dashboards:
+Ganz unten auf dem Dashboard findest du:
 
-- **Dashboard bearbeiten**: öffnet den [Dashboard-Editor](/help/mobile-dashboard-editing)
-- **Wasserwerte protokollieren**: Testkit-Messwerte von Hand eingeben
-- **Tagebuch · Warnungen · Wartung · Besatz**: Verknüpfungen zu diesen Bereichen für dieses Becken
+- **Dashboard bearbeiten** öffnet den [Dashboard-Editor](/help/mobile-dashboard-editing).
+- Mit **Wasserwerte protokollieren** trägst du Testkit-Ergebnisse von Hand ein.
+- **Tagebuch · Warnungen · Wartung · Besatz** führen direkt zu diesen Bereichen für dieses Becken.
 
-Eine Zeile darüber zeigt, wann das Dashboard zuletzt aktualisiert wurde und auf welche Quellen es sich stützte.
+Eine Zeile darüber zeigt, wann das Dashboard zuletzt aktualisiert wurde und aus welchen Quellen die Daten stammen.
 
-## Durchtippen
+## Weitertippen
 
-Tippe auf ein beliebiges Widget, um dessen Detail zu öffnen: die vollständige Historie als Diagramm, jede Quelle, die es gemeldet hat, und die aktuell angewendeten Schwellenwerte. Von dort aus kannst du einen neuen Messwert von Hand protokollieren, den Bereich ändern, oder weiter zurückschauen.
+Tippe auf ein Widget, um die Details zu öffnen. Dort siehst du die ganze Historie als Diagramm, jede Quelle, die den Wert gemeldet hat, und die aktuell geltenden Schwellenwerte. Von hier aus kannst du einen neuen Messwert von Hand eintragen, den Bereich ändern oder weiter zurückschauen.
 
-## Wenn ein Widget keinen Wert hat
+## Wenn ein Widget keinen Wert zeigt
 
-Ein Widget zeigt einen Wert, sobald es einen erhält. Wenn es leer ist, liegt das meist an einem dieser Gründe:
+Ein Widget zeigt einen Wert, sobald es einen bekommt. Bleibt es leer, liegt es meist an einem dieser Gründe:
 
-- Das Gerät ist offline; prüfe den Tab **Geräte**
-- Der Wasserwert hat noch keine Quelle; protokolliere ihn von Hand, oder verbinde Ausrüstung, die ihn meldet
-- Der Wasserwert wurde noch nie gemeldet oder protokolliert; dafür wurde noch nichts erfasst
+- Das Gerät ist offline. Schau im Tab **Geräte** nach.
+- Der Wasserwert hat noch keine Quelle. Trag ihn von Hand ein oder verbinde ein Gerät, das ihn meldet.
+- Der Wasserwert wurde noch nie gemeldet oder eingetragen. Es gibt dazu also noch keine Daten.
 
-Ein alter Messwert verschwindet nicht, weil das Diagrammfenster kürzer ist als sein Alter. Er bleibt mit seinem angezeigten Alter auf dem Widget, sodass ein veralteter Wert als veraltet erscheint, statt als fehlend.
+Ein alter Messwert verschwindet nicht, nur weil das Diagrammfenster kürzer ist als sein Alter. Er bleibt mit seinem Alter auf dem Widget stehen. Ein veralteter Wert sieht also veraltet aus und nicht so, als würde er fehlen.
 
-Siehe **[Problembehebung](/help/troubleshooting)** für alles darüber hinaus.
+Bei allem anderen hilft dir die **[Problembehebung](/help/troubleshooting)**.

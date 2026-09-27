@@ -1,72 +1,72 @@
 ---
 title: Geführte Journeys
-description: Schritt-für-Schritt-Hilfe zum Einfahren eines neuen Beckens und zum Durcharbeiten eines Problems.
+description: Schritt-für-Schritt-Hilfe beim Einfahren eines neuen Beckens und beim Lösen eines Problems.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 25
 group: Intelligence
 ---
 
-Eine Journey ist Cora, das dich über Tage oder Wochen durch etwas führt, statt eine einzelne Frage zu beantworten. Es gibt zwei Arten, und sie funktionieren nicht gleich: das **Einfahren** eines neuen Beckens, und das Durcharbeiten eines **Problems**.
+In einer Journey begleitet dich Cora über Tage oder Wochen durch eine Aufgabe. Es geht also um mehr als eine einzelne Frage. Es gibt zwei Arten, und die funktionieren unterschiedlich: das **Einfahren** eines neuen Beckens und das Durcharbeiten eines **Problems**.
 
 ## Ein neues Becken einfahren
 
-Für ein Becken, das noch nicht für Besatz bereit ist. Das Einfahren lässt die Bakterien wachsen, die giftiges Ammoniak in unbedenkliches Nitrat umwandeln, und die Journey verfolgt diesen Prozess bis zum Ende.
+Diese Journey ist für ein Becken, das noch nicht bereit für Besatz ist. Beim Einfahren wachsen die Bakterien heran, die giftiges Ammoniak in unbedenkliches Nitrat umwandeln. Die Journey begleitet diesen Prozess bis zum Schluss.
 
 ![Eine laufende Einfahr-Journey](img/mobile-journeys.webp "Die Phase, die drei Zahlen, die sie definieren, und wie lange es her ist, dass du zuletzt getestet hast.")
 
-Protokolliere alle zwei bis drei Tage einen Ammoniak-, Nitrit- und Nitrat-Test. Cora ordnet dich anhand dieser Messwerte einer Phase zu:
+Trag alle zwei bis drei Tage einen Test auf Ammoniak, Nitrit und Nitrat ein. Anhand dieser Werte ordnet Cora dein Becken einer Phase zu:
 
 | Phase | Was passiert |
 |---|---|
-| **Wartet auf den ersten Test** | Noch nichts protokolliert; die Journey kann dich erst einordnen, wenn sie Zahlen hat |
-| **Noch nicht begonnen** | Alles nahe null, noch kein Nitrat. Ammoniak wurde noch nicht hinzugefügt, oder hat noch nicht begonnen umzuwandeln |
-| **Ammoniak** | Die erste Kolonie etabliert sich und verbraucht Ammoniak |
-| **Nitrit** | Die zweite Kolonie baut Nitrit ab. Meist die längste Phase, und die, bei der man annimmt, dass etwas schiefgelaufen ist, weil sich die Zahlen nicht mehr bewegen |
-| **Eingefahren** | Ammoniak und Nitrit beide abgebaut und Nitrat vorhanden, bereit für Besatz |
+| **Wartet auf den ersten Test** | Noch nichts eingetragen. Ohne Zahlen kann die Journey dich nicht einordnen |
+| **Noch nicht begonnen** | Alles liegt nahe null, Nitrat gibt es noch nicht. Entweder hast du noch kein Ammoniak zugegeben, oder die Umwandlung hat noch nicht begonnen |
+| **Ammoniak** | Die erste Kolonie siedelt sich an und baut Ammoniak ab |
+| **Nitrit** | Die zweite Kolonie baut Nitrit ab. Diese Phase dauert meist am längsten. Weil sich die Zahlen kaum noch bewegen, denken viele, es sei etwas schiefgelaufen |
+| **Eingefahren** | Ammoniak und Nitrit sind abgebaut, Nitrat ist vorhanden. Das Becken ist bereit für Besatz |
 
-**Dein bisheriger Zyklus** zeichnet die drei Kurven zusammen, aufeinander skaliert statt auf absolute Werte, sodass du die Übergabe von einer Kolonie an die nächste sehen kannst. Tippe auf einen Namen für die echten Zahlen.
+**Dein bisheriger Zyklus** zeigt die drei Kurven gemeinsam. Sie sind relativ zueinander skaliert und nicht auf absolute Werte. So siehst du, wie eine Kolonie an die nächste übergibt. Tippe auf einen Namen, um die echten Zahlen zu sehen.
 
-:::warning Zwei Dinge bringen einen Zyklus zum Stillstand
-**Ammoniak oder Nitrit über 5 ppm** bringt die Bakterien, die du züchten willst, zum Stillstand; überschreitest du das, bringt ein teilweiser Wasserwechsel es zurück. **pH unter 7** stoppt ihn ebenfalls. Die Journey warnt dich, wenn eines davon zutrifft, weil in beiden Fällen weiteres Warten nicht hilft.
+:::warning Zwei Dinge bremsen den Zyklus aus
+Bei **Ammoniak oder Nitrit über 5 ppm** stellen die Bakterien, die du heranziehen willst, ihre Arbeit ein. Liegst du darüber, bringt dich ein Teilwasserwechsel zurück in den richtigen Bereich. Auch ein **pH unter 7** bremst den Zyklus. Trifft eins davon zu, warnt dich die Journey, denn dann hilft weiteres Warten nicht.
 :::
 
-:::note Protokolliere alle drei, nicht nur den, der sich bewegt
-Ein Becken wird nur als eingefahren gemeldet, wenn Ammoniak und Nitrit jeweils als *gemessen* frei erfasst wurden und Nitrat vorhanden ist. Nitrat allein reicht nicht; Ausgangswasser trägt oft etwas davon, und für sich allein würde es wie ein abgeschlossener Zyklus aussehen und Besatz in ein Becken einladen, das ihn nicht tragen kann.
+:::note Trag immer alle drei Werte ein
+Als eingefahren gilt ein Becken erst, wenn Ammoniak und Nitrit jeweils nachweislich bei null *gemessen* wurden und Nitrat vorhanden ist. Nitrat allein reicht nicht. Oft bringt schon das Ausgangswasser etwas davon mit. Für sich genommen sähe das wie ein fertiger Zyklus aus, und du würdest Besatz in ein Becken setzen, das ihn noch nicht verkraftet.
 :::
 
-:::note Bereitschaft kommt von deinen Messwerten, nicht vom Kalender
-Die Journey meldet Bereitschaft anhand dessen, was du protokolliert hast, nicht anhand der vergangenen Wochen. Ein Becken, das zwei Wochen nicht getestet wurde, bleibt, wo es war; genau deswegen zeigt sie, wie lange der letzte Test zurückliegt.
+:::note Ob das Becken bereit ist, entscheiden deine Messwerte, nicht der Kalender
+Die Journey meldet ein Becken nach deinen eingetragenen Werten als bereit, nicht nach der Zahl der vergangenen Wochen. Testest du zwei Wochen lang nicht, bleibt das Becken in seiner Phase stehen. Genau deshalb zeigt die Journey, wie lange dein letzter Test her ist.
 :::
 
 ## Ein Problem durcharbeiten
 
-Problem-Journeys decken **ein bestimmtes Problem ab: Dinoflagellaten**. Cora bietet eine an, wenn deine Messwerte und dein Bericht darauf hindeuten; die Journey wird nur erstellt, wenn du das Angebot annimmst, nie automatisch.
+Problem-Journeys gibt es für **ein bestimmtes Problem: Dinoflagellaten**. Cora bietet dir eine an, wenn deine Messwerte und dein Bericht darauf hindeuten. Die Journey startet nur, wenn du das Angebot annimmst, nie automatisch.
 
-:::note Journeys sind noch kein allgemeiner Problemlöser
-Einfahren und Dinoflagellaten sind die beiden, die es heute gibt. Andere Probleme werden statt dessen mit [Cora Assistant](/help/mobile-assistant) und dem [Tagebuch](/help/mobile-journal) durchgearbeitet.
+:::note Journeys lösen noch nicht jedes Problem
+Heute gibt es zwei Journeys: Einfahren und Dinoflagellaten. Andere Probleme arbeitest du mit [Cora Assistant](/help/mobile-assistant) und dem [Tagebuch](/help/mobile-journal) durch.
 :::
 
-Eine Problem-Journey durchläuft fünf Phasen:
+Eine Problem-Journey hat fünf Phasen:
 
-1. **Prüfen**: passiert das wirklich? Cora prüft deine Messwerte, bevor es zustimmt, dass es ein Problem gibt.
-2. **Nachweis**: sammle, was benötigt wird. Meist ein Test, manchmal ein Foto oder eine Beobachtung.
-3. **Plan**: Cora schlägt vor, was zu tun ist, und warum.
-4. **Ausführung**: du tust es, so lange es dauert.
-5. **Ergebnis**: hat es funktioniert?
+1. **Prüfen**: Passiert das wirklich? Cora schaut sich deine Messwerte an, bevor es ein Problem bestätigt.
+2. **Nachweis**: Du sammelst, was gebraucht wird, meist einen Test, manchmal ein Foto oder eine Beobachtung.
+3. **Plan**: Cora schlägt vor, was zu tun ist, und erklärt, warum.
+4. **Umsetzung**: Du setzt den Plan um, so lange es eben dauert.
+5. **Ergebnis**: Hat es geklappt?
 
-:::note Prüfen ist ein Schritt, den du abschließt, keine Prüfung, die Cora durchführt
-Eine Problem-Journey öffnet mit **Prüfen**, was dich bittet, zu bestätigen, was tatsächlich passiert, bevor ein Plan gezeigt wird. Das ist ein bewusster erster Schritt; du wirst gebeten, hinzuschauen, nicht bewertet. Eine Einfahr-Journey hat keinen Messwert zu prüfen und beginnt bei **Ausführung**.
+:::note Prüfen erledigst du selbst, Cora prüft dich nicht
+Eine Problem-Journey beginnt mit **Prüfen**. Dort bestätigst du, was wirklich los ist, bevor ein Plan kommt. Dieser erste Schritt ist gewollt. Du sollst genau hinschauen, und niemand bewertet dich dabei. Eine Einfahr-Journey hat keinen Messwert, den du prüfen müsstest, und beginnt direkt bei **Umsetzung**.
 :::
 
-### Das Ergebnis erfassen
+### Das Ergebnis festhalten
 
-Am Ende sagst du, was passiert ist:
+Am Ende gibst du an, wie es ausgegangen ist:
 
 **Behoben** · **Verbessert sich** · **Keine Änderung** · **Schlechter** · **Gestoppt**
 
-Erfasse das Ergebnis genau, einschließlich **Schlechter**. Das Ergebnis wird mit der Journey gespeichert, sodass ein ähnliches Problem später mit dem verglichen werden kann, was versucht wurde und was daraus wurde.
+Sei dabei ehrlich, auch bei **Schlechter**. Das Ergebnis wird mit der Journey gespeichert. Taucht später ein ähnliches Problem auf, lässt es sich mit dem vergleichen, was damals versucht wurde und was dabei herauskam.
 
 ## Eine Journey verwerfen
 
-Wenn eine Journey nicht nützlich ist, verwirf sie. Sie hört auf zu erscheinen, und das Verwerfen wird erfasst, sodass ähnliche Journeys seltener angeboten werden.
+Bringt dir eine Journey nichts, verwirf sie. Sie taucht dann nicht mehr auf. Cora merkt sich das und bietet ähnliche Journeys seltener an.

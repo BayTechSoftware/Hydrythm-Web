@@ -1,78 +1,78 @@
 ---
 title: ICP ve sağlık raporları
-description: Bir ICP testi yükleyin, her elementi zaman içinde takip edin ve sisteminizin tam bir sağlık değerlendirmesini çalıştırın.
+description: ICP testinizi yükleyin, her elementi zaman içinde izleyin ve sisteminizin kapsamlı sağlık değerlendirmesini alın.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 26
 group: Intelligence
 ---
 
-**Zeka** sekmesi, lab çalışmanız ve uzun görüşünüzdür.
+Laboratuvar sonuçlarınız ve uzun vadeli takibiniz **Zeka** sekmesinde.
 
-![Intelligence sekmesi](img/mobile-intelligence.webp "ICP yükleyin, bir sağlık raporu çalıştırın ve son rapordan bu yana ne değiştiğini görün.")
+![Zeka sekmesi](img/mobile-intelligence.webp "ICP yükleyin, sağlık raporu alın ve son rapordan bu yana nelerin değiştiğini görün.")
 
-## Bir ICP testi yükleme
+## ICP testi yükleme
 
-**ICP Yükle**'ye dokunun, akvaryumunuzu seçin ve sonucu labınızdan ekleyin. Cora raporu okur, her elementi kaydeder ve onu önceki testlerinize karşı sıralar.
+**ICP Yükle**'ye dokunun, akvaryumunuzu seçin ve laboratuvardan gelen sonucu ekleyin. Cora raporu okur, her elementi kaydeder ve önceki testlerinizle yan yana koyar.
 
-Hiçbir şey elle yazmanız gerekmez. Cora yaygın lab formatlarını işler.
+Elle hiçbir şey yazmanız gerekmez. Cora yaygın laboratuvar formatlarını tanır.
 
-## Cora'ya gönder: bir labın veya bir e-postanın sizin için teslim ettiği sonuçlar
+## Cora'ya gönderim: laboratuvarın ya da e-postanın sizin yerinize ilettiği sonuçlar
 
-Bazı laboratuvarlar bir sonucu doğrudan Cora'ya gönderebilir ve e-postayla gelen bir ICP sonucu, siz hiçbir şey yüklemeden aynı şekilde yönlendirilebilir.
+Bazı laboratuvarlar sonucu doğrudan Cora'ya gönderebilir. E-postayla gelen ICP sonuçları da aynı yoldan iletilebilir. Sizin hiçbir şey yüklemenize gerek kalmaz.
 
-Biri geldiğinde, bir banner görünür: *"{lab}'dan lab sonucu bekliyor."* **Tank seç**'e dokunun ve akvaryumlarınızdan hangisine ait olduğunu seçin; Cora bunu kendi başına tahmin edemez. Seçtiğinizde, Cora onu yüklenmiş bir rapor gibi o akvaryuma ekler.
+Sonuç geldiğinde bir bildirim şeridi çıkar: *"{lab} laboratuvarından bir sonuç sizi bekliyor."* **Tank seç**'e dokunun ve sonucun hangi akvaryumunuza ait olduğunu seçin. Cora bunu kendisi tahmin edemez. Seçiminizden sonra Cora sonucu, yüklediğiniz bir rapor gibi o akvaryuma ekler.
 
-Raporun kendisi başlığının yakınında **{lab} tarafından gönderildi** gösterir; böylece kendiniz yüklediğiniz bir rapordan onu ayırt edebilirsiniz.
+Raporun başlığının yakınında **{lab} tarafından gönderildi** yazar. Böylece kendi yüklediğiniz raporlardan ayırt edersiniz.
 
 :::note İlk sefer
-Bir sonuç bu şekilde ilk geldiğinde, Cora ne olduğunu açıklayan kısa bir ipucu gösterir; böylece bir hata gibi görünmez.
+Bu yoldan ilk sonuç geldiğinde Cora neler olduğunu anlatan kısa ipucu gösterir. Böylece durum bir hata gibi görünmez.
 :::
 
-Çalışmazsa: bkz. [Sorun giderme](/help/troubleshooting).
+İşe yaramıyorsa [Sorun giderme](/help/troubleshooting) sayfasına bakın.
 
-![Bir ICP raporu](img/mobile-icp-report.webp "Her rapor bir puan ve akvaryumunuz için yazılmış bir özet taşır.")
+![ICP raporu](img/mobile-icp-report.webp "Her raporda puan ve akvaryumunuza göre yazılmış özet bulunur.")
 
-## Geri aldığınız şey
+## Raporda neler var
 
-**100 üzerinden bir puan** ve sisteminiz için özel olarak ne anlama geldiğinin düz bir dilde özeti: akvaryum türünüz, yaşınız, canlılarınız.
+**100 üzerinden bir puan** ve bunun sizin sisteminiz için ne anlama geldiğini anlatan sade özet. Özet akvaryumunuzun türüne, yaşına ve canlılarına göre yazılır.
 
-Puan, kendi belirlediğiniz aralıklar dahil, sonuçlarınızın hedef aralıklarına karşı hesaplanır. Aralığının dışındaki herhangi bir sonuç, diğerleri ne kadar iyi olursa olsun, puanı 70 veya altında tutar, ve aralığının çok dışındaki bir sonuç onu 40 veya altında tutar. Puanın altındaki etiket, 70 üzerinde **Sağlıklı**, 40 ile 70 arasında **Dikkat Gerekiyor** ve 40 altında **Kritik** okur. Sağlık Raporları da aynı şekilde puanlanır.
+Puan, sonuçlarınızın hedef aralıklarına göre hesaplanır. Kendi belirlediğiniz aralıklar da hesaba katılır. Aralığın dışında tek bir sonuç bile varsa, diğerleri ne kadar iyi olursa olsun puan en fazla 70 olur. Aralığın çok dışında bir sonuç varsa puan en fazla 40 olur. Puanın altındaki etiket 70'in üstünde **Sağlıklı**, 40 ile 70 arasında **Dikkat Gerekiyor**, 40'ın altında **Kritik** olur. Sağlık Raporları da aynı şekilde puanlanır.
 
-**Takip edilen her element**: sadece öncü parametreler değil, eser elementler ve kirleticiler de.
+**Takip edilen bütün elementler**: yalnızca ana parametreler değil, eser elementler ve kirleticiler de.
 
-**En çok hareket edenler**: "Son ICP'inizden bu yana" kartı, son seferden bu yana en çok neyin değiştiğini gösterir; bu genellikle yeni bir raporu anlamanın en hızlı yoludur.
+**En çok değişenler**: "Son ICP'nizden bu yana" kartı, önceki testten bu yana en çok neyin değiştiğini gösterir. Yeni bir raporu anlamanın genellikle en hızlı yolu budur.
 
-**Eğilimler**: yüklediğiniz her testte bir elementi görmek için **Eğilimler**'e dokunun. ICP'nin bir anlık görüntü olmaktan çıkıp kullanışlı olmaya başladığı yer burasıdır.
+**Eğilimler**: bir elementin yüklediğiniz bütün testlerdeki seyrini görmek için **Eğilimler**'e dokunun. ICP tek seferlik fotoğraf olmaktan burada çıkar ve asıl işe yaramaya başlar.
 
-:::tip İki test ilginç hale geldiği yerdir
-Tek bir ICP size nerede olduğunuzu söyler. İkincisi hangi yöne hareket ettiğinizi söyler; bu daha eyleme dönüştürülebilir bir gerçektir. Sadece bir şey yanlış olduğunda değil, bir ritimle test edin.
+:::tip Asıl bilgi ikinci testle gelir
+Tek bir ICP size nerede olduğunuzu söyler. İkincisi hangi yöne gittiğinizi gösterir ve harekete geçmek için asıl bu bilgi gerekir. Yalnızca bir sorun çıktığında değil, düzenli aralıklarla test ettirin.
 :::
 
 ## Sağlık raporları
 
-Bir **Sağlık Raporu**, tüm sistemin daha derin, periyodik bir değerlendirmesidir: her parametre, her kaynak, dozajınız, geçmişiniz ve son ICP sonuçlarınız birlikte değerlendirilir.
+**Sağlık Raporu**, tüm sistemi belli aralıklarla daha derinlemesine değerlendirir. Her parametre, her kaynak, dozajınız, geçmişiniz ve son ICP sonuçlarınız birlikte ele alınır.
 
-**Sağlık Raporu**'na dokunun ve bir akvaryum seçin. Üretmesi bir dakika sürer.
+**Sağlık Raporu**'na dokunun ve bir akvaryum seçin. Raporun hazırlanması biraz sürer.
 
-Bugünün öncü başlığı yerine düşünülmüş bir okuma istediğinizde kullanın: büyük bir değişiklikten önce, bir sorundan sonra, veya bir kontrol olarak birkaç haftada bir.
+Günlük özetten daha kapsamlı bir değerlendirme istediğinizde kullanın: büyük bir değişiklikten önce, bir sorundan sonra ya da birkaç haftada bir genel kontrol için.
 
-## Probunuza karşı ICP
+## ICP ve problarınız
 
-Cora, lab sonuçlarınızı ekipmanınızın bildirdikleriyle karşılaştırır. Alkalinite probunuz 8,4 derken ICP'niz 7,6 dediğinde, bu bilmeye değer bir gerçektir ve Cora sessizce birini tercih etmek yerine bunu yüzeye çıkarır.
+Cora laboratuvar sonuçlarınızı ekipmanınızın ölçümleriyle karşılaştırır. Alkalinite probunuz 8,4, ICP sonucunuz 7,6 diyorsa bunu bilmeniz gerekir. Cora da birini sessizce seçmek yerine farkı size gösterir.
 
-Bu, bir ICP'nin Cora içinde yaptığı en kullanışlı şeylerden biridir. Bu bir **üçüncü görüştür, bir hakem değil**: laboratuvarlar birbirinden farklıdır ve bir örneğin taşınması, saklanması ve nakliyesi hepsi sonucu hareket ettirir. Tek bir ICP'yi kanıt olarak ele alın (anlaşan iki test, birinden çok daha değerlidir) ve kalıcı bir farkı probu kontrol etmek için bir neden olarak okuyun, probun yanlış olduğunun kanıtı olarak değil.
+ICP'nin Cora'daki en yararlı işlerinden biri budur. ICP **üçüncü bir görüştür, son sözü söylemez**. Laboratuvarlar birbirinden farklı sonuç verebilir. Numunenin nasıl alındığı, saklandığı ve taşındığı da sonucu değiştirir. Tek ICP'yi kanıt olarak görün. Birbiriyle uyuşan iki test, tek testten çok daha değerlidir. Sürekli fark görüyorsanız bunu probun hatalı olduğunun kanıtı olarak değil, probu kontrol etmek için neden olarak görün.
 
-:::tip Lab veya test yöntemi değiştirme
-Labları değiştirmek, veya bir labın ICP-OES ve ICP-MS testleri arasında geçiş yapmak, akvaryumunuzda bir değişiklik olmadan sonuçlarınızı hareket ettirebilir ve Cora bunları karşılaştırırken bunu belirtir. ICP-OES çok düşük krom, kalay, nikel, bakır, kobalt veya selenyumu ölçemez; bu yüzden bir ICP-OES testinde bunlar için **Tespit sınırının altında** sonucu, akvaryumunuzda hiç olmadığı anlamına gelmez.
+:::tip Laboratuvar ya da test yöntemi değiştirirken
+Laboratuvar değiştirmek ya da aynı laboratuvarda ICP-OES ile ICP-MS arasında geçiş yapmak, akvaryumunuzda hiçbir şey değişmeden sonuçlarınızı değiştirebilir. Cora karşılaştırma yaparken bunu belirtir. ICP-OES çok düşük seviyelerdeki krom, kalay, nikel, bakır, kobalt ve selenyumu ölçemez. Bu yüzden ICP-OES testinde bu elementler için **Tespit sınırının altında** sonucu, akvaryumunuzda hiç olmadıkları anlamına gelmez.
 :::
 
-## Kotanız
+## Kullanım hakkınız
 
-İkisi de planınız tarafından ölçülür. Düğmelerin altındaki satır bu ay ne kullandığınızı gösterir.
+İki özellik de planınıza göre sınırlıdır. Düğmelerin altındaki satır bu ay ne kadar kullandığınızı gösterir.
 
-Planınızdan ayrı olarak, Cora günde 10'a kadar ICP yüklemesi kabul eder. Bu nedenle reddedilen bir yükleme, planınızın ICP analizlerinden hiçbirini kullanmaz, ama Cora Mobile yalnızca genel bir yükleme hatası gösterir; bu yüzden yüklemeler bir günde birçoğundan sonra başarısız olmaya başlarsa, yarın yeniden deneyin.
+Planınızdan bağımsız olarak Cora günde en fazla 10 ICP yüklemesi kabul eder. Bu sınır yüzünden reddedilen bir yükleme planınızdaki ICP analiz hakkından düşmez. Ancak Cora Mobile bu durumda yalnızca genel bir yükleme hatası gösterir. Aynı gün çok sayıda yüklemeden sonra yüklemeler başarısız olmaya başlarsa ertesi gün tekrar deneyin.
 
-## Raporların yaşadığı yer
+## Raporlar nerede durur
 
-Intelligence ekranı iki türü ayrı tutar: lab sonuçları **ICP Raporları** altında, oluşturulan incelemeler **Sağlık Raporları** altında. Her liste puanıyla en yeniden en eskiye sıralıdır; tam olarak yeniden açmak için birine dokunun.
+Zeka ekranı iki rapor türünü ayrı tutar. Laboratuvar sonuçları **ICP Raporları** altında, Cora'nın hazırladığı değerlendirmeler **Sağlık Raporları** altında listelenir. İki liste de en yeniden eskiye sıralanır ve her raporun puanı görünür. Raporun tamamını yeniden açmak için üzerine dokunun.

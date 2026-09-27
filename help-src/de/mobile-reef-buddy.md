@@ -1,84 +1,84 @@
 ---
 title: Reef Buddy
-description: Deine tägliche Zusammenfassung: was sie abdeckt, wann sie ankommt, und wie du die Bewertung liest.
+description: Deine tägliche Zusammenfassung, was drinsteht, wann sie kommt und wie du die Werte liest.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 24
 group: Intelligence
 ---
 
-Reef Buddy ist eine kurze tägliche Einschätzung deines Beckens. Sie kommt jeden Morgen an, sagt dir, was sich verändert hat, und markiert alles, das deine Aufmerksamkeit wert ist, bevor du es selbst bemerkst.
+Reef Buddy ist ein kurzer täglicher Blick auf dein Becken. Die Zusammenfassung kommt jeden Morgen, sagt dir, was sich verändert hat, und weist dich auf alles hin, was du dir ansehen solltest, oft bevor es dir selbst auffällt.
 
-Sie erscheint als Karte oben auf deinem Dashboard, und als eine Benachrichtigung.
+Du findest sie als Karte oben auf deinem Dashboard und als Benachrichtigung.
 
 ![Eine Reef Buddy-Zusammenfassung](img/mobile-reefbuddy.webp "Stabilitäts- und Daten-Bewertungen, eine Zusammenfassung, dann die Insights dahinter.")
 
 ## Was in einer Zusammenfassung steht
 
-**Eine Schlagzeile**: eine einzeilige Zusammenfassung des Beckens heute.
+Eine **Schlagzeile**, die das Becken heute in einer Zeile beschreibt.
 
-**Zwei Bewertungen:**
+Zwei **Werte**:
 
-| Bewertung | Bedeutet |
+| Wert | Bedeutung |
 |---|---|
-| **Stabilität** | Von 100. Wie stetig deine Messwerte in den letzten 30 Tagen waren |
-| **Daten** | Ein Prozentsatz. Wie vollständig die Daten hinter der Bewertung sind |
+| **Stabilität** | von 0 bis 100. Wie gleichmäßig deine Messwerte in den letzten 30 Tagen waren |
+| **Daten** | in Prozent. Wie vollständig die Daten hinter der Einschätzung sind |
 
-Eine niedrige Daten-Bewertung bedeutet, dass die Einschätzung auf weniger Messwerten ruht, als sie es sich wünschen würde. Lies sie zuerst: Wenn Daten niedrig ist, behandle die Stabilitätszahl daneben als vorläufig statt als feststehend.
+Ein niedriger Daten-Wert heißt, dass die Einschätzung auf weniger Messwerten beruht, als sie bräuchte. Schau ihn dir deshalb zuerst an. Ist er niedrig, nimm die Stabilität daneben nur als vorläufig.
 
-**Eine Zusammenfassung**: ein kurzer Absatz, der die Schlagzeile erklärt und sich auf deine tatsächlichen Werte und Bereiche bezieht.
+Eine **Zusammenfassung**: ein kurzer Absatz, der die Schlagzeile erklärt und sich auf deine echten Werte und Bereiche bezieht.
 
-**Erkenntnisse**: die einzelnen Erkenntnisse. Jede trägt eine Kategorie (wie *Wasserchemie*), einen Rhythmus (wie *Täglich*), und lässt sich für Details aufklappen. Ein Chip oben im Abschnitt zeigt den Beckentyp und wie vollständig sein Profil ist, weil beides beeinflusst, was Cora schließen kann.
+Die **Erkenntnisse**, also die einzelnen Befunde. Jede hat eine Kategorie (etwa *Wasserchemie*) und einen Rhythmus (etwa *Täglich*) und lässt sich für Details aufklappen. Ein Chip oben im Abschnitt zeigt den Beckentyp und wie vollständig das Profil ausgefüllt ist. Beides beeinflusst, welche Schlüsse Cora ziehen kann.
 
-Insights werden gefiltert, bevor sie dich erreichen. Ein Insight muss sich über mehrere Messwerte bestätigen, statt bei einem einzigen aufzutauchen, und muss etwas sagen, das ein einzelnes Diagramm dir nicht schon gezeigt hätte.
+Bevor eine Erkenntnis bei dir ankommt, wird sie gefiltert. Sie muss sich über mehrere Messwerte bestätigen, ein einzelner Ausreißer reicht nicht. Und sie muss dir etwas sagen, das du nicht schon an einem einzelnen Diagramm gesehen hättest.
 
-Tippe auf die Karte im Dashboard, um die vollständige Zusammenfassung zu öffnen.
+Tippe auf die Karte im Dashboard, um die ganze Zusammenfassung zu öffnen.
 
-## Wann sie ankommt
+## Wann sie kommt
 
-Einmal am Tag, am frühen Morgen, pro Becken.
+Einmal am Tag, früh am Morgen, für jedes Becken.
 
-An einem Tag, an dem nichts deine Aufmerksamkeit braucht, bleibt Reef Buddy meist still, statt zu senden, um zu sagen, dass alles in Ordnung ist. **Ein Push bedeutet, dass es etwas gibt, das eine Handlung wert ist**, was eine neue Veränderung sein kann, oder ein Zustand, der lange genug angehalten hat, um es wert zu sein, ihn anzusprechen.
+An Tagen, an denen nichts deine Aufmerksamkeit braucht, bleibt Reef Buddy meist still. Cora schickt dir dann keine Nachricht, nur um zu sagen, dass alles in Ordnung ist. **Kommt eine Push-Nachricht, gibt es etwas zu tun.** Das kann eine neue Veränderung sein oder ein Zustand, der schon so lange anhält, dass er erwähnt werden sollte.
 
-:::note Ein Becken, eine Zusammenfassung
-Jedes Becken bekommt seine eigene Zusammenfassung. Wenn du drei Systeme betreibst, bekommst du drei, und jede handelt nur von diesem System.
+:::note Jedes Becken hat seine eigene Zusammenfassung
+Hast du drei Becken, bekommst du drei Zusammenfassungen. Jede handelt nur von ihrem Becken.
 :::
 
-:::note Cora Max hat seine eigene Reef Buddy-Einstellung
-Ein Cora Max-Tablet hat einen eigenen Abschnitt **Reef Buddy** in seinen Einstellungen, mit einem Schalter und einer Zeit, zu der seine Zusammenfassung auf dem Bildschirm erscheint. Das ist getrennt vom Handy: Eine Zusammenfassung auf Cora Max ein- oder auszuschalten ändert nicht, ob sie dein Handy erreicht, und umgekehrt.
+:::note Cora Max hat eine eigene Reef Buddy-Einstellung
+Ein Cora Max hat in seinen Einstellungen einen eigenen Abschnitt **Reef Buddy** mit einem Schalter und der Uhrzeit, zu der die Zusammenfassung auf dem Bildschirm erscheint. Das ist unabhängig vom Handy. Schaltest du die Zusammenfassung am Cora Max ein oder aus, ändert das nichts an deinem Handy, und umgekehrt genauso.
 :::
 
-## Die Bewertungen lesen
+## Die Werte lesen
 
-**Stabilität** spiegelt wider, wie stetig deine Messwerte in den letzten 30 Tagen waren. Sie misst Stetigkeit, nicht, ob Messwerte im Bereich sind: Ein Becken, das stetig auf dem falschen Niveau gehalten wird, kann trotzdem gut bewertet werden. Für eine Bewertung gegen deine Zielbereiche, führe einen [Zustandsbericht](/help/mobile-icp-health) aus. Stabilität ist ein Trend, den man über die Zeit beobachtet, keine Note; vergleiche sie mit deinen eigenen früheren Bewertungen, nicht mit einem anderen Becken.
+Die **Stabilität** zeigt, wie gleichmäßig deine Messwerte in den letzten 30 Tagen waren. Ob die Werte im Bereich liegen, misst sie nicht. Ein Becken, das gleichmäßig auf dem falschen Niveau läuft, kann also trotzdem gut abschneiden. Eine Bewertung gegen deine Zielbereiche bekommst du mit einem [Zustandsbericht](/help/mobile-icp-health). Die Stabilität ist ein Verlauf, den du über die Zeit beobachtest, keine Schulnote. Vergleich sie mit deinen eigenen früheren Werten und nicht mit einem anderen Becken.
 
-**Daten** spiegelt wider, wie viele aktuelle Informationen der Einschätzung zur Verfügung standen. Sie fällt, wenn Messwerte veralten.
+Der Wert **Daten** zeigt, wie viele aktuelle Informationen für die Einschätzung da waren. Er sinkt, wenn Messwerte veralten.
 
-:::note Eine fallende Daten-Bewertung bedeutet meist, dass Messwerte veraltet sind
-Wenn eine Woche nichts getestet wurde, fällt die Daten-Bewertung, und die Stabilitäts-Bewertung wird weniger zuverlässig. Protokolliere Messwerte, um beide wiederherzustellen.
+:::note Sinkt der Daten-Wert, sind meist Messwerte veraltet
+Hast du eine Woche lang nichts getestet, sinkt der Daten-Wert, und die Stabilität wird weniger verlässlich. Trag neue Messwerte ein, dann erholen sich beide.
 :::
 
-## Die Karte verwerfen
+## Die Karte ausblenden
 
-Das **×** entfernt die heutige Karte vom Dashboard. Die von morgen kommt trotzdem. Vergangene Zusammenfassungen bleiben im Tab **Intelligence** verfügbar.
+Mit **×** blendest du die Karte von heute auf dem Dashboard aus. Die von morgen kommt trotzdem. Frühere Zusammenfassungen findest du weiter im Tab **Intelligenz**.
 
 ## Verfügbarkeit
 
-Reef Buddy ist Teil der kostenpflichtigen Stufen. Es ist in der 30-tägigen Testphase enthalten, die beginnt, wenn du dich anmeldest; nach der Testphase erhält ein kostenloses Konto keine Zusammenfassungen mehr. Siehe [Abos](/help/mobile-plans).
+Reef Buddy gehört zu den bezahlten Stufen. Es ist auch in der 30-tägigen Testphase enthalten, die mit deiner Registrierung beginnt. Nach der Testphase bekommt ein kostenloses Konto keine Zusammenfassungen mehr. Mehr dazu unter [Abos](/help/mobile-plans).
 
-## Einen Insight korrigieren
+## Eine Erkenntnis bewerten
 
-Jeder Insight nimmt eine von vier Antworten an:
+Auf jede Erkenntnis kannst du mit einer von vier Antworten reagieren:
 
-| Antwort | Bedeutet |
+| Antwort | Bedeutung |
 |---|---|
-| **Bestätigt** | Er war richtig, und nützlich |
-| **Stimmt nicht überein** | Er spiegelt nicht wider, was du siehst |
-| **Schon gewusst** | Richtig, aber du warst dir bewusst |
-| **Nicht sicher** | Du kannst ihn noch nicht beurteilen |
+| **Bestätigt** | war richtig und hilfreich |
+| **Stimmt nicht überein** | passt nicht zu dem, was du siehst |
+| **Schon gewusst** | stimmt, aber du wusstest es schon |
+| **Nicht sicher** | kannst du noch nicht beurteilen |
 
-Feedback formt, was spätere Zusammenfassungen anführt, und die Unterdrückung ist **zeitlich begrenzt**; ein von dir verworfener Insight kommt zurück, wenn der Zustand anhält.
+Deine Antworten beeinflussen, was in späteren Zusammenfassungen oben steht. Ausgeblendet wird eine Erkenntnis nur **auf Zeit**. Hält der Zustand an, taucht sie wieder auf.
 
-:::note Ernste Befunde werden nie unterdrückt
-Nur Insights mit niedrigerer Dringlichkeit können durch Feedback beruhigt werden. Warnungs- und kritische Insights erscheinen weiterhin, egal wie du zuvor darauf geantwortet hast.
+:::note Ernste Befunde blendet Cora nie aus
+Nur weniger dringende Erkenntnisse lassen sich durch deine Antworten beruhigen. Warnungen und kritische Befunde erscheinen weiter, egal wie du vorher darauf reagiert hast.
 :::

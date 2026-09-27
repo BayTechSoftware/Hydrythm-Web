@@ -1,59 +1,59 @@
 ---
 title: Das Tagebuch
-description: Erfasse, was du an deinem Becken getan hast, damit du später sagen kannst, was was verursacht hat.
+description: Schreib auf, was du an deinem Becken gemacht hast. Dann erkennst du später, was wozu geführt hat.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 21
 group: Records
 ---
 
-Das Tagebuch erfasst, was du am Becken getan hast: Wasserwechsel, Besatz-Ergänzungen, Dosierungsänderungen, Arbeiten an der Ausrüstung und Wartung.
+Im Tagebuch hältst du fest, was du am Becken gemacht hast: Wasserwechsel, neuer Besatz, geänderte Dosierungen, Arbeiten an der Technik und Wartung.
 
-Sein Zweck ist der spätere Vergleich. Wenn sich ein Wasserwert unerwartet verändert, ist das Tagebuch die Aufzeichnung dessen, was sich rund um dieses Datum geändert hat.
+Nützlich wird das später beim Vergleichen. Verändert sich ein Wasserwert unerwartet, siehst du im Tagebuch, was sich rund um dieses Datum geändert hat.
 
 ![Das Tagebuch](img/mobile-journal.webp "Einträge in umgekehrter Reihenfolge, mit eingebetteten Fotos.")
 
 ## Einen Eintrag hinzufügen
 
-Tippe auf die **Tagebuch**-Schaltfläche, die über der unteren rechten Ecke des Dashboards schwebt.
+Tippe auf die Schaltfläche **Tagebuch**, die unten rechts über dem Dashboard schwebt.
 
-Schreib in einfachen Worten, was du getan hast. Füge ein Foto hinzu, wenn es hilft: eine Koralle, die Farbe bekommt, ein Gerät, das sich seltsam verhält, ein Testkit-Ergebnis.
+Schreib in einfachen Worten auf, was du gemacht hast. Ein Foto hilft oft, etwa von einer Koralle, die Farbe bekommt, einem Gerät, das sich komisch verhält, oder einem Testergebnis.
 
-Du kannst einen Eintrag auch **diktieren**, statt ihn zu tippen, die einfachere Option mit nassen Händen. Sprich, und was du gesagt hast, wird für dich in den Eintrag geschrieben.
+Du kannst einen Eintrag auch **diktieren**. Mit nassen Händen ist das bequemer. Sprich einfach, und Cora schreibt deine Worte in den Eintrag.
 
-Einträge werden automatisch mit dem Becken und der Zeit versehen.
+Becken und Uhrzeit trägt Cora automatisch ein.
 
-:::note Einträge müssen nicht formell sein
-Kurze Einträge reichen aus; "20 l Wasserwechsel, 5 ml zusätzliche Alkalinität" ist ein vollständiger Eintrag. Trage sie im Moment ein; nachträglich rekonstruierte Einträge sind weniger zuverlässig.
+:::note Einträge dürfen kurz sein
+Ein kurzer Eintrag genügt. "20 l Wasserwechsel, 5 ml zusätzlich Alkalinität" ist schon vollständig. Schreib ihn gleich auf. Was du später aus dem Gedächtnis nachträgst, ist weniger zuverlässig.
 :::
 
-## Was du erfassen solltest
+## Was du aufschreiben solltest
 
-Die Dinge, die sich als am wichtigsten erweisen:
+Diese Dinge erweisen sich meist als am wichtigsten:
 
-- **Wasserwechsel**: wie viel, und wann
+- **Wasserwechsel**: wie viel und wann
 - **Alles Neue im Becken**: Besatz, Gestein, Filtermedien
-- **Dosierungsänderungen**: was du geändert hast und warum
-- **Ausrüstung**: gereinigt, ersetzt, verschoben, ausgefallen
-- **Wartung**: Abschäumer gereinigt, Socken gewechselt, Pumpen gewartet
-- **Alles Ungewöhnliche**: ein Stromausfall, ein heißer Tag, ein Verschütten
+- **Geänderte Dosierungen**: was du geändert hast und warum
+- **Technik**: gereinigt, ersetzt, umgesetzt, ausgefallen
+- **Wartung**: Abschäumer gereinigt, Filtersocken gewechselt, Pumpen gewartet
+- **Alles Ungewöhnliche**: ein Stromausfall, ein heißer Tag, etwas ausgelaufen
 
-## Einträge bearbeiten und entfernen
+## Einträge bearbeiten und löschen
 
-Tippe auf einen Eintrag, um ihn zu öffnen und zu ändern. Um einen zu entfernen, wische ihn und bestätige; du wirst zuerst gefragt, weil ein Eintrag, den du im Moment geschrieben hast, später nicht rekonstruierbar ist.
+Tippe auf einen Eintrag, um ihn zu öffnen und zu ändern. Zum Löschen wischst du ihn zur Seite und bestätigst. Cora fragt vorher nach, denn was du damals aufgeschrieben hast, lässt sich später nicht mehr rekonstruieren.
 
 ## Cora zu einem Eintrag fragen
 
-Ein Eintrag, den du als **Anliegen** oder **Notfall** markiert hast, trägt eine **Analysieren**-Aktion. Sie übergibt diesen Eintrag zusammen mit den Messwerten des Beckens rund um dasselbe Datum an [Cora Assistant](/help/mobile-assistant) und kommt mit einer Einschätzung zurück. Nutze das, wenn du etwas aufgeschrieben hast, das dir Sorgen macht, und eine zweite Einschätzung dazu willst.
+Hast du einen Eintrag als **Bedenken** oder **Notfall** markiert, gibt es dazu die Aktion **Analysieren**. Sie übergibt den Eintrag zusammen mit den Messwerten des Beckens rund um dieses Datum an [Cora Assistant](/help/mobile-assistant), und du bekommst eine Einschätzung zurück. Das hilft, wenn dir etwas Sorgen macht, das du notiert hast, und du eine zweite Meinung willst.
 
-## Wieder nachlesen
+## Später nachlesen
 
-Das Tagebuch ist eine Zeitleiste pro Becken, neueste zuerst. Fotos erscheinen eingebettet.
+Das Tagebuch ist eine Zeitleiste pro Becken, die neuesten Einträge stehen oben. Fotos siehst du direkt im Eintrag.
 
-Filtere nach Kategorie, um ein langes Tagebuch auf eine Art von Eintrag einzugrenzen: Beobachtungen, Anliegen, oder Notfälle.
+Ist das Tagebuch lang, filterst du nach Kategorie und siehst nur eine Art von Eintrag: Beobachtungen, Bedenken oder Notfälle.
 
-Der Assistent liest das Tagebuch. Fragen wie *"wann habe ich zuletzt Wasser gewechselt?"* werden aus deinen Einträgen zusammen mit deinen Messwerten beantwortet.
+Der Assistent liest dein Tagebuch mit. Fragen wie *"Wann habe ich zuletzt das Wasser gewechselt?"* beantwortet er aus deinen Einträgen und deinen Messwerten.
 
-## Auf Cora Max
+## Auf dem Cora Max
 
-Du kannst Tagebucheinträge auch auf Cora Max hinzufügen, was oft bequemer ist, wenn du am Becken stehst. Erreiche das Tagebuch über das Beckenmenü, oder diktiere einen Eintrag per Sprache.
+Tagebucheinträge kannst du auch auf dem Cora Max anlegen. Wenn du ohnehin am Becken stehst, ist das oft bequemer. Du erreichst das Tagebuch über das Beckenmenü oder diktierst einen Eintrag per Sprache.

@@ -1,98 +1,98 @@
 ---
 title: Mit Cora sprechen
-description: Sprache auf Cora Max nutzen, ein Gespräch starten, was du fragen kannst, und wie Bestätigungen funktionieren.
+description: Sprachsteuerung auf Cora Max nutzen, ein Gespräch starten, was du fragen kannst und wie Bestätigungen funktionieren.
 section: Cora Max
 reviewed: 2026-09-27
 order: 12
 group: Intelligence
 ---
 
-Cora Max versteht Sprache, der einfachste Weg, es zu nutzen, wenn deine Hände nass sind oder du quer durch den Raum bist.
+Cora Max versteht Sprache. Das ist am bequemsten, wenn du nasse Hände hast oder am anderen Ende des Raums stehst.
 
-## Zwei Wege zu starten
+## Zwei Wege zum Start
 
-**Sag "Hey Cora".** Cora Max hört im Hintergrund auf die Wake-Phrase und startet eine Sitzung, wenn es sie hört.
+**Sag „Hey Cora“.** Cora Max hört im Hintergrund auf dieses Weckwort und startet ein Gespräch, sobald es das hört.
 
-**Oder tippe auf das Cora Assistant-Symbol** in der oberen Leiste. Cora beginnt sofort zu hören, antwortet laut, und hört weiter zu, bis du es beendest.
+**Oder tippe auf das Cora Assistant-Symbol** in der oberen Leiste. Cora hört sofort zu, antwortet laut und hört weiter zu, bis du das Gespräch beendest.
 
-![Spracheinstellungen](img/max-voice.webp "Weckwort-Erkennung kann ausgeschaltet werden, ohne Tippen-zum-Sprechen zu verlieren.")
+![Spracheinstellungen](img/max-voice.webp "Die Weckwort-Erkennung lässt sich ausschalten, Tippen zum Sprechen geht trotzdem.")
 
-**Einstellungen → Cora Max-Einstellungen → Ton & Sprache → Weckwort-Erkennung** schaltet das Hören im Hintergrund aus. Auf das Cora Assistant-Symbol zu tippen funktioniert weiterhin, das ist die Einstellung, die du nutzt, wenn der Bildschirm nicht die ganze Zeit hören soll.
+Unter **Einstellungen → Cora Max-Einstellungen → Ton & Sprache → Weckwort-Erkennung** schaltest du das Zuhören im Hintergrund aus. Das Cora Assistant-Symbol funktioniert dann weiter. Nimm diese Einstellung, wenn der Bildschirm nicht ständig zuhören soll.
 
-**Audioausgabe**, im selben Abschnitt **Ton & Sprache**, wählt den internen Lautsprecher, eine 3,5-mm-Verbindung oder Bluetooth. Der interne Lautsprecher ist der schwächste der drei für Sprache.
+Unter **Audioausgabe**, ebenfalls unter **Ton & Sprache**, wählst du den internen Lautsprecher, einen 3,5-mm-Anschluss oder Bluetooth. Für Sprache ist der interne Lautsprecher die schwächste der drei Möglichkeiten.
 
-## Welches Gerät auf "Hey Cora" antwortet
+## Welches Gerät auf „Hey Cora“ antwortet
 
-Wenn dein Haushalt mehr als ein Cora Max hat, antwortet nur eines auf die Wake-Phrase. Das heißt **Antwortgerät**, und es ist eine getrennte Wahl von dem Gerät, das deine Ausrüstung abfragt (**Primäres Cora Max**; siehe [Geräte und Gerätezustand](/help/max-devices)).
+Hast du mehr als ein Cora Max, antwortet nur eines auf das Weckwort. Es heißt **Antwortgerät**. Das legst du unabhängig davon fest, welches Gerät deine Ausrüstung abfragt (das **Primäre Cora Max**, mehr dazu unter [Geräte und Gerätezustand](/help/max-devices)).
 
-Ändere es über **Einstellungen → Cora Assistant**, auf jedem Cora Max, oder von Cora Mobile aus. Das gilt für deinen ganzen Haushalt, nicht nur für diesen Bildschirm.
+Du änderst es unter **Einstellungen → Cora Assistant** auf jedem Cora Max oder in Cora Mobile. Die Einstellung gilt für deinen ganzen Haushalt.
 
-:::note Es startet in dem Moment, in dem du tippst
-Cora Assistant beginnt sofort eine Live-Sitzung; es gibt keinen Bestätigungsschritt. Wenn du versehentlich getippt hast, stoppe die Sitzung, und nichts geht verloren.
+:::note Das Gespräch startet, sobald du tippst
+Cora Assistant startet sofort ein Live-Gespräch, ohne Rückfrage. Hast du aus Versehen getippt, beende das Gespräch einfach. Dabei geht nichts verloren.
 :::
 
 ## Was du fragen kannst
 
 **Fragen zum Becken**
 
-- *"Wie ist meine Alkalinität?"*
-- *"War die Temperatur heute stabil?"*
-- *"Wann habe ich zuletzt Wasser gewechselt?"*
-- *"Warum ist der pH niedriger als sonst?"*
-- *"Vergleiche die letzten sechs Monate meines Magnesiums mit meinem aktuellsten ICP."*
+- *„Wie ist meine Alkalinität?“*
+- *„War die Temperatur heute stabil?“*
+- *„Wann habe ich zuletzt Wasser gewechselt?“*
+- *„Warum ist der pH niedriger als sonst?“*
+- *„Vergleiche mein Magnesium der letzten sechs Monate mit meinem neuesten ICP.“*
 
-**Dinge zu tun**
+**Aufgaben**
 
-- *"Schalte den Abschäumer aus."*
-- *"Starte den Fütterungsmodus."*
-- *"Stell den Lüfter zurück auf Auto."*
-- *"Protokolliere, dass ich einen zwanzig Liter Wasserwechsel gemacht habe."*
+- *„Schalte den Abschäumer aus.“*
+- *„Starte den Fütterungsmodus.“*
+- *„Stell den Lüfter zurück auf Auto.“*
+- *„Notiere, dass ich zwanzig Liter Wasser gewechselt habe.“*
 
-**Nachfragen.** Du musst dich nicht wiederholen; *"und das Fragbecken?"* funktioniert nach einer Frage zum angezeigten Becken.
+**Nachfragen.** Du musst nicht alles wiederholen. Nach einer Frage zum angezeigten Becken klappt auch *„Und im Ablegerbecken?“*.
 
 ## Kindersicherung
 
-**Einstellungen → Cora Max-Einstellungen → Kindersicherung** blockiert Aktuierung von diesem Bildschirm aus. Fragen und Messwerte funktionieren weiterhin; Cora beantwortet, wie hoch deine Alkalinität ist, und weigert sich, die Rückförderpumpe auszuschalten.
+Mit **Einstellungen → Cora Max-Einstellungen → Kindersicherung** sperrst du an diesem Bildschirm alle Schaltbefehle. Fragen und Messwerte funktionieren weiter. Cora sagt dir also, wie hoch deine Alkalinität ist, schaltet aber die Rückförderpumpe nicht aus.
 
-Nutze sie auf einem Bildschirm in Reichweite von Kindern oder Besuchern.
+Schalte sie an einem Bildschirm ein, an den Kinder oder Besucher herankommen.
 
-**Zum Entsperren**, entweder:
+**Zum Entsperren** hast du zwei Möglichkeiten:
 
-- drücke die **Lautstärketaste dreimal innerhalb von zwei Sekunden**, oder
+- Drück die **Lautstärketaste dreimal innerhalb von zwei Sekunden**, oder
 - **halte fünf Finger zehn Sekunden lang in die obere rechte Ecke**.
 
-Das Zwei-Sekunden-Fenster macht es zu einer Sperre statt zu einem Vorschlag; drei Drücke in beliebigem Abstand sind etwas, das ein Kind versehentlich erzeugt. Es ist trotzdem eine Kindersicherung, keine Sicherheitssperre: Wer dir dabei zusieht, kann es wiederholen.
+Erst das Zeitfenster von zwei Sekunden macht daraus eine echte Sperre. Dreimal drücken in beliebigem Abstand schafft ein Kind auch aus Versehen. Es bleibt aber eine Kindersicherung und kein Schutz vor Fremden. Wer dir dabei zusieht, kann es nachmachen.
 
 ## Bestätigungen
 
-Alles, was deine Ausrüstung erreicht, wird bestätigt, bevor es passiert. Cora sagt dir genau, was es gleich tun wird, und wartet, bis du zustimmst.
+Bevor Cora etwas an deiner Ausrüstung ändert, fragt Cora nach. Du hörst genau, was gleich passiert, und Cora wartet auf dein Okay.
 
-Wenn eine Anweisung mehrdeutig ist (du hast zwei Heizer und sagst "den Heizer"), fragt Cora, welchen, statt zu raten.
+Ist eine Anweisung nicht eindeutig (du hast zum Beispiel zwei Heizer und sagst „den Heizer“), fragt Cora nach, welchen du meinst, und rät nicht.
 
-:::warning Bestätigen bedeutet, dass du Verantwortung übernimmst
-Die Bestätigung existiert, damit dich nichts überrascht. Lies, was sie sagt, bevor du zustimmst, besonders für alles, das eine Lebenserhaltung abschaltet.
+:::warning Mit deiner Bestätigung übernimmst du die Verantwortung
+Die Bestätigung soll verhindern, dass dich etwas überrascht. Hör dir an, was Cora sagt, bevor du zustimmst. Das gilt besonders, wenn etwas Lebenswichtiges fürs Becken abgeschaltet wird.
 :::
 
-## Was Cora sehen kann
+## Was Cora sieht
 
-Dasselbe wie auf deinem Handy: deine Live-Messwerte, wie alt jeder davon ist, bis zu etwa sechs Monate der Historie eines beliebigen Wasserwerts, dein Tagebuch und deine Laborergebnisse, für das Becken, das gerade auf dem Bildschirm ist.
+Dasselbe wie auf deinem Handy, jeweils für das Becken auf dem Bildschirm: deine Live-Messwerte und wie alt sie sind, den Verlauf jedes Wasserwerts über bis zu etwa sechs Monate, dein Tagebuch und deine Laborergebnisse.
 
-Wenn ein Messwert veraltet ist, sagt Cora das, statt so zu antworten, als wäre er aktuell.
+Ist ein Messwert veraltet, sagt Cora dir das und tut nicht so, als wäre er aktuell.
 
-## Über welches Becken Cora spricht
+## Um welches Becken es geht
 
-Über welches der Bildschirm gerade zeigt. Wechsle zuerst das Becken in der oberen Leiste, oder nenne das Becken in deiner Frage.
+Um das Becken, das gerade auf dem Bildschirm ist. Wechsle vorher in der oberen Leiste das Becken, oder nenn das Becken in deiner Frage.
 
-## Stoppen
+## Beenden
 
-Sag *"stopp"*, oder tippe, um die Sitzung zu beenden. Cora hört auf zu lauschen, wenn die Sitzung endet.
+Sag *„Stopp“* oder tippe, um das Gespräch zu beenden. Danach hört Cora nicht mehr zu.
 
-## Wenn es sich verhört
+## Wenn Cora dich falsch versteht
 
-Riff-Vokabular ist schwer, und Gerätenamen sind schwerer. Wenn Cora ein Gerät wiederholt falsch versteht, benenne es in **Geräte** in etwas Unterscheidbareres um; kurze, gewöhnliche Wörter funktionieren am besten.
+Riff-Begriffe sind schwierig, Gerätenamen noch mehr. Versteht Cora ein Gerät immer wieder falsch, gib ihm unter **Geräte** einen Namen, der sich deutlicher abhebt. Kurze, alltägliche Wörter klappen am besten.
 
 ## Wenn Cora nicht antwortet
 
-Prüfe, dass **Weckwort-Erkennung** noch eingeschaltet ist (**Einstellungen → Cora Max-Einstellungen → Ton & Sprache**), dass dieses Gerät das **Antwortgerät** des Haushalts ist (oben), und dass seine Lautstärke aufgedreht ist. Hintergrundgeräusche von einem lauten Technikbecken oder einem Filter direkt neben dem Gerät können auch verhindern, dass die Wake-Phrase zuverlässig gehört wird; das Gerät zu verschieben, oder etwas näher daran zu sprechen, löst das meist.
+Prüf, ob die **Weckwort-Erkennung** noch eingeschaltet ist (**Einstellungen → Cora Max-Einstellungen → Ton & Sprache**), ob dieses Gerät das **Antwortgerät** deines Haushalts ist (siehe oben) und ob die Lautstärke aufgedreht ist. Auch ein lautes Technikbecken oder ein Filter direkt neben dem Gerät kann dazu führen, dass Cora das Weckwort nicht zuverlässig hört. Stell das Gerät dann woanders hin oder sprich etwas näher daran.
 
-**Wenn es nicht funktioniert:** siehe [Problembehebung](/help/troubleshooting).
+Hilft das alles nicht, schau in die [Problembehebung](/help/troubleshooting).

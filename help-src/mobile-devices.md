@@ -7,70 +7,70 @@ order: 9
 group: Equipment
 ---
 
-The **Devices** tab is everything you have connected, grouped by brand. Each group collapses so a reef room full of equipment stays readable.
+The **Devices** tab lists everything you've connected, grouped by brand. You can collapse each group, so even a reef room full of equipment stays easy to read.
 
 ![The Devices tab](img/mobile-devices.webp "Equipment is grouped by brand. Each group collapses.")
 
 ## Adding equipment
 
-Three buttons sit below the list, and they do different jobs:
+There are three buttons under the list, each for a different job:
 
 | Button | Adds |
 |---|---|
-| **Add Device** | A Cora Max. Finds units already on your Wi-Fi, or nearby ones over Bluetooth. **Enter IP Address Manually** is inside this screen if discovery does not find it. |
-| **Find a pump on your network** | Jecod pumps that advertise themselves on the local network |
+| **Add Device** | A Cora Max. It finds units already on your Wi-Fi, or nearby ones over Bluetooth. If it can't find yours, use **Enter IP Address Manually** on the same screen. |
+| **Find a pump on your network** | Jecod pumps that announce themselves on the local network |
 | **Add AquaWiz** | An AquaWiz controller, through your AquaWiz account |
 
 ![Adding a Cora Max](img/mobile-add-device.webp "Add Device searches Wi-Fi and Bluetooth for a Cora Max.")
 
-Other equipment (Neptune Apex and Red Sea ReefBeat) is connected from the tank rather than from this list. See [Connecting your equipment](/help/mobile-connections).
+You connect Neptune Apex and Red Sea ReefBeat equipment from the tank, not from this list. [Connecting your equipment](/help/mobile-connections) explains how.
 
-Adding equipment such as a heater, pump or skimmer offers a brand and model **autocomplete**: start typing and Cora suggests from a large, source-verified list of equipment brands. If yours is not listed, type it in anyway; Cora keeps whatever you type.
+When you add equipment such as a heater, pump or skimmer, Cora suggests brands and models as you type. The suggestions come from a large, checked list of equipment brands. If yours isn't there, type it in anyway. Cora keeps whatever you enter.
 
 :::note Cora and your phone need the same network
-Equipment discovered locally must be on the same network as your phone when you add it. **After setup it is still only reachable over that network** (or over Bluetooth, for units that use it) unless a Cora device on site can reach it for you.
+Equipment Cora finds on your network has to be on the same network as your phone when you add it. **After setup, it's still only reachable over that network** (or over Bluetooth, for units that use it), unless a Cora device on site can reach it for you.
 
-Equipment that reads correctly at home may therefore show older values while you are away, unless a Cora Max on site can poll it. This reflects where the equipment is reachable from, rather than a fault.
+So equipment that reads fine at home may show older values while you're away, unless a Cora Max on site can poll it. Nothing's broken. It's about where the equipment can be reached from.
 :::
 
 ## Assigning a device to a tank
 
-Most equipment belongs to exactly one tank, and that is what makes its readings appear on that tank's dashboard.
+Most equipment belongs to one tank, and that's how its readings end up on that tank's dashboard.
 
-**Cora Max is the exception**: it can be assigned up to four tanks and switches between them on screen. See [More than one Cora device](/help/mobile-multi-device).
+**Cora Max is the exception.** You can assign it up to four tanks, and it switches between them on screen. See [More than one Cora device](/help/mobile-multi-device).
 
-Open the device and choose **Tank**. If you run more than one system, this is the setting that matters most: a heater assigned to the wrong tank reports perfectly well into the wrong place.
+Open the device and choose **Tank**. If you run more than one system, this matters more than any other setting. A heater assigned to the wrong tank reports perfectly well, into the wrong place.
 
 :::warning Assign the tank before you rely on the readings
-A device with no tank still reports, but its numbers have nowhere to land. If a device you have just added is not appearing on a dashboard, check this first.
+A device without a tank still reports, but its numbers have nowhere to go. If a device you just added isn't showing on a dashboard, check this first.
 :::
 
 ## Renaming
 
-Open the device and edit its name. Use the name you use for it day to day: "Return", "Left gyre", "Sump heater". The name appears on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes everything downstream clearer.
+Open the device and edit its name. Use what you call it day to day, like "Return", "Left gyre" or "Sump heater". The name shows up on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes all of that clearer.
 
-Renaming is local to Cora. It does not change the name on the manufacturer's own app.
+The new name only applies in Cora. It doesn't change the name in the manufacturer's own app.
 
 ## Checking whether a device is healthy
 
-Each row shows its current state. What you want to see is a recent update time and no warning.
+Each row shows the device's current state. You want to see a recent update time and no warning.
 
 | What you see | What it means |
 |---|---|
 | A recent update time | Working normally |
-| "Updated 3 h ago" on something that reports hourly | Fine |
+| "Updated 3 h ago" on something that only reports every few hours | Fine |
 | "Could not reach…" | A network problem, or the device is off |
-| "…refused the sign-in" | The manufacturer's account needs reconnecting; open the device and sign in again |
-| Nothing at all | It has never reported; check the tank assignment and the connection |
+| "…refused the sign-in" | The manufacturer's account needs reconnecting. Open the device and sign in again |
+| Nothing at all | It's never reported. Check the tank assignment and the connection |
 
 ## Removing a device
 
-Open the device and choose **Remove**. You will be asked to confirm, and told exactly what is being removed.
+Open the device and choose **Remove**. Cora tells you exactly what will be removed and asks you to confirm.
 
-**Your readings are kept.** Removing a device stops Cora collecting new data from it; the history it already gathered stays on the tank, and any widget pointed at it keeps its past readings.
+**Your readings are kept.** Removing a device stops Cora collecting new data from it. The history it already gathered stays on the tank, and any widget that used it keeps its past readings.
 
-What you lose is the live link, and, where the device connected through a manufacturer account, the stored sign-in. Adding it back means signing in again.
+You lose the live link. If the device connected through a manufacturer account, you also lose the saved sign-in, so you'll need to sign in again if you add it back.
 
 :::tip Quieten a noisy device without removing it
-If a device is working correctly but alerting too often, adjust its thresholds or notification settings; see **[Alerts and thresholds](/help/mobile-alerts)**. That keeps the connection and the data while stopping the noise.
+If a device works fine but alerts too often, change its thresholds or notification settings in [Alerts and thresholds](/help/mobile-alerts). You keep the connection and the data, and the noise stops.
 :::

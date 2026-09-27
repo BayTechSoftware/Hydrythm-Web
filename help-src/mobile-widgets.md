@@ -1,15 +1,15 @@
 ---
 title: Widget reference
-description: Every widget type in Cora (value, gauge, graph, status, outlet and the device tiles) and when to use each.
+description: Every widget type in Cora, from value, gauge, graph, status and outlet to the device tiles, and when to use each one.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 7
 group: Your dashboard
 ---
 
-A widget is one tile on your dashboard showing one thing. This page covers each type and what you can configure.
+A widget is one tile on your dashboard, and it shows one thing. This page goes through each type and what you can set on it.
 
-Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)**; tap a widget there to open its settings.
+You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-editing). Tap a widget there to open its settings.
 
 ![Configuring a widget](img/mobile-widget-config.webp "Type, parameter, then width and height.")
 
@@ -27,85 +27,85 @@ Add and arrange them in **[the dashboard editor](/help/mobile-dashboard-editing)
 | **Jecod** | One Jecod pump, with its mode and intensity |
 | **Maxspect** *(beta)* | One gyre, with both motors |
 
-The last four are **device** tiles: they are keyed to a piece of equipment rather than to a parameter, and each shows whatever that unit reports.
+The last four are **device** tiles. Each one belongs to a piece of equipment instead of a parameter, and shows whatever that unit reports.
 
 ## Sizing
 
-**Width** and **Height** are each **1×** or **2×**. A graph is never one cell wide.
+**Width** and **Height** can each be **1×** or **2×**. A graph is never one cell wide.
 
 ## Value
 
-The plain number. Current reading, its unit, how old it is and where it came from.
+This is the plain number. It shows the current reading, its unit, how old it is and where it came from.
 
-Use it for parameters you check numerically rather than by trend: calcium, magnesium, nitrate.
+Use it for parameters you check by the number more than by the trend, like calcium, magnesium or nitrate.
 
-**Settings:** label, source, size.
+You can set its label, source and size.
 
 ## Gauge
 
-An arc with your target range banded onto it and a knob at the current value. The knob's colour tells you where you stand: inside the band, drifting, or out.
+A gauge is an arc with your target range marked on it, and a knob at the current value. The knob's colour tells you where you are: inside the range, drifting or out.
 
-Use it for the parameters you actively manage: alkalinity, pH, salinity, temperature.
+Use it for the parameters you actively manage, like alkalinity, pH, salinity or temperature.
 
-**Settings:** label, source, range (inherited from your tank targets unless you override it here), size.
+You can set its label, source, range and size. The range comes from your tank targets unless you change it here.
 
-:::note Size gauges at two columns or more
-At a single column the arc is too small to read at a glance; use a **value** widget instead if space is limited.
+:::note Make gauges at least two columns wide
+At one column the arc is too small to read quickly. If you're short on space, use a **value** widget.
 :::
 
 ## Graph
 
-A sparkline over a window you choose, with the high and low marked and the current value called out.
+A graph is a sparkline over a time window you choose. It marks the high and low and labels the current value.
 
-For a parameter you test (by Trident or with a test kit), the line joins your actual tests. If the window holds only one test, the line runs in from the test before it, and no high or low is marked. With no test in the window, or nothing earlier to join a single test to, the tile shows **Collecting…** instead of a line.
+For a parameter you test (with a Trident or a test kit), the line joins up your real tests. If there's only one test in the window, the line comes in from the test before it, and there's no high or low. If there's no test in the window, or nothing earlier to join a single test to, the tile shows **Collecting…** in place of a line.
 
-Use it for anything that moves: pH through the day, temperature across a heatwave, alkalinity between doses.
+Use it for anything that moves, like pH through the day, temperature in a heatwave or alkalinity between doses.
 
-**Settings:** label, source, **time window** (1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year), size.
+You can set its label, source, **time window** (1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year) and size.
 
-A trend is always **at least two cells wide**; a sparkline squeezed into one cell tells you nothing, so the editor will not make one.
+A trend is always **at least two cells wide**. A sparkline squeezed into one cell tells you nothing, so the editor won't let you make one.
 
-:::note Choose the window to match the rhythm
-pH swings on a daily cycle, so 24 hours shows you the shape. Alkalinity moves over days, so 7 or 30 tells you more than 24 ever will.
+:::note Pick the window that fits the parameter
+pH swings on a daily cycle, so 24 hours shows you the pattern. Alkalinity moves over days, so 7 or 30 days tells you much more.
 :::
 
 ## Status
 
-Text rather than a number, for things that are a state. Running, idle, open, closed, feeding.
+This shows text in place of a number, for things that have a state. Running, idle, open, closed, feeding.
 
-**Settings:** label, source, size.
+You can set its label, source and size.
 
 ## Outlet
 
-A three-way switch for an outlet: **Auto**, **Off**, **On**.
+This is a three-way switch for an outlet: **Auto**, **Off** and **On**.
 
-- **Auto** hands the outlet back to whatever normally runs it: a schedule, a rule, or the controller it belongs to.
-- **Off** and **On** are manual overrides that stay until you change them back.
+- **Auto** gives the outlet back to whatever normally runs it. That might be a schedule, a rule or the controller it belongs to.
+- **Off** and **On** are manual overrides. They stay until you change them back.
 
-**Settings:** label, which outlet, size.
+You can set its label, which outlet it controls, and its size.
 
-:::warning A manual override does not expire
-Off means off until you set it back to Auto. If you switch a return pump off to work in the tank, put it back to Auto when you have finished; Cora will not do it for you.
+:::warning Manual overrides don't wear off
+Off means off until you set it back to Auto. If you switch a return pump off to work in the tank, put it back to Auto when you're done. Cora won't do it for you.
 :::
 
 ## ReefBeat
 
-One tile for a whole piece of equipment, showing its own summary rather than a single parameter: an ATO's status and reservoir, a dosing unit's heads, a mat roller's remaining days.
+This is one tile for a whole piece of equipment. It shows the unit's own summary instead of a single parameter, for example an ATO's status and reservoir, a doser's heads or how many days a mat roller has left.
 
-Which devices offer a tile depends on what you have connected. See **[Connecting your equipment](/help/mobile-connections)**.
+Which devices can have a tile depends on what you've connected. See [Connecting your equipment](/help/mobile-connections).
 
-**Settings:** label, which device, size.
+You can set its label, which device it shows, and its size.
 
 ## What a parameter widget shows
 
-On a widget backed by a measured parameter (Value, Gauge, Graph and Status), three things are always present. Outlet and device tiles show their own state instead, because no single reading sits behind them:
+Value, Gauge, Graph and Status widgets all show a measured parameter, and they always show three things. Outlet and device tiles show their own state, since there's no single reading behind them.
 
-- **The value**, large
-- **The age** (`now`, `1h`, `2d`): how old the reading is, not how recently the screen refreshed
-- **The source**: a small badge saying where the number came from
+- **The value**, in large type
+- **The age** (`now`, `1h`, `2d`), which is how old the reading is. It isn't how long ago the screen refreshed.
+- **The source**, a small badge that says where the number came from
 
-Tap any widget to open its full history, every source that reports it, and the thresholds in force.
+Tap any widget to see its full history, every source that reports it and the thresholds that apply.
 
 ## Sizes
 
-Widgets are one or two cells wide and one or two cells tall, except a **trend**, which is always at least two wide. On a three-column dashboard a two-wide gauge takes two thirds of the row, which is usually the right shape for your most important parameter.
+Widgets are one or two cells wide and one or two cells tall. The exception is a **trend**, which is always at least two wide. On a three-column dashboard, a two-wide gauge takes up two thirds of the row. That's usually a good shape for your most important parameter.

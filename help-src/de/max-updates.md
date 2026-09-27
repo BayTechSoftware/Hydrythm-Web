@@ -1,6 +1,6 @@
 ---
 title: Updates und Wiederherstellung
-description: Wie Cora Max sich selbst aktualisiert, und was passiert, wenn ein Update schiefgeht.
+description: Wie sich Cora Max selbst aktualisiert und was passiert, wenn ein Update schiefgeht.
 section: Cora Max
 reviewed: 2026-09-09
 order: 14
@@ -9,50 +9,50 @@ group: Settings
 
 ## Automatische Updates
 
-Cora Max hält sich selbst aktuell. Neue Versionen laden im Hintergrund herunter und installieren sich selbst; dir wird gesagt, was sich geändert hat.
+Cora Max hält sich selbst auf dem neuesten Stand. Neue Versionen laden im Hintergrund, installieren sich selbst, und du erfährst, was sich geändert hat.
 
-Du musst nichts tun, um aktuell zu bleiben.
+Du musst dafür nichts tun.
 
 ## Die Version prüfen
 
-![Geräteeinstellungen](img/max-updates.webp "Firmware-Update und Gerätezustand, oben in den Geräteeinstellungen.")
+![Geräteeinstellungen](img/max-updates.webp "Firmware-Update, im Abschnitt Netzwerk & Updates der Cora Max-Einstellungen.")
 
-**Einstellungen → Cora Max → Firmware → Firmware-Update** deckt Prüfen, Installieren, den Update-Kanal und dessen Zeitplan ab. **Gerätezustand & Steuerung** steht direkt daneben in derselben Gruppe **Firmware**, und dort liegt die eigene Diagnose des Geräts: einschließlich primärer Abfrage, Geräteverknüpfungen und Sprachantwortgerät.
+Unter **Einstellungen → Cora Max-Einstellungen → Firmware-Update** (im Bereich **Netzwerk & Updates**) suchst du nach Updates, installierst sie und wählst den Update-Kanal und seinen Zeitplan. Weiter unten auf derselben Seite zeigt der Bereich **Status** für jedes Becken den Abfragestatus, die letzte Abfrage und das letzte Schreiben in die Cloud.
 
-## Wenn ein Update verfügbar ist
+## Wenn ein Update bereitsteht
 
-Ein Hinweis erscheint, der beschreibt, was neu ist, mit zwei Optionen:
+Es erscheint ein Hinweis, was neu ist, mit zwei Möglichkeiten:
 
 - **Jetzt aktualisieren**: installiert sofort und startet neu
-- **3 Stunden schlummern**: fragt später erneut
+- **3 Stunden schlummern**: fragt später noch einmal
 
-Sich selbst überlassen installiert sich ein Update über Nacht, etwa zwischen 3 und 5 Uhr morgens, sodass der Bildschirm nicht neu startet, während du hinschaust.
+Tust du nichts, installiert sich das Update über Nacht, etwa zwischen 3 und 5 Uhr morgens. So startet der Bildschirm nicht neu, während du davorstehst.
 
-:::note Messwerte gehen bei einem Update nicht verloren
-Daten leben in deinem Konto, nicht auf dem Bildschirm. Ein Gerät, das neu startet, kommt mit denselben Becken, Dashboards und der Historie zurück.
+:::note Bei einem Update gehen keine Messwerte verloren
+Deine Daten liegen in deinem Konto und nicht auf dem Bildschirm. Nach dem Neustart sind dieselben Becken, Dashboards und Verläufe wieder da.
 :::
 
 ## Wiederherstellung
 
-Wiederherstellung ist ein Wartungsmodus für den Fall, dass ein Gerät nicht normal startet, oder wenn du seine Einrichtung ohne Laptop reparieren musst.
+Die Wiederherstellung ist ein Wartungsmodus. Du brauchst ihn, wenn das Gerät nicht normal startet oder du seine Einrichtung ohne Laptop reparieren willst.
 
-**Um sie zu betreten:** Halte **fünf Finger** oben rechts auf dem Bildschirm für etwa **zehn Sekunden**, und gib dann die **Wiederherstellungs-PIN** des Geräts ein.
+Um hineinzukommen, hältst du **fünf Finger** etwa **zehn Sekunden** lang oben rechts auf den Bildschirm und gibst dann die **Wiederherstellungs-PIN** des Geräts ein.
 
-Diese sechsstellige PIN wurde beim Koppeln des Geräts angezeigt, und sie steht auch in den Einstellungen dieses Geräts in Cora Mobile. Sie wird nicht auf Cora Max selbst angezeigt, das ist der Sinn: Die Wiederherstellung kann nicht von einem Gast erreicht werden, oder von einem Kind, das sich an den Bildschirm lehnt.
+Die sechsstellige PIN wurde beim Koppeln angezeigt. Du findest sie auch in den Einstellungen des Geräts in Cora Mobile. Auf Cora Max selbst steht sie nirgends, und das ist Absicht. So kommen weder Gäste noch ein Kind, das sich an den Bildschirm lehnt, in die Wiederherstellung.
 
-Von der Wiederherstellung aus kannst du:
+In der Wiederherstellung kannst du:
 
-- Die **WLAN**-Verbindung reparieren
-- Das Gerät **neu koppeln** an dein Konto
-- Ein **Firmware-Update** erzwingen
-- Das Gerät auf **Werkseinstellungen zurücksetzen**
+- die **WLAN**-Verbindung reparieren
+- das Gerät **neu** mit deinem Konto **koppeln**
+- ein **Firmware-Update** erzwingen
+- das Gerät auf **Werkseinstellungen zurücksetzen**
 
-Ein Gerät, das mehrmals in Folge nicht startet, kann sich außerdem selbst auf die vorherige Version zurücksetzen.
+Startet ein Gerät mehrmals hintereinander nicht, kann es auch von selbst zur vorherigen Version zurückkehren.
 
-:::warning Ein Bildschirm in der Wiederherstellung steuert nichts
-Dein Controller läuft weiterhin nach seiner eigenen Programmierung. Aber eine [Automation](/help/mobile-automation), deren Aktion **von diesem Cora Max** ausgeführt werden muss, kann nicht laufen, während es sich in der Wiederherstellung befindet; die Regel löst aus, und der Schritt erreicht die Hardware nicht.
+:::warning In der Wiederherstellung steuert der Bildschirm nichts
+Dein Controller läuft mit seiner eigenen Programmierung weiter. Eine [Automation](/help/mobile-automation), deren Aktion **dieses Cora Max** ausführen muss, kann aber nicht laufen, solange es in der Wiederherstellung ist. Die Regel löst aus, doch der Schritt kommt nicht bei der Hardware an.
 :::
 
 ## Wenn ein Gerät nicht neu startet
 
-Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit der auf dem Bildschirm angezeigten Version und dem, was sie sagt. Koppel das Gerät nicht zuerst neu; der Kopplungsstatus ist oft hilfreich dabei, herauszufinden, was passiert ist.
+Schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit der Version, die auf dem Bildschirm steht, und dem, was dort angezeigt wird. Kopple das Gerät vorher nicht neu. Am Kopplungsstatus lässt sich oft ablesen, was passiert ist.

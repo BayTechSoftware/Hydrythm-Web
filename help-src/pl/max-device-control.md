@@ -1,5 +1,5 @@
 ---
-title: Kontrola sprzętu z Cora Max
+title: Sterowanie sprzętem z Cora Max
 description: Strony urządzeń na dużym ekranie: sondy, gniazda, głowice dozujące, testery i pompy.
 section: Cora Max
 reviewed: 2026-09-27
@@ -7,82 +7,82 @@ order: 6
 group: Equipment
 ---
 
-Cora Max dosięga tego samego sprzętu co Twój telefon, z jedną stroną na urządzenie. Otwórz je z **Ustawienia → Urządzenia** albo dotykając kafelka urządzenia na pulpicie.
+Cora Max steruje tym samym sprzętem co telefon. Każde urządzenie ma własną stronę. Otworzysz ją w **Ustawienia → Urządzenia** albo po dotknięciu kafelka urządzenia na pulpicie.
 
-![Strona Apex na Cora Max](img/max-device-control.webp "Cykle karmienia i każde gniazdo, rozmieszczone dla ekranu ściennego.")
+![Strona Apex na Cora Max](img/max-device-control.webp "Cykle karmienia i wszystkie gniazda, ułożone pod ekran na ścianie.")
 
-:::warning Te kontrolki działają na żywym sprzęcie
-Nie ma podglądu i nie ma cofnięcia. Polecenie jest wysyłane w momencie dotknięcia, ale *wysłane* nie znaczy *wykonane*: wraca jako **Potwierdzono**, **Niepotwierdzone**, **Odmówiono** albo **Bez zmian**, i [Activity](/help/max-activity) jest miejscem, gdzie widzisz które.
+:::warning Te przyciski działają na prawdziwym sprzęcie
+Nie ma podglądu ani cofania. Polecenie wychodzi w chwili dotknięcia, ale *wysłane* nie znaczy *wykonane*. Wynik to **Potwierdzono**, **Niepotwierdzone**, **Odmówiono** albo **Bez zmian**, a który z nich, sprawdzisz w [Aktywność](/help/max-activity).
 :::
 
-## Co ma stronę
+## Które urządzenia mają stronę
 
-| Urządzenie | Pokazuje |
+| Urządzenie | Co pokazuje |
 |---|---|
-| **Neptune Apex** | Sondy i gniazda, każde gniazdo przełączalne |
-| **Trident** | Stan testu, poziomy reagentu i odpadów oraz możliwość rozpoczęcia testu |
-| **DŌS**, w tym DŌS QD | Dozowanie każdej głowicy, harmonogram, runway i objętość pojemnika (z wstrzymaniem, napełnieniem, dozowaniem teraz i jednorazowym dwudziestosekundowym pomiarem) |
-| **Red Sea ReefBeat** | To, czym jest jednostka: głowice dozujące, zbiornik, dni rolki, tryb pompy |
-| **Jecod** | Tryb i intensywność pompy oraz jej program dnia |
-| **Maxspect** *(beta)* | Tryb i prędkość dla **Gyre A** i **Gyre B**, **Stan pompy** (odliczanie czyszczenia, prąd głowicy A, zamontowane głowice, firmware) oraz jego harmonogram, tylko do podglądu |
+| **Neptune Apex** | Sondy i gniazda. Każde gniazdo można przełączyć |
+| **Trident** | Stan testu, poziom reagentów i odpadów. Możesz też uruchomić test |
+| **DŌS**, także DŌS QD | Dozowanie każdej głowicy, harmonogram, na ile dni wystarczy zapas, objętość pojemnika (z pauzą, napełnianiem, dawką od ręki i jednorazowym dwudziestosekundowym pomiarem) |
+| **Red Sea ReefBeat** | Zależnie od urządzenia: głowice dozujące, zbiornik, dni rolki, tryb pompy |
+| **Jecod** | Tryb i moc pompy oraz jej program dnia |
+| **Maxspect** *(beta)* | Tryb i prędkość dla **Gyre A** i **Gyre B**, **Stan pompy** (odliczanie do czyszczenia, prąd głowicy A, zamontowane głowice, firmware) i harmonogram, tylko do podglądu |
 
-Jeśli jednostka Red Sea zatrzyma się sama, jej strona mówi, co jest nie tak, i umieszcza rozwiązanie przy tym: **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana**, albo **Resetuj** dla głowicy dozującej.
+Jeśli urządzenie Red Sea samo się zatrzyma, jego strona pokaże, co się stało, a obok przycisk do rozwiązania problemu: **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana** albo **Resetuj** dla głowicy dozującej.
 
 ## Głowice DŌS
 
-Głowica DŌS musi zostać zmierzona raz, zanim Cora zdozuje nią ręcznie. **Zmierz, aby dozować** uruchamia głowicę na dwadzieścia sekund do pojemnika pomiarowego, a Ty wpisujesz, ile wyszło. Cora zachowuje jeden pomiar na głowicę i używa najnowszego, niezależnie które Cora Max go wykonało; strona głowicy pokazuje, gdzie i kiedy została zmierzona.
+Zanim Cora zadozuje coś ręcznie daną głowicą, trzeba ją raz zmierzyć. **Zmierz, aby dozować** uruchamia głowicę na dwadzieścia sekund. Płyn leci do naczynia pomiarowego, a Ty wpisujesz, ile go wyszło. Cora przechowuje jeden pomiar na głowicę i używa najnowszego, bez względu na to, który Cora Max go wykonał. Na stronie głowicy widać, gdzie i kiedy ją zmierzono.
 
-Po ręcznej dawce głowica, którą ustawiłeś na Off w Apex Fusion, zostaje Off. Każda inna głowica wraca do Auto.
+Po ręcznej dawce głowica, która w Apex Fusion ma ustawione Off, zostaje na Off. Każda inna głowica wraca do Auto.
 
 ### Do czego służy głowica
 
-Każda głowica może mieć ustawiony **typ użycia**, z formularza ustawień: **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm** albo **Dolewka**, albo **Inne**. Typ użycia zmienia dwie rzeczy:
+W ustawieniach głowicy możesz wybrać jej **przeznaczenie**: **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm**, **Dolewka** albo **Inne**. Od przeznaczenia zależą dwie rzeczy:
 
-- **Jak duży pojemnik może śledzić.** Głowica Supplement śledzi do 20 litrów; każdy inny typ użycia może śledzić dużo większy pojemnik, do 500 litrów, więc głowica prowadząca podmianę wody albo reaktor wapniowy nie jest traktowana jak mała butelka dozująca.
-- **Czy może wykonać dużą dawkę ręcznie.** Głowice Supplement i Food zachowują dzisiejszy mały, ostrożny sufit. Każdy inny typ użycia może otrzymać własny limit **Największa dawka ręczna**, do sztywnego sufitu 10 litrów, i własny **dzienny limit dla automatyzacji i Asystenta**.
+- **Wielkość pojemnika, którą głowica może śledzić.** Głowica z przeznaczeniem **Suplement** śledzi pojemnik do 20 litrów. Przy każdym innym przeznaczeniu pojemnik może być dużo większy, do 500 litrów. Głowica do podmiany wody albo reaktora wapniowego nie jest więc traktowana jak mała butelka z suplementem.
+- **Czy głowica może podać ręcznie dużą dawkę.** Głowice **Suplement** i **Pokarm** mają taki sam mały, ostrożny limit jak dotąd. Każde inne przeznaczenie może mieć własny limit **Największa dawka ręczna**, maksymalnie 10 litrów, i własny **Dzienny limit dla automatyzacji i Asystenta**.
 
-Para do podmiany wody (nowa woda solna wchodzi, stara wychodzi) może być połączona jako **Sparowana głowica**, z kwotą **Ostrzeżenie o równowadze powyżej**: jeśli sumy dnia dla obu głowic rozjeżdżają się o więcej niż tę kwotę, Cora ostrzega Cię, bo para poza równowagą zwykle znaczy, że jedna strona nie pompuje jak oczekiwano.
+Parę głowic do podmiany wody (nowa słona woda wchodzi, stara wychodzi) możesz połączyć jako **Sparowana głowica** i ustawić **Ostrzeżenie o równowadze powyżej**. Jeśli dzienne sumy obu głowic różnią się o więcej niż ta wartość, Cora Cię ostrzeże. Taka różnica zwykle oznacza, że jedna strona nie pompuje tak, jak powinna.
 
-### Jeśli duża dawka jest przerwana
+### Gdy duża dawka zostanie przerwana
 
-Duża dawka tymczasowo zmienia to, co głowica robi na Apex, a potem przywraca jej normalny harmonogram. Jeśli połączenie zrywa się w połowie, Cora Max pokazuje baner na stronie tej głowicy: *"A large dose on [head] did not finish cleanly. Cora keeps trying to put its program back; check it in Apex Fusion."*
+Na czas dużej dawki Cora zmienia to, co głowica robi na Apex, a potem przywraca jej zwykły harmonogram. Jeśli w trakcie zerwie się połączenie, Cora Max pokaże na stronie tej głowicy baner: *„Duża dawka na [głowica] nie zakończyła się poprawnie. Cora wciąż próbuje przywrócić jej program: sprawdź to w Apex Fusion.”*
 
-Sprawdź głowicę w Apex Fusion samodzielnie, a potem dotknij **Głowicę sprawdzono w Fusion**, aby zamknąć baner. Zrób to tylko po potwierdzeniu, że to własny harmonogram głowicy, nie program dozowania Cory, faktycznie działa.
+Sprawdź głowicę w Apex Fusion, a potem dotknij **Głowicę sprawdzono w Fusion**, żeby zamknąć baner. Zrób to dopiero wtedy, gdy upewnisz się, że działa własny harmonogram głowicy, a nie program dozowania Cory.
 
-**Jeśli to nie działa:** jeśli baner nie chce się zamknąć albo wciąż wraca, zobacz [Rozwiązywanie problemów](/help/troubleshooting).
+Jeśli baner nie znika albo ciągle wraca, zajrzyj do [Rozwiązywanie problemów](/help/troubleshooting).
 
 ## Harmonogramy
 
-Programy dnia pomp Jecod mogą być tworzone przy ścianie tak samo jak na telefonie. Edytor jest ten sam: wykres dnia, lista okresów i wiersz akcji. Zobacz [Planowanie pracy sprzętu](/help/mobile-schedules).
+Programy dnia pomp Jecod możesz tworzyć na Cora Max tak samo jak na telefonie. Edytor jest ten sam: wykres dnia, lista okresów i wiersz akcji. Więcej w [Harmonogramy sprzętu](/help/mobile-schedules).
 
-Harmonogram gyre Maxspect *(beta)* można tutaj podglądać, ale nie zapisać. Ustaw go w aplikacji Maxspect.
+Harmonogram Maxspect Gyre *(beta)* możesz tu obejrzeć, ale nie zapiszesz zmian. Ustawisz go w aplikacji Maxspect.
 
 ## Gniazda
 
-Gniazda są też dostępne z szuflady **Gniazda i karmienie** na dole pulpitu, która wypisuje gniazda włączone dla tego pulpitu w jednym miejscu (wszystkie, jeśli żadne nie zostało wybrane). Zobacz [Gniazda i kontrolki](/help/max-controls).
+Gniazda są też w szufladzie **Gniazda i karmienie** na dole pulpitu. Zebrane są tam gniazda włączone dla tego pulpitu (albo wszystkie, jeśli żadnych nie wybrano). Więcej w [Gniazda i sterowanie](/help/max-controls).
 
-Głowice DŌS nigdy nie pojawiają się na liście gniazd, więc głowicy nie można tam włączyć i zostawić działającej; dozuj z jej własnej strony. Duży Apex z kilkoma modułami pokazuje wszystkie swoje gniazda i sondy.
+Głowice DŌS nigdy nie pojawiają się na liście gniazd, więc nie da się tam włączyć głowicy i zostawić jej włączonej. Dozuj z jej własnej strony. Duży Apex z kilkoma modułami pokazuje wszystkie swoje gniazda i sondy.
 
 ## Materiały eksploatacyjne
 
-Progi uzupełnienia (reagent, pojemniki, zbiorniki) są ustawiane z własnej strony urządzenia tutaj, dokładnie jak na telefonie. Zobacz [Materiały eksploatacyjne](/help/mobile-consumables).
+Progi uzupełniania (reagent, pojemniki, zbiorniki) ustawiasz na stronie danego urządzenia, tak samo jak na telefonie. Więcej w [Materiały eksploatacyjne](/help/mobile-consumables).
 
-## Zapisywanie i obliczanie przy akwarium
+## Zapisywanie wyników i obliczenia przy akwarium
 
-Dwie rzeczy są często wygodniejsze przy ścianie niż na telefonie:
+Dwie rzeczy często wygodniej zrobić przy akwarium niż na telefonie:
 
-- **Zapisz parametry**: wpisz wyniki testu na klawiaturze ekranowej, z menu akwarium
-- **Kalkulator dawek**: wylicz korektę, wykorzystując objętość akwarium i siły Twoich produktów, ze strony parametru. Używa tej samej objętości i sił produktów co telefon, więc dawka wyliczona tutaj zgadza się z tą wyliczoną tam. Zobacz [Dozowanie](/help/mobile-dosing).
+- **Zapisz parametry** w menu akwarium. Wyniki testów wpisujesz na klawiaturze ekranowej.
+- **Kalkulator dawki** na stronie parametru. Obliczysz w nim korektę na podstawie objętości akwarium i stężenia Twoich preparatów. Kalkulator korzysta z tych samych danych co telefon, więc dawka wyliczona tutaj będzie taka sama jak tam. Więcej w [Dozowanie](/help/mobile-dosing).
 
 ## Na drugim Cora Max
 
-Gdy więcej niż jedno Cora Max pokazuje akwarium, jedno z nich odczytuje sprzęt tego akwarium; strony urządzeń nazywają je Cora Max przy akwarium. Inne wciąż otwierają strony urządzeń (plakietka stanu pokazująca **Chmura** znaczy, że ten ekran jest jednym z nich). Pokazują to, co Cora Max przy akwarium ostatnio odczytało, i jak dawno temu, i przekazują każde polecenie przez Cora Cloud do tego Cora Max, aby je wykonało.
+Gdy jedno akwarium pokazuje kilka ekranów Cora Max, sprzęt tego akwarium odczytuje tylko jeden z nich. Na stronach urządzeń nazywa się go Cora Max przy akwarium. Pozostałe też otwierają strony urządzeń (plakietka stanu **Chmura** oznacza, że ten ekran jest jednym z nich). Pokazują to, co ostatnio odczytał Cora Max przy akwarium, i jak dawno to było. Każde polecenie przekazują przez Cora Cloud do Cora Max przy akwarium, który je wykonuje.
 
-Kilka rzeczy zostaje przy Cora Max przy akwarium:
+Kilka rzeczy działa tylko na Cora Max przy akwarium:
 
-- **Zmierz, aby dozować** i **Zmierz ponownie** pojawiają się tylko tam. Gdy głowica jest już zmierzona, **Dawkuj teraz** działa z każdego Cora Max.
-- Harmonogram Jecod może być zmieniony z innego Cora Max tylko, jeśli Cora Max przy akwarium odczytało pompę w ostatniej godzinie, i nigdy dla pompy, która rozmawia tylko przez Bluetooth. Jedno **Zastosuj do pompy** stamtąd wysyła maksymalnie 12 zmian, więc wysyłaj większą edycję w częściach.
+- **Zmierz, aby dozować** i **Zmierz ponownie** są tylko tam. Gdy głowica jest już zmierzona, **Dawkuj teraz** działa z każdego Cora Max.
+- Harmonogram Jecod zmienisz z innego Cora Max tylko wtedy, gdy Cora Max przy akwarium odczytał pompę w ciągu ostatniej godziny. Nie zadziała to nigdy dla pompy, która łączy się tylko przez Bluetooth. Jedno **Zastosuj do pompy** z innego ekranu wysyła najwyżej 12 zmian, więc większą zmianę wysyłaj w częściach.
 
-## Co zostało zmienione i przez co
+## Co i przez co zostało zmienione
 
-Każda akcja jest zapisywana wraz z jej przyczyną. Zobacz [Aktywność i oś czasu](/help/mobile-activity).
+Każda akcja jest zapisywana razem z jej przyczyną. Więcej w [Aktywność i oś czasu](/help/mobile-activity).

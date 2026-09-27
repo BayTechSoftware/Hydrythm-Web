@@ -1,49 +1,49 @@
 ---
 title: Wyjazd
-description: Zbuduj plan, który osoba doglądająca akwarium może wykonać, i udostępnij go jako stronę, którą może otworzyć bez konta.
+description: Przygotuj plan dla osoby, która zajmie się akwarium, i udostępnij go jako stronę, którą otworzy bez konta.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 28
 group: Account
 ---
 
-Tryb wakacyjny zmienia Twoje akwarium w coś, co inna osoba może doglądać. Ustawiasz daty, wypisujesz zadania, a Cora tworzy prostą stronę, którą możesz jej wysłać.
+Dzięki trybowi wakacyjnemu akwarium może pod Twoją nieobecność doglądać ktoś inny. Ustawiasz daty, wypisujesz prace, a Cora tworzy prostą stronę, którą wyślesz tej osobie.
 
-**Ustawienia → Akwaria → Vacation mode.**
+**Ustawienia → Akwaria → Tryb wakacyjny.**
 
-![Tryb wakacyjny](img/mobile-vacation.webp "Daty podróży, lista zadań dla opiekuna i notatki, które do niej należą.")
+![Tryb wakacyjny](img/mobile-vacation.webp "Daty wyjazdu, lista zadań dla opiekuna i notatki do niej.")
 
-## Budowanie planu
+## Przygotowanie planu
 
-**Dates**: kiedy wyjeżdżasz i kiedy wracasz.
+**Daty**: kiedy wyjeżdżasz i kiedy wracasz.
 
-**Lista zadań**: każde zadanie z tym, jak często trzeba je wykonywać. Cora przedstawia częstotliwość jako prostą etykietę przy nim:
+**Lista zadań**: każda praca razem z tym, jak często trzeba ją wykonywać. Cora pokazuje częstotliwość jako prostą etykietę obok zadania:
 
-| Częstotliwość | Dla |
+| Częstotliwość | Do czego |
 |---|---|
-| **Codziennie** | Karmienie, szybki rzut okiem na akwarium |
-| **Co 3 dni** | Dolewka, sprawdzenie skimmera |
-| **Raz** | Podmiana wody podczas Twojej nieobecności |
-| **Zawsze** | Stałe instrukcje, na przykład sprzęt, którego nie należy dostosowywać |
+| **Codziennie** | Karmienie, szybki rzut oka na akwarium |
+| **Co 3 dni** | Dolewka, sprawdzenie odpieniacza |
+| **Raz** | Podmiana wody w czasie Twojej nieobecności |
+| **Zawsze** | Stałe instrukcje, np. sprzęt, którego nie wolno przestawiać |
 
-Pisz listę zadań dla kogoś nieznającego akwariów rafowych. Podawaj ilości i metody wprost: "podaj jedną kostkę mrożonego jedzenia, rozmrożoną, raz dziennie", a nie "podaj jak zwykle".
+Pisz listę dla kogoś, kto nie zna akwariów morskich. Podawaj wprost ilości i sposób: „podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie”, a nie „nakarm jak zwykle”.
 
-## Udostępnianie go
+## Udostępnianie
 
-Cora zamienia plan w **stronę tylko do odczytu**. Wyślij opiekunowi link; nie potrzebuje Cora Mobile i nie potrzebuje konta.
+Cora zamienia plan w **stronę tylko do odczytu**. Wyślij opiekunowi link. Nie potrzebuje Cora Mobile ani konta.
 
-Może przeczytać listę zadań i zobaczyć akwarium. Nie może niczego zmienić, sterować sprzętem ani zobaczyć reszty Twojego konta.
+Opiekun może przeczytać listę zadań i zobaczyć akwarium. Nie może niczego zmienić, sterować sprzętem ani zobaczyć reszty Twojego konta.
 
-:::note Podaj, czego nie należy dostosowywać
-Dołącz stałe instrukcje obejmujące sprzęt, którego opiekun powinien nie dotykać. Użyj częstotliwości **Zawsze** dla nich.
+:::note Napisz, czego nie ruszać
+Dodaj stałe instrukcje o sprzęcie, którego opiekun nie powinien dotykać. Ustaw dla nich częstotliwość **Zawsze**.
 :::
 
-## Podczas Twojej nieobecności
+## W czasie wyjazdu
 
-Wszystko inne działa dalej: odczyty, alerty, Reef Buddy, automatyzacje. Tryb wakacyjny dodaje stronę dla opiekuna; nie zmienia, jak Twoje akwarium jest prowadzone.
+Wszystko inne działa dalej: odczyty, alerty, Reef Buddy, automatyzacje. Tryb wakacyjny tylko dodaje stronę dla opiekuna. Nie zmienia tego, jak działa akwarium.
 
-Jeśli chcesz być dostępny, sprawdź swoje **[ustawienia powiadomień](/help/mobile-notifications)** przed wyjazdem.
+Jeśli chcesz być pod telefonem, przed wyjazdem sprawdź **[ustawienia powiadomień](/help/mobile-notifications)**.
 
 ## Po powrocie
 
-Zakończ plan, gdy jesteś w domu. Lista zadań jest zachowywana, więc następnym razem, gdy wyjedziesz, możesz ją użyć ponownie, a nie pisać od nowa.
+Gdy wrócisz, zakończ plan. Lista zadań zostaje zapisana, więc przy następnym wyjeździe użyjesz jej ponownie i nie musisz pisać jej od nowa.

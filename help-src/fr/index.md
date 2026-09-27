@@ -1,77 +1,75 @@
 ---
 title: Aide Cora
-description: Comment installer et utiliser Cora Max et Cora Mobile : intégration, tableaux de bord, appareils, alertes, Reef Buddy, rapports ICP et de santé.
+description: Installer et utiliser Cora Max et Cora Mobile : premiers pas, tableaux de bord, appareils, alertes, Reef Buddy, rapports ICP et de santé.
 section: -
 reviewed: 2026-09-27
 order: 0
 ---
 
-Tout ce qu’il vous faut pour gérer votre récif avec Cora. Choisissez votre point de départ :
+Tout ce qu’il vous faut pour gérer votre récif avec Cora. Par où voulez-vous commencer ?
 
 <ul class="tiles">
-<li><a href="/help/mobile-setup"><b>Nouveau sur Cora Mobile</b><span>Créez votre compte, ajoutez votre premier aquarium et affichez des mesures à l’écran.</span></a></li>
-<li><a href="/help/max-setup"><b>Nouveau sur Cora Max</b><span>Premier démarrage, appairage et transfert de vos aquariums sur le grand écran.</span></a></li>
-<li><a href="/help/mobile-dashboard-editing"><b>Créez votre tableau de bord</b><span>Choisissez une mise en page, ajoutez des widgets et disposez-les comme vous le souhaitez.</span></a></li>
-<li><a href="/help/troubleshooting"><b>Résoudre un problème</b><span>Les mesures se sont arrêtées, un appareil est resté silencieux ou une alerte ne se ferme pas.</span></a></li>
+<li><a href="/help/mobile-setup"><b>Nouveau sur Cora Mobile</b><span>Créez votre compte, ajoutez votre premier aquarium et voyez vos premières mesures.</span></a></li>
+<li><a href="/help/max-setup"><b>Nouveau sur Cora Max</b><span>Premier démarrage, appairage et choix des aquariums à afficher.</span></a></li>
+<li><a href="/help/mobile-dashboard-editing"><b>Créez votre tableau de bord</b><span>Choisissez une disposition, ajoutez des widgets et placez-les à votre goût.</span></a></li>
+<li><a href="/help/troubleshooting"><b>Résoudre un problème</b><span>Les mesures ne bougent plus, un appareil ne répond plus ou une alerte ne disparaît pas.</span></a></li>
 <li><a href="/help/faq"><b>Questions fréquentes</b><span>Réponses rapides sur l’installation, Cora Max, les appareils, les alertes, les forfaits et la confidentialité.</span></a></li>
 </ul>
 
-## Les deux moitiés de Cora
+## Cora Mobile et Cora Max
 
-**Cora Mobile** est l’application pour téléphone. C’est là que vous configurez presque tout (aquariums, appareils, tableaux de bord, alertes, produits de dosage), et c’est ce que vous emportez quand vous êtes loin de l’aquarium. Sur votre écran d’accueil, l’icône s’appelle simplement **Cora**.
+**Cora Mobile** est l’application pour téléphone. C’est là que vous configurez presque tout (aquariums, appareils, tableaux de bord, alertes, produits de dosage), et c’est elle que vous avez sur vous loin de l’aquarium. Sur votre écran d’accueil, l’icône s’appelle simplement **Cora**.
 
-**Cora Max** est le centre de commande mural de la pièce de votre récif. Il affiche les mêmes aquariums et les mêmes données en direct sur un écran lisible depuis l’autre bout de la pièce, et il comprend la voix.
+**Cora Max** est l’écran mural de votre pièce du récif. Il affiche les mêmes aquariums et les mêmes données en direct, lisibles depuis l’autre bout de la pièce, et il comprend la voix.
 
-Ils partagent un seul compte, donc vos aquariums, mesures, appareils et enregistrements sont identiques sur les deux, et vous n’avez pas à les configurer deux fois.
+Les deux utilisent le même compte. Vos aquariums, mesures, appareils et données sont donc les mêmes des deux côtés, et vous ne configurez rien deux fois.
 
-Certaines choses restent propres à l’écran auquel elles appartiennent. Chaque écran garde sa **propre mise en page de tableau de bord**, et les réglages qui décrivent un écran en particulier (Wi-Fi, luminosité, audio, mot d’activation, verrouillage enfant) appartiennent à cet écran seul. Voir [Ce qui est partagé et ce qui ne l’est pas](/help/mobile-multi-device).
+Certaines choses restent propres à chaque écran. Chaque écran a **sa propre disposition du tableau de bord**, et les réglages d’un écran précis (Wi-Fi, luminosité, son, mot d’activation, verrouillage enfant) ne concernent que lui. Plus de détails dans [Ce qui est partagé et ce qui ne l’est pas](/help/mobile-multi-device).
 
-:::tip Commencez sur votre téléphone
-Même si c’est Cora Max que vous avez acheté, configurez d’abord vos aquariums et vos appareils dans Cora Mobile. Tout est plus facile à saisir sur un téléphone, et Cora Max récupère automatiquement tout ce que vous avez fait.
+:::tip Commencez par votre téléphone
+Même si vous avez acheté Cora Max, configurez d’abord vos aquariums et vos appareils dans Cora Mobile. C’est bien plus simple à taper sur un téléphone, et Cora Max récupère tout automatiquement.
 :::
 
-## Ce que Cora ajoute à un contrôleur
+## Ce que Cora apporte à votre contrôleur
 
-Cora vous montre un chiffre accompagné de ce dont il dépend : d’où il vient, et depuis combien de temps.
-
-Chaque mesure indique d’où elle vient et depuis combien de temps. Quand deux sources ne sont pas d’accord (une sonde face à un test en kit, un doseur face à vos résultats ICP), Cora vous le dit au lieu de les moyenner discrètement. Et quand quelque chose dérive, **Reef Buddy** vous le dit le matin au lieu d’attendre que vous le remarquiez.
+Chaque mesure indique sa provenance et son âge. Quand deux sources ne sont pas d’accord (une sonde et un test en kit, un doseur et vos résultats ICP), Cora vous le signale, sans faire la moyenne en silence. Et quand un paramètre dérive, **Reef Buddy** vous prévient le matin, sans attendre que vous le remarquiez.
 
 ## Vous repérer
 
-- **[Les cinq onglets](/help/mobile-tour)** : un tour de Cora Mobile en deux minutes
-- **[L’écran d’accueil de Cora Max](/help/max-tour)** : ce que signifie chaque élément du grand écran
-- **[Questions fréquentes](/help/faq)** : réponses rapides, classées par thème
-- **[Résolution de problèmes](/help/troubleshooting)** : quelque chose semble anormal, commencez ici
-- **[Glossaire](/help/glossary)** : aquarium, source, widget, mise en page enregistrée, seuil, et le reste
+- **[Les cinq onglets](/help/mobile-tour)** : le tour de Cora Mobile en deux minutes
+- **[L’écran d’accueil de Cora Max](/help/max-tour)** : tout ce que vous voyez sur Cora Max
+- **[Questions fréquentes](/help/faq)** : réponses rapides, classées par thème
+- **[Résolution de problèmes](/help/troubleshooting)** : quelque chose ne va pas ? Commencez ici
+- **[Glossaire](/help/glossary)** : aquarium, source, widget, disposition enregistrée, seuil, et tout le reste
 
-## Entretenir l’aquarium
+## Au quotidien
 
-Au-delà des mesures et des tableaux de bord, Cora garde le reste du travail au même endroit :
+Au-delà des mesures et des tableaux de bord, Cora regroupe le reste du travail au même endroit :
 
-- **[Automatisations et scènes](/help/mobile-automation)** : des règles qui s’exécutent seules
-- **[Dosage](/help/mobile-dosing)** : concentrations des produits, calculateur et consommation
-- **[Entretien](/help/mobile-maintenance)** : tâches récurrentes avec rappels
-- **[Population](/help/mobile-livestock)** : ce que vous gardez, et ce qu’il en est advenu
-- **[Parcours guidés](/help/mobile-journeys)** : démarrer un aquarium, ou résoudre un problème
-- **[Activité](/help/mobile-activity)** : ce qui est arrivé à votre équipement, et ce qui l’a causé
-- **[Partir en vacances](/help/mobile-vacation)** : un plan que vous pouvez remettre à quelqu’un qui s’occupe de l’aquarium
-- **[Vos données](/help/mobile-data-export)** : exports et suppression de votre compte
-- **[Connexion et récupération de compte](/help/mobile-account)** : mots de passe, vérification et adresse e-mail erronée
-- **[Obtenir de l’aide](/help/mobile-support)** : signaler un problème, et ce qui est envoyé avec
+- **[Automatisations et scènes](/help/mobile-automation)** : des règles qui s’exécutent toutes seules
+- **[Dosage](/help/mobile-dosing)** : concentration des produits, calculateur et consommation
+- **[Entretien](/help/mobile-maintenance)** : tâches régulières avec rappels
+- **[Population](/help/mobile-livestock)** : vos animaux, et ce qu’ils sont devenus
+- **[Parcours guidés](/help/mobile-journeys)** : démarrer un aquarium ou régler un problème
+- **[Activité](/help/mobile-activity)** : ce qui est arrivé à votre équipement, et pourquoi
+- **[Partir en vacances](/help/mobile-vacation)** : un plan à laisser à la personne qui s’occupe de l’aquarium
+- **[Vos données](/help/mobile-data-export)** : exports et suppression de votre compte
+- **[Connexion et récupération de compte](/help/mobile-account)** : mots de passe, vérification et adresse e-mail erronée
+- **[Obtenir de l’aide](/help/mobile-support)** : signaler un problème, et ce qui est envoyé avec
 
 ## Votre équipement
 
-- **[Contrôler votre équipement](/help/mobile-device-control)** : prises, pompes, têtes de dosage et testeurs
-- **[Sondes](/help/mobile-probes)** : associer les sondes d’un contrôleur, et enregistrer un étalonnage
-- **[Consommables](/help/mobile-consumables)** : alertes de réapprovisionnement pour réactif, contenants et réservoirs
-- **[Programmer l’équipement](/help/mobile-schedules)** : programmes journaliers pour pompes, les copier et consulter le programme d’une pompe de brassage
-- **[Plus d’un appareil Cora](/help/mobile-multi-device)** : lequel répond à la voix, lequel interroge
+- **[Contrôler votre équipement](/help/mobile-device-control)** : prises, pompes, têtes de dosage et testeurs
+- **[Sondes](/help/mobile-probes)** : associer les sondes d’un contrôleur et noter un étalonnage
+- **[Consommables](/help/mobile-consumables)** : alertes de réapprovisionnement pour les réactifs, contenants et réservoirs
+- **[Programmer l’équipement](/help/mobile-schedules)** : programmes journaliers des pompes, copie de programmes et programme d’une pompe de brassage
+- **[Plus d’un appareil Cora](/help/mobile-multi-device)** : lequel répond à la voix, lequel interroge l’équipement
 
-## Sur le grand écran
+## Sur Cora Max
 
-- **[La pièce du récif](/help/max-reef-room)** : tous les aquariums à la fois
-- **[Appareils et état des appareils](/help/max-devices)** : ce que voit Cora Max, et ses propres diagnostics
-- **[Reef Buddy et rapports](/help/max-intelligence)** : le briefing et vos analyses de laboratoire au mur
-- **[Contrôler l’équipement depuis Cora Max](/help/max-device-control)** : les pages d’appareils au mur
-- **[Activité sur Cora Max](/help/max-activity)** : ce qui a été exécuté, refusé ou jamais confirmé
-- **[Mises à jour et récupération](/help/max-updates)** : comment l’écran se maintient à jour
+- **[La pièce du récif](/help/max-reef-room)** : tous les aquariums d’un coup d’œil
+- **[Appareils et état des appareils](/help/max-devices)** : ce que voit Cora Max, et ses diagnostics
+- **[Reef Buddy et rapports](/help/max-intelligence)** : le briefing et vos analyses de laboratoire sur Cora Max
+- **[Contrôler l’équipement depuis Cora Max](/help/max-device-control)** : les pages d’appareils sur Cora Max
+- **[Activité sur Cora Max](/help/max-activity)** : ce qui a été exécuté, refusé ou jamais confirmé
+- **[Mises à jour et récupération](/help/max-updates)** : comment Cora Max se met à jour

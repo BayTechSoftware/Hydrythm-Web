@@ -1,60 +1,60 @@
 ---
 title: Aktivität und Zeitleiste
-description: Alles, was mit deiner Ausrüstung passiert ist, und was es verursacht hat.
+description: Alles, was mit deiner Ausrüstung passiert ist, und wer oder was es ausgelöst hat.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 22
 group: Records
 ---
 
-Aktivität erfasst jede **Aktuierungsanfrage** (jeden Versuch, etwas zu ändern) zusammen mit dem, was danach gefragt hat, und dem, was daraus wurde.
+Unter Aktivität steht jede **Schaltanfrage**, also jeder Versuch, etwas zu ändern. Zu jedem Eintrag siehst du, wer die Anfrage gestellt hat und was daraus geworden ist.
 
-Eine Anfrage ist nicht dasselbe wie eine Änderung. Abgelehnte Anfragen wurden nicht ausgeführt, mit einer Ausnahme: Ein Eintrag, der sagt *Kein Gerät hat rechtzeitig geantwortet*, könnte trotzdem gelaufen sein, daher prüfe die Ausrüstung, bevor du es wiederholst. Anfragen ohne Änderung fanden die Ausrüstung schon wie gewünscht vor, und eine unbestätigte hat das Gerät möglicherweise gar nicht erreicht. Alle davon werden erfasst.
+Eine Anfrage ist noch keine Änderung. Abgelehnte Anfragen wurden nicht ausgeführt, mit einer Ausnahme: Steht bei einem Eintrag *Kein Gerät hat rechtzeitig geantwortet*, kann er trotzdem gelaufen sein. Prüf dann erst die Ausrüstung, bevor du es noch einmal versuchst. Bei Anfragen ohne Änderung war die Ausrüstung schon im gewünschten Zustand. Eine unbestätigte Anfrage hat das Gerät vielleicht gar nicht erreicht. Cora protokolliert sie alle.
 
 **Einstellungen → Aktivität.**
 
 ![Das Aktivitätsprotokoll](img/mobile-activity.webp "Jede Aktion, mit der Oberfläche, die sie angefordert hat.")
 
-## Was erfasst wird
+## Was protokolliert wird
 
-Jede **Anfrage**, nicht nur die, die funktioniert haben: Steckdosenschaltungen, Fütterungszyklen, Dosierungen, Steckdosenänderungen, und alles, was eine Szene oder Automation getan hat.
+Jede **Anfrage**, auch die, die nicht geklappt haben: Steckdosen schalten, Fütterungen, Dosierungen, Änderungen an Steckdosen und alles, was eine Szene oder Automation getan hat.
 
-Eine Anfrage, die **abgelehnt** wurde, die **keine Änderung** bewirkt hat, oder die hinausging und **unbestätigt** zurückkam, wird genauso erfasst wie eine ausgeführte. Das ist der Sinn: Ein Befehl, der still nichts bewirkt hat, ist genau das, was du hier finden möchtest.
+Anfragen, die **abgelehnt** wurden, **keine Änderung** bewirkt haben oder **unbestätigt** zurückkamen, landen genauso im Protokoll wie ausgeführte. Darum geht es hier: Ein Befehl, der still und leise nichts getan hat, ist genau das, was du hier finden willst.
 
-## Was es verursacht hat
+## Wer es ausgelöst hat
 
-Jeder Eintrag benennt seine Ursache:
+Jeder Eintrag nennt seinen Auslöser:
 
-| Ursache | Bedeutet |
+| Auslöser | Bedeutung |
 |---|---|
 | **Diese App** | Du hast hier getippt |
-| **Sprache in dieser App** | Du hast gefragt, auf diesem Handy |
-| **Auf einem Cora getippt** | Jemand hat einen Cora-Bildschirm benutzt; die Zeile sagt, welchen |
+| **Sprache in dieser App** | Du hast auf diesem Handy per Sprache gefragt |
+| **Auf einem Cora getippt** | Jemand hat einen Cora-Bildschirm benutzt. Die Zeile sagt, welchen |
 | **Sprache an einem Cora Max** | Jemand hat mit einem Bildschirm gesprochen |
-| **Cora Assistant** | Du hast Cora gebeten, es zu tun |
+| **Cora Assistant** | Du hast Cora darum gebeten |
 | **Automationsregel** | Eine Regel hat ausgelöst |
-| **Smart-Taste** | Eine physische Taste wurde gedrückt |
-| **Von Cora Cloud gesendet** | Von deinem Konto ausgegeben, statt von einem Gerät vor dir |
-| **Unbekannte Quelle** | Erfasst, bevor die Quelle identifiziert werden konnte |
+| **Smart-Taste** | Jemand hat eine echte Taste gedrückt |
+| **Von Cora Cloud gesendet** | Dein Konto hat den Befehl geschickt, kein Gerät vor Ort |
+| **Unbekannte Quelle** | Protokolliert, bevor sich die Quelle feststellen ließ |
 
-## Wie es gereist ist
+## Welchen Weg es genommen hat
 
-Jede Zeile trägt auch einen Weg-Chip, weil *wie* eine Anfrage deine Ausrüstung erreicht hat viel darüber erklärt, was schiefging, wenn etwas schiefging:
+Jede Zeile hat außerdem einen Chip für den Weg. *Wie* eine Anfrage bei deiner Ausrüstung angekommen ist, erklärt oft, was schiefgelaufen ist:
 
-| Chip | Bedeutet |
+| Chip | Bedeutung |
 |---|---|
-| **LAN** | Über dein eigenes Netzwerk gesendet, direkt an die Ausrüstung |
-| **ÜBER CLOUD** | Über dein Konto gesendet, für Ausrüstung, die nicht direkt erreichbar ist |
-| **WEG ?** | Erfasst, bevor Wege verfolgt wurden: wirklich unbekannt, nicht angenommen |
+| **LAN** | Direkt über dein eigenes Netzwerk an die Ausrüstung geschickt |
+| **ÜBER CLOUD** | Über dein Konto geschickt, weil die Ausrüstung direkt nicht erreichbar war |
+| **ROUTE ?** | Protokolliert, bevor Cora Wege aufgezeichnet hat. Der Weg ist wirklich unbekannt und wird auch nicht geraten |
 
-Auf einem System mit mehr als einem Cora benennt die Zeile außerdem, welches die Anfrage hinausgetragen hat.
+Hast du mehr als ein Cora, steht in der Zeile auch, welches die Anfrage verschickt hat.
 
-## Die Becken-Zeitleiste
+## Die Zeitleiste des Beckens
 
-Getrennt von Ausrüstungsaktionen hat jedes Becken eine **Zeitleiste**: Messwerte, Warnungen, Tagebucheinträge, ICP-Ergebnisse und Besatzänderungen der Reihe nach angeordnet.
+Neben den Aktionen der Ausrüstung hat jedes Becken eine **Zeitleiste**. Dort stehen Messwerte, Warnungen, Tagebucheinträge, ICP-Ergebnisse und Änderungen am Besatz in zeitlicher Reihenfolge.
 
-Nutze Aktivität, wenn du fragst *"was hat etwas getan?"*, und die Zeitleiste, wenn du fragst *"was ist rund um dieses Datum passiert?"*
+Schau in die Aktivität, wenn du wissen willst *"Was hat etwas getan?"*. Schau in die Zeitleiste, wenn du wissen willst *"Was war rund um dieses Datum los?"*
 
-:::note Die Zeitleiste und das Tagebuch ergänzen sich
-Die Zeitleiste enthält, was Cora erfasst hat; das [Tagebuch](/help/mobile-journal) enthält, was du getan hast. Gemeinsam gelesen stellen sie Ursache und Wirkung rund um ein bestimmtes Datum her.
+:::note Zeitleiste und Tagebuch ergänzen sich
+In der Zeitleiste steht, was Cora aufgezeichnet hat. Im [Tagebuch](/help/mobile-journal) steht, was du getan hast. Liest du beide zusammen, erkennst du Ursache und Wirkung rund um ein bestimmtes Datum.
 :::

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scenes on Cora Max | Cora Help</title>
-  <meta name="description" content="Building, running and editing scenes directly on the Cora Max screen.">
+  <meta name="description" content="Building, running and editing scenes right on the Cora Max screen.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/max-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Scenes on Cora Max | Cora Help">
-  <meta property="og:description" content="Building, running and editing scenes directly on the Cora Max screen.">
+  <meta property="og:description" content="Building, running and editing scenes right on the Cora Max screen.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/max-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,24 +169,24 @@
     <article class="doc">
       <h1>Scenes on Cora Max</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#where-to-find-scenes">Where to find scenes</a></li><li><a href="#building-a-scene">Building a scene</a></li><li><a href="#running-a-scene">Running a scene</a></li><li><a href="#editing-or-deleting-a-scene">Editing or deleting a scene</a></li></ul></nav>
-<p>A <strong>scene</strong> is a saved set of equipment actions that runs together, either for a fixed time or until you stop it. Scenes work the same whether you build them on your phone or on Cora Max; this page covers doing it at the wall.</p>
+<p>A <strong>scene</strong> is a saved set of equipment actions that run together, either for a set time or until you stop it. Scenes work the same whether you build them on your phone or on Cora Max. This page is about doing it at the wall.</p>
 <h2 id="where-to-find-scenes">Where to find scenes</h2>
-<p><strong>Settings → Automations</strong> lists every scene across every tank you have, with a filter chip for each tank when you have more than one. It opens the same list whether the scene was built on the phone or on Cora Max.</p>
-<p>Tap a scene to edit it, or tap <strong>+</strong> to build a new one. If you have more than one tank and no filter is chosen, Cora Max asks which tank the new scene belongs to.</p>
+<p><strong>Settings → Automations</strong> lists every scene for all your tanks. If you have more than one tank, there's a filter chip for each. You'll see the same list whether a scene was built on your phone or on Cora Max.</p>
+<p>Tap a scene to edit it, or tap <strong>+</strong> to build a new one. If you have more than one tank and no filter is picked, Cora Max asks which tank the new scene is for.</p>
 <h2 id="building-a-scene">Building a scene</h2>
-<ol><li>Give the scene a <strong>name</strong>.</li><li>Add <strong>steps</strong>. From Cora Max, a step can switch an Apex outlet (<strong>On</strong>, <strong>Off</strong> or <strong>Auto</strong>) or a Zigbee plug (<strong>on</strong>, <strong>off</strong> or <strong>toggle</strong>). Steps added on the phone for other kinds of equipment still show here, and can still be reordered or removed, even though this screen cannot add another one like it.</li><li>Choose how long it runs: a fixed number of minutes, or <strong>permanent</strong> (it keeps running until you stop it).</li><li>Choose whether running the scene needs a <strong>confirmation</strong> step. Leave this on unless you are certain the scene never touches anything that would be unsafe to change without a second look.</li><li>Save.</li></ol>
-<aside class="cal cal-note"><p class="cal-t">DŌS dosing heads are never a scene step</p><p>A scene, built on Cora Max or on the phone, can never switch on a dosing head. This is deliberate: a dose is not the kind of action a scene should be able to trigger by accident.</p></aside>
+<ol><li>Give the scene a <strong>name</strong>.</li><li>Add <strong>steps</strong>. On Cora Max, a step can switch an Apex outlet (<strong>On</strong>, <strong>Off</strong> or <strong>Auto</strong>) or a Zigbee plug (<strong>on</strong>, <strong>off</strong> or <strong>toggle</strong>). Steps for other equipment that were added on your phone still show up here. You can reorder or remove them, but you can't add new ones like them from this screen.</li><li>Choose how long it runs. Pick a number of minutes, or <strong>permanent</strong> (it runs until you stop it).</li><li>Choose whether the scene asks for <strong>confirmation</strong> before it runs. Leave this on unless you're sure the scene never touches anything that needs a second look before it changes.</li><li>Save.</li></ol>
+<aside class="cal cal-note"><p class="cal-t">DŌS dosing heads are never a scene step</p><p>No scene can switch on a dosing head, whether you build it on Cora Max or on your phone. A dose shouldn't be something a scene can start by accident.</p></aside>
 <h2 id="running-a-scene">Running a scene</h2>
-<p>Scenes appear as tiles on the dashboard. Tap <strong>Run</strong> to start one.</p>
-<p>If the scene needs confirmation, Cora Max lists exactly what it is about to do, one line per step, before anything happens. Read it, then choose to run it or cancel.</p>
-<p>While a timed scene is running, its tile shows a countdown to when it ends, and a <strong>Stop</strong> button to end it early. A permanent scene's tile stays in its running state until you stop it.</p>
-<p>Running or stopping a scene always goes through Cora Cloud, the same way any other command does; see <a href="/help/max-activity">What was changed, and by what</a> for where the result is recorded.</p>
-<p><strong>If it does not work:</strong> if a scene will not run or will not stop, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Child lock covers scenes too</p><p>If <a href="/help/max-voice">Child lock</a> is on, running or stopping a scene from this screen is blocked along with every other control. Questions about a scene still work over voice; starting or stopping one does not.</p></aside>
+<p>Scenes show up as tiles on the dashboard. Tap <strong>Run</strong> to start one.</p>
+<p>If the scene needs confirmation, Cora Max first lists what it's about to do, one line per step. Read it, then run it or cancel.</p>
+<p>While a timed scene runs, its tile counts down to the end and shows a <strong>Stop</strong> button if you want to end it early. A permanent scene's tile shows it as running until you stop it.</p>
+<p>Running or stopping a scene always goes through Cora Cloud, like any other command. You'll find the result in <a href="/help/max-activity">What was changed, and by what</a>.</p>
+<p>If a scene won't run or won't stop, have a look at <a href="/help/troubleshooting">Troubleshooting</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Child lock covers scenes too</p><p>When <a href="/help/max-voice">Child lock</a> is on, you can't run or stop a scene from this screen, just like every other control. You can still ask about a scene by voice, but you can't start or stop one.</p></aside>
 <h2 id="editing-or-deleting-a-scene">Editing or deleting a scene</h2>
-<p>Open the scene from <strong>Settings → Automations</strong>, or long-press its tile on the dashboard, to change its name, steps, duration or confirmation setting, or to delete it.</p>
-<aside class="cal cal-note"><p class="cal-t">Older Cora Max screens can run a scene but not edit it</p><p>Building and editing scenes at the wall is a newer Cora Max capability. An older Cora Max on the same account can still show and run a scene that was made on the phone or on a newer Cora Max; it simply cannot change it. Update Cora Max, or edit the scene from the phone or from a newer screen, if this comes up.</p></aside>
-<p>See <a href="/help/mobile-automation">Scenes and automations</a> for what a scene can do in more detail, and how they are built on the phone.</p>
+<p>To change a scene's name, steps, duration or confirmation setting, or to delete it, open it from <strong>Settings → Automations</strong> or long-press its tile on the dashboard.</p>
+<aside class="cal cal-note"><p class="cal-t">Older Cora Max screens can run a scene but not edit it</p><p>Building and editing scenes at the wall is new on Cora Max. An older Cora Max on the same account can still show and run a scene made on your phone or on a newer Cora Max. It just can't change it. If that happens, update Cora Max, or edit the scene on your phone or a newer screen.</p></aside>
+<p>There's more on what scenes can do, and how to build them on your phone, in <a href="/help/mobile-automation">Scenes and automations</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-updates"><span>Previous</span><b>Updates and recovery</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

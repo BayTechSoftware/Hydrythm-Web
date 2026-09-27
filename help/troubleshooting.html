@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Troubleshooting | Cora Help</title>
-  <meta name="description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.">
+  <meta name="description" content="Readings stopped, a device went offline, an alert won&#x27;t clear, or something just looks wrong. Start here.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/troubleshooting">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/troubleshooting">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Troubleshooting | Cora Help">
-  <meta property="og:description" content="Readings stopped, a device went offline, alerts are not clearing, or something looks wrong. Start here.">
+  <meta property="og:description" content="Readings stopped, a device went offline, an alert won&#x27;t clear, or something just looks wrong. Start here.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,174 +169,139 @@
     <article class="doc">
       <h1>Troubleshooting</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#a-widget-shows-no-value">A widget shows no value</a></li><li><a href="#a-reading-is-stale">A reading is stale</a></li><li><a href="#a-device-cannot-be-reached">A device cannot be reached</a></li><li><a href="#a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</a></li><li><a href="#pairing-a-cora-max-fails">Pairing a Cora Max fails</a></li><li><a href="#cora-max-shows-old-data">Cora Max shows old data</a></li><li><a href="#an-alert-is-not-clearing">An alert is not clearing</a></li><li><a href="#two-sources-disagree">Two sources disagree</a></li><li><a href="#im-not-getting-notifications">I&#x27;m not getting notifications</a></li><li><a href="#establishing-why-something-changed">Establishing why something changed</a></li><li><a href="#my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</a></li><li><a href="#red-sea-readings-have-stopped-updating">&quot;Red Sea readings have stopped updating&quot;</a></li><li><a href="#could-not-reach-this-pump-nothing-was-sent">&quot;Could not reach this pump: nothing was sent&quot;</a></li><li><a href="#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">&quot;Could not reach this pump over Bluetooth. Stand near it and try again.&quot;</a></li><li><a href="#could-not-reach-that-gyre-no-feed-was-started">&quot;Could not reach that gyre. No feed was started.&quot;</a></li><li><a href="#could-not-reach-that-gyre-its-program-was-not-changed">&quot;Could not reach that gyre. Its program was not changed.&quot;</a></li><li><a href="#could-not-reach-the-apex-nothing-changed-nothing-was-dosed">&quot;Could not reach the Apex: nothing changed&quot; / &quot;nothing was dosed&quot;</a></li><li><a href="#this-could-not-be-sent-no-device-on-this-tank-can-send-it">&quot;This could not be sent: no device on this tank can send it&quot;</a></li><li><a href="#a-secondary-cora-max-shows-main-cora-offline">A secondary Cora Max shows &quot;Main Cora offline&quot;</a></li><li><a href="#device-is-offline-showing-last-known-state">&quot;Device is offline. Showing last known state.&quot;</a></li><li><a href="#some-reefbeat-settings-are-greyed-out-or-missing">Some ReefBeat settings are greyed out or missing</a></li><li><a href="#could-not-reach-cora-check-your-wi-fi-or-mobile-data-then-tr">&quot;Could not reach Cora. Check your Wi-Fi or mobile data, then try again.&quot;</a></li><li><a href="#everything-is-suddenly-in-the-wrong-language">Everything is suddenly in the wrong language</a></li><li><a href="#an-old-alert-or-report-is-still-in-a-different-language-afte">An old alert or report is still in a different language after switching</a></li><li><a href="#an-alert-wont-stop-notifying-even-after-ive-acknowledged-it">An alert won&#x27;t stop notifying even after I&#x27;ve acknowledged it</a></li><li><a href="#a-dose-stopped-partway-through-and-a-restore-alert-appeared">A dose stopped partway through and a &quot;restore&quot; alert appeared</a></li><li><a href="#a-scene-made-on-the-phone-doesnt-show-up-as-editable-on-cora">A scene made on the phone doesn&#x27;t show up as editable on Cora Max</a></li><li><a href="#cora-assistant-answers-about-the-wrong-tank">Cora Assistant answers about the wrong tank</a></li><li><a href="#cora-assistant-refuses-to-answer-or-shows-a-consent-screen-a">Cora Assistant refuses to answer, or shows a consent screen again</a></li><li><a href="#a-lab-or-emailed-icp-result-never-showed-up">A lab or emailed ICP result never showed up</a></li><li><a href="#an-emailed-icp-notification-names-no-lab">An emailed ICP notification names no lab</a></li><li><a href="#a-widget-shows-the-wrong-units">A widget shows the wrong units</a></li><li><a href="#a-gauge-or-threshold-looks-different-after-changing-display-">A gauge or threshold looks different after changing display units</a></li><li><a href="#cora-max-wont-reconnect-right-away-after-a-wi-fi-outage">Cora Max won&#x27;t reconnect right away after a Wi-Fi outage</a></li><li><a href="#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl">Renaming a Cora Max on the phone doesn&#x27;t change what the tablet shows</a></li><li><a href="#i-cant-find-where-to-turn-off-the-wake-word-on-cora-max">I can&#x27;t find where to turn off the wake word on Cora Max</a></li><li><a href="#child-lock-wont-let-anyone-into-settings">Child lock won&#x27;t let anyone into Settings</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
-<p>Start with the symptom.</p>
+<p>Find the symptom that matches yours.</p>
 <h2 id="a-widget-shows-no-value">A widget shows no value</h2>
-<p>Work down this list:</p>
-<ol><li><strong>Check the age on nearby widgets.</strong> If everything is stale, the problem is the connection, not the parameter.</li><li><strong>Open the Devices tab.</strong> A device that cannot be reached says so on its row.</li><li><strong>Check the tank assignment.</strong> A device reporting into the wrong tank looks exactly like a device that is not reporting. Open the device and confirm its tank.</li><li><strong>Check the source exists.</strong> Nothing reports phosphate unless you have equipment that measures it or you log it by hand.</li></ol>
+<p>Go through these in order:</p>
+<ol><li><strong>Look at the age on nearby widgets.</strong> If they're all old too, it's the connection. The parameter itself is fine.</li><li><strong>Open the Devices tab.</strong> If a device can't be reached, its row says so.</li><li><strong>Check which tank the device is on.</strong> A device reporting to the wrong tank looks exactly like one that isn't reporting. Open the device and check its tank.</li><li><strong>Check that something measures it.</strong> Nothing reports phosphate unless you have equipment that measures it or you log it by hand.</li></ol>
 <h2 id="a-reading-is-stale">A reading is stale</h2>
-<p>The age badge is telling you the truth: nothing new has arrived.</p>
-<ul><li><strong>Hand-logged parameters</strong> go stale when no reading has been entered. Log one.</li><li><strong>Equipment readings</strong> going stale means the device stopped reporting; check its row in <strong>Devices</strong>.</li><li><strong>Some equipment is meant to be slow.</strong> A titrator that measures hourly will normally read <code>1h</code>. That is not a fault.</li></ul>
+<p>The age badge is right. Nothing new has come in.</p>
+<ul><li><strong>Hand-logged parameters</strong> go stale when nobody has entered a reading. Log one.</li><li><strong>Equipment readings</strong> go stale when the device stops reporting. Check its row in <strong>Devices</strong>.</li><li><strong>Some equipment only reports now and then.</strong> A titrator that measures hourly will usually show <code>1h</code>. That's normal.</li></ul>
 <h2 id="a-device-cannot-be-reached">A device cannot be reached</h2>
-<p>Usually the network.</p>
-<ol><li>Is the equipment powered and working in its own app?</li><li>Is it on the same network it was added on?</li><li>Has your router changed (new hardware, new network name, guest network isolation)?</li></ol>
-<p>Equipment that connects over your local network needs to be reachable on that network. Equipment that connects through a manufacturer account does not, but needs that account to still be valid.</p>
+<p>It's usually the network. Ask yourself:</p>
+<ol><li>Is the equipment powered on and working in its own app?</li><li>Is it on the same network you added it on?</li><li>Has anything changed with your router (new hardware, new network name, guest network isolation)?</li></ol>
+<p>Equipment that connects over your local network has to be reachable on that network. Equipment that connects through a manufacturer account doesn't, but that account still has to be valid.</p>
 <h2 id="a-device-says-the-sign-in-was-refused">A device says the sign-in was refused</h2>
-<p>The manufacturer rejected the stored sign-in. Almost always because you changed your password with them.</p>
-<p>Open the device row and sign in again.</p>
+<p>The manufacturer rejected the saved sign-in. Almost always, that's because you changed your password with them. Open the device's row and sign in again.</p>
 <h2 id="pairing-a-cora-max-fails">Pairing a Cora Max fails</h2>
-<p>If adding a Cora Max stops partway, Cora Mobile says which step failed and why, with <strong>Cancel</strong> and <strong>Retry</strong> below.</p>
-<ul><li><em>"Your phone could not reach the Cora Max on your Wi-Fi."</em> Put your phone and the Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access: <strong>Settings → Device access</strong> takes you there (see <a href="/help/mobile-settings">Settings</a>). Then tap <strong>Retry</strong>.</li><li><em>"The Cora Max did not accept this pairing session."</em> Retrying will not help. Close the screen and start again from <strong>Devices → Add Device</strong>.</li></ul>
+<p>If adding a Cora Max stops partway, Cora Mobile tells you which step failed and why, with <strong>Cancel</strong> and <strong>Retry</strong> underneath.</p>
+<ul><li><em>"Your phone could not reach the Cora Max on your Wi-Fi."</em> Put your phone and Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access. <strong>Settings → Device access</strong> takes you there (see <a href="/help/mobile-settings">Settings</a>). Then tap <strong>Retry</strong>.</li><li><em>"The Cora Max did not accept this pairing session."</em> Retrying won't help here. Close the screen and start again from <strong>Devices → Add Device</strong>.</li></ul>
 <p>For any other message, tap <strong>Retry</strong>.</p>
 <h2 id="cora-max-shows-old-data">Cora Max shows old data</h2>
-<p>Check the status pill in the top bar. <strong>Online</strong> and <strong>Cloud</strong> are both healthy: with more than one Cora, the screen that is not doing the collecting shows <strong>Cloud</strong>, and its readings are just as current. <strong>Stale</strong> or <strong>Offline</strong> means the screen has lost its source and is showing the last data it received (correct behaviour, but not current).</p>
-<ul><li>Check Wi-Fi under <strong>Settings → Cora Max → Network</strong></li><li>Check the network itself is up</li><li>If the pill reads <strong>Online</strong> or <strong>Cloud</strong> and the data is still old, the problem is upstream: check the same tank on your phone</li></ul>
+<p>Look at the status tag in the top bar. <strong>Online</strong> and <strong>Cloud</strong> are both fine. If you have more than one Cora, the one that isn't collecting the data shows <strong>Cloud</strong>, and its readings are just as current. <strong>Stale</strong> or <strong>Offline</strong> means Cora Max has lost its source and is showing the last data it got. That's the right behaviour, but the data isn't current.</p>
+<ul><li>Check Wi-Fi under <strong>Settings → Cora Max Settings → Wi-Fi</strong>.</li><li>Check that your network itself is working.</li><li>If the tag says <strong>Online</strong> or <strong>Cloud</strong> and the data is still old, the problem is somewhere before Cora Max. Check the same tank on your phone.</li></ul>
 <h2 id="an-alert-is-not-clearing">An alert is not clearing</h2>
-<p>An alert clears when the reading returns to range. If it will not clear:</p>
-<ul><li><strong>The reading is genuinely out of range.</strong> Look at the widget's history.</li><li><strong>The threshold is wrong for your tank.</strong> See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li><strong>The source is wrong.</strong> A probe that needs calibrating reports a number that is genuinely out of range. Fix the probe rather than the threshold.</li></ul>
+<p>An alert clears when the reading is back in range. If it won't clear, there are three likely reasons:</p>
+<ul><li><strong>The reading really is out of range.</strong> Look at the widget's history.</li><li><strong>The threshold doesn't suit your tank.</strong> See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li><strong>The source is off.</strong> A probe that needs calibrating will report a number that's really out of range. Fix the probe and leave the threshold alone.</li></ul>
 <h2 id="two-sources-disagree">Two sources disagree</h2>
-<p>This is Cora working, not Cora failing. When your probe and your test kit disagree, that is a real fact about your system.</p>
-<p>An ICP result is a useful third opinion here, but it does not settle the argument: laboratories differ from one another, and a sample's handling and transit move the result. Two tests agreeing is worth far more than one.</p>
-<p>Usually the probe needs calibrating; sometimes the test kit is old. Calibrate the probe, run the test again with fresh reagent, and compare the two under the same conditions. An <a href="/help/mobile-icp-health">ICP result</a> adds a third data point to that comparison.</p>
+<p>Nothing is broken. When your probe and your test kit disagree, that tells you something real about your system.</p>
+<p>Usually the probe needs calibrating. Sometimes the test kit is old. Calibrate the probe, retest with fresh reagent, and compare the two under the same conditions.</p>
+<p>An <a href="/help/mobile-icp-health">ICP result</a> gives you a third number to compare, but it won't settle the question by itself. Labs differ from each other, and how a sample is handled and shipped changes the result. Two tests that agree tell you far more than one.</p>
 <h2 id="im-not-getting-notifications">I'm not getting notifications</h2>
-<ol><li><strong>Settings → Notifications</strong>: check that category is allowed to push</li><li>Check your phone's own notification permissions for Cora</li><li>Remember the daily briefing is deliberately quiet on days when nothing changed</li></ol>
+<ol><li>In <strong>Settings → Notifications</strong>, check that the category is allowed to send notifications.</li><li>Check your phone's own notification permission for Cora.</li><li>Keep in mind that the daily briefing stays quiet on days when nothing changed.</li></ol>
 <h2 id="establishing-why-something-changed">Establishing why something changed</h2>
-<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, with what asked for it: Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.</p>
+<p><strong>Settings → Activity</strong> lists every outlet switch, feed, dose and plug change, and what asked for it. That can be Cora Mobile, a Cora screen, voice, the Assistant, an automation rule, a smart button or your account.</p>
 <h2 id="my-dashboard-looks-wrong-after-editing">My dashboard looks wrong after editing</h2>
-<p>Load a saved design: <strong>My dashboards</strong>, then pick one.</p>
-<p>If you have not saved one, rebuild the layout and then save it as a design. From that point on, returning to it is a single tap.</p>
-<p>Either way, readings, history and journal entries are stored separately from layout, so nothing behind the dashboard is lost.</p>
+<p>Load a saved design. Open <strong>My dashboards</strong> and pick one.</p>
+<p>If you haven't saved one, rebuild the layout and save it as a design. Next time, getting back to it takes one tap.</p>
+<p>Your readings, history and journal entries are stored separately from the layout, so you haven't lost anything.</p>
 <h2 id="red-sea-readings-have-stopped-updating">"Red Sea™ readings have stopped updating"</h2>
-<p><strong>What it means:</strong> No device on this tank's network is currently polling your Red Sea equipment, so the readings on screen have not been refreshed.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Open <strong>Settings → Primary Cora Max</strong> and check a Cora Max is set (or <strong>Any active (automatic)</strong> is chosen).</li><li>Open the tank on a device that is on the same Wi-Fi as the Red Sea gear.</li><li>Confirm the Red Sea equipment is powered and online in its own app.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>Nothing on this tank's network is polling your Red Sea equipment right now, so the readings on screen aren't being refreshed.</p>
+<ol><li>Open <strong>Settings → Primary Cora Max</strong> and check that a Cora Max is set, or that <strong>Any active (automatic)</strong> is chosen.</li><li>Open the tank on a device that's on the same Wi-Fi as the Red Sea gear.</li><li>Check that the Red Sea equipment is powered on and online in its own app.</li></ol>
+<p>If that doesn't fix it, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="could-not-reach-this-pump-nothing-was-sent">"Could not reach this pump: nothing was sent"</h2>
-<p><strong>What it means:</strong> A command to a Jecod™ or Jebao™ pump never left the app, usually because the pump is off or off its network.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check the pump is powered on.</li><li>Check it is on the same network it was added on.</li><li>Tap <strong>Retry</strong>.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>A command to your Jecod™ or Jebao™ pump never left Cora. Usually the pump is off or not on its network.</p>
+<ol><li>Check the pump is powered on.</li><li>Check it's on the same network you added it on.</li><li>Tap <strong>Retry</strong>.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">"Could not reach this pump over Bluetooth. Stand near it and try again."</h2>
-<p><strong>What it means:</strong> A Bluetooth-only Jecod device is out of range of your phone.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Move closer to the pump.</li><li>Tap <strong>Retry</strong>.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>Your phone is out of range of a Bluetooth-only Jecod device. Move closer to the pump and tap <strong>Retry</strong>.</p>
+<p>If it still fails, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="could-not-reach-that-gyre-no-feed-was-started">"Could not reach that gyre. No feed was started."</h2>
-<p><strong>What it means:</strong> A Maxspect™ gyre (beta integration) did not respond when Cora tried to start feed mode on it.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check the gyre is powered on and on its network.</li><li>Tap <strong>Retry</strong>.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>A Maxspect™ gyre (a beta integration) didn't respond when Cora tried to start feed mode on it. Check the gyre is powered on and on its network, then tap <strong>Retry</strong>.</p>
+<p>If it still fails, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="could-not-reach-that-gyre-its-program-was-not-changed">"Could not reach that gyre. Its program was not changed."</h2>
-<p><strong>What it means:</strong> A schedule push to a Maxspect gyre (beta integration) failed to reach it.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check your phone or Cora Max is on the gyre's network.</li><li>Tap <strong>Retry</strong> from the schedule screen.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>Cora couldn't get a new schedule through to a Maxspect gyre (a beta integration). Make sure your phone or Cora Max is on the gyre's network, then tap <strong>Retry</strong> on the schedule screen.</p>
+<p>If it still fails, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="could-not-reach-the-apex-nothing-changed-nothing-was-dosed">"Could not reach the Apex: nothing changed" / "nothing was dosed"</h2>
-<p><strong>What it means:</strong> A Neptune™ Apex, Trident, or DŌS head did not respond to a command or dose request.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Open the Apex's own app and confirm it is online.</li><li>Check network connectivity on the device you are using.</li><li>Tap <strong>Retry</strong>.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>A Neptune™ Apex, Trident or DŌS head didn't respond to a command or a dose request.</p>
+<ol><li>Open the Apex's own app and check it's online.</li><li>Check the network connection on the device you're using.</li><li>Tap <strong>Retry</strong>.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="this-could-not-be-sent-no-device-on-this-tank-can-send-it">"This could not be sent: no device on this tank can send it"</h2>
-<p><strong>What it means:</strong> No Cora device on this tank has the Apex connection details needed to carry out the command, or the one that does is offline.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Add the Apex details in <strong>Settings</strong> on a device that is currently online, or</li><li>Set a different, working Cora Max as the <strong>Primary Cora Max</strong> for this tank.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>None of the Cora devices on this tank has the Apex connection details it needs to send the command, or the one that does is offline. You can fix it one of two ways:</p>
+<ol><li>Add the Apex details in <strong>Settings</strong> on a device that's online, or</li><li>Make a different, working Cora Max the <strong>Primary Cora Max</strong> for this tank.</li></ol>
+<p>If neither works, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="a-secondary-cora-max-shows-main-cora-offline">A secondary Cora Max shows "Main Cora offline"</h2>
-<p><strong>What it means:</strong> The primary tablet for this tank has gone offline, so this secondary screen is showing the last data it received rather than live data.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check the primary tablet's power and Wi-Fi.</li><li>Wait for it to reconnect, or change the <strong>Primary Cora Max</strong> to a device that is currently online.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>The primary Cora Max for this tank has gone offline. This screen is showing the last data it received, so it isn't live.</p>
+<ol><li>Check the primary Cora Max's power and Wi-Fi.</li><li>Wait for it to reconnect, or change the <strong>Primary Cora Max</strong> to a device that's online.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="device-is-offline-showing-last-known-state">"Device is offline. Showing last known state."</h2>
-<p><strong>What it means:</strong> Normal offline handling: the device stopped reporting, and Cora is showing the last values it had rather than pretending they are current.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check the device's own network connection.</li><li>Treat the shown values as not live until the row no longer says offline.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>The device stopped reporting, and Cora is showing the last values it had. They aren't current.</p>
+<ol><li>Check the device's own network connection.</li><li>Don't treat the values as live until the row stops saying offline.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="some-reefbeat-settings-are-greyed-out-or-missing">Some ReefBeat settings are greyed out or missing</h2>
-<p><strong>What it means:</strong> This is by design, not a fault. Device-native settings (as opposed to readings) only open when your phone is on the same network as the device itself; away from that network, only readings show.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Visit the tank's own Wi-Fi to change those settings.</li><li>Readings and history still work normally away from the tank.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>That's normal. The device's own settings only open when your phone is on the same network as the device. Away from that network you only see readings.</p>
+<ol><li>Join the tank's Wi-Fi to change those settings.</li><li>Readings and history keep working when you're away from the tank.</li></ol>
+<p>If something else seems wrong, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="could-not-reach-cora-check-your-wi-fi-or-mobile-data-then-tr">"Could not reach Cora. Check your Wi-Fi or mobile data, then try again."</h2>
-<p><strong>What it means:</strong> Your phone has no usable connection to Cora Cloud at sign-in. This is about your phone's own connectivity, not your tank equipment.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check your phone has a working Wi-Fi or mobile data connection.</li><li>Try a different network if one is available.</li><li><strong>Retry</strong>.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>Your phone can't reach Cora Cloud to sign in. This is about your phone's connection. Your tank equipment isn't involved.</p>
+<ol><li>Check that your phone has working Wi-Fi or mobile data.</li><li>Try a different network if you have one.</li><li>Tap <strong>Retry</strong>.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="everything-is-suddenly-in-the-wrong-language">Everything is suddenly in the wrong language</h2>
-<p><strong>What it means:</strong> The account language was changed from any device. Language is one setting for the whole account, not per device.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Open <strong>Settings → Language</strong> on either app.</li><li>Set it back if it was changed by mistake; the change applies everywhere at once.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>Someone changed the account language on one of your devices. It's one setting for the whole account.</p>
+<ol><li>Open <strong>Settings → Language</strong> in Cora Mobile or on Cora Max.</li><li>If it was changed by mistake, set it back. The change applies everywhere.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="an-old-alert-or-report-is-still-in-a-different-language-afte">An old alert or report is still in a different language after switching</h2>
-<p><strong>What it means:</strong> This is expected, not a bug. Cora does not retranslate content that was already generated; only new alerts, reports and briefings follow the new language.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Nothing to fix. Wait for new content, which will use the current language.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>That's expected. Cora doesn't retranslate anything it already wrote. Only new alerts, reports and briefings use the new language, so there's nothing to fix. New content will come in the current language.</p>
+<p>If something else seems wrong, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="an-alert-wont-stop-notifying-even-after-ive-acknowledged-it">An alert won't stop notifying even after I've acknowledged it</h2>
-<p><strong>What it means:</strong> Confusion between <strong>Dismiss</strong> (closes the alert for good) and <strong>Snooze</strong> (mutes it temporarily, for up to a week).</p>
-<p><strong>What to do:</strong></p>
-<ol><li>If you understand and accept the condition, use <strong>Dismiss</strong>.</li><li>If you only want quiet for a while, use <strong>Snooze</strong> and pick a length.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/mobile-alerts">Alerts and thresholds</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p><strong>Snooze</strong> and <strong>Dismiss</strong> on Cora Max only quiet that one Cora Max. Your phone keeps getting notifications for as long as the reading is out of range.</p>
+<ol><li>To hear about it less often on your phone, open the alert rule in Cora Mobile and set a longer <strong>Cooldown between alerts</strong> (up to 1 week).</li><li>If the threshold doesn't suit your tank, change the threshold itself.</li></ol>
+<p>More in <a href="/help/mobile-alerts">Alerts and thresholds</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="a-dose-stopped-partway-through-and-a-restore-alert-appeared">A dose stopped partway through and a "restore" alert appeared</h2>
-<p><strong>What it means:</strong> The DŌS head lost contact mid-dose, so Cora is telling you deliberately rather than assuming the full dose went in.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Open the alert and check how much was actually dosed before it stopped.</li><li>Resume or adjust the dose based on that amount, not the amount originally scheduled.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the tank and device name.</p>
+<p>The DŌS head lost contact during the dose. Cora is telling you so it doesn't have to assume the full dose went in.</p>
+<ol><li>Open the alert and check how much was dosed before it stopped.</li><li>Resume or adjust the dose based on that amount, not the amount you scheduled.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="a-scene-made-on-the-phone-doesnt-show-up-as-editable-on-cora">A scene made on the phone doesn't show up as editable on Cora Max</h2>
-<p><strong>What it means:</strong> Editing scenes directly on the tablet is a newer Cora Max capability. Older firmware can still run phone-made scenes, just not edit them there.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Update Cora Max, or</li><li>Keep editing that scene from the phone; it will still run on the tablet either way.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/max-updates">Updates and recovery</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>Only newer Cora Max versions can edit scenes on the screen itself. Older firmware still runs scenes you made on your phone, but can't edit them.</p>
+<ol><li>Update Cora Max, or</li><li>Keep editing that scene on your phone. It runs on Cora Max either way.</li></ol>
+<p>See <a href="/help/max-updates">Updates and recovery</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="cora-assistant-answers-about-the-wrong-tank">Cora Assistant answers about the wrong tank</h2>
-<p><strong>What it means:</strong> No tank was picked before asking, or the wrong tank is currently active.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Pick the tank you mean first.</li><li>Ask again.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/mobile-assistant">The Assistant</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>You didn't pick a tank before asking, or the wrong one is selected. Pick the tank you mean, then ask again.</p>
+<p>More in <a href="/help/mobile-assistant">The Assistant</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="cora-assistant-refuses-to-answer-or-shows-a-consent-screen-a">Cora Assistant refuses to answer, or shows a consent screen again</h2>
-<p><strong>What it means:</strong> "Allow Cora Assistant to use saved tank data" was turned off, so it has nothing to answer from.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Tap <strong>Agree &amp; Continue</strong> on the consent screen to turn it back on.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/mobile-assistant">The Assistant</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>"Allow Cora Assistant to use saved tank data" is turned off, so it has nothing to answer from. Tap <strong>Agree &amp; Continue</strong> on the consent screen to turn it back on.</p>
+<p>More in <a href="/help/mobile-assistant">The Assistant</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="a-lab-or-emailed-icp-result-never-showed-up">A lab or emailed ICP result never showed up</h2>
-<p><strong>What it means:</strong> Getting a result into Cora needs a tank chosen for it, and sometimes a recognized sender, before it attaches anywhere.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check the intake hint shown the first time you send a result to Cora.</li><li>Confirm which tank the result should attach to when prompted.</li><li>Make sure the email was sent from the address you used to send it before, if you have sent one previously.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/mobile-icp-health">ICP and health reports</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>A result only attaches once it has a tank, and sometimes Cora also needs to recognise the sender.</p>
+<ol><li>Check the hint Cora shows the first time you send it a result.</li><li>When Cora asks, confirm which tank the result belongs to.</li><li>If you've sent a result before, send this one from the same email address.</li></ol>
+<p>More in <a href="/help/mobile-icp-health">ICP and health reports</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="an-emailed-icp-notification-names-no-lab">An emailed ICP notification names no lab</h2>
-<p><strong>What it means:</strong> A known issue with the "choose tank" push notification missing the lab's name. It has been fixed in current builds.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Make sure Cora Mobile is updated to the latest version.</li><li>The result itself is unaffected; only the notification text was missing a name.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>This was a known issue. The "choose tank" notification left out the lab's name, and current builds have fixed it. The result itself was never affected, only the notification text. Update Cora Mobile to the latest version.</p>
+<p>If you still see it, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="a-widget-shows-the-wrong-units">A widget shows the wrong units</h2>
-<p><strong>What it means:</strong> This is the tank's display units setting, not a data problem. Values are stored the same way regardless of how they are displayed.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Open <strong>Settings</strong> for that tank and check its display units.</li><li>Change them there; every phone and Cora Max showing that tank updates to match.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>That's the tank's display units setting. Your data is fine, and values are stored the same way however they're shown.</p>
+<ol><li>Open <strong>Settings</strong> for that tank and check its display units.</li><li>Change them there. Every phone and Cora Max showing that tank updates to match.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="a-gauge-or-threshold-looks-different-after-changing-display-">A gauge or threshold looks different after changing display units</h2>
-<p><strong>What it means:</strong> Expected. Gauges, tiles and history redraw in the unit you chose; the underlying values have not changed.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Nothing to fix; this is cosmetic only.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>That's expected. Gauges, tiles and history redraw in the unit you picked. The values underneath haven't changed, so there's nothing to fix.</p>
+<p>If something else seems wrong, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="cora-max-wont-reconnect-right-away-after-a-wi-fi-outage">Cora Max won't reconnect right away after a Wi-Fi outage</h2>
-<p><strong>What it means:</strong> After losing its connection, Cora Max waits a little longer before each retry rather than hammering the network, backing off to roughly a minute before it tries again.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Wait about a minute after your network comes back.</li><li>If it still has not reconnected after that, check Wi-Fi under <strong>Settings → Network</strong>.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/max-tour">The Cora Max home screen</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>After it loses its connection, Cora Max waits a bit longer before each retry so it doesn't flood your network. The wait grows to about a minute.</p>
+<ol><li>Give it about a minute after your network comes back.</li><li>If it still hasn't reconnected, check Wi-Fi under <strong>Settings → Cora Max Settings → Wi-Fi</strong>.</li></ol>
+<p>See <a href="/help/max-tour">The Cora Max home screen</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl">Renaming a Cora Max on the phone doesn't change what the tablet shows</h2>
-<p><strong>What it means:</strong> The name you set from the phone is an account-level label for that device. The name shown on the tablet itself during pairing can be a different thing.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Check which "name" you are looking at: the one in your device list on the phone, or the one on the tablet's own pairing screen.</li><li>Rename from the phone's device list if it's the account label you want to change.</li></ol>
-<p><strong>Still not working?</strong> Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the device name.</p>
+<p>The name you set on your phone is the account's label for that device. The name Cora Max shows on its own pairing screen can be a different one.</p>
+<ol><li>Check which name you're looking at, the one in your phone's device list or the one on Cora Max's pairing screen.</li><li>If it's the account label you want to change, rename it from your phone's device list.</li></ol>
+<p>Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the device name.</p>
 <h2 id="i-cant-find-where-to-turn-off-the-wake-word-on-cora-max">I can't find where to turn off the wake word on Cora Max</h2>
-<p><strong>What it means:</strong> The wake-word toggle lives under <strong>Audio</strong>, not under the Cora Assistant settings group, which surprises most people.</p>
-<p><strong>What to do:</strong></p>
-<ol><li>Go to <strong>Settings → Audio → Wake-word listening</strong>.</li><li>Turn it off; you can still tap the Cora icon to start a voice session.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/max-settings">Settings on Cora Max</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>It's in the <strong>Sound &amp; Voice</strong> section, not in the Cora Assistant settings, where most people look first.</p>
+<ol><li>Go to <strong>Settings → Cora Max Settings → Sound &amp; Voice → Wake-word listening</strong>.</li><li>Turn it off. You can still tap the Cora icon to start talking.</li></ol>
+<p>See <a href="/help/max-settings">Settings on Cora Max</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="child-lock-wont-let-anyone-into-settings">Child lock won't let anyone into Settings</h2>
-<p><strong>What it means:</strong> This is working as intended. Child lock locks the touchscreen and voice controls after a set time with no touch; readings keep updating underneath it.</p>
-<p><strong>What to do:</strong></p>
+<p>That's what child lock does. After a set time with no touch, it stops anyone switching equipment from this screen, by touch or by voice. Readings keep updating, and you can still ask Cora questions. To unlock:</p>
 <ol><li>Press <strong>Volume Up</strong> or <strong>Volume Down</strong> three times within two seconds, or</li><li>Hold five fingers in the top-right corner of the screen for ten seconds.</li></ol>
-<p><strong>Still not working?</strong> See <a href="/help/max-voice">Voice on Cora Max</a>, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
+<p>More in <a href="/help/max-voice">Voice on Cora Max</a>, or email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
 <h2 id="still-stuck">Still stuck</h2>
-<p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see; it gets you a useful answer faster.</p>
+<p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see. It helps us give you a useful answer faster.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/faq"><span>Previous</span><b>Frequently asked questions</b></a><a class="pn-n" href="/help/glossary"><span>Next</span><b>Glossary</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

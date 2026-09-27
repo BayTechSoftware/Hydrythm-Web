@@ -1,84 +1,84 @@
 ---
 title: Reef Buddy
-description: Günlük briefinginiz: neyi kapsadığı, ne zaman geldiği ve puanı nasıl okuyacağınız.
+description: Günlük özetiniz. Neleri kapsar, ne zaman gelir, puanlar nasıl okunur.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 24
 group: Intelligence
 ---
 
-Reef Buddy, akvaryumunuz hakkında kısa günlük bir okumadır. Her sabah gelir, neyin değiştiğini söyler ve siz fark etmeden ilgi göstermeye değer herhangi bir şeyi işaretler.
+Reef Buddy, akvaryumunuz hakkında her gün gelen kısa özettir. Her sabah gelir, nelerin değiştiğini söyler ve siz fark etmeden önce dikkat etmeniz gereken şeyleri gösterir.
 
-Panonuzun üstünde bir kart olarak ve bir bildirim olarak görünür.
+Panonuzun üstünde kart olarak görünür ve tek bildirim olarak gelir.
 
-![Bir Reef Buddy briefingi](img/mobile-reefbuddy.webp "Stability ve Data puanları, bir özet, ardından arkalarındaki içgörüler.")
+![Reef Buddy özeti](img/mobile-reefbuddy.webp "Kararlılık ve Veri puanları, özet ve altında bulgular.")
 
-## Bir briefingde ne var
+## Özette neler var
 
-**Bir başlık**: akvaryumun bugün için tek satırlık bir özeti.
+**Başlık**: akvaryumun bugünkü durumunu anlatan tek satır.
 
-**İki puan:**
+Özette iki puan var:
 
 | Puan | Anlamı |
 |---|---|
-| **Kararlılık** | 100 üzerinden. Son 30 gündür okumalarınızın ne kadar sabit olduğu |
-| **Veri** | Bir yüzde. Değerlendirmenin arkasındaki verinin ne kadar tam olduğu |
+| **Kararlılık** | 100 üzerinden. Son 30 günde ölçümlerinizin ne kadar sabit kaldığı |
+| **Veri** | Yüzde olarak. Değerlendirmenin dayandığı verinin ne kadar eksiksiz olduğu |
 
-Düşük bir Data puanı, değerlendirmenin istediğinden daha az okumaya dayandığı anlamına gelir. Önce onu okuyun: Data düşükken, yanındaki Stability sayısını kesinleşmiş değil geçici olarak ele alın.
+Veri puanı düşükse değerlendirme olması gerekenden az ölçüme dayanıyor demektir. Önce bu puana bakın. Veri düşükken yanındaki Kararlılık puanını kesin değil, geçici sonuç olarak görün.
 
-**Bir özet**: gerçek değerlerinize ve aralıklarınıza atıfta bulunarak başlığı açıklayan kısa bir paragraf.
+**Özet**: başlığı açıklayan kısa paragraf. Gerçek değerlerinize ve aralıklarınıza dayanır.
 
-**İçgörüler**: tek tek bulgular. Her biri bir kategori (örneğin *Su Kimyası*), bir sıklık (örneğin *Günlük*) taşır ve ayrıntı için genişler. Bölümün üstündeki bir çip, akvaryum türünü ve profilinin ne kadar tam olduğunu gösterir; çünkü ikisi de Cora'nın çıkarabildiği sonucu etkiler.
+**Bulgular**: tek tek tespitler. Her birinde kategori (örneğin *Su Kimyası*) ve sıklık (örneğin *Günlük*) yazar. Ayrıntıları görmek için bulguyu genişletin. Bölümün üstündeki etiket akvaryum türünü ve profilin ne kadar dolu olduğunu gösterir. İkisi de Cora'nın varabileceği sonuçları etkiler.
 
-İçgörüler size ulaşmadan önce filtrelenir. Bir içgörünün, tek bir okumada görünmek yerine birkaç okuma boyunca geçerli kalması ve tek bir grafiğin size zaten göstermediği bir şey söylemesi gerekir.
+Bulgular size gelmeden önce elenir. Bulgunun tek ölçümde değil, birkaç ölçüm boyunca geçerli olması gerekir. Ayrıca tek bir grafiğin zaten gösterdiği bir şeyi tekrar etmemesi gerekir.
 
-Tam briefingi açmak için panodaki karta dokunun.
+Özetin tamamını açmak için panodaki karta dokunun.
 
 ## Ne zaman gelir
 
-Akvaryum başına günde bir kez, sabahın erken saatlerinde.
+Her akvaryum için günde bir kez, sabah erken saatlerde.
 
-Hiçbir şeyin ilginizi gerektirmediği bir günde, Reef Buddy her şeyin iyi olduğunu söylemek için push göndermek yerine genellikle sessiz kalır. **Bir push, harekete geçmeye değer bir şey olduğu anlamına gelir**; bu yeni bir değişiklik veya yükseltilmeye değecek kadar uzun süredir devam eden bir durum olabilir.
+Dikkatinizi gerektiren bir şey olmayan günlerde Reef Buddy genellikle "her şey yolunda" demek için bildirim göndermez, sessiz kalır. **Bildirim geliyorsa ilgilenmeniz gereken bir şey var demektir.** Bu yeni bir değişiklik de olabilir, bildirmeye değecek kadar uzun süren bir durum da.
 
-:::note Bir akvaryum, bir briefing
-Her akvaryum kendi briefingini alır. Üç sistem işletiyorsanız üç tane alırsınız ve her biri yalnızca o sistemle ilgilidir.
+:::note Her akvaryuma ayrı özet
+Her akvaryumun kendi özeti var. Üç sisteminiz varsa üç özet alırsınız ve her biri yalnızca kendi sistemini anlatır.
 :::
 
-:::note Cora Max'in kendi Reef Buddy ayarı vardır
-Bir Cora Max tabletinin Ayarları'nda kendi **Reef Buddy** bölümü vardır, ekrandaki briefinginin ne zaman göründüğü için bir anahtar ve bir saatle. Bu telefondan ayrıdır: Cora Max'te bir briefingi açıp kapatmak onun telefonunuza ulaşıp ulaşmayacağını değiştirmez, ve tersi de geçerlidir.
+:::note Cora Max'in kendi Reef Buddy ayarı var
+Cora Max tabletin Ayarlar'ında ayrı bir **Reef Buddy** bölümü var. Burada ekrandaki özetin açık olup olmayacağını ve ne zaman görüneceğini seçersiniz. Bu ayar telefondan bağımsızdır. Cora Max'te özeti açıp kapatmak telefonunuza gelip gelmeyeceğini değiştirmez. Tersi de geçerlidir.
 :::
 
 ## Puanları okuma
 
-**Kararlılık**, son 30 gündür okumalarınızın ne kadar sabit olduğunu yansıtır. Sabitliği ölçer, okumaların aralıkta olup olmadığını değil: yanlış bir seviyede sabit tutulan bir akvaryum hâlâ iyi puan alabilir. Hedef aralıklarınıza karşı bir puan için bir [Sağlık Raporu](/help/mobile-icp-health) çalıştırın. Stability bir not değil, zaman içinde izlenecek bir eğilimdir; onu başka bir akvaryuma karşı değil kendi önceki puanlarınıza karşı karşılaştırın.
+**Kararlılık**, son 30 günde ölçümlerinizin ne kadar sabit kaldığını gösterir. Ölçümlerin aralıkta olup olmadığına bakmaz, yalnızca sabitliği ölçer. Yanlış seviyede sabit duran akvaryum da yüksek puan alabilir. Hedef aralıklarınıza göre puan almak için bir [Sağlık Raporu](/help/mobile-icp-health) çalıştırın. Kararlılık not değildir, zaman içinde izlenecek eğilimdir. Onu başka bir akvaryumla değil, kendi önceki puanlarınızla karşılaştırın.
 
-**Veri**, değerlendirmenin ne kadar son bilgiye sahip olduğunu yansıtır. Okumalar eskidiğinde düşer.
+**Veri**, değerlendirmenin ne kadar güncel bilgiye dayandığını gösterir. Ölçümler eskidikçe düşer.
 
-:::note Düşen bir Data puanı genellikle okumaların eskidiği anlamına gelir
-Bir haftadır hiçbir şey test edilmediyse, Data puanı düşer ve Stability puanı daha az güvenilir hale gelir. İkisini de geri getirmek için okumaları kaydedin.
+:::note Veri puanı düşüyorsa genellikle ölçümler eskimiştir
+Bir haftadır hiç test yapmadıysanız Veri puanı düşer ve Kararlılık puanı daha az güvenilir olur. İkisini de düzeltmek için ölçüm girin.
 :::
 
 ## Kartı kapatma
 
-**×**, bugünün kartını panodan kaldırır. Yarınki hâlâ gelir. Geçmiş briefingler **Intelligence** sekmesinden kullanılabilir kalır.
+**×** bugünün kartını panodan kaldırır. Yarınki özet yine gelir. Eski özetlere **Zeka** sekmesinden ulaşabilirsiniz.
 
-## Kullanılabilirlik
+## Hangi planlarda var
 
-Reef Buddy, ücretli katmanların bir parçasıdır. Kayıt olduğunuzda başlayan 30 günlük denemeye dahildir; deneme sonrasında, ücretsiz bir hesap artık briefing almaz. Bkz. [Planlar](/help/mobile-plans).
+Reef Buddy ücretli planlarda bulunur. Kaydolduğunuzda başlayan 30 günlük denemeye de dahildir. Deneme bittikten sonra ücretsiz hesaplara özet gelmez. Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
 
-## Bir içgörüyü düzeltme
+## Bir bulguya yanıt verme
 
-Her içgörü dört yanıttan birini alır:
+Her bulguya dört yanıttan birini verebilirsiniz:
 
 | Yanıt | Anlamı |
 |---|---|
-| **Onaylandı** | Doğruydu ve kullanışlıydı |
-| **Uyuşmuyor** | Gördüğünüzü yansıtmıyor |
-| **Zaten biliyordum** | Doğru, ama farkındaydınız |
-| **Emin değilim** | Henüz değerlendiremiyorsunuz |
+| **Onaylandı** | Doğruydu ve işe yaradı |
+| **Uyuşmuyor** | Sizin gördüğünüzle örtüşmüyor |
+| **Zaten biliyordum** | Doğru, ama zaten farkındaydınız |
+| **Emin değilim** | Henüz karar veremiyorsunuz |
 
-Geri bildirim daha sonraki briefinglere neyin öncülük ettiğini şekillendirir ve susturma **süreyle sınırlıdır**; kapattığınız bir içgörü, durum sürerse geri gelir.
+Yanıtlarınız, sonraki özetlerde hangi bulguların öne çıkacağını etkiler. Bulguyu susturmanın etkisi **süreyle sınırlıdır**. Kapattığınız bulgu, durum devam ederse yeniden gelir.
 
 :::note Ciddi bulgular hiçbir zaman susturulmaz
-Yalnızca daha düşük önem düzeyindeki içgörüler geri bildirimle sessizleştirilebilir. Uyarı ve kritik içgörüler, onlara daha önce nasıl yanıt verdiğinizden bağımsız olarak görünmeyi sürdürür.
+Yanıtlarınızla yalnızca önemi düşük bulgular sessize alınabilir. Uyarı ve kritik düzeydeki bulgular, önceki yanıtlarınız ne olursa olsun görünmeye devam eder.
 :::

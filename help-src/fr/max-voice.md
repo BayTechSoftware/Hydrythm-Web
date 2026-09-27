@@ -1,98 +1,98 @@
 ---
 title: Parler à Cora
-description: Utiliser la voix sur Cora Max, démarrer une conversation, ce que vous pouvez demander, et comment fonctionnent les confirmations.
+description: La voix sur Cora Max, comment lancer une conversation, quoi demander et comment se passent les confirmations.
 section: Cora Max
 reviewed: 2026-09-27
 order: 12
 group: Intelligence
 ---
 
-Cora Max comprend la voix, ce qui est le moyen le plus facile de l’utiliser quand vos mains sont mouillées ou que vous êtes à l’autre bout de la pièce.
+Cora Max comprend la voix. C’est le plus pratique quand vous avez les mains mouillées ou que vous êtes à l’autre bout de la pièce.
 
 ## Deux façons de commencer
 
-**Dites « Hey Cora ».** Cora Max écoute en arrière-plan le mot d’activation et démarre une session quand il l’entend.
+**Dites « Hey Cora ».** Cora Max guette ce mot d’activation en arrière-plan et démarre une session quand il l’entend.
 
-**Ou touchez l’icône Cora Assistant** dans la barre supérieure. Cora commence à écouter immédiatement, répond à voix haute, et continue d’écouter jusqu’à ce que vous l’arrêtiez.
+**Ou touchez l’icône Cora Assistant** dans la barre du haut. Cora se met tout de suite à écouter, répond à voix haute et continue d’écouter jusqu’à ce que vous l’arrêtiez.
 
 ![Réglages vocaux](img/max-voice.webp "L’écoute du mot d’activation peut être désactivée sans perdre l’appui pour parler.")
 
-**Réglages → Réglages Cora Max → Son et voix → Écoute du mot d’activation** désactive l’écoute en arrière-plan. Toucher l’icône Cora Assistant fonctionne toujours, ce qui est le réglage à utiliser si vous préférez que l’écran n’écoute pas tout le temps.
+**Réglages → Réglages Cora Max → Son et voix → Écoute du mot d’activation** coupe l’écoute en arrière-plan. L’icône Cora Assistant marche toujours. Choisissez ce réglage si vous préférez que l’écran n’écoute pas en permanence.
 
-**Sortie audio**, dans la même section **Son et voix**, choisit le haut-parleur interne, une connexion 3,5 mm ou le Bluetooth. Le haut-parleur interne est le plus faible des trois pour la voix.
+Dans la même section **Son et voix**, **Sortie audio** choisit le haut-parleur intégré, une prise 3,5 mm ou le Bluetooth. Pour la voix, le haut-parleur intégré est le plus faible des trois.
 
-## Quel appareil répond à « Hey Cora »
+## Quel appareil répond à « Hey Cora »
 
-Si votre foyer a plus d’un Cora Max, un seul d’entre eux répond au mot d’activation. C’est appelé l’**Appareil répondant**, et c’est un choix distinct de quel appareil interroge votre équipement (**Cora Max principal** ; voir [Appareils et état des appareils](/help/max-devices)).
+Si vous avez plusieurs Cora Max à la maison, un seul répond au mot d’activation. On l’appelle l’**Appareil répondant**. Ce choix est distinct de l’appareil qui interroge votre équipement (le **Cora Max principal**, voir [Appareils et état des appareils](/help/max-devices)).
 
-Changez-le depuis **Réglages → Cora Assistant**, sur l’un ou l’autre Cora Max, ou depuis Cora Mobile. Cela s’applique à tout votre foyer, pas seulement à cet écran.
+Changez-le dans **Réglages → Cora Assistant**, sur n’importe quel Cora Max, ou dans Cora Mobile. Le choix vaut pour toute la maison.
 
-:::note Il démarre au moment où vous touchez
-Cora Assistant commence une session en direct immédiatement ; il n’y a pas d’étape de confirmation. Si vous l’avez touché par accident, arrêtez la session et rien n’est perdu.
+:::note La session démarre dès que vous touchez
+Cora Assistant lance la session tout de suite, sans demander de confirmation. Si vous l’avez touché par erreur, arrêtez la session. Vous ne perdez rien.
 :::
 
 ## Quoi demander
 
 **Questions sur l’aquarium**
 
-- *« Quelle est mon alcalinité ? »*
-- *« La température a-t-elle été stable aujourd’hui ? »*
-- *« Quand ai-je changé l’eau pour la dernière fois ? »*
-- *« Pourquoi le pH est-il plus bas que d’habitude ? »*
-- *« Compare les six derniers mois de mon magnésium avec mon dernier ICP. »*
+- *« Quelle est mon alcalinité ? »*
+- *« La température a-t-elle été stable aujourd’hui ? »*
+- *« Quand ai-je changé l’eau pour la dernière fois ? »*
+- *« Pourquoi le pH est-il plus bas que d’habitude ? »*
+- *« Compare les six derniers mois de mon magnésium avec mon dernier ICP. »*
 
-**Choses à faire**
+**Actions**
 
-- *« Éteins l’écumeur. »*
-- *« Démarre le mode nourrissage. »*
-- *« Remets le ventilateur en auto. »*
-- *« Note que j’ai fait un changement d’eau de vingt litres. »*
+- *« Éteins l’écumeur. »*
+- *« Démarre le mode nourrissage. »*
+- *« Remets le ventilateur en auto. »*
+- *« Note que j’ai fait un changement d’eau de vingt litres. »*
 
-**Suivis.** Vous n’avez pas besoin de vous répéter ; *« et l’aquarium de frags ? »* fonctionne après une question sur l’écran affiché.
+**Questions de suite.** Inutile de tout répéter. Après une question sur le bac principal, *« et l’aquarium de boutures ? »* suffit.
 
 ## Verrouillage enfant
 
-**Réglages → Réglages Cora Max → Verrouillage enfant** bloque l’exécution des commandes depuis cet écran. Les questions et les mesures fonctionnent toujours ; Cora répondra quelle est votre alcalinité, et refusera d’éteindre la pompe de remontée.
+**Réglages → Réglages Cora Max → Verrouillage enfant** empêche de lancer des commandes depuis cet écran. Les questions et les mesures marchent toujours. Cora vous donnera votre alcalinité, mais refusera d’éteindre la pompe de remontée.
 
-Utilisez-le sur un écran à la portée d’enfants ou de visiteurs.
+Activez-le si l’écran est à portée d’enfants ou de visiteurs.
 
-**Pour déverrouiller**, soit :
+**Pour déverrouiller**, au choix :
 
-- appuyez sur la **touche de volume trois fois en deux secondes**, soit
-- **maintenez cinq doigts dans le coin supérieur droit pendant dix secondes**.
+- appuyez **trois fois sur la touche de volume en moins de deux secondes**
+- **posez cinq doigts dans le coin en haut à droite pendant dix secondes**
 
-La fenêtre de deux secondes est ce qui en fait un verrou plutôt qu’une suggestion ; trois appuis à n’importe quel intervalle est quelque chose qu’un enfant produit par accident. C’est toujours un verrouillage enfant, pas un verrou de sécurité : quiconque vous regarde le faire peut le reproduire.
+C’est le délai de deux secondes qui rend le verrou efficace. Trois appuis espacés, un enfant peut les faire par hasard. Cela reste un verrouillage enfant, pas une vraie sécurité : quelqu’un qui vous regarde faire peut le refaire.
 
 ## Confirmations
 
-Tout ce qui atteint votre équipement est confirmé avant que cela n’arrive. Cora vous dit exactement ce qu’il est sur le point de faire et attend que vous soyez d’accord.
+Tout ce qui touche votre équipement est confirmé avant d’être fait. Cora vous dit exactement ce qu’il va faire et attend votre accord.
 
-Si une instruction est ambiguë (vous avez deux chauffages et avez dit « le chauffage »), Cora demande lequel plutôt que de deviner.
+Si une consigne n’est pas claire (vous avez deux chauffages et vous dites « le chauffage »), Cora vous demande lequel. Il ne devine pas.
 
-:::warning Confirmer, c’est vous qui prenez la responsabilité
-La confirmation existe pour que rien ne vous surprenne. Lisez ce qu’elle dit avant d’accepter, particulièrement pour tout ce qui éteint un système de survie.
+:::warning En confirmant, vous prenez la décision
+La confirmation est là pour que rien ne vous surprenne. Lisez-la avant d’accepter, surtout quand il s’agit d’éteindre un équipement vital pour l’aquarium.
 :::
 
-## Ce que Cora peut voir
+## Ce que Cora voit
 
-La même chose que sur votre téléphone : vos mesures en direct, l’ancienneté de chacune, jusqu’à environ six mois de l’historique de tout paramètre, votre journal et vos résultats de laboratoire, pour l’aquarium actuellement à l’écran.
+La même chose que sur votre téléphone, pour l’aquarium affiché : vos mesures en direct et leur âge, jusqu’à six mois environ d’historique pour chaque paramètre, votre journal et vos résultats de laboratoire.
 
-Si une mesure est périmée, Cora le dit plutôt que de répondre comme si elle était actuelle.
+Si une mesure est ancienne, Cora le dit. Il ne répond pas comme si elle était à jour.
 
 ## De quel aquarium Cora parle
 
-Celui que l’écran affiche. Changez d’aquarium dans la barre supérieure d’abord, ou nommez l’aquarium dans votre question.
+De celui qui est à l’écran. Changez d’abord d’aquarium dans la barre du haut, ou nommez l’aquarium dans votre question.
 
 ## Arrêter
 
-Dites *« stop »*, ou touchez pour terminer la session. Cora arrête d’écouter quand la session se termine.
+Dites *« stop »*, ou touchez pour terminer la session. Cora n’écoute plus une fois la session terminée.
 
 ## S’il comprend mal
 
-Le vocabulaire récifal est difficile, et les noms d’équipement sont encore plus durs. Si Cora comprend mal un appareil de façon répétée, renommez-le dans **Appareils** en quelque chose de plus distinct ; des mots courts et ordinaires fonctionnent le mieux.
+Le vocabulaire du récif n’est pas simple, et les noms d’équipement encore moins. Si Cora comprend souvent mal le nom d’un appareil, renommez-le dans **Appareils** avec un nom plus facile à distinguer. Les mots courts et courants marchent le mieux.
 
 ## Si Cora ne répond pas
 
-Vérifiez que **Écoute du mot d’activation** est toujours activée (**Réglages → Réglages Cora Max → Son et voix**), que cette unité est l’**Appareil répondant** du foyer (ci-dessus), et que son volume est monté. Le bruit de fond d’un sump bruyant ou d’un filtre juste à côté de l’unité peut aussi empêcher le mot d’activation d’être entendu de façon fiable ; déplacer l’unité, ou parler un peu plus près, corrige généralement cela.
+Vérifiez que **Écoute du mot d’activation** est toujours activée (**Réglages → Réglages Cora Max → Son et voix**), que cet écran est bien l’**Appareil répondant** de la maison (voir plus haut) et que le volume n’est pas trop bas. Le bruit d’une décantation ou d’un filtre juste à côté peut aussi l’empêcher d’entendre le mot d’activation. En général, il suffit de déplacer Cora Max ou de parler un peu plus près.
 
-**Si cela ne fonctionne pas :** voir [Résolution de problèmes](/help/troubleshooting).
+Si le problème continue, consultez la page [Résolution de problèmes](/help/troubleshooting).

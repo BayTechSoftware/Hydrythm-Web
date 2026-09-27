@@ -1,84 +1,84 @@
 ---
 title: Reef Buddy
-description: Il tuo briefing giornaliero: cosa copre, quando arriva, e come leggere il punteggio.
+description: Il briefing quotidiano: cosa contiene, quando arriva e come leggere i punteggi.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 24
 group: Intelligence
 ---
 
-Reef Buddy è una breve lettura giornaliera sulla tua vasca. Arriva ogni mattina, ti dice cosa è cambiato, e segnala qualsiasi cosa valga la tua attenzione prima che tu la noti da solo.
+Reef Buddy è un breve resoconto quotidiano sulla tua vasca. Arriva ogni mattina, ti dice cosa è cambiato e ti segnala quello che merita attenzione prima che te ne accorga da solo.
 
-Appare come una scheda in alto sulla tua dashboard, e come una notifica.
+Lo trovi come scheda in cima alla dashboard e come notifica.
 
 ![Un briefing di Reef Buddy](img/mobile-reefbuddy.webp "Punteggi Stabilità e Dati, un riepilogo, poi gli insight dietro di essi.")
 
 ## Cosa c'è in un briefing
 
-**Un titolo**: un riepilogo di una riga della vasca oggi.
+**Un titolo**, cioè la situazione della vasca oggi in una riga.
 
-**Due punteggi:**
+Poi ci sono due punteggi:
 
-| Punteggio | Significa |
+| Punteggio | Significato |
 |---|---|
-| **Stabilità** | Su 100. Quanto sono state stabili le tue letture negli ultimi 30 giorni |
-| **Dati** | Una percentuale. Quanto è completo il dato dietro la valutazione |
+| **Stabilità** | Su 100. Quanto sono state stabili le letture negli ultimi 30 giorni |
+| **Dati** | In percentuale. Quanto sono completi i dati su cui si basa la valutazione |
 
-Un punteggio Dati basso significa che la valutazione si basa su meno letture di quanto vorrebbe. Leggilo per primo: quando Dati è basso, tratta il numero di Stabilità accanto ad esso come provvisorio invece che definitivo.
+Un punteggio Dati basso vuol dire che la valutazione si basa su meno letture di quante ne servirebbero. Guardalo per primo. Se Dati è basso, considera provvisorio il punteggio Stabilità che gli sta accanto.
 
-**Un riepilogo**: un breve paragrafo che spiega il titolo, facendo riferimento ai tuoi valori e intervalli reali.
+**Un riassunto**, un breve paragrafo che spiega il titolo con i tuoi valori e i tuoi intervalli.
 
-**Insight**: i risultati individuali. Ognuno porta una categoria (come *Chimica dell'acqua*), una cadenza (come *Giornaliero*), e si espande per i dettagli. Un chip in alto nella sezione mostra il tipo di vasca e quanto è completo il suo profilo, perché entrambi influenzano cosa può concludere Cora.
+**Osservazioni**, cioè i singoli risultati. Ognuna ha una categoria (per esempio *Chimica dell'acqua*) e una frequenza (per esempio *Giornaliero*), e si apre per mostrare i dettagli. In cima alla sezione un'etichetta mostra il tipo di vasca e quanto è completo il suo profilo, perché da tutti e due dipende quello che Cora può dedurre.
 
-Gli insight vengono filtrati prima di raggiungerti. Un insight deve reggere su diverse letture invece che apparire su una sola, e deve dire qualcosa che un singolo grafico non ti avrebbe già mostrato.
+Le osservazioni vengono filtrate prima di arrivare a te. Un'osservazione deve reggere su più letture, non su una sola, e deve dirti qualcosa che un singolo grafico non ti avrebbe già mostrato.
 
 Tocca la scheda sulla dashboard per aprire il briefing completo.
 
 ## Quando arriva
 
-Una volta al giorno, di prima mattina, per vasca.
+Una volta al giorno, la mattina presto, per ogni vasca.
 
-In un giorno in cui nulla richiede la tua attenzione, Reef Buddy di solito resta in silenzio invece di inviare una notifica per dire che tutto va bene. **Una notifica significa che c'è qualcosa che vale la pena affrontare**, che può essere un nuovo cambiamento, oppure una condizione persistita a lungo abbastanza da valere la segnalazione.
+Nei giorni in cui non c'è niente da guardare, di solito Reef Buddy non manda notifiche per dirti che va tutto bene. **Se ricevi una notifica, c'è qualcosa da fare.** Può essere un cambiamento nuovo, oppure una situazione che dura da abbastanza tempo da meritare una segnalazione.
 
-:::note Una vasca, un briefing
-Ogni vasca ottiene il proprio briefing. Se gestisci tre sistemi ne ottieni tre, e ognuno riguarda solo quel sistema.
+:::note Un briefing per ogni vasca
+Ogni vasca ha il suo briefing. Se hai tre impianti ricevi tre briefing, ognuno solo sul suo impianto.
 :::
 
-:::note Cora Max ha una propria impostazione Reef Buddy
-Un tablet Cora Max ha una propria sezione **Reef Buddy** nelle sue Impostazioni, con un interruttore e un orario per quando appare il suo briefing sullo schermo. È separato dal telefono: attivare o disattivare un briefing su Cora Max non cambia se raggiunge il tuo telefono, e viceversa.
+:::note Cora Max ha la sua impostazione per Reef Buddy
+Un tablet Cora Max ha una sezione **Reef Buddy** nelle sue Impostazioni, con un interruttore e l'orario in cui il briefing compare sullo schermo. È separata dal telefono. Se accendi o spegni il briefing su Cora Max, sul telefono non cambia niente, e viceversa.
 :::
 
 ## Leggere i punteggi
 
-**Stabilità** riflette quanto sono state stabili le tue letture negli ultimi 30 giorni. Misura la stabilità, non se le letture sono nell'intervallo: una vasca mantenuta stabilmente al livello sbagliato può comunque ottenere un buon punteggio. Per un punteggio rispetto ai tuoi intervalli obiettivo, esegui un [Report di salute](/help/mobile-icp-health). Stabilità è una tendenza da osservare nel tempo invece che un voto; confrontala con i tuoi punteggi precedenti, non con quelli di un'altra vasca.
+**Stabilità** indica quanto sono state stabili le letture negli ultimi 30 giorni. Misura la stabilità e non se le letture sono nell'intervallo. Una vasca tenuta stabile al livello sbagliato può quindi avere un buon punteggio. Per un punteggio rispetto ai tuoi intervalli obiettivo, chiedi un [Report di salute](/help/mobile-icp-health). La Stabilità va seguita nel tempo e non è un voto. Confrontala con i tuoi punteggi precedenti, non con quelli di un'altra vasca.
 
-**Dati** riflette quante informazioni recenti aveva la valutazione. Scende quando le letture diventano obsolete.
+**Dati** indica quante informazioni recenti aveva a disposizione la valutazione. Scende quando le letture invecchiano.
 
-:::note Un punteggio Dati in calo di solito significa che le letture sono diventate obsolete
-Se nulla è stato testato per una settimana, il punteggio Dati scende e il punteggio Stabilità diventa meno affidabile. Registra letture per ripristinare entrambi.
+:::note Se il punteggio Dati scende, di solito le letture sono vecchie
+Se per una settimana non fai test, il punteggio Dati scende e la Stabilità diventa meno affidabile. Registra nuove letture e tutti e due tornano a posto.
 :::
 
 ## Chiudere la scheda
 
-La **×** chiude la scheda di oggi dalla dashboard. Quella di domani arriverà comunque. I briefing passati restano disponibili dalla scheda **Intelligence**.
+La **×** toglie dalla dashboard la scheda di oggi. Quella di domani arriva comunque. I briefing passati restano nella scheda **Intelligence**.
 
 ## Disponibilità
 
-Reef Buddy fa parte dei livelli a pagamento. È incluso nella prova di 30 giorni che inizia quando ti registri; dopo la prova, un account gratuito non riceve più briefing. Vedi [Piani](/help/mobile-plans).
+Reef Buddy fa parte dei piani a pagamento. È compreso nella prova di 30 giorni che parte quando ti registri. Finita la prova, con un account gratuito non ricevi più briefing. Vedi [Piani](/help/mobile-plans).
 
-## Correggere un insight
+## Correggere un'osservazione
 
-Ogni insight accetta una di quattro risposte:
+A ogni osservazione puoi dare una di quattro risposte:
 
-| Risposta | Significa |
+| Risposta | Significato |
 |---|---|
-| **Confermato** | Era corretto, e utile |
-| **Non corrisponde** | Non riflette ciò che stai vedendo |
-| **Lo sapevo già** | Corretto, ma ne eri già consapevole |
-| **Non sicuro** | Non puoi ancora giudicarlo |
+| **Confermato** | Era giusta e utile |
+| **Non corrisponde** | Non corrisponde a quello che vedi |
+| **Lo sapevo già** | Era giusta, ma lo sapevi già |
+| **Non sicuro** | Per ora non sai giudicarla |
 
-Il feedback modella cosa guida i briefing successivi, e la soppressione è **limitata nel tempo**; un insight che ignori ritorna se la condizione persiste.
+Le tue risposte influenzano cosa verrà messo in primo piano nei briefing successivi. Un'osservazione che scarti sparisce **solo per un po'**: se la situazione continua, torna.
 
-:::note I risultati gravi non vengono mai soppressi
-Solo gli insight di gravità inferiore possono essere attenuati dal feedback. Gli insight di avviso e critici continuano ad apparire indipendentemente da come hai risposto loro prima.
+:::note I problemi seri non vengono mai nascosti
+Le tue risposte possono attenuare solo le osservazioni meno gravi. Quelle di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.
 :::

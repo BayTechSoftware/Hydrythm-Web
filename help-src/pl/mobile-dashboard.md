@@ -1,48 +1,48 @@
 ---
-title: Odczytywanie pulpitu
-description: Jak odczytywać pulpit Cory: widżety, aktualność, źródła i co znaczą kolory.
+title: Jak czytać pulpit
+description: Jak czytać pulpit Cory: widżety, wiek odczytów, źródła i znaczenie kolorów.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 5
 group: Your dashboard
 ---
 
-Pulpit to siatka **widżetów**, każdy pokazujący jedną rzecz o jednym akwarium. To, co się na nim znajdzie, zależy całkowicie od Ciebie; zobacz **[Edytowanie pulpitu](/help/mobile-dashboard-editing)**.
+Pulpit to siatka **widżetów**. Każdy pokazuje jedną rzecz z jednego akwarium. Co na nim będzie, zależy tylko od Ciebie. Więcej w **[Edytowaniu pulpitu](/help/mobile-dashboard-editing)**.
 
-![Pulpit Cora Mobile](img/mobile-dashboard.webp "Wskaźniki, liczby, trendy i kontrolki na jednym ekranie.")
+![Pulpit Cora Mobile](img/mobile-dashboard.webp "Wskaźniki, liczby, trendy i przełączniki na jednym ekranie.")
 
 ## Nagłówek akwarium
 
-Na górze każdego pulpitu:
+Na górze każdego pulpitu są:
 
-- **Nazwa akwarium**, z małym symbolem przy niej: to jest **szybka zmiana nazwy**, nic więcej
-- **Karmienie**: wstrzymuje przepływ i skimming na czas karmienia, a potem wszystko przywraca
-- **Reef Buddy**: otwiera dzisiejszy briefing
-- **Udostępnij**: wysyła zrzut pulpitu
-- **Ołówek po prawej stronie**: otwiera [profil akwarium](/help/mobile-tank-profile)
+- **Nazwa akwarium** z małym symbolem obok. Ten symbol służy tylko do **szybkiej zmiany nazwy**.
+- **Karmienie** wstrzymuje przepływ i odpieniacz na czas karmienia, a potem wszystko przywraca.
+- **Reef Buddy** otwiera dzisiejszy poranny briefing.
+- **Udostępnij** wysyła zrzut pulpitu.
+- **Ołówek po prawej** otwiera [profil akwarium](/help/mobile-tank-profile).
 
-:::note Trzy podobne kontrolki, trzy miejsca docelowe
-Symbol przy nazwie zmienia nazwę akwarium. Ołówek po prawej stronie otwiera **profil** akwarium. Edytowanie samego pulpitu to żadne z nich; to jest **Edytuj panel**, na *dole* pulpitu, pod widżetami.
+:::note Trzy podobne przyciski, trzy różne miejsca
+Symbol przy nazwie zmienia nazwę akwarium. Ołówek po prawej otwiera **profil** akwarium. Sam pulpit edytujesz jeszcze gdzie indziej: przyciskiem **Edytuj panel** na *dole* pulpitu, pod widżetami.
 :::
 
-Przy więcej niż jednym akwarium przesuń palcem w bok, aby przechodzić między nimi.
+Jeśli masz kilka akwariów, przesuwaj palcem w bok, żeby przełączać się między nimi.
 
 ## Karta Reef Buddy
 
-Pod nagłówkiem karta podsumowuje najnowszy briefing: nagłówek, oceny **Stabilność** i **Dane** oraz liczbę wglądów. Dotknij jej, aby otworzyć cały briefing, albo zamknij ją przyciskiem **×**. Kolejny briefing pojawi się na nowej karcie.
+Pod nagłówkiem jest karta z podsumowaniem ostatniego briefingu: nagłówek, oceny **Stabilność** i **Dane** oraz liczba spostrzeżeń. Dotknij jej, żeby otworzyć cały briefing, albo zamknij ją przyciskiem **×**. Nowa karta pojawi się z następnym briefingiem.
 
-## Jak odczytywać widżet parametru
+## Jak czytać widżet parametru
 
-Widżet pokazujący **zmierzony parametr** zawiera te same trzy elementy w tych samych miejscach. Kafelki urządzeń i kontrolek (gniazdo, jednostka dozująca, pompa) pokazują własny stan, bo nie stoi za nimi jeden konkretny odczyt.
+Widżet **zmierzonego parametru** ma zawsze te same trzy elementy w tych samych miejscach. Kafelki urządzeń i sterowania (gniazdo, pompa dozująca, pompa) pokazują za to swój stan, bo nie stoi za nimi jeden odczyt.
 
 **Wartość** to sam odczyt, duży i na środku.
 
-**Wiek** znajduje się pod nią lub przy niej: `now`, `1h`, `2d`. To ile czasu temu wykonano odczyt, nie ile czasu temu odświeżył się ekran. Liczba, która nie zmieniła się od dwóch dni, pokazuje `2d`, i to jest informacja.
+**Wiek** jest pod nią albo obok: `teraz`, `1g`, `2d`. Mówi, jak dawno zrobiono odczyt, a nie kiedy odświeżył się ekran. Wartość, która nie zmieniła się od dwóch dni, pokazuje `2d`. To też jest informacja.
 
-**Znaczek źródła** to mały symbol przy wieku. Mówi Ci, skąd pochodzi liczba: sonda, kontroler, wynik laboratoryjny albo Ty z testem kroplowym. Dotknij dowolnego widżetu, aby zobaczyć źródło wypisane wprost wraz z jego niedawną historią.
+**Znaczek źródła** to mały symbol obok wieku. Pokazuje, skąd pochodzi liczba: z sondy, kontrolera, wyniku laboratoryjnego albo z Twojego testu kropelkowego. Dotknij widżetu, a zobaczysz pełną nazwę źródła i niedawną historię.
 
-:::note Czemu wiek jest tak ważny
-Perfekcyjny odczyt alkaliczności z czterech dni temu nie jest aktualnym odczytem alkaliczności. Wiek znajduje się przy każdej wartości, dzięki czemu widzisz różnicę na pierwszy rzut oka.
+:::note Dlaczego wiek jest tak ważny
+Idealny odczyt alkaliczności sprzed czterech dni nie jest bieżącym odczytem alkaliczności. Wiek jest przy każdej wartości, żeby różnicę było widać od razu.
 :::
 
 ## Kolory
@@ -51,47 +51,47 @@ Cora używa kolorów oszczędnie i zawsze w tym samym znaczeniu:
 
 | Kolor | Znaczenie |
 |---|---|
-| Zielony | Komfortowo w zakresie dla danego parametru |
-| Bursztynowy | Blisko granicy: **zwykle wciąż w zakresie**, w ostatniej jego dziesiątej części |
-| Czerwony | Poza granicą i warto zareagować |
-| Szary | Brak oceny: brak niedawnego odczytu albo brak zakresu, względem którego można ocenić |
+| Zielony | Wartość jest spokojnie w zakresie |
+| Bursztynowy | Blisko granicy. **Zwykle nadal w zakresie**, ale w jego ostatniej dziesiątej części |
+| Czerwony | Poza granicą. Warto zareagować |
+| Szary | Brak oceny: nie ma świeżego odczytu albo zakresu, do którego można porównać |
 
-:::note Bursztynowy zwykle znaczy "wciąż w porządku, ale coś się dzieje"
-Bursztynowy to *margines*, nie przekroczenie. Odczyt wewnątrz zakresu, ale w ostatnich 10% jego szerokości, jest oznaczany bursztynowym kolorem celowo, aby dryf był widoczny, gdy jeszcze jest czas na reakcję, a nie w chwili, gdy staje się problemem.
+:::note Bursztynowy zwykle znaczy „jeszcze dobrze, ale coś się zmienia”
+Bursztynowy oznacza *margines*, a nie przekroczenie. Odczyt w zakresie, ale w jego ostatnich 10%, dostaje bursztynowy kolor. Dzięki temu dryf widać, zanim stanie się problemem, gdy jest jeszcze czas na reakcję.
 
-Z tego wynikają dwa dodatkowe rozróżnienia.
+Są dwa doprecyzowania.
 
-**Zakres, który ustawiłeś samodzielnie, jest traktowany jako zadeklarowana granica.** Przekrocz go, a widżet od razu robi się czerwony: bez marginesu bursztynowego, bo tę linię wyznaczyłeś sam, świadomie. Zakres **dostarczony przez Corę** jest łagodniejszym odniesieniem: przekroczenie go pokazuje bursztynowy kolor przez pierwsze 10% poza granicą, a dalej robi się czerwony.
+**Zakres ustawiony przez Ciebie to granica.** Po jej przekroczeniu widżet od razu robi się czerwony, bez bursztynowego marginesu, bo tę granicę wyznaczasz świadomie. Zakres **podany przez Corę** jest łagodniejszym punktem odniesienia. Przez pierwsze 10% poza granicą widżet jest bursztynowy, a dalej czerwony.
 
-**Jednostronny limit** (sufit dla zanieczyszczenia albo podłoga dla substancji odżywczej) jest oceniany tylko na swojej górnej granicy, więc miedź na zero jest zielona, a nie bursztynowa za to, że leży blisko dołu skali.
+**Limit jednostronny** (górna granica dla zanieczyszczenia albo dolna dla składnika odżywczego) jest oceniany tylko przy górnej krawędzi. Dlatego miedź na zerze jest zielona i nie dostaje bursztynowego koloru za to, że leży przy dole skali.
 :::
 
-Widżet obrysowany bursztynowym lub czerwonym kolorem to taki, który wymaga uwagi. Obrys jest na widżecie, nie tylko na liczbie, więc jest widoczny podczas przewijania.
+Widżet z bursztynową albo czerwoną ramką wymaga uwagi. Ramka obejmuje cały widżet, nie samą liczbę, więc widać ją podczas przewijania.
 
 ## Pod widżetami
 
-![Dół pulpitu](img/mobile-dashboard-foot.webp "Edit dashboard, Log Parameters i skróty do czterech obszarów zapisów.")
+![Dół pulpitu](img/mobile-dashboard-foot.webp "Edytuj panel, Zapisz parametry i skróty do czterech rodzajów zapisów.")
 
-Na dole pulpitu:
+Na dole pulpitu są:
 
-- **Edytuj panel**: otwiera [edytor pulpitu](/help/mobile-dashboard-editing)
-- **Zapisz parametry**: pozwala ręcznie wpisać odczyty z testu kroplowego
-- **Journal · Alerts · Maintenance · Livestock**: skróty do tych obszarów dla tego akwarium
+- **Edytuj panel** otwiera [edytor pulpitu](/help/mobile-dashboard-editing).
+- **Zapisz parametry** służy do ręcznego wpisania wyników testów kropelkowych.
+- **Dziennik · Alerty · Konserwacja · Obsada** to skróty do tych miejsc dla tego akwarium.
 
-Linia powyżej nich pokazuje, kiedy pulpit ostatnio się zaktualizował i z jakich źródeł korzystał.
+Linijka nad nimi pokazuje, kiedy pulpit się ostatnio zaktualizował i z jakich źródeł korzystał.
 
-## Przechodzenie w głąb
+## Szczegóły widżetu
 
-Dotknij dowolnego widżetu, aby otworzyć jego szczegóły: całą historię jako wykres, każde źródło, które ją zgłosiło, oraz aktualnie zastosowane progi. Odtąd możesz ręcznie zapisać nowy odczyt, zmienić zakres albo spojrzeć dalej w przeszłość.
+Dotknij widżetu, żeby otworzyć szczegóły: pełną historię na wykresie, wszystkie źródła, które podawały ten parametr, i obecne progi. Stamtąd wpiszesz nowy odczyt ręcznie, zmienisz zakres albo cofniesz się dalej w historii.
 
-## Jeśli widżet nie ma wartości
+## Gdy widżet nie ma wartości
 
-Widżet pokazuje wartość, gdy ją otrzyma. Gdy jest pusty, powód jest zwykle jednym z tych:
+Widżet pokazuje wartość, gdy ją dostanie. Jeśli jest pusty, zwykle chodzi o jedno z tych:
 
-- Urządzenie jest offline; sprawdź zakładkę **Urządzenia**
-- Parametr nie ma jeszcze źródła; zapisz go ręcznie albo podłącz sprzęt, który go zgłasza
-- Parametr nigdy nie został zgłoszony ani zapisany; nic dla niego jeszcze nie zarejestrowano
+- Urządzenie jest offline. Sprawdź zakładkę **Urządzenia**.
+- Parametr nie ma jeszcze źródła. Wpisz go ręcznie albo podłącz sprzęt, który go mierzy.
+- Parametr nigdy nie został zgłoszony ani wpisany, więc nie ma jeszcze żadnego zapisu.
 
-Stary odczyt nie zniknie, bo okno wykresu jest krótsze niż jego wiek. Zostaje na widżecie z pokazanym wiekiem, więc nieaktualna wartość wygląda jak nieaktualna, a nie jak brakująca.
+Stary odczyt nie znika dlatego, że okno wykresu jest krótsze niż jego wiek. Zostaje na widżecie razem z wiekiem, więc od razu widać, że jest stary, a nie że go brakuje.
 
-Zobacz **[Rozwiązywanie problemów](/help/troubleshooting)** w sprawach wykraczających poza to.
+W innych sprawach zajrzyj do **[Rozwiązywania problemów](/help/troubleshooting)**.

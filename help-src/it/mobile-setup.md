@@ -1,68 +1,68 @@
 ---
 title: Configurare Cora Mobile
-description: Installa Cora, crea il tuo account, aggiungi la tua prima vasca e vedi le tue prime letture sullo schermo.
+description: Installa Cora, crea l'account, aggiungi la prima vasca e guarda comparire le prime letture.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
 
-La configurazione richiede circa dieci minuti. Alla fine avrai un account, una vasca configurata e una dashboard che mostra letture in tempo reale.
+La configurazione richiede una decina di minuti. Alla fine avrai un account, una vasca configurata e una dashboard con le letture in tempo reale.
 
-## Installa Cora Mobile
+## Installare Cora Mobile
 
-Su iPhone, scarica **Cora Mobile** dall'[App Store](https://apps.apple.com/app/cora-mobile/id6760301981). Su Android, Cora Mobile arriverà presto su Google Play. Sulla tua schermata Home l'icona si chiama **Cora**; quella è Cora Mobile.
+Su iPhone scarica **Cora Mobile** dall'[App Store](https://apps.apple.com/app/cora-mobile/id6760301981). Su Android Cora Mobile arriverà presto su Google Play. Nella schermata Home l'icona si chiama **Cora**: è Cora Mobile.
 
 ## Dare prima un'occhiata
 
-Prima di creare un account puoi scegliere **Esplora una barriera demo**, una vasca di esempio con dati realistici, organizzata esattamente come una vera. Funziona interamente con dati campione: non è coinvolto alcun equipaggiamento, e nulla di ciò che fai al suo interno viene salvato.
+Prima di creare un account puoi scegliere **Esplora una barriera demo**. È una vasca di esempio con dati realistici, organizzata esattamente come una vera. Usa solo dati di esempio: non è collegata a nessuna attrezzatura e quello che fai lì non viene salvato.
 
-Usala per vedere come funzionano dashboard, widget e letture prima di impegnarti.
+Serve per vedere come funzionano dashboard, widget e letture prima di iniziare davvero.
 
-## Crea il tuo account
+## Creare l'account
 
-Apri Cora Mobile e scegli **Crea account**. Puoi registrarti con un indirizzo email, oppure con Apple o Google se preferisci non gestire un'altra password.
+Apri Cora Mobile e scegli **Crea account**. Puoi registrarti con un indirizzo email, oppure con Apple o Google se non vuoi un'altra password da ricordare.
 
-Ti verrà chiesto di verificare la tua email. Cora invia un **link**; aprilo sul dispositivo e torna a Cora Mobile. Controlla la posta indesiderata se non arriva entro un minuto.
+Poi devi verificare l'email. Cora ti manda un **link**: aprilo sul telefono e torna in Cora Mobile. Se non arriva entro un minuto, guarda nella posta indesiderata.
 
-:::note Un account, ogni schermo
-Il tuo account collega tutto insieme. Accedi con lo stesso account su Cora Max o su un altro telefono e ottieni le stesse vasche, dispositivi, letture e registri.
+:::note Un solo account per tutti gli schermi
+L'account tiene insieme tutto. Se accedi con lo stesso account su Cora Max o su un altro telefono, ritrovi le stesse vasche, gli stessi dispositivi, le stesse letture e gli stessi registri.
 
-I layout della dashboard **non** sono condivisi; ogni schermo mantiene il proprio. Vedi [Cosa è condiviso e cosa non lo è](/help/mobile-multi-device).
+I layout della dashboard **non** sono condivisi: ogni schermo ha il suo. Vedi [Cosa è condiviso e cosa non lo è](/help/mobile-multi-device).
 :::
 
-## Aggiungi la tua prima vasca
+## Aggiungere la prima vasca
 
-Una **vasca** in Cora è un corpo d'acqua che vuoi monitorare. La maggior parte delle persone ne ha una. Se gestisci un sistema frag o una quarantena, quelle sono vasche separate.
+In Cora una **vasca** è un volume d'acqua che vuoi tenere sotto controllo. Quasi tutti ne hanno una. Se hai una vasca per i frag o una quarantena, sono vasche separate.
 
-La procedura guidata di configurazione copre quanto segue. Tutto può essere cambiato più avanti dal tuo [profilo della vasca](/help/mobile-tank-profile):
+La configurazione guidata ti chiede queste cose, e puoi cambiarle tutte più avanti dal [profilo della vasca](/help/mobile-tank-profile):
 
-1. **Nome**: il nome che usi per lei giorno per giorno: "Schermo", "Frag", "QT".
-2. **Tipo**: reef misto, a dominanza SPS, softie, solo pesci.
-3. **Dimensioni e volume**: il volume d'acqua effettivo incluso il sump. È questo che usa la matematica del dosaggio, quindi vale la pena ottenerlo approssimativamente giusto.
+1. **Nome**: il nome con cui la chiami tutti i giorni, come "Display", "Frag", "QT".
+2. **Tipo**: reef misto, a prevalenza SPS, coralli molli, solo pesci.
+3. **Dimensioni e volume**: il volume d'acqua reale, sump compresa. Serve ai calcoli di dosaggio, quindi conviene che sia più o meno giusto.
 
-Questo è tutto ciò che copre la procedura guidata. Tutto il resto (popolazione, equipaggiamento, dosaggio, obiettivi, illuminazione, movimento) viene compilato in seguito dal [tuo profilo della vasca](/help/mobile-tank-profile), al tuo ritmo.
+La configurazione guidata finisce qui. Tutto il resto (popolazione, attrezzatura, dosaggio, obiettivi, illuminazione, movimento) lo completi dopo, con calma, dal [profilo della vasca](/help/mobile-tank-profile).
 
-:::note L'età della vasca influisce su come vengono valutate le letture
-Le letture vengono valutate rispetto a ciò che è normale per una vasca dell'età che inserisci. Registra una vasca in ciclaggio come tale.
+:::note L'età della vasca conta nella valutazione
+Cora valuta le letture in base a quello che è normale per una vasca dell'età che hai indicato. Se la vasca sta facendo il ciclo, indicalo.
 :::
 
-## Collega il tuo equipaggiamento
+## Collegare l'attrezzatura
 
-Con una vasca pronta, vai alla scheda **Dispositivi** e aggiungi il tuo equipaggiamento. Cora funziona con l'equipaggiamento che già possiedi; vedi **[Collegare il tuo equipaggiamento](/help/mobile-connections)** per cosa è supportato e cosa serve a ciascuno.
+Quando la vasca è pronta, vai nella scheda **Dispositivi** e aggiungi la tua attrezzatura. Cora funziona con quella che hai già. In **[Collegare la tua attrezzatura](/help/mobile-connections)** trovi cosa è supportato e cosa serve per ogni apparecchio.
 
-Puoi saltare questo passaggio e tornarci più avanti. Una vasca funziona perfettamente bene senza dispositivi; in tal caso registri le letture a mano.
+Puoi anche saltare questo passaggio e farlo dopo. Una vasca funziona benissimo anche senza dispositivi: in quel caso registri le letture a mano.
 
-## Registra le tue prime letture
+## Registrare le prime letture
 
-Alcuni parametri sono disponibili solo da un kit di test. Scorri fino in fondo alla dashboard e tocca **Registra parametri**.
+Alcuni parametri si misurano solo con un test. Scorri in fondo alla dashboard e tocca **Registra parametri**.
 
 ![Registrazione dei parametri](img/mobile-logparams.webp "Inserisci i risultati del kit di test per qualsiasi parametro tracciato dalla vasca.")
 
-Ogni lettura viene memorizzata con la sua fonte e il suo orario. È questo che permette a Cora di segnalare quando una sonda e un kit di test non sono d'accordo.
+Ogni lettura viene salvata con la fonte e l'orario. Così Cora può dirti quando una sonda e un test non vanno d'accordo.
 
-## Come si presenta una buona configurazione
+## Quando è tutto pronto
 
-Sei configurato quando la Dashboard mostra il nome della tua vasca in alto, almeno alcuni widget con numeri al loro interno, e una scheda **Reef Buddy** una volta che il primo briefing viene eseguito durante la notte.
+Hai finito quando nella Dashboard vedi il nome della vasca in alto e qualche widget con dei numeri. Dopo il primo briefing notturno comparirà anche la scheda **Reef Buddy**.
 
-Prossimo passo: **[Le cinque schede](/help/mobile-tour)**.
+Il passo successivo: **[Le cinque schede](/help/mobile-tour)**.

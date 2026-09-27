@@ -1,51 +1,51 @@
 ---
 title: Edytowanie pulpitu
-description: Ustaw liczbę kolumn, dodawaj i rozmieszczaj widżety, zmieniaj rozmiar kafelków i zapisuj układy do ponownego użycia na innych akwariach.
+description: Ustaw liczbę kolumn, dodawaj i układaj widżety, zmieniaj rozmiar kafelków i zapisuj układy, których użyjesz na innych akwariach.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 6
 group: Your dashboard
 ---
 
-Edytor pulpitu kontroluje, jakie widżety pojawiają się na pulpicie akwarium i jak są rozmieszczone.
+W edytorze pulpitu decydujesz, jakie widżety są na pulpicie akwarium i jak są ułożone.
 
-## Otwieranie edytora
+## Jak otworzyć edytor
 
-Przewiń do dołu pulpitu i dotknij **Edytuj panel**.
+Przewiń pulpit na sam dół i dotknij **Edytuj panel**.
 
-:::note Ołówek przy nazwie akwarium to inny ekran
-Otwiera on **Edytuj akwarium**: profil akwarium, obejmujący objętość, obsadę, dozowanie i sprzęt. Zobacz [Profil akwarium](/help/mobile-tank-profile).
+:::note Ołówek przy nazwie akwarium otwiera coś innego
+Ołówek otwiera **Edytuj akwarium**, czyli profil akwarium z objętością, obsadą, dozowaniem i sprzętem. Więcej w [Profilu akwarium](/help/mobile-tank-profile).
 :::
 
-![Edytor pulpitu](img/mobile-edit.webp "Każdy kafelek pokazuje swoją nazwę i typ. Dotknij czerwonego krzyżyka, aby go usunąć.")
+![Edytor pulpitu](img/mobile-edit.webp "Każdy kafelek pokazuje nazwę i typ. Czerwony krzyżyk go usuwa.")
 
-## Ustawianie liczby kolumn
+## Liczba kolumn
 
-Wybierz **2**, **3** lub **4** kolumny na górze edytora. Siatka rośnie w dół w miarę dodawania widżetów, a pulpit się przewija.
+Na górze edytora wybierz **2**, **3** albo **4** kolumny. Siatka rośnie w dół, gdy dodajesz widżety, a pulpit się przewija.
 
-| Kolumny | Kiedy używać |
+| Kolumny | Kiedy wybrać |
 |---|---|
-| 2 | Śledzisz niewielką liczbę parametrów i chcesz duże kafelki |
-| 3 | Domyślnie. Odpowiednie dla większości akwariów |
-| 4 | Chcesz gęsty widok albo masz duży telefon |
+| 2 | Śledzisz kilka parametrów i chcesz dużych kafelków |
+| 3 | Ustawienie domyślne. Pasuje do większości akwariów |
+| 4 | Chcesz gęstszego widoku albo masz duży telefon |
 
 ## Dodawanie widżetu
 
 1. Dotknij **+** w edytorze.
-2. Wybierz, co widżet pokazuje: parametr, urządzenie albo gniazdo.
-3. Wybierz typ widżetu. Zobacz [Opis widżetów](/help/mobile-widgets).
+2. Wybierz, co ma pokazywać widżet: parametr, urządzenie albo gniazdo.
+3. Wybierz typ widżetu. Opis typów znajdziesz w [Rodzajach widżetów](/help/mobile-widgets).
 
-Do wyboru są tylko źródła, które istnieją na danym akwarium. Parametr bez źródła pojawia się, gdy podłączysz sprzęt, który go zgłasza, albo zapiszesz odczyt ręcznie.
+Na liście są tylko źródła, które istnieją w danym akwarium. Parametr bez źródła pojawi się, gdy podłączysz sprzęt, który go mierzy, albo wpiszesz odczyt ręcznie.
 
-## Rozmieszczanie widżetów
+## Układanie widżetów
 
-- **Aby przenieść widżet**, przytrzymaj go, a potem przeciągnij. Pozostałe widżety przemieszczą się wokół niego.
-- **Aby usunąć widżet**, dotknij czerwonego krzyżyka w jego rogu.
-- **Aby zmienić ustawienia widżetu**, dotknij go.
+- **Żeby przenieść widżet**, przytrzymaj go i przeciągnij. Pozostałe widżety same zrobią mu miejsce.
+- **Żeby usunąć widżet**, dotknij czerwonego krzyżyka w jego rogu.
+- **Żeby zmienić ustawienia widżetu**, dotknij go.
 
-## Zmiana rozmiaru
+## Rozmiar
 
-Widżet zajmuje jedną lub dwie kolumny i jeden lub dwa rzędy. Rozmiar ustawiasz w ustawieniach widżetu.
+Widżet zajmuje jedną albo dwie kolumny i jeden albo dwa rzędy. Rozmiar ustawiasz w ustawieniach widżetu.
 
 Widżet **trendu** ma zawsze co najmniej dwie kolumny szerokości.
 
@@ -53,36 +53,36 @@ Widżet **trendu** ma zawsze co najmniej dwie kolumny szerokości.
 
 W zależności od typu widżetu możesz ustawić:
 
-| Ustawienie | Dotyczy |
+| Ustawienie | Dla jakich widżetów |
 |---|---|
-| Etykieta | Wszystkich typów |
-| Źródło | Każdego parametru zgłaszanego przez więcej niż jedną rzecz |
-| Okno czasowe | Trend: 1 godzina, 6 godzin, 24 godziny, 7 dni, 30 dni, 1 rok |
-| Zakres | Wskaźnik: dziedziczony z progów akwarium, jeśli nie zostanie tutaj nadpisany |
-| Rozmiar | Wszystkich typów |
+| Etykieta | Wszystkich |
+| Źródło | Każdego parametru, który podaje więcej niż jedno źródło |
+| Okno czasowe | Trendu: 1 godzina, 6 godzin, 24 godziny, 7 dni, 30 dni, 1 rok |
+| Zakres | Wskaźnika. Domyślnie brany z progów akwarium, chyba że zmienisz go tutaj |
+| Rozmiar | Wszystkich |
 
 ## Zapisywanie
 
-Dotknij **Zapisz**, aby zastosować układ, albo ikony zamknięcia, aby odrzucić zmiany.
+Dotknij **Zapisz**, żeby zastosować układ, albo ikony zamknięcia, żeby porzucić zmiany.
 
 ## Moje panele
 
-Układ, który Ci się podoba, można zapisać i użyć ponownie. **Moje panele → Zapisz ten projekt**, a potem nadaj mu nazwę. Możesz przechowywać do **30**.
+Układ, który Ci odpowiada, możesz zapisać i użyć ponownie. Wybierz **Moje panele → Zapisz ten projekt** i nadaj mu nazwę. Możesz mieć do **30** projektów.
 
-Zapisany projekt można wczytać na inne akwarium albo na ekran Cora Max.
+Zapisany projekt wczytasz na inne akwarium albo na ekran Cora Max.
 
-:::note Kafelki, których cel nie może wypełnić, są wypisane przed zatwierdzeniem
-Wczytanie projektu zachowuje tylko te kafelki, które cel faktycznie może wypełnić danymi. Wszystko inne jest odrzucane i wypisane pod **Left behind** przed zatwierdzeniem, z podanym powodem: akwarium nigdy nie zgłosiło tej metryki, nie ma gniazda o tej nazwie, urządzenie ReefBeat albo moduł Apex nie jest połączony z tym akwarium, albo w siatce nie było już miejsca.
+:::note Przed zatwierdzeniem widać, których kafelków nie da się przenieść
+Po wczytaniu projektu zostają tylko kafelki, dla których w nowym miejscu są dane. Pozostałe Cora pomija i przed zatwierdzeniem pokazuje je pod **Pozostawione:** razem z powodem. Może to być parametr, którego akwarium nigdy nie zgłosiło, brak gniazda o tej nazwie, urządzenie ReefBeat albo moduł Apex niepołączony z tym akwarium albo brak miejsca w siatce.
 :::
 
-## Przywracanie wcześniejszego układu
+## Powrót do wcześniejszego układu
 
-Zapisany projekt to sposób powrotu do układu, który Ci się podobał. Zapisz jeden, gdy pulpit jest ułożony tak, jak chcesz, a potem możesz go zastosować ponownie później.
+Do układu, który Ci się podobał, wrócisz przez zapisany projekt. Zapisz go, gdy pulpit wygląda tak, jak chcesz, a później możesz go przywrócić.
 
-To jest **przywrócenie, nie cofnięcie**: wybierasz projekt z listy, potwierdzasz, a on zastępuje bieżący układ, w tym odrzuca każdy kafelek, którego akwarium nie może wypełnić. Przywraca układ, który zapisałeś, a nie stan przed Twoją ostatnią zmianą.
+To **przywrócenie, a nie cofnięcie zmian**. Wybierasz projekt z listy, potwierdzasz i projekt zastępuje bieżący układ. Kafelki, których akwarium nie wypełni danymi, znikają. Wraca zapisany układ, a nie stan sprzed ostatniej zmiany.
 
-Odczyty, historia i wpisy dziennika są przechowywane odrębnie od układu, więc żadna zmiana pulpitu nie może ich utracić.
+Odczyty, historia i wpisy w dzienniku są przechowywane osobno od układu, więc żadna zmiana pulpitu ich nie usunie.
 
 ## Edytowanie pulpitu Cora Max
 
-Pulpit Cora Max jest edytowany odrębnie: **Urządzenia → Twój Cora Max → Edytuj panel**. Używa siatki o ustalonym rozmiarze, a nie przewijanej. Zobacz [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing).
+Pulpit Cora Max edytujesz osobno: **Urządzenia → Twój Cora Max → Edytuj panel**. Ma stałą siatkę, która się nie przewija. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).

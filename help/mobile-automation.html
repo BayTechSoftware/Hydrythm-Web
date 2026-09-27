@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Automations and scenes | Cora Help</title>
-  <meta name="description" content="Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.">
+  <meta name="description" content="Build rules that run on their own with triggers, conditions and actions, and group actions into scenes.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Automations and scenes | Cora Help">
-  <meta property="og:description" content="Build rules that run by themselves (triggers, conditions, actions) and group them into scenes.">
+  <meta property="og:description" content="Build rules that run on their own with triggers, conditions and actions, and group actions into scenes.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -169,36 +169,36 @@
     <article class="doc">
       <h1>Automations and scenes</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-shape-of-a-rule">The shape of a rule</a></li><li><a href="#what-can-wake-a-rule">What can wake a rule</a></li><li><a href="#conditions">Conditions</a></li><li><a href="#what-a-rule-can-do">What a rule can do</a></li><li><a href="#scenes">Scenes</a></li><li><a href="#scenes-made-on-cora-max">Scenes made on Cora Max</a></li><li><a href="#turning-a-rule-off">Turning a rule off</a></li><li><a href="#seeing-what-a-rule-did">Seeing what a rule did</a></li></ul></nav>
-<p>An automation is a rule Cora runs for you: <em>when this happens, check that, then do this.</em> Scenes group several actions into one thing you can run or schedule.</p>
+<p>An automation is a rule Cora runs for you: <em>when this happens, check that, then do this.</em> A scene groups several actions into one thing you can run or schedule.</p>
 <p><strong>Settings → Automation.</strong></p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The automation list"><img src="/help/img/mobile-automation.webp" alt="The automation list" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Automations and Scenes are separate tabs. Each rule has an enable switch.</figcaption></figure>
-<p>The screen has two tabs (<strong>Automations</strong> and <strong>Scenes</strong>) and a <strong>New automation</strong> button. Each rule shows a one-line summary of what it does, an enable switch, and a menu for editing or deleting it. A rule that has not run yet is marked as such.</p>
-<aside class="cal cal-warning"><p class="cal-t">These act on real equipment</p><p>A rule that switches a pump switches it whether or not you are watching. Build one at a time and check each does what you expect before adding the next.</p></aside>
+<p>The screen has two tabs, <strong>Automations</strong> and <strong>Scenes</strong>, and a <strong>New automation</strong> button. Each rule shows a one-line summary, an enable switch and a menu to edit or delete it. A rule that hasn't run yet says so.</p>
+<aside class="cal cal-warning"><p class="cal-t">Rules act on real equipment</p><p>If a rule switches a pump, the pump switches even when you aren't watching. Build one rule at a time and check it does what you expect before you add the next.</p></aside>
 <h2 id="the-shape-of-a-rule">The shape of a rule</h2>
-<p>Every rule is the same three parts:</p>
-<p><strong>Trigger</strong>: what wakes it up <strong>Conditions</strong>: what must also be true <strong>Actions</strong>: what it then does, in order</p>
+<p>Every rule has three parts.</p>
+<ul><li>The trigger wakes it up.</li><li>The conditions must also be true.</li><li>The actions are what it then does, in order.</li></ul>
 <h2 id="what-can-wake-a-rule">What can wake a rule</h2>
-<p>Four things:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Trigger</th><th>Fires when</th></tr></thead><tbody><tr><td data-th="Trigger"><strong>Metric</strong></td><td data-th="Fires when">A parameter crosses a value you set, in a direction you choose</td></tr><tr><td data-th="Trigger"><strong>Alert</strong></td><td data-th="Fires when">An alert is raised, cleared, or either</td></tr><tr><td data-th="Trigger"><strong>Schedule</strong></td><td data-th="Fires when">A time of day, in your own timezone</td></tr><tr><td data-th="Trigger"><strong>Device status</strong></td><td data-th="Fires when">A device goes offline or comes back</td></tr></tbody></table></div>
+<p>There are four triggers:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Trigger</th><th>Fires when</th></tr></thead><tbody><tr><td data-th="Trigger"><strong>Metric</strong></td><td data-th="Fires when">A parameter crosses a value you set, in the direction you choose</td></tr><tr><td data-th="Trigger"><strong>Alert</strong></td><td data-th="Fires when">An alert is raised, cleared, or either</td></tr><tr><td data-th="Trigger"><strong>Schedule</strong></td><td data-th="Fires when">A time of day, in your own timezone</td></tr><tr><td data-th="Trigger"><strong>Device status</strong></td><td data-th="Fires when">A device goes offline or comes back</td></tr></tbody></table></div>
 <h2 id="conditions">Conditions</h2>
-<p>Conditions decide whether the actions actually run. You get the usual comparisons (equals, not equals, greater than, less than, and so on) and you can combine them with <strong>and</strong>, <strong>or</strong> and <strong>not</strong>.</p>
-<p>There is also a <strong>step</strong> condition, which checks how the <em>previous</em> step turned out. That is what lets you write "try this; if it did not work, do that instead."</p>
+<p>Conditions decide whether the actions run. You get the usual comparisons, like equals, not equals, greater than and less than, and you can combine them with <strong>and</strong>, <strong>or</strong> and <strong>not</strong>.</p>
+<p>There's also a <strong>step</strong> condition. It checks how the <em>previous</em> step went, so you can write "try this, and if it didn't work, do that instead."</p>
 <h2 id="what-a-rule-can-do">What a rule can do</h2>
-<p>An action that needs equipment is offered only on a tank that has that equipment:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Action</th><th>What it does</th></tr></thead><tbody><tr><td data-th="Action"><strong>Control Apex Equipment</strong></td><td data-th="What it does">Switch an outlet</td></tr><tr><td data-th="Action"><strong>Control a Red Sea™ Equipment</strong></td><td data-th="What it does">Drive a ReefBeat unit</td></tr><tr><td data-th="Action"><strong>Control a wavemaker</strong></td><td data-th="What it does">Set a Jecod™ pump's flow, wave mode or power, or <strong>Pause for feeding</strong>: the Cora Max at the tank puts the pump back when the feed ends</td></tr><tr><td data-th="Action"><strong>Control a Cora Equipment</strong></td><td data-th="What it does">Switch a smart plug</td></tr><tr><td data-th="Action"><strong>Control IR Device</strong></td><td data-th="What it does">Send an infrared command</td></tr><tr><td data-th="Action"><strong>Run Apex Feed Cycle</strong></td><td data-th="What it does">Start a feed</td></tr><tr><td data-th="Action"><strong>Run a Trident Test</strong></td><td data-th="What it does">Trigger a test</td></tr><tr><td data-th="Action"><strong>Notify Me</strong></td><td data-th="What it does">Send yourself a push</td></tr><tr><td data-th="Action"><strong>Wait Before Next Step</strong></td><td data-th="What it does">Pause before continuing</td></tr><tr><td data-th="Action"><strong>Run a Scene</strong></td><td data-th="What it does">Run another scene from inside this rule</td></tr><tr><td data-th="Action"><strong>Manage an Automation</strong></td><td data-th="What it does">Turn another rule on or off</td></tr><tr><td data-th="Action"><strong>Dose a DŌS Head</strong></td><td data-th="What it does">Run a measured dose on a DŌS head</td></tr></tbody></table></div>
-<aside class="cal cal-warning"><p class="cal-t">Dosing from a rule is irreversible and capped</p><p>A dose cannot be taken back out of the tank. The head must be <strong>calibrated</strong> before a rule may dose from it, and unattended dosing is capped at <strong>10 mL per head per day</strong>; a rule cannot exceed that however it is written. Dosing actions only appear once your heads are recognised as dosing heads.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Use Wait to sequence steps within one rule</p><p>A pause allows a single rule to perform an ordered procedure (for example switching an outlet off, waiting, then switching it on again) without a second rule and a schedule.</p></aside>
+<p>Actions that need equipment only show up on a tank that has that equipment:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Action</th><th>What it does</th></tr></thead><tbody><tr><td data-th="Action"><strong>Control Apex Equipment</strong></td><td data-th="What it does">Switch an outlet</td></tr><tr><td data-th="Action"><strong>Control a Red Sea™ Equipment</strong></td><td data-th="What it does">Drive a ReefBeat unit</td></tr><tr><td data-th="Action"><strong>Control a wavemaker</strong></td><td data-th="What it does">Set a Jecod™ pump's flow, wave mode or power, or <strong>Pause for feeding</strong>. The Cora Max at the tank puts the pump back when the feed ends</td></tr><tr><td data-th="Action"><strong>Control a Cora Equipment</strong></td><td data-th="What it does">Switch a smart plug</td></tr><tr><td data-th="Action"><strong>Control IR Device</strong></td><td data-th="What it does">Send an infrared command</td></tr><tr><td data-th="Action"><strong>Run Apex Feed Cycle</strong></td><td data-th="What it does">Start a feed</td></tr><tr><td data-th="Action"><strong>Run a Trident Test</strong></td><td data-th="What it does">Start a test</td></tr><tr><td data-th="Action"><strong>Notify Me</strong></td><td data-th="What it does">Send yourself a push</td></tr><tr><td data-th="Action"><strong>Wait Before Next Step</strong></td><td data-th="What it does">Pause before carrying on</td></tr><tr><td data-th="Action"><strong>Run a Scene</strong></td><td data-th="What it does">Run a scene from inside this rule</td></tr><tr><td data-th="Action"><strong>Manage an Automation</strong></td><td data-th="What it does">Turn another rule on or off</td></tr><tr><td data-th="Action"><strong>Dose a DŌS Head</strong></td><td data-th="What it does">Run a measured dose on a DŌS head</td></tr></tbody></table></div>
+<aside class="cal cal-warning"><p class="cal-t">A dose can't be undone, and it's capped</p><p>You can't take a dose back out of the tank. A head has to be <strong>calibrated</strong> before a rule can dose from it. Unattended dosing is capped at <strong>10 mL per head per day</strong>, however the rule is written. Dosing actions only show up once Cora recognises your heads as dosing heads.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Use Wait to run steps in order</p><p>With a pause, one rule can run a sequence, for example switching an outlet off, waiting, then switching it back on. You don't need a second rule and a schedule.</p></aside>
 <h2 id="scenes">Scenes</h2>
-<p>A scene is a named group of actions you can run on demand, from a schedule, or from inside another rule: "Water change", "Photo mode", "Night".</p>
-<p>A scene may call another scene. Cora refuses to run a scene nested beyond its depth limit, and refuses a scene that would call itself, to prevent a loop that would continue acting on the tank indefinitely.</p>
-<p>After a scene runs you are told what happened, step by step, including anything that failed.</p>
-<p>Running a scene by hand asks you to confirm first, since a scene can switch several pieces of equipment at once.</p>
+<p>A scene is a named group of actions, like "Water change", "Photo mode" or "Night". You can run it when you want, on a schedule, or from inside another rule.</p>
+<p>A scene can call another scene. Cora won't run a scene nested deeper than its limit, and it won't run a scene that calls itself. Either could loop and keep acting on the tank.</p>
+<p>After a scene runs, you see what happened step by step, including anything that failed.</p>
+<p>When you run a scene by hand, Cora asks you to confirm first, because a scene can switch several pieces of equipment together.</p>
 <h2 id="scenes-made-on-cora-max">Scenes made on Cora Max</h2>
-<p>Scenes can also be built and edited directly on a Cora Max tablet, not only on the phone: it is the same set of scenes either way, shared across the account. If a household has an older Cora Max, it can still run a scene made on the phone; only the on-device editing is a newer capability, so an older tablet may show a scene without letting you change it there. Edit it from the phone instead.</p>
+<p>You can also build and edit scenes on a Cora Max. It's the same set of scenes, shared across the account. An older Cora Max can still run a scene made on the phone. Editing on the device is newer, though, so an older Cora Max may show a scene without letting you change it. Edit it from the phone instead.</p>
 <h2 id="turning-a-rule-off">Turning a rule off</h2>
-<p>Every rule has an enable switch. Turning one off keeps its definition, useful when you want a rule back next season rather than rebuilding it.</p>
+<p>Every rule has an enable switch. Turning a rule off keeps its settings, which helps when you want it back next season.</p>
 <h2 id="seeing-what-a-rule-did">Seeing what a rule did</h2>
-<p>Every action a rule takes is recorded with the rule as its cause. See <strong><a href="/help/mobile-activity">Activity</a></strong>.</p>
+<p>Every action a rule takes is recorded with the rule as its cause. You'll find it in <a href="/help/mobile-activity">Activity</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-notifications"><span>Previous</span><b>Notifications</b></a><a class="pn-n" href="/help/mobile-dosing"><span>Next</span><b>Dosing</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.78 and Cora Mobile 0.5.79. Last checked 2026-09-27.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>

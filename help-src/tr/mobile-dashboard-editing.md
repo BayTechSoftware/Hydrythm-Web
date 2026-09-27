@@ -1,88 +1,88 @@
 ---
-title: Panonuzu düzenleme
-description: Sütun sayısını ayarlayın, widget ekleyip düzenleyin, kutuları yeniden boyutlandırın ve akvaryumlar arasında yeniden kullanabileceğiniz düzenler kaydedin.
+title: Panoyu düzenleme
+description: Sütun sayısını seçin, widget ekleyip yerleştirin, kutucukları boyutlandırın ve düzenleri başka akvaryumlarda kullanmak için kaydedin.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 6
 group: Your dashboard
 ---
 
-Pano düzenleyicisi, bir akvaryumun panosunda hangi widget'ların görüneceğini ve nasıl düzenleneceğini kontrol eder.
+Pano düzenleyicide bir akvaryumun panosunda hangi widget'ların görüneceğini ve nasıl yerleşeceğini belirlersiniz.
 
 ## Düzenleyiciyi açma
 
-Panonun altına kaydırın ve **Gösterge panelini düzenle**'ye dokunun.
+Panonun en altına inin ve **Gösterge panelini düzenle**'ye dokunun.
 
-:::note Akvaryum adının yanındaki kalem farklı bir ekrandır
-O, hacim, canlılar, dozaj ve ekipmanı kapsayan akvaryum profili olan **Akvaryumu düzenle**'yi açar. Bkz. [Akvaryum profiliniz](/help/mobile-tank-profile).
+:::note Akvaryum adının yanındaki kalem başka bir ekranı açar
+Kalem, **Akvaryumu düzenle** ekranını açar. Bu ekran hacim, canlılar, dozaj ve ekipman bilgilerinin olduğu akvaryum profilidir. Ayrıntılar [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasında.
 :::
 
-![Pano düzenleyicisi](img/mobile-edit.webp "Her kutu adını ve türünü gösterir. Kaldırmak için kırmızı bir çarpıya dokunun.")
+![Pano düzenleyici](img/mobile-edit.webp "Her kutucukta adı ve türü yazar. Kaldırmak için kırmızı çarpıya dokunun.")
 
-## Sütun sayısını ayarlama
+## Sütun sayısını seçme
 
-Düzenleyicinin üstünde **2**, **3** veya **4** sütun seçin. Widget ekledikçe ızgara aşağıya doğru büyür ve pano kaydırılır.
+Düzenleyicinin üstünden **2**, **3** ya da **4** sütun seçin. Widget ekledikçe ızgara aşağı doğru uzar ve pano kaydırılabilir olur.
 
-| Sütun | Ne zaman kullanılır |
+| Sütun | Ne zaman seçmeli |
 |---|---|
-| 2 | Az sayıda parametre izliyor ve büyük kutular istiyorsanız |
+| 2 | Az sayıda parametre izliyorsanız ve büyük kutucuklar istiyorsanız |
 | 3 | Varsayılan. Çoğu akvaryum için uygun |
-| 4 | Yoğun bir görünüm istiyorsanız, veya büyük bir telefon kullanıyorsanız |
+| 4 | Sık bir görünüm istiyorsanız ya da telefonunuzun ekranı büyükse |
 
-## Bir widget ekleme
+## Widget ekleme
 
 1. Düzenleyicide **+**'ya dokunun.
-2. Widget'ın ne göstereceğini seçin: bir parametre, bir cihaz veya bir priz.
-3. Widget türünü seçin. Bkz. [Widget referansı](/help/mobile-widgets).
+2. Widget'ın ne göstereceğini seçin: parametre, cihaz ya da priz.
+3. Widget türünü seçin. Türler [Widget rehberi](/help/mobile-widgets) sayfasında anlatılıyor.
 
-Yalnızca akvaryumda var olan kaynaklar sunulur. Bir kaynağı olmayan bir parametre, onu bildiren ekipmanı bağladığınızda veya elle bir okuma kaydettiğinizde görünür.
+Listede yalnızca akvaryumda olan kaynaklar çıkar. Kaynağı olmayan bir parametre, onu ölçen ekipmanı bağladığınızda ya da elle bir ölçüm girdiğinizde listeye gelir.
 
-## Widget'ları düzenleme
+## Widget'ları yerleştirme
 
-- **Bir widget'ı taşımak için**, basılı tutun, ardından sürükleyin. Kalan widget'lar onun etrafında yeniden akar.
-- **Bir widget'ı kaldırmak için**, köşesindeki kırmızı çarpıya dokunun.
-- **Bir widget'ın ayarlarını değiştirmek için**, ona dokunun.
+- **Widget'ı taşımak için** basılı tutun ve sürükleyin. Diğer widget'lar kendiliğinden yer değiştirir.
+- **Widget'ı kaldırmak için** köşesindeki kırmızı çarpıya dokunun.
+- **Widget'ın ayarlarını değiştirmek için** üzerine dokunun.
 
-## Yeniden boyutlandırma
+## Boyutlandırma
 
-Bir widget bir veya iki sütun ve bir veya iki satır kaplar. Boyutu widget'ın ayarlarında belirleyin.
+Bir widget bir ya da iki sütun, bir ya da iki satır kaplar. Boyutu widget'ın ayarlarından seçin.
 
-Bir **eğilim** widget'ı her zaman en az iki sütun genişliğindedir.
+**Eğilim** widget'ı her zaman en az iki sütun genişliğindedir.
 
 ## Widget ayarları
 
-Widget türüne bağlı olarak şunları ayarlayabilirsiniz:
+Widget türüne göre şunları ayarlayabilirsiniz:
 
-| Ayar | Uygulandığı |
+| Ayar | Hangi widget'larda |
 |---|---|
-| Etiket | Tüm türler |
-| Kaynak | Birden fazla şey tarafından bildirilen herhangi bir parametre |
-| Zaman penceresi | Eğilim: 1 saat, 6 saat, 24 saat, 7 gün, 30 gün, 1 yıl |
-| Aralık | Gösterge: burada geçersiz kılınmadıkça akvaryumun eşiklerinden miras alınır |
-| Boyut | Tüm türler |
+| Etiket | Hepsinde |
+| Kaynak | Birden fazla kaynaktan gelen her parametrede |
+| Zaman aralığı | Eğilim: 1 saat, 6 saat, 24 saat, 7 gün, 30 gün, 1 yıl |
+| Aralık | Gösterge: burada değiştirmezseniz akvaryumun eşiklerini kullanır |
+| Boyut | Hepsinde |
 
 ## Kaydetme
 
-Düzeni uygulamak için **Kaydet**'e dokunun, veya değişikliklerinizi iptal etmek için kapatma simgesine.
+Düzeni uygulamak için **Kaydet**'e dokunun. Değişikliklerden vazgeçmek için kapatma simgesine dokunun.
 
 ## Panolarım
 
-Beğendiğiniz bir düzen kaydedilip yeniden kullanılabilir. **Panolarım → Bu tasarımı kaydet**, ardından ona bir ad verin. En fazla **30** tanesini tutabilirsiniz.
+Beğendiğiniz düzeni kaydedip tekrar kullanabilirsiniz. **Panolarım → Bu tasarımı kaydet**'e dokunun ve tasarıma bir ad verin. En fazla **30** tasarım saklayabilirsiniz.
 
-Kaydedilmiş bir tasarım başka bir akvaryuma, veya bir Cora Max ekranına yüklenebilir.
+Kayıtlı bir tasarımı başka bir akvaryuma ya da Cora Max ekranına yükleyebilirsiniz.
 
-:::note Hedefin doldurulamayacağı kutular kaydetmeden önce listelenir
-Bir tasarım yüklemek, yalnızca hedefin gerçekten doldurabileceği kutuları tutar. Diğer her şey düşürülür ve kaydetmeden önce her biri kendi nedeniyle **Geride kalanlar:** altında size listelenir: akvaryum o metriği hiç bildirmemiş, o adda bir priz yok, ReefBeat cihazı veya Apex modülü bu akvaryuma bağlı değil, veya ızgaranın yeri kalmadı.
+:::note Doldurulamayan kutucuklar önceden listelenir
+Tasarımı yüklediğinizde yalnızca hedefte gerçekten doldurulabilen kutucuklar kalır. Diğerleri çıkarılır. Onaylamadan önce bunlar **Geride kalanlar:** başlığı altında nedenleriyle listelenir: akvaryum o parametreyi hiç bildirmemiş, o adda bir priz yok, ReefBeat cihazı ya da Apex modülü bu akvaryuma bağlı değil ya da ızgarada yer kalmamış.
 :::
 
-## Önceki bir düzeni geri yükleme
+## Eski bir düzene dönme
 
-Kaydedilmiş bir tasarım, beğendiğiniz bir düzene geri dönmenin yoludur. Pano istediğiniz gibi düzenlenmişken bir tasarım kaydedin ve onu daha sonra yeniden uygulayabilirsiniz.
+Beğendiğiniz bir düzene kayıtlı tasarımla geri dönersiniz. Pano tam istediğiniz gibiyken tasarımı kaydedin. Sonra istediğiniz zaman yeniden uygulayabilirsiniz.
 
-Bu bir **geri yükleme, geri alma değildir**: listeden tasarımı seçersiniz, onaylarsınız ve o, akvaryumun doldurulamayacağı herhangi bir kutuyu düşürerek geçerli düzenin yerine geçer. Son düzenlemenizden önceki durumu değil, kaydettiğiniz düzeni geri getirir.
+Bu bir **geri alma değil, geri yüklemedir**. Listeden tasarımı seçip onaylarsınız. Tasarım şu anki düzenin yerine geçer ve akvaryumun dolduramayacağı kutucuklar yine çıkarılır. Son düzenlemenizden önceki hâle değil, kaydettiğiniz düzene dönersiniz.
 
-Okumalar, geçmiş ve günlük kayıtları düzenden ayrı saklanır, bu yüzden panodaki bir düzenleme bunları kaybedemez.
+Ölçümler, geçmiş ve günlük kayıtları düzenden ayrı saklanır. Panoda yaptığınız hiçbir düzenleme bunları silmez.
 
 ## Cora Max panosunu düzenleme
 
-Cora Max panosu ayrı olarak düzenlenir: **Cihazlar → Cora Max'iniz → Panoyu Düzenle**. Kaydırılan bir ızgara yerine sabit bir ızgara kullanır. Bkz. [Cora Max panosunu düzenleme](/help/max-dashboard-editing).
+Cora Max panosunu ayrıca düzenlersiniz: **Cihazlar → Cora Max'iniz → Panoyu Düzenle**. Bu pano kaydırılan değil, sabit bir ızgara kullanır. Ayrıntılar [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.

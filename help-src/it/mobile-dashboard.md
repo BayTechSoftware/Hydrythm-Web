@@ -1,97 +1,97 @@
 ---
-title: Leggere la tua dashboard
-description: Come leggere la dashboard di Cora: widget, aggiornamento, fonti e cosa significano i colori.
+title: Leggere la dashboard
+description: Come leggere la dashboard di Cora: widget, aggiornamenti, fonti e significato dei colori.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 5
 group: Your dashboard
 ---
 
-La dashboard è una griglia di **widget**, ognuno dei quali mostra una cosa su una vasca. Cosa c'è sopra dipende interamente da te; vedi **[Modificare la tua dashboard](/help/mobile-dashboard-editing)**.
+La dashboard è una griglia di **widget**. Ogni widget mostra una cosa di una vasca. Cosa metterci lo decidi tu, come spiegato in **[Modificare la dashboard](/help/mobile-dashboard-editing)**.
 
 ![Una dashboard di Cora Mobile](img/mobile-dashboard.webp "Indicatori, numeri, tendenze e controlli in un'unica schermata.")
 
 ## L'intestazione della vasca
 
-In alto su ogni dashboard:
+In cima a ogni dashboard trovi:
 
-- **Il nome della vasca**, con un piccolo simbolo accanto: quello è una **rinomina rapida**, niente di più
-- **Alimenta**: sospende il flusso e lo skimmer per un'alimentazione, poi ripristina tutto
-- **Reef Buddy**: apre il briefing di questa mattina
-- **Condividi**: invia uno snapshot della dashboard
-- **La matita a destra**: apre [il profilo della vasca](/help/mobile-tank-profile)
+- **Il nome della vasca** con un piccolo simbolo accanto, che serve solo a **rinominarla al volo**
+- **Alimenta**, che ferma movimento e schiumatoio per il pasto e poi rimette tutto com'era
+- **Reef Buddy**, che apre il briefing di stamattina
+- **Condividi**, che invia un'istantanea della dashboard
+- **La matita a destra**, che apre [il profilo della vasca](/help/mobile-tank-profile)
 
-:::note Tre controlli simili, tre destinazioni
-Il simbolo accanto al nome rinomina la vasca. La matita a destra apre il **profilo** della vasca. Modificare la dashboard stessa non è né l'una né l'altra cosa; è **Modifica dashboard**, in *fondo* alla dashboard, sotto i widget.
+:::note Tre comandi simili, tre schermate diverse
+Il simbolo accanto al nome rinomina la vasca. La matita a destra apre il **profilo** della vasca. Per modificare la dashboard invece tocca **Modifica dashboard**, in *fondo* alla dashboard sotto i widget.
 :::
 
-Con più di una vasca, scorri lateralmente per passare da una all'altra.
+Se hai più vasche, scorri di lato per passare dall'una all'altra.
 
 ## La scheda di Reef Buddy
 
-Sotto l'intestazione, una scheda riassume il briefing più recente: un titolo, i suoi punteggi **Stabilità** e **Dati**, e il numero di insight. Toccala per aprire il briefing completo, oppure chiudila con **×**. Una nuova scheda apparirà con il briefing successivo.
+Sotto l'intestazione c'è una scheda con il riassunto dell'ultimo briefing: un titolo, i punteggi **Stabilità** e **Dati** e il numero di osservazioni. Toccala per aprire il briefing completo, oppure chiudila con **×**. Con il briefing successivo arriva una nuova scheda.
 
-## Come leggere un widget di parametro
+## Come si legge un widget di parametro
 
-Un widget che mostra un **parametro misurato** porta le stesse tre cose nelle stesse posizioni. I riquadri di dispositivi e controlli (una presa, un'unità di dosaggio, una pompa) mostrano invece il proprio stato, perché non c'è un'unica lettura dietro di essi.
+Un widget che mostra un **parametro misurato** ha sempre le stesse tre cose negli stessi punti. I riquadri di dispositivi e comandi (una presa, un'unità di dosaggio, una pompa) mostrano invece il loro stato, perché dietro non c'è una singola lettura.
 
-**Il valore** è la lettura stessa, grande e centrale.
+**Il valore** è la lettura, grande e al centro.
 
-**L'età** si trova sotto o accanto ad esso: `now`, `1h`, `2d`. Questo è da quanto tempo è stata presa la lettura, non da quanto tempo si è aggiornato lo schermo. Un numero che non si è mosso in due giorni mostra `2d`, e questa è un'informazione.
+**L'età** è sotto o accanto al valore: `now`, `1h`, `2d`. Indica quanto tempo fa è stata presa la lettura, non quando si è aggiornato lo schermo. Un numero fermo da due giorni mostra `2d`, e anche questo ti dice qualcosa.
 
-**Il badge della fonte** è il piccolo segno accanto all'età. Ti dice da dove viene il numero: una sonda, un controller, un risultato di laboratorio, oppure tu con un kit di test. Tocca qualsiasi widget per vedere la fonte esplicitata insieme al suo storico recente.
+**Il badge della fonte** è il piccolo segno vicino all'età. Ti dice da dove arriva il numero: una sonda, un controller, un risultato di laboratorio o un tuo test. Tocca un widget per vedere la fonte per esteso e lo storico recente.
 
-:::note Perché l'età conta così tanto
-Una lettura perfetta di alcalinità di quattro giorni fa non è una lettura attuale di alcalinità. L'età si trova accanto a ogni valore così puoi cogliere la differenza a colpo d'occhio.
+:::note L'età conta
+Una lettura di alcalinità perfetta di quattro giorni fa non è una lettura attuale. L'età è accanto a ogni valore, così vedi subito la differenza.
 :::
 
 ## Colori
 
-Cora usa il colore con parsimonia, e sempre per significare la stessa cosa:
+Cora usa pochi colori, e ognuno ha sempre lo stesso significato:
 
 | Colore | Significato |
 |---|---|
-| Verde | Comodamente dentro l'intervallo per questo parametro |
-| Ambra | Vicino a un limite: **di solito ancora dentro l'intervallo**, entro l'ultimo decimo di esso |
-| Rosso | Oltre il limite, e da tenere in considerazione |
-| Grigio | Nessun giudizio: nessuna lettura recente, oppure nessun intervallo utilizzabile per valutare |
+| Verde | Ben dentro l'intervallo del parametro |
+| Ambra | Vicino a un limite. **Di solito ancora dentro l'intervallo**, nell'ultimo decimo |
+| Rosso | Oltre il limite. Conviene intervenire |
+| Grigio | Nessun giudizio: non ci sono letture recenti o manca un intervallo per valutare |
 
-:::note L'ambra di solito significa "ancora a posto, ma in movimento verso qualcosa"
-L'ambra è un *margine*, non una violazione. Una lettura dentro il suo intervallo ma entro l'ultimo 10% di esso diventa ambra deliberatamente, così la deriva è visibile mentre c'è ancora tempo per agire invece che nel momento in cui diventa un problema.
+:::note Ambra di solito vuol dire "ancora a posto, ma si sta spostando"
+L'ambra è un *margine*: il limite non è ancora superato. Una lettura dentro l'intervallo, ma nell'ultimo 10%, diventa ambra. Così vedi la deriva quando hai ancora tempo per intervenire, prima che diventi un problema.
 
-Da questo derivano due precisazioni.
+Ci sono due eccezioni.
 
-**Un intervallo che imposti tu stesso viene trattato come un confine dichiarato.** Superalo e il widget passa direttamente al rosso: nessun margine ambra, perché quella linea l'hai tracciata deliberatamente. Un intervallo **fornito da Cora** è un riferimento più morbido: superarlo mostra l'ambra per il primo 10% oltre il limite, e diventa rosso oltre quello.
+**Un intervallo impostato da te vale come confine netto.** Se lo superi, il widget passa subito al rosso senza margine ambra, perché quella linea l'hai tracciata tu. Un intervallo **fornito da Cora** è un riferimento più morbido. Per il primo 10% oltre il limite il widget è ambra, poi diventa rosso.
 
-**Un limite a un solo lato** (un tetto per un contaminante, o un minimo per un nutriente) viene valutato solo sul suo lato alto, così il rame a zero appare verde invece di diventare ambra per il trovarsi vicino al fondo della scala.
+**Un limite su un solo lato** (un tetto per un contaminante o un minimo per un nutriente) viene valutato solo sul lato alto. Per questo il rame a zero resta verde e non diventa ambra solo perché è in fondo alla scala.
 :::
 
-Un widget con contorno ambra o rosso è uno che richiede attenzione. Il contorno è sul widget, non solo sul numero, così è visibile mentre scorri.
+Un widget con il bordo ambra o rosso chiede attenzione. Il bordo circonda tutto il widget, quindi lo noti anche mentre scorri.
 
 ## Sotto i widget
 
 ![Il fondo della dashboard](img/mobile-dashboard-foot.webp "Modifica dashboard, Registra parametri, e scorciatoie alle quattro aree di registro.")
 
-In fondo alla dashboard:
+In fondo alla dashboard trovi:
 
-- **Modifica dashboard**: apre l'[editor della dashboard](/help/mobile-dashboard-editing)
-- **Registra parametri**: inserisci a mano le letture del kit di test
-- **Diario · Avvisi · Manutenzione · Popolazione**: scorciatoie a quelle aree per questa vasca
+- **Modifica dashboard**, che apre l'[editor della dashboard](/help/mobile-dashboard-editing)
+- **Registra parametri**, per inserire a mano i risultati dei test
+- **Diario · Avvisi · Manutenzione · Popolazione**, scorciatoie a queste sezioni per la vasca
 
-Una riga sopra di essi mostra quando la dashboard si è aggiornata l'ultima volta e su quali fonti si è basata.
+Una riga sopra indica quando si è aggiornata la dashboard l'ultima volta e quali fonti ha usato.
 
-## Toccare per approfondire
+## Toccare per i dettagli
 
-Tocca qualsiasi widget per aprire i suoi dettagli: lo storico completo come grafico, ogni fonte che lo ha riportato, e le soglie attualmente applicate. Da lì puoi registrare a mano una nuova lettura, cambiare l'intervallo, o guardare più indietro nel tempo.
+Tocca un widget per aprire i dettagli: lo storico completo in un grafico, tutte le fonti che hanno misurato il parametro e le soglie attive. Da lì puoi registrare a mano una nuova lettura, cambiare l'intervallo o guardare più indietro nel tempo.
 
-## Se un widget non ha valore
+## Se un widget è vuoto
 
-Un widget mostra un valore una volta che ne riceve uno. Quando è vuoto, il motivo di solito è uno di questi:
+Un widget mostra un valore quando ne riceve uno. Se è vuoto, di solito il motivo è uno di questi:
 
-- Il dispositivo è offline; controlla la scheda **Dispositivi**
-- Il parametro non ha ancora una fonte; registralo a mano, oppure collega un equipaggiamento che lo riporta
-- Il parametro non è mai stato riportato o registrato; non è stato ancora registrato nulla per esso
+- Il dispositivo è offline. Controlla la scheda **Dispositivi**
+- Il parametro non ha ancora una fonte. Registralo a mano o collega un'attrezzatura che lo misura
+- Il parametro non è mai stato misurato né registrato
 
-Una lettura vecchia non svanisce perché la finestra del grafico è più corta della sua età. Resta sul widget con la sua età mostrata, così un valore obsoleto si legge come obsoleto invece che come mancante.
+Una lettura vecchia non sparisce se il grafico copre un periodo più corto della sua età. Resta sul widget con la sua età, così capisci che è vecchia e non la scambi per un dato mancante.
 
-Vedi **[Risoluzione dei problemi](/help/troubleshooting)** per qualsiasi cosa oltre a queste.
+Per tutto il resto guarda **[Risoluzione dei problemi](/help/troubleshooting)**.

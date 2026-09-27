@@ -1,60 +1,60 @@
 ---
 title: Etkinlik ve zaman çizelgesi
-description: Ekipmanınıza olan her şey ve buna neyin sebep olduğu.
+description: Ekipmanınızda olup biten her şey ve bunları neyin başlattığı.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 22
 group: Records
 ---
 
-Etkinlik, her **eyleme geçirme isteğini** (bir şeyi değiştirme girişimini), bunu kimin istediğiyle ve sonucunda ne olduğuyla birlikte kaydeder.
+Etkinlik ekranı, ekipmanda bir şeyi değiştirmeye yönelik her **komut isteğini** kaydeder. İsteği neyin gönderdiği ve sonucun ne olduğu da kayıtta yer alır.
 
-Bir istek bir değişiklikle aynı değildir. Reddedilen istekler çalışmadı, bir istisna dışında: *Hiçbir cihaz zamanında yanıt vermedi* diyen bir kayıt hâlâ çalışmış olabilir, bu yüzden onu tekrarlamadan önce ekipmanı kontrol edin. Değişiklik yok istekleri, ekipmanı zaten istenen durumda buldu ve onaylanmamış bir istek ekipmana hiç ulaşmamış da olabilir. Hepsi kaydedilir.
+Her istek bir değişiklik anlamına gelmez. Reddedilen istekler çalışmamıştır. Tek istisna *Zamanında yanıt veren cihaz olmadı* yazan kayıtlardır. Bu istek yine de çalışmış olabilir, o yüzden tekrarlamadan önce ekipmanı kontrol edin. "Değişiklik yok" sonucu, ekipmanın zaten istenen durumda olduğunu gösterir. Onaylanmayan bir istek ise cihaza ulaşmış da olabilir, ulaşmamış da. Bunların hepsi kaydedilir.
 
 **Ayarlar → Etkinlik.**
 
-![Etkinlik günlüğü](img/mobile-activity.webp "Onu isteyen yüzeyle birlikte her eylem.")
+![Etkinlik günlüğü](img/mobile-activity.webp "Her işlem ve onu hangi yüzeyin istediği.")
 
-## Ne kaydedilir
+## Neler kaydedilir
 
-Sadece işe yarayanlar değil, her **istek**: priz açıp kapatmalar, besleme döngüleri, dozajlar, fiş değişiklikleri ve bir sahnenin veya otomasyonun yaptığı her şey.
+Yalnızca başarılı olanlar değil, bütün **istekler** kaydedilir: priz açıp kapatma, besleme döngüleri, dozajlar, akıllı fiş değişiklikleri ve bir sahnenin ya da otomasyonun yaptığı her şey.
 
-**Reddedilen**, **değişiklik yok** yapan, veya gidip **onaylanmamış** geri gelen bir istek, tam olarak yürütülmüş bir istek gibi kaydedilir. Amaç budur: sessizce hiçbir şey yapmayan bir komut, burada tam olarak bulmak istediğiniz şeydir.
+**Reddedilen**, **değişiklik yapmayan** ya da gönderilip **onaylanmadan** dönen istekler de uygulanan istekler gibi kaydedilir. Zaten burada bulmak istediğiniz şey tam da budur: sessizce hiçbir şey yapmamış bir komut.
 
-## Buna neyin sebep olduğu
+## İsteği ne başlattı
 
-Her kayıt nedenini adlandırır:
+Her kayıtta isteğin kaynağı yazar:
 
-| Neden | Anlamı |
+| Kaynak | Anlamı |
 |---|---|
-| **Bu uygulama** | Buna burada dokundunuz |
-| **Bu uygulamada ses** | Bu telefonda sordunuz |
-| **Bir Cora'ya dokunuldu** | Biri bir Cora ekranı kullandı; satır hangisini söyler |
-| **Bir Cora Max'te ses** | Biri bir ekranla konuştu |
+| **Bu uygulama** | Buradan dokundunuz |
+| **Bu uygulamada ses** | Bu telefondan sesle istediniz |
+| **Bir Cora'ya dokunuldu** | Biri bir Cora ekranını kullandı. Satırda hangisi olduğu yazar |
+| **Bir Cora Max'te ses** | Biri bir ekrana sesle komut verdi |
 | **Cora Assistant** | Cora'dan bunu yapmasını istediniz |
-| **Otomasyon kuralı** | Bir kural tetiklendi |
+| **Otomasyon kuralı** | Bir kural devreye girdi |
 | **Akıllı düğme** | Fiziksel bir düğmeye basıldı |
-| **Cora Cloud'dan gönderildi** | Önünüzdeki bir cihaz tarafından değil hesabınız tarafından verildi |
-| **Bilinmeyen kaynak** | Kaynak tanımlanamadan önce kaydedildi |
+| **Cora Cloud'dan gönderildi** | Komutu önünüzdeki bir cihaz değil, hesabınız gönderdi |
+| **Bilinmeyen kaynak** | Kaynağı belirlenemeden kaydedildi |
 
-## Nasıl ilerledi
+## İstek nasıl ulaştı
 
-Her satır bir rota çipi de taşır, çünkü bir isteğin ekipmanınıza *nasıl* ulaştığı, bir şey yanlış gittiğinde çoğunu açıklar:
+Her satırda bir yol etiketi de var. Bir şey ters gittiğinde isteğin ekipmana *nasıl* ulaştığı çoğu şeyi açıklar:
 
-| Çip | Anlamı |
+| Etiket | Anlamı |
 |---|---|
-| **LAN** | Kendi ağınız üzerinden, doğrudan ekipmana gönderildi |
-| **BULUT ÜZERİNDEN** | Doğrudan erişilemeyen ekipman için hesabınız üzerinden gönderildi |
-| **ROTA ?** | Rotalar takip edilmeden önce kaydedildi: gerçekten bilinmiyor, varsayılmış değil |
+| **LAN** | Kendi ağınız üzerinden doğrudan ekipmana gönderildi |
+| **BULUT ÜZERİNDEN** | Doğrudan erişilemeyen ekipmana hesabınız üzerinden gönderildi |
+| **ROTA ?** | Yol takibi başlamadan önce kaydedildi. Yol gerçekten bilinmiyor, tahmin de edilmiyor |
 
-Birden fazla Cora'lı bir sistemde, satır ayrıca hangisinin isteği yerine getirdiğini de adlandırır.
+Birden fazla Cora'nın olduğu sistemlerde satırda isteği hangi Cora'nın yerine getirdiği de yazar.
 
 ## Akvaryum zaman çizelgesi
 
-Ekipman eylemlerinden ayrı olarak, her akvaryumun bir **zaman çizelgesi** vardır: okumalar, uyarılar, günlük kayıtları, ICP sonuçları ve canlı değişiklikleri sırayla düzenlenmiş.
+Ekipman işlemlerinden ayrı olarak her akvaryumun bir **zaman çizelgesi** var. Ölçümler, uyarılar, günlük kayıtları, ICP sonuçları ve canlılardaki değişiklikler burada sırayla görünür.
 
-*"Bir şey ne yaptı?"* diye sorarken etkinliği, *"bu tarih civarında ne oluyordu?"* diye sorarken zaman çizelgesini kullanın.
+*"Bu cihaz ne yaptı?"* diye merak ediyorsanız etkinliğe, *"Bu tarihlerde neler oluyordu?"* diye merak ediyorsanız zaman çizelgesine bakın.
 
 :::note Zaman çizelgesi ve günlük birbirini tamamlar
-Zaman çizelgesi Cora'nın kaydettiğini tutar; [günlük](/help/mobile-journal) ise sizin yaptığınızı tutar. Birlikte okunduklarında belirli bir tarih civarında neden ve sonucu belirlerler.
+Zaman çizelgesi Cora'nın kaydettiklerini, [günlük](/help/mobile-journal) ise sizin yaptıklarınızı tutar. İkisini birlikte okuyunca belli bir tarihte neyin neye yol açtığını görürsünüz.
 :::

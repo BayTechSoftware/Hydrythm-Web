@@ -1,19 +1,19 @@
 ---
 title: Connecter votre équipement
-description: Comment connecter à Cora l’équipement Neptune Apex, Red Sea ReefBeat, Jecod et AquaWiz.
+description: Connecter à Cora votre équipement Neptune Apex, Red Sea ReefBeat, Jecod et AquaWiz.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 10
 group: Equipment
 ---
 
-Cora fonctionne avec l’équipement que vous possédez déjà. Cette page couvre ce qui est pris en charge et ce dont chaque connexion a besoin.
+Cora fonctionne avec l’équipement que vous avez déjà. Cette page indique ce qui est pris en charge et ce qu’il faut pour chaque connexion.
 
-Chaque marque se connecte de la façon qui lui convient le mieux, donc commencez par le point d’entrée de votre équipement :
+Chaque marque se connecte à sa façon. Commencez par le bon point d’entrée :
 
-| Marque | Commencer par |
+| Marque | Point de départ |
 |---|---|
-| Neptune Apex | L’aquarium ; son profil contient la connexion Apex |
+| Neptune Apex | L’aquarium. La connexion Apex se trouve dans son profil |
 | Red Sea ReefBeat | L’aquarium |
 | Jecod / Jebao | **Appareils → Trouver une pompe sur votre réseau**, ou Bluetooth |
 | AquaWiz | **Appareils → Ajouter AquaWiz** |
@@ -22,82 +22,82 @@ Chaque marque se connecte de la façon qui lui convient le mieux, donc commencez
 
 ## Neptune Apex
 
-Cora lit votre Apex via votre réseau local : sondes, prises et tout module d’extension que vous avez installé.
+Cora lit votre Apex par votre réseau local : sondes, prises et modules d’extension installés.
 
-**Il vous faudra :** l’adresse de votre Apex sur votre réseau, et sa connexion.
+Il vous faut l’adresse de votre Apex sur votre réseau, ainsi que ses identifiants de connexion.
 
-**Ce que vous obtenez :** chaque sonde rapportée par votre Apex apparaît comme une source que vous pouvez placer sur un tableau de bord. Les prises apparaissent comme des commandes. Les modules d’extension installés obtiennent leurs propres tuiles d’appareil.
+Chaque sonde de votre Apex devient une source que vous pouvez placer sur un tableau de bord. Les prises deviennent des commandes. Chaque module d’extension installé a sa propre tuile d’appareil.
 
 :::note Votre Apex garde sa propre programmation
-Cora lit votre Apex, l’affiche avec tout le reste, et peut commuter des prises quand vous le demandez. Votre propre programmation continue de s’exécuter exactement comme vous l’avez configurée.
+Cora lit votre Apex, l’affiche avec le reste, et peut allumer ou éteindre des prises quand vous le demandez. Votre programmation continue de tourner exactement comme vous l’avez réglée.
 :::
 
 ## Red Sea ReefBeat
 
-Cora communique avec l’équipement ReefBeat sur votre réseau local. Les unités prises en charge sont **ReefDose**, **ReefATO+**, **ReefMat** et **ReefRun**.
+Cora dialogue avec l’équipement ReefBeat sur votre réseau local. Les appareils pris en charge sont **ReefDose**, **ReefATO+**, **ReefMat** et **ReefRun**.
 
-**Il vous faudra :** l’équipement déjà configuré dans ReefBeat et sur le même réseau que votre téléphone quand vous l’ajoutez.
+L’équipement doit déjà être configuré dans ReefBeat. Au moment de l’ajout, il doit être sur le même réseau que votre téléphone.
 
-**Ce que vous obtenez :** une page d’appareil par unité, plus les mesures de chaque unité comme sources. ReefDose rapporte ses têtes et contenants ; ReefATO+ rapporte son réservoir et ses remplissages ; ReefMat rapporte les jours restants ; ReefRun rapporte l’état de la pompe.
+Chaque appareil a sa page, et ses mesures deviennent des sources. ReefDose indique ses têtes et ses bidons. ReefATO+ indique son réservoir et ses remplissages. ReefMat indique les jours restants. ReefRun indique l’état de la pompe.
 
 ## Jecod / Jebao
 
-Cora se connecte aux pompes Jecod, et peut les lire et les contrôler. Les unités Jecod atteignent Cora de deux façons, et celle utilisée par la vôtre déterminera ce qui est possible.
+Cora se connecte aux pompes Jecod, et peut les lire et les piloter. Une pompe Jecod rejoint Cora de l’une de deux façons. Ce qui est possible dépend de celle qu’utilise votre pompe.
 
 ![Trouver une pompe](img/mobile-connections.webp "La recherche explique ce dont elle a besoin et pourquoi une pompe peut ne pas apparaître au premier balayage.")
 
-**Via votre réseau.** Utilisez **Trouver une pompe sur votre réseau** ; elle trouve les unités qui s’annoncent elles-mêmes, donc aucune adresse n’a besoin d’être saisie. Une pompe réseau peut être lue et pilotée dès qu’elle est alimentée **et accessible** : soit votre téléphone est sur le même réseau, soit un Cora Max sur ce réseau relaie pour vous. Loin de chez vous sans Cora Max sur les lieux, une pompe uniquement réseau est visible mais pas contrôlable.
+La première passe par votre réseau. Touchez **Trouver une pompe sur votre réseau**. La recherche trouve les pompes qui se signalent d’elles-mêmes, vous n’avez donc aucune adresse à saisir. Une pompe réseau peut être lue et pilotée dès qu’elle est sous tension **et joignable**. Il faut pour cela que votre téléphone soit sur le même réseau, ou qu’un Cora Max sur ce réseau fasse le relais. Loin de chez vous, sans Cora Max sur place, une pompe uniquement réseau reste visible, mais vous ne pouvez pas la piloter.
 
-:::note Une pompe manque souvent le premier balayage
-Les pompes répondent à un balayage et manquent le suivant. Si la vôtre n’est pas listée, recherchez à nouveau plutôt que de supposer qu’elle est inaccessible.
+:::note Une pompe rate souvent le premier balayage
+Une pompe répond à un balayage et rate le suivant. Si la vôtre n’apparaît pas, relancez la recherche avant de conclure qu’elle est injoignable.
 :::
 
-Si une recherche ne trouve rien, le résultat affiche les adresses qu’elle a examinées sur le Wi-Fi. Si votre pompe a une adresse différente dans l’application Jebao, votre téléphone est sur un autre réseau. Un réseau invité ou IoT, ou une bande uniquement 5 GHz, ne verra pas ces pompes. Sur iPhone, Cora a aussi besoin de l’accès au réseau local pour voir les pompes sur votre Wi-Fi. S’il est désactivé, la liste reste vide et aucune erreur n’apparaît, donc le résultat l’explique et propose **Ouvrir les Réglages** pour le réactiver. **Réglages → Accès aux appareils** ouvre le même endroit à tout moment ; voir [Réglages](/help/mobile-settings).
+Si la recherche ne trouve rien, le résultat affiche les adresses examinées sur le Wi-Fi. Si l’application Jebao donne une autre adresse à votre pompe, votre téléphone est sur un autre réseau. Un réseau invité ou IoT, ou une bande 5 GHz seule, ne voit pas ces pompes. Sur iPhone, Cora a aussi besoin de l’accès au réseau local pour voir les pompes de votre Wi-Fi. Si cet accès est coupé, la liste reste vide, sans message d’erreur. Le résultat l’explique alors et propose **Ouvrir les Réglages** pour le réactiver. Vous pouvez aussi ouvrir le même endroit à tout moment par **Réglages → Accès aux appareils**. Voir [Réglages](/help/mobile-settings).
 
-**Via Bluetooth.** Certaines pompes ne sont accessibles que depuis un téléphone se tenant à proximité. La page de la pompe le précise, et montre les derniers réglages qu’elle a réussi à lire ainsi que leur ancienneté.
+La seconde passe par Bluetooth. Certaines pompes ne sont joignables que depuis un téléphone posé à côté. La page de la pompe l’indique. Elle montre aussi les derniers réglages lus, et leur âge.
 
-Cora a besoin de la permission Bluetooth pour cela. Accordez-la avant d’ajouter une pompe Bluetooth : sans permission, la pompe ne peut pas être découverte du tout, plutôt que de simplement prendre plus de temps à apparaître.
+Cora a besoin pour cela de l’autorisation Bluetooth. Donnez-la avant d’ajouter une pompe Bluetooth. Sans elle, la pompe reste introuvable, même en attendant.
 
-**Ce que vous obtenez :** état en direct, mode et intensité, pause de nourrissage, et un programme journalier. Voir [Programmer l’équipement](/help/mobile-schedules).
+Vous obtenez l’état en direct, le mode et l’intensité, la pause nourrissage et un programme journalier. Voir [Programmer l’équipement](/help/mobile-schedules).
 
-:::warning Une pompe Bluetooth n’est accessible que quand vous êtes près d’elle
-Sa page montre les derniers réglages que Cora a lus et depuis combien de temps. Changer quoi que ce soit, y compris démarrer une pause de nourrissage, nécessite que la pompe soit à portée. Restez près d’elle et rouvrez la page.
+:::warning Une pompe Bluetooth n’est joignable que si vous êtes à côté
+Sa page montre les derniers réglages lus par Cora et leur âge. Pour changer quoi que ce soit, y compris lancer une pause nourrissage, la pompe doit être à portée. Approchez-vous et rouvrez la page.
 :::
 
 ## Contrôleur KH AquaWiz
 
-Cora lit l’alcalinité depuis un contrôleur KH AquaWiz via votre compte AquaWiz.
+Cora lit l’alcalinité d’un contrôleur KH AquaWiz par votre compte AquaWiz.
 
-**Il vous faudra :** votre nom d’utilisateur et mot de passe AquaWiz. Cora se connecte en votre nom et garde la connexion pour continuer à lire.
+Il vous faut votre nom d’utilisateur et votre mot de passe AquaWiz. Cora se connecte à votre place et garde cette connexion pour continuer à lire les mesures.
 
-**Ce que vous obtenez :** l’alcalinité comme source, mise à jour aussi souvent que votre contrôleur titre. Le pH est disponible en option si votre unité le rapporte.
+L’alcalinité devient une source, mise à jour à chaque titrage de votre contrôleur. Le pH est disponible en option si votre appareil le mesure.
 
-:::warning Une connexion, partagée
-AquaWiz délivre une seule connexion par compte, donc celle que Cora détient est la même que celle utilisée par leur propre application. Changer votre mot de passe AquaWiz déconnectera Cora ; reconnectez-le depuis la ligne de l’appareil ensuite. Pour révoquer entièrement l’accès de Cora, retirez l’appareil dans Cora et changez votre mot de passe AquaWiz.
+:::warning Une seule connexion, partagée
+AquaWiz n’accorde qu’une connexion par compte. Cora utilise donc la même que l’application AquaWiz. Si vous changez votre mot de passe AquaWiz, Cora sera déconnecté. Reconnectez-le ensuite depuis la ligne de l’appareil. Pour retirer complètement l’accès de Cora, supprimez l’appareil dans Cora et changez votre mot de passe AquaWiz.
 :::
 
 ## Maxspect
 
 :::note La prise en charge Maxspect est en bêta
-La prise en charge des pompes de brassage Maxspect est encore en cours de test et de développement, donc certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer entre les mises à jour. Si quelque chose ne fonctionne pas comme décrit, dites-le-nous depuis [Obtenir de l’aide](/help/mobile-support).
+La prise en charge des pompes de brassage Maxspect est encore en test et en développement. Certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support).
 :::
 
 Cora se connecte aux pompes Maxspect Gyre, et peut les lire et les piloter.
 
-**Il vous faudra :** au moment de l’ajout, la pompe de brassage et votre téléphone sur le même réseau. Utilisez **Appareils → Trouver une pompe sur votre réseau**.
+Au moment de l’ajout, la pompe et votre téléphone doivent être sur le même réseau. Touchez **Appareils → Trouver une pompe sur votre réseau**.
 
-**Ce que vous obtenez :** motif de vague et vitesse pour **Gyre A** et **Gyre B**, le programme de la pompe de brassage à consulter (réglez-le dans l’application Maxspect), **État de la pompe**, et si elle fonctionne, avec quand elle a été lue pour la dernière fois. Voir [Contrôler votre équipement](/help/mobile-device-control).
+Vous obtenez le type de vague et la vitesse pour **Gyre A** et **Gyre B**, le programme de la pompe en lecture seule (il se règle dans l’application Maxspect), **État de la pompe**, et si la pompe tourne, avec l’heure de la dernière lecture. Voir [Contrôler votre équipement](/help/mobile-device-control).
 
-:::note Comment Cora Mobile atteint une pompe de brassage
-Quand un Cora Max dessert l’aquarium, Cora Mobile fonctionne via ce Cora Max, y compris quand vous êtes loin de chez vous, et **Modifier les réglages** part de la dernière lecture de ce Cora Max. Sinon, votre téléphone parle directement à la pompe de brassage et doit être sur son réseau. Ouvrir la page de la pompe de brassage la lit alors ; si la page affiche à la place une lecture stockée plus ancienne, **Modifier les réglages** reste caché jusqu’à ce que vous touchiez actualiser.
+:::note Comment Cora Mobile joint une pompe Gyre
+Si un Cora Max gère l’aquarium, Cora Mobile passe par ce Cora Max, même quand vous êtes loin de chez vous. **Modifier les réglages** part alors de la dernière lecture de ce Cora Max. Sinon, votre téléphone parle directement à la pompe et doit être sur le même réseau qu’elle. Ouvrir la page de la pompe lance alors une lecture. Si la page affiche une lecture plus ancienne gardée en mémoire, **Modifier les réglages** reste masqué jusqu’à ce que vous touchiez actualiser.
 :::
 
-## Enregistrer à la main
+## Saisir à la main
 
-Certains paramètres viennent d’un test en kit plutôt que de l’équipement. Pour saisir un résultat, faites défiler jusqu’en bas du tableau de bord et touchez **Enregistrer les paramètres**.
+Certains paramètres viennent d’un test en kit, pas d’un équipement. Pour saisir un résultat, faites défiler jusqu’en bas du tableau de bord et touchez **Enregistrer les paramètres**.
 
-Les mesures enregistrées à la main sont de première classe : elles apparaissent sur les widgets, portent leur propre source et ancienneté, alimentent Reef Buddy, et c’est contre elles que Cora compare vos sondes quand il vous dit que deux sources ne sont pas d’accord.
+Les mesures saisies à la main comptent autant que les autres. Elles s’affichent sur les widgets avec leur propre source et leur âge, et elles alimentent Reef Buddy. C’est aussi à elles que Cora compare vos sondes quand il vous signale que deux sources ne sont pas d’accord.
 
-## Si une connexion arrête de fonctionner
+## Si une connexion ne marche plus
 
-La ligne de l’appareil vous dit de quel type de problème il s’agit. Voir le tableau dans **[Ajouter, modifier et retirer des appareils](/help/mobile-devices)**, et **[Résolution de problèmes](/help/troubleshooting)** pour tout ce qu’il ne couvre pas.
+La ligne de l’appareil indique de quel type de problème il s’agit. Consultez le tableau de la page **[Ajouter, modifier et retirer des appareils](/help/mobile-devices)**. Pour les autres cas, voir **[Résolution de problèmes](/help/troubleshooting)**.

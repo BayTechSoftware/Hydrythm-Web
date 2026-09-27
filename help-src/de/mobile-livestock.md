@@ -1,58 +1,58 @@
 ---
 title: Besatz
-description: Halte fest, was im Becken ist, wann es angekommen ist, und was daraus wurde.
+description: Halte fest, was in deinem Becken lebt, wann es eingezogen ist und was daraus wurde.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 20
 group: Records
 ---
 
-Besatz erfasst, was das Becken enthält (Korallen, Fische und Wirbellose) zusammen mit dem Zeitpunkt, an dem jedes Stück hinzugefügt wurde, und seinem aktuellen Status. Öffne ihn aus der Verknüpfungsreihe am unteren Rand des Dashboards.
+Unter Besatz hältst du fest, was in deinem Becken lebt, also Korallen, Fische und Wirbellose. Zu jedem Tier siehst du, wann es dazugekommen ist und wie es ihm gerade geht. Du öffnest den Besatz über die Reihe mit Verknüpfungen unten auf dem Dashboard.
 
 ![Das Besatz-Inventar](img/mobile-livestock.webp "Bestandsübersicht und aktuelle Verluste, mit nach Typ gruppierten Einträgen.")
 
 ## Die Übersicht
 
-Oben:
+Ganz oben siehst du:
 
-- **Bestandsübersicht**: Summen nach grober Kategorie, wie Korallen, Fische und Wirbellose
-- **Verluste**: wie viele Einträge in den letzten 90 Tagen als verloren markiert wurden
+- die **Bestandsübersicht** mit Summen nach grober Kategorie, etwa Korallen, Fische und Wirbellose
+- die **Verluste**, also wie viele Einträge in den letzten 90 Tagen als verloren markiert wurden
 
-Einträge sind nach Typ gruppiert (SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch und so weiter), jeweils mit Menge und dem Datum, an dem sie hinzugefügt wurden.
+Darunter sind die Einträge nach Typ gruppiert (SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch und so weiter), jeweils mit Menge und dem Datum, an dem sie dazugekommen sind.
 
-**Verlorene zeigen** in der oberen Leiste schließt Stücke ein, die nicht mehr im Becken sind.
+Mit **Verlorene zeigen** in der oberen Leiste blendest du auch Tiere ein, die nicht mehr im Becken sind.
 
 ## Etwas hinzufügen
 
-Jeder Eintrag umfasst:
+Zu jedem Eintrag gehören:
 
-- **Name**: wie du es nennst
-- **Typ**: SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch, Wirbelloses, Anemone, oder Sonstiges
+- **Name**: wie du das Tier nennst
+- **Typ**: SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch, Wirbelloses, Anemone oder Sonstiges
 - **Art**: optional, falls du sie kennst
-- **Menge**: für eine Gruppe, wie einen Schwarm oder ein Frag-Paket
-- **Hinzugefügt am**: standardmäßig heute
-- **Notizen**: Lieferant, Platzierung, Kosten, oder jedes andere Detail, das du behalten willst
+- **Menge**: für eine Gruppe, etwa einen Schwarm oder ein Frag-Paket
+- **Hinzugefügt am**: steht zunächst auf heute
+- **Notizen**: Händler, Platz im Becken, Preis oder was du dir sonst merken willst
 
 ## Was daraus wurde
 
-Jeder Eintrag trägt einen Status:
+Jeder Eintrag hat einen Status:
 
-| Status | Bedeutet |
+| Status | Bedeutung |
 |---|---|
-| **Lebend** | Noch im Becken |
-| **Verloren** | Gestorben |
-| **Gefraggt** | Zerteilt; die Kolonie besteht weiter |
-| **Verkauft** | An jemand anderen gegangen |
-| **Umgezogen** | In einem anderen deiner Becken |
+| **Lebend** | noch im Becken |
+| **Verloren** | gestorben |
+| **Gefraggt** | zerteilt, die Kolonie lebt weiter |
+| **Verkauft** | an jemand anderen abgegeben |
+| **Umgezogen** | in einem deiner anderen Becken |
 
-Ein Stück als **verloren** zu markieren erfasst das Datum und, optional, einen Grund. Verluste konsequent zu erfassen ist es, was Muster später sichtbar macht: Verluste, die sich in einem Bereich des Beckens konzentrieren, oder die einem bestimmten Ereignis folgen.
+Markierst du ein Tier als **verloren**, speichert Cora das Datum und auf Wunsch einen Grund. Trägst du Verluste konsequent ein, erkennst du später Muster. Vielleicht häufen sich Verluste an einer Stelle im Becken oder nach einem bestimmten Ereignis.
 
-:::note "Unbekannt" ist ein gültiger Verlustgrund
-Erfasse das Datum auch, wenn die Ursache nicht bekannt ist. Das Datum ist es, was den späteren Vergleich stützt.
+:::note "Unbekannt" ist ein gültiger Grund
+Trag das Datum auch dann ein, wenn du die Ursache nicht kennst. Genau das Datum brauchst du später zum Vergleichen.
 :::
 
 ## Besatz und der Rest von Cora
 
-Dein Besatz ist Teil dessen, wogegen deine Wasserwerte bewertet werden; ein stark besetztes SPS-System und ein leicht besetztes Weichkorallenbecken werden nicht am gleichen Maßstab gemessen.
+Dein Besatz fließt in die Bewertung deiner Wasserwerte ein. Ein dicht besetztes SPS-Becken und ein locker besetztes Weichkorallenbecken misst Cora nicht mit demselben Maßstab.
 
-Du kannst auch danach fragen. *"Wann habe ich die Hammerkoralle hinzugefügt?"* oder *"Was habe ich dieses Jahr verloren?"* werden aus diesem Eintrag beantwortet.
+Du kannst Cora auch nach deinem Besatz fragen. Fragen wie *"Wann habe ich die Hammerkoralle eingesetzt?"* oder *"Was habe ich dieses Jahr verloren?"* beantwortet Cora aus diesen Einträgen.

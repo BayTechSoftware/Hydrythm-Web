@@ -1,56 +1,56 @@
 ---
 title: Dozowanie
-description: Powiedz Corze, co dozujesz, aby mogła zamienić mililitry w rzeczywistą zmianę w Twoim akwarium.
+description: Podaj Corze, co dozujesz, a przeliczy mililitry na prawdziwą zmianę w akwarium.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 18
 group: Records
 ---
 
-Cora może wykonać matematykę dozowania tylko, jeśli wie, jak silne są Twoje produkty. Skonfiguruj to raz, a wszystko dalej (kalkulator, śledzenie zużycia i to, co Cora mówi Ci o Twoim dozowaniu) staje się rzeczywistymi liczbami, a nie zgadywankami.
+Cora policzy dawki tylko wtedy, gdy zna stężenie Twoich produktów. Ustaw to raz, a kalkulator, śledzenie zużycia i uwagi Cory o dozowaniu będą oparte na prawdziwych liczbach, a nie na domysłach.
 
-**Ustawienia → Dosing Products.**
+**Ustawienia → Produkty dozujące.**
 
-![Produkty dozujące](img/mobile-dosing.webp "Produkty niosą siłę, którą Cora wykorzystuje do obliczeń dawki i zużycia.")
+![Produkty dozujące](img/mobile-dosing.webp "Każdy produkt ma stężenie, z którego Cora liczy dawki i zużycie.")
 
 ## Biblioteka produktów
 
-Cora ma wbudowaną bibliotekę popularnych produktów. Wyszukaj swój i dodaj go; siła przychodzi razem z nim.
+Cora ma wbudowaną bibliotekę popularnych produktów. Wyszukaj swój i dodaj go. Stężenie dodaje się razem z nim.
 
-Każdy produkt zapisuje, o ile podnosi parametr na mililitr (albo na gram, dla produktów suchych) w ustalonej objętości wody. To jest liczba, która zamienia "5 ml" na "+0,2 dKH w Twoim akwarium".
+Przy każdym produkcie jest zapisane, o ile podnosi parametr na mililitr (albo na gram w przypadku produktów sypkich) w określonej objętości wody. To ta liczba zamienia „5 ml” w „+0,2 dKH w Twoim akwarium”.
 
-Produkty mogą nosić wartości alkaliczności, wapnia, magnezu, azotanów lub fosforanów; produkt dwuskładnikowy jedną każdej, produkt zbalansowany kilka.
+Produkt może mieć wartości dla alkaliczności, wapnia, magnezu, azotanów albo fosforanów. Produkt dwuskładnikowy ma po jednej wartości w każdej części, a produkt zbilansowany kilka.
 
-## Dodawanie własnego
+## Własny produkt
 
-Jeśli Twojego produktu nie ma w bibliotece, dodaj go jako własny i wpisz jego siłę. Etykieta producenta prawie zawsze to podaje: "1 ml na 100 litrów podnosi alkaliczność o 0,1 dKH" albo podobnie.
+Jeśli Twojego produktu nie ma w bibliotece, dodaj go jako własny i wpisz stężenie. Producent prawie zawsze podaje je na etykiecie, np. „1 ml na 100 litrów podnosi alkaliczność o 0,1 dKH”.
 
-:::warning Wpisz siłę podaną przez producenta
-Nieprawidłowa siła sprawia, że każde obliczenie dawki dla tego produktu jest błędne w tej samej proporcji. Jeśli liczba nie jest dostępna, pomiń produkt, zamiast szacować.
+:::warning Wpisz stężenie podane przez producenta
+Złe stężenie przekłamuje każdą dawkę tego produktu w tej samej proporcji. Jeśli nie znasz tej liczby, nie dodawaj produktu i nie zgaduj.
 :::
 
-**Sól morska** Twojego akwarium jest odrębną rzeczą od produktu dozującego: ustawia się ją w profilu akwarium, nie tutaj, a Cora ma zweryfikowany katalog popularnych soli reefowych z ich opublikowanymi wartościami do wyboru. Zobacz **[Profil akwarium](/help/mobile-tank-profile)**.
+**Sól morska** to co innego niż produkt dozujący. Ustawiasz ją w profilu akwarium, nie tutaj. Cora ma sprawdzony katalog popularnych soli z wartościami podanymi przez producentów, z którego możesz wybrać swoją. Więcej w **[Profilu akwarium](/help/mobile-tank-profile)**.
 
 ## Kalkulator dawek
 
-Z ustawionymi produktami Cora może obliczyć korektę, wykorzystując rzeczywistą objętość Twojego akwarium z jego profilu.
+Gdy produkty są ustawione, Cora policzy korektę na podstawie rzeczywistej objętości akwarium z jego profilu.
 
-Oblicza **zwiększenia**: alkaliczność, wapń, magnez oraz azotany lub fosforany, gdy je podnosisz.
+Kalkulator liczy **podnoszenie** alkaliczności, wapnia, magnezu oraz azotanów albo fosforanów.
 
-Dla **zmniejszeń** daje wskazówki, a nie dawkę; nie można zdozować parametru w dół, a odpowiedzią jest podmiana wody, zmiana mediów albo zmiana tego, co już dozujesz.
+Przy **obniżaniu** daje wskazówki, a nie dawkę. Parametru nie da się obniżyć dozowaniem. Pomaga podmiana wody, wymiana mediów albo zmiana tego, co już dozujesz.
 
-:::warning Duże korekty są rozłożone w czasie, nie dozowane naraz
-Cora ogranicza, o ile parametr może się zmienić w ciągu dnia, i rozkłada większą korektę na kilka dni. Jedna duża dawka to sposób, jak zaszokować akwarium; kalkulator nigdy takiej nie zaproponuje.
+:::warning Duże korekty są rozłożone na kilka dni
+Cora ogranicza, o ile parametr może się zmienić w ciągu dnia, i rozkłada większą korektę na kilka dni. Jedna duża dawka to prosty sposób na szok w akwarium, dlatego kalkulator nigdy jej nie zaproponuje.
 :::
 
-Objętość, którą wpisałeś podczas konfiguracji, ma tutaj znaczenie. Podana objętość błędna o 20% daje wartości dawek błędne o 20%.
+Tu liczy się objętość wpisana przy konfiguracji. Jeśli objętość różni się od prawdziwej o 20%, dawki też będą o 20% nietrafione.
 
 ## Zużycie
 
-Gdy Cora widzi zarówno Twoje dawki, jak i Twoje odczyty, może wyliczyć, co Twoje akwarium faktycznie zużywa, i powiedzieć Ci, kiedy to się zmienia.
+Gdy Cora widzi i dawki, i odczyty, potrafi policzyć, ile akwarium naprawdę zużywa, i dać znać, gdy to się zmienia.
 
-Zmiana zapotrzebowania to zachęta do sprawdzenia, nie diagnoza. Rosnące zapotrzebowanie na alkaliczność często odzwierciedla wzrost; nagła zmiana w którąkolwiek stronę może równie dobrze wynikać z dawki, która nie jest dostarczana, błędu testowania, wytrącania, podmiany wody albo zmiany w sprzęcie. Sprawdź, co się zmieniło wokół tej daty, zanim wyciągniesz wniosek.
+Zmiana zapotrzebowania to sygnał, żeby się przyjrzeć, a nie diagnoza. Rosnące zużycie alkaliczności często wynika ze wzrostu obsady. Nagła zmiana w którąkolwiek stronę może jednak wynikać z dawki, która nie dociera do akwarium, z błędu testu, wytrącania, podmiany wody albo zmiany w sprzęcie. Zanim wyciągniesz wniosek, sprawdź, co się zmieniło w okolicach tej daty.
 
 ## Sprzęt dozujący
 
-Jeśli masz podłączoną jednostkę dozującą, jej głowice pojawiają się jako urządzenia z własnymi odczytami: co pozostało w każdej głowicy i co dozowała. Zobacz **[Podłączanie sprzętu](/help/mobile-connections)**.
+Jeśli masz podłączoną pompę dozującą, jej głowice pojawiają się jako urządzenia z własnymi odczytami: ile zostało w każdej głowicy i co dozowała. Więcej w **[Podłączaniu sprzętu](/help/mobile-connections)**.

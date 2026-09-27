@@ -1,41 +1,41 @@
 ---
 title: Aktivität auf Cora Max
-description: Jeder Befehl, den dieses System ausgeführt, abgelehnt, oder nicht bestätigen konnte, lesbar an der Wand.
+description: Jeder Befehl, den dein System ausgeführt oder abgelehnt hat oder nicht bestätigen konnte, direkt an der Wand.
 section: Cora Max
 reviewed: 2026-09-09
 order: 10
 group: Alerts
 ---
 
-Cora Max zeigt dasselbe Aktivitätsprotokoll wie das Handy: jede **Aktuierungsanfrage** (jeder Versuch, etwas zu ändern) und das, was daraus wurde. Eine abgelehnte oder unbestätigte Anfrage hat die Ausrüstung vielleicht nie erreicht, und genau deshalb wird sie erfasst.
+Cora Max zeigt dasselbe Aktivitätsprotokoll wie dein Handy. Darin steht jede **Aktuierungsanfrage**, also jeder Versuch, etwas zu ändern, und was daraus geworden ist. Auch abgelehnte oder unbestätigte Anfragen stehen drin, denn sie haben die Ausrüstung vielleicht nie erreicht.
 
-Öffne es über das **Beckenmenü** (tippe auf den Beckennamen in der oberen Leiste) oder über **Einstellungen → Beckeneinstellungen → [dein Becken] → Aktivität**.
+Du öffnest es über das **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) oder über **Einstellungen → Beckeneinstellungen → [dein Becken] → Aktivität**.
 
-![Das Aktivitätsprotokoll auf Cora Max](img/max-activity.webp "Die Legende bleibt oben auf dem Bildschirm, sodass man sich ein Ergebnis nie merken muss.")
+![Das Aktivitätsprotokoll auf Cora Max](img/max-activity.webp "Die Legende bleibt oben auf dem Bildschirm, du musst dir die Ergebnisse also nicht merken.")
 
-## Was jeder Eintrag dir sagt
+## Was in einem Eintrag steht
 
-Jede Zeile benennt die Aktion, die Ausrüstung und die Zeit, dann zwei Dinge, die mehr zählen als beides.
+Jede Zeile nennt die Aktion, das Gerät und die Uhrzeit. Dazu kommen zwei Angaben, die meist wichtiger sind.
 
-**Was danach gefragt hat**: du an diesem Bildschirm, du auf deinem Handy, Sprache, der Assistent, eine [Automations](/help/mobile-automation)regel, eine Smart-Taste, oder dein Konto. Ein an der Wand erstellter Eintrag sagt das ausdrücklich.
+**Wer es ausgelöst hat**: du an diesem Bildschirm, du auf deinem Handy, die Sprachsteuerung, der Assistent, eine [Automations](/help/mobile-automation)regel, eine Smart-Taste oder dein Konto. Hast du etwas an der Wand ausgelöst, steht das ausdrücklich im Eintrag.
 
-**Wie es gereist ist**: ob der Befehl über dein eigenes Netzwerk ging oder über dein Konto, und welches Cora ihn ausgeführt hat. Auf einem System mit mehr als einem Cora ist das, wie du erkennst, welches gehandelt hat.
+**Welchen Weg der Befehl genommen hat**: ob er über dein eigenes Netzwerk oder über dein Konto lief und welches Cora ihn ausgeführt hat. Hast du mehr als ein Cora, erkennst du so, welches gehandelt hat.
 
 ## Die vier Ergebnisse
 
-| Ergebnis | Bedeutet |
+| Ergebnis | Bedeutung |
 |---|---|
-| **Bestätigt** | Die Ausrüstung hat zurückgemeldet, dass sie es getan hat |
-| **Unbestätigt** | Gesendet, aber nichts hat zurückgemeldet. Das bedeutet *wir wissen es nicht*, nicht *es hat funktioniert* |
-| **Abgelehnt** | Ist nicht gelaufen. Eine Sicherheitsregel, eine Sperre, oder die Ausrüstung selbst hat es abgelehnt |
-| **Keine Änderung** | Sie war schon in dem Zustand, den du verlangt hast |
+| **Bestätigt** | Das Gerät hat gemeldet, dass es den Befehl ausgeführt hat |
+| **Unbestätigt** | Gesendet, aber es kam keine Rückmeldung. Das heißt: *Wir wissen es nicht*. Es heißt nicht, dass es geklappt hat |
+| **Abgelehnt** | Wurde nicht ausgeführt. Eine Sicherheitsregel, eine Sperre oder das Gerät selbst hat es abgelehnt |
+| **Keine Änderung** | Das Gerät war schon in dem Zustand, den du wolltest |
 
-## Warum das Ergebnis an der Wand wichtig ist
+## Warum das Ergebnis wichtig ist
 
-Ein Befehl, der gesendet, aber nie bestätigt wurde, sieht in dem Moment, in dem du tippst, genauso aus wie einer, der funktioniert hat. Auf diesem Bildschirm wird dieser Unterschied sichtbar.
+In dem Moment, in dem du tippst, sieht ein gesendeter, aber nie bestätigter Befehl genauso aus wie einer, der geklappt hat. Erst hier siehst du den Unterschied.
 
-Wenn etwas, das du verlangt hast, nicht passiert zu sein scheint, schau hier nach, bevor du annimmst, dass die Ausrüstung ausgefallen ist. Die Antwort ist meist, dass die Anfrage abgelehnt wurde, oder dass nie etwas zurückgemeldet hat.
+Scheint etwas nicht passiert zu sein, schau zuerst hier nach, bevor du von einem Defekt ausgehst. Meist wurde die Anfrage abgelehnt, oder es kam nie eine Rückmeldung.
 
 ## Zusammen mit dem Tagebuch lesen
 
-Aktivität enthält, was das System getan hat. Das [Tagebuch](/help/mobile-journal) enthält, was du von Hand getan hast. Gemeinsam erklären sie die meisten Überraschungen.
+In der Aktivität steht, was das System getan hat. Im [Tagebuch](/help/mobile-journal) steht, was du von Hand gemacht hast. Zusammen erklären die beiden die meisten Überraschungen.

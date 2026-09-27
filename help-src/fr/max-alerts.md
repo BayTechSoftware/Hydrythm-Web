@@ -1,46 +1,46 @@
 ---
 title: Alertes sur Cora Max
-description: Pastilles d’alerte dans la barre supérieure, boîte de réception des notifications, et modification des seuils au mur.
+description: Les alertes dans la barre du haut, l’historique des notifications et le réglage des seuils depuis Cora Max.
 section: Cora Max
 reviewed: 2026-09-27
 order: 11
 group: Alerts
 ---
 
-## Pastilles d’alerte
+## Alertes dans la barre du haut
 
-Tout ce qui est actuellement hors plage apparaît comme une pastille dans la barre supérieure, avec **+n** quand il y en a plus que ce qui tient. Touchez une pastille pour voir la liste complète.
+Quand une mesure sort de sa plage, elle apparaît sous forme de petite étiquette dans la barre du haut. S’il y en a trop pour tout afficher, vous voyez **+2** (ou le nombre restant). Touchez une étiquette pour les voir toutes.
 
-Les pastilles sont la raison pour laquelle Cora Max fonctionne comme un écran mural : les problèmes de l’aquarium sont visibles depuis l’autre bout de la pièce sans rien toucher.
+On les lit depuis l’autre bout de la pièce, sans toucher l’écran.
 
-## Quand une alerte apparaît au mur
+## Quand une alerte s’affiche
 
-Quand une mesure sort de sa plage, Cora Max affiche l’alerte complète au milieu de l’écran, pas seulement comme une pastille. Trois boutons se trouvent en dessous :
+Quand une mesure sort de sa plage, Cora Max affiche aussi l’alerte en entier au milieu de l’écran. Trois boutons se trouvent en dessous :
 
-1. **Répondre à la voix** : parlez à Cora de l’alerte sans avoir à taper ou toucher quoi que ce soit d’autre. Voir [Parler à Cora](/help/max-voice).
-2. **Reporter [durée]** : arrête les notifications push pour cette alerte pendant une durée définie, sans éteindre l’alerte. L’étiquette du bouton indique elle-même la durée, par exemple **Reporter 1 h**. C’est la même période de repos réglée pour ce type d’alerte dans les réglages d’alertes de Cora Mobile, et elle peut aller jusqu’à **1 semaine** pour quelque chose comme un niveau de réactif bas qui ne changera pas pendant des jours.
-3. **Ignorer** : ferme l’alerte maintenant. Elle reste silencieuse jusqu’à ce que la mesure revienne dans sa plage normale, puis se réarme, donc une répétition du même problème déclenche une nouvelle alerte plutôt que de rester silencieuse pour toujours.
+1. **Répondre à la voix** : parlez à Cora de l’alerte, sans rien taper ni toucher d’autre. Plus de détails dans [Parler à Cora](/help/max-voice).
+2. **Reporter [durée]** : l’alerte se tait sur ce Cora Max pendant un certain temps, mais elle reste active. Le bouton indique la durée, par exemple **Reporter 1 h**. C’est le **Délai entre les alertes** réglé pour ce type d’alerte dans Cora Mobile. Il peut aller jusqu’à **1 semaine**, par exemple pour un réactif presque vide qui ne bougera pas pendant des jours.
+3. **Ignorer** : ferme l’alerte tout de suite. Elle reste silencieuse jusqu’à ce que la mesure revienne dans sa plage. Si le problème revient ensuite, vous recevez une nouvelle alerte.
 
-**Si cela ne fonctionne pas :** si Reporter ou Ignorer affiche une erreur, réessayez une fois. Si cela continue d’échouer, voir [Résolution de problèmes](/help/troubleshooting).
+Si **Reporter** ou **Ignorer** affiche une erreur, réessayez une fois. Si l’erreur persiste, consultez la page [Résolution de problèmes](/help/troubleshooting).
 
-:::note Reporter ne masque pas l’alerte
-Reporter et Ignorer ne mettent en silence que **ce Cora Max**. Ici, l’alerte arrête d’apparaître, de sonner et de parler, et elle quitte la liste en haut de l’écran jusqu’à la fin de la période de report (ou, après Ignorer, jusqu’à ce que la mesure revienne dans sa plage normale). Votre téléphone reçoit toujours ses notifications, et tout autre Cora Max affiche toujours l’alerte. L’alerte reste aussi dans l’**Historique des notifications**, et vos réglages d’alertes ne changent pas.
+:::note Le report ne concerne que ce Cora Max
+**Reporter** et **Ignorer** n’agissent que sur **ce Cora Max**. Ici, l’alerte ne s’affiche plus, ne sonne plus et ne parle plus. Elle quitte aussi la liste de la barre du haut jusqu’à la fin du report, ou, après **Ignorer**, jusqu’à ce que la mesure revienne dans sa plage. Votre téléphone reçoit toujours les notifications et les autres Cora Max affichent toujours l’alerte. Elle reste dans l’**Historique des notifications** et vos réglages d’alertes ne changent pas.
 :::
 
-## La boîte de réception des notifications
+## L’historique des notifications
 
-**Réglages → Réglages Cora Max → Notifications → Historique des notifications** est la boîte de réception **pour l’ensemble du compte** : chaque briefing, alarme et avis de compte pour tout votre système, pas seulement ce que cet écran a déclenché. Elle inclut tout ce que votre téléphone a manqué.
+**Réglages → Réglages Cora Max → Notifications → Historique des notifications** regroupe les notifications de **tout le compte**. Vous y trouvez chaque briefing, alarme et avis de compte pour tout votre système, y compris ce qui ne vient pas de cet écran et ce que votre téléphone a manqué.
 
 ## Modifier les seuils
 
 ![Réglages de l’aquarium sur Cora Max](img/max-tank-settings.webp "Chaque aquarium a son propre journal, entretien, alertes, population et briefing.")
 
-Touchez le nom de l’aquarium dans la barre supérieure et choisissez **Alertes**, ou allez dans **Réglages → [votre aquarium] → Seuils d’alerte**. Les deux ouvrent les mêmes plages que le téléphone. Un changement fait ici s’applique partout.
+Touchez le nom de l’aquarium dans la barre du haut et choisissez **Alertes**, ou allez dans **Réglages → [votre aquarium] → Seuils d’alerte**. Vous arrivez aux mêmes plages que sur le téléphone. Ce que vous changez ici s’applique partout.
 
-Les seuils individuels peuvent aussi être modifiés en ouvrant un widget sur le tableau de bord.
+Vous pouvez aussi changer un seuil en ouvrant son widget sur le tableau de bord.
 
-Voir [Alertes et seuils](/help/mobile-alerts) pour savoir comment fonctionnent les plages et les règles.
+Le fonctionnement des plages et des règles est expliqué dans [Alertes et seuils](/help/mobile-alerts).
 
-:::note Les alertes sont déclenchées une fois, pour le compte
-Une alerte n’est pas déclenchée séparément par chaque appareil. Cora Max, votre téléphone et tout autre écran affichent la même alerte, et elle se ferme partout à la fois quand la mesure revient dans la plage.
+:::note Une seule alerte pour tout le compte
+Chaque appareil ne crée pas sa propre alerte. Cora Max, votre téléphone et les autres écrans affichent la même, et elle disparaît partout en même temps quand la mesure revient dans sa plage.
 :::

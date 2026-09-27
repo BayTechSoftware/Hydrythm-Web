@@ -7,14 +7,14 @@ order: 10
 group: Equipment
 ---
 
-Cora współpracuje ze sprzętem, który już posiadasz. Ta strona opisuje, co jest wspierane i czego wymaga każde połączenie.
+Cora współpracuje ze sprzętem, który już masz. Tutaj znajdziesz listę obsługiwanego sprzętu i to, czego potrzebuje każde połączenie.
 
-Każda marka łączy się w sposób, który jej najbardziej odpowiada, więc zacznij od punktu wejścia dla Twojego sprzętu:
+Każda marka łączy się trochę inaczej, więc zacznij od miejsca właściwego dla Twojego sprzętu:
 
-| Marka | Zacznij od |
+| Marka | Gdzie zacząć |
 |---|---|
-| Neptune Apex | Akwarium; jego profil zawiera połączenie z Apex |
-| Red Sea ReefBeat | Akwarium |
+| Neptune Apex | Od akwarium. Połączenie z Apex jest w jego profilu |
+| Red Sea ReefBeat | Od akwarium |
 | Jecod / Jebao | **Urządzenia → Znajdź pompę w Twojej sieci** albo Bluetooth |
 | AquaWiz | **Urządzenia → Dodaj AquaWiz** |
 | Maxspect *(beta)* | **Urządzenia → Znajdź pompę w Twojej sieci** |
@@ -22,82 +22,82 @@ Każda marka łączy się w sposób, który jej najbardziej odpowiada, więc zac
 
 ## Neptune Apex
 
-Cora odczytuje Twój Apex przez Twoją lokalną sieć: sondy, gniazda i wszystkie zamontowane moduły rozszerzeń.
+Cora odczytuje Apex przez sieć lokalną: sondy, gniazda i zamontowane moduły rozszerzeń.
 
-**Będziesz potrzebować:** adresu Twojego Apex w sieci i jego logowania.
+Potrzebujesz adresu Apex w Twojej sieci i danych logowania do niego.
 
-**Co otrzymujesz:** każda sonda, którą zgłasza Twój Apex, staje się źródłem, które możesz umieścić na pulpicie. Gniazda pojawiają się jako kontrolki. Zamontowane moduły rozszerzeń otrzymują własne kafelki urządzeń.
+Każda sonda, którą zgłasza Apex, staje się źródłem, które możesz umieścić na pulpicie. Gniazda pojawiają się jako przełączniki, a zamontowane moduły rozszerzeń dostają własne kafelki urządzeń.
 
-:::note Twój Apex zachowuje własne programowanie
-Cora odczytuje Twój Apex, pokazuje go razem z resztą i może przełączać gniazda, gdy o to poprosisz. Twoje własne programowanie działa dalej dokładnie tak, jak je skonfigurowałeś.
+:::note Apex zachowuje własne programowanie
+Cora odczytuje Apex, pokazuje go obok reszty sprzętu i przełącza gniazda, gdy ją o to poprosisz. Twoje programowanie w Apex działa dalej dokładnie tak, jak je ustawiono.
 :::
 
 ## Red Sea ReefBeat
 
-Cora rozmawia z urządzeniami ReefBeat w Twojej lokalnej sieci. Wspierane jednostki to **ReefDose**, **ReefATO+**, **ReefMat** i **ReefRun**.
+Cora łączy się ze sprzętem ReefBeat w sieci lokalnej. Obsługiwane są **ReefDose**, **ReefATO+**, **ReefMat** i **ReefRun**.
 
-**Będziesz potrzebować:** sprzętu już skonfigurowanego w ReefBeat i w tej samej sieci co Twój telefon w momencie dodawania.
+Sprzęt musi być już skonfigurowany w ReefBeat, a przy dodawaniu musi być w tej samej sieci co telefon.
 
-**Co otrzymujesz:** stronę urządzenia dla każdej jednostki, plus odczyty każdej jednostki jako źródła. ReefDose zgłasza swoje głowice i pojemniki; ReefATO+ zgłasza swój zbiornik i dolewki; ReefMat zgłasza pozostałe dni; ReefRun zgłasza stan pompy.
+Każde urządzenie dostaje własną stronę, a jego odczyty stają się źródłami. ReefDose zgłasza głowice i pojemniki. ReefATO+ zgłasza zbiornik i dolewki. ReefMat podaje, na ile dni wystarczy maty. ReefRun zgłasza stan pompy.
 
 ## Jecod / Jebao
 
-Cora łączy się z pompami Jecod i może je odczytywać oraz kontrolować. Jednostki Jecod łączą się z Corą w jeden z dwóch sposobów, i to, którego używa Twoja, decyduje o tym, co jest możliwe.
+Cora łączy się z pompami Jecod, odczytuje je i nimi steruje. Pompa Jecod łączy się z Corą na jeden z dwóch sposobów i od tego zależy, co możesz z nią zrobić.
 
-![Znajdowanie pompy](img/mobile-connections.webp "Skan wyjaśnia, czego potrzebuje i dlaczego pompa może nie pojawić się przy pierwszym przeszukaniu.")
+![Wyszukiwanie pompy](img/mobile-connections.webp "Wyszukiwanie wyjaśnia, czego potrzebuje i czemu pompa może się nie pojawić za pierwszym razem.")
 
-**Przez Twoją sieć.** Użyj **Znajdź pompę w Twojej sieci**; znajduje jednostki, które się ogłaszają, więc nie trzeba wpisywać żadnego adresu. Pompę sieciową można odczytywać i sterować nią, gdy jest zasilana **i dostępna**: albo Twój telefon jest w tej samej sieci, albo Cora Max w tej sieci przekazuje połączenie za Ciebie. Poza domem, bez Cora Max na miejscu, pompa dostępna tylko przez sieć jest widoczna, ale nie można nią sterować.
+Pierwszy sposób to Twoja sieć. Użyj **Znajdź pompę w Twojej sieci**. Cora znajdzie pompy, które same się ogłaszają, więc nie trzeba wpisywać adresu. Pompę sieciową możesz odczytywać i sterować nią, gdy ma zasilanie **i jest osiągalna**. Oznacza to, że telefon jest w tej samej sieci albo Cora Max w tej sieci pośredniczy w połączeniu. Poza domem, jeśli na miejscu nie ma Cora Max, pompę tylko sieciową zobaczysz, ale nie zmienisz jej ustawień.
 
-:::note Pompa często nie odpowiada na pierwsze przeszukanie
-Pompy odpowiadają na jeden skan i pomijają następny. Jeśli Twojej nie ma na liście, przeskanuj ponownie, zamiast zakładać, że jest nieosiągalna.
+:::note Pompa często nie odpowiada za pierwszym razem
+Pompy odpowiadają na jedno wyszukiwanie, a na następne już nie. Jeśli Twojej nie ma na liście, wyszukaj jeszcze raz. To nie znaczy, że jest nieosiągalna.
 :::
 
-Jeśli wyszukiwanie nic nie znajdzie, wynik pokazuje adresy, które zostały sprawdzone przez Wi-Fi. Jeśli Twoja pompa ma inny adres w aplikacji Jebao, Twój telefon jest w innej sieci. Sieć gościnna albo IoT, albo pasmo tylko 5 GHz, nie zobaczy tych pomp. Na iPhone Cora potrzebuje też dostępu do sieci lokalnej, aby zobaczyć pompy w Twoim Wi-Fi. Jeśli jest wyłączony, lista zostaje pusta i nie pojawia się żaden błąd, więc wynik to wyjaśnia i proponuje **Otwórz Ustawienia**, aby go z powrotem włączyć. **Ustawienia → Dostęp do urządzeń** otwiera to samo miejsce w każdej chwili; zobacz [Ustawienia](/help/mobile-settings).
+Jeśli wyszukiwanie nic nie znajdzie, wynik pokaże adresy sprawdzone przez Wi-Fi. Jeśli w aplikacji Jebao pompa ma inny adres, telefon jest w innej sieci. W sieci gościnnej, sieci IoT albo w paśmie tylko 5 GHz te pompy nie są widoczne. Na iPhonie Cora potrzebuje też dostępu do sieci lokalnej, żeby widzieć pompy w Twoim Wi-Fi. Bez niego lista zostaje pusta i nie pojawia się żaden błąd. Dlatego wynik to wyjaśnia i proponuje przycisk **Otwórz Ustawienia**, żeby włączyć ten dostęp. To samo miejsce otworzysz w każdej chwili przez **Ustawienia → Dostęp do urządzeń**. Więcej w [Ustawieniach](/help/mobile-settings).
 
-**Przez Bluetooth.** Niektóre pompy są dostępne tylko z telefonu znajdującego się blisko nich. Strona pompy mówi o tym wprost i pokazuje ostatnie ustawienia, które udało się odczytać, wraz z ich wiekiem.
+Drugi sposób to Bluetooth. Część pomp jest osiągalna tylko z telefonu, który jest blisko nich. Strona takiej pompy mówi o tym wprost. Pokazuje też ostatnie ustawienia, które udało się odczytać, i to, jak dawno to było.
 
-Cora potrzebuje do tego uprawnienia Bluetooth. Udziel go przed dodaniem pompy Bluetooth: bez uprawnienia pompa nie może zostać wykryta w ogóle, a nie tylko dłużej się pojawia.
+Do tego Cora potrzebuje uprawnienia Bluetooth. Włącz je, zanim dodasz pompę Bluetooth. Bez niego Cora w ogóle nie wykryje pompy.
 
-**Co otrzymujesz:** aktualny stan, tryb i intensywność, wstrzymanie na czas karmienia oraz program dnia. Zobacz [Planowanie pracy sprzętu](/help/mobile-schedules).
+Cora pokazuje bieżący stan, tryb i intensywność, pauzę na karmienie oraz program dnia. Więcej w [Harmonogramach sprzętu](/help/mobile-schedules).
 
-:::warning Pompa Bluetooth jest dostępna tylko, gdy jesteś blisko niej
-Jej strona pokazuje ostatnie ustawienia odczytane przez Corę i jak dawno temu. Zmiana czegokolwiek, w tym uruchomienie wstrzymania na czas karmienia, wymaga, aby pompa była w zasięgu. Stań blisko niej i otwórz stronę ponownie.
+:::warning Pompa Bluetooth działa tylko z bliska
+Jej strona pokazuje ostatnie ustawienia odczytane przez Corę i czas odczytu. Żeby cokolwiek zmienić, także włączyć pauzę na karmienie, pompa musi być w zasięgu. Podejdź do niej i otwórz stronę jeszcze raz.
 :::
 
 ## Kontroler AquaWiz KH
 
 Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez Twoje konto AquaWiz.
 
-**Będziesz potrzebować:** nazwy użytkownika i hasła AquaWiz. Cora loguje się w Twoim imieniu i zachowuje to logowanie, aby móc dalej odczytywać dane.
+Potrzebujesz nazwy użytkownika i hasła AquaWiz. Cora loguje się w Twoim imieniu i zachowuje to logowanie, żeby dalej odczytywać dane.
 
-**Co otrzymujesz:** alkaliczność jako źródło, aktualizowaną tak często, jak Twój kontroler wykonuje miareczkowanie. pH jest dostępne jako opcja, jeśli Twoja jednostka je zgłasza.
+Alkaliczność staje się źródłem, które odświeża się tak często, jak kontroler wykonuje miareczkowanie. Jeśli Twój kontroler zgłasza pH, możesz je dodać.
 
-:::warning Jedno logowanie, wspólne
-AquaWiz wydaje jedno logowanie na konto, więc to, które przechowuje Cora, jest tym samym, którego używa ich własna aplikacja. Zmiana hasła AquaWiz odłączy Corę; połącz ją ponownie z wiersza urządzenia. Aby całkowicie odebrać Corze dostęp, usuń urządzenie w Corze i zmień swoje hasło AquaWiz.
+:::warning Jedno wspólne logowanie
+AquaWiz daje jedno logowanie na konto, więc Cora używa tego samego logowania co aplikacja AquaWiz. Po zmianie hasła AquaWiz Cora straci połączenie. Połącz ją ponownie z wiersza urządzenia. Jeśli chcesz całkiem odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.
 :::
 
 ## Maxspect
 
-:::note Wsparcie dla Maxspect jest w wersji beta
-Wsparcie dla gyre Maxspect jest wciąż testowane i rozwijane, więc niektóre kontrolki mogą być ograniczone, a to, co widzisz tutaj, może się zmienić między aktualizacjami. Jeśli coś nie działa tak, jak opisano, powiedz nam o tym w [Pomoc](/help/mobile-support).
+:::note Obsługa Maxspect jest w wersji beta
+Obsługę gyre Maxspect wciąż testujemy i rozwijamy. Część ustawień może być ograniczona, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
 :::
 
-Cora łączy się z pompami Maxspect Gyre i może je odczytywać oraz sterować nimi.
+Cora łączy się z pompami Maxspect Gyre, odczytuje je i nimi steruje.
 
-**Będziesz potrzebować:** w momencie dodawania, gyre i Twój telefon w tej samej sieci. Użyj **Urządzenia → Znajdź pompę w Twojej sieci**.
+Przy dodawaniu gyre i telefon muszą być w tej samej sieci. Użyj **Urządzenia → Znajdź pompę w Twojej sieci**.
 
-**Co otrzymujesz:** wzór fali i prędkość dla **Gyre A** i **Gyre B**, harmonogram gyre do podglądu (ustawiany w aplikacji Maxspect), **Stan pompy** oraz to, czy pompa działa, wraz z czasem ostatniego odczytu. Zobacz [Kontrola sprzętu](/help/mobile-device-control).
+Cora pokazuje wzór fali i prędkość dla **Gyre A** i **Gyre B**, harmonogram gyre (tylko do podglądu, ustawiasz go w aplikacji Maxspect), **Stan pompy** oraz to, czy pompa pracuje i kiedy odczytano ją ostatnio. Więcej w [Sterowaniu sprzętem](/help/mobile-device-control).
 
-:::note Jak Cora Mobile dociera do gyre
-Gdy akwarium obsługuje Cora Max, Cora Mobile działa przez ten Cora Max, także wtedy, gdy jesteś poza domem, a **Zmień ustawienia** wychodzi od ostatniego odczytu tego Cora Max. W innym przypadku Twój telefon rozmawia z gyre bezpośrednio i musi być w sieci gyre. Otwarcie strony gyre wtedy je odczytuje; jeśli strona pokazuje starszy zapisany odczyt, **Zmień ustawienia** zostaje ukryte, aż dotkniesz odświeżenia.
+:::note Jak Cora Mobile łączy się z gyre
+Jeśli akwarium obsługuje Cora Max, Cora Mobile łączy się przez niego, także poza domem. **Zmień ustawienia** zaczyna wtedy od ostatniego odczytu z tego Cora Max. W przeciwnym razie telefon łączy się z gyre bezpośrednio i musi być w jego sieci. Otwarcie strony gyre odczytuje go wtedy od razu. Jeśli strona pokazuje starszy zapisany odczyt, przycisk **Zmień ustawienia** pozostaje ukryty, dopóki nie odświeżysz strony.
 :::
 
-## Zapisywanie ręczne
+## Wpisywanie wyników ręcznie
 
-Niektóre parametry pochodzą z testu kroplowego, a nie ze sprzętu. Aby wpisać wynik, przewiń do dołu pulpitu i dotknij **Zapisz parametry**.
+Część parametrów pochodzi z testów kropelkowych, a nie ze sprzętu. Żeby wpisać wynik, przewiń pulpit na sam dół i dotknij **Zapisz parametry**.
 
-Odczyty zapisane ręcznie są pełnoprawne: pojawiają się na widżetach, mają własne źródło i wiek, zasilają Reef Buddy i to z nimi Cora porównuje Twoje sondy, gdy informuje, że dwa źródła się nie zgadzają.
+Wyniki wpisane ręcznie mają taką samą wagę jak inne. Pojawiają się na widżetach, mają własne źródło i wiek, trafiają do Reef Buddy. Właśnie z nimi Cora porównuje sondy, gdy informuje, że dwa źródła podają różne wartości.
 
-## Jeśli połączenie przestaje działać
+## Gdy połączenie przestaje działać
 
-Wiersz urządzenia mówi, z jakim rodzajem problemu masz do czynienia. Zobacz tabelę w **[Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices)** oraz **[Rozwiązywanie problemów](/help/troubleshooting)** w sprawach, których to nie obejmuje.
+Wiersz urządzenia podpowiada, jaki to rodzaj problemu. Sprawdź tabelę w **[Dodawaniu, edytowaniu i usuwaniu urządzeń](/help/mobile-devices)**. Jeśli Twojego problemu tam nie ma, zajrzyj do **[Rozwiązywania problemów](/help/troubleshooting)**.

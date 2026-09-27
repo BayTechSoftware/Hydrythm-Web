@@ -1,68 +1,68 @@
 ---
 title: Setting up Cora Mobile
-description: Install Cora, create your account, add your first tank, and get your first readings on screen.
+description: Install Cora, create your account, add your first tank and get your first readings on screen.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
 
-Setup takes around ten minutes. At the end you will have an account, a configured tank, and a dashboard showing live readings.
+Setup takes about ten minutes. When you're done, you'll have an account, a tank that's set up, and a dashboard with live readings.
 
 ## Install Cora Mobile
 
-On iPhone, get **Cora Mobile** from the [App Store](https://apps.apple.com/app/cora-mobile/id6760301981). On Android, Cora Mobile is coming soon to Google Play. On your home screen the icon is labelled **Cora**; that is Cora Mobile.
+On iPhone, get **Cora Mobile** from the [App Store](https://apps.apple.com/app/cora-mobile/id6760301981). On Android, Cora Mobile is coming soon to Google Play. The icon on your home screen says **Cora**. That's Cora Mobile.
 
 ## Looking around first
 
-Before creating an account you can choose **Explore a demo reef**, a sample tank with realistic data, laid out exactly like a real one. It runs entirely on sample data: no equipment is involved, and nothing you do in it is saved.
+Before you create an account, you can tap **Explore a demo reef**. It's a sample tank with realistic data, laid out just like a real one. It only uses sample data. No equipment is involved, and nothing you do there is saved.
 
-Use it to see how dashboards, widgets and readings work before committing.
+It's a good way to see how dashboards, widgets and readings work before you commit.
 
 ## Create your account
 
-Open Cora Mobile and choose **Create account**. You can sign up with an email address, or with Apple or Google if you would rather not manage another password.
+Open Cora Mobile and tap **Create account**. Sign up with an email address, or with Apple or Google if you'd rather not keep track of another password.
 
-You will be asked to verify your email. Cora sends a **link**; open it on the device and come back to Cora Mobile. Check spam if it does not arrive within a minute.
+Next you'll verify your email. Cora sends you a **link**. Open it on the same phone, then come back to Cora Mobile. If it hasn't arrived within a minute, check your spam folder.
 
-:::note One account, every screen
-Your account ties everything together. Sign in with the same account on Cora Max or another phone and you get the same tanks, devices, readings and records.
+:::note One account for every screen
+Your account holds everything together. Sign in with it on Cora Max or another phone and you'll see the same tanks, devices, readings and records.
 
-Dashboard layouts are **not** shared; each screen keeps its own. See [What is shared and what is not](/help/mobile-multi-device).
+Dashboard layouts are **not** shared. Each screen keeps its own. See [What is shared and what is not](/help/mobile-multi-device).
 :::
 
 ## Add your first tank
 
-A **tank** in Cora is a body of water you want to track. Most people have one. If you run a frag system or a quarantine, those are separate tanks.
+In Cora, a **tank** is any body of water you want to track. Most people have one. If you run a frag system or a quarantine tank, each of those is a tank of its own.
 
-The setup wizard covers the following. All of it can be changed later from your [tank profile](/help/mobile-tank-profile):
+The setup wizard asks for three things. You can change all of them later in your [tank profile](/help/mobile-tank-profile).
 
-1. **Name**: the name you use for it day to day: "Display", "Frag", "QT".
-2. **Type**: mixed reef, SPS-dominant, softie, fish-only.
-3. **Dimensions and volume**: actual water volume including the sump. This is what dosing maths uses, so it is worth getting roughly right.
+1. **Name** is what you call it day to day, like "Display", "Frag" or "QT".
+2. **Type** is mixed reef, SPS-dominant, softie or fish-only.
+3. **Dimensions and volume** is the real water volume, sump included. Dosing maths uses this number, so try to get it roughly right.
 
-That is the whole wizard. Everything else (livestock, equipment, dosing, targets, lighting, flow) is filled in afterwards from [your tank profile](/help/mobile-tank-profile), at your own pace.
+That's the whole wizard. You fill in the rest later from [your tank profile](/help/mobile-tank-profile), whenever it suits you. That covers livestock, equipment, dosing, targets, lighting and flow.
 
-:::note Tank age affects how readings are assessed
-Readings are assessed against what is normal for a tank of the age you enter. Record a cycling tank as such.
+:::note Tank age changes how readings are judged
+Cora judges readings against what's normal for a tank of the age you enter. If your tank is still cycling, say so.
 :::
 
 ## Connect your equipment
 
-With a tank in place, go to the **Devices** tab and add your equipment. Cora works with equipment you already own; see **[Connecting your equipment](/help/mobile-connections)** for what is supported and what each one needs.
+Once you have a tank, go to the **Devices** tab and add your equipment. Cora works with gear you already own. [Connecting your equipment](/help/mobile-connections) lists what's supported and what each device needs.
 
-You can skip this step and return to it later. A tank works perfectly well without devices; you log readings by hand instead.
+You can skip this and come back later. A tank works fine without devices. You just log readings by hand.
 
 ## Log your first readings
 
-Some parameters are only available from a test kit. Scroll to the bottom of the dashboard and tap **Log Parameters**.
+Some parameters only come from a test kit. Scroll to the bottom of the dashboard and tap **Log Parameters**.
 
 ![Logging parameters](img/mobile-logparams.webp "Enter test-kit results for any parameter the tank tracks.")
 
-Each reading is stored with its source and timestamp. This is what allows Cora to report when a probe and a test kit disagree.
+Cora saves each reading with its source and time. That's how it can tell you when a probe and a test kit disagree.
 
 ## What good looks like
 
-You are set up when the Dashboard shows your tank name at the top, at least a few widgets with numbers in them, and a **Reef Buddy** card once the first briefing runs overnight.
+You're set up when the Dashboard shows your tank name at the top and a few widgets with numbers in them. A **Reef Buddy** card follows once the first briefing runs overnight.
 
-Next: **[The five tabs](/help/mobile-tour)**.
+Next, have a look at [The five tabs](/help/mobile-tour).

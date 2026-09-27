@@ -1,88 +1,88 @@
 ---
 title: Modifier votre tableau de bord
-description: Réglez le nombre de colonnes, ajoutez et disposez des widgets, redimensionnez des tuiles, et enregistrez des mises en page réutilisables entre aquariums.
+description: Choisir le nombre de colonnes, ajouter et placer des widgets, changer la taille des tuiles et enregistrer des mises en page à réutiliser sur d’autres aquariums.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 6
 group: Your dashboard
 ---
 
-L’éditeur de tableau de bord contrôle quels widgets apparaissent sur le tableau de bord d’un aquarium et comment ils sont disposés.
+L’éditeur de tableau de bord sert à choisir les widgets affichés sur le tableau de bord d’un aquarium et à les placer.
 
 ## Ouvrir l’éditeur
 
 Faites défiler jusqu’en bas du tableau de bord et touchez **Modifier le tableau de bord**.
 
-:::note Le crayon à côté du nom de l’aquarium est un écran différent
-Cela ouvre **Modifier l’aquarium** : le profil de l’aquarium, couvrant le volume, la population, le dosage et l’équipement. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
+:::note Le crayon à côté du nom de l’aquarium ouvre un autre écran
+Il ouvre **Modifier l’aquarium**, c’est-à-dire le profil de l’aquarium : volume, population, dosage et équipement. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
 :::
 
 ![L’éditeur de tableau de bord](img/mobile-edit.webp "Chaque tuile affiche son nom et son type. Touchez une croix rouge pour la retirer.")
 
-## Régler le nombre de colonnes
+## Choisir le nombre de colonnes
 
-Choisissez **2**, **3** ou **4** colonnes en haut de l’éditeur. La grille s’agrandit vers le bas à mesure que vous ajoutez des widgets, et le tableau de bord défile.
+En haut de l’éditeur, choisissez **2**, **3** ou **4** colonnes. La grille s’allonge vers le bas à mesure que vous ajoutez des widgets, et le tableau de bord défile.
 
-| Colonnes | Utilisez quand |
+| Colonnes | Pour qui |
 |---|---|
-| 2 | Vous surveillez un petit nombre de paramètres et voulez de grandes tuiles |
-| 3 | Par défaut. Convient à la plupart des aquariums |
-| 4 | Vous voulez une vue dense, ou vous utilisez un grand téléphone |
+| 2 | Vous suivez peu de paramètres et voulez de grandes tuiles |
+| 3 | Réglage par défaut. Convient à la plupart des aquariums |
+| 4 | Vous voulez une vue serrée, ou vous avez un grand téléphone |
 
 ## Ajouter un widget
 
 1. Touchez **+** dans l’éditeur.
-2. Choisissez ce que le widget affiche : un paramètre, un appareil, ou une prise.
-3. Choisissez le type de widget. Voir [Référence des widgets](/help/mobile-widgets).
+2. Choisissez ce que le widget affiche : un paramètre, un appareil ou une prise.
+3. Choisissez le type de widget. Les types sont décrits dans la [Référence des widgets](/help/mobile-widgets).
 
-Seules les sources qui existent sur l’aquarium sont proposées. Un paramètre sans source apparaît une fois que vous connectez un équipement qui le rapporte ou enregistrez une mesure à la main.
+Seules les sources présentes sur l’aquarium sont proposées. Un paramètre sans source apparaît dès que vous connectez un équipement qui le mesure, ou que vous saisissez une mesure à la main.
 
-## Disposer les widgets
+## Placer les widgets
 
-- **Pour déplacer un widget**, appuyez et maintenez, puis faites glisser. Les autres widgets se réorganisent autour de lui.
+- **Pour déplacer un widget**, gardez le doigt dessus, puis faites-le glisser. Les autres widgets se réorganisent autour.
 - **Pour retirer un widget**, touchez la croix rouge dans son coin.
-- **Pour changer les réglages d’un widget**, touchez-le.
+- **Pour modifier les réglages d’un widget**, touchez-le.
 
-## Redimensionner
+## Changer la taille
 
-Un widget occupe une ou deux colonnes et une ou deux lignes. Réglez la taille dans les réglages du widget.
+Un widget prend une ou deux colonnes, et une ou deux lignes. La taille se règle dans les réglages du widget.
 
-Un widget de **tendance** occupe toujours au moins deux colonnes.
+Un widget de **tendance** fait toujours au moins deux colonnes de large.
 
 ## Réglages du widget
 
-Selon le type de widget, vous pouvez régler :
+Selon le type de widget, vous pouvez régler :
 
-| Réglage | S’applique à |
+| Réglage | Concerne |
 |---|---|
 | Étiquette | Tous les types |
-| Source | Tout paramètre rapporté par plus d’une chose |
-| Fenêtre temporelle | Tendance : 1 heure, 6 heures, 24 heures, 7 jours, 30 jours, 1 an |
-| Plage | Jauge : hérité des seuils de l’aquarium à moins d’être remplacé ici |
+| Source | Tout paramètre fourni par plusieurs sources |
+| Période | Tendance : 1 heure, 6 heures, 24 heures, 7 jours, 30 jours, 1 an |
+| Plage | Jauge : reprend les seuils de l’aquarium, sauf si vous la changez ici |
 | Taille | Tous les types |
 
 ## Enregistrer
 
-Touchez **Enregistrer** pour appliquer la mise en page, ou l’icône de fermeture pour annuler vos changements.
+Touchez **Enregistrer** pour appliquer la mise en page. Pour abandonner vos changements, touchez l’icône de fermeture.
 
 ## Mes tableaux de bord
 
-Une mise en page que vous aimez peut être enregistrée et réutilisée. **Mes tableaux de bord → Enregistrer ce design**, puis nommez-la. Vous pouvez en garder jusqu’à **30**.
+Une mise en page vous plaît ? Enregistrez-la pour la réutiliser. Touchez **Mes tableaux de bord → Enregistrer ce design**, puis donnez-lui un nom. Vous pouvez en garder jusqu’à **30**.
 
-Un design enregistré peut être chargé sur un autre aquarium, ou sur un écran Cora Max.
+Vous pouvez charger un design enregistré sur un autre aquarium, ou sur un écran Cora Max.
 
-:::note Les tuiles que la cible ne peut pas remplir sont listées avant validation
-Charger un design ne garde que les tuiles que la cible peut réellement peupler. Tout le reste est écarté et listé pour vous sous **Laissées de côté** avant validation, chacune avec sa raison : l’aquarium n’a jamais rapporté cette mesure, il n’y a pas de prise avec ce nom, l’appareil ReefBeat ou le module Apex n’est pas lié à cet aquarium, ou la grille a manqué de place.
+:::note Les tuiles impossibles à remplir sont listées avant de valider
+Au chargement d’un design, seules les tuiles que la cible peut vraiment remplir sont gardées. Les autres sont écartées et listées sous **Laissées de côté** avant que vous validiez, chacune avec sa raison. L’aquarium n’a jamais fourni cette mesure, aucune prise ne porte ce nom, l’appareil ReefBeat ou le module Apex n’est pas lié à cet aquarium, ou la grille manquait de place.
 :::
 
-## Restaurer une mise en page précédente
+## Revenir à une ancienne mise en page
 
-Un design enregistré est la façon de revenir à une mise en page que vous aimiez. Enregistrez-en un pendant que le tableau de bord est disposé comme vous le voulez, et vous pourrez le réappliquer plus tard.
+Pour retrouver une mise en page que vous aimiez, passez par un design enregistré. Enregistrez-en un quand le tableau de bord est disposé comme vous le voulez. Vous pourrez le réappliquer plus tard.
 
-C’est une **restauration, pas une annulation** : vous choisissez le design dans la liste, le confirmez, et il remplace la mise en page actuelle, y compris en écartant toute tuile que l’aquarium ne peut pas remplir. Il ramène la mise en page que vous avez enregistrée, pas l’état avant votre dernière modification.
+C’est une **restauration, pas une annulation**. Vous choisissez le design dans la liste, vous confirmez, et il remplace la mise en page actuelle. Les tuiles que l’aquarium ne peut pas remplir sont écartées au passage. Vous retrouvez la mise en page enregistrée, pas l’état d’avant votre dernière modification.
 
-Les mesures, l’historique et les entrées de journal sont stockés séparément de la mise en page, donc aucune modification d’un tableau de bord ne peut les perdre.
+Les mesures, l’historique et les entrées du journal sont stockés à part de la mise en page. Modifier un tableau de bord ne peut donc pas les effacer.
 
 ## Modifier le tableau de bord Cora Max
 
-Le tableau de bord Cora Max se modifie séparément : **Appareils → votre Cora Max → Modifier le tableau de bord**. Il utilise une grille fixe plutôt qu’une grille qui défile. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
+Le tableau de bord du Cora Max se modifie à part, dans **Appareils → votre Cora Max → Modifier le tableau de bord**. Sa grille est fixe et ne défile pas. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).

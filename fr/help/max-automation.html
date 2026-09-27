@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scènes sur Cora Max | Cora Help</title>
-  <meta name="description" content="Créer, exécuter et modifier des scènes directement sur l’écran Cora Max.">
+  <meta name="description" content="Créer, lancer et modifier des scènes directement sur Cora Max.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/max-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Scènes sur Cora Max | Cora Help">
-  <meta property="og:description" content="Créer, exécuter et modifier des scènes directement sur l’écran Cora Max.">
+  <meta property="og:description" content="Créer, lancer et modifier des scènes directement sur Cora Max.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/max-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -168,25 +168,25 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Scènes sur Cora Max</h1>
-      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#o-trouver-les-scnes">Où trouver les scènes</a></li><li><a href="#crer-une-scne">Créer une scène</a></li><li><a href="#excuter-une-scne">Exécuter une scène</a></li><li><a href="#modifier-ou-supprimer-une-scne">Modifier ou supprimer une scène</a></li></ul></nav>
-<p>Une <strong>scène</strong> est un ensemble enregistré d’actions d’équipement qui s’exécutent ensemble, soit pendant une durée fixe, soit jusqu’à ce que vous l’arrêtiez. Les scènes fonctionnent de la même façon que vous les créiez sur votre téléphone ou sur Cora Max ; cette page couvre comment le faire au mur.</p>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#o-trouver-les-scnes">Où trouver les scènes</a></li><li><a href="#crer-une-scne">Créer une scène</a></li><li><a href="#lancer-une-scne">Lancer une scène</a></li><li><a href="#modifier-ou-supprimer-une-scne">Modifier ou supprimer une scène</a></li></ul></nav>
+<p>Une <strong>scène</strong> est un groupe d’actions sur votre équipement, enregistré pour être lancé d’un coup. Elle tourne pendant une durée fixe ou jusqu’à ce que vous l’arrêtiez. Une scène fonctionne de la même façon, qu’elle ait été créée sur le téléphone ou sur Cora Max. Cette page explique comment faire sur Cora Max.</p>
 <h2 id="o-trouver-les-scnes">Où trouver les scènes</h2>
-<p><strong>Réglages → Automatisations</strong> liste chaque scène de chacun de vos aquariums, avec une puce de filtre par aquarium quand vous en avez plus d’un. Elle ouvre la même liste, que la scène ait été créée sur le téléphone ou sur Cora Max.</p>
-<p>Touchez une scène pour la modifier, ou touchez <strong>+</strong> pour en créer une nouvelle. Si vous avez plus d’un aquarium et qu’aucun filtre n’est choisi, Cora Max demande à quel aquarium la nouvelle scène appartient.</p>
+<p><strong>Réglages → Automatisations</strong> liste toutes les scènes de tous vos aquariums. Si vous en avez plusieurs, une puce par aquarium sert de filtre. Vous y voyez la même liste, que la scène vienne du téléphone ou de Cora Max.</p>
+<p>Touchez une scène pour la modifier, ou touchez <strong>+</strong> pour en créer une. Si vous avez plusieurs aquariums et qu’aucun filtre n’est choisi, Cora Max vous demande à quel aquarium rattacher la nouvelle scène.</p>
 <h2 id="crer-une-scne">Créer une scène</h2>
-<ol><li>Donnez un <strong>nom</strong> à la scène.</li><li>Ajoutez des <strong>étapes</strong>. Depuis Cora Max, une étape peut commuter une prise Apex (<strong>Allumé</strong>, <strong>Éteint</strong> ou <strong>Auto</strong>) ou une fiche Zigbee (<strong>allumé</strong>, <strong>éteint</strong> ou <strong>basculer</strong>). Les étapes ajoutées sur le téléphone pour d’autres types d’équipement s’affichent toujours ici, et peuvent toujours être réordonnées ou retirées, même si cet écran ne peut pas en ajouter une autre du même type.</li><li>Choisissez sa durée d’exécution : un nombre fixe de minutes, ou <strong>permanente</strong> (elle continue de s’exécuter jusqu’à ce que vous l’arrêtiez).</li><li>Choisissez si exécuter la scène nécessite une étape de <strong>confirmation</strong>. Laissez-la activée sauf si vous êtes certain que la scène ne touche jamais rien qu’il serait risqué de changer sans un second regard.</li><li>Enregistrez.</li></ol>
-<aside class="cal cal-note"><p class="cal-t">Les têtes de dosage DŌS ne sont jamais une étape de scène</p><p>Une scène, créée sur Cora Max ou sur le téléphone, ne peut jamais allumer une tête de dosage. C’est délibéré : un dosage n’est pas le genre d’action qu’une scène devrait pouvoir déclencher par accident.</p></aside>
-<h2 id="excuter-une-scne">Exécuter une scène</h2>
-<p>Les scènes apparaissent comme des tuiles sur le tableau de bord. Touchez <strong>Lancer</strong> pour en démarrer une.</p>
-<p>Si la scène nécessite une confirmation, Cora Max liste exactement ce qu’elle est sur le point de faire, une ligne par étape, avant que rien ne se produise. Lisez-la, puis choisissez de l’exécuter ou d’annuler.</p>
-<p>Pendant qu’une scène chronométrée s’exécute, sa tuile affiche un compte à rebours jusqu’à sa fin, et un bouton <strong>Arrêter</strong> pour la terminer plus tôt. La tuile d’une scène permanente reste dans son état d’exécution jusqu’à ce que vous l’arrêtiez.</p>
-<p>Lancer ou arrêter une scène passe toujours par Cora Cloud, comme toute autre commande ; voir <a href="/fr/help/max-activity">Ce qui a été changé, et par quoi</a> pour où le résultat est enregistré.</p>
-<p><strong>Si cela ne fonctionne pas :</strong> si une scène ne veut pas s’exécuter ou ne veut pas s’arrêter, voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Le verrouillage enfant couvre aussi les scènes</p><p>Si le <a href="/fr/help/max-voice">verrouillage enfant</a> est activé, lancer ou arrêter une scène depuis cet écran est bloqué comme toute autre commande. Les questions sur une scène fonctionnent toujours par la voix ; en démarrer ou en arrêter une ne fonctionne pas.</p></aside>
+<ol><li>Donnez un <strong>nom</strong> à la scène.</li><li>Ajoutez des <strong>étapes</strong>. Depuis Cora Max, une étape peut commander une prise Apex (<strong>Allumé</strong>, <strong>Éteint</strong> ou <strong>Auto</strong>) ou une prise Zigbee (<strong>allumé</strong>, <strong>éteint</strong> ou <strong>basculer</strong>). Les étapes ajoutées sur le téléphone pour d’autres équipements s’affichent aussi ici. Vous pouvez les déplacer ou les retirer, mais pas en ajouter de nouvelles de ce type depuis cet écran.</li><li>Choisissez combien de temps elle dure : un nombre de minutes, ou <strong>permanente</strong> (elle tourne jusqu’à ce que vous l’arrêtiez).</li><li>Choisissez si la scène demande une <strong>confirmation</strong> avant de se lancer. Laissez-la activée, sauf si vous êtes certain que la scène ne touche rien qu’il serait risqué de changer sans vérifier.</li><li>Enregistrez.</li></ol>
+<aside class="cal cal-note"><p class="cal-t">Une scène ne peut pas lancer de dosage DŌS</p><p>Qu’elle soit créée sur Cora Max ou sur le téléphone, une scène ne peut jamais activer une tête de dosage. Un dosage ne doit pas pouvoir partir par erreur à cause d’une scène.</p></aside>
+<h2 id="lancer-une-scne">Lancer une scène</h2>
+<p>Les scènes s’affichent comme des tuiles sur le tableau de bord. Touchez <strong>Lancer</strong> pour en démarrer une.</p>
+<p>Si la scène demande une confirmation, Cora Max liste d’abord ce qu’elle va faire, une ligne par étape. Rien ne se passe avant. Lisez la liste, puis lancez la scène ou annulez.</p>
+<p>Pendant une scène à durée fixe, sa tuile affiche le temps restant et un bouton <strong>Arrêter</strong> pour la terminer plus tôt. La tuile d’une scène permanente reste en cours jusqu’à ce que vous l’arrêtiez.</p>
+<p>Lancer ou arrêter une scène passe toujours par Cora Cloud, comme toute autre commande. Le résultat est enregistré dans <a href="/fr/help/max-activity">Ce qui a été changé, et par quoi</a>.</p>
+<p>Si une scène refuse de se lancer ou de s’arrêter, consultez la page <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Le verrouillage enfant bloque aussi les scènes</p><p>Si le <a href="/fr/help/max-voice">verrouillage enfant</a> est activé, vous ne pouvez pas lancer ni arrêter une scène depuis cet écran, comme pour toute autre commande. Vous pouvez toujours poser des questions sur une scène à la voix, mais pas la lancer ni l’arrêter.</p></aside>
 <h2 id="modifier-ou-supprimer-une-scne">Modifier ou supprimer une scène</h2>
-<p>Ouvrez la scène depuis <strong>Réglages → Automatisations</strong>, ou appuyez longuement sur sa tuile sur le tableau de bord, pour changer son nom, ses étapes, sa durée ou son réglage de confirmation, ou pour la supprimer.</p>
-<aside class="cal cal-note"><p class="cal-t">Les écrans Cora Max plus anciens peuvent exécuter une scène mais pas la modifier</p><p>Créer et modifier des scènes au mur est une capacité plus récente de Cora Max. Un Cora Max plus ancien sur le même compte peut toujours afficher et exécuter une scène créée sur le téléphone ou sur un Cora Max plus récent ; il ne peut simplement pas la changer. Mettez à jour Cora Max, ou modifiez la scène depuis le téléphone ou depuis un écran plus récent, si cela se présente.</p></aside>
-<p>Voir <a href="/fr/help/mobile-automation">Scènes et automatisations</a> pour ce qu’une scène peut faire plus en détail, et comment elles sont créées sur le téléphone.</p>
+<p>Ouvrez la scène depuis <strong>Réglages → Automatisations</strong>, ou faites un appui long sur sa tuile dans le tableau de bord. Vous pouvez alors changer son nom, ses étapes, sa durée ou sa confirmation, ou la supprimer.</p>
+<aside class="cal cal-note"><p class="cal-t">Un Cora Max plus ancien lance les scènes mais ne les modifie pas</p><p>La création et la modification de scènes sont arrivées dans une version récente de Cora Max. Un Cora Max plus ancien sur le même compte peut afficher et lancer une scène créée sur le téléphone ou sur un Cora Max plus récent, mais il ne peut pas la modifier. Dans ce cas, mettez Cora Max à jour, ou modifiez la scène depuis le téléphone ou un écran plus récent.</p></aside>
+<p>Tout ce qu’une scène peut faire, et comment la créer sur le téléphone, est expliqué dans <a href="/fr/help/mobile-automation">Scènes et automatisations</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/max-updates"><span>Précédent</span><b>Mises à jour et récupération</b></a></nav>
       <p class="stamp">Rédigé pour Cora Max 0.28.78 et Cora Mobile 0.5.79. Vérifié pour la dernière fois le 2026-09-27.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>

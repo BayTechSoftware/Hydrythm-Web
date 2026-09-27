@@ -1,49 +1,49 @@
 ---
 title: Diario, popolazione e manutenzione
-description: Le schermate di registro su Cora Max, e quando usarle invece del telefono.
+description: Le schermate dei registri su Cora Max, e quando conviene usarle al posto del telefono.
 section: Cora Max
 reviewed: 2026-09-09
 order: 8
 group: Records
 ---
 
-Cora Max mostra gli stessi registri del telefono, ma non è un editor completo per tutti. Cosa puoi fare alla parete varia per area:
+Cora Max mostra gli stessi registri del telefono, ma non tutti si possono modificare da qui. Dipende dall'area:
 
 | Area | Su Cora Max |
 |---|---|
 | **Diario** | Leggi e aggiungi voci |
-| **Letture** | Registra risultati di test con la tastiera a schermo |
-| **Manutenzione** | Completa o rinvia un'attività. Creare e modificare le attività si fa sul telefono |
-| **Popolazione** | Di sola lettura. Aggiungi e modifica sul telefono |
+| **Letture** | Registri i risultati dei test con la tastiera sullo schermo |
+| **Manutenzione** | Completi o rinvii un'attività. Crei e modifichi le attività dal telefono |
+| **Popolazione** | Solo lettura. Aggiungi e modifichi dal telefono |
 
-Qualsiasi cosa aggiungi qui appare immediatamente sul tuo telefono, e viceversa.
+Quello che aggiungi qui compare subito sul telefono, e viceversa.
 
-Raggiungi tutte queste dal **menu della vasca**: tocca il nome della vasca nella barra superiore.
+Ci arrivi dal **menu della vasca**: tocca il nome della vasca nella barra in alto.
 
-![Manutenzione su Cora Max](img/max-records.webp "Attività in scadenza, con Rinvia e Fatto su ognuna, e cosa è stato completato di recente.")
+![Manutenzione su Cora Max](img/max-records.webp "Le attività in scadenza, ognuna con Rinvia e Fatto, e quelle completate di recente.")
 
 ## Diario
 
-Aggiungi una voce senza lasciare la vasca. È di solito la più comoda delle due; lo schermo a parete è dove ti trovi mentre fai il lavoro.
+Aggiungi una voce senza allontanarti dalla vasca. Di solito qui è più comodo che sul telefono, perché mentre lavori sei proprio davanti allo schermo a parete.
 
-Raggiungilo dal **menu della vasca** (tocca il nome della vasca nella barra superiore), poi usa **+** per aggiungere una voce, oppure dì *"Hey Cora, registra che ho alimentato con mysis."* Vedi [Il diario](/help/mobile-journal).
+Aprilo dal **menu della vasca** (tocca il nome della vasca nella barra in alto) e usa **+** per aggiungere una voce, oppure di' *"Hey Cora, annota che ho dato da mangiare mysis."* Trovi di più in [Il diario](/help/mobile-journal).
 
-:::note Non c'è un'icona del diario nella barra superiore
-L'icona accanto all'icona dei dispositivi è **Reef Buddy**, e il suo punto significa che il briefing di oggi non è letto. Le voci di diario si aggiungono dal menu della vasca, oppure a voce.
+:::note Nella barra in alto non c'è un'icona del diario
+L'icona accanto a quella dei dispositivi è **Reef Buddy**. Il pallino vuol dire che non hai ancora letto il briefing di oggi. Le voci del diario si aggiungono dal menu della vasca o a voce.
 :::
 
 ## Popolazione
 
-L'inventario completo, raggruppato per tipo, con gli stessi stati del telefono, **di sola lettura qui**. Aggiungere e modificare la popolazione si fa in Cora Mobile; la voce che crei lì appare immediatamente su questo schermo. Vedi [Popolazione](/help/mobile-livestock).
+Qui vedi tutto l'inventario, diviso per tipo e con gli stessi stati del telefono, ma **in sola lettura**. Aggiungi e modifichi la popolazione in Cora Mobile, e la voce che crei lì compare subito su questo schermo. Trovi di più in [Popolazione](/help/mobile-livestock).
 
 ## Manutenzione
 
-L'elenco delle attività con il suo valore di conformità e il conteggio in ritardo, e la possibilità di segnare un'attività come completata mentre la finisci. Vedi [Manutenzione](/help/mobile-maintenance).
+C'è l'elenco delle attività con la percentuale di puntualità e il numero di attività in ritardo. Puoi segnare un'attività come fatta appena la finisci. Trovi di più in [Manutenzione](/help/mobile-maintenance).
 
 ## Registrare le letture
 
-Cora Max ha una tastiera a schermo per inserire direttamente i risultati dei test, così un test fatto alla vasca può essere registrato alla vasca.
+Cora Max ha una tastiera sullo schermo per scrivere direttamente i risultati dei test. Così un test fatto davanti alla vasca lo registri lì.
 
-:::note I registri sono condivisi, non duplicati
-C'è un diario, un inventario della popolazione e un elenco di manutenzione per vasca. Cora Max e il tuo telefono sono due viste degli stessi registri.
+:::note I registri sono unici, non copie
+Per ogni vasca c'è un solo diario, un solo inventario della popolazione e un solo elenco di manutenzione. Cora Max e il telefono mostrano gli stessi registri.
 :::

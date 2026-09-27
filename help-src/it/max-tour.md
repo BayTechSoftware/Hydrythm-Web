@@ -1,99 +1,99 @@
 ---
 title: La schermata Home di Cora Max
-description: Cosa significa ogni cosa sullo schermo di Cora Max: la barra superiore, la griglia della dashboard, e il cassetto delle prese.
+description: Cosa vuol dire tutto quello che vedi sullo schermo di Cora Max: la barra in alto, la griglia della dashboard e il cassetto delle prese.
 section: Cora Max
 reviewed: 2026-09-27
 order: 2
 group: Getting started
 ---
 
-Cora Max mostra una vasca alla volta, riempiendo lo schermo con letture in tempo reale che puoi leggere da tutta la stanza.
+Cora Max mostra una vasca alla volta. Lo schermo si riempie di letture in tempo reale che leggi da tutta la stanza.
 
-![La schermata Home di Cora Max](img/max-home.webp "Una vasca, che riempie lo schermo.")
+![La schermata Home di Cora Max](img/max-home.webp "Una vasca a tutto schermo.")
 
-## La barra superiore
+## La barra in alto
 
 Da sinistra a destra:
 
-- **L'icona della griglia** apre la Stanza della Vasca, la vista d'insieme di ogni vasca mostrata da questo schermo
-- **Il nome della vasca**, con una freccetta. Toccarlo apre il **menu della vasca**: ogni schermata per la vasca in visualizzazione, dal registrare un risultato di test al disporre la dashboard. L'elenco completo è sotto.
-- **Pillole di avviso**: qualsiasi cosa attualmente fuori intervallo, con un **+n** quando ce ne sono più di quante ne entrano. Tocca per vederle tutte.
+- **L'icona a griglia** apre la Stanza barriera, dove vedi insieme tutte le vasche di questo schermo
+- **Il nome della vasca**, con una freccina. Se lo tocchi si apre il **menu della vasca**, con tutte le schermate della vasca che stai guardando, da Registra parametri al layout della dashboard. L'elenco completo è più sotto.
+- **Gli avvisi**: quello che è fuori intervallo compare come piccola etichetta. Se non ci stanno tutte, vedi **+2** (o quante sono). Tocca per vederle tutte.
 - **L'orologio**
-- **La pillola di stato**: cosa sta facendo questo schermo in questo momento. Verde è sano, ambra richiede attenzione, rosso è un guasto. Il vocabolario completo è sotto.
+- **L'indicatore di stato**: cosa sta facendo lo schermo in questo momento. Verde vuol dire che va tutto bene, ambra che qualcosa va controllato, rosso che c'è un guasto. Tutti i messaggi sono spiegati più sotto.
 - **Batteria e Wi-Fi**
-- **L'icona dei dispositivi**: tutto ciò che è collegato, e come sta andando
-- **L'icona di Reef Buddy**: apre il briefing di oggi. Un punto indica che il briefing non è ancora stato letto.
-- **L'icona di Cora Assistant**: avvia una conversazione vocale
-- **La rotella**: impostazioni
+- **L'icona dei dispositivi**: tutto quello che è collegato, e come sta
+- **L'icona di Reef Buddy**: apre il briefing di oggi. Il pallino vuol dire che non l'hai ancora letto.
+- **L'icona di Cora Assistant**: avvia una conversazione a voce
+- **La rotellina**: le impostazioni
 
-### Cosa significa la pillola di stato
+### Cosa dice l'indicatore di stato
 
-| Pillola | Significato |
+| Indicatore | Cosa vuol dire |
 |---|---|
-| **Online** | Questo schermo sta raccogliendo le tue letture, e sono attuali |
-| **Cloud** | Un altro Cora sta raccogliendo le letture di questa vasca e questo schermo le sta mostrando. Altrettanto attuale di **Online**; con più di un Cora, lo schermo che non sta facendo la raccolta mostra questo |
-| **Polling Apex**, **Voce attiva** | Sta lavorando su qualcosa in questo momento |
-| **Polling disattivato** | La raccolta è disattivata per questa vasca. Puoi riattivarla da Cora Mobile |
+| **Online** | Questo schermo sta raccogliendo le tue letture, e sono aggiornate |
+| **Cloud** | Le letture di questa vasca le raccoglie un altro Cora, e questo schermo le mostra. Sono aggiornate quanto con **Online**. Se hai più di un Cora, lo vedi sullo schermo che non fa la raccolta |
+| **Polling Apex**, **Voce attiva** | Sta lavorando a qualcosa proprio adesso |
+| **Polling disattivato** | La raccolta è spenta per questa vasca. Puoi riaccenderla da Cora Mobile |
 | **Aggiornamento in corso** | La raccolta è in pausa mentre si installa un aggiornamento |
-| **Non aggiornato** | Le letture hanno smesso di arrivare. Lo schermo mostra l'ultima che ha ricevuto |
-| **Apex retry 12s** | Il tuo Apex non ha risposto. Cora Max riprova quando finisce il conto alla rovescia |
-| **Sincronizzazione cloud non riuscita** | Il tuo Apex ha risposto, ma le sue letture non hanno potuto essere salvate su Cora Cloud, quindi la dashboard rimane indietro. Cora Max continua a riprovare |
-| **Offline** | Nessuna connessione. Lo schermo mostra gli ultimi dati che ha ricevuto |
-| **Offline, riprova in 45s** | La tua rete è attiva, ma Cora Cloud è stato irraggiungibile per più di 30 secondi. Cora Max si riconnette da solo; il conto alla rovescia è il tempo fino al prossimo tentativo |
-| **Cora principale offline** | Questo schermo è un secondo Cora Max per questa vasca, e il **Cora Max principale** (quello fissato per interrogare l'equipaggiamento di questa vasca) è andato offline. Questo schermo continua a mostrare gli ultimi dati che ha finché il principale non torna, oppure finché non scegli un Cora Max principale diverso. Vedi [Più di un dispositivo Cora](/help/mobile-multi-device) |
-| **Password Apex** | Il tuo Apex ha rifiutato la password memorizzata. Vedi [Risoluzione dei problemi](/help/troubleshooting) |
+| **Non aggiornato** | Le letture non arrivano più. Lo schermo mostra l'ultima ricevuta |
+| **Nuovo tentativo Apex 12s** | Il tuo Apex non ha risposto. Cora Max riprova alla fine del conto alla rovescia |
+| **Sincronizzazione cloud non riuscita** | L'Apex ha risposto, ma non è stato possibile salvare le letture su Cora Cloud, quindi la dashboard resta indietro. Cora Max continua a riprovare |
+| **Offline** | Nessuna connessione. Lo schermo mostra gli ultimi dati ricevuti |
+| **Offline, nuovo tentativo in 45s** | La tua rete funziona, ma Cora Cloud non si raggiunge da più di 30 secondi. Cora Max si ricollega da solo. Il conto alla rovescia indica quando riprova |
+| **Cora principale offline** | Questo schermo è un secondo Cora Max per la vasca, e il **Cora Max principale** (quello scelto per leggere l'attrezzatura della vasca) è andato offline. Lo schermo continua a mostrare gli ultimi dati finché il principale non torna, o finché non scegli un altro Cora Max principale. Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device) |
+| **Password Apex** | Il tuo Apex ha rifiutato la password salvata. Guarda la pagina [Risoluzione dei problemi](/help/troubleshooting) |
 
-:::note Come funziona il conto alla rovescia dei tentativi
-Cora Max cerca di riconnettersi a un ritmo fisso: circa 15 secondi dopo la prima interruzione, 15 secondi dopo quello, poi due volte a 30 secondi, poi una volta al minuto finché non riesce. Non riprova istantaneamente e non si arrende; uno schermo che mostra **Offline, riprova in 45s** sta facendo esattamente ciò che dovrebbe.
+:::note Come funziona il conto alla rovescia
+Cora Max riprova a collegarsi con un ritmo fisso: dopo circa 15 secondi dalla prima interruzione, poi di nuovo dopo 15 secondi, poi due volte ogni 30 secondi, poi una volta al minuto finché non ci riesce. Non riprova all'istante e non si arrende. Se lo schermo mostra **Offline, nuovo tentativo in 45s**, sta facendo quello che deve.
 :::
 
-:::warning Cora Assistant inizia ad ascoltare immediatamente
-Toccare l'icona di Cora Assistant avvia una sessione vocale in tempo reale. Se volevi aprire le impostazioni, quella è la rotella all'estrema destra.
+:::warning Cora Assistant inizia subito ad ascoltare
+Se tocchi l'icona di Cora Assistant, parte subito una conversazione a voce. Le impostazioni sono sotto la rotellina, all'estrema destra.
 :::
 
 ## La dashboard
 
-Il resto dello schermo è la dashboard: una griglia fissa di widget, tutti visibili contemporaneamente. La dashboard di Cora Max non scorre.
+Il resto dello schermo è la dashboard, una griglia fissa di widget tutti visibili insieme. La dashboard di Cora Max non scorre.
 
-I widget funzionano come sul tuo telefono, a una dimensione che puoi leggere stando a distanza. Vedi **[Guida di riferimento ai widget](/help/mobile-widgets)** per cosa mostra ogni forma, e **[Modificare la dashboard di Cora Max](/help/max-dashboard-editing)** per cambiare cosa c'è sopra.
+I widget funzionano come sul telefono, ma sono abbastanza grandi da leggerli a distanza. Cosa mostra ogni tipo lo spiega la [Guida di riferimento ai widget](/help/mobile-widgets). Per cambiare cosa c'è sulla dashboard guarda [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
 
-Ogni widget che mostra un parametro misurato porta la sua **età** e la sua **fonte**, proprio come sul telefono. Un numero con `2d` accanto ha due giorni, ed è mostrato come tale. I riquadri di dispositivo e controllo mostrano invece il proprio stato.
+Ogni widget che mostra un parametro misurato indica anche da **quanto tempo** c'è quel valore e da quale **fonte** arriva, come sul telefono. Un numero con `2d` accanto ha due giorni, e lo vedi. I riquadri dei dispositivi e dei controlli mostrano invece il loro stato.
 
 ## Il menu della vasca
 
-![Il menu della vasca](img/max-menu.webp "Tutto per la vasca attuale, dal nome della vasca nella barra superiore.")
+![Il menu della vasca](img/max-menu.webp "Tutto quello che riguarda la vasca attuale, dal nome della vasca nella barra in alto.")
 
-Toccare il nome della vasca apre il menu per la vasca attualmente sullo schermo:
+Tocca il nome della vasca per aprire il menu della vasca che hai sullo schermo:
 
-| Voce | Apre |
+| Voce | Cosa apre |
 |---|---|
-| **Registra parametri** | Inserisci letture del kit di test sulla tastiera a schermo |
-| **Diario** | [Il diario](/help/mobile-journal) per questa vasca |
+| **Registra parametri** | Scrivi i risultati del kit di test con la tastiera sullo schermo |
+| **Diario** | [Il diario](/help/mobile-journal) di questa vasca |
 | **Reef Buddy** | Il [briefing](/help/mobile-reef-buddy) attuale |
-| **Report di salute** | Valutazioni di salute |
+| **Report di salute** | Le valutazioni di salute |
 | **Manutenzione** | L'[elenco delle attività](/help/mobile-maintenance) |
 | **Report ICP** | I [risultati di laboratorio](/help/mobile-icp-health) caricati |
-| **Avvisi** | La fascia sana per ogni metrica su questa vasca |
-| **Popolazione** | L'[inventario](/help/mobile-livestock) di questa vasca, di sola lettura su questo schermo |
-| **Attività** | [Ogni presa, alimentazione e dosaggio](/help/max-activity), e cosa ne è risultato |
-| **Layout dashboard** | [Disponi i widget su questo schermo](/help/max-dashboard-editing) |
-| **Impostazioni vasca** | La schermata completa delle impostazioni per questa vasca |
+| **Avvisi** | L'intervallo sano di ogni parametro della vasca |
+| **Popolazione** | L'[inventario](/help/mobile-livestock) della vasca, in sola lettura su questo schermo |
+| **Attività** | [Ogni presa, alimentazione e dose](/help/max-activity), e com'è andata |
+| **Layout dashboard** | [Sistema i widget su questo schermo](/help/max-dashboard-editing) |
+| **Impostazioni vasca** | Tutte le impostazioni della vasca |
 
 ## Cambiare vasca
 
-Usa **l'icona della griglia** all'estrema sinistra della barra superiore per raggiungere [la Stanza della Vasca](/help/max-reef-room), poi apri la vasca che vuoi. Ogni vasca mantiene il proprio layout di dashboard, quindi l'intero schermo cambia mentre passi da una all'altra.
+Tocca l'**icona a griglia** all'estrema sinistra della barra in alto per andare nella [Stanza barriera](/help/max-reef-room), poi apri la vasca che vuoi. Ogni vasca ha il suo layout della dashboard, quindi tutto lo schermo cambia quando passi da una all'altra.
 
-## Il cassetto Prese e Alimentazione
+## Il cassetto Prese e alimentazione
 
-La scheda in fondo allo schermo tira su un cassetto con ogni presa del sistema e i controlli di alimentazione.
+Dalla linguetta in fondo allo schermo tiri su un cassetto con tutte le prese del sistema e i comandi per l'alimentazione.
 
-- **Prese**: ognuna commutabile tra Auto, Off e On
-- **Alimenta**: sospende l'equipaggiamento giusto per un'alimentazione e ripristina tutto dopo
+- **Prese**: ognuna si può mettere su AUTO, OFF o ON
+- **Alimentazione**: mette in pausa l'attrezzatura giusta mentre dai da mangiare e poi rimette tutto a posto
 
-:::warning Questo cassetto controlla equipaggiamento reale
-Tutto quanto contiene agisce su equipaggiamento reale. Un comando viene inviato nel momento in cui tocchi, ma *inviato* non è *fatto*; torna Confermato, Non confermato, Rifiutato o Nessun cambiamento, e [Attività](/help/max-activity) è dove vedi quale. La modalità alimentazione è il modo sicuro per sospendere il flusso per l'alimentazione, perché ripristina tutto da sola; uno spegnimento manuale resta spento finché non lo cambi di nuovo.
+:::warning Questo cassetto comanda attrezzatura vera
+Tutto quello che c'è qui agisce su attrezzatura vera. Il comando parte appena tocchi, ma *inviato* non vuol dire *fatto*. Torna come Confermato, Non confermato, Rifiutato o Nessun cambiamento, e in [Attività](/help/max-activity) vedi com'è andata. Per fermare il movimento dell'acqua mentre dai da mangiare usa la modalità alimentazione, che rimette tutto a posto da sola. Se spegni una presa a mano con OFF, resta spenta finché non la cambi tu.
 :::
 
-## Se qualcosa sembra fuori posto
+## Se qualcosa non ti torna
 
-Se le letture sembrano obsolete, o la pillola di stato è ambra o rossa, inizia con **[Risoluzione dei problemi](/help/troubleshooting)**.
+Se le letture sembrano vecchie, o l'indicatore di stato è ambra o rosso, parti dalla pagina [Risoluzione dei problemi](/help/troubleshooting).

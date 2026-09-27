@@ -1,68 +1,68 @@
 ---
-title: Cora Mobile'ı kurma
-description: Cora'yı kurun, hesabınızı oluşturun, ilk akvaryumunuzu ekleyin ve ekranda ilk okumalarınızı görün.
+title: Cora Mobile kurulumu
+description: Cora'yı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi ekranda görün.
 section: Cora Mobile
 reviewed: 2026-09-17
 order: 1
 group: Getting started
 ---
 
-Kurulum yaklaşık on dakika sürer. Sonunda bir hesabınız, yapılandırılmış bir akvaryumunuz ve canlı okumalar gösteren bir panonuz olacak.
+Kurulum yaklaşık on dakika sürer. Sonunda bir hesabınız, ayarları yapılmış bir akvaryumunuz ve canlı ölçümleri gösteren bir panonuz olur.
 
 ## Cora Mobile'ı yükleyin
 
-iPhone'da, **Cora Mobile**'ı [App Store](https://apps.apple.com/app/cora-mobile/id6760301981)'dan alın. Android'de Cora Mobile yakında Google Play'de olacak. Ana ekranınızda simge **Cora** olarak etiketlenmiştir; bu Cora Mobile'dır.
+iPhone'da **Cora Mobile**'ı [App Store](https://apps.apple.com/app/cora-mobile/id6760301981)'dan indirin. Cora Mobile yakında Android için Google Play'de de olacak. Ana ekranınızdaki simgenin adı **Cora**'dır. Bu simge Cora Mobile'ı açar.
 
-## Önce etrafa bakınma
+## Önce bir göz atın
 
-Bir hesap oluşturmadan önce, gerçekçi verilerle örnek bir akvaryum olan, tıpkı gerçek biri gibi düzenlenmiş **Bir demo resfi keşfedin**'i seçebilirsiniz. Tamamen örnek veriyle çalışır: hiçbir ekipman dahil değildir ve içinde yaptığınız hiçbir şey kaydedilmez.
+Hesap açmadan önce **Bir demo resfi keşfedin**'i seçebilirsiniz. Bu, gerçekçi verilerle dolu örnek bir akvaryumdur ve gerçek bir akvaryumla aynı düzendedir. Tamamen örnek verilerle çalışır. Hiçbir ekipmana bağlanmaz, içinde yaptıklarınız da kaydedilmez.
 
-Bunu, bağlanmadan önce panoların, widget'ların ve okumaların nasıl çalıştığını görmek için kullanın.
+Karar vermeden önce panoların, widget'ların ve ölçümlerin nasıl çalıştığını burada görebilirsiniz.
 
-## Hesabınızı oluşturun
+## Hesabınızı açın
 
-Cora Mobile'ı açın ve **Hesap Oluştur**'u seçin. Bir e-posta adresiyle, veya başka bir parola yönetmek istemiyorsanız Apple veya Google ile kayıt olabilirsiniz.
+Cora Mobile'ı açın ve **Hesap Oluştur**'u seçin. E-posta adresinizle kaydolabilirsiniz. Yeni bir şifreyle uğraşmak istemiyorsanız Apple ya da Google hesabınızı kullanın.
 
-E-postanızı doğrulamanız istenir. Cora bir **bağlantı** gönderir; bunu cihazda açın ve Cora Mobile'a geri dönün. Bir dakika içinde gelmezse spam'i kontrol edin.
+Sonra e-postanızı doğrulamanız istenir. Cora size bir **bağlantı** gönderir. Bağlantıyı aynı cihazda açın ve Cora Mobile'a geri dönün. E-posta bir dakika içinde gelmezse spam klasörüne bakın.
 
-:::note Bir hesap, her ekran
-Hesabınız her şeyi birbirine bağlar. Cora Max'te veya başka bir telefonda aynı hesapla oturum açın ve aynı akvaryumları, cihazları, okumaları ve kayıtları alırsınız.
+:::note Tek hesap, bütün ekranlar
+Her şey hesabınızda toplanır. Cora Max'te ya da başka bir telefonda aynı hesapla giriş yaptığınızda aynı akvaryumları, cihazları, ölçümleri ve kayıtları görürsünüz.
 
-Pano düzenleri paylaşılmaz; her ekran kendisininkini tutar. Bkz. [Ne paylaşılır ve ne paylaşılmaz](/help/mobile-multi-device).
+Pano düzenleri ise **paylaşılmaz**. Her ekran kendi düzenini tutar. Ayrıntılar [Neler paylaşılır, neler paylaşılmaz](/help/mobile-multi-device) sayfasında.
 :::
 
 ## İlk akvaryumunuzu ekleyin
 
-Cora'da bir **akvaryum**, takip etmek istediğiniz bir su kütlesidir. Çoğu kişinin bir tanesi vardır. Bir frag sistemi veya karantina işletiyorsanız, bunlar ayrı akvaryumlardır.
+Cora'da **akvaryum**, takip etmek istediğiniz her ayrı su sistemidir. Çoğu kişinin tek akvaryumu olur. Frag sisteminiz ya da karantina tankınız varsa bunlar ayrı akvaryum sayılır.
 
-Kurulum sihirbazı şunları kapsar. Bunların hepsi daha sonra [akvaryum profilinizden](/help/mobile-tank-profile) değiştirilebilir:
+Kurulum sihirbazı şunları sorar. Hepsini sonradan [akvaryum profilinizden](/help/mobile-tank-profile) değiştirebilirsiniz:
 
-1. **Ad**: günlük olarak kullandığınız ad: "Sergi", "Frag", "QT".
-2. **Tür**: karma reef, SPS ağırlıklı, softie, sadece balık.
-3. **Boyutlar ve hacim**: sump dahil gerçek su hacmi. Dozaj matematiğinin kullandığı budur, bu yüzden kabaca doğru almaya değer.
+1. **Ad**: akvaryuma günlük hayatta ne diyorsanız o. Örneğin "Salon", "Frag", "Karantina".
+2. **Tür**: karışık reef, SPS ağırlıklı, yumuşak mercan ya da yalnızca balık.
+3. **Boyutlar ve hacim**: sump dahil gerçek su hacmi. Dozaj hesapları bu değeri kullanır, o yüzden aşağı yukarı doğru girin.
 
-Sihirbazın tamamı bu kadar. Diğer her şey (canlılar, ekipman, dozaj, hedefler, ışıklandırma, akış) daha sonra kendi hızınızda [akvaryum profilinizden](/help/mobile-tank-profile) doldurulur.
+Sihirbaz bu kadar. Canlılar, ekipman, dozaj, hedefler, aydınlatma ve akış gibi diğer bilgileri sonra, dilediğiniz zaman [akvaryum profilinizden](/help/mobile-tank-profile) doldurursunuz.
 
-:::note Akvaryum yaşı okumaların nasıl değerlendirildiğini etkiler
-Okumalar, girdiğiniz yaştaki bir akvaryum için normal olana karşı değerlendirilir. Döngülenen bir akvaryumu öyle kaydedin.
+:::note Akvaryumun yaşı ölçümlerin değerlendirmesini etkiler
+Cora ölçümleri, girdiğiniz yaştaki bir akvaryum için normal kabul edilen değerlere göre değerlendirir. Döngüsü devam eden akvaryumu da öyle kaydedin.
 :::
 
 ## Ekipmanınızı bağlayın
 
-Bir akvaryum yerinde olduğunda, **Cihazlar** sekmesine gidin ve ekipmanınızı ekleyin. Cora, zaten sahip olduğunuz ekipmanla çalışır; nelerin desteklendiği ve her birinin neye ihtiyacı olduğu için bkz. **[Ekipmanınızı bağlama](/help/mobile-connections)**.
+Akvaryumu ekledikten sonra **Cihazlar** sekmesine gidin ve ekipmanınızı ekleyin. Cora, zaten sahip olduğunuz ekipmanla çalışır. Hangi cihazların desteklendiğini ve her birinin neye ihtiyacı olduğunu **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında bulabilirsiniz.
 
-Bu adımı atlayıp daha sonra dönebilirsiniz. Bir akvaryum cihazlar olmadan da gayet iyi çalışır; okumaları bunun yerine elle kaydedersiniz.
+Bu adımı atlayıp sonra dönebilirsiniz. Akvaryum cihaz olmadan da sorunsuz çalışır. O durumda ölçümleri elle girersiniz.
 
-## İlk okumalarınızı kaydedin
+## İlk ölçümlerinizi girin
 
-Bazı parametreler yalnızca bir test kitinden alınabilir. Panonun altına kaydırın ve **Parametreleri Kaydet**'e dokunun.
+Bazı parametreleri yalnızca test kitiyle ölçebilirsiniz. Panonun en altına inin ve **Parametreleri Kaydet**'e dokunun.
 
-![Parametre kaydetme](img/mobile-logparams.webp "Akvaryumun takip ettiği herhangi bir parametre için test kiti sonuçlarını girin.")
+![Parametre kaydetme](img/mobile-logparams.webp "Akvaryumun takip ettiği her parametre için test kiti sonucunu girin.")
 
-Her okuma, kaynağı ve zaman damgasıyla saklanır. Bu, Cora'nın bir prob ile bir test kitinin ne zaman anlaşmadığını bildirmesini sağlayan şeydir.
+Her ölçüm, kaynağı ve zamanıyla birlikte saklanır. Cora bu sayede prob ile test kitinin farklı sonuç verdiği durumları size bildirir.
 
-## İyi olan neye benziyor
+## Kurulum tamam mı?
 
-İlk briefing gece boyunca çalıştığında, Pano üstte akvaryum adınızı, en az birkaç sayı içeren widget'ı ve bir **Reef Buddy** kartı gösterdiğinde kurulmuş olursunuz.
+Panonun üstünde akvaryumunuzun adını ve içinde sayılar olan birkaç widget görüyorsanız kurulum tamamdır. İlk özet gece hazırlandıktan sonra bir **Reef Buddy** kartı da görünür.
 
-Sırada: **[Beş sekme](/help/mobile-tour)**.
+Sırada **[Beş sekme](/help/mobile-tour)** var.

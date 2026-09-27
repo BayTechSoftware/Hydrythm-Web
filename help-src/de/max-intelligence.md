@@ -1,46 +1,46 @@
 ---
 title: Reef Buddy und Berichte
-description: Die tägliche Zusammenfassung, ICP-Ergebnisse, Zustandsberichte und Historiendiagramme auf Cora Max.
+description: Die tägliche Zusammenfassung, ICP-Ergebnisse, Zustandsberichte und Verlaufsdiagramme auf Cora Max.
 section: Cora Max
 reviewed: 2026-09-17
 order: 9
 group: Intelligence
 ---
 
-Cora Max zeigt dieselbe Intelligence wie das Handy, auf einem Bildschirm, groß genug, um aus der Entfernung zu lesen. Erreiche diese über das **Beckenmenü**: tippe auf den Beckennamen in der oberen Leiste.
+Cora Max zeigt dieselben Auswertungen wie dein Handy, nur groß genug, um sie aus der Entfernung zu lesen. Du erreichst sie über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen.
 
 ![Reef Buddy auf Cora Max](img/max-intelligence.webp "Die Zusammenfassung in voller Größe.")
 
 ## Reef Buddy
 
-Die tägliche Zusammenfassung erscheint auf dem Dashboard und hat ihren eigenen Vollbildschirm: die Stabilitäts- und Daten-Bewertungen, die Zusammenfassung, und die Insights dahinter.
+Die tägliche Zusammenfassung erscheint auf dem Dashboard und hat einen eigenen Vollbildschirm. Dort stehen die Bewertungen für Stabilität und Daten, die Zusammenfassung und die Insights dahinter.
 
-Siehe [Reef Buddy](/help/mobile-reef-buddy) für die Bedeutung der Bewertungen.
+Was die Bewertungen bedeuten, erfährst du unter [Reef Buddy](/help/mobile-reef-buddy).
 
 ## ICP-Ergebnisse
 
-![ICP-Berichte auf Cora Max](img/max-icp.webp "Jedes hochgeladene Ergebnis, mit seiner Bewertung.")
+![ICP-Berichte auf Cora Max](img/max-icp.webp "Alle hochgeladenen Ergebnisse mit ihrer Bewertung.")
 
-Deine hochgeladenen Ergebnisse, mit der Bewertung und Zusammenfassung für jedes, und Trends über alle Berichte hinweg.
+Hier siehst du deine hochgeladenen Ergebnisse, jeweils mit Bewertung und Zusammenfassung, und die Trends über alle Berichte.
 
-Die Bewertung von 100 wird aus deinen Ergebnissen gegen deren Bereiche berechnet. Jeder Wasserwert außerhalb des Bereichs hält sie bei 70 oder darunter, und einer weit außerhalb hält sie bei 40 oder darunter. Ihre Farbe zeigt das Band: grün (gesund) über 70, gelb (braucht Aufmerksamkeit) von 40 bis 70, und rot (kritisch) unter 40.
+Die Bewertung bis 100 berechnet Cora aus deinen Ergebnissen und den jeweiligen Bereichen. Liegt ein Wasserwert außerhalb seines Bereichs, bleibt die Bewertung bei 70 oder darunter. Liegt einer weit daneben, bleibt sie bei 40 oder darunter. Die Farbe zeigt, wo du stehst: grün (gesund) über 70, gelb (braucht Aufmerksamkeit) von 40 bis 70 und rot (kritisch) unter 40.
 
-Ein Ergebnis hochzuladen erfolgt vom Handy aus; siehe [ICP und Zustandsberichte](/help/mobile-icp-health).
+Ergebnisse lädst du auf dem Handy hoch. Mehr dazu unter [ICP und Zustandsberichte](/help/mobile-icp-health).
 
 ## Zustandsberichte
 
-Führe einen Zustandsbericht an der Wand aus und lies ihn dort. Es ist dieselbe Bewertung, die das Handy erstellt, und ihre Bewertung wird genauso berechnet wie eine ICP-Bewertung.
+Du kannst einen Zustandsbericht an der Wand erstellen und dort lesen. Es ist dieselbe Auswertung wie auf dem Handy, und die Bewertung wird genauso berechnet wie bei ICP.
 
-## Historiendiagramme
+## Verlaufsdiagramme
 
-Jeder Wasserwert kann als Vollbild-Diagramm geöffnet werden, über dieselben Bereiche wie auf dem Handy. Auf einem Wandbildschirm ist das der nützlichste Weg, eine langsame Abweichung zu betrachten; ein Monat Alkalinität im Vollbild zeigt einen Trend, den eine kleine Kachel nicht zeigen kann.
+Jeden Wasserwert kannst du als Diagramm im Vollbild öffnen, mit denselben Zeiträumen wie auf dem Handy. An der Wand siehst du so am besten, wenn ein Wert langsam wegdriftet. Ein Monat Alkalinität im Vollbild zeigt einen Trend, den eine kleine Kachel nicht zeigen kann.
 
-Chips wählen, welche Messwerte gezeigt werden: **Alle**, **Apex**, **Manuell**, **ICP**, **Cora**, **ReefBeat** oder **AquaWiz**. Jede Quelle hat ihre eigene Farbe, und die Chips dienen zugleich als Legende. ReefBeat- und AquaWiz-Punkte werden als Quadrate gezeichnet, und von jemandem erfasste Messwerte (Manuell und ICP) als größere Punkte. **Alle** zeigt jede Quelle nebeneinander und mittelt niemals die Messwerte einer Quelle mit denen einer anderen.
+Mit den Chips wählst du, welche Messwerte du siehst: **Alle**, **Apex**, **Manuell**, **ICP**, **Cora**, **ReefBeat** oder **AquaWiz**. Jede Quelle hat ihre eigene Farbe, und die Chips sind gleichzeitig die Legende. Punkte von ReefBeat und AquaWiz erscheinen als Quadrate, von Hand gemessene Werte (Manuell und ICP) als größere Punkte. **Alle** zeigt alle Quellen nebeneinander. Werte aus verschiedenen Quellen werden dabei nie gemittelt.
 
 ## Geführte Journeys
 
-Du kannst eine Journey auf Cora Max verfolgen und sehen, wie weit sie gekommen ist.
+Auf Cora Max kannst du eine Journey verfolgen und sehen, wie weit sie ist.
 
-**Eine Einfahr-Journey nimmt hier auch Messwerte auf**; **Test erfassen** auf dem Einfahr-Bildschirm erfasst Ammoniak, Nitrit und Nitrat, ohne zum Handy zu gehen, genau der Moment, wenn du mit einem Testkit am Becken stehst.
+**Bei einer Einfahr-Journey kannst du hier auch Messwerte eintragen.** Mit **Test erfassen** im Einfahr-Bildschirm trägst du Ammoniak, Nitrit und Nitrat ein, ohne zum Handy zu greifen. Genau dann, wenn du mit dem Testkit am Becken stehst.
 
-Eine **Problem**-Journey ist an der Wand nur zur Ansicht: eine zu starten, einen Schritt abzuschließen, ein Ergebnis zu erfassen, und sie zu lösen oder zu verwerfen geschieht auf dem Handy. Siehe [Geführte Journeys](/help/mobile-journeys).
+Eine **Problem**-Journey kannst du an der Wand nur ansehen. Starten, einen Schritt abschließen, ein Ergebnis eintragen, sie lösen oder verwerfen, das alles machst du auf dem Handy. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).

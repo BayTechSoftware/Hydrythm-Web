@@ -1,49 +1,49 @@
 ---
 title: Obtenir de l’aide
-description: Signalez un problème depuis Cora Mobile, et ce qui est envoyé avec.
+description: Signalez un problème depuis Cora Mobile, et voyez ce qui est envoyé avec votre message.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 33
 group: Account
 ---
 
-Signaler un problème depuis Cora Mobile est plus utile que de le décrire après coup, car Cora Mobile peut joindre les détails difficiles à se rappeler.
+Mieux vaut signaler un problème depuis Cora Mobile que le raconter après coup. Cora Mobile peut joindre les détails dont on se souvient mal.
 
 **Réglages → Signaler un bug / envoyer un retour.**
 
 ## Ce que vous remplissez
 
-La fiche demande deux choses : **de quel genre de chose il s’agit**, pour que le rapport arrive au bon endroit, et **ce qui s’est passé** dans vos propres mots.
+La fiche vous demande deux choses : **le type de problème**, pour que le signalement arrive au bon endroit, et **ce qui s’est passé**, avec vos propres mots.
 
-Soyez précis sur ce que vous attendiez et ce que vous avez vu à la place. « L’alcalinité affichait 2 j d’ancienneté sur le tableau de bord alors que l’Apex lisait correctement » vaut plus que « les mesures sont cassées ».
+Dites précisément ce que vous attendiez et ce que vous avez vu. « L’alcalinité affichait 2 j sur le tableau de bord alors que l’Apex la lisait bien » aide bien plus que « les mesures ne marchent pas ».
 
 ## Ce qui est joint automatiquement
 
-Une courte ligne de contexte accompagne chaque rapport, et la fiche vous la montre avant l’envoi :
+Une courte ligne d’informations accompagne chaque signalement. La fiche vous la montre avant l’envoi :
 
 - la **version de l’application**
 - votre **plateforme** et la version du système
-- l’**écran** sur lequel vous étiez quand vous avez ouvert la fiche
+- l’**écran** où vous étiez quand vous avez ouvert la fiche
 
-C’est ce qui transforme « ça n’a pas fonctionné » en quelque chose de reproductible. C’est affiché plutôt que caché, donc rien n’est envoyé que vous n’ayez vu.
+Grâce à ces informations, « ça n’a pas marché » devient un problème qu’on peut reproduire. Rien n’est caché. Vous voyez tout ce qui sera envoyé.
 
 ## Captures d’écran
 
-**Joindre une capture d’écran** ajoute une image au rapport, et **Retirer la capture d’écran** la retire à nouveau avant l’envoi.
+**Joindre une capture d’écran** ajoute une image au signalement. **Retirer la capture d’écran** l’enlève avant l’envoi.
 
-:::warning Une capture d’écran est visible par le support Cora
-Cora Mobile le précise au-dessus du contrôle. Vérifiez l’image avant de la joindre ; une capture d’écran du tableau de bord porte les noms et les mesures de votre aquarium, et tout ce qui était affiché au même moment.
+:::warning L’assistance Cora verra la capture d’écran
+Cora Mobile l’indique au-dessus du bouton. Regardez l’image avant de la joindre. Une capture du tableau de bord montre les noms et les mesures de vos aquariums, et tout ce qui était à l’écran à ce moment-là.
 :::
 
-:::note Pourquoi il n’y a pas de contrôle de capture d’écran en mode gardien
-Quand vous consultez l’aquarium de quelqu’un d’autre via un lien partagé, l’option de capture d’écran n’est pas proposée. Une capture d’écran prise à ce moment joindrait *ses* données à *votre* ticket de support, et cette personne ne saurait jamais que c’est arrivé.
+:::note Pas de capture d’écran en mode gardien
+Quand vous consultez l’aquarium de quelqu’un d’autre par un lien partagé, l’option de capture d’écran n’est pas proposée. Une capture prise à ce moment-là joindrait *ses* données à *votre* demande d’assistance, sans que cette personne le sache jamais.
 :::
 
 ## Rapports de plantage automatiques
 
-**Envoyer les rapports de plantage**, à côté de la ligne de signalement, est la même promesse tenue sans que vous ayez à remarquer qu’un problème s’est produit et à le rédiger : si Cora Mobile plante, il signale le plantage tout seul. Voir [Réglages](/help/mobile-settings).
+**Envoyer les rapports de plantage**, à côté de la ligne de signalement, fait la même chose sans que vous ayez à remarquer le problème ni à le décrire. Si Cora Mobile plante, il signale le plantage tout seul. Voir [Réglages](/help/mobile-settings).
 
-## Ailleurs
+## Autres pistes
 
-- Les questions sur votre propre aquarium sont généralement plus rapides via **[Cora Assistant](/help/mobile-assistant)**, qui peut voir vos mesures.
-- Quelque chose qui ne se comporte pas comme documenté : **[Résolution de problèmes](/help/troubleshooting)** d’abord.
+- Pour une question sur votre aquarium, **[Cora Assistant](/help/mobile-assistant)** est souvent plus rapide, car il voit vos mesures.
+- Si quelque chose ne marche pas comme la documentation le décrit, commencez par **[Résolution de problèmes](/help/troubleshooting)**.

@@ -1,69 +1,69 @@
 ---
 title: Manutenzione
-description: Attività ricorrenti con promemoria: pulizia dello skimmer, calzini del filtro, manutenzione delle pompe.
+description: Lavori ricorrenti con promemoria: pulizia dello schiumatoio, calze filtranti, manutenzione delle pompe.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 19
 group: Records
 ---
 
-Manutenzione contiene le attività ricorrenti di cui una vasca ha bisogno e i loro promemoria. Aprila dalla riga di scorciatoie in fondo alla dashboard.
+In Manutenzione trovi i lavori che la vasca richiede a intervalli regolari, con i relativi promemoria. La apri dalla riga di scorciatoie in fondo alla dashboard.
 
 ![L'elenco della manutenzione](img/mobile-maintenance.webp "Conformità, conteggio in ritardo, e ogni attività con il suo ultimo completamento e la prossima data di scadenza.")
 
 ## Il riepilogo
 
-In alto:
+In alto trovi:
 
-- **Conformità manutenzione**: la proporzione di attività attualmente eseguite secondo programma
-- **Conteggio in ritardo**: quante attività hanno superato la loro data di scadenza
+- **Conformità manutenzione**: la percentuale di lavori fatti in tempo
+- **Conteggio in ritardo**: quanti lavori hanno superato la scadenza
 
-Ogni attività nell'elenco è colorata per urgenza: in ritardo, in scadenza a breve, o programmata. Ogni attività mostra quando è stata completata l'ultima volta e quando è la prossima scadenza.
+Ogni lavoro nell'elenco ha un colore in base all'urgenza: in ritardo, in scadenza a breve o in programma. Per ognuno vedi quando l'hai fatto l'ultima volta e quando scade il prossimo.
 
-## Aggiungere un'attività
+## Aggiungere un lavoro
 
-Dagli un nome, un'icona, e ogni quanti giorni deve essere svolta. Cora calcola quando è la prossima scadenza.
+Dagli un nome, un'icona e ogni quanti giorni va fatto. La prossima scadenza la calcola Cora.
 
-Attività tipiche:
+Qualche esempio:
 
-| Attività | Intervallo |
+| Lavoro | Ogni |
 |---|---|
-| Cambiare i calzini del filtro | 3-7 giorni |
-| Pulire la coppa dello skimmer | 7 giorni |
-| Pulire il vetro | 7 giorni |
+| Cambiare le calze filtranti | 3–7 giorni |
+| Pulire il bicchiere dello schiumatoio | 7 giorni |
+| Pulire i vetri | 7 giorni |
 | Sostituire carbone o GFO | 30 giorni |
-| Manutenzione della pompa di risalita | 90-180 giorni |
-| Calibrare le sonde | 30-90 giorni |
+| Revisionare la pompa di risalita | 90–180 giorni |
+| Calibrare le sonde | 30–90 giorni |
 
 ## Promemoria
 
-Ogni attività può avvisarti, e controlli tu i tempi:
+Ogni lavoro può avere un promemoria, e sei tu a decidere quando:
 
 - **Quanti giorni prima** della scadenza
-- **A che ora del giorno** arriva il promemoria
+- **A che ora** arriva il promemoria
 
-Disattiva i promemoria per un'attività che preferisci semplicemente vedere nell'elenco.
+Se per un lavoro ti basta vederlo nell'elenco, spegni il promemoria.
 
-## Segnare un'attività come completata
+## Segnare un lavoro come fatto
 
-Usa il controllo **Fatto** dell'attività, oppure scorrila. Cora registra l'orario di completamento e programma la prossima occorrenza da quel momento, quindi un lavoro fatto tre giorni in ritardo sposta il successivo di tre giorni invece di fingere che sia successo in tempo.
+Tocca **Fatto** oppure scorri il lavoro di lato. Cora registra quando l'hai fatto e calcola la prossima scadenza da quel momento. Se lo fai con tre giorni di ritardo, anche il prossimo slitta di tre giorni.
 
-:::note Toccare un'attività la apre per la modifica
-Toccare la riga stessa apre l'attività per cambiare il suo nome, intervallo o promemoria. Usa Fatto per completarla.
+:::note Toccando un lavoro lo modifichi
+Se tocchi la riga, apri il lavoro per cambiare nome, intervallo o promemoria. Per segnarlo come fatto usa Fatto.
 :::
 
 ## Rinviare
 
-Se non puoi fare un lavoro proprio adesso, rinvialo. Resta nell'elenco in uno stato attenuato **Rinviata** che mostra la sua nuova data, così nulla scompare; semplicemente non ti viene ricordato di nuovo finché non arriva quella data.
+Se adesso non riesci a farlo, rinvialo. Il lavoro resta nell'elenco in grigio come **Rinviata**, con la nuova data. Non sparisce nulla, semplicemente non ricevi altri promemoria fino a quella data.
 
-:::warning Non segnare un'attività come completata se non è stata fatta
-La prossima data di scadenza viene calcolata dalla data di completamento. Segnare come completata un'attività in sospeso sposta ogni data di scadenza successiva. Rinviala invece.
+:::warning Segna come fatto solo quello che hai fatto davvero
+La prossima scadenza parte dalla data in cui segni il lavoro come fatto. Se segni come fatto un lavoro ancora da fare, sposti tutte le scadenze successive. In quel caso rinvialo.
 :::
 
-## Sospendere un'attività
+## Mettere in pausa un lavoro
 
-Un'attività può essere resa inattiva (per un equipaggiamento che hai messo offline, oppure un lavoro che non si applica in questa stagione). Resta nell'elenco, smette di scadere, e può essere riattivata più avanti.
+Puoi disattivare un lavoro, per esempio se hai spento l'attrezzatura a cui si riferisce o se in questa stagione non serve. Resta nell'elenco, non scade più e puoi riattivarlo quando vuoi.
 
-## Manutenzione e il diario
+## Manutenzione e diario
 
-Completare un'attività non è la stessa cosa che scrivere una voce di diario. La manutenzione risponde a "cosa è in scadenza?"; il **[diario](/help/mobile-journal)** risponde a "cosa ho effettivamente fatto, e cosa è successo dopo?". Se un lavoro è stato inusuale (la pompa era piena di sabbia, i calzini erano neri dopo un solo giorno), quello appartiene anche al diario.
+Segnare un lavoro come fatto è diverso dallo scrivere nel diario. La manutenzione ti dice cosa c'è da fare. Il **[diario](/help/mobile-journal)** ti dice cosa hai fatto davvero e cosa è successo dopo. Se un lavoro ha avuto qualcosa di strano (la pompa era piena di sabbia, le calze erano nere dopo un giorno), annotalo anche nel diario.

@@ -1,49 +1,49 @@
 ---
 title: Irse de viaje
-description: Crea un plan que quien cuide tu acuario pueda seguir, y compártelo como una página que puede abrir sin cuenta.
+description: Prepara un plan para la persona que cuida tu acuario y compártelo como una página que puede abrir sin cuenta.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 28
 group: Account
 ---
 
-El modo vacaciones convierte tu acuario en algo que otra persona puede cuidar. Fijas las fechas, enumeras las tareas, y Cora genera una página sencilla que puedes enviarle.
+Con el modo vacaciones, otra persona puede cuidar tu acuario mientras no estás. Pones las fechas, anotas las tareas y Cora crea una página sencilla que puedes enviarle.
 
 **Ajustes → Acuarios → Modo vacaciones.**
 
-![Modo vacaciones](img/mobile-vacation.webp "Fechas de viaje, la lista de tareas para quien cuida el acuario, y las notas que la acompañan.")
+![Modo vacaciones](img/mobile-vacation.webp "Fechas del viaje, la lista de tareas para quien cuida el acuario y sus notas.")
 
 ## Crear el plan
 
-**Fechas**: cuándo te vas y cuándo vuelves.
+**Fechas**: el día que te vas y el día que vuelves.
 
-**Una lista de tareas**: cada tarea con la frecuencia con la que hay que hacerla. Cora muestra la frecuencia como una etiqueta sencilla junto a ella:
+**Lista de tareas**: cada tarea con la frecuencia con que hay que hacerla. Cora muestra esa frecuencia como una etiqueta al lado:
 
 | Frecuencia | Para |
 |---|---|
-| **Diaria** | Alimentar, echar un vistazo rápido al acuario |
+| **Diaria** | Alimentar, echar un vistazo al acuario |
 | **Cada 3 días** | Rellenar agua, revisar el skimmer |
 | **Una vez** | Un cambio de agua mientras estás fuera |
-| **Siempre** | Instrucciones fijas, como equipos que no se deben tocar |
+| **Siempre** | Instrucciones fijas, como equipos que no hay que tocar |
 
-Escribe la lista para alguien que no conoce los acuarios de arrecife. Indica cantidades y métodos de forma explícita: "alimenta con un cubo de comida congelada, descongelado, una vez al día" en lugar de "alimenta como siempre".
+Escribe la lista pensando en alguien que no sabe nada de acuarios de arrecife. Di cantidades y cómo hacerlo. "Alimenta con un cubo de comida congelada, ya descongelado, una vez al día" se entiende. "Alimenta como siempre", no.
 
 ## Compartirlo
 
-Cora convierte el plan en una **página de solo lectura**. Envía el enlace a quien cuide el acuario; no necesita Cora Mobile ni necesita una cuenta.
+Cora convierte el plan en una **página de solo lectura**. Envía el enlace a la persona que cuida el acuario. No necesita Cora Mobile ni una cuenta.
 
-Puede leer la lista y ver el acuario. No puede cambiar nada, controlar equipos ni ver el resto de tu cuenta.
+Puede leer la lista y ver el acuario. No puede cambiar nada, manejar equipos ni ver el resto de tu cuenta.
 
-:::note Indica qué no se debe tocar
-Incluye instrucciones fijas sobre el equipo que quien cuida el acuario debe dejar en paz. Usa la frecuencia **Siempre** para esto.
+:::note Di qué no se toca
+Añade instrucciones fijas sobre los equipos que no debe tocar. Para eso usa la frecuencia **Siempre**.
 :::
 
 ## Mientras estás fuera
 
-Todo lo demás sigue funcionando: lecturas, alertas, Reef Buddy, automatizaciones. El modo vacaciones añade la página para quien cuida el acuario; no cambia cómo se gestiona tu acuario.
+Todo lo demás sigue igual: lecturas, alertas, Reef Buddy y automatizaciones. El modo vacaciones solo añade la página para quien cuida el acuario. Tu acuario funciona como siempre.
 
-Si quieres poder recibir avisos, revisa tus **[ajustes de notificaciones](/help/mobile-notifications)** antes de irte.
+Si quieres que te lleguen los avisos, revisa tus **[ajustes de notificaciones](/help/mobile-notifications)** antes de irte.
 
 ## Al volver
 
-Termina el plan cuando llegues a casa. La lista de tareas se conserva, así que la próxima vez que te vayas puedes reutilizarla en lugar de escribirla de nuevo.
+Cuando llegues a casa, termina el plan. La lista de tareas se guarda, así que en el próximo viaje puedes usarla otra vez sin escribirla de nuevo.

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Consumibles | Cora Help</title>
-  <meta name="description" content="Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios.">
+  <meta name="description" content="Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios filtrantes.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-consumables">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-consumables">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-consumables">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Consumibles | Cora Help">
-  <meta property="og:description" content="Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios.">
+  <meta property="og:description" content="Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios filtrantes.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-consumables">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -65,7 +65,7 @@
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de cuenta</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
 <li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
 </ul></details>
@@ -73,15 +73,15 @@
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
 <li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
-<li><a href="/es/help/mobile-metric-detail">Profundizar en un parámetro</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Equipos</summary><ul>
 <li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
-<li><a href="/es/help/mobile-connections">Conectar tu equipo</a></li>
-<li><a href="/es/help/mobile-device-control">Cómo controlar tu equipo</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Sondas</a></li>
 <li><a href="/es/help/mobile-consumables" class="cur" aria-current="page">Consumibles</a></li>
@@ -169,19 +169,19 @@
     <article class="doc">
       <h1>Consumibles</h1>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#configurar-una-alerta-de-reposicin">Configurar una alerta de reposición</a></li><li><a href="#elegir-un-umbral">Elegir un umbral</a></li><li><a href="#despus-de-rellenar">Después de rellenar</a></li></ul></nav>
-<p>El equipo que consume algo (reactivo, líquido de dosificación, agua de reposición, medio filtrante) puede decirle a Cora cuánto queda. Cora puede avisarte antes de que se acabe.</p>
+<p>Hay equipos que gastan algo: reactivo, líquido de dosificación, agua de reposición o medio filtrante. Pueden decirle a Cora cuánto queda, y Cora puede avisarte antes de que se acabe.</p>
 <h2 id="configurar-una-alerta-de-reposicin">Configurar una alerta de reposición</h2>
-<p>Abre el dispositivo (desde la pestaña <strong>Dispositivos</strong>, o tocando su casilla en el panel), y luego usa la <strong>campana</strong> en la barra superior.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Alertas de reposición para una unidad de dosificación"><img src="/help/img/mobile-consumables.webp" alt="Alertas de reposición para una unidad de dosificación" width="620" height="740" loading="lazy" decoding="async"></button><figcaption>Un umbral por cabezal, cada uno activado o desactivado de forma independiente.</figcaption></figure>
-<p>El equipo con más de un envase tiene un umbral por envase, así que un cabezal que vigilas de cerca y uno que casi no tocas pueden configurarse de forma distinta.</p>
-<p><strong>La mayoría de los umbrales se fijan en días, no en volumen.</strong> Cora calcula cuánto durará lo que queda al ritmo con el que realmente lo estás usando, que es el número sobre el que puedes actuar; "quedan cuatro días de calcio" te dice algo que "quedan 180 mL" no te dice.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Umbral en</th></tr></thead><tbody><tr><td data-th="Dispositivo">Trident</td><td data-th="Umbral en">Pruebas restantes, y cuán llena está la botella de residuos</td></tr><tr><td data-th="Dispositivo">Cabezal de dosificación</td><td data-th="Umbral en">Días de suplemento restantes; algunos también ofrecen mililitros restantes</td></tr><tr><td data-th="Dispositivo">ATO</td><td data-th="Umbral en">Días de depósito restantes</td></tr><tr><td data-th="Dispositivo">Rodillo de estera</td><td data-th="Umbral en">Días de rollo restantes</td></tr></tbody></table></div>
-<p>Una alerta de consumible se comporta como cualquier otra alerta: aparece en el <a href="/es/help/mobile-alerts">Centro de alertas</a> y puede enviarse a tu teléfono. Recibes <strong>una</strong> notificación cuando se supera un nivel, no un flujo repetido, y se cierra cuando el nivel vuelve a estar por encima del umbral.</p>
+<p>Abre el dispositivo desde la pestaña <strong>Dispositivos</strong> o tocando su casilla en el panel. Después toca la <strong>campana</strong> de la barra superior.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Alertas de reposición de una unidad de dosificación"><img src="/help/img/mobile-consumables.webp" alt="Alertas de reposición de una unidad de dosificación" width="620" height="740" loading="lazy" decoding="async"></button><figcaption>Un umbral por cabezal, y cada uno se activa o desactiva por separado.</figcaption></figure>
+<p>Si el equipo tiene más de un envase, cada envase tiene su propio umbral. Así puedes configurar de forma distinta un cabezal que vigilas de cerca y otro que casi no tocas.</p>
+<p><strong>La mayoría de los umbrales van en días, no en volumen.</strong> Cora calcula cuánto te durará lo que queda según lo que gastas de verdad. Ese es el dato que te sirve para actuar. "Quedan cuatro días de calcio" te dice mucho más que "quedan 180 mL".</p>
+<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Umbral según</th></tr></thead><tbody><tr><td data-th="Dispositivo">Trident</td><td data-th="Umbral según">Pruebas que quedan y lo llena que está la botella de residuos</td></tr><tr><td data-th="Dispositivo">Cabezal de dosificación</td><td data-th="Umbral según">Días de suplemento que quedan. Algunos también ofrecen mililitros restantes</td></tr><tr><td data-th="Dispositivo">ATO</td><td data-th="Umbral según">Días de depósito que quedan</td></tr><tr><td data-th="Dispositivo">Rodillo de estera</td><td data-th="Umbral según">Días de rollo que quedan</td></tr></tbody></table></div>
+<p>Una alerta de consumible funciona como cualquier otra alerta. Aparece en el <a href="/es/help/mobile-alerts">Centro de alertas</a> y puede llegarte como notificación al teléfono. Recibes <strong>una</strong> sola notificación cuando el nivel baja del umbral, sin avisos repetidos. La alerta desaparece cuando el nivel vuelve a estar por encima.</p>
 <h2 id="elegir-un-umbral">Elegir un umbral</h2>
-<p>Fíjalo con suficiente antelación para poder actuar. Un umbral que se activa el día en que algo se acaba no da ningún aviso.</p>
-<aside class="cal cal-warning"><p class="cal-t">Algunos equipos no se detienen al vaciarse</p><p>Un cabezal de dosificación con el envase vacío sigue ejecutando su programa e informa de dosis que no llegó a entregar. La alerta de reposición es lo que evita esto, así que configura una para cada cabezal desde el que dosifiques.</p></aside>
+<p>Ponlo con margen suficiente para poder reaccionar. Si salta el mismo día en que algo se acaba, no te sirve de aviso.</p>
+<aside class="cal cal-warning"><p class="cal-t">Algunos equipos no se paran al quedarse vacíos</p><p>Un cabezal de dosificación con el envase vacío sigue con su programa y registra dosis que no llegó a dar. La alerta de reposición te protege de esto. Configura una para cada cabezal que uses.</p></aside>
 <h2 id="despus-de-rellenar">Después de rellenar</h2>
-<p>Restablece o actualiza el nivel en la página del dispositivo para que la alerta se cierre y el próximo aviso se calcule correctamente.</p>
+<p>Restablece o actualiza el nivel en la página del dispositivo. Así la alerta desaparece y el siguiente aviso se calcula bien.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-probes"><span>Anterior</span><b>Sondas</b></a><a class="pn-n" href="/es/help/mobile-alerts"><span>Siguiente</span><b>Alertas y umbrales</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.78 y Cora Mobile 0.5.79. Última revisión el 2026-09-09.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>

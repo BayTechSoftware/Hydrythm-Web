@@ -1,60 +1,60 @@
 ---
 title: Aktywność i oś czasu
-description: Wszystko, co przydarzyło się Twojemu sprzętowi, i co to spowodowało.
+description: Co działo się z Twoim sprzętem i kto albo co to zleciło.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 22
 group: Records
 ---
 
-Aktywność zapisuje każde **żądanie akcji** (każdą próbę zmiany czegoś) wraz z tym, co o to poprosiło i co się z tym stało.
+Aktywność zapisuje każde **żądanie akcji**, czyli każdą próbę zmiany czegoś. Przy każdym widać, skąd przyszło i czym się skończyło.
 
-Żądanie to nie to samo co zmiana. Odmówione żądania nie zostały wykonane, z jednym wyjątkiem: wpis mówiący *Żadne urządzenie nie odpowiedziało na czas* może się jednak wykonać, więc sprawdź sprzęt, zanim powtórzysz próbę. Żądania bez zmiany zastały sprzęt już w żądanym stanie, a niepotwierdzone może, ale nie musi, dotarło do urządzenia w ogóle. Wszystkie są zapisywane.
+Żądanie to jeszcze nie zmiana. Odrzucone żądania nie zostały wykonane, z jednym wyjątkiem. Wpis *Żadne urządzenie nie odpowiedziało na czas* oznacza, że akcja mogła się jednak wykonać, więc zanim ją powtórzysz, sprawdź sprzęt. Żądanie bez zmiany trafiło na sprzęt, który już był w żądanym stanie. Niepotwierdzone mogło w ogóle nie dotrzeć do urządzenia, ale mogło też dotrzeć. Zapisywane są wszystkie.
 
-**Ustawienia → Activity.**
+**Ustawienia → Aktywność.**
 
-![Dziennik aktywności](img/mobile-activity.webp "Każda akcja, z miejscem, które o nią poprosiło.")
+![Dziennik aktywności](img/mobile-activity.webp "Każda akcja razem z miejscem, z którego ją zlecono.")
 
 ## Co jest zapisywane
 
-Każde **żądanie**, nie tylko te, które zadziałały: przełączenia gniazd, cykle karmienia, dawki, zmiany wtyczek i wszystko, co zrobiła scenka albo automatyzacja.
+Każde **żądanie**, także to, które nie zadziałało: przełączenie gniazda, cykl karmienia, dawka, zmiana wtyczki i wszystko, co zrobiła scena albo automatyzacja.
 
-Żądanie, które zostało **odmówione**, które nie spowodowało **żadnej zmiany** albo które wyszło i wróciło **niepotwierdzone**, jest zapisywane tak samo jak wykonane. To jest właśnie sens: polecenie, które po cichu nic nie zrobiło, jest dokładnie tym, co chcesz tu znaleźć.
+Żądanie **odrzucone**, takie, które **nic nie zmieniło**, i takie, które wróciło **niepotwierdzone**, trafia do listy tak samo jak wykonane. Właśnie o to chodzi. Polecenie, które po cichu nic nie zrobiło, to dokładnie to, czego tu szukasz.
 
-## Co to spowodowało
+## Skąd przyszło żądanie
 
-Każdy wpis nazywa swoją przyczynę:
+Każdy wpis podaje swoje źródło:
 
-| Przyczyna | Znaczy |
+| Źródło | Co oznacza |
 |---|---|
-| **Ta aplikacja** | Dotknąłeś tego tutaj |
-| **Głos w tej aplikacji** | Zapytałeś, na tym telefonie |
-| **Dotknięcie na Cora** | Ktoś użył ekranu Cora; wiersz mówi który |
-| **Głos na Cora Max** | Ktoś powiedział coś do ekranu |
-| **Cora Assistant** | Poprosiłeś Corę, aby to zrobiła |
-| **Reguła automatyzacji** | Uruchomiła się reguła |
-| **Smart przycisk** | Naciśnięto fizyczny przycisk |
-| **Wysłane z Cora Cloud** | Wydane przez Twoje konto, a nie przez urządzenie przed Tobą |
-| **Nieznane źródło** | Zapisane, zanim można było ustalić źródło |
+| **Ta aplikacja** | Dotknięcie w Cora Mobile na tym telefonie |
+| **Głos w tej aplikacji** | Polecenie głosowe na tym telefonie |
+| **Dotknięcie na Cora** | Ktoś użył ekranu Cora, a wiersz podaje którego |
+| **Głos na Cora Max** | Ktoś wydał polecenie głosowe na ekranie |
+| **Cora Assistant** | Prośba do Cora Assistant |
+| **Reguła automatyzacji** | Zadziałała reguła |
+| **Smart przycisk** | Ktoś nacisnął fizyczny przycisk |
+| **Wysłane z Cora Cloud** | Polecenie przyszło z Twojego konta, a nie z urządzenia przed Tobą |
+| **Nieznane źródło** | Wpis powstał, zanim dało się ustalić źródło |
 
-## Jak dotarło
+## Jaką drogą dotarło
 
-Każdy wiersz ma też plakietkę trasy, bo *jak* żądanie dotarło do Twojego sprzętu wiele wyjaśnia o tym, co poszło źle, gdy coś nie zadziałało:
+Każdy wiersz ma też etykietę trasy. Gdy coś nie zadziała, droga żądania do sprzętu często wyjaśnia, co poszło nie tak.
 
-| Plakietka | Znaczy |
+| Etykieta | Co oznacza |
 |---|---|
-| **LAN** | Wysłane przez Twoją własną sieć, bezpośrednio do sprzętu |
-| **PRZEZ CHMURĘ** | Wysłane przez Twoje konto, dla sprzętu niedostępnego bezpośrednio |
-| **TRASA ?** | Zapisane, zanim śledzono trasy: naprawdę nieznane, a nie zgadywane |
+| **LAN** | Żądanie poszło przez Twoją sieć prosto do sprzętu |
+| **PRZEZ CHMURĘ** | Żądanie poszło przez Twoje konto, bo sprzęt nie był dostępny bezpośrednio |
+| **TRASA ?** | Wpis sprzed śledzenia tras. Trasa jest naprawdę nieznana, Cora jej nie zgaduje |
 
-W systemie z więcej niż jednym Cora wiersz nazywa też, które urządzenie przekazało żądanie dalej.
+Jeśli masz więcej niż jedno urządzenie Cora, wiersz podaje też, które z nich przekazało żądanie.
 
 ## Oś czasu akwarium
 
-Odrębnie od akcji sprzętu, każde akwarium ma **oś czasu**: odczyty, alerty, wpisy dziennika, wyniki ICP i zmiany obsady, ułożone po kolei.
+Poza akcjami sprzętu każde akwarium ma **oś czasu**. Są na niej po kolei odczyty, alerty, wpisy w dzienniku, wyniki ICP i zmiany obsady.
 
-Użyj aktywności, gdy pytasz *"co coś zrobiło?"*, a osi czasu, gdy pytasz *"co się działo wokół tej daty?"*
+Do aktywności zaglądaj, gdy pytasz *„co coś zrobiło?”*. Do osi czasu, gdy pytasz *„co się działo w okolicach tej daty?”*.
 
 :::note Oś czasu i dziennik się uzupełniają
-Oś czasu przechowuje to, co zapisała Cora; [dziennik](/help/mobile-journal) przechowuje to, co zrobiłeś Ty. Odczytane razem ustalają przyczynę i skutek wokół danej daty.
+Na osi czasu jest to, co zapisała Cora. W [dzienniku](/help/mobile-journal) są Twoje własne działania. Razem pokazują przyczynę i skutek w okolicach danej daty.
 :::

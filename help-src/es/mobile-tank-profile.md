@@ -1,73 +1,73 @@
 ---
 title: El perfil de tu acuario
-description: El volumen, la fauna, el equipo y los datos de dosificación que usa Cora para interpretar tus lecturas.
+description: Volumen, fauna, equipo y dosificación. Con estos datos Cora interpreta tus lecturas.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 3
 group: Getting started
 ---
 
-El perfil del acuario describe tu sistema. Cora lo usa para juzgar las lecturas, calcular dosis y decidir qué es normal para tu acuario en lugar de para acuarios en general.
+El perfil describe tu sistema. Con él, Cora juzga las lecturas, calcula dosis y decide qué es normal para tu acuario en concreto.
 
-Para abrirlo, toca el **lápiz a la derecha de la cabecera del acuario**. El pequeño icono junto al nombre del acuario es un renombrado rápido, no esto.
+Para abrirlo, toca el **lápiz a la derecha de la cabecera del acuario**. El pequeño icono junto al nombre sirve solo para cambiar el nombre.
 
 ## Configuración guiada
 
-Un perfil tiene mucho contenido, así que **Configuración guiada** recorre las secciones una por una (dosificación, iluminación, flujo y filtración, fauna, tu equipo) en lugar de presentar todo el formulario a la vez.
+Un perfil tiene muchos datos. **Configuración guiada** te lleva por las secciones de una en una: dosificación, iluminación, flujo y filtración, fauna y tu equipo.
 
-Está pensada para poder interrumpirse:
+Puedes dejarla a medias cuando quieras.
 
-- **Terminar más tarde** deja el perfil donde está y te lleva de vuelta. Tus respuestas hasta ese momento se conservan.
-- Volver a abrir la configuración guiada continúa en la sección donde la dejaste, en lugar de empezar de nuevo.
-- **Decidir más tarde** salta una pregunta que no estás listo para responder sin bloquear el resto.
-- Salir de una sección con cambios sin guardar pregunta primero, ofreciendo **Seguir editando** o **Salir**.
+- **Terminar más tarde** deja el perfil como está y te devuelve a la pantalla anterior. Lo que ya respondiste se guarda.
+- Al volver a abrir la configuración guiada, sigues en la sección donde te quedaste.
+- **Decidir más tarde** salta una pregunta que aún no sabes responder. El resto sigue disponible.
+- Si sales de una sección con cambios sin guardar, te pregunta antes y te ofrece **Seguir editando** o **Salir**.
 
-La cifra de completitud en el perfil, y el aviso que aparece en el panel mientras está por debajo del 100%, son puntos de entrada de vuelta al mismo flujo.
+El porcentaje de completado del perfil te lleva de vuelta al mismo flujo. También el aviso que aparece en el panel mientras no llegues al 100%.
 
-:::note Cada sección cambia lo que Cora puede decir
-La completitud no es una puntuación por sí misma. Los productos de dosificación hacen que funcionen la calculadora de dosis y el seguimiento del consumo; la fauna y el tipo de acuario cambian frente a qué se evalúan tus lecturas; el equipo le indica a Cora qué existe para hablar de ello. Un perfil escaso da respuestas correspondientemente generales.
+:::note Cada sección cambia lo que Cora puede decirte
+El porcentaje no es una nota. Con los productos de dosificación funcionan la calculadora de dosis y el seguimiento del consumo. La fauna y el tipo de acuario cambian con qué se comparan tus lecturas. El equipo le dice a Cora de qué puede hablar. Con un perfil casi vacío, las respuestas son igual de generales.
 :::
 
-![El editor del perfil del acuario](img/mobile-tank-profile.webp "Cada sección muestra un estado de finalización. La puntuación en la parte superior refleja cuánto sabe Cora sobre el acuario.")
+![El editor del perfil del acuario](img/mobile-tank-profile.webp "Cada sección muestra si está completa. El porcentaje de arriba indica cuánto sabe Cora del acuario.")
 
-## Completitud
+## Completado
 
-El porcentaje en la parte superior muestra cuánto del perfil está completado. Un perfil más completo produce consejos más específicos; uno vacío deja a Cora trabajando con valores predeterminados.
+El porcentaje de arriba muestra cuánto del perfil has rellenado. Cuanto más completo esté, más concretos son los consejos. Con un perfil vacío, Cora trabaja con valores predeterminados.
 
 ## Secciones
 
-| Sección | Cubre |
+| Sección | Qué incluye |
 |---|---|
-| Nombre y tipo de acuario | Cómo llamas al acuario, su tipo y su antigüedad |
+| Nombre y tipo de acuario | Cómo se llama el acuario, de qué tipo es y cuánto tiempo lleva montado |
 | Dimensiones del acuario | Tamaño físico y volumen total de agua |
 | Dosificación | Qué dosificas y cómo |
-| Gestión del agua | Cambios de agua, reposición, objetivos de salinidad |
-| Fauna | Qué contiene el acuario y cuán poblado está |
-| Control de temperatura | Equipo de calefacción y refrigeración |
-| Iluminación | Luminarias y fotoperiodo |
-| Flujo y filtración | Bombas, skimming y medios |
+| Gestión del agua | Cambios de agua, rellenado, salinidad objetivo |
+| Fauna | Qué vive en el acuario y cuánta carga tiene |
+| Control de temperatura | Calentadores y enfriadores |
+| Iluminación | Pantallas de luz y fotoperiodo |
+| Flujo y filtración | Bombas, skimmer y materiales filtrantes |
 | Dispositivos Neptune | El Apex de este acuario y sus módulos |
-| Dispositivos Red Sea | Unidades ReefBeat asignadas aquí |
-| Dispositivos Cora | Qué pantallas atienden a este acuario |
+| Dispositivos Red Sea | Los equipos ReefBeat asignados a este acuario |
+| Dispositivos Cora | Qué pantallas muestran este acuario |
 | Fuentes de parámetros | De qué fuente se lee cada parámetro |
-| Plagas y tratamiento | Con qué has tenido que lidiar, y qué usaste |
+| Plagas y tratamiento | Qué problemas has tenido y qué usaste |
 
-![Las secciones de dispositivos y fuentes](img/mobile-tank-profile-devices.webp "La mitad inferior del perfil: tu equipo, de dónde viene cada parámetro, y el historial de tratamientos.")
+![Las secciones de dispositivos y fuentes](img/mobile-tank-profile-devices.webp "La parte de abajo del perfil: tu equipo, de dónde sale cada parámetro y el historial de tratamientos.")
 
-Toca una sección para desplegarla. El icono de información junto a cada una explica para qué se usan los campos.
+Toca una sección para abrirla. El icono de información de cada una explica para qué sirven sus campos.
 
 ## Volumen
 
-Introduce el volumen real de agua incluyendo el sump, no el volumen nominal impreso en el acuario.
+Escribe el volumen real de agua, con el sump incluido. El volumen que figura en el acuario no sirve.
 
-:::warning Los cálculos de dosis escalan directamente con el volumen
-Un volumen introducido un 20% por encima produce recomendaciones de dosis un 20% por encima. Si no estás seguro, mide en lugar de estimar.
+:::warning Las dosis dependen directamente del volumen
+Si pones un volumen un 20% más alto, las dosis recomendadas salen un 20% más altas. Si tienes dudas, mídelo. No lo calcules a ojo.
 :::
 
 ## Antigüedad del acuario
 
-Fija la fecha en que se puso en marcha el acuario. Las lecturas se evalúan frente a lo que es normal para un acuario de esa antigüedad; un sistema de tres meses y uno de cinco años se evalúan de forma distinta. Si el acuario todavía está en proceso de arranque, regístralo como tal.
+Indica la fecha en que montaste el acuario. Cora compara las lecturas con lo normal para un acuario de esa edad. Un sistema de tres meses y otro de cinco años no se evalúan igual. Si el acuario todavía está en ciclado, indícalo.
 
-## Mantener el perfil actualizado
+## Mantén el perfil al día
 
-Actualiza el perfil cuando el sistema cambie: equipo nuevo, un cambio en la población, un régimen de dosificación distinto. El perfil es a partir de lo que Cora razona, así que un perfil desactualizado produce consejos desactualizados.
+Actualiza el perfil cuando cambie algo en el sistema, como un equipo nuevo, más o menos fauna o otra forma de dosificar. Cora razona a partir del perfil. Si está desactualizado, los consejos también lo estarán.

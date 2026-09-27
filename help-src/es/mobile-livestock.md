@@ -1,58 +1,58 @@
 ---
 title: Fauna
-description: Mantén un registro de lo que hay en el acuario, cuándo llegó y qué le pasó.
+description: Lleva un registro de lo que vive en el acuario, cuándo llegó y qué fue de cada ejemplar.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 20
 group: Records
 ---
 
-Fauna registra lo que contiene el acuario (corales, peces e invertebrados) junto con cuándo se añadió cada ejemplar y su estado actual. Ábrela desde la fila de accesos directos en la parte inferior del panel.
+En Fauna apuntas lo que vive en el acuario (corales, peces e invertebrados), cuándo llegó cada ejemplar y cómo está ahora. Se abre desde la fila de accesos directos, al final del panel.
 
-![El inventario de fauna](img/mobile-livestock.webp "Resumen del inventario y pérdidas recientes, con las entradas agrupadas por tipo.")
+![El inventario de fauna](img/mobile-livestock.webp "El resumen del inventario y las pérdidas recientes, con los ejemplares agrupados por tipo.")
 
 ## El resumen
 
-En la parte superior:
+Arriba verás dos datos.
 
-- **Resumen del inventario**: totales por categoría amplia, como corales, peces e invertebrados
-- **Pérdidas**: cuántas entradas se han marcado como perdidas en los últimos 90 días
+- **Resumen del inventario** muestra los totales por grandes grupos, como corales, peces e invertebrados.
+- **Pérdidas** indica cuántos ejemplares has marcado como perdidos en los últimos 90 días.
 
-Las entradas se agrupan por tipo (coral SPS, coral LPS, coral blando, peces y así sucesivamente), cada una con su cantidad y la fecha en que se añadió.
+Los ejemplares se agrupan por tipo (coral SPS, coral LPS, coral blando, peces, etc.). Cada uno muestra su cantidad y la fecha en que llegó.
 
-**Mostrar perdidos** en la barra superior incluye ejemplares que ya no están en el acuario.
+Con **Mostrar perdidos**, en la barra de arriba, ves también los ejemplares que ya no están en el acuario.
 
-## Añadir algo
+## Añadir un ejemplar
 
-Cada entrada lleva:
+Cada ejemplar tiene estos campos.
 
-- **Nombre**: cómo lo llamas
-- **Tipo**: coral SPS, coral LPS, coral blando, pez, invertebrado, anémona u otro
-- **Especie**: opcional, si la conoces
-- **Cantidad**: para un grupo, como un cardumen o un paquete de fragmentos
-- **Fecha añadido**: por defecto, hoy
-- **Notas**: proveedor, ubicación, coste o cualquier otro detalle que quieras guardar
+- **Nombre**, el que tú le das
+- **Tipo**, que puede ser coral SPS, coral LPS, coral blando, pez, invertebrado, anémona u otro
+- **Especie**, si la conoces (es opcional)
+- **Cantidad**, para grupos como un banco de peces o un lote de esquejes
+- **Fecha de llegada**, que por defecto es hoy
+- **Notas**, para la tienda, la ubicación, el precio o cualquier otro detalle
 
-## Qué le pasó
+## Qué fue de cada ejemplar
 
-Cada entrada lleva un estado:
+Cada ejemplar tiene un estado.
 
-| Estado | Significa |
+| Estado | Qué significa |
 |---|---|
-| **Vivo** | Todavía en el acuario |
+| **Vivo** | Sigue en el acuario |
 | **Perdido** | Murió |
-| **Fragmentado** | Cortado; la colonia continúa |
-| **Vendido** | Fue a parar a otra persona |
-| **Trasladado** | En otro de tus acuarios |
+| **Fragmentado** | Se cortó en esquejes y la colonia sigue |
+| **Vendido** | Ahora lo tiene otra persona |
+| **Trasladado** | Está en otro de tus acuarios |
 
-Marcar un ejemplar como **perdido** registra la fecha y, opcionalmente, un motivo. Registrar las pérdidas de forma constante es lo que hace visibles los patrones más adelante: pérdidas concentradas en una zona del acuario, o que siguen a un evento concreto.
+Al marcar un ejemplar como **perdido**, se guarda la fecha y, si quieres, un motivo. Si apuntas todas las pérdidas, más adelante verás patrones, como pérdidas en una misma zona del acuario o después de algo concreto.
 
-:::note "Desconocido" es un motivo de pérdida válido
-Registra la fecha aunque no se conozca la causa. La fecha es lo que respalda la comparación posterior.
+:::note "Desconocido" también vale como motivo
+Apunta la fecha aunque no sepas la causa. Con la fecha podrás comparar más adelante.
 :::
 
 ## La fauna y el resto de Cora
 
-Tu carga de fauna forma parte de aquello frente a lo que se evalúan tus parámetros; un sistema SPS muy poblado y un acuario de corales blandos poco poblado no se juzgan con el mismo criterio.
+Cora evalúa tus parámetros teniendo en cuenta cuánta fauna tienes. Un sistema SPS muy poblado y un acuario de corales blandos con poca carga no se juzgan igual.
 
-También puedes preguntar por ella. *"¿Cuándo añadí el coral martillo?"* o *"¿Qué he perdido este año?"* se responden a partir de este registro.
+También puedes preguntar por tu fauna. Cora responde a preguntas como *"¿Cuándo añadí el coral martillo?"* o *"¿Qué he perdido este año?"* con este registro.

@@ -1,30 +1,30 @@
 ---
 title: Maintenance
-description: Recurring jobs with reminders: skimmer cleaning, filter socks, pump servicing.
+description: Recurring jobs with reminders, like cleaning the skimmer, changing filter socks and servicing pumps.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 19
 group: Records
 ---
 
-Maintenance holds the recurring jobs a tank needs and the reminders for them. Open it from the shortcut row at the bottom of the dashboard.
+Maintenance keeps the jobs your tank needs on a regular basis, with reminders for each one. Open it from the shortcut row at the bottom of the dashboard.
 
 ![The maintenance list](img/mobile-maintenance.webp "Compliance, overdue count, and each task with its last completion and next due date.")
 
 ## The summary
 
-At the top:
+At the top you'll see two numbers.
 
-- **Maintenance Compliance**: the proportion of tasks currently done on schedule
-- **Overdue count**: how many tasks have passed their due date
+- **Maintenance Compliance** is the share of tasks that are on schedule right now.
+- **Overdue count** is how many tasks are past their due date.
 
-Each task in the list is colour-coded by urgency: overdue, due soon, or scheduled. Every task shows when it was last completed and when it is next due.
+Each task in the list is colour-coded as overdue, due soon or scheduled. It also shows when you last did it and when it's due next.
 
 ## Adding a task
 
-Give it a name, an icon, and how often it needs doing in days. Cora works out when it is next due.
+Give it a name, an icon and how often it needs doing, in days. Cora works out the next due date.
 
-Typical tasks:
+Some typical tasks:
 
 | Task | Interval |
 |---|---|
@@ -37,33 +37,33 @@ Typical tasks:
 
 ## Reminders
 
-Each task can remind you, and you control the timing:
+Each task can remind you. You choose two things.
 
-- **How many days before** it is due
+- **How many days before** it's due
 - **What time of day** the reminder arrives
 
-Turn reminders off for a task you would rather just see in the list.
+If you'd prefer to just see a task in the list, turn its reminders off.
 
 ## Marking a task done
 
-Use the task's **Done** control, or swipe it. Cora records the completion time and schedules the next occurrence from that moment, so a job done three days late moves the next one out by three days rather than pretending it happened on time.
+Tap the task's **Done** control, or swipe it. Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too.
 
 :::note Tapping a task opens it for editing
-Tapping the row itself opens the task to change its name, interval or reminders. Use Done to complete it.
+Tap the row itself to change the task's name, interval or reminders. Use Done to complete it.
 :::
 
 ## Snoozing
 
-If you cannot do a job right now, snooze it. It stays in the list in a muted **Snoozed** state showing its new date, so nothing disappears; you simply are not reminded again until then.
+Can't get to a job right now? Snooze it. It stays in the list, greyed out as **Snoozed** with its new date. You just won't be reminded again until then.
 
-:::warning Do not mark a task complete unless it was done
-The next due date is calculated from the completion date. Marking an outstanding task as complete shifts every subsequent due date. Snooze it instead.
+:::warning Only mark a task done when you've done it
+The next due date is counted from the day you mark it done. If you mark an open task as done, every later due date shifts. Snooze it instead.
 :::
 
 ## Pausing a task
 
-A task can be made inactive (for equipment you have taken offline, or a job that does not apply this season). It stays in the list, stops being due, and can be reactivated later.
+You can make a task inactive, for example when you've taken the equipment offline or the job doesn't apply this season. It stays in the list but stops coming due. You can turn it back on later.
 
 ## Maintenance and the journal
 
-Completing a task is not the same as writing a journal entry. Maintenance answers "what is due?"; the **[journal](/help/mobile-journal)** answers "what did I actually do, and what happened next?". If a job was unusual (the pump was full of sand, the socks were black after one day), that belongs in the journal too.
+Ticking off a task isn't the same as writing a journal entry. Maintenance tells you what's due. The **[journal](/help/mobile-journal)** is where you note what you did and what happened next. If a job was unusual, say the pump was full of sand or the socks were black after one day, write that in the journal too.

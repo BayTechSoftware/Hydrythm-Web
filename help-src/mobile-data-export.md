@@ -1,13 +1,13 @@
 ---
 title: Your data
-description: Export your readings, journal and alerts as spreadsheets, and how to delete your account.
+description: Export your readings, journal and alerts as spreadsheets, and delete your account if you want to.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 30
 group: Account
 ---
 
-Your tank records are yours, and you can take them out at any time.
+Your tank records belong to you, and you can take them out whenever you like.
 
 ![Account data controls](img/mobile-data.webp "Export and deletion sit together at the foot of Account & Subscription.")
 
@@ -17,30 +17,30 @@ Your tank records are yours, and you can take them out at any time.
 
 Exporting is **free on every plan**, including the free one.
 
-Cora exports as **CSV files**, spreadsheets that open in Excel, Numbers, Google Sheets, or anything that reads a table:
+Cora exports **CSV files**. They're spreadsheets that open in Excel, Numbers, Google Sheets or anything else that reads a table.
 
 | File | Contains |
 |---|---|
 | `cora_parameters.csv` | Your readings, each with its source and timestamp |
 | `cora_journal.csv` | Your journal entries |
 | `cora_alerts.csv` | Alerts raised |
-| `cora_export_summary.csv` | What this export covers, including anything that was truncated |
+| `cora_export_summary.csv` | What this export covers, including anything that was cut short |
 
-:::note What the export is, and what it is not
-It covers **readings, journal entries and alerts**, the three records people ask for. It is not a copy of everything in your account: dashboards, livestock, maintenance, automations, reports and device settings are not included.
+:::note What's in the export
+It covers **readings, journal entries and alerts**, the three records people ask for. It isn't a copy of your whole account. Dashboards, livestock, maintenance, automations, reports and device settings aren't included.
 
-Each of the three is capped at **25,000 rows per tank**. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will be cut off at the cap. The summary file states plainly when that has happened; check it rather than assuming the file is complete.
+Each of the three stops at **25,000 rows per tank**. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will hit the cap. The summary file tells you when that's happened. Check it before you assume the export is complete.
 :::
 
-The parameter export carries the **source** of each reading, not just the value, so a spreadsheet of your alkalinity keeps the distinction between what your probe said and what your test kit said.
+The parameter export includes the **source** of each reading. So in a spreadsheet of your alkalinity, you can still tell what your probe said from what your test kit said.
 
-:::note Export before major changes
-Take an export before decommissioning a tank or making significant changes to your setup. The exported files are independent of Cora Mobile and your account.
+:::note Export before big changes
+Take an export before you shut down a tank or make big changes to your setup. The files don't depend on Cora Mobile or your account.
 :::
 
 ## Signing out versus deleting
 
-**Sign Out** disconnects this device from your account. Your data is untouched and signing back in restores everything.
+**Sign Out** disconnects this device from your account. Your data isn't touched, and signing back in brings everything back.
 
 **Delete account** is permanent.
 
@@ -48,24 +48,24 @@ Take an export before decommissioning a tank or making significant changes to yo
 
 **Settings → your account → Delete account.**
 
-This is permanent. It removes your account, your tanks, your readings, your journal, your lab results and your device links. It cannot be undone and there is no grace period.
+This is permanent. It removes your account, tanks, readings, journal, lab results and device links. You can't undo it, and there's no grace period.
 
-Export first if you want to keep anything.
+If you want to keep anything, export it first.
 
-:::warning It does not cancel your subscription
-An App Store or Google Play subscription belongs to the **store**, not to Cora. Deleting your account removes your record here and **nothing stops the billing**; the charges continue until you cancel with Apple or Google yourself. Cancel there first, then delete.
+:::warning Deleting doesn't cancel your subscription
+An App Store or Google Play subscription belongs to the **store**. Deleting your account removes your record with Cora, but **the billing doesn't stop**. You'll keep being charged until you cancel with Apple or Google yourself. Cancel there first, then delete.
 :::
 
 ## Contributing anonymised data
 
 **Settings → Cora Assistant → Contribute anonymized tank data.**
 
-While this is on, your tank's parameter history is retained for reef research **with no link to you** even if you later delete your account. Turn it off and that history is deleted along with everything else.
+While this is on, your tank's parameter history is kept for reef research **with no link to you**, even if you later delete your account. Turn it off and that history is deleted with everything else.
 
-It is a separate decision from account deletion, and it is the only part of your data that outlives the account, so it is worth making deliberately. Note that it is **on by default**; a deletion made without visiting this switch leaves the de-identified copy behind.
+This is a separate choice from deleting your account. It's the only part of your data that outlives the account, so give it some thought. It's **on by default**. If you delete your account without checking this switch, the de-identified copy stays behind.
 
 ## What Cora stores
 
-The full detail is in the [privacy policy](/privacy-policy.html). In short: your tank data, your account, and the sign-ins for any equipment you connected through a manufacturer's account.
+The [privacy policy](/privacy-policy.html) has the full detail. Briefly, Cora stores your tank data, your account, and the sign-ins for any equipment you connected through a manufacturer's account.
 
-Removing a device forgets that sign-in. Deleting your account removes everything held against you, with the two exceptions above: the anonymised research copy, if you left that switch on, and your store subscription, which only the store can cancel.
+Removing a device forgets its sign-in. Deleting your account removes everything held under your name, with the two exceptions above. Those are the anonymised research copy, if you left that switch on, and your store subscription, which only the store can cancel.

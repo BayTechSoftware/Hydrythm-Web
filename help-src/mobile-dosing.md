@@ -1,13 +1,13 @@
 ---
 title: Dosing
-description: Tell Cora what you dose so it can turn millilitres into an actual change in your tank.
+description: Tell Cora what you dose so it can turn millilitres into a real change in your tank.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 18
 group: Records
 ---
 
-Cora can only do dosing maths if it knows how strong your products are. Set that up once and everything downstream (the calculator, consumption tracking, and what Cora tells you about your dosing) becomes real numbers rather than guesses.
+Cora can only do dosing maths if it knows how strong your products are. Set that up once, and the calculator, consumption tracking and what Cora tells you about your dosing all use real numbers instead of guesses.
 
 **Settings → Dosing Products.**
 
@@ -15,42 +15,42 @@ Cora can only do dosing maths if it knows how strong your products are. Set that
 
 ## The product library
 
-Cora ships with a library of common products. Search for yours and add it; the strength comes with it.
+Cora comes with a library of common products. Search for yours and add it. Its strength comes with it.
 
-Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a fixed volume of water. That is the number that turns "5 ml" into "+0.2 dKH in your tank".
+Each product records how much it raises a parameter per millilitre (or per gram, for dry products) in a set volume of water. That's the number that turns "5 ml" into "+0.2 dKH in your tank".
 
-Products can carry alkalinity, calcium, magnesium, nitrate or phosphate values; a two-part carries one each, a balanced product several.
+A product can carry values for alkalinity, calcium, magnesium, nitrate or phosphate. A two-part carries one each. A balanced product carries several.
 
 ## Adding your own
 
-If your product is not in the library, add it as a custom one and enter its strength. The manufacturer's label almost always states it: "1 ml per 100 litres raises alkalinity by 0.1 dKH", or similar.
+If your product isn't in the library, add it as a custom product and enter its strength. It's almost always on the label, something like "1 ml per 100 litres raises alkalinity by 0.1 dKH".
 
-:::warning Enter the manufacturer's stated strength
-An incorrect strength makes every dose calculation for that product wrong by the same proportion. If the figure is not available, leave the product out rather than estimating.
+:::warning Use the strength the manufacturer gives
+If the strength is wrong, every dose Cora works out for that product is wrong by the same proportion. If you can't find the figure, leave the product out. Don't guess.
 :::
 
-Your tank's **salt mix** is a separate thing from a dosing product: it is set on the tank's profile, not here, and Cora keeps a sourced catalog of common reef salts with their published figures to choose from. See **[Tank profile](/help/mobile-tank-profile)**.
+Your tank's **salt mix** isn't a dosing product. You set it on the tank's profile, and Cora has a catalog of common reef salts with their published figures, with sources, to choose from. See [Tank profile](/help/mobile-tank-profile).
 
 ## The dose calculator
 
-With products set up, Cora can calculate a correction using your tank's actual volume from its profile.
+Once your products are set up, Cora can work out a correction using your tank's volume from its profile.
 
-It calculates **increases**: alkalinity, calcium, magnesium, and nitrate or phosphate when you are raising them.
+It works out **increases** for alkalinity, calcium and magnesium, and for nitrate or phosphate when you're raising them.
 
-For **reductions** it gives guidance rather than a dose; you cannot dose a parameter downward, and the answer is a water change, a media change or a change in what you are already dosing.
+For **reductions** it gives you guidance instead of a dose. You can't dose a parameter down. The answer is a water change, a media change, or changing what you already dose.
 
-:::warning Large corrections are spread, not dosed at once
-Cora caps how much a parameter may be moved in a day and spreads a bigger correction over several. A single large dose is how a tank gets shocked; the calculator will not propose one.
+:::warning Cora spreads big corrections over several days
+Cora limits how far a parameter can move in a day and spreads a bigger correction over several days. One large dose is how a tank gets shocked, so the calculator won't suggest one.
 :::
 
-The volume you entered at setup matters here. A stated volume 20% out gives dose figures 20% out.
+The volume you entered at setup matters here. If it's 20% out, the doses are 20% out too.
 
 ## Consumption
 
-Once Cora can see both your doses and your readings, it can work out what your tank is actually consuming, and tell you when that changes.
+Once Cora can see both your doses and your readings, it can work out what your tank is using and tell you when that changes.
 
-A change in demand is a prompt to look, not a diagnosis. Rising alkalinity demand often reflects growth; a sudden move in either direction can equally come from a dose that is not being delivered, a testing error, precipitation, a water change, or a change to the equipment. Check what changed around the date before drawing a conclusion.
+A change in demand is a reason to look, not a diagnosis. Rising alkalinity demand often means growth. A sudden move either way can also come from a dose that isn't being delivered, a testing error, precipitation, a water change or an equipment change. Check what changed around that date before you decide.
 
 ## Dosing equipment
 
-If you have a connected dosing unit, its heads appear as devices with their own readings: what each head has left, and what it has been dosing. See **[Connecting your equipment](/help/mobile-connections)**.
+If you have a connected dosing unit, its heads show up as devices with their own readings, including what each head has left and what it's been dosing. See [Connecting your equipment](/help/mobile-connections).

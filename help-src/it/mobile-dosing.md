@@ -1,13 +1,13 @@
 ---
 title: Dosaggio
-description: Dì a Cora cosa dosi così può trasformare i millilitri in un cambiamento reale nella tua vasca.
+description: Di' a Cora cosa dosi, così può trasformare i millilitri in un effetto reale sulla tua vasca.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 18
 group: Records
 ---
 
-Cora può fare i calcoli di dosaggio solo se sa quanto sono concentrati i tuoi prodotti. Configuralo una volta e tutto a valle (il calcolatore, il tracciamento del consumo, e cosa Cora ti dice sul tuo dosaggio) diventa numeri reali invece che stime.
+Per fare i calcoli di dosaggio Cora deve sapere quanto sono concentrati i tuoi prodotti. Imposta questo dato una volta sola. Da lì in poi calcolatore, consumi e tutto quello che Cora ti dice sul dosaggio si basano su numeri veri e non su stime.
 
 **Impostazioni → Prodotti di dosaggio.**
 
@@ -15,42 +15,42 @@ Cora può fare i calcoli di dosaggio solo se sa quanto sono concentrati i tuoi p
 
 ## La libreria dei prodotti
 
-Cora viene fornito con una libreria di prodotti comuni. Cerca il tuo e aggiungilo; la concentrazione arriva insieme ad esso.
+Cora ha già una libreria di prodotti diffusi. Cerca il tuo e aggiungilo: la concentrazione è già inclusa.
 
-Ogni prodotto registra quanto alza un parametro per millilitro (o per grammo, per i prodotti secchi) in un volume fisso d'acqua. È questo il numero che trasforma "5 ml" in "+0,2 dKH nella tua vasca".
+Per ogni prodotto Cora sa di quanto alza un parametro ogni millilitro (o grammo, per i prodotti in polvere) in un volume d'acqua fisso. È questo numero che trasforma "5 ml" in "+0,2 dKH nella tua vasca".
 
-I prodotti possono portare valori di alcalinità, calcio, magnesio, nitrati o fosfati; un prodotto a due componenti ne porta uno per parte, un prodotto equilibrato diversi.
+Un prodotto può avere valori per alcalinità, calcio, magnesio, nitrati o fosfati. Un due componenti ha un valore per ciascuna parte, un prodotto bilanciato ne ha diversi.
 
-## Aggiungere il tuo
+## Aggiungere un prodotto tuo
 
-Se il tuo prodotto non è nella libreria, aggiungilo come personalizzato e inserisci la sua concentrazione. L'etichetta del produttore quasi sempre lo indica: "1 ml per 100 litri alza l'alcalinità di 0,1 dKH", o simile.
+Se il tuo prodotto non è in libreria, aggiungilo come personalizzato e inserisci la concentrazione. Quasi sempre la trovi sull'etichetta, con una frase come "1 ml ogni 100 litri alza l'alcalinità di 0,1 dKH".
 
-:::warning Inserisci la concentrazione dichiarata dal produttore
-Una concentrazione errata rende sbagliato ogni calcolo di dosaggio per quel prodotto della stessa proporzione. Se il dato non è disponibile, lascia fuori il prodotto invece di stimarlo.
+:::warning Inserisci la concentrazione indicata dal produttore
+Se la concentrazione è sbagliata, tutti i calcoli di dosaggio per quel prodotto sono sbagliati nella stessa proporzione. Se non hai il dato, non aggiungere il prodotto e non tirare a indovinare.
 :::
 
-Il **mix salino** della tua vasca è una cosa separata da un prodotto di dosaggio: si imposta sul profilo della vasca, non qui, e Cora mantiene un catalogo verificato alla fonte di sali comuni per reef con i loro dati pubblicati da cui scegliere. Vedi **[Profilo della vasca](/help/mobile-tank-profile)**.
+Il **sale** della vasca è un'altra cosa rispetto ai prodotti di dosaggio. Si imposta nel profilo della vasca e non qui. Cora ha un catalogo verificato dei sali per reef più diffusi con i valori pubblicati, da cui puoi scegliere. Ne parliamo in **[Profilo della vasca](/help/mobile-tank-profile)**.
 
 ## Il calcolatore di dosaggio
 
-Con i prodotti configurati, Cora può calcolare una correzione usando il volume effettivo della tua vasca dal suo profilo.
+Con i prodotti impostati, Cora calcola una correzione usando il volume reale della vasca preso dal profilo.
 
-Calcola gli **aumenti**: alcalinità, calcio, magnesio, e nitrati o fosfati quando li stai alzando.
+Calcola gli **aumenti**: alcalinità, calcio, magnesio, e nitrati o fosfati quando li vuoi alzare.
 
-Per le **riduzioni** dà indicazioni invece di un dosaggio; non puoi dosare un parametro verso il basso, e la risposta è un cambio d'acqua, un cambio di media o un cambiamento in ciò che stai già dosando.
+Per le **riduzioni** ti dà indicazioni e non una dose. Un parametro non si abbassa dosando: la soluzione è un cambio d'acqua, un cambio dei materiali filtranti o una modifica a quello che già dosi.
 
-:::warning Le correzioni grandi vengono distribuite, non dosate in una volta
-Cora limita quanto un parametro può essere spostato in un giorno e distribuisce una correzione più grande su diversi giorni. Un singolo dosaggio grande è il modo in cui una vasca subisce uno shock; il calcolatore non ne proporrà uno.
+:::warning Le correzioni grandi vengono divise su più giorni
+Cora limita di quanto può cambiare un parametro in un giorno e divide una correzione grande su più giorni. È con una sola dose grande che la vasca va in shock, e il calcolatore non te la proporrà mai.
 :::
 
-Il volume che hai inserito alla configurazione conta qui. Un volume dichiarato sbagliato del 20% dà dati di dosaggio sbagliati del 20%.
+Qui conta il volume che hai inserito alla configurazione. Se è sbagliato del 20%, anche le dosi calcolate sono sbagliate del 20%.
 
-## Consumo
+## Consumi
 
-Una volta che Cora può vedere sia i tuoi dosaggi che le tue letture, può calcolare cosa la tua vasca sta effettivamente consumando, e dirti quando cambia.
+Quando Cora vede sia i dosaggi sia le letture, calcola quanto consuma davvero la tua vasca e ti avvisa quando il consumo cambia.
 
-Un cambiamento nella domanda è un invito a guardare, non una diagnosi. Una domanda di alcalinità crescente spesso riflette la crescita; un movimento improvviso in entrambe le direzioni può altrettanto facilmente venire da un dosaggio che non viene erogato, un errore di test, precipitazione, un cambio d'acqua, o un cambiamento all'equipaggiamento. Controlla cosa è cambiato attorno a quella data prima di trarre una conclusione.
+Un cambio nei consumi è un invito a controllare, non una diagnosi. Se l'alcalinità viene consumata di più, spesso è perché i coralli crescono. Ma uno spostamento improvviso, in su o in giù, può venire anche da una dose che non arriva in vasca, da un errore nel test, da una precipitazione, da un cambio d'acqua o da una modifica all'attrezzatura. Guarda cosa è cambiato intorno a quella data prima di trarre conclusioni.
 
-## Equipaggiamento di dosaggio
+## Attrezzatura di dosaggio
 
-Se hai un'unità di dosaggio collegata, le sue teste appaiono come dispositivi con le proprie letture: cosa resta a ogni testa, e cosa ha dosato. Vedi **[Collegare il tuo equipaggiamento](/help/mobile-connections)**.
+Se hai un'unità di dosaggio collegata, le sue teste compaiono come dispositivi con le loro letture: quanto resta a ogni testa e quanto ha dosato. Vedi **[Collegare la tua attrezzatura](/help/mobile-connections)**.

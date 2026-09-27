@@ -1,59 +1,59 @@
 ---
 title: Urządzenia i ich stan
-description: Co widzi Cora Max, które urządzenie odpytuje każde akwarium i co sprawdzić, gdy odpytywanie się zatrzymuje.
+description: Co widzi Cora Max, które urządzenie odpytuje każde akwarium i co sprawdzić, gdy odczyty przestają napływać.
 section: Cora Max
 reviewed: 2026-09-27
 order: 7
 group: Equipment
 ---
 
-**Ustawienia → Urządzenia** wypisuje sprzęt, który Cora Max widzi, i zgłasza, jak sobie radzi.
+W **Ustawienia → Urządzenia** jest lista sprzętu, który widzi Cora Max, i informacja o jego stanie.
 
 ## Lista urządzeń
 
-![Lista urządzeń](img/max-devices.webp "Filtruj według akwarium, a potem każde urządzenie z jednolinijkowym podsumowaniem tego, co zawiera.")
+![Lista urządzeń](img/max-devices.webp "Filtr akwariów, a pod nim każde urządzenie z krótkim podsumowaniem tego, co zawiera.")
 
-Cora Max widzi ten sam sprzęt co Twój telefon, bo obydwa czytają to samo konto.
+Cora Max widzi ten sam sprzęt co telefon, bo oba korzystają z tego samego konta.
 
-Plakietki filtra na górze zwężają listę do **Wszystkie akwaria** albo jednego akwarium. Każdy wpis niesie punkt stanu, jednolinijkowe podsumowanie tego, co urządzenie zawiera (*21 gniazd · 4 karmienia*, *19 testów zostało*) oraz akwarium, do którego należy.
+Plakietki filtra u góry pokazują **Wszystkie akwaria** albo tylko jedno akwarium. Przy każdym urządzeniu jest kropka stanu, jednolinijkowe podsumowanie tego, co zawiera (*21 gniazd · 4 karmienia*, *zostało 19 testów*), i akwarium, do którego należy.
 
-Dodawanie i konfigurowanie sprzętu jest łatwiejsze na telefonie; zobacz [Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices).
+Sprzęt łatwiej dodawać i konfigurować na telefonie. Więcej w [Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices).
 
-## Główne Cora Max: który tablet rozmawia z Twoim sprzętem
+## Główne Cora Max: który tablet łączy się ze sprzętem
 
-**Główne Cora Max** to tablet (albo inne urządzenie Cora), który odczytuje kontroler akwarium i inny sprzęt dla całego konta. Tylko jedno urządzenie musi to robić na akwarium; każdy inny ekran po prostu pokazuje to, co odczytuje.
+**Główne Cora Max** to tablet (albo inne urządzenie Cora), który odczytuje kontroler akwarium i pozostały sprzęt dla całego konta. Na jedno akwarium wystarczy jedno takie urządzenie. Pozostałe ekrany pokazują to, co ono odczyta.
 
-Otwórz **Ustawienia → [your tank] → Główne Cora Max**, aby to zobaczyć albo zmienić. Są dwa rodzaje wyboru:
+Żeby to sprawdzić albo zmienić, otwórz **Ustawienia → [Twoje akwarium] → Główne Cora Max**. Masz dwie możliwości:
 
-- **Każde aktywne (automatycznie)**: każde online'owe urządzenie Cora, które może dosięgnąć sprzętu tego akwarium, dzieli tę pracę, a wygrywa najnowszy zapis. To jest ustawienie do użycia, o ile nie masz konkretnego powodu, aby przypiąć jedno urządzenie.
-- **Pin one device**: tylko to urządzenie odpytuje. Jeśli przypięte urządzenie przechodzi offline, nic nie odpytuje sprzętu tego akwarium, aż przypniesz inne albo przełączysz z powrotem na Any active (automatic).
+- **Każde aktywne (automatycznie)**: pracę dzielą wszystkie urządzenia Cora, które są online i mają dostęp do sprzętu tego akwarium. Liczy się najnowszy zapis. Wybierz tę opcję, chyba że masz konkretny powód, żeby przypiąć jedno urządzenie.
+- Jedno przypięte urządzenie: sprzęt odpytuje tylko ono. Jeśli przejdzie w tryb offline, sprzętu tego akwarium nie odpytuje nic, dopóki nie przypniesz innego urządzenia albo nie wrócisz do **Każde aktywne (automatycznie)**.
 
-Ten wybór jest dokonywany raz, dla akwarium, nie raz na ekran Cora. Zmień go z dowolnego Cora Max pokazującego to akwarium, albo z Cora Mobile; zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
+Ten wybór dotyczy całego akwarium, a nie pojedynczego ekranu Cora. Zmienisz go na każdym Cora Max, który pokazuje to akwarium, albo w Cora Mobile. Więcej w [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
 
-:::note Primary Cora Max to nie to samo co Cora Assistant
-Primary Cora Max decyduje, które urządzenie **odczytuje Twój sprzęt**. Odrębne ustawienie, **Cora Assistant**, decyduje, które urządzenie **odpowiada na "Hey Cora"**. Gospodarstwo domowe z więcej niż jednym Cora Max może ustawić te dwie rzeczy niezależnie. Zobacz [Rozmowa z Corą na Cora Max](/help/max-voice).
+:::note Główne Cora Max i Cora Assistant to dwa różne ustawienia
+**Główne Cora Max** decyduje, które urządzenie **odczytuje Twój sprzęt**. Osobne ustawienie, **Cora Assistant**, decyduje, które urządzenie **odpowiada na „Hey Cora”**. Jeśli w domu jest kilka Cora Max, możesz ustawić je niezależnie. Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice).
 :::
 
-## Jeśli odczyty akwarium się zatrzymują
+## Gdy odczyty akwarium przestają napływać
 
-Jeśli odczyty jednego akwarium się zatrzymują, podczas gdy inne akwarium na tym samym ekranie wciąż się aktualizuje, zacznij od:
+Jeśli jedno akwarium przestało się aktualizować, a inne na tym samym ekranie dalej się odświeża, zacznij od tych kroków:
 
-1. **Ustawienia → [that tank] → Główne Cora Max**: potwierdź, że urządzenie jest faktycznie przypisane i że jest online.
-2. Jeśli wtórne Cora Max dla tego akwarium pokazuje plakietkę **Główne Cora offline** na górnym pasku, główne urządzenie utraciło połączenie; zobacz [Ekran główny Cora Max](/help/max-tour) po to, co znaczy plakietka stanu.
-3. **Ustawienia → Ustawienia Cora Max → Sieć i aktualizacje → Odpytywanie urządzeń** pokazuje, jak często to urządzenie samo odczytuje Twoje urządzenia; ta wartość jest tutaj tylko do odczytu i jest ustawiana z Cora Mobile.
+1. Otwórz **Ustawienia → [to akwarium] → Główne Cora Max** i sprawdź, czy jakieś urządzenie jest przypisane i czy jest online.
+2. Jeśli dodatkowy Cora Max tego akwarium ma na górnym pasku plakietkę **Główne Cora offline**, główne urządzenie straciło połączenie. Co oznacza plakietka stanu, przeczytasz w [Ekran główny Cora Max](/help/max-tour).
+3. W **Ustawienia → Ustawienia Cora Max → Sieć i aktualizacje → Odpytywanie urządzeń** zobaczysz, jak często to urządzenie samo odczytuje Twój sprzęt. Tutaj możesz tylko odczytać tę wartość. Zmienisz ją w Cora Mobile.
 
-**Jeśli to nie działa:** zobacz [Rozwiązywanie problemów](/help/troubleshooting).
+Jeśli to nie pomoże, zajrzyj do [Rozwiązywanie problemów](/help/troubleshooting).
 
 ## Zarządzanie Cora Max z telefonu
 
-Otwórz urządzenie z zakładki **Urządzenia** na telefonie, aby zobaczyć jego wariant, wersję firmware i kiedy było ostatnio widziane, oraz aby zmienić jego nazwę albo niektóre ustawienia bez podchodzenia do niego.
+Otwórz urządzenie z zakładki **Urządzenia** na telefonie. Zobaczysz jego wariant, wersję firmware i to, kiedy było ostatnio online. Możesz też zmienić jego nazwę albo część ustawień bez podchodzenia do niego.
 
-![Ustawienia Cora Max z telefonu](img/max-from-phone.webp "Interwał odpytywania, jasność, głośność, alerty na ekranie i licznik przygaszania.")
+![Ustawienia Cora Max na telefonie](img/max-from-phone.webp "Częstotliwość odpytywania, jasność, głośność, alerty na ekranie i czas do przygaszenia.")
 
-Ustawienia pokazane w ten sposób opisują **tylko ten ekran** (jego jasność, głośność, banery alertów na ekranie i licznik przygaszania), tak samo jak gdybyś je zmienił przy samej ścianie. Wyłączenie alertów na ekranie nie wpływa na historię alertów ani powiadomienia push.
+Te ustawienia dotyczą **tylko tego ekranu** (jasność, głośność, banery alertów na ekranie i czas do przygaszenia). Działają tak samo, jakby zmienić je na samym Cora Max. Wyłączenie alertów na ekranie nie zmienia historii alertów ani powiadomień push.
 
-Które akwaria pokazuje Cora Max, i które jest jego głównym Cora Max dla każdego akwarium, są wyborami dla całego konta; zmień je z dowolnego urządzenia, jak opisano powyżej.
+To, które akwaria pokazuje Cora Max i które urządzenie jest dla każdego z nich głównym Cora Max, ustawiasz dla całego konta. Zmienisz to na dowolnym urządzeniu, jak opisano wyżej.
 
-:::note Stan urządzenia jest najpierw do odczytu
-Sekcja **Stan** w **Ustawienia → Ustawienia Cora Max** na tym ekranie zgłasza stan odpytywania, czas ostatniego odpytania i ostatni zapis do chmury dla każdego akwarium, bez zmiany czegokolwiek. Użyj jej, aby ustalić, co się dzieje, przed zmianą ustawienia.
+:::note Najpierw sprawdź stan urządzenia
+Sekcja **Stan** w **Ustawienia → Ustawienia Cora Max** na tym ekranie pokazuje dla każdego akwarium stan odpytywania, godzinę ostatniego odpytania i ostatni zapis w chmurze. Niczego przy tym nie zmienia. Sprawdź ją, zanim zaczniesz zmieniać ustawienia.
 :::

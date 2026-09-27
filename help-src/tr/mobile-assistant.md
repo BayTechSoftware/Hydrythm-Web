@@ -1,93 +1,93 @@
 ---
-title: Cora'ya sorma
-description: Cora Assistant'ı nasıl kullanmalı: yazma, ses, görebildikleri ve değiştirebildikleri.
+title: Cora'ya sorun
+description: Cora Assistant'ı kullanma. Yazarak ve konuşarak sorun, Cora'nın neleri görüp neleri değiştirebildiğini öğrenin.
 section: Cora Mobile
 reviewed: 2026-09-27
 order: 23
 group: Intelligence
 ---
 
-Cora Assistant, akvaryumunuz hakkındaki soruları düz bir dille yanıtlar. Canlı okumalarınızı, geçmişinizi ve lab sonuçlarınızı görebildiği için, genel olarak reefler hakkında değil *sizin* akvaryumunuz hakkında yanıt verir.
+Cora Assistant, akvaryumunuzla ilgili sorularınızı günlük dille yanıtlar. Canlı ölçümlerinizi, geçmişinizi ve laboratuvar sonuçlarınızı gördüğü için genel reef bilgisi vermez, *sizin* akvaryumunuza göre yanıt verir.
 
-Bunu **Asistan** sekmesinden açın.
+Asistanı **Asistan** sekmesinden açın.
 
-![Cora Assistant](img/mobile-assistant.webp "Bir akvaryum seçin, ardından yazın veya konuşun.")
+![Cora Assistant](img/mobile-assistant.webp "Akvaryumu seçin, sonra yazın ya da konuşun.")
 
-## Önce bir akvaryum seçin
+## Önce akvaryumu seçin
 
-Üstteki akvaryum seçici, Cora'nın neden bahsettiğine karar verir. Altındaki her şey (yazdığınız sorular, aldığınız yanıtlar) o akvaryumla sınırlıdır.
+Cora'nın hangi akvaryumdan söz edeceğini üstteki akvaryum seçici belirler. Altında yazdığınız sorular ve aldığınız yanıtlar yalnızca o akvaryumla ilgilidir.
 
-## Yazma
+## Yazarak sorma
 
-Alttaki kutuya yazın ve gönderin. Sormaya değer şeyler:
+Alttaki kutuya yazın ve gönderin. Şunları sorabilirsiniz:
 
 - *"Alkalinitem neden düşüyor?"*
 - *"Geçen haftadan bu yana ne değişti?"*
-- *"Kalsiyumum bir SPS akvaryumu için olması gereken yerde mi?"*
-- *"Son su değişimini ne zaman yaptım?"*
+- *"Kalsiyumum SPS akvaryumu için olması gereken seviyede mi?"*
+- *"En son ne zaman su değişimi yaptım?"*
 - *"Skimmer'ı bir saatliğine kapat."*
 
-## Konuşma
+## Konuşarak sorma
 
-Canlı bir karşılıklı konuşma için **Sesli sohbet başlat**'a dokunun. Cora dinler, sesli yanıt verir ve siz durdurana kadar dinlemeyi sürdürür. Elleriniz ıslakken daha kolay seçenektir.
+Karşılıklı sesli sohbet için **Sesli sohbet başlat**'a dokunun. Cora sizi dinler, sesli yanıt verir ve siz durdurana kadar dinlemeye devam eder. Elleriniz ıslakken bu daha kolaydır.
 
-## Onay
+## İzin
 
-![Assistant onayı](img/mobile-assistant-consent.webp "İki ayrı izin ve Cora'nın tuttuğu hafıza.")
+![Asistan izni](img/mobile-assistant-consent.webp "İki ayrı izin ve Cora'nın tuttuğu hafıza.")
 
-**Ayarlar → Cora Assistant**, iki bağımsız anahtar tutar:
+**Ayarlar → Cora Assistant** bölümünde birbirinden bağımsız iki anahtar var:
 
-- **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**: Cora Assistant'ın size yanıt vermesi için bunun açık olması gerekir. Kapalıysa, Cora bir sonraki mesajınızdan veya sesli konuşmanızdan önce onay ekranını yeniden gösterir. Ekran, Cora Assistant'ın ne kullandığını ve **Verileriniz nereye gidiyor** altında hangi yapay zeka sağlayıcısının yanıtları yazdığını listeler. **Kabul Et ve Devam Et**, anahtarı yeniden açar ve devam eder; **Şimdi Değil** hiçbir şey göndermez ve yazdığınızı tutar.
-- **Anonimleştirilmiş akvaryum verisine katkıda bulun**: bkz. [Verileriniz](/help/mobile-data-export).
+- **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**: Cora Assistant'ın size yanıt verebilmesi için bu anahtar açık olmalı. Kapalıysa Cora bir sonraki mesajınızdan ya da sesli sohbetinizden önce izin ekranını yeniden gösterir. Bu ekranda Cora Assistant'ın hangi verileri kullandığı ve **Verileriniz nereye gidiyor** başlığı altında yanıtları hangi yapay zeka sağlayıcısının yazdığı yer alır. **Kabul Et ve Devam Et** anahtarı yeniden açar ve devam eder. **Şimdi Değil** hiçbir şey göndermez ve yazdığınız metni saklar.
+- **Anonimleştirilmiş akvaryum verisine katkıda bulun**: ayrıntılar [Verileriniz](/help/mobile-data-export) sayfasında.
 
-## Cora'nın yanıt verdiği dil
+## Cora'nın yanıt dili
 
-Cora Assistant, kendine özgü ayrı bir ayar yerine tüm hane için **Ayarlar → Dil**'de belirlenen tek dil olan **hesap dilinizi** takip eder. Onu orada değiştirin ve Cora Assistant bir sonraki konuşmanızda yeni dilde yanıt verir ve konuşur. Bkz. [Ayarlar](/help/mobile-settings).
+Cora Assistant'ın kendine ait bir dil ayarı yoktur. **Hesap dilinizi** kullanır. Bu, bütün hane için **Ayarlar → Dil** bölümünde seçilen tek dildir. Dili orada değiştirirseniz Cora Assistant bir sonraki sohbetinizde yeni dilde yazar ve konuşur. Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
 
-## Cora'nın görebildikleri
+## Cora'nın gördükleri
 
-Mesaj kutusunun üstündeki çip, **Akvaryumunuzun canlı verisi kullanılıyor**, kapsamda ne olduğunu söyler. Cora'nın tam olarak ne okuduğunu görmek için ona dokunun: geçerli değerler, her birinin ne kadar eski olduğu, son geçmiş, günlüğünüz ve ICP sonuçlarınız.
+Mesaj kutusunun üstündeki **Akvaryumunuzun canlı verisi kullanılıyor** etiketi, Cora'nın hangi verilere baktığını gösterir. Etikete dokunun, Cora'nın tam olarak neleri okuduğunu görün: güncel değerler, her birinin ne kadar eski olduğu, yakın geçmiş, günlüğünüz ve ICP sonuçlarınız.
 
-Daha uzun bir görüş için, Cora Assistant bir parametrenin geçmişine yaklaşık altı aya kadar geriye bakabilir; böylece *"Son altı ayın magnezyumunu en son ICP'imle karşılaştır"* diye sorabilirsiniz.
+Daha uzun bir dönem için Cora Assistant bir parametrenin yaklaşık altı aylık geçmişine bakabilir. Örneğin *"Son altı aydaki magnezyumumu en son ICP sonucumla karşılaştır"* diyebilirsiniz.
 
-:::note Bilmediğinde size söyler
-Cora, kullandığı okumaların yaşını bildirir. En son alkalinite okuması dört gün eskiyse, yanıt değeri geçerliymiş gibi sunmak yerine bunu söyler.
+:::note Bilmediğinde bunu söyler
+Cora kullandığı ölçümlerin ne kadar eski olduğunu belirtir. En son alkalinite ölçümü dört gün önceyse yanıtta bunu söyler, değeri güncelmiş gibi sunmaz.
 :::
 
 ## Cora'nın değiştirebildikleri
 
-Cora, akvaryumunuz hakkında konuşabildiği kadar üzerinde de eylem gerçekleştirebilir: bir prizi açıp kapatma, bir besleme başlatma, bir ayarı değiştirme.
+Cora akvaryumunuz hakkında konuşmakla kalmaz, işlem de yapar: priz açıp kapatır, beslemeyi başlatır, bir ayarı değiştirir.
 
-Ekipmanınızı etkileyen her şey **gerçekleşmeden önce onaylanır**. Değişmek üzere olan şey size tam olarak gösterilir ve onaylamanız istenir. Cora belirsiz bir talimata göre hareket etmez.
+Ekipmanınızı etkileyen her işlem **uygulanmadan önce onayınıza sunulur**. Tam olarak neyin değişeceği size gösterilir ve onayınız istenir. Cora belirsiz bir komutu uygulamaz.
 
-:::warning Danışmandır, otorite değil
-Cora'nın önerisi tam olarak budur. Önemli her şeyi kendi testinizle doğrulayın ve büyük değişiklikleri başka herhangi birinin önerisi gibi ele alın; harekete geçmeden önce mantık kontrolünden geçirin. Mesaj kutusunun altındaki satır da aynı şeyi söyler.
+:::warning Cora yol gösterir, son kararı siz verirsiniz
+Cora'nın önerisi yalnızca bir öneridir. Önemli konuları kendi testlerinizle doğrulayın. Büyük değişikliklere, başka birinden gelen bir tavsiye gibi yaklaşın ve uygulamadan önce mantıklı olup olmadığını düşünün. Mesaj kutusunun altındaki satır da aynı şeyi söyler.
 :::
 
 ## Hafıza
 
-![Assistant ayarları](img/mobile-assistant-settings.webp "Ayarlar altında onay, hafıza, ses ve kullanım sınırları.")
+![Asistan ayarları](img/mobile-assistant-settings.webp "Ayarlar altında izin, hafıza, ses ve kullanım sınırları.")
 
-:::note Hafızayı temizlemenin dokunduğu ve dokunmadığı şeyler
-Temizleme, Cora'nın *konuşmalarınız hakkında* hatırladıklarını kaldırır: sisteminizin profilini, takip ettiği kaygıları ve saklanan her oturumu. Bunun herhangi bir parçası kaldırılamazsa, Cora Mobile başarı bildirmek yerine başarısız olduğunu söyler.
+:::note Hafızayı temizlemek neleri siler, neleri silmez
+Temizleme, Cora'nın *sohbetlerinizden* hatırladıklarını siler: sisteminiz hakkındaki profili, takip ettiği sorunları ve kayıtlı bütün oturumları. Bunlardan herhangi biri silinemezse Cora Mobile başarılı oldu demez, silme işleminin başarısız olduğunu söyler.
 
-Bu, **akvaryum verinize** dokunmaz: okumalar, günlük, canlılar, bakım ve raporlar sizindir ve tam olarak oldukları gibi kalır. Hafızayı temizlemek Assistant'ı konuşmayı unutturur, akvaryumu değil.
+**Akvaryum verileriniz** bundan etkilenmez. Ölçümler, günlük, canlılar, bakım ve raporlar size aittir ve olduğu gibi kalır. Hafızayı temizlemek asistana sohbetleri unutturur, akvaryumu değil.
 :::
 
-Cora, akvaryumunuz hakkında konuşmalar arasında şeyler hatırlar: iki bileşenli dozladığınızı, frag akvaryumunuzun bir sump paylaştığını, besinleri yükseltmeye çalıştığınızı. Sisteminizi her seferinde yeniden anlatmanızı durduran şey budur.
+Cora sohbetler arasında akvaryumunuzla ilgili bazı şeyleri hatırlar. Örneğin iki bileşenli dozaj yaptığınızı, frag akvaryumunuzun aynı sump'ı kullandığını ya da besin seviyelerini artırmaya çalıştığınızı. Bu sayede sisteminizi her seferinde baştan anlatmanız gerekmez.
 
-**Ayarlar → Cora Assistant → Yapay zeka hafızası**, Cora'nın akvaryumunuz hakkında kaydettiklerini gösterir ve sıfırlamanıza izin verir.
+**Ayarlar → Cora Assistant → Yapay zeka hafızası** bölümünde Cora'nın akvaryumunuz hakkında kaydettiklerini görebilir ve sıfırlayabilirsiniz.
 
-:::warning Hafızayı temizlemek her şeyi kaldırmaz
-Sıfırlama, görebildiğiniz hafıza kaydını temizler. Cora, ayrıca bir konuşma boyunca çalışan bağlamı ve sıfırlamanın tam olarak kapsamayabileceği daha uzun vadeli bir profili de tutar. Bunu "sana gösterdiğimi unut" olarak ele alın, o zamana kadar çıkarılmış her şeyin garanti edilmiş bir silinmesi olarak değil.
+:::warning Hafızayı temizlemek her şeyi silmeyebilir
+Sıfırlama, gördüğünüz hafıza kaydını temizler. Cora bunun dışında bir sohbet boyunca kullandığı bağlamı ve daha uzun vadeli bir profili de tutar. Sıfırlama bunları tam olarak kapsamayabilir. Sıfırlamayı "bana gösterdiklerini unut" olarak düşünün. O ana kadar çıkarılan her şeyin kesin olarak silinmesi olarak görmeyin.
 :::
 
 ## Kullanım
 
-Planınız aylık bir mesaj tahsisatı içerir. Sayaç mesaj kutusunun üstünde oturur. Sesli konuşmalar aynı tahsisattan harcanır.
+Planınızda aylık bir mesaj hakkı var. Sayaç mesaj kutusunun üstünde görünür. Sesli sohbetler de aynı haktan düşer.
 
-## Bir yanıt yanlış görünüyorsa
+## Yanıt yanlış görünüyorsa
 
-Konuşma içinde düzeltin; bu en hızlı düzeltmedir ve genellikle devam eder, ama süresiz kalması garanti edilmez.
+Sohbetin içinde düzeltin. En hızlı çözüm budur. Düzeltme genellikle sonraki sohbetlere de taşınır, ama bunun süresiz kalacağının garantisi yoktur.
 
-Bir yanıt kendinden emin ama yanlış görünüyorsa, önce veri çipini kontrol edin. Genellikle yanıt, kendisine verilen veri hakkında doğrudur ve gerçek sorun eski bir okuma veya yanlış akvaryuma atanmış bir kaynaktır.
+Yanıt çok emin bir dille yanlış bir şey söylüyorsa önce veri etiketine bakın. Çoğu zaman yanıt, kendisine verilen veriye göre doğrudur. Asıl sorun eski bir ölçüm ya da yanlış akvaryuma atanmış bir kaynaktır.

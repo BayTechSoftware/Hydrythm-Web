@@ -1,6 +1,6 @@
 ---
 title: Sözlük
-description: Cora'nın kullandığı sözcükler: akvaryum, kaynak, widget, kaydedilmiş tasarım, eşik, içgörü ve gerisi.
+description: Cora'da geçen terimler: akvaryum, kaynak, widget, kayıtlı tasarım, eşik, içgörü ve diğerleri.
 section: Help
 reviewed: 2026-09-27
 order: 2
@@ -8,116 +8,116 @@ order: 2
 
 ## Hesap dili
 
-Tüm Cora hesabınızın kullandığı tek dil: kişi başına veya cihaz başına bir ayar değil. Telefonunuzda veya herhangi bir Cora Max'te **Ayarlar → Dil**'den değiştirin ve her cihaz kısa süre içinde onu takip eder. Yeni uyarılar, raporlar ve Reef Buddy briefingleri o andan itibaren yeni dili kullanır; zaten oluşturulmuş olan her şey yazıldığı dilde kalır. Bkz. [Ayarlar](/help/mobile-settings).
+Tüm Cora hesabınızın kullandığı tek dil. Kişiye ya da cihaza göre ayrı ayrı seçilmez. Telefonunuzda ya da herhangi bir Cora Max'te **Ayarlar → Dil**'den değiştirin. Birkaç saniye içinde tüm cihazlar yeni dile geçer. Yeni uyarılar, raporlar ve Reef Buddy özetleri bundan sonra yeni dilde gelir. Önceden oluşturulanlar yazıldıkları dilde kalır. Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
 
 ## Yaş
 
-Bir okumanın ne zaman alındığı, her parametre widget'ında `şimdi`, `1s`, `2g` olarak gösterilir. Ekranın ne zaman yenilendiği değil. Eski bir yaşa sahip bir sayı eski bir sayıdır ve Cora, onu güncelmiş gibi sunmak yerine bunu söyler.
+Ölçümün ne kadar önce alındığı. Her parametre widget'ında `şimdi`, `1 sa`, `2 g` gibi yazar. Ekranın ne zaman yenilendiğini göstermez. Yaşı eski olan bir değer eski bir değerdir. Cora onu güncelmiş gibi göstermez, eski olduğunu söyler.
 
 ## Uyarı
 
-Cora'nın ilgi gerektiren bir şey olduğunu size söylemesi. En sık, belirlediğiniz aralığın dışında bir okuma, ama aynı zamanda çok hızlı hareket eden bir parametre, bir ekipman arızası, biten bir sarf malzemesi, veya gelen bir lab sonucu. Çoğu, durum geçtiğinde kendiliğinden kapanır. Bkz. [Uyarılar ve eşikler](/help/mobile-alerts).
+Cora'nın bir şeye dikkat etmeniz gerektiğini size bildirmesi. Çoğu zaman belirlediğiniz aralığın dışına çıkan bir ölçümdür. Ama çok hızlı değişen bir parametre, ekipman arızası, azalan bir sarf malzemesi ya da yeni gelen laboratuvar sonucu da uyarı verir. Çoğu uyarı, durum düzelince kendiliğinden kapanır. Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
 ## Yanıtlayan cihaz
 
-Uyandırma ifadesini söylediğinizde hangi Cora cihazının yanıt vereceği, **Ayarlar → Cora Assistant** altında belirlenir. Aynı anda yalnızca bir cihaz yanıt verir. Bu, hangi cihazın yerel ekipmanınızla konuştuğuna karar veren, hangisinin sesi dinlediğine değil, **Birincil Cora Max**'ten ayrıdır.
+Uyandırma sözünü söylediğinizde size hangi Cora cihazının cevap vereceği. **Ayarlar → Cora Assistant** altında seçilir. Aynı anda yalnızca bir cihaz cevap verir. **Birincil Cora Max**'ten farklıdır. O ayar, sesi hangi cihazın dinlediğini değil, yerel ekipmanınızla hangi cihazın konuştuğunu belirler.
 
 ## Otomasyon
 
-Kendi başına çalışan bir kural veya sahne: "sıcaklık 27'nin üstüne çıkarsa, fanı aç". **Ayarlar → Otomasyon** altında yaşar ve daha yeni Cora Max sürümlerinde bir sahne doğrudan tablette de oluşturulup düzenlenebilir.
+Kendi kendine çalışan kural ya da sahne. Örneğin "sıcaklık 27'yi geçerse fanı aç". **Ayarlar → Otomasyon** altında bulunur. Yeni Cora Max sürümlerinde sahneleri doğrudan tablette de oluşturup düzenleyebilirsiniz.
 
 ## Kalibrasyon
 
-Bir probun okumalarını, genellikle bir kalibrasyon çözeltisi olan bilinen bir referansla eşleştirecek şekilde ayarlama. Cora, bir probun son ne zaman kalibre edildiğini kaydeder ve süresi geldiğinde size hatırlatabilir. Bkz. [Problar](/help/mobile-probes).
+Probun ölçümlerini bilinen bir referansa, genellikle kalibrasyon sıvısına göre ayarlamak. Cora probun en son ne zaman kalibre edildiğini kaydeder ve zamanı gelince size hatırlatabilir. Ayrıntılar [Problar](/help/mobile-probes) sayfasında.
 
 ## Bekleme süresi
 
-Cora'nın aynı uyarıyı tekrar yükseltmeden önce beklediği en kısa süre; bir dakikadan az bir süreden bir haftaya kadar. Sürmekte olan bir sorunun sizi her birkaç dakikada bir çağırmasını durdurur. Uyarı kuralı başına belirlenir. Bkz. [Uyarılar ve eşikler](/help/mobile-alerts).
+Cora'nın aynı uyarıyı yeniden vermeden önce beklediği en kısa süre. 15 dakikadan bir haftaya kadar olabilir. Böylece süren tek bir sorun sizi birkaç dakikada bir rahatsız etmez. Her uyarı kuralı için ayrı ayarlanır. Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
 ## Cora Cloud
 
-Telefonunuzu, Cora Max'inizi ve ekipmanınızı senkron tutan ve geçmişinizi saklayan servis. Oturum açma, cihazlar arası senkronizasyon ve Assistant'ın tümü buna ihtiyaç duyar; zaten teslim edilmiş okumalar ve kendi ağında olan ekipman onsuz da çalışmayı sürdürür.
+Telefonunuzu, Cora Max'inizi ve ekipmanınızı birbiriyle uyumlu tutan ve geçmişinizi saklayan hizmet. Giriş yapmak, cihazlar arasında eşitleme ve Assistant için Cora Cloud gerekir. Önceden gelmiş ölçümler ve kendi ağında çalışan ekipman Cora Cloud olmadan da çalışmaya devam eder.
 
 ## Cora Assistant
 
-Cora'nın sorular sorduğunuz kısmı. Hem Cora Mobile'da hem Cora Max'te yazarak veya sesle kullanılabilir. Aynı zamanda [yanıtlayan cihazı](#answering-device) seçtiğiniz ayarlar grubunun adıdır.
+Cora'ya soru sorduğunuz bölüm. Hem Cora Mobile'da hem Cora Max'te yazarak ya da sesle kullanılır. [Yanıtlayan cihazı](#answering-device) seçtiğiniz ayar grubunun adı da budur.
 
 ## Cora Max
 
-Reef odası için duvar ekranı. Akvaryumlarınızı canlı olarak gösterir ve sesi alır.
+Reef odası için duvar ekranı. Akvaryumlarınızı canlı gösterir ve sesli komutları dinler.
 
 ## Cora Mobile
 
-Telefon uygulaması. Ana ekranınızda simge **Cora** olarak etiketlenmiştir.
+Telefon uygulaması. Telefonunuzun ana ekranında simgenin adı **Cora**'dır.
 
 ## DŌS kafası
 
-Cora'ya bağlı bir dozaj pompası. Her kafaya bir kullanım (bir su değişimi, kalkwasser, bir reaktör, besleme ve daha fazlası) verilebilir, litre veya büyük kaplar halinde takip edilir ve büyük hacimli dozajlar çalıştırabilir. Bir dozaj ortasında bağlantısını kaybederse, Cora dozajın bittiğini varsaymak yerine bir geri getirme uyarısı yükseltir. Bkz. [Ekipmanınızı kontrol etme](/help/mobile-device-control).
+Cora'ya bağlı dozaj pompası. Her kafaya su değişimi, kalkwasser, reaktör, besleme gibi bir kullanım amacı verebilirsiniz. Kafalar litre cinsinden ya da büyük kaplarla takip edilir ve büyük hacimli dozaj yapabilir. Dozajın ortasında bağlantı koparsa Cora dozajın bittiğini varsaymaz, programı geri yükleme uyarısı verir. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 
 ## Dozaj
 
-Belirlediğiniz ürün ve miktarda, bir DŌS kafasından veya başka bir dozaj pompasından tek bir sıvı teslimatı. Cora, tüketim ve geçmişin uyuşması için her dozajı kaydeder.
+Bir DŌS kafasının ya da başka bir dozaj pompasının, seçtiğiniz üründen belirlediğiniz miktarda tek seferde verdiği sıvı. Cora her dozajı kaydeder. Böylece tüketim ve geçmiş birbirini tutar.
 
 ## Besleme modu
 
-Beslemeyi durduran ve doğru ekipmanı geri getiren bir duraklama. Pompaları geri açmayı hatırlamanıza bağlı olmadığı için elle kapatmaktan daha güvenlidir.
+Yem verirken gereken ekipmanı durduran ve sonra kendiliğinden yeniden açan bir duraklatma. Pompaları elle kapatmaktan daha güvenlidir, çünkü onları yeniden açmayı hatırlamanız gerekmez.
 
 ## Sağlık raporu
 
-Tüm bir sistemin daha derin, periyodik bir değerlendirmesi: birlikte değerlendirilen her parametre, kaynak, dozaj ve son lab sonucu. Bkz. [ICP ve sağlık raporları](/help/mobile-icp-health).
+Sistemin tamamını daha derinlemesine inceleyen dönemsel değerlendirme. Tüm parametreler, kaynaklar, dozajlar ve son laboratuvar sonuçları birlikte ele alınır. Ayrıntılar [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
 
 ## ICP
 
-Çok çeşitli elementleri kapsayan bir laboratuvar su testi. Sonucu yükleyin ve Cora her elementi zaman içinde takip eder.
+Çok sayıda elementi ölçen bir laboratuvar su testi. Sonucu yükleyin, Cora her elementi zaman içinde takip etsin.
 
 ## İçgörü
 
-Bir Reef Buddy briefinginde tek bir belirli gözlem: kayan bir parametre, anlaşmayan iki kaynak, bir süredir test edilmemiş bir şey.
+Reef Buddy özetindeki tek bir gözlem. Örneğin kayan bir parametre, birbirini tutmayan iki kaynak ya da bir süredir test edilmeyen bir değer.
 
 ## Günlük
 
-Akvaryuma ne yaptığınızın kaydı. Cora onu da okur, bu yüzden "alkalinite düşmeden önce ne yaptım?" yanıtlanabilir bir sorudur. Bkz. [Günlük](/help/mobile-journal).
+Akvaryumda yaptıklarınızın kaydı. Cora günlüğü de okur. Bu yüzden "alkalinite düşmeden önce ne yapmıştım?" diye sorabilirsiniz. Ayrıntılar [Günlük](/help/mobile-journal) sayfasında.
 
 ## Priz
 
-Ekipmanınızda açılıp kapatılabilen bir soket. Cora'da üç durumu vardır: **Otomatik**, **Kapalı** ve **Açık**.
+Ekipmanınızdaki açılıp kapatılabilen priz. Cora'da üç durumu vardır: **Otomatik**, **Kapalı** ve **Açık**.
 
 ## Parametre
 
-Suyunuz hakkında ölçülebilir bir şey: alkalinite, kalsiyum, nitrat, sıcaklık.
+Suyunuzla ilgili ölçülebilen bir değer: alkalinite, kalsiyum, nitrat, sıcaklık gibi.
 
 ## Birincil Cora Max
 
-Bir akvaryumun yerel ekipmanıyla (Wi-Fi ve Bluetooth cihazları) sizin adınıza hangi Cora Max'in konuştuğu. Tek bir tablete, veya bu akvaryum için her çevrimiçi Cora Max'in işi paylaşmasına izin veren (en son yazma kazanır) **Aktif olan herhangi biri (otomatik)**'e ayarlanır. Sesle ilgili olan [yanıtlayan cihazdan](#answering-device), ekipmanı yoklamakla ilgili olan bu ayrıdır. **Ayarlar → Birincil Cora Max** altında ayarlanır. Bkz. [Birden fazla Cora cihazı](/help/mobile-multi-device).
+Akvaryumun yerel ekipmanıyla (Wi-Fi ve Bluetooth cihazlarıyla) sizin adınıza hangi Cora Max'in konuşacağı. Tek bir tablet seçebilirsiniz. Ya da **Aktif olan herhangi biri (otomatik)** seçeneğiyle o akvaryumu gösteren tüm çevrimiçi Cora Max'lerin işi paylaşmasını sağlayabilirsiniz. Bu durumda en son yazılan değer geçerli olur. [Yanıtlayan cihaz](#answering-device) sesle ilgilidir, bu ayar ise ekipmanı yoklamakla. **Ayarlar → Birincil Cora Max** altında seçilir. Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında.
 
-## Kaydedilmiş tasarım
+## Kayıtlı tasarım
 
-**Panolarım** altında tuttuğunuz bir pano düzeni; daha sonra yeniden uygulamak veya başka bir akvaryuma ya da ekrana yüklemek için.
+**Panolarım** altında sakladığınız pano düzeni. Daha sonra yeniden uygulayabilir ya da başka bir akvaryuma veya ekrana yükleyebilirsiniz.
 
 ## Reef Buddy
 
-Günlük briefinginiz: bir başlık, iki puan (100 üzerinden **Kararlılık** ve bir yüzde olan **Veri**) ve bunların arkasındaki içgörüler. Bkz. [Reef Buddy](/help/mobile-reef-buddy).
+Günlük özetiniz. Bir başlık, iki puan (100 üzerinden **Kararlılık** ve yüzde olarak **Veri**) ve bu puanların arkasındaki içgörülerden oluşur. Ayrıntılar [Reef Buddy](/help/mobile-reef-buddy) sayfasında.
 
 ## Erteleme
 
-Bir uyarıyı kapatmadan, bir saatten bir haftaya kadar seçtiğiniz bir süre için susturma. Uyarıyı kalıcı olarak kapatan **Kapat**'tan farklıdır. Bkz. [Uyarılar ve eşikler](/help/mobile-alerts).
+Cora Max'teki bir uyarının üzerinde bulunan düğme. Uyarıyı kapatmadan, o Cora Max'te kuralın bekleme süresi boyunca (en fazla bir hafta) susturur. Diğer düğme **Kapat**'tır. Uyarıyı ölçüm yeniden aralığa dönene kadar o Cora Max'te kapatır. İkisi de telefonunuzdaki bildirimleri etkilemez. Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
 ## Kaynak
 
-Bir okumanın nereden geldiği: bir prob, bir kontrolcü, bir lab sonucu, veya bir test kitiyle siz. Her okuma bir kaynak taşır; bu, Cora'nın ikisi anlaşmadığında size söylemesini sağlayan şeydir.
+Ölçümün nereden geldiği: prob, kontrol cihazı, laboratuvar sonucu ya da test kitiyle ölçüm yapan siz. Her ölçümün bir kaynağı vardır. Cora iki kaynak birbirini tutmadığında bunu bu sayede size söyleyebilir.
 
 ## Akvaryum
 
-Takip ettiğiniz bir su kütlesi. Çoğu kişinin bir tanesi vardır; bir frag sistemi veya bir karantina ayrı bir akvaryumdur.
+Takip ettiğiniz su hacmi. Çoğu kişinin tek akvaryumu olur. Frag sistemi ya da karantina ayrı bir akvaryum sayılır.
 
 ## Eşik
 
-Bir parametre için kabul edilebilir gördüğünüz aralık. Bir aralık, bir tavan veya bir zemin olabilir. Belirlemek size kalmıştır; varsayılanlar sadece bir başlangıç noktasıdır.
+Bir parametre için kabul ettiğiniz aralık. Alt ve üst sınırı olan bir aralık, yalnızca üst sınır ya da yalnızca alt sınır olabilir. Eşikleri siz belirlersiniz. Varsayılan değerler yalnızca başlangıç içindir.
 
 ## Tatil modu
 
-Akvaryum bakıcısı modu. Bir iş kontrol listesi olan tarihli bir plan; Cora bunu, uzaktayken akvaryuma bakan kişiyle paylaşabileceğiniz salt okunur bir sayfaya çevirir. Bkz. [Ayarlar](/help/mobile-settings).
+Akvaryum bakıcısı modu. Tarihleri ve yapılacak işlerin listesi olan bir plandır. Cora bu planı, siz yokken akvaryuma bakan kişiyle paylaşabileceğiniz, yalnızca okunur bir sayfaya çevirir. Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
 
 ## Widget
 
-Bir panoda tek bir şeyi gösteren bir kutu. Dokuz tür: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod ve Maxspect *(beta)*. Bkz. [Widget referansı](/help/mobile-widgets).
+Panoda tek bir bilgiyi gösteren kutucuk. Dokuz türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod ve Maxspect *(beta)*. Ayrıntılar [Widget rehberi](/help/mobile-widgets) sayfasında.

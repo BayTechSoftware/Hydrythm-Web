@@ -1,73 +1,73 @@
 ---
 title: Akvaryum profiliniz
-description: Cora'nın okumalarınızı yorumlamak için kullandığı hacim, canlı, ekipman ve dozaj ayrıntıları.
+description: Cora'nın ölçümlerinizi yorumlarken kullandığı hacim, canlı, ekipman ve dozaj bilgileri.
 section: Cora Mobile
 reviewed: 2026-09-09
 order: 3
 group: Getting started
 ---
 
-Akvaryum profili sisteminizi tanımlar. Cora onu okumaları değerlendirmek, dozaj hesaplamak ve genel olarak akvaryumlar için değil sizin akvaryumunuz için neyin normal olduğuna karar vermek için kullanır.
+Akvaryum profili sisteminizi tanımlar. Cora profile bakarak ölçümleri değerlendirir, dozları hesaplar ve genel olarak akvaryumlar için değil, sizin akvaryumunuz için neyin normal olduğuna karar verir.
 
-Açmak için, **akvaryum başlığının sağındaki kaleme** dokunun. Akvaryum adının yanındaki küçük simge hızlı bir yeniden adlandırmadır, bu değil.
+Profili açmak için **akvaryum başlığının sağındaki kalem simgesine** dokunun. Akvaryum adının yanındaki küçük simge yalnızca adı değiştirmek içindir.
 
 ## Rehberli kurulum
 
-Bir profilde çok şey vardır, bu yüzden **Rehberli kurulum**, tüm formu bir kerede sunmak yerine bölümleri (dozaj, ışıklandırma, akış ve filtrasyon, canlılar, ekipmanınız) birer birer gezer.
+Profilde doldurulacak çok şey var. **Rehberli kurulum** formun tamamını bir anda önünüze koymaz. Bölümleri tek tek gezer: dozaj, aydınlatma, akış ve filtrasyon, canlılar ve ekipmanınız.
 
-Kesintiye uğramak üzere tasarlanmıştır:
+Kurulumu istediğiniz yerde bırakabilirsiniz:
 
-- **Sonra bitir**, profili olduğu yerde bırakır ve sizi geri götürür. Şimdiye kadarki yanıtlarınız tutulur.
-- Rehberli kurulumu yeniden açmak, yeniden başlamak yerine durduğunuz bölümden sürer.
-- **Sonra karar ver**, henüz yanıtlamaya hazır olmadığınız bir soruyu geri kalanı engellemeden atlar.
-- Kaydedilmemiş düzenlemelerle bir bölümden ayrılmak önce sorar, **Düzenlemeye devam et** veya **Çık** sunar.
+- **Sonra bitir** profili olduğu gibi bırakır ve sizi geri götürür. O ana kadarki yanıtlarınız saklanır.
+- Rehberli kurulumu yeniden açtığınızda baştan başlamaz, kaldığınız bölümden devam eder.
+- **Sonra karar ver** ile henüz yanıtlamak istemediğiniz bir soruyu atlayabilirsiniz. Diğer sorular bundan etkilenmez.
+- Kaydedilmemiş değişiklikleriniz varken bir bölümden çıkmak isterseniz Cora önce sorar ve **Düzenlemeye devam et** ya da **Çık** seçeneklerini sunar.
 
-Profildeki tamlık rakamı ve %100'ün altındayken panoda görünen istem, aynı akışa geri dönüş noktalarıdır.
+Profildeki tamamlanma yüzdesinden ya da yüzde 100'ün altındayken panoda çıkan hatırlatmadan da aynı akışa dönebilirsiniz.
 
-:::note Her bölüm Cora'nın söyleyebildiklerini değiştirir
-Tamlık kendi başına bir puan değildir. Dozaj ürünleri, dozaj hesaplayıcısını ve tüketim takibini çalıştırır; canlılar ve akvaryum türü, okumalarınızın karşı değerlendirildiği şeyi değiştirir; ekipman, Cora'ya konuşacak neyin var olduğunu söyler. Seyrek bir profil, buna karşılık gelen genel yanıtlar verir.
+:::note Her bölüm Cora'nın söyleyebileceklerini değiştirir
+Tamamlanma yüzdesi süs olsun diye yok. Dozaj ürünlerini girerseniz dozaj hesaplayıcı ve tüketim takibi çalışır. Canlılar ve akvaryum türü, ölçümlerinizin neye göre değerlendirileceğini belirler. Ekipman bilgisi Cora'ya neler hakkında konuşabileceğini söyler. Profil ne kadar boşsa yanıtlar da o kadar genel olur.
 :::
 
-![Akvaryum profili düzenleyicisi](img/mobile-tank-profile.webp "Her bölüm bir tamamlanma durumu gösterir. Üstteki puan, Cora'nın akvaryum hakkında ne kadar bildiğini yansıtır.")
+![Akvaryum profili düzenleyicisi](img/mobile-tank-profile.webp "Her bölümde tamamlanma durumu görünür. Üstteki puan, Cora'nın akvaryum hakkında ne kadar bilgi sahibi olduğunu gösterir.")
 
-## Tamlık
+## Tamamlanma
 
-Üstteki yüzde, profilin ne kadarının doldurulduğunu gösterir. Daha tam bir profil daha özel öneriler üretir; boş bir profil, Cora'yı varsayılanlardan çalışmaya bırakır.
+Üstteki yüzde, profilin ne kadarının dolu olduğunu gösterir. Profil ne kadar eksiksizse öneriler de o kadar size özel olur. Boş bir profilde Cora varsayılan değerlerle çalışır.
 
 ## Bölümler
 
-| Bölüm | Kapsadığı |
+| Bölüm | Neleri kapsar |
 |---|---|
-| Akvaryum Adı ve Türü | Akvaryuma ne dediğiniz, türü ve yaşı |
-| Akvaryum Boyutları | Fiziksel boyut ve toplam su hacmi |
-| Dozaj | Ne dozajladığınız ve nasıl |
-| Su Yönetimi | Su değişimleri, tamamlama, tuzluluk hedefleri |
-| Canlılar | Akvaryumun tuttuğu ve ne kadar yoğun stoklandığı |
+| Akvaryum Adı ve Türü | Akvaryumun adı, türü ve yaşı |
+| Akvaryum Boyutları | Fiziksel boyutlar ve toplam su hacmi |
+| Dozaj | Neyi nasıl dozladığınız |
+| Su Yönetimi | Su değişimleri, su tamamlama, tuzluluk hedefleri |
+| Canlılar | Akvaryumda neler olduğu ve ne kadar kalabalık olduğu |
 | Sıcaklık Kontrolü | Isıtma ve soğutma ekipmanı |
-| Işıklandırma | Aydınlatmalar ve foto periyot |
-| Akış ve Filtrasyon | Pompalar, skimmerlama ve medya |
-| Neptune cihazları | Bu akvaryumdaki Apex ve modülleri |
-| Red Sea cihazları | Buraya atanmış ReefBeat birimleri |
-| Cora Max | Bu akvaryuma hangi ekranların hizmet ettiği |
-| Parametre kaynakları | Her parametrenin hangi kaynaktan okunduğu |
-| Zararlılar ve tedaviler | Ne ile karşılaştığınız ve ne kullandığınız |
+| Aydınlatma | Armatürler ve aydınlatma süresi |
+| Akış ve Filtrasyon | Pompalar, skimmer ve medya |
+| Neptune Cihazları | Bu akvaryumdaki Apex ve modülleri |
+| Red Sea Cihazları | Bu akvaryuma atanmış ReefBeat üniteleri |
+| Cora Max | Bu akvaryuma hangi ekranların bağlı olduğu |
+| Parametre Kaynakları | Her parametrenin hangi kaynaktan okunduğu |
+| Zararlı ve Tedavi | Karşılaştığınız zararlılar ve kullandığınız tedaviler |
 
-![Cihaz ve kaynak bölümleri](img/mobile-tank-profile-devices.webp "Profilin alt yarısı: ekipmanınız, her parametrenin nereden geldiği ve tedavi geçmişi.")
+![Cihaz ve kaynak bölümleri](img/mobile-tank-profile-devices.webp "Profilin alt yarısı: ekipmanınız, her parametrenin kaynağı ve tedavi geçmişi.")
 
-Genişletmek için bir bölüme dokunun. Her birinin yanındaki bilgi simgesi, alanların ne için kullanıldığını açıklar.
+Bir bölümü açmak için üzerine dokunun. Her bölümün yanındaki bilgi simgesi, alanların ne işe yaradığını açıklar.
 
 ## Hacim
 
-Akvaryumun üzerinde yazan görüntü hacmini değil, sump dahil gerçek su hacmini girin.
+Akvaryumun üzerinde yazan hacmi değil, sump dahil gerçek su hacmini girin.
 
-:::warning Dozaj hesaplamaları hacimle doğrudan ölçeklenir
-%20 yüksek girilen bir hacim, %20 yüksek dozaj önerileri üretir. Emin değilseniz, tahmin etmek yerine ölçün.
+:::warning Dozaj hesapları hacimle doğru orantılıdır
+Hacmi %20 fazla girerseniz önerilen dozlar da %20 fazla çıkar. Emin değilseniz tahmin etmeyin, ölçün.
 :::
 
-## Akvaryum yaşı
+## Akvaryumun yaşı
 
-Akvaryumun başlatıldığı tarihi belirleyin. Okumalar, o yaştaki bir akvaryum için normal olana karşı değerlendirilir; üç aylık bir sistem ile beş yıllık bir sistem farklı değerlendirilir. Akvaryum hâlâ döngüleniyorsa, öyle kaydedin.
+Akvaryumu kurduğunuz tarihi girin. Cora ölçümleri o yaştaki bir akvaryum için normal olan değerlere göre değerlendirir. Üç aylık bir sistemle beş yıllık bir sistem farklı değerlendirilir. Akvaryumun döngüsü sürüyorsa bunu da belirtin.
 
 ## Profili güncel tutma
 
-Sistem değiştiğinde profili güncelleyin: yeni ekipman, stokta bir değişiklik, farklı bir dozaj rejimi. Profil, Cora'nın çıkarım yaptığı şeydir, bu yüzden güncel olmayan bir profil güncel olmayan öneriler üretir.
+Sisteminizde bir şey değiştiğinde profili güncelleyin: yeni ekipman, canlılarda değişiklik, farklı bir dozaj düzeni. Cora önerilerini profile dayanarak verir. Profil eskiyse öneriler de eskir.

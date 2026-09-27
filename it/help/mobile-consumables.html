@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Materiali di consumo | Cora Help</title>
-  <meta name="description" content="Imposta avvisi di rifornimento per reagente, contenitori di dosaggio, serbatoi e media.">
+  <meta name="description" content="Imposta gli avvisi di rifornimento per reagenti, contenitori di dosaggio, serbatoi e materiali filtranti.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/mobile-consumables">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-consumables">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-consumables">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Materiali di consumo | Cora Help">
-  <meta property="og:description" content="Imposta avvisi di rifornimento per reagente, contenitori di dosaggio, serbatoi e media.">
+  <meta property="og:description" content="Imposta gli avvisi di rifornimento per reagenti, contenitori di dosaggio, serbatoi e materiali filtranti.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/mobile-consumables">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -71,8 +71,8 @@
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
-<li><a href="/it/help/mobile-dashboard">Leggere la tua dashboard</a></li>
-<li><a href="/it/help/mobile-dashboard-editing">Modificare la tua dashboard</a></li>
+<li><a href="/it/help/mobile-dashboard">Leggere la dashboard</a></li>
+<li><a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a></li>
 <li><a href="/it/help/mobile-widgets">Guida di riferimento ai widget</a></li>
 <li><a href="/it/help/mobile-metric-detail">Approfondire un parametro</a></li>
 <li><a href="/it/help/mobile-sharing">Condividere la tua vasca</a></li>
@@ -80,9 +80,9 @@
 <details class="nav-g" open>
 <summary>Apparecchiature</summary><ul>
 <li><a href="/it/help/mobile-devices">Aggiungere, modificare e rimuovere dispositivi</a></li>
-<li><a href="/it/help/mobile-connections">Collegare il tuo equipaggiamento</a></li>
-<li><a href="/it/help/mobile-device-control">Controllare il tuo equipaggiamento</a></li>
-<li><a href="/it/help/mobile-schedules">Pianificare l&#x27;equipaggiamento</a></li>
+<li><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></li>
+<li><a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a></li>
+<li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
 <li><a href="/it/help/mobile-probes">Sonde</a></li>
 <li><a href="/it/help/mobile-consumables" class="cur" aria-current="page">Materiali di consumo</a></li>
 </ul></details>
@@ -121,7 +121,7 @@
 <summary>Per iniziare</summary><ul>
 <li><a href="/it/help/max-setup">Configurare Cora Max</a></li>
 <li><a href="/it/help/max-tour">La schermata Home di Cora Max</a></li>
-<li><a href="/it/help/max-reef-room">La Stanza della Vasca</a></li>
+<li><a href="/it/help/max-reef-room">La Stanza barriera</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
@@ -168,20 +168,20 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Materiali di consumo</h1>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#impostare-un-avviso-di-rifornimento">Impostare un avviso di rifornimento</a></li><li><a href="#scegliere-una-soglia">Scegliere una soglia</a></li><li><a href="#dopo-il-rifornimento">Dopo il rifornimento</a></li></ul></nav>
-<p>L'equipaggiamento che consuma qualcosa (reagente, liquido di dosaggio, acqua di rabbocco, media filtrante) può dire a Cora quanto ne resta. Cora può avvisarti prima che finisca.</p>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#impostare-un-avviso-di-rifornimento">Impostare un avviso di rifornimento</a></li><li><a href="#scegliere-la-soglia">Scegliere la soglia</a></li><li><a href="#dopo-il-rifornimento">Dopo il rifornimento</a></li></ul></nav>
+<p>L'attrezzatura che consuma qualcosa (reagente, liquido di dosaggio, acqua di rabbocco, materiale filtrante) può dire a Cora quanto ne resta. Cora ti avvisa prima che finisca.</p>
 <h2 id="impostare-un-avviso-di-rifornimento">Impostare un avviso di rifornimento</h2>
-<p>Apri il dispositivo (dalla scheda <strong>Dispositivi</strong>, o toccando il suo riquadro sulla dashboard), poi usa la <strong>campana</strong> nella barra superiore.</p>
+<p>Apri il dispositivo dalla scheda <strong>Dispositivi</strong> o toccando il suo riquadro sulla dashboard. Poi tocca la <strong>campanella</strong> nella barra in alto.</p>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Avvisi di rifornimento per un&#x27;unità di dosaggio"><img src="/help/img/mobile-consumables.webp" alt="Avvisi di rifornimento per un&#x27;unità di dosaggio" width="620" height="740" loading="lazy" decoding="async"></button><figcaption>Una soglia per testa, ognuna attivata o disattivata indipendentemente.</figcaption></figure>
-<p>L'equipaggiamento con più di un contenitore ottiene una soglia per contenitore, così una testa che controlli spesso e una testa che tocchi raramente possono essere impostate diversamente.</p>
-<p><strong>La maggior parte delle soglie è impostata in giorni, non in volume.</strong> Cora calcola quanto durerà ciò che resta al ritmo che stai effettivamente usando, che è il numero su cui puoi agire; "quattro giorni di calcio rimasti" ti dice qualcosa che "180 mL rimasti" non dice.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Soglia su</th></tr></thead><tbody><tr><td data-th="Dispositivo">Trident</td><td data-th="Soglia su">Test rimanenti, e quanto è piena la bottiglia dei reflui</td></tr><tr><td data-th="Dispositivo">Testa di dosaggio</td><td data-th="Soglia su">Giorni di integratore rimasti; alcune offrono anche i millilitri rimanenti</td></tr><tr><td data-th="Dispositivo">ATO</td><td data-th="Soglia su">Giorni di serbatoio rimasti</td></tr><tr><td data-th="Dispositivo">Rullo tappetino</td><td data-th="Soglia su">Giorni di rotolo rimasti</td></tr></tbody></table></div>
-<p>Un avviso per materiale di consumo si comporta come qualsiasi altro avviso: appare nel <a href="/it/help/mobile-alerts">Centro avvisi</a> e può essere inviato al tuo telefono come notifica. Ricevi <strong>una</strong> notifica quando un livello viene superato, non un flusso continuo, e si chiude quando il livello torna sopra la soglia.</p>
-<h2 id="scegliere-una-soglia">Scegliere una soglia</h2>
-<p>Impostala con anticipo sufficiente perché tu possa agire. Una soglia che scatta il giorno in cui qualcosa finisce non dà nessun avviso.</p>
-<aside class="cal cal-warning"><p class="cal-t">Alcuni equipaggiamenti non si fermano quando sono vuoti</p><p>Una testa di dosaggio con un contenitore vuoto continua a eseguire il suo programma e riporta dosi che non ha erogato. L'avviso di rifornimento è ciò che lo previene, quindi impostane uno per ogni testa da cui dosi.</p></aside>
+<p>Se l'attrezzatura ha più contenitori, hai una soglia per ciascuno. Così puoi impostare in modo diverso una testa che tieni d'occhio e una che tocchi di rado.</p>
+<p><strong>Quasi tutte le soglie si impostano in giorni e non in volume.</strong> Cora calcola quanto durerà quello che resta, al ritmo con cui lo stai usando davvero. È il numero che ti serve per agire: "quattro giorni di calcio" ti dice molto più di "180 mL".</p>
+<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Soglia su</th></tr></thead><tbody><tr><td data-th="Dispositivo">Trident</td><td data-th="Soglia su">Test rimasti e livello della bottiglia di scarico</td></tr><tr><td data-th="Dispositivo">Testa di dosaggio</td><td data-th="Soglia su">Giorni di integratore rimasti. Alcune offrono anche i millilitri rimasti</td></tr><tr><td data-th="Dispositivo">ATO</td><td data-th="Soglia su">Giorni di serbatoio rimasti</td></tr><tr><td data-th="Dispositivo">Rullo del tappetino</td><td data-th="Soglia su">Giorni di rotolo rimasti</td></tr></tbody></table></div>
+<p>Un avviso di rifornimento funziona come tutti gli altri avvisi. Compare nel <a href="/it/help/mobile-alerts">Centro avvisi</a> e può arrivarti come notifica sul telefono. Quando il livello scende sotto la soglia ricevi <strong>una</strong> notifica, non una serie continua. L'avviso si chiude quando il livello torna sopra la soglia.</p>
+<h2 id="scegliere-la-soglia">Scegliere la soglia</h2>
+<p>Impostala con abbastanza anticipo da avere il tempo di fare qualcosa. Una soglia che scatta il giorno in cui il prodotto finisce non ti avvisa di niente.</p>
+<aside class="cal cal-warning"><p class="cal-t">Alcune attrezzature non si fermano quando sono vuote</p><p>Una testa di dosaggio con il contenitore vuoto continua a seguire il suo programma e registra dosi che non ha mai erogato. L'avviso di rifornimento ti evita questa situazione, quindi impostane uno per ogni testa che usi.</p></aside>
 <h2 id="dopo-il-rifornimento">Dopo il rifornimento</h2>
-<p>Ripristina o aggiorna il livello sulla pagina del dispositivo così l'avviso si chiude e il prossimo avviso viene calcolato correttamente.</p>
+<p>Azzera o aggiorna il livello nella pagina del dispositivo. Così l'avviso si chiude e il prossimo viene calcolato nel modo giusto.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/mobile-probes"><span>Precedente</span><b>Sonde</b></a><a class="pn-n" href="/it/help/mobile-alerts"><span>Successivo</span><b>Avvisi e soglie</b></a></nav>
       <p class="stamp">Scritto per Cora Max 0.28.78 e Cora Mobile 0.5.79. Ultimo controllo il 2026-09-09.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
