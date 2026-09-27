@@ -154,7 +154,7 @@ Gdy nic w sieci tego akwarium nie odpytuje Twojego sprzętu Red Sea, Cora pokazu
 
 Więcej: [Rozwiązywanie problemów](/help/troubleshooting), [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)
 
-### Dlaczego przy sterowaniu pompą Jecod widzę „Could not reach the pump”?
+### Dlaczego przy sterowaniu pompą Jecod widzę „Nie udało się połączyć z pompą”?
 
 Polecenie nie dotarło do pompy. Zwykle pompa jest wyłączona, nie ma jej w sieci albo (w przypadku pompy łączącej się tylko przez Bluetooth) jest poza zasięgiem. Sprawdź zasilanie i połączenie, podejdź bliżej, jeśli pompa łączy się przez Bluetooth, i spróbuj ponownie.
 
@@ -332,7 +332,7 @@ Wiek odczytu jest poprawny: nic nowszego nie dotarło. Niektóre urządzenia z z
 
 Więcej: [Rozwiązywanie problemów](/help/troubleshooting)
 
-### Urządzenie pokazuje „sign-in refused”. Co zrobić?
+### Urządzenie pokazuje „odmowa logowania”. Co zrobić?
 
 Konto producenta odrzuciło zapisane dane logowania. Prawie zawsze dlatego, że hasło zmieniło się po stronie producenta. Otwórz wiersz urządzenia i zaloguj się ponownie.
 

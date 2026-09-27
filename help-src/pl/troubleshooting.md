@@ -149,7 +149,7 @@ Neptune Apex, Trident albo głowica DŌS nie odpowiedziały na polecenie albo na
 
 Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)** i podaj nazwę akwarium i urządzenia.
 
-## „This could not be sent: no device on this tank can send it”
+## „Nie można tego wysłać: żadne urządzenie w tym akwarium nie może tego wysłać”
 
 Żadne urządzenie Cora w tym akwarium nie ma danych połączenia z Apex potrzebnych do wykonania polecenia albo urządzenie, które je ma, jest offline.
 
