@@ -120,7 +120,7 @@ Voir [Connexions](/help/mobile-connections).
 
 ### Cora est-il lié à Neptune, Red Sea, Jebao ou Maxspect ?
 
-Non. Cora n’est ni affilié, ni approuvé, ni partenaire d’aucun fabricant auquel il se connecte, y compris Maxspect, dont l’intégration est encore en bêta. Cora passe par leurs comptes publics ou leurs protocoles réseau locaux. Une mise à jour de l’application ou du micrologiciel du fabricant peut modifier ou casser cette connexion à tout moment, sans préavis.
+Non. Cora n’est ni affiliée, ni approuvée, ni partenaire d’aucun fabricant auquel elle se connecte, y compris Maxspect, dont l’intégration est encore en bêta. Cora passe par leurs comptes publics ou leurs protocoles réseau locaux. Une mise à jour de l’application ou du micrologiciel du fabricant peut modifier ou casser cette connexion à tout moment, sans préavis.
 
 Voir [Connexions](/help/mobile-connections).
 
