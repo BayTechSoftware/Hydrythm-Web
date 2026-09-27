@@ -773,7 +773,10 @@ def nav_html(pages: list[Page], current: Page) -> str:
             continue
         if section:
             label = strings["sections"].get(section, section)
-            parts.append(f'<p class="nav-sec">{html.escape(label)}</p>')
+            # Turkish uppercase turns "Cora Mobile" into "CORA MOBİLE": a brand name
+            # is English text, so it keeps English casing rules in every language.
+            _en = ' lang="en"' if label.startswith("Cora") else ""
+            parts.append(f'<p class="nav-sec"{_en}>{html.escape(label)}</p>')
 
         # Preserve first-appearance order of the groups.
         seen: list[str] = []
