@@ -18,7 +18,7 @@ Reefinizi Cora ile yönetmek için gereken her şey burada. Nereden başlamak is
 
 ## Cora'nın iki parçası
 
-**Cora Mobile** telefon uygulamasıdır. Akvaryumlar, cihazlar, panolar, uyarılar ve dozaj ürünleri gibi neredeyse her şeyi burada kurarsınız. Akvaryumdan uzaktayken de yanınızda olan odur. Telefonunuzun ana ekranında simgenin adı yalnızca **Cora**'dır.
+**Cora Mobile** telefon uygulamasıdır. Akvaryumları, cihazları, panoları, uyarıları ve dozaj ürünlerini burada kurarsınız. Akvaryumdan uzaktayken de Cora yanınızdadır. Telefonunuzun ana ekranında simgenin adı yalnızca **Cora**'dır.
 
 **Cora Max** reef odanızın duvarına asılan kontrol merkezidir. Aynı akvaryumları ve aynı canlı verileri odanın öbür ucundan okunabilen bir ekranda gösterir. Sesli komutları da dinler.
 
@@ -27,14 +27,14 @@ Reefinizi Cora ile yönetmek için gereken her şey burada. Nereden başlamak is
 Bazı şeyler ise yalnızca ait olduğu ekranda kalır. Her ekranın **kendi pano düzeni** vardır. Wi-Fi, parlaklık, ses, uyandırma sözcüğü ve çocuk kilidi gibi ekrana özgü ayarlar da yalnızca o ekranı etkiler. Neyin paylaşılıp neyin paylaşılmadığı [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında.
 
 :::tip Telefonunuzdan başlayın
-Aldığınız Cora Max olsa bile akvaryumlarınızı ve cihazlarınızı önce Cora Mobile'da kurun. Telefonda yazmak çok daha kolaydır. Cora Max da hepsini kendiliğinden alır.
+Cora Max aldıysanız bile akvaryumlarınızı ve cihazlarınızı önce Cora Mobile'da kurun. Telefonda yazmak daha kolaydır. Cora Max de bilgileri kendiliğinden alır.
 :::
 
 ## Cora kontrol cihazınıza ne katar
 
 Cora size her değeri dayandığı bilgiyle birlikte gösterir.
 
-Her ölçümün nereden geldiği ve ne kadar eski olduğu yanında yazar. İki kaynak birbirini tutmazsa, örneğin prob ile test kiti ya da dozaj pompası ile ICP sonuçlarınız, Cora ikisinin ortalamasını alıp geçmez, bunu size söyler. Bir değer yavaş yavaş kayıyorsa **Reef Buddy** siz fark etmeden sabah size haber verir.
+Her ölçümün yanında kaynağı ve yaşı yazar. Prob ile test kiti ya da dozaj pompası ile ICP sonuçları uyuşmazsa Cora bunu açıkça söyler. Değerlerin ortalamasını alıp geçmez. Bir değer yavaş yavaş kayıyorsa **Reef Buddy** ertesi sabah dikkatinizi çeker.
 
 ## Yolunuzu bulun
 

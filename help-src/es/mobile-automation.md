@@ -33,10 +33,10 @@ Hay cuatro disparadores:
 
 | Disparador | Se activa cuando |
 |---|---|
-| **Parámetro** | Un parámetro pasa de un valor que tú fijas, en la dirección que elijas |
-| **Alerta** | Salta una alerta, se resuelve, o cualquiera de las dos cosas |
-| **Horario** | Llega una hora del día, en tu zona horaria |
-| **Estado del dispositivo** | Un dispositivo se desconecta o vuelve a conectarse |
+| **Cuando un parámetro cambia** | Un parámetro pasa de un valor que tú fijas, en la dirección que elijas |
+| **Cuando se activa una alerta** | Salta una alerta, se resuelve, o cualquiera de las dos cosas |
+| **A una hora del día** | Llega una hora del día, en tu zona horaria |
+| **Cuando un dispositivo se desconecta** | Un dispositivo se desconecta o vuelve a conectarse |
 
 ## Condiciones
 

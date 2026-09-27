@@ -49,7 +49,7 @@ Tu liczy się objętość wpisana przy konfiguracji. Jeśli objętość różni 
 
 Gdy Cora widzi i dawki, i odczyty, potrafi policzyć, ile akwarium naprawdę zużywa, i dać znać, gdy to się zmienia.
 
-Zmiana zapotrzebowania to sygnał, żeby się przyjrzeć, a nie diagnoza. Rosnące zużycie alkaliczności często wynika ze wzrostu obsady. Nagła zmiana w którąkolwiek stronę może jednak wynikać z dawki, która nie dociera do akwarium, z błędu testu, wytrącania, podmiany wody albo zmiany w sprzęcie. Zanim wyciągniesz wniosek, sprawdź, co się zmieniło w okolicach tej daty.
+Gdy zmienia się zapotrzebowanie, najpierw sprawdź przyczynę. Rosnące zużycie alkaliczności często towarzyszy wzrostowi koralowców. Nagła zmiana w którąkolwiek stronę może też wynikać z dawki, która nie dociera do akwarium, błędu testu, wytrącania, podmiany wody albo zmiany w sprzęcie. Sprawdź, co jeszcze zmieniło się w tym czasie.
 
 ## Sprzęt dozujący
 

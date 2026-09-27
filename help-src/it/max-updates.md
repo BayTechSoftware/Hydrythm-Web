@@ -43,9 +43,9 @@ Il PIN di sei cifre ti è stato mostrato durante l'associazione, e lo trovi anch
 Dal ripristino puoi:
 
 - Sistemare la connessione **Wi-Fi**
-- **Associare di nuovo** Cora Max al tuo account
+- scegliere **Ri-accoppia** per collegare di nuovo Cora Max al tuo account
 - Forzare un **aggiornamento del firmware**
-- Fare un **ripristino di fabbrica**
+- avviare **Ripristino di fabbrica**
 
 Se Cora Max non riesce ad avviarsi più volte di fila, può anche tornare da solo alla versione precedente.
 

@@ -22,7 +22,7 @@ Karta na górze pokazuje, na jakie konto się logujesz i jaki masz plan. Dotknij
 
 ## Cora
 
-- **Automatyzacja**: reguły i sceny, które działają same. Opisują je **[Automatyzacje i sceny](/help/mobile-automation)**.
+- **Automatyzacje**: reguły i sceny, które działają same. Opisują je **[Automatyzacje i sceny](/help/mobile-automation)**.
 - **Cora Assistant**: AI, które odpowiada na pytania o akwarium, oraz wybór urządzenia, które odpowiada na Twój głos. Zobacz sekcję „Cora Assistant” poniżej i **[Rozmowę z Corą](/help/mobile-assistant)**.
 - **Aktywność**: zapis wszystkich poleceń wysłanych do sprzętu. Więcej w **[Aktywności i osi czasu](/help/mobile-activity)**.
 - **Produkty dozujące**: stężenie tego, co dozujesz. Szczegóły w **[Dozowaniu](/help/mobile-dosing)**.

@@ -42,10 +42,10 @@ Die sechsstellige PIN wurde beim Koppeln angezeigt. Du findest sie auch in den E
 
 In der Wiederherstellung kannst du:
 
-- die **WLAN**-Verbindung reparieren
-- das Gerät **neu** mit deinem Konto **koppeln**
+- die **Wi-Fi**-Verbindung reparieren
+- das Gerät mit **Neu koppeln** wieder mit deinem Konto verbinden
 - ein **Firmware-Update** erzwingen
-- das Gerät auf **Werkseinstellungen zurücksetzen**
+- einen **Werksreset** ausführen
 
 Startet ein Gerät mehrmals hintereinander nicht, kann es auch von selbst zur vorherigen Version zurückkehren.
 

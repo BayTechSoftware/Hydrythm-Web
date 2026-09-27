@@ -33,7 +33,7 @@ Everything else happens in Cora Mobile, in five steps you can see across the top
 
 **1 · Connect.** Tap **Devices → Add Device** on your phone. It finds Cora Max and shows its MAC address, firmware version, variant and hardware revision, so you can check it's the right one before you go on.
 
-**2 · WiFi.** Pick your network from the list, or tap **Rescan**, then enter the password. That way you type it on your phone's keyboard.
+**2 · WiFi.** Pick your network from the list, or tap **Rescan**, then enter the password on your phone's keyboard.
 
 **3 · Auth.** Your phone links Cora Max to your account. Cora Max shows its own progress while this happens.
 

@@ -213,7 +213,7 @@ More in [Alerts and thresholds](/help/mobile-alerts), or email [cora@coraiq.tech
 The DŌS head lost contact during the dose. Cora is telling you so it doesn't have to assume the full dose went in.
 
 1. Open the alert and check how much was dosed before it stopped.
-2. Resume or adjust the dose based on that amount, not the amount you scheduled.
+2. Use the amount that went in to decide whether to resume or adjust the dose.
 
 Still stuck? Email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the tank and device name.
 
@@ -289,7 +289,7 @@ Still stuck? Email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the device n
 
 ## I can't find where to turn off the wake word on Cora Max
 
-It's in the **Sound & Voice** section, not in the Cora Assistant settings, where most people look first.
+Wake-word controls are under **Sound & Voice**. They aren't part of the Cora Assistant settings.
 
 1. Go to **Settings → Cora Max Settings → Sound & Voice → Wake-word listening**.
 2. Turn it off. You can still tap the Cora icon to start talking.

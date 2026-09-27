@@ -10,7 +10,7 @@ group: Equipment
 Cora Max peut allumer et éteindre l’équipement de votre système. Vous passez par les widgets de commande du tableau de bord, par le tiroir Prises et nourrissage, ou par la voix.
 
 :::warning Ces commandes agissent sur votre aquarium
-On ne peut pas annuler. Pour les prises marquées d’un cadenas, Cora Max vous demande d’abord de confirmer. Les autres changent dès que vous touchez. Le résultat d’une commande peut être **Confirmée**, **Non confirmée** (envoyée, mais sans réponse), **Refusée** ou **Aucun changement**. Plus de détails dans [Contrôler votre équipement](/help/mobile-device-control).
+On ne peut pas annuler. Pour les prises marquées d’un cadenas, Cora Max vous demande d’abord de confirmer. Les autres changent dès que vous touchez. Le résultat affiché peut être **Confirmé**, **Non confirmé** (envoyé, mais sans réponse), **Refusé** ou **Aucun changement**. Plus de détails dans [Contrôler votre équipement](/help/mobile-device-control).
 :::
 
 ## Les trois états

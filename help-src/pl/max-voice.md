@@ -13,7 +13,7 @@ Cora Max rozumie polecenia głosowe. To najwygodniejszy sposób, gdy masz mokre 
 
 **Powiedz „Hey Cora”.** Cora Max w tle nasłuchuje frazy aktywującej i gdy ją usłyszy, zaczyna sesję.
 
-**Albo dotknij ikony Cora Assistant** na górnym pasku. Cora od razu zaczyna słuchać, odpowiada na głos i słucha dalej, dopóki jej nie zatrzymasz.
+Albo dotknij ikony **Cora Assistant** na górnym pasku. Cora od razu zaczyna słuchać, odpowiada na głos i słucha dalej, dopóki jej nie zatrzymasz.
 
 ![Ustawienia głosu](img/max-voice.webp "Nasłuchiwanie słowa aktywującego możesz wyłączyć, a dotknięcie ikony dalej będzie działać.")
 
@@ -61,7 +61,7 @@ Włącz ją na ekranie, do którego mają dostęp dzieci albo goście.
 - naciśnij **przycisk głośności trzy razy w ciągu dwóch sekund** albo
 - **przytrzymaj pięć palców w prawym górnym rogu przez dziesięć sekund**.
 
-Dzięki limitowi dwóch sekund blokada naprawdę działa. Trzy naciśnięcia w dowolnych odstępach dziecko łatwo zrobi przez przypadek. To jednak dalej blokada przed dziećmi, a nie zabezpieczenie. Każdy, kto zobaczy, jak ją zdejmujesz, może to powtórzyć.
+Wszystkie trzy naciśnięcia muszą zmieścić się w dwóch sekundach. Przypadkowe dotknięcia nie odblokują więc ekranu. Blokada rodzicielska nie jest jednak zabezpieczeniem przed dostępem. Kto zobaczy, jak ją wyłączasz, może zrobić to samo.
 
 ## Potwierdzenia
 

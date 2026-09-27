@@ -17,7 +17,7 @@ Ayarlayabileceğiniz her şey, ekranda göründüğü sırayla.
 
 - **Görünen ad**: Cora Mobile'da size nasıl hitap edildiği
 - **Plan ve abonelik**: planınız, neleri kapsadığı ve nasıl değiştirileceği
-- **Çıkış Yap**
+- **Çıkış yap**
 - **Hesabı Sil**: kalıcıdır. Kullanmadan önce aşağıdaki iki notu okuyun.
 
 ## Cora

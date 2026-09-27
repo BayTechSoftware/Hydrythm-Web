@@ -49,7 +49,7 @@ Kurulumda girdiğiniz hacim burada önemlidir. Hacim %20 yanlışsa dozaj sonuç
 
 Cora hem dozlarınızı hem ölçümlerinizi görünce akvaryumunuzun gerçekte ne kadar tükettiğini hesaplar. Tüketim değişirse size haber verir.
 
-Tüketimdeki değişim bir teşhis değildir, bakmanız gerektiğinin işaretidir. Alkalinite tüketiminin artması çoğu zaman büyümeden kaynaklanır. Ama iki yöndeki ani bir değişim, verilmeyen bir dozdan, test hatasından, çökelmeden, su değişiminden ya da ekipmandaki bir değişiklikten de kaynaklanabilir. Bir sonuca varmadan önce o tarihlerde neyin değiştiğine bakın.
+Tüketim değiştiğinde hemen sonuca varmayın. Önce nedenine bakın. Alkalinite tüketiminin artması çoğu zaman büyümeden kaynaklanır. Ancak iki yöndeki ani değişimin nedeni verilmeyen bir doz, test hatası, çökelme, su değişimi ya da ekipman değişikliği de olabilir. Aynı tarihlerde başka nelerin değiştiğini kontrol edin.
 
 ## Dozaj ekipmanı
 

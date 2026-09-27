@@ -6,7 +6,7 @@ reviewed: 2026-09-27
 order: 0
 ---
 
-Everything you need to run your reef with Cora. Start wherever you are:
+Everything you need to run your reef with Cora. Choose where you want to start.
 
 <ul class="tiles">
 <li><a href="/help/mobile-setup"><b>New to Cora Mobile</b><span>Create your account, add your first tank, and get readings on screen.</span></a></li>
@@ -24,7 +24,7 @@ Everything you need to run your reef with Cora. Start wherever you are:
 
 Both use the same account. Your tanks, readings, devices and records are the same on each, and you only set them up once.
 
-A few things belong to one screen. Each screen has its **own dashboard layout**. Settings about the screen itself (Wi-Fi, brightness, audio, wake word, child lock) apply only to that screen. More in [What is shared and what is not](/help/mobile-multi-device).
+A few things stay with one screen. Each screen has its **own dashboard layout**. Its Wi-Fi, brightness, audio, wake word and child-lock settings also apply only there. [What is shared and what is not](/help/mobile-multi-device) explains the difference.
 
 :::tip Start on your phone
 Even if you bought Cora Max, set up your tanks and devices in Cora Mobile first. Typing is easier on a phone, and Cora Max picks everything up automatically.
@@ -32,7 +32,7 @@ Even if you bought Cora Max, set up your tanks and devices in Cora Mobile first.
 
 ## What Cora adds to a controller
 
-Every reading comes with where it came from and how old it is. When two sources disagree (a probe and a test kit, or a doser and your ICP results), Cora tells you. It doesn't quietly average them. And when something starts to drift, **Reef Buddy** mentions it in the morning, before you'd have spotted it yourself.
+Every reading shows its source and age. If two sources disagree, such as a probe and a test kit or a doser and your ICP results, Cora tells you instead of quietly averaging them. When something starts to drift, **Reef Buddy** brings it up the next morning.
 
 ## Finding your way around
 

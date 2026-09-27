@@ -35,7 +35,7 @@ Puedes generar y leer un informe de salud en la pantalla de pared. Es la misma e
 
 Cualquier parámetro se puede abrir como gráfico a pantalla completa, con los mismos rangos que en el teléfono. En una pantalla de pared es la mejor forma de ver una deriva lenta. Un mes de alcalinidad a pantalla completa enseña una tendencia que en una casilla pequeña no se ve.
 
-Con los filtros eliges qué lecturas ver: **Todas**, **Apex**, **Manual**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. Cada fuente tiene su color, y los filtros sirven también de leyenda. Los puntos de ReefBeat y AquaWiz son cuadrados, y las lecturas que tomó alguien (Manual e ICP) salen como puntos más grandes. **Todas** muestra cada fuente por separado y nunca mezcla en una media las lecturas de fuentes distintas.
+Con los filtros eliges qué lecturas ver: **Todos**, **Apex**, **Manual**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. Cada fuente tiene su color, y los filtros sirven también de leyenda. Los puntos de ReefBeat y AquaWiz son cuadrados, y las lecturas que tomó alguien (Manual e ICP) salen como puntos más grandes. **Todos** muestra cada fuente por separado y nunca mezcla en una media las lecturas de fuentes distintas.
 
 ## Itinerarios guiados
 

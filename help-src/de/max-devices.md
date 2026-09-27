@@ -21,7 +21,7 @@ Geräte hinzufügen und einrichten geht auf dem Handy leichter. Wie das geht, st
 
 ## Primäres Cora Max: welches Tablet mit deiner Ausrüstung spricht
 
-Das **Primäre Cora Max** ist das Tablet (oder ein anderes Cora-Gerät), das für das ganze Konto den Controller und die übrige Ausrüstung eines Beckens liest. Pro Becken reicht dafür ein Gerät. Alle anderen Bildschirme zeigen nur an, was es liest.
+Die Einstellung **Primäres Cora Max** legt fest, welches Tablet (oder andere Cora-Gerät) für das ganze Konto den Controller und die übrige Ausrüstung eines Beckens liest. Pro Becken reicht dafür ein Gerät. Alle anderen Bildschirme zeigen nur an, was es liest.
 
 Unter **Einstellungen → [dein Becken] → Primäres Cora Max** siehst und änderst du es. Du hast zwei Möglichkeiten:
 

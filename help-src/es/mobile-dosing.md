@@ -49,7 +49,7 @@ Aquí importa el volumen que indicaste al configurar el acuario. Si se desvía u
 
 Cuando Cora ve tus dosis y tus lecturas, puede calcular cuánto consume de verdad tu acuario y avisarte cuando eso cambia.
 
-Un cambio en el consumo es una señal para revisar, no un diagnóstico. Si la alcalinidad se consume cada vez más, suele ser por crecimiento. Un cambio brusco, hacia arriba o hacia abajo, también puede deberse a una dosis que no llega, un error al medir, precipitación, un cambio de agua o un cambio en el equipo. Antes de sacar conclusiones, revisa qué cambió por esas fechas.
+Si cambia el consumo, revisa la causa antes de sacar conclusiones. Un mayor consumo de alcalinidad suele acompañar al crecimiento. Una variación brusca, en cualquier dirección, también puede deberse a una dosis que no llega, un error al medir, precipitación, un cambio de agua o un cambio en el equipo. Comprueba qué más cambió por esas fechas.
 
 ## Equipos de dosificación
 

@@ -48,7 +48,7 @@ La última fila de Ajustes lleva el nombre de este Cora Max y abre todo lo que a
 | **Reef Buddy** | A qué hora aparece el resumen diario y si se lee en voz alta |
 | **Bloqueo infantil** | Activarlo o desactivarlo y cuánto espera antes de bloquear. Cómo desbloquearlo se explica en [Hablar con Cora](/help/max-voice) |
 | **Notificaciones** | El historial de notificaciones, la bandeja de toda la cuenta con todos los resúmenes, alarmas y avisos de cuenta |
-| **Idioma** | El idioma de toda tu cuenta, que es uno solo. Mira la nota de abajo |
+| **Idioma** | El idioma común a toda tu cuenta. Mira la nota de abajo |
 | **Red y actualizaciones** | Wi-Fi, actualizaciones de firmware y una línea, solo de consulta, con la frecuencia con que este Cora Max consulta tus dispositivos (se cambia desde Cora Mobile) |
 | **Estado** | Una tarjeta por cada acuario que muestra esta pantalla, con el estado del sondeo, el último sondeo y la última escritura en la nube. Solo de consulta |
 | **Ayuda y Acerca de** | Ayuda y soporte, y Acerca de (versión de la app y **Licencias**) |

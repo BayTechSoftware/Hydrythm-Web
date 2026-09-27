@@ -13,7 +13,7 @@ Cora Max'e sesle komut verebilirsiniz. Elleriniz ıslakken ya da odanın öbür 
 
 **"Hey Cora" deyin.** Cora Max bu uyandırma sözünü arka planda dinler. Duyunca konuşmayı başlatır.
 
-**Ya da üst çubuktaki Cora Assistant simgesine dokunun.** Cora hemen dinlemeye başlar, sesli cevap verir ve siz durdurana kadar dinlemeye devam eder.
+Ya da üst çubuktaki **Cora Assistant** simgesine dokunun. Cora hemen dinlemeye başlar, sesli cevap verir ve siz durdurana kadar dinlemeye devam eder.
 
 ![Ses ayarları](img/max-voice.webp "Uyandırma sözcüğü dinlemeyi kapatsanız da dokunarak konuşmaya devam edebilirsiniz.")
 
@@ -61,7 +61,7 @@ Cora Assistant'a dokununca konuşma hemen başlar, onay sorulmaz. Yanlışlıkla
 - Ses tuşuna **iki saniye içinde üç kez** basın.
 - **Sağ üst köşeye beş parmağınızı koyup on saniye basılı tutun.**
 
-İki saniye sınırı olmasa bu bir kilit olmazdı. Çocuk ses tuşuna rastgele aralıklarla üç kez kolayca basabilir. Yine de bu bir çocuk kilididir, güvenlik kilidi değil. Sizi izleyen herkes aynısını yapabilir.
+Üç basışın da iki saniye içinde olması gerekir. Böylece gelişigüzel dokunuşlar ekranın kilidini açmaz. Yine de çocuk kilidi bir güvenlik önlemi değildir. Nasıl açtığınızı gören biri aynısını yapabilir.
 
 ## Onaylar
 

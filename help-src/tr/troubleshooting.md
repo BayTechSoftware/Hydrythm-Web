@@ -333,7 +333,7 @@ Sorun sürerse cihazın adını yazarak **[cora@coraiq.tech](mailto:cora@coraiq.
 
 ## Cora Max'te uyandırma sözcüğünü nereden kapatacağımı bulamıyorum
 
-Uyandırma sözcüğü ayarı **Ses ve Konuşma** bölümünde. Çoğu kişinin ilk baktığı Cora Assistant ayarlarında değil.
+Uyandırma sözcüğü ayarı **Ses ve Konuşma** bölümünde. Cora Assistant ayarlarında yer almaz.
 
 Şunları yapın:
 1. **Ayarlar → Cora Max Ayarları → Ses ve Konuşma → Uyandırma sözcüğü dinleme**'ye gidin.

@@ -33,10 +33,10 @@ Ci sono quattro trigger:
 
 | Trigger | Scatta quando |
 |---|---|
-| **Parametro** | Un parametro supera un valore che hai impostato, nella direzione che scegli |
-| **Avviso** | Un avviso scatta, si chiude, o in tutti e due i casi |
-| **Programma** | È una certa ora del giorno, nel tuo fuso orario |
-| **Stato dispositivo** | Un dispositivo va offline o torna online |
+| **Quando un parametro cambia** | Un parametro supera un valore che hai impostato, nella direzione che scegli |
+| **Quando un avviso scatta** | Un avviso scatta, si chiude, o in tutti e due i casi |
+| **A un'ora del giorno** | È una certa ora del giorno, nel tuo fuso orario |
+| **Quando un dispositivo va offline** | Un dispositivo va offline o torna online |
 
 ## Condizioni
 

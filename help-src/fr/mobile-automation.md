@@ -33,10 +33,10 @@ Il y a quatre déclencheurs.
 
 | Déclencheur | Se déclenche quand |
 |---|---|
-| **Paramètre** | Un paramètre franchit une valeur que vous avez fixée, dans le sens que vous avez choisi |
-| **Alerte** | Une alerte se déclenche, se ferme, ou les deux |
-| **Programme** | Il est une certaine heure, dans votre propre fuseau horaire |
-| **État de l’appareil** | Un appareil se déconnecte ou revient en ligne |
+| **Quand une valeur change** | Un paramètre franchit une valeur que vous avez fixée, dans le sens que vous avez choisi |
+| **Quand une alerte se déclenche** | Une alerte se déclenche, se ferme, ou les deux |
+| **À une heure de la journée** | Il est une certaine heure, dans votre propre fuseau horaire |
+| **Quand un appareil passe hors ligne** | Un appareil se déconnecte ou revient en ligne |
 
 ## Conditions
 

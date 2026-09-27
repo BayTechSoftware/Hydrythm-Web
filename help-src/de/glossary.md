@@ -20,7 +20,7 @@ Cora sagt dir, dass etwas deine Aufmerksamkeit braucht. Meistens liegt ein Messw
 
 ## Antwortgerät
 
-Das Cora-Gerät, das antwortet, wenn du das Weckwort sagst. Du legst es unter **Einstellungen → Cora Assistant** fest. Es antwortet immer nur ein Gerät. Davon unabhängig ist das **Primäre Cora Max**. Es bestimmt, welches Gerät mit deiner Ausrüstung vor Ort spricht, und hat mit Sprache nichts zu tun.
+Das Cora-Gerät, das antwortet, wenn du das Weckwort sagst. Du legst es unter **Einstellungen → Cora Assistant** fest. Es antwortet immer nur ein Gerät. Davon unabhängig ist die Einstellung **Primäres Cora Max**. Sie bestimmt, welches Gerät mit deiner Ausrüstung vor Ort spricht, und hat mit Sprache nichts zu tun.
 
 ## Automation
 

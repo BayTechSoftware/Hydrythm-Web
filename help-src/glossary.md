@@ -12,7 +12,7 @@ The one language your whole Cora account uses. It isn't set per person or per de
 
 ## Age
 
-How long ago a reading was taken, shown on every parameter widget as `now`, `1h`, `2d`. It has nothing to do with when the screen last refreshed. If the age is old, the number is old, and Cora shows it that way.
+How long ago a reading was taken, shown on every parameter widget as `now`, `1h`, `2d`. It has nothing to do with when the screen last refreshed. An old age means the reading itself is old.
 
 ## Alert
 

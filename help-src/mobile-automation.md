@@ -33,10 +33,10 @@ There are four triggers:
 
 | Trigger | Fires when |
 |---|---|
-| **Metric** | A parameter crosses a value you set, in the direction you choose |
-| **Alert** | An alert is raised, cleared, or either |
-| **Schedule** | A time of day, in your own timezone |
-| **Device status** | A device goes offline or comes back |
+| **When a metric changes** | A parameter crosses a value you set, in the direction you choose |
+| **When an alert fires** | An alert is raised, cleared, or either |
+| **At a time of day** | A time of day, in your own timezone |
+| **When a device goes offline** | A device goes offline or comes back |
 
 ## Conditions
 

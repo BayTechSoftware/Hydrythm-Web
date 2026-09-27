@@ -18,23 +18,21 @@ Aquí tienes todo lo que necesitas para llevar tu acuario con Cora. ¿Por dónde
 
 ## Las dos partes de Cora
 
-**Cora Mobile** es lo que usas en el teléfono. Ahí configuras casi todo (acuarios, dispositivos, paneles, alertas, productos de dosificación), y es lo que llevas encima cuando no estás junto al acuario. En la pantalla de inicio del teléfono, el icono se llama **Cora**.
+**Cora Mobile** es la aplicación del teléfono. Ahí configuras casi todo: acuarios, dispositivos, paneles, alertas y productos de dosificación. También te acompaña cuando estás lejos del acuario. En la pantalla de inicio, el icono se llama **Cora**.
 
 **Cora Max** es el centro de mando de pared para tu cuarto de acuarios. Muestra los mismos acuarios y los mismos datos en directo en una pantalla que se lee desde el otro lado de la habitación, y entiende la voz.
 
-Los dos usan la misma cuenta. Tus acuarios, lecturas, dispositivos y registros son los mismos en ambos, y no tienes que configurarlos dos veces.
+Ambos usan la misma cuenta. Tus acuarios, lecturas, dispositivos y registros son los mismos en los dos, así que solo tienes que configurarlos una vez.
 
-Algunas cosas son de cada pantalla. Cada una tiene su **propio diseño de panel**, y los ajustes propios de una pantalla (Wi-Fi, brillo, audio, palabra de activación, bloqueo infantil) solo afectan a esa pantalla. Lo explicamos en [Qué se comparte y qué no](/help/mobile-multi-device).
+Otras cosas dependen de la pantalla concreta. Cada una tiene su **propio diseño de panel**. El Wi-Fi, el brillo, el audio, la palabra de activación y el bloqueo infantil también se configuran por pantalla. Lo explicamos en [Qué se comparte y qué no](/help/mobile-multi-device).
 
 :::tip Empieza por el teléfono
-Aunque lo que hayas comprado sea Cora Max, configura primero tus acuarios y dispositivos en Cora Mobile. Escribir es más fácil en el teléfono, y Cora Max lo recoge todo solo.
+Aunque hayas comprado Cora Max, configura primero tus acuarios y dispositivos en Cora Mobile. Escribir es más fácil en el teléfono, y Cora Max recoge los datos por sí solo.
 :::
 
 ## Qué añade Cora a un controlador
 
-Cora te enseña cada número junto con aquello de lo que depende: de dónde viene y cuánto tiempo tiene.
-
-Si dos fuentes no coinciden (una sonda y un kit de pruebas, o un dosificador y tus resultados de ICP), Cora te lo dice y no hace una media a escondidas. Y si algo empieza a desviarse, **Reef Buddy** te avisa por la mañana, sin esperar a que te des cuenta tú.
+Cada lectura muestra su origen y su antigüedad. Si dos fuentes no coinciden, como una sonda y un kit de pruebas o un dosificador y tus resultados de ICP, Cora te lo dice. No hace una media a escondidas. Si algo empieza a desviarse, **Reef Buddy** te avisa a la mañana siguiente.
 
 ## Para orientarte
 

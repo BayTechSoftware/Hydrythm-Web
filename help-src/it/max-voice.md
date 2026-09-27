@@ -13,7 +13,7 @@ Cora Max risponde alla voce. È il modo più comodo di usarlo quando hai le mani
 
 **Di' "Hey Cora".** Cora Max resta in ascolto della parola di attivazione e, quando la sente, avvia una conversazione.
 
-**Oppure tocca l'icona di Cora Assistant** nella barra in alto. Cora inizia subito ad ascoltare, risponde a voce e continua ad ascoltare finché non la fermi.
+Oppure tocca l'icona **Cora Assistant** nella barra in alto. Cora inizia subito ad ascoltare, risponde a voce e continua ad ascoltare finché non la fermi.
 
 ![Impostazioni voce](img/max-voice.webp "Puoi spegnere l'ascolto della parola di attivazione e continuare a parlare toccando l'icona.")
 
@@ -61,7 +61,7 @@ Attivalo se lo schermo è alla portata di bambini o di ospiti.
 - premi il **tasto del volume tre volte entro due secondi**, oppure
 - **tieni cinque dita nell'angolo in alto a destra per dieci secondi**.
 
-Il limite dei due secondi è quello che lo rende un vero blocco. Tre pressioni con calma un bambino le fa anche per caso. Resta comunque un blocco per bambini e non una protezione di sicurezza: chi ti vede sbloccarlo può rifarlo.
+Le tre pressioni devono rientrare nei due secondi. In questo modo qualche tocco casuale non sblocca lo schermo. Il blocco bambini non è però una misura di sicurezza: chi ti vede sbloccarlo può ripetere la stessa operazione.
 
 ## Conferme
 

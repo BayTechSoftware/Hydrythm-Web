@@ -53,7 +53,7 @@ Tapping the Cora Assistant icon starts a live voice session. If you wanted setti
 
 ## The dashboard
 
-The rest of the screen is the dashboard, a fixed grid of widgets you can see all at once. It doesn't scroll.
+The rest of the screen is the dashboard, a fixed grid that keeps every widget visible. It doesn't scroll.
 
 Widgets work the same as on your phone, but big enough to read from a few steps back. What each shape shows is in the [Widget reference](/help/mobile-widgets). To change what's on the dashboard, see [Editing the Cora Max dashboard](/help/max-dashboard-editing).
 

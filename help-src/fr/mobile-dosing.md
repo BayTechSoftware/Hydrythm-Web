@@ -49,7 +49,7 @@ Le volume saisi à la création de l’aquarium compte ici. S’il est faux de 2
 
 Quand Cora voit à la fois vos doses et vos mesures, il peut calculer ce que votre aquarium consomme vraiment, et vous prévenir quand cela change.
 
-Un changement de consommation est une raison d’aller voir, pas un diagnostic. Une consommation d’alcalinité qui augmente vient souvent de la croissance. Un changement brusque, à la hausse comme à la baisse, peut aussi venir d’une dose qui n’est pas versée, d’une erreur de test, d’une précipitation, d’un changement d’eau ou d’une modification de l’équipement. Regardez ce qui a changé autour de cette date avant de conclure.
+Si la consommation change, cherchez d’abord pourquoi. Une hausse de la consommation d’alcalinité vient souvent de la croissance. Une variation brusque, dans un sens comme dans l’autre, peut aussi venir d’une dose non versée, d’une erreur de test, d’une précipitation, d’un changement d’eau ou d’une modification de l’équipement. Avant de conclure, regardez ce qui a changé au même moment.
 
 ## Équipement de dosage
 

@@ -9,7 +9,7 @@ group: Records
 
 Activité enregistre chaque **demande d’action**, c’est-à-dire chaque tentative de changer quelque chose. Pour chacune, vous voyez qui l’a demandée et ce qu’elle est devenue.
 
-Une demande n’est pas forcément un changement. Une demande refusée ne s’est pas exécutée, avec une exception. Si l’entrée dit *Aucun appareil n’a répondu à temps*, l’action a pu s’exécuter quand même. Vérifiez l’équipement avant de la relancer. Une demande sans changement a trouvé l’équipement déjà dans l’état voulu. Une demande non confirmée a pu atteindre l’appareil, ou pas. Toutes sont enregistrées.
+Certaines demandes ne changent rien. Une demande refusée ne s’est pas exécutée, sauf dans un cas : *Aucun appareil n’a répondu à temps* signifie que l’action a tout de même pu avoir lieu. Vérifiez l’équipement avant de la relancer. **Aucun changement** indique que l’équipement était déjà dans l’état demandé. Pour une demande non confirmée, Cora ne sait pas si elle a atteint l’appareil. Tous les résultats sont enregistrés.
 
 **Réglages → Activité.**
 
@@ -34,7 +34,7 @@ Chaque entrée indique sa source.
 | **Cora Assistant** | Vous avez demandé à Cora de le faire |
 | **Règle d’automatisation** | Une règle s’est déclenchée |
 | **Bouton intelligent** | Quelqu’un a appuyé sur un bouton physique |
-| **Envoyé depuis Cora Cloud** | Envoyé par votre compte, pas par un appareil devant vous |
+| **Envoyé depuis Cora Cloud** | La demande est arrivée de votre compte par Cora Cloud |
 | **Source inconnue** | Enregistré avant que Cora sache identifier la source |
 
 ## Par quel chemin

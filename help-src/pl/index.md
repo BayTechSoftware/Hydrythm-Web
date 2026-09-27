@@ -18,13 +18,13 @@ Tu znajdziesz wszystko, czego potrzebujesz, żeby prowadzić akwarium z Corą. O
 
 ## Dwie części Cory
 
-**Cora Mobile** działa na telefonie. Tu ustawiasz prawie wszystko (akwaria, urządzenia, pulpity, alerty, preparaty do dozowania) i to ją masz przy sobie, gdy jesteś z dala od akwarium. Na ekranie głównym telefonu ikona nazywa się po prostu **Cora**.
+**Cora Mobile** działa na telefonie. Tu ustawiasz prawie wszystko: akwaria, urządzenia, pulpity, alerty i preparaty do dozowania. Masz ją przy sobie także z dala od akwarium. Na ekranie głównym telefonu ikona nazywa się po prostu **Cora**.
 
 **Cora Max** to centrum dowodzenia na ścianie w pokoju z akwarium. Pokazuje te same akwaria i te same dane na żywo na ekranie, który przeczytasz z drugiego końca pokoju. Reaguje też na głos.
 
 Oba korzystają z jednego konta. Akwaria, odczyty, urządzenia i zapisy są więc takie same w obu miejscach i niczego nie konfigurujesz dwa razy.
 
-Niektóre rzeczy należą jednak do konkretnego ekranu. Każdy ekran ma **własny układ pulpitu**, a ustawienia samego ekranu (Wi-Fi, jasność, dźwięk, fraza aktywująca, blokada rodzicielska) dotyczą tylko jego. Więcej w [Co jest wspólne, a co nie](/help/mobile-multi-device).
+Niektóre ustawienia dotyczą konkretnego ekranu. Każdy ekran ma **własny układ pulpitu**. Jego Wi-Fi, jasność, dźwięk, fraza aktywująca i blokada rodzicielska również działają tylko na nim. Więcej w [Co jest wspólne, a co nie](/help/mobile-multi-device).
 
 :::tip Zacznij od telefonu
 Nawet jeśli kupujesz Cora Max, najpierw skonfiguruj akwaria i urządzenia w Cora Mobile. Na telefonie łatwiej się pisze, a Cora Max sam pobierze wszystkie dane.
@@ -32,9 +32,7 @@ Nawet jeśli kupujesz Cora Max, najpierw skonfiguruj akwaria i urządzenia w Cor
 
 ## Co Cora dodaje do kontrolera
 
-Cora pokazuje liczbę razem z tym, co o niej trzeba wiedzieć: skąd pochodzi i jak jest stara.
-
-Przy każdym odczycie widać jego źródło i wiek. Gdy dwa źródła się nie zgadzają (na przykład sonda i test kropelkowy albo dozownik i wyniki ICP), Cora mówi to wprost i nie uśrednia ich po cichu. A gdy jakiś parametr powoli się zmienia, **Reef Buddy** powie Ci o tym rano, zanim zdążysz to zauważyć.
+Przy każdym odczycie widać źródło i wiek. Gdy dwa źródła się nie zgadzają, na przykład sonda i test kropelkowy albo dozownik i wyniki ICP, Cora mówi o tym wprost. Nie uśrednia ich po cichu. Gdy parametr zaczyna się zmieniać, **Reef Buddy** zwraca na to uwagę następnego ranka.
 
 ## Jak się tu odnaleźć
 

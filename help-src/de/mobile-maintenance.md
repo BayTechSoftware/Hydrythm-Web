@@ -46,10 +46,10 @@ Willst du eine Aufgabe nur in der Liste sehen, schalte ihre Erinnerungen aus.
 
 ## Eine Aufgabe abhaken
 
-Tippe bei der Aufgabe auf **Fertig** oder wisch sie zur Seite. Cora speichert, wann du sie erledigt hast, und plant die nächste Fälligkeit ab diesem Moment. Erledigst du eine Aufgabe drei Tage zu spät, rückt die nächste also auch drei Tage nach hinten. Cora tut nicht so, als wäre alles pünktlich gewesen.
+Tippe bei der Aufgabe auf **Erledigt** oder wisch sie zur Seite. Cora speichert, wann du sie erledigt hast, und plant die nächste Fälligkeit ab diesem Moment. Erledigst du eine Aufgabe drei Tage zu spät, rückt die nächste also auch drei Tage nach hinten. Cora tut nicht so, als wäre alles pünktlich gewesen.
 
 :::note Ein Tipp auf die Aufgabe öffnet sie zum Bearbeiten
-Tippst du auf die Zeile selbst, kannst du Name, Intervall oder Erinnerungen ändern. Zum Abhaken nimmst du Fertig.
+Tippst du auf die Zeile selbst, kannst du Name, Intervall oder Erinnerungen ändern. Zum Abhaken nimmst du **Erledigt**.
 :::
 
 ## Verschieben

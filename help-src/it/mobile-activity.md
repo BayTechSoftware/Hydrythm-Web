@@ -9,7 +9,7 @@ group: Records
 
 Attività registra ogni **richiesta di azione**, cioè ogni tentativo di cambiare qualcosa. Per ciascuna vedi chi l'ha chiesta e com'è andata.
 
-Una richiesta non è per forza un cambiamento. Le richieste rifiutate non sono state eseguite, con un'eccezione. Una voce con *Nessun dispositivo ha risposto in tempo* potrebbe essere stata eseguita comunque, quindi controlla l'attrezzatura prima di ripeterla. Le richieste senza cambiamento hanno trovato l'attrezzatura già nello stato chiesto. Una richiesta non confermata potrebbe anche non essere mai arrivata al dispositivo. Vengono registrate tutte.
+Non tutte le richieste cambiano qualcosa. Quelle rifiutate non sono state eseguite, con un'eccezione: *Nessun dispositivo ha risposto in tempo* indica che l'azione potrebbe essere partita comunque. Controlla l'attrezzatura prima di ripeterla. **Nessun cambiamento** significa che era già nello stato richiesto. Per una richiesta non confermata, Cora non sa se il comando è arrivato al dispositivo. Tutti gli esiti vengono registrati.
 
 **Impostazioni → Attività.**
 
@@ -34,7 +34,7 @@ Ogni voce indica la sua origine:
 | **Cora Assistant** | Hai chiesto a Cora di farlo |
 | **Regola di automazione** | È scattata una regola |
 | **Pulsante smart** | Qualcuno ha premuto un pulsante fisico |
-| **Inviato da Cora Cloud** | È partita dal tuo account e non da un dispositivo davanti a te |
+| **Inviato da Cora Cloud** | La richiesta è arrivata dal tuo account passando per Cora Cloud |
 | **Fonte sconosciuta** | Registrata prima che Cora potesse riconoscere l'origine |
 
 ## Che strada ha fatto

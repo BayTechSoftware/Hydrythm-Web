@@ -33,10 +33,10 @@ Es gibt vier Auslöser:
 
 | Auslöser | Startet, wenn |
 |---|---|
-| **Wasserwert** | ein Wasserwert einen von dir gewählten Wert in der gewählten Richtung überschreitet |
-| **Warnung** | eine Warnung kommt, verschwindet oder beides |
-| **Zeitplan** | eine bestimmte Uhrzeit erreicht ist, in deiner eigenen Zeitzone |
-| **Gerätestatus** | ein Gerät offline geht oder wieder erreichbar ist |
+| **Wenn sich ein Wasserwert ändert** | ein Wasserwert einen von dir gewählten Wert in der gewählten Richtung überschreitet |
+| **Wenn eine Warnung ausgelöst wird** | eine Warnung kommt, verschwindet oder beides |
+| **Zu einer Tageszeit** | eine bestimmte Uhrzeit erreicht ist, in deiner eigenen Zeitzone |
+| **Wenn ein Gerät offline geht** | ein Gerät offline geht oder wieder erreichbar ist |
 
 ## Bedingungen
 

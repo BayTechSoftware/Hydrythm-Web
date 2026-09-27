@@ -200,7 +200,7 @@ Więcej: [Alerty i progi](/help/mobile-alerts), [Rozwiązywanie problemów](/hel
 
 ### Jak na chwilę wyciszyć alert, nie wyłączając go?
 
-Na Cora Max dotknij **Uśpij**. Wycisza ten alert na tym ekranie na czas wstrzymania ustawiony w regule alertu. Alert zostaje otwarty, a jego próg się nie zmienia. Na telefonie ustaw zamiast tego dłuższy **Czas wstrzymania między alertami** w regule.
+Na Cora Max dotknij **Uśpij**. Wycisza ten alert na tym ekranie na czas wstrzymania ustawiony w regule alertu. Alert zostaje otwarty, a jego próg się nie zmienia. Jeśli chcesz rzadziej dostawać powiadomienia na telefonie, ustaw w regule dłuższy **Czas wstrzymania między alertami**.
 
 Więcej: [Alerty i progi](/help/mobile-alerts)
 

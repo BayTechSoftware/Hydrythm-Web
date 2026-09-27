@@ -9,7 +9,7 @@ group: Records
 
 Etkinlik ekranı, ekipmanda bir şeyi değiştirmeye yönelik her **komut isteğini** kaydeder. İsteği neyin gönderdiği ve sonucun ne olduğu da kayıtta yer alır.
 
-Her istek bir değişiklik anlamına gelmez. Reddedilen istekler çalışmamıştır. Tek istisna *Zamanında yanıt veren cihaz olmadı* yazan kayıtlardır. Bu istek yine de çalışmış olabilir, o yüzden tekrarlamadan önce ekipmanı kontrol edin. "Değişiklik yok" sonucu, ekipmanın zaten istenen durumda olduğunu gösterir. Onaylanmayan bir istek ise cihaza ulaşmış da olabilir, ulaşmamış da. Bunların hepsi kaydedilir.
+Her istek ekipmanda değişiklik yapmaz. Reddedilen istekler uygulanmamıştır. Tek istisna *Zamanında yanıt veren cihaz olmadı* yazan kayıtlardır. Bu istek uygulanmış olabilir. Tekrarlamadan önce ekipmanı kontrol edin. "Değişiklik yok", ekipmanın zaten istenen durumda olduğunu gösterir. Onaylanmayan isteğin cihaza ulaşıp ulaşmadığı bilinmez. Bütün sonuçlar kaydedilir.
 
 **Ayarlar → Etkinlik.**
 
@@ -34,7 +34,7 @@ Her kayıtta isteğin kaynağı yazar:
 | **Cora Assistant** | Cora'dan bunu yapmasını istediniz |
 | **Otomasyon kuralı** | Bir kural devreye girdi |
 | **Akıllı düğme** | Fiziksel bir düğmeye basıldı |
-| **Cora Cloud'dan gönderildi** | Komutu önünüzdeki bir cihaz değil, hesabınız gönderdi |
+| **Cora Cloud'dan gönderildi** | Komut hesabınızdan Cora Cloud üzerinden geldi |
 | **Bilinmeyen kaynak** | Kaynağı belirlenemeden kaydedildi |
 
 ## İstek nasıl ulaştı

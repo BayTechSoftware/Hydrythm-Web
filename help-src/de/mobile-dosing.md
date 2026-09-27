@@ -49,7 +49,7 @@ Hier zählt das Volumen, das du bei der Einrichtung eingetragen hast. Liegt es u
 
 Sieht Cora sowohl deine Dosierungen als auch deine Messwerte, kann es ausrechnen, was dein Becken wirklich verbraucht. Ändert sich das, sagt Cora dir Bescheid.
 
-Ein veränderter Bedarf ist ein Anlass zum Nachsehen und noch keine Diagnose. Steigt der Alkalinitätsbedarf, wachsen oft einfach die Korallen. Ein plötzlicher Sprung nach oben oder unten kann aber genauso gut von einer Dosierung kommen, die nicht ankommt, von einem Messfehler, einer Ausfällung, einem Wasserwechsel oder einer Änderung an der Technik. Schau nach, was sich um das Datum herum geändert hat, bevor du Schlüsse ziehst.
+Wenn sich der Bedarf ändert, schau genauer hin, bevor du Schlüsse ziehst. Steigt der Alkalinitätsbedarf, wachsen oft einfach die Korallen. Ein plötzlicher Sprung nach oben oder unten kann aber auch an einer ausgebliebenen Dosierung, einem Messfehler, einer Ausfällung, einem Wasserwechsel oder einer Änderung an der Technik liegen. Prüf, was sich zur selben Zeit noch geändert hat.
 
 ## Dosiertechnik
 

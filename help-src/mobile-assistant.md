@@ -71,7 +71,7 @@ Check anything important with your own testing. Treat big changes the way you'd 
 :::note What clearing memory touches
 Clearing removes what Cora has remembered *about your conversations*. That's its profile of your system, the concerns it was tracking, and every stored session. If any part of that can't be removed, Cora Mobile tells you it failed.
 
-Your **tank data** isn't touched. Readings, journal, livestock, maintenance and reports stay exactly as they are. The Assistant forgets the conversations, not the tank.
+Your **tank data** stays as it is. Clearing memory doesn't remove readings, journal entries, livestock, maintenance or reports. It only affects what the Assistant remembers from your conversations.
 :::
 
 Cora remembers things about your tank from one conversation to the next. For example, that you dose two-part, that your frag tank shares a sump, or that you're trying to bring nutrients up. You don't have to explain your system every time.

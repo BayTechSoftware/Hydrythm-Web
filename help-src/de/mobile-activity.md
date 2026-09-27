@@ -9,7 +9,7 @@ group: Records
 
 Unter Aktivität steht jede **Schaltanfrage**, also jeder Versuch, etwas zu ändern. Zu jedem Eintrag siehst du, wer die Anfrage gestellt hat und was daraus geworden ist.
 
-Eine Anfrage ist noch keine Änderung. Abgelehnte Anfragen wurden nicht ausgeführt, mit einer Ausnahme: Steht bei einem Eintrag *Kein Gerät hat rechtzeitig geantwortet*, kann er trotzdem gelaufen sein. Prüf dann erst die Ausrüstung, bevor du es noch einmal versuchst. Bei Anfragen ohne Änderung war die Ausrüstung schon im gewünschten Zustand. Eine unbestätigte Anfrage hat das Gerät vielleicht gar nicht erreicht. Cora protokolliert sie alle.
+Nicht jede Anfrage ändert etwas. Abgelehnte Anfragen wurden nicht ausgeführt, mit einer Ausnahme: Bei *Kein Gerät hat rechtzeitig geantwortet* kann die Aktion trotzdem gelaufen sein. Prüf die Ausrüstung, bevor du es noch einmal versuchst. Bei **Keine Änderung** war sie schon im gewünschten Zustand. Ob eine unbestätigte Anfrage das Gerät erreicht hat, ist unklar. Cora protokolliert jedes Ergebnis.
 
 **Einstellungen → Aktivität.**
 
@@ -34,7 +34,7 @@ Jeder Eintrag nennt seinen Auslöser:
 | **Cora Assistant** | Du hast Cora darum gebeten |
 | **Automationsregel** | Eine Regel hat ausgelöst |
 | **Smart-Taste** | Jemand hat eine echte Taste gedrückt |
-| **Von Cora Cloud gesendet** | Dein Konto hat den Befehl geschickt, kein Gerät vor Ort |
+| **Von Cora Cloud gesendet** | Der Befehl kam über dein Konto aus Cora Cloud |
 | **Unbekannte Quelle** | Protokolliert, bevor sich die Quelle feststellen ließ |
 
 ## Welchen Weg es genommen hat

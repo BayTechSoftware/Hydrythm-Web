@@ -49,7 +49,7 @@ Qui conta il volume che hai inserito alla configurazione. Se è sbagliato del 20
 
 Quando Cora vede sia i dosaggi sia le letture, calcola quanto consuma davvero la tua vasca e ti avvisa quando il consumo cambia.
 
-Un cambio nei consumi è un invito a controllare, non una diagnosi. Se l'alcalinità viene consumata di più, spesso è perché i coralli crescono. Ma uno spostamento improvviso, in su o in giù, può venire anche da una dose che non arriva in vasca, da un errore nel test, da una precipitazione, da un cambio d'acqua o da una modifica all'attrezzatura. Guarda cosa è cambiato intorno a quella data prima di trarre conclusioni.
+Se i consumi cambiano, controlla cosa sta succedendo prima di trarre conclusioni. Un maggiore consumo di alcalinità spesso accompagna la crescita dei coralli. Una variazione improvvisa, in aumento o in calo, può dipendere anche da una dose che non arriva in vasca, un errore nel test, una precipitazione, un cambio d'acqua o una modifica all'attrezzatura. Guarda cos'altro è cambiato nello stesso periodo.
 
 ## Attrezzatura di dosaggio
 

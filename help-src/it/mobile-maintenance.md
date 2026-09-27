@@ -46,10 +46,10 @@ Se per un lavoro ti basta vederlo nell'elenco, spegni il promemoria.
 
 ## Segnare un lavoro come fatto
 
-Tocca **Fatto** oppure scorri il lavoro di lato. Cora registra quando l'hai fatto e calcola la prossima scadenza da quel momento. Se lo fai con tre giorni di ritardo, anche il prossimo slitta di tre giorni.
+Tocca **Completa** oppure scorri il lavoro di lato. Cora registra quando l'hai fatto e calcola la prossima scadenza da quel momento. Se lo fai con tre giorni di ritardo, anche il prossimo slitta di tre giorni.
 
 :::note Toccando un lavoro lo modifichi
-Se tocchi la riga, apri il lavoro per cambiare nome, intervallo o promemoria. Per segnarlo come fatto usa Fatto.
+Se tocchi la riga, apri il lavoro per cambiare nome, intervallo o promemoria. Per segnarlo come fatto usa **Completa**.
 :::
 
 ## Rinviare

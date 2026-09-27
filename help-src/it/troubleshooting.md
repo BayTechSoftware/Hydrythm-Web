@@ -333,7 +333,7 @@ Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indic
 
 ## Non trovo dove spegnere la parola di attivazione su Cora Max
 
-L'interruttore della parola di attivazione è nella sezione **Audio e voce**, non nelle impostazioni di Cora Assistant, dove quasi tutti lo cercano per primo.
+L'interruttore della parola di attivazione è nella sezione **Audio e voce**. Non si trova nelle impostazioni di Cora Assistant.
 
 Prova così:
 1. Vai in **Impostazioni → Impostazioni Cora Max → Audio e voce → Ascolto parola di attivazione**.

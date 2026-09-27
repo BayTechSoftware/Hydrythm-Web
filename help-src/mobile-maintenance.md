@@ -46,10 +46,10 @@ If you'd prefer to just see a task in the list, turn its reminders off.
 
 ## Marking a task done
 
-Tap the task's **Done** control, or swipe it. Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too.
+Tap the task's **Complete** control, or swipe it. Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too.
 
 :::note Tapping a task opens it for editing
-Tap the row itself to change the task's name, interval or reminders. Use Done to complete it.
+Tap the row itself to change the task's name, interval or reminders. Use **Complete** to finish it.
 :::
 
 ## Snoozing

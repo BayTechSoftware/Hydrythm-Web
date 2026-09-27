@@ -9,7 +9,7 @@ group: Records
 
 Actividad guarda cada **solicitud de actuación**, es decir, cada intento de cambiar algo. Para cada una ves qué la pidió y qué pasó con ella.
 
-Una solicitud no es lo mismo que un cambio. Las solicitudes rechazadas no se ejecutaron, con una excepción. Si una entrada dice *Ningún dispositivo respondió a tiempo*, puede que sí se ejecutara, así que revisa el equipo antes de repetirla. En una solicitud sin cambios, el equipo ya estaba como se pedía. Una solicitud sin confirmar puede haber llegado al dispositivo o no. Todas quedan registradas.
+Algunas solicitudes no cambian nada. Las rechazadas no se ejecutaron, con una excepción: *Ningún dispositivo respondió a tiempo* significa que la acción podría haberse ejecutado. Revisa el equipo antes de repetirla. **Sin cambios** indica que el equipo ya estaba en el estado solicitado. Si una solicitud quedó sin confirmar, Cora no sabe si llegó al dispositivo. Todos los resultados quedan registrados.
 
 **Ajustes → Actividad.**
 
@@ -34,7 +34,7 @@ Cada entrada indica su origen:
 | **Cora Assistant** | Le pediste a Cora que lo hiciera |
 | **Regla de automatización** | Se activó una regla |
 | **Botón inteligente** | Alguien pulsó un botón físico |
-| **Enviado desde Cora Cloud** | Lo envió tu cuenta, no un dispositivo que tengas delante |
+| **Enviado desde Cora Cloud** | La solicitud llegó desde tu cuenta a través de Cora Cloud |
 | **Origen desconocido** | Se registró antes de que se pudiera identificar el origen |
 
 ## Por dónde llegó

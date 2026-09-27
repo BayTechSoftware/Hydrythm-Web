@@ -43,9 +43,9 @@ Ce code à six chiffres s’est affiché lors de l’appairage. Vous le retrouve
 En récupération, vous pouvez :
 
 - réparer la connexion **Wi-Fi**
-- **réappairer** l’appareil avec votre compte
+- choisir **Réappairer** pour reconnecter l’appareil à votre compte
 - forcer une **mise à jour du micrologiciel**
-- **réinitialiser aux réglages d’usine**
+- lancer une **Réinitialisation d’usine**
 
 Si Cora Max n’arrive pas à démarrer plusieurs fois de suite, il peut aussi revenir tout seul à la version précédente.
 

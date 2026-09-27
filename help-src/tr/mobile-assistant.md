@@ -7,7 +7,7 @@ order: 23
 group: Intelligence
 ---
 
-Cora Assistant, akvaryumunuzla ilgili sorularınızı günlük dille yanıtlar. Canlı ölçümlerinizi, geçmişinizi ve laboratuvar sonuçlarınızı gördüğü için genel reef bilgisi vermez, *sizin* akvaryumunuza göre yanıt verir.
+Cora Assistant, akvaryumunuzla ilgili soruları günlük dille yanıtlar. Canlı ölçümlerinizi, geçmişinizi ve laboratuvar sonuçlarınızı görür. Yanıtlarını *sizin* akvaryumunuza göre verir.
 
 Asistanı **Asistan** sekmesinden açın.
 
@@ -37,7 +37,7 @@ Karşılıklı sesli sohbet için **Sesli sohbet başlat**'a dokunun. Cora sizi 
 
 **Ayarlar → Cora Assistant** bölümünde birbirinden bağımsız iki anahtar var:
 
-- **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**: Cora Assistant'ın size yanıt verebilmesi için bu anahtar açık olmalı. Kapalıysa Cora bir sonraki mesajınızdan ya da sesli sohbetinizden önce izin ekranını yeniden gösterir. Bu ekranda Cora Assistant'ın hangi verileri kullandığı ve **Verileriniz nereye gidiyor** başlığı altında yanıtları hangi yapay zeka sağlayıcısının yazdığı yer alır. **Kabul Et ve Devam Et** anahtarı yeniden açar ve devam eder. **Şimdi Değil** hiçbir şey göndermez ve yazdığınız metni saklar.
+- **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**: Cora Assistant'ın size yanıt verebilmesi için bu anahtar açık olmalı. Kapalıysa Cora bir sonraki mesajınızdan ya da sesli sohbetinizden önce izin ekranını yeniden gösterir. Bu ekranda Cora Assistant'ın hangi verileri kullandığı ve **Verileriniz nereye gidiyor** başlığı altında yanıtları hangi yapay zeka sağlayıcısının yazdığı yer alır. **Kabul Et ve Devam Et** anahtarı yeniden açar ve devam eder. **Şimdi değil** hiçbir şey göndermez ve yazdığınız metni saklar.
 - **Anonimleştirilmiş akvaryum verisine katkıda bulun**: ayrıntılar [Verileriniz](/help/mobile-data-export) sayfasında.
 
 ## Cora'nın yanıt dili
@@ -71,7 +71,7 @@ Cora'nın önerisi yalnızca bir öneridir. Önemli konuları kendi testlerinizl
 :::note Hafızayı temizlemek neleri siler, neleri silmez
 Temizleme, Cora'nın *sohbetlerinizden* hatırladıklarını siler: sisteminiz hakkındaki profili, takip ettiği sorunları ve kayıtlı bütün oturumları. Bunlardan herhangi biri silinemezse Cora Mobile başarılı oldu demez, silme işleminin başarısız olduğunu söyler.
 
-**Akvaryum verileriniz** bundan etkilenmez. Ölçümler, günlük, canlılar, bakım ve raporlar size aittir ve olduğu gibi kalır. Hafızayı temizlemek asistana sohbetleri unutturur, akvaryumu değil.
+**Akvaryum verileriniz** bundan etkilenmez. Ölçümler, günlük, canlılar, bakım ve raporlar olduğu gibi kalır. Yalnızca asistanın sohbetlerden hatırladıkları silinir.
 :::
 
 Cora sohbetler arasında akvaryumunuzla ilgili bazı şeyleri hatırlar. Örneğin iki bileşenli dozaj yaptığınızı, frag akvaryumunuzun aynı sump'ı kullandığını ya da besin seviyelerini artırmaya çalıştığınızı. Bu sayede sisteminizi her seferinde baştan anlatmanız gerekmez.

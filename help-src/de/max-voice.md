@@ -13,7 +13,7 @@ Cora Max versteht Sprache. Das ist am bequemsten, wenn du nasse Hände hast oder
 
 **Sag „Hey Cora“.** Cora Max hört im Hintergrund auf dieses Weckwort und startet ein Gespräch, sobald es das hört.
 
-**Oder tippe auf das Cora Assistant-Symbol** in der oberen Leiste. Cora hört sofort zu, antwortet laut und hört weiter zu, bis du das Gespräch beendest.
+Oder tippe in der oberen Leiste auf das Symbol **Cora Assistant**. Cora hört sofort zu, antwortet laut und hört weiter zu, bis du das Gespräch beendest.
 
 ![Spracheinstellungen](img/max-voice.webp "Die Weckwort-Erkennung lässt sich ausschalten, Tippen zum Sprechen geht trotzdem.")
 
@@ -23,7 +23,7 @@ Unter **Audioausgabe**, ebenfalls unter **Ton & Sprache**, wählst du den intern
 
 ## Welches Gerät auf „Hey Cora“ antwortet
 
-Hast du mehr als ein Cora Max, antwortet nur eines auf das Weckwort. Es heißt **Antwortgerät**. Das legst du unabhängig davon fest, welches Gerät deine Ausrüstung abfragt (das **Primäre Cora Max**, mehr dazu unter [Geräte und Gerätezustand](/help/max-devices)).
+Hast du mehr als ein Cora Max, antwortet nur eines auf das Weckwort. Es heißt **Antwortgerät**. Das legst du unabhängig von **Primäres Cora Max** fest, also dem Gerät, das deine Ausrüstung abfragt. Mehr dazu unter [Geräte und Gerätezustand](/help/max-devices).
 
 Du änderst es unter **Einstellungen → Cora Assistant** auf jedem Cora Max oder in Cora Mobile. Die Einstellung gilt für deinen ganzen Haushalt.
 
@@ -61,7 +61,7 @@ Schalte sie an einem Bildschirm ein, an den Kinder oder Besucher herankommen.
 - Drück die **Lautstärketaste dreimal innerhalb von zwei Sekunden**, oder
 - **halte fünf Finger zehn Sekunden lang in die obere rechte Ecke**.
 
-Erst das Zeitfenster von zwei Sekunden macht daraus eine echte Sperre. Dreimal drücken in beliebigem Abstand schafft ein Kind auch aus Versehen. Es bleibt aber eine Kindersicherung und kein Schutz vor Fremden. Wer dir dabei zusieht, kann es nachmachen.
+Alle drei Tastendrücke müssen in zwei Sekunden erfolgen. So entsperren einzelne, zufällige Berührungen den Bildschirm nicht. Die Kindersicherung schützt trotzdem nicht vor fremdem Zugriff. Wer dir beim Entsperren zusieht, kann es nachmachen.
 
 ## Bestätigungen
 

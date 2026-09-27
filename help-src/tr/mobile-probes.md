@@ -20,7 +20,7 @@ Kontrol ünitenizin bildirdiği her prob, güncel ölçümüyle birlikte listele
 Her satırda üç seçenek var:
 
 - **Cora parametresi**: probun ölçtüğü değer.
-- **Özel…**: Cora'da standart karşılığı olmayan problar için. Proba büyük harfle kısa bir kod verirsiniz, Cora onu bu adla takip eder.
+- **Özel**: Cora'da standart karşılığı olmayan problar için. Proba büyük harfle kısa bir kod verirsiniz, Cora onu bu adla takip eder.
 - **Yok say**: hiç kaydedilmesini istemediğiniz problar için.
 
 Yok sayılan ya da eşlenmemiş prob panoda görünmez ve uyarı üretmez.

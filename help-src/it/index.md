@@ -18,9 +18,9 @@ Qui trovi tutto quello che ti serve per gestire la tua vasca con Cora. Scegli da
 
 ## Le due parti di Cora
 
-**Cora Mobile** è Cora sul telefono. Da qui configuri quasi tutto (vasche, dispositivi, dashboard, avvisi, prodotti per il dosaggio), ed è quello che hai con te quando sei lontano dalla vasca. Sulla schermata Home del telefono l'icona si chiama semplicemente **Cora**.
+**Cora Mobile** è Cora sul telefono. Qui configuri quasi tutto: vasche, dispositivi, dashboard, avvisi e prodotti per il dosaggio. Quando sei lontano dalla vasca, Cora resta con te. Sulla schermata Home l'icona si chiama semplicemente **Cora**.
 
-**Cora Max** è il centro di comando a parete della stanza della vasca. Mostra le stesse vasche e gli stessi dati in tempo reale su uno schermo che leggi da tutta la stanza, e risponde alla voce.
+**Cora Max** è il centro di comando a parete della stanza della vasca. Mostra le stesse vasche e gli stessi dati in tempo reale su uno schermo leggibile da tutta la stanza. Puoi anche parlargli.
 
 Usano lo stesso account. Vasche, letture, dispositivi e registri sono gli stessi su tutti e due, e non devi configurarli due volte.
 
@@ -32,9 +32,7 @@ Anche se hai comprato Cora Max, configura prima vasche e dispositivi in Cora Mob
 
 ## Cosa aggiunge Cora a un controller
 
-Con Cora vedi ogni numero insieme a quello da cui dipende: da dove arriva e quanto è vecchio.
-
-Ogni lettura porta con sé la sua fonte e la sua età. Quando due fonti non sono d'accordo (una sonda e un kit di test, un dosatore e i risultati ICP), Cora te lo dice e non fa una media di nascosto. E quando qualcosa si sposta, **Reef Buddy** te lo dice la mattina, senza aspettare che te ne accorga tu.
+Ogni lettura mostra la fonte e da quanto tempo è stata rilevata. Se due fonti non concordano, per esempio una sonda e un kit di test oppure un dosatore e i risultati ICP, Cora te lo segnala. Non fa una media di nascosto. Se un valore inizia a spostarsi, **Reef Buddy** te lo fa notare la mattina seguente.
 
 ## Come orientarti
 

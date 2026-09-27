@@ -46,10 +46,10 @@ Bir görevi yalnızca listede görmek istiyorsanız hatırlatmasını kapatın.
 
 ## Görevi yapıldı olarak işaretleme
 
-Görevdeki **Bitti** düğmesine dokunun ya da görevi kaydırın. Cora işin yapıldığı anı kaydeder ve bir sonrakini o andan itibaren planlar. Üç gün geç yaptığınız bir iş, bir sonrakini de üç gün ileri atar. Cora işi zamanında yapılmış gibi saymaz.
+Görevdeki **Tamamla** düğmesine dokunun ya da görevi kaydırın. Cora işin yapıldığı anı kaydeder ve bir sonrakini o andan itibaren planlar. Üç gün geç yaptığınız bir iş, bir sonrakini de üç gün ileri atar. Cora işi zamanında yapılmış gibi saymaz.
 
 :::note Satıra dokunursanız düzenleme açılır
-Satırın kendisine dokunduğunuzda görevin adını, aralığını ya da hatırlatmalarını değiştirebileceğiniz ekran açılır. Görevi tamamlamak için Bitti'yi kullanın.
+Satırın kendisine dokunduğunuzda görevin adını, aralığını ya da hatırlatmalarını değiştirebileceğiniz ekran açılır. Görevi bitirmek için **Tamamla**'yı kullanın.
 :::
 
 ## Erteleme

@@ -22,7 +22,7 @@ Die Karte ganz oben zeigt, mit welchem Konto du angemeldet bist und welchen Plan
 
 ## Cora
 
-- **Automation**: Regeln und Szenen, die von selbst laufen. Alles dazu unter **[Automationen und Szenen](/help/mobile-automation)**.
+- **Automationen**: Regeln und Szenen, die von selbst laufen. Alles dazu unter **[Automationen und Szenen](/help/mobile-automation)**.
 - **Cora Assistant**: die KI, die deine Fragen zum Becken beantwortet, und die Wahl, welches Gerät auf deine Stimme antwortet. Mehr dazu weiter unten unter "Cora Assistant" und unter **[Cora fragen](/help/mobile-assistant)**.
 - **Aktivität**: ein Protokoll aller Befehle an deine Ausrüstung. Alles dazu unter **[Aktivität und Zeitleiste](/help/mobile-activity)**.
 - **Dosierprodukte**: wie stark die Produkte sind, die du dosierst. Alles dazu unter **[Dosierung](/help/mobile-dosing)**.

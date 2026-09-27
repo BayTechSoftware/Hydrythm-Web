@@ -33,10 +33,10 @@ Są cztery wyzwalacze:
 
 | Wyzwalacz | Kiedy działa |
 |---|---|
-| **Parametr** | Parametr przekracza ustawioną wartość w wybranym kierunku |
-| **Alert** | Alert się pojawia, znika albo jedno i drugie |
-| **Harmonogram** | O wybranej godzinie, w Twojej strefie czasowej |
-| **Stan urządzenia** | Urządzenie traci połączenie albo znów jest online |
+| **Gdy parametr się zmienia** | Parametr przekracza ustawioną wartość w wybranym kierunku |
+| **Gdy alert się aktywuje** | Alert się pojawia, znika albo jedno i drugie |
+| **O określonej godzinie** | O wybranej godzinie, w Twojej strefie czasowej |
+| **Gdy urządzenie traci połączenie** | Urządzenie traci połączenie albo znów jest online |
 
 ## Warunki
 

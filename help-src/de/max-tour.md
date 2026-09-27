@@ -40,7 +40,7 @@ Von links nach rechts:
 | **Cloud-Abgleich fehlgeschlagen** | Dein Apex hat geantwortet, aber seine Messwerte ließen sich nicht in Cora Cloud speichern. Das Dashboard hinkt deshalb hinterher. Cora Max versucht es weiter |
 | **Offline** | Keine Verbindung. Der Bildschirm zeigt die letzten Daten, die er bekommen hat |
 | **Offline, erneuter Versuch in 45s** | Dein Netzwerk läuft, aber Cora Cloud ist seit mehr als 30 Sekunden nicht erreichbar. Cora Max verbindet sich von selbst neu. Der Countdown zeigt, wann der nächste Versuch kommt |
-| **Haupt-Cora offline** | Dieser Bildschirm ist ein zweites Cora Max für dieses Becken, und das **Primäre Cora Max** (das Gerät, das die Ausrüstung dieses Beckens abfragen soll) ist offline. Dieser Bildschirm zeigt die letzten Daten, bis das primäre Gerät wieder da ist oder du ein anderes Primäres Cora Max wählst. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device) |
+| **Haupt-Cora offline** | Dieser Bildschirm ist ein zweites Cora Max für dieses Becken, und das Gerät aus **Primäres Cora Max** ist offline. Dieser Bildschirm zeigt die letzten Daten, bis das primäre Gerät wieder da ist oder du ein anderes wählst. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device) |
 | **Apex-Passwort** | Dein Apex hat das gespeicherte Passwort abgelehnt. Mehr dazu unter [Problembehebung](/help/troubleshooting) |
 
 :::note So läuft der Countdown für neue Versuche

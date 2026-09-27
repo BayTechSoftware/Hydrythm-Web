@@ -7,7 +7,7 @@ order: 2
 group: Getting started
 ---
 
-Your account holds your tanks, readings and devices together. Here's how to get into it and back into it.
+Your account keeps your tanks, readings and devices together. This page covers signing in and getting back into your account.
 
 ## Creating an account
 
@@ -45,7 +45,7 @@ Changing an account's email address is a security step, so Cora sometimes wants 
 
 ## Still verifying
 
-Cora Mobile checks when you tap **I've Verified My Email**. If it says your email isn't verified yet, tap **Verify my email** in the newest email, wait a moment and check again. If the link has expired, tap **Resend verification email** to get a new one. Cora checks the account, not the device. Once it goes through, you're verified on all your devices.
+Cora Mobile checks your account when you tap **I've Verified My Email**. If your email still isn't verified, tap **Verify my email** in the newest message, wait a moment and check again. If the link has expired, tap **Resend verification email**. Once verification goes through, it applies on all your devices.
 
 ## Signing out
 

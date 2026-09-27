@@ -15,7 +15,7 @@ Un widget te da un número. Si lo tocas, ves la historia que hay detrás.
 
 Un **gráfico de historial** con su propio selector de rango: **1h · 6h · 12h · 24h · 3d · 7d** y periodos más largos.
 
-Un **filtro de fuente**. Debajo de los rangos hay una fila de chips con **Todas** y uno por cada fuente que informa el parámetro, como *Apex*, *Cora*, *Red Sea* o *Manual*. Elige uno para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.
+Un **filtro de fuente**. Debajo de los rangos hay una fila de chips con **Todos** y uno por cada fuente que informa el parámetro, como *Apex*, *Cora*, *Red Sea* o *Manual*. Elige uno para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.
 
 Un **acceso a la calculadora de dosis** en los parámetros que dosificas. Usa el volumen de tu [perfil del acuario](/help/mobile-tank-profile) y las concentraciones de [Dosificación](/help/mobile-dosing).
 

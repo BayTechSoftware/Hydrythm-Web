@@ -18,9 +18,9 @@ Tout ce qu’il vous faut pour gérer votre récif avec Cora. Par où voulez-vou
 
 ## Cora Mobile et Cora Max
 
-**Cora Mobile** est l’application pour téléphone. C’est là que vous configurez presque tout (aquariums, appareils, tableaux de bord, alertes, produits de dosage), et c’est elle que vous avez sur vous loin de l’aquarium. Sur votre écran d’accueil, l’icône s’appelle simplement **Cora**.
+**Cora Mobile** est l’application pour téléphone. Vous y configurez presque tout : aquariums, appareils, tableaux de bord, alertes et produits de dosage. Elle vous accompagne aussi loin de l’aquarium. Sur l’écran d’accueil, son icône s’appelle simplement **Cora**.
 
-**Cora Max** est l’écran mural de votre pièce du récif. Il affiche les mêmes aquariums et les mêmes données en direct, lisibles depuis l’autre bout de la pièce, et il comprend la voix.
+**Cora Max** est l’écran mural de votre pièce du récif. Il affiche les mêmes aquariums et les mêmes données en direct, lisibles depuis l’autre bout de la pièce. Vous pouvez aussi lui parler.
 
 Les deux utilisent le même compte. Vos aquariums, mesures, appareils et données sont donc les mêmes des deux côtés, et vous ne configurez rien deux fois.
 
@@ -32,7 +32,7 @@ Même si vous avez acheté Cora Max, configurez d’abord vos aquariums et vos a
 
 ## Ce que Cora apporte à votre contrôleur
 
-Chaque mesure indique sa provenance et son âge. Quand deux sources ne sont pas d’accord (une sonde et un test en kit, un doseur et vos résultats ICP), Cora vous le signale, sans faire la moyenne en silence. Et quand un paramètre dérive, **Reef Buddy** vous prévient le matin, sans attendre que vous le remarquiez.
+Chaque mesure indique sa provenance et son âge. Si deux sources ne sont pas d’accord, comme une sonde et un test en kit ou un doseur et vos résultats ICP, Cora vous le signale. Il ne les moyenne pas en silence. Quand un paramètre dérive, **Reef Buddy** vous le signale dès le lendemain matin.
 
 ## Vous repérer
 

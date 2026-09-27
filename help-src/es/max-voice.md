@@ -13,7 +13,7 @@ Cora Max entiende la voz. Es la forma más fácil de usarlo cuando tienes las ma
 
 **Di "Hey Cora".** Cora Max está atento a la frase de activación y empieza una sesión en cuanto la oye.
 
-**O toca el icono de Cora Assistant** en la barra superior. Cora empieza a escuchar al momento, responde en voz alta y sigue escuchando hasta que la detienes.
+O toca el icono **Cora Assistant** en la barra superior. Cora empieza a escuchar al momento, responde en voz alta y sigue escuchando hasta que la detienes.
 
 ![Ajustes de voz](img/max-voice.webp "Puedes desactivar la escucha de la palabra de activación y seguir usando el toque para hablar.")
 
@@ -61,7 +61,7 @@ Actívalo si la pantalla está al alcance de niños o visitas.
 - pulsa la **tecla de volumen tres veces en dos segundos**, o
 - **mantén cinco dedos en la esquina superior derecha durante diez segundos**.
 
-El margen de dos segundos es lo que hace que funcione como bloqueo, porque un niño puede pulsar tres veces por casualidad si no hay límite de tiempo. Aun así, es un bloqueo para niños y no una medida de seguridad. Quien te vea hacerlo puede repetirlo.
+Las tres pulsaciones tienen que caber en dos segundos. Así, unos toques al azar no desbloquean la pantalla. El bloqueo infantil no es una medida de seguridad: quien vea cómo lo abres podrá repetirlo.
 
 ## Confirmaciones
 
@@ -81,7 +81,7 @@ Si una lectura está desactualizada, Cora te lo dice y no responde como si fuera
 
 ## De qué acuario habla Cora
 
-Del que esté en pantalla. Cambia antes de acuario en la barra superior o di el nombre del acuario en tu pregunta.
+Del que esté en pantalla. Cambia de acuario primero en la barra superior o di su nombre en la pregunta.
 
 ## Detener
 

@@ -23,7 +23,7 @@ Los añades y los colocas en [el editor del panel](/help/mobile-dashboard-editin
 | **Estado** | Un estado en texto, como en marcha, inactivo o cerrado |
 | **Toma** | Un control de tres posiciones: Auto, Apagado, Encendido |
 | **ReefBeat** | Un equipo Red Sea, con su propio resumen |
-| **Módulo Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
+| **Módulo del Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
 | **Jecod** | Una bomba Jecod, con su modo y su intensidad |
 | **Maxspect** *(beta)* | Un gyre, con sus dos motores |
 

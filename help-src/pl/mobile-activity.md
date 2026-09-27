@@ -9,7 +9,7 @@ group: Records
 
 Aktywność zapisuje każde **żądanie akcji**, czyli każdą próbę zmiany czegoś. Przy każdym widać, skąd przyszło i czym się skończyło.
 
-Żądanie to jeszcze nie zmiana. Odrzucone żądania nie zostały wykonane, z jednym wyjątkiem. Wpis *Żadne urządzenie nie odpowiedziało na czas* oznacza, że akcja mogła się jednak wykonać, więc zanim ją powtórzysz, sprawdź sprzęt. Żądanie bez zmiany trafiło na sprzęt, który już był w żądanym stanie. Niepotwierdzone mogło w ogóle nie dotrzeć do urządzenia, ale mogło też dotrzeć. Zapisywane są wszystkie.
+Nie każde żądanie coś zmienia. Odrzucone żądania nie zostały wykonane, z jednym wyjątkiem: wpis *Żadne urządzenie nie odpowiedziało na czas* oznacza, że akcja mogła mimo wszystko się wykonać. Sprawdź sprzęt, zanim ją powtórzysz. Wynik bez zmiany oznacza, że sprzęt był już w żądanym stanie. Przy niepotwierdzonym żądaniu Cora nie wie, czy dotarło do urządzenia. Zapisywane są wszystkie wyniki.
 
 **Ustawienia → Aktywność.**
 
@@ -34,7 +34,7 @@ Każdy wpis podaje swoje źródło:
 | **Cora Assistant** | Prośba do Cora Assistant |
 | **Reguła automatyzacji** | Zadziałała reguła |
 | **Smart przycisk** | Ktoś nacisnął fizyczny przycisk |
-| **Wysłane z Cora Cloud** | Polecenie przyszło z Twojego konta, a nie z urządzenia przed Tobą |
+| **Wysłane z Cora Cloud** | Polecenie przyszło z Twojego konta przez Cora Cloud |
 | **Nieznane źródło** | Wpis powstał, zanim dało się ustalić źródło |
 
 ## Jaką drogą dotarło

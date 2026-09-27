@@ -12,7 +12,7 @@ Cora Max accède au même équipement que votre téléphone, avec une page par a
 ![Une page Apex sur Cora Max](img/max-device-control.webp "Cycles de nourrissage et chaque prise, disposés pour un écran mural.")
 
 :::warning Ces commandes agissent sur l’équipement en direct
-Il n’y a ni aperçu ni annulation. La commande part dès que vous touchez. Mais *envoyée* ne veut pas dire *faite*. Le résultat peut être **Confirmée**, **Non confirmée**, **Refusée** ou **Aucun changement**, et vous le voyez dans [Activité](/help/max-activity).
+Il n’y a ni aperçu ni annulation. La commande part dès que vous touchez. Mais *envoyée* ne veut pas dire *faite*. Le résultat affiché peut être **Confirmé**, **Non confirmé**, **Refusé** ou **Aucun changement**, et vous le voyez dans [Activité](/help/max-activity).
 :::
 
 ## Les appareils qui ont une page

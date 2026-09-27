@@ -49,7 +49,7 @@ The volume you entered at setup matters here. If it's 20% out, the doses are 20%
 
 Once Cora can see both your doses and your readings, it can work out what your tank is using and tell you when that changes.
 
-A change in demand is a reason to look, not a diagnosis. Rising alkalinity demand often means growth. A sudden move either way can also come from a dose that isn't being delivered, a testing error, precipitation, a water change or an equipment change. Check what changed around that date before you decide.
+When demand changes, take a closer look before drawing a conclusion. Rising alkalinity demand often means growth, but a sudden move in either direction can also come from a missed dose, a testing error, precipitation, a water change or an equipment change. Check what else changed around that date.
 
 ## Dosing equipment
 

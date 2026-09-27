@@ -9,7 +9,7 @@ group: Records
 
 Activity records every **actuation request**, meaning every attempt to change something. Each entry shows what asked for it and what happened next.
 
-A request isn't always a change. A refused request didn't run, with one exception. If an entry says *No device answered in time*, it may still have run, so check the equipment before you try again. A no-change request found the equipment already set the way it was asked. An unconfirmed one may or may not have reached the device. Cora records all of them.
+Some requests don't change anything. A refused request didn't run, with one exception: *No device answered in time* means it may still have run. Check the equipment before you try again. A no-change request found the equipment already in the requested state. An unconfirmed request may or may not have reached the device. Cora records every outcome.
 
 **Settings → Activity.**
 
@@ -34,7 +34,7 @@ Each entry names its cause:
 | **Cora Assistant** | You asked Cora to do it |
 | **Automation rule** | A rule fired |
 | **Smart button** | Someone pressed a physical button |
-| **Sent from Cora Cloud** | Your account sent it, not a device in front of you |
+| **Sent from Cora Cloud** | It came from your account through Cora Cloud |
 | **Unknown source** | Recorded before Cora could tell where it came from |
 
 ## How it travelled

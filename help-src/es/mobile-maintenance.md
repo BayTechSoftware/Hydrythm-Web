@@ -46,10 +46,10 @@ Si prefieres ver una tarea solo en la lista, desactiva sus recordatorios.
 
 ## Marcar una tarea como hecha
 
-Toca **Listo** en la tarea o deslízala. Cora guarda cuándo la hiciste y programa la siguiente a partir de ese momento. Si la haces con tres días de retraso, la siguiente también se mueve tres días.
+Toca **Completar** en la tarea o deslízala. Cora guarda cuándo la hiciste y programa la siguiente a partir de ese momento. Si la haces con tres días de retraso, la siguiente también se mueve tres días.
 
 :::note Al tocar una tarea, se abre para editarla
-Si tocas la fila, se abre la tarea y puedes cambiar su nombre, su intervalo o sus recordatorios. Para completarla, usa **Listo**.
+Si tocas la fila, se abre la tarea y puedes cambiar su nombre, su intervalo o sus recordatorios. Para completarla, usa **Completar**.
 :::
 
 ## Posponer

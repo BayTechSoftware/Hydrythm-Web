@@ -13,7 +13,7 @@ Cora Max comprend la voix. C’est le plus pratique quand vous avez les mains mo
 
 **Dites « Hey Cora ».** Cora Max guette ce mot d’activation en arrière-plan et démarre une session quand il l’entend.
 
-**Ou touchez l’icône Cora Assistant** dans la barre du haut. Cora se met tout de suite à écouter, répond à voix haute et continue d’écouter jusqu’à ce que vous l’arrêtiez.
+Ou touchez l’icône **Cora Assistant** dans la barre du haut. Cora se met tout de suite à écouter, répond à voix haute et continue d’écouter jusqu’à ce que vous l’arrêtiez.
 
 ![Réglages vocaux](img/max-voice.webp "L’écoute du mot d’activation peut être désactivée sans perdre l’appui pour parler.")
 
@@ -61,7 +61,7 @@ Activez-le si l’écran est à portée d’enfants ou de visiteurs.
 - appuyez **trois fois sur la touche de volume en moins de deux secondes**
 - **posez cinq doigts dans le coin en haut à droite pendant dix secondes**
 
-C’est le délai de deux secondes qui rend le verrou efficace. Trois appuis espacés, un enfant peut les faire par hasard. Cela reste un verrouillage enfant, pas une vraie sécurité : quelqu’un qui vous regarde faire peut le refaire.
+Les trois appuis doivent tenir dans les deux secondes. Des pressions isolées ne suffisent donc pas à déverrouiller l’écran. Ce verrouillage protège des manipulations d’un enfant, pas d’un accès volontaire : une personne qui vous regarde faire peut reproduire le geste.
 
 ## Confirmations
 

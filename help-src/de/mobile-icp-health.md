@@ -75,4 +75,4 @@ Unabhängig vom Plan nimmt Cora bis zu 10 ICP-Uploads pro Tag an. Ein Upload, de
 
 ## Wo die Berichte liegen
 
-Auf dem Intelligenz-Bildschirm sind die beiden Arten getrennt: Laborergebnisse unter **ICP-Berichte**, erstellte Bewertungen unter **Gesundheitsberichte**. Beide Listen zeigen die neuesten Berichte zuerst, jeweils mit Bewertung. Tippe auf einen Bericht, um ihn wieder ganz zu öffnen.
+Auf dem Intelligenz-Bildschirm sind die beiden Arten getrennt: Laborergebnisse unter **ICP-Berichte**, erstellte Bewertungen unter **Zustandsberichte**. Beide Listen zeigen die neuesten Berichte zuerst, jeweils mit Bewertung. Tippe auf einen Bericht, um ihn wieder ganz zu öffnen.

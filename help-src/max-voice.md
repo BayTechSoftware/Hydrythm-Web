@@ -61,7 +61,7 @@ To unlock it, either:
 - press the **volume key three times within two seconds**, or
 - **hold five fingers in the top-right corner for ten seconds**.
 
-The two-second limit is what makes it a real lock. A child could easily press three times with any gap between. It's still a child lock, not a security lock. Anyone who watches you do it can copy it.
+All three presses have to fit inside two seconds. This keeps casual taps from unlocking the screen. Child lock isn't a security lock, though. Anyone who sees how you unlock it can do the same.
 
 ## Confirmations
 
@@ -91,7 +91,7 @@ Say *"stop"*, or tap to end the session. Cora stops listening when the session e
 
 Reef words are hard, and equipment names are harder. If Cora keeps mishearing a device, rename it in **Devices** to something more distinct. Short, everyday words work best.
 
-## If Cora does not respond
+## If Cora doesn't respond
 
 Check that **Wake-word listening** is still on (**Settings → Cora Max Settings → Sound & Voice**), that this Cora Max is your **Answering device** (see above), and that its volume is up. A noisy sump or a filter right next to Cora Max can also stop it hearing the wake phrase. Moving it, or speaking a bit closer, usually fixes that.
 

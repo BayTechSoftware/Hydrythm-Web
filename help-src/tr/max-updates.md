@@ -43,9 +43,9 @@ Bu altı haneli PIN, cihazı eşleştirdiğinizde gösterilmişti. Cora Mobile'd
 Kurtarma modunda şunları yapabilirsiniz:
 
 - **Wi-Fi** bağlantısını onarmak
-- Cihazı hesabınıza **yeniden eşleştirmek**
+- **Yeniden eşleştir** ile cihazı hesabınıza yeniden bağlamak
 - **Yazılım güncellemesini** zorla başlatmak
-- Cihazı **fabrika ayarlarına sıfırlamak**
+- **Fabrika ayarlarına sıfırla** işlemini başlatmak
 
 Üst üste birkaç kez açılamayan cihaz kendini önceki sürüme de geri alabilir.
 

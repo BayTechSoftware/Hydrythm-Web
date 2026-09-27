@@ -46,10 +46,10 @@ Si vous préférez simplement voir une tâche dans la liste, coupez ses rappels.
 
 ## Marquer une tâche comme faite
 
-Touchez **Terminé** sur la tâche, ou faites-la glisser. Cora note l’heure et programme la suivante à partir de ce moment. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours. Cora ne fait pas comme si elle avait été faite à temps.
+Touchez **Terminer** sur la tâche, ou faites-la glisser. Cora note l’heure et programme la suivante à partir de ce moment. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours. Cora ne fait pas comme si elle avait été faite à temps.
 
 :::note Toucher une tâche l’ouvre en modification
-Si vous touchez la ligne elle-même, la tâche s’ouvre pour modifier son nom, sa fréquence ou ses rappels. Pour la marquer comme faite, utilisez Terminé.
+Si vous touchez la ligne elle-même, la tâche s’ouvre pour modifier son nom, sa fréquence ou ses rappels. Pour la marquer comme faite, utilisez **Terminer**.
 :::
 
 ## Reporter

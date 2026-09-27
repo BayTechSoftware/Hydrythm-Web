@@ -18,7 +18,7 @@ Hier findest du alles, was du für dein Riff mit Cora brauchst. Wo möchtest du 
 
 ## Die zwei Seiten von Cora
 
-**Cora Mobile** ist die Handy-App. Hier richtest du fast alles ein, also Becken, Geräte, Dashboards, Warnungen und Dosierprodukte. Und sie ist immer dabei, wenn du nicht am Becken bist. Auf deinem Startbildschirm heißt das Symbol einfach **Cora**.
+**Cora Mobile** ist die Handy-App. Hier richtest du fast alles ein: Becken, Geräte, Dashboards, Warnungen und Dosierprodukte. Wenn du nicht am Becken bist, hast du Cora trotzdem dabei. Auf deinem Startbildschirm heißt das Symbol einfach **Cora**.
 
 **Cora Max** ist die Schaltzentrale an der Wand deines Riffraums. Es zeigt dieselben Becken und dieselben Live-Daten auf einem Bildschirm, den du quer durch den Raum lesen kannst, und versteht Sprache.
 
@@ -32,9 +32,7 @@ Auch wenn du Cora Max gekauft hast: Richte Becken und Geräte zuerst in Cora Mob
 
 ## Was Cora deinem Controller hinzufügt
 
-Cora zeigt dir zu jeder Zahl, worauf sie beruht: woher sie kommt und wie alt sie ist.
-
-Bei jedem Messwert siehst du seine Quelle und sein Alter. Widersprechen sich zwei Quellen, etwa eine Sonde und ein Testkit oder ein Dosierer und deine ICP-Ergebnisse, sagt Cora dir das und bildet keinen stillen Mittelwert. Und wenn ein Wert abdriftet, meldet sich **Reef Buddy** am Morgen, bevor du es selbst merken musst.
+Bei jedem Messwert siehst du Quelle und Alter. Widersprechen sich zwei Quellen, etwa eine Sonde und ein Testkit oder ein Dosierer und deine ICP-Ergebnisse, sagt Cora dir das. Die Werte werden nicht unbemerkt gemittelt. Driftet etwas ab, macht dich **Reef Buddy** am nächsten Morgen darauf aufmerksam.
 
 ## So findest du dich zurecht
 
