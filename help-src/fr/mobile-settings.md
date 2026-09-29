@@ -2,7 +2,7 @@
 title: Réglages
 description: Toutes les sections des réglages de Cora Mobile : compte, aquariums, Cora Assistant, langue, notifications, automatisation et activité.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Ouvrez un aquarium pour modifier ses informations, et pour accéder à **Cora Ma
 ## Réglages de l’application
 
 - **Notifications** : ce qui arrive sur votre téléphone. Tout est expliqué dans **[Notifications](/help/mobile-notifications)**.
+- **Heure du briefing** : l’heure à laquelle votre briefing Reef Buddy quotidien arrive, dans votre propre fuseau horaire. C’est un réglage unique pour le compte, partagé avec Cora Max. Tout est expliqué dans **[Reef Buddy](/help/mobile-reef-buddy)**.
 - **Langue** : la langue du compte, décrite plus bas.
 - **Apparence** : clair, sombre, ou comme votre téléphone.
 - **Accès aux appareils** : décrit plus bas.

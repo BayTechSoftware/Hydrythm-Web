@@ -2,7 +2,7 @@
 title: Settings
 description: A guide to every section of Cora Mobile's settings, from your account and tanks to Cora Assistant, language, notifications, automation and activity.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Open a tank to edit it, or to reach **Primary Cora Max** (which device polls tha
 ## App Settings
 
 - **Notifications** decides what reaches your phone. More in [Notifications](/help/mobile-notifications).
+- **Briefing time** is the hour your daily Reef Buddy briefing arrives, in your own time zone. It's one setting for the account, shared with Cora Max. More in [Reef Buddy](/help/mobile-reef-buddy).
 - **Language** is the account's language. See below.
 - **Appearance** is light, dark or the same as your phone.
 - **Device access** is explained below.

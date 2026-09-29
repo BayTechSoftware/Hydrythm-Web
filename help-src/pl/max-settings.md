@@ -2,7 +2,7 @@
 title: Ustawienia Cora Max
 description: Ekran Ustawienia na Cora Max: ustawienia wspólne dla domu, każde akwarium i wszystko, co dotyczy samego ekranu.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ Ostatni wiersz w Ustawieniach, podpisany nazwą tego urządzenia, otwiera wszyst
 |---|---|
 | **Ekran** | Jasność, czas do przygaszenia i jasność po przygaszeniu, przygaszanie nocne, wyświetlanie zegara i wybudzanie ekranu przy alarmie |
 | **Dźwięk i głos** | Wyjście audio (wbudowany głośnik, 3,5 mm albo Bluetooth), dźwięk alertu i jego głośność, alerty czytane na głos oraz włączanie i wyłączanie **Nasłuchiwanie słowa aktywującego** |
-| **Reef Buddy** | Godzina, o której pojawia się codzienny briefing, i czy ma być czytany na głos |
+| **Reef Buddy** | Godzina, o której przychodzi codzienny briefing (jedno ustawienie dla całego konta, takie samo jak na telefonie), i czy ma być czytany na głos |
 | **Blokada rodzicielska** | Włączenie lub wyłączenie i czas, po którym ekran się blokuje. Jak odblokować ekran, przeczytasz w [Rozmowa z Corą na Cora Max](/help/max-voice) |
 | **Powiadomienia** | Historia powiadomień, czyli skrzynka całego konta z każdym briefingiem, alarmem i komunikatem konta |
 | **Język** | Jeden język dla całego konta. Zobacz notatkę niżej |

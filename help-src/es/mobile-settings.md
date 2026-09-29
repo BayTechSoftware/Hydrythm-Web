@@ -2,7 +2,7 @@
 title: Ajustes
 description: Guía de cada sección de los ajustes de Cora Mobile, con cuenta, acuarios, Cora Assistant, idioma, notificaciones, automatización y actividad.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Abre un acuario para editarlo y para llegar a **Cora Max principal** (el disposi
 ## Ajustes de la aplicación
 
 - **Notificaciones**: qué avisos llegan a tu teléfono. Más información en **[Notificaciones](/help/mobile-notifications)**.
+- **Hora del resumen**: la hora a la que llega tu resumen diario de Reef Buddy, en tu propia zona horaria. Es un único ajuste para la cuenta, compartido con Cora Max. Más información en **[Reef Buddy](/help/mobile-reef-buddy)**.
 - **Idioma**: el idioma de la cuenta. Lo explicamos más abajo.
 - **Apariencia**: claro, oscuro o igual que tu teléfono.
 - **Acceso a dispositivos**: lo explicamos más abajo.

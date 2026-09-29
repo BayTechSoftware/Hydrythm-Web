@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Twój codzienny briefing: co zawiera, kiedy przychodzi i jak czytać oceny.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 24
 group: Intelligence
 ---
@@ -36,7 +36,9 @@ Dotknij karty na pulpicie, żeby otworzyć cały briefing.
 
 ## Kiedy przychodzi
 
-Raz dziennie, wcześnie rano, osobno dla każdego akwarium.
+Raz dziennie dla każdego akwarium, o godzinie, którą wybierzesz. Ustawiasz ją w **Ustawieniach**, w polu **Godzina podsumowania**. Briefing przychodzi w ciągu około 15 minut od tej godziny, w Twojej własnej strefie czasowej. Jeśli nic nie wybierzesz, przyjdzie o 8:00.
+
+Wybierz godzinę po swoim zwykłym porannym teście, żeby dzisiejszy wynik znalazł się w briefingu.
 
 W dzień, w którym nic nie wymaga uwagi, Reef Buddy zwykle milczy. Nie wysyła push tylko po to, żeby napisać, że wszystko jest w porządku. **Push oznacza, że jest coś do zrobienia.** Może to być nowa zmiana albo stan, który trwa już na tyle długo, że warto o nim wspomnieć.
 
@@ -45,7 +47,7 @@ Każde akwarium dostaje własny briefing. Jeśli masz trzy systemy, dostaniesz t
 :::
 
 :::note Cora Max ma własne ustawienie Reef Buddy
-Cora Max ma w swoich Ustawieniach osobną sekcję **Reef Buddy**, z przełącznikiem i godziną, o której briefing pojawia się na ekranie. To ustawienie jest niezależne od telefonu. Włączenie albo wyłączenie briefingu na Cora Max nie zmienia tego, czy briefing dociera na telefon, i odwrotnie.
+Cora Max też ma sekcję **Reef Buddy** w swoich Ustawieniach. Jej **Godzina podsumowania** to to samo ustawienie, co na telefonie: zmień je na jednym urządzeniu, a zmieni się na obu. Przełącznik briefingu na ekranie należy tylko do tego jednego Cora Max. Wyłączenie go tam nie zatrzymuje briefingu na telefonie.
 :::
 
 ## Jak czytać oceny

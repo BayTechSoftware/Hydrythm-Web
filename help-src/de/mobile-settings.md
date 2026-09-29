@@ -2,7 +2,7 @@
 title: Einstellungen
 description: Alle Bereiche der Einstellungen in Cora Mobile im Überblick, von Konto und Becken über Cora Assistant und Sprache bis zu Benachrichtigungen, Automation und Aktivität.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Für jedes Becken gibt es eine Zeile. Danach folgen:
 ## App-Einstellungen
 
 - **Benachrichtigungen**: was auf deinem Handy ankommt. Alles dazu unter **[Benachrichtigungen](/help/mobile-notifications)**.
+- **Briefing-Zeit**: die Uhrzeit, zu der deine tägliche Reef Buddy-Zusammenfassung kommt, in deiner eigenen Zeitzone. Das ist eine Einstellung für das ganze Konto, gemeinsam mit Cora Max. Mehr dazu unter **[Reef Buddy](/help/mobile-reef-buddy)**.
 - **Sprache**: die Sprache des Kontos, mehr dazu unten.
 - **Erscheinungsbild**: hell, dunkel oder wie dein Handy.
 - **Gerätezugriff**: mehr dazu unten.

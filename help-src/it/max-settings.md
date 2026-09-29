@@ -2,7 +2,7 @@
 title: Impostazioni di Cora Max
 description: La schermata Impostazioni di Cora Max: le impostazioni di casa, quelle di ogni vasca e tutto quello che riguarda questo schermo.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ L'ultima riga delle impostazioni porta il nome di questo Cora Max. Apre tutto qu
 |---|---|
 | **Schermo** | Luminosità, timer di attenuazione e luminosità attenuata, attenuazione notturna, orologio, e accensione dello schermo quando scatta un allarme |
 | **Audio e voce** | Uscita audio (altoparlante interno, jack 3,5 mm o Bluetooth), suono di avviso e relativo volume, avvisi a voce, e **Ascolto parola di attivazione** acceso o spento |
-| **Reef Buddy** | L'ora in cui arriva il briefing del giorno e se viene letto ad alta voce |
+| **Reef Buddy** | L'ora in cui arriva il briefing del giorno (un'unica impostazione per l'account, la stessa del telefono), e se viene letto ad alta voce |
 | **Blocco bambini** | Attivo o no, e dopo quanto tempo si blocca. Come sbloccarlo lo spiega [Parlare con Cora](/help/max-voice) |
 | **Notifiche** | Cronologia notifiche: briefing, allarmi e comunicazioni di tutto l'account |
 | **Lingua** | L'unica lingua usata da tutto il tuo account. Leggi la nota qui sotto |

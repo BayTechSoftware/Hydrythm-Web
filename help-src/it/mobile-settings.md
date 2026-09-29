@@ -2,7 +2,7 @@
 title: Impostazioni
 description: Tutte le sezioni delle impostazioni di Cora Mobile: account, vasche, Cora Assistant, lingua, notifiche, automazione e attività.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Apri una vasca per trovare **Cora Max principale** (il dispositivo che legge l'a
 ## Impostazioni app
 
 - **Notifiche**: quali notifiche arrivano sul telefono. Tutti i dettagli in **[Notifiche](/help/mobile-notifications)**.
+- **Orario del riepilogo**: l'ora in cui arriva il tuo briefing giornaliero di Reef Buddy, nel tuo fuso orario. È un'unica impostazione per l'account, condivisa con Cora Max. Tutti i dettagli in **[Reef Buddy](/help/mobile-reef-buddy)**.
 - **Lingua**: la lingua dell'account, spiegata più sotto.
 - **Aspetto**: chiaro, scuro o come il telefono.
 - **Accesso dispositivi**: spiegato più sotto.

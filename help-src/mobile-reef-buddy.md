@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Your daily briefing, what it covers, when it arrives, and how to read the score.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 24
 group: Intelligence
 ---
@@ -34,7 +34,9 @@ Tap the card on the dashboard to open the full briefing.
 
 ## When it arrives
 
-Once a day for each tank, early in the morning.
+Once a day for each tank, at the hour you choose. Set it in **Settings** under **Briefing time**. The briefing arrives within about 15 minutes of that hour, in your own time zone. If you never choose, it comes at 8:00.
+
+Pick an hour after your usual morning test, so today's result is in the briefing.
 
 On a day when nothing needs your attention, Reef Buddy usually stays quiet. It won't push just to say everything's fine. **A push means there's something worth acting on.** That could be a new change, or something that has gone on long enough to mention.
 
@@ -43,7 +45,7 @@ Each tank gets its own briefing. If you run three systems, you get three, and ea
 :::
 
 :::note Cora Max has its own Reef Buddy setting
-Cora Max has its own **Reef Buddy** section in its Settings, with a switch and a time for its on-screen briefing. It's separate from the phone. Turning the briefing on or off on Cora Max doesn't change whether it reaches your phone, and the other way round.
+Cora Max has a **Reef Buddy** section in its Settings too. Its **Briefing time** is the same setting as on your phone: change it on either one and both follow. The switch for the on-screen briefing belongs to that Cora Max only. Turning it off there doesn't stop the briefing reaching your phone.
 :::
 
 ## Reading the scores

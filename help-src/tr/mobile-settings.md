@@ -2,7 +2,7 @@
 title: Ayarlar
 description: Cora Mobile ayarlarının bütün bölümleri. Hesap, akvaryumlar, Cora Assistant, dil, bildirimler, otomasyon ve etkinlik.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Bir akvaryumu açtığınızda **Birincil Cora Max** (akvaryumun ekipmanını ha
 ## Uygulama Ayarları
 
 - **Bildirimler**: telefonunuza nelerin geleceği. Ayrıntılar **[Bildirimler](/help/mobile-notifications)** sayfasında.
+- **Özet saati**: günlük Reef Buddy özetinizin geldiği saat, kendi saat diliminizde. Bu, hesap için tek bir ayardır ve Cora Max ile paylaşılır. Ayrıntılar **[Reef Buddy](/help/mobile-reef-buddy)** sayfasında.
 - **Dil**: hesabın dili. Aşağıda anlatılıyor.
 - **Görünüm**: açık, koyu ya da telefonunuzun ayarına uygun.
 - **Cihaz erişimi**: aşağıda anlatılıyor.

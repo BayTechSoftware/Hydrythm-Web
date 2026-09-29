@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Il briefing quotidiano: cosa contiene, quando arriva e come leggere i punteggi.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 24
 group: Intelligence
 ---
@@ -36,7 +36,9 @@ Tocca la scheda sulla dashboard per aprire il briefing completo.
 
 ## Quando arriva
 
-Una volta al giorno, la mattina presto, per ogni vasca.
+Una volta al giorno per ogni vasca, all'ora che scegli. La imposti in **Impostazioni**, alla voce **Orario del riepilogo**. Il briefing arriva entro circa 15 minuti da quell'ora, nel tuo fuso orario. Se non scegli nulla, arriva alle 8:00.
+
+Scegli un orario successivo al tuo solito test del mattino, così il risultato di oggi è nel briefing.
 
 Nei giorni in cui non c'è niente da guardare, di solito Reef Buddy non manda notifiche per dirti che va tutto bene. **Se ricevi una notifica, c'è qualcosa da fare.** Può essere un cambiamento nuovo, oppure una situazione che dura da abbastanza tempo da meritare una segnalazione.
 
@@ -45,7 +47,7 @@ Ogni vasca ha il suo briefing. Se hai tre impianti ricevi tre briefing, ognuno s
 :::
 
 :::note Cora Max ha la sua impostazione per Reef Buddy
-Un tablet Cora Max ha una sezione **Reef Buddy** nelle sue Impostazioni, con un interruttore e l'orario in cui il briefing compare sullo schermo. È separata dal telefono. Se accendi o spegni il briefing su Cora Max, sul telefono non cambia niente, e viceversa.
+Anche un Cora Max ha una sezione **Reef Buddy** nelle sue Impostazioni. Il suo **Orario del riepilogo** è la stessa impostazione del telefono: cambialo su uno dei due e cambia su entrambi. L'interruttore del briefing a schermo appartiene solo a quel Cora Max. Spegnerlo lì non impedisce al briefing di arrivare sul telefono.
 :::
 
 ## Leggere i punteggi

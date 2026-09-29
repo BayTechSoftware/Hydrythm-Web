@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Tu resumen diario. Qué incluye, cuándo llega y cómo leer las puntuaciones.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 24
 group: Intelligence
 ---
@@ -36,7 +36,9 @@ Toca la tarjeta del panel para abrir el resumen completo.
 
 ## Cuándo llega
 
-Una vez al día, a primera hora de la mañana, para cada acuario.
+Una vez al día para cada acuario, a la hora que elijas. La ajustas en **Ajustes**, en **Hora del resumen**. El resumen llega en los 15 minutos siguientes a esa hora, en tu propia zona horaria. Si no eliges ninguna, llega a las 8:00.
+
+Elige una hora posterior a tu prueba habitual de la mañana, para que el resultado de hoy esté en el resumen.
 
 Si ese día no hay nada que requiera tu atención, Reef Buddy normalmente no te envía nada para decirte que todo va bien. **Si recibes un aviso, es que hay algo que atender.** Puede ser un cambio nuevo o una situación que ya dura lo bastante como para comentarla.
 
@@ -45,7 +47,7 @@ Cada acuario tiene su propio resumen. Si tienes tres sistemas, recibes tres, y c
 :::
 
 :::note Cora Max tiene su propio ajuste de Reef Buddy
-Cora Max tiene una sección **Reef Buddy** en sus Ajustes, con un interruptor y la hora a la que el resumen aparece en su pantalla. Es independiente del teléfono. Si activas o desactivas el resumen en Cora Max, no cambia lo que llega a tu teléfono, ni al revés.
+Cora Max también tiene una sección **Reef Buddy** en sus Ajustes. Su **Hora del resumen** es el mismo ajuste que el de tu teléfono: cámbialo en cualquiera de los dos y cambia en ambos. El interruptor del resumen en pantalla pertenece solo a ese Cora Max. Desactivarlo ahí no impide que el resumen llegue a tu teléfono.
 :::
 
 ## Cómo leer las puntuaciones

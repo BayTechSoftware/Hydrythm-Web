@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Günlük özetiniz. Neleri kapsar, ne zaman gelir, puanlar nasıl okunur.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 24
 group: Intelligence
 ---
@@ -36,7 +36,9 @@ Bulgular size gelmeden önce elenir. Bulgunun tek ölçümde değil, birkaç öl
 
 ## Ne zaman gelir
 
-Her akvaryum için günde bir kez, sabah erken saatlerde.
+Her akvaryum için günde bir kez, seçtiğiniz saatte gelir. Bunu **Ayarlar**'da **Özet saati** altında ayarlarsınız. Özet, bu saatten yaklaşık 15 dakika içinde, kendi saat diliminizde gelir. Hiçbir saat seçmezseniz 08.00'de gelir.
+
+Sabah yaptığınız testten sonraki bir saat seçin, böylece bugünkü sonuç özette yer alır.
 
 Dikkatinizi gerektiren bir şey olmayan günlerde Reef Buddy genellikle "her şey yolunda" demek için bildirim göndermez, sessiz kalır. **Bildirim geliyorsa ilgilenmeniz gereken bir şey var demektir.** Bu yeni bir değişiklik de olabilir, bildirmeye değecek kadar uzun süren bir durum da.
 
@@ -45,7 +47,7 @@ Her akvaryumun kendi özeti var. Üç sisteminiz varsa üç özet alırsınız v
 :::
 
 :::note Cora Max'in kendi Reef Buddy ayarı var
-Cora Max tabletin Ayarlar'ında ayrı bir **Reef Buddy** bölümü var. Burada ekrandaki özetin açık olup olmayacağını ve ne zaman görüneceğini seçersiniz. Bu ayar telefondan bağımsızdır. Cora Max'te özeti açıp kapatmak telefonunuza gelip gelmeyeceğini değiştirmez. Tersi de geçerlidir.
+Cora Max tabletin Ayarlar'ında da bir **Reef Buddy** bölümü var. Buradaki **Özet saati**, telefonunuzdakiyle aynı ayardır: birinde değiştirdiğinizde diğerinde de değişir. Ekrandaki özetin açma/kapama anahtarı yalnızca o Cora Max'e aittir. Orada kapatmak, özetin telefonunuza gelmesini engellemez.
 :::
 
 ## Puanları okuma

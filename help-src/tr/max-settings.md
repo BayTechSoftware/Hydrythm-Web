@@ -2,7 +2,7 @@
 title: Cora Max ayarları
 description: Cora Max'teki Ayarlar ekranı. Eviniz, her akvaryum ve bu ekranın kendisi için ayarlar.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ Ayarların en altındaki satırda bu cihazın adı yazar. Bu satır **yalnızca 
 |---|---|
 | **Ekran** | Parlaklık, karartma zamanlayıcısı ve karartılmış parlaklık, gece karartması, saatin gösterilmesi ve alarm gelince ekranın uyanması |
 | **Ses ve Konuşma** | Ses çıkışı (dahili hoparlör, 3,5 mm ya da Bluetooth), uyarı sesi ve ses düzeyi, sesli uyarılar ve **Uyandırma sözcüğü dinleme**'nin açık ya da kapalı olması |
-| **Reef Buddy** | Günlük özetin hangi saatte geleceği ve sesli okunup okunmayacağı |
+| **Reef Buddy** | Günlük özetin hangi saatte geleceği (hesap için tek ayar, telefonunuzdakiyle aynı) ve sesli okunup okunmayacağı |
 | **Çocuk Kilidi** | Açık ya da kapalı ve kilitlenmeden önceki bekleme süresi. Kilidi nasıl açacağınız [Cora ile konuşma](/help/max-voice) sayfasında |
 | **Bildirimler** | Bildirim geçmişi. Tüm özetlerin, alarmların ve hesap bildirimlerinin toplandığı, hesabın tamamı için ortak gelen kutusu |
 | **Dil** | Tüm hesabınızın kullandığı tek dil. Aşağıdaki nota bakın |

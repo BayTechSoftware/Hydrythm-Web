@@ -2,7 +2,7 @@
 title: Ajustes de Cora Max
 description: La pantalla de Ajustes de Cora Max: los ajustes de tu hogar, los de cada acuario y los de la propia pantalla.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ La última fila de Ajustes lleva el nombre de este Cora Max y abre todo lo que a
 |---|---|
 | **Pantalla** | Brillo, temporizador de atenuación y su brillo, atenuación nocturna, mostrar el reloj y encender la pantalla con una alarma |
 | **Sonido y voz** | Salida de audio (altavoz interno, 3,5 mm o Bluetooth), el tono de alerta y su volumen, las alertas habladas y **Escucha de palabra de activación** (activada o desactivada) |
-| **Reef Buddy** | A qué hora aparece el resumen diario y si se lee en voz alta |
+| **Reef Buddy** | A qué hora llega el resumen diario (un único ajuste para la cuenta, el mismo que en tu teléfono) y si se lee en voz alta |
 | **Bloqueo infantil** | Activarlo o desactivarlo y cuánto espera antes de bloquear. Cómo desbloquearlo se explica en [Hablar con Cora](/help/max-voice) |
 | **Notificaciones** | El historial de notificaciones, la bandeja de toda la cuenta con todos los resúmenes, alarmas y avisos de cuenta |
 | **Idioma** | El idioma común a toda tu cuenta. Mira la nota de abajo |

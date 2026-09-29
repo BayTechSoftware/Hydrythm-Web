@@ -2,7 +2,7 @@
 title: Ustawienia
 description: Opis wszystkich sekcji ustawień Cora Mobile: konto, akwaria, Cora Assistant, język, powiadomienia, automatyzacja i aktywność.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 32
 group: Account
 ---
@@ -46,6 +46,7 @@ Po otwarciu akwarium znajdziesz **Główne Cora Max** (które urządzenie odpytu
 ## Ustawienia aplikacji
 
 - **Powiadomienia**: co trafia na telefon. Opisuje je strona **[Powiadomienia](/help/mobile-notifications)**.
+- **Godzina podsumowania**: godzina, o której przychodzi Twój codzienny briefing Reef Buddy, w Twojej własnej strefie czasowej. To jedno ustawienie dla całego konta, wspólne z Cora Max. Opisuje je strona **[Reef Buddy](/help/mobile-reef-buddy)**.
 - **Język**: język konta, opisany niżej.
 - **Wygląd**: jasny, ciemny albo taki jak w telefonie.
 - **Dostęp do urządzeń**: opisany niżej.

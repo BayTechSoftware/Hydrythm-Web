@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Deine tägliche Zusammenfassung, was drinsteht, wann sie kommt und wie du die Werte liest.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 24
 group: Intelligence
 ---
@@ -36,7 +36,9 @@ Tippe auf die Karte im Dashboard, um die ganze Zusammenfassung zu öffnen.
 
 ## Wann sie kommt
 
-Einmal am Tag, früh am Morgen, für jedes Becken.
+Einmal am Tag für jedes Becken, zu der Uhrzeit, die du wählst. Du stellst sie in den **Einstellungen** unter **Briefing-Zeit** ein. Die Zusammenfassung kommt innerhalb von etwa 15 Minuten nach dieser Uhrzeit, in deiner eigenen Zeitzone. Wählst du nichts aus, kommt sie um 8:00 Uhr.
+
+Wähle eine Uhrzeit nach deinem üblichen Morgentest, damit das heutige Ergebnis in der Zusammenfassung steht.
 
 An Tagen, an denen nichts deine Aufmerksamkeit braucht, bleibt Reef Buddy meist still. Cora schickt dir dann keine Nachricht, nur um zu sagen, dass alles in Ordnung ist. **Kommt eine Push-Nachricht, gibt es etwas zu tun.** Das kann eine neue Veränderung sein oder ein Zustand, der schon so lange anhält, dass er erwähnt werden sollte.
 
@@ -45,7 +47,7 @@ Hast du drei Becken, bekommst du drei Zusammenfassungen. Jede handelt nur von ih
 :::
 
 :::note Cora Max hat eine eigene Reef Buddy-Einstellung
-Ein Cora Max hat in seinen Einstellungen einen eigenen Abschnitt **Reef Buddy** mit einem Schalter und der Uhrzeit, zu der die Zusammenfassung auf dem Bildschirm erscheint. Das ist unabhängig vom Handy. Schaltest du die Zusammenfassung am Cora Max ein oder aus, ändert das nichts an deinem Handy, und umgekehrt genauso.
+Auch ein Cora Max hat in seinen Einstellungen einen Abschnitt **Reef Buddy**. Seine **Briefing-Zeit** ist dieselbe Einstellung wie auf deinem Handy: Änderst du sie an einem der beiden Geräte, gilt das für beide. Der Schalter für die Zusammenfassung auf dem Bildschirm gehört nur zu diesem einen Cora Max. Schaltest du ihn dort aus, kommt die Zusammenfassung trotzdem weiter auf dein Handy.
 :::
 
 ## Die Werte lesen

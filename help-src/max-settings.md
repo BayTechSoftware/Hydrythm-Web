@@ -2,7 +2,7 @@
 title: Cora Max settings
 description: The Settings screen on Cora Max, with household settings, each tank, and everything about this screen itself.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ The last row in Settings carries this Cora Max's name. It opens everything that 
 |---|---|
 | **Display** | Brightness, dim-after timer and its brightness, night dimming, showing the clock, and waking the screen on an alarm |
 | **Sound & Voice** | Audio output (internal speaker, 3.5 mm or Bluetooth), the alert chime and its volume, spoken alerts, and **Wake-word listening** on or off |
-| **Reef Buddy** | The hour the daily briefing appears, and whether it's read aloud |
+| **Reef Buddy** | The hour the daily briefing arrives (one setting for the account, the same as on your phone), and whether it's read aloud |
 | **Child Lock** | On or off, and how long before it locks. How to unlock it is in [Talking to Cora](/help/max-voice) |
 | **Notifications** | Notification history, the inbox for your whole account with every briefing, alarm and account notice |
 | **Language** | The one language your whole account uses. See the note below |

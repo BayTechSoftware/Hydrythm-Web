@@ -2,7 +2,7 @@
 title: Réglages de Cora Max
 description: L’écran Réglages de Cora Max : les réglages de la maison, ceux de chaque aquarium et ceux de cet écran.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ La dernière ligne des réglages porte le nom de cet écran. Elle ouvre tout ce 
 |---|---|
 | **Affichage** | Luminosité, délai et niveau d’assombrissement, atténuation la nuit, affichage de l’horloge, et allumage de l’écran en cas d’alarme |
 | **Son et voix** | Sortie audio (haut-parleur intégré, 3,5 mm ou Bluetooth), le son d’alerte et son volume, les alertes parlées, et l’**Écoute du mot d’activation** |
-| **Reef Buddy** | L’heure d’arrivée du briefing du jour, et sa lecture à voix haute ou non |
+| **Reef Buddy** | L’heure d’arrivée du briefing du jour (un réglage pour tout le compte, le même que sur votre téléphone), et sa lecture à voix haute ou non |
 | **Verrouillage enfant** | Activé ou non, et le délai avant le verrouillage. Pour le déverrouiller, voir [Parler à Cora](/help/max-voice) |
 | **Notifications** | L’historique des notifications de tout le compte : briefings, alarmes et avis de compte |
 | **Langue** | La langue unique de tout votre compte. Voir la note plus bas |

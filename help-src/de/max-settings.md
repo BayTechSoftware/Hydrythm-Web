@@ -2,7 +2,7 @@
 title: Cora Max-Einstellungen
 description: Die Einstellungen auf Cora Max für deinen Haushalt, für jedes Becken und für diesen Bildschirm selbst.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-29
 order: 13
 group: Settings
 ---
@@ -45,7 +45,7 @@ Die einzelne Zeile ganz unten in den Einstellungen trägt den Namen dieses Gerä
 |---|---|
 | **Anzeige** | Helligkeit, Dimm-Timer und gedimmte Helligkeit, Nachtdimmung, Uhr anzeigen und ob der Bildschirm bei einem Alarm aufwacht |
 | **Ton & Sprache** | Audioausgabe (interner Lautsprecher, 3,5 mm oder Bluetooth), der Warnton und seine Lautstärke, gesprochene Warnungen und **Weckwort-Erkennung** ein oder aus |
-| **Reef Buddy** | Um wie viel Uhr die tägliche Zusammenfassung erscheint und ob sie vorgelesen wird |
+| **Reef Buddy** | Um wie viel Uhr die tägliche Zusammenfassung kommt (eine Einstellung fürs ganze Konto, dieselbe wie auf deinem Handy), und ob sie vorgelesen wird |
 | **Kindersicherung** | Ein oder aus und wie lange es dauert, bis sie sperrt. Wie du entsperrst, steht unter [Mit Cora sprechen](/help/max-voice) |
 | **Benachrichtigungen** | Der Benachrichtigungsverlauf, der Posteingang deines Kontos für alle Zusammenfassungen, Alarme und Kontohinweise |
 | **Sprache** | Die eine Sprache für dein ganzes Konto. Siehe den Hinweis unten |
