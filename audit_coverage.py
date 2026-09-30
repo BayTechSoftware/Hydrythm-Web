@@ -100,6 +100,15 @@ MAP = {
     "hydros_device_detail": "mobile-device-control",
     "hydros_head_config": "mobile-device-control",
     "metric_source": "mobile-probes", "rename_metric": "mobile-probes",
+    # -- added 2026-10-01 with the phone Devices consolidation (one Add Device) --
+    "brand_picker": "mobile-devices",
+    "apex_setup": "mobile-connections", "ghl_connection_form": "mobile-connections",
+    "ghl_replace": "mobile-connections", "hydros_add": "mobile-connections",
+    "reefbeat_setup": "mobile-connections",
+    "apex_device_detail": "mobile-device-control",
+    "aquawiz_device_detail": "mobile-device-control",
+    "specto_device_detail": "mobile-device-control",
+    "hydros_detail": "max-device-control",
 }
 
 # surface stem -> why it is deliberately NOT in the guide
