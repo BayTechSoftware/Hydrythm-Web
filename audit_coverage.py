@@ -97,8 +97,6 @@ MAP = {
     "scene_confirm": "max-automation",
     # -- added 2026-09-30 with the GHL / HYDROS / probe mapping v2 round --
     "ghl_detail": "max-device-control", "ghl_device_detail": "mobile-device-control",
-    "hydros_add": "mobile-connections", "hydros_link": "max-device-control",
-    "hydros_list": "max-device-control", "hydros_detail": "max-device-control",
     "hydros_device_detail": "mobile-device-control",
     "hydros_head_config": "mobile-device-control",
     "metric_source": "mobile-probes", "rename_metric": "mobile-probes",
