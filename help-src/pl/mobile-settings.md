@@ -2,7 +2,7 @@
 title: Ustawienia
 description: Opis wszystkich sekcji ustawień Cora Mobile: konto, akwaria, Cora Assistant, język, powiadomienia, automatyzacja i aktywność.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-09-30
 order: 32
 group: Account
 ---
@@ -39,14 +39,14 @@ Każde akwarium ma swój wiersz, a pod nimi są:
 - **Zmień kolejność akwariów**: kolejność, w jakiej przewijasz akwaria na pulpicie
 - **Usunięte akwaria**: akwaria, które usunięto, gdyby trzeba było coś z nich odzyskać
 
-Po otwarciu akwarium znajdziesz **Główne Cora Max** (które urządzenie odpytuje sprzęt tego akwarium) i **Prowadzona konfiguracja**. Tam też edytujesz samo akwarium. Główne Cora Max opisuje strona **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**.
+Otwórz akwarium, żeby je edytować, albo żeby przejść do **Główne Cora Max** (które urządzenie odpytuje sprzęt tego akwarium), **Prowadzona konfiguracja** i listy **Urządzenia w tym akwarium**, tylko do odczytu. Główne Cora Max opisuje strona **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**. Żeby dodać albo usunąć urządzenie, skorzystaj z [zakładki Urządzenia](/help/mobile-devices).
 
 - **Tryb wakacyjny**: plan dla osoby, która zajmuje się akwarium pod Twoją nieobecność. Więcej w **[Wyjeździe](/help/mobile-vacation)**. Ustawiasz daty i listę prac z częstotliwością każdej z nich, a Cora zamienia to w prostą stronę tylko do odczytu, którą udostępnisz opiekunowi. Opiekun nie potrzebuje konta.
 
 ## Ustawienia aplikacji
 
-- **Powiadomienia**: co trafia na telefon. Opisuje je strona **[Powiadomienia](/help/mobile-notifications)**.
 - **Godzina podsumowania**: godzina, o której przychodzi Twój codzienny briefing Reef Buddy, w Twojej własnej strefie czasowej. To jedno ustawienie dla całego konta, wspólne z Cora Max. Opisuje je strona **[Reef Buddy](/help/mobile-reef-buddy)**.
+- **Powiadomienia**: co trafia na telefon. Opisuje je strona **[Powiadomienia](/help/mobile-notifications)**.
 - **Język**: język konta, opisany niżej.
 - **Wygląd**: jasny, ciemny albo taki jak w telefonie.
 - **Dostęp do urządzeń**: opisany niżej.

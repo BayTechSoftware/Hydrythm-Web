@@ -1,45 +1,39 @@
 ---
 title: Añadir, editar y eliminar dispositivos
-description: Cómo añadir equipos a Cora, asignarlos a un acuario, cambiarles el nombre y quitarlos bien.
+description: Cómo añadir equipos a Cora, asignarlos a un acuario y quitarlos bien, todo desde un mismo sitio.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 9
 group: Equipment
 ---
 
-En la pestaña **Dispositivos** está todo lo que tienes conectado, agrupado por marca. Cada grupo se puede plegar, así la lista se sigue leyendo bien aunque tengas una sala llena de equipos.
+Añade, edita, asigna y quita cada dispositivo desde la pestaña **Dispositivos**, agrupados por marca. Cada grupo se puede plegar, así la lista se sigue leyendo bien aunque tengas una sala llena de equipos.
 
 ![La pestaña Dispositivos](img/mobile-devices.webp "Los equipos se agrupan por marca y cada grupo se puede plegar.")
 
 ## Añadir equipos
 
-Debajo de la lista hay tres botones y cada uno sirve para algo distinto:
+Toca **Agregar dispositivo** y elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* o **AquaWiz**. Cada una abre justo lo que necesita para encontrar tu equipo: un escaneo de red, una dirección IP, un inicio de sesión o una clave de dispositivo. [Conectar tus equipos](/help/mobile-connections) explica lo que necesita cada marca.
 
-| Botón | Qué añade |
-|---|---|
-| **Agregar dispositivo** | Un Cora Max. Busca los que ya están en tu Wi-Fi o cerca por Bluetooth. Si no lo encuentra, dentro de esta pantalla tienes **Introducir dirección IP manualmente**. |
-| **Buscar una bomba en tu red** | Bombas Jecod que se anuncian en la red local |
-| **Agregar AquaWiz** | Un controlador AquaWiz, con tu cuenta de AquaWiz |
+**Cora** es como se empareja un Cora Max nuevo. Busca los que ya están en tu Wi-Fi, o cerca por Bluetooth. Si no lo encuentra, usa **Introducir dirección IP manualmente** en esa misma pantalla.
 
-![Añadir un Cora Max](img/mobile-add-device.webp "Agregar dispositivo busca un Cora Max por Wi-Fi y Bluetooth.")
-
-Los demás equipos (Neptune Apex y Red Sea ReefBeat) se conectan desde el acuario, no desde esta lista. Lo explicamos en [Conectar tus equipos](/help/mobile-connections).
-
-Cuando añades un equipo como un calentador, una bomba o un skimmer, puedes **autocompletar** la marca y el modelo. Empieza a escribir y Cora te sugiere nombres de una lista amplia de marcas comprobadas. Si la tuya no sale, escríbela igual. Cora guarda lo que pongas.
+Cuando añades un equipo como un calentador, una bomba o un skimmer, Cora te sugiere marcas y modelos mientras escribes. Las sugerencias vienen de una lista amplia de marcas comprobadas. Si la tuya no sale, escríbela igual. Cora guarda lo que pongas.
 
 :::note Cora y tu teléfono tienen que estar en la misma red
-Los equipos que se detectan en la red local tienen que estar en la misma red que tu teléfono cuando los añades. **Después de configurarlos, solo se puede llegar a ellos por esa red** (o por Bluetooth, si el equipo lo usa), salvo que un dispositivo Cora en casa pueda hacerlo por ti.
+Los equipos que Cora detecta en tu red tienen que estar en la misma red que tu teléfono cuando los añades. **Después de configurarlos, solo se puede llegar a ellos por esa red** (o por Bluetooth, si el equipo lo usa), salvo que un dispositivo Cora en casa pueda hacerlo por ti.
 
 Por eso, un equipo que en casa marca bien puede mostrar valores más antiguos cuando estás fuera, salvo que un Cora Max en casa pueda consultarlo. No es un fallo. Depende de desde dónde se puede llegar al equipo.
 :::
 
-## Asignar un dispositivo a un acuario
+## La página de un dispositivo
 
-Casi todos los equipos pertenecen a un solo acuario. Esa asignación es la que hace que sus lecturas salgan en el panel de ese acuario.
+Abre cualquier dispositivo de la lista. Primero están sus controles, y luego tres secciones que funcionan igual para todas las marcas.
 
-**Cora Max es la excepción.** Puedes asignarle hasta cuatro acuarios y pasar de uno a otro en su pantalla. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device).
+- **Acuarios** muestra a qué acuario (o acuarios) está asignado. Toca **Cambiar** para reasignarlo.
+- **Conexión** es donde editas su dirección IP, su inicio de sesión o su clave de dispositivo.
+- **Quitar dispositivo**, al final.
 
-Abre el dispositivo y elige **Acuario**. Si tienes más de un sistema, este es el ajuste más importante. Un calentador asignado al acuario equivocado envía sus datos sin problema, pero al sitio equivocado.
+Cora Max, Neptune Apex y GHL pueden servir a más de un acuario, así que su selector de acuario es una lista de casillas. Cora Max se puede asignar hasta a cuatro. Consulta [Más de un dispositivo Cora](/help/mobile-multi-device). Todo lo demás, incluido HYDROS, sirve a un solo acuario a la vez: elegir uno distinto mueve el dispositivo ahí y lo quita del anterior.
 
 :::warning Asigna el acuario antes de fiarte de las lecturas
 Un dispositivo sin acuario sigue enviando datos, pero sus números no tienen dónde aparecer. Si acabas de añadir un dispositivo y no sale en ningún panel, revisa esto primero.
@@ -61,11 +55,12 @@ Cada fila muestra su estado actual. Lo que quieres ver es una hora de actualizac
 | "Actualizado hace 3 h" en algo que solo informa cada pocas horas | Todo bien |
 | "No se pudo contactar…" | Un problema de red, o el dispositivo está apagado |
 | "…rechazó el inicio de sesión" | Hay que volver a conectar la cuenta del fabricante. Abre el dispositivo e inicia sesión otra vez |
+| "Esperando a Cora Max" | Un controlador GHL que acabas de añadir: aparece en cuanto un Cora Max de su red lo haya leído |
 | Nada | Nunca ha enviado datos. Revisa el acuario asignado y la conexión |
 
 ## Quitar un dispositivo
 
-Abre el dispositivo y elige **Quitar**. Tendrás que confirmarlo y verás exactamente qué se va a quitar.
+Abre el dispositivo y toca **Quitar dispositivo**. Cora te pide que confirmes: *"{name} se quitará de Cora. El dispositivo en sí no se restablece ni se modifica."*
 
 **Tus lecturas se conservan.** Al quitar un dispositivo, Cora deja de recoger datos nuevos de él. El historial que ya tenía se queda en el acuario, y los widgets que lo usaban conservan sus lecturas pasadas.
 

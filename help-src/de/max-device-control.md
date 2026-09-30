@@ -62,9 +62,9 @@ Lässt sich der Hinweis nicht schließen oder taucht er immer wieder auf, hilft 
 Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern.
 :::
 
-Verbinde einen GHL-Controller unter **Einstellungen → [dein Becken] → GHL-Controller (Beta)**. Trag seine IP-Adresse in deinem Netzwerk ein und tippe auf **Erkennen**. Cora versucht zuerst die offizielle API des Controllers, dann seine anderen Schnittstellen, und sagt dir, welche davon geantwortet hat.
+Verbinde einen GHL-Controller über dein Handy: **Geräte → Gerät hinzufügen → GHL**. Die Schritte dazu stehen unter [Deine Ausrüstung verbinden](/help/mobile-connections). Cora Max zeigt und steuert ihn, sobald ein Cora Max in seinem Netzwerk ihn ausgelesen hat, aber die Einrichtung selbst läuft auf dem Handy.
 
-Antwortet nichts und ist der Controller ein ProfiLux mini, bietet Cora einen Ausweg an: Gib seine Zugangsdaten ein, und Cora liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren aus. Ist **Steuerung durch Cora zulassen (Beta)** eingeschaltet, kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.
+Ein ProfiLux mini liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren aus. Ist **Steuerung durch Cora zulassen (Beta)** eingeschaltet, kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.
 
 Steuerungen bleiben aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Ist es eingeschaltet, kannst du eine Steckdose auf **Immer an**, **Immer aus** oder **Zurueck zu automatisch** stellen, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Sieht eine Änderung nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal.
 
@@ -78,9 +78,7 @@ Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich a
 Die Unterstützung für HYDROS wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern.
 :::
 
-HYDROS ist die einzige Anbindung, die ihren Controller über die Cloud erreicht. Deshalb funktioniert sie auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Verbinde ihn unter **Einstellungen → [dein Becken] → HYDROS (Beta)**.
-
-Leg in der HYDROS-App einen Geräteschlüssel für den Anbieter **cora-iq** an, mit **Lesen** für nur Messwerte oder **Schreiben**, um ihn auch zu steuern. Füg den Schlüssel ein, tippe auf **Prüfen**, wähl das Becken und dann **Speichern**. Die letzten 33 Tage seiner Historie werden importiert, sobald er verbunden ist.
+HYDROS ist die einzige Anbindung, die ihren Controller über die Cloud erreicht. Deshalb funktioniert sie auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Eingerichtet wird sie nur über dein Handy: **Geräte → Gerät hinzufügen → HYDROS**. Die Schritte dazu stehen unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 Lesen und Steuern funktioniert genauso wie auf deinem Handy; unter [Deine Ausrüstung steuern](/help/mobile-device-control) stehen Ausgänge, Modi, Dosierköpfe und Testbefehle sowie die Dosierungsgrenzen pro Kopf.
 

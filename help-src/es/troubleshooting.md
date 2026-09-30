@@ -46,7 +46,7 @@ Abre la fila del dispositivo y vuelve a iniciar sesión.
 Si al añadir un Cora Max el proceso se para a mitad, Cora Mobile te dice en qué paso ha fallado y por qué, con **Cancelar** y **Reintentar** debajo.
 
 - *"Tu teléfono no pudo comunicarse con el Cora Max en tu red Wi-Fi."* Conecta el teléfono y el Cora Max a la misma red Wi-Fi. En iPhone, comprueba también que Cora tiene acceso a la red local. **Ajustes → Acceso a dispositivos** te lleva ahí (más en [Ajustes](/help/mobile-settings)). Luego toca **Reintentar**.
-- *"El Cora Max no aceptó esta sesión de emparejamiento."* Reintentar no servirá. Cierra la pantalla y empieza de nuevo desde **Dispositivos → Agregar dispositivo**.
+- *"El Cora Max no aceptó esta sesión de emparejamiento."* Reintentar no servirá. Cierra la pantalla y empieza de nuevo desde **Dispositivos → Agregar dispositivo → Cora**.
 
 Con cualquier otro mensaje, toca **Reintentar**.
 
@@ -111,7 +111,7 @@ GHL desactiva su API oficial después de cada actualización de firmware, así q
 Cora Max no puede llegar a la dirección IP del controlador en tu red.
 
 1. Comprueba que el controlador está encendido y conectado a tu red.
-2. Comprueba que su dirección IP no ha cambiado. Si ha cambiado, actualízala desde **Ajustes → [tu acuario] → Controlador GHL (Beta)**.
+2. Comprueba que su dirección IP no ha cambiado. Si ha cambiado, ábrelo en tu teléfono (**Dispositivos**) y actualízala en **Conexión**.
 3. Comprueba que el Cora Max que lee este acuario está en la misma red que el controlador.
 
 Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con el nombre del acuario y del dispositivo.

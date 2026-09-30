@@ -2,7 +2,7 @@
 title: Dein Beckenprofil
 description: Volumen, Besatz, Ausrüstung und Dosierung, mit denen Cora deine Messwerte einordnet.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ Die Prozentzahl oben zeigt, wie viel vom Profil ausgefüllt ist. Je vollständig
 | Besatz | was im Becken lebt und wie dicht es besetzt ist |
 | Temperaturregelung | Heizer und Kühlung |
 | Beleuchtung | Leuchten und Beleuchtungsdauer |
-| Strömung & Filterung | Pumpen, Abschäumer und Filtermedien |
-| Neptune-Geräte | der Apex an diesem Becken und seine Module |
-| Red-Sea-Geräte | ReefBeat-Geräte, die diesem Becken zugeordnet sind |
-| Cora Max | welche Bildschirme dieses Becken zeigen |
+| Strömung & Filterung | Pumpen, Abschäumer, Filtermedien und Marke und Modell deines Controllers |
 | Wasserwert-Quellen | aus welcher Quelle jeder Wasserwert kommt |
 | Schädlinge & Behandlung | womit du zu kämpfen hattest und was du eingesetzt hast |
 
-![Die Geräte- und Quellenbereiche](img/mobile-tank-profile-devices.webp "Die untere Hälfte des Profils: deine Ausrüstung, woher jeder Wasserwert kommt, und die Behandlungshistorie.")
+![Die untere Hälfte des Profils](img/mobile-tank-profile-devices.webp "Wasserwert-Quellen und Behandlungshistorie.")
 
 Tippe auf einen Bereich, um ihn aufzuklappen. Das Info-Symbol daneben erklärt, wofür die Felder gebraucht werden.
+
+:::note Geräte stehen jetzt im Tab Geräte
+Deinen Apex, deine Red-Sea-Geräte und jedes andere Gerät fügst du im Tab **Geräte** hinzu, ordnest sie dort zu und entfernst sie dort, nicht mehr im Profil. Mehr dazu unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices). Willst du nur nachsehen, was zugeordnet ist, zeigen die Beckeneinstellungen die schreibgeschützte Liste **Geräte an diesem Becken**.
+:::
 
 ## Volumen
 

@@ -2,7 +2,7 @@
 title: Cora Mobile kurulumu
 description: Cora'yı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi ekranda görün.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ Kurulum sihirbazı şunları sorar. Hepsini sonradan [akvaryum profilinizden](/h
 2. **Tür**: karışık reef, SPS ağırlıklı, yumuşak mercan ya da yalnızca balık.
 3. **Boyutlar ve hacim**: sump dahil gerçek su hacmi. Dozaj hesapları bu değeri kullanır, o yüzden aşağı yukarı doğru girin.
 
-Sihirbaz bu kadar. Canlılar, ekipman, dozaj, hedefler, aydınlatma ve akış gibi diğer bilgileri sonra, dilediğiniz zaman [akvaryum profilinizden](/help/mobile-tank-profile) doldurursunuz.
+Bundan sonra ekipmanınızı eklemeye doğrudan geçmek için **Cihaz ekle**'ye dokunun, ya da şimdilik atlayın. Canlılar, dozaj, hedefler, aydınlatma ve akış gibi diğer bilgileri sonra, dilediğiniz zaman [akvaryum profilinizden](/help/mobile-tank-profile) doldurursunuz.
 
 :::note Akvaryumun yaşı ölçümlerin değerlendirmesini etkiler
 Cora ölçümleri, o yaştaki bir akvaryum için normal kabul edilen değerlere göre değerlendirir. Kurulum sihirbazı yaşı sormaz. **Akvaryum başlangıç tarihi** alanını akvaryum profilinde, **Akvaryum Boyutları** bölümünde doldurun. Akvaryumunuzun döngüsü hâlâ sürüyorsa rehberli döngüyü açmak için panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun.
@@ -49,7 +49,7 @@ Cora ölçümleri, o yaştaki bir akvaryum için normal kabul edilen değerlere 
 
 ## Ekipmanınızı bağlayın
 
-Akvaryumu ekledikten sonra **Cihazlar** sekmesine gidin ve ekipmanınızı ekleyin. Cora, zaten sahip olduğunuz ekipmanla çalışır. Hangi cihazların desteklendiğini ve her birinin neye ihtiyacı olduğunu **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında bulabilirsiniz.
+Akvaryumu ekledikten sonra **Cihazlar** sekmesine gidin, **Cihaz Ekle**'ye dokunun ve markayı seçin. Cora, zaten sahip olduğunuz ekipmanla çalışır. Hangi cihazların desteklendiğini ve her birinin neye ihtiyacı olduğunu **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında bulabilirsiniz.
 
 Bu adımı atlayıp sonra dönebilirsiniz. Akvaryum cihaz olmadan da sorunsuz çalışır. O durumda ölçümleri elle girersiniz.
 

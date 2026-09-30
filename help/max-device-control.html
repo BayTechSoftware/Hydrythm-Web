@@ -189,15 +189,14 @@
 <p>If the banner won't clear, or keeps coming back, have a look at <a href="/help/troubleshooting">Troubleshooting</a>.</p>
 <h2 id="ghl-profilux-and-mitras">GHL ProfiLux and Mitras</h2>
 <aside class="cal cal-note"><p class="cal-t">GHL support is in beta</p><p>We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates.</p></aside>
-<p>Connect a GHL controller from <strong>Settings → [your tank] → GHL controller (Beta)</strong>. Enter its IP address on your network and tap <strong>Detect</strong>. Cora tries the controller's official API first, then its other interfaces, and tells you which one it found.</p>
-<p>If nothing answers and the controller is a ProfiLux mini, Cora offers a fallback: enter its login and Cora reads its probes, sockets, dosers and level sensors. With <strong>Allow control from Cora (Beta)</strong> on, a mini can also switch its sockets, the same way as any other GHL controller. Everything else, such as setpoints and feed pause, needs a ProfiLux 3, 4 or Mitras.</p>
+<p>Connect a GHL controller from your phone: <strong>Devices → Add Device → GHL</strong>. <a href="/help/mobile-connections">Connecting your equipment</a> has the steps. Cora Max shows and controls it once a Cora Max on its network has read it, but setup itself happens on the phone.</p>
+<p>A ProfiLux mini reads its probes, sockets, dosers and level sensors. With <strong>Allow control from Cora (Beta)</strong> on, a mini can also switch its sockets, the same way as any other GHL controller. Everything else, such as setpoints and feed pause, needs a ProfiLux 3, 4 or Mitras.</p>
 <p>Controls stay off until you turn on <strong>Allow control from Cora (Beta)</strong> on the device's page. It's off by default. Once it's on, a socket can be set to <strong>Always on</strong>, <strong>Always off</strong>, or <strong>Back to automatic</strong>, and a setpoint such as temperature or pH shows its allowed range and refuses a value outside it. Both kinds of change are saved on the controller itself and stay there even if Cora later loses touch with it. A change that looks like it touches a heater or return pump asks you to confirm twice.</p>
 <p>If a doser's container is running low, Cora warns you the same way it does for other consumables. The default is 20% full, and you can change it from the doser's rule in the <a href="/help/mobile-alerts">Alert Center</a>.</p>
 <p>If the controller won't take a change, its GHL API is probably switched off. GHL turns this off after every firmware update; turn it back on from <strong>System → GHL API</strong> in GHL Control Center or GHL Connect. <a href="/help/troubleshooting">Troubleshooting</a> has the rest.</p>
 <h2 id="hydros">HYDROS</h2>
 <aside class="cal cal-note"><p class="cal-t">HYDROS support is in beta</p><p>We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates.</p></aside>
-<p>HYDROS is the only integration that reaches its controller through the cloud, so it works even when Cora Max is on a different network than the controller. Link it from <strong>Settings → [your tank] → HYDROS (Beta)</strong>.</p>
-<p>In the HYDROS app, create a device key for the provider <strong>cora-iq</strong>, choosing <strong>Read</strong> for readings only or <strong>Write</strong> to also control it. Paste the key in, tap <strong>Validate</strong>, pick the tank, then <strong>Save</strong>. The last 33 days of its history are imported once it's linked.</p>
+<p>HYDROS is the only integration that reaches its controller through the cloud, so it works even when Cora Max is on a different network than the controller. It's set up only from your phone: <strong>Devices → Add Device → HYDROS</strong>. <a href="/help/mobile-connections">Connecting your equipment</a> has the steps.</p>
 <p>Reading and controlling it works the same as on your phone; see <a href="/help/mobile-device-control">Controlling your equipment</a> for outputs, modes, dosing heads and tester commands, and for the per-head dose limits.</p>
 <h2 id="schedules">Schedules</h2>
 <p>You can write Jecod pump day programs at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More about this in <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
@@ -217,7 +216,7 @@
 <h2 id="what-was-changed-and-by-what">What was changed, and by what</h2>
 <p>Every action is logged along with what caused it. More about this in <a href="/help/mobile-activity">Activity and timeline</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-controls"><span>Previous</span><b>Outlets and controls</b></a><a class="pn-n" href="/help/max-devices"><span>Next</span><b>Devices and device health</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.79 and Cora Mobile 0.5.80. Last checked 2026-09-30.</p>
+      <p class="stamp">Written for Cora Max 0.28.80 and Cora Mobile 0.5.81. Last checked 2026-09-30.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

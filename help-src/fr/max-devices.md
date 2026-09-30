@@ -2,7 +2,7 @@
 title: Appareils et état des appareils
 description: Ce que Cora Max voit, quel appareil interroge chaque aquarium, et quoi vérifier quand les mesures s’arrêtent.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 7
 group: Equipment
 ---
@@ -17,7 +17,7 @@ Cora Max voit le même équipement que votre téléphone, puisque les deux lisen
 
 En haut, des puces filtrent la liste sur **Tous les aquariums** ou sur un seul. Chaque appareil a un point d’état, un résumé en une ligne de ce qu’il contient (*21 prises · 4 nourrissages*, *19 tests restants*) et le nom de son aquarium.
 
-Il est plus simple d’ajouter et de configurer un équipement sur le téléphone. Tout est expliqué dans [Ajouter, modifier et retirer des appareils](/help/mobile-devices).
+Cora Max affiche et pilote les appareils, mais chacun est ajouté, rattaché et retiré depuis votre téléphone. Tant qu’aucun appareil n’est ajouté, cet écran affiche **Ajoutez des appareils dans l’application Cora.** Plus de détails sur l’ajout d’équipement dans [Ajouter, modifier et retirer des appareils](/help/mobile-devices).
 
 ## Cora Max principal
 

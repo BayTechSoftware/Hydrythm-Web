@@ -2,7 +2,7 @@
 title: Profil akwarium
 description: Objętość, obsada, sprzęt i dozowanie, na podstawie których Cora interpretuje Twoje odczyty.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ Procent na górze pokazuje, jaka część profilu jest wypełniona. Im pełniejs
 | Obsada | Co mieszka w akwarium i jak gęsto jest obsadzone |
 | Kontrola temperatury | Sprzęt do grzania i chłodzenia |
 | Oświetlenie | Lampy i fotoperiod |
-| Przepływ i filtracja | Pompy, odpienianie i media |
-| Urządzenia Neptune | Apex w tym akwarium i jego moduły |
-| Urządzenia Red Sea | Urządzenia ReefBeat przypisane do akwarium |
-| Cora Max | Które ekrany obsługują to akwarium |
+| Przepływ i filtracja | Pompy, odpienianie, media oraz marka i model Twojego kontrolera |
 | Źródła parametrów | Z jakiego źródła pochodzi każdy parametr |
 | Szkodniki i leczenie | Z jakimi szkodnikami była walka i jakich środków użyto |
 
-![Sekcje urządzeń i źródeł](img/mobile-tank-profile-devices.webp "Dolna część profilu: Twój sprzęt, źródło każdego parametru i historia leczenia.")
+![Dolna część profilu](img/mobile-tank-profile-devices.webp "Źródła parametrów i historia leczenia.")
 
 Dotknij sekcji, żeby ją rozwinąć. Ikona informacji obok każdej wyjaśnia, do czego służą pola.
+
+:::note Urządzenia są teraz w zakładce Urządzenia
+Twój Apex, urządzenia Red Sea i każdy inny sprzęt dodajesz, przypisujesz i usuwasz w zakładce **Urządzenia**, a nie w profilu. Zobacz [Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices). Ustawienia akwarium pokazują listę **Urządzenia w tym akwarium**, tylko do odczytu, jeśli chcesz po prostu sprawdzić, co jest przypisane.
+:::
 
 ## Objętość
 

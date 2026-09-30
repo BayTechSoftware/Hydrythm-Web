@@ -2,7 +2,7 @@
 title: Configurare Cora Mobile
 description: Installa Cora, crea l'account, aggiungi la prima vasca e guarda comparire le prime letture.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ La configurazione guidata ti chiede queste cose, e puoi cambiarle tutte più ava
 2. **Tipo**: reef misto, a prevalenza SPS, coralli molli, solo pesci.
 3. **Dimensioni e volume**: il volume d'acqua reale, sump compresa. Serve ai calcoli di dosaggio, quindi conviene che sia più o meno giusto.
 
-La configurazione guidata finisce qui. Tutto il resto (popolazione, attrezzatura, dosaggio, obiettivi, illuminazione, movimento) lo completi dopo, con calma, dal [profilo della vasca](/help/mobile-tank-profile).
+Dopo, tocca **Aggiungi dispositivi** per andare dritto ad aggiungere la tua attrezzatura, oppure saltalo per ora. Tutto il resto (popolazione, dosaggio, obiettivi, illuminazione, movimento) lo completi dopo, con calma, dal [profilo della vasca](/help/mobile-tank-profile).
 
 :::note L'età della vasca conta nella valutazione
 Cora valuta le letture in base a quello che è normale per una vasca di quell'età. La configurazione guidata non la chiede. Imposta la **Data di avvio della vasca** nel profilo della vasca, sotto **Dimensioni vasca**. Se la vasca sta ancora facendo il ciclo, tocca **Stai avviando una nuova vasca?** sulla dashboard per attivare il ciclo guidato.
@@ -49,7 +49,7 @@ Cora valuta le letture in base a quello che è normale per una vasca di quell'et
 
 ## Collegare l'attrezzatura
 
-Quando la vasca è pronta, vai nella scheda **Dispositivi** e aggiungi la tua attrezzatura. Cora funziona con quella che hai già. In **[Collegare la tua attrezzatura](/help/mobile-connections)** trovi cosa è supportato e cosa serve per ogni apparecchio.
+Quando la vasca è pronta, vai nella scheda **Dispositivi**, tocca **Aggiungi dispositivo** e scegli la marca. Cora funziona con quella che hai già. In **[Collegare la tua attrezzatura](/help/mobile-connections)** trovi cosa è supportato e cosa serve per ogni apparecchio.
 
 Puoi anche saltare questo passaggio e farlo dopo. Una vasca funziona benissimo anche senza dispositivi: in quel caso registri le letture a mano.
 

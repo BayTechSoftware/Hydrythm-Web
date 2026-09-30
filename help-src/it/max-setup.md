@@ -2,7 +2,7 @@
 title: Configurare Cora Max
 description: Prima accensione, collegamento al Wi-Fi, associazione al tuo account e come portare le tue vasche sullo schermo grande.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -31,7 +31,7 @@ Sullo schermo vedi il nome con cui il telefono lo trova, che finisce con un brev
 
 Tutto il resto si fa in Cora Mobile, in cinque passi che vedi in alto nel foglio: **Connetti · Wi-Fi · Accesso · Vasche · Fatto.**
 
-**1 · Connetti.** Sul telefono, **Dispositivi → Aggiungi dispositivo** trova Cora Max e ti mostra cosa ha trovato (indirizzo MAC, versione del firmware, variante e revisione hardware). Così controlli che sia quello giusto prima di andare avanti.
+**1 · Connetti.** Sul telefono, tocca **Dispositivi → Aggiungi dispositivo → Cora**. Trova Cora Max e ti mostra cosa ha trovato (indirizzo MAC, versione del firmware, variante e revisione hardware). Così controlli che sia quello giusto prima di andare avanti.
 
 **2 · Wi-Fi.** Scegli la tua rete dall'elenco, oppure tocca **Ripeti scansione**, poi scrivi la password. La scrivi con la tastiera del telefono, non sullo schermo a parete.
 

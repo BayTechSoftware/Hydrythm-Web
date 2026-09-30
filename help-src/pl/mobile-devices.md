@@ -1,29 +1,21 @@
 ---
 title: Dodawanie, edytowanie i usuwanie urządzeń
-description: Jak dodać sprzęt do Cory, przypisać go do akwarium, zmienić jego nazwę i bezpiecznie go usunąć.
+description: Jak dodać sprzęt do Cory, przypisać go do akwarium i bezpiecznie go usunąć, wszystko w jednym miejscu.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 9
 group: Equipment
 ---
 
-W zakładce **Urządzenia** jest cały podłączony sprzęt, pogrupowany według marek. Każdą grupę można zwinąć, więc nawet przy dużej ilości sprzętu lista pozostaje czytelna.
+Dodawaj, edytuj, przypisuj i usuwaj każde urządzenie w zakładce **Urządzenia**, pogrupowane według marek. Każdą grupę można zwinąć, więc nawet przy dużej ilości sprzętu lista pozostaje czytelna.
 
 ![Zakładka Urządzenia](img/mobile-devices.webp "Sprzęt pogrupowany według marek. Każdą grupę można zwinąć.")
 
 ## Dodawanie sprzętu
 
-Pod listą są trzy przyciski i każdy służy do czegoś innego:
+Dotknij **Dodaj urządzenie**, a potem wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* albo **AquaWiz**. Każda otwiera dokładnie to, czego potrzebuje, żeby znaleźć Twój sprzęt: skanowanie sieci, adres IP, logowanie albo klucz urządzenia. [Podłączanie sprzętu](/help/mobile-connections) opisuje, czego potrzebuje każda marka.
 
-| Przycisk | Co dodaje |
-|---|---|
-| **Dodaj urządzenie** | Cora Max. Wyszukuje urządzenia w Twojej sieci Wi-Fi albo w pobliżu przez Bluetooth. Jeśli wyszukiwanie nic nie znajdzie, na tym samym ekranie jest przycisk **Wpisz adres IP ręcznie**. |
-| **Znajdź pompę w Twojej sieci** | Pompy Jecod, które same ogłaszają się w sieci lokalnej |
-| **Dodaj AquaWiz** | Kontroler AquaWiz, przez Twoje konto AquaWiz |
-
-![Dodawanie Cora Max](img/mobile-add-device.webp "Dodaj urządzenie szuka Cora Max przez Wi-Fi i Bluetooth.")
-
-Pozostały sprzęt, czyli Neptune Apex i Red Sea ReefBeat, podłączasz z poziomu akwarium, a nie z tej listy. Więcej w [Podłączaniu sprzętu](/help/mobile-connections).
+**Cora** to sposób na sparowanie nowego Cora Max. Wyszukuje urządzenia w Twojej sieci Wi-Fi albo w pobliżu przez Bluetooth. Jeśli wyszukiwanie nic nie znajdzie, na tym samym ekranie jest przycisk **Wpisz adres IP ręcznie**.
 
 Gdy dodajesz sprzęt, np. grzałkę, pompę albo odpieniacz, Cora **podpowiada** markę i model. Zacznij pisać, a Cora zaproponuje nazwy z dużej, sprawdzonej listy marek. Jeśli Twojej marki nie ma, i tak ją wpisz. Cora zapisze to, co wpiszesz.
 
@@ -33,13 +25,15 @@ Sprzęt wykrywany lokalnie musi przy dodawaniu być w tej samej sieci co telefon
 Sprzęt, który w domu pokazuje dobre odczyty, poza domem może więc pokazywać starsze wartości, jeśli na miejscu nie ma Cora Max, który by go odpytywał. To nie usterka. Po prostu sprzęt jest osiągalny tylko z określonego miejsca.
 :::
 
-## Przypisanie urządzenia do akwarium
+## Strona urządzenia
 
-Większość sprzętu należy do dokładnie jednego akwarium. Dzięki temu jego odczyty pojawiają się na pulpicie tego akwarium.
+Otwórz dowolne urządzenie z listy. Najpierw są jego przyciski sterujące, a pod nimi trzy sekcje, które działają tak samo dla każdej marki.
 
-**Wyjątkiem jest Cora Max.** Można go przypisać do maksymalnie czterech akwariów i przełączać się między nimi na ekranie. Szczegóły są na stronie [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
+- **Akwaria** pokazuje, do którego akwarium (albo akwariów) jest przypisane. Dotknij **Zmień**, żeby je przepisać.
+- **Połączenie** to miejsce, gdzie edytujesz jego adres IP, dane logowania albo klucz urządzenia.
+- **Usuń urządzenie**, na samym dole.
 
-Otwórz urządzenie i wybierz **Akwarium**. Jeśli masz więcej niż jeden system, to najważniejsze ustawienie. Grzałka przypisana do złego akwarium działa bez zarzutu, tylko jej odczyty trafiają w złe miejsce.
+Cora Max, Neptune Apex i GHL mogą obsługiwać więcej niż jedno akwarium, więc ich wybór akwarium to lista zaznaczeń. Cora Max można przypisać do maksymalnie czterech akwariów. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Wszystko inne, w tym HYDROS, obsługuje jedno akwarium naraz: wybranie innego przenosi tam urządzenie i zdejmuje je ze starego.
 
 :::warning Przypisz akwarium, zanim zaczniesz polegać na odczytach
 Urządzenie bez akwarium nadal wysyła odczyty, ale nie mają one gdzie trafić. Jeśli nowo dodane urządzenie nie pojawia się na pulpicie, najpierw sprawdź właśnie to.
@@ -61,11 +55,12 @@ Każdy wiersz pokazuje bieżący stan. Dobrze, gdy widać niedawny czas aktualiz
 | „Zaktualizowano 3 godz. temu” przy urządzeniu, które zgłasza się tylko co kilka godzin | Wszystko w porządku |
 | „Nie udało się połączyć…” | Problem z siecią albo urządzenie jest wyłączone |
 | „…odmówiło logowania” | Trzeba ponownie połączyć konto producenta. Otwórz urządzenie i zaloguj się jeszcze raz |
+| „Czeka na Cora Max” | Kontroler GHL, który właśnie dodano: pojawi się, gdy tylko Cora Max w jego sieci go odczyta |
 | Nic | Urządzenie nigdy nie wysłało danych. Sprawdź przypisanie do akwarium i połączenie |
 
 ## Usuwanie urządzenia
 
-Otwórz urządzenie i wybierz **Usuń**. Cora poprosi o potwierdzenie i powie dokładnie, co zostanie usunięte.
+Otwórz urządzenie i dotknij **Usuń urządzenie**. Cora poprosi o potwierdzenie: *„{name} zostanie usunięty z Cora. Samo urządzenie nie jest resetowane ani zmieniane.”*
 
 **Odczyty zostają.** Po usunięciu urządzenia Cora przestaje zbierać z niego nowe dane. Zebrana historia zostaje przy akwarium, a widżety, które z niego korzystały, zachowują wcześniejsze odczyty.
 

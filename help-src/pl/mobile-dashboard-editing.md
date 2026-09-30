@@ -2,7 +2,7 @@
 title: Edytowanie pulpitu
 description: Ustaw liczbę kolumn, dodawaj i układaj widżety, zmieniaj rozmiar kafelków i zapisuj układy, których użyjesz na innych akwariach.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ W edytorze pulpitu decydujesz, jakie widżety są na pulpicie akwarium i jak są
 Przewiń pulpit na sam dół i dotknij **Edytuj panel**.
 
 :::note Ołówek przy nazwie akwarium otwiera coś innego
-Ołówek otwiera **Edytuj akwarium**, czyli profil akwarium z objętością, obsadą, dozowaniem i sprzętem. Więcej w [Profilu akwarium](/help/mobile-tank-profile).
+Ołówek otwiera **Edytuj akwarium**, czyli profil akwarium z objętością, obsadą, dozowaniem, oświetleniem i przepływem. Więcej w [Profilu akwarium](/help/mobile-tank-profile).
 :::
 
 ![Edytor pulpitu](img/mobile-edit.webp "Każdy kafelek pokazuje nazwę i typ. Czerwony krzyżyk go usuwa.")

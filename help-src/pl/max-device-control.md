@@ -62,9 +62,9 @@ Jeśli baner nie znika albo ciągle wraca, zajrzyj do [Rozwiązywanie problemów
 Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją.
 :::
 
-Podłącz kontroler GHL z **Ustawienia → [Twoje akwarium] → Kontroler GHL (Beta)**. Wpisz jego adres IP w Twojej sieci i dotknij **Wykryj**. Cora najpierw próbuje oficjalnego API kontrolera, potem innych interfejsów, i mówi, który z nich znalazła.
+Podłącz kontroler GHL z telefonu: **Urządzenia → Dodaj urządzenie → GHL**. Kroki opisuje [Podłączanie sprzętu](/help/mobile-connections). Cora Max pokazuje go i steruje nim, gdy tylko Cora Max w jego sieci go odczyta, ale samo podłączenie odbywa się na telefonie.
 
-Jeśli nic nie odpowie, a kontroler to ProfiLux mini, Cora oferuje rozwiązanie zastępcze: wpisz jego dane logowania, a Cora odczyta jego sondy, gniazda, dozowniki i czujniki poziomu. Gdy **Zezwól na sterowanie z Cora (Beta)** jest włączone, mini może też przełączać swoje gniazda, tak samo jak każdy inny kontroler GHL. Wszystko inne, na przykład wartości docelowe i pauza na karmienie, wymaga ProfiLux 3, 4 albo Mitras.
+ProfiLux mini odczytuje swoje sondy, gniazda, dozowniki i czujniki poziomu. Gdy **Zezwól na sterowanie z Cora (Beta)** jest włączone, mini może też przełączać swoje gniazda, tak samo jak każdy inny kontroler GHL. Wszystko inne, na przykład wartości docelowe i pauza na karmienie, wymaga ProfiLux 3, 4 albo Mitras.
 
 Sterowanie pozostaje wyłączone, dopóki nie włączysz **Zezwol na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone. Gdy jest włączone, gniazdo można ustawić na **Zawsze wlaczone**, **Zawsze wylaczone** albo **Powrot do automatycznego**, a wartość docelowa, na przykład temperatura albo pH, pokazuje swój dozwolony zakres i odrzuca wartość spoza niego. Oba rodzaje zmian są zapisywane na samym kontrolerze i tam zostają, nawet jeśli Cora później straci z nim kontakt. Zmiana, która wygląda, jakby dotyczyła grzałki albo pompy powrotnej, prosi o podwójne potwierdzenie.
 
@@ -78,9 +78,7 @@ Jeśli kontroler nie przyjmie zmiany, prawdopodobnie jego API GHL jest wyłączo
 Obsługę HYDROS wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją.
 :::
 
-HYDROS to jedyna integracja, która dociera do swojego kontrolera przez chmurę, więc działa nawet wtedy, gdy Cora Max jest w innej sieci niż kontroler. Połącz go z **Ustawienia → [Twoje akwarium] → HYDROS (Beta)**.
-
-W aplikacji HYDROS utwórz klucz urządzenia dla dostawcy **cora-iq**, wybierając **Odczyt** tylko dla odczytów albo **Zapis**, żeby też nim sterować. Wklej klucz, dotknij **Zweryfikuj**, wybierz akwarium, a potem **Zapisz**. Po połączeniu importowana jest historia z ostatnich 33 dni.
+HYDROS to jedyna integracja, która dociera do swojego kontrolera przez chmurę, więc działa nawet wtedy, gdy Cora Max jest w innej sieci niż kontroler. Konfigurujesz go wyłącznie z telefonu: **Urządzenia → Dodaj urządzenie → HYDROS**. Kroki opisuje [Podłączanie sprzętu](/help/mobile-connections).
 
 Odczyt i sterowanie działają tak samo jak na telefonie; wyjścia, tryby, głowice dozujące i komendy testera, a także limity dawek dla poszczególnych głowic, opisuje [Sterowanie sprzętem](/help/mobile-device-control).
 

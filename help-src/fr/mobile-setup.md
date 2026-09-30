@@ -2,7 +2,7 @@
 title: Configurer Cora Mobile
 description: Installez Cora, créez votre compte, ajoutez votre premier aquarium et voyez s’afficher vos premières mesures.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ L’assistant de configuration vous demande les informations suivantes. Vous pou
 2. **Type** : récif mixte, dominante SPS, coraux mous, poissons seuls.
 3. **Dimensions et volume** : le volume d’eau réel, décantation comprise. Les calculs de dosage s’en servent, il vaut donc la peine qu’il soit à peu près juste.
 
-L’assistant s’arrête là. Tout le reste (population, équipement, dosage, cibles, éclairage, brassage) se remplit ensuite dans [le profil de l’aquarium](/help/mobile-tank-profile), à votre rythme.
+Ensuite, touchez **Ajouter des appareils** pour passer directement à l’ajout de votre équipement, ou laissez cette étape de côté pour l’instant. Tout le reste (population, dosage, cibles, éclairage, brassage) se remplit ensuite dans [le profil de l’aquarium](/help/mobile-tank-profile), à votre rythme.
 
 :::note L’âge de l’aquarium compte dans l’évaluation des mesures
 Cora juge les mesures par rapport à ce qui est normal pour un aquarium de cet âge. L’assistant de configuration ne le demande pas. Renseignez la **Date de démarrage de l’aquarium** dans le profil de l’aquarium, sous **Dimensions de l’aquarium**. Si votre aquarium est en cours de cyclage, touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord pour activer le cyclage guidé.
@@ -49,7 +49,7 @@ Cora juge les mesures par rapport à ce qui est normal pour un aquarium de cet �
 
 ## Connecter votre équipement
 
-Une fois l’aquarium créé, ouvrez l’onglet **Appareils** et ajoutez votre équipement. Cora fonctionne avec l’équipement que vous avez déjà. Ce qui est pris en charge, et ce qu’il faut pour chaque appareil, est décrit dans **[Connecter votre équipement](/help/mobile-connections)**.
+Une fois l’aquarium créé, ouvrez l’onglet **Appareils**, touchez **Ajouter un appareil** et choisissez la marque. Cora fonctionne avec l’équipement que vous avez déjà. Ce qui est pris en charge, et ce qu’il faut pour chaque appareil, est décrit dans **[Connecter votre équipement](/help/mobile-connections)**.
 
 Vous pouvez passer cette étape et y revenir plus tard. Un aquarium fonctionne très bien sans appareil. Vous saisissez alors vos mesures à la main.
 

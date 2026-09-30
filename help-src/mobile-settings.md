@@ -2,7 +2,7 @@
 title: Settings
 description: A guide to every section of Cora Mobile's settings, from your account and tanks to Cora Assistant, language, notifications, automation and activity.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-09-30
 order: 32
 group: Account
 ---
@@ -39,7 +39,7 @@ You'll see one row for each tank, then these.
 - **Reorder tanks** sets the order they come up when you swipe the dashboard.
 - **Removed tanks** keeps tanks you've deleted, in case you need something back.
 
-Open a tank to edit it, or to reach **Primary Cora Max** (which device polls that tank's equipment) and **Guided setup**. Primary Cora Max is explained in [More than one Cora device](/help/mobile-multi-device).
+Open a tank to edit it, or to reach **Primary Cora Max** (which device polls that tank's equipment), **Guided setup** and a read-only **Devices on this tank** list. Primary Cora Max is explained in [More than one Cora device](/help/mobile-multi-device). To add or remove a device, use the [Devices tab](/help/mobile-devices).
 
 - **Vacation mode** is a plan for whoever looks after the tank while you're away. You set the dates and make a checklist of jobs, with how often each one needs doing. Cora turns it into a simple read-only page you can share with your tank sitter. They don't need an account. More in [Going away](/help/mobile-vacation).
 

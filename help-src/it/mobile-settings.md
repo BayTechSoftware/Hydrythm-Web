@@ -2,7 +2,7 @@
 title: Impostazioni
 description: Tutte le sezioni delle impostazioni di Cora Mobile: account, vasche, Cora Assistant, lingua, notifiche, automazione e attività.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-09-30
 order: 32
 group: Account
 ---
@@ -39,14 +39,14 @@ C'è una riga per ogni vasca, poi:
 - **Riordina vasche**: l'ordine in cui compaiono quando scorri la dashboard
 - **Vasche rimosse**: le vasche che hai eliminato, se ti serve recuperare qualcosa
 
-Apri una vasca per trovare **Cora Max principale** (il dispositivo che legge l'attrezzatura di quella vasca) e **Configurazione guidata**, e per modificare la vasca. Tutto sul Cora Max principale in **[Più di un dispositivo Cora](/help/mobile-multi-device)**.
+Apri una vasca per trovare **Cora Max principale** (il dispositivo che legge l'attrezzatura di quella vasca), **Configurazione guidata** e l'elenco in sola lettura **Dispositivi su questa vasca**, e per modificare la vasca. Tutto sul Cora Max principale in **[Più di un dispositivo Cora](/help/mobile-multi-device)**. Per aggiungere o rimuovere un dispositivo, usa la [scheda Dispositivi](/help/mobile-devices).
 
 - **Modalità vacanza**: un piano per chi si occupa della vasca mentre sei via. Tutti i dettagli in **[Andare in vacanza](/help/mobile-vacation)**. Imposti le date e fai una lista dei lavori, indicando ogni quanto va fatto ciascuno. Cora la trasforma in una pagina semplice, in sola lettura, da condividere con chi ti sostituisce. Non serve un account.
 
 ## Impostazioni app
 
-- **Notifiche**: quali notifiche arrivano sul telefono. Tutti i dettagli in **[Notifiche](/help/mobile-notifications)**.
 - **Orario del riepilogo**: l'ora in cui arriva il tuo briefing giornaliero di Reef Buddy, nel tuo fuso orario. È un'unica impostazione per l'account, condivisa con Cora Max. Tutti i dettagli in **[Reef Buddy](/help/mobile-reef-buddy)**.
+- **Notifiche**: quali notifiche arrivano sul telefono. Tutti i dettagli in **[Notifiche](/help/mobile-notifications)**.
 - **Lingua**: la lingua dell'account, spiegata più sotto.
 - **Aspetto**: chiaro, scuro o come il telefono.
 - **Accesso dispositivi**: spiegato più sotto.

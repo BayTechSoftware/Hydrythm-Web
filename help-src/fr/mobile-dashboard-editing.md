@@ -2,7 +2,7 @@
 title: Modifier votre tableau de bord
 description: Choisir le nombre de colonnes, ajouter et placer des widgets, changer la taille des tuiles et enregistrer des mises en page à réutiliser sur d’autres aquariums.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ L’éditeur de tableau de bord sert à choisir les widgets affichés sur le tab
 Faites défiler jusqu’en bas du tableau de bord et touchez **Modifier le tableau de bord**.
 
 :::note Le crayon à côté du nom de l’aquarium ouvre un autre écran
-Il ouvre **Modifier l’aquarium**, c’est-à-dire le profil de l’aquarium : volume, population, dosage et équipement. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
+Il ouvre **Modifier l’aquarium**, c’est-à-dire le profil de l’aquarium : volume, population, dosage, éclairage et brassage. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
 :::
 
 ![L’éditeur de tableau de bord](img/mobile-edit.webp "Chaque tuile affiche son nom et son type. Touchez une croix rouge pour la retirer.")

@@ -62,9 +62,9 @@ Si el aviso no se quita o vuelve a salir, consulta [Solución de problemas](/hel
 Seguimos probando y desarrollando el soporte para GHL. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones.
 :::
 
-Conecta un controlador GHL desde **Ajustes → [tu acuario] → Controlador GHL (Beta)**. Escribe su dirección IP en tu red y toca **Detectar**. Cora prueba primero la API oficial del controlador y después sus otras interfaces, y te dice cuál encontró.
+Conecta un controlador GHL desde tu teléfono: **Dispositivos → Agregar dispositivo → GHL**. [Conectar tus equipos](/help/mobile-connections) tiene los pasos. Cora Max lo muestra y lo controla en cuanto un Cora Max de su red lo ha leído, pero la configuración en sí ocurre en el teléfono.
 
-Si no responde nada y el controlador es un ProfiLux mini, Cora ofrece una alternativa: escribe su usuario y contraseña, y Cora lee sus sondas, tomas, dosificadoras y sensores de nivel. Con **Permitir el control desde Cora (Beta)** activado, un mini también puede cambiar sus tomas, igual que cualquier otro controlador GHL. Todo lo demás, como las consignas y la pausa de alimentación, necesita un ProfiLux 3, 4 o Mitras.
+Un ProfiLux mini lee sus sondas, tomas, dosificadoras y sensores de nivel. Con **Permitir el control desde Cora (Beta)** activado, un mini también puede cambiar sus tomas, igual que cualquier otro controlador GHL. Todo lo demás, como las consignas y la pausa de alimentación, necesita un ProfiLux 3, 4 o Mitras.
 
 Los controles quedan desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Está desactivado por defecto. Una vez activado, una toma se puede poner en **Siempre encendido**, **Siempre apagado** o **Volver a automatico**, y una consigna, como la de temperatura o pH, muestra su rango permitido y rechaza un valor fuera de él. Los dos tipos de cambio se guardan en el propio controlador y siguen ahí aunque Cora pierda después el contacto con él. Un cambio que parezca afectar a un calentador o a una bomba de retorno te pide confirmar dos veces.
 
@@ -78,9 +78,7 @@ Si el controlador no acepta un cambio, probablemente su API de GHL está desacti
 Seguimos probando y desarrollando el soporte para HYDROS. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones.
 :::
 
-HYDROS es la única integración que llega a su controlador a través de la nube, así que funciona incluso cuando Cora Max está en una red distinta a la del controlador. Conéctalo desde **Ajustes → [tu acuario] → HYDROS (Beta)**.
-
-En la aplicación HYDROS, crea una clave de dispositivo para el proveedor **cora-iq**, eligiendo **Read** solo para lecturas o **Write** para controlarlo también. Pega la clave, toca **Validar**, elige el acuario y luego **Guardar**. Se importan los últimos 33 días de su historial en cuanto queda conectado.
+HYDROS es la única integración que llega a su controlador a través de la nube, así que funciona incluso cuando Cora Max está en una red distinta a la del controlador. Se configura solo desde tu teléfono: **Dispositivos → Agregar dispositivo → HYDROS**. [Conectar tus equipos](/help/mobile-connections) tiene los pasos.
 
 Leerlo y controlarlo funciona igual que en tu teléfono; consulta [Controlar tus equipos](/help/mobile-device-control) para las salidas, los modos, los cabezales de dosificación y las órdenes de analizador, y para los límites de dosis por cabezal.
 

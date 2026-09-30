@@ -46,7 +46,7 @@ Cihazın satırını açın ve yeniden giriş yapın.
 Cora Max eklerken işlem yarıda kalırsa Cora Mobile hangi adımın neden başarısız olduğunu söyler. Altında **İptal** ve **Tekrar dene** düğmeleri olur.
 
 - *"Telefonunuz Wi-Fi'nizdeki Cora Max'e ulaşamadı."* Telefonunuzu ve Cora Max'i aynı Wi-Fi ağına bağlayın. iPhone'da Cora'nın Yerel Ağ izni olduğunu da kontrol edin. **Ayarlar → Cihaz erişimi** sizi bu izne götürür ([Ayarlar](/help/mobile-settings) sayfasında anlatılıyor). Sonra **Tekrar dene**'ye dokunun.
-- *"Cora Max bu eşleştirme oturumunu kabul etmedi."* Yeniden denemek işe yaramaz. Ekranı kapatın ve **Cihazlar → Cihaz Ekle**'den baştan başlayın.
+- *"Cora Max bu eşleştirme oturumunu kabul etmedi."* Yeniden denemek işe yaramaz. Ekranı kapatın ve **Cihazlar → Cihaz Ekle → Cora**'dan baştan başlayın.
 
 Başka bir mesaj görürseniz **Tekrar dene**'ye dokunun.
 
@@ -112,7 +112,7 @@ GHL, her yazılım güncellemesinden sonra resmi API'sini kapatır. Bu güncelle
 Cora Max, kontrol cihazının ağınızdaki IP adresine ulaşamıyor.
 
 1. Kontrol cihazının açık ve ağınıza bağlı olduğunu kontrol edin.
-2. IP adresinin değişip değişmediğine bakın. Değiştiyse **Ayarlar → [akvaryumunuz] → GHL denetleyici (Beta)**'dan güncelleyin.
+2. IP adresinin değişip değişmediğine bakın. Değiştiyse telefonunuzda açın (**Cihazlar**) ve **Bağlantı** altından güncelleyin.
 3. Bu akvaryumu okuyan Cora Max'in kontrol cihazıyla aynı ağda olduğunu kontrol edin.
 
 Sorun sürerse akvaryumun ve cihazın adını yazarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.

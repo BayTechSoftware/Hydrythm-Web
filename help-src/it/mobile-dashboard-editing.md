@@ -2,7 +2,7 @@
 title: Modificare la dashboard
 description: Scegli il numero di colonne, aggiungi e sposta i widget, cambia la dimensione dei riquadri e salva layout da riusare su altre vasche.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ Con l'editor della dashboard decidi quali widget compaiono sulla dashboard di un
 Scorri in fondo alla dashboard e tocca **Modifica dashboard**.
 
 :::note La matita accanto al nome della vasca apre un'altra schermata
-La matita apre **Modifica vasca**, cioè il profilo della vasca con volume, popolazione, dosaggio e attrezzatura. Ne parliamo in [Il profilo della tua vasca](/help/mobile-tank-profile).
+La matita apre **Modifica vasca**, cioè il profilo della vasca con volume, popolazione, dosaggio, illuminazione e flusso. Ne parliamo in [Il profilo della tua vasca](/help/mobile-tank-profile).
 :::
 
 ![L'editor della dashboard](img/mobile-edit.webp "Ogni riquadro mostra il suo nome e tipo. Tocca una croce rossa per rimuoverlo.")

@@ -46,7 +46,7 @@ Der Hersteller hat die gespeicherten Anmeldedaten abgelehnt. Fast immer liegt es
 Bleibt das Hinzufügen eines Cora Max mittendrin stehen, zeigt Cora Mobile, welcher Schritt gescheitert ist und warum. Darunter stehen **Abbrechen** und **Erneut versuchen**.
 
 - *„Dein Handy konnte das Cora Max in deinem WLAN nicht erreichen.“* Verbinde Handy und Cora Max mit demselben WLAN. Auf dem iPhone prüf außerdem, ob Cora auf das lokale Netzwerk zugreifen darf. Über **Einstellungen → Gerätezugriff** kommst du dorthin (mehr dazu unter [Einstellungen](/help/mobile-settings)). Tippe dann auf **Erneut versuchen**.
-- *„Das Cora Max hat diese Kopplungssitzung nicht angenommen.“* Ein neuer Versuch hilft hier nicht. Schließ den Bildschirm und fang über **Geräte → Gerät hinzufügen** von vorne an.
+- *„Das Cora Max hat diese Kopplungssitzung nicht angenommen.“* Ein neuer Versuch hilft hier nicht. Schließ den Bildschirm und fang über **Geräte → Gerät hinzufügen → Cora** von vorne an.
 
 Bei jeder anderen Meldung tippe auf **Erneut versuchen**.
 
@@ -111,7 +111,7 @@ GHL schaltet seine offizielle API nach jedem Firmware-Update aus. Das ist nach e
 Cora Max kann die IP-Adresse des Controllers in deinem Netzwerk nicht erreichen.
 
 1. Prüf, ob der Controller eingeschaltet und mit deinem Netzwerk verbunden ist.
-2. Prüf, ob sich seine IP-Adresse geändert hat. Falls ja, aktualisiere sie unter **Einstellungen → [dein Becken] → GHL-Controller (Beta)**.
+2. Prüf, ob sich seine IP-Adresse geändert hat. Falls ja, öffne ihn auf dem Handy (**Geräte**) und aktualisiere sie unter **Verbindung**.
 3. Prüf, ob das Cora Max, das dieses Becken liest, im selben Netzwerk ist wie der Controller.
 
 Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.

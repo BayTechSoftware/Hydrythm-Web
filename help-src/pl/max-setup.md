@@ -2,7 +2,7 @@
 title: Konfiguracja Cora Max
 description: Pierwsze uruchomienie, połączenie z Wi-Fi, parowanie z kontem i wyświetlanie akwariów na dużym ekranie.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -31,7 +31,7 @@ Na ekranie widać nazwę, pod którą urządzenie jest widoczne. Kończy się on
 
 Wszystko inne robisz w Cora Mobile, w pięciu krokach widocznych u góry okna: **Połącz · Wi-Fi · Logowanie · Akwaria · Gotowe**.
 
-**1 · Połącz.** Na telefonie otwórz **Urządzenia → Dodaj urządzenie**. Cora Mobile znajdzie urządzenie i pokaże jego adres MAC, wersję firmware, wariant i wersję sprzętu. Sprawdź, czy to właściwe urządzenie, zanim przejdziesz dalej.
+**1 · Połącz.** Na telefonie dotknij **Urządzenia → Dodaj urządzenie → Cora**. Cora Mobile znajdzie urządzenie i pokaże jego adres MAC, wersję firmware, wariant i wersję sprzętu. Sprawdź, czy to właściwe urządzenie, zanim przejdziesz dalej.
 
 **2 · Wi-Fi.** Wybierz sieć z listy albo dotknij **Skanuj ponownie**, a potem wpisz hasło. Wpisujesz je na klawiaturze telefonu, a nie na ekranie na ścianie.
 

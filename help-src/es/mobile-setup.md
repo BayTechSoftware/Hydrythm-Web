@@ -2,7 +2,7 @@
 title: Configurar Cora Mobile
 description: Instala Cora, crea tu cuenta, añade tu primer acuario y ve tus primeras lecturas en pantalla.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ El asistente de configuración te pide lo siguiente. Puedes cambiarlo todo despu
 2. **Tipo**, por ejemplo arrecife mixto, predominio de SPS, corales blandos o solo peces.
 3. **Dimensiones y volumen**, con el volumen real de agua y el sump incluido. Los cálculos de dosificación usan este dato, así que conviene que se acerque a la realidad.
 
-Eso es todo el asistente. Lo demás (fauna, equipo, dosificación, objetivos, iluminación, flujo) lo rellenas después en [tu perfil del acuario](/help/mobile-tank-profile), a tu ritmo.
+Después, toca **Añadir dispositivos** para ir directo a añadir tu equipo, o sáltatelo por ahora. Lo demás (fauna, dosificación, objetivos, iluminación, flujo) lo rellenas después en [tu perfil del acuario](/help/mobile-tank-profile), a tu ritmo.
 
 :::note La antigüedad del acuario cambia cómo se evalúan las lecturas
 Cora compara las lecturas con lo normal para un acuario de esa edad. El asistente de configuración no la pregunta. Indica la **Fecha de inicio del acuario** en el perfil del acuario, en **Dimensiones del acuario**. Si el acuario todavía está en ciclado, toca **¿Estás empezando un acuario nuevo?** en el panel para activar el ciclado guiado.
@@ -49,7 +49,7 @@ Cora compara las lecturas con lo normal para un acuario de esa edad. El asistent
 
 ## Conecta tu equipo
 
-Cuando ya tengas un acuario, ve a la pestaña **Dispositivos** y añade tu equipo. Cora funciona con el equipo que ya tienes. En **[Conectar tus equipos](/help/mobile-connections)** verás qué es compatible y qué necesita cada equipo.
+Cuando ya tengas un acuario, ve a la pestaña **Dispositivos**, toca **Agregar dispositivo** y elige la marca. Cora funciona con el equipo que ya tienes. En **[Conectar tus equipos](/help/mobile-connections)** verás qué es compatible y qué necesita cada equipo.
 
 Puedes saltarte este paso y hacerlo más tarde. Un acuario funciona perfectamente sin dispositivos. En ese caso, registras las lecturas a mano.
 

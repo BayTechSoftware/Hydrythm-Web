@@ -2,7 +2,7 @@
 title: Editing your dashboard
 description: Set the column count, add and arrange widgets, resize tiles, and save layouts to reuse on other tanks.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ The dashboard editor sets which widgets appear on a tank's dashboard and how the
 Scroll to the bottom of the dashboard and tap **Edit dashboard**.
 
 :::note The pencil next to the tank name opens something else
-It opens **Edit tank**, the tank profile with volume, livestock, dosing and equipment. That's covered in [Your tank profile](/help/mobile-tank-profile).
+It opens **Edit tank**, the tank profile with volume, livestock, dosing, lighting and flow. That's covered in [Your tank profile](/help/mobile-tank-profile).
 :::
 
 ![The dashboard editor](img/mobile-edit.webp "Each tile shows its name and type. Tap a red cross to remove it.")

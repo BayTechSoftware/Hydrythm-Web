@@ -2,7 +2,7 @@
 title: Ajustes
 description: Guía de cada sección de los ajustes de Cora Mobile, con cuenta, acuarios, Cora Assistant, idioma, notificaciones, automatización y actividad.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-09-30
 order: 32
 group: Account
 ---
@@ -39,14 +39,14 @@ Hay una fila por acuario y, después:
 - **Reordenar acuarios**: el orden en que aparecen al deslizar el panel
 - **Acuarios eliminados**: los acuarios que has borrado, por si necesitas recuperar algo
 
-Abre un acuario para editarlo y para llegar a **Cora Max principal** (el dispositivo que consulta el equipo de ese acuario) y a **Configuración guiada**. Más información sobre Cora Max principal en **[Más de un dispositivo Cora](/help/mobile-multi-device)**.
+Abre un acuario para editarlo y para llegar a **Cora Max principal** (el dispositivo que consulta el equipo de ese acuario), a **Configuración guiada** y a una lista de solo lectura, **Dispositivos en este acuario**. Más información sobre Cora Max principal en **[Más de un dispositivo Cora](/help/mobile-multi-device)**. Para añadir o quitar un dispositivo, usa la [pestaña Dispositivos](/help/mobile-devices).
 
 - **Modo vacaciones**: un plan para quien cuide el acuario mientras estás fuera. Más información en **[Irse de viaje](/help/mobile-vacation)**. Pones las fechas y haces una lista de tareas con la frecuencia de cada una. Cora la convierte en una página sencilla de solo lectura que puedes compartir con esa persona, y no necesita cuenta.
 
 ## Ajustes de la aplicación
 
-- **Notificaciones**: qué avisos llegan a tu teléfono. Más información en **[Notificaciones](/help/mobile-notifications)**.
 - **Hora del resumen**: la hora a la que llega tu resumen diario de Reef Buddy, en tu propia zona horaria. Es un único ajuste para la cuenta, compartido con Cora Max. Más información en **[Reef Buddy](/help/mobile-reef-buddy)**.
+- **Notificaciones**: qué avisos llegan a tu teléfono. Más información en **[Notificaciones](/help/mobile-notifications)**.
 - **Idioma**: el idioma de la cuenta. Lo explicamos más abajo.
 - **Apariencia**: claro, oscuro o igual que tu teléfono.
 - **Acceso a dispositivos**: lo explicamos más abajo.

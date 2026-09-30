@@ -46,7 +46,7 @@ Apri la riga del dispositivo e accedi di nuovo.
 Se l'aggiunta di un Cora Max si blocca a metà, Cora Mobile ti dice quale passo non è riuscito e perché. Sotto trovi **Annulla** e **Riprova**.
 
 - *"Il telefono non è riuscito a raggiungere il Cora Max sulla rete Wi-Fi."* Collega il telefono e Cora Max alla stessa rete Wi-Fi. Su iPhone controlla anche che Cora abbia l'accesso a Rete locale. Ci arrivi da **Impostazioni → Accesso dispositivi** (trovi di più in [Impostazioni](/help/mobile-settings)). Poi tocca **Riprova**.
-- *"Il Cora Max non ha accettato questa sessione di associazione."* Riprovare non serve. Chiudi la schermata e ricomincia da **Dispositivi → Aggiungi dispositivo**.
+- *"Il Cora Max non ha accettato questa sessione di associazione."* Riprovare non serve. Chiudi la schermata e ricomincia da **Dispositivi → Aggiungi dispositivo → Cora**.
 
 Con qualsiasi altro messaggio, tocca **Riprova**.
 
@@ -112,7 +112,7 @@ GHL disattiva la sua API ufficiale dopo ogni aggiornamento firmware, quindi è n
 Cora Max non riesce a raggiungere l'indirizzo IP del controller sulla tua rete.
 
 1. Controlla che il controller sia acceso e collegato alla rete.
-2. Controlla che il suo indirizzo IP non sia cambiato. Se è cambiato, aggiornalo da **Impostazioni → [la tua vasca] → Controller GHL (Beta)**.
+2. Controlla che il suo indirizzo IP non sia cambiato. Se è cambiato, aprilo sul telefono (**Dispositivi**) e aggiornalo in **Connessione**.
 3. Controlla che il Cora Max che legge questa vasca sia sulla stessa rete del controller.
 
 Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indicando il nome della vasca e del dispositivo.

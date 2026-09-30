@@ -2,7 +2,7 @@
 title: Configurer Cora Max
 description: Premier démarrage, Wi-Fi, appairage avec votre compte et choix des aquariums affichés sur Cora Max.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -31,7 +31,7 @@ L’écran affiche le nom sous lequel on le trouve, qui se termine par un court 
 
 Tout le reste se passe dans Cora Mobile, en cinq étapes affichées en haut de la fiche : **Connecter · Wi-Fi · Connexion · Aquariums · Terminé.**
 
-**1 · Connecter.** Sur votre téléphone, **Appareils → Ajouter un appareil** trouve Cora Max et affiche ce qu’il a détecté : son adresse MAC, sa version de micrologiciel, sa variante et sa révision matérielle. Vérifiez que c’est le bon avant de continuer.
+**1 · Connecter.** Sur votre téléphone, touchez **Appareils → Ajouter un appareil → Cora**. Cora trouve le Cora Max et affiche ce qu’il a détecté : son adresse MAC, sa version de micrologiciel, sa variante et sa révision matérielle. Vérifiez que c’est le bon avant de continuer.
 
 **2 · Wi-Fi.** Choisissez votre réseau dans la liste, ou touchez **Rechercher à nouveau**, puis saisissez le mot de passe. Vous le tapez sur le clavier du téléphone, pas sur l’écran mural.
 

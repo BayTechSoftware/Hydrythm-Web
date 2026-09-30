@@ -2,7 +2,7 @@
 title: Geräte und Gerätezustand
 description: Was Cora Max sieht, welches Gerät die Werte eines Beckens abfragt und was du prüfst, wenn keine neuen Werte mehr kommen.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 7
 group: Equipment
 ---
@@ -17,7 +17,7 @@ Cora Max sieht dieselbe Ausrüstung wie dein Handy, weil beide dasselbe Konto le
 
 Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur ein Becken. Jeder Eintrag hat einen Statuspunkt, eine kurze Zusammenfassung (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*) und das Becken, zu dem das Gerät gehört.
 
-Geräte hinzufügen und einrichten geht auf dem Handy leichter. Wie das geht, steht unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices).
+Cora Max zeigt und steuert Geräte, aber hinzugefügt, zugeordnet und entfernt wird jedes Gerät auf dem Handy. Gibt es noch keine Geräte, steht auf diesem Bildschirm **Füge Geräte in der Cora-App hinzu**. Wie du Ausrüstung hinzufügst, steht unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices).
 
 ## Primäres Cora Max: welches Tablet mit deiner Ausrüstung spricht
 

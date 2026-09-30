@@ -9,24 +9,24 @@ group: Equipment
 
 Cora współpracuje ze sprzętem, który już masz. Tutaj znajdziesz listę obsługiwanego sprzętu i to, czego potrzebuje każde połączenie.
 
-Każda marka łączy się trochę inaczej, więc zacznij od miejsca właściwego dla Twojego sprzętu:
+Wszystkie zaczynają się tak samo: **Urządzenia → Dodaj urządzenie**, a potem wybór marki. Każda otwiera dokładnie to, czego potrzebuje, żeby znaleźć Twój sprzęt.
 
-| Marka | Gdzie zacząć |
+| Marka | Co otwiera |
 |---|---|
-| Neptune Apex | Od akwarium. Połączenie z Apex jest w jego profilu |
-| Red Sea ReefBeat | Od akwarium |
-| Jecod / Jebao | **Urządzenia → Znajdź pompę w Twojej sieci** albo Bluetooth |
-| AquaWiz | **Urządzenia → Dodaj AquaWiz** |
-| Maxspect *(beta)* | **Urządzenia → Znajdź pompę w Twojej sieci** |
-| GHL ProfiLux / Mitras *(beta)* | Cora Max, z ustawień akwarium |
-| HYDROS *(beta)* | **Urządzenia → Dodaj HYDROS (Beta)** |
-| Cora Max | **Urządzenia → Dodaj urządzenie** |
+| Cora | Skanowanie w poszukiwaniu nowego Cora Max, przez Wi-Fi albo Bluetooth |
+| Neptune Apex | Jego adres w Twojej sieci, logowanie, a potem wybór akwarium, do którego należy |
+| Red Sea | Skanowanie Twojej sieci, a potem wybór akwarium dla każdego urządzenia |
+| Jecod / Jebao | Skanowanie Twojej sieci albo Bluetooth |
+| Maxspect *(beta)* | To samo skanowanie co Jecod |
+| GHL *(beta)* | Jego adres, interfejs, a dla mini także dane logowania |
+| HYDROS *(beta)* | Klucz urządzenia z aplikacji HYDROS |
+| AquaWiz | Twoje logowanie AquaWiz |
 
 ## Neptune Apex
 
 Cora odczytuje Apex przez sieć lokalną: sondy, gniazda i zamontowane moduły rozszerzeń.
 
-Potrzebujesz adresu Apex w Twojej sieci i danych logowania do niego.
+Dodaj go z **Urządzenia → Dodaj urządzenie → Neptune Apex**. Potrzebujesz jego adresu w Twojej sieci i danych logowania, a potem wybierasz, do którego akwarium należy. Apex może obsługiwać więcej niż jedno akwarium.
 
 Każda sonda, którą zgłasza Apex, staje się źródłem, które możesz umieścić na pulpicie. Gniazda pojawiają się jako przełączniki, a zamontowane moduły rozszerzeń dostają własne kafelki urządzeń.
 
@@ -38,17 +38,17 @@ Cora odczytuje Apex, pokazuje go obok reszty sprzętu i przełącza gniazda, gdy
 
 Cora łączy się ze sprzętem ReefBeat w sieci lokalnej. Obsługiwane są **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun**, a w wersji beta także **ReefControl**, **ReefControl Power**, **ReefWave** i **ReefLED**.
 
-Sprzęt musi być już skonfigurowany w ReefBeat, a przy dodawaniu musi być w tej samej sieci co telefon.
+Sprzęt musi być już skonfigurowany w ReefBeat, a przy dodawaniu musi być w tej samej sieci co telefon. Dodaj go z **Urządzenia → Dodaj urządzenie → Red Sea**, co skanuje Twoją sieć i pyta, do którego akwarium należy każde urządzenie. Urządzenie Red Sea obsługuje jedno akwarium: wybranie innego przenosi je tam.
 
 Każde urządzenie dostaje własną stronę, a jego odczyty stają się źródłami. ReefDose zgłasza głowice i pojemniki. ReefATO+ zgłasza zbiornik i dolewki. ReefMat podaje, na ile dni wystarczy maty. ReefRun zgłasza stan pompy. ReefControl zgłasza swoje sondy w ten sam sposób. ReefWave i ReefLED *(beta)* na razie pokazują tylko tryb, wyłącznie do podglądu.
 
 ## Jecod / Jebao
 
-Cora łączy się z pompami Jecod, odczytuje je i nimi steruje. Pompa Jecod łączy się z Corą na jeden z dwóch sposobów i od tego zależy, co możesz z nią zrobić.
+Cora łączy się z pompami Jecod, odczytuje je i nimi steruje. Dodaj jedną z **Urządzenia → Dodaj urządzenie → Jecod**. Pompa Jecod łączy się z Corą na jeden z dwóch sposobów i od tego zależy, co możesz z nią zrobić.
 
 ![Wyszukiwanie pompy](img/mobile-connections.webp "Wyszukiwanie wyjaśnia, czego potrzebuje i czemu pompa może się nie pojawić za pierwszym razem.")
 
-Pierwszy sposób to Twoja sieć. Użyj **Znajdź pompę w Twojej sieci**. Cora znajdzie pompy, które same się ogłaszają, więc nie trzeba wpisywać adresu. Pompę sieciową możesz odczytywać i sterować nią, gdy ma zasilanie **i jest osiągalna**. Oznacza to, że telefon jest w tej samej sieci albo Cora Max w tej sieci pośredniczy w połączeniu. Poza domem, jeśli na miejscu nie ma Cora Max, pompę tylko sieciową zobaczysz, ale nie zmienisz jej ustawień.
+**Przez Twoją sieć.** Skanowanie znajduje pompy, które same się ogłaszają, więc nie trzeba wpisywać adresu. Pompę sieciową możesz odczytywać i sterować nią, gdy ma zasilanie **i jest osiągalna**. Oznacza to, że telefon jest w tej samej sieci albo Cora Max w tej sieci pośredniczy w połączeniu. Poza domem, jeśli na miejscu nie ma Cora Max, pompę tylko sieciową zobaczysz, ale nie zmienisz jej ustawień.
 
 :::note Pompa często nie odpowiada za pierwszym razem
 Pompy odpowiadają na jedno wyszukiwanie, a na następne już nie. Jeśli Twojej nie ma na liście, wyszukaj jeszcze raz. To nie znaczy, że jest nieosiągalna.
@@ -68,7 +68,7 @@ Jej strona pokazuje ostatnie ustawienia odczytane przez Corę i czas odczytu. Ż
 
 ## Kontroler AquaWiz KH
 
-Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez Twoje konto AquaWiz.
+Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez Twoje konto AquaWiz. Dodaj go z **Urządzenia → Dodaj urządzenie → AquaWiz**.
 
 Potrzebujesz nazwy użytkownika i hasła AquaWiz. Cora loguje się w Twoim imieniu i zachowuje to logowanie, żeby dalej odczytywać dane.
 
@@ -86,9 +86,9 @@ AquaWiz daje jedno logowanie na konto, więc Cora używa tego samego logowania c
 Obsługę gyre Maxspect wciąż testujemy i rozwijamy. Część ustawień może być ograniczona, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
 :::
 
-Cora łączy się z pompami Maxspect Gyre, odczytuje je i nimi steruje.
+Cora łączy się z pompami Maxspect Gyre, odczytuje je i nimi steruje. Dodaj jedną z **Urządzenia → Dodaj urządzenie → Maxspect**, tym samym skanowaniem co w Jecod.
 
-Przy dodawaniu gyre i telefon muszą być w tej samej sieci. Użyj **Urządzenia → Znajdź pompę w Twojej sieci**.
+Przy dodawaniu gyre musi być w tej samej sieci co telefon.
 
 Cora pokazuje wzór fali i prędkość dla **Gyre A** i **Gyre B**, harmonogram gyre (tylko do podglądu, ustawiasz go w aplikacji Maxspect), **Stan pompy** oraz to, czy pompa pracuje i kiedy odczytano ją ostatnio. Więcej w [Sterowaniu sprzętem](/help/mobile-device-control).
 
@@ -102,9 +102,11 @@ Jeśli akwarium obsługuje Cora Max, Cora Mobile łączy się przez niego, takż
 Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
 :::
 
-Cora odczytuje kontroler GHL ProfiLux albo Mitras przez Twoją sieć lokalną: sondy, gniazda, dozowniki, czujniki poziomu, a w modelach Director także wyniki testów KH i jonów.
+Cora odczytuje kontroler GHL ProfiLux albo Mitras: sondy, gniazda, dozowniki, czujniki poziomu, a w modelach Director także wyniki testów KH i jonów.
 
-Podłączasz go z poziomu **Cora Max**, a nie telefonu: otwórz ustawienia akwarium i dodaj tam jego adres IP. Kroki opisuje [Sterowanie sprzętem z Cora Max](/help/max-device-control). Gdy już jest podłączony, jego odczyty i sterowanie pojawiają się też na telefonie.
+Dodaj go z **Urządzenia → Dodaj urządzenie → GHL**. Telefon nie może go wyszukać, więc wpisz jego adres i wybierz interfejs samodzielnie: **Official API**, **HTTP** albo **ProfiLux mini** (dla niego trzeba też podać dane logowania). Potem wybierz, do którego akwarium należy. Kontroler GHL może obsługiwać więcej niż jedno akwarium.
+
+Kontroler GHL nie łączy się z telefonem bezpośrednio. Pokazuje **Czeka na Cora Max**, dopóki Cora Max w jego sieci go nie odczyta, a potem jego odczyty i sterowanie pojawiają się wszędzie.
 
 Żeby Cora w ogóle dotarła do kontrolera, API GHL musi być włączone. GHL wyłącza je po każdej aktualizacji firmware, więc warto to sprawdzić najpierw, jeśli nic się nie pojawia. Co robić dalej, opisuje [Rozwiązywanie problemów](/help/troubleshooting).
 
@@ -116,7 +118,7 @@ Obsługę HYDROS wciąż testujemy i rozwijamy. Część odczytów albo funkcji 
 
 HYDROS to jedyna integracja, która nie wymaga, żeby Cora i kontroler były w tej samej sieci. Cora łączy się z nim przez własną chmurę HYDROS, więc działa też poza domem, a nawet przy zamkniętej aplikacji.
 
-Żeby go podłączyć, otwórz aplikację HYDROS i utwórz **klucz urządzenia** dla dostawcy **cora-iq**. Wybierz **Odczyt**, jeśli chcesz tylko jego odczytów, albo **Zapis**, jeśli chcesz też sterować nim z Cory. Potem przejdź do **Urządzenia → Dodaj HYDROS (Beta)** i wklej klucz.
+Żeby go podłączyć, otwórz aplikację HYDROS i utwórz **klucz urządzenia** dla dostawcy **cora-iq**. Wybierz **Odczyt**, jeśli chcesz tylko jego odczytów, albo **Zapis**, jeśli chcesz też sterować nim z Cory. Potem przejdź do **Urządzenia → Dodaj urządzenie → HYDROS** i wklej klucz.
 
 Po połączeniu Cora importuje historię z ostatnich 33 dni, a potem czyta dalej od tego miejsca. Co możesz odczytać, a z kluczem zapisu też kontrolować, opisuje [Sterowanie sprzętem](/help/mobile-device-control).
 

@@ -2,7 +2,7 @@
 title: Editar tu panel
 description: Elige cuántas columnas quieres, añade y ordena widgets, cambia el tamaño de las casillas y guarda diseños para usarlos en otros acuarios.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ En el editor decides qué widgets salen en el panel de un acuario y en qué orde
 Baja hasta el final del panel y toca **Editar panel**.
 
 :::note El lápiz junto al nombre del acuario abre otra pantalla
-Ese lápiz abre **Editar acuario**, es decir, el perfil del acuario con el volumen, la fauna, la dosificación y el equipo. Más información en [El perfil de tu acuario](/help/mobile-tank-profile).
+Ese lápiz abre **Editar acuario**, es decir, el perfil del acuario con el volumen, la fauna, la dosificación, la iluminación y el flujo. Más información en [El perfil de tu acuario](/help/mobile-tank-profile).
 :::
 
 ![El editor de panel](img/mobile-edit.webp "Cada casilla muestra su nombre y su tipo. Toca la cruz roja para quitarla.")

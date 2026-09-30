@@ -2,7 +2,7 @@
 title: Ayarlar
 description: Cora Mobile ayarlarının bütün bölümleri. Hesap, akvaryumlar, Cora Assistant, dil, bildirimler, otomasyon ve etkinlik.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-09-30
 order: 32
 group: Account
 ---
@@ -39,14 +39,14 @@ Her akvaryum için bir satır, altında şunlar:
 - **Akvaryumları yeniden sırala**: panoyu kaydırdığınızda akvaryumların hangi sırayla görüneceği
 - **Kaldırılan akvaryumlar**: sildiğiniz akvaryumlar. Bir şeyi geri almanız gerekirse diye durur
 
-Bir akvaryumu açtığınızda **Birincil Cora Max** (akvaryumun ekipmanını hangi cihazın yokladığı) ve **Rehberli kurulum** ayarlarına ulaşır, akvaryumun kendisini düzenlersiniz. Birincil Cora Max'in ayrıntıları **[Birden fazla Cora cihazı](/help/mobile-multi-device)** sayfasında.
+Bir akvaryumu açtığınızda **Birincil Cora Max** (akvaryumun ekipmanını hangi cihazın yokladığı), **Rehberli kurulum** ve salt okunur bir **Bu akvaryumdaki cihazlar** listesine ulaşır, akvaryumun kendisini düzenlersiniz. Birincil Cora Max'in ayrıntıları **[Birden fazla Cora cihazı](/help/mobile-multi-device)** sayfasında. Bir cihaz eklemek ya da kaldırmak için **[Cihazlar sekmesini](/help/mobile-devices)** kullanın.
 
 - **Tatil modu**: siz yokken akvaryuma bakacak kişi için bir plan. Ayrıntılar **[Tatile çıkarken](/help/mobile-vacation)** sayfasında. Tarihleri girer ve yapılacak işleri, ne sıklıkla yapılacaklarıyla birlikte listelersiniz. Cora da bunu bakıcınızla paylaşabileceğiniz sade, salt okunur bir sayfaya çevirir. Bakıcının hesap açmasına gerek yoktur.
 
 ## Uygulama Ayarları
 
-- **Bildirimler**: telefonunuza nelerin geleceği. Ayrıntılar **[Bildirimler](/help/mobile-notifications)** sayfasında.
 - **Özet saati**: günlük Reef Buddy özetinizin geldiği saat, kendi saat diliminizde. Bu, hesap için tek bir ayardır ve Cora Max ile paylaşılır. Ayrıntılar **[Reef Buddy](/help/mobile-reef-buddy)** sayfasında.
+- **Bildirimler**: telefonunuza nelerin geleceği. Ayrıntılar **[Bildirimler](/help/mobile-notifications)** sayfasında.
 - **Dil**: hesabın dili. Aşağıda anlatılıyor.
 - **Görünüm**: açık, koyu ya da telefonunuzun ayarına uygun.
 - **Cihaz erişimi**: aşağıda anlatılıyor.

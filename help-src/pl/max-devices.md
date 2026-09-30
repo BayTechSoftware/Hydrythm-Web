@@ -2,7 +2,7 @@
 title: Urządzenia i ich stan
 description: Co widzi Cora Max, które urządzenie odpytuje każde akwarium i co sprawdzić, gdy odczyty przestają napływać.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 7
 group: Equipment
 ---
@@ -17,7 +17,7 @@ Cora Max widzi ten sam sprzęt co telefon, bo oba korzystają z tego samego kont
 
 Plakietki filtra u góry pokazują **Wszystkie akwaria** albo tylko jedno akwarium. Przy każdym urządzeniu jest kropka stanu, jednolinijkowe podsumowanie tego, co zawiera (*21 gniazd · 4 karmienia*, *zostało 19 testów*), i akwarium, do którego należy.
 
-Sprzęt łatwiej dodawać i konfigurować na telefonie. Więcej w [Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices).
+Cora Max pokazuje urządzenia i nimi steruje, ale każde urządzenie dodajesz, przypisujesz i usuwasz na telefonie. Gdy nie ma jeszcze żadnych urządzeń, ten ekran pokazuje **Dodaj urządzenia w aplikacji Cora**. Więcej o dodawaniu sprzętu w [Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices).
 
 ## Główne Cora Max: który tablet łączy się ze sprzętem
 

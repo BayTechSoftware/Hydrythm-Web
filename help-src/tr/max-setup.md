@@ -2,7 +2,7 @@
 title: Cora Max'i kurma
 description: İlk açılış, Wi-Fi'ye bağlanma, hesabınızla eşleştirme ve akvaryumlarınızı büyük ekrana getirme.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -31,7 +31,7 @@ Ekranda cihazın görünen adı yazar. Adın sonunda kısa bir kimlik kodu vard�
 
 Gerisini Cora Mobile'da yaparsınız. Kurulum beş adımdır, adımların adları pencerenin üstünde yazar: **Bağlan · Wi-Fi · Kimlik Doğrulama · Akvaryumlar · Bitti.**
 
-**1 · Bağlan.** Telefonunuzda **Cihazlar → Cihaz Ekle**'ye dokunun. Cora Mobile cihazı bulur ve bilgilerini gösterir: MAC adresi, yazılım sürümü, model ve donanım revizyonu. Devam etmeden önce doğru cihaz olduğunu kontrol edin.
+**1 · Bağlan.** Telefonunuzda **Cihazlar → Cihaz Ekle → Cora**'ya dokunun. Cora Mobile cihazı bulur ve bilgilerini gösterir: MAC adresi, yazılım sürümü, model ve donanım revizyonu. Devam etmeden önce doğru cihaz olduğunu kontrol edin.
 
 **2 · Wi-Fi.** Listeden ağınızı seçin ya da **Yeniden tara**'ya dokunun. Sonra şifreyi girin. Şifreyi duvardaki ekranda değil, telefonunuzun klavyesinde yazarsınız.
 

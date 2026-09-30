@@ -2,7 +2,7 @@
 title: Setting up Cora Max
 description: First start, connecting to Wi-Fi, pairing with your account, and getting your tanks onto the big screen.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -31,7 +31,7 @@ The screen shows the name your phone will see, ending in a short code. If you're
 
 Everything else happens in Cora Mobile, in five steps you can see across the top of the sheet: **Connect · WiFi · Auth · Tanks · Done.**
 
-**1 · Connect.** Tap **Devices → Add Device** on your phone. It finds Cora Max and shows its MAC address, firmware version, variant and hardware revision, so you can check it's the right one before you go on.
+**1 · Connect.** On your phone, tap **Devices → Add Device → Cora**. It finds Cora Max and shows its MAC address, firmware version, variant and hardware revision, so you can check it's the right one before you go on.
 
 **2 · WiFi.** Pick your network from the list, or tap **Rescan**, then enter the password on your phone's keyboard.
 

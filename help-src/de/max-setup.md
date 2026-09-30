@@ -2,7 +2,7 @@
 title: Cora Max einrichten
 description: Cora Max zum ersten Mal einschalten, mit dem WLAN verbinden, mit deinem Konto koppeln und deine Becken auf den großen Bildschirm holen.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -31,7 +31,7 @@ Auf dem Bildschirm steht der Name, unter dem das Gerät gefunden wird. Er endet 
 
 Alles Weitere machst du in Cora Mobile, in fünf Schritten, die oben im Fenster stehen: **Verbinden · Wi-Fi · Anmeldung · Becken · Fertig.**
 
-**1 · Verbinden.** Tippe auf dem Handy auf **Geräte → Gerät hinzufügen**. Cora Mobile findet das Gerät und zeigt dir MAC-Adresse, Firmware-Version, Variante und Hardware-Revision. So prüfst du, ob es das richtige ist, bevor es weitergeht.
+**1 · Verbinden.** Tippe auf dem Handy auf **Geräte → Gerät hinzufügen → Cora**. Cora Mobile findet das Gerät und zeigt dir MAC-Adresse, Firmware-Version, Variante und Hardware-Revision. So prüfst du, ob es das richtige ist, bevor es weitergeht.
 
 **2 · Wi-Fi.** Wähle dein Netzwerk aus der Liste oder tippe auf **Erneut scannen**. Gib dann das Passwort ein, bequem auf der Handytastatur.
 

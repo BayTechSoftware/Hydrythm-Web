@@ -2,7 +2,7 @@
 title: Akvaryum profiliniz
 description: Cora'nın ölçümlerinizi yorumlarken kullandığı hacim, canlı, ekipman ve dozaj bilgileri.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ Tamamlanma yüzdesi süs olsun diye yok. Dozaj ürünlerini girerseniz dozaj hes
 | Canlılar | Akvaryumda neler olduğu ve ne kadar kalabalık olduğu |
 | Sıcaklık Kontrolü | Isıtma ve soğutma ekipmanı |
 | Aydınlatma | Armatürler ve aydınlatma süresi |
-| Akış ve Filtrasyon | Pompalar, skimmer ve medya |
-| Neptune Cihazları | Bu akvaryumdaki Apex ve modülleri |
-| Red Sea Cihazları | Bu akvaryuma atanmış ReefBeat üniteleri |
-| Cora Max | Bu akvaryuma hangi ekranların bağlı olduğu |
+| Akış ve Filtrasyon | Pompalar, skimmer, medya ve kontrol ünitenizin markası ve modeli |
 | Parametre Kaynakları | Her parametrenin hangi kaynaktan okunduğu |
 | Zararlı ve Tedavi | Karşılaştığınız zararlılar ve kullandığınız tedaviler |
 
-![Cihaz ve kaynak bölümleri](img/mobile-tank-profile-devices.webp "Profilin alt yarısı: ekipmanınız, her parametrenin kaynağı ve tedavi geçmişi.")
+![Profilin alt yarısı](img/mobile-tank-profile-devices.webp "Parametre kaynakları ve tedavi geçmişi.")
 
 Bir bölümü açmak için üzerine dokunun. Her bölümün yanındaki bilgi simgesi, alanların ne işe yaradığını açıklar.
+
+:::note Cihazlar artık Cihazlar sekmesinde
+Apex'iniz, Red Sea üniteleriniz ve diğer her cihaz artık profilden değil, **Cihazlar** sekmesinden eklenir, atanır ve kaldırılır. Ayrıntılar [Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices) sayfasında. Yalnızca neyin atandığını kontrol etmek isterseniz akvaryum ayarlarında salt okunur bir **Bu akvaryumdaki cihazlar** listesi bulunur.
+:::
 
 ## Hacim
 

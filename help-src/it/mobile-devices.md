@@ -1,29 +1,21 @@
 ---
 title: Aggiungere, modificare e rimuovere dispositivi
-description: Come aggiungere attrezzatura a Cora, assegnarla a una vasca, rinominarla e rimuoverla nel modo giusto.
+description: Come aggiungere attrezzatura a Cora, assegnarla a una vasca e rimuoverla nel modo giusto, tutto da un unico posto.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 9
 group: Equipment
 ---
 
-Nella scheda **Dispositivi** trovi tutto quello che hai collegato, diviso per marca. Ogni gruppo si può chiudere, così l'elenco resta leggibile anche con una stanza piena di attrezzatura.
+Aggiungi, modifica, assegna e rimuovi ogni dispositivo dalla scheda **Dispositivi**, divisa per marca. Ogni gruppo si può chiudere, così l'elenco resta leggibile anche con una stanza piena di attrezzatura.
 
 ![La scheda Dispositivi](img/mobile-devices.webp "L'attrezzatura è raggruppata per marca. Ogni gruppo si può chiudere.")
 
 ## Aggiungere attrezzatura
 
-Sotto l'elenco ci sono tre pulsanti, ognuno con il suo compito:
+Tocca **Aggiungi dispositivo**, poi scegli la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* oppure **AquaWiz**. Ognuna apre esattamente quello che le serve per trovare la tua attrezzatura: una ricerca in rete, un indirizzo IP, un accesso o una chiave dispositivo. [Collegare la tua attrezzatura](/help/mobile-connections) spiega cosa serve per ogni marca.
 
-| Pulsante | Cosa aggiunge |
-|---|---|
-| **Aggiungi dispositivo** | Un Cora Max. Trova le unità già sul tuo Wi-Fi o quelle vicine via Bluetooth. Se la ricerca non lo trova, in questa schermata c'è anche **Inserisci l'indirizzo IP manualmente**. |
-| **Trova una pompa sulla tua rete** | Le pompe Jecod che si annunciano sulla rete locale |
-| **Aggiungi AquaWiz** | Un controller AquaWiz, attraverso il tuo account AquaWiz |
-
-![Aggiungere un Cora Max](img/mobile-add-device.webp "Aggiungi dispositivo cerca un Cora Max su Wi-Fi e Bluetooth.")
-
-Neptune Apex e Red Sea ReefBeat si collegano dalla vasca e non da questo elenco. Trovi come fare in [Collegare la tua attrezzatura](/help/mobile-connections).
+**Cora** è come associ un nuovo Cora Max. Trova le unità già sul tuo Wi-Fi, o quelle vicine via Bluetooth. Se la ricerca non lo trova, in questa schermata c'è anche **Inserisci l'indirizzo IP manualmente**.
 
 Quando aggiungi un riscaldatore, una pompa o uno schiumatoio, marca e modello si **completano da soli**. Inizia a scrivere e Cora ti suggerisce le marche da un lungo elenco verificato. Se la tua non c'è, scrivila lo stesso: Cora salva quello che scrivi.
 
@@ -33,13 +25,15 @@ Quando aggiungi un'attrezzatura trovata in rete locale, deve essere sulla stessa
 Quindi un'attrezzatura che a casa legge bene può mostrare valori più vecchi quando sei fuori, a meno che sul posto non ci sia un Cora Max che la legge. Non è un guasto: dipende da dove si può raggiungere l'attrezzatura.
 :::
 
-## Assegnare un dispositivo a una vasca
+## La pagina di un dispositivo
 
-Quasi tutta l'attrezzatura appartiene a una sola vasca. È questa assegnazione che fa comparire le letture sulla dashboard di quella vasca.
+Apri un dispositivo qualsiasi dall'elenco. Prima trovi i suoi comandi, poi tre sezioni che funzionano allo stesso modo per ogni marca.
 
-**Cora Max fa eccezione**: si può assegnare fino a quattro vasche e passa dall'una all'altra sullo schermo. Ne parliamo in [Più di un dispositivo Cora](/help/mobile-multi-device).
+- **Acquari** mostra a quale vasca (o vasche) è assegnato. Tocca **Modifica** per riassegnarlo.
+- **Connessione** è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.
+- **Rimuovi dispositivo**, in fondo.
 
-Apri il dispositivo e scegli **Vasca**. Se hai più impianti, è l'impostazione più importante: un riscaldatore assegnato alla vasca sbagliata funziona benissimo, ma i dati finiscono nel posto sbagliato.
+Cora Max, Neptune Apex e GHL possono servire più di una vasca, quindi il loro selettore di vasca è un elenco a scelta multipla. Cora Max si può assegnare fino a quattro vasche. Vedi [Più di un dispositivo Cora](/help/mobile-multi-device). Tutto il resto, incluso HYDROS, serve una vasca alla volta: sceglierne una diversa sposta lì il dispositivo e lo toglie da quella vecchia.
 
 :::warning Assegna la vasca prima di fidarti delle letture
 Un dispositivo senza vasca continua a mandare dati, ma i numeri non finiscono da nessuna parte. Se un dispositivo appena aggiunto non compare su nessuna dashboard, controlla prima questo.
@@ -61,11 +55,12 @@ Ogni riga mostra lo stato attuale. Quello che vuoi vedere è un aggiornamento re
 | "Aggiornato 3 h fa" su un dispositivo che riporta solo ogni poche ore | Va bene |
 | "Impossibile raggiungere…" | C'è un problema di rete o il dispositivo è spento |
 | "…ha rifiutato l'accesso" | L'account del produttore va ricollegato. Apri il dispositivo e accedi di nuovo |
+| "In attesa di Cora Max" | Un controller GHL appena aggiunto: compare una volta che un Cora Max sulla sua rete l'ha letto |
 | Niente | Non ha mai mandato dati. Controlla la vasca assegnata e il collegamento |
 
 ## Rimuovere un dispositivo
 
-Apri il dispositivo e scegli **Rimuovi**. Cora ti chiede di confermare e ti dice esattamente cosa viene rimosso.
+Apri il dispositivo e tocca **Rimuovi dispositivo**. Cora ti chiede di confermare: *"{name} verrà rimosso da Cora. Il dispositivo stesso non viene ripristinato né modificato."*
 
 **Le letture restano.** Dopo la rimozione Cora non raccoglie più nuovi dati da quel dispositivo, ma lo storico già raccolto resta nella vasca e i widget collegati mantengono le letture passate.
 

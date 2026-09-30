@@ -184,7 +184,7 @@
 <p>The manufacturer rejected the saved sign-in. Almost always, that's because you changed your password with them. Open the device's row and sign in again.</p>
 <h2 id="pairing-a-cora-max-fails">Pairing a Cora Max fails</h2>
 <p>If adding a Cora Max stops partway, Cora Mobile tells you which step failed and why, with <strong>Cancel</strong> and <strong>Retry</strong> underneath.</p>
-<ul><li><em>"Your phone could not reach the Cora Max on your Wi-Fi."</em> Put your phone and Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access. <strong>Settings → Device access</strong> takes you there (see <a href="/help/mobile-settings">Settings</a>). Then tap <strong>Retry</strong>.</li><li><em>"The Cora Max did not accept this pairing session."</em> Retrying won't help here. Close the screen and start again from <strong>Devices → Add Device</strong>.</li></ul>
+<ul><li><em>"Your phone could not reach the Cora Max on your Wi-Fi."</em> Put your phone and Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access. <strong>Settings → Device access</strong> takes you there (see <a href="/help/mobile-settings">Settings</a>). Then tap <strong>Retry</strong>.</li><li><em>"The Cora Max did not accept this pairing session."</em> Retrying won't help here. Close the screen and start again from <strong>Devices → Add Device → Cora</strong>.</li></ul>
 <p>For any other message, tap <strong>Retry</strong>.</p>
 <h2 id="cora-max-shows-old-data">Cora Max shows old data</h2>
 <p>Look at the status tag in the top bar. <strong>Online</strong> and <strong>Cloud</strong> are both fine. If you have more than one Cora, the one that isn't collecting the data shows <strong>Cloud</strong>, and its readings are just as current. <strong>Stale</strong> or <strong>Offline</strong> means Cora Max has lost its source and is showing the last data it got. That's the right behaviour, but the data isn't current.</p>
@@ -212,7 +212,7 @@
 <p>GHL turns its official API off after every firmware update, so this is normal after an update, not a fault. Turn it back on from <strong>System → GHL API</strong> in GHL Control Center or GHL Connect, on the controller itself. Cora keeps checking and reconnects on its own once it's back on.</p>
 <h2 id="ghl-controller-unreachable">"GHL controller unreachable"</h2>
 <p>Cora Max can't reach the controller's IP address on your network.</p>
-<ol><li>Check the controller is powered on and connected to your network.</li><li>Check its IP address hasn't changed. If it has, update it from <strong>Settings → [your tank] → GHL controller (Beta)</strong>.</li><li>Check the Cora Max reading this tank is on the same network as the controller.</li></ol>
+<ol><li>Check the controller is powered on and connected to your network.</li><li>Check its IP address hasn't changed. If it has, open it on your phone (<strong>Devices</strong>) and update it under <strong>Connection</strong>.</li><li>Check the Cora Max reading this tank is on the same network as the controller.</li></ol>
 <p>If that doesn't fix it, email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> with the tank and device name.</p>
 <h2 id="a-hydros-controller-shows-as-offline-or-not-reporting">A HYDROS™ controller shows as offline or not reporting</h2>
 <p>HYDROS reports through its own cloud, so this usually means the controller itself has lost power or its own network connection, not a problem with Cora. Check it in the HYDROS app. Readings on Cora catch up once it's back online, and a command sent while it looks offline isn't sent at all.</p>
@@ -312,7 +312,7 @@
 <h2 id="still-stuck">Still stuck</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Tell us which tank, which screen, and what you expected to see. It helps us give you a useful answer faster.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/faq"><span>Previous</span><b>Frequently asked questions</b></a><a class="pn-n" href="/help/glossary"><span>Next</span><b>Glossary</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.79 and Cora Mobile 0.5.80. Last checked 2026-09-30.</p>
+      <p class="stamp">Written for Cora Max 0.28.80 and Cora Mobile 0.5.81. Last checked 2026-09-30.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

@@ -62,9 +62,9 @@ Bant kapanmıyorsa ya da tekrar tekrar çıkıyorsa [Sorun giderme](/help/troubl
 GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir.
 :::
 
-Bir GHL kontrol cihazını **Ayarlar → [akvaryumunuz] → GHL denetleyici (Beta)**'dan bağlayın. Ağınızdaki IP adresini girin ve **Algıla**'ya dokunun. Cora önce kontrol cihazının resmi API'sini, sonra diğer arayüzlerini dener ve hangisini bulduğunu size söyler.
+Bir GHL kontrol cihazını telefonunuzdan bağlayın: **Cihazlar → Cihaz Ekle → GHL**. Adımlar için [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın. Cora Max, onu ağındaki bir Cora Max okuduktan sonra gösterir ve kontrol eder; kurulumun kendisi telefonda gerçekleşir.
 
-Hiçbir şey yanıt vermezse ve kontrol cihazı bir ProfiLux mini ise Cora bir yedek yol sunar: giriş bilgilerini girin, Cora problarını, prizlerini, dozaj ünitelerini ve seviye sensörlerini okur. **Cora'dan kontrole izin ver (Beta)** açıkken bir mini, diğer her GHL kontrol cihazıyla aynı şekilde prizlerini de açıp kapatabilir. Ayar noktaları ve besleme molası gibi geri kalan her şey için bir ProfiLux 3, 4 ya da Mitras gerekir.
+Bir ProfiLux mini problarını, prizlerini, dozaj ünitelerini ve seviye sensörlerini okur. **Cora'dan kontrole izin ver (Beta)** açıkken bir mini, diğer her GHL kontrol cihazıyla aynı şekilde prizlerini de açıp kapatabilir. Ayar noktaları ve besleme molası gibi geri kalan her şey için bir ProfiLux 3, 4 ya da Mitras gerekir.
 
 Cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kontroller kapalıdır. Varsayılan olarak kapalıdır. Açıldıktan sonra bir priz **Her zaman açık**, **Her zaman kapalı** ya da **Otomatiğe dön** olarak ayarlanabilir, sıcaklık ya da pH gibi bir ayar noktası izin verilen aralığını gösterir ve aralık dışındaki bir değeri reddeder. Her iki değişiklik türü de kontrol cihazının kendisine kaydedilir ve Cora sonradan onunla bağlantısını kaybetse bile orada kalır. Bir ısıtıcıya ya da geri dönüş pompasına dokunuyor gibi görünen bir değişiklik sizden iki kez onay ister.
 
@@ -78,9 +78,7 @@ Kontrol cihazı bir değişikliği kabul etmiyorsa GHL API'si muhtemelen kapalı
 HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir.
 :::
 
-HYDROS, kontrol cihazına buluttan ulaşan tek entegrasyondur. Bu yüzden Cora Max, kontrol cihazından farklı bir ağdayken bile çalışır. **Ayarlar → [akvaryumunuz] → HYDROS (Beta)**'dan bağlayın.
-
-HYDROS uygulamasında **cora-iq** sağlayıcısı için bir cihaz anahtarı oluşturun: yalnızca ölçümler için **Read**'i, kontrol de etmek için **Write**'ı seçin. Anahtarı yapıştırın, **Doğrula**'ya dokunun, akvaryumu seçin, ardından **Kaydet**'e dokunun. Bağlandıktan sonra geçmişinin son 33 günü içe aktarılır.
+HYDROS, kontrol cihazına buluttan ulaşan tek entegrasyondur. Bu yüzden Cora Max, kontrol cihazından farklı bir ağdayken bile çalışır. Yalnızca telefonunuzdan kurulur: **Cihazlar → Cihaz Ekle → HYDROS**. Adımlar için [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
 
 Okuma ve kontrol etme telefondakiyle aynı şekilde çalışır; çıkışlar, modlar, dozaj kafaları ve test cihazı komutları ile her kafanın doz sınırları için [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasına bakın.
 

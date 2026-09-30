@@ -2,7 +2,7 @@
 title: Il profilo della tua vasca
 description: Volume, popolazione, attrezzatura e dosaggio: i dati che Cora usa per interpretare le tue letture.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ La percentuale in alto indica quanta parte del profilo hai compilato. Più il pr
 | Popolazione | Cosa c'è in vasca e quanto è popolata |
 | Controllo della temperatura | Riscaldatori e refrigeratori |
 | Illuminazione | Plafoniere e fotoperiodo |
-| Flusso e filtrazione | Pompe, schiumatoio e materiali filtranti |
-| Dispositivi Neptune | L'Apex di questa vasca e i suoi moduli |
-| Dispositivi Red Sea | Le unità ReefBeat assegnate a questa vasca |
-| Cora Max | Gli schermi che servono questa vasca |
+| Flusso e filtrazione | Pompe, schiumatoio, materiali filtranti e marca e modello del tuo controller |
 | Fonti dei parametri | Da quale fonte arriva ogni parametro |
 | Parassiti e trattamento | I problemi che hai avuto e cosa hai usato |
 
-![Le sezioni di dispositivi e fonti](img/mobile-tank-profile-devices.webp "La metà inferiore del profilo: la tua attrezzatura, da dove viene ogni parametro, e lo storico dei trattamenti.")
+![La metà inferiore del profilo](img/mobile-tank-profile-devices.webp "Fonti dei parametri e storico dei trattamenti.")
 
 Tocca una sezione per aprirla. L'icona delle informazioni accanto a ogni sezione spiega a cosa servono i campi.
+
+:::note I dispositivi ora vivono nella scheda Dispositivi
+Il tuo Apex, le unità Red Sea e ogni altro dispositivo si aggiungono, si assegnano e si rimuovono dalla scheda **Dispositivi**, non dal profilo. Vedi [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices). Le impostazioni della vasca mostrano un elenco in sola lettura **Dispositivi su questa vasca** se vuoi solo controllare cosa è assegnato.
+:::
 
 ## Volume
 

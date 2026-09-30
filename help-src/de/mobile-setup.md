@@ -2,7 +2,7 @@
 title: Cora Mobile einrichten
 description: Installier Cora, leg dein Konto an, füg dein erstes Becken hinzu und hol dir die ersten Messwerte auf den Bildschirm.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ Der Einrichtungsassistent fragt die folgenden Punkte ab. Alles davon kannst du s
 2. **Typ**: Mischriff, SPS-dominiert, Weichkorallen oder nur Fische.
 3. **Abmessungen und Volumen**: das tatsächliche Wasservolumen mit Technikbecken. Damit rechnet Cora die Dosierungen aus. Es sollte also ungefähr stimmen.
 
-Mehr fragt der Assistent nicht. Alles andere, also Besatz, Ausrüstung, Dosierung, Zielwerte, Beleuchtung und Strömung, trägst du danach in deinem [Beckenprofil](/help/mobile-tank-profile) ein, wann es dir passt.
+Tippe danach auf **Geräte hinzufügen**, um direkt deine Ausrüstung hinzuzufügen, oder überspring das vorerst. Alles andere, also Besatz, Dosierung, Zielwerte, Beleuchtung und Strömung, trägst du danach in deinem [Beckenprofil](/help/mobile-tank-profile) ein, wann es dir passt.
 
 :::note Das Alter des Beckens beeinflusst die Bewertung
 Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. Der Einrichtungsassistent fragt nicht danach. Trag das **Startdatum des Beckens** in deinem Beckenprofil unter **Beckenmaße** ein. Fährt dein Becken gerade ein, tippe auf dem Dashboard auf **Startest du ein neues Becken?** und schalte das begleitete Einfahren ein.
@@ -49,7 +49,7 @@ Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. 
 
 ## Deine Ausrüstung verbinden
 
-Steht das Becken, geh in den Tab **Geräte** und füg deine Ausrüstung hinzu. Cora arbeitet mit Geräten, die du schon hast. Was unterstützt wird und was du jeweils brauchst, steht unter **[Deine Ausrüstung verbinden](/help/mobile-connections)**.
+Steht das Becken, geh in den Tab **Geräte**, tippe auf **Gerät hinzufügen** und wähl die Marke. Cora arbeitet mit Geräten, die du schon hast. Was unterstützt wird und was du jeweils brauchst, steht unter **[Deine Ausrüstung verbinden](/help/mobile-connections)**.
 
 Du kannst diesen Schritt auch überspringen und später nachholen. Ein Becken funktioniert auch ohne Geräte. Du trägst die Messwerte dann von Hand ein.
 

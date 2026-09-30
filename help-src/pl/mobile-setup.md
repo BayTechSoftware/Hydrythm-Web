@@ -2,7 +2,7 @@
 title: Pierwsze kroki z Cora Mobile
 description: Zainstaluj Corę, załóż konto, dodaj pierwsze akwarium i zobacz pierwsze odczyty na ekranie.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ Kreator konfiguracji pyta o poniższe rzeczy. Wszystko możesz później zmieni�
 2. **Typ**: rafa mieszana, przewaga SPS, koralowce miękkie, tylko ryby.
 3. **Wymiary i objętość**: rzeczywista objętość wody razem z sumpem. Na niej opierają się obliczenia dawek, więc warto podać ją w miarę dokładnie.
 
-To cały kreator. Resztę (obsadę, sprzęt, dozowanie, wartości docelowe, oświetlenie, przepływ) uzupełnisz później w [profilu akwarium](/help/mobile-tank-profile), we własnym tempie.
+Potem dotknij **Dodaj urządzenia**, żeby od razu przejść do dodawania sprzętu, albo pomiń to na razie. Resztę uzupełnisz później w [profilu akwarium](/help/mobile-tank-profile), we własnym tempie. To obejmuje obsadę, dozowanie, wartości docelowe, oświetlenie i przepływ.
 
 :::note Wiek akwarium wpływa na ocenę odczytów
 Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku. Kreator o to nie pyta. W profilu akwarium, w sekcji **Wymiary akwarium**, ustaw pole **Data uruchomienia akwarium**. Jeśli akwarium dopiero się cykluje, dotknij **Zaczynasz nowe akwarium?** na pulpicie, żeby włączyć prowadzone cyklowanie.
@@ -49,7 +49,7 @@ Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku. K
 
 ## Podłączanie sprzętu
 
-Gdy akwarium już jest, przejdź do zakładki **Urządzenia** i dodaj sprzęt. Cora współpracuje ze sprzętem, który już masz. Co jest obsługiwane i czego potrzebuje każde urządzenie, przeczytasz w **[Podłączaniu sprzętu](/help/mobile-connections)**.
+Gdy akwarium już jest, przejdź do zakładki **Urządzenia**, dotknij **Dodaj urządzenie** i wybierz markę. Cora współpracuje ze sprzętem, który już masz. Co jest obsługiwane i czego potrzebuje każde urządzenie, przeczytasz w **[Podłączaniu sprzętu](/help/mobile-connections)**.
 
 Ten krok możesz pominąć i wrócić do niego później. Akwarium działa świetnie także bez urządzeń. Wtedy wpisujesz odczyty ręcznie.
 

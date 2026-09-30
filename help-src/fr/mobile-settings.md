@@ -2,7 +2,7 @@
 title: Réglages
 description: Toutes les sections des réglages de Cora Mobile : compte, aquariums, Cora Assistant, langue, notifications, automatisation et activité.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-09-30
 order: 32
 group: Account
 ---
@@ -39,7 +39,7 @@ Une ligne par aquarium, puis :
 - **Réorganiser les aquariums** : l’ordre dans lequel ils défilent quand vous balayez le tableau de bord
 - **Aquariums supprimés** : les aquariums que vous avez supprimés, si vous devez y récupérer quelque chose
 
-Ouvrez un aquarium pour modifier ses informations, et pour accéder à **Cora Max principal** (l’appareil qui interroge l’équipement de cet aquarium) et à **Configuration guidée**. Cora Max principal est expliqué en détail dans **[Plus d’un appareil Cora](/help/mobile-multi-device)**.
+Ouvrez un aquarium pour modifier ses informations, et pour accéder à **Cora Max principal** (l’appareil qui interroge l’équipement de cet aquarium), à **Configuration guidée** et à une liste **Appareils sur cet aquarium** en lecture seule. Cora Max principal est expliqué en détail dans **[Plus d’un appareil Cora](/help/mobile-multi-device)**. Pour ajouter ou retirer un appareil, utilisez l’[onglet Appareils](/help/mobile-devices).
 
 - **Mode vacances** : un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et dressez la liste des tâches avec leur fréquence. Cora en fait une page simple, en lecture seule, que vous partagez avec cette personne. Elle n’a pas besoin de compte. Tout est expliqué dans **[Partir en vacances](/help/mobile-vacation)**.
 

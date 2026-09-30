@@ -2,7 +2,7 @@
 title: El perfil de tu acuario
 description: Volumen, fauna, equipo y dosificación. Con estos datos Cora interpreta tus lecturas.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ El porcentaje de arriba muestra cuánto del perfil has rellenado. Cuanto más co
 | Fauna | Qué vive en el acuario y cuánta carga tiene |
 | Control de temperatura | Calentadores y enfriadores |
 | Iluminación | Pantallas de luz y fotoperiodo |
-| Flujo y filtración | Bombas, skimmer y materiales filtrantes |
-| Dispositivos Neptune | El Apex de este acuario y sus módulos |
-| Dispositivos Red Sea | Los equipos ReefBeat asignados a este acuario |
-| Dispositivos Cora | Qué pantallas muestran este acuario |
+| Flujo y filtración | Bombas, skimmer, materiales filtrantes, y la marca y el modelo de tu controlador |
 | Fuentes de parámetros | De qué fuente se lee cada parámetro |
 | Plagas y tratamiento | Qué problemas has tenido y qué usaste |
 
-![Las secciones de dispositivos y fuentes](img/mobile-tank-profile-devices.webp "La parte de abajo del perfil: tu equipo, de dónde sale cada parámetro y el historial de tratamientos.")
+![La parte de abajo del perfil](img/mobile-tank-profile-devices.webp "Fuentes de parámetros e historial de tratamientos.")
 
 Toca una sección para abrirla. El icono de información de cada una explica para qué sirven sus campos.
+
+:::note Los dispositivos ahora viven en la pestaña Dispositivos
+Tu Apex, tus equipos Red Sea y el resto de dispositivos se añaden, se asignan y se quitan desde la pestaña **Dispositivos**, no desde el perfil. Consulta [Añadir, editar y eliminar dispositivos](/help/mobile-devices). Los ajustes del acuario muestran una lista de solo lectura, **Dispositivos en este acuario**, si solo quieres comprobar qué está asignado.
+:::
 
 ## Volumen
 

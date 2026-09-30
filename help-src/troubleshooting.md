@@ -44,7 +44,7 @@ The manufacturer rejected the saved sign-in. Almost always, that's because you c
 If adding a Cora Max stops partway, Cora Mobile tells you which step failed and why, with **Cancel** and **Retry** underneath.
 
 - *"Your phone could not reach the Cora Max on your Wi-Fi."* Put your phone and Cora Max on the same Wi-Fi network. On iPhone, also check that Cora has Local Network access. **Settings → Device access** takes you there (see [Settings](/help/mobile-settings)). Then tap **Retry**.
-- *"The Cora Max did not accept this pairing session."* Retrying won't help here. Close the screen and start again from **Devices → Add Device**.
+- *"The Cora Max did not accept this pairing session."* Retrying won't help here. Close the screen and start again from **Devices → Add Device → Cora**.
 
 For any other message, tap **Retry**.
 
@@ -109,7 +109,7 @@ GHL turns its official API off after every firmware update, so this is normal af
 Cora Max can't reach the controller's IP address on your network.
 
 1. Check the controller is powered on and connected to your network.
-2. Check its IP address hasn't changed. If it has, update it from **Settings → [your tank] → GHL controller (Beta)**.
+2. Check its IP address hasn't changed. If it has, open it on your phone (**Devices**) and update it under **Connection**.
 3. Check the Cora Max reading this tank is on the same network as the controller.
 
 If that doesn't fix it, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the tank and device name.

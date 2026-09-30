@@ -62,9 +62,9 @@ Se il banner non si chiude o continua a tornare, guarda la pagina [Risoluzione d
 Il supporto GHL è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro.
 :::
 
-Collega un controller GHL da **Impostazioni → [la tua vasca] → Controller GHL (Beta)**. Inserisci il suo indirizzo IP sulla tua rete e tocca **Rileva**. Cora prova prima l'API ufficiale del controller, poi le sue altre interfacce, e ti dice quale ha trovato.
+Collega un controller GHL dal telefono: **Dispositivi → Aggiungi dispositivo → GHL**. I passaggi sono in [Collegare la tua attrezzatura](/help/mobile-connections). Cora Max lo mostra e lo comanda una volta che un Cora Max sulla sua rete l'ha letto, ma la configurazione avviene sul telefono.
 
-Se non risponde niente e il controller è un ProfiLux mini, Cora propone un'alternativa: inserisci il suo accesso e Cora legge le sue sonde, prese, dosatori e sensori di livello. Con **Consenti il controllo da Cora (Beta)** attivo, un mini può anche comandare le sue prese, come qualsiasi altro controller GHL. Tutto il resto, come i setpoint e la pausa alimentazione, richiede un ProfiLux 3, 4 o Mitras.
+Un ProfiLux mini legge le sue sonde, prese, dosatori e sensori di livello. Con **Consenti il controllo da Cora (Beta)** attivo, un mini può anche comandare le sue prese, come qualsiasi altro controller GHL. Tutto il resto, come i setpoint e la pausa alimentazione, richiede un ProfiLux 3, 4 o Mitras.
 
 I comandi restano disattivati finché non attivi **Consenti il controllo da Cora (Beta)** sulla pagina del dispositivo. È disattivato per impostazione predefinita. Una volta attivato, una presa si può impostare su **Sempre acceso**, **Sempre spento** o **Torna ad automatico**, e un setpoint come temperatura o pH mostra il suo intervallo consentito e rifiuta un valore fuori da quell'intervallo. Entrambi i tipi di modifica vengono salvati sul controller stesso e restano lì anche se Cora perde in seguito il contatto con lui. Una modifica che sembra riguardare un riscaldatore o una pompa di risalita ti chiede due conferme.
 
@@ -78,9 +78,7 @@ Se il controller non accetta una modifica, probabilmente la sua API GHL è disat
 Il supporto HYDROS è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro.
 :::
 
-HYDROS è l'unica integrazione che raggiunge il suo controller attraverso il cloud, quindi funziona anche quando Cora Max è su una rete diversa da quella del controller. Collegalo da **Impostazioni → [la tua vasca] → HYDROS (Beta)**.
-
-Nell'app HYDROS crea una chiave dispositivo per il provider **cora-iq**, scegliendo **Read** solo per le letture o **Write** per comandarlo anche. Incolla la chiave, tocca **Convalida**, scegli la vasca, poi **Salva**. Al collegamento vengono importati gli ultimi 33 giorni della sua cronologia.
+HYDROS è l'unica integrazione che raggiunge il suo controller attraverso il cloud, quindi funziona anche quando Cora Max è su una rete diversa da quella del controller. Si configura solo dal telefono: **Dispositivi → Aggiungi dispositivo → HYDROS**. I passaggi sono in [Collegare la tua attrezzatura](/help/mobile-connections).
 
 Leggerlo e comandarlo funziona come sul telefono: vedi [Controllare la tua attrezzatura](/help/mobile-device-control) per uscite, modalità, teste di dosaggio e comandi tester, e per i limiti di dose per testa.
 

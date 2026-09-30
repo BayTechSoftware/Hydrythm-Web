@@ -2,7 +2,7 @@
 title: Your tank profile
 description: The volume, livestock, equipment and dosing details Cora uses to make sense of your readings.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ The percentage at the top shows how much of the profile you've filled in. The fu
 | Livestock | What the tank holds and how heavily it is stocked |
 | Temperature Control | Heating and cooling equipment |
 | Lighting | Fixtures and photoperiod |
-| Flow & Filtration | Pumps, skimming and media |
-| Neptune devices | The Apex on this tank and its modules |
-| Red Sea devices | ReefBeat units assigned here |
-| Cora Max | Which screens serve this tank |
+| Flow & Filtration | Pumps, skimming, media and your controller's brand and model |
 | Parameter sources | Which source each parameter is read from |
 | Pests & treatments | What you have dealt with, and what you used |
 
-![The device and source sections](img/mobile-tank-profile-devices.webp "The lower half of the profile: your equipment, where each parameter comes from, and treatment history.")
+![The lower half of the profile](img/mobile-tank-profile-devices.webp "Parameter sources and treatment history.")
 
 Tap a section to open it. The info icon next to each one tells you what its fields are used for.
+
+:::note Devices live on the Devices tab now
+Your Apex, Red Sea units and every other device are added, assigned and removed from the **Devices** tab, not from the profile. See [Adding, editing and removing devices](/help/mobile-devices). Tank settings shows a read-only **Devices on this tank** list if you just want to check what's assigned.
+:::
 
 ## Volume
 

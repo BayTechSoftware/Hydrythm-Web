@@ -2,7 +2,7 @@
 title: Le profil de votre aquarium
 description: Le volume, la population, l’équipement et le dosage que Cora utilise pour interpréter vos mesures.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 3
 group: Getting started
 ---
@@ -45,16 +45,17 @@ Le pourcentage en haut indique quelle part du profil est remplie. Plus le profil
 | Population | Ce que contient l’aquarium, et sa densité de population |
 | Contrôle de la température | Chauffage et refroidissement |
 | Éclairage | Rampes et photopériode |
-| Flux et filtration | Pompes, écumage et médias |
-| Appareils Neptune | L’Apex de cet aquarium et ses modules |
-| Appareils Red Sea | Les appareils ReefBeat rattachés à cet aquarium |
-| Cora Max | Les écrans qui gèrent cet aquarium |
+| Flux et filtration | Pompes, écumage, médias et la marque et le modèle du contrôleur |
 | Sources des paramètres | La source utilisée pour chaque paramètre |
 | Nuisibles et traitements | Les problèmes que vous avez traités, et avec quoi |
 
-![Les sections appareils et sources](img/mobile-tank-profile-devices.webp "La moitié inférieure du profil : votre équipement, d’où vient chaque paramètre, et l’historique des traitements.")
+![Le bas du profil](img/mobile-tank-profile-devices.webp "Sources des paramètres et historique des traitements.")
 
 Touchez une section pour la déplier. L’icône d’information à côté de chaque section explique à quoi servent les champs.
+
+:::note Les appareils sont maintenant sur l’onglet Appareils
+Votre Apex, vos appareils Red Sea et tout autre appareil s’ajoutent, se rattachent et se retirent depuis l’onglet **Appareils**, pas depuis le profil. Voir [Ajouter, modifier et retirer des appareils](/help/mobile-devices). Les réglages de l’aquarium affichent une liste **Appareils sur cet aquarium** en lecture seule si vous voulez simplement vérifier ce qui est rattaché.
+:::
 
 ## Volume
 

@@ -2,7 +2,7 @@
 title: Panoyu düzenleme
 description: Sütun sayısını seçin, widget ekleyip yerleştirin, kutucukları boyutlandırın ve düzenleri başka akvaryumlarda kullanmak için kaydedin.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ Pano düzenleyicide bir akvaryumun panosunda hangi widget'ların görüneceğini
 Panonun en altına inin ve **Gösterge panelini düzenle**'ye dokunun.
 
 :::note Akvaryum adının yanındaki kalem başka bir ekranı açar
-Kalem, **Akvaryumu düzenle** ekranını açar. Bu ekran hacim, canlılar, dozaj ve ekipman bilgilerinin olduğu akvaryum profilidir. Ayrıntılar [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasında.
+Kalem, **Akvaryumu düzenle** ekranını açar. Bu ekran hacim, canlılar, dozaj, aydınlatma ve akış bilgilerinin olduğu akvaryum profilidir. Ayrıntılar [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasında.
 :::
 
 ![Pano düzenleyici](img/mobile-edit.webp "Her kutucukta adı ve türü yazar. Kaldırmak için kırmızı çarpıya dokunun.")

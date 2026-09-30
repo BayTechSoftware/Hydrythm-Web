@@ -46,7 +46,7 @@ Ouvrez la ligne de l’appareil et reconnectez-vous.
 Si l’ajout d’un Cora Max s’arrête en cours de route, Cora Mobile indique l’étape qui a échoué et pourquoi, avec **Annuler** et **Réessayer** en dessous.
 
 - *« Votre téléphone n’a pas pu atteindre le Cora Max sur votre Wi-Fi. »* Mettez votre téléphone et Cora Max sur le même Wi-Fi. Sur iPhone, vérifiez aussi que Cora a accès au réseau local. **Réglages → Accès aux appareils** vous y amène (voir [Réglages](/help/mobile-settings)). Touchez ensuite **Réessayer**.
-- *« Le Cora Max n’a pas accepté cette session d’appairage. »* Réessayer ne servira à rien. Fermez l’écran et recommencez depuis **Appareils → Ajouter un appareil**.
+- *« Le Cora Max n’a pas accepté cette session d’appairage. »* Réessayer ne servira à rien. Fermez l’écran et recommencez depuis **Appareils → Ajouter un appareil → Cora**.
 
 Pour tout autre message, touchez **Réessayer**.
 
@@ -111,7 +111,7 @@ GHL désactive son API officielle après chaque mise à jour du micrologiciel, c
 Cora Max n’arrive pas à joindre l’adresse IP du contrôleur sur votre réseau.
 
 1. Vérifiez que le contrôleur est allumé et connecté à votre réseau.
-2. Vérifiez que son adresse IP n’a pas changé. Si c’est le cas, mettez-la à jour depuis **Réglages → [votre aquarium] → Contrôleur GHL (bêta)**.
+2. Vérifiez que son adresse IP n’a pas changé. Si c’est le cas, ouvrez-le sur votre téléphone (**Appareils**) et mettez-la à jour sous **Connexion**.
 3. Vérifiez que le Cora Max qui lit cet aquarium est sur le même réseau que le contrôleur.
 
 Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant le nom de l’aquarium et de l’appareil.

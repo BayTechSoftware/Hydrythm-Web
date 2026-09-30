@@ -2,7 +2,7 @@
 title: Setting up Cora Mobile
 description: Install Cora, create your account, add your first tank and get your first readings on screen.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 1
 group: Getting started
 ---
@@ -41,7 +41,7 @@ The setup wizard asks for three things. You can change all of them later in your
 2. **Type** is mixed reef, SPS-dominant, softie or fish-only.
 3. **Dimensions and volume** is the real water volume, sump included. Dosing maths uses this number, so try to get it roughly right.
 
-That's the whole wizard. You fill in the rest later from [your tank profile](/help/mobile-tank-profile), whenever it suits you. That covers livestock, equipment, dosing, targets, lighting and flow.
+After that, tap **Add devices** to go straight to adding your equipment, or skip it for now. You fill in the rest later from [your tank profile](/help/mobile-tank-profile), whenever it suits you. That covers livestock, dosing, targets, lighting and flow.
 
 :::note Tank age changes how readings are judged
 Cora judges readings against what's normal for a tank of that age. The wizard doesn't ask for it. Set **Tank start date** in your tank profile, under **Tank Dimensions**. If your tank is still cycling, tap **Starting a new tank?** on the dashboard to turn on guided cycling.
@@ -49,7 +49,7 @@ Cora judges readings against what's normal for a tank of that age. The wizard do
 
 ## Connect your equipment
 
-Once you have a tank, go to the **Devices** tab and add your equipment. Cora works with gear you already own. [Connecting your equipment](/help/mobile-connections) lists what's supported and what each device needs.
+Once you have a tank, go to the **Devices** tab, tap **Add Device** and pick the brand. Cora works with gear you already own. [Connecting your equipment](/help/mobile-connections) lists what's supported and what each device needs.
 
 You can skip this and come back later. A tank works fine without devices. You just log readings by hand.
 

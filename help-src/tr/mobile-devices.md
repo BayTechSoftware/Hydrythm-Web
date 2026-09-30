@@ -1,45 +1,39 @@
 ---
 title: Cihaz ekleme, düzenleme ve kaldırma
-description: Cora'ya ekipman ekleyin, akvaryuma atayın, adını değiştirin ve sorunsuz şekilde kaldırın.
+description: Ekipmanı Cora'ya ekleyin, bir akvaryuma atayın ve hepsini tek bir yerden sorunsuz şekilde kaldırın.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 9
 group: Equipment
 ---
 
-**Cihazlar** sekmesinde bağladığınız her şey markaya göre gruplanmış olarak durur. Her grubu daraltabilirsiniz. Böylece ekipmanla dolu bir reef odası bile derli toplu görünür.
+Her cihazı **Cihazlar** sekmesinden ekleyin, düzenleyin, atayın ve kaldırın; burada markaya göre gruplanır. Her grubu daraltabilirsiniz. Böylece ekipmanla dolu bir reef odası bile derli toplu görünür.
 
 ![Cihazlar sekmesi](img/mobile-devices.webp "Ekipman markaya göre gruplanır. Her grup daraltılabilir.")
 
 ## Ekipman ekleme
 
-Listenin altında üç düğme var. Her biri farklı bir iş yapar:
+**Cihaz Ekle**'ye dokunun, ardından markayı seçin: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* ya da **AquaWiz**. Her biri ekipmanınızı bulmak için gerekeni açar: ağ taraması, IP adresi, giriş ya da cihaz anahtarı. Her markanın ne gerektirdiği [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 
-| Düğme | Ne ekler |
-|---|---|
-| **Cihaz Ekle** | Cora Max ekler. Wi-Fi ağınızdaki üniteleri ya da Bluetooth ile yakındakileri bulur. Arama cihazı bulamazsa aynı ekranda **IP Adresini Elle Girin** seçeneği var. |
-| **Ağınızda bir pompa bulun** | Yerel ağda kendini gösteren Jecod pompaları |
-| **AquaWiz Ekle** | AquaWiz hesabınız üzerinden AquaWiz kontrol ünitesi |
-
-![Cora Max ekleme](img/mobile-add-device.webp "Cihaz Ekle, Cora Max'i Wi-Fi ve Bluetooth üzerinden arar.")
-
-Neptune Apex ve Red Sea ReefBeat gibi diğer ekipmanları bu listeden değil, akvaryumun kendisinden bağlarsınız. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
+**Cora**, yeni bir Cora Max eşlemenin yoludur. Wi-Fi ağınızdaki üniteleri ya da Bluetooth ile yakındakileri bulur. Arama cihazı bulamazsa aynı ekranda **IP Adresini Elle Girin** seçeneği var.
 
 Isıtıcı, pompa ya da skimmer gibi bir ekipman eklerken marka ve model alanı **otomatik tamamlama** yapar. Yazmaya başlayın, Cora kaynağı doğrulanmış geniş bir marka listesinden öneriler getirir. Sizin markanız listede yoksa yine de yazın. Cora ne yazarsanız onu kaydeder.
 
 :::note Cora ve telefonunuz aynı ağda olmalı
-Yerel ağda bulunan ekipmanı eklerken telefonunuz da aynı ağda olmalıdır. **Kurulumdan sonra da ekipmana yalnızca o ağ üzerinden** (Bluetooth kullanan ünitelerde Bluetooth üzerinden) ulaşılır. Tek istisna, ekipmana sizin yerinize ulaşabilen ve akvaryumun yanında duran bir Cora cihazıdır.
+Yerel ağda bulunan ekipmanı eklerken telefonunuz da aynı ağda olmalıdır. **Kurulumdan sonra da ekipmana yalnızca o ağ üzerinden** (Bluetooth kullanan ünitelerde Bluetooth üzerinden) ulaşılır, ekipmana sizin yerinize ulaşabilen ve akvaryumun yanında duran bir Cora cihazı yoksa.
 
 Bu yüzden evde doğru ölçüm gösteren ekipman, siz dışarıdayken daha eski değerler gösterebilir. Akvaryumun yanında onu yoklayan bir Cora Max varsa bu olmaz. Bu bir arıza değildir. Ekipmana nereden ulaşılabildiğiyle ilgilidir.
 :::
 
-## Cihazı akvaryuma atama
+## Cihazın sayfası
 
-Çoğu ekipman tek bir akvaryuma aittir. Ölçümlerin o akvaryumun panosunda görünmesini sağlayan da bu atamadır.
+Listeden herhangi bir cihazı açın. Önce kontrolleri, ardından her marka için aynı şekilde çalışan üç bölüm gelir.
 
-**Cora Max bu kuralın istisnasıdır.** En fazla dört akvaryuma atanabilir ve ekranda bunlar arasında geçiş yapar. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında.
+- **Akvaryumlar** cihazın hangi akvaryuma (ya da akvaryumlara) atandığını gösterir. Yeniden atamak için **Değiştir**'e dokunun.
+- **Bağlantı**, IP adresini, giriş bilgisini ya da cihaz anahtarını düzenlediğiniz yerdir.
+- En altta **Cihazı kaldır**.
 
-Cihazı açın ve **Akvaryum**'u seçin. Birden fazla sisteminiz varsa en önemli ayar budur. Yanlış akvaryuma atanan bir ısıtıcı sorunsuz çalışır, ama ölçümlerini yanlış yere gönderir.
+Cora Max, Neptune Apex ve GHL birden fazla akvaryuma hizmet edebilir, bu yüzden akvaryum seçicileri bir onay listesidir. Cora Max en fazla dört akvaryuma atanabilir. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında. HYDROS dahil geri kalan her şey aynı anda tek bir akvaryuma hizmet eder: farklı bir akvaryum seçmek cihazı oraya taşır ve eskisinden kaldırır.
 
 :::warning Ölçümlere güvenmeden önce akvaryumu atayın
 Akvaryuma atanmamış bir cihaz ölçüm göndermeye devam eder, ama bu sayıların gideceği bir yer yoktur. Yeni eklediğiniz cihaz panoda görünmüyorsa önce bunu kontrol edin.
@@ -61,11 +55,12 @@ Her satırda cihazın şu anki durumu görünür. Görmek istediğiniz şey yak�
 | Yalnızca birkaç saatte bir veri gönderen bir cihazda "3 sa önce güncellendi" | Sorun yok |
 | "… ulaşılamadı" | Ağ sorunu var ya da cihaz kapalı |
 | "… girişi reddetti" | Üretici hesabının yeniden bağlanması gerekiyor. Cihazı açıp yeniden giriş yapın |
+| "Cora Max bekleniyor" | Az önce eklediğiniz bir GHL kontrol ünitesi: ağındaki bir Cora Max onu okuduğunda görünür |
 | Hiçbir şey | Cihaz hiç veri göndermemiş. Akvaryum atamasını ve bağlantıyı kontrol edin |
 
 ## Cihazı kaldırma
 
-Cihazı açın ve **Kaldır**'ı seçin. Cora sizden onay ister ve tam olarak neyin kaldırılacağını söyler.
+Cihazı açın ve **Cihazı kaldır**'a dokunun. Cora sizden onay ister: *"{name} Cora'dan kaldırılacak. Cihazın kendisi sıfırlanmaz veya değiştirilmez."*
 
 **Ölçümleriniz silinmez.** Cihazı kaldırdığınızda Cora ondan yeni veri toplamayı bırakır. Önceden toplanan geçmiş akvaryumda kalır. O cihaza bağlı widget'lar da geçmiş ölçümleri göstermeye devam eder.
 

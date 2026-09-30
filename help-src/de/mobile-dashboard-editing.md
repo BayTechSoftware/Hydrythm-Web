@@ -2,7 +2,7 @@
 title: Dein Dashboard bearbeiten
 description: Leg die Spaltenzahl fest, füge Widgets hinzu, ordne sie an, ändere ihre Größe und speichere Layouts, die du für andere Becken wiederverwenden kannst.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 6
 group: Your dashboard
 ---
@@ -14,7 +14,7 @@ Im Dashboard-Editor legst du fest, welche Widgets auf dem Dashboard eines Becken
 Scroll ans Ende des Dashboards und tippe auf **Dashboard bearbeiten**.
 
 :::note Der Stift neben dem Beckennamen führt woandershin
-Er öffnet **Becken bearbeiten**, also das Beckenprofil mit Volumen, Besatz, Dosierung und Ausrüstung. Mehr dazu unter [Dein Beckenprofil](/help/mobile-tank-profile).
+Er öffnet **Becken bearbeiten**, also das Beckenprofil mit Volumen, Besatz, Dosierung, Beleuchtung und Strömung. Mehr dazu unter [Dein Beckenprofil](/help/mobile-tank-profile).
 :::
 
 ![Der Dashboard-Editor](img/mobile-edit.webp "Jede Kachel zeigt ihren Namen und Typ. Tippe auf ein rotes Kreuz, um sie zu entfernen.")
