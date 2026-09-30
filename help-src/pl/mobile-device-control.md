@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem
 description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i nim sterować: gniazda, pompy, głowice dozujące i testery.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ Strona gyre pokazuje, czy gyre pracuje, wzór fali i prędkość **Gyre A** i **
 :::note Jak Cora Mobile łączy się z gyre
 Jeśli akwarium obsługuje Cora Max, Cora Mobile łączy się przez niego, także poza domem. **Zmień ustawienia** zaczyna wtedy od ostatniego odczytu z tego Cora Max. W przeciwnym razie telefon łączy się z gyre bezpośrednio i musi być w jego sieci. Otwarcie strony odczytuje wtedy gyre. Jeśli strona pokazuje starszy zapisany odczyt, przycisk **Zmień ustawienia** pozostaje ukryty, dopóki nie odświeżysz strony.
 :::
+
+## GHL ProfiLux i Mitras
+
+:::note Obsługa GHL jest w wersji beta
+Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
+:::
+
+Strona kontrolera pokazuje jego sondy, gniazda, dozowniki i czujniki poziomu, a w modelach Director także wyniki testów KH i jonów.
+
+Sterowanie pozostaje wyłączone, dopóki nie włączysz **Zezwól na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone, a jego włączenie pozwala Corze wysyłać do tego kontrolera polecenia pauzy karmienia, konserwacji, wymiany wody, burzy, oświetlenia, wartości docelowych i gniazd.
+
+Gdy jest włączone:
+
+- Gniazdo można ustawić na **Zawsze włączone**, **Zawsze wyłączone** albo **Powrót do automatycznego**, żeby oddać je z powrotem programowi kontrolera.
+- Wartość docelowa, na przykład temperatura albo pH, pokazuje swój dozwolony zakres i odrzuca wartość spoza niego.
+
+:::warning Zmiana gniazda albo wartości docelowej jest zapisywana na samym kontrolerze
+Nie jest przechowywana tylko w Corze. Ustawienie gniazda na Zawsze włączone albo Zawsze wyłączone zastępuje własne programowanie kontrolera dla tego gniazda, dopóki nie wybierzesz Powrót do automatycznego.
+:::
+
+Jeśli gniazdo albo wartość docelowa wyglądają, jakby należały do grzałki albo pompy powrotnej, Cora prosi o podwójne potwierdzenie przed wysłaniem.
+
+Jeśli kontroler odrzuci zmianę, sprawdź, czy jego API GHL jest włączone z pełnym dostępem. GHL wyłącza to po każdej aktualizacji firmware. Kroki opisuje [Rozwiązywanie problemów](/help/troubleshooting).
+
+## HYDROS
+
+:::note Obsługa HYDROS jest w wersji beta
+Obsługę HYDROS wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
+:::
+
+To, co tu widzisz, zależy od użytego klucza połączenia. Klucz **Odczyt** daje tylko jego wejścia. Klucz **Zapis** dodaje wyjścia, tryby, dozowanie i komendy testera, a także baner na stronie przypominający, jakiego klucza dotyczy.
+
+Przy kluczu zapisu sterowanie też pozostaje wyłączone, dopóki nie włączysz **Zezwól na kontrolę z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone.
+
+Gdy jest włączone, strona może pokazywać:
+
+- **Wyjścia**: przełącznik dla wyjścia typu włącz/wyłącz, suwak dla poziomu, na przykład pompy albo światła, albo przycisk dla flagi. Nadpisane wyjście pokazuje **Nadpisane** z przyciskiem **Powrót do harmonogramu**, który oddaje je z powrotem jego własnemu programowi.
+- **Tryby**, na przykład Karmienie albo Wymiana wody, jako rząd opcji. Dotknięcie jednej z nich prosi o potwierdzenie.
+- **Głowice dozujące**, każda z przyciskiem **Dozuj** i pozycją **Ustawienia głowicy**, gdzie ustawiasz jej własne limity: największą dawkę ręczną i dzienny limit. Prośba o więcej niż limit głowicy, albo więcej niż zostało jej z dziennego limitu na dany dzień, jest odrzucana z podanymi liczbami w komunikacie.
+- **Komendy testera** dla podłączonego iV albo Maven: uruchamiane przyciskiem i najpierw potwierdzane.
+
+Jeśli kontroler nie zgłaszał się od jakiegoś czasu, strona to pokazuje, a odczyty mogą być nieaktualne. Polecenie wysłane, gdy wygląda na offline, w ogóle nie zostaje wysłane, o czym strona też informuje.
 
 ## Co się dzieje po zmianie
 

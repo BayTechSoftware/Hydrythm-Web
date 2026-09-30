@@ -2,7 +2,7 @@
 title: Cora Max'ten ekipman kontrolü
 description: Büyük ekrandaki cihaz sayfaları: problar, prizler, dozaj kafaları, test cihazları ve pompalar.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 6
 group: Equipment
 ---
@@ -25,6 +25,8 @@ Cora Max telefonunuzun ulaştığı tüm ekipmana ulaşır. Her cihazın kendi s
 | **Red Sea ReefBeat** | Cihaz neyse ona göre: dozaj kafaları, rezervuar, rulonun kaç gün yeteceği, pompa modu |
 | **Jecod** | Pompa modu, yoğunluğu ve günlük programı |
 | **Maxspect** *(beta)* | **Gyre A** ve **Gyre B** için mod ve hız, **Pompa sağlığı** (temizlik geri sayımı, A kafasının akımı, takılı kafalar, yazılım) ve zamanlaması. Zamanlama yalnızca görüntülenir |
+| **GHL ProfiLux / Mitras** *(beta)* | Problar, prizler, dozaj üniteleri, seviye sensörleri ve Director modellerinde KH ile iyon test sonuçları |
+| **HYDROS** *(beta)* | Cihaz anahtarının bildirdiği her şey: girişler, ve yazma anahtarıyla çıkışlar, modlar, dozaj kafaları ve test cihazı komutları |
 
 Bir Red Sea cihazı kendini durdurursa sayfasında sorunun ne olduğu yazar. Çözüm düğmesi de hemen yanındadır: **Sürdür**, **Acil durumu temizle**, **Sensör temizlendi**, **Zaten yeni bir rulo yükledim** ya da dozaj kafası için **Sıfırla**.
 
@@ -50,6 +52,32 @@ Büyük dozaj sırasında kafanın Apex'teki programı geçici olarak değişir.
 Kafayı Apex Fusion'da kendiniz kontrol edin. Sonra bandı kapatmak için **Kafayı Fusion'da kontrol ettim**'e dokunun. Bunu ancak şu anda çalışan programın Cora'nın dozaj programı değil, kafanın kendi zamanlaması olduğundan emin olduktan sonra yapın.
 
 Bant kapanmıyorsa ya da tekrar tekrar çıkıyorsa [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+
+## GHL ProfiLux ve Mitras
+
+:::note GHL desteği beta aşamasında
+GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir.
+:::
+
+Bir GHL kontrol cihazını **Ayarlar → [akvaryumunuz] → GHL denetleyici (Beta)**'dan bağlayın. Ağınızdaki IP adresini girin ve **Algıla**'ya dokunun. Cora önce kontrol cihazının resmi API'sini, sonra diğer arayüzlerini dener ve hangisini bulduğunu size söyler.
+
+Hiçbir şey yanıt vermezse ve kontrol cihazı bir ProfiLux mini ise Cora bir yedek yol sunar: giriş bilgilerini girin, Cora onu salt okunur olarak okur. Bir mini hakkında başka hiçbir şey kontrol edilemez.
+
+Cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kontroller kapalıdır. Varsayılan olarak kapalıdır. Açıldıktan sonra bir priz **Her zaman açık**, **Her zaman kapalı** ya da **Otomatiğe dön** olarak ayarlanabilir, sıcaklık ya da pH gibi bir ayar noktası izin verilen aralığını gösterir ve aralık dışındaki bir değeri reddeder. Her iki değişiklik türü de kontrol cihazının kendisine kaydedilir ve Cora sonradan onunla bağlantısını kaybetse bile orada kalır. Bir ısıtıcıya ya da geri dönüş pompasına dokunuyor gibi görünen bir değişiklik sizden iki kez onay ister.
+
+Kontrol cihazı bir değişikliği kabul etmiyorsa GHL API'si muhtemelen kapalıdır. GHL bunu her yazılım güncellemesinden sonra kapatır; GHL Control Center'da ya da GHL Connect'te **Sistem → GHL API**'den yeniden açın. Gerisi için [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+
+## HYDROS
+
+:::note HYDROS desteği beta aşamasında
+HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir.
+:::
+
+HYDROS, kontrol cihazına buluttan ulaşan tek entegrasyondur. Bu yüzden Cora Max, kontrol cihazından farklı bir ağdayken bile çalışır. **Ayarlar → [akvaryumunuz] → HYDROS (Beta)**'dan bağlayın.
+
+HYDROS uygulamasında **cora-iq** sağlayıcısı için bir cihaz anahtarı oluşturun: yalnızca ölçümler için **Read**'i, kontrol de etmek için **Write**'ı seçin. Anahtarı yapıştırın, **Doğrula**'ya dokunun, akvaryumu seçin, ardından **Kaydet**'e dokunun. Bağlandıktan sonra geçmişinin son 33 günü içe aktarılır.
+
+Okuma ve kontrol etme telefondakiyle aynı şekilde çalışır; çıkışlar, modlar, dozaj kafaları ve test cihazı komutları ile her kafanın doz sınırları için [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasına bakın.
 
 ## Zamanlamalar
 

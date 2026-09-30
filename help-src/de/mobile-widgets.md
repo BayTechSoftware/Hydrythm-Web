@@ -2,7 +2,7 @@
 title: Widget-Referenz
 description: Alle Widget-Typen in Cora, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Du fügst Widgets im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinz
 
 ![Ein Widget konfigurieren](img/mobile-widget-config.webp "Typ, Wasserwert, dann Breite und Höhe.")
 
-## Die neun Typen
+## Die elf Typen
 
 | Typ | Zeigt |
 |---|---|
@@ -26,8 +26,10 @@ Du fügst Widgets im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinz
 | **Apex-Modul** | ein eingebautes Apex-Modul, etwa ein Trident oder DŌS |
 | **Jecod** | eine Jecod-Pumpe mit Modus und Intensität |
 | **Maxspect** *(Beta)* | eine Gyre mit beiden Motoren |
+| **GHL** *(Beta)* | ein ProfiLux- oder Mitras-Controller mit eigener Zusammenfassung |
+| **HYDROS** *(Beta)* | ein HYDROS-Controller mit eigener Zusammenfassung |
 
-Die letzten vier sind **Gerätekacheln**. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.
+Die letzten sechs sind **Gerätekacheln**. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.
 
 ## Größe
 

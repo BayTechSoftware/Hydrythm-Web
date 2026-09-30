@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's own page to see its live state and drive outlets, pumps, dosing heads and testers.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ The gyre page shows whether the gyre is running, the wave pattern and speed of *
 :::note How Cora Mobile reaches a gyre
 If a Cora Max serves the tank, Cora Mobile goes through that Cora Max, even when you're away from home. **Change settings** then starts from that Cora Max's last reading. Otherwise your phone talks to the gyre directly and has to be on the gyre's network. Opening the page reads the gyre. If the page is showing an older stored reading, **Change settings** stays hidden until you tap refresh.
 :::
+
+## GHL ProfiLux and Mitras
+
+:::note GHL support is in beta
+We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::
+
+The controller's page shows its probes, sockets, dosers and level sensors, and on the Director models, its KH and ion test results.
+
+Controls stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default, and turning it on lets Cora send feed pause, maintenance, water change, thunderstorm, lighting, setpoint and socket commands to that controller.
+
+Once it's on:
+
+- A socket can be set to **Always on**, **Always off**, or **Back to automatic** to hand it back to the controller's own programming.
+- A setpoint, such as temperature or pH, shows its allowed range and refuses a value outside it.
+
+:::warning A socket or setpoint change is saved on the controller itself
+It isn't only stored in Cora. Setting a socket to Always on or Always off overrides the controller's own programming for it until you choose Back to automatic.
+:::
+
+If a socket or setpoint looks like it belongs to a heater or a return pump, Cora asks you to confirm twice before sending it.
+
+If the controller turns the change down, check that its GHL API is switched on with full access. GHL turns this off after every firmware update. [Troubleshooting](/help/troubleshooting) has the steps.
+
+## HYDROS
+
+:::note HYDROS support is in beta
+We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::
+
+What you see here depends on the key you linked with. A **Read** key gives you its inputs only. A **Write** key adds outputs, modes, dosing and tester commands, plus a page banner that reminds you which kind of key you're on.
+
+With a write key, controls also stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default.
+
+Once it's on, the page can show:
+
+- **Outputs**, as a switch for an on/off output, a slider for a level such as a pump or light, or a button for a flag. An overridden output shows **Overridden** with a **Back to schedule** button to hand it back to its own program.
+- **Modes**, such as Feed or Water Change, as a row of choices. Tapping one asks you to confirm.
+- **Dosing heads**, each with a **Dose** button and a **Head settings** entry where you set its own limits: a largest hand dose and a daily cap. Asking for more than a head's limit, or more than its own daily cap has left for the day, is refused with the numbers in the message.
+- **Tester commands**, for a connected iV or Maven, run from a button and confirmed first.
+
+If the controller hasn't reported in a while, the page says so and readings may be out of date. A command sent while it looks offline isn't sent at all, and the page tells you that too.
 
 ## What happens after you change something
 

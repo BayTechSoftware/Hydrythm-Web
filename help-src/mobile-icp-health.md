@@ -2,7 +2,7 @@
 title: ICP and health reports
 description: Upload an ICP test, track each element over time, and run a full health check of your system.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ The report shows **Sent by {lab}** near the top, so you can tell it from one you
 :::note The first time
 The first time a result arrives this way, Cora shows a short hint about what's going on, so it doesn't look like an error.
 :::
+
+### The first result from a new lab
+
+The first time a lab sends you a result, Cora asks you to approve it before adding it anywhere, even if you only have one tank. You'll see who sent it and can tick **Trust this lab** to skip this check next time a result comes from them.
+
+Tap **Approve** to bring it in, or **Decline** to delete it without adding it to any tank. **Settings → Trusted labs** lists every lab you've trusted this way, and **Revoke** removes one, so its next result needs your approval again.
 
 If it doesn't work, see [Troubleshooting](/help/troubleshooting).
 

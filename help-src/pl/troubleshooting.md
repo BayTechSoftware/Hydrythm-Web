@@ -2,7 +2,7 @@
 title: Rozwiązywanie problemów
 description: Odczyty przestały napływać, urządzenie jest offline, alert nie znika albo coś wygląda nie tak. Zacznij tutaj.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -101,6 +101,26 @@ Odczyty, historia i wpisy w dzienniku są przechowywane osobno od układu, więc
 3. Sprawdź, czy sprzęt Red Sea jest włączony i online w swojej aplikacji.
 
 Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)** i podaj nazwę akwarium i urządzenia.
+
+## „GHL API jest wyłączone”
+
+GHL wyłącza swoje oficjalne API po każdej aktualizacji firmware, więc to normalne po aktualizacji, a nie usterka. Włącz je z powrotem w **System → GHL API** w GHL Control Center albo GHL Connect, bezpośrednio na kontrolerze. Cora sprawdza to na bieżąco i sama połączy się ponownie, gdy tylko API wróci.
+
+## „Kontroler GHL jest nieosiągalny”
+
+Cora Max nie może dotrzeć do adresu IP kontrolera w Twojej sieci.
+
+1. Sprawdź, czy kontroler jest włączony i podłączony do Twojej sieci.
+2. Sprawdź, czy jego adres IP się nie zmienił. Jeśli tak, zaktualizuj go w **Ustawienia → [Twoje akwarium] → Kontroler GHL (Beta)**.
+3. Sprawdź, czy Cora Max obsługujący to akwarium jest w tej samej sieci co kontroler.
+
+Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)** i podaj nazwę akwarium i urządzenia.
+
+## Kontroler HYDROS pokazuje się jako offline albo nie zgłasza danych
+
+HYDROS raportuje przez własną chmurę, więc zwykle oznacza to, że sam kontroler stracił zasilanie albo własne połączenie sieciowe, a nie że problem leży po stronie Cory. Sprawdź go w aplikacji HYDROS. Odczyty w Corze nadrobią zaległości, gdy kontroler wróci do sieci, a polecenie wysłane, gdy wygląda na offline, w ogóle nie zostanie wysłane.
+
+Jeśli urządzenie HYDROS pokazuje **Klucz odwołany**, jego klucz urządzenia został usunięty albo zastąpiony w aplikacji HYDROS. Utwórz nowy klucz i połącz go ponownie z **Urządzenia → Dodaj HYDROS (Beta)** albo z poziomu ustawień akwarium na Cora Max.
 
 ## „Nie udało się połączyć z tą pompą: nic nie wysłano”
 

@@ -2,7 +2,7 @@
 title: Glossario
 description: Le parole che usa Cora: vasca, fonte, widget, design salvato, soglia, insight e tutto il resto.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ Un'erogazione di liquido da una testa DŌS o da un'altra pompa dosometrica, con 
 
 Una pausa per dare da mangiare. Ferma l'attrezzatura giusta e la riaccende da sola. È più sicura che spegnere le pompe a mano, perché non devi ricordarti di riaccenderle.
 
+## GHL
+
+Abbreviazione di GHL Advanced Technology, il produttore dei controller ProfiLux e Mitras. Il supporto GHL di Cora è in **beta**. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+
 ## Rapporto di salute
 
 Una valutazione periodica più approfondita di tutto il sistema, che mette insieme tutti i parametri, le fonti, le dosi e i risultati di laboratorio recenti. Trovi di più in [ICP e rapporti di salute](/help/mobile-icp-health).
+
+## HYDROS
+
+L'ecosistema di controller e dosaggio di CoralVue. Cora lo raggiunge attraverso il cloud di HYDROS, quindi continua a funzionare anche fuori casa. Il supporto HYDROS di Cora è in **beta**. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
 
 ## ICP
 
@@ -104,7 +112,7 @@ Un pulsante sugli avvisi di Cora Max. Zittisce l'avviso su quel Cora Max per il 
 
 ## Fonte
 
-Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un kit di test. Ogni lettura ha la sua fonte, ed è così che Cora capisce quando due fonti non sono d'accordo.
+Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un kit di test. Ogni lettura ha la sua fonte, ed è così che Cora capisce quando due fonti non sono d'accordo. Se più di una fonte riporta la stessa lettura, in [Sonde](/help/mobile-probes) scegli quale considerare valida, oppure lasci Automatico.
 
 ## Vasca
 
@@ -120,4 +128,4 @@ La modalità per chi bada alla vasca mentre sei via. È un piano con date e un e
 
 ## Widget
 
-Un riquadro della dashboard che mostra una cosa sola. Ci sono nove tipi: Valore, Indicatore, Grafico, Stato, Presa, ReefBeat, Modulo Apex, Jecod e Maxspect *(beta)*. Trovi di più in [Guida di riferimento ai widget](/help/mobile-widgets).
+Un riquadro della dashboard che mostra una cosa sola. Ci sono undici tipi: Valore, Indicatore, Grafico, Stato, Presa, ReefBeat, Modulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* e HYDROS *(beta)*. Trovi di più in [Guida di riferimento ai widget](/help/mobile-widgets).

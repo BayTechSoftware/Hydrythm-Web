@@ -2,7 +2,7 @@
 title: Controlar tus equipos
 description: Abre la página de un dispositivo para ver su estado en directo y manejarlo, ya sean tomas, bombas, cabezales de dosificación o equipos de análisis.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ La página del gyre muestra si está en marcha, el patrón de olas y la velocida
 :::note Cómo se comunica Cora Mobile con un gyre
 Si un Cora Max atiende el acuario, Cora Mobile trabaja a través de ese Cora Max, también cuando estás fuera de casa. **Cambiar ajustes** parte entonces de la última lectura de ese Cora Max. Si no, tu teléfono habla con el gyre directamente y tiene que estar en la red del gyre. En ese caso, al abrir la página se lee el gyre. Si la página muestra una lectura guardada más antigua, **Cambiar ajustes** no aparece hasta que tocas actualizar.
 :::
+
+## GHL ProfiLux y Mitras
+
+:::note GHL está en beta
+Seguimos probando y desarrollando el soporte para GHL. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support).
+:::
+
+La página del controlador muestra sus sondas, tomas, dosificadoras y sensores de nivel, y en los modelos Director, sus resultados de las pruebas de KH e iones.
+
+Los controles quedan desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Está desactivado por defecto, y al activarlo Cora puede enviar a ese controlador órdenes de pausa de alimentación, mantenimiento, cambio de agua, tormenta, iluminación, consignas y tomas.
+
+Una vez activado:
+
+- Una toma se puede poner en **Siempre encendido**, **Siempre apagado** o **Volver a automático** para devolverla a la programación propia del controlador.
+- Una consigna, como la de temperatura o pH, muestra su rango permitido y rechaza un valor fuera de él.
+
+:::warning Un cambio de toma o de consigna se guarda en el controlador
+No se guarda solo en Cora. Poner una toma en Siempre encendido o Siempre apagado anula la programación propia del controlador para esa toma hasta que eliges Volver a automático.
+:::
+
+Si una toma o una consigna parece pertenecer a un calentador o a una bomba de retorno, Cora te pide confirmar dos veces antes de enviarla.
+
+Si el controlador rechaza el cambio, revisa que su API de GHL esté activada con acceso completo. GHL la desactiva después de cada actualización de firmware. [Solución de problemas](/help/troubleshooting) tiene los pasos.
+
+## HYDROS
+
+:::note HYDROS está en beta
+Seguimos probando y desarrollando el soporte para HYDROS. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support).
+:::
+
+Lo que ves aquí depende de la clave con la que lo enlazaste. Una clave **Read** te da solo sus entradas. Una clave **Write** añade salidas, modos, dosificación y órdenes de analizador, además de un aviso en la página que te recuerda qué tipo de clave tienes.
+
+Con una clave Write, los controles también quedan desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Está desactivado por defecto.
+
+Una vez activado, la página puede mostrar:
+
+- **Salidas**, como un interruptor para una salida de encendido/apagado, un deslizador para un nivel como una bomba o una luz, o un botón para una bandera. Una salida anulada muestra **Anulado** con un botón **Volver a la programación** para devolverla a su propio programa.
+- **Modos**, como Alimentación o Cambio de agua, como una fila de opciones. Tocar una te pide confirmación.
+- **Cabezales de dosificación**, cada uno con un botón **Dosificar** y una entrada **Ajustes del cabezal** donde fijas sus propios límites: una dosis manual máxima y un tope diario. Pedir más del límite de un cabezal, o más de lo que le queda de su propio tope diario, se rechaza con las cifras en el mensaje.
+- **Órdenes de analizador**, para un iV o un Maven conectado, se ejecutan desde un botón y se confirman antes.
+
+Si el controlador lleva un rato sin reportar, la página lo indica y las lecturas pueden estar desactualizadas. Una orden enviada mientras parece desconectado no se envía en absoluto, y la página también te lo dice.
 
 ## Qué pasa después de cambiar algo
 

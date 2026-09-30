@@ -2,7 +2,7 @@
 title: Ekipmanınızı kontrol etme
 description: Cihazın sayfasını açın, canlı durumunu görün ve kontrol edin. Prizler, pompalar, dozaj kafaları ve test cihazları.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ Gyre sayfası gyre'nin çalışıp çalışmadığını, **Gyre A** ve **Gyre B*
 :::note Cora Mobile gyre'ye nasıl ulaşır
 Akvaryuma bağlı bir Cora Max varsa Cora Mobile, evden uzaktayken de o Cora Max üzerinden çalışır. **Ayarları değiştir** de o Cora Max'in son okumasından başlar. Cora Max yoksa telefonunuz gyre'yle doğrudan bağlantı kurar ve gyre'yle aynı ağda olması gerekir. Bu durumda sayfayı açınca gyre okunur. Sayfa daha eski, kayıtlı okumayı gösteriyorsa yenile simgesine dokunana kadar **Ayarları değiştir** görünmez.
 :::
+
+## GHL ProfiLux ve Mitras
+
+:::note GHL desteği beta aşamasında
+GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::
+
+Kontrol cihazının sayfası probları, prizleri, dozaj ünitelerini ve seviye sensörlerini, Director modellerinde de KH ile iyon test sonuçlarını gösterir.
+
+Cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kontroller kapalıdır. Varsayılan olarak kapalıdır. Açtığınızda Cora'nın o kontrol cihazına besleme molası, bakım, su değişimi, fırtına, aydınlatma, ayar noktası ve priz komutları göndermesine izin vermiş olursunuz.
+
+Açıldıktan sonra:
+
+- Bir priz **Her zaman açık**, **Her zaman kapalı** ya da kontrolü kontrol cihazının kendi programına geri veren **Otomatiğe dön** olarak ayarlanabilir.
+- Sıcaklık ya da pH gibi bir ayar noktası izin verilen aralığını gösterir ve aralık dışındaki bir değeri reddeder.
+
+:::warning Priz ya da ayar noktası değişikliği kontrol cihazının kendisine kaydedilir
+Bu yalnızca Cora'da saklanmaz. Bir prizi Her zaman açık ya da Her zaman kapalı yapmak, siz Otomatiğe dön'ü seçene kadar kontrol cihazının o priz için kendi programını geçersiz kılar.
+:::
+
+Bir priz ya da ayar noktası bir ısıtıcıya ya da geri dönüş pompasına ait gibi görünüyorsa Cora, göndermeden önce sizden iki kez onay ister.
+
+Kontrol cihazı değişikliği kabul etmiyorsa GHL API'sinin tam erişimle açık olduğunu kontrol edin. GHL bunu her yazılım güncellemesinden sonra kapatır. Adımlar için [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+
+## HYDROS
+
+:::note HYDROS desteği beta aşamasında
+HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::
+
+Burada gördükleriniz bağladığınız anahtara bağlıdır. Bir **Read** anahtarı yalnızca girişlerini verir. Bir **Write** anahtarı çıkışları, modları, dozaj ve test cihazı komutlarını da ekler, ayrıca hangi anahtar türünde olduğunuzu hatırlatan bir sayfa şeridi gösterir.
+
+Write anahtarıyla da kontroller, cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kapalı kalır. Varsayılan olarak kapalıdır.
+
+Açıldıktan sonra sayfa şunları gösterebilir:
+
+- **Çıkışlar**: açık/kapalı bir çıkış için anahtar, pompa ya da ışık gibi bir seviye için kaydırıcı, ya da bir bayrak için düğme. Geçersiz kılınmış bir çıkış, kendi programına geri vermek için bir **Programa geri dön** düğmesiyle birlikte **Geçersiz kılındı** yazısını gösterir.
+- **Modlar**: Besleme ya da Su Değişimi gibi, bir seçim satırı olarak. Birine dokunmak onay ister.
+- **Dozaj kafaları**: her birinde bir **Dozla** düğmesi ve kendi sınırlarını, yani en büyük elle dozu ve günlük üst sınırı ayarladığınız bir **Başlık ayarları** girişi. Bir kafanın sınırından fazlasını, ya da o gün için kalan günlük üst sınırından fazlasını istemek, mesajdaki sayılarla birlikte reddedilir.
+- **Test cihazı komutları**: bağlı bir iV ya da Maven için, bir düğmeden çalıştırılır ve önce onay ister.
+
+Kontrol cihazı bir süredir haber vermiyorsa sayfa bunu söyler ve ölçümler güncel olmayabilir. Çevrimdışı görünürken gönderilen bir komut hiç gönderilmez, sayfa bunu da söyler.
 
 ## Bir şeyi değiştirdikten sonra
 

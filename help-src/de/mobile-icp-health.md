@@ -2,7 +2,7 @@
 title: ICP und Zustandsberichte
 description: Lade einen ICP-Test hoch, verfolge jedes Element über die Zeit und lass dein ganzes System gründlich bewerten.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ Oben im Bericht steht dann **Gesendet von {lab}**. So erkennst du, dass du ihn n
 :::note Beim ersten Mal
 Kommt zum ersten Mal ein Ergebnis auf diesem Weg an, zeigt Cora einen kurzen Hinweis dazu. So hältst du es nicht für einen Fehler.
 :::
+
+### Das erste Ergebnis von einem neuen Labor
+
+Schickt dir ein Labor zum ersten Mal ein Ergebnis, bittet Cora dich, es erst zu genehmigen, bevor es irgendwo landet, selbst wenn du nur ein Becken hast. Du siehst, wer es geschickt hat, und kannst **Diesem Labor vertrauen** ankreuzen, um diese Prüfung beim nächsten Ergebnis von diesem Labor zu überspringen.
+
+Tippe auf **Genehmigen**, um es zu übernehmen, oder auf **Ablehnen**, um es zu löschen, ohne es einem Becken zuzuordnen. Unter **Einstellungen → Vertraute Labore** stehen alle Labore, denen du auf diese Weise vertraut hast, und **Entziehen** entfernt eines wieder, sodass sein nächstes Ergebnis erneut deine Genehmigung braucht.
 
 Klappt es nicht, schau in die [Problembehebung](/help/troubleshooting).
 

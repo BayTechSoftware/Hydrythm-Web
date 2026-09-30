@@ -2,7 +2,7 @@
 title: Glossary
 description: What Cora means by tank, source, widget, saved design, threshold, insight and other words you'll see.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ One delivery of liquid from a DŌS head or another dosing pump, using the produc
 
 A pause for feeding. It stops the right equipment and turns it back on automatically. That's safer than switching pumps off by hand, because you don't have to remember to switch them back on.
 
+## GHL
+
+Short for GHL Advanced Technology, maker of the ProfiLux and Mitras line of controllers. Cora's GHL support is a **beta**. See [Connecting your equipment](/help/mobile-connections).
+
 ## Health report
 
 A deeper, periodic look at a whole system. It takes every parameter, source, dose and recent lab result into account together. See [ICP and health reports](/help/mobile-icp-health).
+
+## HYDROS
+
+CoralVue's controller and dosing ecosystem. Cora reaches it through HYDROS's own cloud, so it keeps working away from home. Cora's HYDROS support is a **beta**. See [Connecting your equipment](/help/mobile-connections).
 
 ## ICP
 
@@ -104,7 +112,7 @@ A button on a Cora Max alert. It mutes the alert on that Cora Max for the rule's
 
 ## Source
 
-Where a reading came from, whether that's a probe, a controller, a lab result, or you with a test kit. Every reading has one, so Cora can tell you when two sources disagree.
+Where a reading came from, whether that's a probe, a controller, a lab result, or you with a test kit. Every reading has one, so Cora can tell you when two sources disagree. If more than one source reports the same reading, [Probes](/help/mobile-probes) is where you choose which one to trust, or leave it Automatic.
 
 ## Tank
 
@@ -120,4 +128,4 @@ Tank-sitter mode. You make a dated plan with a checklist of jobs, and Cora turns
 
 ## Widget
 
-One tile on a dashboard that shows one thing. There are nine types: Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod and Maxspect *(beta)*. See [Widget reference](/help/mobile-widgets).
+One tile on a dashboard that shows one thing. There are eleven types: Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod, Maxspect *(beta)*, GHL *(beta)* and HYDROS *(beta)*. See [Widget reference](/help/mobile-widgets).

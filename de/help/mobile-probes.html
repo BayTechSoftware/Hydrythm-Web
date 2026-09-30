@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sonden | Cora Help</title>
-  <meta name="description" content="Ordne die Sonden deines Controllers den Wasserwerten in Cora zu und halte Kalibrierung und Reinigung fest.">
+  <meta name="description" content="Sieh, welche Sonde jeden Messwert liefert, egal bei welchem Controller, und halte Kalibrierung und Reinigung fest.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/mobile-probes">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-probes">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sonden | Cora Help">
-  <meta property="og:description" content="Ordne die Sonden deines Controllers den Wasserwerten in Cora zu und halte Kalibrierung und Reinigung fest.">
+  <meta property="og:description" content="Sieh, welche Sonde jeden Messwert liefert, egal bei welchem Controller, und halte Kalibrierung und Reinigung fest.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/mobile-probes">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -168,25 +168,32 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Sonden</h1>
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#sonden-zuordnen">Sonden zuordnen</a></li><li><a href="#mehrere-sonden-fr-einen-wasserwert">Mehrere Sonden für einen Wasserwert</a></li><li><a href="#sondenpflege-festhalten">Sondenpflege festhalten</a></li></ul></nav>
-<p>Ein Controller meldet seine Sonden unter eigenen Namen. Mit der Sondenzuordnung sagst du Cora, welche davon deine pH-Sonde ist, welche die Temperatur misst und so weiter.</p>
-<h2 id="sonden-zuordnen">Sonden zuordnen</h2>
-<p>Öffne dein <strong>Beckenprofil</strong> über den Stift oben auf dem Dashboard. Klapp den Bereich deines Controllers auf und wähl <strong>Sondenzuordnung</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Sondenzuordnung"><img src="/help/img/mobile-probes.webp" alt="Sondenzuordnung" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Jede von deinem Controller gemeldete Sonde, ihr Live-Messwert, und was Cora mit ihr macht.</figcaption></figure>
-<p>Dort steht jede Sonde, die dein Controller meldet, mit ihrem aktuellen Messwert. Die Standardnamen erkennt Cora selbst, und in der Zeile siehst du, welchem Wasserwert es die Sonde zugeordnet hat. Meist musst du also nur die Sonden korrigieren, die Cora nicht einordnen konnte, und nicht alle von Hand zuordnen.</p>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#woher-jeder-messwert-kommt">Woher jeder Messwert kommt</a></li><li><a href="#sonden-cora-sagen-was-jede-ist">Sonden: Cora sagen, was jede ist</a></li><li><a href="#mehrere-sonden-fr-einen-wasserwert">Mehrere Sonden für einen Wasserwert</a></li><li><a href="#sondenpflege-festhalten">Sondenpflege festhalten</a></li></ul></nav>
+<p>Hast du mehr als einen Controller, oder zwei Sonden, die dasselbe messen, muss Cora wissen, welchem Messwert es vertrauen soll. Genau dafür ist die Sondenzuordnung da, und dort legst du auch fest, wofür jede Sonde überhaupt steht.</p>
+<p>Öffne dein <strong>Beckenprofil</strong> (der Stift oben auf dem Dashboard) und wähl <strong>Sondenzuordnung</strong>.</p>
+<h2 id="woher-jeder-messwert-kommt">Woher jeder Messwert kommt</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Woher jeder Messwert kommt"><img src="/help/img/mobile-probes.webp" alt="Woher jeder Messwert kommt" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Jeder Wasserwert, welche Sonde ihn gerade liefert, und eine Schaltfläche zum Ändern.</figcaption></figure>
+<p>In diesem Abschnitt stehen alle Wasserwerte, die Cora für dieses Becken verfolgt, etwa pH oder Temperatur, und dazu, welche Sonde sie gerade liefert.</p>
+<p>Tippe auf einen Wasserwert, um jede Sonde zu sehen, die ihn meldet, über alle verbundenen Controller hinweg. Zu jeder stehen ihre Marke, ihr eigener Name für die Sonde und ihr Live-Messwert. Wähl eine aus, um sie festzulegen, oder wähl <strong>Automatisch</strong>, damit Cora selbst entscheidet, welche Sonde gilt.</p>
+<p>Ein Zusatz neben jedem Wasserwert zeigt, was gerade gilt: <strong>Automatisch</strong>, oder <strong>Von dir gewählt</strong>, sobald du eine Sonde festgelegt hast.</p>
+<p>Meldet sich eine festgelegte Sonde nicht mehr, zeigt Cora, wann sie zuletzt gemeldet hat, und bietet <strong>Zurück zu Automatisch</strong> an. So kann eine tote Sonde einen Wasserwert nicht dauerhaft blockieren.</p>
+<p>Tippe auf <strong>Umbenennen</strong>, um einem Wasserwert einen eigenen Anzeigenamen zu geben. Das ist unabhängig vom Namen, den du der Sonde selbst gibst. Dieser Name erscheint auf deinem Dashboard, in Warnungen und in Reef Buddy.</p>
+<aside class="cal cal-note"><p class="cal-t">Ein Lecksensor lässt sich hier nicht neu zuordnen</p><p>Der Alarm eines Lecksensors hängt an seinem eigenen Namen, deshalb taucht er in dieser Auswahl nicht auf. Er funktioniert weiterhin wie gewohnt.</p></aside>
+<h2 id="sonden-cora-sagen-was-jede-ist">Sonden: Cora sagen, was jede ist</h2>
+<p>Weiter unten stehen alle Sonden, die Cora kennt, gruppiert nach dem Gerät, das sie meldet, mit ihrem aktuellen Messwert. Die Standardnamen erkennt Cora selbst, und in der Zeile siehst du, welchem Wasserwert es die Sonde zugeordnet hat. Meist musst du also nur die Sonden korrigieren, die Cora nicht einordnen konnte, und nicht alle von Hand zuordnen.</p>
 <p>In jeder Zeile hast du drei Möglichkeiten:</p>
 <ul><li><strong>Einen Cora-Wasserwert</strong>, also den Wert, den diese Sonde misst.</li><li><strong>Eigen</strong> für eine Sonde, für die Cora keinen Standard-Wasserwert kennt. Du gibst ihr ein kurzes Kürzel in Großbuchstaben, und Cora zeichnet sie unter diesem Namen auf.</li><li><strong>Ignorieren</strong> für Sonden, die Cora gar nicht aufzeichnen soll.</li></ul>
 <p>Eine ignorierte oder nicht zugeordnete Sonde erscheint auf keinem Dashboard und löst keine Warnungen aus.</p>
 <p>Eine Zuordnung gilt ab dem nächsten Messwert. Korrigierst du hier etwas, bleibt die Historie also, wie sie ist. Nur was ab jetzt gespeichert wird, ändert sich. Tippe auf <strong>Speichern</strong>, um die Zuordnungen zu übernehmen.</p>
-<aside class="cal cal-warning"><p class="cal-t">Eine nicht zugeordnete Sonde sieht Cora nicht</p><p>Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf als Erstes die Zuordnung.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Eine nicht zugeordnete Sonde sieht Cora nicht</p><p>Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf als Erstes ihre Zuordnung.</p></aside>
 <h2 id="mehrere-sonden-fr-einen-wasserwert">Mehrere Sonden für einen Wasserwert</h2>
-<p>Hast du zwei Temperatursonden, kannst du beide zuordnen. Cora führt sie als getrennte Quellen. Welcher davon eine Kachel folgt, legst du in der Quelleinstellung des Widgets fest. In der <a href="/de/help/mobile-metric-detail">Wasserwert-Ansicht</a> kannst du sie vergleichen.</p>
+<p>Hast du zwei Temperatursonden, egal ob am selben Controller oder an zweien, ordne beide zu. Cora führt sie als getrennte Quellen, und oben unter <strong>Woher jeder Messwert kommt</strong> legst du fest, welche davon den Wasserwert liefert, oder lässt es auf Automatisch. In der <a href="/de/help/mobile-metric-detail">Wasserwert-Ansicht</a> kannst du sie vergleichen.</p>
 <h2 id="sondenpflege-festhalten">Sondenpflege festhalten</h2>
 <p>Sonden driften mit der Zeit. Cora kann festhalten, wann du jede zuletzt kalibriert oder gereinigt hast. So erkennst du, ob sich wirklich etwas im Becken ändert oder ob eine Sonde Pflege braucht.</p>
 <p>Kalibrierung oder Reinigung trägst du beim Eintrag der Sonde ein. Das passt auch gut als wiederkehrende <a href="/de/help/mobile-maintenance">Wartungsaufgabe</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Die Kalibrierhistorie erklärt Abweichungen</p><p>Zeigen Sonde und Testkit unterschiedliche Werte, schau zuerst nach, wann du die Sonde zuletzt kalibriert hast.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/mobile-schedules"><span>Zurück</span><b>Ausrüstung planen</b></a><a class="pn-n" href="/de/help/mobile-consumables"><span>Weiter</span><b>Verbrauchsmaterial</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.79 und Cora Mobile 0.5.80. Zuletzt geprüft am 2026-09-09.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.79 und Cora Mobile 0.5.80. Zuletzt geprüft am 2026-09-30.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>

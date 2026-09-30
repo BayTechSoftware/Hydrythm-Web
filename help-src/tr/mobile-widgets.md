@@ -2,7 +2,7 @@
 title: Widget rehberi
 description: Cora'daki bütün widget türleri (değer, gösterge, grafik, durum, priz ve cihaz kutucukları) ve hangisini ne zaman kullanacağınız.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Widget'ları **[pano düzenleyicide](/help/mobile-dashboard-editing)** ekleyip y
 
 ![Widget ayarları](img/mobile-widget-config.webp "Tür, parametre, ardından genişlik ve yükseklik.")
 
-## Dokuz tür
+## On bir tür
 
 | Tür | Ne gösterir |
 |---|---|
@@ -26,8 +26,10 @@ Widget'ları **[pano düzenleyicide](/help/mobile-dashboard-editing)** ekleyip y
 | **Apex modülü** | Trident ya da DŌS gibi takılı tek bir Apex modülü |
 | **Jecod** | Tek bir Jecod pompası, modu ve yoğunluğuyla |
 | **Maxspect** *(beta)* | Tek bir gyre, iki motoruyla birlikte |
+| **GHL** *(beta)* | Tek bir ProfiLux ya da Mitras kontrol cihazı, kendi özetiyle |
+| **HYDROS** *(beta)* | Tek bir HYDROS kontrol cihazı, kendi özetiyle |
 
-Son dördü **cihaz** kutucuklarıdır. Parametreye değil, ekipmana bağlıdırlar. Her biri o ünitenin bildirdiği bilgileri gösterir.
+Son altısı **cihaz** kutucuklarıdır. Parametreye değil, ekipmana bağlıdırlar. Her biri o ünitenin bildirdiği bilgileri gösterir.
 
 ## Boyut
 

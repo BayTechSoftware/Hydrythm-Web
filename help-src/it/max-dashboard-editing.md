@@ -2,7 +2,7 @@
 title: Modificare la dashboard di Cora Max
 description: Scegli una griglia, aggiungi i widget e salva i layout per lo schermo di Cora Max.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ In alto l'editor ti ricorda i tre gesti: **tocca un riquadro per modificarlo**, 
 
 **Prese e alimentazione** aggiunge in un colpo solo tutte le prese che puoi comandare e i cicli di alimentazione. **Svuota tutto** libera la griglia, così ricominci da capo.
 
-I nove tipi di riquadro (Valore, Indicatore, Grafico, Stato, Presa, ReefBeat, Modulo Apex, Jecod e Maxspect *(beta)*) sono descritti nella [Guida di riferimento ai widget](/help/mobile-widgets).
+Gli undici tipi di riquadro (Valore, Indicatore, Grafico, Stato, Presa, ReefBeat, Modulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* e HYDROS *(beta)*) sono descritti nella [Guida di riferimento ai widget](/help/mobile-widgets).
 
 ## Pensato per essere letto da lontano
 

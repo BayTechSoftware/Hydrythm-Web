@@ -2,7 +2,7 @@
 title: Editing the Cora Max dashboard
 description: Choose a grid, add widgets and save layouts for the Cora Max display.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ The three gestures are listed along the top of the editor: **tap a tile to edit*
 
 **Outlets & Feed** adds all your controllable outlets and feed cycles in one go. **Clear all** empties the grid so you can start over.
 
-The nine tile types are Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod and Maxspect *(beta)*. You'll find them all in the [Widget reference](/help/mobile-widgets).
+The eleven tile types are Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod, Maxspect *(beta)*, GHL *(beta)* and HYDROS *(beta)*. You'll find them all in the [Widget reference](/help/mobile-widgets).
 
 ## Designing for distance
 

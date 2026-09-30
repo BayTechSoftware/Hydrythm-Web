@@ -2,7 +2,7 @@
 title: Controlling equipment from Cora Max
 description: Device pages on the big screen for probes, outlets, dosing heads, testers and pumps.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 6
 group: Equipment
 ---
@@ -25,6 +25,8 @@ There's no preview and no undo. A command goes out the moment you tap, but sendi
 | **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode |
 | **Jecod** | Pump mode and intensity, and its day program |
 | **Maxspect** *(beta)* | Mode and speed for **Gyre A** and **Gyre B**, **Pump health** (cleaning countdown, head A current, fitted heads, firmware), and its schedule, view only |
+| **GHL ProfiLux / Mitras** *(beta)* | Probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results |
+| **HYDROS** *(beta)* | Whatever its device key reports: inputs, and with a write key, outputs, modes, dosing heads and tester commands |
 
 If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
 
@@ -50,6 +52,32 @@ A large dose changes what the head is doing on the Apex for a while, then puts i
 Check the head in Apex Fusion yourself, then tap **I checked the head in Fusion** to clear the banner. Only do this once you've confirmed that the head's own schedule is running, not Cora's dosing program.
 
 If the banner won't clear, or keeps coming back, have a look at [Troubleshooting](/help/troubleshooting).
+
+## GHL ProfiLux and Mitras
+
+:::note GHL support is in beta
+We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates.
+:::
+
+Connect a GHL controller from **Settings → [your tank] → GHL controller (Beta)**. Enter its IP address on your network and tap **Detect**. Cora tries the controller's official API first, then its other interfaces, and tells you which one it found.
+
+If nothing answers and the controller is a ProfiLux mini, Cora offers a fallback: enter its login and Cora reads it read-only. Nothing else about a mini can be controlled.
+
+Controls stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default. Once it's on, a socket can be set to **Always on**, **Always off**, or **Back to automatic**, and a setpoint such as temperature or pH shows its allowed range and refuses a value outside it. Both kinds of change are saved on the controller itself and stay there even if Cora later loses touch with it. A change that looks like it touches a heater or return pump asks you to confirm twice.
+
+If the controller won't take a change, its GHL API is probably switched off. GHL turns this off after every firmware update; turn it back on from **System → GHL API** in GHL Control Center or GHL Connect. [Troubleshooting](/help/troubleshooting) has the rest.
+
+## HYDROS
+
+:::note HYDROS support is in beta
+We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates.
+:::
+
+HYDROS is the only integration that reaches its controller through the cloud, so it works even when Cora Max is on a different network than the controller. Link it from **Settings → [your tank] → HYDROS (Beta)**.
+
+In the HYDROS app, create a device key for the provider **cora-iq**, choosing **Read** for readings only or **Write** to also control it. Paste the key in, tap **Validate**, pick the tank, then **Save**. The last 33 days of its history are imported once it's linked.
+
+Reading and controlling it works the same as on your phone; see [Controlling your equipment](/help/mobile-device-control) for outputs, modes, dosing heads and tester commands, and for the per-head dose limits.
 
 ## Schedules
 

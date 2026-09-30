@@ -2,7 +2,7 @@
 title: Glossar
 description: Die Begriffe, die Cora verwendet, von Becken, Quelle und Widget bis zu gespeichertem Design, Schwellenwert und Insight.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ Eine Gabe Flüssigkeit aus einem DŌS-Kopf oder einer anderen Dosierpumpe, mit d
 
 Eine Pause zum Füttern. Er stoppt die passenden Geräte und schaltet sie danach von selbst wieder ein. Das ist sicherer, als Pumpen von Hand auszuschalten, denn du musst nicht daran denken, sie wieder einzuschalten.
 
+## GHL
+
+Kurz für GHL Advanced Technology, Hersteller der Controller-Reihen ProfiLux und Mitras. Die GHL-Unterstützung von Cora ist eine **Beta**. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+
 ## Zustandsbericht
 
 Eine gründlichere Auswertung deines ganzen Systems in regelmäßigen Abständen. Dabei betrachtet Cora alle Wasserwerte, Quellen, Dosierungen und neuen Laborergebnisse zusammen. Mehr dazu unter [ICP und Zustandsberichte](/help/mobile-icp-health).
+
+## HYDROS
+
+Das Controller- und Dosier-Ökosystem von CoralVue. Cora erreicht es über die eigene Cloud von HYDROS, deshalb funktioniert es auch unterwegs. Die HYDROS-Unterstützung von Cora ist eine **Beta**. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 ## ICP
 
@@ -104,7 +112,7 @@ Eine Taste an einer Warnung auf Cora Max. Sie macht die Warnung auf diesem Cora 
 
 ## Quelle
 
-Woher ein Messwert kommt: von einer Sonde, einem Controller, aus dem Labor oder von dir mit einem Testkit. Jeder Messwert hat eine Quelle. Nur so kann Cora dir sagen, wenn sich zwei Quellen widersprechen.
+Woher ein Messwert kommt: von einer Sonde, einem Controller, aus dem Labor oder von dir mit einem Testkit. Jeder Messwert hat eine Quelle. Nur so kann Cora dir sagen, wenn sich zwei Quellen widersprechen. Meldet mehr als eine Quelle denselben Messwert, legst du unter [Sonden](/help/mobile-probes) fest, welcher du vertraust, oder lässt es auf Automatisch.
 
 ## Becken
 
@@ -120,4 +128,4 @@ Der Modus für deine Beckenvertretung. Du legst einen Plan mit Datum und einer C
 
 ## Widget
 
-Eine Kachel auf einem Dashboard, die eine Sache zeigt. Es gibt neun Typen: Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod und Maxspect *(Beta)*. Mehr dazu in der [Widget-Übersicht](/help/mobile-widgets).
+Eine Kachel auf einem Dashboard, die eine Sache zeigt. Es gibt elf Typen: Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)* und HYDROS *(Beta)*. Mehr dazu in der [Widget-Übersicht](/help/mobile-widgets).

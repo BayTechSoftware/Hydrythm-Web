@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Connecting your equipment | Cora Help</title>
-  <meta name="description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
+  <meta name="description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz, GHL and HYDROS equipment to Cora.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-connections">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-connections">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-connections">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Connecting your equipment | Cora Help">
-  <meta property="og:description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.">
+  <meta property="og:description" content="How to connect Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz, GHL and HYDROS equipment to Cora.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-connections">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -168,10 +168,10 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Connecting your equipment</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#jecod-jebao">Jecod / Jebao</a></li><li><a href="#aquawiz-kh-controller">AquaWiz KH Controller</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#logging-by-hand">Logging by hand</a></li><li><a href="#if-a-connection-stops-working">If a connection stops working</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#red-sea-reefbeat">Red Sea ReefBeat</a></li><li><a href="#jecod-jebao">Jecod / Jebao</a></li><li><a href="#aquawiz-kh-controller">AquaWiz KH Controller</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#ghl-profilux-and-mitras">GHL ProfiLux and Mitras</a></li><li><a href="#hydros">HYDROS</a></li><li><a href="#logging-by-hand">Logging by hand</a></li><li><a href="#if-a-connection-stops-working">If a connection stops working</a></li></ul></nav>
 <p>Cora works with equipment you already own. This page covers what's supported and what each connection needs.</p>
 <p>Each brand connects a little differently, so start from the right place for your equipment:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Brand</th><th>Start from</th></tr></thead><tbody><tr><td data-th="Brand">Neptune™ Apex</td><td data-th="Start from">The tank. Its profile holds the Apex connection</td></tr><tr><td data-th="Brand">Red Sea™ ReefBeat</td><td data-th="Start from">The tank</td></tr><tr><td data-th="Brand">Jecod™ / Jebao™</td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong>, or Bluetooth</td></tr><tr><td data-th="Brand">AquaWiz™</td><td data-th="Start from"><strong>Devices → Add AquaWiz</strong></td></tr><tr><td data-th="Brand">Maxspect™ <em>(beta)</em></td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong></td></tr><tr><td data-th="Brand">Cora Max</td><td data-th="Start from"><strong>Devices → Add Device</strong></td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Brand</th><th>Start from</th></tr></thead><tbody><tr><td data-th="Brand">Neptune™ Apex</td><td data-th="Start from">The tank. Its profile holds the Apex connection</td></tr><tr><td data-th="Brand">Red Sea™ ReefBeat</td><td data-th="Start from">The tank</td></tr><tr><td data-th="Brand">Jecod™ / Jebao™</td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong>, or Bluetooth</td></tr><tr><td data-th="Brand">AquaWiz™</td><td data-th="Start from"><strong>Devices → Add AquaWiz</strong></td></tr><tr><td data-th="Brand">Maxspect™ <em>(beta)</em></td><td data-th="Start from"><strong>Devices → Find a pump on your network</strong></td></tr><tr><td data-th="Brand">GHL™ ProfiLux / Mitras <em>(beta)</em></td><td data-th="Start from">Cora Max, from the tank's settings</td></tr><tr><td data-th="Brand">HYDROS™ <em>(beta)</em></td><td data-th="Start from"><strong>Devices → Add HYDROS (Beta)</strong></td></tr><tr><td data-th="Brand">Cora Max</td><td data-th="Start from"><strong>Devices → Add Device</strong></td></tr></tbody></table></div>
 <h2 id="neptune-apex">Neptune Apex</h2>
 <p>Cora reads your Apex over your local network, including probes, outlets and any expansion modules you've fitted.</p>
 <p>To connect it, you need your Apex's address on your network and its sign-in.</p>
@@ -202,13 +202,23 @@
 <p>When you add a gyre, it has to be on the same network as your phone. Use <strong>Devices → Find a pump on your network</strong>.</p>
 <p>You can set wave pattern and speed for <strong>Gyre A</strong> and <strong>Gyre B</strong>. You can see the gyre's schedule (set it in the Maxspect app), <strong>Pump health</strong>, and whether it's running, with when it was last read. <a href="/help/mobile-device-control">Controlling your equipment</a> has the details.</p>
 <aside class="cal cal-note"><p class="cal-t">How Cora Mobile reaches a gyre</p><p>If a Cora Max serves the tank, Cora Mobile goes through that Cora Max, even when you're away from home. <strong>Change settings</strong> then starts from that Cora Max's last reading. Otherwise your phone talks to the gyre directly and has to be on the gyre's network. Opening the gyre's page reads it. If the page is showing an older stored reading, <strong>Change settings</strong> stays hidden until you tap refresh.</p></aside>
+<h2 id="ghl-profilux-and-mitras">GHL ProfiLux and Mitras</h2>
+<aside class="cal cal-note"><p class="cal-t">GHL support is in beta</p><p>We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from <a href="/help/mobile-support">Getting help</a>.</p></aside>
+<p>Cora reads a GHL ProfiLux or Mitras controller over your local network: probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results.</p>
+<p>You connect it from <strong>Cora Max</strong>, not from your phone: open the tank's settings and add its IP address there. <a href="/help/max-device-control">Controlling equipment from Cora Max</a> has the steps. Once it's connected, its readings and controls show up on your phone too.</p>
+<p>The GHL API has to be switched on for Cora to reach the controller at all. GHL turns it off after every firmware update, so this is worth checking first if nothing appears. <a href="/help/troubleshooting">Troubleshooting</a> covers what to do.</p>
+<h2 id="hydros">HYDROS</h2>
+<aside class="cal cal-note"><p class="cal-t">HYDROS support is in beta</p><p>We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from <a href="/help/mobile-support">Getting help</a>.</p></aside>
+<p>HYDROS is the only integration that doesn't need your Cora and your controller on the same network. Cora reaches it through HYDROS's own cloud, so it keeps working away from home, and even with Cora closed.</p>
+<p>To connect it, open the HYDROS app and create a <strong>device key</strong> for the provider <strong>cora-iq</strong>. Choose <strong>Read</strong> if you only want its readings, or <strong>Write</strong> if you also want to control it from Cora. Then go to <strong>Devices → Add HYDROS (Beta)</strong> and paste the key in.</p>
+<p>Once it's linked, Cora imports the last 33 days of its history, then keeps reading forward from there. <a href="/help/mobile-device-control">Controlling your equipment</a> covers what you can read and, with a write key, control.</p>
 <h2 id="logging-by-hand">Logging by hand</h2>
 <p>Some parameters come from a test kit, not from equipment. To enter a result, scroll to the bottom of the dashboard and tap <strong>Log Parameters</strong>.</p>
 <p>Readings you log by hand count as much as any other. They show on widgets with their own source and age, and they feed Reef Buddy. Cora also checks your probes against them when it tells you two sources disagree.</p>
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you what kind of problem it is. Look it up in the table in <a href="/help/mobile-devices">Adding, editing and removing devices</a>. For anything that doesn't cover, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-devices"><span>Previous</span><b>Adding, editing and removing devices</b></a><a class="pn-n" href="/help/mobile-device-control"><span>Next</span><b>Controlling your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.79 and Cora Mobile 0.5.80. Last checked 2026-09-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.79 and Cora Mobile 0.5.80. Last checked 2026-09-30.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

@@ -2,7 +2,7 @@
 title: ICP ve sağlık raporları
 description: ICP testinizi yükleyin, her elementi zaman içinde izleyin ve sisteminizin kapsamlı sağlık değerlendirmesini alın.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ Raporun başlığının yakınında **{lab} tarafından gönderildi** yazar. Bö
 :::note İlk sefer
 Bu yoldan ilk sonuç geldiğinde Cora neler olduğunu anlatan kısa ipucu gösterir. Böylece durum bir hata gibi görünmez.
 :::
+
+### Yeni bir laboratuvardan gelen ilk sonuç
+
+Bir laboratuvar size ilk kez sonuç gönderdiğinde Cora, tek akvaryumunuz olsa bile, sonucu herhangi bir yere eklemeden önce onayınızı ister. Sonucu kimin gönderdiğini görürsünüz ve bir sonraki sefer bu kontrolü atlamak için **Bu laboratuvara güven** kutusunu işaretleyebilirsiniz.
+
+Sonucu içeri almak için **Onayla**'ya, hiçbir akvaryuma eklemeden silmek için **Reddet**'e dokunun. **Ayarlar → Güvenilen laboratuvarlar** bu şekilde güvendiğiniz her laboratuvarı listeler. **Geri al** bir laboratuvarı listeden çıkarır, böylece sonraki sonucu için yeniden onayınız gerekir.
 
 İşe yaramıyorsa [Sorun giderme](/help/troubleshooting) sayfasına bakın.
 

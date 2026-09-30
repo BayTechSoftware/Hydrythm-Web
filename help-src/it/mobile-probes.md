@@ -1,21 +1,37 @@
 ---
 title: Sonde
-description: Associa le sonde del controller ai parametri di Cora e annota calibrazioni e pulizie.
+description: Vedi quale sonda guida ogni lettura in tutti i controller, e annota calibrazioni e pulizie.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 13
 group: Equipment
 ---
 
-Il controller chiama le sonde con nomi suoi. Con la mappatura delle sonde dici a Cora qual è la sonda del pH, quale quella della temperatura e così via.
+Se hai più di un controller, o due sonde che misurano la stessa cosa, Cora deve sapere quale lettura considerare valida. La mappatura delle sonde è dove sistemi questo, ed è anche dove dici a Cora cos'è ogni sonda fin dall'inizio.
 
-## Mappare le sonde
+Apri il **profilo della vasca** (la matita in alto sulla dashboard) e scegli **Mappatura sonde**.
 
-Apri il **profilo della vasca** (la matita in alto sulla dashboard), apri la sezione del controller e scegli **Mappatura sonde**.
+## Da dove arriva ogni lettura
 
-![Mappatura delle sonde](img/mobile-probes.webp "Ogni sonda riportata dal tuo controller, la sua lettura in tempo reale, e cosa ne fa Cora.")
+![Da dove arriva ogni lettura](img/mobile-probes.webp "Ogni parametro, quale sonda lo guida e un pulsante Scegli per cambiarla.")
 
-Vedi tutte le sonde del controller, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.
+Questa sezione elenca ogni parametro che Cora segue per questa vasca, come pH o temperatura, e mostra quale sonda lo sta alimentando in questo momento.
+
+Tocca una lettura per vedere tutte le sonde che la riportano, in tutti i controller che hai collegato. Ognuna mostra la sua marca, il nome che le ha dato il controller e il suo valore in tempo reale. Scegline una per fissarla, oppure scegli **Automatico** per lasciare che Cora usi qualunque sonda stia riportando.
+
+Un'etichetta accanto a ogni lettura mostra quale sonda è attiva: **Automatico**, oppure **Scelta da te** una volta che ne hai fissata una.
+
+Se una sonda fissata smette di riportare, Cora mostra da quanto tempo non risponde più e offre **Torna ad Automatico**, così una sonda morta non può bloccare una lettura.
+
+Tocca **Rinomina** per dare a una lettura un nome tutto suo. È diverso dal nome che dai alla sonda stessa, ed è quello che compare sulla dashboard, negli avvisi e in Reef Buddy.
+
+:::note Un sensore di allagamento qui non si può riassegnare
+L'allarme di un sensore di allagamento dipende dal suo stesso nome, quindi è escluso da questa scelta. Funziona come sempre.
+:::
+
+## Sonde: dire a Cora cos'è ognuna
+
+Più in basso trovi tutte le sonde che Cora conosce, raggruppate per dispositivo, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.
 
 Per ogni riga hai tre scelte:
 
@@ -28,12 +44,12 @@ Una sonda ignorata o non mappata non compare sulla dashboard e non fa scattare a
 La mappatura vale dalla prossima lettura registrata. Una correzione quindi non riscrive lo storico, ma cambia quello che viene salvato da quel momento. Tocca **Salva** per applicarla.
 
 :::warning Una sonda non mappata per Cora non esiste
-Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la mappatura.
+Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la sua mappatura.
 :::
 
 ## Più sonde per lo stesso parametro
 
-Se hai due sonde di temperatura, puoi mapparle tutte e due. Cora le tiene come fonti separate. Nelle impostazioni del widget scegli quale fonte segue il riquadro, e nella [pagina del parametro](/help/mobile-metric-detail) puoi confrontarle.
+Se hai due sonde di temperatura, sullo stesso controller o su due diversi, mappale entrambe. Cora le tiene come fonti separate, e **Da dove arriva ogni lettura** qui sopra è dove scegli quale delle due guida la lettura, oppure lasci Automatico. Puoi confrontarle in [la pagina del parametro](/help/mobile-metric-detail).
 
 ## Annotare la cura delle sonde
 

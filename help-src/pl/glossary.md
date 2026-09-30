@@ -2,7 +2,7 @@
 title: Słownik
 description: Pojęcia, których używa Cora: akwarium, źródło, widżet, zapisany układ, próg, obserwacja i inne.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ Jedna porcja płynu z głowicy DŌS albo innej pompy dozującej, z preparatu i w
 
 Przerwa na karmienie. Zatrzymuje odpowiedni sprzęt i potem sam go przywraca. To bezpieczniejsze niż ręczne wyłączanie pomp, bo nic nie zależy od tego, czy pamiętasz, żeby je z powrotem włączyć.
 
+## GHL
+
+Skrót od GHL Advanced Technology, producenta kontrolerów z serii ProfiLux i Mitras. Obsługa GHL w Corze jest w wersji **beta**. Więcej w [Podłączanie sprzętu](/help/mobile-connections).
+
 ## Raport zdrowia
 
 Dokładniejsza, okresowa ocena całego systemu. Bierze pod uwagę razem wszystkie parametry, źródła, dawki i najnowsze wyniki z laboratorium. Więcej w [ICP i raporty zdrowia](/help/mobile-icp-health).
+
+## HYDROS
+
+Ekosystem kontrolerów i dozowania CoralVue. Cora łączy się z nim przez chmurę HYDROS, więc działa też poza domową siecią. Obsługa HYDROS w Corze jest w wersji **beta**. Więcej w [Podłączanie sprzętu](/help/mobile-connections).
 
 ## ICP
 
@@ -104,7 +112,7 @@ Przycisk na alercie Cora Max. Wycisza alert na tym Cora Max na czas wstrzymania 
 
 ## Źródło
 
-Skąd pochodzi odczyt: z sondy, z kontrolera, z laboratorium albo od Ciebie z testu kropelkowego. Każdy odczyt ma swoje źródło. Dzięki temu Cora może Ci powiedzieć, gdy dwa źródła się nie zgadzają.
+Skąd pochodzi odczyt: z sondy, z kontrolera, z laboratorium albo od Ciebie z testu kropelkowego. Każdy odczyt ma swoje źródło. Dzięki temu Cora może Ci powiedzieć, gdy dwa źródła się nie zgadzają. Jeśli ten sam odczyt zgłasza więcej niż jedno źródło, w [Sondy](/help/mobile-probes) wybierzesz, któremu ufać, albo zostawisz ustawienie Automatyczne.
 
 ## Akwarium
 
@@ -120,4 +128,4 @@ Tryb dla osoby, która opiekuje się akwarium pod Twoją nieobecność. To plan 
 
 ## Widżet
 
-Jeden kafelek na pulpicie, który pokazuje jedną rzecz. Jest dziewięć typów: Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod i Maxspect *(beta)*. Więcej w [Rodzaje widżetów](/help/mobile-widgets).
+Jeden kafelek na pulpicie, który pokazuje jedną rzecz. Jest jedenaście typów: Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* i HYDROS *(beta)*. Więcej w [Rodzaje widżetów](/help/mobile-widgets).

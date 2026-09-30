@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem z Cora Max
 description: Strony urządzeń na dużym ekranie: sondy, gniazda, głowice dozujące, testery i pompy.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 6
 group: Equipment
 ---
@@ -25,6 +25,8 @@ Nie ma podglądu ani cofania. Polecenie wychodzi w chwili dotknięcia, ale *wys�
 | **Red Sea ReefBeat** | Zależnie od urządzenia: głowice dozujące, zbiornik, dni rolki, tryb pompy |
 | **Jecod** | Tryb i moc pompy oraz jej program dnia |
 | **Maxspect** *(beta)* | Tryb i prędkość dla **Gyre A** i **Gyre B**, **Stan pompy** (odliczanie do czyszczenia, prąd głowicy A, zamontowane głowice, firmware) i harmonogram, tylko do podglądu |
+| **GHL ProfiLux / Mitras** *(beta)* | Sondy, gniazda, dozowniki, czujniki poziomu, a w modelach Director także wyniki testów KH i jonów |
+| **HYDROS** *(beta)* | To, co zgłasza jego klucz urządzenia: wejścia, a z kluczem zapisu także wyjścia, tryby, głowice dozujące i komendy testera |
 
 Jeśli urządzenie Red Sea samo się zatrzyma, jego strona pokaże, co się stało, a obok przycisk do rozwiązania problemu: **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana** albo **Resetuj** dla głowicy dozującej.
 
@@ -50,6 +52,32 @@ Na czas dużej dawki Cora zmienia to, co głowica robi na Apex, a potem przywrac
 Sprawdź głowicę w Apex Fusion, a potem dotknij **Głowicę sprawdzono w Fusion**, żeby zamknąć baner. Zrób to dopiero wtedy, gdy upewnisz się, że działa własny harmonogram głowicy, a nie program dozowania Cory.
 
 Jeśli baner nie znika albo ciągle wraca, zajrzyj do [Rozwiązywanie problemów](/help/troubleshooting).
+
+## GHL ProfiLux i Mitras
+
+:::note Obsługa GHL jest w wersji beta
+Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją.
+:::
+
+Podłącz kontroler GHL z **Ustawienia → [Twoje akwarium] → Kontroler GHL (Beta)**. Wpisz jego adres IP w Twojej sieci i dotknij **Wykryj**. Cora najpierw próbuje oficjalnego API kontrolera, potem innych interfejsów, i mówi, który z nich znalazła.
+
+Jeśli nic nie odpowie, a kontroler to ProfiLux mini, Cora oferuje rozwiązanie zastępcze: wpisz jego dane logowania, a Cora odczyta go tylko do odczytu. Niczego innego w mini nie da się sterować.
+
+Sterowanie pozostaje wyłączone, dopóki nie włączysz **Zezwol na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone. Gdy jest włączone, gniazdo można ustawić na **Zawsze wlaczone**, **Zawsze wylaczone** albo **Powrot do automatycznego**, a wartość docelowa, na przykład temperatura albo pH, pokazuje swój dozwolony zakres i odrzuca wartość spoza niego. Oba rodzaje zmian są zapisywane na samym kontrolerze i tam zostają, nawet jeśli Cora później straci z nim kontakt. Zmiana, która wygląda, jakby dotyczyła grzałki albo pompy powrotnej, prosi o podwójne potwierdzenie.
+
+Jeśli kontroler nie przyjmie zmiany, prawdopodobnie jego API GHL jest wyłączone. GHL wyłącza je po każdej aktualizacji firmware; włącz je z powrotem w **System → GHL API** w GHL Control Center albo GHL Connect. Resztę opisuje [Rozwiązywanie problemów](/help/troubleshooting).
+
+## HYDROS
+
+:::note Obsługa HYDROS jest w wersji beta
+Obsługę HYDROS wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją.
+:::
+
+HYDROS to jedyna integracja, która dociera do swojego kontrolera przez chmurę, więc działa nawet wtedy, gdy Cora Max jest w innej sieci niż kontroler. Połącz go z **Ustawienia → [Twoje akwarium] → HYDROS (Beta)**.
+
+W aplikacji HYDROS utwórz klucz urządzenia dla dostawcy **cora-iq**, wybierając **Odczyt** tylko dla odczytów albo **Zapis**, żeby też nim sterować. Wklej klucz, dotknij **Zweryfikuj**, wybierz akwarium, a potem **Zapisz**. Po połączeniu importowana jest historia z ostatnich 33 dni.
+
+Odczyt i sterowanie działają tak samo jak na telefonie; wyjścia, tryby, głowice dozujące i komendy testera, a także limity dawek dla poszczególnych głowic, opisuje [Sterowanie sprzętem](/help/mobile-device-control).
 
 ## Harmonogramy
 

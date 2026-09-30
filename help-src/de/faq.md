@@ -2,7 +2,7 @@
 title: Häufige Fragen
 description: Kurze Antworten zu Einrichtung, Cora Max, der Handy-App, Geräten, Warnungen, Reef Buddy und Cora Assistant, Sprachen und deinem Konto.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 0
 ---
 
@@ -118,11 +118,15 @@ Cora arbeitet mit immer mehr Controllern und Geräten zusammen, von WLAN-Control
 
 Mehr dazu unter [Verbindungen](/help/mobile-connections).
 
-### Gehört Cora zu Neptune, Red Sea, Jebao oder Maxspect?
+### Gehört Cora zu Neptune, Red Sea, Jebao, GHL, HYDROS oder Maxspect?
 
-Nein. Cora gehört zu keinem der Hersteller, mit deren Geräten es sich verbindet, und wird von keinem unterstützt oder als Partner geführt. Das gilt auch für Maxspect, dessen Anbindung noch in der Beta ist. Cora nutzt die öffentlichen Konten oder lokalen Netzwerkprotokolle der Hersteller. Ein Update ihrer App oder Firmware kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen.
+Nein. Cora gehört zu keinem der Hersteller, mit deren Geräten es sich verbindet, und wird von keinem unterstützt oder als Partner geführt. Das gilt auch für Maxspect, GHL und HYDROS, deren Anbindungen noch in der Beta sind. Cora nutzt die öffentlichen Konten, offiziellen APIs oder lokalen Netzwerkprotokolle der Hersteller. Ein Update ihrer App oder Firmware kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen.
 
 Mehr dazu unter [Verbindungen](/help/mobile-connections).
+
+### Was bedeutet es, wenn eine Anbindung „Beta“ ist?
+
+Es heißt, dass wir sie noch testen und weiterentwickeln. Manche Messwerte oder Steuerungen können deshalb eingeschränkt sein, und was du siehst, kann sich mit Updates ändern. Maxspect, GHL und HYDROS sind aktuell alle Beta. Klappt etwas nicht wie in der Anleitung beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
 
 ### Warum findet Cora Mobile mein Cora Max beim Koppeln nicht?
 

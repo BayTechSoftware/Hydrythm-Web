@@ -1,8 +1,8 @@
 ---
 title: Ekipmanınızı bağlama
-description: Neptune Apex, Red Sea ReefBeat, Jecod ve AquaWiz ekipmanlarını Cora'ya bağlayın.
+description: Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz, GHL ve HYDROS ekipmanlarını Cora'ya bağlayın.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 10
 group: Equipment
 ---
@@ -18,6 +18,8 @@ Her marka kendine en uygun yoldan bağlanır. Ekipmanınız için aşağıdaki b
 | Jecod / Jebao | **Cihazlar → Ağınızda bir pompa bulun** ya da Bluetooth |
 | AquaWiz | **Cihazlar → AquaWiz Ekle** |
 | Maxspect *(beta)* | **Cihazlar → Ağınızda bir pompa bulun** |
+| GHL ProfiLux / Mitras *(beta)* | Cora Max'ten, akvaryumun ayarlarından |
+| HYDROS *(beta)* | **Cihazlar → HYDROS Ekle (Beta)** |
 | Cora Max | **Cihazlar → Cihaz Ekle** |
 
 ## Neptune Apex
@@ -91,6 +93,30 @@ Bağlandıktan sonra **Gyre A** ve **Gyre B** için dalga desenini ve hızı, gy
 :::note Cora Mobile gyre'ye nasıl ulaşır
 Akvaryuma bağlı bir Cora Max varsa Cora Mobile, evden uzaktayken de o Cora Max üzerinden çalışır. **Ayarları değiştir** de o Cora Max'in son okumasından başlar. Cora Max yoksa telefonunuz gyre'yle doğrudan bağlantı kurar ve gyre'yle aynı ağda olması gerekir. Bu durumda gyre'nin sayfasını açınca gyre okunur. Sayfa daha eski, kayıtlı bir okumayı gösteriyorsa yenile simgesine dokunana kadar **Ayarları değiştir** görünmez.
 :::
+
+## GHL ProfiLux ve Mitras
+
+:::note GHL desteği beta aşamasında
+GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::
+
+Cora, bir GHL ProfiLux ya da Mitras kontrol cihazını yerel ağınız üzerinden okur: problar, prizler, dozaj üniteleri, seviye sensörleri ve Director modellerinde KH ile iyon test sonuçları.
+
+Bu cihazı telefonunuzdan değil, **Cora Max**'ten bağlarsınız: akvaryumun ayarlarını açın ve IP adresini oraya girin. Adımlar için [Cora Max'ten ekipman kontrolü](/help/max-device-control) sayfasına bakın. Bağlandıktan sonra ölçümleri ve kontrolleri telefonunuzda da görünür.
+
+Cora'nın kontrol cihazına ulaşabilmesi için GHL API'sinin açık olması gerekir. GHL bunu her yazılım güncellemesinden sonra kapatır, bu yüzden hiçbir şey görünmüyorsa önce bunu kontrol edin. Ne yapacağınızı [Sorun giderme](/help/troubleshooting) sayfasında bulabilirsiniz.
+
+## HYDROS
+
+:::note HYDROS desteği beta aşamasında
+HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::
+
+HYDROS, Cora'nız ile kontrol cihazınızın aynı ağda olmasını gerektirmeyen tek entegrasyondur. Cora ona HYDROS'un kendi bulutu üzerinden ulaşır, bu yüzden evden uzaktayken, hatta Cora kapalıyken bile çalışmaya devam eder.
+
+Bağlamak için HYDROS uygulamasını açın ve **cora-iq** sağlayıcısı için bir **cihaz anahtarı** oluşturun. Yalnızca ölçümlerini istiyorsanız **Read**'i, Cora'dan da kontrol etmek istiyorsanız **Write**'ı seçin. Sonra **Cihazlar → HYDROS Ekle (Beta)**'ya gidin ve anahtarı yapıştırın.
+
+Bağlandıktan sonra Cora, geçmişinin son 33 gününü içe aktarır, ardından oradan itibaren okumaya devam eder. Neleri okuyabileceğinizi ve yazma anahtarıyla neleri kontrol edebileceğinizi [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında bulabilirsiniz.
 
 ## Elle girme
 

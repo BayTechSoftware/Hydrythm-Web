@@ -2,7 +2,7 @@
 title: Deine Ausrüstung steuern
 description: Auf der Seite eines Geräts siehst du seinen Live-Zustand und steuerst es, ob Steckdose, Pumpe, Dosierkopf oder Testgerät.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ Die Seite der Gyre zeigt, ob sie läuft, Wellenmuster und Geschwindigkeit von **
 :::note Wie Cora Mobile eine Gyre erreicht
 Betreut ein Cora Max das Becken, arbeitet Cora Mobile über dieses Cora Max, auch wenn du nicht zu Hause bist. **Einstellungen ändern** startet dann mit der letzten Messung dieses Cora Max. Ohne Cora Max spricht dein Handy direkt mit der Gyre und muss dafür in ihrem Netzwerk sein. Öffnest du dann die Seite, liest Cora die Gyre aus. Zeigt die Seite stattdessen eine ältere gespeicherte Messung, bleibt **Einstellungen ändern** ausgeblendet, bis du auf Aktualisieren tippst.
 :::
+
+## GHL ProfiLux und Mitras
+
+:::note GHL wird als Beta unterstützt
+Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
+:::
+
+Die Seite des Controllers zeigt seine Sonden, Steckdosen, Dosierer und Füllstandssensoren, und bei den Director-Modellen auch seine KH- und Ionen-Testergebnisse.
+
+Steuerungen bleiben aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Schaltest du es ein, kann Cora Befehle für Fütterungspause, Wartung, Wasserwechsel, Gewitter, Beleuchtung, Sollwerte und Steckdosen an diesen Controller schicken.
+
+Ist es eingeschaltet:
+
+- Eine Steckdose kannst du auf **Immer an**, **Immer aus** oder **Zurueck zu automatisch** stellen, um sie wieder an die eigene Programmierung des Controllers zu übergeben.
+- Ein Sollwert, etwa für Temperatur oder pH, zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück.
+
+:::warning Eine Steckdosen- oder Sollwertänderung wird auf dem Controller selbst gespeichert
+Diese Änderung bleibt dort erhalten, auch wenn Cora später keinen Kontakt mehr zum Controller hat. Stellst du eine Steckdose auf Immer an oder Immer aus, überschreibt das die eigene Programmierung des Controllers dafür, bis du wieder Zurueck zu automatisch wählst.
+:::
+
+Sieht eine Steckdose oder ein Sollwert nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal, bevor sie den Befehl sendet.
+
+Nimmt der Controller die Änderung nicht an, prüf, ob seine GHL-API eingeschaltet ist und vollen Zugriff hat. GHL schaltet sie nach jedem Firmware-Update wieder aus. Die weiteren Schritte stehen unter [Problembehebung](/help/troubleshooting).
+
+## HYDROS
+
+:::note HYDROS wird als Beta unterstützt
+Die Unterstützung für HYDROS wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
+:::
+
+Was du hier siehst, hängt vom Schlüssel ab, mit dem er verbunden ist. Ein **Lesen**-Schlüssel gibt dir nur seine Eingänge. Ein **Schreiben**-Schlüssel bringt zusätzlich Ausgänge, Modi, Dosierung und Testbefehle, dazu einen Banner auf der Seite, der dich daran erinnert, welche Art von Schlüssel du hast.
+
+Mit einem Schreiben-Schlüssel bleiben Steuerungen ebenfalls aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus.
+
+Ist es eingeschaltet, kann die Seite zeigen:
+
+- **Ausgänge**, als Schalter für einen Ein/Aus-Ausgang, als Schieberegler für eine Stufe wie Pumpe oder Licht, oder als Taste für ein Kennzeichen. Ein überschriebener Ausgang zeigt **Überschrieben** mit einer Taste **Zurück zum Zeitplan**, um ihn wieder an sein eigenes Programm zu übergeben.
+- **Modi**, etwa Füttern oder Wasserwechsel, als Reihe von Auswahlmöglichkeiten. Tippst du auf einen, fragt Cora vorher nach.
+- **Dosierköpfe**, jeweils mit einer Taste **Dosieren** und einem Eintrag **Kopfeinstellungen**, wo du eigene Grenzen festlegst: eine größte Handdosierung und ein Tageslimit. Verlangst du mehr, als der Kopf erlaubt, oder mehr, als sein Tageslimit noch übrig hat, wird das mit den Zahlen in der Meldung abgelehnt.
+- **Testbefehle** für ein verbundenes iV oder Maven, über eine Taste ausgelöst und vorher bestätigt.
+
+Hat sich der Controller länger nicht gemeldet, steht das auf der Seite, und die Messwerte können veraltet sein. Ein Befehl, der gesendet wird, während er offline aussieht, wird gar nicht erst geschickt, und auch das zeigt die Seite dir an.
 
 ## Nachdem du etwas geändert hast
 

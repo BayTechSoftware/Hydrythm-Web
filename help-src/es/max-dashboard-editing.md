@@ -2,7 +2,7 @@
 title: Editar el panel de Cora Max
 description: Elige una cuadrícula, añade widgets y guarda diseños para la pantalla de Cora Max.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ El editor te recuerda arriba los tres gestos: **toca una casilla para editarla**
 
 **Tomas y alimentación** añade de una vez tus tomas controlables y los ciclos de alimentación. **Vaciar todo** deja la cuadrícula vacía para empezar de cero.
 
-Los nueve tipos de casilla (Valor, Medidor, Gráfico, Estado, Toma, ReefBeat, módulo Apex, Jecod y Maxspect *(beta)*) se explican en la **[Tipos de widget](/help/mobile-widgets)**.
+Los once tipos de casilla (Valor, Medidor, Gráfico, Estado, Toma, ReefBeat, módulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* y HYDROS *(beta)*) se explican en la **[Tipos de widget](/help/mobile-widgets)**.
 
 ## Pensado para verse de lejos
 

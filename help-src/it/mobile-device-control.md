@@ -2,7 +2,7 @@
 title: Controllare la tua attrezzatura
 description: Apri la pagina di un dispositivo per vederne lo stato in tempo reale e comandarlo: prese, pompe, teste di dosaggio e tester.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ La pagina della gyre mostra se è in funzione, schema d'onda e velocità di **Gy
 :::note Come Cora Mobile raggiunge una gyre
 Se la vasca ha un Cora Max, Cora Mobile passa da quel Cora Max, anche quando sei fuori casa, e **Modifica impostazioni** parte dall'ultima lettura del Cora Max. Altrimenti il telefono parla direttamente con la gyre e deve essere sulla sua rete. In questo caso, quando apri la pagina Cora legge la gyre. Se la pagina mostra invece una lettura salvata più vecchia, **Modifica impostazioni** resta nascosto finché non tocchi aggiorna.
 :::
+
+## GHL ProfiLux e Mitras
+
+:::note Il supporto GHL è in beta
+Il supporto GHL è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
+:::
+
+La pagina del controller mostra le sue sonde, prese, dosatori e sensori di livello, e sui modelli Director anche i risultati dei test di KH e ioni.
+
+I comandi restano disattivati finché non attivi **Consenti il controllo da Cora (Beta)** sulla pagina del dispositivo. È disattivato per impostazione predefinita, e attivarlo permette a Cora di inviare a quel controller comandi di pausa alimentazione, manutenzione, cambio acqua, temporale, illuminazione, setpoint e prese.
+
+Una volta attivato:
+
+- Una presa si può impostare su **Sempre acceso**, **Sempre spento** o **Torna ad automatico** per restituirla alla programmazione del controller.
+- Un setpoint, come temperatura o pH, mostra il suo intervallo consentito e rifiuta un valore fuori da quell'intervallo.
+
+:::warning Una modifica a presa o setpoint viene salvata sul controller stesso
+Non resta solo dentro Cora. Impostare una presa su Sempre acceso o Sempre spento sostituisce la programmazione del controller per quella presa, finché non scegli Torna ad automatico.
+:::
+
+Se una presa o un setpoint sembra appartenere a un riscaldatore o a una pompa di risalita, Cora ti chiede due conferme prima di inviarlo.
+
+Se il controller rifiuta la modifica, controlla che la sua API GHL sia attiva con accesso completo. GHL la disattiva dopo ogni aggiornamento firmware. I passaggi sono in [Risoluzione dei problemi](/help/troubleshooting).
+
+## HYDROS
+
+:::note Il supporto HYDROS è in beta
+Il supporto HYDROS è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
+:::
+
+Quello che vedi qui dipende dalla chiave con cui l'hai collegato. Una chiave **Read** ti dà solo i suoi ingressi. Una chiave **Write** aggiunge uscite, modalità, dosaggio e comandi tester, più un banner in pagina che ti ricorda con quale tipo di chiave stai lavorando.
+
+Con una chiave di scrittura, anche i comandi restano disattivati finché non attivi **Consenti il controllo da Cora (Beta)** sulla pagina del dispositivo. È disattivato per impostazione predefinita.
+
+Una volta attivato, la pagina può mostrare:
+
+- **Uscite**, come un interruttore per un'uscita on/off, uno slider per un livello (una pompa o una luce) o un pulsante per un flag. Un'uscita sostituita mostra **Sovrascritto** con un pulsante **Torna al programma** per restituirla al suo programma.
+- **Modalità**, come Alimentazione o Cambio acqua, come una riga di scelte. Toccarne una chiede una conferma.
+- **Teste di dosaggio**, ognuna con un pulsante **Dosa** e una voce **Impostazioni testina** dove imposti i suoi limiti: una dose massima manuale e un tetto giornaliero. Chiedere più del limite di una testa, o più di quanto è rimasto del suo tetto giornaliero, viene rifiutato con i numeri nel messaggio.
+- **Comandi tester**, per un iV o un Maven collegato, avviati da un pulsante e confermati prima.
+
+Se il controller non risponde da un po', la pagina lo segnala e le letture possono essere non aggiornate. Un comando inviato mentre risulta offline non parte affatto, e la pagina te lo dice.
 
 ## Dopo una modifica
 

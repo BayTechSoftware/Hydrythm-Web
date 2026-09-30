@@ -2,7 +2,7 @@
 title: Edytowanie pulpitu Cora Max
 description: Wybierz siatkę, dodaj widżety i zapisz układy pulpitu na Cora Max.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ U góry edytora widać trzy gesty: **Dotknij kafelek, aby edytować · przytrzym
 
 **Gniazda i karmienie** dodaje w jednym kroku wszystkie sterowalne gniazda i cykle karmienia, więc nie musisz dodawać ich po kolei. **Wyczyść wszystko** opróżnia siatkę, jeśli chcesz zacząć od nowa.
 
-Dziewięć typów kafelków (Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod i Maxspect *(beta)*) opisuje [Rodzaje widżetów](/help/mobile-widgets).
+Jedenaście typów kafelków (Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* i HYDROS *(beta)*) opisuje [Rodzaje widżetów](/help/mobile-widgets).
 
 ## Pulpit czytany z daleka
 

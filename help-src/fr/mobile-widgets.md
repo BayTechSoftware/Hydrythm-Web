@@ -2,7 +2,7 @@
 title: Référence des widgets
 description: Tous les types de widgets de Cora (valeur, jauge, graphique, état, prise et tuiles d’appareil), et quand utiliser chacun.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Vous ajoutez et placez les widgets dans **[l’éditeur de tableau de bord](/hel
 
 ![Configurer un widget](img/mobile-widget-config.webp "Type, paramètre, puis largeur et hauteur.")
 
-## Les neuf types
+## Les onze types
 
 | Type | Affiche |
 |---|---|
@@ -26,8 +26,10 @@ Vous ajoutez et placez les widgets dans **[l’éditeur de tableau de bord](/hel
 | **Module Apex** | Un module Apex installé, comme un Trident ou un DŌS |
 | **Jecod** | Une pompe Jecod, avec son mode et son intensité |
 | **Maxspect** *(bêta)* | Une pompe Gyre, avec ses deux moteurs |
+| **GHL** *(bêta)* | Un contrôleur ProfiLux ou Mitras, avec son propre résumé |
+| **HYDROS** *(bêta)* | Un contrôleur HYDROS, avec son propre résumé |
 
-Les quatre derniers sont des tuiles d’**appareil**. Elles sont liées à un équipement, pas à un paramètre, et chacune affiche ce que cet appareil transmet.
+Les six derniers sont des tuiles d’**appareil**. Elles sont liées à un équipement, pas à un paramètre, et chacune affiche ce que cet appareil transmet.
 
 ## Taille
 

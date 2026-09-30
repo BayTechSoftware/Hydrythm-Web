@@ -2,7 +2,7 @@
 title: ICP e informes de salud
 description: Sube un análisis ICP, sigue cada elemento a lo largo del tiempo y pide una evaluación completa de tu sistema.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ En la cabecera del informe verás **Enviado por {lab}**, así sabes que no lo su
 :::note La primera vez
 La primera vez que llega un resultado así, Cora te explica brevemente qué está pasando para que no lo confundas con un error.
 :::
+
+### El primer resultado de un laboratorio nuevo
+
+La primera vez que un laboratorio te envía un resultado, Cora te pide que lo apruebes antes de añadirlo a ningún sitio, aunque solo tengas un acuario. Verás quién lo envió y podrás marcar **Confiar en este laboratorio** para saltarte esta comprobación la próxima vez que llegue un resultado suyo.
+
+Toca **Aprobar** para incorporarlo, o **Rechazar** para eliminarlo sin añadirlo a ningún acuario. **Ajustes → Laboratorios de confianza** lista todos los laboratorios en los que has confiado así, y **Revocar** elimina uno, de modo que su próximo resultado vuelva a pedir tu aprobación.
 
 Si algo falla, mira [Solución de problemas](/help/troubleshooting).
 

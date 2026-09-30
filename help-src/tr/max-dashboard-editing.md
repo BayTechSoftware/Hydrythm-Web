@@ -2,7 +2,7 @@
 title: Cora Max panosunu düzenleme
 description: Izgara seçin, widget ekleyin ve Cora Max ekranı için düzenlerinizi kaydedin.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Düzenleyicinin üstünde üç hareket yazar: **düzenlemek için kutucuğa doku
 
 **Prizler ve Besleme**, kontrol edebildiğiniz prizleri ve besleme döngülerini tek tek değil, tek adımda ekler. **Tümünü temizle** ızgarayı boşaltır, baştan başlayabilirsiniz.
 
-Dokuz kutucuk türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod ve Maxspect *(beta)*. Hepsi **[Widget rehberi](/help/mobile-widgets)** sayfasında anlatılıyor.
+On bir kutucuk türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod, Maxspect *(beta)*, GHL *(beta)* ve HYDROS *(beta)*. Hepsi **[Widget rehberi](/help/mobile-widgets)** sayfasında anlatılıyor.
 
 ## Uzaktan okunacak şekilde tasarlayın
 

@@ -2,7 +2,7 @@
 title: Guida di riferimento ai widget
 description: Tutti i tipi di widget di Cora (valore, indicatore, grafico, stato, presa e riquadri dei dispositivi) e quando usarli.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ I widget si aggiungono e si dispongono nell'**[editor della dashboard](/help/mob
 
 ![Configurazione di un widget](img/mobile-widget-config.webp "Tipo, parametro, poi larghezza e altezza.")
 
-## I nove tipi
+## Gli undici tipi
 
 | Tipo | Cosa mostra |
 |---|---|
@@ -26,8 +26,10 @@ I widget si aggiungono e si dispongono nell'**[editor della dashboard](/help/mob
 | **Modulo Apex** | Un modulo Apex installato, come un Trident o un DŌS |
 | **Jecod** | Una pompa Jecod con modalità e intensità |
 | **Maxspect** *(beta)* | Una gyre con entrambi i motori |
+| **GHL** *(beta)* | Un controller ProfiLux o Mitras, con il suo riepilogo |
+| **HYDROS** *(beta)* | Un controller HYDROS, con il suo riepilogo |
 
-Gli ultimi quattro sono riquadri **dispositivo**. Sono legati a un apparecchio e non a un parametro, e mostrano quello che l'unità riporta.
+Gli ultimi sei sono riquadri **dispositivo**. Sono legati a un apparecchio e non a un parametro, e mostrano quello che l'unità riporta.
 
 ## Dimensioni del riquadro
 

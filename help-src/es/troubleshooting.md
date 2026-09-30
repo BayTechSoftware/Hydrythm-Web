@@ -2,7 +2,7 @@
 title: Solución de problemas
 description: Las lecturas se han parado, un dispositivo se ha desconectado, una alerta no desaparece o algo no cuadra. Empieza aquí.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -101,6 +101,26 @@ Ningún dispositivo de la red de este acuario está consultando ahora tu equipo 
 3. Comprueba que el equipo Red Sea está encendido y conectado en su propia app.
 
 Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con el nombre del acuario y del dispositivo.
+
+## "La API de GHL está desactivada"
+
+GHL desactiva su API oficial después de cada actualización de firmware, así que esto es normal después de una actualización, no un fallo. Vuelve a activarla desde **System → GHL API** en GHL Control Center o GHL Connect, en el propio controlador. Cora sigue comprobando y vuelve a conectarse sola en cuanto está activa de nuevo.
+
+## "No se puede llegar al controlador GHL"
+
+Cora Max no puede llegar a la dirección IP del controlador en tu red.
+
+1. Comprueba que el controlador está encendido y conectado a tu red.
+2. Comprueba que su dirección IP no ha cambiado. Si ha cambiado, actualízala desde **Ajustes → [tu acuario] → Controlador GHL (Beta)**.
+3. Comprueba que el Cora Max que lee este acuario está en la misma red que el controlador.
+
+Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con el nombre del acuario y del dispositivo.
+
+## Un controlador HYDROS aparece como desconectado o sin reportar
+
+HYDROS informa a través de su propia nube, así que esto suele significar que el controlador se ha quedado sin corriente o sin su propia conexión de red, no un problema de Cora. Compruébalo en la aplicación HYDROS. Las lecturas en Cora se ponen al día en cuanto vuelve a estar en línea, y una orden enviada mientras parece desconectado no se envía en absoluto.
+
+Si un dispositivo HYDROS muestra **Clave revocada**, su clave de dispositivo se eliminó o se sustituyó en la aplicación HYDROS. Crea una clave nueva y vuelve a enlazarlo desde **Dispositivos → Añadir HYDROS (Beta)**, o desde los ajustes del acuario en Cora Max.
 
 ## "No se pudo contactar con esta bomba: no se envió nada"
 

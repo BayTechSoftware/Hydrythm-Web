@@ -2,7 +2,7 @@
 title: Controlar equipos desde Cora Max
 description: Las páginas de dispositivo en la pantalla grande: sondas, tomas, cabezales de dosificación, analizadores y bombas.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 6
 group: Equipment
 ---
@@ -25,6 +25,8 @@ No hay vista previa ni forma de deshacer. La orden sale en cuanto tocas, pero qu
 | **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de bomba |
 | **Jecod** | Modo e intensidad de la bomba y su programa diario |
 | **Maxspect** *(beta)* | Modo y velocidad de **Gyre A** y **Gyre B**, **Salud de la bomba** (cuenta atrás de limpieza, corriente del cabezal A, cabezales instalados, firmware) y su horario, solo para consulta |
+| **GHL ProfiLux / Mitras** *(beta)* | Sondas, tomas, dosificadoras, sensores de nivel y, en los modelos Director, resultados de las pruebas de KH e iones |
+| **HYDROS** *(beta)* | Lo que informe su clave de dispositivo: entradas, y con una clave de escritura, salidas, modos, cabezales de dosificación y órdenes de analizador |
 
 Si una unidad Red Sea se detiene sola, su página te dice qué pasa y pone al lado el botón para arreglarlo: **Reanudar**, **Borrar emergencia**, **Sensor limpiado**, **Ya cargué un rollo nuevo** o, en un cabezal de dosificación, **Restablecer**.
 
@@ -50,6 +52,32 @@ Durante una dosis grande, Cora cambia por un rato lo que hace el cabezal en el A
 Revisa tú el cabezal en Apex Fusion y luego toca **Ya revisé el cabezal en Fusion** para quitar el aviso. Hazlo solo cuando hayas comprobado que lo que está funcionando es el horario propio del cabezal y no el programa de dosificación de Cora.
 
 Si el aviso no se quita o vuelve a salir, consulta [Solución de problemas](/help/troubleshooting).
+
+## GHL ProfiLux y Mitras
+
+:::note GHL está en beta
+Seguimos probando y desarrollando el soporte para GHL. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones.
+:::
+
+Conecta un controlador GHL desde **Ajustes → [tu acuario] → Controlador GHL (Beta)**. Escribe su dirección IP en tu red y toca **Detectar**. Cora prueba primero la API oficial del controlador y después sus otras interfaces, y te dice cuál encontró.
+
+Si no responde nada y el controlador es un ProfiLux mini, Cora ofrece una alternativa: escribe su usuario y contraseña, y Cora lo lee en modo solo lectura. No se puede controlar nada más de un mini.
+
+Los controles quedan desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Está desactivado por defecto. Una vez activado, una toma se puede poner en **Siempre encendido**, **Siempre apagado** o **Volver a automatico**, y una consigna, como la de temperatura o pH, muestra su rango permitido y rechaza un valor fuera de él. Los dos tipos de cambio se guardan en el propio controlador y siguen ahí aunque Cora pierda después el contacto con él. Un cambio que parezca afectar a un calentador o a una bomba de retorno te pide confirmar dos veces.
+
+Si el controlador no acepta un cambio, probablemente su API de GHL está desactivada. GHL la desactiva después de cada actualización de firmware; vuelve a activarla desde **System → GHL API** en GHL Control Center o GHL Connect. [Solución de problemas](/help/troubleshooting) tiene el resto.
+
+## HYDROS
+
+:::note HYDROS está en beta
+Seguimos probando y desarrollando el soporte para HYDROS. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones.
+:::
+
+HYDROS es la única integración que llega a su controlador a través de la nube, así que funciona incluso cuando Cora Max está en una red distinta a la del controlador. Conéctalo desde **Ajustes → [tu acuario] → HYDROS (Beta)**.
+
+En la aplicación HYDROS, crea una clave de dispositivo para el proveedor **cora-iq**, eligiendo **Read** solo para lecturas o **Write** para controlarlo también. Pega la clave, toca **Validar**, elige el acuario y luego **Guardar**. Se importan los últimos 33 días de su historial en cuanto queda conectado.
+
+Leerlo y controlarlo funciona igual que en tu teléfono; consulta [Controlar tus equipos](/help/mobile-device-control) para las salidas, los modos, los cabezales de dosificación y las órdenes de analizador, y para los límites de dosis por cabezal.
 
 ## Horarios
 

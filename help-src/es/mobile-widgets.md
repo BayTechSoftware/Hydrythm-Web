@@ -2,7 +2,7 @@
 title: Tipos de widget
 description: Los tipos de widget de Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo te conviene cada uno.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Los añades y los colocas en [el editor del panel](/help/mobile-dashboard-editin
 
 ![Configurar un widget](img/mobile-widget-config.webp "Tipo, parámetro, y luego ancho y alto.")
 
-## Los nueve tipos
+## Los once tipos
 
 | Tipo | Muestra |
 |---|---|
@@ -26,8 +26,10 @@ Los añades y los colocas en [el editor del panel](/help/mobile-dashboard-editin
 | **Módulo del Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
 | **Jecod** | Una bomba Jecod, con su modo y su intensidad |
 | **Maxspect** *(beta)* | Un gyre, con sus dos motores |
+| **GHL** *(beta)* | Un controlador ProfiLux o Mitras, con su propio resumen |
+| **HYDROS** *(beta)* | Un controlador HYDROS, con su propio resumen |
 
-Los cuatro últimos son casillas de **dispositivo**. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.
+Los seis últimos son casillas de **dispositivo**. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.
 
 ## Tamaño
 

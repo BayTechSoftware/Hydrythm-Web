@@ -2,7 +2,7 @@
 title: Sözlük
 description: Cora'da geçen terimler: akvaryum, kaynak, widget, kayıtlı tasarım, eşik, içgörü ve diğerleri.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ Bir DŌS kafasının ya da başka bir dozaj pompasının, seçtiğiniz üründen
 
 Yem verirken gereken ekipmanı durduran ve sonra kendiliğinden yeniden açan bir duraklatma. Pompaları elle kapatmaktan daha güvenlidir, çünkü onları yeniden açmayı hatırlamanız gerekmez.
 
+## GHL
+
+ProfiLux ve Mitras kontrol cihazı serisini üreten GHL Advanced Technology'nin kısaltması. Cora'nın GHL desteği **beta** aşamasındadır. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
+
 ## Sağlık raporu
 
 Sistemin tamamını daha derinlemesine inceleyen dönemsel değerlendirme. Tüm parametreler, kaynaklar, dozajlar ve son laboratuvar sonuçları birlikte ele alınır. Ayrıntılar [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
+
+## HYDROS
+
+CoralVue'nün kontrol cihazı ve dozaj ekosistemi. Cora ona HYDROS'un kendi bulutu üzerinden ulaşır, bu yüzden evden uzaktayken de çalışmaya devam eder. Cora'nın HYDROS desteği **beta** aşamasındadır. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 
 ## ICP
 
@@ -104,7 +112,7 @@ Cora Max'teki bir uyarının üzerinde bulunan düğme. Uyarıyı kapatmadan, o 
 
 ## Kaynak
 
-Ölçümün nereden geldiği: prob, kontrol cihazı, laboratuvar sonucu ya da test kitiyle ölçüm yapan siz. Her ölçümün bir kaynağı vardır. Cora iki kaynak birbirini tutmadığında bunu bu sayede size söyleyebilir.
+Ölçümün nereden geldiği: prob, kontrol cihazı, laboratuvar sonucu ya da test kitiyle ölçüm yapan siz. Her ölçümün bir kaynağı vardır. Cora iki kaynak birbirini tutmadığında bunu bu sayede size söyleyebilir. Aynı ölçümü birden fazla kaynak bildiriyorsa hangisine güveneceğinizi [Problar](/help/mobile-probes) sayfasından seçersiniz, ya da Otomatik bırakırsınız.
 
 ## Akvaryum
 
@@ -120,4 +128,4 @@ Akvaryum bakıcısı modu. Tarihleri ve yapılacak işlerin listesi olan bir pla
 
 ## Widget
 
-Panoda tek bir bilgiyi gösteren kutucuk. Dokuz türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod ve Maxspect *(beta)*. Ayrıntılar [Widget rehberi](/help/mobile-widgets) sayfasında.
+Panoda tek bir bilgiyi gösteren kutucuk. On bir türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod, Maxspect *(beta)*, GHL *(beta)* ve HYDROS *(beta)*. Ayrıntılar [Widget rehberi](/help/mobile-widgets) sayfasında.

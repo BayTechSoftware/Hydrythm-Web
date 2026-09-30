@@ -2,7 +2,7 @@
 title: ICP i raporty zdrowia
 description: Prześlij test ICP, śledź każdy pierwiastek w czasie i zleć pełną ocenę zdrowia systemu.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ W samym raporcie, przy nagłówku, widać **Wysłane przez {lab}**. Dzięki temu
 :::note Za pierwszym razem
 Gdy wynik pierwszy raz przyjdzie w ten sposób, Cora pokaże krótką podpowiedź, co się dzieje. Dzięki temu nie wygląda to na błąd.
 :::
+
+### Pierwszy wynik od nowego laboratorium
+
+Gdy laboratorium wysyła Ci wynik po raz pierwszy, Cora prosi o jego zatwierdzenie, zanim doda go do jakiegokolwiek akwarium, nawet jeśli masz tylko jedno akwarium. Zobaczysz, kto go wysłał, i możesz zaznaczyć **Ufaj temu laboratorium**, żeby pominąć tę kontrolę przy kolejnym wyniku od tego samego laboratorium.
+
+Dotknij **Zatwierdź**, żeby dodać wynik, albo **Odrzuć**, żeby go usunąć bez dodawania do żadnego akwarium. **Ustawienia → Zaufane laboratoria** pokazuje wszystkie laboratoria dodane w ten sposób do zaufanych, a **Odwołaj** usuwa jedno z nich, więc jego kolejny wynik znowu będzie wymagał zatwierdzenia.
 
 Jeśli to nie działa, zajrzyj do [Rozwiązywania problemów](/help/troubleshooting).
 

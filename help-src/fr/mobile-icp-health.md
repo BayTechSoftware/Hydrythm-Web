@@ -2,7 +2,7 @@
 title: Rapports ICP et de santé
 description: Importez un test ICP, suivez chaque élément dans le temps et lancez un bilan complet de votre système.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ Le rapport affiche **Envoyé par {lab}** près de son en-tête. Vous le distingu
 :::note La première fois
 La première fois qu’un résultat arrive par ce chemin, Cora affiche une courte explication, pour que vous ne le preniez pas pour une erreur.
 :::
+
+### Le premier résultat d’un nouveau laboratoire
+
+La première fois qu’un laboratoire vous envoie un résultat, Cora vous demande de l’approuver avant de l’ajouter où que ce soit, même si vous n’avez qu’un seul aquarium. Vous voyez qui l’a envoyé et pouvez cocher **Faire confiance à ce laboratoire** pour sauter cette vérification la prochaine fois qu’un résultat viendra de lui.
+
+Touchez **Approuver** pour le faire entrer, ou **Refuser** pour le supprimer sans l’ajouter à aucun aquarium. **Réglages → Laboratoires de confiance** liste chaque laboratoire auquel vous avez fait confiance de cette façon, et **Révoquer** en retire un, pour que son prochain résultat demande de nouveau votre approbation.
 
 En cas de problème, consultez la page [Résolution de problèmes](/help/troubleshooting).
 

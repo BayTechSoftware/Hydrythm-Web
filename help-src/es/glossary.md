@@ -2,7 +2,7 @@
 title: Glosario
 description: Las palabras que usa Cora: acuario, fuente, widget, diseño guardado, umbral, análisis y demás.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ Cada vez que un cabezal DŌS u otra bomba dosificadora echa líquido, con el pro
 
 Una pausa para dar de comer que para los equipos que tocan y los vuelve a poner en marcha solo. Es más seguro que apagar las bombas a mano, porque no depende de que te acuerdes de encenderlas.
 
+## GHL
+
+Abreviatura de GHL Advanced Technology, el fabricante de los controladores ProfiLux y Mitras. El soporte de Cora para GHL está en **beta**. Consulta [Conectar tus equipos](/help/mobile-connections).
+
 ## Informe de salud
 
 Una evaluación periódica y más a fondo de todo el sistema. Tiene en cuenta a la vez todos los parámetros, fuentes, dosis y resultados de laboratorio recientes. Consulta [ICP e informes de salud](/help/mobile-icp-health).
+
+## HYDROS
+
+El ecosistema de controladores y dosificación de CoralVue. Cora llega a él a través de la propia nube de HYDROS, así que sigue funcionando fuera de casa. El soporte de Cora para HYDROS está en **beta**. Consulta [Conectar tus equipos](/help/mobile-connections).
 
 ## ICP
 
@@ -104,7 +112,7 @@ Un botón de las alertas de Cora Max. Silencia la alerta en ese Cora Max durante
 
 ## Fuente
 
-De dónde viene una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Todas las lecturas llevan su fuente, y por eso Cora puede avisarte cuando dos no coinciden.
+De dónde viene una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Todas las lecturas llevan su fuente, y por eso Cora puede avisarte cuando dos no coinciden. Si más de una fuente da la misma lectura, en [Sondas](/help/mobile-probes) eliges cuál quieres usar, o dejas que sea Automático.
 
 ## Acuario
 
@@ -120,4 +128,4 @@ El modo para quien te cuida el acuario. Es un plan con fechas y una lista de tar
 
 ## Widget
 
-Una casilla del panel que muestra una sola cosa. Hay nueve tipos: Valor, Medidor, Gráfico, Estado, Toma, ReefBeat, módulo Apex, Jecod y Maxspect *(beta)*. Consulta [Tipos de widget](/help/mobile-widgets).
+Una casilla del panel que muestra una sola cosa. Hay once tipos: Valor, Medidor, Gráfico, Estado, Toma, ReefBeat, módulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* y HYDROS *(beta)*. Consulta [Tipos de widget](/help/mobile-widgets).

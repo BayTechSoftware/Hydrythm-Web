@@ -2,7 +2,7 @@
 title: Sıkça sorulan sorular
 description: Kurulum, Cora Max, telefon uygulaması, cihazlar, uyarılar, Reef Buddy ve Cora Assistant, diller ve hesabınızla ilgili kısa cevaplar.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 0
 ---
 
@@ -118,9 +118,15 @@ Cora, Wi-Fi kontrol cihazlarından dozaj pompalarına ve gyre'lere kadar giderek
 
 Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 
-### Cora'nın Neptune, Red Sea, Jebao ya da Maxspect ile bir bağı var mı?
+### Cora'nın Neptune, Red Sea, Jebao, GHL, HYDROS ya da Maxspect ile bir bağı var mı?
 
-Hayır. Cora, bağlandığı hiçbir ekipman üreticisiyle bağlantılı değildir. Bu üreticiler Cora'yı onaylamamıştır ve Cora'nın ortağı da değildir. Entegrasyonu hâlâ beta aşamasında olan Maxspect de buna dahildir. Cora bu üreticilerin herkese açık hesaplarını ya da yerel ağ protokollerini kullanır. Üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı istediği zaman, haber vermeden değiştirebilir ya da bozabilir.
+Hayır. Cora, bağlandığı hiçbir ekipman üreticisiyle bağlantılı değildir. Bu üreticiler Cora'yı onaylamamıştır ve Cora'nın ortağı da değildir. Entegrasyonları hâlâ beta aşamasında olan Maxspect, GHL ve HYDROS da buna dahildir. Cora bu üreticilerin herkese açık hesaplarını, resmi API'lerini ya da yerel ağ protokollerini kullanır. Üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı istediği zaman, haber vermeden değiştirebilir ya da bozabilir.
+
+Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
+
+### Bir entegrasyonun "beta" olması ne demek?
+
+Hâlâ test ettiğimiz ve geliştirdiğimiz anlamına gelir. Bazı ölçümler ya da kontroller sınırlı olabilir, gördükleriniz güncellemeler arasında değişebilir. Bugün itibarıyla Maxspect, GHL ve HYDROS'un hepsi beta aşamasındadır. Kılavuzda anlatılan bir şey çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasından bize bildirin.
 
 Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 

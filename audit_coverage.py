@@ -95,6 +95,13 @@ MAP = {
     "dos_head_config": "max-device-control",
     "scene_list": "max-automation", "scene_editor": "max-automation",
     "scene_confirm": "max-automation",
+    # -- added 2026-09-30 with the GHL / HYDROS / probe mapping v2 round --
+    "ghl_detail": "max-device-control", "ghl_device_detail": "mobile-device-control",
+    "hydros_add": "mobile-connections", "hydros_link": "max-device-control",
+    "hydros_list": "max-device-control", "hydros_detail": "max-device-control",
+    "hydros_device_detail": "mobile-device-control",
+    "hydros_head_config": "mobile-device-control",
+    "metric_source": "mobile-probes", "rename_metric": "mobile-probes",
 }
 
 # surface stem -> why it is deliberately NOT in the guide
@@ -110,6 +117,7 @@ EXCLUDED = {
     "webrtc_probe": "developer probe screen",
     "beta_nda": "beta programme, not a shipped-product surface",
     "bounded": "layout infrastructure, not a screen",
+    "admin_fleet_health": "internal admin",
 }
 
 PAT = re.compile(r"_(screen|sheet|modal|dialog|page)$")

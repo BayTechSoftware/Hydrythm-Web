@@ -2,7 +2,7 @@
 title: Contrôler votre équipement
 description: La page de chaque appareil montre son état en direct et ses commandes, pour les prises, les pompes, les têtes de dosage et les testeurs.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 11
 group: Equipment
 ---
@@ -130,6 +130,48 @@ La page de la pompe indique si elle tourne, le type de vague et la vitesse de **
 :::note Comment Cora Mobile joint une pompe Gyre
 Si un Cora Max gère l’aquarium, Cora Mobile passe par ce Cora Max, même quand vous êtes loin de chez vous. **Modifier les réglages** part alors de la dernière lecture de ce Cora Max. Sinon, votre téléphone parle directement à la pompe et doit être sur le même réseau qu’elle. Ouvrir la page lance alors une lecture de la pompe. Si la page affiche une lecture plus ancienne gardée en mémoire, **Modifier les réglages** reste masqué jusqu’à ce que vous touchiez actualiser.
 :::
+
+## GHL ProfiLux et Mitras
+
+:::note La prise en charge GHL est en bêta
+Nous testons et développons encore la prise en charge GHL. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support).
+:::
+
+La page du contrôleur affiche ses sondes, ses prises, ses doseurs et ses capteurs de niveau, et sur les modèles Director, ses résultats de test KH et ionique.
+
+Les commandes restent désactivées tant que vous n’activez pas **Autoriser le contrôle depuis Cora (bêta)** sur la page de l’appareil. C’est désactivé par défaut, et l’activer permet à Cora d’envoyer des commandes de pause d’alimentation, entretien, changement d’eau, orage, éclairage, consigne et prise à ce contrôleur.
+
+Une fois activé :
+
+- Une prise peut être réglée sur **Toujours activé**, **Toujours désactivé**, ou **Revenir en mode automatique** pour la rendre à la programmation du contrôleur.
+- Une consigne, comme la température ou le pH, affiche sa plage autorisée et refuse une valeur en dehors.
+
+:::warning Un changement de prise ou de consigne est enregistré sur le contrôleur lui-même
+Ce réglage reste enregistré là même si Cora perd ensuite le contact avec le contrôleur. Régler une prise sur Toujours activé ou Toujours désactivé prend le pas sur la programmation du contrôleur pour elle, jusqu’à ce que vous choisissiez Revenir en mode automatique.
+:::
+
+Si une prise ou une consigne ressemble à un chauffage ou une pompe de remontée, Cora vous demande de confirmer deux fois avant de l’envoyer.
+
+Si le contrôleur refuse le changement, vérifiez que son API GHL est activée avec un accès complet. GHL la désactive après chaque mise à jour du micrologiciel. [Résolution de problèmes](/help/troubleshooting) donne la suite.
+
+## HYDROS
+
+:::note La prise en charge HYDROS est en bêta
+Nous testons et développons encore la prise en charge HYDROS. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support).
+:::
+
+Ce que vous voyez ici dépend de la clé avec laquelle vous l’avez lié. Une clé **Lecture** vous donne seulement ses entrées. Une clé **Écriture** ajoute les sorties, les modes, le dosage et les commandes de testeur, ainsi qu’une bannière en haut de page qui rappelle quel type de clé vous avez.
+
+Avec une clé d’écriture, les commandes restent aussi désactivées tant que vous n’activez pas **Autoriser le contrôle depuis Cora (bêta)** sur la page de l’appareil. C’est désactivé par défaut.
+
+Une fois activé, la page peut afficher :
+
+- Les **sorties**, sous forme d’interrupteur pour une sortie tout ou rien, de curseur pour un niveau comme une pompe ou un éclairage, ou de bouton pour un indicateur. Une sortie forcée affiche **Forcé** avec un bouton **Retour au programme** pour la rendre à son propre programme.
+- Les **modes**, comme Nourrissage ou Changement d’eau, sous forme d’une ligne de choix. Toucher l’un d’eux vous demande de confirmer.
+- Les **têtes de dosage**, chacune avec un bouton **Doser** et une entrée **Réglages de la tête** où vous fixez ses propres limites : une plus grosse dose à la main et un plafond quotidien. Demander plus que la limite d’une tête, ou plus que ce que son propre plafond quotidien a encore laissé pour la journée, est refusé avec les chiffres dans le message.
+- Les **commandes de testeur**, pour un iV ou un Maven connecté, se lancent depuis un bouton et sont confirmées d’abord.
+
+Si le contrôleur n’a pas donné de nouvelles depuis un moment, la page le signale et les mesures peuvent être périmées. Une commande envoyée pendant qu’il semble hors ligne n’est pas envoyée du tout, et la page vous le dit aussi.
 
 ## Après un changement
 

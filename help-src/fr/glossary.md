@@ -2,7 +2,7 @@
 title: Glossaire
 description: Les mots de Cora : aquarium, source, widget, disposition enregistrée, seuil, observation et les autres.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 2
 ---
 
@@ -62,9 +62,17 @@ Une quantité de liquide envoyée par une tête DŌS ou une autre pompe doseuse,
 
 Une pause pour nourrir, qui arrête l’équipement concerné puis le remet en marche tout seul. C’est plus sûr que d’éteindre les pompes à la main, car vous n’avez pas à penser à les rallumer.
 
+## GHL
+
+Abréviation de GHL Advanced Technology, le fabricant des contrôleurs ProfiLux et Mitras. La prise en charge GHL de Cora est une **bêta**. Voir [Connecter votre équipement](/help/mobile-connections).
+
 ## Rapport de santé
 
 Un bilan plus complet de tout un système, fait de temps en temps. Il examine ensemble chaque paramètre, chaque source, les dosages et les derniers résultats de laboratoire. Plus de détails dans [Rapports ICP et de santé](/help/mobile-icp-health).
+
+## HYDROS
+
+L’écosystème de contrôleurs et de dosage de CoralVue. Cora le rejoint par le cloud propre à HYDROS, ce qui le fait continuer à marcher loin de chez vous. La prise en charge HYDROS de Cora est une **bêta**. Voir [Connecter votre équipement](/help/mobile-connections).
 
 ## ICP
 
@@ -104,7 +112,7 @@ Un bouton sur une alerte de Cora Max. Il fait taire l’alerte sur ce Cora Max p
 
 ## Source
 
-L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un test en kit. Chaque mesure a sa source, et Cora peut donc vous dire quand deux sources ne sont pas d’accord.
+L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un test en kit. Chaque mesure a sa source, et Cora peut donc vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources donnent la même mesure, [Sondes](/help/mobile-probes) est l’endroit où vous choisissez celle à laquelle vous faites confiance, ou vous laissez sur Automatique.
 
 ## Aquarium
 
@@ -120,4 +128,4 @@ Le mode pour la personne qui garde votre aquarium. Vous préparez un plan daté 
 
 ## Widget
 
-Une tuile du tableau de bord qui affiche une seule chose. Il en existe neuf types : Valeur, Jauge, Graphique, État, Prise, ReefBeat, Module Apex, Jecod et Maxspect *(bêta)*. Plus de détails dans la [Référence des widgets](/help/mobile-widgets).
+Une tuile du tableau de bord qui affiche une seule chose. Il en existe onze types : Valeur, Jauge, Graphique, État, Prise, ReefBeat, Module Apex, Jecod, Maxspect *(bêta)*, GHL *(bêta)* et HYDROS *(bêta)*. Plus de détails dans la [Référence des widgets](/help/mobile-widgets).

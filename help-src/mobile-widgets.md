@@ -2,7 +2,7 @@
 title: Widget reference
 description: Every widget type in Cora, from value, gauge, graph, status and outlet to the device tiles, and when to use each one.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-edi
 
 ![Configuring a widget](img/mobile-widget-config.webp "Type, parameter, then width and height.")
 
-## The nine types
+## The eleven types
 
 | Type | Shows |
 |---|---|
@@ -26,8 +26,10 @@ You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-edi
 | **Apex module** | One fitted Apex module, such as a Trident or DŌS |
 | **Jecod** | One Jecod pump, with its mode and intensity |
 | **Maxspect** *(beta)* | One gyre, with both motors |
+| **GHL** *(beta)* | One ProfiLux or Mitras controller, with its own summary |
+| **HYDROS** *(beta)* | One HYDROS controller, with its own summary |
 
-The last four are **device** tiles. Each one belongs to a piece of equipment instead of a parameter, and shows whatever that unit reports.
+The last six are **device** tiles. Each one belongs to a piece of equipment instead of a parameter, and shows whatever that unit reports.
 
 ## Sizing
 

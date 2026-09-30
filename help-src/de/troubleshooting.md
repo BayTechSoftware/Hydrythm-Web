@@ -2,7 +2,7 @@
 title: Problembehebung
 description: Keine neuen Messwerte, ein Gerät offline, eine Warnung, die nicht verschwindet, oder etwas sieht falsch aus. Fang hier an.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -101,6 +101,26 @@ Im Netzwerk dieses Beckens fragt gerade kein Gerät deine Red Sea-Geräte ab. De
 3. Prüf, ob die Red Sea-Geräte eingeschaltet und in ihrer eigenen App online sind.
 
 Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
+
+## „GHL-API ist aus“
+
+GHL schaltet seine offizielle API nach jedem Firmware-Update aus. Das ist nach einem Update also normal und kein Fehler. Schalte sie direkt am Controller unter **System → GHL API** im GHL Control Center oder in GHL Connect wieder ein. Cora prüft von selbst weiter und verbindet sich neu, sobald sie wieder an ist.
+
+## „GHL-Controller nicht erreichbar“
+
+Cora Max kann die IP-Adresse des Controllers in deinem Netzwerk nicht erreichen.
+
+1. Prüf, ob der Controller eingeschaltet und mit deinem Netzwerk verbunden ist.
+2. Prüf, ob sich seine IP-Adresse geändert hat. Falls ja, aktualisiere sie unter **Einstellungen → [dein Becken] → GHL-Controller (Beta)**.
+3. Prüf, ob das Cora Max, das dieses Becken liest, im selben Netzwerk ist wie der Controller.
+
+Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
+
+## Ein HYDROS-Controller zeigt sich als offline oder meldet nicht
+
+HYDROS meldet über seine eigene Cloud. Das heißt meist, dass der Controller selbst keinen Strom oder keine eigene Netzwerkverbindung mehr hat, und nicht, dass es an Cora liegt. Prüf ihn in der HYDROS-App. Die Messwerte in Cora holen auf, sobald er wieder online ist, und ein Befehl, der gesendet wird, während er offline aussieht, wird gar nicht erst geschickt.
+
+Zeigt ein HYDROS-Gerät **Schlüssel widerrufen**, wurde sein Geräteschlüssel in der HYDROS-App entfernt oder ersetzt. Leg einen neuen Schlüssel an und verbinde ihn erneut über **Geräte → HYDROS hinzufügen (Beta)** oder über die Beckeneinstellungen auf Cora Max.
 
 ## „Die Pumpe konnte nicht erreicht werden: nichts wurde gesendet“
 

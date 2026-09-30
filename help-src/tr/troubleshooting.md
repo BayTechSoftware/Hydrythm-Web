@@ -2,7 +2,7 @@
 title: Sorun giderme
 description: Ölçümler durdu, bir cihaz çevrimdışı, uyarı kapanmıyor ya da bir şey ters gidiyor. Buradan başlayın.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -102,6 +102,26 @@ Bu akvaryumun ağındaki hiçbir cihaz şu anda Red Sea ekipmanınızı yoklamı
 3. Red Sea ekipmanının açık ve kendi uygulamasında çevrimiçi olduğunu kontrol edin.
 
 Sorun sürerse akvaryumun ve cihazın adını yazarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.
+
+## "GHL API kapalı"
+
+GHL, her yazılım güncellemesinden sonra resmi API'sini kapatır. Bu güncelleme sonrasında normaldir, bir arıza değildir. Kontrol cihazının kendisinde, GHL Control Center'da ya da GHL Connect'te **Sistem → GHL API**'den yeniden açın. Cora kontrol etmeye devam eder ve API yeniden açılınca kendiliğinden bağlanır.
+
+## "GHL kontrol cihazına ulaşılamıyor"
+
+Cora Max, kontrol cihazının ağınızdaki IP adresine ulaşamıyor.
+
+1. Kontrol cihazının açık ve ağınıza bağlı olduğunu kontrol edin.
+2. IP adresinin değişip değişmediğine bakın. Değiştiyse **Ayarlar → [akvaryumunuz] → GHL denetleyici (Beta)**'dan güncelleyin.
+3. Bu akvaryumu okuyan Cora Max'in kontrol cihazıyla aynı ağda olduğunu kontrol edin.
+
+Sorun sürerse akvaryumun ve cihazın adını yazarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.
+
+## Bir HYDROS kontrol cihazı çevrimdışı görünüyor ya da bildirim göndermiyor
+
+HYDROS kendi bulutu üzerinden bildirim gönderir. Bu yüzden bu durum genellikle Cora'yla değil, kontrol cihazının kendisiyle ilgilidir: gücünü ya da kendi ağ bağlantısını kaybetmiştir. HYDROS uygulamasından kontrol edin. Kontrol cihazı yeniden çevrimiçi olunca Cora'daki ölçümler kendiliğinden güncellenir, çevrimdışı görünürken gönderilen bir komut ise hiç gönderilmez.
+
+Bir HYDROS cihazında **Anahtar iptal edildi** yazıyorsa cihaz anahtarı HYDROS uygulamasından kaldırılmış ya da değiştirilmiştir. Yeni bir anahtar oluşturup **Cihazlar → HYDROS Ekle (Beta)**'dan, ya da Cora Max'te akvaryumun ayarlarından yeniden bağlayın.
 
 ## "Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi"
 

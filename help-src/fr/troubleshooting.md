@@ -2,7 +2,7 @@
 title: Résolution de problèmes
 description: Les mesures ne bougent plus, un appareil est hors ligne, une alerte ne se ferme pas, ou quelque chose semble anormal. Commencez ici.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -101,6 +101,26 @@ Aucun appareil sur le réseau de cet aquarium n’interroge votre équipement Re
 3. Vérifiez dans l’application Red Sea que l’équipement est allumé et en ligne.
 
 Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant le nom de l’aquarium et de l’appareil.
+
+## « API GHL désactivée »
+
+GHL désactive son API officielle après chaque mise à jour du micrologiciel, c’est donc normal après une mise à jour, pas une panne. Réactivez-la depuis **Système → API GHL** dans GHL Control Center ou GHL Connect, sur le contrôleur lui-même. Cora continue de vérifier et se reconnecte tout seul une fois qu’elle est de nouveau activée.
+
+## « Contrôleur GHL injoignable »
+
+Cora Max n’arrive pas à joindre l’adresse IP du contrôleur sur votre réseau.
+
+1. Vérifiez que le contrôleur est allumé et connecté à votre réseau.
+2. Vérifiez que son adresse IP n’a pas changé. Si c’est le cas, mettez-la à jour depuis **Réglages → [votre aquarium] → Contrôleur GHL (bêta)**.
+3. Vérifiez que le Cora Max qui lit cet aquarium est sur le même réseau que le contrôleur.
+
+Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant le nom de l’aquarium et de l’appareil.
+
+## Un contrôleur HYDROS s’affiche hors ligne ou ne signale plus rien
+
+HYDROS passe par son propre cloud, donc cela veut le plus souvent dire que le contrôleur lui-même a perdu l’alimentation ou sa propre connexion réseau, pas un problème côté Cora. Vérifiez-le dans l’application HYDROS. Les mesures sur Cora rattrapent leur retard dès qu’il est de nouveau en ligne, et une commande envoyée pendant qu’il semble hors ligne n’est pas envoyée du tout.
+
+Si un appareil HYDROS affiche **Clé révoquée**, sa clé d’appareil a été supprimée ou remplacée dans l’application HYDROS. Créez une nouvelle clé et reliez-la de nouveau depuis **Appareils → Ajouter HYDROS (bêta)**, ou depuis les réglages de l’aquarium sur Cora Max.
 
 ## « Impossible d’atteindre cette pompe : rien n’a été envoyé »
 

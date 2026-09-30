@@ -2,7 +2,7 @@
 title: Modifier le tableau de bord Cora Max
 description: Choisir une grille, ajouter des widgets et enregistrer des dispositions pour Cora Max.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ L’éditeur rappelle les trois gestes en haut : **touchez une tuile pour la mo
 
 **Prises et nourrissage** ajoute d’un coup toutes vos prises commandables et vos cycles de nourrissage. **Tout effacer** vide la grille pour repartir de zéro.
 
-Les neuf types de tuiles (Valeur, Jauge, Graphique, État, Prise, ReefBeat, Module Apex, Jecod et Maxspect *(bêta)*) sont décrits dans la **[Référence des widgets](/help/mobile-widgets)**.
+Les onze types de tuiles (Valeur, Jauge, Graphique, État, Prise, ReefBeat, Module Apex, Jecod, Maxspect *(bêta)*, GHL *(bêta)* et HYDROS *(bêta)*) sont décrits dans la **[Référence des widgets](/help/mobile-widgets)**.
 
 ## Penser à la distance
 

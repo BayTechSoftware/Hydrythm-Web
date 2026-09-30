@@ -1,8 +1,8 @@
 ---
 title: Connecting your equipment
-description: How to connect Neptune Apex, Red Sea ReefBeat, Jecod and AquaWiz equipment to Cora.
+description: How to connect Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz, GHL and HYDROS equipment to Cora.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 10
 group: Equipment
 ---
@@ -18,6 +18,8 @@ Each brand connects a little differently, so start from the right place for your
 | Jecod / Jebao | **Devices → Find a pump on your network**, or Bluetooth |
 | AquaWiz | **Devices → Add AquaWiz** |
 | Maxspect *(beta)* | **Devices → Find a pump on your network** |
+| GHL ProfiLux / Mitras *(beta)* | Cora Max, from the tank's settings |
+| HYDROS *(beta)* | **Devices → Add HYDROS (Beta)** |
 | Cora Max | **Devices → Add Device** |
 
 ## Neptune Apex
@@ -91,6 +93,30 @@ You can set wave pattern and speed for **Gyre A** and **Gyre B**. You can see th
 :::note How Cora Mobile reaches a gyre
 If a Cora Max serves the tank, Cora Mobile goes through that Cora Max, even when you're away from home. **Change settings** then starts from that Cora Max's last reading. Otherwise your phone talks to the gyre directly and has to be on the gyre's network. Opening the gyre's page reads it. If the page is showing an older stored reading, **Change settings** stays hidden until you tap refresh.
 :::
+
+## GHL ProfiLux and Mitras
+
+:::note GHL support is in beta
+We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::
+
+Cora reads a GHL ProfiLux or Mitras controller over your local network: probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results.
+
+You connect it from **Cora Max**, not from your phone: open the tank's settings and add its IP address there. [Controlling equipment from Cora Max](/help/max-device-control) has the steps. Once it's connected, its readings and controls show up on your phone too.
+
+The GHL API has to be switched on for Cora to reach the controller at all. GHL turns it off after every firmware update, so this is worth checking first if nothing appears. [Troubleshooting](/help/troubleshooting) covers what to do.
+
+## HYDROS
+
+:::note HYDROS support is in beta
+We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::
+
+HYDROS is the only integration that doesn't need your Cora and your controller on the same network. Cora reaches it through HYDROS's own cloud, so it keeps working away from home, and even with Cora closed.
+
+To connect it, open the HYDROS app and create a **device key** for the provider **cora-iq**. Choose **Read** if you only want its readings, or **Write** if you also want to control it from Cora. Then go to **Devices → Add HYDROS (Beta)** and paste the key in.
+
+Once it's linked, Cora imports the last 33 days of its history, then keeps reading forward from there. [Controlling your equipment](/help/mobile-device-control) covers what you can read and, with a write key, control.
 
 ## Logging by hand
 

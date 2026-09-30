@@ -2,7 +2,7 @@
 title: Ausrüstung mit Cora Max steuern
 description: Geräteseiten auf dem großen Bildschirm für Sonden, Steckdosen, Dosierköpfe, Testgeräte und Pumpen.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 6
 group: Equipment
 ---
@@ -25,6 +25,8 @@ Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du ti
 | **Red Sea ReefBeat** | Je nach Gerät Dosierköpfe, Reservoir, Rollentage oder Pumpenmodus |
 | **Jecod** | Pumpenmodus, Intensität und das Tagesprogramm |
 | **Maxspect** *(Beta)* | Modus und Geschwindigkeit für **Gyre A** und **Gyre B**, **Pumpenzustand** (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und der Zeitplan, nur zum Ansehen |
+| **GHL ProfiLux / Mitras** *(Beta)* | Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse |
+| **HYDROS** *(Beta)* | Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreiben-Schlüssel auch Ausgänge, Modi, Dosierköpfe und Testbefehle |
 
 Stoppt sich ein Red Sea-Gerät selbst, steht auf seiner Seite, was los ist, und die passende Lösung gleich daneben: **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder bei einem Dosierkopf **Zurücksetzen**.
 
@@ -50,6 +52,32 @@ Für eine große Dosierung ändert Cora vorübergehend, was der Kopf am Apex tut
 Prüf den Kopf dann selbst in Apex Fusion und tippe erst danach auf **Ich habe den Kopf in Fusion geprüft**, um den Hinweis zu schließen. Tu das nur, wenn du gesehen hast, dass wirklich der eigene Zeitplan des Kopfes läuft und nicht das Dosierprogramm von Cora.
 
 Lässt sich der Hinweis nicht schließen oder taucht er immer wieder auf, hilft dir die [Problembehebung](/help/troubleshooting).
+
+## GHL ProfiLux und Mitras
+
+:::note GHL wird als Beta unterstützt
+Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern.
+:::
+
+Verbinde einen GHL-Controller unter **Einstellungen → [dein Becken] → GHL-Controller (Beta)**. Trag seine IP-Adresse in deinem Netzwerk ein und tippe auf **Erkennen**. Cora versucht zuerst die offizielle API des Controllers, dann seine anderen Schnittstellen, und sagt dir, welche davon geantwortet hat.
+
+Antwortet nichts und ist der Controller ein ProfiLux mini, bietet Cora einen Ausweg an: Gib seine Zugangsdaten ein, und Cora liest ihn nur lesend aus. Sonst lässt sich an einem mini nichts steuern.
+
+Steuerungen bleiben aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Ist es eingeschaltet, kannst du eine Steckdose auf **Immer an**, **Immer aus** oder **Zurueck zu automatisch** stellen, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Sieht eine Änderung nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal.
+
+Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich ausgeschaltet. GHL schaltet sie nach jedem Firmware-Update wieder aus. Schalte sie unter **System → GHL API** im GHL Control Center oder in GHL Connect wieder ein. Den Rest findest du unter [Problembehebung](/help/troubleshooting).
+
+## HYDROS
+
+:::note HYDROS wird als Beta unterstützt
+Die Unterstützung für HYDROS wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern.
+:::
+
+HYDROS ist die einzige Anbindung, die ihren Controller über die Cloud erreicht. Deshalb funktioniert sie auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Verbinde ihn unter **Einstellungen → [dein Becken] → HYDROS (Beta)**.
+
+Leg in der HYDROS-App einen Geräteschlüssel für den Anbieter **cora-iq** an, mit **Lesen** für nur Messwerte oder **Schreiben**, um ihn auch zu steuern. Füg den Schlüssel ein, tippe auf **Prüfen**, wähl das Becken und dann **Speichern**. Die letzten 33 Tage seiner Historie werden importiert, sobald er verbunden ist.
+
+Lesen und Steuern funktioniert genauso wie auf deinem Handy; unter [Deine Ausrüstung steuern](/help/mobile-device-control) stehen Ausgänge, Modi, Dosierköpfe und Testbefehle sowie die Dosierungsgrenzen pro Kopf.
 
 ## Zeitpläne
 

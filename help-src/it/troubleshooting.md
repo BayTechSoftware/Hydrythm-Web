@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi
 description: Le letture si sono fermate, un dispositivo è offline, un avviso non si chiude o qualcosa non ti torna. Parti da qui.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -102,6 +102,26 @@ Prova così:
 3. Controlla nella sua app che l'attrezzatura Red Sea sia accesa e online.
 
 Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indicando il nome della vasca e del dispositivo.
+
+## "API GHL disattivata"
+
+GHL disattiva la sua API ufficiale dopo ogni aggiornamento firmware, quindi è normale dopo un aggiornamento, non un guasto. Riattivala da **System → GHL API** in GHL Control Center o GHL Connect, direttamente sul controller. Cora continua a controllare e si ricollega da sola appena torna attiva.
+
+## "Controller GHL non raggiungibile"
+
+Cora Max non riesce a raggiungere l'indirizzo IP del controller sulla tua rete.
+
+1. Controlla che il controller sia acceso e collegato alla rete.
+2. Controlla che il suo indirizzo IP non sia cambiato. Se è cambiato, aggiornalo da **Impostazioni → [la tua vasca] → Controller GHL (Beta)**.
+3. Controlla che il Cora Max che legge questa vasca sia sulla stessa rete del controller.
+
+Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indicando il nome della vasca e del dispositivo.
+
+## Un controller HYDROS risulta offline o non riporta
+
+HYDROS passa dal suo stesso cloud, quindi di solito vuol dire che il controller ha perso l'alimentazione o la sua connessione di rete, non un problema di Cora. Controllalo nell'app HYDROS. Le letture su Cora si aggiornano appena torna online, e un comando inviato mentre risulta offline non parte affatto.
+
+Se un dispositivo HYDROS mostra **Chiave revocata**, la sua chiave dispositivo è stata rimossa o sostituita nell'app HYDROS. Crea una nuova chiave e collegala di nuovo da **Dispositivi → Aggiungi HYDROS (Beta)**, oppure dalle impostazioni della vasca su Cora Max.
 
 ## "Impossibile raggiungere questa pompa: nulla è stato inviato."
 

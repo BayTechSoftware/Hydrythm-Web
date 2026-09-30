@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sondy | Cora Help</title>
-  <meta name="description" content="Przypisz sondy kontrolera do parametrów Cory i zapisuj kalibrację oraz czyszczenie.">
+  <meta name="description" content="Sprawdź, która sonda zasila każdy odczyt na wszystkich kontrolerach, i zapisuj kalibrację oraz czyszczenie.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/mobile-probes">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-probes">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sondy | Cora Help">
-  <meta property="og:description" content="Przypisz sondy kontrolera do parametrów Cory i zapisuj kalibrację oraz czyszczenie.">
+  <meta property="og:description" content="Sprawdź, która sonda zasila każdy odczyt na wszystkich kontrolerach, i zapisuj kalibrację oraz czyszczenie.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/mobile-probes">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -168,25 +168,32 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Sondy</h1>
-      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#mapowanie-sond">Mapowanie sond</a></li><li><a href="#kilka-sond-dla-jednego-parametru">Kilka sond dla jednego parametru</a></li><li><a href="#zapisywanie-konserwacji-sond">Zapisywanie konserwacji sond</a></li></ul></nav>
-<p>Kontroler nazywa sondy po swojemu. W mapowaniu sond wskazujesz Corze, która z nich mierzy pH, która temperaturę i tak dalej.</p>
-<h2 id="mapowanie-sond">Mapowanie sond</h2>
-<p>Otwórz <strong>profil akwarium</strong> (ołówek na górze pulpitu), rozwiń sekcję swojego kontrolera i wybierz <strong>Mapowanie sond</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Mapowanie sond"><img src="/help/img/mobile-probes.webp" alt="Mapowanie sond" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Każda sonda zgłaszana przez kontroler, jej odczyt na żywo i to, co robi z nią Cora.</figcaption></figure>
-<p>Na liście jest każda sonda, którą zgłasza kontroler, razem z bieżącym odczytem. Cora sama rozpoznaje standardowe nazwy, a w wierszu widać, co dopasowała. Zwykle wystarczy więc poprawić te sondy, których Cora nie umiała przypisać. Nie trzeba mapować wszystkich ręcznie.</p>
-<p>W każdym wierszu są trzy możliwości:</p>
+      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#skd-pochodzi-kady-odczyt">Skąd pochodzi każdy odczyt</a></li><li><a href="#sondy-okrel-czym-jest-kada-z-nich">Sondy: określ, czym jest każda z nich</a></li><li><a href="#kilka-sond-dla-jednego-parametru">Kilka sond dla jednego parametru</a></li><li><a href="#zapisywanie-konserwacji-sond">Zapisywanie konserwacji sond</a></li></ul></nav>
+<p>Jeśli masz więcej niż jeden kontroler, albo dwie sondy mierzące to samo, Cora musi wiedzieć, któremu odczytowi ufać. Mapowanie sond to miejsce, w którym to ustalasz, i w którym najpierw mówisz Corze, czym jest każda sonda.</p>
+<p>Otwórz <strong>profil akwarium</strong> (ołówek na górze pulpitu) i wybierz <strong>Mapowanie sond</strong>.</p>
+<h2 id="skd-pochodzi-kady-odczyt">Skąd pochodzi każdy odczyt</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Skąd pochodzi każdy odczyt"><img src="/help/img/mobile-probes.webp" alt="Skąd pochodzi każdy odczyt" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Każdy parametr, sonda, która go zasila, i przycisk wyboru, żeby to zmienić.</figcaption></figure>
+<p>Ta sekcja wymienia każdy parametr, który Cora śledzi dla tego akwarium, na przykład pH albo temperaturę, i pokazuje, która sonda go teraz zasila.</p>
+<p>Dotknij odczytu, żeby zobaczyć każdą sondę, która go zgłasza, na wszystkich podłączonych kontrolerach. Każda pozycja pokazuje markę, własną nazwę sondy nadaną przez kontroler i jej wartość na żywo. Wybierz jedną, żeby ją przypiąć, albo wybierz <strong>Automatycznie</strong>, żeby Cora korzystała z tej, która akurat raportuje.</p>
+<p>Znacznik przy każdym odczycie pokazuje, co obowiązuje: <strong>Automatycznie</strong> albo <strong>Wybrane przez Ciebie</strong>, gdy przypniesz sondę.</p>
+<p>Jeśli przypięta sonda przestanie raportować, Cora pokaże, kiedy ostatnio się odezwała, i zaproponuje <strong>Powrót do Automatycznego</strong>, żeby martwa sonda nie zablokowała odczytu.</p>
+<p>Dotknij <strong>Zmień nazwę</strong>, żeby nadać odczytowi własną nazwę wyświetlaną. To coś innego niż nazwa, którą nadajesz samej sondzie. To właśnie ta nazwa pojawia się na pulpicie, w alertach i w Reef Buddy.</p>
+<aside class="cal cal-note"><p class="cal-t">Czujnika wycieku nie można tu przypisać ponownie</p><p>Alarm czujnika wycieku zależy od jego własnej nazwy, więc jest wykluczony z tego wyboru. Działa tak samo jak dotychczas.</p></aside>
+<h2 id="sondy-okrel-czym-jest-kada-z-nich">Sondy: określ, czym jest każda z nich</h2>
+<p>Niżej zobaczysz każdą sondę znaną Corze, pogrupowaną według urządzenia, które ją zgłasza, razem z bieżącym odczytem. Cora sama rozpoznaje standardowe nazwy sond, a w wierszu widać, co dopasowała. Zwykle wystarczy poprawić tylko te kilka, których nie umiała przypisać.</p>
+<p>Każdy wiersz daje trzy możliwości.</p>
 <ul><li><strong>Parametr Cory</strong>, czyli to, co mierzy ta sonda.</li><li><strong>Własny…</strong> dla sondy, dla której Cora nie ma standardowego parametru. Podajesz krótki identyfikator wielkimi literami i sonda jest śledzona pod tą nazwą.</li><li><strong>Ignoruj</strong> dla sond, których w ogóle nie chcesz zapisywać.</li></ul>
 <p>Zignorowana albo nieprzypisana sonda nie pojawi się na pulpicie i nie wywoła alertów.</p>
 <p>Mapowanie działa od następnego zapisanego odczytu. Poprawka nie zmienia więc historii, tylko to, co będzie zapisywane od teraz. Dotknij <strong>Zapisz</strong>, żeby zastosować zmiany.</p>
-<aside class="cal cal-warning"><p class="cal-t">Cora nie widzi nieprzypisanej sondy</p><p>Jeśli parametr nie ma żadnych odczytów, choć sonda działa, najpierw sprawdź mapowanie.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Cora nie widzi nieprzypisanej sondy</p><p>Jeśli parametr nie ma żadnych odczytów, choć sonda działa, najpierw sprawdź jej mapowanie.</p></aside>
 <h2 id="kilka-sond-dla-jednego-parametru">Kilka sond dla jednego parametru</h2>
-<p>W systemie z dwiema sondami temperatury możesz przypisać obie. Cora traktuje je jako osobne źródła. Ustawienie źródła w widżecie decyduje, którą z nich pokazuje kafelek, a w <a href="/pl/help/mobile-metric-detail">szczegółach parametru</a> porównasz obie.</p>
+<p>Jeśli masz dwie sondy temperatury, czy to na tym samym kontrolerze, czy na dwóch różnych, zmapuj obie. Cora traktuje je jako osobne źródła, a sekcja <strong>Skąd pochodzi każdy odczyt</strong> powyżej to miejsce, w którym wybierzesz, która z nich napędza odczyt, albo zostawisz ustawienie Automatycznie. Porównasz je w <a href="/pl/help/mobile-metric-detail">szczegółach parametru</a>.</p>
 <h2 id="zapisywanie-konserwacji-sond">Zapisywanie konserwacji sond</h2>
 <p>Sondy z czasem dryfują. Cora może śledzić, kiedy każdą z nich ostatnio kalibrowano albo czyszczono. Dzięki temu odróżnisz prawdziwą zmianę od sondy, która wymaga uwagi.</p>
 <p>Kalibrację albo czyszczenie zapiszesz we wpisie sondy. To dobry kandydat na powtarzalne <a href="/pl/help/mobile-maintenance">zadanie konserwacyjne</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Historia kalibracji wyjaśnia rozbieżności</p><p>Gdy sonda i test kropelkowy podają różne wartości, najpierw sprawdź, kiedy sonda była ostatnio kalibrowana.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/pl/help/mobile-schedules"><span>Poprzedni</span><b>Harmonogramy sprzętu</b></a><a class="pn-n" href="/pl/help/mobile-consumables"><span>Następny</span><b>Materiały eksploatacyjne</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.79 i Cora Mobile 0.5.80. Ostatnio sprawdzono 2026-09-09.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.79 i Cora Mobile 0.5.80. Ostatnio sprawdzono 2026-09-30.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>

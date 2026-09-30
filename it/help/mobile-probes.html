@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sonde | Cora Help</title>
-  <meta name="description" content="Associa le sonde del controller ai parametri di Cora e annota calibrazioni e pulizie.">
+  <meta name="description" content="Vedi quale sonda guida ogni lettura in tutti i controller, e annota calibrazioni e pulizie.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/mobile-probes">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-probes">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Sonde | Cora Help">
-  <meta property="og:description" content="Associa le sonde del controller ai parametri di Cora e annota calibrazioni e pulizie.">
+  <meta property="og:description" content="Vedi quale sonda guida ogni lettura in tutti i controller, e annota calibrazioni e pulizie.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/mobile-probes">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -168,25 +168,32 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Sonde</h1>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#mappare-le-sonde">Mappare le sonde</a></li><li><a href="#pi-sonde-per-lo-stesso-parametro">Più sonde per lo stesso parametro</a></li><li><a href="#annotare-la-cura-delle-sonde">Annotare la cura delle sonde</a></li></ul></nav>
-<p>Il controller chiama le sonde con nomi suoi. Con la mappatura delle sonde dici a Cora qual è la sonda del pH, quale quella della temperatura e così via.</p>
-<h2 id="mappare-le-sonde">Mappare le sonde</h2>
-<p>Apri il <strong>profilo della vasca</strong> (la matita in alto sulla dashboard), apri la sezione del controller e scegli <strong>Mappatura sonde</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Mappatura delle sonde"><img src="/help/img/mobile-probes.webp" alt="Mappatura delle sonde" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Ogni sonda riportata dal tuo controller, la sua lettura in tempo reale, e cosa ne fa Cora.</figcaption></figure>
-<p>Vedi tutte le sonde del controller, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.</p>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#da-dove-arriva-ogni-lettura">Da dove arriva ogni lettura</a></li><li><a href="#sonde-dire-a-cora-cos-ognuna">Sonde: dire a Cora cos&#x27;è ognuna</a></li><li><a href="#pi-sonde-per-lo-stesso-parametro">Più sonde per lo stesso parametro</a></li><li><a href="#annotare-la-cura-delle-sonde">Annotare la cura delle sonde</a></li></ul></nav>
+<p>Se hai più di un controller, o due sonde che misurano la stessa cosa, Cora deve sapere quale lettura considerare valida. La mappatura delle sonde è dove sistemi questo, ed è anche dove dici a Cora cos'è ogni sonda fin dall'inizio.</p>
+<p>Apri il <strong>profilo della vasca</strong> (la matita in alto sulla dashboard) e scegli <strong>Mappatura sonde</strong>.</p>
+<h2 id="da-dove-arriva-ogni-lettura">Da dove arriva ogni lettura</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Da dove arriva ogni lettura"><img src="/help/img/mobile-probes.webp" alt="Da dove arriva ogni lettura" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Ogni parametro, quale sonda lo guida e un pulsante Scegli per cambiarla.</figcaption></figure>
+<p>Questa sezione elenca ogni parametro che Cora segue per questa vasca, come pH o temperatura, e mostra quale sonda lo sta alimentando in questo momento.</p>
+<p>Tocca una lettura per vedere tutte le sonde che la riportano, in tutti i controller che hai collegato. Ognuna mostra la sua marca, il nome che le ha dato il controller e il suo valore in tempo reale. Scegline una per fissarla, oppure scegli <strong>Automatico</strong> per lasciare che Cora usi qualunque sonda stia riportando.</p>
+<p>Un'etichetta accanto a ogni lettura mostra quale sonda è attiva: <strong>Automatico</strong>, oppure <strong>Scelta da te</strong> una volta che ne hai fissata una.</p>
+<p>Se una sonda fissata smette di riportare, Cora mostra da quanto tempo non risponde più e offre <strong>Torna ad Automatico</strong>, così una sonda morta non può bloccare una lettura.</p>
+<p>Tocca <strong>Rinomina</strong> per dare a una lettura un nome tutto suo. È diverso dal nome che dai alla sonda stessa, ed è quello che compare sulla dashboard, negli avvisi e in Reef Buddy.</p>
+<aside class="cal cal-note"><p class="cal-t">Un sensore di allagamento qui non si può riassegnare</p><p>L'allarme di un sensore di allagamento dipende dal suo stesso nome, quindi è escluso da questa scelta. Funziona come sempre.</p></aside>
+<h2 id="sonde-dire-a-cora-cos-ognuna">Sonde: dire a Cora cos'è ognuna</h2>
+<p>Più in basso trovi tutte le sonde che Cora conosce, raggruppate per dispositivo, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.</p>
 <p>Per ogni riga hai tre scelte:</p>
 <ul><li><strong>Un parametro Cora</strong>: il valore che misura quella sonda.</li><li><strong>Personalizzato</strong>: per una sonda che non corrisponde a nessun parametro standard di Cora. Le dai un nome breve in maiuscolo e Cora la registra con quel nome.</li><li><strong>Ignora</strong>: per le sonde che non vuoi registrare.</li></ul>
 <p>Una sonda ignorata o non mappata non compare sulla dashboard e non fa scattare avvisi.</p>
 <p>La mappatura vale dalla prossima lettura registrata. Una correzione quindi non riscrive lo storico, ma cambia quello che viene salvato da quel momento. Tocca <strong>Salva</strong> per applicarla.</p>
-<aside class="cal cal-warning"><p class="cal-t">Una sonda non mappata per Cora non esiste</p><p>Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la mappatura.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Una sonda non mappata per Cora non esiste</p><p>Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la sua mappatura.</p></aside>
 <h2 id="pi-sonde-per-lo-stesso-parametro">Più sonde per lo stesso parametro</h2>
-<p>Se hai due sonde di temperatura, puoi mapparle tutte e due. Cora le tiene come fonti separate. Nelle impostazioni del widget scegli quale fonte segue il riquadro, e nella <a href="/it/help/mobile-metric-detail">pagina del parametro</a> puoi confrontarle.</p>
+<p>Se hai due sonde di temperatura, sullo stesso controller o su due diversi, mappale entrambe. Cora le tiene come fonti separate, e <strong>Da dove arriva ogni lettura</strong> qui sopra è dove scegli quale delle due guida la lettura, oppure lasci Automatico. Puoi confrontarle in <a href="/it/help/mobile-metric-detail">la pagina del parametro</a>.</p>
 <h2 id="annotare-la-cura-delle-sonde">Annotare la cura delle sonde</h2>
 <p>Con il tempo le sonde perdono precisione. Cora può tenere traccia di quando hai calibrato o pulito ogni sonda l'ultima volta, così capisci se un valore è cambiato davvero o se la sonda ha bisogno di una sistemata.</p>
 <p>Registra calibrazione o pulizia dalla voce della sonda. È anche un buon candidato per un <a href="/it/help/mobile-maintenance">lavoro di manutenzione</a> ricorrente.</p>
 <aside class="cal cal-note"><p class="cal-t">La data di calibrazione spiega le differenze</p><p>Quando sonda e test non concordano, la prima cosa da guardare di solito è quando hai calibrato la sonda l'ultima volta.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/mobile-schedules"><span>Precedente</span><b>Programmare l&#x27;attrezzatura</b></a><a class="pn-n" href="/it/help/mobile-consumables"><span>Successivo</span><b>Materiali di consumo</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.79 e Cora Mobile 0.5.80. Ultimo controllo il 2026-09-09.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.79 e Cora Mobile 0.5.80. Ultimo controllo il 2026-09-30.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>

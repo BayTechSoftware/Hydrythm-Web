@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Readings stopped, a device went offline, an alert won't clear, or something just looks wrong. Start here.
 section: Help
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 1
 ---
 
@@ -99,6 +99,26 @@ Nothing on this tank's network is polling your Red Sea equipment right now, so t
 3. Check that the Red Sea equipment is powered on and online in its own app.
 
 If that doesn't fix it, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the tank and device name.
+
+## "GHL API is off"
+
+GHL turns its official API off after every firmware update, so this is normal after an update, not a fault. Turn it back on from **System → GHL API** in GHL Control Center or GHL Connect, on the controller itself. Cora keeps checking and reconnects on its own once it's back on.
+
+## "GHL controller unreachable"
+
+Cora Max can't reach the controller's IP address on your network.
+
+1. Check the controller is powered on and connected to your network.
+2. Check its IP address hasn't changed. If it has, update it from **Settings → [your tank] → GHL controller (Beta)**.
+3. Check the Cora Max reading this tank is on the same network as the controller.
+
+If that doesn't fix it, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the tank and device name.
+
+## A HYDROS controller shows as offline or not reporting
+
+HYDROS reports through its own cloud, so this usually means the controller itself has lost power or its own network connection, not a problem with Cora. Check it in the HYDROS app. Readings on Cora catch up once it's back online, and a command sent while it looks offline isn't sent at all.
+
+If a HYDROS device shows **Key revoked**, its device key was removed or replaced in the HYDROS app. Create a new key and link it again from **Devices → Add HYDROS (Beta)**, or from the tank's settings on Cora Max.
 
 ## "Could not reach this pump: nothing was sent"
 

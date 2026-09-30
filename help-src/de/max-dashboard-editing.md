@@ -2,7 +2,7 @@
 title: Das Cora Max-Dashboard bearbeiten
 description: Raster wählen, Widgets hinzufügen und Layouts für den Cora Max-Bildschirm speichern.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Oben im Editor stehen die drei Gesten: **Tippe auf eine Kachel, um sie zu bearbe
 
 Mit **Steckdosen & Füttern** fügst du alle schaltbaren Steckdosen und Fütterungszyklen auf einmal hinzu. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 
-Die neun Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod und Maxspect *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
+Die elf Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)* und HYDROS *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
 
 ## Für den Blick aus der Entfernung
 

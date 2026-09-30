@@ -2,7 +2,7 @@
 title: Rodzaje widżetów
 description: Wszystkie typy widżetów w Corze (wartość, wskaźnik, wykres, stan, gniazdo i kafelki urządzeń) i kiedy których używać.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-09-30
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Widżety dodajesz i układasz w **[edytorze pulpitu](/help/mobile-dashboard-edit
 
 ![Ustawienia widżetu](img/mobile-widget-config.webp "Typ, parametr, a potem szerokość i wysokość.")
 
-## Dziewięć typów
+## Jedenaście typów
 
 | Typ | Co pokazuje |
 |---|---|
@@ -26,8 +26,10 @@ Widżety dodajesz i układasz w **[edytorze pulpitu](/help/mobile-dashboard-edit
 | **Moduł Apex** | Jeden zamontowany moduł Apex, np. Trident albo DŌS |
 | **Jecod** | Jedna pompa Jecod z trybem i intensywnością |
 | **Maxspect** *(beta)* | Jeden gyre z oboma silnikami |
+| **GHL** *(beta)* | Jeden kontroler ProfiLux albo Mitras z własnym podsumowaniem |
+| **HYDROS** *(beta)* | Jeden kontroler HYDROS z własnym podsumowaniem |
 
-Ostatnie cztery to kafelki **urządzeń**. Są powiązane z konkretnym sprzętem, a nie z parametrem, i pokazują to, co zgłasza dane urządzenie.
+Ostatnie sześć to kafelki **urządzeń**. Są powiązane z konkretnym sprzętem, a nie z parametrem, i pokazują to, co zgłasza dane urządzenie.
 
 ## Rozmiar
 

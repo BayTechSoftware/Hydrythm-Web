@@ -2,7 +2,7 @@
 title: ICP e rapporti di salute
 description: Carica un test ICP, segui ogni elemento nel tempo e chiedi una valutazione completa della salute del tuo impianto.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 26
 group: Intelligence
 ---
@@ -28,6 +28,12 @@ Nel rapporto, vicino all'intestazione, c'è scritto **Inviato da {lab}**. Così 
 :::note La prima volta
 La prima volta che un risultato arriva in questo modo, Cora mostra un breve suggerimento che spiega cosa succede, così non lo scambi per un errore.
 :::
+
+### Il primo risultato da un nuovo laboratorio
+
+La prima volta che un laboratorio ti manda un risultato, Cora ti chiede di approvarlo prima di aggiungerlo ovunque, anche se hai una sola vasca. Vedi chi l'ha inviato e puoi spuntare **Fidati di questo laboratorio** per saltare questo controllo la prossima volta che arriva un risultato da lui.
+
+Tocca **Approva** per farlo entrare, oppure **Rifiuta** per eliminarlo senza aggiungerlo a nessuna vasca. **Impostazioni → Laboratori affidabili** elenca ogni laboratorio di cui ti sei fidato in questo modo, e **Revoca** ne toglie uno, così il suo prossimo risultato ha di nuovo bisogno della tua approvazione.
 
 Se qualcosa non funziona, guarda in [Risoluzione dei problemi](/help/troubleshooting).
 

@@ -2,7 +2,7 @@
 title: Contrôler l’équipement depuis Cora Max
 description: Les pages d’appareils sur Cora Max : sondes, prises, têtes de dosage, testeurs et pompes.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 6
 group: Equipment
 ---
@@ -25,6 +25,8 @@ Il n’y a ni aperçu ni annulation. La commande part dès que vous touchez. Mai
 | **Red Sea ReefBeat** | Selon l’appareil : têtes de dosage, réservoir, jours de rouleau restants, mode de pompe |
 | **Jecod** | Mode et intensité de la pompe, et son programme de la journée |
 | **Maxspect** *(bêta)* | Mode et vitesse pour **Gyre A** et **Gyre B**, **État de la pompe** (compte à rebours du nettoyage, courant de la tête A, têtes installées, micrologiciel), et son programme en lecture seule |
+| **GHL ProfiLux / Mitras** *(bêta)* | Sondes, prises, doseurs, capteurs de niveau et, sur les modèles Director, les résultats de test KH et ionique |
+| **HYDROS** *(bêta)* | Ce que signale sa clé d’appareil : les entrées, et avec une clé d’écriture, les sorties, les modes, les têtes de dosage et les commandes de testeur |
 
 Si un appareil Red Sea s’arrête de lui-même, sa page dit ce qui ne va pas et affiche la solution juste à côté : **Reprendre**, **Effacer l’urgence**, **Capteur nettoyé**, **J’ai déjà chargé un nouveau rouleau**, ou **Réinitialiser** pour une tête de dosage.
 
@@ -50,6 +52,32 @@ Pendant un gros dosage, Cora modifie temporairement le fonctionnement de la têt
 Vérifiez vous-même la tête dans Apex Fusion, puis touchez **J’ai vérifié la tête dans Fusion** pour faire disparaître la bannière. Ne le faites qu’après avoir constaté que c’est bien le programme habituel de la tête qui tourne, et non le programme de dosage de Cora.
 
 Si la bannière ne disparaît pas ou revient sans cesse, consultez la page [Résolution de problèmes](/help/troubleshooting).
+
+## GHL ProfiLux et Mitras
+
+:::note La prise en charge GHL est en bêta
+Nous testons et développons encore la prise en charge GHL. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre.
+:::
+
+Connectez un contrôleur GHL depuis **Réglages → [votre aquarium] → Contrôleur GHL (bêta)**. Saisissez son adresse IP sur votre réseau et touchez **Détecter**. Cora essaie d’abord l’API officielle du contrôleur, puis ses autres interfaces, et vous dit laquelle il a trouvée.
+
+Si rien ne répond et que le contrôleur est un ProfiLux mini, Cora propose une solution de repli : saisissez ses identifiants et Cora le lit en lecture seule. Rien d’autre ne peut se commander sur un mini.
+
+Les commandes restent désactivées tant que vous n’activez pas **Autoriser le controle depuis Cora (Beta)** sur la page de l’appareil. C’est désactivé par défaut. Une fois activé, une prise peut être réglée sur **Toujours allume**, **Toujours eteint**, ou **Retour a automatique**, et une consigne comme la température ou le pH affiche sa plage autorisée et refuse une valeur en dehors. Les deux types de changement sont enregistrés sur le contrôleur lui-même et y restent même si Cora perd ensuite le contact avec lui. Un changement qui ressemble à un chauffage ou une pompe de remontée vous demande de confirmer deux fois.
+
+Si le contrôleur refuse un changement, son API GHL est probablement désactivée. GHL la désactive après chaque mise à jour du micrologiciel ; réactivez-la depuis **Système → API GHL** dans GHL Control Center ou GHL Connect. [Résolution de problèmes](/help/troubleshooting) donne la suite.
+
+## HYDROS
+
+:::note La prise en charge HYDROS est en bêta
+Nous testons et développons encore la prise en charge HYDROS. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre.
+:::
+
+HYDROS est la seule intégration qui rejoint son contrôleur par le cloud, elle marche donc même quand Cora Max est sur un réseau différent de celui du contrôleur. Liez-le depuis **Réglages → [votre aquarium] → HYDROS (bêta)**.
+
+Dans l’application HYDROS, créez une clé d’appareil pour le fournisseur **cora-iq**, en choisissant **Lecture** pour les mesures seulement ou **Écriture** pour aussi le contrôler. Collez la clé, touchez **Valider**, choisissez l’aquarium, puis **Enregistrer**. Les 33 derniers jours de son historique sont importés dès qu’il est lié.
+
+Lire et contrôler l’appareil fonctionne comme sur votre téléphone ; voir [Contrôler votre équipement](/help/mobile-device-control) pour les sorties, les modes, les têtes de dosage et les commandes de testeur, et pour les limites de dose par tête.
 
 ## Programmes
 
