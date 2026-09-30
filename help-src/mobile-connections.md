@@ -36,11 +36,11 @@ Cora reads your Apex, shows it next to everything else and can switch outlets wh
 
 ## Red Sea ReefBeat
 
-Cora talks to ReefBeat equipment on your local network. It supports **ReefDose**, **ReefATO+**, **ReefMat** and **ReefRun**.
+Cora talks to ReefBeat equipment on your local network. It supports **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun**, and, in beta, **ReefControl**, **ReefControl Power**, **ReefWave** and **ReefLED**.
 
 Before you add a unit, set it up in ReefBeat and make sure it's on the same network as your phone.
 
-Each unit gets its own device page, and its readings become sources. ReefDose reports its heads and containers. ReefATO+ reports its reservoir and fills. ReefMat reports the days it has left, and ReefRun reports pump state.
+Each unit gets its own device page, and its readings become sources. ReefDose reports its heads and containers. ReefATO+ reports its reservoir and fills. ReefMat reports the days it has left, and ReefRun reports pump state. ReefControl reports its probes the same way. ReefWave and ReefLED *(beta)* show their mode only, for now, view only.
 
 ## Jecod / Jebao
 
@@ -73,6 +73,8 @@ Cora reads alkalinity from an AquaWiz KH controller through your AquaWiz account
 To connect it, you need your AquaWiz username and password. Cora signs in for you and keeps the sign-in so it can go on reading.
 
 You get alkalinity as a source, updated as often as your controller titrates. You can add pH too if your unit reports it.
+
+The device's own card also shows your target KH, your dose strength and, for a unit that tracks it, how much alkalinity supplement is left in the container. These come straight from your AquaWiz settings; change them in the AquaWiz app. If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default.
 
 :::warning Cora shares your AquaWiz sign-in
 AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.

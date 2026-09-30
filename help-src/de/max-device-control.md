@@ -22,13 +22,16 @@ Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du ti
 | **Neptune Apex** | Sonden und Steckdosen, jede Steckdose ist schaltbar |
 | **Trident** | Teststatus, Reagenz- und Abfallstand, und du kannst einen Test starten |
 | **DŌS**, auch DŌS QD | Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden) |
-| **Red Sea ReefBeat** | Je nach Gerät Dosierköpfe, Reservoir, Rollentage oder Pumpenmodus |
+| **Red Sea ReefBeat** | Je nach Gerät Dosierköpfe, Reservoir, Rollentage oder Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefRun-Programm sowie ReefMat-Einstellungen *(Beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | Sonden von ReefControl. Steckdosen von ReefControl Power als Ausgänge, ein oder aus, noch keinen Automatikmodus. ReefWave und ReefLED nur zum Ansehen |
 | **Jecod** | Pumpenmodus, Intensität und das Tagesprogramm |
 | **Maxspect** *(Beta)* | Modus und Geschwindigkeit für **Gyre A** und **Gyre B**, **Pumpenzustand** (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und der Zeitplan, nur zum Ansehen |
 | **GHL ProfiLux / Mitras** *(Beta)* | Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse |
 | **HYDROS** *(Beta)* | Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreiben-Schlüssel auch Ausgänge, Modi, Dosierköpfe und Testbefehle |
 
 Stoppt sich ein Red Sea-Gerät selbst, steht auf seiner Seite, was los ist, und die passende Lösung gleich daneben: **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder bei einem Dosierkopf **Zurücksetzen**.
+
+Ein ReefDose-Plan, ein ReefRun-Geschwindigkeitsprogramm und ReefMats geplanter Vorschub, Modell, Position und Neue Rolle funktionieren hier genauso wie auf deinem Handy. [Deine Ausrüstung verbinden](/help/mobile-connections) und [Deine Ausrüstung steuern](/help/mobile-device-control) haben die Details.
 
 ## DŌS-Köpfe
 
@@ -41,7 +44,7 @@ Hast du einen Kopf in Apex Fusion auf Aus gestellt, bleibt er nach einer manuell
 In den Einstellungen jedes Kopfes legst du einen **Verwendungstyp** fest: **Supplement**, **Wasserwechsel: neues Salzwasser rein**, **Wasserwechsel: altes Wasser raus**, **Kalkwasser**, **Calciumreaktor**, **Futter**, **Nachfüllen** oder **Andere**. Davon hängen zwei Dinge ab:
 
 - **Wie groß der Behälter sein darf.** Ein Supplement-Kopf verfolgt bis zu 20 Liter. Alle anderen Verwendungstypen können einen viel größeren Behälter mit bis zu 500 Litern verfolgen. So wird ein Kopf für Wasserwechsel oder Calciumreaktor nicht wie eine kleine Dosierflasche behandelt.
-- **Ob er große Mengen von Hand dosieren darf.** Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Für alle anderen Verwendungstypen kannst du eine eigene **Größte manuelle Dosierung** festlegen, höchstens 10 Liter, und ein eigenes **Tageslimit für Automationen und den Assistant**.
+- **Ob er große Mengen von Hand dosieren darf.** Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Für alle anderen Verwendungstypen kannst du eine eigene **Größte manuelle Dosierung** festlegen, höchstens 10 Liter, und ein eigenes **Tageslimit für Automationen und den Assistant**. Eine große Handdosierung braucht außerdem **Große Dosierungen (Beta)**, eingeschaltet in den Einstellungen des Kopfes. Das ist standardmäßig aus: Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
 
 Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als **Gekoppelter Kopf** verbinden und einen Wert für **Ausgleichswarnung ab** eintragen. Weichen die Tagesmengen der beiden Köpfe um mehr als diesen Wert voneinander ab, warnt Cora dich. Meist pumpt dann eine Seite nicht so wie erwartet.
 
@@ -61,9 +64,11 @@ Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Mess
 
 Verbinde einen GHL-Controller unter **Einstellungen → [dein Becken] → GHL-Controller (Beta)**. Trag seine IP-Adresse in deinem Netzwerk ein und tippe auf **Erkennen**. Cora versucht zuerst die offizielle API des Controllers, dann seine anderen Schnittstellen, und sagt dir, welche davon geantwortet hat.
 
-Antwortet nichts und ist der Controller ein ProfiLux mini, bietet Cora einen Ausweg an: Gib seine Zugangsdaten ein, und Cora liest ihn nur lesend aus. Sonst lässt sich an einem mini nichts steuern.
+Antwortet nichts und ist der Controller ein ProfiLux mini, bietet Cora einen Ausweg an: Gib seine Zugangsdaten ein, und Cora liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren nur lesend aus. Steuern lässt sich an einem mini noch nichts.
 
 Steuerungen bleiben aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Ist es eingeschaltet, kannst du eine Steckdose auf **Immer an**, **Immer aus** oder **Zurueck zu automatisch** stellen, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Sieht eine Änderung nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal.
+
+Wird der Behälter eines Dosierers knapp, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Der Standardwert ist 20 % Füllstand, und du kannst ihn in der Regel des Dosierers in der [Warnzentrale](/help/mobile-alerts) ändern.
 
 Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich ausgeschaltet. GHL schaltet sie nach jedem Firmware-Update wieder aus. Schalte sie unter **System → GHL API** im GHL Control Center oder in GHL Connect wieder ein. Den Rest findest du unter [Problembehebung](/help/troubleshooting).
 

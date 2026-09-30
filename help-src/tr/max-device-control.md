@@ -22,13 +22,16 @@ Cora Max telefonunuzun ulaştığı tüm ekipmana ulaşır. Her cihazın kendi s
 | **Neptune Apex** | Problar ve prizler. Her prizi açıp kapatabilirsiniz |
 | **Trident** | Test durumu, reaktif ve atık seviyeleri. Buradan test de başlatabilirsiniz |
 | **DŌS** (DŌS QD dahil) | Her kafanın dozajı, zamanlaması, ne kadar yeteceği ve kap hacmi. Duraklatma, doldurma, hemen dozaj verme ve tek seferlik yirmi saniyelik ölçüm de burada |
-| **Red Sea ReefBeat** | Cihaz neyse ona göre: dozaj kafaları, rezervuar, rulonun kaç gün yeteceği, pompa modu |
+| **Red Sea ReefBeat** | Cihaz neyse ona göre: dozaj kafaları, rezervuar, rulonun kaç gün yeteceği, pompa modu, ayrıca tam bir ReefDose planı, ReefRun program düzenleyicisi ve ReefMat ayarları *(beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | ReefControl'un probları. ReefControl Power'ın prizleri, aç/kapa, henüz otomatik mod yok. ReefWave ve ReefLED, yalnızca görüntüleme |
 | **Jecod** | Pompa modu, yoğunluğu ve günlük programı |
 | **Maxspect** *(beta)* | **Gyre A** ve **Gyre B** için mod ve hız, **Pompa sağlığı** (temizlik geri sayımı, A kafasının akımı, takılı kafalar, yazılım) ve zamanlaması. Zamanlama yalnızca görüntülenir |
 | **GHL ProfiLux / Mitras** *(beta)* | Problar, prizler, dozaj üniteleri, seviye sensörleri ve Director modellerinde KH ile iyon test sonuçları |
 | **HYDROS** *(beta)* | Cihaz anahtarının bildirdiği her şey: girişler, ve yazma anahtarıyla çıkışlar, modlar, dozaj kafaları ve test cihazı komutları |
 
 Bir Red Sea cihazı kendini durdurursa sayfasında sorunun ne olduğu yazar. Çözüm düğmesi de hemen yanındadır: **Sürdür**, **Acil durumu temizle**, **Sensör temizlendi**, **Zaten yeni bir rulo yükledim** ya da dozaj kafası için **Sıfırla**.
+
+ReefDose planı, ReefRun hız programı ve ReefMat'ın zamanlanmış ilerletmesi, modeli, konumu ve Yeni rulo işlemi burada da telefondakiyle tıpatıp aynı şekilde çalışır. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) ve [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfalarında.
 
 ## DŌS kafaları
 
@@ -41,7 +44,7 @@ Elle dozajdan sonra, Apex Fusion'da Kapalı'ya ayarladığınız kafa Kapalı ka
 Her kafa için ayar penceresinden bir **kullanım türü** seçebilirsiniz: **Takviye**, **Su değişimi: yeni tuzlu su girişi**, **Su değişimi: eski su çıkışı**, **Kalkwasser**, **Kalsiyum reaktörü**, **Yem**, **Su tamamlama** ya da **Diğer**. Kullanım türü iki şeyi değiştirir:
 
 - **Takip edilebilecek kabın büyüklüğü.** Takviye kafası en fazla 20 litrelik kabı takip eder. Diğer kullanım türlerinde bu sınır 500 litreye çıkar. Böylece su değişimi ya da kalsiyum reaktörü için çalışan bir kafa küçük bir dozaj şişesi gibi görülmez.
-- **Elle büyük dozaj verilip verilemeyeceği.** Takviye ve Yem kafalarında bugünkü küçük ve temkinli üst sınır geçerlidir. Diğer kullanım türleri için ayrı bir **Elle verilecek en büyük dozaj** sınırı belirleyebilirsiniz. Bu sınır en fazla 10 litre olabilir. Ayrıca **Otomasyonlar ve Asistan için günlük limit** de ayrıca ayarlanır.
+- **Elle büyük dozaj verilip verilemeyeceği.** Takviye ve Yem kafalarında bugünkü küçük ve temkinli üst sınır geçerlidir. Diğer kullanım türleri için ayrı bir **Elle verilecek en büyük dozaj** sınırı belirleyebilirsiniz. Bu sınır en fazla 10 litre olabilir. Ayrıca **Otomasyonlar ve Asistan için günlük limit** de ayrıca ayarlanır. Büyük bir elle doz için ayrıca kafanın ayarlarında **Büyük dozlar (Beta)** açık olmalıdır. Varsayılan olarak kapalıdır: bunu yalnızca akvaryumda ilk büyük dozu izledikten sonra açın.
 
 Su değişimi için kullanılan iki kafayı (yeni tuzlu su girişi ve eski su çıkışı) **Eşleştirilmiş kafa** olarak bağlayabilir ve bir **Denge uyarısı üstünde** miktarı girebilirsiniz. İki kafanın günlük toplamları arasındaki fark bu miktarı aşarsa Cora sizi uyarır. Dengesi bozulan bir çift genellikle taraflardan birinin beklendiği gibi pompalamadığını gösterir.
 
@@ -61,9 +64,11 @@ GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kon
 
 Bir GHL kontrol cihazını **Ayarlar → [akvaryumunuz] → GHL denetleyici (Beta)**'dan bağlayın. Ağınızdaki IP adresini girin ve **Algıla**'ya dokunun. Cora önce kontrol cihazının resmi API'sini, sonra diğer arayüzlerini dener ve hangisini bulduğunu size söyler.
 
-Hiçbir şey yanıt vermezse ve kontrol cihazı bir ProfiLux mini ise Cora bir yedek yol sunar: giriş bilgilerini girin, Cora onu salt okunur olarak okur. Bir mini hakkında başka hiçbir şey kontrol edilemez.
+Hiçbir şey yanıt vermezse ve kontrol cihazı bir ProfiLux mini ise Cora bir yedek yol sunar: giriş bilgilerini girin, Cora problarını, prizlerini, dozaj ünitelerini ve seviye sensörlerini salt okunur olarak okur. Bir mini hakkında henüz hiçbir şey kontrol edilemez.
 
 Cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kontroller kapalıdır. Varsayılan olarak kapalıdır. Açıldıktan sonra bir priz **Her zaman açık**, **Her zaman kapalı** ya da **Otomatiğe dön** olarak ayarlanabilir, sıcaklık ya da pH gibi bir ayar noktası izin verilen aralığını gösterir ve aralık dışındaki bir değeri reddeder. Her iki değişiklik türü de kontrol cihazının kendisine kaydedilir ve Cora sonradan onunla bağlantısını kaybetse bile orada kalır. Bir ısıtıcıya ya da geri dönüş pompasına dokunuyor gibi görünen bir değişiklik sizden iki kez onay ister.
+
+Bir dozaj ünitesinin kabı azalıyorsa Cora, diğer sarf malzemelerinde olduğu gibi sizi uyarır. Varsayılan eşik %20 doluluktur, dozaj ünitesinin kuralından [Uyarı Merkezi](/help/mobile-alerts)'nde değiştirebilirsiniz.
 
 Kontrol cihazı bir değişikliği kabul etmiyorsa GHL API'si muhtemelen kapalıdır. GHL bunu her yazılım güncellemesinden sonra kapatır; GHL Control Center'da ya da GHL Connect'te **Sistem → GHL API**'den yeniden açın. Gerisi için [Sorun giderme](/help/troubleshooting) sayfasına bakın.
 

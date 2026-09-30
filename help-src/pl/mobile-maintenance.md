@@ -2,7 +2,7 @@
 title: Konserwacja
 description: Powtarzalne prace z przypomnieniami: czyszczenie odpieniacza, skarpety filtracyjne, serwis pomp.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Typowe zadania:
 | Wymiana węgla albo GFO | 30 dni |
 | Serwis pompy powrotnej | 90–180 dni |
 | Kalibracja sond | 30–90 dni |
+
+## Zadania, które Cora tworzy sama
+
+Gdy podłączysz Red Sea ReefDose, ReefATO+, ReefMat albo ReefRun, Cora sama dodaje serwis, jakiego wymaga to urządzenie, od razu z właściwym interwałem. Pojawią się zadania takie jak te:
+
+| Urządzenie | Zadanie | Co ile |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 dni |
+| ReefATO+ | Replace ReefATO+ return pump | 135 dni |
+| ReefMat | Replace ReefMat carbon | 25 dni |
+| ReefRun | Check ReefRun skimmer venturi | 35 dni |
+| ReefRun | Replace ReefRun skimmer rotor | 135 dni |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 dni |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 dni |
+| ReefRun, per pump | Service ReefRun pump motor | 135 dni |
+| ReefRun, per pump | Clean ReefRun pump strainer | 42 dni |
+| ReefDose, per head | Calibrate ReefDose head | 90 dni |
+| ReefDose, per head | Replace ReefDose head tubing | 450 dni |
+
+Działają dokładnie tak samo jak zadania dodane przez Ciebie: możesz je przemianować, zmienić interwał, odłożyć albo wstrzymać. Jeśli usuniesz zadanie, Cora nie doda go z powrotem dla tego urządzenia.
 
 ## Przypomnienia
 

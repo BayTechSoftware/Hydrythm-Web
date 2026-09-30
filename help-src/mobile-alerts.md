@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you're told about, and see why an alert fired.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 15
 group: Alerts and automation
 ---
@@ -67,6 +67,12 @@ You can also set a rate-of-change rule. It watches how fast a parameter moves in
 Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod pump reports a fault, Cora sends a notification naming the tank and the device, for example *"Display tank: Return pump needs attention"*. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: *"Display tank: Return pump is OK again"*. Both fall under **Equipment Faults** in **Settings → Notifications**.
 
 A Maxspect gyre (beta) can raise the same alert. This happens when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat it as a warning and don't rely on it as a safeguard. The Cora Max only checks from time to time, and only while it's running and can reach the gyre.
+
+## A device has stopped reporting
+
+If a Neptune Apex, Red Sea ReefBeat unit, AquaWiz, Jecod pump or Maxspect gyre goes quiet, Cora tells you: *"[Device]: stopped reporting."* Check its power and Wi-Fi, and that the Cora Max reading it is switched on. Most equipment gets this after about 30 minutes with no update. AquaWiz checks less often, so it waits about 3 hours. You get a second notification once it's reporting again.
+
+This falls under **Equipment Faults** in **Settings → Notifications**, along with the fault alerts above.
 
 ## "Red Sea readings have stopped updating"
 

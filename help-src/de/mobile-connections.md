@@ -36,11 +36,11 @@ Cora liest deinen Apex aus, zeigt ihn neben allem anderen an und schaltet Steckd
 
 ## Red Sea ReefBeat
 
-Cora spricht mit ReefBeat-Geräten in deinem lokalen Netzwerk. Unterstützt werden **ReefDose**, **ReefATO+**, **ReefMat** und **ReefRun**.
+Cora spricht mit ReefBeat-Geräten in deinem lokalen Netzwerk. Unterstützt werden **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** und, in Beta, **ReefControl**, **ReefControl Power**, **ReefWave** und **ReefLED**.
 
 Die Geräte müssen schon in ReefBeat eingerichtet sein. Beim Hinzufügen müssen sie im selben Netzwerk sein wie dein Handy.
 
-Du bekommst für jedes Gerät eine eigene Geräteseite, und seine Messwerte stehen dir als Quellen zur Verfügung. ReefDose meldet seine Köpfe und Behälter. ReefATO+ meldet seinen Vorratsbehälter und die Nachfüllungen. ReefMat meldet die verbleibenden Tage, ReefRun den Zustand der Pumpe.
+Du bekommst für jedes Gerät eine eigene Geräteseite, und seine Messwerte stehen dir als Quellen zur Verfügung. ReefDose meldet seine Köpfe und Behälter. ReefATO+ meldet seinen Vorratsbehälter und die Nachfüllungen. ReefMat meldet die verbleibenden Tage, ReefRun den Zustand der Pumpe. ReefControl meldet seine Sonden genauso. ReefWave und ReefLED *(Beta)* zeigen vorerst nur ihren Modus, nur zum Ansehen.
 
 ## Jecod / Jebao
 
@@ -77,6 +77,8 @@ Cora liest die Alkalinität eines AquaWiz KH-Controllers über dein AquaWiz-Kont
 Du brauchst dafür deinen AquaWiz-Benutzernamen und dein Passwort. Cora meldet sich in deinem Namen an und bleibt angemeldet, damit es weiter Werte lesen kann.
 
 Die Alkalinität steht dir dann als Quelle zur Verfügung. Sie aktualisiert sich so oft, wie dein Controller titriert. Meldet dein Gerät auch den pH-Wert, kannst du ihn zusätzlich nutzen.
+
+Auf der Geräte-Karte siehst du außerdem deinen KH-Zielwert, deine Dosierstärke und, wenn dein Gerät den Behälter erfasst, wie viel Alkalinitäts-Zusatz noch übrig ist. Diese Werte kommen direkt aus deinen AquaWiz-Einstellungen; ändern kannst du sie nur in der AquaWiz-App. Erfasst dein Gerät den Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, standardmäßig bei 100 ml.
 
 :::warning Eine Anmeldung für alle
 AquaWiz vergibt nur eine Anmeldung pro Konto. Cora nutzt also dieselbe Anmeldung wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, verliert Cora die Verbindung. Verbinde es danach über die Gerätezeile neu. Willst du Cora den Zugriff ganz entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.

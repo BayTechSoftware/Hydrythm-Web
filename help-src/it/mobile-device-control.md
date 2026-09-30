@@ -74,7 +74,7 @@ Ogni testa ha un **tipo di uso**, così Cora sa cosa fa e ne parla nel modo gius
 
 I due tipi per il cambio d'acqua vanno **abbinati**. Nella **Testa abbinata** di una testa scegli l'altra, quella che sposta l'acqua nella direzione opposta. Così Cora le tratta come una coppia per il cambio d'acqua e non come due teste separate.
 
-Ogni testa ha anche un limite di **Dose massima manuale**, per evitare che un errore di battitura faccia partire una dose molto più grande del previsto. Le dosi manuali grandi si sbloccano solo dopo che la portata della testa è stata misurata con un test vero sulla vasca.
+Ogni testa ha anche un limite di **Dose massima manuale**, per evitare che un errore di battitura faccia partire una dose molto più grande del previsto. Le dosi manuali grandi si sbloccano solo dopo che la portata della testa è stata misurata con un test vero sulla vasca, e dopo che attivi **Dosi grandi (Beta)** nelle impostazioni della testa. È disattivato per impostazione predefinita: attivalo solo dopo aver osservato la prima dose grande eseguita davanti all'acquario.
 
 ## Red Sea ReefBeat
 
@@ -82,12 +82,33 @@ Ogni unità ha una pagina fatta su misura:
 
 | Unità | Cosa mostra la pagina | Cosa puoi fare |
 |---|---|---|
-| **ReefDose** | Ogni testa, il suo contenitore e quanto ha dosato | Per ogni testa: **Dose al giorno**, **Rimanente nella bottiglia**, **Dosa ora** e **Attiva programma**. Avvisi di rifornimento per ogni testa |
-| **ReefATO+** | Livello del serbatoio e rabbocchi | Impostare un avviso sul serbatoio |
-| **ReefMat** | Rotolo rimasto, in giorni e metri | Far avanzare il rotolo, impostare un avviso di rifornimento |
-| **ReefRun** | Velocità e stato della pompa di risalita e di quella dello schiumatoio | Cambiare velocità, accendere o spegnere una pompa, regolare lo schiumatoio |
+| **ReefDose** | Ogni testa, il suo contenitore e quanto ha dosato | Per ogni testa: **Dose al giorno**, **Rimanente nella bottiglia**, **Dosa ora** e **Attiva programma**, più un editor completo del **Piano di dosaggio** *(beta)*. Avvisi di rifornimento per ogni testa |
+| **ReefATO+** | Livello del serbatoio e rabbocchi | Impostare un avviso sul serbatoio. Chiedi all'Assistente quanti giorni restano al serbatoio |
+| **ReefMat** | Rotolo rimasto, in giorni e metri | Far avanzare il rotolo, impostare un avviso di rifornimento e, in beta, attivare un avanzamento programmato, impostare modello e posizione del motore, e registrare un nuovo rotolo |
+| **ReefRun** | Velocità e stato della pompa di risalita e di quella dello schiumatoio | Cambiare velocità, accendere o spegnere una pompa, regolare lo schiumatoio e modificare un **programma di velocità** completo *(beta)* |
+| **ReefControl** *(beta)* | Le sue sonde di temperatura, pH, salinità e ORP | Vedere le letture |
+| **ReefWave**, **ReefLED** *(beta)* | La modalità attuale | Solo in sola lettura, per ora |
 
-**ReefRun comanda la pompa di risalita e quella dello schiumatoio.** Non è una pompa di movimento.
+**ReefRun comanda la pompa di risalita e quella dello schiumatoio.** Non è una pompa di movimento. **ReefControl Power** *(beta)* mette le sue prese fra i normali comandi delle prese, come una presa Apex: solo on/off. Per queste non c'è ancora una modalità automatica.
+
+## Modificare un piano ReefDose o un programma ReefRun *(beta)*
+
+Tocca l'icona del calendario su una pagina ReefDose o ReefRun per aprire il suo piano.
+
+Un piano ReefDose è un totale giornaliero, diviso in massimo quattro fasce orarie. Ogni fascia ha un orario di inizio e fine, quante dosi deve erogare e una velocità: **Silenzioso**, **Normale** o **Rapido**. Aggiungi e togli fasce, poi salva. Cora ti mostra cosa stai per inviare e ti chiede conferma prima di sostituire tutto il piano della testa.
+
+Un programma ReefRun è composto da massimo sei segmenti su una porta pompa. Ogni segmento ha un orario di inizio e una velocità, e può aggiungere un breve impulso. La velocità va da 0 oppure da un minimo del 5% in su. Anche qui il salvataggio chiede conferma e sostituisce tutto il programma della pompa.
+
+Entrambi gli editor leggono prima il piano già presente sull'unità, così stai modificando quello vero e non un modulo vuoto.
+
+## Impostazioni ReefMat *(beta)*
+
+Tocca l'ingranaggio su una pagina ReefMat per altre tre impostazioni.
+
+- **Avanzamento programmato** attiva un avanzamento a orario fisso, separato dal sensore di auto-avanzamento già presente sulla pagina. Attivalo e imposta ogni quanto e di quanto muovere il tappetino a ogni avanzamento.
+- **Modello ReefMat** e **Posizione motore** (**Sinistra** o **Destra**) dicono a Cora quale unità e quale orientamento hai.
+
+Dopo aver caricato un nuovo rotolo, dillo a Cora con **Nuovo rotolo**: indica lo spessore e, se lo sai, il diametro esterno. È diverso da **Far avanzare il rotolo**, che si limita a muovere il tappetino già caricato.
 
 Un'unità può fermarsi da sola, per esempio una pompa ReefRun quando si riempie il bicchiere dello schiumatoio. In quel caso la pagina ti dice perché e ti propone la soluzione:
 
@@ -151,6 +172,8 @@ Non resta solo dentro Cora. Impostare una presa su Sempre acceso o Sempre spento
 :::
 
 Se una presa o un setpoint sembra appartenere a un riscaldatore o a una pompa di risalita, Cora ti chiede due conferme prima di inviarlo.
+
+Se il contenitore di un dosatore sta per finire, Cora ti avvisa come fa per gli altri materiali di consumo. Il valore predefinito è 20% pieno, e lo puoi cambiare dalla regola del dosatore nel [Centro avvisi](/help/mobile-alerts).
 
 Se il controller rifiuta la modifica, controlla che la sua API GHL sia attiva con accesso completo. GHL la disattiva dopo ogni aggiornamento firmware. I passaggi sono in [Risoluzione dei problemi](/help/troubleshooting).
 

@@ -74,7 +74,7 @@ Her kafaya **kullanım türü** atanır. Böylece Cora kafanın ne iş yaptığ�
 
 İki su değişimi türü **eşleştirilmek** için vardır. Bir kafanın **Eşleştirilmiş kafa** ayarını, suyu ters yönde taşıyan diğer kafaya ayarlayın. Cora bu iki kafayı birbirinden bağımsız iki kafa olarak değil, tek bir su değişimi çifti olarak görür.
 
-Her kafanın ayrıca **Elle verilecek en büyük dozaj** sınırı var. Bu sınır, yanlış yazılan elle dozun istenenden çok daha büyük olmasını önler. Büyük elle dozlar, ancak kafanın hızı akvaryumda gerçek testle ölçüldükten sonra açılır.
+Her kafanın ayrıca **Elle verilecek en büyük dozaj** sınırı var. Bu sınır, yanlış yazılan elle dozun istenenden çok daha büyük olmasını önler. Büyük elle dozlar, kafanın hızı akvaryumda gerçek testle ölçüldükten ve kafanın ayarlarında **Büyük dozlar (Beta)** açıldıktan sonra kullanılabilir hale gelir. Varsayılan olarak kapalıdır: bunu yalnızca akvaryumda ilk büyük dozu izledikten sonra açın.
 
 ## Red Sea ReefBeat
 
@@ -82,12 +82,33 @@ Her ünitenin kendine uygun sayfası var:
 
 | Ünite | Sayfada neler var | Neler yapabilirsiniz |
 |---|---|---|
-| **ReefDose** | Her kafa, kabı ve verdiği dozlar | Her kafa için: **Günlük dozaj**, **Şişede kalan**, **Şimdi dozajla** ve **Zaman planını etkinleştir**. Her kafa için ayrı dolum uyarısı kurun |
-| **ReefATO+** | Rezervuar seviyesi ve su tamamlama hareketleri | Rezervuar uyarısı kurun |
-| **ReefMat** | Kalan rulo, gün ve metre olarak | Ruloyu ilerletin, dolum uyarısı kurun |
-| **ReefRun** | Ana pompa ve skimmer pompasının hızı ve durumu | Hızı değiştirin, pompayı açıp kapatın, skimmer ayarlarını değiştirin |
+| **ReefDose** | Her kafa, kabı ve verdiği dozlar | Her kafa için: **Günlük dozaj**, **Şişede kalan**, **Şimdi dozajla** ve **Zaman planını etkinleştir**, ayrıca tam bir **Dozaj planı** düzenleyicisi *(beta)*. Her kafa için ayrı dolum uyarısı kurun |
+| **ReefATO+** | Rezervuar seviyesi ve su tamamlama hareketleri | Rezervuar uyarısı kurun. Rezervuarın kaç gün yeteceğini asistana sorun |
+| **ReefMat** | Kalan rulo, gün ve metre olarak | Ruloyu ilerletin, dolum uyarısı kurun ve beta aşamasında zamanlanmış ilerletmeyi açın, modelini ve motor konumunu ayarlayın, yeni rulo kaydedin |
+| **ReefRun** | Ana pompa ve skimmer pompasının hızı ve durumu | Hızı değiştirin, pompayı açıp kapatın, skimmer ayarlarını değiştirin ve tam bir hız programını düzenleyin *(beta)* |
+| **ReefControl** *(beta)* | Sıcaklık, pH, tuzluluk ve ORP probları | Ölçümlerini görüntüleyin |
+| **ReefWave**, **ReefLED** *(beta)* | Şu anki modu | Şimdilik yalnızca görüntüleme |
 
-**ReefRun ana pompa ve skimmer pompası kontrol ünitesidir**, dalga pompası değildir.
+**ReefRun ana pompa ve skimmer pompası kontrol ünitesidir**, dalga pompası değildir. **ReefControl Power** *(beta)* prizleri, bir Apex prizindeki gibi aynı priz kontrolünden açılıp kapatılan, yalnızca aç/kapa kontrolü olan priz olarak görünür. Şimdilik bunlar için otomatik mod yoktur.
+
+## ReefDose planı ya da ReefRun programı düzenleme *(beta)*
+
+Bir ReefDose ya da ReefRun sayfasındaki takvim simgesine dokunarak planı açın.
+
+Bir ReefDose planı, günlük toplamın en çok dört zaman aralığına bölünmesidir. Her aralığın başlangıç ve bitiş saati, kaç doz vereceği ve bir hızı vardır: **Fısıltı**, **Normal** ya da **Hızlı**. Aralık ekleyip kaldırabilir, sonra kaydedebilirsiniz. Cora, kafanın tüm planını değiştirmeden önce ne göndereceğinizi gösterir ve onay ister.
+
+Bir ReefRun programı, tek bir pompa portunda en çok altı segmenttir. Her segmentin bir başlangıç saati ve bir hızı vardır, isteğe bağlı kısa bir darbe ekleyebilirsiniz. Hız ya 0'dır ya da %5'ten başlar. Kaydetme de onay ister ve pompanın tüm programını değiştirir.
+
+İki düzenleyici de önce ünitede zaten kayıtlı planı okur. Yani boş bir formu değil, gerçek planı düzenlersiniz.
+
+## ReefMat ayarları *(beta)*
+
+ReefMat sayfasındaki dişli simgesine dokunarak üç ayara daha ulaşın.
+
+- **Zamanlanmış ilerletme**, sayfada zaten bulunan otomatik ilerletme sensöründen ayrı olarak, sabit zamanlı bir ilerletmeyi açar. Açın ve ne sıklıkla, her seferinde matın ne kadar ilerleyeceğini belirleyin.
+- **ReefMat modeli** ve **Motor konumu** (**Sol** ya da **Sağ**), Cora'ya hangi üniteye ve hangi yönde sahip olduğunuzu bildirir.
+
+Yeni bir rulo yükledikten sonra **Yeni rulo** ile Cora'ya bildirin: kalınlığını, biliyorsanız dış çapını da girin. Bu, yalnızca zaten yüklü olan matı ilerleten **Ruloyu ilerlet**'ten farklıdır.
 
 Bir ünite kendini durdurabilir. Örneğin skimmer kabı dolunca ReefRun pompası durur. Bu durumda ünitenin sayfası nedenini yazar ve çözümü gösterir:
 
@@ -151,6 +172,8 @@ Bu yalnızca Cora'da saklanmaz. Bir prizi Her zaman açık ya da Her zaman kapal
 :::
 
 Bir priz ya da ayar noktası bir ısıtıcıya ya da geri dönüş pompasına ait gibi görünüyorsa Cora, göndermeden önce sizden iki kez onay ister.
+
+Bir dozaj ünitesinin kabı azalıyorsa Cora, diğer sarf malzemelerinde olduğu gibi sizi uyarır. Varsayılan eşik %20 doluluktur, dozaj ünitesinin kuralından [Uyarı Merkezi](/help/mobile-alerts)'nde değiştirebilirsiniz.
 
 Kontrol cihazı değişikliği kabul etmiyorsa GHL API'sinin tam erişimle açık olduğunu kontrol edin. GHL bunu her yazılım güncellemesinden sonra kapatır. Adımlar için [Sorun giderme](/help/troubleshooting) sayfasına bakın.
 

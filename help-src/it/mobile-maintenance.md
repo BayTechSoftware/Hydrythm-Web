@@ -2,7 +2,7 @@
 title: Manutenzione
 description: Lavori ricorrenti con promemoria: pulizia dello schiumatoio, calze filtranti, manutenzione delle pompe.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Qualche esempio:
 | Sostituire carbone o GFO | 30 giorni |
 | Revisionare la pompa di risalita | 90–180 giorni |
 | Calibrare le sonde | 30–90 giorni |
+
+## Lavori che Cora crea per te
+
+Quando colleghi un ReefDose, ReefATO+, ReefMat o ReefRun Red Sea, Cora aggiunge da sola la manutenzione che serve a quel dispositivo, già con l'intervallo giusto. Vedrai comparire lavori come questi:
+
+| Dispositivo | Lavoro | Ogni |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 giorni |
+| ReefATO+ | Replace ReefATO+ return pump | 135 giorni |
+| ReefMat | Replace ReefMat carbon | 25 giorni |
+| ReefRun | Check ReefRun skimmer venturi | 35 giorni |
+| ReefRun | Replace ReefRun skimmer rotor | 135 giorni |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 giorni |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 giorni |
+| ReefRun, per pompa | Service ReefRun pump motor | 135 giorni |
+| ReefRun, per pompa | Clean ReefRun pump strainer | 42 giorni |
+| ReefDose, per testa | Calibrate ReefDose head | 90 giorni |
+| ReefDose, per testa | Replace ReefDose head tubing | 450 giorni |
+
+Funzionano esattamente come un lavoro che aggiungi tu: puoi rinominarli, cambiare l'intervallo, rinviarli o metterli in pausa. Se ne elimini uno, Cora non lo ricrea per quel dispositivo.
 
 ## Promemoria
 

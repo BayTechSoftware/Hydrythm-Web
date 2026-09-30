@@ -22,13 +22,16 @@ There's no preview and no undo. A command goes out the moment you tap, but sendi
 | **Neptune Apex** | Probes and outlets, and you can switch each outlet |
 | **Trident** | Test state, reagent and waste levels, and a button to start a test |
 | **DŌS**, including the DŌS QD | Each head's dosing, schedule, runway and container volume (with pause, fill, dose now and a one-time twenty-second measure) |
-| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode |
+| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan and ReefRun program editor and ReefMat settings *(beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | ReefControl's probes. ReefControl Power's sockets as outlets, on or off, no automatic mode yet. ReefWave and ReefLED, view only |
 | **Jecod** | Pump mode and intensity, and its day program |
 | **Maxspect** *(beta)* | Mode and speed for **Gyre A** and **Gyre B**, **Pump health** (cleaning countdown, head A current, fitted heads, firmware), and its schedule, view only |
 | **GHL ProfiLux / Mitras** *(beta)* | Probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results |
 | **HYDROS** *(beta)* | Whatever its device key reports: inputs, and with a write key, outputs, modes, dosing heads and tester commands |
 
 If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
+
+A ReefDose plan, a ReefRun speed program and ReefMat's scheduled advance, model, position and New roll all work the same way here as on your phone. [Connecting your equipment](/help/mobile-connections) and [Controlling your equipment](/help/mobile-device-control) have the detail.
 
 ## DŌS heads
 
@@ -41,7 +44,7 @@ After a manual dose, a head you'd set to Off in Apex Fusion stays Off. Any other
 In a head's settings sheet you can set its **use type**. The options are **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, and **Other**. The use type changes two things.
 
 - How big a container it can track. A Supplement head tracks up to 20 litres. Every other use type can track a container of up to 500 litres, so a head running a water change or a calcium reactor isn't treated like a small dosing bottle.
-- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**.
+- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**. A large hand dose also needs **Large doses (Beta)** turned on in the head's settings, off by default: turn it on only after you've watched the first large dose run at the tank.
 
 You can link a water-change pair (new saltwater in, old water out) as a **Paired head** and set a **Balance warning above** amount. If the two heads' totals for the day drift apart by more than that, Cora warns you. A pair that's out of balance usually means one side isn't pumping as it should.
 
@@ -61,9 +64,11 @@ We're still testing and developing GHL support. Some readings or controls may no
 
 Connect a GHL controller from **Settings → [your tank] → GHL controller (Beta)**. Enter its IP address on your network and tap **Detect**. Cora tries the controller's official API first, then its other interfaces, and tells you which one it found.
 
-If nothing answers and the controller is a ProfiLux mini, Cora offers a fallback: enter its login and Cora reads it read-only. Nothing else about a mini can be controlled.
+If nothing answers and the controller is a ProfiLux mini, Cora offers a fallback: enter its login and Cora reads its probes, sockets, dosers and level sensors read-only. Nothing about a mini can be controlled yet.
 
 Controls stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default. Once it's on, a socket can be set to **Always on**, **Always off**, or **Back to automatic**, and a setpoint such as temperature or pH shows its allowed range and refuses a value outside it. Both kinds of change are saved on the controller itself and stay there even if Cora later loses touch with it. A change that looks like it touches a heater or return pump asks you to confirm twice.
+
+If a doser's container is running low, Cora warns you the same way it does for other consumables. The default is 20% full, and you can change it from the doser's rule in the [Alert Center](/help/mobile-alerts).
 
 If the controller won't take a change, its GHL API is probably switched off. GHL turns this off after every firmware update; turn it back on from **System → GHL API** in GHL Control Center or GHL Connect. [Troubleshooting](/help/troubleshooting) has the rest.
 

@@ -36,11 +36,11 @@ Cora odczytuje Apex, pokazuje go obok reszty sprzętu i przełącza gniazda, gdy
 
 ## Red Sea ReefBeat
 
-Cora łączy się ze sprzętem ReefBeat w sieci lokalnej. Obsługiwane są **ReefDose**, **ReefATO+**, **ReefMat** i **ReefRun**.
+Cora łączy się ze sprzętem ReefBeat w sieci lokalnej. Obsługiwane są **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun**, a w wersji beta także **ReefControl**, **ReefControl Power**, **ReefWave** i **ReefLED**.
 
 Sprzęt musi być już skonfigurowany w ReefBeat, a przy dodawaniu musi być w tej samej sieci co telefon.
 
-Każde urządzenie dostaje własną stronę, a jego odczyty stają się źródłami. ReefDose zgłasza głowice i pojemniki. ReefATO+ zgłasza zbiornik i dolewki. ReefMat podaje, na ile dni wystarczy maty. ReefRun zgłasza stan pompy.
+Każde urządzenie dostaje własną stronę, a jego odczyty stają się źródłami. ReefDose zgłasza głowice i pojemniki. ReefATO+ zgłasza zbiornik i dolewki. ReefMat podaje, na ile dni wystarczy maty. ReefRun zgłasza stan pompy. ReefControl zgłasza swoje sondy w ten sam sposób. ReefWave i ReefLED *(beta)* na razie pokazują tylko tryb, wyłącznie do podglądu.
 
 ## Jecod / Jebao
 
@@ -73,6 +73,8 @@ Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez Twoje konto AquaWiz.
 Potrzebujesz nazwy użytkownika i hasła AquaWiz. Cora loguje się w Twoim imieniu i zachowuje to logowanie, żeby dalej odczytywać dane.
 
 Alkaliczność staje się źródłem, które odświeża się tak często, jak kontroler wykonuje miareczkowanie. Jeśli Twój kontroler zgłasza pH, możesz je dodać.
+
+Karta urządzenia pokazuje też Twoje docelowe KH, moc dawki i, dla urządzeń, które to śledzą, ile suplementu alkaliczności zostało w pojemniku. Te wartości pochodzą wprost z ustawień AquaWiz i zmieniasz je w aplikacji AquaWiz. Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega, gdy suplementu zaczyna brakować, domyślnie przy 100 mL.
 
 :::warning Jedno wspólne logowanie
 AquaWiz daje jedno logowanie na konto, więc Cora używa tego samego logowania co aplikacja AquaWiz. Po zmianie hasła AquaWiz Cora straci połączenie. Połącz ją ponownie z wiersza urządzenia. Jeśli chcesz całkiem odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.

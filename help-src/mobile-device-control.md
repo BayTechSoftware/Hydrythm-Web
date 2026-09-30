@@ -74,7 +74,7 @@ Give each head a **use type** so Cora knows what it does and talks about it corr
 
 The two water-change use types go in **pairs**. Set one head's **Paired head** to the head that moves water the other way, and Cora treats the two as one water-change pair.
 
-Each head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank.
+Each head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank, and after you turn on **Large doses (Beta)** in the head's settings. It's off by default: turn it on only after you've watched the first large dose run at the tank.
 
 ## Red Sea ReefBeat
 
@@ -82,12 +82,33 @@ Each unit has a page that fits what it does:
 
 | Unit | Page shows | You can |
 |---|---|---|
-| **ReefDose** | Each head, its container and what it has dosed | For each head: **Dose per day**, **Remaining in bottle**, **Dose now** and **Activate schedule**. Set refill alerts per head |
-| **ReefATO+** | Reservoir level and top-off activity | Set a reservoir alert |
-| **ReefMat** | Remaining roll, in days and metres | Advance the roll, set a refill alert |
-| **ReefRun** | Return and skimmer pump speed and state | Change speed, switch a pump, adjust skimmer settings |
+| **ReefDose** | Each head, its container and what it has dosed | For each head: **Dose per day**, **Remaining in bottle**, **Dose now** and **Activate schedule**, plus a full **Dosing plan** editor *(beta)*. Set refill alerts per head |
+| **ReefATO+** | Reservoir level and top-off activity | Set a reservoir alert. Ask the Assistant how many days its reservoir has left |
+| **ReefMat** | Remaining roll, in days and metres | Advance the roll, set a refill alert, and, in beta, turn on a scheduled advance, set its model and motor position, and register a new roll |
+| **ReefRun** | Return and skimmer pump speed and state | Change speed, switch a pump, adjust skimmer settings, and edit a full speed program *(beta)* |
+| **ReefControl** *(beta)* | Its temperature, pH, salinity and ORP probes | View its readings |
+| **ReefWave**, **ReefLED** *(beta)* | Its current mode | View only, for now |
 
-ReefRun controls return and skimmer pumps. It isn't a wave pump.
+ReefRun controls return and skimmer pumps. It isn't a wave pump. **ReefControl Power** *(beta)* sockets show up as outlets, switched from the same outlet control as an Apex outlet, on or off only. There's no automatic mode for them yet.
+
+## Editing a ReefDose plan or ReefRun program *(beta)*
+
+Tap the calendar icon on a ReefDose or ReefRun page to open its plan.
+
+A ReefDose plan is a daily total, split into up to four time windows. Each window has a start and end time, how many doses it should deliver, and a speed: **Whisper**, **Regular** or **Quick**. Add and remove windows, then save. Cora shows you what you're about to send and asks you to confirm before it replaces the head's whole plan.
+
+A ReefRun program is up to six segments on one pump port. Each segment has a start time and a speed, and can add a short pulse. Speed is either 0 or from 5% up. Save asks you to confirm too, and replaces the pump's whole program.
+
+Both editors read the plan that's already on the unit first, so you're editing the real thing, not a blank form.
+
+## ReefMat settings *(beta)*
+
+Tap the gear on a ReefMat page for three more settings.
+
+- **Scheduled advance** turns on a fixed-time advance, separate from the auto-advance sensor already on the page. Turn it on and set how often, and how far each advance moves the mat.
+- **ReefMat model** and **Motor position** (**Left** or **Right**) tell Cora which unit and orientation you have.
+
+After you load a new roll, tell Cora with **New roll**: its thickness, and its outer diameter if you know it. This is different from **Advance the roll**, which just moves the mat you already have loaded.
 
 A unit can stop itself. A ReefRun pump does this when the skimmer cup fills, for example. When that happens, the page says why and offers the fix:
 
@@ -151,6 +172,8 @@ It isn't only stored in Cora. Setting a socket to Always on or Always off overri
 :::
 
 If a socket or setpoint looks like it belongs to a heater or a return pump, Cora asks you to confirm twice before sending it.
+
+If a doser's container is running low, Cora warns you the same way it does for other consumables. The default is 20% full, and you can change it from the doser's rule in the [Alert Center](/help/mobile-alerts).
 
 If the controller turns the change down, check that its GHL API is switched on with full access. GHL turns this off after every firmware update. [Troubleshooting](/help/troubleshooting) has the steps.
 

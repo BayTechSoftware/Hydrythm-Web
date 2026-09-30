@@ -2,7 +2,7 @@
 title: Maintenance
 description: Recurring jobs with reminders, like cleaning the skimmer, changing filter socks and servicing pumps.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Some typical tasks:
 | Replace carbon or GFO | 30 days |
 | Service the return pump | 90–180 days |
 | Calibrate probes | 30–90 days |
+
+## Tasks Cora creates for you
+
+When you connect a Red Sea ReefDose, ReefATO+, ReefMat or ReefRun, Cora adds the servicing that unit needs on its own, already on the right interval. You'll see tasks like these appear:
+
+| Device | Task | Interval |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 days |
+| ReefATO+ | Replace ReefATO+ return pump | 135 days |
+| ReefMat | Replace ReefMat carbon | 25 days |
+| ReefRun | Check ReefRun skimmer venturi | 35 days |
+| ReefRun | Replace ReefRun skimmer rotor | 135 days |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 days |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 days |
+| ReefRun, per pump | Service ReefRun pump motor | 135 days |
+| ReefRun, per pump | Clean ReefRun pump strainer | 42 days |
+| ReefDose, per head | Calibrate ReefDose head | 90 days |
+| ReefDose, per head | Replace ReefDose head tubing | 450 days |
+
+They work exactly like any task you add yourself: rename them, change the interval, snooze or pause them. If you delete one, Cora won't add it back for that device.
 
 ## Reminders
 

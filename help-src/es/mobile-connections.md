@@ -36,11 +36,11 @@ Cora lee tu Apex, lo muestra junto a todo lo demás y puede encender o apagar to
 
 ## Red Sea ReefBeat
 
-Cora se comunica con los equipos ReefBeat por la red local. Son compatibles **ReefDose**, **ReefATO+**, **ReefMat** y **ReefRun**.
+Cora se comunica con los equipos ReefBeat por la red local. Son compatibles **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** y, en beta, **ReefControl**, **ReefControl Power**, **ReefWave** y **ReefLED**.
 
 El equipo tiene que estar ya configurado en ReefBeat. Cuando lo añadas, debe estar en la misma red que tu teléfono.
 
-Cada equipo tiene su página de dispositivo y sus lecturas aparecen como fuentes. ReefDose informa de sus cabezales y recipientes. ReefATO+ informa de su depósito y de los rellenados. ReefMat informa de los días que le quedan y ReefRun, del estado de la bomba.
+Cada equipo tiene su página de dispositivo y sus lecturas aparecen como fuentes. ReefDose informa de sus cabezales y recipientes. ReefATO+ informa de su depósito y de los rellenados. ReefMat informa de los días que le quedan y ReefRun, del estado de la bomba. ReefControl informa de sus sondas de la misma manera. ReefWave y ReefLED *(beta)* solo muestran su modo por ahora, únicamente para consultarlo.
 
 ## Jecod / Jebao
 
@@ -73,6 +73,8 @@ Cora lee la alcalinidad de un controlador de KH AquaWiz a través de tu cuenta d
 Necesitas tu usuario y tu contraseña de AquaWiz. Cora inicia sesión por ti y guarda el acceso para poder seguir leyendo.
 
 La alcalinidad aparece como fuente y se actualiza cada vez que tu controlador hace una titulación. Si tu equipo informa del pH, también puedes añadirlo.
+
+La página del dispositivo también muestra tu KH objetivo, la concentración de tu dosis y, en los equipos que lo controlan, cuánto suplemento de alcalinidad queda en el recipiente. Estos datos vienen directamente de tus ajustes de AquaWiz; cámbialos desde la aplicación AquaWiz. Si tu equipo controla su recipiente, Cora te avisa cuando el suplemento se está agotando, con un valor predeterminado de 100 mL.
 
 :::warning Un solo acceso compartido
 AquaWiz da un solo acceso por cuenta. El que guarda Cora es el mismo que usa su aplicación. Si cambias tu contraseña de AquaWiz, Cora se desconectará. Después, vuelve a conectarlo desde la fila del dispositivo. Para quitarle a Cora el acceso del todo, elimina el dispositivo en Cora y cambia tu contraseña de AquaWiz.

@@ -2,7 +2,7 @@
 title: Alertas y umbrales
 description: Fija el rango de cada parámetro, elige qué avisos recibes y entiende por qué saltó una alerta.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 15
 group: Alerts and automation
 ---
@@ -67,6 +67,12 @@ También puedes crear una regla de **tasa de cambio**. Esta regla vigila lo ráp
 Algunas alertas tratan de un equipo y no de una lectura. Si un dispositivo como un Trident o una bomba Jecod informa de un fallo, Cora te envía una notificación con el nombre del acuario y del dispositivo, por ejemplo *"Acuario principal: la bomba de retorno necesita atención"*. La notificación también dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, llega otra que dice *"Acuario principal: la bomba de retorno vuelve a estar bien"*. Las dos pertenecen a **Fallas de equipos**, en **Ajustes → Notificaciones**.
 
 Un gyre Maxspect (beta) puede generar la misma alerta. Pasa cuando un Cora Max de su red encuentra los dos cabezales al 0 % o el gyre no responde dos veces seguidas. Tómalo como un aviso y no como una protección. Cora Max lo comprueba de vez en cuando, no sin parar, y solo mientras está encendido y puede llegar al gyre.
+
+## Un dispositivo ha dejado de informar
+
+Si un Neptune Apex, un equipo Red Sea ReefBeat, un AquaWiz, una bomba Jecod o un gyre Maxspect deja de responder, Cora te avisa: *"[Dispositivo]: ha dejado de informar"*. Revisa su alimentación y su Wi-Fi, y comprueba que el Cora Max que lo lee esté encendido. La mayoría de los equipos reciben este aviso a los 30 minutos sin una actualización nueva. AquaWiz consulta con menos frecuencia, así que espera unas 3 horas. Recibes una segunda notificación en cuanto vuelve a informar.
+
+Esto pertenece a **Fallas de equipos**, en **Ajustes → Notificaciones**, junto con las alertas de fallos anteriores.
 
 ## "Las lecturas de Red Sea han dejado de actualizarse"
 

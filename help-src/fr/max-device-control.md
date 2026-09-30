@@ -22,13 +22,16 @@ Il n’y a ni aperçu ni annulation. La commande part dès que vous touchez. Mai
 | **Neptune Apex** | Sondes et prises. Chaque prise peut être allumée ou éteinte |
 | **Trident** | État du test, niveaux de réactif et de déchets, et lancement d’un test |
 | **DŌS**, y compris le DŌS QD | Pour chaque tête : dosage, programme, autonomie et volume du contenant (avec pause, remplissage, dosage immédiat et mesure unique de vingt secondes) |
-| **Red Sea ReefBeat** | Selon l’appareil : têtes de dosage, réservoir, jours de rouleau restants, mode de pompe |
+| **Red Sea ReefBeat** | Selon l’appareil : têtes de dosage, réservoir, jours de rouleau restants, mode de pompe, plus un éditeur complet de programme ReefDose et ReefRun et les réglages ReefMat *(bêta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(bêta)* | Les sondes de ReefControl. Les prises de ReefControl Power comme des prises, allumé ou éteint, pas encore de mode automatique. ReefWave et ReefLED, en lecture seule |
 | **Jecod** | Mode et intensité de la pompe, et son programme de la journée |
 | **Maxspect** *(bêta)* | Mode et vitesse pour **Gyre A** et **Gyre B**, **État de la pompe** (compte à rebours du nettoyage, courant de la tête A, têtes installées, micrologiciel), et son programme en lecture seule |
 | **GHL ProfiLux / Mitras** *(bêta)* | Sondes, prises, doseurs, capteurs de niveau et, sur les modèles Director, les résultats de test KH et ionique |
 | **HYDROS** *(bêta)* | Ce que signale sa clé d’appareil : les entrées, et avec une clé d’écriture, les sorties, les modes, les têtes de dosage et les commandes de testeur |
 
 Si un appareil Red Sea s’arrête de lui-même, sa page dit ce qui ne va pas et affiche la solution juste à côté : **Reprendre**, **Effacer l’urgence**, **Capteur nettoyé**, **J’ai déjà chargé un nouveau rouleau**, ou **Réinitialiser** pour une tête de dosage.
+
+Un programme ReefDose, un programme de vitesse ReefRun et l’avance programmée, le modèle, la position et Nouveau rouleau de ReefMat fonctionnent ici de la même façon que sur votre téléphone. [Connecter votre équipement](/help/mobile-connections) et [Contrôler votre équipement](/help/mobile-device-control) donnent le détail.
 
 ## Têtes DŌS
 
@@ -41,7 +44,7 @@ Après un dosage manuel, une tête que vous aviez mise sur Éteint dans Apex Fus
 Dans la fiche de réglages de chaque tête, vous pouvez choisir un **type d’usage** : **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture** ou **Appoint**, ou **Autre**. Le type d’usage change deux choses :
 
 - **La taille du contenant suivi.** Une tête Complément suit un contenant de 20 litres au plus. Avec les autres types d’usage, le contenant peut aller jusqu’à 500 litres. Une tête qui gère un changement d’eau ou un réacteur à calcium n’est donc pas traitée comme un petit flacon de dosage.
-- **La possibilité de faire un gros dosage à la main.** Les têtes Complément et Nourriture gardent la petite limite prudente habituelle. Pour les autres types d’usage, vous pouvez fixer un **Dosage manuel maximal**, avec un plafond absolu de 10 litres, et une **limite quotidienne pour les automatisations et l’Assistant**.
+- **La possibilité de faire un gros dosage à la main.** Les têtes Complément et Nourriture gardent la petite limite prudente habituelle. Pour les autres types d’usage, vous pouvez fixer un **Dosage manuel maximal**, avec un plafond absolu de 10 litres, et une **limite quotidienne pour les automatisations et l’Assistant**. Un gros dosage à la main nécessite aussi d’activer **Doses importantes (bêta)** dans les réglages de la tête, désactivé par défaut. Activez ceci seulement après avoir observé la première dose importante s’exécuter devant l’aquarium.
 
 Les deux têtes d’un changement d’eau (entrée d’eau salée neuve et sortie d’eau ancienne) peuvent être reliées comme **Tête associée**, avec un seuil d’**Alerte d’équilibre au-dessus de**. Si les totaux du jour des deux têtes s’écartent de plus que ce seuil, Cora vous prévient. Un tel écart veut souvent dire qu’un des deux côtés ne pompe pas comme prévu.
 
@@ -64,6 +67,8 @@ Connectez un contrôleur GHL depuis **Réglages → [votre aquarium] → Contrô
 Si rien ne répond et que le contrôleur est un ProfiLux mini, Cora propose une solution de repli : saisissez ses identifiants et Cora le lit en lecture seule. Rien d’autre ne peut se commander sur un mini.
 
 Les commandes restent désactivées tant que vous n’activez pas **Autoriser le controle depuis Cora (Beta)** sur la page de l’appareil. C’est désactivé par défaut. Une fois activé, une prise peut être réglée sur **Toujours allume**, **Toujours eteint**, ou **Retour a automatique**, et une consigne comme la température ou le pH affiche sa plage autorisée et refuse une valeur en dehors. Les deux types de changement sont enregistrés sur le contrôleur lui-même et y restent même si Cora perd ensuite le contact avec lui. Un changement qui ressemble à un chauffage ou une pompe de remontée vous demande de confirmer deux fois.
+
+Si le bidon d’un doseur devient bas, Cora vous prévient de la même façon que pour les autres consommables. La valeur par défaut est 20 % plein, et vous pouvez la changer depuis la règle du doseur dans le [Centre d’alertes](/help/mobile-alerts).
 
 Si le contrôleur refuse un changement, son API GHL est probablement désactivée. GHL la désactive après chaque mise à jour du micrologiciel ; réactivez-la depuis **Système → API GHL** dans GHL Control Center ou GHL Connect. [Résolution de problèmes](/help/troubleshooting) donne la suite.
 

@@ -36,11 +36,11 @@ Cora legge l'Apex, lo mostra insieme al resto e, se glielo chiedi, accende o spe
 
 ## Red Sea ReefBeat
 
-Cora comunica con l'attrezzatura ReefBeat sulla tua rete locale. Le unità supportate sono **ReefDose**, **ReefATO+**, **ReefMat** e **ReefRun**.
+Cora comunica con l'attrezzatura ReefBeat sulla tua rete locale. Le unità supportate sono **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** e, in beta, **ReefControl**, **ReefControl Power**, **ReefWave** e **ReefLED**.
 
 Quando la aggiungi, l'attrezzatura deve essere già configurata in ReefBeat e sulla stessa rete del telefono.
 
-Ogni unità ha la sua pagina dispositivo e le sue letture diventano fonti. ReefDose riporta teste e contenitori. ReefATO+ riporta serbatoio e rabbocchi. ReefMat riporta i giorni rimasti. ReefRun riporta lo stato della pompa.
+Ogni unità ha la sua pagina dispositivo e le sue letture diventano fonti. ReefDose riporta teste e contenitori. ReefATO+ riporta serbatoio e rabbocchi. ReefMat riporta i giorni rimasti. ReefRun riporta lo stato della pompa. ReefControl riporta le sue sonde allo stesso modo. ReefWave e ReefLED *(beta)* mostrano solo la modalità, per ora, in sola lettura.
 
 ## Jecod / Jebao
 
@@ -73,6 +73,8 @@ Cora legge l'alcalinità da un controller KH AquaWiz attraverso il tuo account A
 Ti servono nome utente e password AquaWiz. Cora accede al posto tuo e resta collegata per continuare a leggere.
 
 L'alcalinità diventa una fonte, aggiornata ogni volta che il controller fa una titolazione. Se la tua unità lo misura, puoi aggiungere anche il pH.
+
+La pagina del dispositivo mostra anche il tuo KH obiettivo, la forza della dose e, per un'unità che lo tiene sotto controllo, quanto supplemento di alcalinità resta nel contenitore. Questi valori arrivano direttamente dalle impostazioni AquaWiz: per cambiarli usa l'app AquaWiz. Se la tua unità tiene sotto controllo il contenitore, Cora ti avvisa quando il supplemento sta per finire, di default a 100 mL.
 
 :::warning Un solo accesso, in comune
 AquaWiz dà un solo accesso per account. Quello che usa Cora è lo stesso della loro app. Se cambi la password AquaWiz, Cora si scollega e devi ricollegarla dalla riga del dispositivo. Per togliere del tutto l'accesso a Cora, rimuovi il dispositivo in Cora e cambia la password AquaWiz.

@@ -2,7 +2,7 @@
 title: Alerty i progi
 description: Ustaw zakres dla każdego parametru, wybierz, o czym chcesz wiedzieć, i sprawdź, dlaczego pojawił się alert.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 15
 group: Alerts and automation
 ---
@@ -67,6 +67,12 @@ Możesz też ustawić regułę **tempa zmiany**. Sprawdza ona, jak szybko zmieni
 Część alertów dotyczy sprzętu, a nie odczytu. Gdy urządzenie, np. Trident albo pompa Jecod, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, np. *„Akwarium główne: Pompa powrotna wymaga uwagi”*, i podaje, co się stało, np. zablokowany wirnik. Gdy usterka minie, przychodzi drugie powiadomienie: *„Akwarium główne: Pompa powrotna znów działa poprawnie”*. Oba należą do kategorii **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
 
 Gyre Maxspect (beta) może wywołać ten sam alert, gdy Cora Max w jego sieci wykryje obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza gyre co jakiś czas, nie bez przerwy. Robi to tylko wtedy, gdy działa i ma połączenie z gyre.
+
+## Urządzenie przestało się zgłaszać
+
+Gdy Neptune Apex, urządzenie Red Sea ReefBeat, AquaWiz, pompa Jecod albo gyre Maxspect ucichną, Cora informuje o tym: *„[Urządzenie]: przestało się zgłaszać”*. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony. Większość sprzętu dostaje ten alert po około 30 minutach bez aktualizacji. AquaWiz odpytuje rzadziej, więc czeka około 3 godzin. Gdy urządzenie znów zacznie się zgłaszać, przychodzi drugie powiadomienie.
+
+Alert ten należy do kategorii **Awarie sprzętu** w **Ustawienia → Powiadomienia**, razem z alertami usterek opisanymi wyżej.
 
 ## „Odczyty Red Sea przestały się aktualizować”
 

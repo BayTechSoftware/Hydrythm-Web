@@ -74,7 +74,7 @@ Jeder Kopf bekommt einen **Verwendungstyp**. So weiß Cora, was er tut, und kann
 
 Die beiden Wasserwechsel-Typen sind dafür gedacht, **gekoppelt** zu werden. Stell beim einen Kopf unter **Gekoppelter Kopf** den anderen ein, der das Wasser in die Gegenrichtung pumpt. Cora behandelt die beiden dann als ein Wasserwechsel-Paar und nicht als zwei getrennte Köpfe.
 
-Jeder Kopf hat außerdem eine Obergrenze **Größte manuelle Dosierung**. Sie verhindert, dass eine vertippte Handdosierung viel größer ausfällt als gewollt. Große Handdosierungen sind erst möglich, wenn die Rate des Kopfes mit einem echten Test am Becken ausgemessen wurde.
+Jeder Kopf hat außerdem eine Obergrenze **Größte manuelle Dosierung**. Sie verhindert, dass eine vertippte Handdosierung viel größer ausfällt als gewollt. Große Handdosierungen sind erst möglich, wenn die Rate des Kopfes mit einem echten Test am Becken ausgemessen wurde und du **Große Dosierungen (Beta)** in den Einstellungen des Kopfes eingeschaltet hast. Das ist standardmäßig aus: Schalte dies erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
 
 ## Red Sea ReefBeat
 
@@ -82,12 +82,33 @@ Jedes Gerät hat eine Seite, die zu ihm passt:
 
 | Gerät | Die Seite zeigt | Du kannst |
 |---|---|---|
-| **ReefDose** | jeden Kopf, seinen Behälter und was er dosiert hat | für jeden Kopf **Dosierung pro Tag**, **Rest in der Flasche**, **Jetzt dosieren** und **Zeitplan aktivieren** nutzen und Nachfüllwarnungen pro Kopf anlegen |
-| **ReefATO+** | Füllstand des Vorratsbehälters und Nachfüllvorgänge | eine Warnung für den Vorratsbehälter anlegen |
-| **ReefMat** | verbleibende Rolle in Tagen und Metern | die Rolle weiterdrehen und eine Nachfüllwarnung anlegen |
-| **ReefRun** | Drehzahl und Zustand von Rückförder- und Abschäumerpumpe | die Drehzahl ändern, eine Pumpe schalten und Abschäumer-Einstellungen anpassen |
+| **ReefDose** | jeden Kopf, seinen Behälter und was er dosiert hat | für jeden Kopf **Dosierung pro Tag**, **Rest in der Flasche**, **Jetzt dosieren** und **Zeitplan aktivieren** nutzen, dazu einen vollständigen Editor für den **Dosierplan** *(Beta)*, und Nachfüllwarnungen pro Kopf anlegen |
+| **ReefATO+** | Füllstand des Vorratsbehälters und Nachfüllvorgänge | eine Warnung für den Vorratsbehälter anlegen. Frag den Assistenten, wie viele Tage der Vorratsbehälter noch reicht |
+| **ReefMat** | verbleibende Rolle in Tagen und Metern | die Rolle weiterdrehen, eine Nachfüllwarnung anlegen und, in Beta, einen geplanten Vorschub einschalten, Modell und Motorposition einstellen und eine neue Rolle registrieren |
+| **ReefRun** | Drehzahl und Zustand von Rückförder- und Abschäumerpumpe | die Drehzahl ändern, eine Pumpe schalten, Abschäumer-Einstellungen anpassen und ein vollständiges Geschwindigkeitsprogramm bearbeiten *(Beta)* |
+| **ReefControl** *(Beta)* | seine Sonden für Temperatur, pH, Salinität und ORP | die Messwerte ansehen |
+| **ReefWave**, **ReefLED** *(Beta)* | den aktuellen Modus | vorerst nur ansehen |
 
-**ReefRun steuert Rückförder- und Abschäumerpumpe.** Eine Strömungspumpe ist es nicht.
+**ReefRun steuert Rückförder- und Abschäumerpumpe.** Eine Strömungspumpe ist es nicht. **ReefControl Power** *(Beta)*-Steckdosen erscheinen als Steckdosen, geschaltet über dieselbe Steckdosensteuerung wie ein Apex-Ausgang, nur ein oder aus. Einen Automatikmodus gibt es dafür noch nicht.
+
+## Einen ReefDose-Plan oder ein ReefRun-Programm bearbeiten *(Beta)*
+
+Tippe auf der Seite eines ReefDose oder ReefRun auf das Kalendersymbol, um seinen Plan zu öffnen.
+
+Ein ReefDose-Plan ist eine Tagesmenge, aufgeteilt auf bis zu vier Zeitfenster. Jedes Zeitfenster hat eine Start- und Endzeit, wie viele Dosen es abgeben soll, und eine Geschwindigkeit: **Flüster**, **Normal** oder **Schnell**. Füg Zeitfenster hinzu oder entfern sie, und speichere dann. Cora zeigt dir, was sie gleich sendet, und fragt noch einmal nach, bevor sie den ganzen Plan des Kopfes ersetzt.
+
+Ein ReefRun-Programm besteht aus bis zu sechs Segmenten an einem Pumpenport. Jedes Segment hat eine Startzeit und eine Geschwindigkeit und kann einen kurzen Impuls hinzufügen. Die Geschwindigkeit ist entweder 0 oder ab 5 % aufwärts. Auch hier fragt Speichern noch einmal nach und ersetzt das ganze Programm der Pumpe.
+
+Beide Editoren lesen zuerst den Plan, der schon auf dem Gerät liegt. Du bearbeitest also den echten Plan, kein leeres Formular.
+
+## ReefMat-Einstellungen *(Beta)*
+
+Tippe auf der ReefMat-Seite auf das Zahnrad für drei weitere Einstellungen.
+
+- **Geplanter Vorschub** schaltet einen Vorschub zu festen Zeiten ein, unabhängig vom Auto-Vorschub-Sensor, der schon auf der Seite ist. Schalte ihn ein und leg fest, wie oft und wie weit jeder Vorschub die Matte bewegt.
+- **ReefMat-Modell** und **Motorposition** (**Links** oder **Rechts**) sagen Cora, welches Gerät und welche Ausrichtung du hast.
+
+Hast du eine neue Rolle eingelegt, sag das Cora mit **Neue Rolle**: ihre Dicke und, wenn du ihn kennst, ihren Außendurchmesser. Das ist etwas anderes als **Rolle weiterdrehen**, das nur die bereits eingelegte Matte weiterbewegt.
 
 Ein Gerät kann sich auch selbst anhalten, zum Beispiel eine ReefRun-Pumpe, wenn der Abschäumerbecher voll ist. Die Seite sagt dir dann, warum, und bietet dir die passende Lösung an:
 
@@ -151,6 +172,8 @@ Diese Änderung bleibt dort erhalten, auch wenn Cora später keinen Kontakt mehr
 :::
 
 Sieht eine Steckdose oder ein Sollwert nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal, bevor sie den Befehl sendet.
+
+Wird der Behälter eines Dosierers knapp, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Der Standardwert ist 20 % Füllstand, und du kannst ihn in der Regel des Dosierers in der [Warnzentrale](/help/mobile-alerts) ändern.
 
 Nimmt der Controller die Änderung nicht an, prüf, ob seine GHL-API eingeschaltet ist und vollen Zugriff hat. GHL schaltet sie nach jedem Firmware-Update wieder aus. Die weiteren Schritte stehen unter [Problembehebung](/help/troubleshooting).
 

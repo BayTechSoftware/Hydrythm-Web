@@ -74,7 +74,7 @@ A cada cabezal se le asigna un **tipo de uso**. Así Cora sabe qué hace y puede
 
 Los dos tipos de cambio de agua van **en pareja**. En el **Cabezal emparejado** de un cabezal, elige el otro, el que mueve el agua en sentido contrario. Cora los tratará como una pareja de cambio de agua y no como dos cabezales sueltos.
 
-Cada cabezal tiene además un límite de **Dosis manual más grande**. Sirve para que un error al escribir una dosis manual no acabe en una dosis mucho mayor de lo previsto. Las dosis manuales grandes solo se pueden usar cuando el caudal del cabezal se ha medido con una prueba real en el acuario.
+Cada cabezal tiene además un límite de **Dosis manual más grande**. Sirve para que un error al escribir una dosis manual no acabe en una dosis mucho mayor de lo previsto. Las dosis manuales grandes solo se pueden usar cuando el caudal del cabezal se ha medido con una prueba real en el acuario, y después de activar **Dosis grandes (Beta)** en los ajustes del cabezal. Está desactivado por defecto: actívalo solo después de haber observado cómo se ejecuta la primera dosis grande junto al acuario.
 
 ## Red Sea ReefBeat
 
@@ -82,12 +82,33 @@ Cada equipo tiene una página adaptada a lo que es:
 
 | Equipo | La página muestra | Puedes |
 |---|---|---|
-| **ReefDose** | Cada cabezal, su recipiente y cuánto ha dosificado | En cada cabezal: **Dosis por día**, **Restante en la botella**, **Dosificar ahora** y **Activar horario**. Fijar alertas de reposición por cabezal |
-| **ReefATO+** | Nivel del depósito y actividad de rellenado | Fijar una alerta del depósito |
-| **ReefMat** | Rollo que queda, en días y metros | Avanzar el rollo y fijar una alerta de reposición |
-| **ReefRun** | Velocidad y estado de la bomba de retorno y de la del skimmer | Cambiar la velocidad, encender o apagar una bomba y cambiar los ajustes del skimmer |
+| **ReefDose** | Cada cabezal, su recipiente y cuánto ha dosificado | En cada cabezal: **Dosis por día**, **Restante en la botella**, **Dosificar ahora** y **Activar horario**, además del editor completo de **Plan de dosificación** *(beta)*. Fijar alertas de reposición por cabezal |
+| **ReefATO+** | Nivel del depósito y actividad de rellenado | Fijar una alerta del depósito. Preguntar al asistente cuántos días le quedan al depósito |
+| **ReefMat** | Rollo que queda, en días y metros | Avanzar el rollo, fijar una alerta de reposición y, en beta, activar un avance programado, fijar su modelo y la posición del motor, y registrar un rollo nuevo |
+| **ReefRun** | Velocidad y estado de la bomba de retorno y de la del skimmer | Cambiar la velocidad, encender o apagar una bomba, cambiar los ajustes del skimmer y editar un programa de velocidad completo *(beta)* |
+| **ReefControl** *(beta)* | Sus sondas de temperatura, pH, salinidad y ORP | Ver sus lecturas |
+| **ReefWave**, **ReefLED** *(beta)* | Su modo actual | Solo consultarlo, por ahora |
 
-**ReefRun controla la bomba de retorno y la del skimmer.** No es una bomba de circulación.
+**ReefRun controla la bomba de retorno y la del skimmer.** No es una bomba de circulación. Las tomas de **ReefControl Power** *(beta)* se controlan desde el mismo control de tomas que una toma del Apex, solo encendido o apagado. Todavía no tienen modo automático.
+
+## Editar un plan de ReefDose o un programa de ReefRun *(beta)*
+
+Toca el icono de calendario en la página de un ReefDose o un ReefRun para abrir su plan.
+
+Un plan de ReefDose es un total diario, repartido en hasta cuatro franjas horarias. Cada franja tiene una hora de inicio y otra de fin, cuántas dosis debe entregar y una velocidad: **Susurro**, **Normal** o **Rápido**. Añade y quita franjas, y luego guarda. Cora te muestra lo que va a enviar y te pide confirmación antes de reemplazar todo el plan del cabezal.
+
+Un programa de ReefRun tiene hasta seis segmentos en un mismo puerto de bomba. Cada segmento tiene una hora de inicio y una velocidad, y puede añadir un pulso corto. La velocidad es 0 o desde el 5 % en adelante. Guardar también pide confirmación y reemplaza todo el programa de la bomba.
+
+Los dos editores leen primero el plan que ya está en el equipo, así que editas el plan real, no un formulario en blanco.
+
+## Ajustes de ReefMat *(beta)*
+
+Toca el engranaje en la página de un ReefMat para tres ajustes más.
+
+- **Avance programado** activa un avance a hora fija, aparte del sensor de avance automático que ya tiene la página. Actívalo y fija cada cuánto y cuánto avanza el tapete cada vez.
+- **Modelo de ReefMat** y **Posición del motor** (**Izquierda** o **Derecha**) le indican a Cora qué equipo y qué orientación tienes.
+
+Después de cargar un rollo nuevo, avísale a Cora con **Nuevo rollo**: indica su grosor y, si lo sabes, su diámetro exterior. Esto es distinto de **Avanzar el rollo**, que solo mueve el tapete que ya tienes cargado.
 
 Un equipo puede pararse por su cuenta. Por ejemplo, una bomba ReefRun se para cuando se llena el vaso del skimmer. Si pasa, su página te dice por qué y te ofrece la solución:
 
@@ -151,6 +172,8 @@ No se guarda solo en Cora. Poner una toma en Siempre encendido o Siempre apagado
 :::
 
 Si una toma o una consigna parece pertenecer a un calentador o a una bomba de retorno, Cora te pide confirmar dos veces antes de enviarla.
+
+Si el recipiente de una dosificadora se está agotando, Cora te avisa igual que con otros consumibles. El valor predeterminado es el 20 % lleno, y puedes cambiarlo desde la regla de la dosificadora en el [Centro de alertas](/help/mobile-alerts).
 
 Si el controlador rechaza el cambio, revisa que su API de GHL esté activada con acceso completo. GHL la desactiva después de cada actualización de firmware. [Solución de problemas](/help/troubleshooting) tiene los pasos.
 

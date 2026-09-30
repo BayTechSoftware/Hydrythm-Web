@@ -2,7 +2,7 @@
 title: Warnungen und Schwellenwerte
 description: Leg für jeden Wasserwert den Bereich fest, bestimme, worüber du Bescheid bekommst, und finde heraus, warum eine Warnung kam.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-09-30
 order: 15
 group: Alerts and automation
 ---
@@ -67,6 +67,12 @@ Außerdem kannst du eine Regel für die **Änderungsrate** anlegen. Sie achtet d
 Manche Warnungen betreffen die Ausrüstung und keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit Becken und Gerät, zum Beispiel *"Display-Becken: Rückförderpumpe braucht Aufmerksamkeit"*. Darin steht auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, kommt eine zweite Nachricht: *"Display-Becken: Rückförderpumpe ist wieder in Ordnung"*. Beide gehören zur Kategorie **Gerätefehler** unter **Einstellungen → Benachrichtigungen**.
 
 Auch eine Maxspect Gyre (Beta) kann diese Warnung auslösen. Das passiert, wenn ein Cora Max im selben Netzwerk feststellt, dass beide Köpfe auf 0 % stehen, oder wenn die Gyre zweimal hintereinander nicht antwortet. Verlass dich darauf nur als Hinweis, nicht als Schutz. Das Cora Max schaut nur ab und zu nach und nur, solange es läuft und die Gyre erreicht.
+
+## Ein Gerät meldet sich nicht mehr
+
+Meldet sich ein Neptune Apex, ein Red Sea ReefBeat-Gerät, AquaWiz, eine Jecod-Pumpe oder eine Maxspect Gyre nicht mehr, sagt dir Cora Bescheid: *"[Gerät]: meldet sich nicht mehr."* Prüfe Stromversorgung und WLAN, und ob das Cora Max, das es ausliest, eingeschaltet ist. Die meisten Geräte lösen das nach etwa 30 Minuten ohne Update aus. AquaWiz prüft seltener, deshalb wartet es etwa 3 Stunden. Meldet sich das Gerät wieder, bekommst du eine zweite Benachrichtigung.
+
+Das fällt wie die Fehlerwarnungen oben unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 
 ## "Die Red Sea-Messwerte werden nicht mehr aktualisiert"
 

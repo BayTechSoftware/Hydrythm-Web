@@ -36,11 +36,11 @@ Cora Apex'inizi okur, diğer ekipmanlarla birlikte gösterir ve siz isteyince pr
 
 ## Red Sea ReefBeat
 
-Cora, yerel ağınızdaki ReefBeat ekipmanlarıyla bağlantı kurar. Desteklenen üniteler **ReefDose**, **ReefATO+**, **ReefMat** ve **ReefRun**'dır.
+Cora, yerel ağınızdaki ReefBeat ekipmanlarıyla bağlantı kurar. Desteklenen üniteler **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** ve beta aşamasında **ReefControl**, **ReefControl Power**, **ReefWave** ile **ReefLED**'dir.
 
 Ekipmanın ReefBeat'te önceden kurulmuş olması gerekir. Eklerken ekipman ve telefonunuz aynı ağda olmalıdır.
 
-Her ünite için bir cihaz sayfası açılır. Her ünitenin ölçümleri de kaynak olarak görünür. ReefDose kafalarını ve kaplarını, ReefATO+ rezervuarını ve dolumlarını, ReefMat kalan gün sayısını, ReefRun da pompa durumunu bildirir.
+Her ünite için bir cihaz sayfası açılır. Her ünitenin ölçümleri de kaynak olarak görünür. ReefDose kafalarını ve kaplarını, ReefATO+ rezervuarını ve dolumlarını, ReefMat kalan gün sayısını, ReefRun da pompa durumunu bildirir. ReefControl da problarını aynı şekilde bildirir. ReefWave ve ReefLED *(beta)* şimdilik yalnızca modunu gösterir, yalnızca görüntüleme.
 
 ## Jecod / Jebao
 
@@ -73,6 +73,8 @@ Cora, AquaWiz KH denetleyicisinin alkalinite ölçümlerini AquaWiz hesabınız 
 Bağlamak için AquaWiz kullanıcı adınız ve şifreniz gerekir. Cora sizin adınıza giriş yapar ve ölçümleri okumaya devam edebilmek için oturumu açık tutar.
 
 Alkalinite, denetleyicinizin titrasyon sıklığında güncellenen bir kaynak olarak görünür. Üniteniz pH da bildiriyorsa onu da seçebilirsiniz.
+
+Cihazın kendi kartında hedef KH değeriniz, dozaj gücünüz ve üniteniz takip ediyorsa kapta kalan alkalinite takviyesi de gösterilir. Bunlar doğrudan AquaWiz ayarlarınızdan gelir; değiştirmek için AquaWiz uygulamasını kullanın. Üniteniz kabını takip ediyorsa takviye azaldığında Cora sizi uyarır, varsayılan eşik 100 mL'dir.
 
 :::warning Tek giriş, ortak kullanım
 AquaWiz her hesap için tek bir oturum verir. Cora'nın kullandığı oturum, AquaWiz'in kendi uygulamasının kullandığıyla aynıdır. AquaWiz şifrenizi değiştirirseniz Cora'nın bağlantısı kopar. Sonrasında cihaz satırından yeniden bağlayın. Cora'nın erişimini tamamen kaldırmak için cihazı Cora'dan silin ve AquaWiz şifrenizi değiştirin.

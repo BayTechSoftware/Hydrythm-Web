@@ -2,7 +2,7 @@
 title: Mantenimiento
 description: Tareas periódicas con recordatorios, como limpiar el skimmer, cambiar las mangas filtrantes o revisar las bombas.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Algunas tareas habituales:
 | Cambiar el carbón o el GFO | 30 días |
 | Revisar la bomba de retorno | 90–180 días |
 | Calibrar las sondas | 30–90 días |
+
+## Tareas que Cora crea por ti
+
+Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea, Cora añade por su cuenta el mantenimiento que ese equipo necesita, ya con el intervalo correcto. Verás aparecer tareas como estas:
+
+| Dispositivo | Tarea | Cada |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 días |
+| ReefATO+ | Replace ReefATO+ return pump | 135 días |
+| ReefMat | Replace ReefMat carbon | 25 días |
+| ReefRun | Check ReefRun skimmer venturi | 35 días |
+| ReefRun | Replace ReefRun skimmer rotor | 135 días |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 días |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 días |
+| ReefRun, por bomba | Service ReefRun pump motor | 135 días |
+| ReefRun, por bomba | Clean ReefRun pump strainer | 42 días |
+| ReefDose, por cabezal | Calibrate ReefDose head | 90 días |
+| ReefDose, por cabezal | Replace ReefDose head tubing | 450 días |
+
+Funcionan igual que cualquier tarea que añadas tú: puedes renombrarlas, cambiar su intervalo, posponerlas o pausarlas. Si eliminas una, Cora no la vuelve a crear para ese dispositivo.
 
 ## Recordatorios
 

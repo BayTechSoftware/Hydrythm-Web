@@ -74,7 +74,7 @@ Każda głowica ma ustawiony **typ użycia**. Dzięki temu Cora wie, co głowica
 
 Dwa typy dla podmiany wody działają **w parze**. W jednej głowicy ustaw **Sparowana głowica** na tę drugą, która przenosi wodę w przeciwną stronę. Cora potraktuje je wtedy jako jedną parę do podmiany wody.
 
-Każda głowica ma też limit **Największa dawka ręczna**. Chroni on przed literówką, przez którą ręczna dawka byłaby dużo większa niż planowana. Duże dawki ręczne są dostępne dopiero wtedy, gdy tempo głowicy zmierzono prawdziwym testem przy akwarium.
+Każda głowica ma też limit **Największa dawka ręczna**. Chroni on przed literówką, przez którą ręczna dawka byłaby dużo większa niż planowana. Duże dawki ręczne są dostępne dopiero wtedy, gdy tempo głowicy zmierzono prawdziwym testem przy akwarium, i dopiero po włączeniu **Duże dawki (Beta)** w ustawieniach głowicy. Domyślnie jest wyłączone: włącz je dopiero po obejrzeniu pierwszej dużej dawki wykonanej przy akwarium.
 
 ## Red Sea ReefBeat
 
@@ -82,12 +82,33 @@ Każde urządzenie ma stronę dopasowaną do tego, czym jest:
 
 | Urządzenie | Co pokazuje strona | Co możesz zrobić |
 |---|---|---|
-| **ReefDose** | Każdą głowicę, jej pojemnik i to, ile podała | Dla każdej głowicy: **Dawka dzienna**, **Pozostało w butelce**, **Dawkuj teraz** i **Aktywuj harmonogram**. Ustawić alerty uzupełnienia dla każdej głowicy |
-| **ReefATO+** | Poziom w zbiorniku i pracę dolewki | Ustawić alert zbiornika |
-| **ReefMat** | Ile zostało rolki, w dniach i metrach | Przewinąć rolkę, ustawić alert uzupełnienia |
-| **ReefRun** | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, włączyć albo wyłączyć pompę, zmienić ustawienia odpieniacza |
+| **ReefDose** | Każdą głowicę, jej pojemnik i to, ile podała | Dla każdej głowicy: **Dawka dzienna**, **Pozostało w butelce**, **Dawkuj teraz** i **Aktywuj harmonogram**, a do tego pełny edytor **Plan dozowania** *(beta)*. Ustawić alerty uzupełnienia dla każdej głowicy |
+| **ReefATO+** | Poziom w zbiorniku i pracę dolewki | Ustawić alert zbiornika. Zapytać Asystenta, na ile dni starczy zbiornika |
+| **ReefMat** | Ile zostało rolki, w dniach i metrach | Przewinąć rolkę, ustawić alert uzupełnienia, a w wersji beta włączyć zaplanowany posuw, ustawić model i pozycję silnika oraz zarejestrować nową rolkę |
+| **ReefRun** | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, włączyć albo wyłączyć pompę, zmienić ustawienia odpieniacza i edytować pełny program prędkości *(beta)* |
+| **ReefControl** *(beta)* | Jego sondy temperatury, pH, zasolenia i ORP | Podejrzeć odczyty |
+| **ReefWave**, **ReefLED** *(beta)* | Jego bieżący tryb | Na razie tylko do podglądu |
 
-**ReefRun to sterownik pompy powrotnej i pompy odpieniacza**, a nie pompa cyrkulacyjna.
+**ReefRun to sterownik pompy powrotnej i pompy odpieniacza**, a nie pompa cyrkulacyjna. **ReefControl Power** *(beta)* pokazuje swoje gniazda jako gniazda sterowane z tego samego panelu co gniazdo Apex, tylko włącz albo wyłącz. Automatyczny tryb dla nich jeszcze nie działa.
+
+## Edytowanie planu ReefDose albo programu ReefRun *(beta)*
+
+Dotknij ikony kalendarza na stronie ReefDose albo ReefRun, żeby otworzyć jego plan.
+
+Plan ReefDose to dzienna suma podzielona na maksymalnie cztery przedziały czasowe. Każdy przedział ma czas rozpoczęcia i zakończenia, liczbę dawek do podania i prędkość: **Cichy**, **Normalny** albo **Szybki**. Dodawaj i usuwaj przedziały, a potem zapisz. Cora pokazuje, co zamierza wysłać, i prosi o potwierdzenie, zanim zastąpi cały plan głowicy.
+
+Program ReefRun to maksymalnie sześć segmentów na jednym porcie pompy. Każdy segment ma czas rozpoczęcia i prędkość, a do tego może dodać krótki impuls. Prędkość to albo 0, albo od 5% wzwyż. Zapis też prosi o potwierdzenie i zastępuje cały program pompy.
+
+Oba edytory najpierw odczytują plan, który już jest na urządzeniu, więc edytujesz to, co naprawdę tam jest, a nie pusty formularz.
+
+## Ustawienia ReefMat *(beta)*
+
+Dotknij ikony koła zębatego na stronie ReefMat, żeby zobaczyć trzy kolejne ustawienia.
+
+- **Zaplanowany posuw** włącza posuw o stałej porze, niezależny od czujnika automatycznego posuwu, który już jest na stronie. Włącz go i ustaw, jak często i o ile mata ma się przesuwać przy każdym posuwie.
+- **Model ReefMat** i **Pozycja silnika** (**Lewa** albo **Prawa**) mówią Corze, jakie urządzenie i w jakiej orientacji masz.
+
+Po założeniu nowej rolki poinformuj o tym Corę przyciskiem **Nowa rolka**: podaj jej grubość, a jeśli znasz, także zewnętrzną średnicę. To coś innego niż **Przewiń rolkę**, który tylko przesuwa matę, którą już masz założoną.
 
 Urządzenie może zatrzymać się samo, np. pompa ReefRun, gdy kubek odpieniacza się zapełni. Wtedy jego strona mówi, dlaczego, i podpowiada, co zrobić:
 
@@ -151,6 +172,8 @@ Nie jest przechowywana tylko w Corze. Ustawienie gniazda na Zawsze włączone al
 :::
 
 Jeśli gniazdo albo wartość docelowa wyglądają, jakby należały do grzałki albo pompy powrotnej, Cora prosi o podwójne potwierdzenie przed wysłaniem.
+
+Jeśli pojemnik dozownika zaczyna się kończyć, Cora ostrzega tak samo jak przy innych materiałach eksploatacyjnych. Domyślnie próg to 20% pojemności, a zmienisz go w regule dozownika w [Centrum alertów](/help/mobile-alerts).
 
 Jeśli kontroler odrzuci zmianę, sprawdź, czy jego API GHL jest włączone z pełnym dostępem. GHL wyłącza to po każdej aktualizacji firmware. Kroki opisuje [Rozwiązywanie problemów](/help/troubleshooting).
 

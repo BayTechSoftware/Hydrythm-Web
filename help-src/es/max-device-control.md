@@ -22,13 +22,16 @@ No hay vista previa ni forma de deshacer. La orden sale en cuanto tocas, pero qu
 | **Neptune Apex** | Sondas y tomas. Puedes cambiar cada toma |
 | **Trident** | Estado de la prueba, niveles de reactivo y de residuos, y un botón para iniciar una prueba |
 | **DŌS**, también el DŌS QD | Para cada cabezal, la dosificación, el programa, la autonomía y el volumen del envase (con pausar, rellenar, dosificar ahora y una medición única de veinte segundos) |
-| **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de bomba |
+| **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de bomba, más el editor completo de plan ReefDose y programa ReefRun y los ajustes de ReefMat *(beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | Las sondas de ReefControl. Las tomas de ReefControl Power como tomas, encendido o apagado, todavía sin modo automático. ReefWave y ReefLED, solo para consultar |
 | **Jecod** | Modo e intensidad de la bomba y su programa diario |
 | **Maxspect** *(beta)* | Modo y velocidad de **Gyre A** y **Gyre B**, **Salud de la bomba** (cuenta atrás de limpieza, corriente del cabezal A, cabezales instalados, firmware) y su horario, solo para consulta |
 | **GHL ProfiLux / Mitras** *(beta)* | Sondas, tomas, dosificadoras, sensores de nivel y, en los modelos Director, resultados de las pruebas de KH e iones |
 | **HYDROS** *(beta)* | Lo que informe su clave de dispositivo: entradas, y con una clave de escritura, salidas, modos, cabezales de dosificación y órdenes de analizador |
 
 Si una unidad Red Sea se detiene sola, su página te dice qué pasa y pone al lado el botón para arreglarlo: **Reanudar**, **Borrar emergencia**, **Sensor limpiado**, **Ya cargué un rollo nuevo** o, en un cabezal de dosificación, **Restablecer**.
+
+Un plan de ReefDose, un programa de velocidad de ReefRun y el avance programado, el modelo, la posición y el Nuevo rollo de ReefMat funcionan aquí igual que en tu teléfono. [Conectar tus equipos](/help/mobile-connections) y [Controlar tus equipos](/help/mobile-device-control) tienen el detalle.
 
 ## Cabezales DŌS
 
@@ -41,7 +44,7 @@ Después de una dosis manual, si el cabezal estaba en Apagado en Apex Fusion, se
 En la hoja de ajustes de cada cabezal puedes elegir un **tipo de uso**: **Suplemento**, **Cambio de agua: entrada de agua salada nueva**, **Cambio de agua: salida de agua vieja**, **Agua de kalk**, **Reactor de calcio**, **Alimento** o **Relleno**, u **Otro**. El tipo de uso cambia dos cosas:
 
 - **El tamaño del envase que puede controlar.** Un cabezal de Suplemento controla hasta 20 litros. Con cualquier otro tipo de uso puede controlar un envase mucho mayor, de hasta 500 litros. Así, un cabezal que hace un cambio de agua o alimenta un reactor de calcio no se trata como una botellita de dosificación.
-- **Si admite una dosis manual grande.** Los cabezales de Suplemento y Alimento mantienen el límite bajo y prudente de siempre. Con los demás tipos de uso puedes fijar tu propia **Dosis manual más grande**, hasta un máximo fijo de 10 litros, y tu propio **Límite diario para automatizaciones y el asistente**.
+- **Si admite una dosis manual grande.** Los cabezales de Suplemento y Alimento mantienen el límite bajo y prudente de siempre. Con los demás tipos de uso puedes fijar tu propia **Dosis manual más grande**, hasta un máximo fijo de 10 litros, y tu propio **Límite diario para automatizaciones y el asistente**. Una dosis manual grande también necesita **Dosis grandes (Beta)** activado en los ajustes del cabezal, desactivado por defecto: actívalo solo después de haber observado cómo se ejecuta la primera dosis grande junto al acuario.
 
 Los dos cabezales de un cambio de agua (entrada de agua salada nueva y salida de agua vieja) se pueden unir como **Cabezal emparejado**, con un valor de **Aviso de balance por encima de**. Si los totales del día de los dos cabezales se separan más de esa cantidad, Cora te avisa. Cuando una pareja se desequilibra, lo normal es que uno de los dos no esté bombeando como debe.
 
@@ -61,9 +64,11 @@ Seguimos probando y desarrollando el soporte para GHL. Algunas lecturas o contro
 
 Conecta un controlador GHL desde **Ajustes → [tu acuario] → Controlador GHL (Beta)**. Escribe su dirección IP en tu red y toca **Detectar**. Cora prueba primero la API oficial del controlador y después sus otras interfaces, y te dice cuál encontró.
 
-Si no responde nada y el controlador es un ProfiLux mini, Cora ofrece una alternativa: escribe su usuario y contraseña, y Cora lo lee en modo solo lectura. No se puede controlar nada más de un mini.
+Si no responde nada y el controlador es un ProfiLux mini, Cora ofrece una alternativa: escribe su usuario y contraseña, y Cora lee sus sondas, tomas, dosificadoras y sensores de nivel en modo solo lectura. Todavía no se puede controlar nada de un mini.
 
 Los controles quedan desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Está desactivado por defecto. Una vez activado, una toma se puede poner en **Siempre encendido**, **Siempre apagado** o **Volver a automatico**, y una consigna, como la de temperatura o pH, muestra su rango permitido y rechaza un valor fuera de él. Los dos tipos de cambio se guardan en el propio controlador y siguen ahí aunque Cora pierda después el contacto con él. Un cambio que parezca afectar a un calentador o a una bomba de retorno te pide confirmar dos veces.
+
+Si el recipiente de una dosificadora se está agotando, Cora te avisa igual que con otros consumibles. El valor predeterminado es el 20 % lleno, y puedes cambiarlo desde la regla de la dosificadora en el [Centro de alertas](/help/mobile-alerts).
 
 Si el controlador no acepta un cambio, probablemente su API de GHL está desactivada. GHL la desactiva después de cada actualización de firmware; vuelve a activarla desde **System → GHL API** en GHL Control Center o GHL Connect. [Solución de problemas](/help/troubleshooting) tiene el resto.
 

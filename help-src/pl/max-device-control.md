@@ -22,13 +22,16 @@ Nie ma podglądu ani cofania. Polecenie wychodzi w chwili dotknięcia, ale *wys�
 | **Neptune Apex** | Sondy i gniazda. Każde gniazdo można przełączyć |
 | **Trident** | Stan testu, poziom reagentów i odpadów. Możesz też uruchomić test |
 | **DŌS**, także DŌS QD | Dozowanie każdej głowicy, harmonogram, na ile dni wystarczy zapas, objętość pojemnika (z pauzą, napełnianiem, dawką od ręki i jednorazowym dwudziestosekundowym pomiarem) |
-| **Red Sea ReefBeat** | Zależnie od urządzenia: głowice dozujące, zbiornik, dni rolki, tryb pompy |
+| **Red Sea ReefBeat** | Zależnie od urządzenia: głowice dozujące, zbiornik, dni rolki, tryb pompy, a do tego pełny edytor planu ReefDose, programu ReefRun i ustawień ReefMat *(beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | Sondy ReefControl. Gniazda ReefControl Power jako gniazda, włącz albo wyłącz, bez automatycznego trybu. ReefWave i ReefLED tylko do podglądu |
 | **Jecod** | Tryb i moc pompy oraz jej program dnia |
 | **Maxspect** *(beta)* | Tryb i prędkość dla **Gyre A** i **Gyre B**, **Stan pompy** (odliczanie do czyszczenia, prąd głowicy A, zamontowane głowice, firmware) i harmonogram, tylko do podglądu |
 | **GHL ProfiLux / Mitras** *(beta)* | Sondy, gniazda, dozowniki, czujniki poziomu, a w modelach Director także wyniki testów KH i jonów |
 | **HYDROS** *(beta)* | To, co zgłasza jego klucz urządzenia: wejścia, a z kluczem zapisu także wyjścia, tryby, głowice dozujące i komendy testera |
 
 Jeśli urządzenie Red Sea samo się zatrzyma, jego strona pokaże, co się stało, a obok przycisk do rozwiązania problemu: **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana** albo **Resetuj** dla głowicy dozującej.
+
+Plan ReefDose, program prędkości ReefRun oraz zaplanowany posuw, model, pozycja i nowa rolka ReefMat działają tu dokładnie tak samo jak na telefonie. Więcej w [Podłączanie sprzętu](/help/mobile-connections) i [Sterowanie sprzętem](/help/mobile-device-control).
 
 ## Głowice DŌS
 
@@ -41,7 +44,7 @@ Po ręcznej dawce głowica, która w Apex Fusion ma ustawione Off, zostaje na Of
 W ustawieniach głowicy możesz wybrać jej **przeznaczenie**: **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm**, **Dolewka** albo **Inne**. Od przeznaczenia zależą dwie rzeczy:
 
 - **Wielkość pojemnika, którą głowica może śledzić.** Głowica z przeznaczeniem **Suplement** śledzi pojemnik do 20 litrów. Przy każdym innym przeznaczeniu pojemnik może być dużo większy, do 500 litrów. Głowica do podmiany wody albo reaktora wapniowego nie jest więc traktowana jak mała butelka z suplementem.
-- **Czy głowica może podać ręcznie dużą dawkę.** Głowice **Suplement** i **Pokarm** mają taki sam mały, ostrożny limit jak dotąd. Każde inne przeznaczenie może mieć własny limit **Największa dawka ręczna**, maksymalnie 10 litrów, i własny **Dzienny limit dla automatyzacji i Asystenta**.
+- **Czy głowica może podać ręcznie dużą dawkę.** Głowice **Suplement** i **Pokarm** mają taki sam mały, ostrożny limit jak dotąd. Każde inne przeznaczenie może mieć własny limit **Największa dawka ręczna**, maksymalnie 10 litrów, i własny **Dzienny limit dla automatyzacji i Asystenta**. Duża dawka ręczna wymaga też włączenia **Duże dawki (Beta)** w ustawieniach głowicy. Domyślnie jest wyłączone: włącz je dopiero po obejrzeniu pierwszej dużej dawki wykonanej przy akwarium.
 
 Parę głowic do podmiany wody (nowa słona woda wchodzi, stara wychodzi) możesz połączyć jako **Sparowana głowica** i ustawić **Ostrzeżenie o równowadze powyżej**. Jeśli dzienne sumy obu głowic różnią się o więcej niż ta wartość, Cora Cię ostrzeże. Taka różnica zwykle oznacza, że jedna strona nie pompuje tak, jak powinna.
 
@@ -61,9 +64,11 @@ Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji ste
 
 Podłącz kontroler GHL z **Ustawienia → [Twoje akwarium] → Kontroler GHL (Beta)**. Wpisz jego adres IP w Twojej sieci i dotknij **Wykryj**. Cora najpierw próbuje oficjalnego API kontrolera, potem innych interfejsów, i mówi, który z nich znalazła.
 
-Jeśli nic nie odpowie, a kontroler to ProfiLux mini, Cora oferuje rozwiązanie zastępcze: wpisz jego dane logowania, a Cora odczyta go tylko do odczytu. Niczego innego w mini nie da się sterować.
+Jeśli nic nie odpowie, a kontroler to ProfiLux mini, Cora oferuje rozwiązanie zastępcze: wpisz jego dane logowania, a Cora odczyta jego sondy, gniazda, dozowniki i czujniki poziomu tylko do odczytu. Niczego innego w mini jeszcze nie da się sterować.
 
 Sterowanie pozostaje wyłączone, dopóki nie włączysz **Zezwol na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone. Gdy jest włączone, gniazdo można ustawić na **Zawsze wlaczone**, **Zawsze wylaczone** albo **Powrot do automatycznego**, a wartość docelowa, na przykład temperatura albo pH, pokazuje swój dozwolony zakres i odrzuca wartość spoza niego. Oba rodzaje zmian są zapisywane na samym kontrolerze i tam zostają, nawet jeśli Cora później straci z nim kontakt. Zmiana, która wygląda, jakby dotyczyła grzałki albo pompy powrotnej, prosi o podwójne potwierdzenie.
+
+Jeśli pojemnik dozownika zaczyna się kończyć, Cora ostrzega tak samo jak przy innych materiałach eksploatacyjnych. Domyślnie próg to 20% pojemności, a zmienisz go w regule dozownika w [Centrum alertów](/help/mobile-alerts).
 
 Jeśli kontroler nie przyjmie zmiany, prawdopodobnie jego API GHL jest wyłączone. GHL wyłącza je po każdej aktualizacji firmware; włącz je z powrotem w **System → GHL API** w GHL Control Center albo GHL Connect. Resztę opisuje [Rozwiązywanie problemów](/help/troubleshooting).
 

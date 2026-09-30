@@ -2,7 +2,7 @@
 title: Wartung
 description: Wiederkehrende Aufgaben mit Erinnerungen, vom Abschäumer über Filtersocken bis zur Pumpenwartung.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Typische Aufgaben:
 | Kohle oder GFO wechseln | 30 Tage |
 | Rückförderpumpe warten | 90–180 Tage |
 | Sonden kalibrieren | 30–90 Tage |
+
+## Aufgaben, die Cora selbst anlegt
+
+Verbindest du ein Red Sea ReefDose, ReefATO+, ReefMat oder ReefRun, legt Cora die Wartung an, die dieses Gerät braucht, gleich mit dem passenden Intervall. Solche Aufgaben tauchen dann auf:
+
+| Gerät | Aufgabe | Intervall |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 Tage |
+| ReefATO+ | Replace ReefATO+ return pump | 135 Tage |
+| ReefMat | Replace ReefMat carbon | 25 Tage |
+| ReefRun | Check ReefRun skimmer venturi | 35 Tage |
+| ReefRun | Replace ReefRun skimmer rotor | 135 Tage |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 Tage |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 Tage |
+| ReefRun, pro Pumpe | Service ReefRun pump motor | 135 Tage |
+| ReefRun, pro Pumpe | Clean ReefRun pump strainer | 42 Tage |
+| ReefDose, pro Kopf | Calibrate ReefDose head | 90 Tage |
+| ReefDose, pro Kopf | Replace ReefDose head tubing | 450 Tage |
+
+Sie funktionieren genau wie jede Aufgabe, die du selbst anlegst: umbenennen, Intervall ändern, verschieben oder pausieren. Löschst du eine, legt Cora sie für dieses Gerät nicht wieder an.
 
 ## Erinnerungen
 

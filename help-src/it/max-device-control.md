@@ -22,13 +22,16 @@ Non c'è anteprima e non si può annullare. Il comando parte appena tocchi, ma *
 | **Neptune Apex** | Sonde e prese, e ogni presa si può comandare |
 | **Trident** | Stato del test, livello di reagenti e scarico, e un comando per avviare un test |
 | **DŌS**, compreso il DŌS QD | Per ogni testa: dosaggio, programma, autonomia e volume del contenitore (con pausa, riempimento, dosa ora e una misura di venti secondi da fare una volta sola) |
-| **Red Sea ReefBeat** | Dipende dall'unità: teste di dosaggio, serbatoio, giorni di rotolo, modalità della pompa |
+| **Red Sea ReefBeat** | Dipende dall'unità: teste di dosaggio, serbatoio, giorni di rotolo, modalità della pompa, più un editor completo del piano ReefDose, del programma ReefRun e delle impostazioni ReefMat *(beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | Le sonde di ReefControl. Le prese di ReefControl Power come prese normali, on/off, ancora senza modalità automatica. ReefWave e ReefLED, in sola lettura |
 | **Jecod** | Modalità e intensità della pompa, e il suo programma giornaliero |
 | **Maxspect** *(beta)* | Modalità e velocità di **Gyre A** e **Gyre B**, **Stato pompa** (conto alla rovescia per la pulizia, corrente della testa A, teste montate, firmware) e il programma, in sola lettura |
 | **GHL ProfiLux / Mitras** *(beta)* | Sonde, prese, dosatori, sensori di livello e, sui modelli Director, i risultati dei test di KH e ioni |
 | **HYDROS** *(beta)* | Tutto quello che riporta la sua chiave dispositivo: ingressi, e con una chiave di scrittura anche uscite, modalità, teste di dosaggio e comandi tester |
 
 Se un'unità Red Sea si ferma da sola, la sua pagina ti dice cosa c'è che non va e ti mette accanto il pulsante per risolvere: **Riprendi**, **Elimina emergenza**, **Sensore pulito**, **Ho già caricato un nuovo rotolo** oppure **Ripristina** per una testa di dosaggio.
+
+Un piano ReefDose, un programma di velocità ReefRun e l'avanzamento programmato, il modello, la posizione e il Nuovo rotolo di ReefMat funzionano qui allo stesso modo che sul telefono. Trovi i dettagli in [Collegare la tua attrezzatura](/help/mobile-connections) e [Controllare la tua attrezzatura](/help/mobile-device-control).
 
 ## Teste DŌS
 
@@ -41,7 +44,7 @@ Dopo una dose manuale, una testa che avevi messo su Off in Apex Fusion resta su 
 Dal foglio delle impostazioni di ogni testa scegli il **tipo di uso**: **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Acqua di calce**, **Reattore di calcio**, **Cibo**, **Rabbocco** oppure **Altro**. Il tipo di uso cambia due cose:
 
 - **Quanto può essere grande il contenitore.** Una testa Integratore gestisce fino a 20 litri. Con tutti gli altri tipi il contenitore può essere molto più grande, fino a 500 litri. Così una testa che fa un cambio d'acqua o alimenta un reattore di calcio non viene trattata come una piccola bottiglia di integratore.
-- **Se può fare una dose grande a mano.** Le teste Integratore e Cibo mantengono il limite basso e prudente di sempre. Per tutti gli altri tipi puoi impostare una **Dose massima manuale**, fino a un tetto fisso di 10 litri, e un **Limite giornaliero per automazioni e Assistant**.
+- **Se può fare una dose grande a mano.** Le teste Integratore e Cibo mantengono il limite basso e prudente di sempre. Per tutti gli altri tipi puoi impostare una **Dose massima manuale**, fino a un tetto fisso di 10 litri, e un **Limite giornaliero per automazioni e Assistant**. Una dose grande a mano richiede anche **Dosi grandi (Beta)** attivato nelle impostazioni della testa, disattivato per impostazione predefinita: attivalo solo dopo aver osservato la prima dose grande eseguita davanti all'acquario.
 
 Per il cambio d'acqua puoi collegare due teste (nuova acqua salata in entrata, acqua vecchia in uscita) come **Testa abbinata** e impostare un valore in **Avviso di squilibrio sopra**. Se nel corso della giornata i totali delle due teste si allontanano più di quel valore, Cora ti avvisa. Di solito vuol dire che uno dei due lati non pompa come dovrebbe.
 
@@ -61,9 +64,11 @@ Il supporto GHL è ancora in fase di test e sviluppo. Alcune letture o alcuni co
 
 Collega un controller GHL da **Impostazioni → [la tua vasca] → Controller GHL (Beta)**. Inserisci il suo indirizzo IP sulla tua rete e tocca **Rileva**. Cora prova prima l'API ufficiale del controller, poi le sue altre interfacce, e ti dice quale ha trovato.
 
-Se non risponde niente e il controller è un ProfiLux mini, Cora propone un'alternativa: inserisci il suo accesso e Cora lo legge in sola lettura. Del mini non si può comandare nient'altro.
+Se non risponde niente e il controller è un ProfiLux mini, Cora propone un'alternativa: inserisci il suo accesso e Cora legge in sola lettura le sue sonde, prese, dosatori e sensori di livello. Del mini non si può ancora comandare niente.
 
 I comandi restano disattivati finché non attivi **Consenti il controllo da Cora (Beta)** sulla pagina del dispositivo. È disattivato per impostazione predefinita. Una volta attivato, una presa si può impostare su **Sempre acceso**, **Sempre spento** o **Torna ad automatico**, e un setpoint come temperatura o pH mostra il suo intervallo consentito e rifiuta un valore fuori da quell'intervallo. Entrambi i tipi di modifica vengono salvati sul controller stesso e restano lì anche se Cora perde in seguito il contatto con lui. Una modifica che sembra riguardare un riscaldatore o una pompa di risalita ti chiede due conferme.
+
+Se il contenitore di un dosatore sta per finire, Cora ti avvisa come fa per gli altri materiali di consumo. Il valore predefinito è 20% pieno, e lo puoi cambiare dalla regola del dosatore nel [Centro avvisi](/help/mobile-alerts).
 
 Se il controller non accetta una modifica, probabilmente la sua API GHL è disattivata. GHL la disattiva dopo ogni aggiornamento firmware: riattivala da **System → GHL API** in GHL Control Center o GHL Connect. Il resto lo trovi in [Risoluzione dei problemi](/help/troubleshooting).
 

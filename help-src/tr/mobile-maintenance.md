@@ -2,7 +2,7 @@
 title: Bakım
 description: Düzenli işler ve hatırlatmalar. Skimmer temizliği, filtre çorapları, pompa bakımı.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Sık kullanılan görevler:
 | Karbonu ya da GFO'yu değiştir | 30 gün |
 | Ana pompanın bakımını yap | 90–180 gün |
 | Probları kalibre et | 30–90 gün |
+
+## Cora'nın sizin için oluşturduğu görevler
+
+Bir Red Sea ReefDose, ReefATO+, ReefMat ya da ReefRun bağladığınızda Cora, o cihazın ihtiyaç duyduğu bakımı doğru aralıkla kendiliğinden ekler. Şöyle görevler eklendiğini göreceksiniz:
+
+| Cihaz | Görev | Aralık |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 gün |
+| ReefATO+ | Replace ReefATO+ return pump | 135 gün |
+| ReefMat | Replace ReefMat carbon | 25 gün |
+| ReefRun | Check ReefRun skimmer venturi | 35 gün |
+| ReefRun | Replace ReefRun skimmer rotor | 135 gün |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 gün |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 gün |
+| ReefRun, pompa başına | Service ReefRun pump motor | 135 gün |
+| ReefRun, pompa başına | Clean ReefRun pump strainer | 42 gün |
+| ReefDose, kafa başına | Calibrate ReefDose head | 90 gün |
+| ReefDose, kafa başına | Replace ReefDose head tubing | 450 gün |
+
+Bu görevler kendi eklediğiniz görevlerle aynı şekilde çalışır: adını değiştirebilir, aralığını değiştirebilir, erteleyebilir ya da duraklatabilirsiniz. Birini silerseniz Cora o cihaz için bunu bir daha eklemez.
 
 ## Hatırlatmalar
 

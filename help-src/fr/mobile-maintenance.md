@@ -2,7 +2,7 @@
 title: Entretien
 description: Les tâches qui reviennent, avec des rappels : nettoyage de l’écumeur, chaussettes de filtration, entretien des pompes.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-09-30
 order: 19
 group: Records
 ---
@@ -34,6 +34,26 @@ Quelques tâches courantes :
 | Remplacer le charbon ou le GFO | 30 jours |
 | Entretenir la pompe de remontée | 90–180 jours |
 | Étalonner les sondes | 30–90 jours |
+
+## Les tâches que Cora crée pour vous
+
+Quand vous connectez un ReefDose, un ReefATO+, un ReefMat ou un ReefRun Red Sea, Cora ajoute de lui-même l’entretien dont cet appareil a besoin, déjà réglé sur la bonne fréquence. Vous verrez apparaître des tâches comme celles-ci :
+
+| Appareil | Tâche | Fréquence |
+|---|---|---|
+| ReefATO+ | Replace ReefATO+ EC sensor | 42 jours |
+| ReefATO+ | Replace ReefATO+ return pump | 135 jours |
+| ReefMat | Replace ReefMat carbon | 25 jours |
+| ReefRun | Check ReefRun skimmer venturi | 35 jours |
+| ReefRun | Replace ReefRun skimmer rotor | 135 jours |
+| ReefRun | Calibrate ReefRun full-cup sensor | 28 jours |
+| ReefRun | Calibrate ReefRun overskimming sensor | 28 jours |
+| ReefRun, par pompe | Service ReefRun pump motor | 135 jours |
+| ReefRun, par pompe | Clean ReefRun pump strainer | 42 jours |
+| ReefDose, par tête | Calibrate ReefDose head | 90 jours |
+| ReefDose, par tête | Replace ReefDose head tubing | 450 jours |
+
+Elles fonctionnent exactement comme une tâche que vous ajoutez vous-même : renommez-les, changez leur fréquence, reportez-les ou mettez-les en pause. Si vous en supprimez une, Cora ne la recréera pas pour cet appareil.
 
 ## Rappels
 
