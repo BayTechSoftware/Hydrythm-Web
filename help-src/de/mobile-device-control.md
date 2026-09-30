@@ -175,6 +175,10 @@ Sieht eine Steckdose oder ein Sollwert nach Heizer oder Rückförderpumpe aus, f
 
 Wird der Behälter eines Dosierers knapp, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Der Standardwert ist 20 % Füllstand, und du kannst ihn in der Regel des Dosierers in der [Warnzentrale](/help/mobile-alerts) ändern.
 
+:::note ProfiLux mini
+Ein mini kann nur seine Steckdosen schalten. Alles andere hier, etwa Sollwerte und Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.
+:::
+
 Nimmt der Controller die Änderung nicht an, prüf, ob seine GHL-API eingeschaltet ist und vollen Zugriff hat. GHL schaltet sie nach jedem Firmware-Update wieder aus. Die weiteren Schritte stehen unter [Problembehebung](/help/troubleshooting).
 
 ## HYDROS

@@ -175,6 +175,10 @@ Si una toma o una consigna parece pertenecer a un calentador o a una bomba de re
 
 Si el recipiente de una dosificadora se está agotando, Cora te avisa igual que con otros consumibles. El valor predeterminado es el 20 % lleno, y puedes cambiarlo desde la regla de la dosificadora en el [Centro de alertas](/help/mobile-alerts).
 
+:::note ProfiLux mini
+Un mini solo puede cambiar sus tomas. Todo lo demás de aquí, como las consignas y la pausa de alimentación, necesita un ProfiLux 3, 4 o Mitras.
+:::
+
 Si el controlador rechaza el cambio, revisa que su API de GHL esté activada con acceso completo. GHL la desactiva después de cada actualización de firmware. [Solución de problemas](/help/troubleshooting) tiene los pasos.
 
 ## HYDROS

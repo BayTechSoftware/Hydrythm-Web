@@ -64,7 +64,7 @@ Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji ste
 
 Podłącz kontroler GHL z **Ustawienia → [Twoje akwarium] → Kontroler GHL (Beta)**. Wpisz jego adres IP w Twojej sieci i dotknij **Wykryj**. Cora najpierw próbuje oficjalnego API kontrolera, potem innych interfejsów, i mówi, który z nich znalazła.
 
-Jeśli nic nie odpowie, a kontroler to ProfiLux mini, Cora oferuje rozwiązanie zastępcze: wpisz jego dane logowania, a Cora odczyta jego sondy, gniazda, dozowniki i czujniki poziomu tylko do odczytu. Niczego innego w mini jeszcze nie da się sterować.
+Jeśli nic nie odpowie, a kontroler to ProfiLux mini, Cora oferuje rozwiązanie zastępcze: wpisz jego dane logowania, a Cora odczyta jego sondy, gniazda, dozowniki i czujniki poziomu. Gdy **Zezwól na sterowanie z Cora (Beta)** jest włączone, mini może też przełączać swoje gniazda, tak samo jak każdy inny kontroler GHL. Wszystko inne, na przykład wartości docelowe i pauza na karmienie, wymaga ProfiLux 3, 4 albo Mitras.
 
 Sterowanie pozostaje wyłączone, dopóki nie włączysz **Zezwol na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone. Gdy jest włączone, gniazdo można ustawić na **Zawsze wlaczone**, **Zawsze wylaczone** albo **Powrot do automatycznego**, a wartość docelowa, na przykład temperatura albo pH, pokazuje swój dozwolony zakres i odrzuca wartość spoza niego. Oba rodzaje zmian są zapisywane na samym kontrolerze i tam zostają, nawet jeśli Cora później straci z nim kontakt. Zmiana, która wygląda, jakby dotyczyła grzałki albo pompy powrotnej, prosi o podwójne potwierdzenie.
 

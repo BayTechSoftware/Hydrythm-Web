@@ -175,6 +175,10 @@ Bir priz ya da ayar noktası bir ısıtıcıya ya da geri dönüş pompasına ai
 
 Bir dozaj ünitesinin kabı azalıyorsa Cora, diğer sarf malzemelerinde olduğu gibi sizi uyarır. Varsayılan eşik %20 doluluktur, dozaj ünitesinin kuralından [Uyarı Merkezi](/help/mobile-alerts)'nde değiştirebilirsiniz.
 
+:::note ProfiLux mini
+Bir mini yalnızca prizlerini açıp kapatabilir. Ayar noktaları ve besleme molası dahil buradaki geri kalan her şey için bir ProfiLux 3, 4 ya da Mitras gerekir.
+:::
+
 Kontrol cihazı değişikliği kabul etmiyorsa GHL API'sinin tam erişimle açık olduğunu kontrol edin. GHL bunu her yazılım güncellemesinden sonra kapatır. Adımlar için [Sorun giderme](/help/troubleshooting) sayfasına bakın.
 
 ## HYDROS

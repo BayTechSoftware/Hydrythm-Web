@@ -74,7 +74,7 @@ To connect it, you need your AquaWiz username and password. Cora signs in for yo
 
 You get alkalinity as a source, updated as often as your controller titrates. You can add pH too if your unit reports it.
 
-The device's own card also shows your target KH, your dose strength and, for a unit that tracks it, how much alkalinity supplement is left in the container. These come straight from your AquaWiz settings; change them in the AquaWiz app. If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default.
+The device's own card also shows your target KH, your dose strength and, for a unit with dosing set up, its maximum dose per hour and how much alkalinity supplement is left in the container. These come straight from your AquaWiz settings. Change them in the AquaWiz app. If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default.
 
 :::warning Cora shares your AquaWiz sign-in
 AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.

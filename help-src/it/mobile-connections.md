@@ -74,7 +74,7 @@ Ti servono nome utente e password AquaWiz. Cora accede al posto tuo e resta coll
 
 L'alcalinità diventa una fonte, aggiornata ogni volta che il controller fa una titolazione. Se la tua unità lo misura, puoi aggiungere anche il pH.
 
-La pagina del dispositivo mostra anche il tuo KH obiettivo, la forza della dose e, per un'unità che lo tiene sotto controllo, quanto supplemento di alcalinità resta nel contenitore. Questi valori arrivano direttamente dalle impostazioni AquaWiz: per cambiarli usa l'app AquaWiz. Se la tua unità tiene sotto controllo il contenitore, Cora ti avvisa quando il supplemento sta per finire, di default a 100 mL.
+La pagina del dispositivo mostra anche il tuo KH obiettivo, la forza della dose e, per un'unità con il dosaggio configurato, la dose massima oraria e quanto supplemento di alcalinità resta nel contenitore. Questi valori arrivano direttamente dalle impostazioni AquaWiz. Cambiali nell'app AquaWiz. Se la tua unità tiene sotto controllo il contenitore, Cora ti avvisa quando il supplemento sta per finire, di default a 100 mL.
 
 :::warning Un solo accesso, in comune
 AquaWiz dà un solo accesso per account. Quello che usa Cora è lo stesso della loro app. Se cambi la password AquaWiz, Cora si scollega e devi ricollegarla dalla riga del dispositivo. Per togliere del tutto l'accesso a Cora, rimuovi il dispositivo in Cora e cambia la password AquaWiz.

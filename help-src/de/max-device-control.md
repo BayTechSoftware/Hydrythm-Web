@@ -64,7 +64,7 @@ Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Mess
 
 Verbinde einen GHL-Controller unter **Einstellungen → [dein Becken] → GHL-Controller (Beta)**. Trag seine IP-Adresse in deinem Netzwerk ein und tippe auf **Erkennen**. Cora versucht zuerst die offizielle API des Controllers, dann seine anderen Schnittstellen, und sagt dir, welche davon geantwortet hat.
 
-Antwortet nichts und ist der Controller ein ProfiLux mini, bietet Cora einen Ausweg an: Gib seine Zugangsdaten ein, und Cora liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren nur lesend aus. Steuern lässt sich an einem mini noch nichts.
+Antwortet nichts und ist der Controller ein ProfiLux mini, bietet Cora einen Ausweg an: Gib seine Zugangsdaten ein, und Cora liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren aus. Ist **Steuerung durch Cora zulassen (Beta)** eingeschaltet, kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.
 
 Steuerungen bleiben aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Ist es eingeschaltet, kannst du eine Steckdose auf **Immer an**, **Immer aus** oder **Zurueck zu automatisch** stellen, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Sieht eine Änderung nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal.
 

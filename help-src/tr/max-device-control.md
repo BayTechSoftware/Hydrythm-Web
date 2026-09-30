@@ -64,7 +64,7 @@ GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kon
 
 Bir GHL kontrol cihazını **Ayarlar → [akvaryumunuz] → GHL denetleyici (Beta)**'dan bağlayın. Ağınızdaki IP adresini girin ve **Algıla**'ya dokunun. Cora önce kontrol cihazının resmi API'sini, sonra diğer arayüzlerini dener ve hangisini bulduğunu size söyler.
 
-Hiçbir şey yanıt vermezse ve kontrol cihazı bir ProfiLux mini ise Cora bir yedek yol sunar: giriş bilgilerini girin, Cora problarını, prizlerini, dozaj ünitelerini ve seviye sensörlerini salt okunur olarak okur. Bir mini hakkında henüz hiçbir şey kontrol edilemez.
+Hiçbir şey yanıt vermezse ve kontrol cihazı bir ProfiLux mini ise Cora bir yedek yol sunar: giriş bilgilerini girin, Cora problarını, prizlerini, dozaj ünitelerini ve seviye sensörlerini okur. **Cora'dan kontrole izin ver (Beta)** açıkken bir mini, diğer her GHL kontrol cihazıyla aynı şekilde prizlerini de açıp kapatabilir. Ayar noktaları ve besleme molası gibi geri kalan her şey için bir ProfiLux 3, 4 ya da Mitras gerekir.
 
 Cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kontroller kapalıdır. Varsayılan olarak kapalıdır. Açıldıktan sonra bir priz **Her zaman açık**, **Her zaman kapalı** ya da **Otomatiğe dön** olarak ayarlanabilir, sıcaklık ya da pH gibi bir ayar noktası izin verilen aralığını gösterir ve aralık dışındaki bir değeri reddeder. Her iki değişiklik türü de kontrol cihazının kendisine kaydedilir ve Cora sonradan onunla bağlantısını kaybetse bile orada kalır. Bir ısıtıcıya ya da geri dönüş pompasına dokunuyor gibi görünen bir değişiklik sizden iki kez onay ister.
 

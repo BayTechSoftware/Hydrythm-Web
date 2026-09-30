@@ -74,7 +74,7 @@ Il vous faut votre nom d’utilisateur et votre mot de passe AquaWiz. Cora se co
 
 L’alcalinité devient une source, mise à jour à chaque titrage de votre contrôleur. Le pH est disponible en option si votre appareil le mesure.
 
-La fiche de l’appareil affiche aussi votre KH cible, la force de votre dose et, pour un appareil qui suit son bidon, la quantité de supplément d’alcalinité restante dans le bidon. Ces valeurs viennent directement de vos réglages AquaWiz ; modifiez-les dans l’application AquaWiz. Si votre appareil suit son bidon, Cora vous prévient quand le supplément devient bas, à 100 mL par défaut.
+La fiche de l’appareil affiche aussi votre KH cible, la force de votre dose et, pour un appareil dont le dosage est configuré, sa dose maximale par heure et la quantité de supplément d’alcalinité restante dans le bidon. Ces valeurs viennent directement de vos réglages AquaWiz. Modifiez-les dans l’application AquaWiz. Si votre appareil suit son bidon, Cora vous prévient quand le supplément devient bas, à 100 mL par défaut.
 
 :::warning Une seule connexion, partagée
 AquaWiz n’accorde qu’une connexion par compte. Cora utilise donc la même que l’application AquaWiz. Si vous changez votre mot de passe AquaWiz, Cora sera déconnecté. Reconnectez-le ensuite depuis la ligne de l’appareil. Pour retirer complètement l’accès de Cora, supprimez l’appareil dans Cora et changez votre mot de passe AquaWiz.

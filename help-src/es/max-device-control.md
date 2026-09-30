@@ -64,7 +64,7 @@ Seguimos probando y desarrollando el soporte para GHL. Algunas lecturas o contro
 
 Conecta un controlador GHL desde **Ajustes → [tu acuario] → Controlador GHL (Beta)**. Escribe su dirección IP en tu red y toca **Detectar**. Cora prueba primero la API oficial del controlador y después sus otras interfaces, y te dice cuál encontró.
 
-Si no responde nada y el controlador es un ProfiLux mini, Cora ofrece una alternativa: escribe su usuario y contraseña, y Cora lee sus sondas, tomas, dosificadoras y sensores de nivel en modo solo lectura. Todavía no se puede controlar nada de un mini.
+Si no responde nada y el controlador es un ProfiLux mini, Cora ofrece una alternativa: escribe su usuario y contraseña, y Cora lee sus sondas, tomas, dosificadoras y sensores de nivel. Con **Permitir el control desde Cora (Beta)** activado, un mini también puede cambiar sus tomas, igual que cualquier otro controlador GHL. Todo lo demás, como las consignas y la pausa de alimentación, necesita un ProfiLux 3, 4 o Mitras.
 
 Los controles quedan desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Está desactivado por defecto. Una vez activado, una toma se puede poner en **Siempre encendido**, **Siempre apagado** o **Volver a automatico**, y una consigna, como la de temperatura o pH, muestra su rango permitido y rechaza un valor fuera de él. Los dos tipos de cambio se guardan en el propio controlador y siguen ahí aunque Cora pierda después el contacto con él. Un cambio que parezca afectar a un calentador o a una bomba de retorno te pide confirmar dos veces.
 

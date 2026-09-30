@@ -64,7 +64,7 @@ Il supporto GHL è ancora in fase di test e sviluppo. Alcune letture o alcuni co
 
 Collega un controller GHL da **Impostazioni → [la tua vasca] → Controller GHL (Beta)**. Inserisci il suo indirizzo IP sulla tua rete e tocca **Rileva**. Cora prova prima l'API ufficiale del controller, poi le sue altre interfacce, e ti dice quale ha trovato.
 
-Se non risponde niente e il controller è un ProfiLux mini, Cora propone un'alternativa: inserisci il suo accesso e Cora legge in sola lettura le sue sonde, prese, dosatori e sensori di livello. Del mini non si può ancora comandare niente.
+Se non risponde niente e il controller è un ProfiLux mini, Cora propone un'alternativa: inserisci il suo accesso e Cora legge le sue sonde, prese, dosatori e sensori di livello. Con **Consenti il controllo da Cora (Beta)** attivo, un mini può anche comandare le sue prese, come qualsiasi altro controller GHL. Tutto il resto, come i setpoint e la pausa alimentazione, richiede un ProfiLux 3, 4 o Mitras.
 
 I comandi restano disattivati finché non attivi **Consenti il controllo da Cora (Beta)** sulla pagina del dispositivo. È disattivato per impostazione predefinita. Una volta attivato, una presa si può impostare su **Sempre acceso**, **Sempre spento** o **Torna ad automatico**, e un setpoint come temperatura o pH mostra il suo intervallo consentito e rifiuta un valore fuori da quell'intervallo. Entrambi i tipi di modifica vengono salvati sul controller stesso e restano lì anche se Cora perde in seguito il contatto con lui. Una modifica che sembra riguardare un riscaldatore o una pompa di risalita ti chiede due conferme.
 

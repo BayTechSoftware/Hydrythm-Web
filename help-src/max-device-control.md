@@ -64,7 +64,7 @@ We're still testing and developing GHL support. Some readings or controls may no
 
 Connect a GHL controller from **Settings → [your tank] → GHL controller (Beta)**. Enter its IP address on your network and tap **Detect**. Cora tries the controller's official API first, then its other interfaces, and tells you which one it found.
 
-If nothing answers and the controller is a ProfiLux mini, Cora offers a fallback: enter its login and Cora reads its probes, sockets, dosers and level sensors read-only. Nothing about a mini can be controlled yet.
+If nothing answers and the controller is a ProfiLux mini, Cora offers a fallback: enter its login and Cora reads its probes, sockets, dosers and level sensors. With **Allow control from Cora (Beta)** on, a mini can also switch its sockets, the same way as any other GHL controller. Everything else, such as setpoints and feed pause, needs a ProfiLux 3, 4 or Mitras.
 
 Controls stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default. Once it's on, a socket can be set to **Always on**, **Always off**, or **Back to automatic**, and a setpoint such as temperature or pH shows its allowed range and refuses a value outside it. Both kinds of change are saved on the controller itself and stay there even if Cora later loses touch with it. A change that looks like it touches a heater or return pump asks you to confirm twice.
 

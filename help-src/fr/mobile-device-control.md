@@ -175,6 +175,10 @@ Si une prise ou une consigne ressemble à un chauffage ou une pompe de remontée
 
 Si le bidon d’un doseur devient bas, Cora vous prévient de la même façon que pour les autres consommables. La valeur par défaut est 20 % plein, et vous pouvez la changer depuis la règle du doseur dans le [Centre d’alertes](/help/mobile-alerts).
 
+:::note ProfiLux mini
+Un mini peut seulement commuter ses prises. Tout le reste ici, comme les consignes et la pause nourrissage, nécessite un ProfiLux 3, 4 ou Mitras.
+:::
+
 Si le contrôleur refuse le changement, vérifiez que son API GHL est activée avec un accès complet. GHL la désactive après chaque mise à jour du micrologiciel. [Résolution de problèmes](/help/troubleshooting) donne la suite.
 
 ## HYDROS

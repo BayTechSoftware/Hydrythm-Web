@@ -78,7 +78,7 @@ Du brauchst dafür deinen AquaWiz-Benutzernamen und dein Passwort. Cora meldet s
 
 Die Alkalinität steht dir dann als Quelle zur Verfügung. Sie aktualisiert sich so oft, wie dein Controller titriert. Meldet dein Gerät auch den pH-Wert, kannst du ihn zusätzlich nutzen.
 
-Auf der Geräte-Karte siehst du außerdem deinen KH-Zielwert, deine Dosierstärke und, wenn dein Gerät den Behälter erfasst, wie viel Alkalinitäts-Zusatz noch übrig ist. Diese Werte kommen direkt aus deinen AquaWiz-Einstellungen; ändern kannst du sie nur in der AquaWiz-App. Erfasst dein Gerät den Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, standardmäßig bei 100 ml.
+Auf der Geräte-Karte siehst du außerdem deinen KH-Zielwert, deine Dosierstärke und, wenn bei deinem Gerät eine Dosierung eingerichtet ist, seine maximale Dosis pro Stunde und wie viel Alkalinitäts-Zusatz noch im Behälter übrig ist. Diese Werte kommen direkt aus deinen AquaWiz-Einstellungen. Ändern kannst du sie nur in der AquaWiz-App. Erfasst dein Gerät den Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, standardmäßig bei 100 ml.
 
 :::warning Eine Anmeldung für alle
 AquaWiz vergibt nur eine Anmeldung pro Konto. Cora nutzt also dieselbe Anmeldung wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, verliert Cora die Verbindung. Verbinde es danach über die Gerätezeile neu. Willst du Cora den Zugriff ganz entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.

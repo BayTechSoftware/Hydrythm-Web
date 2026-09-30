@@ -175,6 +175,10 @@ If a socket or setpoint looks like it belongs to a heater or a return pump, Cora
 
 If a doser's container is running low, Cora warns you the same way it does for other consumables. The default is 20% full, and you can change it from the doser's rule in the [Alert Center](/help/mobile-alerts).
 
+:::note ProfiLux mini
+A mini can only switch its sockets. Everything else here, such as setpoints and feed pause, needs a ProfiLux 3, 4 or Mitras.
+:::
+
 If the controller turns the change down, check that its GHL API is switched on with full access. GHL turns this off after every firmware update. [Troubleshooting](/help/troubleshooting) has the steps.
 
 ## HYDROS

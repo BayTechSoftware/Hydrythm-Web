@@ -74,7 +74,7 @@ Potrzebujesz nazwy użytkownika i hasła AquaWiz. Cora loguje się w Twoim imien
 
 Alkaliczność staje się źródłem, które odświeża się tak często, jak kontroler wykonuje miareczkowanie. Jeśli Twój kontroler zgłasza pH, możesz je dodać.
 
-Karta urządzenia pokazuje też Twoje docelowe KH, moc dawki i, dla urządzeń, które to śledzą, ile suplementu alkaliczności zostało w pojemniku. Te wartości pochodzą wprost z ustawień AquaWiz i zmieniasz je w aplikacji AquaWiz. Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega, gdy suplementu zaczyna brakować, domyślnie przy 100 mL.
+Karta urządzenia pokazuje też Twoje docelowe KH, moc dawki i, dla urządzenia z ustawionym dozowaniem, jego maksymalną dawkę na godzinę oraz ile suplementu alkaliczności zostało w pojemniku. Te wartości pochodzą wprost z ustawień AquaWiz. Zmieniasz je w aplikacji AquaWiz. Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega, gdy suplementu zaczyna brakować, domyślnie przy 100 mL.
 
 :::warning Jedno wspólne logowanie
 AquaWiz daje jedno logowanie na konto, więc Cora używa tego samego logowania co aplikacja AquaWiz. Po zmianie hasła AquaWiz Cora straci połączenie. Połącz ją ponownie z wiersza urządzenia. Jeśli chcesz całkiem odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.

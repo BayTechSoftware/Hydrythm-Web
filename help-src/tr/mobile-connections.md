@@ -74,7 +74,7 @@ Bağlamak için AquaWiz kullanıcı adınız ve şifreniz gerekir. Cora sizin ad
 
 Alkalinite, denetleyicinizin titrasyon sıklığında güncellenen bir kaynak olarak görünür. Üniteniz pH da bildiriyorsa onu da seçebilirsiniz.
 
-Cihazın kendi kartında hedef KH değeriniz, dozaj gücünüz ve üniteniz takip ediyorsa kapta kalan alkalinite takviyesi de gösterilir. Bunlar doğrudan AquaWiz ayarlarınızdan gelir; değiştirmek için AquaWiz uygulamasını kullanın. Üniteniz kabını takip ediyorsa takviye azaldığında Cora sizi uyarır, varsayılan eşik 100 mL'dir.
+Cihazın kendi kartında hedef KH değeriniz, dozaj gücünüz ve dozaj ayarı yapılmış bir ünite için saatlik maksimum dozu ile kapta kalan alkalinite takviyesi miktarı gösterilir. Bunlar doğrudan AquaWiz ayarlarınızdan gelir. Değiştirmek için AquaWiz uygulamasını kullanın. Üniteniz kabını takip ediyorsa takviye azaldığında Cora sizi uyarır, varsayılan eşik 100 mL'dir.
 
 :::warning Tek giriş, ortak kullanım
 AquaWiz her hesap için tek bir oturum verir. Cora'nın kullandığı oturum, AquaWiz'in kendi uygulamasının kullandığıyla aynıdır. AquaWiz şifrenizi değiştirirseniz Cora'nın bağlantısı kopar. Sonrasında cihaz satırından yeniden bağlayın. Cora'nın erişimini tamamen kaldırmak için cihazı Cora'dan silin ve AquaWiz şifrenizi değiştirin.

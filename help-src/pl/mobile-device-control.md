@@ -175,6 +175,10 @@ Jeśli gniazdo albo wartość docelowa wyglądają, jakby należały do grzałki
 
 Jeśli pojemnik dozownika zaczyna się kończyć, Cora ostrzega tak samo jak przy innych materiałach eksploatacyjnych. Domyślnie próg to 20% pojemności, a zmienisz go w regule dozownika w [Centrum alertów](/help/mobile-alerts).
 
+:::note ProfiLux mini
+Mini może tylko przełączać swoje gniazda. Wszystko inne tutaj, na przykład wartości docelowe i pauza na karmienie, wymaga ProfiLux 3, 4 albo Mitras.
+:::
+
 Jeśli kontroler odrzuci zmianę, sprawdź, czy jego API GHL jest włączone z pełnym dostępem. GHL wyłącza to po każdej aktualizacji firmware. Kroki opisuje [Rozwiązywanie problemów](/help/troubleshooting).
 
 ## HYDROS

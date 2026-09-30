@@ -175,6 +175,10 @@ Se una presa o un setpoint sembra appartenere a un riscaldatore o a una pompa di
 
 Se il contenitore di un dosatore sta per finire, Cora ti avvisa come fa per gli altri materiali di consumo. Il valore predefinito è 20% pieno, e lo puoi cambiare dalla regola del dosatore nel [Centro avvisi](/help/mobile-alerts).
 
+:::note ProfiLux mini
+Un mini può comandare solo le sue prese. Tutto il resto qui, come i setpoint e la pausa alimentazione, richiede un ProfiLux 3, 4 o Mitras.
+:::
+
 Se il controller rifiuta la modifica, controlla che la sua API GHL sia attiva con accesso completo. GHL la disattiva dopo ogni aggiornamento firmware. I passaggi sono in [Risoluzione dei problemi](/help/troubleshooting).
 
 ## HYDROS
