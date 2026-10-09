@@ -45,7 +45,7 @@
     <div class="wrap">
       <span class="eyebrow">Legal</span>
       <h1>Privacy Policy</h1>
-      <p class="date">Effective date: October 1, 2026</p>
+      <p class="date">Effective date: October 9, 2026</p>
     </div>
   </section>
 
@@ -169,6 +169,7 @@
       <ul>
         <li>Display and theme preferences</li>
         <li>Neptune Apex credentials and IP address</li>
+        <li>Passwords of the cameras you added (Section 1.19)</li>
         <li>Device connection history and cached data</li>
         <li>App configuration and preferences</li>
       </ul>
@@ -187,6 +188,18 @@
       <h3>1.18 Subscriptions</h3>
       <p>If you buy a Cora subscription, the payment is handled by the Apple App Store or Google Play under their own terms; we never receive your card or bank details. To know which plan your account has, we use a subscription management provider. It receives your Cora account identifier and the purchase records the store issues for your subscription (the plan, purchase and renewal dates, whether it will renew or was cancelled, and the store country and currency), and tells Cora Cloud which plan is active on your account.</p>
 
+      <h3>1.19 Cameras</h3>
+      <p>When you add a camera to Cora (for example a Wyze Cam or a Tapo camera):</p>
+      <ul>
+        <li>The camera&rsquo;s name, its address on your home network and its username are stored in Cora Cloud as part of your tank profile</li>
+        <li>The camera&rsquo;s password is stored in Cora Cloud encrypted with AES-256-GCM, under a key held in a dedicated secrets manager, separate from the database. It is given only to your own Cora account and to the Cora Max devices paired with your tank, so they can open the camera. Your phone keeps it in encrypted storage, and Cora Max keeps it encrypted at rest</li>
+        <li><strong>At home, video does not pass through our servers.</strong> When your phone or Cora Max is on the same network as the camera, it plays the video directly from the camera. Cora does not record video or audio</li>
+        <li><strong>Away from home, still pictures pass through Cora Cloud.</strong> While a camera is open on your phone and the phone cannot reach the camera directly (or you choose Snapshots), your Cora Max takes a small still picture from the camera about every 3 seconds and uploads it to Cora Cloud, where each picture replaces the previous one. Only your Cora account and the Cora Max devices paired with your tank can read it. So that Cora Max knows when to send pictures, your phone records in Cora Cloud that you are watching; that record is removed when you close the camera</li>
+        <li><strong>Pictures are not kept.</strong> There is only ever one picture per camera. It is overwritten every few seconds while you watch, and Cora Max deletes it when you stop watching. If Cora Max cannot do so (for example after a power cut), the picture is deleted the next time Cora Max starts, when you remove the camera, or when you delete the tank or your account</li>
+        <li>Camera pictures are not sent to the Cora Assistant or to our AI processing provider, and are used only to show them to you</li>
+        <li>Removing a camera deletes its stored password, its last picture and its viewing record</li>
+      </ul>
+
       <h2>2. How We Use Your Information</h2>
       <p>We use your information to:</p>
       <ul>
@@ -197,6 +210,7 @@
         <li>Deliver push notifications for maintenance reminders and parameter alerts</li>
         <li>Manage your subscription and the features your plan includes</li>
         <li>Communicate with your Cora devices and Neptune Apex controller</li>
+        <li>Show you your camera&rsquo;s live video at home, and its latest picture when you are away from home</li>
         <li>Improve the app and diagnose technical issues</li>
       </ul>
 
@@ -232,7 +246,8 @@
         <li>ICP report PDFs are retained in Cora Cloud until you delete them or your account</li>
         <li>Records of results sent by laboratories (without your email address once complete) are deleted after 90 days; a laboratory&rsquo;s PDF is deleted as soon as it has been added to your account or when no account matches</li>
         <li>Crash reports are deleted after 90 days</li>
-        <li>Our record of your subscription status is deleted with your account; the purchase records held by the App Store, Google Play and our subscription management provider are kept under their own retention rules for billing, refunds and tax</li>
+        <li>Camera pictures are not kept: one picture per camera is overwritten while you watch and deleted when you stop watching (Section 1.19). A stored camera password is kept until you remove the camera, the tank or your account</li>
+        <li>Our record of your subscription status is deleted with your account. Your customer record at our subscription management provider is kept for 120 days after your account is deleted, so that a refund or payment dispute made through the store can still be processed, and is then deleted. The purchase records held by the App Store and Google Play are kept under their own rules for billing, refunds and tax</li>
         <li>Local data remains on your device until you uninstall the app or clear app data</li>
         <li>Notification tokens are retained as long as your account is active</li>
       </ul>
@@ -249,6 +264,8 @@
         <li>All files associated with your account (ICP report PDFs) are permanently deleted</li>
         <li>Device telemetry data associated with your account is permanently deleted</li>
         <li>Any stored third-party service sign-in (such as an AquaWiz access token, and a password if you saved one) is permanently deleted</li>
+        <li>Stored camera passwords and any camera picture are permanently deleted</li>
+        <li>Your customer record at our subscription management provider is deleted 120 days after your account, once the store refund period has passed (Section 6)</li>
         <li>If you have left "Contribute anonymized tank data" enabled, a fully anonymized copy of your aquarium's parameter history is retained as described in Section 6.1; it contains nothing that identifies you</li>
         <li>Local data on your device remains until you uninstall the app</li>
       </ul>
