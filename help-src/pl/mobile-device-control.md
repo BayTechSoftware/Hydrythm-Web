@@ -76,7 +76,7 @@ Każda głowica ma ustawiony **typ użycia**. Dzięki temu Cora wie, co głowica
 
 Dwa typy dla podmiany wody działają **w parze**. W jednej głowicy ustaw **Sparowana głowica** na tę drugą, która przenosi wodę w przeciwną stronę. Cora potraktuje je wtedy jako jedną parę do podmiany wody.
 
-Pojemnik może mieć do 1000 L, przy każdym typie użycia. Sam Apex liczy tylko do 150 L, więc powyżej tego Cora śledzi pojemnik sama, na podstawie tego, co dozuje głowica. Podaj **Całkowita objętość** przy konfiguracji. Cora co jakiś czas resetuje też własny licznik Apex, a Aktywność pokazuje to jako *Reset the Apex's own counter to 150 L*.
+Pojemnik może mieć do 1000 L, przy każdym typie użycia. Sam Apex liczy tylko do 150 L, więc powyżej tego Cora śledzi pojemnik sama, na podstawie tego, co dozuje głowica. Podaj **Całkowita objętość** przy konfiguracji. Cora co jakiś czas resetuje też własny licznik Apex, a Aktywność pokazuje to jako *Własny licznik Apex zresetowano do 150 L*.
 
 Każda głowica ma też limit **Największa dawka ręczna**. Chroni on przed literówką, przez którą ręczna dawka byłaby dużo większa niż planowana. Duże dawki ręczne są dostępne dopiero wtedy, gdy tempo głowicy zmierzono prawdziwym testem przy akwarium, i dopiero po włączeniu **Duże dawki (Beta)** w ustawieniach głowicy. Domyślnie jest wyłączone: włącz je dopiero po obejrzeniu pierwszej dużej dawki wykonanej przy akwarium.
 

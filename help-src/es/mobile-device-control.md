@@ -76,7 +76,7 @@ A cada cabezal se le asigna un **tipo de uso**. Así Cora sabe qué hace y puede
 
 Los dos tipos de cambio de agua van **en pareja**. En el **Cabezal emparejado** de un cabezal, elige el otro, el que mueve el agua en sentido contrario. Cora los tratará como una pareja de cambio de agua y no como dos cabezales sueltos.
 
-Un recipiente puede ser de hasta 1.000 L, con cualquier tipo de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora controla el recipiente por su cuenta a partir de lo que dosifica el cabezal. Indica el **Volumen total** al configurarlo. Cora también restablece de vez en cuando el contador del propio Apex, y Actividad lo muestra como *Reset the Apex's own counter to 150 L*.
+Un recipiente puede ser de hasta 1.000 L, con cualquier tipo de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora controla el recipiente por su cuenta a partir de lo que dosifica el cabezal. Indica el **Volumen total** al configurarlo. Cora también restablece de vez en cuando el contador del propio Apex, y Actividad lo muestra como *Contador propio del Apex restablecido a 150 L*.
 
 Cada cabezal tiene además un límite de **Dosis manual más grande**. Sirve para que un error al escribir una dosis manual no acabe en una dosis mucho mayor de lo previsto. Las dosis manuales grandes solo se pueden usar cuando el caudal del cabezal se ha medido con una prueba real en el acuario, y después de activar **Dosis grandes (Beta)** en los ajustes del cabezal. Está desactivado por defecto: actívalo solo después de haber observado cómo se ejecuta la primera dosis grande junto al acuario.
 

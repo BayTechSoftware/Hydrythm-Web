@@ -59,7 +59,7 @@ Ocena wynika z porównania wyników z zakresami docelowymi, także z tymi, któr
 
 **Wszystkie śledzone pierwiastki**, czyli główne parametry, a także pierwiastki śladowe i zanieczyszczenia. Cora zapisuje wszystkie 71 pierwiastków, które może podać laboratorium, a linia, którą niektóre laboratoria nazywają *Acidity*, to pH.
 
-W każdym wierszu pierwiastka widzisz zakres wydrukowany przez laboratorium, pokazany jako *Lab range*, obok własnego zakresu Cory dla tego pierwiastka. Pierwiastek, dla którego Cora nie ma zakresu odniesienia, ma znacznik **No Cora range**. Raport podaje, ile pierwiastków ma zakres Cory, a resztę ocenia na podstawie ogólnej wiedzy o akwariach rafowych. Asystent Cora komentuje każdy przebadany pierwiastek, a jego komentarz zostaje, nawet gdy nie ma zakresu Cory.
+W każdym wierszu pierwiastka widzisz zakres wydrukowany przez laboratorium, pokazany jako *Zakres laboratorium*, obok własnego zakresu Cory dla tego pierwiastka. Pierwiastek, dla którego Cora nie ma zakresu odniesienia, ma znacznik **Brak zakresu Cora**. Raport podaje, ile pierwiastków ma zakres Cory, a resztę ocenia na podstawie ogólnej wiedzy o akwariach rafowych. Asystent Cora komentuje każdy przebadany pierwiastek, a jego komentarz zostaje, nawet gdy nie ma zakresu Cory.
 
 Jeśli laboratorium drukuje *n.d.* albo *not detected* dla pierwiastka, Cora zapisuje go jako 0 i pisze, że nie wykryto.
 

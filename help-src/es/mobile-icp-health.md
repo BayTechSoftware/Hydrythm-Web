@@ -59,7 +59,7 @@ La puntuación compara tus resultados con sus rangos objetivo, incluidos los que
 
 Cora sigue **todos los elementos**, también los oligoelementos y los contaminantes, además de los parámetros principales. Cora registra los 71 elementos que puede informar un laboratorio, y la línea que algunos laboratorios llaman *Acidity* es el pH.
 
-En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado como *Lab range*, junto al rango propio de Cora para ese elemento. Un elemento para el que Cora no tiene rango de referencia lleva la etiqueta **No Cora range**. El informe indica cuántos elementos tienen un rango de Cora y evalúa el resto con el conocimiento general de acuarios de arrecife. Cora Assistant comenta todos los elementos analizados, y su comentario se mantiene aunque no haya rango de Cora.
+En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado como *Rango del laboratorio*, junto al rango propio de Cora para ese elemento. Un elemento para el que Cora no tiene rango de referencia lleva la etiqueta **Sin rango de Cora**. El informe indica cuántos elementos tienen un rango de Cora y evalúa el resto con el conocimiento general de acuarios de arrecife. Cora Assistant comenta todos los elementos analizados, y su comentario se mantiene aunque no haya rango de Cora.
 
 Si el laboratorio imprime *n.d.*, o *not detected*, para un elemento, Cora lo registra como 0 y dice que no se detectó.
 
