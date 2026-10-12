@@ -2,7 +2,7 @@
 title: Adding, editing and removing devices
 description: How to add equipment to Cora, assign it to a tank, and remove it cleanly, all from one place.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 9
 group: Equipment
 ---
@@ -13,7 +13,13 @@ Add, edit, assign and remove every device from the **Devices** tab, grouped by b
 
 ## Adding equipment
 
-Tap **Add Device**, then pick the brand: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* or **AquaWiz**. Each one opens exactly what it needs to find your equipment: a network scan, an IP address, a sign-in or a device key. [Connecting your equipment](/help/mobile-connections) covers what each brand needs.
+Tap **Add Device**, then pick the brand: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** or **AquaWiz**. Beta users also see **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** and **Camera**, each with a **Beta** chip. Each one opens exactly what it needs to find your equipment: a network scan, an IP address, a sign-in or a device key. [Connecting your equipment](/help/mobile-connections) covers what each brand needs.
+
+:::note Beta
+**Beta.** The Beta integrations are only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). More in [Beta features](/help/mobile-beta).
+:::
+
+A row that needs a Cora Max in the tank (Maxspect, GHL, EcoTech, Inkbird and Camera) is greyed out and says **Requires Cora Max** until the tank has one.
 
 **Cora** is how you pair a new Cora Max. It finds units already on your Wi-Fi, or nearby ones over Bluetooth. If it can't find yours, use **Enter IP Address Manually** on the same screen.
 
@@ -41,13 +47,24 @@ A device without a tank still reports, but its numbers have nowhere to go. If a 
 
 ## Renaming
 
-Open the device and edit its name. Use what you call it day to day, like "Return", "Left gyre" or "Sump heater". The name shows up on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes all of that clearer.
+Open the device and tap the pencil beside its name. Use what you call it day to day, like "Return", "Left gyre" or "Sump heater". The name shows up on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes all of that clearer.
+
+Names can be up to 40 characters. If two devices of the same kind have no name, Cora tells them apart with a short code after the name. Cora never uses a serial number as a name.
 
 The new name only applies in Cora. It doesn't change the name in the manufacturer's own app.
 
 ## Checking whether a device is healthy
 
-Each row shows the device's current state. You want to see a recent update time and no warning.
+Each device is one row on the Devices tab, with its icon, name, model and tank. The dot on the row shows its state.
+
+| Dot | What it means |
+|---|---|
+| Grey | Cora doesn't know yet |
+| Green | Working normally |
+| Orange | A warning or a fault |
+| Red | Offline |
+
+Readings, modes, unlinking and the IP address are on the device's details page, which opens with a **Status** section. You want to see a recent update time and no warning.
 
 | What you see | What it means |
 |---|---|

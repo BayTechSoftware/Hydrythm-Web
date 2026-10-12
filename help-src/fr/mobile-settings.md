@@ -2,7 +2,7 @@
 title: Réglages
 description: Toutes les sections des réglages de Cora Mobile : compte, aquariums, Cora Assistant, langue, notifications, automatisation et activité.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ La carte du haut indique le compte connecté et votre forfait. Touchez-la pour a
 
 - **Nom d’affichage** : le nom sous lequel Cora Mobile vous désigne
 - **Forfait et abonnement** : votre forfait, ce qu’il comprend et comment en changer
+- **E-mails labo et ICP** : ajoutez jusqu’à 3 adresses e-mail supplémentaires que votre laboratoire peut utiliser pour joindre votre compte. Voir [Rapports ICP et de santé](/help/mobile-icp-health).
 - **Se déconnecter**
 - **Supprimer le compte** : c’est définitif. Lisez d’abord les deux notes plus bas.
 
@@ -39,9 +40,15 @@ Une ligne par aquarium, puis :
 - **Réorganiser les aquariums** : l’ordre dans lequel ils défilent quand vous balayez le tableau de bord
 - **Aquariums supprimés** : les aquariums que vous avez supprimés, si vous devez y récupérer quelque chose
 
-Ouvrez un aquarium pour modifier ses informations, et pour accéder à **Cora Max principal** (l’appareil qui interroge l’équipement de cet aquarium), à **Configuration guidée** et à une liste **Appareils sur cet aquarium** en lecture seule. Cora Max principal est expliqué en détail dans **[Plus d’un appareil Cora](/help/mobile-multi-device)**. Pour ajouter ou retirer un appareil, utilisez l’[onglet Appareils](/help/mobile-devices).
+Quand vous ouvrez un aquarium, sa page de réglages comporte trois parties.
 
-- **Mode vacances** : un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et dressez la liste des tâches avec leur fréquence. Cora en fait une page simple, en lecture seule, que vous partagez avec cette personne. Elle n’a pas besoin de compte. Tout est expliqué dans **[Partir en vacances](/help/mobile-vacation)**.
+- **Réglages** contient **Modifier l’aquarium**, **Association des paramètres**, **Seuils d’alerte**, **Unités**, **Cora Max principal** et **Mode vacances**.
+- **Registres et rapports** contient **Journal**, **Entretien**, **Population**, **Reef Buddy**, **Rapports de santé**, **Rapports ICP**, **Activité** et **Configuration guidée**.
+- **Appareils sur cet aquarium** est une liste en lecture seule.
+
+**Association des paramètres** sert à choisir quel appareil alimente chaque mesure. Voir [Association des paramètres](/help/mobile-probes). **Unités** règle la façon dont cet aquarium affiche ses mesures, y compris les litres ou les gallons US ou UK pour le volume. Voir [Le profil de votre aquarium](/help/mobile-tank-profile). **Cora Max principal** est l’appareil qui interroge l’équipement de cet aquarium, et il est expliqué dans [Plus d’un appareil Cora](/help/mobile-multi-device). Pour ajouter ou retirer un appareil, utilisez l’[onglet Appareils](/help/mobile-devices).
+
+**Mode vacances** : un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et dressez la liste des tâches avec leur fréquence. Cora en fait une page simple, en lecture seule, que vous partagez avec cette personne. Elle n’a pas besoin de compte. Tout est expliqué dans **[Partir en vacances](/help/mobile-vacation)**.
 
 ## Réglages de l’application
 

@@ -83,8 +83,11 @@
 <li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
 <li><a href="/fr/help/mobile-device-control">Contrôler votre équipement</a></li>
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
-<li><a href="/fr/help/mobile-probes">Sondes</a></li>
+<li><a href="/fr/help/mobile-probes">Association des paramètres</a></li>
 <li><a href="/fr/help/mobile-consumables">Consommables</a></li>
+<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
+<li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
+<li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Alertes et automatisation</summary><ul>
@@ -194,9 +197,12 @@
 <ul><li><strong>La cloche</strong>, en haut à droite de chaque écran, garde l’historique. Le chiffre indique le nombre d’alertes non lues.</li><li><strong>Les notifications push</strong> arrivent sur votre téléphone si vous les autorisez.</li><li><strong>Le widget</strong> passe à l’orange ou au rouge dans le tableau de bord.</li><li><strong>Cora Max</strong> affiche les mêmes alertes sur le grand écran.</li></ul>
 <h2 id="quand-lquipement-a-besoin-dattention">Quand l’équipement a besoin d’attention</h2>
 <p>Certaines alertes portent sur l’équipement et non sur une mesure. Quand un appareil comme un Trident ou une pompe Jecod™ signale une panne, Cora envoie une notification avec le nom de l’aquarium et de l’appareil, par exemple <em>« Aquarium Display : la pompe de remontée a besoin d’attention »</em>. Elle précise le problème, comme un rotor bloqué. Quand la panne disparaît, une deuxième notification suit : <em>« Aquarium Display : la pompe de remontée est de nouveau OK »</em>. Les deux dépendent de <strong>Pannes d’équipement</strong> dans <strong>Réglages → Notifications</strong>.</p>
-<p>Une pompe de brassage Maxspect™ (bêta) peut déclencher la même alerte. Cela arrive quand un Cora Max sur le même réseau trouve les deux têtes réglées à 0 %, ou quand la pompe ne répond pas deux fois de suite. Voyez-y un avertissement, pas une sécurité. Le Cora Max vérifie de temps en temps, pas en continu, et seulement s’il est allumé et peut joindre la pompe.</p>
+<p>Une pompe de brassage Maxspect™ (Beta) peut déclencher la même alerte. Cela arrive quand un Cora Max sur le même réseau trouve les deux têtes réglées à 0 %, ou quand la pompe ne répond pas deux fois de suite. Voyez-y un avertissement, pas une sécurité. Le Cora Max vérifie de temps en temps, pas en continu, et seulement s’il est allumé et peut joindre la pompe.</p>
 <h2 id="un-appareil-ne-se-signale-plus">Un appareil ne se signale plus</h2>
-<p>Si un Neptune™ Apex, un appareil Red Sea™ ReefBeat, un AquaWiz™, une pompe Jecod ou une pompe de brassage Maxspect devient silencieux, Cora vous prévient : <em>« [Appareil] : ne se signale plus »</em>. Vérifiez son alimentation et son Wi-Fi, et que le Cora Max qui le lit est allumé. La plupart des appareils déclenchent cette alerte après environ 30 minutes sans mise à jour. AquaWiz vérifie moins souvent, il attend donc environ 3 heures. Une deuxième notification arrive dès qu’il se signale de nouveau.</p>
+<p>Si un Neptune™ Apex, un appareil Red Sea™ ReefBeat, un AquaWiz™, une pompe Jecod, une pompe de brassage Maxspect, un appareil EcoTech™ ou un moniteur d’air ambiant Inkbird™ devient silencieux, Cora vous prévient : <em>« [Appareil] : ne se signale plus »</em>. Vérifiez son alimentation et son Wi-Fi (ou la portée Bluetooth), et que le Cora Max qui le lit est allumé. Une deuxième notification arrive dès qu’il se signale de nouveau.</p>
+<p>Le délai d’attente de Cora dépend de l’appareil.</p>
+<ul><li>Neptune Apex et Red Sea ReefBeat : environ 30 minutes sans mise à jour.</li><li>AquaWiz : environ 3 heures, car il vérifie moins souvent.</li><li>Jecod et Maxspect : trois mesures manquées de suite, comptées sur l’intervalle de mesure propre à l’appareil.</li><li>EcoTech et Inkbird : trois mesures manquées de suite, comptées sur l’intervalle que vous avez réglé pour ce réseau ou ce moniteur.</li></ul>
+<p>Maxspect, EcoTech et Inkbird sont des intégrations Beta que seuls les utilisateurs Beta peuvent ajouter. Voir <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p>
 <p>Cette alerte dépend de <strong>Pannes d’équipement</strong> dans <strong>Réglages → Notifications</strong>, comme les alertes de panne ci-dessus.</p>
 <h2 id="les-mesures-red-sea-ont-arrt-de-se-mettre-jour">« Les mesures Red Sea ont arrêté de se mettre à jour »</h2>
 <p>Cette bannière peut apparaître sur la page d’un paramètre :</p>
@@ -220,7 +226,7 @@
 <p>Ouvrez la règle dans l’onglet <strong>Règles</strong> du Centre d’alertes et coupez son <strong>interrupteur d’activation</strong>. La règle et sa plage sont gardées. Vous pourrez la réactiver sans tout refaire.</p>
 <aside class="cal cal-warning"><p class="cal-t">Faire taire un paramètre sans supprimer sa plage</p><p>Retirer un seuil n’arrête pas forcément toute évaluation de la mesure. Les plages de référence par défaut colorent toujours la valeur et peuvent toujours alimenter le briefing. Utilisez plutôt l’interrupteur d’activation de la règle.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/mobile-consumables"><span>Précédent</span><b>Consommables</b></a><a class="pn-n" href="/fr/help/mobile-notifications"><span>Suivant</span><b>Notifications</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.80 et Cora Mobile 0.5.81. Vérifié pour la dernière fois le 2026-09-30.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.165 et Cora Mobile 0.5.109. Vérifié pour la dernière fois le 2026-10-12.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>

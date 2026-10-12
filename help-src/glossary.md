@@ -2,7 +2,7 @@
 title: Glossary
 description: What Cora means by tank, source, widget, saved design, threshold, insight and other words you'll see.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 2
 ---
 
@@ -64,7 +64,7 @@ A pause for feeding. It stops the right equipment and turns it back on automatic
 
 ## GHL
 
-Short for GHL Advanced Technology, maker of the ProfiLux and Mitras line of controllers. Cora's GHL support is a **beta**. See [Connecting your equipment](/help/mobile-connections).
+Short for GHL Advanced Technology, maker of the ProfiLux and Mitras line of controllers. Cora's GHL support is in **Beta** and only open to Beta users. See [Beta features](/help/mobile-beta).
 
 ## Health report
 
@@ -72,7 +72,7 @@ A deeper, periodic look at a whole system. It takes every parameter, source, dos
 
 ## HYDROS
 
-CoralVue's controller and dosing ecosystem. Cora reaches it through HYDROS's own cloud, so it keeps working away from home. Cora's HYDROS support is a **beta**. See [Connecting your equipment](/help/mobile-connections).
+CoralVue's controller and dosing ecosystem. Cora reaches it through HYDROS's own cloud, so it keeps working away from home. Cora's HYDROS support is in **Beta** and only open to Beta users. See [Beta features](/help/mobile-beta).
 
 ## ICP
 
@@ -128,4 +128,4 @@ Tank-sitter mode. You make a dated plan with a checklist of jobs, and Cora turns
 
 ## Widget
 
-One tile on a dashboard that shows one thing. There are eleven types: Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod, Maxspect *(beta)*, GHL *(beta)* and HYDROS *(beta)*. See [Widget reference](/help/mobile-widgets).
+One tile on a dashboard that shows one thing. There are sixteen types: Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* and Camera *(Beta)*. See [Widget reference](/help/mobile-widgets).

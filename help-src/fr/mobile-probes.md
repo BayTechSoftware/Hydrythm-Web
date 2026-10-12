@@ -1,23 +1,27 @@
 ---
-title: Sondes
+title: Association des paramètres
 description: Voyez quelle sonde alimente chaque mesure sur tous vos contrôleurs, et notez les étalonnages et nettoyages.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 13
 group: Equipment
 ---
 
-Si vous avez plus d’un contrôleur, ou deux sondes qui mesurent la même chose, Cora doit savoir quelle mesure croire. L’association des sondes est l’endroit où vous réglez cela, et où vous dites aussi à Cora ce qu’est chaque sonde.
+Si vous avez plus d’un contrôleur, ou deux sondes qui mesurent la même chose, Cora doit savoir quelle mesure croire. **Association des paramètres** est l’endroit où vous réglez cela, et où vous dites aussi à Cora ce qu’est chaque sonde.
 
-Ouvrez le **profil de l’aquarium** (le crayon en haut du tableau de bord) et touchez **Association des sondes**.
+Allez dans **Réglages**, ouvrez l’aquarium et choisissez **Association des paramètres**. Elle se trouve entre **Modifier l’aquarium** et **Seuils d’alerte**. Le crayon en haut du tableau de bord ouvre **Modifier l’aquarium**, qui ne la contient pas. Vous y accédez aussi depuis les pages d’appareil Neptune Apex et GHL (Beta). GHL n’est ouvert qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
+
+L’écran a un champ de recherche (**Rechercher un paramètre**) et deux onglets, **Association** et **Sources**. La recherche porte sur les noms de paramètres, les noms de sondes, les appareils et les marques. Le même champ de recherche existe dans chaque sélecteur de paramètre.
 
 ## D’où vient chaque mesure
+
+C’est l’onglet **Sources**.
 
 ![D’où vient chaque mesure](img/mobile-probes.webp "Chaque paramètre, la sonde qui l’alimente, et un bouton Choisir pour la changer.")
 
 Cette section liste chaque paramètre que Cora suit pour cet aquarium, comme le pH ou la température, et montre quelle sonde l’alimente actuellement.
 
-Touchez une mesure pour voir toutes les sondes qui la signalent, sur tous les contrôleurs que vous avez connectés. Chacune affiche sa marque, son propre nom pour la sonde, et sa valeur en direct. Choisissez-en une pour l’épingler, ou choisissez **Automatique** pour laisser Cora utiliser celle qui transmet.
+Touchez une mesure pour voir toutes les sondes qui la signalent, sur tous les contrôleurs que vous avez connectés. Chacune affiche sa marque, son propre nom pour la sonde, et sa valeur en direct. Choisissez-en une pour l’épingler, ou choisissez **Automatique (la mesure la plus récente l’emporte)** pour laisser Cora utiliser la sonde qui a transmis en dernier. Les autres restent dans l’historique.
 
 Une étiquette à côté de chaque mesure indique ce qui est actif : **Automatique**, ou **Choisi par vous** une fois que vous avez épinglé une sonde.
 
@@ -31,7 +35,7 @@ L’alarme d’un capteur de fuite dépend de son propre nom, il est donc exclu 
 
 ## Sondes : dire à Cora ce qu’est chacune
 
-Plus bas, vous verrez toutes les sondes que Cora connaît, groupées par l’appareil qui les signale, avec leur mesure actuelle. Cora reconnaît tout seul les noms de sonde standard, et chaque ligne montre ce qu’il a trouvé. En général, il vous reste seulement à corriger celles qu’il n’a pas su placer.
+L’onglet **Association** s’ouvre en premier. Il liste toutes les sondes que Cora connaît, groupées par l’appareil qui les signale, avec leur mesure actuelle. Cora reconnaît tout seul les noms de sonde standard, et chaque ligne montre ce qu’il a trouvé. En général, il vous reste seulement à corriger celles qu’il n’a pas su placer.
 
 Chaque ligne propose trois choix :
 
@@ -49,7 +53,9 @@ Si un paramètre n’affiche aucune mesure alors que la sonde fonctionne, vérif
 
 ## Plusieurs sondes pour un même paramètre
 
-Si vous avez deux sondes de température, sur le même contrôleur ou sur deux contrôleurs différents, associez les deux. Cora les garde comme sources distinctes, et **D’où vient chaque mesure** ci-dessus est l’endroit où vous choisissez laquelle alimente la mesure, ou vous la laissez sur Automatique. Vous pouvez les comparer dans [la page du paramètre](/help/mobile-metric-detail).
+Si vous avez deux sondes de température, sur le même contrôleur ou sur deux contrôleurs différents, associez les deux. Cora les garde comme sources distinctes, et l’onglet **Sources** est l’endroit où vous choisissez laquelle alimente la mesure, ou vous la laissez sur Automatique. Vous pouvez les comparer dans [la page du paramètre](/help/mobile-metric-detail).
+
+Quand deux sources rapportent le même paramètre, la mesure la plus récente l’emporte. Une valeur à l’écran n’est remplacée que par une mesure dont l’heure de mesure est plus tardive, quel que soit l’appareil. Une mesure plus ancienne, ou un appareil qui renvoie une ancienne mesure, va dans l’historique et n’écrase pas la valeur actuelle. Si vous avez épinglé une source, Cora suit cette source à la place.
 
 ## Noter l’entretien des sondes
 

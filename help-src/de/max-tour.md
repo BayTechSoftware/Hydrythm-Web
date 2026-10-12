@@ -2,7 +2,7 @@
 title: Der Cora Max-Startbildschirm
 description: Was du auf dem Cora Max-Bildschirm siehst, von der oberen Leiste über das Dashboard-Raster bis zur Steckdosen-Schublade.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ Von links nach rechts:
 | **Veraltet** | Es kommen keine neuen Messwerte mehr an. Der Bildschirm zeigt die letzten, die er bekommen hat |
 | **Apex erneut in 12s** | Dein Apex hat nicht geantwortet. Cora Max versucht es noch einmal, wenn der Countdown abgelaufen ist |
 | **Cloud-Abgleich fehlgeschlagen** | Dein Apex hat geantwortet, aber seine Messwerte ließen sich nicht in Cora Cloud speichern. Das Dashboard hinkt deshalb hinterher. Cora Max versucht es weiter |
+| **Cloud-Speichern abgelehnt** | Cora Cloud lehnt es ab, einen Teil der Daten dieses Bildschirms zu speichern. Mit deinem Becken oder mit Cora Max ist alles in Ordnung, und auf diesem Bildschirm musst du nichts ändern. Die Lösung ist ein Update von Cora Cloud. Öffne **Einstellungen → Cora Max-Einstellungen → Firmware-Update** und sieh im Bereich **Status** nach: Die Zeile **Cloud-Speichern** nennt die betroffenen Daten. Dann [wende dich an den Support](/support.html) |
 | **Offline** | Keine Verbindung. Der Bildschirm zeigt die letzten Daten, die er bekommen hat |
 | **Offline, erneuter Versuch in 45s** | Dein Netzwerk läuft, aber Cora Cloud ist seit mehr als 30 Sekunden nicht erreichbar. Cora Max verbindet sich von selbst neu. Der Countdown zeigt, wann der nächste Versuch kommt |
 | **Haupt-Cora offline** | Dieser Bildschirm ist ein zweites Cora Max für dieses Becken, und das Gerät aus **Primäres Cora Max** ist offline. Dieser Bildschirm zeigt die letzten Daten, bis das primäre Gerät wieder da ist oder du ein anderes wählst. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device) |
@@ -73,10 +74,12 @@ Tippst du auf den Beckennamen, öffnet sich das Menü für das Becken, das gerad
 | **Zustandsberichte** | Bewertungen zum Zustand deines Beckens |
 | **Wartung** | Die [Aufgabenliste](/help/mobile-maintenance) |
 | **ICP-Berichte** | Hochgeladene [Laborergebnisse](/help/mobile-icp-health) |
-| **Warnungen** | Der gesunde Bereich für jeden Wasserwert dieses Beckens |
+| **Parameterverlauf** | Einen beliebigen Wasserwert mit Daten wählen und sein [Diagramm](/help/max-intelligence) öffnen |
+| **Warnschwellen** | Der gesunde Bereich für jeden Wasserwert dieses Beckens |
 | **Besatz** | Der [Besatz](/help/mobile-livestock) dieses Beckens, hier nur zum Ansehen |
 | **Aktivität** | [Alle Schaltvorgänge, Fütterungen und Dosierungen](/help/max-activity) und was daraus wurde |
 | **Dashboard-Layout** | [Die Widgets auf diesem Bildschirm anordnen](/help/max-dashboard-editing) |
+| **Einheiten** | Die Anzeigeeinheiten für die Messwerte dieses Beckens |
 | **Beckeneinstellungen** | Alle Einstellungen für dieses Becken |
 
 ## Das Becken wechseln

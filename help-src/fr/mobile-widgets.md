@@ -2,7 +2,7 @@
 title: Référence des widgets
 description: Tous les types de widgets de Cora (valeur, jauge, graphique, état, prise et tuiles d’appareil), et quand utiliser chacun.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Vous ajoutez et placez les widgets dans **[l’éditeur de tableau de bord](/hel
 
 ![Configurer un widget](img/mobile-widget-config.webp "Type, paramètre, puis largeur et hauteur.")
 
-## Les onze types
+## Les seize types
 
 | Type | Affiche |
 |---|---|
@@ -22,14 +22,23 @@ Vous ajoutez et placez les widgets dans **[l’éditeur de tableau de bord](/hel
 | **Graphique** | Une tendance sur la période de votre choix |
 | **État** | Un état en toutes lettres : en marche, à l’arrêt, fermé |
 | **Prise** | Une commande à trois positions : Auto, Éteint, Allumé |
+| **Scène** | Une scène que vous lancez d’une touche. Vous l’ajoutez sur Cora Max |
 | **ReefBeat** | Un appareil Red Sea, avec son propre résumé |
 | **Module Apex** | Un module Apex installé, comme un Trident ou un DŌS |
 | **Jecod** | Une pompe Jecod, avec son mode et son intensité |
-| **Maxspect** *(bêta)* | Une pompe Gyre, avec ses deux moteurs |
-| **GHL** *(bêta)* | Un contrôleur ProfiLux ou Mitras, avec son propre résumé |
-| **HYDROS** *(bêta)* | Un contrôleur HYDROS, avec son propre résumé |
+| **Maxspect** *(Beta)* | Une pompe Gyre, avec ses deux moteurs |
+| **GHL** *(Beta)* | Un contrôleur ProfiLux ou Mitras, avec son propre résumé |
+| **HYDROS** *(Beta)* | Un contrôleur HYDROS, avec son propre résumé |
+| **Radion** *(Beta)* | Une lampe EcoTech Radion, ou un réseau Radion associé |
+| **VorTech** *(Beta)* | Une pompe EcoTech VorTech, avec son mode et sa vitesse |
+| **Versa** *(Beta)* | Un doseur EcoTech Versa, avec ses têtes |
+| **Caméra** *(Beta)* | Une vue en direct de l’une de vos caméras, jusqu’à trois colonnes de large et deux lignes de haut |
 
-Les six derniers sont des tuiles d’**appareil**. Elles sont liées à un équipement, pas à un paramètre, et chacune affiche ce que cet appareil transmet.
+Tout ce qui suit Scène est une tuile d’**appareil**. Elles sont liées à un équipement, pas à un paramètre, et chacune affiche ce que cet appareil transmet.
+
+:::note Tuiles Beta
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech et Versa) et Caméra sont des intégrations Beta, ouvertes uniquement aux utilisateurs Beta. Vous ne voyez ces tuiles qu’une fois l’appareil ajouté. Voir [Fonctions Beta](/help/mobile-beta).
+:::
 
 ## Taille
 
@@ -97,6 +106,12 @@ Une tuile pour un appareil entier. Elle affiche son propre résumé, pas un para
 Les appareils qui proposent une tuile dépendent de ce que vous avez connecté. Voir **[Connecter votre équipement](/help/mobile-connections)**.
 
 Réglages : étiquette, appareil concerné, taille.
+
+## Tuiles de doseur
+
+Une tuile de doseur (un Apex DŌS, un ReefDose ou un EcoTech Versa) affiche une ligne par tête. Le nom d’une tête n’est jamais réduit sous une taille lisible. Sur une tuile haute, la ligne prend deux lignes, avec le nom sur la première et ce qu’il reste sur la seconde, par exemple *40d* et *2.8 L*. Sur une tuile basse, la ligne de détail disparaît et le nom reste lisible.
+
+Choisissez ce qui vient en premier avec **Afficher le reste en** : **Jours** ou **Millilitres (mL)**. Une tête ReefDose sans nom propre s’affiche avec le nom de l’appareil suivi de « tête » et de son numéro. Une tuile de doseur Jecod est en lecture seule et affiche le plan quotidien, car Jecod ne signale pas ce qu’il reste dans le flacon.
 
 ## Ce qu’affiche un widget de paramètre
 

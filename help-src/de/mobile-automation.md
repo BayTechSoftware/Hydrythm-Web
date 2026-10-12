@@ -2,7 +2,7 @@
 title: Automationen und Szenen
 description: Leg Regeln an, die von selbst laufen (Auslöser, Bedingungen, Aktionen), und fasse Aktionen zu Szenen zusammen.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Aktionen für bestimmte Geräte bekommst du nur bei einem Becken angeboten, zu d
 | **Eine Szene ausführen** | startet eine andere Szene aus dieser Regel heraus |
 | **Eine Automation verwalten** | schaltet eine andere Regel ein oder aus |
 | **Einen DŌS Kopf dosieren** | gibt an einem DŌS-Kopf eine abgemessene Dosis ab |
+| **Wartungsaufgabe erstellen** | setzt eine Aufgabe auf die [Wartungsliste](/help/mobile-maintenance) des Beckens, zum Beispiel das Filtermaterial des CO2-Scrubbers zu wechseln, wenn der pH unter einen Wert fällt |
 
 :::warning Dosieren per Regel lässt sich nicht rückgängig machen und ist begrenzt
 Was einmal dosiert ist, bekommst du nicht mehr aus dem Becken. Ein Kopf muss **kalibriert** sein, bevor eine Regel damit dosieren darf. Unbeaufsichtigtes Dosieren ist auf **10 mL pro Kopf und Tag** begrenzt. Keine Regel kann das überschreiten, egal wie sie geschrieben ist. Dosier-Aktionen tauchen erst auf, wenn Cora deine Köpfe als Dosierköpfe erkannt hat.
+:::
+
+:::note Was Wartungsaufgabe erstellen macht
+Wähle das Becken, dann **Bestehende Aufgabe** (eine bestehende Aufgabe wird sofort fällig) oder **Neue Aufgabe** (gib einen **Aufgabenname** an). Eine neue Aufgabe ist einmalig und sofort fällig, und die Regel legt sie nicht noch einmal an, solange sie offen ist. Du bekommst eine Benachrichtigung, und die einmalige Aufgabe verschwindet aus der Liste, sobald du sie erledigst.
 :::
 
 :::note Mit Warten Schritte in einer Regel ordnen

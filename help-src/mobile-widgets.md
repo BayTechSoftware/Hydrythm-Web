@@ -2,7 +2,7 @@
 title: Widget reference
 description: Every widget type in Cora, from value, gauge, graph, status and outlet to the device tiles, and when to use each one.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-edi
 
 ![Configuring a widget](img/mobile-widget-config.webp "Type, parameter, then width and height.")
 
-## The eleven types
+## The sixteen types
 
 | Type | Shows |
 |---|---|
@@ -22,14 +22,23 @@ You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-edi
 | **Graph** | A trend over a window you choose |
 | **Status** | A state as text: running, idle, closed |
 | **Outlet** | A three-way control: Auto, Off, On |
+| **Scene** | A scene you run with a tap. You add it on Cora Max |
 | **ReefBeat** | One Red Sea unit, with its own summary |
 | **Apex module** | One fitted Apex module, such as a Trident or DŌS |
 | **Jecod** | One Jecod pump, with its mode and intensity |
-| **Maxspect** *(beta)* | One gyre, with both motors |
-| **GHL** *(beta)* | One ProfiLux or Mitras controller, with its own summary |
-| **HYDROS** *(beta)* | One HYDROS controller, with its own summary |
+| **Maxspect** *(Beta)* | One gyre, with both motors |
+| **GHL** *(Beta)* | One ProfiLux or Mitras controller, with its own summary |
+| **HYDROS** *(Beta)* | One HYDROS controller, with its own summary |
+| **Radion** *(Beta)* | One EcoTech Radion light, or a linked Radion mesh |
+| **VorTech** *(Beta)* | One EcoTech VorTech pump, with its mode and speed |
+| **Versa** *(Beta)* | One EcoTech Versa doser, with its heads |
+| **Camera** *(Beta)* | A live view from one of your cameras, up to three columns wide and two rows tall |
 
-The last six are **device** tiles. Each one belongs to a piece of equipment instead of a parameter, and shows whatever that unit reports.
+Everything after Scene is a **device** tile. Each one belongs to a piece of equipment instead of a parameter, and shows whatever that unit reports.
+
+:::note Beta tiles
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech and Versa) and Camera are Beta integrations, only open to Beta users. You only see these tiles once you have the device. See [Beta features](/help/mobile-beta).
+:::
 
 ## Sizing
 
@@ -97,6 +106,12 @@ This is one tile for a whole piece of equipment. It shows the unit's own summary
 Which devices can have a tile depends on what you've connected. See [Connecting your equipment](/help/mobile-connections).
 
 You can set its label, which device it shows, and its size.
+
+## Doser tiles
+
+A tile for a doser (an Apex DŌS, a ReefDose or an EcoTech Versa) shows one row per head. A head name is never shrunk below a readable size. On a tall tile the row takes two lines, with the name on the first and what's left on the second, for example *40d* and *2.8 L*. On a short tile the detail line is dropped and the name stays readable.
+
+Set what comes first with **Show remaining as**: **Days** or **Milliliters (mL)**. A ReefDose head with no name of its own is shown as the device name followed by "head" and its number. A Jecod doser tile is read only and shows the daily plan, because Jecod doesn't report how much is left in the bottle.
 
 ## What a parameter widget shows
 

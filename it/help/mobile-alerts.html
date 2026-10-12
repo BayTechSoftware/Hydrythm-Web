@@ -83,8 +83,11 @@
 <li><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
-<li><a href="/it/help/mobile-probes">Sonde</a></li>
+<li><a href="/it/help/mobile-probes">Mappatura parametri</a></li>
 <li><a href="/it/help/mobile-consumables">Materiali di consumo</a></li>
+<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
+<li><a href="/it/help/mobile-cameras">Telecamere e controllo dello schiumatoio</a></li>
+<li><a href="/it/help/mobile-ecotech">Luci, pompe e dosatori EcoTech</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Avvisi e automazione</summary><ul>
@@ -194,9 +197,12 @@
 <ul><li><strong>La campanella</strong> in alto a destra in ogni schermata raccoglie lo storico. Il numero indica quanti non hai ancora letto.</li><li><strong>Le notifiche push</strong> arrivano sul telefono, se le hai permesse.</li><li><strong>Il widget</strong> sulla dashboard diventa ambra o rosso.</li><li><strong>Cora Max</strong> mostra gli stessi avvisi sullo schermo grande.</li></ul>
 <h2 id="quando-lattrezzatura-ha-un-problema">Quando l'attrezzatura ha un problema</h2>
 <p>Alcuni avvisi riguardano l'attrezzatura e non una lettura. Quando un dispositivo come un Trident o una pompa Jecod™ segnala un guasto, Cora ti manda una notifica con il nome della vasca e del dispositivo, per esempio <em>"Vasca Display: la pompa di risalita ha bisogno di attenzione"</em>, e ti dice cosa non va, come un rotore bloccato. Quando il guasto si risolve, arriva una seconda notifica: <em>"Vasca Display: la pompa di risalita è di nuovo a posto"</em>. Tutte e due rientrano in <strong>Guasti dell'apparecchiatura</strong> in <strong>Impostazioni → Notifiche</strong>.</p>
-<p>Una gyre Maxspect™ (beta) può dare lo stesso avviso quando un Cora Max sulla sua rete trova entrambe le teste impostate a 0% o quando la gyre non risponde per due volte di fila. Consideralo un avvertimento e non una protezione. Il Cora Max controlla ogni tanto e non di continuo, e solo quando è acceso e riesce a raggiungere la gyre.</p>
+<p>Una gyre Maxspect™ (Beta) può dare lo stesso avviso quando un Cora Max sulla sua rete trova entrambe le teste impostate a 0% o quando la gyre non risponde per due volte di fila. Consideralo un avvertimento e non una protezione. Il Cora Max controlla ogni tanto e non di continuo, e solo quando è acceso e riesce a raggiungere la gyre.</p>
 <h2 id="un-dispositivo-ha-smesso-di-comunicare">Un dispositivo ha smesso di comunicare</h2>
-<p>Se un Neptune™ Apex, un'unità Red Sea™ ReefBeat, un AquaWiz™, una pompa Jecod o una gyre Maxspect smette di rispondere, Cora ti avvisa: <em>"[Dispositivo]: ha smesso di comunicare."</em> Controlla la sua alimentazione e il Wi-Fi, e che il Cora Max che lo legge sia acceso. La maggior parte dell'attrezzatura riceve questo avviso dopo circa 30 minuti senza aggiornamenti. AquaWiz controlla meno spesso, quindi aspetta circa 3 ore. Quando torna a comunicare ricevi una seconda notifica.</p>
+<p>Se un Neptune™ Apex, un'unità Red Sea™ ReefBeat, un AquaWiz™, una pompa Jecod, una gyre Maxspect, un dispositivo EcoTech™ o un monitor Inkbird™ per l'aria della stanza smette di rispondere, Cora ti avvisa: <em>"[Dispositivo]: ha smesso di comunicare."</em> Controlla la sua alimentazione e il Wi-Fi (o la portata del Bluetooth), e che il Cora Max che lo legge sia acceso. Quando torna a comunicare ricevi una seconda notifica.</p>
+<p>Quanto Cora aspetta dipende dal dispositivo.</p>
+<ul><li>Neptune Apex e Red Sea ReefBeat: circa 30 minuti senza aggiornamenti.</li><li>AquaWiz: circa 3 ore, perché controlla meno spesso.</li><li>Jecod e Maxspect: tre letture mancate di fila, contate sull'intervallo di lettura del dispositivo.</li><li>EcoTech e Inkbird: tre letture mancate di fila, contate sull'intervallo che hai impostato per quella rete o quel monitor.</li></ul>
+<p>Maxspect, EcoTech e Inkbird sono integrazioni Beta che solo gli utenti Beta possono aggiungere. Vedi <a href="/it/help/mobile-beta">Funzioni Beta</a>.</p>
 <p>Questo rientra in <strong>Guasti dell'apparecchiatura</strong> in <strong>Impostazioni → Notifiche</strong>, insieme agli avvisi di guasto qui sopra.</p>
 <h2 id="le-letture-red-sea-hanno-smesso-di-aggiornarsi">"Le letture Red Sea hanno smesso di aggiornarsi"</h2>
 <p>Nella pagina di un parametro potresti vedere questo banner:</p>
@@ -219,7 +225,7 @@
 <p>Apri la regola nella scheda <strong>Regole</strong> del Centro avvisi e spegni il suo <strong>interruttore di attivazione</strong>. Regola e intervallo restano salvati, così puoi riattivarla senza rifarla da capo.</p>
 <aside class="cal cal-warning"><p class="cal-t">Silenzia il parametro senza cancellare l'intervallo</p><p>Se elimini una soglia, la lettura può comunque essere valutata. Le fasce di riferimento predefinite continuano a colorare il valore e possono finire nel briefing. Usa l'interruttore di attivazione della regola.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/mobile-consumables"><span>Precedente</span><b>Materiali di consumo</b></a><a class="pn-n" href="/it/help/mobile-notifications"><span>Successivo</span><b>Notifiche</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.80 e Cora Mobile 0.5.81. Ultimo controllo il 2026-09-30.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.165 e Cora Mobile 0.5.109. Ultimo controllo il 2026-10-12.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>

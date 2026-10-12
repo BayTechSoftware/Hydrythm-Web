@@ -2,7 +2,7 @@
 title: Benachrichtigungen
 description: Leg fest, was auf deinem Handy ankommt, und finde heraus, wo du nachliest, was du verpasst hast.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Jede Kategorie hat ihren eigenen Schalter:
 | Kategorie | Worum es geht |
 |---|---|
 | **Wasserwert-Warnungen** | Die Wasserchemie liegt außerhalb eines Bereichs, den du festgelegt hast |
-| **Wartungserinnerungen** | Aufgaben, die du geplant hast, etwa Wasserwechsel |
+| **Wartungserinnerungen** | Aufgaben, die du geplant hast, etwa Wasserwechsel, und eine einmalige Erinnerung, deinen ersten Test einzutragen, wenn ein neues Becken nach drei Tagen noch keine Messwerte hat |
 | **Gerätefehler** | Ein Gerät meldet ein Problem, zum Beispiel ein Trident, der nicht mehr testet |
 | **Vorräte werden knapp** | Reagenz, Nachfüllwasser, Dosierbehälter und eine volle Abfallflasche |
 | **ICP-Bericht bereit** | Deine ICP-Ergebnisse sind ausgewertet und können gelesen werden |

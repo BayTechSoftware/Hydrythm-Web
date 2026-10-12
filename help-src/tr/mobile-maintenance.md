@@ -2,7 +2,7 @@
 title: Bakım
 description: Düzenli işler ve hatırlatmalar. Skimmer temizliği, filtre çorapları, pompa bakımı.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ Bir Red Sea ReefDose, ReefATO+, ReefMat ya da ReefRun bağladığınızda Cora, 
 | ReefDose, kafa başına | Replace ReefDose head tubing | 450 gün |
 
 Bu görevler kendi eklediğiniz görevlerle aynı şekilde çalışır: adını değiştirebilir, aralığını değiştirebilir, erteleyebilir ya da duraklatabilirsiniz. Birini silerseniz Cora o cihaz için bunu bir daha eklemez.
+
+### Suyu test et
+
+İlk test kartında **Her hafta test etmemi hatırlat**'a dokunursanız Cora, seçtiğiniz **Test günü**'ne denk gelen haftalık bir **Suyu test et** görevi ekler. Kendi eklediğiniz herhangi bir görev gibi çalışır. Bkz. [Cora Mobile kurulumu](/help/mobile-setup).
+
+### Bir otomasyondan
+
+**Bakım görevi oluştur** eylemine sahip bir [otomasyon](/help/mobile-automation), kuralı çalıştığında bu listeye bir iş ekleyebilir ya da var olan bir görevi hemen yapılması gereken hale getirebilir. Yeni olan tek seferliktir, hemen yapılması gerekir ve tamamladığınızda listeden kalkar. Açıkken aynı otomasyon bir tane daha eklemez. Tek bir bildirim alırsınız.
 
 ## Hatırlatmalar
 

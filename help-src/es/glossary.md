@@ -2,7 +2,7 @@
 title: Glosario
 description: Las palabras que usa Cora: acuario, fuente, widget, diseño guardado, umbral, análisis y demás.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 2
 ---
 
@@ -64,7 +64,7 @@ Una pausa para dar de comer que para los equipos que tocan y los vuelve a poner 
 
 ## GHL
 
-Abreviatura de GHL Advanced Technology, el fabricante de los controladores ProfiLux y Mitras. El soporte de Cora para GHL está en **beta**. Consulta [Conectar tus equipos](/help/mobile-connections).
+Abreviatura de GHL Advanced Technology, el fabricante de los controladores ProfiLux y Mitras. El soporte de Cora para GHL está en **Beta** y solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
 
 ## Informe de salud
 
@@ -72,7 +72,7 @@ Una evaluación periódica y más a fondo de todo el sistema. Tiene en cuenta a 
 
 ## HYDROS
 
-El ecosistema de controladores y dosificación de CoralVue. Cora llega a él a través de la propia nube de HYDROS, así que sigue funcionando fuera de casa. El soporte de Cora para HYDROS está en **beta**. Consulta [Conectar tus equipos](/help/mobile-connections).
+El ecosistema de controladores y dosificación de CoralVue. Cora llega a él a través de la propia nube de HYDROS, así que sigue funcionando fuera de casa. El soporte de Cora para HYDROS está en **Beta** y solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
 
 ## ICP
 
@@ -128,4 +128,4 @@ El modo para quien te cuida el acuario. Es un plan con fechas y una lista de tar
 
 ## Widget
 
-Una casilla del panel que muestra una sola cosa. Hay once tipos: Valor, Medidor, Gráfico, Estado, Toma, ReefBeat, módulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* y HYDROS *(beta)*. Consulta [Tipos de widget](/help/mobile-widgets).
+Una casilla del panel que muestra una sola cosa. Hay dieciséis tipos: Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, módulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* y Cámara *(Beta)*. Consulta [Tipos de widget](/help/mobile-widgets).

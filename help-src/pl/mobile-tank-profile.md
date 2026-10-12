@@ -2,7 +2,7 @@
 title: Profil akwarium
 description: Objętość, obsada, sprzęt i dozowanie, na podstawie których Cora interpretuje Twoje odczyty.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Dotknij sekcji, żeby ją rozwinąć. Ikona informacji obok każdej wyjaśnia, d
 :::note Urządzenia są teraz w zakładce Urządzenia
 Twój Apex, urządzenia Red Sea i każdy inny sprzęt dodajesz, przypisujesz i usuwasz w zakładce **Urządzenia**, a nie w profilu. Zobacz [Dodawanie, edytowanie i usuwanie urządzeń](/help/mobile-devices). Ustawienia akwarium pokazują listę **Urządzenia w tym akwarium**, tylko do odczytu, jeśli chcesz po prostu sprawdzić, co jest przypisane.
 :::
+
+## Jednostki
+
+Każde akwarium ma własne jednostki wyświetlania. Przejdź do **Ustawienia**, otwórz akwarium i wybierz **Jednostki**. Możesz ustawić, jak to akwarium pokazuje zasolenie, temperaturę, alkaliczność, objętość, fosforany i azotany. Objętość może być w litrach, galonach amerykańskich albo galonach brytyjskich.
+
+Jednostki obowiązują dla tego akwarium na każdym telefonie i Cora Max, które je otwierają. Twoje odczyty się nie zmieniają, zmienia się tylko sposób ich pokazywania. Wskaźniki, kafelki, historia, raporty i to, co mówi Asystent Cora, podążają za tym wyborem. Na Cora Max otwórz menu akwarium i dotknij **Jednostki**.
 
 ## Objętość
 

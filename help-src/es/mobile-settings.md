@@ -2,7 +2,7 @@
 title: Ajustes
 description: Guía de cada sección de los ajustes de Cora Mobile, con cuenta, acuarios, Cora Assistant, idioma, notificaciones, automatización y actividad.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ La tarjeta de arriba muestra con qué cuenta has iniciado sesión y qué plan ti
 
 - **Nombre para mostrar**: tu nombre en Cora Mobile
 - **Cuenta y suscripción**: qué plan tienes, qué incluye y cómo cambiarlo
+- **Correos de laboratorio e ICP**: te deja añadir hasta 3 direcciones de correo más con las que tu laboratorio puede llegar a tu cuenta. Consulta [ICP e informes de salud](/help/mobile-icp-health)
 - **Cerrar sesión**
 - **Eliminar cuenta**: es definitivo. Antes de usarlo, lee las dos notas de más abajo.
 
@@ -39,9 +40,15 @@ Hay una fila por acuario y, después:
 - **Reordenar acuarios**: el orden en que aparecen al deslizar el panel
 - **Acuarios eliminados**: los acuarios que has borrado, por si necesitas recuperar algo
 
-Abre un acuario para editarlo y para llegar a **Cora Max principal** (el dispositivo que consulta el equipo de ese acuario), a **Configuración guiada** y a una lista de solo lectura, **Dispositivos en este acuario**. Más información sobre Cora Max principal en **[Más de un dispositivo Cora](/help/mobile-multi-device)**. Para añadir o quitar un dispositivo, usa la [pestaña Dispositivos](/help/mobile-devices).
+Al abrir un acuario, su página de ajustes tiene tres partes.
 
-- **Modo vacaciones**: un plan para quien cuide el acuario mientras estás fuera. Más información en **[Irse de viaje](/help/mobile-vacation)**. Pones las fechas y haces una lista de tareas con la frecuencia de cada una. Cora la convierte en una página sencilla de solo lectura que puedes compartir con esa persona, y no necesita cuenta.
+- **Ajustes** incluye **Editar acuario**, **Asignación de parámetros**, **Umbrales de alerta**, **Unidades**, **Cora Max principal** y **Modo vacaciones**.
+- **Registros e informes** incluye **Diario**, **Mantenimiento**, **Fauna**, **Reef Buddy**, **Informes de salud**, **Informes ICP**, **Actividad** y **Configuración guiada**.
+- **Dispositivos en este acuario** es una lista de solo lectura.
+
+**Asignación de parámetros** es donde eliges qué dispositivo alimenta cada lectura. Consulta [Asignación de parámetros](/help/mobile-probes). **Unidades** fija cómo muestra este acuario sus lecturas, incluidos litros o galones de EE. UU. o del Reino Unido para el volumen. Consulta [Tu perfil del acuario](/help/mobile-tank-profile). **Cora Max principal** es el dispositivo que consulta el equipo de ese acuario, y se explica en **[Más de un dispositivo Cora](/help/mobile-multi-device)**. Para añadir o quitar un dispositivo, usa la [pestaña Dispositivos](/help/mobile-devices).
+
+**Modo vacaciones** es un plan para quien cuide el acuario mientras estás fuera. Más información en **[Irse de viaje](/help/mobile-vacation)**. Pones las fechas y haces una lista de tareas con la frecuencia de cada una. Cora la convierte en una página sencilla de solo lectura que puedes compartir con esa persona, y no necesita cuenta.
 
 ## Ajustes de la aplicación
 

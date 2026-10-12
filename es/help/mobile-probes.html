@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sondas | Cora Help</title>
+  <title>Asignación de parámetros | Cora Help</title>
   <meta name="description" content="Consulta qué sonda controla cada lectura entre todos tus controladores, y registra la calibración y la limpieza.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-probes">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-probes">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Sondas | Cora Help">
+  <meta property="og:title" content="Asignación de parámetros | Cora Help">
   <meta property="og:description" content="Consulta qué sonda controla cada lectura entre todos tus controladores, y registra la calibración y la limpieza.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-probes">
@@ -83,8 +83,11 @@
 <li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
 <li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
-<li><a href="/es/help/mobile-probes" class="cur" aria-current="page">Sondas</a></li>
+<li><a href="/es/help/mobile-probes" class="cur" aria-current="page">Asignación de parámetros</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
+<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -167,33 +170,36 @@
 
   <main class="hmain" id="main">
     <article class="doc">
-      <h1>Sondas</h1>
+      <h1>Asignación de parámetros</h1>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#de-dnde-viene-cada-lectura">De dónde viene cada lectura</a></li><li><a href="#sondas-decirle-a-cora-qu-es-cada-una">Sondas: decirle a Cora qué es cada una</a></li><li><a href="#varias-sondas-para-un-mismo-parmetro">Varias sondas para un mismo parámetro</a></li><li><a href="#registrar-el-cuidado-de-las-sondas">Registrar el cuidado de las sondas</a></li></ul></nav>
-<p>Si tienes más de un controlador, o dos sondas que miden lo mismo, Cora necesita saber en cuál de las lecturas confiar. La asignación de sondas es donde resuelves eso, y donde le dices a Cora qué es cada sonda desde el principio.</p>
-<p>Abre tu <strong>perfil del acuario</strong> (el lápiz de la parte superior del panel) y elige <strong>Asignación de sondas</strong>.</p>
+<p>Si tienes más de un controlador, o dos sondas que miden lo mismo, Cora necesita saber en cuál de las lecturas confiar. <strong>Asignación de parámetros</strong> es donde resuelves eso, y donde le dices a Cora qué es cada sonda desde el principio.</p>
+<p>Ve a <strong>Ajustes</strong>, abre el acuario y elige <strong>Asignación de parámetros</strong>. Está entre <strong>Editar acuario</strong> y <strong>Umbrales de alerta</strong>. El lápiz de la parte superior del panel abre <strong>Editar acuario</strong>, que no la tiene. También puedes llegar desde las páginas de dispositivo de Neptune™ Apex y GHL™ (Beta). GHL solo está abierto a los usuarios Beta. Consulta <a href="/es/help/mobile-beta">Funciones Beta</a>.</p>
+<p>La pantalla tiene un campo de búsqueda (<strong>Buscar parámetros</strong>) y dos pestañas, <strong>Asignación</strong> y <strong>Fuentes</strong>. La búsqueda mira los nombres de parámetros, los nombres de sondas, los dispositivos y las marcas. El mismo campo de búsqueda está en todos los selectores de parámetros.</p>
 <h2 id="de-dnde-viene-cada-lectura">De dónde viene cada lectura</h2>
+<p>Esta es la pestaña <strong>Fuentes</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: De dónde viene cada lectura"><img src="/help/img/mobile-probes.webp" alt="De dónde viene cada lectura" width="620" height="1197" loading="lazy" decoding="async"></button><figcaption>Cada parámetro, qué sonda lo controla, y un botón Elegir para cambiarlo.</figcaption></figure>
 <p>Esta sección lista cada parámetro que Cora sigue para este acuario, como el pH o la temperatura, y muestra qué sonda lo está alimentando en este momento.</p>
-<p>Toca una lectura para ver todas las sondas que la informan, entre todos los controladores que has conectado. Cada una muestra su marca, el nombre que le da su propio controlador y su valor en directo. Elige una para fijarla, o elige <strong>Automático</strong> para que Cora use la que esté informando en cada momento.</p>
+<p>Toca una lectura para ver todas las sondas que la informan, entre todos los controladores que has conectado. Cada una muestra su marca, el nombre que le da su propio controlador y su valor en directo. Elige una para fijarla, o elige <strong>Automático (gana la lectura más reciente)</strong> para que Cora use la que haya informado más recientemente. Las demás se quedan en el historial.</p>
 <p>Una etiqueta junto a cada lectura indica cuál está en efecto: <strong>Automático</strong>, o <strong>Elegida por ti</strong> una vez que has fijado una sonda.</p>
 <p>Si una sonda fijada deja de informar, Cora muestra cuándo se supo de ella por última vez y ofrece <strong>Volver a Automático</strong>, para que una sonda muerta no deje una lectura bloqueada.</p>
 <p>Toca <strong>Cambiar nombre</strong> para darle a una lectura su propio nombre de pantalla. Es independiente del nombre que le des a la sonda en sí. Es lo que aparece en tu panel, en las alertas y en Reef Buddy.</p>
 <aside class="cal cal-note"><p class="cal-t">Un sensor de fugas no se puede reasignar aquí</p><p>La alarma de un sensor de fugas depende de su propio nombre, así que queda fuera de este selector. Funciona igual que siempre.</p></aside>
 <h2 id="sondas-decirle-a-cora-qu-es-cada-una">Sondas: decirle a Cora qué es cada una</h2>
-<p>Más abajo verás todas las sondas que Cora conoce, agrupadas por el dispositivo que las informa, con su lectura actual. Cora reconoce sola los nombres estándar de las sondas, y cada fila indica con qué ha emparejado cada una. Normalmente solo tienes que corregir las que no ha sabido identificar.</p>
+<p>La pestaña <strong>Asignación</strong> se abre primero. Lista todas las sondas que Cora conoce, agrupadas por el dispositivo que las informa, con su lectura actual. Cora reconoce sola los nombres estándar de las sondas, y cada fila indica con qué ha emparejado cada una. Normalmente solo tienes que corregir las que no ha sabido identificar.</p>
 <p>Cada fila te da tres opciones.</p>
 <ul><li><strong>Un parámetro de Cora</strong>: lo que mide esa sonda.</li><li><strong>Personalizado</strong>: para una sonda sin parámetro estándar en Cora. Le pones un identificador corto en mayúsculas y Cora la sigue con ese nombre.</li><li><strong>Ignorar</strong>: para las sondas que no quieres registrar.</li></ul>
 <p>Una sonda ignorada o sin asignar no sale en ningún panel y no genera alertas.</p>
 <p>Los cambios se aplican a partir de las siguientes lecturas. El historial no se reescribe, solo cambia lo que se guarda desde ese momento. Toca <strong>Guardar</strong> para aplicarlos.</p>
 <aside class="cal cal-warning"><p class="cal-t">Cora no ve una sonda sin asignar</p><p>Si un parámetro no muestra lecturas pero la sonda funciona, revisa primero su asignación.</p></aside>
 <h2 id="varias-sondas-para-un-mismo-parmetro">Varias sondas para un mismo parámetro</h2>
-<p>Si tienes dos sondas de temperatura, ya sea en el mismo controlador o en dos distintos, asigna las dos. Cora las guarda como fuentes distintas, y <strong>De dónde viene cada lectura</strong>, más arriba, es donde eliges cuál controla la lectura, o la dejas en Automático. Puedes compararlas en <a href="/es/help/mobile-metric-detail">la vista del parámetro</a>.</p>
+<p>Si tienes dos sondas de temperatura, ya sea en el mismo controlador o en dos distintos, asigna las dos. Cora las guarda como fuentes distintas, y la pestaña <strong>Fuentes</strong> es donde eliges cuál controla la lectura, o la dejas en Automático. Puedes compararlas en <a href="/es/help/mobile-metric-detail">la vista del parámetro</a>.</p>
+<p>Cuando dos fuentes informan el mismo parámetro, gana la medición más reciente. Un valor en pantalla solo lo reemplaza una lectura con una hora de medición posterior, venga del dispositivo que venga. Una lectura más antigua, o un dispositivo que reenvía una antigua, va al historial y no sobrescribe el valor actual. Si fijaste una fuente, Cora sigue esa fuente.</p>
 <h2 id="registrar-el-cuidado-de-las-sondas">Registrar el cuidado de las sondas</h2>
 <p>Con el tiempo, las sondas se descalibran. Cora puede guardar cuándo calibraste o limpiaste cada una por última vez. Así sabrás si un cambio es real o si la sonda necesita atención.</p>
 <p>Registra la calibración o la limpieza desde la ficha de la sonda. También puedes crear una <a href="/es/help/mobile-maintenance">tarea de mantenimiento</a> recurrente para ello.</p>
 <aside class="cal cal-note"><p class="cal-t">La calibración explica muchas diferencias</p><p>Si una sonda y un kit de pruebas no coinciden, lo primero que conviene mirar es cuándo calibraste la sonda por última vez.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-schedules"><span>Anterior</span><b>Programar equipos</b></a><a class="pn-n" href="/es/help/mobile-consumables"><span>Siguiente</span><b>Consumibles</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.80 y Cora Mobile 0.5.81. Última revisión el 2026-09-30.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.165 y Cora Mobile 0.5.109. Última revisión el 2026-10-12.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>

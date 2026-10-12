@@ -2,7 +2,7 @@
 title: Mantenimiento
 description: Tareas periódicas con recordatorios, como limpiar el skimmer, cambiar las mangas filtrantes o revisar las bombas.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea, Co
 | ReefDose, por cabezal | Replace ReefDose head tubing | 450 días |
 
 Funcionan igual que cualquier tarea que añadas tú: puedes renombrarlas, cambiar su intervalo, posponerlas o pausarlas. Si eliminas una, Cora no la vuelve a crear para ese dispositivo.
+
+### Probar el agua
+
+Si tocas **Recordarme probar cada semana** en la tarjeta de la primera prueba, Cora añade una tarea semanal llamada **Probar el agua**, que vence el **Día de la prueba** que elijas. Funciona como cualquier tarea que añadas tú. Consulta [Configurar Cora Mobile](/help/mobile-setup).
+
+### Desde una automatización
+
+Una [automatización](/help/mobile-automation) con la acción **Crear una tarea de mantenimiento** puede poner un trabajo en esta lista cuando se activa su regla, o hacer que una tarea existente venza ahora. Una tarea nueva es puntual, vence ahora y sale de la lista cuando la completas. Mientras siga abierta, la misma automatización no añade otra. Recibes una sola notificación.
 
 ## Recordatorios
 

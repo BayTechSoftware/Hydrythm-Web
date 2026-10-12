@@ -2,7 +2,7 @@
 title: Konserwacja
 description: Powtarzalne prace z przypomnieniami: czyszczenie odpieniacza, skarpety filtracyjne, serwis pomp.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ Gdy podłączysz Red Sea ReefDose, ReefATO+, ReefMat albo ReefRun, Cora sama dod
 | ReefDose, per head | Replace ReefDose head tubing | 450 dni |
 
 Działają dokładnie tak samo jak zadania dodane przez Ciebie: możesz je przemianować, zmienić interwał, odłożyć albo wstrzymać. Jeśli usuniesz zadanie, Cora nie doda go z powrotem dla tego urządzenia.
+
+### Przetestuj wodę
+
+Jeśli dotkniesz **Przypominaj mi o teście co tydzień** na karcie pierwszego testu, Cora doda cotygodniowe zadanie o nazwie **Przetestuj wodę**, wymagalne w wybrany **Dzień testu**. Działa jak każde zadanie dodane przez Ciebie. Zobacz [Pierwsze kroki z Cora Mobile](/help/mobile-setup).
+
+### Z automatyzacji
+
+[Automatyzacja](/help/mobile-automation) z akcją **Utwórz zadanie konserwacyjne** może dodać zadanie do tej listy, gdy zadziała jej reguła, albo sprawić, że istniejące zadanie stanie się wymagalne od razu. Nowe zadanie jest jednorazowe, wymagalne od razu i znika z listy, gdy je wykonasz. Dopóki jest otwarte, ta sama automatyzacja nie dodaje kolejnego. Dostajesz jedno powiadomienie.
 
 ## Przypomnienia
 

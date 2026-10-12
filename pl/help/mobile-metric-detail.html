@@ -83,8 +83,11 @@
 <li><a href="/pl/help/mobile-connections">Podłączanie sprzętu</a></li>
 <li><a href="/pl/help/mobile-device-control">Sterowanie sprzętem</a></li>
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
-<li><a href="/pl/help/mobile-probes">Sondy</a></li>
+<li><a href="/pl/help/mobile-probes">Mapowanie parametrów</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne</a></li>
+<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
+<li><a href="/pl/help/mobile-cameras">Kamery i czuwanie skimmera</a></li>
+<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerty i automatyzacja</summary><ul>
@@ -170,13 +173,14 @@
       <h1>Szczegóły parametru</h1>
       <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#co-tu-znajdziesz">Co tu znajdziesz</a></li><li><a href="#jaki-okres-wybra">Jaki okres wybrać</a></li><li><a href="#porwnywanie-rde">Porównywanie źródeł</a></li><li><a href="#z-ktrego-rda-korzysta-widet">Z którego źródła korzysta widżet</a></li><li><a href="#wykluczanie-bdnego-odczytu">Wykluczanie błędnego odczytu</a></li><li><a href="#zapisywanie-konserwacji-sondy">Zapisywanie konserwacji sondy</a></li><li><a href="#rczne-wpisywanie-odczytu">Ręczne wpisywanie odczytu</a></li></ul></nav>
 <p>Widżet pokazuje liczbę. Gdy go dotkniesz, zobaczysz, co za nią stoi.</p>
+<p>Są dwa sposoby, żeby tu wejść. Dotknij widżetu na pulpicie albo dotknij <strong>Historia parametrów</strong> w rzędzie przycisków pod widżetami i wybierz parametr. <strong>Historia parametrów</strong> wymienia każdy parametr, który ma dane, nawet taki bez widżetu na pulpicie.</p>
 <h2 id="co-tu-znajdziesz">Co tu znajdziesz</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Szczegóły parametru"><img src="/help/img/mobile-metric-detail.webp" alt="Szczegóły parametru" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Na górze zakresy czasu, niżej źródła tego parametru, a pod nimi wykres z zaznaczonym zakresem alertu.</figcaption></figure>
-<p><strong>Wykres historii</strong> z własnym wyborem okresu: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> i dłuższe.</p>
-<p><strong>Filtr źródeł.</strong> Pod zakresami jest rząd etykiet: <strong>Wszystkie</strong> i po jednej dla każdego źródła tego parametru, np. <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> albo <em>Ręczny</em>. Wybierz jedną, a zobaczysz tylko odczyty z tego źródła. Tak najłatwiej porównać sondę z testem kropelkowym. Przełączaj się między nimi na tym samym wykresie.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Szczegóły parametru"><img src="/help/img/mobile-metric-detail.webp" alt="Szczegóły parametru" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Na górze listy rozwijane, a pod nimi wykres z zaznaczonym zakresem alertu.</figcaption></figure>
+<p><strong>Wykres historii.</strong> Trzy listy rozwijane nad nim ustawiają, co pokazuje. <strong>Parametr</strong> przełącza na dowolny inny parametr, który ma dane, i zachowuje Twój okres. <strong>Okres</strong> biegnie od 1h przez 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d i 180d aż do 360d i Wszystko. <strong>Źródło</strong> zaczyna od <strong>Wszystkie źródła</strong> i wymienia źródła, które zgłaszają ten parametr w tym akwarium, np. <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> albo <em>Ręczny</em>. Wybierz jedno, a zobaczysz tylko odczyty z tego źródła. Tak najłatwiej porównać sondę z testem kropelkowym. Przełączaj się między nimi na tym samym wykresie.</p>
+<p>Ekran zawsze otwiera się na 24h i <strong>Wszystkie źródła</strong>. Nie pamięta, co wybrano ostatnio.</p>
+<p><strong>Wiersz z wartościami Najnowszy, Min, Śr i Maks</strong> dla okresu widocznego na ekranie.</p>
 <p><strong>Link do kalkulatora dawek</strong> przy parametrach, które dozujesz. Kalkulator bierze objętość akwarium z <a href="/pl/help/mobile-tank-profile">profilu akwarium</a> i stężenia z <a href="/pl/help/mobile-dosing">Dozowania</a>.</p>
-<p><strong>Nakładanie wykresów.</strong> <strong>Porównaj z</strong> rysuje drugi parametr na tym samym wykresie (np. alkaliczność i wapń albo pH i temperaturę). Zależność, którą podejrzewasz, widać wtedy na wykresie i nie musisz jej pamiętać.</p>
-<p><strong>Statystyki</strong> dla okresu widocznego na ekranie: <strong>MIN</strong>, <strong>ŚR</strong> i <strong>MAKS</strong>, w rzędzie pod bieżącą wartością.</p>
+<p><strong>Nakładanie wykresów.</strong> <strong>Porównaj</strong> rysuje drugi parametr na tym samym wykresie (np. alkaliczność i wapń albo pH i temperaturę). Lista zawiera każdy parametr, który ma akwarium. Zależność, którą podejrzewasz, widać wtedy na wykresie i nie musisz jej pamiętać. Dotknij etykiety jeszcze raz, aby zdjąć drugą linię.</p>
 <p><strong>Znaczniki dawek</strong> na wykresie. Zmianę parametru zestawisz z tym, co naprawdę podano.</p>
 <p><strong>Lista odczytów</strong>, czyli każdy pojedynczy odczyt, z którego powstała linia, ze źródłem i czasem.</p>
 <p><strong>Twój zakres alertu</strong> zaznaczony na wykresie. Każdy odczyt widać na tle zakresu, a nie w oderwaniu od niego. Żeby zmienić sam zakres, przytrzymaj widżet na pulpicie. Więcej w <a href="/pl/help/mobile-alerts">Alertach i progach</a>.</p>
@@ -186,7 +190,8 @@
 <div class="tw"><table class="stack"><thead><tr><th>Parametr</th><th>Przydatny okres</th></tr></thead><tbody><tr><td data-th="Parametr">pH</td><td data-th="Przydatny okres">24 godziny, bo zmienia się w cyklu dobowym</td></tr><tr><td data-th="Parametr">Temperatura</td><td data-th="Przydatny okres">24 godziny albo 7 dni</td></tr><tr><td data-th="Parametr">Alkaliczność</td><td data-th="Przydatny okres">7 albo 30 dni</td></tr><tr><td data-th="Parametr">Pierwiastki śladowe</td><td data-th="Przydatny okres">30 dni albo rok</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Przy płaskiej linii sprawdź wiek odczytu</p><p>Linia bez zmian może oznaczać stabilny parametr, ale też źródło, które przestało wysyłać dane. Rozróżnisz to po wieku odczytu obok wartości.</p></aside>
 <h2 id="porwnywanie-rde">Porównywanie źródeł</h2>
-<p>Gdy parametr podaje kilka źródeł, Cora trzyma je osobno i ich nie uśrednia. Przełączaj etykiety źródeł, żeby zobaczyć każde po kolei.</p>
+<p>Gdy parametr podaje kilka źródeł, Cora trzyma je osobno i ich nie uśrednia. Użyj listy <strong>Źródło</strong>, żeby zobaczyć każde po kolei.</p>
+<p>Na pulpicie pokazuje się najnowszy odczyt. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli przypiąłeś źródło dla widżetu, Cora trzyma się tego źródła.</p>
 <p>Stała różnica między sondą a wynikiem wpisanym ręcznie zwykle znaczy, że sondę trzeba skalibrować.</p>
 <p><a href="/pl/help/mobile-icp-health">Wynik ICP</a> to przydatna trzecia opinia, ale nie rozstrzygający sędzia. Laboratoria różnią się między sobą, a na wynik wpływa to, jak próbkę pobrano, przechowywano i transportowano. Pojedynczy ICP traktuj jako wskazówkę, a nie prawdziwą wartość. Dwa zgodne testy są warte znacznie więcej niż jeden.</p>
 <h2 id="z-ktrego-rda-korzysta-widet">Z którego źródła korzysta widżet</h2>
@@ -199,10 +204,10 @@
 <h2 id="zapisywanie-konserwacji-sondy">Zapisywanie konserwacji sondy</h2>
 <p>Gdy zapiszesz tutaj kalibrację albo czyszczenie, przy tym źródle pojawi się data. Późniejszą rozbieżność ocenisz wtedy na tle tego, kiedy sonda była ostatnio obsługiwana. Więcej w <a href="/pl/help/mobile-probes">Sondach</a>.</p>
 <h2 id="rczne-wpisywanie-odczytu">Ręczne wpisywanie odczytu</h2>
-<p>Wpisz wynik z testu kropelkowego. Wyniki wpisane ręcznie mają taką samą wagę jak inne. Dostają własne źródło i czas, pojawiają się na wykresie, trafiają do Reef Buddy i właśnie z nimi Cora porównuje Twój sprzęt.</p>
+<p>Wpisz wynik z testu kropelkowego. Lista jest podzielona na grupy, a grupa <strong>Pierwiastki śladowe</strong> obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Wyniki wpisane ręcznie mają taką samą wagę jak inne. Dostają własne źródło i czas, pojawiają się na wykresie, trafiają do Reef Buddy i właśnie z nimi Cora porównuje Twój sprzęt.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora sprawdza wartości, które wyglądają podejrzanie</p><p>Jeśli wartość mocno odbiega od tego, co zwykle jest w akwarium, Cora poprosi o potwierdzenie przed zapisaniem. Tak wychwyci przecinek w złym miejscu albo odczyt wpisany przy złym parametrze. Po potwierdzeniu odczyt zapisuje się normalnie.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/pl/help/mobile-widgets"><span>Poprzedni</span><b>Rodzaje widżetów</b></a><a class="pn-n" href="/pl/help/mobile-devices"><span>Następny</span><b>Dodawanie, edytowanie i usuwanie urządzeń</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.80 i Cora Mobile 0.5.81. Ostatnio sprawdzono 2026-09-09.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.165 i Cora Mobile 0.5.109. Ostatnio sprawdzono 2026-10-12.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>

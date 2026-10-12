@@ -2,7 +2,7 @@
 title: Reef Buddy und Berichte
 description: Die tägliche Zusammenfassung, ICP-Ergebnisse, Zustandsberichte und Verlaufsdiagramme auf Cora Max.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 9
 group: Intelligence
 ---
@@ -16,6 +16,8 @@ Cora Max zeigt dieselben Auswertungen wie dein Handy, nur groß genug, um sie au
 Die tägliche Zusammenfassung erscheint auf dem Dashboard und hat einen eigenen Vollbildschirm. Dort stehen die Bewertungen für Stabilität und Daten, die Zusammenfassung und die Insights dahinter.
 
 Was die Bewertungen bedeuten, erfährst du unter [Reef Buddy](/help/mobile-reef-buddy).
+
+Hast du einen Test eingetragen oder ein ICP-Ergebnis hinzugefügt, zeigt der Bildschirm **Neue Messwerte seit diesem Briefing** und eine Schaltfläche **Briefing aktualisieren**. Tippe darauf, um das Briefing mit den neuen Zahlen neu zu erstellen. Das geht einmal am Tag: danach steht auf dem Bildschirm *Du kannst das Briefing einmal am Tag aktualisieren. Nächste Aktualisierung: morgen.*
 
 ## ICP-Ergebnisse
 
@@ -33,9 +35,11 @@ Du kannst einen Zustandsbericht an der Wand erstellen und dort lesen. Es ist die
 
 ## Verlaufsdiagramme
 
-Jeden Wasserwert kannst du als Diagramm im Vollbild öffnen, mit denselben Zeiträumen wie auf dem Handy. An der Wand siehst du so am besten, wenn ein Wert langsam wegdriftet. Ein Monat Alkalinität im Vollbild zeigt einen Trend, den eine kleine Kachel nicht zeigen kann.
+Öffne das **Beckenmenü** und tippe auf **Parameterverlauf**. Wähle unter **Parameter wählen** einen Wasserwert, und er öffnet sich als Diagramm im Vollbild. Tippst du auf eine Kachel im Dashboard, öffnet sich dasselbe Diagramm. An der Wand siehst du so am besten, wenn ein Wert langsam wegdriftet. Ein Monat Alkalinität im Vollbild zeigt einen Trend, den eine kleine Kachel nicht zeigen kann.
 
-Mit den Chips wählst du, welche Messwerte du siehst: **Alle**, **Apex**, **Manuell**, **ICP**, **Cora**, **ReefBeat** oder **AquaWiz**. Jede Quelle hat ihre eigene Farbe, und die Chips sind gleichzeitig die Legende. Punkte von ReefBeat und AquaWiz erscheinen als Quadrate, von Hand gemessene Werte (Manuell und ICP) als größere Punkte. **Alle** zeigt alle Quellen nebeneinander. Werte aus verschiedenen Quellen werden dabei nie gemittelt.
+Der Wasserwertname in der Kopfzeile ist ein Dropdown, du kannst also zu einem anderen Wasserwert wechseln und den Zeitraum behalten. Zwei weitere Dropdowns legen **Zeitraum** und **Quelle** fest: **Alle Quellen** oder eine von **Apex**, **Manuell**, **ICP**, **Cora**, **ReefBeat** oder **AquaWiz**. **Vergleichen** zeichnet einen zweiten Wasserwert ins selbe Diagramm, und die Liste enthält jeden Wasserwert, den das Becken hat. Jede Quelle hat ihre eigene Farbe. Punkte von ReefBeat und AquaWiz erscheinen als Quadrate, von Hand gemessene Werte (Manuell und ICP) als größere Punkte. **Alle Quellen** zeigt alle Quellen nebeneinander. Werte aus verschiedenen Quellen werden dabei nie gemittelt.
+
+Mehr dazu unter [Einen Wasserwert genauer ansehen](/help/mobile-metric-detail).
 
 ## Geführte Journeys
 

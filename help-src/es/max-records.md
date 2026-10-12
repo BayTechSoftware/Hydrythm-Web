@@ -2,7 +2,7 @@
 title: Diario, fauna y mantenimiento
 description: Las pantallas de registros en Cora Max y cuándo te conviene usarlas antes que el teléfono.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Records
 ---
@@ -11,7 +11,7 @@ Cora Max muestra los mismos registros que el teléfono, pero no todos se pueden 
 
 | Apartado | En Cora Max |
 |---|---|
-| **Diario** | Leer y añadir entradas |
+| **Diario** | Leer y añadir entradas. Anota **Comida extra** o **Comida omitida** con un toque |
 | **Lecturas** | Anotar resultados de pruebas con el teclado en pantalla |
 | **Mantenimiento** | Completar o posponer una tarea. Las tareas se crean y se editan en el teléfono |
 | **Fauna** | Solo consulta. Se añade y se edita en el teléfono |
@@ -27,6 +27,12 @@ Llegas a todo desde el **menú del acuario**: toca el nombre del acuario en la b
 Añade una entrada sin moverte del acuario. Suele ser lo más cómodo, porque estás delante de la pantalla de pared mientras trabajas.
 
 Ábrelo desde el **menú del acuario** (toca el nombre del acuario en la barra superior) y usa **+** para añadir una entrada. También puedes decir *"Hey Cora, anota que alimenté con misis."* Más detalles en [El diario](/help/mobile-journal).
+
+### Alimentación
+
+En la parte de arriba de la pantalla del diario, **Comida extra** y **Comida omitida** añaden cada uno una entrada al diario. Debajo, una línea muestra tu rutina de alimentación, por ejemplo *Rutina de alimentación: Copos: 2 pizcas, dos veces al día*. La rutina se configura en Cora Mobile; si no hay ninguna guardada, la línea dice *Configura tu rutina de alimentación en la app del móvil*.
+
+Si Cora Max lee tu Neptune Apex, también anota un ciclo de alimentación de Feed A a D cuando empieza, lo hayas iniciado aquí, en el Apex o en Apex Fusion.
 
 :::note No hay icono de diario en la barra superior
 El icono que está junto al de dispositivos es **Reef Buddy**. Si tiene un punto, el resumen de hoy está sin leer. Las entradas del diario se añaden desde el menú del acuario o por voz.

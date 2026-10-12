@@ -2,7 +2,7 @@
 title: Guida di Cora
 description: Come configurare e usare Cora Max e Cora Mobile: primi passi, dashboard, dispositivi, avvisi, Reef Buddy, ICP e rapporti di salute.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -60,6 +60,9 @@ Oltre a letture e dashboard, Cora tiene in un unico posto anche il resto del lav
 ## La tua attrezzatura
 
 - **[Controllare la tua attrezzatura](/help/mobile-device-control)**: prese, pompe, teste di dosaggio e tester
+- **[Funzioni Beta](/help/mobile-beta)**: cosa vuol dire Beta, chi vede le integrazioni Beta e come chiedere l'accesso
+- **[Telecamere e controllo dello schiumatoio](/help/mobile-cameras)**: aggiungere una telecamera ed essere avvisati prima che il bicchiere dello schiumatoio trabocchi
+- **[Luci, pompe e dosatori EcoTech](/help/mobile-ecotech)**: Radion, VorTech e Versa via Bluetooth
 - **[Sonde](/help/mobile-probes)**: collegare le sonde di un controller e registrare la calibrazione
 - **[Materiali di consumo](/help/mobile-consumables)**: avvisi di rifornimento per reagenti, contenitori e serbatoi
 - **[Programmare l'attrezzatura](/help/mobile-schedules)**: programmi giornalieri per le pompe, come copiarli e come vedere il programma di una gyre

@@ -83,8 +83,11 @@
 <li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
-<li><a href="/help/mobile-probes">Probes</a></li>
+<li><a href="/help/mobile-probes">Parameter Mapping</a></li>
 <li><a href="/help/mobile-consumables">Consumables</a></li>
+<li><a href="/help/mobile-beta">Beta features</a></li>
+<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
+<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -168,7 +171,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Reef Buddy</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-is-in-a-briefing">What is in a briefing</a></li><li><a href="#when-it-arrives">When it arrives</a></li><li><a href="#reading-the-scores">Reading the scores</a></li><li><a href="#dismissing-the-card">Dismissing the card</a></li><li><a href="#availability">Availability</a></li><li><a href="#correcting-an-insight">Correcting an insight</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-is-in-a-briefing">What is in a briefing</a></li><li><a href="#updating-the-briefing-with-a-new-test">Updating the briefing with a new test</a></li><li><a href="#why-youre-seeing-an-insight">Why you&#x27;re seeing an insight</a></li><li><a href="#when-it-arrives">When it arrives</a></li><li><a href="#reading-the-scores">Reading the scores</a></li><li><a href="#dismissing-the-card">Dismissing the card</a></li><li><a href="#availability">Availability</a></li><li><a href="#correcting-an-insight">Correcting an insight</a></li></ul></nav>
 <p>Reef Buddy is a short daily look at your tank. It comes each morning, tells you what changed, and points out anything that needs your attention before you'd notice it yourself.</p>
 <p>You'll see it as a card at the top of your dashboard, and as one notification.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A Reef Buddy briefing"><img src="/help/img/mobile-reefbuddy.webp" alt="A Reef Buddy briefing" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Stability and Data scores, a summary, then the insights behind them.</figcaption></figure>
@@ -180,6 +183,12 @@
 <p>Then come the insights, one for each finding. Each has a category (such as <em>Water Chemistry</em>) and a cadence (such as <em>Daily</em>), and you can expand it for detail. A chip at the top of the section shows the tank type and how complete its profile is. Both affect what Cora can conclude.</p>
 <p>Cora filters insights before they reach you. An insight has to hold up over several readings. One isn't enough. It also has to tell you something a single chart wouldn't already show.</p>
 <p>Tap the card on the dashboard to open the full briefing.</p>
+<h2 id="updating-the-briefing-with-a-new-test">Updating the briefing with a new test</h2>
+<p>If you log a test by hand or add an ICP result after the briefing came out, the briefing card in the full briefing shows <strong>New readings since this briefing</strong> with an <strong>Update briefing</strong> button. Tap it and Cora redoes the briefing with the new numbers. You can do this once a day for each household. After that the button is greyed out and says <em>You can update the briefing once a day. Next update: tomorrow.</em></p>
+<p>Probe and controller readings don't trigger this offer, because they come in all day.</p>
+<h2 id="why-youre-seeing-an-insight">Why you're seeing an insight</h2>
+<p>Under an insight, tap <strong>Why am I seeing this?</strong> The sheet <strong>Why you're seeing this</strong> lists the <strong>Readings it used</strong>, the <strong>Target it compared against</strong> (your own target, or a reference range), anything <strong>From your journal</strong> that it took into account, and the <strong>Time window (days)</strong> it looked at. If the reasoning doesn't fit your tank, answer the insight as described under "Correcting an insight" below.</p>
+<p>Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's, the totals of your DŌS heads and, if you have a Beta Inkbird™ room air monitor, the room's temperature and humidity. Inkbird is only open to Beta users. See <a href="/help/mobile-beta">Beta features</a>.</p>
 <h2 id="when-it-arrives">When it arrives</h2>
 <p>Once a day for each tank, at the hour you choose. Set it in <strong>Settings</strong> under <strong>Briefing time</strong>. The briefing arrives within about 15 minutes of that hour, in your own time zone. If you never choose, it comes at 8:00.</p>
 <p>Pick an hour after your usual morning test, so today's result is in the briefing.</p>
@@ -197,10 +206,10 @@
 <h2 id="correcting-an-insight">Correcting an insight</h2>
 <p>You can respond to each insight in one of four ways.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Response</th><th>Means</th></tr></thead><tbody><tr><td data-th="Response"><strong>Confirmed</strong></td><td data-th="Means">It was right, and useful</td></tr><tr><td data-th="Response"><strong>Doesn't match</strong></td><td data-th="Means">It doesn't match what you're seeing</td></tr><tr><td data-th="Response"><strong>Already knew</strong></td><td data-th="Means">Right, but you were aware</td></tr><tr><td data-th="Response"><strong>Not sure</strong></td><td data-th="Means">You can't judge it yet</td></tr></tbody></table></div>
-<p>Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts <strong>for a while</strong>. If the problem is still there, the insight comes back.</p>
+<p>When Reef Buddy flags a drift, it also asks <em>Was this heads-up useful?</em> You can answer <strong>Helpful</strong>, <strong>Not helpful</strong>, <strong>This change is expected</strong> or <strong>Reading looks wrong</strong>. Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts <strong>for a while</strong>. If the problem is still there, the insight comes back.</p>
 <aside class="cal cal-note"><p class="cal-t">Serious findings are never hidden</p><p>Feedback only quiets lower-severity insights. Warning and critical insights keep showing up, whatever you've answered before.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-assistant"><span>Previous</span><b>Asking Cora</b></a><a class="pn-n" href="/help/mobile-journeys"><span>Next</span><b>Guided journeys</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.80 and Cora Mobile 0.5.81. Last checked 2026-09-29.</p>
+      <p class="stamp">Written for Cora Max 0.28.165 and Cora Mobile 0.5.109. Last checked 2026-10-12.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

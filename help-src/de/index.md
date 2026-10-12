@@ -2,7 +2,7 @@
 title: Cora Hilfe
 description: So richtest du Cora Max und Cora Mobile ein und nutzt sie, von Dashboards und Geräten bis zu Warnungen, Reef Buddy, ICP und Zustandsberichten.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -60,6 +60,9 @@ Neben Messwerten und Dashboards hat Cora auch den Rest deiner Beckenpflege an ei
 ## Deine Ausrüstung
 
 - **[Deine Ausrüstung steuern](/help/mobile-device-control)**: Steckdosen, Pumpen, Dosierköpfe und Testgeräte
+- **[Beta-Funktionen](/help/mobile-beta)**: was Beta bedeutet, wer die Beta-Anbindungen sieht und wie du Zugang anfragst
+- **[Kameras und Skimmer-Wächter](/help/mobile-cameras)**: eine Kamera hinzufügen und gewarnt werden, bevor der Skimmerbecher überläuft
+- **[EcoTech-Leuchten, -Pumpen und -Dosierer](/help/mobile-ecotech)**: Radion, VorTech und Versa per Bluetooth
 - **[Sonden](/help/mobile-probes)**: die Sonden eines Controllers zuordnen und Kalibrierungen festhalten
 - **[Verbrauchsmaterial](/help/mobile-consumables)**: Nachfüllwarnungen für Reagenzien, Behälter und Vorratsbehälter
 - **[Ausrüstung planen](/help/mobile-schedules)**: Tagesprogramme für Pumpen anlegen und kopieren und den Zeitplan einer Gyre ansehen

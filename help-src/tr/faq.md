@@ -2,7 +2,7 @@
 title: Sıkça sorulan sorular
 description: Kurulum, Cora Max, telefon uygulaması, cihazlar, uyarılar, Reef Buddy ve Cora Assistant, diller ve hesabınızla ilgili kısa cevaplar.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -114,19 +114,23 @@ Ayrıntılar [Paylaşma](/help/mobile-sharing) sayfasında.
 
 ### Cora hangi ekipmanla çalışır?
 
-Cora, Wi-Fi kontrol cihazlarından dozaj pompalarına ve gyre'lere kadar giderek büyüyen bir ekipman listesiyle çalışır. Güncel liste Bağlantılar sayfasında. Cora'nın doğrudan bağlanmadığı her şey için ölçümleri elle de girebilirsiniz.
+Cora, Wi-Fi kontrol cihazlarından dozaj pompalarına ve gyre'lere kadar giderek büyüyen bir ekipman listesiyle çalışır. Güncel liste Bağlantılar sayfasında. Cora'nın doğrudan bağlanmadığı her şey için ölçümleri elle de girebilirsiniz. Bir kısmı Beta aşamasındadır ve yalnızca Beta kullanıcılarına gösterilir.
 
 Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 
-### Cora'nın Neptune, Red Sea, Jebao, GHL, HYDROS ya da Maxspect ile bir bağı var mı?
+### Cora'nın Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech ya da Inkbird ile bir bağı var mı?
 
-Hayır. Cora, bağlandığı hiçbir ekipman üreticisiyle bağlantılı değildir. Bu üreticiler Cora'yı onaylamamıştır ve Cora'nın ortağı da değildir. Entegrasyonları hâlâ beta aşamasında olan Maxspect, GHL ve HYDROS da buna dahildir. Cora bu üreticilerin herkese açık hesaplarını, resmi API'lerini ya da yerel ağ protokollerini kullanır. Üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı istediği zaman, haber vermeden değiştirebilir ya da bozabilir.
+Hayır. Cora, bağlandığı hiçbir ekipman üreticisiyle bağlantılı değildir. Bu üreticiler Cora'yı onaylamamıştır ve Cora'nın ortağı da değildir. Entegrasyonları Beta aşamasında olan Maxspect, GHL, HYDROS, Focustronic, EcoTech ve Inkbird de buna dahildir. Cora bu üreticilerin herkese açık hesaplarını, resmi API'lerini ya da yerel ağ protokollerini kullanır. Üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı istediği zaman, haber vermeden değiştirebilir ya da bozabilir.
 
 Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 
-### Bir entegrasyonun "beta" olması ne demek?
+### Bir entegrasyonun "Beta" olması ne demek?
 
-Hâlâ test ettiğimiz ve geliştirdiğimiz anlamına gelir. Bazı ölçümler ya da kontroller sınırlı olabilir, gördükleriniz güncellemeler arasında değişebilir. Bugün itibarıyla Maxspect, GHL ve HYDROS'un hepsi beta aşamasındadır. Kılavuzda anlatılan bir şey çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasından bize bildirin.
+Hâlâ test ettiğimiz ve geliştirdiğimiz anlamına gelir. Bazı ölçümler ya da kontroller sınırlı olabilir, gördükleriniz güncellemeler arasında değişebilir. Bugün itibarıyla Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird ve kameralar (Skimmer Gözcüsü ile birlikte) Beta aşamasındadır.
+
+Beta entegrasyonlar yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Mağaza test programına katılmak Beta'yı açmaz. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+
+Kılavuzda anlatılan bir şey çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasından bize bildirin.
 
 Ayrıntılar [Bağlantılar](/help/mobile-connections) sayfasında.
 

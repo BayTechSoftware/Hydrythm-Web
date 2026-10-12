@@ -2,7 +2,7 @@
 title: Actualizaciones y recuperación
 description: Cómo se actualiza Cora Max solo y qué pasa si una actualización sale mal.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ En **Ajustes → Ajustes de Cora Max → Actualización de firmware** (en la sec
 Aparece un aviso con las novedades y dos opciones:
 
 - **Actualizar ahora**: la instala al momento y reinicia
-- **Posponer 3 horas**: te lo vuelve a preguntar más tarde
+- **Posponer 24 horas**: oculta el aviso y te lo vuelve a preguntar un día después
+
+Mientras hay una actualización pendiente, aparece un puntito en el icono de **Ajustes** de la barra superior y en la fila **Actualización de firmware**. El punto sigue ahí aunque pospongas, así que ves que hay una actualización. Desaparece mientras se instala.
 
 Si no haces nada, la actualización se instala sola por la noche, más o menos entre las 3 y las 5 de la madrugada, para que la pantalla no se reinicie mientras la miras.
 

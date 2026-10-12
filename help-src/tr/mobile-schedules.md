@@ -1,13 +1,13 @@
 ---
 title: Ekipman programları
-description: Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın. Maxspect gyre programını görüntüleyin (beta).
+description: Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın. Maxspect gyre programını görüntüleyin (Beta).
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 12
 group: Equipment
 ---
 
-Pompalar ve gyre'ler **günlük program** çalıştırabilir. Günlük program, her birinin kendi yoğunluğu olan ve her gün tekrarlanan periyotlardan oluşur. Cora, Jecod pompalarının programını doğrudan yazabilir. Maxspect gyre'lerin *(beta)* programını ise burada yalnızca görüntüleyebilirsiniz. Bu programı Maxspect uygulamasından ayarlayın.
+Pompalar ve gyre'ler **günlük program** çalıştırabilir. Günlük program, her birinin kendi yoğunluğu olan ve her gün tekrarlanan periyotlardan oluşur. Cora, Jecod pompalarının programını doğrudan yazabilir. Maxspect gyre'lerin *(Beta)* programını ise burada yalnızca görüntüleyebilirsiniz. Bu programı Maxspect uygulamasından ayarlayın. Maxspect yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
 
 Cihazı **Cihazlar** sekmesinden açın.
 
@@ -32,7 +32,7 @@ Her program ekranı aynı üç bölümden oluşur:
 
 **Periyot ekleme ve değiştirme**: **Programa ekle** yeni bir periyot ekler. Bir periyodu değiştirmek için açın ve **Kaydet**'e dokunun. Silmek için **Sil**'e dokunun. Cora silmeden önce onay ister.
 
-Maxspect gyre'nin *(beta)* Gyre A ve Gyre B adlı iki kafası var. Bu yüzden gün grafiğinde her kafa için ayrı bir iz görünür ve planlar **GYRE A** ve **GYRE B** başlıkları altında listelenir. Gyre programı yalnızca görüntülenebilir. İşlem satırında **Yalnızca görüntüle** yazar. Programı Maxspect uygulamasından ayarlarsınız.
+Maxspect gyre'nin *(Beta)* Gyre A ve Gyre B adlı iki kafası var. Bu yüzden gün grafiğinde her kafa için ayrı bir iz görünür ve planlar **GYRE A** ve **GYRE B** başlıkları altında listelenir. Gyre programı yalnızca görüntülenebilir. İşlem satırında **Yalnızca görüntüle** yazar. Programı Maxspect uygulamasından ayarlarsınız.
 
 :::warning Program cihaza yazılır
 Kaydettiğinizde program ekipmana gönderilir. Ekipman programı kendi saatine göre çalıştırır. Cora'ya bağlantı olsa da olmasa da program çalışmaya devam eder.

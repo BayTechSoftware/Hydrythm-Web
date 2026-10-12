@@ -2,7 +2,7 @@
 title: Widget rehberi
 description: Cora'daki bütün widget türleri (değer, gösterge, grafik, durum, priz ve cihaz kutucukları) ve hangisini ne zaman kullanacağınız.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Widget'ları **[pano düzenleyicide](/help/mobile-dashboard-editing)** ekleyip y
 
 ![Widget ayarları](img/mobile-widget-config.webp "Tür, parametre, ardından genişlik ve yükseklik.")
 
-## On bir tür
+## On altı tür
 
 | Tür | Ne gösterir |
 |---|---|
@@ -22,14 +22,23 @@ Widget'ları **[pano düzenleyicide](/help/mobile-dashboard-editing)** ekleyip y
 | **Grafik** | Seçtiğiniz zaman aralığındaki eğilim |
 | **Durum** | Yazıyla durum: çalışıyor, boşta, kapalı |
 | **Priz** | Üç konumlu anahtar: Otomatik, Kapalı, Açık |
+| **Sahne** | Tek dokunuşla çalıştırdığınız bir sahne. Cora Max'te eklersiniz |
 | **ReefBeat** | Tek bir Red Sea ünitesi ve kendi özeti |
 | **Apex modülü** | Trident ya da DŌS gibi takılı tek bir Apex modülü |
 | **Jecod** | Tek bir Jecod pompası, modu ve yoğunluğuyla |
-| **Maxspect** *(beta)* | Tek bir gyre, iki motoruyla birlikte |
-| **GHL** *(beta)* | Tek bir ProfiLux ya da Mitras kontrol cihazı, kendi özetiyle |
-| **HYDROS** *(beta)* | Tek bir HYDROS kontrol cihazı, kendi özetiyle |
+| **Maxspect** *(Beta)* | Tek bir gyre, iki motoruyla birlikte |
+| **GHL** *(Beta)* | Tek bir ProfiLux ya da Mitras kontrol cihazı, kendi özetiyle |
+| **HYDROS** *(Beta)* | Tek bir HYDROS kontrol cihazı, kendi özetiyle |
+| **Radion** *(Beta)* | Tek bir EcoTech Radion ışığı ya da bağlanmış bir Radion ağı |
+| **VorTech** *(Beta)* | Tek bir EcoTech VorTech pompası, modu ve hızıyla |
+| **Versa** *(Beta)* | Tek bir EcoTech Versa dozajlayıcısı, kafalarıyla |
+| **Kamera** *(Beta)* | Kameralarınızdan birinin canlı görüntüsü, en fazla üç sütun genişliğinde ve iki satır yüksekliğinde |
 
-Son altısı **cihaz** kutucuklarıdır. Parametreye değil, ekipmana bağlıdırlar. Her biri o ünitenin bildirdiği bilgileri gösterir.
+Sahne'den sonraki her tür bir **cihaz** kutucuğudur. Parametreye değil, ekipmana bağlıdırlar. Her biri o ünitenin bildirdiği bilgileri gösterir.
+
+:::note Beta kutucuklar
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech ve Versa) ve Kamera, yalnızca Beta kullanıcılarına açık Beta entegrasyonlardır. Bu kutucukları ancak cihaza sahip olduğunuzda görürsünüz. Bkz. [Beta özellikleri](/help/mobile-beta).
+:::
 
 ## Boyut
 
@@ -97,6 +106,12 @@ Bütün ekipman için tek kutucuk. Tek parametre yerine cihazın kendi özetini 
 Hangi cihazların kutucuğu olduğu, neleri bağladığınıza bağlıdır. Ayrıntılar **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında.
 
 Ayarlarda etiketi, cihazı ve boyutu seçersiniz.
+
+## Dozaj kutucukları
+
+Bir dozaj cihazının (Apex DŌS, ReefDose ya da EcoTech Versa) kutucuğu her kafa için bir satır gösterir. Kafa adı okunabilir boyutun altına hiç küçültülmez. Uzun bir kutucukta satır iki satır tutar: ilkinde ad, ikincisinde kalan miktar, örneğin *40d* ve *2.8 L*. Kısa bir kutucukta ayrıntı satırı kaldırılır ve ad okunabilir kalır.
+
+Neyin önce geleceğini **Kalanı şu şekilde göster** ile seçin: **Gün** ya da **Mililitre (mL)**. Kendi adı olmayan bir ReefDose kafası, cihaz adı ve ardından "kafa" ile numarası olarak gösterilir. Jecod dozaj kutucuğu salt okunurdur ve günlük planı gösterir, çünkü Jecod şişede ne kadar kaldığını bildirmez.
 
 ## Parametre widget'ında neler görünür
 

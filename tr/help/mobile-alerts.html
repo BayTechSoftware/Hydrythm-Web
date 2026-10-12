@@ -83,8 +83,11 @@
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
 <li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
-<li><a href="/tr/help/mobile-probes">Problar</a></li>
+<li><a href="/tr/help/mobile-probes">Parametre Eşlemesi</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
+<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
+<li><a href="/tr/help/mobile-cameras">Kameralar ve Skimmer Gözcüsü</a></li>
+<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozajlayıcıları</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Uyarılar ve otomasyon</summary><ul>
@@ -194,9 +197,12 @@
 <ul><li>Her ekranın sağ üstündeki <strong>zil</strong>, uyarı geçmişinizi tutar. Üstündeki sayı okumadığınız uyarıların sayısıdır.</li><li><strong>Anlık bildirimler</strong>, izin verdiyseniz telefonunuza gelir.</li><li>Panodaki <strong>widget</strong> turuncu ya da kırmızı olur.</li><li><strong>Cora Max</strong> aynı uyarıları büyük ekranda gösterir.</li></ul>
 <h2 id="ekipman-sorun-bildirdiinde">Ekipman sorun bildirdiğinde</h2>
 <p>Bazı uyarılar bir ölçümle değil, ekipmanla ilgilidir. Trident ya da Jecod™ pompası gibi bir cihaz arıza bildirdiğinde Cora, akvaryumun ve cihazın adının geçtiği bir bildirim gönderir. Örneğin <em>"Salon akvaryumu: Ana pompa dikkat gerektiriyor"</em>. Bildirimde sıkışmış rotor gibi sorunun ne olduğu da yazar. Arıza giderilince ikinci bildirim gelir: <em>"Salon akvaryumu: Ana pompa tekrar normal"</em>. İki bildirim de <strong>Ayarlar → Bildirimler</strong> altında <strong>Ekipman Arızaları</strong> kategorisindedir.</p>
-<p>Maxspect™ gyre (beta) için de aynı uyarı gelebilir. Aynı ağdaki bir Cora Max, iki kafanın da %0'a ayarlı olduğunu görürse ya da gyre üst üste iki kez yanıt vermezse bu uyarı verilir. Bunu güvenlik önlemi değil, uyarı olarak görün. Cora Max gyre'yi sürekli değil, ara ara kontrol eder. Bunu da yalnızca çalışırken ve gyre'ye ulaşabildiğinde yapar.</p>
+<p>Maxspect™ gyre (Beta) için de aynı uyarı gelebilir. Aynı ağdaki bir Cora Max, iki kafanın da %0'a ayarlı olduğunu görürse ya da gyre üst üste iki kez yanıt vermezse bu uyarı verilir. Bunu güvenlik önlemi değil, uyarı olarak görün. Cora Max gyre'yi sürekli değil, ara ara kontrol eder. Bunu da yalnızca çalışırken ve gyre'ye ulaşabildiğinde yapar.</p>
 <h2 id="bir-cihaz-bildirim-gndermeyi-kesti">Bir cihaz bildirim göndermeyi kesti</h2>
-<p>Bir Neptune™ Apex, Red Sea™ ReefBeat cihazı, AquaWiz™, Jecod pompası ya da Maxspect gyre sessiz kalırsa Cora size haber verir: <em>"[Cihaz]: bildirim göndermeyi kesti."</em> Cihazın gücünü ve Wi-Fi bağlantısını, bir de onu okuyan Cora Max'in açık olduğunu kontrol edin. Çoğu ekipman için bu bildirim, güncelleme gelmeden yaklaşık 30 dakika sonra gelir. AquaWiz daha seyrek kontrol edildiğinden yaklaşık 3 saat bekler. Cihaz yeniden bildirim göndermeye başladığında ikinci bir bildirim alırsınız.</p>
+<p>Bir Neptune™ Apex, Red Sea™ ReefBeat cihazı, AquaWiz™, Jecod pompası, Maxspect gyre, EcoTech™ cihazı ya da Inkbird™ oda havası monitörü sessiz kalırsa Cora size haber verir: <em>"[Cihaz]: bildirim göndermeyi kesti."</em> Cihazın gücünü ve Wi-Fi (ya da Bluetooth menzili) bağlantısını, bir de onu okuyan Cora Max'in açık olduğunu kontrol edin. Cihaz yeniden bildirim göndermeye başladığında ikinci bir bildirim alırsınız.</p>
+<p>Cora'nın ne kadar bekleyeceği cihaza göre değişir.</p>
+<ul><li>Neptune Apex ve Red Sea ReefBeat: güncelleme gelmeden yaklaşık 30 dakika.</li><li>AquaWiz: daha seyrek kontrol edildiği için yaklaşık 3 saat.</li><li>Jecod ve Maxspect: üst üste üç ölçüm kaçırılması. Cihazın kendi ölçüm aralığına göre sayılır.</li><li>EcoTech ve Inkbird: üst üste üç ölçüm kaçırılması. O ağ ya da monitör için belirlediğiniz aralığa göre sayılır.</li></ul>
+<p>Maxspect, EcoTech ve Inkbird, yalnızca Beta kullanıcılarının ekleyebildiği Beta entegrasyonlardır. Ayrıntılar <a href="/tr/help/mobile-beta">Beta özellikleri</a> sayfasında.</p>
 <p>Bu da yukarıdaki arıza uyarıları gibi <strong>Ayarlar → Bildirimler</strong> altında <strong>Ekipman Arızaları</strong> kategorisindedir.</p>
 <h2 id="red-sea-deerleri-gncellenmiyor">"Red Sea değerleri güncellenmiyor"</h2>
 <p>Bir akvaryumun parametre sayfasında şu şeridi görebilirsiniz:</p>
@@ -220,7 +226,7 @@
 <p>Uyarı Merkezi'nin <strong>Kurallar</strong> sekmesinde kuralı açın ve <strong>açma kapama anahtarını</strong> kapatın. Kural ve aralığı silinmez. İstediğinizde baştan kurmadan yeniden açabilirsiniz.</p>
 <aside class="cal cal-warning"><p class="cal-t">Parametreyi susturmak için aralığı silmeyin</p><p>Eşiği silmek o ölçümün değerlendirilmesini tamamen durdurmayabilir. Varsayılan referans aralıklar değeri yine renklendirir ve özete de yansıyabilir. Bunun yerine kuralın açma kapama anahtarını kullanın.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-consumables"><span>Önceki</span><b>Sarf malzemeleri</b></a><a class="pn-n" href="/tr/help/mobile-notifications"><span>Sonraki</span><b>Bildirimler</b></a></nav>
-      <p class="stamp">Cora Max 0.28.80 ve Cora Mobile 0.5.81 için yazılmıştır. Son kontrol: 2026-09-30.</p>
+      <p class="stamp">Cora Max 0.28.165 ve Cora Mobile 0.5.109 için yazılmıştır. Son kontrol: 2026-10-12.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>

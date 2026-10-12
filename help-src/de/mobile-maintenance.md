@@ -2,7 +2,7 @@
 title: Wartung
 description: Wiederkehrende Aufgaben mit Erinnerungen, vom Abschäumer über Filtersocken bis zur Pumpenwartung.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ Verbindest du ein Red Sea ReefDose, ReefATO+, ReefMat oder ReefRun, legt Cora di
 | ReefDose, pro Kopf | Replace ReefDose head tubing | 450 Tage |
 
 Sie funktionieren genau wie jede Aufgabe, die du selbst anlegst: umbenennen, Intervall ändern, verschieben oder pausieren. Löschst du eine, legt Cora sie für dieses Gerät nicht wieder an.
+
+### Wasser testen
+
+Tippst du auf der Karte für den ersten Test auf **Erinnere mich jede Woche ans Testen**, legt Cora eine wöchentliche Aufgabe namens **Wasser testen** an, fällig an dem **Testtag**, den du wählst. Sie funktioniert wie jede Aufgabe, die du selbst anlegst. Siehe [Cora Mobile einrichten](/help/mobile-setup).
+
+### Aus einer Automation
+
+Eine [Automation](/help/mobile-automation) mit der Aktion **Wartungsaufgabe erstellen** kann eine Aufgabe auf diese Liste setzen, wenn ihre Regel auslöst, oder eine bestehende Aufgabe sofort fällig machen. Eine neue ist einmalig und sofort fällig und verschwindet aus der Liste, sobald du sie erledigst. Solange sie noch offen ist, legt dieselbe Automation keine weitere an. Du bekommst eine Benachrichtigung.
 
 ## Erinnerungen
 

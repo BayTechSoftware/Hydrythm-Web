@@ -2,7 +2,7 @@
 title: Aggiungere, modificare e rimuovere dispositivi
 description: Come aggiungere attrezzatura a Cora, assegnarla a una vasca e rimuoverla nel modo giusto, tutto da un unico posto.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 9
 group: Equipment
 ---
@@ -13,7 +13,13 @@ Aggiungi, modifica, assegna e rimuovi ogni dispositivo dalla scheda **Dispositiv
 
 ## Aggiungere attrezzatura
 
-Tocca **Aggiungi dispositivo**, poi scegli la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* oppure **AquaWiz**. Ognuna apre esattamente quello che le serve per trovare la tua attrezzatura: una ricerca in rete, un indirizzo IP, un accesso o una chiave dispositivo. [Collegare la tua attrezzatura](/help/mobile-connections) spiega cosa serve per ogni marca.
+Tocca **Aggiungi dispositivo**, poi scegli la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** oppure **AquaWiz**. Gli utenti Beta vedono anche **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** e **Telecamera**, ognuno con un'etichetta **Beta**. Ognuna apre esattamente quello che le serve per trovare la tua attrezzatura: una ricerca in rete, un indirizzo IP, un accesso o una chiave dispositivo. [Collegare la tua attrezzatura](/help/mobile-connections) spiega cosa serve per ogni marca.
+
+:::note Beta
+**Beta.** Le integrazioni Beta sono aperte solo agli utenti Beta. Se non sei un utente Beta, non le vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Trovi di più in [Funzioni Beta](/help/mobile-beta).
+:::
+
+Una riga che richiede un Cora Max nella vasca (Maxspect, GHL, EcoTech, Inkbird e Telecamera) è disattivata e dice **Richiede Cora Max** finché la vasca non ne ha uno.
 
 **Cora** è come associ un nuovo Cora Max. Trova le unità già sul tuo Wi-Fi, o quelle vicine via Bluetooth. Se la ricerca non lo trova, in questa schermata c'è anche **Inserisci l'indirizzo IP manualmente**.
 
@@ -41,13 +47,24 @@ Un dispositivo senza vasca continua a mandare dati, ma i numeri non finiscono da
 
 ## Rinominare
 
-Apri il dispositivo e cambia il nome. Usa il nome con cui lo chiami tutti i giorni: "Risalita", "Gyre sinistra", "Riscaldatore sump". Il nome compare sui widget, negli avvisi e in tutto quello che chiedi a Cora, quindi un nome che per te ha senso rende tutto più chiaro.
+Apri il dispositivo e tocca la matita accanto al nome. Usa il nome con cui lo chiami tutti i giorni: "Risalita", "Gyre sinistra", "Riscaldatore sump". Il nome compare sui widget, negli avvisi e in tutto quello che chiedi a Cora, quindi un nome che per te ha senso rende tutto più chiaro.
+
+I nomi possono avere fino a 40 caratteri. Se due dispositivi dello stesso tipo non hanno un nome, Cora li distingue con un breve codice dopo il nome. Cora non usa mai un numero di serie come nome.
 
 Il nuovo nome vale solo in Cora. Nell'app del produttore il nome resta quello di prima.
 
 ## Controllare se un dispositivo funziona
 
-Ogni riga mostra lo stato attuale. Quello che vuoi vedere è un aggiornamento recente e nessun avviso.
+Ogni dispositivo è una riga nella scheda Dispositivi, con la sua icona, il nome, il modello e la vasca. Il pallino sulla riga ne mostra lo stato.
+
+| Pallino | Cosa significa |
+|---|---|
+| Grigio | Cora non lo sa ancora |
+| Verde | Funziona normalmente |
+| Arancione | Un avviso o un guasto |
+| Rosso | Offline |
+
+Le letture, le modalità, lo scollegamento e l'indirizzo IP sono nella pagina dei dettagli del dispositivo, che si apre con una sezione **Stato**. Quello che vuoi vedere è un aggiornamento recente e nessun avviso.
 
 | Cosa vedi | Cosa significa |
 |---|---|

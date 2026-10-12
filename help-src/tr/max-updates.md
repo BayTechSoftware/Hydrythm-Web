@@ -2,7 +2,7 @@
 title: Güncellemeler ve kurtarma
 description: Cora Max nasıl güncellenir, güncelleme ters giderse ne olur.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ Güncelleme olup olmadığına bakmak, güncellemeyi kurmak, güncelleme kanalı
 Yenilikleri anlatan bir pencere açılır. İki seçeneğiniz var:
 
 - **Şimdi güncelle**: Güncellemeyi hemen kurar ve yeniden başlar
-- **3 saat ertele**: Daha sonra yeniden sorar
+- **24 saat ertele**: İstemi gizler ve bir gün sonra yeniden sorar
+
+Bir güncelleme beklerken üst çubuktaki **Ayarlar** simgesinde ve **Yazılım Güncellemesi** satırında küçük bir nokta görünür. Nokta ertelemeden sonra da durur, böylece bir güncelleme olduğunu yine görebilirsiniz. Güncelleme kurulurken kaybolur.
 
 Hiçbir şey seçmezseniz güncelleme gece, aşağı yukarı saat 3 ile 5 arasında kendiliğinden kurulur. Böylece siz ekrana bakarken yeniden başlamaz.
 

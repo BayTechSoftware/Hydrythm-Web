@@ -2,7 +2,7 @@
 title: Dziennik, obsada i konserwacja
 description: Ekrany z zapisami na Cora Max i kiedy wygodniej użyć ich niż telefonu.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Records
 ---
@@ -11,7 +11,7 @@ Cora Max pokazuje te same zapisy co telefon, ale nie wszystkie da się na nim w 
 
 | Obszar | Na Cora Max |
 |---|---|
-| **Dziennik** | Czytanie i dodawanie wpisów |
+| **Dziennik** | Czytanie i dodawanie wpisów. **Dodatkowe karmienie** albo **Pominięte karmienie** zapiszesz jednym dotknięciem |
 | **Odczyty** | Zapisywanie wyników testów na klawiaturze ekranowej |
 | **Konserwacja** | Oznaczanie zadania jako wykonanego albo odkładanie go. Zadania tworzysz i edytujesz na telefonie |
 | **Obsada** | Tylko do odczytu. Dodajesz i edytujesz ją na telefonie |
@@ -27,6 +27,12 @@ Wszystkie te ekrany znajdziesz w **menu akwarium**. Dotknij nazwy akwarium na g�
 Wpis dodasz bez odchodzenia od akwarium. Zwykle tak jest wygodniej, bo ekran na ścianie masz obok siebie, gdy pracujesz przy akwarium.
 
 Otwórz **menu akwarium** (dotknij nazwy akwarium na górnym pasku) i dotknij **+**, żeby dodać wpis. Możesz też powiedzieć *„Hey Cora, zapisz karmienie mysis”*. Więcej w [Dziennik](/help/mobile-journal).
+
+### Karmienie
+
+U góry ekranu dziennika **Dodatkowe karmienie** i **Pominięte karmienie** dodają po jednym wpisie do dziennika. Linia pod nimi pokazuje Twój plan karmienia, na przykład *Plan karmienia: Płatki: 2 szczypty, dwa razy dziennie*. Plan ustawiasz w Cora Mobile, więc gdy żadnego nie zapisano, linia pisze *Ustaw plan karmienia w aplikacji na telefonie*.
+
+Jeśli Cora Max odczytuje Twój Neptune Apex, zapisuje też cykl karmienia Feed A do D, gdy się zaczyna, niezależnie od tego, czy uruchomiłeś go tu, na Apex, czy w Apex Fusion.
 
 :::note Na górnym pasku nie ma ikony dziennika
 Ikona obok ikony urządzeń to **Reef Buddy**. Kropka przy niej oznacza, że dzisiejszy briefing nie został jeszcze przeczytany. Wpisy do dziennika dodajesz z menu akwarium albo głosem.

@@ -2,7 +2,7 @@
 title: ICP and health reports
 description: Upload an ICP test, track each element over time, and run a full health check of your system.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 26
 group: Intelligence
 ---
@@ -16,6 +16,18 @@ The **Intelligence** tab is where your lab results and long-term reports live.
 Tap **Upload ICP**, pick your tank and add the result from your lab. Cora reads the report, records every element and lines it up with your earlier tests.
 
 You don't have to type anything. Cora handles the common lab formats.
+
+## Which email a lab can use
+
+A lab or an emailed result finds your account by the email address it knows. That is your sign-in email, plus any lab email you add under **Settings → your account card → Lab & ICP emails**.
+
+1. Tap **Add lab email** and type the address your lab uses.
+2. Tap **Send code**. Cora sends a 6-digit code to that address. It expires in 10 minutes.
+3. Enter the code and tap **Verify**. If you didn't get it, tap **Resend code**.
+
+You can add up to 3 lab emails. Each shows **Verified** or **Waiting for code**, and **Remove** takes one off. After that, results sent to it no longer reach your account. An address that already belongs to another Cora account can't be added.
+
+If you signed in with a hidden Apple email, labs can't find your account. The ICP screen shows a card, **Get lab results automatically**, that takes you to this setting. When you sign in with Apple, choose **Share My Email** to avoid the problem.
 
 ## Send to Cora: results a lab or an email delivers for you
 
@@ -45,7 +57,15 @@ You get a score out of 100 and a plain-language summary of what it means for you
 
 The score compares your results with their target ranges, including any ranges you've set yourself. If any result is outside its range, the score can't go above 70, so it can't read **Healthy**. If one is far outside, it can't go above 40, however good the rest are. The label under the score reads **Healthy** from 71 to 100, **Needs Attention** from 40 to 70 and **Critical** from 0 to 39. Health Reports are scored the same way.
 
-Every element is tracked, including trace elements and contaminants as well as the main parameters.
+Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records all 71 elements a lab can report, and the line some labs call *Acidity* is pH.
+
+On each element row you'll see the range the lab printed, shown as *Lab range*, next to Cora's own range for that element. An element Cora has no reference range for carries the tag **No Cora range**. The report says how many elements have a Cora range and assesses the rest from general reef knowledge. Cora Assistant comments on every element that was tested, and its comment stands even when there's no Cora range.
+
+If the lab prints *n.d.*, or *not detected*, for an element, Cora records it as 0 and says it wasn't detected.
+
+:::note Dissolved CO2 is not room CO2
+**Dissolved CO₂** in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room, which a Beta Inkbird room air monitor measures. The two have different ranges and are never mixed. See [Beta features](/help/mobile-beta).
+:::
 
 The "Since your last ICP" card shows what changed most since last time. It's usually the quickest way into a new report.
 
@@ -54,6 +74,10 @@ Tap **Trends** to see any element across every test you've uploaded. This is whe
 :::tip The second test is where it gets interesting
 One ICP tells you where you are. The second tells you which way you're heading, and that's what you can act on. Test on a regular rhythm, and don't wait for something to go wrong.
 :::
+
+## An RO/DI or source-water test
+
+If you upload a sample that is RO/DI or other source water, say so when you upload. Cora doesn't score it against your tank's targets. It gives a plain verdict on whether the water is clean enough to use, and it keeps those numbers out of your tank readings. The report notes how many results are source water. Cora does the same for a fresh salt mix or any other sample that isn't tank water: it says what the sample looks like and doesn't score it as your tank.
 
 ## Health reports
 

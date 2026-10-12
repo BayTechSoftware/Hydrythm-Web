@@ -2,7 +2,7 @@
 title: Problembehebung
 description: Keine neuen Messwerte, ein Gerät offline, eine Warnung, die nicht verschwindet, oder etwas sieht falsch aus. Fang hier an.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ Die Altersanzeige stimmt. Es ist einfach nichts Neues angekommen.
 - **Von Hand eingetragene Wasserwerte** veralten, wenn du keinen neuen Wert einträgst. Trag einen ein.
 - **Veraltet ein Messwert von einem Gerät**, meldet das Gerät nicht mehr. Prüf seine Zeile unter **Geräte**.
 - **Manche Geräte messen von sich aus selten.** Ein Titrator, der einmal pro Stunde misst, zeigt normalerweise `1h`. Das ist kein Fehler.
+
+## „[Gerät]: meldet sich nicht mehr“
+
+Cora schickt das, wenn ein Gerät still wird. Es heißt nicht, dass das Gerät kaputt ist, nur dass Cora seit einer Weile nichts von ihm gehört hat.
+
+- Ein Neptune Apex oder Red Sea ReefBeat-Gerät gilt nach etwa 30 Minuten als still. AquaWiz braucht etwa 3 Stunden.
+- Eine Jecod- oder Maxspect-Pumpe gilt nach drei verpassten Messungen in Folge als still, gezählt im eigenen Messintervall des Geräts.
+- Ein EcoTech-Gerät oder ein Inkbird-Monitor, beide Beta, gilt ebenfalls nach drei verpassten Messungen in Folge als still, gezählt im Messintervall, das du eingestellt hast. Netzwerke nur mit EcoTech-Leuchten werden standardmäßig alle 30 Minuten ausgelesen, rechne also mit mindestens 90 Minuten.
+
+1. Prüf die Stromversorgung des Geräts und seine WLAN- oder Bluetooth-Reichweite.
+2. Prüf, ob das Cora Max, das es ausliest, eingeschaltet und online ist.
+3. Warte auf die nächste Messung. Sobald es sich wieder meldet, bekommst du eine zweite Benachrichtigung.
+
+Mehr dazu unter [Warnungen und Schwellenwerte](/help/mobile-alerts). Beta-Geräte werden unter [Beta-Funktionen](/help/mobile-beta) erklärt.
 
 ## Ein Gerät ist nicht erreichbar
 
@@ -57,6 +71,15 @@ Schau auf den Status-Chip in der oberen Leiste. **Online** und **Cloud** heißen
 - Prüf das WLAN unter **Einstellungen → Cora Max-Einstellungen → Wi-Fi**.
 - Prüf, ob das Netzwerk selbst läuft.
 - Steht im Chip **Online** oder **Cloud** und die Daten sind trotzdem alt, liegt das Problem vor Cora Max. Schau dir dasselbe Becken auf deinem Handy an.
+
+## Cora Max zeigt „Cloud-Speichern abgelehnt“
+
+Dieser Chip in der oberen Leiste heißt, dass Cora Cloud es ablehnt, einen Teil der Daten dieses Bildschirms zu speichern. Mit deinem Becken oder mit Cora Max ist alles in Ordnung, und auf dem Bildschirm musst du nichts ändern. Die Lösung ist ein Update von Cora Cloud.
+
+1. Öffne **Einstellungen → Cora Max-Einstellungen → Firmware-Update** und sieh im Bereich **Status** nach. Die Zeile **Cloud-Speichern** nennt, welche Daten abgelehnt werden, zum Beispiel die Messwerte oder Steckdosen eines Geräts.
+2. [Wende dich an den Support](/support.html) und sag uns, was in dieser Zeile steht.
+
+Deine Messwerte werden in der Zwischenzeit weiter auf Cora Max angezeigt. Sie werden nur nicht in deinem Konto gespeichert, bis die Lösung da ist.
 
 ## Eine Warnung verschwindet nicht
 
@@ -103,6 +126,8 @@ Im Netzwerk dieses Beckens fragt gerade kein Gerät deine Red Sea-Geräte ab. De
 Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** und nenn uns den Namen von Becken und Gerät.
 
 ## „GHL-API ist aus“
+
+GHL ist eine Beta-Anbindung. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 GHL schaltet seine offizielle API nach jedem Firmware-Update aus. Das ist nach einem Update also normal und kein Fehler. Schalte sie direkt am Controller unter **System → GHL API** im GHL Control Center oder in GHL Connect wieder ein. Cora prüft von selbst weiter und verbindet sich neu, sobald sie wieder an ist.
 
@@ -299,7 +324,7 @@ Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.
 
 Das liegt an den Anzeigeeinheiten des Beckens und nicht an den Daten. Die Werte werden immer gleich gespeichert, egal wie sie angezeigt werden.
 
-1. Öffne die **Einstellungen** dieses Beckens und prüf die Anzeigeeinheiten.
+1. Öffne die **Einstellungen**, öffne dieses Becken und wähle **Einheiten**.
 2. Ändere sie dort. Alle Handys und Cora Max, die dieses Becken zeigen, übernehmen die Änderung.
 
 Hilft das nicht, schreib eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

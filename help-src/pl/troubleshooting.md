@@ -2,7 +2,7 @@
 title: Rozwiązywanie problemów
 description: Odczyty przestały napływać, urządzenie jest offline, alert nie znika albo coś wygląda nie tak. Zacznij tutaj.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ Wiek odczytu mówi prawdę: nic nowego nie dotarło.
 - **Parametry wpisywane ręcznie** stają się nieaktualne, gdy nikt nie wpisał nowego odczytu. Zapisz nowy wynik.
 - **Odczyty ze sprzętu** stają się nieaktualne, gdy urządzenie przestało wysyłać dane. Sprawdź jego wiersz w **Urządzenia**.
 - **Niektóre urządzenia z założenia mierzą rzadko.** Titrator, który mierzy raz na godzinę, zwykle pokazuje `1h`. To nie jest błąd.
+
+## „[Urządzenie]: przestało się zgłaszać”
+
+Cora wysyła to, gdy urządzenie ucichnie. Nie znaczy to, że urządzenie jest zepsute, tylko że Cora od dłuższego czasu nic od niego nie słyszała.
+
+- Neptune Apex albo urządzenie Red Sea ReefBeat uznaje się za ciche po około 30 minutach. AquaWiz po około 3 godzinach.
+- Pompę Jecod albo Maxspect uznaje się za cichą po trzech brakujących odczytach z rzędu, liczonych według własnego interwału odczytu urządzenia.
+- Urządzenie EcoTech albo monitor Inkbird, oba w wersji Beta, uznaje się za ciche także po trzech brakujących odczytach z rzędu, liczonych według interwału odczytu, który ustawiłeś. Sieci EcoTech tylko z lampami są domyślnie odczytywane co 30 minut, więc poczekaj co najmniej 90 minut.
+
+1. Sprawdź zasilanie urządzenia oraz zasięg jego Wi-Fi albo Bluetooth.
+2. Sprawdź, czy Cora Max, który je odczytuje, jest włączony i online.
+3. Poczekaj na następny odczyt. Gdy urządzenie znów zacznie się zgłaszać, przychodzi drugie powiadomienie.
+
+Więcej w [Alertach i progach](/help/mobile-alerts). Urządzenia Beta opisuje [Funkcje Beta](/help/mobile-beta).
 
 ## Nie ma połączenia z urządzeniem
 
@@ -57,6 +71,15 @@ Sprawdź plakietkę stanu na górnym pasku. **Online** i **Chmura** oznaczają, 
 - Sprawdź Wi-Fi w **Ustawienia → Ustawienia Cora Max → Wi-Fi**
 - Sprawdź, czy sama sieć działa
 - Jeśli plakietka pokazuje **Online** albo **Chmura**, a dane dalej są stare, problem leży wcześniej. Sprawdź to samo akwarium na telefonie
+
+## Cora Max pokazuje „Zapis w chmurze odrzucony”
+
+Ta plakietka na górnym pasku oznacza, że Cora Cloud odmawia zapisania części danych z tego ekranu. Z Twoim akwarium ani z Cora Max nic złego się nie dzieje i nic nie trzeba zmieniać na ekranie. Rozwiązaniem jest aktualizacja Cora Cloud.
+
+1. Otwórz **Ustawienia → Ustawienia Cora Max → Aktualizacja oprogramowania** i zajrzyj do sekcji **Stan**. Linia **Zapis w chmurze** mówi, które dane są odrzucane, na przykład odczyty albo gniazda jakiegoś urządzenia.
+2. [Skontaktuj się z pomocą techniczną](/support.html) i napisz nam, co mówi ta linia.
+
+Twoje odczyty nadal pokazują się na Cora Max. Po prostu nie są zapisywane na Twoim koncie, dopóki nie pojawi się poprawka.
 
 ## Alert nie znika
 
@@ -104,6 +127,8 @@ Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)**
 
 ## „GHL API jest wyłączone”
 
+GHL to integracja Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
+
 GHL wyłącza swoje oficjalne API po każdej aktualizacji firmware, więc to normalne po aktualizacji, a nie usterka. Włącz je z powrotem w **System → GHL API** w GHL Control Center albo GHL Connect, bezpośrednio na kontrolerze. Cora sprawdza to na bieżąco i sama połączy się ponownie, gdy tylko API wróci.
 
 ## „Kontroler GHL jest nieosiągalny”
@@ -143,7 +168,7 @@ Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)**
 
 ## „Nie udało się połączyć z tym Gyre. Żadne karmienie nie zostało rozpoczęte.”
 
-Pompa Maxspect Gyre (integracja w wersji beta) nie odpowiedziała, gdy Cora próbowała włączyć na niej tryb karmienia.
+Pompa Maxspect Gyre (integracja w wersji Beta) nie odpowiedziała, gdy Cora próbowała włączyć na niej tryb karmienia.
 
 1. Sprawdź, czy pompa jest włączona i jest w swojej sieci.
 2. Dotknij **Spróbuj ponownie**.
@@ -152,7 +177,7 @@ Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)**
 
 ## „Nie udało się połączyć z tym Gyre. Jego program nie został zmieniony.”
 
-Harmonogram nie dotarł do pompy Maxspect Gyre (integracja w wersji beta).
+Harmonogram nie dotarł do pompy Maxspect Gyre (integracja w wersji Beta).
 
 1. Sprawdź, czy telefon albo Cora Max jest w tej samej sieci co pompa.
 2. Dotknij **Spróbuj ponownie** na ekranie harmonogramu.
@@ -299,7 +324,7 @@ Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)**
 
 To ustawienie jednostek akwarium, a nie problem z danymi. Wartości są zapisywane tak samo bez względu na to, jak są wyświetlane.
 
-1. Otwórz **Ustawienia** tego akwarium i sprawdź jednostki.
+1. Otwórz **Ustawienia**, otwórz to akwarium i wybierz **Jednostki**.
 2. Zmień je tam. Każdy telefon i każdy Cora Max, który pokazuje to akwarium, dostosuje się do zmiany.
 
 Jeśli to nie pomoże, napisz na **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

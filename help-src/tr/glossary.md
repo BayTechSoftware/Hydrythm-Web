@@ -2,7 +2,7 @@
 title: Sözlük
 description: Cora'da geçen terimler: akvaryum, kaynak, widget, kayıtlı tasarım, eşik, içgörü ve diğerleri.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 2
 ---
 
@@ -64,7 +64,7 @@ Yem verirken gereken ekipmanı durduran ve sonra kendiliğinden yeniden açan bi
 
 ## GHL
 
-ProfiLux ve Mitras kontrol cihazı serisini üreten GHL Advanced Technology'nin kısaltması. Cora'nın GHL desteği **beta** aşamasındadır. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
+ProfiLux ve Mitras kontrol cihazı serisini üreten GHL Advanced Technology'nin kısaltması. Cora'nın GHL desteği **Beta** aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 
 ## Sağlık raporu
 
@@ -72,7 +72,7 @@ Sistemin tamamını daha derinlemesine inceleyen dönemsel değerlendirme. Tüm 
 
 ## HYDROS
 
-CoralVue'nün kontrol cihazı ve dozaj ekosistemi. Cora ona HYDROS'un kendi bulutu üzerinden ulaşır, bu yüzden evden uzaktayken de çalışmaya devam eder. Cora'nın HYDROS desteği **beta** aşamasındadır. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
+CoralVue'nün kontrol cihazı ve dozaj ekosistemi. Cora ona HYDROS'un kendi bulutu üzerinden ulaşır, bu yüzden evden uzaktayken de çalışmaya devam eder. Cora'nın HYDROS desteği **Beta** aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 
 ## ICP
 
@@ -128,4 +128,4 @@ Akvaryum bakıcısı modu. Tarihleri ve yapılacak işlerin listesi olan bir pla
 
 ## Widget
 
-Panoda tek bir bilgiyi gösteren kutucuk. On bir türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod, Maxspect *(beta)*, GHL *(beta)* ve HYDROS *(beta)*. Ayrıntılar [Widget rehberi](/help/mobile-widgets) sayfasında.
+Panoda tek bir bilgiyi gösteren kutucuk. On altı türü var: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* ve Kamera *(Beta)*. Ayrıntılar [Widget rehberi](/help/mobile-widgets) sayfasında.

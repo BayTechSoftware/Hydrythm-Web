@@ -2,7 +2,7 @@
 title: Dispositivi e salute dei dispositivi
 description: Cosa vede Cora Max, quale dispositivo legge ogni vasca e cosa controllare quando le letture si fermano.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Equipment
 ---
@@ -15,7 +15,9 @@ In **Impostazioni → Dispositivi** trovi l'attrezzatura che Cora Max vede e com
 
 Cora Max vede la stessa attrezzatura del telefono, perché tutti e due leggono lo stesso account.
 
-Con i filtri in alto scegli **Tutte le vasche** o una vasca sola. Ogni voce ha un pallino di stato, una riga che riassume cosa c'è nel dispositivo (*21 prese · 4 alimentazioni*, *19 test rimasti*) e la vasca a cui appartiene.
+Con i filtri in alto scegli **Tutte le vasche** o una vasca sola. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), una riga che riassume cosa c'è nel dispositivo (*21 prese · 4 alimentazioni*, *19 test rimasti*) e la vasca a cui appartiene.
+
+Ogni pagina di un dispositivo si apre con una sezione **Stato**. Cora Max mostra anche i dispositivi Beta che il tuo account ha collegato, come luci, pompe e dosatori EcoTech, monitor Inkbird per l'aria della stanza e telecamere. L'accesso Beta in sé si gestisce dal telefono: vedi [Funzioni Beta](/help/mobile-beta).
 
 Cora Max mostra e comanda i dispositivi, ma ogni dispositivo si aggiunge, si assegna e si rimuove dal telefono. Senza ancora nessun dispositivo, questa schermata dice **Aggiungi dispositivi nell'app Cora**. Trovi come aggiungere l'attrezzatura in [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices).
 

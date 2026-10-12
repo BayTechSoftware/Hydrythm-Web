@@ -2,7 +2,7 @@
 title: Cora Mobile kurulumu
 description: Cora'yı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi ekranda görün.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Bazı parametreleri yalnızca test kitiyle ölçebilirsiniz. Panonun en altına 
 ![Parametre kaydetme](img/mobile-logparams.webp "Akvaryumun takip ettiği her parametre için test kiti sonucunu girin.")
 
 Her ölçüm, kaynağı ve zamanıyla birlikte saklanır. Cora bu sayede prob ile test kitinin farklı sonuç verdiği durumları size bildirir.
+
+### İlk test kartı
+
+Hiç ölçümü ve bağlı ekipmanı olmayan bir akvaryum, panonun en üstünde **İlk su testini kaydet** kartını gösterir. Reef Buddy'nin, uyarıların ve içgörülerin sizin için çalışmaya başlaması için tek bir ölçüm yeterlidir. Cora aynı adımı akvaryum oluşturduktan hemen sonra da sunar. Karta dokunun ve şunlardan birini seçin.
+
+- **Test sonuçlarını şimdi kaydet**, **Parametreleri Kaydet** formunu açar.
+- **Bir cihaz bağla (Apex veya Red Sea)**, Cihaz Ekle akışını açar. Akvaryum profilinizde Cora'nın bağlayabileceği bir cihaz varsa kart onun adını verir, örneğin *Neptune Apex cihazını bağla*.
+- **Sonra** sayfayı kapatır.
+- **Her hafta test etmemi hatırlat**, **Suyu test et** adlı haftalık bir bakım görevi ekler. Önce **Test günü**'nü seçin.
+
+Kartı gizlemek için üzerindeki çarpıya dokunun. Akvaryumda bir ölçüm ya da bağlı bir kaynak olunca kart kendiliğinden kalkar. Cora Max de verisi olmayan bir akvaryumda **İlk testinizi kaydedin** gösterir.
+
+Bir akvaryumda oluşturulduktan üç gün sonra hâlâ ölçüm yoksa Cora bir kez hatırlatma bildirimi gönderir. Hiçbir akvaryumunuzda ölçüm yoksa Cora ayrıca kaydolmanızdan 3 gün ve 10 gün sonra, birer kez olmak üzere kısa bir e-posta da gönderir. İkisi de **Ayarlar → Bildirimler** altındaki **Bakım Hatırlatıcıları** anahtarını izler ve e-postada nasıl durduracağınızı anlatan bir satır bulunur.
 
 ## Kurulum tamam mı?
 

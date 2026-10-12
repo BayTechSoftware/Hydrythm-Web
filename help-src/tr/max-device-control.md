@@ -2,7 +2,7 @@
 title: Cora Max'ten ekipman kontrolü
 description: Büyük ekrandaki cihaz sayfaları: problar, prizler, dozaj kafaları, test cihazları ve pompalar.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Equipment
 ---
@@ -22,12 +22,16 @@ Cora Max telefonunuzun ulaştığı tüm ekipmana ulaşır. Her cihazın kendi s
 | **Neptune Apex** | Problar ve prizler. Her prizi açıp kapatabilirsiniz |
 | **Trident** | Test durumu, reaktif ve atık seviyeleri. Buradan test de başlatabilirsiniz |
 | **DŌS** (DŌS QD dahil) | Her kafanın dozajı, zamanlaması, ne kadar yeteceği ve kap hacmi. Duraklatma, doldurma, hemen dozaj verme ve tek seferlik yirmi saniyelik ölçüm de burada |
-| **Red Sea ReefBeat** | Cihaz neyse ona göre: dozaj kafaları, rezervuar, rulonun kaç gün yeteceği, pompa modu, ayrıca tam bir ReefDose planı, ReefRun program düzenleyicisi ve ReefMat ayarları *(beta)* |
-| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | ReefControl'un probları. ReefControl Power'ın prizleri, aç/kapa, henüz otomatik mod yok. ReefWave ve ReefLED, yalnızca görüntüleme |
+| **Red Sea ReefBeat** | Cihaz neyse ona göre: dozaj kafaları, rezervuar, rulonun kaç gün yeteceği, pompa modu, ayrıca tam bir ReefDose planı, ReefRun program düzenleyicisi ve ReefMat ayarları *(Beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | ReefControl'un probları. ReefControl Power'ın prizleri, aç/kapa, henüz otomatik mod yok. ReefWave ve ReefLED, yalnızca görüntüleme |
 | **Jecod** | Pompa modu, yoğunluğu ve günlük programı |
-| **Maxspect** *(beta)* | **Gyre A** ve **Gyre B** için mod ve hız, **Pompa sağlığı** (temizlik geri sayımı, A kafasının akımı, takılı kafalar, yazılım) ve zamanlaması. Zamanlama yalnızca görüntülenir |
-| **GHL ProfiLux / Mitras** *(beta)* | Problar, prizler, dozaj üniteleri, seviye sensörleri ve Director modellerinde KH ile iyon test sonuçları |
-| **HYDROS** *(beta)* | Cihaz anahtarının bildirdiği her şey: girişler, ve yazma anahtarıyla çıkışlar, modlar, dozaj kafaları ve test cihazı komutları |
+| **Maxspect** *(Beta)* | **Gyre A** ve **Gyre B** için mod ve hız, **Pompa sağlığı** (temizlik geri sayımı, A kafasının akımı, takılı kafalar, yazılım) ve zamanlaması. Zamanlama yalnızca görüntülenir |
+| **GHL ProfiLux / Mitras** *(Beta)* | Problar, prizler, dozaj üniteleri, seviye sensörleri ve Director modellerinde KH ile iyon test sonuçları |
+| **HYDROS** *(Beta)* | Cihaz anahtarının bildirdiği her şey: girişler, ve yazma anahtarıyla çıkışlar, modlar, dozaj kafaları ve test cihazı komutları |
+| **Focustronic** *(Beta)* | Durum, son test, pompalar ve şişeler |
+| **EcoTech** *(Beta)* | Radion ışıkları, VorTech pompaları ve Versa dozajlayıcıları, her birinin kendi sayfası var. VorTech ve Versa komutları henüz gerçek donanımda kanıtlanmadı |
+| **Inkbird** *(Beta)* | Oda havası ölçümleri, yalnızca okunur |
+| **Kamera** *(Beta)* | Kameranızdan bir görüntü, panoda kutucuk olarak ya da kendi sayfasında. Ücretli planlarda Skimmer Gözcüsü ile birlikte |
 
 Bir Red Sea cihazı kendini durdurursa sayfasında sorunun ne olduğu yazar. Çözüm düğmesi de hemen yanındadır: **Sürdür**, **Acil durumu temizle**, **Sensör temizlendi**, **Zaten yeni bir rulo yükledim** ya da dozaj kafası için **Sıfırla**.
 
@@ -43,7 +47,7 @@ Elle dozajdan sonra, Apex Fusion'da Kapalı'ya ayarladığınız kafa Kapalı ka
 
 Her kafa için ayar penceresinden bir **kullanım türü** seçebilirsiniz: **Takviye**, **Su değişimi: yeni tuzlu su girişi**, **Su değişimi: eski su çıkışı**, **Kalkwasser**, **Kalsiyum reaktörü**, **Yem**, **Su tamamlama** ya da **Diğer**. Kullanım türü iki şeyi değiştirir:
 
-- **Takip edilebilecek kabın büyüklüğü.** Takviye kafası en fazla 20 litrelik kabı takip eder. Diğer kullanım türlerinde bu sınır 500 litreye çıkar. Böylece su değişimi ya da kalsiyum reaktörü için çalışan bir kafa küçük bir dozaj şişesi gibi görülmez.
+- **Takip edilebilecek kabın büyüklüğü.** Her kullanım türü en fazla 1.000 litrelik bir kabı takip edebilir. Apex'in kendi 150 litrelik sayacının üzerinde hacmi Cora kendisi takip eder ve Apex sayacını her 100 litrede bir sıfırlar.
 - **Elle büyük dozaj verilip verilemeyeceği.** Takviye ve Yem kafalarında bugünkü küçük ve temkinli üst sınır geçerlidir. Diğer kullanım türleri için ayrı bir **Elle verilecek en büyük dozaj** sınırı belirleyebilirsiniz. Bu sınır en fazla 10 litre olabilir. Ayrıca **Otomasyonlar ve Asistan için günlük limit** de ayrıca ayarlanır. Büyük bir elle doz için ayrıca kafanın ayarlarında **Büyük dozlar (Beta)** açık olmalıdır. Varsayılan olarak kapalıdır: bunu yalnızca akvaryumda ilk büyük dozu izledikten sonra açın.
 
 Su değişimi için kullanılan iki kafayı (yeni tuzlu su girişi ve eski su çıkışı) **Eşleştirilmiş kafa** olarak bağlayabilir ve bir **Denge uyarısı üstünde** miktarı girebilirsiniz. İki kafanın günlük toplamları arasındaki fark bu miktarı aşarsa Cora sizi uyarır. Dengesi bozulan bir çift genellikle taraflardan birinin beklendiği gibi pompalamadığını gösterir.
@@ -58,8 +62,8 @@ Bant kapanmıyorsa ya da tekrar tekrar çıkıyorsa [Sorun giderme](/help/troubl
 
 ## GHL ProfiLux ve Mitras
 
-:::note GHL desteği beta aşamasında
-GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir.
+:::note Beta
+**Beta.** GHL Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bazı ölçümler ya da kontroller henüz çalışmayabilir.
 :::
 
 Bir GHL kontrol cihazını telefonunuzdan bağlayın: **Cihazlar → Cihaz Ekle → GHL**. Adımlar için [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın. Cora Max, onu ağındaki bir Cora Max okuduktan sonra gösterir ve kontrol eder; kurulumun kendisi telefonda gerçekleşir.
@@ -74,19 +78,27 @@ Kontrol cihazı bir değişikliği kabul etmiyorsa GHL API'si muhtemelen kapalı
 
 ## HYDROS
 
-:::note HYDROS desteği beta aşamasında
-HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir.
+:::note Beta
+**Beta.** HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bazı ölçümler ya da kontroller henüz çalışmayabilir.
 :::
 
 HYDROS, kontrol cihazına buluttan ulaşan tek entegrasyondur. Bu yüzden Cora Max, kontrol cihazından farklı bir ağdayken bile çalışır. Yalnızca telefonunuzdan kurulur: **Cihazlar → Cihaz Ekle → HYDROS**. Adımlar için [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
 
 Okuma ve kontrol etme telefondakiyle aynı şekilde çalışır; çıkışlar, modlar, dozaj kafaları ve test cihazı komutları ile her kafanın doz sınırları için [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasına bakın.
 
+## EcoTech, Inkbird ve kameralar
+
+:::note Beta
+**Beta.** EcoTech, Inkbird ve kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Cora Max bunları, hesabınız telefonunuzdan bağladıktan sonra gösterir. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
+:::
+
+Bunları telefonunuzdan bağlarsınız, okumayı akvaryumdaki bir Cora Max yapar. Radion, VorTech ve Versa için [EcoTech ışıkları, pompaları ve dozajlayıcıları](/help/mobile-ecotech) sayfasına bakın. Inkbird oda havası monitörü yalnızca ölçümlerini gösterir, başka bir şey yapmaz. Bir kamera ve ücretli planlarda Skimmer Gözcüsü [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras) sayfasında anlatılıyor. Duvardaki ekranda kamera göstermek için pano düzenleyicisinde bir Kamera kutucuğu ekleyin.
+
 ## Zamanlamalar
 
 Jecod pompalarının günlük programlarını telefonda da duvardaki ekranda da yazabilirsiniz. Düzenleyici aynıdır: günlük grafik, zaman dilimleri listesi ve eylem satırı. Ayrıntılar [Ekipman programları](/help/mobile-schedules) sayfasında.
 
-Maxspect gyre zamanlamasını *(beta)* burada görebilirsiniz ama kaydedemezsiniz. Zamanlamayı Maxspect uygulamasında ayarlayın.
+Maxspect gyre zamanlamasını *(Beta)* burada görebilirsiniz ama kaydedemezsiniz. Zamanlamayı Maxspect uygulamasında ayarlayın.
 
 ## Prizler
 

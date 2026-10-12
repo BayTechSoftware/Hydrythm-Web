@@ -2,7 +2,7 @@
 title: Cora Help
 description: How to set up and use Cora Max and Cora Mobile, from your first tank to dashboards, devices, alerts, Reef Buddy, ICP and health reports.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -60,6 +60,9 @@ Cora also keeps the rest of the job in one place:
 ## Your equipment
 
 - **[Controlling your equipment](/help/mobile-device-control)**: outlets, pumps, dosing heads and testers
+- **[Beta features](/help/mobile-beta)**: what Beta means, who can see the Beta integrations, and how to ask for access
+- **[Cameras and Skimmer Watch](/help/mobile-cameras)**: add a camera, and get warned before the skimmer cup overflows
+- **[EcoTech lights, pumps and dosers](/help/mobile-ecotech)**: Radion, VorTech and Versa over Bluetooth
 - **[Probes](/help/mobile-probes)**: mapping a controller's probes, and recording calibration
 - **[Consumables](/help/mobile-consumables)**: refill alerts for reagent, containers and reservoirs
 - **[Scheduling equipment](/help/mobile-schedules)**: day programs for pumps, copying them, and viewing a gyre's schedule

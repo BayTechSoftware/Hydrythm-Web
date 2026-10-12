@@ -2,7 +2,7 @@
 title: Dziennik
 description: Zapisuj, co robisz przy akwarium, żeby później ustalić, co było przyczyną czego.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 21
 group: Records
 ---
@@ -38,6 +38,19 @@ Najbardziej przydają się później:
 - **Konserwacja**: czyszczenie odpieniacza, wymiana skarpet, serwis pomp
 - **Wszystko nietypowe**: brak prądu, upalny dzień, wyciek
 
+## Karmienie
+
+Powiedz Corze raz, jak zwykle karmisz, a potem zapisuj tylko wyjątki.
+
+Aby ustawić plan, otwórz **Edytuj akwarium** (ołówek u góry pulpitu) i dotknij **Plan karmienia**. Karta na pulpicie, **Jak zwykle karmisz?**, prowadzi tam przyciskiem **Ustaw plan karmienia**, dopóki tego nie zrobisz. Dla każdego pokarmu podaj pokarm, **Ilość**, **Jednostka** (kostka, szczypta, g, ml, kropla, miarka albo płat) i **Razy dziennie**. Dotknij **Dodaj pokarm**, aby dodać kolejny. Włącz **Używam automatycznego karmnika**, jeśli karmi za Ciebie, a jego karmienia liczą się jako część planu. W **Waga porcji (opcjonalnie)** możesz podać, ile waży jedna kostka albo szczypta, żeby Cora mogła porównywać karmienia w czasie w gramach.
+
+Gdy dzień odbiega od planu, dotknij **Karmienie** w rzędzie przycisków pod widżetami. Arkusz **Zapisz wyjątek w karmieniu** ma trzy opcje: **Dodatkowe karmienie**, **Pominięte karmienie** i **Zmieniono pokarm lub ilość**. Możesz dodać **Ilość (opcjonalnie)**. Każda z nich to zwykły wpis w dzienniku, który wykorzystuje Reef Buddy, więc stabilne akwarium nie dostaje winy za przekąskę, którą mu dałeś.
+
+Inne sposoby zapisania karmienia:
+
+- W Neptune Apex cykl karmienia Feed A do D jest zapisywany, gdy Cora Max odczytujący Twój Apex zobaczy jego początek. Dotyczy to cyklu uruchomionego na Apex, w Apex Fusion albo z własnego harmonogramu Apex.
+- Powiedz Asystentowi Cora, głosem albo w czacie, coś w rodzaju *„Zapisz karmienie mysis.”* Asystent sam napisze wpis.
+
 ## Edytowanie i usuwanie wpisów
 
 Dotknij wpisu, żeby go otworzyć i zmienić. Żeby usunąć wpis, przesuń go palcem i potwierdź. Cora najpierw pyta, bo wpisu zrobionego na bieżąco nie da się później odtworzyć.
@@ -57,3 +70,5 @@ Asystent czyta dziennik. Na pytania w rodzaju *„kiedy była ostatnia podmiana 
 ## Na Cora Max
 
 Wpisy do dziennika możesz też dodawać na Cora Max. Często jest to wygodniejsze, gdy stoisz przy akwarium. Dziennik otworzysz z menu akwarium. Możesz też podyktować wpis głosem.
+
+Ekran dziennika na Cora Max ma też przyciski **Dodatkowe karmienie** i **Pominięte karmienie** oraz linię z Twoim planem karmienia. Jeśli go nie ustawiono, linia pisze *Ustaw plan karmienia w aplikacji na telefonie*, bo plan ustawiasz w Cora Mobile.

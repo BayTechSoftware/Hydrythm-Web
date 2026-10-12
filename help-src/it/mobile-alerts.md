@@ -2,7 +2,7 @@
 title: Avvisi e soglie
 description: Imposta l'intervallo di ogni parametro, scegli quali avvisi ricevere e capisci perché ne è scattato uno.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 15
 group: Alerts and automation
 ---
@@ -66,11 +66,20 @@ Puoi anche impostare una regola sulla **velocità di variazione**, che guarda qu
 
 Alcuni avvisi riguardano l'attrezzatura e non una lettura. Quando un dispositivo come un Trident o una pompa Jecod segnala un guasto, Cora ti manda una notifica con il nome della vasca e del dispositivo, per esempio *"Vasca Display: la pompa di risalita ha bisogno di attenzione"*, e ti dice cosa non va, come un rotore bloccato. Quando il guasto si risolve, arriva una seconda notifica: *"Vasca Display: la pompa di risalita è di nuovo a posto"*. Tutte e due rientrano in **Guasti dell'apparecchiatura** in **Impostazioni → Notifiche**.
 
-Una gyre Maxspect (beta) può dare lo stesso avviso quando un Cora Max sulla sua rete trova entrambe le teste impostate a 0% o quando la gyre non risponde per due volte di fila. Consideralo un avvertimento e non una protezione. Il Cora Max controlla ogni tanto e non di continuo, e solo quando è acceso e riesce a raggiungere la gyre.
+Una gyre Maxspect (Beta) può dare lo stesso avviso quando un Cora Max sulla sua rete trova entrambe le teste impostate a 0% o quando la gyre non risponde per due volte di fila. Consideralo un avvertimento e non una protezione. Il Cora Max controlla ogni tanto e non di continuo, e solo quando è acceso e riesce a raggiungere la gyre.
 
 ## Un dispositivo ha smesso di comunicare
 
-Se un Neptune Apex, un'unità Red Sea ReefBeat, un AquaWiz, una pompa Jecod o una gyre Maxspect smette di rispondere, Cora ti avvisa: *"[Dispositivo]: ha smesso di comunicare."* Controlla la sua alimentazione e il Wi-Fi, e che il Cora Max che lo legge sia acceso. La maggior parte dell'attrezzatura riceve questo avviso dopo circa 30 minuti senza aggiornamenti. AquaWiz controlla meno spesso, quindi aspetta circa 3 ore. Quando torna a comunicare ricevi una seconda notifica.
+Se un Neptune Apex, un'unità Red Sea ReefBeat, un AquaWiz, una pompa Jecod, una gyre Maxspect, un dispositivo EcoTech o un monitor Inkbird per l'aria della stanza smette di rispondere, Cora ti avvisa: *"[Dispositivo]: ha smesso di comunicare."* Controlla la sua alimentazione e il Wi-Fi (o la portata del Bluetooth), e che il Cora Max che lo legge sia acceso. Quando torna a comunicare ricevi una seconda notifica.
+
+Quanto Cora aspetta dipende dal dispositivo.
+
+- Neptune Apex e Red Sea ReefBeat: circa 30 minuti senza aggiornamenti.
+- AquaWiz: circa 3 ore, perché controlla meno spesso.
+- Jecod e Maxspect: tre letture mancate di fila, contate sull'intervallo di lettura del dispositivo.
+- EcoTech e Inkbird: tre letture mancate di fila, contate sull'intervallo che hai impostato per quella rete o quel monitor.
+
+Maxspect, EcoTech e Inkbird sono integrazioni Beta che solo gli utenti Beta possono aggiungere. Vedi [Funzioni Beta](/help/mobile-beta).
 
 Questo rientra in **Guasti dell'apparecchiatura** in **Impostazioni → Notifiche**, insieme agli avvisi di guasto qui sopra.
 

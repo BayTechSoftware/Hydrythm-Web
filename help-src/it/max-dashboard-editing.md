@@ -2,7 +2,7 @@
 title: Modificare la dashboard di Cora Max
 description: Scegli una griglia, aggiungi i widget e salva i layout per lo schermo di Cora Max.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ In alto l'editor ti ricorda i tre gesti: **tocca un riquadro per modificarlo**, 
 
 **Prese e alimentazione** aggiunge in un colpo solo tutte le prese che puoi comandare e i cicli di alimentazione. **Svuota tutto** libera la griglia, così ricominci da capo.
 
-Gli undici tipi di riquadro (Valore, Indicatore, Grafico, Stato, Presa, ReefBeat, Modulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* e HYDROS *(beta)*) sono descritti nella [Guida di riferimento ai widget](/help/mobile-widgets).
+I sedici tipi di riquadro (Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* e Telecamera *(Beta)*) sono descritti nella [Guida di riferimento ai widget](/help/mobile-widgets).
+
+I riquadri Beta appartengono a integrazioni Beta che solo gli utenti Beta possono aggiungere, e ne vedi uno solo quando hai il dispositivo. Vedi [Funzioni Beta](/help/mobile-beta).
+
+## Progetta con l'IA
+
+Con un piano a pagamento, l'editor ha il pulsante **Progetta con l'IA**. Cora propone un layout completo in base a ciò che questa vasca riporta e ha collegato, e mostra quanti riquadri ha e su quale griglia. Tocca **Usa questo** per portarlo nell'editor, oppure **Riprova** per averne un altro. Puoi fare 5 progetti al giorno per vasca.
+
+Un progetto dell'IA sostituisce quello che c'è ora in questa dashboard. Non viene salvato niente finché non premi **Salva**, e puoi tenere prima il layout attuale salvandolo come una delle tue dashboard. Con un piano gratuito, **Progetta con l'IA** ti porta ai piani. Serve anche la condivisione dei dati con l'IA attiva nell'app Cora.
 
 ## Pensato per essere letto da lontano
 

@@ -2,7 +2,7 @@
 title: Powiadomienia
 description: Wybierz, co ma docierać na telefon, i sprawdź, gdzie znaleźć to, co Cię ominęło.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Każdą kategorię włączasz i wyłączasz osobno:
 | Kategoria | Czego dotyczy |
 |---|---|
 | **Alerty parametrów** | Chemii wody poza ustawionym zakresem |
-| **Przypomnienia o konserwacji** | Zaplanowanych zadań, np. podmian wody |
+| **Przypomnienia o konserwacji** | Zaplanowanych zadań, np. podmian wody, oraz jednorazowe przypomnienie o zapisaniu pierwszego testu, gdy nowe akwarium nadal nie ma odczytów po trzech dniach |
 | **Awarie sprzętu** | Problemów zgłaszanych przez urządzenia, np. Tridenta, który przestał robić testy |
 | **Kończące się zasoby** | Odczynnika, wody do dolewki, pojemników dozujących i pełnej butelki na odpady |
 | **Raport ICP gotowy** | Wyników ICP, które są już przeanalizowane i gotowe do przeczytania |

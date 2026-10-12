@@ -1,8 +1,8 @@
 ---
 title: Collegare la tua attrezzatura
-description: Come collegare a Cora l'attrezzatura Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz, GHL e HYDROS.
+description: Come collegare a Cora l'attrezzatura Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz e, in Beta, Maxspect, GHL, HYDROS, Focustronic e Inkbird.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 10
 group: Equipment
 ---
@@ -11,15 +11,21 @@ Cora funziona con l'attrezzatura che hai già. Qui trovi cosa è supportato e co
 
 Iniziano tutte allo stesso modo: **Dispositivi → Aggiungi dispositivo**, poi scegli la marca. Ognuna apre esattamente quello che le serve per trovare la tua attrezzatura.
 
+Le marche segnate con *(Beta)* sono aperte solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+
 | Marca | Apre |
 |---|---|
 | Cora | Una ricerca di un nuovo Cora Max, via Wi-Fi o Bluetooth |
 | Neptune Apex | Il suo indirizzo sulla tua rete, l'accesso, poi a quale vasca appartiene |
 | Red Sea | Una ricerca sulla tua rete, poi a quale vasca appartiene ogni unità |
 | Jecod / Jebao | Una ricerca sulla tua rete, oppure Bluetooth |
-| Maxspect *(beta)* | La stessa ricerca di Jecod |
-| GHL *(beta)* | Il suo indirizzo, l'interfaccia e, per un mini, il suo accesso |
-| HYDROS *(beta)* | Una chiave dispositivo dall'app HYDROS |
+| Maxspect *(Beta)* | La stessa ricerca di Jecod |
+| GHL *(Beta)* | Il suo indirizzo, l'interfaccia e, per un mini, il suo accesso |
+| HYDROS *(Beta)* | Una chiave dispositivo dall'app HYDROS |
+| Focustronic *(Beta)* | Il tuo accesso Focustronic, poi a quale vasca appartiene ogni dispositivo |
+| EcoTech *(Beta)* | Una ricerca Bluetooth di luci Radion, pompe VorTech e dosatori Versa. Vedi [Luci, pompe e dosatori EcoTech](/help/mobile-ecotech) |
+| Inkbird *(Beta)* | Una ricerca Bluetooth del tuo monitor per l'aria della stanza |
+| Telecamera *(Beta)* | Wyze, Tapo, Sonoff o un'altra telecamera RTSP. Vedi [Telecamere e controllo dello schiumatoio](/help/mobile-cameras) |
 | AquaWiz | Il tuo accesso AquaWiz |
 
 ## Neptune Apex
@@ -36,11 +42,11 @@ Cora legge l'Apex, lo mostra insieme al resto e, se glielo chiedi, accende o spe
 
 ## Red Sea ReefBeat
 
-Cora comunica con l'attrezzatura ReefBeat sulla tua rete locale. Le unità supportate sono **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** e, in beta, **ReefControl**, **ReefControl Power**, **ReefWave** e **ReefLED**.
+Cora comunica con l'attrezzatura ReefBeat sulla tua rete locale. Le unità supportate sono **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** e, in Beta, **ReefControl**, **ReefControl Power**, **ReefWave** e **ReefLED**.
 
 Quando la aggiungi, l'attrezzatura deve essere già configurata in ReefBeat e sulla stessa rete del telefono. Aggiungila da **Dispositivi → Aggiungi dispositivo → Red Sea**, che cerca sulla tua rete e chiede a quale vasca appartiene ogni unità. Un'unità Red Sea serve una sola vasca: sceglierne una diversa la sposta lì.
 
-Ogni unità ha la sua pagina dispositivo e le sue letture diventano fonti. ReefDose riporta teste e contenitori. ReefATO+ riporta serbatoio e rabbocchi. ReefMat riporta i giorni rimasti. ReefRun riporta lo stato della pompa. ReefControl riporta le sue sonde allo stesso modo. ReefWave e ReefLED *(beta)* mostrano solo la modalità, per ora, in sola lettura.
+Ogni unità ha la sua pagina dispositivo e le sue letture diventano fonti. ReefDose riporta teste e contenitori. ReefATO+ riporta serbatoio e rabbocchi. ReefMat riporta i giorni rimasti. ReefRun riporta lo stato della pompa. ReefControl riporta le sue sonde allo stesso modo. ReefWave e ReefLED *(Beta)* mostrano solo la modalità, per ora, in sola lettura.
 
 ## Jecod / Jebao
 
@@ -82,11 +88,11 @@ AquaWiz dà un solo accesso per account. Quello che usa Cora è lo stesso della 
 
 ## Maxspect
 
-:::note Il supporto Maxspect è in beta
-Il supporto per le gyre Maxspect è ancora in fase di test e sviluppo. Alcuni comandi potrebbero essere limitati e quello che vedi potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
+:::note Beta
+**Beta.** Maxspect è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Alcuni comandi potrebbero essere limitati e quello che vedi potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
 :::
 
-Cora si collega alle pompe Maxspect Gyre e può leggerle e comandarle. Aggiungine una da **Dispositivi → Aggiungi dispositivo → Maxspect**, la stessa ricerca usata per Jecod.
+Cora si collega alle pompe Maxspect Gyre e può leggerle e comandarle. Aggiungine una da **Dispositivi → Aggiungi dispositivo → Maxspect**, la stessa ricerca usata per Jecod. Serve un Cora Max nella vasca. Senza, la riga mostra **Richiede Cora Max**.
 
 Quando la aggiungi, gyre e telefono devono essere sulla stessa rete.
 
@@ -98,13 +104,13 @@ Se la vasca ha un Cora Max, Cora Mobile passa da quel Cora Max, anche quando sei
 
 ## GHL ProfiLux e Mitras
 
-:::note Il supporto GHL è in beta
-Il supporto GHL è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
+:::note Beta
+**Beta.** GHL è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Alcune letture o alcuni comandi potrebbero non funzionare ancora. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
 :::
 
 Cora legge un controller GHL ProfiLux o Mitras: sonde, prese, dosatori, sensori di livello e, sui modelli Director, i risultati dei test di KH e ioni.
 
-Aggiungilo da **Dispositivi → Aggiungi dispositivo → GHL**. Il telefono non può cercarlo, quindi inserisci tu il suo indirizzo e scegli l'interfaccia: **Official API**, **HTTP** oppure **ProfiLux mini** (che richiede anche il suo accesso). Poi scegli a quale vasca appartiene. Un controller GHL può servire più di una vasca.
+Aggiungilo da **Dispositivi → Aggiungi dispositivo → GHL**. Serve un Cora Max nella vasca, e senza mostra **Richiede Cora Max**. Il telefono non può cercarlo, quindi inserisci tu il suo indirizzo e scegli l'interfaccia: **Official API**, **HTTP** oppure **ProfiLux mini** (che richiede anche il suo accesso). Poi scegli a quale vasca appartiene. Un controller GHL può servire più di una vasca.
 
 Un controller GHL non parla direttamente con il telefono. Mostra **In attesa di Cora Max** finché un Cora Max sulla sua rete non l'ha letto, poi le sue letture e i suoi comandi compaiono ovunque.
 
@@ -112,8 +118,8 @@ L'API GHL deve essere attiva perché Cora possa raggiungere il controller. GHL l
 
 ## HYDROS
 
-:::note Il supporto HYDROS è in beta
-Il supporto HYDROS è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
+:::note Beta
+**Beta.** HYDROS è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Alcune letture o alcuni comandi potrebbero non funzionare ancora. Se qualcosa non funziona come descritto, scrivici da [Ottenere assistenza](/help/mobile-support).
 :::
 
 HYDROS è l'unica integrazione che non richiede che Cora e il controller siano sulla stessa rete. Cora lo raggiunge attraverso il cloud di HYDROS, quindi continua a funzionare anche fuori casa, e persino con Cora chiuso.
@@ -121,6 +127,34 @@ HYDROS è l'unica integrazione che non richiede che Cora e il controller siano s
 Per collegarlo, apri l'app HYDROS e crea una **chiave dispositivo** per il provider **cora-iq**. Scegli **Read** se vuoi solo le sue letture, o **Write** se vuoi anche comandarlo da Cora. Poi vai su **Dispositivi → Aggiungi dispositivo → HYDROS** e incolla la chiave.
 
 Una volta collegato, Cora importa gli ultimi 33 giorni della sua cronologia, poi continua a leggere in avanti da lì. [Controllare la tua attrezzatura](/help/mobile-device-control) spiega cosa puoi leggere e, con una chiave di scrittura, comandare.
+
+## Focustronic
+
+:::note Beta
+**Beta.** Focustronic è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html).
+:::
+
+Cora legge i dispositivi Focustronic Alkatronic, Dosetronic e Mastertronic attraverso il tuo account Focustronic, quindi funziona anche fuori casa e non richiede un Cora Max.
+
+Vai su **Dispositivi → Aggiungi dispositivo → Focustronic** e accedi con lo stesso account che usi nell'app Focustronic. Scegli a quale vasca appartiene ogni dispositivo, poi tocca **Collega a Cora**. **Resta connesso** permette a Cora di conservare la tua password Focustronic, cifrata, e di accedere di nuovo da sola. Se lo disattivi, Cora tiene solo un accesso temporaneo e ti manda una notifica quando devi accedere di nuovo.
+
+Ogni dispositivo mostra il suo stato, il firmware, l'ultimo test e, per un Alkatronic, l'alcalinità e il pH che ha misurato. Vedi anche le pompe con quanto resta in ciascuna, i parametri, i flaconi ed eventuali avvisi su reagenti o tamponi. Cora chiede a Focustronic nuove letture ogni 30 minuti.
+
+In **Controlli** puoi usare **Misura ora**, **Dosa ora** da una pompa (fino a 500 mL alla volta) e, su un Mastertronic, **Testa ora**. Ognuno ti chiede prima di confermare. Cora non ripete mai una dose, quindi se il risultato dice che non è noto, controlla il dispositivo. I comandi passano dai server di Focustronic, che Cora non controlla, e sono disponibili solo mentre il dispositivo è online.
+
+Se Focustronic rifiuta l'accesso, apri **Aggiungi Focustronic** e accedi di nuovo.
+
+## Monitor Inkbird per l'aria della stanza
+
+:::note Beta
+**Beta.** Inkbird è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html).
+:::
+
+Cora legge un monitor Inkbird IAM-T1 o IAM-T2 per l'aria della stanza. Un Cora Max nella vasca lo legge via Bluetooth, e Cora non scrive mai niente sul monitor. Finché la vasca non ha un Cora Max, la riga mostra **Richiede Cora Max**.
+
+Vai su **Dispositivi → Aggiungi dispositivo → Inkbird**, e Cora cerca i monitor nelle vicinanze. Scegli il tuo e tocca **Collega alla vasca**. Se non ne compare nessuno, avvicinati e tocca **Cerca di nuovo**. Il Bluetooth deve essere attivo, con il permesso per Cora.
+
+La pagina del monitor mostra l'ultima lettura. **Intervallo di campionamento** imposta ogni quanto un Cora Max lo legge. Finché un Cora Max non l'ha letto, la pagina dice **In attesa di Cora Max**, e se smette di comunicare mostra **Non risponde** e Cora ti avvisa. Le letture della stanza alimentano anche [Reef Buddy](/help/mobile-reef-buddy). Per fermarlo, tocca **Scollega**. Cora Max smette di leggerlo e lo storico resta.
 
 ## Registrare a mano
 

@@ -2,7 +2,7 @@
 title: Alertes et seuils
 description: Réglez la plage de chaque paramètre, choisissez les alertes que vous recevez et comprenez pourquoi une alerte s’est déclenchée.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 15
 group: Alerts and automation
 ---
@@ -66,11 +66,20 @@ Vous pouvez aussi créer une règle de **taux de variation**. Elle surveille la 
 
 Certaines alertes portent sur l’équipement et non sur une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification avec le nom de l’aquarium et de l’appareil, par exemple *« Aquarium Display : la pompe de remontée a besoin d’attention »*. Elle précise le problème, comme un rotor bloqué. Quand la panne disparaît, une deuxième notification suit : *« Aquarium Display : la pompe de remontée est de nouveau OK »*. Les deux dépendent de **Pannes d’équipement** dans **Réglages → Notifications**.
 
-Une pompe de brassage Maxspect (bêta) peut déclencher la même alerte. Cela arrive quand un Cora Max sur le même réseau trouve les deux têtes réglées à 0 %, ou quand la pompe ne répond pas deux fois de suite. Voyez-y un avertissement, pas une sécurité. Le Cora Max vérifie de temps en temps, pas en continu, et seulement s’il est allumé et peut joindre la pompe.
+Une pompe de brassage Maxspect (Beta) peut déclencher la même alerte. Cela arrive quand un Cora Max sur le même réseau trouve les deux têtes réglées à 0 %, ou quand la pompe ne répond pas deux fois de suite. Voyez-y un avertissement, pas une sécurité. Le Cora Max vérifie de temps en temps, pas en continu, et seulement s’il est allumé et peut joindre la pompe.
 
 ## Un appareil ne se signale plus
 
-Si un Neptune Apex, un appareil Red Sea ReefBeat, un AquaWiz, une pompe Jecod ou une pompe de brassage Maxspect devient silencieux, Cora vous prévient : *« [Appareil] : ne se signale plus »*. Vérifiez son alimentation et son Wi-Fi, et que le Cora Max qui le lit est allumé. La plupart des appareils déclenchent cette alerte après environ 30 minutes sans mise à jour. AquaWiz vérifie moins souvent, il attend donc environ 3 heures. Une deuxième notification arrive dès qu’il se signale de nouveau.
+Si un Neptune Apex, un appareil Red Sea ReefBeat, un AquaWiz, une pompe Jecod, une pompe de brassage Maxspect, un appareil EcoTech ou un moniteur d’air ambiant Inkbird devient silencieux, Cora vous prévient : *« [Appareil] : ne se signale plus »*. Vérifiez son alimentation et son Wi-Fi (ou la portée Bluetooth), et que le Cora Max qui le lit est allumé. Une deuxième notification arrive dès qu’il se signale de nouveau.
+
+Le délai d’attente de Cora dépend de l’appareil.
+
+- Neptune Apex et Red Sea ReefBeat : environ 30 minutes sans mise à jour.
+- AquaWiz : environ 3 heures, car il vérifie moins souvent.
+- Jecod et Maxspect : trois mesures manquées de suite, comptées sur l’intervalle de mesure propre à l’appareil.
+- EcoTech et Inkbird : trois mesures manquées de suite, comptées sur l’intervalle que vous avez réglé pour ce réseau ou ce moniteur.
+
+Maxspect, EcoTech et Inkbird sont des intégrations Beta que seuls les utilisateurs Beta peuvent ajouter. Voir [Fonctions Beta](/help/mobile-beta).
 
 Cette alerte dépend de **Pannes d’équipement** dans **Réglages → Notifications**, comme les alertes de panne ci-dessus.
 

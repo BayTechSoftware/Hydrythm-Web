@@ -2,7 +2,7 @@
 title: Editing the Cora Max dashboard
 description: Choose a grid, add widgets and save layouts for the Cora Max display.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ The three gestures are listed along the top of the editor: **tap a tile to edit*
 
 **Outlets & Feed** adds all your controllable outlets and feed cycles in one go. **Clear all** empties the grid so you can start over.
 
-The eleven tile types are Value, Gauge, Graph, Status, Outlet, ReefBeat, Apex module, Jecod, Maxspect *(beta)*, GHL *(beta)* and HYDROS *(beta)*. You'll find them all in the [Widget reference](/help/mobile-widgets).
+The sixteen tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* and Camera *(Beta)*. You'll find them all in the [Widget reference](/help/mobile-widgets).
+
+The Beta tiles belong to Beta integrations that only Beta users can add, and you only see one once you have the device. See [Beta features](/help/mobile-beta).
+
+## Design with AI
+
+On a paid plan, the editor has a **Design with AI** button. Cora proposes a whole layout from what this tank reports and has linked, and shows how many tiles it has and on which grid. Tap **Use this** to put it in the editor, or **Try again** for another. You can make 5 designs per tank per day.
+
+An AI design replaces what's on this dashboard now. Nothing is saved until you press **Save**, and you can keep your current layout first by saving it as one of your dashboards. If you're on a free plan, **Design with AI** points you to the plans. It also needs AI data sharing to be turned on in the Cora app.
 
 ## Designing for distance
 

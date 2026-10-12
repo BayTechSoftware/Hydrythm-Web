@@ -2,7 +2,7 @@
 title: Dodawanie, edytowanie i usuwanie urządzeń
 description: Jak dodać sprzęt do Cory, przypisać go do akwarium i bezpiecznie go usunąć, wszystko w jednym miejscu.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 9
 group: Equipment
 ---
@@ -13,7 +13,13 @@ Dodawaj, edytuj, przypisuj i usuwaj każde urządzenie w zakładce **Urządzenia
 
 ## Dodawanie sprzętu
 
-Dotknij **Dodaj urządzenie**, a potem wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* albo **AquaWiz**. Każda otwiera dokładnie to, czego potrzebuje, żeby znaleźć Twój sprzęt: skanowanie sieci, adres IP, logowanie albo klucz urządzenia. [Podłączanie sprzętu](/help/mobile-connections) opisuje, czego potrzebuje każda marka.
+Dotknij **Dodaj urządzenie**, a potem wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** albo **AquaWiz**. Użytkownicy Beta widzą też **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** i **Kamera**, każdą z plakietką **Beta**. Każda otwiera dokładnie to, czego potrzebuje, żeby znaleźć Twój sprzęt: skanowanie sieci, adres IP, logowanie albo klucz urządzenia. [Podłączanie sprzętu](/help/mobile-connections) opisuje, czego potrzebuje każda marka.
+
+:::note Beta
+**Beta.** Integracje Beta są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcje Beta](/help/mobile-beta).
+:::
+
+Wiersz, który wymaga Cora Max w akwarium (Maxspect, GHL, EcoTech, Inkbird i Kamera), jest wyszarzony i pokazuje **Wymaga Cora Max**, dopóki akwarium go nie ma.
 
 **Cora** to sposób na sparowanie nowego Cora Max. Wyszukuje urządzenia w Twojej sieci Wi-Fi albo w pobliżu przez Bluetooth. Jeśli wyszukiwanie nic nie znajdzie, na tym samym ekranie jest przycisk **Wpisz adres IP ręcznie**.
 
@@ -41,13 +47,24 @@ Urządzenie bez akwarium nadal wysyła odczyty, ale nie mają one gdzie trafić.
 
 ## Zmiana nazwy
 
-Otwórz urządzenie i zmień nazwę. Nazwij je tak, jak mówisz o nim na co dzień, np. „Powrotna”, „Lewy gyre”, „Grzałka w sumpie”. Nazwa pojawia się na widżetach, w alertach i w rozmowach z Corą, więc czytelna dla Ciebie nazwa ułatwia wszystko.
+Otwórz urządzenie i dotknij ołówka obok nazwy. Nazwij je tak, jak mówisz o nim na co dzień, np. „Powrotna”, „Lewy gyre”, „Grzałka w sumpie”. Nazwa pojawia się na widżetach, w alertach i w rozmowach z Corą, więc czytelna dla Ciebie nazwa ułatwia wszystko.
+
+Nazwa może mieć do 40 znaków. Jeśli dwa urządzenia tego samego rodzaju nie mają nazwy, Cora odróżnia je krótkim kodem po nazwie. Cora nigdy nie używa numeru seryjnego jako nazwy.
 
 Nowa nazwa obowiązuje tylko w Corze. W aplikacji producenta nazwa się nie zmienia.
 
 ## Czy urządzenie działa poprawnie
 
-Każdy wiersz pokazuje bieżący stan. Dobrze, gdy widać niedawny czas aktualizacji i żadnego ostrzeżenia.
+Każde urządzenie to jeden wiersz w zakładce Urządzenia, z ikoną, nazwą, modelem i akwarium. Kropka w wierszu pokazuje jego stan.
+
+| Kropka | Co to znaczy |
+|---|---|
+| Szara | Cora jeszcze nie wie |
+| Zielona | Działa normalnie |
+| Pomarańczowa | Ostrzeżenie albo usterka |
+| Czerwona | Offline |
+
+Odczyty, tryby, odłączanie i adres IP są na stronie szczegółów urządzenia, która zaczyna się od sekcji **Stan**. Dobrze, gdy widać niedawny czas aktualizacji i żadnego ostrzeżenia.
 
 | Co widzisz | Co to znaczy |
 |---|---|

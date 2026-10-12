@@ -2,7 +2,7 @@
 title: Hablar con Cora
 description: Cómo usar la voz en Cora Max, cómo empezar una conversación, qué puedes preguntar y cómo funcionan las confirmaciones.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Cora Assistant empieza una sesión en directo al momento, sin pedir confirmació
 - *"Inicia el modo alimentación."*
 - *"Vuelve a poner el ventilador en auto."*
 - *"Anota que hice un cambio de agua de veinte litros."*
+- *"Anota que di misis extra."* o *"Anota que me salté la comida de la mañana."*
 
 **Preguntas de seguimiento.** No hace falta repetirlo todo. Después de preguntar por el acuario que ves en pantalla, puedes decir *"¿y el acuario de esquejes?"*.
 

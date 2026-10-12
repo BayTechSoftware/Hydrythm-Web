@@ -2,7 +2,7 @@
 title: Mises à jour et récupération
 description: Comment Cora Max se met à jour tout seul, et que faire si une mise à jour échoue.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ Dans **Réglages → Réglages Cora Max → Mise à jour du micrologiciel** (sec
 Un message décrit les nouveautés et vous propose deux choix :
 
 - **Mettre à jour maintenant** : l’installation se fait tout de suite, puis Cora Max redémarre
-- **Reporter de 3 heures** : le message reviendra plus tard
+- **Reporter de 24 heures** : le message disparaît et revient un jour plus tard
+
+Tant qu’une mise à jour attend, un petit point s’affiche sur l’icône **Réglages** de la barre du haut et sur la ligne **Mise à jour du micrologiciel**. Le point reste pendant un report, vous voyez donc toujours qu’une mise à jour est prête. Il disparaît pendant l’installation.
 
 Si vous ne faites rien, la mise à jour s’installe pendant la nuit, vers 3 à 5 heures du matin. Cora Max ne redémarre donc pas pendant que vous le regardez.
 

@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Your daily briefing, what it covers, when it arrives, and how to read the score.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -31,6 +31,18 @@ Then come the insights, one for each finding. Each has a category (such as *Wate
 Cora filters insights before they reach you. An insight has to hold up over several readings. One isn't enough. It also has to tell you something a single chart wouldn't already show.
 
 Tap the card on the dashboard to open the full briefing.
+
+## Updating the briefing with a new test
+
+If you log a test by hand or add an ICP result after the briefing came out, the briefing card in the full briefing shows **New readings since this briefing** with an **Update briefing** button. Tap it and Cora redoes the briefing with the new numbers. You can do this once a day for each household. After that the button is greyed out and says *You can update the briefing once a day. Next update: tomorrow.*
+
+Probe and controller readings don't trigger this offer, because they come in all day.
+
+## Why you're seeing an insight
+
+Under an insight, tap **Why am I seeing this?** The sheet **Why you're seeing this** lists the **Readings it used**, the **Target it compared against** (your own target, or a reference range), anything **From your journal** that it took into account, and the **Time window (days)** it looked at. If the reasoning doesn't fit your tank, answer the insight as described under "Correcting an insight" below.
+
+Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's, the totals of your DŌS heads and, if you have a Beta Inkbird room air monitor, the room's temperature and humidity. Inkbird is only open to Beta users. See [Beta features](/help/mobile-beta).
 
 ## When it arrives
 
@@ -77,7 +89,7 @@ You can respond to each insight in one of four ways.
 | **Already knew** | Right, but you were aware |
 | **Not sure** | You can't judge it yet |
 
-Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts **for a while**. If the problem is still there, the insight comes back.
+When Reef Buddy flags a drift, it also asks *Was this heads-up useful?* You can answer **Helpful**, **Not helpful**, **This change is expected** or **Reading looks wrong**. Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts **for a while**. If the problem is still there, the insight comes back.
 
 :::note Serious findings are never hidden
 Feedback only quiets lower-severity insights. Warning and critical insights keep showing up, whatever you've answered before.

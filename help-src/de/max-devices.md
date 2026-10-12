@@ -2,7 +2,7 @@
 title: Geräte und Gerätezustand
 description: Was Cora Max sieht, welches Gerät die Werte eines Beckens abfragt und was du prüfst, wenn keine neuen Werte mehr kommen.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Equipment
 ---
@@ -15,7 +15,9 @@ Unter **Einstellungen → Geräte** siehst du die Ausrüstung, die Cora Max erre
 
 Cora Max sieht dieselbe Ausrüstung wie dein Handy, weil beide dasselbe Konto lesen.
 
-Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur ein Becken. Jeder Eintrag hat einen Statuspunkt, eine kurze Zusammenfassung (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*) und das Becken, zu dem das Gerät gehört.
+Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur ein Becken. Jeder Eintrag hat einen Statuspunkt (grau, wenn Cora es noch nicht weiß, grün bei normalem Betrieb, orange bei einer Warnung oder Störung, rot bei offline), eine kurze Zusammenfassung (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*) und das Becken, zu dem das Gerät gehört.
+
+Jede Geräteseite beginnt mit einem Bereich **Status**. Cora Max zeigt auch die Beta-Geräte, die dein Konto verknüpft hat, zum Beispiel EcoTech-Leuchten, -Pumpen und -Dosierer, Inkbird-Raumluftmonitore und Kameras. Der Beta-Zugang selbst läuft über das Handy: siehe [Beta-Funktionen](/help/mobile-beta).
 
 Cora Max zeigt und steuert Geräte, aber hinzugefügt, zugeordnet und entfernt wird jedes Gerät auf dem Handy. Gibt es noch keine Geräte, steht auf diesem Bildschirm **Füge Geräte in der Cora-App hinzu**. Wie du Ausrüstung hinzufügst, steht unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices).
 

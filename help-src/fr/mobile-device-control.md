@@ -2,7 +2,7 @@
 title: Contrôler votre équipement
 description: La page de chaque appareil montre son état en direct et ses commandes, pour les prises, les pompes, les têtes de dosage et les testeurs.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 11
 group: Equipment
 ---
@@ -10,6 +10,8 @@ group: Equipment
 Chaque équipement connecté a sa page dans Cora. Vous y voyez son état en direct et les commandes qu’il accepte. Ouvrez-la depuis l’onglet **Appareils**.
 
 ![Une page d’appareil](img/mobile-device-detail.webp "Mesures en direct en haut, puis les commandes que cet appareil prend en charge.")
+
+Les appareils Beta, comme les lampes, pompes et doseurs EcoTech, les appareils Focustronic, les moniteurs Inkbird et les caméras, ne sont ouverts qu’aux utilisateurs Beta et ont leurs propres pages. Voir [Fonctions Beta](/help/mobile-beta).
 
 Toutes les pages d’appareil sont construites pareil. En haut, le nom de l’appareil, puis une ligne de mesures en direct, l’état indiqué par l’appareil et enfin ses commandes. La cloche dans la barre de titre règle les seuils d’alerte de l’appareil, comme expliqué dans [Consommables](/help/mobile-consumables).
 
@@ -53,7 +55,7 @@ Pour chaque tête de dosage, vous voyez le produit dosé, le programme, la quant
 Pour chaque tête, vous pouvez :
 
 - **Suspendre** et **Reprendre** son programme
-- **Remplir**, pour indiquer à Cora que le bidon est de nouveau plein, ou saisir le volume qu’il contient
+- **Remplir**, pour indiquer à Cora que le bidon est de nouveau plein, ou saisir le volume qu’il contient (**Volume total** est la taille du bidon, **Volume restant** ce qu’il contient maintenant, et **Plein** règle l’un sur l’autre)
 - **Doser maintenant**, pour envoyer une dose précise à la main
 
 :::note Les programmes se modifient dans Apex Fusion
@@ -74,6 +76,8 @@ Chaque tête a un **type d’usage**. Cora sait ainsi à quoi elle sert et peut 
 
 Les deux types de changement d’eau vont **par paire**. Dans **Tête associée**, choisissez la tête qui déplace l’eau dans l’autre sens. Cora traite alors les deux têtes comme une seule paire de changement d’eau.
 
+Un bidon peut contenir jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L : au-delà, Cora suit elle-même le bidon d’après ce que la tête dose. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l’Apex remis à 150 L*.
+
 Chaque tête a aussi une limite de **Dosage manuel maximal**. Elle évite qu’une faute de frappe envoie une dose bien plus grosse que prévu. Les grosses doses manuelles ne sont possibles qu’une fois le débit de la tête mesuré avec un vrai test à l’aquarium, et une fois **Doses importantes (bêta)** activé dans les réglages de la tête. C’est désactivé par défaut. Activez ceci seulement après avoir observé la première dose importante s’exécuter devant l’aquarium.
 
 ## Red Sea ReefBeat
@@ -84,14 +88,14 @@ Chaque appareil a une page adaptée à ce qu’il fait.
 |---|---|---|
 | **ReefDose** | Chaque tête, son bidon et ce qu’elle a dosé | Pour chaque tête : **Dose par jour**, **Restant dans le flacon**, **Doser maintenant** et **Activer le programme**, plus un éditeur complet **Programme de dosage (bêta)**. Régler des alertes de réapprovisionnement par tête |
 | **ReefATO+** | Niveau du réservoir et activité de l’osmolateur | Régler une alerte de réservoir. Demander à l’Assistant combien de jours il reste à son réservoir |
-| **ReefMat** | Rouleau restant, en jours et en mètres | Faire avancer le rouleau, régler une alerte de réapprovisionnement, et, en bêta, activer une avance programmée, régler son modèle et la position du moteur, et enregistrer un nouveau rouleau |
-| **ReefRun** | Vitesse et état de la pompe de remontée et de la pompe d’écumeur | Changer la vitesse, allumer ou éteindre une pompe, ajuster les réglages de l’écumeur, et modifier un programme de vitesse complet *(bêta)* |
-| **ReefControl** *(bêta)* | Ses sondes de température, pH, salinité et ORP | Voir ses mesures |
-| **ReefWave**, **ReefLED** *(bêta)* | Son mode actuel | Lecture seule pour l’instant |
+| **ReefMat** | Rouleau restant, en jours et en mètres | Faire avancer le rouleau, régler une alerte de réapprovisionnement, et, en Beta, activer une avance programmée, régler son modèle et la position du moteur, et enregistrer un nouveau rouleau |
+| **ReefRun** | Vitesse et état de la pompe de remontée et de la pompe d’écumeur | Changer la vitesse, allumer ou éteindre une pompe, ajuster les réglages de l’écumeur, et modifier un programme de vitesse complet sous **Programme de la pompe (bêta)** |
+| **ReefControl** *(Beta)* | Ses sondes de température, pH, salinité et ORP | Voir ses mesures |
+| **ReefWave**, **ReefLED** *(Beta)* | Son mode actuel | Lecture seule pour l’instant |
 
-**ReefRun pilote la pompe de remontée et la pompe d’écumeur.** Ce n’est pas une pompe de brassage. Les prises **ReefControl Power** *(bêta)* apparaissent comme des prises, pilotées depuis la même commande de prise qu’une prise Apex, seulement allumé ou éteint. Il n’y a pas encore de mode automatique pour elles.
+**ReefRun pilote la pompe de remontée et la pompe d’écumeur.** Ce n’est pas une pompe de brassage. Les prises **ReefControl Power** *(Beta)* apparaissent comme des prises, pilotées depuis la même commande de prise qu’une prise Apex, seulement allumé ou éteint. Il n’y a pas encore de mode automatique pour elles.
 
-## Modifier un programme ReefDose ou ReefRun *(bêta)*
+## Modifier un programme ReefDose ou ReefRun *(Beta)*
 
 Touchez l’icône de calendrier sur une page ReefDose ou ReefRun pour ouvrir son programme.
 
@@ -101,7 +105,7 @@ Un programme ReefRun compte jusqu’à six segments sur un seul port de pompe. C
 
 Les deux éditeurs lisent d’abord le programme déjà présent sur l’appareil : vous modifiez donc le programme réel, pas un formulaire vide.
 
-## Paramètres ReefMat *(bêta)*
+## Paramètres ReefMat *(Beta)*
 
 Touchez l’icône d’engrenage sur une page ReefMat pour trois réglages de plus.
 
@@ -136,8 +140,8 @@ Vous pouvez aussi :
 
 ## Maxspect
 
-:::note La prise en charge Maxspect est en bêta
-La prise en charge des pompes de brassage Maxspect est encore en test et en développement. Certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support).
+:::note Beta
+**Beta.** Maxspect est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
 La page de la pompe indique si elle tourne, le type de vague et la vitesse de **Gyre A** et **Gyre B**, et l’heure de la dernière lecture. Depuis cette page, vous pouvez :
@@ -154,8 +158,8 @@ Si un Cora Max gère l’aquarium, Cora Mobile passe par ce Cora Max, même quan
 
 ## GHL ProfiLux et Mitras
 
-:::note La prise en charge GHL est en bêta
-Nous testons et développons encore la prise en charge GHL. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support).
+:::note Beta
+**Beta.** GHL est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
 La page du contrôleur affiche ses sondes, ses prises, ses doseurs et ses capteurs de niveau, et sur les modèles Director, ses résultats de test KH et ionique.
@@ -183,8 +187,8 @@ Si le contrôleur refuse le changement, vérifiez que son API GHL est activée a
 
 ## HYDROS
 
-:::note La prise en charge HYDROS est en bêta
-Nous testons et développons encore la prise en charge HYDROS. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support).
+:::note Beta
+**Beta.** HYDROS est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
 Ce que vous voyez ici dépend de la clé avec laquelle vous l’avez lié. Une clé **Lecture** vous donne seulement ses entrées. Une clé **Écriture** ajoute les sorties, les modes, le dosage et les commandes de testeur, ainsi qu’une bannière en haut de page qui rappelle quel type de clé vous avez.

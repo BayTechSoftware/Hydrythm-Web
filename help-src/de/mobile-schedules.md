@@ -2,12 +2,12 @@
 title: Ausrüstung planen
 description: Bau ein Tagesprogramm für eine Jecod-Pumpe, kopier es auf andere Pumpen und sieh dir den Zeitplan einer Maxspect Gyre (Beta) an.
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 12
 group: Equipment
 ---
 
-Pumpen und Gyres können ein **Tagesprogramm** abspielen. Das ist eine Folge von Zeiträumen mit jeweils eigener Intensität, die sich jeden Tag wiederholt. Für Jecod-Pumpen erstellst du solche Programme direkt in Cora. Den Zeitplan einer Maxspect Gyre *(Beta)* kannst du hier nur ansehen. Festlegen musst du ihn in der Maxspect-App.
+Pumpen und Gyres können ein **Tagesprogramm** abspielen. Das ist eine Folge von Zeiträumen mit jeweils eigener Intensität, die sich jeden Tag wiederholt. Für Jecod-Pumpen erstellst du solche Programme direkt in Cora. Den Zeitplan einer Maxspect Gyre *(Beta)* kannst du hier nur ansehen. Festlegen musst du ihn in der Maxspect-App. Maxspect steht nur Beta-Nutzern offen. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 Öffne das Gerät über den Tab **Geräte**.
 

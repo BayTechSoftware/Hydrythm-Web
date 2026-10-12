@@ -2,7 +2,7 @@
 title: Logowanie i odzyskiwanie konta
 description: Jak się zalogować, zresetować zapomniane hasło i poprawić adres e-mail, którego nie da się zweryfikować.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Zmiana adresu konta dotyczy bezpieczeństwa, więc czasem wymaga świeżego logo
 ## Weryfikacja wciąż trwa
 
 Cora Mobile sprawdza stan weryfikacji, gdy dotkniesz **Zweryfikowałem swój e-mail**. Jeśli adres nadal nie jest zweryfikowany, dotknij **Potwierdź mój e-mail** w najnowszym e-mailu, odczekaj chwilę i sprawdź jeszcze raz. Jeśli link wygasł, dotknij **Wyślij ponownie e-mail weryfikacyjny**, żeby dostać nowy. Weryfikacja dotyczy konta, a nie urządzenia. Gdy się uda, zobaczysz to na każdym swoim urządzeniu.
+
+## E-maile laboratorium i ICP
+
+Laboratoria i wyniki ICP wysyłane e-mailem znajdują Twoje konto po adresie e-mail. Jeśli laboratorium zna inny adres niż ten, którym się logujesz, albo zalogowałeś się ukrytym adresem Apple, dodaj go w **Ustawienia → karta Twojego konta → E-maile laboratorium i ICP**. Dotknij **Dodaj e-mail laboratorium**, potem **Wyślij kod**, wpisz 6-cyfrowy kod z e-maila i dotknij **Potwierdź**. Możesz dodać do 3 adresów. Kroki opisuje [ICP i raporty zdrowia](/help/mobile-icp-health).
 
 ## Wylogowanie
 

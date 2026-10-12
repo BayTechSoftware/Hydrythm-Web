@@ -2,7 +2,7 @@
 title: Najczęstsze pytania
 description: Krótkie odpowiedzi o konfiguracji, Cora Max, Cora Mobile, urządzeniach, alertach, Reef Buddy i Cora Assistant, językach i koncie.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -114,19 +114,23 @@ Więcej: [Udostępnianie](/help/mobile-sharing)
 
 ### Z jakim sprzętem współpracuje Cora?
 
-Cora łączy się z coraz większą liczbą kontrolerów i urządzeń, od kontrolerów Wi-Fi po pompy dozujące i pompy Gyre. Aktualna lista jest na stronie o połączeniach. Dla sprzętu, z którym Cora nie łączy się bezpośrednio, możesz wpisywać odczyty ręcznie.
+Cora łączy się z coraz większą liczbą kontrolerów i urządzeń, od kontrolerów Wi-Fi po pompy dozujące i pompy Gyre. Aktualna lista jest na stronie o połączeniach. Część z niej jest w wersji Beta i widoczna tylko dla użytkowników Beta. Dla sprzętu, z którym Cora nie łączy się bezpośrednio, możesz wpisywać odczyty ręcznie.
 
 Więcej: [Połączenia](/help/mobile-connections)
 
-### Czy Cora jest powiązana z Neptune, Red Sea, Jebao, GHL, HYDROS albo Maxspect?
+### Czy Cora jest powiązana z Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech albo Inkbird?
 
-Nie. Cora nie jest powiązana z żadnym producentem sprzętu, z którym się łączy, nie jest przez niego wspierana ani nie jest jego partnerem. Dotyczy to też Maxspect, GHL i HYDROS, których integracje są nadal w wersji beta. Cora korzysta z publicznych kont producentów, ich oficjalnych API albo protokołów sieci lokalnej. Aplikacja producenta albo aktualizacja firmware może w każdej chwili, bez ostrzeżenia, zmienić albo zerwać to połączenie po stronie producenta.
+Nie. Cora nie jest powiązana z żadnym producentem sprzętu, z którym się łączy, nie jest przez niego wspierana ani nie jest jego partnerem. Dotyczy to też Maxspect, GHL, HYDROS, Focustronic, EcoTech i Inkbird, których integracje są w wersji Beta. Cora korzysta z publicznych kont producentów, ich oficjalnych API albo protokołów sieci lokalnej. Aplikacja producenta albo aktualizacja firmware może w każdej chwili, bez ostrzeżenia, zmienić albo zerwać to połączenie po stronie producenta.
 
 Więcej: [Połączenia](/help/mobile-connections)
 
-### Co oznacza, że integracja jest w wersji „beta”?
+### Co oznacza, że integracja jest w wersji „Beta”?
 
-Oznacza to, że wciąż ją testujemy i rozwijamy. Niektóre odczyty albo funkcje sterowania mogą być ograniczone, a to, co widzisz, może się zmienić między aktualizacjami. Maxspect, GHL i HYDROS są dziś wszystkie w wersji beta. Jeśli coś nie działa tak, jak opisano w przewodniku, daj nam znać przez [Pomoc](/help/mobile-support).
+Oznacza to, że wciąż ją testujemy i rozwijamy. Niektóre odczyty albo funkcje sterowania mogą być ograniczone, a to, co widzisz, może się zmienić między aktualizacjami. Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird i kamery (z czuwaniem skimmera) są dziś w wersji Beta.
+
+Integracje Beta są dostępne tylko dla użytkowników Beta. Jeśli nim nie jesteś, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Udział w programie testowym sklepu go nie włącza. Więcej w [Funkcje Beta](/help/mobile-beta).
+
+Jeśli coś nie działa tak, jak opisano w przewodniku, daj nam znać przez [Pomoc](/help/mobile-support).
 
 ### Dlaczego Cora Mobile nie znajduje mojego Cora Max podczas parowania?
 

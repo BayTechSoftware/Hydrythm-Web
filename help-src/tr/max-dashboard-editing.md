@@ -2,7 +2,7 @@
 title: Cora Max panosunu düzenleme
 description: Izgara seçin, widget ekleyin ve Cora Max ekranı için düzenlerinizi kaydedin.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ Düzenleyicinin üstünde üç hareket yazar: **düzenlemek için kutucuğa doku
 
 **Prizler ve Besleme**, kontrol edebildiğiniz prizleri ve besleme döngülerini tek tek değil, tek adımda ekler. **Tümünü temizle** ızgarayı boşaltır, baştan başlayabilirsiniz.
 
-On bir kutucuk türü var: Değer, Gösterge, Grafik, Durum, Priz, ReefBeat, Apex modülü, Jecod, Maxspect *(beta)*, GHL *(beta)* ve HYDROS *(beta)*. Hepsi **[Widget rehberi](/help/mobile-widgets)** sayfasında anlatılıyor.
+On altı kutucuk türü var: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* ve Kamera *(Beta)*. Hepsi **[Widget rehberi](/help/mobile-widgets)** sayfasında anlatılıyor.
+
+Beta kutucuklar, yalnızca Beta kullanıcılarının ekleyebildiği Beta entegrasyonlara aittir ve bir kutucuğu ancak cihaza sahip olduğunuzda görürsünüz. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+
+## Yapay zeka ile tasarla
+
+Ücretli bir planda düzenleyicide **Yapay zeka ile tasarla** düğmesi bulunur. Cora, bu akvaryumun bildirdiği ve bağladığı şeylere bakarak komple bir düzen önerir ve kaç kutucuğu olduğunu, hangi ızgarada olduğunu gösterir. Düzenleyiciye almak için **Bunu kullan**'a, başka bir öneri için **Tekrar deneyin**'e dokunun. Her akvaryum için günde 5 tasarım yapabilirsiniz.
+
+Yapay zeka tasarımı bu panodaki mevcut düzenin yerine geçer. **Kaydet**'e basana kadar hiçbir şey kaydedilmez ve mevcut düzeninizi önce panolarınızdan biri olarak kaydederek saklayabilirsiniz. Ücretsiz plandaysanız **Yapay zeka ile tasarla** sizi planlara yönlendirir. Ayrıca Cora uygulamasında yapay zeka veri paylaşımının açık olması gerekir.
 
 ## Uzaktan okunacak şekilde tasarlayın
 

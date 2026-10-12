@@ -2,7 +2,7 @@
 title: Jak czytać pulpit
 description: Jak czytać pulpit Cory: widżety, wiek odczytów, źródła i znaczenie kolorów.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ Na dole pulpitu są:
 
 - **Edytuj panel** otwiera [edytor pulpitu](/help/mobile-dashboard-editing).
 - **Zapisz parametry** służy do ręcznego wpisania wyników testów kropelkowych.
+- **Historia parametrów** otwiera historię dowolnego parametru, który ma dane, nawet takiego bez widżetu. Zobacz [Szczegóły parametru](/help/mobile-metric-detail).
+- **Karmienie** zapisuje karmienie, które odbiega od Twojego planu. Zobacz [Dziennik](/help/mobile-journal).
 - **Dziennik · Alerty · Konserwacja · Obsada** to skróty do tych miejsc dla tego akwarium.
+
+W akwarium bez odczytów i bez podłączonego sprzętu karta nad nimi, **Zapisz pierwszy test wody**, pomaga zacząć. Zobacz [Pierwsze kroki z Cora Mobile](/help/mobile-setup).
 
 Linijka nad nimi pokazuje, kiedy pulpit się ostatnio zaktualizował i z jakich źródeł korzystał.
 

@@ -2,7 +2,7 @@
 title: Controllare l'equipaggiamento da Cora Max
 description: Le pagine dei dispositivi sullo schermo grande: sonde, prese, teste di dosaggio, tester e pompe.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Equipment
 ---
@@ -22,12 +22,16 @@ Non c'è anteprima e non si può annullare. Il comando parte appena tocchi, ma *
 | **Neptune Apex** | Sonde e prese, e ogni presa si può comandare |
 | **Trident** | Stato del test, livello di reagenti e scarico, e un comando per avviare un test |
 | **DŌS**, compreso il DŌS QD | Per ogni testa: dosaggio, programma, autonomia e volume del contenitore (con pausa, riempimento, dosa ora e una misura di venti secondi da fare una volta sola) |
-| **Red Sea ReefBeat** | Dipende dall'unità: teste di dosaggio, serbatoio, giorni di rotolo, modalità della pompa, più un editor completo del piano ReefDose, del programma ReefRun e delle impostazioni ReefMat *(beta)* |
-| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | Le sonde di ReefControl. Le prese di ReefControl Power come prese normali, on/off, ancora senza modalità automatica. ReefWave e ReefLED, in sola lettura |
+| **Red Sea ReefBeat** | Dipende dall'unità: teste di dosaggio, serbatoio, giorni di rotolo, modalità della pompa, più un editor completo del piano ReefDose, del programma ReefRun e delle impostazioni ReefMat *(Beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | Le sonde di ReefControl. Le prese di ReefControl Power come prese normali, on/off, ancora senza modalità automatica. ReefWave e ReefLED, in sola lettura |
 | **Jecod** | Modalità e intensità della pompa, e il suo programma giornaliero |
-| **Maxspect** *(beta)* | Modalità e velocità di **Gyre A** e **Gyre B**, **Stato pompa** (conto alla rovescia per la pulizia, corrente della testa A, teste montate, firmware) e il programma, in sola lettura |
-| **GHL ProfiLux / Mitras** *(beta)* | Sonde, prese, dosatori, sensori di livello e, sui modelli Director, i risultati dei test di KH e ioni |
-| **HYDROS** *(beta)* | Tutto quello che riporta la sua chiave dispositivo: ingressi, e con una chiave di scrittura anche uscite, modalità, teste di dosaggio e comandi tester |
+| **Maxspect** *(Beta)* | Modalità e velocità di **Gyre A** e **Gyre B**, **Stato pompa** (conto alla rovescia per la pulizia, corrente della testa A, teste montate, firmware) e il programma, in sola lettura |
+| **GHL ProfiLux / Mitras** *(Beta)* | Sonde, prese, dosatori, sensori di livello e, sui modelli Director, i risultati dei test di KH e ioni |
+| **HYDROS** *(Beta)* | Tutto quello che riporta la sua chiave dispositivo: ingressi, e con una chiave di scrittura anche uscite, modalità, teste di dosaggio e comandi tester |
+| **Focustronic** *(Beta)* | Stato, ultimo test, pompe e flaconi |
+| **EcoTech** *(Beta)* | Luci Radion, pompe VorTech e dosatori Versa, ognuno con la sua pagina. I comandi a VorTech e Versa non sono ancora provati su hardware reale |
+| **Inkbird** *(Beta)* | Letture dell'aria della stanza, in sola lettura |
+| **Telecamera** *(Beta)* | Un'immagine dalla tua telecamera, come riquadro della dashboard o sulla sua pagina, con il controllo dello schiumatoio nei piani a pagamento |
 
 Se un'unità Red Sea si ferma da sola, la sua pagina ti dice cosa c'è che non va e ti mette accanto il pulsante per risolvere: **Riprendi**, **Elimina emergenza**, **Sensore pulito**, **Ho già caricato un nuovo rotolo** oppure **Ripristina** per una testa di dosaggio.
 
@@ -43,7 +47,7 @@ Dopo una dose manuale, una testa che avevi messo su Off in Apex Fusion resta su 
 
 Dal foglio delle impostazioni di ogni testa scegli il **tipo di uso**: **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Acqua di calce**, **Reattore di calcio**, **Cibo**, **Rabbocco** oppure **Altro**. Il tipo di uso cambia due cose:
 
-- **Quanto può essere grande il contenitore.** Una testa Integratore gestisce fino a 20 litri. Con tutti gli altri tipi il contenitore può essere molto più grande, fino a 500 litri. Così una testa che fa un cambio d'acqua o alimenta un reattore di calcio non viene trattata come una piccola bottiglia di integratore.
+- **Quanto può essere grande il contenitore.** Ogni tipo di utilizzo può gestire un contenitore fino a 1.000 litri. Oltre il contatore da 150 litri dell'Apex, il volume lo tiene Cora, e Cora azzera il contatore dell'Apex ogni 100 litri.
 - **Se può fare una dose grande a mano.** Le teste Integratore e Cibo mantengono il limite basso e prudente di sempre. Per tutti gli altri tipi puoi impostare una **Dose massima manuale**, fino a un tetto fisso di 10 litri, e un **Limite giornaliero per automazioni e Assistant**. Una dose grande a mano richiede anche **Dosi grandi (Beta)** attivato nelle impostazioni della testa, disattivato per impostazione predefinita: attivalo solo dopo aver osservato la prima dose grande eseguita davanti all'acquario.
 
 Per il cambio d'acqua puoi collegare due teste (nuova acqua salata in entrata, acqua vecchia in uscita) come **Testa abbinata** e impostare un valore in **Avviso di squilibrio sopra**. Se nel corso della giornata i totali delle due teste si allontanano più di quel valore, Cora ti avvisa. Di solito vuol dire che uno dei due lati non pompa come dovrebbe.
@@ -58,8 +62,8 @@ Se il banner non si chiude o continua a tornare, guarda la pagina [Risoluzione d
 
 ## GHL ProfiLux e Mitras
 
-:::note Il supporto GHL è in beta
-Il supporto GHL è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro.
+:::note Beta
+**Beta.** GHL è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Alcune letture o alcuni comandi potrebbero non funzionare ancora.
 :::
 
 Collega un controller GHL dal telefono: **Dispositivi → Aggiungi dispositivo → GHL**. I passaggi sono in [Collegare la tua attrezzatura](/help/mobile-connections). Cora Max lo mostra e lo comanda una volta che un Cora Max sulla sua rete l'ha letto, ma la configurazione avviene sul telefono.
@@ -74,19 +78,27 @@ Se il controller non accetta una modifica, probabilmente la sua API GHL è disat
 
 ## HYDROS
 
-:::note Il supporto HYDROS è in beta
-Il supporto HYDROS è ancora in fase di test e sviluppo. Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro.
+:::note Beta
+**Beta.** HYDROS è in Beta ed è aperto solo agli utenti Beta. Se non sei un utente Beta, non lo vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Alcune letture o alcuni comandi potrebbero non funzionare ancora.
 :::
 
 HYDROS è l'unica integrazione che raggiunge il suo controller attraverso il cloud, quindi funziona anche quando Cora Max è su una rete diversa da quella del controller. Si configura solo dal telefono: **Dispositivi → Aggiungi dispositivo → HYDROS**. I passaggi sono in [Collegare la tua attrezzatura](/help/mobile-connections).
 
 Leggerlo e comandarlo funziona come sul telefono: vedi [Controllare la tua attrezzatura](/help/mobile-device-control) per uscite, modalità, teste di dosaggio e comandi tester, e per i limiti di dose per testa.
 
+## EcoTech, Inkbird e telecamere
+
+:::note Beta
+**Beta.** EcoTech, Inkbird e le telecamere sono in Beta e aperti solo agli utenti Beta. Cora Max li mostra quando il tuo account li ha collegati dal telefono. Per chiedere l'accesso Beta, contatta il [supporto](/support.html).
+:::
+
+Li colleghi dal telefono, e un Cora Max nella vasca fa la lettura. [Luci, pompe e dosatori EcoTech](/help/mobile-ecotech) tratta Radion, VorTech e Versa. Un monitor Inkbird per l'aria della stanza mostra le sue letture e nient'altro. Una telecamera, e il controllo dello schiumatoio nei piani a pagamento, è descritta in [Telecamere e controllo dello schiumatoio](/help/mobile-cameras). Per mostrare una telecamera sul muro, aggiungi un riquadro Telecamera nell'editor della dashboard.
+
 ## Programmi
 
 I programmi giornalieri delle pompe Jecod li puoi creare sia sullo schermo a parete sia sul telefono. L'editor è lo stesso: un grafico della giornata, un elenco di periodi e una riga di azioni. Trovi di più in [Programmare l'attrezzatura](/help/mobile-schedules).
 
-Il programma di una gyre Maxspect *(beta)* qui lo puoi vedere ma non salvare. Impostalo nell'app Maxspect.
+Il programma di una gyre Maxspect *(Beta)* qui lo puoi vedere ma non salvare. Impostalo nell'app Maxspect.
 
 ## Prese
 

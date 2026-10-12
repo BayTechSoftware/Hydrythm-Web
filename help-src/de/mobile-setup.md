@@ -2,7 +2,7 @@
 title: Cora Mobile einrichten
 description: Installier Cora, leg dein Konto an, füg dein erstes Becken hinzu und hol dir die ersten Messwerte auf den Bildschirm.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Manche Wasserwerte bekommst du nur mit einem Testkit. Scroll ans Ende des Dashbo
 ![Wasserwerte protokollieren](img/mobile-logparams.webp "Trage Testkit-Ergebnisse für jeden Wasserwert ein, den das Becken verfolgt.")
 
 Jeder Messwert wird mit Quelle und Zeitstempel gespeichert. Nur so kann Cora dir melden, wenn eine Sonde und ein Testkit nicht übereinstimmen.
+
+### Die Karte für den ersten Test
+
+Ein Becken ohne Messwerte und ohne verknüpfte Ausrüstung zeigt oben auf dem Dashboard eine Karte, **Trage deinen ersten Wassertest ein**. Ein Messwert reicht, damit Reef Buddy, Warnungen und Erkenntnisse für dich anlaufen. Denselben Schritt bietet Cora direkt nach dem Anlegen eines Beckens an. Tippe auf die Karte und wähle eines davon.
+
+- **Testergebnisse jetzt eintragen** öffnet das Formular **Wasserwerte protokollieren**.
+- **Gerät verbinden (Apex oder Red Sea)** öffnet den Ablauf zum Hinzufügen eines Geräts. Führt dein Beckenprofil schon ein Gerät auf, das Cora verknüpfen kann, nennt die Karte stattdessen dieses, zum Beispiel *Verbinde dein Neptune Apex*.
+- **Später** schließt das Blatt.
+- **Erinnere mich jede Woche ans Testen** legt eine wöchentliche Wartungsaufgabe namens **Wasser testen** an. Wähle vorher den **Testtag**.
+
+Tippe auf das Kreuz an der Karte, um sie auszublenden. Die Karte verschwindet von selbst, sobald das Becken einen Messwert oder eine verknüpfte Quelle hat. Auch Cora Max zeigt **Ersten Test eintragen** bei einem Becken ohne Daten.
+
+Hat ein Becken drei Tage nach dem Anlegen immer noch keine Messwerte, schickt Cora eine einzelne Erinnerung per Push. Hat keines deiner Becken Messwerte, schickt Cora außerdem je einmal am Tag 3 und am Tag 10 nach deiner Anmeldung eine kurze E-Mail. Beides folgt deinem Schalter **Wartungserinnerungen** unter **Einstellungen → Benachrichtigungen**, und die E-Mail enthält eine Zeile, wie du sie abstellst.
 
 ## So sieht es aus, wenn alles läuft
 

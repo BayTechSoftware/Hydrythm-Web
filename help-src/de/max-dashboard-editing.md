@@ -2,7 +2,7 @@
 title: Das Cora Max-Dashboard bearbeiten
 description: Raster wählen, Widgets hinzufügen und Layouts für den Cora Max-Bildschirm speichern.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ Oben im Editor stehen die drei Gesten: **Tippe auf eine Kachel, um sie zu bearbe
 
 Mit **Steckdosen & Füttern** fügst du alle schaltbaren Steckdosen und Fütterungszyklen auf einmal hinzu. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 
-Die elf Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)* und HYDROS *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
+Die sechzehn Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* und Kamera *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
+
+Die Beta-Kacheln gehören zu Beta-Anbindungen, die nur Beta-Nutzer hinzufügen können, und du siehst eine erst, wenn du das Gerät hast. Siehe [Beta-Funktionen](/help/mobile-beta).
+
+## Mit KI gestalten
+
+Mit einem kostenpflichtigen Tarif hat der Editor die Schaltfläche **Mit KI gestalten**. Cora schlägt ein ganzes Layout vor, passend zu dem, was dieses Becken meldet und verknüpft hat, und zeigt, wie viele Kacheln es hat und auf welchem Raster. Tippe auf **Verwenden**, um es in den Editor zu übernehmen, oder auf **Erneut versuchen** für einen anderen Vorschlag. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
+
+Ein KI-Entwurf ersetzt, was gerade auf diesem Dashboard ist. Gespeichert wird erst, wenn du auf **Speichern** tippst. Dein aktuelles Layout kannst du vorher sichern, indem du es als eines deiner Dashboards speicherst. Mit einem kostenlosen Tarif führt **Mit KI gestalten** zu den Tarifen. Außerdem muss die Datenfreigabe für KI in der Cora-App eingeschaltet sein.
 
 ## Für den Blick aus der Entfernung
 

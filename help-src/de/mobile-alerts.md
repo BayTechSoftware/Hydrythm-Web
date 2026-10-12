@@ -2,7 +2,7 @@
 title: Warnungen und Schwellenwerte
 description: Leg für jeden Wasserwert den Bereich fest, bestimme, worüber du Bescheid bekommst, und finde heraus, warum eine Warnung kam.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 15
 group: Alerts and automation
 ---
@@ -70,7 +70,16 @@ Auch eine Maxspect Gyre (Beta) kann diese Warnung auslösen. Das passiert, wenn 
 
 ## Ein Gerät meldet sich nicht mehr
 
-Meldet sich ein Neptune Apex, ein Red Sea ReefBeat-Gerät, AquaWiz, eine Jecod-Pumpe oder eine Maxspect Gyre nicht mehr, sagt dir Cora Bescheid: *"[Gerät]: meldet sich nicht mehr."* Prüfe Stromversorgung und WLAN, und ob das Cora Max, das es ausliest, eingeschaltet ist. Die meisten Geräte lösen das nach etwa 30 Minuten ohne Update aus. AquaWiz prüft seltener, deshalb wartet es etwa 3 Stunden. Meldet sich das Gerät wieder, bekommst du eine zweite Benachrichtigung.
+Meldet sich ein Neptune Apex, ein Red Sea ReefBeat-Gerät, AquaWiz, eine Jecod-Pumpe, eine Maxspect Gyre, ein EcoTech-Gerät oder ein Inkbird-Raumluftmonitor nicht mehr, sagt dir Cora Bescheid: *"[Gerät]: meldet sich nicht mehr."* Prüfe Stromversorgung und WLAN (oder Bluetooth-Reichweite), und ob das Cora Max, das es ausliest, eingeschaltet ist. Meldet sich das Gerät wieder, bekommst du eine zweite Benachrichtigung.
+
+Wie lange Cora wartet, hängt vom Gerät ab.
+
+- Neptune Apex und Red Sea ReefBeat: etwa 30 Minuten ohne Update.
+- AquaWiz: etwa 3 Stunden, weil es seltener prüft.
+- Jecod und Maxspect: drei verpasste Messungen in Folge, gezählt im eigenen Messintervall des Geräts.
+- EcoTech und Inkbird: drei verpasste Messungen in Folge, gezählt im Intervall, das du für dieses Netzwerk oder diesen Monitor eingestellt hast.
+
+Maxspect, EcoTech und Inkbird sind Beta-Anbindungen, die nur Beta-Nutzer hinzufügen können. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 Das fällt wie die Fehlerwarnungen oben unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 

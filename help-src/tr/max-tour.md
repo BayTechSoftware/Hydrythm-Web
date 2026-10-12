@@ -2,7 +2,7 @@
 title: Cora Max ana ekranı
 description: Cora Max ekranında ne nerede: üst çubuk, pano ızgarası ve prizler çekmecesi.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ Soldan sağa:
 | **Eski** | Yeni ölçüm gelmiyor. Ekran aldığı son veriyi gösterir |
 | **Apex tekrar deneme 12 s** | Apex'iniz cevap vermedi. Geri sayım bitince Cora Max yeniden dener |
 | **Bulut eşitleme başarısız** | Apex'iniz cevap verdi ama ölçümler Cora Cloud'a kaydedilemedi. Bu yüzden pano geride kalıyor. Cora Max denemeye devam eder |
+| **Bulut kaydı reddedildi** | Cora Cloud, bu ekranın bazı verilerini kaydetmeyi reddediyor. Akvaryumunuzda ya da Cora Max'te bir sorun yok ve bu ekranda değiştirmeniz gereken bir şey yok. Çözüm bir Cora Cloud güncellemesi. **Ayarlar → Cora Max Ayarları → Yazılım Güncellemesi**'ni açın ve **Durum** bölümüne bakın. **Bulut kaydı** satırı hangi verilerin etkilendiğini söyler. Sonra [destekle iletişime geçin](/support.html) |
 | **Çevrimdışı** | Bağlantı yok. Ekran aldığı son veriyi gösterir |
 | **Çevrimdışı, 45 s içinde tekrar denenecek** | Ağınız çalışıyor ama Cora Cloud'a 30 saniyeden uzun süredir ulaşılamıyor. Cora Max kendiliğinden yeniden bağlanır. Geri sayım bir sonraki denemeye kalan süreyi gösterir |
 | **Ana Cora çevrimdışı** | Bu ekran, bu akvaryumu gösteren ikinci bir Cora Max ve **Birincil Cora Max** (bu akvaryumun ekipmanını yoklamak için seçilen cihaz) çevrimdışı. Birincil cihaz geri gelene ya da siz başka bir Birincil Cora Max seçene kadar bu ekran elindeki son veriyi göstermeye devam eder. Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında |
@@ -73,10 +74,12 @@ Akvaryum adına dokununca ekrandaki akvaryumun menüsü açılır:
 | **Sağlık Raporları** | Sağlık değerlendirmeleri |
 | **Bakım** | [Görev listesi](/help/mobile-maintenance) |
 | **ICP Raporları** | Yüklenen [laboratuvar sonuçları](/help/mobile-icp-health) |
-| **Uyarılar** | Bu akvaryumdaki her değer için sağlıklı aralık |
+| **Parametre geçmişi** | Verisi olan herhangi bir parametreyi seçin ve [grafiğini](/help/max-intelligence) açın |
+| **Uyarı eşikleri** | Bu akvaryumdaki her değer için sağlıklı aralık |
 | **Canlılar** | Bu akvaryumun [canlı listesi](/help/mobile-livestock). Bu ekranda yalnızca okunur |
 | **Etkinlik** | [Tüm priz, besleme ve dozaj komutları](/help/max-activity) ve sonuçları |
 | **Pano düzeni** | [Bu ekrandaki widget'ları düzenleyin](/help/max-dashboard-editing) |
+| **Birimler** | Bu akvaryumun ölçümleri için görüntüleme birimleri |
 | **Akvaryum ayarları** | Bu akvaryumun tüm ayarları |
 
 ## Akvaryumlar arasında geçiş

@@ -2,7 +2,7 @@
 title: Tagebuch, Besatz und Wartung
 description: Tagebuch, Besatz und Wartung auf Cora Max und wann du dafür lieber zum Handy greifst.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Records
 ---
@@ -11,7 +11,7 @@ Cora Max zeigt dieselben Aufzeichnungen wie dein Handy. Bearbeiten kannst du an 
 
 | Bereich | Auf Cora Max |
 |---|---|
-| **Tagebuch** | Einträge lesen und hinzufügen |
+| **Tagebuch** | Einträge lesen und hinzufügen. **Extra gefüttert** oder **Fütterung ausgelassen** mit einem Tipp erfassen |
 | **Messwerte** | Testergebnisse über die Bildschirmtastatur eintragen |
 | **Wartung** | Eine Aufgabe erledigen oder verschieben. Aufgaben anlegen und bearbeiten kannst du nur auf dem Handy |
 | **Besatz** | Nur ansehen. Hinzufügen und bearbeiten kannst du auf dem Handy |
@@ -27,6 +27,12 @@ Alle Bereiche erreichst du über das **Beckenmenü**: Tippe in der oberen Leiste
 Einen Eintrag schreibst du, ohne vom Becken wegzugehen. Meist ist das hier bequemer als auf dem Handy, denn am Wandbildschirm stehst du ja gerade, wenn du am Becken arbeitest.
 
 Öffne das **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) und tippe auf **+**, um einen Eintrag hinzuzufügen. Oder sag *„Hey Cora, notiere, dass ich Mysis gefüttert habe.“* Mehr dazu unter [Das Tagebuch](/help/mobile-journal).
+
+### Fütterung
+
+Oben auf dem Tagebuch-Bildschirm fügen **Extra gefüttert** und **Fütterung ausgelassen** jeweils einen Tagebucheintrag hinzu. Eine Zeile darunter zeigt deinen Fütterungsplan, zum Beispiel *Fütterungsplan: Flocken: 2 Prisen, zweimal täglich*. Den Plan legst du in Cora Mobile fest. Ist keiner gespeichert, steht in der Zeile *Lege deinen Fütterungsplan in der Handy-App fest*.
+
+Liest Cora Max deinen Neptune Apex aus, erfasst es außerdem einen Fütterungszyklus A bis D, sobald einer startet, egal ob du ihn hier, am Apex oder in Apex Fusion gestartet hast.
 
 :::note In der oberen Leiste gibt es kein Tagebuch-Symbol
 Das Symbol neben dem Geräte-Symbol ist **Reef Buddy**. Sein Punkt bedeutet, dass du die heutige Zusammenfassung noch nicht gelesen hast. Tagebucheinträge fügst du über das Beckenmenü oder per Sprache hinzu.

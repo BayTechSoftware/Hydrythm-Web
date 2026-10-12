@@ -2,7 +2,7 @@
 title: Solución de problemas
 description: Las lecturas se han parado, un dispositivo se ha desconectado, una alerta no desaparece o algo no cuadra. Empieza aquí.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ La antigüedad no miente: no ha llegado nada nuevo.
 - **Los parámetros que anotas a mano** se quedan desactualizados si no anotas ninguna lectura. Anota una.
 - **Si se desactualiza la lectura de un equipo**, es que el dispositivo ha dejado de enviar datos. Revisa su fila en **Dispositivos**.
 - **Algunos equipos son lentos de por sí.** Un valorador que mide cada hora mostrará normalmente `1h`. No es un fallo.
+
+## "[Dispositivo]: ha dejado de informar"
+
+Cora envía este aviso cuando un dispositivo se queda en silencio. No significa que el dispositivo esté roto, solo que Cora lleva un rato sin saber de él.
+
+- Un Neptune Apex o un equipo Red Sea ReefBeat se considera en silencio a los 30 minutos más o menos. AquaWiz tarda unas 3 horas.
+- Una bomba Jecod o Maxspect se considera en silencio tras tres lecturas seguidas sin llegar, contadas según el intervalo de lectura del propio dispositivo.
+- Un dispositivo EcoTech o un monitor Inkbird, ambos Beta, también se considera en silencio tras tres lecturas seguidas sin llegar, contadas según el intervalo de lectura que hayas fijado. Las redes EcoTech con solo luces se leen cada 30 minutos por defecto, así que espera al menos 90 minutos.
+
+1. Revisa la alimentación del dispositivo y el alcance de su Wi-Fi o Bluetooth.
+2. Comprueba que el Cora Max que lo lee esté encendido y en línea.
+3. Espera a la siguiente lectura. Recibes una segunda notificación en cuanto vuelve a informar.
+
+Más información en [Alertas y umbrales](/help/mobile-alerts). Los dispositivos Beta se explican en [Funciones Beta](/help/mobile-beta).
 
 ## No se puede llegar a un dispositivo
 
@@ -57,6 +71,15 @@ Mira la etiqueta de estado de la barra superior. **En línea** y **Nube** quiere
 - Revisa el Wi-Fi en **Ajustes → Ajustes de Cora Max → Wi-Fi**
 - Comprueba que la red funciona
 - Si la etiqueta dice **En línea** o **Nube** y los datos siguen siendo viejos, el problema está antes de Cora Max. Mira el mismo acuario en el teléfono
+
+## Cora Max muestra "Guardado en la nube rechazado"
+
+Esta etiqueta de la barra superior significa que Cora Cloud se niega a guardar algunos datos de esta pantalla. Tu acuario y Cora Max no tienen ningún problema, y no hay que cambiar nada en la pantalla. La solución es una actualización de Cora Cloud.
+
+1. Abre **Ajustes → Ajustes de Cora Max → Actualización de firmware** y mira la sección **Estado**. La línea **Guardado en la nube** indica qué datos se rechazan, por ejemplo las lecturas o las tomas de un dispositivo.
+2. [Contacta con soporte](/support.html) y dinos qué dice esa línea.
+
+Mientras tanto, tus lecturas siguen apareciendo en Cora Max. Solo que no se guardan en tu cuenta hasta que llegue la solución.
 
 ## Una alerta no desaparece
 
@@ -104,6 +127,8 @@ Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)*
 
 ## "La API de GHL está desactivada"
 
+GHL es una integración Beta. Consulta [Funciones Beta](/help/mobile-beta).
+
 GHL desactiva su API oficial después de cada actualización de firmware, así que esto es normal después de una actualización, no un fallo. Vuelve a activarla desde **System → GHL API** en GHL Control Center o GHL Connect, en el propio controlador. Cora sigue comprobando y vuelve a conectarse sola en cuanto está activa de nuevo.
 
 ## "No se puede llegar al controlador GHL"
@@ -143,7 +168,7 @@ Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)*
 
 ## "No se pudo contactar con ese Gyre. No se inició ninguna alimentación."
 
-Un gyre Maxspect (integración en beta) no respondió cuando Cora intentó ponerlo en modo alimentación.
+Un gyre Maxspect (integración Beta) no respondió cuando Cora intentó ponerlo en modo alimentación.
 
 1. Comprueba que el gyre está encendido y conectado a su red.
 2. Toca **Reintentar**.
@@ -152,7 +177,7 @@ Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)*
 
 ## "No se pudo contactar con ese Gyre. Su programa no cambió."
 
-No se pudo enviar el horario a un gyre Maxspect (integración en beta).
+No se pudo enviar el horario a un gyre Maxspect (integración Beta).
 
 1. Comprueba que tu teléfono o tu Cora Max están en la red del gyre.
 2. Toca **Reintentar** en la pantalla del horario.
@@ -299,7 +324,7 @@ Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)*
 
 Es el ajuste de unidades del acuario, no un problema de datos. Los valores se guardan igual, se muestren como se muestren.
 
-1. Abre los **Ajustes** de ese acuario y revisa sus unidades.
+1. Abre **Ajustes**, abre ese acuario y elige **Unidades**.
 2. Cámbialas ahí. Todos los teléfonos y Cora Max que muestran ese acuario se actualizan.
 
 Si sigue sin funcionar, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

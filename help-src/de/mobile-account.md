@@ -2,7 +2,7 @@
 title: Anmelden und Konto wiederherstellen
 description: So meldest du dich an, setzt ein vergessenes Passwort zurück und korrigierst eine E-Mail-Adresse, die sich nicht bestätigen lässt.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Eine Kontoadresse zu ändern ist sicherheitsrelevant. Deshalb braucht Cora dafü
 ## Die Bestätigung hängt noch
 
 Cora Mobile prüft den Status, sobald du auf **Ich habe meine E-Mail-Adresse bestätigt** tippst. Heißt es, die E-Mail sei noch nicht bestätigt, tippe in der neuesten E-Mail auf **Meine E-Mail bestätigen**, warte kurz und prüf es noch einmal. Ist der Link abgelaufen, hol dir mit **Bestätigungs-E-Mail erneut senden** einen neuen. Die Bestätigung hängt am Konto, nicht am Gerät. Sobald sie geklappt hat, gilt sie auf all deinen Geräten.
+
+## Labor- und ICP-E-Mails
+
+Labore und per E-Mail verschickte ICP-Ergebnisse finden dein Konto über die E-Mail-Adresse. Kennt dein Labor eine andere Adresse als die, mit der du dich anmeldest, oder hast du dich mit einer versteckten Apple-E-Mail angemeldet, füge sie unter **Einstellungen → deine Kontokarte → Labor- & ICP-E-Mails** hinzu. Tippe auf **Labor-E-Mail hinzufügen**, dann auf **Code senden**, gib den 6-stelligen Code aus der E-Mail ein und tippe auf **Bestätigen**. Du kannst bis zu 3 hinzufügen. Die Schritte stehen unter [ICP und Zustandsberichte](/help/mobile-icp-health).
 
 ## Abmelden
 

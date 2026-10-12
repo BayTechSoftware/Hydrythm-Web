@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Tu resumen diario. Qué incluye, cuándo llega y cómo leer las puntuaciones.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -33,6 +33,18 @@ Los **análisis**, cada uno de los hallazgos por separado. Cada análisis tiene 
 Los análisis pasan un filtro antes de llegarte. Tienen que repetirse en varias lecturas, no basta con una. Y tienen que contarte algo que no verías ya en un simple gráfico.
 
 Toca la tarjeta del panel para abrir el resumen completo.
+
+## Actualizar el resumen con una prueba nueva
+
+Si anotas una prueba a mano o añades un resultado de ICP después de que haya salido el resumen, la tarjeta del resumen en el resumen completo muestra **Hay lecturas nuevas desde este resumen** con un botón **Actualizar resumen**. Tócalo y Cora rehace el resumen con los números nuevos. Puedes hacerlo una vez al día por hogar. Después el botón aparece en gris y dice *Puedes actualizar el resumen una vez al día. Próxima actualización: mañana.*
+
+Las lecturas de sondas y controladores no activan esta oferta, porque llegan durante todo el día.
+
+## Por qué ves un análisis
+
+Debajo de un análisis, toca **¿Por qué veo esto?** La hoja **Por qué ves esto** lista las **Lecturas que usó**, el **Objetivo de comparación** (tu propio objetivo o un rango de referencia), lo que **De tu diario** haya tenido en cuenta y la **Ventana de análisis (días)** que miró. Si el razonamiento no encaja con tu acuario, responde al análisis como se explica más abajo en "Responder a un análisis".
+
+Los resúmenes también usan más que las lecturas de parámetros. Pueden usar los horarios de tus luces, la velocidad de un rollo ReefMat, tu alcalinidad anotada a mano junto a la de un dispositivo, los totales de tus cabezales DŌS y, si tienes un monitor de aire de habitación Inkbird Beta, la temperatura y la humedad de la habitación. Inkbird solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
 
 ## Cuándo llega
 
@@ -79,7 +91,7 @@ Puedes responder a cada análisis de cuatro formas:
 | **Ya lo sabía** | Era correcto, pero ya lo sabías |
 | **No estoy seguro** | Todavía no puedes valorarlo |
 
-Tus respuestas influyen en lo que aparece primero en los resúmenes siguientes. Cuando descartas un análisis, se oculta **solo durante un tiempo**. Si la situación continúa, vuelve a aparecer.
+Cuando Reef Buddy señala una deriva, también te pregunta *¿Te sirvió este aviso?* Puedes responder **Útil**, **No me sirvió**, **Este cambio es esperado** o **La lectura parece incorrecta**. Tus respuestas influyen en lo que aparece primero en los resúmenes siguientes. Cuando descartas un análisis, se oculta **solo durante un tiempo**. Si la situación continúa, vuelve a aparecer.
 
 :::note Los hallazgos graves no se ocultan nunca
 Tus respuestas solo pueden silenciar los análisis menos graves. Los de advertencia y los críticos siguen apareciendo, respondieras lo que respondieras antes.

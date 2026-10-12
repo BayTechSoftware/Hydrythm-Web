@@ -2,7 +2,7 @@
 title: Cora ile konuşma
 description: Cora Max'i sesle kullanma, konuşma başlatma, neler sorabileceğiniz ve onayların nasıl işlediği.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Cora Assistant'a dokununca konuşma hemen başlar, onay sorulmaz. Yanlışlıkla
 - *"Besleme modunu başlat."*
 - *"Fanı yeniden otomatiğe al."*
 - *"Yirmi litrelik su değişimi yaptığımı kaydet."*
+- *"Ekstra mysis verdiğimi kaydet."* ya da *"Sabah beslemesini atladığımı kaydet."*
 
 **Devam soruları.** Aynı şeyi tekrar söylemeniz gerekmez. Ana akvaryumla ilgili bir sorudan sonra *"peki frag akvaryumu?"* demeniz yeter.
 

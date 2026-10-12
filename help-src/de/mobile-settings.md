@@ -2,7 +2,7 @@
 title: Einstellungen
 description: Alle Bereiche der Einstellungen in Cora Mobile im Überblick, von Konto und Becken über Cora Assistant und Sprache bis zu Benachrichtigungen, Automation und Aktivität.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ Die Karte ganz oben zeigt, mit welchem Konto du angemeldet bist und welchen Plan
 
 - **Anzeigename**: so nennt dich Cora Mobile
 - **Plan und Abo**: was du hast, was darin steckt und wie du es änderst
+- **Labor- & ICP-E-Mails**: hier fügst du bis zu 3 weitere E-Mail-Adressen hinzu, über die dein Labor dein Konto erreichen kann. Siehe [ICP und Zustandsberichte](/help/mobile-icp-health).
 - **Abmelden**
 - **Konto löschen**: endgültig. Lies vorher die beiden Hinweise weiter unten.
 
@@ -39,9 +40,15 @@ Für jedes Becken gibt es eine Zeile. Danach folgen:
 - **Becken neu anordnen**: die Reihenfolge, in der du auf dem Dashboard durch die Becken wischst
 - **Entfernte Becken**: Becken, die du gelöscht hast, falls du etwas davon zurückbrauchst
 
-Öffnest du ein Becken, findest du dort **Primäres Cora Max** (welches Gerät die Ausrüstung dieses Beckens abfragt), **Geführte Einrichtung** und eine schreibgeschützte Liste **Geräte an diesem Becken**, und du kannst das Becken selbst bearbeiten. Alles zum Primären Cora Max steht unter **[Mehr als ein Cora-Gerät](/help/mobile-multi-device)**. Um ein Gerät hinzuzufügen oder zu entfernen, nutze den [Tab Geräte](/help/mobile-devices).
+Öffnest du ein Becken, hat seine Einstellungsseite drei Teile.
 
-- **Urlaubsmodus**: ein Plan für die Person, die sich um dein Becken kümmert, während du weg bist. Alles dazu unter **[Verreisen](/help/mobile-vacation)**. Du legst die Daten fest und stellst eine Checkliste mit Aufgaben zusammen, jeweils mit Angabe, wie oft sie anfallen. Cora macht daraus eine einfache Seite zum Lesen, die du mit deiner Urlaubsvertretung teilst. Sie braucht dafür kein Konto.
+- **Einstellungen** enthält **Becken bearbeiten**, **Parameterzuordnung**, **Warnschwellen**, **Einheiten**, **Primäres Cora Max** und **Urlaubsmodus**.
+- **Aufzeichnungen & Berichte** enthält **Tagebuch**, **Wartung**, **Besatz**, **Reef Buddy**, **Gesundheitsberichte**, **ICP-Berichte**, **Aktivität** und **Geführte Einrichtung**.
+- **Geräte an diesem Becken** ist eine schreibgeschützte Liste.
+
+Mit **Parameterzuordnung** wählst du, welches Gerät welchen Messwert liefert. Siehe [Parameterzuordnung](/help/mobile-probes). **Einheiten** legt fest, wie dieses Becken seine Messwerte zeigt, auch Liter oder US- oder UK-Gallonen für das Volumen. Siehe [Dein Beckenprofil](/help/mobile-tank-profile). **Primäres Cora Max** ist das Gerät, das die Ausrüstung dieses Beckens abfragt, und steht unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device). Um ein Gerät hinzuzufügen oder zu entfernen, nutze den [Tab Geräte](/help/mobile-devices).
+
+**Urlaubsmodus**: ein Plan für die Person, die sich um dein Becken kümmert, während du weg bist. Alles dazu unter **[Verreisen](/help/mobile-vacation)**. Du legst die Daten fest und stellst eine Checkliste mit Aufgaben zusammen, jeweils mit Angabe, wie oft sie anfallen. Cora macht daraus eine einfache Seite zum Lesen, die du mit deiner Urlaubsvertretung teilst. Sie braucht dafür kein Konto.
 
 ## App-Einstellungen
 

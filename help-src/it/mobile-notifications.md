@@ -2,7 +2,7 @@
 title: Notifiche
 description: Scegli quali notifiche ricevere sul telefono e dove ritrovare quelle che ti sei perso.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Ogni categoria ha il suo interruttore:
 | Categoria | Cosa riguarda |
 |---|---|
 | **Avvisi sui parametri** | Valori dell'acqua fuori da un intervallo che hai impostato |
-| **Promemoria di manutenzione** | Lavori che hai programmato, come i cambi d'acqua |
+| **Promemoria di manutenzione** | Lavori che hai programmato, come i cambi d'acqua, e un promemoria una tantum per registrare il tuo primo test quando una vasca nuova dopo tre giorni non ha ancora letture |
 | **Guasti dell'apparecchiatura** | Un dispositivo che segnala un problema, per esempio un Trident che ha smesso di fare test |
 | **Scorte in esaurimento** | Reagente, acqua di rabbocco, contenitori di dosaggio e bottiglia di scarico piena |
 | **Rapporto ICP pronto** | I risultati ICP sono stati analizzati e puoi leggerli |

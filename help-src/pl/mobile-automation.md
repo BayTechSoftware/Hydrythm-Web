@@ -2,7 +2,7 @@
 title: Automatyzacje i sceny
 description: Twórz reguły, które działają same (wyzwalacze, warunki, akcje), i łącz akcje w sceny.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Akcje wymagające sprzętu pojawiają się tylko przy akwarium, które ma ten sp
 | **Uruchom scenariusz** | Uruchamia scenę z wnętrza tej reguły |
 | **Zarządzaj automatyzacją** | Włącza albo wyłącza inną regułę |
 | **Zdawkuj z głowicy DŌS** | Podaje odmierzoną dawkę z głowicy DŌS |
+| **Utwórz zadanie konserwacyjne** | Dodaje zadanie do listy [konserwacji](/help/mobile-maintenance) akwarium, na przykład wymianę wkładu skrubera CO2, gdy pH spadnie poniżej wartości |
 
 :::warning Dawki z reguły nie da się cofnąć
 Raz podanej dawki nie wyjmiesz z akwarium. Reguła może dozować tylko ze **skalibrowanej** głowicy. Dozowanie bez nadzoru ma limit **10 mL na głowicę na dobę** i żadna reguła go nie przekroczy, bez względu na to, jak jest napisana. Akcje dozowania pojawią się dopiero wtedy, gdy Cora rozpozna Twoje głowice jako głowice dozujące.
+:::
+
+:::note Co robi Utwórz zadanie konserwacyjne
+Wybierz akwarium, potem **Istniejące zadanie** (istniejące zadanie staje się wymagalne od razu) albo **Nowe zadanie** (podaj **Nazwa zadania**). Nowe zadanie jest jednorazowe, wymagalne od razu, a reguła nie dodaje go ponownie, dopóki jest otwarte. Dostajesz jedno powiadomienie, a jednorazowe zadanie znika z listy, gdy je wykonasz.
 :::
 
 :::note Przerwa porządkuje kroki w jednej regule

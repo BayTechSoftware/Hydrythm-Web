@@ -2,7 +2,7 @@
 title: Aide Cora
 description: Installer et utiliser Cora Max et Cora Mobile : premiers pas, tableaux de bord, appareils, alertes, Reef Buddy, rapports ICP et de santé.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -60,6 +60,9 @@ Au-delà des mesures et des tableaux de bord, Cora regroupe le reste du travail 
 ## Votre équipement
 
 - **[Contrôler votre équipement](/help/mobile-device-control)** : prises, pompes, têtes de dosage et testeurs
+- **[Fonctions Beta](/help/mobile-beta)** : ce que veut dire Beta, qui voit les intégrations Beta et comment demander l’accès
+- **[Caméras et surveillance de l’écumeur](/help/mobile-cameras)** : ajouter une caméra et être prévenu avant que le godet de l’écumeur déborde
+- **[Lampes, pompes et doseurs EcoTech](/help/mobile-ecotech)** : Radion, VorTech et Versa en Bluetooth
 - **[Sondes](/help/mobile-probes)** : associer les sondes d’un contrôleur et noter un étalonnage
 - **[Consommables](/help/mobile-consumables)** : alertes de réapprovisionnement pour les réactifs, contenants et réservoirs
 - **[Programmer l’équipement](/help/mobile-schedules)** : programmes journaliers des pompes, copie de programmes et programme d’une pompe de brassage

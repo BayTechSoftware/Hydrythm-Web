@@ -2,7 +2,7 @@
 title: Configurare Cora Mobile
 description: Installa Cora, crea l'account, aggiungi la prima vasca e guarda comparire le prime letture.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Alcuni parametri si misurano solo con un test. Scorri in fondo alla dashboard e 
 ![Registrazione dei parametri](img/mobile-logparams.webp "Inserisci i risultati del kit di test per qualsiasi parametro tracciato dalla vasca.")
 
 Ogni lettura viene salvata con la fonte e l'orario. Così Cora può dirti quando una sonda e un test non vanno d'accordo.
+
+### La scheda del primo test
+
+Una vasca senza letture e senza attrezzatura collegata mostra in cima alla dashboard una scheda, **Registra il tuo primo test dell’acqua**. Basta una misurazione perché Reef Buddy, gli avvisi e le analisi inizino a lavorare per te. Cora propone lo stesso passo anche subito dopo aver creato una vasca. Tocca la scheda e scegli una di queste voci.
+
+- **Registra i risultati ora** apre il modulo **Registra parametri**.
+- **Collega un dispositivo (Apex o Red Sea)** apre il flusso Aggiungi dispositivo. Se il profilo della vasca elenca già un dispositivo che Cora può collegare, la scheda lo nomina, per esempio *Collega il tuo Neptune Apex*.
+- **Più tardi** chiude il foglio.
+- **Ricordami di testare ogni settimana** aggiunge un lavoro di manutenzione settimanale chiamato **Testare l’acqua**. Scegli prima il **Giorno del test**.
+
+Tocca la croce sulla scheda per nasconderla. La scheda sparisce da sola quando la vasca ha una lettura o una fonte collegata. Anche Cora Max mostra **Registra il tuo primo test** su una vasca senza dati.
+
+Se una vasca non ha ancora letture tre giorni dopo averla creata, Cora manda una sola notifica di promemoria. Se nessuna delle tue vasche ha letture, Cora manda anche una breve email al giorno 3 e al giorno 10 dopo la tua iscrizione, una volta ciascuna. Entrambe seguono l'interruttore **Promemoria di manutenzione** in **Impostazioni → Notifiche**, e l'email ha una riga che spiega come fermarla.
 
 ## Quando è tutto pronto
 

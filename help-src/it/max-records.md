@@ -2,7 +2,7 @@
 title: Diario, popolazione e manutenzione
 description: Le schermate dei registri su Cora Max, e quando conviene usarle al posto del telefono.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Records
 ---
@@ -11,7 +11,7 @@ Cora Max mostra gli stessi registri del telefono, ma non tutti si possono modifi
 
 | Area | Su Cora Max |
 |---|---|
-| **Diario** | Leggi e aggiungi voci |
+| **Diario** | Leggi e aggiungi voci. Registra **Pasto extra** o **Pasto saltato** con un tocco |
 | **Letture** | Registri i risultati dei test con la tastiera sullo schermo |
 | **Manutenzione** | Completi o rinvii un'attività. Crei e modifichi le attività dal telefono |
 | **Popolazione** | Solo lettura. Aggiungi e modifichi dal telefono |
@@ -31,6 +31,12 @@ Aprilo dal **menu della vasca** (tocca il nome della vasca nella barra in alto) 
 :::note Nella barra in alto non c'è un'icona del diario
 L'icona accanto a quella dei dispositivi è **Reef Buddy**. Il pallino vuol dire che non hai ancora letto il briefing di oggi. Le voci del diario si aggiungono dal menu della vasca o a voce.
 :::
+
+### Alimentazione
+
+In cima alla schermata del diario, **Pasto extra** e **Pasto saltato** aggiungono ciascuno una voce al diario. Una riga sotto mostra la tua routine di alimentazione, per esempio *Routine di alimentazione: Fiocchi: 2 pizzichi, 2 volte al giorno*. La routine la imposti in Cora Mobile, quindi se non ne hai salvata una la riga dice *Imposta la tua routine di alimentazione nell'app per telefono*.
+
+Se Cora Max legge il tuo Neptune Apex, registra anche un ciclo di alimentazione da A a D quando parte, che tu l'abbia avviato qui, sull'Apex o in Apex Fusion.
 
 ## Popolazione
 

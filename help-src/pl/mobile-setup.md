@@ -2,7 +2,7 @@
 title: Pierwsze kroki z Cora Mobile
 description: Zainstaluj Corę, załóż konto, dodaj pierwsze akwarium i zobacz pierwsze odczyty na ekranie.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Niektóre parametry sprawdzisz tylko testem kropelkowym. Przewiń pulpit na sam 
 ![Zapisywanie parametrów](img/mobile-logparams.webp "Wpisz wyniki testów kropelkowych dla dowolnego parametru, który śledzi akwarium.")
 
 Każdy odczyt zapisuje się razem ze źródłem i czasem. Dzięki temu Cora powie Ci, gdy sonda i test kropelkowy podają różne wartości.
+
+### Karta pierwszego testu
+
+Akwarium bez odczytów i bez podłączonego sprzętu pokazuje u góry pulpitu kartę **Zapisz pierwszy test wody**. Jeden odczyt wystarczy, żeby Reef Buddy, alerty i spostrzeżenia zaczęły dla Ciebie działać. Cora proponuje ten sam krok zaraz po utworzeniu akwarium. Dotknij karty i wybierz jedną z opcji.
+
+- **Zapisz wyniki testów teraz** otwiera formularz **Zapisz parametry**.
+- **Połącz urządzenie (Apex lub Red Sea)** otwiera proces dodawania urządzenia. Jeśli profil Twojego akwarium wymienia urządzenie, które Cora może połączyć, karta podaje jego nazwę, na przykład *Połącz swój Neptune Apex*.
+- **Później** zamyka arkusz.
+- **Przypominaj mi o teście co tydzień** dodaje cotygodniowe zadanie konserwacyjne o nazwie **Przetestuj wodę**. Najpierw wybierz **Dzień testu**.
+
+Dotknij krzyżyka na karcie, żeby ją ukryć. Karta znika sama, gdy akwarium ma odczyt albo podłączone źródło. Cora Max też pokazuje **Zapisz pierwszy test** w akwarium bez danych.
+
+Jeśli akwarium nadal nie ma odczytów trzy dni po utworzeniu, Cora wysyła jedno przypomnienie push. Jeśli żadne z Twoich akwariów nie ma odczytów, Cora wysyła też krótki e-mail w 3. i 10. dniu po rejestracji, po jednym. Oba podlegają Twojemu przełącznikowi **Przypomnienia o konserwacji** w **Ustawienia → Powiadomienia**, a e-mail zawiera linię, jak z niego zrezygnować.
 
 ## Jak wygląda gotowa konfiguracja
 

@@ -2,7 +2,7 @@
 title: Settings
 description: A guide to every section of Cora Mobile's settings, from your account and tanks to Cora Assistant, language, notifications, automation and activity.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ The card at the top shows who you're signed in as and which plan you're on. Tap 
 
 - **Display name** is what Cora Mobile calls you.
 - **Plan and subscription** shows what you have, what it includes and how to change it.
+- **Lab & ICP emails** lets you add up to 3 more email addresses that your lab can use to reach your account. See [ICP and health reports](/help/mobile-icp-health).
 - **Sign out**
 - **Delete account** is permanent. Read the two notes further down before you use it.
 
@@ -39,9 +40,15 @@ You'll see one row for each tank, then these.
 - **Reorder tanks** sets the order they come up when you swipe the dashboard.
 - **Removed tanks** keeps tanks you've deleted, in case you need something back.
 
-Open a tank to edit it, or to reach **Primary Cora Max** (which device polls that tank's equipment), **Guided setup** and a read-only **Devices on this tank** list. Primary Cora Max is explained in [More than one Cora device](/help/mobile-multi-device). To add or remove a device, use the [Devices tab](/help/mobile-devices).
+Open a tank and its settings page has three parts.
 
-- **Vacation mode** is a plan for whoever looks after the tank while you're away. You set the dates and make a checklist of jobs, with how often each one needs doing. Cora turns it into a simple read-only page you can share with your tank sitter. They don't need an account. More in [Going away](/help/mobile-vacation).
+- **Settings** holds **Edit tank**, **Parameter Mapping**, **Alert thresholds**, **Units**, **Primary Cora Max** and **Vacation mode**.
+- **Records & Reports** holds **Journal**, **Maintenance**, **Livestock**, **Reef Buddy**, **Health Reports**, **ICP Reports**, **Activity** and **Guided setup**.
+- **Devices on this tank** is a read-only list.
+
+**Parameter Mapping** is where you choose which device feeds each reading. See [Parameter Mapping](/help/mobile-probes). **Units** sets how this tank shows its readings, including litres or US or UK gallons for volume. See [Your tank profile](/help/mobile-tank-profile). **Primary Cora Max** is which device polls that tank's equipment, and is explained in [More than one Cora device](/help/mobile-multi-device). To add or remove a device, use the [Devices tab](/help/mobile-devices).
+
+**Vacation mode** is a plan for whoever looks after the tank while you're away. You set the dates and make a checklist of jobs, with how often each one needs doing. Cora turns it into a simple read-only page you can share with your tank sitter. They don't need an account. More in [Going away](/help/mobile-vacation).
 
 ## App Settings
 

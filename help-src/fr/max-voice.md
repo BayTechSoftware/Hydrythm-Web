@@ -2,7 +2,7 @@
 title: Parler à Cora
 description: La voix sur Cora Max, comment lancer une conversation, quoi demander et comment se passent les confirmations.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Cora Assistant lance la session tout de suite, sans demander de confirmation. Si
 - *« Démarre le mode nourrissage. »*
 - *« Remets le ventilateur en auto. »*
 - *« Note que j’ai fait un changement d’eau de vingt litres. »*
+- *« Note que j’ai donné du mysis en plus. »* ou *« Note que j’ai sauté le repas du matin. »*
 
 **Questions de suite.** Inutile de tout répéter. Après une question sur le bac principal, *« et l’aquarium de boutures ? »* suffit.
 

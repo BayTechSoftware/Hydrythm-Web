@@ -2,7 +2,7 @@
 title: Updates and recovery
 description: How Cora Max updates itself, and what happens if an update goes wrong.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ Go to **Settings → Cora Max Settings → Firmware Update** (in the **Network &
 A prompt tells you what's new and gives you two choices.
 
 - **Update now** installs right away and restarts.
-- **Snooze 3 hours** asks you again later.
+- **Snooze 24 hours** hides the prompt and asks you again a day later.
+
+While an update is waiting, a small dot shows on the **Settings** icon in the top bar and on the **Firmware Update** row. The dot stays through a snooze, so you can still see an update is there. It goes away while the update installs.
 
 If you leave it, the update installs itself overnight, roughly between 3 and 5 in the morning, so the screen doesn't restart while you're looking at it.
 

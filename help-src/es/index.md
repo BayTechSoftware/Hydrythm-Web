@@ -2,7 +2,7 @@
 title: Ayuda de Cora
 description: Cómo configurar y usar Cora Max y Cora Mobile: primeros pasos, paneles, dispositivos, alertas, Reef Buddy, ICP e informes de salud.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -60,6 +60,9 @@ Además de lecturas y paneles, Cora reúne en un solo sitio el resto del trabajo
 ## Tus equipos
 
 - **[Controlar tus equipos](/help/mobile-device-control)**: tomas, bombas, cabezales de dosificación y analizadores
+- **[Funciones Beta](/help/mobile-beta)**: qué significa Beta, quién ve las integraciones Beta y cómo pedir acceso
+- **[Cámaras y vigilancia del skimmer](/help/mobile-cameras)**: añade una cámara y recibe un aviso antes de que se desborde el vaso del skimmer
+- **[Luces, bombas y dosificadoras EcoTech](/help/mobile-ecotech)**: Radion, VorTech y Versa por Bluetooth
 - **[Sondas](/help/mobile-probes)**: asignar las sondas de un controlador y anotar las calibraciones
 - **[Consumibles](/help/mobile-consumables)**: avisos de reposición de reactivo, envases y depósitos
 - **[Programar equipos](/help/mobile-schedules)**: programas diarios para bombas, cómo copiarlos y cómo ver el horario de un gyre

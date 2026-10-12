@@ -2,7 +2,7 @@
 title: Reading your dashboard
 description: How to read Cora's dashboard, from widgets and reading age to sources and what the colours mean.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ At the bottom of the dashboard you'll find:
 
 - **Edit dashboard**, which opens the [dashboard editor](/help/mobile-dashboard-editing)
 - **Log Parameters**, for entering test-kit readings by hand
+- **Parameter History**, to open the history of any parameter that has data, even one with no widget. See [Looking into a parameter](/help/mobile-metric-detail)
+- **Feeding**, to log a feeding that differs from your routine. See [The journal](/help/mobile-journal)
 - **Journal · Alerts · Maintenance · Livestock**, shortcuts to those areas for this tank
+
+On a tank with no readings and no linked equipment, a card above them, **Log your first water test**, helps you get started. See [Setting up Cora Mobile](/help/mobile-setup).
 
 A line above them shows when the dashboard last updated and which sources it used.
 

@@ -1,13 +1,13 @@
 ---
 title: Harmonogramy sprzętu
-description: Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy i podejrzyj harmonogram gyre Maxspect (beta).
+description: Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy i podejrzyj harmonogram gyre Maxspect (Beta).
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 12
 group: Equipment
 ---
 
-Pompy i gyre mogą pracować według **programu dnia**. To zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. W pompach Jecod Cora może sama tworzyć takie programy. Harmonogram gyre Maxspect *(beta)* możesz tu tylko podejrzeć, a ustawiasz go w aplikacji Maxspect.
+Pompy i gyre mogą pracować według **programu dnia**. To zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. W pompach Jecod Cora może sama tworzyć takie programy. Harmonogram gyre Maxspect *(Beta)* możesz tu tylko podejrzeć, a ustawiasz go w aplikacji Maxspect. Maxspect jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
 
 Otwórz urządzenie w zakładce **Urządzenia**.
 
@@ -32,7 +32,7 @@ Każdy ekran harmonogramu ma te same trzy części.
 
 **Dodaj do harmonogramu** dodaje nowy okres. Żeby zmienić okres, otwórz go i dotknij **Zapisz**. Żeby go usunąć, dotknij **Usuń**. Cora poprosi o potwierdzenie, zanim okres zniknie.
 
-Gyre Maxspect *(beta)* ma dwie głowice, Gyre A i Gyre B, więc jego wykres dnia ma dwa tory, po jednym dla każdej. Plany są wypisane pod **GYRE A** i **GYRE B**. Harmonogram gyre służy tylko do podglądu. W wierszu akcji widać **Tylko podgląd**, a harmonogram ustawiasz w aplikacji Maxspect.
+Gyre Maxspect *(Beta)* ma dwie głowice, Gyre A i Gyre B, więc jego wykres dnia ma dwa tory, po jednym dla każdej. Plany są wypisane pod **GYRE A** i **GYRE B**. Harmonogram gyre służy tylko do podglądu. W wierszu akcji widać **Tylko podgląd**, a harmonogram ustawiasz w aplikacji Maxspect.
 
 :::warning Harmonogram zapisuje się w urządzeniu
 Po zapisaniu program trafia do sprzętu, a sprzęt realizuje go według własnego zegara. Działa dalej, nawet gdy Cora jest nieosiągalna.

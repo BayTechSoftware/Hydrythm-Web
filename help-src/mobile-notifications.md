@@ -2,7 +2,7 @@
 title: Notifications
 description: Choose what reaches your phone and where to read what you missed.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Each category has its own switch.
 | Category | Covers |
 |---|---|
 | **Parameter Alerts** | Water chemistry outside a range you set |
-| **Maintenance Reminders** | Tasks you scheduled, like water changes |
+| **Maintenance Reminders** | Tasks you scheduled, like water changes, and a one-time reminder to log your first test when a new tank still has no readings after three days |
 | **Equipment Faults** | A device reporting a problem, for example a Trident that has stopped testing |
 | **Supplies Running Low** | Reagent, top-off water, dosing containers, and a full waste bottle |
 | **ICP Report Ready** | Your ICP results are analysed and ready to read |

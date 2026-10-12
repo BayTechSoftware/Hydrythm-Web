@@ -2,7 +2,7 @@
 title: Guida di riferimento ai widget
 description: Tutti i tipi di widget di Cora (valore, indicatore, grafico, stato, presa e riquadri dei dispositivi) e quando usarli.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ I widget si aggiungono e si dispongono nell'**[editor della dashboard](/help/mob
 
 ![Configurazione di un widget](img/mobile-widget-config.webp "Tipo, parametro, poi larghezza e altezza.")
 
-## Gli undici tipi
+## I sedici tipi
 
 | Tipo | Cosa mostra |
 |---|---|
@@ -22,14 +22,23 @@ I widget si aggiungono e si dispongono nell'**[editor della dashboard](/help/mob
 | **Grafico** | L'andamento nel periodo che scegli |
 | **Stato** | Uno stato scritto a parole: in funzione, inattivo, chiuso |
 | **Presa** | Un comando a tre posizioni: Auto, Off, On |
+| **Scena** | Una scena che avvii con un tocco. La aggiungi su Cora Max |
 | **ReefBeat** | Un'unità Red Sea con il suo riepilogo |
 | **Modulo Apex** | Un modulo Apex installato, come un Trident o un DŌS |
 | **Jecod** | Una pompa Jecod con modalità e intensità |
-| **Maxspect** *(beta)* | Una gyre con entrambi i motori |
-| **GHL** *(beta)* | Un controller ProfiLux o Mitras, con il suo riepilogo |
-| **HYDROS** *(beta)* | Un controller HYDROS, con il suo riepilogo |
+| **Maxspect** *(Beta)* | Una gyre con entrambi i motori |
+| **GHL** *(Beta)* | Un controller ProfiLux o Mitras, con il suo riepilogo |
+| **HYDROS** *(Beta)* | Un controller HYDROS, con il suo riepilogo |
+| **Radion** *(Beta)* | Una luce EcoTech Radion, oppure una rete Radion collegata |
+| **VorTech** *(Beta)* | Una pompa EcoTech VorTech, con modalità e velocità |
+| **Versa** *(Beta)* | Un dosatore EcoTech Versa, con le sue teste |
+| **Telecamera** *(Beta)* | Una vista in diretta da una delle tue telecamere, larga fino a tre colonne e alta due righe |
 
-Gli ultimi sei sono riquadri **dispositivo**. Sono legati a un apparecchio e non a un parametro, e mostrano quello che l'unità riporta.
+Tutto ciò che viene dopo Scena è un riquadro **dispositivo**. Sono legati a un apparecchio e non a un parametro, e mostrano quello che l'unità riporta.
+
+:::note Riquadri Beta
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech e Versa) e Telecamera sono integrazioni Beta, aperte solo agli utenti Beta. Questi riquadri li vedi solo quando hai il dispositivo. Vedi [Funzioni Beta](/help/mobile-beta).
+:::
 
 ## Dimensioni del riquadro
 
@@ -97,6 +106,12 @@ Un riquadro per un intero apparecchio, con il suo riepilogo al posto di un singo
 I dispositivi che puoi mettere in un riquadro dipendono da cosa hai collegato. Vedi **[Collegare la tua attrezzatura](/help/mobile-connections)**.
 
 Puoi impostare etichetta, dispositivo e dimensione.
+
+## Riquadri dosatore
+
+Il riquadro di un dosatore (un Apex DŌS, un ReefDose o un EcoTech Versa) mostra una riga per testa. Il nome di una testa non viene mai ridotto sotto una dimensione leggibile. Su un riquadro alto la riga occupa due righe, con il nome sulla prima e quello che resta sulla seconda, per esempio *40d* e *2.8 L*. Su un riquadro basso la riga di dettaglio viene tolta e il nome resta leggibile.
+
+Imposta cosa viene per primo con **Mostra il rimanente come**: **Giorni** o **Millilitri (mL)**. Una testa ReefDose senza un nome suo viene mostrata come il nome del dispositivo seguito da "testa" e dal suo numero. Il riquadro di un dosatore Jecod è in sola lettura e mostra il piano giornaliero, perché Jecod non riporta quanto resta nel flacone.
 
 ## Cosa mostra un widget di parametro
 

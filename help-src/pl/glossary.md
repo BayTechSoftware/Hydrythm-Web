@@ -2,7 +2,7 @@
 title: Słownik
 description: Pojęcia, których używa Cora: akwarium, źródło, widżet, zapisany układ, próg, obserwacja i inne.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 2
 ---
 
@@ -64,7 +64,7 @@ Przerwa na karmienie. Zatrzymuje odpowiedni sprzęt i potem sam go przywraca. To
 
 ## GHL
 
-Skrót od GHL Advanced Technology, producenta kontrolerów z serii ProfiLux i Mitras. Obsługa GHL w Corze jest w wersji **beta**. Więcej w [Podłączanie sprzętu](/help/mobile-connections).
+Skrót od GHL Advanced Technology, producenta kontrolerów z serii ProfiLux i Mitras. Obsługa GHL w Corze jest w wersji **Beta** i dostępna tylko dla użytkowników Beta. Więcej w [Funkcje Beta](/help/mobile-beta).
 
 ## Raport zdrowia
 
@@ -72,7 +72,7 @@ Dokładniejsza, okresowa ocena całego systemu. Bierze pod uwagę razem wszystki
 
 ## HYDROS
 
-Ekosystem kontrolerów i dozowania CoralVue. Cora łączy się z nim przez chmurę HYDROS, więc działa też poza domową siecią. Obsługa HYDROS w Corze jest w wersji **beta**. Więcej w [Podłączanie sprzętu](/help/mobile-connections).
+Ekosystem kontrolerów i dozowania CoralVue. Cora łączy się z nim przez chmurę HYDROS, więc działa też poza domową siecią. Obsługa HYDROS w Corze jest w wersji **Beta** i dostępna tylko dla użytkowników Beta. Więcej w [Funkcje Beta](/help/mobile-beta).
 
 ## ICP
 
@@ -128,4 +128,4 @@ Tryb dla osoby, która opiekuje się akwarium pod Twoją nieobecność. To plan 
 
 ## Widżet
 
-Jeden kafelek na pulpicie, który pokazuje jedną rzecz. Jest jedenaście typów: Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* i HYDROS *(beta)*. Więcej w [Rodzaje widżetów](/help/mobile-widgets).
+Jeden kafelek na pulpicie, który pokazuje jedną rzecz. Jest szesnaście typów: Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* i Kamera *(Beta)*. Więcej w [Rodzaje widżetów](/help/mobile-widgets).

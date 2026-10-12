@@ -45,11 +45,18 @@ Images taller than 1.4× their width are treated as phone screenshots and capped
   The on-device icon is labelled **Cora**, which the setup page says once on purpose.
 - **Cora Assistant** and **Cora Cloud**: no third-party infrastructure is ever named.
 - Nothing about Flo, Senso, Specto, Cora Cube, Cora Base, Cora Pro or Cora Link.
-- Integrations named: Neptune Apex, Red Sea ReefBeat, Jecod/Jebao, AquaWiz KH Controller.
-  Maxspect is **beta** (owner, 2026-09-17: still in testing and development; it was "coming
-  soon" until then). ⛔ ENFORCED by the self-test: any page naming Maxspect must also carry
-  "beta", and no line may call Maxspect "coming soon". The old rule sat here unenforced once
-  and six pages broke it.
+- Integrations named: Neptune Apex, Red Sea ReefBeat, Jecod/Jebao, AquaWiz KH Controller,
+  and the Beta integrations Maxspect, GHL, HYDROS, Focustronic, EcoTech (Radion, VorTech,
+  Versa), Inkbird and cameras. The Beta integrations are **only open to Beta users** (an
+  admin switches an account on; TestFlight or Play testing membership grants nothing), and
+  every page or section that names one carries the Beta note: "**Beta.** {Feature} is in Beta
+  and only open to Beta users. If you are not a Beta user you will not see it in **Add
+  device**. To ask for Beta access, contact support." ⛔ ENFORCED by the self-test: any page
+  naming Maxspect, GHL, HYDROS, Focustronic, EcoTech, Radion, VorTech, Versa or Inkbird must
+  also carry "beta", and no line may call Maxspect "coming soon". Features that only carry
+  "(Beta)" in their name (Large doses, Dosing plan, Pump schedule, ReefMat settings) are open
+  to everyone: write "(Beta)" as the app does and add no Beta-users sentence. Never document
+  Reef Factory.
 - ⛔⛔ **Both GIZ-14 disclaimers appear in the shared footer of every page.** They are in
   `build_help.py`; do not paraphrase them and do not drop one.
 - Screenshots must not show: the Devices tab's Flo / Senso / Specto family headers, any

@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem z Cora Max
 description: Strony urządzeń na dużym ekranie: sondy, gniazda, głowice dozujące, testery i pompy.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Equipment
 ---
@@ -22,12 +22,16 @@ Nie ma podglądu ani cofania. Polecenie wychodzi w chwili dotknięcia, ale *wys�
 | **Neptune Apex** | Sondy i gniazda. Każde gniazdo można przełączyć |
 | **Trident** | Stan testu, poziom reagentów i odpadów. Możesz też uruchomić test |
 | **DŌS**, także DŌS QD | Dozowanie każdej głowicy, harmonogram, na ile dni wystarczy zapas, objętość pojemnika (z pauzą, napełnianiem, dawką od ręki i jednorazowym dwudziestosekundowym pomiarem) |
-| **Red Sea ReefBeat** | Zależnie od urządzenia: głowice dozujące, zbiornik, dni rolki, tryb pompy, a do tego pełny edytor planu ReefDose, programu ReefRun i ustawień ReefMat *(beta)* |
+| **Red Sea ReefBeat** | Zależnie od urządzenia: głowice dozujące, zbiornik, dni rolki, tryb pompy, a do tego pełny edytor planu ReefDose, programu ReefRun i ustawień ReefMat *(Beta)* |
 | **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | Sondy ReefControl. Gniazda ReefControl Power jako gniazda, włącz albo wyłącz, bez automatycznego trybu. ReefWave i ReefLED tylko do podglądu |
 | **Jecod** | Tryb i moc pompy oraz jej program dnia |
-| **Maxspect** *(beta)* | Tryb i prędkość dla **Gyre A** i **Gyre B**, **Stan pompy** (odliczanie do czyszczenia, prąd głowicy A, zamontowane głowice, firmware) i harmonogram, tylko do podglądu |
-| **GHL ProfiLux / Mitras** *(beta)* | Sondy, gniazda, dozowniki, czujniki poziomu, a w modelach Director także wyniki testów KH i jonów |
-| **HYDROS** *(beta)* | To, co zgłasza jego klucz urządzenia: wejścia, a z kluczem zapisu także wyjścia, tryby, głowice dozujące i komendy testera |
+| **Maxspect** *(Beta)* | Tryb i prędkość dla **Gyre A** i **Gyre B**, **Stan pompy** (odliczanie do czyszczenia, prąd głowicy A, zamontowane głowice, firmware) i harmonogram, tylko do podglądu |
+| **GHL ProfiLux / Mitras** *(Beta)* | Sondy, gniazda, dozowniki, czujniki poziomu, a w modelach Director także wyniki testów KH i jonów |
+| **HYDROS** *(Beta)* | To, co zgłasza jego klucz urządzenia: wejścia, a z kluczem zapisu także wyjścia, tryby, głowice dozujące i komendy testera |
+| **Focustronic** *(Beta)* | Stan, ostatni test, pompy i fiolki |
+| **EcoTech** *(Beta)* | Lampy Radion, pompy VorTech i dozowniki Versa, każde z własną stroną. Polecenia dla VorTech i Versa nie zostały jeszcze sprawdzone na prawdziwym sprzęcie |
+| **Inkbird** *(Beta)* | Odczyty powietrza w pomieszczeniu, tylko do podglądu |
+| **Kamera** *(Beta)* | Obraz z kamery, jako kafelek na pulpicie albo na osobnej stronie, a w płatnych planach z czuwaniem skimmera |
 
 Jeśli urządzenie Red Sea samo się zatrzyma, jego strona pokaże, co się stało, a obok przycisk do rozwiązania problemu: **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana** albo **Resetuj** dla głowicy dozującej.
 
@@ -43,7 +47,7 @@ Po ręcznej dawce głowica, która w Apex Fusion ma ustawione Off, zostaje na Of
 
 W ustawieniach głowicy możesz wybrać jej **przeznaczenie**: **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm**, **Dolewka** albo **Inne**. Od przeznaczenia zależą dwie rzeczy:
 
-- **Wielkość pojemnika, którą głowica może śledzić.** Głowica z przeznaczeniem **Suplement** śledzi pojemnik do 20 litrów. Przy każdym innym przeznaczeniu pojemnik może być dużo większy, do 500 litrów. Głowica do podmiany wody albo reaktora wapniowego nie jest więc traktowana jak mała butelka z suplementem.
+- **Wielkość pojemnika, którą głowica może śledzić.** Przy każdym przeznaczeniu głowica może śledzić pojemnik do 1000 litrów. Powyżej 150 litrów, które liczy własny licznik Apex, Cora śledzi objętość sama, a licznik Apex resetuje co 100 litrów.
 - **Czy głowica może podać ręcznie dużą dawkę.** Głowice **Suplement** i **Pokarm** mają taki sam mały, ostrożny limit jak dotąd. Każde inne przeznaczenie może mieć własny limit **Największa dawka ręczna**, maksymalnie 10 litrów, i własny **Dzienny limit dla automatyzacji i Asystenta**. Duża dawka ręczna wymaga też włączenia **Duże dawki (Beta)** w ustawieniach głowicy. Domyślnie jest wyłączone: włącz je dopiero po obejrzeniu pierwszej dużej dawki wykonanej przy akwarium.
 
 Parę głowic do podmiany wody (nowa słona woda wchodzi, stara wychodzi) możesz połączyć jako **Sparowana głowica** i ustawić **Ostrzeżenie o równowadze powyżej**. Jeśli dzienne sumy obu głowic różnią się o więcej niż ta wartość, Cora Cię ostrzeże. Taka różnica zwykle oznacza, że jedna strona nie pompuje tak, jak powinna.
@@ -58,8 +62,8 @@ Jeśli baner nie znika albo ciągle wraca, zajrzyj do [Rozwiązywanie problemów
 
 ## GHL ProfiLux i Mitras
 
-:::note Obsługa GHL jest w wersji beta
-Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją.
+:::note Beta
+**Beta.** GHL jest w wersji Beta i dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Część odczytów albo funkcji sterowania może jeszcze nie działać.
 :::
 
 Podłącz kontroler GHL z telefonu: **Urządzenia → Dodaj urządzenie → GHL**. Kroki opisuje [Podłączanie sprzętu](/help/mobile-connections). Cora Max pokazuje go i steruje nim, gdy tylko Cora Max w jego sieci go odczyta, ale samo podłączenie odbywa się na telefonie.
@@ -74,19 +78,27 @@ Jeśli kontroler nie przyjmie zmiany, prawdopodobnie jego API GHL jest wyłączo
 
 ## HYDROS
 
-:::note Obsługa HYDROS jest w wersji beta
-Obsługę HYDROS wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją.
+:::note Beta
+**Beta.** HYDROS jest w wersji Beta i dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Część odczytów albo funkcji sterowania może jeszcze nie działać.
 :::
 
 HYDROS to jedyna integracja, która dociera do swojego kontrolera przez chmurę, więc działa nawet wtedy, gdy Cora Max jest w innej sieci niż kontroler. Konfigurujesz go wyłącznie z telefonu: **Urządzenia → Dodaj urządzenie → HYDROS**. Kroki opisuje [Podłączanie sprzętu](/help/mobile-connections).
 
 Odczyt i sterowanie działają tak samo jak na telefonie; wyjścia, tryby, głowice dozujące i komendy testera, a także limity dawek dla poszczególnych głowic, opisuje [Sterowanie sprzętem](/help/mobile-device-control).
 
+## EcoTech, Inkbird i kamery
+
+:::note Beta
+**Beta.** EcoTech, Inkbird i kamery są w wersji Beta i dostępne tylko dla użytkowników Beta. Cora Max pokazuje je, gdy Twoje konto połączyło je z telefonu. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html).
+:::
+
+Łączysz je z telefonu, a odczyt wykonuje Cora Max w akwarium. [Lampy, pompy i dozowniki EcoTech](/help/mobile-ecotech) opisuje Radion, VorTech i Versę. Monitor powietrza w pomieszczeniu Inkbird pokazuje swoje odczyty i nic więcej. Kamerę, a w płatnych planach czuwanie skimmera, opisuje [Kamery i czuwanie skimmera](/help/mobile-cameras). Aby pokazać kamerę na ścianie, dodaj kafelek Kamera w edytorze pulpitu.
+
 ## Harmonogramy
 
 Programy dnia pomp Jecod możesz tworzyć na Cora Max tak samo jak na telefonie. Edytor jest ten sam: wykres dnia, lista okresów i wiersz akcji. Więcej w [Harmonogramy sprzętu](/help/mobile-schedules).
 
-Harmonogram Maxspect Gyre *(beta)* możesz tu obejrzeć, ale nie zapiszesz zmian. Ustawisz go w aplikacji Maxspect.
+Harmonogram Maxspect Gyre *(Beta)* możesz tu obejrzeć, ale nie zapiszesz zmian. Ustawisz go w aplikacji Maxspect.
 
 ## Gniazda
 

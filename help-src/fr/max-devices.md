@@ -2,7 +2,7 @@
 title: Appareils et état des appareils
 description: Ce que Cora Max voit, quel appareil interroge chaque aquarium, et quoi vérifier quand les mesures s’arrêtent.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Equipment
 ---
@@ -15,7 +15,9 @@ group: Equipment
 
 Cora Max voit le même équipement que votre téléphone, puisque les deux lisent le même compte.
 
-En haut, des puces filtrent la liste sur **Tous les aquariums** ou sur un seul. Chaque appareil a un point d’état, un résumé en une ligne de ce qu’il contient (*21 prises · 4 nourrissages*, *19 tests restants*) et le nom de son aquarium.
+En haut, des puces filtrent la liste sur **Tous les aquariums** ou sur un seul. Chaque appareil a un point d’état (gris quand Cora ne sait pas encore, vert quand tout fonctionne, orange pour un avertissement ou une panne, rouge quand il est hors ligne), un résumé en une ligne de ce qu’il contient (*21 prises · 4 nourrissages*, *19 tests restants*) et le nom de son aquarium.
+
+Chaque page d’appareil s’ouvre sur une section **État**. Cora Max affiche aussi les appareils Beta que votre compte a associés, comme les lampes, pompes et doseurs EcoTech, les moniteurs d’air ambiant Inkbird et les caméras. L’accès Beta lui-même se gère depuis le téléphone : voir [Fonctions Beta](/help/mobile-beta).
 
 Cora Max affiche et pilote les appareils, mais chacun est ajouté, rattaché et retiré depuis votre téléphone. Tant qu’aucun appareil n’est ajouté, cet écran affiche **Ajoutez des appareils dans l’application Cora.** Plus de détails sur l’ajout d’équipement dans [Ajouter, modifier et retirer des appareils](/help/mobile-devices).
 

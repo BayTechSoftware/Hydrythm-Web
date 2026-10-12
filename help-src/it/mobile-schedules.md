@@ -1,13 +1,13 @@
 ---
 title: Programmare l'attrezzatura
-description: Crea un programma giornaliero per una pompa Jecod, copialo su altre pompe e guarda il programma di una gyre Maxspect (beta).
+description: Crea un programma giornaliero per una pompa Jecod, copialo su altre pompe e guarda il programma di una gyre Maxspect (Beta).
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 12
 group: Equipment
 ---
 
-Pompe e gyre possono seguire un **programma giornaliero**, cioè una serie di fasce orarie, ognuna con la sua intensità, che si ripete ogni giorno. Per le pompe Jecod puoi creare il programma direttamente in Cora. Il programma di una gyre Maxspect *(beta)* qui puoi solo guardarlo: si imposta nell'app Maxspect.
+Pompe e gyre possono seguire un **programma giornaliero**, cioè una serie di fasce orarie, ognuna con la sua intensità, che si ripete ogni giorno. Per le pompe Jecod puoi creare il programma direttamente in Cora. Il programma di una gyre Maxspect *(Beta)* qui puoi solo guardarlo: si imposta nell'app Maxspect. Maxspect è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
 
 Apri il dispositivo dalla scheda **Dispositivi**.
 
@@ -32,7 +32,7 @@ Ogni schermata del programma ha tre parti.
 
 **Per aggiungere una fascia** tocca **Aggiungi al programma**. Per cambiarla, aprila e tocca **Salva**. Per toglierla tocca **Elimina**: Cora ti chiede di confermare prima di cancellarla.
 
-Una gyre Maxspect *(beta)* ha due teste, Gyre A e Gyre B. Il suo grafico ha quindi due tracce, una per testa, e le fasce sono elencate sotto **GYRE A** e **GYRE B**. Il programma di una gyre è in sola lettura: nella riga dei comandi vedi **Solo visualizzazione**, e il programma si imposta nell'app Maxspect.
+Una gyre Maxspect *(Beta)* ha due teste, Gyre A e Gyre B. Il suo grafico ha quindi due tracce, una per testa, e le fasce sono elencate sotto **GYRE A** e **GYRE B**. Il programma di una gyre è in sola lettura: nella riga dei comandi vedi **Solo visualizzazione**, e il programma si imposta nell'app Maxspect.
 
 :::warning Il programma viene salvato sul dispositivo
 Quando salvi, il programma viene inviato all'attrezzatura, che lo segue con il suo orologio interno. Continua a funzionare anche quando Cora non riesce a raggiungerla.

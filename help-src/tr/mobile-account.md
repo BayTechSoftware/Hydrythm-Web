@@ -2,7 +2,7 @@
 title: Giriş yapma ve hesabı kurtarma
 description: Giriş yapın, unuttuğunuz şifreyi sıfırlayın ve doğrulayamadığınız e-posta adresini düzeltin.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Hesaptaki e-posta adresini değiştirmek güvenlik açısından hassas bir işle
 ## Doğrulama hâlâ görünmüyorsa
 
 **E-postamı Doğruladım**'a dokunduğunuzda Cora Mobile durumu kontrol eder. E-postanın henüz doğrulanmadığını söylüyorsa en son gelen e-postadaki **E-postamı onayla** düğmesine dokunun, biraz bekleyin ve yeniden kontrol edin. Bağlantının süresi dolduysa **Doğrulama e-postasını yeniden gönder** ile yenisini isteyin. Doğrulama cihaza değil hesaba bağlıdır. Bir kez başarılı olunca bütün cihazlarınızda geçerli olur.
+
+## Laboratuvar ve ICP e-postaları
+
+Laboratuvarlar ve e-postayla gelen ICP sonuçları hesabınızı e-posta adresiyle bulur. Laboratuvarınız giriş yaptığınızdan farklı bir adres biliyorsa ya da gizli bir Apple e-postasıyla giriş yaptıysanız, adresi **Ayarlar → hesap kartınız → Laboratuvar ve ICP e-postaları** altından ekleyin. **Laboratuvar e-postası ekle**'ye, sonra **Kodu gönder**'e dokunun, e-postadaki 6 haneli kodu girin ve **Doğrula**'ya dokunun. En fazla 3 adres ekleyebilirsiniz. Adımlar [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
 
 ## Çıkış yapma
 

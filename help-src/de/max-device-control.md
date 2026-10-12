@@ -2,7 +2,7 @@
 title: Ausrüstung mit Cora Max steuern
 description: Geräteseiten auf dem großen Bildschirm für Sonden, Steckdosen, Dosierköpfe, Testgeräte und Pumpen.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Equipment
 ---
@@ -28,6 +28,10 @@ Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du ti
 | **Maxspect** *(Beta)* | Modus und Geschwindigkeit für **Gyre A** und **Gyre B**, **Pumpenzustand** (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und der Zeitplan, nur zum Ansehen |
 | **GHL ProfiLux / Mitras** *(Beta)* | Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse |
 | **HYDROS** *(Beta)* | Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreiben-Schlüssel auch Ausgänge, Modi, Dosierköpfe und Testbefehle |
+| **Focustronic** *(Beta)* | Status, letzter Test, Pumpen und Fläschchen |
+| **EcoTech** *(Beta)* | Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer, jeweils mit eigener Seite. Befehle an VorTech und Versa sind noch nicht an echter Hardware bewiesen |
+| **Inkbird** *(Beta)* | Raumluftwerte, nur zum Ansehen |
+| **Kamera** *(Beta)* | Ein Bild deiner Kamera, als Kachel auf dem Dashboard oder auf einer eigenen Seite, mit dem Skimmer-Wächter in kostenpflichtigen Tarifen |
 
 Stoppt sich ein Red Sea-Gerät selbst, steht auf seiner Seite, was los ist, und die passende Lösung gleich daneben: **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder bei einem Dosierkopf **Zurücksetzen**.
 
@@ -43,7 +47,7 @@ Hast du einen Kopf in Apex Fusion auf Aus gestellt, bleibt er nach einer manuell
 
 In den Einstellungen jedes Kopfes legst du einen **Verwendungstyp** fest: **Supplement**, **Wasserwechsel: neues Salzwasser rein**, **Wasserwechsel: altes Wasser raus**, **Kalkwasser**, **Calciumreaktor**, **Futter**, **Nachfüllen** oder **Andere**. Davon hängen zwei Dinge ab:
 
-- **Wie groß der Behälter sein darf.** Ein Supplement-Kopf verfolgt bis zu 20 Liter. Alle anderen Verwendungstypen können einen viel größeren Behälter mit bis zu 500 Litern verfolgen. So wird ein Kopf für Wasserwechsel oder Calciumreaktor nicht wie eine kleine Dosierflasche behandelt.
+- **Wie groß der Behälter sein darf.** Jeder Verwendungstyp kann einen Behälter mit bis zu 1.000 Litern verfolgen. Über dem eigenen 150-Liter-Zähler des Apex verfolgt Cora das Volumen selbst und setzt den Zähler des Apex alle 100 Liter zurück.
 - **Ob er große Mengen von Hand dosieren darf.** Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Für alle anderen Verwendungstypen kannst du eine eigene **Größte manuelle Dosierung** festlegen, höchstens 10 Liter, und ein eigenes **Tageslimit für Automationen und den Assistant**. Eine große Handdosierung braucht außerdem **Große Dosierungen (Beta)**, eingeschaltet in den Einstellungen des Kopfes. Das ist standardmäßig aus: Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
 
 Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als **Gekoppelter Kopf** verbinden und einen Wert für **Ausgleichswarnung ab** eintragen. Weichen die Tagesmengen der beiden Köpfe um mehr als diesen Wert voneinander ab, warnt Cora dich. Meist pumpt dann eine Seite nicht so wie erwartet.
@@ -58,8 +62,8 @@ Lässt sich der Hinweis nicht schließen oder taucht er immer wieder auf, hilft 
 
 ## GHL ProfiLux und Mitras
 
-:::note GHL wird als Beta unterstützt
-Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern.
+:::note Beta
+**Beta.** GHL ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
 :::
 
 Verbinde einen GHL-Controller über dein Handy: **Geräte → Gerät hinzufügen → GHL**. Die Schritte dazu stehen unter [Deine Ausrüstung verbinden](/help/mobile-connections). Cora Max zeigt und steuert ihn, sobald ein Cora Max in seinem Netzwerk ihn ausgelesen hat, aber die Einrichtung selbst läuft auf dem Handy.
@@ -74,13 +78,21 @@ Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich a
 
 ## HYDROS
 
-:::note HYDROS wird als Beta unterstützt
-Die Unterstützung für HYDROS wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern.
+:::note Beta
+**Beta.** HYDROS ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
 :::
 
 HYDROS ist die einzige Anbindung, die ihren Controller über die Cloud erreicht. Deshalb funktioniert sie auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Eingerichtet wird sie nur über dein Handy: **Geräte → Gerät hinzufügen → HYDROS**. Die Schritte dazu stehen unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 Lesen und Steuern funktioniert genauso wie auf deinem Handy; unter [Deine Ausrüstung steuern](/help/mobile-device-control) stehen Ausgänge, Modi, Dosierköpfe und Testbefehle sowie die Dosierungsgrenzen pro Kopf.
+
+## EcoTech, Inkbird und Kameras
+
+:::note Beta
+**Beta.** EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Cora Max zeigt sie, sobald dein Konto sie von deinem Handy aus verknüpft hat. Für Beta-Zugang wende dich an den [Support](/support.html).
+:::
+
+Du verknüpfst sie über dein Handy, und ein Cora Max am Becken liest sie aus. [EcoTech-Leuchten, -Pumpen und -Dosierer](/help/mobile-ecotech) behandelt Radion, VorTech und Versa. Ein Inkbird-Raumluftmonitor zeigt seine Messwerte und sonst nichts. Eine Kamera und, in kostenpflichtigen Tarifen, der Skimmer-Wächter sind unter [Kameras und Skimmer-Wächter](/help/mobile-cameras) beschrieben. Um eine Kamera an der Wand zu zeigen, füge im Dashboard-Editor eine Kamera-Kachel hinzu.
 
 ## Zeitpläne
 

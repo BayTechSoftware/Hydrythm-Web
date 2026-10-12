@@ -2,7 +2,7 @@
 title: Aktualizacje i tryb odzyskiwania
 description: Jak Cora Max sam się aktualizuje i co się dzieje, gdy aktualizacja się nie uda.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ W **Ustawienia → Ustawienia Cora Max → Aktualizacja oprogramowania** (w sekc
 Pojawi się okno z opisem nowości i dwoma przyciskami:
 
 - **Zaktualizuj teraz**: instaluje aktualizację od razu i uruchamia urządzenie ponownie
-- **Odłóż na 3 godziny**: zapyta ponownie później
+- **Odłóż na 24 godziny**: ukrywa okno i zapyta ponownie za dobę
+
+Gdy aktualizacja czeka, mała kropka pojawia się na ikonie **Ustawień** na górnym pasku i w wierszu **Aktualizacja oprogramowania**. Kropka zostaje po odłożeniu, więc nadal widać, że aktualizacja czeka. Znika na czas instalacji.
 
 Jeśli nic nie wybierzesz, aktualizacja zainstaluje się sama w nocy, mniej więcej między 3 a 5 rano. Ekran nie uruchomi się więc ponownie, gdy na niego patrzysz.
 

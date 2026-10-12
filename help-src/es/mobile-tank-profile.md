@@ -2,7 +2,7 @@
 title: El perfil de tu acuario
 description: Volumen, fauna, equipo y dosificación. Con estos datos Cora interpreta tus lecturas.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Toca una sección para abrirla. El icono de información de cada una explica par
 :::note Los dispositivos ahora viven en la pestaña Dispositivos
 Tu Apex, tus equipos Red Sea y el resto de dispositivos se añaden, se asignan y se quitan desde la pestaña **Dispositivos**, no desde el perfil. Consulta [Añadir, editar y eliminar dispositivos](/help/mobile-devices). Los ajustes del acuario muestran una lista de solo lectura, **Dispositivos en este acuario**, si solo quieres comprobar qué está asignado.
 :::
+
+## Unidades
+
+Cada acuario tiene sus propias unidades de visualización. Ve a **Ajustes**, abre el acuario y elige **Unidades**. Puedes fijar cómo muestra este acuario la salinidad, la temperatura, la alcalinidad, el volumen, el fosfato y el nitrato. El volumen puede ser en litros, galones de EE. UU. o galones del Reino Unido.
+
+Las unidades se aplican a este acuario en todos los teléfonos y Cora Max que lo abran. Tus lecturas no cambian, solo cómo se muestran. Los medidores, las casillas, el historial, los informes y lo que dice Cora Assistant siguen la elección. En Cora Max, abre el menú del acuario y toca **Unidades**.
 
 ## Volumen
 

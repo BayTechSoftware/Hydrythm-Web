@@ -2,7 +2,7 @@
 title: ICP ve sağlık raporları
 description: ICP testinizi yükleyin, her elementi zaman içinde izleyin ve sisteminizin kapsamlı sağlık değerlendirmesini alın.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 26
 group: Intelligence
 ---
@@ -16,6 +16,18 @@ Laboratuvar sonuçlarınız ve uzun vadeli takibiniz **Zeka** sekmesinde.
 **ICP Yükle**'ye dokunun, akvaryumunuzu seçin ve laboratuvardan gelen sonucu ekleyin. Cora raporu okur, her elementi kaydeder ve önceki testlerinizle yan yana koyar.
 
 Elle hiçbir şey yazmanız gerekmez. Cora yaygın laboratuvar formatlarını tanır.
+
+## Bir laboratuvar hangi e-postayı kullanabilir
+
+Bir laboratuvar ya da e-postayla gelen bir sonuç, hesabınızı bildiği e-posta adresiyle bulur. Bu, giriş e-postanız ile **Ayarlar → hesap kartınız → Laboratuvar ve ICP e-postaları** altından eklediğiniz laboratuvar e-postalarıdır.
+
+1. **Laboratuvar e-postası ekle**'ye dokunun ve laboratuvarınızın kullandığı adresi yazın.
+2. **Kodu gönder**'e dokunun. Cora o adrese 6 haneli bir kod gönderir. Kod 10 dakika içinde sona erer.
+3. Kodu girin ve **Doğrula**'ya dokunun. Gelmediyse **Kodu yeniden gönder**'e dokunun.
+
+En fazla 3 laboratuvar e-postası ekleyebilirsiniz. Her biri **Doğrulandı** ya da **Kod bekleniyor** gösterir ve **Kaldır** birini çıkarır. Bundan sonra o adrese gönderilen sonuçlar hesabınıza ulaşmaz. Başka bir Cora hesabına ait bir adres eklenemez.
+
+Gizli bir Apple e-postasıyla giriş yaptıysanız laboratuvarlar hesabınızı bulamaz. ICP ekranında bu ayara götüren **Laboratuvar sonuçlarını otomatik alın** kartı görünür. Apple ile giriş yaparken bu sorunu yaşamamak için **E-postamı Paylaş**'ı seçin.
 
 ## Cora'ya gönderim: laboratuvarın ya da e-postanın sizin yerinize ilettiği sonuçlar
 
@@ -45,7 +57,15 @@ Sonucu içeri almak için **Onayla**'ya, hiçbir akvaryuma eklemeden silmek içi
 
 Puan, sonuçlarınızın hedef aralıklarına göre hesaplanır. Kendi belirlediğiniz aralıklar da hesaba katılır. Aralığın dışında tek bir sonuç bile varsa, diğerleri ne kadar iyi olursa olsun puan en fazla 70 olur, yani **Sağlıklı** görünemez. Aralığın çok dışında bir sonuç varsa puan en fazla 40 olur. Puanın altındaki etiket 71 ile 100 arasında **Sağlıklı**, 40 ile 70 arasında (ikisi de dahil) **Dikkat Gerekiyor**, 0 ile 39 arasında **Kritik** olur. Sağlık Raporları da aynı şekilde puanlanır.
 
-**Takip edilen bütün elementler**: yalnızca ana parametreler değil, eser elementler ve kirleticiler de.
+**Takip edilen bütün elementler**: yalnızca ana parametreler değil, eser elementler ve kirleticiler de. Cora, bir laboratuvarın bildirebileceği 71 elementin hepsini kaydeder ve bazı laboratuvarların *Acidity* dediği satır pH'tır.
+
+Her element satırında laboratuvarın yazdığı aralığı *Laboratuvar aralığı* olarak, Cora'nın o element için kendi aralığının yanında görürsünüz. Cora'nın referans aralığı olmayan bir elementte **Cora aralığı yok** etiketi bulunur. Rapor kaç elementin Cora aralığı olduğunu söyler, kalanları genel resif bilgisine göre değerlendirir. Cora Assistant test edilen her element hakkında yorum yapar ve Cora aralığı olmasa bile yorumu geçerlidir.
+
+Laboratuvar bir element için *t.y.* (tespit edilmedi) yazarsa Cora onu 0 olarak kaydeder ve tespit edilmediğini söyler.
+
+:::note Çözünmüş CO₂ oda CO2'si değildir
+Bir ICP raporundaki **Çözünmüş CO₂**, sudaki CO2'dir ve mg/L cinsindendir. Odanızın havasındaki CO2'den farklı bir ölçümdür, onu Beta aşamasındaki Inkbird oda havası monitörü ölçer. İkisinin aralıkları farklıdır ve asla karıştırılmaz. Bkz. [Beta özellikleri](/help/mobile-beta).
+:::
 
 **En çok değişenler**: "Son ICP'nizden bu yana" kartı, önceki testten bu yana en çok neyin değiştiğini gösterir. Yeni bir raporu anlamanın genellikle en hızlı yolu budur.
 
@@ -54,6 +74,10 @@ Puan, sonuçlarınızın hedef aralıklarına göre hesaplanır. Kendi belirledi
 :::tip Asıl bilgi ikinci testle gelir
 Tek bir ICP size nerede olduğunuzu söyler. İkincisi hangi yöne gittiğinizi gösterir ve harekete geçmek için asıl bu bilgi gerekir. Yalnızca bir sorun çıktığında değil, düzenli aralıklarla test ettirin.
 :::
+
+## RO/DI ya da kaynak su testi
+
+RO/DI ya da başka bir kaynak su numunesi yüklüyorsanız bunu yüklerken belirtin. Cora onu akvaryumunuzun hedeflerine göre puanlamaz. Suyun kullanılacak kadar temiz olup olmadığı konusunda sade bir karar verir ve bu değerleri akvaryum ölçümlerinizin dışında tutar. Rapor, kaç sonucun kaynak su olduğunu not eder. Cora aynısını yeni karıştırılmış bir tuz karışımı ya da akvaryum suyu olmayan başka bir numune için de yapar: numunenin neye benzediğini söyler ve onu akvaryumunuzmuş gibi puanlamaz.
 
 ## Sağlık raporları
 

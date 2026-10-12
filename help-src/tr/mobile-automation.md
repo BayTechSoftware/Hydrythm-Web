@@ -2,7 +2,7 @@
 title: Otomasyonlar ve sahneler
 description: Kendi kendine çalışan kurallar (tetikleyiciler, koşullar, eylemler) oluşturun ve bunları sahnelerde toplayın.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Ekipman gerektiren eylemler yalnızca o ekipmanın olduğu akvaryumlarda çıkar
 | **Bir Sahne Çalıştır** | Bu kuralın içinden başka bir sahneyi çalıştırır |
 | **Bir Otomasyonu Yönet** | Başka bir kuralı açar ya da kapatır |
 | **Bir DŌS Kafasından Dozaj Ver** | DŌS kafasından ölçülü doz verir |
+| **Bakım görevi oluştur** | Akvaryumun [bakım](/help/mobile-maintenance) listesine bir iş ekler, örneğin pH bir değerin altına düştüğünde CO2 yıkayıcı malzemesini değiştirmek |
 
 :::warning Kuralla yapılan dozaj geri alınamaz ve sınırlıdır
 Verilen dozu akvaryumdan geri alamazsınız. Kuralın bir kafadan dozaj yapabilmesi için kafanın **kalibre edilmiş** olması gerekir. Siz başında değilken yapılan dozaj **kafa başına günde 10 mL** ile sınırlıdır. Kural nasıl yazılırsa yazılsın bu sınırı aşamaz. Dozaj eylemleri, kafalarınız dozaj kafası olarak tanındıktan sonra listede çıkar.
+:::
+
+:::note Bakım görevi oluştur ne yapar
+Akvaryumu seçin, sonra **Mevcut görev** (mevcut bir görev hemen yapılması gereken hale gelir) ya da **Yeni görev** (bir **Görev adı** verin) seçeneğini seçin. Yeni görev tek seferliktir, hemen yapılması gerekir ve görev açıkken kural onu yeniden oluşturmaz. Tek bir bildirim alırsınız. Tek seferlik görev, tamamladığınızda listeden kalkar.
 :::
 
 :::note Adımları sıralamak için Bekle'yi kullanın

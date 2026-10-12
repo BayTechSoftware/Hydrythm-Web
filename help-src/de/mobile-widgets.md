@@ -2,7 +2,7 @@
 title: Widget-Referenz
 description: Alle Widget-Typen in Cora, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Du fügst Widgets im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinz
 
 ![Ein Widget konfigurieren](img/mobile-widget-config.webp "Typ, Wasserwert, dann Breite und Höhe.")
 
-## Die elf Typen
+## Die sechzehn Typen
 
 | Typ | Zeigt |
 |---|---|
@@ -22,14 +22,23 @@ Du fügst Widgets im **[Dashboard-Editor](/help/mobile-dashboard-editing)** hinz
 | **Diagramm** | einen Verlauf über einen Zeitraum, den du wählst |
 | **Status** | einen Zustand als Text, etwa läuft, ruht, geschlossen |
 | **Steckdose** | einen Schalter mit drei Stellungen: Auto, Aus, Ein |
+| **Szene** | eine Szene, die du mit einem Tipp startest. Du fügst sie auf dem Cora Max hinzu |
 | **ReefBeat** | ein Red Sea-Gerät mit eigener Zusammenfassung |
 | **Apex-Modul** | ein eingebautes Apex-Modul, etwa ein Trident oder DŌS |
 | **Jecod** | eine Jecod-Pumpe mit Modus und Intensität |
 | **Maxspect** *(Beta)* | eine Gyre mit beiden Motoren |
 | **GHL** *(Beta)* | ein ProfiLux- oder Mitras-Controller mit eigener Zusammenfassung |
 | **HYDROS** *(Beta)* | ein HYDROS-Controller mit eigener Zusammenfassung |
+| **Radion** *(Beta)* | eine EcoTech Radion-Leuchte oder ein verknüpftes Radion-Netz |
+| **VorTech** *(Beta)* | eine EcoTech VorTech-Pumpe mit Modus und Geschwindigkeit |
+| **Versa** *(Beta)* | ein EcoTech Versa-Dosierer mit seinen Köpfen |
+| **Kamera** *(Beta)* | eine Live-Ansicht einer deiner Kameras, bis zu drei Spalten breit und zwei Zeilen hoch |
 
-Die letzten sechs sind **Gerätekacheln**. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.
+Alles nach Szene sind **Gerätekacheln**. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.
+
+:::note Beta-Kacheln
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech und Versa) und Kamera sind Beta-Anbindungen, die nur Beta-Nutzern offen stehen. Diese Kacheln siehst du erst, wenn du das Gerät hast. Siehe [Beta-Funktionen](/help/mobile-beta).
+:::
 
 ## Größe
 
@@ -97,6 +106,12 @@ Eine Kachel für ein ganzes Gerät. Sie zeigt eine eigene Zusammenfassung und ke
 Für welche Geräte es eine Kachel gibt, hängt davon ab, was du verbunden hast. Mehr dazu unter **[Deine Ausrüstung verbinden](/help/mobile-connections)**.
 
 Einstellbar sind Bezeichnung, Gerät und Größe.
+
+## Dosierer-Kacheln
+
+Eine Kachel für einen Dosierer (ein Apex DŌS, ein ReefDose oder ein EcoTech Versa) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe geschrumpft. Auf einer hohen Kachel belegt die Zeile zwei Zeilen, mit dem Namen in der ersten und dem Rest in der zweiten, zum Beispiel *40d* und *2.8 L*. Auf einer niedrigen Kachel entfällt die Detailzeile, und der Name bleibt lesbar.
+
+Mit **Restmenge anzeigen als** legst du fest, was zuerst kommt: **Tage** oder **Milliliter (mL)**. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename gefolgt von "Kopf" und seiner Nummer gezeigt. Eine Jecod-Dosierer-Kachel ist schreibgeschützt und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.
 
 ## Was ein Wasserwert-Widget zeigt
 

@@ -2,7 +2,7 @@
 title: Ekran główny Cora Max
 description: Co oznacza każdy element na ekranie Cora Max: górny pasek, siatka pulpitu i szuflada z gniazdami.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ Od lewej do prawej:
 | **Nieaktualne** | Odczyty przestały napływać. Ekran pokazuje ostatnie, które dostał |
 | **Ponowna próba Apex 12 s** | Apex nie odpowiedział. Cora Max spróbuje ponownie, gdy skończy się odliczanie |
 | **Synchronizacja z chmurą nie powiodła się** | Apex odpowiedział, ale jego odczytów nie udało się zapisać w Cora Cloud, więc pulpit nie jest na bieżąco. Cora Max ponawia próby |
+| **Zapis w chmurze odrzucony** | Cora Cloud odmawia zapisania części danych z tego ekranu. Z Twoim akwarium ani z Cora Max nic złego się nie dzieje i nic nie trzeba zmieniać na tym ekranie. Rozwiązaniem jest aktualizacja Cora Cloud. Otwórz **Ustawienia → Ustawienia Cora Max → Aktualizacja oprogramowania** i zajrzyj do sekcji **Stan**, gdzie linia **Zapis w chmurze** mówi, których danych to dotyczy. Potem [skontaktuj się z pomocą techniczną](/support.html) |
 | **Offline** | Brak połączenia. Ekran pokazuje ostatnie dane, które dostał |
 | **Offline, ponowna próba za 45 s** | Sieć działa, ale Cora Cloud jest niedostępna od ponad 30 sekund. Cora Max sam połączy się ponownie. Odliczanie pokazuje czas do następnej próby |
 | **Główne Cora offline** | Ten ekran to drugi Cora Max dla tego akwarium, a **Główne Cora Max** (urządzenie przypięte do odpytywania sprzętu tego akwarium) jest offline. Ten ekran pokazuje ostatnie dane, dopóki główne urządzenie nie wróci albo nie wybierzesz innego głównego Cora Max. Więcej w [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device) |
@@ -73,10 +74,12 @@ Dotknij nazwy akwarium, żeby otworzyć menu akwarium, które jest teraz na ekra
 | **Raporty zdrowia** | Oceny zdrowia akwarium |
 | **Konserwacja** | [Lista zadań](/help/mobile-maintenance) |
 | **Raporty ICP** | Przesłane [wyniki laboratoryjne](/help/mobile-icp-health) |
-| **Alerty** | Prawidłowy zakres każdego parametru w tym akwarium |
+| **Historia parametrów** | Wybierz dowolny parametr z danymi i otwórz jego [wykres](/help/max-intelligence) |
+| **Progi alertów** | Prawidłowy zakres każdego parametru w tym akwarium |
 | **Obsada** | [Lista obsady](/help/mobile-livestock) tego akwarium. Na tym ekranie możesz ją tylko przeglądać |
 | **Aktywność** | [Każde gniazdo, karmienie i dawka](/help/max-activity) oraz to, co z nich wynikło |
 | **Układ panelu** | [Układ widżetów na tym ekranie](/help/max-dashboard-editing) |
+| **Jednostki** | Jednostki wyświetlania odczytów tego akwarium |
 | **Ustawienia akwarium** | Pełny ekran ustawień tego akwarium |
 
 ## Przełączanie akwariów

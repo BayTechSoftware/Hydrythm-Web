@@ -2,7 +2,7 @@
 title: Updates und Wiederherstellung
 description: Wie sich Cora Max selbst aktualisiert und was passiert, wenn ein Update schiefgeht.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ Unter **Einstellungen → Cora Max-Einstellungen → Firmware-Update** (im Berei
 Es erscheint ein Hinweis, was neu ist, mit zwei Möglichkeiten:
 
 - **Jetzt aktualisieren**: installiert sofort und startet neu
-- **3 Stunden schlummern**: fragt später noch einmal
+- **24 Stunden schlummern**: blendet den Hinweis aus und fragt einen Tag später noch einmal
+
+Solange ein Update wartet, zeigt ein kleiner Punkt am Symbol **Einstellungen** in der oberen Leiste und an der Zeile **Firmware-Update**, dass es ein Update gibt. Der Punkt bleibt auch während des Schlummerns, du siehst also weiterhin, dass ein Update bereitsteht. Während das Update installiert wird, verschwindet er.
 
 Tust du nichts, installiert sich das Update über Nacht, etwa zwischen 3 und 5 Uhr morgens. So startet der Bildschirm nicht neu, während du davorstehst.
 

@@ -2,7 +2,7 @@
 title: Rozmowa z Corą na Cora Max
 description: Sterowanie głosem na Cora Max: jak zacząć rozmowę, o co pytać i jak działają potwierdzenia.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Cora Assistant od razu zaczyna sesję i nie prosi o potwierdzenie. Jeśli dotkni
 - *„Włącz tryb karmienia.”*
 - *„Ustaw wentylator z powrotem na auto.”*
 - *„Zapisz podmianę dwudziestu litrów wody.”*
+- *„Zapisz, że dałem dodatkowo mysis.”* albo *„Zapisz, że pominąłem poranne karmienie.”*
 
 **Pytania uzupełniające.** Nie musisz się powtarzać. Po pytaniu o akwarium na ekranie możesz zapytać *„a akwarium z sadzonkami?”*.
 

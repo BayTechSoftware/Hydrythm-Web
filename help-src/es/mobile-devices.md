@@ -2,7 +2,7 @@
 title: Añadir, editar y eliminar dispositivos
 description: Cómo añadir equipos a Cora, asignarlos a un acuario y quitarlos bien, todo desde un mismo sitio.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 9
 group: Equipment
 ---
@@ -13,7 +13,13 @@ Añade, edita, asigna y quita cada dispositivo desde la pestaña **Dispositivos*
 
 ## Añadir equipos
 
-Toca **Agregar dispositivo** y elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(beta)*, **HYDROS** *(beta)* o **AquaWiz**. Cada una abre justo lo que necesita para encontrar tu equipo: un escaneo de red, una dirección IP, un inicio de sesión o una clave de dispositivo. [Conectar tus equipos](/help/mobile-connections) explica lo que necesita cada marca.
+Toca **Agregar dispositivo** y elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**. Los usuarios Beta ven además **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** y **Cámara**, cada una con una etiqueta **Beta**. Cada una abre justo lo que necesita para encontrar tu equipo: un escaneo de red, una dirección IP, un inicio de sesión o una clave de dispositivo. [Conectar tus equipos](/help/mobile-connections) explica lo que necesita cada marca.
+
+:::note Beta
+**Beta.** Las integraciones Beta solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
+:::
+
+Una fila que necesita un Cora Max en el acuario (Maxspect, GHL, EcoTech, Inkbird y Cámara) aparece en gris y dice **Requiere Cora Max** hasta que el acuario tiene uno.
 
 **Cora** es como se empareja un Cora Max nuevo. Busca los que ya están en tu Wi-Fi, o cerca por Bluetooth. Si no lo encuentra, usa **Introducir dirección IP manualmente** en esa misma pantalla.
 
@@ -41,13 +47,24 @@ Un dispositivo sin acuario sigue enviando datos, pero sus números no tienen dó
 
 ## Cambiar el nombre
 
-Abre el dispositivo y edita el nombre. Ponle el que usas en el día a día: "Retorno", "Gyre izquierdo", "Calentador del sump". El nombre sale en los widgets, en las alertas y en todo lo que le preguntes a Cora. Si significa algo para ti, todo lo demás se entiende mejor.
+Abre el dispositivo y toca el lápiz junto a su nombre. Ponle el que usas en el día a día: "Retorno", "Gyre izquierdo", "Calentador del sump". El nombre sale en los widgets, en las alertas y en todo lo que le preguntes a Cora. Si significa algo para ti, todo lo demás se entiende mejor.
+
+Los nombres pueden tener hasta 40 caracteres. Si dos dispositivos del mismo tipo no tienen nombre, Cora los distingue con un código corto después del nombre. Cora nunca usa un número de serie como nombre.
 
 El nombre solo cambia en Cora. En la aplicación del fabricante sigue igual.
 
 ## Comprobar que un dispositivo funciona bien
 
-Cada fila muestra su estado actual. Lo que quieres ver es una hora de actualización reciente y ningún aviso.
+Cada dispositivo es una fila de la pestaña Dispositivos, con su icono, su nombre, su modelo y su acuario. El punto de la fila indica su estado.
+
+| Punto | Qué significa |
+|---|---|
+| Gris | Cora todavía no lo sabe |
+| Verde | Funciona con normalidad |
+| Naranja | Un aviso o un fallo |
+| Rojo | Sin conexión |
+
+Las lecturas, los modos, el desvinculado y la dirección IP están en la página de detalles del dispositivo, que se abre con una sección **Estado**. Lo que quieres ver es una hora de actualización reciente y ningún aviso.
 
 | Lo que ves | Qué significa |
 |---|---|

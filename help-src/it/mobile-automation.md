@@ -2,7 +2,7 @@
 title: Automazioni e scene
 description: Crea regole che partono da sole, con trigger, condizioni e azioni, e raggruppa le azioni in scene.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Le azioni che richiedono un'attrezzatura compaiono solo nelle vasche che ce l'ha
 | **Esegui una scena** | Avvia una scena dall'interno di questa regola |
 | **Gestisci un'automazione** | Attiva o disattiva un'altra regola |
 | **Dosa una testa DŌS** | Dosa una quantità precisa da una testa DŌS |
+| **Crea un'attività di manutenzione** | Mette un lavoro nell'elenco della [manutenzione](/help/mobile-maintenance) della vasca, per esempio cambiare il materiale dello scrubber di CO2 quando il pH scende sotto un valore |
 
 :::warning Un dosaggio da regola non si annulla ed è limitato
 Quello che hai dosato non si può togliere dalla vasca. Una regola può dosare solo da una testa **calibrata**, e senza sorveglianza il limite è **10 mL per testa al giorno**. Nessuna regola può superarlo, comunque sia scritta. Le azioni di dosaggio compaiono solo quando Cora riconosce le tue teste come teste dosatrici.
+:::
+
+:::note Cosa fa Crea un'attività di manutenzione
+Scegli la vasca, poi **Attività esistente** (un'attività esistente diventa da fare subito) oppure **Nuova attività** (dai un **Nome attività**). Una nuova attività è una tantum, da fare subito, e la regola non la crea di nuovo finché è ancora aperta. Ricevi una sola notifica, e l'attività una tantum esce dall'elenco quando la completi.
 :::
 
 :::note Con Attendi metti in fila i passi di una regola

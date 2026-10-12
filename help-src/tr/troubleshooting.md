@@ -2,7 +2,7 @@
 title: Sorun giderme
 description: Ölçümler durdu, bir cihaz çevrimdışı, uyarı kapanmıyor ya da bir şey ters gidiyor. Buradan başlayın.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ Yaş etiketi doğruyu söylüyor, yeni bir ölçüm gelmemiş.
 - **Elle girilen parametreler** yeni ölçüm girilmezse eskir. Yeni bir ölçüm girin.
 - **Ekipmandan gelen ölçümler** eskiyorsa cihaz veri göndermeyi bırakmıştır. **Cihazlar**'da cihazın satırına bakın.
 - **Bazı ekipmanlar zaten yavaştır.** Saatte bir ölçüm yapan bir titratörde normalde `1 sa` yazar. Bu bir arıza değildir.
+
+## "[Cihaz]: bildirim göndermeyi kesti"
+
+Cora bunu bir cihaz sessizleştiğinde gönderir. Cihazın bozuk olduğu anlamına gelmez, yalnızca Cora'nın ondan bir süredir haber alamadığı anlamına gelir.
+
+- Bir Neptune Apex ya da Red Sea ReefBeat ünitesi yaklaşık 30 dakika sonra sessiz sayılır. AquaWiz için yaklaşık 3 saat gerekir.
+- Bir Jecod ya da Maxspect pompası, o cihazın kendi ölçüm aralığına göre sayılan üst üste üç kaçırılmış ölçümden sonra sessiz sayılır.
+- Bir EcoTech cihazı ya da Inkbird monitörü (ikisi de Beta), belirlediğiniz ölçüm aralığına göre sayılan üst üste üç kaçırılmış ölçümden sonra sessiz sayılır. Yalnızca ışık içeren EcoTech ağları varsayılan olarak her 30 dakikada bir okunur, bu yüzden en az 90 dakika bekleyin.
+
+1. Cihazın gücünü ve Wi-Fi ya da Bluetooth menzilini kontrol edin.
+2. Onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin.
+3. Bir sonraki ölçümü bekleyin. Cihaz yeniden bildirim göndermeye başladığında ikinci bir bildirim alırsınız.
+
+Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında. Beta cihazlar [Beta özellikleri](/help/mobile-beta) sayfasında anlatılıyor.
 
 ## Cihaza ulaşılamıyor
 
@@ -57,6 +71,15 @@ Başka bir mesaj görürseniz **Tekrar dene**'ye dokunun.
 - Wi-Fi bağlantısını **Ayarlar → Cora Max Ayarları → Wi-Fi** altından kontrol edin
 - Ağın kendisinin çalıştığından emin olun
 - Etikette **Çevrimiçi** ya da **Bulut** yazıyor ama veri hâlâ eskiyse sorun ekranda değil, Cora Max'ten önceki bir yerdedir. Aynı akvaryuma telefonunuzdan bakın
+
+## Cora Max "Bulut kaydı reddedildi" gösteriyor
+
+Üst çubuktaki bu etiket, Cora Cloud'un bu ekranın bazı verilerini kaydetmeyi reddettiği anlamına gelir. Akvaryumunuzda ya da Cora Max'te bir sorun yok ve ekranda değiştirmeniz gereken bir şey yok. Çözüm bir Cora Cloud güncellemesi.
+
+1. **Ayarlar → Cora Max Ayarları → Yazılım Güncellemesi**'ni açın ve **Durum** bölümüne bakın. **Bulut kaydı** satırı hangi verilerin reddedildiğini söyler, örneğin bir cihazın ölçümleri ya da prizleri.
+2. [Destekle iletişime geçin](/support.html) ve o satırda ne yazdığını bize söyleyin.
+
+Bu arada ölçümleriniz Cora Max'te görünmeye devam eder. Düzeltme gelene kadar yalnızca hesabınıza kaydedilmezler.
 
 ## Uyarı kapanmıyor
 
@@ -105,6 +128,8 @@ Sorun sürerse akvaryumun ve cihazın adını yazarak **[cora@coraiq.tech](mailt
 
 ## "GHL API kapalı"
 
+GHL bir Beta entegrasyondur. Bkz. [Beta özellikleri](/help/mobile-beta).
+
 GHL, her yazılım güncellemesinden sonra resmi API'sini kapatır. Bu güncelleme sonrasında normaldir, bir arıza değildir. Kontrol cihazının kendisinde, GHL Control Center'da ya da GHL Connect'te **Sistem → GHL API**'den yeniden açın. Cora kontrol etmeye devam eder ve API yeniden açılınca kendiliğinden bağlanır.
 
 ## "GHL kontrol cihazına ulaşılamıyor"
@@ -146,7 +171,7 @@ Sorun sürerse akvaryumun ve cihazın adını yazarak **[cora@coraiq.tech](mailt
 
 ## "Bu Gyre'ye ulaşılamadı. Besleme başlatılmadı."
 
-Cora besleme modunu başlatmaya çalıştığında Maxspect gyre (beta entegrasyon) cevap vermedi.
+Cora besleme modunu başlatmaya çalıştığında Maxspect gyre (Beta entegrasyon) cevap vermedi.
 
 Şunları deneyin:
 1. Gyre'nin açık ve ağına bağlı olduğunu kontrol edin.
@@ -156,7 +181,7 @@ Sorun sürerse akvaryumun ve cihazın adını yazarak **[cora@coraiq.tech](mailt
 
 ## "Bu Gyre'ye ulaşılamadı. Programı değiştirilmedi."
 
-Maxspect gyre'ye (beta entegrasyon) gönderilen zamanlama ona ulaşmadı.
+Maxspect gyre'ye (Beta entegrasyon) gönderilen zamanlama ona ulaşmadı.
 
 Şunları deneyin:
 1. Telefonunuzun ya da Cora Max'inizin gyre ile aynı ağda olduğunu kontrol edin.
@@ -318,7 +343,7 @@ Sorun sürerse **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta 
 Bu bir veri sorunu değil, akvaryumun görüntüleme birimi ayarıdır. Değerler nasıl gösterilirse gösterilsin aynı şekilde saklanır.
 
 Şunları yapın:
-1. O akvaryumun **Ayarlar**'ını açın ve görüntüleme birimlerine bakın.
+1. **Ayarlar**'ı açın, o akvaryumu açın ve **Birimler**'i seçin.
 2. Birimleri orada değiştirin. O akvaryumu gösteren tüm telefonlar ve Cora Max ekranları da buna göre güncellenir.
 
 Sorun sürerse **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.

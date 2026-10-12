@@ -2,7 +2,7 @@
 title: Edytowanie pulpitu
 description: Ustaw liczbę kolumn, dodawaj i układaj widżety, zmieniaj rozmiar kafelków i zapisuj układy, których użyjesz na innych akwariach.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Na liście są tylko źródła, które istnieją w danym akwarium. Parametr bez 
 
 ## Rozmiar
 
-Widżet zajmuje jedną albo dwie kolumny i jeden albo dwa rzędy. Rozmiar ustawiasz w ustawieniach widżetu.
+Widżet zajmuje jedną albo dwie kolumny i jeden albo dwa rzędy. Rozmiar ustawiasz w ustawieniach widżetu. Kafelek kamery (Beta) może mieć do trzech kolumn szerokości. Kamery są dostępne tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
 
 Widżet **trendu** ma zawsze co najmniej dwie kolumny szerokości.
 
@@ -86,3 +86,13 @@ Odczyty, historia i wpisy w dzienniku są przechowywane osobno od układu, więc
 ## Edytowanie pulpitu Cora Max
 
 Pulpit Cora Max edytujesz osobno: **Urządzenia → Twój Cora Max → Edytuj panel**. Ma stałą siatkę, która się nie przewija. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).
+
+### Zaprojektuj z AI
+
+W płatnym planie edytor ma u góry ikonę iskier z podpisem **Zaprojektuj z AI**. Dotknij jej, a Cora zaproponuje cały układ zbudowany z tego, co to akwarium zgłasza i co ma podłączone. W planie darmowym ikona ma kłódkę (**Zaprojektuj z AI (plany płatne)**) i otwiera plany.
+
+Propozycja pokazuje, ile ma kafelków i jaki rozmiar siatki. Dotknij **Użyj tego**, aby wstawić ją do edytora, albo **Spróbuj ponownie**, aby dostać inną. Możesz zrobić 5 projektów na akwarium dziennie.
+
+Projekt z AI zastępuje to, co jest na edytowanym pulpicie. Nic nie trafi na Cora Max, dopóki nie dotkniesz **Zapisz i opublikuj**, więc nadal możesz wyjść bez zapisywania. Aby najpierw zachować obecny układ, zapisz go w **Moje panele**.
+
+Zaprojektuj z AI wymaga włączonego w Ustawieniach udostępniania danych AI. Jeśli jest wyłączone, dostaniesz informację i możesz je włączyć, a potem spróbować ponownie. Jeśli akwarium nie ma jeszcze odczytów ani podłączonych urządzeń, nie ma z czego projektować.

@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Twój codzienny briefing: co zawiera, kiedy przychodzi i jak czytać oceny.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -33,6 +33,18 @@ Niska ocena Dane znaczy, że ocena opiera się na mniejszej liczbie odczytów, n
 Spostrzeżenia są filtrowane, zanim do Ciebie trafią. Spostrzeżenie musi się potwierdzić w kilku odczytach, a nie w jednym. Musi też mówić coś, czego nie pokazałby Ci już zwykły wykres.
 
 Dotknij karty na pulpicie, żeby otworzyć cały briefing.
+
+## Aktualizacja briefingu po nowym teście
+
+Jeśli zapiszesz test ręcznie albo dodasz wynik ICP po tym, jak przyszedł briefing, karta briefingu w pełnym briefingu pokazuje **Nowe odczyty od czasu tego podsumowania** i przycisk **Zaktualizuj podsumowanie**. Dotknij go, a Cora przygotuje briefing od nowa z nowymi liczbami. Możesz to zrobić raz dziennie dla każdego gospodarstwa. Potem przycisk jest wyszarzony i pisze *Podsumowanie możesz aktualizować raz dziennie. Następna aktualizacja: jutro.*
+
+Odczyty z sond i kontrolerów nie wywołują tej propozycji, bo napływają przez cały dzień.
+
+## Dlaczego widzisz spostrzeżenie
+
+Pod spostrzeżeniem dotknij **Dlaczego to widzę?** Arkusz **Dlaczego to widzisz** wymienia **Użyte odczyty**, **Wartość docelowa do porównania** (Twoja własna wartość albo zakres odniesienia), wszystko **Z Twojego dziennika**, co wzięto pod uwagę, i **Okres analizy (dni)**, który obejrzano. Jeśli rozumowanie nie pasuje do Twojego akwarium, odpowiedz na spostrzeżenie tak, jak opisano w „Ocena spostrzeżenia” poniżej.
+
+Briefingi korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów świateł Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia, sum z Twoich głowic DŌS oraz, jeśli masz monitor powietrza w pomieszczeniu Inkbird w wersji Beta, temperatury i wilgotności w pomieszczeniu. Inkbird jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
 
 ## Kiedy przychodzi
 
@@ -79,7 +91,7 @@ Na każde spostrzeżenie możesz odpowiedzieć na jeden z czterech sposobów:
 | **Już wiedziałem** | Trafne, ale to już było wiadomo |
 | **Nie jestem pewien** | Na razie trudno to ocenić |
 
-Twoje odpowiedzi wpływają na to, co pojawia się na początku kolejnych briefingów. Wyciszenie działa **tylko przez jakiś czas**. Odrzucone spostrzeżenie wróci, jeśli problem nadal trwa.
+Gdy Reef Buddy wskaże dryf, pyta też *Czy to ostrzeżenie było przydatne?* Możesz odpowiedzieć **Przydatne**, **Nieprzydatne**, **Ta zmiana jest oczekiwana** albo **Odczyt wygląda błędnie**. Twoje odpowiedzi wpływają na to, co pojawia się na początku kolejnych briefingów. Wyciszenie działa **tylko przez jakiś czas**. Odrzucone spostrzeżenie wróci, jeśli problem nadal trwa.
 
 :::note Poważne ustalenia nigdy nie są wyciszane
 Odpowiedzi mogą przyciszyć tylko spostrzeżenia o niższej ważności. Ostrzeżenia i spostrzeżenia krytyczne pojawiają się dalej, bez względu na to, jak na nie wcześniej odpowiadano.

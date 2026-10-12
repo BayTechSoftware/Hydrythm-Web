@@ -2,7 +2,7 @@
 title: Modificare la dashboard
 description: Scegli il numero di colonne, aggiungi e sposta i widget, cambia la dimensione dei riquadri e salva layout da riusare su altre vasche.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Vedi solo le fonti che esistono sulla vasca. Un parametro senza fonte compare qu
 
 ## Dimensione
 
-Un widget occupa una o due colonne e una o due righe. La dimensione si imposta nelle impostazioni del widget.
+Un widget occupa una o due colonne e una o due righe. La dimensione si imposta nelle impostazioni del widget. Un riquadro telecamera (Beta) può essere largo fino a tre colonne. Le telecamere sono aperte solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
 
 Un widget **grafico** è sempre largo almeno due colonne.
 
@@ -86,3 +86,13 @@ Letture, storico e voci di diario sono salvati a parte rispetto al layout. Nessu
 ## Modificare la dashboard di Cora Max
 
 La dashboard di Cora Max si modifica a parte, da **Dispositivi → il tuo Cora Max → Modifica Dashboard**. Ha una griglia fissa e non scorre. I dettagli sono in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
+
+### Progetta con l'IA
+
+Con un piano a pagamento, in alto nell'editor c'è un'icona a scintilla, **Progetta con l'IA**. Toccala e Cora propone un layout completo in base a ciò che questa vasca riporta e ha collegato. Con un piano gratuito l'icona mostra un lucchetto (**Progetta con l'IA (piani a pagamento)**) e apre i piani.
+
+La proposta mostra quanti riquadri ha e la dimensione della griglia. Tocca **Usa questo** per portarla nell'editor, oppure **Riprova** per averne un'altra. Puoi fare 5 progetti al giorno per vasca.
+
+Un progetto dell'IA sostituisce quello che c'è nella dashboard che stai modificando. Niente arriva su Cora Max finché non tocchi **Salva e pubblica**, quindi puoi ancora uscire senza salvare. Per tenere prima il layout attuale, salvalo in **Le mie dashboard**.
+
+Progetta con l'IA richiede la condivisione dei dati con l'IA attiva nelle Impostazioni. Se è disattivata, te lo viene detto e puoi attivarla e riprovare. Se la vasca non ha ancora letture o dispositivi collegati, non c'è niente da cui partire.

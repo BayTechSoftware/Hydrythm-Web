@@ -2,7 +2,7 @@
 title: Automatisations et scènes
 description: Créez des règles qui tournent toutes seules (déclencheurs, conditions, actions) et regroupez des actions en scènes.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Une action qui demande un équipement n’apparaît que sur un aquarium équipé
 | **Lancer une scène** | Lancer une autre scène depuis cette règle |
 | **Gérer une automatisation** | Activer ou désactiver une autre règle |
 | **Doser une tête DŌS** | Envoyer une dose précise avec une tête DŌS |
+| **Créer une tâche d’entretien** | Ajouter une tâche à la liste d’[entretien](/help/mobile-maintenance) de l’aquarium, par exemple changer le média du scrubber CO2 quand le pH passe sous une valeur |
 
 :::warning Un dosage par règle est irréversible et plafonné
 On ne peut pas retirer une dose de l’aquarium. Une règle ne peut doser avec une tête que si cette tête est **étalonnée**. Le dosage sans surveillance est plafonné à **10 mL par tête et par jour**, et aucune règle ne peut dépasser ce plafond, quelle que soit sa rédaction. Les actions de dosage n’apparaissent qu’une fois vos têtes reconnues comme têtes de dosage.
+:::
+
+:::note Ce que fait Créer une tâche d’entretien
+Choisissez l’aquarium, puis **Tâche existante** (une tâche existante devient due tout de suite) ou **Nouvelle tâche** (donnez-lui un **Nom de la tâche**). Une nouvelle tâche est ponctuelle et due immédiatement, et la règle ne la recrée pas tant qu’elle est ouverte. Vous recevez une notification, et la tâche ponctuelle quitte la liste quand vous la terminez.
 :::
 
 :::note Utilisez Attendre pour enchaîner des étapes

@@ -2,7 +2,7 @@
 title: Ekipmanınızı kontrol etme
 description: Cihazın sayfasını açın, canlı durumunu görün ve kontrol edin. Prizler, pompalar, dozaj kafaları ve test cihazları.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 11
 group: Equipment
 ---
@@ -10,6 +10,8 @@ group: Equipment
 Bağlı her ekipmanın Cora'da kendi sayfası var. Sayfa cihazın canlı durumunu ve cihazın desteklediği bütün kontrolleri gösterir. Sayfayı **Cihazlar** sekmesinden açın.
 
 ![Cihaz sayfası](img/mobile-device-detail.webp "Üstte canlı ölçümler, altında cihazın desteklediği kontroller.")
+
+Beta cihazlar, örneğin EcoTech ışıkları, pompaları ve dozajlayıcıları, Focustronic üniteleri, Inkbird monitörleri ve kameralar yalnızca Beta kullanıcılarına açıktır ve kendi sayfaları vardır. Bkz. [Beta özellikleri](/help/mobile-beta).
 
 Bütün cihaz sayfaları aynı düzendedir: en üstte cihazın kimliği, altında canlı ölçümler satırı, cihazın bildirdiği durumlar ve en altta kontroller. Başlık çubuğundaki zil simgesiyle o cihazın uyarı eşiklerini ayarlarsınız. Ayrıntılar [Sarf malzemeleri](/help/mobile-consumables) sayfasında.
 
@@ -53,7 +55,7 @@ Her dozaj kafasında şunlar görünür: neyi dozladığı, programı, bugün ne
 Her kafa için şunları yapabilirsiniz:
 
 - Programı **Duraklat** ve **Sürdür**
-- **Doldur**: Cora'ya kabın yeniden dolduğunu söyleyin ya da içindeki miktarı girin
+- **Doldur**: Cora'ya kabın yeniden dolduğunu söyleyin ya da içindeki miktarı girin (**Toplam Hacim** kabın boyutudur, **Kalan Hacim** şu an içindeki miktardır, **Dolu** ise birini diğerine eşitler)
 - **Şimdi dozajla**: ölçülü dozu elle verin
 
 :::note Programlar burada değil, Apex Fusion'da düzenlenir
@@ -74,6 +76,8 @@ Her kafaya **kullanım türü** atanır. Böylece Cora kafanın ne iş yaptığ�
 
 İki su değişimi türü **eşleştirilmek** için vardır. Bir kafanın **Eşleştirilmiş kafa** ayarını, suyu ters yönde taşıyan diğer kafaya ayarlayın. Cora bu iki kafayı birbirinden bağımsız iki kafa olarak değil, tek bir su değişimi çifti olarak görür.
 
+Bir kap, her kullanım türü için en fazla 1.000 L olabilir. Apex'in kendisi yalnızca 150 L'ye kadar sayar, bu yüzden bunun üstünde Cora kabı, kafanın verdiği dozdan kendisi takip eder. Kurarken **Toplam Hacim**'i girin. Cora ayrıca Apex'in kendi sayacını arada bir sıfırlar ve Etkinlik bunu *Apex'in kendi sayacı 150 L'ye sıfırlandı* olarak gösterir.
+
 Her kafanın ayrıca **Elle verilecek en büyük dozaj** sınırı var. Bu sınır, yanlış yazılan elle dozun istenenden çok daha büyük olmasını önler. Büyük elle dozlar, kafanın hızı akvaryumda gerçek testle ölçüldükten ve kafanın ayarlarında **Büyük dozlar (Beta)** açıldıktan sonra kullanılabilir hale gelir. Varsayılan olarak kapalıdır: bunu yalnızca akvaryumda ilk büyük dozu izledikten sonra açın.
 
 ## Red Sea ReefBeat
@@ -82,16 +86,16 @@ Her ünitenin kendine uygun sayfası var:
 
 | Ünite | Sayfada neler var | Neler yapabilirsiniz |
 |---|---|---|
-| **ReefDose** | Her kafa, kabı ve verdiği dozlar | Her kafa için: **Günlük dozaj**, **Şişede kalan**, **Şimdi dozajla** ve **Zaman planını etkinleştir**, ayrıca tam bir **Dozaj planı** düzenleyicisi *(beta)*. Her kafa için ayrı dolum uyarısı kurun |
+| **ReefDose** | Her kafa, kabı ve verdiği dozlar | Her kafa için: **Günlük dozaj**, **Şişede kalan**, **Şimdi dozajla** ve **Zaman planını etkinleştir**, ayrıca tam bir **Dozaj planı (Beta)** düzenleyicisi. Her kafa için ayrı dolum uyarısı kurun |
 | **ReefATO+** | Rezervuar seviyesi ve su tamamlama hareketleri | Rezervuar uyarısı kurun. Rezervuarın kaç gün yeteceğini asistana sorun |
-| **ReefMat** | Kalan rulo, gün ve metre olarak | Ruloyu ilerletin, dolum uyarısı kurun ve beta aşamasında zamanlanmış ilerletmeyi açın, modelini ve motor konumunu ayarlayın, yeni rulo kaydedin |
-| **ReefRun** | Ana pompa ve skimmer pompasının hızı ve durumu | Hızı değiştirin, pompayı açıp kapatın, skimmer ayarlarını değiştirin ve tam bir hız programını düzenleyin *(beta)* |
-| **ReefControl** *(beta)* | Sıcaklık, pH, tuzluluk ve ORP probları | Ölçümlerini görüntüleyin |
-| **ReefWave**, **ReefLED** *(beta)* | Şu anki modu | Şimdilik yalnızca görüntüleme |
+| **ReefMat** | Kalan rulo, gün ve metre olarak | Ruloyu ilerletin, dolum uyarısı kurun ve Beta aşamasında zamanlanmış ilerletmeyi açın, modelini ve motor konumunu ayarlayın, yeni rulo kaydedin |
+| **ReefRun** | Ana pompa ve skimmer pompasının hızı ve durumu | Hızı değiştirin, pompayı açıp kapatın, skimmer ayarlarını değiştirin ve tam bir **Pompa programı (Beta)** hız programını düzenleyin |
+| **ReefControl** *(Beta)* | Sıcaklık, pH, tuzluluk ve ORP probları | Ölçümlerini görüntüleyin |
+| **ReefWave**, **ReefLED** *(Beta)* | Şu anki modu | Şimdilik yalnızca görüntüleme |
 
-**ReefRun ana pompa ve skimmer pompası kontrol ünitesidir**, dalga pompası değildir. **ReefControl Power** *(beta)* prizleri, bir Apex prizindeki gibi aynı priz kontrolünden açılıp kapatılan, yalnızca aç/kapa kontrolü olan priz olarak görünür. Şimdilik bunlar için otomatik mod yoktur.
+**ReefRun ana pompa ve skimmer pompası kontrol ünitesidir**, dalga pompası değildir. **ReefControl Power** *(Beta)* prizleri, bir Apex prizindeki gibi aynı priz kontrolünden açılıp kapatılan, yalnızca aç/kapa kontrolü olan priz olarak görünür. Şimdilik bunlar için otomatik mod yoktur.
 
-## ReefDose planı ya da ReefRun programı düzenleme *(beta)*
+## ReefDose planı ya da ReefRun programı düzenleme *(Beta)*
 
 Bir ReefDose ya da ReefRun sayfasındaki takvim simgesine dokunarak planı açın.
 
@@ -101,7 +105,7 @@ Bir ReefRun programı, tek bir pompa portunda en çok altı segmenttir. Her segm
 
 İki düzenleyici de önce ünitede zaten kayıtlı planı okur. Yani boş bir formu değil, gerçek planı düzenlersiniz.
 
-## ReefMat ayarları *(beta)*
+## ReefMat ayarları *(Beta)*
 
 ReefMat sayfasındaki dişli simgesine dokunarak üç ayara daha ulaşın.
 
@@ -136,8 +140,8 @@ Ayrıca şunları yapabilirsiniz:
 
 ## Maxspect
 
-:::note Maxspect desteği beta aşamasında
-Maxspect gyre desteğinin testleri ve geliştirmesi sürüyor. Bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::note Beta
+**Beta.** Maxspect Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 :::
 
 Gyre sayfası gyre'nin çalışıp çalışmadığını, **Gyre A** ve **Gyre B**'nin dalga desenini ve hızını ve bu bilgilerin en son ne zaman okunduğunu gösterir. Bu sayfada şunları yapabilirsiniz:
@@ -154,8 +158,8 @@ Akvaryuma bağlı bir Cora Max varsa Cora Mobile, evden uzaktayken de o Cora Max
 
 ## GHL ProfiLux ve Mitras
 
-:::note GHL desteği beta aşamasında
-GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::note Beta
+**Beta.** GHL Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Bazı ölçümler ya da kontroller henüz çalışmayabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 :::
 
 Kontrol cihazının sayfası probları, prizleri, dozaj ünitelerini ve seviye sensörlerini, Director modellerinde de KH ile iyon test sonuçlarını gösterir.
@@ -183,8 +187,8 @@ Kontrol cihazı değişikliği kabul etmiyorsa GHL API'sinin tam erişimle açı
 
 ## HYDROS
 
-:::note HYDROS desteği beta aşamasında
-HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::note Beta
+**Beta.** HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Bazı ölçümler ya da kontroller henüz çalışmayabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 :::
 
 Burada gördükleriniz bağladığınız anahtara bağlıdır. Bir **Read** anahtarı yalnızca girişlerini verir. Bir **Write** anahtarı çıkışları, modları, dozaj ve test cihazı komutlarını da ekler, ayrıca hangi anahtar türünde olduğunuzu hatırlatan bir sayfa şeridi gösterir.

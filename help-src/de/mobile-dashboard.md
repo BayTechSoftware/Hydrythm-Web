@@ -2,7 +2,7 @@
 title: Dein Dashboard lesen
 description: So liest du Coras Dashboard, von den Widgets über Alter und Quellen bis zu den Farben.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ Ganz unten auf dem Dashboard findest du:
 
 - **Dashboard bearbeiten** öffnet den [Dashboard-Editor](/help/mobile-dashboard-editing).
 - Mit **Wasserwerte protokollieren** trägst du Testkit-Ergebnisse von Hand ein.
+- **Werteverlauf** öffnet den Verlauf jedes Wasserwerts mit Daten, auch wenn er kein Widget hat. Siehe [Einen Wasserwert genauer ansehen](/help/mobile-metric-detail)
+- **Fütterung** erfasst eine Fütterung, die von deinem Plan abweicht. Siehe [Das Tagebuch](/help/mobile-journal)
 - **Tagebuch · Warnungen · Wartung · Besatz** führen direkt zu diesen Bereichen für dieses Becken.
+
+Hat ein Becken noch keine Messwerte und keine verknüpfte Ausrüstung, hilft dir darüber eine Karte, **Trage deinen ersten Wassertest ein**, beim Start. Siehe [Cora Mobile einrichten](/help/mobile-setup).
 
 Eine Zeile darüber zeigt, wann das Dashboard zuletzt aktualisiert wurde und aus welchen Quellen die Daten stammen.
 

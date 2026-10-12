@@ -2,7 +2,7 @@
 title: Ajouter, modifier et retirer des appareils
 description: Ajouter un équipement à Cora, le rattacher à un aquarium et le retirer proprement, le tout depuis un seul endroit.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 9
 group: Equipment
 ---
@@ -13,7 +13,13 @@ Ajoutez, modifiez, rattachez et retirez chaque appareil depuis l’onglet **Appa
 
 ## Ajouter un équipement
 
-Touchez **Ajouter un appareil**, puis choisissez la marque\xa0: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(bêta)*, **HYDROS** *(bêta)* ou **AquaWiz**. Chacune ouvre exactement ce dont elle a besoin pour trouver votre équipement\xa0: une recherche sur le réseau, une adresse IP, une connexion ou une clé d’appareil. [Connecter votre équipement](/help/mobile-connections) détaille ce qu’il faut pour chaque marque.
+Touchez **Ajouter un appareil**, puis choisissez la marque\xa0: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** ou **AquaWiz**. Les utilisateurs Beta voient aussi **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** et **Caméra**, chacun avec une pastille **Bêta**. Chacune ouvre exactement ce dont elle a besoin pour trouver votre équipement\xa0: une recherche sur le réseau, une adresse IP, une connexion ou une clé d’appareil. [Connecter votre équipement](/help/mobile-connections) détaille ce qu’il faut pour chaque marque.
+
+:::note Beta
+**Beta.** Les intégrations Beta ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+:::
+
+Une ligne qui demande un Cora Max à l’aquarium (Maxspect, GHL, EcoTech, Inkbird et Caméra) est grisée et affiche **Nécessite Cora Max** tant que l’aquarium n’en a pas.
 
 **Cora** sert à appairer un nouveau Cora Max. Cherche les appareils déjà sur votre Wi-Fi, ou ceux à proximité en Bluetooth. Si la recherche ne trouve rien, **Saisir l’adresse IP manuellement** se trouve sur le même écran.
 
@@ -41,13 +47,24 @@ Un appareil sans aquarium envoie quand même ses mesures, mais elles ne s’affi
 
 ## Renommer
 
-Ouvrez l’appareil et modifiez son nom. Donnez-lui le nom que vous utilisez tous les jours\xa0: « Remontée », « Brassage gauche », « Chauffage décantation ». Ce nom apparaît sur les widgets, dans les alertes et dans vos échanges avec Cora. Un nom parlant rend donc tout le reste plus clair.
+Ouvrez l’appareil et touchez le crayon à côté de son nom. Donnez-lui le nom que vous utilisez tous les jours\xa0: « Remontée », « Brassage gauche », « Chauffage décantation ». Ce nom apparaît sur les widgets, dans les alertes et dans vos échanges avec Cora. Un nom parlant rend donc tout le reste plus clair.
+
+Les noms peuvent compter jusqu’à 40 caractères. Si deux appareils du même type n’ont pas de nom, Cora les distingue par un court code après le nom. Cora n’utilise jamais un numéro de série comme nom.
 
 Le nouveau nom ne vaut que dans Cora. Il ne change pas dans l’application du fabricant.
 
 ## Vérifier qu’un appareil va bien
 
-Chaque ligne affiche l’état de l’appareil. Ce que vous voulez voir, c’est une mise à jour récente et aucun avertissement.
+Chaque appareil occupe une ligne de l’onglet Appareils, avec son icône, son nom, son modèle et son aquarium. Le point sur la ligne indique son état.
+
+| Point | Ce que cela veut dire |
+|---|---|
+| Gris | Cora ne sait pas encore |
+| Vert | Fonctionne normalement |
+| Orange | Un avertissement ou une panne |
+| Rouge | Hors ligne |
+
+Les mesures, les modes, la dissociation et l’adresse IP se trouvent sur la page de détail de l’appareil, qui s’ouvre sur une section **État**. Ce que vous voulez voir, c’est une mise à jour récente et aucun avertissement.
 
 | Ce que vous voyez | Ce que cela veut dire |
 |---|---|

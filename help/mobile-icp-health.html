@@ -83,8 +83,11 @@
 <li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
-<li><a href="/help/mobile-probes">Probes</a></li>
+<li><a href="/help/mobile-probes">Parameter Mapping</a></li>
 <li><a href="/help/mobile-consumables">Consumables</a></li>
+<li><a href="/help/mobile-beta">Beta features</a></li>
+<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
+<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -168,12 +171,17 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>ICP and health reports</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#uploading-an-icp-test">Uploading an ICP test</a></li><li><a href="#send-to-cora-results-a-lab-or-an-email-delivers-for-you">Send to Cora: results a lab or an email delivers for you</a></li><li><a href="#what-you-get-back">What you get back</a></li><li><a href="#health-reports">Health reports</a></li><li><a href="#icp-against-your-probes">ICP against your probes</a></li><li><a href="#your-allowance">Your allowance</a></li><li><a href="#where-reports-live">Where reports live</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#uploading-an-icp-test">Uploading an ICP test</a></li><li><a href="#which-email-a-lab-can-use">Which email a lab can use</a></li><li><a href="#send-to-cora-results-a-lab-or-an-email-delivers-for-you">Send to Cora: results a lab or an email delivers for you</a></li><li><a href="#what-you-get-back">What you get back</a></li><li><a href="#an-rodi-or-source-water-test">An RO/DI or source-water test</a></li><li><a href="#health-reports">Health reports</a></li><li><a href="#icp-against-your-probes">ICP against your probes</a></li><li><a href="#your-allowance">Your allowance</a></li><li><a href="#where-reports-live">Where reports live</a></li></ul></nav>
 <p>The <strong>Intelligence</strong> tab is where your lab results and long-term reports live.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Intelligence tab"><img src="/help/img/mobile-intelligence.webp" alt="The Intelligence tab" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Upload ICP, run a health report, and see what moved since the last one.</figcaption></figure>
 <h2 id="uploading-an-icp-test">Uploading an ICP test</h2>
 <p>Tap <strong>Upload ICP</strong>, pick your tank and add the result from your lab. Cora reads the report, records every element and lines it up with your earlier tests.</p>
 <p>You don't have to type anything. Cora handles the common lab formats.</p>
+<h2 id="which-email-a-lab-can-use">Which email a lab can use</h2>
+<p>A lab or an emailed result finds your account by the email address it knows. That is your sign-in email, plus any lab email you add under <strong>Settings → your account card → Lab &amp; ICP emails</strong>.</p>
+<ol><li>Tap <strong>Add lab email</strong> and type the address your lab uses.</li><li>Tap <strong>Send code</strong>. Cora sends a 6-digit code to that address. It expires in 10 minutes.</li><li>Enter the code and tap <strong>Verify</strong>. If you didn't get it, tap <strong>Resend code</strong>.</li></ol>
+<p>You can add up to 3 lab emails. Each shows <strong>Verified</strong> or <strong>Waiting for code</strong>, and <strong>Remove</strong> takes one off. After that, results sent to it no longer reach your account. An address that already belongs to another Cora account can't be added.</p>
+<p>If you signed in with a hidden Apple email, labs can't find your account. The ICP screen shows a card, <strong>Get lab results automatically</strong>, that takes you to this setting. When you sign in with Apple, choose <strong>Share My Email</strong> to avoid the problem.</p>
 <h2 id="send-to-cora-results-a-lab-or-an-email-delivers-for-you">Send to Cora: results a lab or an email delivers for you</h2>
 <p>Some labs can send a result straight to Cora. An emailed ICP result can come in the same way, so you don't have to upload anything yourself.</p>
 <p>When one arrives, you'll see a banner: <em>"Lab result from {lab} is waiting."</em> Tap <strong>Choose tank</strong> and pick the tank it belongs to. Cora can't work that out on its own. Once you choose, Cora adds it to that tank just like an uploaded report.</p>
@@ -187,10 +195,15 @@
 <h2 id="what-you-get-back">What you get back</h2>
 <p>You get a score out of 100 and a plain-language summary of what it means for your system, taking in your tank type, its age and your livestock.</p>
 <p>The score compares your results with their target ranges, including any ranges you've set yourself. If any result is outside its range, the score can't go above 70, so it can't read <strong>Healthy</strong>. If one is far outside, it can't go above 40, however good the rest are. The label under the score reads <strong>Healthy</strong> from 71 to 100, <strong>Needs Attention</strong> from 40 to 70 and <strong>Critical</strong> from 0 to 39. Health Reports are scored the same way.</p>
-<p>Every element is tracked, including trace elements and contaminants as well as the main parameters.</p>
+<p>Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records all 71 elements a lab can report, and the line some labs call <em>Acidity</em> is pH.</p>
+<p>On each element row you'll see the range the lab printed, shown as <em>Lab range</em>, next to Cora's own range for that element. An element Cora has no reference range for carries the tag <strong>No Cora range</strong>. The report says how many elements have a Cora range and assesses the rest from general reef knowledge. Cora Assistant comments on every element that was tested, and its comment stands even when there's no Cora range.</p>
+<p>If the lab prints <em>n.d.</em>, or <em>not detected</em>, for an element, Cora records it as 0 and says it wasn't detected.</p>
+<aside class="cal cal-note"><p class="cal-t">Dissolved CO2 is not room CO2</p><p><strong>Dissolved CO₂</strong> in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room, which a Beta Inkbird™ room air monitor measures. The two have different ranges and are never mixed. See <a href="/help/mobile-beta">Beta features</a>.</p></aside>
 <p>The "Since your last ICP" card shows what changed most since last time. It's usually the quickest way into a new report.</p>
 <p>Tap <strong>Trends</strong> to see any element across every test you've uploaded. This is where ICP becomes really useful.</p>
 <aside class="cal cal-tip"><p class="cal-t">The second test is where it gets interesting</p><p>One ICP tells you where you are. The second tells you which way you're heading, and that's what you can act on. Test on a regular rhythm, and don't wait for something to go wrong.</p></aside>
+<h2 id="an-rodi-or-source-water-test">An RO/DI or source-water test</h2>
+<p>If you upload a sample that is RO/DI or other source water, say so when you upload. Cora doesn't score it against your tank's targets. It gives a plain verdict on whether the water is clean enough to use, and it keeps those numbers out of your tank readings. The report notes how many results are source water. Cora does the same for a fresh salt mix or any other sample that isn't tank water: it says what the sample looks like and doesn't score it as your tank.</p>
 <h2 id="health-reports">Health reports</h2>
 <p>A <strong>Health Report</strong> is a deeper check of the whole system, done from time to time. It looks at every parameter, every source, your dosing, your history and your recent ICP results together.</p>
 <p>Tap <strong>Health Report</strong> and pick a tank. It takes a moment.</p>
@@ -205,7 +218,7 @@
 <h2 id="where-reports-live">Where reports live</h2>
 <p>The Intelligence screen keeps the two kinds apart. Lab results are under <strong>ICP Reports</strong> and generated reviews under <strong>Health Reports</strong>. Each list shows the newest first, with its score. Tap one to open it again in full.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-journeys"><span>Previous</span><b>Guided journeys</b></a><a class="pn-n" href="/help/mobile-sharing"><span>Next</span><b>Sharing your tank</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.80 and Cora Mobile 0.5.81. Last checked 2026-09-30.</p>
+      <p class="stamp">Written for Cora Max 0.28.165 and Cora Mobile 0.5.109. Last checked 2026-10-12.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

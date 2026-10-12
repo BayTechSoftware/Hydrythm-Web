@@ -2,7 +2,7 @@
 title: Modifier le tableau de bord Cora Max
 description: Choisir une grille, ajouter des widgets et enregistrer des dispositions pour Cora Max.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ L’éditeur rappelle les trois gestes en haut : **touchez une tuile pour la mo
 
 **Prises et nourrissage** ajoute d’un coup toutes vos prises commandables et vos cycles de nourrissage. **Tout effacer** vide la grille pour repartir de zéro.
 
-Les onze types de tuiles (Valeur, Jauge, Graphique, État, Prise, ReefBeat, Module Apex, Jecod, Maxspect *(bêta)*, GHL *(bêta)* et HYDROS *(bêta)*) sont décrits dans la **[Référence des widgets](/help/mobile-widgets)**.
+Les seize types de tuiles (Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* et Caméra *(Beta)*) sont décrits dans la **[Référence des widgets](/help/mobile-widgets)**.
+
+Les tuiles Beta appartiennent à des intégrations Beta que seuls les utilisateurs Beta peuvent ajouter, et vous n’en voyez une qu’une fois l’appareil ajouté. Voir [Fonctions Beta](/help/mobile-beta).
+
+## Concevoir avec l’IA
+
+Avec un forfait payant, l’éditeur a un bouton **Concevoir avec l’IA**. Cora propose une disposition complète à partir de ce que cet aquarium remonte et a associé, et indique combien de tuiles elle contient et sur quelle grille. Touchez **Utiliser** pour la placer dans l’éditeur, ou **Réessayer** pour en obtenir une autre. Vous pouvez créer 5 propositions par aquarium et par jour.
+
+Une proposition de l’IA remplace ce qui se trouve actuellement sur ce tableau de bord. Rien n’est enregistré tant que vous ne touchez pas **Enregistrer**, et vous pouvez d’abord garder votre disposition actuelle en l’enregistrant comme l’un de vos tableaux de bord. Avec un forfait gratuit, **Concevoir avec l’IA** vous renvoie vers les forfaits. Il faut aussi que le partage de données avec l’IA soit activé dans l’application Cora.
 
 ## Penser à la distance
 

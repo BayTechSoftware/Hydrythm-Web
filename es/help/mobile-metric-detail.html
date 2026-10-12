@@ -83,8 +83,11 @@
 <li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
 <li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
-<li><a href="/es/help/mobile-probes">Sondas</a></li>
+<li><a href="/es/help/mobile-probes">Asignación de parámetros</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
+<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -170,13 +173,14 @@
       <h1>Ver un parámetro a fondo</h1>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#qu-encuentras">Qué encuentras</a></li><li><a href="#elegir-un-rango">Elegir un rango</a></li><li><a href="#comparar-fuentes">Comparar fuentes</a></li><li><a href="#elegir-qu-fuente-sigue-un-widget">Elegir qué fuente sigue un widget</a></li><li><a href="#excluir-una-lectura-errnea">Excluir una lectura errónea</a></li><li><a href="#anotar-el-cuidado-de-la-sonda">Anotar el cuidado de la sonda</a></li><li><a href="#registrar-una-lectura-a-mano">Registrar una lectura a mano</a></li></ul></nav>
 <p>Un widget te da un número. Si lo tocas, ves la historia que hay detrás.</p>
+<p>Hay dos formas de entrar. Toca un widget del panel, o toca <strong>Historial de parámetros</strong> en la fila de botones bajo los widgets y elige un parámetro. <strong>Historial de parámetros</strong> lista todos los parámetros que tienen datos, aunque no haya ningún widget en el panel.</p>
 <h2 id="qu-encuentras">Qué encuentras</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Ver un parámetro a fondo"><img src="/help/img/mobile-metric-detail.webp" alt="Ver un parámetro a fondo" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Arriba los rangos, después las fuentes que informan el parámetro y luego el gráfico con tu franja de alerta sombreada.</figcaption></figure>
-<p>Un <strong>gráfico de historial</strong> con su propio selector de rango: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> y periodos más largos.</p>
-<p>Un <strong>filtro de fuente</strong>. Debajo de los rangos hay una fila de chips con <strong>Todos</strong> y uno por cada fuente que informa el parámetro, como <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> o <em>Manual</em>. Elige uno para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Ver un parámetro a fondo"><img src="/help/img/mobile-metric-detail.webp" alt="Ver un parámetro a fondo" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Arriba los desplegables y luego el gráfico con tu franja de alerta sombreada.</figcaption></figure>
+<p>Un <strong>gráfico de historial</strong>. Tres desplegables encima fijan lo que muestra. <strong>Parámetro</strong> pasa a cualquier otro parámetro que tenga datos y conserva tu periodo. <strong>Periodo</strong> va de 1h, 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d y 180d a 360d y Todo. <strong>Fuente</strong> empieza en <strong>Todas las fuentes</strong> y lista las fuentes que informan este parámetro en este acuario, como <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> o <em>Manual</em>. Elige una para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.</p>
+<p>La pantalla siempre se abre en 24h y <strong>Todas las fuentes</strong>. No recuerda lo que elegiste la última vez.</p>
+<p>Una fila con <strong>Más reciente</strong>, <strong>Mín</strong>, <strong>Prom</strong> y <strong>Máx</strong> del periodo que tienes en pantalla.</p>
 <p>Un <strong>acceso a la calculadora de dosis</strong> en los parámetros que dosificas. Usa el volumen de tu <a href="/es/help/mobile-tank-profile">perfil del acuario</a> y las concentraciones de <a href="/es/help/mobile-dosing">Dosificación</a>.</p>
-<p><strong>Comparar con</strong> dibuja un segundo parámetro en el mismo gráfico, por ejemplo alcalinidad y calcio, o pH y temperatura. Si sospechas que dos cosas van unidas, aquí lo ves.</p>
-<p><strong>MÍN</strong>, <strong>PROM</strong> y <strong>MÁX</strong> del periodo que tienes en pantalla, en una fila debajo del valor actual.</p>
+<p><strong>Comparar</strong> dibuja un segundo parámetro en el mismo gráfico, por ejemplo alcalinidad y calcio, o pH y temperatura. La lista incluye todos los parámetros del acuario. Si sospechas que dos cosas van unidas, aquí lo ves. Toca el chip otra vez para quitar la segunda línea.</p>
 <p><strong>Marcas de dosis</strong> en el gráfico, para relacionar un cambio con lo que dosificaste de verdad.</p>
 <p>La <strong>lista de lecturas</strong>, con cada lectura que forma la línea, su fuente y su hora.</p>
 <p>Tu <strong>franja de alerta</strong>, sombreada en el gráfico, para que veas cada lectura junto a su rango. Para cambiar el rango, mantén pulsado el widget en el panel. Lo explicamos en <a href="/es/help/mobile-alerts">Alertas y umbrales</a>.</p>
@@ -186,7 +190,8 @@
 <div class="tw"><table class="stack"><thead><tr><th>Parámetro</th><th>Periodo útil</th></tr></thead><tbody><tr><td data-th="Parámetro">pH</td><td data-th="Periodo útil">24 horas, porque sube y baja cada día</td></tr><tr><td data-th="Parámetro">Temperatura</td><td data-th="Periodo útil">24 horas o 7 días</td></tr><tr><td data-th="Parámetro">Alcalinidad</td><td data-th="Periodo útil">7 o 30 días</td></tr><tr><td data-th="Parámetro">Oligoelementos</td><td data-th="Periodo útil">30 días o un año</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Si la línea está plana, mira la antigüedad</p><p>Una línea que no se mueve puede ser un parámetro estable o una fuente que ha dejado de informar. La antigüedad que aparece junto al valor te dice cuál de las dos es.</p></aside>
 <h2 id="comparar-fuentes">Comparar fuentes</h2>
-<p>Cuando varias fuentes informan el mismo parámetro, Cora las muestra por separado y no hace la media. Usa los chips de fuente para verlas una a una.</p>
+<p>Cuando varias fuentes informan el mismo parámetro, Cora las muestra por separado y no hace la media. Usa el desplegable <strong>Fuente</strong> para verlas una a una.</p>
+<p>El valor que sale en el panel es el más reciente. Un valor en directo solo lo reemplaza una lectura con una hora de medición posterior, de cualquier fuente. Una lectura más antigua va al historial y no sobrescribe lo que hay en el widget. Si fijaste una fuente para el widget, Cora sigue esa fuente.</p>
 <p>Si una sonda y tus pruebas a mano no coinciden durante un tiempo, lo normal es que haya que calibrar la sonda.</p>
 <p>Un <a href="/es/help/mobile-icp-health">resultado ICP</a> es una buena tercera opinión, pero no tiene la última palabra. Los laboratorios no coinciden entre sí, y la forma de manipular, guardar y enviar la muestra también cambia el resultado. Toma un solo ICP como un indicio, no como el valor exacto. Dos análisis que coinciden valen mucho más que uno.</p>
 <h2 id="elegir-qu-fuente-sigue-un-widget">Elegir qué fuente sigue un widget</h2>
@@ -199,10 +204,10 @@
 <h2 id="anotar-el-cuidado-de-la-sonda">Anotar el cuidado de la sonda</h2>
 <p>Si registras aquí una calibración o una limpieza, la fecha queda asociada a esa fuente. Así, si más adelante hay una diferencia, sabes cuándo se revisó la sonda por última vez. Más información en <a href="/es/help/mobile-probes">Sondas</a>.</p>
 <h2 id="registrar-una-lectura-a-mano">Registrar una lectura a mano</h2>
-<p>Introduce lo que marca tu kit de pruebas. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico, Reef Buddy las usa y Cora compara tus equipos con ellas.</p>
+<p>Introduce lo que marca tu kit de pruebas. La lista está agrupada, y el grupo <strong>Oligoelementos</strong> incluye yodo, hierro y cobre en µg/L, y potasio en mg/L. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico, Reef Buddy las usa y Cora compara tus equipos con ellas.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora revisa los valores que parecen raros</p><p>Si un valor está muy lejos de lo que viene marcando el acuario, Cora te pide que lo confirmes antes de guardarlo. Así se detecta una coma decimal fuera de sitio o una lectura puesta en el parámetro equivocado. Si la confirmas, se guarda con normalidad.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-widgets"><span>Anterior</span><b>Tipos de widget</b></a><a class="pn-n" href="/es/help/mobile-devices"><span>Siguiente</span><b>Añadir, editar y eliminar dispositivos</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.80 y Cora Mobile 0.5.81. Última revisión el 2026-09-09.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.165 y Cora Mobile 0.5.109. Última revisión el 2026-10-12.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>

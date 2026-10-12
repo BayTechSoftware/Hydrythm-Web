@@ -2,7 +2,7 @@
 title: Edytowanie pulpitu Cora Max
 description: Wybierz siatkę, dodaj widżety i zapisz układy pulpitu na Cora Max.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ U góry edytora widać trzy gesty: **Dotknij kafelek, aby edytować · przytrzym
 
 **Gniazda i karmienie** dodaje w jednym kroku wszystkie sterowalne gniazda i cykle karmienia, więc nie musisz dodawać ich po kolei. **Wyczyść wszystko** opróżnia siatkę, jeśli chcesz zacząć od nowa.
 
-Jedenaście typów kafelków (Wartość, Wskaźnik, Wykres, Stan, Gniazdo, ReefBeat, Moduł Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* i HYDROS *(beta)*) opisuje [Rodzaje widżetów](/help/mobile-widgets).
+Szesnaście typów kafelków (Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* i Kamera *(Beta)*) opisuje [Rodzaje widżetów](/help/mobile-widgets).
+
+Kafelki Beta należą do integracji Beta, które mogą dodawać tylko użytkownicy Beta, i widzisz taki kafelek dopiero wtedy, gdy masz to urządzenie. Zobacz [Funkcje Beta](/help/mobile-beta).
+
+## Zaprojektuj z AI
+
+W płatnym planie edytor ma przycisk **Zaprojektuj z AI**. Cora proponuje cały układ na podstawie tego, co to akwarium zgłasza i co ma podłączone, i pokazuje, ile ma kafelków i na jakiej siatce. Dotknij **Użyj tego**, aby wstawić go do edytora, albo **Spróbuj ponownie**, aby dostać inny. Możesz zrobić 5 projektów na akwarium dziennie.
+
+Projekt z AI zastępuje to, co jest teraz na tym pulpicie. Nic nie jest zapisane, dopóki nie dotkniesz **Zapisz**, a obecny układ możesz najpierw zachować, zapisując go jako jeden ze swoich pulpitów. W planie darmowym **Zaprojektuj z AI** prowadzi do planów. Wymaga też włączonego udostępniania danych AI w aplikacji Cora.
 
 ## Pulpit czytany z daleka
 

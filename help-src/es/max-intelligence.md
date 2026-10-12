@@ -2,7 +2,7 @@
 title: Reef Buddy e informes
 description: El resumen diario, los resultados de ICP, los informes de salud y los gráficos de historial en Cora Max.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 9
 group: Intelligence
 ---
@@ -16,6 +16,8 @@ Cora Max muestra los mismos análisis que el teléfono, en una pantalla que se l
 El resumen diario aparece en el panel y también tiene su propia pantalla. Ahí ves las puntuaciones de Estabilidad y Datos, el resumen y los análisis en los que se basan.
 
 Qué significan las puntuaciones se explica en [Reef Buddy](/help/mobile-reef-buddy).
+
+Después de anotar una prueba o de añadir un resultado de ICP, la pantalla muestra **Hay mediciones nuevas desde este resumen** y un botón **Actualizar el resumen**. Tócalo para rehacer el resumen con los números nuevos. Funciona una vez al día: después, la pantalla dice *Puedes actualizar el resumen una vez al día. Próxima actualización: mañana.*
 
 ## Resultados de ICP
 
@@ -33,9 +35,11 @@ Puedes generar y leer un informe de salud en la pantalla de pared. Es la misma e
 
 ## Gráficos de historial
 
-Cualquier parámetro se puede abrir como gráfico a pantalla completa, con los mismos rangos que en el teléfono. En una pantalla de pared es la mejor forma de ver una deriva lenta. Un mes de alcalinidad a pantalla completa enseña una tendencia que en una casilla pequeña no se ve.
+Abre el **menú del acuario** y toca **Historial de parámetros**. Elige un parámetro en **Elige un parámetro** y se abre como gráfico a pantalla completa. Si tocas una casilla del panel, se abre el mismo gráfico. En una pantalla de pared es la mejor forma de ver una deriva lenta. Un mes de alcalinidad a pantalla completa enseña una tendencia que en una casilla pequeña no se ve.
 
-Con los filtros eliges qué lecturas ver: **Todos**, **Apex**, **Manual**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. Cada fuente tiene su color, y los filtros sirven también de leyenda. Los puntos de ReefBeat y AquaWiz son cuadrados, y las lecturas que tomó alguien (Manual e ICP) salen como puntos más grandes. **Todos** muestra cada fuente por separado y nunca mezcla en una media las lecturas de fuentes distintas.
+El nombre del parámetro en la cabecera es un desplegable, así que puedes pasar a otro parámetro y conservar el periodo. Otros dos desplegables fijan el **Periodo** y la **Fuente**: **Todas las fuentes**, o una de **Apex**, **Manual**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. **Comparar** dibuja un segundo parámetro en el mismo gráfico, y la lista incluye todos los parámetros del acuario. Cada fuente tiene su color. Los puntos de ReefBeat y AquaWiz son cuadrados, y las lecturas que tomó alguien (Manual e ICP) salen como puntos más grandes. **Todas las fuentes** muestra cada fuente por separado y nunca mezcla en una media las lecturas de fuentes distintas.
+
+Más información en [Ver un parámetro a fondo](/help/mobile-metric-detail).
 
 ## Itinerarios guiados
 

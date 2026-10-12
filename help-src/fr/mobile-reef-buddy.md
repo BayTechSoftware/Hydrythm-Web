@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Votre briefing du matin : ce qu’il contient, quand il arrive et comment lire ses scores.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -33,6 +33,18 @@ Enfin, **les observations**, c’est-à-dire les constats un par un. Chacune a u
 Les observations sont triées avant de vous arriver. Une observation doit se vérifier sur plusieurs mesures, pas sur une seule. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne vous aurait pas déjà montré.
 
 Touchez la carte dans le tableau de bord pour ouvrir le briefing complet.
+
+## Mettre à jour le briefing avec un nouveau test
+
+Si vous enregistrez un test à la main ou ajoutez un résultat ICP après la parution du briefing, la carte du briefing complet affiche **Nouvelles mesures depuis ce briefing** avec un bouton **Mettre à jour le briefing**. Touchez-le et Cora refait le briefing avec les nouveaux chiffres. Vous pouvez le faire une fois par jour pour chaque foyer. Ensuite, le bouton est grisé et indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
+
+Les mesures des sondes et des contrôleurs ne déclenchent pas cette proposition, car elles arrivent toute la journée.
+
+## Pourquoi vous voyez une observation
+
+Sous une observation, touchez **Pourquoi je vois ceci ?** La feuille **Pourquoi vous voyez ceci** liste les **Mesures utilisées**, la **Cible de comparaison** (votre propre cible, ou une plage de référence), tout ce qui vient **Dans votre journal** et qui a été pris en compte, et la **Fenêtre d’analyse (jours)** examinée. Si le raisonnement ne correspond pas à votre aquarium, répondez à l’observation comme décrit plus bas dans « Réagir à une observation ».
+
+Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de lumière de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité saisie à la main à côté de celle d’un appareil, les totaux de vos têtes DŌS et, si vous avez un moniteur d’air ambiant Inkbird en Beta, la température et l’humidité de la pièce. Inkbird n’est ouvert qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
 
 ## Quand il arrive
 
@@ -79,7 +91,7 @@ Vous pouvez répondre à chaque observation de quatre façons.
 | **Le savais déjà** | C’est juste, mais vous le saviez |
 | **Pas sûr** | Vous ne pouvez pas encore juger |
 
-Vos réponses influencent ce qui passe en tête des briefings suivants. Une observation écartée ne l’est que **pour un temps**. Si la situation dure, elle revient.
+Quand Reef Buddy signale une dérive, il demande aussi *Cet avertissement était-il utile ?* Vous pouvez répondre **Utile**, **Pas utile**, **Ce changement est prévu** ou **La mesure semble erronée**. Vos réponses influencent ce qui passe en tête des briefings suivants. Une observation écartée ne l’est que **pour un temps**. Si la situation dure, elle revient.
 
 :::note Les constats sérieux ne sont jamais écartés
 Vos réponses ne peuvent atténuer que les observations de faible gravité. Les observations d’avertissement et les observations critiques continuent d’apparaître, quelles que soient vos réponses passées.

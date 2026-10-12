@@ -2,7 +2,7 @@
 title: Dein Dashboard bearbeiten
 description: Leg die Spaltenzahl fest, füge Widgets hinzu, ordne sie an, ändere ihre Größe und speichere Layouts, die du für andere Becken wiederverwenden kannst.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Cora bietet dir nur Quellen an, die es für das Becken gibt. Ein Wasserwert ohne
 
 ## Größe ändern
 
-Ein Widget belegt eine oder zwei Spalten und eine oder zwei Zeilen. Die Größe stellst du in den Einstellungen des Widgets ein.
+Ein Widget belegt eine oder zwei Spalten und eine oder zwei Zeilen. Die Größe stellst du in den Einstellungen des Widgets ein. Eine Kamera-Kachel (Beta) kann bis zu drei Spalten breit sein. Kameras stehen nur Beta-Nutzern offen. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 Ein **Trend**-Widget ist immer mindestens zwei Spalten breit.
 
@@ -86,3 +86,13 @@ Messwerte, Historie und Tagebucheinträge speichert Cora getrennt vom Layout. Be
 ## Das Cora Max-Dashboard bearbeiten
 
 Das Dashboard auf dem Cora Max bearbeitest du separat unter **Geräte → dein Cora Max → Dashboard bearbeiten**. Es hat ein festes Raster, das nicht scrollt. Mehr dazu unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).
+
+### Mit KI gestalten
+
+Mit einem kostenpflichtigen Tarif hat der Editor oben ein Funkelsymbol mit der Beschriftung **Mit KI gestalten**. Tippe darauf, und Cora schlägt ein ganzes Layout vor, passend zu dem, was dieses Becken meldet und verknüpft hat. Mit einem kostenlosen Tarif zeigt das Symbol ein Schloss (**Mit KI gestalten (bezahlte Tarife)**) und öffnet die Tarife.
+
+Der Vorschlag zeigt, wie viele Kacheln er hat und wie groß das Raster ist. Tippe auf **Verwenden**, um ihn in den Editor zu übernehmen, oder auf **Erneut versuchen** für einen anderen. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
+
+Ein KI-Entwurf ersetzt, was auf dem Dashboard ist, das du gerade bearbeitest. Auf dem Cora Max kommt nichts an, bis du auf **Speichern & veröffentlichen** tippst, du kannst also immer noch verlassen, ohne zu speichern. Willst du dein aktuelles Layout vorher behalten, speichere es unter **Meine Dashboards**.
+
+Mit KI gestalten braucht die eingeschaltete Datenfreigabe für KI in den Einstellungen. Ist sie aus, wirst du darauf hingewiesen und kannst sie einschalten und es noch einmal versuchen. Hat das Becken noch keine Messwerte oder verknüpften Geräte, gibt es nichts, woraus sich ein Entwurf machen ließe.

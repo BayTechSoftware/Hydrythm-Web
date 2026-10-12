@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Readings stopped, a device went offline, an alert won't clear, or something just looks wrong. Start here.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ The age badge is right. Nothing new has come in.
 - **Hand-logged parameters** go stale when nobody has entered a reading. Log one.
 - **Equipment readings** go stale when the device stops reporting. Check its row in **Devices**.
 - **Some equipment only reports now and then.** A titrator that measures hourly will usually show `1h`. That's normal.
+
+## "[Device]: stopped reporting"
+
+Cora sends this when a device goes quiet. It doesn't mean the device is broken, only that Cora hasn't heard from it for a while.
+
+- A Neptune Apex or Red Sea ReefBeat unit counts as quiet after about 30 minutes. AquaWiz takes about 3 hours.
+- A Jecod or Maxspect pump counts as quiet after three missed readings in a row, counted on that device's own reading interval.
+- An EcoTech device or an Inkbird monitor, both Beta, counts as quiet after three missed readings in a row too, counted on the reading interval you set. Light-only EcoTech networks are read every 30 minutes by default, so allow at least 90 minutes.
+
+1. Check the device's power, and its Wi-Fi or Bluetooth range.
+2. Check that the Cora Max reading it is switched on and online.
+3. Wait for the next reading. You get a second notification once it's reporting again.
+
+More in [Alerts and thresholds](/help/mobile-alerts). Beta devices are explained in [Beta features](/help/mobile-beta).
 
 ## A device cannot be reached
 
@@ -55,6 +69,15 @@ Look at the status tag in the top bar. **Online** and **Cloud** are both fine. I
 - Check Wi-Fi under **Settings → Cora Max Settings → Wi-Fi**.
 - Check that your network itself is working.
 - If the tag says **Online** or **Cloud** and the data is still old, the problem is somewhere before Cora Max. Check the same tank on your phone.
+
+## Cora Max shows "Cloud save refused"
+
+This tag in the top bar means Cora Cloud is refusing to save some of this screen's data. Nothing is wrong with your tank or with Cora Max, and nothing needs changing on the screen. The fix is a Cora Cloud update.
+
+1. Open **Settings → Cora Max Settings → Firmware Update** and look in the **Status** section. The **Cloud save** line says which data is being refused, for example a device's readings or outlets.
+2. [Contact support](/support.html) and tell us what that line says.
+
+Your readings keep showing on Cora Max in the meantime. They just aren't saved to your account until the fix is in.
 
 ## An alert is not clearing
 
@@ -102,6 +125,8 @@ If that doesn't fix it, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with t
 
 ## "GHL API is off"
 
+GHL is a Beta integration. See [Beta features](/help/mobile-beta).
+
 GHL turns its official API off after every firmware update, so this is normal after an update, not a fault. Turn it back on from **System → GHL API** in GHL Control Center or GHL Connect, on the controller itself. Cora keeps checking and reconnects on its own once it's back on.
 
 ## "GHL controller unreachable"
@@ -138,13 +163,13 @@ If it still fails, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the ta
 
 ## "Could not reach that gyre. No feed was started."
 
-A Maxspect gyre (a beta integration) didn't respond when Cora tried to start feed mode on it. Check the gyre is powered on and on its network, then tap **Retry**.
+A Maxspect gyre (a Beta integration) didn't respond when Cora tried to start feed mode on it. Check the gyre is powered on and on its network, then tap **Retry**.
 
 If it still fails, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the tank and device name.
 
 ## "Could not reach that gyre. Its program was not changed."
 
-Cora couldn't get a new schedule through to a Maxspect gyre (a beta integration). Make sure your phone or Cora Max is on the gyre's network, then tap **Retry** on the schedule screen.
+Cora couldn't get a new schedule through to a Maxspect gyre (a Beta integration). Make sure your phone or Cora Max is on the gyre's network, then tap **Retry** on the schedule screen.
 
 If it still fails, email [cora@coraiq.tech](mailto:cora@coraiq.tech) with the tank and device name.
 
@@ -278,7 +303,7 @@ If you still see it, email [cora@coraiq.tech](mailto:cora@coraiq.tech).
 
 That's the tank's display units setting. Your data is fine, and values are stored the same way however they're shown.
 
-1. Open **Settings** for that tank and check its display units.
+1. Open **Settings**, open that tank and choose **Units**.
 2. Change them there. Every phone and Cora Max showing that tank updates to match.
 
 Still stuck? Email [cora@coraiq.tech](mailto:cora@coraiq.tech).

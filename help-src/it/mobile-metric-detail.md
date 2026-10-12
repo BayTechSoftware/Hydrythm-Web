@@ -2,26 +2,28 @@
 title: Approfondire un parametro
 description: Tocca un widget per vedere lo storico completo, tutte le fonti che misurano il parametro e dove cambiarne l'intervallo.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Your dashboard
 ---
 
 Il widget ti mostra un numero. Se lo tocchi, vedi la storia che c'è dietro.
 
+Ci sono due modi per arrivarci. Tocca un widget nella dashboard, oppure tocca **Storico parametri** nella riga di pulsanti sotto i widget e scegli un parametro. **Storico parametri** elenca ogni parametro che ha dati, anche uno senza widget nella dashboard.
+
 ## Cosa trovi
 
-![Approfondire un parametro](img/mobile-metric-detail.webp "Intervalli in alto, poi le fonti che riportano questo parametro, poi il grafico con la tua fascia di avviso ombreggiata.")
+![Approfondire un parametro](img/mobile-metric-detail.webp "I menu a tendina in alto, poi il grafico con la tua fascia di avviso ombreggiata.")
 
-**Un grafico dello storico**, con il suo selettore del periodo: **1h · 6h · 12h · 24h · 3d · 7d** e periodi più lunghi.
+**Un grafico dello storico.** Tre menu a tendina sopra il grafico impostano cosa mostra. **Parametro** passa a qualsiasi altro parametro che ha dati e mantiene il periodo. **Periodo** va da 1h a 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d e 360d fino a Tutto. **Fonte** parte da **Tutte le fonti** ed elenca le fonti che misurano questo parametro in questa vasca, per esempio *Apex*, *Cora*, *Red Sea* o *Manuale*. Scegline una per vedere solo le sue letture. Così confronti una sonda con un test: passi dall'una all'altro sullo stesso grafico.
 
-**Un filtro per fonte.** Sotto i periodi c'è una fila di etichette: **Tutte** e una per ogni fonte che misura il parametro, per esempio *Apex*, *Cora*, *Red Sea* o *Manuale*. Scegline una per vedere solo le sue letture. Così confronti una sonda con un test: passi dall'una all'altro sullo stesso grafico.
+La schermata si apre sempre su 24h e **Tutte le fonti**. Non ricorda quello che avevi scelto l'ultima volta.
 
 **Un collegamento al calcolatore di dosaggio**, per i parametri che dosi. Usa il volume indicato nel [profilo della vasca](/help/mobile-tank-profile) e le concentrazioni impostate in [Dosaggio](/help/mobile-dosing).
 
-**Un confronto sovrapposto.** Con *Confronta con* disegni un secondo parametro sullo stesso grafico (alcalinità e calcio, pH e temperatura). Se sospetti un legame tra i due, lo vedi a colpo d'occhio.
+**Un confronto sovrapposto.** Con **Confronta** disegni un secondo parametro sullo stesso grafico (alcalinità e calcio, pH e temperatura). L'elenco ha tutti i parametri che la vasca possiede. Se sospetti un legame tra i due, lo vedi a colpo d'occhio. Tocca di nuovo il chip per togliere la seconda linea.
 
-**Statistiche del periodo** visualizzato: **MIN**, **MEDIA** e **MAX**, in una riga sotto il valore attuale.
+**Statistiche del periodo** visualizzato: una riga con **Ultimo**, **Min**, **Media** e **Max**.
 
 **Indicatori di dosaggio** sul grafico, per confrontare un movimento con quello che hai dosato davvero.
 
@@ -48,7 +50,9 @@ Una linea ferma può voler dire che il parametro è stabile o che la fonte ha sm
 
 ## Confrontare le fonti
 
-Quando più fonti misurano lo stesso parametro, Cora le tiene separate e non ne fa la media. Usa le etichette delle fonti per vederle una alla volta.
+Quando più fonti misurano lo stesso parametro, Cora le tiene separate e non ne fa la media. Usa il menu a tendina **Fonte** per vederle una alla volta.
+
+Quella che compare nella dashboard è la più recente. Un valore in diretta viene sostituito solo da una lettura con un orario di misura più recente, da qualsiasi fonte. Una lettura più vecchia va nello storico e non sovrascrive quello che c'è sul widget. Se hai fissato una fonte per il widget, Cora segue invece quella fonte.
 
 Se tra una sonda e un test registrato a mano c'è una differenza costante, di solito la sonda va calibrata.
 
@@ -76,7 +80,7 @@ Se registri da qui una calibrazione o una pulizia, la data resta associata a que
 
 ## Registrare una lettura a mano
 
-Inserisci il risultato del tuo test. Le letture inserite a mano valgono come tutte le altre: hanno fonte e orario, compaiono sul grafico, arrivano a Reef Buddy, e Cora le usa come riferimento per la tua attrezzatura.
+Inserisci il risultato del tuo test. L'elenco è raggruppato, e il gruppo **Oligoelementi** comprende iodio, ferro e rame in µg/L, e potassio in mg/L. Le letture inserite a mano valgono come tutte le altre: hanno fonte e orario, compaiono sul grafico, arrivano a Reef Buddy, e Cora le usa come riferimento per la tua attrezzatura.
 
 :::note Cora ricontrolla i valori strani
 Se un valore è molto lontano da quelli registrati finora, Cora ti chiede di confermarlo prima di salvarlo. Così intercetta una virgola al posto sbagliato o una lettura inserita nel parametro sbagliato. Se confermi, la lettura viene salvata normalmente.

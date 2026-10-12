@@ -2,7 +2,7 @@
 title: Reef Buddy i raporty
 description: Codzienny briefing, wyniki ICP, raporty zdrowia i wykresy historii na Cora Max.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 9
 group: Intelligence
 ---
@@ -16,6 +16,8 @@ Cora Max pokazuje te same analizy co telefon, ale na ekranie, który przeczytasz
 Codzienny briefing widać na pulpicie. Ma też własny pełny ekran z ocenami **Stabilność** i **Dane**, podsumowaniem i obserwacjami, z których wynikają oceny.
 
 Co oznaczają oceny, przeczytasz w [Reef Buddy](/help/mobile-reef-buddy).
+
+Po zapisaniu testu albo dodaniu wyniku ICP ekran pokazuje **Są nowe pomiary od tego podsumowania** i przycisk **Zaktualizuj podsumowanie**. Dotknij go, a briefing zostanie przygotowany od nowa z nowymi liczbami. Działa to raz dziennie: potem ekran pisze *Podsumowanie możesz aktualizować raz dziennie. Następna aktualizacja: jutro.*
 
 ## Wyniki ICP
 
@@ -33,9 +35,11 @@ Raport zdrowia możesz uruchomić i przeczytać na Cora Max. To ta sama ocena, k
 
 ## Wykresy historii
 
-Każdy parametr możesz otworzyć jako wykres na pełnym ekranie, z tymi samymi zakresami co na telefonie. Na ekranie na ścianie najlepiej widać tak powolne zmiany. Miesiąc alkaliczności na pełnym ekranie pokaże trend, którego nie zobaczysz na małym kafelku.
+Otwórz **menu akwarium** i dotknij **Historia parametrów**. Wybierz parametr w **Wybierz parametr**, a otworzy się jako wykres na pełnym ekranie. Dotknięcie kafelka na pulpicie otwiera ten sam wykres. Na ekranie na ścianie najlepiej widać tak powolne zmiany. Miesiąc alkaliczności na pełnym ekranie pokaże trend, którego nie zobaczysz na małym kafelku.
 
-Plakietki wybierają, które odczyty widać: **Wszystkie**, **Apex**, **Ręczne**, **ICP**, **Cora**, **ReefBeat** albo **AquaWiz**. Każde źródło ma swój kolor, a plakietki działają też jako legenda. Punkty ReefBeat i AquaWiz mają kształt kwadratów, a odczyty wykonane przez człowieka (**Ręczne** i **ICP**) to większe kropki. **Wszystkie** pokazuje źródła obok siebie i nigdy nie uśrednia odczytów z różnych źródeł.
+Nazwa parametru w nagłówku to lista rozwijana, więc możesz przejść do innego parametru i zachować zakres czasu. Dwie kolejne listy ustawiają **Zakres czasu** i **Źródło**: **Wszystkie źródła** albo jedno z **Apex**, **Ręczne**, **ICP**, **Cora**, **ReefBeat** lub **AquaWiz**. **Porównaj** rysuje drugi parametr na tym samym wykresie, a lista zawiera każdy parametr, który ma akwarium. Każde źródło ma swój kolor. Punkty ReefBeat i AquaWiz mają kształt kwadratów, a odczyty wykonane przez człowieka (**Ręczne** i **ICP**) to większe kropki. **Wszystkie źródła** pokazuje źródła obok siebie i nigdy nie uśrednia odczytów z różnych źródeł.
+
+Więcej w [Szczegóły parametru](/help/mobile-metric-detail).
 
 ## Przewodniki krok po kroku
 

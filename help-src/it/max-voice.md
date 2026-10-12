@@ -2,7 +2,7 @@
 title: Parlare con Cora
 description: La voce su Cora Max: come iniziare una conversazione, cosa puoi chiedere e come funzionano le conferme.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Cora Assistant avvia subito la conversazione, senza chiederti conferma. Se l'hai
 - *"Avvia la modalità alimentazione."*
 - *"Rimetti la ventola in automatico."*
 - *"Annota che ho fatto un cambio d'acqua di venti litri."*
+- *"Annota che ho dato mysis extra."* oppure *"Annota che ho saltato il pasto del mattino."*
 
 **Domande successive.** Non devi ripetere tutto. Dopo una domanda sulla vasca principale funziona anche *"e la vasca delle talee?"*.
 

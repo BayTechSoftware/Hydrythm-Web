@@ -2,7 +2,7 @@
 title: Bildirimler
 description: Telefonunuza nelerin geleceğini seçin ve kaçırdığınız bildirimleri nerede okuyacağınızı öğrenin.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Her kategoriyi ayrı ayrı açıp kapatabilirsiniz:
 | Kategori | Neleri kapsar |
 |---|---|
 | **Parametre Uyarıları** | Belirlediğiniz aralığın dışına çıkan su değerleri |
-| **Bakım Hatırlatıcıları** | Su değişimi gibi planladığınız işler |
+| **Bakım Hatırlatıcıları** | Su değişimi gibi planladığınız işler ve yeni bir akvaryumda üç gün sonra hâlâ ölçüm yoksa ilk testinizi kaydetmenizi hatırlatan tek seferlik bir bildirim |
 | **Ekipman Arızaları** | Sorun bildiren cihazlar. Örneğin test yapmayı bırakmış bir Trident |
 | **Sarf Malzemesi Azalıyor** | Reaktif, tamamlama suyu, dozaj kapları ve dolan atık şişesi |
 | **ICP Raporu Hazır** | ICP sonuçlarınızın analizi bitti, okuyabilirsiniz |

@@ -2,7 +2,7 @@
 title: Cihazlar ve cihaz sağlığı
 description: Cora Max'in gördüğü cihazlar, her akvaryumu hangi cihazın yokladığı ve yoklama durunca neye bakmanız gerektiği.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Equipment
 ---
@@ -15,7 +15,9 @@ group: Equipment
 
 Cora Max telefonunuzla aynı ekipmanı görür, çünkü ikisi de aynı hesabı okur.
 
-Üstteki filtre çipleriyle **Tüm akvaryumlar**'ı ya da tek bir akvaryumu seçin. Her satırda bir durum noktası, cihazda ne olduğunu anlatan kısa bir özet (*21 priz · 4 besleme*, *19 test kaldı*) ve cihazın ait olduğu akvaryum yazar.
+Üstteki filtre çipleriyle **Tüm akvaryumlar**'ı ya da tek bir akvaryumu seçin. Her satırda bir durum noktası (Cora henüz bilmiyorsa gri, çalışıyorsa yeşil, uyarı ya da arıza varsa turuncu, çevrimdışıysa kırmızı), cihazda ne olduğunu anlatan kısa bir özet (*21 priz · 4 besleme*, *19 test kaldı*) ve cihazın ait olduğu akvaryum yazar.
+
+Her cihaz sayfası bir **Durum** bölümüyle açılır. Cora Max, hesabınızın bağladığı Beta cihazları da gösterir, örneğin EcoTech ışıkları, pompaları ve dozajlayıcıları, Inkbird oda havası monitörleri ve kameralar. Beta erişiminin kendisi telefon tarafında bir şeydir: [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
 
 Cora Max cihazları gösterir ve kontrol eder, ama her cihaz telefonunuzdan eklenir, atanır ve kaldırılır. Henüz hiç cihaz yoksa bu ekranda **Cora uygulamasında cihaz ekleyin** yazar. Ekipman eklemenin ayrıntıları [Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices) sayfasında.
 

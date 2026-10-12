@@ -1,8 +1,8 @@
 ---
 title: Ekipmanınızı bağlama
-description: Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz, GHL ve HYDROS ekipmanlarını Cora'ya bağlayın.
+description: Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz ve Beta aşamasında Maxspect, GHL, HYDROS, Focustronic ve Inkbird ekipmanlarını Cora'ya bağlayın.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 10
 group: Equipment
 ---
@@ -11,15 +11,21 @@ Cora, zaten sahip olduğunuz ekipmanla çalışır. Bu sayfada hangi ekipmanlar�
 
 Hepsi aynı şekilde başlar: **Cihazlar → Cihaz Ekle**, ardından markayı seçin. Her biri ekipmanınızı bulmak için tam olarak gerekeni açar.
 
+*(Beta)* ile işaretli markalar yalnızca Beta kullanıcılarına açıktır. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+
 | Marka | Ne açılır |
 |---|---|
 | Cora | Yeni bir Cora Max için Wi-Fi ya da Bluetooth üzerinden tarama |
 | Neptune Apex | Ağdaki adresi, giriş bilgisi, ardından hangi akvaryuma ait olduğu |
 | Red Sea | Ağınızda tarama, ardından her ünitenin hangi akvaryuma ait olduğu |
 | Jecod / Jebao | Ağınızda tarama ya da Bluetooth |
-| Maxspect *(beta)* | Jecod ile aynı tarama |
-| GHL *(beta)* | Adresi, arayüzü ve mini için giriş bilgisi |
-| HYDROS *(beta)* | HYDROS uygulamasından bir cihaz anahtarı |
+| Maxspect *(Beta)* | Jecod ile aynı tarama |
+| GHL *(Beta)* | Adresi, arayüzü ve mini için giriş bilgisi |
+| HYDROS *(Beta)* | HYDROS uygulamasından bir cihaz anahtarı |
+| Focustronic *(Beta)* | Focustronic girişiniz, ardından her cihazın hangi akvaryuma ait olduğu |
+| EcoTech *(Beta)* | Radion ışıkları, VorTech pompaları ve Versa dozajlayıcıları için Bluetooth taraması. Bkz. [EcoTech ışıkları, pompaları ve dozajlayıcıları](/help/mobile-ecotech) |
+| Inkbird *(Beta)* | Oda havası monitörünüz için Bluetooth taraması |
+| Kamera *(Beta)* | Wyze, Tapo, Sonoff ya da başka bir RTSP kamera. Bkz. [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras) |
 | AquaWiz | AquaWiz giriş bilgileriniz |
 
 ## Neptune Apex
@@ -36,11 +42,11 @@ Cora Apex'inizi okur, diğer ekipmanlarla birlikte gösterir ve siz isteyince pr
 
 ## Red Sea ReefBeat
 
-Cora, yerel ağınızdaki ReefBeat ekipmanlarıyla bağlantı kurar. Desteklenen üniteler **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** ve beta aşamasında **ReefControl**, **ReefControl Power**, **ReefWave** ile **ReefLED**'dir.
+Cora, yerel ağınızdaki ReefBeat ekipmanlarıyla bağlantı kurar. Desteklenen üniteler **ReefDose**, **ReefATO+**, **ReefMat**, **ReefRun** ve Beta aşamasında **ReefControl**, **ReefControl Power**, **ReefWave** ile **ReefLED**'dir.
 
 Ekipmanın ReefBeat'te önceden kurulmuş olması gerekir. Eklerken ekipman ve telefonunuz aynı ağda olmalıdır. **Cihazlar → Cihaz Ekle → Red Sea**'den ekleyin; bu seçenek ağınızı tarar ve her ünitenin hangi akvaryuma ait olduğunu sorar. Bir Red Sea ünitesi tek bir akvaryuma hizmet eder: farklı bir akvaryum seçmek üniteyi oraya taşır.
 
-Her ünite için bir cihaz sayfası açılır. Her ünitenin ölçümleri de kaynak olarak görünür. ReefDose kafalarını ve kaplarını, ReefATO+ rezervuarını ve dolumlarını, ReefMat kalan gün sayısını, ReefRun da pompa durumunu bildirir. ReefControl da problarını aynı şekilde bildirir. ReefWave ve ReefLED *(beta)* şimdilik yalnızca modunu gösterir, yalnızca görüntüleme.
+Her ünite için bir cihaz sayfası açılır. Her ünitenin ölçümleri de kaynak olarak görünür. ReefDose kafalarını ve kaplarını, ReefATO+ rezervuarını ve dolumlarını, ReefMat kalan gün sayısını, ReefRun da pompa durumunu bildirir. ReefControl da problarını aynı şekilde bildirir. ReefWave ve ReefLED *(Beta)* şimdilik yalnızca modunu gösterir, yalnızca görüntüleme.
 
 ## Jecod / Jebao
 
@@ -82,11 +88,11 @@ AquaWiz her hesap için tek bir oturum verir. Cora'nın kullandığı oturum, Aq
 
 ## Maxspect
 
-:::note Maxspect desteği beta aşamasında
-Maxspect gyre desteğinin testleri ve geliştirmesi sürüyor. Bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::note Beta
+**Beta.** Maxspect Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
 :::
 
-Cora, Maxspect Gyre pompalarına bağlanır. Pompaları okuyabilir ve çalıştırabilir. **Cihazlar → Cihaz Ekle → Maxspect**'ten bir tane ekleyin; bu, Jecod'un kullandığı taramanın aynısıdır.
+Cora, Maxspect Gyre pompalarına bağlanır. Pompaları okuyabilir ve çalıştırabilir. **Cihazlar → Cihaz Ekle → Maxspect**'ten bir tane ekleyin; bu, Jecod'un kullandığı taramanın aynısıdır. Akvaryumda bir Cora Max gerekir. Yoksa satırda **Cora Max Gerektirir** yazar.
 
 Eklerken gyre ile telefonunuz aynı ağda olmalıdır.
 
@@ -98,13 +104,13 @@ Akvaryuma bağlı bir Cora Max varsa Cora Mobile, evden uzaktayken de o Cora Max
 
 ## GHL ProfiLux ve Mitras
 
-:::note GHL desteği beta aşamasında
-GHL desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::note Beta
+**Beta.** GHL Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bazı ölçümler ya da kontroller henüz çalışmayabilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
 :::
 
 Cora, bir GHL ProfiLux ya da Mitras kontrol cihazını okur: problar, prizler, dozaj üniteleri, seviye sensörleri ve Director modellerinde KH ile iyon test sonuçları.
 
-**Cihazlar → Cihaz Ekle → GHL**'den ekleyin. Telefonunuz bu cihazı tarayamaz, bu yüzden adresini kendiniz girer ve arayüzü kendiniz seçersiniz: **Official API**, **HTTP** ya da (girişi de gereken) **ProfiLux mini**. Ardından hangi akvaryuma ait olduğunu seçersiniz. Bir GHL kontrol cihazı birden fazla akvaryuma hizmet edebilir.
+**Cihazlar → Cihaz Ekle → GHL**'den ekleyin. Akvaryumda bir Cora Max gerekir, yoksa satırda **Cora Max Gerektirir** yazar. Telefonunuz bu cihazı tarayamaz, bu yüzden adresini kendiniz girer ve arayüzü kendiniz seçersiniz: **Official API**, **HTTP** ya da (girişi de gereken) **ProfiLux mini**. Ardından hangi akvaryuma ait olduğunu seçersiniz. Bir GHL kontrol cihazı birden fazla akvaryuma hizmet edebilir.
 
 GHL kontrol cihazı telefonunuzla doğrudan konuşmaz. Ağındaki bir Cora Max onu okuyana kadar **Cora Max bekleniyor** yazar, ardından ölçümleri ve kontrolleri her yerde görünür.
 
@@ -112,8 +118,8 @@ Cora'nın kontrol cihazına ulaşabilmesi için GHL API'sinin açık olması ger
 
 ## HYDROS
 
-:::note HYDROS desteği beta aşamasında
-HYDROS desteğinin testleri ve geliştirmesi sürüyor. Bazı ölçümler ya da kontroller henüz çalışmayabilir, burada gördükleriniz güncellemelerle değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
+:::note Beta
+**Beta.** HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bazı ölçümler ya da kontroller henüz çalışmayabilir. Bir şey anlatıldığı gibi çalışmıyorsa [Yardım alma](/help/mobile-support) sayfasındaki yoldan bize bildirin.
 :::
 
 HYDROS, Cora'nız ile kontrol cihazınızın aynı ağda olmasını gerektirmeyen tek entegrasyondur. Cora ona HYDROS'un kendi bulutu üzerinden ulaşır, bu yüzden evden uzaktayken, hatta Cora kapalıyken bile çalışmaya devam eder.
@@ -121,6 +127,34 @@ HYDROS, Cora'nız ile kontrol cihazınızın aynı ağda olmasını gerektirmeye
 Bağlamak için HYDROS uygulamasını açın ve **cora-iq** sağlayıcısı için bir **cihaz anahtarı** oluşturun. Yalnızca ölçümlerini istiyorsanız **Read**'i, Cora'dan da kontrol etmek istiyorsanız **Write**'ı seçin. Sonra **Cihazlar → Cihaz Ekle → HYDROS**'a gidin ve anahtarı yapıştırın.
 
 Bağlandıktan sonra Cora, geçmişinin son 33 gününü içe aktarır, ardından oradan itibaren okumaya devam eder. Neleri okuyabileceğinizi ve yazma anahtarıyla neleri kontrol edebileceğinizi [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında bulabilirsiniz.
+
+## Focustronic
+
+:::note Beta
+**Beta.** Focustronic Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
+:::
+
+Cora, Focustronic Alkatronic, Dosetronic ve Mastertronic cihazlarını Focustronic hesabınız üzerinden okur. Bu yüzden evden uzaktayken de çalışır ve Cora Max gerektirmez.
+
+**Cihazlar → Cihaz Ekle → Focustronic**'e gidin ve Focustronic uygulamasında kullandığınız hesapla giriş yapın. Her cihazın hangi akvaryuma ait olduğunu seçin, sonra **Cora'ya bağla**'ya dokunun. **Oturumu açık tut**, Cora'nın Focustronic şifrenizi şifreli olarak saklayıp kendiliğinden yeniden giriş yapmasını sağlar. Kapatırsanız Cora yalnızca geçici bir oturum tutar ve yeniden giriş yapmanız gerektiğinde size bildirim gönderir.
+
+Her cihaz durumunu, yazılım sürümünü, son testini ve bir Alkatronic için ölçtüğü alkalinite ile pH'ı gösterir. Ayrıca pompaları (her birinde ne kadar kaldığıyla), parametreleri, şişeleri ve reaktif ya da tampon uyarılarını görürsünüz. Cora, Focustronic'ten her 30 dakikada bir yeni ölçüm ister.
+
+**Kontroller** altında **Şimdi ölç**, bir pompadan **Şimdi dozla** (tek seferde en fazla 500 mL) ve bir Mastertronic'te **Şimdi test et** yapabilirsiniz. Her biri önce onayınızı ister. Cora bir dozu asla yeniden denemez, bu yüzden sonuç "bilinmiyor" diyorsa cihaza bakın. Komutlar Cora'nın denetlemediği Focustronic sunucularından geçer ve yalnızca cihaz çevrimiçiyken kullanılabilir.
+
+Focustronic girişi reddederse **Focustronic ekle**'yi açıp yeniden giriş yapın.
+
+## Inkbird oda havası monitörü
+
+:::note Beta
+**Beta.** Inkbird Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
+:::
+
+Cora, bir Inkbird IAM-T1 ya da IAM-T2 oda havası monitörünü okur. Akvaryumdaki bir Cora Max onu Bluetooth üzerinden okur ve Cora monitöre hiçbir şey yazmaz. Akvaryumda Cora Max olana kadar satırda **Cora Max Gerektirir** yazar.
+
+**Cihazlar → Cihaz Ekle → Inkbird**'e gidin, Cora yakındaki monitörleri tarar. Kendinizinkini seçin ve **Tanka bağla**'ya dokunun. Hiçbiri görünmezse yaklaşın ve **Yeniden tara**'ya dokunun. Bluetooth açık olmalı ve Cora'ya izin verilmiş olmalıdır.
+
+Monitörün sayfası son ölçümünü gösterir. **Örnekleme aralığı**, bir Cora Max'in onu ne sıklıkla okuyacağını belirler. Bir Cora Max onu okuyana kadar sayfada **Cora Max bekleniyor** yazar. Sessizleşirse **Veri göndermiyor** görünür ve Cora sizi uyarır. Oda ölçümleri [Reef Buddy](/help/mobile-reef-buddy)'yi de besler. Durdurmak için **Bağlantıyı kaldır**'a dokunun. Cora Max onu okumayı bırakır, geçmiş kalır.
 
 ## Elle girme
 

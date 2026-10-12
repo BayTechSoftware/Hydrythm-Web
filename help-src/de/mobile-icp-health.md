@@ -2,7 +2,7 @@
 title: ICP und Zustandsberichte
 description: Lade einen ICP-Test hoch, verfolge jedes Element über die Zeit und lass dein ganzes System gründlich bewerten.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 26
 group: Intelligence
 ---
@@ -16,6 +16,18 @@ Im Tab **Intelligenz** liegen deine Laborergebnisse und der Blick auf die lange 
 Tippe auf **ICP hochladen**, wähl dein Becken und füg das Ergebnis deines Labors hinzu. Cora liest den Bericht, speichert jedes Element und stellt es neben deine früheren Tests.
 
 Abtippen musst du nichts. Cora kommt mit den gängigen Laborformaten zurecht.
+
+## Welche E-Mail ein Labor nutzen kann
+
+Ein Labor oder ein per E-Mail verschicktes Ergebnis findet dein Konto über die E-Mail-Adresse, die es kennt. Das ist deine Anmelde-E-Mail plus jede Labor-E-Mail, die du unter **Einstellungen → deine Kontokarte → Labor- & ICP-E-Mails** hinzufügst.
+
+1. Tippe auf **Labor-E-Mail hinzufügen** und gib die Adresse ein, die dein Labor verwendet.
+2. Tippe auf **Code senden**. Cora schickt einen 6-stelligen Code an diese Adresse. Er läuft nach 10 Minuten ab.
+3. Gib den Code ein und tippe auf **Bestätigen**. Ist er nicht angekommen, tippe auf **Code erneut senden**.
+
+Du kannst bis zu 3 Labor-E-Mails hinzufügen. Jede zeigt **Bestätigt** oder **Wartet auf Code**, und mit **Entfernen** nimmst du eine wieder heraus. Danach erreichen Ergebnisse, die an sie gehen, dein Konto nicht mehr. Eine Adresse, die schon zu einem anderen Cora-Konto gehört, lässt sich nicht hinzufügen.
+
+Hast du dich mit einer versteckten Apple-E-Mail angemeldet, können Labore dein Konto nicht finden. Der ICP-Bildschirm zeigt dann eine Karte, **Laborergebnisse automatisch erhalten**, die dich zu dieser Einstellung führt. Wähl bei der Anmeldung mit Apple **E-Mail teilen**, dann gibt es das Problem nicht.
 
 ## An Cora senden: Ergebnisse direkt vom Labor oder per E-Mail
 
@@ -45,7 +57,15 @@ Du bekommst **eine Bewertung** von 0 bis 100 und eine verständliche Zusammenfas
 
 Die Bewertung ergibt sich aus deinen Ergebnissen im Vergleich zu ihren Zielbereichen, auch zu Bereichen, die du selbst festgelegt hast. Liegt ein Ergebnis außerhalb seines Bereichs, bleibt die Bewertung bei höchstens 70 und zeigt damit nie **Gesund**. Liegt eines weit außerhalb, bleibt sie bei höchstens 40, egal wie gut der Rest ist. Unter der Bewertung steht von 71 bis 100 **Gesund**, von 40 bis 70 **Braucht Aufmerksamkeit** und von 0 bis 39 **Kritisch**. Zustandsberichte werden genauso bewertet.
 
-Cora verfolgt **jedes Element**, von den wichtigsten Wasserwerten bis zu Spurenelementen und Schadstoffen.
+Cora verfolgt **jedes Element**, von den wichtigsten Wasserwerten bis zu Spurenelementen und Schadstoffen. Cora erfasst alle 71 Elemente, die ein Labor melden kann, und die Zeile, die manche Labore *Acidity* nennen, ist der pH-Wert.
+
+In jeder Elementzeile siehst du den Bereich, den das Labor gedruckt hat, als *Laborbereich*, neben Coras eigenem Bereich für dieses Element. Ein Element, für das Cora keinen Referenzbereich hat, trägt das Etikett **Kein Cora-Bereich**. Der Bericht sagt, für wie viele Elemente es einen Cora-Bereich gibt, und beurteilt den Rest nach allgemeinem Riffwissen. Cora Assistant kommentiert jedes getestete Element, und sein Kommentar gilt auch, wenn es keinen Cora-Bereich gibt.
+
+Druckt das Labor *n. n.* oder *nicht nachweisbar* für ein Element, erfasst Cora es als 0 und sagt, dass es nicht nachgewiesen wurde.
+
+:::note Gelöstes CO2 ist nicht das CO2 im Raum
+**Gelöstes CO₂** in einem ICP-Bericht ist das CO2 im Wasser, in mg/L. Das ist etwas anderes als das CO2 der Raumluft, das ein Inkbird-Raumluftmonitor (Beta) misst. Beide haben unterschiedliche Bereiche und werden nie vermischt. Siehe [Beta-Funktionen](/help/mobile-beta).
+:::
 
 Die Karte "Seit deinem letzten ICP" zeigt dir die **größten Veränderungen** seit dem letzten Test. Damit verstehst du einen neuen Bericht meist am schnellsten.
 
@@ -54,6 +74,10 @@ Unter **Trends** siehst du jedes Element über alle deine hochgeladenen Tests hi
 :::tip Ab dem zweiten Test wird es spannend
 Ein einzelner ICP zeigt dir, wo du stehst. Der zweite zeigt dir, in welche Richtung es geht, und damit kannst du mehr anfangen. Teste regelmäßig, nicht erst, wenn etwas nicht stimmt.
 :::
+
+## Ein RO/DI- oder Quellwassertest
+
+Lädst du eine Probe hoch, die RO/DI- oder anderes Quellwasser ist, sag das beim Hochladen. Cora bewertet sie nicht an den Zielwerten deines Beckens. Es gibt ein klares Urteil, ob das Wasser sauber genug zum Verwenden ist, und hält diese Zahlen aus den Messwerten deines Beckens heraus. Der Bericht vermerkt, wie viele Ergebnisse Quellwasser sind. Dasselbe macht Cora bei frisch angesetztem Salzwasser oder jeder anderen Probe, die kein Beckenwasser ist: Es sagt, wie die Probe aussieht, und bewertet sie nicht als dein Becken.
 
 ## Zustandsberichte
 

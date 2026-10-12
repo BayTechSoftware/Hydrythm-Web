@@ -2,7 +2,7 @@
 title: Setting up Cora Mobile
 description: Install Cora, create your account, add your first tank and get your first readings on screen.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Some parameters only come from a test kit. Scroll to the bottom of the dashboard
 ![Logging parameters](img/mobile-logparams.webp "Enter test-kit results for any parameter the tank tracks.")
 
 Cora saves each reading with its source and time. That's how it can tell you when a probe and a test kit disagree.
+
+### The first-test card
+
+A tank with no readings and no linked equipment shows a card at the top of the dashboard, **Log your first water test**. One reading is enough for Reef Buddy, alerts and insights to start working for you. Cora offers the same step right after you create a tank. Tap the card and choose one of these.
+
+- **Log test results now** opens the **Log Parameters** form.
+- **Link a device (Apex or Red Sea)** opens the Add Device flow. If your tank profile already lists a device Cora can link, the card names it instead, for example *Link your Neptune Apex*.
+- **Later** closes the sheet.
+- **Remind me to test every week** adds a weekly maintenance task called **Test water**. Pick the **Test day** first.
+
+Tap the cross on the card to hide it. The card goes away by itself once the tank has a reading or a linked source. Cora Max shows **Log your first test** on a tank with no data, too.
+
+If a tank still has no readings three days after you create it, Cora sends one reminder push. If none of your tanks has any readings, Cora also sends a short email on day 3 and day 10 after you signed up, once each. Both follow your **Maintenance Reminders** switch in **Settings → Notifications**, and the email has a line saying how to stop it.
 
 ## What good looks like
 

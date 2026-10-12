@@ -2,7 +2,7 @@
 title: Notificaciones
 description: Elige qué llega a tu teléfono y dónde ver lo que te perdiste.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Cada categoría tiene su propio interruptor.
 | Categoría | Qué incluye |
 |---|---|
 | **Alertas de parámetros** | La química del agua sale de un rango que fijaste |
-| **Recordatorios de mantenimiento** | Tareas que programaste, como los cambios de agua |
+| **Recordatorios de mantenimiento** | Tareas que programaste, como los cambios de agua, y un recordatorio único para anotar tu primera prueba cuando un acuario nuevo sigue sin lecturas a los tres días |
 | **Fallas de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir |
 | **Suministros bajos** | Reactivo, agua de rellenado y envases de dosificación que se acaban, y la botella de residuos llena |
 | **Informe ICP listo** | Tus resultados de ICP ya están analizados y puedes leerlos |

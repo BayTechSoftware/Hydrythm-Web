@@ -2,7 +2,7 @@
 title: Impostazioni
 description: Tutte le sezioni delle impostazioni di Cora Mobile: account, vasche, Cora Assistant, lingua, notifiche, automazione e attività.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ La scheda in alto mostra con quale account hai fatto l'accesso e che piano hai. 
 
 - **Nome visualizzato**: il nome con cui ti chiama Cora Mobile
 - **Piano e abbonamento**: cosa hai, cosa comprende e come cambiarlo
+- **Email laboratorio e ICP**: ti permette di aggiungere fino a 3 altri indirizzi email che il tuo laboratorio può usare per raggiungere il tuo account. Vedi [ICP e report di salute](/help/mobile-icp-health).
 - **Esci**
 - **Elimina account**: è definitivo. Prima di usarlo leggi le due note più sotto.
 
@@ -39,9 +40,15 @@ C'è una riga per ogni vasca, poi:
 - **Riordina vasche**: l'ordine in cui compaiono quando scorri la dashboard
 - **Vasche rimosse**: le vasche che hai eliminato, se ti serve recuperare qualcosa
 
-Apri una vasca per trovare **Cora Max principale** (il dispositivo che legge l'attrezzatura di quella vasca), **Configurazione guidata** e l'elenco in sola lettura **Dispositivi su questa vasca**, e per modificare la vasca. Tutto sul Cora Max principale in **[Più di un dispositivo Cora](/help/mobile-multi-device)**. Per aggiungere o rimuovere un dispositivo, usa la [scheda Dispositivi](/help/mobile-devices).
+Apri una vasca e la sua pagina delle impostazioni ha tre parti.
 
-- **Modalità vacanza**: un piano per chi si occupa della vasca mentre sei via. Tutti i dettagli in **[Andare in vacanza](/help/mobile-vacation)**. Imposti le date e fai una lista dei lavori, indicando ogni quanto va fatto ciascuno. Cora la trasforma in una pagina semplice, in sola lettura, da condividere con chi ti sostituisce. Non serve un account.
+- **Impostazioni**: **Modifica vasca**, **Mappatura parametri**, **Soglie di avviso**, **Unità**, **Cora Max principale** e **Modalità vacanza**.
+- **Registri e rapporti**: **Diario**, **Manutenzione**, **Popolazione**, **Reef Buddy**, **Report di salute**, **Report ICP**, **Attività** e **Configurazione guidata**.
+- **Dispositivi su questa vasca**: un elenco in sola lettura.
+
+**Mappatura parametri** è dove scegli quale dispositivo alimenta ogni lettura. Vedi [Mappatura parametri](/help/mobile-probes). **Unità** imposta come questa vasca mostra le letture, compresi litri o galloni US o UK per il volume. Vedi [Il profilo della tua vasca](/help/mobile-tank-profile). **Cora Max principale** è il dispositivo che legge l'attrezzatura di quella vasca, ed è spiegato in **[Più di un dispositivo Cora](/help/mobile-multi-device)**. Per aggiungere o rimuovere un dispositivo, usa la [scheda Dispositivi](/help/mobile-devices).
+
+**Modalità vacanza**: un piano per chi si occupa della vasca mentre sei via. Tutti i dettagli in **[Andare in vacanza](/help/mobile-vacation)**. Imposti le date e fai una lista dei lavori, indicando ogni quanto va fatto ciascuno. Cora la trasforma in una pagina semplice, in sola lettura, da condividere con chi ti sostituisce. Non serve un account.
 
 ## Impostazioni app
 

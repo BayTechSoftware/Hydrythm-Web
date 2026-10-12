@@ -2,7 +2,7 @@
 title: Configurar Cora Mobile
 description: Instala Cora, crea tu cuenta, añade tu primer acuario y ve tus primeras lecturas en pantalla.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Algunos parámetros solo se pueden medir con un kit de pruebas. Baja hasta el fi
 ![Registrar parámetros](img/mobile-logparams.webp "Escribe los resultados del kit de pruebas de cualquier parámetro que siga el acuario.")
 
 Cada lectura se guarda con su fuente y su fecha y hora. Así Cora puede avisarte cuando una sonda y un kit de pruebas no coinciden.
+
+### La tarjeta de la primera prueba
+
+Un acuario sin lecturas y sin equipos vinculados muestra una tarjeta arriba del panel, **Registra tu primera prueba de agua**. Con una sola lectura, Reef Buddy, las alertas y los análisis ya empiezan a trabajar para ti. Cora te ofrece el mismo paso justo después de crear un acuario. Toca la tarjeta y elige una de estas opciones.
+
+- **Registrar los resultados ahora** abre el formulario **Registrar parámetros**.
+- **Vincular un dispositivo (Apex o Red Sea)** abre el flujo de Agregar dispositivo. Si el perfil de tu acuario ya incluye un dispositivo que Cora puede vincular, la tarjeta lo nombra, por ejemplo *Vincula tu Neptune Apex*.
+- **Más tarde** cierra la hoja.
+- **Recordarme probar cada semana** añade una tarea de mantenimiento semanal llamada **Probar el agua**. Elige antes el **Día de la prueba**.
+
+Toca la cruz de la tarjeta para ocultarla. La tarjeta desaparece sola cuando el acuario tiene una lectura o una fuente vinculada. Cora Max también muestra **Registra tu primera prueba** en un acuario sin datos.
+
+Si un acuario sigue sin lecturas tres días después de crearlo, Cora envía un único recordatorio push. Si ninguno de tus acuarios tiene lecturas, Cora también envía un correo breve el día 3 y el día 10 después de registrarte, una vez cada uno. Los dos siguen tu interruptor de **Recordatorios de mantenimiento** en **Ajustes → Notificaciones**, y el correo incluye una línea que explica cómo dejar de recibirlo.
 
 ## Cómo saber que todo está listo
 

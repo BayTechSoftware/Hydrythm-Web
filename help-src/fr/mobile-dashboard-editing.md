@@ -2,7 +2,7 @@
 title: Modifier votre tableau de bord
 description: Choisir le nombre de colonnes, ajouter et placer des widgets, changer la taille des tuiles et enregistrer des mises en page à réutiliser sur d’autres aquariums.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Seules les sources présentes sur l’aquarium sont proposées. Un paramètre sa
 
 ## Changer la taille
 
-Un widget prend une ou deux colonnes, et une ou deux lignes. La taille se règle dans les réglages du widget.
+Un widget prend une ou deux colonnes, et une ou deux lignes. La taille se règle dans les réglages du widget. Une tuile caméra (Beta) peut faire jusqu’à trois colonnes de large. Les caméras ne sont ouvertes qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
 
 Un widget de **tendance** fait toujours au moins deux colonnes de large.
 
@@ -86,3 +86,13 @@ Les mesures, l’historique et les entrées du journal sont stockés à part de 
 ## Modifier le tableau de bord Cora Max
 
 Le tableau de bord du Cora Max se modifie à part, dans **Appareils → votre Cora Max → Modifier le tableau de bord**. Sa grille est fixe et ne défile pas. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
+
+### Concevoir avec l’IA
+
+Avec un forfait payant, l’éditeur a en haut une icône d’étincelles intitulée **Concevoir avec l’IA**. Touchez-la et Cora propose une disposition complète à partir de ce que cet aquarium remonte et a associé. Avec un forfait gratuit, l’icône affiche un cadenas (**Concevoir avec l’IA (forfaits payants)**) et ouvre les forfaits.
+
+La proposition indique combien de tuiles elle contient et la taille de la grille. Touchez **Utiliser** pour la placer dans l’éditeur, ou **Réessayer** pour en obtenir une autre. Vous pouvez créer 5 propositions par aquarium et par jour.
+
+Une proposition de l’IA remplace ce qui se trouve sur le tableau de bord que vous modifiez. Rien n’arrive sur Cora Max tant que vous ne touchez pas **Enregistrer et publier**, vous pouvez donc encore quitter sans enregistrer. Pour garder d’abord votre disposition actuelle, enregistrez-la sous **Mes tableaux de bord**.
+
+Concevoir avec l’IA nécessite que le partage de données avec l’IA soit activé dans les Réglages. S’il est désactivé, l’application vous le dit, et vous pouvez l’activer puis réessayer. Si l’aquarium n’a encore aucune mesure ni appareil associé, il n’y a rien à partir de quoi concevoir.

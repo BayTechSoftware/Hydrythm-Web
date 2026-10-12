@@ -1,13 +1,13 @@
 ---
 title: Programmer l’équipement
-description: Créez un programme journalier pour une pompe Jecod, copiez-le vers d’autres pompes, et consultez le programme d’une pompe Maxspect (bêta).
+description: Créez un programme journalier pour une pompe Jecod, copiez-le vers d’autres pompes, et consultez le programme d’une pompe Maxspect (Beta).
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 12
 group: Equipment
 ---
 
-Les pompes, dont les pompes Gyre, peuvent suivre un **programme journalier**. C’est une suite de périodes, chacune avec sa propre intensité, qui se répète tous les jours. Cora peut créer ces programmes directement pour les pompes Jecod. Pour une pompe Maxspect *(bêta)*, vous pouvez seulement consulter le programme ici. Il se règle dans l’application Maxspect.
+Les pompes, dont les pompes Gyre, peuvent suivre un **programme journalier**. C’est une suite de périodes, chacune avec sa propre intensité, qui se répète tous les jours. Cora peut créer ces programmes directement pour les pompes Jecod. Pour une pompe Maxspect *(Beta)*, vous pouvez seulement consulter le programme ici. Il se règle dans l’application Maxspect. Maxspect n’est ouvert qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
 
 Ouvrez l’appareil depuis l’onglet **Appareils**.
 
@@ -32,7 +32,7 @@ Chaque écran de programme a trois parties.
 
 Pour **ajouter ou modifier une période**, touchez **Ajouter au programme** pour en créer une. Ouvrez une période pour la modifier, puis touchez **Enregistrer**, ou **Supprimer** pour la retirer. Cora vous demande de confirmer avant de la supprimer.
 
-Une pompe Maxspect *(bêta)* a deux têtes, Gyre A et Gyre B. Son graphique a donc deux pistes, une par tête, et ses plans sont listés sous **GYRE A** et **GYRE B**. Son programme est en lecture seule. La ligne d’action indique **Lecture seule**, et le programme se règle dans l’application Maxspect.
+Une pompe Maxspect *(Beta)* a deux têtes, Gyre A et Gyre B. Son graphique a donc deux pistes, une par tête, et ses plans sont listés sous **GYRE A** et **GYRE B**. Son programme est en lecture seule. La ligne d’action indique **Lecture seule**, et le programme se règle dans l’application Maxspect.
 
 :::warning Le programme est écrit dans l’appareil
 Quand vous enregistrez, le programme est envoyé à l’équipement, qui le suit ensuite avec sa propre horloge. Il continue de tourner, que Cora soit joignable ou non.

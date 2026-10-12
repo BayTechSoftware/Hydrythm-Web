@@ -83,8 +83,11 @@
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
 <li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
-<li><a href="/tr/help/mobile-probes">Problar</a></li>
+<li><a href="/tr/help/mobile-probes">Parametre Eşlemesi</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
+<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
+<li><a href="/tr/help/mobile-cameras">Kameralar ve Skimmer Gözcüsü</a></li>
+<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozajlayıcıları</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Uyarılar ve otomasyon</summary><ul>
@@ -170,13 +173,14 @@
       <h1>Parametre ayrıntıları</h1>
       <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#bu-ekranda-neler-var">Bu ekranda neler var</a></li><li><a href="#zaman-aral-seme">Zaman aralığı seçme</a></li><li><a href="#kaynaklar-karlatrma">Kaynakları karşılaştırma</a></li><li><a href="#widgetn-hangi-kayna-izleyeceini-seme">Widget&#x27;ın hangi kaynağı izleyeceğini seçme</a></li><li><a href="#hatal-lm-hari-tutma">Hatalı ölçümü hariç tutma</a></li><li><a href="#prob-bakmn-kaydetme">Prob bakımını kaydetme</a></li><li><a href="#elle-lm-girme">Elle ölçüm girme</a></li></ul></nav>
 <p>Widget size bir sayı gösterir. Widget'a dokunduğunuzda o sayının arkasındaki hikâyeyi görürsünüz.</p>
+<p>Ekrana iki yoldan girersiniz. Panodaki bir widget'a dokunun ya da widget'ların altındaki düğme satırında <strong>Parametre geçmişi</strong>'ne dokunup bir parametre seçin. <strong>Parametre geçmişi</strong>, panoda widget'ı olmasa bile verisi olan her parametreyi listeler.</p>
 <h2 id="bu-ekranda-neler-var">Bu ekranda neler var</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Parametre ayrıntıları"><img src="/help/img/mobile-metric-detail.webp" alt="Parametre ayrıntıları" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Üstte zaman aralıkları, altında bu parametreyi bildiren kaynaklar, en altta uyarı aralığı gölgeli grafik.</figcaption></figure>
-<p><strong>Geçmiş grafiği</strong> ve kendi zaman aralığı seçicisi: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> ve daha uzunları.</p>
-<p><strong>Kaynak filtresi.</strong> Zaman aralıklarının altında çipler var: <strong>Tümü</strong> ve bu parametreyi bildiren her kaynak için bir çip. Örneğin <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> ya da <em>Manuel</em>. Yalnızca o kaynağın ölçümlerini görmek için bir çip seçin. Probu test kitiyle doğrudan böyle karşılaştırırsınız: aynı grafikte ikisi arasında geçiş yapın.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Parametre ayrıntıları"><img src="/help/img/mobile-metric-detail.webp" alt="Parametre ayrıntıları" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Üstte açılır listeler, altında uyarı aralığı gölgeli grafik.</figcaption></figure>
+<p><strong>Geçmiş grafiği.</strong> Üstündeki üç açılır liste neyi göstereceğini belirler. <strong>Parametre</strong>, verisi olan başka bir parametreye geçer ve zaman aralığınızı korur. <strong>Zaman aralığı</strong> 1h'den 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d ve 360d üzerinden Tümü'ne kadar gider. <strong>Kaynak</strong> <strong>Tüm kaynaklar</strong> ile başlar ve bu akvaryumda bu parametreyi bildiren kaynakları listeler, örneğin <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> ya da <em>Manuel</em>. Yalnızca o kaynağın ölçümlerini görmek için birini seçin. Probu test kitiyle doğrudan böyle karşılaştırırsınız: aynı grafikte ikisi arasında geçiş yapın.</p>
+<p>Ekran her zaman 24h ve <strong>Tüm kaynaklar</strong> ile açılır. Son seferki seçiminizi hatırlamaz.</p>
 <p><strong>Dozaj hesaplayıcı bağlantısı</strong> (dozladığınız parametrelerde). Hesaplayıcı akvaryum hacmini <a href="/tr/help/mobile-tank-profile">akvaryum profilinizden</a>, ürün güçlerini <a href="/tr/help/mobile-dosing">Dozaj</a> ayarlarından alır.</p>
-<p><strong>Karşılaştırma katmanı.</strong> <em>Şununla karşılaştır</em> ile aynı grafiğe ikinci bir parametre eklersiniz. Örneğin alkaliniteyle kalsiyumu ya da pH ile sıcaklığı üst üste koyabilirsiniz. Aklınızdaki bir ilişkiyi hatırlamaya çalışmadan grafikte görürsünüz.</p>
-<p><strong>Özet istatistikler</strong>: ekrandaki zaman aralığı için <strong>MİN</strong>, <strong>ORT</strong> ve <strong>MAKS</strong>. Güncel değerin altında bir satır olarak görünür.</p>
+<p><strong>Karşılaştırma katmanı.</strong> <strong>Karşılaştır</strong> ile aynı grafiğe ikinci bir parametre eklersiniz. Örneğin alkaliniteyle kalsiyumu ya da pH ile sıcaklığı üst üste koyabilirsiniz. Liste, akvaryumun sahip olduğu her parametreyi içerir. Aklınızdaki bir ilişkiyi hatırlamaya çalışmadan grafikte görürsünüz. İkinci çizgiyi kaldırmak için çipe yeniden dokunun.</p>
+<p><strong>Özet istatistikler</strong>: ekrandaki zaman aralığı için <strong>En son</strong>, <strong>Min</strong>, <strong>Ort</strong> ve <strong>Maks</strong> değerleri olan bir satır.</p>
 <p><strong>Grafikte dozaj işaretleri.</strong> Bir değişimi gerçekte verdiğiniz dozlarla yan yana görürsünüz.</p>
 <p><strong>Ham ölçüm listesi</strong>: çizginin arkasındaki her ölçüm, kaynağı ve zamanıyla.</p>
 <p><strong>Uyarı aralığınız</strong> grafikte gölgeli olarak görünür. Böylece her ölçümü tek başına değil, aralığıyla birlikte okursunuz. Aralığı değiştirmek için panodaki widget'a uzun basın. Ayrıntılar <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> sayfasında.</p>
@@ -186,7 +190,8 @@
 <div class="tw"><table class="stack"><thead><tr><th>Parametre</th><th>İşe yarayan aralık</th></tr></thead><tbody><tr><td data-th="Parametre">pH</td><td data-th="İşe yarayan aralık">24 saat. pH gün içinde iner çıkar</td></tr><tr><td data-th="Parametre">Sıcaklık</td><td data-th="İşe yarayan aralık">24 saat ya da 7 gün</td></tr><tr><td data-th="Parametre">Alkalinite</td><td data-th="İşe yarayan aralık">7 ya da 30 gün</td></tr><tr><td data-th="Parametre">Eser elementler</td><td data-th="İşe yarayan aralık">30 gün ya da 1 yıl</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Düz çizgide ölçümün ne kadar eski olduğuna bakın</p><p>Hiç kıpırdamayan bir çizgi parametrenin sabit olduğunu gösterebilir. Ama veri göndermeyi bırakmış bir kaynak da aynı görüntüyü verir. Değerin yanındaki ölçüm yaşı hangisi olduğunu söyler.</p></aside>
 <h2 id="kaynaklar-karlatrma">Kaynakları karşılaştırma</h2>
-<p>Bir parametreyi birden fazla kaynak bildiriyorsa Cora bunların ortalamasını almaz, ayrı tutar. Kaynak çipleriyle her birine sırayla bakın.</p>
+<p>Bir parametreyi birden fazla kaynak bildiriyorsa Cora bunların ortalamasını almaz, ayrı tutar. <strong>Kaynak</strong> açılır listesiyle her birine sırayla bakın.</p>
+<p>Panoda hangisinin görüneceğini en yeni ölçüm belirler. Canlı bir değerin yerini, hangi kaynaktan olursa olsun yalnızca daha geç bir ölçüm zamanına sahip bir ölçüm alır. Daha eski bir ölçüm geçmişe girer ve widget'taki değerin üzerine yazmaz. Widget için bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.</p>
 <p>Probla elle girilen test arasında sürekli bir fark varsa genellikle probun kalibre edilmesi gerekiyordur.</p>
 <p><a href="/tr/help/mobile-icp-health">ICP sonucu</a> işe yarar bir üçüncü görüştür, ama son sözü söylemez. Laboratuvarlar birbirinden farklı sonuç verebilir. Numunenin nasıl alındığı, saklandığı ve taşındığı da sonucu değiştirir. Tek ICP'yi kesin değer olarak değil, kanıt olarak görün. Birbiriyle uyuşan iki test, tek testten çok daha değerlidir.</p>
 <h2 id="widgetn-hangi-kayna-izleyeceini-seme">Widget'ın hangi kaynağı izleyeceğini seçme</h2>
@@ -199,10 +204,10 @@
 <h2 id="prob-bakmn-kaydetme">Prob bakımını kaydetme</h2>
 <p>Kalibrasyonu ya da temizliği buradan kaydederseniz tarih o kaynağa işlenir. İleride bir uyuşmazlık çıktığında probun en son ne zaman bakım gördüğüne bakabilirsiniz. Ayrıntılar <a href="/tr/help/mobile-probes">Problar</a> sayfasında.</p>
 <h2 id="elle-lm-girme">Elle ölçüm girme</h2>
-<p>Test kitinizin sonucunu girin. Elle girilen ölçümler diğerlerinden aşağı sayılmaz. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'ye veri sağlarlar. Cora ekipmanınızı da bu ölçümlerle karşılaştırır.</p>
+<p>Test kitinizin sonucunu girin. Liste gruplanmıştır ve <strong>İz Elementler</strong> grubu iyot, demir ve bakırı µg/L cinsinden, potasyumu mg/L cinsinden kapsar. Elle girilen ölçümler diğerlerinden aşağı sayılmaz. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'ye veri sağlarlar. Cora ekipmanınızı da bu ölçümlerle karşılaştırır.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora mantıksız görünen değerleri sorar</p><p>Girdiğiniz değer akvaryumun alışılmış değerlerinden çok farklıysa Cora kaydetmeden önce onay ister. Böylece yanlış yere konmuş bir virgül ya da yanlış parametreye girilmiş bir değer yakalanır. Onaylarsanız ölçüm normal şekilde kaydedilir.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-widgets"><span>Önceki</span><b>Widget rehberi</b></a><a class="pn-n" href="/tr/help/mobile-devices"><span>Sonraki</span><b>Cihaz ekleme, düzenleme ve kaldırma</b></a></nav>
-      <p class="stamp">Cora Max 0.28.80 ve Cora Mobile 0.5.81 için yazılmıştır. Son kontrol: 2026-09-09.</p>
+      <p class="stamp">Cora Max 0.28.165 ve Cora Mobile 0.5.109 için yazılmıştır. Son kontrol: 2026-10-12.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>

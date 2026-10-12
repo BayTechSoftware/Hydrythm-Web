@@ -2,7 +2,7 @@
 title: Automatizaciones y escenas
 description: Crea reglas que funcionan solas (disparadores, condiciones y acciones) y agrúpalas en escenas.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Las acciones que necesitan un equipo solo aparecen en los acuarios que lo tienen
 | **Ejecutar una escena** | Ejecuta otra escena desde esta regla |
 | **Gestionar una automatización** | Activa o desactiva otra regla |
 | **Dosificar una cabeza DŌS** | Da una dosis medida con un cabezal DŌS |
+| **Crear una tarea de mantenimiento** | Pone un trabajo en la lista de [mantenimiento](/help/mobile-maintenance) del acuario, por ejemplo cambiar el medio del depurador de CO2 cuando el pH baja de un valor |
 
 :::warning Dosificar con una regla no tiene vuelta atrás y tiene un límite
 Una dosis ya no se puede sacar del acuario. El cabezal tiene que estar **calibrado** para que una regla pueda dosificar con él. La dosificación sin supervisión tiene un máximo de **10 mL por cabezal al día**, y ninguna regla puede pasar de ahí, esté como esté escrita. Las acciones de dosificación solo aparecen cuando Cora reconoce tus cabezales como cabezales de dosificación.
+:::
+
+:::note Qué hace Crear una tarea de mantenimiento
+Elige el acuario y después **Tarea existente** (una tarea que ya existe pasa a estar pendiente ahora) o **Tarea nueva** (ponle un **Nombre de la tarea**). Una tarea nueva es puntual, vence enseguida y la regla no la vuelve a crear mientras siga abierta. Recibes una sola notificación, y la tarea puntual sale de la lista cuando la completas.
 :::
 
 :::note Usa Esperar para ordenar pasos en una regla

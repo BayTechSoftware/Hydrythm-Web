@@ -2,7 +2,7 @@
 title: Glossario
 description: Le parole che usa Cora: vasca, fonte, widget, design salvato, soglia, insight e tutto il resto.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 2
 ---
 
@@ -64,7 +64,7 @@ Una pausa per dare da mangiare. Ferma l'attrezzatura giusta e la riaccende da so
 
 ## GHL
 
-Abbreviazione di GHL Advanced Technology, il produttore dei controller ProfiLux e Mitras. Il supporto GHL di Cora è in **beta**. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+Abbreviazione di GHL Advanced Technology, il produttore dei controller ProfiLux e Mitras. Il supporto GHL di Cora è in **Beta** ed è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
 
 ## Rapporto di salute
 
@@ -72,7 +72,7 @@ Una valutazione periodica più approfondita di tutto il sistema, che mette insie
 
 ## HYDROS
 
-L'ecosistema di controller e dosaggio di CoralVue. Cora lo raggiunge attraverso il cloud di HYDROS, quindi continua a funzionare anche fuori casa. Il supporto HYDROS di Cora è in **beta**. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+L'ecosistema di controller e dosaggio di CoralVue. Cora lo raggiunge attraverso il cloud di HYDROS, quindi continua a funzionare anche fuori casa. Il supporto HYDROS di Cora è in **Beta** ed è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
 
 ## ICP
 
@@ -128,4 +128,4 @@ La modalità per chi bada alla vasca mentre sei via. È un piano con date e un e
 
 ## Widget
 
-Un riquadro della dashboard che mostra una cosa sola. Ci sono undici tipi: Valore, Indicatore, Grafico, Stato, Presa, ReefBeat, Modulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* e HYDROS *(beta)*. Trovi di più in [Guida di riferimento ai widget](/help/mobile-widgets).
+Un riquadro della dashboard che mostra una cosa sola. Ci sono sedici tipi: Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* e Telecamera *(Beta)*. Trovi di più in [Guida di riferimento ai widget](/help/mobile-widgets).

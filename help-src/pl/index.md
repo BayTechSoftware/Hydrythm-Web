@@ -2,7 +2,7 @@
 title: Pomoc Cora
 description: Jak skonfigurować Cora Max i Cora Mobile i jak z nich korzystać: pierwsze kroki, pulpity, urządzenia, alerty, Reef Buddy, ICP i raporty zdrowia.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -60,6 +60,9 @@ Poza odczytami i pulpitami Cora zbiera w jednym miejscu resztę pracy przy akwar
 ## Twój sprzęt
 
 - **[Sterowanie sprzętem](/help/mobile-device-control)**: gniazda, pompy, głowice dozujące i testery
+- **[Funkcje Beta](/help/mobile-beta)**: co znaczy Beta, kto widzi integracje Beta i jak poprosić o dostęp
+- **[Kamery i czuwanie skimmera](/help/mobile-cameras)**: dodaj kamerę i dostań ostrzeżenie, zanim kubek odpieniacza się przeleje
+- **[Lampy, pompy i dozowniki EcoTech](/help/mobile-ecotech)**: Radion, VorTech i Versa przez Bluetooth
 - **[Sondy](/help/mobile-probes)**: przypisywanie sond kontrolera i zapisywanie kalibracji
 - **[Materiały eksploatacyjne](/help/mobile-consumables)**: alerty o uzupełnieniu reagentów, pojemników i zbiorników
 - **[Harmonogramy sprzętu](/help/mobile-schedules)**: programy dnia dla pomp, ich kopiowanie i podgląd harmonogramu Gyre

@@ -1,13 +1,13 @@
 ---
 title: Programar equipos
-description: Crea un programa diario para una bomba Jecod, cópialo a otras bombas y consulta el programa de un gyre Maxspect (beta).
+description: Crea un programa diario para una bomba Jecod, cópialo a otras bombas y consulta el programa de un gyre Maxspect (Beta).
 section: Cora Mobile
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 12
 group: Equipment
 ---
 
-Las bombas y los gyres pueden seguir un **programa diario**. Es un conjunto de periodos, cada uno con su intensidad, que se repite todos los días. En las bombas Jecod puedes crear el programa directamente desde Cora. El programa de un gyre Maxspect *(beta)* aquí solo se puede ver. Se configura en la aplicación de Maxspect.
+Las bombas y los gyres pueden seguir un **programa diario**. Es un conjunto de periodos, cada uno con su intensidad, que se repite todos los días. En las bombas Jecod puedes crear el programa directamente desde Cora. El programa de un gyre Maxspect *(Beta)* aquí solo se puede ver. Se configura en la aplicación de Maxspect. Maxspect solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
 
 Abre el dispositivo desde la pestaña **Dispositivos**.
 
@@ -32,7 +32,7 @@ La **lista de periodos**, debajo del gráfico, muestra cada periodo con su horar
 
 Con **Agregar al programa** añades un periodo. Para cambiar uno, ábrelo y toca **Guardar**. Para quitarlo, toca **Eliminar**. Antes de borrarlo se te pide que lo confirmes.
 
-Un gyre Maxspect *(beta)* tiene dos cabezales, que aparecen como Gyre A y Gyre B. Por eso su gráfico del día tiene dos pistas, una por cabezal, y sus planes salen en **GYRE A** y **GYRE B**. El horario de un gyre solo se puede ver. En su fila de acciones pone **Solo lectura**, y el horario se configura en la aplicación de Maxspect.
+Un gyre Maxspect *(Beta)* tiene dos cabezales, que aparecen como Gyre A y Gyre B. Por eso su gráfico del día tiene dos pistas, una por cabezal, y sus planes salen en **GYRE A** y **GYRE B**. El horario de un gyre solo se puede ver. En su fila de acciones pone **Solo lectura**, y el horario se configura en la aplicación de Maxspect.
 
 :::warning El horario se guarda en el propio equipo
 Al guardar, el programa se envía al equipo, que lo sigue con su propio reloj. Sigue funcionando aunque Cora no pueda conectarse con él.

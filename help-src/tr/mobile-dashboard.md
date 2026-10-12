@@ -2,7 +2,7 @@
 title: Panoyu okuma
 description: Cora panosu nasıl okunur. Widget'lar, ölçümlerin yaşı, kaynaklar ve renklerin anlamı.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ Panonun en altında şunlar var:
 
 - **Gösterge panelini düzenle**: [pano düzenleyiciyi](/help/mobile-dashboard-editing) açar
 - **Parametreleri Kaydet**: test kiti sonuçlarını elle girersiniz
+- **Parametre geçmişi**: verisi olan herhangi bir parametrenin, widget'ı olmasa bile geçmişini açar. Bkz. [Parametre ayrıntıları](/help/mobile-metric-detail)
+- **Besleme**: rutininizden farklı bir beslemeyi kaydeder. Bkz. [Günlük](/help/mobile-journal)
 - **Günlük · Uyarılar · Bakım · Canlılar**: bu akvaryumun ilgili bölümlerine kısayollar
+
+Hiç ölçümü ve bağlı ekipmanı olmayan bir akvaryumda, bunların üstünde başlamanıza yardım eden **İlk su testini kaydet** kartı görünür. Bkz. [Cora Mobile kurulumu](/help/mobile-setup).
 
 Bunların üstündeki satır panonun en son ne zaman güncellendiğini ve hangi kaynaklardan veri aldığını gösterir.
 

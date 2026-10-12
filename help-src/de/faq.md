@@ -2,7 +2,7 @@
 title: Häufige Fragen
 description: Kurze Antworten zu Einrichtung, Cora Max, der Handy-App, Geräten, Warnungen, Reef Buddy und Cora Assistant, Sprachen und deinem Konto.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -114,19 +114,23 @@ Mehr dazu unter [Teilen](/help/mobile-sharing).
 
 ### Mit welchen Geräten funktioniert Cora?
 
-Cora arbeitet mit immer mehr Controllern und Geräten zusammen, von WLAN-Controllern bis zu Dosierpumpen und Gyres. Die aktuelle Liste steht auf der Seite zu den Verbindungen. Für alles, womit sich Cora nicht direkt verbindet, kannst du Messwerte von Hand eintragen.
+Cora arbeitet mit immer mehr Controllern und Geräten zusammen, von WLAN-Controllern bis zu Dosierpumpen und Gyres. Die aktuelle Liste steht auf der Seite zu den Verbindungen. Für alles, womit sich Cora nicht direkt verbindet, kannst du Messwerte von Hand eintragen. Einiges davon ist Beta und wird nur Beta-Nutzern angezeigt.
 
 Mehr dazu unter [Verbindungen](/help/mobile-connections).
 
-### Gehört Cora zu Neptune, Red Sea, Jebao, GHL, HYDROS oder Maxspect?
+### Gehört Cora zu Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech oder Inkbird?
 
-Nein. Cora gehört zu keinem der Hersteller, mit deren Geräten es sich verbindet, und wird von keinem unterstützt oder als Partner geführt. Das gilt auch für Maxspect, GHL und HYDROS, deren Anbindungen noch in der Beta sind. Cora nutzt die öffentlichen Konten, offiziellen APIs oder lokalen Netzwerkprotokolle der Hersteller. Ein Update ihrer App oder Firmware kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen.
+Nein. Cora gehört zu keinem der Hersteller, mit deren Geräten es sich verbindet, und wird von keinem unterstützt oder als Partner geführt. Das gilt auch für Maxspect, GHL, HYDROS, Focustronic, EcoTech und Inkbird, deren Anbindungen in der Beta sind. Cora nutzt die öffentlichen Konten, offiziellen APIs oder lokalen Netzwerkprotokolle der Hersteller. Ein Update ihrer App oder Firmware kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen.
 
 Mehr dazu unter [Verbindungen](/help/mobile-connections).
 
 ### Was bedeutet es, wenn eine Anbindung „Beta“ ist?
 
-Es heißt, dass wir sie noch testen und weiterentwickeln. Manche Messwerte oder Steuerungen können deshalb eingeschränkt sein, und was du siehst, kann sich mit Updates ändern. Maxspect, GHL und HYDROS sind aktuell alle Beta. Klappt etwas nicht wie in der Anleitung beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
+Es heißt, dass wir sie noch testen und weiterentwickeln. Manche Messwerte oder Steuerungen können deshalb eingeschränkt sein, und was du siehst, kann sich mit Updates ändern. Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird und Kameras (mit dem Skimmer-Wächter) sind aktuell in der Beta.
+
+Beta-Anbindungen stehen nur Beta-Nutzern offen. Bist du keiner, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Die Teilnahme an einem Testprogramm eines Stores schaltet sie nicht frei. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
+
+Klappt etwas nicht wie in der Anleitung beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
 
 ### Warum findet Cora Mobile mein Cora Max beim Koppeln nicht?
 

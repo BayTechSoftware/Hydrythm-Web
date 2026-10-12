@@ -2,7 +2,7 @@
 title: The Cora Max home screen
 description: What everything on the Cora Max display means, from the top bar to the dashboard grid and the outlets drawer.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ From left to right:
 | **Stale** | Readings have stopped coming in. The screen shows the last ones it got |
 | **Apex retry 12s** | Your Apex didn't answer. Cora Max tries again when the countdown ends |
 | **Cloud sync failed** | Your Apex answered, but its readings couldn't be saved to Cora Cloud, so the dashboard falls behind. Cora Max keeps trying |
+| **Cloud save refused** | Cora Cloud is refusing to save some of this screen's data. Nothing is wrong with your tank or with Cora Max, and nothing needs changing on this screen. The fix is a Cora Cloud update. Open **Settings → Cora Max Settings → Firmware Update** and look in the **Status** section, where the **Cloud save** line says which data is affected. Then [contact support](/support.html) |
 | **Offline** | No connection. The screen shows the last data it got |
 | **Offline, retrying in 45s** | Your network is up, but Cora Cloud has been out of reach for more than 30 seconds. Cora Max reconnects by itself, and the countdown shows when it tries next |
 | **Main Cora offline** | This screen is a second Cora Max for this tank, and the **Primary Cora Max** (the one pinned to read this tank's equipment) has gone offline. This screen keeps showing the last data it has until the primary comes back or you choose a different Primary Cora Max. More in [More than one Cora device](/help/mobile-multi-device) |
@@ -73,10 +74,12 @@ Tap the tank name to open the menu for the tank on screen.
 | **Health Reports** | Health assessments |
 | **Maintenance** | The [task list](/help/mobile-maintenance) |
 | **ICP Reports** | Uploaded [lab results](/help/mobile-icp-health) |
-| **Alerts** | The healthy range for each metric on this tank |
+| **Parameter History** | Pick any parameter that has data and open its [chart](/help/max-intelligence) |
+| **Alert thresholds** | The healthy range for each metric on this tank |
 | **Livestock** | This tank's [inventory](/help/mobile-livestock), view only on this screen |
 | **Activity** | [Every outlet, feed and dose](/help/max-activity), and what happened |
 | **Dashboard layout** | [Arrange the widgets on this screen](/help/max-dashboard-editing) |
+| **Units** | The display units for this tank's readings |
 | **Tank settings** | The full settings screen for this tank |
 
 ## Switching tanks

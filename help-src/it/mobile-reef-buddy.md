@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Il briefing quotidiano: cosa contiene, quando arriva e come leggere i punteggi.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -33,6 +33,18 @@ Un punteggio Dati basso vuol dire che la valutazione si basa su meno letture di 
 Le osservazioni vengono filtrate prima di arrivare a te. Un'osservazione deve reggere su più letture, non su una sola, e deve dirti qualcosa che un singolo grafico non ti avrebbe già mostrato.
 
 Tocca la scheda sulla dashboard per aprire il briefing completo.
+
+## Aggiornare il briefing con un nuovo test
+
+Se registri un test a mano o aggiungi un risultato ICP dopo l'uscita del briefing, la scheda del briefing completo mostra **Nuove misurazioni dopo questo briefing** con un pulsante **Aggiorna il briefing**. Toccalo e Cora rifà il briefing con i numeri nuovi. Puoi farlo una volta al giorno per ogni famiglia. Dopo, il pulsante è disattivato e dice *Puoi aggiornare il briefing una volta al giorno. Prossimo aggiornamento: domani.*
+
+Le letture di sonde e controller non fanno comparire questa proposta, perché arrivano per tutto il giorno.
+
+## Perché vedi un'osservazione
+
+Sotto un'osservazione, tocca **Perché vedo questo?** Il foglio **Perché lo vedi** elenca le **Misurazioni usate**, l'**Obiettivo di confronto** (il tuo obiettivo o un intervallo di riferimento), tutto quello **Dal tuo diario** di cui ha tenuto conto e la **Finestra di analisi (giorni)** che ha guardato. Se il ragionamento non si adatta alla tua vasca, rispondi all'osservazione come spiegato più sotto in "Correggere un'osservazione".
+
+I briefing usano anche più dei soli valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo, i totali delle tue teste DŌS e, se hai un monitor Inkbird per l'aria della stanza in Beta, la temperatura e l'umidità della stanza. Inkbird è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
 
 ## Quando arriva
 
@@ -79,7 +91,7 @@ A ogni osservazione puoi dare una di quattro risposte:
 | **Lo sapevo già** | Era giusta, ma lo sapevi già |
 | **Non sicuro** | Per ora non sai giudicarla |
 
-Le tue risposte influenzano cosa verrà messo in primo piano nei briefing successivi. Un'osservazione che scarti sparisce **solo per un po'**: se la situazione continua, torna.
+Quando Reef Buddy segnala una deriva, chiede anche *Questo avviso è stato utile?* Puoi rispondere **Utile**, **Non utile**, **Questo cambiamento è previsto** oppure **La misurazione sembra errata**. Le tue risposte influenzano cosa verrà messo in primo piano nei briefing successivi. Un'osservazione che scarti sparisce **solo per un po'**: se la situazione continua, torna.
 
 :::note I problemi seri non vengono mai nascosti
 Le tue risposte possono attenuare solo le osservazioni meno gravi. Quelle di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.

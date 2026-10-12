@@ -1,23 +1,27 @@
 ---
-title: Sonde
+title: Mappatura parametri
 description: Vedi quale sonda guida ogni lettura in tutti i controller, e annota calibrazioni e pulizie.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 13
 group: Equipment
 ---
 
-Se hai più di un controller, o due sonde che misurano la stessa cosa, Cora deve sapere quale lettura considerare valida. La mappatura delle sonde è dove sistemi questo, ed è anche dove dici a Cora cos'è ogni sonda fin dall'inizio.
+Se hai più di un controller, o due sonde che misurano la stessa cosa, Cora deve sapere quale lettura considerare valida. La **Mappatura parametri** è dove sistemi questo, ed è anche dove dici a Cora cos'è ogni sonda fin dall'inizio.
 
-Apri il **profilo della vasca** (la matita in alto sulla dashboard) e scegli **Mappatura sonde**.
+Vai in **Impostazioni**, apri la vasca e scegli **Mappatura parametri**. Si trova tra **Modifica vasca** e **Soglie di avviso**. La matita in alto sulla dashboard apre **Modifica vasca**, che non la contiene. La raggiungi anche dalle pagine dei dispositivi Neptune Apex e GHL (Beta). GHL è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+
+La schermata ha un campo di ricerca (**Cerca parametri**) e due schede, **Mappatura** e **Fonti**. La ricerca guarda nei nomi dei parametri, nei nomi delle sonde, nei dispositivi e nelle marche. Lo stesso campo di ricerca c'è in ogni selettore di parametri.
 
 ## Da dove arriva ogni lettura
+
+Questa è la scheda **Fonti**.
 
 ![Da dove arriva ogni lettura](img/mobile-probes.webp "Ogni parametro, quale sonda lo guida e un pulsante Scegli per cambiarla.")
 
 Questa sezione elenca ogni parametro che Cora segue per questa vasca, come pH o temperatura, e mostra quale sonda lo sta alimentando in questo momento.
 
-Tocca una lettura per vedere tutte le sonde che la riportano, in tutti i controller che hai collegato. Ognuna mostra la sua marca, il nome che le ha dato il controller e il suo valore in tempo reale. Scegline una per fissarla, oppure scegli **Automatico** per lasciare che Cora usi qualunque sonda stia riportando.
+Tocca una lettura per vedere tutte le sonde che la riportano, in tutti i controller che hai collegato. Ognuna mostra la sua marca, il nome che le ha dato il controller e il suo valore in tempo reale. Scegline una per fissarla, oppure scegli **Automatico (vince la lettura più recente)** per lasciare che Cora usi la sonda che ha riportato per ultima. Le altre restano nello storico.
 
 Un'etichetta accanto a ogni lettura mostra quale sonda è attiva: **Automatico**, oppure **Scelta da te** una volta che ne hai fissata una.
 
@@ -31,7 +35,7 @@ L'allarme di un sensore di allagamento dipende dal suo stesso nome, quindi è es
 
 ## Sonde: dire a Cora cos'è ognuna
 
-Più in basso trovi tutte le sonde che Cora conosce, raggruppate per dispositivo, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.
+Si apre per prima la scheda **Mappatura**. Elenca tutte le sonde che Cora conosce, raggruppate per dispositivo, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.
 
 Per ogni riga hai tre scelte:
 
@@ -49,7 +53,9 @@ Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la
 
 ## Più sonde per lo stesso parametro
 
-Se hai due sonde di temperatura, sullo stesso controller o su due diversi, mappale entrambe. Cora le tiene come fonti separate, e **Da dove arriva ogni lettura** qui sopra è dove scegli quale delle due guida la lettura, oppure lasci Automatico. Puoi confrontarle in [la pagina del parametro](/help/mobile-metric-detail).
+Se hai due sonde di temperatura, sullo stesso controller o su due diversi, mappale entrambe. Cora le tiene come fonti separate, e la scheda **Fonti** è dove scegli quale delle due guida la lettura, oppure lasci Automatico. Puoi confrontarle in [la pagina del parametro](/help/mobile-metric-detail).
+
+Quando due fonti riportano lo stesso parametro, vince la misura più recente. Un valore sullo schermo viene sostituito solo da una lettura con un orario di misura più recente, da qualsiasi dispositivo provenga. Una lettura più vecchia, o un dispositivo che rimanda una lettura vecchia, va nello storico e non sovrascrive il valore attuale. Se hai fissato una fonte, Cora segue invece quella fonte.
 
 ## Annotare la cura delle sonde
 

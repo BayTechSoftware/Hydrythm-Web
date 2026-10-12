@@ -83,8 +83,11 @@
 <li><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
-<li><a href="/it/help/mobile-probes">Sonde</a></li>
+<li><a href="/it/help/mobile-probes">Mappatura parametri</a></li>
 <li><a href="/it/help/mobile-consumables">Materiali di consumo</a></li>
+<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
+<li><a href="/it/help/mobile-cameras">Telecamere e controllo dello schiumatoio</a></li>
+<li><a href="/it/help/mobile-ecotech">Luci, pompe e dosatori EcoTech</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Avvisi e automazione</summary><ul>
@@ -170,13 +173,14 @@
       <h1>Approfondire un parametro</h1>
       <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#cosa-trovi">Cosa trovi</a></li><li><a href="#scegliere-il-periodo">Scegliere il periodo</a></li><li><a href="#confrontare-le-fonti">Confrontare le fonti</a></li><li><a href="#scegliere-la-fonte-di-un-widget">Scegliere la fonte di un widget</a></li><li><a href="#escludere-una-lettura-sbagliata">Escludere una lettura sbagliata</a></li><li><a href="#registrare-la-cura-delle-sonde">Registrare la cura delle sonde</a></li><li><a href="#registrare-una-lettura-a-mano">Registrare una lettura a mano</a></li></ul></nav>
 <p>Il widget ti mostra un numero. Se lo tocchi, vedi la storia che c'è dietro.</p>
+<p>Ci sono due modi per arrivarci. Tocca un widget nella dashboard, oppure tocca <strong>Storico parametri</strong> nella riga di pulsanti sotto i widget e scegli un parametro. <strong>Storico parametri</strong> elenca ogni parametro che ha dati, anche uno senza widget nella dashboard.</p>
 <h2 id="cosa-trovi">Cosa trovi</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Approfondire un parametro"><img src="/help/img/mobile-metric-detail.webp" alt="Approfondire un parametro" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Intervalli in alto, poi le fonti che riportano questo parametro, poi il grafico con la tua fascia di avviso ombreggiata.</figcaption></figure>
-<p><strong>Un grafico dello storico</strong>, con il suo selettore del periodo: <strong>1h · 6h · 12h · 24h · 3d · 7d</strong> e periodi più lunghi.</p>
-<p><strong>Un filtro per fonte.</strong> Sotto i periodi c'è una fila di etichette: <strong>Tutte</strong> e una per ogni fonte che misura il parametro, per esempio <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> o <em>Manuale</em>. Scegline una per vedere solo le sue letture. Così confronti una sonda con un test: passi dall'una all'altro sullo stesso grafico.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Approfondire un parametro"><img src="/help/img/mobile-metric-detail.webp" alt="Approfondire un parametro" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>I menu a tendina in alto, poi il grafico con la tua fascia di avviso ombreggiata.</figcaption></figure>
+<p><strong>Un grafico dello storico.</strong> Tre menu a tendina sopra il grafico impostano cosa mostra. <strong>Parametro</strong> passa a qualsiasi altro parametro che ha dati e mantiene il periodo. <strong>Periodo</strong> va da 1h a 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d e 360d fino a Tutto. <strong>Fonte</strong> parte da <strong>Tutte le fonti</strong> ed elenca le fonti che misurano questo parametro in questa vasca, per esempio <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> o <em>Manuale</em>. Scegline una per vedere solo le sue letture. Così confronti una sonda con un test: passi dall'una all'altro sullo stesso grafico.</p>
+<p>La schermata si apre sempre su 24h e <strong>Tutte le fonti</strong>. Non ricorda quello che avevi scelto l'ultima volta.</p>
 <p><strong>Un collegamento al calcolatore di dosaggio</strong>, per i parametri che dosi. Usa il volume indicato nel <a href="/it/help/mobile-tank-profile">profilo della vasca</a> e le concentrazioni impostate in <a href="/it/help/mobile-dosing">Dosaggio</a>.</p>
-<p><strong>Un confronto sovrapposto.</strong> Con <em>Confronta con</em> disegni un secondo parametro sullo stesso grafico (alcalinità e calcio, pH e temperatura). Se sospetti un legame tra i due, lo vedi a colpo d'occhio.</p>
-<p><strong>Statistiche del periodo</strong> visualizzato: <strong>MIN</strong>, <strong>MEDIA</strong> e <strong>MAX</strong>, in una riga sotto il valore attuale.</p>
+<p><strong>Un confronto sovrapposto.</strong> Con <strong>Confronta</strong> disegni un secondo parametro sullo stesso grafico (alcalinità e calcio, pH e temperatura). L'elenco ha tutti i parametri che la vasca possiede. Se sospetti un legame tra i due, lo vedi a colpo d'occhio. Tocca di nuovo il chip per togliere la seconda linea.</p>
+<p><strong>Statistiche del periodo</strong> visualizzato: una riga con <strong>Ultimo</strong>, <strong>Min</strong>, <strong>Media</strong> e <strong>Max</strong>.</p>
 <p><strong>Indicatori di dosaggio</strong> sul grafico, per confrontare un movimento con quello che hai dosato davvero.</p>
 <p><strong>L'elenco delle letture originali</strong>: tutte le singole letture che formano la linea, ciascuna con fonte e orario.</p>
 <p><strong>La fascia di avviso</strong>, ombreggiata sul grafico, così ogni lettura si legge rispetto al suo intervallo. Per cambiare l'intervallo, tieni premuto il widget sulla dashboard. I dettagli sono in <a href="/it/help/mobile-alerts">Avvisi e soglie</a>.</p>
@@ -186,7 +190,8 @@
 <div class="tw"><table class="stack"><thead><tr><th>Parametro</th><th>Periodo utile</th></tr></thead><tbody><tr><td data-th="Parametro">pH</td><td data-th="Periodo utile">24 ore, perché varia nel corso della giornata</td></tr><tr><td data-th="Parametro">Temperatura</td><td data-th="Periodo utile">24 ore o 7 giorni</td></tr><tr><td data-th="Parametro">Alcalinità</td><td data-th="Periodo utile">7 o 30 giorni</td></tr><tr><td data-th="Parametro">Elementi in traccia</td><td data-th="Periodo utile">30 giorni o un anno</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Se la linea è piatta, guarda l'età della lettura</p><p>Una linea ferma può voler dire che il parametro è stabile o che la fonte ha smesso di mandare dati. L'età accanto al valore ti dice quale dei due.</p></aside>
 <h2 id="confrontare-le-fonti">Confrontare le fonti</h2>
-<p>Quando più fonti misurano lo stesso parametro, Cora le tiene separate e non ne fa la media. Usa le etichette delle fonti per vederle una alla volta.</p>
+<p>Quando più fonti misurano lo stesso parametro, Cora le tiene separate e non ne fa la media. Usa il menu a tendina <strong>Fonte</strong> per vederle una alla volta.</p>
+<p>Quella che compare nella dashboard è la più recente. Un valore in diretta viene sostituito solo da una lettura con un orario di misura più recente, da qualsiasi fonte. Una lettura più vecchia va nello storico e non sovrascrive quello che c'è sul widget. Se hai fissato una fonte per il widget, Cora segue invece quella fonte.</p>
 <p>Se tra una sonda e un test registrato a mano c'è una differenza costante, di solito la sonda va calibrata.</p>
 <p>Un <a href="/it/help/mobile-icp-health">risultato ICP</a> è un utile terzo parere, ma non un giudice. I laboratori danno risultati diversi tra loro, e il risultato cambia anche in base a come il campione viene trattato, conservato e spedito. Considera un singolo ICP come un indizio e non come il valore vero. Due test che concordano valgono molto più di uno.</p>
 <h2 id="scegliere-la-fonte-di-un-widget">Scegliere la fonte di un widget</h2>
@@ -199,10 +204,10 @@
 <h2 id="registrare-la-cura-delle-sonde">Registrare la cura delle sonde</h2>
 <p>Se registri da qui una calibrazione o una pulizia, la data resta associata a quella fonte. Così, se più avanti le fonti non concordano, sai quando è stata sistemata la sonda l'ultima volta. Vedi <a href="/it/help/mobile-probes">Sonde</a>.</p>
 <h2 id="registrare-una-lettura-a-mano">Registrare una lettura a mano</h2>
-<p>Inserisci il risultato del tuo test. Le letture inserite a mano valgono come tutte le altre: hanno fonte e orario, compaiono sul grafico, arrivano a Reef Buddy, e Cora le usa come riferimento per la tua attrezzatura.</p>
+<p>Inserisci il risultato del tuo test. L'elenco è raggruppato, e il gruppo <strong>Oligoelementi</strong> comprende iodio, ferro e rame in µg/L, e potassio in mg/L. Le letture inserite a mano valgono come tutte le altre: hanno fonte e orario, compaiono sul grafico, arrivano a Reef Buddy, e Cora le usa come riferimento per la tua attrezzatura.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora ricontrolla i valori strani</p><p>Se un valore è molto lontano da quelli registrati finora, Cora ti chiede di confermarlo prima di salvarlo. Così intercetta una virgola al posto sbagliato o una lettura inserita nel parametro sbagliato. Se confermi, la lettura viene salvata normalmente.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/mobile-widgets"><span>Precedente</span><b>Guida di riferimento ai widget</b></a><a class="pn-n" href="/it/help/mobile-devices"><span>Successivo</span><b>Aggiungere, modificare e rimuovere dispositivi</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.80 e Cora Mobile 0.5.81. Ultimo controllo il 2026-09-09.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.165 e Cora Mobile 0.5.109. Ultimo controllo il 2026-10-12.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>

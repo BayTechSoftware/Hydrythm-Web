@@ -2,7 +2,7 @@
 title: Ayarlar
 description: Cora Mobile ayarlarının bütün bölümleri. Hesap, akvaryumlar, Cora Assistant, dil, bildirimler, otomasyon ve etkinlik.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ Ayarlayabileceğiniz her şey, ekranda göründüğü sırayla.
 
 - **Görünen ad**: Cora Mobile'da size nasıl hitap edildiği
 - **Plan ve abonelik**: planınız, neleri kapsadığı ve nasıl değiştirileceği
+- **Laboratuvar ve ICP e-postaları**: laboratuvarınızın hesabınıza ulaşmak için kullanabileceği en fazla 3 e-posta adresi daha eklemenizi sağlar. Bkz. [ICP ve sağlık raporları](/help/mobile-icp-health).
 - **Çıkış yap**
 - **Hesabı Sil**: kalıcıdır. Kullanmadan önce aşağıdaki iki notu okuyun.
 
@@ -39,9 +40,15 @@ Her akvaryum için bir satır, altında şunlar:
 - **Akvaryumları yeniden sırala**: panoyu kaydırdığınızda akvaryumların hangi sırayla görüneceği
 - **Kaldırılan akvaryumlar**: sildiğiniz akvaryumlar. Bir şeyi geri almanız gerekirse diye durur
 
-Bir akvaryumu açtığınızda **Birincil Cora Max** (akvaryumun ekipmanını hangi cihazın yokladığı), **Rehberli kurulum** ve salt okunur bir **Bu akvaryumdaki cihazlar** listesine ulaşır, akvaryumun kendisini düzenlersiniz. Birincil Cora Max'in ayrıntıları **[Birden fazla Cora cihazı](/help/mobile-multi-device)** sayfasında. Bir cihaz eklemek ya da kaldırmak için **[Cihazlar sekmesini](/help/mobile-devices)** kullanın.
+Bir akvaryumu açtığınızda ayar sayfası üç bölümden oluşur.
 
-- **Tatil modu**: siz yokken akvaryuma bakacak kişi için bir plan. Ayrıntılar **[Tatile çıkarken](/help/mobile-vacation)** sayfasında. Tarihleri girer ve yapılacak işleri, ne sıklıkla yapılacaklarıyla birlikte listelersiniz. Cora da bunu bakıcınızla paylaşabileceğiniz sade, salt okunur bir sayfaya çevirir. Bakıcının hesap açmasına gerek yoktur.
+- **Ayarlar**: **Akvaryumu düzenle**, **Parametre Eşlemesi**, **Uyarı eşikleri**, **Birimler**, **Birincil Cora Max** ve **Tatil modu**.
+- **Kayıtlar ve Raporlar**: **Günlük**, **Bakım**, **Canlılar**, **Reef Buddy**, **Sağlık Raporları**, **ICP Raporları**, **Etkinlik** ve **Rehberli kurulum**.
+- **Bu akvaryumdaki cihazlar**: salt okunur bir liste.
+
+**Parametre Eşlemesi**, her ölçümü hangi cihazın beslediğini seçtiğiniz yerdir. Bkz. [Parametre Eşlemesi](/help/mobile-probes). **Birimler**, bu akvaryumun ölçümlerini nasıl göstereceğini belirler; hacim için litre, ABD ya da İngiliz galonu da buna dahildir. Bkz. [Akvaryum profiliniz](/help/mobile-tank-profile). **Birincil Cora Max**, akvaryumun ekipmanını hangi cihazın yokladığıdır ve **[Birden fazla Cora cihazı](/help/mobile-multi-device)** sayfasında anlatılır. Bir cihaz eklemek ya da kaldırmak için **[Cihazlar sekmesini](/help/mobile-devices)** kullanın.
+
+**Tatil modu**: siz yokken akvaryuma bakacak kişi için bir plan. Ayrıntılar **[Tatile çıkarken](/help/mobile-vacation)** sayfasında. Tarihleri girer ve yapılacak işleri, ne sıklıkla yapılacaklarıyla birlikte listelersiniz. Cora da bunu bakıcınızla paylaşabileceğiniz sade, salt okunur bir sayfaya çevirir. Bakıcının hesap açmasına gerek yoktur.
 
 ## Uygulama Ayarları
 

@@ -2,7 +2,7 @@
 title: Devices and device health
 description: What Cora Max can see, which device reads each tank, and what to check when readings stop.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Equipment
 ---
@@ -15,7 +15,9 @@ group: Equipment
 
 Cora Max sees the same equipment as your phone, because they both read the same account.
 
-Use the filter chips at the top to show **All tanks** or just one. Each entry has a status dot, a one-line summary of what the device holds (*21 outlets · 4 feeds*, *19 tests left*) and the tank it belongs to.
+Use the filter chips at the top to show **All tanks** or just one. Each entry has a status dot (grey when Cora doesn't know yet, green when it's working, orange for a warning or fault, red when it's offline), a one-line summary of what the device holds (*21 outlets · 4 feeds*, *19 tests left*) and the tank it belongs to.
+
+Every device page opens with a **Status** section. Cora Max also shows the Beta devices your account has linked, such as EcoTech lights, pumps and dosers, Inkbird room air monitors and cameras. Beta access itself is a phone-side thing: see [Beta features](/help/mobile-beta).
 
 Cora Max shows and controls devices, but every device is added, assigned and removed from your phone. With no devices yet, this screen says **Add devices in the Cora app**. More about adding equipment in [Adding, editing and removing devices](/help/mobile-devices).
 

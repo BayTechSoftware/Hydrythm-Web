@@ -102,6 +102,12 @@ TRADEMARKS = [
     ("hydros", r"Hydros|HYDROS"),
     ("ghl", r"GHL"),
     ("nyos", r"NYOS|Nyos"),
+    ("focustronic", r"Focustronic"),
+    ("ecotech", r"EcoTech"),
+    ("inkbird", r"Inkbird"),
+    ("wyze", r"Wyze"),
+    ("tapo", r"Tapo"),
+    ("sonoff", r"Sonoff"),
     ("abyzz", r"Abyzz"),
     ("deltec", r"Deltec"),
 ]
@@ -2081,8 +2087,10 @@ def self_test() -> int:
     ok(f"⚠️ no screenshot over 160 KB ({_big})", not _big)
     _idx = OUT / "search.json"
     if _idx.exists():
-        ok(f"search index under 250 KB ({_idx.stat().st_size // 1024} KB)",
-           _idx.stat().st_size < 256_000)
+        # Budget raised 250 -> 320 KB on 2026-10-12: three Beta pages and the
+        # Sept/Oct updates took the English index from 225 to 260 KB.
+        ok(f"search index under 320 KB ({_idx.stat().st_size // 1024} KB)",
+           _idx.stat().st_size < 327_680)
 
     # ⛔ CONTENT RULE, ENFORCED. help-src/README.md has said 'Maxspect is
     # "coming soon"' since the guide was written, and SIX pages named it as a
@@ -2106,6 +2114,10 @@ def self_test() -> int:
             dupes.append(f"{md.name}: {sorted(dup_h)}")
     ok(f"⛔ no page repeats a section heading ({dupes})", not dupes)
 
+    # Owner, 2026-10-12: the Beta integrations are only open to Beta users, so
+    # every page naming one must say Beta, not just Maxspect ("vice versa" excluded).
+    _BETA_BRANDS = re.compile(
+        r"\b(?:maxspect|ghl|hydros|focustronic|ecotech|radion|vortech|inkbird)\b|(?<!vice )\bversa\b")
     unlabelled, stale_soon = [], []
     for md in sorted(SRC.glob("*.md")):
         if md.name == "README.md":
@@ -2116,11 +2128,11 @@ def self_test() -> int:
         # the guard now demands "beta" and refuses a leftover "coming soon" on any
         # line that names Maxspect (a page can say both only if one is stale).
         low = body.lower()
-        if "maxspect" in low and not re.search(r"\bbeta\b", low):
+        if _BETA_BRANDS.search(low) and not re.search(r"\bbeta\b", low):
             unlabelled.append(md.name)
         stale_soon.extend(f"{md.name}:{i}" for i, line in enumerate(low.splitlines(), 1)
                           if "maxspect" in line and "coming soon" in line)
-    ok(f"⛔ Maxspect is labelled beta wherever it is named ({unlabelled})",
+    ok(f"⛔ every Beta brand (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird) is labelled Beta wherever it is named ({unlabelled})",
        not unlabelled)
     ok(f"⛔ no line still calls Maxspect coming soon ({stale_soon})",
        not stale_soon)

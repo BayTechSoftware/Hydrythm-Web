@@ -2,7 +2,7 @@
 title: Uyarılar ve eşikler
 description: Her parametrenin aralığını belirleyin, hangi durumlarda haber alacağınızı seçin ve bir uyarının neden geldiğini anlayın.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 15
 group: Alerts and automation
 ---
@@ -66,11 +66,20 @@ Uyarı verildikten sonra aynı konuda size tekrar tekrar bildirim gelmez. Yenide
 
 Bazı uyarılar bir ölçümle değil, ekipmanla ilgilidir. Trident ya da Jecod pompası gibi bir cihaz arıza bildirdiğinde Cora, akvaryumun ve cihazın adının geçtiği bir bildirim gönderir. Örneğin *"Salon akvaryumu: Ana pompa dikkat gerektiriyor"*. Bildirimde sıkışmış rotor gibi sorunun ne olduğu da yazar. Arıza giderilince ikinci bildirim gelir: *"Salon akvaryumu: Ana pompa tekrar normal"*. İki bildirim de **Ayarlar → Bildirimler** altında **Ekipman Arızaları** kategorisindedir.
 
-Maxspect gyre (beta) için de aynı uyarı gelebilir. Aynı ağdaki bir Cora Max, iki kafanın da %0'a ayarlı olduğunu görürse ya da gyre üst üste iki kez yanıt vermezse bu uyarı verilir. Bunu güvenlik önlemi değil, uyarı olarak görün. Cora Max gyre'yi sürekli değil, ara ara kontrol eder. Bunu da yalnızca çalışırken ve gyre'ye ulaşabildiğinde yapar.
+Maxspect gyre (Beta) için de aynı uyarı gelebilir. Aynı ağdaki bir Cora Max, iki kafanın da %0'a ayarlı olduğunu görürse ya da gyre üst üste iki kez yanıt vermezse bu uyarı verilir. Bunu güvenlik önlemi değil, uyarı olarak görün. Cora Max gyre'yi sürekli değil, ara ara kontrol eder. Bunu da yalnızca çalışırken ve gyre'ye ulaşabildiğinde yapar.
 
 ## Bir cihaz bildirim göndermeyi kesti
 
-Bir Neptune Apex, Red Sea ReefBeat cihazı, AquaWiz, Jecod pompası ya da Maxspect gyre sessiz kalırsa Cora size haber verir: *"[Cihaz]: bildirim göndermeyi kesti."* Cihazın gücünü ve Wi-Fi bağlantısını, bir de onu okuyan Cora Max'in açık olduğunu kontrol edin. Çoğu ekipman için bu bildirim, güncelleme gelmeden yaklaşık 30 dakika sonra gelir. AquaWiz daha seyrek kontrol edildiğinden yaklaşık 3 saat bekler. Cihaz yeniden bildirim göndermeye başladığında ikinci bir bildirim alırsınız.
+Bir Neptune Apex, Red Sea ReefBeat cihazı, AquaWiz, Jecod pompası, Maxspect gyre, EcoTech cihazı ya da Inkbird oda havası monitörü sessiz kalırsa Cora size haber verir: *"[Cihaz]: bildirim göndermeyi kesti."* Cihazın gücünü ve Wi-Fi (ya da Bluetooth menzili) bağlantısını, bir de onu okuyan Cora Max'in açık olduğunu kontrol edin. Cihaz yeniden bildirim göndermeye başladığında ikinci bir bildirim alırsınız.
+
+Cora'nın ne kadar bekleyeceği cihaza göre değişir.
+
+- Neptune Apex ve Red Sea ReefBeat: güncelleme gelmeden yaklaşık 30 dakika.
+- AquaWiz: daha seyrek kontrol edildiği için yaklaşık 3 saat.
+- Jecod ve Maxspect: üst üste üç ölçüm kaçırılması. Cihazın kendi ölçüm aralığına göre sayılır.
+- EcoTech ve Inkbird: üst üste üç ölçüm kaçırılması. O ağ ya da monitör için belirlediğiniz aralığa göre sayılır.
+
+Maxspect, EcoTech ve Inkbird, yalnızca Beta kullanıcılarının ekleyebildiği Beta entegrasyonlardır. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 
 Bu da yukarıdaki arıza uyarıları gibi **Ayarlar → Bildirimler** altında **Ekipman Arızaları** kategorisindedir.
 

@@ -2,7 +2,7 @@
 title: Panoyu düzenleme
 description: Sütun sayısını seçin, widget ekleyip yerleştirin, kutucukları boyutlandırın ve düzenleri başka akvaryumlarda kullanmak için kaydedin.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Listede yalnızca akvaryumda olan kaynaklar çıkar. Kaynağı olmayan bir param
 
 ## Boyutlandırma
 
-Bir widget bir ya da iki sütun, bir ya da iki satır kaplar. Boyutu widget'ın ayarlarından seçin.
+Bir widget bir ya da iki sütun, bir ya da iki satır kaplar. Boyutu widget'ın ayarlarından seçin. Bir kamera kutucuğu (Beta) en fazla üç sütun genişliğinde olabilir. Kameralar yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
 
 **Eğilim** widget'ı her zaman en az iki sütun genişliğindedir.
 
@@ -86,3 +86,13 @@ Bu bir **geri alma değil, geri yüklemedir**. Listeden tasarımı seçip onayla
 ## Cora Max panosunu düzenleme
 
 Cora Max panosunu ayrıca düzenlersiniz: **Cihazlar → Cora Max'iniz → Panoyu Düzenle**. Bu pano kaydırılan değil, sabit bir ızgara kullanır. Ayrıntılar [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.
+
+### Yapay zeka ile tasarla
+
+Ücretli bir planda düzenleyicinin üstünde, **Yapay zeka ile tasarla** etiketli bir parıltı simgesi bulunur. Ona dokunun, Cora bu akvaryumun bildirdiği ve bağladığı şeylere bakarak komple bir düzen önersin. Ücretsiz planda simge bir kilit gösterir (**Yapay zeka ile tasarla (ücretli planlar)**) ve planları açar.
+
+Öneri, kaç kutucuğu olduğunu ve ızgara boyutunu gösterir. Düzenleyiciye almak için **Bunu kullan**'a, başka bir öneri için **Tekrar deneyin**'e dokunun. Her akvaryum için günde 5 tasarım yapabilirsiniz.
+
+Yapay zeka tasarımı, düzenlediğiniz panodakilerin yerine geçer. **Kaydet ve Yayınla**'ya dokunana kadar Cora Max'e hiçbir şey ulaşmaz, yani kaydetmeden çıkabilirsiniz. Mevcut düzeninizi önce saklamak için onu **Panolarım** altına kaydedin.
+
+Yapay zeka ile tasarla için Ayarlar'da yapay zeka veri paylaşımının açık olması gerekir. Kapalıysa size söylenir, açıp yeniden deneyebilirsiniz. Akvaryumun henüz ölçümü ya da bağlı cihazı yoksa tasarlanacak bir şey yoktur.

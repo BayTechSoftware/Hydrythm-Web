@@ -2,7 +2,7 @@
 title: Lire votre tableau de bord
 description: Les widgets du tableau de bord Cora, l’âge des mesures, leurs sources et le sens des couleurs.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ En bas du tableau de bord :
 
 - **Modifier le tableau de bord** ouvre l’[éditeur de tableau de bord](/help/mobile-dashboard-editing)
 - **Enregistrer les paramètres** sert à saisir à la main les résultats de vos tests en kit
+- **Historique des paramètres** ouvre l’historique de tout paramètre qui a des données, même sans widget. Voir [Examiner un paramètre](/help/mobile-metric-detail)
+- **Alimentation** note un nourrissage qui diffère de votre routine. Voir [Le journal](/help/mobile-journal)
 - **Journal · Alertes · Entretien · Population** mènent à ces pages pour cet aquarium
+
+Sur un aquarium sans mesure ni équipement associé, une carte au-dessus, **Enregistrez votre premier test d’eau**, vous aide à démarrer. Voir [Configurer Cora Mobile](/help/mobile-setup).
 
 Juste au-dessus, une ligne indique la dernière mise à jour du tableau de bord et les sources utilisées.
 

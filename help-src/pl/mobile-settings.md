@@ -2,7 +2,7 @@
 title: Ustawienia
 description: Opis wszystkich sekcji ustawień Cora Mobile: konto, akwaria, Cora Assistant, język, powiadomienia, automatyzacja i aktywność.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 32
 group: Account
 ---
@@ -17,6 +17,7 @@ Karta na górze pokazuje, na jakie konto się logujesz i jaki masz plan. Dotknij
 
 - **Nazwa wyświetlana**: jak Cora Mobile się do Ciebie zwraca
 - **Konto i subskrypcja**: jaki masz plan, co obejmuje i jak go zmienić
+- **E-maile laboratorium i ICP**: pozwalają dodać do 3 dodatkowych adresów e-mail, pod którymi laboratorium może dotrzeć do Twojego konta. Zobacz [ICP i raporty zdrowia](/help/mobile-icp-health)
 - **Wyloguj się**
 - **Usuń konto**: działa na stałe. Zanim z tego skorzystasz, przeczytaj dwie uwagi poniżej.
 
@@ -39,9 +40,15 @@ Każde akwarium ma swój wiersz, a pod nimi są:
 - **Zmień kolejność akwariów**: kolejność, w jakiej przewijasz akwaria na pulpicie
 - **Usunięte akwaria**: akwaria, które usunięto, gdyby trzeba było coś z nich odzyskać
 
-Otwórz akwarium, żeby je edytować, albo żeby przejść do **Główne Cora Max** (które urządzenie odpytuje sprzęt tego akwarium), **Prowadzona konfiguracja** i listy **Urządzenia w tym akwarium**, tylko do odczytu. Główne Cora Max opisuje strona **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**. Żeby dodać albo usunąć urządzenie, skorzystaj z [zakładki Urządzenia](/help/mobile-devices).
+Po otwarciu akwarium jego strona ustawień ma trzy części.
 
-- **Tryb wakacyjny**: plan dla osoby, która zajmuje się akwarium pod Twoją nieobecność. Więcej w **[Wyjeździe](/help/mobile-vacation)**. Ustawiasz daty i listę prac z częstotliwością każdej z nich, a Cora zamienia to w prostą stronę tylko do odczytu, którą udostępnisz opiekunowi. Opiekun nie potrzebuje konta.
+- **Ustawienia** zawierają **Edytuj akwarium**, **Mapowanie parametrów**, **Progi alertów**, **Jednostki**, **Główne Cora Max** i **Tryb wakacyjny**.
+- **Zapisy i raporty** zawierają **Dziennik**, **Konserwacja**, **Obsada**, **Reef Buddy**, **Raporty zdrowia**, **Raporty ICP**, **Aktywność** i **Prowadzona konfiguracja**.
+- **Urządzenia w tym akwarium** to lista tylko do odczytu.
+
+**Mapowanie parametrów** to miejsce, w którym wybierasz, które urządzenie zasila każdy odczyt. Zobacz [Mapowanie parametrów](/help/mobile-probes). **Jednostki** ustalają, jak to akwarium pokazuje odczyty, w tym litry albo galony amerykańskie lub brytyjskie dla objętości. Zobacz [Profil akwarium](/help/mobile-tank-profile). **Główne Cora Max** to urządzenie, które odpytuje sprzęt tego akwarium, i opisuje je strona **[Więcej niż jedno urządzenie Cora](/help/mobile-multi-device)**. Żeby dodać albo usunąć urządzenie, skorzystaj z [zakładki Urządzenia](/help/mobile-devices).
+
+**Tryb wakacyjny** to plan dla osoby, która zajmuje się akwarium pod Twoją nieobecność. Więcej w **[Wyjeździe](/help/mobile-vacation)**. Ustawiasz daty i listę prac z częstotliwością każdej z nich, a Cora zamienia to w prostą stronę tylko do odczytu, którą udostępnisz opiekunowi. Opiekun nie potrzebuje konta.
 
 ## Ustawienia aplikacji
 

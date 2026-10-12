@@ -2,7 +2,7 @@
 title: La pantalla de inicio de Cora Max
 description: Qué es cada cosa en la pantalla de Cora Max: la barra superior, la cuadrícula del panel y el cajón de tomas.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ De izquierda a derecha:
 | **Desactualizado** | Han dejado de llegar lecturas. La pantalla muestra las últimas que recibió |
 | **Reintento de Apex 12s** | Tu Apex no respondió. Cora Max lo vuelve a intentar cuando acaba la cuenta atrás |
 | **Falló la sincronización con la nube** | Tu Apex respondió, pero sus lecturas no se pudieron guardar en Cora Cloud, así que el panel se va quedando atrás. Cora Max lo sigue intentando |
+| **Guardado en la nube rechazado** | Cora Cloud se niega a guardar algunos datos de esta pantalla. Tu acuario y Cora Max no tienen ningún problema, y no hay que cambiar nada en esta pantalla. La solución es una actualización de Cora Cloud. Abre **Ajustes → Ajustes de Cora Max → Actualización de firmware** y mira la sección **Estado**, donde la línea **Guardado en la nube** indica qué datos están afectados. Después [contacta con soporte](/support.html) |
 | **Sin conexión** | No hay conexión. La pantalla muestra los últimos datos que recibió |
 | **Sin conexión, reintentando en 45s** | Tu red funciona, pero Cora Cloud lleva más de 30 segundos sin responder. Cora Max se vuelve a conectar solo. La cuenta atrás indica cuánto falta para el siguiente intento |
 | **Cora principal sin conexión** | Esta pantalla es un segundo Cora Max para este acuario, y el **Cora Max principal** (el que está fijado para consultar los equipos de este acuario) se ha desconectado. Esta pantalla sigue mostrando los últimos datos que tiene hasta que el principal vuelva o elijas otro Cora Max principal. Consulta [Más de un dispositivo Cora](/help/mobile-multi-device) |
@@ -73,10 +74,12 @@ Al tocar el nombre del acuario se abre el menú del acuario que tienes en pantal
 | **Informes de salud** | Las evaluaciones de salud |
 | **Mantenimiento** | La [lista de tareas](/help/mobile-maintenance) |
 | **Informes ICP** | Los [resultados de laboratorio](/help/mobile-icp-health) que has subido |
-| **Alertas** | El rango saludable de cada parámetro de este acuario |
+| **Historial de parámetros** | Elige cualquier parámetro con datos y abre su [gráfico](/help/max-intelligence) |
+| **Umbrales de alerta** | El rango saludable de cada parámetro de este acuario |
 | **Fauna** | El [inventario](/help/mobile-livestock) de este acuario, solo para consultar en esta pantalla |
 | **Actividad** | [Cada toma, alimentación y dosis](/help/max-activity), y cómo terminó |
 | **Diseño del panel** | [Coloca los widgets de esta pantalla](/help/max-dashboard-editing) |
+| **Unidades** | Las unidades en que se muestran las lecturas de este acuario |
 | **Ajustes del acuario** | Todos los ajustes de este acuario |
 
 ## Cambiar de acuario

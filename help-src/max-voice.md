@@ -2,7 +2,7 @@
 title: Talking to Cora
 description: Using voice on Cora Max, from starting a conversation to what you can ask and how confirmations work.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Things to do:
 - *"Start feed mode."*
 - *"Put the fan back on auto."*
 - *"Log that I did a twenty litre water change."*
+- *"Log that I fed extra mysis."* or *"Log that I skipped the morning feed."*
 
 You don't need to repeat yourself for follow-ups. After a question about the display tank, *"and the frag tank?"* works.
 

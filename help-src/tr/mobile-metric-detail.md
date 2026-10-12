@@ -2,26 +2,28 @@
 title: Parametre ayrıntıları
 description: Bir widget'a dokunun. Tüm geçmişi, değeri bildiren her kaynağı ve aralığı nereden değiştireceğinizi görün.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Your dashboard
 ---
 
 Widget size bir sayı gösterir. Widget'a dokunduğunuzda o sayının arkasındaki hikâyeyi görürsünüz.
 
+Ekrana iki yoldan girersiniz. Panodaki bir widget'a dokunun ya da widget'ların altındaki düğme satırında **Parametre geçmişi**'ne dokunup bir parametre seçin. **Parametre geçmişi**, panoda widget'ı olmasa bile verisi olan her parametreyi listeler.
+
 ## Bu ekranda neler var
 
-![Parametre ayrıntıları](img/mobile-metric-detail.webp "Üstte zaman aralıkları, altında bu parametreyi bildiren kaynaklar, en altta uyarı aralığı gölgeli grafik.")
+![Parametre ayrıntıları](img/mobile-metric-detail.webp "Üstte açılır listeler, altında uyarı aralığı gölgeli grafik.")
 
-**Geçmiş grafiği** ve kendi zaman aralığı seçicisi: **1h · 6h · 12h · 24h · 3d · 7d** ve daha uzunları.
+**Geçmiş grafiği.** Üstündeki üç açılır liste neyi göstereceğini belirler. **Parametre**, verisi olan başka bir parametreye geçer ve zaman aralığınızı korur. **Zaman aralığı** 1h'den 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d ve 360d üzerinden Tümü'ne kadar gider. **Kaynak** **Tüm kaynaklar** ile başlar ve bu akvaryumda bu parametreyi bildiren kaynakları listeler, örneğin *Apex*, *Cora*, *Red Sea* ya da *Manuel*. Yalnızca o kaynağın ölçümlerini görmek için birini seçin. Probu test kitiyle doğrudan böyle karşılaştırırsınız: aynı grafikte ikisi arasında geçiş yapın.
 
-**Kaynak filtresi.** Zaman aralıklarının altında çipler var: **Tümü** ve bu parametreyi bildiren her kaynak için bir çip. Örneğin *Apex*, *Cora*, *Red Sea* ya da *Manuel*. Yalnızca o kaynağın ölçümlerini görmek için bir çip seçin. Probu test kitiyle doğrudan böyle karşılaştırırsınız: aynı grafikte ikisi arasında geçiş yapın.
+Ekran her zaman 24h ve **Tüm kaynaklar** ile açılır. Son seferki seçiminizi hatırlamaz.
 
 **Dozaj hesaplayıcı bağlantısı** (dozladığınız parametrelerde). Hesaplayıcı akvaryum hacmini [akvaryum profilinizden](/help/mobile-tank-profile), ürün güçlerini [Dozaj](/help/mobile-dosing) ayarlarından alır.
 
-**Karşılaştırma katmanı.** *Şununla karşılaştır* ile aynı grafiğe ikinci bir parametre eklersiniz. Örneğin alkaliniteyle kalsiyumu ya da pH ile sıcaklığı üst üste koyabilirsiniz. Aklınızdaki bir ilişkiyi hatırlamaya çalışmadan grafikte görürsünüz.
+**Karşılaştırma katmanı.** **Karşılaştır** ile aynı grafiğe ikinci bir parametre eklersiniz. Örneğin alkaliniteyle kalsiyumu ya da pH ile sıcaklığı üst üste koyabilirsiniz. Liste, akvaryumun sahip olduğu her parametreyi içerir. Aklınızdaki bir ilişkiyi hatırlamaya çalışmadan grafikte görürsünüz. İkinci çizgiyi kaldırmak için çipe yeniden dokunun.
 
-**Özet istatistikler**: ekrandaki zaman aralığı için **MİN**, **ORT** ve **MAKS**. Güncel değerin altında bir satır olarak görünür.
+**Özet istatistikler**: ekrandaki zaman aralığı için **En son**, **Min**, **Ort** ve **Maks** değerleri olan bir satır.
 
 **Grafikte dozaj işaretleri.** Bir değişimi gerçekte verdiğiniz dozlarla yan yana görürsünüz.
 
@@ -48,7 +50,9 @@ Hiç kıpırdamayan bir çizgi parametrenin sabit olduğunu gösterebilir. Ama v
 
 ## Kaynakları karşılaştırma
 
-Bir parametreyi birden fazla kaynak bildiriyorsa Cora bunların ortalamasını almaz, ayrı tutar. Kaynak çipleriyle her birine sırayla bakın.
+Bir parametreyi birden fazla kaynak bildiriyorsa Cora bunların ortalamasını almaz, ayrı tutar. **Kaynak** açılır listesiyle her birine sırayla bakın.
+
+Panoda hangisinin görüneceğini en yeni ölçüm belirler. Canlı bir değerin yerini, hangi kaynaktan olursa olsun yalnızca daha geç bir ölçüm zamanına sahip bir ölçüm alır. Daha eski bir ölçüm geçmişe girer ve widget'taki değerin üzerine yazmaz. Widget için bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
 
 Probla elle girilen test arasında sürekli bir fark varsa genellikle probun kalibre edilmesi gerekiyordur.
 
@@ -76,7 +80,7 @@ Kalibrasyonu ya da temizliği buradan kaydederseniz tarih o kaynağa işlenir. �
 
 ## Elle ölçüm girme
 
-Test kitinizin sonucunu girin. Elle girilen ölçümler diğerlerinden aşağı sayılmaz. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'ye veri sağlarlar. Cora ekipmanınızı da bu ölçümlerle karşılaştırır.
+Test kitinizin sonucunu girin. Liste gruplanmıştır ve **İz Elementler** grubu iyot, demir ve bakırı µg/L cinsinden, potasyumu mg/L cinsinden kapsar. Elle girilen ölçümler diğerlerinden aşağı sayılmaz. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'ye veri sağlarlar. Cora ekipmanınızı da bu ölçümlerle karşılaştırır.
 
 :::note Cora mantıksız görünen değerleri sorar
 Girdiğiniz değer akvaryumun alışılmış değerlerinden çok farklıysa Cora kaydetmeden önce onay ister. Böylece yanlış yere konmuş bir virgül ya da yanlış parametreye girilmiş bir değer yakalanır. Onaylarsanız ölçüm normal şekilde kaydedilir.

@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Günlük özetiniz. Neleri kapsar, ne zaman gelir, puanlar nasıl okunur.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -33,6 +33,18 @@ Veri puanı düşükse değerlendirme olması gerekenden az ölçüme dayanıyor
 Bulgular size gelmeden önce elenir. Bulgunun tek ölçümde değil, birkaç ölçüm boyunca geçerli olması gerekir. Ayrıca tek bir grafiğin zaten gösterdiği bir şeyi tekrar etmemesi gerekir.
 
 Özetin tamamını açmak için panodaki karta dokunun.
+
+## Özeti yeni bir testle güncelleme
+
+Özet çıktıktan sonra elle bir test kaydederseniz ya da bir ICP sonucu eklerseniz, tam özetteki özet kartında **Bu özetten sonra yeni ölçümler geldi** yazısı ve bir **Özeti güncelle** düğmesi görünür. Ona dokunun, Cora özeti yeni değerlerle yeniden hazırlasın. Bunu her hane için günde bir kez yapabilirsiniz. Sonrasında düğme grileşir ve *Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.* yazar.
+
+Prob ve kontrol cihazı ölçümleri gün boyu geldiği için bu teklifi tetiklemez.
+
+## Bu bulguyu neden görüyorsunuz
+
+Bir bulgunun altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümleri**, **Karşılaştırılan hedefi** (kendi hedefinizi ya da bir referans aralığını), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı **Zaman aralığını (gün)** listeler. Gerekçe akvaryumunuza uymuyorsa bulguyu aşağıdaki "Bir bulguya yanıt verme" bölümünde anlatıldığı gibi yanıtlayın.
+
+Özetler yalnızca parametre ölçümlerinden de yararlanmaz. Işıklarınızın programlarını, ReefMat rulosunun hızını, elle girdiğiniz alkaliniteyi bir cihazınkinin yanında, DŌS kafalarınızın toplamlarını ve Beta aşamasındaki bir Inkbird oda havası monitörünüz varsa odanın sıcaklığını ve nemini kullanabilirler. Inkbird yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
 
 ## Ne zaman gelir
 
@@ -79,7 +91,7 @@ Her bulguya dört yanıttan birini verebilirsiniz:
 | **Zaten biliyordum** | Doğru, ama zaten farkındaydınız |
 | **Emin değilim** | Henüz karar veremiyorsunuz |
 
-Yanıtlarınız, sonraki özetlerde hangi bulguların öne çıkacağını etkiler. Bulguyu susturmanın etkisi **süreyle sınırlıdır**. Kapattığınız bulgu, durum devam ederse yeniden gelir.
+Reef Buddy bir kayma bildirdiğinde ayrıca *Bu uyarı işinize yaradı mı?* diye sorar. **Faydalı**, **Faydalı değil**, **Bu değişiklik beklenen bir şey** ya da **Ölçüm yanlış görünüyor** diye yanıtlayabilirsiniz. Yanıtlarınız, sonraki özetlerde hangi bulguların öne çıkacağını etkiler. Bulguyu susturmanın etkisi **süreyle sınırlıdır**. Kapattığınız bulgu, durum devam ederse yeniden gelir.
 
 :::note Ciddi bulgular hiçbir zaman susturulmaz
 Yanıtlarınızla yalnızca önemi düşük bulgular sessize alınabilir. Uyarı ve kritik düzeydeki bulgular, önceki yanıtlarınız ne olursa olsun görünmeye devam eder.

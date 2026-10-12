@@ -2,7 +2,7 @@
 title: Editing your dashboard
 description: Set the column count, add and arrange widgets, resize tiles, and save layouts to reuse on other tanks.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ You only see sources the tank has. A parameter with no source shows up once you 
 
 ## Resizing
 
-A widget takes up one or two columns and one or two rows. Set the size in the widget's settings.
+A widget takes up one or two columns and one or two rows. Set the size in the widget's settings. A camera tile (Beta) can be up to three columns wide. Cameras are only open to Beta users. See [Beta features](/help/mobile-beta).
 
 A **trend** widget is always at least two columns wide.
 
@@ -86,3 +86,13 @@ Readings, history and journal entries are stored apart from the layout, so editi
 ## Editing the Cora Max dashboard
 
 You edit the Cora Max dashboard separately, from **Devices → your Cora Max → Edit Dashboard**. It uses a fixed grid that doesn't scroll. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
+
+### Design with AI
+
+On a paid plan, the editor has a sparkle icon at the top, labelled **Design with AI**. Tap it and Cora proposes a whole layout built from what this tank reports and has linked. On a free plan the icon shows a lock (**Design with AI (paid plans)**) and opens the plans.
+
+The proposal shows how many tiles it has and the grid size. Tap **Use this** to put it in the editor, or **Try again** for another one. You can make 5 designs per tank per day.
+
+An AI design replaces what's on the dashboard you're editing. Nothing reaches Cora Max until you tap **Save & Publish**, so you can still leave without saving. To keep your current layout first, save it under **My dashboards**.
+
+Design with AI needs AI data sharing to be turned on in Settings. If it's off, you'll be told, and you can switch it on and try again. If the tank has no readings or linked devices yet, there's nothing to design from.

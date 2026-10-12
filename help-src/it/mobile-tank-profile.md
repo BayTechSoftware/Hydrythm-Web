@@ -2,7 +2,7 @@
 title: Il profilo della tua vasca
 description: Volume, popolazione, attrezzatura e dosaggio: i dati che Cora usa per interpretare le tue letture.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Tocca una sezione per aprirla. L'icona delle informazioni accanto a ogni sezione
 :::note I dispositivi ora vivono nella scheda Dispositivi
 Il tuo Apex, le unità Red Sea e ogni altro dispositivo si aggiungono, si assegnano e si rimuovono dalla scheda **Dispositivi**, non dal profilo. Vedi [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices). Le impostazioni della vasca mostrano un elenco in sola lettura **Dispositivi su questa vasca** se vuoi solo controllare cosa è assegnato.
 :::
+
+## Unità
+
+Ogni vasca ha le sue unità di visualizzazione. Vai in **Impostazioni**, apri la vasca e scegli **Unità**. Puoi impostare come questa vasca mostra salinità, temperatura, alcalinità, volume, fosfato e nitrato. Il volume può essere in litri, galloni US o galloni UK.
+
+Le unità valgono per questa vasca su ogni telefono e su ogni Cora Max che la apre. Le tue letture non cambiano, cambia solo come vengono mostrate. Indicatori, riquadri, storico, report e quello che dice Cora Assistant seguono la scelta. Su Cora Max, apri il menu della vasca e tocca **Unità**.
 
 ## Volume
 

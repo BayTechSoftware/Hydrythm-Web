@@ -2,7 +2,7 @@
 title: El diario
 description: Apunta lo que haces en tu acuario y más adelante podrás ver qué causó qué.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 21
 group: Records
 ---
@@ -38,6 +38,19 @@ Esto es lo que más suele importar después.
 - **Mantenimiento**, como limpiar el skimmer, cambiar las mangas o revisar las bombas
 - **Cualquier cosa rara**, como un corte de luz, un día de mucho calor o un derrame
 
+## Alimentación
+
+Dile a Cora una vez cómo sueles alimentar y anota solo las excepciones.
+
+Para configurar tu rutina, abre **Editar acuario** (el lápiz de arriba del panel) y toca **Rutina de alimentación**. Una tarjeta del panel, **¿Cómo alimentas normalmente?**, te lleva ahí con **Configurar rutina** hasta que lo hagas. Para cada alimento, indica el alimento, una **Cantidad**, una **Unidad** (cubo, pizca, g, ml, gota, cucharada o lámina) y **Veces al día**. Toca **Añadir alimento** para añadir más. Activa **Uso un alimentador automático** si alimenta uno por ti, y sus comidas cuentan como parte de la rutina. En **Peso de las porciones (opcional)** puedes indicar cuánto pesa un cubo o una pizca, para que Cora pueda comparar las comidas con el tiempo en gramos.
+
+Cuando un día se sale de la rutina, toca **Alimentación** en la fila de botones bajo los widgets. La hoja **Registrar una excepción de alimentación** tiene tres opciones: **Comida extra**, **Comida omitida** y **Alimento o cantidad cambiado**. Puedes añadir una **Cantidad (opcional)**. Cada una es una entrada normal del diario, y Reef Buddy la tiene en cuenta, así que un acuario estable no se echa la culpa por un capricho que le diste.
+
+Otras formas de anotar una comida:
+
+- En un Neptune Apex, un ciclo de alimentación de Feed A a D se anota cuando el Cora Max que lee tu Apex ve que empieza. Eso incluye un ciclo que inicias en el Apex, en Apex Fusion o desde el propio horario del Apex.
+- Díselo a Cora Assistant, por voz o en un chat, con algo como *"Anota que di misis."* Escribe la entrada por ti.
+
 ## Editar y eliminar entradas
 
 Toca una entrada para abrirla y cambiarla. Para eliminarla, deslízala y confirma. Cora te lo pregunta antes, porque lo que escribiste en el momento no se puede recuperar después.
@@ -57,3 +70,5 @@ Cora Assistant lee el diario. Para responder a preguntas como *"¿cuándo cambi�
 ## En Cora Max
 
 También puedes añadir entradas en Cora Max. Suele ser más práctico cuando estás de pie junto al acuario. Abre el diario desde el menú del acuario o dicta una entrada por voz.
+
+La pantalla del diario de Cora Max también tiene los botones **Comida extra** y **Comida omitida**, con una línea que muestra tu rutina de alimentación. Si no has configurado ninguna, la línea dice *Configura tu rutina de alimentación en la app del móvil*, porque la rutina se configura en Cora Mobile.

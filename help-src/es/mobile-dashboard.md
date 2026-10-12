@@ -2,7 +2,7 @@
 title: Leer tu panel
 description: Cómo leer el panel de Cora: widgets, antigüedad de las lecturas, fuentes y significado de los colores.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ Al final del panel tienes:
 
 - **Editar panel**: abre el [editor del panel](/help/mobile-dashboard-editing)
 - **Registrar parámetros**: para anotar a mano las lecturas de tus kits de pruebas
+- **Historial de parámetros**: para abrir el historial de cualquier parámetro que tenga datos, aunque no tenga widget. Consulta [Ver un parámetro a fondo](/help/mobile-metric-detail)
+- **Alimentación**: para anotar una comida que se sale de tu rutina. Consulta [El diario](/help/mobile-journal)
 - **Diario · Alertas · Mantenimiento · Fauna**: accesos directos a esas secciones de este acuario
+
+En un acuario sin lecturas y sin equipos vinculados, una tarjeta encima de ellos, **Registra tu primera prueba de agua**, te ayuda a empezar. Consulta [Configurar Cora Mobile](/help/mobile-setup).
 
 Encima hay una línea que indica cuándo se actualizó el panel por última vez y de qué fuentes tomó los datos.
 

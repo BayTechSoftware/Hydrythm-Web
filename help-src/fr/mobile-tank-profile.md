@@ -2,7 +2,7 @@
 title: Le profil de votre aquarium
 description: Le volume, la population, l’équipement et le dosage que Cora utilise pour interpréter vos mesures.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Touchez une section pour la déplier. L’icône d’information à côté de ch
 :::note Les appareils sont maintenant sur l’onglet Appareils
 Votre Apex, vos appareils Red Sea et tout autre appareil s’ajoutent, se rattachent et se retirent depuis l’onglet **Appareils**, pas depuis le profil. Voir [Ajouter, modifier et retirer des appareils](/help/mobile-devices). Les réglages de l’aquarium affichent une liste **Appareils sur cet aquarium** en lecture seule si vous voulez simplement vérifier ce qui est rattaché.
 :::
+
+## Unités
+
+Chaque aquarium a ses propres unités d’affichage. Allez dans **Réglages**, ouvrez l’aquarium et choisissez **Unités**. Vous pouvez régler la façon dont cet aquarium affiche la salinité, la température, l’alcalinité, le volume, le phosphate et le nitrate. Le volume peut être en litres, en gallons US ou en gallons UK.
+
+Les unités s’appliquent à cet aquarium sur chaque téléphone et chaque Cora Max qui l’ouvre. Vos mesures ne sont pas modifiées, seulement leur affichage. Les jauges, les tuiles, l’historique, les rapports et ce que dit Cora Assistant suivent votre choix. Sur Cora Max, ouvrez le menu de l’aquarium et touchez **Unités**.
 
 ## Volume
 

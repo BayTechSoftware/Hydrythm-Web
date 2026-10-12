@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem
 description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i nim sterować: gniazda, pompy, głowice dozujące i testery.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 11
 group: Equipment
 ---
@@ -10,6 +10,8 @@ group: Equipment
 Każde podłączone urządzenie ma w Corze własną stronę. Widać na niej stan na żywo i wszystkie ustawienia, które urządzenie obsługuje. Otworzysz ją w zakładce **Urządzenia**.
 
 ![Strona urządzenia](img/mobile-device-detail.webp "Odczyty na żywo na górze, niżej ustawienia, które obsługuje urządzenie.")
+
+Urządzenia Beta, takie jak lampy, pompy i dozowniki EcoTech, urządzenia Focustronic, monitory Inkbird i kamery, są dostępne tylko dla użytkowników Beta i mają własne strony. Zobacz [Funkcje Beta](/help/mobile-beta).
 
 Każda strona urządzenia wygląda podobnie. Na górze jest opis urządzenia, potem rząd odczytów na żywo, stan zgłaszany przez urządzenie, a na końcu przyciski sterowania. Dzwonek na pasku tytułu ustawia progi alertów dla tego urządzenia. Więcej w [Materiałach eksploatacyjnych](/help/mobile-consumables).
 
@@ -53,7 +55,7 @@ Przy każdej głowicy widać, co dozuje, jej harmonogram, ile podała dzisiaj, i
 Dla każdej głowicy możesz:
 
 - **Wstrzymaj** albo **Wznów** jej harmonogram
-- **Napełnij**, czyli podać Corze, że pojemnik jest znów pełny, albo wpisać, ile w nim jest
+- **Napełnij**, czyli podać Corze, że pojemnik jest znów pełny, albo wpisać, ile w nim jest (**Całkowita objętość** to rozmiar pojemnika, **Pozostała objętość** to to, co w nim jest teraz, a **Pełny** ustawia jedno na drugie)
 - **Dawkuj teraz**, czyli podać odmierzoną dawkę ręcznie
 
 :::note Harmonogramy edytujesz w Apex Fusion
@@ -74,6 +76,8 @@ Każda głowica ma ustawiony **typ użycia**. Dzięki temu Cora wie, co głowica
 
 Dwa typy dla podmiany wody działają **w parze**. W jednej głowicy ustaw **Sparowana głowica** na tę drugą, która przenosi wodę w przeciwną stronę. Cora potraktuje je wtedy jako jedną parę do podmiany wody.
 
+Pojemnik może mieć do 1000 L, przy każdym typie użycia. Sam Apex liczy tylko do 150 L, więc powyżej tego Cora śledzi pojemnik sama, na podstawie tego, co dozuje głowica. Podaj **Całkowita objętość** przy konfiguracji. Cora co jakiś czas resetuje też własny licznik Apex, a Aktywność pokazuje to jako *Reset the Apex's own counter to 150 L*.
+
 Każda głowica ma też limit **Największa dawka ręczna**. Chroni on przed literówką, przez którą ręczna dawka byłaby dużo większa niż planowana. Duże dawki ręczne są dostępne dopiero wtedy, gdy tempo głowicy zmierzono prawdziwym testem przy akwarium, i dopiero po włączeniu **Duże dawki (Beta)** w ustawieniach głowicy. Domyślnie jest wyłączone: włącz je dopiero po obejrzeniu pierwszej dużej dawki wykonanej przy akwarium.
 
 ## Red Sea ReefBeat
@@ -82,16 +86,16 @@ Każde urządzenie ma stronę dopasowaną do tego, czym jest:
 
 | Urządzenie | Co pokazuje strona | Co możesz zrobić |
 |---|---|---|
-| **ReefDose** | Każdą głowicę, jej pojemnik i to, ile podała | Dla każdej głowicy: **Dawka dzienna**, **Pozostało w butelce**, **Dawkuj teraz** i **Aktywuj harmonogram**, a do tego pełny edytor **Plan dozowania** *(beta)*. Ustawić alerty uzupełnienia dla każdej głowicy |
+| **ReefDose** | Każdą głowicę, jej pojemnik i to, ile podała | Dla każdej głowicy: **Dawka dzienna**, **Pozostało w butelce**, **Dawkuj teraz** i **Aktywuj harmonogram**, a do tego pełny edytor **Plan dozowania (Beta)**. Ustawić alerty uzupełnienia dla każdej głowicy |
 | **ReefATO+** | Poziom w zbiorniku i pracę dolewki | Ustawić alert zbiornika. Zapytać Asystenta, na ile dni starczy zbiornika |
-| **ReefMat** | Ile zostało rolki, w dniach i metrach | Przewinąć rolkę, ustawić alert uzupełnienia, a w wersji beta włączyć zaplanowany posuw, ustawić model i pozycję silnika oraz zarejestrować nową rolkę |
-| **ReefRun** | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, włączyć albo wyłączyć pompę, zmienić ustawienia odpieniacza i edytować pełny program prędkości *(beta)* |
-| **ReefControl** *(beta)* | Jego sondy temperatury, pH, zasolenia i ORP | Podejrzeć odczyty |
-| **ReefWave**, **ReefLED** *(beta)* | Jego bieżący tryb | Na razie tylko do podglądu |
+| **ReefMat** | Ile zostało rolki, w dniach i metrach | Przewinąć rolkę, ustawić alert uzupełnienia, a w wersji Beta włączyć zaplanowany posuw, ustawić model i pozycję silnika oraz zarejestrować nową rolkę |
+| **ReefRun** | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, włączyć albo wyłączyć pompę, zmienić ustawienia odpieniacza i edytować pełny **Harmonogram pompy (Beta)** prędkości |
+| **ReefControl** *(Beta)* | Jego sondy temperatury, pH, zasolenia i ORP | Podejrzeć odczyty |
+| **ReefWave**, **ReefLED** *(Beta)* | Jego bieżący tryb | Na razie tylko do podglądu |
 
-**ReefRun to sterownik pompy powrotnej i pompy odpieniacza**, a nie pompa cyrkulacyjna. **ReefControl Power** *(beta)* pokazuje swoje gniazda jako gniazda sterowane z tego samego panelu co gniazdo Apex, tylko włącz albo wyłącz. Automatyczny tryb dla nich jeszcze nie działa.
+**ReefRun to sterownik pompy powrotnej i pompy odpieniacza**, a nie pompa cyrkulacyjna. **ReefControl Power** *(Beta)* pokazuje swoje gniazda jako gniazda sterowane z tego samego panelu co gniazdo Apex, tylko włącz albo wyłącz. Automatyczny tryb dla nich jeszcze nie działa.
 
-## Edytowanie planu ReefDose albo programu ReefRun *(beta)*
+## Edytowanie planu ReefDose albo programu ReefRun *(Beta)*
 
 Dotknij ikony kalendarza na stronie ReefDose albo ReefRun, żeby otworzyć jego plan.
 
@@ -101,7 +105,7 @@ Program ReefRun to maksymalnie sześć segmentów na jednym porcie pompy. Każdy
 
 Oba edytory najpierw odczytują plan, który już jest na urządzeniu, więc edytujesz to, co naprawdę tam jest, a nie pusty formularz.
 
-## Ustawienia ReefMat *(beta)*
+## Ustawienia ReefMat *(Beta)*
 
 Dotknij ikony koła zębatego na stronie ReefMat, żeby zobaczyć trzy kolejne ustawienia.
 
@@ -136,8 +140,8 @@ Możesz też:
 
 ## Maxspect
 
-:::note Obsługa Maxspect jest w wersji beta
-Obsługę gyre Maxspect wciąż testujemy i rozwijamy. Część ustawień może być ograniczona, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
+:::note Beta
+**Beta.** Maxspect jest w wersji Beta i dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Część ustawień może być ograniczona, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support). Więcej w [Funkcje Beta](/help/mobile-beta).
 :::
 
 Strona gyre pokazuje, czy gyre pracuje, wzór fali i prędkość **Gyre A** i **Gyre B** oraz czas ostatniego odczytu. Możesz tu:
@@ -154,8 +158,8 @@ Jeśli akwarium obsługuje Cora Max, Cora Mobile łączy się przez niego, takż
 
 ## GHL ProfiLux i Mitras
 
-:::note Obsługa GHL jest w wersji beta
-Obsługę GHL wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
+:::note Beta
+**Beta.** GHL jest w wersji Beta i dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support). Więcej w [Funkcje Beta](/help/mobile-beta).
 :::
 
 Strona kontrolera pokazuje jego sondy, gniazda, dozowniki i czujniki poziomu, a w modelach Director także wyniki testów KH i jonów.
@@ -183,8 +187,8 @@ Jeśli kontroler odrzuci zmianę, sprawdź, czy jego API GHL jest włączone z p
 
 ## HYDROS
 
-:::note Obsługa HYDROS jest w wersji beta
-Obsługę HYDROS wciąż testujemy i rozwijamy. Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support).
+:::note Beta
+**Beta.** HYDROS jest w wersji Beta i dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmienić z kolejną aktualizacją. Jeśli coś nie działa tak, jak opisano, napisz do nas przez [Pomoc](/help/mobile-support). Więcej w [Funkcje Beta](/help/mobile-beta).
 :::
 
 To, co tu widzisz, zależy od użytego klucza połączenia. Klucz **Odczyt** daje tylko jego wejścia. Klucz **Zapis** dodaje wyjścia, tryby, dozowanie i komendy testera, a także baner na stronie przypominający, jakiego klucza dotyczy.

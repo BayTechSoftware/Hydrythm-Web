@@ -2,7 +2,7 @@
 title: Your tank profile
 description: The volume, livestock, equipment and dosing details Cora uses to make sense of your readings.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Tap a section to open it. The info icon next to each one tells you what its fiel
 :::note Devices live on the Devices tab now
 Your Apex, Red Sea units and every other device are added, assigned and removed from the **Devices** tab, not from the profile. See [Adding, editing and removing devices](/help/mobile-devices). Tank settings shows a read-only **Devices on this tank** list if you just want to check what's assigned.
 :::
+
+## Units
+
+Each tank has its own display units. Go to **Settings**, open the tank and choose **Units**. You can set how this tank shows salinity, temperature, alkalinity, volume, phosphate and nitrate. Volume can be litres, US gallons or UK gallons.
+
+The units apply to this tank on every phone and Cora Max that opens it. Your readings aren't changed, only how they're shown. Gauges, tiles, history, reports and what Cora Assistant says all follow the choice. On Cora Max, open the tank menu and tap **Units**.
 
 ## Volume
 

@@ -2,7 +2,7 @@
 title: Automations and scenes
 description: Build rules that run on their own with triggers, conditions and actions, and group actions into scenes.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 17
 group: Alerts and automation
 ---
@@ -62,9 +62,14 @@ Actions that need equipment only show up on a tank that has that equipment:
 | **Run a Scene** | Run a scene from inside this rule |
 | **Manage an Automation** | Turn another rule on or off |
 | **Dose a DŌS Head** | Run a measured dose on a DŌS head |
+| **Create a Maintenance Task** | Put a job on the tank's [maintenance](/help/mobile-maintenance) list, for example change the CO2 scrubber media when pH drops below a value |
 
 :::warning A dose can't be undone, and it's capped
 You can't take a dose back out of the tank. A head has to be **calibrated** before a rule can dose from it. Unattended dosing is capped at **10 mL per head per day**, however the rule is written. Dosing actions only show up once Cora recognises your heads as dosing heads.
+:::
+
+:::note What Create a Maintenance Task does
+Pick the tank, then **Existing task** (an existing task becomes due now) or **New task** (give it a **Task name**). A new task is a one-off, due right away, and the rule doesn't raise it again while it's still open. You get one notification, and the one-off task leaves the list when you complete it.
 :::
 
 :::note Use Wait to run steps in order

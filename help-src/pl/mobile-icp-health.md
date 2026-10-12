@@ -2,7 +2,7 @@
 title: ICP i raporty zdrowia
 description: Prześlij test ICP, śledź każdy pierwiastek w czasie i zleć pełną ocenę zdrowia systemu.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 26
 group: Intelligence
 ---
@@ -16,6 +16,18 @@ W zakładce **Inteligencja** są Twoje wyniki laboratoryjne i zmiany w dłuższy
 Dotknij **Przesłać ICP**, wybierz akwarium i dodaj wynik z laboratorium. Cora odczyta raport, zapisze każdy pierwiastek i porówna go z poprzednimi testami.
 
 Nie musisz niczego przepisywać. Cora rozpoznaje popularne formaty raportów laboratoryjnych.
+
+## Jaki e-mail może wykorzystać laboratorium
+
+Laboratorium albo wynik wysłany e-mailem znajduje Twoje konto po adresie e-mail, który zna. To Twój e-mail do logowania oraz każdy e-mail laboratorium, który dodasz w **Ustawienia → karta Twojego konta → E-maile laboratorium i ICP**.
+
+1. Dotknij **Dodaj e-mail laboratorium** i wpisz adres, którego używa Twoje laboratorium.
+2. Dotknij **Wyślij kod**. Cora wysyła 6-cyfrowy kod na ten adres. Wygasa po 10 minutach.
+3. Wpisz kod i dotknij **Potwierdź**. Jeśli go nie dostałeś, dotknij **Wyślij kod ponownie**.
+
+Możesz dodać do 3 e-maili laboratorium. Każdy pokazuje **Potwierdzony** albo **Czeka na kod**, a **Usuń** zdejmuje go z listy. Potem wyniki wysłane na ten adres nie trafiają już na Twoje konto. Nie można dodać adresu, który należy już do innego konta Cora.
+
+Jeśli zalogowałeś się ukrytym adresem Apple, laboratoria nie znajdą Twojego konta. Ekran ICP pokazuje wtedy kartę **Otrzymuj wyniki z laboratorium automatycznie**, która prowadzi do tego ustawienia. Przy logowaniu przez Apple wybierz **Udostępnij mój adres e-mail**, aby uniknąć problemu.
 
 ## Wysyłka do Cory: wyniki, które dostarcza laboratorium albo e-mail
 
@@ -45,7 +57,15 @@ Jeśli to nie działa, zajrzyj do [Rozwiązywania problemów](/help/troubleshoot
 
 Ocena wynika z porównania wyników z zakresami docelowymi, także z tymi, które ustawiasz samodzielnie. Każdy wynik poza zakresem ogranicza ocenę do 70 lub mniej, więc nie może ona pokazać **Zdrowe**. Wynik daleko poza zakresem ogranicza ją do 40 lub mniej, bez względu na to, jak dobre są pozostałe. Pod oceną jest etykieta: **Zdrowe** od 71 do 100, **Wymaga uwagi** od 40 do 70 i **Krytyczne** od 0 do 39. Raporty zdrowia są oceniane tak samo.
 
-**Wszystkie śledzone pierwiastki**, czyli główne parametry, a także pierwiastki śladowe i zanieczyszczenia.
+**Wszystkie śledzone pierwiastki**, czyli główne parametry, a także pierwiastki śladowe i zanieczyszczenia. Cora zapisuje wszystkie 71 pierwiastków, które może podać laboratorium, a linia, którą niektóre laboratoria nazywają *Acidity*, to pH.
+
+W każdym wierszu pierwiastka widzisz zakres wydrukowany przez laboratorium, pokazany jako *Lab range*, obok własnego zakresu Cory dla tego pierwiastka. Pierwiastek, dla którego Cora nie ma zakresu odniesienia, ma znacznik **No Cora range**. Raport podaje, ile pierwiastków ma zakres Cory, a resztę ocenia na podstawie ogólnej wiedzy o akwariach rafowych. Asystent Cora komentuje każdy przebadany pierwiastek, a jego komentarz zostaje, nawet gdy nie ma zakresu Cory.
+
+Jeśli laboratorium drukuje *n.d.* albo *not detected* dla pierwiastka, Cora zapisuje go jako 0 i pisze, że nie wykryto.
+
+:::note Rozpuszczony CO2 to nie CO2 w pomieszczeniu
+**Rozpuszczony CO₂** w raporcie ICP to CO2 w wodzie, w mg/L. To inny odczyt niż CO2 w powietrzu w pomieszczeniu, który mierzy monitor powietrza Inkbird w wersji Beta. Mają inne zakresy i nigdy się ich nie miesza. Zobacz [Funkcje Beta](/help/mobile-beta).
+:::
 
 **Największe zmiany.** Karta „Od Twojego ostatniego ICP” pokazuje, co zmieniło się najbardziej od ostatniego testu. Zwykle najszybciej tak zrozumiesz nowy raport.
 
@@ -54,6 +74,10 @@ Ocena wynika z porównania wyników z zakresami docelowymi, także z tymi, któr
 :::tip Ciekawie robi się od drugiego testu
 Jeden ICP mówi, gdzie jesteś. Drugi pokazuje, w którą stronę zmierzasz, a z tą wiedzą łatwiej coś zrobić. Rób testy regularnie i nie czekaj, aż coś będzie nie tak.
 :::
+
+## Test wody RO/DI albo wody źródłowej
+
+Jeśli przesyłasz próbkę wody RO/DI albo innej wody źródłowej, powiedz o tym przy przesyłaniu. Cora nie ocenia jej według celów Twojego akwarium. Podaje prosty werdykt, czy woda jest wystarczająco czysta do użycia, i trzyma te liczby poza odczytami akwarium. Raport zaznacza, ile wyników to woda źródłowa. Cora robi tak samo ze świeżo zmieszaną solą albo każdą inną próbką, która nie jest wodą z akwarium: mówi, jak wygląda próbka, i nie ocenia jej jak Twojego akwarium.
 
 ## Raporty zdrowia
 

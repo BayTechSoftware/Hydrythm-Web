@@ -2,7 +2,7 @@
 title: Akvaryum profiliniz
 description: Cora'nın ölçümlerinizi yorumlarken kullandığı hacim, canlı, ekipman ve dozaj bilgileri.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Bir bölümü açmak için üzerine dokunun. Her bölümün yanındaki bilgi sim
 :::note Cihazlar artık Cihazlar sekmesinde
 Apex'iniz, Red Sea üniteleriniz ve diğer her cihaz artık profilden değil, **Cihazlar** sekmesinden eklenir, atanır ve kaldırılır. Ayrıntılar [Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices) sayfasında. Yalnızca neyin atandığını kontrol etmek isterseniz akvaryum ayarlarında salt okunur bir **Bu akvaryumdaki cihazlar** listesi bulunur.
 :::
+
+## Birimler
+
+Her akvaryumun kendi görüntüleme birimleri vardır. **Ayarlar**'a gidin, akvaryumu açın ve **Birimler**'i seçin. Bu akvaryumun tuzluluğu, sıcaklığı, alkalinitesi, hacmi, fosfatı ve nitratı nasıl göstereceğini ayarlayabilirsiniz. Hacim litre, ABD galonu ya da İngiliz galonu olabilir.
+
+Birimler, akvaryumu açan her telefonda ve Cora Max'te geçerlidir. Ölçümleriniz değişmez, yalnızca nasıl gösterildikleri değişir. Göstergeler, kutucuklar, geçmiş, raporlar ve Cora Assistant'ın söyledikleri seçiminizi izler. Cora Max'te akvaryum menüsünü açın ve **Birimler**'e dokunun.
 
 ## Hacim
 

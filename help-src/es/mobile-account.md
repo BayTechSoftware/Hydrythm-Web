@@ -2,7 +2,7 @@
 title: Inicio de sesión y recuperación de la cuenta
 description: Inicia sesión, recupera una contraseña olvidada y corrige un correo que no puedes verificar.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Cambiar la dirección de una cuenta afecta a la seguridad, así que a veces Cora
 ## La cuenta sigue sin verificar
 
 Cora Mobile lo comprueba cuando tocas **Ya verifiqué mi correo**. Si te dice que el correo aún no está verificado, toca **Confirmar mi correo** en el mensaje más reciente, espera un momento y vuelve a comprobarlo. Si el enlace ha caducado, toca **Reenviar correo de verificación** para recibir otro. La verificación va ligada a la cuenta y no al dispositivo, así que en cuanto funciona queda resuelta en todos tus dispositivos.
+
+## Correos de laboratorio e ICP
+
+Los laboratorios y los resultados de ICP por correo encuentran tu cuenta por la dirección de correo. Si tu laboratorio conoce una dirección distinta de la que usas para iniciar sesión, o iniciaste sesión con un correo oculto de Apple, añádela en **Ajustes → la tarjeta de tu cuenta → Correos de laboratorio e ICP**. Toca **Agregar correo de laboratorio**, luego **Enviar código**, escribe el código de 6 dígitos del correo y toca **Verificar**. Puedes añadir hasta 3. Los pasos están en [ICP e informes de salud](/help/mobile-icp-health).
 
 ## Cerrar sesión
 

@@ -2,7 +2,7 @@
 title: Signing in and account recovery
 description: Sign in, reset a forgotten password, and fix an email address you can't verify.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Changing an account's email address is a security step, so Cora sometimes wants 
 ## Still verifying
 
 Cora Mobile checks your account when you tap **I've Verified My Email**. If your email still isn't verified, tap **Verify my email** in the newest message, wait a moment and check again. If the link has expired, tap **Resend verification email**. Once verification goes through, it applies on all your devices.
+
+## Lab and ICP emails
+
+Labs and emailed ICP results find your account by email address. If your lab knows a different address from the one you sign in with, or you signed in with a hidden Apple email, add it under **Settings → your account card → Lab & ICP emails**. Tap **Add lab email**, then **Send code**, enter the 6-digit code from the email and tap **Verify**. You can add up to 3. The steps are in [ICP and health reports](/help/mobile-icp-health).
 
 ## Signing out
 

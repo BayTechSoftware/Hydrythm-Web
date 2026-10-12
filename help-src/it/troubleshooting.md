@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi
 description: Le letture si sono fermate, un dispositivo è offline, un avviso non si chiude o qualcosa non ti torna. Parti da qui.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ L'età indicata è giusta: non è arrivato niente di nuovo.
 - **I parametri registrati a mano** invecchiano quando non inserisci letture nuove. Registrane una.
 - **Se invecchiano le letture dell'attrezzatura**, il dispositivo ha smesso di mandare dati. Controlla la sua riga in **Dispositivi**.
 - **Alcuni dispositivi sono lenti di natura.** Un titolatore che misura ogni ora di solito mostra `1h`. Non è un guasto.
+
+## "[Dispositivo]: ha smesso di comunicare"
+
+Cora manda questo messaggio quando un dispositivo diventa silenzioso. Non vuol dire che il dispositivo sia rotto, solo che Cora non lo sente da un po'.
+
+- Un Neptune Apex o un'unità Red Sea ReefBeat è considerato silenzioso dopo circa 30 minuti. AquaWiz ne impiega circa 3 ore.
+- Una pompa Jecod o Maxspect è considerata silenziosa dopo tre letture mancate di fila, contate sull'intervallo di lettura di quel dispositivo.
+- Un dispositivo EcoTech o un monitor Inkbird, entrambi in Beta, è considerato silenzioso anch'esso dopo tre letture mancate di fila, contate sull'intervallo di lettura che hai impostato. Le reti EcoTech con sole luci vengono lette ogni 30 minuti per impostazione predefinita, quindi calcola almeno 90 minuti.
+
+1. Controlla l'alimentazione del dispositivo e la portata del Wi-Fi o del Bluetooth.
+2. Controlla che il Cora Max che lo legge sia acceso e online.
+3. Aspetta la lettura successiva. Quando torna a comunicare ricevi una seconda notifica.
+
+Trovi di più in [Avvisi e soglie](/help/mobile-alerts). I dispositivi Beta sono spiegati in [Funzioni Beta](/help/mobile-beta).
 
 ## Un dispositivo non si raggiunge
 
@@ -57,6 +71,15 @@ Guarda l'indicatore di stato nella barra in alto. **Online** e **Cloud** voglion
 - Controlla il Wi-Fi in **Impostazioni → Impostazioni Cora Max → Wi-Fi**
 - Controlla che la rete funzioni
 - Se l'indicatore dice **Online** o **Cloud** e i dati sono comunque vecchi, il problema è a monte. Controlla la stessa vasca sul telefono
+
+## Cora Max mostra "Salvataggio cloud rifiutato"
+
+Questa etichetta nella barra in alto significa che Cora Cloud si rifiuta di salvare alcuni dati di questa schermata. Non c'è niente che non va nella tua vasca o in Cora Max, e non serve cambiare niente sullo schermo. La soluzione è un aggiornamento di Cora Cloud.
+
+1. Apri **Impostazioni → Impostazioni Cora Max → Aggiornamento firmware** e guarda la sezione **Stato**. La riga **Salvataggio cloud** dice quali dati vengono rifiutati, per esempio le letture o le prese di un dispositivo.
+2. [Contatta il supporto](/support.html) e dicci cosa c'è scritto su quella riga.
+
+Nel frattempo le tue letture continuano a comparire su Cora Max. Semplicemente non vengono salvate nel tuo account finché la correzione non arriva.
 
 ## Un avviso non si chiude
 
@@ -105,6 +128,8 @@ Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indic
 
 ## "API GHL disattivata"
 
+GHL è un'integrazione Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+
 GHL disattiva la sua API ufficiale dopo ogni aggiornamento firmware, quindi è normale dopo un aggiornamento, non un guasto. Riattivala da **System → GHL API** in GHL Control Center o GHL Connect, direttamente sul controller. Cora continua a controllare e si ricollega da sola appena torna attiva.
 
 ## "Controller GHL non raggiungibile"
@@ -146,7 +171,7 @@ Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indic
 
 ## "Impossibile raggiungere quel Gyre. Nessuna alimentazione è stata avviata."
 
-Una gyre Maxspect (integrazione in beta) non ha risposto quando Cora ha provato ad avviare la modalità alimentazione.
+Una gyre Maxspect (integrazione in Beta) non ha risposto quando Cora ha provato ad avviare la modalità alimentazione.
 
 Prova così:
 1. Controlla che la gyre sia accesa e sulla sua rete.
@@ -156,7 +181,7 @@ Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** indic
 
 ## "Impossibile raggiungere quel Gyre. Il suo programma non è stato cambiato."
 
-Il programma inviato a una gyre Maxspect (integrazione in beta) non l'ha raggiunta.
+Il programma inviato a una gyre Maxspect (integrazione in Beta) non l'ha raggiunta.
 
 Prova così:
 1. Controlla che il telefono o Cora Max siano sulla rete della gyre.
@@ -318,7 +343,7 @@ Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
 Dipende dalle unità di visualizzazione impostate per la vasca, non dai dati. I valori vengono salvati sempre allo stesso modo, comunque tu li veda.
 
 Prova così:
-1. Apri le **Impostazioni** di quella vasca e controlla le unità di visualizzazione.
+1. Apri le **Impostazioni**, apri quella vasca e scegli **Unità**.
 2. Cambiale lì. Tutti i telefoni e i Cora Max che mostrano quella vasca si aggiornano.
 
 Se ancora non va, scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

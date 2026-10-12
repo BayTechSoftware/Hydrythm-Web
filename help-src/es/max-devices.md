@@ -2,7 +2,7 @@
 title: Dispositivos y estado de los dispositivos
 description: Qué equipos ve Cora Max, qué dispositivo consulta cada acuario y qué revisar si deja de consultarlos.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Equipment
 ---
@@ -15,7 +15,9 @@ En **Ajustes → Dispositivos** ves los equipos que Cora Max tiene a la vista y 
 
 Cora Max ve los mismos equipos que tu teléfono, porque los dos leen la misma cuenta.
 
-Con los filtros de arriba eliges **Todos los acuarios** o solo uno. Cada entrada tiene un punto de estado, una línea con lo que contiene el dispositivo (*21 tomas · 4 alimentaciones*, *19 pruebas restantes*) y el acuario al que pertenece.
+Con los filtros de arriba eliges **Todos los acuarios** o solo uno. Cada entrada tiene un punto de estado (gris cuando Cora todavía no lo sabe, verde si funciona, naranja si hay un aviso o un fallo, rojo si está sin conexión), una línea con lo que contiene el dispositivo (*21 tomas · 4 alimentaciones*, *19 pruebas restantes*) y el acuario al que pertenece.
+
+La página de cada dispositivo se abre con una sección **Estado**. Cora Max también muestra los dispositivos Beta que tu cuenta ha vinculado, como luces, bombas y dosificadoras EcoTech, monitores de aire de habitación Inkbird y cámaras. El acceso Beta se gestiona desde el teléfono: consulta [Funciones Beta](/help/mobile-beta).
 
 Cora Max muestra y controla los dispositivos, pero cada dispositivo se añade, se asigna y se quita desde el teléfono. Sin ningún dispositivo todavía, esta pantalla dice **Agrega dispositivos en la app de Cora**. Más información sobre cómo añadir equipos en [Añadir, editar y eliminar dispositivos](/help/mobile-devices).
 

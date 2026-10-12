@@ -2,7 +2,7 @@
 title: Geräte hinzufügen, bearbeiten und entfernen
 description: So fügst du Geräte zu Cora hinzu, ordnest sie einem Becken zu und entfernst sie sauber, alles an einer Stelle.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 9
 group: Equipment
 ---
@@ -13,7 +13,13 @@ Füg jedes Gerät im Tab **Geräte** hinzu, bearbeite, ordne und entferne es dor
 
 ## Geräte hinzufügen
 
-Tippe auf **Gerät hinzufügen** und wähl die Marke: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod**, **Maxspect**, **GHL** *(Beta)*, **HYDROS** *(Beta)* oder **AquaWiz**. Jede öffnet genau das, was sie braucht, um deine Ausrüstung zu finden: einen Netzwerk-Scan, eine IP-Adresse, eine Anmeldung oder einen Geräteschlüssel. Was jede Marke dafür braucht, steht unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+Tippe auf **Gerät hinzufügen** und wähl die Marke: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** oder **AquaWiz**. Beta-Nutzer sehen außerdem **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** und **Kamera**, jeweils mit einem Chip **Beta**. Jede öffnet genau das, was sie braucht, um deine Ausrüstung zu finden: einen Netzwerk-Scan, eine IP-Adresse, eine Anmeldung oder einen Geräteschlüssel. Was jede Marke dafür braucht, steht unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+
+:::note Beta
+**Beta.** Die Beta-Anbindungen stehen nur Beta-Nutzern offen. Bist du keiner, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
+:::
+
+Eine Zeile, die ein Cora Max am Becken braucht (Maxspect, GHL, EcoTech, Inkbird und Kamera), ist ausgegraut und zeigt **Erfordert Cora Max**, bis das Becken eines hat.
 
 **Cora** ist der Weg, ein neues Cora Max zu koppeln. Findet die Suche Geräte, die schon in deinem WLAN sind, erscheinen sie hier, ebenso Geräte in der Nähe per Bluetooth. Findet sie nichts, gibt es auf demselben Bildschirm **IP-Adresse manuell eingeben**.
 
@@ -41,13 +47,24 @@ Ein Gerät ohne Becken meldet trotzdem Werte, aber sie landen nirgends. Taucht e
 
 ## Umbenennen
 
-Öffne das Gerät und ändere seinen Namen. Nimm den Namen, den du im Alltag benutzt, etwa "Rückförderung", "Gyre links" oder "Heizer Technikbecken". Der Name steht auf Widgets, in Warnungen und in allem, was du Cora fragst. Ein Name, mit dem du etwas anfangen kannst, macht also alles Weitere klarer.
+Öffne das Gerät und tippe auf den Stift neben seinem Namen. Nimm den Namen, den du im Alltag benutzt, etwa "Rückförderung", "Gyre links" oder "Heizer Technikbecken". Der Name steht auf Widgets, in Warnungen und in allem, was du Cora fragst. Ein Name, mit dem du etwas anfangen kannst, macht also alles Weitere klarer.
+
+Namen dürfen bis zu 40 Zeichen lang sein. Haben zwei Geräte derselben Art keinen Namen, unterscheidet Cora sie mit einem kurzen Code hinter dem Namen. Eine Seriennummer verwendet Cora nie als Namen.
 
 Der neue Name gilt nur in Cora. In der App des Herstellers bleibt der alte Name.
 
 ## Prüfen, ob ein Gerät in Ordnung ist
 
-Jede Zeile zeigt den aktuellen Zustand des Geräts. Gut ist eine aktuelle Aktualisierungszeit ohne Warnung.
+Jedes Gerät ist eine Zeile auf dem Tab Geräte, mit Symbol, Name, Modell und Becken. Der Punkt in der Zeile zeigt seinen Zustand.
+
+| Punkt | Was er bedeutet |
+|---|---|
+| Grau | Cora weiß es noch nicht |
+| Grün | läuft normal |
+| Orange | eine Warnung oder eine Störung |
+| Rot | offline |
+
+Messwerte, Modi, Verknüpfung lösen und die IP-Adresse stehen auf der Detailseite des Geräts, die mit einem Bereich **Status** beginnt. Gut ist eine aktuelle Aktualisierungszeit ohne Warnung.
 
 | Was du siehst | Was es bedeutet |
 |---|---|

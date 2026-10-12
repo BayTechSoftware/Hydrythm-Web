@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scheduling equipment | Cora Help</title>
-  <meta name="description" content="Build a day program for a Jecod pump and copy it between pumps, and view a Maxspect gyre&#x27;s schedule (beta).">
+  <meta name="description" content="Build a day program for a Jecod pump and copy it between pumps, and view a Maxspect gyre&#x27;s schedule (Beta).">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-schedules">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-schedules">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Scheduling equipment | Cora Help">
-  <meta property="og:description" content="Build a day program for a Jecod pump and copy it between pumps, and view a Maxspect gyre&#x27;s schedule (beta).">
+  <meta property="og:description" content="Build a day program for a Jecod pump and copy it between pumps, and view a Maxspect gyre&#x27;s schedule (Beta).">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -83,8 +83,11 @@
 <li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules" class="cur" aria-current="page">Scheduling equipment</a></li>
-<li><a href="/help/mobile-probes">Probes</a></li>
+<li><a href="/help/mobile-probes">Parameter Mapping</a></li>
 <li><a href="/help/mobile-consumables">Consumables</a></li>
+<li><a href="/help/mobile-beta">Beta features</a></li>
+<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
+<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -169,7 +172,7 @@
     <article class="doc">
       <h1>Scheduling equipment</h1>
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#same-all-day-or-schedule">Same all day, or Schedule</a></li><li><a href="#the-schedule-editor">The schedule editor</a></li><li><a href="#copying-a-program-between-pumps">Copying a program between pumps</a></li><li><a href="#keeping-and-sharing-a-schedule">Keeping and sharing a schedule</a></li><li><a href="#away-from-the-pumps-network">Away from the pump&#x27;s network</a></li><li><a href="#applying-a-program">Applying a program</a></li><li><a href="#checking-it-took">Checking it took</a></li></ul></nav>
-<p>Pumps and gyres can run a <strong>day program</strong>. It's a set of periods, each with its own intensity, that repeats every day. Cora can build these for Jecod™ pumps. You can view a Maxspect™ gyre's schedule <em>(beta)</em> here, but you set it in the Maxspect app.</p>
+<p>Pumps and gyres can run a <strong>day program</strong>. It's a set of periods, each with its own intensity, that repeats every day. Cora can build these for Jecod™ pumps. You can view a Maxspect™ gyre's schedule <em>(Beta)</em> here, but you set it in the Maxspect app. Maxspect is only open to Beta users. See <a href="/help/mobile-beta">Beta features</a>.</p>
 <p>Open the device from the <strong>Devices</strong> tab.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A pump schedule"><img src="/help/img/mobile-schedules.webp" alt="A pump schedule" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>The day graph across 0–24 hours, with each period listed below it.</figcaption></figure>
 <h2 id="same-all-day-or-schedule">Same all day, or Schedule</h2>
@@ -181,7 +184,7 @@
 <p>At the top is the day graph. It shows the whole day from 0 to 24 hours, and each period is a block whose height is its intensity. It's the quickest way to check that a program does what you think.</p>
 <p>Below the graph is the period list. Each period shows its hours, mode and intensity, for example <em>Random, 00:00–03:00, Freq 50%, 40%</em>. You add, edit and remove periods here.</p>
 <p>Tap <strong>Add to schedule</strong> to add a period. To change one, open it and tap <strong>Save</strong>. To remove it, tap <strong>Delete</strong> and confirm.</p>
-<p>A Maxspect gyre <em>(beta)</em> has two heads, shown as Gyre A and Gyre B. Its day graph has a track for each, and its plans are listed under <strong>GYRE A</strong> and <strong>GYRE B</strong>. You can only view a gyre's schedule here. Its action row says <strong>View only</strong>, and you set the schedule in the Maxspect app.</p>
+<p>A Maxspect gyre <em>(Beta)</em> has two heads, shown as Gyre A and Gyre B. Its day graph has a track for each, and its plans are listed under <strong>GYRE A</strong> and <strong>GYRE B</strong>. You can only view a gyre's schedule here. Its action row says <strong>View only</strong>, and you set the schedule in the Maxspect app.</p>
 <aside class="cal cal-warning"><p class="cal-t">Saving writes the schedule to the device</p><p>When you save, Cora sends the program to the equipment, and the equipment runs it on its own clock. It keeps running whether Cora can reach it or not.</p></aside>
 <h2 id="copying-a-program-between-pumps">Copying a program between pumps</h2>
 <p>If you have several pumps that should behave the same way, build one program and copy it.</p>
@@ -197,8 +200,8 @@
 <p>You can give a pump a saved schedule in one step, without building the periods again. Open the pump, tap <strong>More</strong> at the top and choose <strong>Saved schedules…</strong>. The list holds every schedule saved on this tank, including ones you built on another pump. Pick one and tap <strong>Apply</strong>. It replaces the pump's whole day.</p>
 <h2 id="checking-it-took">Checking it took</h2>
 <p>After you save, the device page shows the program the pump is running. If it doesn't match what you saved, the change didn't get through. Check that the device is reachable and try again.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-device-control"><span>Previous</span><b>Controlling your equipment</b></a><a class="pn-n" href="/help/mobile-probes"><span>Next</span><b>Probes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.80 and Cora Mobile 0.5.81. Last checked 2026-09-17.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-device-control"><span>Previous</span><b>Controlling your equipment</b></a><a class="pn-n" href="/help/mobile-probes"><span>Next</span><b>Parameter Mapping</b></a></nav>
+      <p class="stamp">Written for Cora Max 0.28.165 and Cora Mobile 0.5.109. Last checked 2026-10-12.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

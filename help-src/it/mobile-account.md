@@ -2,7 +2,7 @@
 title: Accesso e recupero dell'account
 description: Come accedere, reimpostare una password dimenticata e correggere un indirizzo email che non riesci a verificare.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Cambiare l'indirizzo di un account è un'operazione delicata per la sicurezza. A
 ## La verifica non va a buon fine
 
 Cora Mobile controlla lo stato quando tocchi **Ho verificato la mia email**. Se risulta ancora non verificata, tocca **Conferma la mia email** nell'email più recente, aspetta un attimo e controlla di nuovo. Se il link è scaduto, tocca **Invia di nuovo l'email di verifica** per riceverne uno nuovo. La verifica vale per l'account e non per il telefono: una volta riuscita, è a posto su tutti i tuoi dispositivi.
+
+## Email di laboratorio e ICP
+
+I laboratori e i risultati ICP inviati per email trovano il tuo account dall'indirizzo email. Se il tuo laboratorio conosce un indirizzo diverso da quello con cui accedi, o hai effettuato l'accesso con un'email Apple nascosta, aggiungilo in **Impostazioni → la scheda del tuo account → Email laboratorio e ICP**. Tocca **Aggiungi email del laboratorio**, poi **Invia codice**, inserisci il codice di 6 cifre ricevuto per email e tocca **Verifica**. Puoi aggiungerne fino a 3. I passaggi sono in [ICP e report di salute](/help/mobile-icp-health).
 
 ## Uscire
 

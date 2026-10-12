@@ -2,7 +2,7 @@
 title: Cora Yardım
 description: Cora Max ve Cora Mobile'ı kurma ve kullanma: ilk adımlar, panolar, cihazlar, uyarılar, Reef Buddy, ICP ve sağlık raporları.
 section: -
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 0
 ---
 
@@ -62,6 +62,9 @@ Cora ölçümlerin ve panoların dışında kalan işleri de bir arada tutar:
 ## Ekipmanınız
 
 - **[Ekipmanınızı kontrol etme](/help/mobile-device-control)**: Prizler, pompalar, dozaj kafaları ve test cihazları
+- **[Beta özellikleri](/help/mobile-beta)**: Beta'nın ne demek olduğu, Beta entegrasyonları kimin görebildiği ve erişimi nasıl isteyeceğiniz
+- **[Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras)**: Kamera ekleyin, skimmer kabı taşmadan önce uyarı alın
+- **[EcoTech ışıkları, pompaları ve dozajlayıcıları](/help/mobile-ecotech)**: Bluetooth üzerinden Radion, VorTech ve Versa
 - **[Problar](/help/mobile-probes)**: Kontrol cihazının problarını eşleme ve kalibrasyonu kaydetme
 - **[Sarf malzemeleri](/help/mobile-consumables)**: Reaktif, kap ve rezervuarlar için yeniden doldurma uyarıları
 - **[Ekipman programları](/help/mobile-schedules)**: Pompaların günlük programları, programları kopyalama ve gyre zamanlamasını görüntüleme

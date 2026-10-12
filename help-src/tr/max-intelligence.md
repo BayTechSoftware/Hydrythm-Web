@@ -2,7 +2,7 @@
 title: Reef Buddy ve raporlar
 description: Cora Max'te günlük özet, ICP sonuçları, sağlık raporları ve geçmiş grafikleri.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 9
 group: Intelligence
 ---
@@ -16,6 +16,8 @@ Cora Max telefondaki analizlerin aynısını gösterir, üstelik uzaktan okunaca
 Günlük özet panoda görünür ve ayrıca kendi tam ekranı vardır. Orada **Kararlılık** ve **Veri** puanlarını, özeti ve arkasındaki içgörüleri görürsünüz.
 
 Puanların ne anlama geldiğini [Reef Buddy](/help/mobile-reef-buddy) sayfasında bulabilirsiniz.
+
+Bir test kaydettikten ya da ICP sonucu ekledikten sonra ekranda **Bu özetten sonra yeni ölçümler geldi** yazısı ve bir **Özeti güncelle** düğmesi görünür. Özeti yeni değerlerle yeniden hazırlamak için ona dokunun. Günde bir kez çalışır: sonrasında ekranda *Özeti günde bir kez güncelleyebilirsin. Sonraki güncelleme: yarın.* yazar.
 
 ## ICP sonuçları
 
@@ -33,9 +35,11 @@ Sağlık raporunu duvardaki ekranda çalıştırıp okuyabilirsiniz. Telefondaki
 
 ## Geçmiş grafikleri
 
-Her parametreyi telefondaki zaman aralıklarıyla tam ekran grafik olarak açabilirsiniz. Yavaş bir kaymayı görmenin en iyi yolu budur. Tam ekranda bir aylık alkalinite, küçük bir kutucuğun gösteremeyeceği eğilimi ortaya çıkarır.
+**Akvaryum menüsünü** açın ve **Parametre geçmişi**'ne dokunun. **Bir parametre seçin** listesinden bir parametre seçtiğinizde tam ekran grafik olarak açılır. Panodaki bir kutucuğa dokunmak da aynı grafiği açar. Yavaş bir kaymayı görmenin en iyi yolu budur. Tam ekranda bir aylık alkalinite, küçük bir kutucuğun gösteremeyeceği eğilimi ortaya çıkarır.
 
-Hangi ölçümlerin görüneceğini üstteki çiplerle seçersiniz: **Tümü**, **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** ya da **AquaWiz**. Her kaynağın kendi rengi var ve çipler aynı zamanda renk açıklaması işini görür. ReefBeat ve AquaWiz noktaları kare çizilir. Birinin elle aldığı ölçümler (Manuel ve ICP) daha büyük noktalarla gösterilir. **Tümü** tüm kaynakları yan yana gösterir. Farklı kaynakların ölçümlerinin ortalaması hiçbir zaman alınmaz.
+Üstbilgideki parametre adı bir açılır listedir, böylece zaman aralığını koruyarak başka bir parametreye geçebilirsiniz. Diğer iki açılır liste **Zaman aralığı** ve **Kaynak** seçer: **Tüm kaynaklar** ya da **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** veya **AquaWiz**. **Karşılaştır**, aynı grafiğe ikinci bir parametre çizer ve liste, akvaryumun sahip olduğu her parametreyi içerir. Her kaynağın kendi rengi var. ReefBeat ve AquaWiz noktaları kare çizilir. Birinin elle aldığı ölçümler (Manuel ve ICP) daha büyük noktalarla gösterilir. **Tüm kaynaklar** tüm kaynakları yan yana gösterir. Farklı kaynakların ölçümlerinin ortalaması hiçbir zaman alınmaz.
+
+Ayrıntılar [Parametre ayrıntıları](/help/mobile-metric-detail) sayfasında.
 
 ## Rehberli yolculuklar
 

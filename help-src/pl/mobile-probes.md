@@ -1,23 +1,27 @@
 ---
-title: Sondy
+title: Mapowanie parametrów
 description: Sprawdź, która sonda zasila każdy odczyt na wszystkich kontrolerach, i zapisuj kalibrację oraz czyszczenie.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 13
 group: Equipment
 ---
 
-Jeśli masz więcej niż jeden kontroler, albo dwie sondy mierzące to samo, Cora musi wiedzieć, któremu odczytowi ufać. Mapowanie sond to miejsce, w którym to ustalasz, i w którym najpierw mówisz Corze, czym jest każda sonda.
+Jeśli masz więcej niż jeden kontroler, albo dwie sondy mierzące to samo, Cora musi wiedzieć, któremu odczytowi ufać. **Mapowanie parametrów** to miejsce, w którym to ustalasz, i w którym najpierw mówisz Corze, czym jest każda sonda.
 
-Otwórz **profil akwarium** (ołówek na górze pulpitu) i wybierz **Mapowanie sond**.
+Przejdź do **Ustawienia**, otwórz akwarium i wybierz **Mapowanie parametrów**. Znajdziesz je między **Edytuj akwarium** a **Progi alertów**. Ołówek na górze pulpitu otwiera **Edytuj akwarium**, które go nie ma. Możesz tu też trafić ze stron urządzeń Neptune Apex i GHL (Beta). GHL jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
+
+Ekran ma pole wyszukiwania (**Szukaj parametrów**) i dwie karty, **Mapowanie** i **Źródła**. Wyszukiwanie obejmuje nazwy parametrów, nazwy sond, urządzenia i marki. To samo pole wyszukiwania jest w każdym wyborze parametru.
 
 ## Skąd pochodzi każdy odczyt
+
+To karta **Źródła**.
 
 ![Skąd pochodzi każdy odczyt](img/mobile-probes.webp "Każdy parametr, sonda, która go zasila, i przycisk wyboru, żeby to zmienić.")
 
 Ta sekcja wymienia każdy parametr, który Cora śledzi dla tego akwarium, na przykład pH albo temperaturę, i pokazuje, która sonda go teraz zasila.
 
-Dotknij odczytu, żeby zobaczyć każdą sondę, która go zgłasza, na wszystkich podłączonych kontrolerach. Każda pozycja pokazuje markę, własną nazwę sondy nadaną przez kontroler i jej wartość na żywo. Wybierz jedną, żeby ją przypiąć, albo wybierz **Automatycznie**, żeby Cora korzystała z tej, która akurat raportuje.
+Dotknij odczytu, żeby zobaczyć każdą sondę, która go zgłasza, na wszystkich podłączonych kontrolerach. Każda pozycja pokazuje markę, własną nazwę sondy nadaną przez kontroler i jej wartość na żywo. Wybierz jedną, żeby ją przypiąć, albo wybierz **Automatycznie (wygrywa najnowszy odczyt)**, żeby Cora korzystała z tej, która zgłosiła się ostatnio. Pozostałe zostają w historii.
 
 Znacznik przy każdym odczycie pokazuje, co obowiązuje: **Automatycznie** albo **Wybrane przez Ciebie**, gdy przypniesz sondę.
 
@@ -31,7 +35,7 @@ Alarm czujnika wycieku zależy od jego własnej nazwy, więc jest wykluczony z t
 
 ## Sondy: określ, czym jest każda z nich
 
-Niżej zobaczysz każdą sondę znaną Corze, pogrupowaną według urządzenia, które ją zgłasza, razem z bieżącym odczytem. Cora sama rozpoznaje standardowe nazwy sond, a w wierszu widać, co dopasowała. Zwykle wystarczy poprawić tylko te kilka, których nie umiała przypisać.
+Karta **Mapowanie** otwiera się pierwsza. Wymienia każdą sondę znaną Corze, pogrupowaną według urządzenia, które ją zgłasza, razem z bieżącym odczytem. Cora sama rozpoznaje standardowe nazwy sond, a w wierszu widać, co dopasowała. Zwykle wystarczy poprawić tylko te kilka, których nie umiała przypisać.
 
 Każdy wiersz daje trzy możliwości.
 
@@ -49,7 +53,9 @@ Jeśli parametr nie ma żadnych odczytów, choć sonda działa, najpierw sprawd�
 
 ## Kilka sond dla jednego parametru
 
-Jeśli masz dwie sondy temperatury, czy to na tym samym kontrolerze, czy na dwóch różnych, zmapuj obie. Cora traktuje je jako osobne źródła, a sekcja **Skąd pochodzi każdy odczyt** powyżej to miejsce, w którym wybierzesz, która z nich napędza odczyt, albo zostawisz ustawienie Automatycznie. Porównasz je w [szczegółach parametru](/help/mobile-metric-detail).
+Jeśli masz dwie sondy temperatury, czy to na tym samym kontrolerze, czy na dwóch różnych, zmapuj obie. Cora traktuje je jako osobne źródła, a karta **Źródła** to miejsce, w którym wybierzesz, która z nich napędza odczyt, albo zostawisz ustawienie Automatycznie. Porównasz je w [szczegółach parametru](/help/mobile-metric-detail).
+
+Gdy dwa źródła zgłaszają ten sam parametr, wygrywa najnowszy pomiar. Wartość na ekranie zastępuje tylko odczyt z późniejszym czasem pomiaru, z jakiegokolwiek urządzenia. Starszy odczyt albo urządzenie, które wysyła ponownie stary odczyt, trafia do historii i nie nadpisuje bieżącej wartości. Jeśli przypiąłeś źródło, Cora trzyma się tego źródła.
 
 ## Zapisywanie konserwacji sond
 

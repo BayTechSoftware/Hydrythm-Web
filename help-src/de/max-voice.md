@@ -2,7 +2,7 @@
 title: Mit Cora sprechen
 description: Sprachsteuerung auf Cora Max nutzen, ein Gespräch starten, was du fragen kannst und wie Bestätigungen funktionieren.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 12
 group: Intelligence
 ---
@@ -47,6 +47,7 @@ Cora Assistant startet sofort ein Live-Gespräch, ohne Rückfrage. Hast du aus V
 - *„Starte den Fütterungsmodus.“*
 - *„Stell den Lüfter zurück auf Auto.“*
 - *„Notiere, dass ich zwanzig Liter Wasser gewechselt habe.“*
+- *„Notiere, dass ich extra Mysis gefüttert habe.“* oder *„Notiere, dass ich die Morgenfütterung ausgelassen habe.“*
 
 **Nachfragen.** Du musst nicht alles wiederholen. Nach einer Frage zum angezeigten Becken klappt auch *„Und im Ablegerbecken?“*.
 

@@ -2,7 +2,7 @@
 title: Günlük, canlılar ve bakım
 description: Cora Max'teki kayıt ekranları ve hangi işi telefon yerine duvardaki ekranda yapacağınız.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Records
 ---
@@ -11,7 +11,7 @@ Cora Max telefondaki kayıtların aynısını gösterir. Ama hepsini düzenleyem
 
 | Bölüm | Cora Max'te |
 |---|---|
-| **Günlük** | Kayıtları okuyun ve yeni kayıt ekleyin |
+| **Günlük** | Kayıtları okuyun ve yeni kayıt ekleyin. **Ekstra besleme** ya da **Besleme atlandı** kaydını tek dokunuşla girin |
 | **Ölçümler** | Test sonuçlarını ekran klavyesiyle girin |
 | **Bakım** | Görevi tamamlayın ya da erteleyin. Görev oluşturma ve düzenleme telefonda yapılır |
 | **Canlılar** | Yalnızca okunur. Ekleme ve düzenleme telefonda yapılır |
@@ -31,6 +31,12 @@ Akvaryumun başından ayrılmadan kayıt ekleyin. Çoğu zaman bu daha pratiktir
 :::note Üst çubukta günlük simgesi yok
 Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir. Üzerindeki nokta, günün özetini henüz okumadığınızı gösterir. Günlüğe kaydı akvaryum menüsünden ya da sesle eklersiniz.
 :::
+
+### Besleme
+
+Günlük ekranının en üstündeki **Ekstra besleme** ve **Besleme atlandı** düğmeleri her biri bir günlük kaydı ekler. Altlarındaki satır besleme rutininizi gösterir, örneğin *Besleme rutini: Pul yem: 2 tutam, günde 2 kez*. Rutini Cora Mobile'da ayarlarsınız. Kayıtlı bir rutin yoksa satırda *Besleme rutinini telefon uygulamasından ayarlayın* yazar.
+
+Cora Max Neptune Apex'inizi okuyorsa, bir Besleme A-D döngüsü başladığında onu da kaydeder. Döngüyü burada, Apex'te ya da Apex Fusion'da başlatmanız fark etmez.
 
 ## Canlılar
 

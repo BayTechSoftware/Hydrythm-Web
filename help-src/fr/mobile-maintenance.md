@@ -2,7 +2,7 @@
 title: Entretien
 description: Les tâches qui reviennent, avec des rappels : nettoyage de l’écumeur, chaussettes de filtration, entretien des pompes.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ Quand vous connectez un ReefDose, un ReefATO+, un ReefMat ou un ReefRun Red Sea,
 | ReefDose, par tête | Replace ReefDose head tubing | 450 jours |
 
 Elles fonctionnent exactement comme une tâche que vous ajoutez vous-même : renommez-les, changez leur fréquence, reportez-les ou mettez-les en pause. Si vous en supprimez une, Cora ne la recréera pas pour cet appareil.
+
+### Tester l’eau
+
+Si vous touchez **Me rappeler de tester chaque semaine** sur la carte du premier test, Cora ajoute une tâche hebdomadaire appelée **Tester l’eau**, due le **Jour du test** que vous choisissez. Elle fonctionne comme n’importe quelle tâche que vous ajoutez vous-même. Voir [Configurer Cora Mobile](/help/mobile-setup).
+
+### Depuis une automatisation
+
+Une [automatisation](/help/mobile-automation) avec l’action **Créer une tâche d’entretien** peut ajouter une tâche à cette liste quand sa règle se déclenche, ou rendre une tâche existante due tout de suite. Une nouvelle tâche est ponctuelle, due immédiatement, et quitte la liste quand vous la terminez. Tant qu’elle est ouverte, la même automatisation n’en ajoute pas une autre. Vous recevez une notification.
 
 ## Rappels
 

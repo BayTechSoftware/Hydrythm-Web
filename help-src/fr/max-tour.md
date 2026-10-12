@@ -2,7 +2,7 @@
 title: L’écran d’accueil de Cora Max
 description: Tout ce que vous voyez sur Cora Max : la barre du haut, la grille du tableau de bord et le tiroir des prises.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ De gauche à droite :
 | **Obsolète** | Les mesures n’arrivent plus. L’écran affiche la dernière reçue |
 | **Nouvelle tentative Apex dans 12 s** | Votre Apex n’a pas répondu. Cora Max réessaie à la fin du compte à rebours |
 | **Échec de la synchronisation cloud** | Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées sur Cora Cloud. Le tableau de bord prend donc du retard. Cora Max continue de réessayer |
+| **Enregistrement cloud refusé** | Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne cloche avec votre aquarium ni avec Cora Max, et il n’y a rien à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez **Réglages → Réglages Cora Max → Mise à jour du micrologiciel** et regardez la section **État** : la ligne **Enregistrement cloud** indique les données concernées. Puis [contactez le support](/support.html) |
 | **Hors ligne** | Aucune connexion. L’écran affiche les dernières données reçues |
 | **Hors ligne, nouvelle tentative dans 45 s** | Votre réseau fonctionne, mais Cora Cloud ne répond plus depuis plus de 30 secondes. Cora Max se reconnecte tout seul. Le compte à rebours indique le temps avant le prochain essai |
 | **Cora principal hors ligne** | Cet écran est un deuxième Cora Max pour cet aquarium, et le **Cora Max principal** (celui qui est épinglé pour interroger l’équipement de cet aquarium) est hors ligne. Cet écran garde les dernières données reçues jusqu’au retour du principal, ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device) |
@@ -73,10 +74,12 @@ Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché :
 | **Rapports de santé** | Les bilans de santé |
 | **Entretien** | La [liste des tâches](/help/mobile-maintenance) |
 | **Rapports ICP** | Les [résultats de laboratoire](/help/mobile-icp-health) envoyés |
-| **Alertes** | La plage normale de chaque mesure de cet aquarium |
+| **Historique des paramètres** | Choisir un paramètre qui a des données et ouvrir son [graphique](/help/max-intelligence) |
+| **Seuils d’alerte** | La plage normale de chaque mesure de cet aquarium |
 | **Population** | L’[inventaire](/help/mobile-livestock) de cet aquarium, en lecture seule ici |
 | **Activité** | [Chaque prise, nourrissage et dosage](/help/max-activity), et son résultat |
 | **Disposition du tableau de bord** | [Organiser les widgets de cet écran](/help/max-dashboard-editing) |
+| **Unités** | Les unités d’affichage des mesures de cet aquarium |
 | **Réglages de l’aquarium** | Tous les réglages de cet aquarium |
 
 ## Changer d’aquarium

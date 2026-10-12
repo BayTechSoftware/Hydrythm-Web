@@ -1,23 +1,27 @@
 ---
-title: Problar
+title: Parametre Eşlemesi
 description: Her ölçümü hangi probun beslediğini her kontrol cihazında görün, kalibrasyon ve temizliği kaydedin.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 13
 group: Equipment
 ---
 
-Birden fazla kontrol cihazınız varsa, ya da aynı şeyi ölçen iki probunuz varsa, Cora hangi ölçüme güveneceğini bilmek zorundadır. Prob eşlemesi bunu ayarladığınız, ve her probun ne olduğunu Cora'ya ilk kez söylediğiniz yerdir.
+Birden fazla kontrol cihazınız varsa, ya da aynı şeyi ölçen iki probunuz varsa, Cora hangi ölçüme güveneceğini bilmek zorundadır. **Parametre Eşlemesi** bunu ayarladığınız, ve her probun ne olduğunu Cora'ya ilk kez söylediğiniz yerdir.
 
-**Akvaryum profilinizi** açın (panonun üstündeki kalem simgesi) ve **Prob Eşlemesi**'ni seçin.
+**Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ni seçin. **Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve onda yoktur. Ona Neptune Apex ve GHL (Beta) cihaz sayfalarından da ulaşabilirsiniz. GHL yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
+
+Ekranda bir arama alanı (**Parametre ara**) ve iki sekme var: **Eşleme** ve **Kaynaklar**. Arama parametre adlarına, prob adlarına, cihazlara ve markalara bakar. Aynı arama alanı her parametre seçicisinde bulunur.
 
 ## Her ölçüm nereden geliyor
+
+Bu, **Kaynaklar** sekmesidir.
 
 ![Her ölçüm nereden geliyor](img/mobile-probes.webp "Her parametre, onu besleyen prob ve değiştirmek için bir Seç düğmesi.")
 
 Bu bölüm, bu akvaryum için Cora'nın izlediği pH ya da sıcaklık gibi her parametreyi listeler ve şu anda hangi probun onu beslediğini gösterir.
 
-Bir ölçüme dokunduğunuzda, bağladığınız her kontrol cihazında onu bildiren bütün probları görürsünüz. Her biri markasını, kontrol cihazındaki kendi adını ve canlı değerini gösterir. Birini seçerek sabitleyin, ya da Cora'nın raporlayan hangi probu kullanacağına kendisinin karar vermesi için **Otomatik**'i seçin.
+Bir ölçüme dokunduğunuzda, bağladığınız her kontrol cihazında onu bildiren bütün probları görürsünüz. Her biri markasını, kontrol cihazındaki kendi adını ve canlı değerini gösterir. Birini seçerek sabitleyin, ya da Cora'nın raporlayan hangi probu kullanacağına kendisinin karar vermesi için **Otomatik (en yeni ölçüm kazanır)** seçeneğini seçin.
 
 Her ölçümün yanındaki etiket hangisinin geçerli olduğunu gösterir: **Otomatik**, ya da bir prob sabitlediyseniz **Siz seçtiniz**.
 
@@ -31,7 +35,7 @@ Sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu seçici
 
 ## Problar: her birinin ne olduğunu Cora'ya söyleme
 
-Daha aşağıda, Cora'nın bildiği her probu, onu bildiren cihaza göre gruplanmış ve güncel ölçümüyle birlikte görürsünüz. Cora standart prob adlarını kendisi tanır ve her satırda neyle eşleştirdiğini gösterir. Genellikle Cora'nın tanıyamadığı birkaçını düzeltmeniz yeterlidir.
+**Eşleme** sekmesi ilk açılır. Cora'nın bildiği her probu, onu bildiren cihaza göre gruplanmış ve güncel ölçümüyle birlikte görürsünüz. Cora standart prob adlarını kendisi tanır ve her satırda neyle eşleştirdiğini gösterir. Genellikle Cora'nın tanıyamadığı birkaçını düzeltmeniz yeterlidir.
 
 Her satırda üç seçenek var:
 
@@ -49,7 +53,9 @@ Prob çalıştığı hâlde bir parametrede hiç ölçüm görünmüyorsa ilk i�
 
 ## Aynı parametre için birden fazla prob
 
-İki sıcaklık probunuz varsa, ister aynı kontrol cihazında ister iki ayrı cihazda olsunlar, ikisini de eşleyin. Cora bunları ayrı kaynaklar olarak tutar, ve yukarıdaki **Her ölçüm nereden geliyor** bölümü hangisinin ölçümü besleyeceğini seçtiğiniz ya da Otomatik bıraktığınız yerdir. İkisini [parametre ekranında](/help/mobile-metric-detail) karşılaştırabilirsiniz.
+İki sıcaklık probunuz varsa, ister aynı kontrol cihazında ister iki ayrı cihazda olsunlar, ikisini de eşleyin. Cora bunları ayrı kaynaklar olarak tutar, ve **Kaynaklar** sekmesi hangisinin ölçümü besleyeceğini seçtiğiniz ya da Otomatik bıraktığınız yerdir. İkisini [parametre ekranında](/help/mobile-metric-detail) karşılaştırabilirsiniz.
+
+İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin yalnızca daha geç bir ölçüm zamanına sahip bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe girer ve güncel değerin üzerine yazmaz. Bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
 
 ## Prob bakımını kaydetme
 

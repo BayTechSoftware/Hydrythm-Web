@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Deine tägliche Zusammenfassung, was drinsteht, wann sie kommt und wie du die Werte liest.
 section: Cora Mobile
-reviewed: 2026-09-29
+reviewed: 2026-10-12
 order: 24
 group: Intelligence
 ---
@@ -33,6 +33,18 @@ Die **Erkenntnisse**, also die einzelnen Befunde. Jede hat eine Kategorie (etwa 
 Bevor eine Erkenntnis bei dir ankommt, wird sie gefiltert. Sie muss sich über mehrere Messwerte bestätigen, ein einzelner Ausreißer reicht nicht. Und sie muss dir etwas sagen, das du nicht schon an einem einzelnen Diagramm gesehen hättest.
 
 Tippe auf die Karte im Dashboard, um die ganze Zusammenfassung zu öffnen.
+
+## Die Zusammenfassung mit einem neuen Test aktualisieren
+
+Trägst du einen Test von Hand ein oder fügst ein ICP-Ergebnis hinzu, nachdem die Zusammenfassung erschienen ist, zeigt die Karte in der ganzen Zusammenfassung **Neue Messwerte seit diesem Briefing** mit einer Schaltfläche **Briefing aktualisieren**. Tippe darauf, und Cora erstellt die Zusammenfassung mit den neuen Zahlen neu. Das geht einmal am Tag für jeden Haushalt. Danach ist die Schaltfläche grau und zeigt *Du kannst das Briefing einmal pro Tag aktualisieren. Nächste Aktualisierung: morgen.*
+
+Messwerte von Sonden und Controllern lösen dieses Angebot nicht aus, weil sie den ganzen Tag hereinkommen.
+
+## Warum du eine Erkenntnis siehst
+
+Tippe unter einer Erkenntnis auf **Warum sehe ich das?** Das Blatt **Darum siehst du das** zeigt unter **Verwendete Messwerte**, was eingeflossen ist, unter **Verglichener Zielwert** deinen eigenen Zielwert oder einen Referenzbereich, unter **Aus deinem Journal** alles, was berücksichtigt wurde, und unter **Zeitfenster (Tage)** den betrachteten Zeitraum. Passt die Begründung nicht zu deinem Becken, antworte auf die Erkenntnis, wie unter "Eine Erkenntnis bewerten" weiter unten beschrieben.
+
+Zusammenfassungen stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts, die Summen deiner DŌS-Köpfe und, wenn du einen Inkbird-Raumluftmonitor (Beta) hast, Temperatur und Luftfeuchtigkeit im Raum. Inkbird steht nur Beta-Nutzern offen. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 ## Wann sie kommt
 
@@ -79,7 +91,7 @@ Auf jede Erkenntnis kannst du mit einer von vier Antworten reagieren:
 | **Schon gewusst** | stimmt, aber du wusstest es schon |
 | **Nicht sicher** | kannst du noch nicht beurteilen |
 
-Deine Antworten beeinflussen, was in späteren Zusammenfassungen oben steht. Ausgeblendet wird eine Erkenntnis nur **auf Zeit**. Hält der Zustand an, taucht sie wieder auf.
+Meldet Reef Buddy eine Drift, fragt es auch *War dieser Hinweis nützlich?* Du kannst **Hilfreich**, **Nicht hilfreich**, **Diese Änderung ist erwartet** oder **Messwert sieht falsch aus** antworten. Deine Antworten beeinflussen, was in späteren Zusammenfassungen oben steht. Ausgeblendet wird eine Erkenntnis nur **auf Zeit**. Hält der Zustand an, taucht sie wieder auf.
 
 :::note Ernste Befunde blendet Cora nie aus
 Nur weniger dringende Erkenntnisse lassen sich durch deine Antworten beruhigen. Warnungen und kritische Befunde erscheinen weiter, egal wie du vorher darauf reagiert hast.

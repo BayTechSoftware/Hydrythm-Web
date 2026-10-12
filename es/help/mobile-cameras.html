@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cámaras y vigilancia del skimmer | Cora Help</title>
+  <meta name="description" content="Añade a Cora una cámara Wyze, Tapo, Sonoff u otra RTSP, mírala en una casilla o a pantalla completa, y deja que la vigilancia del skimmer te avise antes de que se desborde el vaso.">
+  <meta name="theme-color" content="#F7FAFD">
+  <link rel="canonical" href="https://coraiq.tech/es/help/mobile-cameras">
+  <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-cameras">
+  <link rel="alternate" hreflang="de" href="https://coraiq.tech/de/help/mobile-cameras">
+  <link rel="alternate" hreflang="fr" href="https://coraiq.tech/fr/help/mobile-cameras">
+  <link rel="alternate" hreflang="tr" href="https://coraiq.tech/tr/help/mobile-cameras">
+  <link rel="alternate" hreflang="it" href="https://coraiq.tech/it/help/mobile-cameras">
+  <link rel="alternate" hreflang="es" href="https://coraiq.tech/es/help/mobile-cameras">
+  <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-cameras">
+  <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-cameras">
+  <meta property="og:site_name" content="Cora">
+  <meta property="og:title" content="Cámaras y vigilancia del skimmer | Cora Help">
+  <meta property="og:description" content="Añade a Cora una cámara Wyze, Tapo, Sonoff u otra RTSP, mírala en una casilla o a pantalla completa, y deja que la vigilancia del skimmer te avise antes de que se desborde el vaso.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://coraiq.tech/es/help/mobile-cameras">
+  <meta property="og:image" content="https://coraiq.tech/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- ⛔ Never add rel=preload for the faces. That is what put the old Google
+       Fonts request on the critical path for 1053 ms. font-display:swap paints
+       the fallback first, which is the behaviour we want. -->
+  <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
+  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+
+<header class="hnav">
+  <div class="hnav-in">
+    <a class="hbrand" href="/es/help/">
+      <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
+      <span>Help</span>
+    </a>
+    <button class="hfind" id="hfind" type="button" aria-label="Buscar en la guía">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <span>Buscar</span><kbd>/</kbd>
+    </button>
+    <details class="hlang"><summary aria-label="Idioma"><span>Español</span></summary><ul><li><a href="/help/mobile-cameras">English</a></li><li><a href="/de/help/mobile-cameras">Deutsch</a></li><li><a href="/fr/help/mobile-cameras">Français</a></li><li><a href="/tr/help/mobile-cameras">Türkçe</a></li><li><a href="/it/help/mobile-cameras">Italiano</a></li><li><a href="/es/help/mobile-cameras" aria-current="true" class="cur">Español</a></li><li><a href="/pl/help/mobile-cameras">Polski</a></li></ul></details>
+    <a class="hback" href="/es/">coraiq.tech &rarr;</a>
+    <button class="hmenu" id="hmenu" aria-label="Menú" aria-controls="hside" aria-expanded="false">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="hwrap">
+  <div class="hscrim" id="hscrim" hidden></div>
+  <aside class="hside" id="hside" aria-label="Guide navigation">
+    <button class="hclose" id="hclose" type="button" aria-label="Cerrar navegación">&times;</button>
+    <nav aria-label="Guide">
+<ul>
+<li><a href="/es/help/">Ayuda de Cora</a></li>
+</ul>
+<p class="nav-sec" lang="en">Cora Mobile</p>
+<details class="nav-g">
+<summary>Primeros pasos</summary><ul>
+<li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
+<li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
+<li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Tu panel</summary><ul>
+<li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
+<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
+<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
+<li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
+<li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
+</ul></details>
+<details class="nav-g" open>
+<summary>Equipos</summary><ul>
+<li><a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a></li>
+<li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
+<li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
+<li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
+<li><a href="/es/help/mobile-probes">Asignación de parámetros</a></li>
+<li><a href="/es/help/mobile-consumables">Consumibles</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-cameras" class="cur" aria-current="page">Cámaras y vigilancia del skimmer</a></li>
+<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertas y automatización</summary><ul>
+<li><a href="/es/help/mobile-alerts">Alertas y umbrales</a></li>
+<li><a href="/es/help/mobile-notifications">Notificaciones</a></li>
+<li><a href="/es/help/mobile-automation">Automatizaciones y escenas</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Registros</summary><ul>
+<li><a href="/es/help/mobile-dosing">Dosificación</a></li>
+<li><a href="/es/help/mobile-maintenance">Mantenimiento</a></li>
+<li><a href="/es/help/mobile-livestock">Fauna</a></li>
+<li><a href="/es/help/mobile-journal">El diario</a></li>
+<li><a href="/es/help/mobile-activity">Actividad y línea de tiempo</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Inteligencia</summary><ul>
+<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
+<li><a href="/es/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
+<li><a href="/es/help/mobile-icp-health">ICP e informes de salud</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Cuenta</summary><ul>
+<li><a href="/es/help/mobile-vacation">Irse de viaje</a></li>
+<li><a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a></li>
+<li><a href="/es/help/mobile-data-export">Tus datos</a></li>
+<li><a href="/es/help/mobile-plans">Planes</a></li>
+<li><a href="/es/help/mobile-settings">Ajustes</a></li>
+<li><a href="/es/help/mobile-support">Obtener ayuda</a></li>
+</ul></details>
+<p class="nav-sec" lang="en">Cora Max</p>
+<details class="nav-g">
+<summary>Primeros pasos</summary><ul>
+<li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
+<li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
+<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Tu panel</summary><ul>
+<li><a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Equipos</summary><ul>
+<li><a href="/es/help/max-controls">Tomas y controles</a></li>
+<li><a href="/es/help/max-device-control">Controlar equipos desde Cora Max</a></li>
+<li><a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Registros</summary><ul>
+<li><a href="/es/help/max-records">Diario, fauna y mantenimiento</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Inteligencia</summary><ul>
+<li><a href="/es/help/max-intelligence">Reef Buddy e informes</a></li>
+<li><a href="/es/help/max-voice">Hablar con Cora</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Alertas</summary><ul>
+<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
+<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Ajustes</summary><ul>
+<li><a href="/es/help/max-settings">Ajustes de Cora Max</a></li>
+<li><a href="/es/help/max-updates">Actualizaciones y recuperación</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Automatización</summary><ul>
+<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
+</ul></details>
+<p class="nav-sec">Ayuda</p>
+<ul>
+<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
+<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
+<li><a href="/es/help/glossary">Glosario</a></li>
+</ul>
+    </nav>
+  </aside>
+
+  <main class="hmain" id="main">
+    <article class="doc">
+      <h1>Cámaras y vigilancia del skimmer</h1>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#aadir-una-cmara">Añadir una cámara</a></li><li><a href="#cambiar-una-cmara">Cambiar una cámara</a></li><li><a href="#verla">Verla</a></li><li><a href="#vigilancia-del-skimmer">Vigilancia del skimmer</a></li><li><a href="#qu-pasa-con-las-imgenes">Qué pasa con las imágenes</a></li></ul></nav>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Las cámaras están en Beta y solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en <strong>Agregar dispositivo</strong>. Para pedir acceso Beta, contacta con <a href="/support.html">soporte</a>.</p></aside>
+<p>Añade una cámara para ver tu acuario desde Cora, en el teléfono y en Cora Max. Una cámara necesita un Cora Max en el acuario, así que la fila <strong>Cámara</strong> muestra <strong>Requiere Cora Max</strong> hasta que el acuario tiene uno.</p>
+<h2 id="aadir-una-cmara">Añadir una cámara</h2>
+<ol><li>Ve a <strong>Dispositivos → Agregar dispositivo → Cámara</strong> y luego a <strong>Añadir una cámara</strong>.</li><li>Elige el tipo: Wyze™, Tapo™, Sonoff™ u <strong>Otra cámara (RTSP)</strong>.</li><li>Sigue los pasos que muestra Cora para ese tipo. Te dicen qué activar antes en la app de la propia cámara.</li><li>Rellena el nombre, la dirección de la transmisión, el usuario, la contraseña y el acuario, y toca <strong>Probar conexión</strong>. Cuando la cámara responda, toca <strong>Añadir cámara</strong>.</li></ol>
+<p>Tu teléfono tiene que estar en el mismo Wi-Fi que la cámara mientras la añades. La dirección tiene que ser de tu red doméstica, y el usuario y la contraseña se escriben en sus propios campos, no en la dirección.</p>
+<p>Se han probado cámaras Wyze, Tapo y Sonoff (Wyze Cam v4, Tapo C120 y Sonoff Cam S3W). Otras cámaras que ofrezcan RTSP también pueden funcionar.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Cámara</th><th>Qué activar primero</th></tr></thead><tbody><tr><td data-th="Cámara">Wyze</td><td data-th="Qué activar primero">En la app de Wyze, abre la cámara y luego Ajustes, Ajustes avanzados, RTSP. Activa RTSP, elige un usuario y una contraseña y reinicia la cámara. La cámara necesita el firmware 4.52.17 o uno posterior.</td></tr><tr><td data-th="Cámara">Tapo</td><td data-th="Qué activar primero">En la app de Tapo, abre Ajustes, Ajustes avanzados, Cuenta de la cámara y crea un usuario y una contraseña. No es tu cuenta de TP-Link. Una cámara Tapo solo puede tener activas a la vez dos de estas tres cosas: Tapo Care, la grabación en tarjeta SD y la transmisión a otras apps.</td></tr><tr><td data-th="Cámara">Sonoff</td><td data-th="Qué activar primero">En eWeLink, activa RTSP en la cámara y configura su cuenta. Cora rellena por ti un ajuste predefinido de <strong>Dirección Sonoff</strong>.</td></tr><tr><td data-th="Cámara">Otra cámara (RTSP)</td><td data-th="Qué activar primero">Activa RTSP u ONVIF en la app de la cámara, configura un acceso para la cámara e introduce la dirección de la transmisión que indica su manual. Deja el acceso vacío si tu cámara no tiene.</td></tr></tbody></table></div>
+<h2 id="cambiar-una-cmara">Cambiar una cámara</h2>
+<p>Abre la cámara y usa su menú: <strong>Renombrar</strong>, <strong>Editar direcciones</strong>, <strong>Cambiar contraseña</strong> o <strong>Quitar cámara</strong>. Al quitarla también se borra su contraseña guardada.</p>
+<h2 id="verla">Verla</h2>
+<p>Una cámara puede ser una casilla de tu panel, de hasta 3×2, y puedes abrirla en <strong>Pantalla completa</strong> y <strong>Girar</strong>.</p>
+<p>En casa, con el teléfono en el Wi-Fi de la cámara, Cora reproduce <strong>Vídeo en vivo</strong> directamente desde la cámara. Fuera de casa, o cuando eliges <strong>Instantáneas</strong>, tu Cora Max toma imágenes fijas de la cámara y Cora las muestra casi en directo, actualizadas cada pocos segundos. Si Cora Max no envía imágenes, la casilla lo dice.</p>
+<h2 id="vigilancia-del-skimmer">Vigilancia del skimmer</h2>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> La vigilancia del skimmer está en Beta y solo está abierta a los usuarios Beta. Además necesita un plan de pago: <strong>La vigilancia del skimmer forma parte de los planes de pago.</strong> Para pedir acceso Beta, contacta con <a href="/support.html">soporte</a>.</p></aside>
+<p>La vigilancia del skimmer observa el vaso del skimmer con una cámara y te avisa antes de que se desborde. Está en la página de la cámara, en la tarjeta <strong>Vigilancia del skimmer</strong>.</p>
+<ol><li>Apunta la cámara al vaso y activa <strong>Vigilar el vaso</strong>.</li><li>Toca <strong>Marcar el vaso</strong>. Arrastra el recuadro sobre el vaso y ajusta las esquinas: el borde inferior en el fondo del vaso y el superior justo debajo del borde, donde el vaso está lleno.</li><li>Vacía el vaso y toca <strong>El vaso está vacío ahora</strong>. Cora toma una imagen del vaso vacío para comparar. Tarda unos 10 segundos. Si mueves la cámara o el recuadro, repítelo.</li><li>Fija <strong>Avisar al</strong> con el nivel de llenado que debe avisarte. La tarjeta lo muestra como porcentaje.</li></ol>
+<p>Cora Max comprueba el vaso cada pocos minutos. La tarjeta muestra la última lectura y cuánto hace de ella. <strong>Comprobar ahora</strong> pide una comprobación al momento y tarda unos 10 segundos. <strong>Últimas 24 horas</strong> muestra cómo se fue llenando el vaso a lo largo del día.</p>
+<p>Si la imagen es difícil de leer, la tarjeta lo dice, por ejemplo <strong>Luz demasiado fuerte detrás del vaso</strong>.</p>
+<h3 id="consejos-para-la-cmara">Consejos para la cámara</h3>
+<p><strong>Consejos para la cámara</strong>, en la tarjeta, te da los mismos consejos que aquí.</p>
+<ul><li>Pon la visión nocturna de la cámara en Activada (siempre infrarrojo), no en Auto, para que cada imagen se vea igual de día y de noche.</li><li>Pon el foco de la cámara en Manual y déjalo apagado. Las burbujas y el agua del sump cuentan como movimiento y lo encienden una y otra vez.</li><li>Evita que luces fuertes den directamente a la cámara desde detrás del vaso.</li></ul>
+<h2 id="qu-pasa-con-las-imgenes">Qué pasa con las imágenes</h2>
+<p>En casa, el vídeo se reproduce directamente desde la cámara y no se graba. Fuera de casa, solo se guarda una imagen fija por cámara, y cada nueva sustituye a la anterior. La vigilancia del skimmer guarda la última imagen del vaso marcado, las lecturas de llenado de las últimas 24 horas (solo números) y una imagen pequeña del vaso vacío. Se borran cuando quitas la cámara, el acuario o tu cuenta. La <a href="/privacy-policy.html">política de privacidad</a> tiene todo el detalle.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-beta"><span>Anterior</span><b>Funciones Beta</b></a><a class="pn-n" href="/es/help/mobile-ecotech"><span>Siguiente</span><b>Luces, bombas y dosificadoras EcoTech</b></a></nav>
+      <p class="stamp">Escrito para Cora Max 0.28.165 y Cora Mobile 0.5.109. Última revisión el 2026-10-12.</p>
+      <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
+    </article>
+  </main>
+</div>
+
+<footer class="hfoot">
+  <div class="hfoot-in">
+    <p class="disc">All product names and trademarks are the property of their respective owners. Cora is not affiliated with, sponsored by, or endorsed by these manufacturers unless expressly stated otherwise.</p>
+    <p class="disc">Some devices are connected through APIs that are not officially supported by their manufacturers; support will be updated as official APIs arrive.</p>
+    <p class="legal">&copy; 2026 Cora IQ ·
+      <a href="/es/">coraiq.tech</a> ·
+      <a href="/privacy-policy.html">Privacidad</a> ·
+      <a href="/terms-and-conditions.html">Términos</a> ·
+      <a href="/support.html">Soporte</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var b = document.getElementById('hmenu'),
+      s = document.getElementById('hside'),
+      scrim = document.getElementById('hscrim'),
+      close = document.getElementById('hclose');
+  if (!b || !s) return;
+
+  // ⭐ The current page can sit hundreds of pixels down a 50-item list, and
+  // the nav always opened at scrollTop 0, so on a deep page you were looking
+  // at "Getting started" with no clue where you were. Centre it instead.
+  function reveal() {
+    var cur = s.querySelector('a.cur');
+    if (!cur) return;
+    var want = cur.offsetTop - (s.clientHeight / 2) + (cur.offsetHeight / 2);
+    s.scrollTop = want > 0 ? want : 0;
+  }
+  reveal();
+
+  var lastFocus = null;
+  function setOpen(open) {
+    s.classList.toggle('open', open);
+    if (scrim) scrim.hidden = !open;
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-open', open);
+    if (open) {
+      lastFocus = document.activeElement;
+      reveal();
+      // ⚠️ NOT SYNCHRONOUSLY. The drawer transitions `visibility`, and an
+      // element that is still `visibility: hidden` silently refuses focus,
+      // measured: focus stayed on the menu button and Tab then walked the
+      // PAGE behind the drawer. Wait for the transition, with a timeout in
+      // case it is suppressed by prefers-reduced-motion.
+      if (close) {
+        var done = false;
+        var give = function () {
+          if (done) return; done = true;
+          s.removeEventListener('transitionend', give);
+          close.focus();
+        };
+        s.addEventListener('transitionend', give);
+        setTimeout(give, 260);
+      }
+    } else if (lastFocus) {
+      lastFocus.focus();
+    }
+  }
+
+  b.addEventListener('click', function () { setOpen(!s.classList.contains('open')); });
+  if (close) close.addEventListener('click', function () { setOpen(false); });
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!s.classList.contains('open')) return;
+    if (e.key === 'Escape') { setOpen(false); return; }
+    if (e.key !== 'Tab') return;
+    // Keep Tab inside the drawer while it covers the page.
+    var f = s.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // A tap on a link navigates; make sure the drawer is not left open behind it.
+  s.addEventListener('click', function (e) {
+    if (e.target.closest('a') && s.classList.contains('open')) setOpen(false);
+  });
+})();
+
+// ── Language switcher ───────────────────────────────────────────────────
+// Works with no script at all (it is a <details>); this only closes it when
+// a click lands outside, which a plain <details> does not do on its own.
+(function () {
+  document.addEventListener('click', function (e) {
+    document.querySelectorAll('details.hlang[open]').forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+})();
+
+// ── Screenshot lightbox ────────────────────────────────────────────────
+// Phone screenshots render at 300 px so they do not eat the column; dense
+// ones are unreadable at that size. Clicking enlarges.
+(function () {
+  var box = null, opener = null;
+  function shut() {
+    if (!box) return;
+    box.remove(); box = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+  function open(img, btn) {
+    shut();
+    opener = btn;
+    box = document.createElement('div');
+    box.className = 'lb';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    var x = document.createElement('button');
+    x.type = 'button'; x.className = 'lb-x';
+    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    var big = document.createElement('img');
+    big.src = img.currentSrc || img.src; big.alt = img.alt || '';
+    box.appendChild(big); box.appendChild(x);
+    document.body.appendChild(box);
+    document.documentElement.classList.add('nav-open');
+    box.addEventListener('click', function (e) { if (e.target !== big) shut(); });
+    x.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.zoom');
+    if (!btn) return;
+    var img = btn.querySelector('img');
+    if (img) { e.preventDefault(); open(img, btn); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') shut();
+  });
+})();
+
+// ── Search ─────────────────────────────────────────────────────────────
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var docs = null, dlg = null, input = null, list = null, opener = null;
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    });
+  }
+
+  // A snippet centred on the hit, so a result shows WHY it matched.
+  function snip(body, q) {
+    var i = body.toLowerCase().indexOf(q);
+    if (i < 0) return '';
+    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
+    return (a ? '…' : '') + esc(body.slice(a, i))
+      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
+      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  }
+
+  function score(d, q) {
+    var t = d.t.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) > -1) return 60;
+    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
+    for (var i = 0; i < d.h.length; i++) {
+      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+    }
+    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
+    return 0;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!q || !docs) { list.innerHTML = ''; return; }
+    var hits = docs.map(function (d) { return [score(d, q), d]; })
+                   .filter(function (r) { return r[0] > 0; })
+                   .sort(function (a, b) { return b[0] - a[0]; })
+                   .slice(0, 12);
+    if (!hits.length) {
+      list.innerHTML = '<li class="snone">' + "Sin resultados para \u201c" + esc(q) + "\u201d." + '</li>';
+      return;
+    }
+    list.innerHTML = hits.map(function (r, i) {
+      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
+      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
+        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+    }).join('');
+  }
+
+  function shut() {
+    if (!dlg) return;
+    dlg.remove(); dlg = null;
+    document.documentElement.classList.remove('nav-open');
+    if (opener) opener.focus();
+  }
+
+  function open() {
+    if (dlg) return;
+    opener = document.activeElement;
+    dlg = document.createElement('div');
+    dlg.className = 'sdlg';
+    dlg.setAttribute('role', 'dialog');
+    dlg.setAttribute('aria-modal', 'true');
+    dlg.setAttribute('aria-label', "Buscar en la gu\u00eda");
+    dlg.innerHTML = '<div class="sbox"><input type="search" '
+      + 'placeholder="Buscar en la guía…" aria-label="Buscar en la guía" '
+      + 'autocomplete="off" spellcheck="false"><ul class="sres"></ul></div>';
+    document.body.appendChild(dlg);
+    document.documentElement.classList.add('nav-open');
+    input = dlg.querySelector('input');
+    list = dlg.querySelector('.sres');
+    input.focus();
+    dlg.addEventListener('click', function (e) {
+      if (!e.target.closest('.sbox')) shut();
+    });
+    input.addEventListener('input', run);
+    // ⭐ Fetched ONCE, on first open, never on a page that is only read.
+    if (docs) { run(); return; }
+    fetch('/es/help/search.json').then(function (r) { return r.json(); })
+      .then(function (j) { docs = j; run(); })
+      .catch(function () {
+        list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';
+      });
+  }
+
+  btn.addEventListener('click', open);
+
+  document.addEventListener('keydown', function (e) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+    if (e.key === '/' && !typing && !dlg) { e.preventDefault(); open(); return; }
+    if (!dlg) return;
+    if (e.key === 'Escape') { shut(); return; }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') return;
+    var links = list.querySelectorAll('a');
+    if (!links.length) return;
+    var at = -1;
+    for (var i = 0; i < links.length; i++) if (links[i].classList.contains('on')) at = i;
+    if (e.key === 'Enter') {
+      if (at > -1) { e.preventDefault(); links[at].click(); }
+      return;
+    }
+    e.preventDefault();
+    if (at > -1) links[at].classList.remove('on');
+    var next = e.key === 'ArrowDown'
+      ? (at + 1) % links.length
+      : (at <= 0 ? links.length - 1 : at - 1);
+    links[next].classList.add('on');
+    links[next].scrollIntoView({block: 'nearest'});
+  });
+})();
+</script>
+</body>
+</html>

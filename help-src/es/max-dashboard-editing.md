@@ -2,7 +2,7 @@
 title: Editar el panel de Cora Max
 description: Elige una cuadrícula, añade widgets y guarda diseños para la pantalla de Cora Max.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 4
 group: Your dashboard
 ---
@@ -45,7 +45,15 @@ El editor te recuerda arriba los tres gestos: **toca una casilla para editarla**
 
 **Tomas y alimentación** añade de una vez tus tomas controlables y los ciclos de alimentación. **Vaciar todo** deja la cuadrícula vacía para empezar de cero.
 
-Los once tipos de casilla (Valor, Medidor, Gráfico, Estado, Toma, ReefBeat, módulo Apex, Jecod, Maxspect *(beta)*, GHL *(beta)* y HYDROS *(beta)*) se explican en la **[Tipos de widget](/help/mobile-widgets)**.
+Los dieciséis tipos de casilla (Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, módulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* y Cámara *(Beta)*) se explican en la **[Tipos de widget](/help/mobile-widgets)**.
+
+Las casillas Beta pertenecen a integraciones Beta que solo pueden añadir los usuarios Beta, y solo ves una cuando ya tienes el dispositivo. Consulta [Funciones Beta](/help/mobile-beta).
+
+## Diseñar con IA
+
+Con un plan de pago, el editor tiene un botón **Diseñar con IA**. Cora propone un diseño completo a partir de lo que informa y tiene vinculado este acuario, y muestra cuántas casillas tiene y en qué cuadrícula. Toca **Usar este** para ponerlo en el editor, o **Intentar de nuevo** para ver otro. Puedes hacer 5 diseños por acuario al día.
+
+Un diseño con IA reemplaza lo que hay ahora en este panel. No se guarda nada hasta que pulsas **Guardar**, y puedes conservar antes tu diseño actual guardándolo como uno de tus paneles. Si tienes un plan gratuito, **Diseñar con IA** te lleva a los planes. También necesita que el uso compartido de datos con la IA esté activado en la app de Cora.
 
 ## Pensado para verse de lejos
 

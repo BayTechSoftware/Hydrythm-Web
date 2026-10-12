@@ -2,26 +2,28 @@
 title: Ver un parámetro a fondo
 description: Toca cualquier widget para ver el historial completo, todas las fuentes que lo informan y dónde cambiar su rango.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Your dashboard
 ---
 
 Un widget te da un número. Si lo tocas, ves la historia que hay detrás.
 
+Hay dos formas de entrar. Toca un widget del panel, o toca **Historial de parámetros** en la fila de botones bajo los widgets y elige un parámetro. **Historial de parámetros** lista todos los parámetros que tienen datos, aunque no haya ningún widget en el panel.
+
 ## Qué encuentras
 
-![Ver un parámetro a fondo](img/mobile-metric-detail.webp "Arriba los rangos, después las fuentes que informan el parámetro y luego el gráfico con tu franja de alerta sombreada.")
+![Ver un parámetro a fondo](img/mobile-metric-detail.webp "Arriba los desplegables y luego el gráfico con tu franja de alerta sombreada.")
 
-Un **gráfico de historial** con su propio selector de rango: **1h · 6h · 12h · 24h · 3d · 7d** y periodos más largos.
+Un **gráfico de historial**. Tres desplegables encima fijan lo que muestra. **Parámetro** pasa a cualquier otro parámetro que tenga datos y conserva tu periodo. **Periodo** va de 1h, 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d y 180d a 360d y Todo. **Fuente** empieza en **Todas las fuentes** y lista las fuentes que informan este parámetro en este acuario, como *Apex*, *Cora*, *Red Sea* o *Manual*. Elige una para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.
 
-Un **filtro de fuente**. Debajo de los rangos hay una fila de chips con **Todos** y uno por cada fuente que informa el parámetro, como *Apex*, *Cora*, *Red Sea* o *Manual*. Elige uno para ver solo sus lecturas. Así comparas directamente una sonda con un kit de pruebas, cambiando de una a otra en el mismo gráfico.
+La pantalla siempre se abre en 24h y **Todas las fuentes**. No recuerda lo que elegiste la última vez.
+
+Una fila con **Más reciente**, **Mín**, **Prom** y **Máx** del periodo que tienes en pantalla.
 
 Un **acceso a la calculadora de dosis** en los parámetros que dosificas. Usa el volumen de tu [perfil del acuario](/help/mobile-tank-profile) y las concentraciones de [Dosificación](/help/mobile-dosing).
 
-**Comparar con** dibuja un segundo parámetro en el mismo gráfico, por ejemplo alcalinidad y calcio, o pH y temperatura. Si sospechas que dos cosas van unidas, aquí lo ves.
-
-**MÍN**, **PROM** y **MÁX** del periodo que tienes en pantalla, en una fila debajo del valor actual.
+**Comparar** dibuja un segundo parámetro en el mismo gráfico, por ejemplo alcalinidad y calcio, o pH y temperatura. La lista incluye todos los parámetros del acuario. Si sospechas que dos cosas van unidas, aquí lo ves. Toca el chip otra vez para quitar la segunda línea.
 
 **Marcas de dosis** en el gráfico, para relacionar un cambio con lo que dosificaste de verdad.
 
@@ -48,7 +50,9 @@ Una línea que no se mueve puede ser un parámetro estable o una fuente que ha d
 
 ## Comparar fuentes
 
-Cuando varias fuentes informan el mismo parámetro, Cora las muestra por separado y no hace la media. Usa los chips de fuente para verlas una a una.
+Cuando varias fuentes informan el mismo parámetro, Cora las muestra por separado y no hace la media. Usa el desplegable **Fuente** para verlas una a una.
+
+El valor que sale en el panel es el más reciente. Un valor en directo solo lo reemplaza una lectura con una hora de medición posterior, de cualquier fuente. Una lectura más antigua va al historial y no sobrescribe lo que hay en el widget. Si fijaste una fuente para el widget, Cora sigue esa fuente.
 
 Si una sonda y tus pruebas a mano no coinciden durante un tiempo, lo normal es que haya que calibrar la sonda.
 
@@ -76,7 +80,7 @@ Si registras aquí una calibración o una limpieza, la fecha queda asociada a es
 
 ## Registrar una lectura a mano
 
-Introduce lo que marca tu kit de pruebas. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico, Reef Buddy las usa y Cora compara tus equipos con ellas.
+Introduce lo que marca tu kit de pruebas. La lista está agrupada, y el grupo **Oligoelementos** incluye yodo, hierro y cobre en µg/L, y potasio en mg/L. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico, Reef Buddy las usa y Cora compara tus equipos con ellas.
 
 :::note Cora revisa los valores que parecen raros
 Si un valor está muy lejos de lo que viene marcando el acuario, Cora te pide que lo confirmes antes de guardarlo. Así se detecta una coma decimal fuera de sitio o una lectura puesta en el parámetro equivocado. Si la confirmas, se guarda con normalidad.

@@ -2,7 +2,7 @@
 title: Dein Beckenprofil
 description: Volumen, Besatz, Ausrüstung und Dosierung, mit denen Cora deine Messwerte einordnet.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 3
 group: Getting started
 ---
@@ -56,6 +56,12 @@ Tippe auf einen Bereich, um ihn aufzuklappen. Das Info-Symbol daneben erklärt, 
 :::note Geräte stehen jetzt im Tab Geräte
 Deinen Apex, deine Red-Sea-Geräte und jedes andere Gerät fügst du im Tab **Geräte** hinzu, ordnest sie dort zu und entfernst sie dort, nicht mehr im Profil. Mehr dazu unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices). Willst du nur nachsehen, was zugeordnet ist, zeigen die Beckeneinstellungen die schreibgeschützte Liste **Geräte an diesem Becken**.
 :::
+
+## Einheiten
+
+Jedes Becken hat seine eigenen Anzeigeeinheiten. Geh zu **Einstellungen**, öffne das Becken und wähle **Einheiten**. Du kannst festlegen, wie dieses Becken Salinität, Temperatur, Alkalinität, Volumen, Phosphat und Nitrat zeigt. Das Volumen kann in Litern, US-Gallonen oder UK-Gallonen stehen.
+
+Die Einheiten gelten für dieses Becken auf jedem Handy und jedem Cora Max, das es öffnet. Deine Messwerte werden nicht verändert, nur die Anzeige. Anzeigen, Kacheln, Verlauf, Berichte und das, was Cora Assistant sagt, folgen alle deiner Wahl. Öffne auf dem Cora Max das Beckenmenü und tippe auf **Einheiten**.
 
 ## Volumen
 

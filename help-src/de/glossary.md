@@ -2,7 +2,7 @@
 title: Glossar
 description: Die Begriffe, die Cora verwendet, von Becken, Quelle und Widget bis zu gespeichertem Design, Schwellenwert und Insight.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 2
 ---
 
@@ -64,7 +64,7 @@ Eine Pause zum Füttern. Er stoppt die passenden Geräte und schaltet sie danach
 
 ## GHL
 
-Kurz für GHL Advanced Technology, Hersteller der Controller-Reihen ProfiLux und Mitras. Die GHL-Unterstützung von Cora ist eine **Beta**. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+Kurz für GHL Advanced Technology, Hersteller der Controller-Reihen ProfiLux und Mitras. Die GHL-Unterstützung von Cora ist in der **Beta** und nur für Beta-Nutzer offen. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
 
 ## Zustandsbericht
 
@@ -72,7 +72,7 @@ Eine gründlichere Auswertung deines ganzen Systems in regelmäßigen Abständen
 
 ## HYDROS
 
-Das Controller- und Dosier-Ökosystem von CoralVue. Cora erreicht es über die eigene Cloud von HYDROS, deshalb funktioniert es auch unterwegs. Die HYDROS-Unterstützung von Cora ist eine **Beta**. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+Das Controller- und Dosier-Ökosystem von CoralVue. Cora erreicht es über die eigene Cloud von HYDROS, deshalb funktioniert es auch unterwegs. Die HYDROS-Unterstützung von Cora ist in der **Beta** und nur für Beta-Nutzer offen. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
 
 ## ICP
 
@@ -128,4 +128,4 @@ Der Modus für deine Beckenvertretung. Du legst einen Plan mit Datum und einer C
 
 ## Widget
 
-Eine Kachel auf einem Dashboard, die eine Sache zeigt. Es gibt elf Typen: Wert, Anzeige, Diagramm, Status, Steckdose, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)* und HYDROS *(Beta)*. Mehr dazu in der [Widget-Übersicht](/help/mobile-widgets).
+Eine Kachel auf einem Dashboard, die eine Sache zeigt. Es gibt sechzehn Typen: Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* und Kamera *(Beta)*. Mehr dazu in der [Widget-Übersicht](/help/mobile-widgets).

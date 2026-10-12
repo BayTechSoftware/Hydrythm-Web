@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's own page to see its live state and drive outlets, pumps, dosing heads and testers.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 11
 group: Equipment
 ---
@@ -10,6 +10,8 @@ group: Equipment
 Each piece of connected equipment has its own page in Cora. It shows the live state and whatever controls that device supports. Open one from the **Devices** tab.
 
 ![A device page](img/mobile-device-detail.webp "Live readings at the top, then the controls that device supports.")
+
+Beta devices, such as EcoTech lights, pumps and dosers, Focustronic units, Inkbird monitors and cameras, are only open to Beta users and have their own pages. See [Beta features](/help/mobile-beta).
 
 Every device page is laid out the same way. The device's name and details are at the top, then a row of live readings, any state the device reports, and its controls. The bell in the title bar sets alert thresholds for that device, as described in [Consumables](/help/mobile-consumables).
 
@@ -53,7 +55,7 @@ Each dosing head shows what it's dosing, its schedule, what it has dosed today a
 For each head you can:
 
 - **Pause** and **Resume** its schedule
-- **Fill**, to tell Cora the container is full again or set how much is in it
+- **Fill**, to tell Cora the container is full again or set how much is in it (**Total Volume** is the container's size, **Volume Remaining** is what's in it now, and **Full** sets one to the other)
 - **Dose now**, for a measured dose by hand
 
 :::note Edit schedules in Apex Fusion
@@ -74,6 +76,8 @@ Give each head a **use type** so Cora knows what it does and talks about it corr
 
 The two water-change use types go in **pairs**. Set one head's **Paired head** to the head that moves water the other way, and Cora treats the two as one water-change pair.
 
+A container can be up to 1,000 L, for every use type. The Apex itself only counts up to 150 L, so above that Cora tracks the container itself from what the head doses. Enter the **Total Volume** when you set it up. Cora also resets the Apex's own counter now and then, and Activity shows that as *Reset the Apex's own counter to 150 L*.
+
 Each head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank, and after you turn on **Large doses (Beta)** in the head's settings. It's off by default: turn it on only after you've watched the first large dose run at the tank.
 
 ## Red Sea ReefBeat
@@ -82,16 +86,16 @@ Each unit has a page that fits what it does:
 
 | Unit | Page shows | You can |
 |---|---|---|
-| **ReefDose** | Each head, its container and what it has dosed | For each head: **Dose per day**, **Remaining in bottle**, **Dose now** and **Activate schedule**, plus a full **Dosing plan** editor *(beta)*. Set refill alerts per head |
+| **ReefDose** | Each head, its container and what it has dosed | For each head: **Dose per day**, **Remaining in bottle**, **Dose now** and **Activate schedule**, plus a full **Dosing plan (Beta)** editor. Set refill alerts per head |
 | **ReefATO+** | Reservoir level and top-off activity | Set a reservoir alert. Ask the Assistant how many days its reservoir has left |
-| **ReefMat** | Remaining roll, in days and metres | Advance the roll, set a refill alert, and, in beta, turn on a scheduled advance, set its model and motor position, and register a new roll |
-| **ReefRun** | Return and skimmer pump speed and state | Change speed, switch a pump, adjust skimmer settings, and edit a full speed program *(beta)* |
-| **ReefControl** *(beta)* | Its temperature, pH, salinity and ORP probes | View its readings |
-| **ReefWave**, **ReefLED** *(beta)* | Its current mode | View only, for now |
+| **ReefMat** | Remaining roll, in days and metres | Advance the roll, set a refill alert, and, in Beta, turn on a scheduled advance, set its model and motor position, and register a new roll |
+| **ReefRun** | Return and skimmer pump speed and state | Change speed, switch a pump, adjust skimmer settings, and edit a full **Pump schedule (Beta)** speed program |
+| **ReefControl** *(Beta)* | Its temperature, pH, salinity and ORP probes | View its readings |
+| **ReefWave**, **ReefLED** *(Beta)* | Its current mode | View only, for now |
 
-ReefRun controls return and skimmer pumps. It isn't a wave pump. **ReefControl Power** *(beta)* sockets show up as outlets, switched from the same outlet control as an Apex outlet, on or off only. There's no automatic mode for them yet.
+ReefRun controls return and skimmer pumps. It isn't a wave pump. **ReefControl Power** *(Beta)* sockets show up as outlets, switched from the same outlet control as an Apex outlet, on or off only. There's no automatic mode for them yet.
 
-## Editing a ReefDose plan or ReefRun program *(beta)*
+## Editing a ReefDose plan or ReefRun program *(Beta)*
 
 Tap the calendar icon on a ReefDose or ReefRun page to open its plan.
 
@@ -101,7 +105,7 @@ A ReefRun program is up to six segments on one pump port. Each segment has a sta
 
 Both editors read the plan that's already on the unit first, so you're editing the real thing, not a blank form.
 
-## ReefMat settings *(beta)*
+## ReefMat settings *(Beta)*
 
 Tap the gear on a ReefMat page for three more settings.
 
@@ -136,8 +140,8 @@ You can also:
 
 ## Maxspect
 
-:::note Maxspect support is in beta
-We're still testing and developing Maxspect gyre support. Some controls may be limited, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::note Beta
+**Beta.** Maxspect is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). Some controls may be limited, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support). More in [Beta features](/help/mobile-beta).
 :::
 
 The gyre page shows whether the gyre is running, the wave pattern and speed of **Gyre A** and **Gyre B**, and when they were last read. From here you can:
@@ -154,8 +158,8 @@ If a Cora Max serves the tank, Cora Mobile goes through that Cora Max, even when
 
 ## GHL ProfiLux and Mitras
 
-:::note GHL support is in beta
-We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::note Beta
+**Beta.** GHL is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support). More in [Beta features](/help/mobile-beta).
 :::
 
 The controller's page shows its probes, sockets, dosers and level sensors, and on the Director models, its KH and ion test results.
@@ -183,8 +187,8 @@ If the controller turns the change down, check that its GHL API is switched on w
 
 ## HYDROS
 
-:::note HYDROS support is in beta
-We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support).
+:::note Beta
+**Beta.** HYDROS is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Getting help](/help/mobile-support). More in [Beta features](/help/mobile-beta).
 :::
 
 What you see here depends on the key you linked with. A **Read** key gives you its inputs only. A **Write** key adds outputs, modes, dosing and tester commands, plus a page banner that reminds you which kind of key you're on.

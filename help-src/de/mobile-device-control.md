@@ -2,7 +2,7 @@
 title: Deine Ausrüstung steuern
 description: Auf der Seite eines Geräts siehst du seinen Live-Zustand und steuerst es, ob Steckdose, Pumpe, Dosierkopf oder Testgerät.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 11
 group: Equipment
 ---
@@ -10,6 +10,8 @@ group: Equipment
 Jedes verbundene Gerät hat in Cora eine eigene Seite. Dort siehst du seinen Live-Zustand und findest alle Steuerungen, die das Gerät unterstützt. Du öffnest sie über den Tab **Geräte**.
 
 ![Eine Geräteseite](img/mobile-device-detail.webp "Live-Messwerte oben, dann die Steuerungen, die dieses Gerät unterstützt.")
+
+Beta-Geräte wie EcoTech-Leuchten, -Pumpen und -Dosierer, Focustronic-Geräte, Inkbird-Monitore und Kameras stehen nur Beta-Nutzern offen und haben eigene Seiten. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 Alle Geräteseiten sind gleich aufgebaut. Oben steht, um welches Gerät es geht. Darunter folgen eine Reihe Live-Messwerte, jeder Zustand, den das Gerät meldet, und zum Schluss die Steuerungen. Mit der Glocke in der Titelleiste legst du Warnschwellen für das Gerät fest. Mehr dazu unter [Verbrauchsmaterial](/help/mobile-consumables).
 
@@ -53,7 +55,7 @@ Zu jedem Dosierkopf siehst du, was er dosiert, seinen Zeitplan, was er heute dos
 Für jeden Kopf kannst du:
 
 - seinen Zeitplan **pausieren** und **fortsetzen**
-- mit **Befüllen** Cora sagen, dass der Behälter wieder voll ist, oder die Füllmenge eintragen
+- mit **Befüllen** Cora sagen, dass der Behälter wieder voll ist, oder die Füllmenge eintragen (**Gesamtvolumen** ist die Größe des Behälters, **Verbleibendes Volumen** das, was gerade drin ist, und **Voll** setzt das eine auf das andere)
 - mit **Jetzt dosieren** eine abgemessene Dosis von Hand abgeben
 
 :::note Zeitpläne bearbeitest du in Apex Fusion
@@ -74,6 +76,8 @@ Jeder Kopf bekommt einen **Verwendungstyp**. So weiß Cora, was er tut, und kann
 
 Die beiden Wasserwechsel-Typen sind dafür gedacht, **gekoppelt** zu werden. Stell beim einen Kopf unter **Gekoppelter Kopf** den anderen ein, der das Wasser in die Gegenrichtung pumpt. Cora behandelt die beiden dann als ein Wasserwechsel-Paar und nicht als zwei getrennte Köpfe.
 
+Ein Behälter kann bei jedem Verwendungstyp bis zu 1.000 L groß sein. Der Apex selbst zählt nur bis 150 L, darüber verfolgt Cora den Behälter selbst anhand dessen, was der Kopf dosiert. Trage das **Gesamtvolumen** bei der Einrichtung ein. Cora setzt den eigenen Zähler des Apex außerdem von Zeit zu Zeit zurück, und Aktivität zeigt das als *Den eigenen Zähler des Apex auf 150 L zurückgesetzt*.
+
 Jeder Kopf hat außerdem eine Obergrenze **Größte manuelle Dosierung**. Sie verhindert, dass eine vertippte Handdosierung viel größer ausfällt als gewollt. Große Handdosierungen sind erst möglich, wenn die Rate des Kopfes mit einem echten Test am Becken ausgemessen wurde und du **Große Dosierungen (Beta)** in den Einstellungen des Kopfes eingeschaltet hast. Das ist standardmäßig aus: Schalte dies erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
 
 ## Red Sea ReefBeat
@@ -82,10 +86,10 @@ Jedes Gerät hat eine Seite, die zu ihm passt:
 
 | Gerät | Die Seite zeigt | Du kannst |
 |---|---|---|
-| **ReefDose** | jeden Kopf, seinen Behälter und was er dosiert hat | für jeden Kopf **Dosierung pro Tag**, **Rest in der Flasche**, **Jetzt dosieren** und **Zeitplan aktivieren** nutzen, dazu einen vollständigen Editor für den **Dosierplan** *(Beta)*, und Nachfüllwarnungen pro Kopf anlegen |
+| **ReefDose** | jeden Kopf, seinen Behälter und was er dosiert hat | für jeden Kopf **Dosierung pro Tag**, **Rest in der Flasche**, **Jetzt dosieren** und **Zeitplan aktivieren** nutzen, dazu einen vollständigen Editor für den **Dosierplan (Beta)**, und Nachfüllwarnungen pro Kopf anlegen |
 | **ReefATO+** | Füllstand des Vorratsbehälters und Nachfüllvorgänge | eine Warnung für den Vorratsbehälter anlegen. Frag den Assistenten, wie viele Tage der Vorratsbehälter noch reicht |
 | **ReefMat** | verbleibende Rolle in Tagen und Metern | die Rolle weiterdrehen, eine Nachfüllwarnung anlegen und, in Beta, einen geplanten Vorschub einschalten, Modell und Motorposition einstellen und eine neue Rolle registrieren |
-| **ReefRun** | Drehzahl und Zustand von Rückförder- und Abschäumerpumpe | die Drehzahl ändern, eine Pumpe schalten, Abschäumer-Einstellungen anpassen und ein vollständiges Geschwindigkeitsprogramm bearbeiten *(Beta)* |
+| **ReefRun** | Drehzahl und Zustand von Rückförder- und Abschäumerpumpe | die Drehzahl ändern, eine Pumpe schalten, Abschäumer-Einstellungen anpassen und ein vollständiges Geschwindigkeitsprogramm unter **Pumpenplan (Beta)** bearbeiten |
 | **ReefControl** *(Beta)* | seine Sonden für Temperatur, pH, Salinität und ORP | die Messwerte ansehen |
 | **ReefWave**, **ReefLED** *(Beta)* | den aktuellen Modus | vorerst nur ansehen |
 
@@ -136,8 +140,8 @@ Außerdem kannst du:
 
 ## Maxspect
 
-:::note Maxspect wird als Beta unterstützt
-Die Unterstützung für Maxspect Gyre wird noch getestet und weiterentwickelt. Manche Steuerungen können deshalb eingeschränkt sein, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
+:::note Beta
+**Beta.** Maxspect ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang [wende dich an den Support](/support.html). Manche Steuerungen können eingeschränkt sein, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
 :::
 
 Die Seite der Gyre zeigt, ob sie läuft, Wellenmuster und Geschwindigkeit von **Gyre A** und **Gyre B** und wann das zuletzt ausgelesen wurde. Hier kannst du:
@@ -154,8 +158,8 @@ Betreut ein Cora Max das Becken, arbeitet Cora Mobile über dieses Cora Max, auc
 
 ## GHL ProfiLux und Mitras
 
-:::note GHL wird als Beta unterstützt
-Die Unterstützung für GHL wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
+:::note Beta
+**Beta.** GHL ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang [wende dich an den Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
 :::
 
 Die Seite des Controllers zeigt seine Sonden, Steckdosen, Dosierer und Füllstandssensoren, und bei den Director-Modellen auch seine KH- und Ionen-Testergebnisse.
@@ -183,8 +187,8 @@ Nimmt der Controller die Änderung nicht an, prüf, ob seine GHL-API eingeschalt
 
 ## HYDROS
 
-:::note HYDROS wird als Beta unterstützt
-Die Unterstützung für HYDROS wird noch getestet und weiterentwickelt. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
+:::note Beta
+**Beta.** HYDROS ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang [wende dich an den Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht, und was du hier siehst, kann sich mit Updates ändern. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
 :::
 
 Was du hier siehst, hängt vom Schlüssel ab, mit dem er verbunden ist. Ein **Lesen**-Schlüssel gibt dir nur seine Eingänge. Ein **Schreiben**-Schlüssel bringt zusätzlich Ausgänge, Modi, Dosierung und Testbefehle, dazu einen Banner auf der Seite, der dich daran erinnert, welche Art von Schlüssel du hast.

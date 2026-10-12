@@ -2,7 +2,7 @@
 title: ICP e rapporti di salute
 description: Carica un test ICP, segui ogni elemento nel tempo e chiedi una valutazione completa della salute del tuo impianto.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 26
 group: Intelligence
 ---
@@ -16,6 +16,18 @@ La scheda **Intelligence** raccoglie i risultati di laboratorio e ti fa vedere l
 Tocca **Carica ICP**, scegli la vasca e aggiungi il risultato del laboratorio. Cora legge il rapporto, registra ogni elemento e lo confronta con i test precedenti.
 
 Non devi scrivere niente a mano. Cora legge i formati dei laboratori più comuni.
+
+## Quale email può usare un laboratorio
+
+Un laboratorio o un risultato inviato per email trova il tuo account dall'indirizzo che conosce. È la tua email di accesso, più le eventuali email di laboratorio che aggiungi in **Impostazioni → la scheda del tuo account → Email laboratorio e ICP**.
+
+1. Tocca **Aggiungi email del laboratorio** e scrivi l'indirizzo che usa il tuo laboratorio.
+2. Tocca **Invia codice**. Cora manda un codice di 6 cifre a quell'indirizzo. Scade dopo 10 minuti.
+3. Inserisci il codice e tocca **Verifica**. Se non è arrivato, tocca **Invia di nuovo il codice**.
+
+Puoi aggiungere fino a 3 email di laboratorio. Ognuna mostra **Verificata** oppure **In attesa del codice**, e **Rimuovi** ne toglie una. Da quel momento i risultati inviati a quell'indirizzo non arrivano più al tuo account. Non si può aggiungere un indirizzo che appartiene già a un altro account Cora.
+
+Se hai effettuato l'accesso con un'email Apple nascosta, i laboratori non riescono a trovare il tuo account. La schermata ICP mostra una scheda, **Ricevi automaticamente i risultati del laboratorio**, che porta a questa impostazione. Quando accedi con Apple, scegli **Condividi la mia email** per evitare il problema.
 
 ## Invia a Cora: risultati che arrivano da un laboratorio o per email
 
@@ -45,7 +57,15 @@ Se qualcosa non funziona, guarda in [Risoluzione dei problemi](/help/troubleshoo
 
 Il punteggio confronta i tuoi risultati con gli intervalli obiettivo, compresi quelli che hai impostato tu. Se anche un solo risultato è fuori intervallo, il punteggio non supera 70, quindi non può risultare **Sano**. Se è molto fuori, non supera 40, anche se tutti gli altri sono buoni. Sotto il punteggio vedi **Sano** da 71 a 100, **Richiede attenzione** da 40 a 70 e **Critico** da 0 a 39. I rapporti di salute usano lo stesso punteggio.
 
-**Tutti gli elementi**: oltre ai parametri principali, anche gli elementi in traccia e i contaminanti.
+**Tutti gli elementi**: oltre ai parametri principali, anche gli elementi in traccia e i contaminanti. Cora registra tutti i 71 elementi che un laboratorio può riportare, e la riga che alcuni laboratori chiamano *Acidity* è il pH.
+
+Su ogni riga di elemento vedi l'intervallo stampato dal laboratorio, indicato come *Intervallo del laboratorio*, accanto all'intervallo di Cora per quell'elemento. Un elemento per cui Cora non ha un intervallo di riferimento porta l'etichetta **Nessun intervallo Cora**. Il rapporto dice per quanti elementi c'è un intervallo Cora e valuta gli altri in base alla conoscenza generale della barriera. Cora Assistant commenta ogni elemento testato, e il suo commento vale anche quando non c'è un intervallo Cora.
+
+Se il laboratorio stampa *n.r.* (non rilevato) per un elemento, Cora lo registra come 0 e dice che non è stato rilevato.
+
+:::note La CO₂ disciolta non è la CO2 della stanza
+La **CO₂ disciolta** in un rapporto ICP è la CO2 nell'acqua, in mg/L. È una misura diversa dalla CO2 dell'aria della stanza, che misura un monitor Inkbird per l'aria della stanza in Beta. I due hanno intervalli diversi e non vengono mai mescolati. Vedi [Funzioni Beta](/help/mobile-beta).
+:::
 
 **Le variazioni maggiori**: la scheda "Dal tuo ultimo ICP" mostra cosa è cambiato di più dall'ultima volta. Di solito è il modo più rapido per capire un nuovo rapporto.
 
@@ -54,6 +74,10 @@ Il punteggio confronta i tuoi risultati con gli intervalli obiettivo, compresi q
 :::tip Dal secondo test diventa interessante
 Un ICP ti dice dove sei. Il secondo ti dice in che direzione stai andando, ed è questo che ti serve per decidere cosa fare. Fai i test a intervalli regolari, anche quando va tutto bene.
 :::
+
+## Un test dell'acqua RO/DI o di un'altra acqua di partenza
+
+Se carichi un campione di acqua RO/DI o di un'altra acqua di partenza, dillo quando lo carichi. Cora non lo valuta rispetto agli obiettivi della tua vasca. Dà un giudizio semplice su quanto l'acqua è pulita per essere usata e tiene quei numeri fuori dalle letture della vasca. Il rapporto indica quanti risultati sono acqua di partenza. Cora fa lo stesso con un sale appena miscelato o con qualsiasi altro campione che non sia acqua di vasca: dice a cosa assomiglia il campione e non lo valuta come se fosse la tua vasca.
 
 ## Rapporti di salute
 

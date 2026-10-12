@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you're told about, and see why an alert fired.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 15
 group: Alerts and automation
 ---
@@ -66,11 +66,20 @@ You can also set a rate-of-change rule. It watches how fast a parameter moves in
 
 Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod pump reports a fault, Cora sends a notification naming the tank and the device, for example *"Display tank: Return pump needs attention"*. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: *"Display tank: Return pump is OK again"*. Both fall under **Equipment Faults** in **Settings → Notifications**.
 
-A Maxspect gyre (beta) can raise the same alert. This happens when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat it as a warning and don't rely on it as a safeguard. The Cora Max only checks from time to time, and only while it's running and can reach the gyre.
+A Maxspect gyre (Beta) can raise the same alert. This happens when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat it as a warning and don't rely on it as a safeguard. The Cora Max only checks from time to time, and only while it's running and can reach the gyre.
 
 ## A device has stopped reporting
 
-If a Neptune Apex, Red Sea ReefBeat unit, AquaWiz, Jecod pump or Maxspect gyre goes quiet, Cora tells you: *"[Device]: stopped reporting."* Check its power and Wi-Fi, and that the Cora Max reading it is switched on. Most equipment gets this after about 30 minutes with no update. AquaWiz checks less often, so it waits about 3 hours. You get a second notification once it's reporting again.
+If a Neptune Apex, Red Sea ReefBeat unit, AquaWiz, Jecod pump, Maxspect gyre, EcoTech device or Inkbird room air monitor goes quiet, Cora tells you: *"[Device]: stopped reporting."* Check its power and Wi-Fi (or Bluetooth range), and that the Cora Max reading it is switched on. You get a second notification once it's reporting again.
+
+How long Cora waits depends on the device.
+
+- Neptune Apex and Red Sea ReefBeat: about 30 minutes with no update.
+- AquaWiz: about 3 hours, because it checks less often.
+- Jecod and Maxspect: three missed readings in a row, counted on the device's own reading interval.
+- EcoTech and Inkbird: three missed readings in a row, counted on the interval you set for that network or monitor.
+
+Maxspect, EcoTech and Inkbird are Beta integrations that only Beta users can add. See [Beta features](/help/mobile-beta).
 
 This falls under **Equipment Faults** in **Settings → Notifications**, along with the fault alerts above.
 

@@ -2,7 +2,7 @@
 title: Connexion et récupération de compte
 description: Se connecter, réinitialiser un mot de passe oublié et corriger une adresse e-mail que vous n’arrivez pas à vérifier.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -46,6 +46,10 @@ Changer l’adresse d’un compte touche à la sécurité. Cora demande donc par
 ## La vérification ne passe pas
 
 Cora Mobile fait la vérification quand vous touchez **J’ai vérifié mon e-mail**. S’il vous répond que l’e-mail n’est pas encore vérifié, touchez **Confirmer mon e-mail** dans le message le plus récent, attendez un instant, puis réessayez. Si le lien a expiré, touchez **Renvoyer l’e-mail de vérification** pour en recevoir un nouveau. La vérification concerne le compte et non l’appareil. Une fois faite, elle vaut sur tous vos appareils.
+
+## E-mails de laboratoire et ICP
+
+Les laboratoires et les résultats ICP envoyés par e-mail retrouvent votre compte grâce à l’adresse e-mail. Si votre laboratoire connaît une autre adresse que celle de votre connexion, ou si vous vous êtes connecté avec un e-mail Apple masqué, ajoutez-la dans **Réglages → la carte de votre compte → E-mails labo et ICP**. Touchez **Ajouter un e-mail de labo**, puis **Envoyer le code**, saisissez le code à 6 chiffres reçu par e-mail et touchez **Vérifier**. Vous pouvez en ajouter jusqu’à 3. Les étapes sont dans [Rapports ICP et de santé](/help/mobile-icp-health).
 
 ## Se déconnecter
 

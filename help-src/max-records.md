@@ -2,7 +2,7 @@
 title: Journal, livestock and maintenance
 description: The record-keeping screens on Cora Max, and when to use them instead of your phone.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 8
 group: Records
 ---
@@ -11,7 +11,7 @@ Cora Max shows the same records as your phone, but you can't edit all of them he
 
 | Area | On Cora Max |
 |---|---|
-| **Journal** | Read and add entries |
+| **Journal** | Read and add entries. Log **Fed extra** or **Skipped a feed** in one tap |
 | **Readings** | Log test results with the on-screen keyboard |
 | **Maintenance** | Complete or snooze a task. You create and edit tasks on your phone |
 | **Livestock** | View only. Add and edit on your phone |
@@ -27,6 +27,12 @@ You'll find all of them in the **tank menu** (tap the tank name in the top bar).
 You can add an entry without leaving the tank. You're usually standing at the wall screen when you do the work anyway.
 
 Open the **tank menu** (tap the tank name in the top bar) and tap **+** to add an entry. Or say *"Hey Cora, log that I fed mysis."* More about this in [The journal](/help/mobile-journal).
+
+### Feeding
+
+At the top of the journal screen, **Fed extra** and **Skipped a feed** each add one journal entry. A line below them shows your feeding routine, for example *Feeding routine: Flakes: 2 pinches, twice a day*. You set the routine in Cora Mobile, so with none saved the line says *Set your feeding routine in the phone app*.
+
+If Cora Max reads your Neptune Apex, it also logs a Feed A to D cycle when one starts, whether you started it here, at the Apex or in Apex Fusion.
 
 :::note There's no journal icon in the top bar
 The icon next to the devices icon is **Reef Buddy**, and its dot means today's briefing is unread. You add journal entries from the tank menu or by voice.

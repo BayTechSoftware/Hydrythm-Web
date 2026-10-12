@@ -2,7 +2,7 @@
 title: Reef Buddy et rapports
 description: Le briefing du jour, les résultats ICP, les rapports de santé et les graphiques d’historique sur Cora Max.
 section: Cora Max
-reviewed: 2026-09-17
+reviewed: 2026-10-12
 order: 9
 group: Intelligence
 ---
@@ -16,6 +16,8 @@ Cora Max affiche les mêmes analyses que le téléphone, sur un écran assez gra
 Le briefing du jour s’affiche sur le tableau de bord et a aussi son propre écran. Vous y trouvez les scores Stabilité et Données, le résumé et les observations qui les expliquent.
 
 La signification des scores est détaillée dans [Reef Buddy](/help/mobile-reef-buddy).
+
+Après avoir enregistré un test ou ajouté un résultat ICP, l’écran affiche **Nouvelles mesures depuis ce briefing** et un bouton **Mettre à jour le briefing**. Touchez-le pour refaire le briefing avec les nouveaux chiffres. Cela marche une fois par jour : ensuite, l’écran indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
 
 ## Résultats ICP
 
@@ -33,9 +35,11 @@ Lancez et lisez un rapport de santé depuis Cora Max. C’est la même évaluati
 
 ## Graphiques d’historique
 
-Chaque paramètre peut s’ouvrir en graphique plein écran, sur les mêmes périodes que le téléphone. C’est le meilleur moyen de repérer une dérive lente. Un mois d’alcalinité en plein écran montre une tendance qu’une petite tuile ne peut pas montrer.
+Ouvrez le **menu de l’aquarium** et touchez **Historique des paramètres**. Choisissez un paramètre sous **Choisir un paramètre**, et il s’ouvre en graphique plein écran. Toucher une tuile du tableau de bord ouvre le même graphique. C’est le meilleur moyen de repérer une dérive lente. Un mois d’alcalinité en plein écran montre une tendance qu’une petite tuile ne peut pas montrer.
 
-Des puces choisissent les mesures à afficher : **Toutes**, **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** ou **AquaWiz**. Chaque source a sa couleur, et les puces servent aussi de légende. Les points ReefBeat et AquaWiz sont des carrés. Les mesures prises à la main (Manuel et ICP) sont des points plus gros. **Toutes** affiche les sources côte à côte et ne fait jamais la moyenne entre deux sources.
+Le nom du paramètre dans l’en-tête est une liste déroulante : vous pouvez passer à un autre paramètre en gardant la période. Deux autres listes règlent la **Période** et la **Source** : **Toutes les sources**, ou l’une des sources **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** ou **AquaWiz**. **Comparer** trace un second paramètre sur le même graphique, et la liste contient tous les paramètres de l’aquarium. Chaque source a sa couleur. Les points ReefBeat et AquaWiz sont des carrés. Les mesures prises à la main (Manuel et ICP) sont des points plus gros. **Toutes les sources** affiche les sources côte à côte et ne fait jamais la moyenne entre deux sources.
+
+Plus de détails dans [Examiner un paramètre](/help/mobile-metric-detail).
 
 ## Parcours guidés
 

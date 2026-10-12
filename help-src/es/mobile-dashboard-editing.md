@@ -2,7 +2,7 @@
 title: Editar tu panel
 description: Elige cuántas columnas quieres, añade y ordena widgets, cambia el tamaño de las casillas y guarda diseños para usarlos en otros acuarios.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Your dashboard
 ---
@@ -45,7 +45,7 @@ Solo aparecen las fuentes que tiene el acuario. Un parámetro sin fuente aparece
 
 ## Cambiar el tamaño
 
-Un widget ocupa una o dos columnas y una o dos filas. El tamaño se elige en los ajustes del widget.
+Un widget ocupa una o dos columnas y una o dos filas. El tamaño se elige en los ajustes del widget. Una casilla de cámara (Beta) puede ocupar hasta tres columnas de ancho. Las cámaras solo están abiertas a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
 
 Un widget de **tendencia** siempre ocupa como mínimo dos columnas.
 
@@ -86,3 +86,13 @@ Las lecturas, el historial y las entradas del diario se guardan aparte del dise�
 ## Editar el panel de Cora Max
 
 El panel de Cora Max se edita aparte, en **Dispositivos → tu Cora Max → Editar panel**. Usa una cuadrícula fija que no se desplaza. Más información en [Editar el panel de Cora Max](/help/max-dashboard-editing).
+
+### Diseñar con IA
+
+Con un plan de pago, el editor tiene arriba un icono de destellos, con la etiqueta **Diseñar con IA**. Tócalo y Cora propone un diseño completo a partir de lo que informa y tiene vinculado este acuario. Con un plan gratuito, el icono muestra un candado (**Diseñar con IA (planes de pago)**) y abre los planes.
+
+La propuesta muestra cuántas casillas tiene y el tamaño de la cuadrícula. Toca **Usar este** para ponerla en el editor, o **Intentar de nuevo** para ver otra. Puedes hacer 5 diseños por acuario al día.
+
+Un diseño con IA reemplaza lo que hay en el panel que estás editando. Nada llega a Cora Max hasta que tocas **Guardar y publicar**, así que todavía puedes salir sin guardar. Para conservar antes tu diseño actual, guárdalo en **Mis paneles**.
+
+Diseñar con IA necesita que el uso compartido de datos con la IA esté activado en Ajustes. Si está desactivado, se te avisa y puedes activarlo y volver a intentarlo. Si el acuario todavía no tiene lecturas ni dispositivos vinculados, no hay nada a partir de lo que diseñar.

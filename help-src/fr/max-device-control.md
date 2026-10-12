@@ -2,7 +2,7 @@
 title: Contrôler l’équipement depuis Cora Max
 description: Les pages d’appareils sur Cora Max : sondes, prises, têtes de dosage, testeurs et pompes.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Equipment
 ---
@@ -22,12 +22,16 @@ Il n’y a ni aperçu ni annulation. La commande part dès que vous touchez. Mai
 | **Neptune Apex** | Sondes et prises. Chaque prise peut être allumée ou éteinte |
 | **Trident** | État du test, niveaux de réactif et de déchets, et lancement d’un test |
 | **DŌS**, y compris le DŌS QD | Pour chaque tête : dosage, programme, autonomie et volume du contenant (avec pause, remplissage, dosage immédiat et mesure unique de vingt secondes) |
-| **Red Sea ReefBeat** | Selon l’appareil : têtes de dosage, réservoir, jours de rouleau restants, mode de pompe, plus un éditeur complet de programme ReefDose et ReefRun et les réglages ReefMat *(bêta)* |
-| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(bêta)* | Les sondes de ReefControl. Les prises de ReefControl Power comme des prises, allumé ou éteint, pas encore de mode automatique. ReefWave et ReefLED, en lecture seule |
+| **Red Sea ReefBeat** | Selon l’appareil : têtes de dosage, réservoir, jours de rouleau restants, mode de pompe, plus un éditeur complet de programme ReefDose et ReefRun et les réglages ReefMat *(Beta)* |
+| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | Les sondes de ReefControl. Les prises de ReefControl Power comme des prises, allumé ou éteint, pas encore de mode automatique. ReefWave et ReefLED, en lecture seule |
 | **Jecod** | Mode et intensité de la pompe, et son programme de la journée |
-| **Maxspect** *(bêta)* | Mode et vitesse pour **Gyre A** et **Gyre B**, **État de la pompe** (compte à rebours du nettoyage, courant de la tête A, têtes installées, micrologiciel), et son programme en lecture seule |
-| **GHL ProfiLux / Mitras** *(bêta)* | Sondes, prises, doseurs, capteurs de niveau et, sur les modèles Director, les résultats de test KH et ionique |
-| **HYDROS** *(bêta)* | Ce que signale sa clé d’appareil : les entrées, et avec une clé d’écriture, les sorties, les modes, les têtes de dosage et les commandes de testeur |
+| **Maxspect** *(Beta)* | Mode et vitesse pour **Gyre A** et **Gyre B**, **État de la pompe** (compte à rebours du nettoyage, courant de la tête A, têtes installées, micrologiciel), et son programme en lecture seule |
+| **GHL ProfiLux / Mitras** *(Beta)* | Sondes, prises, doseurs, capteurs de niveau et, sur les modèles Director, les résultats de test KH et ionique |
+| **HYDROS** *(Beta)* | Ce que signale sa clé d’appareil : les entrées, et avec une clé d’écriture, les sorties, les modes, les têtes de dosage et les commandes de testeur |
+| **Focustronic** *(Beta)* | État, dernier test, pompes et flacons |
+| **EcoTech** *(Beta)* | Lampes Radion, pompes VorTech et doseurs Versa, chacun avec sa page. Les commandes vers VorTech et Versa ne sont pas encore prouvées sur du vrai matériel |
+| **Inkbird** *(Beta)* | Mesures de l’air de la pièce, en lecture seule |
+| **Caméra** *(Beta)* | Une image de votre caméra, en tuile sur le tableau de bord ou sur sa propre page, avec la surveillance de l’écumeur sur les forfaits payants |
 
 Si un appareil Red Sea s’arrête de lui-même, sa page dit ce qui ne va pas et affiche la solution juste à côté : **Reprendre**, **Effacer l’urgence**, **Capteur nettoyé**, **J’ai déjà chargé un nouveau rouleau**, ou **Réinitialiser** pour une tête de dosage.
 
@@ -43,7 +47,7 @@ Après un dosage manuel, une tête que vous aviez mise sur Éteint dans Apex Fus
 
 Dans la fiche de réglages de chaque tête, vous pouvez choisir un **type d’usage** : **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture** ou **Appoint**, ou **Autre**. Le type d’usage change deux choses :
 
-- **La taille du contenant suivi.** Une tête Complément suit un contenant de 20 litres au plus. Avec les autres types d’usage, le contenant peut aller jusqu’à 500 litres. Une tête qui gère un changement d’eau ou un réacteur à calcium n’est donc pas traitée comme un petit flacon de dosage.
+- **La taille du contenant suivi.** Chaque type d’usage peut suivre un contenant allant jusqu’à 1 000 litres. Au-delà du compteur propre de l’Apex, limité à 150 litres, Cora suit elle-même le volume, et elle remet le compteur de l’Apex à zéro tous les 100 litres.
 - **La possibilité de faire un gros dosage à la main.** Les têtes Complément et Nourriture gardent la petite limite prudente habituelle. Pour les autres types d’usage, vous pouvez fixer un **Dosage manuel maximal**, avec un plafond absolu de 10 litres, et une **limite quotidienne pour les automatisations et l’Assistant**. Un gros dosage à la main nécessite aussi d’activer **Doses importantes (bêta)** dans les réglages de la tête, désactivé par défaut. Activez ceci seulement après avoir observé la première dose importante s’exécuter devant l’aquarium.
 
 Les deux têtes d’un changement d’eau (entrée d’eau salée neuve et sortie d’eau ancienne) peuvent être reliées comme **Tête associée**, avec un seuil d’**Alerte d’équilibre au-dessus de**. Si les totaux du jour des deux têtes s’écartent de plus que ce seuil, Cora vous prévient. Un tel écart veut souvent dire qu’un des deux côtés ne pompe pas comme prévu.
@@ -58,8 +62,8 @@ Si la bannière ne disparaît pas ou revient sans cesse, consultez la page [Rés
 
 ## GHL ProfiLux et Mitras
 
-:::note La prise en charge GHL est en bêta
-Nous testons et développons encore la prise en charge GHL. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre.
+:::note Beta
+**Beta.** GHL est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Certaines mesures ou commandes peuvent ne pas encore marcher.
 :::
 
 Connectez un contrôleur GHL depuis votre téléphone : **Appareils → Ajouter un appareil → GHL**. [Connecter votre équipement](/help/mobile-connections) donne les étapes. Cora Max l’affiche et le pilote dès qu’un Cora Max sur son réseau l’a lu, mais la configuration elle-même se fait sur le téléphone.
@@ -74,19 +78,27 @@ Si le contrôleur refuse un changement, son API GHL est probablement désactivé
 
 ## HYDROS
 
-:::note La prise en charge HYDROS est en bêta
-Nous testons et développons encore la prise en charge HYDROS. Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre.
+:::note Beta
+**Beta.** HYDROS est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Certaines mesures ou commandes peuvent ne pas encore marcher.
 :::
 
 HYDROS est la seule intégration qui rejoint son contrôleur par le cloud, elle marche donc même quand Cora Max est sur un réseau différent de celui du contrôleur. Il se configure uniquement depuis votre téléphone : **Appareils → Ajouter un appareil → HYDROS**. [Connecter votre équipement](/help/mobile-connections) donne les étapes.
 
 Lire et contrôler l’appareil fonctionne comme sur votre téléphone ; voir [Contrôler votre équipement](/help/mobile-device-control) pour les sorties, les modes, les têtes de dosage et les commandes de testeur, et pour les limites de dose par tête.
 
+## EcoTech, Inkbird et caméras
+
+:::note Beta
+**Beta.** EcoTech, Inkbird et les caméras sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Cora Max les affiche dès que votre compte les a associés depuis votre téléphone. Pour demander l’accès Beta, contactez le [support](/support.html).
+:::
+
+Vous les associez depuis votre téléphone, et un Cora Max placé à l’aquarium fait la lecture. [Lampes, pompes et doseurs EcoTech](/help/mobile-ecotech) couvre Radion, VorTech et Versa. Un moniteur d’air ambiant Inkbird affiche ses mesures, rien de plus. Une caméra, et la surveillance de l’écumeur sur les forfaits payants, sont décrites dans [Caméras et surveillance de l’écumeur](/help/mobile-cameras). Pour afficher une caméra au mur, ajoutez une tuile Caméra dans l’éditeur du tableau de bord.
+
 ## Programmes
 
 Vous pouvez créer les programmes journaliers des pompes Jecod sur Cora Max comme sur le téléphone. L’éditeur est le même : un graphique de la journée, une liste de plages horaires et une ligne d’action. Plus de détails dans [Programmer l’équipement](/help/mobile-schedules).
 
-Le programme d’une pompe de brassage Maxspect *(bêta)* se consulte ici mais ne s’enregistre pas. Réglez-le dans l’application Maxspect.
+Le programme d’une pompe de brassage Maxspect *(Beta)* se consulte ici mais ne s’enregistre pas. Réglez-le dans l’application Maxspect.
 
 ## Prises
 

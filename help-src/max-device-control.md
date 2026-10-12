@@ -2,7 +2,7 @@
 title: Controlling equipment from Cora Max
 description: Device pages on the big screen for probes, outlets, dosing heads, testers and pumps.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 6
 group: Equipment
 ---
@@ -22,12 +22,16 @@ There's no preview and no undo. A command goes out the moment you tap, but sendi
 | **Neptune Apex** | Probes and outlets, and you can switch each outlet |
 | **Trident** | Test state, reagent and waste levels, and a button to start a test |
 | **DŌS**, including the DŌS QD | Each head's dosing, schedule, runway and container volume (with pause, fill, dose now and a one-time twenty-second measure) |
-| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan and ReefRun program editor and ReefMat settings *(beta)* |
+| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan and ReefRun program editor and ReefMat settings *(Beta)* |
 | **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(beta)* | ReefControl's probes. ReefControl Power's sockets as outlets, on or off, no automatic mode yet. ReefWave and ReefLED, view only |
 | **Jecod** | Pump mode and intensity, and its day program |
-| **Maxspect** *(beta)* | Mode and speed for **Gyre A** and **Gyre B**, **Pump health** (cleaning countdown, head A current, fitted heads, firmware), and its schedule, view only |
-| **GHL ProfiLux / Mitras** *(beta)* | Probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results |
-| **HYDROS** *(beta)* | Whatever its device key reports: inputs, and with a write key, outputs, modes, dosing heads and tester commands |
+| **Maxspect** *(Beta)* | Mode and speed for **Gyre A** and **Gyre B**, **Pump health** (cleaning countdown, head A current, fitted heads, firmware), and its schedule, view only |
+| **GHL ProfiLux / Mitras** *(Beta)* | Probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results |
+| **HYDROS** *(Beta)* | Whatever its device key reports: inputs, and with a write key, outputs, modes, dosing heads and tester commands |
+| **Focustronic** *(Beta)* | Status, last test, pumps and vials |
+| **EcoTech** *(Beta)* | Radion lights, VorTech pumps and Versa dosers, each with its own page. Commands to VorTech and Versa aren't proven on hardware yet |
+| **Inkbird** *(Beta)* | Room air readings, read only |
+| **Camera** *(Beta)* | A picture from your camera, as a tile on the dashboard or on its own page, with Skimmer Watch on paid plans |
 
 If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
 
@@ -43,7 +47,7 @@ After a manual dose, a head you'd set to Off in Apex Fusion stays Off. Any other
 
 In a head's settings sheet you can set its **use type**. The options are **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, and **Other**. The use type changes two things.
 
-- How big a container it can track. A Supplement head tracks up to 20 litres. Every other use type can track a container of up to 500 litres, so a head running a water change or a calcium reactor isn't treated like a small dosing bottle.
+- How big a container it can track. Every use type can track a container of up to 1,000 litres. Above the Apex's own 150 litre counter, Cora tracks the volume itself, and Cora resets the Apex counter every 100 litres.
 - Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**. A large hand dose also needs **Large doses (Beta)** turned on in the head's settings, off by default: turn it on only after you've watched the first large dose run at the tank.
 
 You can link a water-change pair (new saltwater in, old water out) as a **Paired head** and set a **Balance warning above** amount. If the two heads' totals for the day drift apart by more than that, Cora warns you. A pair that's out of balance usually means one side isn't pumping as it should.
@@ -58,8 +62,8 @@ If the banner won't clear, or keeps coming back, have a look at [Troubleshooting
 
 ## GHL ProfiLux and Mitras
 
-:::note GHL support is in beta
-We're still testing and developing GHL support. Some readings or controls may not work yet, and what you see here may change between updates.
+:::note Beta
+**Beta.** GHL is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
 :::
 
 Connect a GHL controller from your phone: **Devices → Add Device → GHL**. [Connecting your equipment](/help/mobile-connections) has the steps. Cora Max shows and controls it once a Cora Max on its network has read it, but setup itself happens on the phone.
@@ -74,19 +78,27 @@ If the controller won't take a change, its GHL API is probably switched off. GHL
 
 ## HYDROS
 
-:::note HYDROS support is in beta
-We're still testing and developing HYDROS support. Some readings or controls may not work yet, and what you see here may change between updates.
+:::note Beta
+**Beta.** HYDROS is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
 :::
 
 HYDROS is the only integration that reaches its controller through the cloud, so it works even when Cora Max is on a different network than the controller. It's set up only from your phone: **Devices → Add Device → HYDROS**. [Connecting your equipment](/help/mobile-connections) has the steps.
 
 Reading and controlling it works the same as on your phone; see [Controlling your equipment](/help/mobile-device-control) for outputs, modes, dosing heads and tester commands, and for the per-head dose limits.
 
+## EcoTech, Inkbird and cameras
+
+:::note Beta
+**Beta.** EcoTech, Inkbird and cameras are in Beta and only open to Beta users. Cora Max shows them once your account has linked them from your phone. To ask for Beta access, contact [support](/support.html).
+:::
+
+You link these from your phone, and a Cora Max in the tank does the reading. [EcoTech lights, pumps and dosers](/help/mobile-ecotech) covers Radion, VorTech and Versa. An Inkbird room air monitor shows its readings and nothing more. A camera, and Skimmer Watch on paid plans, is described in [Cameras and Skimmer Watch](/help/mobile-cameras). To show a camera on the wall, add a Camera tile in the dashboard editor.
+
 ## Schedules
 
 You can write Jecod pump day programs at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More about this in [Scheduling equipment](/help/mobile-schedules).
 
-You can view a Maxspect gyre's schedule *(beta)* here, but you can't save it. Set it in the Maxspect app.
+You can view a Maxspect gyre's schedule *(Beta)* here, but you can't save it. Set it in the Maxspect app.
 
 ## Outlets
 

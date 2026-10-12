@@ -2,7 +2,7 @@
 title: Leggere la dashboard
 description: Come leggere la dashboard di Cora: widget, aggiornamenti, fonti e significato dei colori.
 section: Cora Mobile
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 5
 group: Your dashboard
 ---
@@ -76,7 +76,11 @@ In fondo alla dashboard trovi:
 
 - **Modifica dashboard**, che apre l'[editor della dashboard](/help/mobile-dashboard-editing)
 - **Registra parametri**, per inserire a mano i risultati dei test
+- **Storico parametri**, per aprire lo storico di qualsiasi parametro che ha dati, anche senza un widget. Vedi [Approfondire un parametro](/help/mobile-metric-detail)
+- **Alimentazione**, per registrare un pasto diverso dalla tua routine. Vedi [Il diario](/help/mobile-journal)
 - **Diario · Avvisi · Manutenzione · Popolazione**, scorciatoie a queste sezioni per la vasca
+
+Su una vasca senza letture e senza attrezzatura collegata, sopra a questi compare una scheda, **Registra il tuo primo test dell’acqua**, che ti aiuta a cominciare. Vedi [Configurare Cora Mobile](/help/mobile-setup).
 
 Una riga sopra indica quando si è aggiornata la dashboard l'ultima volta e quali fonti ha usato.
 

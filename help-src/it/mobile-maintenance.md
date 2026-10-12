@@ -2,7 +2,7 @@
 title: Manutenzione
 description: Lavori ricorrenti con promemoria: pulizia dello schiumatoio, calze filtranti, manutenzione delle pompe.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ Quando colleghi un ReefDose, ReefATO+, ReefMat o ReefRun Red Sea, Cora aggiunge 
 | ReefDose, per testa | Replace ReefDose head tubing | 450 giorni |
 
 Funzionano esattamente come un lavoro che aggiungi tu: puoi rinominarli, cambiare l'intervallo, rinviarli o metterli in pausa. Se ne elimini uno, Cora non lo ricrea per quel dispositivo.
+
+### Testare l'acqua
+
+Se tocchi **Ricordami di testare ogni settimana** sulla scheda del primo test, Cora aggiunge un lavoro settimanale chiamato **Testare l’acqua**, in scadenza nel **Giorno del test** che scegli. Funziona come qualsiasi lavoro che aggiungi tu. Vedi [Configurare Cora Mobile](/help/mobile-setup).
+
+### Da un'automazione
+
+Un'[automazione](/help/mobile-automation) con l'azione **Crea un'attività di manutenzione** può mettere un lavoro in questo elenco quando la sua regola scatta, oppure rendere subito dovuto un lavoro esistente. Uno nuovo è una tantum, da fare subito, ed esce dall'elenco quando lo completi. Finché è ancora aperto, la stessa automazione non ne aggiunge un altro. Ricevi una sola notifica.
 
 ## Promemoria
 

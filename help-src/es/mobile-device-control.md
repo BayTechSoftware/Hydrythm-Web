@@ -2,7 +2,7 @@
 title: Controlar tus equipos
 description: Abre la página de un dispositivo para ver su estado en directo y manejarlo, ya sean tomas, bombas, cabezales de dosificación o equipos de análisis.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 11
 group: Equipment
 ---
@@ -10,6 +10,8 @@ group: Equipment
 Cada equipo conectado tiene su propia página en Cora. Ahí ves su estado en directo y los controles que admite ese dispositivo. Ábrela desde la pestaña **Dispositivos**.
 
 ![Una página de dispositivo](img/mobile-device-detail.webp "Lecturas en vivo en la parte superior, y luego los controles que soporta ese dispositivo.")
+
+Los dispositivos Beta, como las luces, bombas y dosificadoras EcoTech, los equipos Focustronic, los monitores Inkbird y las cámaras, solo están abiertos a los usuarios Beta y tienen sus propias páginas. Consulta [Funciones Beta](/help/mobile-beta).
 
 Todas las páginas de dispositivo tienen el mismo orden. Arriba está la identificación, después una fila de lecturas en directo, luego el estado que informe el dispositivo y al final sus controles. Con la campana de la barra de título fijas umbrales de alerta para ese dispositivo. Más información en [Consumibles](/help/mobile-consumables).
 
@@ -53,7 +55,7 @@ Cada cabezal muestra qué dosifica, su programa, cuánto ha dosificado hoy y cu�
 En cada cabezal puedes:
 
 - **Pausar** y **Reanudar** su programa
-- **Llenar**: indicarle a Cora que el recipiente vuelve a estar lleno, o fijar cuánto contiene
+- **Llenar**: indicarle a Cora que el recipiente vuelve a estar lleno, o fijar cuánto contiene (**Volumen total** es el tamaño del recipiente, **Volumen restante** es lo que contiene ahora y **Lleno** iguala uno al otro)
 - **Dosificar ahora**: dar una dosis manual medida
 
 :::note Los horarios se editan en Apex Fusion
@@ -74,6 +76,8 @@ A cada cabezal se le asigna un **tipo de uso**. Así Cora sabe qué hace y puede
 
 Los dos tipos de cambio de agua van **en pareja**. En el **Cabezal emparejado** de un cabezal, elige el otro, el que mueve el agua en sentido contrario. Cora los tratará como una pareja de cambio de agua y no como dos cabezales sueltos.
 
+Un recipiente puede ser de hasta 1.000 L, con cualquier tipo de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora controla el recipiente por su cuenta a partir de lo que dosifica el cabezal. Indica el **Volumen total** al configurarlo. Cora también restablece de vez en cuando el contador del propio Apex, y Actividad lo muestra como *Reset the Apex's own counter to 150 L*.
+
 Cada cabezal tiene además un límite de **Dosis manual más grande**. Sirve para que un error al escribir una dosis manual no acabe en una dosis mucho mayor de lo previsto. Las dosis manuales grandes solo se pueden usar cuando el caudal del cabezal se ha medido con una prueba real en el acuario, y después de activar **Dosis grandes (Beta)** en los ajustes del cabezal. Está desactivado por defecto: actívalo solo después de haber observado cómo se ejecuta la primera dosis grande junto al acuario.
 
 ## Red Sea ReefBeat
@@ -82,16 +86,16 @@ Cada equipo tiene una página adaptada a lo que es:
 
 | Equipo | La página muestra | Puedes |
 |---|---|---|
-| **ReefDose** | Cada cabezal, su recipiente y cuánto ha dosificado | En cada cabezal: **Dosis por día**, **Restante en la botella**, **Dosificar ahora** y **Activar horario**, además del editor completo de **Plan de dosificación** *(beta)*. Fijar alertas de reposición por cabezal |
+| **ReefDose** | Cada cabezal, su recipiente y cuánto ha dosificado | En cada cabezal: **Dosis por día**, **Restante en la botella**, **Dosificar ahora** y **Activar horario**, además del editor completo de **Plan de dosificación (Beta)**. Fijar alertas de reposición por cabezal |
 | **ReefATO+** | Nivel del depósito y actividad de rellenado | Fijar una alerta del depósito. Preguntar al asistente cuántos días le quedan al depósito |
-| **ReefMat** | Rollo que queda, en días y metros | Avanzar el rollo, fijar una alerta de reposición y, en beta, activar un avance programado, fijar su modelo y la posición del motor, y registrar un rollo nuevo |
-| **ReefRun** | Velocidad y estado de la bomba de retorno y de la del skimmer | Cambiar la velocidad, encender o apagar una bomba, cambiar los ajustes del skimmer y editar un programa de velocidad completo *(beta)* |
-| **ReefControl** *(beta)* | Sus sondas de temperatura, pH, salinidad y ORP | Ver sus lecturas |
-| **ReefWave**, **ReefLED** *(beta)* | Su modo actual | Solo consultarlo, por ahora |
+| **ReefMat** | Rollo que queda, en días y metros | Avanzar el rollo, fijar una alerta de reposición y, en Beta, activar un avance programado, fijar su modelo y la posición del motor, y registrar un rollo nuevo |
+| **ReefRun** | Velocidad y estado de la bomba de retorno y de la del skimmer | Cambiar la velocidad, encender o apagar una bomba, cambiar los ajustes del skimmer y editar un **Programa de la bomba (Beta)** de velocidad completo |
+| **ReefControl** *(Beta)* | Sus sondas de temperatura, pH, salinidad y ORP | Ver sus lecturas |
+| **ReefWave**, **ReefLED** *(Beta)* | Su modo actual | Solo consultarlo, por ahora |
 
-**ReefRun controla la bomba de retorno y la del skimmer.** No es una bomba de circulación. Las tomas de **ReefControl Power** *(beta)* se controlan desde el mismo control de tomas que una toma del Apex, solo encendido o apagado. Todavía no tienen modo automático.
+**ReefRun controla la bomba de retorno y la del skimmer.** No es una bomba de circulación. Las tomas de **ReefControl Power** *(Beta)* se controlan desde el mismo control de tomas que una toma del Apex, solo encendido o apagado. Todavía no tienen modo automático.
 
-## Editar un plan de ReefDose o un programa de ReefRun *(beta)*
+## Editar un plan de ReefDose o un programa de ReefRun *(Beta)*
 
 Toca el icono de calendario en la página de un ReefDose o un ReefRun para abrir su plan.
 
@@ -101,7 +105,7 @@ Un programa de ReefRun tiene hasta seis segmentos en un mismo puerto de bomba. C
 
 Los dos editores leen primero el plan que ya está en el equipo, así que editas el plan real, no un formulario en blanco.
 
-## Ajustes de ReefMat *(beta)*
+## Ajustes de ReefMat *(Beta)*
 
 Toca el engranaje en la página de un ReefMat para tres ajustes más.
 
@@ -136,8 +140,8 @@ También puedes:
 
 ## Maxspect
 
-:::note Maxspect está en beta
-Seguimos probando y desarrollando el soporte para el gyre Maxspect. Algunos controles pueden estar limitados y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support).
+:::note Beta
+**Beta.** Maxspect está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, [contacta con soporte](/support.html). Algunos controles pueden estar limitados y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support). Más información en [Funciones Beta](/help/mobile-beta).
 :::
 
 La página del gyre muestra si está en marcha, el patrón de olas y la velocidad de **Gyre A** y **Gyre B**, y cuándo se leyeron por última vez. Desde ella puedes:
@@ -154,8 +158,8 @@ Si un Cora Max atiende el acuario, Cora Mobile trabaja a través de ese Cora Max
 
 ## GHL ProfiLux y Mitras
 
-:::note GHL está en beta
-Seguimos probando y desarrollando el soporte para GHL. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support).
+:::note Beta
+**Beta.** GHL está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, [contacta con soporte](/support.html). Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support). Más información en [Funciones Beta](/help/mobile-beta).
 :::
 
 La página del controlador muestra sus sondas, tomas, dosificadoras y sensores de nivel, y en los modelos Director, sus resultados de las pruebas de KH e iones.
@@ -183,8 +187,8 @@ Si el controlador rechaza el cambio, revisa que su API de GHL esté activada con
 
 ## HYDROS
 
-:::note HYDROS está en beta
-Seguimos probando y desarrollando el soporte para HYDROS. Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support).
+:::note Beta
+**Beta.** HYDROS está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, [contacta con soporte](/support.html). Algunas lecturas o controles pueden no funcionar todavía, y lo que ves aquí puede cambiar con las actualizaciones. Si algo no funciona como se describe, avísanos desde [Obtener ayuda](/help/mobile-support). Más información en [Funciones Beta](/help/mobile-beta).
 :::
 
 Lo que ves aquí depende de la clave con la que lo enlazaste. Una clave **Read** te da solo sus entradas. Una clave **Write** añade salidas, modos, dosificación y órdenes de analizador, además de un aviso en la página que te recuerda qué tipo de clave tienes.

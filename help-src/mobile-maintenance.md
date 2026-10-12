@@ -2,7 +2,7 @@
 title: Maintenance
 description: Recurring jobs with reminders, like cleaning the skimmer, changing filter socks and servicing pumps.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 19
 group: Records
 ---
@@ -54,6 +54,14 @@ When you connect a Red Sea ReefDose, ReefATO+, ReefMat or ReefRun, Cora adds the
 | ReefDose, per head | Replace ReefDose head tubing | 450 days |
 
 They work exactly like any task you add yourself: rename them, change the interval, snooze or pause them. If you delete one, Cora won't add it back for that device.
+
+### Test water
+
+If you tap **Remind me to test every week** on the first-test card, Cora adds a weekly task called **Test water**, due on the **Test day** you pick. It works like any task you add yourself. See [Setting up Cora Mobile](/help/mobile-setup).
+
+### From an automation
+
+An [automation](/help/mobile-automation) with the action **Create a Maintenance Task** can put a job on this list when its rule fires, or make an existing task due now. A new one is a one-off, due now, and it leaves the list when you complete it. While it's still open, the same automation doesn't add another. You get one notification.
 
 ## Reminders
 

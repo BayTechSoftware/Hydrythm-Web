@@ -2,7 +2,7 @@
 title: Notifications
 description: Choisissez ce qui arrive sur votre téléphone, et où retrouver ce que vous avez manqué.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 16
 group: Alerts and automation
 ---
@@ -18,7 +18,7 @@ Chaque catégorie s’active séparément.
 | Catégorie | Concerne |
 |---|---|
 | **Alertes de paramètres** | La chimie de l’eau sort d’une plage que vous avez réglée |
-| **Rappels d’entretien** | Les tâches que vous avez programmées, comme les changements d’eau |
+| **Rappels d’entretien** | Les tâches que vous avez programmées, comme les changements d’eau, et un rappel unique pour enregistrer votre premier test quand un nouvel aquarium n’a toujours aucune mesure après trois jours |
 | **Pannes d’équipement** | Un appareil signale un problème, par exemple un Trident qui ne fait plus ses tests |
 | **Consommables bientôt épuisés** | Réactif, eau d’appoint, bidons de dosage, et bouteille de déchets pleine |
 | **Rapport ICP prêt** | Vos résultats ICP sont analysés et prêts à lire |

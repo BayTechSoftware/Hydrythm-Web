@@ -2,7 +2,7 @@
 title: Rodzaje widżetów
 description: Wszystkie typy widżetów w Corze (wartość, wskaźnik, wykres, stan, gniazdo i kafelki urządzeń) i kiedy których używać.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Widżety dodajesz i układasz w **[edytorze pulpitu](/help/mobile-dashboard-edit
 
 ![Ustawienia widżetu](img/mobile-widget-config.webp "Typ, parametr, a potem szerokość i wysokość.")
 
-## Jedenaście typów
+## Szesnaście typów
 
 | Typ | Co pokazuje |
 |---|---|
@@ -22,14 +22,23 @@ Widżety dodajesz i układasz w **[edytorze pulpitu](/help/mobile-dashboard-edit
 | **Wykres** | Trend w wybranym okresie |
 | **Stan** | Stan opisany słowem: pracuje, bezczynny, zamknięty |
 | **Gniazdo** | Przełącznik z trzema pozycjami: AUTO, WYŁ., WŁ. |
+| **Scena** | Scena, którą uruchamiasz jednym dotknięciem. Dodajesz ją na Cora Max |
 | **ReefBeat** | Jedno urządzenie Red Sea z jego własnym podsumowaniem |
 | **Moduł Apex** | Jeden zamontowany moduł Apex, np. Trident albo DŌS |
 | **Jecod** | Jedna pompa Jecod z trybem i intensywnością |
-| **Maxspect** *(beta)* | Jeden gyre z oboma silnikami |
-| **GHL** *(beta)* | Jeden kontroler ProfiLux albo Mitras z własnym podsumowaniem |
-| **HYDROS** *(beta)* | Jeden kontroler HYDROS z własnym podsumowaniem |
+| **Maxspect** *(Beta)* | Jeden gyre z oboma silnikami |
+| **GHL** *(Beta)* | Jeden kontroler ProfiLux albo Mitras z własnym podsumowaniem |
+| **HYDROS** *(Beta)* | Jeden kontroler HYDROS z własnym podsumowaniem |
+| **Radion** *(Beta)* | Jedna lampa EcoTech Radion albo połączona sieć Radion |
+| **VorTech** *(Beta)* | Jedna pompa EcoTech VorTech z trybem i prędkością |
+| **Versa** *(Beta)* | Jeden dozownik EcoTech Versa z głowicami |
+| **Kamera** *(Beta)* | Podgląd na żywo z jednej z Twoich kamer, do trzech kolumn szerokości i dwóch rzędów wysokości |
 
-Ostatnie sześć to kafelki **urządzeń**. Są powiązane z konkretnym sprzętem, a nie z parametrem, i pokazują to, co zgłasza dane urządzenie.
+Wszystko po Scenie to kafelki **urządzeń**. Są powiązane z konkretnym sprzętem, a nie z parametrem, i pokazują to, co zgłasza dane urządzenie.
+
+:::note Kafelki Beta
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech i Versa) oraz Kamera to integracje Beta, dostępne tylko dla użytkowników Beta. Te kafelki widzisz dopiero wtedy, gdy masz dane urządzenie. Zobacz [Funkcje Beta](/help/mobile-beta).
+:::
 
 ## Rozmiar
 
@@ -97,6 +106,12 @@ Jeden kafelek dla całego urządzenia. Pokazuje jego własne podsumowanie, a nie
 To, które urządzenia mają swój kafelek, zależy od podłączonego sprzętu. Więcej w **[Podłączaniu sprzętu](/help/mobile-connections)**.
 
 Ustawienia: etykieta, wybór urządzenia, rozmiar.
+
+## Kafelki dozowników
+
+Kafelek dozownika (Apex DŌS, ReefDose albo EcoTech Versa) pokazuje jeden wiersz na głowicę. Nazwa głowicy nigdy nie jest zmniejszana poniżej czytelnego rozmiaru. Na wysokim kafelku wiersz zajmuje dwie linie, z nazwą w pierwszej i tym, co zostało, w drugiej, na przykład *40d* i *2.8 L*. Na niskim kafelku linia ze szczegółami jest pomijana, a nazwa pozostaje czytelna.
+
+Ustaw, co jest pierwsze, w **Pokaż pozostałe jako**: **Dni** albo **Mililitry (mL)**. Głowica ReefDose bez własnej nazwy jest pokazana jako nazwa urządzenia, potem „head” i jej numer. Kafelek dozownika Jecod jest tylko do odczytu i pokazuje plan dzienny, bo Jecod nie zgłasza, ile zostało w butelce.
 
 ## Co pokazuje widżet parametru
 

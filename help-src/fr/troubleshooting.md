@@ -2,7 +2,7 @@
 title: Résolution de problèmes
 description: Les mesures ne bougent plus, un appareil est hors ligne, une alerte ne se ferme pas, ou quelque chose semble anormal. Commencez ici.
 section: Help
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 ---
 
@@ -24,6 +24,20 @@ L’âge affiché est exact : rien de nouveau n’est arrivé.
 - **Un paramètre saisi à la main** vieillit si vous n’avez pas saisi de nouvelle mesure. Saisissez-en une.
 - **Une mesure d’équipement** qui vieillit veut dire que l’appareil n’envoie plus rien. Regardez sa ligne dans **Appareils**.
 - **Certains équipements sont lents par nature.** Un titrateur qui mesure toutes les heures affiche normalement `1h`. Ce n’est pas une panne.
+
+## « [Appareil] : ne se signale plus »
+
+Cora envoie ce message quand un appareil devient silencieux. Cela ne veut pas dire que l’appareil est en panne, seulement que Cora n’a rien reçu de lui depuis un moment.
+
+- Un Neptune Apex ou un appareil Red Sea ReefBeat est considéré silencieux après environ 30 minutes. AquaWiz met environ 3 heures.
+- Une pompe Jecod ou Maxspect est considérée silencieuse après trois mesures manquées de suite, comptées sur l’intervalle de mesure propre à l’appareil.
+- Un appareil EcoTech ou un moniteur Inkbird, tous deux en Beta, est lui aussi considéré silencieux après trois mesures manquées de suite, comptées sur l’intervalle de mesure que vous avez réglé. Les réseaux EcoTech composés uniquement de lampes sont lus toutes les 30 minutes par défaut : comptez au moins 90 minutes.
+
+1. Vérifiez l’alimentation de l’appareil et sa portée Wi-Fi ou Bluetooth.
+2. Vérifiez que le Cora Max qui le lit est allumé et en ligne.
+3. Attendez la prochaine mesure. Vous recevez une deuxième notification dès qu’il se signale de nouveau.
+
+Plus de détails dans [Alertes et seuils](/help/mobile-alerts). Les appareils Beta sont expliqués dans [Fonctions Beta](/help/mobile-beta).
 
 ## Un appareil est injoignable
 
@@ -57,6 +71,15 @@ Regardez l’étiquette d’état dans la barre du haut. **En ligne** et **Cloud
 - Vérifiez le Wi-Fi dans **Réglages → Réglages Cora Max → Wi-Fi**
 - Vérifiez que le réseau lui-même fonctionne
 - Si l’étiquette affiche **En ligne** ou **Cloud** et que les données restent anciennes, le problème vient d’avant Cora Max. Regardez le même aquarium sur votre téléphone
+
+## Cora Max affiche « Enregistrement cloud refusé »
+
+Cette étiquette dans la barre du haut veut dire que Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne cloche avec votre aquarium ni avec Cora Max, et il n’y a rien à changer sur l’écran. La solution est une mise à jour de Cora Cloud.
+
+1. Ouvrez **Réglages → Réglages Cora Max → Mise à jour du micrologiciel** et regardez la section **État**. La ligne **Enregistrement cloud** indique quelles données sont refusées, par exemple les mesures ou les prises d’un appareil.
+2. [Contactez le support](/support.html) et dites-nous ce que cette ligne indique.
+
+Vos mesures continuent de s’afficher sur Cora Max en attendant. Elles ne sont simplement pas enregistrées dans votre compte tant que la correction n’est pas là.
 
 ## Une alerte ne se ferme pas
 
@@ -104,6 +127,8 @@ Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.te
 
 ## « API GHL désactivée »
 
+GHL est une intégration Beta. Voir [Fonctions Beta](/help/mobile-beta).
+
 GHL désactive son API officielle après chaque mise à jour du micrologiciel, c’est donc normal après une mise à jour, pas une panne. Réactivez-la depuis **Système → API GHL** dans GHL Control Center ou GHL Connect, sur le contrôleur lui-même. Cora continue de vérifier et se reconnecte tout seul une fois qu’elle est de nouveau activée.
 
 ## « Contrôleur GHL injoignable »
@@ -143,7 +168,7 @@ Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.te
 
 ## « Impossible d’atteindre cette pompe de brassage. Aucun nourrissage n’a été démarré. »
 
-Une pompe de brassage Maxspect (intégration en bêta) n’a pas répondu quand Cora a voulu y lancer le mode nourrissage.
+Une pompe de brassage Maxspect (intégration en Beta) n’a pas répondu quand Cora a voulu y lancer le mode nourrissage.
 
 1. Vérifiez que la pompe de brassage est allumée et connectée à son réseau.
 2. Touchez **Réessayer**.
@@ -152,7 +177,7 @@ Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.te
 
 ## « Impossible d’atteindre cette pompe de brassage. Son programme n’a pas été modifié. »
 
-Le programme envoyé à une pompe de brassage Maxspect (intégration en bêta) n’a pas pu l’atteindre.
+Le programme envoyé à une pompe de brassage Maxspect (intégration en Beta) n’a pas pu l’atteindre.
 
 1. Vérifiez que votre téléphone ou Cora Max est sur le même réseau que la pompe de brassage.
 2. Touchez **Réessayer** depuis l’écran du programme.
@@ -299,7 +324,7 @@ Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.te
 
 Ce n’est pas un problème de données, mais le réglage des unités d’affichage de l’aquarium. Les valeurs sont stockées de la même façon, quelle que soit l’unité affichée.
 
-1. Ouvrez les **Réglages** de cet aquarium et vérifiez ses unités d’affichage.
+1. Ouvrez **Réglages**, ouvrez cet aquarium et choisissez **Unités**.
 2. Changez-les à cet endroit. Tous les téléphones et Cora Max qui affichent cet aquarium suivent.
 
 Si le problème continue, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

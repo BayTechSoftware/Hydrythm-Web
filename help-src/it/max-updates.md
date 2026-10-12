@@ -2,7 +2,7 @@
 title: Aggiornamenti e ripristino
 description: Come si aggiorna Cora Max e cosa succede se un aggiornamento va storto.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-12
 order: 14
 group: Settings
 ---
@@ -24,7 +24,9 @@ In **Impostazioni → Impostazioni Cora Max → Aggiornamento firmware** (nella 
 Compare un messaggio con le novità e due scelte:
 
 - **Aggiorna ora**: installa subito e riavvia
-- **Rinvia 3 ore**: te lo richiede più tardi
+- **Rinvia di 24 ore**: nasconde il messaggio e te lo richiede un giorno dopo
+
+Mentre un aggiornamento è in attesa, un puntino compare sull'icona **Impostazioni** nella barra in alto e sulla riga **Aggiornamento firmware**. Il puntino resta anche dopo il rinvio, così vedi comunque che c'è un aggiornamento. Sparisce mentre l'aggiornamento si installa.
 
 Se non fai niente, l'aggiornamento si installa da solo di notte, più o meno tra le 3 e le 5. Così lo schermo non si riavvia mentre lo stai guardando.
 

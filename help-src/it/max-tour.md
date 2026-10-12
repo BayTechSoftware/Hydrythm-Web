@@ -2,7 +2,7 @@
 title: La schermata Home di Cora Max
 description: Cosa vuol dire tutto quello che vedi sullo schermo di Cora Max: la barra in alto, la griglia della dashboard e il cassetto delle prese.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-12
 order: 2
 group: Getting started
 ---
@@ -38,6 +38,7 @@ Da sinistra a destra:
 | **Non aggiornato** | Le letture non arrivano più. Lo schermo mostra l'ultima ricevuta |
 | **Nuovo tentativo Apex 12s** | Il tuo Apex non ha risposto. Cora Max riprova alla fine del conto alla rovescia |
 | **Sincronizzazione cloud non riuscita** | L'Apex ha risposto, ma non è stato possibile salvare le letture su Cora Cloud, quindi la dashboard resta indietro. Cora Max continua a riprovare |
+| **Salvataggio cloud rifiutato** | Cora Cloud si rifiuta di salvare alcuni dati di questo schermo. Non c'è niente che non va nella tua vasca o in Cora Max, e non serve cambiare niente su questo schermo. La soluzione è un aggiornamento di Cora Cloud. Apri **Impostazioni → Impostazioni Cora Max → Aggiornamento firmware** e guarda la sezione **Stato**, dove la riga **Salvataggio cloud** dice quali dati sono interessati. Poi [contatta il supporto](/support.html) |
 | **Offline** | Nessuna connessione. Lo schermo mostra gli ultimi dati ricevuti |
 | **Offline, nuovo tentativo in 45s** | La tua rete funziona, ma Cora Cloud non si raggiunge da più di 30 secondi. Cora Max si ricollega da solo. Il conto alla rovescia indica quando riprova |
 | **Cora principale offline** | Questo schermo è un secondo Cora Max per la vasca, e il **Cora Max principale** (quello scelto per leggere l'attrezzatura della vasca) è andato offline. Lo schermo continua a mostrare gli ultimi dati finché il principale non torna, o finché non scegli un altro Cora Max principale. Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device) |
@@ -73,10 +74,12 @@ Tocca il nome della vasca per aprire il menu della vasca che hai sullo schermo:
 | **Report di salute** | Le valutazioni di salute |
 | **Manutenzione** | L'[elenco delle attività](/help/mobile-maintenance) |
 | **Report ICP** | I [risultati di laboratorio](/help/mobile-icp-health) caricati |
-| **Avvisi** | L'intervallo sano di ogni parametro della vasca |
+| **Storico parametri** | Scegli un parametro che ha dati e apri il suo [grafico](/help/max-intelligence) |
+| **Soglie di avviso** | L'intervallo sano di ogni parametro della vasca |
 | **Popolazione** | L'[inventario](/help/mobile-livestock) della vasca, in sola lettura su questo schermo |
 | **Attività** | [Ogni presa, alimentazione e dose](/help/max-activity), e com'è andata |
 | **Layout dashboard** | [Sistema i widget su questo schermo](/help/max-dashboard-editing) |
+| **Unità** | Le unità di misura con cui questa vasca mostra le letture |
 | **Impostazioni vasca** | Tutte le impostazioni della vasca |
 
 ## Cambiare vasca

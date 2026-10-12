@@ -83,8 +83,11 @@
 <li><a href="/pl/help/mobile-connections">Podłączanie sprzętu</a></li>
 <li><a href="/pl/help/mobile-device-control">Sterowanie sprzętem</a></li>
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
-<li><a href="/pl/help/mobile-probes">Sondy</a></li>
+<li><a href="/pl/help/mobile-probes">Mapowanie parametrów</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne</a></li>
+<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
+<li><a href="/pl/help/mobile-cameras">Kamery i czuwanie skimmera</a></li>
+<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Alerty i automatyzacja</summary><ul>
@@ -194,9 +197,12 @@
 <ul><li><strong>Dzwonek</strong> w prawym górnym rogu każdego ekranu przechowuje historię. Liczba przy nim to alerty, których jeszcze nie przeczytano.</li><li><strong>Powiadomienia push</strong> przychodzą na telefon, jeśli na nie pozwolisz.</li><li><strong>Widżet</strong> na pulpicie zmienia kolor na bursztynowy albo czerwony.</li><li><strong>Cora Max</strong> pokazuje te same alerty na dużym ekranie.</li></ul>
 <h2 id="gdy-sprzt-wymaga-uwagi">Gdy sprzęt wymaga uwagi</h2>
 <p>Część alertów dotyczy sprzętu, a nie odczytu. Gdy urządzenie, np. Trident albo pompa Jecod™, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, np. <em>„Akwarium główne: Pompa powrotna wymaga uwagi”</em>, i podaje, co się stało, np. zablokowany wirnik. Gdy usterka minie, przychodzi drugie powiadomienie: <em>„Akwarium główne: Pompa powrotna znów działa poprawnie”</em>. Oba należą do kategorii <strong>Awarie sprzętu</strong> w <strong>Ustawienia → Powiadomienia</strong>.</p>
-<p>Gyre Maxspect™ (beta) może wywołać ten sam alert, gdy Cora Max w jego sieci wykryje obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza gyre co jakiś czas, nie bez przerwy. Robi to tylko wtedy, gdy działa i ma połączenie z gyre.</p>
+<p>Gyre Maxspect™ (Beta) może wywołać ten sam alert, gdy Cora Max w jego sieci wykryje obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza gyre co jakiś czas, nie bez przerwy. Robi to tylko wtedy, gdy działa i ma połączenie z gyre.</p>
 <h2 id="urzdzenie-przestao-si-zgasza">Urządzenie przestało się zgłaszać</h2>
-<p>Gdy Neptune™ Apex, urządzenie Red Sea™ ReefBeat, AquaWiz™, pompa Jecod albo gyre Maxspect ucichną, Cora informuje o tym: <em>„[Urządzenie]: przestało się zgłaszać”</em>. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony. Większość sprzętu dostaje ten alert po około 30 minutach bez aktualizacji. AquaWiz odpytuje rzadziej, więc czeka około 3 godzin. Gdy urządzenie znów zacznie się zgłaszać, przychodzi drugie powiadomienie.</p>
+<p>Gdy Neptune™ Apex, urządzenie Red Sea™ ReefBeat, AquaWiz™, pompa Jecod, gyre Maxspect, urządzenie EcoTech™ albo monitor powietrza w pomieszczeniu Inkbird™ ucichną, Cora informuje o tym: <em>„[Urządzenie]: przestało się zgłaszać”</em>. Sprawdź zasilanie urządzenia, jego Wi-Fi (albo zasięg Bluetooth) oraz to, czy Cora Max, który je odczytuje, jest włączony. Gdy urządzenie znów zacznie się zgłaszać, przychodzi drugie powiadomienie.</p>
+<p>Jak długo Cora czeka, zależy od urządzenia.</p>
+<ul><li>Neptune Apex i Red Sea ReefBeat: około 30 minut bez aktualizacji.</li><li>AquaWiz: około 3 godzin, bo odpytuje rzadziej.</li><li>Jecod i Maxspect: trzy brakujące odczyty z rzędu, liczone według własnego interwału odczytu urządzenia.</li><li>EcoTech i Inkbird: trzy brakujące odczyty z rzędu, liczone według interwału, który ustawiasz dla tej sieci albo tego monitora.</li></ul>
+<p>Maxspect, EcoTech i Inkbird to integracje Beta, które mogą dodawać tylko użytkownicy Beta. Zobacz <a href="/pl/help/mobile-beta">Funkcje Beta</a>.</p>
 <p>Alert ten należy do kategorii <strong>Awarie sprzętu</strong> w <strong>Ustawienia → Powiadomienia</strong>, razem z alertami usterek opisanymi wyżej.</p>
 <h2 id="odczyty-red-sea-przestay-si-aktualizowa">„Odczyty Red Sea przestały się aktualizować”</h2>
 <p>Na stronie parametru akwarium może pojawić się taki baner:</p>
@@ -220,7 +226,7 @@
 <p>Otwórz regułę w zakładce <strong>Reguły</strong> w Centrum alertów i wyłącz jej <strong>przełącznik</strong>. Reguła i zakres zostają zapisane, więc możesz ją później włączyć bez ustawiania od nowa.</p>
 <aside class="cal cal-warning"><p class="cal-t">Wycisz parametr, ale nie usuwaj zakresu</p><p>Usunięcie progu nie zawsze kończy ocenę odczytu. Domyślne zakresy odniesienia nadal nadają wartości kolor i mogą trafiać do briefingu. Użyj przełącznika reguły.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/pl/help/mobile-consumables"><span>Poprzedni</span><b>Materiały eksploatacyjne</b></a><a class="pn-n" href="/pl/help/mobile-notifications"><span>Następny</span><b>Powiadomienia</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.80 i Cora Mobile 0.5.81. Ostatnio sprawdzono 2026-09-30.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.165 i Cora Mobile 0.5.109. Ostatnio sprawdzono 2026-10-12.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>

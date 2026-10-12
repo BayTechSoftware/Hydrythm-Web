@@ -2,7 +2,7 @@
 title: Tipos de widget
 description: Los tipos de widget de Cora (valor, medidor, gráfico, estado, toma y las casillas de dispositivo) y cuándo te conviene cada uno.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 7
 group: Your dashboard
 ---
@@ -13,7 +13,7 @@ Los añades y los colocas en [el editor del panel](/help/mobile-dashboard-editin
 
 ![Configurar un widget](img/mobile-widget-config.webp "Tipo, parámetro, y luego ancho y alto.")
 
-## Los once tipos
+## Los dieciséis tipos
 
 | Tipo | Muestra |
 |---|---|
@@ -22,14 +22,23 @@ Los añades y los colocas en [el editor del panel](/help/mobile-dashboard-editin
 | **Gráfico** | La tendencia en el periodo que elijas |
 | **Estado** | Un estado en texto, como en marcha, inactivo o cerrado |
 | **Toma** | Un control de tres posiciones: Auto, Apagado, Encendido |
+| **Escena** | Una escena que ejecutas con un toque. Se añade en Cora Max |
 | **ReefBeat** | Un equipo Red Sea, con su propio resumen |
 | **Módulo del Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
 | **Jecod** | Una bomba Jecod, con su modo y su intensidad |
-| **Maxspect** *(beta)* | Un gyre, con sus dos motores |
-| **GHL** *(beta)* | Un controlador ProfiLux o Mitras, con su propio resumen |
-| **HYDROS** *(beta)* | Un controlador HYDROS, con su propio resumen |
+| **Maxspect** *(Beta)* | Un gyre, con sus dos motores |
+| **GHL** *(Beta)* | Un controlador ProfiLux o Mitras, con su propio resumen |
+| **HYDROS** *(Beta)* | Un controlador HYDROS, con su propio resumen |
+| **Radion** *(Beta)* | Una luz EcoTech Radion, o una malla de Radion vinculada |
+| **VorTech** *(Beta)* | Una bomba EcoTech VorTech, con su modo y su velocidad |
+| **Versa** *(Beta)* | Una dosificadora EcoTech Versa, con sus cabezales |
+| **Cámara** *(Beta)* | Una vista en directo de una de tus cámaras, de hasta tres columnas de ancho y dos filas de alto |
 
-Los seis últimos son casillas de **dispositivo**. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.
+Todo lo que va después de Escena son casillas de **dispositivo**. Cada una va ligada a un equipo, no a un parámetro, y muestra lo que ese equipo informe.
+
+:::note Casillas Beta
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech y Versa) y Cámara son integraciones Beta, abiertas solo a los usuarios Beta. Solo ves estas casillas cuando ya tienes el dispositivo. Consulta [Funciones Beta](/help/mobile-beta).
+:::
 
 ## Tamaño
 
@@ -97,6 +106,12 @@ Una casilla para un equipo completo, con su propio resumen. Por ejemplo, el esta
 Los dispositivos que tienen casilla dependen de lo que hayas conectado. Lo tienes en [Conectar tus equipos](/help/mobile-connections).
 
 Puedes cambiar la etiqueta, el dispositivo y el tamaño.
+
+## Casillas de dosificadora
+
+La casilla de una dosificadora (un DŌS de Apex, una ReefDose o una Versa de EcoTech) muestra una fila por cabezal. El nombre de un cabezal nunca se reduce por debajo de un tamaño legible. En una casilla alta, la fila ocupa dos líneas, con el nombre en la primera y lo que queda en la segunda, por ejemplo *40d* y *2.8 L*. En una casilla baja se quita la línea de detalle y el nombre se mantiene legible.
+
+Elige qué va primero con **Mostrar lo restante como**: **Días** o **Mililitros (mL)**. Un cabezal ReefDose sin nombre propio se muestra como el nombre del dispositivo seguido de "head" y su número. La casilla de una dosificadora Jecod es de solo lectura y muestra el plan diario, porque Jecod no informa de cuánto queda en la botella.
 
 ## Qué muestra un widget de parámetro
 

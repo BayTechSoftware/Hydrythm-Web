@@ -2,7 +2,7 @@
 title: Configurer Cora Mobile
 description: Installez Cora, créez votre compte, ajoutez votre premier aquarium et voyez s’afficher vos premières mesures.
 section: Cora Mobile
-reviewed: 2026-09-30
+reviewed: 2026-10-12
 order: 1
 group: Getting started
 ---
@@ -60,6 +60,19 @@ Certains paramètres ne se mesurent qu’avec un test en kit. Faites défiler ju
 ![Enregistrer les paramètres](img/mobile-logparams.webp "Saisissez les résultats de test en kit pour tout paramètre suivi par l’aquarium.")
 
 Chaque mesure est enregistrée avec sa source, sa date et son heure. C’est grâce à cela que Cora peut vous signaler un désaccord entre une sonde et un test en kit.
+
+### La carte du premier test
+
+Un aquarium sans mesure et sans équipement associé affiche en haut du tableau de bord une carte, **Enregistrez votre premier test d’eau**. Une mesure suffit pour que Reef Buddy, les alertes et les observations commencent à travailler pour vous. Cora propose la même étape juste après la création d’un aquarium. Touchez la carte et choisissez l’une de ces options.
+
+- **Enregistrer les résultats maintenant** ouvre le formulaire **Enregistrer les paramètres**.
+- **Associer un appareil (Apex ou Red Sea)** ouvre le parcours d’ajout d’appareil. Si le profil de votre aquarium indique déjà un appareil que Cora peut associer, la carte le nomme à la place, par exemple *Connectez votre Neptune Apex*.
+- **Plus tard** ferme la feuille.
+- **Me rappeler de tester chaque semaine** ajoute une tâche d’entretien hebdomadaire appelée **Tester l’eau**. Choisissez d’abord le **Jour du test**.
+
+Touchez la croix de la carte pour la masquer. La carte disparaît d’elle-même dès que l’aquarium a une mesure ou une source associée. Cora Max affiche aussi **Enregistrer votre premier test** sur un aquarium sans données.
+
+Si un aquarium n’a toujours aucune mesure trois jours après sa création, Cora envoie un seul rappel push. Si aucun de vos aquariums n’a de mesure, Cora envoie aussi un court e-mail aux jours 3 et 10 après votre inscription, une fois chacun. Les deux suivent votre réglage **Rappels d’entretien** dans **Réglages → Notifications**, et l’e-mail contient une ligne qui explique comment l’arrêter.
 
 ## Comment savoir que tout est prêt
 
