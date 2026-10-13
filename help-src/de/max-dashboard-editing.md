@@ -2,7 +2,7 @@
 title: Das Cora Max-Dashboard bearbeiten
 description: Raster wählen, Widgets hinzufügen und Layouts für den Cora Max-Bildschirm speichern.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ Mit **Steckdosen & Füttern** fügst du alle schaltbaren Steckdosen und Fütteru
 Die sechzehn Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* und Kamera *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
 
 Die Beta-Kacheln gehören zu Beta-Anbindungen, die nur Beta-Nutzer hinzufügen können, und du siehst eine erst, wenn du das Gerät hast. Siehe [Beta-Funktionen](/help/mobile-beta).
+
+## Vorlagen
+
+**Vorlagen** steht oben im Editor neben **Mit KI gestalten**. Die Funktion steht in jedem Tarif zur Verfügung und nutzt nie KI, sie funktioniert also auch ohne Datenfreigabe für KI.
+
+Sie öffnet **Dashboard-Vorlagen**, ein paar fertige Layouts, die aus dem entstehen, was dieses Becken meldet und verknüpft hat:
+
+- **Übersicht**: wenige große Kacheln, mit den wichtigsten Werten als Anzeigen und deinen Hauptgeräten
+- **Ausrüstung**: zuerst eine Kachel pro Gerät, dann Steckdosen und die wichtigsten Werte
+- **Wasserwerte**: Diagramme und Messwerte zuerst, Geräte und Steckdosen zuletzt
+- **Kamera**: eine große Live-Ansicht oben links, daneben die wichtigsten Werte. Sie erscheint nur, wenn das Becken eine Kamera hat. Kameras sind in der Beta und nur für Beta-Nutzer verfügbar.
+
+Jede Vorlage zeigt eine Vorschau und wie viele Kacheln sie auf welchem Raster hat. Tippe auf **Verwenden**. Cora fragt zuerst **Dashboard ersetzen?** Tippe auf **Aktuelles zuerst als Preset sichern**, wenn du dein jetziges Layout behalten willst, oder auf **Ersetzen**. Gespeichert wird erst, wenn du auf **Speichern** tippst.
 
 ## Mit KI gestalten
 

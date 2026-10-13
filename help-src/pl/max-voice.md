@@ -2,7 +2,7 @@
 title: Rozmowa z Corą na Cora Max
 description: Sterowanie głosem na Cora Max: jak zacząć rozmowę, o co pytać i jak działają potwierdzenia.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 12
 group: Intelligence
 ---
@@ -26,6 +26,8 @@ W tej samej sekcji **Dźwięk i głos** w **Wyjście audio** wybierzesz wbudowan
 Jeśli masz w domu kilka Cora Max, na frazę aktywującą odpowiada tylko jeden z nich. To **Urządzenie odpowiadające**. Wybierasz je niezależnie od urządzenia, które odpytuje Twój sprzęt (**Główne Cora Max**, więcej w [Urządzenia i ich stan](/help/max-devices)).
 
 Zmienisz je w **Ustawienia → Cora Assistant** na dowolnym Cora Max albo w Cora Mobile. To ustawienie dotyczy całego domu, a nie pojedynczego ekranu.
+
+Frazy „Hey Cora” nasłuchuje tylko **Urządzenie odpowiadające**. Pozostałe ekrany Cora Max nie nasłuchują, dopóki jest ono online. Jeśli przejdzie w tryb offline albo nie było widziane dłużej niż 15 minut, nasłuchiwanie przejmuje inny Cora Max i przestaje, gdy tamto wróci. Przełączenie trwa około minuty, więc jeśli tuż po nim nikt nie odpowie na „Hey Cora”, powiedz to jeszcze raz albo dotknij ikony **Cora Assistant**.
 
 :::note Sesja zaczyna się w chwili dotknięcia
 Cora Assistant od razu zaczyna sesję i nie prosi o potwierdzenie. Jeśli dotkniesz ikony przez przypadek, zatrzymaj sesję. Nic nie przepadnie.

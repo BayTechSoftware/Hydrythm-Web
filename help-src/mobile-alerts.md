@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the range for each parameter, choose what you're told about, and see why an alert fired.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ Each active alert shows the parameter and tank, the reading that set it off, a s
 
 Each one has two buttons:
 
-- **View rule** opens the rule behind it, so you can adjust the range.
+- **View rule** opens the rule behind it, so you can adjust the range. On a doser alert, such as a DŌS or ReefDose head running low or a missed dose, this button is **Open doser** instead. It opens that doser's page with its alerts.
 - **Explain this alert** asks the Assistant to read it against your tank's history.
+
+## The Rules tab
+
+Rules are grouped by parameter. Each rule has its own on/off switch on its row, so you can turn one off without opening it. Tap a row to change its range or cooldown.
+
+A dosing head's rules are named after the head and what they watch, for example *Iodine · days left* or *Iodine · remaining*. A missed dose shows up as *Iodine · missed dose*.
+
+Each DŌS and each ReefDose has one row of its own here. Its head alerts aren't listed one by one. Tap the row to open that doser's page with its alerts. See [Doser alerts](/help/mobile-device-control#doser-alerts).
+
+If some of Cora's recommended rules are missing, **Add recommended rules** at the bottom adds them. It skips any parameter that already has a rule. **Add Custom Rule** sets up a rule of your own.
 
 ## Setting a range
 
@@ -123,10 +133,12 @@ One out-of-range reading is enough to raise an alert, so a probe that spikes wil
 
 Sometimes the reading is wrong and the tank is fine, for example when a probe needs calibrating. Fix the source in that case. If you widen a threshold to silence a bad probe, you'll miss the next real problem too.
 
-## Disabling alerts for a parameter
+## Turning an alert off
 
-Open the rule in the **Rules** tab of the Alert Center and turn off its enable switch. Cora keeps the rule and its range, so you can switch it back on without setting it up again.
+Turn off the switch on the rule's row in the **Rules** tab of the Alert Center. Cora keeps the rule and its range, so you can switch it back on without setting it up again.
+
+While a rule is off, Cora doesn't grade that reading. Its widget stays neutral grey and it never raises an alert.
 
 :::warning Turn a parameter off without deleting its range
-Removing a threshold doesn't always stop Cora assessing that reading. Default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.
+Removing a threshold doesn't always stop Cora assessing that reading. Default reference bands still colour the value and can still feed the briefing. Use the rule's switch.
 :::

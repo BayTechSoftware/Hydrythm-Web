@@ -2,7 +2,7 @@
 title: Modificare la dashboard di Cora Max
 description: Scegli una griglia, aggiungi i widget e salva i layout per lo schermo di Cora Max.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ In alto l'editor ti ricorda i tre gesti: **tocca un riquadro per modificarlo**, 
 I sedici tipi di riquadro (Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* e Telecamera *(Beta)*) sono descritti nella [Guida di riferimento ai widget](/help/mobile-widgets).
 
 I riquadri Beta appartengono a integrazioni Beta che solo gli utenti Beta possono aggiungere, e ne vedi uno solo quando hai il dispositivo. Vedi [Funzioni Beta](/help/mobile-beta).
+
+## Modelli
+
+**Modelli** si trova accanto a **Progetta con l'IA**, in alto nell'editor. È disponibile con tutti i piani e non usa mai l'IA, quindi funziona anche senza la condivisione dei dati con l'IA.
+
+Apre **Modelli di dashboard**, alcuni layout già pronti costruiti in base a ciò che questa vasca riporta e ha collegato:
+
+- **Panoramica**: pochi riquadri grandi, con i parametri principali come indicatori e i tuoi dispositivi principali
+- **Attrezzatura**: prima un riquadro per ogni dispositivo, poi prese e parametri principali
+- **Parametri**: prima grafici e letture, dispositivi e prese in fondo
+- **Fotocamera**: una grande vista dal vivo in alto a sinistra, con accanto i parametri principali. Compare solo se la vasca ha una telecamera. Le telecamere sono in Beta e disponibili solo per gli utenti Beta.
+
+Ogni modello mostra un'anteprima e quanti riquadri ha su quale griglia. Tocca **Usa questo**. Prima Cora ti chiede **Sostituire la dashboard?** Tocca **Salva prima l'attuale come preset** se vuoi tenere il layout che hai, oppure **Sostituisci**. Non viene salvato niente finché non premi **Salva**.
 
 ## Progetta con l'IA
 

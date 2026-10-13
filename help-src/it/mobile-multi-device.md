@@ -2,7 +2,7 @@
 title: Più di un dispositivo Cora
 description: Scegli quale dispositivo risponde alla voce e quale legge l'attrezzatura di ogni vasca.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ Se cambi una soglia su un dispositivo, cambia dappertutto. Se risistemi una dash
 ## Cora Assistant: dispositivo che risponde
 
 In **Impostazioni → Cora Assistant → Dispositivo di risposta** scegli quale **dispositivo Cora** risponde quando parli nella stanza. Risponde uno solo, anche se ti sentono in tanti. Scegli quello più vicino al punto in cui ti trovi di solito.
+
+Solo il dispositivo di risposta ascolta la parola di attivazione. Un altro Cora Max ascolta al suo posto mentre è offline, o se non si fa vedere da più di 15 minuti, e smette quando torna. Trovi di più in [Parlare con Cora](/help/max-voice).
 
 Non è la stessa cosa del Cora Max principale, spiegato più avanti. Il dispositivo di risposta decide chi risponde alla tua voce. Il Cora Max principale decide chi legge l'attrezzatura di una vasca. In una casa con due tablet può avere senso impostarli in modo diverso.
 

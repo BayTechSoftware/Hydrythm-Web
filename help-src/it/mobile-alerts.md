@@ -2,7 +2,7 @@
 title: Avvisi e soglie
 description: Imposta l'intervallo di ogni parametro, scegli quali avvisi ricevere e capisci perché ne è scattato uno.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ Per ogni avviso attivo vedi parametro e vasca, la lettura che l'ha fatto scattar
 
 Su ogni avviso puoi fare due cose:
 
-- **Vedi la regola** apre la regola che l'ha fatto scattare, così puoi correggere l'intervallo
+- **Vedi la regola** apre la regola che l'ha fatto scattare, così puoi correggere l'intervallo. Su un avviso di un dosatore, per esempio una testa di DŌS o di ReefDose quasi vuota o una dose mancata, al suo posto c'è **Apri dosatore**, che apre la pagina di quel dosatore con i suoi avvisi.
 - **Spiega questo avviso** chiede all'Assistente di leggerlo alla luce dello storico della tua vasca
+
+## La scheda Regole
+
+Le regole sono raggruppate per parametro. Ogni regola ha il suo interruttore sulla riga, così puoi spegnerne una senza aprirla. Tocca una riga per cambiare intervallo o attesa.
+
+Le regole di una testa di dosaggio prendono il nome della testa e di quello che controllano, per esempio *Iodio · giorni rimanenti* o *Iodio · rimanente*. Una dose mancata compare come *Iodio · dose mancata*.
+
+Ogni DŌS e ogni ReefDose ha qui una sola riga. Gli avvisi delle sue teste non sono elencati uno per uno. Tocca la riga per aprire la pagina di quel dosatore con i suoi avvisi. Vedi [Avvisi dei dosatori](/help/mobile-device-control#doser-alerts).
+
+Se mancano alcune delle regole consigliate da Cora, **Aggiungi le regole consigliate** in fondo le aggiunge, saltando i parametri che hanno già una regola. **Aggiungi regola personalizzata** crea una regola tutta tua.
 
 ## Impostare un intervallo
 
@@ -123,10 +133,12 @@ Basta una lettura fuori intervallo per far scattare un avviso, quindi anche un p
 
 Se a essere sbagliata è la lettura e non la vasca (per esempio una sonda da calibrare), sistema la fonte. Se allarghi la soglia per zittire una sonda difettosa, nascondi anche il prossimo problema vero.
 
-## Disattivare gli avvisi di un parametro
+## Spegnere un avviso
 
-Apri la regola nella scheda **Regole** del Centro avvisi e spegni il suo **interruttore di attivazione**. Regola e intervallo restano salvati, così puoi riattivarla senza rifarla da capo.
+Spegni l'interruttore sulla riga della regola, nella scheda **Regole** del Centro avvisi. Regola e intervallo restano salvati, così puoi riattivarla senza rifarla da capo.
+
+Finché una regola è spenta, Cora non valuta quella lettura. Il suo widget resta grigio neutro e non fa mai scattare un avviso.
 
 :::warning Silenzia il parametro senza cancellare l'intervallo
-Se elimini una soglia, la lettura può comunque essere valutata. Le fasce di riferimento predefinite continuano a colorare il valore e possono finire nel briefing. Usa l'interruttore di attivazione della regola.
+Se elimini una soglia, la lettura può comunque essere valutata. Le fasce di riferimento predefinite continuano a colorare il valore e possono finire nel briefing. Usa l'interruttore della regola.
 :::

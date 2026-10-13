@@ -2,7 +2,7 @@
 title: Ekipmanınızı kontrol etme
 description: Cihazın sayfasını açın, canlı durumunu görün ve kontrol edin. Prizler, pompalar, dozaj kafaları ve test cihazları.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Bir kafa ölçülmeden Cora o kafadan elle dozaj yapmaz. **Dozajlamak için öl�
 :::
 
 :::warning DŌS, kap boşalsa da dozaja devam eder
-Ünitede seviye sensörü yoktur ve kendi kendine durmaz. Kap kurumadan Cora'nın sizi uyarması için kafanın sayfasından dolum uyarısı kurun.
+Ünitede seviye sensörü yoktur ve kendi kendine durmaz. Kap kurumadan Cora'nın sizi uyarması için DŌS sayfasındaki **Uyarılar** bölümünden her kafa için dolum uyarısı kurun. Bkz. [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts).
 :::
 
 ### Her kafa ne için kullanılıyor
@@ -94,6 +94,20 @@ Her ünitenin kendine uygun sayfası var:
 | **ReefWave**, **ReefLED** *(Beta)* | Şu anki modu | Şimdilik yalnızca görüntüleme |
 
 **ReefRun ana pompa ve skimmer pompası kontrol ünitesidir**, dalga pompası değildir. **ReefControl Power** *(Beta)* prizleri, bir Apex prizindeki gibi aynı priz kontrolünden açılıp kapatılan, yalnızca aç/kapa kontrolü olan priz olarak görünür. Şimdilik bunlar için otomatik mod yoktur.
+
+## Dozaj pompası uyarıları
+
+DŌS ve ReefDose, uyarılarını kendi sayfalarında tutar. [Uyarı Merkezi](/help/mobile-alerts)'nin **Kurallar** sekmesinde her dozaj pompası için bu sayfayı açan bir satır vardır. Bir dozaj pompası uyarısındaki **Dozaj pompasını aç** düğmesi de sizi buraya getirir.
+
+DŌS sayfasında **Uyarılar** kartına (ya da başlık çubuğundaki zile) dokunun. Açılan sayfada her kafa listelenir ve her biri için şunları ayarlayabilirsiniz:
+
+- *[kafa] · kalan gün*, örneğin *İyot · kalan gün*: stok bu kadar günün altına düşünce uyarı alırsınız
+- *[kafa] · kalan*: kapta bu miktarın altı kalınca uyarı alırsınız
+- **Kaçırılan dozaj uyarıları**: kafa programlanmış bir dozajı kaçırdığında size haber veren anahtar
+
+Her eşiğin kendi anahtarı vardır, böylece bir eşiği değerini kaybetmeden kapatabilirsiniz. İşiniz bitince **Kaydet**'e dokunun.
+
+ReefDose sayfasında başlık çubuğundaki zile dokunun. Her kafanın kendi kalan gün eşiği ve anahtarı vardır.
 
 ## ReefDose planı ya da ReefRun programı düzenleme *(Beta)*
 

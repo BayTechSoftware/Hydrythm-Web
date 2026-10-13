@@ -2,7 +2,7 @@
 title: Deine Ausrüstung steuern
 description: Auf der Seite eines Geräts siehst du seinen Live-Zustand und steuerst es, ob Steckdose, Pumpe, Dosierkopf oder Testgerät.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Cora dosiert von Hand erst, wenn der Kopf ausgemessen ist. **Zum Dosieren messen
 :::
 
 :::warning Ein DŌS dosiert weiter, auch wenn der Behälter leer ist
-Das Gerät hat keinen Füllstandssensor und hört nicht von selbst auf. Leg auf der Seite des Kopfes eine Nachfüllwarnung an. Dann warnt Cora dich, bevor der Behälter leerläuft.
+Das Gerät hat keinen Füllstandssensor und hört nicht von selbst auf. Leg für jeden Kopf unter **Warnungen** auf der DŌS-Seite eine Nachfüllwarnung an. Dann warnt Cora dich, bevor der Behälter leerläuft. Siehe [Warnungen für Dosierer](/help/mobile-device-control#doser-alerts).
 :::
 
 ### Wofür ein Kopf verwendet wird
@@ -94,6 +94,20 @@ Jedes Gerät hat eine Seite, die zu ihm passt:
 | **ReefWave**, **ReefLED** *(Beta)* | den aktuellen Modus | vorerst nur ansehen |
 
 **ReefRun steuert Rückförder- und Abschäumerpumpe.** Eine Strömungspumpe ist es nicht. **ReefControl Power** *(Beta)*-Steckdosen erscheinen als Steckdosen, geschaltet über dieselbe Steckdosensteuerung wie ein Apex-Ausgang, nur ein oder aus. Einen Automatikmodus gibt es dafür noch nicht.
+
+## Warnungen für Dosierer
+
+Ein DŌS und ein ReefDose haben ihre Warnungen auf ihrer eigenen Seite. Im Tab **Regeln** der [Warnzentrale](/help/mobile-alerts) gibt es pro Dosierer eine Zeile, die sie öffnet, und die Schaltfläche **Dosierer öffnen** einer Dosierer-Warnung bringt dich ebenfalls hierher.
+
+Tippe auf einer DŌS-Seite auf die Karte **Warnungen** (oder auf die Glocke in der Titelleiste). Das Fenster listet jeden Kopf auf, und für jeden kannst du festlegen:
+
+- *[Kopf] · Tage übrig*, zum Beispiel *Jod · Tage übrig*: Du bekommst eine Warnung, wenn der Vorrat für weniger als so viele Tage reicht
+- *[Kopf] · verbleibend*: Du bekommst eine Warnung, wenn weniger als diese Menge im Behälter ist
+- **Warnungen bei verpasster Dosierung**: ein Schalter, der dir meldet, wenn der Kopf eine geplante Dosierung auslässt
+
+Jeder Schwellenwert hat einen eigenen Schalter, du kannst ihn also ausschalten und seinen Wert behalten. Tippe auf **Speichern**, wenn du fertig bist.
+
+Tippe auf einer ReefDose-Seite auf die Glocke in der Titelleiste. Jeder Kopf hat einen eigenen Schwellenwert für die verbleibenden Tage und einen eigenen Schalter.
 
 ## Einen ReefDose-Plan oder ein ReefRun-Programm bearbeiten *(Beta)*
 

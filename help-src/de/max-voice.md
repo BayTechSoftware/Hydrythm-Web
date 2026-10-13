@@ -2,7 +2,7 @@
 title: Mit Cora sprechen
 description: Sprachsteuerung auf Cora Max nutzen, ein Gespräch starten, was du fragen kannst und wie Bestätigungen funktionieren.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 12
 group: Intelligence
 ---
@@ -26,6 +26,8 @@ Unter **Audioausgabe**, ebenfalls unter **Ton & Sprache**, wählst du den intern
 Hast du mehr als ein Cora Max, antwortet nur eines auf das Weckwort. Es heißt **Antwortgerät**. Das legst du unabhängig von **Primäres Cora Max** fest, also dem Gerät, das deine Ausrüstung abfragt. Mehr dazu unter [Geräte und Gerätezustand](/help/max-devices).
 
 Du änderst es unter **Einstellungen → Cora Assistant** auf jedem Cora Max oder in Cora Mobile. Die Einstellung gilt für deinen ganzen Haushalt.
+
+Nur das **Antwortgerät** hört auf „Hey Cora“. Deine anderen Cora Max-Bildschirme hören nicht zu, solange es online ist. Geht es offline oder wurde es länger als 15 Minuten nicht gesehen, übernimmt ein anderes Cora Max das Zuhören und hört wieder auf, sobald es zurück ist. Der Wechsel dauert etwa eine Minute. Antwortet also direkt nach einem Wechsel niemand auf „Hey Cora“, sag es noch einmal oder tippe auf das **Cora Assistant**-Symbol.
 
 :::note Das Gespräch startet, sobald du tippst
 Cora Assistant startet sofort ein Live-Gespräch, ohne Rückfrage. Hast du aus Versehen getippt, beende das Gespräch einfach. Dabei geht nichts verloren.

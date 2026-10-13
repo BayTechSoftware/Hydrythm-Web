@@ -2,7 +2,7 @@
 title: Panoyu düzenleme
 description: Sütun sayısını seçin, widget ekleyip yerleştirin, kutucukları boyutlandırın ve düzenleri başka akvaryumlarda kullanmak için kaydedin.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Bu bir **geri alma değil, geri yüklemedir**. Listeden tasarımı seçip onayla
 ## Cora Max panosunu düzenleme
 
 Cora Max panosunu ayrıca düzenlersiniz: **Cihazlar → Cora Max'iniz → Panoyu Düzenle**. Bu pano kaydırılan değil, sabit bir ızgara kullanır. Ayrıntılar [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.
+
+### Şablonlar
+
+Cora Max düzenleyicisinin üstünde, **Yapay zeka ile tasarla**'nın yanında bir **Şablonlar** simgesi de vardır. Her planda açıktır ve hiç yapay zeka kullanmaz, bu yüzden yapay zeka veri paylaşımı kapalıyken de çalışır.
+
+**Pano şablonları**'nı açar: **Genel bakış**, **Ekipman**, **Parametreler** ve akvaryumda kamera varsa **Kamera**. Her düzen bu akvaryumun bildirdiği ve bağladığı şeylerden oluşturulur, bir önizlemesi olur ve ızgarasındaki kutucuk sayısını gösterir. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
+
+**Bunu kullan**'a dokunun, ardından **Panonuz değiştirilsin mi?** sorusunu **Değiştir** ile onaylayın. Mevcut düzeninizi saklamak için **Önce mevcut olanı ön ayar olarak kaydet**'e dokunun. **Kaydet ve Yayınla**'ya dokunana kadar Cora Max'e hiçbir şey ulaşmaz.
 
 ### Yapay zeka ile tasarla
 

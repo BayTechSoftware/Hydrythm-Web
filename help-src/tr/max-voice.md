@@ -2,7 +2,7 @@
 title: Cora ile konuşma
 description: Cora Max'i sesle kullanma, konuşma başlatma, neler sorabileceğiniz ve onayların nasıl işlediği.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 12
 group: Intelligence
 ---
@@ -26,6 +26,8 @@ Aynı **Ses ve Konuşma** bölümündeki **Ses çıkışı** ile dahili hoparlö
 Evinizde birden çok Cora Max varsa uyandırma sözüne yalnızca biri cevap verir. Buna **Yanıtlayan cihaz** denir. Bu seçim, ekipmanınızı hangi cihazın yokladığından ayrıdır. O ayarın adı **Birincil Cora Max**'tır ve [Cihazlar ve cihaz sağlığı](/help/max-devices) sayfasında anlatılır.
 
 Yanıtlayan cihazı iki Cora Max'ten birinde **Ayarlar → Cora Assistant**'tan ya da Cora Mobile'dan değiştirebilirsiniz. Ayar yalnızca bu ekran için değil, tüm eviniz için geçerlidir.
+
+"Hey Cora"yı yalnızca **Yanıtlayan cihaz** dinler. O cihaz çevrimiçiyken diğer Cora Max ekranlarınız dinlemez. Çevrimdışı olursa ya da 15 dakikadan uzun süredir görülmediyse başka bir Cora Max onun yerine dinlemeye başlar, o geri gelince de dinlemeyi bırakır. Bu geçiş yaklaşık bir dakika sürer. Hemen ardından "Hey Cora"ya kimse cevap vermezse bir kez daha söyleyin ya da **Cora Assistant** simgesine dokunun.
 
 :::note Dokunduğunuz anda başlar
 Cora Assistant'a dokununca konuşma hemen başlar, onay sorulmaz. Yanlışlıkla dokunduysanız konuşmayı durdurun. Hiçbir şey kaybolmaz.

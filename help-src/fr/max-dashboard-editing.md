@@ -2,7 +2,7 @@
 title: Modifier le tableau de bord Cora Max
 description: Choisir une grille, ajouter des widgets et enregistrer des dispositions pour Cora Max.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ L’éditeur rappelle les trois gestes en haut : **touchez une tuile pour la mo
 Les seize types de tuiles (Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* et Caméra *(Beta)*) sont décrits dans la **[Référence des widgets](/help/mobile-widgets)**.
 
 Les tuiles Beta appartiennent à des intégrations Beta que seuls les utilisateurs Beta peuvent ajouter, et vous n’en voyez une qu’une fois l’appareil ajouté. Voir [Fonctions Beta](/help/mobile-beta).
+
+## Modèles
+
+**Modèles** se trouve à côté de **Concevoir avec l’IA**, en haut de l’éditeur. Il est disponible avec tous les forfaits et n’utilise jamais l’IA, donc il fonctionne aussi sans partage de données avec l’IA.
+
+Il ouvre **Modèles de tableau de bord**, quelques dispositions toutes prêtes construites à partir de ce que cet aquarium remonte et a associé :
+
+- **Vue d’ensemble** : peu de tuiles, en grand, avec les paramètres clés en jauges et vos appareils principaux
+- **Équipement** : d’abord une tuile par appareil, puis les prises et les paramètres clés
+- **Paramètres** : graphiques et mesures d’abord, appareils et prises en dernier
+- **Caméra** : une grande vue en direct en haut à gauche, avec les paramètres clés à côté. Il n’apparaît que si l’aquarium a une caméra. Les caméras sont en Beta et réservées aux utilisateurs Beta.
+
+Chaque modèle affiche un aperçu et indique combien de tuiles il contient et sur quelle grille. Touchez **Utiliser**. Cora demande d’abord **Remplacer votre tableau de bord ?** Touchez **Enregistrer l’actuel comme préréglage d’abord** si vous voulez garder votre disposition actuelle, ou **Remplacer**. Rien n’est enregistré tant que vous ne touchez pas **Enregistrer**.
 
 ## Concevoir avec l’IA
 

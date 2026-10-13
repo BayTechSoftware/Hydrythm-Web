@@ -2,7 +2,7 @@
 title: Parler à Cora
 description: La voix sur Cora Max, comment lancer une conversation, quoi demander et comment se passent les confirmations.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 12
 group: Intelligence
 ---
@@ -26,6 +26,8 @@ Dans la même section **Son et voix**, **Sortie audio** choisit le haut-parleur 
 Si vous avez plusieurs Cora Max à la maison, un seul répond au mot d’activation. On l’appelle l’**Appareil répondant**. Ce choix est distinct de l’appareil qui interroge votre équipement (le **Cora Max principal**, voir [Appareils et état des appareils](/help/max-devices)).
 
 Changez-le dans **Réglages → Cora Assistant**, sur n’importe quel Cora Max, ou dans Cora Mobile. Le choix vaut pour toute la maison.
+
+Seul l’**Appareil répondant** écoute « Hey Cora ». Vos autres Cora Max n’écoutent pas tant qu’il est en ligne. S’il passe hors ligne, ou s’il n’a pas été vu depuis plus de 15 minutes, un autre Cora Max se met à écouter à sa place, puis s’arrête dès qu’il est de retour. Le relais prend environ une minute : si personne ne répond à « Hey Cora » juste après, redites-le ou touchez l’icône **Cora Assistant**.
 
 :::note La session démarre dès que vous touchez
 Cora Assistant lance la session tout de suite, sans demander de confirmation. Si vous l’avez touché par erreur, arrêtez la session. Vous ne perdez rien.

@@ -2,7 +2,7 @@
 title: Alertes et seuils
 description: Réglez la plage de chaque paramètre, choisissez les alertes que vous recevez et comprenez pourquoi une alerte s’est déclenchée.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ Chaque alerte active indique le paramètre et l’aquarium, la mesure en cause, 
 
 Chaque alerte a deux boutons.
 
-- **Voir la règle** ouvre la règle à l’origine de l’alerte. Vous pouvez y ajuster la plage.
+- **Voir la règle** ouvre la règle à l’origine de l’alerte. Vous pouvez y ajuster la plage. Pour une alerte de doseur, par exemple une tête DŌS ou ReefDose presque vide ou une dose manquée, ce bouton devient **Ouvrir le doseur**. Il ouvre la page de ce doseur avec ses alertes.
 - **Expliquer cette alerte** demande à l’Assistant de l’interpréter à la lumière de l’historique de votre aquarium.
+
+## L’onglet Règles
+
+Les règles sont regroupées par paramètre. Chaque règle a son propre interrupteur sur sa ligne, pour la désactiver sans l’ouvrir. Touchez une ligne pour changer sa plage ou son délai.
+
+Les règles d’une tête de dosage portent le nom de la tête et de ce qu’elles surveillent, par exemple *Iode · jours restants* ou *Iode · restant*. Une dose manquée apparaît sous la forme *Iode · dose manquée*.
+
+Chaque DŌS et chaque ReefDose a ici sa propre ligne. Les alertes de ses têtes ne sont pas listées une par une. Touchez la ligne pour ouvrir la page de ce doseur avec ses alertes. Voir [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
+
+S’il manque certaines des règles recommandées par Cora, **Ajouter les règles recommandées**, tout en bas, les ajoute. Les paramètres qui ont déjà une règle sont ignorés. **Ajouter une règle personnalisée** crée une règle à vous.
 
 ## Régler une plage
 
@@ -125,10 +135,12 @@ Une seule mesure hors plage suffit. Une sonde qui fait un pic déclenchera donc 
 
 Si c’est la mesure qui est fausse et non l’aquarium (une sonde à étalonner, par exemple), corrigez la source. Élargir un seuil pour faire taire une mauvaise sonde cache aussi le prochain vrai problème.
 
-## Désactiver les alertes d’un paramètre
+## Désactiver une alerte
 
-Ouvrez la règle dans l’onglet **Règles** du Centre d’alertes et coupez son **interrupteur d’activation**. La règle et sa plage sont gardées. Vous pourrez la réactiver sans tout refaire.
+Coupez l’interrupteur sur la ligne de la règle, dans l’onglet **Règles** du Centre d’alertes. La règle et sa plage sont gardées. Vous pourrez la réactiver sans tout refaire.
+
+Tant qu’une règle est désactivée, Cora n’évalue pas cette mesure. Son widget reste gris neutre et ne déclenche jamais d’alerte.
 
 :::warning Faire taire un paramètre sans supprimer sa plage
-Retirer un seuil n’arrête pas forcément toute évaluation de la mesure. Les plages de référence par défaut colorent toujours la valeur et peuvent toujours alimenter le briefing. Utilisez plutôt l’interrupteur d’activation de la règle.
+Retirer un seuil n’arrête pas forcément toute évaluation de la mesure. Les plages de référence par défaut colorent toujours la valeur et peuvent toujours alimenter le briefing. Utilisez plutôt l’interrupteur de la règle.
 :::

@@ -2,7 +2,7 @@
 title: Controllare la tua attrezzatura
 description: Apri la pagina di un dispositivo per vederne lo stato in tempo reale e comandarlo: prese, pompe, teste di dosaggio e tester.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Cora non fa dosaggi a mano con una testa che non è stata misurata. **Misura per
 :::
 
 :::warning Un DŌS continua a dosare anche con il contenitore vuoto
-L'unità non ha un sensore di livello e non si ferma da sola. Imposta un avviso di rifornimento dalla pagina della testa, così Cora ti avvisa prima che il contenitore si svuoti.
+L'unità non ha un sensore di livello e non si ferma da sola. Imposta un avviso di rifornimento per ogni testa in **Avvisi**, nella pagina del DŌS, così Cora ti avvisa prima che il contenitore si svuoti. Vedi [Avvisi dei dosatori](/help/mobile-device-control#doser-alerts).
 :::
 
 ### A cosa serve ogni testa
@@ -94,6 +94,20 @@ Ogni unità ha una pagina fatta su misura:
 | **ReefWave**, **ReefLED** *(Beta)* | La modalità attuale | Solo in sola lettura, per ora |
 
 **ReefRun comanda la pompa di risalita e quella dello schiumatoio.** Non è una pompa di movimento. **ReefControl Power** *(Beta)* mette le sue prese fra i normali comandi delle prese, come una presa Apex: solo on/off. Per queste non c'è ancora una modalità automatica.
+
+## Avvisi dei dosatori
+
+DŌS e ReefDose tengono i loro avvisi nella propria pagina. La scheda **Regole** del [Centro avvisi](/help/mobile-alerts) ha una riga per ogni dosatore che la apre, e anche il pulsante **Apri dosatore** di un avviso di un dosatore ti porta qui.
+
+Nella pagina di un DŌS tocca la scheda **Avvisi** (o la campanella nella barra del titolo). Si apre l'elenco di tutte le teste, e per ognuna puoi impostare:
+
+- *[testa] · giorni rimanenti*, per esempio *Iodio · giorni rimanenti*: ricevi un avviso quando restano meno giorni di scorta di questo numero
+- *[testa] · rimanente*: ricevi un avviso quando nel contenitore resta meno di questa quantità
+- **Avvisi di dose mancata**: un interruttore che ti avvisa quando la testa salta una dose programmata
+
+Ogni soglia ha il suo interruttore, così puoi spegnerne una e tenerne il valore. Tocca **Salva** quando hai finito.
+
+Nella pagina di un ReefDose tocca la campanella nella barra del titolo. Ogni testa ha la sua soglia dei giorni rimanenti con il suo interruttore.
 
 ## Modificare un piano ReefDose o un programma ReefRun *(Beta)*
 

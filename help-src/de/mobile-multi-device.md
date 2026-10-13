@@ -2,7 +2,7 @@
 title: Mehr als ein Cora-Gerät
 description: Leg fest, welches Gerät auf Sprache antwortet und welches jedes Becken abfragt.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ In einem Haushalt kann es mehr als ein Cora Max geben. Zwei Einstellungen legen 
 ## Cora Assistant: Antwortgerät
 
 Unter **Einstellungen → Cora Assistant → Antwortgerät** legst du fest, welches **Cora-Gerät** antwortet, wenn du in den Raum sprichst. Es antwortet immer nur eins, egal wie viele dich hören. Wähl das Gerät, das deinem üblichen Standort am nächsten ist.
+
+Nur das Antwortgerät hört auf das Weckwort. Ist es offline oder wurde es länger als 15 Minuten nicht gesehen, übernimmt ein anderes Cora Max das Zuhören und hört wieder auf, sobald es zurück ist. Mehr dazu unter [Mit Cora sprechen](/help/max-voice).
 
 Das ist nicht dasselbe wie das Primäre Cora Max weiter unten. Das Antwortgerät bestimmt, welches Gerät auf deine Stimme antwortet. Das Primäre Cora Max bestimmt, welches Gerät die Ausrüstung eines Beckens abfragt. Hast du zwei Cora Max, stellst du die beiden vielleicht unterschiedlich ein.
 

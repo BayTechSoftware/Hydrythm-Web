@@ -171,13 +171,14 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerty na Cora Max</h1>
-      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#plakietki-alertw">Plakietki alertów</a></li><li><a href="#gdy-pojawia-si-alert">Gdy pojawia się alert</a></li><li><a href="#skrzynka-powiadomie">Skrzynka powiadomień</a></li><li><a href="#zmiana-progw">Zmiana progów</a></li></ul></nav>
+      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#plakietki-alertw">Plakietki alertów</a></li><li><a href="#gdy-pojawia-si-alert">Gdy pojawia się alert</a></li><li><a href="#skrzynka-powiadomie">Skrzynka powiadomień</a></li><li><a href="#zmiana-progw">Zmiana progów</a></li><li><a href="#alerty-dozownikw">Alerty dozowników</a></li></ul></nav>
 <h2 id="plakietki-alertw">Plakietki alertów</h2>
 <p>Gdy odczyt wychodzi poza zakres, na górnym pasku pojawia się mała plakietka. Jeśli wszystkie się nie mieszczą, zobaczysz <strong>+2</strong> (albo inną liczbę). Dotknij plakietki, żeby zobaczyć całą listę.</p>
 <p>Widać je z drugiego końca pokoju, bez dotykania ekranu.</p>
 <h2 id="gdy-pojawia-si-alert">Gdy pojawia się alert</h2>
 <p>Gdy odczyt wychodzi poza zakres, Cora Max pokazuje też cały alert na środku ekranu. Pod nim są trzy przyciski:</p>
 <ol><li><strong>Odpowiedz głosem</strong>: porozmawiaj z Corą o alercie, bez pisania i stukania w ekran. Więcej w <a href="/pl/help/max-voice">Rozmowa z Corą na Cora Max</a>.</li><li><strong>Uśpij na [czas]</strong>: wycisza ten alert na tym Cora Max na określony czas, ale go nie wyłącza. Na przycisku widać, na jak długo, na przykład <strong>Uśpij na 1 h</strong>. To ten sam czas wstrzymania, który ustawiasz dla tego typu alertu w ustawieniach alertów w Cora Mobile. Może wynosić nawet <strong>1 tydzień</strong>, na przykład przy niskim poziomie reagentu, który przez kilka dni się nie zmieni.</li><li><strong>Odrzuć</strong>: zamyka alert od razu. Alert milczy, dopóki odczyt nie wróci do normalnego zakresu. Jeśli problem wróci później, dostaniesz nowy alert.</li></ol>
+<p>Gdy alert dotyczy dozownika, na przykład głowicy DŌS albo ReefDose, w której kończy się płyn, albo pominiętej dawki, karta ma też przycisk <strong>Otwórz DŌS</strong> albo <strong>Otwórz ReefDose</strong>. Przenosi Cię na stronę tego dozownika, gdzie ustawiasz jego alerty.</p>
 <p>Jeśli <strong>Uśpij</strong> albo <strong>Odrzuć</strong> pokaże błąd, spróbuj jeszcze raz. Gdy błąd się powtarza, zajrzyj do <a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Uśpienie działa tylko na tym Cora Max</p><p><strong>Uśpij</strong> i <strong>Odrzuć</strong> wyciszają alert tylko na <strong>tym Cora Max</strong>. Alert przestaje tu wyskakiwać, dzwonić i mówić, a jego plakietka znika z górnego paska. Po <strong>Uśpij</strong> trwa to do końca czasu uśpienia, a po <strong>Odrzuć</strong> do chwili, gdy odczyt wróci do zakresu. Telefon dalej dostaje powiadomienia, a inne ekrany Cora Max dalej pokazują alert. Alert zostaje też w <strong>Historia powiadomień</strong>, a ustawienia alertów się nie zmieniają.</p></aside>
 <h2 id="skrzynka-powiadomie">Skrzynka powiadomień</h2>
@@ -185,11 +186,15 @@
 <h2 id="zmiana-progw">Zmiana progów</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Ustawienia akwarium na Cora Max"><img src="/help/img/max-tank-settings.webp" alt="Ustawienia akwarium na Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Każde akwarium ma własny dziennik, konserwację, alerty, obsadę i briefing.</figcaption></figure>
 <p>Dotknij nazwy akwarium na górnym pasku i wybierz <strong>Alerty</strong> albo przejdź do <strong>Ustawienia → [Twoje akwarium] → Progi alertów</strong>. W obu miejscach są te same zakresy co w telefonie. Zmiana wprowadzona tutaj działa wszędzie.</p>
-<p>Pojedynczy próg zmienisz też po otwarciu widżetu na pulpicie.</p>
+<p>Pojedynczy próg zmienisz też, przytrzymując jego widżet na pulpicie.</p>
+<p>Każdy parametr na liście ma własny przełącznik. Przy wyłączonym alercie widać <strong>Alert wyłączony</strong>. Cora zachowuje jego zakres, ale dopóki alert jest wyłączony, nie ocenia tego odczytu. Widżet zostaje neutralnie szary i nigdy nie wywoła alertu. Jeśli parametr nie ma jeszcze alertu, widać <strong>Brak ustawionego alertu</strong>, a <strong>Dodaj alert</strong> ustawia go z pokazanym zakresem.</p>
+<p>Arkusz progów ma ten sam przełącznik u góry, obok napisu <strong>Alert włączony</strong> albo <strong>Alert wyłączony</strong>. Jeśli zapiszesz nowy zakres dla wyłączonego alertu, Cora zapyta <strong>Włączyć ten alert?</strong> Dotknij <strong>Włącz</strong>, żeby włączyć go z nowymi wartościami, albo <strong>Zostaw wyłączony</strong>, żeby zapisać wartości i zostawić alert wyłączony.</p>
 <p>Jak działają zakresy i reguły, przeczytasz w <a href="/pl/help/mobile-alerts">Alerty i progi</a>.</p>
+<h2 id="alerty-dozownikw">Alerty dozowników</h2>
+<p>Na stronie DŌS każda głowica ma przycisk <strong>Ustawienia alertów</strong>. Ustawia progi pozostałych dni i pozostałej ilości dla tej głowicy i ma przełącznik <strong>Alerty o pominiętej dawce</strong>, który informuje Cię, gdy głowica pominie zaplanowane dawki.</p>
 <aside class="cal cal-note"><p class="cal-t">Jeden alert dla całego konta</p><p>Każde urządzenie nie wywołuje alertu osobno. Cora Max, telefon i każdy inny ekran pokazują ten sam alert. Gdy odczyt wróci do zakresu, alert znika wszędzie jednocześnie.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/pl/help/max-activity"><span>Poprzedni</span><b>Aktywność na Cora Max</b></a><a class="pn-n" href="/pl/help/max-voice"><span>Następny</span><b>Rozmowa z Corą na Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.165 i Cora Mobile 0.5.109. Ostatnio sprawdzono 2026-09-27.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>

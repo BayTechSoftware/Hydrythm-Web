@@ -2,7 +2,7 @@
 title: Más de un dispositivo Cora
 description: Elige qué dispositivo responde a tu voz y cuál consulta cada acuario.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ Si cambias un umbral en un dispositivo, cambia en todos. Si reorganizas un panel
 ## Cora Assistant: dispositivo que responde
 
 En **Ajustes → Cora Assistant → Dispositivo que responde** eliges qué **dispositivo Cora** te contesta cuando hablas en voz alta en la habitación. Aunque te oigan varios, solo responde uno. Elige el que tengas más cerca del sitio donde sueles estar.
+
+Solo el dispositivo que responde escucha la frase de activación. Otro Cora Max se encarga de escuchar mientras está desconectado, o si lleva más de 15 minutos sin dar señales, y deja de hacerlo cuando vuelve. Más información en [Hablar con Cora](/help/max-voice).
 
 Este ajuste es distinto de Cora Max principal, que se explica más abajo. El dispositivo que responde es el que contesta a tu voz. Cora Max principal es el que consulta el equipo de un acuario. En un hogar con dos Cora Max puede interesarte configurarlos de forma diferente.
 

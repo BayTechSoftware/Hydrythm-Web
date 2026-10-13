@@ -2,7 +2,7 @@
 title: Alertas y umbrales
 description: Fija el rango de cada parámetro, elige qué avisos recibes y entiende por qué saltó una alerta.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ En cada alerta activa ves el parámetro y el acuario, la lectura que la activó 
 
 Cada una tiene dos botones:
 
-- **Ver regla**: abre la regla que generó la alerta para que ajustes el rango
+- **Ver regla**: abre la regla que generó la alerta para que ajustes el rango. En una alerta de dosificador, por ejemplo un cabezal de DŌS o de ReefDose que se está quedando sin líquido o una dosis omitida, este botón es **Abrir dosificador**. Abre la página de ese dosificador con sus alertas.
 - **Explicar esta alerta**: le pide al asistente que la interprete con el historial de tu acuario
+
+## La pestaña Reglas
+
+Las reglas están agrupadas por parámetro. Cada regla tiene su propio interruptor en su fila, así que puedes desactivar una sin abrirla. Toca una fila para cambiar su rango o su tiempo de espera.
+
+Las reglas de un cabezal de dosificación llevan el nombre del cabezal y de lo que vigilan, por ejemplo *Yodo · días restantes* o *Yodo · restante*. Una dosis omitida aparece como *Yodo · dosis omitida*.
+
+Cada DŌS y cada ReefDose tiene aquí una sola fila propia. Las alertas de sus cabezales no aparecen una por una. Toca la fila para abrir la página de ese dosificador con sus alertas. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
+
+Si faltan algunas de las reglas que Cora recomienda, **Agregar reglas recomendadas**, al final de la lista, las añade. Se salta los parámetros que ya tienen una regla. **Agregar regla personalizada** crea una regla a tu medida.
 
 ## Fijar un rango
 
@@ -125,10 +135,12 @@ Una sola lectura fuera de rango genera una alerta, así que un pico de una sonda
 
 Si el problema está en la lectura y no en el acuario (por ejemplo, una sonda sin calibrar), arregla la fuente. Si amplías un umbral para silenciar una sonda defectuosa, también te perderás el próximo problema real.
 
-## Desactivar las alertas de un parámetro
+## Desactivar una alerta
 
-Abre la regla en la pestaña **Reglas** del Centro de alertas y apaga su **interruptor de activación**. La regla y su rango se guardan, así que puedes volver a activarla sin crearla de nuevo.
+Apaga el interruptor en la fila de la regla, en la pestaña **Reglas** del Centro de alertas. La regla y su rango se guardan, así que puedes volver a activarla sin crearla de nuevo.
+
+Mientras una regla está desactivada, Cora no valora esa lectura. Su widget se queda en gris neutro y nunca genera una alerta.
 
 :::warning Silencia un parámetro sin borrar su rango
-Si eliminas un umbral, Cora puede seguir valorando esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir apareciendo en el resumen. Usa el interruptor de activación de la regla.
+Si eliminas un umbral, Cora puede seguir valorando esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir apareciendo en el resumen. Usa el interruptor de la regla.
 :::

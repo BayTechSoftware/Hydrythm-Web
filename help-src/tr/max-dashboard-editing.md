@@ -2,7 +2,7 @@
 title: Cora Max panosunu düzenleme
 description: Izgara seçin, widget ekleyin ve Cora Max ekranı için düzenlerinizi kaydedin.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ Düzenleyicinin üstünde üç hareket yazar: **düzenlemek için kutucuğa doku
 On altı kutucuk türü var: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* ve Kamera *(Beta)*. Hepsi **[Widget rehberi](/help/mobile-widgets)** sayfasında anlatılıyor.
 
 Beta kutucuklar, yalnızca Beta kullanıcılarının ekleyebildiği Beta entegrasyonlara aittir ve bir kutucuğu ancak cihaza sahip olduğunuzda görürsünüz. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+
+## Şablonlar
+
+**Şablonlar**, düzenleyicinin üstünde **Yapay zeka ile tasarla**'nın yanında bulunur. Her planda açıktır ve hiç yapay zeka kullanmaz, bu yüzden yapay zeka veri paylaşımı kapalıyken de çalışır.
+
+**Pano şablonları**'nı açar. Bunlar, bu akvaryumun bildirdiği ve bağladığı şeylerden oluşturulan birkaç hazır düzendir:
+
+- **Genel bakış**: az sayıda büyük kutucuk. Temel parametreler gösterge olarak, yanlarında ana cihazlarınız
+- **Ekipman**: önce her cihaz için bir kutucuk, ardından prizler ve temel parametreler
+- **Parametreler**: önce grafikler ve ölçümler, cihazlar ve prizler en sonda
+- **Kamera**: sol üstte büyük bir canlı görüntü, yanında temel parametreler. Yalnızca akvaryumda kamera varsa görünür. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
+
+Her şablon bir önizleme ve hangi ızgarada kaç kutucuğu olduğunu gösterir. **Bunu kullan**'a dokunun. Cora önce **Panonuz değiştirilsin mi?** diye sorar. Mevcut düzeninizi saklamak istiyorsanız **Önce mevcut olanı ön ayar olarak kaydet**'e, istemiyorsanız **Değiştir**'e dokunun. **Kaydet**'e basana kadar hiçbir şey kaydedilmez.
 
 ## Yapay zeka ile tasarla
 

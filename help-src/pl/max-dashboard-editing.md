@@ -2,7 +2,7 @@
 title: Edytowanie pulpitu Cora Max
 description: Wybierz siatkę, dodaj widżety i zapisz układy pulpitu na Cora Max.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ U góry edytora widać trzy gesty: **Dotknij kafelek, aby edytować · przytrzym
 Szesnaście typów kafelków (Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* i Kamera *(Beta)*) opisuje [Rodzaje widżetów](/help/mobile-widgets).
 
 Kafelki Beta należą do integracji Beta, które mogą dodawać tylko użytkownicy Beta, i widzisz taki kafelek dopiero wtedy, gdy masz to urządzenie. Zobacz [Funkcje Beta](/help/mobile-beta).
+
+## Szablony
+
+**Szablony** są u góry edytora, obok **Zaprojektuj z AI**. Działają w każdym planie i nigdy nie używają AI, więc działają też bez udostępniania danych AI.
+
+Otwierają **Szablony pulpitu**, kilka gotowych układów zbudowanych z tego, co to akwarium zgłasza i co ma podłączone:
+
+- **Przegląd**: mało dużych kafelków, z podstawowymi parametrami jako wskaźnikami i najważniejszymi urządzeniami
+- **Sprzęt**: najpierw po jednym kafelku na urządzenie, potem gniazda i podstawowe parametry
+- **Parametry**: najpierw wykresy i odczyty, a urządzenia i gniazda na końcu
+- **Kamera**: duży podgląd na żywo w lewym górnym rogu, a obok podstawowe parametry. Pojawia się tylko wtedy, gdy akwarium ma kamerę. Kamery są w wersji Beta i dostępne tylko dla użytkowników Beta.
+
+Każdy szablon pokazuje podgląd oraz liczbę kafelków i siatkę. Dotknij **Użyj tego**. Cora najpierw zapyta **Zastąpić pulpit?** Dotknij **Najpierw zapisz obecny jako preset**, jeśli chcesz zachować obecny układ, albo **Zastąp**. Nic nie jest zapisane, dopóki nie dotkniesz **Zapisz**.
 
 ## Zaprojektuj z AI
 

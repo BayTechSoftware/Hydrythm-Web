@@ -2,7 +2,7 @@
 title: Uyarılar ve eşikler
 description: Her parametrenin aralığını belirleyin, hangi durumlarda haber alacağınızı seçin ve bir uyarının neden geldiğini anlayın.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ Her etkin uyarıda şunlar görünür: parametre ve akvaryum, uyarıya yol açan
 
 Her uyarıda iki düğme var:
 
-- **Kuralı görüntüle**: uyarıyı veren kuralı açar. Aralığı buradan değiştirebilirsiniz
+- **Kuralı görüntüle**: uyarıyı veren kuralı açar. Aralığı buradan değiştirebilirsiniz. Bir dozaj pompası uyarısında, örneğin bir DŌS ya da ReefDose kafasında sıvı azaldığında veya bir dozaj kaçırıldığında, bu düğmenin yerinde **Dozaj pompasını aç** bulunur. O dozaj pompasının sayfasını uyarılarıyla birlikte açar
 - **Bu uyarıyı açıkla**: asistandan uyarıyı akvaryumunuzun geçmişine bakarak yorumlamasını ister
+
+## Kurallar sekmesi
+
+Kurallar parametreye göre gruplanır. Her kuralın kendi satırında bir açma kapama anahtarı vardır, böylece kuralı açmadan kapatabilirsiniz. Aralığını ya da bekleme süresini değiştirmek için satıra dokunun.
+
+Bir dozaj kafasının kuralları, kafanın adını ve neyi izlediğini taşır, örneğin *İyot · kalan gün* ya da *İyot · kalan*. Kaçırılan bir dozaj *İyot · kaçırılan dozaj* olarak görünür.
+
+Her DŌS ve her ReefDose'un burada kendine ait tek bir satırı vardır. Kafa uyarıları tek tek listelenmez. O dozaj pompasının sayfasını uyarılarıyla açmak için satıra dokunun. Bkz. [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts).
+
+Cora'nın önerdiği kurallardan bazıları eksikse en alttaki **Önerilen kuralları ekle** onları ekler. Zaten kuralı olan parametreleri atlar. **Özel Kural Ekle** ile kendi kuralınızı kurarsınız.
 
 ## Aralık belirleme
 
@@ -125,10 +135,12 @@ Aralık dışındaki tek bir ölçüm uyarı için yeterlidir. Bu yüzden anlık
 
 Sorun akvaryumda değil de ölçümdeyse (örneğin kalibrasyon isteyen bir prob) kaynağı düzeltin. Hatalı probu susturmak için eşiği genişletirseniz bir sonraki gerçek sorunu da gizlemiş olursunuz.
 
-## Bir parametrenin uyarılarını kapatma
+## Bir uyarıyı kapatma
 
-Uyarı Merkezi'nin **Kurallar** sekmesinde kuralı açın ve **açma kapama anahtarını** kapatın. Kural ve aralığı silinmez. İstediğinizde baştan kurmadan yeniden açabilirsiniz.
+Uyarı Merkezi'nin **Kurallar** sekmesinde kuralın satırındaki anahtarı kapatın. Kural ve aralığı silinmez. İstediğinizde baştan kurmadan yeniden açabilirsiniz.
+
+Kural kapalıyken Cora o ölçümü değerlendirmez. Widget'ı nötr gri kalır ve hiç uyarı vermez.
 
 :::warning Parametreyi susturmak için aralığı silmeyin
-Eşiği silmek o ölçümün değerlendirilmesini tamamen durdurmayabilir. Varsayılan referans aralıklar değeri yine renklendirir ve özete de yansıyabilir. Bunun yerine kuralın açma kapama anahtarını kullanın.
+Eşiği silmek o ölçümün değerlendirilmesini tamamen durdurmayabilir. Varsayılan referans aralıklar değeri yine renklendirir ve özete de yansıyabilir. Bunun yerine kuralın anahtarını kullanın.
 :::

@@ -2,7 +2,7 @@
 title: Więcej niż jedno urządzenie Cora
 description: Wybierz, które urządzenie odpowiada głosem, a które odpytuje każde akwarium.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ Zmiana progu na jednym urządzeniu działa wszędzie. Zmiana układu pulpitu ju�
 ## Cora Assistant: urządzenie odpowiadające
 
 **Ustawienia → Cora Assistant → Urządzenie odpowiadające** określa, które **urządzenie Cora** odpowiada, gdy mówisz do pokoju. Odpowiada zawsze tylko jedno, bez względu na to, ile Cię słyszy. Wybierz to, które stoi najbliżej miejsca, gdzie zwykle jesteś.
+
+Frazy wybudzającej nasłuchuje tylko urządzenie odpowiadające. Gdy jest offline albo nie było widziane dłużej niż 15 minut, nasłuchiwanie przejmuje inny Cora Max i przestaje, gdy tamto wróci. Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice).
 
 To inne ustawienie niż opisane niżej Główne Cora Max. Urządzenie odpowiadające decyduje, które urządzenie odpowiada na Twój głos. Główne Cora Max decyduje, które urządzenie odpytuje sprzęt akwarium. Jeśli masz w domu dwa Cora Max, możesz ustawić je różnie.
 

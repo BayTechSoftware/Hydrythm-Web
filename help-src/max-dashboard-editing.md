@@ -2,7 +2,7 @@
 title: Editing the Cora Max dashboard
 description: Choose a grid, add widgets and save layouts for the Cora Max display.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ The three gestures are listed along the top of the editor: **tap a tile to edit*
 The sixteen tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* and Camera *(Beta)*. You'll find them all in the [Widget reference](/help/mobile-widgets).
 
 The Beta tiles belong to Beta integrations that only Beta users can add, and you only see one once you have the device. See [Beta features](/help/mobile-beta).
+
+## Templates
+
+**Templates** sits beside **Design with AI** at the top of the editor. It's open on every plan and never uses AI, so it also works without AI data sharing.
+
+It opens **Dashboard templates**, a few ready-made layouts built from what this tank reports and has linked:
+
+- **Overview**: few, large tiles, with the core parameters as gauges and your main devices
+- **Equipment**: one tile per device first, then outlets and the core parameters
+- **Parameters**: charts and readings first, with devices and outlets last
+- **Camera**: a large live view top-left with the core parameters beside it. It only appears when the tank has a camera. Cameras are in Beta and only open to Beta users.
+
+Each one shows a preview and how many tiles it has on which grid. Tap **Use this**. Cora asks **Replace your dashboard?** first. Tap **Save current as preset first** if you want to keep the layout you have, or **Replace**. Nothing is saved until you press **Save**.
 
 ## Design with AI
 

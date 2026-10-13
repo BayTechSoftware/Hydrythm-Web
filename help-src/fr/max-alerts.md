@@ -2,7 +2,7 @@
 title: Alertes sur Cora Max
 description: Les alertes dans la barre du haut, l’historique des notifications et le réglage des seuils depuis Cora Max.
 section: Cora Max
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 11
 group: Alerts
 ---
@@ -21,6 +21,8 @@ Quand une mesure sort de sa plage, Cora Max affiche aussi l’alerte en entier a
 2. **Reporter [durée]** : l’alerte se tait sur ce Cora Max pendant un certain temps, mais elle reste active. Le bouton indique la durée, par exemple **Reporter 1 h**. C’est le **Délai entre les alertes** réglé pour ce type d’alerte dans Cora Mobile. Il peut aller jusqu’à **1 semaine**, par exemple pour un réactif presque vide qui ne bougera pas pendant des jours.
 3. **Ignorer** : ferme l’alerte tout de suite. Elle reste silencieuse jusqu’à ce que la mesure revienne dans sa plage. Si le problème revient ensuite, vous recevez une nouvelle alerte.
 
+Quand l’alerte concerne un doseur, par exemple une tête DŌS ou ReefDose presque vide ou une dose manquée, la carte affiche aussi un bouton **Ouvrir DŌS** ou **Ouvrir ReefDose**. Il vous amène à la page de ce doseur, où se règlent ses alertes.
+
 Si **Reporter** ou **Ignorer** affiche une erreur, réessayez une fois. Si l’erreur persiste, consultez la page [Résolution de problèmes](/help/troubleshooting).
 
 :::note Le report ne concerne que ce Cora Max
@@ -37,9 +39,17 @@ Si **Reporter** ou **Ignorer** affiche une erreur, réessayez une fois. Si l’e
 
 Touchez le nom de l’aquarium dans la barre du haut et choisissez **Alertes**, ou allez dans **Réglages → [votre aquarium] → Seuils d’alerte**. Vous arrivez aux mêmes plages que sur le téléphone. Ce que vous changez ici s’applique partout.
 
-Vous pouvez aussi changer un seuil en ouvrant son widget sur le tableau de bord.
+Vous pouvez aussi changer un seuil en appuyant longuement sur son widget dans le tableau de bord.
+
+Chaque paramètre de la liste a son propre interrupteur. Une alerte que vous avez désactivée affiche **Alerte désactivée**. Cora garde sa plage, mais n’évalue plus cette mesure tant qu’elle est désactivée. Le widget reste gris neutre et ne déclenche jamais d’alerte. Si un paramètre n’a pas encore d’alerte, il affiche **Aucune alerte définie**, et **Ajouter une alerte** en crée une avec la plage affichée.
+
+La fenêtre du seuil a le même interrupteur en haut, à côté de **Alerte activée** ou **Alerte désactivée**. Si vous enregistrez une nouvelle plage sur une alerte désactivée, Cora demande **Activer cette alerte ?** Touchez **Activer** pour l’activer avec les nouvelles valeurs, ou **Laisser désactivée** pour enregistrer les valeurs sans l’activer.
 
 Le fonctionnement des plages et des règles est expliqué dans [Alertes et seuils](/help/mobile-alerts).
+
+## Alertes des doseurs
+
+Sur la page d’un DŌS, chaque tête a un bouton **Paramètres d’alerte**. Il règle les seuils de jours restants et de volume restant de cette tête, et comporte un interrupteur **Alertes de dose manquée** qui vous prévient quand la tête manque ses doses programmées.
 
 :::note Une seule alerte pour tout le compte
 Chaque appareil ne crée pas sa propre alerte. Cora Max, votre téléphone et les autres écrans affichent la même, et elle disparaît partout en même temps quand la mesure revient dans sa plage.

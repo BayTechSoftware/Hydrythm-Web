@@ -2,7 +2,7 @@
 title: More than one Cora device
 description: Choose which device answers your voice and which one polls each tank.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ If you change a threshold on one device, it changes everywhere. Dashboard layout
 ## Cora Assistant: Answering device
 
 **Settings → Cora Assistant → Answering device** picks the **Cora device** that answers when you talk to the room. However many devices hear you, only one answers. Set it to the one closest to where you usually stand.
+
+Only the Answering device listens for the wake phrase. Another Cora Max takes over listening while it's offline, or hasn't been seen for more than 15 minutes, and stops once it's back. More in [Talking to Cora](/help/max-voice).
 
 This is separate from Primary Cora Max, further down. Answering device decides who answers your voice. Primary Cora Max decides who polls a tank's equipment. With two Cora Max devices at home, you might set them differently.
 

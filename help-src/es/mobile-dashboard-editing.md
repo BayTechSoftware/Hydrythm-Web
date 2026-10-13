@@ -2,7 +2,7 @@
 title: Editar tu panel
 description: Elige cuántas columnas quieres, añade y ordena widgets, cambia el tamaño de las casillas y guarda diseños para usarlos en otros acuarios.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Las lecturas, el historial y las entradas del diario se guardan aparte del dise�
 ## Editar el panel de Cora Max
 
 El panel de Cora Max se edita aparte, en **Dispositivos → tu Cora Max → Editar panel**. Usa una cuadrícula fija que no se desplaza. Más información en [Editar el panel de Cora Max](/help/max-dashboard-editing).
+
+### Plantillas
+
+El editor de Cora Max también tiene arriba un icono **Plantillas**, junto a **Diseñar con IA**. Está disponible en todos los planes y nunca usa IA, así que también funciona sin el uso compartido de datos con la IA.
+
+Abre **Plantillas de panel**: **Resumen**, **Equipo**, **Parámetros** y, si el acuario tiene una cámara, **Cámara**. Cada diseño se crea a partir de lo que informa y tiene vinculado este acuario, con una vista previa y el número de casillas en su cuadrícula. Las cámaras están en Beta y solo las pueden usar los usuarios Beta.
+
+Toca **Usar este** y confirma **¿Sustituir tu panel?** con **Sustituir**. Para conservar tu diseño actual, toca **Guardar antes el actual como preajuste**. Nada llega a Cora Max hasta que tocas **Guardar y publicar**.
 
 ### Diseñar con IA
 

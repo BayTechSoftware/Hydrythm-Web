@@ -171,12 +171,13 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerts on Cora Max</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#alerts-in-the-top-bar">Alerts in the top bar</a></li><li><a href="#when-an-alert-appears-at-the-wall">When an alert appears at the wall</a></li><li><a href="#the-notification-inbox">The notification inbox</a></li><li><a href="#editing-thresholds">Editing thresholds</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#alerts-in-the-top-bar">Alerts in the top bar</a></li><li><a href="#when-an-alert-appears-at-the-wall">When an alert appears at the wall</a></li><li><a href="#the-notification-inbox">The notification inbox</a></li><li><a href="#editing-thresholds">Editing thresholds</a></li><li><a href="#doser-alerts">Doser alerts</a></li></ul></nav>
 <h2 id="alerts-in-the-top-bar">Alerts in the top bar</h2>
 <p>When a reading is out of range, it shows up as a small tag in the top bar, big enough to spot from across the room. If there are more than fit, you'll see <strong>+2</strong> (or however many). Tap a tag to see them all.</p>
 <h2 id="when-an-alert-appears-at-the-wall">When an alert appears at the wall</h2>
 <p>When a reading goes out of range, Cora Max also shows the alert in the middle of the screen. There are three buttons under it.</p>
 <ol><li><strong>Respond by voice</strong> lets you talk to Cora about the alert without typing or tapping anything else. More about this in <a href="/help/max-voice">Talking to Cora</a>.</li><li><strong>Snooze [duration]</strong> silences the alert on this Cora Max for a while. The button shows how long, for example <strong>Snooze 1 h</strong>. That's the cooldown set for this alert in Cora Mobile's alert settings, and it can be as long as 1 week (handy for something like a low reagent level that won't change for days).</li><li><strong>Dismiss</strong> closes the alert now. It stays quiet on this screen until the reading is back in range. If the problem comes back later, you'll get a new alert.</li></ol>
+<p>When the alert is about a doser, such as a DŌS or ReefDose head running low or a missed dose, the card also has an <strong>Open DŌS</strong> or <strong>Open ReefDose</strong> button. It takes you to that doser's page, where its alerts are set.</p>
 <p>If Snooze or Dismiss shows an error, try once more. If it keeps failing, have a look at <a href="/help/troubleshooting">Troubleshooting</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Snooze only affects this Cora Max</p><p>While an alert is snoozed or dismissed, this Cora Max stops popping it up, sounding it and speaking it, and it leaves the list in the top bar. Your phone still gets its notifications, other Cora Max screens still show the alert, it stays in <strong>Notification history</strong>, and your alert settings don't change.</p></aside>
 <h2 id="the-notification-inbox">The notification inbox</h2>
@@ -184,11 +185,15 @@
 <h2 id="editing-thresholds">Editing thresholds</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Tank settings on Cora Max"><img src="/help/img/max-tank-settings.webp" alt="Tank settings on Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Each tank has its own journal, maintenance, alerts, livestock and briefing.</figcaption></figure>
 <p>Tap the tank name in the top bar and choose <strong>Alerts</strong>, or go to <strong>Settings → [your tank] → Alert thresholds</strong>. Both open the same ranges you see on your phone, and a change you make here applies everywhere.</p>
-<p>You can also change a threshold by opening its widget on the dashboard.</p>
+<p>You can also change a threshold by long-pressing its widget on the dashboard.</p>
+<p>Each parameter in the list has its own switch. An alert you've switched off says <strong>Alert off</strong>. Cora keeps its range, but it doesn't grade that reading while it's off. The widget stays neutral grey and never raises an alert. If a parameter has no alert yet, it says <strong>No alert set</strong>, and <strong>Add alert</strong> sets one up with the range shown.</p>
+<p>The threshold sheet has the same switch at the top, next to <strong>Alert on</strong> or <strong>Alert off</strong>. If you save a new range on an alert that's off, Cora asks <strong>Turn this alert on?</strong> Tap <strong>Turn on</strong> to switch it on with the new values, or <strong>Keep off</strong> to save them and leave it off.</p>
 <p>How ranges and rules work is explained in <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
+<h2 id="doser-alerts">Doser alerts</h2>
+<p>On a DŌS page, each head has an <strong>Alert settings</strong> button. It sets that head's days-left and remaining levels, and has a <strong>Missed dose alerts</strong> switch that tells you when the head misses its scheduled doses.</p>
 <aside class="cal cal-note"><p class="cal-t">One alert for the whole account</p><p>Each device doesn't raise its own copy of an alert. Cora Max, your phone and any other screen show the same one, and it clears on all of them when the reading is back in range.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-activity"><span>Previous</span><b>Activity on Cora Max</b></a><a class="pn-n" href="/help/max-voice"><span>Next</span><b>Talking to Cora</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.165 and Cora Mobile 0.5.109. Last checked 2026-09-27.</p>
+      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

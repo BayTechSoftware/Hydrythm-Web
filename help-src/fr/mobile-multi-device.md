@@ -2,7 +2,7 @@
 title: Plus d’un appareil Cora
 description: Choisissez l’appareil qui répond à la voix et celui qui interroge chaque aquarium.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ Un seuil changé sur un appareil change partout. Un tableau de bord réorganisé
 ## Cora Assistant : Appareil répondant
 
 **Réglages → Cora Assistant → Appareil répondant** choisit l’**appareil Cora** qui répond quand vous parlez dans la pièce. Un seul répond, même si plusieurs vous entendent. Choisissez celui qui est le plus près de l’endroit où vous vous tenez d’habitude.
+
+Seul l’Appareil répondant écoute le mot d’activation. Un autre Cora Max prend le relais de l’écoute tant qu’il est hors ligne ou s’il n’a pas été vu depuis plus de 15 minutes, puis s’arrête dès qu’il est de retour. Plus de détails dans [Parler à Cora](/help/max-voice).
 
 Ce choix est différent de Cora Max principal, décrit plus bas. Appareil répondant décide quel appareil répond à votre voix. Cora Max principal décide quel appareil interroge l’équipement d’un aquarium. Avec deux Cora Max, vous voudrez peut-être régler ces deux choix différemment.
 

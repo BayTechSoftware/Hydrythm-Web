@@ -2,7 +2,7 @@
 title: Birden fazla Cora cihazı
 description: Sesinize hangi cihazın yanıt vereceğini ve her akvaryumu hangi cihazın yoklayacağını seçin.
 section: Cora Mobile
-reviewed: 2026-09-27
+reviewed: 2026-10-13
 order: 29
 group: Account
 ---
@@ -24,6 +24,8 @@ Bir cihazda eşiği değiştirirseniz her yerde değişir. Panonun düzenini de�
 ## Cora Assistant: Yanıtlayan cihaz
 
 Odada konuştuğunuzda hangi **Cora cihazının** yanıt vereceğini **Ayarlar → Cora Assistant → Yanıtlayan cihaz** bölümünden seçersiniz. Sizi kaç cihaz duyarsa duysun, yalnızca biri yanıt verir. Genellikle en çok durduğunuz yere en yakın cihazı seçin.
+
+Uyandırma ifadesini yalnızca Yanıtlayan cihaz dinler. O cihaz çevrimdışıyken ya da 15 dakikadan uzun süredir görülmediğinde dinlemeyi başka bir Cora Max devralır, o geri gelince de bırakır. Ayrıntılar [Cora ile konuşma](/help/max-voice) sayfasında.
 
 Bu ayar, aşağıda anlatılan Birincil Cora Max'ten farklıdır. Yanıtlayan cihaz sesinize hangi cihazın yanıt vereceğini belirler. Birincil Cora Max ise akvaryumun ekipmanını hangi cihazın yoklayacağını belirler. İki tableti olan bir evde bu iki ayarı farklı cihazlara vermek isteyebilirsiniz.
 

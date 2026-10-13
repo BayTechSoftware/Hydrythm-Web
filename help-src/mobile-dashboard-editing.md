@@ -2,7 +2,7 @@
 title: Editing your dashboard
 description: Set the column count, add and arrange widgets, resize tiles, and save layouts to reuse on other tanks.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Readings, history and journal entries are stored apart from the layout, so editi
 ## Editing the Cora Max dashboard
 
 You edit the Cora Max dashboard separately, from **Devices → your Cora Max → Edit Dashboard**. It uses a fixed grid that doesn't scroll. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
+
+### Templates
+
+The Cora Max editor also has a **Templates** icon at the top, next to **Design with AI**. It's open on every plan and never uses AI, so it also works without AI data sharing.
+
+It opens **Dashboard templates**: **Overview**, **Equipment**, **Parameters** and, when the tank has a camera, **Camera**. Each layout is built from what this tank reports and has linked, with a preview and the number of tiles on its grid. Cameras are in Beta and only open to Beta users.
+
+Tap **Use this**, then confirm **Replace your dashboard?** with **Replace**. To keep your current layout, tap **Save current as preset first**. Nothing reaches Cora Max until you tap **Save & Publish**.
 
 ### Design with AI
 

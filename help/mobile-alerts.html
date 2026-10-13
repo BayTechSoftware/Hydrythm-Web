@@ -171,7 +171,7 @@
   <main class="hmain" id="main">
     <article class="doc">
       <h1>Alerts and thresholds</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-alert-center">The Alert Center</a></li><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#when-equipment-needs-attention">When equipment needs attention</a></li><li><a href="#a-device-has-stopped-reporting">A device has stopped reporting</a></li><li><a href="#red-sea-readings-have-stopped-updating">&quot;Red Sea readings have stopped updating&quot;</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#cooldowns-how-often-the-same-alert-may-notify-you">Cooldowns: how often the same alert may notify you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#disabling-alerts-for-a-parameter">Disabling alerts for a parameter</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#the-alert-center">The Alert Center</a></li><li><a href="#the-rules-tab">The Rules tab</a></li><li><a href="#setting-a-range">Setting a range</a></li><li><a href="#what-triggers-an-alert">What triggers an alert</a></li><li><a href="#where-alerts-appear">Where alerts appear</a></li><li><a href="#when-equipment-needs-attention">When equipment needs attention</a></li><li><a href="#a-device-has-stopped-reporting">A device has stopped reporting</a></li><li><a href="#red-sea-readings-have-stopped-updating">&quot;Red Sea readings have stopped updating&quot;</a></li><li><a href="#choosing-what-reaches-you">Choosing what reaches you</a></li><li><a href="#cooldowns-how-often-the-same-alert-may-notify-you">Cooldowns: how often the same alert may notify you</a></li><li><a href="#clearing-an-alert">Clearing an alert</a></li><li><a href="#turning-an-alert-off">Turning an alert off</a></li></ul></nav>
 <p>You get an alert when a reading leaves the range you set for it. You set the ranges, and you decide which alerts reach your phone.</p>
 <p>Open the <strong>Alert Center</strong> from the shortcut row at the bottom of the dashboard.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Alert Center"><img src="/help/img/mobile-alerts.webp" alt="The Alert Center" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Active alerts, each with its severity, what triggered it, and when.</figcaption></figure>
@@ -180,7 +180,12 @@
 <ul><li><strong>Active</strong> lists the alerts that are up right now, with a count badge.</li><li><strong>Rules</strong> holds the thresholds and rate-of-change rules that raise them.</li></ul>
 <p>Each active alert shows the parameter and tank, the reading that set it off, a short explanation, a severity chip, the kind of rule that fired (<strong>Threshold</strong> or <strong>Rate of Change</strong>) and when it fired.</p>
 <p>Each one has two buttons:</p>
-<ul><li><strong>View rule</strong> opens the rule behind it, so you can adjust the range.</li><li><strong>Explain this alert</strong> asks the Assistant to read it against your tank's history.</li></ul>
+<ul><li><strong>View rule</strong> opens the rule behind it, so you can adjust the range. On a doser alert, such as a DŌS or ReefDose head running low or a missed dose, this button is <strong>Open doser</strong> instead. It opens that doser's page with its alerts.</li><li><strong>Explain this alert</strong> asks the Assistant to read it against your tank's history.</li></ul>
+<h2 id="the-rules-tab">The Rules tab</h2>
+<p>Rules are grouped by parameter. Each rule has its own on/off switch on its row, so you can turn one off without opening it. Tap a row to change its range or cooldown.</p>
+<p>A dosing head's rules are named after the head and what they watch, for example <em>Iodine · days left</em> or <em>Iodine · remaining</em>. A missed dose shows up as <em>Iodine · missed dose</em>.</p>
+<p>Each DŌS and each ReefDose has one row of its own here. Its head alerts aren't listed one by one. Tap the row to open that doser's page with its alerts. See <a href="/help/mobile-device-control#doser-alerts">Doser alerts</a>.</p>
+<p>If some of Cora's recommended rules are missing, <strong>Add recommended rules</strong> at the bottom adds them. It skips any parameter that already has a rule. <strong>Add Custom Rule</strong> sets up a rule of your own.</p>
 <h2 id="setting-a-range">Setting a range</h2>
 <p>Parameters Cora can grade have a target range. The defaults come from your tank type and age when you set the tank up, and they're usually a sensible start. If a parameter has no usable range, Cora doesn't grade it. It stays neutral grey instead of Cora guessing.</p>
 <p>To change a range, long-press its widget on the dashboard. That opens the parameter's thresholds. A normal tap opens the parameter view instead, so the long-press is the one to remember.</p>
@@ -221,11 +226,12 @@
 <p>An alert clears when the reading comes back into range. There's nothing to dismiss. It tells you about the tank. It isn't a task.</p>
 <aside class="cal cal-note"><p class="cal-t">Short spikes raise alerts too</p><p>One out-of-range reading is enough to raise an alert, so a probe that spikes will set one off. If a source is unreliable, recalibrate it or point the widget at a different source. Don't widen the threshold.</p></aside>
 <p>Sometimes the reading is wrong and the tank is fine, for example when a probe needs calibrating. Fix the source in that case. If you widen a threshold to silence a bad probe, you'll miss the next real problem too.</p>
-<h2 id="disabling-alerts-for-a-parameter">Disabling alerts for a parameter</h2>
-<p>Open the rule in the <strong>Rules</strong> tab of the Alert Center and turn off its enable switch. Cora keeps the rule and its range, so you can switch it back on without setting it up again.</p>
-<aside class="cal cal-warning"><p class="cal-t">Turn a parameter off without deleting its range</p><p>Removing a threshold doesn't always stop Cora assessing that reading. Default reference bands still colour the value and can still feed the briefing. Use the rule's enable switch.</p></aside>
+<h2 id="turning-an-alert-off">Turning an alert off</h2>
+<p>Turn off the switch on the rule's row in the <strong>Rules</strong> tab of the Alert Center. Cora keeps the rule and its range, so you can switch it back on without setting it up again.</p>
+<p>While a rule is off, Cora doesn't grade that reading. Its widget stays neutral grey and it never raises an alert.</p>
+<aside class="cal cal-warning"><p class="cal-t">Turn a parameter off without deleting its range</p><p>Removing a threshold doesn't always stop Cora assessing that reading. Default reference bands still colour the value and can still feed the briefing. Use the rule's switch.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-consumables"><span>Previous</span><b>Consumables</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.165 and Cora Mobile 0.5.109. Last checked 2026-10-12.</p>
+      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>

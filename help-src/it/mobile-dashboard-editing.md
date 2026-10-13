@@ -2,7 +2,7 @@
 title: Modificare la dashboard
 description: Scegli il numero di colonne, aggiungi e sposta i widget, cambia la dimensione dei riquadri e salva layout da riusare su altre vasche.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Letture, storico e voci di diario sono salvati a parte rispetto al layout. Nessu
 ## Modificare la dashboard di Cora Max
 
 La dashboard di Cora Max si modifica a parte, da **Dispositivi → il tuo Cora Max → Modifica Dashboard**. Ha una griglia fissa e non scorre. I dettagli sono in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
+
+### Modelli
+
+In alto, accanto a **Progetta con l'IA**, l'editor di Cora Max ha anche un'icona **Modelli**. È disponibile con tutti i piani e non usa mai l'IA, quindi funziona anche senza la condivisione dei dati con l'IA.
+
+Apre **Modelli di dashboard**: **Panoramica**, **Attrezzatura**, **Parametri** e, se la vasca ha una telecamera, **Fotocamera**. Ogni layout è costruito in base a ciò che questa vasca riporta e ha collegato, con un'anteprima e il numero di riquadri sulla sua griglia. Le telecamere sono in Beta e disponibili solo per gli utenti Beta.
+
+Tocca **Usa questo**, poi conferma **Sostituire la dashboard?** con **Sostituisci**. Per tenere il layout attuale, tocca **Salva prima l'attuale come preset**. Niente arriva su Cora Max finché non tocchi **Salva e pubblica**.
 
 ### Progetta con l'IA
 

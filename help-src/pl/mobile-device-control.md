@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem
 description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i nim sterować: gniazda, pompy, głowice dozujące i testery.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Cora nie zadozuje ręcznie z głowicy, która nie była zmierzona. Przyciski **Z
 :::
 
 :::warning DŌS dozuje dalej z pustego pojemnika
-Urządzenie nie ma czujnika poziomu i samo się nie zatrzyma. Ustaw alert uzupełnienia na stronie głowicy, żeby Cora ostrzegła Cię, zanim pojemnik się opróżni.
+Urządzenie nie ma czujnika poziomu i samo się nie zatrzyma. Ustaw alert uzupełnienia dla każdej głowicy w **Alerty** na stronie DŌS, żeby Cora ostrzegła Cię, zanim pojemnik się opróżni. Zobacz [Alerty dozowników](/help/mobile-device-control#doser-alerts).
 :::
 
 ### Do czego służy głowica
@@ -94,6 +94,20 @@ Każde urządzenie ma stronę dopasowaną do tego, czym jest:
 | **ReefWave**, **ReefLED** *(Beta)* | Jego bieżący tryb | Na razie tylko do podglądu |
 
 **ReefRun to sterownik pompy powrotnej i pompy odpieniacza**, a nie pompa cyrkulacyjna. **ReefControl Power** *(Beta)* pokazuje swoje gniazda jako gniazda sterowane z tego samego panelu co gniazdo Apex, tylko włącz albo wyłącz. Automatyczny tryb dla nich jeszcze nie działa.
+
+## Alerty dozowników
+
+DŌS i ReefDose mają swoje alerty na własnej stronie. Zakładka **Reguły** w [Centrum alertów](/help/mobile-alerts) ma po jednym wierszu na dozownik, który ją otwiera, a przycisk **Otwórz dozownik** przy alercie dozownika też Cię tu przenosi.
+
+Na stronie DŌS dotknij karty **Alerty** (albo dzwonka na pasku tytułu). Arkusz pokazuje wszystkie głowice i dla każdej możesz ustawić:
+
+- *[głowica] · pozostałe dni*, na przykład *Jod · pozostałe dni*: dostaniesz alert, gdy zapasu zostanie na mniej dni
+- *[głowica] · pozostało*: dostaniesz alert, gdy w pojemniku zostanie mniej niż ta ilość
+- **Alerty o pominiętej dawce**: przełącznik, który informuje Cię, gdy głowica pominie zaplanowaną dawkę
+
+Każdy próg ma własny przełącznik, więc możesz go wyłączyć i zachować wartość. Na koniec dotknij **Zapisz**.
+
+Na stronie ReefDose dotknij dzwonka na pasku tytułu. Każda głowica ma własny próg pozostałych dni i własny przełącznik.
 
 ## Edytowanie planu ReefDose albo programu ReefRun *(Beta)*
 

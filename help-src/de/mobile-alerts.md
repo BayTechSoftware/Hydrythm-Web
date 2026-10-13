@@ -2,7 +2,7 @@
 title: Warnungen und Schwellenwerte
 description: Leg für jeden Wasserwert den Bereich fest, bestimme, worüber du Bescheid bekommst, und finde heraus, warum eine Warnung kam.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ Zu jeder aktiven Warnung siehst du den Wasserwert und das Becken, den auslösend
 
 Bei jeder Warnung hast du zwei Möglichkeiten:
 
-- **Regel ansehen** öffnet die zugehörige Regel. Dort kannst du den Bereich anpassen.
+- **Regel ansehen** öffnet die zugehörige Regel. Dort kannst du den Bereich anpassen. Bei einer Dosierer-Warnung, etwa einem fast leeren DŌS- oder ReefDose-Kopf oder einer verpassten Dosierung, heißt diese Schaltfläche stattdessen **Dosierer öffnen**. Sie öffnet die Seite dieses Dosierers mit seinen Warnungen.
 - **Diese Warnung erklären** lässt den Assistenten die Warnung vor dem Hintergrund der Geschichte deines Beckens einordnen.
+
+## Der Tab Regeln
+
+Die Regeln sind nach Wasserwert gruppiert. Jede Regel hat in ihrer Zeile einen eigenen Ein/Aus-Schalter, du kannst sie also ausschalten, ohne sie zu öffnen. Tippe auf eine Zeile, um Bereich oder Abklingzeit zu ändern.
+
+Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel *Jod · Tage übrig* oder *Jod · verbleibend*. Eine verpasste Dosierung erscheint als *Jod · Dosierung verpasst*.
+
+Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile. Die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieses Dosierers mit seinen Warnungen zu öffnen. Siehe [Warnungen für Dosierer](/help/mobile-device-control#doser-alerts).
+
+Fehlen einige von Coras empfohlenen Regeln, fügt **Empfohlene Regeln hinzufügen** ganz unten sie hinzu. Wasserwerte, die schon eine Regel haben, werden übersprungen. Mit **Eigene Regel hinzufügen** richtest du eine eigene Regel ein.
 
 ## Einen Bereich festlegen
 
@@ -123,10 +133,12 @@ Ein einziger Messwert außerhalb des Bereichs genügt für eine Warnung. Schläg
 
 Stimmt der Messwert nicht und das Becken ist in Ordnung (zum Beispiel, weil eine Sonde kalibriert werden muss), kümmere dich um die Quelle. Weitest du den Schwellenwert aus, um eine schlechte Sonde ruhigzustellen, überhörst du auch das nächste echte Problem.
 
-## Warnungen für einen Wasserwert abschalten
+## Eine Warnung ausschalten
 
-Öffne die Regel im Tab **Regeln** der Warnzentrale und schalte ihren **Aktivierungsschalter** aus. Regel und Bereich bleiben gespeichert. Du kannst sie später wieder einschalten, ohne alles neu einzurichten.
+Schalte im Tab **Regeln** der Warnzentrale den Schalter in der Zeile der Regel aus. Regel und Bereich bleiben gespeichert. Du kannst sie später wieder einschalten, ohne alles neu einzurichten.
+
+Solange eine Regel aus ist, bewertet Cora diesen Messwert nicht. Sein Widget bleibt neutral grau und löst nie eine Warnung aus.
 
 :::warning Wasserwert stummschalten, ohne den Bereich zu löschen
-Löschst du einen Schwellenwert, hört die Bewertung dieses Messwerts nicht unbedingt ganz auf. Standard-Referenzbereiche färben den Wert weiter ein und können weiter in die Zusammenfassung einfließen. Nimm deshalb den Aktivierungsschalter der Regel.
+Löschst du einen Schwellenwert, hört die Bewertung dieses Messwerts nicht unbedingt ganz auf. Standard-Referenzbereiche färben den Wert weiter ein und können weiter in die Zusammenfassung einfließen. Nimm deshalb den Schalter der Regel.
 :::

@@ -2,7 +2,7 @@
 title: Talking to Cora
 description: Using voice on Cora Max, from starting a conversation to what you can ask and how confirmations work.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 12
 group: Intelligence
 ---
@@ -26,6 +26,8 @@ Or tap the **Cora Assistant** icon in the top bar. Cora starts listening right a
 If you have more than one Cora Max at home, only one of them answers the wake phrase. That's the **Answering device**. It's a separate setting from the device that reads your equipment, which is the **Primary Cora Max** (more in [Devices and device health](/help/max-devices)).
 
 Change it in **Settings → Cora Assistant** on any Cora Max, or in Cora Mobile. It applies to your whole household.
+
+Only the **Answering device** listens for "Hey Cora". Your other Cora Max screens don't listen while it's online. If it goes offline, or hasn't been seen for more than 15 minutes, another Cora Max starts listening in its place, and stops again once it's back. The switch takes about a minute, so if nobody answers "Hey Cora" right after one, say it again or tap the **Cora Assistant** icon.
 
 :::note It starts the moment you tap
 Cora Assistant starts a live session right away, with no confirmation step. If you tapped it by mistake, stop the session. Nothing is lost.

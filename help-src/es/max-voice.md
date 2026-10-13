@@ -2,7 +2,7 @@
 title: Hablar con Cora
 description: Cómo usar la voz en Cora Max, cómo empezar una conversación, qué puedes preguntar y cómo funcionan las confirmaciones.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 12
 group: Intelligence
 ---
@@ -26,6 +26,8 @@ En la misma sección **Sonido y voz**, **Salida de audio** te deja elegir el alt
 Si en casa tienes más de un Cora Max, solo uno responde a la frase de activación. Es el **Dispositivo que responde**, y se elige por separado del dispositivo que consulta tus equipos (el **Cora Max principal**, que se explica en [Dispositivos y estado de los dispositivos](/help/max-devices)).
 
 Cámbialo en **Ajustes → Cora Assistant**, desde cualquiera de los Cora Max, o desde Cora Mobile. El cambio vale para toda la casa.
+
+Solo el **Dispositivo que responde** escucha "Hey Cora". Tus otros Cora Max no escuchan mientras él está en línea. Si se desconecta, o si lleva más de 15 minutos sin dar señales, otro Cora Max empieza a escuchar en su lugar, y deja de hacerlo cuando vuelve. El cambio tarda más o menos un minuto, así que si nadie responde a "Hey Cora" justo después, dilo otra vez o toca el icono **Cora Assistant**.
 
 :::note Empieza en cuanto tocas
 Cora Assistant empieza una sesión en directo al momento, sin pedir confirmación. Si lo tocaste sin querer, detén la sesión y no pasa nada.

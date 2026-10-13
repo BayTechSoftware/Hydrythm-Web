@@ -2,7 +2,7 @@
 title: Editar el panel de Cora Max
 description: Elige una cuadrícula, añade widgets y guarda diseños para la pantalla de Cora Max.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 4
 group: Your dashboard
 ---
@@ -48,6 +48,19 @@ El editor te recuerda arriba los tres gestos: **toca una casilla para editarla**
 Los dieciséis tipos de casilla (Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, módulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* y Cámara *(Beta)*) se explican en la **[Tipos de widget](/help/mobile-widgets)**.
 
 Las casillas Beta pertenecen a integraciones Beta que solo pueden añadir los usuarios Beta, y solo ves una cuando ya tienes el dispositivo. Consulta [Funciones Beta](/help/mobile-beta).
+
+## Plantillas
+
+**Plantillas** está junto a **Diseñar con IA**, en la parte superior del editor. Está disponible en todos los planes y nunca usa IA, así que también funciona sin el uso compartido de datos con la IA.
+
+Abre **Plantillas de panel**, unos cuantos diseños ya hechos a partir de lo que informa y tiene vinculado este acuario:
+
+- **Resumen**: pocas casillas y grandes, con los parámetros básicos como medidores y tus dispositivos principales
+- **Equipo**: primero una casilla por dispositivo, y luego las tomas y los parámetros básicos
+- **Parámetros**: primero los gráficos y las lecturas, y al final los dispositivos y las tomas
+- **Cámara**: una vista en directo grande arriba a la izquierda, con los parámetros básicos al lado. Solo aparece cuando el acuario tiene una cámara. Las cámaras están en Beta y solo las pueden usar los usuarios Beta.
+
+Cada una muestra una vista previa y cuántas casillas tiene en qué cuadrícula. Toca **Usar este**. Antes, Cora te pregunta **¿Sustituir tu panel?** Toca **Guardar antes el actual como preajuste** si quieres conservar el diseño que tienes, o **Sustituir**. No se guarda nada hasta que pulsas **Guardar**.
 
 ## Diseñar con IA
 

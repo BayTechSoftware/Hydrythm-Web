@@ -2,7 +2,7 @@
 title: Modifier votre tableau de bord
 description: Choisir le nombre de colonnes, ajouter et placer des widgets, changer la taille des tuiles et enregistrer des mises en page à réutiliser sur d’autres aquariums.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Les mesures, l’historique et les entrées du journal sont stockés à part de 
 ## Modifier le tableau de bord Cora Max
 
 Le tableau de bord du Cora Max se modifie à part, dans **Appareils → votre Cora Max → Modifier le tableau de bord**. Sa grille est fixe et ne défile pas. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
+
+### Modèles
+
+L’éditeur Cora Max a aussi une icône **Modèles** en haut, à côté de **Concevoir avec l’IA**. Elle est disponible avec tous les forfaits et n’utilise jamais l’IA, donc elle fonctionne aussi sans partage de données avec l’IA.
+
+Elle ouvre **Modèles de tableau de bord** : **Vue d’ensemble**, **Équipement**, **Paramètres** et, si l’aquarium a une caméra, **Caméra**. Chaque disposition est construite à partir de ce que cet aquarium remonte et a associé, avec un aperçu et le nombre de tuiles sur sa grille. Les caméras sont en Beta et réservées aux utilisateurs Beta.
+
+Touchez **Utiliser**, puis confirmez **Remplacer votre tableau de bord ?** avec **Remplacer**. Pour garder votre disposition actuelle, touchez **Enregistrer l’actuel comme préréglage d’abord**. Rien n’arrive sur Cora Max tant que vous ne touchez pas **Enregistrer et publier**.
 
 ### Concevoir avec l’IA
 

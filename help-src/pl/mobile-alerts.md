@@ -2,7 +2,7 @@
 title: Alerty i progi
 description: Ustaw zakres dla każdego parametru, wybierz, o czym chcesz wiedzieć, i sprawdź, dlaczego pojawił się alert.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 15
 group: Alerts and automation
 ---
@@ -24,8 +24,18 @@ Przy każdym aktywnym alercie widać parametr i akwarium, odczyt, który go wywo
 
 Każdy alert ma dwa przyciski:
 
-- **Wyświetl regułę** otwiera regułę, która go wywołała. Tam możesz poprawić zakres.
+- **Wyświetl regułę** otwiera regułę, która go wywołała. Tam możesz poprawić zakres. Przy alercie dozownika, na przykład gdy w głowicy DŌS albo ReefDose kończy się płyn albo pominięto dawkę, jest tu zamiast niego przycisk **Otwórz dozownik**. Otwiera stronę tego dozownika z jego alertami.
 - **Wyjaśnij ten alert** prosi Asystenta, żeby ocenił alert na tle historii Twojego akwarium.
+
+## Zakładka Reguły
+
+Reguły są pogrupowane według parametru. Każda reguła ma własny przełącznik w swoim wierszu, więc możesz ją wyłączyć bez otwierania. Dotknij wiersza, żeby zmienić zakres albo czas wstrzymania.
+
+Reguły głowicy dozującej mają w nazwie głowicę i to, co obserwują, na przykład *Jod · pozostałe dni* albo *Jod · pozostało*. Pominięta dawka pojawia się jako *Jod · pominięta dawka*.
+
+Każdy DŌS i każdy ReefDose ma tu jeden własny wiersz. Alerty jego głowic nie są wymienione osobno. Dotknij wiersza, żeby otworzyć stronę dozownika z jego alertami. Zobacz [Alerty dozowników](/help/mobile-device-control#doser-alerts).
+
+Jeśli brakuje części reguł zalecanych przez Corę, **Dodaj zalecane reguły** na dole je doda. Pomija parametry, które mają już regułę. **Dodaj własną regułę** ustawia Twoją własną regułę.
 
 ## Ustawianie zakresu
 
@@ -125,9 +135,11 @@ Wystarczy jeden odczyt spoza zakresu, więc skok sondy też wywoła alert. Jeśl
 
 Jeśli błędny jest odczyt, a nie stan akwarium (np. sonda wymaga kalibracji), napraw źródło. Szerszy próg uciszy wadliwą sondę, ale ukryje też następny prawdziwy problem.
 
-## Wyłączanie alertów dla parametru
+## Wyłączanie alertu
 
-Otwórz regułę w zakładce **Reguły** w Centrum alertów i wyłącz jej **przełącznik**. Reguła i zakres zostają zapisane, więc możesz ją później włączyć bez ustawiania od nowa.
+Wyłącz przełącznik w wierszu reguły w zakładce **Reguły** w Centrum alertów. Reguła i zakres zostają zapisane, więc możesz ją później włączyć bez ustawiania od nowa.
+
+Dopóki reguła jest wyłączona, Cora nie ocenia tego odczytu. Jej widżet zostaje neutralnie szary i nigdy nie wywoła alertu.
 
 :::warning Wycisz parametr, ale nie usuwaj zakresu
 Usunięcie progu nie zawsze kończy ocenę odczytu. Domyślne zakresy odniesienia nadal nadają wartości kolor i mogą trafiać do briefingu. Użyj przełącznika reguły.

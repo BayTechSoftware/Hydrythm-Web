@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's own page to see its live state and drive outlets, pumps, dosing heads and testers.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Cora won't dose a head by hand until the head has been measured. **Measure to do
 :::
 
 :::warning A DŌS keeps dosing when its container is empty
-The unit has no level sensor and won't stop on its own. Set a refill alert from the head's page so Cora warns you before the container runs dry.
+The unit has no level sensor and won't stop on its own. Set a refill alert for each head under **Alerts** on the DŌS page, so Cora warns you before the container runs dry. See [Doser alerts](/help/mobile-device-control#doser-alerts).
 :::
 
 ### What each head is used for
@@ -94,6 +94,20 @@ Each unit has a page that fits what it does:
 | **ReefWave**, **ReefLED** *(Beta)* | Its current mode | View only, for now |
 
 ReefRun controls return and skimmer pumps. It isn't a wave pump. **ReefControl Power** *(Beta)* sockets show up as outlets, switched from the same outlet control as an Apex outlet, on or off only. There's no automatic mode for them yet.
+
+## Doser alerts
+
+A DŌS and a ReefDose keep their alerts on their own page. The **Rules** tab of the [Alert Center](/help/mobile-alerts) has one row per doser that opens it, and a doser alert's **Open doser** button brings you here too.
+
+On a DŌS page, tap the **Alerts** card (or the bell in the title bar). The sheet lists every head, and for each one you can set:
+
+- *[head] · days left*, for example *Iodine · days left*: you get an alert below this many days of supply
+- *[head] · remaining*: you get an alert below this much left in the container
+- **Missed dose alerts**: a switch that tells you when the head misses a scheduled dose
+
+Each threshold has its own switch, so you can turn one off and keep its value. Tap **Save** when you're done.
+
+On a ReefDose page, tap the bell in the title bar. Each head has its own days-left threshold and switch.
 
 ## Editing a ReefDose plan or ReefRun program *(Beta)*
 

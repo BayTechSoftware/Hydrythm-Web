@@ -2,7 +2,7 @@
 title: Controlar tus equipos
 description: Abre la página de un dispositivo para ver su estado en directo y manejarlo, ya sean tomas, bombas, cabezales de dosificación o equipos de análisis.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Cora no dosifica a mano con un cabezal que no se ha medido. **Medir para dosific
 :::
 
 :::warning Un DŌS sigue dosificando con el recipiente vacío
-El equipo no tiene sensor de nivel y no se para solo. Fija una alerta de reposición en la página del cabezal para que Cora te avise antes de que el recipiente se vacíe.
+El equipo no tiene sensor de nivel y no se para solo. Fija una alerta de reposición para cada cabezal en **Alertas**, en la página del DŌS, para que Cora te avise antes de que el recipiente se vacíe. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
 :::
 
 ### Para qué se usa cada cabezal
@@ -94,6 +94,20 @@ Cada equipo tiene una página adaptada a lo que es:
 | **ReefWave**, **ReefLED** *(Beta)* | Su modo actual | Solo consultarlo, por ahora |
 
 **ReefRun controla la bomba de retorno y la del skimmer.** No es una bomba de circulación. Las tomas de **ReefControl Power** *(Beta)* se controlan desde el mismo control de tomas que una toma del Apex, solo encendido o apagado. Todavía no tienen modo automático.
+
+## Alertas de dosificadores
+
+Un DŌS y un ReefDose guardan sus alertas en su propia página. La pestaña **Reglas** del [Centro de alertas](/help/mobile-alerts) tiene una fila por dosificador que la abre, y el botón **Abrir dosificador** de una alerta de dosificador también te trae aquí.
+
+En la página de un DŌS, toca la tarjeta **Alertas** (o la campana de la barra de título). La hoja muestra todos los cabezales, y en cada uno puedes fijar:
+
+- *[cabezal] · días restantes*, por ejemplo *Yodo · días restantes*: recibes una alerta cuando quedan menos días de reserva que este número
+- *[cabezal] · restante*: recibes una alerta cuando queda menos líquido en el recipiente que esta cantidad
+- **Alertas de dosis omitida**: un interruptor que te avisa cuando el cabezal se salta una dosis programada
+
+Cada umbral tiene su propio interruptor, así que puedes desactivar uno y conservar su valor. Toca **Guardar** cuando termines.
+
+En la página de un ReefDose, toca la campana de la barra de título. Cada cabezal tiene su propio umbral de días restantes y su interruptor.
 
 ## Editar un plan de ReefDose o un programa de ReefRun *(Beta)*
 

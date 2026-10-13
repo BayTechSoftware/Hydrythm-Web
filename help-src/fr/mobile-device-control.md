@@ -2,7 +2,7 @@
 title: Contrôler votre équipement
 description: La page de chaque appareil montre son état en direct et ses commandes, pour les prises, les pompes, les têtes de dosage et les testeurs.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 11
 group: Equipment
 ---
@@ -67,7 +67,7 @@ Cora ne dose pas à la main avec une tête qui n’a pas été mesurée. **Mesur
 :::
 
 :::warning Un DŌS continue à doser avec un bidon vide
-L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Réglez une alerte de réapprovisionnement depuis la page de la tête. Cora vous préviendra avant que le bidon soit vide.
+L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Réglez une alerte de réapprovisionnement pour chaque tête sous **Alertes**, sur la page du DŌS. Cora vous préviendra avant que le bidon soit vide. Voir [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
 :::
 
 ### L’usage de chaque tête
@@ -94,6 +94,20 @@ Chaque appareil a une page adaptée à ce qu’il fait.
 | **ReefWave**, **ReefLED** *(Beta)* | Son mode actuel | Lecture seule pour l’instant |
 
 **ReefRun pilote la pompe de remontée et la pompe d’écumeur.** Ce n’est pas une pompe de brassage. Les prises **ReefControl Power** *(Beta)* apparaissent comme des prises, pilotées depuis la même commande de prise qu’une prise Apex, seulement allumé ou éteint. Il n’y a pas encore de mode automatique pour elles.
+
+## Alertes des doseurs
+
+Un DŌS et un ReefDose gardent leurs alertes sur leur propre page. L’onglet **Règles** du [Centre d’alertes](/help/mobile-alerts) a une ligne par doseur qui l’ouvre, et le bouton **Ouvrir le doseur** d’une alerte de doseur vous amène aussi ici.
+
+Sur la page d’un DŌS, touchez la carte **Alertes** (ou la cloche dans la barre de titre). La fenêtre liste chaque tête, et pour chacune vous pouvez régler :
+
+- *[tête] · jours restants*, par exemple *Iode · jours restants* : vous recevez une alerte quand il reste moins de jours de réserve que ce nombre
+- *[tête] · restant* : vous recevez une alerte quand il reste moins que cette quantité dans le bidon
+- **Alertes de dose manquée** : un interrupteur qui vous prévient quand la tête manque une dose programmée
+
+Chaque seuil a son propre interrupteur, pour le désactiver sans perdre sa valeur. Touchez **Enregistrer** quand vous avez fini.
+
+Sur la page d’un ReefDose, touchez la cloche dans la barre de titre. Chaque tête a son propre seuil de jours restants et son interrupteur.
 
 ## Modifier un programme ReefDose ou ReefRun *(Beta)*
 

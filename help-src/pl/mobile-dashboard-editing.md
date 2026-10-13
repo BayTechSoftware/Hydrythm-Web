@@ -2,7 +2,7 @@
 title: Edytowanie pulpitu
 description: Ustaw liczbę kolumn, dodawaj i układaj widżety, zmieniaj rozmiar kafelków i zapisuj układy, których użyjesz na innych akwariach.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Odczyty, historia i wpisy w dzienniku są przechowywane osobno od układu, więc
 ## Edytowanie pulpitu Cora Max
 
 Pulpit Cora Max edytujesz osobno: **Urządzenia → Twój Cora Max → Edytuj panel**. Ma stałą siatkę, która się nie przewija. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).
+
+### Szablony
+
+Edytor Cora Max ma też u góry ikonę **Szablony**, obok **Zaprojektuj z AI**. Działa w każdym planie i nigdy nie używa AI, więc działa też bez udostępniania danych AI.
+
+Otwiera **Szablony pulpitu**: **Przegląd**, **Sprzęt**, **Parametry** oraz, gdy akwarium ma kamerę, **Kamera**. Każdy układ jest zbudowany z tego, co to akwarium zgłasza i co ma podłączone, i ma podgląd oraz liczbę kafelków na swojej siatce. Kamery są w wersji Beta i dostępne tylko dla użytkowników Beta.
+
+Dotknij **Użyj tego**, a potem potwierdź **Zastąpić pulpit?** przyciskiem **Zastąp**. Żeby zachować obecny układ, dotknij **Najpierw zapisz obecny jako preset**. Nic nie trafi na Cora Max, dopóki nie dotkniesz **Zapisz i opublikuj**.
 
 ### Zaprojektuj z AI
 

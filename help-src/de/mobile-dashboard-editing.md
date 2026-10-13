@@ -2,7 +2,7 @@
 title: Dein Dashboard bearbeiten
 description: Leg die Spaltenzahl fest, füge Widgets hinzu, ordne sie an, ändere ihre Größe und speichere Layouts, die du für andere Becken wiederverwenden kannst.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Your dashboard
 ---
@@ -86,6 +86,14 @@ Messwerte, Historie und Tagebucheinträge speichert Cora getrennt vom Layout. Be
 ## Das Cora Max-Dashboard bearbeiten
 
 Das Dashboard auf dem Cora Max bearbeitest du separat unter **Geräte → dein Cora Max → Dashboard bearbeiten**. Es hat ein festes Raster, das nicht scrollt. Mehr dazu unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).
+
+### Vorlagen
+
+Der Cora Max-Editor hat oben außerdem ein Symbol **Vorlagen**, neben **Mit KI gestalten**. Es steht in jedem Tarif zur Verfügung und nutzt nie KI, funktioniert also auch ohne Datenfreigabe für KI.
+
+Es öffnet **Dashboard-Vorlagen**: **Übersicht**, **Ausrüstung**, **Wasserwerte** und, wenn das Becken eine Kamera hat, **Kamera**. Jedes Layout entsteht aus dem, was dieses Becken meldet und verknüpft hat, mit einer Vorschau und der Zahl der Kacheln auf seinem Raster. Kameras sind in der Beta und nur für Beta-Nutzer verfügbar.
+
+Tippe auf **Verwenden** und bestätige dann **Dashboard ersetzen?** mit **Ersetzen**. Willst du dein aktuelles Layout behalten, tippe auf **Aktuelles zuerst als Preset sichern**. Auf dem Cora Max kommt nichts an, bis du auf **Speichern & veröffentlichen** tippst.
 
 ### Mit KI gestalten
 
