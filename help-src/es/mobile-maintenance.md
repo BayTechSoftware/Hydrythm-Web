@@ -1,45 +1,52 @@
 ---
 title: Mantenimiento
-description: Tareas periódicas con recordatorios, como limpiar el skimmer, cambiar las mangas filtrantes o revisar las bombas.
+description: Añade tareas periódicas como limpiar el skimmer o cambiar las mangas filtrantes, recibe un recordatorio cuando toquen y márcalas como hechas o posponlas.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 19
+reviewed: 2026-10-13
+order: 26
 group: Records
+twin: max-records
 ---
 
-En Mantenimiento tienes las tareas periódicas del acuario y sus recordatorios. Se abre desde la fila de accesos directos, al final del panel.
+Mantenimiento guarda las tareas que tu acuario necesita con regularidad, con un recordatorio para cada una.
+
+Toca **Mantenimiento** en la fila de botones que hay debajo del panel. También está en Ajustes → tu acuario → **Mantenimiento**.
 
 ![La lista de mantenimiento](img/mobile-maintenance.webp "El cumplimiento, las tareas atrasadas y, en cada tarea, cuándo se hizo por última vez y cuándo toca la próxima.")
 
-## El resumen
+## El resumen {#summary}
 
-Arriba verás dos datos.
+Arriba verás el **Cumplimiento de mantenimiento**, la parte de las tareas que ahora mismo están al día, y cuántas tareas están atrasadas.
 
-- **Cumplimiento de mantenimiento** es la parte de las tareas que ahora mismo están al día.
-- **Atrasadas** es el número de tareas que ya han pasado su fecha.
+Cada tarea de la lista tiene un color según esté atrasada, próxima o programada. También muestra cuándo la hiciste por última vez y cuándo toca la próxima.
 
-Cada tarea tiene un color según su urgencia, que puede ser atrasada, próxima o programada. Todas muestran cuándo se hicieron por última vez y cuándo toca la próxima.
+## Añadir una tarea {#adding-a-task}
 
-## Añadir una tarea
+Toca **Agregar tarea** y elige:
 
-Ponle un nombre y un icono, e indica cada cuántos días hay que hacerla. Cora calcula cuándo toca la próxima vez.
+- **Desde plantilla** para una tarea habitual con su intervalo ya puesto. Elígela, indica cuándo toca la próxima vez y a qué hora quieres el recordatorio, y toca **Confirmar**.
+- **Tarea personalizada** para una tuya. Ponle un **Nombre de la tarea**, un **Intervalo (días)**, una **Categoría** y una **Próxima fecha de vencimiento**. Activa **Recordatorio** y elige **Recordarme a las** si quieres una notificación.
 
-Algunas tareas habituales:
+Algunas de las plantillas, con el intervalo con el que empiezan:
 
-| Tarea | Cada |
+| Tarea | Intervalo |
 |---|---|
-| Cambiar las mangas filtrantes | 3–7 días |
+| Cambiar mangas filtrantes | 3 días |
 | Limpiar el vaso del skimmer | 7 días |
-| Limpiar el cristal | 7 días |
-| Cambiar el carbón o el GFO | 30 días |
-| Revisar la bomba de retorno | 90–180 días |
-| Calibrar las sondas | 30–90 días |
+| Cambio de agua | 7 días |
+| Probar parámetros del agua | 7 días |
+| Reemplazar carbón | 30 días |
+| Calibrar sonda de pH | 30 días |
+| Limpiar bombas de circulación | 90 días |
+| Subir resultados de ICP | 90 días |
 
-## Tareas que Cora crea por ti
+Puedes cambiar el intervalo de cualquier tarea más adelante.
 
-Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea, Cora añade por su cuenta el mantenimiento que ese equipo necesita, ya con el intervalo correcto. Verás aparecer tareas como estas:
+### Tareas que Cora añade para los equipos Red Sea {#red-sea-tasks}
 
-| Dispositivo | Tarea | Cada |
+Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea, Cora añade el mantenimiento que ese equipo necesita, ya con el intervalo correcto:
+
+| Dispositivo | Tarea | Intervalo |
 |---|---|---|
 | ReefATO+ | Replace ReefATO+ EC sensor | 42 días |
 | ReefATO+ | Replace ReefATO+ return pump | 135 días |
@@ -53,45 +60,44 @@ Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea, Co
 | ReefDose, por cabezal | Calibrate ReefDose head | 90 días |
 | ReefDose, por cabezal | Replace ReefDose head tubing | 450 días |
 
-Funcionan igual que cualquier tarea que añadas tú: puedes renombrarlas, cambiar su intervalo, posponerlas o pausarlas. Si eliminas una, Cora no la vuelve a crear para ese dispositivo.
+Funcionan igual que cualquier tarea que añadas tú. Puedes cambiarles el nombre, cambiar el intervalo, posponerlas o eliminarlas. Si eliminas una, Cora no la vuelve a añadir para ese dispositivo.
 
-### Probar el agua
+### Probar el agua {#test-water}
 
-Si tocas **Recordarme probar cada semana** en la tarjeta de la primera prueba, Cora añade una tarea semanal llamada **Probar el agua**, que vence el **Día de la prueba** que elijas. Funciona como cualquier tarea que añadas tú. Consulta [Configurar Cora Mobile](/help/mobile-setup).
+Si tocas **Recordarme probar cada semana** en la tarjeta de la primera prueba, Cora añade una tarea semanal llamada **Probar el agua**, que vence el **Día de la prueba** que elijas. Funciona como cualquier otra tarea. Consulta [Configurar Cora Mobile](/help/mobile-setup). También puedes añadir un recordatorio de pruebas en cualquier momento con la plantilla **Probar parámetros del agua**.
 
-### Desde una automatización
+### Desde una automatización {#from-an-automation}
 
-Una [automatización](/help/mobile-automation) con la acción **Crear una tarea de mantenimiento** puede poner un trabajo en esta lista cuando se activa su regla, o hacer que una tarea existente venza ahora. Una tarea nueva es puntual, vence ahora y sale de la lista cuando la completas. Mientras siga abierta, la misma automatización no añade otra. Recibes una sola notificación.
+Una [automatización](/help/mobile-automation) con la acción **Crear una tarea de mantenimiento** puede poner una tarea en esta lista cuando se activa su regla, o hacer que una tarea existente venza ahora. Una tarea nueva es una **Tarea única**, vence ahora y muestra *Creada por una automatización* con el motivo. Sale de la lista cuando la completas. Mientras siga abierta, la misma automatización no añade otra. Recibes una sola notificación.
 
-## Recordatorios
+## Recordatorios {#reminders}
 
-Cada tarea puede enviarte un recordatorio. Tú eliges cuándo llega.
+Abre una tarea, activa **Recordatorio** y elige **Recordarme a las**. Recibes una notificación el día antes de que venza y otra ese mismo día. Mientras está atrasada, recibes un recordatorio cada pocos días. Si varias tareas de un acuario vencen a la vez, llegan en una sola notificación.
 
-- **Cuántos días antes** de la fecha
-- **A qué hora** del día
+Los recordatorios están en **Recordatorios de mantenimiento**, en [Ajustes → Notificaciones](/help/mobile-notifications). Si prefieres ver una tarea solo en la lista, desactiva su **Recordatorio**.
 
-Si prefieres ver una tarea solo en la lista, desactiva sus recordatorios.
+## Marcar una tarea como hecha {#marking-done}
 
-## Marcar una tarea como hecha
+Desliza la tarea hacia la derecha, o ábrela y toca **Completar**. Si la deslizaste por error, toca **Deshacer** en el mensaje que aparece.
 
-Toca **Completar** en la tarea o deslízala. Cora guarda cuándo la hiciste y programa la siguiente a partir de ese momento. Si la haces con tres días de retraso, la siguiente también se mueve tres días.
+Cora guarda la hora en que la terminaste y cuenta la próxima fecha a partir de ahí. Así que si haces una tarea con tres días de retraso, la siguiente también se mueve tres días.
 
-:::note Al tocar una tarea, se abre para editarla
-Si tocas la fila, se abre la tarea y puedes cambiar su nombre, su intervalo o sus recordatorios. Para completarla, usa **Completar**.
+La hoja de la tarea muestra su **Historial de finalizaciones**, incluido el retraso de cada una.
+
+:::note Completar una tarea también escribe una entrada en el diario
+Cora añade por ti una entrada breve a tu [diario](/help/mobile-journal), indicando si fue con retraso. Añade tu propia entrada cuando haya algo más que contar, por ejemplo si la bomba estaba llena de arena o las mangas estaban negras después de un solo día.
 :::
 
-## Posponer
+## Editar una tarea {#editing}
 
-Si ahora no puedes hacer una tarea, toca **Posponer**. Sigue en la lista, en gris y con el estado **Postergada**, y muestra su nueva fecha. No desaparece nada. Solo dejas de recibir avisos hasta ese día.
+Toca una tarea para abrirla. Puedes cambiar el **Nombre de la tarea**, el **Intervalo (días)**, las **Notas (opcional)**, la **Próxima fecha de vencimiento** y el recordatorio, y después tocar **Guardar**. **Eliminar** la borra.
 
-:::warning No marques como hecha una tarea que no hiciste
-La próxima fecha se calcula a partir del día en que la completaste. Si marcas como hecha una tarea pendiente, se mueven todas las fechas siguientes. Mejor posponla.
+## Posponer {#snoozing}
+
+¿No puedes hacer una tarea ahora? Ábrela, toca **Posponer** y elige **1 día**, **3 días**, **1 semana**, **2 semanas** o **1 mes**. Sigue en la lista como **Pospuesta** con su nueva fecha, y no recibes recordatorios hasta entonces.
+
+:::warning Marca una tarea como hecha solo cuando la hayas hecho
+La próxima fecha se cuenta a partir del día en que la marcas como hecha. Si marcas como hecha una tarea pendiente, se mueven todas las fechas siguientes. Mejor posponla.
 :::
 
-## Pausar una tarea
-
-Puedes desactivar una tarea, por ejemplo si has retirado ese equipo o si la tarea no toca en esta temporada. Se queda en la lista, deja de tener fecha y puedes volver a activarla cuando quieras.
-
-## Mantenimiento y diario
-
-Completar una tarea no es lo mismo que escribir en el diario. Mantenimiento te dice qué toca hacer. El **[diario](/help/mobile-journal)** recoge qué hiciste y qué pasó después. Si una tarea tuvo algo raro, como una bomba llena de arena o unas mangas negras después de un solo día, apúntalo también en el diario.
+No hay forma de pausar una tarea. Para una tarea que no toca en esta temporada, posponla **1 mes**, o elimínala y vuelve a añadirla más adelante.

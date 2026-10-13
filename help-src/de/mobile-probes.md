@@ -1,68 +1,75 @@
 ---
-title: Parameterzuordnung
-description: Sieh, welche Sonde jeden Messwert liefert, egal bei welchem Controller, und halte Kalibrierung und Reinigung fest.
+title: Parameterzuordnung und Sonden
+description: Festlegen, welche Sonde jeden Messwert liefert, Cora sagen, was jede Sonde misst, und Kalibrierung und Reinigung von Sonden festhalten.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 13
+reviewed: 2026-10-13
+order: 15
 group: Equipment
 ---
 
-Hast du mehr als einen Controller, oder zwei Sonden, die dasselbe messen, muss Cora wissen, welchem Messwert es vertrauen soll. Genau dafür ist die **Parameterzuordnung** da, und dort legst du auch fest, wofür jede Sonde überhaupt steht.
+Mit der **Parameterzuordnung** sagst du Cora, was jede Sonde misst und, wenn zwei Sonden dasselbe melden, welcher es vertrauen soll. Geh zu **Einstellungen**, öffne das Becken und tippe auf **Parameterzuordnung**.
 
-Geh zu **Einstellungen**, öffne das Becken und wähl **Parameterzuordnung**. Sie steht zwischen **Becken bearbeiten** und **Warnschwellen**. Der Stift oben auf dem Dashboard öffnet **Becken bearbeiten**, und dort gibt es sie nicht. Du erreichst sie auch über die Geräteseiten von Neptune Apex und GHL (Beta). GHL steht nur Beta-Nutzern offen. Siehe [Beta-Funktionen](/help/mobile-beta).
+Sie steht zwischen **Becken bearbeiten** und **Warnschwellen**. Der Stift oben auf dem Dashboard öffnet **Becken bearbeiten**, wo es sie nicht gibt. Du erreichst sie auch über die Geräteseiten von Neptune Apex und GHL (Beta). GHL ist nur für Beta-Nutzer offen. Siehe [Beta-Funktionen](/help/mobile-beta).
 
-Der Bildschirm hat ein Suchfeld (**Parameter suchen**) und zwei Tabs, **Zuordnung** und **Quellen**. Die Suche sieht auf Wasserwertnamen, Sondennamen, Geräte und Marken. Dasselbe Suchfeld gibt es in jeder Wasserwert-Auswahl.
+Der Bildschirm hat ein Suchfeld (**Parameter suchen**) und zwei Tabs, **Zuordnung** und **Quellen**. Die Suche durchsucht Namen von Wasserwerten, Namen von Sonden, Geräte und Marken. Dasselbe Suchfeld gibt es in jeder Auswahl von Wasserwerten.
 
-## Woher jeder Messwert kommt
+## Sonden: Cora sagen, was jede ist {#mapping}
 
-Das ist der Tab **Quellen**.
+![Der Tab Zuordnung](img/mobile-probe-mapping.webp "Jede Sonde, gruppiert nach dem Gerät, das sie meldet, mit dem Wasserwert, dem sie zugeordnet ist.")
 
-![Woher jeder Messwert kommt](img/mobile-probes.webp "Jeder Wasserwert, welche Sonde ihn gerade liefert, und eine Schaltfläche zum Ändern.")
+Der Tab **Zuordnung** öffnet sich zuerst. Er listet jede Sonde auf, die Cora kennt, gruppiert nach dem Gerät, das sie meldet, mit ihrem aktuellen Messwert. Cora erkennt Standardnamen von Sonden selbst, und jede Zeile zeigt, was es zugeordnet hat. Meist musst du nur die paar korrigieren, die es nicht einordnen konnte.
 
-In diesem Abschnitt stehen alle Wasserwerte, die Cora für dieses Becken verfolgt, etwa pH oder Temperatur, und dazu, welche Sonde sie gerade liefert.
+Jede Zeile gibt dir drei Möglichkeiten.
 
-Tippe auf einen Wasserwert, um jede Sonde zu sehen, die ihn meldet, über alle verbundenen Controller hinweg. Zu jeder stehen ihre Marke, ihr eigener Name für die Sonde und ihr Live-Messwert. Wähl eine aus, um sie festzulegen, oder wähl **Automatisch (neueste Messung gewinnt)**, damit Cora die Sonde nutzt, die zuletzt gemeldet hat. Die anderen bleiben im Verlauf.
-
-Ein Zusatz neben jedem Wasserwert zeigt, was gerade gilt: **Automatisch**, oder **Von dir gewählt**, sobald du eine Sonde festgelegt hast.
-
-Meldet sich eine festgelegte Sonde nicht mehr, zeigt Cora, wann sie zuletzt gemeldet hat, und bietet **Zurück zu Automatisch** an. So kann eine tote Sonde einen Wasserwert nicht dauerhaft blockieren.
-
-Tippe auf **Umbenennen**, um einem Wasserwert einen eigenen Anzeigenamen zu geben. Das ist unabhängig vom Namen, den du der Sonde selbst gibst. Dieser Name erscheint auf deinem Dashboard, in Warnungen und in Reef Buddy.
-
-:::note Ein Lecksensor lässt sich hier nicht neu zuordnen
-Der Alarm eines Lecksensors hängt an seinem eigenen Namen, deshalb taucht er in dieser Auswahl nicht auf. Er funktioniert weiterhin wie gewohnt.
-:::
-
-## Sonden: Cora sagen, was jede ist
-
-Der Tab **Zuordnung** öffnet zuerst. Er listet alle Sonden, die Cora kennt, gruppiert nach dem Gerät, das sie meldet, mit ihrem aktuellen Messwert. Die Standardnamen erkennt Cora selbst, und in der Zeile siehst du, welchem Wasserwert es die Sonde zugeordnet hat. Meist musst du also nur die Sonden korrigieren, die Cora nicht einordnen konnte, und nicht alle von Hand zuordnen.
-
-In jeder Zeile hast du drei Möglichkeiten:
-
-- **Einen Cora-Wasserwert**, also den Wert, den diese Sonde misst.
-- **Eigen** für eine Sonde, für die Cora keinen Standard-Wasserwert kennt. Du gibst ihr ein kurzes Kürzel in Großbuchstaben, und Cora zeichnet sie unter diesem Namen auf.
-- **Ignorieren** für Sonden, die Cora gar nicht aufzeichnen soll.
+- **Ein Cora-Wasserwert** ist der Wert, den diese Sonde misst.
+- **Eigener…** ist für eine Sonde, für die Cora keinen Standard-Wasserwert hat. Gib unter **Eigener Wert (GROSSBUCHSTABEN-Token)** einen kurzen Namen in Großbuchstaben ein, und Cora verfolgt sie unter diesem Namen.
+- **Ignorieren** ist für Sonden, die gar nicht aufgezeichnet werden sollen.
 
 Eine ignorierte oder nicht zugeordnete Sonde erscheint auf keinem Dashboard und löst keine Warnungen aus.
 
-Eine Zuordnung gilt ab dem nächsten Messwert. Korrigierst du hier etwas, bleibt die Historie also, wie sie ist. Nur was ab jetzt gespeichert wird, ändert sich. Tippe auf **Speichern**, um die Zuordnungen zu übernehmen.
+Eine Zuordnung wirkt, sobald das nächste Mal Messwerte ankommen. Korrigierst du hier eine, wird der Verlauf nicht umgeschrieben. Es ändert sich nur, was ab dann gespeichert wird. Tippe auf **Speichern**, um deine Änderungen zu übernehmen.
 
 :::warning Eine nicht zugeordnete Sonde sieht Cora nicht
-Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf als Erstes ihre Zuordnung.
+Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf zuerst ihre Zuordnung.
 :::
 
-## Mehrere Sonden für einen Wasserwert
+## Woher jeder Messwert kommt {#sources}
 
-Hast du zwei Temperatursonden, egal ob am selben Controller oder an zweien, ordne beide zu. Cora führt sie als getrennte Quellen, und im Tab **Quellen** legst du fest, welche davon den Wasserwert liefert, oder lässt es auf Automatisch. In der [Wasserwert-Ansicht](/help/mobile-metric-detail) kannst du sie vergleichen.
+![Der Tab Quellen](img/mobile-probes.webp "Jeder Messwert, die Sonde, die ihn liefert, und ob er Automatisch oder Von Ihnen gewählt ist.")
 
-Melden zwei Quellen denselben Wasserwert, gewinnt die neueste Messung. Ein Wert auf dem Bildschirm wird nur durch einen Messwert mit späterem Messzeitpunkt ersetzt, von welchem Gerät auch immer. Ein älterer Messwert oder ein Gerät, das einen alten noch einmal sendet, landet im Verlauf und überschreibt nicht den aktuellen Wert. Hast du eine Quelle festgelegt, folgt Cora stattdessen dieser Quelle.
+Der Tab **Quellen** listet jeden Wert auf, den Cora für dieses Becken verfolgt, etwa pH oder Temperatur, und zeigt, welche Sonde ihn gerade liefert.
 
-## Sondenpflege festhalten
+Tippe auf einen Messwert, um jede Sonde zu sehen, die ihn meldet, über alle Controller, die du verbunden hast. Jede zeigt ihre Marke, ihren eigenen Namen für die Sonde und ihren Live-Wert. Wähl eine, um sie festzulegen, oder wähl **Automatisch (neueste Messung gewinnt)**, damit Cora die Sonde nimmt, die zuletzt gemeldet hat. Die anderen bleiben im Verlauf.
 
-Sonden driften mit der Zeit. Cora kann festhalten, wann du jede zuletzt kalibriert oder gereinigt hast. So erkennst du, ob sich wirklich etwas im Becken ändert oder ob eine Sonde Pflege braucht.
+Ein Hinweis neben jedem Messwert zeigt, was gilt: **Automatisch** oder **Von Ihnen gewählt**, sobald du eine Sonde festgelegt hast. Deine Wahl gilt für diesen Messwert im ganzen Becken, nicht für ein einzelnes Widget.
 
-Kalibrierung oder Reinigung trägst du beim Eintrag der Sonde ein. Das passt auch gut als wiederkehrende [Wartungsaufgabe](/help/mobile-maintenance).
+Meldet sich eine festgelegte Sonde nicht mehr, zeigt Cora, wann sie zuletzt gehört wurde, und bietet **Zurück zu Automatisch** an, damit eine tote Sonde einen Messwert nicht festhalten kann.
 
-:::note Die Kalibrierhistorie erklärt Abweichungen
-Zeigen Sonde und Testkit unterschiedliche Werte, schau zuerst nach, wann du die Sonde zuletzt kalibriert hast.
+Tippe auf **Umbenennen**, um einem Messwert einen eigenen Anzeigenamen zu geben. Das ist getrennt von jedem Namen, den du der Sonde selbst gibst. Er erscheint auf deinem Dashboard, in Warnungen und in Reef Buddy.
+
+Das Beckenprofil hat außerdem einen Bereich **Wasserwert-Quellen** (er ist ausgeblendet, während du ein neues Becken anlegst). Er legt dasselbe in kürzerer Form fest. Nutze die Parameterzuordnung, wenn du jede Sonde an jedem Controller an einem Ort haben willst.
+
+:::note Ein Lecksensor lässt sich hier nicht neu zuordnen
+Der Alarm eines Lecksensors hängt von seinem eigenen Namen ab, deshalb ist er aus dieser Auswahl ausgenommen. Er funktioniert wie immer.
+:::
+
+## Mehrere Sonden für einen Wasserwert {#multiple-probes}
+
+Hast du zwei Temperatursonden, egal ob am selben Controller oder an zwei verschiedenen, ordne beide zu. Cora behält sie als getrennte Quellen, und im Tab **Quellen** wählst du, welche den Messwert liefert, oder lässt es auf Automatisch. Vergleichen kannst du sie in [der Wasserwert-Ansicht](/help/mobile-metric-detail).
+
+Melden zwei Quellen denselben Wasserwert, gewinnt die neueste Messung. Ein Wert auf dem Bildschirm wird nur durch einen Messwert mit späterem Messzeitpunkt ersetzt, egal von welchem Gerät. Ein älterer Messwert, oder ein Gerät, das einen alten noch einmal schickt, geht in den Verlauf und überschreibt den aktuellen Wert nicht. Hast du im Tab **Quellen** eine Quelle festgelegt, folgt Cora stattdessen dieser Quelle.
+
+## Sondenpflege erfassen {#recording-probe-care}
+
+Sonden driften. Wenn du eine Sonde kalibrierst, reinigst oder ersetzt, sag es Cora, damit es den Sprung im Messwert nicht für eine echte Änderung im Becken hält.
+
+1. Tippe auf dem Dashboard auf das Widget des Wasserwerts, zum Beispiel pH, Temperatur, Salinität oder ORP.
+2. Tippe in der oberen Leiste auf **Sondenpflege erfassen** (das Sensorsymbol).
+3. Wähl, was du gemacht hast: **Kalibriert**, **Gereinigt**, **Ersetzt**, **Neu positioniert** oder **Mit Referenz verglichen**. Du kannst einen **Referenzmesswert** und eine Notiz hinzufügen.
+4. Tippe auf **Sondenpflege erfassen**.
+
+Die Wasserwert-Ansicht zeigt dann, wie lange es her ist, dass diese Sonde kalibriert wurde. Sondenpflege eignet sich auch gut als wiederkehrende [Wartungsaufgabe](/help/mobile-maintenance).
+
+:::note Kalibrierdaten erklären Abweichungen
+Widersprechen sich eine Sonde und ein Testkit, prüf, wann du die Sonde zuletzt kalibriert hast. Das ist meist die Antwort.
 :::

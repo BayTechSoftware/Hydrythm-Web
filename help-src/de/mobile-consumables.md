@@ -1,41 +1,71 @@
 ---
-title: Verbrauchsmaterial
-description: Leg Nachfüllwarnungen für Reagenz, Dosierbehälter, Vorratsbehälter und Filtermedien an.
+title: Verbrauchsmaterial und Nachfüllwarnungen
+description: Nachfüllwarnungen für Reagenz, Dosierbehälter, Reservoirs der Nachfüllanlage und Filterrollen festlegen und Cora sagen, wenn du nachgefüllt hast.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 14
+reviewed: 2026-10-13
+order: 16
 group: Equipment
 ---
 
-Geräte, die etwas verbrauchen, etwa Reagenz, Dosierflüssigkeit, Nachfüllwasser oder Filtermedien, melden Cora, wie viel noch übrig ist. Cora kann dich dann warnen, bevor etwas ausgeht.
+Mit Nachfüllwarnungen warnt dich Cora, bevor Reagenz, Dosierflüssigkeit, Nachfüllwasser oder die Filterrolle ausgeht. Öffne das Gerät unter **Geräte** (oder tippe auf seine Kachel auf dem Dashboard) und tippe dann oben in der Leiste auf die **Glocke**.
 
-## Eine Nachfüllwarnung anlegen
+## Eine Nachfüllwarnung festlegen {#setting-a-refill-alert}
 
-Öffne das Gerät über den Tab **Geräte** oder tippe im Dashboard auf seine Kachel. Tippe dann oben in der Leiste auf die **Glocke**.
+![Das Fenster Warnungen für ein ReefDose 4, mit einem Schwellenwert für die verbleibenden Tage und einem Schalter für jeden Kopf](img/mobile-consumables.webp "Ein Schwellenwert pro Kopf, jeder mit seinem eigenen Schalter.")
 
-![Nachfüllwarnungen für eine Dosiereinheit](img/mobile-consumables.webp "Ein Schwellenwert pro Kopf, jeder unabhängig ein- oder ausschaltbar.")
+Das Fenster heißt **Warnungen:** gefolgt vom Namen des Geräts. Hat die Ausrüstung mehr als einen Behälter, bekommt jeder seinen eigenen Schwellenwert und seinen eigenen Schalter, ein Kopf, den du genau beobachtest, und einer, den du kaum anfasst, lassen sich also unterschiedlich einstellen. Schaltest du einen Schalter aus, bleibt der Wert für später erhalten.
 
-Hat ein Gerät mehrere Behälter, bekommt jeder Behälter seinen eigenen Schwellenwert. Einen Kopf, den du genau im Auge behältst, kannst du also anders einstellen als einen, den du kaum anrührst.
+Wo du es einstellst:
 
-**Die meisten Schwellenwerte stellst du in Tagen ein, nicht in Millilitern.** Cora rechnet aus, wie lange der Rest bei deinem tatsächlichen Verbrauch noch reicht. Mit dieser Zahl kannst du planen: "Calcium reicht noch vier Tage" sagt dir mehr als "noch 180 mL".
+- **Die meisten Geräte**: die Glocke in der oberen Leiste der Geräteseite.
+- **DŌS**: die Karte **Warnungen** auf der DŌS-Seite oder die Glocke. Siehe [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
+- **AquaWiz- und GHL-Dosierer**: ihre Regel im Tab **Regeln** der [Warnzentrale](/help/mobile-alerts).
 
-| Gerät | Schwellenwert für |
-|---|---|
-| Trident | verbleibende Tests und den Füllstand der Abfallflasche |
-| Dosierkopf | Tage, die das Supplement noch reicht. Manche bieten auch die verbleibenden Milliliter an |
-| ATO | Tage, die der Vorratsbehälter noch reicht |
-| Mattenroller | Tage, die die Rolle noch reicht |
+Die meisten Schwellenwerte sind in Tagen, nicht in Volumen. Cora rechnet aus, wie lange der Rest bei deinem Verbrauch noch reicht. "Calcium für vier Tage übrig" ist etwas, womit du arbeiten kannst. "180 ml übrig" nicht.
 
-Eine Verbrauchsmaterial-Warnung funktioniert wie jede andere Warnung. Sie erscheint in der [Warnzentrale](/help/mobile-alerts) und kann dir eine Push-Nachricht schicken. Du bekommst **eine** Benachrichtigung, wenn der Stand unter den Schwellenwert fällt, und keine Serie. Steigt der Stand wieder darüber, verschwindet die Warnung.
+## Wovor du gewarnt werden kannst {#thresholds}
 
-## Den richtigen Schwellenwert wählen
+| Gerät | Schwellenwert | Startet bei |
+|---|---|---|
+| Trident | **Verbleibende Tests** (das niedrigste Reagenz) | 10 Tests |
+| Trident | **Abfallflasche** (eine volle Flasche lässt den nächsten Test scheitern) | 85 % voll |
+| DŌS-Kopf | *[Kopf] · Tage übrig* | 7 Tage |
+| DŌS-Kopf | *[Kopf] · verbleibend*, in ml | 100 ml |
+| DŌS-Kopf, der altes Wasser abpumpt | **Verbleibender Platz im Abfallbehälter** | |
+| DŌS-Kopf | **Warnungen bei verpasster Dosierung** (ein Schalter) | |
+| ReefDose-Kopf | Tage, die das Supplement noch reicht | 7 Tage |
+| ReefATO+ | **Restlaufzeit des Behälters**, geschätzt aus dem jüngsten Nachfüllverbrauch | 2 Tage |
+| ReefMat | **Verbleibende Rolle**, geschätzt daraus, wie schnell die Rolle vorrückt | 3 Tage |
+| AquaWiz | Verbleibender Alkalinitäts-Zusatz | 100 ml |
+| GHL-Dosierer *(Beta)* | Wie voll der Behälter ist | 20 % |
+| EcoTech Versa *(Beta)* | Tage, die das Supplement noch reicht, und wie voll der Behälter ist | 7 Tage, 10 % |
 
-Stell ihn so ein, dass dir noch Zeit zum Handeln bleibt. Meldet sich die Warnung erst an dem Tag, an dem etwas leer ist, nützt sie dir nichts mehr.
+Ein Focustronic-Gerät *(Beta)* zeigt seine eigenen Warnungen zu Reagenz und Puffer auf seiner Seite.
 
-:::warning Manche Geräte hören nicht auf, wenn der Behälter leer ist
-Ein Dosierkopf mit leerem Behälter arbeitet seinen Zeitplan weiter ab und meldet Dosierungen, die er gar nicht abgegeben hat. Davor schützt dich die Nachfüllwarnung. Leg deshalb für jeden Kopf, mit dem du dosierst, eine an.
+:::note Beta
+**Beta.** GHL, EcoTech und Focustronic sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
 :::
 
-## Nach dem Nachfüllen
+Eine Verbrauchsmaterial-Warnung funktioniert wie jede andere Warnung. Sie erscheint in der [Warnzentrale](/help/mobile-alerts) und kann eine Push-Nachricht an dein Handy schicken. Du bekommst **eine** Benachrichtigung, wenn ein Stand unterschritten wird, und sie verschwindet, wenn der Stand wieder über dem Schwellenwert liegt.
 
-Setz den Stand auf der Seite des Geräts zurück oder aktualisiere ihn. Dann verschwindet die Warnung, und Cora berechnet die nächste richtig.
+## Einen Schwellenwert wählen {#choosing-a-threshold}
+
+Stell ihn früh genug ein, dass dir Zeit zum Handeln bleibt. Löst er an dem Tag aus, an dem etwas leer wird, ist er gar keine Warnung.
+
+:::warning Manche Ausrüstung läuft weiter, wenn sie leer ist
+Ein DŌS-Kopf mit leerem Behälter arbeitet seinen Zeitplan weiter ab und meldet Dosierungen, die er nie abgegeben hat. Er hat keine eigene Warnung bei niedrigem Stand. Eine Nachfüllwarnung ist der Weg, das zu erwischen, leg also für jeden Kopf, aus dem du dosierst, eine fest.
+:::
+
+## Nach dem Nachfüllen {#after-refilling}
+
+Sag es Cora auf der Seite des Geräts, damit die Warnung verschwindet und die nächste Warnung vom richtigen Stand aus berechnet wird.
+
+| Gerät | Tippe auf |
+|---|---|
+| DŌS-Kopf | **Befüllen**, dann **Voll**, oder stell **Verbleibendes Volumen** ein |
+| DŌS-Abfallbehälter | Setz seinen freien Platz nach dem Leeren auf voll zurück |
+| ReefDose-Kopf | **Rest in der Flasche** |
+| ReefMat | **Neue Rolle (Beta)**, nachdem du eine neue Rolle eingelegt hast |
+| EcoTech Versa *(Beta)* | **Als nachgefüllt markieren** |
+
+Trident, ReefATO+ und AquaWiz melden ihren Stand selbst, in Cora musst du also nichts zurücksetzen.

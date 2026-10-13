@@ -1,60 +1,90 @@
 ---
 title: Mises à jour et récupération
-description: Comment Cora Max se met à jour tout seul, et que faire si une mise à jour échoue.
+description: Comment Cora Max se met à jour tout seul, la plage d’installation et le canal de mise à jour, comment vérifier la version, le code PIN de récupération, et que faire si Cora Max ne démarre pas ou affiche un code d’assistance.
 section: Cora Max
-reviewed: 2026-10-12
-order: 14
-group: Settings
+reviewed: 2026-10-13
+order: 15
+group: Settings and account
 ---
+
+Cora Max se tient à jour tout seul. Cette page explique quand les mises à jour s’installent, comment vérifier votre version, et comment relancer Cora Max s’il ne démarre pas normalement.
 
 ## Mises à jour automatiques
 
-Cora Max se met à jour tout seul. Les nouvelles versions se téléchargent en arrière-plan et s’installent d’elles-mêmes, et Cora Max vous dit ce qui a changé.
+Les nouvelles versions se téléchargent en arrière-plan dès leur sortie. Elles s’installent pendant la **Plage d’installation**, de 3 à 5 heures du matin sauf si vous la changez, pour que l’écran ne redémarre pas pendant que vous le regardez. Quand une version a des notes de version, Cora Max les affiche.
 
 Vous n’avez rien à faire pour rester à jour.
 
-## Voir la version
+## Vérifier la version et les réglages de mise à jour {#checking-the-version-and-update-settings}
 
-![Réglages de l’appareil](img/max-updates.webp "Mise à jour du micrologiciel, dans la section Réseau et mises à jour des Réglages Cora Max.")
+![Réseau et mises à jour sur Cora Max](img/max-updates.webp "Mise à jour du micrologiciel, dans la section RÉSEAU ET MISES À JOUR des Réglages Cora Max.")
 
-Dans **Réglages → Réglages Cora Max → Mise à jour du micrologiciel** (section **Réseau et mises à jour**), vous pouvez chercher une mise à jour, l’installer, et choisir le canal de mise à jour et son horaire. Plus bas sur le même écran, la section **État** indique pour chaque aquarium l’état de l’interrogation, la dernière interrogation et la dernière écriture dans le cloud.
+Votre version figure sur la carte en haut de **Réglages → Réglages Cora Max** (*Cora Max · micrologiciel 0.28.170*), et sous **AIDE ET À PROPOS → À propos**.
 
-## Quand une mise à jour est prête
+**Réglages → Réglages Cora Max → Mise à jour du micrologiciel** (dans **RÉSEAU ET MISES À JOUR**) affiche la version que vous avez et indique si une mise à jour attend. Touchez **Rechercher des mises à jour** pour vérifier maintenant, ou **Télécharger et installer** quand il y en a une.
 
-Un message décrit les nouveautés et vous propose deux choix :
+Sous **Réglages de mise à jour**, sur le même écran :
 
-- **Mettre à jour maintenant** : l’installation se fait tout de suite, puis Cora Max redémarre
-- **Reporter de 24 heures** : le message disparaît et revient un jour plus tard
+- **Plage d’installation** définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de **Début** et de **Fin**, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous **Appareils →** votre Cora Max **→ Fuseau horaire**.
+- **Canal de mise à jour** vaut **Stable** ou **Bêta**. Laissez-le sur **Stable** sauf si l’assistance vous demande de changer. Un Cora Max sur **Bêta** ne reçoit pas les versions stables.
 
-Tant qu’une mise à jour attend, un petit point s’affiche sur l’icône **Réglages** de la barre du haut et sur la ligne **Mise à jour du micrologiciel**. Le point reste pendant un report, vous voyez donc toujours qu’une mise à jour est prête. Il disparaît pendant l’installation.
+Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Réglages Cora Max** et faites défiler jusqu’à **ÉTAT**. La section affiche pour chaque aquarium l’**État de l’interrogation**, la **Dernière interrogation**, la **Dernière écriture cloud** et l’**Enregistrement cloud**.
 
-Si vous ne faites rien, la mise à jour s’installe pendant la nuit, vers 3 à 5 heures du matin. Cora Max ne redémarre donc pas pendant que vous le regardez.
+## Quand une mise à jour est disponible
 
-:::note Vos mesures ne se perdent pas pendant une mise à jour
-Vos données sont gardées dans votre compte, pas sur l’écran. Après un redémarrage, Cora Max retrouve les mêmes aquariums, tableaux de bord et historique.
+Un message vous dit ce qui est nouveau et vous propose deux choix.
+
+- **Mettre à jour maintenant** installe tout de suite et redémarre. Cela prend environ une minute. Gardez Cora Max alimenté.
+- **Reporter de 24 heures** masque le message et vous redemande un jour plus tard.
+
+Tant qu’une mise à jour attend, un petit point s’affiche sur l’icône **Réglages** de la barre du haut et sur la ligne **Mise à jour du micrologiciel**. Le point reste pendant un report, vous voyez donc toujours qu’une mise à jour est là. Il disparaît pendant l’installation.
+
+Si vous ne faites rien, la mise à jour s’installe d’elle-même pendant la **Plage d’installation**.
+
+Vous pouvez aussi la lancer depuis votre téléphone : dans Cora Mobile, ouvrez **Appareils →** votre Cora Max et touchez **Mettre à jour vers v…**.
+
+:::note Vous ne perdez pas de mesures pendant une mise à jour
+Vos données sont dans votre compte. Quand Cora Max redémarre, il revient avec les mêmes aquariums, tableaux de bord et historique.
 :::
 
-## Récupération
+## Récupération {#recovery}
 
-La récupération est un mode de maintenance. Elle sert quand Cora Max ne démarre pas normalement, ou quand vous devez réparer sa configuration sans ordinateur.
+La récupération est un mode de maintenance pour quand Cora Max ne démarre pas normalement, ou quand vous devez réparer sa configuration sans ordinateur.
 
-Pour y entrer, posez **cinq doigts** en haut à droite de l’écran pendant environ **dix secondes**, puis saisissez le **Code PIN de récupération** de l’appareil.
+1. Posez **cinq doigts** en haut à droite de l’écran pendant **dix secondes**.
+2. La fenêtre **Code PIN de récupération** s’ouvre. Tapez le code PIN à 6 chiffres et touchez **Entrer**.
 
-Ce code à six chiffres s’est affiché lors de l’appairage. Vous le retrouvez aussi dans les réglages de cet appareil dans Cora Mobile. Cora Max ne l’affiche jamais, pour qu’un invité ou un enfant appuyé contre l’écran ne puisse pas entrer en récupération.
+Vous avez vu le code PIN lors de l’association de Cora Max. Vous le trouvez aussi dans Cora Mobile sous **Appareils →** votre Cora Max **→ Code PIN de récupération**. Cora Max lui-même ne l’affiche jamais, pour qu’un invité ou un enfant appuyé contre l’écran ne puisse pas entrer en récupération.
 
-En récupération, vous pouvez :
+Si vous tapez un mauvais code PIN trois fois, la récupération se verrouille pendant 30 secondes, puis plus longtemps après chaque nouvel essai erroné. **Trop de tentatives** vous indique combien de temps attendre. Si Cora Max n’a jamais été en ligne depuis l’association, il n’a pas encore de code PIN et affiche **La récupération n’est pas disponible**. Connectez-le d’abord au Wi-Fi.
 
-- réparer la connexion **Wi-Fi**
-- choisir **Réappairer** pour reconnecter l’appareil à votre compte
-- forcer une **mise à jour du micrologiciel**
-- lancer une **Réinitialisation d’usine**
+Depuis **Récupération**, vous pouvez :
+
+- **Refaire la configuration Wi-Fi** : choisir un nouveau réseau Wi-Fi et son mot de passe
+- **Réappairer cet appareil** : effacer l’association et le configurer à nouveau avec Cora Mobile
+- **Forcer la vérification OTA** : rechercher des mises à jour maintenant
+- **Réinitialisation d’usine** : retirer l’association et tous les réglages de l’écran
+
+Les données d’aquarium déjà enregistrées dans Cora Cloud sont conservées dans tous les cas.
 
 Si Cora Max n’arrive pas à démarrer plusieurs fois de suite, il peut aussi revenir tout seul à la version précédente.
 
-:::warning En récupération, Cora Max ne commande rien
-Votre contrôleur continue de suivre sa propre programmation. Mais si une [automatisation](/help/mobile-automation) doit passer **par ce Cora Max** pour agir, elle ne peut pas s’exécuter tant qu’il est en récupération. La règle se déclenche, mais l’action n’arrive pas jusqu’au matériel.
+:::note Le même geste déverrouille le verrouillage enfant
+Si le [verrouillage enfant](/help/max-settings#child-lock) est activé, poser cinq doigts dans le coin déverrouille aussi l’écran. Touchez **Annuler** dans la fenêtre **Code PIN de récupération** si vous vouliez seulement déverrouiller.
 :::
 
-## Si Cora Max ne redémarre pas
+:::warning En récupération, l’écran ne commande rien
+Votre contrôleur continue de suivre sa propre programmation. Mais une étape d’[automatisation](/help/mobile-automation) que **ce Cora Max** doit exécuter ne peut pas s’exécuter tant qu’il est en récupération. La règle se déclenche, mais l’étape n’atteint jamais l’équipement.
+:::
 
-Écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant la version et ce qui s’affiche à l’écran. Ne réappairez pas l’appareil avant. L’état de l’appairage aide souvent à comprendre ce qui s’est passé.
+## Si Cora Max affiche "Cora Max a rencontré un problème"
+
+Cet écran veut dire que quelque chose s’est mal passé pendant le démarrage ou le fonctionnement de Cora Max. Il affiche un **Code d’assistance** (qui commence par *CXB-*).
+
+1. Notez le code d’assistance.
+2. Attendez. Cora Max redémarre tout seul au bout d’environ 10 minutes. Pour le redémarrer maintenant, posez cinq doigts en haut à droite pendant 10 secondes.
+3. Si cela se reproduit, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant le code d’assistance.
+
+## Si un appareil ne redémarre pas
+
+Écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant la version affichée à l’écran et le message qu’il affiche. Ne le réappairez pas avant. L’état de l’association aide souvent à comprendre ce qui s’est passé.

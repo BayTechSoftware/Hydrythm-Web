@@ -1,131 +1,229 @@
 ---
 title: Glossaire
-description: Les mots de Cora : aquarium, source, widget, disposition enregistrée, seuil, observation et les autres.
+description: Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène, surveillance de l’écumeur et les autres mots que vous verrez dans les applications.
 section: Help
-reviewed: 2026-10-12
-order: 2
+reviewed: 2026-10-13
+order: 5
 ---
+
+Les mots que vous rencontrerez dans Cora Mobile et sur Cora Max, dans l’ordre alphabétique de l’anglais. Chacun renvoie à la page qui l’explique en détail.
 
 ## Langue du compte
 
-Tout votre compte Cora utilise une seule langue. Ce n’est pas un réglage par personne ni par appareil. Changez-la dans **Réglages → Langue**, sur votre téléphone ou sur n’importe quel Cora Max, et tous les appareils suivent en quelques instants. Les nouvelles alertes, les nouveaux rapports et les briefings Reef Buddy sont ensuite rédigés dans la nouvelle langue. Ce qui existe déjà garde sa langue d’origine. Plus de détails dans [Réglages](/help/mobile-settings).
+La langue unique qu’utilise tout votre compte Cora : anglais, allemand, français, turc, italien, espagnol ou polonais. Elle ne se règle ni par personne ni par appareil. Changez-la dans **Réglages → Langue** sur votre téléphone ou sur n’importe quel Cora Max, et chaque appareil suit en quelques instants. Ce qui est déjà écrit reste dans sa langue d’origine. Voir [Réglages de Cora Mobile](/help/mobile-settings).
 
 ## Âge
 
-Le temps écoulé depuis la prise d’une mesure, affiché sur chaque widget de paramètre sous la forme `now`, `1h`, `2d`. Ce n’est pas l’heure du dernier rafraîchissement de l’écran. Un chiffre avec un âge élevé est ancien, et Cora le signale, sans le présenter comme actuel.
+Le temps écoulé depuis la prise d’une mesure, affiché sur chaque widget de paramètre sous la forme `maintenant`, `1 h`, `2 j`. Ce n’est pas le moment du dernier rafraîchissement de l’écran. Un âge élevé veut dire que la mesure elle-même est ancienne.
 
 ## Alerte
 
-Un message de Cora qui vous signale que quelque chose demande votre attention. Le plus souvent, c’est une mesure sortie de la plage que vous avez fixée. Ce peut aussi être un paramètre qui change trop vite, une panne d’équipement, un consommable presque vide ou un résultat de laboratoire qui arrive. La plupart des alertes disparaissent d’elles-mêmes quand le problème est passé. Plus de détails dans [Alertes et seuils](/help/mobile-alerts).
+Cora qui vous dit que quelque chose demande votre attention. En général, c’est une mesure hors de la plage que vous avez réglée. Ce peut aussi être un paramètre qui bouge trop vite, une panne d’équipement, un appareil qui ne remonte plus de mesures, un consommable qui s’épuise, ou un résultat de laboratoire qui arrive. La plupart des alertes disparaissent d’elles-mêmes une fois le problème passé. Voir [Alertes et seuils](/help/mobile-alerts).
 
-## Appareil répondant
+## Appareil répondant {#answering-device}
 
-L’appareil Cora qui répond quand vous dites le mot d’activation. Il se choisit dans **Réglages → Cora Assistant**. Un seul appareil répond à la fois. À ne pas confondre avec le **Cora Max principal**, qui décide quel appareil communique avec votre équipement sur place, et non lequel écoute la voix.
+L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez dans **Réglages → Cora Assistant**. Un seul appareil répond à la fois. C’est un réglage différent du [Cora Max principal](#primary-cora-max).
 
-## Automatisation
+## AquaWiz
 
-Une règle ou une scène qui s’exécute toute seule, par exemple « si la température dépasse 27, allumer le ventilateur ». Vous la trouvez dans **Réglages → Automatisation**. Sur les versions récentes de Cora Max, vous pouvez aussi créer et modifier une scène directement sur Cora Max.
+L’AquaWiz KH Controller, un testeur d’alcalinité. Cora le lit par le cloud d’AquaWiz. Voir [L’équipement par marque](/help/equipment-by-brand).
+
+## Automatisation {#automation}
+
+Une règle qui s’exécute toute seule, comme « si la température dépasse 27, allume le ventilateur ». Chaque règle a un [déclencheur](#trigger), des [conditions](#condition) facultatives et une ou plusieurs actions. Vous les trouvez dans Cora Mobile sous **Réglages → Automatisations**. Voir [Automatisations et scènes](/help/mobile-automation).
+
+## Beta
+
+Une intégration que nous testons et développons encore. **Beta.** Les intégrations Beta (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird et caméras) ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support. Les fonctions qui portent seulement "(bêta)" dans leur nom, comme Doses importantes ou Paramètres ReefMat, sont ouvertes à tous. Voir [Fonctions Beta](/help/mobile-beta).
 
 ## Étalonnage
 
-Le réglage d’une sonde pour que ses mesures correspondent à une référence connue, en général une solution d’étalonnage. Cora note la date du dernier étalonnage de chaque sonde et peut vous le rappeler quand il faut le refaire. Plus de détails dans [Sondes](/help/mobile-probes).
+Ajuster une sonde pour que ses mesures correspondent à une référence connue, en général une solution d’étalonnage. Vous pouvez noter quand vous avez étalonné ou nettoyé une sonde. Voir [Association des paramètres et sondes](/help/mobile-probes).
+
+## Verrouillage enfant
+
+Un réglage de Cora Max qui empêche quiconque de commander l’équipement depuis cet écran, au toucher comme à la voix, après un certain temps sans contact. Les mesures et les questions fonctionnent toujours. Voir [Réglages de Cora Max](/help/max-settings#child-lock).
+
+## Résultat d’une commande
+
+La façon dont s’est terminée une commande envoyée à votre équipement. **Confirmé** : l’équipement a répondu qu’il l’avait fait. **Non confirmé** : envoyé, mais rien n’est revenu, vérifiez donc l’appareil. **Refusé** : la commande ne s’est pas exécutée. **Aucun changement** : c’était déjà ainsi. Voir [Contrôler votre équipement](/help/mobile-device-control).
+
+## Condition {#condition}
+
+Une vérification supplémentaire d’une [automatisation](#automation), comme une mesure au-dessus d’une valeur. Les actions ne s’exécutent que si les conditions sont remplies. Voir [Automatisations et scènes](/help/mobile-automation).
 
 ## Délai entre les alertes
 
-Le temps minimum que Cora attend avant de répéter la même alerte, de 15 minutes à une semaine. Un problème qui dure ne vous alerte donc pas toutes les deux minutes. Il se règle pour chaque règle d’alerte. Plus de détails dans [Alertes et seuils](/help/mobile-alerts).
-
-## Cora Cloud
-
-Le service qui garde votre téléphone, votre Cora Max et votre équipement synchronisés, et qui conserve votre historique. La connexion, la synchronisation entre appareils et l’Assistant en ont besoin. Les mesures déjà reçues et l’équipement qui fonctionne sur son propre réseau continuent de marcher sans lui.
+Le temps minimum qu’attend Cora avant de renvoyer la même alerte, de 15 minutes à une semaine. Il évite qu’un même problème en cours vous prévienne toutes les quelques minutes. Vous le réglez pour chaque règle d’alerte avec **Délai entre les alertes**. Voir [Alertes et seuils](/help/mobile-alerts).
 
 ## Cora Assistant
 
-La partie de Cora à qui vous posez vos questions, par écrit ou à voix haute, sur Cora Mobile comme sur Cora Max. C’est aussi le nom du groupe de réglages où vous choisissez l’[appareil répondant](#answering-device).
+La partie de Cora à qui vous posez des questions et demandez d’agir. Vous pouvez lui écrire ou lui parler dans Cora Mobile, et lui parler sur Cora Max. C’est aussi le nom du groupe de réglages où vous choisissez l’[appareil répondant](#answering-device) et le partage de données. Voir [Interroger Cora](/help/mobile-assistant).
+
+## Cora Cloud
+
+Le service qui garde votre téléphone, votre Cora Max et votre équipement synchronisés, et qui stocke votre historique. La synchronisation entre appareils et l’Assistant en ont besoin. Les mesures que vous avez déjà, et l’équipement sur son propre réseau, continuent de fonctionner sans lui.
 
 ## Cora Max
 
-L’écran mural de votre pièce du récif. Il affiche vos aquariums en direct et comprend la voix.
+L’écran mural de la pièce du récif. Il affiche vos aquariums en direct, lit votre équipement jour et nuit, et vous pouvez lui parler. Voir [Configurer Cora Max](/help/max-setup).
 
 ## Cora Mobile
 
-L’application pour téléphone. Sur votre écran d’accueil, l’icône s’appelle **Cora**.
+L’application pour téléphone. L’icône sur votre écran d’accueil s’appelle **Cora**. Voir [Configurer Cora Mobile](/help/mobile-setup).
+
+## Concevoir avec l’IA
+
+Un bouton de l’éditeur de tableau de bord. Cora propose une disposition complète à partir de ce que l’aquarium remonte et a associé. Il fonctionne avec un forfait payant et pendant l’essai, et demande que le partage de données avec l’IA soit activé. Les **Modèles** sont des dispositions toutes prêtes pour démarrer. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
+
+## CO₂ dissous
+
+Le CO₂ dans l’eau, en mg/L, tel qu’un rapport ICP l’indique. Ce n’est pas le CO₂ de l’air de votre pièce. Voir [Rapports ICP et de santé](/help/mobile-icp-health).
 
 ## Tête DŌS
 
-Une pompe doseuse reliée à Cora. Vous pouvez donner un usage à chaque tête (changement d’eau, kalkwasser, réacteur, nourrissage, etc.). Elle est suivie en litres ou avec un grand contenant, et peut faire de gros dosages. Si elle perd le contact pendant un dosage, Cora envoie une alerte de reprise, sans supposer que le dosage s’est terminé. Plus de détails dans [Contrôler votre équipement](/help/mobile-device-control).
+Une pompe d’un doseur Neptune DŌS. Vous pouvez donner un usage à chaque tête (changement d’eau, kalkwasser, réacteur, nourrissage et plus), la suivre en litres ou avec de grands récipients, et régler ses propres limites. Si une tête perd le contact en plein dosage, Cora déclenche une alerte de restauration. Voir [Contrôler votre équipement](/help/mobile-device-control).
 
-## Dosage
+## Dose
 
-Une quantité de liquide envoyée par une tête DŌS ou une autre pompe doseuse, avec le produit et la quantité que vous avez choisis. Cora enregistre chaque dosage, pour que la consommation et l’historique concordent.
+Une distribution de liquide par une tête DŌS ou une autre pompe doseuse, avec le produit et la quantité que vous avez réglés. Cora enregistre chaque dose pour que votre consommation et votre historique correspondent.
 
 ## Mode nourrissage
 
-Une pause pour nourrir, qui arrête l’équipement concerné puis le remet en marche tout seul. C’est plus sûr que d’éteindre les pompes à la main, car vous n’avez pas à penser à les rallumer.
+Une pause pour nourrir. Sur un Neptune Apex, **Nourrir** lance l’un des cycles de nourrissage, **A** à **D**, programmés sur l’Apex, et l’Apex décide de ce qui se met en pause et du moment où cela repart. Une pompe Jecod peut se mettre en pause pour le nourrissage depuis sa propre page. Certaines pompes Jecod ne peuvent pas terminer la pause d’elles-mêmes : gardez la page de la pompe ouverte sur votre téléphone jusqu’à la fin de la pause, sinon la pompe reste arrêtée. Voir [Prises et commandes](/help/max-controls) et [Contrôler votre équipement](/help/mobile-device-control).
+
+## Routine d’alimentation
+
+Votre façon habituelle de nourrir, réglée une fois pour l’aquarium (par exemple, des flocons deux fois par jour). Ensuite, vous ne notez que les jours qui diffèrent, et Reef Buddy tient compte des deux. Voir [Le journal](/help/mobile-journal).
 
 ## GHL
 
-Abréviation de GHL Advanced Technology, le fabricant des contrôleurs ProfiLux et Mitras. La prise en charge GHL de Cora est en **Beta** et n’est ouverte qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
+GHL Advanced Technology, fabricant des contrôleurs ProfiLux et Mitras. La prise en charge de GHL par Cora est en **Beta** et n’est ouverte qu’aux utilisateurs Beta. Voir [L’équipement par marque](/help/equipment-by-brand).
+
+## Parcours guidé
+
+Un plan étape par étape que Cora vous fait suivre, comme le cyclage d’un nouvel aquarium ou le règlement d’un problème. Voir [Parcours guidés](/help/mobile-journeys).
 
 ## Rapport de santé
 
-Un bilan plus complet de tout un système, fait de temps en temps. Il examine ensemble chaque paramètre, chaque source, les dosages et les derniers résultats de laboratoire. Plus de détails dans [Rapports ICP et de santé](/help/mobile-icp-health).
+Un examen plus approfondi et périodique de tout un système. Il prend en compte ensemble chaque paramètre, chaque source, chaque dose et chaque résultat de laboratoire récent. Voir [Rapports ICP et de santé](/help/mobile-icp-health).
 
 ## HYDROS
 
-L’écosystème de contrôleurs et de dosage de CoralVue. Cora le rejoint par le cloud propre à HYDROS, ce qui le fait continuer à marcher loin de chez vous. La prise en charge HYDROS de Cora est en **Beta** et n’est ouverte qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
+Le système de contrôle et de dosage de CoralVue. Cora le lit par le cloud d’HYDROS, il continue donc de fonctionner loin de chez vous. La prise en charge d’HYDROS par Cora est en **Beta** et n’est ouverte qu’aux utilisateurs Beta. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## ICP
 
-Une analyse d’eau en laboratoire qui couvre un grand nombre d’éléments. Envoyez le résultat, et Cora suit chaque élément dans le temps.
+Un test d’eau en laboratoire qui couvre un large éventail d’éléments. Importez le PDF que vous envoie votre laboratoire, ou faites-le envoyer à Cora par le laboratoire, et Cora suit chaque élément dans le temps. Voir [Rapports ICP et de santé](/help/mobile-icp-health).
 
-## Observation
+## Analyse
 
-Un point précis relevé dans un briefing Reef Buddy : un paramètre qui dérive, deux sources en désaccord, un test qui n’a pas été fait depuis un moment.
+Un point précis d’un briefing Reef Buddy, comme un paramètre qui dérive, deux sources qui ne sont pas d’accord, ou quelque chose que vous n’avez pas testé depuis un moment.
+
+## Jecod
+
+Les pompes Jecod et Jebao. Cora les lit et les commande par votre réseau ou en Bluetooth. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## Journal
 
-Le carnet de ce que vous avez fait à l’aquarium. Cora le lit aussi. Il peut donc répondre à une question comme « qu’est-ce que j’ai fait avant que l’alcalinité baisse ? ». Plus de détails dans [Le journal](/help/mobile-journal).
+Le suivi de ce que vous avez fait sur l’aquarium. Cora le lit aussi, vous pouvez donc demander « qu’ai-je fait avant que l’alcalinité baisse ? » et obtenir une réponse. Voir [Le journal](/help/mobile-journal).
+
+## Neptune Apex
+
+Le contrôleur de Neptune Systems, avec son doseur DŌS et son testeur Trident. Cora le lit sur votre réseau domestique. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## Prise
 
-Une prise électrique commandée de votre équipement. Dans Cora, elle a trois états : **Auto**, **Éteint** et **Allumé**.
+Une prise commandable de votre contrôleur. Dans Cora, elle a trois états : **Auto**, **Off** et **On**. Voir [Prises et commandes](/help/max-controls).
 
 ## Paramètre
 
-Ce qui se mesure dans votre eau : alcalinité, calcium, nitrate, température.
+Quelque chose que vous pouvez mesurer dans votre eau, comme l’alcalinité, le calcium, les nitrates ou la température.
 
-## Cora Max principal
+## Association des paramètres
 
-Le Cora Max qui communique pour vous avec l’équipement d’un aquarium sur place (ses appareils Wi-Fi et Bluetooth). Vous pouvez choisir un Cora Max précis, ou **Tout appareil actif (automatique)** : chaque Cora Max en ligne pour cet aquarium participe alors, et la dernière écriture l’emporte. À ne pas confondre avec l’[appareil répondant](#answering-device), qui concerne la voix et non l’interrogation de l’équipement. Il se règle dans **Réglages → Cora Max principal**. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device).
+L’endroit où vous dites à Cora ce que mesure chaque sonde d’un contrôleur, et quel appareil alimente chaque mesure. Voir [Association des paramètres et sondes](/help/mobile-probes).
 
-## Disposition enregistrée
+## Cora Max principal {#primary-cora-max}
 
-Une disposition de tableau de bord gardée dans **Mes tableaux de bord**, pour la reprendre plus tard ou la charger sur un autre aquarium ou un autre écran.
+Le Cora Max qui lit pour vous l’équipement d’un aquarium sur votre réseau. Réglez-le sur un Cora Max, ou sur **Tout appareil actif (automatique)**, où chaque Cora Max en ligne de l’aquarium partage le travail. Il concerne la lecture de l’équipement, pas la voix (pour cela, c’est l’[appareil répondant](#answering-device)). Changez-le dans Cora Mobile : **Réglages**, ouvrez l’aquarium, puis **Cora Max principal**. Voir [Plus d’un appareil Cora](/help/mobile-multi-device).
+
+## Code PIN de récupération
+
+Un nombre à six chiffres que Cora Max affiche à la fin de la configuration. C’est le seul moyen d’entrer en récupération sur ce Cora Max. Vous le trouvez aussi avec les détails du Cora Max dans Cora Mobile. Voir [Mises à jour et récupération](/help/max-updates).
+
+## Red Sea ReefBeat
+
+La famille d’équipements connectés de Red Sea : ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED et ReefControl. Cora la lit sur votre réseau domestique. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## Reef Buddy
 
-Votre briefing du jour : un titre, deux scores (**Stabilité** sur 100 et **Données** en pourcentage) et les observations qui les expliquent. Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy).
+Votre briefing quotidien. Il a un titre, deux scores (**Stabilité** sur 100 et **Données** en pourcentage), et les analyses qui les expliquent. Il fait partie des forfaits payants. Voir [Reef Buddy](/help/mobile-reef-buddy).
+
+## Pièce du récif
+
+L’écran de Cora Max qui montre tous vos aquariums côte à côte. À l’écran, il s’appelle **Aquariums Cora**. Voir [La pièce du récif](/help/max-reef-room).
+
+## Aquarium supprimé
+
+Un aquarium que vous avez retiré. Ses données sont conservées, et vous pouvez le faire revenir depuis **Réglages → Aquariums supprimés**. Voir [Gérer vos aquariums](/help/mobile-tanks).
+
+## Nécessite Cora Max
+
+Une étiquette sur une marque dans **Ajouter un appareil**. Cet équipement est lu par un Cora Max, l’aquarium doit donc d’abord en avoir un. Voir [L’équipement par marque](/help/equipment-by-brand).
+
+## Design enregistré
+
+Une disposition de tableau de bord Cora Max que vous avez gardée sous **Mes tableaux de bord**. Vous pouvez la réappliquer plus tard ou la charger sur un autre aquarium ou un autre Cora Max. Le tableau de bord du téléphone n’a pas de designs enregistrés. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing#saving-layouts).
+
+## Scène
+
+Un groupe d’actions qui porte un nom, comme « Changement d’eau » ou « Nuit ». Vous pouvez la lancer quand vous voulez, selon un horaire, ou depuis une autre [automatisation](#automation). Les scènes sont partagées entre Cora Mobile et Cora Max. Voir [Automatisations et scènes](/help/mobile-automation).
+
+## Surveillance de l’écumeur
+
+Une fonction de caméra qui surveille le godet de l’écumeur et vous prévient avant qu’il ne déborde. Cora Max vérifie le godet toutes les 15 minutes. Elle nécessite une caméra, qui est en **Beta** et n’est ouverte qu’aux utilisateurs Beta, et un forfait payant. Voir [Caméras et surveillance de l’écumeur](/help/mobile-cameras).
 
 ## Reporter
 
-Un bouton sur une alerte de Cora Max. Il fait taire l’alerte sur ce Cora Max pendant le délai de la règle (jusqu’à une semaine), sans la fermer. **Ignorer** est l’autre bouton. Il ferme l’alerte sur ce Cora Max jusqu’à ce que la mesure revienne dans la plage. Aucun des deux ne change les notifications de votre téléphone. Plus de détails dans [Alertes et seuils](/help/mobile-alerts).
+Un bouton sur une alerte de Cora Max. Il coupe l’alerte sur ce Cora Max pendant le délai de la règle (jusqu’à une semaine) sans la fermer. **Ignorer**, l’autre bouton, la ferme sur ce Cora Max jusqu’à ce que la mesure revienne dans la plage. Les notifications de votre téléphone ne sont touchées ni par l’un ni par l’autre. Voir [Alertes sur Cora Max](/help/max-alerts).
 
 ## Source
 
-L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un test en kit. Chaque mesure a sa source, et Cora peut donc vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources donnent la même mesure, [Sondes](/help/mobile-probes) est l’endroit où vous choisissez celle à laquelle vous faites confiance, ou vous laissez sur Automatique.
+L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un kit de test. Chaque mesure en a une, pour que Cora puisse vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources signalent la même mesure, l’[Association des paramètres](/help/mobile-probes) est l’endroit où vous choisissez laquelle croire, ou la laissez sur Automatique.
+
+## Point d’état
+
+Le point de couleur sur chaque ligne de l’onglet Appareils de Cora Mobile. Vert, il fonctionne ; orange, un avertissement ou une panne ; rouge, hors ligne ; et gris, Cora ne sait pas encore. Voir [Ajouter, modifier et retirer des appareils](/help/mobile-devices).
+
+## Étiquette d’état
+
+L’étiquette de la barre du haut de Cora Max qui indique comment cet écran obtient ses données, comme **En ligne**, **Cloud**, **Obsolète** ou **Hors ligne**. Voir [L’écran d’accueil de Cora Max](/help/max-tour).
 
 ## Aquarium
 
-Un volume d’eau que vous suivez. La plupart des gens en ont un. Un bac de boutures ou de quarantaine compte comme un aquarium à part.
+Une masse d’eau que vous suivez. Un système à boutures ou un bac de quarantaine compte comme un aquarium distinct. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
 
 ## Seuil
 
-Ce que vous jugez acceptable pour un paramètre. Ce peut être une plage, un maximum ou un minimum. C’est à vous de le régler. Les valeurs par défaut ne sont qu’un point de départ.
+La plage qui vous convient pour un paramètre. Ce peut être une plage, un plafond ou un plancher. C’est vous qui le réglez, et les valeurs par défaut ne sont qu’un point de départ. Voir [Alertes et seuils](/help/mobile-alerts).
+
+## Trident
+
+Le testeur de Neptune pour l’alcalinité, le calcium et le magnésium. Il fonctionne avec un Neptune Apex. Voir [L’équipement par marque](/help/equipment-by-brand).
+
+## Déclencheur {#trigger}
+
+Ce qui réveille une [automatisation](#automation) : un paramètre qui franchit une valeur, une alerte, une heure de la journée, ou un appareil qui se déconnecte ou revient. Voir [Automatisations et scènes](/help/mobile-automation).
 
 ## Mode vacances
 
-Le mode pour la personne qui garde votre aquarium. Vous préparez un plan daté avec une liste de tâches, et Cora en fait une page en lecture seule à partager avec la personne qui s’en occupe pendant votre absence. Plus de détails dans [Réglages](/help/mobile-settings).
+Le mode pour la personne qui garde votre aquarium. Vous créez un plan daté avec une liste de tâches, et Cora en fait une page en lecture seule que vous pouvez partager avec la personne qui s’occupe de l’aquarium pendant votre absence. Voir [Partir en vacances](/help/mobile-vacation).
+
+## Mot d’activation
+
+"Hey Cora", la phrase qui lance une conversation vocale sur Cora Max. Vous pouvez le désactiver sur chaque Cora Max et toucher plutôt l’icône Cora. Voir [Parler à Cora](/help/max-voice).
 
 ## Widget
 
-Une tuile du tableau de bord qui affiche une seule chose. Il en existe seize types : Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* et Caméra *(Beta)*. Plus de détails dans la [Référence des widgets](/help/mobile-widgets).
+Une tuile d’un tableau de bord qui affiche une seule chose, comme une valeur, une jauge, un graphique, une prise ou une caméra. Voir [Référence des widgets](/help/mobile-widgets).

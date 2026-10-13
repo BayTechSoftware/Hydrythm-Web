@@ -1,49 +1,58 @@
 ---
-title: Yardım alma
-description: Sorunları Cora Mobile içinden bildirin ve rapora nelerin eklendiğini öğrenin.
+title: Sorun bildirme
+description: Cora Mobile içinden hata bildirin ya da geri bildirim gönderin, rapora nelerin eklendiğini görün, çökme raporlarını açın ya da desteğe e-posta yazın.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 33
-group: Account
+reviewed: 2026-10-13
+order: 37
+group: Settings and account
 ---
 
-Sorunu Cora Mobile içinden bildirmek, sonradan anlatmaktan daha çok işe yarar. Cora Mobile, akılda tutması zor ayrıntıları rapora kendisi ekler.
+Bir sorunu bildirmek ya da geri bildirim göndermek için **Ayarlar → Yardım ve Destek → Hata Bildir / Geri Bildirim Gönder** yolunu kullanın. Cora Mobile içinden bildirdiğinizde, sonradan hatırlaması zor ayrıntılar rapora eklenir.
 
-**Ayarlar → Hata Bildir / Geri Bildirim Gönder.**
+![Cora Mobile'da geri bildirim formu](img/mobile-support.webp "Ne tür bir şey olduğunu seçin, ne olduğunu yazın ve işe yarayacaksa bir ekran görüntüsü ekleyin.")
 
 ## Sizin doldurduklarınız
 
-Form iki şey sorar. Raporun doğru yere ulaşması için sorunun **türünü** seçersiniz. Sonra **ne olduğunu** kendi cümlelerinizle yazarsınız.
+1. **Bu ne tür bir şey?** altında birini seçin: **Bir şey bozuk**, **Özellik isteği**, **Yanlış veri**, **Kafa karıştırıcı**, **Faturalandırma** ya da **Başka bir şey**. Böylece rapor doğru kişiye ulaşır.
+2. **Ne oldu?** altında olanı kendi cümlelerinizle yazın.
+3. **Gönder**'e dokunun. *Teşekkürler, raporunuzu aldık.* mesajını görürsünüz.
 
-Ne beklediğinizi ve onun yerine ne gördüğünüzü açıkça yazın. "Apex doğru ölçerken panoda alkalinite 2 gün önceki değeri gösteriyordu" gibi bir cümle, "ölçümler bozuk" demekten çok daha işe yarar.
+Ne beklediğinizi ve ne gördüğünüzü yazın. "Apex doğru ölçerken panoda alkalinite 2 gün önce görünüyordu" gibi bir cümle, "ölçümler bozuk" demekten çok daha işe yarar.
+
+Günde en fazla 10 rapor gönderebilirsiniz.
 
 ## Otomatik eklenenler
 
-Her rapora kısa bir bilgi satırı eklenir. Form bu satırı göndermeden önce size gösterir:
+Her rapora kısa bir bilgi satırı eklenir. Form bu satırı göndermeden önce *Raporunuzla birlikte gönderildi* altında size gösterir.
 
-- **uygulama sürümü**
+- **Cora Mobile sürümü**
 - **platformunuz** ve işletim sistemi sürümü
-- formu açtığınız sırada bulunduğunuz **ekran**
+- bulunduğunuz **ekran**
 
-"Çalışmadı" şikâyetini tekrar denenebilir bir hataya çeviren bu bilgilerdir. Satır gizli değildir, ekranda görünür. Görmediğiniz hiçbir şey gönderilmez.
+Rapor ayrıca telefonunuzun dilini ve seçili akvaryumu da taşır. Bunlar sayesinde ters giden şeyi genellikle tekrar oluşturabiliriz.
 
 ## Ekran görüntüleri
 
-**Bir ekran görüntüsü ekle** ile rapora resim eklersiniz. **Ekran görüntüsünü kaldır** ile göndermeden önce resmi yeniden çıkarırsınız.
+**Bir ekran görüntüsü ekle**, fotoğraflarınızdan bir resmi rapora ekler. **Ekran görüntüsünü kaldır**, göndermeden önce resmi yeniden çıkarır. Önce ekran görüntüsünü alın, sonra formu açın.
 
-:::warning Ekran görüntülerini Cora destek ekibi görür
-Cora Mobile bunu düğmenin hemen üstünde yazar. Eklemeden önce resme göz atın. Pano ekran görüntüsünde akvaryum adlarınız, ölçümleriniz ve o an ekranda olan her şey görünür.
+:::warning Ekran görüntünüzü Cora destek ekibi görür
+Cora Mobile bunu düğmenin üstünde yazar. Eklemeden önce resme göz atın. Pano ekran görüntüsünde akvaryum adlarınız, ölçümleriniz ve o an ekranda olan her şey görünür.
 :::
 
-:::note Bakıcı modunda ekran görüntüsü neden eklenemez
-Başka birinin akvaryumuna paylaşılan bir bağlantıdan bakıyorsanız ekran görüntüsü seçeneği çıkmaz. O sırada alınan ekran görüntüsü, *onların* verisini *sizin* destek talebinize ekler. Üstelik onlar bunu hiç fark etmez.
+:::note Bakıcı modunda ekran görüntüsü yok
+Başka birinin akvaryumuna paylaşılan bir bağlantıdan bakıyorsanız ekran görüntüsü ekleyemezsiniz. Bu, *onların* verisini *sizin* destek talebinize koyardı ve onlar bunu hiç bilmezdi.
 :::
 
 ## Otomatik çökme raporları
 
-Bildirim satırının yanındaki **Çökme raporları gönder** aynı işi sizin yerinize yapar. Bir şeyin bozulduğunu fark edip yazmanız gerekmez. Cora Mobile çökerse çökmeyi kendisi bildirir. Ayrıntılar [Ayarlar](/help/mobile-settings) sayfasında.
+**Yardım ve Destek** içinde, bildirim satırının altındaki **Çökme raporları gönder**, bir şeyin bozulduğunu fark edip yazmanıza gerek kalmadan aynı işi yapar. Cora Mobile durursa ya da bir ekran yüklenmezse teknik ayrıntıları gönderir. Akvaryum verisi, fotoğraf ya da hesap bilgisi eklenmez. Ayrıntılar [Cora Mobile ayarları](/help/mobile-settings#getting-help) sayfasında.
 
-## Başka nereden yardım alabilirsiniz
+## Desteğe e-posta gönderme
 
-- Kendi akvaryumunuzla ilgili sorulara genellikle **[Cora Assistant](/help/mobile-assistant)** daha hızlı yanıt verir. Asistan ölçümlerinizi görebilir.
-- Bir şey burada anlatıldığı gibi çalışmıyorsa önce **[Sorun giderme](/help/troubleshooting)** sayfasına bakın.
+**Ayarlar → Yardım ve Destek → Destekle İletişime Geç**, Cora Mobile sürümünüz doldurulmuş olarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine bir e-posta açar. Genellikle bir gün içinde yanıt veririz. Telefonunuzda e-posta uygulaması yoksa bu adrese herhangi bir e-posta hesabından yazın.
+
+## Başka nereden
+
+- Kendi akvaryumunuzla ilgili sorulara [Cora Assistant](/help/mobile-assistant) genellikle daha hızlı yanıt verir, çünkü ölçümlerinizi görebilir.
+- Bir şey bu kılavuzda anlatıldığı gibi çalışmıyorsa önce [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+- Faturalandırmayla ilgili bir soru için [Planlar ve abonelikler](/help/mobile-plans) sayfasına bakın.

@@ -1,97 +1,103 @@
 ---
 title: Entretien
-description: Les tâches qui reviennent, avec des rappels : nettoyage de l’écumeur, chaussettes de filtration, entretien des pompes.
+description: Ajoutez des tâches régulières comme le nettoyage de l’écumeur ou le changement des chaussettes filtrantes, recevez un rappel à l’échéance, et marquez-les comme faites ou reportez-les.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 19
+reviewed: 2026-10-13
+order: 26
 group: Records
+twin: max-records
 ---
 
-Entretien regroupe les tâches régulières dont votre aquarium a besoin, et leurs rappels. Ouvrez-le depuis la ligne de raccourcis en bas du tableau de bord.
+Entretien garde les tâches régulières dont votre aquarium a besoin, avec un rappel pour chacune.
 
-![La liste d’entretien](img/mobile-maintenance.webp "Conformité, nombre de retards, et chaque tâche avec sa dernière réalisation et sa prochaine échéance.")
+Touchez **Entretien** dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Réglages → votre aquarium → **Entretien**.
 
-## Le résumé
+![La liste d’entretien](img/mobile-maintenance.webp "Le taux de conformité, le nombre de tâches en retard, et chaque tâche avec sa dernière réalisation et sa prochaine échéance.")
 
-En haut de l’écran :
+## Le résumé {#summary}
 
-- **Conformité de l’entretien** : la part des tâches qui sont à jour
-- **Nombre en retard** : le nombre de tâches qui ont dépassé leur échéance
+En haut, vous voyez la **Conformité de l’entretien**, la part des tâches à jour en ce moment, et le nombre de tâches en retard.
 
-La couleur de chaque tâche indique son urgence : en retard, bientôt à faire ou programmée. Chaque tâche affiche la date de sa dernière réalisation et sa prochaine échéance.
+Chaque tâche de la liste a une couleur selon qu’elle est en retard, bientôt due ou programmée. Elle indique aussi quand vous l’avez faite pour la dernière fois et quand elle est due la prochaine fois.
 
-## Ajouter une tâche
+## Ajouter une tâche {#adding-a-task}
 
-Donnez-lui un nom, une icône et une fréquence en jours. Cora calcule la prochaine échéance.
+Touchez **Ajouter une tâche**, puis choisissez :
 
-Quelques tâches courantes :
+- **Depuis un modèle** pour une tâche courante dont l’intervalle est déjà rempli. Choisissez-la, réglez sa prochaine échéance et l’heure du rappel, puis touchez **Confirmer**.
+- **Tâche personnalisée** pour la vôtre. Donnez-lui un **Nom de la tâche**, un **Intervalle (jours)**, une **Catégorie** et une **Prochaine échéance**. Activez **Rappel** et choisissez **Me le rappeler à** si vous voulez une notification.
 
-| Tâche | Fréquence |
+Quelques modèles, avec l’intervalle de départ :
+
+| Tâche | Intervalle |
 |---|---|
-| Changer les chaussettes de filtration | 3–7 jours |
+| Changer les chaussettes filtrantes | 3 jours |
 | Nettoyer le godet de l’écumeur | 7 jours |
-| Nettoyer la vitre | 7 jours |
-| Remplacer le charbon ou le GFO | 30 jours |
-| Entretenir la pompe de remontée | 90–180 jours |
-| Étalonner les sondes | 30–90 jours |
+| Changement d’eau | 7 jours |
+| Tester les paramètres de l’eau | 7 jours |
+| Remplacer le charbon | 30 jours |
+| Étalonner la sonde pH | 30 jours |
+| Nettoyer les pompes de brassage | 90 jours |
+| Téléverser les résultats ICP | 90 jours |
 
-## Les tâches que Cora crée pour vous
+Vous pouvez changer l’intervalle de n’importe quelle tâche plus tard.
 
-Quand vous connectez un ReefDose, un ReefATO+, un ReefMat ou un ReefRun Red Sea, Cora ajoute de lui-même l’entretien dont cet appareil a besoin, déjà réglé sur la bonne fréquence. Vous verrez apparaître des tâches comme celles-ci :
+### Tâches que Cora ajoute pour l’équipement Red Sea {#red-sea-tasks}
 
-| Appareil | Tâche | Fréquence |
+Quand vous connectez un Red Sea ReefDose, ReefATO+, ReefMat ou ReefRun, Cora ajoute l’entretien dont cet appareil a besoin, déjà au bon intervalle :
+
+| Appareil | Tâche | Intervalle |
 |---|---|---|
-| ReefATO+ | Replace ReefATO+ EC sensor | 42 jours |
-| ReefATO+ | Replace ReefATO+ return pump | 135 jours |
-| ReefMat | Replace ReefMat carbon | 25 jours |
-| ReefRun | Check ReefRun skimmer venturi | 35 jours |
-| ReefRun | Replace ReefRun skimmer rotor | 135 jours |
-| ReefRun | Calibrate ReefRun full-cup sensor | 28 jours |
-| ReefRun | Calibrate ReefRun overskimming sensor | 28 jours |
-| ReefRun, par pompe | Service ReefRun pump motor | 135 jours |
-| ReefRun, par pompe | Clean ReefRun pump strainer | 42 jours |
-| ReefDose, par tête | Calibrate ReefDose head | 90 jours |
-| ReefDose, par tête | Replace ReefDose head tubing | 450 jours |
+| ReefATO+ | Remplacer le capteur EC du ReefATO+ | 42 jours |
+| ReefATO+ | Remplacer la pompe de remontée du ReefATO+ | 135 jours |
+| ReefMat | Remplacer le charbon du ReefMat | 25 jours |
+| ReefRun | Vérifier le venturi de l’écumeur ReefRun | 35 jours |
+| ReefRun | Remplacer le rotor de l’écumeur ReefRun | 135 jours |
+| ReefRun | Étalonner le capteur de godet plein du ReefRun | 28 jours |
+| ReefRun | Étalonner le capteur de sur-écumage du ReefRun | 28 jours |
+| ReefRun, par pompe | Entretenir le moteur de pompe ReefRun | 135 jours |
+| ReefRun, par pompe | Nettoyer la crépine de pompe ReefRun | 42 jours |
+| ReefDose, par tête | Étalonner la tête ReefDose | 90 jours |
+| ReefDose, par tête | Remplacer le tuyau de la tête ReefDose | 450 jours |
 
-Elles fonctionnent exactement comme une tâche que vous ajoutez vous-même : renommez-les, changez leur fréquence, reportez-les ou mettez-les en pause. Si vous en supprimez une, Cora ne la recréera pas pour cet appareil.
+Elles fonctionnent comme les tâches que vous ajoutez vous-même. Vous pouvez les renommer, changer l’intervalle, les reporter ou les supprimer. Si vous en supprimez une, Cora ne la rajoute pas pour cet appareil.
 
-### Tester l’eau
+### Tester l’eau {#test-water}
 
-Si vous touchez **Me rappeler de tester chaque semaine** sur la carte du premier test, Cora ajoute une tâche hebdomadaire appelée **Tester l’eau**, due le **Jour du test** que vous choisissez. Elle fonctionne comme n’importe quelle tâche que vous ajoutez vous-même. Voir [Configurer Cora Mobile](/help/mobile-setup).
+Si vous touchez **Me rappeler de tester chaque semaine** sur la carte du premier test, Cora ajoute une tâche hebdomadaire appelée **Tester l’eau**, due le **Jour du test** que vous choisissez. Elle fonctionne comme n’importe quelle autre tâche. Voir [Configurer Cora Mobile](/help/mobile-setup). Vous pouvez aussi ajouter à tout moment un rappel de test avec le modèle **Tester les paramètres de l’eau**.
 
-### Depuis une automatisation
+### Depuis une automatisation {#from-an-automation}
 
-Une [automatisation](/help/mobile-automation) avec l’action **Créer une tâche d’entretien** peut ajouter une tâche à cette liste quand sa règle se déclenche, ou rendre une tâche existante due tout de suite. Une nouvelle tâche est ponctuelle, due immédiatement, et quitte la liste quand vous la terminez. Tant qu’elle est ouverte, la même automatisation n’en ajoute pas une autre. Vous recevez une notification.
+Une [automatisation](/help/mobile-automation) avec l’action **Créer une tâche d’entretien** peut ajouter une tâche à cette liste quand sa règle se déclenche, ou rendre une tâche existante due maintenant. Une nouvelle tâche est une **Tâche ponctuelle**, due maintenant, et elle affiche *Créée par une automatisation* avec la raison. Elle quitte la liste quand vous la terminez. Tant qu’elle est ouverte, la même automatisation n’en ajoute pas d’autre. Vous recevez une seule notification.
 
-## Rappels
+## Rappels {#reminders}
 
-Chaque tâche peut vous envoyer un rappel. Vous choisissez :
+Ouvrez une tâche et activez **Rappel**, puis choisissez **Me le rappeler à**. Vous recevez une notification la veille de l’échéance et une le jour même. Tant qu’elle est en retard, vous recevez un rappel tous les quelques jours. Si plusieurs tâches d’un aquarium arrivent à échéance ensemble, elles arrivent en une seule notification.
 
-- **combien de jours avant** l’échéance
-- **à quelle heure** le rappel arrive
+Les rappels relèvent de **Rappels d’entretien** dans [Réglages → Notifications](/help/mobile-notifications). Si vous préférez simplement voir une tâche dans la liste, désactivez son **Rappel**.
 
-Si vous préférez simplement voir une tâche dans la liste, coupez ses rappels.
+## Marquer une tâche comme faite {#marking-done}
 
-## Marquer une tâche comme faite
+Balayez la tâche vers la droite, ou ouvrez-la et touchez **Terminer**. Si vous avez balayé par erreur, touchez **Annuler** dans le message qui apparaît.
 
-Touchez **Terminer** sur la tâche, ou faites-la glisser. Cora note l’heure et programme la suivante à partir de ce moment. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours. Cora ne fait pas comme si elle avait été faite à temps.
+Cora enregistre l’heure à laquelle vous avez fini et calcule la prochaine échéance à partir de là. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours aussi.
 
-:::note Toucher une tâche l’ouvre en modification
-Si vous touchez la ligne elle-même, la tâche s’ouvre pour modifier son nom, sa fréquence ou ses rappels. Pour la marquer comme faite, utilisez **Terminer**.
+La fiche de la tâche affiche son **Historique des validations**, avec le retard de chacune.
+
+:::note Terminer une tâche écrit aussi une entrée de journal
+Cora ajoute pour vous une courte entrée à votre [journal](/help/mobile-journal), en précisant si la tâche était en retard. Ajoutez votre propre entrée quand il y a plus à dire, par exemple quand la pompe était pleine de sable ou que les chaussettes étaient noires au bout d’un jour.
 :::
 
-## Reporter
+## Modifier une tâche {#editing}
 
-Si vous ne pouvez pas faire une tâche tout de suite, reportez-la. Elle reste dans la liste, grisée, avec l’état **Reportée** et sa nouvelle date. Rien ne disparaît. Vous ne recevez simplement plus de rappel d’ici là.
+Touchez une tâche pour l’ouvrir. Vous pouvez changer le **Nom de la tâche**, l’**Intervalle (jours)**, les **Notes (facultatif)**, la **Prochaine échéance** et le rappel, puis touchez **Enregistrer**. **Supprimer** la retire.
 
-:::warning Ne marquez comme faite qu’une tâche vraiment faite
-La prochaine échéance se calcule à partir de la date de réalisation. Si vous marquez comme faite une tâche en attente, toutes les échéances suivantes se décalent. Reportez-la à la place.
+## Reporter {#snoozing}
+
+Vous ne pouvez pas faire une tâche maintenant ? Ouvrez-la, touchez **Reporter** et choisissez **1 jour**, **3 jours**, **1 semaine**, **2 semaines** ou **1 mois**. Elle reste dans la liste comme **Reportée** avec sa nouvelle date, et vous n’êtes pas rappelé avant.
+
+:::warning Ne marquez une tâche comme faite que si vous l’avez faite
+La prochaine échéance est calculée à partir du jour où vous la marquez comme faite. Si vous marquez comme faite une tâche encore à faire, toutes les échéances suivantes se décalent. Reportez-la plutôt.
 :::
 
-## Mettre une tâche en pause
-
-Vous pouvez désactiver une tâche, par exemple pour un équipement que vous avez arrêté ou une tâche hors saison. Elle reste dans la liste mais n’a plus d’échéance. Vous pourrez la réactiver plus tard.
-
-## Entretien et journal
-
-Terminer une tâche, ce n’est pas écrire dans le journal. Entretien répond à « qu’est-ce qui est à faire ? ». Le **[journal](/help/mobile-journal)** répond à « qu’ai-je vraiment fait, et que s’est-il passé ensuite ? ». Si une tâche a réservé une surprise (une pompe pleine de sable, des chaussettes noires au bout d’un jour), notez-la aussi dans le journal.
+Il n’est pas possible de mettre une tâche en pause. Pour une tâche qui ne s’applique pas cette saison, reportez-la de **1 mois**, ou supprimez-la et ajoutez-la à nouveau plus tard.

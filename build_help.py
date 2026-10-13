@@ -22,6 +22,7 @@ from __future__ import annotations
 import html
 import re
 import sys
+import unicodedata
 from dataclasses import dataclass, field
 import hashlib
 import json
@@ -194,6 +195,19 @@ UI_STRINGS = {
         "footer_support": "Support",
         "search_none": "Nothing matched “{q}”.",
         "search_unavailable": "Search is unavailable. Use the navigation instead.",
+        "breadcrumb": "Breadcrumb",
+        "guide_nav": "Guide navigation",
+        "guide": "Guide",
+        "continue_reading": "Continue reading",
+        "enlarge": "Enlarge: {alt}",
+        "screenshot": "Screenshot",
+        "close": "Close",
+        "shot_to_come": "Screenshot to come",
+        "twin_max": "On Cora Max: {title}",
+        "twin_mobile": "On Cora Mobile: {title}",
+        "search_try": "Try fewer or different words, or go to:",
+        "contact_support": "Contact support",
+        "az_label": "Terms A to Z",
         "lang_label": "Language",
         "sections": {"Help": "Help"},
         "groups": {
@@ -201,6 +215,7 @@ UI_STRINGS = {
             "Alerts and automation": "Alerts and automation",
             "Automation": "Automation", "Equipment": "Equipment",
             "Getting started": "Getting started", "Intelligence": "Intelligence",
+            "Settings and account": "Settings and account",
             "Records": "Records", "Settings": "Settings",
             "Your dashboard": "Your dashboard",
         },
@@ -223,6 +238,19 @@ UI_STRINGS = {
         "footer_support": "Support",
         "search_none": "Keine Treffer für „{q}“.",
         "search_unavailable": "Die Suche ist nicht verfügbar. Nutze die Navigation.",
+        "breadcrumb": "Navigationspfad",
+        "guide_nav": "Navigation der Anleitung",
+        "guide": "Anleitung",
+        "continue_reading": "Weiterlesen",
+        "enlarge": "Vergrößern: {alt}",
+        "screenshot": "Bildschirmfoto",
+        "close": "Schließen",
+        "shot_to_come": "Bildschirmfoto folgt",
+        "twin_max": "Auf Cora Max: {title}",
+        "twin_mobile": "In Cora Mobile: {title}",
+        "search_try": "Versuche es mit weniger oder anderen Wörtern, oder gehe zu:",
+        "contact_support": "Support kontaktieren",
+        "az_label": "Begriffe von A bis Z",
         "lang_label": "Sprache",
         "sections": {"Help": "Hilfe"},
         "groups": {
@@ -230,6 +258,7 @@ UI_STRINGS = {
             "Alerts and automation": "Warnungen und Automatisierung",
             "Automation": "Automatisierung", "Equipment": "Geräte",
             "Getting started": "Erste Schritte", "Intelligence": "Intelligenz",
+            "Settings and account": "Einstellungen und Konto",
             "Records": "Aufzeichnungen", "Settings": "Einstellungen",
             "Your dashboard": "Dein Dashboard",
         },
@@ -252,6 +281,19 @@ UI_STRINGS = {
         "footer_support": "Assistance",
         "search_none": "Aucun résultat pour « {q} ».",
         "search_unavailable": "La recherche est indisponible. Utilisez la navigation.",
+        "breadcrumb": "Fil d’Ariane",
+        "guide_nav": "Navigation du guide",
+        "guide": "Guide",
+        "continue_reading": "Poursuivre la lecture",
+        "enlarge": "Agrandir : {alt}",
+        "screenshot": "Capture d’écran",
+        "close": "Fermer",
+        "shot_to_come": "Capture d’écran à venir",
+        "twin_max": "Sur Cora Max : {title}",
+        "twin_mobile": "Dans Cora Mobile : {title}",
+        "search_try": "Essayez avec moins de mots ou d’autres mots, ou consultez :",
+        "contact_support": "Contacter l’assistance",
+        "az_label": "Termes de A à Z",
         "lang_label": "Langue",
         "sections": {"Help": "Aide"},
         "groups": {
@@ -259,6 +301,7 @@ UI_STRINGS = {
             "Alerts and automation": "Alertes et automatisation",
             "Automation": "Automatisation", "Equipment": "Équipement",
             "Getting started": "Prise en main", "Intelligence": "Intelligence",
+            "Settings and account": "Paramètres et compte",
             "Records": "Journaux", "Settings": "Paramètres",
             "Your dashboard": "Votre tableau de bord",
         },
@@ -281,6 +324,19 @@ UI_STRINGS = {
         "footer_support": "Destek",
         "search_none": "“{q}” için sonuç bulunamadı.",
         "search_unavailable": "Arama şu anda kullanılamıyor. Menüyü kullanın.",
+        "breadcrumb": "Gezinme yolu",
+        "guide_nav": "Kılavuz gezinmesi",
+        "guide": "Kılavuz",
+        "continue_reading": "Okumaya devam edin",
+        "enlarge": "Büyüt: {alt}",
+        "screenshot": "Ekran görüntüsü",
+        "close": "Kapat",
+        "shot_to_come": "Ekran görüntüsü yakında",
+        "twin_max": "Cora Max'te: {title}",
+        "twin_mobile": "Cora Mobile'da: {title}",
+        "search_try": "Daha az ya da farklı kelimeler deneyin veya şuraya gidin:",
+        "contact_support": "Destekle iletişime geçin",
+        "az_label": "A'dan Z'ye terimler",
         "lang_label": "Dil",
         "sections": {"Help": "Yardım"},
         "groups": {
@@ -288,6 +344,7 @@ UI_STRINGS = {
             "Alerts and automation": "Uyarılar ve otomasyon",
             "Automation": "Otomasyon", "Equipment": "Ekipman",
             "Getting started": "Başlarken", "Intelligence": "Zeka",
+            "Settings and account": "Ayarlar ve hesap",
             "Records": "Kayıtlar", "Settings": "Ayarlar",
             "Your dashboard": "Panonuz",
         },
@@ -310,6 +367,19 @@ UI_STRINGS = {
         "footer_support": "Assistenza",
         "search_none": "Nessun risultato per “{q}”.",
         "search_unavailable": "La ricerca non è disponibile. Usa la navigazione.",
+        "breadcrumb": "Percorso di navigazione",
+        "guide_nav": "Navigazione della guida",
+        "guide": "Guida",
+        "continue_reading": "Continua a leggere",
+        "enlarge": "Ingrandisci: {alt}",
+        "screenshot": "Screenshot",
+        "close": "Chiudi",
+        "shot_to_come": "Screenshot in arrivo",
+        "twin_max": "Su Cora Max: {title}",
+        "twin_mobile": "In Cora Mobile: {title}",
+        "search_try": "Prova con meno parole o con parole diverse, oppure vai a:",
+        "contact_support": "Contatta l’assistenza",
+        "az_label": "Termini dalla A alla Z",
         "lang_label": "Lingua",
         "sections": {"Help": "Aiuto"},
         "groups": {
@@ -317,6 +387,7 @@ UI_STRINGS = {
             "Alerts and automation": "Avvisi e automazione",
             "Automation": "Automazione", "Equipment": "Apparecchiature",
             "Getting started": "Per iniziare", "Intelligence": "Intelligenza",
+            "Settings and account": "Impostazioni e account",
             "Records": "Registri", "Settings": "Impostazioni",
             "Your dashboard": "La tua dashboard",
         },
@@ -339,6 +410,19 @@ UI_STRINGS = {
         "footer_support": "Soporte",
         "search_none": "Sin resultados para “{q}”.",
         "search_unavailable": "La búsqueda no está disponible. Usa la navegación.",
+        "breadcrumb": "Ruta de navegación",
+        "guide_nav": "Navegación de la guía",
+        "guide": "Guía",
+        "continue_reading": "Seguir leyendo",
+        "enlarge": "Ampliar: {alt}",
+        "screenshot": "Captura de pantalla",
+        "close": "Cerrar",
+        "shot_to_come": "Captura de pantalla próximamente",
+        "twin_max": "En Cora Max: {title}",
+        "twin_mobile": "En Cora Mobile: {title}",
+        "search_try": "Prueba con menos palabras o con otras distintas, o ve a:",
+        "contact_support": "Contactar con soporte",
+        "az_label": "Términos de la A a la Z",
         "lang_label": "Idioma",
         "sections": {"Help": "Ayuda"},
         "groups": {
@@ -346,6 +430,7 @@ UI_STRINGS = {
             "Alerts and automation": "Alertas y automatización",
             "Automation": "Automatización", "Equipment": "Equipos",
             "Getting started": "Primeros pasos", "Intelligence": "Inteligencia",
+            "Settings and account": "Ajustes y cuenta",
             "Records": "Registros", "Settings": "Ajustes",
             "Your dashboard": "Tu panel",
         },
@@ -368,6 +453,19 @@ UI_STRINGS = {
         "footer_support": "Wsparcie",
         "search_none": "Brak wyników dla „{q}”.",
         "search_unavailable": "Wyszukiwanie jest niedostępne. Użyj menu.",
+        "breadcrumb": "Ścieżka nawigacji",
+        "guide_nav": "Nawigacja po przewodniku",
+        "guide": "Przewodnik",
+        "continue_reading": "Czytaj dalej",
+        "enlarge": "Powiększ: {alt}",
+        "screenshot": "Zrzut ekranu",
+        "close": "Zamknij",
+        "shot_to_come": "Zrzut ekranu wkrótce",
+        "twin_max": "W Cora Max: {title}",
+        "twin_mobile": "W Cora Mobile: {title}",
+        "search_try": "Spróbuj użyć mniej słów lub innych słów albo przejdź do:",
+        "contact_support": "Skontaktuj się z pomocą",
+        "az_label": "Pojęcia od A do Z",
         "lang_label": "Język",
         "sections": {"Help": "Pomoc"},
         "groups": {
@@ -375,12 +473,187 @@ UI_STRINGS = {
             "Alerts and automation": "Alerty i automatyzacja",
             "Automation": "Automatyzacja", "Equipment": "Sprzęt",
             "Getting started": "Pierwsze kroki", "Intelligence": "Inteligencja",
+            "Settings and account": "Ustawienia i konto",
             "Records": "Zapisy", "Settings": "Ustawienia",
             "Your dashboard": "Twój panel",
         },
     },
 }
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Search vocabulary (R1-02, 2026-10-13).
+#
+# ⭐ Each row is a set of words a reader may type for the SAME thing. A query
+# word (or 2-3 word phrase) found in a row matches ANY word of that row, so
+# "offline" finds "stopped reporting" and "cancel subscription" finds Plans.
+# Matching is case-, accent- and hyphen-blind on both sides (wifi = Wi-Fi =
+# wi fi, dos = DŌS), and always at the START of a word, so "ato" no longer
+# hits "automation". Rows are per language because the words are; brand and
+# chemistry rows that are the same everywhere live in SYN_COMMON.
+#
+# ⚠️ Keep rows TIGHT. A row is an OR, so a loose one ("pump" = "light")
+# quietly floods every query that uses it. Add a word only when someone would
+# really type it for that exact thing. STOPWORDS are dropped from a query
+# ("how do I add an apex" searches "add apex") unless nothing else is left.
+# ─────────────────────────────────────────────────────────────────────────────
+
+SYN_COMMON = [
+    ["jebao", "jecod"],
+    ["alk", "alkalinity", "kh", "dkh"],
+    ["ato", "top off", "auto top off", "topoff", "top up"],
+    ["wifi", "wlan", "wireless"],
+    ["dos", "doser", "dosing pump"],
+    ["apex", "neptune"],
+    ["reefbeat", "red sea"],
+    ["icp", "triton", "water test lab"],
+]
+
+SYNONYMS = {
+    "en": [
+        ["offline", "not connected", "stopped reporting", "not reporting", "unreachable",
+         "cannot be reached", "disconnected", "no data"],
+        ["notification", "push", "alert"],
+        ["subscription", "plan", "billing", "unsubscribe", "premium"],
+        ["cancel", "unsubscribe"],
+        ["probe", "sensor"],
+        ["delete", "remove"],
+        ["dosing", "doser", "dose"],
+        ["fahrenheit", "celsius", "units", "display units"],
+        ["hey cora", "wake word", "voice"],
+        ["tablet", "cora max", "wall screen"],
+        ["phone", "cora mobile"],
+        ["sign in", "log in", "login", "password"],
+        ["wavemaker", "powerhead", "wave pump", "gyre"],
+        ["outlet", "socket", "plug", "power strip", "energy bar"],
+        ["update", "upgrade", "firmware"],
+        ["light", "led", "lighting"],
+        ["camera", "webcam"],
+    ],
+    "de": [
+        ["offline", "nicht verbunden", "keine daten", "meldet nicht", "nicht erreichbar", "getrennt"],
+        ["benachrichtigung", "push", "warnung", "alarm"],
+        ["abo", "abonnement", "tarif", "plan", "kündigen", "abrechnung"],
+        ["sonde", "sensor", "fühler"],
+        ["löschen", "entfernen"],
+        ["dosierung", "dosierer", "dosierpumpe", "dosieren"],
+        ["fahrenheit", "celsius", "einheit", "einheiten"],
+        ["hey cora", "aktivierungswort", "sprache", "stimme"],
+        ["tablet", "cora max", "wandbildschirm"],
+        ["handy", "smartphone", "telefon", "cora mobile"],
+        ["anmelden", "login", "passwort", "einloggen"],
+        ["strömungspumpe", "wavemaker", "gyre"],
+        ["steckdose", "steckdosenleiste", "outlet"],
+        ["update", "aktualisierung", "firmware"],
+        ["licht", "beleuchtung", "lampe", "led"],
+        ["nachfüllung", "nachfüllanlage", "ato"],
+    ],
+    "fr": [
+        ["hors ligne", "deconnecte", "non connecte", "ne remonte plus", "injoignable", "pas de donnees"],
+        ["notification", "push", "alerte"],
+        ["abonnement", "forfait", "offre", "resilier", "facturation"],
+        ["sonde", "capteur"],
+        ["supprimer", "retirer", "effacer"],
+        ["dosage", "doseuse", "pompe doseuse", "doser"],
+        ["fahrenheit", "celsius", "unite", "unites"],
+        ["hey cora", "mot d'activation", "voix"],
+        ["tablette", "cora max", "ecran mural"],
+        ["telephone", "smartphone", "cora mobile"],
+        ["connexion", "se connecter", "mot de passe", "identifiant"],
+        ["pompe de brassage", "brassage", "wavemaker", "gyre"],
+        ["prise", "multiprise", "bloc multiprise"],
+        ["mise a jour", "firmware", "micrologiciel"],
+        ["eclairage", "lumiere", "rampe", "led"],
+        ["osmolateur", "remise a niveau", "ato"],
+    ],
+    "tr": [
+        ["cevrimdisi", "baglanti yok", "bagli degil", "veri yok", "ulasilamiyor", "raporlamayi durdurdu"],
+        ["bildirim", "push", "uyari", "alarm"],
+        ["abonelik", "plan", "uyelik", "iptal", "fatura"],
+        ["prob", "sensor", "sonda"],
+        ["sil", "silme", "kaldir"],
+        ["dozlama", "dozaj", "dozaj pompasi", "dozer"],
+        ["fahrenheit", "celsius", "birim", "birimler"],
+        ["hey cora", "uyandirma kelimesi", "ses", "sesli"],
+        ["tablet", "cora max", "duvar ekrani"],
+        ["telefon", "cep telefonu", "cora mobile"],
+        ["giris", "oturum", "sifre", "parola"],
+        ["dalga pompasi", "akinti pompasi", "wavemaker", "gyre"],
+        ["priz", "grup priz", "outlet"],
+        ["guncelleme", "guncelle", "firmware", "yazilim"],
+        ["isik", "aydinlatma", "led"],
+        ["otomatik su tamamlama", "su tamamlama", "ato"],
+    ],
+    "it": [
+        ["offline", "non connesso", "disconnesso", "nessun dato", "non raggiungibile", "non invia"],
+        ["notifica", "notifiche", "push", "avviso", "allarme"],
+        ["abbonamento", "piano", "disdire", "annullare", "fatturazione"],
+        ["sonda", "sensore"],
+        ["eliminare", "elimina", "rimuovere", "rimuovi", "cancellare"],
+        ["dosaggio", "dosometrica", "pompa dosatrice", "dosatore"],
+        ["fahrenheit", "celsius", "unita"],
+        ["hey cora", "parola di attivazione", "voce"],
+        ["tablet", "cora max", "schermo a parete"],
+        ["telefono", "smartphone", "cellulare", "cora mobile"],
+        ["accesso", "accedere", "login", "password"],
+        ["pompa di movimento", "movimento", "wavemaker", "gyre"],
+        ["presa", "ciabatta", "multipresa"],
+        ["aggiornamento", "aggiornare", "firmware"],
+        ["luce", "illuminazione", "plafoniera", "led"],
+        ["rabbocco", "rabbocco automatico", "ato"],
+    ],
+    "es": [
+        ["sin conexion", "desconectado", "offline", "no conectado", "sin datos", "no responde"],
+        ["notificacion", "notificaciones", "push", "alerta", "aviso"],
+        ["suscripcion", "plan", "cancelar", "facturacion", "darse de baja"],
+        ["sonda", "sensor"],
+        ["eliminar", "borrar", "quitar"],
+        ["dosificacion", "dosificadora", "bomba dosificadora", "dosificar"],
+        ["fahrenheit", "celsius", "unidad", "unidades"],
+        ["hey cora", "palabra de activacion", "voz"],
+        ["tableta", "tablet", "cora max", "pantalla de pared"],
+        ["telefono", "movil", "celular", "cora mobile"],
+        ["iniciar sesion", "acceso", "contrasena", "login"],
+        ["bomba de recirculacion", "bomba de corriente", "wavemaker", "gyre"],
+        ["enchufe", "regleta", "toma"],
+        ["actualizacion", "actualizar", "firmware"],
+        ["luz", "iluminacion", "pantalla led", "led"],
+        ["reposicion", "rellenado automatico", "ato"],
+    ],
+    "pl": [
+        ["offline", "brak polaczenia", "rozlaczony", "brak danych", "nie odpowiada", "niedostepny"],
+        ["powiadomienie", "powiadomienia", "push", "alert", "alarm"],
+        ["subskrypcja", "plan", "abonament", "anulowac", "anuluj", "platnosc"],
+        ["sonda", "czujnik", "sensor"],
+        ["usun", "usunac", "usuwanie"],
+        ["dozowanie", "dozownik", "pompa dozujaca"],
+        ["fahrenheit", "celsjusz", "jednostki", "jednostka"],
+        ["hey cora", "slowo aktywujace", "glos"],
+        ["tablet", "cora max", "ekran scienny"],
+        ["telefon", "smartfon", "cora mobile"],
+        ["logowanie", "zaloguj", "haslo", "login"],
+        ["pompa cyrkulacyjna", "cyrkulator", "wavemaker", "gyre"],
+        ["gniazdo", "listwa", "listwa zasilajaca"],
+        ["aktualizacja", "zaktualizuj", "firmware", "oprogramowanie"],
+        ["swiatlo", "oswietlenie", "lampa", "led"],
+        ["dolewka", "automatyczna dolewka", "ato"],
+    ],
+}
+
+STOPWORDS = {
+    "en": "a an the how do does i my me to can is are what why when where on in of for with it "
+          "and or you your from this that be should no not".split(),
+    "de": "der die das den dem ein eine einen wie ich mein meine mich kann ist sind was warum wo "
+          "in im auf zu mit und oder für von du dein deine".split(),
+    "fr": "le la les l un une des de du d comment je j mon ma mes est sont que quoi pourquoi ou "
+          "dans sur pour avec et en au aux vous votre".split(),
+    "tr": "bir ve ile icin bu su ne neden nasil nerede mi mu da de".split(),
+    "it": "il lo la i gli le l un una come io mio mia miei e che perche dove in su per con di del "
+          "della da al".split(),
+    "es": "el la los las un una unos como yo mi mis es son que por porque donde en con y o de del "
+          "para al".split(),
+    "pl": "jak co czy w we na z ze i do moj moja moje to jest sa dlaczego gdzie sie".split(),
+}
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Content model
@@ -396,6 +669,7 @@ class Page:
     body_md: str
     group: str = ""
     reviewed: str = ""
+    twin: str = ""
     lang: str = "en"
     html: str = ""
     headings: list = field(default_factory=list)
@@ -411,7 +685,18 @@ class Page:
         return base / ("index.html" if self.slug == "index" else f"{self.slug}.html")
 
 
-SECTION_ORDER = ["", "Cora Mobile", "Cora Max", "Help"]
+# ⭐ "Help" SECOND, right under the index (R1-07, 2026-10-13). It was last,
+# below 51 product links, so Troubleshooting sat at the very bottom of the
+# phone drawer although it is the page people most often come for.
+SECTION_ORDER = ["", "Help", "Cora Mobile", "Cora Max"]
+
+# The task groups, in the order they appear in BOTH products' sidebars. The
+# self-test checks every section's groups are contiguous runs of `order:` in
+# this order, so the sidebar and Previous/Next can never disagree again.
+GROUP_ORDER = [
+    "Getting started", "Your dashboard", "Equipment", "Alerts and automation",
+    "Records", "Intelligence", "Settings and account",
+]
 
 
 def parse_frontmatter(text: str, slug: str) -> tuple[dict, str]:
@@ -552,10 +837,59 @@ def _dimensions(src: str) -> tuple[int, int]:
     return dim
 
 
+# Letters NFKD does not decompose into a base letter plus a mark.
+_FOLD_EXTRA = str.maketrans({
+    "ł": "l", "Ł": "L", "ı": "i", "ø": "o", "Ø": "O", "đ": "d", "Đ": "D",
+    "ß": "ss", "æ": "ae", "Æ": "AE", "œ": "oe", "Œ": "OE",
+})
+
+
+def ascii_fold(text: str) -> str:
+    """'DŌS' -> 'DOS', 'Yaş' -> 'Yas', 'łączenie' -> 'laczenie'."""
+    s = unicodedata.normalize("NFKD", text.translate(_FOLD_EXTRA))
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
 def slugify(text: str) -> str:
-    s = re.sub(r"<[^>]+>", "", text).lower()
+    # ⭐ ASCII-FOLDED FIRST (2026-10-13). It used to drop every non-ASCII
+    # letter, so "DŌS" became `#ds`, Turkish "Yaş" `#ya` and Polish
+    # "łączenie" `#czenie`. Folding keeps the word readable in the URL.
+    s = ascii_fold(re.sub(r"<[^>]+>", "", text)).lower()
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     return re.sub(r"\s+", "-", s.strip())[:60]
+
+
+# `## Heading {#stable-id}`: the id is used verbatim and the braces are not
+# rendered. Translators copy the `{#...}` unchanged, so an English
+# `/help/<slug>#stable-id` link keeps landing on the right spot in every
+# language (README §Links).
+_CUSTOM_ID_RE = re.compile(r"^(.*?)\s*\{#([a-z0-9][a-z0-9-]*)\}\s*$")
+
+
+def split_heading(raw: str) -> tuple[str, str]:
+    """Heading source text -> (text without the {#id}, id)."""
+    m = _CUSTOM_ID_RE.match(raw.strip())
+    if m:
+        return m.group(1).strip(), m.group(2)
+    return raw.strip(), slugify(raw)
+
+
+_TILE_RE = re.compile(r"^\s*[-*]\s+\[([^\]]+)\]\(([^)\s]+)\)\s*[:.]?\s*(.*)$")
+
+
+def render_tiles(lines: list[str]) -> str:
+    """`:::tiles` block: each `- [Title](/help/slug): one line` becomes a tile."""
+    items = []
+    for line in lines:
+        m = _TILE_RE.match(line)
+        if not m:
+            continue
+        title, href, desc = m.group(1), m.group(2), m.group(3).strip()
+        span = f"<span>{inline(desc)}</span>" if desc else ""
+        items.append(
+            f'<li><a href="{html.escape(href, quote=True)}"><b>{inline(title)}</b>{span}</a></li>'
+        )
+    return f'<ul class="tiles">{"".join(items)}</ul>'
 
 
 def render(md: str, headings: list) -> str:
@@ -585,7 +919,7 @@ def render(md: str, headings: list) -> str:
             continue
 
         # Callouts:  :::note Title
-        m = re.match(r"^:::(note|warning|tip)\s*(.*)$", line)
+        m = re.match(r"^:::(note|warning|tip|tiles)\s*(.*)$", line)
         if m:
             kind, title = m.group(1), m.group(2).strip()
             i += 1
@@ -594,6 +928,9 @@ def render(md: str, headings: list) -> str:
                 buf.append(lines[i])
                 i += 1
             i += 1
+            if kind == "tiles":
+                out.append(render_tiles(buf))
+                continue
             inner = render("\n".join(buf), headings)
             head = f'<p class="cal-t">{inline(title)}</p>' if title else ""
             out.append(f'<aside class="cal cal-{kind}">{head}{inner}</aside>')
@@ -617,9 +954,9 @@ def render(md: str, headings: list) -> str:
         m = re.match(r"^(#{2,4})\s+(.*)$", line)
         if m:
             level = len(m.group(1))
-            text = inline(m.group(2).strip())
-            hid = slugify(m.group(2))
-            headings.append((level, m.group(2).strip(), hid))
+            raw, hid = split_heading(m.group(2))
+            text = inline(raw)
+            headings.append((level, raw, hid))
             out.append(f'<h{level} id="{hid}">{text}</h{level}>')
             i += 1
             continue
@@ -823,19 +1160,56 @@ def nav_html(pages: list[Page], current: Page) -> str:
     return "\n".join(parts)
 
 
+_H23_SPLIT = re.compile(r'<h([23]) id="([^"]*)">(.*?)</h\1>', re.S)
+
+
+def _plain(fragment: str) -> str:
+    t = html.unescape(re.sub(r"<[^>]+>", " ", fragment))
+    # NFC so every accented letter is ONE code point: the client folds text
+    # character by character and relies on that to keep snippet offsets true.
+    return unicodedata.normalize("NFC", re.sub(r"\s+", " ", t).strip())
+
+
+def search_chunks(page_html: str) -> list[list[str]]:
+    """[[heading, id, text], ...]: the page cut at every H2 and H3.
+
+    ⭐ A result can then link to the SECTION that matched (R1-03): a hit deep
+    in Troubleshooting or the FAQ lands on its question, not on the top of a
+    wall of 34 headings. The first chunk is the intro, with no heading.
+    Heading text is not repeated inside the chunk text, which is what keeps
+    the index the same size as the old whole-body one.
+    """
+    parts = _H23_SPLIT.split(page_html)
+    chunks = []
+    intro = _plain(parts[0])
+    if intro:
+        chunks.append(["", "", intro])
+    for k in range(1, len(parts) - 1, 4):
+        _level, hid, head, after = parts[k:k + 4]
+        chunks.append([_plain(head), hid, _plain(after)])
+    return chunks
+
+
 def search_index(pages: list[Page]) -> str:
     """A tiny static index, fetched only when someone opens search.
 
     ⭐ 50 pages and ~28,000 words is past what a sidebar can expose. The index
     is deliberately NOT inlined into every page: it is one file, fetched once
     on first use, so the cost lands on the readers who search and nobody else.
+
+    ⛔ THE WHOLE BODY, NOT A PREFIX. It was once capped at 1,800 chars, about
+    half a page, and "amber" found nothing although the dashboard page has a
+    section on it. A search that cannot see half of every page answers "not
+    here" with confidence. Every chunk is complete.
+
+    The language's synonym rows and stop words ride along, so the matching
+    rules live in one place (this file) and each language searches with its
+    own words.
     """
     docs = []
+    lang = pages[0].lang if pages else "en"
+    strings = UI_STRINGS[lang]
     for p in pages:
-        strings = UI_STRINGS[p.lang]
-        body = re.sub(r"<[^>]+>", " ", p.html)
-        body = html.unescape(body)
-        body = re.sub(r"\s+", " ", body).strip()
         section = p.section or "Help"
         docs.append(
             {
@@ -843,20 +1217,231 @@ def search_index(pages: list[Page]) -> str:
                 "t": p.title,
                 "s": strings["sections"].get(section, section),
                 "d": p.description,
-                "h": [t for _, t, _ in p.headings if _ == 2],
-                # ⛔ THE WHOLE BODY, NOT A PREFIX. This was capped at 1,800
-                # chars, which is about HALF a typical page — and the bug that
-                # exposed it is instructive: searching "amber" returned
-                # nothing, although the dashboard page has a whole section on
-                # what amber means, because that section sits past 1,800 chars.
-                # A search that silently cannot see half of every page is worse
-                # than no search, because it answers "not here" with confidence.
-                # Longest page is ~5.4 KB; the full index is ~160 KB, well
-                # inside the 250 KB budget the self-test enforces.
-                "b": body,
+                "x": search_chunks(p.html),
             }
         )
-    return json.dumps(docs, separators=(",", ":"), ensure_ascii=False)
+    payload = {
+        "syn": SYN_COMMON + SYNONYMS.get(lang, []),
+        "stop": STOPWORDS.get(lang, []),
+        "docs": docs,
+    }
+    return json.dumps(payload, separators=(",", ":"), ensure_ascii=False)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# The search engine, client side. ⭐ A plain string (not part of the shell's
+# f-string) so the self-test can run THIS EXACT CODE under node against the
+# real index. It only defines `CoraSearch`; the dialog code in `shell()` uses
+# it.
+#
+# Rules (R1-01..04):
+#  · every query word must match somewhere on the page (AND);
+#  · a word matches at the START of a word, as a prefix ("notif" finds
+#    "notifications", "ato" does not find "automation");
+#  · case, accents, Turkish dotted/dotless i and hyphens are folded away on
+#    both sides, and a word may be split or joined (wifi = Wi-Fi = wi fi);
+#  · a query word or 2-3 word phrase in a synonym row matches any word of it;
+#  · rank: title 60 > description 40 > heading 30 > body 10 per word, plus a
+#    phrase bonus, ties broken by how many sections hit;
+#  · a page whose title does not already answer the query links to its best
+#    matching section, and can list a second strong section under it.
+# ─────────────────────────────────────────────────────────────────────────────
+
+SEARCH_CORE_JS = r"""
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
+  function esc(t) {
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
+    });
+  }
+
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
+  }
+
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
+    }
+    return '';
+  }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+"""
 
 
 def reviewed_html(page: Page) -> str:
@@ -893,7 +1478,7 @@ def prevnext_html(pages: list[Page], current: Page) -> str:
     if not prev and not nxt:
         return ""
     strings = UI_STRINGS[current.lang]
-    out = ['<nav class="pn" aria-label="Continue reading">']
+    out = [f'<nav class="pn" aria-label="{html.escape(strings["continue_reading"], quote=True)}">']
     if prev:
         out.append(
             f'<a class="pn-p" href="{prev.url}"><span>{html.escape(strings["previous"])}</span>'
@@ -909,13 +1494,106 @@ def prevnext_html(pages: list[Page], current: Page) -> str:
 
 
 def toc_html(page: Page) -> str:
-    """On-page contents, h2 only. Skipped when a page has fewer than three."""
+    """On-page contents, h2 only. Skipped when a page has fewer than three.
+
+    The glossary gets an A to Z jump row instead: its 30-odd terms as a
+    two-column contents list were a wall (R1-25)."""
     h2 = [h for h in page.headings if h[0] == 2]
+    if page.slug == "glossary" and h2:
+        label = html.escape(UI_STRINGS[page.lang]["az_label"])
+        letters: dict[str, str] = {}
+        for _, t, hid in h2:
+            ch = ascii_fold(re.sub(r"[*`_]", "", t).strip()[:1]).upper()
+            if ch and ch not in letters:
+                letters[ch] = hid
+        items = "".join(f'<li><a href="#{hid}">{html.escape(ch)}</a></li>' for ch, hid in letters.items())
+        return f'<nav class="toc az" aria-label="{label}"><p>{label}</p><ul>{items}</ul></nav>'
     if len(h2) < 3:
         return ""
     label = html.escape(UI_STRINGS[page.lang]["on_this_page"])
     items = "".join(f'<li><a href="#{hid}">{html.escape(t)}</a></li>' for _, t, hid in h2)
     return f'<nav class="toc" aria-label="{label}"><p>{label}</p><ul>{items}</ul></nav>'
+
+
+def twin_html(page: Page, pages: list[Page]) -> str:
+    """'On Cora Max: <twin>' under the H1 (R1-18). Same language only: a twin
+    not translated yet is simply left out (the self-test flags it)."""
+    if not page.twin:
+        return ""
+    t = next((p for p in pages if p.slug == page.twin), None)
+    if t is None:
+        return ""
+    key = "twin_max" if t.section == "Cora Max" else "twin_mobile"
+    pre, _, post = UI_STRINGS[page.lang][key].partition("{title}")
+    esc = lambda x: html.escape(x, quote=False)
+    return f'<p class="twin">{esc(pre)}<a href="{t.url}">{esc(t.title)}</a>{esc(post)}</p>'
+
+
+def crumb_items(page: Page, pages: list[Page]) -> list[tuple[str, str]]:
+    """[(label, url)] for Help / section / group (R1-22). Empty on the index.
+
+    The section and group link to their first page, which is where the
+    sidebar would take you. The Help section is not repeated after "Help".
+    """
+    if page.slug == "index":
+        return []
+    strings = UI_STRINGS[page.lang]
+    home = "/help/" if page.lang == "en" else f"/{page.lang}/help/"
+    items = [(strings["sections"]["Help"], home)]
+    in_sec = sorted([p for p in pages if p.section == page.section], key=lambda p: p.order)
+    if page.section and page.section != "Help" and in_sec:
+        items.append((strings["sections"].get(page.section, page.section), in_sec[0].url))
+    if page.group:
+        in_grp = [p for p in in_sec if p.group == page.group]
+        if in_grp:
+            items.append((strings["groups"].get(page.group, page.group), in_grp[0].url))
+    return items
+
+
+EN_ATTR = ' lang="en"'
+
+
+def crumbs_html(page: Page, pages: list[Page]) -> str:
+    items = crumb_items(page, pages)
+    if not items:
+        return ""
+    label = html.escape(UI_STRINGS[page.lang]["breadcrumb"], quote=True)
+    # A product name keeps English casing rules (same reason as the sidebar).
+    lis = "".join(
+        f'<li><a href="{u}"{EN_ATTR if t.startswith("Cora") else ""}>{html.escape(t)}</a></li>'
+        for t, u in items
+    )
+    return f'<nav class="crumbs" aria-label="{label}"><ol>{lis}</ol></nav>'
+
+
+def crumbs_jsonld(page: Page, pages: list[Page]) -> str:
+    """BreadcrumbList for search engines: the visible trail plus this page."""
+    items = crumb_items(page, pages)
+    if not items:
+        return ""
+    els = [
+        {"@type": "ListItem", "position": i + 1, "name": t, "item": f"{SITE}{u}"}
+        for i, (t, u) in enumerate(items)
+    ]
+    els.append({"@type": "ListItem", "position": len(els) + 1, "name": page.title})
+    data = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": els}
+    js = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'\n  <script type="application/ld+json">{js}</script>'
+
+
+def localize_chrome(body: str, lang: str) -> str:
+    """Translate the few English words `render()` writes into the body
+    (it is language-blind): the enlarge label and the placeholder caption."""
+    if lang == "en":
+        return body
+    st = UI_STRINGS[lang]
+    pre = st["enlarge"].partition("{alt}")[0]
+    body = body.replace('aria-label="Enlarge: ', f'aria-label="{html.escape(pre, quote=True)}')
+    return body.replace("<span>Screenshot to come</span>",
+                        f"<span>{html.escape(st['shot_to_come'])}</span>")
+
+
+SEARCH_VERSION: dict[str, str] = {}
 
 
 def build_slug_index(lang_pages_map: dict[str, list[Page]]) -> dict[str, dict[str, Page]]:
@@ -991,6 +1669,18 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
     search_placeholder = html.escape(strings["search_placeholder"])
     still_stuck_pre, _, still_stuck_post = strings["still_stuck"].partition("{email}")
     search_none_pre, _, search_none_post = strings["search_none"].partition("{q}")
+    # ⭐ Zero results is never a dead end (R1-04): fewer words, or one of
+    # these. Pages not written yet in this language are left out.
+    _by = {p.slug: p for p in pages}
+    _rescue = [(_by[s].url, _by[s].title) for s in ("troubleshooting", "how-do-i") if s in _by]
+    _rescue.append((f"mailto:{SUPPORT_EMAIL}", strings["contact_support"]))
+    search_rescue = (
+        f'<p>{html.escape(strings["search_try"])}</p><ul>'
+        + "".join(f'<li><a href="{u}">{html.escape(t)}</a></li>' for u, t in _rescue)
+        + "</ul>"
+    )
+    search_v = SEARCH_VERSION.get(lang, "0")
+    help_word = html.escape(strings["sections"]["Help"])
 
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
@@ -1017,7 +1707,7 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v={FONTS_VERSION}" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v={FONTS_VERSION}"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v={CSS_VERSION}">
+  <link rel="stylesheet" href="/help/help.css?v={CSS_VERSION}">{crumbs_jsonld(page, pages)}
 </head>
 <body>
 <a class="skip" href="#main">{skip}</a>
@@ -1026,7 +1716,7 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
   <div class="hnav-in">
     <a class="hbrand" href="{home_url}">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>{help_word}</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="{search_aria}">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -1042,18 +1732,20 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="{html.escape(strings["guide_nav"], quote=True)}">
     <button class="hclose" id="hclose" type="button" aria-label="{close_label}">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="{html.escape(strings["guide"], quote=True)}">
 {nav_html(pages, page)}
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      {crumbs_html(page, pages)}
       <h1>{title}</h1>
+      {twin_html(page, pages)}
       {toc_html(page)}
-{mark_trademarks(page.html)}
+{localize_chrome(mark_trademarks(page.html), lang)}
       {prevnext_html(pages, page)}
       <p class="stamp">{html.escape(strings["written_for"].format(max=STAMP_MAX, mobile=STAMP_MOBILE))}{reviewed_html(page)}</p>
       <p class="ask">{html.escape(still_stuck_pre)}<a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>{html.escape(still_stuck_post)}</p>
@@ -1172,10 +1864,10 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || {json.dumps(strings["screenshot"])});
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', {json.dumps(strings["close"])}); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -1196,55 +1888,28 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
 }})();
 
 // ── Search ─────────────────────────────────────────────────────────────
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
+{SEARCH_CORE_JS}
 (function () {{
   var btn = document.getElementById('hfind');
   if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
-
-  function esc(t) {{
-    return t.replace(/[&<>]/g, function (c) {{
-      return {{'&': '&amp;', '<': '&lt;', '>': '&gt;'}}[c];
-    }});
-  }}
-
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {{
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
-  }}
-
-  function score(d, q) {{
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {{
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
-    }}
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
-  }}
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {{
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) {{ list.innerHTML = ''; return; }}
-    var hits = docs.map(function (d) {{ return [score(d, q), d]; }})
-                   .filter(function (r) {{ return r[0] > 0; }})
-                   .sort(function (a, b) {{ return b[0] - a[0]; }})
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) {{ list.innerHTML = ''; return; }}
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {{
-      list.innerHTML = '<li class="snone">' + {json.dumps(search_none_pre)} + esc(q) + {json.dumps(search_none_post)} + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + {json.dumps(html.escape(search_none_pre))} + esc(q)
+        + {json.dumps(html.escape(search_none_post))} + '</p>' + {json.dumps(search_rescue)} + '</li>';
       return;
     }}
     list.innerHTML = hits.map(function (r, i) {{
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }}).join('');
   }}
 
@@ -1276,9 +1941,11 @@ def shell(page: Page, pages: list[Page], slug_index: dict[str, dict[str, Page]])
     }});
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) {{ run(); return; }}
-    fetch('{home_url}search.json').then(function (r) {{ return r.json(); }})
-      .then(function (j) {{ docs = j; run(); }})
+    if (P) {{ run(); return; }}
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('{home_url}search.json?v={search_v}').then(function (r) {{ return r.json(); }})
+      .then(function (j) {{ P = CoraSearch.prep(j, {json.dumps(lang)}); run(); }})
       .catch(function () {{
         list.innerHTML = '<li class="snone">' + {json.dumps(strings["search_unavailable"])} + '</li>';
       }});
@@ -1533,7 +2200,28 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   color: var(--text-3); margin-top: 2px;
 }
 .sres mark { background: #ffe9a8; color: inherit; padding: 0 1px; border-radius: 2px; }
-.snone { padding: 22px; color: var(--text-3); font-size: 14px; }
+.snone { padding: 18px 22px; color: var(--text-3); font-size: 14px; }
+.snone p { margin: 0 0 8px; }
+.snone ul { margin: 0; padding-left: 18px; }
+.snone a { display: inline; padding: 0; color: var(--brand-deep); text-decoration: underline; }
+.sres .ssub a { padding-left: 28px; }
+.sres .ssub b { font-size: 13.5px; font-weight: 600; }
+
+/* ── Breadcrumb and twin line ───────────────────────────────────────── */
+.crumbs ol { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 0; font-size: 13.5px; }
+.crumbs li { margin: 0; color: var(--text-3); }
+.crumbs li + li::before { content: "/"; margin: 0 8px; color: var(--text-3); }
+.crumbs a { color: var(--text-2); text-decoration: none; }
+.crumbs a:hover { color: var(--brand-deep); text-decoration: underline; }
+.twin { margin: -8px 0 22px !important; font-size: 14.5px; color: var(--text-2); }
+
+/* ── Glossary A to Z ─────────────────────────────────────────────────── */
+.toc.az ul { columns: auto; display: flex; flex-wrap: wrap; gap: 4px; }
+.toc.az li { margin: 0; }
+.toc.az a {
+  display: inline-block; min-width: 32px; padding: 4px 0; text-align: center;
+  font-weight: 600; border: 1px solid var(--line); border-radius: 4px; background: var(--surface);
+}
 @media (max-width: 900px) { .hfind span, .hfind kbd { display: none; } }
 
 /* ── Language switcher ──────────────────────────────────────────────────
@@ -1796,6 +2484,7 @@ def load_pages(lang: str = "en") -> list[Page]:
                 order=int(meta["order"]),
                 group=meta.get("group", ""),
                 reviewed=meta.get("reviewed", ""),
+                twin=meta.get("twin", ""),
                 lang=lang,
                 body_md=body,
             )
@@ -1904,9 +2593,9 @@ def desired_sitemap_text(lang_pages_map: dict[str, list[Page]]) -> str | None:
     return text.replace("</urlset>", "".join(blocks) + "</urlset>")
 
 
-def build(check_only: bool = False) -> int:
-    en_pages = load_pages("en")
-    lang_pages_map: dict[str, list[Page]] = {"en": en_pages}
+def load_all() -> dict[str, list[Page]]:
+    """Every language's pages, rendered and with links localized."""
+    lang_pages_map: dict[str, list[Page]] = {"en": load_pages("en")}
     for lang in LANGS:
         lang_pages_map[lang] = load_pages(lang)
 
@@ -1927,7 +2616,12 @@ def build(check_only: bool = False) -> int:
         by_slug = {p.slug: p for p in pages}
         for p in pages:
             p.html = localize_links(p.html, lang, by_slug)
+    return lang_pages_map
 
+
+def build(check_only: bool = False) -> int:
+    lang_pages_map = load_all()
+    en_pages = lang_pages_map["en"]
     slug_index = build_slug_index(lang_pages_map)
 
     OUT.mkdir(parents=True, exist_ok=True)
@@ -1948,7 +2642,12 @@ def build(check_only: bool = False) -> int:
     # <link> in `shell()` points at that one absolute path regardless of
     # which /<lang>/ directory it is served from. Only the search index is
     # per language, since each language searches only its own pages.
-    targets = [(OUT / "help.css", css), (OUT / "search.json", search_index(en_pages))]
+    # ⭐ Index first: every page's search script fetches it by content hash.
+    indexes = {lang: search_index(pages) for lang, pages in lang_pages_map.items() if pages}
+    for lang, text in indexes.items():
+        SEARCH_VERSION[lang] = hashlib.sha256(text.encode("utf-8")).hexdigest()[:10]
+
+    targets = [(OUT / "help.css", css), (OUT / "search.json", indexes["en"])]
     targets += [(p.out_path, shell(p, en_pages, slug_index)) for p in en_pages]
 
     total_pages = len(en_pages)
@@ -1959,7 +2658,7 @@ def build(check_only: bool = False) -> int:
         total_pages += len(pages)
         out_dir = ROOT / lang / "help"
         out_dir.mkdir(parents=True, exist_ok=True)
-        targets.append((out_dir / "search.json", search_index(pages)))
+        targets.append((out_dir / "search.json", indexes[lang]))
         targets += [(p.out_path, shell(p, pages, slug_index)) for p in pages]
 
     sitemap_text = desired_sitemap_text(lang_pages_map)
@@ -1998,6 +2697,106 @@ def build(check_only: bool = False) -> int:
 # Self-test. ⚠️ Run before trusting a build. Twelve directions, each aimed at a
 # way this generator could produce plausible-looking wrong output.
 # ─────────────────────────────────────────────────────────────────────────────
+
+def structure_problems(lang_pages_map: dict[str, list[Page]]) -> dict[str, list[str]]:
+    """Sidebar-shape problems in every tree, by kind (R1-05/06/18)."""
+    out: dict[str, list[str]] = {"order": [], "groups": [], "twin": [], "labels": []}
+    for lang, pages in lang_pages_map.items():
+        slugs = {p.slug for p in pages}
+        for sec in SECTION_ORDER:
+            in_sec = sorted([p for p in pages if p.section == sec], key=lambda p: p.order)
+            seen_o: dict[int, str] = {}
+            for p in in_sec:
+                if p.order in seen_o:
+                    out["order"].append(f"{lang}/{p.slug} = {lang}/{seen_o[p.order]} (order {p.order})")
+                seen_o[p.order] = p.slug
+            # Runs of the same group, in order. A group seen in two runs is
+            # split, and the runs must follow GROUP_ORDER.
+            runs: list[str] = []
+            for p in in_sec:
+                if p.group and (not runs or runs[-1] != p.group):
+                    runs.append(p.group)
+            for g in runs:
+                if runs.count(g) > 1:
+                    out["groups"].append(f"{lang} {sec}: '{g}' is split by order {runs}")
+                    break
+            known = [g for g in runs if g in GROUP_ORDER]
+            unknown = [g for g in runs if g not in GROUP_ORDER]
+            if unknown:
+                out["groups"].append(f"{lang} {sec}: group(s) {unknown} not in GROUP_ORDER")
+            if known != sorted(known, key=GROUP_ORDER.index):
+                out["groups"].append(f"{lang} {sec}: groups out of order {runs}")
+        for p in pages:
+            if p.twin and p.twin not in slugs:
+                out["twin"].append(f"{lang}/{p.slug} -> twin '{p.twin}' does not exist in that tree")
+            if p.twin == p.slug:
+                out["twin"].append(f"{lang}/{p.slug} is its own twin")
+        for p in pages:
+            if p.group and p.group not in UI_STRINGS[lang]["groups"]:
+                out["labels"].append(f"{lang}: group '{p.group}' has no UI_STRINGS label")
+            if p.section and p.section != "Help" and not p.section.startswith("Cora") \
+                    and p.section not in UI_STRINGS[lang]["sections"]:
+                out["labels"].append(f"{lang}: section '{p.section}' has no UI_STRINGS label")
+    return out
+
+
+_ANY_HELP_HREF = re.compile(r'href="(/help/([a-z0-9-]*))?(#[^"]*)?"')
+
+
+def broken_links(en_pages: list[Page]) -> list[str]:
+    """English internal links whose page or #anchor does not exist (R1-28).
+
+    ⛔ English only and STRICT: translations copy these links, so an English
+    anchor that misses is a broken link in seven languages. (A translation
+    whose heading lost the anchor still degrades gracefully: `localize_links`
+    drops it.) Same-page `#anchor` links are checked too.
+    """
+    by = {p.slug: p for p in en_pages}
+    ids = {p.slug: {hid for _, _, hid in p.headings} for p in en_pages}
+    bad = []
+    for p in en_pages:
+        for m in _ANY_HELP_HREF.finditer(p.html):
+            path, slug, frag = m.group(1), m.group(2), m.group(3)
+            if not path and not frag:
+                continue
+            target = p.slug if not path else (slug or "index")
+            if path and target not in by:
+                bad.append(f"{p.slug} -> /help/{slug} (no such page)")
+                continue
+            if frag and frag != "#" and frag[1:] not in ids[target]:
+                bad.append(f"{p.slug} -> {'/help/' + slug if path else ''}{frag} (no such heading on {target})")
+    return sorted(set(bad))
+
+
+SEARCH_NODE_TEST = r"""
+const S = require(process.argv[2]);
+const fs = require('fs');
+const cases = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));
+const out = [];
+for (const c of cases) {
+  const P = S.prep(c.index, c.lang);
+  if (c.fold !== undefined) { out.push(S.fold(c.fold, c.lang)); continue; }
+  out.push(S.search(P, c.q, 12).map(r => r.u));
+}
+process.stdout.write(JSON.stringify(out));
+"""
+
+
+def run_search_js(cases: list[dict]) -> list | None:
+    """Run SEARCH_CORE_JS under node over `cases`; None when node is absent."""
+    import shutil as _sh, subprocess as _sp, tempfile as _tf
+    if not _sh.which("node"):
+        return None
+    with _tf.TemporaryDirectory() as d:
+        core, runner, data = Path(d, "core.js"), Path(d, "run.js"), Path(d, "cases.json")
+        core.write_text(SEARCH_CORE_JS, encoding="utf-8")
+        runner.write_text(SEARCH_NODE_TEST, encoding="utf-8")
+        data.write_text(json.dumps(cases, ensure_ascii=False), encoding="utf-8")
+        r = _sp.run(["node", str(runner), str(core), str(data)], capture_output=True, text=True)
+        if r.returncode:
+            raise SystemExit(f"⛔ search JS failed under node: {r.stderr[:400]}")
+        return json.loads(r.stdout)
+
 
 def self_test() -> int:
     fails = []
@@ -2089,8 +2888,12 @@ def self_test() -> int:
     if _idx.exists():
         # Budget raised 250 -> 320 KB on 2026-10-12: three Beta pages and the
         # Sept/Oct updates took the English index from 225 to 260 KB.
-        ok(f"search index under 320 KB ({_idx.stat().st_size // 1024} KB)",
-           _idx.stat().st_size < 327_680)
+        # Raised 320 -> 480 KB on 2026-10-13: the full review rewrite added three
+        # pages, H2/H3 section entries (search links to the section) and much
+        # fuller pages, taking the English index to ~375 KB. It is fetched only
+        # when someone searches, and served compressed (~4x smaller).
+        ok(f"search index under 480 KB ({_idx.stat().st_size // 1024} KB)",
+           _idx.stat().st_size < 491_520)
 
     # ⛔ CONTENT RULE, ENFORCED. help-src/README.md has said 'Maxspect is
     # "coming soon"' since the guide was written, and SIX pages named it as a
@@ -2260,6 +3063,169 @@ def self_test() -> int:
        '<html lang="de">' in _de_shell)
     ok("a translated page still carries hreflang links",
        'rel="alternate"' in _de_shell)
+
+
+    # ─────────────────────────────────────────────────────────────────────
+    # 2026-10-13: stable ids, tiles, twin, breadcrumb, Help first, search.
+    # ─────────────────────────────────────────────────────────────────────
+    h = []
+    ok("{#id}: the id is used verbatim and the braces are not rendered",
+       '<h2 id="stable-x">Translated text</h2>' in render("## Translated text {#stable-x}", h)
+       and h == [(2, "Translated text", "stable-x")])
+    ok("{#id} works on an H3 too", '<h3 id="q1">Why?</h3>' in render("### Why? {#q1}", []))
+    ok("slugify ASCII-folds (DŌS -> dos)", slugify("DŌS heads") == "dos-heads")
+    ok("slugify ASCII-folds Turkish and Polish", slugify("Yaş ışık") == "yas-isik"
+       and slugify("Łączenie") == "laczenie")
+    _t = render(":::tiles\n- [New here](/help/mobile-setup): Start here.\n- [FAQ](/help/faq)\n:::", [])
+    ok(":::tiles renders tiles",
+       '<ul class="tiles"><li><a href="/help/mobile-setup"><b>New here</b><span>Start here.</span></a></li>'
+       '<li><a href="/help/faq"><b>FAQ</b></a></li></ul>' == _t)
+
+    _m1 = Page(slug="mobile-alerts", title="Alerts and thresholds", description="d",
+               section="Cora Mobile", order=2, body_md="", group="Alerts and automation",
+               twin="max-alerts")
+    _m0 = Page(slug="mobile-setup", title="Setup", description="d", section="Cora Mobile",
+               order=1, body_md="", group="Getting started")
+    _x1 = Page(slug="max-alerts", title="Alerts on Cora Max", description="d",
+               section="Cora Max", order=1, body_md="", group="Alerts and automation",
+               twin="mobile-alerts")
+    _tr = [_m0, _m1, _x1]
+    ok("twin line names the other product and links the twin",
+       twin_html(_m1, _tr) == '<p class="twin">On Cora Max: <a href="/help/max-alerts">Alerts on Cora Max</a></p>')
+    ok("twin line from Cora Max says Cora Mobile",
+       twin_html(_x1, _tr).startswith('<p class="twin">On Cora Mobile: '))
+    ok("no twin line when the twin is missing in that language",
+       twin_html(_m1, [_m0, _m1]) == "")
+    _cr = crumbs_html(_m1, _tr)
+    ok("breadcrumb: Help / section / group",
+       '<a href="/help/">Help</a>' in _cr and ">Cora Mobile</a>" in _cr
+       and '<a href="/help/mobile-alerts">Alerts and automation</a>' in _cr)
+    ok("no breadcrumb on the index", crumbs_html(_home, [_home]) == "")
+    _ld = crumbs_jsonld(_m1, _tr)
+    ok("BreadcrumbList JSON-LD ends with the page itself",
+       '"@type":"BreadcrumbList"' in _ld and '"position":4,"name":"Alerts and thresholds"}' in _ld)
+    _nav = nav_html([_m0, _m1, _x1, Page(slug="faq", title="FAQ", description="d",
+                                         section="Help", order=1, body_md="")], _m1)
+    ok("sidebar: the Help section comes before both products",
+       _nav.index(">Help<") < _nav.index(">Cora Mobile<") < _nav.index(">Cora Max<"))
+
+    _g = Page(slug="glossary", title="Glossary", description="d", section="Help", order=5,
+              body_md="", lang="en")
+    _g.headings = [(2, "Alert", "alert"), (2, "Age", "age"), (2, "DŌS head", "dos-head")]
+    _az = toc_html(_g)
+    ok("glossary gets an A to Z row, one link per letter",
+       'class="toc az"' in _az and _az.count("<li>") == 2 and '<a href="#dos-head">D</a>' in _az)
+
+    _de_m1 = Page(slug="mobile-alerts", title="Warnungen", description="d", section="Cora Mobile",
+                  order=2, body_md="", group="Alerts and automation", twin="max-alerts", lang="de")
+    _de_x1 = Page(slug="max-alerts", title="Warnungen auf Cora Max", description="d",
+                  section="Cora Max", order=1, body_md="", group="Alerts and automation", lang="de")
+    _de_m1.html = '<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: x"></button></figure>'
+    _sh_de = shell(_de_m1, [_de_m1, _de_x1], build_slug_index({"de": [_de_m1, _de_x1]}))
+    ok("⛔ no hard-coded English aria label left on a German page",
+       not any(w in _sh_de for w in ('aria-label="Guide', 'aria-label="Continue reading"',
+                                     'aria-label="Enlarge', "'Screenshot'", "'Close'")))
+    ok("German twin line", '<p class="twin">Auf Cora Max: <a href="/de/help/max-alerts">' in _sh_de)
+    ok("German group in the breadcrumb", ">Warnungen und Automatisierung</a>" in _sh_de)
+    ok("header says Hilfe on a German page", "<span>Hilfe</span>" in _sh_de)
+    ok("zero results offer Contact support", "mailto:" + SUPPORT_EMAIL in _shell
+       and json.dumps(UI_STRINGS["en"]["contact_support"])[1:-1] in _shell)
+
+    for _l in ALL_LANGS:
+        for _g_name in GROUP_ORDER:
+            ok(f"group '{_g_name}' has a {_l} label", _g_name in UI_STRINGS[_l]["groups"])
+        for _k in ("twin_max", "twin_mobile"):
+            ok(f"{_l} {_k} keeps its {{title}} slot", "{title}" in UI_STRINGS[_l][_k])
+        ok(f"search vocabulary exists for {_l}", _l in SYNONYMS and _l in STOPWORDS)
+
+    _a = Page(slug="a", title="A", description="d", section="Help", order=1, body_md="")
+    _a.headings = [(2, "X", "x")]
+    _a.html = ('<a href="/help/a#x">ok</a><a href="#x">ok</a><a href="/help/a#gone">bad</a>'
+               '<a href="#gone2">bad</a><a href="/help/missing">bad</a><a href="/help/">ok</a>')
+    ok("anchor check flags a missing anchor, a missing same-page anchor and a missing page",
+       len(broken_links([_a, _home])) == 3)
+
+    # ── Real content: every tree ─────────────────────────────────────────
+    try:
+        _all = load_all()
+    except SystemExit as e:  # load_pages refuses a bad tree outright
+        _all = None
+        ok(f"⛔ every tree loads ({e})", False)
+    if _all is not None:
+        _sp = structure_problems(_all)
+        ok(f"⛔ no two pages share an order in a section ({_sp['order']})", not _sp["order"])
+        ok(f"⛔ groups are contiguous runs of order, in GROUP_ORDER ({_sp['groups']})", not _sp["groups"])
+        ok(f"⛔ every twin: exists in the same tree ({_sp['twin']})", not _sp["twin"])
+        ok(f"⛔ every group and section has a translated label ({_sp['labels']})", not _sp["labels"])
+        _bl = broken_links(_all["en"])
+        ok(f"⛔ every English /help/ link and #anchor resolves ({len(_bl)}: {_bl})", not _bl)
+
+        _en_idx = search_index(_all["en"])
+        ok(f"search index under 480 KB ({len(_en_idx.encode()) // 1024} KB, in memory)",
+           len(_en_idx.encode()) < 491_520)
+        _ij = json.loads(_en_idx)
+        ok("search index carries synonyms, stop words and sectioned docs",
+           _ij["syn"] and _ij["stop"] and all("x" in d for d in _ij["docs"]))
+        ok("search index sections carry heading ids (H2 and H3)",
+           any(c[1] for d in _ij["docs"] for c in d["x"])
+           and any(c[1] for d in _ij["docs"] if d["u"] == "/help/faq" for c in d["x"][5:]))
+
+    # ── The search engine itself, under node ─────────────────────────────
+    def _doc(u, t, d="", x=()):
+        return {"u": u, "t": t, "s": "S", "d": d, "x": [list(c) for c in x]}
+    _syn = {"syn": SYN_COMMON + SYNONYMS["en"], "stop": STOPWORDS["en"]}
+    _toy = dict(_syn, docs=[
+        _doc("/help/plans", "Plans", "Your plan.", [["", "", "Intro."], ["Cancelling", "cancelling", "You cancel in the store."]]),
+        _doc("/help/trouble", "Troubleshooting", "", [
+            ["Wi-Fi drops", "wifi", "Cora Max loses the Wi-Fi network."],
+            ['"[Device]: stopped reporting"', "stopped", "The Apex has not answered."]]),
+        _doc("/help/apex", "Neptune Apex", "", [["DŌS heads", "dos-heads", "Measure a DŌS head first."]]),
+        _doc("/help/auto", "Automations", "Rules that run by themselves.", [["", "", "An automation runs."]]),
+        _doc("/help/topoff", "Water", "", [["Top-off", "top", "Your ATO reservoir."]]),
+    ])
+    _q = lambda q: {"index": _toy, "lang": "en", "q": q}
+    _cases = [
+        _q("cancel subscription"), _q("wifi"), _q("wi fi"), _q("WI-FI"), _q("dos"),
+        _q("apex offline"), _q("ato"), _q("how do I cancel"), _q("zzzz nothing"),
+        _q("cancel zzzz"), _q("top off"), _q("auto"),
+        {"index": _toy, "lang": "tr", "fold": "IŞIK İzmir ışık"},
+        {"index": _toy, "lang": "en", "fold": "DŌS Wi-Fi Łódź"},
+    ]
+    _r = run_search_js(_cases)
+    if _r is None:
+        print("   (node not found: search engine tests skipped)")
+    else:
+        (r_cancel, r_wifi, r_wi_fi, r_WIFI, r_dos, r_apexoff, r_ato, r_how, r_none,
+         r_and, r_topoff, r_auto, f_tr, f_en) = _r
+        ok("search: AND over words + synonyms (cancel subscription -> Plans, Cancelling section)",
+           r_cancel and r_cancel[0] == "/help/plans#cancelling")
+        ok("search: wifi = wi fi = WI-FI, all finding Wi-Fi", r_wifi == r_wi_fi == r_WIFI
+           and r_wifi and r_wifi[0].startswith("/help/trouble"))
+        ok("search: dos finds DŌS", r_dos and r_dos[0].startswith("/help/apex"))
+        ok("search: apex offline finds 'stopped reporting' (synonym) in that section",
+           "/help/trouble#stopped" in r_apexoff)
+        ok("search: ato matches ATO and top-off, never 'automation'",
+           "/help/topoff" in "".join(r_ato) and not any("auto" in u for u in r_ato))
+        ok("search: stop words are dropped (how do I cancel)", r_how and r_how[0].startswith("/help/plans"))
+        ok("search: nothing matches nonsense", r_none == [])
+        ok("search: ALL words must match (cancel zzzz finds nothing)", r_and == [])
+        ok("search: a phrase synonym (top off) works", r_topoff and r_topoff[0].startswith("/help/topoff"))
+        ok("search: prefix at a word start (auto finds Automations)", r_auto and r_auto[0] == "/help/auto")
+        ok(f"search: Turkish İ/ı fold ({f_tr})", f_tr == "isik izmir isik")
+        ok(f"search: accents and hyphens fold, length kept ({f_en})",
+           f_en == "dos wi fi lodz" and len(f_en) == len("DŌS Wi-Fi Łódź"))
+        if _all is not None:
+            # Smoke test on the REAL English index: the R1 queries that used to
+            # say "Nothing matched" must now find something.
+            _real = json.loads(search_index(_all["en"]))
+            _qs = ["apex offline", "add apex", "cora max offline", "notifications not working",
+                   "change wifi", "ph probe", "delete tank", "remove tank", "cancel subscription",
+                   "fahrenheit", "dos", "trident"]
+            _rr = run_search_js([{"index": _real, "lang": "en", "q": q} for q in _qs])
+            _empty = [q for q, r in zip(_qs, _rr) if not r]
+            ok(f"search: the R1 queries all find something on the real guide ({_empty})", not _empty)
+            ok("search: 'cancel subscription' leads to Plans",
+               _rr[_qs.index("cancel subscription")][0].startswith("/help/mobile-plans"))
 
     if fails:
         print("⛔ FAILED:")

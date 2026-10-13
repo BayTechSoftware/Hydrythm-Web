@@ -1,56 +1,76 @@
 ---
 title: Cora Max'te uyarılar
-description: Üst çubuktaki uyarı etiketleri, bildirim geçmişi ve eşikleri duvardaki ekrandan değiştirme.
+description: Cora Max'te bir uyarı çıktığında ne yapacağınız, onu nasıl erteleyeceğiniz ya da kapatacağınız, uyarı eşiklerini duvardaki ekrandan değiştirme ve uyarı sesini ayarlama.
 section: Cora Max
 reviewed: 2026-10-13
-order: 11
-group: Alerts
+order: 8
+group: Alerts and automation
+twin: mobile-alerts
 ---
 
-## Uyarı etiketleri
+Bu sayfa, bir şey dikkatinizi gerektirdiğinde Cora Max'in ne yaptığını ve duvardaki ekranda neleri değiştirebileceğinizi anlatır. Aralıkların, kuralların ve telefon bildirimlerinin nasıl çalıştığı [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
 
-Aralık dışına çıkan her değer üst çubukta küçük bir etiket olarak görünür. Hepsi sığmazsa **+2** gibi bir sayı çıkar. Tüm listeyi görmek için etiketlerden birine dokunun.
+## Bir uyarı çıktığında
 
-Böylece akvaryumdaki sorunları ekrana dokunmadan, odanın öbür ucundan görürsünüz.
+Bir ölçüm aralık dışına çıktığında, bir cihaz arıza bildirdiğinde, bir doz kaçırıldığında ya da bir sarf malzemesi azaldığında Cora Max uyarıyı ekranın ortasında gösterir. Altında üç düğme vardır.
 
-## Duvardaki ekranda uyarı çıktığında
+1. **Sesle yanıtla**, bu uyarı hakkında Cora ile bir konuşma başlatır, böylece başka hiçbir şeye dokunmanız gerekmez. Ayrıntılar [Cora ile konuşma](/help/max-voice) sayfasında.
+2. **Ertele**, uyarıyı bu Cora Max'te bir süreliğine susturur. Düğme ne kadar süre olduğunu gösterir, örneğin **1 sa ertele**. Bu, Cora Mobile'ın uyarı ayarlarında bu uyarı için belirlenen bekleme süresidir ve 1 haftaya kadar uzun olabilir (günlerce değişmeyecek düşük bir reaktif seviyesi gibi durumlarda işe yarar).
+3. **Kapat**, uyarıyı hemen kapatır. Sorun geçene kadar bu ekranda sessiz kalır. Daha sonra geri gelirse yeni bir uyarı alırsınız.
 
-Bir değer aralık dışına çıkınca Cora Max uyarıyı ekranın ortasında da gösterir. Altında üç düğme var:
+Uyarı bir dozaj pompasıyla ilgiliyse, örneğin bir DŌS ya da ReefDose kafası azaldıysa ya da bir doz kaçırıldıysa, kartta ayrıca bir **DŌS aç** ya da **ReefDose aç** düğmesi (EcoTech Versa için **Versa aç**) bulunur. Sizi uyarılarının ayarlandığı o dozaj pompasının sayfasına götürür.
 
-1. **Sesle yanıtla**: Başka hiçbir şeye dokunmadan uyarı hakkında Cora ile konuşun. Nasıl konuşulacağı [Cora ile konuşma](/help/max-voice) sayfasında.
-2. **[süre] ertele**: Uyarıyı kapatmadan bu Cora Max'te belli bir süre susturun. Süre düğmenin üzerinde yazar, örneğin **1 sa ertele**. Bu süre, Cora Mobile'ın uyarı ayarlarında bu uyarı türü için seçilen bekleme süresidir. Günlerce değişmeyecek bir durumda, örneğin azalan bir reaktifte, **1 hafta** kadar uzun olabilir.
-3. **Kapat**: Uyarıyı hemen kapatın. Değer normal aralığa dönene kadar ses çıkmaz. Sorun daha sonra yeniden başlarsa yeni bir uyarı gelir.
+Ertele ya da Kapat bir hata gösterirse bir kez daha deneyin. Başarısız olmaya devam ederse [Bir uyarı kapanmıyor](/help/troubleshooting#an-alert-is-not-clearing) bölümüne bakın.
 
-Uyarı bir dozaj pompasıyla ilgiliyse, örneğin bir DŌS ya da ReefDose kafasında sıvı azaldıysa veya bir dozaj kaçırıldıysa, kartta bir **DŌS aç** ya da **ReefDose aç** düğmesi de olur. Sizi o dozaj pompasının sayfasına götürür. Uyarıları orada ayarlanır.
-
-Ertele ya da Kapat hata verirse bir kez daha deneyin. Hata sürerse [Sorun giderme](/help/troubleshooting) sayfasına bakın.
-
-:::note Erteleme yalnızca bu Cora Max'i etkiler
-Ertele ve Kapat yalnızca **bu Cora Max**'i susturur. Uyarı burada artık açılmaz, ses çıkarmaz ve sesli okunmaz. Üst çubuktaki listeden de çıkar. Ertele'de erteleme süresi bitince, Kapat'ta değer normal aralığa dönünce geri gelir. Telefonunuz bildirimleri almaya devam eder, diğer Cora Max ekranları da uyarıyı göstermeye devam eder. Uyarı **Bildirim geçmişi**'nde kalır, uyarı ayarlarınız değişmez.
+:::note Ertele yalnızca bu Cora Max'i etkiler
+Bir uyarı ertelenmiş ya da kapatılmışken bu Cora Max onu açmayı, ses çıkarmayı ve sesli okumayı bırakır, uyarı üst çubuktan da çıkar. Telefonunuz bildirimlerini almaya devam eder, diğer Cora Max ekranları uyarıyı göstermeye devam eder, uyarı **Bildirim geçmişi**'nde kalır ve uyarı ayarlarınız değişmez.
 :::
 
-## Bildirim geçmişi
+## Üst çubuktaki uyarılar
 
-**Ayarlar → Cora Max Ayarları → Bildirimler → Bildirim geçmişi**, **hesabınızın tamamı** için tek gelen kutusudur. Tüm sisteminizin özetleri, alarmları ve hesap bildirimleri burada toplanır, başka ekranlardan gelenler de. Telefonunuzun kaçırdıkları da buradadır.
+Her etkin uyarı üst çubukta odanın öbür ucundan fark edilecek büyüklükte küçük bir etiket olarak da görünür. Sığandan fazlası varsa **+2** (ya da kaç tane varsa) görürsünüz.
 
-## Eşikleri değiştirme
+- O uyarıyı yeniden ekranın ortasına getirmek için bir etikete dokunun.
+- Etkin olan her şeyin listesi **Etkin alarmlar**'ı açmak için **+2**'ye dokunun. Açmak için listede birine dokunun.
 
-![Cora Max'te akvaryum ayarları](img/max-tank-settings.webp "Her akvaryumun kendi günlüğü, bakımı, uyarıları, canlıları ve özeti vardır.")
+## Bildirim gelen kutusu
 
-Üst çubukta akvaryum adına dokunup **Uyarılar**'ı seçin ya da **Ayarlar → [akvaryumunuz] → Uyarı eşikleri**'ne gidin. İkisi de telefondaki aralıkları açar. Burada yaptığınız değişiklik her yerde geçerli olur.
+**Ayarlar → Cora Max Ayarları → Bildirim geçmişi**, tüm hesabınızın gelen kutusudur. Sisteminizin her özetini, alarmını ve hesap bildirimini tutar. Bu ekranın vermedikleri ve telefonunuzun kaçırdıkları da buna dahildir. Bir ölçüm aralık dışına çıkıp geri döndüğünde ikisini de görürsünüz.
 
-Tek bir eşiği değiştirmek için panodaki widget'ına uzun basmanız da yeter.
+## Eşikleri düzenleme
 
-Listedeki her parametrenin kendi anahtarı vardır. Kapattığınız bir uyarıda **Uyarı kapalı** yazar. Cora aralığı saklar ama uyarı kapalıyken o ölçümü değerlendirmez. Widget nötr gri kalır ve hiç uyarı vermez. Bir parametrenin henüz uyarısı yoksa **Uyarı ayarlanmadı** yazar. **Uyarı ekle**, gösterilen aralıkla bir uyarı kurar.
+![Cora Max'te bir akvaryumun ayarları: Uyarı eşikleri, Birimler ve Birincil Cora Max](img/max-tank-settings.webp "Önce Uyarı eşikleri ve Birimler, ardından bu akvaryumun Birincil Cora Max'i.")
 
-Eşik sayfasının üstünde, **Uyarı açık** ya da **Uyarı kapalı** yazısının yanında aynı anahtar bulunur. Kapalı bir uyarıya yeni bir aralık kaydederseniz Cora **Bu uyarı açılsın mı?** diye sorar. Uyarıyı yeni değerlerle açmak için **Aç**'a, değerleri kaydedip uyarıyı kapalı bırakmak için **Kapalı kalsın**'a dokunun.
+Üst çubukta akvaryum adına dokunun ve **Uyarı eşikleri**'ni seçin ya da **Ayarlar → [akvaryumunuz] → Uyarı eşikleri** yoluna gidin. İkisi de telefonunuzda gördüğünüz aralıkların aynısını açar ve burada yaptığınız bir değişiklik her yerde geçerli olur.
 
-Aralıkların ve kuralların nasıl işlediğini [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında bulabilirsiniz.
+Bir eşiği panodaki widget'ına uzun basarak ya da sesle de değiştirebilirsiniz: *"Hey Cora, pH uyarısını 7.9 ile 8.4 arasına ayarla."* Cora değişikliği söyler ve onayınızı bekler.
 
-## Dozaj pompası uyarıları
+Listedeki her parametrenin kendi anahtarı vardır. Kapattığınız bir uyarıda **Uyarı kapalı** yazar. Cora aralığını saklar ama uyarı kapalıyken o ölçümü değerlendirmez. Widget nötr gri kalır ve hiç uyarı vermez. Bir parametrenin henüz uyarısı yoksa **Uyarı ayarlanmadı** yazar ve **Uyarı ekle**, gösterilen aralıkla bir uyarı kurar.
 
-Bir DŌS sayfasında her kafanın bir **Uyarı ayarları** düğmesi vardır. Bu düğme o kafanın kalan gün ve kalan miktar eşiklerini ayarlar. Ayrıca kafa programlanmış dozajlarını kaçırdığında size haber veren bir **Kaçırılan dozaj uyarıları** anahtarı vardır.
+![Cora Max'te Uyarı eşikleri listesi](img/max-alerts.webp "Her ölçümün kendi anahtarı var. Uyarısı olmayan bir ölçüm Uyarı ayarlanmadı ve bir Uyarı ekle düğmesi gösterir.")
 
-:::note Uyarı hesap için bir kez verilir
-Her cihaz ayrı ayrı uyarı vermez. Cora Max, telefonunuz ve diğer ekranlar aynı uyarıyı gösterir. Değer aralığa dönünce uyarı her yerde aynı anda kapanır.
+Eşik sayfasının üstünde, **Uyarı açık** ya da **Uyarı kapalı** yazısının yanında aynı anahtar vardır. Kapalı bir uyarıya yeni bir aralık kaydederseniz Cora **Bu uyarı açılsın mı?** diye sorar. Uyarıyı yeni değerlerle açmak için **Aç**'a, değerleri kaydedip uyarıyı kapalı bırakmak için **Kapalı kalsın**'a dokunun.
+
+## Cihaz ve sarf malzemesi uyarıları {#doser-alerts}
+
+Bir şeyi tükenen ekipmanın Cora Max'teki sayfasında bir **Uyarı ayarları** düğmesi bulunur. Bunlar Trident (reaktifler ve atık), DŌS kafaları, Red Sea ReefDose, ReefATO+ ve ReefMat ile EcoTech Radion, VorTech ve Versa'dır. Haber almak istediğiniz seviyeyi seçin, seviye aşıldığında tek bir bildirim alırsınız. Bir DŌS kafasında **Kaçırılan dozaj uyarıları**, kafa programlanmış dozlarını kaçırdığında da size haber verir.
+
+Her dozaj pompası uyarısının ne anlama geldiği [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümünde.
+
+:::note Beta
+**Beta.** EcoTech Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
+:::
+
+## Uyarı sesi, sesli uyarılar ve ekranı uyandırma
+
+Bunlar yalnızca bu ekrana aittir. Onları **Ayarlar → Cora Max Ayarları** içinde bulun.
+
+- **Uyarı sesi** (**SES VE KONUŞMA** altında), yeni bir uyarı geldiğinde bir ses çalar. Kaydırıcısı ses seviyesini ayarlar.
+- **Sesli uyarılar** (**SES VE KONUŞMA** altında), Cora'nın uyarıyı yüksek sesle söylemesini sağlar.
+- **Alarmda ekranı uyandır** (**EKRAN** altında), bir uyarı geldiğinde kararmış ekranı aydınlatır. Kritik uyarılar ekranı her zaman uyandırır.
+
+Bir Cora Max'in uyarıları ekranında hiç göstermemesi için Cora Mobile'ı açın, **Cihazlar →** Cora Max'iniz yoluna gidin ve **Uyarılar**'ı kapatın. Bildirim geçmişi ve telefonunuzun bildirimleri değişmez.
+
+:::note Tüm hesap için tek uyarı
+Her cihaz bir uyarının kendi kopyasını vermez. Cora Max, telefonunuz ve diğer ekranlar aynı uyarıyı gösterir ve ölçüm aralığa döndüğünde uyarı hepsinde kapanır.
 :::

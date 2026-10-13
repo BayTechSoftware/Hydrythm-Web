@@ -1,71 +1,81 @@
 ---
-title: Vos données
-description: Exporter vos mesures, votre journal et vos alertes en feuilles de calcul, et supprimer votre compte.
+title: Exporter vos données et supprimer votre compte
+description: Exportez vos mesures, votre journal et vos alertes en fichiers de tableur, déconnectez-vous, ou supprimez votre compte Cora et voyez ce que cela efface.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 30
-group: Account
+reviewed: 2026-10-13
+order: 36
+group: Settings and account
 ---
 
-Les données de votre aquarium vous appartiennent. Vous pouvez les récupérer quand vous voulez.
+Les suivis de votre aquarium vous appartiennent. Cette page explique comment les exporter, et comment supprimer votre compte si vous le souhaitez.
 
-![Contrôles de données du compte](img/mobile-data.webp "L’export et la suppression se trouvent ensemble au bas de Compte et abonnement.")
+![Exporter mes données et Supprimer le compte dans Cora Mobile](img/mobile-data.webp "Réglages, puis votre compte : Exporter mes données et Supprimer le compte se trouvent sous Se déconnecter.")
 
-## Exporter
+## Exporter {#exporting}
 
-**Réglages → votre compte → Exporter mes données.**
+1. Ouvrez **Réglages** et touchez la carte du compte en haut. **Compte et abonnement** s’ouvre.
+2. Touchez **Exporter mes données**.
 
 L’export est **gratuit avec tous les forfaits**, y compris le forfait gratuit.
 
-Cora exporte des **fichiers CSV**. Ce sont des feuilles de calcul qui s’ouvrent dans Excel, Numbers, Google Sheets ou tout autre tableur.
+Cora exporte des **fichiers CSV**. Ce sont des feuilles de calcul qui s’ouvrent dans Excel, Numbers, Google Sheets ou tout autre logiciel qui lit un tableau.
 
 | Fichier | Contenu |
 |---|---|
-| `cora_parameters.csv` | Vos mesures, chacune avec sa source, sa date et son heure |
+| `cora_parameters.csv` | Vos mesures, chacune avec sa source et son horodatage |
 | `cora_journal.csv` | Les entrées de votre journal |
 | `cora_alerts.csv` | Les alertes déclenchées |
-| `cora_export_summary.csv` | Ce que contient cet export, y compris ce qui a été coupé |
+| `cora_export_summary.csv` | Ce que couvre cet export, y compris ce qui a été coupé |
 
-:::note Ce que contient l’export, et ce qu’il ne contient pas
-L’export couvre **les mesures, les entrées du journal et les alertes**, les trois données les plus demandées. Ce n’est pas une copie complète de votre compte. Les tableaux de bord, la population, l’entretien, les automatisations, les rapports et les réglages des appareils n’y sont pas.
+:::note Ce que contient l’export
+Il couvre **les mesures, les entrées du journal et les alertes**, les trois suivis que l’on demande le plus. Ce n’est pas une copie de tout votre compte. Les tableaux de bord, la population, l’entretien, les automatisations, les rapports et les réglages des appareils n’y sont pas.
 
-Chacun des trois fichiers est limité à **25 000 lignes par aquarium**. Un aquarium qui enregistre trente paramètres toutes les cinq minutes dépasse ce nombre en trois jours. Pour un aquarium suivi depuis longtemps, le fichier sera donc coupé à la limite. Le fichier récapitulatif le dit clairement. Consultez-le avant de considérer que l’export est complet.
+Chacun des trois s’arrête à **25 000 lignes par aquarium**. Un aquarium qui enregistre trente paramètres toutes les cinq minutes en écrit davantage en trois jours, donc un aquarium suivi depuis longtemps atteindra la limite. Le fichier récapitulatif vous dit quand c’est le cas. Consultez-le avant de considérer que l’export est complet.
 :::
 
-L’export des paramètres garde la **source** de chaque mesure en plus de sa valeur. Dans votre feuille d’alcalinité, vous voyez donc toujours ce qui vient de la sonde et ce qui vient du test en kit.
+L’export des paramètres indique la **source** de chaque mesure. Dans un tableau de votre alcalinité, vous distinguez donc toujours ce que disait votre sonde de ce que disait votre kit de test.
 
 :::note Exportez avant un gros changement
-Faites un export avant de mettre un aquarium hors service ou de modifier beaucoup votre installation. Les fichiers exportés ne dépendent ni de Cora Mobile ni de votre compte.
+Faites un export avant de mettre un aquarium hors service ou de beaucoup modifier votre installation. Les fichiers ne dépendent ni de Cora Mobile ni de votre compte.
 :::
 
 ## Se déconnecter ou supprimer
 
-**Se déconnecter** déconnecte cet appareil de votre compte. Vos données ne bougent pas, et vous retrouvez tout en vous reconnectant.
+**Se déconnecter** déconnecte ce téléphone de votre compte. Vos données ne sont pas touchées, et vous retrouvez tout en vous reconnectant.
 
 **Supprimer le compte** est définitif.
 
-## Supprimer votre compte
+## Supprimer votre compte {#deleting-your-account}
 
-**Réglages → votre compte → Supprimer le compte.**
-
-La suppression est définitive. Elle efface votre compte, vos aquariums, vos mesures, votre journal, vos résultats de laboratoire et les liens avec vos appareils. Impossible de revenir en arrière, et il n’y a pas de délai de grâce.
-
-Si vous voulez garder quelque chose, faites d’abord un export.
-
-:::warning Votre abonnement n’est pas résilié
-Un abonnement App Store ou Google Play dépend de la **boutique d’applications**, pas de Cora. Supprimer votre compte efface vos données chez nous, mais **la facturation continue**. Elle s’arrête seulement quand vous résiliez vous-même auprès d’Apple ou de Google. Résiliez d’abord l’abonnement, puis supprimez le compte.
+:::warning Supprimer ne résilie pas votre abonnement
+Un abonnement App Store ou Google Play appartient à la **boutique**. Supprimer votre compte efface votre dossier chez Cora, mais **la facturation ne s’arrête pas**. Vous continuerez à être facturé jusqu’à ce que vous résiliiez vous-même auprès d’Apple ou de Google. Résiliez d’abord là-bas, puis supprimez. Voir [Résilier](/help/mobile-plans#cancelling).
 :::
 
-## Partager des données anonymisées
+1. Si vous voulez garder quelque chose, [exportez-le](#exporting) d’abord.
+2. Ouvrez **Réglages**, touchez la carte du compte, puis **Supprimer le compte**.
+3. Lisez la confirmation. Si vous avez un abonnement par une boutique, elle propose un bouton **Gérer l’abonnement** pour que vous puissiez résilier d’abord.
+4. Touchez **Supprimer**.
+
+Cela efface votre compte, vos aquariums, vos mesures, votre journal, vos résultats de laboratoire et les liens avec vos appareils. Impossible de revenir en arrière, et il n’y a pas de délai de grâce.
+
+Si vous vous êtes connecté il y a longtemps, Cora peut vous demander de prouver votre identité avant de supprimer quoi que ce soit. Avec un e-mail et un mot de passe, il affiche **Confirmez votre mot de passe**. Avec Apple ou Google, reconnectez-vous avec eux. Puis réessayez. Tant que vous ne l’avez pas fait, rien n’est supprimé.
+
+## Partager des données anonymisées {#contributing-anonymised-data}
 
 **Réglages → Cora Assistant → Contribuer des données d’aquarium anonymisées.**
 
-Quand cette option est activée, l’historique des paramètres de votre aquarium est conservé pour la recherche sur les récifs, **sans aucun lien avec vous**, même si vous supprimez votre compte plus tard. Si vous la désactivez, cet historique est supprimé avec le reste.
+Tant que cette option est activée, l’historique des paramètres de votre aquarium est conservé pour la recherche sur les récifs, **sans aucun lien avec vous**. Cela se produit quand vous supprimez un aquarium, et quand vous supprimez votre compte. Désactivez-la et cet historique est supprimé avec tout le reste.
 
-Ce choix est indépendant de la suppression du compte. C’est aussi la seule partie de vos données qui survit au compte. Prenez donc cette décision en connaissance de cause. L’option est **activée par défaut**. Si vous supprimez votre compte sans passer par cet interrupteur, la copie anonymisée reste.
+Ce choix est distinct de la suppression du compte. C’est la seule partie de vos données qui survit au compte, alors réfléchissez-y. L’option est **activée par défaut**. Si vous supprimez votre compte sans vérifier cet interrupteur, la copie anonymisée reste.
 
 ## Ce que Cora conserve
 
-Tous les détails sont dans la [politique de confidentialité](/privacy-policy.html) (en anglais). En bref, Cora conserve les données de votre aquarium, votre compte et les connexions aux équipements que vous avez reliés par le compte d’un fabricant.
+La [politique de confidentialité](/privacy-policy.html) donne tous les détails. En bref, Cora conserve les données de votre aquarium, votre compte et les identifiants de tout équipement que vous avez connecté par le compte d’un fabricant.
 
-Quand vous retirez un appareil, Cora oublie sa connexion. Quand vous supprimez votre compte, tout ce qui vous concerne est effacé, avec les deux exceptions ci-dessus. La copie anonymisée pour la recherche reste si vous avez laissé l’option activée, et votre abonnement ne peut être résilié que par la boutique.
+Retirer un appareil efface ses identifiants. Supprimer votre compte efface tout ce qui est conservé à votre nom, avec ces exceptions :
+
+- la copie anonymisée pour la recherche, si vous avez laissé cet interrupteur activé
+- votre abonnement par une boutique, que seule la boutique peut résilier
+- votre fiche client chez notre prestataire de gestion des abonnements, supprimée 120 jours après votre compte pour qu’un remboursement ou un litige de paiement auprès de la boutique puisse encore être traité
+
+Se reconnecter sur un autre téléphone, ou changer de mode de connexion, est expliqué dans [Connexion et récupération de compte](/help/mobile-account). Les forfaits et la facturation sont dans [Forfaits et abonnements](/help/mobile-plans).

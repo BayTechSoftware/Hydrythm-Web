@@ -1,138 +1,160 @@
 ---
 title: Contrôler votre équipement
-description: La page de chaque appareil montre son état en direct et ses commandes, pour les prises, les pompes, les têtes de dosage et les testeurs.
+description: Ouvrez la page d’un appareil pour voir son état en direct et commander prises, pompes, têtes de dosage et testeurs, marque par marque.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 11
+order: 13
 group: Equipment
+twin: max-device-control
 ---
 
-Chaque équipement connecté a sa page dans Cora. Vous y voyez son état en direct et les commandes qu’il accepte. Ouvrez-la depuis l’onglet **Appareils**.
+Utilisez la page d’un appareil pour voir son état en direct et changer ce qu’il fait. Ouvrez-la depuis **Appareils** → touchez l’appareil, ou touchez sa tuile sur le tableau de bord.
 
-![Une page d’appareil](img/mobile-device-detail.webp "Mesures en direct en haut, puis les commandes que cet appareil prend en charge.")
+![La page d’un ReefATO+ dans Cora Mobile](img/mobile-device-detail.webp "L’état, les mesures du jour et le niveau d’eau, puis les fuites, les remplissages et l’étalonnage de la sonde.")
 
-Les appareils Beta, comme les lampes, pompes et doseurs EcoTech, les appareils Focustronic, les moniteurs Inkbird et les caméras, ne sont ouverts qu’aux utilisateurs Beta et ont leurs propres pages. Voir [Fonctions Beta](/help/mobile-beta).
+Toutes les pages d’appareils sont organisées de la même façon. Le nom et les détails sont en haut, puis une rangée de mesures en direct, l’état que l’appareil signale, et ses commandes. La cloche de la barre de titre règle les seuils d’alerte de cet appareil, comme décrit dans [Consommables](/help/mobile-consumables). La façon d’ajouter un appareil au départ est dans [Connecter votre équipement](/help/mobile-connections).
 
-Toutes les pages d’appareil sont construites pareil. En haut, le nom de l’appareil, puis une ligne de mesures en direct, l’état indiqué par l’appareil et enfin ses commandes. La cloche dans la barre de titre règle les seuils d’alerte de l’appareil, comme expliqué dans [Consommables](/help/mobile-consumables).
+Aller directement à votre équipement : [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Alertes des doseurs](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz) · [Maxspect](#maxspect) · [GHL](#ghl) · [HYDROS](#hydros) · [Focustronic](#focustronic) · [EcoTech, Inkbird et caméras](#ecotech-inkbird-cameras)
 
-:::warning Ces commandes agissent sur l’équipement en direct
-Il n’y a ni aperçu ni annulation. Certaines commandes demandent aussi une confirmation.
+:::warning Ces commandes agissent sur un équipement en fonctionnement
+Il n’y a ni aperçu ni annulation. Certaines commandes vous demandent d’abord de confirmer.
 :::
 
-## Après l’envoi d’une commande
+## Ce qui se passe quand vous envoyez une commande {#what-happens-when-you-send-a-command}
 
-Une commande ne réussit pas toujours. Cora ne fait pas de supposition et vous indique lequel de ces quatre résultats s’est produit.
+Une commande ne passe pas toujours. Cora vous dit laquelle de ces quatre choses s’est produite :
 
 | Résultat | Signification |
 |---|---|
-| **Confirmé** | L’équipement a accepté le changement et a indiqué son nouvel état |
-| **Non confirmé** | La commande est partie, mais aucune réponse n’est revenue. **Cela veut dire « on ne sait pas », et non « ça a marché »**. Vérifiez l’état affiché par l’appareil lui-même |
-| **Refusé** | Quelque chose a bloqué la commande (une règle de sécurité, un verrou ou l’équipement lui-même), ou aucun appareil Cora ne l’a prise en charge à temps. Elle a été annulée et rien ne s’est exécuté |
-| **Aucun changement** | L’équipement était déjà dans l’état demandé |
+| **Confirmé** | L’équipement a accepté le changement et a signalé son nouvel état |
+| **Non confirmé** | La commande est partie, mais rien n’est revenu. **Cela veut dire "on ne sait pas". Cela ne veut pas dire que cela a marché.** Vérifiez l’état de l’appareil lui-même |
+| **Refusé** | Quelque chose l’a refusée (une règle de sécurité, un verrou ou l’équipement lui-même), ou aucun appareil Cora ne l’a prise à temps. Elle a été annulée et rien ne s’est exécuté |
+| **Aucun changement** | L’équipement était déjà réglé comme vous le demandiez |
 
-Chaque résultat est enregistré dans [Activité](/help/mobile-activity), avec sa source.
+Chaque résultat est enregistré dans [Activité](/help/mobile-activity), avec ce qui l’a causé.
 
-## Neptune Apex
+Sans Cora Max à l’aquarium, l’équipement Neptune Apex, Red Sea et Jecod ne fonctionne qu’en local : votre téléphone doit être sur le même réseau (ou à portée Bluetooth) pour envoyer une commande. Avec un Cora Max à l’aquarium, Cora Mobile l’envoie par ce Cora Max, même quand vous êtes loin de chez vous.
 
-La page Apex liste vos sondes et vos prises.
+## Neptune Apex {#neptune-apex}
 
-- **Les sondes** deviennent des sources dans Cora, que vous pouvez placer sur un tableau de bord.
-- **Les prises** passent de **Auto** à **Éteint** ou **Allumé**. Auto rend la main à votre programmation Apex.
-- **Les modules installés** (Trident, DŌS et autres) ont chacun leur page.
+![La page d’un Apex dans Cora Mobile, avec son état, ses modules Trident et DŌS, l’association des paramètres et l’aquarium qu’il dessert](img/mobile-apex.webp "La page de l’Apex : État, Modules, Association des paramètres et Aquariums.")
 
-## Trident
+La page de l’Apex affiche l’état du contrôleur, puis **Modules**, **Association des paramètres** et **Aquariums**.
 
-La page indique où en est le test, ce qui reste de réactif et le niveau d’eau usée. Vous pouvez aussi y lancer un test.
+- **Modules** liste chaque Trident et chaque DŌS installés. Touchez-en un pour ouvrir sa propre page.
+- **Association des paramètres** est l’endroit où vous choisissez ce qu’alimente chaque sonde. Les sondes arrivent dans Cora comme des sources, et vous pouvez les mettre sur un tableau de bord. Voir [Association des paramètres et sondes](/help/mobile-probes).
+- **Aquariums** indique les aquariums que dessert l’Apex. Touchez **Modifier** pour les changer.
+- Les **prises** passent de **Auto** à **Off** ou **On** depuis un widget **Prise** sur le tableau de bord. Auto rend le contrôle à votre programmation Apex. Voir [Référence des widgets](/help/mobile-widgets#outlet).
 
-Depuis cette page, vous pouvez régler un seuil d’alerte sur les tests restants. Cora vous préviendra avant la fin du réactif. Voir [Consommables](/help/mobile-consumables).
+Votre Apex continue de suivre sa propre programmation. Cora ne change une prise que quand vous le demandez.
 
-## DŌS
+## Trident {#trident}
 
-Un DŌS QD fonctionne exactement comme un DŌS, et tout ce qui suit vaut pour les deux. Quand un Cora Max lit votre Apex, les têtes de dosage apparaissent sur la page DŌS, jamais dans la liste des prises.
+La page du Trident affiche l’état actuel du test et les niveaux de réactifs et d’eau usée. Vous pouvez lancer un test d’ici.
 
-Pour chaque tête de dosage, vous voyez le produit dosé, le programme, la quantité dosée aujourd’hui, ce qui reste dans le bidon et son **autonomie**, c’est-à-dire le nombre de jours restants au rythme actuel.
+Vous pouvez aussi régler une alerte pour les tests restants et pour la bouteille de déchets, pour que Cora vous prévienne avant que le réactif s’épuise ou que la bouteille se remplisse. Voir [Consommables](/help/mobile-consumables).
+
+## DŌS {#dos}
+
+![La page d’un DŌS qui indique que le DŌS ne répond pas sur l’AquaBus, avec sa dernière autonomie, la dose du jour et le plan quotidien, puis la ligne Alertes](img/mobile-dos.webp "Un DŌS hors de l’AquaBus : la page affiche ses derniers chiffres connus, une carte Attention requise et la ligne Alertes.")
+
+Un DŌS QD fonctionne exactement comme un DŌS, et tout ce qui suit s’applique aux deux. Quand un Cora Max lit votre Apex, les têtes de dosage apparaissent sur la page du DŌS. Elles n’apparaissent jamais dans la liste des prises.
+
+Chaque tête de dosage affiche ce qu’elle dose, son programme, ce qu’elle a dosé aujourd’hui et ce qui reste dans le récipient. Elle affiche aussi l’**autonomie**, c’est-à-dire le nombre de jours que cela durera au rythme actuel.
+
+Si le DŌS cesse de répondre sur l’AquaBus, sa page affiche **Hors du bus** et une carte **Attention requise**. Les chiffres de la page sont alors les derniers qu’il a signalés, pas ce qu’il fait maintenant. Vérifiez le câble AquaBus du module et l’Apex.
 
 Pour chaque tête, vous pouvez :
 
-- **Suspendre** et **Reprendre** son programme
-- **Remplir**, pour indiquer à Cora que le bidon est de nouveau plein, ou saisir le volume qu’il contient (**Volume total** est la taille du bidon, **Volume restant** ce qu’il contient maintenant, et **Plein** règle l’un sur l’autre)
-- **Doser maintenant**, pour envoyer une dose précise à la main
+- **Pause** et **Reprendre** son programme
+- **Remplir**, pour dire à Cora que le récipient est de nouveau plein ou régler ce qu’il contient (**Volume total** est la taille du récipient, **Volume restant** est ce qu’il contient maintenant, et **Plein** règle l’un sur l’autre)
+- **Doser maintenant**, pour une dose mesurée à la main
 
-:::note Les programmes se modifient dans Apex Fusion
-Cora affiche le programme et suit ce qui a été dosé, mais ne le modifie pas. Le programme, le débit et le nombre de doses se changent dans l’application Apex Fusion. Ici, vous pouvez suspendre, remplir et doser à la main.
+:::note Modifiez les programmes dans Apex Fusion
+Cora affiche le programme et suit ce qui a été dosé, mais il ne change pas le programme. Vous modifiez le programme, le débit et le nombre de doses dans l’application Apex Fusion. La pause, le remplissage et le dosage à la main fonctionnent tous ici.
 :::
 
 :::note Mesurez une tête avant de doser à la main
-Cora ne dose pas à la main avec une tête qui n’a pas été mesurée. **Mesurer pour doser** et **Remesurer** se trouvent sur le Cora Max qui gère le dosage de l’aquarium. Cora fait tourner la tête pendant vingt secondes, vous mesurez ce qui est sorti, et Cora calcule le vrai débit de la tête. Une seule mesure sert pour tous les Cora Max et Cora Mobile. Mesurez donc chaque tête une fois, puis de nouveau après un changement de tuyau.
+Cora ne dose pas à la main avec une tête tant qu’elle n’a pas été mesurée. **Mesurer pour doser** et **Remesurer** se trouvent sur le Cora Max qui dose pour l’aquarium. Cora fait tourner la tête vingt secondes, vous mesurez ce qui est sorti, et Cora en déduit le vrai débit de la tête. Une seule mesure vaut pour tous les Cora Max et pour Cora Mobile. Mesurez chaque tête une fois, et à nouveau après avoir changé son tuyau.
 :::
 
-:::warning Un DŌS continue à doser avec un bidon vide
-L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Réglez une alerte de réapprovisionnement pour chaque tête sous **Alertes**, sur la page du DŌS. Cora vous préviendra avant que le bidon soit vide. Voir [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
+:::warning Un DŌS continue de doser quand son récipient est vide
+L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Réglez une alerte de réapprovisionnement pour chaque tête sous **Alertes** sur la page du DŌS, pour que Cora vous prévienne avant que le récipient soit à sec. Voir [Alertes des doseurs](#doser-alerts).
 :::
 
-### L’usage de chaque tête
+### À quoi sert chaque tête {#dos-head-use}
 
-Chaque tête a un **type d’usage**. Cora sait ainsi à quoi elle sert et peut en parler correctement. Les choix sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture**, **Appoint** et **Autre**. Le type se règle sous **Utilisée pour**, dans les réglages de la tête.
+Donnez à chaque tête un **type d’usage** pour que Cora sache ce qu’elle fait et en parle correctement. Les choix sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture**, **Appoint** et **Autre**. Réglez-le sous **Utilisée pour** dans les réglages de la tête.
 
-Les deux types de changement d’eau vont **par paire**. Dans **Tête associée**, choisissez la tête qui déplace l’eau dans l’autre sens. Cora traite alors les deux têtes comme une seule paire de changement d’eau.
+Les deux types d’usage de changement d’eau vont par **paires**. Réglez la **Tête associée** d’une tête sur la tête qui déplace l’eau dans l’autre sens, et Cora traite les deux comme une seule paire de changement d’eau.
 
-Un bidon peut contenir jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L : au-delà, Cora suit elle-même le bidon d’après ce que la tête dose. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l’Apex remis à 150 L*.
+Un récipient peut faire jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L, donc au-delà, Cora suit lui-même le récipient d’après ce que dose la tête. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l'Apex remis à 150 L*.
 
-Chaque tête a aussi une limite de **Dosage manuel maximal**. Elle évite qu’une faute de frappe envoie une dose bien plus grosse que prévu. Les grosses doses manuelles ne sont possibles qu’une fois le débit de la tête mesuré avec un vrai test à l’aquarium, et une fois **Doses importantes (bêta)** activé dans les réglages de la tête. C’est désactivé par défaut. Activez ceci seulement après avoir observé la première dose importante s’exécuter devant l’aquarium.
+Chaque tête a aussi une limite de **Dosage manuel maximal**, pour qu’une faute de frappe ne puisse pas transformer une dose manuelle en quelque chose de bien plus gros que prévu. Les grosses doses à la main ne deviennent disponibles qu’après que le débit de la tête a été mesuré par un vrai test à l’aquarium, et après que vous avez activé **Doses importantes (bêta)** dans les réglages de la tête. C’est désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
 
-## Red Sea ReefBeat
+## Red Sea ReefBeat {#red-sea}
 
-Chaque appareil a une page adaptée à ce qu’il fait.
+Chaque appareil Red Sea a une page adaptée à ce qu’il fait :
 
 | Appareil | La page affiche | Vous pouvez |
 |---|---|---|
-| **ReefDose** | Chaque tête, son bidon et ce qu’elle a dosé | Pour chaque tête : **Dose par jour**, **Restant dans le flacon**, **Doser maintenant** et **Activer le programme**, plus un éditeur complet **Programme de dosage (bêta)**. Régler des alertes de réapprovisionnement par tête |
-| **ReefATO+** | Niveau du réservoir et activité de l’osmolateur | Régler une alerte de réservoir. Demander à l’Assistant combien de jours il reste à son réservoir |
-| **ReefMat** | Rouleau restant, en jours et en mètres | Faire avancer le rouleau, régler une alerte de réapprovisionnement, et, en Beta, activer une avance programmée, régler son modèle et la position du moteur, et enregistrer un nouveau rouleau |
-| **ReefRun** | Vitesse et état de la pompe de remontée et de la pompe d’écumeur | Changer la vitesse, allumer ou éteindre une pompe, ajuster les réglages de l’écumeur, et modifier un programme de vitesse complet sous **Programme de la pompe (bêta)** |
-| **ReefControl** *(Beta)* | Ses sondes de température, pH, salinité et ORP | Voir ses mesures |
-| **ReefWave**, **ReefLED** *(Beta)* | Son mode actuel | Lecture seule pour l’instant |
+| [ReefDose](#reefdose) | Chaque tête, son récipient et ce qu’elle a dosé | Doser, changer la dose quotidienne, modifier le **Programme de dosage (bêta)** |
+| [ReefRun](#reefrun) | La vitesse et l’état des pompes de remontée et d’écumeur | Changer la vitesse, allumer ou éteindre une pompe, modifier le **Programme de la pompe (bêta)** |
+| [ReefMat](#reefmat) | Le rouleau restant, en jours et en mètres | Faire avancer le tapis, régler les **Paramètres ReefMat (bêta)**, enregistrer un nouveau rouleau |
+| [ReefATO+](#reefato) | Le niveau du réservoir et l’activité de l’osmolateur | Régler une alerte de réservoir |
+| **ReefControl** *(Beta)* | Ses sondes de température, de pH, de salinité et d’ORP | Voir ses mesures |
+| **ReefWave**, **ReefLED** *(Beta)* | Son mode actuel | Lecture seule, pour l’instant |
 
-**ReefRun pilote la pompe de remontée et la pompe d’écumeur.** Ce n’est pas une pompe de brassage. Les prises **ReefControl Power** *(Beta)* apparaissent comme des prises, pilotées depuis la même commande de prise qu’une prise Apex, seulement allumé ou éteint. Il n’y a pas encore de mode automatique pour elles.
+ReefControl, ReefControl Power, ReefWave et ReefLED portent *(Beta)* dans leur nom mais sont ouverts à tous. Voir [Fonctions Beta](/help/mobile-beta).
 
-## Alertes des doseurs
+Les prises du **ReefControl Power** *(Beta)* apparaissent comme des prises, commandées avec la même commande de prise qu’une prise Apex, allumées ou éteintes uniquement. Il n’y a pas encore de mode automatique pour elles.
 
-Un DŌS et un ReefDose gardent leurs alertes sur leur propre page. L’onglet **Règles** du [Centre d’alertes](/help/mobile-alerts) a une ligne par doseur qui l’ouvre, et le bouton **Ouvrir le doseur** d’une alerte de doseur vous amène aussi ici.
+Quand vous êtes loin du réseau de l’appareil, Cora Mobile envoie les commandes Red Sea par un Cora Max de l’aquarium. Si aucun Cora Max ne peut le faire, la page l’indique et rien n’est envoyé.
 
-Sur la page d’un DŌS, touchez la carte **Alertes** (ou la cloche dans la barre de titre). La fenêtre liste chaque tête, et pour chacune vous pouvez régler :
+## ReefDose {#reefdose}
 
-- *[tête] · jours restants*, par exemple *Iode · jours restants* : vous recevez une alerte quand il reste moins de jours de réserve que ce nombre
-- *[tête] · restant* : vous recevez une alerte quand il reste moins que cette quantité dans le bidon
-- **Alertes de dose manquée** : un interrupteur qui vous prévient quand la tête manque une dose programmée
+![La page d’un ReefDose 4 dans Cora Mobile](img/mobile-reefdose.webp "L’état, les têtes et le total du jour, l’utilisation du doseur pour la consommation, puis chaque tête de dosage.")
 
-Chaque seuil a son propre interrupteur, pour le désactiver sans perdre sa valeur. Touchez **Enregistrer** quand vous avez fini.
+Pour chaque tête, vous pouvez régler la **Dose par jour** et le **Restant dans le flacon**, lancer **Doser maintenant**, et **Activer le programme**. Les alertes de réapprovisionnement se règlent par tête avec la cloche, comme décrit dans [Alertes des doseurs](#doser-alerts).
 
-Sur la page d’un ReefDose, touchez la cloche dans la barre de titre. Chaque tête a son propre seuil de jours restants et son interrupteur.
+La section **Dosage** affiche les **Prochaines doses**, ce que chaque tête a dosé aujourd’hui (**Dosé aujourd'hui jusqu'ici**), et **Dosé par tête** sur les **7 derniers jours** ou au **Total**. Cora lit ces données tant qu’un Cora Max ou votre téléphone est sur votre réseau domestique.
 
-## Modifier un programme ReefDose ou ReefRun *(Beta)*
+### Modifier un programme de dosage *(Beta)* {#reefdose-plan}
 
-Touchez l’icône de calendrier sur une page ReefDose ou ReefRun pour ouvrir son programme.
+Touchez l’icône de calendrier sur la page d’un ReefDose pour ouvrir le **Programme de dosage (bêta)**.
 
-Un programme ReefDose est un total quotidien, réparti en jusqu’à quatre plages horaires. Chaque plage a une heure de début et de fin, un nombre de doses à délivrer, et une vitesse : **Silencieux**, **Normal** ou **Rapide**. Ajoutez et retirez des plages, puis enregistrez. Cora vous montre ce que vous êtes sur le point d’envoyer et vous demande de confirmer avant de remplacer tout le programme de la tête.
+Un programme est un total quotidien, réparti sur quatre plages horaires au plus. Chaque plage a une heure de début et de fin, le nombre de doses à délivrer et une vitesse : **Silencieux**, **Normal** ou **Rapide**. Ajoutez et retirez des plages, puis enregistrez. Cora vous montre ce que vous allez envoyer et vous demande de confirmer avant de remplacer tout le programme de la tête.
 
-Un programme ReefRun compte jusqu’à six segments sur un seul port de pompe. Chaque segment a une heure de début et une vitesse, et peut ajouter une courte impulsion. La vitesse est soit 0, soit à partir de 5 %. Enregistrer demande aussi une confirmation, et remplace tout le programme de la pompe.
+L’éditeur lit d’abord le programme qui se trouve déjà sur l’appareil : vous modifiez donc le vrai programme, pas un formulaire vierge.
 
-Les deux éditeurs lisent d’abord le programme déjà présent sur l’appareil : vous modifiez donc le programme réel, pas un formulaire vide.
+## ReefRun {#reefrun}
 
-## Paramètres ReefMat *(Beta)*
+ReefRun commande les pompes de remontée et d’écumeur. Ce n’est pas une pompe de brassage. Vous pouvez changer la vitesse d’une pompe, l’allumer ou l’éteindre, et ajuster les réglages de l’écumeur.
 
-Touchez l’icône d’engrenage sur une page ReefMat pour trois réglages de plus.
+Touchez l’icône de calendrier pour ouvrir le **Programme de la pompe (bêta)**. Un programme compte jusqu’à six segments sur un port de pompe. Chaque segment a une heure de début et une vitesse, et peut ajouter une courte impulsion. La vitesse vaut 0 ou au moins 5 %. Comme le programme ReefDose, il lit d’abord le programme de l’appareil, et **Enregistrer** vous demande de confirmer avant de remplacer tout le programme de la pompe.
 
-- **Avance programmée** active une avance à heure fixe, séparée du capteur d’avance automatique déjà présent sur la page. Activez-la et réglez la fréquence, ainsi que la distance parcourue par le tapis à chaque avance.
+## ReefMat {#reefmat}
+
+La page du ReefMat affiche le rouleau restant, en jours et en mètres. Touchez **Avancer maintenant** pour faire avancer le tapis à la main. Cora demande d’abord **Avancer le tapis maintenant ?** Vous pouvez aussi régler une alerte de réapprovisionnement pour le rouleau.
+
+Touchez la roue dentée pour les **Paramètres ReefMat (bêta)** :
+
+- **Avance programmée** active une avance à heure fixe, indépendante du capteur d’avance automatique déjà présent sur la page. Activez-la et réglez la fréquence, et la distance de chaque avance.
 - **Modèle ReefMat** et **Position du moteur** (**Gauche** ou **Droite**) indiquent à Cora quel appareil et quelle orientation vous avez.
 
-Après avoir chargé un nouveau rouleau, informez-en Cora avec **Nouveau rouleau (bêta)** : son épaisseur, et son diamètre extérieur si vous le connaissez. C’est différent de **Faire avancer le rouleau**, qui se contente de déplacer le tapis déjà chargé.
+Après avoir mis un nouveau rouleau, indiquez-le à Cora avec **Nouveau rouleau (bêta)** : son épaisseur, et son diamètre extérieur si vous le connaissez. **Avancer maintenant** ne fait que déplacer le tapis déjà chargé.
 
-Un appareil peut s’arrêter de lui-même. Par exemple, une pompe ReefRun s’arrête quand le godet de l’écumeur est plein. Dans ce cas, sa page explique pourquoi et propose la solution.
+## ReefATO+ {#reefato}
 
-| Appareil | La page affiche | Touchez |
+La page du ReefATO+ affiche le niveau du réservoir et les appoints récents. Réglez une alerte de réservoir avec la cloche. Cora estime combien de jours il reste au réservoir d’après la consommation récente de l’osmolateur, et vous pouvez aussi interroger l’Assistant à ce sujet.
+
+## Quand un appareil Red Sea s’arrête de lui-même {#red-sea-stops}
+
+Un appareil peut s’arrêter de lui-même. Une pompe ReefRun le fait par exemple quand la coupelle de l’écumeur est pleine. Dans ce cas, la page dit pourquoi et propose la solution :
+
+| Appareil | La page indique | Touchez |
 |---|---|---|
-| ReefRun | La pompe arrêtée et la raison, par exemple *Godet plein. Videz-le, puis reprenez.* | **Reprendre** |
+| ReefRun | Quelle pompe s’est arrêtée et pourquoi, par exemple *Coupelle pleine. Videz-la, puis reprenez.* | **Reprendre** |
 | ReefRun ou ReefMat | **Arrêt d’urgence** | **Effacer l’urgence** |
 | ReefMat | **Tapis coincé**, **Erreur d’installation** ou **Erreur de configuration** | **Reprendre** |
 | ReefMat | *Chargez un nouveau rouleau, puis confirmez-le dans l’application Red Sea.* | **J’ai déjà chargé un nouveau rouleau** |
@@ -140,84 +162,139 @@ Un appareil peut s’arrêter de lui-même. Par exemple, une pompe ReefRun s’a
 | ReefDose | **Dysfonctionnement de la tête**, avec le nom de la tête | **Réinitialiser** |
 | ReefATO+ | **Effacer la panne** | **Reprendre** |
 
-Certaines de ces actions demandent une confirmation. Si vous n’êtes pas sur le réseau de l’appareil, Cora Mobile les envoie par un Cora Max de l’aquarium. Si aucun Cora Max ne peut s’en charger, la page le signale et rien n’est envoyé.
+Certaines de ces actions vous demandent d’abord de confirmer. Loin du réseau de l’appareil, elles passent par un Cora Max de l’aquarium, comme décrit dans [Red Sea ReefBeat](#red-sea).
 
-## Pompes Jecod
+## Alertes des doseurs {#doser-alerts}
 
-La page de la pompe affiche son mode et son intensité, et vous pouvez changer les deux.
+Un DŌS et un ReefDose gardent leurs alertes sur leur propre page. L’onglet **Règles** du [Centre d’alertes](/help/mobile-alerts) a une ligne par doseur qui l’ouvre, et le bouton **Ouvrir le doseur** d’une alerte de doseur vous amène aussi ici.
 
-Vous pouvez aussi :
+Sur la page d’un DŌS, touchez la carte **Alertes** (ou la cloche de la barre de titre). La feuille liste chaque tête, et pour chacune vous pouvez régler :
 
-- **Copier le programme vers…** pour mettre le programme de cette pompe sur une autre
-- **Enregistrer le programme sous…** et **Programmes enregistrés…** pour garder un programme et le réappliquer plus tard
-- **Partager ce programme** et **Coller un code de programme…** pour passer un programme d’un système à l’autre sous forme de code court
+- *[tête] · jours restants*, par exemple *Iode · jours restants* : vous recevez une alerte en dessous de ce nombre de jours de réserve
+- *[tête] · restant* : vous recevez une alerte en dessous de cette quantité restante dans le récipient
+- **Espace restant dans le récipient de déchets**, pour une tête qui retire l’eau usée : vous recevez une alerte quand le récipient de déchets se remplit
+- **Alertes de dose manquée** : un interrupteur qui vous prévient quand la tête manque une dose programmée
 
-## Maxspect
+Chaque seuil a son propre interrupteur, pour que vous puissiez en désactiver un en gardant sa valeur. Touchez **Enregistrer** quand vous avez fini.
+
+Sur la page d’un ReefDose, touchez la cloche de la barre de titre. Chaque tête a son propre seuil en jours restants et son interrupteur.
+
+Les valeurs par défaut et les autres consommables sont dans [Consommables](/help/mobile-consumables).
+
+## Pompes Jecod / Jebao {#jecod}
+
+La page de la pompe affiche le type de vague actuel (le mode) et l’intensité, et vous pouvez changer les deux. Choisissez **Constant toute la journée** ou **Programme** en haut. La création d’un programme journalier, et sa copie, son enregistrement ou son partage, sont dans [Programmer l’équipement](/help/mobile-schedules).
+
+Si la pompe fait partie d’un groupe, la page affiche son rôle, comme **Mène le groupe**, **Suit : en phase** ou **Suit : en alternance**.
+
+### Pause nourrissage {#jecod-feeding}
+
+Lancez une pause nourrissage depuis la section **Alimentation** de la page de la pompe. Certaines pompes terminent la pause d’elles-mêmes, et la page indique *La pompe met fin à cela elle-même.*
+
+:::warning Gardez la page de la pompe ouverte pendant une pause nourrissage
+Certaines pompes ne terminent pas un nourrissage d’elles-mêmes, et la page l’indique. Pour celles-là, et pour toute pompe sur un programme, Cora Mobile ne rétablit le type de vague et le programme que tant que la page de la pompe reste ouverte. Si vous quittez la page, la pompe reste arrêtée en mode nourrissage, ou reste hors de son programme, jusqu’à ce que vous la changiez à nouveau ou que vous touchiez **Programme**.
+:::
+
+Une pompe Bluetooth doit être à portée de votre téléphone pour lancer un nourrissage, et une pompe réseau doit être sur votre réseau.
+
+### Vérifications de pannes {#jecod-fault-checks}
+
+**Vérifications de pannes** règle la fréquence à laquelle Cora relit la pompe pour vous prévenir d’une panne, comme une pompe bloquée ou qui tourne à sec. Si vous le désactivez, ces avertissements s’arrêtent pour cette pompe. Les vérifications de pannes nécessitent un Cora Max à l’aquarium. Votre choix est enregistré et les vérifications démarrent dès qu’un Cora Max est ajouté. **Utiliser ceci pour toutes les pompes de cet aquarium** copie le réglage sur toutes.
+
+## AquaWiz {#aquawiz}
+
+La carte AquaWiz affiche vos mesures d’alcalinité, et le pH si votre appareil le signale. Elle affiche aussi votre KH cible, la concentration de votre dose et, pour un appareil avec le dosage configuré, sa dose maximale par heure et la quantité de produit d’alcalinité restant dans le récipient. Ces valeurs viennent directement de vos réglages AquaWiz : changez-les donc dans l’application AquaWiz. Cora ne peut pas commander un AquaWiz.
+
+Si votre appareil suit son récipient, Cora vous prévient quand le produit s’épuise, à 100 mL par défaut. Changez-le depuis sa règle dans le [Centre d’alertes](/help/mobile-alerts).
+
+## Maxspect {#maxspect}
 
 :::note Beta
-**Beta.** Maxspect est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+**Beta.** Maxspect est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines commandes peuvent être limitées, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, dites-le-nous depuis [Signaler un problème](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
-La page de la pompe indique si elle tourne, le type de vague et la vitesse de **Gyre A** et **Gyre B**, et l’heure de la dernière lecture. Depuis cette page, vous pouvez :
+La page de la Gyre indique si elle tourne, le type de vague et la vitesse de **Gyre A** et **Gyre B**, et quand elles ont été lues pour la dernière fois. D’ici, vous pouvez :
 
-- allumer ou éteindre la pompe avec l’interrupteur à côté de son état. Cora vous demande d’abord de confirmer. L’arrêt coupe les deux gyres et ne touche pas au programme.
-- toucher **Modifier les réglages** pour régler le type de vague et la vitesse de chaque gyre (et la durée, pour les types de vague qui en ont une), et choisir si les deux gyres sont liés. Cora liste les changements et vous demande de confirmer avant de les appliquer. Le mode alterné se règle dans l’application Maxspect. Une pompe qui l’utilise garde ses rampes et ses temps de maintien.
-- toucher **Programme défini** quand le programme enregistré dans la pompe est illisible. Cette commande règle les deux gyres pour que la pompe puisse redémarrer.
-- voir le programme journalier de la pompe sur la carte **Programme**. Il est en lecture seule. Le programme se règle dans l’application Maxspect.
-- consulter l’**État de la pompe** : la date du prochain nettoyage (la pompe fait elle-même le décompte), le courant consommé par la tête A, les têtes installées et le micrologiciel. Touchez **Lire** pour récupérer ces informations.
+- Allumer ou éteindre la Gyre avec l’interrupteur à côté de son état. Cora vous demande d’abord de confirmer. L’éteindre arrête les deux Gyres et laisse le programme tel quel.
+- Toucher **Modifier les réglages** pour régler le type de vague et la vitesse de pompe de chaque Gyre, plus la durée pour les types qui en ont une, et si les deux Gyres sont liées. Cora liste ce qui va changer et vous demande de confirmer. Le mode alterné se règle dans l’application Maxspect, et une Gyre qui l’utilise garde ses rampes et ses temps de maintien.
+- Toucher **Programme défini** si le programme enregistré sur la Gyre ne peut pas être lu. Cela règle les deux Gyres pour que la Gyre puisse redémarrer.
+- Voir le programme journalier de la Gyre sur la carte **Programme**. Ici, vous pouvez seulement le consulter. Réglez le programme dans l’application Maxspect.
+- Consulter l’**État de la pompe**. Il indique quand la pompe doit être nettoyée la prochaine fois (la pompe fait elle-même le compte à rebours), le courant consommé par la tête A, les têtes installées et le micrologiciel. Touchez **Lire** pour le récupérer.
 
-:::note Comment Cora Mobile joint une pompe Gyre
-Si un Cora Max gère l’aquarium, Cora Mobile passe par ce Cora Max, même quand vous êtes loin de chez vous. **Modifier les réglages** part alors de la dernière lecture de ce Cora Max. Sinon, votre téléphone parle directement à la pompe et doit être sur le même réseau qu’elle. Ouvrir la page lance alors une lecture de la pompe. Si la page affiche une lecture plus ancienne gardée en mémoire, **Modifier les réglages** reste masqué jusqu’à ce que vous touchiez actualiser.
+:::note Comment Cora Mobile joint une Gyre
+Si un Cora Max dessert l’aquarium, Cora Mobile passe par ce Cora Max, même quand vous êtes loin de chez vous. **Modifier les réglages** part alors de la dernière lecture de ce Cora Max. Sinon, votre téléphone parle directement à la Gyre et doit être sur son réseau. Ouvrir la page lit la Gyre. Si la page affiche une lecture enregistrée plus ancienne, **Modifier les réglages** reste masqué jusqu’à ce que vous touchiez actualiser.
 :::
 
-## GHL ProfiLux et Mitras
+## GHL ProfiLux et Mitras {#ghl}
 
 :::note Beta
-**Beta.** GHL est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+**Beta.** GHL est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines mesures ou commandes peuvent ne pas encore fonctionner, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, dites-le-nous depuis [Signaler un problème](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
-La page du contrôleur affiche ses sondes, ses prises, ses doseurs et ses capteurs de niveau, et sur les modèles Director, ses résultats de test KH et ionique.
+La page du contrôleur affiche ses sondes, ses prises, ses doseurs et ses capteurs de niveau, et sur les modèles Director, ses résultats de tests KH et d’ions.
 
-Les commandes restent désactivées tant que vous n’activez pas **Autoriser le contrôle depuis Cora (bêta)** sur la page de l’appareil. C’est désactivé par défaut, et l’activer permet à Cora d’envoyer des commandes de pause d’alimentation, entretien, changement d’eau, orage, éclairage, consigne et prise à ce contrôleur.
+Les commandes restent désactivées tant que vous n’activez pas **Autoriser le contrôle depuis Cora (bêta)** sur la page de l’appareil. C’est désactivé par défaut, et l’activer permet à Cora d’envoyer à ce contrôleur des commandes de pause nourrissage, d’entretien, de changement d’eau, d’orage, d’éclairage, de consigne et de prise. Une fois que vous pouvez ajouter l’appareil, cet interrupteur ne demande aucun accès supplémentaire.
 
 Une fois activé :
 
-- Une prise peut être réglée sur **Toujours activé**, **Toujours désactivé**, ou **Revenir en mode automatique** pour la rendre à la programmation du contrôleur.
+- Une prise peut être réglée sur **Toujours activé**, **Toujours désactivé**, ou **Revenir en mode automatique** pour la rendre à la programmation propre du contrôleur.
 - Une consigne, comme la température ou le pH, affiche sa plage autorisée et refuse une valeur en dehors.
 
 :::warning Un changement de prise ou de consigne est enregistré sur le contrôleur lui-même
-Ce réglage reste enregistré là même si Cora perd ensuite le contact avec le contrôleur. Régler une prise sur Toujours activé ou Toujours désactivé prend le pas sur la programmation du contrôleur pour elle, jusqu’à ce que vous choisissiez Revenir en mode automatique.
+Il n’est pas seulement stocké dans Cora. Régler une prise sur Toujours activé ou Toujours désactivé remplace la programmation propre du contrôleur pour cette prise jusqu’à ce que vous choisissiez Revenir en mode automatique.
 :::
 
-Si une prise ou une consigne ressemble à un chauffage ou une pompe de remontée, Cora vous demande de confirmer deux fois avant de l’envoyer.
+Si une prise ou une consigne semble appartenir à un chauffage ou à une pompe de remontée, Cora vous demande de confirmer deux fois avant de l’envoyer.
 
-Si le bidon d’un doseur devient bas, Cora vous prévient de la même façon que pour les autres consommables. La valeur par défaut est 20 % plein, et vous pouvez la changer depuis la règle du doseur dans le [Centre d’alertes](/help/mobile-alerts).
+Si le récipient d’un doseur se vide, Cora vous prévient comme pour les autres consommables. La valeur par défaut est 20 % de remplissage, et vous pouvez la changer depuis la règle du doseur dans le [Centre d’alertes](/help/mobile-alerts).
 
 :::note ProfiLux mini
-Un mini peut seulement commuter ses prises. Tout le reste ici, comme les consignes et la pause nourrissage, nécessite un ProfiLux 3, 4 ou Mitras.
+Un mini ne peut que commander ses prises. Tout le reste ici, comme les consignes et la pause nourrissage, nécessite un ProfiLux 3, 4 ou un Mitras.
 :::
 
-Si le contrôleur refuse le changement, vérifiez que son API GHL est activée avec un accès complet. GHL la désactive après chaque mise à jour du micrologiciel. [Résolution de problèmes](/help/troubleshooting) donne la suite.
+Si le contrôleur refuse le changement, vérifiez que son API GHL est activée avec un accès complet. GHL la désactive après chaque mise à jour du micrologiciel. [Résolution de problèmes](/help/troubleshooting) donne les étapes.
 
-## HYDROS
+## HYDROS {#hydros}
 
 :::note Beta
-**Beta.** HYDROS est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines mesures ou commandes peuvent ne pas encore marcher, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, prévenez-nous depuis [Obtenir de l’aide](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+**Beta.** HYDROS est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Certaines mesures ou commandes peuvent ne pas encore fonctionner, et ce que vous voyez ici peut changer d’une mise à jour à l’autre. Si quelque chose ne marche pas comme décrit, dites-le-nous depuis [Signaler un problème](/help/mobile-support). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
-Ce que vous voyez ici dépend de la clé avec laquelle vous l’avez lié. Une clé **Lecture** vous donne seulement ses entrées. Une clé **Écriture** ajoute les sorties, les modes, le dosage et les commandes de testeur, ainsi qu’une bannière en haut de page qui rappelle quel type de clé vous avez.
+Ce que vous voyez ici dépend de la clé avec laquelle vous l’avez relié. Une clé **Read** ne vous donne que ses entrées. Une clé **Write** ajoute les sorties, les modes, le dosage et les commandes de testeur, plus un bandeau de page qui vous rappelle quel type de clé vous utilisez.
 
 Avec une clé d’écriture, les commandes restent aussi désactivées tant que vous n’activez pas **Autoriser le contrôle depuis Cora (bêta)** sur la page de l’appareil. C’est désactivé par défaut.
 
 Une fois activé, la page peut afficher :
 
-- Les **sorties**, sous forme d’interrupteur pour une sortie tout ou rien, de curseur pour un niveau comme une pompe ou un éclairage, ou de bouton pour un indicateur. Une sortie forcée affiche **Forcé** avec un bouton **Retour au programme** pour la rendre à son propre programme.
-- Les **modes**, comme Nourrissage ou Changement d’eau, sous forme d’une ligne de choix. Toucher l’un d’eux vous demande de confirmer.
-- Les **têtes de dosage**, chacune avec un bouton **Doser** et une entrée **Réglages de la tête** où vous fixez ses propres limites : une plus grosse dose à la main et un plafond quotidien. Demander plus que la limite d’une tête, ou plus que ce que son propre plafond quotidien a encore laissé pour la journée, est refusé avec les chiffres dans le message.
-- Les **commandes de testeur**, pour un iV ou un Maven connecté, se lancent depuis un bouton et sont confirmées d’abord.
+- Les **Sorties**, sous forme d’interrupteur pour une sortie marche/arrêt, de curseur pour un niveau comme une pompe ou une lampe, ou de bouton pour un indicateur. Une sortie forcée affiche **Forcé** avec un bouton **Retour au programme** pour la rendre à son propre programme.
+- Les **Modes**, comme Feed ou Water Change, sous forme de rangée de choix. En toucher un vous demande de confirmer.
+- Les **Têtes de dosage**, chacune avec un bouton **Doser** et une entrée **Réglages de la tête** où vous réglez ses propres limites : une dose manuelle maximale et un plafond quotidien. Demander plus que la limite d’une tête, ou plus que ce qu’il reste de son plafond quotidien pour la journée, est refusé avec les chiffres dans le message.
+- Les **Commandes de test**, pour un iV ou un Maven connecté, lancées depuis un bouton et confirmées d’abord.
 
-Si le contrôleur n’a pas donné de nouvelles depuis un moment, la page le signale et les mesures peuvent être périmées. Une commande envoyée pendant qu’il semble hors ligne n’est pas envoyée du tout, et la page vous le dit aussi.
+Si le contrôleur n’a pas transmis depuis un moment, la page l’indique et les mesures peuvent être dépassées. Une commande envoyée alors qu’il semble hors ligne n’est pas envoyée du tout, et la page vous le dit aussi.
 
-## Après un changement
+## Focustronic {#focustronic}
 
-Chaque changement est enregistré dans [Activité](/help/mobile-activity), avec l’interface qui l’a demandé. Si un appareil refuse un changement, l’échec y est aussi enregistré.
+:::note Beta
+**Beta.** Focustronic est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+:::
+
+Chaque appareil affiche son état, son micrologiciel, son dernier test et, pour un Alkatronic, l’alcalinité et le pH qu’il a mesurés. Vous voyez aussi les pompes avec ce qui reste dans chacune, les paramètres, les flacons et les éventuels avertissements de réactif ou de tampon. Cora demande de nouvelles mesures à Focustronic toutes les 30 minutes.
+
+Sous **Commandes**, vous pouvez **Mesurer maintenant**, **Doser maintenant** depuis une pompe (jusqu’à 500 mL à la fois) et, sur un Mastertronic, **Tester maintenant**. Chacune vous demande d’abord de confirmer. Cora ne relance jamais une dose : si le résultat dit qu’il est inconnu, vérifiez l’appareil. Les commandes passent par les serveurs de Focustronic, que Cora ne contrôle pas, et ne sont disponibles que tant que l’appareil est en ligne.
+
+## EcoTech, Inkbird et caméras {#ecotech-inkbird-cameras}
+
+:::note Beta
+**Beta.** EcoTech, Inkbird et les caméras sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, [contactez le support](/support.html).
+:::
+
+Ils ont leurs propres pages :
+
+- Lampes EcoTech Radion, pompes VorTech et doseurs Versa : [Lampes, pompes et doseurs EcoTech](/help/mobile-ecotech)
+- Les moniteurs d’air ambiant Inkbird ne font que signaler des mesures, il n’y a donc rien à commander : [Connecter votre équipement](/help/mobile-connections#inkbird-room-air-monitor)
+- Caméras et surveillance de l’écumeur : [Caméras et surveillance de l’écumeur](/help/mobile-cameras)
+
+## Ce qui se passe après un changement {#what-happens-after-you-change-something}
+
+Chaque changement est enregistré dans [Activité](/help/mobile-activity), avec l’interface d’où il vient. Si un appareil n’accepte pas un changement, c’est aussi enregistré là.

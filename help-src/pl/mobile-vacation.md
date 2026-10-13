@@ -1,49 +1,51 @@
 ---
-title: Wyjazd
-description: Przygotuj plan dla osoby, która zajmie się akwarium, i udostępnij go jako stronę, którą otworzy bez konta.
+title: Wyjazd: plan dla opiekuna akwarium
+description: Włącz tryb wakacyjny, przygotuj listę zadań dla opiekuna akwarium i udostępnij ją jako stronę tylko do odczytu z bieżącymi odczytami, którą otworzy bez konta.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 28
-group: Account
+reviewed: 2026-10-13
+order: 23
+group: Alerts and automation
 ---
 
-Dzięki trybowi wakacyjnemu akwarium może pod Twoją nieobecność doglądać ktoś inny. Ustawiasz daty, wypisujesz prace, a Cora tworzy prostą stronę, którą wyślesz tej osobie.
+Tryb wakacyjny pomaga komuś innemu zająć się akwarium pod Twoją nieobecność. Wybierasz daty i zadania, a Cora tworzy stronę internetową, którą wyślesz opiekunowi.
 
-**Ustawienia → Akwaria → Tryb wakacyjny.**
+Przejdź do Ustawienia → Twoje akwarium → **Tryb wakacyjny**. Jeśli masz więcej niż jedno akwarium, wybierz je na górze. Każde akwarium ma własny plan.
 
-![Tryb wakacyjny](img/mobile-vacation.webp "Daty wyjazdu, lista zadań dla opiekuna i notatki do niej.")
+![Tryb wakacyjny w Cora Mobile](img/mobile-vacation.webp "Akwarium, przypomnienie, że alerty nadal trafiają do Ciebie, daty wyjazdu, a pod nimi lista zadań dla opiekuna.")
 
-## Przygotowanie planu
+## Przygotowanie planu {#setting-it-up}
 
-**Daty**: kiedy wyjeżdżasz i kiedy wracasz.
+1. W **Kiedy jesteś poza domem?** dotknij **Wybierz daty wyjazdu**.
+2. Przygotuj **Listę kontrolną opiekuna**. Cora podsuwa zadania konserwacyjne, które przypadną w czasie Twojej nieobecności, każde z informacją, jak często trzeba je wykonywać. Dotknij propozycji, żeby ją dodać, na przykład **Nakarm akwarium**, **Sprawdź zbiornik ATO**, **Opróżnij kubek odpieniacza** albo **Zadzwoń do mnie, jeśli coś wygląda nie tak**. Żeby dodać własne zadanie, wpisz je w **Dodaj własne zadanie…** i dotknij **Dodaj zadanie**.
+3. W **Notatki i kontakt** wpisz **Notatki dla opiekuna**, a w **Jeśli coś wygląda nie tak** napisz, jak się z Tobą skontaktować.
+4. Dotknij **Uruchom tryb wakacyjny**.
 
-**Lista zadań**: każda praca razem z tym, jak często trzeba ją wykonywać. Cora pokazuje częstotliwość jako prostą etykietę obok zadania:
+Przy każdym zadaniu widać, jak często je wykonywać, na przykład **Codziennie**, **Co 3 dni**, **Raz** albo **Zawsze** (stała instrukcja). Cora ustala to na podstawie zadania konserwacyjnego albo propozycji. Zadanie wpisane samodzielnie nie ma etykiety, więc podaj częstotliwość w jego treści.
 
-| Częstotliwość | Do czego |
-|---|---|
-| **Codziennie** | Karmienie, szybki rzut oka na akwarium |
-| **Co 3 dni** | Dolewka, sprawdzenie odpieniacza |
-| **Raz** | Podmiana wody w czasie Twojej nieobecności |
-| **Zawsze** | Stałe instrukcje, np. sprzęt, którego nie wolno przestawiać |
-
-Pisz listę dla kogoś, kto nie zna akwariów morskich. Podawaj wprost ilości i sposób: „podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie”, a nie „nakarm jak zwykle”.
-
-## Udostępnianie
-
-Cora zamienia plan w **stronę tylko do odczytu**. Wyślij opiekunowi link. Nie potrzebuje Cora Mobile ani konta.
-
-Opiekun może przeczytać listę zadań i zobaczyć akwarium. Nie może niczego zmienić, sterować sprzętem ani zobaczyć reszty Twojego konta.
+Pisz listę dla kogoś, kto nie zna akwariów morskich. Podawaj wprost ilości i sposób. „Podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie” jest dużo jaśniejsze niż „nakarm jak zwykle”.
 
 :::note Napisz, czego nie ruszać
-Dodaj stałe instrukcje o sprzęcie, którego opiekun nie powinien dotykać. Ustaw dla nich częstotliwość **Zawsze**.
+Dodaj zadanie dla każdego sprzętu, którego opiekun nie powinien dotykać, na przykład „Nie zmieniaj niczego w kontrolerze”. Wpisz to też w notatkach.
 :::
 
-## W czasie wyjazdu
+## Udostępnianie opiekunowi {#sharing}
 
-Wszystko inne działa dalej: odczyty, alerty, Reef Buddy, automatyzacje. Tryb wakacyjny tylko dodaje stronę dla opiekuna. Nie zmienia tego, jak działa akwarium.
+Dotknij **Utwórz link dla opiekuna**. Cora tworzy stronę internetową tylko do odczytu z listą zadań, Twoimi notatkami i bieżącymi odczytami akwarium. Opiekun nie potrzebuje Cora Mobile ani konta. Dotknij **Udostępnij**, żeby ją wysłać, albo **Kopiuj**, żeby skopiować link.
 
-Jeśli chcesz być pod telefonem, przed wyjazdem sprawdź **[ustawienia powiadomień](/help/mobile-notifications)**.
+Na tej stronie opiekun może odhaczać wykonane zadania. Każde z nich widzisz w **Aktywności opiekuna**, z godziną. Opiekun nie może zmienić niczego innego, sterować sprzętem ani zobaczyć reszty Twojego konta.
 
-## Po powrocie
+Link działa do daty powrotu plus 2 dni. **Nowy link** tworzy świeży link, a stary przestaje działać. Przydaje się to, gdy wyślesz go niewłaściwej osobie.
 
-Gdy wrócisz, zakończ plan. Lista zadań zostaje zapisana, więc przy następnym wyjeździe użyjesz jej ponownie i nie musisz pisać jej od nowa.
+## W czasie wyjazdu {#while-away}
+
+Wszystko inne działa jak zwykle, w tym odczyty, alerty, Reef Buddy, dozowanie i automatyzacje. Tryb wakacyjny niczego nie wstrzymuje. Gdy jest włączony, na górze Ustawień widać *Tryb wakacyjny jest włączony*. Dotknij tego, żeby przejrzeć plan albo go zakończyć.
+
+:::warning Alerty nadal trafiają do Ciebie
+Strona opiekuna pokazuje aktywne alerty, ale opiekun nigdy nie dostaje powiadomień. Alerty parametrów nadal trafiają na Twój telefon. Bądź pod telefonem i wpisz swój numer w planie. Przed wyjazdem sprawdź [ustawienia powiadomień](/help/mobile-notifications).
+:::
+
+Żeby zmienić plan w czasie wyjazdu, dotknij **Edytuj**, a potem **Zapisz zmiany**.
+
+## Po powrocie {#coming-back}
+
+Dotknij **Zakończ tryb wakacyjny** i potwierdź przyciskiem **Zakończ**. Link opiekuna od razu przestaje działać. Lista zadań zostaje zapisana na następny raz.

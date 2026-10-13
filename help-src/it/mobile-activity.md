@@ -1,60 +1,69 @@
 ---
 title: Attività e cronologia
-description: Cosa è successo alla tua attrezzatura e chi o cosa l'ha fatto succedere.
+description: Guarda ogni modifica inviata alla tua attrezzatura, chi o cosa l'ha chiesta e se ha funzionato, e leggi la cronologia della vasca intorno a una data.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 22
+reviewed: 2026-10-13
+order: 28
 group: Records
+twin: max-activity
 ---
 
-Attività registra ogni **richiesta di azione**, cioè ogni tentativo di cambiare qualcosa. Per ciascuna vedi chi l'ha chiesta e com'è andata.
+Attività elenca ogni tentativo di cambiare qualcosa sulla tua attrezzatura: accensione e spegnimento delle prese, cicli di alimentazione, dosaggi e tutto quello che ha fatto una scena o un'automazione. Ogni riga mostra cosa l'ha chiesto e cosa è successo dopo, comprese le richieste che non hanno funzionato.
 
-Non tutte le richieste cambiano qualcosa. Quelle rifiutate non sono state eseguite, con un'eccezione: *Nessun dispositivo ha risposto in tempo* indica che l'azione potrebbe essere partita comunque. Controlla l'attrezzatura prima di ripeterla. **Nessun cambiamento** significa che era già nello stato richiesto. Per una richiesta non confermata, Cora non sa se il comando è arrivato al dispositivo. Tutti gli esiti vengono registrati.
+Vai in **Impostazioni → Attività**. Se hai più di una vasca, sceglila con le etichette delle vasche in alto.
 
-**Impostazioni → Attività.**
+![Attività in Cora Mobile](img/mobile-activity.webp "La legenda degli esiti in alto, poi ogni azione con il suo esito, l'origine e il percorso.")
 
-![Il registro dell'attività](img/mobile-activity.webp "Ogni azione, con la superficie che l'ha richiesta.")
+## Cosa significano gli esiti {#outcomes}
 
-## Cosa viene registrato
+Ogni riga ha un esito. La stessa legenda è in alto nella schermata, sotto **COSA SIGNIFICANO GLI ESITI**.
 
-Ogni **richiesta**, anche quelle che non hanno funzionato: accensione e spegnimento delle prese, cicli di alimentazione, dosaggi, cambi sulle prese smart e tutto ciò che fa una scena o un'automazione.
+| Esito | Significato |
+|---|---|
+| **Confermato** | Il dispositivo ha detto di averlo fatto |
+| **Non confermato** | È stato inviato, ma non è tornata nessuna risposta. Potrebbe essere arrivato al dispositivo oppure no |
+| **Rifiutato** | È stato respinto e non è stato eseguito. Leggi la riga per sapere perché |
+| **Nessun cambiamento** | L'attrezzatura era già in quello stato, quindi non è stato inviato niente |
 
-Una richiesta **rifiutata**, **senza cambiamento** o rimasta **non confermata** viene registrata come una eseguita. Un comando che in silenzio non ha fatto nulla è proprio quello che vuoi trovare qui.
+Un rifiuto è diverso dagli altri. *Nessun dispositivo ha risposto in tempo* significa che la richiesta potrebbe essere stata eseguita comunque. Controlla l'attrezzatura prima di riprovare.
 
-## Da dove è partita
+Un comando che in silenzio non ha fatto nulla è proprio quello che vuoi trovare qui, per questo le richieste fallite e quelle senza cambiamento vengono tenute insieme a quelle riuscite.
 
-Ogni voce indica la sua origine:
+## Cosa l'ha causato {#causes}
+
+Ogni riga indica la sua origine:
 
 | Origine | Significato |
 |---|---|
-| **Questa app** | L'hai toccato qui |
-| **Voce in questa app** | L'hai chiesto a voce da questo telefono |
-| **Toccato su un Cora** | Qualcuno ha usato uno schermo Cora. La riga dice quale |
-| **Voce su un Cora Max** | Qualcuno ha parlato a uno schermo |
-| **Cora Assistant** | Hai chiesto a Cora di farlo |
-| **Regola di automazione** | È scattata una regola |
-| **Pulsante smart** | Qualcuno ha premuto un pulsante fisico |
-| **Inviato da Cora Cloud** | La richiesta è arrivata dal tuo account passando per Cora Cloud |
-| **Fonte sconosciuta** | Registrata prima che Cora potesse riconoscere l'origine |
+| **Questa app** | L'hai toccato in Cora Mobile |
+| **Voce in questa app** | L'hai chiesto a voce, da questo telefono |
+| **Toccato su un Cora** | Qualcuno ha usato lo schermo di un Cora Max. La riga dice quale |
+| **Voce su un Cora Max** | Qualcuno ha parlato a un Cora Max |
+| **Cora Assistant** | Hai chiesto a Cora Assistant di farlo in una chat |
+| **Regola di automazione** | L'ha fatto un'[automazione o una scena](/help/mobile-automation) |
+| **Inviato da Cora Cloud** | È arrivato dal tuo account passando per Cora Cloud |
+| **Fonte sconosciuta** | Registrato prima che Cora potesse capire da dove arrivava |
 
-## Che strada ha fatto
+## Che strada ha fatto {#route}
 
-Ogni riga ha anche un'etichetta con il percorso. Quando qualcosa va storto, sapere *come* la richiesta è arrivata all'attrezzatura spiega molto:
+Ogni riga ha anche un'etichetta con il percorso. Quando qualcosa va storto, il modo in cui la richiesta è arrivata all'attrezzatura spesso spiega il perché.
 
 | Etichetta | Significato |
 |---|---|
-| **LAN** | Inviata sulla tua rete, direttamente all'attrezzatura |
-| **TRAMITE CLOUD** | Inviata attraverso il tuo account, per attrezzatura che non si raggiunge direttamente |
-| **PERCORSO ?** | Registrata prima che Cora tenesse traccia dei percorsi. Il percorso è davvero sconosciuto e Cora non lo indovina |
+| **LAN** | Inviato sulla tua rete, direttamente all'attrezzatura |
+| **TRAMITE CLOUD** | Inviato attraverso il tuo account, per attrezzatura che Cora non raggiunge direttamente |
+| **PERCORSO ?** | Registrato prima che si tenesse traccia dei percorsi, quindi il percorso è sconosciuto |
 
-Se hai più di un Cora, la riga dice anche quale ha eseguito la richiesta.
+Se hai più di un Cora Max, la riga dice anche quale ha eseguito la richiesta.
 
-## La cronologia della vasca
+## La cronologia della vasca {#tank-timeline}
 
-Oltre alle azioni sull'attrezzatura, ogni vasca ha una **cronologia**: letture, avvisi, voci di diario, risultati ICP e cambi nella popolazione, in ordine di tempo.
+Attività riguarda l'attrezzatura. La cronologia della vasca, che sullo schermo si chiama **Storia della vasca**, riguarda la vasca. Mette in ordine di data voci di diario, manutenzione, cambi nella popolazione, test dell'acqua e avvisi, con le tappe importanti lungo il percorso.
 
-Guarda l'attività quando ti chiedi *"che cosa ha fatto questo?"*. Guarda la cronologia quando ti chiedi *"che cosa succedeva intorno a questa data?"*
+Per aprirla, vai nel [diario](/help/mobile-journal) e tocca l'icona **Cronologia della vasca** in alto. Usa le etichette in alto per mostrare solo **Diario**, **Manutenzione**, **Popolazione**, **Test dell'acqua** o **Avvisi**, oppure **Tutte**. **Carica storia precedente** va più indietro nel tempo. Anche da qui puoi aggiungere una **Nuova voce** o dettarne una.
 
-:::note Cronologia e diario vanno letti insieme
-Nella cronologia c'è quello che ha registrato Cora. Nel [diario](/help/mobile-journal) c'è quello che hai fatto tu. Insieme ti aiutano a capire cause ed effetti intorno a una certa data.
+Usa Attività quando vuoi sapere *"cosa ha fatto questa cosa?"* Usa la cronologia quando vuoi sapere *"cosa succedeva intorno a questa data?"*
+
+:::note Usa la cronologia insieme al diario
+La cronologia raccoglie quello che ha registrato Cora. Il diario contiene quello che hai fatto tu e perché. Leggili fianco a fianco per vedere cause ed effetti intorno a una data.
 :::

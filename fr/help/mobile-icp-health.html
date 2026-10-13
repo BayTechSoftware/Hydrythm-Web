@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rapports ICP et de santé | Cora Help</title>
-  <meta name="description" content="Importez un test ICP, suivez chaque élément dans le temps et lancez un bilan complet de votre système.">
+  <meta name="description" content="Importez le PDF d’un test ICP ou faites-le envoyer par votre laboratoire, lisez le score, suivez chaque élément dans le temps et lancez un rapport de santé de tout votre système.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-icp-health">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-icp-health">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-icp-health">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Rapports ICP et de santé | Cora Help">
-  <meta property="og:description" content="Importez un test ICP, suivez chaque élément dans le temps et lancez un bilan complet de votre système.">
+  <meta property="og:description" content="Importez le PDF d’un test ICP ou faites-le envoyer par votre laboratoire, lisez le score, suivez chaque élément dans le temps et lancez un rapport de santé de tout votre système.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-icp-health">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Aide","item":"https://coraiq.tech/fr/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/fr/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Intelligence","item":"https://coraiq.tech/fr/help/mobile-reef-buddy"},{"@type":"ListItem","position":4,"name":"Rapports ICP et de santé"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/fr/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Aide</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Rechercher dans le guide">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigation du guide">
     <button class="hclose" id="hclose" type="button" aria-label="Fermer la navigation">&times;</button>
     <nav aria-label="Guide">
 <ul>
 <li><a href="/fr/help/">Aide Cora</a></li>
 </ul>
+<p class="nav-sec">Aide</p>
+<ul>
+<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
+<li><a href="/fr/help/how-do-i">Comment faire...?</a></li>
+<li><a href="/fr/help/equipment-by-brand">L’équipement par marque</a></li>
+<li><a href="/fr/help/faq">Questions fréquentes</a></li>
+<li><a href="/fr/help/glossary">Glossaire</a></li>
+</ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Prise en main</summary><ul>
 <li><a href="/fr/help/mobile-setup">Configurer Cora Mobile</a></li>
-<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
+<li><a href="/fr/help/mobile-tour">Se repérer dans Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a></li>
-<li><a href="/fr/help/mobile-tour">Les cinq onglets</a></li>
+<li><a href="/fr/help/mobile-tanks">Gérer vos aquariums</a></li>
+<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Votre tableau de bord</summary><ul>
 <li><a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
 <li><a href="/fr/help/mobile-dashboard-editing">Modifier votre tableau de bord</a></li>
 <li><a href="/fr/help/mobile-widgets">Référence des widgets</a></li>
-<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
 <li><a href="/fr/help/mobile-sharing">Partager votre aquarium</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
 <li><a href="/fr/help/mobile-device-control">Contrôler votre équipement</a></li>
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
-<li><a href="/fr/help/mobile-probes">Association des paramètres</a></li>
-<li><a href="/fr/help/mobile-consumables">Consommables</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
+<li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
+<li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
 <li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
 <li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
+<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
 <li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
 <li><a href="/fr/help/mobile-notifications">Notifications</a></li>
 <li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour la personne qui garde votre aquarium</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Journaux</summary><ul>
-<li><a href="/fr/help/mobile-dosing">Dosage</a></li>
+<li><a href="/fr/help/mobile-journal">Le journal</a></li>
+<li><a href="/fr/help/mobile-dosing">Produits de dosage et calculateur de dose</a></li>
 <li><a href="/fr/help/mobile-maintenance">Entretien</a></li>
 <li><a href="/fr/help/mobile-livestock">Population</a></li>
-<li><a href="/fr/help/mobile-journal">Le journal</a></li>
 <li><a href="/fr/help/mobile-activity">Activité et chronologie</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Intelligence</summary><ul>
-<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
 <li><a href="/fr/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
+<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
 <li><a href="/fr/help/mobile-icp-health" class="cur" aria-current="page">Rapports ICP et de santé</a></li>
+<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Compte</summary><ul>
-<li><a href="/fr/help/mobile-vacation">Partir en vacances</a></li>
+<summary>Paramètres et compte</summary><ul>
+<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
-<li><a href="/fr/help/mobile-data-export">Vos données</a></li>
-<li><a href="/fr/help/mobile-plans">Forfaits</a></li>
-<li><a href="/fr/help/mobile-settings">Réglages</a></li>
-<li><a href="/fr/help/mobile-support">Obtenir de l’aide</a></li>
+<li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
+<li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
+<li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/fr/help/max-devices">Appareils et état des appareils</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertes et automatisation</summary><ul>
+<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
+<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Journaux</summary><ul>
 <li><a href="/fr/help/max-records">Journal, population et entretien</a></li>
+<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
@@ -146,79 +162,77 @@
 <li><a href="/fr/help/max-voice">Parler à Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertes</summary><ul>
-<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
-<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Paramètres</summary><ul>
+<summary>Paramètres et compte</summary><ul>
 <li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatisation</summary><ul>
-<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Aide</p>
-<ul>
-<li><a href="/fr/help/faq">Questions fréquentes</a></li>
-<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
-<li><a href="/fr/help/glossary">Glossaire</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Fil d’Ariane"><ol><li><a href="/fr/help/">Aide</a></li><li><a href="/fr/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/fr/help/mobile-reef-buddy">Intelligence</a></li></ol></nav>
       <h1>Rapports ICP et de santé</h1>
-      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#importer-un-test-icp">Importer un test ICP</a></li><li><a href="#quelle-adresse-e-mail-un-laboratoire-peut-utiliser">Quelle adresse e-mail un laboratoire peut utiliser</a></li><li><a href="#envoyer-cora-les-rsultats-transmis-par-un-laboratoire-ou-par">Envoyer à Cora : les résultats transmis par un laboratoire ou par e-mail</a></li><li><a href="#ce-que-vous-obtenez">Ce que vous obtenez</a></li><li><a href="#un-test-deau-osmose-ou-deau-source">Un test d’eau osmosée ou d’eau source</a></li><li><a href="#rapports-de-sant">Rapports de santé</a></li><li><a href="#licp-face-vos-sondes">L’ICP face à vos sondes</a></li><li><a href="#votre-quota">Votre quota</a></li><li><a href="#o-trouver-vos-rapports">Où trouver vos rapports</a></li></ul></nav>
-<p>L’onglet <strong>Intelligence</strong> rassemble vos analyses de laboratoire et le suivi de votre aquarium sur la durée.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: L’onglet Intelligence"><img src="/help/img/mobile-intelligence.webp" alt="L’onglet Intelligence" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Téléchargez un ICP, exécutez un rapport de santé, et voyez ce qui a changé depuis le dernier.</figcaption></figure>
-<h2 id="importer-un-test-icp">Importer un test ICP</h2>
-<p>Touchez <strong>Téléverser un ICP</strong>, choisissez votre aquarium et ajoutez le résultat du laboratoire. Cora lit le rapport, enregistre chaque élément et le compare à vos tests précédents.</p>
-<p>Vous n’avez rien à taper. Cora reconnaît les formats de laboratoire courants.</p>
-<h2 id="quelle-adresse-e-mail-un-laboratoire-peut-utiliser">Quelle adresse e-mail un laboratoire peut utiliser</h2>
-<p>Un laboratoire ou un résultat envoyé par e-mail retrouve votre compte grâce à l’adresse e-mail qu’il connaît. C’est l’e-mail de votre connexion, plus tout e-mail de labo que vous ajoutez dans <strong>Réglages → la carte de votre compte → E-mails labo et ICP</strong>.</p>
-<ol><li>Touchez <strong>Ajouter un e-mail de labo</strong> et saisissez l’adresse utilisée par votre laboratoire.</li><li>Touchez <strong>Envoyer le code</strong>. Cora envoie un code à 6 chiffres à cette adresse. Il expire au bout de 10 minutes.</li><li>Saisissez le code et touchez <strong>Vérifier</strong>. S’il n’est pas arrivé, touchez <strong>Renvoyer le code</strong>.</li></ol>
-<p>Vous pouvez ajouter jusqu’à 3 e-mails de labo. Chacun affiche <strong>Vérifié</strong> ou <strong>En attente du code</strong>, et <strong>Supprimer</strong> en retire un. Ensuite, les résultats envoyés à cette adresse n’arrivent plus sur votre compte. Une adresse qui appartient déjà à un autre compte Cora ne peut pas être ajoutée.</p>
-<p>Si vous vous êtes connecté avec un e-mail Apple masqué, les laboratoires ne peuvent pas trouver votre compte. L’écran ICP affiche alors une carte, <strong>Recevoir les résultats de labo automatiquement</strong>, qui mène à ce réglage. Quand vous vous connectez avec Apple, choisissez <strong>Partager mon e-mail</strong> pour éviter le problème.</p>
-<h2 id="envoyer-cora-les-rsultats-transmis-par-un-laboratoire-ou-par">Envoyer à Cora : les résultats transmis par un laboratoire ou par e-mail</h2>
-<p>Certains laboratoires peuvent envoyer un résultat directement à Cora. Un résultat ICP reçu par e-mail peut aussi arriver de cette façon. Vous n’avez alors rien à importer vous-même.</p>
-<p>Quand un résultat arrive, une bannière s’affiche : <em>« Un résultat de laboratoire de {lab} est en attente. »</em> Touchez <strong>Choisir un bac</strong> et indiquez l’aquarium concerné. Cora ne peut pas le deviner. Une fois l’aquarium choisi, Cora y ajoute le rapport comme s’il avait été importé.</p>
-<p>Le rapport affiche <strong>Envoyé par {lab}</strong> près de son en-tête. Vous le distinguez ainsi d’un rapport que vous avez importé vous-même.</p>
-<aside class="cal cal-note"><p class="cal-t">La première fois</p><p>La première fois qu’un résultat arrive par ce chemin, Cora affiche une courte explication, pour que vous ne le preniez pas pour une erreur.</p></aside>
-<h3 id="le-premier-rsultat-dun-nouveau-laboratoire">Le premier résultat d’un nouveau laboratoire</h3>
-<p>La première fois qu’un laboratoire vous envoie un résultat, Cora vous demande de l’approuver avant de l’ajouter où que ce soit, même si vous n’avez qu’un seul aquarium. Vous voyez qui l’a envoyé et pouvez cocher <strong>Faire confiance à ce laboratoire</strong> pour sauter cette vérification la prochaine fois qu’un résultat viendra de lui.</p>
-<p>Touchez <strong>Approuver</strong> pour le faire entrer, ou <strong>Refuser</strong> pour le supprimer sans l’ajouter à aucun aquarium. <strong>Réglages → Laboratoires de confiance</strong> liste chaque laboratoire auquel vous avez fait confiance de cette façon, et <strong>Révoquer</strong> en retire un, pour que son prochain résultat demande de nouveau votre approbation.</p>
-<p>En cas de problème, consultez la page <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Un rapport ICP"><img src="/help/img/mobile-icp-report.webp" alt="Un rapport ICP" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Chaque rapport porte un score et un résumé rédigé pour votre aquarium.</figcaption></figure>
+      <p class="twin">Sur Cora Max : <a href="/fr/help/max-intelligence">Reef Buddy et rapports</a></p>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#uploading-an-icp-test">Importer un test ICP</a></li><li><a href="#which-email-a-lab-can-use">Quel e-mail un laboratoire peut utiliser</a></li><li><a href="#send-to-cora-results-a-lab-or-an-email-delivers-for-you">Envoyer à Cora : les résultats qu’un laboratoire ou un e-mail vous livre</a></li><li><a href="#ce-que-vous-obtenez">Ce que vous obtenez</a></li><li><a href="#un-test-deau-rodi-ou-deau-de-depart">Un test d’eau RO/DI ou d’eau de départ</a></li><li><a href="#health-reports">Rapports de santé</a></li><li><a href="#licp-face-a-vos-sondes">L’ICP face à vos sondes</a></li><li><a href="#votre-quota">Votre quota</a></li><li><a href="#ou-se-trouvent-les-rapports">Où se trouvent les rapports</a></li></ul></nav>
+<p>L’onglet <strong>Intelligence</strong> est l’endroit où vivent vos résultats de laboratoire et vos rapports de long terme. Choisissez d’abord un aquarium en haut. Tout ce qui est à l’écran concerne cet aquarium.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : L’onglet Intelligence"><img src="/help/img/mobile-intelligence.webp" alt="L’onglet Intelligence" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Importer un ICP, lancer un rapport de santé, et voir ce qui a bougé depuis le dernier.</figcaption></figure>
+<h2 id="uploading-an-icp-test">Importer un test ICP</h2>
+<p>Cora lit le rapport PDF que votre laboratoire vous envoie. Téléchargez-le d’abord depuis l’e-mail ou le site de votre laboratoire. Les photos, scans et captures d’écran ne peuvent pas être lus.</p>
+<ol><li>Touchez <strong>Téléverser un ICP</strong>.</li><li>Choisissez votre laboratoire, ou laissez <strong>Auto : détecter le laboratoire</strong>. Cora a des conseils pour ATI, Fauna Marin, Modern Reef, Oceamo, Reef Zlements et Triton.</li><li>Indiquez ce qu’est l’échantillon : <strong>Eau d’aquarium</strong>, <strong>Eau RO/DI</strong>, <strong>Mélange de sel</strong> ou <strong>Autre</strong>. Seule l’eau d’aquarium met à jour votre tableau de bord et vos alertes.</li><li>Vérifiez la date de prélèvement de l’échantillon. Les laboratoires impriment la date d’analyse, alors Cora vous demande la vôtre et trace les résultats à cette date.</li><li>Touchez <strong>Choisir le PDF</strong> et sélectionnez le fichier.</li></ol>
+<p>Cela prend en général une à deux minutes. Gardez l’écran ouvert et le rapport s’ouvre dès qu’il est prêt. Vous n’avez rien à taper.</p>
+<p>Vous pouvez aussi envoyer le PDF par e-mail à <strong>icp@in.coraiq.tech</strong>. Envoyez-le depuis votre e-mail de connexion ou un e-mail de laboratoire vérifié (voir plus bas), et il arrive comme un résultat envoyé par un laboratoire.</p>
+<p>Si vous importez deux fois le même rapport, Cora vous montre celui que vous avez déjà et ne vous le décompte pas une deuxième fois.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora a d’abord besoin de votre accord</p><p>L’analyse ICP envoie le rapport à l’IA, elle nécessite donc <strong>Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées</strong>. Si c’est désactivé, Cora vous le demande avant l’import. Voir <a href="/fr/help/mobile-assistant#what-the-switch-covers">ce que couvre l’interrupteur</a>.</p></aside>
+<h2 id="which-email-a-lab-can-use">Quel e-mail un laboratoire peut utiliser</h2>
+<p>Un laboratoire ou un résultat envoyé par e-mail retrouve votre compte grâce à l’adresse e-mail qu’il connaît. C’est votre e-mail de connexion, plus tout e-mail de laboratoire que vous ajoutez sous <strong>Réglages → carte de votre compte (Compte et abonnement) → E-mails labo et ICP</strong>.</p>
+<ol><li>Touchez <strong>Ajouter un e-mail de labo</strong> et tapez l’adresse qu’utilise votre laboratoire.</li><li>Touchez <strong>Envoyer le code</strong>. Cora envoie un code à 6 chiffres à cette adresse. Il expire au bout de 10 minutes.</li><li>Saisissez le code et touchez <strong>Vérifier</strong>. Si vous ne l’avez pas reçu, touchez <strong>Renvoyer le code</strong>.</li></ol>
+<p>Vous pouvez ajouter jusqu’à 3 e-mails de laboratoire. Chacun indique <strong>Vérifié</strong> ou <strong>En attente du code</strong>, et <strong>Retirer</strong> en supprime un. Ensuite, les résultats envoyés à cette adresse n’arrivent plus sur votre compte. Une adresse qui appartient déjà à un autre compte Cora ne peut pas être ajoutée.</p>
+<p>Si vous vous êtes connecté avec une adresse Apple masquée, les laboratoires ne peuvent pas trouver votre compte. L’écran ICP affiche une carte, <strong>Recevoir les résultats de labo automatiquement</strong>, qui vous mène à ce réglage. Quand vous vous connectez avec Apple, choisissez <strong>Partager mon adresse e-mail</strong> pour éviter le problème.</p>
+<h2 id="send-to-cora-results-a-lab-or-an-email-delivers-for-you">Envoyer à Cora : les résultats qu’un laboratoire ou un e-mail vous livre</h2>
+<p>Certains laboratoires peuvent envoyer un résultat directement à Cora, et un PDF ICP que vous envoyez par e-mail arrive de la même façon. Vous n’avez rien à importer vous-même.</p>
+<p>Si vous avez un seul aquarium, un résultat d’un laboratoire de confiance, ou un résultat que vous avez envoyé par e-mail, va directement dans cet aquarium. Avec plusieurs aquariums, vous verrez un bandeau : <em>« Un résultat de laboratoire de {lab} vous attend. »</em> Touchez <strong>Choisir l'aquarium</strong> et choisissez l’aquarium auquel il appartient. Cora ne peut pas le deviner tout seul.</p>
+<p>Le rapport affiche <strong>Envoyé par {lab}</strong> près du haut, ou <strong>Reçu par e-mail</strong>, pour que vous le distinguiez d’un rapport que vous avez importé.</p>
+<p>Si <strong>Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées</strong> est désactivé, le résultat attend avec le message <em>Cora Assistant a besoin de votre accord pour le lire.</em> Donnez votre accord et il arrive.</p>
+<aside class="cal cal-note"><p class="cal-t">La première fois</p><p>La première fois qu’un résultat arrive de cette façon, Cora affiche une courte indication sur ce qui se passe, pour que cela ne ressemble pas à une erreur.</p></aside>
+<h3 id="le-premier-resultat-dun-nouveau-laboratoire">Le premier résultat d’un nouveau laboratoire</h3>
+<p>La première fois qu’un laboratoire vous envoie un résultat, Cora vous demande de l’approuver avant de l’ajouter où que ce soit, même si vous n’avez qu’un aquarium. Vous voyez qui l’a envoyé et pouvez cocher <strong>Faire confiance à ce laboratoire</strong> pour sauter cette vérification la prochaine fois qu’un résultat vient de lui.</p>
+<p>Touchez <strong>Approuver</strong> pour le faire entrer, ou <strong>Refuser</strong> pour le supprimer sans l’ajouter à aucun aquarium.</p>
+<h3 id="trusted-labs">Laboratoires de confiance et ce que voient les laboratoires</h3>
+<p><strong>Réglages → Cora Assistant → Laboratoires de confiance</strong> liste chaque laboratoire auquel vous avez fait confiance. La liste apparaît dès que vous avez fait confiance à au moins un laboratoire. <strong>Révoquer</strong> retire un laboratoire, et son prochain résultat demandera à nouveau votre approbation.</p>
+<p><strong>Partager l’analyse de Cora avec les laboratoires</strong>, sur le même écran, décide de ce que voit un laboratoire après vous avoir envoyé un résultat. Activé, il peut voir les scores et l’analyse écrite de Cora. Désactivé, il voit seulement que le résultat a été livré. C’est désactivé jusqu’à ce que vous l’activiez. Le même interrupteur apparaît aussi sur un rapport envoyé par un laboratoire.</p>
+<p>Si quelque chose ici ne fonctionne pas, voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
 <h2 id="ce-que-vous-obtenez">Ce que vous obtenez</h2>
-<p>D’abord, <strong>un score</strong> sur 100, avec un résumé en langage simple de ce qu’il veut dire pour votre système : votre type d’aquarium, son âge, votre population.</p>
-<p>Le score compare vos résultats à leurs plages cibles, y compris les plages que vous avez réglées vous-même. Un seul résultat hors de sa plage bloque le score à 70 au plus. Il ne peut donc pas afficher <strong>Sain</strong>. Un résultat très hors plage le bloque à 40 au plus, même si tout le reste est bon. Sous le score, l’étiquette indique <strong>Sain</strong> de 71 à 100, <strong>Attention requise</strong> de 40 à 70 et <strong>Critique</strong> de 0 à 39. Les rapports de santé sont notés de la même façon.</p>
-<p>Ensuite, <strong>tous les éléments suivis</strong> : les paramètres principaux, mais aussi les oligo-éléments et les contaminants. Cora enregistre les 71 éléments qu’un laboratoire peut rapporter, et la ligne que certains laboratoires appellent <em>Acidity</em> est le pH.</p>
-<p>Sur chaque ligne d’élément, vous voyez la plage imprimée par le laboratoire, affichée comme <em>Plage du laboratoire</em>, à côté de la plage propre à Cora pour cet élément. Un élément pour lequel Cora n’a pas de plage de référence porte l’étiquette <strong>Pas de plage Cora</strong>. Le rapport indique combien d’éléments ont une plage Cora et évalue le reste d’après les connaissances générales en récif. Cora Assistant commente chaque élément testé, et son commentaire reste valable même sans plage Cora.</p>
-<p>Si le laboratoire imprime <em>n.d.</em>, ou <em>non détecté</em>, pour un élément, Cora l’enregistre comme 0 et indique qu’il n’a pas été détecté.</p>
-<aside class="cal cal-note"><p class="cal-t">Le CO2 dissous n’est pas le CO2 de la pièce</p><p>Le <strong>CO₂ dissous</strong> d’un rapport ICP est le CO2 présent dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce, que mesure un moniteur d’air ambiant Inkbird™ en Beta. Les deux ont des plages différentes et ne sont jamais mélangés. Voir <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p></aside>
-<p>La carte « Depuis votre dernier ICP » montre <strong>les plus gros changements</strong> depuis le test précédent. C’est souvent le moyen le plus rapide de comprendre un nouveau rapport.</p>
-<p>Enfin, touchez <strong>Tendances</strong> pour suivre un élément sur tous les tests que vous avez importés. C’est là que l’ICP devient vraiment utile, au-delà d’une simple photo à un instant donné.</p>
-<aside class="cal cal-tip"><p class="cal-t">Tout devient intéressant au deuxième test</p><p>Un ICP vous dit où vous en êtes. Le deuxième vous dit dans quelle direction vous allez, et c’est ce qui vous aide le plus à agir. Faites vos tests à un rythme régulier, et pas uniquement quand quelque chose ne va pas.</p></aside>
-<h2 id="un-test-deau-osmose-ou-deau-source">Un test d’eau osmosée ou d’eau source</h2>
-<p>Si vous importez un échantillon d’eau osmosée (RO/DI) ou d’une autre eau source, dites-le lors de l’import. Cora ne la note pas par rapport aux cibles de votre aquarium. Elle rend un verdict simple : l’eau est-elle assez propre pour servir ? Et elle garde ces chiffres hors des mesures de votre aquarium. Le rapport indique combien de résultats sont de l’eau source. Cora fait de même pour un sel fraîchement mélangé ou tout autre échantillon qui n’est pas de l’eau d’aquarium : elle dit à quoi l’échantillon ressemble et ne le note pas comme votre aquarium.</p>
-<h2 id="rapports-de-sant">Rapports de santé</h2>
-<p>Un <strong>Rapport de santé</strong> est un bilan plus complet de tout le système, à faire de temps en temps. Il examine ensemble tous les paramètres, toutes les sources, votre dosage, votre historique et vos derniers résultats ICP.</p>
-<p>Touchez <strong>Rapport de santé</strong> et choisissez un aquarium. Le rapport met un moment à se préparer.</p>
-<p>Lancez-en un quand le titre du jour ne suffit pas et que vous voulez un avis réfléchi : avant un gros changement, après un problème, ou toutes les quelques semaines pour faire le point.</p>
-<h2 id="licp-face-vos-sondes">L’ICP face à vos sondes</h2>
-<p>Cora compare vos résultats de laboratoire avec ce que mesure votre équipement. Si votre sonde d’alcalinité indique 8,4 et votre ICP 7,6, c’est bon à savoir. Cora vous le montre, sans choisir l’un des deux en silence.</p>
-<p>C’est l’un des grands intérêts d’un ICP dans Cora. Voyez-le comme <strong>un troisième avis, pas un arbitre</strong>. Les laboratoires ne donnent pas tous les mêmes résultats, et la manipulation, la conservation et le transport de l’échantillon jouent tous sur la mesure. Un ICP est un indice. Deux tests qui concordent valent bien plus qu’un seul. Si l’écart persiste, vérifiez la sonde, sans conclure pour autant qu’elle se trompe.</p>
-<aside class="cal cal-tip"><p class="cal-t">Changer de laboratoire ou de méthode</p><p>Changer de laboratoire, ou passer de l’ICP-OES à l’ICP-MS dans un même laboratoire, peut faire bouger vos résultats sans que rien ne change dans l’aquarium. Cora le signale quand il compare les tests. L’ICP-OES ne mesure pas les très faibles taux de chrome, d’étain, de nickel, de cuivre, de cobalt ou de sélénium. Un résultat <strong>Sous le seuil de détection</strong> pour ces éléments sur un test ICP-OES ne veut donc pas dire que votre aquarium n’en contient pas.</p></aside>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Un rapport ICP"><img src="/help/img/mobile-icp-report.webp" alt="Un rapport ICP" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Chaque rapport porte un score et un résumé écrit pour votre aquarium.</figcaption></figure>
+<p>Vous obtenez un score sur 100 et un résumé en langage simple de ce que cela signifie pour votre système, en tenant compte du type de votre aquarium, de son âge et de sa population.</p>
+<p>Le score compare vos résultats avec leurs plages cibles, y compris les plages que vous avez réglées vous-même. Si un résultat est hors de sa plage, le score ne peut pas dépasser 70, il ne peut donc pas indiquer <strong>Sain</strong>. Si l’un est très hors plage, il ne peut pas dépasser 40, aussi bons que soient les autres. L’étiquette sous le score indique <strong>Sain</strong> de 71 à 100, <strong>Attention requise</strong> de 40 à 70 et <strong>Critique</strong> de 0 à 39. Les rapports de santé sont notés de la même façon.</p>
+<p>Chaque élément est suivi, y compris les oligo-éléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent <em>Acidity</em> est le pH.</p>
+<p>Sur la ligne de chaque élément, vous voyez la plage imprimée par le laboratoire, affichée comme <em>Plage du laboratoire</em>, à côté de la plage propre à Cora pour cet élément. Un élément pour lequel Cora n’a pas de plage de référence porte l’étiquette <strong>Pas de plage Cora</strong>. Le rapport indique combien d’éléments ont une plage Cora et évalue les autres à partir des connaissances générales sur le récif. Cora Assistant commente chaque élément testé, et son commentaire vaut même quand il n’y a pas de plage Cora.</p>
+<p>Si le laboratoire imprime <em>n.d.</em>, ou <em>non détecté</em>, pour un élément, Cora l’enregistre à 0 et indique qu’il n’a pas été détecté.</p>
+<aside class="cal cal-note"><p class="cal-t">Le CO2 dissous n’est pas le CO2 de la pièce</p><p>Le <strong>CO₂ dissous</strong> d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce, que mesure un moniteur d’air ambiant Inkbird™. Les deux ont des plages différentes et ne sont jamais mélangés. <strong>Beta.</strong> Inkbird est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans <strong>Ajouter un appareil</strong>. Pour demander l’accès Beta, contactez le support.</p></aside>
+<p>La carte <strong>Depuis votre dernier ICP</strong> montre ce qui a le plus changé depuis la dernière fois. C’est en général le moyen le plus rapide d’aborder un nouveau rapport.</p>
+<p>Touchez <strong>Tendances</strong> pour voir n’importe quel élément sur tous les tests que vous avez importés. C’est là que l’ICP devient vraiment utile.</p>
+<aside class="cal cal-tip"><p class="cal-t">C’est au deuxième test que cela devient intéressant</p><p>Un ICP vous dit où vous en êtes. Le deuxième vous dit dans quelle direction vous allez, et c’est sur cela que vous pouvez agir. Testez à un rythme régulier, sans attendre que quelque chose tourne mal.</p></aside>
+<h2 id="un-test-deau-rodi-ou-deau-de-depart">Un test d’eau RO/DI ou d’eau de départ</h2>
+<p>Si vous importez de l’eau RO/DI ou une autre eau de départ, choisissez <strong>Eau RO/DI</strong> à l’import. Cora ne la note pas par rapport aux cibles de votre aquarium. Il donne un verdict simple sur la propreté suffisante de l’eau pour l’utiliser, et garde ces chiffres en dehors des mesures de votre aquarium. Elle est enregistrée comme un rapport séparé. Cora fait de même pour <strong>Mélange de sel</strong> ou <strong>Autre</strong> : il dit à quoi ressemble l’échantillon et ne le note pas comme votre aquarium.</p>
+<h2 id="health-reports">Rapports de santé</h2>
+<p>Un <strong>Rapport de santé</strong> est un bilan plus approfondi de tout le système, à faire de temps en temps. Il examine ensemble chaque paramètre, chaque source, votre dosage, votre historique et vos résultats ICP récents.</p>
+<p>Touchez <strong>Rapport de santé</strong>, puis <strong>Générer</strong>. Cela prend en général une vingtaine de secondes. Comme l’analyse ICP, il nécessite <strong>Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées</strong>.</p>
+<p>Utilisez-le quand vous voulez un examen attentif de l’aquarium. Les bons moments sont avant un gros changement, après un problème, ou toutes les quelques semaines pour faire le point.</p>
+<p>Un rapport ouvert a des boutons en haut pour l’exporter en PDF, partager un instantané de l’aquarium, ou le supprimer.</p>
+<h2 id="licp-face-a-vos-sondes">L’ICP face à vos sondes</h2>
+<p>Cora compare vos résultats de laboratoire avec ce que signale votre équipement. Si votre sonde d’alcalinité indique 8,4 et votre ICP 7,6, vous voudrez le savoir, et Cora vous le montre sans choisir l’un des deux en silence.</p>
+<p>C’est l’une des choses les plus utiles que fait un ICP dans Cora. Considérez-le comme un <strong>troisième avis</strong>. Ce n’est pas le mot de la fin. Les laboratoires diffèrent, et la façon dont un échantillon est manipulé, conservé et expédié fait bouger le résultat. Un seul ICP est un indice, et deux tests concordants comptent bien plus qu’un seul. Si l’écart persiste, vérifiez la sonde. Cela ne prouve pas que la sonde a tort.</p>
+<aside class="cal cal-tip"><p class="cal-t">Changer de laboratoire ou de méthode de test</p><p>Si vous changez de laboratoire, ou passez des tests ICP-OES aux tests ICP-MS d’un laboratoire, vos résultats peuvent bouger alors que rien n’a changé dans votre aquarium. Cora le signale quand il les compare. L’ICP-OES ne peut pas mesurer de très faibles quantités de chrome, d’étain, de nickel, de cuivre, de cobalt ou de sélénium. Un résultat <strong>Sous le seuil de détection</strong> pour ces éléments sur un test ICP-OES ne veut donc pas dire que votre aquarium n’en contient pas.</p></aside>
 <h2 id="votre-quota">Votre quota</h2>
-<p>Les ICP et les rapports de santé sont décomptés selon votre forfait. La ligne sous les boutons montre ce que vous avez utilisé ce mois-ci.</p>
-<p>En plus de votre forfait, Cora accepte au maximum 10 imports ICP par jour. Un import refusé pour cette raison ne compte pas dans les analyses ICP de votre forfait. Mais Cora Mobile n’affiche alors qu’une erreur d’import générale. Si vos imports échouent après en avoir fait beaucoup dans la journée, réessayez le lendemain.</p>
-<h2 id="o-trouver-vos-rapports">Où trouver vos rapports</h2>
-<p>L’écran Intelligence range les deux types à part : les résultats de laboratoire dans <strong>Rapports ICP</strong>, les bilans générés dans <strong>Rapports de santé</strong>. Chaque liste commence par le plus récent et affiche son score. Touchez un rapport pour le rouvrir en entier.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/mobile-journeys"><span>Précédent</span><b>Parcours guidés</b></a><a class="pn-n" href="/fr/help/mobile-sharing"><span>Suivant</span><b>Partager votre aquarium</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-12.</p>
+<p>Votre forfait définit combien d’analyses ICP et de rapports de santé vous avez chaque mois. La ligne sous les boutons montre ce que vous avez utilisé. Les chiffres de chaque forfait sont dans <a href="/fr/help/mobile-plans">Forfaits et abonnements</a>.</p>
+<p>Quand vos analyses ICP sont épuisées, Cora vous montre d’abord les forfaits vers lesquels vous pouvez passer. Si vous préférez ne pas changer de forfait, il demande <strong>Enregistrer les résultats sans l’analyse IA ?</strong> Touchez <strong>Enregistrer mes résultats</strong> et Cora lit quand même le rapport et enregistre chaque valeur, donc les tendances, l’historique et vos mesures se mettent à jour normalement. Le score et l’analyse écrite restent verrouillés. Vous pourrez les lancer plus tard depuis le rapport lui-même dès que vous aurez une analyse ICP à utiliser.</p>
+<p>En plus de la limite de votre forfait, Cora accepte jusqu’à 10 imports ICP par jour. Un import refusé pour cette raison ne consomme aucune des analyses ICP de votre forfait. Cora Mobile n’affiche toutefois qu’une erreur d’import générale : si les imports commencent à échouer après beaucoup d’imports dans la journée, réessayez demain.</p>
+<h2 id="ou-se-trouvent-les-rapports">Où se trouvent les rapports</h2>
+<p>L’écran Intelligence sépare les deux sortes. Les résultats de laboratoire sont sous <strong>RAPPORTS ICP</strong> et les bilans générés sous <strong>RAPPORTS DE SANTÉ</strong>. Chaque liste affiche les plus récents en premier, avec leur score. Touchez-en un pour le rouvrir en entier.</p>
+<p>Vous pouvez aussi y accéder depuis <strong>Réglages</strong> : ouvrez un aquarium, puis <strong>Rapports ICP</strong> ou <strong>Rapports de santé</strong>.</p>
+      <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-assistant"><span>Précédent</span><b>Interroger Cora</b></a><a class="pn-n" href="/fr/help/mobile-journeys"><span>Suivant</span><b>Parcours guidés</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -335,10 +349,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Capture d\u2019\u00e9cran");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Fermer"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -359,55 +373,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Aucun r\u00e9sultat pour \u00ab " + esc(q) + " \u00bb." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Aucun r\u00e9sultat pour \u00ab " + esc(q)
+        + " \u00bb." + '</p>' + "<p>Essayez avec moins de mots ou d\u2019autres mots, ou consultez :</p><ul><li><a href=\"/fr/help/troubleshooting\">R\u00e9solution de probl\u00e8mes</a></li><li><a href=\"/fr/help/how-do-i\">Comment faire...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contacter l\u2019assistance</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -439,9 +620,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/fr/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';
       });

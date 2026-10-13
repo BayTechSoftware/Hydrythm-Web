@@ -1,61 +1,80 @@
 ---
 title: Dispositivi e salute dei dispositivi
-description: Cosa vede Cora Max, quale dispositivo legge ogni vasca e cosa controllare quando le letture si fermano.
+description: Guarda e rinomina l'attrezzatura che Cora Max legge, scegli quale Cora Max legge ogni vasca, sistema una vasca le cui letture si sono fermate e gestisci un Cora Max dal telefono.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 7
 group: Equipment
+twin: mobile-devices
 ---
 
-In **Impostazioni → Dispositivi** trovi l'attrezzatura che Cora Max vede e come sta funzionando.
+**Impostazioni → Dispositivi** su Cora Max elenca l'attrezzatura che vede e come sta ogni dispositivo. L'icona dei dispositivi nella barra in alto apre lo stesso elenco, filtrato sulla vasca sullo schermo.
 
-## L'elenco dei dispositivi
+## L'elenco dei dispositivi {#the-device-list}
 
-![L'elenco dei dispositivi](img/max-devices.webp "In alto il filtro per vasca, sotto ogni dispositivo con una riga che riassume cosa contiene.")
+![L'elenco dei dispositivi su Cora Max, filtrato per vasca e raggruppato per marca](img/max-devices.webp "Filtra per vasca, poi ogni dispositivo raggruppato per marca, con un riassunto di una riga e la sua vasca.")
 
-Cora Max vede la stessa attrezzatura del telefono, perché tutti e due leggono lo stesso account.
+Cora Max vede la stessa attrezzatura del telefono, perché entrambi leggono lo stesso account.
 
-Con i filtri in alto scegli **Tutte le vasche** o una vasca sola. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), una riga che riassume cosa c'è nel dispositivo (*21 prese · 4 alimentazioni*, *19 test rimasti*) e la vasca a cui appartiene.
+Usa le etichette filtro in alto per mostrare **Tutte le vasche** o una sola. I dispositivi sono raggruppati per marca. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), un riassunto di una riga di quello che contiene il dispositivo (*21 prese · 4 alimentazioni*, *19 test rimanenti*), la vasca a cui appartiene e quando è stato **Visto l'ultima volta**. I dispositivi in Beta hanno un'etichetta **Beta**.
 
-Ogni pagina di un dispositivo si apre con una sezione **Stato**. Cora Max mostra anche i dispositivi Beta che il tuo account ha collegato, come luci, pompe e dosatori EcoTech, monitor Inkbird per l'aria della stanza e telecamere. L'accesso Beta in sé si gestisce dal telefono: vedi [Funzioni Beta](/help/mobile-beta).
+Tocca un dispositivo per aprirne la pagina. Ogni pagina dispositivo si apre con una sezione **Stato**. Cosa può fare ogni pagina è spiegato in [Controllare l'attrezzatura da Cora Max](/help/max-device-control).
 
-Cora Max mostra e comanda i dispositivi, ma ogni dispositivo si aggiunge, si assegna e si rimuove dal telefono. Senza ancora nessun dispositivo, questa schermata dice **Aggiungi dispositivi nell'app Cora**. Trovi come aggiungere l'attrezzatura in [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices).
+Se l'elenco dice **Alcuni dispositivi sono ancora in caricamento: questo elenco potrebbe essere incompleto.**, aspetta un attimo.
 
-## Cora Max principale: chi parla con la tua attrezzatura
-
-Il **Cora Max principale** è il Cora Max (o un altro dispositivo Cora) che legge il controller e il resto dell'attrezzatura di una vasca per tutto l'account. Per ogni vasca basta un dispositivo. Gli altri schermi mostrano quello che legge lui.
-
-Per vederlo o cambiarlo apri **Impostazioni → [la tua vasca] → Cora Max principale**. Puoi scegliere in due modi:
-
-- **Qualsiasi attivo (automatico)**: tutti i dispositivi Cora online che raggiungono l'attrezzatura della vasca si dividono il lavoro, e vale l'ultima scrittura. Usa questa impostazione, a meno che tu non abbia un motivo preciso per fissare un dispositivo.
-- **Un dispositivo fisso**: legge solo quello. Se va offline, nessuno legge più l'attrezzatura di questa vasca finché non ne scegli un altro o non torni a **Qualsiasi attivo (automatico)**.
-
-Questa scelta si fa una volta sola per la vasca, non su ogni schermo Cora. Puoi cambiarla da qualsiasi Cora Max che mostra quella vasca oppure da Cora Mobile. Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
-
-:::note Cora Max principale e Cora Assistant sono due cose diverse
-Il Cora Max principale decide quale dispositivo **legge la tua attrezzatura**. Un'altra impostazione, **Cora Assistant**, decide quale dispositivo **risponde a "Hey Cora"**. Se in casa hai più di un Cora Max, puoi impostarle in modo indipendente. Trovi di più in [Parlare con Cora](/help/max-voice).
+:::note Beta
+**Beta.** Le luci, le pompe e i dosatori EcoTech, i monitor dell'aria della stanza Inkbird e le telecamere sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). Di più in [Funzioni Beta](/help/mobile-beta).
 :::
 
-## Se le letture di una vasca si fermano
+### Rinominare un dispositivo {#renaming-a-device}
 
-Se una vasca smette di aggiornarsi mentre un'altra sullo stesso schermo continua, parti da qui:
+Tocca la matita sulla riga di un dispositivo, o nella sua pagina, e scrivi il nuovo nome. Lascia vuoto il nome per tornare al nome originale del dispositivo. Il nome è condiviso con il telefono, quindi cambia anche lì.
 
-1. **Impostazioni → [quella vasca] → Cora Max principale**: controlla che ci sia davvero un dispositivo assegnato e che sia online.
-2. Se un Cora Max secondario di questa vasca mostra **Cora principale offline** nella barra in alto, il principale ha perso la connessione. Cosa vuol dire l'indicatore di stato lo spiega [La schermata Home di Cora Max](/help/max-tour).
+### Aggiungere e rimuovere dispositivi {#adding-and-removing-devices}
+
+I dispositivi si aggiungono, si assegnano e si rimuovono dal telefono. Cora Max li mostra e li comanda. Se non ci sono ancora dispositivi, questa schermata dice **Aggiungi dispositivi nell'app Cora.** Di più in [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices).
+
+## Cora Max principale: quale dispositivo parla con la tua attrezzatura {#primary-cora-max}
+
+Il **Cora Max principale** è il Cora Max (o un altro dispositivo Cora) che legge il controller e il resto dell'attrezzatura di una vasca per tutto l'account. A ogni vasca basta un solo dispositivo che lo faccia. Tutti gli altri schermi mostrano quello che legge.
+
+Per vederlo o cambiarlo, apri **Impostazioni → [la tua vasca] → Cora Max principale**. Hai due opzioni.
+
+- **Qualsiasi attivo (automatico)** vuol dire che ogni dispositivo Cora online che può raggiungere l'attrezzatura di questa vasca si divide il lavoro, e vince l'ultima scrittura. Usalo a meno che tu non abbia un motivo per fissare un dispositivo.
+- Fissa un dispositivo, così solo quel dispositivo legge l'attrezzatura. Se va offline, nessun altro Cora Max prende il suo posto. Solo Cora Mobile, aperta sullo stesso Wi-Fi, legge l'attrezzatura finché non ne fissi un altro o torni a **Qualsiasi attivo (automatico)**.
+
+Lo imposti una volta per la vasca, e vale per ogni schermo Cora. Puoi cambiarlo da qualsiasi Cora Max che mostra la vasca, oppure da Cora Mobile (**Rendi Cora Max principale** nella pagina del Cora Max). Di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
+
+:::note Cora Max principale e dispositivo di risposta sono due impostazioni separate
+Il Cora Max principale decide quale dispositivo **legge la tua attrezzatura**. Il **Dispositivo di risposta** in Cora Mobile decide quale **risponde a "Hey Cora"**. Se hai più di un Cora Max, puoi impostarli separatamente. Di più in [Parlare con Cora](/help/max-voice).
+:::
+
+## Se le letture di una vasca si fermano {#if-a-tanks-readings-stop}
+
+Se le letture di una vasca si fermano mentre un'altra vasca sullo stesso schermo continua ad aggiornarsi, parti da qui.
+
+1. Apri **Impostazioni → [quella vasca] → Cora Max principale**. Controlla che sia assegnato un dispositivo e che sia online.
+2. Se un altro Cora Max di questa vasca mostra **Cora principale offline** nella sua barra in alto, il principale ha perso la connessione. Cosa significa l'etichetta di stato è spiegato in [La schermata principale di Cora Max](/help/max-tour#what-the-status-pill-means).
 3. **Impostazioni → Impostazioni Cora Max → Rete e aggiornamenti → Polling dispositivi** mostra ogni quanto questo Cora Max legge i tuoi dispositivi. Qui puoi solo vederlo. Si imposta da Cora Mobile.
+4. Controlla la sezione **Stato** di **Impostazioni → Impostazioni Cora Max**. Mostra per ogni vasca lo stato del polling, l'ora dell'ultima lettura e l'ultima scrittura nel cloud, senza cambiare niente.
 
-Se ancora non va, guarda la pagina [Risoluzione dei problemi](/help/troubleshooting).
+Se non basta, dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting).
 
-## Gestire un Cora Max dal telefono
+## Gestire un Cora Max dal telefono {#managing-a-cora-max-from-your-phone}
 
-Apri il Cora Max dalla scheda **Dispositivi** del telefono. Vedi la variante, la versione del firmware e l'ultima volta che è stato online. Puoi anche rinominarlo o cambiare alcune impostazioni senza andare fino allo schermo.
+Apri la scheda **Dispositivi** sul telefono e tocca il Cora Max. La scheda in alto mostra la variante, il firmware e quando è stato visto l'ultima volta. Da lì puoi rinominarlo e, quando c'è una nuova versione, toccare **Aggiorna a v…** per installarla subito. La scheda **PIN di ripristino** si trova subito sotto.
 
-![Impostazioni di Cora Max dal telefono](img/max-from-phone.webp "Intervallo di polling, luminosità, volume, avvisi sullo schermo e timer di attenuazione.")
+![La pagina di un Cora Max in Cora Mobile, con Blocco bambini, Polling dispositivi, Fuso orario e Vasche assegnate](img/max-from-phone.webp "Le impostazioni di un singolo Cora Max sul telefono: Blocco bambini, Polling dispositivi e Fuso orario, poi le sue vasche.")
 
-Queste impostazioni valgono **solo per quello schermo** (luminosità, volume, banner degli avvisi sullo schermo e timer di attenuazione), come se le cambiassi direttamente lì. Se spegni gli avvisi sullo schermo, la cronologia degli avvisi e le notifiche push non cambiano.
+Queste impostazioni riguardano solo **quel singolo schermo**, come se le avessi cambiate dallo schermo a parete:
 
-Quali vasche mostra un Cora Max, e quale è il Cora Max principale di ogni vasca, sono scelte dell'account. Puoi cambiarle da tutti e due i dispositivi, come spiegato sopra.
+| Sezione | Impostazioni |
+|---|---|
+| **Schermo** | **Luminosità**, **Attenua dopo** |
+| **Audio e voce** | **Suono degli avvisi** accende o spegne il suono degli avvisi su quello schermo, e **Volume degli avvisi** imposta quanto è forte. Gli avvisi compaiono comunque sullo schermo, e la cronologia degli avvisi e le notifiche push non cambiano |
+| **Blocco bambini** | **Blocco bambini** blocca il touchscreen di quello schermo e gli impedisce di comandare l'attrezzatura a voce |
+| **Rete e aggiornamenti** | **Polling dispositivi** (ogni quanto legge la tua attrezzatura) e **Fuso orario** (usato per l'attenuazione notturna e la fascia degli aggiornamenti) |
 
-:::note Per la salute del dispositivo, prima guarda
-La sezione **STATO** di **Impostazioni → Impostazioni Cora Max** su questo schermo mostra, per ogni vasca, lo stato del polling, l'ora dell'ultima lettura e l'ultima scrittura sul cloud, senza cambiare niente. Guardala per capire cosa succede prima di toccare un'impostazione.
-:::
+In **Vasche**, ogni vasca che questo Cora Max mostra ha una scheda con **Layout dashboard**, **Modifica vasca** e il suo dispositivo di polling. **Aggiungi vasca** e l'icona di rimozione cambiano quali vasche mostra, e queste modifiche valgono per tutto l'account. Puoi farle solo dal telefono. I passaggi sono in [Configurare Cora Max](/help/max-setup#changing-which-tanks-it-shows). Quale dispositivo è il Cora Max principale di una vasca si può cambiare sia dal telefono sia da Cora Max.
+
+In **Ripristino**, **Ripristina display** riporta lo schermo alla sua schermata di associazione. Resta sul tuo Wi-Fi, quindi puoi associarlo di nuovo via Bluetooth, e i dati della vasca vengono conservati. **Rimuovi dispositivo** lo toglie dal tuo account. Le letture della vasca vengono conservate, e puoi associarlo di nuovo più avanti.

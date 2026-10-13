@@ -1,43 +1,56 @@
 ---
-title: Planes
-description: Qué incluye cada plan, dónde ver cuánto has usado y cómo cambiar de plan o cancelarlo.
+title: Planes y suscripciones
+description: Qué incluyen los planes Free, prueba gratuita, Plus, Pro y Max, cómo suscribirte o mejorar tu plan, dónde ver tu uso y cómo cancelar en iPhone o Android.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 31
-group: Account
+reviewed: 2026-10-13
+order: 35
+group: Settings and account
 ---
 
-Controlar tu acuario es gratis y no tiene límite de uso. Los planes de pago te dan más uso de la IA y añaden Reef Buddy.
+Vigilar tu acuario es gratis y sin límite. Los planes de pago te dan cuotas de IA más grandes y añaden Reef Buddy. Esta página explica qué incluye cada plan y cómo suscribirte, cambiar o cancelar.
 
 ## Qué es siempre gratis
 
-- Lecturas en directo de tu equipo, con paneles y gráficos
+- Lecturas en directo de tus equipos, con paneles y gráficos
 - Dispositivos, alertas y umbrales
 - Diario, mantenimiento y fauna
 - Notificaciones push de alertas críticas
-- **Un acuario**
+- Ciclado guiado para un acuario nuevo
+- Tantos acuarios como quieras. Las funciones de IA cubren tu primer acuario (consulta [Qué acuarios tienen IA](#which-tanks-get-ai))
+- Exportar tus datos
 
-## Lo que incluye el plan gratuito
+## Las cuotas gratuitas
 
 | Función | Gratis |
 |---|---|
-| Mensajes al Asistente | 20 al mes. La voz gasta del mismo total y cada turno cuesta más |
+| Mensajes al Asistente | 20 al mes. La voz gasta del mismo total y cuesta más por turno |
+| Sesiones de voz | 20 al mes |
 | Informes de salud | 1 al mes |
-| Análisis de ICP | **Uno y solo uno**, para siempre. Después se bloquea |
-| IA en acuarios | Solo en tu acuario principal |
-| Reef Buddy | No incluido |
+| Análisis de ICP | **Uno, una sola vez**. Tienes un único análisis en toda la vida de la cuenta, y después se bloquea |
+| IA en acuarios | Solo tu primer acuario |
+| Reef Buddy | No incluido. Ves una tarjeta bloqueada con **Ver planes** |
 
-Cuando se te acaba una cuota, puedes seguir leyendo todo lo que ya se generó.
+Cuando se acaba una cuota, puedes seguir leyendo todo lo que Cora ya ha hecho para ti.
 
-## El periodo de prueba
+## La prueba gratuita {#the-trial}
 
-La **prueba de Pro de 30 días empieza cuando te registras**, no la primera vez que usas una función. Incluye Reef Buddy y las cuotas más altas.
+Tu **prueba de Pro de 30 días empieza cuando creas tu cuenta**. No espera a que uses una función por primera vez, y no necesitas tarjeta. **Cuenta y suscripción** la muestra como **Prueba de Cora Pro**, con la fecha en que termina.
 
-Cuando termina, la cuenta pasa al plan gratuito. **No se borra nada**. Puedes seguir leyendo todas tus lecturas, entradas del diario, informes y resúmenes.
+| Durante la prueba | |
+|---|---|
+| Mensajes al Asistente | 100 al mes |
+| Sesiones de voz | 60 al mes |
+| Informes de salud | 4 al mes |
+| Análisis de ICP | 1 al mes |
+| Reef Buddy y vigilancia con IA | Tu primer acuario |
 
-## Planes de pago
+La prueba incluye Reef Buddy y **Diseñar con IA**. Sus cuotas son más pequeñas que las del plan Pro.
 
-Hay tres planes (**Plus**, **Pro** y **Max**), con pago mensual o anual. Los precios actuales están en Cora Mobile y en la tienda, que es donde se cobran.
+Cuando termina, tu cuenta vuelve a Free. **No se borra nada.** Puedes seguir leyendo todas tus lecturas, entradas del diario, informes y resúmenes.
+
+## Planes de pago {#paid-tiers}
+
+Hay tres planes, **Plus**, **Pro** y **Max**, cada uno mensual o anual. Ajustes los muestra como Cora Plus, Cora Pro y Cora Max. Los precios actuales están en Cora Mobile y en tu tienda de aplicaciones, porque ahí es donde pagas.
 
 | | Plus | Pro | Max |
 |---|---|---|---|
@@ -45,53 +58,88 @@ Hay tres planes (**Plus**, **Pro** y **Max**), con pago mensual o anual. Los pre
 | Sesiones de voz / mes | 100 | 200 | 400 |
 | Informes de salud / mes | 4 | 12 | 100 |
 | Análisis de ICP / mes | 1 | 3 | 30 |
-| Acuarios con control por IA | 1 | 5 | 20 |
+| Acuarios con vigilancia por IA | 1 | 5 | 20 |
 
-Las sesiones de voz se cuentan aparte, y cada respuesta hablada también gasta de tu cuota de mensajes. Todos los planes de pago incluyen Reef Buddy, la subida y el análisis de ICP de los laboratorios que Cora sabe leer, y la comparación con tu propio historial.
+Las sesiones de voz tienen su propio contador, y cada respuesta hablada también gasta de tu cuota de mensajes. Todos los planes de pago incluyen Reef Buddy, la subida y el análisis de ICP de los laboratorios que Cora sabe leer, la comparación con tu propio historial y **Diseñar con IA** para los paneles (hasta 5 diseños al día por acuario).
 
-En **Ajustes → tu cuenta** se abre **Cuenta y suscripción**.
+Los planes de pago también incluyen las alertas de la vigilancia del skimmer para una cámara en tu sump. La prueba gratuita no. **Beta.** Las cámaras están en Beta y solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con el soporte. Más información en [Cámaras](/help/mobile-cameras).
 
-![Cuenta y suscripción](img/mobile-plans.webp "Tu plan y su fecha de renovación, con los controles de la tienda debajo.")
+:::note El plan Max no es la pantalla Cora Max
+El **plan Max** es una suscripción. **Cora Max** es la pantalla que está junto a tu acuario. No necesitas uno para tener el otro.
+:::
 
-Ahí ves tu plan actual y cuándo se renueva, y tienes estos controles.
+### Qué acuarios tienen IA {#which-tanks-get-ai}
+
+Reef Buddy y la vigilancia con IA cubren tantos acuarios como permita tu plan, contados desde arriba en **Ajustes → Reordenar acuarios**. Para incluir un acuario, súbelo en la lista. Los acuarios eliminados no ocupan sitio.
+
+## Suscribirte o mejorar tu plan {#subscribing}
+
+1. Abre **Ajustes** y toca la tarjeta de la cuenta, arriba. Se abre **Cuenta y suscripción**.
+2. Junto a tu plan, toca **Ver planes** (en Free o en la prueba), **Mejorar plan** (en Plus) o **Mejorar a Max** (en Pro).
+3. Elige **Mensual** o **Anual**. El precio anual muestra cuánto ahorras.
+4. Elige un plan y toca **Suscribirse**.
+5. Confirma con App Store o Google Play. Tu nuevo plan se desbloquea en cuanto la tienda lo confirma.
+
+![El selector de planes en Cora Mobile, con Mensual y Anual](img/mobile-paywall.webp "Elige Mensual o Anual, luego un plan y después Suscribirse.")
+
+El mismo selector de planes también se abre cuando llegas a un límite, por ejemplo *Alcanzaste tu límite de mensajes*, y desde la tarjeta bloqueada de Reef Buddy.
+
+## Cuenta y suscripción
+
+![Cuenta y suscripción en Cora Mobile](img/mobile-plans.webp "Tu plan en Suscripción, con Mejorar a Max y Restaurar compras.")
+
+**Cuenta y suscripción** muestra tu plan actual y cuándo se renueva o termina. Debajo están estos controles.
 
 | Control | Qué hace |
 |---|---|
-| **Canjear código** | Aplica un código promocional o de un socio |
-| **Gestionar suscripción** | Abre los ajustes de suscripción de tu tienda |
-| **Restaurar compras** | Recupera una compra hecha en otro dispositivo o antes de reinstalar |
+| **Canjear código** | Aplica un código promocional o de un socio. Solo en Android: en iPhone no aparece |
+| **Gestionar suscripción** | Abre la página de suscripciones de tu tienda. Aparece cuando Cora sabe dónde compraste el plan |
+| **Restaurar compras** | Recupera una compra hecha en otro dispositivo, o antes de reinstalar |
 
 ## Ver cuánto has usado
 
-![Uso y límites](img/mobile-usage.webp "Cada función con límite, comparada con su cuota mensual.")
+![Uso y límites en Cora Mobile](img/mobile-usage.webp "Cada función con límite, comparada con su cuota mensual.")
 
-En **Ajustes → Cora Assistant → Uso y límites** ves en un solo sitio cuánto llevas gastado de cada cuota mensual, con los mensajes al Asistente, los análisis de ICP y los informes de salud.
+**Ajustes → Cora Assistant → Uso y límites** muestra cada función con límite junto a su cuota mensual, todo en una pantalla. Son los mensajes al Asistente, los análisis de ICP y los informes de salud.
 
-Cada función con límite también muestra su uso allí donde la usas.
+También ves el uso allí donde usas cada función.
 
-- En **Asistente**, los mensajes de este mes aparecen encima del cuadro de texto.
-- En **Inteligencia**, los ICP y los informes de salud de este mes aparecen debajo de los botones.
+- En **Asistente**, los mensajes de este mes aparecen encima del cuadro de mensaje.
+- En **Inteligencia**, los análisis de ICP y los informes de salud de este mes aparecen debajo de los botones.
 
-Míralos cuando quieras saber cuánto te queda este mes.
+Los contadores vuelven a empezar al principio de cada mes natural.
 
 ## Cambiar de plan
 
-Usa **Gestionar suscripción**. Los cambios se hacen en App Store o Google Play y siguen las mismas reglas que cualquier otra suscripción de tu dispositivo, también las condiciones de reembolso y cancelación de esa tienda.
+Para subir, usa **Mejorar plan** o **Mejorar a Max** como se explica arriba. Para bajar o cambiar entre mensual y anual, usa **Gestionar suscripción**. Los cambios se hacen en App Store o Google Play y siguen las mismas reglas que cualquier otra suscripción de tu teléfono, incluidas las condiciones de reembolso y cancelación de esa tienda.
 
-## Cancelar
+## Cancelar {#cancelling}
 
-Cancela en App Store o Google Play. En Cora no se puede. Tu plan sigue activo hasta el final del periodo que has pagado y después pasa al plan gratuito.
+Se cancela en la tienda en la que pagaste. No puedes cancelar dentro de Cora. Tu plan sigue hasta el final del periodo que has pagado y después vuelve a Free.
+
+La forma más rápida es **Ajustes → la tarjeta de tu cuenta → Gestionar suscripción**. Si compraste el plan en el otro tipo de teléfono, Cora te lo dice (*Comprado en la App Store* o *Comprado en Google Play*) y **Continuar** abre la página de esa tienda.
+
+Si **Gestionar suscripción** no aparece, ve directamente a la tienda.
+
+- **iPhone:** abre la app **Ajustes**, toca tu nombre y después **Suscripciones**. Elige Cora y toca **Cancelar suscripción**.
+- **Android:** abre **Google Play**, toca tu foto de perfil y después **Pagos y suscripciones → Suscripciones**. Elige Cora y toca **Cancelar suscripción**.
 
 :::note Cancelar no borra nada
-Tus acuarios, lecturas, historial y diario se quedan tal cual. Pierdes el acceso a las funciones de pago, pero no a tus datos. Si vuelves más adelante, todo sigue ahí.
+Tus acuarios, lecturas, historial y diario se quedan como están. Pierdes las funciones de pago, pero conservas tus datos. Si vuelves más adelante, todo sigue ahí.
+:::
+
+:::warning Eliminar tu cuenta no cancela
+Si piensas eliminar tu cuenta, cancela primero la suscripción. Eliminar la cuenta no hace que la tienda deje de cobrarte. Consulta [Eliminar tu cuenta](/help/mobile-data-export#deleting-your-account).
 :::
 
 ## Si no aparece tu plan
 
-A veces una compra tarda un poco en llegar a Cora Mobile. Si ya han pasado unos minutos, haz esto.
+A veces una compra tarda un poco en llegar a Cora Mobile. Si ya han pasado unos minutos, prueba esto.
 
 1. Cierra Cora del todo y vuelve a abrirla.
-2. Comprueba que has iniciado sesión con la misma cuenta con la que compraste.
-3. Comprueba que la cuenta de la tienda de tu dispositivo es la que usaste para comprar.
+2. Comprueba que has iniciado sesión con la misma cuenta con la que hiciste la compra.
+3. Comprueba que la cuenta de la tienda de tu teléfono es la que usaste para comprar.
 
-Si sigue sin aparecer, toca **Restaurar compras**. Si tampoco funciona, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con la fecha de la compra.
+Si sigue sin aparecer, toca **Restaurar compras**. Si Ajustes dice *No se pudo verificar tu plan*, revisa tu conexión y toca **Reintentar**. Tu acceso no cambia mientras Cora lo comprueba. Si nada de esto funciona, escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con la fecha de la compra.
+
+Tus datos siguen siendo tuyos sea cual sea tu plan. Más información en [Exportar tus datos y eliminar tu cuenta](/help/mobile-data-export). Para informar de un problema de facturación desde Cora Mobile, consulta [Informar de un problema](/help/mobile-support).

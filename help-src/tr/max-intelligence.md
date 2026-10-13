@@ -1,50 +1,82 @@
 ---
 title: Reef Buddy ve raporlar
-description: Cora Max'te günlük özet, ICP sonuçları, sağlık raporları ve geçmiş grafikleri.
+description: Cora Max'te sabah Reef Buddy özeti, içgörülere geri bildirim verme, prob bakımını kaydetme, ICP sonuçları, sağlık raporları ve geçmiş grafikleri.
 section: Cora Max
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 12
 group: Intelligence
+twin: mobile-reef-buddy
 ---
 
-Cora Max telefondaki analizlerin aynısını gösterir, üstelik uzaktan okunacak kadar büyük. Hepsine **akvaryum menüsünden** ulaşırsınız. Üst çubukta akvaryum adına dokunun.
+Cora Max telefonunuzla aynı içgörüleri, odanın öbür ucundan okunacak kadar büyük bir ekranda gösterir. Reef Buddy, **ICP Raporları**, **Sağlık Raporları** ve **Parametre geçmişi** hepsi **akvaryum menüsündedir** (üst çubukta akvaryum adına dokunun).
 
-![Cora Max'te Reef Buddy](img/max-intelligence.webp "Özet tam boyutta.")
+## Sabah özeti
+
+Her gün **Özet saati**'nizde, bugünün özeti hazır olduğunda Reef Buddy panonun üstünde açılır. **Reef Buddy özeti** açıksa Cora onu yüksek sesle okur. Kimse dokunmazsa on dakika sonra kendiliğinden kapanır ya da onu kendiniz kapatabilirsiniz.
+
+Yeniden okumak için üst çubuktaki **Reef Buddy** simgesine dokunun. Simgedeki nokta, bugünün özetini henüz açmadığınızı gösterir. Tam Reef Buddy ekranı akvaryum menüsündedir.
+
+Saati ve sesli okuma anahtarını **Ayarlar → Cora Max Ayarları → REEF BUDDY** içinde ayarlayın. **Özet saati** hesabınızdaki her cihazda aynıdır.
 
 ## Reef Buddy
 
-Günlük özet panoda görünür ve ayrıca kendi tam ekranı vardır. Orada **Kararlılık** ve **Veri** puanlarını, özeti ve arkasındaki içgörüleri görürsünüz.
+![Cora Max'te Reef Buddy ekranı: bugünün günlük sağlık puanı, içgörüler ve Son ICP'nizden beri](img/max-intelligence.webp "Bugünün puanı ve özeti, içgörüler ve son ICP'nizden beri değişenler.")
 
-Puanların ne anlama geldiğini [Reef Buddy](/help/mobile-reef-buddy) sayfasında bulabilirsiniz.
+Reef Buddy ekranı Kararlılık ve Veri puanlarını, özeti ve arkasındaki içgörüleri gösterir. Puanların ne anlama geldiği [Reef Buddy](/help/mobile-reef-buddy) sayfasında anlatılır.
 
-Bir test kaydettikten ya da ICP sonucu ekledikten sonra ekranda **Bu özetten sonra yeni ölçümler geldi** yazısı ve bir **Özeti güncelle** düğmesi görünür. Özeti yeni değerlerle yeniden hazırlamak için ona dokunun. Günde bir kez çalışır: sonrasında ekranda *Özeti günde bir kez güncelleyebilirsin. Sonraki güncelleme: yarın.* yazar.
+Bir test kaydettikten ya da bir ICP sonucu ekledikten sonra ekranda **Bu özetten sonra yeni ölçümler var.** yazısı ve bir **Özeti güncelle** düğmesi görünür. Özeti yeni sayılarla yeniden hazırlamak için ona dokunun. Günde bir kez çalışır. Sonrasında ekranda *Özeti günde bir kez güncelleyebilirsin. Sonraki güncelleme: yarın.* yazar.
+
+### Bir içgörüye göre hareket etme
+
+Açmak için bir içgörüye dokunun.
+
+- **Bunu neden görüyorum?**, dayandığı ölçümleri, hedefi ve günlük kayıtlarını gösterir.
+- **Bu gördüğünüzle uyuşuyor mu?** sorusuna **Onaylandı**, **Zaten biliyordum**, **Uyuşmuyor** ya da **Emin değilim** ile yanıt verin, sonra **Değerli** mi yoksa **Pek değil** mi olduğunu söyleyin. Cora yanıtlarınızı akvaryumunuzu öğrenmek için kullanır.
+
+Cora bir ölçümden şüphelendiğinde onu **Kontrol etmeye değer** altında gösterir, örneğin kayıyor olabilecek bir prob. Orada şunları yapabilirsiniz:
+
+- proba ne yaptığınızı kaydetmek için **Kontrol ettim**'e dokunun,
+- onu bir göreve dönüştürmek için **Bakıma Ekle**'ye dokunun (**pH probunu kontrol et** ya da **Dozaj yapılandırmasını doğrula**), ya da
+- **Kapat**'a dokunun. Sorun sürmedikçe sessiz kalır.
+
+### Prob bakımını kaydetme
+
+Bir probu temizledikten, kalibre ettikten ya da değiştirdikten sonra bunu kaydedin, böylece Cora sıçramayı prob kayması sanmaz. O parametrenin geçmiş grafiğini açın ve **Prob bakımını kaydet**'e (üstteki sensör simgesi) dokunun ya da bir prob içgörüsünde **Kontrol ettim**'i kullanın. Ne yaptığınızı seçin, isterseniz bir referans ölçüm girin ve **Prob bakımını kaydet**'e dokunun. Ayrıntılar [Prob bakımını kaydetme](/help/mobile-probes#recording-probe-care) bölümünde.
 
 ## ICP sonuçları
 
-![Cora Max'te ICP raporları](img/max-icp.webp "Yüklenen her sonuç ve puanı.")
+![Cora Max'te ICP Raporları ekranı: en son rapor, rapor listesi ve seçili raporun özeti](img/max-icp.webp "En son sonuç ve puanı, kayıtlı her rapor ve açık raporun özeti.")
 
-Yüklediğiniz sonuçları burada görürsünüz. Her birinin puanı ve özeti vardır. Tüm raporlar boyunca eğilimleri de izleyebilirsiniz.
+Bu ekran yüklediğiniz sonuçları her birinin puanı ve özetiyle, ayrıca tüm raporlarınız boyunca eğilimleri gösterir.
 
-100 üzerinden puan, sonuçlarınızın aralıklarına göre hesaplanır. Aralık dışında tek bir parametre bile puanı en fazla 70'te tutar. Aralığın çok dışındaki bir parametre ise puanı en fazla 40'ta tutar. Renk durumu gösterir: 70'in üstü yeşil (sağlıklı), 40 ile 70 arası turuncu (dikkat gerekiyor), 40'ın altı kırmızı (kritik).
+100 üzerinden puan, sonuçlarınızı aralıklarıyla karşılaştırarak hesaplanır. Herhangi bir parametre aralık dışındaysa puan 70'in üstüne çıkamaz. Biri aralığın çok dışındaysa 40'ın üstüne çıkamaz. Renk bandı gösterir. Yeşil (sağlıklı) 70'in üstü, turuncu (dikkat gerekiyor) 40 ile 70 arası, kırmızı (kritik) 40'ın altıdır.
 
-Sonuç yüklemeyi telefondan yaparsınız. Nasıl yapılacağı [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
+Sonuçları telefonunuzdan yüklersiniz. Ayrıntılar [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
 
 ## Sağlık raporları
 
-Sağlık raporunu duvardaki ekranda çalıştırıp okuyabilirsiniz. Telefondaki değerlendirmenin aynısıdır. Puanı da ICP puanıyla aynı şekilde hesaplanır.
+Bir sağlık raporunu duvardaki ekranda çalıştırıp okuyabilirsiniz. **Sağlık Raporları**'nı açın ve **Oluştur**'a dokunun. Telefonunuzun parametrelerinizden, ICP sonuçlarınızdan ve günlüğünüzden yaptığı değerlendirmenin aynısıdır ve puanı ICP puanıyla aynı şekilde çalışır.
+
+- Sağlık raporları yapay zeka veri paylaşımı gerektirir. Kapalıysa Cora Max **Veri paylaşımı gerekli** gösterir. Bunu Cora Mobile'da **Ayarlar → Cora Assistant** altında açın.
+- Her planın aylık bir sağlık raporu sayısı vardır. Bittiğinde gelecek aya kadar **Aylık limite ulaşıldı** görürsünüz. Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
 
 ## Geçmiş grafikleri
 
-**Akvaryum menüsünü** açın ve **Parametre geçmişi**'ne dokunun. **Bir parametre seçin** listesinden bir parametre seçtiğinizde tam ekran grafik olarak açılır. Panodaki bir kutucuğa dokunmak da aynı grafiği açar. Yavaş bir kaymayı görmenin en iyi yolu budur. Tam ekranda bir aylık alkalinite, küçük bir kutucuğun gösteremeyeceği eğilimi ortaya çıkarır.
+**Akvaryum menüsünü** açın, **Parametre geçmişi**'ne dokunun ve bir parametre seçin. Tam ekran bir grafik olarak açılır. Panoda bir kutucuğa dokunmak aynı grafiği açar. Duvar ekranında yavaş bir kaymayı fark etmenin en iyi yolu budur. Tam ekranda bir aylık alkalinite, küçük bir kutucuğun gösteremeyeceği bir eğilimi gösterir.
 
-Üstbilgideki parametre adı bir açılır listedir, böylece zaman aralığını koruyarak başka bir parametreye geçebilirsiniz. Diğer iki açılır liste **Zaman aralığı** ve **Kaynak** seçer: **Tüm kaynaklar** ya da **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** veya **AquaWiz**. **Karşılaştır**, aynı grafiğe ikinci bir parametre çizer ve liste, akvaryumun sahip olduğu her parametreyi içerir. Her kaynağın kendi rengi var. ReefBeat ve AquaWiz noktaları kare çizilir. Birinin elle aldığı ölçümler (Manuel ve ICP) daha büyük noktalarla gösterilir. **Tüm kaynaklar** tüm kaynakları yan yana gösterir. Farklı kaynakların ölçümlerinin ortalaması hiçbir zaman alınmaz.
+- Başlıktaki parametre adı bir açılır listedir, böylece zaman aralığını koruyarak parametre değiştirebilirsiniz.
+- **Zaman aralığı** dönemi belirler.
+- **Kaynak**, **Tüm kaynaklar**'ı ya da bu parametrenin geldiği **Apex**, **Manuel**, **ICP** veya **ReefBeat** gibi tek bir kaynağı gösterir. Yalnızca bu parametrenin sahip olduğu kaynaklar listelenir.
+- **Karşılaştır**, aynı grafiğe ikinci bir parametre çizer.
 
-Ayrıntılar [Parametre ayrıntıları](/help/mobile-metric-detail) sayfasında.
+Her kaynağın kendi rengi vardır. ReefBeat ve AquaWiz gibi cihaz ölçümleri kare, birinin elle aldığı ölçümler (Manuel ve ICP) daha büyük noktalarla gösterilir. **Tüm kaynaklar** her kaynağı yan yana gösterir ve bir kaynağın ölçümlerinin ortalamasını hiçbir zaman bir başkasınınkiyle almaz. Kesikli çizgiler kaydedilen dozları işaretler. Grafiğin altında **En son**, **Ort**, **Min**, **Maks** ile **30g düşük** ve **30g yüksek** değerlerini görürsünüz.
+
+Alkalinite, kalsiyum ve magnezyum için üstteki **Dozaj hesaplayıcı** düğmesi bir düzeltme dozu hesaplar. Ayrıntılar [Bir parametreyi inceleme](/help/mobile-metric-detail) sayfasında.
 
 ## Rehberli yolculuklar
 
-Cora Max'te bir yolculuğu izleyebilir, nereye geldiğini görebilirsiniz.
+Etkin bir yolculuk, akvaryumun panosunun üstünde ince bir şerit olarak görünür. Adımları ve ne kadar ilerlediğinizi görmek için ona dokunun.
 
-**Döngüleme (cycling) yolculuğunda burada da ölçüm girebilirsiniz.** Döngüleme ekranındaki **Bir test kaydet** ile amonyak, nitrit ve nitratı telefonu açmadan kaydedersiniz. Test kiti elinizde, akvaryumun başındayken işinize yarar.
+Döngüdeki yeni bir akvaryumda ölçümleri burada alabilirsiniz. Döngü ekranındaki **Bir test kaydet**, telefonunuza uzanmadan amonyak, nitrit ve nitratı kaydeder.
 
-**Sorun** yolculuğu ise duvardaki ekranda yalnızca okunur. Yolculuğu başlatmak, adım tamamlamak, sonuç kaydetmek, yolculuğu çözmek ya da kapatmak için telefonu kullanın. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
+Bir **sorun** yolculuğu duvardaki ekranda yalnızca görüntülenir. Birini başlatmak, bir adımı tamamlamak, bir sonuç kaydetmek ve onu çözmek ya da kapatmak telefonunuzda yapılır. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.

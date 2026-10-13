@@ -1,50 +1,82 @@
 ---
 title: Reef Buddy e informes
-description: El resumen diario, los resultados de ICP, los informes de salud y los gráficos de historial en Cora Max.
+description: El resumen matutino de Reef Buddy en Cora Max, cómo responder a los análisis, registrar el cuidado de las sondas, los resultados de ICP, los informes de salud y los gráficos del historial.
 section: Cora Max
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 12
 group: Intelligence
+twin: mobile-reef-buddy
 ---
 
-Cora Max muestra los mismos análisis que el teléfono, en una pantalla que se lee de lejos. Llegas a todo desde el **menú del acuario**: toca el nombre del acuario en la barra superior.
+Cora Max muestra los mismos análisis que tu teléfono, en una pantalla lo bastante grande para leerla desde el otro lado de la habitación. Reef Buddy, **Informes ICP**, **Informes de salud** e **Historial de parámetros** están todos en el **menú del acuario** (toca el nombre del acuario en la barra superior).
 
-![Reef Buddy en Cora Max](img/max-intelligence.webp "El resumen a tamaño completo.")
+## El resumen de la mañana
+
+Cada día a tu **Hora del resumen**, cuando el resumen de hoy está listo, Reef Buddy aparece sobre el panel. Si **Resumen de Reef Buddy** está activado, Cora lo lee en voz alta. Se cierra solo a los diez minutos si nadie lo toca, o ciérralo tú.
+
+Para volver a leerlo, toca el icono de **Reef Buddy** de la barra superior. Un punto en el icono significa que todavía no has abierto el resumen de hoy. La pantalla completa de Reef Buddy está en el menú del acuario.
+
+La hora y el interruptor de lectura en voz alta se configuran en **Ajustes → Ajustes de Cora Max → REEF BUDDY**. La **Hora del resumen** es la misma en todos los dispositivos de tu cuenta.
 
 ## Reef Buddy
 
-El resumen diario aparece en el panel y también tiene su propia pantalla. Ahí ves las puntuaciones de Estabilidad y Datos, el resumen y los análisis en los que se basan.
+![La pantalla de Reef Buddy en Cora Max, con la puntuación de salud diaria de hoy, los análisis y Desde tu último ICP](img/max-intelligence.webp "La puntuación y el resumen de hoy, los análisis y lo que cambió desde tu último ICP.")
 
-Qué significan las puntuaciones se explica en [Reef Buddy](/help/mobile-reef-buddy).
+La pantalla de Reef Buddy muestra las puntuaciones de Estabilidad y Datos, el resumen y los análisis en los que se basan. Qué significan las puntuaciones se explica en [Reef Buddy](/help/mobile-reef-buddy).
 
-Después de anotar una prueba o de añadir un resultado de ICP, la pantalla muestra **Hay mediciones nuevas desde este resumen** y un botón **Actualizar el resumen**. Tócalo para rehacer el resumen con los números nuevos. Funciona una vez al día: después, la pantalla dice *Puedes actualizar el resumen una vez al día. Próxima actualización: mañana.*
+Después de registrar una prueba o añadir un resultado de ICP, la pantalla muestra **Hay lecturas nuevas desde este resumen** y un botón **Actualizar el resumen**. Tócalo para rehacer el resumen con los números nuevos. Funciona una vez al día. Después la pantalla dice *Puedes actualizar el resumen una vez al día. Próxima actualización: mañana.*
+
+### Actuar ante un análisis
+
+Toca un análisis para abrirlo.
+
+- **¿Por qué veo esto?** muestra las lecturas, el objetivo y las entradas del diario en las que se basa.
+- **¿Esto coincide con lo que ves?** Responde **Confirmado**, **Ya lo sabía**, **No coincide** o **No estoy seguro**, y después di si fue **Valioso** o **No realmente**. Cora usa tus respuestas para conocer tu acuario.
+
+Cuando Cora duda de una lectura, la muestra en **Vale la pena revisar**, por ejemplo una sonda que puede estar desviándose. Ahí puedes:
+
+- tocar **Ya lo revisé** para registrar lo que le hiciste a la sonda,
+- tocar **Agregar a Mantenimiento** para convertirlo en una tarea (**Revisar la sonda de pH** o **Verificar la configuración de dosificación**), o
+- tocar **Descartar**. No vuelve a decir nada salvo que el problema continúe.
+
+### Registrar el cuidado de las sondas
+
+Después de limpiar, calibrar o cambiar una sonda, regístralo para que Cora no confunda el salto con una desviación de la sonda. Abre el gráfico del historial de ese parámetro y toca **Registrar cuidado de sonda** (el icono del sensor de arriba), o usa **Ya lo revisé** en un análisis de sonda. Elige lo que hiciste, añade si quieres una lectura de referencia y toca **Registrar cuidado de sonda**. Más información en [Registrar el cuidado de las sondas](/help/mobile-probes#recording-probe-care).
 
 ## Resultados de ICP
 
-![Informes de ICP en Cora Max](img/max-icp.webp "Cada resultado subido, con su puntuación.")
+![La pantalla Informes ICP en Cora Max, con el último informe, la lista de informes y el resumen del informe elegido](img/max-icp.webp "El último resultado y su puntuación, todos los informes guardados y el resumen del informe abierto.")
 
-Aquí están los resultados que has subido, cada uno con su puntuación y su resumen, y las tendencias de todos los informes.
+Esta pantalla muestra los resultados que has subido, con la puntuación y el resumen de cada uno, además de las tendencias de todos tus informes.
 
-La puntuación sobre 100 sale de comparar tus resultados con sus rangos. Si algún parámetro está fuera de rango, no pasa de 70. Si alguno está muy fuera de rango, no pasa de 40. El color indica la franja: verde (saludable) por encima de 70, ámbar (necesita atención) de 40 a 70 y rojo (crítico) por debajo de 40.
+La puntuación sobre 100 sale de comparar tus resultados con sus rangos. Si algún parámetro está fuera de rango, la puntuación no puede pasar de 70. Si uno está muy fuera de rango, no puede pasar de 40. El color muestra la franja. Verde (saludable) es por encima de 70, ámbar (necesita atención) de 40 a 70 y rojo (crítico) por debajo de 40.
 
-Los resultados se suben desde el teléfono. Te lo contamos en [ICP e informes de salud](/help/mobile-icp-health).
+Los resultados se suben desde tu teléfono. Más información en [ICP e informes de salud](/help/mobile-icp-health).
 
 ## Informes de salud
 
-Puedes generar y leer un informe de salud en la pantalla de pared. Es la misma evaluación que hace el teléfono, y la puntuación se calcula igual que la de ICP.
+Puedes generar y leer un informe de salud en la pantalla de pared. Abre **Informes de salud** y toca **Generar**. Es la misma evaluación que hace tu teléfono a partir de tus parámetros, tus resultados de ICP y tu diario, y su puntuación funciona igual que la de un ICP.
 
-## Gráficos de historial
+- Los informes de salud necesitan el uso compartido de datos con la IA. Si está desactivado, Cora Max muestra **Es necesario compartir datos**. Actívalo en Cora Mobile, en **Ajustes → Cora Assistant**.
+- Cada plan tiene un número de informes de salud al mes. Cuando se acaban, ves **Límite mensual alcanzado** hasta el mes siguiente. Más información en [Planes](/help/mobile-plans).
 
-Abre el **menú del acuario** y toca **Historial de parámetros**. Elige un parámetro en **Elige un parámetro** y se abre como gráfico a pantalla completa. Si tocas una casilla del panel, se abre el mismo gráfico. En una pantalla de pared es la mejor forma de ver una deriva lenta. Un mes de alcalinidad a pantalla completa enseña una tendencia que en una casilla pequeña no se ve.
+## Gráficos del historial
 
-El nombre del parámetro en la cabecera es un desplegable, así que puedes pasar a otro parámetro y conservar el periodo. Otros dos desplegables fijan el **Periodo** y la **Fuente**: **Todas las fuentes**, o una de **Apex**, **Manual**, **ICP**, **Cora**, **ReefBeat** o **AquaWiz**. **Comparar** dibuja un segundo parámetro en el mismo gráfico, y la lista incluye todos los parámetros del acuario. Cada fuente tiene su color. Los puntos de ReefBeat y AquaWiz son cuadrados, y las lecturas que tomó alguien (Manual e ICP) salen como puntos más grandes. **Todas las fuentes** muestra cada fuente por separado y nunca mezcla en una media las lecturas de fuentes distintas.
+Abre el **menú del acuario** y toca **Historial de parámetros**, y después elige un parámetro. Se abre como un gráfico a pantalla completa. Tocar una casilla del panel abre el mismo gráfico. En una pantalla de pared, es la mejor forma de detectar una desviación lenta. Un mes de alcalinidad a pantalla completa muestra una tendencia que una casilla pequeña no puede mostrar.
 
-Más información en [Ver un parámetro a fondo](/help/mobile-metric-detail).
+- El nombre del parámetro en la cabecera es un desplegable, así que puedes cambiar de parámetro y conservar el periodo.
+- **Periodo** fija el intervalo de tiempo.
+- **Fuente** muestra **Todas las fuentes** o una de las fuentes de las que viene este parámetro, como **Apex**, **Manual**, **ICP** o **ReefBeat**. Solo se listan las fuentes que tiene este parámetro.
+- **Comparar** dibuja un segundo parámetro en el mismo gráfico.
+
+Cada fuente tiene su propio color. Las lecturas de dispositivos como ReefBeat y AquaWiz son cuadrados, y las lecturas que alguien tomó a mano (Manual e ICP) son puntos más grandes. **Todas las fuentes** muestra todas las fuentes una al lado de la otra y nunca promedia las lecturas de una fuente con las de otra. Las líneas discontinuas marcan dosis registradas. Debajo del gráfico verás **Más reciente**, **Prom**, **Mín**, **Máx** y **Mín. 30 d** y **Máx. 30 d**.
+
+Para la alcalinidad, el calcio y el magnesio, el botón **Calculadora de dosis** de arriba calcula una dosis de corrección. Más información en [Ver un parámetro a fondo](/help/mobile-metric-detail).
 
 ## Itinerarios guiados
 
-Puedes seguir un itinerario en Cora Max y ver en qué punto está.
+Un itinerario activo aparece como una franja estrecha en la parte de arriba del panel del acuario. Tócala para ver los pasos y cuánto has avanzado.
 
-Un itinerario de ciclado también registra lecturas aquí. Con **Registrar una prueba** en la pantalla de ciclado anotas amoniaco, nitrito y nitrato sin sacar el teléfono, justo cuando estás delante del acuario con el kit de pruebas en la mano.
+En un acuario nuevo que está haciendo el ciclo, puedes anotar lecturas aquí. **Registrar una prueba** en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que coger el teléfono.
 
-Un itinerario de **problema** solo se puede consultar en la pantalla de pared. Para empezarlo, completar un paso, anotar un resultado o darlo por resuelto o descartarlo, usa el teléfono. Consulta [Itinerarios guiados](/help/mobile-journeys).
+Un itinerario de **problema** es solo de consulta en la pantalla de pared. Empezarlo, completar un paso, anotar un resultado y resolverlo o descartarlo se hace en tu teléfono. Más información en [Itinerarios guiados](/help/mobile-journeys).

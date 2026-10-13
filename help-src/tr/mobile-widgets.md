@@ -1,124 +1,111 @@
 ---
 title: Widget rehberi
-description: Cora'daki bütün widget türleri (değer, gösterge, grafik, durum, priz ve cihaz kutucukları) ve hangisini ne zaman kullanacağınız.
+description: Cora Mobile panosundaki her widget türü, değer, gösterge, grafik, durum ve prizden cihaz kutucuklarına kadar, ve her birini ne zaman kullanacağınız.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 7
+reviewed: 2026-10-13
+order: 9
 group: Your dashboard
 ---
 
-Widget, panonuzda tek bir şeyi gösteren kutucuktur. Bu sayfada bütün widget türlerini ve her birinde neleri ayarlayabileceğinizi bulabilirsiniz.
+Widget, panonuzdaki bir kutucuktur ve tek bir şeyi gösterir. Bu sayfa her türü ve onda neleri ayarlayabileceğinizi anlatır.
 
-Widget'ları **[pano düzenleyicide](/help/mobile-dashboard-editing)** ekleyip yerleştirirsiniz. Bir widget'ın ayarlarını açmak için düzenleyicide üzerine dokunun.
+Widget'ları [pano düzenleyicisinde](/help/mobile-dashboard-editing) ekler ve yerleştirirsiniz. Ayarlarını açmak için orada bir widget'a dokunun: bir metrik için **Tür** ve **Parametre**, diğerleri için priz ya da cihaz, ardından **Genişlik** ve **Yükseklik**, bir grafik için de **Zaman aralığı**.
 
-![Widget ayarları](img/mobile-widget-config.webp "Tür, parametre, ardından genişlik ve yükseklik.")
+![Cora Mobile'da bir widget'ın ayarlar sayfası](img/mobile-widget-config.webp "Bir widget'ın ayarlarının alt yarısı: parametre, genişlik, yükseklik ve zaman aralığı, ardından Kaldır ve Bitti.")
 
-## On altı tür
+## On beş tür {#the-fifteen-types}
 
 | Tür | Ne gösterir |
 |---|---|
 | **Değer** | Güncel ölçüm, birimi, yaşı ve kaynağı |
-| **Gösterge** | Aralığınızın işaretli olduğu yay ve değeri gösteren düğme |
+| **Gösterge** | Üzerinde aralığınızın işaretli olduğu bir yay ve değerde duran bir düğme |
 | **Grafik** | Seçtiğiniz zaman aralığındaki eğilim |
-| **Durum** | Yazıyla durum: çalışıyor, boşta, kapalı |
-| **Priz** | Üç konumlu anahtar: Otomatik, Kapalı, Açık |
-| **Sahne** | Tek dokunuşla çalıştırdığınız bir sahne. Cora Max'te eklersiniz |
-| **ReefBeat** | Tek bir Red Sea ünitesi ve kendi özeti |
+| **Durum** | Renkli bir noktayla birlikte düz yazı olarak ölçüm |
+| **Priz** | Üç konumlu bir kontrol: Otomatik, Kapalı, Açık |
+| **ReefBeat** | Kendi özetiyle tek bir Red Sea ünitesi |
 | **Apex modülü** | Trident ya da DŌS gibi takılı tek bir Apex modülü |
-| **Jecod** | Tek bir Jecod pompası, modu ve yoğunluğuyla |
-| **Maxspect** *(Beta)* | Tek bir gyre, iki motoruyla birlikte |
-| **GHL** *(Beta)* | Tek bir ProfiLux ya da Mitras kontrol cihazı, kendi özetiyle |
-| **HYDROS** *(Beta)* | Tek bir HYDROS kontrol cihazı, kendi özetiyle |
-| **Radion** *(Beta)* | Tek bir EcoTech Radion ışığı ya da bağlanmış bir Radion ağı |
-| **VorTech** *(Beta)* | Tek bir EcoTech VorTech pompası, modu ve hızıyla |
-| **Versa** *(Beta)* | Tek bir EcoTech Versa dozajlayıcısı, kafalarıyla |
+| **Jecod** | Modu ve yoğunluğuyla tek bir Jecod pompası |
+| **Maxspect** *(Beta)* | İki motoruyla tek bir gyre |
+| **GHL** *(Beta)* | Kendi özetiyle tek bir ProfiLux ya da Mitras kontrolcüsü |
+| **HYDROS** *(Beta)* | Kendi özetiyle tek bir HYDROS kontrolcüsü |
+| **Radion** *(Beta)* | Tek bir EcoTech Radion ışığı ya da bağlı bir Radion ağı |
+| **VorTech** *(Beta)* | Modu ve hızıyla tek bir EcoTech VorTech pompası |
+| **Versa** *(Beta)* | Kafalarıyla tek bir EcoTech Versa dozaj pompası |
 | **Kamera** *(Beta)* | Kameralarınızdan birinin canlı görüntüsü, en fazla üç sütun genişliğinde ve iki satır yüksekliğinde |
 
-Sahne'den sonraki her tür bir **cihaz** kutucuğudur. Parametreye değil, ekipmana bağlıdırlar. Her biri o ünitenin bildirdiği bilgileri gösterir.
+Priz'den sonraki her şey bir **cihaz** kutucuğudur. Her biri bir parametreye değil bir ekipmana aittir ve o ünite ne bildiriyorsa onu gösterir. Cora Max'te ayrıca Cora Max'te eklediğiniz bir **Sahne** kutucuğu vardır. [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasına bakın.
 
-:::note Beta kutucuklar
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech ve Versa) ve Kamera, yalnızca Beta kullanıcılarına açık Beta entegrasyonlardır. Bu kutucukları ancak cihaza sahip olduğunuzda görürsünüz. Bkz. [Beta özellikleri](/help/mobile-beta).
+:::note Beta kutucukları
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech ve Versa) ve Kamera, yalnızca Beta kullanıcılarına açık Beta entegrasyonlarıdır. Bu kutucukları ancak cihaza sahip olduğunuzda görürsünüz. [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
 :::
 
-## Boyut
+## Boyut {#sizing}
 
-**Genişlik** ve **Yükseklik** için **1×** ya da **2×** seçebilirsiniz. Yani widget'lar bir ya da iki hücre genişliğinde, bir ya da iki hücre yüksekliğindedir. Grafik hiçbir zaman tek hücre genişliğinde olmaz. Üç sütunlu panoda iki hücrelik gösterge satırın üçte ikisini kaplar. En önemli parametreniz için genellikle en uygun boyut budur.
+**Genişlik** ve **Yükseklik** her biri **1×** ya da **2×** olabilir, yani bir widget bir ya da iki hücre genişliğinde ve bir ya da iki hücre yüksekliğindedir. Bir kamera **3×** genişliğe kadar çıkabilir. Grafik hiçbir zaman tek hücre genişliğinde olmaz. Üç sütunlu bir panoda iki hücre genişliğindeki bir gösterge satırın üçte ikisini kaplar. Bu genellikle en önemli parametreniz için iyi bir biçimdir.
 
-## Değer
+## Parametre widget'ı neler gösterir {#what-a-parameter-widget-shows}
 
-Yalnızca sayı. Güncel ölçüm, birimi, ne kadar eski olduğu ve nereden geldiği.
+Değer, Gösterge, Grafik ve Durum widget'larının hepsi ölçülen bir parametreyi gösterir ve her zaman üç şey gösterirler. Priz ve cihaz kutucukları kendi durumlarını gösterir, çünkü arkalarında tek bir ölçüm yoktur.
 
-Eğilimine değil, sayısına baktığınız parametreler için kullanın: kalsiyum, magnezyum, nitrat.
+- Büyük yazıyla **değer**
+- **Yaş** (`şimdi`, `1 sa`, `2 g`): kaynağın değeri en son ne kadar önce doğruladığı. Bir prob için bu, cihazının en son ne zaman bağlandığıdır, bu yüzden sabit bir ölçüm taze kalır. Bir test kiti ya da ICP sonucu için testi yaptığınız zamandır. Ayrıntılar [Panonuzu okuma](/help/mobile-dashboard#how-to-read-a-parameter-widget) sayfasında.
+- **Kaynak**: sayının nereden geldiğini söyleyen küçük bir rozet
 
-Ayarlarda etiketi, kaynağı ve boyutu seçersiniz.
+Bir parametre widget'ının kendine ait aralık ya da kaynak ayarı yoktur. Aralık akvaryumun uyarı eşiklerinden (panoda widget'a uzun basın), kaynak da [Parametre Eşlemesi](/help/mobile-probes)'nden gelir. Tüm geçmişini, onu bildiren her kaynağı ve uyarı bandınızı görmek için panoda widget'a dokunun.
 
-## Gösterge
+## Değer {#value}
 
-Hedef aralığınızın işaretli olduğu yay ve güncel değerde duran düğme. Düğmenin rengi durumu gösterir: aralığın içinde, sınıra kayıyor ya da aralığın dışında.
+Düz sayıdır. Güncel ölçümü, birimini, ne kadar eski olduğunu ve nereden geldiğini gösterir.
 
-Sürekli yönettiğiniz parametreler için kullanın: alkalinite, pH, tuzluluk, sıcaklık.
+Eğiliminden çok sayısına baktığınız parametreler için kullanın, kalsiyum, magnezyum ya da nitrat gibi.
 
-Ayarlarda etiketi, kaynağı, aralığı ve boyutu seçersiniz. Aralığı burada değiştirmezseniz akvaryumun hedefleri kullanılır.
+## Gösterge {#gauge}
 
-:::note Göstergeyi en az iki sütun genişliğinde kullanın
-Tek sütunda yay bir bakışta okunamayacak kadar küçük kalır. Yeriniz darsa **Değer** widget'ını kullanın.
+Gösterge, üzerinde uyarı aralığınızın işaretli olduğu bir yay ve güncel değerde duran bir düğmedir. Düğmenin rengi nerede olduğunuzu söyler: aralığın içinde, kayıyor ya da dışında.
+
+Aktif olarak yönettiğiniz parametreler için kullanın, alkalinite, pH, tuzluluk ya da sıcaklık gibi.
+
+:::note Göstergeleri en az iki sütun genişliğinde yapın
+Tek sütunda yay hızlıca okunamayacak kadar küçüktür. Yeriniz darsa bir **Değer** widget'ı kullanın.
 :::
 
-## Grafik
+## Grafik {#graph}
 
-Seçtiğiniz zaman aralığı boyunca küçük çizgi grafik. En yüksek ve en düşük değer işaretlenir, güncel değer ayrıca yazılır.
+Grafik, seçtiğiniz zaman aralığı boyunca küçük bir çizgi grafiktir: 1 sa, 6 sa, 24 sa, 7 g, 30 g ya da 1 y. En yüksek ve en düşük değeri işaretler ve güncel değeri yazar.
 
-Test ettiğiniz parametrelerde (Trident ya da test kitiyle) çizgi gerçek testlerinizi birleştirir. Aralıkta yalnızca bir test varsa çizgi bir önceki testten gelir ve en yüksek ya da en düşük değer işaretlenmez. Aralıkta hiç test yoksa ya da tek testi bağlayacak daha eski bir test yoksa kutucukta çizgi yerine **Toplanıyor…** yazar.
+Test ettiğiniz bir parametrede (Trident ya da test kitiyle) çizgi gerçek testlerinizi birleştirir. Aralıkta yalnızca bir test varsa çizgi ondan önceki testten gelir ve en yüksek ya da en düşük değer işaretlenmez. Aralıkta hiç test yoksa ya da tek bir testi bağlayacak daha önce bir şey yoksa kutucukta çizgi yerine **Toplanıyor…** yazar.
 
-Değişen her şey için kullanın: gün içinde pH, sıcak havalarda sıcaklık, dozlar arasında alkalinite.
+Değişen her şey için kullanın, gün içinde pH, sıcak havalarda sıcaklık ya da dozlar arasında alkalinite gibi.
 
-Ayarlarda etiketi, kaynağı, **zaman aralığını** (1 saat, 6 saat, 24 saat, 7 gün, 30 gün, 1 yıl) ve boyutu seçersiniz.
+Grafik her zaman **en az iki hücre genişliğindedir**. Tek hücreye sıkıştırılmış bir çizgi grafik size hiçbir şey söylemez, bu yüzden düzenleyici buna izin vermez.
 
-Eğilim widget'ı her zaman **en az iki hücre genişliğindedir**. Tek hücreye sıkışan çizgi grafik hiçbir şey anlatmaz. Bu yüzden düzenleyici buna izin vermez.
-
-:::note Zaman aralığını parametrenin ritmine göre seçin
-pH gün içinde iner çıkar. 24 saat bu dalgayı gösterir. Alkalinite günler içinde değişir. 7 ya da 30 günlük aralık, 24 saatin gösteremeyeceğini gösterir.
+:::note Parametreye uyan zaman aralığını seçin
+pH günlük bir döngüyle iner çıkar, bu yüzden 24 saat size deseni gösterir. Alkalinite günler içinde değişir, bu yüzden 7 ya da 30 gün çok daha fazlasını söyler.
 :::
 
-## Durum
+## Durum {#status}
 
-Sayı yerine yazı. Durumu olan şeyler için: çalışıyor, boşta, açık, kapalı, besleniyor.
+Ölçümü aralıkta, kayıyor ya da dışında olduğunu gösteren renkli bir noktayla birlikte düz yazı olarak gösterir. İşe yarar bir gösterge aralığı olmayan bir parametre için kullanın.
 
-Ayarlarda etiketi, kaynağı ve boyutu seçersiniz.
+## Priz {#outlet}
 
-## Priz
+Bir Apex prizi için üç konumlu bir anahtardır: **Otomatik**, **Kapalı** ve **Açık**. Hangi prizi kontrol edeceğini siz seçersiniz.
 
-Priz için üç konumlu anahtar: **Otomatik**, **Kapalı**, **Açık**.
+- **Otomatik**, prizi normalde onu yöneten şeye geri verir. Bu bir program, bir kural ya da bağlı olduğu kontrolcü olabilir.
+- **Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Siz geri değiştirene kadar öyle kalırlar.
 
-- **Otomatik**, prizin kontrolünü normalde onu yöneten şeye geri verir: bir program, bir kural ya da prizin bağlı olduğu kontrol ünitesi.
-- **Kapalı** ve **Açık**, elle yapılan ayarlardır. Siz değiştirene kadar öyle kalırlar.
-
-Ayarlarda etiketi, prizi ve boyutu seçersiniz.
-
-:::warning Elle yapılan ayarın süresi dolmaz
-Kapalı, siz Otomatik'e geri alana kadar kapalı demektir. Akvaryumda çalışmak için ana pompayı kapattıysanız işiniz bitince Otomatik'e geri alın. Cora bunu sizin yerinize yapmaz.
+:::warning Elle yapılan geçersiz kılmaların etkisi geçmez
+Kapalı, siz Otomatik'e geri alana kadar kapalı demektir. Akvaryumda çalışmak için ana pompayı kapattıysanız işiniz bitince onu Otomatik'e geri alın. Cora bunu sizin yerinize yapmaz.
 :::
 
-## ReefBeat
+## ReefBeat {#reefbeat}
 
-Bütün ekipman için tek kutucuk. Tek parametre yerine cihazın kendi özetini gösterir: ATO'nun durumu ve rezervuarı, dozaj ünitesinin kafaları, mat rulosunun kalan günleri.
+Bütün bir ekipman için tek bir kutucuktur. Tek bir parametre yerine ünitenin kendi özetini gösterir, örneğin bir ATO'nun durumu ve haznesi, bir dozaj pompasının kafaları ya da bir mat rulosunun kaç günü kaldığı. Hangi cihazı göstereceğini siz seçersiniz.
 
-Hangi cihazların kutucuğu olduğu, neleri bağladığınıza bağlıdır. Ayrıntılar **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında.
+Hangi cihazların kutucuğu olabileceği neleri bağladığınıza bağlıdır. [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
 
-Ayarlarda etiketi, cihazı ve boyutu seçersiniz.
+## Dozaj pompası kutucukları {#doser-tiles}
 
-## Dozaj kutucukları
+Bir dozaj pompasının (Apex DŌS, ReefDose ya da EcoTech Versa) kutucuğu her kafa için bir satır gösterir. Bir kafa adı hiçbir zaman okunabilir boyutun altına küçültülmez. Uzun bir kutucukta satır iki satır kaplar: ilkinde ad, ikincisinde kalan miktar, örneğin *40g* ve *2.8 L*. Kısa bir kutucukta ayrıntı satırı çıkarılır ve ad okunabilir kalır.
 
-Bir dozaj cihazının (Apex DŌS, ReefDose ya da EcoTech Versa) kutucuğu her kafa için bir satır gösterir. Kafa adı okunabilir boyutun altına hiç küçültülmez. Uzun bir kutucukta satır iki satır tutar: ilkinde ad, ikincisinde kalan miktar, örneğin *40d* ve *2.8 L*. Kısa bir kutucukta ayrıntı satırı kaldırılır ve ad okunabilir kalır.
-
-Neyin önce geleceğini **Kalanı şu şekilde göster** ile seçin: **Gün** ya da **Mililitre (mL)**. Kendi adı olmayan bir ReefDose kafası, cihaz adı ve ardından "kafa" ile numarası olarak gösterilir. Jecod dozaj kutucuğu salt okunurdur ve günlük planı gösterir, çünkü Jecod şişede ne kadar kaldığını bildirmez.
-
-## Parametre widget'ında neler görünür
-
-Ölçülen bir parametreyi gösteren widget'larda (Değer, Gösterge, Grafik ve Durum) şu üç bilgi hep bulunur. Priz ve cihaz kutucuklarının arkasında tek bir ölçüm olmadığı için bunlar kendi durumlarını gösterir:
-
-- **Değer**, büyük yazıyla
-- **Yaş** (`şimdi`, `1 sa`, `2 g`): ekranın ne zaman yenilendiği değil, ölçümün ne kadar eski olduğu
-- **Kaynak**: sayının nereden geldiğini gösteren küçük rozet
-
-Tüm geçmişi, değeri bildiren bütün kaynakları ve geçerli eşikleri görmek için bir widget'a dokunun.
+Neyin önce geleceğini **Kalanı şu şekilde göster** ile ayarlayın: **Gün** ya da **Mililitre (mL)**. Kendi adı olmayan bir ReefDose kafası, cihaz adı, ardından "kafa" ve numarasıyla gösterilir. Jecod dozaj pompası kutucuğu salt okunurdur ve günlük planı gösterir, çünkü Jecod şişede ne kadar kaldığını bildirmez.

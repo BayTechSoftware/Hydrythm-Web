@@ -1,53 +1,58 @@
 ---
 title: Beta-Funktionen
-description: Was Beta in Cora bedeutet, wer die Beta-Anbindungen sieht, wie du Zugang anfragst und was aktuell Beta ist.
+description: Was Beta in Cora bedeutet, wer die Beta-Anbindungen sehen kann, wie du Zugang anfragst und welche Funktionen heute Beta sind.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 34
+reviewed: 2026-10-13
+order: 19
 group: Equipment
 ---
 
-Einige der neuesten Anbindungen von Cora sind in der Beta. Wir testen sie noch, deshalb können manche Messwerte oder Steuerungen eingeschränkt sein, und was du siehst, kann sich mit Updates ändern.
+Diese Seite erklärt, was Beta in Cora bedeutet, wer die Beta-Anbindungen hinzufügen kann und wie du Zugang anfragst. Einige der neuesten Anbindungen von Cora sind in der Beta. Wir testen sie noch, deshalb können manche Messwerte oder Steuerungen eingeschränkt sein, und was du siehst, kann sich mit Updates ändern.
 
 :::note Beta
-**Beta.** Die Beta-Anbindungen stehen nur Beta-Nutzern offen. Bist du keiner, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
+**Beta.** Die Beta-Anbindungen sind nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
 :::
 
-## Wer Beta bekommt
+## Wer Beta bekommt {#who-gets-beta}
 
-Der Beta-Zugang gehört zu deinem Cora-Konto. Wir schalten ihn für ein Konto frei, und du kannst ihn nicht selbst in den Einstellungen einschalten. Auch die Teilnahme an einem Testprogramm eines Stores schaltet ihn nicht frei. Um ihn anzufragen, schreib dem [Support](/support.html) von der E-Mail-Adresse deines Kontos.
+Der Beta-Zugang gehört zu deinem Cora-Konto. Wir schalten ihn für ein Konto frei, und du kannst ihn nicht selbst in den Einstellungen einschalten. Die Teilnahme an einem Testprogramm im App Store schaltet ihn auch nicht frei. Um ihn anzufragen, schreib dem [Support](/support.html) von der E-Mail-Adresse deines Kontos.
 
-Ist dein Konto ein Beta-Nutzer, erscheinen die Beta-Zeilen unter **Gerät hinzufügen** in Cora Mobile. Die App musst du dafür nicht neu starten.
+Ist dein Konto ein Beta-Nutzer, erscheinen die Beta-Zeilen, wenn du in Cora Mobile auf **Geräte → Gerät hinzufügen** tippst, jede mit einem Chip **Beta**. Du musst Cora Mobile nicht neu starten.
 
-Bist du kein Beta-Nutzer, listet **Gerät hinzufügen** Cora, Neptune Apex, Red Sea, Jecod und AquaWiz. Ausrüstung, die du schon verknüpft hast, bleibt in deinem Tab Geräte.
+![Die Liste Gerät hinzufügen für einen Beta-Nutzer](img/mobile-add-device-beta.webp "Beta-Marken tragen einen Beta-Chip.")
 
-## Die Beta-Anbindungen
+Bist du kein Beta-Nutzer, listet **Gerät hinzufügen** Cora, Neptune Apex, Red Sea, Jecod und AquaWiz auf. Ausrüstung, die du schon verknüpft hast, bleibt in deinem Tab Geräte.
 
-Jede wird über **Geräte → Gerät hinzufügen** hinzugefügt. Eine Zeile mit **Erfordert Cora Max** ist ausgegraut, bis das Becken ein Cora Max hat, denn dieses Cora Max übernimmt das Auslesen.
+## Die Beta-Anbindungen {#beta-integrations}
+
+Jede fügst du über **Geräte → Gerät hinzufügen** hinzu. Eine Zeile mit **Erfordert Cora Max** ist ausgegraut, bis das Becken ein Cora Max hat, weil dieses Cora Max das Abfragen übernimmt. Füg dem Becken zuerst ein Cora Max hinzu, wie unter [Cora Max einrichten](/help/max-setup) beschrieben, dann wird die Zeile verfügbar.
 
 | Anbindung | In einer Zeile | Braucht ein Cora Max |
 |---|---|---|
 | Maxspect | Gyre-Pumpen: Wellenmuster und Geschwindigkeit. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#maxspect). | Ja |
-| GHL | ProfiLux- und Mitras-Controller: Sonden, Steckdosen, Dosierer und Füllstandssensoren. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#ghl-profilux-und-mitras). | Ja |
-| HYDROS | Messwerte und, mit einem Schreiben-Schlüssel, Steuerung über die HYDROS-Cloud. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#hydros). | Nein |
-| Focustronic | Alkatronic, Dosetronic und Mastertronic über dein Focustronic-Konto. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#focustronic). | Nein |
+| GHL | ProfiLux- und Mitras-Controller: Sonden, Steckdosen, Dosierer und Füllstandssensoren. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#ghl-profilux-and-mitras). | Ja |
+| HYDROS | Messwerte und, mit einem Schreibschlüssel, Steuerung über die HYDROS-Cloud. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#hydros). | Nein |
+| Focustronic | Alkatronic, Dosetronic und Mastertronic, über dein Focustronic-Konto. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#focustronic). | Nein |
 | EcoTech | Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer. Siehe [EcoTech-Leuchten, -Pumpen und -Dosierer](/help/mobile-ecotech). | Ja |
-| Inkbird | Raumluftmonitore IAM-T1 und IAM-T2. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#inkbird-raumluftmonitor). | Ja |
+| Inkbird | Raumluftmonitore IAM-T1 und IAM-T2. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections#inkbird-room-air-monitor). | Ja |
 | Kamera | Wyze, Tapo, Sonoff und andere RTSP-Kameras, dazu der Skimmer-Wächter. Siehe [Kameras und Skimmer-Wächter](/help/mobile-cameras). | Ja |
 
-## Mit Beta beschriftet, für alle offen
+## Mit Beta beschriftet, für alle offen {#labelled-beta}
 
-Einige Funktionen tragen **(Beta)** im Namen, brauchen aber keinen Beta-Zugang. Alle sehen sie.
+Ein paar Funktionen tragen **(Beta)** im Namen, brauchen aber keinen Beta-Zugang. Alle sehen sie.
 
-- **Große Dosierungen (Beta)** an einem DŌS-Kopf, beschrieben unter [Deine Ausrüstung steuern](/help/mobile-device-control)
-- **Dosierplan (Beta)** bei einem ReefDose
-- **Pumpenplan (Beta)** bei einem ReefRun
-- **ReefMat-Einstellungen (Beta)** und **Neue Rolle (Beta)** bei einer ReefMat
+- **Große Dosierungen (Beta)** an einem DŌS-Kopf. Siehe [DŌS](/help/mobile-device-control#dos).
+- **Dosierplan (Beta)** bei einem ReefDose. Siehe [ReefDose](/help/mobile-device-control#reefdose).
+- **Pumpenplan (Beta)** bei einem ReefRun. Siehe [ReefRun](/help/mobile-device-control#reefrun).
+- **ReefMat-Einstellungen (Beta)** und **Neue Rolle (Beta)** bei einer ReefMat. Siehe [ReefMat](/help/mobile-device-control#reefmat).
+- Red Sea **ReefControl**, **ReefControl Power**, **ReefWave** und **ReefLED**, hinzugefügt über **Red Sea** wie jedes andere ReefBeat-Gerät. Siehe [Red Sea ReefBeat](/help/mobile-connections#red-sea-reefbeat).
 
-## Was Beta im Alltag bedeutet
+Innerhalb einer Beta-Anbindung braucht eine Steuerung mit (Beta), etwa **Steuerung durch Cora zulassen (Beta)** an einem GHL- oder HYDROS-Controller, keinen zusätzlichen Zugang, sobald du das Gerät hinzufügen kannst.
 
-- Eine Beta-Seite passt vielleicht schon eine Woche nach einem Update nicht mehr zu dieser Anleitung. Klappt etwas nicht wie beschrieben, sag uns über [Hilfe erhalten](/help/mobile-support) Bescheid.
-- Manche Befehle laufen über die Server oder die App des Herstellers, die Cora nicht kontrolliert. Die Seite sagt das dort, wo es wichtig ist.
+## Was Beta im Alltag bedeutet {#day-to-day}
+
+- Eine Beta-Seite passt eine Woche nach einem Update vielleicht nicht mehr zu dieser Anleitung. Funktioniert etwas nicht wie beschrieben, sag es uns über [Ein Problem melden](/help/mobile-support).
+- Manche Befehle laufen über die eigenen Server oder die App des Herstellers, auf die Cora keinen Einfluss hat. Die Seite sagt das, wo es wichtig ist.
 - Ausrüstung, die wir nicht an echter Hardware testen konnten, ist entsprechend gekennzeichnet.
 
 Cora Max zeigt die Beta-Geräte, die dein Konto verknüpft hat. Siehe [Geräte und Gerätezustand](/help/max-devices).

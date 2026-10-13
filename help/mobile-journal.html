@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The journal | Cora Help</title>
-  <meta name="description" content="Write down what you did to your tank, so later you can see what caused what.">
+  <meta name="description" content="Write down or dictate what you did to your tank, log feeding, and ask Cora about an entry, so later you can see what caused what.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-journal">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-journal">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-journal">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="The journal | Cora Help">
-  <meta property="og:description" content="Write down what you did to your tank, so later you can see what caused what.">
+  <meta property="og:description" content="Write down or dictate what you did to your tank, log feeding, and ask Cora about an entry, so later you can see what caused what.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-journal">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Help","item":"https://coraiq.tech/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Records","item":"https://coraiq.tech/help/mobile-journal"},{"@type":"ListItem","position":4,"name":"The journal"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -61,20 +62,29 @@
 <ul>
 <li><a href="/help/">Cora Help</a></li>
 </ul>
+<p class="nav-sec">Help</p>
+<ul>
+<li><a href="/help/troubleshooting">Troubleshooting</a></li>
+<li><a href="/help/how-do-i">How do I...?</a></li>
+<li><a href="/help/equipment-by-brand">Equipment by brand</a></li>
+<li><a href="/help/faq">Frequently asked questions</a></li>
+<li><a href="/help/glossary">Glossary</a></li>
+</ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Getting started</summary><ul>
 <li><a href="/help/mobile-setup">Setting up Cora Mobile</a></li>
-<li><a href="/help/mobile-account">Signing in and account recovery</a></li>
+<li><a href="/help/mobile-tour">Finding your way around Cora Mobile</a></li>
 <li><a href="/help/mobile-tank-profile">Your tank profile</a></li>
-<li><a href="/help/mobile-tour">The five tabs</a></li>
+<li><a href="/help/mobile-tanks">Managing your tanks</a></li>
+<li><a href="/help/mobile-account">Signing in and account recovery</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Your dashboard</summary><ul>
 <li><a href="/help/mobile-dashboard">Reading your dashboard</a></li>
+<li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
 <li><a href="/help/mobile-dashboard-editing">Editing your dashboard</a></li>
 <li><a href="/help/mobile-widgets">Widget reference</a></li>
-<li><a href="/help/mobile-metric-detail">Looking into a parameter</a></li>
 <li><a href="/help/mobile-sharing">Sharing your tank</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/help/mobile-connections">Connecting your equipment</a></li>
 <li><a href="/help/mobile-device-control">Controlling your equipment</a></li>
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
-<li><a href="/help/mobile-probes">Parameter Mapping</a></li>
-<li><a href="/help/mobile-consumables">Consumables</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
+<li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
+<li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
 <li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
 <li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
+<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
 <li><a href="/help/mobile-alerts">Alerts and thresholds</a></li>
 <li><a href="/help/mobile-notifications">Notifications</a></li>
 <li><a href="/help/mobile-automation">Automations and scenes</a></li>
+<li><a href="/help/mobile-vacation">Going away: a plan for your tank sitter</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Records</summary><ul>
-<li><a href="/help/mobile-dosing">Dosing</a></li>
+<li><a href="/help/mobile-journal" class="cur" aria-current="page">The journal</a></li>
+<li><a href="/help/mobile-dosing">Dosing products and the dose calculator</a></li>
 <li><a href="/help/mobile-maintenance">Maintenance</a></li>
 <li><a href="/help/mobile-livestock">Livestock</a></li>
-<li><a href="/help/mobile-journal" class="cur" aria-current="page">The journal</a></li>
 <li><a href="/help/mobile-activity">Activity and timeline</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
-<li><a href="/help/mobile-assistant">Asking Cora</a></li>
 <li><a href="/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/help/mobile-journeys">Guided journeys</a></li>
+<li><a href="/help/mobile-assistant">Asking Cora</a></li>
 <li><a href="/help/mobile-icp-health">ICP and health reports</a></li>
+<li><a href="/help/mobile-journeys">Guided journeys</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Account</summary><ul>
-<li><a href="/help/mobile-vacation">Going away</a></li>
+<summary>Settings and account</summary><ul>
+<li><a href="/help/mobile-settings">Cora Mobile settings</a></li>
 <li><a href="/help/mobile-multi-device">More than one Cora device</a></li>
-<li><a href="/help/mobile-data-export">Your data</a></li>
-<li><a href="/help/mobile-plans">Plans</a></li>
-<li><a href="/help/mobile-settings">Settings</a></li>
-<li><a href="/help/mobile-support">Getting help</a></li>
+<li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
+<li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
+<li><a href="/help/mobile-support">Reporting a problem</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/help/max-devices">Devices and device health</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alerts and automation</summary><ul>
+<li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
+<li><a href="/help/max-automation">Scenes on Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Records</summary><ul>
 <li><a href="/help/max-records">Journal, livestock and maintenance</a></li>
+<li><a href="/help/max-activity">Activity on Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
@@ -146,63 +162,53 @@
 <li><a href="/help/max-voice">Talking to Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alerts</summary><ul>
-<li><a href="/help/max-activity">Activity on Cora Max</a></li>
-<li><a href="/help/max-alerts">Alerts on Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Settings</summary><ul>
+<summary>Settings and account</summary><ul>
 <li><a href="/help/max-settings">Cora Max settings</a></li>
 <li><a href="/help/max-updates">Updates and recovery</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automation</summary><ul>
-<li><a href="/help/max-automation">Scenes on Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Help</p>
-<ul>
-<li><a href="/help/faq">Frequently asked questions</a></li>
-<li><a href="/help/troubleshooting">Troubleshooting</a></li>
-<li><a href="/help/glossary">Glossary</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li><li><a href="/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/help/mobile-journal">Records</a></li></ol></nav>
       <h1>The journal</h1>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#adding-an-entry">Adding an entry</a></li><li><a href="#what-to-record">What to record</a></li><li><a href="#feeding">Feeding</a></li><li><a href="#editing-and-removing-entries">Editing and removing entries</a></li><li><a href="#asking-cora-about-an-entry">Asking Cora about an entry</a></li><li><a href="#reading-it-back">Reading it back</a></li><li><a href="#on-cora-max">On Cora Max</a></li></ul></nav>
-<p>The journal is where you write down what you did to the tank: water changes, new livestock, dosing changes, equipment work and maintenance.</p>
-<p>It pays off later. When a parameter moves and you don't know why, the journal shows what changed around that date.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The journal"><img src="/help/img/mobile-journal.webp" alt="The journal" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Entries in reverse order, with photos inline.</figcaption></figure>
-<h2 id="adding-an-entry">Adding an entry</h2>
-<p>Tap the <strong>Journal</strong> button floating at the bottom right of the Dashboard.</p>
-<p>Write what you did in plain words. Add a photo if it helps, like a coral colouring up, a piece of equipment acting strangely or a test kit result.</p>
-<p>You can also <strong>dictate</strong> an entry instead of typing, which is easier with wet hands. Speak, and Cora writes what you said into the entry.</p>
-<p>Each entry gets the tank and the time added for you.</p>
-<aside class="cal cal-note"><p class="cal-t">Keep entries short</p><p>A short note is enough. "20 l water change, 5 ml extra alkalinity" says it all. Write it at the time. Entries pieced together later are less reliable.</p></aside>
+      <p class="twin">On Cora Max: <a href="/help/max-records">Journal, livestock and maintenance</a></p>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#adding-an-entry">Writing an entry</a></li><li><a href="#dictating">Dictating an entry</a></li><li><a href="#what-to-record">What to record</a></li><li><a href="#feeding">Feeding</a></li><li><a href="#editing">Editing and removing entries</a></li><li><a href="#analyze">Asking Cora about an entry</a></li><li><a href="#reading-it-back">Reading it back</a></li><li><a href="#on-cora-max">On Cora Max</a></li></ul></nav>
+<p>The journal is where you write down what you did to the tank: water changes, new livestock, dosing changes, equipment work and anything unusual. When a parameter moves and you don't know why, the journal shows what changed around that date.</p>
+<p>Tap <strong>Journal</strong> in the row of buttons under the dashboard to open the <strong>Tank Journal</strong>. It's also in Settings → your tank → <strong>Journal</strong>.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Tank Journal in Cora Mobile"><img src="/help/img/mobile-journal.webp" alt="The Tank Journal in Cora Mobile" width="620" height="940" loading="lazy" decoding="async"></button><figcaption>Entries newest first, with category chips to filter them.</figcaption></figure>
+<h2 id="adding-an-entry">Writing an entry</h2>
+<p>Tap <strong>New Entry</strong>. The form has:</p>
+<ul><li><strong>TITLE</strong> and <strong>DESCRIPTION</strong>, in plain words</li><li><strong>CATEGORY</strong>: Observation, Concern, Emergency, Change or Milestone. A concern or an emergency also gets a <strong>SEVERITY</strong> (Info, Warning or Critical)</li><li><strong>DATE &amp; TIME</strong>, which starts at now. Change it if you're writing it up later</li><li><strong>TAGS</strong>, to find entries again</li><li><strong>PHOTOS</strong>, with <strong>Take photo</strong> or <strong>Choose from library</strong>. A coral colouring up, a pump acting strangely or a test kit result</li><li><strong>Attach water params</strong>, which saves the tank's current readings with the entry. It's what makes an entry useful months later</li></ul>
+<aside class="cal cal-note"><p class="cal-t">Keep entries short</p><p>A short note is enough. "20 l water change, 5 ml extra alkalinity" says it all. Write it at the time if you can.</p></aside>
+<h2 id="dictating">Dictating an entry</h2>
+<p>The round Cora button labelled <strong>Journal</strong> at the bottom right of the dashboard records a voice note, which is easier with wet hands. Tap it, say what happened (up to a minute), and tap again to stop. Cora turns what you said into one or more journal entries and tells you how many it saved. The same button is on the tank's timeline.</p>
+<p>Dictation uses Cora Assistant. If you haven't allowed it to use your tank data yet, Cora asks first.</p>
 <h2 id="what-to-record">What to record</h2>
 <p>These tend to matter most:</p>
-<ul><li>Water changes: how much, and when</li><li>Anything new in the tank: livestock, rock, media</li><li>Dosing changes: what you changed and why</li><li>Equipment: cleaned, replaced, moved, failed</li><li>Maintenance: skimmer cleaned, socks changed, pumps serviced</li><li>Anything unusual: a power cut, a hot day, a spill</li></ul>
+<ul><li>Water changes: how much, and when</li><li>Anything new in the tank: livestock, rock, media</li><li>Dosing changes: what you changed and why</li><li>Equipment: cleaned, replaced, moved, failed</li><li>Anything unusual: a power cut, a hot day, a spill</li></ul>
+<p>Some entries are written for you. Completing a <a href="/help/mobile-maintenance">maintenance</a> task adds one, and so does <strong>Log the dose you gave</strong> in the <a href="/help/mobile-dosing#the-dose-calculator">dose calculator</a>.</p>
 <h2 id="feeding">Feeding</h2>
 <p>Tell Cora once how you usually feed, then log only the exceptions.</p>
 <p>To set your routine, open <strong>Edit tank</strong> (the pencil at the top of the dashboard) and tap <strong>Feeding routine</strong>. A card on the dashboard, <strong>How do you usually feed?</strong>, takes you there with <strong>Set up routine</strong> until you've done it. For each food, give the food, an <strong>Amount</strong>, a <strong>Unit</strong> (cube, pinch, g, ml, drop, scoop or sheet) and <strong>Times per day</strong>. Tap <strong>Add food</strong> for more. Turn on <strong>I use an auto feeder</strong> if one feeds for you, and its feeds count as part of the routine. Under <strong>Portion weights (optional)</strong> you can say what one cube or pinch weighs, so Cora can compare feeds over time in grams.</p>
-<p>When a day differs from the routine, tap <strong>Feeding</strong> in the row of buttons under the widgets. The sheet <strong>Log a feeding exception</strong> has three choices: <strong>Fed extra</strong>, <strong>Skipped a feed</strong> and <strong>Changed food or amount</strong>. You can add an <strong>Amount (optional)</strong>. Each one is an ordinary journal entry, and Reef Buddy uses it, so a stable tank isn't blamed for a snack you gave it.</p>
+<p>When a day differs from the routine, tap <strong>Feeding</strong> in the row of buttons under the widgets, or the feeding icon at the top of the journal. The sheet <strong>Log a feeding exception</strong> has three choices: <strong>Fed extra</strong>, <strong>Skipped a feed</strong> and <strong>Changed food or amount</strong>. You can add an <strong>Amount (optional)</strong>. Each one is an ordinary journal entry, and Reef Buddy uses it, so a stable tank isn't blamed for a snack you gave it.</p>
 <p>Other ways a feeding gets logged:</p>
 <ul><li>On a Neptune™ Apex, a Feed A to D cycle is recorded when the Cora Max that reads your Apex sees it start. That covers a cycle you start at the Apex, in Apex Fusion or from the Apex's own schedule.</li><li>Tell Cora Assistant, by voice or in a chat, something like <em>"Log that I fed mysis."</em> It writes the entry for you.</li></ul>
-<h2 id="editing-and-removing-entries">Editing and removing entries</h2>
-<p>Tap an entry to open and change it. To remove one, swipe it and confirm. Cora asks first, because you can't rebuild an entry you wrote at the time.</p>
-<h2 id="asking-cora-about-an-entry">Asking Cora about an entry</h2>
-<p>If you marked an entry as a <strong>concern</strong> or an <strong>emergency</strong>, it has an <strong>Analyze</strong> action. This sends the entry, with the tank's readings from around the same date, to <a href="/help/mobile-assistant">Cora Assistant</a>, and you get an assessment back. Use it when you've written down something that worries you and want a second opinion.</p>
+<h2 id="editing">Editing and removing entries</h2>
+<p>Tap an entry to open and change it. To remove one, swipe it to the left and confirm. A deleted entry can't be brought back.</p>
+<h2 id="analyze">Asking Cora about an entry</h2>
+<p>An entry in the <strong>Concern</strong> or <strong>Emergency</strong> category has an <strong>Analyze</strong> button. It sends the entry, with the tank's readings from around the same date, to <a href="/help/mobile-assistant">Cora Assistant</a>, and the assessment appears on the entry. Use it when you've written down something that worries you and want a second opinion.</p>
 <h2 id="reading-it-back">Reading it back</h2>
 <p>Each tank has its own journal, newest first, with photos in line.</p>
-<p>To narrow a long journal, filter by category: observations, concerns or emergencies.</p>
-<p>The Assistant reads the journal. It answers questions like <em>"when did I last change water?"</em> from your entries as well as your readings.</p>
+<p>To narrow a long journal, tap a category chip at the top: <strong>Observation</strong>, <strong>Concern</strong>, <strong>Emergency</strong>, <strong>Change</strong> or <strong>Milestone</strong>.</p>
+<p>The <strong>Tank timeline</strong> icon at the top opens the tank's story, where journal entries sit beside maintenance, livestock, water tests and alerts. See <a href="/help/mobile-activity#tank-timeline">Activity and timeline</a>.</p>
+<p>Cora Assistant reads the journal too. It answers questions like <em>"when did I last change water?"</em> from your entries as well as your readings.</p>
 <h2 id="on-cora-max">On Cora Max</h2>
-<p>You can add journal entries on Cora Max too, which is often handier when you're standing at the tank. Open the journal from the tank menu, or dictate an entry.</p>
-<p>The journal screen on Cora Max also has <strong>Fed extra</strong> and <strong>Skipped a feed</strong> buttons, with a line showing your feeding routine. If you haven't set one, the line says <em>Set your feeding routine in the phone app</em>, because you set the routine in Cora Mobile.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-livestock"><span>Previous</span><b>Livestock</b></a><a class="pn-n" href="/help/mobile-activity"><span>Next</span><b>Activity and timeline</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-12.</p>
+<p>You can add journal entries on Cora Max too, which is handy when you're standing at the tank. Open the journal from the tank menu, or dictate an entry.</p>
+<p>The journal screen on Cora Max also has <strong>Fed extra</strong> and <strong>Skipped a feed</strong> buttons, with a line showing your feeding routine. If you haven't set one, the line says <em>Set your feeding routine in the phone app</em>, because you set the routine in Cora Mobile. More in <a href="/help/max-records">Journal, livestock and maintenance</a> on Cora Max.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-vacation"><span>Previous</span><b>Going away: a plan for your tank sitter</b></a><a class="pn-n" href="/help/mobile-dosing"><span>Next</span><b>Dosing products and the dose calculator</b></a></nav>
+      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -319,10 +325,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Screenshot");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Close"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -343,55 +349,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Nothing matched \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Nothing matched \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Try fewer or different words, or go to:</p><ul><li><a href=\"/help/troubleshooting\">Troubleshooting</a></li><li><a href=\"/help/how-do-i\">How do I...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contact support</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -423,9 +596,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
       });

@@ -1,54 +1,70 @@
 ---
 title: Escenas en Cora Max
-description: Crea, ejecuta y edita escenas directamente en la pantalla de Cora Max.
+description: Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una casilla de escena en el panel.
 section: Cora Max
-reviewed: 2026-09-27
-order: 15
-group: Automation
+reviewed: 2026-10-13
+order: 9
+group: Alerts and automation
+twin: mobile-automation
 ---
 
-Una **escena** es un grupo de acciones sobre el equipo que se ejecutan juntas, durante un tiempo fijo o hasta que la detengas. Funcionan igual si las creas en el teléfono o en Cora Max. Aquí verás cómo hacerlo desde la pantalla de pared.
+Una **escena** es un conjunto guardado de acciones sobre los equipos que se ejecutan juntas, durante un tiempo fijo o hasta que la detienes. Puedes crear, ejecutar y editar escenas en Cora Max. Las escenas creadas en tu teléfono y en Cora Max son las mismas. Las reglas de automatización (las de "cuando pase esto, haz aquello") se configuran en tu teléfono. Más información en [Automatizaciones y escenas](/help/mobile-automation).
+
+![La lista de escenas en Cora Max, con una etiqueta de filtro para cada acuario y un botón Nueva escena](img/max-automation.webp "La lista de escenas, filtrada por acuario. Si todavía no hay escenas, lo dice y ofrece Nueva escena.")
 
 ## Dónde están las escenas
 
-En **Ajustes → Automatizaciones** tienes todas las escenas de todos tus acuarios. Si tienes más de uno, arriba aparece un filtro por acuario. La lista es la misma, da igual dónde se creara cada escena.
+**Ajustes → Automatizaciones** abre **Escenas**, la lista de todas las escenas de todos tus acuarios. Si tienes más de un acuario, hay una etiqueta de filtro para cada uno, además de **Todos los acuarios**.
 
-Toca una escena para editarla o toca **+** para crear una nueva. Si tienes varios acuarios y no has elegido ningún filtro, Cora Max te pregunta a qué acuario pertenece la escena nueva.
+Toca una escena para editarla, o toca **Nueva escena** para crear una. Si tienes más de un acuario y no hay ningún filtro elegido, Cora Max pregunta **¿Para qué acuario es esta escena?**
 
 ## Crear una escena
 
-1. Ponle un **nombre**.
-2. Añade **pasos**. Desde Cora Max, un paso puede cambiar una toma del Apex (**Encendido**, **Apagado** o **Auto**) o un enchufe Zigbee (**encendido**, **apagado** o **alternar**). Si añadiste desde el teléfono pasos para otros equipos, también aparecen aquí y puedes reordenarlos o quitarlos, aunque desde esta pantalla no puedas añadir otro igual.
-3. Elige cuánto dura: unos minutos fijos o **permanente** (sigue hasta que la detengas).
-4. Decide si la escena pide **confirmación** antes de ejecutarse. Déjalo activado salvo que tengas claro que la escena nunca toca nada que sea peligroso cambiar sin revisarlo.
-5. Guarda.
+![Un formulario Nueva escena vacío en Cora Max](img/max-scene-builder.webp "Una escena nueva: un nombre, Permanente o Temporizada, Preguntar antes de ejecutar y después Añadir paso.")
 
-:::note Los cabezales DŌS nunca pueden ser un paso de escena
-Ninguna escena, creada en Cora Max o en el teléfono, puede activar un cabezal de dosificación. Una dosis no debe poder dispararse por accidente desde una escena.
+1. Escribe un **Nombre de la escena**.
+2. Toca **Añadir paso** y elige qué hace el paso. Solo ves los tipos de equipo que tiene este acuario:
+   - **Toma de Apex**: pon una toma de Neptune Apex en **ENCENDIDO**, **APAGADO** o **AUTO**.
+   - **Controlar un equipo Red Sea**: por ejemplo **ReefDose: dosificar ahora**, **ReefDose: configurar dosis diaria**, **ReefRun: configurar velocidad de la bomba**, **ATO: iniciar un llenado manual** o **ReefMat: avanzar el rollo**.
+   - **Controlar una bomba de circulación**: fija el caudal o el modo de olas de una bomba Jecod, enciéndela o apágala, o usa **Pausar para alimentar**.
+   - **Iniciar una alimentación del Gyre**: pausa un gyre Maxspect para alimentar. Vuelve a arrancar solo.
+   - **GHL**: una pausa de alimentación, mantenimiento, cambio de agua, escena de luz y otras órdenes del controlador.
+   - **HYDROS**: un modo, un nivel de salida, una dosis o **HYDROS: volver al programa**.
+3. Añade más pasos de la misma forma. Puedes reordenarlos o quitarlos. Un paso que esta pantalla no puede editar dice **No editable aquí**. Edítalo en tu teléfono.
+4. Elige cuánto dura. **Temporizada** dura los minutos que pongas en **Ejecutar durante (minutos)**. **Permanente** dura hasta que la detienes.
+5. Deja **Preguntar antes de ejecutar** activado salvo que estés seguro de que la escena nunca toca nada que necesite una segunda mirada.
+6. Toca **Guardar**.
+
+:::note Dosis en una escena
+Un cabezal Neptune DŌS nunca puede ser un paso de escena. Un paso **ReefDose: dosificar ahora** sí puede, y tiene su propio **Máximo por dosis (ml)**. Déjalo vacío para 10 mL. Una dosis por encima de ese tope se rechaza, nunca se reduce. Deja **Preguntar antes de ejecutar** activado en cualquier escena que dosifique.
+:::
+
+:::note Beta
+**Beta.** Maxspect, GHL y HYDROS están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
 :::
 
 ## Ejecutar una escena
 
-Las escenas aparecen como casillas en el panel. Toca **Ejecutar** para iniciar una.
+Las escenas aparecen como casillas en el panel. Toca **Ejecutar** para empezar una.
 
-Si la escena pide confirmación, Cora Max te enseña antes lo que va a hacer, una línea por paso. Léelo y elige si ejecutarla o cancelar.
+Si la escena pregunta antes de ejecutarse, Cora Max lista primero lo que va a hacer, una línea por paso. Léelo y después ejecútala o cancela.
 
-Mientras está en marcha una escena de duración fija, su casilla muestra una cuenta atrás y un botón **Detener** para acabarla antes. La casilla de una escena permanente se muestra en marcha hasta que la detienes.
+Mientras una escena temporizada está en marcha, su casilla hace una cuenta atrás hasta el final y muestra **Detener** por si quieres terminarla antes. La casilla de una escena permanente la muestra en marcha hasta que tocas **Detener**. Cuando una escena termina o la detienes, la casilla muestra **Restaurando…** mientras Cora devuelve los equipos a como estaban.
 
-Iniciar o detener una escena siempre pasa por Cora Cloud, como cualquier otra orden. El resultado queda registrado en [Actividad](/help/max-activity).
+Ejecutar o detener una escena pasa por Cora Cloud, como cualquier otra orden. Encontrarás el resultado en [Actividad](/help/max-activity).
 
-Si una escena no se inicia o no se detiene, consulta [Solución de problemas](/help/troubleshooting).
+Las escenas no se pueden ejecutar por voz en Cora Max. Usa la casilla, **Ajustes → Automatizaciones** o tu teléfono.
 
-:::note El bloqueo infantil también afecta a las escenas
-Con el [bloqueo infantil](/help/max-voice) activado, no puedes iniciar ni detener escenas desde esta pantalla, igual que pasa con los demás controles. Por voz puedes seguir preguntando por una escena, pero no iniciarla ni detenerla.
+Si una escena no se ejecuta o no se detiene, echa un vistazo a [Solución de problemas](/help/troubleshooting).
+
+:::note El bloqueo infantil también cubre las escenas
+Mientras el [Bloqueo infantil](/help/max-settings#child-lock) tiene la pantalla bloqueada, no puedes ejecutar, detener ni editar una escena desde ella, igual que cualquier otro control.
 :::
 
-## Editar o borrar una escena
+## Editar o eliminar una escena
 
-Abre la escena desde **Ajustes → Automatizaciones**, o mantén pulsada su casilla en el panel. Ahí puedes cambiar el nombre, los pasos, la duración o la confirmación, o borrarla.
+Para cambiar una escena, ábrela desde **Ajustes → Automatizaciones** o mantén pulsada su casilla en el panel. Cambia lo que necesites y toca **Guardar**. Para quitarla, toca **Eliminar escena**. No se puede deshacer.
 
-:::note Un Cora Max antiguo puede ejecutar escenas pero no editarlas
-Crear y editar escenas en la pantalla de pared es una función reciente de Cora Max. Un Cora Max más antiguo de la misma cuenta puede mostrar y ejecutar escenas creadas en el teléfono o en un Cora Max más nuevo, pero no cambiarlas. Si te pasa, actualiza Cora Max o edita la escena desde el teléfono o desde una pantalla más nueva.
+:::note Un Cora Max más antiguo puede ejecutar una escena pero no editarla
+Las versiones antiguas de Cora Max siguen mostrando y ejecutando todas las escenas, pero no pueden cambiar ninguna. Actualiza Cora Max ([Actualizaciones y recuperación](/help/max-updates)), o edita la escena en tu teléfono.
 :::
-
-Qué puede hacer una escena y cómo se crea en el teléfono se explica en [Escenas y automatizaciones](/help/mobile-automation).

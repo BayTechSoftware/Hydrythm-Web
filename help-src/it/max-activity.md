@@ -1,41 +1,50 @@
 ---
 title: Attività su Cora Max
-description: Tutti i comandi che il sistema ha eseguito, rifiutato o non è riuscito a confermare, da leggere sullo schermo a parete.
+description: Controlla su Cora Max se un comando è davvero arrivato alla tua attrezzatura, chi o cosa l'ha chiesto e perché uno è stato rifiutato.
 section: Cora Max
-reviewed: 2026-09-09
-order: 10
-group: Alerts
+reviewed: 2026-10-13
+order: 11
+group: Records
+twin: mobile-activity
 ---
 
-Cora Max mostra lo stesso registro attività del telefono. Ci trovi ogni **richiesta di azione** (ogni tentativo di cambiare qualcosa) e com'è andata a finire. Una richiesta rifiutata o non confermata può non essere mai arrivata all'attrezzatura. Per questo viene registrata.
+Attività è il registro di ogni tentativo di cambiare qualcosa sulla tua attrezzatura, e di cosa ne è stato. È lo stesso registro che mostra il telefono. Guarda qui per prima cosa quando qualcosa che hai chiesto sembra non essere successo.
 
-Apri il registro dal **menu della vasca** (tocca il nome della vasca nella barra in alto) oppure da **Impostazioni → Impostazioni vasca → [la tua vasca] → Attività**.
+Aprilo dal **menu della vasca** (tocca il nome della vasca nella barra in alto), oppure vai in **Impostazioni → [la tua vasca] → Attività**.
 
-![Il registro attività su Cora Max](img/max-activity.webp "La legenda resta sempre in alto, così non devi ricordarti cosa vuol dire ogni esito.")
+![Il registro dell'attività su Cora Max](img/max-activity.webp "La legenda in alto spiega ogni esito.")
 
-## Cosa dice ogni voce
+## Cosa ti dice ogni voce
 
-Ogni riga riporta l'azione, l'attrezzatura e l'ora. Poi ci sono due informazioni ancora più utili.
+Ogni riga mostra l'attrezzatura e cosa è stato chiesto, per esempio *Risalita: Spenta*, e l'orario. Ti dice anche altre due cose.
 
-**Chi l'ha chiesta**: tu da questo schermo, tu dal telefono, la voce, l'Assistant, una regola di [automazione](/help/mobile-automation), un pulsante smart o il tuo account. Se l'azione parte dallo schermo a parete, la voce lo dice chiaramente.
+**Cosa l'ha chiesto.** Per esempio **Toccato su questo Cora**, **Voce su questo Cora**, **App Cora**, **Voce nell'app Cora**, **Regola di automazione** o **Inviato dal cloud**.
 
-**Che strada ha fatto**: se il comando è passato dalla tua rete di casa o dal tuo account, e quale Cora l'ha eseguito. Se hai più di un Cora, qui vedi quale ha agito.
+**Che strada ha fatto.** **LAN** vuol dire che è passato sulla tua rete. **TRAMITE CLOUD** vuol dire che è passato da Cora Cloud. Se hai più di un Cora Max, la voce dice anche quale l'ha eseguito.
 
 ## I quattro esiti
 
-| Esito | Cosa vuol dire |
+La legenda in alto nella schermata li ripete.
+
+| Esito | Significato |
 |---|---|
-| **Confermato** | L'attrezzatura ha risposto che l'ha fatto |
-| **Non confermato** | Inviato, ma non è arrivata nessuna risposta. Vuol dire *non lo sappiamo*, e non che *ha funzionato* |
-| **Rifiutato** | Non è stato eseguito. L'ha bloccato una regola di sicurezza, un blocco o l'attrezzatura stessa |
-| **Nessun cambiamento** | Era già nello stato che avevi chiesto |
+| **Confermato** | L'attrezzatura ha risposto di averlo fatto |
+| **Non confermato** | Inviato, ma non è tornata nessuna risposta. Non sappiamo se ha funzionato |
+| **Rifiutato** | Non è stato eseguito. Una regola di sicurezza, un blocco o l'attrezzatura stessa l'ha respinto |
+| **Nessun cambiamento** | Era già nello stato che hai chiesto |
 
-## Perché l'esito conta
+Sotto una voce **Rifiutato** o **Non confermato**, una riga dice perché, e cosa controllare prima di riprovare. Per esempio: *Nessun dispositivo ha risposto in tempo, quindi POTREBBE essere stato eseguito comunque. Controlla l'apparecchiatura prima di ripetere questo.*
 
-Quando tocchi un comando, uno inviato ma mai confermato sembra uguale a uno andato a buon fine. Su questa schermata vedi la differenza.
+## Quando qualcosa non è successo
 
-Se una cosa che hai chiesto sembra non essere successa, guarda qui prima di pensare a un guasto. Di solito la richiesta è stata rifiutata oppure non è mai arrivata una risposta.
+Su un touchscreen, un comando inviato ma mai confermato sembra uguale a uno che ha funzionato. Questa schermata ti mostra la differenza.
 
-## Da leggere insieme al diario
+1. Trova la voce di quello che hai chiesto.
+2. Se è **Rifiutato**, leggi il motivo sotto. Non è stato eseguito niente.
+3. Se è **Non confermato**, controlla l'attrezzatura stessa prima di riprovare, così non lo fai due volte.
 
-In Attività c'è quello che ha fatto il sistema. Nel [diario](/help/mobile-journal) c'è quello che hai fatto tu a mano. Guardandoli insieme si spiegano quasi tutte le sorprese.
+Se i conti ancora non tornano, vedi [Capire perché qualcosa è cambiato](/help/troubleshooting#establishing-why-something-changed).
+
+## Leggerla insieme al diario
+
+Attività mostra cosa ha fatto il sistema. Il [diario](/help/max-records#journal) mostra cosa hai fatto tu a mano. Insieme spiegano la maggior parte delle sorprese.

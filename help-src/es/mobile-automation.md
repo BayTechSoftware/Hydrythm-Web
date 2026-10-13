@@ -1,99 +1,132 @@
 ---
 title: Automatizaciones y escenas
-description: Crea reglas que funcionan solas (disparadores, condiciones y acciones) y agrúpalas en escenas.
+description: Haz que Cora actúe sola ante una lectura, una alerta, una hora o un dispositivo que se desconecta, y agrupa acciones en escenas que ejecutas con un toque.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 17
+reviewed: 2026-10-13
+order: 22
 group: Alerts and automation
+twin: max-automation
 ---
 
-Una automatización es una regla que Cora ejecuta por ti: *cuando pase esto, comprueba aquello y luego haz esto otro.* Una escena reúne varias acciones en una sola que puedes ejecutar o programar.
+Una automatización es una regla que Cora ejecuta por ti: *cuando pase esto, comprueba aquello y luego haz esto otro.* Una escena reúne varias acciones en una sola cosa que ejecutas cuando quieres.
 
-**Ajustes → Automatización.**
+Ve a **Ajustes → Automatizaciones**.
 
-![La lista de automatizaciones](img/mobile-automation.webp "Automatizaciones y Escenas son pestañas distintas. Cada regla tiene un interruptor para activarla.")
+![La pantalla Automatización en Cora Mobile, con las pestañas Automatizaciones y Escenas](img/mobile-automation.webp "Automatizaciones y Escenas son pestañas distintas. Cada regla tiene su propio interruptor.")
 
-La pantalla tiene dos pestañas, **Automatizaciones** y **Escenas**, y un botón **Nueva automatización**. Cada regla muestra en una línea lo que hace, un interruptor para activarla y un menú para editarla o eliminarla. Las reglas que aún no se han ejecutado llevan una marca.
+La pantalla tiene dos pestañas, **Automatizaciones** y **Escenas**, con un botón **Nueva automatización** o **Nueva escena**. Cada regla muestra un resumen de una línea, un interruptor para activarla y un menú para **Editar** o **Eliminar**. Una regla que todavía no se ha ejecutado lo indica.
 
-:::warning Estas reglas mueven equipos de verdad
-Si una regla apaga una bomba, la apaga aunque no estés mirando. Crea las reglas de una en una y comprueba que cada una funciona como esperas antes de añadir la siguiente.
+:::warning Las reglas actúan sobre equipos reales
+Si una regla apaga una bomba, la bomba se apaga aunque no estés mirando. Crea las reglas de una en una y comprueba que cada una hace lo que esperas antes de añadir la siguiente.
 :::
 
-## Cómo es una regla
+## Cómo es una regla {#shape}
 
-Todas las reglas tienen tres partes:
+Cada automatización tiene tres partes.
 
-**Disparador**: lo que la pone en marcha
-**Condiciones**: lo que también tiene que cumplirse
-**Acciones**: lo que hace después, en orden
+- El disparador la pone en marcha.
+- Las condiciones también tienen que cumplirse.
+- Las acciones son lo que hace después, en orden.
 
-## Qué pone en marcha una regla
+![Un formulario Nueva automatización vacío en Cora Mobile](img/mobile-rule-builder.webp "Una automatización nueva: disparadores, condiciones Si, acciones Entonces, O si y Si no, y después el tiempo de espera y la franja horaria.")
 
-Hay cuatro disparadores:
+## Qué pone en marcha una regla {#triggers}
+
+Añade uno o más disparadores en **Cuando: cualquier detonante**. Cualquiera de ellos pone en marcha la regla.
 
 | Disparador | Se activa cuando |
 |---|---|
-| **Cuando un parámetro cambia** | Un parámetro pasa de un valor que tú fijas, en la dirección que elijas |
-| **Cuando se activa una alerta** | Salta una alerta, se resuelve, o cualquiera de las dos cosas |
-| **A una hora del día** | Llega una hora del día, en tu zona horaria |
-| **Cuando un dispositivo se desconecta** | Un dispositivo se desconecta o vuelve a conectarse |
+| **Cuando un parámetro cambia** | Un parámetro pasa de un valor que tú fijas. Elige la **Dirección**: **Subida**, **Bajada** o **Cualquier cambio** |
+| **Cuando se activa una alerta** | Una alerta queda **Activada**, **Resuelta**, o cualquiera de las dos. Puedes limitarlo a alertas de **Umbral** o de **Tasa de cambio** |
+| **A una hora del día** | Una hora del día, en tu propia zona horaria |
+| **Cuando un dispositivo se desconecta** | Tu Cora Max queda **Sin conexión**, vuelve a estar **En línea**, o cualquiera de las dos |
 
-## Condiciones
+:::tip Entérate cuando tu Cora Max se desconecta
+Una regla con **Cuando un dispositivo se desconecta** y **Notificarme** te avisa cuando el Cora Max que lee tus equipos se queda sin corriente o sin Wi-Fi.
+:::
 
-Las condiciones deciden si las acciones se ejecutan o no. Tienes las comparaciones de siempre (igual, distinto, mayor que, menor que, etc.) y puedes combinarlas con **y**, **o** y **no**.
+## Condiciones {#conditions}
 
-También hay una condición de **paso**, que mira cómo salió el paso *anterior*. Con ella puedes escribir "prueba esto y, si no funciona, haz esto otro".
+Las condiciones deciden si se ejecutan las acciones. Toca **Agregar condición** y elige:
 
-## Qué puede hacer una regla
+- **Comparación de parámetro**, una lectura por encima, por debajo o igual a un valor
+- **Parámetro dentro / fuera de un rango**
+- **Alerta activa**
+- **La toma está encendida / apagada**, para una toma del Apex
+- **Hora del día**, una franja como de 22:00 a 06:00
+- **Cómo fue un paso anterior**, que comprueba si un paso anterior salió **Correcto** u **Omitido**. Úsala para "prueba esto y, si no funciona, haz esto otro"
 
-Las acciones que necesitan un equipo solo aparecen en los acuarios que lo tienen:
+Con varias condiciones, pon **Coincidir** en **Todas (Y)** o **Cualquiera (O)**.
+
+## Ramas y comprobaciones por paso {#branches}
+
+Una automatización puede hacer cosas distintas en casos distintos. Su primer bloque es **Si**. Toca **O si** para añadir otro caso, o añade un bloque **Si no** para todo lo demás. Cora ejecuta el primer bloque cuyas condiciones se cumplen.
+
+También puedes condicionar una sola acción. Toca **Solo si…** en ese paso y dale su propia condición. Sin condición, el paso siempre se ejecuta.
+
+## Cuándo puede ejecutarse {#when-it-may-run}
+
+- **Tiempo de espera entre ejecuciones** impide que una regla vuelva a saltar demasiado pronto. Empieza en 10 min.
+- **Ejecutar solo entre** limita la regla a una franja horaria, por ejemplo solo de día.
+- **Probar con valores en vivo** comprueba la regla con las lecturas actuales de tu acuario, sin hacer nada. Te dice qué *se ejecutaría*, o por qué no se ejecutaría nada.
+
+## Qué puede hacer una regla {#actions}
+
+Una acción que necesita un equipo solo aparece en un acuario que tiene ese equipo.
 
 | Acción | Qué hace |
 |---|---|
 | **Controlar equipo del Apex** | Enciende o apaga una toma |
+| **Ejecutar ciclo de alimentación del Apex** | Empieza una alimentación. El Apex la termina con su propio temporizador |
+| **Ejecutar una prueba del Trident** | Lanza una prueba. Cada ejecución gasta reactivo |
+| **Dosificar un cabezal DŌS** | Da una dosis medida con un cabezal DŌS |
 | **Controlar un equipo Red Sea** | Maneja una unidad ReefBeat |
-| **Controlar una bomba de circulación** | Ajusta el caudal, el modo de olas o la potencia de una bomba Jecod, o usa **Pausar para alimentar**. El Cora Max del acuario vuelve a poner la bomba como estaba al terminar la alimentación |
-| **Controlar un equipo Cora** | Enciende o apaga un enchufe inteligente |
-| **Controlar dispositivo IR** | Envía una orden por infrarrojos |
-| **Ejecutar ciclo de alimentación del Apex** | Empieza una alimentación |
-| **Ejecutar una prueba del Trident** | Lanza una prueba |
-| **Notificarme** | Te envía una notificación push |
+| **Controlar una bomba de circulación** | Ajusta el caudal, el modo de olas o la potencia de una bomba Jecod, o usa **Pausar para alimentar**. El Cora Max del acuario vuelve a poner la bomba como estaba cuando termina la alimentación |
+| **Controlar un equipo GHL (Beta)** | Pausa un programa de alimentación, inicia el modo de mantenimiento o de cambio de agua, fija una escena o un brillo de luz, y más |
+| **Controlar un equipo HYDROS (Beta)** | Fija una salida, la devuelve a su horario, cambia de modo, ejecuta una orden del analizador o dosifica con un cabezal |
+| **Controlar un dispositivo EcoTech (Beta)** | Fija la intensidad o la escena de una Radion, inicia una alimentación o un modo de una VorTech, dosifica con una Versa, o devuelve cualquiera de ellas a su horario |
+| **Notificarme** | Te envía una notificación push con tu propio **Título** y **Mensaje** |
 | **Esperar antes del siguiente paso** | Hace una pausa antes de seguir |
-| **Ejecutar una escena** | Ejecuta otra escena desde esta regla |
+| **Ejecutar una escena** | Ejecuta una escena desde dentro de esta regla |
 | **Gestionar una automatización** | Activa o desactiva otra regla |
-| **Dosificar una cabeza DŌS** | Da una dosis medida con un cabezal DŌS |
-| **Crear una tarea de mantenimiento** | Pone un trabajo en la lista de [mantenimiento](/help/mobile-maintenance) del acuario, por ejemplo cambiar el medio del depurador de CO2 cuando el pH baja de un valor |
+| **Crear una tarea de mantenimiento** | Pone una tarea en la lista de [mantenimiento](/help/mobile-maintenance) del acuario, por ejemplo cambiar el medio del depurador de CO2 cuando el pH baja de un valor |
 
-:::warning Dosificar con una regla no tiene vuelta atrás y tiene un límite
-Una dosis ya no se puede sacar del acuario. El cabezal tiene que estar **calibrado** para que una regla pueda dosificar con él. La dosificación sin supervisión tiene un máximo de **10 mL por cabezal al día**, y ninguna regla puede pasar de ahí, esté como esté escrita. Las acciones de dosificación solo aparecen cuando Cora reconoce tus cabezales como cabezales de dosificación.
+:::note Beta
+GHL, HYDROS y EcoTech están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
+:::
+
+:::warning Una dosis no se puede deshacer, y tiene un límite
+Una dosis no se puede sacar del acuario. Una regla solo puede dosificar con un cabezal que se haya medido con **Medir para dosificar** en un Cora Max. La dosis la ejecuta un Cora Max del acuario. La dosificación desde reglas tiene un máximo de **10 mL por cabezal al día**, esté como esté escrita la regla.
 :::
 
 :::note Qué hace Crear una tarea de mantenimiento
-Elige el acuario y después **Tarea existente** (una tarea que ya existe pasa a estar pendiente ahora) o **Tarea nueva** (ponle un **Nombre de la tarea**). Una tarea nueva es puntual, vence enseguida y la regla no la vuelve a crear mientras siga abierta. Recibes una sola notificación, y la tarea puntual sale de la lista cuando la completas.
+Elige el acuario y después **Tarea existente** (una tarea que ya existe pasa a vencer ahora) o **Tarea nueva** (ponle un **Nombre de la tarea**). Una tarea nueva es única, vence enseguida y la regla no la vuelve a crear mientras siga abierta. Recibes una sola notificación, y la tarea única sale de la lista cuando la completas.
 :::
 
-:::note Usa Esperar para ordenar pasos en una regla
-Con una pausa, una sola regla puede seguir un procedimiento por pasos. Por ejemplo, apagar una toma, esperar y volver a encenderla. No hace falta una segunda regla ni un horario.
+:::note La espera es corta
+**Esperar antes del siguiente paso** hace una pausa de hasta 60 segundos, y una rama puede esperar 60 segundos en total. Después de la pausa, el siguiente paso ve lecturas nuevas. Para una pausa más larga, como una bomba de retorno apagada 30 minutos durante un cambio de agua, usa una escena con **Ejecutar durante** (más abajo).
 :::
 
-## Escenas
+## Escenas {#scenes}
 
-Una escena es un grupo de acciones con nombre, como "Cambio de agua", "Modo foto" o "Noche". Puedes ejecutarla cuando quieras, con un horario o desde otra regla.
+Una escena es un grupo de acciones con nombre, como "Cambio de agua", "Modo foto" o "Noche". Toca **Nueva automatización** o **Nueva escena** y elige **Escena** arriba. Una escena no tiene disparador. La ejecutas con **Ejecutar ahora** en la lista, desde dentro de una regla con **Ejecutar una escena**, o con un horario mediante una regla con **A una hora del día**.
 
-Una escena puede llamar a otra. Cora no ejecuta escenas anidadas por encima de su límite de niveles, ni una escena que se llame a sí misma. Así evita un bucle que seguiría actuando sobre el acuario sin parar.
+**Ejecutar durante** fija cuánto dura una escena: un número de minutos u horas, o **Hasta que yo lo cambie**. Cuando se acaba el tiempo, Cora devuelve las tomas de la escena a como estaban. Los demás equipos se quedan como los dejó la escena. Mientras una escena con tiempo está en marcha, la lista muestra una cuenta atrás y un botón **Detener** que la termina antes.
 
-Cuando termina una escena, Cora te cuenta paso a paso qué ha pasado, incluido lo que haya fallado.
+Si una escena enciende o apaga una toma importante, como un calentador, un enfriador, la bomba de retorno o la reposición, Cora pregunta antes de ejecutarla y lista esos pasos. Puedes desactivarlo con **Preguntar antes de ejecutar** en la escena.
 
-Si ejecutas una escena a mano, antes tienes que confirmarlo, porque puede encender o apagar varios equipos a la vez.
+Una escena puede llamar a otra escena, hasta 3 niveles. Cora no ejecuta una escena que se llama a sí misma, porque podría entrar en un bucle y seguir actuando sobre el acuario.
 
-## Escenas creadas en Cora Max
+Después de que una escena se ejecuta, ves qué ha pasado paso a paso, incluido lo que haya fallado o no se haya ejecutado.
 
-También puedes crear y editar escenas directamente en Cora Max. Las escenas son las mismas en el teléfono y en Cora Max, y se comparten en toda la cuenta. Un Cora Max más antiguo puede ejecutar una escena creada en el teléfono. Lo nuevo es poder editarlas en el propio dispositivo, así que un Cora Max antiguo puede mostrar una escena sin dejarte cambiarla. En ese caso, edítala desde el teléfono.
+## Escenas creadas en Cora Max {#scenes-on-cora-max}
 
-## Desactivar una regla
+También puedes crear y editar escenas en un Cora Max. Es el mismo conjunto de escenas, compartido en toda la cuenta. Un Cora Max más antiguo todavía puede ejecutar una escena creada en el teléfono. Editar en el dispositivo es más reciente, así que un Cora Max antiguo puede mostrar una escena sin dejarte cambiarla. En ese caso, edítala desde el teléfono.
 
-Cada regla tiene un interruptor para activarla o desactivarla. Si la desactivas, se guarda tal cual. Te viene bien si quieres recuperarla la próxima temporada sin tener que crearla otra vez.
+## Desactivar una regla {#turning-a-rule-off}
 
-## Ver qué hizo una regla
+Cada regla tiene un interruptor para activarla. Desactivar una regla conserva sus ajustes, algo útil cuando quieres recuperarla la próxima temporada.
 
-Cada acción de una regla queda registrada con esa regla como causa. Consúltalo en **[Actividad](/help/mobile-activity)**.
+## Ver qué hizo una regla {#seeing-what-a-rule-did}
+
+Cada acción que hace una regla queda registrada con **Regla de automatización** como origen. La encontrarás en [Actividad](/help/mobile-activity).

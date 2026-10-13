@@ -1,49 +1,51 @@
 ---
-title: Verreisen
-description: Erstell einen Plan für deine Urlaubsvertretung und teil ihn als Seite, die sich ohne Konto öffnen lässt.
+title: Verreisen: ein Plan für deine Urlaubsvertretung
+description: Den Urlaubsmodus einschalten, eine Checkliste für deine Urlaubsvertretung erstellen und sie als Seite nur zum Lesen mit Live-Messwerten teilen, die ohne Konto geöffnet wird.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 28
-group: Account
+reviewed: 2026-10-13
+order: 23
+group: Alerts and automation
 ---
 
-Mit dem Urlaubsmodus kann sich jemand anderes um dein Becken kümmern. Du legst die Daten fest und schreibst die Aufgaben auf. Cora macht daraus eine einfache Seite, die du weiterschicken kannst.
+Der Urlaubsmodus hilft jemand anderem, sich um dein Becken zu kümmern, während du weg bist. Du wählst die Daten und die Aufgaben, und Cora macht eine Webseite, die du deiner Urlaubsvertretung schickst.
 
-**Einstellungen → Becken → Urlaubsmodus.**
+Geh zu Einstellungen → dein Becken → **Urlaubsmodus**. Hast du mehr als ein Becken, wähl oben das Becken. Jedes Becken hat seinen eigenen Plan.
 
-![Urlaubsmodus](img/mobile-vacation.webp "Reisedaten, die Sitter-Checkliste, und die dazugehörigen Notizen.")
+![Urlaubsmodus in Cora Mobile](img/mobile-vacation.webp "Das Becken, ein Hinweis, dass Warnungen weiter zu dir kommen, die Reisedaten, dann die Checkliste für den Sitter.")
 
-## Den Plan erstellen
+## Einrichten {#setting-it-up}
 
-Trag zuerst die **Daten** ein, also wann du wegfährst und wann du zurück bist.
+1. Tippe unter **Wann bist du weg?** auf **Wähle deine Reisedaten**.
+2. Stell die **Checkliste für den Sitter** zusammen. Wartungsaufgaben, die fällig werden, während du weg bist, werden dir angeboten, jeweils mit Angabe, wie oft sie nötig sind. Tippe auf einen Vorschlag, um ihn hinzuzufügen, etwa **Das Becken füttern**, **Den ATO-Behälter überprüfen**, **Den Abschäumerbecher leeren** oder **Mich anrufen, falls etwas nicht stimmt**. Um eine eigene Aufgabe hinzuzufügen, tipp sie unter **Eigene Aufgabe hinzufügen …** ein und tippe auf **Aufgabe hinzufügen**.
+3. Schreib unter **Notizen & Kontakt** die **Notizen für den Sitter** und unter **Falls etwas nicht stimmt**, wie man dich erreicht.
+4. Tippe auf **Urlaubsmodus starten**.
 
-Dann stellst du eine **Checkliste** zusammen, mit jeder Aufgabe und wie oft sie anfällt. Cora zeigt die Häufigkeit als einfaches Etikett daneben:
+Jede Aufgabe zeigt, wie oft sie zu erledigen ist, zum Beispiel **Täglich**, **Alle 3 Tage**, **Einmal** oder **Immer** (eine dauerhafte Anweisung). Cora ermittelt das aus der Wartungsaufgabe oder dem Vorschlag. Eine Aufgabe, die du selbst eintippst, hat kein Etikett, schreib die Häufigkeit also in den Text.
 
-| Häufigkeit | Passt für |
-|---|---|
-| **Täglich** | Füttern, ein kurzer Blick aufs Becken |
-| **Alle 3 Tage** | Nachfüllen, Abschäumer kontrollieren |
-| **Einmal** | einen Wasserwechsel während deiner Abwesenheit |
-| **Immer** | Anweisungen, die die ganze Zeit gelten, etwa Geräte, die nicht verstellt werden dürfen |
+Schreib die Checkliste für jemanden, der sich mit Riffbecken nicht auskennt. Nenn Mengen und wie man etwas macht. "Einmal am Tag einen Würfel Frostfutter füttern, aufgetaut" ist viel klarer als "füttern wie immer".
 
-Schreib die Checkliste für jemanden, der sich mit Meerwasserbecken nicht auskennt. Nenn Mengen und Vorgehen genau: "einmal am Tag einen Würfel Frostfutter füttern, vorher auftauen" und nicht "wie immer füttern".
-
-## Den Plan teilen
-
-Cora macht aus dem Plan eine **Seite, die man nur lesen kann**. Schick deiner Urlaubsvertretung den Link. Sie braucht dafür weder Cora Mobile noch ein Konto.
-
-Deine Vertretung kann die Checkliste lesen und das Becken sehen. Ändern kann sie nichts. Sie kann keine Geräte steuern und den Rest deines Kontos nicht sehen.
-
-:::note Schreib dazu, was nicht verstellt werden darf
-Nimm Anweisungen für die Geräte auf, die deine Vertretung in Ruhe lassen soll. Gib ihnen die Häufigkeit **Immer**.
+:::note Sag, was in Ruhe gelassen werden soll
+Füg eine Aufgabe für jede Ausrüstung hinzu, die die Vertretung nicht anfassen soll, zum Beispiel "Nichts am Controller verändern". Schreib es auch in die Notizen.
 :::
 
-## Während du weg bist
+## Mit deiner Vertretung teilen {#sharing}
 
-Alles andere läuft weiter: Messwerte, Warnungen, Reef Buddy und Automationen. Der Urlaubsmodus fügt nur die Seite für deine Vertretung hinzu. Wie dein Becken läuft, ändert er nicht.
+Tippe auf **Sitter-Link erstellen**. Cora macht eine Webseite nur zum Lesen mit der Checkliste, deinen Notizen und Live-Messwerten des Beckens. Deine Vertretung braucht weder Cora Mobile noch ein Konto. Tippe auf **Teilen**, um sie zu verschicken, oder **Kopieren** den Link.
 
-Willst du unterwegs erreichbar sein, prüf vor der Abreise deine **[Benachrichtigungseinstellungen](/help/mobile-notifications)**.
+Auf dieser Seite kann die Vertretung Aufgaben abhaken, wenn sie sie erledigt. Du siehst jede unter **Sitter-Aktivität**, mit der Uhrzeit. Sonst kann sie nichts ändern, keine Ausrüstung steuern und den Rest deines Kontos nicht sehen.
 
-## Wieder zu Hause
+Der Link funktioniert bis zu deinem Enddatum plus 2 Tage. **Neuer Link** macht einen frischen Link, und der alte funktioniert nicht mehr, was praktisch ist, wenn du ihn an die falsche Person geschickt hast.
 
-Beende den Plan, wenn du zurück bist. Die Checkliste bleibt gespeichert. Beim nächsten Mal kannst du sie wiederverwenden und musst sie nicht neu schreiben.
+## Während du weg bist {#while-away}
+
+Alles andere funktioniert wie gewohnt weiter, auch Messwerte, Warnungen, Reef Buddy, Dosierung und Automationen. Der Urlaubsmodus pausiert nichts. Solange er an ist, steht oben in den Einstellungen *Urlaubsmodus ist aktiv*. Tippe darauf, um den Plan anzusehen oder zu beenden.
+
+:::warning Warnungen kommen weiter zu dir
+Die Seite der Vertretung zeigt aktive Warnungen, aber die Vertretung wird nie benachrichtigt. Wasserwert-Warnungen gehen weiter an dein Handy. Bleib erreichbar und schreib deine Nummer in den Plan. Prüf vor der Abreise deine [Benachrichtigungseinstellungen](/help/mobile-notifications).
+:::
+
+Um den Plan zu ändern, während du weg bist, tippe auf **Bearbeiten** und dann auf **Änderungen speichern**.
+
+## Wieder zu Hause {#coming-back}
+
+Tippe auf **Urlaubsmodus beenden** und bestätige mit **Beenden**. Der Sitter-Link funktioniert sofort nicht mehr. Deine Checkliste bleibt für das nächste Mal gespeichert.

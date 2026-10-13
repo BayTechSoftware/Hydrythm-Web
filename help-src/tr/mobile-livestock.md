@@ -1,58 +1,61 @@
 ---
 title: Canlılar
-description: Akvaryumda neler olduğunu, ne zaman geldiklerini ve onlara ne olduğunu kaydedin.
+description: Akvaryumunuzdaki mercanları, balıkları ve omurgasızları ekleyin; kayıpları, fragları, satışları ve taşımaları kaydedin, böylece ileride örüntüleri fark edin.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 20
+reviewed: 2026-10-13
+order: 27
 group: Records
+twin: max-records
 ---
 
-Canlılar ekranı, akvaryumdaki mercanları, balıkları ve omurgasızları kaydeder. Her kaydın ne zaman eklendiği ve şu anki durumu da burada tutulur. Ekranı panonun altındaki kısayol satırından açın.
+Canlılar, akvaryumunuzdaki mercanların, balıkların ve omurgasızların listesidir. Her biri için eklendiği tarihi ve o günden beri başına gelenleri saklar.
+
+Panonun altındaki düğme satırında **Canlılar**'a dokunun. Aynı ekran Ayarlar → akvaryumunuz → **Canlılar** yolunda da var.
 
 ![Canlı envanteri](img/mobile-livestock.webp "Envanter özeti ve son kayıplar. Kayıtlar türe göre gruplanır.")
 
-## Özet
+## Özet {#summary}
 
-Üst kısımda şunlar var:
+En üstte **Envanter Özeti** yer alır: mercan, balık ve omurgasız toplamları ile son 90 günde kaydettiğiniz kayıp sayısı.
 
-- **Envanter Özeti**: mercan, balık ve omurgasız gibi ana gruplara göre toplamlar
-- **Kayıplar**: son 90 günde kayıp olarak işaretlenen kayıt sayısı
+Altında kayıtlar SPS mercan, LPS mercan, yumuşak mercan ve balık gibi türlere göre gruplanır. Her kayıtta miktar ve eklenme tarihi görünür.
 
-Kayıtlar türe göre gruplanır (SPS mercan, LPS mercan, yumuşak mercan, balık gibi). Her kayıtta miktar ve eklenme tarihi görünür.
+Artık akvaryumda olmayanları görmek için üstteki **Kayıpları Göster**'e dokunun. **Canlıları Göster** sizi geri götürür.
 
-Artık akvaryumda olmayanları da görmek için üst çubuktaki **Kayıpları Göster**'e dokunun.
+## Kayıt ekleme {#adding-something}
 
-## Kayıt ekleme
+Ekranın altındaki **Canlı Ekle**'ye dokunun ve şunları doldurun:
 
-Her kayıtta şu alanlar var:
+- **Ad \***: canlıya verdiğiniz ad. Doldurmanız gereken tek alan budur.
+- **Tür**: SPS mercan, LPS mercan, yumuşak mercan, balık, omurgasız, anemon ya da diğer.
+- **Tür adı (isteğe bağlı)**: biliyorsanız.
+- **Miktar**: sürü ya da frag paketi gibi gruplar için.
+- **Notlar (isteğe bağlı)**: tedarikçi, yerleşim ya da fiyat gibi başka her şey için.
 
-- **Ad**: canlıya verdiğiniz ad
-- **Tür**: SPS mercan, LPS mercan, yumuşak mercan, balık, omurgasız, anemon ya da diğer
-- **Tür (bilimsel)**: biliyorsanız doldurun, zorunlu değil
-- **Miktar**: sürü ya da frag paketi gibi gruplar için
-- **Eklenme tarihi**: varsayılan olarak bugün
-- **Notlar**: tedarikçi, yerleşim, fiyat ya da saklamak istediğiniz başka bir ayrıntı
+Kaydettiğinizde eklenme tarihi bugün olarak ayarlanır.
 
-## Canlıya ne oldu
+## Bir şey değiştiğinde {#status}
 
-Her kaydın bir durumu var:
+Yapabileceklerinizi görmek için bir kayda dokunun:
 
-| Durum | Anlamı |
-|---|---|
-| **Canlı** | Hâlâ akvaryumda |
-| **Kayıp** | Öldü |
-| **Parçalandı** | Kesildi, koloni yaşamaya devam ediyor |
-| **Satıldı** | Başka birine gitti |
-| **Taşındı** | Başka bir akvaryumunuzda |
+- **Kayıp Olarak İşaretle**: bir canlı öldüğünde. Kaydın miktarı birden fazlaysa Cora **Kaç tane kayboldu?** diye sorar, böylece grubun yalnızca bir kısmını kaydedebilirsiniz. Kaybın tarihini ayarlayın ve ağarma, RTN, saldırganlık ya da bilinmiyor gibi bir **Neden** seçin.
+- **Parçalandı**: canlıyı kestiyseniz ve koloni yaşamaya devam ediyorsa.
+- **Satıldı**: başka birine gittiyse.
+- **Taşındı**: artık başka bir akvaryumunuzdaysa.
+- Artık canlı olmayan bir kayıtta **Canlıya geri döndür** değişikliği geri alır, örneğin yanlışlıkla işaretlediyseniz.
+- **Düzenle** ayrıntıları değiştirir. **Sil** kaydı tamamen kaldırır.
+- **Geçmişi görüntüle** kaydın hikayesini açar: ne zaman eklendiği, ne zaman kaybolduğu ya da akvaryumdan ayrıldığı.
 
-Bir canlıyı **kayıp** olarak işaretlediğinizde tarih kaydedilir. İsterseniz nedenini de yazabilirsiniz. Kayıpları düzenli kaydederseniz ileride örüntüleri görürsünüz. Örneğin kayıplar akvaryumun bir köşesinde toplanıyor olabilir ya da belli bir olayın ardından gelmiş olabilir.
+Her kaybı kaydederseniz ileride örüntüler ortaya çıkar. Belki kayıplar akvaryumun bir köşesinde toplanıyordur ya da belli bir olayın ardından geliyordur.
 
-:::note Neden olarak "Bilinmiyor" da yazabilirsiniz
-Nedeni bilmeseniz de tarihi kaydedin. Sonradan karşılaştırma yaparken işinize yarayan tarihtir.
+:::note "Bilinmiyor" da geçerli bir neden
+Nedenini bilmeseniz de tarihi kaydedin. İleride karşılaştıracağınız şey tarihtir.
 :::
 
-## Canlılar ve Cora'nın geri kalanı
+## Canlılar ve Cora'nın geri kalanı {#livestock-and-cora}
 
-Cora parametrelerinizi değerlendirirken canlı yükünüzü de hesaba katar. Kalabalık bir SPS sistemiyle az canlılı bir yumuşak mercan akvaryumu aynı ölçüte göre değerlendirilmez.
+Cora parametrelerinizi değerlendirirken akvaryumun ne kadar kalabalık olduğunu da hesaba katar. Kalabalık bir SPS sistemiyle az canlılı bir yumuşak mercan akvaryumu aynı ölçüte göre değerlendirilmez.
 
-Canlılarınızla ilgili soru da sorabilirsiniz. *"Çekiç mercanını ne zaman ekledim?"* ya da *"Bu yıl neleri kaybettim?"* gibi soruların yanıtı bu kayıttan gelir.
+Canlılarınızla ilgili soru da sorabilirsiniz. Cora Assistant, *"Çekiç mercanını ne zaman ekledim?"* ya da *"Bu yıl neleri kaybettim?"* gibi soruları bu listeye bakarak yanıtlar.
+
+Canlılarınızdaki değişiklikler [akvaryum zaman çizelgesinde](/help/mobile-activity#tank-timeline) de görünür. Bir kaybın ya da yeni gelen bir canlının hikayesini [günlüğe](/help/mobile-journal) yazın.

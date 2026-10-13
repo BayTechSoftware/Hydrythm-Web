@@ -1,60 +1,69 @@
 ---
 title: Etkinlik ve zaman çizelgesi
-description: Ekipmanınızda olup biten her şey ve bunları neyin başlattığı.
+description: Ekipmanınıza gönderilen her değişikliği, onu kimin ya da neyin istediğini ve çalışıp çalışmadığını görün, bir tarihin çevresinde akvaryumun zaman çizelgesini okuyun.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 22
+reviewed: 2026-10-13
+order: 28
 group: Records
+twin: max-activity
 ---
 
-Etkinlik ekranı, ekipmanda bir şeyi değiştirmeye yönelik her **komut isteğini** kaydeder. İsteği neyin gönderdiği ve sonucun ne olduğu da kayıtta yer alır.
+Etkinlik, ekipmanınızda bir şeyi değiştirmeye yönelik her denemeyi listeler: priz açıp kapatma, besleme döngüleri, dozajlar ve bir sahnenin ya da otomasyonun yaptığı her şey. Her satır, isteği neyin verdiğini ve ardından ne olduğunu gösterir. Çalışmayan istekler de buna dahildir.
 
-Her istek ekipmanda değişiklik yapmaz. Reddedilen istekler uygulanmamıştır. Tek istisna *Zamanında yanıt veren cihaz olmadı* yazan kayıtlardır. Bu istek uygulanmış olabilir. Tekrarlamadan önce ekipmanı kontrol edin. "Değişiklik yok", ekipmanın zaten istenen durumda olduğunu gösterir. Onaylanmayan isteğin cihaza ulaşıp ulaşmadığı bilinmez. Bütün sonuçlar kaydedilir.
+**Ayarlar → Etkinlik** yoluna gidin. Birden fazla akvaryumunuz varsa üstteki akvaryum çipleriyle seçin.
 
-**Ayarlar → Etkinlik.**
+![Cora Mobile'da etkinlik](img/mobile-activity.webp "Üstte sonuç açıklaması, altında her işlem sonucu, nedeni ve yoluyla.")
 
-![Etkinlik günlüğü](img/mobile-activity.webp "Her işlem ve onu hangi yüzeyin istediği.")
+## Sonuçların anlamı {#outcomes}
 
-## Neler kaydedilir
+Her satırın bir sonucu vardır. Aynı açıklama ekranın üstünde **SONUÇLARIN ANLAMI** altında da yer alır.
 
-Yalnızca başarılı olanlar değil, bütün **istekler** kaydedilir: priz açıp kapatma, besleme döngüleri, dozajlar, akıllı fiş değişiklikleri ve bir sahnenin ya da otomasyonun yaptığı her şey.
-
-**Reddedilen**, **değişiklik yapmayan** ya da gönderilip **onaylanmadan** dönen istekler de uygulanan istekler gibi kaydedilir. Zaten burada bulmak istediğiniz şey tam da budur: sessizce hiçbir şey yapmamış bir komut.
-
-## İsteği ne başlattı
-
-Her kayıtta isteğin kaynağı yazar:
-
-| Kaynak | Anlamı |
+| Sonuç | Anlamı |
 |---|---|
-| **Bu uygulama** | Buradan dokundunuz |
-| **Bu uygulamada ses** | Bu telefondan sesle istediniz |
-| **Bir Cora'ya dokunuldu** | Biri bir Cora ekranını kullandı. Satırda hangisi olduğu yazar |
-| **Bir Cora Max'te ses** | Biri bir ekrana sesle komut verdi |
-| **Cora Assistant** | Cora'dan bunu yapmasını istediniz |
-| **Otomasyon kuralı** | Bir kural devreye girdi |
-| **Akıllı düğme** | Fiziksel bir düğmeye basıldı |
-| **Cora Cloud'dan gönderildi** | Komut hesabınızdan Cora Cloud üzerinden geldi |
-| **Bilinmeyen kaynak** | Kaynağı belirlenemeden kaydedildi |
+| **Onaylandı** | Cihaz işi yaptığını bildirdi |
+| **Onaylanmadı** | Gönderildi ama yanıt gelmedi. Cihaza ulaşmış da olabilir, ulaşmamış da |
+| **Reddedildi** | Geri çevrildi ve çalışmadı. Nedenini görmek için satırı okuyun |
+| **Değişiklik yok** | Ekipman zaten o durumdaydı, bu yüzden hiçbir şey gönderilmedi |
 
-## İstek nasıl ulaştı
+Bir ret farklıdır. *Zamanında yanıt veren cihaz olmadı*, isteğin yine de çalışmış olabileceği anlamına gelir. Tekrar denemeden önce ekipmanı kontrol edin.
 
-Her satırda bir yol etiketi de var. Bir şey ters gittiğinde isteğin ekipmana *nasıl* ulaştığı çoğu şeyi açıklar:
+Burada bulmak istediğiniz şey tam da sessizce hiçbir şey yapmamış bir komuttur. Bu yüzden başarısız ve değişiklik yapmayan istekler de çalışanlarla birlikte saklanır.
 
-| Etiket | Anlamı |
+## Nedeni ne {#causes}
+
+Her satır nedenini söyler:
+
+| Neden | Anlamı |
+|---|---|
+| **Bu uygulama** | Cora Mobile'da dokundunuz |
+| **Bu uygulamada ses** | Bu telefonda sesle istediniz |
+| **Bir Cora'ya dokunuldu** | Biri bir Cora Max ekranını kullandı. Satırda hangisi olduğu yazar |
+| **Bir Cora Max'te ses** | Biri bir Cora Max'e sesle komut verdi |
+| **Cora Assistant** | Bir sohbette Cora Assistant'tan bunu yapmasını istediniz |
+| **Otomasyon kuralı** | Bir [otomasyon ya da sahne](/help/mobile-automation) yaptı |
+| **Cora Cloud'dan gönderildi** | Hesabınızdan Cora Cloud üzerinden geldi |
+| **Bilinmeyen kaynak** | Cora nereden geldiğini ayırt edebilmeden önce kaydedildi |
+
+## Nasıl ulaştı {#route}
+
+Her satırda bir yol çipi de vardır. Bir şey ters gittiğinde, isteğin ekipmanınıza nasıl ulaştığı çoğu zaman nedenini açıklar.
+
+| Çip | Anlamı |
 |---|---|
 | **LAN** | Kendi ağınız üzerinden doğrudan ekipmana gönderildi |
-| **BULUT ÜZERİNDEN** | Doğrudan erişilemeyen ekipmana hesabınız üzerinden gönderildi |
-| **ROTA ?** | Yol takibi başlamadan önce kaydedildi. Yol gerçekten bilinmiyor, tahmin de edilmiyor |
+| **BULUT ÜZERİNDEN** | Cora'nın doğrudan erişemediği ekipman için hesabınız üzerinden gönderildi |
+| **ROTA ?** | Yollar izlenmeye başlamadan önce kaydedildi, bu yüzden yol bilinmiyor |
 
-Birden fazla Cora'nın olduğu sistemlerde satırda isteği hangi Cora'nın yerine getirdiği de yazar.
+Birden fazla Cora Max'iniz varsa satır, isteği hangisinin yerine getirdiğini de söyler.
 
-## Akvaryum zaman çizelgesi
+## Akvaryum zaman çizelgesi {#tank-timeline}
 
-Ekipman işlemlerinden ayrı olarak her akvaryumun bir **zaman çizelgesi** var. Ölçümler, uyarılar, günlük kayıtları, ICP sonuçları ve canlılardaki değişiklikler burada sırayla görünür.
+Etkinlik ekipmanla ilgilidir. Ekranda adı **Akvaryum Hikayesi** olan akvaryum zaman çizelgesi ise akvaryumla ilgilidir. Günlük kayıtlarını, bakımı, canlılardaki değişiklikleri, su testlerini ve uyarıları tarih sırasıyla, aradaki kilometre taşlarıyla birlikte dizer.
 
-*"Bu cihaz ne yaptı?"* diye merak ediyorsanız etkinliğe, *"Bu tarihlerde neler oluyordu?"* diye merak ediyorsanız zaman çizelgesine bakın.
+Açmak için [günlüğe](/help/mobile-journal) gidin ve üstteki **Akvaryum zaman çizelgesi** simgesine dokunun. Üstteki çiplerle yalnızca **Günlük**, **Bakım**, **Canlılar**, **Su testleri** ya da **Uyarılar**'ı ya da **Tümü**'nü gösterin. **Eski hikayeyi yükle** daha geriye gider. Buradan **Yeni Kayıt** da ekleyebilir ya da sesle kayıt yazdırabilirsiniz.
 
-:::note Zaman çizelgesi ve günlük birbirini tamamlar
-Zaman çizelgesi Cora'nın kaydettiklerini, [günlük](/help/mobile-journal) ise sizin yaptıklarınızı tutar. İkisini birlikte okuyunca belli bir tarihte neyin neye yol açtığını görürsünüz.
+*"Bir şey ne yaptı?"* sorusunun yanıtı için Etkinlik'e, *"Bu tarihin çevresinde neler oluyordu?"* sorusunun yanıtı için zaman çizelgesine bakın.
+
+:::note Zaman çizelgesini günlükle birlikte kullanın
+Zaman çizelgesi Cora'nın kaydettiklerini toplar. Günlük ise sizin ne yaptığınızı ve nedenini tutar. Bir tarihin çevresindeki neden ve sonucu görmek için ikisini yan yana okuyun.
 :::

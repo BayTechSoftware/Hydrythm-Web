@@ -1,64 +1,70 @@
 ---
-title: Prese e controlli
-description: Accendere e spegnere le prese da Cora Max, usare la modalità alimentazione e cosa vuol dire davvero AUTO.
+title: Prese e comandi
+description: Accendi e spegni le prese Apex da Cora Max, avvia o annulla la modalità alimentazione, usa il pannello Prese e alimentazione e scopri cosa vogliono dire Auto, Off e On.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-13
 order: 5
 group: Equipment
 ---
 
-Da Cora Max puoi comandare l'attrezzatura del tuo sistema: dai widget di controllo sulla dashboard, dal cassetto Prese e alimentazione oppure a voce.
+Questa pagina spiega come accendere e spegnere le prese e avviare la modalità alimentazione da Cora Max. Puoi farlo dai riquadri delle prese sulla dashboard, dal pannello **Prese e alimentazione**, oppure a voce.
 
-:::warning Questi controlli agiscono sulla tua vasca
-Non si può annullare. Le prese con il lucchetto ti chiedono prima una conferma. Le altre cambiano appena tocchi. Un comando può tornare **Confermato**, **Non confermato** (inviato, ma senza risposta), **Rifiutato** o **Nessun cambiamento**. Trovi di più in [Controllare la tua attrezzatura](/help/mobile-device-control).
+:::warning Questi comandi agiscono sulla tua vasca
+Non c'è annulla. Le prese con un lucchetto ti chiedono prima di confermare. Le altre cambiano appena tocchi. Un comando può tornare **Confermato**, **Non confermato** (inviato, ma non è tornata nessuna risposta), **Rifiutato** o **Nessun cambiamento**. Di più in [Controllare la tua attrezzatura](/help/mobile-device-control).
 :::
 
-## I tre stati
+## I tre stati {#the-three-states}
 
-Ogni presa è sempre in uno di questi tre stati.
+Ogni presa è in uno di tre stati.
 
-**AUTO** rimette la presa sulla programmazione del suo Apex. Di solito una presa dovrebbe stare qui.
+**Auto** restituisce la presa alla sua programmazione dell'Apex. Quasi sempre è lì che una presa dovrebbe stare.
 
-**OFF** e **ON** sono comandi manuali. Valgono subito e **restano finché non li cambi tu**. Non scadono e niente li riporta indietro al posto tuo.
+**Off** e **On** sono comandi manuali. Hanno effetto subito e **restano finché non li cambi tu**. Non scadono, e niente li azzera al posto tuo.
 
 :::warning Un comando manuale non scade
-Quando hai finito, rimetti la presa su **AUTO**. Nessuno lo fa per te. Tu, la voce o un'automazione potete comunque cambiarla in seguito, perché un comando manuale non è un blocco.
+Rimettila su **Auto** quando hai finito, perché nient'altro lo farà. Un comando manuale però non è un blocco. Tu, la tua voce o un'automazione potete comunque cambiarlo più avanti.
 :::
 
-## Dalla dashboard
+## Comandare dalla dashboard {#switching-from-the-dashboard}
 
-I widget di controllo mostrano i tre stati, con quello attuale evidenziato. Tocca lo stato che vuoi.
+I riquadri delle prese mostrano i tre stati, con quello attuale evidenziato. Tocca quello che vuoi.
 
-Alcune prese hanno un **lucchetto**. Non c'è niente da disattivare. Vuol dire solo che la presa chiede una conferma prima di cambiare, così un tocco per sbaglio non spegne qualcosa di importante. Più sotto trovi i dettagli.
+Alcune prese hanno un **lucchetto**. Vuol dire che la presa ti chiede di confermare prima di cambiare, così un tocco sbagliato non può accendere o spegnere qualcosa di critico. Quando la tocchi, una finestra mostra la presa, il suo stato attuale, il comando che stai per impostare e cosa può fare alla vasca. Non c'è un blocco da disattivare da qualche altra parte.
 
-## Il cassetto Controlli
+Di default il lucchetto c'è su riscaldatori, refrigeratori, pompe di risalita, rabbocco (ATO), alimentatori automatici e qualsiasi presa che Cora non sa classificare. Luci, schiumatoi, pompe di movimento, pompe dosometriche, reattori, UV e ventole cambiano con un solo tocco.
 
-Trascina verso l'alto la linguetta in fondo alla dashboard per aprire **Controlli**. Qui ci sono tutte le prese del sistema, con o senza widget, e i cicli di alimentazione.
+## Il pannello Prese e alimentazione {#the-controls-drawer}
 
-![Il cassetto Controlli](img/max-controls.webp "In alto i cicli di alimentazione, sotto tutte le prese.")
+Lo vedi solo su una vasca con un Neptune Apex. Tocca la piccola etichetta **Prese e alimentazione** in fondo alla dashboard, oppure scorri verso l'alto in qualsiasi punto della dashboard. Si apre **Controlli**, con **ALIMENTAZIONE** in alto e **PRESE** sotto.
 
-Una presa con il **lucchetto** chiede una conferma esplicita prima di cambiare. Quando la tocchi si apre una finestra con il nome della presa, il suo stato attuale e lo stato che stai per impostare. È solo una conferma, non un blocco da togliere da qualche altra parte.
+![Il pannello Controlli](img/max-controls.webp "I cicli di alimentazione in alto, poi le prese scelte per questa dashboard.")
 
-## Modalità alimentazione
+Mostra le prese e i cicli di alimentazione che hai scelto in **Prese e alimentazione** nell'[editor della dashboard](/help/max-dashboard-editing#outlets-feed), oppure tutti se non ne hai scelti. Anche qui le prese con il lucchetto ti chiedono di confermare. Le prese di altri controller si comandano dalle loro pagine dispositivo, vedi [Controllare l'attrezzatura da Cora Max](/help/max-device-control).
 
-La modalità alimentazione ferma il movimento dell'acqua mentre dai da mangiare, in sicurezza. Mette in pausa l'attrezzatura che va fermata, lascia andare il resto e **rimette tutto a posto da sola** quando il tempo è finito.
+Se il tocco su una presa torna con *L'Apex non ha risposto: potrebbe averlo già applicato*, controlla la presa prima di riprovare.
 
-Usala al posto di spegnere le pompe a mano. Il sistema torna com'era anche se te ne dimentichi.
+## Modalità alimentazione {#feed-mode}
 
-I cicli di alimentazione si chiamano **A**, **B**, **C** e **D**. Sono quelli definiti nel tuo controller e ognuno ferma un gruppo diverso di attrezzatura. Scegli quello adatto a quello che stai facendo. **Annulla** chiude prima del tempo un ciclo in corso e rimette subito tutto a posto.
+La modalità alimentazione è il modo sicuro di mettere in pausa il movimento mentre dai da mangiare. Il tuo Apex mette in pausa l'attrezzatura che deve fermarsi, lascia stare il resto e **rimette tutto com'era da solo** allo scadere del tempo.
 
-Avvia un ciclo dal cassetto Controlli oppure di' *"avvia modalità alimentazione"*.
+Usala invece di spegnere le pompe a mano. Rimette a posto l'impianto anche se te ne dimentichi.
 
-## A voce
+I cicli di alimentazione sono Feed A, Feed B, Feed C e Feed D, mostrati come **A**, **B**, **C** e **D** sotto **ALIMENTAZIONE**. Sono i cicli programmati sul tuo Apex, e ognuno può mettere in pausa un gruppo diverso di attrezzatura. Scegli quello adatto a quello che stai facendo. **Annulla alimentazione** termina prima un ciclo in corso e rimette subito tutto com'era.
 
-Puoi comandare le prese anche a voce: *"spegni lo schiumatoio"*, *"rimetti la ventola in automatico"*.
+Avviane uno dal pannello, oppure di' *"avvia la modalità alimentazione"*.
 
-Prima di toccare la tua attrezzatura, Cora **ti chiede sempre conferma**: ti dice cosa sta per fare e aspetta il tuo sì. Se non è sicura di aver capito, non fa niente.
+Se Cora Max dice che l'Apex non ha risposto, l'alimentazione potrebbe essere già in corso. Controlla la pompa di risalita prima di avviarla di nuovo.
 
-Trovi di più in [Parlare con Cora](/help/max-voice).
+## A voce {#by-voice}
 
-## Vedere cosa è successo
+Puoi comandare le prese a voce, per esempio *"spegni lo schiumatoio"* o *"rimetti la ventola su auto"*.
 
-Ogni richiesta viene registrata, insieme a chi l'ha fatta (Cora Mobile, uno schermo Cora, la voce, l'Assistant, una regola di automazione, un pulsante smart o il tuo account) e alla strada che ha fatto. Su Cora Max tocca il nome della vasca nella barra in alto e scegli **Attività**. Sul telefono la trovi in **Impostazioni → Attività**.
+Prima che qualcosa arrivi alla tua attrezzatura, Cora **ti chiede prima conferma**. Ti dice cosa sta per fare e aspetta il tuo OK. Se non è sicura di cosa hai chiesto, non agisce.
 
-Quando qualcosa è cambiato e non sai perché, guarda prima qui.
+Di più in [Parlare con Cora](/help/max-voice).
+
+## Vedere cosa è successo {#seeing-what-happened}
+
+Ogni richiesta viene registrata, con cosa l'ha chiesta e com'è andata, che arrivi da Cora Mobile, da un Cora Max, dalla voce, dall'Assistente o da un'automazione. Su Cora Max, tocca il nome della vasca nella barra in alto e scegli **Attività**. Sul telefono è in **Impostazioni → Attività**. Di più in [Attività su Cora Max](/help/max-activity).
+
+Quando qualcosa è cambiato e non sai perché, guarda lì per prima cosa.

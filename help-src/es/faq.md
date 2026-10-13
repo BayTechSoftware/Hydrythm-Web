@@ -1,375 +1,229 @@
 ---
 title: Preguntas frecuentes
-description: Respuestas rápidas sobre configuración, Cora Max, Cora Mobile, dispositivos, alertas, Reef Buddy y Cora Assistant, idiomas y tu cuenta.
+description: Respuestas breves sobre lo que necesitas, Cora Max, usar Cora fuera de casa, los equipos, las alertas, Reef Buddy, los idiomas, los planes y tus datos.
 section: Help
-reviewed: 2026-10-12
-order: 0
+reviewed: 2026-10-13
+order: 4
 ---
 
-Aquí tienes respuestas cortas, cada una con un enlace a la página completa. Si lo que te pasa es que algo no va bien, ve directamente a [Solución de problemas](/help/troubleshooting).
+Respuestas breves, con enlaces a las páginas completas. Si algo no funciona, ve directamente a [Solución de problemas](/help/troubleshooting). Si quieres los pasos de una tarea, prueba [¿Cómo hago...?](/help/how-do-i).
 
 ## Primeros pasos
 
-### ¿Qué necesito comprar para usar Cora?
+### ¿Necesito un Cora Max, o me basta con el teléfono? {#do-i-need-a-cora-max}
 
-Para empezar te basta con el teléfono. Cora Mobile gestiona por sí sola tus acuarios, dispositivos y alertas. Cora Max es una pantalla de pared opcional para el cuarto de acuarios.
+No tienes que comprar nada para empezar. Cora Mobile por sí sola sigue tus acuarios, anota pruebas, envía alertas y ejecuta Cora Assistant.
 
-Más información: [Ayuda de Cora](/help/)
+Un Cora Max en el acuario añade algunas cosas. Sin él, tu teléfono lee un dispositivo Neptune Apex, Red Sea o Jecod solo mientras Cora Mobile está abierta en el mismo Wi-Fi. Un Cora Max los lee a todas horas, mantiene tus lecturas al día mientras estás fuera y transmite las órdenes que envías desde fuera. Maxspect, GHL, EcoTech, Inkbird y las cámaras necesitan un Cora Max para funcionar (son Beta, mira más abajo). Más información en [Equipos por marca](/help/equipment-by-brand).
 
-### ¿Necesito un Cora Max o me basta con el teléfono?
+### ¿Cómo añado mi primer acuario? {#how-do-i-add-my-first-tank}
 
-Te basta con el teléfono. Todas las funciones principales (acuarios, dispositivos, paneles, alertas, dosificación) están en Cora Mobile. Cora Max muestra los mismos acuarios en una pantalla más grande y añade la voz.
+Después de registrarte, Cora Mobile te hace tres preguntas: un nombre, el tipo de acuario y cuánta agua tiene. Solo el nombre es obligatorio. Más información en [Configurar Cora Mobile](/help/mobile-setup).
 
-Más información: [Ayuda de Cora](/help/), [Configurar Cora Mobile](/help/mobile-setup)
+### ¿Puedo probar Cora antes de registrarme? {#can-i-try-cora-before-i-sign-up}
 
-### ¿Cómo añado mi primer acuario?
+Sí. En la pantalla de inicio de sesión, toca **Explora un arrecife de demostración**. Es un acuario de ejemplo, y no necesitas cuenta. Más información en [Configurar Cora Mobile](/help/mobile-setup).
 
-Cora Mobile te guía paso a paso. Crea tu cuenta, añade un acuario y responde a las preguntas de su perfil. Los dispositivos y los paneles vienen después, cuando el acuario ya existe.
+### Mi acuario todavía está haciendo el ciclo. ¿Me puede ayudar Cora? {#my-tank-is-still-cycling}
 
-Más información: [Configurar Cora Mobile](/help/mobile-setup)
+Sí. Toca **¿Estás empezando un acuario nuevo?** en el panel para empezar el itinerario de ciclado. La tarjeta solo aparece en un acuario que todavía no tiene lecturas, así que hazlo antes de registrar una prueba o vincular equipos. Más información en [Itinerarios guiados](/help/mobile-journeys).
 
-### ¿Qué es el "perfil del acuario" y por qué pregunta tantas cosas?
+### ¿Qué significa "perfil del acuario", y por qué hace tantas preguntas? {#what-does-tank-profile-mean}
 
-El perfil del acuario describe lo básico de tu sistema: tamaño, tipo de agua, fauna y cómo dosificas y haces las pruebas. Con esas respuestas, Cora fija unos umbrales iniciales razonables y Reef Buddy y Cora Assistant te responden pensando en tu acuario, no de forma genérica.
+El perfil del acuario describe tu sistema: el tamaño, la fauna, la iluminación y cómo dosificas y haces pruebas. Cora usa tus respuestas para fijar rangos iniciales sensatos y para que Reef Buddy y Cora Assistant hablen de tu acuario y no de los arrecifes en general. Puedes saltarte cualquier sección. Más información en [El perfil de tu acuario](/help/mobile-tank-profile).
 
-Más información: [El perfil del acuario](/help/mobile-tank-profile)
+### ¿Cuánto tarda la configuración? {#how-long-does-setup-take}
 
-### ¿Cuánto se tarda en configurar?
-
-Un acuario sin equipos lleva unos minutos. Si añades equipos reales (sondas, controladores, bombas), tardas algo más porque cada uno tiene su propio paso de emparejamiento. Siempre puedes añadir más después.
-
-Más información: [Configurar Cora Mobile](/help/mobile-setup)
+Un acuario sin equipos lleva unos minutos. Cada dispositivo necesita su propio paso de emparejamiento, así que esa parte tarda más. Puedes añadir más cosas después.
 
 ## Cora Max
 
-### ¿Un Cora Max puede mostrar más de un acuario?
+### ¿Un Cora Max puede mostrar más de un acuario? {#can-one-cora-max-show-more-than-one-tank}
 
-Sí. Un Cora Max puede mostrar todos los acuarios de tu cuenta, de uno en uno, y en el Cuarto de los Acuarios los ves todos juntos.
+Sí, hasta cuatro. [El cuarto de los acuarios](/help/max-reef-room) los muestra uno al lado del otro. Para más acuarios, añade un segundo Cora Max.
 
-Más información: [El Cuarto de los Acuarios](/help/max-reef-room)
+### ¿Dos pantallas Cora Max pueden mostrar el mismo acuario? {#can-two-cora-max-screens-show-the-same-tank}
 
-### ¿Qué es el "Cora Max principal" y tengo que configurarlo?
+Sí. Añade las dos al mismo acuario y mostrarán los mismos datos en directo. **Cora Max principal** solo decide cuál habla con los equipos del acuario. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device).
 
-El Cora Max principal decide qué Cora Max habla con los equipos locales de un acuario. Casi nadie lo toca. Si solo tienes un Cora Max, no hay nada que elegir, y la opción predeterminada, **Cualquiera activo (automático)**, hace que todos los Cora Max conectados se repartan el trabajo solos. Fija uno concreto solo si quieres que las consultas las haga un único dispositivo.
+### ¿Qué es "Cora Max principal", y tengo que configurarlo? {#what-is-primary-cora-max}
 
-Más información: [Más de un dispositivo Cora](/help/mobile-multi-device)
+Decide qué Cora Max lee los equipos de un acuario. La mayoría de la gente nunca lo toca. Con un solo Cora Max no hay nada que elegir. El valor predeterminado, **Cualquiera activo (automático)**, deja que todos los Cora Max en línea se repartan el trabajo. Elige uno concreto solo si quieres que lo haga un único dispositivo. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device#primary-cora-max).
 
-### Si tengo más de un Cora Max, ¿cuál responde a "Hey Cora"?
+### ¿Qué dispositivo responde a "Hey Cora" si tengo más de un Cora Max? {#which-device-answers-hey-cora}
 
-Solo responde uno cada vez, el que elijas en Ajustes, en **Cora Assistant**. No tiene nada que ver con el Cora Max principal. Uno es para la voz y el otro para hablar con tus equipos.
+Solo responde un dispositivo Cora a la vez. Lo eliges en Cora Mobile, en **Ajustes → Cora Assistant**. No tiene nada que ver con Cora Max principal. Más información en [Hablar con Cora](/help/max-voice).
 
-Más información: [Voz en Cora Max](/help/max-voice), [Más de un dispositivo Cora](/help/mobile-multi-device)
+### ¿Por qué Cora Mobile no encuentra mi Cora Max cuando intento emparejarlo? {#why-cant-cora-mobile-find-my-cora-max}
 
-### ¿Cora Max necesita internet o le basta con el Wi-Fi de casa?
+Un Cora Max nuevo se encuentra por Bluetooth. Activa el Bluetooth, deja que Cora lo use y ponte cerca de la pantalla. También necesitas al menos un acuario en Cora Mobile. Después del paso de Wi-Fi, tu teléfono habla con Cora Max por Wi-Fi, así que quédate en la misma red hasta que termine el emparejamiento. Cada mensaje de error y su solución están en [Solución de problemas](/help/troubleshooting#pairing-a-cora-max-fails).
 
-Necesita el Wi-Fi de casa para llegar a tus equipos, y conexión a internet para llegar a Cora Cloud, que se usa para iniciar sesión, sincronizar y Cora Assistant. La etiqueta de estado de la barra superior te dice qué conexión tiene en cada momento.
+### ¿Mi teléfono tiene que estar en el mismo Wi-Fi que mi Cora Max? {#does-my-phone-need-the-same-wi-fi}
 
-Más información: [La pantalla de inicio de Cora Max](/help/max-tour)
+Solo mientras lo emparejas. Después puedes usar Cora desde cualquier sitio. Algunos ajustes propios de un dispositivo siguen necesitando tu teléfono en la red de ese dispositivo.
 
-### ¿Cora Max sigue funcionando si no llega a Cora Cloud?
+### ¿Cora Max necesita internet, o le basta con el Wi-Fi de casa? {#does-cora-max-need-the-internet}
 
-Sigue mostrando los últimos datos que tiene y sigue funcionando con los equipos de su propia red. Para iniciar sesión, sincronizar entre dispositivos y usar Cora Assistant, tiene que volver a llegar a Cora Cloud.
+Las dos cosas. Necesita el Wi-Fi de casa para llegar a tus equipos, e internet para llegar a Cora Cloud para la sincronización, tus otros dispositivos y el Asistente. La etiqueta de estado de la barra superior muestra cuál tiene. Más información en [La pantalla de inicio de Cora Max](/help/max-tour).
 
-Más información: [La pantalla de inicio de Cora Max](/help/max-tour), [Dispositivos y estado de los dispositivos](/help/max-devices)
+### ¿Qué pasa si se cae internet? {#what-happens-if-my-internet-goes-down}
 
-### ¿Puedo conectar Cora Max a otra red Wi-Fi más adelante?
+Cora Max y Cora Mobile siguen mostrando los últimos datos que tienen y siguen funcionando con los equipos de su propia red. La sincronización entre dispositivos, la voz y el Asistente vuelven cuando vuelve la conexión.
 
-Sí, desde el propio Cora Max. Conéctalo a la red nueva en sus ajustes de red. Tus acuarios, dispositivos y cuenta no cambian. Solo cambia la conexión Wi-Fi.
+### ¿Puedo cambiar Cora Max a una red Wi-Fi o un router nuevos? {#can-i-move-cora-max-to-a-new-wi-fi}
 
-Más información: [Configurar Cora Max](/help/max-setup)
+Sí. En Cora Max, conéctate a la red nueva en **Ajustes → Ajustes de Cora Max → Wi-Fi**. Tus acuarios, dispositivos y cuenta siguen igual. Los equipos de la red antigua quedan fuera de alcance hasta que se conecten a la nueva, así que vuelve a conectar cada dispositivo como lo añadiste la primera vez. Más información en [Configurar Cora Max](/help/max-setup).
 
 ## Cora Mobile
 
-### ¿Por qué Cora Mobile pide acceso a la red local y a Bluetooth?
+### ¿Por qué Cora Mobile pide acceso a la Red local y al Bluetooth? {#why-local-network-and-bluetooth}
 
-Con el acceso a la red local, Cora Mobile encuentra y empareja un Cora Max o un equipo Wi-Fi en la red de tu casa. Con el acceso a Bluetooth, empareja los equipos que funcionan por Bluetooth. Sin esos permisos, el emparejamiento no encuentra el dispositivo.
+Necesita acceso a la Red local para encontrar equipos Wi-Fi y llegar a un Cora Max en tu red doméstica, y el Bluetooth para emparejar un Cora Max y los equipos que usan Bluetooth. Sin ellos, no puede encontrar el dispositivo. Más información en [Ajustes de Cora Mobile](/help/mobile-settings).
 
-Más información: [Ajustes](/help/mobile-settings), [Solución de problemas](/help/troubleshooting)
+### ¿Puedo ver cómo está mi acuario cuando no estoy en casa? {#can-i-check-on-my-tank-away}
 
-### ¿Dos Cora Max pueden mostrar el mismo acuario?
+Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz, y en Beta HYDROS y Focustronic, se leen a través de la nube de su fabricante, así que se siguen actualizando de cualquier forma. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.
 
-Sí. Añade los dos al mismo acuario y los dos mostrarán los mismos datos en directo. El Cora Max principal solo decide cuál habla con los equipos locales, no cuál puede mostrar el acuario.
+### ¿Puedo controlar los equipos cuando estoy fuera de casa? {#can-i-control-equipment-away}
 
-Más información: [Más de un dispositivo Cora](/help/mobile-multi-device)
+Sí, si un Cora Max del acuario está en línea y puede llegar a ese equipo. Tu orden va a Cora Cloud y el Cora Max la ejecuta. Sin un Cora Max, solo puedes controlar un dispositivo Neptune Apex, Red Sea o Jecod mientras tu teléfono está en su red. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device).
 
-### ¿Puedo ver mi acuario desde el teléfono cuando no estoy en casa?
+### ¿Pueden usar dos personas el mismo acuario? {#can-two-people-use-the-same-tank}
 
-Sí. Las lecturas y el historial están siempre disponibles a través de Cora Cloud, estés donde estés. Lo que no son lecturas, como algunos ajustes propios de un dispositivo, solo se abre cuando el teléfono está en la misma red que ese dispositivo.
+Todavía no hay acceso compartido entre dos cuentas distintas. Un hogar puede iniciar sesión en la misma cuenta de Cora en más de un teléfono. Todos ven los mismos acuarios, reciben las mismas notificaciones, y los cambios se aplican a toda la cuenta. Para quien cuida el acuario, [Irse de viaje](/help/mobile-vacation) crea una página de solo lectura que no necesita cuenta. Una [instantánea compartida](/help/mobile-sharing) es solo una imagen.
 
-Más información: [Más de un dispositivo Cora](/help/mobile-multi-device)
+### ¿Cómo añado otro acuario? {#how-do-i-add-another-tank}
 
-### ¿Puedo controlar equipos, por ejemplo apagar una bomba, cuando estoy fuera?
+En Cora Mobile, abre **Ajustes** y toca **Agregar acuario**. Después pasa a él sus dispositivos, y añádelo a tu Cora Max si tienes uno. Más información en [Gestionar tus acuarios](/help/mobile-tanks).
 
-Con la mayoría de los equipos, sí. Las tomas, el modo alimentación y otros controles parecidos pasan por Cora Cloud, así que funcionan aunque no estés en la red del acuario. Algunos ajustes propios del dispositivo siguen necesitando que el teléfono esté en el Wi-Fi del acuario.
+### He quitado un acuario por error. ¿Puedo recuperarlo? {#can-i-get-a-removed-tank-back}
 
-Más información: [Más de un dispositivo Cora](/help/mobile-multi-device), [Controlar tus equipos](/help/mobile-device-control)
+Sí. Quitar un acuario solo lo oculta. Abre **Ajustes → Acuarios eliminados** y toca **Restaurar**. Sus lecturas, su diario y sus dispositivos vuelven tal como estaban. Si un acuario eliminado sigue enviando alertas, consulta [Solución de problemas](/help/troubleshooting#alerts-from-a-removed-tank).
 
-### ¿Pueden dos personas usar el mismo acuario?
+## Equipos
 
-Hoy Cora funciona con una cuenta por acuario. Si quieres que otra persona vea un acuario o te ayude con él, la forma prevista es compartirlo con ella, no usar la misma cuenta en dos teléfonos.
+### ¿Con qué equipos funciona Cora? {#what-equipment-does-cora-work-with}
 
-Más información: [Compartir](/help/mobile-sharing)
+Neptune Apex (con DŌS y Trident), equipos Red Sea ReefBeat, bombas Jecod y Jebao y el AquaWiz KH Controller. En Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird y cámaras. Para cualquier otra cosa, puedes anotar las lecturas a mano. Todas las marcas, con enlaces a sus páginas, están en [Equipos por marca](/help/equipment-by-brand).
 
-## Dispositivos e integraciones
+### ¿Qué significa "Beta" en una integración? {#what-does-beta-mean}
 
-### ¿Con qué equipos funciona Cora?
+Que todavía la estamos probando y desarrollando. Algunas lecturas o controles pueden estar limitados, y lo que ves puede cambiar entre actualizaciones.
 
-Cora se conecta con cada vez más controladores y equipos, desde controladores Wi-Fi hasta bombas dosificadoras y gyres. La lista actual está en la página de conexiones. Una parte está en Beta y solo se muestra a los usuarios Beta. Para lo que no se conecta directamente, puedes anotar las lecturas a mano.
+**Beta.** Las integraciones Beta solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Unirte a un programa de pruebas de una tienda no lo activa. Más información en [Funciones Beta](/help/mobile-beta).
 
-Más información: [Conexiones](/help/mobile-connections)
+### ¿Por qué una marca aparece en gris con "Requiere Cora Max"? {#why-requires-cora-max}
 
-### ¿Cora tiene relación con Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech o Inkbird?
+Ese equipo lo lee Cora Max, no tu teléfono. Añade antes un Cora Max al acuario, y la marca se habilita. Más información en [Equipos por marca](/help/equipment-by-brand).
 
-No. Cora no está afiliado a ningún fabricante de los equipos con los que se conecta, ni cuenta con su respaldo, ni es socio suyo. Eso incluye a Maxspect, GHL, HYDROS, Focustronic, EcoTech e Inkbird, cuyas integraciones están en Beta. Cora se comunica con sus cuentas públicas, sus API oficiales o sus protocolos de red local. Una actualización de la app o del firmware del fabricante puede cambiar o romper esa conexión en cualquier momento, por su parte y sin previo aviso.
+### ¿Cora está asociada con Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech o Inkbird? {#is-cora-affiliated}
 
-Más información: [Conexiones](/help/mobile-connections)
+No. Cora no está asociada con ningún fabricante al que se conecta, ni cuenta con su respaldo ni es socia suya. Cora se comunica con sus cuentas públicas, sus API oficiales o sus protocolos de red local. Una actualización de la app o del firmware de un fabricante puede cambiar o romper esa conexión en cualquier momento, sin aviso. Más información en [Conectar tus equipos](/help/mobile-connections).
 
-### ¿Qué significa que una integración está en "Beta"?
+### Mi teléfono no encontró nada al buscar equipos. ¿Por qué? {#search-found-nothing}
 
-Significa que todavía la estamos probando y desarrollando. Algunas lecturas o controles pueden ser limitados, y lo que ves puede cambiar entre actualizaciones. Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird y las cámaras (con la vigilancia del skimmer) están hoy en Beta.
+Comprueba que el equipo está encendido y ya configurado en la app del fabricante, si la necesita. Después comprueba que tu teléfono permite a Cora el acceso a la Red local y al Bluetooth. Cora no puede encontrar un equipo que nunca se ha conectado a tu red. Más información en [Solución de problemas](/help/troubleshooting#a-device-cannot-be-reached).
 
-Las integraciones Beta solo están abiertas a los usuarios Beta. Si no lo eres, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Entrar en un programa de pruebas de una tienda no lo activa. Más información en [Funciones Beta](/help/mobile-beta).
+### ¿Es seguro dejar que Cora controle mi bomba dosificadora? {#is-it-safe-to-let-cora-dose}
 
-Si algo no funciona como describe esta guía, cuéntanoslo desde [Obtener ayuda](/help/mobile-support).
+Cora solo dosifica lo que tú configuras: un producto, una cantidad y un horario que defines, dentro de los límites que fijas para cada cabezal. Si una dosis se detiene a medias, Cora genera una alerta que lo dice, y te indica cuánto entró cuando puede saberlo. Léela antes de dar por hecho que entró la dosis completa. Más información en [Controlar tus equipos](/help/mobile-device-control) y [Solución de problemas](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared).
 
-### ¿Por qué Cora Mobile no encuentra mi Cora Max al emparejarlo?
+### ¿Cómo sabe Cora la concentración de mi producto de dosificación? {#how-strong-is-my-dosing-product}
 
-Casi siempre es el Wi-Fi. Para emparejar, el teléfono y el Cora Max tienen que estar en la misma red, y en iPhone, Cora también necesita acceso a la red local. Cora Mobile te dice en qué paso falló el emparejamiento y te ofrece **Reintentar**.
-
-Más información: [Solución de problemas](/help/troubleshooting)
-
-### ¿El teléfono tiene que estar en el mismo Wi-Fi que Cora Max?
-
-Para emparejarlo, sí. Después, el uso diario funciona desde cualquier sitio a través de Cora Cloud. Solo unos pocos ajustes propios del dispositivo necesitan que el teléfono vuelva a ese Wi-Fi.
-
-Más información: [Más de un dispositivo Cora](/help/mobile-multi-device), [Solución de problemas](/help/troubleshooting)
-
-### ¿Qué pasa si cambio el router o el nombre de la red Wi-Fi?
-
-Los equipos y los Cora Max que se conectaban por esa red dejarán de estar accesibles hasta que se conecten a la red nueva o al nombre nuevo. Vuelve a conectar cada dispositivo de la misma forma que cuando lo añadiste.
-
-Más información: [Solución de problemas](/help/troubleshooting)
-
-### Busqué equipos y no apareció nada, ¿qué pasa?
-
-Comprueba que el equipo está encendido y, si lo necesita, ya configurado en la app de su fabricante. Comprueba también que el teléfono tiene permiso de acceso a la red local y a Bluetooth. Un equipo que nunca se ha conectado a tu red no aparecerá hasta que lo haga.
-
-Más información: [Ajustes](/help/mobile-settings), [Solución de problemas](/help/troubleshooting)
-
-### ¿Por qué han dejado de actualizarse las lecturas de mi equipo Red Sea?
-
-Si nada en la red de ese acuario está consultando tu equipo Red Sea, Cora muestra un aviso de que ningún dispositivo lo está leyendo. Revisa el Cora Max principal en Ajustes, o abre el acuario en un dispositivo que esté en el mismo Wi-Fi que el equipo Red Sea.
-
-Más información: [Solución de problemas](/help/troubleshooting), [Más de un dispositivo Cora](/help/mobile-multi-device)
-
-### ¿Por qué sale "No se pudo contactar a la bomba" al controlar mi bomba Jecod?
-
-La orden no llegó a la bomba. Lo normal es que esté apagada, fuera de su red o, si solo funciona por Bluetooth, fuera de alcance. Comprueba la alimentación y la conexión, acércate si se empareja por Bluetooth y vuelve a intentarlo.
-
-Más información: [Solución de problemas](/help/troubleshooting)
-
-### ¿Por qué no se aplica el programa del gyre?
-
-Enviar un horario a un gyre puede fallar igual que una orden: el gyre no respondió. Comprueba que está encendido y en su red, y vuelve a intentarlo desde la pantalla del horario.
-
-Más información: [Programar equipos](/help/mobile-schedules), [Solución de problemas](/help/troubleshooting)
-
-### ¿Es seguro que Cora controle mi bomba dosificadora de forma automática?
-
-Cora solo dosifica lo que tú configuras: el producto, la concentración y el horario que definas. Si una dosis se corta a mitad, Cora lanza una alerta concreta y no da por hecho que terminó. Así nunca se dosifica de menos ni de más sin que lo sepas.
-
-Más información: [Dosificación](/help/mobile-dosing), [Controlar tus equipos](/help/mobile-device-control)
-
-### ¿Qué pasa si una dosis se corta a mitad?
-
-Cora lanza una alerta que te dice que la dosis no terminó y, cuando puede saberlo, cuánto llegó a entrar. Revisa esa alerta antes de dar por hecho que entró la dosis completa, y a partir de ahí reanuda o ajusta.
-
-Más información: [Controlar tus equipos](/help/mobile-device-control)
-
-### ¿Cómo sabe Cora la concentración de mi producto de dosificación?
-
-La saca de una biblioteca de sales y productos de dosificación con sus valores publicados y verificados, o de la concentración que escribes tú al añadir tu propio producto.
-
-Más información: [Dosificación](/help/mobile-dosing)
+Sale de la biblioteca de productos incluida, que lista sales y productos de dosificación con sus valores publicados. Si añades tu propio producto, escribes tú la concentración. Más información en [Dosificación](/help/mobile-dosing).
 
 ## Alertas y notificaciones
 
-### ¿Por qué no me llega ninguna notificación?
+### ¿Por qué no me llega ninguna notificación? {#why-no-notifications}
 
-En **Ajustes → Notificaciones**, comprueba que la categoría de la alerta tiene permitidas las notificaciones push. Revisa también el permiso de notificaciones de Cora en los ajustes del teléfono. Además, el resumen diario no avisa los días en que no ha cambiado nada. Eso es lo normal, no un fallo.
+Normalmente hay una categoría desactivada en **Ajustes → Notificaciones**, o tu teléfono no permite notificaciones de Cora. Los pasos están en [Solución de problemas](/help/troubleshooting#im-not-getting-notifications).
 
-Más información: [Notificaciones](/help/mobile-notifications), [Solución de problemas](/help/troubleshooting)
+### ¿Por qué mi widget está en gris? {#why-is-my-widget-grey}
 
-### ¿Por qué no desaparece una alerta si la lectura parece estar bien?
+Cora no lo está valorando: su alerta está desactivada, no tiene rango o la lectura es demasiado antigua. Consulta [Solución de problemas](/help/troubleshooting#a-widget-is-grey).
 
-Puede que la lectura siga fuera de rango (mira su historial), que el umbral no encaje con tu acuario o que la fuente (muchas veces una sonda que hay que calibrar) esté dando un número fuera de rango. Lo que suele tocar es arreglar la fuente, no cambiar el umbral.
+### ¿Puedo silenciar las notificaciones por la noche? {#can-i-stop-notifications-at-night}
 
-Más información: [Alertas y umbrales](/help/mobile-alerts), [Solución de problemas](/help/troubleshooting)
+Cora Mobile no tiene horas de silencio propias. Usa el modo Concentración o No molestar de tu teléfono, y deja pasar a Cora si aún quieres las alertas urgentes. En Cora Max, **Atenuación nocturna** atenúa la pantalla por la noche, y puedes desactivar **Sonido de alerta** en **SONIDO Y VOZ**, en **Ajustes → Ajustes de Cora Max**. Más información en [Notificaciones](/help/mobile-notifications#quiet-at-night).
 
-### ¿Cómo silencio una alerta un rato sin desactivarla?
+### ¿Cómo silencio una alerta un tiempo sin desactivarla? {#how-do-i-silence-an-alert}
 
-En Cora Max, toca **Posponer**. Silencia esa alerta en esa pantalla durante el tiempo de espera fijado en la regla de alerta. La alerta sigue abierta y su umbral no cambia. En el teléfono, lo que haces es poner un **Tiempo de espera entre alertas** más largo en la regla.
+En Cora Max, toca **Posponer**. Silencia esa alerta en esa pantalla durante el **Tiempo de espera entre alertas** de la regla (hasta 1 semana). La alerta sigue abierta y su rango no cambia. En tu teléfono, fija en su lugar un **Tiempo de espera entre alertas** más largo en la regla. Más información en [Alertas y umbrales](/help/mobile-alerts).
 
-Más información: [Alertas y umbrales](/help/mobile-alerts)
+### ¿Qué diferencia hay entre Posponer y Descartar? {#snooze-or-dismiss}
 
-### ¿Qué diferencia hay entre posponer una alerta y descartarla?
+Los dos están en Cora Max y solo afectan a esa pantalla. **Posponer** silencia la alerta ahí durante un tiempo, y vuelve si el problema sigue cuando termina ese tiempo. **Descartar** la cierra ahí hasta que la lectura vuelve al rango. Si el problema vuelve más tarde, recibes una alerta nueva.
 
-Los dos están en Cora Max y solo afectan a esa pantalla. **Posponer** silencia ahí la alerta un tiempo, y vuelve si el problema sigue ahí cuando termina. **Descartar** la cierra ahí hasta que la lectura vuelva a estar en rango. Si el problema reaparece más adelante, recibirás una alerta nueva.
+### ¿Por qué me llegó una alerta al teléfono pero no a Cora Max, o al revés? {#alert-on-phone-not-on-cora-max}
 
-Más información: [Alertas y umbrales](/help/mobile-alerts)
-
-### ¿Puedo elegir cuánto tiempo pospongo una alerta? ¿Una semana es lo máximo?
-
-Se pospone durante el **Tiempo de espera entre alertas** de la regla, que se fija en Cora Mobile. Lo máximo es 1 semana.
-
-Más información: [Alertas y umbrales](/help/mobile-alerts)
-
-### ¿Por qué me llegó una alerta al teléfono y no a Cora Max, o al revés?
-
-Los interruptores de **Ajustes → Notificaciones** en Cora Mobile son de tu cuenta y valen para cada teléfono en el que hayas iniciado sesión. Cora Max no tiene interruptores de notificaciones. Muestra cada alerta en la pared, salvo que la hayas pospuesto o descartado en esa pantalla. Si tu teléfono no avisa, comprueba que la categoría esté activada y que el teléfono permita las notificaciones de Cora.
-
-Más información: [Notificaciones](/help/mobile-notifications), [Alertas en Cora Max](/help/max-alerts)
+Los interruptores de **Ajustes → Notificaciones** pertenecen a tu cuenta, así que se aplican a todos los teléfonos en los que has iniciado sesión. Cora Max muestra todas las alertas salvo que las alertas en pantalla estén desactivadas para esa pantalla (en tu teléfono, **Dispositivos**, tu Cora Max, **Alertas**), o que la pospusieras o la descartaras ahí. Más información en [Alertas en Cora Max](/help/max-alerts).
 
 ## Reef Buddy y Cora Assistant
 
-### ¿Qué le puedo preguntar a Cora y qué no puede hacer?
+### ¿Qué es Reef Buddy, y en qué se diferencia del Asistente? {#reef-buddy-or-assistant}
 
-Cora Assistant responde a preguntas sobre las lecturas, el historial, la dosificación y el diario de tu acuario, y puede hacer acciones en tus equipos si se lo pides por voz o por escrito. No puede hacer nada sobre algo de lo que no tiene datos o conexión, y en ese caso te lo dice. No se lo inventa.
+Reef Buddy es tu resumen diario, escrito para ti sin que lo pidas. Tiene un titular, dos puntuaciones y los puntos en los que se basan. Cora Assistant es a quien haces preguntas, cuando quieras, escribiendo o hablando. Más información en [Reef Buddy](/help/mobile-reef-buddy).
 
-Más información: [El Asistente](/help/mobile-assistant)
+### ¿Por qué se detuvo mi resumen, o por qué mi segundo acuario no recibe uno? {#why-did-my-briefing-stop}
 
-### ¿Cora puede controlar mis equipos o solo me informa?
+Reef Buddy forma parte de los planes de pago y de la prueba gratuita de 30 días. Cada plan cubre un número fijo de acuarios, contados en el orden de **Ajustes → Reordenar acuarios**. Un día en que no cambia nada, el resumen no dice nada. Más información en [Solución de problemas](/help/troubleshooting#my-daily-briefing-stopped).
 
-Las dos cosas. Si le preguntas algo, te responde con los datos de tu acuario. Si le pides que haga algo (como iniciar el modo alimentación) y el equipo puede hacerlo, lo hace.
+### ¿Qué le puedo preguntar a Cora, y qué puede hacer? {#what-can-i-ask-cora}
 
-Más información: [El Asistente](/help/mobile-assistant), [Voz en Cora Max](/help/max-voice)
+Pregunta por las lecturas, el historial, la dosificación, los resultados de laboratorio y el diario de tu acuario. Cora también puede hacer cosas por ti, como anotar una prueba o manejar un equipo, y te pide que confirmes primero. Te dice cuándo no tiene datos o conexión para algo, en lugar de adivinar. Más información en [Preguntar a Cora](/help/mobile-assistant) y [Hablar con Cora](/help/max-voice).
 
-### ¿Cora recuerda lo que le dije la última vez?
+### ¿Cora recuerda lo que le dije la última vez? {#does-cora-remember}
 
-Sí, dentro de los límites que explica la página del Asistente. Puede usar lo que ya sabe de tu acuario para que no tengas que repetirlo todo cada vez.
+Sí, dentro de los límites de la página [Preguntar a Cora](/help/mobile-assistant). Puede usar el contexto anterior sobre tu acuario, así que no tienes que repetirte.
 
-Más información: [El Asistente](/help/mobile-assistant)
+### ¿Por qué Cora me dio una respuesta incorrecta o rara? {#why-a-wrong-answer}
 
-### ¿Por qué Cora me dio una respuesta equivocada o rara?
-
-Cora Assistant responde con los datos que tiene del acuario que has seleccionado. Lo más habitual es que esté elegido otro acuario, que falten lecturas o que la pregunta no esté clara. Pregúntalo de otra forma o revisa qué acuario está seleccionado, y vuelve a intentarlo.
-
-Más información: [El Asistente](/help/mobile-assistant)
-
-### ¿Qué es Reef Buddy y en qué se diferencia del Asistente?
-
-Reef Buddy es tu resumen diario, que te llega sin que lo pidas: un titular, dos puntuaciones y los análisis en los que se basan. A Cora Assistant le preguntas tú cuando quieres, por escrito o por voz.
-
-Más información: [Reef Buddy](/help/mobile-reef-buddy), [Glosario](/help/glossary)
+Cora responde con los datos que tiene del acuario que elegiste. Las causas habituales son el acuario equivocado, que falten lecturas o una pregunta que puede significar dos cosas. Revisa el selector de acuario o reformula la pregunta, y vuelve a intentarlo.
 
 ## Idiomas
 
-### ¿En qué idioma habla Cora? ¿Cada persona de la familia puede usar uno distinto?
+### ¿Qué idiomas habla Cora? {#which-languages}
 
-Cora usa un único idioma para toda la cuenta, no uno por persona ni por dispositivo. Todos los que inicien sesión con esa cuenta ven el mismo idioma en todas partes.
+Inglés, alemán, francés, turco, italiano, español y polaco. Cora usa un solo idioma para toda la cuenta, así que todos los que han iniciado sesión en esa cuenta ven el mismo idioma en todos los dispositivos. Más información en [Ajustes de Cora Mobile](/help/mobile-settings).
 
-Más información: [Ajustes](/help/mobile-settings), [Glosario](/help/glossary)
+### Cambié el idioma en mi teléfono. ¿Por qué cambió también mi Cora Max? {#language-changed-everywhere}
 
-### Cambié el idioma en el teléfono, ¿por qué ha cambiado también Cora Max?
+El idioma es un ajuste de la cuenta. Cámbialo en tu teléfono o en cualquier Cora Max y cambia en todas partes en unos instantes.
 
-Porque el idioma es un ajuste de la cuenta, no del dispositivo. Si lo cambias en cualquier sitio (el teléfono o cualquier Cora Max), en unos instantes cambia en todas partes.
+### ¿Se traducirán los informes y las alertas antiguos? {#are-old-reports-translated}
 
-Más información: [Ajustes](/help/mobile-settings), [Glosario](/help/glossary)
-
-### ¿Se traducen los informes y alertas antiguos al cambiar de idioma?
-
-No. Lo que ya estaba generado se queda en el idioma en que se escribió. Solo las alertas, informes y resúmenes de Reef Buddy nuevos salen en el idioma nuevo.
-
-Más información: [Ajustes](/help/mobile-settings), [Glosario](/help/glossary)
+No. Lo que ya está escrito se queda en su idioma original. Las alertas, los informes y los resúmenes de Reef Buddy nuevos usan el idioma nuevo.
 
 ## Cuenta, planes y privacidad
 
-### ¿Qué es gratis para siempre y qué necesita suscripción?
+### ¿Qué es gratis y qué necesita un plan? {#whats-free}
 
-Los planes actuales, sus límites y lo que incluye cada uno están en la pantalla de Planes de Cora Mobile y en la página de ayuda de Planes. Consúltalos ahí y no te fíes de una cifra puesta aquí, porque los planes pueden cambiar.
+Consulta [Planes y suscripciones](/help/mobile-plans) para ver qué incluye cada plan.
 
-Más información: [Planes](/help/mobile-plans)
+### ¿El plan Max es lo mismo que Cora Max? {#max-plan-or-cora-max}
 
-### ¿Qué pasa con mis datos si termina la prueba o la suscripción?
+No. El plan **Max** es una suscripción en Cora Mobile. Cora Max es la pantalla de pared. No necesitas uno para tener el otro.
 
-Tu historial del acuario no se borra cuando termina una prueba o una suscripción. Lo que cambia son las funciones que siguen disponibles. En la página de Planes ves exactamente qué incluye cada nivel.
+### ¿Qué pasa con el historial de mi acuario si termina mi prueba gratuita o mi plan? {#history-when-plan-ends}
 
-Más información: [Planes](/help/mobile-plans)
+No se borra nada. Tus acuarios, dispositivos e historial se quedan en tu cuenta, tengas el plan que tengas. Solo cambian las funciones que puedes usar.
 
-### Si elimino mi cuenta de Cora, ¿se cancela mi suscripción de Apple o Google?
+### ¿Eliminar mi cuenta de Cora cancela mi suscripción de Apple o Google? {#does-deleting-cancel-subscription}
 
-No. Eliminar tu cuenta de Cora no cancela una suscripción comprada en App Store o Google Play. Tienes que cancelarla aparte con Apple o Google.
+No. Cancela también la suscripción con Apple o Google. La confirmación de **Eliminar cuenta** tiene un botón **Gestionar suscripción** para eso. Más información en [Exportar tus datos y eliminar tu cuenta](/help/mobile-data-export).
 
-Más información: [Ajustes](/help/mobile-settings)
+### ¿Cómo cambio mi correo o mi contraseña? {#change-email-or-password}
 
-### ¿Puedo cambiar o cancelar mi plan sin perder el historial del acuario?
+Para cambiar tu contraseña, cierra sesión y usa **¿Olvidaste tu contraseña?** en la pantalla de inicio de sesión. Para cambiar tu correo después de haberlo verificado, contacta con el soporte. Si inicias sesión con Apple o Google, cámbialos con Apple o Google. Más información en [Inicio de sesión y recuperación de la cuenta](/help/mobile-account).
 
-Sí. Tus acuarios, dispositivos e historial se quedan en tu cuenta aunque cambies de plan. Solo cambian las funciones que puedes usar.
+### ¿Qué hace Cora con los datos de mi acuario? {#what-does-cora-do-with-my-data}
 
-Más información: [Planes](/help/mobile-plans)
+Cora los usa para mostrar tus lecturas, gestionar las alertas y hacer funcionar Reef Buddy y Cora Assistant. Qué se guarda y cómo se puede usar se explica en [Exportar tus datos y eliminar tu cuenta](/help/mobile-data-export), [Ajustes de Cora Mobile](/help/mobile-settings) y la política de privacidad.
 
-### ¿Qué hace Cora con los datos de mi acuario?
+### ¿Puedo obtener una copia de todo lo que Cora ha guardado sobre mi acuario? {#can-i-get-a-copy}
 
-Cora usa los datos de tu acuario para enseñarte tus lecturas, hacer funcionar las alertas y los umbrales, y para Reef Buddy y Cora Assistant. Qué se guarda y cómo se puede usar lo explican las páginas de exportación de datos y de ajustes, y la política de privacidad.
-
-Más información: [Tus datos](/help/mobile-data-export), [Ajustes](/help/mobile-settings)
-
-### ¿Puedo conseguir una copia de todo lo que Cora guarda de mi acuario?
-
-Sí, puedes pedir una exportación desde Cora Mobile. En la página de exportación de datos ves qué incluye y cómo pedirla.
-
-Más información: [Tus datos](/help/mobile-data-export)
-
-### Si elimino mi cuenta, ¿se borra todo de verdad?
-
-Al eliminar tu cuenta se borran tus datos como explica la página de Ajustes, incluida la opción de aportar datos anonimizados. Si quieres conocer el detalle exacto, léela antes de eliminar la cuenta.
-
-Más información: [Ajustes](/help/mobile-settings)
-
-## Si algo no va bien
-
-### ¿Por qué un widget no muestra ningún valor?
-
-Suele ser un problema de conexión, no que falte el parámetro. Mira si a los widgets de al lado les pasa lo mismo y luego revisa la fila del dispositivo en **Dispositivos**.
-
-Más información: [Solución de problemas](/help/troubleshooting)
-
-### ¿Por qué una lectura dice que es de hace una hora?
-
-La antigüedad es correcta: no ha llegado nada más nuevo. Algunos equipos son lentos de por sí (por ejemplo, un valorador que mide cada hora). Si no es el caso, revisa la fila del dispositivo en **Dispositivos**.
-
-Más información: [Solución de problemas](/help/troubleshooting)
-
-### Mi dispositivo dice "inicio de sesión rechazado", ¿qué hago?
-
-La cuenta del fabricante ha rechazado el inicio de sesión guardado. Casi siempre es porque la contraseña ha cambiado en su lado. Abre la fila del dispositivo y vuelve a iniciar sesión.
-
-Más información: [Solución de problemas](/help/troubleshooting)
-
-### ¿Por qué Cora Max muestra datos viejos si pone "En línea"?
-
-Tanto **En línea** como **Nube** quieren decir que la pantalla está bien. Si ves cualquiera de las dos y los datos siguen siendo viejos, el problema está antes de Cora Max, no en la pantalla. Mira el mismo acuario en el teléfono.
-
-Más información: [Solución de problemas](/help/troubleshooting), [La pantalla de inicio de Cora Max](/help/max-tour)
-
-### ¿Por qué no coinciden mi sonda y mi kit de pruebas?
-
-Cora te está avisando de que de verdad no coinciden. No es un fallo. Calibra la sonda, repite la prueba con reactivo nuevo y compara las dos en las mismas condiciones. Un resultado de ICP puede darte un tercer dato.
-
-Más información: [Solución de problemas](/help/troubleshooting), [ICP e informes de salud](/help/mobile-icp-health)
-
-### ¿Qué pasa si se cae internet?
-
-Cora Max y Cora Mobile siguen mostrando los últimos datos que recibieron y siguen funcionando con los equipos que ya están en su propia red. El inicio de sesión, la sincronización y Cora Assistant vuelven en cuanto vuelve la conexión.
-
-Más información: [Solución de problemas](/help/troubleshooting), [La pantalla de inicio de Cora Max](/help/max-tour)
-
-### ¿Cora funciona sin internet?
-
-En parte. Las lecturas que ya habían llegado y el control de los equipos que están en la misma red local siguen funcionando. El inicio de sesión, la sincronización entre dispositivos, el almacenamiento en Cora Cloud y Cora Assistant necesitan conexión a internet.
-
-Más información: [La pantalla de inicio de Cora Max](/help/max-tour), [Solución de problemas](/help/troubleshooting)
+Sí, puedes exportarlo desde Cora Mobile. [Exportar tus datos](/help/mobile-data-export) explica qué incluye la exportación.
 
 ---
 
-¿No encuentras tu respuesta? En [Solución de problemas](/help/troubleshooting) tienes soluciones según lo que te pase, o escríbenos a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+¿Sigues sin encontrar la respuesta? [Solución de problemas](/help/troubleshooting) recorre las soluciones síntoma a síntoma, o escribe a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

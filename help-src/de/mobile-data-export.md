@@ -1,71 +1,81 @@
 ---
-title: Deine Daten
-description: So exportierst du Messwerte, Tagebuch und Warnungen als Tabellen, und so löschst du dein Konto.
+title: Daten exportieren und Konto löschen
+description: Deine Messwerte, dein Tagebuch und deine Warnungen als Tabellendateien exportieren, dich abmelden oder dein Cora-Konto löschen, und was das entfernt.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 30
-group: Account
+reviewed: 2026-10-13
+order: 36
+group: Settings and account
 ---
 
-Die Aufzeichnungen zu deinen Becken gehören dir. Du kannst sie jederzeit mitnehmen.
+Die Aufzeichnungen zu deinen Becken gehören dir. Diese Seite zeigt, wie du sie exportierst und wie du dein Konto löschst, wenn du das willst.
 
-![Kontodaten-Steuerungen](img/mobile-data.webp "Export und Löschung stehen zusammen am unteren Rand von Konto & Abo.")
+![Meine Daten exportieren und Konto löschen in Cora Mobile](img/mobile-data.webp "Einstellungen, dann dein Konto: Meine Daten exportieren und Konto löschen stehen unter Abmelden.")
 
 ## Exportieren
 
-**Einstellungen → dein Konto → Meine Daten exportieren.**
+1. Öffne **Einstellungen** und tippe oben auf die Kontokarte. **Konto & Abo** öffnet sich.
+2. Tippe auf **Meine Daten exportieren**.
 
-Der Export ist **in jedem Plan kostenlos**, auch im kostenlosen.
+Der Export ist **in jedem Abo kostenlos**, auch im kostenlosen.
 
-Cora exportiert **CSV-Dateien**. Das sind Tabellen, die du in Excel, Numbers, Google Sheets oder jedem anderen Tabellenprogramm öffnen kannst:
+Cora exportiert **CSV-Dateien**. Das sind Tabellen, die sich in Excel, Numbers, Google Sheets oder jedem anderen Programm öffnen, das eine Tabelle lesen kann.
 
-| Datei | Inhalt |
+| Datei | Enthält |
 |---|---|
-| `cora_parameters.csv` | deine Messwerte, jeweils mit Quelle und Zeitstempel |
-| `cora_journal.csv` | deine Tagebucheinträge |
-| `cora_alerts.csv` | ausgelöste Warnungen |
-| `cora_export_summary.csv` | was dieser Export umfasst, auch was abgeschnitten wurde |
+| `cora_parameters.csv` | Deine Messwerte, jeweils mit Quelle und Zeitstempel |
+| `cora_journal.csv` | Deine Tagebucheinträge |
+| `cora_alerts.csv` | Ausgelöste Warnungen |
+| `cora_export_summary.csv` | Was dieser Export umfasst, auch alles, was abgeschnitten wurde |
 
-:::note Was im Export steckt und was nicht
-Der Export umfasst **Messwerte, Tagebucheinträge und Warnungen**. Nach diesen drei Aufzeichnungen fragen die meisten. Eine Kopie deines ganzen Kontos ist er nicht. Dashboards, Besatz, Wartung, Automationen, Berichte und Geräteeinstellungen fehlen.
+:::note Was im Export steckt
+Er umfasst **Messwerte, Tagebucheinträge und Warnungen**, die drei Aufzeichnungen, nach denen gefragt wird. Er ist keine Kopie deines ganzen Kontos. Dashboards, Besatz, Wartung, Automationen, Berichte und Geräteeinstellungen sind nicht enthalten.
 
-Jede der drei Dateien ist auf **25.000 Zeilen pro Becken** begrenzt. Ein Becken, das alle fünf Minuten dreißig Wasserwerte protokolliert, kommt in drei Tagen schon darüber. Bei einem Becken, das lange läuft, wird der Export also an der Grenze abgeschnitten. Die Zusammenfassungsdatei sagt dir klar, ob das passiert ist. Schau dort nach und geh nicht einfach davon aus, dass die Datei vollständig ist.
+Jede der drei endet bei **25.000 Zeilen pro Becken**. Ein Becken, das alle fünf Minuten dreißig Werte protokolliert, schreibt in drei Tagen mehr als das, ein lange laufendes Becken erreicht die Grenze also. Die Zusammenfassungsdatei sagt dir, wenn das passiert ist. Prüf sie, bevor du davon ausgehst, dass der Export vollständig ist.
 :::
 
-Im Wasserwert-Export steht zu jedem Messwert auch die **Quelle**. In einer Tabelle deiner Alkalinität siehst du also weiterhin, was die Sonde gemessen hat und was dein Testkit.
+Der Wasserwert-Export enthält die **Quelle** jedes Messwerts. In einer Tabelle deiner Alkalinität kannst du also weiterhin unterscheiden, was deine Sonde gesagt hat und was dein Testkit.
 
-:::note Vor größeren Umbauten exportieren
-Mach einen Export, bevor du ein Becken auflöst oder deine Einrichtung stark veränderst. Die exportierten Dateien funktionieren unabhängig von Cora Mobile und deinem Konto.
+:::note Vor großen Änderungen exportieren
+Mach einen Export, bevor du ein Becken auflöst oder deine Einrichtung stark änderst. Die Dateien hängen nicht von Cora Mobile oder deinem Konto ab.
 :::
 
-## Abmelden oder löschen?
+## Abmelden oder löschen
 
-**Abmelden** trennt dieses Gerät von deinem Konto. Deine Daten bleiben, wie sie sind. Meldest du dich wieder an, ist alles wieder da.
+**Abmelden** trennt dieses Handy von deinem Konto. Deine Daten werden nicht angerührt, und wenn du dich wieder anmeldest, ist alles zurück.
 
 **Konto löschen** ist endgültig.
 
 ## Dein Konto löschen
 
-**Einstellungen → dein Konto → Konto löschen.**
-
-Das ist endgültig. Dein Konto, deine Becken, Messwerte, dein Tagebuch, deine Laborergebnisse und die Verknüpfungen zu deinen Geräten werden entfernt. Du kannst das nicht rückgängig machen, und es gibt keine Karenzzeit.
-
-Willst du etwas behalten, exportiere es vorher.
-
-:::warning Dein Abo läuft weiter
-Ein Abo über den App Store oder Google Play gehört dem **Store**, nicht Cora. Löschst du dein Konto, verschwindet dein Eintrag hier, aber **die Abrechnung läuft weiter**. Die Kosten fallen an, bis du selbst bei Apple oder Google kündigst. Kündige also zuerst dort und lösche dann dein Konto.
+:::warning Löschen kündigt dein Abo nicht
+Ein Abo aus dem App Store oder von Google Play gehört dem **Store**. Löschst du dein Konto, wird dein Eintrag bei Cora entfernt, aber **die Abrechnung hört nicht auf**. Dir wird weiter etwas berechnet, bis du selbst bei Apple oder Google kündigst. Kündige zuerst dort und lösche dann. Siehe [Kündigen](/help/mobile-plans#cancelling).
 :::
+
+1. Willst du etwas behalten, [exportiere es](#exportieren) zuerst.
+2. Öffne **Einstellungen**, tippe auf die Kontokarte und dann auf **Konto löschen**.
+3. Lies die Bestätigung. Hast du ein Store-Abo, hat sie eine Taste **Abo verwalten**, damit du zuerst kündigen kannst.
+4. Tippe auf **Löschen**.
+
+Das entfernt dein Konto, deine Becken, Messwerte, dein Tagebuch, deine Laborergebnisse und die Verknüpfungen zu deinen Geräten. Du kannst es nicht rückgängig machen, und es gibt keine Schonfrist.
+
+Hast du dich vor einer Weile angemeldet, bittet dich Cora vielleicht, zu beweisen, dass du es bist, bevor etwas gelöscht wird. Mit E-Mail und Passwort fragt es **Bestätige dein Passwort**. Mit Apple oder Google meldest du dich dort noch einmal an. Versuch es dann erneut. Bis du das tust, wird nichts gelöscht.
 
 ## Anonymisierte Daten beisteuern
 
 **Einstellungen → Cora Assistant → Anonymisierte Beckendaten beisteuern.**
 
-Solange dieser Schalter an ist, wird die Wasserwert-Historie deines Beckens für die Riffforschung aufbewahrt, **ohne Bezug zu dir**. Das gilt auch, wenn du dein Konto später löschst. Schaltest du ihn aus, wird diese Historie mit allem anderen gelöscht.
+Solange das eingeschaltet ist, wird der Wasserwert-Verlauf deines Beckens für die Riffforschung aufbewahrt, **ohne Verbindung zu dir**. Das passiert, wenn du ein Becken entfernst und wenn du dein Konto löschst. Schalte es aus, und dieser Verlauf wird mit allem anderen gelöscht.
 
-Diese Entscheidung ist unabhängig von der Kontolöschung. Es ist der einzige Teil deiner Daten, der nach dem Löschen des Kontos bleibt. Entscheide also bewusst. Der Schalter ist **standardmäßig an**. Löschst du dein Konto, ohne ihn vorher auszuschalten, bleibt die anonymisierte Kopie erhalten.
+Das ist eine eigene Entscheidung, getrennt vom Löschen deines Kontos. Es ist der einzige Teil deiner Daten, der das Konto überdauert, denk also darüber nach. Es ist **standardmäßig eingeschaltet**. Löschst du dein Konto, ohne diesen Schalter zu prüfen, bleibt die anonymisierte Kopie zurück.
 
 ## Was Cora speichert
 
-Alle Details stehen in der [Datenschutzrichtlinie](/privacy-policy.html) (auf Englisch). Kurz zusammengefasst speichert Cora deine Beckendaten, dein Konto und die Zugangsdaten für Geräte, die du über ein Herstellerkonto verbunden hast.
+Die [Datenschutzerklärung](/privacy-policy.html) enthält alle Details. Kurz gesagt speichert Cora deine Beckendaten, dein Konto und die Anmeldungen für Ausrüstung, die du über das Konto eines Herstellers verbunden hast.
 
-Entfernst du ein Gerät, vergisst Cora diese Zugangsdaten. Löschst du dein Konto, verschwindet alles, was zu dir gespeichert ist. Es gibt nur die zwei Ausnahmen von oben: die anonymisierte Forschungskopie, wenn der Schalter an geblieben ist, und dein Store-Abo, das nur der Store kündigen kann.
+Entfernst du ein Gerät, vergisst Cora seine Anmeldung. Löschst du dein Konto, wird alles entfernt, was unter deinem Namen gespeichert ist, mit diesen Ausnahmen:
+
+- die anonymisierte Forschungskopie, wenn du diesen Schalter eingeschaltet gelassen hast
+- dein Store-Abo, das nur der Store kündigen kann
+- dein Kundeneintrag bei unserem Anbieter für die Abo-Verwaltung, der 120 Tage nach deinem Konto gelöscht wird, damit eine Erstattung oder ein Zahlungsstreit beim Store noch bearbeitet werden kann
+
+Wie du dich auf einem anderen Handy wieder anmeldest oder deine Anmeldung änderst, steht unter [Anmelden und Konto wiederherstellen](/help/mobile-account). Abos und Abrechnung stehen unter [Pläne und Abos](/help/mobile-plans).

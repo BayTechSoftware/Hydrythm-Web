@@ -1,56 +1,67 @@
 ---
-title: Pięć zakładek
-description: Krótki przegląd Cora Mobile: Panel, Urządzenia, Asystent, Inteligencja i Ustawienia oraz co jest w każdej z nich.
+title: Jak poruszać się po Cora Mobile
+description: Przegląd pięciu zakładek Cora Mobile, czyli Panel, Urządzenia, Asystent, Inteligencja i Ustawienia, a także nagłówka akwarium, dzwonka i przycisku dziennika.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 4
+reviewed: 2026-10-13
+order: 2
 group: Getting started
+twin: max-tour
 ---
 
-Cora Mobile ma pięć zakładek na dole ekranu. Prawie wszystko, czego potrzebujesz, jest w jednej z nich.
+Cora Mobile ma na dole pięć zakładek: **Panel**, **Urządzenia**, **Asystent**, **Inteligencja** i **Ustawienia**. Prawie wszystko, co robisz, dzieje się w jednej z nich.
 
 ![Pięć zakładek Cora Mobile](img/mobile-tabs.webp "Panel, Urządzenia, Asystent, Inteligencja, Ustawienia.")
 
-## Panel
+## Panel {#dashboard}
 
-Odczyty na żywo z wybranego akwarium. To główny ekran Cora Mobile.
+To główny ekran Cora Mobile. Pokazuje odczyty na żywo z jednego akwarium.
 
-Jeśli masz kilka akwariów, przesuwaj palcem w lewo i w prawo, żeby się między nimi przełączać. Kropki pod nagłówkiem pokazują, gdzie jesteś. W nagłówku akwarium jest jego nazwa i rząd przycisków: tryb karmienia, briefing Reef Buddy, udostępnianie i ołówek, który otwiera profil akwarium. Sam pulpit edytujesz osobnym przyciskiem **Edytuj panel** na dole strony.
+Jeśli masz więcej niż jedno akwarium, przesuwaj palcem w lewo albo w prawo, żeby się między nimi przełączać. Kropki na górze pokazują, na którym jesteś. Zobacz [Zarządzanie akwariami](/help/mobile-tanks).
 
-Szczegóły na stronie **[Jak czytać pulpit](/help/mobile-dashboard)**.
+W nagłówku akwarium jest nazwa akwarium (dotknij jej, żeby ją zmienić) i rząd ikon:
 
-## Urządzenia
+- **Karmienie** otwiera **Tryb karmienia**, w którym uruchamiasz jeden z cykli karmienia Neptune Apex. Widać go tylko przy akwarium z Apex. Zobacz [Nagłówek akwarium](/help/mobile-dashboard#the-tank-header).
+- Ikona gazety otwiera najnowsze podsumowanie **Reef Buddy**.
+- Ikona udostępniania tworzy zdjęcie akwarium do wysłania. Zobacz [Udostępnianie akwarium](/help/mobile-sharing).
+- Linijka otwiera **Jednostki**, które ustalają, jak to akwarium pokazuje odczyty.
+- Ołówek otwiera [profil akwarium](/help/mobile-tank-profile).
 
-Cały podłączony sprzęt, pogrupowany według marek. Każdą grupę można zwinąć, więc nawet przy dużej ilości sprzętu lista pozostaje czytelna.
+Tuż pod widżetami jest **Edytuj panel**, do zmiany samego pulpitu. Pod nim rząd przycisków ma **Zapisz parametry**, **Historia parametrów** i **Karmienie**, a dalej skróty do dziennika, alertów, konserwacji i obsady akwarium.
 
-Tu dodajesz nowy sprzęt, zmieniasz jego nazwę, przypisujesz go do akwarium i usuwasz. Więcej w **[Dodawaniu, edytowaniu i usuwaniu urządzeń](/help/mobile-devices)**.
+Więcej znajdziesz w [Jak czytać pulpit](/help/mobile-dashboard).
 
-## Asystent
+## Urządzenia {#devices}
 
-Pytaj Corę o akwarium zwykłym językiem, pisząc albo mówiąc. Cora widzi Twoje odczyty na żywo, historię i wyniki ICP. Na pytanie „dlaczego spada mi alkaliczność?” odpowie więc w odniesieniu do *Twojego* akwarium.
+Tu jest cały podłączony sprzęt, pogrupowany według marek. Każdą grupę możesz zwinąć, więc nawet pokój pełen sprzętu łatwo przejrzeć.
 
-Jak z niej korzystać, opisuje **[Rozmowa z Corą](/help/mobile-assistant)**.
+Tu dodajesz nowy sprzęt, zmieniasz jego nazwę, przypisujesz go do akwarium albo go usuwasz. Więcej w [Dodawaniu, edytowaniu i usuwaniu urządzeń](/help/mobile-devices).
 
-## Inteligencja
+## Asystent {#assistant}
 
-Tu są wyniki laboratoryjne i zmiany w dłuższym okresie. Prześlij test ICP, a Cora go odczyta, będzie śledzić każdy pierwiastek w czasie i powie, co się zmieniło od ostatniego razu. Raporty zdrowia to głębsza, okresowa ocena całego systemu.
+Pytaj Corę o akwarium zwykłym językiem, pisząc albo mówiąc. Cora widzi Twoje odczyty na żywo, historię i wyniki ICP. Gdy zapytasz „dlaczego spada mi alkaliczność?”, odpowie o *Twoim* akwarium.
 
-Szczegóły w **[ICP i raportach zdrowia](/help/mobile-icp-health)**.
+Więcej w [Pytaniach do Cory](/help/mobile-assistant).
 
-## Ustawienia
+## Inteligencja {#intelligence}
 
-Konto, akwaria, produkty dozujące, Asystent, powiadomienia, automatyzacja i Twój plan.
+Tu są Twoje wyniki z laboratorium i raporty zdrowia. Prześlij test ICP, a Cora go odczyta, będzie śledzić każdy pierwiastek w czasie i powie, co się zmieniło od ostatniego razu. Raport zdrowia to pełne sprawdzenie całego systemu, które uruchamiasz, kiedy chcesz.
 
-Opis wszystkich opcji znajdziesz w **[Ustawieniach](/help/mobile-settings)**.
+Więcej w [ICP i raportach zdrowia](/help/mobile-icp-health).
 
-## Wprowadzenie przy pierwszym uruchomieniu
+## Ustawienia {#settings}
 
-Gdy pierwszy raz otworzysz pulpit, Cora pokaże po kolei elementy ekranu. Robi to tylko raz.
+Tu zarządzasz kontem, akwariami, produktami do dozowania, Cora Assistant, powiadomieniami, automatyzacjami i planem. Dotknij akwarium na liście, żeby otworzyć wszystko, co do niego należy, na przykład progi alertów, **Mapowanie parametrów** i **Jednostki**.
 
-Żeby zobaczyć wprowadzenie jeszcze raz, wybierz **Ustawienia → O aplikacji → Powtórz wskazówki**. Wprowadzenie zacznie się od nowa, a Cora od razu przeniesie Cię na pulpit. Przydaje się po aktualizacji albo gdy dajesz telefon komuś innemu.
+Więcej w [Ustawieniach Cora Mobile](/help/mobile-settings).
 
-## Dwa przyciski poza zakładkami
+## Wprowadzenie przy pierwszym uruchomieniu {#the-first-run-tour}
 
-**Dzwonek** w prawym górnym rogu to historia powiadomień: wszystkie alerty zgłoszone przez Corę, od najnowszych. Liczba na nim pokazuje, ile jest jeszcze nieprzeczytanych.
+Gdy pierwszy raz otworzysz pulpit, Cora pokaże po kolei elementy ekranu: widżety, **Edytuj panel**, długie przytrzymanie widżetu, żeby dostroić jego zakres alertu, **Zapisz parametry**, skróty do zapisków oraz zakładki **Urządzenia**, **Asystent** i **Inteligencja**. Robi to tylko raz.
 
-**Przycisk dziennika** unosi się w prawym dolnym rogu Panelu. Dotknij go, żeby zapisać, co właśnie zostało zrobione: podmianę wody, nowy koralowiec, zmianę dawki. Zobacz też **[Dziennik](/help/mobile-journal)**.
+Żeby zobaczyć je jeszcze raz, przejdź do **Ustawienia → O aplikacji → Powtórz wskazówki**. Wprowadzenie zacznie się od nowa i przeniesie Cię na pulpit. Przydaje się po aktualizacji albo gdy dajesz telefon komuś innemu.
+
+## Dwa elementy poza zakładkami {#two-controls-outside-the-tabs}
+
+**Dzwonek** w prawym górnym rogu to historia powiadomień, ze wszystkimi alertami zgłoszonymi przez Corę, od najnowszych. Liczba na nim pokazuje, ile jeszcze nie przeczytano.
+
+**Przycisk dziennika** unosi się w prawym dolnym rogu Panelu. Dotknij go i powiedz, co właśnie zrobiono, na przykład podmianę wody, nowy koralowiec albo zmianę dawki. Gdy skończysz, dotknij przycisku stop, a Cora zapisze to w dzienniku. Zobacz [Dziennik](/help/mobile-journal).

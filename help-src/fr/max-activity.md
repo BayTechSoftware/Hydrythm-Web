@@ -1,41 +1,50 @@
 ---
 title: Activité sur Cora Max
-description: Toutes les commandes que votre système a exécutées, refusées ou n’a pas pu confirmer, sur l’écran de Cora Max.
+description: Vérifiez sur Cora Max si une commande a vraiment atteint votre équipement, qui ou quoi l’a demandée, et pourquoi une commande a été refusée.
 section: Cora Max
-reviewed: 2026-09-09
-order: 10
-group: Alerts
+reviewed: 2026-10-13
+order: 11
+group: Records
+twin: mobile-activity
 ---
 
-Cora Max affiche le même journal d’activité que le téléphone. Vous y voyez chaque **demande d’action** (chaque fois que quelque chose ou quelqu’un a voulu changer un réglage) et ce qu’elle est devenue. Une demande refusée ou non confirmée n’a parfois jamais atteint l’équipement. C’est justement pour cela qu’elle est enregistrée.
+L’activité est le journal de chaque tentative de changer quelque chose sur votre équipement, et de ce qu’elle est devenue. C’est le même journal que celui de votre téléphone. Regardez ici en premier quand quelque chose que vous avez demandé ne semble pas avoir eu lieu.
 
-Ouvrez-le depuis le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut) ou depuis **Réglages → Réglages de l’aquarium → [votre aquarium] → Activité**.
+Ouvrez-la depuis le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut), ou allez dans **Réglages → [votre aquarium] → Activité**.
 
-![Le journal d’activité sur Cora Max](img/max-activity.webp "La légende reste en haut de l’écran, pour qu’un résultat n’ait jamais à être mémorisé.")
+![Le journal d’activité sur Cora Max](img/max-activity.webp "La légende en haut explique chaque résultat.")
 
 ## Ce que dit chaque ligne
 
-Chaque ligne indique l’action, l’équipement et l’heure. Elle précise aussi deux choses plus utiles encore.
+Chaque ligne indique l’équipement et ce qui a été demandé, par exemple *Retour : Éteint*, ainsi que l’heure. Elle vous dit aussi deux autres choses.
 
-D’abord, qui a fait la demande. Ce peut être vous sur cet écran, vous sur votre téléphone, la voix, l’Assistant, une règle d’[automatisation](/help/mobile-automation), un bouton intelligent ou votre compte. Une demande faite depuis Cora Max est indiquée comme telle.
+**Qui l’a demandé.** Par exemple **Touché sur ce Cora**, **Voix sur ce Cora**, **Application Cora**, **Voix dans l’application Cora**, **Règle d’automatisation** ou **Envoyé depuis le cloud**.
 
-Ensuite, le chemin suivi. La ligne dit si la commande est passée par votre propre réseau ou par votre compte, et quel Cora l’a exécutée. Si vous avez plusieurs Cora, c’est ici que vous voyez lequel a agi.
+**Le chemin suivi.** **LAN** veut dire que la commande est passée par votre propre réseau. **VIA LE CLOUD** veut dire qu’elle est passée par Cora Cloud. Si vous avez plus d’un Cora Max, la ligne indique aussi lequel l’a exécutée.
 
 ## Les quatre résultats
+
+La légende en haut de l’écran les rappelle.
 
 | Résultat | Signification |
 |---|---|
 | **Confirmé** | L’équipement a répondu qu’il l’avait fait |
-| **Non confirmé** | La commande est partie, mais rien n’est revenu. Cela veut dire *on ne sait pas*, et non *ça a marché* |
-| **Refusé** | La commande n’a pas été exécutée. Une règle de sécurité, un verrou ou l’équipement lui-même l’a bloquée |
+| **Non confirmé** | Envoyé, mais rien n’est revenu. On ne sait pas si cela a marché |
+| **Refusé** | Non exécuté. Une règle de sécurité, un verrou ou l’équipement lui-même l’a refusé |
 | **Aucun changement** | L’équipement était déjà dans l’état demandé |
 
-## Pourquoi le résultat compte
+Sous une ligne **Refusé** ou **Non confirmé**, une phrase explique pourquoi et ce qu’il faut vérifier avant de réessayer. Par exemple : *Aucun appareil n’a répondu à temps, il se peut donc qu’il se soit quand même exécuté. Vérifiez l’équipement avant de répéter ceci.*
 
-Au moment où vous touchez l’écran, une commande envoyée mais jamais confirmée ressemble en tout point à une commande qui a marché. Cet écran montre la différence.
+## Quand quelque chose n’a pas eu lieu
 
-Si ce que vous avez demandé ne semble pas avoir eu lieu, regardez ici avant de croire l’équipement en panne. En général, la demande a été refusée ou aucune réponse n’est revenue.
+Sur un écran tactile, une commande envoyée mais jamais confirmée ressemble à une commande qui a marché. Cet écran vous montre la différence.
+
+1. Trouvez la ligne de ce que vous avez demandé.
+2. Si elle indique **Refusé**, lisez la raison en dessous. Rien n’a été exécuté.
+3. Si elle indique **Non confirmé**, vérifiez l’équipement lui-même avant de réessayer, pour ne pas le faire deux fois.
+
+Si cela ne s’explique toujours pas, voir [Établir pourquoi quelque chose a changé](/help/troubleshooting#establishing-why-something-changed).
 
 ## À lire avec le journal
 
-L’activité montre ce que le système a fait. Le [journal](/help/mobile-journal) montre ce que vous avez fait à la main. À eux deux, ils expliquent la plupart des surprises.
+L’activité montre ce que le système a fait. Le [journal](/help/max-records#journal) montre ce que vous avez fait à la main. À eux deux, ils expliquent la plupart des surprises.

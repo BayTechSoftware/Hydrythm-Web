@@ -1,59 +1,89 @@
 ---
 title: Updates and recovery
-description: How Cora Max updates itself, and what happens if an update goes wrong.
+description: How Cora Max updates itself, the install window and update channel, checking the version, the Recovery PIN, and what to do if Cora Max won't start or shows a support code.
 section: Cora Max
-reviewed: 2026-10-12
-order: 14
-group: Settings
+reviewed: 2026-10-13
+order: 15
+group: Settings and account
 ---
+
+Cora Max keeps itself up to date. This page explains when updates install, how to check your version, and how to get Cora Max going again if it won't start normally.
 
 ## Automatic updates
 
-Cora Max keeps itself up to date. New versions download in the background and install themselves, and Cora Max tells you what changed.
+New versions download in the background as soon as they're out. They install inside the **Install window**, 3 to 5 in the morning unless you change it, so the screen doesn't restart while you're looking at it. When a version brings release notes, Cora Max shows them.
 
 You don't need to do anything to stay current.
 
-## Checking the version
+## Checking the version and update settings
 
-![Device settings](img/max-updates.webp "Firmware Update, in the Network & Updates section of Cora Max Settings.")
+![Network and updates on Cora Max](img/max-updates.webp "Firmware Update, in the NETWORK & UPDATES section of Cora Max Settings.")
 
-Go to **Settings → Cora Max Settings → Firmware Update** (in the **Network & Updates** section) to check for and install updates, and to set the update channel and schedule. Further down the same screen, the **Status** section shows each tank's polling status, last poll and last cloud write.
+Your version is on the card at the top of **Settings → Cora Max Settings** (*Cora Max · firmware 0.28.170*), and under **HELP & ABOUT → About**.
+
+**Settings → Cora Max Settings → Firmware Update** (in **NETWORK & UPDATES**) shows the version you're on and whether an update is waiting. Tap **Check for updates** to look now, or **Download & install** when one is there.
+
+Under **Update settings** on the same screen:
+
+- **Install window** sets the hours updates may install, with a **Start** and **End** time, in this screen's local time. The time zone is set in Cora Mobile, under **Devices →** your Cora Max **→ Time zone**.
+- **Update channel** is **Stable** or **Beta**. Leave it on **Stable** unless support asks you to switch. A Cora Max on **Beta** doesn't get stable releases.
+
+To see whether this screen is reading your devices and saving to Cora Cloud, go back to **Cora Max Settings** and scroll to **STATUS**. It shows each tank's **Polling status**, **Last poll**, **Last cloud write** and **Cloud save**.
 
 ## When an update is available
 
 A prompt tells you what's new and gives you two choices.
 
-- **Update now** installs right away and restarts.
+- **Update now** installs right away and restarts. It takes about a minute. Keep Cora Max powered.
 - **Snooze 24 hours** hides the prompt and asks you again a day later.
 
 While an update is waiting, a small dot shows on the **Settings** icon in the top bar and on the **Firmware Update** row. The dot stays through a snooze, so you can still see an update is there. It goes away while the update installs.
 
-If you leave it, the update installs itself overnight, roughly between 3 and 5 in the morning, so the screen doesn't restart while you're looking at it.
+If you leave it, the update installs itself in the **Install window**.
+
+You can also start it from your phone: in Cora Mobile, open **Devices →** your Cora Max and tap **Update to v…**.
 
 :::note You don't lose readings during an update
 Your data lives in your account. When Cora Max restarts, it comes back with the same tanks, dashboards and history.
 :::
 
-## Recovery
+## Recovery {#recovery}
 
 Recovery is a maintenance mode for when Cora Max won't start normally, or when you need to fix its setup without a laptop.
 
-To get in, hold **five fingers** on the top-right of the screen for about **ten seconds**, then enter the **Recovery PIN**.
+1. Hold **five fingers** in the top-right corner of the screen for **ten seconds**.
+2. The **Recovery PIN** box opens. Type the 6-digit PIN and tap **Enter**.
 
-You saw that six-digit PIN when you paired Cora Max, and it's also in that device's settings in Cora Mobile. Cora Max itself never shows it, so a guest or a child leaning on the screen can't get into recovery.
+You saw the PIN when you paired Cora Max. You'll also find it in Cora Mobile under **Devices →** your Cora Max **→ Recovery PIN**. Cora Max itself never shows it, so a guest or a child leaning on the screen can't get into recovery.
 
-From recovery you can:
+If you type the wrong PIN three times, recovery locks for 30 seconds, and for longer after each further wrong try. **Too many attempts** tells you how long to wait. If Cora Max has never been online since pairing, it has no PIN yet and shows **Recovery is unavailable**. Connect it to Wi-Fi first.
 
-- Fix the **Wi-Fi** connection
-- **Re-pair** Cora Max to your account
-- Force a **firmware update**
-- **Factory reset** Cora Max
+From **Recovery** you can:
+
+- **Re-do Wi-Fi setup**: pick a new Wi-Fi network and password
+- **Re-pair this device**: clear the pairing and set it up again with Cora Mobile
+- **Force OTA check**: check for updates now
+- **Factory reset**: remove the pairing and every setting on the screen
+
+Tank data already saved to Cora Cloud is kept in every case.
 
 If Cora Max fails to start several times in a row, it can also roll itself back to the previous version.
+
+:::note The same gesture unlocks child lock
+If [Child lock](/help/max-settings#child-lock) is on, holding five fingers in the corner also unlocks the screen. Tap **Cancel** in the **Recovery PIN** box if you only wanted to unlock.
+:::
 
 :::warning A screen in recovery isn't controlling anything
 Your controller keeps running its own programming. But an [automation](/help/mobile-automation) step that **this Cora Max** has to carry out can't run while it's in recovery. The rule fires, but the step never reaches the equipment.
 :::
+
+## If Cora Max shows "Cora Max hit a problem"
+
+This screen means something went wrong while Cora Max was starting or running. It shows a **Support code** (it starts with *CXB-*).
+
+1. Write down the support code.
+2. Wait. Cora Max restarts itself in about 10 minutes. To restart it now, hold five fingers in the top-right corner for 10 seconds.
+3. If it keeps happening, email **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with the support code.
 
 ## If a unit does not restart
 

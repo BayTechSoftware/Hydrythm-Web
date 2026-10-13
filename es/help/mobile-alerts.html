@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alertas y umbrales | Cora Help</title>
-  <meta name="description" content="Fija el rango de cada parámetro, elige qué avisos recibes y entiende por qué saltó una alerta.">
+  <meta name="description" content="Fija el rango saludable de cada lectura, elige cada cuánto puede avisarte una alerta y descubre por qué un dispositivo &quot;dejó de informar&quot;.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-alerts">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-alerts">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-alerts">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Alertas y umbrales | Cora Help">
-  <meta property="og:description" content="Fija el rango de cada parámetro, elige qué avisos recibes y entiende por qué saltó una alerta.">
+  <meta property="og:description" content="Fija el rango saludable de cada lectura, elige cada cuánto puede avisarte una alerta y descubre por qué un dispositivo &quot;dejó de informar&quot;.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-alerts">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ayuda","item":"https://coraiq.tech/es/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/es/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Alertas y automatización","item":"https://coraiq.tech/es/help/mobile-alerts"},{"@type":"ListItem","position":4,"name":"Alertas y umbrales"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Ir al contenido</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/es/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Ayuda</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Buscar en la guía">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navegación de la guía">
     <button class="hclose" id="hclose" type="button" aria-label="Cerrar navegación">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Guía">
 <ul>
 <li><a href="/es/help/">Ayuda de Cora</a></li>
+</ul>
+<p class="nav-sec">Ayuda</p>
+<ul>
+<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
+<li><a href="/es/help/how-do-i">¿Cómo hago...?</a></li>
+<li><a href="/es/help/equipment-by-brand">Equipos por marca</a></li>
+<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
+<li><a href="/es/help/glossary">Glosario</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
+<li><a href="/es/help/mobile-tour">Moverte por Cora Mobile</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
-<li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
+<li><a href="/es/help/mobile-tanks">Gestionar tus acuarios</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
-<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
 <li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
+<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
+<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
 <li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
-<li><a href="/es/help/mobile-probes">Asignación de parámetros</a></li>
-<li><a href="/es/help/mobile-consumables">Consumibles</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
+<li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
 <li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
 <li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Alertas y automatización</summary><ul>
 <li><a href="/es/help/mobile-alerts" class="cur" aria-current="page">Alertas y umbrales</a></li>
 <li><a href="/es/help/mobile-notifications">Notificaciones</a></li>
 <li><a href="/es/help/mobile-automation">Automatizaciones y escenas</a></li>
+<li><a href="/es/help/mobile-vacation">Irse de viaje: un plan para quien cuida tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registros</summary><ul>
-<li><a href="/es/help/mobile-dosing">Dosificación</a></li>
+<li><a href="/es/help/mobile-journal">El diario</a></li>
+<li><a href="/es/help/mobile-dosing">Productos de dosificación y la calculadora de dosis</a></li>
 <li><a href="/es/help/mobile-maintenance">Mantenimiento</a></li>
 <li><a href="/es/help/mobile-livestock">Fauna</a></li>
-<li><a href="/es/help/mobile-journal">El diario</a></li>
 <li><a href="/es/help/mobile-activity">Actividad y línea de tiempo</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
-<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
+<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-icp-health">ICP e informes de salud</a></li>
+<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Cuenta</summary><ul>
-<li><a href="/es/help/mobile-vacation">Irse de viaje</a></li>
+<summary>Ajustes y cuenta</summary><ul>
+<li><a href="/es/help/mobile-settings">Ajustes de Cora Mobile</a></li>
 <li><a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a></li>
-<li><a href="/es/help/mobile-data-export">Tus datos</a></li>
-<li><a href="/es/help/mobile-plans">Planes</a></li>
-<li><a href="/es/help/mobile-settings">Ajustes</a></li>
-<li><a href="/es/help/mobile-support">Obtener ayuda</a></li>
+<li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
+<li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
+<li><a href="/es/help/mobile-support">Informar de un problema</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertas y automatización</summary><ul>
+<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
+<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Registros</summary><ul>
 <li><a href="/es/help/max-records">Diario, fauna y mantenimiento</a></li>
+<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
@@ -146,92 +162,82 @@
 <li><a href="/es/help/max-voice">Hablar con Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertas</summary><ul>
-<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
-<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Ajustes</summary><ul>
+<summary>Ajustes y cuenta</summary><ul>
 <li><a href="/es/help/max-settings">Ajustes de Cora Max</a></li>
 <li><a href="/es/help/max-updates">Actualizaciones y recuperación</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatización</summary><ul>
-<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Ayuda</p>
-<ul>
-<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
-<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
-<li><a href="/es/help/glossary">Glosario</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="/es/help/">Ayuda</a></li><li><a href="/es/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/es/help/mobile-alerts">Alertas y automatización</a></li></ol></nav>
       <h1>Alertas y umbrales</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#el-centro-de-alertas">El Centro de alertas</a></li><li><a href="#la-pestaa-reglas">La pestaña Reglas</a></li><li><a href="#fijar-un-rango">Fijar un rango</a></li><li><a href="#qu-activa-una-alerta">Qué activa una alerta</a></li><li><a href="#dnde-aparecen-las-alertas">Dónde aparecen las alertas</a></li><li><a href="#cuando-un-equipo-necesita-atencin">Cuando un equipo necesita atención</a></li><li><a href="#un-dispositivo-ha-dejado-de-informar">Un dispositivo ha dejado de informar</a></li><li><a href="#las-lecturas-de-red-sea-han-dejado-de-actualizarse">&quot;Las lecturas de Red Sea han dejado de actualizarse&quot;</a></li><li><a href="#elegir-qu-te-llega">Elegir qué te llega</a></li><li><a href="#tiempos-de-espera-cada-cunto-puede-avisarte-la-misma-alerta">Tiempos de espera: cada cuánto puede avisarte la misma alerta</a></li><li><a href="#cerrar-una-alerta">Cerrar una alerta</a></li><li><a href="#desactivar-una-alerta">Desactivar una alerta</a></li></ul></nav>
-<p>Cuando una lectura sale del rango que fijaste, Cora genera una alerta. Tú decides los rangos y también qué alertas llegan a tu teléfono.</p>
-<p>El <strong>Centro de alertas</strong> se abre desde la fila de accesos directos, en la parte inferior del panel.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: El Centro de alertas"><img src="/help/img/mobile-alerts.webp" alt="El Centro de alertas" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Alertas activas, cada una con su gravedad, qué la activó, y cuándo.</figcaption></figure>
-<h2 id="el-centro-de-alertas">El Centro de alertas</h2>
-<p>Tiene dos pestañas:</p>
-<ul><li><strong>Activas</strong>: las alertas que siguen abiertas, con un número que indica cuántas hay</li><li><strong>Reglas</strong>: los umbrales y las reglas de velocidad de cambio que las generan</li></ul>
-<p>En cada alerta activa ves el parámetro y el acuario, la lectura que la activó y una explicación sencilla. También ves una etiqueta con la gravedad, el tipo de regla (<strong>Umbral</strong> o <strong>Tasa de cambio</strong>) y la hora.</p>
-<p>Cada una tiene dos botones:</p>
-<ul><li><strong>Ver regla</strong>: abre la regla que generó la alerta para que ajustes el rango. En una alerta de dosificador, por ejemplo un cabezal de DŌS o de ReefDose que se está quedando sin líquido o una dosis omitida, este botón es <strong>Abrir dosificador</strong>. Abre la página de ese dosificador con sus alertas.</li><li><strong>Explicar esta alerta</strong>: le pide al asistente que la interprete con el historial de tu acuario</li></ul>
-<h2 id="la-pestaa-reglas">La pestaña Reglas</h2>
-<p>Las reglas están agrupadas por parámetro. Cada regla tiene su propio interruptor en su fila, así que puedes desactivar una sin abrirla. Toca una fila para cambiar su rango o su tiempo de espera.</p>
-<p>Las reglas de un cabezal de dosificación llevan el nombre del cabezal y de lo que vigilan, por ejemplo <em>Yodo · días restantes</em> o <em>Yodo · restante</em>. Una dosis omitida aparece como <em>Yodo · dosis omitida</em>.</p>
-<p>Cada DŌS y cada ReefDose tiene aquí una sola fila propia. Las alertas de sus cabezales no aparecen una por una. Toca la fila para abrir la página de ese dosificador con sus alertas. Consulta <a href="/es/help/mobile-device-control">Alertas de dosificadores</a>.</p>
-<p>Si faltan algunas de las reglas que Cora recomienda, <strong>Agregar reglas recomendadas</strong>, al final de la lista, las añade. Se salta los parámetros que ya tienen una regla. <strong>Agregar regla personalizada</strong> crea una regla a tu medida.</p>
-<h2 id="fijar-un-rango">Fijar un rango</h2>
-<p>Los parámetros que Cora puede valorar tienen un rango objetivo. Los valores iniciales salen del tipo y la antigüedad del acuario que indicaste al configurarlo, y suelen ser un buen punto de partida. Si un parámetro no tiene un rango útil, Cora no lo valora. Se queda en gris neutro y Cora no intenta adivinar.</p>
-<p>Para cambiar un rango, <strong>mantén pulsado el widget</strong> del parámetro en el panel. Se abren directamente sus umbrales. Con un toque normal se abre la vista del parámetro. Vale la pena recordar el gesto de mantener pulsado.</p>
-<p>Si el parámetro todavía no tiene regla, los campos muestran el valor predeterminado de Cora y una nota debajo te lo indica. Cambia cualquier valor para fijar el tuyo.</p>
-<p>Para verlos todos juntos, toca <strong>Alertas</strong> en la fila de botones bajo el panel.</p>
+      <p class="twin">En Cora Max: <a href="/es/help/max-alerts">Alertas en Cora Max</a></p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#alert-center">El Centro de alertas</a></li><li><a href="#rules">La pestaña Reglas</a></li><li><a href="#setting-a-range">Fijar un rango</a></li><li><a href="#what-triggers-an-alert">Qué hace saltar una alerta</a></li><li><a href="#donde-aparecen-las-alertas">Dónde aparecen las alertas</a></li><li><a href="#equipment-faults">Cuando un equipo necesita atención</a></li><li><a href="#stopped-reporting">Un dispositivo ha dejado de informar</a></li><li><a href="#choosing-what-reaches-you">Elegir qué te llega</a></li><li><a href="#cooldowns">Tiempos de espera: cada cuánto puede avisarte la misma alerta</a></li><li><a href="#clearing-an-alert">Cuando una alerta se resuelve</a></li><li><a href="#turning-an-alert-off">Desactivar una alerta</a></li></ul></nav>
+<p>Recibes una alerta cuando una lectura sale del rango que fijaste para ella. Esta página explica cómo fijar esos rangos, qué pasa cuando salta una alerta y cuánto espera Cora antes de decir que un dispositivo ha dejado de informar.</p>
+<p>Para abrir el <strong>Centro de alertas</strong>, toca <strong>Alertas</strong> en la fila de botones que hay debajo del panel. También está en Ajustes → tu acuario → <strong>Umbrales de alerta</strong>.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: La pestaña Activas del Centro de alertas en Cora Mobile"><img src="/help/img/mobile-alerts.webp" alt="La pestaña Activas del Centro de alertas en Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Las alertas activas, cada una con su gravedad, qué la activó y cuándo, además de Ver regla y Explicar esta alerta.</figcaption></figure>
+<h2 id="alert-center">El Centro de alertas</h2>
+<p>Tiene dos pestañas. <strong>Activas</strong> lista las alertas que están saltando ahora mismo, con un contador. <strong>Reglas</strong> guarda las reglas que las generan.</p>
+<p>Cada alerta activa muestra el parámetro y el acuario, la lectura que la provocó, una breve explicación, una etiqueta de gravedad, el tipo de regla que saltó (<strong>Umbral</strong> o <strong>Tasa de cambio</strong>) y cuándo saltó. Tiene dos botones:</p>
+<ul><li><strong>Ver regla</strong> abre la regla que hay detrás, para que puedas ajustar el rango. En una alerta de dosificador, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, este botón es <strong>Abrir dosificador</strong>. Abre la página de ese dosificador con sus alertas.</li><li><strong>Explicar esta alerta</strong> abre Cora Assistant con una pregunta sobre la alerta lista para enviar. Revísala, cámbiala si quieres y envíala.</li></ul>
+<h2 id="rules">La pestaña Reglas</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: La pestaña Reglas"><img src="/help/img/mobile-alert-rules.webp" alt="La pestaña Reglas" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Las reglas agrupadas por parámetro, cada una con su propio interruptor.</figcaption></figure>
+<p>Las reglas se agrupan por parámetro. Cada regla tiene su propio interruptor en su fila, así que puedes desactivar una sin abrirla. Una fila también muestra <strong>Activada ahora</strong> mientras su alerta está activa, o cuándo saltó por última vez (o <strong>Nunca se ha activado</strong>).</p>
+<p>Las reglas de un cabezal de dosificación llevan el nombre del cabezal y lo que vigilan, por ejemplo <em>Yodo · días restantes</em> o <em>Yodo · restante</em>. Una dosis omitida aparece como <em>Yodo · dosis omitida</em>. Cada DŌS y cada ReefDose tiene aquí una fila propia, y las alertas de sus cabezales no se listan una a una. Toca la fila para abrir la página de ese dosificador. Consulta <a href="/es/help/mobile-device-control#doser-alerts">Alertas de dosificadores</a>.</p>
+<p>Al final:</p>
+<ul><li><strong>Agregar reglas recomendadas</strong> añade las reglas recomendadas de Cora que falten. Se salta los parámetros que ya tienen una regla. En un acuario sin ninguna regla, este botón dice <strong>Agregar reglas predeterminadas</strong>.</li><li><strong>Agregar regla personalizada</strong> crea una regla tuya. Elige el parámetro y el <strong>Tipo de regla</strong>, <strong>Umbral</strong> o <strong>Tasa de cambio</strong>. El botón <strong>Agregar regla</strong> de abajo a la derecha hace lo mismo.</li></ul>
+<h3 id="editing-a-rule">Editar una regla</h3>
+<p>Toca la fila de una regla para abrirla. Encontrarás:</p>
+<ul><li><strong>Mínimo de alerta</strong> y <strong>Máximo de alerta</strong>, el propio rango. Deja uno vacío para un máximo o un mínimo.</li><li><strong>Recomendado</strong>, que vuelve a poner el rango sugerido por Cora.</li><li><strong>Rango del medidor (pantalla Cora)</strong>, con <strong>Mínimo del medidor</strong> y <strong>Máximo del medidor</strong>. Solo fijan la escala del medidor en Cora Max. Nunca generan una alerta.</li><li><strong>Tiempo de espera entre alertas</strong>, explicado <a href="#cooldowns">más abajo</a>.</li><li><strong>Activada</strong>, y un botón para eliminar.</li></ul>
+<p>Una regla de fallo de dispositivo, como un Trident sin reactivo, no tiene rango. Solo eliges su tiempo de espera.</p>
+<h2 id="setting-a-range">Fijar un rango</h2>
+<p>Los parámetros que Cora puede valorar tienen un rango objetivo. Los valores predeterminados salen del tipo y la edad de tu acuario cuando lo configuras, y son un punto de partida sensato. Si un parámetro no tiene un rango útil, Cora no lo valora, y su widget se queda en gris neutro.</p>
+<p>La forma más rápida de cambiar un rango es mantener pulsado el widget del parámetro en el panel. Se abren sus umbrales. Un toque normal abre la vista del parámetro.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: La hoja de umbral del pH en Cora Mobile"><img src="/help/img/mobile-threshold-sheet.webp" alt="La hoja de umbral del pH en Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Mínimo y máximo de alerta, el rango del medidor para Cora Max y el tiempo de espera entre alertas.</figcaption></figure>
+<p>Si el parámetro todavía no tiene regla, los campos empiezan con el valor predeterminado de Cora y una nota debajo lo indica. Cambia cualquier valor para fijar el tuyo.</p>
 <p>Puedes fijar:</p>
-<ul><li><strong>Un rango</strong>: un mínimo y un máximo, para parámetros como la alcalinidad o la temperatura</li><li><strong>Un techo</strong>: solo un máximo, para parámetros en los que un valor bajo no es problema, como el nitrato o el fosfato</li><li><strong>Un suelo</strong>: solo un mínimo</li></ul>
-<aside class="cal cal-tip"><p class="cal-t">Usa el rango real de tu acuario</p><p>Los valores predeterminados son solo un punto de partida. Si tu acuario funciona bien con pocos nutrientes a 6 dKH, no está "mal" porque una tabla diga 8–9. Fija el rango con el que trabajas y Cora te avisará cuando <em>tú</em> te salgas de él.</p></aside>
-<h2 id="qu-activa-una-alerta">Qué activa una alerta</h2>
-<p>Una alerta salta cuando una lectura cruza un umbral. Cora revisa cada lectura en cuanto llega, así que basta una sola lectura fuera de rango.</p>
-<p>Mientras una alerta está activa, Cora no te avisa una y otra vez por lo mismo. Hay un tiempo de espera antes de que pueda volver a avisarte. Además, la alerta <strong>se cierra sola</strong> en cuanto una lectura vuelve al rango. No tienes que confirmar nada.</p>
-<p>También puedes crear una regla de <strong>tasa de cambio</strong>. Esta regla vigila lo rápido que se mueve un parámetro, no el valor que tiene ahora. Úsala cuando importa más la velocidad del cambio que el número.</p>
-<h2 id="dnde-aparecen-las-alertas">Dónde aparecen las alertas</h2>
-<ul><li><strong>La campana</strong>, arriba a la derecha en todas las pantallas, guarda tu historial. El número indica cuántas no has leído.</li><li><strong>Las notificaciones push</strong> llegan a tu teléfono si les das permiso.</li><li><strong>El widget</strong> del panel se pone ámbar o rojo.</li><li><strong>Cora Max</strong> muestra las mismas alertas en la pantalla grande.</li></ul>
-<h2 id="cuando-un-equipo-necesita-atencin">Cuando un equipo necesita atención</h2>
-<p>Algunas alertas tratan de un equipo y no de una lectura. Si un dispositivo como un Trident o una bomba Jecod™ informa de un fallo, Cora te envía una notificación con el nombre del acuario y del dispositivo, por ejemplo <em>"Acuario principal: la bomba de retorno necesita atención"</em>. La notificación también dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, llega otra que dice <em>"Acuario principal: la bomba de retorno vuelve a estar bien"</em>. Las dos pertenecen a <strong>Fallas de equipos</strong>, en <strong>Ajustes → Notificaciones</strong>.</p>
-<p>Un gyre Maxspect™ (Beta) puede generar la misma alerta. Pasa cuando un Cora Max de su red encuentra los dos cabezales al 0 % o el gyre no responde dos veces seguidas. Tómalo como un aviso y no como una protección. Cora Max lo comprueba de vez en cuando, no sin parar, y solo mientras está encendido y puede llegar al gyre.</p>
-<h2 id="un-dispositivo-ha-dejado-de-informar">Un dispositivo ha dejado de informar</h2>
-<p>Si un Neptune™ Apex, un equipo Red Sea™ ReefBeat, un AquaWiz™, una bomba Jecod, un gyre Maxspect, un dispositivo EcoTech™ o un monitor de aire de habitación Inkbird™ deja de responder, Cora te avisa: <em>"[Dispositivo]: ha dejado de informar"</em>. Revisa su alimentación y su Wi-Fi (o el alcance del Bluetooth), y comprueba que el Cora Max que lo lee esté encendido. Recibes una segunda notificación en cuanto vuelve a informar.</p>
-<p>Cuánto espera Cora depende del dispositivo.</p>
-<ul><li>Neptune Apex y Red Sea ReefBeat: unos 30 minutos sin una actualización nueva.</li><li>AquaWiz: unas 3 horas, porque consulta con menos frecuencia.</li><li>Jecod y Maxspect: tres lecturas seguidas sin llegar, contadas según el intervalo de lectura del propio dispositivo.</li><li>EcoTech e Inkbird: tres lecturas seguidas sin llegar, contadas según el intervalo que hayas fijado para esa red o ese monitor.</li></ul>
-<p>Maxspect, EcoTech e Inkbird son integraciones Beta que solo pueden añadir los usuarios Beta. Consulta <a href="/es/help/mobile-beta">Funciones Beta</a>.</p>
-<p>Esto pertenece a <strong>Fallas de equipos</strong>, en <strong>Ajustes → Notificaciones</strong>, junto con las alertas de fallos anteriores.</p>
-<h2 id="las-lecturas-de-red-sea-han-dejado-de-actualizarse">"Las lecturas de Red Sea han dejado de actualizarse"</h2>
-<p>Es posible que veas este aviso en la página de parámetros de un acuario:</p>
-<blockquote><p>Las lecturas de Red Sea han dejado de actualizarse. Ningún dispositivo está leyendo los equipos Red Sea de este acuario: revisa el Cora Max principal en Ajustes o abre este acuario en un dispositivo conectado a la misma red Wi-Fi.</p></blockquote>
-<p>Quiere decir que ahora mismo ningún teléfono ni Cora Max consulta el equipo ReefBeat de ese acuario. Las lecturas que ves son antiguas, pero no tienen por qué estar mal. Toca el aviso para abrir <strong>Cora Max principal</strong>. Ahí elige un dispositivo que esté encendido o selecciona <strong>Cualquiera activo (automático)</strong>. Más información en <a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a>. Si el aviso no desaparece, consulta <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
-<h2 id="elegir-qu-te-llega">Elegir qué te llega</h2>
-<p><strong>Ajustes → Notificaciones.</strong> Aquí decides:</p>
-<ul><li>Qué categorías de notificación pueden enviarte avisos push</li></ul>
-<p>Reef Buddy no tiene un interruptor propio. Te envía un resumen cuando hay algo que merece tu atención y no dice nada cuando no lo hay.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora prefiere no molestar</p><p>El resumen diario es un solo aviso por acuario y día. Si ese día no hay nada que requiera tu atención, lo normal es que no llegue ningún mensaje para decirte que todo va bien. Si Cora te avisa, es que algo ha cambiado.</p></aside>
-<h2 id="tiempos-de-espera-cada-cunto-puede-avisarte-la-misma-alerta">Tiempos de espera: cada cuánto puede avisarte la misma alerta</h2>
-<p>Cada regla tiene su propio <strong>Tiempo de espera entre alertas</strong>. Lo fijas al añadir o editar la regla, en la pestaña <strong>Reglas</strong> del Centro de alertas. El tiempo de espera no oculta la alerta. Solo limita cada cuánto te envía Cora un aviso push sobre ella. La lectura se sigue valorando, y la alerta sigue visible en el widget y en la campana todo el tiempo.</p>
-<p>Puedes elegir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 día, 3 días o <strong>1 semana</strong>.</p>
-<p>Un tiempo corto va bien con lecturas que cambian rápido, como la temperatura. Uno largo, de hasta una semana, sirve para algo que va a seguir mal varios días mientras esperas una pieza. Por ejemplo, un Trident sin reactivo o un recipiente de dosificación vacío. Con un tiempo de espera corto, Cora te avisaría varias veces al día de un problema que ya conoces.</p>
-<aside class="cal cal-note"><p class="cal-t">Posponer una alerta activa se hace en Cora Max</p><p>Cora Mobile no tiene un botón para posponer una alerta activa. Ese botón está en la pantalla de Cora Max junto al acuario, y silencia la alerta durante el tiempo de espera que elegiste aquí. Desde el teléfono, para cambiar cada cuánto te avisa Cora de algo, ajusta el tiempo de espera de la regla.</p></aside>
-<h2 id="cerrar-una-alerta">Cerrar una alerta</h2>
-<p>Una alerta se cierra cuando la lectura vuelve al rango. No hay nada que descartar. La alerta describe el estado del acuario, no es una tarea pendiente.</p>
-<aside class="cal cal-note"><p class="cal-t">Una lectura suelta basta para generar una alerta</p><p>Una sola lectura fuera de rango genera una alerta, así que un pico de una sonda también la activa. Si una fuente no es fiable, recalíbrala o haz que el widget use otra fuente. No amplíes el umbral para evitarlo.</p></aside>
-<p>Si el problema está en la lectura y no en el acuario (por ejemplo, una sonda sin calibrar), arregla la fuente. Si amplías un umbral para silenciar una sonda defectuosa, también te perderás el próximo problema real.</p>
-<h2 id="desactivar-una-alerta">Desactivar una alerta</h2>
-<p>Apaga el interruptor en la fila de la regla, en la pestaña <strong>Reglas</strong> del Centro de alertas. La regla y su rango se guardan, así que puedes volver a activarla sin crearla de nuevo.</p>
+<ul><li>un rango, con un mínimo y un máximo, para cosas como la alcalinidad o la temperatura</li><li>un máximo, solo con el valor alto, para cosas en las que estar bajo está bien, como el nitrato o el fosfato</li><li>un mínimo, solo con el valor bajo</li></ul>
+<aside class="cal cal-tip"><p class="cal-t">Fija el rango en el que de verdad funciona tu acuario</p><p>Los valores predeterminados son solo un punto de partida. Un acuario con pocos nutrientes que funciona a 6 dKH no está "mal" porque una tabla diga 8–9. Fija el rango con el que trabajas, y Cora te avisa cuando <em>tú</em> te desvías.</p></aside>
+<h2 id="what-triggers-an-alert">Qué hace saltar una alerta</h2>
+<p>Una alerta salta cuando una lectura cruza un umbral. Cora revisa cada lectura en cuanto llega, así que basta con una lectura fuera de tu rango.</p>
+<p>Una regla de tasa de cambio vigila lo rápido que se mueve un parámetro en lugar de dónde está. Úsala cuando la velocidad de un cambio importa más que el número.</p>
+<p>Cuando una alerta está activa, no te sigue avisando de lo mismo. El <a href="#cooldowns">tiempo de espera</a> de la regla decide cuándo puede volver a avisarte.</p>
+<h2 id="donde-aparecen-las-alertas">Dónde aparecen las alertas</h2>
+<ul><li>La campana, arriba a la derecha en las pestañas principales, guarda tu historial. El número indica cuántas no has leído. Más información en <a href="/es/help/mobile-notifications">Notificaciones</a>.</li><li>Una notificación push llega a tu teléfono si esa categoría está activada.</li><li>El widget del panel se pone ámbar o rojo.</li><li>Cora Max muestra las mismas alertas en su pantalla.</li></ul>
+<h2 id="equipment-faults">Cuando un equipo necesita atención</h2>
+<p>Algunas alertas tratan de un equipo, no de una lectura. Cuando un dispositivo como un Trident o una bomba Jecod™ informa de un fallo, Cora envía una notificación con el nombre del acuario y del dispositivo, por ejemplo <em>"Acuario principal: la bomba de retorno necesita atención"</em>. También dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, recibes una segunda: <em>"Acuario principal: la bomba de retorno vuelve a estar bien"</em>. Las dos pertenecen a <strong>Fallas de equipos</strong> en <strong>Ajustes → Notificaciones</strong>.</p>
+<p>Un gyre Maxspect™ (Beta) puede generar la misma alerta. Pasa cuando un Cora Max de su red encuentra los dos cabezales al 0 %, o no recibe respuesta del gyre dos veces seguidas. Tómalo como un aviso, no como una protección. El Cora Max solo lo comprueba de vez en cuando, y solo mientras está funcionando y puede llegar al gyre.</p>
+<h2 id="stopped-reporting">Un dispositivo ha dejado de informar</h2>
+<p>Cuando un dispositivo conectado se queda en silencio, Cora envía <em>"[Dispositivo]: ha dejado de informar"</em>. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Recibes una segunda notificación, <em>"[Dispositivo]: vuelve a informar"</em>, cuando vuelve.</p>
+<p>Cuánto espera Cora depende del dispositivo:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Cora espera</th></tr></thead><tbody><tr><td data-th="Dispositivo">Neptune™ Apex</td><td data-th="Cora espera">Unos 30 minutos sin actualizaciones</td></tr><tr><td data-th="Dispositivo">Red Sea™ ReefBeat</td><td data-th="Cora espera">Unos 30 minutos</td></tr><tr><td data-th="Dispositivo">AquaWiz™</td><td data-th="Cora espera">Unas 3 horas, porque informa con menos frecuencia</td></tr><tr><td data-th="Dispositivo">Bombas Jecod</td><td data-th="Cora espera">Tres lecturas perdidas seguidas, según el intervalo de lectura de la bomba (90 minutos con el predeterminado de 30)</td></tr><tr><td data-th="Dispositivo">Maxspect (Beta)</td><td data-th="Cora espera">Tres lecturas perdidas seguidas, como Jecod</td></tr><tr><td data-th="Dispositivo">EcoTech™ (Beta)</td><td data-th="Cora espera">Tres lecturas perdidas seguidas, según el intervalo de lectura de la red (90 minutos con el predeterminado de 30). Si fijas un tiempo más largo en <strong>La luz deja de responder</strong>, Cora espera ese tiempo</td></tr><tr><td data-th="Dispositivo">Monitor de aire de habitación Inkbird™ (Beta)</td><td data-th="Cora espera">Tres lecturas perdidas seguidas, según el intervalo propio del monitor (15 minutos con el predeterminado de 5)</td></tr><tr><td data-th="Dispositivo">Focustronic™ (Beta)</td><td data-th="Cora espera">Unas 3 horas</td></tr><tr><td data-th="Dispositivo">GHL™ (Beta)</td><td data-th="Cora espera">Unos 15 minutos. La notificación dice <em>"No se puede contactar con el controlador GHL"</em></td></tr><tr><td data-th="Dispositivo">HYDROS™ (Beta)</td><td data-th="Cora espera">Unos 30 minutos. La notificación dice <em>"El controlador HYDROS no informa"</em></td></tr></tbody></table></div>
+<p>Qué revisar depende de cómo lee Cora el dispositivo.</p>
+<ul><li>Apex, ReefBeat, Jecod, Maxspect y GHL los lee un Cora Max por Wi-Fi. Revisa la alimentación y el Wi-Fi del dispositivo, y que el Cora Max que lo lee esté encendido y en línea.</li><li>EcoTech e Inkbird los lee un Cora Max por Bluetooth. Revisa la alimentación, que el dispositivo esté al alcance del Bluetooth del Cora Max y que el Cora Max esté encendido.</li><li>AquaWiz y Focustronic se leen a través de tu cuenta con el fabricante. Revisa la conexión de la cuenta en la página del dispositivo en Cora Mobile.</li><li>En HYDROS, revisa su alimentación, su Wi-Fi y su clave de dispositivo.</li></ul>
+<p>GHL también puede decirte <em>"API GHL desactivada"</em> o que el controlador <em>"rechazó la conexión"</em>. Si el Cora Max que lee un controlador GHL se queda en silencio, recibes <em>"Cora Max no informa"</em> para ese controlador. Las soluciones están en <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
+<p>Estas notificaciones pertenecen a <strong>Fallas de equipos</strong> en <strong>Ajustes → Notificaciones</strong>.</p>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p>Maxspect, EcoTech, Inkbird, Focustronic, GHL y HYDROS están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en <strong>Agregar dispositivo</strong>. Para pedir acceso Beta, contacta con <a href="/support.html">soporte</a>. Más información en <a href="/es/help/mobile-beta">Funciones Beta</a>.</p></aside>
+<p>Un acuario Red Sea también puede mostrar un aviso, <em>"Las lecturas de Red Sea han dejado de actualizarse"</em>, cuando ningún teléfono ni Cora Max está leyendo sus equipos ReefBeat. Tócalo para elegir un <strong>Cora Max principal</strong>. La solución completa está en <a href="/es/help/troubleshooting#red-sea-readings-have-stopped-updating">Solución de problemas</a>.</p>
+<h2 id="choosing-what-reaches-you">Elegir qué te llega</h2>
+<p>En <strong>Ajustes → Notificaciones</strong> eliges qué categorías pueden enviarte una notificación push. Consulta <a href="/es/help/mobile-notifications">Notificaciones</a>, que también explica cómo <a href="/es/help/mobile-notifications#quiet-at-night">tener noches tranquilas</a>.</p>
+<p>Reef Buddy no tiene interruptor propio. Su hora es la fila <strong>Hora del resumen</strong>, justo debajo de Notificaciones en Ajustes. En el plan gratuito no hay notificación del resumen.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora no dice nada si nada ha cambiado</p><p>El resumen diario es una notificación por acuario al día. Un día en que nada te necesita, normalmente no dice nada en lugar de contarte que todo va bien. Si Cora te avisa, es que algo ha cambiado.</p></aside>
+<h2 id="cooldowns">Tiempos de espera: cada cuánto puede avisarte la misma alerta</h2>
+<p>Cada regla tiene su propio <strong>Tiempo de espera entre alertas</strong>. Lo fijas al añadir o editar la regla. Una regla que nunca tuvo uno usa 1 h.</p>
+<p>El tiempo de espera no oculta la alerta. Solo limita cada cuánto te avisa Cora de ella. La lectura se sigue valorando, y la alerta se queda en el widget y en la campana todo el tiempo.</p>
+<p>Puedes elegir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 día, 3 días o 1 semana.</p>
+<p>Un tiempo de espera corto va bien para una lectura que cambia rápido, como la temperatura. Uno largo, de hasta una semana, va bien para algo que sigue mal durante días mientras esperas una pieza, como un Trident sin reactivo o un envase de dosificación vacío.</p>
+<aside class="cal cal-note"><p class="cal-t">Posponer está en Cora Max</p><p>Cora Mobile no tiene un botón para posponer una alerta activa. Posponer está en la pantalla de Cora Max junto al acuario, y silencia la alerta durante el tiempo de espera que elegiste aquí. En tu teléfono, el tiempo de espera de cada regla es la forma de cambiar cada cuánto te enteras de algo.</p></aside>
+<h2 id="clearing-an-alert">Cuando una alerta se resuelve</h2>
+<p>Una alerta se resuelve sola cuando la lectura vuelve al rango. No hay nada que descartar. Recibes una notificación cuando pasa, por ejemplo <em>"Acuario principal: alcalinidad recuperada"</em>. Si el problema vuelve más tarde, recibes una alerta nueva.</p>
+<aside class="cal cal-note"><p class="cal-t">Los picos cortos también generan alertas</p><p>Una sola lectura fuera de rango basta para generar una alerta, así que una sonda que da un pico hará saltar una. Si una fuente no es fiable, recalíbrala o haz que el widget siga otra fuente. No amplíes el umbral.</p></aside>
+<p>A veces la lectura está mal y el acuario está bien, por ejemplo cuando hay que calibrar una sonda. En ese caso, arregla la fuente. Si amplías un umbral para silenciar una sonda defectuosa, también te perderás el siguiente problema real.</p>
+<h2 id="turning-an-alert-off">Desactivar una alerta</h2>
+<p>Desactiva el interruptor de la fila de la regla en la pestaña <strong>Reglas</strong>. Cora conserva la regla y su rango, así que puedes volver a activarla sin configurarla otra vez.</p>
 <p>Mientras una regla está desactivada, Cora no valora esa lectura. Su widget se queda en gris neutro y nunca genera una alerta.</p>
-<aside class="cal cal-warning"><p class="cal-t">Silencia un parámetro sin borrar su rango</p><p>Si eliminas un umbral, Cora puede seguir valorando esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir apareciendo en el resumen. Usa el interruptor de la regla.</p></aside>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-consumables"><span>Anterior</span><b>Consumibles</b></a><a class="pn-n" href="/es/help/mobile-notifications"><span>Siguiente</span><b>Notificaciones</b></a></nav>
+<aside class="cal cal-warning"><p class="cal-t">Desactiva un parámetro sin borrar su rango</p><p>Eliminar una regla no siempre impide que Cora valore esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir influyendo en el resumen. Usa el interruptor de la regla.</p></aside>
+      <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-beta"><span>Anterior</span><b>Funciones Beta</b></a><a class="pn-n" href="/es/help/mobile-notifications"><span>Siguiente</span><b>Notificaciones</b></a></nav>
       <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
@@ -349,10 +355,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Captura de pantalla");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Cerrar"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -373,55 +379,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Sin resultados para \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Sin resultados para \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Prueba con menos palabras o con otras distintas, o ve a:</p><ul><li><a href=\"/es/help/troubleshooting\">Soluci\u00f3n de problemas</a></li><li><a href=\"/es/help/how-do-i\">\u00bfC\u00f3mo hago...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contactar con soporte</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -453,9 +626,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/es/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';
       });

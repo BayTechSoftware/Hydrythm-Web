@@ -1,50 +1,82 @@
 ---
 title: Reef Buddy et rapports
-description: Le briefing du jour, les résultats ICP, les rapports de santé et les graphiques d’historique sur Cora Max.
+description: Le briefing Reef Buddy du matin sur Cora Max, donner votre avis sur les analyses, noter l’entretien des sondes, les résultats ICP, les rapports de santé et les graphiques d’historique.
 section: Cora Max
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 12
 group: Intelligence
+twin: mobile-reef-buddy
 ---
 
-Cora Max affiche les mêmes analyses que le téléphone, sur un écran assez grand pour les lire de loin. Vous les trouvez dans le **menu de l’aquarium**. Touchez le nom de l’aquarium dans la barre du haut.
+Cora Max affiche les mêmes analyses que votre téléphone, sur un écran assez grand pour être lu depuis l’autre bout de la pièce. Reef Buddy, **Rapports ICP**, **Rapports de santé** et **Historique des paramètres** se trouvent tous dans le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut).
 
-![Reef Buddy sur Cora Max](img/max-intelligence.webp "Le briefing en taille réelle.")
+## Le briefing du matin
+
+Chaque jour à votre **Heure du briefing**, une fois le briefing du jour prêt, Reef Buddy apparaît par-dessus le tableau de bord. Si **Briefing Reef Buddy** est activé, Cora le lit à voix haute. Il se ferme tout seul au bout de dix minutes si personne n’y touche, ou fermez-le vous-même.
+
+Pour le relire, touchez l’icône **Reef Buddy** dans la barre du haut. Un point sur l’icône veut dire que vous n’avez pas encore ouvert le briefing du jour. L’écran Reef Buddy complet se trouve dans le menu de l’aquarium.
+
+Réglez l’heure et l’interrupteur de lecture à voix haute dans **Réglages → Réglages Cora Max → REEF BUDDY**. L’**Heure du briefing** est la même sur tous les appareils de votre compte.
 
 ## Reef Buddy
 
-Le briefing du jour s’affiche sur le tableau de bord et a aussi son propre écran. Vous y trouvez les scores Stabilité et Données, le résumé et les observations qui les expliquent.
+![L’écran Reef Buddy sur Cora Max, avec le score de santé du jour, les analyses et Depuis votre dernier ICP](img/max-intelligence.webp "Le score et le résumé du jour, les analyses, et ce qui a bougé depuis votre dernier ICP.")
 
-La signification des scores est détaillée dans [Reef Buddy](/help/mobile-reef-buddy).
+L’écran Reef Buddy affiche les scores de stabilité et de données, le résumé et les analyses qui les expliquent. La signification des scores est expliquée dans [Reef Buddy](/help/mobile-reef-buddy).
 
-Après avoir enregistré un test ou ajouté un résultat ICP, l’écran affiche **Nouvelles mesures depuis ce briefing** et un bouton **Mettre à jour le briefing**. Touchez-le pour refaire le briefing avec les nouveaux chiffres. Cela marche une fois par jour : ensuite, l’écran indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
+Après avoir noté un test ou ajouté un résultat ICP, l’écran affiche **Nouvelles mesures depuis ce briefing** et un bouton **Mettre à jour le briefing**. Touchez-le pour refaire le briefing avec les nouveaux chiffres. Cela fonctionne une fois par jour. Ensuite, l’écran indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
+
+### Agir sur une analyse
+
+Touchez une analyse pour l’ouvrir.
+
+- **Pourquoi je vois ça ?** affiche les mesures, la cible et les entrées de journal sur lesquelles elle repose.
+- **Cela correspond-il à ce que vous observez ?** Répondez **Confirmé**, **Le savais déjà**, **Ne correspond pas** ou **Pas sûr**, puis dites si elle était **Utile** ou **Pas vraiment**. Cora utilise vos réponses pour apprendre à connaître votre aquarium.
+
+Quand Cora doute d’une mesure, il l’affiche sous **À vérifier**, par exemple une sonde qui dérive peut-être. Là, vous pouvez :
+
+- toucher **Je l’ai vérifié** pour noter ce que vous avez fait sur la sonde,
+- toucher **Ajouter à l’entretien** pour en faire une tâche (**Vérifier la sonde pH** ou **Vérifier la configuration de dosage**), ou
+- toucher **Ignorer**. Elle reste silencieuse sauf si le problème persiste.
+
+### Noter l’entretien des sondes
+
+Après avoir nettoyé, étalonné ou remplacé une sonde, notez-le pour que Cora ne prenne pas le saut de la mesure pour une dérive de la sonde. Ouvrez le graphique d’historique de ce paramètre et touchez **Enregistrer l’entretien de la sonde** (l’icône de capteur en haut), ou utilisez **Je l’ai vérifié** sur une analyse de sonde. Choisissez ce que vous avez fait, saisissez si vous le voulez une mesure de référence, et touchez **Enregistrer l’entretien de la sonde**. Plus de détails dans [Noter l’entretien des sondes](/help/mobile-probes#recording-probe-care).
 
 ## Résultats ICP
 
-![Rapports ICP sur Cora Max](img/max-icp.webp "Chaque résultat téléchargé, avec son score.")
+![L’écran Rapports ICP sur Cora Max, avec le dernier rapport, la liste des rapports et le résumé du rapport choisi](img/max-icp.webp "Le dernier résultat et son score, tous les rapports enregistrés, et le résumé du rapport ouvert.")
 
-Vous voyez vos résultats envoyés, chacun avec son score et son résumé, et l’évolution d’un rapport à l’autre.
+Cet écran affiche vos résultats importés avec le score et le résumé de chacun, plus les tendances sur tous vos rapports.
 
-Le score sur 100 compare vos résultats à leurs plages. Un paramètre hors plage le limite à 70 au maximum. Un paramètre très loin de sa plage le limite à 40. La couleur indique la zone : vert (sain) au-dessus de 70, orange (à surveiller) de 40 à 70 et rouge (critique) sous 40.
+Le score sur 100 vient de la comparaison de vos résultats avec leurs plages. Si un paramètre est hors plage, le score ne peut pas dépasser 70. Si l’un est très hors plage, il ne peut pas dépasser 40. La couleur indique la tranche. Vert (sain) au-dessus de 70, orange (demande de l’attention) de 40 à 70, et rouge (critique) sous 40.
 
-Les résultats s’envoient depuis le téléphone. Tout est expliqué dans [Rapports ICP et de santé](/help/mobile-icp-health).
+Vous importez les résultats depuis votre téléphone. Plus de détails dans [Rapports ICP et de santé](/help/mobile-icp-health).
 
 ## Rapports de santé
 
-Lancez et lisez un rapport de santé depuis Cora Max. C’est la même évaluation que sur le téléphone, et son score se calcule comme un score ICP.
+Vous pouvez lancer et lire un rapport de santé au mur. Ouvrez **Rapports de santé** et touchez **Générer**. C’est la même évaluation que celle que fait votre téléphone à partir de vos paramètres, de vos résultats ICP et de votre journal, et son score fonctionne comme un score ICP.
+
+- Les rapports de santé nécessitent le partage de données avec l’IA. S’il est désactivé, Cora Max affiche **Partage des données requis**. Activez-le dans Cora Mobile sous **Réglages → Cora Assistant**.
+- Chaque forfait comprend un nombre de rapports de santé par mois. Quand ils sont épuisés, vous voyez **Limite mensuelle atteinte** jusqu’au mois suivant. Plus de détails dans [Forfaits](/help/mobile-plans).
 
 ## Graphiques d’historique
 
-Ouvrez le **menu de l’aquarium** et touchez **Historique des paramètres**. Choisissez un paramètre sous **Choisir un paramètre**, et il s’ouvre en graphique plein écran. Toucher une tuile du tableau de bord ouvre le même graphique. C’est le meilleur moyen de repérer une dérive lente. Un mois d’alcalinité en plein écran montre une tendance qu’une petite tuile ne peut pas montrer.
+Ouvrez le **menu de l’aquarium** et touchez **Historique des paramètres**, puis choisissez un paramètre. Il s’ouvre en graphique plein écran. Toucher une tuile du tableau de bord ouvre le même graphique. Sur un écran mural, c’est le meilleur moyen de repérer une lente dérive. Un mois d’alcalinité en plein écran montre une tendance qu’une petite tuile ne peut pas montrer.
 
-Le nom du paramètre dans l’en-tête est une liste déroulante : vous pouvez passer à un autre paramètre en gardant la période. Deux autres listes règlent la **Période** et la **Source** : **Toutes les sources**, ou l’une des sources **Apex**, **Manuel**, **ICP**, **Cora**, **ReefBeat** ou **AquaWiz**. **Comparer** trace un second paramètre sur le même graphique, et la liste contient tous les paramètres de l’aquarium. Chaque source a sa couleur. Les points ReefBeat et AquaWiz sont des carrés. Les mesures prises à la main (Manuel et ICP) sont des points plus gros. **Toutes les sources** affiche les sources côte à côte et ne fait jamais la moyenne entre deux sources.
+- Le nom du paramètre dans l’en-tête est une liste déroulante : vous pouvez changer de paramètre en gardant la période.
+- **Période** règle l’intervalle de temps.
+- **Source** affiche **Toutes les sources** ou une seule source de ce paramètre, comme **Apex**, **Manuel**, **ICP** ou **ReefBeat**. Seules les sources qu’a ce paramètre sont listées.
+- **Comparer** trace un deuxième paramètre sur le même graphique.
 
-Plus de détails dans [Examiner un paramètre](/help/mobile-metric-detail).
+Chaque source a sa propre couleur. Les mesures d’appareils comme ReefBeat et AquaWiz sont des carrés, et les mesures prises à la main (Manuel et ICP) sont des points plus gros. **Toutes les sources** affiche toutes les sources côte à côte et ne fait jamais la moyenne des mesures d’une source avec celles d’une autre. Des lignes pointillées marquent les doses notées. Sous le graphique, vous voyez **Dernière**, **Moy**, **Min**, **Max**, ainsi que **Min. 30 j** et **Max. 30 j**.
+
+Pour l’alcalinité, le calcium et le magnésium, le bouton **Calculateur de dose** en haut calcule une dose de correction. Plus de détails dans [Examiner un paramètre](/help/mobile-metric-detail).
 
 ## Parcours guidés
 
-Vous pouvez suivre un parcours sur Cora Max et voir où il en est.
+Un parcours actif apparaît sous forme de fin bandeau en haut du tableau de bord de l’aquarium. Touchez-le pour voir les étapes et votre progression.
 
-Pendant un parcours de démarrage, vous pouvez aussi saisir des mesures ici. **Enregistrer un test**, sur l’écran de démarrage, enregistre l’ammoniac, le nitrite et le nitrate sans passer par le téléphone. C’est pratique quand vous êtes devant l’aquarium avec votre kit de test.
+Sur un nouvel aquarium en cyclage, vous pouvez noter des mesures ici. **Enregistrer un test** sur l’écran de cyclage enregistre l’ammoniac, le nitrite et le nitrate sans sortir votre téléphone.
 
-Un parcours de type **problème** est en lecture seule sur Cora Max. Pour le démarrer, terminer une étape, saisir un résultat, le résoudre ou l’ignorer, passez par le téléphone. Tout est expliqué dans [Parcours guidés](/help/mobile-journeys).
+Un parcours **problème** est en lecture seule au mur. Le démarrer, terminer une étape, noter un résultat, et le résoudre ou l’écarter se font tous sur votre téléphone. Plus de détails dans [Parcours guidés](/help/mobile-journeys).

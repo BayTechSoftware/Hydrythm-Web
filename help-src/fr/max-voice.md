@@ -1,41 +1,48 @@
 ---
 title: Parler à Cora
-description: La voix sur Cora Max, comment lancer une conversation, quoi demander et comment se passent les confirmations.
+description: Utilisez la voix et "Hey Cora" sur Cora Max, ce qu’il peut faire ou non à la voix, le partage de données avec l’IA et votre quota mensuel, et que faire quand Cora ne répond pas.
 section: Cora Max
 reviewed: 2026-10-13
-order: 12
+order: 13
 group: Intelligence
+twin: mobile-assistant
 ---
 
-Cora Max comprend la voix. C’est le plus pratique quand vous avez les mains mouillées ou que vous êtes à l’autre bout de la pièce.
+Vous pouvez parler à Cora Max. C’est le plus pratique quand vous avez les mains mouillées ou que vous êtes à l’autre bout de la pièce. La voix sur Cora Max, c’est Cora Assistant, le même assistant que sur votre téléphone.
+
+## Avant de commencer
+
+- **Le partage de données avec l’IA doit être activé.** Activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** dans Cora Mobile, sous **Réglages → Cora Assistant**. Tant que c’est désactivé, Cora Max affiche **La voix a besoin de votre accord** et rien de ce que vous dites n’est envoyé. Plus de détails dans [Interroger Cora](/help/mobile-assistant#consent).
+- **La voix utilise votre quota mensuel d’IA.** Les sessions vocales ont leur propre compteur mensuel, et chaque réponse parlée utilise aussi des messages du même quota d’Assistant que votre téléphone, plus qu’une réponse écrite. Votre forfait fixe les deux. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 
 ## Deux façons de commencer
 
-**Dites « Hey Cora ».** Cora Max guette ce mot d’activation en arrière-plan et démarre une session quand il l’entend.
+Dites **"Hey Cora"**. Cora Max écoute en arrière-plan la phrase d’activation et lance une session quand il l’entend.
 
-Ou touchez l’icône **Cora Assistant** dans la barre du haut. Cora se met tout de suite à écouter, répond à voix haute et continue d’écouter jusqu’à ce que vous l’arrêtiez.
+Ou touchez l’icône **Cora Assistant** dans la barre du haut. Cora commence à écouter tout de suite et répond à voix haute. Il n’y a pas d’étape de confirmation : si vous l’avez touchée par erreur, touchez **Annuler**. Rien n’est perdu.
 
-![Réglages vocaux](img/max-voice.webp "L’écoute du mot d’activation peut être désactivée sans perdre l’appui pour parler.")
+![Cora Assistant à l’écoute sur Cora Max, avec un bouton Annuler, par-dessus le tableau de bord atténué](img/max-voice-session.webp "Cora Assistant à l’écoute, avec Annuler en dessous.")
 
-**Réglages → Réglages Cora Max → Son et voix → Écoute du mot d’activation** coupe l’écoute en arrière-plan. L’icône Cora Assistant marche toujours. Choisissez ce réglage si vous préférez que l’écran n’écoute pas en permanence.
+## Réglages du son et du mot d’activation {#sound-and-wake-word-settings}
 
-Dans la même section **Son et voix**, **Sortie audio** choisit le haut-parleur intégré, une prise 3,5 mm ou le Bluetooth. Pour la voix, le haut-parleur intégré est le plus faible des trois.
+![Les interrupteurs Son d’alerte, Alertes vocales et Mot d’activation dans les Réglages Cora Max, avec l’interrupteur du briefing Reef Buddy en dessous](img/max-voice.webp "Son d’alerte, Alertes vocales et Mot d’activation, avec Reef Buddy en dessous.")
 
-## Quel appareil répond à « Hey Cora »
+Ils se trouvent dans **Réglages → Réglages Cora Max → SON ET VOIX**, et ne concernent que cet écran.
 
-Si vous avez plusieurs Cora Max à la maison, un seul répond au mot d’activation. On l’appelle l’**Appareil répondant**. Ce choix est distinct de l’appareil qui interroge votre équipement (le **Cora Max principal**, voir [Appareils et état des appareils](/help/max-devices)).
+- **Mot d’activation** active ou désactive l’écoute en arrière-plan. Quand il est désactivé, toucher l’icône **Cora Assistant** fonctionne toujours : utilisez-le si vous préférez que l’écran n’écoute pas en permanence.
+- **Haut-parleur** choisit d’où sort le son : **Interne**, **3.5 mm** ou **BT** (Bluetooth). Pour la voix, le haut-parleur interne est le plus faible des trois. **BT** ouvre **Associer une enceinte Bluetooth**, où vous mettez votre enceinte en mode association et la choisissez dans la liste.
 
-Changez-le dans **Réglages → Cora Assistant**, sur n’importe quel Cora Max, ou dans Cora Mobile. Le choix vaut pour toute la maison.
+## Quel appareil répond à "Hey Cora"
 
-Seul l’**Appareil répondant** écoute « Hey Cora ». Vos autres Cora Max n’écoutent pas tant qu’il est en ligne. S’il passe hors ligne, ou s’il n’a pas été vu depuis plus de 15 minutes, un autre Cora Max se met à écouter à sa place, puis s’arrête dès qu’il est de retour. Le relais prend environ une minute : si personne ne répond à « Hey Cora » juste après, redites-le ou touchez l’icône **Cora Assistant**.
+Si vous avez plusieurs Cora Max à la maison, un seul répond à la phrase d’activation. C’est l’**Appareil répondant**. C’est un réglage distinct de l’appareil qui lit votre équipement, le **Cora Max principal** (plus de détails dans [Appareils et état des appareils](/help/max-devices)).
 
-:::note La session démarre dès que vous touchez
-Cora Assistant lance la session tout de suite, sans demander de confirmation. Si vous l’avez touché par erreur, arrêtez la session. Vous ne perdez rien.
-:::
+Changez-le dans **Réglages → Cora Assistant** sur n’importe quel Cora Max, ou dans Cora Mobile. Il s’applique à tout votre foyer.
 
-## Quoi demander
+Seul l’**Appareil répondant** écoute "Hey Cora". Vos autres écrans Cora Max n’écoutent pas tant qu’il est en ligne. S’il se déconnecte, ou qu’on ne l’a pas vu depuis plus de 15 minutes, un autre Cora Max se met à écouter à sa place, et s’arrête dès qu’il revient. Le relais prend environ une minute : si personne ne répond à "Hey Cora" juste après, redites-le ou touchez l’icône **Cora Assistant**.
 
-**Questions sur l’aquarium**
+## Ce que vous pouvez demander
+
+Des questions sur l’aquarium :
 
 - *« Quelle est mon alcalinité ? »*
 - *« La température a-t-elle été stable aujourd’hui ? »*
@@ -43,59 +50,79 @@ Cora Assistant lance la session tout de suite, sans demander de confirmation. Si
 - *« Pourquoi le pH est-il plus bas que d’habitude ? »*
 - *« Compare les six derniers mois de mon magnésium avec mon dernier ICP. »*
 
-**Actions**
+Pas besoin de tout répéter pour une question de suivi. Après une question sur l’aquarium principal, *« et le bac à boutures ? »* fonctionne.
 
-- *« Éteins l’écumeur. »*
-- *« Démarre le mode nourrissage. »*
-- *« Remets le ventilateur en auto. »*
-- *« Note que j’ai fait un changement d’eau de vingt litres. »*
-- *« Note que j’ai donné du mysis en plus. »* ou *« Note que j’ai sauté le repas du matin. »*
+## Ce que Cora peut faire à la voix
 
-**Questions de suite.** Inutile de tout répéter. Après une question sur le bac principal, *« et l’aquarium de boutures ? »* suffit.
+- Allumer, éteindre ou remettre en auto une prise Neptune Apex : *« Éteins l’écumeur. »* *« Remets le ventilateur en auto. »*
+- Lancer un cycle de nourrissage Apex (Feed A à D) : *« Démarre le mode nourrissage. »*
+- Lancer un test Trident : *« Lance un test d’alcalinité. »*
+- Changer une plage d’alerte : *« Règle l’alerte de pH entre 7,9 et 8,4. »*
+- Noter un résultat de test : *« Note l’alcalinité à 8,1. »*
+- Écrire dans le journal : *« Note que j’ai fait un changement d’eau de vingt litres. »* *« Note que j’ai donné du mysis en plus. »* *« Note que j’ai sauté le repas du matin. »*
+- Commander l’équipement Red Sea : doser avec une tête ReefDose, changer sa dose quotidienne, lancer un remplissage ReefATO+, faire avancer un ReefMat ou régler la vitesse d’une pompe ReefRun.
+- Commander les pompes Jecod.
+- Équipement en Beta : lancer un test ou un dosage Focustronic, exécuter des commandes GHL, et commander les pompes EcoTech VorTech.
 
-## Verrouillage enfant
+## Ce que Cora ne peut pas faire à la voix sur Cora Max
 
-**Réglages → Réglages Cora Max → Verrouillage enfant** empêche de lancer des commandes depuis cet écran. Les questions et les mesures marchent toujours. Cora vous donnera votre alcalinité, mais refusera d’éteindre la pompe de remontée.
+- Lancer ou arrêter une scène. Utilisez la tuile de scène ou **Réglages → Automatisations**.
+- Doser avec une tête Neptune DŌS, ou doser avec un EcoTech Versa. Utilisez la page de l’appareil sur Cora Max.
+- Commander une Gyre Maxspect, un contrôleur HYDROS ou une EcoTech Radion. Utilisez la page de l’appareil.
+- Changer les réglages de Cora Max lui-même, ajouter des appareils ou modifier le tableau de bord.
 
-Activez-le si l’écran est à portée d’enfants ou de visiteurs.
+Cora Assistant sur votre téléphone peut faire certaines de ces choses. Plus de détails dans [Interroger Cora](/help/mobile-assistant#what-cora-can-change).
 
-**Pour déverrouiller**, au choix :
-
-- appuyez **trois fois sur la touche de volume en moins de deux secondes**
-- **posez cinq doigts dans le coin en haut à droite pendant dix secondes**
-
-Les trois appuis doivent tenir dans les deux secondes. Des pressions isolées ne suffisent donc pas à déverrouiller l’écran. Ce verrouillage protège des manipulations d’un enfant, pas d’un accès volontaire : une personne qui vous regarde faire peut reproduire le geste.
+:::note Beta
+**Beta.** Focustronic, GHL, HYDROS, Maxspect et EcoTech sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html).
+:::
 
 ## Confirmations
 
-Tout ce qui touche votre équipement est confirmé avant d’être fait. Cora vous dit exactement ce qu’il va faire et attend votre accord.
+Avant que quoi que ce soit n’atteigne votre équipement, Cora vérifie avec vous. Il vous dit exactement ce qu’il va faire et attend votre accord. Vous pouvez répondre à voix haute, dans la langue de votre compte.
 
-Si une consigne n’est pas claire (vous avez deux chauffages et vous dites « le chauffage »), Cora vous demande lequel. Il ne devine pas.
+Si ce que vous avez dit peut vouloir dire plusieurs choses (vous avez deux chauffages et avez dit « le chauffage »), Cora demande lequel au lieu de deviner.
 
-:::warning En confirmant, vous prenez la décision
-La confirmation est là pour que rien ne vous surprenne. Lisez-la avant d’accepter, surtout quand il s’agit d’éteindre un équipement vital pour l’aquarium.
+Tout ce que Cora fait sur l’équipement s’affiche à l’écran avec son résultat, et est enregistré dans [Activité](/help/max-activity).
+
+:::warning Confirmer, c’est votre décision
+La confirmation est là pour que rien ne vous prenne par surprise. Lisez-la ou écoutez-la avant d’accepter, surtout pour tout ce qui coupe un équipement vital ou qui dose.
 :::
 
 ## Ce que Cora voit
 
-La même chose que sur votre téléphone, pour l’aquarium affiché : vos mesures en direct et leur âge, jusqu’à six mois environ d’historique pour chaque paramètre, votre journal et vos résultats de laboratoire.
+Pour l’aquarium affiché : vos mesures en direct et l’âge de chacune, jusqu’à environ six mois d’historique pour n’importe quel paramètre, votre journal récent et vos résultats de laboratoire.
 
-Si une mesure est ancienne, Cora le dit. Il ne répond pas comme si elle était à jour.
+Si une mesure est périmée, Cora vous le dit et ne la traite pas comme actuelle.
 
-## De quel aquarium Cora parle
+## De quel aquarium parle Cora
 
-De celui qui est à l’écran. Changez d’abord d’aquarium dans la barre du haut, ou nommez l’aquarium dans votre question.
+C’est l’aquarium que l’écran affiche. Changez d’aquarium dans la barre du haut d’abord, ou nommez l’aquarium dans votre question.
 
 ## Arrêter
 
-Dites *« stop »*, ou touchez pour terminer la session. Cora n’écoute plus une fois la session terminée.
+Dites *« stop »* ou *« au revoir »*. Vous pouvez aussi toucher **Annuler** pendant que Cora écoute, ou **Arrêter de parler** pendant qu’il parle. Si personne ne parle pendant environ 30 secondes, la session se termine toute seule. Cora arrête d’écouter quand la session se termine.
+
+## Verrouillage enfant et voix
+
+Tant que le [verrouillage enfant](/help/max-settings#child-lock) a verrouillé l’écran, Cora répond toujours aux questions, mais refuse tout ce qui change votre équipement.
 
 ## S’il comprend mal
 
-Le vocabulaire du récif n’est pas simple, et les noms d’équipement encore moins. Si Cora comprend souvent mal le nom d’un appareil, renommez-le dans **Appareils** avec un nom plus facile à distinguer. Les mots courts et courants marchent le mieux.
+Les mots du récif sont difficiles, et les noms d’équipement encore plus. Si Cora comprend sans cesse mal un appareil, donnez-lui un nom plus distinct. Allez dans **Réglages → Appareils**, touchez le crayon à côté de l’appareil (ou **Renommer** sur sa page), et tapez un nom court et courant. Le nouveau nom apparaît aussi sur votre téléphone.
 
 ## Si Cora ne répond pas
 
-Vérifiez que **Écoute du mot d’activation** est toujours activée (**Réglages → Réglages Cora Max → Son et voix**), que cet écran est bien l’**Appareil répondant** de la maison (voir plus haut) et que le volume n’est pas trop bas. Le bruit d’une décantation ou d’un filtre juste à côté peut aussi l’empêcher d’entendre le mot d’activation. En général, il suffit de déplacer Cora Max ou de parler un peu plus près.
+- Vérifiez que **Mot d’activation** est activé (**Réglages → Réglages Cora Max → SON ET VOIX**), que ce Cora Max est votre **Appareil répondant** (voir plus haut), et que son volume est monté.
+- Une décantation bruyante ou un filtre juste à côté de Cora Max peut l’empêcher d’entendre la phrase d’activation. Déplacez-le, ou parlez un peu plus près.
 
-Si le problème continue, consultez la page [Résolution de problèmes](/help/troubleshooting).
+Si Cora Max affiche un message au lieu d’écouter :
+
+| Message | Que faire |
+|---|---|
+| **La voix a besoin de votre accord** | Activez le partage de données avec l’IA dans Cora Mobile (**Réglages → Cora Assistant**), puis réessayez |
+| **Limite vocale gratuite atteinte** | Le quota de ce mois est épuisé. Passez à un forfait supérieur dans Cora Mobile, ou attendez le mois prochain |
+| **Trop de requêtes** | Attendez un instant, puis réessayez |
+| **Problème de connexion** | Vérifiez le Wi-Fi de ce Cora Max, puis touchez à nouveau l’icône **Cora Assistant** |
+
+Si cela ne suffit pas, consultez [Résolution de problèmes](/help/troubleshooting).

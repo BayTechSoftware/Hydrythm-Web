@@ -1,146 +1,170 @@
 ---
 title: Alertas y umbrales
-description: Fija el rango de cada parámetro, elige qué avisos recibes y entiende por qué saltó una alerta.
+description: Fija el rango saludable de cada lectura, elige cada cuánto puede avisarte una alerta y descubre por qué un dispositivo "dejó de informar".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 15
+order: 20
 group: Alerts and automation
+twin: max-alerts
 ---
 
-Cuando una lectura sale del rango que fijaste, Cora genera una alerta. Tú decides los rangos y también qué alertas llegan a tu teléfono.
+Recibes una alerta cuando una lectura sale del rango que fijaste para ella. Esta página explica cómo fijar esos rangos, qué pasa cuando salta una alerta y cuánto espera Cora antes de decir que un dispositivo ha dejado de informar.
 
-El **Centro de alertas** se abre desde la fila de accesos directos, en la parte inferior del panel.
+Para abrir el **Centro de alertas**, toca **Alertas** en la fila de botones que hay debajo del panel. También está en Ajustes → tu acuario → **Umbrales de alerta**.
 
-![El Centro de alertas](img/mobile-alerts.webp "Alertas activas, cada una con su gravedad, qué la activó, y cuándo.")
+![La pestaña Activas del Centro de alertas en Cora Mobile](img/mobile-alerts.webp "Las alertas activas, cada una con su gravedad, qué la activó y cuándo, además de Ver regla y Explicar esta alerta.")
 
-## El Centro de alertas
+## El Centro de alertas {#alert-center}
 
-Tiene dos pestañas:
+Tiene dos pestañas. **Activas** lista las alertas que están saltando ahora mismo, con un contador. **Reglas** guarda las reglas que las generan.
 
-- **Activas**: las alertas que siguen abiertas, con un número que indica cuántas hay
-- **Reglas**: los umbrales y las reglas de velocidad de cambio que las generan
+Cada alerta activa muestra el parámetro y el acuario, la lectura que la provocó, una breve explicación, una etiqueta de gravedad, el tipo de regla que saltó (**Umbral** o **Tasa de cambio**) y cuándo saltó. Tiene dos botones:
 
-En cada alerta activa ves el parámetro y el acuario, la lectura que la activó y una explicación sencilla. También ves una etiqueta con la gravedad, el tipo de regla (**Umbral** o **Tasa de cambio**) y la hora.
+- **Ver regla** abre la regla que hay detrás, para que puedas ajustar el rango. En una alerta de dosificador, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, este botón es **Abrir dosificador**. Abre la página de ese dosificador con sus alertas.
+- **Explicar esta alerta** abre Cora Assistant con una pregunta sobre la alerta lista para enviar. Revísala, cámbiala si quieres y envíala.
 
-Cada una tiene dos botones:
+## La pestaña Reglas {#rules}
 
-- **Ver regla**: abre la regla que generó la alerta para que ajustes el rango. En una alerta de dosificador, por ejemplo un cabezal de DŌS o de ReefDose que se está quedando sin líquido o una dosis omitida, este botón es **Abrir dosificador**. Abre la página de ese dosificador con sus alertas.
-- **Explicar esta alerta**: le pide al asistente que la interprete con el historial de tu acuario
+![La pestaña Reglas](img/mobile-alert-rules.webp "Las reglas agrupadas por parámetro, cada una con su propio interruptor.")
 
-## La pestaña Reglas
+Las reglas se agrupan por parámetro. Cada regla tiene su propio interruptor en su fila, así que puedes desactivar una sin abrirla. Una fila también muestra **Activada ahora** mientras su alerta está activa, o cuándo saltó por última vez (o **Nunca se ha activado**).
 
-Las reglas están agrupadas por parámetro. Cada regla tiene su propio interruptor en su fila, así que puedes desactivar una sin abrirla. Toca una fila para cambiar su rango o su tiempo de espera.
+Las reglas de un cabezal de dosificación llevan el nombre del cabezal y lo que vigilan, por ejemplo *Yodo · días restantes* o *Yodo · restante*. Una dosis omitida aparece como *Yodo · dosis omitida*. Cada DŌS y cada ReefDose tiene aquí una fila propia, y las alertas de sus cabezales no se listan una a una. Toca la fila para abrir la página de ese dosificador. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
 
-Las reglas de un cabezal de dosificación llevan el nombre del cabezal y de lo que vigilan, por ejemplo *Yodo · días restantes* o *Yodo · restante*. Una dosis omitida aparece como *Yodo · dosis omitida*.
+Al final:
 
-Cada DŌS y cada ReefDose tiene aquí una sola fila propia. Las alertas de sus cabezales no aparecen una por una. Toca la fila para abrir la página de ese dosificador con sus alertas. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
+- **Agregar reglas recomendadas** añade las reglas recomendadas de Cora que falten. Se salta los parámetros que ya tienen una regla. En un acuario sin ninguna regla, este botón dice **Agregar reglas predeterminadas**.
+- **Agregar regla personalizada** crea una regla tuya. Elige el parámetro y el **Tipo de regla**, **Umbral** o **Tasa de cambio**. El botón **Agregar regla** de abajo a la derecha hace lo mismo.
 
-Si faltan algunas de las reglas que Cora recomienda, **Agregar reglas recomendadas**, al final de la lista, las añade. Se salta los parámetros que ya tienen una regla. **Agregar regla personalizada** crea una regla a tu medida.
+### Editar una regla {#editing-a-rule}
 
-## Fijar un rango
+Toca la fila de una regla para abrirla. Encontrarás:
 
-Los parámetros que Cora puede valorar tienen un rango objetivo. Los valores iniciales salen del tipo y la antigüedad del acuario que indicaste al configurarlo, y suelen ser un buen punto de partida. Si un parámetro no tiene un rango útil, Cora no lo valora. Se queda en gris neutro y Cora no intenta adivinar.
+- **Mínimo de alerta** y **Máximo de alerta**, el propio rango. Deja uno vacío para un máximo o un mínimo.
+- **Recomendado**, que vuelve a poner el rango sugerido por Cora.
+- **Rango del medidor (pantalla Cora)**, con **Mínimo del medidor** y **Máximo del medidor**. Solo fijan la escala del medidor en Cora Max. Nunca generan una alerta.
+- **Tiempo de espera entre alertas**, explicado [más abajo](#cooldowns).
+- **Activada**, y un botón para eliminar.
 
-Para cambiar un rango, **mantén pulsado el widget** del parámetro en el panel. Se abren directamente sus umbrales. Con un toque normal se abre la vista del parámetro. Vale la pena recordar el gesto de mantener pulsado.
+Una regla de fallo de dispositivo, como un Trident sin reactivo, no tiene rango. Solo eliges su tiempo de espera.
 
-Si el parámetro todavía no tiene regla, los campos muestran el valor predeterminado de Cora y una nota debajo te lo indica. Cambia cualquier valor para fijar el tuyo.
+## Fijar un rango {#setting-a-range}
 
-Para verlos todos juntos, toca **Alertas** en la fila de botones bajo el panel.
+Los parámetros que Cora puede valorar tienen un rango objetivo. Los valores predeterminados salen del tipo y la edad de tu acuario cuando lo configuras, y son un punto de partida sensato. Si un parámetro no tiene un rango útil, Cora no lo valora, y su widget se queda en gris neutro.
+
+La forma más rápida de cambiar un rango es mantener pulsado el widget del parámetro en el panel. Se abren sus umbrales. Un toque normal abre la vista del parámetro.
+
+![La hoja de umbral del pH en Cora Mobile](img/mobile-threshold-sheet.webp "Mínimo y máximo de alerta, el rango del medidor para Cora Max y el tiempo de espera entre alertas.")
+
+Si el parámetro todavía no tiene regla, los campos empiezan con el valor predeterminado de Cora y una nota debajo lo indica. Cambia cualquier valor para fijar el tuyo.
 
 Puedes fijar:
 
-- **Un rango**: un mínimo y un máximo, para parámetros como la alcalinidad o la temperatura
-- **Un techo**: solo un máximo, para parámetros en los que un valor bajo no es problema, como el nitrato o el fosfato
-- **Un suelo**: solo un mínimo
+- un rango, con un mínimo y un máximo, para cosas como la alcalinidad o la temperatura
+- un máximo, solo con el valor alto, para cosas en las que estar bajo está bien, como el nitrato o el fosfato
+- un mínimo, solo con el valor bajo
 
-:::tip Usa el rango real de tu acuario
-Los valores predeterminados son solo un punto de partida. Si tu acuario funciona bien con pocos nutrientes a 6 dKH, no está "mal" porque una tabla diga 8–9. Fija el rango con el que trabajas y Cora te avisará cuando *tú* te salgas de él.
+:::tip Fija el rango en el que de verdad funciona tu acuario
+Los valores predeterminados son solo un punto de partida. Un acuario con pocos nutrientes que funciona a 6 dKH no está "mal" porque una tabla diga 8–9. Fija el rango con el que trabajas, y Cora te avisa cuando *tú* te desvías.
 :::
 
-## Qué activa una alerta
+## Qué hace saltar una alerta {#what-triggers-an-alert}
 
-Una alerta salta cuando una lectura cruza un umbral. Cora revisa cada lectura en cuanto llega, así que basta una sola lectura fuera de rango.
+Una alerta salta cuando una lectura cruza un umbral. Cora revisa cada lectura en cuanto llega, así que basta con una lectura fuera de tu rango.
 
-Mientras una alerta está activa, Cora no te avisa una y otra vez por lo mismo. Hay un tiempo de espera antes de que pueda volver a avisarte. Además, la alerta **se cierra sola** en cuanto una lectura vuelve al rango. No tienes que confirmar nada.
+Una regla de tasa de cambio vigila lo rápido que se mueve un parámetro en lugar de dónde está. Úsala cuando la velocidad de un cambio importa más que el número.
 
-También puedes crear una regla de **tasa de cambio**. Esta regla vigila lo rápido que se mueve un parámetro, no el valor que tiene ahora. Úsala cuando importa más la velocidad del cambio que el número.
+Cuando una alerta está activa, no te sigue avisando de lo mismo. El [tiempo de espera](#cooldowns) de la regla decide cuándo puede volver a avisarte.
 
 ## Dónde aparecen las alertas
 
-- **La campana**, arriba a la derecha en todas las pantallas, guarda tu historial. El número indica cuántas no has leído.
-- **Las notificaciones push** llegan a tu teléfono si les das permiso.
-- **El widget** del panel se pone ámbar o rojo.
-- **Cora Max** muestra las mismas alertas en la pantalla grande.
+- La campana, arriba a la derecha en las pestañas principales, guarda tu historial. El número indica cuántas no has leído. Más información en [Notificaciones](/help/mobile-notifications).
+- Una notificación push llega a tu teléfono si esa categoría está activada.
+- El widget del panel se pone ámbar o rojo.
+- Cora Max muestra las mismas alertas en su pantalla.
 
-## Cuando un equipo necesita atención
+## Cuando un equipo necesita atención {#equipment-faults}
 
-Algunas alertas tratan de un equipo y no de una lectura. Si un dispositivo como un Trident o una bomba Jecod informa de un fallo, Cora te envía una notificación con el nombre del acuario y del dispositivo, por ejemplo *"Acuario principal: la bomba de retorno necesita atención"*. La notificación también dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, llega otra que dice *"Acuario principal: la bomba de retorno vuelve a estar bien"*. Las dos pertenecen a **Fallas de equipos**, en **Ajustes → Notificaciones**.
+Algunas alertas tratan de un equipo, no de una lectura. Cuando un dispositivo como un Trident o una bomba Jecod informa de un fallo, Cora envía una notificación con el nombre del acuario y del dispositivo, por ejemplo *"Acuario principal: la bomba de retorno necesita atención"*. También dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, recibes una segunda: *"Acuario principal: la bomba de retorno vuelve a estar bien"*. Las dos pertenecen a **Fallas de equipos** en **Ajustes → Notificaciones**.
 
-Un gyre Maxspect (Beta) puede generar la misma alerta. Pasa cuando un Cora Max de su red encuentra los dos cabezales al 0 % o el gyre no responde dos veces seguidas. Tómalo como un aviso y no como una protección. Cora Max lo comprueba de vez en cuando, no sin parar, y solo mientras está encendido y puede llegar al gyre.
+Un gyre Maxspect (Beta) puede generar la misma alerta. Pasa cuando un Cora Max de su red encuentra los dos cabezales al 0 %, o no recibe respuesta del gyre dos veces seguidas. Tómalo como un aviso, no como una protección. El Cora Max solo lo comprueba de vez en cuando, y solo mientras está funcionando y puede llegar al gyre.
 
-## Un dispositivo ha dejado de informar
+## Un dispositivo ha dejado de informar {#stopped-reporting}
 
-Si un Neptune Apex, un equipo Red Sea ReefBeat, un AquaWiz, una bomba Jecod, un gyre Maxspect, un dispositivo EcoTech o un monitor de aire de habitación Inkbird deja de responder, Cora te avisa: *"[Dispositivo]: ha dejado de informar"*. Revisa su alimentación y su Wi-Fi (o el alcance del Bluetooth), y comprueba que el Cora Max que lo lee esté encendido. Recibes una segunda notificación en cuanto vuelve a informar.
+Cuando un dispositivo conectado se queda en silencio, Cora envía *"[Dispositivo]: ha dejado de informar"*. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Recibes una segunda notificación, *"[Dispositivo]: vuelve a informar"*, cuando vuelve.
 
-Cuánto espera Cora depende del dispositivo.
+Cuánto espera Cora depende del dispositivo:
 
-- Neptune Apex y Red Sea ReefBeat: unos 30 minutos sin una actualización nueva.
-- AquaWiz: unas 3 horas, porque consulta con menos frecuencia.
-- Jecod y Maxspect: tres lecturas seguidas sin llegar, contadas según el intervalo de lectura del propio dispositivo.
-- EcoTech e Inkbird: tres lecturas seguidas sin llegar, contadas según el intervalo que hayas fijado para esa red o ese monitor.
+| Dispositivo | Cora espera |
+|---|---|
+| Neptune Apex | Unos 30 minutos sin actualizaciones |
+| Red Sea ReefBeat | Unos 30 minutos |
+| AquaWiz | Unas 3 horas, porque informa con menos frecuencia |
+| Bombas Jecod | Tres lecturas perdidas seguidas, según el intervalo de lectura de la bomba (90 minutos con el predeterminado de 30) |
+| Maxspect (Beta) | Tres lecturas perdidas seguidas, como Jecod |
+| EcoTech (Beta) | Tres lecturas perdidas seguidas, según el intervalo de lectura de la red (90 minutos con el predeterminado de 30). Si fijas un tiempo más largo en **La luz deja de responder**, Cora espera ese tiempo |
+| Monitor de aire de habitación Inkbird (Beta) | Tres lecturas perdidas seguidas, según el intervalo propio del monitor (15 minutos con el predeterminado de 5) |
+| Focustronic (Beta) | Unas 3 horas |
+| GHL (Beta) | Unos 15 minutos. La notificación dice *"No se puede contactar con el controlador GHL"* |
+| HYDROS (Beta) | Unos 30 minutos. La notificación dice *"El controlador HYDROS no informa"* |
 
-Maxspect, EcoTech e Inkbird son integraciones Beta que solo pueden añadir los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
+Qué revisar depende de cómo lee Cora el dispositivo.
 
-Esto pertenece a **Fallas de equipos**, en **Ajustes → Notificaciones**, junto con las alertas de fallos anteriores.
+- Apex, ReefBeat, Jecod, Maxspect y GHL los lee un Cora Max por Wi-Fi. Revisa la alimentación y el Wi-Fi del dispositivo, y que el Cora Max que lo lee esté encendido y en línea.
+- EcoTech e Inkbird los lee un Cora Max por Bluetooth. Revisa la alimentación, que el dispositivo esté al alcance del Bluetooth del Cora Max y que el Cora Max esté encendido.
+- AquaWiz y Focustronic se leen a través de tu cuenta con el fabricante. Revisa la conexión de la cuenta en la página del dispositivo en Cora Mobile.
+- En HYDROS, revisa su alimentación, su Wi-Fi y su clave de dispositivo.
 
-## "Las lecturas de Red Sea han dejado de actualizarse"
+GHL también puede decirte *"API GHL desactivada"* o que el controlador *"rechazó la conexión"*. Si el Cora Max que lee un controlador GHL se queda en silencio, recibes *"Cora Max no informa"* para ese controlador. Las soluciones están en [Solución de problemas](/help/troubleshooting).
 
-Es posible que veas este aviso en la página de parámetros de un acuario:
+Estas notificaciones pertenecen a **Fallas de equipos** en **Ajustes → Notificaciones**.
 
-> Las lecturas de Red Sea han dejado de actualizarse. Ningún dispositivo está leyendo los equipos Red Sea de este acuario: revisa el Cora Max principal en Ajustes o abre este acuario en un dispositivo conectado a la misma red Wi-Fi.
-
-Quiere decir que ahora mismo ningún teléfono ni Cora Max consulta el equipo ReefBeat de ese acuario. Las lecturas que ves son antiguas, pero no tienen por qué estar mal. Toca el aviso para abrir **Cora Max principal**. Ahí elige un dispositivo que esté encendido o selecciona **Cualquiera activo (automático)**. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device). Si el aviso no desaparece, consulta [Solución de problemas](/help/troubleshooting).
-
-## Elegir qué te llega
-
-**Ajustes → Notificaciones.** Aquí decides:
-
-- Qué categorías de notificación pueden enviarte avisos push
-
-Reef Buddy no tiene un interruptor propio. Te envía un resumen cuando hay algo que merece tu atención y no dice nada cuando no lo hay.
-
-:::note Cora prefiere no molestar
-El resumen diario es un solo aviso por acuario y día. Si ese día no hay nada que requiera tu atención, lo normal es que no llegue ningún mensaje para decirte que todo va bien. Si Cora te avisa, es que algo ha cambiado.
+:::note Beta
+Maxspect, EcoTech, Inkbird, Focustronic, GHL y HYDROS están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
 :::
 
-## Tiempos de espera: cada cuánto puede avisarte la misma alerta
+Un acuario Red Sea también puede mostrar un aviso, *"Las lecturas de Red Sea han dejado de actualizarse"*, cuando ningún teléfono ni Cora Max está leyendo sus equipos ReefBeat. Tócalo para elegir un **Cora Max principal**. La solución completa está en [Solución de problemas](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 
-Cada regla tiene su propio **Tiempo de espera entre alertas**. Lo fijas al añadir o editar la regla, en la pestaña **Reglas** del Centro de alertas. El tiempo de espera no oculta la alerta. Solo limita cada cuánto te envía Cora un aviso push sobre ella. La lectura se sigue valorando, y la alerta sigue visible en el widget y en la campana todo el tiempo.
+## Elegir qué te llega {#choosing-what-reaches-you}
 
-Puedes elegir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 día, 3 días o **1 semana**.
+En **Ajustes → Notificaciones** eliges qué categorías pueden enviarte una notificación push. Consulta [Notificaciones](/help/mobile-notifications), que también explica cómo [tener noches tranquilas](/help/mobile-notifications#quiet-at-night).
 
-Un tiempo corto va bien con lecturas que cambian rápido, como la temperatura. Uno largo, de hasta una semana, sirve para algo que va a seguir mal varios días mientras esperas una pieza. Por ejemplo, un Trident sin reactivo o un recipiente de dosificación vacío. Con un tiempo de espera corto, Cora te avisaría varias veces al día de un problema que ya conoces.
+Reef Buddy no tiene interruptor propio. Su hora es la fila **Hora del resumen**, justo debajo de Notificaciones en Ajustes. En el plan gratuito no hay notificación del resumen.
 
-:::note Posponer una alerta activa se hace en Cora Max
-Cora Mobile no tiene un botón para posponer una alerta activa. Ese botón está en la pantalla de Cora Max junto al acuario, y silencia la alerta durante el tiempo de espera que elegiste aquí. Desde el teléfono, para cambiar cada cuánto te avisa Cora de algo, ajusta el tiempo de espera de la regla.
+:::note Cora no dice nada si nada ha cambiado
+El resumen diario es una notificación por acuario al día. Un día en que nada te necesita, normalmente no dice nada en lugar de contarte que todo va bien. Si Cora te avisa, es que algo ha cambiado.
 :::
 
-## Cerrar una alerta
+## Tiempos de espera: cada cuánto puede avisarte la misma alerta {#cooldowns}
 
-Una alerta se cierra cuando la lectura vuelve al rango. No hay nada que descartar. La alerta describe el estado del acuario, no es una tarea pendiente.
+Cada regla tiene su propio **Tiempo de espera entre alertas**. Lo fijas al añadir o editar la regla. Una regla que nunca tuvo uno usa 1 h.
 
-:::note Una lectura suelta basta para generar una alerta
-Una sola lectura fuera de rango genera una alerta, así que un pico de una sonda también la activa. Si una fuente no es fiable, recalíbrala o haz que el widget use otra fuente. No amplíes el umbral para evitarlo.
+El tiempo de espera no oculta la alerta. Solo limita cada cuánto te avisa Cora de ella. La lectura se sigue valorando, y la alerta se queda en el widget y en la campana todo el tiempo.
+
+Puedes elegir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 día, 3 días o 1 semana.
+
+Un tiempo de espera corto va bien para una lectura que cambia rápido, como la temperatura. Uno largo, de hasta una semana, va bien para algo que sigue mal durante días mientras esperas una pieza, como un Trident sin reactivo o un envase de dosificación vacío.
+
+:::note Posponer está en Cora Max
+Cora Mobile no tiene un botón para posponer una alerta activa. Posponer está en la pantalla de Cora Max junto al acuario, y silencia la alerta durante el tiempo de espera que elegiste aquí. En tu teléfono, el tiempo de espera de cada regla es la forma de cambiar cada cuánto te enteras de algo.
 :::
 
-Si el problema está en la lectura y no en el acuario (por ejemplo, una sonda sin calibrar), arregla la fuente. Si amplías un umbral para silenciar una sonda defectuosa, también te perderás el próximo problema real.
+## Cuando una alerta se resuelve {#clearing-an-alert}
 
-## Desactivar una alerta
+Una alerta se resuelve sola cuando la lectura vuelve al rango. No hay nada que descartar. Recibes una notificación cuando pasa, por ejemplo *"Acuario principal: alcalinidad recuperada"*. Si el problema vuelve más tarde, recibes una alerta nueva.
 
-Apaga el interruptor en la fila de la regla, en la pestaña **Reglas** del Centro de alertas. La regla y su rango se guardan, así que puedes volver a activarla sin crearla de nuevo.
+:::note Los picos cortos también generan alertas
+Una sola lectura fuera de rango basta para generar una alerta, así que una sonda que da un pico hará saltar una. Si una fuente no es fiable, recalíbrala o haz que el widget siga otra fuente. No amplíes el umbral.
+:::
+
+A veces la lectura está mal y el acuario está bien, por ejemplo cuando hay que calibrar una sonda. En ese caso, arregla la fuente. Si amplías un umbral para silenciar una sonda defectuosa, también te perderás el siguiente problema real.
+
+## Desactivar una alerta {#turning-an-alert-off}
+
+Desactiva el interruptor de la fila de la regla en la pestaña **Reglas**. Cora conserva la regla y su rango, así que puedes volver a activarla sin configurarla otra vez.
 
 Mientras una regla está desactivada, Cora no valora esa lectura. Su widget se queda en gris neutro y nunca genera una alerta.
 
-:::warning Silencia un parámetro sin borrar su rango
-Si eliminas un umbral, Cora puede seguir valorando esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir apareciendo en el resumen. Usa el interruptor de la regla.
+:::warning Desactiva un parámetro sin borrar su rango
+Eliminar una regla no siempre impide que Cora valore esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir influyendo en el resumen. Usa el interruptor de la regla.
 :::

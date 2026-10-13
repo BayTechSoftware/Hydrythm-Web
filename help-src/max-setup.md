@@ -1,78 +1,102 @@
 ---
 title: Setting up Cora Max
-description: First start, connecting to Wi-Fi, pairing with your account, and getting your tanks onto the big screen.
+description: Pair a new Cora Max with Cora Mobile over Bluetooth, connect it to Wi-Fi, pick its tanks, and move it to another tank later.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-13
 order: 1
 group: Getting started
+twin: mobile-setup
 ---
 
-Cora Max is the command centre for your reef room. It's a wall screen that shows your live system, you can read it from across the room, and you can talk to it.
+This page takes you from a new Cora Max to a working wall screen. You pair it from your phone over Bluetooth, and you don't type anything on the screen itself.
 
 :::tip Set your tanks up on your phone first
-Cora Max shows the tanks and devices from your account. If you set them up in Cora Mobile first, Cora Max picks them up as soon as you pair it, and you don't have to type on a wall screen.
-
-**Dashboard layouts** don't carry over, though. Each screen keeps its own, so you arrange this one after pairing. More about this in [Editing the Cora Max dashboard](/help/max-dashboard-editing).
+Cora Max shows the tanks and devices on your account, and it can't create a tank itself. [Set them up in Cora Mobile](/help/mobile-setup) first. Cora Max picks them up as soon as you pair it.
 :::
 
-## What you need
+## What you need {#what-you-need}
 
-- Cora Max, plugged in and on
-- Your Wi-Fi network name and password
-- The account you use for Cora Mobile
+- Cora Max, plugged in and switched on. It's meant to stay plugged in.
+- Cora Mobile on your phone, signed in, with **at least one tank** already created.
+- Bluetooth turned on on your phone, and the phone close to Cora Max.
+- Your Wi-Fi network name and password.
 
-## Setup is driven from your phone
+Put Cora Max where you can see it from across the room and talk to it, away from splashes and salt creep.
 
-Turn Cora Max on. It shows a pairing screen and makes itself visible to your phone. You don't type anything on it.
+## What the screen shows first {#what-the-screen-shows-first}
 
-![The Cora Max pairing screen](img/max-pairing-screen.webp "The screen shows its name so you can pick the right one on your phone.")
+Turn Cora Max on. It shows a pairing screen that says **Open the Cora app on your phone**, then **Tap Add Device.** and **Pick this Cora Max from the Devices list.** Below that it shows **Discoverable as** and its name, ending in a short code. If you're pairing more than one, that code tells them apart on your phone.
 
-The screen shows the name your phone will see, ending in a short code. If you're pairing more than one, that code tells them apart in the list on your phone.
+![The Cora Max pairing screen, waiting for your phone](img/max-pairing-screen.webp "Waiting for your phone. The bottom line shows the name your phone will list.")
 
-Everything else happens in Cora Mobile, in five steps you can see across the top of the sheet: **Connect · WiFi · Auth · Tanks · Done.**
+The same screen has a short notice about integrations with other makers' equipment. The Terms you accepted in Cora Mobile also cover Cora Max.
 
-**1 · Connect.** On your phone, tap **Devices → Add Device → Cora**. It finds Cora Max and shows its MAC address, firmware version, variant and hardware revision, so you can check it's the right one before you go on.
+## Pairing from your phone {#pairing}
 
-**2 · WiFi.** Pick your network from the list, or tap **Rescan**, then enter the password on your phone's keyboard.
+Everything else happens in Cora Mobile. A sheet walks you through five steps, shown across its top: **Connect · WiFi · Auth · Tanks · Done**.
 
-**3 · Auth.** Your phone links Cora Max to your account. Cora Max shows its own progress while this happens.
+1. **Find it.** Open the **Devices** tab, tap **Add Device**, then **Cora**. The **Add Your Cora** screen lists Cora devices on your network and nearby setup devices found over Bluetooth. Tap **Scan** if yours isn't there yet, then tap your Cora Max.
 
-![Cora Max during pairing](img/max-pairing-verifying.webp "The screen follows the account check while your phone runs it.")
+   ![The Add Your Cora screen in Cora Mobile, scanning for devices](img/mobile-add-device.webp "Add Device, then Cora. Cora Mobile looks on your Wi-Fi and over Bluetooth, with Enter IP Address Manually below.")
 
-**4 · Tanks.** Choose which tanks this screen manages, **up to four**. Each one is listed with its name and type.
+2. **Connect.** Your phone connects to Cora Max over Bluetooth and shows its MAC address, firmware, variant and hardware revision. Check it's the right one, then tap **Continue**.
 
-**5 · Done.** Cora Max confirms it's set up and gives you a **Recovery PIN**.
+3. **WiFi.** Pick your network from the list, or tap **Rescan**, and type the password on your phone. From here on your phone talks to Cora Max over Wi-Fi, so keep the phone on the same network.
+
+4. **Auth.** Your phone links Cora Max to your account. This runs by itself, and Cora Max shows its own progress, such as **Verifying your account…** and **Setting up your tank…**.
+
+   ![The Cora Max pairing screen showing Verifying your account](img/max-pairing-verifying.webp "Cora Max shows each step while your phone links it to your account.")
+
+5. **Tanks.** Under **Assign Tanks**, pick the tanks this Cora Max will manage, **up to four**.
+
+6. **Done.** Your phone says Cora Max is set up and shows a **Recovery PIN**. Tap the button that opens your tank's dashboard, or **Go to Devices**. Cora Max shows **Paired**, then **Opening dashboard…**.
 
 :::warning Write the Recovery PIN down
-The last step shows a six-digit **Recovery PIN**. It's the only way into recovery on that Cora Max. To use it, hold five fingers on the top-right corner of the screen for ten seconds, then enter the PIN. You can find it again later in that device's settings on your phone, but not on Cora Max itself.
+The **Recovery PIN** has six digits and it's the only way into recovery on that Cora Max. To use it, hold five fingers on the top-right corner of the screen for ten seconds, then enter the PIN. Recovery lets you redo Wi-Fi, pair again, check for an update or factory reset. You can find the PIN again on your phone under **Devices → your Cora Max → Recovery PIN**, but never on Cora Max itself.
 :::
 
-:::note Pairing links the screen to your account
-Once it's paired, Cora Max sees the same tanks, devices, readings and records as your phone. **Dashboard layouts** are the exception. Cora Max builds its own from your tank profile, and you arrange it separately.
-:::
+### If pairing gets stuck {#if-pairing-gets-stuck}
 
-Follow the on-screen steps to link it to your account. Cora Mobile tells you when pairing has worked.
+- **Bluetooth is off. Turn it on, then tap Scan again.** Turn Bluetooth on and scan again.
+- **Bluetooth permission is off for Cora.** Allow Bluetooth for Cora in your phone's settings, then tap **Scan**. An iPhone may also ask for local network access. Allow that too.
+- **No nearby Cora setup devices were found over Bluetooth.** Stand next to Cora Max, check it still shows the pairing screen, and scan again.
+- **No Tanks Found** at the Tanks step. Your account has no tank yet. Create one in Cora Mobile, then retry the step.
+- **Not linked to your tank yet** at the end. Cora Max is paired, but the tank link didn't finish. Tap **Retry now**. Until it finishes, alerts for this screen use default ranges.
 
-:::note One account, many screens
-You can pair more than one Cora Max to the same account, say one in the reef room and one somewhere else. Each can show different tanks and have its own dashboard layout. If two show the same tank, [Controlling equipment from Cora Max](/help/max-device-control) explains what the second one can do with its equipment.
-:::
+More fixes in [Troubleshooting](/help/troubleshooting#pairing-a-cora-max-fails).
 
-## Changing which tanks it shows
+## After pairing {#after-pairing}
 
-The tanks a Cora Max shows are part of its pairing, and you change them on **your phone**. Open the Cora Max in **Devices** and edit its assigned tanks. You can't change them in Cora Max's own settings.
+Cora Max now sees the same tanks, devices, readings and records as your phone.
 
-## Building the dashboard
+- If one of your tanks had a Cora Max before, Cora Max asks **Restore previous layout for this tank?** **Restore** brings back the display, sound and alert settings the old one saved. **Start fresh** skips them.
+- A tank with no readings yet shows **No readings yet** and a **Log your first test** button.
+- Cora Max builds a starting dashboard from your tank profile. It doesn't copy the one on your phone.
 
-Cora Max builds its own starting layout from your tank profile. It **doesn't** copy the one on your phone. The easiest way to change it is from your phone, under **Devices → your Cora Max → Edit Dashboard**. That's quicker than arranging tiles on a wall.
+You can pair more than one Cora Max to the same account, say one in the fish room and one in the living room. Each one can show different tanks and has its own layout. If two show the same tank, [More than one Cora device](/help/mobile-multi-device) explains which one reads the equipment.
 
-The big-screen dashboard works differently from the phone. It's a fixed grid, and everything has to fit on one screen. More about this in [Editing the Cora Max dashboard](/help/max-dashboard-editing).
+## Building the dashboard {#building-the-dashboard}
 
-## Updates
+The big-screen dashboard is a fixed grid, and everything has to fit on one screen. The quickest way to arrange it is from your phone: open the **Devices** tab, tap your Cora Max, then tap **Dashboard layout** on the tank's card. You can also do it at the wall from the tank menu.
 
-Cora Max updates itself. When a new version is out, it downloads in the background, installs it and tells you what changed.
+To reuse a layout from another Cora Max or another tank, load it from **My dashboards** in the editor. More in [Editing the Cora Max dashboard](/help/max-dashboard-editing).
 
-You can see which version you're on under **Settings → Cora Max**.
+## Moving Cora Max to another tank {#changing-which-tanks-it-shows}
 
-## Moving it to a different network
+You change which tanks a Cora Max shows on your phone. Cora Max's own settings can't do it.
+
+1. In Cora Mobile, open the **Devices** tab and tap your Cora Max.
+2. Under **Tanks**, tap **Add Tank** and pick the tank. A Cora Max takes up to four. When it already has four, the button is gone, so remove one first.
+3. To take a tank off this screen, tap the red remove icon (**Remove tank**) on that tank's card, then tap **Remove**.
+
+To move Cora Max from one tank to another, add the new tank, then remove the old one. The new tank gets a starting dashboard built from its profile. Arrange it with **Dashboard layout**.
+
+If this Cora Max was the pinned Primary Cora Max for the tank you removed, that pin is cleared and the tank goes back to **Any active (automatic)**. More in [Devices and device health](/help/max-devices).
+
+## Updates {#updates}
+
+Cora Max updates itself. A new version downloads in the background and installs at night. Your version is shown at the top of **Settings → Cora Max Settings**. More in [Updates and recovery](/help/max-updates).
+
+## Moving it to a different Wi-Fi network {#moving-it-to-a-different-network}
 
 Go to **Settings → Cora Max Settings → Wi-Fi**, pick the new network and enter the password. Cora Max stays paired, so you don't need to set it up again.

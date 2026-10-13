@@ -258,7 +258,28 @@ a:hover { color: var(--brand-deep); text-decoration-thickness: 2px; }
   color: var(--text-3); margin-top: 2px;
 }
 .sres mark { background: #ffe9a8; color: inherit; padding: 0 1px; border-radius: 2px; }
-.snone { padding: 22px; color: var(--text-3); font-size: 14px; }
+.snone { padding: 18px 22px; color: var(--text-3); font-size: 14px; }
+.snone p { margin: 0 0 8px; }
+.snone ul { margin: 0; padding-left: 18px; }
+.snone a { display: inline; padding: 0; color: var(--brand-deep); text-decoration: underline; }
+.sres .ssub a { padding-left: 28px; }
+.sres .ssub b { font-size: 13.5px; font-weight: 600; }
+
+/* ── Breadcrumb and twin line ───────────────────────────────────────── */
+.crumbs ol { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 0; font-size: 13.5px; }
+.crumbs li { margin: 0; color: var(--text-3); }
+.crumbs li + li::before { content: "/"; margin: 0 8px; color: var(--text-3); }
+.crumbs a { color: var(--text-2); text-decoration: none; }
+.crumbs a:hover { color: var(--brand-deep); text-decoration: underline; }
+.twin { margin: -8px 0 22px !important; font-size: 14.5px; color: var(--text-2); }
+
+/* ── Glossary A to Z ─────────────────────────────────────────────────── */
+.toc.az ul { columns: auto; display: flex; flex-wrap: wrap; gap: 4px; }
+.toc.az li { margin: 0; }
+.toc.az a {
+  display: inline-block; min-width: 32px; padding: 4px 0; text-align: center;
+  font-weight: 600; border: 1px solid var(--line); border-radius: 4px; background: var(--surface);
+}
 @media (max-width: 900px) { .hfind span, .hfind kbd { display: none; } }
 
 /* ── Language switcher ──────────────────────────────────────────────────

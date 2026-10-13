@@ -1,91 +1,133 @@
 ---
 title: Impostazioni di Cora Max
-description: La schermata Impostazioni di Cora Max: le impostazioni di casa, quelle di ogni vasca e tutto quello che riguarda questo schermo.
+description: Ogni impostazione di Cora Max, da nome, luminosità, attenuazione notturna, altoparlante e parola di attivazione a blocco bambini, lingua, Wi-Fi, nuova associazione e ripristino di fabbrica.
 section: Cora Max
-reviewed: 2026-09-29
-order: 13
-group: Settings
+reviewed: 2026-10-13
+order: 14
+group: Settings and account
+twin: mobile-settings
 ---
 
-Apri le impostazioni con la **rotellina** all'estrema destra della barra in alto.
+Apri le impostazioni con l'**ingranaggio** all'estrema destra della barra in alto.
 
-![Impostazioni di Cora Max](img/max-settings.webp "Prima Cora, poi le tue vasche, poi Impostazioni Cora Max.")
+![Le impostazioni su Cora Max, con il gruppo CORA e una riga per vasca](img/max-settings.webp "Il gruppo CORA (Automazioni, Dispositivi, Cora Assistant), poi una riga per vasca.")
 
-Le impostazioni sono divise in tre gruppi. **CORA** vale per tutti i dispositivi Cora di casa. **VASCHE** ha una riga per ogni vasca. In fondo c'è una sola riga, **Impostazioni Cora Max**, per tutto quello che riguarda solo questo schermo.
+Le impostazioni hanno tre gruppi. **CORA** contiene le cose che valgono per tutti i dispositivi Cora di casa. **VASCHE** ha una riga per vasca. L'ultima riga, **Impostazioni Cora Max**, è tutto quello che riguarda solo questo schermo.
 
-:::note Due tipi di impostazioni
-Alcune impostazioni sono dell'**account**. Sono uguali su qualsiasi telefono o Cora Max e, se ne cambi una, cambia ovunque. Altre valgono solo per **questo schermo**, come la sua luminosità o il suo Wi-Fi. I gruppi CORA e VASCHE contengono impostazioni dell'account. Il terzo gruppo, Impostazioni Cora Max, contiene quelle di questo schermo.
+:::note Due tipi di impostazione
+Alcune impostazioni appartengono al tuo **account**. Sono le stesse qualunque telefono o Cora Max guardi, e cambiarne una la cambia ovunque. Altre appartengono solo a **questo schermo**, come la luminosità o il Wi-Fi. I gruppi CORA e VASCHE sono impostazioni dell'account. Impostazioni Cora Max contiene le impostazioni proprie di questo schermo.
 :::
 
 ## CORA
 
-Qui trovi quello che vale per tutti i dispositivi Cora del tuo account.
+Valgono per ogni dispositivo Cora del tuo account.
 
-| Riga | Cosa apre |
+| Riga | Apre |
 |---|---|
-| **Automazioni** | Tutte le scene di tutte le vasche, con un filtro per vasca. Trovi di più in [Scene su Cora Max](/help/max-automation) |
-| **Dispositivi** | L'attrezzatura che Cora controlla, in tutte le vasche. Trovi di più in [Dispositivi e salute dei dispositivi](/help/max-devices) |
-| **Cora Assistant** | Quale dispositivo risponde quando qualcuno dice "Hey Cora". Trovi di più in [Parlare con Cora](/help/max-voice) |
+| **Automazioni** | Tutte le scene di tutte le tue vasche, con un filtro per vasca. Di più in [Scene su Cora Max](/help/max-automation) |
+| **Dispositivi** | L'attrezzatura che Cora comanda, per tutte le tue vasche. Tocca la matita per rinominare un dispositivo. Di più in [Dispositivi e salute dei dispositivi](/help/max-devices) |
+| **Cora Assistant** | Quale dispositivo risponde quando qualcuno dice "Hey Cora." Di più in [Parlare con Cora](/help/max-voice) |
 
 ## VASCHE
 
-Una riga per ogni vasca. Ognuna apre le impostazioni di quella vasca:
+Ogni vasca ha una riga che apre le sue impostazioni.
 
-- **Soglie di avviso**: l'intervallo sano di ogni parametro. Trovi di più in [Avvisi e soglie](/help/mobile-alerts)
-- **Unità**: le unità di misura che la vasca usa per salinità, temperatura, alcalinità, volume, fosfati e nitrati. Con **Auto** ogni lettura compare nell'unità in cui l'ha registrata la sua fonte. Se scegli un'unità precisa, tutto quello che riguarda la vasca viene convertito in quell'unità, su ogni schermo e anche quando parla l'Assistant
-- **Cora Max principale**: il dispositivo che legge l'attrezzatura della vasca. Trovi di più in [Dispositivi e salute dei dispositivi](/help/max-devices)
-- **Layout dashboard**: il layout di Cora Max per questa vasca. Trovi di più in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing)
-- Registri e rapporti della vasca: **Diario**, **Manutenzione**, **Popolazione**, **Reef Buddy**, **Report di salute** e **Report ICP**
+- **Soglie di avviso** imposta l'intervallo sano di ogni lettura. Di più in [Avvisi su Cora Max](/help/max-alerts#editing-thresholds).
+- **Unità** sceglie le unità che questa vasca usa per salinità, temperatura, alcalinità, volume, fosfati e nitrati. Con **Auto**, ogni lettura compare nell'unità in cui l'ha registrata la sua fonte. Se scegli un'unità precisa, tutto in questa vasca viene convertito in quella, su ogni schermo e quando parla l'Assistente.
+- **Cora Max principale** è il dispositivo che legge l'attrezzatura di questa vasca. Di più in [Dispositivi e salute dei dispositivi](/help/max-devices).
+- **Layout dashboard** è il layout di Cora Max per questa vasca. Di più in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
+- In **REGISTRI E REPORT**: **Registra parametri**, **Diario**, **Manutenzione**, **Popolazione**, **Reef Buddy**, **Report di salute**, **Report ICP** e **Attività**. Di più in [Diario, popolazione e manutenzione](/help/max-records) e [Reef Buddy e report](/help/max-intelligence).
 
-## Impostazioni Cora Max: tutto su questo schermo
+## Impostazioni Cora Max: tutto quello che riguarda questo schermo
 
-L'ultima riga delle impostazioni porta il nome di questo Cora Max. Apre tutto quello che riguarda **solo questo schermo**, diviso in gruppi:
+L'ultima riga delle Impostazioni porta il nome di questo Cora Max. Apre tutto quello che vale **solo per questo schermo**.
 
-| Gruppo | Cosa contiene |
+In alto c'è una scheda con il nome di questo schermo e la versione del firmware (*Cora Max · firmware 0.28.170*).
+
+- Tocca la matita (**Rinomina questo dispositivo**) per dargli un nuovo nome, per esempio "Soggiorno".
+- **Mostra dettagli** elenca **ID Cora**, **Indirizzo MAC**, **Rete Wi-Fi**, **Indirizzo IP**, le sue vasche e l'account a cui è associato. L'assistenza potrebbe chiederteli.
+
+Sotto la scheda ci sono queste sezioni.
+
+| Sezione | Cosa contiene |
 |---|---|
-| **Schermo** | Luminosità, timer di attenuazione e luminosità attenuata, attenuazione notturna, orologio, e accensione dello schermo quando scatta un allarme |
-| **Audio e voce** | Uscita audio (altoparlante interno, jack 3,5 mm o Bluetooth), suono di avviso e relativo volume, avvisi a voce, e **Ascolto parola di attivazione** acceso o spento |
-| **Reef Buddy** | L'ora in cui arriva il briefing del giorno (un'unica impostazione per l'account, la stessa del telefono), e se viene letto ad alta voce |
-| **Blocco bambini** | Attivo o no, e dopo quanto tempo si blocca. Come sbloccarlo lo spiega [Parlare con Cora](/help/max-voice) |
-| **Notifiche** | Cronologia notifiche: briefing, allarmi e comunicazioni di tutto l'account |
-| **Lingua** | L'unica lingua usata da tutto il tuo account. Leggi la nota qui sotto |
-| **Rete e aggiornamenti** | Wi-Fi, aggiornamenti del firmware e una riga in sola lettura che dice ogni quanto questo Cora Max legge i tuoi dispositivi (si imposta da Cora Mobile) |
-| **Stato** | Una scheda per ogni vasca mostrata su questo schermo, con stato del polling, ultima lettura e ultima scrittura sul cloud. Solo lettura |
-| **Aiuto e informazioni** | Aiuto e assistenza, e Informazioni (versione e **Licenze**) |
-| **Ripristino** | Ri-accoppia questo dispositivo e ripristino di fabbrica |
+| **SCHERMO** | **Luminosità**. **Attenua dopo** e **Livello di attenuazione**: quanto tempo senza tocchi prima che lo schermo si attenui, e quanto si attenua. **Attenuazione notturna**, con **Da**, **A** e **Luminosità notturna**. **Mostra orologio** nella barra in alto. **Attiva schermo con allarme** |
+| **AUDIO E VOCE** | **Altoparlante** (**Interna**, **3,5 mm** o **BT**), **Suono degli avvisi** e il suo volume, **Avvisi parlati** e **Parola di attivazione** accesa o spenta. Di più in [Parlare con Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **REEF BUDDY** | **Riepilogo Reef Buddy** legge ad alta voce il briefing del mattino. **Orario del riepilogo** è quando arriva, lo stesso su ogni dispositivo |
+| **BLOCCO BAMBINI** | **Blocco bambini** acceso o spento, e **Blocca dopo**. Vedi [Blocco bambini](#child-lock) più sotto |
+| **NOTIFICHE** | **Cronologia notifiche**, la casella di tutto il tuo account con ogni briefing, allarme e comunicazione dell'account |
+| **LINGUA** | L'unica lingua che usa tutto il tuo account: English, Deutsch, Español, Français, Italiano, Polski o Türkçe. Vedi la nota più sotto |
+| **RETE E AGGIORNAMENTI** | **Wi-Fi**, **Aggiornamento firmware** e **Polling dispositivi**, che mostra ogni quanto questo Cora Max legge i tuoi dispositivi (lo cambi in Cora Mobile) |
+| **STATO** | Una scheda per ogni vasca che mostra questo schermo, con **Stato polling**, **Ultimo polling**, **Ultima scrittura cloud** e **Salvataggio cloud**. Solo visualizzazione |
+| **AIUTO E INFORMAZIONI** | **Aiuto e assistenza** (contattare l'assistenza o segnalare un problema) e **Informazioni** (versione e licenze) |
+| **RIPRISTINO** | **Ri-accoppia questo dispositivo** e **Ripristino di fabbrica**. Vedi più sotto |
 
-:::note La lingua vale per tutto l'account
-Se cambi la lingua in **Lingua**, cambia per tutto l'account: tutti i telefoni e tutti i Cora Max passano alla nuova lingua insieme. Nuovi rapporti, avvisi e briefing arrivano nella nuova lingua. Quelli già scritti restano nella lingua originale e non vengono tradotti di nuovo.
+Quando lo schermo è attenuato, il primo tocco lo risveglia soltanto. Non preme niente.
+
+:::note La lingua vale per tutto il tuo account
+Quando cambi **Lingua**, ogni telefono e ogni Cora Max del tuo account cambiano con lei. I nuovi report, avvisi e briefing arrivano nella nuova lingua. I report e gli avvisi che hai già restano nella lingua in cui sono stati scritti e non vengono tradotti di nuovo.
 :::
 
-![Cronologia notifiche su Cora Max](img/max-notifications.webp "Gli allarmi e i rientri nella norma, dal più recente, per tutte le vasche.")
+![Cronologia notifiche su Cora Max, con allarmi e rientri](img/max-notifications.webp "Gli allarmi e i loro rientri, dal più recente, ciascuno con il nome della vasca.")
 
-Oltre agli allarmi vengono registrati anche i rientri nella norma. Così un parametro che è uscito dall'intervallo ed è tornato compare come una coppia chiusa, e non come un avviso senza spiegazione.
+Oltre agli allarmi vengono registrati anche i rientri. Così, quando un parametro esce dall'intervallo e poi rientra, vedi entrambe le metà.
+
+## Blocco bambini {#child-lock}
+
+Il blocco bambini impedisce alle piccole mani di cambiare qualcosa su uno schermo che bambini o ospiti possono raggiungere. Letture, grafici e avvisi continuano ad aggiornarsi. Si fermano solo i comandi.
+
+Per attivarlo, vai in **Impostazioni → Impostazioni Cora Max → BLOCCO BAMBINI**, attiva **Blocco bambini** e scegli **Blocca dopo**. Le scelte sono 30 secondi, 1, 2, 5, 15 o 30 minuti (1 minuto se non lo cambi).
+
+Cora Max si blocca allora da solo dopo il tempo di **Blocca dopo** senza tocchi. Ogni tocco fa ripartire quel tempo. Mentre è bloccato:
+
+- Ogni tocco viene ignorato, e **Bloccato** compare al centro dello schermo per qualche secondo. Un tocco risveglia comunque uno schermo attenuato.
+- I tasti del volume smettono di cambiare il volume.
+- Cora risponde comunque alle domande a voce, ma rifiuta tutto quello che cambia la tua attrezzatura.
+
+Per sbloccarlo, fai una di queste cose:
+
+1. Premi **Volume su** o **Volume giù** tre volte entro due secondi. I due secondi partono dalla prima pressione.
+2. Tieni cinque dita nell'angolo in alto a destra dello schermo per dieci secondi.
+
+Compare per un attimo **Sbloccato**. Il blocco torna dopo il tempo di **Blocca dopo** senza tocchi. Per spegnere del tutto il blocco bambini, sblocca, poi spegni **Blocco bambini** nelle Impostazioni.
+
+:::warning Le cinque dita aprono anche la casella del PIN di ripristino
+Tenere cinque dita nell'angolo è anche il modo per entrare nel [Ripristino](/help/max-updates#recovery). Quindi dopo che lo schermo si sblocca, si apre anche una casella **PIN di ripristino**. Tocca **Annulla** per tornare allo schermo sbloccato. Annullare non conta come PIN sbagliato. Se Cora Max non ha ancora un PIN, vedi invece **Il ripristino non è disponibile**. Tocca **OK**. Lo sblocco con i tasti del volume non apre il ripristino.
+:::
+
+Il blocco bambini non è un blocco di sicurezza. Chiunque veda come lo sblocchi può fare lo stesso.
 
 ## Associazione, nuova associazione e ripristino di fabbrica
 
-**Impostazioni Cora Max → Ripristino** mostra a cosa è collegato ora questo schermo e ti propone due azioni.
+**Impostazioni Cora Max → RIPRISTINO** ha due opzioni.
 
 **Ri-accoppia questo dispositivo** cancella l'associazione di questo schermo e lo riporta alla schermata di associazione.
 
-**Ripristino di fabbrica** cancella anche tutte le preferenze salvate su questo schermo. La finestra di conferma dice con precisione cosa viene cancellato e cosa resta.
+**Ripristino di fabbrica** cancella anche ogni preferenza salvata su questo schermo. La sua conferma ti dice cosa viene cancellato e cosa viene conservato.
 
-Tutte e due le azioni conservano i dati della vasca già salvati su Cora Cloud. Tutte e due tolgono anche questo Cora Max dal tuo account e gli fanno dimenticare la rete Wi-Fi. Poi lo associ di nuovo da Cora Mobile, come un dispositivo nuovo. Se Cora Max non riesce a raggiungere Cora Cloud per togliersi dall'account, ti avvisa che compare ancora in Cora Mobile. In quel caso aprilo in Cora Mobile da **Dispositivi** e scegli **Rimuovi dispositivo**.
+Nessuna delle due tocca i dati della vasca già salvati in Cora Cloud. Entrambe tolgono questo Cora Max dal tuo account e gli fanno dimenticare la rete Wi-Fi, quindi lo associ di nuovo da Cora Mobile come uno nuovo. Se Cora Max non riesce a raggiungere Cora Cloud per togliersi, dice *Questo Cora Max è ancora elencato nell'app Cora. Rimuovilo anche da lì.* Aprilo in Cora Mobile in **Dispositivi** e scegli **Rimuovi dispositivo**.
 
-![La conferma del ripristino di fabbrica](img/max-factory-reset.webp "Prima di confermare, la finestra dice cosa viene cancellato e cosa resta.")
+![Le sezioni AIUTO E INFORMAZIONI e RIPRISTINO delle Impostazioni Cora Max](img/max-factory-reset.webp "La sezione RIPRISTINO, con Ri-accoppia questo dispositivo e Ripristino di fabbrica.")
 
-:::warning Il ripristino cancella lo schermo, non i tuoi dati
-Il ripristino di fabbrica cancella l'associazione e tutte le preferenze salvate sul dispositivo, e riporta lo schermo alla schermata di associazione. **I dati della vasca già salvati sul tuo account restano**. Associa di nuovo il dispositivo a una vasca e li ritrovi. Perdi solo la configurazione di questo schermo: Wi-Fi, schermo, audio e voce.
-:::
+Puoi anche ripristinare un Cora Max dal telefono, in Cora Mobile in **Dispositivi →** il tuo Cora Max **→ Zona di pericolo**. È utile quando lo schermo è fuori portata o bloccato.
 
-:::note I layout potrebbero salvarsi
-Prima del ripristino, Cora Max mette da parte la sua configurazione. Se poi lo associ di nuovo alla **stessa vasca**, ti chiede **Ripristinare il layout precedente per questa vasca?** Accetta, oppure scegli **Inizia da zero** se volevi proprio ripartire con lo schermo vuoto.
+| Opzione | Dove | Wi-Fi | Cosa succede |
+|---|---|---|---|
+| **Ri-accoppia questo dispositivo** | Su Cora Max | Dimenticato | Torna alla schermata di associazione. Associalo da Cora Mobile |
+| **Ripristino di fabbrica** | Su Cora Max | Dimenticato | Associazione e ogni impostazione dello schermo cancellate. Associalo da Cora Mobile |
+| **Ripristina display** | Cora Mobile, **Zona di pericolo** | Conservato | Torna alla schermata di configurazione la prossima volta che è online. Associalo di nuovo via Bluetooth |
+| **Rimuovi dispositivo** | Cora Mobile, **Zona di pericolo** | | Rimosso dal tuo account e dalle sue vasche. Si può associare di nuovo più avanti |
+
+In ogni caso, i dati della vasca già salvati nel tuo account vengono conservati. Associa di nuovo il dispositivo a una vasca e tornano. Quello che perdi è la configurazione propria dello schermo, come le impostazioni di schermo, suono e voce.
+
+:::note Potresti riavere i tuoi layout
+Prima di un ripristino, Cora Max salva una copia della sua configurazione. Se lo associ di nuovo alla **stessa vasca**, propone **Ripristinare il layout precedente per questa vasca?** Accetta, oppure scegli **Inizia da zero** se volevi uno schermo pulito.
 :::
 
 ## Quali vasche mostra questo schermo
 
-Un Cora Max può mostrare una vasca o più di una, e passi dall'una all'altra dalla barra in alto. **Quali vasche mostrare lo scegli dal telefono**, in **Dispositivi → il tuo Cora Max**, e non da questo schermo.
+Un Cora Max può mostrare una vasca o più vasche, e passi dall'una all'altra dalla barra in alto. Scegli quali vasche mostra **dal telefono**, in **Dispositivi →** il tuo Cora Max. Di più in [Cambiare le vasche che mostra](/help/max-setup#changing-which-tanks-it-shows).
 
 ## Aggiornamenti
 
-Cora Max si aggiorna da solo. Le nuove versioni si scaricano in background e si installano da sole, e ti dice cosa è cambiato. Se una versione è appena arrivata, il messaggio compare sullo schermo. Per restare aggiornato non devi fare niente. Trovi di più in [Mantenere Cora Max aggiornato](/help/max-updates).
+Cora Max si tiene aggiornato da solo. Gli aggiornamenti si scaricano in background e si installano dentro la finestra degli aggiornamenti. Di più in [Aggiornamenti e ripristino](/help/max-updates).

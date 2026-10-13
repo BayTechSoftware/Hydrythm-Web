@@ -1,43 +1,50 @@
 ---
 title: Maintenance
-description: Recurring jobs with reminders, like cleaning the skimmer, changing filter socks and servicing pumps.
+description: Add recurring jobs like cleaning the skimmer or changing filter socks, get reminded when they're due, and mark them done or snooze them.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 19
+reviewed: 2026-10-13
+order: 26
 group: Records
+twin: max-records
 ---
 
-Maintenance keeps the jobs your tank needs on a regular basis, with reminders for each one. Open it from the shortcut row at the bottom of the dashboard.
+Maintenance keeps the jobs your tank needs on a regular basis, with a reminder for each one.
+
+Tap **Maintenance** in the row of buttons under the dashboard. It's also in Settings → your tank → **Maintenance**.
 
 ![The maintenance list](img/mobile-maintenance.webp "Compliance, overdue count, and each task with its last completion and next due date.")
 
-## The summary
+## The summary {#summary}
 
-At the top you'll see two numbers.
-
-- **Maintenance Compliance** is the share of tasks that are on schedule right now.
-- **Overdue count** is how many tasks are past their due date.
+At the top you'll see **Maintenance Compliance**, the share of tasks that are on schedule right now, and how many tasks are overdue.
 
 Each task in the list is colour-coded as overdue, due soon or scheduled. It also shows when you last did it and when it's due next.
 
-## Adding a task
+## Adding a task {#adding-a-task}
 
-Give it a name, an icon and how often it needs doing, in days. Cora works out the next due date.
+Tap **Add Task**, then choose:
 
-Some typical tasks:
+- **From Template** for a common job with its interval filled in. Pick it, then set when it's next due and the time you want to be reminded, and tap **Confirm**.
+- **Custom Task** for your own. Give it a **Task name**, an **Interval (days)**, a **Category** and a **Next due date**. Turn on **Reminder** and pick **Remind me at** if you want a notification.
+
+Some of the templates, with the interval they start on:
 
 | Task | Interval |
 |---|---|
-| Change filter socks | 3–7 days |
-| Clean the skimmer cup | 7 days |
-| Clean the glass | 7 days |
-| Replace carbon or GFO | 30 days |
-| Service the return pump | 90–180 days |
-| Calibrate probes | 30–90 days |
+| Change filter socks | 3 days |
+| Clean skimmer cup | 7 days |
+| Water change | 7 days |
+| Test water parameters | 7 days |
+| Replace carbon | 30 days |
+| Calibrate pH probe | 30 days |
+| Clean powerheads | 90 days |
+| Upload ICP results | 90 days |
 
-## Tasks Cora creates for you
+You can change the interval of any task later.
 
-When you connect a Red Sea ReefDose, ReefATO+, ReefMat or ReefRun, Cora adds the servicing that unit needs on its own, already on the right interval. You'll see tasks like these appear:
+### Tasks Cora adds for Red Sea equipment {#red-sea-tasks}
+
+When you connect a Red Sea ReefDose, ReefATO+, ReefMat or ReefRun, Cora adds the servicing that unit needs, already on the right interval:
 
 | Device | Task | Interval |
 |---|---|---|
@@ -53,45 +60,44 @@ When you connect a Red Sea ReefDose, ReefATO+, ReefMat or ReefRun, Cora adds the
 | ReefDose, per head | Calibrate ReefDose head | 90 days |
 | ReefDose, per head | Replace ReefDose head tubing | 450 days |
 
-They work exactly like any task you add yourself: rename them, change the interval, snooze or pause them. If you delete one, Cora won't add it back for that device.
+They work like any task you add yourself. You can rename them, change the interval, snooze them or delete them. If you delete one, Cora won't add it back for that device.
 
-### Test water
+### Test water {#test-water}
 
-If you tap **Remind me to test every week** on the first-test card, Cora adds a weekly task called **Test water**, due on the **Test day** you pick. It works like any task you add yourself. See [Setting up Cora Mobile](/help/mobile-setup).
+If you tap **Remind me to test every week** on the first-test card, Cora adds a weekly task called **Test water**, due on the **Test day** you pick. It works like any other task. See [Setting up Cora Mobile](/help/mobile-setup). You can also add a testing reminder at any time with the **Test water parameters** template.
 
-### From an automation
+### From an automation {#from-an-automation}
 
-An [automation](/help/mobile-automation) with the action **Create a Maintenance Task** can put a job on this list when its rule fires, or make an existing task due now. A new one is a one-off, due now, and it leaves the list when you complete it. While it's still open, the same automation doesn't add another. You get one notification.
+An [automation](/help/mobile-automation) with the action **Create a Maintenance Task** can put a job on this list when its rule fires, or make an existing task due now. A new one is a **One-off task**, due now, and it shows *Raised by an automation* with the reason. It leaves the list when you complete it. While it's still open, the same automation doesn't add another. You get one notification.
 
-## Reminders
+## Reminders {#reminders}
 
-Each task can remind you. You choose two things.
+Open a task and turn on **Reminder**, then pick **Remind me at**. You get a notification the day before it's due and one on the day. While it's overdue, you get a reminder every few days. If several tasks on a tank come due together, they arrive as one notification.
 
-- **How many days before** it's due
-- **What time of day** the reminder arrives
+Reminders come under **Maintenance Reminders** in [Settings → Notifications](/help/mobile-notifications). If you'd rather just see a task in the list, turn its **Reminder** off.
 
-If you'd prefer to just see a task in the list, turn its reminders off.
+## Marking a task done {#marking-done}
 
-## Marking a task done
+Swipe the task to the right, or open it and tap **Complete**. If you swiped by mistake, tap **Undo** on the message that appears.
 
-Tap the task's **Complete** control, or swipe it. Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too.
+Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too.
 
-:::note Tapping a task opens it for editing
-Tap the row itself to change the task's name, interval or reminders. Use **Complete** to finish it.
+The task's sheet shows its **Completion history**, including how late each one was.
+
+:::note Completing a task also writes a journal entry
+Cora adds a short entry to your [journal](/help/mobile-journal) for you, noting if it was late. Add your own entry when there's more to say, for example when the pump was full of sand or the socks were black after one day.
 :::
 
-## Snoozing
+## Editing a task {#editing}
 
-Can't get to a job right now? Snooze it. It stays in the list, greyed out as **Snoozed** with its new date. You just won't be reminded again until then.
+Tap a task to open it. You can change the **Task name**, **Interval (days)**, **Notes (optional)**, **Next due date** and the reminder, then tap **Save**. **Delete** removes it.
+
+## Snoozing {#snoozing}
+
+Can't get to a job right now? Open it, tap **Snooze** and pick **1 Day**, **3 Days**, **1 Week**, **2 Weeks** or **1 Month**. It stays in the list as **Snoozed** with its new date, and you won't be reminded until then.
 
 :::warning Only mark a task done when you've done it
 The next due date is counted from the day you mark it done. If you mark an open task as done, every later due date shifts. Snooze it instead.
 :::
 
-## Pausing a task
-
-You can make a task inactive, for example when you've taken the equipment offline or the job doesn't apply this season. It stays in the list but stops coming due. You can turn it back on later.
-
-## Maintenance and the journal
-
-Ticking off a task isn't the same as writing a journal entry. Maintenance tells you what's due. The **[journal](/help/mobile-journal)** is where you note what you did and what happened next. If a job was unusual, say the pump was full of sand or the socks were black after one day, write that in the journal too.
+There's no way to pause a task. For a job that doesn't apply this season, snooze it for **1 Month**, or delete it and add it again later.

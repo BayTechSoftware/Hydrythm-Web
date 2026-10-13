@@ -1,32 +1,31 @@
 ---
-title: Guida di riferimento ai widget
-description: Tutti i tipi di widget di Cora (valore, indicatore, grafico, stato, presa e riquadri dei dispositivi) e quando usarli.
+title: Guida ai widget
+description: Tutti i tipi di widget della dashboard di Cora Mobile, da valore, indicatore, grafico, stato e presa ai riquadri dei dispositivi, e quando usare ognuno.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 7
+reviewed: 2026-10-13
+order: 9
 group: Your dashboard
 ---
 
-Un widget è un riquadro della dashboard che mostra una cosa sola. Qui trovi tutti i tipi e cosa puoi impostare per ciascuno.
+Un widget è un riquadro della dashboard e mostra una cosa sola. Questa pagina passa in rassegna ogni tipo e cosa puoi impostarci.
 
-I widget si aggiungono e si dispongono nell'**[editor della dashboard](/help/mobile-dashboard-editing)**. Lì tocca un widget per aprirne le impostazioni.
+I widget si aggiungono e si dispongono nell'[editor della dashboard](/help/mobile-dashboard-editing). Lì tocca un widget per aprirne le impostazioni: **Tipo** e **Parametro** per un parametro, la presa o il dispositivo per gli altri, poi **Larghezza** e **Altezza**, e **Intervallo di tempo** per un grafico.
 
-![Configurazione di un widget](img/mobile-widget-config.webp "Tipo, parametro, poi larghezza e altezza.")
+![Il pannello delle impostazioni di un widget in Cora Mobile](img/mobile-widget-config.webp "La metà inferiore delle impostazioni di un widget: parametro, larghezza, altezza e intervallo di tempo, poi Rimuovi e Fatto.")
 
-## I sedici tipi
+## I quindici tipi {#the-fifteen-types}
 
 | Tipo | Cosa mostra |
 |---|---|
-| **Valore** | La lettura attuale con unità, età e fonte |
-| **Indicatore** | Un arco con il tuo intervallo diviso in fasce e un pallino sul valore |
-| **Grafico** | L'andamento nel periodo che scegli |
-| **Stato** | Uno stato scritto a parole: in funzione, inattivo, chiuso |
+| **Valore** | La lettura attuale, con unità, età e fonte |
+| **Indicatore** | Un arco con il tuo intervallo segnato in fasce e un pallino sul valore |
+| **Grafico** | Un andamento nel periodo che scegli |
+| **Stato** | La lettura scritta a parole con un pallino colorato |
 | **Presa** | Un comando a tre posizioni: Auto, Off, On |
-| **Scena** | Una scena che avvii con un tocco. La aggiungi su Cora Max |
-| **ReefBeat** | Un'unità Red Sea con il suo riepilogo |
+| **ReefBeat** | Un'unità Red Sea, con il suo riepilogo |
 | **Modulo Apex** | Un modulo Apex installato, come un Trident o un DŌS |
-| **Jecod** | Una pompa Jecod con modalità e intensità |
-| **Maxspect** *(Beta)* | Una gyre con entrambi i motori |
+| **Jecod** | Una pompa Jecod, con modalità e intensità |
+| **Maxspect** *(Beta)* | Una gyre, con entrambi i motori |
 | **GHL** *(Beta)* | Un controller ProfiLux o Mitras, con il suo riepilogo |
 | **HYDROS** *(Beta)* | Un controller HYDROS, con il suo riepilogo |
 | **Radion** *(Beta)* | Una luce EcoTech Radion, oppure una rete Radion collegata |
@@ -34,91 +33,79 @@ I widget si aggiungono e si dispongono nell'**[editor della dashboard](/help/mob
 | **Versa** *(Beta)* | Un dosatore EcoTech Versa, con le sue teste |
 | **Telecamera** *(Beta)* | Una vista in diretta da una delle tue telecamere, larga fino a tre colonne e alta due righe |
 
-Tutto ciò che viene dopo Scena è un riquadro **dispositivo**. Sono legati a un apparecchio e non a un parametro, e mostrano quello che l'unità riporta.
+Tutto quello che viene dopo Presa è un riquadro **dispositivo**. Ognuno appartiene a un apparecchio invece che a un parametro, e mostra quello che l'unità riporta. Cora Max ha anche un riquadro **Scena**, che aggiungi su Cora Max. Vedi [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
 
 :::note Riquadri Beta
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech e Versa) e Telecamera sono integrazioni Beta, aperte solo agli utenti Beta. Questi riquadri li vedi solo quando hai il dispositivo. Vedi [Funzioni Beta](/help/mobile-beta).
+Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech e Versa) e Telecamera sono integrazioni Beta, disponibili solo per gli utenti Beta. Vedi questi riquadri solo quando hai il dispositivo. Vedi [Funzioni Beta](/help/mobile-beta).
 :::
 
-## Dimensioni del riquadro
+## Dimensioni {#sizing}
 
-**Larghezza** e **Altezza** possono essere **1×** o **2×**, quindi un widget è largo una o due celle e alto una o due celle. Un grafico non è mai largo una sola cella. Su una dashboard a tre colonne un indicatore largo due occupa due terzi della riga, e di solito è la forma giusta per il parametro più importante.
+**Larghezza** e **Altezza** possono essere ciascuna **1×** o **2×**, quindi un widget è largo una o due celle e alto una o due celle. Una telecamera può essere larga fino a **3×**. Un grafico non è mai largo una sola cella. Su una dashboard a tre colonne, un indicatore largo due occupa due terzi della riga. Di solito è una buona forma per il tuo parametro più importante.
 
-## Valore
+## Cosa mostra un widget di parametro {#what-a-parameter-widget-shows}
 
-Il numero e basta: lettura attuale, unità, età e fonte.
-
-Usalo per i parametri di cui ti interessa il numero più dell'andamento: calcio, magnesio, nitrati.
-
-Puoi impostare etichetta, fonte e dimensione.
-
-## Indicatore
-
-Un arco con l'intervallo obiettivo diviso in fasce e un pallino sul valore attuale. Il colore del pallino ti dice come sei messo: dentro la fascia, in deriva o fuori.
-
-Usalo per i parametri che gestisci attivamente: alcalinità, pH, salinità, temperatura.
-
-Puoi impostare etichetta, fonte, intervallo (preso dagli obiettivi della vasca, a meno che tu non lo cambi qui) e dimensione.
-
-:::note Dai agli indicatori almeno due colonne
-Su una sola colonna l'arco è troppo piccolo per leggerlo al volo. Se hai poco spazio, usa un widget **valore**.
-:::
-
-## Grafico
-
-Una piccola linea dell'andamento nel periodo che scegli, con il massimo e il minimo segnati e il valore attuale in evidenza.
-
-Per un parametro che misuri con i test (con il Trident o con un kit), la linea unisce i test che hai fatto. Se nel periodo c'è un solo test, la linea parte dal test precedente e non vengono segnati massimo e minimo. Se nel periodo non c'è nessun test, o se prima di un test isolato non c'è niente da collegare, al posto della linea compare **Raccolta in corso…**.
-
-Usalo per tutto quello che si muove: il pH durante il giorno, la temperatura durante un'ondata di caldo, l'alcalinità tra un dosaggio e l'altro.
-
-Puoi impostare etichetta, fonte, **intervallo di tempo** (1 ora, 6 ore, 24 ore, 7 giorni, 30 giorni, 1 anno) e dimensione.
-
-Un grafico è sempre largo **almeno due celle**. In una cella sola la linea non direbbe niente, quindi l'editor non lo permette.
-
-:::note Scegli il periodo in base al ritmo del parametro
-Il pH varia nel corso della giornata, quindi con 24 ore ne vedi l'andamento. L'alcalinità cambia nell'arco di giorni, quindi 7 o 30 giorni ti dicono molto più di 24 ore.
-:::
-
-## Stato
-
-Uno stato scritto a parole, senza numeri: in funzione, inattivo, aperto, chiuso, in alimentazione.
-
-Puoi impostare etichetta, fonte e dimensione.
-
-## Presa
-
-Un interruttore a tre posizioni per una presa: **Auto**, **Disattivata**, **On**.
-
-- **Auto** restituisce la presa a chi la gestisce di solito: un programma, una regola o il controller a cui appartiene.
-- **Disattivata** e **On** sono comandi manuali che restano finché non li cambi tu.
-
-Puoi impostare etichetta, presa e dimensione.
-
-:::warning Un comando manuale non scade
-Off resta off finché non rimetti Auto. Se spegni la pompa di risalita per lavorare in vasca, rimettila su Auto quando hai finito. Cora non lo fa al posto tuo.
-:::
-
-## ReefBeat
-
-Un riquadro per un intero apparecchio, con il suo riepilogo al posto di un singolo parametro: stato e serbatoio di un ATO, teste di un'unità di dosaggio, giorni rimasti di un rullo per tappetino.
-
-I dispositivi che puoi mettere in un riquadro dipendono da cosa hai collegato. Vedi **[Collegare la tua attrezzatura](/help/mobile-connections)**.
-
-Puoi impostare etichetta, dispositivo e dimensione.
-
-## Riquadri dosatore
-
-Il riquadro di un dosatore (un Apex DŌS, un ReefDose o un EcoTech Versa) mostra una riga per testa. Il nome di una testa non viene mai ridotto sotto una dimensione leggibile. Su un riquadro alto la riga occupa due righe, con il nome sulla prima e quello che resta sulla seconda, per esempio *40d* e *2.8 L*. Su un riquadro basso la riga di dettaglio viene tolta e il nome resta leggibile.
-
-Imposta cosa viene per primo con **Mostra il rimanente come**: **Giorni** o **Millilitri (mL)**. Una testa ReefDose senza un nome suo viene mostrata come il nome del dispositivo seguito da "testa" e dal suo numero. Il riquadro di un dosatore Jecod è in sola lettura e mostra il piano giornaliero, perché Jecod non riporta quanto resta nel flacone.
-
-## Cosa mostra un widget di parametro
-
-Un widget legato a un parametro misurato (Valore, Indicatore, Grafico e Stato) mostra sempre tre cose. I riquadri di prese e dispositivi mostrano invece il loro stato, perché dietro non c'è una singola lettura:
+I widget Valore, Indicatore, Grafico e Stato mostrano tutti un parametro misurato, e mostrano sempre tre cose. I riquadri di prese e dispositivi mostrano il loro stato, perché dietro non c'è una singola lettura.
 
 - **Il valore**, in grande
-- **L'età** (`now`, `1h`, `2d`), cioè quanto è vecchia la lettura, non quando si è aggiornato lo schermo
+- **L'età** (`now`, `1h`, `2d`), cioè quanto tempo fa la fonte ha confermato il valore l'ultima volta. Per una sonda è quando il suo dispositivo si è fatto sentire l'ultima volta, quindi una lettura stabile resta fresca. Per un test o un risultato ICP è quando hai fatto il test. Di più in [Leggere la dashboard](/help/mobile-dashboard#how-to-read-a-parameter-widget).
 - **La fonte**, un piccolo badge che dice da dove arriva il numero
 
-Tocca un widget per aprire lo storico completo, tutte le fonti che misurano il parametro e le soglie in vigore.
+Un widget di parametro non ha un'impostazione di intervallo o di fonte sua. L'intervallo viene dalle soglie di avviso della vasca (tieni premuto il widget sulla dashboard), e la fonte da [Mappatura parametri](/help/mobile-probes). Tocca il widget sulla dashboard per vedere lo storico completo, tutte le fonti che lo riportano e la tua fascia di avviso.
+
+## Valore {#value}
+
+È il numero puro. Mostra la lettura attuale, l'unità, quanto è vecchia e da dove arriva.
+
+Usalo per i parametri che controlli più dal numero che dall'andamento, come calcio, magnesio o nitrati.
+
+## Indicatore {#gauge}
+
+Un indicatore è un arco con il tuo intervallo di avviso segnato sopra e un pallino sul valore attuale. Il colore del pallino ti dice dove sei: dentro l'intervallo, in deriva o fuori.
+
+Usalo per i parametri che gestisci attivamente, come alcalinità, pH, salinità o temperatura.
+
+:::note Dai agli indicatori almeno due colonne
+Su una sola colonna l'arco è troppo piccolo per leggerlo al volo. Se hai poco spazio, usa un widget **Valore**.
+:::
+
+## Grafico {#graph}
+
+Un grafico è una piccola linea di andamento nel periodo che scegli: 1h, 6h, 24h, 7g, 30g o 1a. Segna il massimo e il minimo e indica il valore attuale.
+
+Per un parametro che misuri con i test (con un Trident o un kit), la linea unisce i tuoi test reali. Se nel periodo c'è un solo test, la linea arriva dal test precedente, e non ci sono massimo e minimo. Se nel periodo non c'è nessun test, o non c'è niente di precedente a cui collegare un test isolato, il riquadro mostra **Raccolta in corso…** al posto della linea.
+
+Usalo per tutto quello che si muove, come il pH durante il giorno, la temperatura in un'ondata di caldo o l'alcalinità tra un dosaggio e l'altro.
+
+Un grafico è sempre largo **almeno due celle**. Una linea schiacciata in una cella non dice niente, quindi l'editor non te lo permette.
+
+:::note Scegli il periodo adatto al parametro
+Il pH oscilla con un ciclo giornaliero, quindi con 24 ore ne vedi l'andamento. L'alcalinità si muove nell'arco di giorni, quindi 7 o 30 giorni ti dicono molto di più.
+:::
+
+## Stato {#status}
+
+Mostra la lettura scritta a parole, con un pallino colorato per dentro l'intervallo, in deriva o fuori. Usalo per un parametro che non ha un intervallo utile per un indicatore.
+
+## Presa {#outlet}
+
+È un interruttore a tre posizioni per una presa Apex: **Auto**, **Off** e **On**. Scegli tu quale presa comanda.
+
+- **Auto** restituisce la presa a quello che la gestisce di solito. Può essere un programma, una regola o il controller a cui appartiene.
+- **Off** e **On** sono comandi manuali. Restano finché non li cambi tu.
+
+:::warning I comandi manuali non scadono
+Off vuol dire spento finché non la rimetti su Auto. Se spegni una pompa di risalita per lavorare in vasca, rimettila su Auto quando hai finito. Cora non lo fa al posto tuo.
+:::
+
+## ReefBeat {#reefbeat}
+
+È un riquadro per un intero apparecchio. Mostra il riepilogo dell'unità invece di un singolo parametro, per esempio stato e serbatoio di un ATO, le teste di un dosatore o quanti giorni restano al rotolo di un ReefMat. Scegli tu quale dispositivo mostra.
+
+Quali dispositivi possono avere un riquadro dipende da cosa hai collegato. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+
+## Riquadri dei dosatori {#doser-tiles}
+
+Il riquadro di un dosatore (un Apex DŌS, un ReefDose o un EcoTech Versa) mostra una riga per testa. Il nome di una testa non viene mai rimpicciolito sotto una dimensione leggibile. Su un riquadro alto la riga occupa due linee, con il nome sulla prima e quello che resta sulla seconda, per esempio *40g* e *2,8 L*. Su un riquadro basso la linea di dettaglio viene tolta e il nome resta leggibile.
+
+Imposta cosa viene prima con **Mostra il rimanente come**: **Giorni** o **Millilitri (mL)**. Una testa ReefDose senza un nome suo viene mostrata con il nome del dispositivo seguito da "testa" e dal suo numero. Il riquadro di un dosatore Jecod è in sola lettura e mostra il piano giornaliero, perché Jecod non riporta quanto resta nel flacone.

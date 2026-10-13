@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Widget-Referenz | Cora Help</title>
-  <meta name="description" content="Alle Widget-Typen in Cora, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.">
+  <meta name="description" content="Jeder Widget-Typ auf dem Dashboard von Cora Mobile, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/mobile-widgets">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-widgets">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-widgets">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Widget-Referenz | Cora Help">
-  <meta property="og:description" content="Alle Widget-Typen in Cora, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.">
+  <meta property="og:description" content="Jeder Widget-Typ auf dem Dashboard von Cora Mobile, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/mobile-widgets">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hilfe","item":"https://coraiq.tech/de/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/de/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Dein Dashboard","item":"https://coraiq.tech/de/help/mobile-dashboard"},{"@type":"ListItem","position":4,"name":"Widget-Referenz"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/de/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Hilfe</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Anleitung durchsuchen">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigation der Anleitung">
     <button class="hclose" id="hclose" type="button" aria-label="Navigation schließen">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Anleitung">
 <ul>
 <li><a href="/de/help/">Cora Hilfe</a></li>
+</ul>
+<p class="nav-sec">Hilfe</p>
+<ul>
+<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
+<li><a href="/de/help/how-do-i">Wie mache ich...?</a></li>
+<li><a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a></li>
+<li><a href="/de/help/faq">Häufige Fragen</a></li>
+<li><a href="/de/help/glossary">Glossar</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Erste Schritte</summary><ul>
 <li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
-<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
+<li><a href="/de/help/mobile-tour">So findest du dich in Cora Mobile zurecht</a></li>
 <li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
-<li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
+<li><a href="/de/help/mobile-tanks">Deine Becken verwalten</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Dein Dashboard</summary><ul>
 <li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
 <li><a href="/de/help/mobile-widgets" class="cur" aria-current="page">Widget-Referenz</a></li>
-<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></li>
 <li><a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></li>
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
-<li><a href="/de/help/mobile-probes">Parameterzuordnung</a></li>
-<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
+<li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
+<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
 <li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
 <li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
+<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
 <li><a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a></li>
 <li><a href="/de/help/mobile-notifications">Benachrichtigungen</a></li>
 <li><a href="/de/help/mobile-automation">Automationen und Szenen</a></li>
+<li><a href="/de/help/mobile-vacation">Verreisen: ein Plan für deine Urlaubsvertretung</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Aufzeichnungen</summary><ul>
-<li><a href="/de/help/mobile-dosing">Dosierung</a></li>
+<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
+<li><a href="/de/help/mobile-dosing">Dosierprodukte und Dosierrechner</a></li>
 <li><a href="/de/help/mobile-maintenance">Wartung</a></li>
 <li><a href="/de/help/mobile-livestock">Besatz</a></li>
-<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
 <li><a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenz</summary><ul>
-<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
 <li><a href="/de/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
+<li><a href="/de/help/mobile-icp-health">ICP und Gesundheitsberichte</a></li>
 <li><a href="/de/help/mobile-journeys">Geführte Journeys</a></li>
-<li><a href="/de/help/mobile-icp-health">ICP und Zustandsberichte</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Konto</summary><ul>
-<li><a href="/de/help/mobile-vacation">Verreisen</a></li>
+<summary>Einstellungen und Konto</summary><ul>
+<li><a href="/de/help/mobile-settings">Cora Mobile-Einstellungen</a></li>
 <li><a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></li>
-<li><a href="/de/help/mobile-data-export">Deine Daten</a></li>
-<li><a href="/de/help/mobile-plans">Abos</a></li>
-<li><a href="/de/help/mobile-settings">Einstellungen</a></li>
-<li><a href="/de/help/mobile-support">Hilfe erhalten</a></li>
+<li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
+<li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
+<li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Warnungen und Automatisierung</summary><ul>
+<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
+<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Aufzeichnungen</summary><ul>
 <li><a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a></li>
+<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenz</summary><ul>
@@ -146,78 +162,59 @@
 <li><a href="/de/help/max-voice">Mit Cora sprechen</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Warnungen</summary><ul>
-<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
-<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Einstellungen</summary><ul>
+<summary>Einstellungen und Konto</summary><ul>
 <li><a href="/de/help/max-settings">Cora Max-Einstellungen</a></li>
 <li><a href="/de/help/max-updates">Updates und Wiederherstellung</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatisierung</summary><ul>
-<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Hilfe</p>
-<ul>
-<li><a href="/de/help/faq">Häufige Fragen</a></li>
-<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
-<li><a href="/de/help/glossary">Glossar</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Navigationspfad"><ol><li><a href="/de/help/">Hilfe</a></li><li><a href="/de/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/de/help/mobile-dashboard">Dein Dashboard</a></li></ol></nav>
       <h1>Widget-Referenz</h1>
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-sechzehn-typen">Die sechzehn Typen</a></li><li><a href="#gre">Größe</a></li><li><a href="#wert">Wert</a></li><li><a href="#anzeige">Anzeige</a></li><li><a href="#diagramm">Diagramm</a></li><li><a href="#status">Status</a></li><li><a href="#steckdose">Steckdose</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#dosierer-kacheln">Dosierer-Kacheln</a></li><li><a href="#was-ein-wasserwert-widget-zeigt">Was ein Wasserwert-Widget zeigt</a></li></ul></nav>
-<p>Ein Widget ist eine Kachel auf deinem Dashboard, die eine Sache zeigt. Hier findest du alle Typen und was du bei ihnen einstellen kannst.</p>
-<p>Du fügst Widgets im <strong><a href="/de/help/mobile-dashboard-editing">Dashboard-Editor</a></strong> hinzu und ordnest sie dort an. Tippst du dort auf ein Widget, öffnen sich seine Einstellungen.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Ein Widget konfigurieren"><img src="/help/img/mobile-widget-config.webp" alt="Ein Widget konfigurieren" width="620" height="1196" loading="lazy" decoding="async"></button><figcaption>Typ, Wasserwert, dann Breite und Höhe.</figcaption></figure>
-<h2 id="die-sechzehn-typen">Die sechzehn Typen</h2>
-<div class="tw"><table class="stack"><thead><tr><th>Typ</th><th>Zeigt</th></tr></thead><tbody><tr><td data-th="Typ"><strong>Wert</strong></td><td data-th="Zeigt">den aktuellen Messwert mit Einheit, Alter und Quelle</td></tr><tr><td data-th="Typ"><strong>Anzeige</strong></td><td data-th="Zeigt">einen Bogen, auf dem dein Bereich eingezeichnet ist, mit einem Knopf beim aktuellen Wert</td></tr><tr><td data-th="Typ"><strong>Diagramm</strong></td><td data-th="Zeigt">einen Verlauf über einen Zeitraum, den du wählst</td></tr><tr><td data-th="Typ"><strong>Status</strong></td><td data-th="Zeigt">einen Zustand als Text, etwa läuft, ruht, geschlossen</td></tr><tr><td data-th="Typ"><strong>Steckdose</strong></td><td data-th="Zeigt">einen Schalter mit drei Stellungen: Auto, Aus, Ein</td></tr><tr><td data-th="Typ"><strong>Szene</strong></td><td data-th="Zeigt">eine Szene, die du mit einem Tipp startest. Du fügst sie auf dem Cora Max hinzu</td></tr><tr><td data-th="Typ"><strong>ReefBeat</strong></td><td data-th="Zeigt">ein Red Sea™-Gerät mit eigener Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>Apex-Modul</strong></td><td data-th="Zeigt">ein eingebautes Apex-Modul, etwa ein Trident oder DŌS</td></tr><tr><td data-th="Typ"><strong>Jecod™</strong></td><td data-th="Zeigt">eine Jecod-Pumpe mit Modus und Intensität</td></tr><tr><td data-th="Typ"><strong>Maxspect™</strong> <em>(Beta)</em></td><td data-th="Zeigt">eine Gyre mit beiden Motoren</td></tr><tr><td data-th="Typ"><strong>GHL™</strong> <em>(Beta)</em></td><td data-th="Zeigt">ein ProfiLux- oder Mitras-Controller mit eigener Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>HYDROS™</strong> <em>(Beta)</em></td><td data-th="Zeigt">ein HYDROS-Controller mit eigener Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>Radion</strong> <em>(Beta)</em></td><td data-th="Zeigt">eine EcoTech™ Radion-Leuchte oder ein verknüpftes Radion-Netz</td></tr><tr><td data-th="Typ"><strong>VorTech</strong> <em>(Beta)</em></td><td data-th="Zeigt">eine EcoTech VorTech-Pumpe mit Modus und Geschwindigkeit</td></tr><tr><td data-th="Typ"><strong>Versa</strong> <em>(Beta)</em></td><td data-th="Zeigt">ein EcoTech Versa-Dosierer mit seinen Köpfen</td></tr><tr><td data-th="Typ"><strong>Kamera</strong> <em>(Beta)</em></td><td data-th="Zeigt">eine Live-Ansicht einer deiner Kameras, bis zu drei Spalten breit und zwei Zeilen hoch</td></tr></tbody></table></div>
-<p>Alles nach Szene sind <strong>Gerätekacheln</strong>. Sie gehören zu einem Gerät und nicht zu einem Wasserwert und zeigen, was dieses Gerät meldet.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta-Kacheln</p><p>Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech und Versa) und Kamera sind Beta-Anbindungen, die nur Beta-Nutzern offen stehen. Diese Kacheln siehst du erst, wenn du das Gerät hast. Siehe <a href="/de/help/mobile-beta">Beta-Funktionen</a>.</p></aside>
-<h2 id="gre">Größe</h2>
-<p><strong>Breite</strong> und <strong>Höhe</strong> sind jeweils <strong>1×</strong> oder <strong>2×</strong>. Ein Widget ist also eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Ein Diagramm ist nie nur eine Zelle breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Für deinen wichtigsten Wasserwert passt diese Form meist am besten.</p>
-<h2 id="wert">Wert</h2>
-<p>Die reine Zahl: der aktuelle Messwert mit Einheit, wie alt er ist und woher er kommt.</p>
-<p>Nimm ihn für Wasserwerte, bei denen dich die Zahl interessiert und weniger der Verlauf, etwa Calcium, Magnesium oder Nitrat.</p>
-<p>Einstellbar sind Bezeichnung, Quelle und Größe.</p>
-<h2 id="anzeige">Anzeige</h2>
-<p>Ein Bogen, auf dem dein Zielbereich eingezeichnet ist, mit einem Knopf beim aktuellen Wert. An der Farbe des Knopfs siehst du, wo du stehst: im Bereich, auf dem Weg nach draußen oder außerhalb.</p>
-<p>Nimm sie für die Wasserwerte, die du aktiv steuerst, etwa Alkalinität, pH, Salinität und Temperatur.</p>
-<p>Einstellbar sind Bezeichnung, Quelle, Bereich (kommt aus den Zielwerten deines Beckens, außer du legst hier einen eigenen fest) und Größe.</p>
-<aside class="cal cal-note"><p class="cal-t">Gib Anzeigen mindestens zwei Spalten</p><p>In einer einzelnen Spalte ist der Bogen zu klein, um ihn schnell abzulesen. Ist wenig Platz, nimm lieber ein <strong>Wert</strong>-Widget.</p></aside>
-<h2 id="diagramm">Diagramm</h2>
-<p>Eine kleine Verlaufskurve über einen Zeitraum, den du wählst. Höchst- und Tiefstwert sind markiert, und der aktuelle Wert ist hervorgehoben.</p>
-<p>Bei einem Wasserwert, den du testest (mit Trident oder Testkit), verbindet die Linie deine tatsächlichen Tests. Liegt im Zeitraum nur ein Test, kommt die Linie vom Test davor, und Höchst- und Tiefstwert werden nicht markiert. Gibt es im Zeitraum keinen Test oder keinen früheren Test, mit dem sich ein einzelner verbinden ließe, zeigt die Kachel <strong>Wird gesammelt…</strong> und keine Linie.</p>
-<p>Nimm es für alles, was sich bewegt, etwa pH im Tagesverlauf, Temperatur während einer Hitzewelle oder Alkalinität zwischen den Dosierungen.</p>
-<p>Einstellbar sind Bezeichnung, Quelle, <strong>Zeitfenster</strong> (1 Stunde, 6 Stunden, 24 Stunden, 7 Tage, 30 Tage, 1 Jahr) und Größe.</p>
-<p>Ein Verlauf ist immer <strong>mindestens zwei Zellen breit</strong>. In einer einzelnen Zelle würde die Kurve nichts aussagen, deshalb lässt der Editor das nicht zu.</p>
-<aside class="cal cal-note"><p class="cal-t">Wähl den Zeitraum passend zum Rhythmus</p><p>pH schwankt im Tagesverlauf. In 24 Stunden siehst du also die typische Kurve. Alkalinität verändert sich über Tage. Da sagen dir 7 oder 30 Tage viel mehr als 24 Stunden.</p></aside>
+      
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#the-fifteen-types">Die fünfzehn Typen</a></li><li><a href="#sizing">Größe</a></li><li><a href="#what-a-parameter-widget-shows">Was ein Wasserwert-Widget zeigt</a></li><li><a href="#value">Wert</a></li><li><a href="#gauge">Anzeige</a></li><li><a href="#graph">Diagramm</a></li><li><a href="#status">Status</a></li><li><a href="#outlet">Steckdose</a></li><li><a href="#reefbeat">ReefBeat</a></li><li><a href="#doser-tiles">Dosierer-Kacheln</a></li></ul></nav>
+<p>Ein Widget ist eine Kachel auf deinem Dashboard, und es zeigt eine Sache. Diese Seite geht jeden Typ durch und was du daran einstellen kannst.</p>
+<p>Widgets fügst du im <a href="/de/help/mobile-dashboard-editing">Dashboard-Editor</a> hinzu und ordnest sie dort an. Tippe dort auf ein Widget, um seine Einstellungen zu öffnen: <strong>Typ</strong> und <strong>Wasserwert</strong> bei einem Wasserwert, die Steckdose oder das Gerät bei den anderen, dann <strong>Breite</strong> und <strong>Höhe</strong> und <strong>Zeitraum</strong> bei einem Diagramm.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Das Einstellungsfenster eines Widgets in Cora Mobile"><img src="/help/img/mobile-widget-config.webp" alt="Das Einstellungsfenster eines Widgets in Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Die untere Hälfte der Einstellungen eines Widgets: der Wasserwert, Breite, Höhe und Zeitraum, dann Entfernen und Fertig.</figcaption></figure>
+<h2 id="the-fifteen-types">Die fünfzehn Typen</h2>
+<div class="tw"><table class="stack"><thead><tr><th>Typ</th><th>Zeigt</th></tr></thead><tbody><tr><td data-th="Typ"><strong>Wert</strong></td><td data-th="Zeigt">Den aktuellen Messwert, seine Einheit, sein Alter und seine Quelle</td></tr><tr><td data-th="Typ"><strong>Anzeige</strong></td><td data-th="Zeigt">Einen Bogen mit deinem Bereich als Band und einem Knopf beim Wert</td></tr><tr><td data-th="Typ"><strong>Diagramm</strong></td><td data-th="Zeigt">Einen Trend über einen Zeitraum, den du wählst</td></tr><tr><td data-th="Typ"><strong>Status</strong></td><td data-th="Zeigt">Den Messwert als einfachen Text mit einem farbigen Punkt</td></tr><tr><td data-th="Typ"><strong>Steckdose</strong></td><td data-th="Zeigt">Eine Steuerung mit drei Stellungen: Auto, Aus, Ein</td></tr><tr><td data-th="Typ"><strong>ReefBeat</strong></td><td data-th="Zeigt">Ein Red Sea™-Gerät, mit seiner eigenen Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>Apex-Modul</strong></td><td data-th="Zeigt">Ein eingebautes Apex-Modul, etwa ein Trident oder DŌS</td></tr><tr><td data-th="Typ"><strong>Jecod™</strong></td><td data-th="Zeigt">Eine Jecod-Pumpe, mit Modus und Intensität</td></tr><tr><td data-th="Typ"><strong>Maxspect™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Eine Gyre, mit beiden Motoren</td></tr><tr><td data-th="Typ"><strong>GHL™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Ein ProfiLux- oder Mitras-Controller, mit seiner eigenen Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>HYDROS™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Ein HYDROS-Controller, mit seiner eigenen Zusammenfassung</td></tr><tr><td data-th="Typ"><strong>Radion</strong> <em>(Beta)</em></td><td data-th="Zeigt">Eine EcoTech™ Radion-Leuchte oder ein verknüpftes Radion-Netz</td></tr><tr><td data-th="Typ"><strong>VorTech</strong> <em>(Beta)</em></td><td data-th="Zeigt">Eine EcoTech VorTech-Pumpe, mit Modus und Geschwindigkeit</td></tr><tr><td data-th="Typ"><strong>Versa</strong> <em>(Beta)</em></td><td data-th="Zeigt">Ein EcoTech Versa-Dosierer, mit seinen Köpfen</td></tr><tr><td data-th="Typ"><strong>Kamera</strong> <em>(Beta)</em></td><td data-th="Zeigt">Eine Live-Ansicht einer deiner Kameras, bis zu drei Spalten breit und zwei Zeilen hoch</td></tr></tbody></table></div>
+<p>Alles nach Steckdose ist eine <strong>Gerätekachel</strong>. Jede gehört zu einem Stück Ausrüstung statt zu einem Wasserwert und zeigt, was dieses Gerät meldet. Cora Max hat außerdem eine Kachel <strong>Szene</strong>, die du auf Cora Max hinzufügst. Siehe <a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Beta-Kacheln</p><p>Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech und Versa) und Kamera sind Beta-Anbindungen, nur für Beta-Nutzer offen. Diese Kacheln siehst du erst, wenn du das Gerät hast. Siehe <a href="/de/help/mobile-beta">Beta-Funktionen</a>.</p></aside>
+<h2 id="sizing">Größe</h2>
+<p><strong>Breite</strong> und <strong>Höhe</strong> können jeweils <strong>1×</strong> oder <strong>2×</strong> sein, ein Widget ist also eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Eine Kamera kann bis zu <strong>3×</strong> breit sein. Ein Diagramm ist nie eine Zelle breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Das ist meist eine gute Form für deinen wichtigsten Wasserwert.</p>
+<h2 id="what-a-parameter-widget-shows">Was ein Wasserwert-Widget zeigt</h2>
+<p>Die Widgets Wert, Anzeige, Diagramm und Status zeigen alle einen gemessenen Wasserwert, und sie zeigen immer drei Dinge. Steckdosen- und Gerätekacheln zeigen ihren eigenen Zustand, weil hinter ihnen kein einzelner Messwert steht.</p>
+<ul><li><strong>Den Wert</strong>, in großer Schrift</li><li><strong>Das Alter</strong> (<code>now</code>, <code>1h</code>, <code>2d</code>), also wie lange es her ist, dass die Quelle den Wert zuletzt bestätigt hat. Bei einer Sonde ist das, wann ihr Gerät sich zuletzt gemeldet hat, ein gleichbleibender Messwert bleibt also frisch. Bei einem Testkit- oder ICP-Ergebnis ist es, wann du den Test gemacht hast. Mehr dazu unter <a href="/de/help/mobile-dashboard#how-to-read-a-parameter-widget">Dein Dashboard lesen</a>.</li><li><strong>Die Quelle</strong>, ein kleines Abzeichen, das sagt, woher die Zahl kommt</li></ul>
+<p>Ein Wasserwert-Widget hat keine eigene Einstellung für Bereich oder Quelle. Der Bereich kommt aus den Warnschwellen des Beckens (drück auf dem Dashboard lange auf das Widget) und die Quelle aus der <a href="/de/help/mobile-probes">Parameterzuordnung</a>. Tippe auf dem Dashboard auf das Widget, um seinen ganzen Verlauf, jede Quelle, die ihn meldet, und dein Warnband zu sehen.</p>
+<h2 id="value">Wert</h2>
+<p>Das ist die reine Zahl. Sie zeigt den aktuellen Messwert, seine Einheit, wie alt er ist und woher er kommt.</p>
+<p>Nimm ihn für Wasserwerte, bei denen du eher auf die Zahl schaust als auf den Trend, etwa Calcium, Magnesium oder Nitrat.</p>
+<h2 id="gauge">Anzeige</h2>
+<p>Eine Anzeige ist ein Bogen, auf dem dein Warnbereich markiert ist, mit einem Knopf beim aktuellen Wert. Die Farbe des Knopfs sagt dir, wo du stehst: im Bereich, abdriftend oder außerhalb.</p>
+<p>Nimm sie für die Wasserwerte, die du aktiv steuerst, etwa Alkalinität, pH, Salinität oder Temperatur.</p>
+<aside class="cal cal-note"><p class="cal-t">Mach Anzeigen mindestens zwei Spalten breit</p><p>In einer Spalte ist der Bogen zu klein, um ihn schnell abzulesen. Fehlt dir Platz, nimm ein Widget <strong>Wert</strong>.</p></aside>
+<h2 id="graph">Diagramm</h2>
+<p>Ein Diagramm ist eine kleine Verlaufskurve über einen Zeitraum, den du wählst: 1h, 6h, 24h, 7d, 30d oder 1y. Es markiert Höchst- und Tiefstwert und beschriftet den aktuellen Wert.</p>
+<p>Bei einem Wasserwert, den du testest (mit einem Trident oder einem Testkit), verbindet die Linie deine echten Tests. Gibt es im Zeitraum nur einen Test, kommt die Linie vom Test davor, und es gibt keinen Höchst- oder Tiefstwert. Gibt es im Zeitraum keinen Test oder nichts Früheres, mit dem sich ein einzelner Test verbinden ließe, zeigt die Kachel <strong>Wird gesammelt…</strong> statt einer Linie.</p>
+<p>Nimm es für alles, was sich bewegt, etwa pH im Tagesverlauf, Temperatur in einer Hitzewelle oder Alkalinität zwischen Dosierungen.</p>
+<p>Ein Diagramm ist immer <strong>mindestens zwei Zellen breit</strong>. Eine Verlaufskurve, die in eine Zelle gequetscht ist, sagt dir nichts, deshalb lässt der Editor das nicht zu.</p>
+<aside class="cal cal-note"><p class="cal-t">Wähl den Zeitraum, der zum Wasserwert passt</p><p>pH schwankt im Tagesrhythmus, 24 Stunden zeigen dir also das Muster. Alkalinität bewegt sich über Tage, 7 oder 30 Tage sagen dir also viel mehr.</p></aside>
 <h2 id="status">Status</h2>
-<p>Ein Zustand als Text, für alles, was sich nicht in Zahlen ausdrücken lässt: läuft, ruht, offen, geschlossen, füttert.</p>
-<p>Einstellbar sind Bezeichnung, Quelle und Größe.</p>
-<h2 id="steckdose">Steckdose</h2>
-<p>Ein Schalter mit drei Stellungen für eine Steckdose: <strong>Auto</strong>, <strong>Aus</strong>, <strong>Ein</strong>.</p>
-<ul><li><strong>Auto</strong> gibt die Steckdose an das zurück, was sie sonst steuert, also einen Zeitplan, eine Regel oder den Controller, zu dem sie gehört.</li><li><strong>Aus</strong> und <strong>Ein</strong> schalten sie von Hand. Das bleibt so, bis du es zurückstellst.</li></ul>
-<p>Einstellbar sind Bezeichnung, Steckdose und Größe.</p>
-<aside class="cal cal-warning"><p class="cal-t">Von Hand geschaltet bleibt geschaltet</p><p>Aus bleibt aus, bis du wieder auf Auto stellst. Schaltest du die Rückförderpumpe aus, um im Becken zu arbeiten, stell sie danach wieder auf Auto. Cora macht das nicht für dich.</p></aside>
+<p>Das zeigt den Messwert als einfachen Text, mit einem farbigen Punkt für im Bereich, abdriftend oder außerhalb. Nimm es für einen Wasserwert, der keinen sinnvollen Bereich für eine Anzeige hat.</p>
+<h2 id="outlet">Steckdose</h2>
+<p>Das ist ein Schalter mit drei Stellungen für eine Apex-Steckdose: <strong>Auto</strong>, <strong>Aus</strong> und <strong>Ein</strong>. Du wählst, welche Steckdose er steuert.</p>
+<ul><li><strong>Auto</strong> gibt die Steckdose an das zurück, was sie normalerweise steuert. Das kann ein Zeitplan sein, eine Regel oder der Controller, zu dem sie gehört.</li><li><strong>Aus</strong> und <strong>Ein</strong> sind manuelle Übersteuerungen. Sie bleiben, bis du sie zurückstellst.</li></ul>
+<aside class="cal cal-warning"><p class="cal-t">Manuelle Übersteuerungen laufen nicht ab</p><p>Aus heißt aus, bis du es zurück auf Auto stellst. Schaltest du eine Rückförderpumpe aus, um im Becken zu arbeiten, stell sie danach zurück auf Auto. Cora tut das nicht für dich.</p></aside>
 <h2 id="reefbeat">ReefBeat</h2>
-<p>Eine Kachel für ein ganzes Gerät. Sie zeigt eine eigene Zusammenfassung und keinen einzelnen Wasserwert, etwa Status und Vorratsbehälter einer Nachfüllanlage, die Köpfe einer Dosiereinheit oder die verbleibenden Tage eines Mattenrollers.</p>
-<p>Für welche Geräte es eine Kachel gibt, hängt davon ab, was du verbunden hast. Mehr dazu unter <strong><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></strong>.</p>
-<p>Einstellbar sind Bezeichnung, Gerät und Größe.</p>
-<h2 id="dosierer-kacheln">Dosierer-Kacheln</h2>
-<p>Eine Kachel für einen Dosierer (ein Apex DŌS, ein ReefDose oder ein EcoTech Versa) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe geschrumpft. Auf einer hohen Kachel belegt die Zeile zwei Zeilen, mit dem Namen in der ersten und dem Rest in der zweiten, zum Beispiel <em>40d</em> und <em>2.8 L</em>. Auf einer niedrigen Kachel entfällt die Detailzeile, und der Name bleibt lesbar.</p>
-<p>Mit <strong>Restmenge anzeigen als</strong> legst du fest, was zuerst kommt: <strong>Tage</strong> oder <strong>Milliliter (mL)</strong>. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename gefolgt von "Kopf" und seiner Nummer gezeigt. Eine Jecod-Dosierer-Kachel ist schreibgeschützt und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.</p>
-<h2 id="was-ein-wasserwert-widget-zeigt">Was ein Wasserwert-Widget zeigt</h2>
-<p>Ein Widget für einen gemessenen Wasserwert (Wert, Anzeige, Diagramm und Status) zeigt immer drei Dinge. Steckdosen- und Gerätekacheln zeigen stattdessen ihren eigenen Zustand, denn hinter ihnen steht kein einzelner Messwert:</p>
-<ul><li><strong>den Wert</strong>, groß</li><li><strong>das Alter</strong> (<code>jetzt</code>, <code>1h</code>, <code>2d</code>), also wie alt der Messwert ist und nicht, wann der Bildschirm zuletzt aktualisiert wurde</li><li><strong>die Quelle</strong> als kleines Abzeichen, das zeigt, woher die Zahl kommt</li></ul>
-<p>Tippe auf ein Widget, dann siehst du die ganze Historie, jede Quelle, die den Wert meldet, und die gerade geltenden Schwellenwerte.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/mobile-dashboard-editing"><span>Zurück</span><b>Dein Dashboard bearbeiten</b></a><a class="pn-n" href="/de/help/mobile-metric-detail"><span>Weiter</span><b>Einen Wasserwert genauer ansehen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-12.</p>
+<p>Das ist eine Kachel für ein ganzes Stück Ausrüstung. Sie zeigt die eigene Zusammenfassung des Geräts statt eines einzelnen Wasserwerts, etwa Status und Reservoir einer Nachfüllanlage, die Köpfe eines Dosierers oder wie viele Tage ein Mattenroller noch hat. Du wählst, welches Gerät sie zeigt.</p>
+<p>Welche Geräte eine Kachel haben können, hängt davon ab, was du verbunden hast. Siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
+<h2 id="doser-tiles">Dosierer-Kacheln</h2>
+<p>Eine Kachel für einen Dosierer (ein Apex DŌS, ein ReefDose oder ein EcoTech Versa) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe verkleinert. Auf einer hohen Kachel nimmt die Zeile zwei Zeilen ein, mit dem Namen in der ersten und dem, was übrig ist, in der zweiten, zum Beispiel <em>40d</em> und <em>2.8 L</em>. Auf einer niedrigen Kachel fällt die Detailzeile weg, und der Name bleibt lesbar.</p>
+<p>Leg mit <strong>Restmenge anzeigen als</strong> fest, was zuerst kommt: <strong>Tage</strong> oder <strong>Milliliter (mL)</strong>. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename, gefolgt von "Kopf" und seiner Nummer, angezeigt. Eine Jecod-Dosierer-Kachel ist nur zum Lesen und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.</p>
+      <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-dashboard-editing"><span>Zurück</span><b>Dein Dashboard bearbeiten</b></a><a class="pn-n" href="/de/help/mobile-sharing"><span>Weiter</span><b>Dein Becken teilen</b></a></nav>
+      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -334,10 +331,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Bildschirmfoto");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Schlie\u00dfen"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -358,55 +355,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Keine Treffer f\u00fcr \u201e" + esc(q) + "\u201c." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Keine Treffer f\u00fcr \u201e" + esc(q)
+        + "\u201c." + '</p>' + "<p>Versuche es mit weniger oder anderen W\u00f6rtern, oder gehe zu:</p><ul><li><a href=\"/de/help/troubleshooting\">Problembehebung</a></li><li><a href=\"/de/help/how-do-i\">Wie mache ich...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Support kontaktieren</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -438,9 +602,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/de/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
       });

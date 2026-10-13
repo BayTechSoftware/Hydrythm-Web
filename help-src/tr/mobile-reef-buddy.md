@@ -1,98 +1,118 @@
 ---
 title: Reef Buddy
-description: Günlük özetiniz. Neleri kapsar, ne zaman gelir, puanlar nasıl okunur.
+description: Günlük Reef Buddy özetiniz, neleri kapsadığı, ne zaman geldiği, puanların nasıl okunduğu ve bir özetin neden gelmeyebileceği.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 24
+reviewed: 2026-10-13
+order: 29
 group: Intelligence
+twin: max-intelligence
 ---
 
-Reef Buddy, akvaryumunuz hakkında her gün gelen kısa özettir. Her sabah gelir, nelerin değiştiğini söyler ve siz fark etmeden önce dikkat etmeniz gereken şeyleri gösterir.
+Reef Buddy, akvaryumunuza her gün kısaca bakar. Her sabah gelir, neyin değiştiğini söyler ve siz kendiniz fark etmeden önce ilgilenmeniz gereken her şeyi gösterir.
 
-Panonuzun üstünde kart olarak görünür ve tek bildirim olarak gelir.
+Onu panonuzun üstünde bir kart olarak ve harekete geçmeye değer bir şey olduğunda tek bir bildirim olarak görürsünüz.
 
-![Reef Buddy özeti](img/mobile-reefbuddy.webp "Kararlılık ve Veri puanları, özet ve altında bulgular.")
+![Bir Reef Buddy özeti](img/mobile-reefbuddy.webp "Kararlılık ve Veri puanları, bir özet ve ardından arkalarındaki içgörüler.")
 
 ## Özette neler var
 
-**Başlık**: akvaryumun bugünkü durumunu anlatan tek satır.
-
-Özette iki puan var:
+Bir başlıkla başlar: akvaryumun bugünkü durumunu özetleyen tek bir satır. Ardından iki puan gelir.
 
 | Puan | Anlamı |
 |---|---|
 | **Kararlılık** | 100 üzerinden. Son 30 günde ölçümlerinizin ne kadar sabit kaldığı |
-| **Veri** | Yüzde olarak. Değerlendirmenin dayandığı verinin ne kadar eksiksiz olduğu |
+| **Veri** | Yüzde olarak. Değerlendirmenin arkasındaki verinin ne kadar eksiksiz olduğu |
 
-Veri puanı düşükse değerlendirme olması gerekenden az ölçüme dayanıyor demektir. Önce bu puana bakın. Veri düşükken yanındaki Kararlılık puanını kesin değil, geçici sonuç olarak görün.
+Düşük bir Veri puanı, Cora'nın istediğinden daha az ölçümle çalıştığı anlamına gelir. Önce ona bakın. Veri düşükken yanındaki Kararlılık sayısını bir ilk tahmin olarak değerlendirin.
 
-**Özet**: başlığı açıklayan kısa paragraf. Gerçek değerlerinize ve aralıklarınıza dayanır.
+Sonra bir özet gelir: başlığı gerçek değerlerinizi ve aralıklarınızı kullanarak açıklayan kısa bir paragraf.
 
-**Bulgular**: tek tek tespitler. Her birinde kategori (örneğin *Su Kimyası*) ve sıklık (örneğin *Günlük*) yazar. Ayrıntıları görmek için bulguyu genişletin. Bölümün üstündeki etiket akvaryum türünü ve profilin ne kadar dolu olduğunu gösterir. İkisi de Cora'nın varabileceği sonuçları etkiler.
+Ardından her tespit için bir tane olmak üzere içgörüler gelir. Her birinin bir kategorisi (*Su Kimyası* gibi) ve bir sıklığı (*Günlük* gibi) vardır ve ayrıntı için genişletebilirsiniz. Bölümün üstündeki bir çip akvaryum türünü ve profilinin ne kadar dolu olduğunu gösterir. İkisi de Cora'nın varabileceği sonuçları etkiler.
 
-Bulgular size gelmeden önce elenir. Bulgunun tek ölçümde değil, birkaç ölçüm boyunca geçerli olması gerekir. Ayrıca tek bir grafiğin zaten gösterdiği bir şeyi tekrar etmemesi gerekir.
+Cora içgörüleri size ulaşmadan önce süzer. Bir içgörünün birkaç ölçüm boyunca geçerli kalması gerekir. Tek bir ölçüm yetmez. Ayrıca tek bir grafiğin zaten göstermeyeceği bir şey söylemesi gerekir.
 
-Özetin tamamını açmak için panodaki karta dokunun.
+Tam özeti açmak için panodaki karta dokunun.
+
+## Özeti yeniden açma {#dismissing-the-card}
+
+Bugünün kartını panodan kaldırmak için **×**'e dokunun. Yarınki yine gelir.
+
+Kartı kaldırdıktan sonra bugünün özetini açmak için panonun üstündeki gazete düğmesine (**Reef Buddy günlük sağlık**) dokunun. Daha eski bir özet kendi bildiriminden açılır.
 
 ## Özeti yeni bir testle güncelleme
 
-Özet çıktıktan sonra elle bir test kaydederseniz ya da bir ICP sonucu eklerseniz, tam özetteki özet kartında **Bu özetten sonra yeni ölçümler geldi** yazısı ve bir **Özeti güncelle** düğmesi görünür. Ona dokunun, Cora özeti yeni değerlerle yeniden hazırlasın. Bunu her hane için günde bir kez yapabilirsiniz. Sonrasında düğme grileşir ve *Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.* yazar.
+Özet çıktıktan sonra elle bir test kaydederseniz ya da bir ICP sonucu eklerseniz tam özet, bir **Özeti güncelle** düğmesiyle birlikte **Bu özetten sonra yeni ölçümler geldi** gösterir. Ona dokunun, Cora özeti yeni sayılarla yeniden hazırlar. Bu, asistan hakkınızdan bir mesaj kullanır.
 
-Prob ve kontrol cihazı ölçümleri gün boyu geldiği için bu teklifi tetiklemez.
+Bunu hesabınız için günde bir kez yapabilirsiniz. Sonrasında düğme grileşir ve *Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.* yazar.
 
-## Bu bulguyu neden görüyorsunuz
+Prob ve kontrolcü ölçümleri bu teklifi tetiklemez, çünkü gün boyu gelirler.
 
-Bir bulgunun altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümleri**, **Karşılaştırılan hedefi** (kendi hedefinizi ya da bir referans aralığını), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı **Zaman aralığını (gün)** listeler. Gerekçe akvaryumunuza uymuyorsa bulguyu aşağıdaki "Bir bulguya yanıt verme" bölümünde anlatıldığı gibi yanıtlayın.
+## Bir içgörüyü neden görüyorsunuz
 
-Özetler yalnızca parametre ölçümlerinden de yararlanmaz. Işıklarınızın programlarını, ReefMat rulosunun hızını, elle girdiğiniz alkaliniteyi bir cihazınkinin yanında, DŌS kafalarınızın toplamlarını ve Beta aşamasındaki bir Inkbird oda havası monitörünüz varsa odanın sıcaklığını ve nemini kullanabilirler. Inkbird yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
+Bir içgörünün altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümler**'i, **Karşılaştırılan hedef**'i (kendi hedefiniz ya da bir referans aralığı), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı gün cinsinden zaman aralığını listeler. Gerekçe akvaryumunuza uymuyorsa içgörüyü [Bir içgörüyü düzeltme](#bir-icgoruyu-duzeltme) bölümünde anlatıldığı gibi yanıtlayın.
+
+Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık programlarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında, DŌS kafalarınızın toplamlarını ve bir Inkbird oda havası monitörünüz varsa odanın sıcaklığını ve nemini kullanabilirler.
+
+:::note Inkbird Beta aşamasındadır
+**Beta.** Inkbird Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+:::
 
 ## Ne zaman gelir
 
-Her akvaryum için günde bir kez, seçtiğiniz saatte gelir. Bunu **Ayarlar**'da **Özet saati** altında ayarlarsınız. Özet, bu saatten yaklaşık 15 dakika içinde, kendi saat diliminizde gelir. Hiçbir saat seçmezseniz 08.00'de gelir.
+Her akvaryum için günde bir kez, seçtiğiniz saatte. Bunu **Bildirimler**'in yanındaki **Ayarlar → Özet saati** içinde ayarlayın. Özet o saatten sonraki yaklaşık 15 dakika içinde, kendi saat diliminizde gelir. Hiç seçmezseniz 8:00'de gelir.
 
-Sabah yaptığınız testten sonraki bir saat seçin, böylece bugünkü sonuç özette yer alır.
+Her zamanki sabah testinizden sonraki bir saat seçin, böylece bugünün sonucu özete girer.
 
-Dikkatinizi gerektiren bir şey olmayan günlerde Reef Buddy genellikle "her şey yolunda" demek için bildirim göndermez, sessiz kalır. **Bildirim geliyorsa ilgilenmeniz gereken bir şey var demektir.** Bu yeni bir değişiklik de olabilir, bildirmeye değecek kadar uzun süren bir durum da.
+İlgilenmeniz gereken hiçbir şeyin olmadığı bir günde Reef Buddy genellikle sessiz kalır. Yalnızca her şeyin yolunda olduğunu söylemek için bildirim göndermez. **Bir bildirim, harekete geçmeye değer bir şey olduğu anlamına gelir.** Bu yeni bir değişiklik ya da söylemeye değecek kadar uzun süren bir şey olabilir.
 
-:::note Her akvaryuma ayrı özet
-Her akvaryumun kendi özeti var. Üç sisteminiz varsa üç özet alırsınız ve her biri yalnızca kendi sistemini anlatır.
+:::note Bir akvaryum, bir özet
+Planınızın kapsadığı her akvaryum kendi özetini alır ve her biri yalnızca o akvaryumla ilgilidir. [Hangi akvaryumlar özet alır](#availability) bölümüne bakın.
 :::
 
 :::note Cora Max'in kendi Reef Buddy ayarı var
-Cora Max tabletin Ayarlar'ında da bir **Reef Buddy** bölümü var. Buradaki **Özet saati**, telefonunuzdakiyle aynı ayardır: birinde değiştirdiğinizde diğerinde de değişir. Ekrandaki özetin açma/kapama anahtarı yalnızca o Cora Max'e aittir. Orada kapatmak, özetin telefonunuza gelmesini engellemez.
+Cora Max'in Ayarlar'ında da bir **Reef Buddy** bölümü vardır. Oradaki **Özet saati** telefonunuzdakiyle aynı ayardır: birinde değiştirirseniz ikisi de izler. Ekrandaki özetin anahtarı yalnızca o Cora Max'e aittir. Orada kapatmak özetin telefonunuza gelmesini durdurmaz.
 :::
 
 ## Puanları okuma
 
-**Kararlılık**, son 30 günde ölçümlerinizin ne kadar sabit kaldığını gösterir. Ölçümlerin aralıkta olup olmadığına bakmaz, yalnızca sabitliği ölçer. Yanlış seviyede sabit duran akvaryum da yüksek puan alabilir. Hedef aralıklarınıza göre puan almak için bir [Sağlık Raporu](/help/mobile-icp-health) çalıştırın. Kararlılık not değildir, zaman içinde izlenecek eğilimdir. Onu başka bir akvaryumla değil, kendi önceki puanlarınızla karşılaştırın.
+**Kararlılık**, son 30 günde ölçümlerinizin ne kadar sabit kaldığını gösterir. Yalnızca sabitliği ölçer. Ölçümlerin aralıkta olup olmadığını kontrol etmez, bu yüzden yanlış seviyede sabit tutulan bir akvaryum yine de iyi puan alabilir. Hedef aralıklarınıza göre nasıl gittiğinizi görmek için bir [Sağlık Raporu](/help/mobile-icp-health#health-reports) çalıştırın. Kararlılığı zaman içinde izlenecek bir eğilim olarak görün. Onu başka birinin akvaryumuyla değil, kendi önceki puanlarınızla karşılaştırın.
 
-**Veri**, değerlendirmenin ne kadar güncel bilgiye dayandığını gösterir. Ölçümler eskidikçe düşer.
+**Veri**, Cora'nın ne kadar güncel bilgiyle çalıştığını gösterir. Ölçümler eskidikçe düşer.
 
-:::note Veri puanı düşüyorsa genellikle ölçümler eskimiştir
-Bir haftadır hiç test yapmadıysanız Veri puanı düşer ve Kararlılık puanı daha az güvenilir olur. İkisini de düzeltmek için ölçüm girin.
+:::note Düşen bir Veri puanı genellikle eski ölçümler demektir
+Bir haftadır hiçbir şey test etmediyseniz Veri puanı düşer ve Kararlılık puanı daha az güvenilir olur. İkisini de yükseltmek için birkaç ölçüm kaydedin.
 :::
 
-## Kartı kapatma
+## Hangi akvaryumlar özet alır {#availability}
 
-**×** bugünün kartını panodan kaldırır. Yarınki özet yine gelir. Eski özetlere **Zeka** sekmesinden ulaşabilirsiniz.
+Reef Buddy ücretli planların bir parçasıdır. Hesabınızı oluşturduğunuzda başlayan 30 günlük denemeye de dahildir.
 
-## Hangi planlarda var
+Her plan belli sayıda akvaryumu kapsar: denemede ve Plus'ta 1, Pro'da 5, Max'te 20. Özetler **Ayarlar → Akvaryumları yeniden sırala** içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.
 
-Reef Buddy ücretli planlarda bulunur. Kaydolduğunuzda başlayan 30 günlük denemeye de dahildir. Deneme bittikten sonra ücretsiz hesaplara özet gelmez. Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
+Deneme bittikten sonra ücretsiz bir hesap, özetin olduğu yerde **Planları gör** düğmeli kilitli bir Reef Buddy kartı görür ve özet bildirimi almaz. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
 
-## Bir bulguya yanıt verme
+## Özet gelmediyse
 
-Her bulguya dört yanıttan birini verebilirsiniz:
+- **İlgilenmeniz gereken bir şey yoktu.** Reef Buddy iyi bir günde sessiz kalır. Kart panoda yine durur.
+- **Deneme süreniz bitti.** Ücretsiz bir hesap kilitli kartı alır ve bildirim almaz.
+- **Akvaryum planınızın sınırını aşıyor.** Onu **Ayarlar → Akvaryumları yeniden sırala** içinde yukarı taşıyın.
+- **Bildirimler kapalı.** [Bildirimler](/help/mobile-notifications) sayfasını kontrol edin.
+
+**Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**'i kapattıysanız özet yine gelir, ama özeti sabit düz bir metindir ve yapay zekanın yazdığı gözlem çıkarılır. [Cora'ya sorun](/help/mobile-assistant#consent) sayfasına bakın.
+
+## Bir içgörüyü düzeltme
+
+Her içgörüye dört yoldan biriyle yanıt verebilirsiniz.
 
 | Yanıt | Anlamı |
 |---|---|
 | **Onaylandı** | Doğruydu ve işe yaradı |
-| **Uyuşmuyor** | Sizin gördüğünüzle örtüşmüyor |
+| **Uyuşmuyor** | Gördüğünüzle uyuşmuyor |
 | **Zaten biliyordum** | Doğru, ama zaten farkındaydınız |
-| **Emin değilim** | Henüz karar veremiyorsunuz |
+| **Emin değilim** | Henüz değerlendiremiyorsunuz |
 
-Reef Buddy bir kayma bildirdiğinde ayrıca *Bu uyarı işinize yaradı mı?* diye sorar. **Faydalı**, **Faydalı değil**, **Bu değişiklik beklenen bir şey** ya da **Ölçüm yanlış görünüyor** diye yanıtlayabilirsiniz. Yanıtlarınız, sonraki özetlerde hangi bulguların öne çıkacağını etkiler. Bulguyu susturmanın etkisi **süreyle sınırlıdır**. Kapattığınız bulgu, durum devam ederse yeniden gelir.
+Reef Buddy bir kayma bildirdiğinde ayrıca *Bu uyarı işinize yaradı mı?* diye sorar. **Faydalı**, **Faydalı değil**, **Bu değişiklik beklenen bir şey** ya da **Ölçüm yanlış görünüyor** diye yanıtlayabilirsiniz. Geri bildiriminiz, sonraki özetlerde neyin önce görüneceğini şekillendirir. Bir içgörüyü gizlemek yalnızca bir süre için geçerlidir. Sorun hâlâ varsa içgörü geri gelir.
 
-:::note Ciddi bulgular hiçbir zaman susturulmaz
-Yanıtlarınızla yalnızca önemi düşük bulgular sessize alınabilir. Uyarı ve kritik düzeydeki bulgular, önceki yanıtlarınız ne olursa olsun görünmeye devam eder.
+:::note Ciddi tespitler hiçbir zaman gizlenmez
+Geri bildirim yalnızca önemi düşük içgörüleri sessizleştirir. Uyarı ve kritik düzeydeki içgörüler, daha önce ne yanıt vermiş olursanız olun görünmeye devam eder.
 :::

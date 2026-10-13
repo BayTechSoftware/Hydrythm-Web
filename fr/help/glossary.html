@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Glossaire | Cora Help</title>
-  <meta name="description" content="Les mots de Cora : aquarium, source, widget, disposition enregistrée, seuil, observation et les autres.">
+  <meta name="description" content="Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène, surveillance de l’écumeur et les autres mots que vous verrez dans les applications.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/glossary">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/glossary">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/glossary">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Glossaire | Cora Help">
-  <meta property="og:description" content="Les mots de Cora : aquarium, source, widget, disposition enregistrée, seuil, observation et les autres.">
+  <meta property="og:description" content="Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène, surveillance de l’écumeur et les autres mots que vous verrez dans les applications.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/glossary">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Aide","item":"https://coraiq.tech/fr/help/"},{"@type":"ListItem","position":2,"name":"Glossaire"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/fr/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Aide</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Rechercher dans le guide">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigation du guide">
     <button class="hclose" id="hclose" type="button" aria-label="Fermer la navigation">&times;</button>
     <nav aria-label="Guide">
 <ul>
 <li><a href="/fr/help/">Aide Cora</a></li>
 </ul>
+<p class="nav-sec">Aide</p>
+<ul>
+<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
+<li><a href="/fr/help/how-do-i">Comment faire...?</a></li>
+<li><a href="/fr/help/equipment-by-brand">L’équipement par marque</a></li>
+<li><a href="/fr/help/faq">Questions fréquentes</a></li>
+<li><a href="/fr/help/glossary" class="cur" aria-current="page">Glossaire</a></li>
+</ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Prise en main</summary><ul>
 <li><a href="/fr/help/mobile-setup">Configurer Cora Mobile</a></li>
-<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
+<li><a href="/fr/help/mobile-tour">Se repérer dans Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a></li>
-<li><a href="/fr/help/mobile-tour">Les cinq onglets</a></li>
+<li><a href="/fr/help/mobile-tanks">Gérer vos aquariums</a></li>
+<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Votre tableau de bord</summary><ul>
 <li><a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
 <li><a href="/fr/help/mobile-dashboard-editing">Modifier votre tableau de bord</a></li>
 <li><a href="/fr/help/mobile-widgets">Référence des widgets</a></li>
-<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
 <li><a href="/fr/help/mobile-sharing">Partager votre aquarium</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
 <li><a href="/fr/help/mobile-device-control">Contrôler votre équipement</a></li>
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
-<li><a href="/fr/help/mobile-probes">Association des paramètres</a></li>
-<li><a href="/fr/help/mobile-consumables">Consommables</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
+<li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
+<li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
 <li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
 <li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
+<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
 <li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
 <li><a href="/fr/help/mobile-notifications">Notifications</a></li>
 <li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour la personne qui garde votre aquarium</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Journaux</summary><ul>
-<li><a href="/fr/help/mobile-dosing">Dosage</a></li>
+<li><a href="/fr/help/mobile-journal">Le journal</a></li>
+<li><a href="/fr/help/mobile-dosing">Produits de dosage et calculateur de dose</a></li>
 <li><a href="/fr/help/mobile-maintenance">Entretien</a></li>
 <li><a href="/fr/help/mobile-livestock">Population</a></li>
-<li><a href="/fr/help/mobile-journal">Le journal</a></li>
 <li><a href="/fr/help/mobile-activity">Activité et chronologie</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
-<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
 <li><a href="/fr/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
+<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
 <li><a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a></li>
+<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Compte</summary><ul>
-<li><a href="/fr/help/mobile-vacation">Partir en vacances</a></li>
+<summary>Paramètres et compte</summary><ul>
+<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
-<li><a href="/fr/help/mobile-data-export">Vos données</a></li>
-<li><a href="/fr/help/mobile-plans">Forfaits</a></li>
-<li><a href="/fr/help/mobile-settings">Réglages</a></li>
-<li><a href="/fr/help/mobile-support">Obtenir de l’aide</a></li>
+<li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
+<li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
+<li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/fr/help/max-devices">Appareils et état des appareils</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertes et automatisation</summary><ul>
+<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
+<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Journaux</summary><ul>
 <li><a href="/fr/help/max-records">Journal, population et entretien</a></li>
+<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
@@ -146,96 +162,132 @@
 <li><a href="/fr/help/max-voice">Parler à Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertes</summary><ul>
-<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
-<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Paramètres</summary><ul>
+<summary>Paramètres et compte</summary><ul>
 <li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatisation</summary><ul>
-<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Aide</p>
-<ul>
-<li><a href="/fr/help/faq">Questions fréquentes</a></li>
-<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
-<li><a href="/fr/help/glossary" class="cur" aria-current="page">Glossaire</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Fil d’Ariane"><ol><li><a href="/fr/help/">Aide</a></li></ol></nav>
       <h1>Glossaire</h1>
-      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#langue-du-compte">Langue du compte</a></li><li><a href="#ge">Âge</a></li><li><a href="#alerte">Alerte</a></li><li><a href="#appareil-rpondant">Appareil répondant</a></li><li><a href="#automatisation">Automatisation</a></li><li><a href="#talonnage">Étalonnage</a></li><li><a href="#dlai-entre-les-alertes">Délai entre les alertes</a></li><li><a href="#cora-cloud">Cora Cloud</a></li><li><a href="#cora-assistant">Cora Assistant</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#cora-mobile">Cora Mobile</a></li><li><a href="#tte-ds">Tête DŌS</a></li><li><a href="#dosage">Dosage</a></li><li><a href="#mode-nourrissage">Mode nourrissage</a></li><li><a href="#ghl">GHL</a></li><li><a href="#rapport-de-sant">Rapport de santé</a></li><li><a href="#hydros">HYDROS</a></li><li><a href="#icp">ICP</a></li><li><a href="#observation">Observation</a></li><li><a href="#journal">Journal</a></li><li><a href="#prise">Prise</a></li><li><a href="#paramtre">Paramètre</a></li><li><a href="#cora-max-principal">Cora Max principal</a></li><li><a href="#disposition-enregistre">Disposition enregistrée</a></li><li><a href="#reef-buddy">Reef Buddy</a></li><li><a href="#reporter">Reporter</a></li><li><a href="#source">Source</a></li><li><a href="#aquarium">Aquarium</a></li><li><a href="#seuil">Seuil</a></li><li><a href="#mode-vacances">Mode vacances</a></li><li><a href="#widget">Widget</a></li></ul></nav>
+      
+      <nav class="toc az" aria-label="Termes de A à Z"><p>Termes de A à Z</p><ul><li><a href="#langue-du-compte">L</a></li><li><a href="#age">A</a></li><li><a href="#beta">B</a></li><li><a href="#etalonnage">E</a></li><li><a href="#verrouillage-enfant">V</a></li><li><a href="#resultat-dune-commande">R</a></li><li><a href="#condition">C</a></li><li><a href="#delai-entre-les-alertes">D</a></li><li><a href="#tete-dos">T</a></li><li><a href="#mode-nourrissage">M</a></li><li><a href="#ghl">G</a></li><li><a href="#parcours-guide">P</a></li><li><a href="#hydros">H</a></li><li><a href="#icp">I</a></li><li><a href="#jecod">J</a></li><li><a href="#neptune-apex">N</a></li><li><a href="#scene">S</a></li><li><a href="#widget">W</a></li></ul></nav>
+<p>Les mots que vous rencontrerez dans Cora Mobile et sur Cora Max, dans l’ordre alphabétique de l’anglais. Chacun renvoie à la page qui l’explique en détail.</p>
 <h2 id="langue-du-compte">Langue du compte</h2>
-<p>Tout votre compte Cora utilise une seule langue. Ce n’est pas un réglage par personne ni par appareil. Changez-la dans <strong>Réglages → Langue</strong>, sur votre téléphone ou sur n’importe quel Cora Max, et tous les appareils suivent en quelques instants. Les nouvelles alertes, les nouveaux rapports et les briefings Reef Buddy sont ensuite rédigés dans la nouvelle langue. Ce qui existe déjà garde sa langue d’origine. Plus de détails dans <a href="/fr/help/mobile-settings">Réglages</a>.</p>
-<h2 id="ge">Âge</h2>
-<p>Le temps écoulé depuis la prise d’une mesure, affiché sur chaque widget de paramètre sous la forme <code>now</code>, <code>1h</code>, <code>2d</code>. Ce n’est pas l’heure du dernier rafraîchissement de l’écran. Un chiffre avec un âge élevé est ancien, et Cora le signale, sans le présenter comme actuel.</p>
+<p>La langue unique qu’utilise tout votre compte Cora : anglais, allemand, français, turc, italien, espagnol ou polonais. Elle ne se règle ni par personne ni par appareil. Changez-la dans <strong>Réglages → Langue</strong> sur votre téléphone ou sur n’importe quel Cora Max, et chaque appareil suit en quelques instants. Ce qui est déjà écrit reste dans sa langue d’origine. Voir <a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a>.</p>
+<h2 id="age">Âge</h2>
+<p>Le temps écoulé depuis la prise d’une mesure, affiché sur chaque widget de paramètre sous la forme <code>maintenant</code>, <code>1 h</code>, <code>2 j</code>. Ce n’est pas le moment du dernier rafraîchissement de l’écran. Un âge élevé veut dire que la mesure elle-même est ancienne.</p>
 <h2 id="alerte">Alerte</h2>
-<p>Un message de Cora qui vous signale que quelque chose demande votre attention. Le plus souvent, c’est une mesure sortie de la plage que vous avez fixée. Ce peut aussi être un paramètre qui change trop vite, une panne d’équipement, un consommable presque vide ou un résultat de laboratoire qui arrive. La plupart des alertes disparaissent d’elles-mêmes quand le problème est passé. Plus de détails dans <a href="/fr/help/mobile-alerts">Alertes et seuils</a>.</p>
-<h2 id="appareil-rpondant">Appareil répondant</h2>
-<p>L’appareil Cora qui répond quand vous dites le mot d’activation. Il se choisit dans <strong>Réglages → Cora Assistant</strong>. Un seul appareil répond à la fois. À ne pas confondre avec le <strong>Cora Max principal</strong>, qui décide quel appareil communique avec votre équipement sur place, et non lequel écoute la voix.</p>
-<h2 id="automatisation">Automatisation</h2>
-<p>Une règle ou une scène qui s’exécute toute seule, par exemple « si la température dépasse 27, allumer le ventilateur ». Vous la trouvez dans <strong>Réglages → Automatisation</strong>. Sur les versions récentes de Cora Max, vous pouvez aussi créer et modifier une scène directement sur Cora Max.</p>
-<h2 id="talonnage">Étalonnage</h2>
-<p>Le réglage d’une sonde pour que ses mesures correspondent à une référence connue, en général une solution d’étalonnage. Cora note la date du dernier étalonnage de chaque sonde et peut vous le rappeler quand il faut le refaire. Plus de détails dans <a href="/fr/help/mobile-probes">Sondes</a>.</p>
-<h2 id="dlai-entre-les-alertes">Délai entre les alertes</h2>
-<p>Le temps minimum que Cora attend avant de répéter la même alerte, de 15 minutes à une semaine. Un problème qui dure ne vous alerte donc pas toutes les deux minutes. Il se règle pour chaque règle d’alerte. Plus de détails dans <a href="/fr/help/mobile-alerts">Alertes et seuils</a>.</p>
-<h2 id="cora-cloud">Cora Cloud</h2>
-<p>Le service qui garde votre téléphone, votre Cora Max et votre équipement synchronisés, et qui conserve votre historique. La connexion, la synchronisation entre appareils et l’Assistant en ont besoin. Les mesures déjà reçues et l’équipement qui fonctionne sur son propre réseau continuent de marcher sans lui.</p>
+<p>Cora qui vous dit que quelque chose demande votre attention. En général, c’est une mesure hors de la plage que vous avez réglée. Ce peut aussi être un paramètre qui bouge trop vite, une panne d’équipement, un appareil qui ne remonte plus de mesures, un consommable qui s’épuise, ou un résultat de laboratoire qui arrive. La plupart des alertes disparaissent d’elles-mêmes une fois le problème passé. Voir <a href="/fr/help/mobile-alerts">Alertes et seuils</a>.</p>
+<h2 id="answering-device">Appareil répondant</h2>
+<p>L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez dans <strong>Réglages → Cora Assistant</strong>. Un seul appareil répond à la fois. C’est un réglage différent du <a href="#primary-cora-max">Cora Max principal</a>.</p>
+<h2 id="aquawiz">AquaWiz™</h2>
+<p>L’AquaWiz KH Controller, un testeur d’alcalinité. Cora le lit par le cloud d’AquaWiz. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
+<h2 id="automation">Automatisation</h2>
+<p>Une règle qui s’exécute toute seule, comme « si la température dépasse 27, allume le ventilateur ». Chaque règle a un <a href="#trigger">déclencheur</a>, des <a href="#condition">conditions</a> facultatives et une ou plusieurs actions. Vous les trouvez dans Cora Mobile sous <strong>Réglages → Automatisations</strong>. Voir <a href="/fr/help/mobile-automation">Automatisations et scènes</a>.</p>
+<h2 id="beta">Beta</h2>
+<p>Une intégration que nous testons et développons encore. <strong>Beta.</strong> Les intégrations Beta (Maxspect™, GHL™, HYDROS™, Focustronic™, EcoTech™, Inkbird™ et caméras) ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans <strong>Ajouter un appareil</strong>. Pour demander l’accès Beta, contactez le support. Les fonctions qui portent seulement "(bêta)" dans leur nom, comme Doses importantes ou Paramètres ReefMat, sont ouvertes à tous. Voir <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p>
+<h2 id="etalonnage">Étalonnage</h2>
+<p>Ajuster une sonde pour que ses mesures correspondent à une référence connue, en général une solution d’étalonnage. Vous pouvez noter quand vous avez étalonné ou nettoyé une sonde. Voir <a href="/fr/help/mobile-probes">Association des paramètres et sondes</a>.</p>
+<h2 id="verrouillage-enfant">Verrouillage enfant</h2>
+<p>Un réglage de Cora Max qui empêche quiconque de commander l’équipement depuis cet écran, au toucher comme à la voix, après un certain temps sans contact. Les mesures et les questions fonctionnent toujours. Voir <a href="/fr/help/max-settings#child-lock">Réglages de Cora Max</a>.</p>
+<h2 id="resultat-dune-commande">Résultat d’une commande</h2>
+<p>La façon dont s’est terminée une commande envoyée à votre équipement. <strong>Confirmé</strong> : l’équipement a répondu qu’il l’avait fait. <strong>Non confirmé</strong> : envoyé, mais rien n’est revenu, vérifiez donc l’appareil. <strong>Refusé</strong> : la commande ne s’est pas exécutée. <strong>Aucun changement</strong> : c’était déjà ainsi. Voir <a href="/fr/help/mobile-device-control">Contrôler votre équipement</a>.</p>
+<h2 id="condition">Condition</h2>
+<p>Une vérification supplémentaire d’une <a href="#automation">automatisation</a>, comme une mesure au-dessus d’une valeur. Les actions ne s’exécutent que si les conditions sont remplies. Voir <a href="/fr/help/mobile-automation">Automatisations et scènes</a>.</p>
+<h2 id="delai-entre-les-alertes">Délai entre les alertes</h2>
+<p>Le temps minimum qu’attend Cora avant de renvoyer la même alerte, de 15 minutes à une semaine. Il évite qu’un même problème en cours vous prévienne toutes les quelques minutes. Vous le réglez pour chaque règle d’alerte avec <strong>Délai entre les alertes</strong>. Voir <a href="/fr/help/mobile-alerts">Alertes et seuils</a>.</p>
 <h2 id="cora-assistant">Cora Assistant</h2>
-<p>La partie de Cora à qui vous posez vos questions, par écrit ou à voix haute, sur Cora Mobile comme sur Cora Max. C’est aussi le nom du groupe de réglages où vous choisissez l’<a href="#answering-device">appareil répondant</a>.</p>
+<p>La partie de Cora à qui vous posez des questions et demandez d’agir. Vous pouvez lui écrire ou lui parler dans Cora Mobile, et lui parler sur Cora Max. C’est aussi le nom du groupe de réglages où vous choisissez l’<a href="#answering-device">appareil répondant</a> et le partage de données. Voir <a href="/fr/help/mobile-assistant">Interroger Cora</a>.</p>
+<h2 id="cora-cloud">Cora Cloud</h2>
+<p>Le service qui garde votre téléphone, votre Cora Max et votre équipement synchronisés, et qui stocke votre historique. La synchronisation entre appareils et l’Assistant en ont besoin. Les mesures que vous avez déjà, et l’équipement sur son propre réseau, continuent de fonctionner sans lui.</p>
 <h2 id="cora-max">Cora Max</h2>
-<p>L’écran mural de votre pièce du récif. Il affiche vos aquariums en direct et comprend la voix.</p>
+<p>L’écran mural de la pièce du récif. Il affiche vos aquariums en direct, lit votre équipement jour et nuit, et vous pouvez lui parler. Voir <a href="/fr/help/max-setup">Configurer Cora Max</a>.</p>
 <h2 id="cora-mobile">Cora Mobile</h2>
-<p>L’application pour téléphone. Sur votre écran d’accueil, l’icône s’appelle <strong>Cora</strong>.</p>
-<h2 id="tte-ds">Tête DŌS</h2>
-<p>Une pompe doseuse reliée à Cora. Vous pouvez donner un usage à chaque tête (changement d’eau, kalkwasser, réacteur, nourrissage, etc.). Elle est suivie en litres ou avec un grand contenant, et peut faire de gros dosages. Si elle perd le contact pendant un dosage, Cora envoie une alerte de reprise, sans supposer que le dosage s’est terminé. Plus de détails dans <a href="/fr/help/mobile-device-control">Contrôler votre équipement</a>.</p>
-<h2 id="dosage">Dosage</h2>
-<p>Une quantité de liquide envoyée par une tête DŌS ou une autre pompe doseuse, avec le produit et la quantité que vous avez choisis. Cora enregistre chaque dosage, pour que la consommation et l’historique concordent.</p>
+<p>L’application pour téléphone. L’icône sur votre écran d’accueil s’appelle <strong>Cora</strong>. Voir <a href="/fr/help/mobile-setup">Configurer Cora Mobile</a>.</p>
+<h2 id="concevoir-avec-lia">Concevoir avec l’IA</h2>
+<p>Un bouton de l’éditeur de tableau de bord. Cora propose une disposition complète à partir de ce que l’aquarium remonte et a associé. Il fonctionne avec un forfait payant et pendant l’essai, et demande que le partage de données avec l’IA soit activé. Les <strong>Modèles</strong> sont des dispositions toutes prêtes pour démarrer. Voir <a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a>.</p>
+<h2 id="co2-dissous">CO₂ dissous</h2>
+<p>Le CO₂ dans l’eau, en mg/L, tel qu’un rapport ICP l’indique. Ce n’est pas le CO₂ de l’air de votre pièce. Voir <a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a>.</p>
+<h2 id="tete-dos">Tête DŌS</h2>
+<p>Une pompe d’un doseur Neptune™ DŌS. Vous pouvez donner un usage à chaque tête (changement d’eau, kalkwasser, réacteur, nourrissage et plus), la suivre en litres ou avec de grands récipients, et régler ses propres limites. Si une tête perd le contact en plein dosage, Cora déclenche une alerte de restauration. Voir <a href="/fr/help/mobile-device-control">Contrôler votre équipement</a>.</p>
+<h2 id="dose">Dose</h2>
+<p>Une distribution de liquide par une tête DŌS ou une autre pompe doseuse, avec le produit et la quantité que vous avez réglés. Cora enregistre chaque dose pour que votre consommation et votre historique correspondent.</p>
 <h2 id="mode-nourrissage">Mode nourrissage</h2>
-<p>Une pause pour nourrir, qui arrête l’équipement concerné puis le remet en marche tout seul. C’est plus sûr que d’éteindre les pompes à la main, car vous n’avez pas à penser à les rallumer.</p>
-<h2 id="ghl">GHL™</h2>
-<p>Abréviation de GHL Advanced Technology, le fabricant des contrôleurs ProfiLux et Mitras. La prise en charge GHL de Cora est en <strong>Beta</strong> et n’est ouverte qu’aux utilisateurs Beta. Voir <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p>
-<h2 id="rapport-de-sant">Rapport de santé</h2>
-<p>Un bilan plus complet de tout un système, fait de temps en temps. Il examine ensemble chaque paramètre, chaque source, les dosages et les derniers résultats de laboratoire. Plus de détails dans <a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a>.</p>
-<h2 id="hydros">HYDROS™</h2>
-<p>L’écosystème de contrôleurs et de dosage de CoralVue. Cora le rejoint par le cloud propre à HYDROS, ce qui le fait continuer à marcher loin de chez vous. La prise en charge HYDROS de Cora est en <strong>Beta</strong> et n’est ouverte qu’aux utilisateurs Beta. Voir <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p>
+<p>Une pause pour nourrir. Sur un Neptune Apex, <strong>Nourrir</strong> lance l’un des cycles de nourrissage, <strong>A</strong> à <strong>D</strong>, programmés sur l’Apex, et l’Apex décide de ce qui se met en pause et du moment où cela repart. Une pompe Jecod™ peut se mettre en pause pour le nourrissage depuis sa propre page. Certaines pompes Jecod ne peuvent pas terminer la pause d’elles-mêmes : gardez la page de la pompe ouverte sur votre téléphone jusqu’à la fin de la pause, sinon la pompe reste arrêtée. Voir <a href="/fr/help/max-controls">Prises et commandes</a> et <a href="/fr/help/mobile-device-control">Contrôler votre équipement</a>.</p>
+<h2 id="routine-dalimentation">Routine d’alimentation</h2>
+<p>Votre façon habituelle de nourrir, réglée une fois pour l’aquarium (par exemple, des flocons deux fois par jour). Ensuite, vous ne notez que les jours qui diffèrent, et Reef Buddy tient compte des deux. Voir <a href="/fr/help/mobile-journal">Le journal</a>.</p>
+<h2 id="ghl">GHL</h2>
+<p>GHL Advanced Technology, fabricant des contrôleurs ProfiLux et Mitras. La prise en charge de GHL par Cora est en <strong>Beta</strong> et n’est ouverte qu’aux utilisateurs Beta. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
+<h2 id="parcours-guide">Parcours guidé</h2>
+<p>Un plan étape par étape que Cora vous fait suivre, comme le cyclage d’un nouvel aquarium ou le règlement d’un problème. Voir <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
+<h2 id="rapport-de-sante">Rapport de santé</h2>
+<p>Un examen plus approfondi et périodique de tout un système. Il prend en compte ensemble chaque paramètre, chaque source, chaque dose et chaque résultat de laboratoire récent. Voir <a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a>.</p>
+<h2 id="hydros">HYDROS</h2>
+<p>Le système de contrôle et de dosage de CoralVue. Cora le lit par le cloud d’HYDROS, il continue donc de fonctionner loin de chez vous. La prise en charge d’HYDROS par Cora est en <strong>Beta</strong> et n’est ouverte qu’aux utilisateurs Beta. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
 <h2 id="icp">ICP</h2>
-<p>Une analyse d’eau en laboratoire qui couvre un grand nombre d’éléments. Envoyez le résultat, et Cora suit chaque élément dans le temps.</p>
-<h2 id="observation">Observation</h2>
-<p>Un point précis relevé dans un briefing Reef Buddy : un paramètre qui dérive, deux sources en désaccord, un test qui n’a pas été fait depuis un moment.</p>
+<p>Un test d’eau en laboratoire qui couvre un large éventail d’éléments. Importez le PDF que vous envoie votre laboratoire, ou faites-le envoyer à Cora par le laboratoire, et Cora suit chaque élément dans le temps. Voir <a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a>.</p>
+<h2 id="analyse">Analyse</h2>
+<p>Un point précis d’un briefing Reef Buddy, comme un paramètre qui dérive, deux sources qui ne sont pas d’accord, ou quelque chose que vous n’avez pas testé depuis un moment.</p>
+<h2 id="jecod">Jecod</h2>
+<p>Les pompes Jecod et Jebao™. Cora les lit et les commande par votre réseau ou en Bluetooth. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
 <h2 id="journal">Journal</h2>
-<p>Le carnet de ce que vous avez fait à l’aquarium. Cora le lit aussi. Il peut donc répondre à une question comme « qu’est-ce que j’ai fait avant que l’alcalinité baisse ? ». Plus de détails dans <a href="/fr/help/mobile-journal">Le journal</a>.</p>
+<p>Le suivi de ce que vous avez fait sur l’aquarium. Cora le lit aussi, vous pouvez donc demander « qu’ai-je fait avant que l’alcalinité baisse ? » et obtenir une réponse. Voir <a href="/fr/help/mobile-journal">Le journal</a>.</p>
+<h2 id="neptune-apex">Neptune Apex</h2>
+<p>Le contrôleur de Neptune Systems, avec son doseur DŌS et son testeur Trident. Cora le lit sur votre réseau domestique. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
 <h2 id="prise">Prise</h2>
-<p>Une prise électrique commandée de votre équipement. Dans Cora, elle a trois états : <strong>Auto</strong>, <strong>Éteint</strong> et <strong>Allumé</strong>.</p>
-<h2 id="paramtre">Paramètre</h2>
-<p>Ce qui se mesure dans votre eau : alcalinité, calcium, nitrate, température.</p>
-<h2 id="cora-max-principal">Cora Max principal</h2>
-<p>Le Cora Max qui communique pour vous avec l’équipement d’un aquarium sur place (ses appareils Wi-Fi et Bluetooth). Vous pouvez choisir un Cora Max précis, ou <strong>Tout appareil actif (automatique)</strong> : chaque Cora Max en ligne pour cet aquarium participe alors, et la dernière écriture l’emporte. À ne pas confondre avec l’<a href="#answering-device">appareil répondant</a>, qui concerne la voix et non l’interrogation de l’équipement. Il se règle dans <strong>Réglages → Cora Max principal</strong>. Plus de détails dans <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a>.</p>
-<h2 id="disposition-enregistre">Disposition enregistrée</h2>
-<p>Une disposition de tableau de bord gardée dans <strong>Mes tableaux de bord</strong>, pour la reprendre plus tard ou la charger sur un autre aquarium ou un autre écran.</p>
+<p>Une prise commandable de votre contrôleur. Dans Cora, elle a trois états : <strong>Auto</strong>, <strong>Off</strong> et <strong>On</strong>. Voir <a href="/fr/help/max-controls">Prises et commandes</a>.</p>
+<h2 id="parametre">Paramètre</h2>
+<p>Quelque chose que vous pouvez mesurer dans votre eau, comme l’alcalinité, le calcium, les nitrates ou la température.</p>
+<h2 id="association-des-parametres">Association des paramètres</h2>
+<p>L’endroit où vous dites à Cora ce que mesure chaque sonde d’un contrôleur, et quel appareil alimente chaque mesure. Voir <a href="/fr/help/mobile-probes">Association des paramètres et sondes</a>.</p>
+<h2 id="primary-cora-max">Cora Max principal</h2>
+<p>Le Cora Max qui lit pour vous l’équipement d’un aquarium sur votre réseau. Réglez-le sur un Cora Max, ou sur <strong>Tout appareil actif (automatique)</strong>, où chaque Cora Max en ligne de l’aquarium partage le travail. Il concerne la lecture de l’équipement, pas la voix (pour cela, c’est l’<a href="#answering-device">appareil répondant</a>). Changez-le dans Cora Mobile : <strong>Réglages</strong>, ouvrez l’aquarium, puis <strong>Cora Max principal</strong>. Voir <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a>.</p>
+<h2 id="code-pin-de-recuperation">Code PIN de récupération</h2>
+<p>Un nombre à six chiffres que Cora Max affiche à la fin de la configuration. C’est le seul moyen d’entrer en récupération sur ce Cora Max. Vous le trouvez aussi avec les détails du Cora Max dans Cora Mobile. Voir <a href="/fr/help/max-updates">Mises à jour et récupération</a>.</p>
+<h2 id="red-sea-reefbeat">Red Sea™ ReefBeat</h2>
+<p>La famille d’équipements connectés de Red Sea : ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED et ReefControl. Cora la lit sur votre réseau domestique. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
 <h2 id="reef-buddy">Reef Buddy</h2>
-<p>Votre briefing du jour : un titre, deux scores (<strong>Stabilité</strong> sur 100 et <strong>Données</strong> en pourcentage) et les observations qui les expliquent. Plus de détails dans <a href="/fr/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<p>Votre briefing quotidien. Il a un titre, deux scores (<strong>Stabilité</strong> sur 100 et <strong>Données</strong> en pourcentage), et les analyses qui les expliquent. Il fait partie des forfaits payants. Voir <a href="/fr/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<h2 id="piece-du-recif">Pièce du récif</h2>
+<p>L’écran de Cora Max qui montre tous vos aquariums côte à côte. À l’écran, il s’appelle <strong>Aquariums Cora</strong>. Voir <a href="/fr/help/max-reef-room">La pièce du récif</a>.</p>
+<h2 id="aquarium-supprime">Aquarium supprimé</h2>
+<p>Un aquarium que vous avez retiré. Ses données sont conservées, et vous pouvez le faire revenir depuis <strong>Réglages → Aquariums supprimés</strong>. Voir <a href="/fr/help/mobile-tanks">Gérer vos aquariums</a>.</p>
+<h2 id="necessite-cora-max">Nécessite Cora Max</h2>
+<p>Une étiquette sur une marque dans <strong>Ajouter un appareil</strong>. Cet équipement est lu par un Cora Max, l’aquarium doit donc d’abord en avoir un. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
+<h2 id="design-enregistre">Design enregistré</h2>
+<p>Une disposition de tableau de bord Cora Max que vous avez gardée sous <strong>Mes tableaux de bord</strong>. Vous pouvez la réappliquer plus tard ou la charger sur un autre aquarium ou un autre Cora Max. Le tableau de bord du téléphone n’a pas de designs enregistrés. Voir <a href="/fr/help/max-dashboard-editing#saving-layouts">Modifier le tableau de bord Cora Max</a>.</p>
+<h2 id="scene">Scène</h2>
+<p>Un groupe d’actions qui porte un nom, comme « Changement d’eau » ou « Nuit ». Vous pouvez la lancer quand vous voulez, selon un horaire, ou depuis une autre <a href="#automation">automatisation</a>. Les scènes sont partagées entre Cora Mobile et Cora Max. Voir <a href="/fr/help/mobile-automation">Automatisations et scènes</a>.</p>
+<h2 id="surveillance-de-lecumeur">Surveillance de l’écumeur</h2>
+<p>Une fonction de caméra qui surveille le godet de l’écumeur et vous prévient avant qu’il ne déborde. Cora Max vérifie le godet toutes les 15 minutes. Elle nécessite une caméra, qui est en <strong>Beta</strong> et n’est ouverte qu’aux utilisateurs Beta, et un forfait payant. Voir <a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a>.</p>
 <h2 id="reporter">Reporter</h2>
-<p>Un bouton sur une alerte de Cora Max. Il fait taire l’alerte sur ce Cora Max pendant le délai de la règle (jusqu’à une semaine), sans la fermer. <strong>Ignorer</strong> est l’autre bouton. Il ferme l’alerte sur ce Cora Max jusqu’à ce que la mesure revienne dans la plage. Aucun des deux ne change les notifications de votre téléphone. Plus de détails dans <a href="/fr/help/mobile-alerts">Alertes et seuils</a>.</p>
+<p>Un bouton sur une alerte de Cora Max. Il coupe l’alerte sur ce Cora Max pendant le délai de la règle (jusqu’à une semaine) sans la fermer. <strong>Ignorer</strong>, l’autre bouton, la ferme sur ce Cora Max jusqu’à ce que la mesure revienne dans la plage. Les notifications de votre téléphone ne sont touchées ni par l’un ni par l’autre. Voir <a href="/fr/help/max-alerts">Alertes sur Cora Max</a>.</p>
 <h2 id="source">Source</h2>
-<p>L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un test en kit. Chaque mesure a sa source, et Cora peut donc vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources donnent la même mesure, <a href="/fr/help/mobile-probes">Sondes</a> est l’endroit où vous choisissez celle à laquelle vous faites confiance, ou vous laissez sur Automatique.</p>
+<p>L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un kit de test. Chaque mesure en a une, pour que Cora puisse vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources signalent la même mesure, l’<a href="/fr/help/mobile-probes">Association des paramètres</a> est l’endroit où vous choisissez laquelle croire, ou la laissez sur Automatique.</p>
+<h2 id="point-detat">Point d’état</h2>
+<p>Le point de couleur sur chaque ligne de l’onglet Appareils de Cora Mobile. Vert, il fonctionne ; orange, un avertissement ou une panne ; rouge, hors ligne ; et gris, Cora ne sait pas encore. Voir <a href="/fr/help/mobile-devices">Ajouter, modifier et retirer des appareils</a>.</p>
+<h2 id="etiquette-detat">Étiquette d’état</h2>
+<p>L’étiquette de la barre du haut de Cora Max qui indique comment cet écran obtient ses données, comme <strong>En ligne</strong>, <strong>Cloud</strong>, <strong>Obsolète</strong> ou <strong>Hors ligne</strong>. Voir <a href="/fr/help/max-tour">L’écran d’accueil de Cora Max</a>.</p>
 <h2 id="aquarium">Aquarium</h2>
-<p>Un volume d’eau que vous suivez. La plupart des gens en ont un. Un bac de boutures ou de quarantaine compte comme un aquarium à part.</p>
+<p>Une masse d’eau que vous suivez. Un système à boutures ou un bac de quarantaine compte comme un aquarium distinct. Voir <a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a>.</p>
 <h2 id="seuil">Seuil</h2>
-<p>Ce que vous jugez acceptable pour un paramètre. Ce peut être une plage, un maximum ou un minimum. C’est à vous de le régler. Les valeurs par défaut ne sont qu’un point de départ.</p>
+<p>La plage qui vous convient pour un paramètre. Ce peut être une plage, un plafond ou un plancher. C’est vous qui le réglez, et les valeurs par défaut ne sont qu’un point de départ. Voir <a href="/fr/help/mobile-alerts">Alertes et seuils</a>.</p>
+<h2 id="trident">Trident</h2>
+<p>Le testeur de Neptune pour l’alcalinité, le calcium et le magnésium. Il fonctionne avec un Neptune Apex. Voir <a href="/fr/help/equipment-by-brand">L’équipement par marque</a>.</p>
+<h2 id="trigger">Déclencheur</h2>
+<p>Ce qui réveille une <a href="#automation">automatisation</a> : un paramètre qui franchit une valeur, une alerte, une heure de la journée, ou un appareil qui se déconnecte ou revient. Voir <a href="/fr/help/mobile-automation">Automatisations et scènes</a>.</p>
 <h2 id="mode-vacances">Mode vacances</h2>
-<p>Le mode pour la personne qui garde votre aquarium. Vous préparez un plan daté avec une liste de tâches, et Cora en fait une page en lecture seule à partager avec la personne qui s’en occupe pendant votre absence. Plus de détails dans <a href="/fr/help/mobile-settings">Réglages</a>.</p>
+<p>Le mode pour la personne qui garde votre aquarium. Vous créez un plan daté avec une liste de tâches, et Cora en fait une page en lecture seule que vous pouvez partager avec la personne qui s’occupe de l’aquarium pendant votre absence. Voir <a href="/fr/help/mobile-vacation">Partir en vacances</a>.</p>
+<h2 id="mot-dactivation">Mot d’activation</h2>
+<p>"Hey Cora", la phrase qui lance une conversation vocale sur Cora Max. Vous pouvez le désactiver sur chaque Cora Max et toucher plutôt l’icône Cora. Voir <a href="/fr/help/max-voice">Parler à Cora</a>.</p>
 <h2 id="widget">Widget</h2>
-<p>Une tuile du tableau de bord qui affiche une seule chose. Il en existe seize types : Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod™, Maxspect™ <em>(Beta)</em>, GHL <em>(Beta)</em>, HYDROS <em>(Beta)</em>, Radion <em>(Beta)</em>, VorTech <em>(Beta)</em>, Versa <em>(Beta)</em> et Caméra <em>(Beta)</em>. Plus de détails dans la <a href="/fr/help/mobile-widgets">Référence des widgets</a>.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/troubleshooting"><span>Précédent</span><b>Résolution de problèmes</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-12.</p>
+<p>Une tuile d’un tableau de bord qui affiche une seule chose, comme une valeur, une jauge, un graphique, une prise ou une caméra. Voir <a href="/fr/help/mobile-widgets">Référence des widgets</a>.</p>
+      <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/faq"><span>Précédent</span><b>Questions fréquentes</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -352,10 +404,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Capture d\u2019\u00e9cran");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Fermer"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -376,55 +428,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Aucun r\u00e9sultat pour \u00ab " + esc(q) + " \u00bb." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Aucun r\u00e9sultat pour \u00ab " + esc(q)
+        + " \u00bb." + '</p>' + "<p>Essayez avec moins de mots ou d\u2019autres mots, ou consultez :</p><ul><li><a href=\"/fr/help/troubleshooting\">R\u00e9solution de probl\u00e8mes</a></li><li><a href=\"/fr/help/how-do-i\">Comment faire...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contacter l\u2019assistance</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -456,9 +675,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/fr/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';
       });

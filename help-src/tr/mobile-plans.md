@@ -1,43 +1,56 @@
 ---
-title: Planlar
-description: Hangi planda neler var, kullanımınızı nereden görürsünüz, planı nasıl değiştirir ya da iptal edersiniz.
+title: Planlar ve abonelikler
+description: Free, deneme, Plus, Pro ve Max planlarında neler var, nasıl abone olunur ya da yükseltilir, kullanımınızı nerede görürsünüz ve iPhone'da ya da Android'de nasıl iptal edersiniz.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 31
-group: Account
+reviewed: 2026-10-13
+order: 35
+group: Settings and account
 ---
 
-Akvaryumunuzu izlemek ücretsizdir ve sınırsızdır. Ücretli planlar yapay zeka kullanım haklarını artırır ve Reef Buddy'yi açar.
+Akvaryumunuzu izlemek ücretsizdir ve sınırı yoktur. Ücretli planlar size daha büyük yapay zeka hakları verir ve Reef Buddy'yi ekler. Bu sayfa her planda neler olduğunu ve nasıl abone olacağınızı, planı nasıl değiştireceğinizi ya da iptal edeceğinizi anlatır.
 
 ## Her zaman ücretsiz olanlar
 
-- Ekipmanınızdan canlı ölçümler, panolar ve grafikler
+- Ekipmanınızdan canlı ölçümler, panolar ve grafiklerle
 - Cihazlar, uyarılar ve eşikler
 - Günlük, bakım ve canlılar
 - Kritik uyarılar için anlık bildirimler
-- **Tek akvaryum**
+- Yeni bir akvaryum için rehberli döngü
+- İstediğiniz kadar akvaryum. Yapay zeka özellikleri ilk akvaryumunuzu kapsar ([Hangi akvaryumlar yapay zeka alır](#which-tanks-get-ai) bölümüne bakın)
+- Verilerinizi dışa aktarma
 
-## Ücretsiz kullanım hakları
+## Ücretsiz haklar
 
-| Özellik | Ücretsiz |
+| Özellik | Free |
 |---|---|
-| Asistan mesajları | Ayda 20. Sesli sohbet de aynı haktan düşer ve her tur daha fazla harcar |
+| Asistan mesajları | Ayda 20. Sesli sohbet aynı havuzu kullanır ve her turda daha fazla harcar |
+| Sesli oturumlar | Ayda 20 |
 | Sağlık raporları | Ayda 1 |
-| ICP analizi | **Yalnızca bir kez**: ömür boyu tek analiz, sonra kilitlenir |
-| Akvaryumlarda yapay zeka | Yalnızca birincil akvaryumunuzda |
-| Reef Buddy | Dahil değil |
+| ICP analizi | **Bir kez, tek sefer**. Hesabın ömrü boyunca tek bir analiz alırsınız, sonra kilitlenir |
+| Akvaryumlarda yapay zeka | Yalnızca ilk akvaryumunuz |
+| Reef Buddy | Dahil değil. **Planları gör** düğmeli kilitli bir kart görürsünüz |
 
-Kullanım hakkınız bittiğinde daha önce oluşturulan her şeyi okumaya devam edebilirsiniz.
+Bir hak bittiğinde Cora'nın sizin için daha önce hazırladığı her şeyi okumaya devam edebilirsiniz.
 
 ## Deneme süresi
 
-**30 günlük Pro denemesi, kaydolduğunuz anda başlar.** Bir özelliği ilk kullandığınızda değil. Denemede Reef Buddy ve daha yüksek kullanım hakları vardır.
+**30 günlük Pro denemeniz hesabınızı oluşturduğunuzda başlar**. Bir özelliği ilk kullanmanızı beklemez ve kart gerekmez. **Hesap ve Abonelik**, onu bittiği tarihle birlikte **Cora Pro Denemesi** olarak gösterir.
 
-Deneme bitince hesap Ücretsiz plana döner. **Hiçbir şey silinmez.** Elinizdeki bütün ölçümler, günlük kayıtları, raporlar ve özetler okunabilir kalır.
+| Deneme süresince | |
+|---|---|
+| Asistan mesajları | Ayda 100 |
+| Sesli oturumlar | Ayda 60 |
+| Sağlık raporları | Ayda 4 |
+| ICP analizleri | Ayda 1 |
+| Reef Buddy ve yapay zeka izlemesi | İlk akvaryumunuz |
+
+Deneme Reef Buddy'yi ve **Yapay zeka ile tasarla**'yı içerir. Hakları Pro planınkinden küçüktür.
+
+Bittiğinde hesabınız Free'ye döner. **Hiçbir şey silinmez.** Elinizdeki her ölçümü, günlük kaydını, raporu ve özeti okumaya devam edebilirsiniz.
 
 ## Ücretli planlar
 
-Üç plan var: **Plus**, **Pro** ve **Max**. Her birini aylık ya da yıllık alabilirsiniz. Ödeme mağaza üzerinden alındığı için güncel fiyatlar Cora Mobile'da ve mağazada gösterilir.
+Üç plan var: **Plus**, **Pro** ve **Max**. Her biri aylık ya da yıllık alınabilir. Ayarlar onları Cora Plus, Cora Pro ve Cora Max olarak gösterir. Güncel fiyatları Cora Mobile'da ve uygulama mağazanızda bulursunuz, çünkü ödemeyi orada yaparsınız.
 
 | | Plus | Pro | Max |
 |---|---|---|---|
@@ -47,51 +60,86 @@ Deneme bitince hesap Ücretsiz plana döner. **Hiçbir şey silinmez.** Elinizde
 | ICP analizi / ay | 1 | 3 | 30 |
 | Yapay zeka izlemeli akvaryum | 1 | 5 | 20 |
 
-Sesli oturumlar ayrı sayılır. Ayrıca her sesli yanıt mesaj hakkınızdan da düşer. Bütün ücretli planlarda Reef Buddy, Cora'nın okuyabildiği laboratuvarlar için ICP yükleme ve analizi ve kendi geçmişinizle karşılaştırma bulunur.
+Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan da düşer. Her ücretli plan Reef Buddy'yi, Cora'nın okuduğu laboratuvarlar için ICP yükleme ve analizini, kendi geçmişinizle karşılaştırmayı ve panolar için **Yapay zeka ile tasarla**'yı (her akvaryum için günde en fazla 5 tasarım) içerir.
 
-**Ayarlar → hesabınız**, **Hesap ve Abonelik** ekranını açar.
+Ücretli planlar ayrıca sump'ınızdaki bir kamera için Skimmer Gözcüsü uyarılarını içerir. Deneme içermez. **Beta.** Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar [Kameralar](/help/mobile-cameras) sayfasında.
 
-![Hesap ve abonelik](img/mobile-plans.webp "Planınız ve yenilenme tarihi. Altında mağaza ayarları.")
+:::note Max planı Cora Max ekranı değildir
+**Max planı** bir aboneliktir. **Cora Max**, akvaryumunuzun yanında duran ekrandır. Birine sahip olmak için diğerine ihtiyacınız yoktur.
+:::
 
-Bu ekranda planınızı ve ne zaman yenileneceğini görürsünüz. Ayrıca şunlar var:
+### Hangi akvaryumlar yapay zeka alır {#which-tanks-get-ai}
 
-| Düğme | Ne yapar |
+Reef Buddy ve yapay zeka izlemesi, **Ayarlar → Akvaryumları yeniden sırala** listesinin üstünden sayılarak planınızın izin verdiği kadar akvaryumu kapsar. Bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.
+
+## Abone olma ya da yükseltme {#subscribing}
+
+1. **Ayarlar**'ı açın ve en üstteki hesap kartına dokunun. **Hesap ve Abonelik** açılır.
+2. Planınızın yanında **Planları gör**'e (Free'de ya da denemede), **Yükselt**'e (Plus'ta) ya da **Max'e yükselt**'e (Pro'da) dokunun.
+3. **Aylık** ya da **Yıllık**'ı seçin. Yıllık fiyat ne kadar tasarruf ettiğinizi gösterir.
+4. Bir plan seçin ve **Abone Ol**'a dokunun.
+5. App Store ya da Google Play ile onaylayın. Mağaza onayladığı anda yeni planınız açılır.
+
+![Cora Mobile'da Aylık ve Yıllık seçenekli plan seçici](img/mobile-paywall.webp "Aylık ya da Yıllık'ı, ardından bir planı seçin, sonra Abone Ol.")
+
+Aynı plan seçici bir sınıra ulaştığınızda da açılır, örneğin *Mesaj limitinize ulaştınız*, ve kilitli Reef Buddy kartından da açılır.
+
+## Hesap ve Abonelik
+
+![Cora Mobile'da Hesap ve Abonelik](img/mobile-plans.webp "Abonelik altında planınız, Max'e yükselt ve Satın Alımları Geri Yükle ile.")
+
+**Hesap ve Abonelik**, şu anki planınızı ve ne zaman yenileneceğini ya da biteceğini gösterir. Altında şu kontroller vardır.
+
+| Kontrol | Ne yapar |
 |---|---|
-| **Kodu kullan** | Promosyon ya da iş ortağı kodunu uygular |
-| **Aboneliği Yönet** | Mağazanızın abonelik ayarlarını açar |
-| **Satın Alımları Geri Yükle** | Başka bir cihazda ya da uygulamayı yeniden yükledikten sonra satın alımı yeniden uygular |
+| **Kodu kullan** | Bir promosyon ya da iş ortağı kodunu uygular. Yalnızca Android: iPhone bunu göstermez |
+| **Aboneliği Yönet** | Mağazanızın abonelik sayfasını açar. Cora planı nereden aldığınızı bildiğinde görünür |
+| **Satın Alımları Geri Yükle** | Başka bir cihazda ya da yeniden yüklemeden önce yapılan bir satın alımı geri getirir |
 
 ## Ne kadar kullandığınızı görme
 
-![Kullanım ve limitler](img/mobile-usage.webp "Kullanımı sayılan her özellik ve aylık hakkı.")
+![Cora Mobile'da Kullanım ve Limitler](img/mobile-usage.webp "Kullanımı sayılan her özellik, aylık hakkıyla birlikte.")
 
-**Ayarlar → Cora Assistant → Kullanım ve Limitler**, kullanımı sayılan bütün özellikleri aylık haklarıyla birlikte tek yerde gösterir: asistan mesajları, ICP analizleri ve sağlık raporları.
+**Ayarlar → Cora Assistant → Kullanım ve Limitler**, kullanımı sayılan her özelliği aylık hakkının yanında, hepsi tek bir ekranda gösterir. Bunlar asistan mesajları, ICP analizleri ve sağlık raporlarıdır.
 
-Her özellik kendi kullanımını, kullandığınız yerde de gösterir:
+Kullanımı her özelliği kullandığınız yerde de görebilirsiniz.
 
-- **Asistan**: bu ayki mesajlar, mesaj kutusunun üstünde
-- **Zeka**: bu ayki ICP ve sağlık raporları, düğmelerin altında
+- **Asistan**'da bu ayın mesajları mesaj kutusunun üstünde gösterilir.
+- **Zeka**'da bu ayın ICP analizleri ve sağlık raporları düğmelerin altında gösterilir.
 
-Aylık hakkınızdan ne kadar kaldığını merak ettiğinizde buralara bakın.
+Sayaçlar her takvim ayının başında yeniden başlar.
 
 ## Plan değiştirme
 
-**Aboneliği Yönet**'e dokunun. Değişiklikler App Store ya da Google Play üzerinden yapılır. Cihazınızdaki diğer abonelikler için geçerli kurallar, mağazanın iade ve iptal koşulları dahil, burada da geçerlidir.
+Yükseltmek için yukarıdaki gibi **Yükselt**'i ya da **Max'e yükselt**'i kullanın. Düşürmek ya da aylık ile yıllık arasında geçmek için **Aboneliği Yönet**'i kullanın. Değişiklikler App Store ya da Google Play üzerinden yapılır ve telefonunuzdaki diğer abonelikler gibi, o mağazanın iade ve iptal koşulları dahil, aynı kurallara uyar.
 
 ## İptal etme
 
-Aboneliği Cora'dan değil, App Store ya da Google Play'den iptal edin. Planınız ödediğiniz dönemin sonuna kadar devam eder, sonra Ücretsiz plana döner.
+Ödeme yaptığınız mağaza üzerinden iptal edersiniz. Cora içinden iptal edemezsiniz. Planınız ödediğiniz dönemin sonuna kadar sürer, sonra Free'ye döner.
+
+En hızlı yol **Ayarlar → hesap kartınız → Aboneliği Yönet**'tir. Planı diğer türden bir telefonda aldıysanız Cora bunu söyler (*App Store'dan satın alındı* ya da *Google Play'den satın alındı*) ve **Devam et** o mağazanın sayfasını açar.
+
+**Aboneliği Yönet** yoksa doğrudan mağazaya gidin.
+
+- **iPhone:** **Ayarlar** uygulamasını açın, adınıza, ardından **Abonelikler**'e dokunun. Cora'yı seçin ve **Aboneliği İptal Et**'e dokunun.
+- **Android:** **Google Play**'i açın, profil resminize, ardından **Ödemeler ve abonelikler → Abonelikler**'e dokunun. Cora'yı seçin ve **Aboneliği iptal et**'e dokunun.
 
 :::note İptal etmek hiçbir şeyi silmez
-Akvaryumlarınız, ölçümleriniz, geçmişiniz ve günlüğünüz olduğu gibi kalır. Ücretli özellikleri kaybedersiniz, verilerinizi değil. İleride geri döndüğünüzde her şey yerinde olur.
+Akvaryumlarınız, ölçümleriniz, geçmişiniz ve günlüğünüz olduğu gibi kalır. Ücretli özellikleri kaybedersiniz ama verilerinizi korursunuz. Daha sonra dönerseniz her şey hâlâ oradadır.
+:::
+
+:::warning Hesabınızı silmek iptal etmez
+Hesabınızı silmeyi planlıyorsanız önce aboneliği iptal edin. Hesabı silmek mağazanın sizden ücret almasını durdurmaz. [Hesabınızı silme](/help/mobile-data-export#deleting-your-account) bölümüne bakın.
 :::
 
 ## Planınız görünmüyorsa
 
-Satın alımın Cora Mobile'a ulaşması bazen biraz sürer. Birkaç dakika geçtiyse:
+Bir satın alımın Cora Mobile'a ulaşması bazen biraz sürer. Birkaç dakika geçtiyse bunları deneyin.
 
-1. Cora'yı tamamen kapatıp yeniden açın
-2. Satın alımı yapan hesapla giriş yaptığınızı kontrol edin
-3. Cihazınızdaki mağaza hesabının satın alımı yaptığınız hesap olduğunu kontrol edin
+1. Cora'yı tamamen kapatın ve yeniden açın.
+2. Satın alımı yapan hesapla giriş yaptığınızdan emin olun.
+3. Telefonunuzdaki mağaza hesabının satın aldığınız hesap olduğundan emin olun.
 
-Plan hâlâ görünmüyorsa **Satın Alımları Geri Yükle**'ye dokunun. Bu da işe yaramazsa satın alma tarihini yazarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.
+Hâlâ yoksa **Satın Alımları Geri Yükle**'ye dokunun. Ayarlar'da *Planınız doğrulanamadı* yazıyorsa bağlantınızı kontrol edin ve **Tekrar dene**'ye dokunun. Cora kontrol ederken erişiminiz değişmez. Bunların hiçbiri işe yaramazsa satın aldığınız tarihle birlikte **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine e-posta gönderin.
+
+Hangi planda olursanız olun verileriniz size aittir. Ayrıntılar [Verilerinizi dışa aktarma ve hesabınızı silme](/help/mobile-data-export) sayfasında. Cora Mobile içinden bir faturalandırma sorunu bildirmek için [Sorun bildirme](/help/mobile-support) sayfasına bakın.

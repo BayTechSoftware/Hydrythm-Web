@@ -1,19 +1,25 @@
 ---
 title: Adding, editing and removing devices
-description: How to add equipment to Cora, assign it to a tank, and remove it cleanly, all from one place.
+description: Add equipment to Cora, assign it to a tank, rename it, check it's healthy and remove it, all from the Devices tab.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 11
 group: Equipment
+twin: max-devices
 ---
 
-Add, edit, assign and remove every device from the **Devices** tab, grouped by brand. You can collapse each group, so even a reef room full of equipment stays easy to read.
+The **Devices** tab is where you add, assign, rename, check and remove every piece of equipment. Devices are grouped by brand, and you can collapse each group.
 
 ![The Devices tab](img/mobile-devices.webp "Equipment is grouped by brand. Each group collapses.")
 
-## Adding equipment
+## Adding equipment {#adding-equipment}
 
-Tap **Add Device**, then pick the brand: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** or **AquaWiz**. Beta users also see **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** and **Camera**, each with a **Beta** chip. Each one opens exactly what it needs to find your equipment: a network scan, an IP address, a sign-in or a device key. [Connecting your equipment](/help/mobile-connections) covers what each brand needs.
+1. On the **Devices** tab, tap **Add Device**.
+2. Pick the brand: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** or **AquaWiz**. Beta users also see **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** and **Camera**, each with a **Beta** chip.
+3. Follow the brand's steps. Depending on the brand that's a network scan, an IP address, a sign-in or a device key. [Connecting your equipment](/help/mobile-connections) has the steps for each brand.
+4. Choose the tank it belongs to.
+
+![The Add device list for a Beta user](img/mobile-add-device-beta.webp "Beta brands carry a Beta chip.")
 
 :::note Beta
 **Beta.** The Beta integrations are only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). More in [Beta features](/help/mobile-beta).
@@ -21,39 +27,44 @@ Tap **Add Device**, then pick the brand: **Cora**, **Neptune Apex**, **Red Sea**
 
 A row that needs a Cora Max in the tank (Maxspect, GHL, EcoTech, Inkbird and Camera) is greyed out and says **Requires Cora Max** until the tank has one.
 
-**Cora** is how you pair a new Cora Max. It finds units already on your Wi-Fi, or nearby ones over Bluetooth. If it can't find yours, use **Enter IP Address Manually** on the same screen.
-
-When you add equipment such as a heater, pump or skimmer, Cora suggests brands and models as you type. The suggestions come from a large, checked list of equipment brands. If yours isn't there, type it in anyway. Cora keeps whatever you enter.
-
-:::note Cora and your phone need the same network
-Equipment Cora finds on your network has to be on the same network as your phone when you add it. **After setup, it's still only reachable over that network** (or over Bluetooth, for units that use it), unless a Cora device on site can reach it for you.
-
-So equipment that reads fine at home may show older values while you're away, unless a Cora Max on site can poll it. Nothing's broken. It's about where the equipment can be reached from.
+:::note Without a Cora Max, some equipment is local only
+Neptune Apex, Red Sea and Jecod equipment is reached over your home network or Bluetooth. Without a Cora Max, the add screen says *This integration works only locally on the Mobile app without Cora Max.* Your phone reads and controls it only while it's on the same network (or in Bluetooth range). Away from home you see the last readings your phone saved and can't control it. A Cora Max at the tank reads it around the clock and passes your commands on. More in [Connecting your equipment](/help/mobile-connections#local-only).
 :::
 
-## A device's page
+When you add equipment from your network, your phone has to be on the same network as the equipment.
 
-Open any device from the list. Its controls come first, then three sections that work the same way for every brand.
+## Pairing a Cora Max {#pairing-a-cora-max}
 
+![The Add Your Cora screen in Cora Mobile, scanning for devices](img/mobile-add-device.webp "Add Device, then Cora. Cora Mobile looks on your Wi-Fi and over Bluetooth, with Enter IP Address Manually below.")
+
+**Cora** is how you pair a new Cora Max. It finds units already on your Wi-Fi, or nearby ones over Bluetooth. If it can't find yours, use **Enter IP Address Manually** on the same screen. The full walk-through is in [Setting up Cora Max](/help/max-setup).
+
+## A device's page {#a-devices-page}
+
+Tap any device in the list to open its page. Its controls come first, then sections that work the same way for every brand.
+
+- **Status** shows the **Model**, **Serial**, **Firmware** and when Cora last heard from it (**Last seen**).
 - **Tanks** shows which tank (or tanks) it's assigned to. Tap **Change** to reassign it.
 - **Connection** is where you edit its IP address, sign-in or device key.
 - **Remove device**, at the bottom.
 
-Cora Max, Neptune Apex and GHL can serve more than one tank, so their tank picker is a checklist. Cora Max can be assigned up to four. See [More than one Cora device](/help/mobile-multi-device). Everything else, including HYDROS, serves one tank at a time: picking a different one moves the device there and takes it off the old one.
+Cora Max, Neptune Apex and GHL can serve more than one tank, so their tank picker is a checklist. Cora Max can be assigned up to four. See [More than one Cora device](/help/mobile-multi-device). Everything else, including HYDROS, serves one tank at a time. Picking a different one moves the device there and takes it off the old one.
 
 :::warning Assign the tank before you rely on the readings
 A device without a tank still reports, but its numbers have nowhere to go. If a device you just added isn't showing on a dashboard, check this first.
 :::
 
-## Renaming
+What each brand's controls do is in [Controlling your equipment](/help/mobile-device-control).
 
-Open the device and tap the pencil beside its name. Use what you call it day to day, like "Return", "Left gyre" or "Sump heater". The name shows up on widgets, in alerts and in anything you ask Cora, so a name that means something to you makes all of that clearer.
+## Renaming {#renaming}
 
-Names can be up to 40 characters. If two devices of the same kind have no name, Cora tells them apart with a short code after the name. Cora never uses a serial number as a name.
+Open the device and tap the pencil beside its name. Use what you call it day to day, like "Return", "Left gyre" or "Sump heater". The name shows up on widgets, in alerts and in anything you ask Cora.
+
+Names can be up to 40 characters. Leave the name empty to go back to the device's own name. If two devices of the same kind have no name, Cora tells them apart with a short code after the name. Cora never uses a serial number as a name.
 
 The new name only applies in Cora. It doesn't change the name in the manufacturer's own app.
 
-## Checking whether a device is healthy
+## Checking whether a device is healthy {#health}
 
 Each device is one row on the Devices tab, with its icon, name, model and tank. The dot on the row shows its state.
 
@@ -64,7 +75,7 @@ Each device is one row on the Devices tab, with its icon, name, model and tank. 
 | Orange | A warning or a fault |
 | Red | Offline |
 
-Readings, modes, unlinking and the IP address are on the device's details page, which opens with a **Status** section. You want to see a recent update time and no warning.
+For more, open the device. Its **Status** section shows when Cora last heard from it. You want a recent time and no warning.
 
 | What you see | What it means |
 |---|---|
@@ -72,12 +83,15 @@ Readings, modes, unlinking and the IP address are on the device's details page, 
 | "Updated 3 h ago" on something that only reports every few hours | Fine |
 | "Could not reach…" | A network problem, or the device is off |
 | "…refused the sign-in" | The manufacturer's account needs reconnecting. Open the device and sign in again |
-| "Waiting for Cora Max" | A GHL controller you just added: it shows up once a Cora Max on its network has read it |
+| "Waiting for Cora Max" | A GHL controller or Inkbird monitor you just added: it shows up once a Cora Max has read it |
+| Older readings while you're away | Normal for Apex, Red Sea and Jecod without a Cora Max at the tank (see above) |
 | Nothing at all | It's never reported. Check the tank assignment and the connection |
 
-## Removing a device
+When a device stops reporting, Cora can alert you. The timings are in [Alerts and thresholds](/help/mobile-alerts). For anything else, see [Troubleshooting](/help/troubleshooting).
 
-Open the device and tap **Remove device**. Cora asks you to confirm: *"{name} will be removed from Cora. It is not reset or changed on the device itself."*
+## Removing a device {#removing-a-device}
+
+Open the device and tap **Remove device**, or swipe its row to the left on the Devices tab. Cora asks you to confirm: *"{name} will be removed from Cora. It is not reset or changed on the device itself."*
 
 **Your readings are kept.** Removing a device stops Cora collecting new data from it. The history it already gathered stays on the tank, and any widget that used it keeps its past readings.
 

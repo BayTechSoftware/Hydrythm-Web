@@ -1,39 +1,41 @@
 ---
 title: Condividere la tua vasca
-description: Crea una scheda pronta da condividere con lo stato attuale della tua vasca.
+description: Condividi sui social o con un amico un'immagine delle letture della tua vasca, con la scheda istantanea della vasca.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 27
+reviewed: 2026-10-13
+order: 10
 group: Your dashboard
 ---
 
-Cora può creare un'**istantanea della vasca**: una scheda con i parametri attuali, già pronta da condividere.
+Cora può creare un'**istantanea della vasca**: un'unica immagine con i parametri attuali della tua vasca, impaginata per i social o per un messaggio a un amico.
 
-## Creare un'istantanea
+## Crearne una {#creating-one}
 
-Tocca l'icona di **condivisione** nell'intestazione della vasca, sulla dashboard. Cora prepara la scheda e te ne mostra l'anteprima prima di inviare qualsiasi cosa.
+Tocca l'icona di condivisione nell'intestazione della vasca, sulla dashboard. Puoi anche toccare l'icona della fotocamera in alto in un Report di salute. Si apre **Istantanea della vasca** con l'anteprima della scheda, e non parte nulla finché non scegli dove inviarla.
 
-![Il modulo dello snapshot della vasca](img/mobile-sharing.webp "Scegli quali metriche appaiono, e la forma della scheda.")
+![Il pannello dell'istantanea della vasca](img/mobile-sharing.webp "Scegli quali parametri compaiono e la forma della scheda.")
 
-## Cosa contiene
+## Cosa contiene {#what-it-contains}
 
-Sulla scheda ci sono nome, età e tipo della vasca, il numero di animali e poi i parametri che hai scelto, ciascuno con il valore attuale e l'andamento recente.
+La scheda mostra nome, età e tipo della vasca e il numero di animali, più il punteggio di salute quando ce n'è uno recente. Sotto ci sono i parametri che hai scelto, ciascuno con il valore attuale e l'andamento recente.
 
-## Scegliere cosa mostrare
+## Scegliere cosa mostrare {#choosing-what-appears}
 
-In **Parametri sulla scheda** trovi un'etichetta per ogni parametro della vasca. Seleziona quelli che vuoi, oppure tocca **Seleziona tutto**. Con tre o quattro parametri la scheda si legge meglio. Con di più diventa affollata.
+**Parametri sulla scheda** mostra un'etichetta per ogni parametro con letture nell'ultima settimana. Tocca le etichette per aggiungerle o toglierle. **Seleziona tutto** le attiva tutte, e quando sono tutte attive il pulsante diventa **Ripristina**, che torna alla scelta iniziale. Tre o quattro rendono al meglio. Con di più la scheda diventa affollata. La scheda ne tiene sempre almeno uno.
 
-## Formato
+Questo telefono si ricorda la tua scelta per quella vasca la volta successiva.
 
-Puoi scegliere tra due formati:
+## Formato {#shape}
 
-- **Quadrato (1:1)**, per un post o un messaggio
-- **Storia (9:16)**, per una storia a tutto schermo
+Ci sono due formati.
 
-## Inviarla
+- **Quadrato** (1:1) è per un post o un messaggio.
+- **Storia** (9:16) è per una storia a tutto schermo.
 
-**Condividi** apre il normale menu di condivisione del telefono, quindi puoi mandare la scheda ovunque tu possa mandare un'immagine. Non esce niente dal tuo account finché non scegli dove inviarla.
+## Inviarla {#sending-it}
 
-:::note Un'istantanea non dà accesso a niente
-Chi riceve un'istantanea non ha accesso al tuo account, allo storico o all'attrezzatura. Se vuoi che qualcuno si occupi della vasca mentre sei via, usa [Andare in vacanza](/help/mobile-vacation), che crea una pagina in sola lettura.
+**Condividi** apre il normale menu di condivisione del telefono, quindi puoi mandare la scheda ovunque il telefono possa mandare un'immagine. Non esce niente dal tuo account finché non scegli dove inviarla.
+
+:::note Un'istantanea non dà accesso
+Un'istantanea è solo un'immagine. Non fa entrare nessuno nel tuo account, nel tuo storico o nella tua attrezzatura. Se qualcuno si occupa della vasca mentre sei via, usa [Andare in vacanza](/help/mobile-vacation): crea una pagina in sola lettura per quella persona.
 :::

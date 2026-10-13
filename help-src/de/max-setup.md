@@ -1,78 +1,102 @@
 ---
 title: Cora Max einrichten
-description: Cora Max zum ersten Mal einschalten, mit dem WLAN verbinden, mit deinem Konto koppeln und deine Becken auf den großen Bildschirm holen.
+description: Ein neues Cora Max über Bluetooth mit Cora Mobile koppeln, mit dem WLAN verbinden, seine Becken wählen und es später zu einem anderen Becken umziehen.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-13
 order: 1
 group: Getting started
+twin: mobile-setup
 ---
 
-Cora Max ist die Schaltzentrale für deinen Riffraum. Der Wandbildschirm zeigt dein System live, ist quer durch den Raum lesbar und versteht auch Sprache.
+Diese Seite führt dich von einem neuen Cora Max zu einem funktionierenden Wandbildschirm. Du koppelst es von deinem Handy aus über Bluetooth und tippst auf dem Bildschirm selbst nichts ein.
 
 :::tip Richte deine Becken zuerst auf dem Handy ein
-Cora Max zeigt die Becken und Geräte aus deinem Konto. Hast du sie vorher in Cora Mobile eingerichtet, übernimmt das Gerät alles, sobald du es koppelst, und du musst nicht an der Wand tippen.
-
-**Nur die Dashboard-Layouts werden nicht übernommen.** Jeder Bildschirm hat sein eigenes, das du nach dem Koppeln einrichtest. Mehr dazu unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).
+Cora Max zeigt die Becken und Geräte aus deinem Konto und kann selbst kein Becken anlegen. [Richte sie zuerst in Cora Mobile ein](/help/mobile-setup). Cora Max übernimmt sie, sobald du es koppelst.
 :::
 
-## Was du brauchst
+## Was du brauchst {#what-you-need}
 
-- Ein eingeschaltetes Cora Max
-- Den Namen und das Passwort deines WLANs
-- Das Konto, mit dem du Cora Mobile nutzt
+- Cora Max, eingesteckt und eingeschaltet. Es soll dauerhaft eingesteckt bleiben.
+- Cora Mobile auf deinem Handy, angemeldet, mit **mindestens einem Becken**, das schon angelegt ist.
+- Bluetooth auf deinem Handy eingeschaltet und das Handy in der Nähe von Cora Max.
+- Den Namen und das Passwort deines WLANs.
 
-## Die Einrichtung läuft über dein Handy
+Stell Cora Max dort auf, wo du es quer durch den Raum sehen und mit ihm sprechen kannst, geschützt vor Spritzwasser und Salzkrusten.
 
-Schalte das Gerät ein. Es zeigt einen Kopplungsbildschirm und **macht sich selbst in der Nähe sichtbar**. Eintippen musst du hier nichts.
+## Was der Bildschirm zuerst zeigt {#what-the-screen-shows-first}
 
-![Der Cora Max-Kopplungsbildschirm](img/max-pairing-screen.webp "Der Bildschirm zeigt seinen Namen, damit du auf dem Handy das richtige Gerät auswählst.")
+Schalte Cora Max ein. Es zeigt einen Kopplungsbildschirm mit **Öffne die Cora-App auf deinem Telefon**, dann **Tippe auf Gerät hinzufügen.** und **Wähle dieses Cora Max aus der Geräteliste.** Darunter steht **Sichtbar als** und sein Name, der mit einer kurzen Kennung endet. Koppelst du mehr als eins, unterscheidest du sie auf dem Handy an dieser Kennung.
 
-Auf dem Bildschirm steht der Name, unter dem das Gerät gefunden wird. Er endet mit einer kurzen Kennung. Koppelst du mehrere Geräte, erkennst du an dieser Kennung, welches in der Liste auf deinem Handy welches ist.
+![Der Cora Max-Kopplungsbildschirm, der auf dein Handy wartet](img/max-pairing-screen.webp "Wartet auf dein Handy. Die unterste Zeile zeigt den Namen, den dein Handy auflistet.")
 
-Alles Weitere machst du in Cora Mobile, in fünf Schritten, die oben im Fenster stehen: **Verbinden · Wi-Fi · Anmeldung · Becken · Fertig.**
+Auf demselben Bildschirm steht ein kurzer Hinweis zu Anbindungen an Ausrüstung anderer Hersteller. Die Bedingungen, die du in Cora Mobile akzeptiert hast, gelten auch für Cora Max.
 
-**1 · Verbinden.** Tippe auf dem Handy auf **Geräte → Gerät hinzufügen → Cora**. Cora Mobile findet das Gerät und zeigt dir MAC-Adresse, Firmware-Version, Variante und Hardware-Revision. So prüfst du, ob es das richtige ist, bevor es weitergeht.
+## Vom Handy aus koppeln {#pairing}
 
-**2 · Wi-Fi.** Wähle dein Netzwerk aus der Liste oder tippe auf **Erneut scannen**. Gib dann das Passwort ein, bequem auf der Handytastatur.
+Alles Weitere passiert in Cora Mobile. Ein Fenster führt dich durch fünf Schritte, die oben stehen: **Verbinden · Wi-Fi · Anmeldung · Becken · Fertig**.
 
-**3 · Anmeldung.** Dein Handy meldet das Gerät bei deinem Konto an. Cora Max zeigt dabei seinen eigenen Fortschritt.
+1. **Finden.** Öffne den Tab **Geräte**, tippe auf **Gerät hinzufügen** und dann auf **Cora**. Der Bildschirm **Füge dein Cora hinzu** listet Cora-Geräte in deinem Netzwerk und Einrichtungsgeräte in der Nähe auf, die über Bluetooth gefunden wurden. Tippe auf **Scannen**, wenn deins noch nicht dabei ist, und dann auf dein Cora Max.
 
-![Cora Max während der Kopplung](img/max-pairing-verifying.webp "Der Bildschirm zeigt die Kontoprüfung, die dein Handy steuert.")
+   ![Der Bildschirm Füge dein Cora hinzu in Cora Mobile, der nach Geräten sucht](img/mobile-add-device.webp "Gerät hinzufügen, dann Cora. Cora Mobile sucht in deinem WLAN und über Bluetooth, darunter IP-Adresse manuell eingeben.")
 
-**4 · Becken.** Wähle, welche Becken dieser Bildschirm zeigt, **höchstens vier**. Jedes steht mit Name und Typ in der Liste.
+2. **Verbinden.** Dein Handy verbindet sich über Bluetooth mit Cora Max und zeigt MAC-Adresse, Firmware, Variante und Hardware-Revision. Prüf, ob es das richtige ist, und tippe dann auf **Weiter**.
 
-**5 · Fertig.** Der Bildschirm bestätigt, dass er eingerichtet ist, und zeigt dir eine **Wiederherstellungs-PIN**.
+3. **Wi-Fi.** Wähl dein Netzwerk aus der Liste oder tippe auf **Erneut scannen** und gib das Passwort auf dem Handy ein. Ab hier spricht dein Handy über WLAN mit Cora Max, lass das Handy also im selben Netzwerk.
+
+4. **Anmeldung.** Dein Handy verknüpft Cora Max mit deinem Konto. Das läuft von selbst, und Cora Max zeigt seinen eigenen Fortschritt, etwa **Dein Konto wird überprüft…** und **Dein Becken wird eingerichtet…**.
+
+   ![Der Cora Max-Kopplungsbildschirm mit Dein Konto wird überprüft](img/max-pairing-verifying.webp "Cora Max zeigt jeden Schritt, während dein Handy es mit deinem Konto verknüpft.")
+
+5. **Becken.** Wähl unter **Becken zuweisen** die Becken, die dieses Cora Max verwalten soll, **bis zu vier**.
+
+6. **Fertig.** Dein Handy meldet, dass Cora Max eingerichtet ist, und zeigt eine **Wiederherstellungs-PIN**. Tippe auf die Taste, die das Dashboard deines Beckens öffnet, oder auf **Zu Geräte gehen**. Cora Max zeigt **Gekoppelt** und dann **Dashboard wird geöffnet…**.
 
 :::warning Schreib dir die Wiederherstellungs-PIN auf
-Im letzten Schritt siehst du eine sechsstellige **Wiederherstellungs-PIN**. Nur mit ihr kommst du auf diesem Gerät in die Wiederherstellung. Dazu hältst du fünf Finger zehn Sekunden lang in die obere rechte Ecke des Bildschirms und gibst dann die PIN ein. Du findest sie später auch in den Einstellungen des Geräts auf deinem Handy, aber nicht auf dem Cora Max selbst.
+Die **Wiederherstellungs-PIN** hat sechs Ziffern und ist der einzige Weg in die Wiederherstellung auf diesem Cora Max. Um sie zu nutzen, halte fünf Finger zehn Sekunden lang auf die obere rechte Ecke des Bildschirms und gib dann die PIN ein. In der Wiederherstellung kannst du das WLAN neu einrichten, neu koppeln, nach einem Update suchen oder einen Werksreset machen. Du findest die PIN auf dem Handy unter **Geräte → dein Cora Max → Wiederherstellungs-PIN** wieder, aber nie auf Cora Max selbst.
 :::
 
-:::note Durch die Kopplung gehört der Bildschirm zu dir
-Nach dem Koppeln sieht Cora Max dieselben Becken, Geräte, Messwerte und Aufzeichnungen wie dein Handy. **Dashboard-Layouts werden nicht übernommen.** Cora Max baut sein eigenes aus deinem Beckenprofil, und du richtest es separat ein.
-:::
+### Wenn das Koppeln hängen bleibt {#if-pairing-gets-stuck}
 
-Folge den Anweisungen auf dem Bildschirm, um das Gerät mit deinem Konto zu verknüpfen. Cora Mobile meldet, wenn die Kopplung geklappt hat.
+- **Bluetooth ist aus. Schalte es ein und tippe dann erneut auf Scannen.** Schalte Bluetooth ein und scanne noch einmal.
+- **Bluetooth-Berechtigung ist für Cora deaktiviert.** Erlaube Cora in den Einstellungen deines Handys Bluetooth und tippe dann auf **Scannen**. Ein iPhone fragt vielleicht auch nach Zugriff auf das lokale Netzwerk. Erlaube das auch.
+- **Es wurden keine Cora Einrichtungsgeräte in der Nähe über Bluetooth gefunden.** Stell dich neben Cora Max, prüf, ob es noch den Kopplungsbildschirm zeigt, und scanne noch einmal.
+- **Keine Becken gefunden** beim Schritt Becken. Dein Konto hat noch kein Becken. Leg eins in Cora Mobile an und wiederhole den Schritt.
+- **Noch nicht mit deinem Becken verknüpft** am Ende. Cora Max ist gekoppelt, aber die Verknüpfung mit dem Becken ist nicht fertig geworden. Tippe auf **Jetzt erneut versuchen**. Bis sie fertig ist, nutzen Warnungen für diesen Bildschirm Standardbereiche.
 
-:::note Ein Konto, mehrere Bildschirme
-Du kannst mehrere Cora Max mit demselben Konto koppeln, zum Beispiel eines im Riffraum und eines woanders. Jedes kann andere Becken zeigen und hat sein eigenes Dashboard-Layout. Was das zweite Gerät mit der Ausrüstung machen kann, wenn beide dasselbe Becken zeigen, steht unter [Ausrüstung mit Cora Max steuern](/help/max-device-control).
-:::
+Weitere Lösungen in der [Problembehebung](/help/troubleshooting#pairing-a-cora-max-fails).
 
-## Ändern, welche Becken es zeigt
+## Nach dem Koppeln {#after-pairing}
 
-Welche Becken ein Gerät zeigt, gehört zur Kopplung. Du änderst das auf **deinem Handy**: Öffne das Gerät unter **Geräte** und bearbeite die zugewiesenen Becken. In den Einstellungen von Cora Max selbst geht das nicht.
+Cora Max sieht jetzt dieselben Becken, Geräte, Messwerte und Aufzeichnungen wie dein Handy.
 
-## Das Dashboard einrichten
+- Hatte eins deiner Becken vorher schon ein Cora Max, fragt Cora Max **Vorheriges Layout für dieses Becken wiederherstellen?** **Wiederherstellen** holt die Anzeige-, Ton- und Warneinstellungen zurück, die das alte gespeichert hat. **Neu beginnen** überspringt sie.
+- Ein Becken ohne Messwerte zeigt **Noch keine Messwerte** und eine Taste **Erfasse deinen ersten Test**.
+- Cora Max baut aus deinem Beckenprofil ein Start-Dashboard. Das auf deinem Handy kopiert es nicht.
 
-Cora Max baut sein erstes Layout aus deinem Beckenprofil. Das Layout auf deinem Handy übernimmt es **nicht**. Am einfachsten änderst du es auf dem Handy unter **Geräte → dein Cora Max → Dashboard bearbeiten**. Das geht schneller, als Kacheln an der Wand anzuordnen.
+Du kannst mehr als ein Cora Max mit demselben Konto koppeln, etwa eins im Fischraum und eins im Wohnzimmer. Jedes kann andere Becken zeigen und hat sein eigenes Layout. Zeigen zwei dasselbe Becken, erklärt [Mehr als ein Cora-Gerät](/help/mobile-multi-device), welches die Ausrüstung abfragt.
 
-Das Dashboard auf dem großen Bildschirm funktioniert anders als auf dem Handy. Es hat ein festes Raster, das komplett auf einen Bildschirm passen muss. Mehr dazu unter **[Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing)**.
+## Das Dashboard aufbauen {#building-the-dashboard}
 
-## Updates
+Das Dashboard auf dem großen Bildschirm ist ein festes Raster, und alles muss auf einen Bildschirm passen. Am schnellsten ordnest du es auf dem Handy an: Öffne den Tab **Geräte**, tippe auf dein Cora Max und dann auf der Karte des Beckens auf **Dashboard-Layout**. Du kannst es auch an der Wand über das Beckenmenü machen.
 
-Cora Max aktualisiert sich selbst. Gibt es eine neue Version, lädt das Gerät sie im Hintergrund, installiert sie und sagt dir, was sich geändert hat.
+Um ein Layout von einem anderen Cora Max oder einem anderen Becken wiederzuverwenden, lade es im Editor aus **Meine Dashboards**. Mehr dazu unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).
 
-Welche Version du hast, siehst du unter **Einstellungen → Cora Max**.
+## Cora Max zu einem anderen Becken umziehen {#changing-which-tanks-it-shows}
 
-## In ein anderes WLAN wechseln
+Welche Becken ein Cora Max zeigt, änderst du auf dem Handy. Die eigenen Einstellungen von Cora Max können das nicht.
 
-Öffne **Einstellungen → Cora Max-Einstellungen → Wi-Fi**, wähle das neue Netzwerk und gib das Passwort ein. Die Kopplung bleibt dabei erhalten, du musst den Bildschirm nicht neu einrichten.
+1. Öffne in Cora Mobile den Tab **Geräte** und tippe auf dein Cora Max.
+2. Tippe unter **Becken** auf **Becken hinzufügen** und wähl das Becken. Ein Cora Max nimmt bis zu vier. Hat es schon vier, ist die Taste weg, entferne also zuerst eins.
+3. Um ein Becken von diesem Bildschirm zu nehmen, tippe auf der Karte dieses Beckens auf das rote Symbol zum Entfernen (**Becken entfernen**) und dann auf **Entfernen**.
+
+Um Cora Max von einem Becken zu einem anderen umzuziehen, füg das neue Becken hinzu und entferne dann das alte. Das neue Becken bekommt ein Start-Dashboard, das aus seinem Profil gebaut wird. Ordne es mit **Dashboard-Layout** an.
+
+War dieses Cora Max das festgelegte Primäre Cora Max für das Becken, das du entfernt hast, wird diese Festlegung gelöscht, und das Becken geht zurück auf **Jedes aktive (automatisch)**. Mehr dazu unter [Geräte und Gerätezustand](/help/max-devices).
+
+## Updates {#updates}
+
+Cora Max aktualisiert sich selbst. Eine neue Version lädt im Hintergrund und installiert sich nachts. Deine Version steht oben unter **Einstellungen → Cora Max-Einstellungen**. Mehr dazu unter [Updates und Wiederherstellung](/help/max-updates).
+
+## In ein anderes WLAN umziehen {#moving-it-to-a-different-network}
+
+Geh zu **Einstellungen → Cora Max-Einstellungen → Wi-Fi**, wähl das neue Netzwerk und gib das Passwort ein. Cora Max bleibt gekoppelt, du musst es also nicht neu einrichten.

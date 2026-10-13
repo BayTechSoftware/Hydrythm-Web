@@ -1,41 +1,71 @@
 ---
-title: Consumibles
-description: Configura alertas de reposición para reactivo, envases de dosificación, depósitos y medios filtrantes.
+title: Consumibles y alertas de reposición
+description: Configura alertas de reposición para reactivos, envases de dosificación, depósitos de reposición y rollos de filtro, y avisa a Cora cuando hayas rellenado.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 14
+reviewed: 2026-10-13
+order: 16
 group: Equipment
 ---
 
-Hay equipos que gastan algo: reactivo, líquido de dosificación, agua de reposición o medio filtrante. Pueden decirle a Cora cuánto queda, y Cora puede avisarte antes de que se acabe.
+Usa las alertas de reposición para que Cora te avise antes de que se acabe el reactivo, el líquido de dosificación, el agua de reposición o el rollo de filtro. Abre el dispositivo desde **Dispositivos** (o toca su casilla en el panel) y después toca la **campana** de la barra superior.
 
-## Configurar una alerta de reposición
+## Configurar una alerta de reposición {#setting-a-refill-alert}
 
-Abre el dispositivo desde la pestaña **Dispositivos** o tocando su casilla en el panel. Después toca la **campana** de la barra superior.
+![La hoja de alertas de una ReefDose 4, con un umbral de días restantes y un interruptor para cada cabezal](img/mobile-consumables.webp "Un umbral por cabezal, cada uno con su propio interruptor.")
 
-![Alertas de reposición de una unidad de dosificación](img/mobile-consumables.webp "Un umbral por cabezal, y cada uno se activa o desactiva por separado.")
+La hoja se llama **Alertas:** seguido del nombre del dispositivo. Si el equipo tiene más de un envase, cada uno tiene su propio umbral y su propio interruptor, así que puedes configurar de forma distinta un cabezal que vigilas de cerca y otro que casi no tocas. Si desactivas un interruptor, el valor se guarda para más adelante.
 
-Si el equipo tiene más de un envase, cada envase tiene su propio umbral. Así puedes configurar de forma distinta un cabezal que vigilas de cerca y otro que casi no tocas.
+Dónde se configura:
 
-**La mayoría de los umbrales van en días, no en volumen.** Cora calcula cuánto te durará lo que queda según lo que gastas de verdad. Ese es el dato que te sirve para actuar. "Quedan cuatro días de calcio" te dice mucho más que "quedan 180 mL".
+- **La mayoría de los dispositivos**: la campana de la barra superior de la página del dispositivo.
+- **DŌS**: la tarjeta **Alertas** de la página del DŌS, o la campana. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
+- **Dosificadoras AquaWiz y GHL**: su regla en la pestaña **Reglas** del [Centro de alertas](/help/mobile-alerts).
 
-| Dispositivo | Umbral según |
-|---|---|
-| Trident | Pruebas que quedan y lo llena que está la botella de residuos |
-| Cabezal de dosificación | Días de suplemento que quedan. Algunos también ofrecen mililitros restantes |
-| ATO | Días de depósito que quedan |
-| Rodillo de estera | Días de rollo que quedan |
+La mayoría de los umbrales van en días, no en volumen. Cora calcula cuánto te durará lo que queda según lo que estás gastando. "Quedan cuatro días de calcio" es algo con lo que puedes actuar. "Quedan 180 mL", no.
 
-Una alerta de consumible funciona como cualquier otra alerta. Aparece en el [Centro de alertas](/help/mobile-alerts) y puede llegarte como notificación al teléfono. Recibes **una** sola notificación cuando el nivel baja del umbral, sin avisos repetidos. La alerta desaparece cuando el nivel vuelve a estar por encima.
+## De qué te puede avisar {#thresholds}
 
-## Elegir un umbral
+| Dispositivo | Umbral | Empieza en |
+|---|---|---|
+| Trident | **Pruebas restantes** (el reactivo más bajo) | 10 pruebas |
+| Trident | **Botella de residuos** (con la botella llena falla la siguiente prueba) | 85% llena |
+| Cabezal DŌS | *[cabezal] · días restantes* | 7 días |
+| Cabezal DŌS | *[cabezal] · restante*, en mL | 100 mL |
+| Cabezal DŌS que saca agua vieja | **Espacio restante en el contenedor de residuos** | |
+| Cabezal DŌS | **Alertas de dosis omitida** (un interruptor) | |
+| Cabezal ReefDose | Días de suplemento que quedan | 7 días |
+| ReefATO+ | **Autonomía del depósito**, calculada según el uso reciente de la reposición | 2 días |
+| ReefMat | **Rollo restante**, calculado según lo rápido que avanza el rodillo | 3 días |
+| AquaWiz | Suplemento de alcalinidad que queda | 100 mL |
+| Dosificadora GHL *(Beta)* | Lo lleno que está el envase | 20% |
+| EcoTech Versa *(Beta)* | Días de suplemento que quedan, y lo lleno que está el envase | 7 días, 10% |
+
+Una unidad Focustronic *(Beta)* muestra sus propios avisos de reactivo y de tampón en su página.
+
+:::note Beta
+**Beta.** GHL, EcoTech y Focustronic están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
+:::
+
+Una alerta de consumible funciona como cualquier otra alerta. Aparece en el [Centro de alertas](/help/mobile-alerts) y puede llegarte como notificación al teléfono. Recibes **una** sola notificación cuando se cruza un nivel, y la alerta desaparece cuando el nivel vuelve a estar por encima del umbral.
+
+## Elegir un umbral {#choosing-a-threshold}
 
 Ponlo con margen suficiente para poder reaccionar. Si salta el mismo día en que algo se acaba, no te sirve de aviso.
 
-:::warning Algunos equipos no se paran al quedarse vacíos
-Un cabezal de dosificación con el envase vacío sigue con su programa y registra dosis que no llegó a dar. La alerta de reposición te protege de esto. Configura una para cada cabezal que uses.
+:::warning Algunos equipos siguen funcionando vacíos
+Un cabezal DŌS con el envase vacío sigue con su programa y registra dosis que nunca dio. No tiene ningún aviso propio de nivel bajo. La alerta de reposición es la forma de detectarlo, así que configura una para cada cabezal con el que dosifiques.
 :::
 
-## Después de rellenar
+## Después de rellenar {#after-refilling}
 
-Restablece o actualiza el nivel en la página del dispositivo. Así la alerta desaparece y el siguiente aviso se calcula bien.
+Díselo a Cora en la página del dispositivo, para que la alerta desaparezca y el siguiente aviso se calcule desde el nivel correcto.
+
+| Dispositivo | Toca |
+|---|---|
+| Cabezal DŌS | **Llenar** y después **Lleno**, o pon el **Volumen restante** |
+| Contenedor de residuos del DŌS | Restablece su espacio libre a lleno después de vaciarlo |
+| Cabezal ReefDose | **Restante en la botella** |
+| ReefMat | **Nuevo rollo (Beta)** después de poner un rollo nuevo |
+| EcoTech Versa *(Beta)* | **Marcar como rellenado** |
+
+Trident, ReefATO+ y AquaWiz informan de sus propios niveles, así que no hay nada que restablecer en Cora.

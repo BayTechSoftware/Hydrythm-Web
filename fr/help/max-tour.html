@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>L’écran d’accueil de Cora Max | Cora Help</title>
-  <meta name="description" content="Tout ce que vous voyez sur Cora Max : la barre du haut, la grille du tableau de bord et le tiroir des prises.">
+  <meta name="description" content="Ce que veulent dire la barre du haut, l’étiquette d’état, les étiquettes d’alerte, le menu de l’aquarium et le tableau de bord sur Cora Max, et comment changer d’aquarium et ouvrir Prises et nourrissage.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/max-tour">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-tour">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-tour">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="L’écran d’accueil de Cora Max | Cora Help">
-  <meta property="og:description" content="Tout ce que vous voyez sur Cora Max : la barre du haut, la grille du tableau de bord et le tiroir des prises.">
+  <meta property="og:description" content="Ce que veulent dire la barre du haut, l’étiquette d’état, les étiquettes d’alerte, le menu de l’aquarium et le tableau de bord sur Cora Max, et comment changer d’aquarium et ouvrir Prises et nourrissage.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/max-tour">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Aide","item":"https://coraiq.tech/fr/help/"},{"@type":"ListItem","position":2,"name":"Cora Max","item":"https://coraiq.tech/fr/help/max-setup"},{"@type":"ListItem","position":3,"name":"Prise en main","item":"https://coraiq.tech/fr/help/max-setup"},{"@type":"ListItem","position":4,"name":"L’écran d’accueil de Cora Max"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/fr/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Aide</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Rechercher dans le guide">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigation du guide">
     <button class="hclose" id="hclose" type="button" aria-label="Fermer la navigation">&times;</button>
     <nav aria-label="Guide">
 <ul>
 <li><a href="/fr/help/">Aide Cora</a></li>
 </ul>
+<p class="nav-sec">Aide</p>
+<ul>
+<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
+<li><a href="/fr/help/how-do-i">Comment faire...?</a></li>
+<li><a href="/fr/help/equipment-by-brand">L’équipement par marque</a></li>
+<li><a href="/fr/help/faq">Questions fréquentes</a></li>
+<li><a href="/fr/help/glossary">Glossaire</a></li>
+</ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Prise en main</summary><ul>
 <li><a href="/fr/help/mobile-setup">Configurer Cora Mobile</a></li>
-<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
+<li><a href="/fr/help/mobile-tour">Se repérer dans Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a></li>
-<li><a href="/fr/help/mobile-tour">Les cinq onglets</a></li>
+<li><a href="/fr/help/mobile-tanks">Gérer vos aquariums</a></li>
+<li><a href="/fr/help/mobile-account">Connexion et récupération de compte</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Votre tableau de bord</summary><ul>
 <li><a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a></li>
+<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
 <li><a href="/fr/help/mobile-dashboard-editing">Modifier votre tableau de bord</a></li>
 <li><a href="/fr/help/mobile-widgets">Référence des widgets</a></li>
-<li><a href="/fr/help/mobile-metric-detail">Examiner un paramètre</a></li>
 <li><a href="/fr/help/mobile-sharing">Partager votre aquarium</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/fr/help/mobile-connections">Connecter votre équipement</a></li>
 <li><a href="/fr/help/mobile-device-control">Contrôler votre équipement</a></li>
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
-<li><a href="/fr/help/mobile-probes">Association des paramètres</a></li>
-<li><a href="/fr/help/mobile-consumables">Consommables</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
+<li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
+<li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
 <li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
 <li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
+<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
 <li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
 <li><a href="/fr/help/mobile-notifications">Notifications</a></li>
 <li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour la personne qui garde votre aquarium</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Journaux</summary><ul>
-<li><a href="/fr/help/mobile-dosing">Dosage</a></li>
+<li><a href="/fr/help/mobile-journal">Le journal</a></li>
+<li><a href="/fr/help/mobile-dosing">Produits de dosage et calculateur de dose</a></li>
 <li><a href="/fr/help/mobile-maintenance">Entretien</a></li>
 <li><a href="/fr/help/mobile-livestock">Population</a></li>
-<li><a href="/fr/help/mobile-journal">Le journal</a></li>
 <li><a href="/fr/help/mobile-activity">Activité et chronologie</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
-<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
 <li><a href="/fr/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
+<li><a href="/fr/help/mobile-assistant">Interroger Cora</a></li>
 <li><a href="/fr/help/mobile-icp-health">Rapports ICP et de santé</a></li>
+<li><a href="/fr/help/mobile-journeys">Parcours guidés</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Compte</summary><ul>
-<li><a href="/fr/help/mobile-vacation">Partir en vacances</a></li>
+<summary>Paramètres et compte</summary><ul>
+<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
-<li><a href="/fr/help/mobile-data-export">Vos données</a></li>
-<li><a href="/fr/help/mobile-plans">Forfaits</a></li>
-<li><a href="/fr/help/mobile-settings">Réglages</a></li>
-<li><a href="/fr/help/mobile-support">Obtenir de l’aide</a></li>
+<li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
+<li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
+<li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g" open>
@@ -137,8 +147,14 @@
 <li><a href="/fr/help/max-devices">Appareils et état des appareils</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertes et automatisation</summary><ul>
+<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
+<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Journaux</summary><ul>
 <li><a href="/fr/help/max-records">Journal, population et entretien</a></li>
+<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligence</summary><ul>
@@ -146,59 +162,50 @@
 <li><a href="/fr/help/max-voice">Parler à Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertes</summary><ul>
-<li><a href="/fr/help/max-activity">Activité sur Cora Max</a></li>
-<li><a href="/fr/help/max-alerts">Alertes sur Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Paramètres</summary><ul>
+<summary>Paramètres et compte</summary><ul>
 <li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatisation</summary><ul>
-<li><a href="/fr/help/max-automation">Scènes sur Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Aide</p>
-<ul>
-<li><a href="/fr/help/faq">Questions fréquentes</a></li>
-<li><a href="/fr/help/troubleshooting">Résolution de problèmes</a></li>
-<li><a href="/fr/help/glossary">Glossaire</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Fil d’Ariane"><ol><li><a href="/fr/help/">Aide</a></li><li><a href="/fr/help/max-setup" lang="en">Cora Max</a></li><li><a href="/fr/help/max-setup">Prise en main</a></li></ol></nav>
       <h1>L’écran d’accueil de Cora Max</h1>
-      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#la-barre-du-haut">La barre du haut</a></li><li><a href="#le-tableau-de-bord">Le tableau de bord</a></li><li><a href="#le-menu-de-laquarium">Le menu de l’aquarium</a></li><li><a href="#changer-daquarium">Changer d’aquarium</a></li><li><a href="#le-tiroir-prises-et-nourrissage">Le tiroir Prises et nourrissage</a></li><li><a href="#si-quelque-chose-semble-anormal">Si quelque chose semble anormal</a></li></ul></nav>
-<p>Cora Max affiche un aquarium à la fois, en plein écran, avec des mesures en direct lisibles depuis l’autre bout de la pièce.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: L’écran d’accueil de Cora Max"><img src="/help/img/max-home.webp" alt="L’écran d’accueil de Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Un aquarium, remplissant l’écran.</figcaption></figure>
-<h2 id="la-barre-du-haut">La barre du haut</h2>
+      <p class="twin">Dans Cora Mobile : <a href="/fr/help/mobile-tour">Se repérer dans Cora Mobile</a></p>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#the-top-bar">La barre du haut</a></li><li><a href="#the-dashboard">Le tableau de bord</a></li><li><a href="#the-tank-menu">Le menu de l’aquarium</a></li><li><a href="#switching-tanks">Changer d’aquarium</a></li><li><a href="#the-outlets-feed-drawer">Le tiroir Prises et nourrissage</a></li><li><a href="#if-something-looks-out-of-place">Si quelque chose semble anormal</a></li></ul></nav>
+<p>Cette page explique ce que vous voyez sur Cora Max. Il affiche un aquarium à la fois, avec les mesures en direct sur tout l’écran pour que vous puissiez les lire depuis l’autre bout de la pièce.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Agrandir : L’écran d’accueil de Cora Max avec les jauges, valeurs, graphiques et tuiles d’appareils d’un aquarium sous la barre du haut"><img src="/help/img/max-home.webp" alt="L’écran d’accueil de Cora Max avec les jauges, valeurs, graphiques et tuiles d’appareils d’un aquarium sous la barre du haut" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Le tableau de bord d’un aquarium remplit l’écran, avec la barre du haut au-dessus.</figcaption></figure>
+<h2 id="the-top-bar">La barre du haut</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Agrandir : La barre du haut de Cora Max"><img src="/help/img/max-topbar.webp" alt="La barre du haut de Cora Max" width="1280" height="120" loading="lazy" decoding="async"></button><figcaption>La barre du haut, numérotée de gauche à droite comme la liste ci-dessous.</figcaption></figure>
 <p>De gauche à droite :</p>
-<ul><li><strong>L’icône de grille</strong> ouvre la Pièce du récif, la vue d’ensemble de tous les aquariums de cet écran</li><li><strong>Le nom de l’aquarium</strong>, avec une petite flèche. Touchez-le pour ouvrir le <strong>menu de l’aquarium</strong>, qui mène à tous les écrans de l’aquarium affiché, de la saisie d’un test à la disposition du tableau de bord. La liste complète est plus bas.</li><li><strong>Les alertes</strong> : tout ce qui est hors plage en ce moment. S’il y en a trop pour tout afficher, vous voyez <strong>+2</strong> (ou le nombre restant). Touchez pour les voir toutes.</li><li><strong>L’horloge</strong></li><li><strong>L’étiquette d’état</strong> : ce que fait cet écran en ce moment. Vert, tout va bien. Orange, il faut y jeter un œil. Rouge, quelque chose est en panne. Toutes les étiquettes sont expliquées plus bas.</li><li><strong>La batterie et le Wi-Fi</strong></li><li><strong>L’icône des appareils</strong> : tout ce qui est connecté, et comment ça se porte</li><li><strong>L’icône Reef Buddy</strong> ouvre le briefing du jour. Un point veut dire que vous ne l’avez pas encore lu.</li><li><strong>L’icône Cora Assistant</strong> lance une conversation vocale</li><li><strong>La roue dentée</strong> ouvre les réglages</li></ul>
-<h3 id="les-tiquettes-dtat">Les étiquettes d’état</h3>
-<div class="tw"><table class="stack"><thead><tr><th>Étiquette</th><th>Signification</th></tr></thead><tbody><tr><td data-th="Étiquette"><strong>En ligne</strong></td><td data-th="Signification">Cet écran récupère vos mesures, et elles sont à jour</td></tr><tr><td data-th="Étiquette"><strong>Cloud</strong></td><td data-th="Signification">Un autre Cora récupère les mesures de cet aquarium, et cet écran les affiche. Elles sont aussi à jour qu’avec <strong>En ligne</strong>. Si vous avez plusieurs Cora, c’est ce qu’affiche l’écran qui ne récupère pas les mesures</td></tr><tr><td data-th="Étiquette"><strong>Interrogation de l’Apex</strong>, <strong>Voix active</strong></td><td data-th="Signification">Une tâche est en cours</td></tr><tr><td data-th="Étiquette"><strong>Interrogation désactivée</strong></td><td data-th="Signification">La récupération des mesures est coupée pour cet aquarium. Vous pouvez la réactiver dans Cora Mobile</td></tr><tr><td data-th="Étiquette"><strong>Mise à jour</strong></td><td data-th="Signification">La récupération est en pause pendant l’installation d’une mise à jour</td></tr><tr><td data-th="Étiquette"><strong>Obsolète</strong></td><td data-th="Signification">Les mesures n’arrivent plus. L’écran affiche la dernière reçue</td></tr><tr><td data-th="Étiquette"><strong>Nouvelle tentative Apex dans 12 s</strong></td><td data-th="Signification">Votre Apex n’a pas répondu. Cora Max réessaie à la fin du compte à rebours</td></tr><tr><td data-th="Étiquette"><strong>Échec de la synchronisation cloud</strong></td><td data-th="Signification">Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées sur Cora Cloud. Le tableau de bord prend donc du retard. Cora Max continue de réessayer</td></tr><tr><td data-th="Étiquette"><strong>Enregistrement cloud refusé</strong></td><td data-th="Signification">Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne cloche avec votre aquarium ni avec Cora Max, et il n’y a rien à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez <strong>Réglages → Réglages Cora Max → Mise à jour du micrologiciel</strong> et regardez la section <strong>État</strong> : la ligne <strong>Enregistrement cloud</strong> indique les données concernées. Puis <a href="/support.html">contactez le support</a></td></tr><tr><td data-th="Étiquette"><strong>Hors ligne</strong></td><td data-th="Signification">Aucune connexion. L’écran affiche les dernières données reçues</td></tr><tr><td data-th="Étiquette"><strong>Hors ligne, nouvelle tentative dans 45 s</strong></td><td data-th="Signification">Votre réseau fonctionne, mais Cora Cloud ne répond plus depuis plus de 30 secondes. Cora Max se reconnecte tout seul. Le compte à rebours indique le temps avant le prochain essai</td></tr><tr><td data-th="Étiquette"><strong>Cora principal hors ligne</strong></td><td data-th="Signification">Cet écran est un deuxième Cora Max pour cet aquarium, et le <strong>Cora Max principal</strong> (celui qui est épinglé pour interroger l’équipement de cet aquarium) est hors ligne. Cet écran garde les dernières données reçues jusqu’au retour du principal, ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></td></tr><tr><td data-th="Étiquette"><strong>Mot de passe Apex</strong></td><td data-th="Signification">Votre Apex a refusé le mot de passe enregistré. Voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a></td></tr></tbody></table></div>
-<aside class="cal cal-note"><p class="cal-t">Comment Cora Max réessaie</p><p>Cora Max tente de se reconnecter à un rythme fixe : environ 15 secondes après la coupure, encore 15 secondes après, puis deux fois à 30 secondes, puis une fois par minute jusqu’à ce que ça marche. Il ne réessaie pas en boucle et n’abandonne pas non plus. Un écran qui affiche <strong>Hors ligne, nouvelle tentative dans 45 s</strong> fonctionne normalement.</p></aside>
-<aside class="cal cal-warning"><p class="cal-t">Cora Assistant écoute dès que vous touchez l’icône</p><p>L’icône Cora Assistant lance tout de suite une session vocale. Si vous vouliez ouvrir les réglages, c’est la roue dentée, tout à droite.</p></aside>
-<h2 id="le-tableau-de-bord">Le tableau de bord</h2>
-<p>Le reste de l’écran, c’est le tableau de bord : une grille fixe de widgets, tous visibles en même temps. Le tableau de bord de Cora Max ne défile pas.</p>
-<p>Les widgets fonctionnent comme sur votre téléphone, mais en assez grand pour être lus avec du recul. Chaque forme de widget est décrite dans la <strong><a href="/fr/help/mobile-widgets">Référence des widgets</a></strong>. Pour changer ce qui s’affiche, voir <strong><a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a></strong>.</p>
-<p>Comme sur le téléphone, chaque widget qui affiche une mesure indique son <strong>âge</strong> et sa <strong>source</strong>. Un chiffre accompagné de <code>2d</code> date de deux jours, et c’est affiché. Les tuiles d’appareil et de commande affichent leur propre état.</p>
-<h2 id="le-menu-de-laquarium">Le menu de l’aquarium</h2>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Le menu de l’aquarium"><img src="/help/img/max-menu.webp" alt="Le menu de l’aquarium" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Tout pour l’aquarium actuel, depuis le nom de l’aquarium dans la barre supérieure.</figcaption></figure>
-<p>Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché :</p>
-<div class="tw"><table class="stack"><thead><tr><th>Élément</th><th>Contenu</th></tr></thead><tbody><tr><td data-th="Élément"><strong>Enregistrer les paramètres</strong></td><td data-th="Contenu">Saisir les résultats d’un test en kit avec le clavier à l’écran</td></tr><tr><td data-th="Élément"><strong>Journal</strong></td><td data-th="Contenu"><a href="/fr/help/mobile-journal">Le journal</a> de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Reef Buddy</strong></td><td data-th="Contenu">Le <a href="/fr/help/mobile-reef-buddy">briefing</a> du moment</td></tr><tr><td data-th="Élément"><strong>Rapports de santé</strong></td><td data-th="Contenu">Les bilans de santé</td></tr><tr><td data-th="Élément"><strong>Entretien</strong></td><td data-th="Contenu">La <a href="/fr/help/mobile-maintenance">liste des tâches</a></td></tr><tr><td data-th="Élément"><strong>Rapports ICP</strong></td><td data-th="Contenu">Les <a href="/fr/help/mobile-icp-health">résultats de laboratoire</a> envoyés</td></tr><tr><td data-th="Élément"><strong>Historique des paramètres</strong></td><td data-th="Contenu">Choisir un paramètre qui a des données et ouvrir son <a href="/fr/help/max-intelligence">graphique</a></td></tr><tr><td data-th="Élément"><strong>Seuils d’alerte</strong></td><td data-th="Contenu">La plage normale de chaque mesure de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Population</strong></td><td data-th="Contenu">L’<a href="/fr/help/mobile-livestock">inventaire</a> de cet aquarium, en lecture seule ici</td></tr><tr><td data-th="Élément"><strong>Activité</strong></td><td data-th="Contenu"><a href="/fr/help/max-activity">Chaque prise, nourrissage et dosage</a>, et son résultat</td></tr><tr><td data-th="Élément"><strong>Disposition du tableau de bord</strong></td><td data-th="Contenu"><a href="/fr/help/max-dashboard-editing">Organiser les widgets de cet écran</a></td></tr><tr><td data-th="Élément"><strong>Unités</strong></td><td data-th="Contenu">Les unités d’affichage des mesures de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Réglages de l’aquarium</strong></td><td data-th="Contenu">Tous les réglages de cet aquarium</td></tr></tbody></table></div>
-<h2 id="changer-daquarium">Changer d’aquarium</h2>
-<p>Touchez l’<strong>icône de grille</strong>, tout à gauche de la barre du haut, pour aller sur <a href="/fr/help/max-reef-room">la Pièce du récif</a>, puis ouvrez l’aquarium voulu. Chaque aquarium a sa propre disposition de tableau de bord. Tout l’écran change donc quand vous passez de l’un à l’autre.</p>
-<h2 id="le-tiroir-prises-et-nourrissage">Le tiroir Prises et nourrissage</h2>
-<p>Tirez l’onglet en bas de l’écran pour ouvrir un tiroir avec toutes les prises du système et les commandes de nourrissage.</p>
-<ul><li><strong>Prises</strong> : chacune peut passer sur Auto, Éteint ou Allumé</li><li><strong>Nourrir</strong> : met en pause l’équipement concerné le temps du nourrissage, puis remet tout en marche</li></ul>
-<aside class="cal cal-warning"><p class="cal-t">Ce tiroir commande votre vrai équipement</p><p>Tout ce qu’il contient agit sur votre équipement. La commande part dès que vous touchez, mais <em>envoyée</em> ne veut pas dire <em>faite</em>. Le résultat peut être Confirmée, Non confirmée, Refusée ou Aucun changement, et vous le voyez dans <a href="/fr/help/max-activity">Activité</a>. Pour couper le brassage pendant le nourrissage, utilisez le mode nourrissage : il remet tout en marche tout seul. Un Éteint manuel, lui, reste éteint jusqu’à ce que vous le changiez.</p></aside>
-<h2 id="si-quelque-chose-semble-anormal">Si quelque chose semble anormal</h2>
-<p>Si les mesures semblent anciennes, ou si l’étiquette d’état est orange ou rouge, commencez par la page <strong><a href="/fr/help/troubleshooting">Résolution de problèmes</a></strong>.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/fr/help/max-setup"><span>Précédent</span><b>Configurer Cora Max</b></a><a class="pn-n" href="/fr/help/max-reef-room"><span>Suivant</span><b>La pièce du récif</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-12.</p>
+<ol><li><strong>L’icône de grille</strong> ouvre <a href="/fr/help/max-reef-room">la Pièce du récif</a>, la vue d’ensemble de tous les aquariums affichés par cet écran.</li><li><strong>Le nom de l’aquarium</strong>, avec une petite flèche. Touchez-le pour ouvrir le <strong>menu de l’aquarium</strong>, qui contient tous les écrans de l’aquarium affiché. La liste complète est plus bas.</li><li><strong>Les étiquettes d’alerte</strong> montrent ce qui demande votre attention en ce moment : mesures hors plage, pannes d’appareils, doses manquées ou consommables bas. Touchez une étiquette pour ramener cette alerte au milieu de l’écran. S’il y en a plus que la place ne le permet, vous verrez <strong>+2</strong> (ou le nombre qui convient). Touchez-le pour voir toutes les alarmes actives.</li><li><strong>L’horloge</strong>. Vous pouvez la masquer avec <strong>Afficher l’horloge</strong> dans <strong>Réglages → Réglages Cora Max</strong>.</li><li><strong>L’étiquette d’état</strong> indique ce que fait cet écran en ce moment. Vert veut dire que tout va bien, bleu qu’il est occupé, orange qu’il faut regarder, et rouge signale une panne. Tous les états sont listés plus bas.</li><li><strong>La batterie et le Wi-Fi</strong>.</li><li><strong>L’icône des appareils</strong> ouvre <strong>Appareils</strong>, filtré sur cet aquarium. Un aquarium sans appareil ne l’affiche pas.</li><li><strong>L’icône Reef Buddy</strong> ouvre le briefing du jour. Un point veut dire que vous ne l’avez pas encore lu.</li><li><strong>L’icône Cora Assistant</strong> lance une conversation vocale.</li><li><strong>La roue dentée</strong> ouvre les réglages.</li></ol>
+<aside class="cal cal-warning"><p class="cal-t">Cora Assistant commence à écouter tout de suite</p><p>Toucher l’icône Cora Assistant lance une session vocale en direct. Si vous vouliez les réglages, c’est la roue dentée tout à droite.</p></aside>
+<h3 id="what-the-status-pill-means">Ce que veut dire l’étiquette d’état</h3>
+<div class="tw"><table class="stack"><thead><tr><th>Étiquette</th><th>Signification</th></tr></thead><tbody><tr><td data-th="Étiquette"><strong>En ligne</strong></td><td data-th="Signification">Cet écran collecte vos mesures, et elles sont à jour</td></tr><tr><td data-th="Étiquette"><strong>Cloud</strong></td><td data-th="Signification">Un autre Cora collecte les mesures de cet aquarium et cet écran les affiche. Elles sont tout aussi à jour qu’avec <strong>En ligne</strong>. Si vous avez plusieurs Cora, celui qui ne collecte pas affiche ceci</td></tr><tr><td data-th="Étiquette"><strong>Interrogation de l’Apex</strong>, <strong>Voix active</strong></td><td data-th="Signification">Occupé à quelque chose en ce moment (bleu)</td></tr><tr><td data-th="Étiquette"><strong>Interrogation désactivée</strong></td><td data-th="Signification">La collecte est désactivée pour cet aquarium. Vous pouvez la réactiver dans Cora Mobile</td></tr><tr><td data-th="Étiquette"><strong>Mise à jour</strong></td><td data-th="Signification">La collecte est en pause pendant l’installation d’une mise à jour</td></tr><tr><td data-th="Étiquette"><strong>Obsolète</strong></td><td data-th="Signification">Les mesures n’arrivent plus. L’écran affiche les dernières reçues</td></tr><tr><td data-th="Étiquette"><strong>Nouvelle tentative Apex dans 12 s</strong></td><td data-th="Signification">Votre Apex n’a pas répondu. Cora Max réessaie à la fin du compte à rebours</td></tr><tr><td data-th="Étiquette"><strong>Échec de la synchronisation cloud</strong></td><td data-th="Signification">Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées dans Cora Cloud, donc le tableau de bord prend du retard. Cora Max continue d’essayer</td></tr><tr><td data-th="Étiquette"><strong>Enregistrement cloud refusé</strong></td><td data-th="Signification">Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne va mal avec votre aquarium ni avec Cora Max, et rien n’est à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez <strong>Réglages → Réglages Cora Max</strong> et faites défiler jusqu’à la section <strong>État</strong>, où la ligne <strong>Enregistrement cloud</strong> indique quelles données sont concernées. Puis <a href="/support.html">contactez l’assistance</a></td></tr><tr><td data-th="Étiquette"><strong>Hors ligne</strong></td><td data-th="Signification">Pas de connexion. L’écran affiche les dernières données reçues</td></tr><tr><td data-th="Étiquette"><strong>Hors ligne, nouvelle tentative dans 45 s</strong></td><td data-th="Signification">Votre réseau fonctionne, mais Cora Cloud est injoignable depuis plus de 30 secondes. Cora Max se reconnecte tout seul, et le compte à rebours indique quand il réessaie</td></tr><tr><td data-th="Étiquette"><strong>Cora principal hors ligne</strong></td><td data-th="Signification">Cet écran est un deuxième Cora Max pour cet aquarium, et le <strong>Cora Max principal</strong> (celui épinglé pour lire l’équipement de cet aquarium) s’est déconnecté. Cet écran continue d’afficher les dernières données qu’il a jusqu’au retour du principal ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></td></tr><tr><td data-th="Étiquette"><strong>Mot de passe Apex</strong></td><td data-th="Signification">Votre Apex a refusé le mot de passe enregistré. Consultez <a href="/fr/help/troubleshooting">Résolution de problèmes</a></td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">Comment fonctionne le compte à rebours</p><p>Cora Max essaie de se reconnecter à un rythme régulier. Il attend environ 15 secondes après la première coupure, puis encore 15 secondes, puis 30 secondes deux fois, puis une fois par minute jusqu’à ce que cela passe. Il n’abandonne jamais. <strong>Hors ligne, nouvelle tentative dans 45 s</strong> est normal.</p></aside>
+<h2 id="the-dashboard">Le tableau de bord</h2>
+<p>Le reste de l’écran est le tableau de bord, une grille fixe qui garde chaque widget visible. Il ne défile pas.</p>
+<p>Les widgets fonctionnent comme sur votre téléphone, mais assez grands pour être lus à quelques pas. Ce que montre chaque forme est dans la <a href="/fr/help/mobile-widgets">Référence des widgets</a>. Pour changer ce qu’il y a sur le tableau de bord, voir <a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a>.</p>
+<p>Chaque widget avec un paramètre mesuré affiche son <strong>âge</strong> et sa <strong>source</strong>, comme sur votre téléphone. Un nombre avec <code>2 j</code> à côté a deux jours. Les tuiles d’appareils et de commandes affichent plutôt leur propre état.</p>
+<h3 id="when-the-screen-is-dimmed">Quand l’écran est atténué</h3>
+<p>Après le délai <strong>Atténuer après</strong> sans contact, l’écran s’atténue. Votre premier appui ne fait que le réveiller, pour qu’il ne puisse pas actionner une commande par accident. Touchez à nouveau pour utiliser l’écran.</p>
+<h2 id="the-tank-menu">Le menu de l’aquarium</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Agrandir : Le menu de l’aquarium ouvert par-dessus le tableau de bord, avec Enregistrer les paramètres, Journal, Reef Buddy et les autres écrans de l’aquarium"><img src="/help/img/max-menu.webp" alt="Le menu de l’aquarium ouvert par-dessus le tableau de bord, avec Enregistrer les paramètres, Journal, Reef Buddy et les autres écrans de l’aquarium" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Le menu de l’aquarium, ouvert depuis le nom de l’aquarium dans la barre du haut.</figcaption></figure>
+<p>Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Élément</th><th>Ouvre</th></tr></thead><tbody><tr><td data-th="Élément"><strong>Enregistrer les paramètres</strong></td><td data-th="Ouvre">Saisir des mesures de kits de test avec le clavier à l’écran</td></tr><tr><td data-th="Élément"><strong>Journal</strong></td><td data-th="Ouvre"><a href="/fr/help/max-records">Le journal</a> de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Reef Buddy</strong></td><td data-th="Ouvre">Le dernier <a href="/fr/help/max-intelligence">briefing</a></td></tr><tr><td data-th="Élément"><strong>Rapports de santé</strong></td><td data-th="Ouvre">Les bilans de santé</td></tr><tr><td data-th="Élément"><strong>Entretien</strong></td><td data-th="Ouvre">La <a href="/fr/help/max-records">liste des tâches</a></td></tr><tr><td data-th="Élément"><strong>Rapports ICP</strong></td><td data-th="Ouvre">Les <a href="/fr/help/max-intelligence">résultats de laboratoire</a> importés</td></tr><tr><td data-th="Élément"><strong>Historique des paramètres</strong></td><td data-th="Ouvre">Choisir n’importe quel paramètre qui a des données et ouvrir son <a href="/fr/help/max-intelligence">graphique</a></td></tr><tr><td data-th="Élément"><strong>Seuils d’alerte</strong></td><td data-th="Ouvre">La <a href="/fr/help/max-alerts">plage saine</a> de chaque paramètre de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Population</strong></td><td data-th="Ouvre">L’inventaire de cet aquarium, en lecture seule sur cet écran</td></tr><tr><td data-th="Élément"><strong>Activité</strong></td><td data-th="Ouvre"><a href="/fr/help/max-activity">Chaque prise, nourrissage et dosage</a>, et ce qui s’est passé</td></tr><tr><td data-th="Élément"><strong>Disposition du tableau de bord</strong></td><td data-th="Ouvre"><a href="/fr/help/max-dashboard-editing">Disposer les widgets de cet écran</a></td></tr><tr><td data-th="Élément"><strong>Unités</strong></td><td data-th="Ouvre">Les unités d’affichage des mesures de cet aquarium</td></tr><tr><td data-th="Élément"><strong>Réglages de l’aquarium</strong></td><td data-th="Ouvre">L’écran complet des réglages de cet aquarium</td></tr></tbody></table></div>
+<h2 id="switching-tanks">Changer d’aquarium</h2>
+<p>Touchez l’<strong>icône de grille</strong> tout à gauche de la barre du haut pour aller à <a href="/fr/help/max-reef-room">la Pièce du récif</a>, puis ouvrez l’aquarium voulu. Vous pouvez aussi balayer vers la gauche ou la droite sur le tableau de bord. Chaque aquarium a sa propre disposition, donc tout l’écran change quand vous passez de l’un à l’autre.</p>
+<h2 id="the-outlets-feed-drawer">Le tiroir Prises et nourrissage</h2>
+<p>Sur un aquarium équipé d’un Neptune™ Apex, une petite étiquette <strong>Prises et nourrissage</strong> se trouve en bas du tableau de bord. Touchez-la, ou balayez vers le haut n’importe où sur le tableau de bord, pour ouvrir <strong>Commandes</strong>.</p>
+<ul><li><strong>NOURRISSAGE</strong> lance l’un des cycles de nourrissage de votre Apex avec <strong>A</strong>, <strong>B</strong>, <strong>C</strong> ou <strong>D</strong>. <strong>Annuler</strong> l’arrête avant la fin.</li><li>Les <strong>PRISES</strong> peuvent chacune passer de Auto à Off ou On.</li></ul>
+<p>Il liste les prises et les cycles de nourrissage que vous avez choisis pour ce tableau de bord, ou tous si vous n’en avez choisi aucun. Plus de détails dans <a href="/fr/help/max-controls">Prises et commandes</a>.</p>
+<aside class="cal cal-warning"><p class="cal-t">Ce tiroir commande de vrais équipements</p><p>Une commande part dès que vous touchez, mais l’envoyer ne veut pas dire qu’elle est faite. Elle revient Confirmé, Non confirmé, Refusé ou Aucun changement, et vous voyez lequel dans <a href="/fr/help/max-activity">Activité</a>. Le mode nourrissage est la façon sûre de couper le brassage pour nourrir, car il remet tout en marche tout seul. Un Off manuel reste éteint jusqu’à ce que vous le changiez.</p></aside>
+<h2 id="if-something-looks-out-of-place">Si quelque chose semble anormal</h2>
+<p>Si les mesures semblent périmées, ou si l’étiquette d’état est orange ou rouge, commencez par <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
+      <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-setup"><span>Précédent</span><b>Configurer Cora Max</b></a><a class="pn-n" href="/fr/help/max-reef-room"><span>Suivant</span><b>La pièce du récif</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -315,10 +322,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Capture d\u2019\u00e9cran");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Fermer"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -339,55 +346,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Aucun r\u00e9sultat pour \u00ab " + esc(q) + " \u00bb." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Aucun r\u00e9sultat pour \u00ab " + esc(q)
+        + " \u00bb." + '</p>' + "<p>Essayez avec moins de mots ou d\u2019autres mots, ou consultez :</p><ul><li><a href=\"/fr/help/troubleshooting\">R\u00e9solution de probl\u00e8mes</a></li><li><a href=\"/fr/help/how-do-i\">Comment faire...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contacter l\u2019assistance</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -419,9 +593,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/fr/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';
       });

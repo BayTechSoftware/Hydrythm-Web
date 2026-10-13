@@ -1,60 +1,69 @@
 ---
 title: Activité et chronologie
-description: Tout ce qui est arrivé à votre équipement, et ce qui l’a déclenché.
+description: Voyez chaque changement envoyé à votre équipement, qui ou quoi l’a demandé et s’il a marché, et lisez la chronologie de l’aquarium autour d’une date.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 22
+reviewed: 2026-10-13
+order: 28
 group: Records
+twin: max-activity
 ---
 
-Activité enregistre chaque **demande d’action**, c’est-à-dire chaque tentative de changer quelque chose. Pour chacune, vous voyez qui l’a demandée et ce qu’elle est devenue.
+Activité liste chaque tentative de changer quelque chose sur votre équipement : prises allumées ou éteintes, cycles de nourrissage, dosages, et tout ce qu’une scène ou une automatisation a fait. Chaque ligne indique ce qui l’a demandé et ce qui s’est passé ensuite, y compris pour les demandes qui n’ont pas marché.
 
-Certaines demandes ne changent rien. Une demande refusée ne s’est pas exécutée, sauf dans un cas : *Aucun appareil n’a répondu à temps* signifie que l’action a tout de même pu avoir lieu. Vérifiez l’équipement avant de la relancer. **Aucun changement** indique que l’équipement était déjà dans l’état demandé. Pour une demande non confirmée, Cora ne sait pas si elle a atteint l’appareil. Tous les résultats sont enregistrés.
+Allez dans **Réglages → Activité**. Si vous avez plusieurs aquariums, choisissez-le avec les puces d’aquarium en haut.
 
-**Réglages → Activité.**
+![Activité dans Cora Mobile](img/mobile-activity.webp "La légende des résultats en haut, puis chaque action avec son résultat, sa cause et son trajet.")
 
-![Le journal d’activité](img/mobile-activity.webp "Chaque action, avec l’interface qui l’a demandée.")
+## Ce que signifient les résultats {#outcomes}
 
-## Ce qui est enregistré
+Chaque ligne porte un résultat. La même légende figure en haut de l’écran sous **CE QUE SIGNIFIENT LES RÉSULTATS**.
 
-Toutes les **demandes**, y compris celles qui n’ont pas marché : prises allumées ou éteintes, cycles de nourrissage, dosages, changements de prises connectées, et tout ce qu’une scène ou une automatisation a fait.
-
-Une demande **refusée**, sans **aucun changement** ou revenue **non confirmée** est enregistrée comme une demande exécutée. C’est voulu. Une commande qui n’a rien fait sans le dire, c’est justement ce que vous cherchez ici.
-
-## Qui l’a déclenchée
-
-Chaque entrée indique sa source.
-
-| Source | Signification |
+| Résultat | Signification |
 |---|---|
-| **Cette application** | Vous avez touché le bouton ici |
-| **Voix dans cette application** | Vous l’avez demandé à voix haute sur ce téléphone |
-| **Appui sur un Cora** | Quelqu’un a utilisé un écran Cora. La ligne indique lequel |
-| **Voix sur un Cora Max** | Quelqu’un a parlé à un écran |
-| **Cora Assistant** | Vous avez demandé à Cora de le faire |
-| **Règle d’automatisation** | Une règle s’est déclenchée |
-| **Bouton intelligent** | Quelqu’un a appuyé sur un bouton physique |
-| **Envoyé depuis Cora Cloud** | La demande est arrivée de votre compte par Cora Cloud |
-| **Source inconnue** | Enregistré avant que Cora sache identifier la source |
+| **Confirmé** | L’appareil a dit qu’il l’avait fait |
+| **Non confirmé** | La demande est partie, mais rien n’est revenu. Elle a pu atteindre l’appareil, ou pas |
+| **Refusé** | La demande a été refusée et ne s’est pas exécutée. Lisez la ligne pour savoir pourquoi |
+| **Aucun changement** | L’équipement était déjà dans cet état, donc rien n’a été envoyé |
 
-## Par quel chemin
+Un refus est différent des autres. *Aucun appareil n’a répondu à temps* signifie que la demande a peut-être quand même été exécutée. Vérifiez l’équipement avant de réessayer.
 
-Chaque ligne porte aussi une étiquette de trajet. Quand quelque chose a mal tourné, savoir *comment* la demande est arrivée à l’équipement explique souvent beaucoup.
+Une commande qui n’a rien fait sans le dire, c’est justement ce que vous cherchez ici. Les demandes échouées ou sans effet sont donc gardées avec celles qui ont marché.
 
-| Étiquette | Signification |
+## Ce qui l’a déclenchée {#causes}
+
+Chaque ligne indique sa cause :
+
+| Cause | Signification |
+|---|---|
+| **Cette application** | Vous l’avez touchée dans Cora Mobile |
+| **Voix dans cette application** | Vous l’avez demandée à voix haute, sur ce téléphone |
+| **Appui sur un Cora** | Quelqu’un a utilisé un écran Cora Max. La ligne indique lequel |
+| **Voix sur un Cora Max** | Quelqu’un a parlé à un Cora Max |
+| **Cora Assistant** | Vous avez demandé à Cora Assistant de le faire dans une conversation |
+| **Règle d’automatisation** | Une [automatisation ou une scène](/help/mobile-automation) l’a fait |
+| **Envoyé depuis Cora Cloud** | La demande est venue de votre compte par Cora Cloud |
+| **Source inconnue** | Enregistré avant que Cora sache d’où venaient les demandes |
+
+## Par quel chemin {#route}
+
+Chaque ligne a aussi une puce de trajet. Quand quelque chose tourne mal, la façon dont la demande a atteint votre équipement explique souvent pourquoi.
+
+| Puce | Signification |
 |---|---|
 | **LAN** | Envoyé par votre propre réseau, directement à l’équipement |
-| **VIA LE CLOUD** | Envoyé par votre compte, pour un équipement qu’on ne peut pas joindre directement |
-| **ROUTE ?** | Enregistré avant le suivi des trajets. Le trajet est vraiment inconnu, Cora ne le devine pas |
+| **VIA LE CLOUD** | Envoyé par votre compte, pour un équipement que Cora ne peut pas joindre directement |
+| **ROUTE ?** | Enregistré avant le suivi des trajets, donc le trajet est inconnu |
 
-Si vous avez plusieurs Cora, la ligne indique aussi celui qui a exécuté la demande.
+Si vous avez plus d’un Cora Max, la ligne indique aussi lequel a exécuté la demande.
 
-## La chronologie de l’aquarium
+## La chronologie de l’aquarium {#tank-timeline}
 
-À côté des actions sur l’équipement, chaque aquarium a sa **chronologie** : mesures, alertes, entrées du journal, résultats ICP et changements de population, dans l’ordre.
+Activité concerne l’équipement. La chronologie de l’aquarium, appelée **Histoire de l’aquarium** à l’écran, concerne l’aquarium. Elle présente les entrées du journal, l’entretien, les changements de population, les tests d’eau et les alertes par ordre de date, avec des étapes marquantes en chemin.
 
-Ouvrez Activité pour savoir *« qu’a fait cet équipement ? »*. Ouvrez la chronologie pour savoir *« que se passait-il autour de cette date ? »*.
+Pour l’ouvrir, allez dans le [journal](/help/mobile-journal) et touchez l’icône **Chronologie de l’aquarium** en haut. Utilisez les puces en haut pour n’afficher que **Journal**, **Entretien**, **Population**, **Tests d’eau** ou **Alertes**, ou **Tous**. **Charger l’histoire plus ancienne** remonte plus loin. Vous pouvez aussi ajouter une **Nouvelle entrée** ou en dicter une d’ici.
 
-:::note Chronologie et journal vont ensemble
-La chronologie contient ce que Cora a enregistré. Le [journal](/help/mobile-journal) contient ce que vous avez fait. En lisant les deux, vous retrouvez les causes et les effets autour d’une date.
+Utilisez Activité quand vous voulez savoir *« qu’a fait cet équipement ? »*. Utilisez la chronologie quand vous voulez savoir *« que se passait-il autour de cette date ? »*.
+
+:::note Utilisez la chronologie avec le journal
+La chronologie rassemble ce que Cora a enregistré. Le journal contient ce que vous avez fait et pourquoi. Lisez-les côte à côte pour voir les causes et les effets autour d’une date.
 :::

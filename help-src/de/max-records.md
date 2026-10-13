@@ -1,55 +1,61 @@
 ---
 title: Tagebuch, Besatz und Wartung
-description: Tagebuch, Besatz und Wartung auf Cora Max und wann du dafür lieber zum Handy greifst.
+description: Auf Cora Max einen Test eintragen, einen Tagebucheintrag hinzufügen, eine Fütterung festhalten und Wartung abhaken, und was du weiterhin auf dem Handy machst.
 section: Cora Max
-reviewed: 2026-10-12
-order: 8
+reviewed: 2026-10-13
+order: 10
 group: Records
+twin: mobile-journal
 ---
 
-Cora Max zeigt dieselben Aufzeichnungen wie dein Handy. Bearbeiten kannst du an der Wand aber nicht alles. Was geht, hängt vom Bereich ab:
+Cora Max zeigt dieselben Aufzeichnungen wie dein Handy, aber nicht alle kannst du hier ändern. Das kannst du an der Wand tun.
 
 | Bereich | Auf Cora Max |
 |---|---|
-| **Tagebuch** | Einträge lesen und hinzufügen. **Extra gefüttert** oder **Fütterung ausgelassen** mit einem Tipp erfassen |
-| **Messwerte** | Testergebnisse über die Bildschirmtastatur eintragen |
-| **Wartung** | Eine Aufgabe erledigen oder verschieben. Aufgaben anlegen und bearbeiten kannst du nur auf dem Handy |
-| **Besatz** | Nur ansehen. Hinzufügen und bearbeiten kannst du auf dem Handy |
+| **Werte erfassen** | Testergebnisse eintippen |
+| **Tagebuch** | Einträge lesen und neue hinzufügen. **Extra gefüttert** oder **Fütterung ausgelassen** mit einem Tippen festhalten |
+| **Wartung** | Eine Aufgabe als **Fertig** markieren oder **Verschieben**. Aufgaben anlegen und bearbeiten machst du auf dem Handy |
+| **Besatz** | Nur ansehen. Hinzufügen und bearbeiten auf dem Handy |
 
-Was du hier einträgst, siehst du sofort auf dem Handy, und umgekehrt.
+Alle findest du im **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) und unter **Einstellungen → [dein Becken]**. Was du hier hinzufügst, erscheint sofort auf deinem Handy, und umgekehrt.
 
-Alle Bereiche erreichst du über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen.
+## Messwerte eintragen
 
-![Wartung auf Cora Max](img/max-records.webp "Fällige Aufgaben mit Verschieben und Fertig, darunter die zuletzt erledigten.")
+Öffne **Werte erfassen**, tippe auf einen Wasserwert, gib den Messwert über die Bildschirmtastatur ein und speichere. Er geht direkt auf das Dashboard und in den Verlauf des Beckens, du kannst einen Test also am Becken festhalten, wo du ihn gemacht hast. Du kannst auch sagen *"Hey Cora, trag Alkalinität 8,1 ein."*
+
+Cora prüft jede Zahl vor dem Speichern. Sieht eine nach Tippfehler aus oder liegt weit außerhalb deiner letzten 30 Tage, fragt Cora **Diese Werte noch einmal prüfen?** und schlägt vielleicht vor, was du gemeint hast (*"Meintest du 8,1?"*). Tippe auf **Zurück**, um es zu korrigieren, oder auf **Trotzdem speichern**, wenn der Messwert stimmt.
+
+Wird für diesen Wasserwert schon ein neuerer Messwert angezeigt, steht bei deinem Wert **Nur im Verlauf gespeichert**. Er bleibt im Verlauf und in den Diagrammen, und das Dashboard zeigt weiter den neueren.
 
 ## Tagebuch
 
-Einen Eintrag schreibst du, ohne vom Becken wegzugehen. Meist ist das hier bequemer als auf dem Handy, denn am Wandbildschirm stehst du ja gerade, wenn du am Becken arbeitest.
-
-Öffne das **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) und tippe auf **+**, um einen Eintrag hinzuzufügen. Oder sag *„Hey Cora, notiere, dass ich Mysis gefüttert habe.“* Mehr dazu unter [Das Tagebuch](/help/mobile-journal).
+Öffne **Tagebuch** im Beckenmenü und tippe auf **Neuer Eintrag**. Gib ihm einen Titel und füg, wenn du willst, eine Beschreibung, Tags oder ein Foto hinzu. **Wasserwerte anhängen** speichert die aktuellen Messwerte mit. Oder sag *"Hey Cora, notier, dass ich Mysis gefüttert habe."* Mehr dazu unter [Das Tagebuch](/help/mobile-journal).
 
 ### Fütterung
 
 Oben auf dem Tagebuch-Bildschirm fügen **Extra gefüttert** und **Fütterung ausgelassen** jeweils einen Tagebucheintrag hinzu. Eine Zeile darunter zeigt deinen Fütterungsplan, zum Beispiel *Fütterungsplan: Flocken: 2 Prisen, zweimal täglich*. Den Plan legst du in Cora Mobile fest. Ist keiner gespeichert, steht in der Zeile *Lege deinen Fütterungsplan in der Handy-App fest*.
 
-Liest Cora Max deinen Neptune Apex aus, erfasst es außerdem einen Fütterungszyklus A bis D, sobald einer startet, egal ob du ihn hier, am Apex oder in Apex Fusion gestartet hast.
+Fragt Cora Max deinen Neptune Apex ab, hält es außerdem einen Fütterungszyklus Feed A bis D fest, sobald einer startet, egal ob du ihn hier, am Apex oder in Apex Fusion gestartet hast.
 
 :::note In der oberen Leiste gibt es kein Tagebuch-Symbol
-Das Symbol neben dem Geräte-Symbol ist **Reef Buddy**. Sein Punkt bedeutet, dass du die heutige Zusammenfassung noch nicht gelesen hast. Tagebucheinträge fügst du über das Beckenmenü oder per Sprache hinzu.
+Das Symbol neben dem Gerätesymbol ist **Reef Buddy**, und sein Punkt bedeutet, dass das heutige Briefing ungelesen ist. Tagebucheinträge fügst du über das Beckenmenü oder per Sprache hinzu.
 :::
-
-## Besatz
-
-Hier siehst du deinen ganzen Besatz, nach Typ gruppiert und mit denselben Zuständen wie auf dem Handy. **An der Wand kannst du ihn nur ansehen.** Tiere hinzufügen und bearbeiten machst du in Cora Mobile. Was du dort einträgst, erscheint sofort auf diesem Bildschirm. Mehr dazu unter [Besatz](/help/mobile-livestock).
 
 ## Wartung
 
-Du siehst die Aufgabenliste mit deiner Erledigungsquote und der Zahl überfälliger Aufgaben. Bist du mit einer Aufgabe fertig, hakst du sie direkt hier ab. Mehr dazu unter [Wartung](/help/mobile-maintenance).
+![Wartung auf Cora Max](img/max-records.webp "Fällige Aufgaben, jeweils mit Verschieben und Fertig, und was zuletzt erledigt wurde.")
 
-## Messwerte eintragen
+Oben auf dem Bildschirm steht, wie viele Aufgaben fällig sind. Darunter listet **Anstehend** jede Aufgabe mit **HEUTE**, **IN 3T** oder **ÜBERFÄLLIG 2T** auf, und **Erledigt · letzte 7 Tage** zeigt, was du zuletzt gemacht hast.
 
-Cora Max hat eine Bildschirmtastatur für Testergebnisse. Einen Test, den du am Becken machst, trägst du also auch gleich am Becken ein.
+- Tippe auf **Fertig**, wenn du eine Aufgabe erledigt hast.
+- Tippe auf **Verschieben**, um sie um **1 Tag**, **3 Tage**, **1 Woche**, **2 Wochen** oder **1 Monat** zu verschieben.
 
-:::note Alle Geräte teilen dieselben Aufzeichnungen
-Pro Becken gibt es ein Tagebuch, eine Besatzliste und eine Wartungsliste. Cora Max und dein Handy zeigen nur dieselben Aufzeichnungen auf zwei Bildschirmen.
+Aufgaben fügst du auf dem Handy hinzu und änderst sie dort. Mehr dazu unter [Wartung](/help/mobile-maintenance).
+
+## Besatz
+
+Das ist der vollständige Bestand, mit dem, was **Im Becken** ist, und dem, was **Nicht mehr im Becken** ist. Hier kannst du ihn nur ansehen. Besatz fügst du in Cora Mobile hinzu und bearbeitest ihn dort, und was du dort hinzufügst, erscheint sofort auf diesem Bildschirm. Mehr dazu unter [Besatz](/help/mobile-livestock).
+
+:::note Ein Satz Aufzeichnungen
+Jedes Becken hat ein Tagebuch, einen Besatzbestand und eine Wartungsliste. Cora Max und dein Handy zeigen dieselben Aufzeichnungen.
 :::

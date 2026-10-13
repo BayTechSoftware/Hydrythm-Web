@@ -1,64 +1,70 @@
 ---
 title: Prizler ve kontroller
-description: Cora Max'ten prizleri açıp kapatma, besleme modu ve Otomatik'in tam olarak ne yaptığı.
+description: Cora Max'ten Apex prizlerini açıp kapatın, besleme modunu başlatın ya da iptal edin, Prizler ve Besleme çekmecesini kullanın; Otomatik, Kapalı ve Açık'ın ne anlama geldiğini öğrenin.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-13
 order: 5
 group: Equipment
 ---
 
-Cora Max sisteminizdeki ekipmanı açıp kapatabilir. Bunu panodaki kontrol widget'larından, Prizler ve Besleme çekmecesinden ya da sesle yaparsınız.
+Bu sayfa Cora Max'ten prizleri açıp kapatmayı ve besleme modunu başlatmayı anlatır. Bunu panodaki priz kutucuklarından, **Prizler ve Besleme** çekmecesinden ya da sesle yapabilirsiniz.
 
-:::warning Bu kontroller doğrudan akvaryumunuzu etkiler
-Geri alma yoktur. Asma kilitli prizler önce onay ister. Diğerleri dokunduğunuz anda değişir. Komutun sonucu **Onaylandı**, **Onaylanmadı** (komut gitti ama yanıt gelmedi), **Reddedildi** ya da **Değişiklik yok** olabilir. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
+:::warning Bu kontroller akvaryumunuzu doğrudan etkiler
+Geri alma yoktur. Asma kilitli prizler önce onay ister. Diğerleri dokunduğunuz anda değişir. Bir komutun sonucu **Onaylandı**, **Onaylanmadı** (gönderildi ama yanıt gelmedi), **Reddedildi** ya da **Değişiklik yok** olabilir. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 :::
 
-## Üç durum
+## Üç durum {#the-three-states}
 
 Her priz üç durumdan birindedir.
 
 **Otomatik**, prizi Apex programına geri verir. Bir priz çoğu zaman bu durumda olmalıdır.
 
-**Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Hemen devreye girer ve **siz değiştirene kadar öyle kalırlar**. Süreleri dolmaz, kimse de sizin yerinize geri almaz.
+**Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Hemen devreye girer ve **siz geri değiştirene kadar öyle kalırlar**. Süreleri dolmaz ve hiçbir şey onları sizin yerinize sıfırlamaz.
 
-:::warning Elle yaptığınız ayarın süresi dolmaz
-İşiniz bitince prizi yeniden **Otomatik**'e alın. Bunu sizin yerinize yapan bir şey yok. Bu ayar kilit de değildir. Daha sonra siz, sesli komut ya da bir otomasyon onu yine değiştirebilir.
+:::warning Elle yapılan geçersiz kılmanın süresi dolmaz
+İşiniz bitince prizi **Otomatik**'e geri alın, çünkü bunu başka hiçbir şey yapmaz. Yine de geçersiz kılma bir kilit değildir. Siz, sesiniz ya da bir otomasyon onu daha sonra değiştirebilir.
 :::
 
-## Panodan açıp kapatma
+## Panodan açıp kapatma {#switching-from-the-dashboard}
 
-Kontrol widget'larında üç durum yan yana durur, geçerli olan vurgulanır. İstediğiniz duruma dokunun.
+Priz kutucukları üç durumu gösterir, geçerli olan vurgulanır. İstediğinize dokunun.
 
-Bazı prizlerde **asma kilit** vardır. Bu kilidi bir yerden kapatmanız gerekmez. Priz değişmeden önce sizden onay ister, o kadar. Böylece yanlışlıkla yapılan bir dokunuş önemli bir cihazı kapatamaz. Ayrıntılar aşağıda.
+Bazı prizlerde bir **asma kilit** vardır. Bu, prizin değişmeden önce onay istediği anlamına gelir. Böylece yanlışlıkla yapılan bir dokunuş önemli bir şeyi açıp kapatamaz. Dokunduğunuzda bir pencere prizi, şu anki durumunu, ayarlamak üzere olduğunuz geçersiz kılmayı ve bunun akvaryuma ne yapabileceğini gösterir. Başka bir yerden kapatılacak bir kilit yoktur.
 
-## Kontroller çekmecesi
+Varsayılan olarak asma kilit ısıtıcılarda, soğutucularda, ana pompalarda, otomatik su tamamlamada (ATO), yemleyicilerde ve Cora'nın sınıflandıramadığı her prizde bulunur. Işıklar, skimmer'lar, dalga pompaları, dozaj pompaları, reaktörler, UV ve fanlar tek dokunuşla değişir.
 
-Panonun altındaki sekmeyi yukarı çekince **Kontroller** açılır. Sistemdeki tüm prizler, widget'ı olsun olmasın, burada bir arada durur. Besleme döngüleri de buradadır.
+## Prizler ve Besleme çekmecesi {#the-controls-drawer}
 
-![Kontroller çekmecesi](img/max-controls.webp "En üstte besleme döngüleri, altında tüm prizler.")
+Bunu yalnızca Neptune Apex'i olan bir akvaryumda görürsünüz. Panonun altındaki küçük **Prizler ve Besleme** etiketine dokunun ya da panonun herhangi bir yerinde yukarı kaydırın. **Kontroller** açılır: üstte **BESLEME**, altında **PRİZLER**.
 
-**Asma kilitli** bir priz değişmeden önce açıkça onay ister. Dokunduğunuzda bir pencere açılır. Pencerede prizin adı, şu anki durumu ve uygulamak üzere olduğunuz ayar yazar. Bu yalnızca bir onay adımıdır, başka yerden kapatılacak bir kilit değildir.
+![Kontroller çekmecesi](img/max-controls.webp "Üstte besleme döngüleri, altında bu pano için seçilen prizler.")
 
-## Besleme modu
+Çekmece, [pano düzenleyicisinde](/help/max-dashboard-editing#outlets-feed) **Prizler ve Besleme** altında seçtiğiniz prizleri ve besleme döngülerini gösterir. Hiç seçmediyseniz hepsini gösterir. Asma kilitli prizler burada da onay ister. Diğer kontrolcülerdeki prizler kendi cihaz sayfalarından açılıp kapatılır, [Cora Max'ten ekipman kontrolü](/help/max-device-control) sayfasına bakın.
 
-Yem verirken akışı güvenle durdurmak için besleme modunu kullanın. Durması gereken ekipmanı durdurur, gerisine dokunmaz. Süre dolunca da **her şeyi kendisi eski haline getirir**.
+Bir prize dokunduğunuzda *Apex yanıt vermedi: uygulanmış olabilir* mesajı gelirse tekrar denemeden önce prizi kontrol edin.
 
-Pompaları elle kapatmaktan daha iyidir, çünkü sistemi yeniden açmayı hatırlamanız gerekmez.
+## Besleme modu {#feed-mode}
 
-Besleme döngülerinin adı **A**, **B**, **C** ve **D**'dir. Bunları kontrol cihazınız tanımlar ve her biri farklı bir ekipman grubunu durdurur. Yaptığınız işe uygun olanı seçin. **İptal** çalışan döngüyü erken bitirir ve her şeyi hemen eski haline getirir.
+Besleme modu, yem verirken akışı durdurmanın güvenli yoludur. Apex'iniz durması gereken ekipmanı durdurur, gerisine dokunmaz ve süre dolunca **her şeyi kendisi eski haline getirir**.
 
-Döngüyü Kontroller çekmecesinden başlatın ya da *"besleme modunu başlat"* deyin.
+Pompaları elle kapatmak yerine bunu kullanın. Siz unutsanız bile sistemi eski haline getirir.
 
-## Sesle
+Dört besleme döngüsü vardır: Besleme A, Besleme B, Besleme C ve Besleme D. **BESLEME** altında **A**, **B**, **C** ve **D** olarak gösterilir. Bunlar Apex'inizde programlanmış döngülerdir ve her biri farklı bir ekipman grubunu durdurabilir. Yaptığınız işe uygun olanı seçin. **İptal**, çalışan bir döngüyü erken bitirir ve her şeyi hemen eski haline getirir.
 
-Prizleri sesle de açıp kapatabilirsiniz: *"skimmer'ı kapat"*, *"fanı yeniden otomatiğe al"*.
+Döngüyü çekmeceden başlatın ya da *"besleme modunu başlat"* deyin.
 
-Ekipmanınıza giden her komut **uygulanmadan önce onaylanır**. Cora ne yapacağını söyler ve sizin onayınızı bekler. Emin olmadığı bir komutu uygulamaz.
+Cora Max, Apex'in yanıt vermediğini söylerse besleme zaten çalışıyor olabilir. Tekrar başlatmadan önce ana pompayı kontrol edin.
 
-Sesli komutların ayrıntıları **[Cora ile konuşma](/help/max-voice)** sayfasında.
+## Sesle {#by-voice}
 
-## Ne olduğunu görme
+Prizleri sesle de açıp kapatabilirsiniz, örneğin *"skimmer'ı kapat"* ya da *"fanı yeniden otomatiğe al"*.
 
-Her istek kaydedilir. Kayıtta isteği kimin verdiği (Cora Mobile, bir Cora ekranı, sesli komut, Assistant, bir otomasyon kuralı, akıllı düğme ya da hesabınız) ve komutun hangi yoldan gittiği yazar. Cora Max'te üst çubukta akvaryum adına dokunup **Etkinlik**'i seçin. Telefonunuzda bunu **Ayarlar → Etkinlik** altında bulursunuz.
+Ekipmanınıza bir şey ulaşmadan önce Cora **önce size danışır**. Ne yapmak üzere olduğunu söyler ve onayınızı bekler. Ne istediğinizden emin değilse hiçbir şey yapmaz.
 
-Bir şey değiştiyse ve nedenini bilmiyorsanız ilk bakacağınız yer burasıdır.
+Ayrıntılar [Cora ile konuşma](/help/max-voice) sayfasında.
+
+## Ne olduğunu görme {#seeing-what-happened}
+
+Her istek, onu neyin istediği ve nasıl sonuçlandığıyla birlikte kaydedilir. Cora Mobile'dan, bir Cora Max'ten, sesle, asistandan ya da bir otomasyondan gelmesi fark etmez. Cora Max'te üst çubukta akvaryum adına dokunun ve **Etkinlik**'i seçin. Telefonunuzda **Ayarlar → Etkinlik** altındadır. Ayrıntılar [Cora Max'te etkinlik](/help/max-activity) sayfasında.
+
+Bir şey değiştiyse ve nedenini bilmiyorsanız ilk oraya bakın.

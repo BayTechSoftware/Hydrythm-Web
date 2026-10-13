@@ -1,58 +1,61 @@
 ---
 title: Population
-description: Gardez la liste de ce que contient l’aquarium, depuis quand, et ce que chaque habitant est devenu.
+description: Ajoutez les coraux, poissons et invertébrés de votre aquarium, et notez les pertes, boutures, ventes et déplacements pour repérer des tendances plus tard.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 20
+reviewed: 2026-10-13
+order: 27
 group: Records
+twin: max-records
 ---
 
-Population liste ce que contient l’aquarium (coraux, poissons et invertébrés), avec la date d’arrivée et le statut actuel de chacun. Ouvrez-la depuis la ligne de raccourcis en bas du tableau de bord.
+Population est la liste des coraux, poissons et invertébrés de votre aquarium. Pour chacun, elle garde la date d’ajout et ce qui lui est arrivé depuis.
+
+Touchez **Population** dans la rangée de boutons sous le tableau de bord. Vous la trouvez aussi dans Réglages → votre aquarium → **Population**.
 
 ![L’inventaire de population](img/mobile-livestock.webp "Résumé de l’inventaire et pertes récentes, avec les entrées regroupées par type.")
 
-## Le résumé
+## Le résumé {#summary}
 
-En haut de l’écran, vous trouvez :
+En haut, vous voyez le **Résumé de l’inventaire**, avec les totaux de coraux, de poissons et d’invertébrés, et le nombre de pertes notées ces 90 derniers jours.
 
-- **Résumé de l’inventaire** : les totaux par grande catégorie, comme les coraux, les poissons et les invertébrés
-- **Pertes** : le nombre d’entrées marquées comme perdues ces 90 derniers jours
+En dessous, les entrées sont regroupées par type, comme corail SPS, corail LPS, corail mou et poisson. Chacune indique sa quantité et sa date d’ajout.
 
-Les entrées sont regroupées par type (corail SPS, corail LPS, corail mou, poisson, etc.). Chacune indique sa quantité et sa date d’ajout.
+Touchez **Afficher les perdus** en haut pour voir ce qui n’est plus dans l’aquarium. **Afficher les vivants** vous ramène à la liste.
 
-**Afficher les perdus**, dans la barre du haut, fait aussi apparaître ce qui n’est plus dans l’aquarium.
+## Ajouter un habitant {#adding-something}
 
-## Ajouter un habitant
+Touchez **Ajouter un habitant** en bas de l’écran et remplissez :
 
-Chaque entrée comprend :
+- **Nom \***, le nom que vous lui donnez. C’est le seul champ obligatoire.
+- **Type** : corail SPS, corail LPS, corail mou, poisson, invertébré, anémone ou autre.
+- **Espèce (facultatif)**, si vous la connaissez.
+- **Quantité**, pour un groupe comme un banc ou un lot de boutures.
+- **Notes (facultatif)**, pour tout le reste, comme le fournisseur, l’emplacement ou le prix.
 
-- **Nom** : le nom que vous lui donnez
-- **Type** : corail SPS, corail LPS, corail mou, poisson, invertébré, anémone ou autre
-- **Espèce** : facultatif, si vous la connaissez
-- **Quantité** : pour un groupe, comme un banc ou un lot de boutures
-- **Date d’ajout** : aujourd’hui par défaut
-- **Notes** : fournisseur, emplacement, prix ou tout autre détail utile
+La date d’ajout est fixée à aujourd’hui quand vous enregistrez.
 
-## Ce qu’il est devenu
+## Quand quelque chose change {#status}
 
-Chaque entrée a un statut.
+Touchez une entrée pour voir ce que vous pouvez en faire :
 
-| Statut | Signification |
-|---|---|
-| **Vivant** | Toujours dans l’aquarium |
-| **Perdu** | Mort |
-| **Bouturé** | Découpé. La colonie continue |
-| **Vendu** | Parti chez quelqu’un d’autre |
-| **Déplacé** | Dans un autre de vos aquariums |
+- **Marquer comme perdu** quand un habitant meurt. Si l’entrée a une quantité supérieure à un, Cora demande **Combien de perdus ?**, pour que vous puissiez noter une partie d’un groupe. Indiquez la date de la perte et choisissez une **Raison**, comme blanchiment, RTN, agression ou inconnue.
+- **Bouturé** quand vous l’avez découpé et que la colonie continue.
+- **Vendu** quand il est parti chez quelqu’un d’autre.
+- **Déplacé** quand il est maintenant dans un autre de vos aquariums.
+- Sur une entrée qui n’est plus vivante, **Remettre en vivant** annule le changement, par exemple si vous l’avez marquée par erreur.
+- **Modifier** change les détails. **Supprimer** retire complètement l’entrée.
+- **Voir l’historique** ouvre l’histoire de l’habitant : quand il a été ajouté, et quand il a été perdu ou a quitté l’aquarium.
 
-Quand vous marquez un habitant comme **perdu**, la date est enregistrée, avec une raison si vous le souhaitez. Si vous notez toutes vos pertes, des tendances apparaîtront plus tard : des pertes groupées dans une zone de l’aquarium, ou après un événement précis.
+Si vous notez chaque perte, des tendances apparaîtront plus tard. Les pertes se regroupent peut-être dans un coin de l’aquarium, ou suivent un événement précis.
 
 :::note « Inconnue » est une raison valable
-Notez la date même si vous ne connaissez pas la cause. Grâce à elle, vous pourrez faire des rapprochements plus tard.
+Notez la date même si vous ne connaissez pas la cause. C’est la date que vous comparerez plus tard.
 :::
 
-## La population et le reste de Cora
+## La population et le reste de Cora {#livestock-and-cora}
 
-Vos paramètres sont évalués en tenant compte de votre population. Un bac SPS très peuplé et un bac de coraux mous peu peuplé ne sont pas jugés de la même façon.
+Cora évalue vos paramètres en partie selon la population de l’aquarium. Un bac SPS très peuplé et un bac de coraux mous peu peuplé ne sont pas jugés de la même façon.
 
-Vous pouvez aussi poser des questions sur votre population. Cora répond à *« Quand ai-je ajouté le corail marteau ? »* ou *« Qu’ai-je perdu cette année ? »* à partir de cette liste.
+Vous pouvez aussi poser des questions à ce sujet. Cora Assistant répond à des questions comme *« Quand ai-je ajouté le corail marteau ? »* ou *« Qu’ai-je perdu cette année ? »* à partir de cette liste.
+
+Les changements de population apparaissent aussi sur la [chronologie de l’aquarium](/help/mobile-activity#tank-timeline). Racontez l’histoire d’une perte ou d’une nouvelle arrivée dans le [journal](/help/mobile-journal).

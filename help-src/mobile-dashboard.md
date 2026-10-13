@@ -1,51 +1,52 @@
 ---
 title: Reading your dashboard
-description: How to read Cora's dashboard, from widgets and reading age to sources and what the colours mean.
+description: How to read Cora's dashboard, from widgets, reading age and sources to what the colours mean and the cards that come and go.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 5
+reviewed: 2026-10-13
+order: 6
 group: Your dashboard
 ---
 
-The dashboard is a grid of **widgets**. Each one shows one thing about one tank. You decide what goes on it, as described in [Editing your dashboard](/help/mobile-dashboard-editing).
+The dashboard is a grid of **widgets** for one tank. Each widget shows one thing. You decide what goes on it, as described in [Editing your dashboard](/help/mobile-dashboard-editing).
 
-![A Cora Mobile dashboard](img/mobile-dashboard.webp "Gauges, numbers, trends and controls on one screen.")
+![A Cora Mobile dashboard](img/mobile-dashboard.webp "The tank header and the Reef Buddy card, then gauges, values, graphs and device tiles.")
 
-## The tank header
+## The tank header {#the-tank-header}
 
 Every dashboard starts with:
 
-- The tank name, with a small glyph next to it. Tap the glyph to rename the tank. That's all it does.
-- **Feed** pauses flow and skimming for a feeding, then puts everything back.
-- **Reef Buddy** opens this morning's briefing.
-- **Share** sends a snapshot of the dashboard.
-- The pencil on the right opens [the tank profile](/help/mobile-tank-profile).
+- The tank name, with a small glyph next to it. Tap the name to rename the tank. That's all it does.
+- **Feed**, only on a tank with a Neptune Apex. It opens **Feed mode** with your Apex's **Feed A** to **Feed D** cycles. Your Apex decides what pauses and when it comes back, as you set it up there. While a cycle runs, the button shows which one, for example **Feed A**. Tap it and choose **Cancel feed** to end it early. Away from home, a Cora Max on the tank sends the command for you.
+- The newspaper icon, which opens the latest **Reef Buddy** briefing.
+- The share icon, which makes a snapshot of the tank. See [Sharing your tank](/help/mobile-sharing).
+- The ruler, which opens **Units** for this tank. See [Your tank profile](/help/mobile-tank-profile#units).
+- The pencil on the right, which opens [the tank profile](/help/mobile-tank-profile).
 
 :::note Three controls that look alike
-The glyph next to the name renames the tank. The pencil on the right opens the tank **profile**. To edit the dashboard itself, tap **Edit dashboard** at the *bottom* of the dashboard, below the widgets.
+The tank name renames the tank. The pencil on the right opens the tank **profile**. To edit the dashboard itself, tap **Edit dashboard** just under the widgets.
 :::
 
-If you have more than one tank, swipe sideways to move between them.
+If you have more than one tank, swipe sideways to move between them. See [Managing your tanks](/help/mobile-tanks).
 
-## The Reef Buddy card
+## The Reef Buddy card {#the-reef-buddy-card}
 
-Under the header, a card sums up the latest briefing. It shows a headline, the **Stability** and **Data** scores, and how many insights there are. Tap it to open the full briefing, or close it with **×**. A new card appears with the next briefing.
+Above the widgets, a card sums up the latest briefing. It shows the headline, a score out of 100 once Cora has enough data, the date it's from, and how many insights and drifting readings there are. Tap it to open the full briefing, or close it with **×**. A new card appears with the next briefing. More in [Reef Buddy](/help/mobile-reef-buddy).
 
-## How to read a parameter widget
+## How to read a parameter widget {#how-to-read-a-parameter-widget}
 
 A widget for a **measured parameter** always shows the same three things in the same places. Device and control tiles, like an outlet, a dosing unit or a pump, show their own state instead, since there's no single reading behind them.
 
 The value is the reading itself, large and in the middle.
 
-The age sits below or next to it, as `now`, `1h` or `2d`. It's how long ago the reading was taken, not when the screen last refreshed. A number that hasn't changed in two days shows `2d`, and that tells you something.
+The age sits below or next to it, as `now`, `1h` or `2d`. It's how long ago the source last confirmed that value, not when the screen last refreshed. For a probe, that's when its device last checked in, so a steady reading from a working probe stays fresh even when the number doesn't change. For a test-kit or ICP result, it's when you took the test. An age that keeps growing on a probe means its device has stopped reporting.
 
-The source badge is the small mark next to the age. It shows where the number came from: a probe, a controller, a lab result, or you with a test kit. Tap any widget to see the source written out, with its recent history.
+The source badge is the small mark next to the age. It shows where the number came from: a probe, a controller, a lab result, or you with a test kit. Tap the widget to see the source written out, with its recent history.
 
 :::note Why the age matters
 A perfect alkalinity reading from four days ago isn't your alkalinity today. Every value shows its age so you can see the difference quickly.
 :::
 
-## Colours
+## Colours {#colours}
 
 Cora doesn't use much colour, and each colour always means the same thing:
 
@@ -68,27 +69,46 @@ There are two refinements.
 
 A widget outlined in amber or red needs attention. The whole widget gets the outline, so you'll spot it while scrolling.
 
-## Below the widgets
+To change a range, long-press the widget. More in [Alerts and thresholds](/help/mobile-alerts).
 
-![The foot of the dashboard](img/mobile-dashboard-foot.webp "Edit dashboard, Log Parameters, and shortcuts to the four record areas.")
+## Cards that come and go {#cards-that-come-and-go}
 
-At the bottom of the dashboard you'll find:
+Some cards only show when there's something to say. Most of them sit between the header and the widgets.
 
-- **Edit dashboard**, which opens the [dashboard editor](/help/mobile-dashboard-editing)
-- **Log Parameters**, for entering test-kit readings by hand
-- **Parameter History**, to open the history of any parameter that has data, even one with no widget. See [Looking into a parameter](/help/mobile-metric-detail)
-- **Feeding**, to log a feeding that differs from your routine. See [The journal](/help/mobile-journal)
-- **Journal · Alerts · Maintenance · Livestock**, shortcuts to those areas for this tank
+| Card | When it shows | What to tap |
+|---|---|---|
+| **Starting a new tank?** | On a tank with no readings at all. Once you've started, it becomes **Continue cycling** | The card, to start guided cycling. See [Guided journeys](/help/mobile-journeys) |
+| **Tank parameters** with *No readings yet* | The tank has no readings yet | **Configure tank** |
+| *Couldn't reach your readings: showing what's cached.* | Cora can't load the latest readings, often with no connection | **Retry** |
+| **Lab result from {lab} is waiting.** | A lab sent a result and Cora needs to know which tank it's for | **Choose tank**. See [ICP and health reports](/help/mobile-icp-health) |
+| Profile prompt (**Unlock smarter insights**) | The tank profile is under 80% complete | The card, to carry on with the profile |
+| **Cora Pro trial: 9 days left** | The last days of your trial | The card, or **Keep Pro**. See [Plans and subscriptions](/help/mobile-plans) |
+| **Reef Buddy** | A briefing is ready | The card |
+| **How do you usually feed?** | You haven't set a feeding routine | **Set up routine** |
+| *Red Sea readings have stopped updating.* | Nothing is reading this tank's Red Sea devices | See [Alerts and thresholds](/help/mobile-alerts) |
+| **Cameras** (Beta) | The tank has a camera, under the widgets. Cameras are only open to Beta users | **Watch live** |
+| **Log your first water test** | No readings and no linked equipment, under the widgets | The card. See [Setting up Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
-On a tank with no readings and no linked equipment, a card above them, **Log your first water test**, helps you get started. See [Setting up Cora Mobile](/help/mobile-setup).
+## Below the widgets {#below-the-widgets}
 
-A line above them shows when the dashboard last updated and which sources it used.
+![The foot of the dashboard in Cora Mobile](img/mobile-dashboard-foot.webp "Edit dashboard, the Log Parameters, Parameter History and Feeding buttons, and shortcuts to the four record areas.")
 
-## Tapping through
+From top to bottom you'll find:
 
-Tap any widget to open its detail. You'll see the full history as a chart, every source that has reported it and the thresholds in use. From there you can log a reading by hand, change the range or look further back.
+- A line saying when the dashboard last updated and which sources it used, with **Edit dashboard** beside it. That opens the [dashboard editor](/help/mobile-dashboard-editing).
+- The **Log your first water test** card, on a tank with no readings and no linked equipment.
+- **Log Parameters**, for entering test-kit readings by hand.
+- **Parameter History**, to open the history of any parameter that has data, even one with no widget. See [Looking into a parameter](/help/mobile-metric-detail).
+- **Feeding**, to log a feeding that differs from your routine. See [The journal](/help/mobile-journal).
+- **Journal · Alerts · Maintenance · Livestock**, shortcuts to those areas for this tank.
 
-## If a widget has no value
+## Tapping and long-pressing {#tapping-through}
+
+Tap any parameter widget to open its detail. You'll see the full history as a chart, every source that has reported it and your alert band. From there you can compare sources, exclude a bad reading or record probe care. See [Looking into a parameter](/help/mobile-metric-detail).
+
+**Long-press** a parameter widget to set its alert range straight from the dashboard.
+
+## If a widget has no value {#if-a-widget-has-no-value}
 
 A widget shows a value once it gets one. If it's blank, it's usually one of these:
 
@@ -98,4 +118,4 @@ A widget shows a value once it gets one. If it's blank, it's usually one of thes
 
 An old reading doesn't disappear just because it's older than the chart window. It stays on the widget with its age, so a stale value looks stale and doesn't look missing.
 
-For anything else, see [Troubleshooting](/help/troubleshooting).
+For anything else, see [Troubleshooting](/help/troubleshooting#a-widget-shows-no-value).

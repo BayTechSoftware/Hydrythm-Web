@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Preguntar a Cora | Cora Help</title>
-  <meta name="description" content="Cómo usar Cora Assistant por escrito y por voz, qué puede ver y qué puede cambiar.">
+  <meta name="description" content="Usa Cora Assistant escribiendo o hablando, qué puede ver, qué puede hacer por ti, el interruptor de uso compartido de datos y la memoria.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-assistant">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-assistant">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-assistant">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Preguntar a Cora | Cora Help">
-  <meta property="og:description" content="Cómo usar Cora Assistant por escrito y por voz, qué puede ver y qué puede cambiar.">
+  <meta property="og:description" content="Usa Cora Assistant escribiendo o hablando, qué puede ver, qué puede hacer por ti, el interruptor de uso compartido de datos y la memoria.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-assistant">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ayuda","item":"https://coraiq.tech/es/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/es/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Inteligencia","item":"https://coraiq.tech/es/help/mobile-reef-buddy"},{"@type":"ListItem","position":4,"name":"Preguntar a Cora"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Ir al contenido</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/es/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Ayuda</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Buscar en la guía">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navegación de la guía">
     <button class="hclose" id="hclose" type="button" aria-label="Cerrar navegación">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Guía">
 <ul>
 <li><a href="/es/help/">Ayuda de Cora</a></li>
+</ul>
+<p class="nav-sec">Ayuda</p>
+<ul>
+<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
+<li><a href="/es/help/how-do-i">¿Cómo hago...?</a></li>
+<li><a href="/es/help/equipment-by-brand">Equipos por marca</a></li>
+<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
+<li><a href="/es/help/glossary">Glosario</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
+<li><a href="/es/help/mobile-tour">Moverte por Cora Mobile</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
-<li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
+<li><a href="/es/help/mobile-tanks">Gestionar tus acuarios</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
-<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
 <li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
+<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
+<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
 <li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
-<li><a href="/es/help/mobile-probes">Asignación de parámetros</a></li>
-<li><a href="/es/help/mobile-consumables">Consumibles</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
+<li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
 <li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
 <li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
 <li><a href="/es/help/mobile-alerts">Alertas y umbrales</a></li>
 <li><a href="/es/help/mobile-notifications">Notificaciones</a></li>
 <li><a href="/es/help/mobile-automation">Automatizaciones y escenas</a></li>
+<li><a href="/es/help/mobile-vacation">Irse de viaje: un plan para quien cuida tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registros</summary><ul>
-<li><a href="/es/help/mobile-dosing">Dosificación</a></li>
+<li><a href="/es/help/mobile-journal">El diario</a></li>
+<li><a href="/es/help/mobile-dosing">Productos de dosificación y la calculadora de dosis</a></li>
 <li><a href="/es/help/mobile-maintenance">Mantenimiento</a></li>
 <li><a href="/es/help/mobile-livestock">Fauna</a></li>
-<li><a href="/es/help/mobile-journal">El diario</a></li>
 <li><a href="/es/help/mobile-activity">Actividad y línea de tiempo</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Inteligencia</summary><ul>
-<li><a href="/es/help/mobile-assistant" class="cur" aria-current="page">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
+<li><a href="/es/help/mobile-assistant" class="cur" aria-current="page">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-icp-health">ICP e informes de salud</a></li>
+<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Cuenta</summary><ul>
-<li><a href="/es/help/mobile-vacation">Irse de viaje</a></li>
+<summary>Ajustes y cuenta</summary><ul>
+<li><a href="/es/help/mobile-settings">Ajustes de Cora Mobile</a></li>
 <li><a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a></li>
-<li><a href="/es/help/mobile-data-export">Tus datos</a></li>
-<li><a href="/es/help/mobile-plans">Planes</a></li>
-<li><a href="/es/help/mobile-settings">Ajustes</a></li>
-<li><a href="/es/help/mobile-support">Obtener ayuda</a></li>
+<li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
+<li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
+<li><a href="/es/help/mobile-support">Informar de un problema</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertas y automatización</summary><ul>
+<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
+<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Registros</summary><ul>
 <li><a href="/es/help/max-records">Diario, fauna y mantenimiento</a></li>
+<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
@@ -146,70 +162,70 @@
 <li><a href="/es/help/max-voice">Hablar con Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertas</summary><ul>
-<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
-<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Ajustes</summary><ul>
+<summary>Ajustes y cuenta</summary><ul>
 <li><a href="/es/help/max-settings">Ajustes de Cora Max</a></li>
 <li><a href="/es/help/max-updates">Actualizaciones y recuperación</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatización</summary><ul>
-<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Ayuda</p>
-<ul>
-<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
-<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
-<li><a href="/es/help/glossary">Glosario</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="/es/help/">Ayuda</a></li><li><a href="/es/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/es/help/mobile-reef-buddy">Inteligencia</a></li></ol></nav>
       <h1>Preguntar a Cora</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#elige-primero-un-acuario">Elige primero un acuario</a></li><li><a href="#escribir">Escribir</a></li><li><a href="#hablar">Hablar</a></li><li><a href="#consentimiento">Consentimiento</a></li><li><a href="#en-qu-idioma-responde-cora">En qué idioma responde Cora</a></li><li><a href="#qu-puede-ver-cora">Qué puede ver Cora</a></li><li><a href="#qu-puede-cambiar-cora">Qué puede cambiar Cora</a></li><li><a href="#memoria">Memoria</a></li><li><a href="#uso">Uso</a></li><li><a href="#si-una-respuesta-parece-incorrecta">Si una respuesta parece incorrecta</a></li></ul></nav>
-<p>Cora Assistant responde en lenguaje sencillo a tus preguntas sobre el acuario. Ve tus lecturas en vivo, tu historial y tus resultados de laboratorio, así que te habla de <em>tu</em> acuario y no de los acuarios de arrecife en general.</p>
+      <p class="twin">En Cora Max: <a href="/es/help/max-voice">Hablar con Cora</a></p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#pick-a-tank-first">Elige primero un acuario</a></li><li><a href="#escribir">Escribir</a></li><li><a href="#hablar">Hablar</a></li><li><a href="#what-cora-can-change">Qué puede hacer Cora por ti</a></li><li><a href="#consent">Consentimiento</a></li><li><a href="#en-que-idioma-responde-cora">En qué idioma responde Cora</a></li><li><a href="#que-puede-ver-cora">Qué puede ver Cora</a></li><li><a href="#memoria">Memoria</a></li><li><a href="#uso">Uso</a></li><li><a href="#si-una-respuesta-parece-incorrecta">Si una respuesta parece incorrecta</a></li></ul></nav>
+<p>Cora Assistant responde en lenguaje sencillo a tus preguntas sobre el acuario, y puede anotar cosas y manejar tus equipos cuando se lo pides. Ve tus lecturas en directo, tu historial y tus resultados de laboratorio, así que sus respuestas tratan de <em>tu</em> acuario.</p>
 <p>Ábrelo desde la pestaña <strong>Asistente</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Cora Assistant"><img src="/help/img/mobile-assistant.webp" alt="Cora Assistant" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Elige un acuario y luego escribe o habla.</figcaption></figure>
-<h2 id="elige-primero-un-acuario">Elige primero un acuario</h2>
-<p>El selector de la parte superior decide de qué acuario habla Cora. Todo lo que hay debajo, tus preguntas y sus respuestas, se refiere solo a ese acuario.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: Una respuesta de Cora Assistant sobre la alcalinidad en Cora Mobile"><img src="/help/img/mobile-assistant.webp" alt="Una respuesta de Cora Assistant sobre la alcalinidad en Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Una respuesta construida con los datos en directo del acuario, con el contador de mensajes del mes encima del cuadro.</figcaption></figure>
+<h2 id="pick-a-tank-first">Elige primero un acuario</h2>
+<p>El selector de acuario de arriba decide de qué habla Cora. Las preguntas que escribes y las respuestas que recibes pertenecen a ese acuario.</p>
 <h2 id="escribir">Escribir</h2>
-<p>Escribe en el cuadro de abajo y envía. Algunas preguntas útiles:</p>
-<ul><li><em>"¿Por qué está bajando mi alcalinidad?"</em></li><li><em>"¿Qué ha cambiado desde la semana pasada?"</em></li><li><em>"¿Tengo el calcio bien para un acuario SPS?"</em></li><li><em>"¿Cuándo hice el último cambio de agua?"</em></li><li><em>"Apaga el skimmer durante una hora."</em></li></ul>
+<p>Escribe en el cuadro de abajo y envía. Si no sabes por dónde empezar, toca una de las sugerencias de <strong>Prueba a preguntar</strong>. Algunas cosas que merece la pena preguntar:</p>
+<ul><li><em>"¿Por qué está bajando mi alcalinidad?"</em></li><li><em>"¿Qué ha cambiado desde la semana pasada?"</em></li><li><em>"¿Tengo el calcio donde debe estar para un acuario SPS?"</em></li><li><em>"¿Cuándo hice el último cambio de agua?"</em></li></ul>
+<p>Para conservar una respuesta, toca <strong>Guardar en el diario</strong> debajo de ella. Va al <a href="/es/help/mobile-journal">diario</a> del acuario.</p>
 <h2 id="hablar">Hablar</h2>
-<p>Toca <strong>Iniciar conversación de voz</strong> para conversar en directo. Cora escucha, responde en voz alta y sigue escuchando hasta que la detienes. Es lo más cómodo cuando tienes las manos mojadas.</p>
-<h2 id="consentimiento">Consentimiento</h2>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Consentimiento del asistente"><img src="/help/img/mobile-assistant-consent.webp" alt="Consentimiento del asistente" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Dos permisos independientes y la memoria que guarda Cora.</figcaption></figure>
-<p>En <strong>Ajustes → Cora Assistant</strong> hay dos interruptores independientes:</p>
-<ul><li><strong>Permitir que el Cora Assistant use los datos guardados del acuario</strong>: tiene que estar activado para que Cora Assistant te responda. Si está desactivado, Cora vuelve a mostrar la pantalla de consentimiento antes de tu siguiente mensaje o conversación de voz. Esa pantalla explica qué usa Cora Assistant y, en <strong>A dónde van tus datos</strong>, qué proveedor de IA escribe las respuestas. <strong>Aceptar y continuar</strong> activa el interruptor y sigue adelante. <strong>Ahora no</strong> no envía nada y conserva lo que escribiste.</li><li><strong>Contribuir con datos anonimizados del acuario</strong>: más información en <a href="/es/help/mobile-data-export">Tus datos</a>.</li></ul>
-<h2 id="en-qu-idioma-responde-cora">En qué idioma responde Cora</h2>
-<p>Cora Assistant usa el <strong>idioma de la cuenta</strong>. Es un solo idioma para todo el hogar y se cambia en <strong>Ajustes → Idioma</strong>. Cora Assistant no tiene un ajuste de idioma propio. Si lo cambias ahí, en tu próxima conversación Cora Assistant responderá y hablará en el idioma nuevo. Más información en <a href="/es/help/mobile-settings">Ajustes</a>.</p>
-<h2 id="qu-puede-ver-cora">Qué puede ver Cora</h2>
-<p>La etiqueta encima del cuadro de mensajes, <strong>Usando los datos en directo de tu acuario</strong>, muestra qué datos tiene Cora a mano. Tócala para ver exactamente qué está leyendo: valores actuales, la antigüedad de cada uno, el historial reciente, tu diario y tus resultados de ICP.</p>
-<p>Cora Assistant también puede revisar hasta unos seis meses del historial de un parámetro. Puedes preguntar, por ejemplo, <em>"Compara los últimos seis meses de mi magnesio con mi último ICP."</em></p>
-<aside class="cal cal-note"><p class="cal-t">Te avisa cuando un dato es antiguo</p><p>Cora indica la antigüedad de las lecturas que usa. Si tu última lectura de alcalinidad tiene cuatro días, la respuesta te lo dirá y no la dará como actual.</p></aside>
-<h2 id="qu-puede-cambiar-cora">Qué puede cambiar Cora</h2>
-<p>Cora también puede actuar sobre tu acuario. Puede encender o apagar una toma, empezar una alimentación o cambiar un ajuste.</p>
-<p>Todo lo que afecta a tu equipo se <strong>confirma antes de hacerse</strong>. Verás exactamente qué va a cambiar y tendrás que aprobarlo. Cora no actúa si una instrucción no está clara.</p>
-<aside class="cal cal-warning"><p class="cal-t">Cora aconseja, tú decides</p><p>Los consejos de Cora son solo eso, consejos. Comprueba lo importante con tus propias pruebas. Antes de un cambio grande, piénsalo como harías con el consejo de cualquier otra persona. La línea bajo el cuadro de mensajes dice lo mismo.</p></aside>
+<p>Toca <strong>Iniciar conversación de voz</strong> para hablar en una conversación de ida y vuelta. Cora escucha, responde en voz alta y sigue escuchando hasta que la detienes. Es práctico cuando tienes las manos mojadas.</p>
+<p>Mientras Cora habla, toca <strong>Toca para interrumpir</strong> para cortarla. Toca <strong>Detener conversación</strong> cuando termines.</p>
+<h2 id="what-cora-can-change">Qué puede hacer Cora por ti</h2>
+<p>Además de responder, Cora puede hacer cosas en el acuario que elegiste. Pídelo con tus propias palabras.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Pide</th><th>Por ejemplo</th></tr></thead><tbody><tr><td data-th="Pide">Anotar una prueba que hiciste a mano</td><td data-th="Por ejemplo"><em>"Anota alcalinidad 8,1"</em></td></tr><tr><td data-th="Pide">Escribir una entrada en el diario</td><td data-th="Por ejemplo"><em>"Apunta que el pez payaso está escondido hoy"</em></td></tr><tr><td data-th="Pide">Anotar una alimentación fuera de lo habitual</td><td data-th="Por ejemplo"><em>"Esta mañana no he dado de comer"</em></td></tr><tr><td data-th="Pide">Cambiar un rango de alerta</td><td data-th="Por ejemplo"><em>"Pon la alerta de nitrato de 2 a 10"</em></td></tr><tr><td data-th="Pide">Ejecutar una de tus automatizaciones o escenas</td><td data-th="Por ejemplo"><em>"Ejecuta la escena del cambio de agua"</em></td></tr><tr><td data-th="Pide">Encender o apagar una toma del Apex o empezar una alimentación</td><td data-th="Por ejemplo"><em>"Apaga el skimmer"</em>, <em>"Empieza Feed A"</em></td></tr><tr><td data-th="Pide">Empezar una prueba del Trident</td><td data-th="Por ejemplo"><em>"Empieza una prueba del Trident"</em></td></tr><tr><td data-th="Pide">Dosificar con un cabezal DŌS</td><td data-th="Por ejemplo"><em>"Dosifica 5 mL con el cabezal del yodo"</em></td></tr><tr><td data-th="Pide">Controlar equipos Red Sea™ y Jecod™</td><td data-th="Por ejemplo"><em>"Pausa la bomba de retorno"</em></td></tr><tr><td data-th="Pide">Recordar algo sobre tu sistema</td><td data-th="Por ejemplo"><em>"Recuerda que dosifico en dos partes"</em></td></tr></tbody></table></div>
+<p>Cora solo ofrece lo que tiene el acuario. Si no hay un DŌS en el acuario, no puede dosificar.</p>
+<p>Anotar una prueba, una entrada del diario o una alimentación se hace en cuanto lo pides. Lo que cambia tus equipos o un rango de alerta es distinto: Cora te dice exactamente qué va a cambiar y espera a que digas que sí. No actúa ante una instrucción poco clara. Si una orden pudo ejecutarse pero Cora no pudo confirmarlo, te lo dice. Revisa el equipo antes de volver a pedirlo.</p>
+<p>El control de equipos funciona fuera de casa solo cuando un Cora Max del acuario puede llegar al equipo. Consulta <a href="/es/help/mobile-multi-device#what-works-away-from-home">Qué funciona fuera de casa</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Equipos Beta</p><p>Cora también puede controlar equipos GHL™, HYDROS™, Focustronic™, Maxspect™ y EcoTech™ (Radion, VorTech y Versa). <strong>Beta.</strong> Estas integraciones están en Beta y solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en <strong>Agregar dispositivo</strong>. Para pedir acceso Beta, contacta con el soporte.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Cora aconseja. Tú decides</p><p>Comprueba lo importante con tus propias pruebas. Trata los cambios grandes como tratarías el consejo de cualquier otra persona, y revísalos con sentido común antes de actuar. La línea bajo el cuadro de mensajes dice lo mismo.</p></aside>
+<h2 id="consent">Consentimiento</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: Consentimiento del asistente"><img src="/help/img/mobile-assistant-consent.webp" alt="Consentimiento del asistente" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Dos permisos independientes y la memoria que guarda Cora.</figcaption></figure>
+<p>La primera vez que abres el panel, Cora pregunta <strong>¿Activar la orientación de arrecife personalizada?</strong> <strong>Activar</strong> activa el uso compartido de datos. <strong>Ahora no</strong> lo deja desactivado. Si usas la configuración guiada, su última página hace la misma pregunta.</p>
+<p>Puedes cambiarlo cuando quieras en <strong>Ajustes → Cora Assistant</strong>, que tiene dos interruptores independientes.</p>
+<ul><li><strong>Permitir que el Cora Assistant use los datos guardados del acuario</strong> tiene que estar activado para que Cora Assistant te responda. Si está desactivado, Cora vuelve a mostrar su pantalla de consentimiento antes de tu siguiente mensaje o conversación de voz. La pantalla lista lo que usa Cora Assistant, y <strong>A dónde van tus datos</strong> nombra al proveedor de IA que escribe las respuestas. <strong>Aceptar y continuar</strong> vuelve a activar el interruptor y sigue adelante. <strong>Ahora no</strong> no envía nada y conserva lo que escribiste.</li><li><strong>Contribuir con datos anonimizados del acuario</strong> se explica en <a href="/es/help/mobile-data-export#contributing-anonymised-data">Exportar tus datos y eliminar tu cuenta</a>.</li></ul>
+<h3 id="what-the-switch-covers">Qué cubre el interruptor</h3>
+<p><strong>Permitir que el Cora Assistant use los datos guardados del acuario</strong> no es solo para el chat. Todas las funciones que envían los datos de tu acuario a la IA lo necesitan:</p>
+<ul><li>Cora Assistant, escrito o hablado, en tu teléfono y en Cora Max</li><li>Las subidas de ICP y volver a ejecutar un análisis de ICP</li><li>Los resultados que te envía un laboratorio o un correo</li><li>Los informes de salud</li><li>El dictado del diario y <strong>Analizar</strong> en el diario</li><li><strong>Diseñar con IA</strong> para los paneles</li></ul>
+<p>Con él desactivado, la función te pide permiso primero. Los resúmenes de Reef Buddy siguen llegando, pero con un resumen fijo y sencillo y sin la observación escrita por la IA. En Cora Max, la voz muestra <em>La voz necesita tu autorización</em> hasta que actives el interruptor en Cora Mobile.</p>
+<h2 id="en-que-idioma-responde-cora">En qué idioma responde Cora</h2>
+<p>Cora Assistant usa el idioma de tu cuenta. Es el único idioma de todo el hogar, y se elige en <strong>Ajustes → Idioma</strong>. Cora Assistant no tiene un ajuste de idioma propio. Cámbialo ahí, y desde tu siguiente conversación Cora Assistant escribe y habla en el idioma nuevo. Más información en <a href="/es/help/mobile-settings#language">Ajustes de Cora Mobile</a>.</p>
+<h2 id="que-puede-ver-cora">Qué puede ver Cora</h2>
+<p>La etiqueta encima del cuadro de mensajes, <strong>Usando los datos en directo de tu acuario</strong>, muestra qué datos tiene Cora a mano. Tócala para ver lo que está leyendo: los valores actuales y la antigüedad de cada uno, el historial reciente, tu diario y tus resultados de ICP.</p>
+<p>Si no se puede llegar a tu controlador, la etiqueta dice <strong>Controlador en directo sin conexión: usando datos guardados</strong>. Cora trabaja entonces con las últimas lecturas que tiene.</p>
+<p>Cora Assistant puede mirar hacia atrás unos seis meses del historial de un parámetro. Así que puedes preguntar <em>"Compara los últimos seis meses de mi magnesio con mi último ICP."</em></p>
+<aside class="cal cal-note"><p class="cal-t">Te dice qué antigüedad tienen los datos</p><p>Cora indica la antigüedad de las lecturas que usa. Si tu última lectura de alcalinidad tiene cuatro días, la respuesta lo dice y no la presenta como actual.</p></aside>
 <h2 id="memoria">Memoria</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Ajustes del asistente"><img src="/help/img/mobile-assistant-settings.webp" alt="Ajustes del asistente" width="620" height="1235" loading="lazy" decoding="async"></button><figcaption>Consentimiento, memoria, voz y límites de uso, en Ajustes.</figcaption></figure>
-<aside class="cal cal-note"><p class="cal-t">Qué borra la memoria y qué no</p><p>Al borrarla, desaparece lo que Cora recuerda <em>de tus conversaciones</em> sobre un acuario: su perfil de tu sistema, los temas que estaba siguiendo y todas las sesiones guardadas. Si alguna parte no se puede eliminar, Cora Mobile te dirá que ha fallado y no dará el borrado por hecho.</p>
-<p>Tus <strong>datos del acuario</strong> no se tocan. Lecturas, diario, fauna, mantenimiento e informes son tuyos y se quedan igual. El Asistente olvida la conversación, no el acuario.</p></aside>
-<p>Cora recuerda cosas de tu acuario de una conversación a otra. Por ejemplo, que dosificas en dos partes, que tu acuario de esquejes comparte sump o que intentas subir los nutrientes. Así no tienes que explicarle tu sistema cada vez.</p>
-<p>En <strong>Ajustes → Cora Assistant → Memoria de IA</strong> ves lo que Cora ha guardado sobre tu acuario y puedes restablecerlo. Cada acuario tiene su propia memoria, así que elige primero el acuario.</p>
-<aside class="cal cal-warning"><p class="cal-t">Tus mensajes recientes se quedan</p><p>El restablecimiento no borra los mensajes que has intercambiado con Cora. Durante una media hora, si sigues hablando, Cora todavía ve los últimos.</p></aside>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: Ajustes, Cora Assistant en Cora Mobile"><img src="/help/img/mobile-assistant-settings.webp" alt="Ajustes, Cora Assistant en Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Los dos interruptores de datos, Memoria de IA, Dispositivo que responde y Compartir el análisis de Cora con los laboratorios.</figcaption></figure>
+<p>Cora recuerda cosas de tu acuario de una conversación a otra. Por ejemplo, que dosificas en dos partes, que tu acuario de esquejes comparte sump o que intentas subir los nutrientes. No tienes que explicarle tu sistema cada vez.</p>
+<p><strong>Ajustes → Cora Assistant → Memoria de IA</strong> muestra lo que Cora ha guardado sobre tu acuario y te permite restablecerlo. Cada acuario tiene su propia memoria, así que elige primero el acuario. La fila solo aparece mientras <strong>Permitir que el Cora Assistant use los datos guardados del acuario</strong> está activado.</p>
+<aside class="cal cal-note"><p class="cal-t">Qué afecta borrar la memoria</p><p>Borrarla elimina lo que Cora ha recordado <em>de tus conversaciones</em> sobre un acuario. Es su perfil de tu sistema, los temas que estaba siguiendo y todas las sesiones guardadas. Si alguna parte no se puede eliminar, Cora Mobile te dice que ha fallado.</p>
+<p>Tus <strong>datos del acuario</strong> se quedan como están. Borrar la memoria no elimina lecturas, entradas del diario, fauna, mantenimiento ni informes.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Tus mensajes recientes se quedan</p><p>El restablecimiento no borra los mensajes que has intercambiado con Cora. Durante una media hora después, Cora todavía puede ver los últimos cuando sigues hablando.</p></aside>
 <h2 id="uso">Uso</h2>
-<p>Tu plan incluye un número de mensajes al mes. El contador está encima del cuadro de mensajes. Las conversaciones de voz cuentan para el mismo límite.</p>
+<p>Tu plan incluye una cuota mensual de mensajes. El contador está encima del cuadro de mensajes. Las conversaciones de voz tienen su propio contador mensual, y cada respuesta hablada también gasta mensajes. Cuando se te acaba, Cora muestra <em>Alcanzaste tu límite de mensajes</em> con los planes a los que puedes pasar. Las cifras de cada plan están en <a href="/es/help/mobile-plans">Planes y suscripciones</a>.</p>
 <h2 id="si-una-respuesta-parece-incorrecta">Si una respuesta parece incorrecta</h2>
-<p>Corrígela en la misma conversación. Es lo más rápido y normalmente Cora lo tiene en cuenta después, aunque puede que no lo recuerde siempre.</p>
-<p>Si una respuesta parece equivocada pero muy segura, mira primero la etiqueta de datos. Muchas veces la respuesta es correcta para los datos que recibió, y el problema está en una lectura antigua o en una fuente asignada al acuario equivocado.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-activity"><span>Anterior</span><b>Actividad y línea de tiempo</b></a><a class="pn-n" href="/es/help/mobile-reef-buddy"><span>Siguiente</span><b>Reef Buddy</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-09-27.</p>
+<p>Corrígela en la conversación. Es lo más rápido y normalmente se mantiene, aunque puede que no dure para siempre.</p>
+<p>Si una respuesta suena muy segura pero es incorrecta, mira primero la etiqueta de datos. Muchas veces la respuesta es correcta para los datos que recibió Cora. El problema real es una lectura antigua, o una fuente asignada al acuario equivocado.</p>
+<p>Valora una respuesta con los pulgares que hay debajo. Un pulgar hacia abajo pregunta <em>¿Qué estuvo mal?</em> Elige un motivo, como <strong>Incorrecta</strong> o <strong>No tuvo en cuenta mi acuario</strong>, y toca <strong>Enviar valoración</strong>. Eso es lo que nos ayuda a corregirlo.</p>
+      <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-reef-buddy"><span>Anterior</span><b>Reef Buddy</b></a><a class="pn-n" href="/es/help/mobile-icp-health"><span>Siguiente</span><b>ICP e informes de salud</b></a></nav>
+      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -326,10 +342,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Captura de pantalla");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Cerrar"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -350,55 +366,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Sin resultados para \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Sin resultados para \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Prueba con menos palabras o con otras distintas, o ve a:</p><ul><li><a href=\"/es/help/troubleshooting\">Soluci\u00f3n de problemas</a></li><li><a href=\"/es/help/how-do-i\">\u00bfC\u00f3mo hago...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contactar con soporte</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -430,9 +613,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/es/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';
       });

@@ -1,74 +1,85 @@
 ---
 title: Le journal
-description: Notez ce que vous faites sur votre aquarium, pour retrouver plus tard ce qui a causé quoi.
+description: Écrivez ou dictez ce que vous avez fait sur votre aquarium, notez les repas et interrogez Cora sur une entrée, pour retrouver plus tard ce qui a causé quoi.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 21
+reviewed: 2026-10-13
+order: 24
 group: Records
+twin: max-records
 ---
 
-Le journal garde la trace de ce que vous avez fait sur l’aquarium : changements d’eau, nouveaux habitants, changements de dosage, interventions sur l’équipement et entretien.
+Le journal est l’endroit où vous notez ce que vous avez fait sur l’aquarium : changements d’eau, nouveaux habitants, changements de dosage, interventions sur l’équipement et tout ce qui sort de l’ordinaire. Quand un paramètre bouge sans que vous sachiez pourquoi, le journal montre ce qui a changé autour de cette date.
 
-Il sert à faire des rapprochements plus tard. Quand un paramètre bouge sans raison apparente, le journal vous montre ce qui a changé autour de cette date.
+Touchez **Journal** dans la rangée de boutons sous le tableau de bord pour ouvrir le **Journal de l’aquarium**. Vous le trouvez aussi dans Réglages → votre aquarium → **Journal**.
 
-![Le journal](img/mobile-journal.webp "Entrées en ordre inverse, avec des photos intégrées.")
+![Le journal de l’aquarium dans Cora Mobile](img/mobile-journal.webp "Les entrées, de la plus récente à la plus ancienne, avec des puces de catégorie pour les filtrer.")
 
-## Ajouter une entrée
+## Écrire une entrée {#adding-an-entry}
 
-Touchez le bouton **Journal** qui flotte en bas à droite du tableau de bord.
+Touchez **Nouvelle entrée**. Le formulaire contient :
 
-Décrivez ce que vous avez fait avec des mots simples. Ajoutez une photo si c’est utile : un corail qui se colore, un équipement qui se comporte bizarrement, le résultat d’un test en kit.
+- **TITRE** et **DESCRIPTION**, avec des mots simples
+- **CATÉGORIE** : Observation, Préoccupation, Urgence, Changement ou Étape clé. Une préoccupation ou une urgence reçoit aussi une **GRAVITÉ** (Info, Avertissement ou Critique)
+- **DATE ET HEURE**, qui démarre à maintenant. Changez-la si vous écrivez l’entrée plus tard
+- **ÉTIQUETTES**, pour retrouver les entrées
+- **PHOTOS**, avec **Prendre une photo** ou **Choisir dans la bibliothèque**. Un corail qui se colore, une pompe qui se comporte bizarrement ou le résultat d’un kit de test
+- **Joindre les paramètres de l’eau**, qui enregistre les mesures actuelles de l’aquarium avec l’entrée. C’est ce qui rend une entrée utile des mois plus tard
 
-Vous pouvez aussi **dicter** l’entrée. C’est plus pratique avec les mains mouillées. Parlez, et vos mots sont écrits dans l’entrée.
-
-Chaque entrée reçoit automatiquement le nom de l’aquarium, la date et l’heure.
-
-:::note Pas besoin de style soigné
-Quelques mots suffisent. « Changement d’eau de 20 l, 5 ml d’alcalinité en plus » est une entrée complète. Notez les choses sur le moment. Une entrée reconstituée après coup est moins fiable.
+:::note Gardez les entrées courtes
+Une note courte suffit. « Changement d’eau de 20 l, 5 ml d’alcalinité en plus » dit tout. Écrivez-la sur le moment si vous le pouvez.
 :::
 
-## Quoi noter
+## Dicter une entrée {#dictating}
 
-Voici ce qui compte le plus, à l’usage :
+Le bouton rond Cora intitulé **Journal**, en bas à droite du tableau de bord, enregistre une note vocale, ce qui est plus pratique avec les mains mouillées. Touchez-le, dites ce qui s’est passé (jusqu’à une minute), et touchez-le à nouveau pour arrêter. Cora transforme ce que vous avez dit en une ou plusieurs entrées de journal et vous dit combien il en a enregistré. Le même bouton se trouve sur la chronologie de l’aquarium.
 
-- **Changements d’eau** : combien, et quand
-- **Tout ce qui entre dans l’aquarium** : habitants, roche, média
-- **Changements de dosage** : ce que vous avez changé, et pourquoi
-- **Équipement** : nettoyé, remplacé, déplacé, tombé en panne
-- **Entretien** : écumeur nettoyé, chaussettes changées, pompes révisées
-- **Tout ce qui sort de l’ordinaire** : une coupure de courant, une journée de canicule, un débordement
+La dictée utilise Cora Assistant. Si vous ne l’avez pas encore autorisé à utiliser les données de votre aquarium, Cora vous le demande d’abord.
 
-## Alimentation
+## Que noter {#what-to-record}
 
-Dites une fois à Cora comment vous nourrissez d’habitude, puis notez seulement les exceptions.
+Voici ce qui compte le plus en général :
 
-Pour régler votre routine, ouvrez **Modifier l’aquarium** (le crayon en haut du tableau de bord) et touchez **Routine d’alimentation**. Une carte du tableau de bord, **Comment nourris-tu d’habitude ?**, vous y conduit avec **Configurer la routine** tant que ce n’est pas fait. Pour chaque aliment, indiquez l’aliment, une **Quantité**, une **Unité** (cube, pincée, g, ml, goutte, mesure ou feuille) et **Fois par jour**. Touchez **Ajouter un aliment** pour en ajouter. Activez **J’utilise un distributeur automatique** si un distributeur nourrit à votre place : ses repas comptent alors dans la routine. Sous **Poids des portions (facultatif)**, vous pouvez indiquer ce que pèse un cube ou une pincée, pour que Cora compare les repas dans le temps en grammes.
+- Les changements d’eau : combien, et quand
+- Tout ce qui est nouveau dans l’aquarium : habitants, pierres, médias
+- Les changements de dosage : ce que vous avez changé et pourquoi
+- L’équipement : nettoyé, remplacé, déplacé, tombé en panne
+- Tout ce qui sort de l’ordinaire : une coupure de courant, une journée de canicule, un renversement
 
-Quand une journée diffère de la routine, touchez **Alimentation** dans la rangée de boutons sous les widgets. La feuille **Noter une exception d’alimentation** propose trois choix : **Repas en plus**, **Repas sauté** et **Aliment ou quantité modifié**. Vous pouvez ajouter une **Quantité (facultatif)**. Chacun est une entrée de journal ordinaire, et Reef Buddy s’en sert, pour qu’un aquarium stable ne soit pas accusé d’une gourmandise que vous lui avez donnée.
+Certaines entrées sont écrites pour vous. Terminer une tâche d’[entretien](/help/mobile-maintenance) en ajoute une, tout comme **Enregistrer la dose donnée** dans le [calculateur de dose](/help/mobile-dosing#the-dose-calculator).
 
-Autres façons de noter un repas :
+## Alimentation {#feeding}
 
-- Sur un Neptune Apex, un cycle de nourrissage A à D est noté quand le Cora Max qui lit votre Apex le voit démarrer. Cela couvre un cycle lancé sur l’Apex, dans Apex Fusion ou par le programme propre de l’Apex.
-- Dites à Cora Assistant, à la voix ou dans un chat, quelque chose comme *« Note que j’ai donné du mysis. »* Il écrit l’entrée pour vous.
+Dites une fois à Cora comment vous nourrissez d’habitude, puis ne notez que les exceptions.
 
-## Modifier ou supprimer une entrée
+Pour régler votre routine, ouvrez **Modifier l’aquarium** (le crayon en haut du tableau de bord) et touchez **Routine d'alimentation**. Une carte sur le tableau de bord, **Comment nourris-tu d'habitude ?**, vous y mène avec **Configurer la routine** tant que vous ne l’avez pas fait. Pour chaque aliment, indiquez l’aliment, une **Quantité**, une **Unité** (cube, pincée, g, ml, goutte, cuillère ou feuille) et le nombre de **Fois par jour**. Touchez **Ajouter un aliment** pour en ajouter d’autres. Activez **J'utilise un distributeur automatique** si un appareil nourrit à votre place, et ses repas comptent dans la routine. Sous **Poids des portions (facultatif)**, vous pouvez indiquer ce que pèse un cube ou une pincée, pour que Cora puisse comparer les repas dans le temps en grammes.
 
-Touchez une entrée pour l’ouvrir et la modifier. Pour la supprimer, faites-la glisser et confirmez. Cora vous demande confirmation parce qu’une entrée écrite sur le moment ne peut pas être reconstituée plus tard.
+Quand une journée sort de la routine, touchez **Alimentation** dans la rangée de boutons sous les widgets, ou l’icône d’alimentation en haut du journal. La feuille **Noter une exception d'alimentation** propose trois choix : **Repas en plus**, **Repas sauté** et **Aliment ou quantité modifié**. Vous pouvez ajouter une **Quantité (facultatif)**. Chacun est une entrée de journal ordinaire, et Reef Buddy s’en sert, pour qu’un aquarium stable ne soit pas mis en cause pour une gâterie que vous lui avez donnée.
 
-## Interroger Cora sur une entrée
+Autres façons dont un repas est noté :
 
-Une entrée marquée comme **préoccupation** ou **urgence** propose le bouton **Analyser**. Il transmet l’entrée à [Cora Assistant](/help/mobile-assistant), avec les mesures de l’aquarium autour de la même date, et vous renvoie une analyse. Servez-vous-en quand vous avez noté quelque chose qui vous inquiète et que vous voulez un deuxième avis.
+- Sur un Neptune Apex, un cycle de nourrissage A à D est enregistré quand le Cora Max qui lit votre Apex le voit démarrer. Cela couvre un cycle lancé sur l’Apex, dans Apex Fusion ou par le propre programme de l’Apex.
+- Dites à Cora Assistant, à la voix ou dans une conversation, quelque chose comme *« Note que j’ai nourri au mysis. »* Il écrit l’entrée pour vous.
 
-## Relire le journal
+## Modifier et supprimer des entrées {#editing}
 
-Le journal est une chronologie par aquarium, du plus récent au plus ancien. Les photos s’affichent dans le fil.
+Touchez une entrée pour l’ouvrir et la modifier. Pour en supprimer une, balayez-la vers la gauche et confirmez. Une entrée supprimée ne peut pas être récupérée.
 
-Pour y voir plus clair dans un long journal, filtrez par catégorie : observations, préoccupations ou urgences.
+## Interroger Cora sur une entrée {#analyze}
 
-L’Assistant lit le journal. Pour répondre à une question comme *« quand ai-je changé l’eau pour la dernière fois ? »*, il s’appuie sur vos entrées et sur vos mesures.
+Une entrée de la catégorie **Préoccupation** ou **Urgence** a un bouton **Analyser**. Il envoie l’entrée, avec les mesures de l’aquarium autour de la même date, à [Cora Assistant](/help/mobile-assistant), et l’évaluation apparaît sur l’entrée. Utilisez-le quand vous avez noté quelque chose qui vous inquiète et que vous voulez un deuxième avis.
 
-## Sur Cora Max
+## Le relire {#reading-it-back}
 
-Vous pouvez aussi ajouter des entrées sur Cora Max. C’est souvent plus pratique quand vous êtes devant l’aquarium. Ouvrez le journal depuis le menu de l’aquarium, ou dictez une entrée à la voix.
+Chaque aquarium a son propre journal, de la plus récente à la plus ancienne entrée, avec les photos intégrées.
 
-L’écran du journal sur Cora Max a aussi des boutons **Repas en plus** et **Repas sauté**, avec une ligne qui montre votre routine d’alimentation. Si vous n’en avez pas réglé, la ligne indique *Définissez votre routine d’alimentation dans l’app mobile*, car la routine se règle dans Cora Mobile.
+Pour réduire un long journal, touchez une puce de catégorie en haut : **Observation**, **Préoccupation**, **Urgence**, **Changement** ou **Étape clé**.
+
+L’icône **Chronologie de l’aquarium** en haut ouvre l’histoire de l’aquarium, où les entrées du journal côtoient l’entretien, la population, les tests d’eau et les alertes. Voir [Activité et chronologie](/help/mobile-activity#tank-timeline).
+
+Cora Assistant lit aussi le journal. Il répond à des questions comme *« quand ai-je changé l’eau pour la dernière fois ? »* à partir de vos entrées comme de vos mesures.
+
+## Sur Cora Max {#on-cora-max}
+
+Vous pouvez aussi ajouter des entrées de journal sur Cora Max, ce qui est pratique quand vous êtes devant l’aquarium. Ouvrez le journal depuis le menu de l’aquarium, ou dictez une entrée.
+
+L’écran du journal sur Cora Max a aussi les boutons **Repas en plus** et **Repas sauté**, avec une ligne qui affiche votre routine d’alimentation. Si vous n’en avez pas réglé, la ligne indique *Définissez votre routine d’alimentation dans l’app mobile*, car la routine se règle dans Cora Mobile. Plus de détails dans [Journal, population et entretien](/help/max-records) sur Cora Max.

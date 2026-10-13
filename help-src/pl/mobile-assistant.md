@@ -1,93 +1,137 @@
 ---
-title: Rozmowa z Corą
-description: Jak korzystać z Cora Assistant: pisanie, głos, co widzi i co może zmienić.
+title: Pytania do Cory
+description: Korzystaj z Cora Assistant, pisząc albo mówiąc, i sprawdź, co widzi, co może dla Ciebie zrobić, jak działa przełącznik udostępniania danych i pamięć.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 23
+reviewed: 2026-10-13
+order: 30
 group: Intelligence
+twin: max-voice
 ---
 
-Cora Assistant odpowiada na pytania o akwarium zwykłym językiem. Widzi Twoje odczyty na żywo, historię i wyniki laboratoryjne, więc mówi o *Twoim* akwarium, a nie o rafach ogólnie.
+Cora Assistant odpowiada na pytania o akwarium zwykłym językiem, a na Twoją prośbę może też coś zapisać i sterować sprzętem. Widzi Twoje odczyty na żywo, historię i wyniki z laboratorium, więc odpowiada o *Twoim* akwarium.
 
 Otworzysz go w zakładce **Asystent**.
 
-![Cora Assistant](img/mobile-assistant.webp "Wybierz akwarium, potem pisz albo mów.")
+![Odpowiedź Cora Assistant o alkaliczności w Cora Mobile](img/mobile-assistant.webp "Odpowiedź zbudowana z danych akwarium na żywo, z liczbą wiadomości w tym miesiącu nad polem.")
 
 ## Najpierw wybierz akwarium
 
-Przełącznik akwarium na górze decyduje, o czym rozmawia Cora. Wszystko pod nim, czyli Twoje pytania i odpowiedzi Cory, dotyczy tylko tego akwarium.
+Wybór akwarium na górze ustala, o czym mówi Cora. Pytania, które wpisujesz, i odpowiedzi, które dostajesz, należą do tego akwarium.
 
 ## Pisanie
 
-Wpisz pytanie w pole na dole i wyślij. Możesz zapytać na przykład:
+Wpisz pytanie w pole na dole i wyślij. Jeśli nie wiesz, od czego zacząć, dotknij jednej z propozycji w **Spróbuj zapytać**. Warto zapytać na przykład:
 
 - *„Dlaczego spada mi alkaliczność?”*
 - *„Co się zmieniło od zeszłego tygodnia?”*
 - *„Czy mam dobry poziom wapnia jak na akwarium SPS?”*
-- *„Kiedy była ostatnia podmiana wody?”*
-- *„Wyłącz odpieniacz na godzinę.”*
+- *„Kiedy ostatnio była podmiana wody?”*
 
-## Rozmowa głosowa
+Żeby zachować odpowiedź, dotknij **Zapisz w dzienniku** pod nią. Trafi do [dziennika](/help/mobile-journal) akwarium.
 
-Dotknij **Zacznij rozmowę głosową**, żeby rozmawiać na żywo. Cora słucha, odpowiada na głos i słucha dalej, dopóki jej nie zatrzymasz. To wygodniejsze, gdy masz mokre ręce.
+## Mówienie
+
+Dotknij **Zacznij rozmowę głosową**, żeby rozmawiać na zmianę. Cora słucha, odpowiada na głos i słucha dalej, dopóki jej nie zatrzymasz. Przydaje się, gdy masz mokre ręce.
+
+Gdy Cora mówi, dotknij **Dotknij, aby przerwać**, żeby wejść jej w słowo. Gdy skończysz, dotknij **Zatrzymaj rozmowę**.
+
+## Co Cora może dla Ciebie zrobić {#what-cora-can-change}
+
+Oprócz odpowiadania Cora może coś zrobić w wybranym akwarium. Poproś własnymi słowami.
+
+| Poproś o | Na przykład |
+|---|---|
+| Zapisanie testu zrobionego ręcznie | *„Zapisz alkaliczność 8,1”* |
+| Wpis w dzienniku | *„Zanotuj, że błazenek dziś się chowa”* |
+| Zapisanie karmienia innego niż zwykle | *„Zapisz pominięcie porannego karmienia”* |
+| Zmianę zakresu alertu | *„Ustaw alert azotanów na 2 do 10”* |
+| Uruchomienie jednej z automatyzacji albo scen | *„Uruchom scenę podmiany wody”* |
+| Przełączenie gniazda Apex albo uruchomienie karmienia | *„Wyłącz odpieniacz”*, *„Uruchom Feed A”* |
+| Uruchomienie testu Trident | *„Uruchom test Trident”* |
+| Dawkę z głowicy DŌS | *„Podaj 5 mL z głowicy z jodem”* |
+| Sterowanie sprzętem Red Sea i Jecod | *„Wstrzymaj pompę powrotną”* |
+| Zapamiętanie czegoś o Twoim systemie | *„Zapamiętaj, że dozuję metodą dwuskładnikową”* |
+
+Cora proponuje tylko to, co ma akwarium. Jeśli w akwarium nie ma DŌS, nie może dozować.
+
+Zapisanie testu, wpisu w dzienniku albo karmienia dzieje się od razu, gdy o to poprosisz. Wszystko, co zmienia sprzęt albo zakres alertu, działa inaczej: Cora mówi dokładnie, co zamierza zmienić, i czeka na Twoje „tak”. Na niejasne polecenie nie zareaguje. Jeśli polecenie mogło się wykonać, ale Cora nie mogła tego potwierdzić, powie o tym. Sprawdź sprzęt, zanim poprosisz ponownie.
+
+Sterowanie sprzętem działa poza domem tylko wtedy, gdy Cora Max przy akwarium może połączyć się ze sprzętem. Zobacz [Co działa poza domem](/help/mobile-multi-device#what-works-away-from-home).
+
+:::note Sprzęt Beta
+Cora może też sterować sprzętem GHL, HYDROS, Focustronic, Maxspect i EcoTech (Radion, VorTech i Versa). **Beta.** Te integracje są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną.
+:::
+
+:::warning Cora doradza. Ty decydujesz
+Wszystko ważne sprawdzaj własnymi testami. Do dużych zmian podchodź tak jak do rady od kogokolwiek innego i zweryfikuj je, zanim zaczniesz działać. To samo mówi linijka pod polem wiadomości.
+:::
 
 ## Zgoda
 
 ![Zgoda Asystenta](img/mobile-assistant-consent.webp "Dwie osobne zgody i pamięć, którą prowadzi Cora.")
 
-W **Ustawienia → Cora Assistant** są dwa niezależne przełączniki:
+Gdy pierwszy raz otworzysz pulpit, Cora zapyta **Włączyć spersonalizowane wskazówki rafowe?** **Włącz** włącza udostępnianie danych. **Nie teraz** zostawia je wyłączone. Jeśli korzystasz z prowadzonej konfiguracji, jej ostatnia strona zadaje to samo pytanie.
 
-- **Pozwól Cora Assistant korzystać z zapisanych danych akwarium**. Bez tego Cora Assistant nie odpowie. Gdy przełącznik jest wyłączony, przed kolejną wiadomością albo rozmową głosową znów pojawi się ekran zgody. Ekran pokazuje, z czego korzysta Cora Assistant, a w części **Dokąd idą Twoje dane** podaje, który dostawca AI pisze odpowiedzi. **Zgadzam się i kontynuuję** włącza przełącznik i przechodzi dalej. **Nie teraz** niczego nie wysyła i zostawia wpisany tekst.
-- **Udostępniaj zanonimizowane dane akwarium**. Więcej o tym w [Twoich danych](/help/mobile-data-export).
+Możesz to zmienić w każdej chwili w **Ustawienia → Cora Assistant**, gdzie są dwa osobne przełączniki.
+
+- **Pozwól Cora Assistant korzystać z zapisanych danych akwarium** musi być włączone, żeby Cora Assistant Ci odpowiadał. Jeśli jest wyłączone, Cora przed kolejną wiadomością albo rozmową głosową znów pokaże ekran zgody. Ekran wymienia, z czego korzysta Cora Assistant, a **Dokąd idą Twoje dane** podaje dostawcę AI, który pisze odpowiedzi. **Zgadzam się i kontynuuję** włącza przełącznik z powrotem i przechodzi dalej. **Nie teraz** niczego nie wysyła i zachowuje wpisany tekst.
+- **Udostępniaj zanonimizowane dane akwarium** opisuje [Eksport danych i usuwanie konta](/help/mobile-data-export#contributing-anonymised-data).
+
+### Czego dotyczy przełącznik {#what-the-switch-covers}
+
+**Pozwól Cora Assistant korzystać z zapisanych danych akwarium** nie dotyczy tylko czatu. Potrzebuje go każda funkcja, która wysyła dane akwarium do AI:
+
+- Cora Assistant, pisany albo mówiony, w telefonie i na Cora Max
+- Przesyłanie ICP i ponowne uruchamianie analizy ICP
+- Wyniki z laboratorium, które przysyła Ci laboratorium albo e-mail
+- Raporty zdrowia
+- Dyktowanie wpisów w dzienniku i **Analizuj** w dzienniku
+- **Zaprojektuj z AI** dla pulpitów
+
+Gdy jest wyłączony, funkcja najpierw prosi o Twoją zgodę. Podsumowania Reef Buddy nadal przychodzą, ale ze zwykłym stałym tekstem i bez obserwacji napisanej przez AI. Na Cora Max głos pokazuje *Głos wymaga Twojej zgody*, dopóki nie włączysz przełącznika w Cora Mobile.
 
 ## W jakim języku odpowiada Cora
 
-Cora Assistant używa **języka konta**. To jeden język dla całego domu, ustawiany w **Ustawienia → Język**. Asystent nie ma osobnego ustawienia. Zmień język tam, a przy następnej rozmowie Cora Assistant będzie pisać i mówić w nowym języku. Więcej w [Ustawieniach](/help/mobile-settings).
+Cora Assistant używa języka Twojego konta. To jeden język dla całego domu, ustawiany w **Ustawienia → Język**. Cora Assistant nie ma własnego ustawienia języka. Zmień go tam, a od następnej rozmowy Cora Assistant będzie pisać i mówić w nowym języku. Więcej w [Ustawieniach Cora Mobile](/help/mobile-settings#language).
 
 ## Co widzi Cora
 
-Etykieta nad polem wiadomości, **Korzystanie z danych akwarium na żywo**, pokazuje, do czego Cora ma dostęp. Dotknij jej, a zobaczysz dokładnie, co czyta: bieżące wartości i ich wiek, niedawną historię, Twój dziennik i wyniki ICP.
+Chip nad polem wiadomości, **Korzystanie z danych akwarium na żywo**, pokazuje, co jest brane pod uwagę. Dotknij go, żeby zobaczyć, co czyta Cora: bieżące wartości i wiek każdej z nich, niedawną historię, Twój dziennik i wyniki ICP.
 
-Cora Assistant sięga też do około sześciu miesięcy historii parametru. Możesz więc zapytać: *„Porównaj mój magnez z ostatnich sześciu miesięcy z najnowszym ICP”*.
+Jeśli kontroler jest nieosiągalny, chip pokazuje **Kontroler na żywo offline: korzystanie z zapisanych danych**. Cora pracuje wtedy na ostatnich odczytach, które ma.
 
-:::note Cora mówi, kiedy czegoś nie wie
-Cora podaje, jak stare są odczyty, na których się opiera. Jeśli ostatni odczyt alkaliczności ma cztery dni, odpowiedź powie to wprost. Nie poda tej wartości jako bieżącej.
-:::
+Cora Assistant sięga do około sześciu miesięcy historii parametru. Możesz więc zapytać *„Porównaj magnez z ostatnich sześciu miesięcy z moim najnowszym ICP.”*
 
-## Co Cora może zmienić
-
-Cora potrafi też działać na akwarium: przełączyć gniazdo, uruchomić karmienie, zmienić ustawienie.
-
-Wszystko, co dotyczy sprzętu, **wymaga potwierdzenia**. Cora pokaże dokładnie, co się zmieni, i poprosi o zgodę. Na niejasne polecenie nie zareaguje.
-
-:::warning Cora doradza, ale nie decyduje
-Rada Cory to tylko rada. Wszystko ważne sprawdź własnym testem. Do dużych zmian podchodź tak jak do rady od kogokolwiek innego i najpierw ją zweryfikuj. To samo mówi linijka pod polem wiadomości.
+:::note Mówi, jak stare są dane
+Cora podaje wiek odczytów, z których korzysta. Jeśli ostatni odczyt alkaliczności ma cztery dni, odpowiedź o tym powie i nie poda go jako bieżącego.
 :::
 
 ## Pamięć
 
-![Ustawienia Asystenta](img/mobile-assistant-settings.webp "Zgoda, pamięć, głos i limity użycia w Ustawieniach.")
+![Ustawienia, Cora Assistant w Cora Mobile](img/mobile-assistant-settings.webp "Dwa przełączniki danych, Pamięć AI, Urządzenie odpowiadające i Udostępniaj laboratoriom analizę Cora.")
 
-:::note Co usuwa czyszczenie pamięci, a czego nie
-Czyszczenie usuwa to, co Cora zapamiętała *z Waszych rozmów* o jednym akwarium: profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało. Nie zgłosi sukcesu.
+Cora pamięta różne rzeczy o akwarium z rozmowy na rozmowę. Na przykład to, że dozujesz metodą dwuskładnikową, że akwarium z fragami ma wspólny sump albo że próbujesz podnieść poziom składników odżywczych. Nie musisz za każdym razem tłumaczyć swojego systemu.
 
-**Dane akwarium** zostają nietknięte. Odczyty, dziennik, obsada, konserwacja i raporty należą do Ciebie i zostają bez zmian. Po wyczyszczeniu pamięci Asystent zapomina rozmowy, a nie akwarium.
+**Ustawienia → Cora Assistant → Pamięć AI** pokazuje, co Cora zapisała o Twoim akwarium, i pozwala to zresetować. Każde akwarium ma własną pamięć, więc najpierw wybierz akwarium. Ten wiersz widać tylko wtedy, gdy **Pozwól Cora Assistant korzystać z zapisanych danych akwarium** jest włączone.
+
+:::note Co usuwa czyszczenie pamięci
+Czyszczenie usuwa to, co Cora zapamiętała *z Waszych rozmów* o jednym akwarium. To jej profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało.
+
+Twoje **dane akwarium** zostają bez zmian. Czyszczenie pamięci nie usuwa odczytów, wpisów w dzienniku, obsady, konserwacji ani raportów.
 :::
-
-Cora pamięta między rozmowami różne rzeczy o akwarium. Na przykład to, że dozujesz metodą dwuskładnikową, że akwarium z fragami ma wspólny sump albo że próbujesz podnieść poziom składników odżywczych. Dzięki temu nie musisz za każdym razem od nowa opisywać swojego systemu.
-
-W **Ustawienia → Cora Assistant → Pamięć AI** zobaczysz, co Cora zapisała o Twoim akwarium, i możesz to zresetować. Każde akwarium ma własną pamięć, więc najpierw wybierz akwarium.
 
 :::warning Ostatnie wiadomości zostają
-Reset nie usuwa wiadomości z Twojej rozmowy z Corą. Jeśli wrócisz do rozmowy, przez mniej więcej pół godziny Cora nadal widzi kilka ostatnich.
+Reset nie usuwa wiadomości wymienionych z Corą. Przez mniej więcej pół godziny po nim Cora nadal widzi kilka ostatnich, gdy rozmawiasz dalej.
 :::
 
-## Limit wiadomości
+## Wykorzystanie
 
-Twój plan ma miesięczny limit wiadomości. Licznik jest nad polem wiadomości. Rozmowy głosowe liczą się do tego samego limitu.
+Twój plan obejmuje miesięczny limit wiadomości. Licznik jest nad polem wiadomości. Rozmowy głosowe mają własny miesięczny licznik, a każda odpowiedź głosowa zużywa też wiadomości. Gdy limit się skończy, Cora pokaże *Limit wiadomości został osiągnięty* z planami, na które możesz przejść. Liczby dla każdego planu są w [Planach i subskrypcjach](/help/mobile-plans).
 
 ## Gdy odpowiedź wydaje się błędna
 
-Popraw Corę w rozmowie. To najszybszy sposób i zwykle działa także w kolejnych rozmowach, choć nie ma gwarancji, że na zawsze.
+Popraw ją w rozmowie. To najszybszy sposób i zwykle działa na dłużej, choć nie musi na zawsze.
 
-Jeśli odpowiedź brzmi pewnie, ale się nie zgadza, najpierw sprawdź etykietę danych. Często odpowiedź jest poprawna dla danych, które Cora dostała, a prawdziwym problemem jest stary odczyt albo źródło przypisane do niewłaściwego akwarium.
+Jeśli odpowiedź brzmi pewnie, ale jest błędna, najpierw sprawdź chip danych. Często odpowiedź jest prawidłowa dla danych, które dostała Cora. Prawdziwym problemem jest nieaktualny odczyt albo źródło przypisane do niewłaściwego akwarium.
+
+Oceń odpowiedź kciukami pod nią. Kciuk w dół pyta *Co było z tym nie tak?* Wybierz powód, na przykład **Błędna** albo **Nie uwzględniła mojego akwarium**, i dotknij **Wyślij ocenę**. To pomaga nam to naprawić.

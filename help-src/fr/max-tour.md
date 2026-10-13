@@ -1,102 +1,111 @@
 ---
 title: L’écran d’accueil de Cora Max
-description: Tout ce que vous voyez sur Cora Max : la barre du haut, la grille du tableau de bord et le tiroir des prises.
+description: Ce que veulent dire la barre du haut, l’étiquette d’état, les étiquettes d’alerte, le menu de l’aquarium et le tableau de bord sur Cora Max, et comment changer d’aquarium et ouvrir Prises et nourrissage.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 2
 group: Getting started
+twin: mobile-tour
 ---
 
-Cora Max affiche un aquarium à la fois, en plein écran, avec des mesures en direct lisibles depuis l’autre bout de la pièce.
+Cette page explique ce que vous voyez sur Cora Max. Il affiche un aquarium à la fois, avec les mesures en direct sur tout l’écran pour que vous puissiez les lire depuis l’autre bout de la pièce.
 
-![L’écran d’accueil de Cora Max](img/max-home.webp "Un aquarium, remplissant l’écran.")
+![L’écran d’accueil de Cora Max avec les jauges, valeurs, graphiques et tuiles d’appareils d’un aquarium sous la barre du haut](img/max-home.webp "Le tableau de bord d’un aquarium remplit l’écran, avec la barre du haut au-dessus.")
 
-## La barre du haut
+## La barre du haut {#the-top-bar}
+
+![La barre du haut de Cora Max](img/max-topbar.webp "La barre du haut, numérotée de gauche à droite comme la liste ci-dessous.")
 
 De gauche à droite :
 
-- **L’icône de grille** ouvre la Pièce du récif, la vue d’ensemble de tous les aquariums de cet écran
-- **Le nom de l’aquarium**, avec une petite flèche. Touchez-le pour ouvrir le **menu de l’aquarium**, qui mène à tous les écrans de l’aquarium affiché, de la saisie d’un test à la disposition du tableau de bord. La liste complète est plus bas.
-- **Les alertes** : tout ce qui est hors plage en ce moment. S’il y en a trop pour tout afficher, vous voyez **+2** (ou le nombre restant). Touchez pour les voir toutes.
-- **L’horloge**
-- **L’étiquette d’état** : ce que fait cet écran en ce moment. Vert, tout va bien. Orange, il faut y jeter un œil. Rouge, quelque chose est en panne. Toutes les étiquettes sont expliquées plus bas.
-- **La batterie et le Wi-Fi**
-- **L’icône des appareils** : tout ce qui est connecté, et comment ça se porte
-- **L’icône Reef Buddy** ouvre le briefing du jour. Un point veut dire que vous ne l’avez pas encore lu.
-- **L’icône Cora Assistant** lance une conversation vocale
-- **La roue dentée** ouvre les réglages
+1. **L’icône de grille** ouvre [la Pièce du récif](/help/max-reef-room), la vue d’ensemble de tous les aquariums affichés par cet écran.
+2. **Le nom de l’aquarium**, avec une petite flèche. Touchez-le pour ouvrir le **menu de l’aquarium**, qui contient tous les écrans de l’aquarium affiché. La liste complète est plus bas.
+3. **Les étiquettes d’alerte** montrent ce qui demande votre attention en ce moment : mesures hors plage, pannes d’appareils, doses manquées ou consommables bas. Touchez une étiquette pour ramener cette alerte au milieu de l’écran. S’il y en a plus que la place ne le permet, vous verrez **+2** (ou le nombre qui convient). Touchez-le pour voir toutes les alarmes actives.
+4. **L’horloge**. Vous pouvez la masquer avec **Afficher l’horloge** dans **Réglages → Réglages Cora Max**.
+5. **L’étiquette d’état** indique ce que fait cet écran en ce moment. Vert veut dire que tout va bien, bleu qu’il est occupé, orange qu’il faut regarder, et rouge signale une panne. Tous les états sont listés plus bas.
+6. **La batterie et le Wi-Fi**.
+7. **L’icône des appareils** ouvre **Appareils**, filtré sur cet aquarium. Un aquarium sans appareil ne l’affiche pas.
+8. **L’icône Reef Buddy** ouvre le briefing du jour. Un point veut dire que vous ne l’avez pas encore lu.
+9. **L’icône Cora Assistant** lance une conversation vocale.
+10. **La roue dentée** ouvre les réglages.
 
-### Les étiquettes d’état
+:::warning Cora Assistant commence à écouter tout de suite
+Toucher l’icône Cora Assistant lance une session vocale en direct. Si vous vouliez les réglages, c’est la roue dentée tout à droite.
+:::
+
+### Ce que veut dire l’étiquette d’état {#what-the-status-pill-means}
 
 | Étiquette | Signification |
 |---|---|
-| **En ligne** | Cet écran récupère vos mesures, et elles sont à jour |
-| **Cloud** | Un autre Cora récupère les mesures de cet aquarium, et cet écran les affiche. Elles sont aussi à jour qu’avec **En ligne**. Si vous avez plusieurs Cora, c’est ce qu’affiche l’écran qui ne récupère pas les mesures |
-| **Interrogation de l’Apex**, **Voix active** | Une tâche est en cours |
-| **Interrogation désactivée** | La récupération des mesures est coupée pour cet aquarium. Vous pouvez la réactiver dans Cora Mobile |
-| **Mise à jour** | La récupération est en pause pendant l’installation d’une mise à jour |
-| **Obsolète** | Les mesures n’arrivent plus. L’écran affiche la dernière reçue |
+| **En ligne** | Cet écran collecte vos mesures, et elles sont à jour |
+| **Cloud** | Un autre Cora collecte les mesures de cet aquarium et cet écran les affiche. Elles sont tout aussi à jour qu’avec **En ligne**. Si vous avez plusieurs Cora, celui qui ne collecte pas affiche ceci |
+| **Interrogation de l’Apex**, **Voix active** | Occupé à quelque chose en ce moment (bleu) |
+| **Interrogation désactivée** | La collecte est désactivée pour cet aquarium. Vous pouvez la réactiver dans Cora Mobile |
+| **Mise à jour** | La collecte est en pause pendant l’installation d’une mise à jour |
+| **Obsolète** | Les mesures n’arrivent plus. L’écran affiche les dernières reçues |
 | **Nouvelle tentative Apex dans 12 s** | Votre Apex n’a pas répondu. Cora Max réessaie à la fin du compte à rebours |
-| **Échec de la synchronisation cloud** | Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées sur Cora Cloud. Le tableau de bord prend donc du retard. Cora Max continue de réessayer |
-| **Enregistrement cloud refusé** | Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne cloche avec votre aquarium ni avec Cora Max, et il n’y a rien à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez **Réglages → Réglages Cora Max → Mise à jour du micrologiciel** et regardez la section **État** : la ligne **Enregistrement cloud** indique les données concernées. Puis [contactez le support](/support.html) |
-| **Hors ligne** | Aucune connexion. L’écran affiche les dernières données reçues |
-| **Hors ligne, nouvelle tentative dans 45 s** | Votre réseau fonctionne, mais Cora Cloud ne répond plus depuis plus de 30 secondes. Cora Max se reconnecte tout seul. Le compte à rebours indique le temps avant le prochain essai |
-| **Cora principal hors ligne** | Cet écran est un deuxième Cora Max pour cet aquarium, et le **Cora Max principal** (celui qui est épinglé pour interroger l’équipement de cet aquarium) est hors ligne. Cet écran garde les dernières données reçues jusqu’au retour du principal, ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device) |
-| **Mot de passe Apex** | Votre Apex a refusé le mot de passe enregistré. Voir [Résolution de problèmes](/help/troubleshooting) |
+| **Échec de la synchronisation cloud** | Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées dans Cora Cloud, donc le tableau de bord prend du retard. Cora Max continue d’essayer |
+| **Enregistrement cloud refusé** | Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne va mal avec votre aquarium ni avec Cora Max, et rien n’est à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez **Réglages → Réglages Cora Max** et faites défiler jusqu’à la section **État**, où la ligne **Enregistrement cloud** indique quelles données sont concernées. Puis [contactez l’assistance](/support.html) |
+| **Hors ligne** | Pas de connexion. L’écran affiche les dernières données reçues |
+| **Hors ligne, nouvelle tentative dans 45 s** | Votre réseau fonctionne, mais Cora Cloud est injoignable depuis plus de 30 secondes. Cora Max se reconnecte tout seul, et le compte à rebours indique quand il réessaie |
+| **Cora principal hors ligne** | Cet écran est un deuxième Cora Max pour cet aquarium, et le **Cora Max principal** (celui épinglé pour lire l’équipement de cet aquarium) s’est déconnecté. Cet écran continue d’afficher les dernières données qu’il a jusqu’au retour du principal ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device) |
+| **Mot de passe Apex** | Votre Apex a refusé le mot de passe enregistré. Consultez [Résolution de problèmes](/help/troubleshooting) |
 
-:::note Comment Cora Max réessaie
-Cora Max tente de se reconnecter à un rythme fixe : environ 15 secondes après la coupure, encore 15 secondes après, puis deux fois à 30 secondes, puis une fois par minute jusqu’à ce que ça marche. Il ne réessaie pas en boucle et n’abandonne pas non plus. Un écran qui affiche **Hors ligne, nouvelle tentative dans 45 s** fonctionne normalement.
+:::note Comment fonctionne le compte à rebours
+Cora Max essaie de se reconnecter à un rythme régulier. Il attend environ 15 secondes après la première coupure, puis encore 15 secondes, puis 30 secondes deux fois, puis une fois par minute jusqu’à ce que cela passe. Il n’abandonne jamais. **Hors ligne, nouvelle tentative dans 45 s** est normal.
 :::
 
-:::warning Cora Assistant écoute dès que vous touchez l’icône
-L’icône Cora Assistant lance tout de suite une session vocale. Si vous vouliez ouvrir les réglages, c’est la roue dentée, tout à droite.
-:::
+## Le tableau de bord {#the-dashboard}
 
-## Le tableau de bord
+Le reste de l’écran est le tableau de bord, une grille fixe qui garde chaque widget visible. Il ne défile pas.
 
-Le reste de l’écran, c’est le tableau de bord : une grille fixe de widgets, tous visibles en même temps. Le tableau de bord de Cora Max ne défile pas.
+Les widgets fonctionnent comme sur votre téléphone, mais assez grands pour être lus à quelques pas. Ce que montre chaque forme est dans la [Référence des widgets](/help/mobile-widgets). Pour changer ce qu’il y a sur le tableau de bord, voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
 
-Les widgets fonctionnent comme sur votre téléphone, mais en assez grand pour être lus avec du recul. Chaque forme de widget est décrite dans la **[Référence des widgets](/help/mobile-widgets)**. Pour changer ce qui s’affiche, voir **[Modifier le tableau de bord Cora Max](/help/max-dashboard-editing)**.
+Chaque widget avec un paramètre mesuré affiche son **âge** et sa **source**, comme sur votre téléphone. Un nombre avec `2 j` à côté a deux jours. Les tuiles d’appareils et de commandes affichent plutôt leur propre état.
 
-Comme sur le téléphone, chaque widget qui affiche une mesure indique son **âge** et sa **source**. Un chiffre accompagné de `2d` date de deux jours, et c’est affiché. Les tuiles d’appareil et de commande affichent leur propre état.
+### Quand l’écran est atténué {#when-the-screen-is-dimmed}
 
-## Le menu de l’aquarium
+Après le délai **Atténuer après** sans contact, l’écran s’atténue. Votre premier appui ne fait que le réveiller, pour qu’il ne puisse pas actionner une commande par accident. Touchez à nouveau pour utiliser l’écran.
 
-![Le menu de l’aquarium](img/max-menu.webp "Tout pour l’aquarium actuel, depuis le nom de l’aquarium dans la barre supérieure.")
+## Le menu de l’aquarium {#the-tank-menu}
 
-Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché :
+![Le menu de l’aquarium ouvert par-dessus le tableau de bord, avec Enregistrer les paramètres, Journal, Reef Buddy et les autres écrans de l’aquarium](img/max-menu.webp "Le menu de l’aquarium, ouvert depuis le nom de l’aquarium dans la barre du haut.")
 
-| Élément | Contenu |
+Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché.
+
+| Élément | Ouvre |
 |---|---|
-| **Enregistrer les paramètres** | Saisir les résultats d’un test en kit avec le clavier à l’écran |
-| **Journal** | [Le journal](/help/mobile-journal) de cet aquarium |
-| **Reef Buddy** | Le [briefing](/help/mobile-reef-buddy) du moment |
+| **Enregistrer les paramètres** | Saisir des mesures de kits de test avec le clavier à l’écran |
+| **Journal** | [Le journal](/help/max-records) de cet aquarium |
+| **Reef Buddy** | Le dernier [briefing](/help/max-intelligence) |
 | **Rapports de santé** | Les bilans de santé |
-| **Entretien** | La [liste des tâches](/help/mobile-maintenance) |
-| **Rapports ICP** | Les [résultats de laboratoire](/help/mobile-icp-health) envoyés |
-| **Historique des paramètres** | Choisir un paramètre qui a des données et ouvrir son [graphique](/help/max-intelligence) |
-| **Seuils d’alerte** | La plage normale de chaque mesure de cet aquarium |
-| **Population** | L’[inventaire](/help/mobile-livestock) de cet aquarium, en lecture seule ici |
-| **Activité** | [Chaque prise, nourrissage et dosage](/help/max-activity), et son résultat |
-| **Disposition du tableau de bord** | [Organiser les widgets de cet écran](/help/max-dashboard-editing) |
+| **Entretien** | La [liste des tâches](/help/max-records) |
+| **Rapports ICP** | Les [résultats de laboratoire](/help/max-intelligence) importés |
+| **Historique des paramètres** | Choisir n’importe quel paramètre qui a des données et ouvrir son [graphique](/help/max-intelligence) |
+| **Seuils d’alerte** | La [plage saine](/help/max-alerts) de chaque paramètre de cet aquarium |
+| **Population** | L’inventaire de cet aquarium, en lecture seule sur cet écran |
+| **Activité** | [Chaque prise, nourrissage et dosage](/help/max-activity), et ce qui s’est passé |
+| **Disposition du tableau de bord** | [Disposer les widgets de cet écran](/help/max-dashboard-editing) |
 | **Unités** | Les unités d’affichage des mesures de cet aquarium |
-| **Réglages de l’aquarium** | Tous les réglages de cet aquarium |
+| **Réglages de l’aquarium** | L’écran complet des réglages de cet aquarium |
 
-## Changer d’aquarium
+## Changer d’aquarium {#switching-tanks}
 
-Touchez l’**icône de grille**, tout à gauche de la barre du haut, pour aller sur [la Pièce du récif](/help/max-reef-room), puis ouvrez l’aquarium voulu. Chaque aquarium a sa propre disposition de tableau de bord. Tout l’écran change donc quand vous passez de l’un à l’autre.
+Touchez l’**icône de grille** tout à gauche de la barre du haut pour aller à [la Pièce du récif](/help/max-reef-room), puis ouvrez l’aquarium voulu. Vous pouvez aussi balayer vers la gauche ou la droite sur le tableau de bord. Chaque aquarium a sa propre disposition, donc tout l’écran change quand vous passez de l’un à l’autre.
 
-## Le tiroir Prises et nourrissage
+## Le tiroir Prises et nourrissage {#the-outlets-feed-drawer}
 
-Tirez l’onglet en bas de l’écran pour ouvrir un tiroir avec toutes les prises du système et les commandes de nourrissage.
+Sur un aquarium équipé d’un Neptune Apex, une petite étiquette **Prises et nourrissage** se trouve en bas du tableau de bord. Touchez-la, ou balayez vers le haut n’importe où sur le tableau de bord, pour ouvrir **Commandes**.
 
-- **Prises** : chacune peut passer sur Auto, Éteint ou Allumé
-- **Nourrir** : met en pause l’équipement concerné le temps du nourrissage, puis remet tout en marche
+- **NOURRISSAGE** lance l’un des cycles de nourrissage de votre Apex avec **A**, **B**, **C** ou **D**. **Annuler** l’arrête avant la fin.
+- Les **PRISES** peuvent chacune passer de Auto à Off ou On.
 
-:::warning Ce tiroir commande votre vrai équipement
-Tout ce qu’il contient agit sur votre équipement. La commande part dès que vous touchez, mais *envoyée* ne veut pas dire *faite*. Le résultat peut être Confirmée, Non confirmée, Refusée ou Aucun changement, et vous le voyez dans [Activité](/help/max-activity). Pour couper le brassage pendant le nourrissage, utilisez le mode nourrissage : il remet tout en marche tout seul. Un Éteint manuel, lui, reste éteint jusqu’à ce que vous le changiez.
+Il liste les prises et les cycles de nourrissage que vous avez choisis pour ce tableau de bord, ou tous si vous n’en avez choisi aucun. Plus de détails dans [Prises et commandes](/help/max-controls).
+
+:::warning Ce tiroir commande de vrais équipements
+Une commande part dès que vous touchez, mais l’envoyer ne veut pas dire qu’elle est faite. Elle revient Confirmé, Non confirmé, Refusé ou Aucun changement, et vous voyez lequel dans [Activité](/help/max-activity). Le mode nourrissage est la façon sûre de couper le brassage pour nourrir, car il remet tout en marche tout seul. Un Off manuel reste éteint jusqu’à ce que vous le changiez.
 :::
 
-## Si quelque chose semble anormal
+## Si quelque chose semble anormal {#if-something-looks-out-of-place}
 
-Si les mesures semblent anciennes, ou si l’étiquette d’état est orange ou rouge, commencez par la page **[Résolution de problèmes](/help/troubleshooting)**.
+Si les mesures semblent périmées, ou si l’étiquette d’état est orange ou rouge, commencez par [Résolution de problèmes](/help/troubleshooting).

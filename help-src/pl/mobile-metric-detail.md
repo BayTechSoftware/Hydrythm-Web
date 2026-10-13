@@ -1,87 +1,86 @@
 ---
 title: Szczegóły parametru
-description: Dotknij widżetu, żeby zobaczyć pełną historię, wszystkie źródła parametru i miejsce, gdzie zmienisz jego zakres.
+description: Dotknij widżetu, żeby zobaczyć pełną historię parametru, porównać źródła i parametry, wykluczyć błędny odczyt i zapisać konserwację sondy.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 8
+reviewed: 2026-10-13
+order: 7
 group: Your dashboard
 ---
 
-Widżet pokazuje liczbę. Gdy go dotkniesz, zobaczysz, co za nią stoi.
+Widżet pokazuje liczbę. Dotknij go, żeby zobaczyć historię, która za nią stoi.
 
 Są dwa sposoby, żeby tu wejść. Dotknij widżetu na pulpicie albo dotknij **Historia parametrów** w rzędzie przycisków pod widżetami i wybierz parametr. **Historia parametrów** wymienia każdy parametr, który ma dane, nawet taki bez widżetu na pulpicie.
 
-## Co tu znajdziesz
+## Co tu znajdziesz {#what-you-get}
 
-![Szczegóły parametru](img/mobile-metric-detail.webp "Na górze listy rozwijane, a pod nimi wykres z zaznaczonym zakresem alertu.")
+![Szczegóły parametru](img/mobile-metric-detail.webp "Listy rozwijane na górze, a pod nimi wykres z zacieniowanym pasmem alertu.")
 
-**Wykres historii.** Trzy listy rozwijane nad nim ustawiają, co pokazuje. **Parametr** przełącza na dowolny inny parametr, który ma dane, i zachowuje Twój okres. **Okres** biegnie od 1h przez 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d i 180d aż do 360d i Wszystko. **Źródło** zaczyna od **Wszystkie źródła** i wymienia źródła, które zgłaszają ten parametr w tym akwarium, np. *Apex*, *Cora*, *Red Sea* albo *Ręczny*. Wybierz jedno, a zobaczysz tylko odczyty z tego źródła. Tak najłatwiej porównać sondę z testem kropelkowym. Przełączaj się między nimi na tym samym wykresie.
+- Wykres historii. Rząd nad nim ustawia, co pokazuje. **Parametr** przełącza na dowolny inny parametr, który ma dane, i zachowuje okres. **Okres** biegnie od 1h przez 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d i 360d aż do Wszystko. **Źródło** zaczyna od **Wszystkie źródła** i wymienia źródła, które zgłaszają ten parametr w tym akwarium, na przykład *Apex*, *Cora*, *Red Sea* albo *Ręczne*. Wybierz jedno, żeby zobaczyć tylko jego odczyty.
+- **Porównaj**, na końcu tego samego rzędu, rysuje na wykresie drugi parametr, na przykład alkaliczność z wapniem albo pH z temperaturą. Przycisk pokazuje wtedy **vs** i nazwę drugiego parametru. Dotknij go ponownie, żeby zdjąć drugą linię.
+- Rząd z wartościami **Najnowszy**, **Min**, **Śr** i **Maks** dla okresu widocznego na ekranie.
+- Ikony na górnym pasku: **Odczyty** otwiera listę surowych odczytów, a **Zapisz konserwację sondy** zapisuje kalibrację albo czyszczenie. Przy alkaliczności, wapniu i magnezie jest też kalkulator dawek, który bierze objętość akwarium z [profilu akwarium](/help/mobile-tank-profile) i stężenia z [Dozowania](/help/mobile-dosing).
 
 Ekran zawsze otwiera się na 24h i **Wszystkie źródła**. Nie pamięta, co wybrano ostatnio.
 
-**Wiersz z wartościami Najnowszy, Min, Śr i Maks** dla okresu widocznego na ekranie.
+## Jak czytać wykres {#reading-the-chart}
 
-**Link do kalkulatora dawek** przy parametrach, które dozujesz. Kalkulator bierze objętość akwarium z [profilu akwarium](/help/mobile-tank-profile) i stężenia z [Dozowania](/help/mobile-dosing).
+- Zielone pasmo to Twój zakres alertu, więc każdy odczyt widzisz na jego tle. Żeby zmienić zakres, przytrzymaj widżet na pulpicie. Więcej w [Alertach i progach](/help/mobile-alerts).
+- Linia przerywana oznacza zapisaną dawkę, więc zestawisz zmianę z tym, co podano.
+- **Maks. 30 dni** i **Min. 30 dni** to linie przerywane z wartościami skrajnymi z ostatnich 30 dni.
+- Pusta kropka to odczyt, który wykluczono.
+- Gdy **Porównaj** jest włączone, drugi parametr używa prawej osi.
 
-**Nakładanie wykresów.** **Porównaj** rysuje drugi parametr na tym samym wykresie (np. alkaliczność i wapń albo pH i temperaturę). Lista zawiera każdy parametr, który ma akwarium. Zależność, którą podejrzewasz, widać wtedy na wykresie i nie musisz jej pamiętać. Dotknij etykiety jeszcze raz, aby zdjąć drugą linię.
+## Jaki okres wybrać {#choosing-a-range}
 
-**Znaczniki dawek** na wykresie. Zmianę parametru zestawisz z tym, co naprawdę podano.
-
-**Lista odczytów**, czyli każdy pojedynczy odczyt, z którego powstała linia, ze źródłem i czasem.
-
-**Twój zakres alertu** zaznaczony na wykresie. Każdy odczyt widać na tle zakresu, a nie w oderwaniu od niego. Żeby zmienić sam zakres, przytrzymaj widżet na pulpicie. Więcej w [Alertach i progach](/help/mobile-alerts).
-
-**Ręczne wpisanie odczytu.**
-
-## Jaki okres wybrać
-
-Dobry okres zależy od tego, jak zmienia się parametr:
+Wybierz okres pasujący do tego, jak zmienia się parametr.
 
 | Parametr | Przydatny okres |
 |---|---|
-| pH | 24 godziny, bo zmienia się w cyklu dobowym |
+| pH | 24 godziny, bo waha się w cyklu dobowym |
 | Temperatura | 24 godziny albo 7 dni |
 | Alkaliczność | 7 albo 30 dni |
 | Pierwiastki śladowe | 30 dni albo rok |
 
-:::note Przy płaskiej linii sprawdź wiek odczytu
-Linia bez zmian może oznaczać stabilny parametr, ale też źródło, które przestało wysyłać dane. Rozróżnisz to po wieku odczytu obok wartości.
+:::note Płaska linia? Sprawdź wiek odczytu
+Linia, która się nie rusza, może oznaczać stabilny parametr. Może też oznaczać, że źródło przestało raportować. Rozstrzygnie to wiek obok wartości na widżecie.
 :::
 
-## Porównywanie źródeł
+## Porównywanie źródeł {#comparing-sources}
 
-Gdy parametr podaje kilka źródeł, Cora trzyma je osobno i ich nie uśrednia. Użyj listy **Źródło**, żeby zobaczyć każde po kolei.
+Gdy parametr zgłasza więcej niż jedno źródło, Cora trzyma je osobno i ich nie uśrednia. Użyj listy **Źródło**, żeby obejrzeć każde z nich. To najszybszy sposób na porównanie sondy z testem kropelkowym.
 
-Na pulpicie pokazuje się najnowszy odczyt. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli przypiąłeś źródło dla widżetu, Cora trzyma się tego źródła.
+Na pulpicie widać najnowsze. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli przypięto źródło w **Mapowaniu parametrów**, Cora trzyma się tego źródła.
 
-Stała różnica między sondą a wynikiem wpisanym ręcznie zwykle znaczy, że sondę trzeba skalibrować.
+Jeśli sonda i testy zapisywane ręcznie stale różnią się o tyle samo, sondę zwykle trzeba skalibrować.
 
-[Wynik ICP](/help/mobile-icp-health) to przydatna trzecia opinia, ale nie rozstrzygający sędzia. Laboratoria różnią się między sobą, a na wynik wpływa to, jak próbkę pobrano, przechowywano i transportowano. Pojedynczy ICP traktuj jako wskazówkę, a nie prawdziwą wartość. Dwa zgodne testy są warte znacznie więcej niż jeden.
+[Wynik ICP](/help/mobile-icp-health) to przydatna trzecia opinia, ale nie rozstrzyga sprawy. Laboratoria różnią się między sobą, a na wynik wpływa sposób pobrania, przechowywania i wysyłki próbki. Pojedynczy ICP traktuj jako dowód. Dwa zgodne testy są warte dużo więcej niż jeden.
 
-## Z którego źródła korzysta widżet
+## Za którym źródłem idzie odczyt {#choosing-which-source-a-widget-trusts}
 
-Jeśli chcesz, żeby widżet pokazywał jedno konkretne źródło, ustaw to w ustawieniach widżetu. Więcej w **[Edytowaniu pulpitu](/help/mobile-dashboard-editing)**.
+Źródło ustawia się dla akwarium i parametru, a nie dla widżetu. Przejdź do **Ustawień**, dotknij akwarium, dotknij **Mapowanie parametrów**, a potem zakładki **Źródła**. Wybierz sondę albo **Automatycznie (wygrywa najnowszy odczyt)**. Wybór dotyczy tego parametru wszędzie w tym akwarium. Więcej w [Mapowaniu parametrów](/help/mobile-probes).
 
-## Wykluczanie błędnego odczytu
+## Wykluczanie błędnego odczytu {#excluding-a-bad-reading}
 
-Skok sondy, źle odczytany test, próbka pobrana w trakcie podmiany wody. Jeden błędny odczyt psuje wykres, średnie i wszystko, co na nich bazuje.
+Może sonda skoczyła, test został źle odczytany albo próbkę pobrano w trakcie podmiany wody. Jeden błędny odczyt psuje wykres, średnie i wszystko, co z nich wyliczono.
 
-![Lista odczytów](img/mobile-readings.webp "Każdy odczyt, z którego powstała linia, ze źródłem i czasem.")
+![Lista odczytów pH w Cora Mobile](img/mobile-readings.webp "Każdy odczyt, z którego powstała linia, z czasem i źródłem. Dotknij odczytu, żeby go wykluczyć.")
 
-Otwórz listę odczytów ikoną na górnym pasku i dotknij odczytu, żeby go wykluczyć. Ekran mówi to wprost: *odczyt jest wykluczony z uśrednień i wniosków, ale zostaje w Twoim dzienniku.* Nic nie jest usuwane i odczyt można przywrócić.
+Dotknij **Odczyty** na górnym pasku, a potem odczytu. Cora zapyta **Wykluczyć ten odczyt?** i wyjaśni, że odczyt zostaje w Twoim dzienniku, ale przestaje się liczyć do średnich, trendów, spostrzeżeń i asystenta. Dotknij **Wyklucz**. Nic nie zostaje usunięte i w ten sam sposób możesz odczyt przywrócić.
+
+Odczytów starszych niż 90 dni nie da się wykluczyć ani przywrócić.
 
 :::warning Wykluczaj błędne odczyty, a nie niewygodne
-Wykluczanie jest dla odczytów, o których wiesz, że są nieprawidłowe. Odczyt, który Ci się nie podoba, ale nic mu nie brakuje, to też dane. Jeśli go usuniesz, każde późniejsze porównanie będzie mniej uczciwe.
+Wykluczaj tylko odczyt, o którym wiesz, że jest nieprawidłowy. Jeśli odczyt po prostu Ci się nie podoba, ale nie widzisz w nim błędu, to prawdziwe dane. Usunięcie go sprawi, że każde późniejsze porównanie będzie mniej uczciwe.
 :::
 
-## Zapisywanie konserwacji sondy
+## Zapisywanie konserwacji sondy {#recording-probe-care}
 
-Gdy zapiszesz tutaj kalibrację albo czyszczenie, przy tym źródle pojawi się data. Późniejszą rozbieżność ocenisz wtedy na tle tego, kiedy sonda była ostatnio obsługiwana. Więcej w [Sondach](/help/mobile-probes).
+Dotknij **Zapisz konserwację sondy** (ikona czujnika na górnym pasku) i wybierz, co zrobiono: kalibrację, czyszczenie, wymianę, przestawienie albo porównanie. Cora zapisze datę przy tym źródle, więc świeża kalibracja nie zostanie wzięta za dryf. Później, gdy sonda nie zgodzi się z czymś, zobaczysz, kiedy ostatnio była obsługiwana. Więcej w [Mapowaniu parametrów](/help/mobile-probes).
 
-## Ręczne wpisywanie odczytu
+## Ręczne zapisywanie odczytu {#logging-a-reading-by-hand}
 
-Wpisz wynik z testu kropelkowego. Lista jest podzielona na grupy, a grupa **Pierwiastki śladowe** obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Wyniki wpisane ręcznie mają taką samą wagę jak inne. Dostają własne źródło i czas, pojawiają się na wykresie, trafiają do Reef Buddy i właśnie z nimi Cora porównuje Twój sprzęt.
+Odczyty zapisujesz z pulpitu, a nie z tego ekranu. Dotknij **Zapisz parametry** pod widżetami i wpisz wynik testu kropelkowego. Lista jest pogrupowana, a grupa **Pierwiastki śladowe** obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Odczyty zapisane ręcznie liczą się tak samo jak inne. Dostają własne źródło i czas, pojawiają się na wykresie i trafiają do Reef Buddy. To też z nimi Cora porównuje Twój sprzęt.
 
-:::note Cora sprawdza wartości, które wyglądają podejrzanie
-Jeśli wartość mocno odbiega od tego, co zwykle jest w akwarium, Cora poprosi o potwierdzenie przed zapisaniem. Tak wychwyci przecinek w złym miejscu albo odczyt wpisany przy złym parametrze. Po potwierdzeniu odczyt zapisuje się normalnie.
+:::note Cora sprawdza wpisy, które wyglądają dziwnie
+Jeśli wartość mocno odbiega od tego, gdzie akwarium było dotąd, Cora poprosi o potwierdzenie przed zapisaniem. Tak wyłapie przecinek w złym miejscu albo odczyt wpisany przy złym parametrze. Po potwierdzeniu odczyt zapisuje się normalnie.
 :::

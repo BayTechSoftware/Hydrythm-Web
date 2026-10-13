@@ -1,81 +1,121 @@
 ---
-title: Cora Mobile kurulumu
-description: Cora'yı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi ekranda görün.
+title: Cora Mobile'ı kurma
+description: Cora Mobile'ı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi adım adım ekrana getirin.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 1
 group: Getting started
+twin: max-setup
 ---
 
-Kurulum yaklaşık on dakika sürer. Sonunda bir hesabınız, ayarları yapılmış bir akvaryumunuz ve canlı ölçümleri gösteren bir panonuz olur.
+Bu sayfa, Cora Mobile ile ilk on dakikanızda ekranlar hangi sırayla çıkıyorsa o sırayla size yol gösterir. Bitirdiğinizde bir hesabınız, bir akvaryumunuz ve üzerinde ölçümler olan bir panonuz olur.
 
-## Cora Mobile'ı yükleyin
+## Cora Mobile'ı yükleyin {#install-cora-mobile}
 
-iPhone'da **Cora Mobile**'ı [App Store](https://apps.apple.com/app/cora-mobile/id6760301981)'dan indirin. Cora Mobile yakında Android için Google Play'de de olacak. Ana ekranınızdaki simgenin adı **Cora**'dır. Bu simge Cora Mobile'ı açar.
+iPhone'da **Cora Mobile**'ı [App Store](https://apps.apple.com/app/cora-mobile/id6760301981)'dan indirin. Android'de Cora Mobile yakında Google Play'de olacak. Ana ekranınızdaki simgenin adı **Cora**'dır. O, Cora Mobile'dır.
 
-## Önce bir göz atın
+## Karşılama ekranları {#the-welcome-screens}
 
-Hesap açmadan önce **Bir demo resfi keşfedin**'i seçebilirsiniz. Bu, gerçekçi verilerle dolu örnek bir akvaryumdur ve gerçek bir akvaryumla aynı düzendedir. Tamamen örnek verilerle çalışır. Hiçbir ekipmana bağlanmaz, içinde yaptıklarınız da kaydedilmez.
+Cora Mobile'ı ilk açtığınızda birkaç kısa ekran onu tanıtır. Aralarında ilerlemek için **İleri**'ye ya da doğrudan girişe gitmek için sağ üstteki **Atla**'ya dokunun.
 
-Karar vermeden önce panoların, widget'ların ve ölçümlerin nasıl çalıştığını burada görebilirsiniz.
+İkisi sizden bir şey ister:
 
-## Hesabınızı açın
+- **Cihazlarınız Wi-Fi'nizde yaşar**, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'ınızda hiçbir şey bulamaz. Hayır dediyseniz **Ayarlar → Cihaz erişimi** sizi anahtara götürür. [Ayarlar](/help/mobile-settings#device-access) sayfasına bakın.
+- Son ekran uyarılarla ilgilidir. Uyarıların bu telefona ulaşması için **Bildirimlere izin ver**'e dokunun, sonra telefonunuzun penceresinde izin verin. **Belki sonra** bunu atlar. Ayrıntılar [Bildirimler](/help/mobile-notifications) sayfasında.
 
-Cora Mobile'ı açın ve **Hesap Oluştur**'u seçin. E-posta adresinizle kaydolabilirsiniz. Yeni bir şifreyle uğraşmak istemiyorsanız Apple ya da Google hesabınızı kullanın.
+## Önce bir göz atın {#looking-around-first}
 
-Sonra e-postanızı doğrulamanız istenir. Cora size bir **bağlantı** gönderir. Bağlantıyı aynı cihazda açın ve Cora Mobile'a geri dönün. E-posta bir dakika içinde gelmezse spam klasörüne bakın.
+Göz atmak için hesaba ihtiyacınız yok. Giriş ekranında **Bir demo resifi keşfedin**'e dokunun. Gerçekçi verilerle dolu, gerçek bir akvaryum gibi düzenlenmiş örnek bir akvaryumdur. Hiçbir ekipman kullanılmaz ve orada yaptığınız hiçbir şey kaydedilmez.
 
-:::note Tek hesap, bütün ekranlar
-Her şey hesabınızda toplanır. Cora Max'te ya da başka bir telefonda aynı hesapla giriş yaptığınızda aynı akvaryumları, cihazları, ölçümleri ve kayıtları görürsünüz.
+Kendi akvaryumunuza hazır olduğunuzda **Kendinize göre yapın**'a dokunun.
 
-Pano düzenleri ise **paylaşılmaz**. Her ekran kendi düzenini tutar. Ayrıntılar [Neler paylaşılır, neler paylaşılmaz](/help/mobile-multi-device) sayfasında.
+## Hesabınızı açın {#create-your-account}
+
+1. Giriş ekranında (*Hesabınız yok mu?* altındaki) **Kaydol**'a dokunun.
+2. E-posta adresinizi ve iki kez bir şifre girin. Şifre en az 8 karakter, bir büyük harf, bir rakam ve bir sembol içermelidir. **Şifreniz şunları içermeli:** altındaki liste siz yazdıkça işaretlenir.
+3. **Kabul ediyorum: Şartlar ve Koşullar ve Gizlilik Politikası** kutusunu işaretleyin. İkisi de bağlantıdır, önce okuyabilirsiniz.
+4. **Hesap Oluştur**'a dokunun.
+
+**Apple ile devam et**'e ya da **Google ile devam et**'e dokunup şifreyi atlayabilirsiniz de. Orada da şartlar kutusunu işaretleyin. Apple ile, laboratuvar ve ICP sonuçları Cora hesabınıza ulaşabilsin diye Apple sorduğunda **E-postamı Paylaş**'ı seçin.
+
+E-posta adresiyle kaydolduysanız Cora şimdi onu doğrulamanızı ister. Cora'dan gelen e-postayı aynı telefonda açın ve **E-postamı onayla**'ya dokunun. Sonra Cora Mobile'a dönün ve **E-postamı Doğruladım**'a dokunun. Bir dakika içinde hiçbir şey gelmezse spam klasörünüze bakın ya da **Doğrulama e-postasını yeniden gönder**'e dokunun. Ayrıntılar [Giriş yapma ve hesap kurtarma](/help/mobile-account#verifying-your-email) sayfasında.
+
+:::note Her ekran için tek hesap
+Her şey hesabınızda tutulur. Bir Cora Max'i onunla eşleştirin ya da başka bir telefonda giriş yapın, aynı akvaryumları, cihazları, ölçümleri ve kayıtları görürsünüz.
+
+Telefon pano düzeniniz, giriş yaptığınız her telefona hesapla birlikte gelir. Her Cora Max kendi düzenini tutar. [Neler paylaşılır, neler paylaşılmaz](/help/mobile-multi-device) sayfasına bakın.
 :::
 
-## İlk akvaryumunuzu ekleyin
+## İlk akvaryumunuzu ekleyin {#add-your-first-tank}
 
-Cora'da **akvaryum**, takip etmek istediğiniz her ayrı su sistemidir. Çoğu kişinin tek akvaryumu olur. Frag sisteminiz ya da karantina tankınız varsa bunlar ayrı akvaryum sayılır.
+Cora'da **akvaryum**, takip etmek istediğiniz herhangi bir su sistemidir. Çoğu kişinin bir tane vardır. Bir frag sisteminiz ya da karantina akvaryumunuz varsa her biri ayrı bir akvaryumdur.
 
-Kurulum sihirbazı şunları sorar. Hepsini sonradan [akvaryum profilinizden](/help/mobile-tank-profile) değiştirebilirsiniz:
+Giriş yaptıktan sonra **Akvaryumunuzla tanışalım** üç şey sorar. Yalnızca ad zorunludur ve hepsini daha sonra [akvaryum profilinizde](/help/mobile-tank-profile) değiştirebilirsiniz.
 
-1. **Ad**: akvaryuma günlük hayatta ne diyorsanız o. Örneğin "Salon", "Frag", "Karantina".
-2. **Tür**: karışık reef, SPS ağırlıklı, yumuşak mercan ya da yalnızca balık.
-3. **Boyutlar ve hacim**: sump dahil gerçek su hacmi. Dozaj hesapları bu değeri kullanır, o yüzden aşağı yukarı doğru girin.
+1. **Ona ne diyorsunuz?**, günlük hayatta kullandığınız addır, "Salon", "Frag" ya da "Karantina" gibi.
+2. **Ne tür bir akvaryum bu?**: **SPS Resif**, **LPS Resif**, **Karma Resif**, **Yumuşak Mercan Resifi**, **FOWLR** ya da **Sadece Balık**. Tür, başlangıç uyarı aralıklarınızı belirler. Emin değilseniz **Karma Resif**'i seçin.
+3. **Ne kadar su?**, sump dahil gerçek su hacmidir. Dozaj hesapları bu sayıyı kullanır, bu yüzden aşağı yukarı doğru girmeye çalışın. Yalnızca akvaryumun boyutlarını biliyorsanız **Hacmi bilmiyor musunuz? Boyutları girin**'e dokunun, Cora hesaplar.
 
-Bundan sonra ekipmanınızı eklemeye doğrudan geçmek için **Cihaz ekle**'ye dokunun, ya da şimdilik atlayın. Canlılar, dozaj, hedefler, aydınlatma ve akış gibi diğer bilgileri sonra, dilediğiniz zaman [akvaryum profilinizden](/help/mobile-tank-profile) doldurursunuz.
+**Akvaryumumu oluştur**'a dokunun.
 
-:::note Akvaryumun yaşı ölçümlerin değerlendirmesini etkiler
-Cora ölçümleri, o yaştaki bir akvaryum için normal kabul edilen değerlere göre değerlendirir. Kurulum sihirbazı yaşı sormaz. **Akvaryum başlangıç tarihi** alanını akvaryum profilinde, **Akvaryum Boyutları** bölümünde doldurun. Akvaryumunuzun döngüsü hâlâ sürüyorsa rehberli döngüyü açmak için panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun.
+:::note Akvaryumunuz hâlâ döngüde mi?
+Bir test kaydetmeden ya da ekipman bağlamadan **önce** panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Bu kart yalnızca hiç ölçümü olmayan bir akvaryumda görünür ve rehberli döngüyü bununla açarsınız. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
+
+Cora ayrıca ölçümleri o yaştaki bir akvaryum için normal olana göre değerlendirir. Sihirbaz bunu sormaz, bu yüzden akvaryum profilinizde **Akvaryum Boyutları** altında **Akvaryum başlangıç tarihi**'ni ayarlayın.
 :::
 
-## Ekipmanınızı bağlayın
+## "Akvaryumunuz artık canlı" {#your-tank-is-live}
 
-Akvaryumu ekledikten sonra **Cihazlar** sekmesine gidin, **Cihaz Ekle**'ye dokunun ve markayı seçin. Cora, zaten sahip olduğunuz ekipmanla çalışır. Hangi cihazların desteklendiğini ve her birinin neye ihtiyacı olduğunu **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında bulabilirsiniz.
+Ardından akvaryumunuzun adını **artık canlı** ile görürsünüz, örneğin **"Salon" artık canlı**. Dört sonraki adım önerir. Herhangi birini seçin ya da hiçbirini seçmeyin.
 
-Bu adımı atlayıp sonra dönebilirsiniz. Akvaryum cihaz olmadan da sorunsuz çalışır. O durumda ölçümleri elle girersiniz.
+- **Akvaryumumu rehberli kurayım**, profilin geri kalanında her seferinde bir bölüm olmak üzere size yol gösterir. [Rehberli kurulum](/help/mobile-tank-profile#guided-setup) bölümüne bakın. Sizi ekipmanınızı eklemeye götüren **Cihaz ekle** ile biter.
+- **Ekipmanınızı bağlayın** bir Cora Max eşleştirir. Neptune Apex, Red Sea ya da başka bir marka için bunun yerine **Cihazlar → Cihaz Ekle**'yi kullanın (aşağıya bakın).
+- **İlk testinizi kaydedin**, [İlk test kartı](/help/mobile-setup#the-first-test-card) bölümünde anlatılan ilk test adımını açar.
+- **Asistana her şeyi sorun**, gönderilmeye hazır bir ilk soruyla Cora Assistant'ı açar.
 
-## İlk ölçümlerinizi girin
+Bitirdiğinizde **Panoma git**'e ya da **Bunu daha sonra yapacağım**'a dokunun.
 
-Bazı parametreleri yalnızca test kitiyle ölçebilirsiniz. Panonun en altına inin ve **Parametreleri Kaydet**'e dokunun.
+## İlk 30 gününüz {#your-first-30-days}
 
-![Parametre kaydetme](img/mobile-logparams.webp "Akvaryumun takip ettiği her parametre için test kiti sonucunu girin.")
+Yeni bir ücretsiz hesapta **Panoma git** önce **İlk 30 gününüz bizden** ekranını gösterir. 30 günlük Pro denemeniz hesabınızı oluşturduğunuzda başladı ve kart gerekmez. Devam etmek için **Keşfetmeye başla**'ya, ücretli planlara bakmak için **Planları gör**'e dokunun. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans#the-trial) sayfasında.
 
-Her ölçüm, kaynağı ve zamanıyla birlikte saklanır. Cora bu sayede prob ile test kitinin farklı sonuç verdiği durumları size bildirir.
+## Panoya ilk bakış {#your-first-look-at-the-dashboard}
 
-### İlk test kartı
+Panoyu ilk açtığınızda iki şey olur.
 
-Hiç ölçümü ve bağlı ekipmanı olmayan bir akvaryum, panonun en üstünde **İlk su testini kaydet** kartını gösterir. Reef Buddy'nin, uyarıların ve içgörülerin sizin için çalışmaya başlaması için tek bir ölçüm yeterlidir. Cora aynı adımı akvaryum oluşturduktan hemen sonra da sunar. Karta dokunun ve şunlardan birini seçin.
+- Cora **Kişiselleştirilmiş Resif Rehberliği Etkinleştirilsin mi?** diye sorar. Cora Assistant'ın yanıtlarında akvaryumunuzun kayıtlı verilerini kullanmasını istiyorsanız **Etkinleştir**'e dokunun. **Şimdi Değil** bunu kapalı bırakır. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant#consent) sayfasında.
+- Kısa bir tur ekranın ana bölümlerini gösterir. [İlk açılış turu](/help/mobile-tour#the-first-run-tour) bölümüne bakın.
+
+## Ekipmanınızı bağlayın {#connect-your-equipment}
+
+**Cihazlar** sekmesine gidin, **Cihaz Ekle**'ye dokunun ve markayı seçin. Cora zaten sahip olduğunuz ekipmanla çalışır. [Ekipmanınızı bağlama](/help/mobile-connections) neyin desteklendiğini ve her cihazın neye ihtiyaç duyduğunu listeler.
+
+Bunu atlayıp sonra dönebilirsiniz. Bir akvaryum cihazsız da sorunsuz çalışır. Yalnızca ölçümleri elle kaydedersiniz.
+
+## İlk ölçümlerinizi kaydedin {#log-your-first-readings}
+
+Bazı parametreler yalnızca bir test kitinden gelir. Panoda aşağı kaydırın ve widget'ların altındaki düğme satırında **Parametreleri Kaydet**'e dokunun.
+
+![Cora Mobile'da Parametreleri Kaydet formu](img/mobile-logparams.webp "Tarihi ve saati seçin, sonra test kiti sonuçlarını Temel, Elementler ve Besinler altına girin.")
+
+Cora her ölçümü kaynağı ve zamanıyla kaydeder. Bir prob ile bir test kiti uyuşmadığında size bunu bu sayede söyleyebilir.
+
+### İlk test kartı {#the-first-test-card}
+
+Ölçümü ve bağlı ekipmanı olmayan bir akvaryum, widget'ların altında, **Parametreleri Kaydet**'in hemen üstünde bir kart gösterir. Kartta **İlk su testini kaydet** yazar. Reef Buddy'nin, uyarıların ve içgörülerin çalışmaya başlaması için tek bir ölçüm yeterlidir. Karta dokunun ve bunlardan birini seçin.
+
 
 - **Test sonuçlarını şimdi kaydet**, **Parametreleri Kaydet** formunu açar.
-- **Bir cihaz bağla (Apex veya Red Sea)**, Cihaz Ekle akışını açar. Akvaryum profilinizde Cora'nın bağlayabileceği bir cihaz varsa kart onun adını verir, örneğin *Neptune Apex cihazını bağla*.
+- **Bir cihaz bağla (Apex veya Red Sea)**, bir Cora Max için eşleştirme ekranını açar. Bir Apex ya da Red Sea ünitesi bağlamak için **Cihazlar → Cihaz Ekle**'ye gidin ve markayı seçin. Akvaryum profiliniz Cora'nın bağlayabileceği bir cihazı zaten listeliyorsa kart onun adını verir, örneğin *Neptune Apex cihazını bağla*.
 - **Sonra** sayfayı kapatır.
-- **Her hafta test etmemi hatırlat**, **Suyu test et** adlı haftalık bir bakım görevi ekler. Önce **Test günü**'nü seçin.
+- **Her hafta test etmemi hatırlat**, **Suyu test et** adında haftalık bir bakım görevi ekler. Önce **Test günü**'nü seçin.
 
-Kartı gizlemek için üzerindeki çarpıya dokunun. Akvaryumda bir ölçüm ya da bağlı bir kaynak olunca kart kendiliğinden kalkar. Cora Max de verisi olmayan bir akvaryumda **İlk testinizi kaydedin** gösterir.
+Kartı gizlemek için üzerindeki çarpıya dokunun. Akvaryumda bir ölçüm ya da bağlı bir kaynak olduğunda kart kendiliğinden kaybolur. Cora Max de verisi olmayan bir akvaryumda **İlk testini kaydet** gösterir.
 
-Bir akvaryumda oluşturulduktan üç gün sonra hâlâ ölçüm yoksa Cora bir kez hatırlatma bildirimi gönderir. Hiçbir akvaryumunuzda ölçüm yoksa Cora ayrıca kaydolmanızdan 3 gün ve 10 gün sonra, birer kez olmak üzere kısa bir e-posta da gönderir. İkisi de **Ayarlar → Bildirimler** altındaki **Bakım Hatırlatıcıları** anahtarını izler ve e-postada nasıl durduracağınızı anlatan bir satır bulunur.
+Bir akvaryumda oluşturulduktan üç gün sonra hâlâ ölçüm yoksa Cora bir hatırlatma bildirimi gönderir. Hiçbir akvaryumunuzda ölçüm yoksa Cora ayrıca kaydolmanızdan 3 ve 10 gün sonra birer kez kısa bir e-posta gönderir. İkisi de **Ayarlar → Bildirimler** içindeki **Bakım Hatırlatıcıları** anahtarınızı izler ve e-postada onu nasıl durduracağınızı söyleyen bir satır vardır.
 
-## Kurulum tamam mı?
+## Her şey yolundaysa nasıl görünür {#what-good-looks-like}
 
-Panonun üstünde akvaryumunuzun adını ve içinde sayılar olan birkaç widget görüyorsanız kurulum tamamdır. İlk özet gece hazırlandıktan sonra bir **Reef Buddy** kartı da görünür.
+Pano en üstte akvaryumunuzun adını ve içinde sayılar olan birkaç widget gösterdiğinde kurulumunuz tamamdır. İlk özet gece çalıştıktan sonra bir **Reef Buddy** kartı gelir.
 
-Sırada **[Beş sekme](/help/mobile-tour)** var.
+Sırada [Yolunuzu bulma](/help/mobile-tour) var. İkinci bir akvaryum eklemek için [Akvaryumlarınızı yönetme](/help/mobile-tanks) sayfasına bakın.

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cihaz ekleme, düzenleme ve kaldırma | Cora Help</title>
-  <meta name="description" content="Ekipmanı Cora&#x27;ya ekleyin, bir akvaryuma atayın ve hepsini tek bir yerden sorunsuz şekilde kaldırın.">
+  <meta name="description" content="Cihazlar sekmesinden ekipmanı Cora&#x27;ya ekleyin, bir akvaryuma atayın, adını değiştirin, sağlıklı çalışıp çalışmadığını kontrol edin ve kaldırın.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/tr/help/mobile-devices">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-devices">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-devices">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Cihaz ekleme, düzenleme ve kaldırma | Cora Help">
-  <meta property="og:description" content="Ekipmanı Cora&#x27;ya ekleyin, bir akvaryuma atayın ve hepsini tek bir yerden sorunsuz şekilde kaldırın.">
+  <meta property="og:description" content="Cihazlar sekmesinden ekipmanı Cora&#x27;ya ekleyin, bir akvaryuma atayın, adını değiştirin, sağlıklı çalışıp çalışmadığını kontrol edin ve kaldırın.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/tr/help/mobile-devices">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Yardım","item":"https://coraiq.tech/tr/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/tr/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Ekipman","item":"https://coraiq.tech/tr/help/mobile-devices"},{"@type":"ListItem","position":4,"name":"Cihaz ekleme, düzenleme ve kaldırma"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">İçeriğe geç</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/tr/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Yardım</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Kılavuzda ara">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Kılavuz gezinmesi">
     <button class="hclose" id="hclose" type="button" aria-label="Menüyü kapat">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Kılavuz">
 <ul>
 <li><a href="/tr/help/">Cora Yardım</a></li>
+</ul>
+<p class="nav-sec">Yardım</p>
+<ul>
+<li><a href="/tr/help/troubleshooting">Sorun giderme</a></li>
+<li><a href="/tr/help/how-do-i">Nasıl yaparım...?</a></li>
+<li><a href="/tr/help/equipment-by-brand">Markaya göre ekipman</a></li>
+<li><a href="/tr/help/faq">Sıkça sorulan sorular</a></li>
+<li><a href="/tr/help/glossary">Sözlük</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Başlarken</summary><ul>
-<li><a href="/tr/help/mobile-setup">Cora Mobile kurulumu</a></li>
-<li><a href="/tr/help/mobile-account">Giriş yapma ve hesabı kurtarma</a></li>
+<li><a href="/tr/help/mobile-setup">Cora Mobile&#x27;ı kurma</a></li>
+<li><a href="/tr/help/mobile-tour">Cora Mobile&#x27;da yolunuzu bulma</a></li>
 <li><a href="/tr/help/mobile-tank-profile">Akvaryum profiliniz</a></li>
-<li><a href="/tr/help/mobile-tour">Beş sekme</a></li>
+<li><a href="/tr/help/mobile-tanks">Akvaryumlarınızı yönetme</a></li>
+<li><a href="/tr/help/mobile-account">Giriş yapma ve hesap kurtarma</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Panonuz</summary><ul>
-<li><a href="/tr/help/mobile-dashboard">Panoyu okuma</a></li>
-<li><a href="/tr/help/mobile-dashboard-editing">Panoyu düzenleme</a></li>
+<li><a href="/tr/help/mobile-dashboard">Panonuzu okuma</a></li>
+<li><a href="/tr/help/mobile-metric-detail">Bir parametreyi inceleme</a></li>
+<li><a href="/tr/help/mobile-dashboard-editing">Panonuzu düzenleme</a></li>
 <li><a href="/tr/help/mobile-widgets">Widget rehberi</a></li>
-<li><a href="/tr/help/mobile-metric-detail">Parametre ayrıntıları</a></li>
 <li><a href="/tr/help/mobile-sharing">Akvaryumunuzu paylaşın</a></li>
 </ul></details>
 <details class="nav-g" open>
@@ -83,41 +93,41 @@
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
 <li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
-<li><a href="/tr/help/mobile-probes">Parametre Eşlemesi</a></li>
-<li><a href="/tr/help/mobile-consumables">Sarf malzemeleri</a></li>
-<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
+<li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
+<li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
 <li><a href="/tr/help/mobile-cameras">Kameralar ve Skimmer Gözcüsü</a></li>
-<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozajlayıcıları</a></li>
+<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozaj pompaları</a></li>
+<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Uyarılar ve otomasyon</summary><ul>
 <li><a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a></li>
 <li><a href="/tr/help/mobile-notifications">Bildirimler</a></li>
 <li><a href="/tr/help/mobile-automation">Otomasyonlar ve sahneler</a></li>
+<li><a href="/tr/help/mobile-vacation">Tatile çıkarken: akvaryum bakıcınız için bir plan</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Kayıtlar</summary><ul>
-<li><a href="/tr/help/mobile-dosing">Dozaj</a></li>
+<li><a href="/tr/help/mobile-journal">Günlük</a></li>
+<li><a href="/tr/help/mobile-dosing">Dozaj ürünleri ve dozaj hesaplayıcı</a></li>
 <li><a href="/tr/help/mobile-maintenance">Bakım</a></li>
 <li><a href="/tr/help/mobile-livestock">Canlılar</a></li>
-<li><a href="/tr/help/mobile-journal">Günlük</a></li>
 <li><a href="/tr/help/mobile-activity">Etkinlik ve zaman çizelgesi</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Zeka</summary><ul>
-<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorun</a></li>
 <li><a href="/tr/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
+<li><a href="/tr/help/mobile-assistant">Cora&#x27;ya sorun</a></li>
 <li><a href="/tr/help/mobile-icp-health">ICP ve sağlık raporları</a></li>
+<li><a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Hesap</summary><ul>
-<li><a href="/tr/help/mobile-vacation">Tatile çıkarken</a></li>
+<summary>Ayarlar ve hesap</summary><ul>
+<li><a href="/tr/help/mobile-settings">Cora Mobile ayarları</a></li>
 <li><a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a></li>
-<li><a href="/tr/help/mobile-data-export">Verileriniz</a></li>
-<li><a href="/tr/help/mobile-plans">Planlar</a></li>
-<li><a href="/tr/help/mobile-settings">Ayarlar</a></li>
-<li><a href="/tr/help/mobile-support">Yardım alma</a></li>
+<li><a href="/tr/help/mobile-plans">Planlar ve abonelikler</a></li>
+<li><a href="/tr/help/mobile-data-export">Verilerinizi dışa aktarma ve hesabınızı silme</a></li>
+<li><a href="/tr/help/mobile-support">Sorun bildirme</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/tr/help/max-devices">Cihazlar ve cihaz sağlığı</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Uyarılar ve otomasyon</summary><ul>
+<li><a href="/tr/help/max-alerts">Cora Max&#x27;te uyarılar</a></li>
+<li><a href="/tr/help/max-automation">Cora Max&#x27;te sahneler</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Kayıtlar</summary><ul>
 <li><a href="/tr/help/max-records">Günlük, canlılar ve bakım</a></li>
+<li><a href="/tr/help/max-activity">Cora Max&#x27;te etkinlik</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Zeka</summary><ul>
@@ -146,63 +162,54 @@
 <li><a href="/tr/help/max-voice">Cora ile konuşma</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Uyarılar</summary><ul>
-<li><a href="/tr/help/max-activity">Cora Max&#x27;te etkinlik</a></li>
-<li><a href="/tr/help/max-alerts">Cora Max&#x27;te uyarılar</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Ayarlar</summary><ul>
+<summary>Ayarlar ve hesap</summary><ul>
 <li><a href="/tr/help/max-settings">Cora Max ayarları</a></li>
 <li><a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Otomasyon</summary><ul>
-<li><a href="/tr/help/max-automation">Cora Max&#x27;te sahneler</a></li>
-</ul></details>
-<p class="nav-sec">Yardım</p>
-<ul>
-<li><a href="/tr/help/faq">Sıkça sorulan sorular</a></li>
-<li><a href="/tr/help/troubleshooting">Sorun giderme</a></li>
-<li><a href="/tr/help/glossary">Sözlük</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Gezinme yolu"><ol><li><a href="/tr/help/">Yardım</a></li><li><a href="/tr/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/tr/help/mobile-devices">Ekipman</a></li></ol></nav>
       <h1>Cihaz ekleme, düzenleme ve kaldırma</h1>
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#ekipman-ekleme">Ekipman ekleme</a></li><li><a href="#cihazn-sayfas">Cihazın sayfası</a></li><li><a href="#adn-deitirme">Adını değiştirme</a></li><li><a href="#cihazn-salkl-alp-almadn-kontrol-etme">Cihazın sağlıklı çalışıp çalışmadığını kontrol etme</a></li><li><a href="#cihaz-kaldrma">Cihazı kaldırma</a></li></ul></nav>
-<p>Her cihazı <strong>Cihazlar</strong> sekmesinden ekleyin, düzenleyin, atayın ve kaldırın; burada markaya göre gruplanır. Her grubu daraltabilirsiniz. Böylece ekipmanla dolu bir reef odası bile derli toplu görünür.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Cihazlar sekmesi"><img src="/help/img/mobile-devices.webp" alt="Cihazlar sekmesi" width="1100" height="493" loading="lazy" decoding="async"></button><figcaption>Ekipman markaya göre gruplanır. Her grup daraltılabilir.</figcaption></figure>
-<h2 id="ekipman-ekleme">Ekipman ekleme</h2>
-<p><strong>Cihaz Ekle</strong>'ye dokunun, ardından markayı seçin: <strong>Cora</strong>, <strong>Neptune™ Apex</strong>, <strong>Red Sea™</strong>, <strong>Jecod™</strong> ya da <strong>AquaWiz™</strong>. Beta kullanıcıları ayrıca, her birinde bir <strong>Beta</strong> etiketiyle <strong>Maxspect™</strong>, <strong>GHL™</strong>, <strong>HYDROS™</strong>, <strong>Focustronic™</strong>, <strong>EcoTech™</strong>, <strong>Inkbird™</strong> ve <strong>Kamera</strong> görür. Her biri ekipmanınızı bulmak için gerekeni açar: ağ taraması, IP adresi, giriş ya da cihaz anahtarı. Her markanın ne gerektirdiği <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasında.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Beta entegrasyonlar yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları <strong>Cihaz Ekle</strong> içinde görmezsiniz. Beta erişimi istemek için <a href="/support.html">destek</a> ile iletişime geçin. Ayrıntılar <a href="/tr/help/mobile-beta">Beta özellikleri</a> sayfasında.</p></aside>
+      <p class="twin">Cora Max'te: <a href="/tr/help/max-devices">Cihazlar ve cihaz sağlığı</a></p>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#adding-equipment">Ekipman ekleme</a></li><li><a href="#pairing-a-cora-max">Cora Max eşleştirme</a></li><li><a href="#a-devices-page">Bir cihazın sayfası</a></li><li><a href="#renaming">Adını değiştirme</a></li><li><a href="#health">Bir cihazın sağlıklı olup olmadığını kontrol etme</a></li><li><a href="#removing-a-device">Bir cihazı kaldırma</a></li></ul></nav>
+<p><strong>Cihazlar</strong> sekmesi, her ekipmanı eklediğiniz, atadığınız, adını değiştirdiğiniz, kontrol ettiğiniz ve kaldırdığınız yerdir. Cihazlar markaya göre gruplanır ve her grubu daraltabilirsiniz.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Cihazlar sekmesi"><img src="/help/img/mobile-devices.webp" alt="Cihazlar sekmesi" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Ekipman markaya göre gruplanır. Her grup daraltılabilir.</figcaption></figure>
+<h2 id="adding-equipment">Ekipman ekleme</h2>
+<ol><li><strong>Cihazlar</strong> sekmesinde <strong>Cihaz Ekle</strong>'ye dokunun.</li><li>Markayı seçin: <strong>Cora</strong>, <strong>Neptune™ Apex</strong>, <strong>Red Sea™</strong>, <strong>Jecod™</strong> ya da <strong>AquaWiz™</strong>. Beta kullanıcıları ayrıca her birinde bir <strong>Beta</strong> çipiyle <strong>Maxspect™</strong>, <strong>GHL™</strong>, <strong>HYDROS™</strong>, <strong>Focustronic™</strong>, <strong>EcoTech™</strong>, <strong>Inkbird™</strong> ve <strong>Kamera</strong> görür.</li><li>Markanın adımlarını izleyin. Markaya göre bu bir ağ taraması, bir IP adresi, bir giriş ya da bir cihaz anahtarıdır. Her markanın adımları <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasında.</li><li>Ait olduğu akvaryumu seçin.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Bir Beta kullanıcısı için Cihaz Ekle listesi"><img src="/help/img/mobile-add-device-beta.webp" alt="Bir Beta kullanıcısı için Cihaz Ekle listesi" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Beta markalarında bir Beta çipi bulunur.</figcaption></figure>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Beta entegrasyonları yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları <strong>Cihaz Ekle</strong> içinde görmezsiniz. Beta erişimi istemek için <a href="/support.html">destek</a> ile iletişime geçin. Ayrıntılar <a href="/tr/help/mobile-beta">Beta özellikleri</a> sayfasında.</p></aside>
 <p>Akvaryumda bir Cora Max gerektiren bir satır (Maxspect, GHL, EcoTech, Inkbird ve Kamera), akvaryumda bir Cora Max olana kadar soluk görünür ve <strong>Cora Max Gerektirir</strong> yazar.</p>
-<p><strong>Cora</strong>, yeni bir Cora Max eşlemenin yoludur. Wi-Fi ağınızdaki üniteleri ya da Bluetooth ile yakındakileri bulur. Arama cihazı bulamazsa aynı ekranda <strong>IP Adresini Elle Girin</strong> seçeneği var.</p>
-<p>Isıtıcı, pompa ya da skimmer gibi bir ekipman eklerken marka ve model alanı <strong>otomatik tamamlama</strong> yapar. Yazmaya başlayın, Cora kaynağı doğrulanmış geniş bir marka listesinden öneriler getirir. Sizin markanız listede yoksa yine de yazın. Cora ne yazarsanız onu kaydeder.</p>
-<aside class="cal cal-note"><p class="cal-t">Cora ve telefonunuz aynı ağda olmalı</p><p>Yerel ağda bulunan ekipmanı eklerken telefonunuz da aynı ağda olmalıdır. <strong>Kurulumdan sonra da ekipmana yalnızca o ağ üzerinden</strong> (Bluetooth kullanan ünitelerde Bluetooth üzerinden) ulaşılır, ekipmana sizin yerinize ulaşabilen ve akvaryumun yanında duran bir Cora cihazı yoksa.</p>
-<p>Bu yüzden evde doğru ölçüm gösteren ekipman, siz dışarıdayken daha eski değerler gösterebilir. Akvaryumun yanında onu yoklayan bir Cora Max varsa bu olmaz. Bu bir arıza değildir. Ekipmana nereden ulaşılabildiğiyle ilgilidir.</p></aside>
-<h2 id="cihazn-sayfas">Cihazın sayfası</h2>
-<p>Listeden herhangi bir cihazı açın. Önce kontrolleri, ardından her marka için aynı şekilde çalışan üç bölüm gelir.</p>
-<ul><li><strong>Akvaryumlar</strong> cihazın hangi akvaryuma (ya da akvaryumlara) atandığını gösterir. Yeniden atamak için <strong>Değiştir</strong>'e dokunun.</li><li><strong>Bağlantı</strong>, IP adresini, giriş bilgisini ya da cihaz anahtarını düzenlediğiniz yerdir.</li><li>En altta <strong>Cihazı kaldır</strong>.</li></ul>
-<p>Cora Max, Neptune Apex ve GHL birden fazla akvaryuma hizmet edebilir, bu yüzden akvaryum seçicileri bir onay listesidir. Cora Max en fazla dört akvaryuma atanabilir. Ayrıntılar <a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a> sayfasında. HYDROS dahil geri kalan her şey aynı anda tek bir akvaryuma hizmet eder: farklı bir akvaryum seçmek cihazı oraya taşır ve eskisinden kaldırır.</p>
-<aside class="cal cal-warning"><p class="cal-t">Ölçümlere güvenmeden önce akvaryumu atayın</p><p>Akvaryuma atanmamış bir cihaz ölçüm göndermeye devam eder, ama bu sayıların gideceği bir yer yoktur. Yeni eklediğiniz cihaz panoda görünmüyorsa önce bunu kontrol edin.</p></aside>
-<h2 id="adn-deitirme">Adını değiştirme</h2>
-<p>Cihazı açın ve adının yanındaki kaleme dokunun. Günlük hayatta kullandığınız adı verin: "Ana pompa", "Sol gyre", "Sump ısıtıcısı". Bu ad widget'larda, uyarılarda ve Cora'ya sorduğunuz her soruda geçer. Sizin için anlamlı bir ad seçerseniz her şey daha kolay anlaşılır.</p>
-<p>Adlar en fazla 40 karakter olabilir. Aynı türden iki cihazın adı yoksa Cora onları adın arkasına eklediği kısa bir kodla ayırt eder. Cora seri numarasını asla ad olarak kullanmaz.</p>
+<aside class="cal cal-note"><p class="cal-t">Cora Max olmadan bazı ekipmanlar yalnızca yereldir</p><p>Neptune Apex, Red Sea ve Jecod ekipmanına ev ağınız ya da Bluetooth üzerinden ulaşılır. Cora Max yoksa ekleme ekranında <em>Bu entegrasyon, Cora Max olmadan yalnızca Mobile uygulamasında yerel olarak çalışır.</em> yazar. Telefonunuz onu yalnızca aynı ağdayken (ya da Bluetooth menzilindeyken) okur ve kontrol eder. Evden uzaktayken telefonunuzun kaydettiği son ölçümleri görürsünüz ve onu kontrol edemezsiniz. Akvaryumdaki bir Cora Max onu gece gündüz okur ve komutlarınızı iletir. Ayrıntılar <a href="/tr/help/mobile-connections#local-only">Ekipmanınızı bağlama</a> sayfasında.</p></aside>
+<p>Ağınızdan ekipman eklerken telefonunuzun ekipmanla aynı ağda olması gerekir.</p>
+<h2 id="pairing-a-cora-max">Cora Max eşleştirme</h2>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Cora Mobile&#x27;da cihaz arayan Cora&#x27;nızı Ekleyin ekranı"><img src="/help/img/mobile-add-device.webp" alt="Cora Mobile&#x27;da cihaz arayan Cora&#x27;nızı Ekleyin ekranı" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'ınızda ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.</figcaption></figure>
+<p>Yeni bir Cora Max'i <strong>Cora</strong> ile eşleştirirsiniz. Wi-Fi'ınızda zaten bulunan üniteleri ya da yakındakileri Bluetooth üzerinden bulur. Sizinkini bulamazsa aynı ekrandaki <strong>IP Adresini Elle Girin</strong>'i kullanın. Adım adım anlatım <a href="/tr/help/max-setup">Cora Max'i kurma</a> sayfasında.</p>
+<h2 id="a-devices-page">Bir cihazın sayfası</h2>
+<p>Sayfasını açmak için listedeki herhangi bir cihaza dokunun. Önce kontrolleri, ardından her markada aynı çalışan bölümler gelir.</p>
+<ul><li><strong>Durum</strong>, <strong>Model</strong>, <strong>Seri no</strong>, <strong>Yazılım</strong> bilgilerini ve Cora'nın ondan en son ne zaman haber aldığını (<strong>Son görülme</strong>) gösterir.</li><li><strong>Akvaryumlar</strong>, hangi akvaryuma (ya da akvaryumlara) atandığını gösterir. Yeniden atamak için <strong>Değiştir</strong>'e dokunun.</li><li><strong>Bağlantı</strong>, IP adresini, giriş bilgisini ya da cihaz anahtarını düzenlediğiniz yerdir.</li><li>En altta <strong>Cihazı kaldır</strong>.</li></ul>
+<p>Cora Max, Neptune Apex ve GHL birden fazla akvaryuma hizmet edebilir, bu yüzden akvaryum seçicileri bir onay listesidir. Cora Max en fazla dört akvaryuma atanabilir. <a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a> sayfasına bakın. HYDROS dahil diğer her şey aynı anda tek bir akvaryuma hizmet eder. Farklı birini seçmek cihazı oraya taşır ve eskisinden çıkarır.</p>
+<aside class="cal cal-warning"><p class="cal-t">Ölçümlere güvenmeden önce akvaryumu atayın</p><p>Akvaryumu olmayan bir cihaz bildirmeye devam eder ama sayılarının gidecek yeri yoktur. Yeni eklediğiniz bir cihaz panoda görünmüyorsa önce bunu kontrol edin.</p></aside>
+<p>Her markanın kontrollerinin ne yaptığı <a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a> sayfasında.</p>
+<h2 id="renaming">Adını değiştirme</h2>
+<p>Cihazı açın ve adının yanındaki kaleme dokunun. Gündelik hayatta ona ne diyorsanız onu kullanın, "Ana pompa", "Sol gyre" ya da "Sump ısıtıcısı" gibi. Ad widget'larda, uyarılarda ve Cora'ya sorduğunuz her şeyde görünür.</p>
+<p>Adlar en fazla 40 karakter olabilir. Cihazın kendi adına dönmek için adı boş bırakın. Aynı türden iki cihazın adı yoksa Cora onları adın arkasındaki kısa bir kodla ayırt eder. Cora seri numarasını hiçbir zaman ad olarak kullanmaz.</p>
 <p>Yeni ad yalnızca Cora'da geçerlidir. Üreticinin kendi uygulamasındaki adı değiştirmez.</p>
-<h2 id="cihazn-salkl-alp-almadn-kontrol-etme">Cihazın sağlıklı çalışıp çalışmadığını kontrol etme</h2>
-<p>Her cihaz Cihazlar sekmesinde bir satırdır: simgesi, adı, modeli ve akvaryumu. Satırdaki nokta durumunu gösterir.</p>
+<h2 id="health">Bir cihazın sağlıklı olup olmadığını kontrol etme</h2>
+<p>Her cihaz Cihazlar sekmesinde simgesi, adı, modeli ve akvaryumuyla bir satırdır. Satırdaki nokta durumunu gösterir.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Nokta</th><th>Anlamı</th></tr></thead><tbody><tr><td data-th="Nokta">Gri</td><td data-th="Anlamı">Cora henüz bilmiyor</td></tr><tr><td data-th="Nokta">Yeşil</td><td data-th="Anlamı">Normal çalışıyor</td></tr><tr><td data-th="Nokta">Turuncu</td><td data-th="Anlamı">Bir uyarı ya da arıza var</td></tr><tr><td data-th="Nokta">Kırmızı</td><td data-th="Anlamı">Çevrimdışı</td></tr></tbody></table></div>
-<p>Ölçümler, modlar, bağlantıyı kaldırma ve IP adresi cihazın ayrıntı sayfasındadır. Bu sayfa bir <strong>Durum</strong> bölümüyle açılır. Görmek istediğiniz şey yakın zamanlı bir güncelleme saati ve hiçbir uyarı olmamasıdır.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Gördüğünüz</th><th>Anlamı</th></tr></thead><tbody><tr><td data-th="Gördüğünüz">Yakın zamanlı bir güncelleme saati</td><td data-th="Anlamı">Normal çalışıyor</td></tr><tr><td data-th="Gördüğünüz">Yalnızca birkaç saatte bir veri gönderen bir cihazda "3 sa önce güncellendi"</td><td data-th="Anlamı">Sorun yok</td></tr><tr><td data-th="Gördüğünüz">"… ulaşılamadı"</td><td data-th="Anlamı">Ağ sorunu var ya da cihaz kapalı</td></tr><tr><td data-th="Gördüğünüz">"… girişi reddetti"</td><td data-th="Anlamı">Üretici hesabının yeniden bağlanması gerekiyor. Cihazı açıp yeniden giriş yapın</td></tr><tr><td data-th="Gördüğünüz">"Cora Max bekleniyor"</td><td data-th="Anlamı">Az önce eklediğiniz bir GHL kontrol ünitesi: ağındaki bir Cora Max onu okuduğunda görünür</td></tr><tr><td data-th="Gördüğünüz">Hiçbir şey</td><td data-th="Anlamı">Cihaz hiç veri göndermemiş. Akvaryum atamasını ve bağlantıyı kontrol edin</td></tr></tbody></table></div>
-<h2 id="cihaz-kaldrma">Cihazı kaldırma</h2>
-<p>Cihazı açın ve <strong>Cihazı kaldır</strong>'a dokunun. Cora sizden onay ister: <em>"{name} Cora'dan kaldırılacak. Cihazın kendisi sıfırlanmaz veya değiştirilmez."</em></p>
-<p><strong>Ölçümleriniz silinmez.</strong> Cihazı kaldırdığınızda Cora ondan yeni veri toplamayı bırakır. Önceden toplanan geçmiş akvaryumda kalır. O cihaza bağlı widget'lar da geçmiş ölçümleri göstermeye devam eder.</p>
-<p>Kaybettiğiniz şey canlı bağlantıdır. Cihaz bir üretici hesabıyla bağlandıysa kayıtlı giriş bilgisi de silinir. Cihazı yeniden eklerseniz tekrar giriş yapmanız gerekir.</p>
-<aside class="cal cal-tip"><p class="cal-t">Çok uyarı veren cihazı kaldırmadan sessize alın</p><p>Cihaz doğru çalışıyor ama çok sık uyarı veriyorsa eşiklerini ya da bildirim ayarlarını değiştirin. Ayrıntılar <strong><a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a></strong> sayfasında. Böylece hem bağlantı hem veriler korunur, gereksiz uyarılar da kesilir.</p></aside>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/tr/help/mobile-metric-detail"><span>Önceki</span><b>Parametre ayrıntıları</b></a><a class="pn-n" href="/tr/help/mobile-connections"><span>Sonraki</span><b>Ekipmanınızı bağlama</b></a></nav>
-      <p class="stamp">Cora Max 0.28.170 ve Cora Mobile 0.5.111 için yazılmıştır. Son kontrol: 2026-10-12.</p>
+<p>Daha fazlası için cihazı açın. <strong>Durum</strong> bölümü Cora'nın ondan en son ne zaman haber aldığını gösterir. Görmek istediğiniz şey yakın bir saat ve hiç uyarı olmamasıdır.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Gördüğünüz</th><th>Anlamı</th></tr></thead><tbody><tr><td data-th="Gördüğünüz">Yakın bir güncelleme saati</td><td data-th="Anlamı">Normal çalışıyor</td></tr><tr><td data-th="Gördüğünüz">Yalnızca birkaç saatte bir bildiren bir şeyde "3 sa önce güncellendi"</td><td data-th="Anlamı">Sorun yok</td></tr><tr><td data-th="Gördüğünüz">"… ulaşılamadı"</td><td data-th="Anlamı">Bir ağ sorunu var ya da cihaz kapalı</td></tr><tr><td data-th="Gördüğünüz">"… girişi reddetti"</td><td data-th="Anlamı">Üretici hesabının yeniden bağlanması gerekiyor. Cihazı açın ve yeniden giriş yapın</td></tr><tr><td data-th="Gördüğünüz">"Cora Max bekleniyor"</td><td data-th="Anlamı">Yeni eklediğiniz bir GHL kontrolcüsü ya da Inkbird monitörü: bir Cora Max onu okuduğunda görünür</td></tr><tr><td data-th="Gördüğünüz">Uzaktayken daha eski ölçümler</td><td data-th="Anlamı">Akvaryumda Cora Max olmayan Apex, Red Sea ve Jecod için normal (yukarıya bakın)</td></tr><tr><td data-th="Gördüğünüz">Hiçbir şey</td><td data-th="Anlamı">Hiç bildirmedi. Akvaryum atamasını ve bağlantıyı kontrol edin</td></tr></tbody></table></div>
+<p>Bir cihaz bildirmeyi bıraktığında Cora sizi uyarabilir. Süreler <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> sayfasında. Diğer her şey için <a href="/tr/help/troubleshooting">Sorun giderme</a> sayfasına bakın.</p>
+<h2 id="removing-a-device">Bir cihazı kaldırma</h2>
+<p>Cihazı açın ve <strong>Cihazı kaldır</strong>'a dokunun ya da Cihazlar sekmesinde satırını sola kaydırın. Cora onaylamanızı ister: <em>"{name} Cora'dan kaldırılacak. Cihazın kendisi sıfırlanmaz veya değiştirilmez."</em></p>
+<p><strong>Ölçümleriniz korunur.</strong> Bir cihazı kaldırmak Cora'nın ondan yeni veri toplamasını durdurur. Daha önce topladığı geçmiş akvaryumda kalır ve onu kullanan her widget geçmiş ölçümlerini tutar.</p>
+<p>Canlı bağlantıyı kaybedersiniz. Cihaz bir üretici hesabı üzerinden bağlandıysa kayıtlı giriş bilgisini de kaybedersiniz, bu yüzden onu yeniden eklerseniz tekrar giriş yapmanız gerekir.</p>
+<aside class="cal cal-tip"><p class="cal-t">Gürültülü bir cihazı kaldırmadan susturun</p><p>Bir cihaz iyi çalışıyor ama çok sık uyarı veriyorsa <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> içinde eşiklerini ya da bildirim ayarlarını değiştirin. Bağlantıyı ve veriyi korursunuz, gürültü de durur.</p></aside>
+      <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-sharing"><span>Önceki</span><b>Akvaryumunuzu paylaşın</b></a><a class="pn-n" href="/tr/help/mobile-connections"><span>Sonraki</span><b>Ekipmanınızı bağlama</b></a></nav>
+      <p class="stamp">Cora Max 0.28.170 ve Cora Mobile 0.5.111 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -319,10 +326,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Ekran g\u00f6r\u00fcnt\u00fcs\u00fc");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Kapat"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -343,55 +350,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "\u201c" + esc(q) + "\u201d i\u00e7in sonu\u00e7 bulunamad\u0131." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "\u201c" + esc(q)
+        + "\u201d i\u00e7in sonu\u00e7 bulunamad\u0131." + '</p>' + "<p>Daha az ya da farkl\u0131 kelimeler deneyin veya \u015furaya gidin:</p><ul><li><a href=\"/tr/help/troubleshooting\">Sorun giderme</a></li><li><a href=\"/tr/help/how-do-i\">Nas\u0131l yapar\u0131m...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Destekle ileti\u015fime ge\u00e7in</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -423,9 +597,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/tr/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/tr/help/search.json?v=7b891243eb').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';
       });

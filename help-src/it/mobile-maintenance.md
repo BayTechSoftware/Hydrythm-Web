@@ -1,45 +1,52 @@
 ---
 title: Manutenzione
-description: Lavori ricorrenti con promemoria: pulizia dello schiumatoio, calze filtranti, manutenzione delle pompe.
+description: Aggiungi lavori ricorrenti come pulire lo schiumatoio o cambiare le calze filtranti, ricevi un promemoria quando scadono e segnali come fatti o rinviali.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 19
+reviewed: 2026-10-13
+order: 26
 group: Records
+twin: max-records
 ---
 
-In Manutenzione trovi i lavori che la vasca richiede a intervalli regolari, con i relativi promemoria. La apri dalla riga di scorciatoie in fondo alla dashboard.
+Manutenzione tiene i lavori che la tua vasca richiede a intervalli regolari, con un promemoria per ognuno.
 
-![L'elenco della manutenzione](img/mobile-maintenance.webp "Conformità, conteggio in ritardo, e ogni attività con il suo ultimo completamento e la prossima data di scadenza.")
+Tocca **Manutenzione** nella fila di pulsanti sotto la dashboard. La trovi anche in Impostazioni → la tua vasca → **Manutenzione**.
 
-## Il riepilogo
+![L'elenco della manutenzione](img/mobile-maintenance.webp "Conformità, numero di attività in ritardo e ogni attività con l'ultimo completamento e la prossima scadenza.")
 
-In alto trovi:
+## Il riepilogo {#summary}
 
-- **Conformità manutenzione**: la percentuale di lavori fatti in tempo
-- **Conteggio in ritardo**: quanti lavori hanno superato la scadenza
+In alto vedi **Conformità manutenzione**, la quota di attività in regola in questo momento, e quante attività sono in ritardo.
 
-Ogni lavoro nell'elenco ha un colore in base all'urgenza: in ritardo, in scadenza a breve o in programma. Per ognuno vedi quando l'hai fatto l'ultima volta e quando scade il prossimo.
+Ogni attività nell'elenco ha un colore: in ritardo, in scadenza a breve o in programma. Mostra anche quando l'hai fatta l'ultima volta e quando scade la prossima.
 
-## Aggiungere un lavoro
+## Aggiungere un'attività {#adding-a-task}
 
-Dagli un nome, un'icona e ogni quanti giorni va fatto. La prossima scadenza la calcola Cora.
+Tocca **Aggiungi attività**, poi scegli:
 
-Qualche esempio:
+- **Da modello** per un lavoro comune con l'intervallo già inserito. Sceglilo, poi imposta quando scade la prossima volta e l'ora in cui vuoi il promemoria, e tocca **Conferma**.
+- **Attività personalizzata** per un lavoro tuo. Dagli un **Nome attività**, un **Intervallo (giorni)**, una **Categoria** e una **Prossima data di scadenza**. Attiva **Promemoria** e scegli **Ricordamelo alle** se vuoi una notifica.
 
-| Lavoro | Ogni |
+Alcuni dei modelli, con l'intervallo da cui partono:
+
+| Attività | Intervallo |
 |---|---|
-| Cambiare le calze filtranti | 3–7 giorni |
-| Pulire il bicchiere dello schiumatoio | 7 giorni |
-| Pulire i vetri | 7 giorni |
-| Sostituire carbone o GFO | 30 giorni |
-| Revisionare la pompa di risalita | 90–180 giorni |
-| Calibrare le sonde | 30–90 giorni |
+| Cambia i calzini filtranti | 3 giorni |
+| Pulisci la coppetta dello schiumatoio | 7 giorni |
+| Cambio d'acqua | 7 giorni |
+| Testa i parametri dell'acqua | 7 giorni |
+| Sostituisci il carbone | 30 giorni |
+| Calibra la sonda pH | 30 giorni |
+| Pulisci le pompe di movimento | 90 giorni |
+| Carica i risultati ICP | 90 giorni |
 
-## Lavori che Cora crea per te
+Puoi cambiare l'intervallo di qualsiasi attività in seguito.
 
-Quando colleghi un ReefDose, ReefATO+, ReefMat o ReefRun Red Sea, Cora aggiunge da sola la manutenzione che serve a quel dispositivo, già con l'intervallo giusto. Vedrai comparire lavori come questi:
+### Attività che Cora aggiunge per l'attrezzatura Red Sea {#red-sea-tasks}
 
-| Dispositivo | Lavoro | Ogni |
+Quando colleghi un ReefDose, ReefATO+, ReefMat o ReefRun Red Sea, Cora aggiunge la manutenzione di cui ha bisogno quell'unità, già con l'intervallo giusto:
+
+| Dispositivo | Attività | Intervallo |
 |---|---|---|
 | ReefATO+ | Replace ReefATO+ EC sensor | 42 giorni |
 | ReefATO+ | Replace ReefATO+ return pump | 135 giorni |
@@ -53,45 +60,44 @@ Quando colleghi un ReefDose, ReefATO+, ReefMat o ReefRun Red Sea, Cora aggiunge 
 | ReefDose, per testa | Calibrate ReefDose head | 90 giorni |
 | ReefDose, per testa | Replace ReefDose head tubing | 450 giorni |
 
-Funzionano esattamente come un lavoro che aggiungi tu: puoi rinominarli, cambiare l'intervallo, rinviarli o metterli in pausa. Se ne elimini uno, Cora non lo ricrea per quel dispositivo.
+Funzionano come qualsiasi attività che aggiungi tu. Puoi rinominarle, cambiare l'intervallo, rinviarle o eliminarle. Se ne elimini una, Cora non la aggiunge di nuovo per quel dispositivo.
 
-### Testare l'acqua
+### Testare l'acqua {#test-water}
 
-Se tocchi **Ricordami di testare ogni settimana** sulla scheda del primo test, Cora aggiunge un lavoro settimanale chiamato **Testare l’acqua**, in scadenza nel **Giorno del test** che scegli. Funziona come qualsiasi lavoro che aggiungi tu. Vedi [Configurare Cora Mobile](/help/mobile-setup).
+Se tocchi **Ricordami di testare ogni settimana** sulla scheda del primo test, Cora aggiunge un'attività settimanale chiamata **Testare l’acqua**, in scadenza nel **Giorno del test** che scegli. Funziona come qualsiasi altra attività. Vedi [Configurare Cora Mobile](/help/mobile-setup). Puoi anche aggiungere un promemoria per i test in qualsiasi momento con il modello **Testa i parametri dell'acqua**.
 
-### Da un'automazione
+### Da un'automazione {#from-an-automation}
 
-Un'[automazione](/help/mobile-automation) con l'azione **Crea un'attività di manutenzione** può mettere un lavoro in questo elenco quando la sua regola scatta, oppure rendere subito dovuto un lavoro esistente. Uno nuovo è una tantum, da fare subito, ed esce dall'elenco quando lo completi. Finché è ancora aperto, la stessa automazione non ne aggiunge un altro. Ricevi una sola notifica.
+Un'[automazione](/help/mobile-automation) con l'azione **Crea un'attività di manutenzione** può mettere un lavoro in questo elenco quando la sua regola scatta, oppure rendere subito in scadenza un'attività esistente. Una nuova è un'**Attività una tantum**, in scadenza subito, e mostra *Creata da un'automazione* con il motivo. Esce dall'elenco quando la completi. Finché è ancora aperta, la stessa automazione non ne aggiunge un'altra. Ricevi una sola notifica.
 
-## Promemoria
+## Promemoria {#reminders}
 
-Ogni lavoro può avere un promemoria, e sei tu a decidere quando:
+Apri un'attività e attiva **Promemoria**, poi scegli **Ricordamelo alle**. Ricevi una notifica il giorno prima della scadenza e una il giorno stesso. Finché è in ritardo, ricevi un promemoria ogni pochi giorni. Se più attività di una vasca scadono insieme, arrivano in un'unica notifica.
 
-- **Quanti giorni prima** della scadenza
-- **A che ora** arriva il promemoria
+I promemoria rientrano in **Promemoria di manutenzione** in [Impostazioni → Notifiche](/help/mobile-notifications). Se per un'attività ti basta vederla nell'elenco, spegni il suo **Promemoria**.
 
-Se per un lavoro ti basta vederlo nell'elenco, spegni il promemoria.
+## Segnare un'attività come fatta {#marking-done}
 
-## Segnare un lavoro come fatto
+Scorri l'attività verso destra, oppure aprila e tocca **Completa**. Se hai scorso per errore, tocca **Annulla** nel messaggio che compare.
 
-Tocca **Completa** oppure scorri il lavoro di lato. Cora registra quando l'hai fatto e calcola la prossima scadenza da quel momento. Se lo fai con tre giorni di ritardo, anche il prossimo slitta di tre giorni.
+Cora salva l'ora in cui hai finito e calcola la prossima scadenza da quel momento. Quindi se fai un lavoro con tre giorni di ritardo, anche il prossimo slitta di tre giorni.
 
-:::note Toccando un lavoro lo modifichi
-Se tocchi la riga, apri il lavoro per cambiare nome, intervallo o promemoria. Per segnarlo come fatto usa **Completa**.
+Il pannello dell'attività mostra la sua **Cronologia completamenti**, compreso quanto in ritardo è stata fatta ogni volta.
+
+:::note Completare un'attività scrive anche una voce nel diario
+Cora aggiunge per te una breve voce nel tuo [diario](/help/mobile-journal), indicando se eri in ritardo. Aggiungi una voce tua quando c'è altro da dire, per esempio se la pompa era piena di sabbia o le calze erano nere dopo un giorno.
 :::
 
-## Rinviare
+## Modificare un'attività {#editing}
 
-Se adesso non riesci a farlo, rinvialo. Il lavoro resta nell'elenco in grigio come **Rinviata**, con la nuova data. Non sparisce nulla, semplicemente non ricevi altri promemoria fino a quella data.
+Tocca un'attività per aprirla. Puoi cambiare **Nome attività**, **Intervallo (giorni)**, **Note (opzionale)**, **Prossima data di scadenza** e il promemoria, poi tocca **Salva**. **Elimina** la rimuove.
 
-:::warning Segna come fatto solo quello che hai fatto davvero
-La prossima scadenza parte dalla data in cui segni il lavoro come fatto. Se segni come fatto un lavoro ancora da fare, sposti tutte le scadenze successive. In quel caso rinvialo.
+## Rinviare {#snoozing}
+
+Non riesci a fare un lavoro adesso? Aprilo, tocca **Rinvia** e scegli **1 giorno**, **3 giorni**, **1 settimana**, **2 settimane** o **1 mese**. Resta nell'elenco come **Rinviata** con la nuova data, e non ricevi promemoria fino ad allora.
+
+:::warning Segna un'attività come fatta solo quando l'hai fatta
+La prossima scadenza viene calcolata dal giorno in cui la segni come fatta. Se segni come fatta un'attività ancora aperta, tutte le scadenze successive si spostano. Rinviala invece.
 :::
 
-## Mettere in pausa un lavoro
-
-Puoi disattivare un lavoro, per esempio se hai spento l'attrezzatura a cui si riferisce o se in questa stagione non serve. Resta nell'elenco, non scade più e puoi riattivarlo quando vuoi.
-
-## Manutenzione e diario
-
-Segnare un lavoro come fatto è diverso dallo scrivere nel diario. La manutenzione ti dice cosa c'è da fare. Il **[diario](/help/mobile-journal)** ti dice cosa hai fatto davvero e cosa è successo dopo. Se un lavoro ha avuto qualcosa di strano (la pompa era piena di sabbia, le calze erano nere dopo un giorno), annotalo anche nel diario.
+Non c'è modo di mettere in pausa un'attività. Per un lavoro che in questa stagione non serve, rinvialo di **1 mese**, oppure eliminalo e aggiungilo di nuovo più avanti.

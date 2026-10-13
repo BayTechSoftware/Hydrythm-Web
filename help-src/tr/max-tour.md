@@ -1,102 +1,111 @@
 ---
 title: Cora Max ana ekranı
-description: Cora Max ekranında ne nerede: üst çubuk, pano ızgarası ve prizler çekmecesi.
+description: Cora Max'te üst çubuğun, durum etiketinin, uyarı etiketlerinin, akvaryum menüsünün ve panonun ne anlama geldiği; akvaryumlar arasında geçiş ve Prizler ve Besleme'yi açma.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 2
 group: Getting started
+twin: mobile-tour
 ---
 
-Cora Max aynı anda tek bir akvaryum gösterir. Ekranı, odanın öbür ucundan okunabilen canlı ölçümlerle doldurur.
+Bu sayfa Cora Max'te gördüklerinizi açıklar. Cora Max aynı anda tek bir akvaryum gösterir ve ekranı odanın öbür ucundan okuyabileceğiniz canlı ölçümlerle doldurur.
 
-![Cora Max ana ekranı](img/max-home.webp "Tek akvaryum, tam ekran.")
+![Üst çubuğun altında bir akvaryumun göstergeleri, değerleri, grafikleri ve cihaz kutucuklarıyla Cora Max ana ekranı](img/max-home.webp "Bir akvaryumun panosu ekranı doldurur, üstünde üst çubuk durur.")
 
-## Üst çubuk
+## Üst çubuk {#the-top-bar}
+
+![Cora Max üst çubuğu](img/max-topbar.webp "Üst çubuk, aşağıdaki listeyle eşleşecek şekilde soldan sağa numaralandırılmış.")
 
 Soldan sağa:
 
-- **Izgara simgesi**, Reef Room'u açar. Burada bu ekrandaki tüm akvaryumları bir arada görürsünüz
-- **Akvaryum adı** ve yanında küçük bir ok. Dokununca **akvaryum menüsü** açılır. Test sonucu girmekten panoyu düzenlemeye kadar o akvaryumla ilgili tüm ekranlar buradadır. Tam liste aşağıda.
-- **Uyarı etiketleri**: Aralık dışındaki değerler. Hepsi sığmazsa **+2** gibi bir sayı çıkar. Tümünü görmek için dokunun.
-- **Saat**
-- **Durum etiketi**: Ekranın şu anda ne yaptığını gösterir. Yeşil her şeyin yolunda olduğunu, turuncu dikkat gerektiğini, kırmızı bir arıza olduğunu gösterir. Tüm etiketler aşağıda.
-- **Pil ve Wi-Fi**
-- **Cihazlar simgesi**: Bağlı tüm cihazlar ve durumları
-- **Reef Buddy simgesi**: Günün özetini açar. Üzerinde nokta varsa özeti henüz okumamışsınız demektir.
-- **Cora Assistant simgesi**: Sesli konuşma başlatır
-- **Dişli simgesi**: Ayarlar
+1. **Izgara simgesi**, bu ekranın gösterdiği tüm akvaryumların genel görünümü olan [Reef Room](/help/max-reef-room)'u açar.
+2. Küçük bir okla birlikte **akvaryum adı**. Baktığınız akvaryumun tüm ekranlarını içeren **akvaryum menüsünü** açmak için dokunun. Tam liste aşağıda.
+3. **Uyarı etiketleri** şu anda dikkat gerektiren şeyleri gösterir: aralık dışındaki ölçümler, cihaz arızaları, kaçırılan dozlar ya da azalan sarf malzemeleri. O uyarıyı yeniden ekranın ortasına getirmek için bir etikete dokunun. Sığandan fazlası varsa **+2** (ya da kaç tane varsa) görürsünüz. Tüm etkin alarmları görmek için ona dokunun.
+4. **Saat**. Onu **Ayarlar → Cora Max Ayarları** içindeki **Saati göster** ile gizleyebilirsiniz.
+5. **Durum etiketi**, bu ekranın şu anda ne yaptığını gösterir. Yeşil her şeyin yolunda, mavi meşgul, turuncu bakılması gereken bir şey, kırmızı bir arıza olduğu anlamına gelir. Tüm durumlar aşağıda listelenir.
+6. **Pil ve Wi-Fi**.
+7. **Cihazlar simgesi**, bu akvaryuma göre süzülmüş **Cihazlar**'ı açar. Cihazı olmayan bir akvaryumda görünmez.
+8. **Reef Buddy simgesi** bugünün özetini açar. Nokta, onu henüz okumadığınız anlamına gelir.
+9. **Cora Assistant simgesi** sesli bir konuşma başlatır.
+10. **Dişli** ayarları açar.
 
-### Durum etiketleri
+:::warning Cora Assistant hemen dinlemeye başlar
+Cora Assistant simgesine dokunmak canlı bir sesli oturum başlatır. Ayarları istediyseniz en sağdaki dişliye dokunun.
+:::
+
+### Durum etiketinin anlamı {#what-the-status-pill-means}
 
 | Etiket | Anlamı |
 |---|---|
 | **Çevrimiçi** | Bu ekran ölçümlerinizi topluyor ve ölçümler güncel |
-| **Bulut** | Bu akvaryumun ölçümlerini başka bir Cora topluyor, bu ekran onları gösteriyor. Ölçümler **Çevrimiçi** kadar günceldir. Birden çok Cora varsa, toplamayı yapmayan ekranda bu etiket görünür |
-| **Apex yoklanıyor**, **Ses etkin** | Ekran şu anda bir işle meşgul |
-| **Yoklama kapalı** | Bu akvaryum için ölçüm toplama kapalı. Cora Mobile'dan yeniden açabilirsiniz |
-| **Güncelleniyor** | Güncelleme kurulurken ölçüm toplama duraklar |
-| **Eski** | Yeni ölçüm gelmiyor. Ekran aldığı son veriyi gösterir |
-| **Apex tekrar deneme 12 s** | Apex'iniz cevap vermedi. Geri sayım bitince Cora Max yeniden dener |
-| **Bulut eşitleme başarısız** | Apex'iniz cevap verdi ama ölçümler Cora Cloud'a kaydedilemedi. Bu yüzden pano geride kalıyor. Cora Max denemeye devam eder |
-| **Bulut kaydı reddedildi** | Cora Cloud, bu ekranın bazı verilerini kaydetmeyi reddediyor. Akvaryumunuzda ya da Cora Max'te bir sorun yok ve bu ekranda değiştirmeniz gereken bir şey yok. Çözüm bir Cora Cloud güncellemesi. **Ayarlar → Cora Max Ayarları → Yazılım Güncellemesi**'ni açın ve **Durum** bölümüne bakın. **Bulut kaydı** satırı hangi verilerin etkilendiğini söyler. Sonra [destekle iletişime geçin](/support.html) |
+| **Bulut** | Bu akvaryumun ölçümlerini başka bir Cora topluyor ve bu ekran onları gösteriyor. **Çevrimiçi**'deki kadar günceller. Birden fazla Cora'nız varsa toplamayı yapmayan bunu gösterir |
+| **Apex yoklanıyor**, **Ses etkin** | Şu anda bir işle meşgul (mavi) |
+| **Yoklama kapalı** | Bu akvaryum için toplama kapalı. Cora Mobile'da yeniden açabilirsiniz |
+| **Güncelleniyor** | Bir güncelleme yüklenirken toplama duraklatıldı |
+| **Eski** | Ölçümler gelmeyi bıraktı. Ekran aldığı son ölçümleri gösterir |
+| **Apex tekrar deneme 12 s** | Apex'iniz yanıt vermedi. Geri sayım bitince Cora Max yeniden dener |
+| **Bulut eşitleme başarısız** | Apex'iniz yanıt verdi ama ölçümleri Cora Cloud'a kaydedilemedi, bu yüzden pano geride kalıyor. Cora Max denemeye devam eder |
+| **Bulut kaydı reddedildi** | Cora Cloud bu ekranın bazı verilerini kaydetmeyi reddediyor. Akvaryumunuzda ya da Cora Max'te bir sorun yok ve bu ekranda değiştirilmesi gereken bir şey yok. Çözüm bir Cora Cloud güncellemesidir. **Ayarlar → Cora Max Ayarları**'nı açın ve **Durum** bölümüne kaydırın, orada **Bulut kaydı** satırı hangi verilerin etkilendiğini söyler. Sonra [destekle iletişime geçin](/support.html) |
 | **Çevrimdışı** | Bağlantı yok. Ekran aldığı son veriyi gösterir |
-| **Çevrimdışı, 45 s içinde tekrar denenecek** | Ağınız çalışıyor ama Cora Cloud'a 30 saniyeden uzun süredir ulaşılamıyor. Cora Max kendiliğinden yeniden bağlanır. Geri sayım bir sonraki denemeye kalan süreyi gösterir |
-| **Ana Cora çevrimdışı** | Bu ekran, bu akvaryumu gösteren ikinci bir Cora Max ve **Birincil Cora Max** (bu akvaryumun ekipmanını yoklamak için seçilen cihaz) çevrimdışı. Birincil cihaz geri gelene ya da siz başka bir Birincil Cora Max seçene kadar bu ekran elindeki son veriyi göstermeye devam eder. Ayrıntılar [Birden çok Cora cihazı](/help/mobile-multi-device) sayfasında |
-| **Apex parolası** | Apex'iniz kayıtlı şifreyi kabul etmedi. Çözümü [Sorun giderme](/help/troubleshooting) sayfasında |
+| **Çevrimdışı, 45 s içinde tekrar denenecek** | Ağınız çalışıyor ama Cora Cloud'a 30 saniyeden uzun süredir ulaşılamıyor. Cora Max kendiliğinden yeniden bağlanır ve geri sayım bir sonraki denemenin ne zaman olacağını gösterir |
+| **Ana Cora çevrimdışı** | Bu ekran bu akvaryum için ikinci bir Cora Max ve **Birincil Cora Max** (bu akvaryumun ekipmanını okumak için sabitlenen) çevrimdışı oldu. Bu ekran, birincil geri gelene ya da siz başka bir Birincil Cora Max seçene kadar elindeki son veriyi göstermeye devam eder. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında |
+| **Apex parolası** | Apex'iniz kayıtlı parolayı reddetti. [Sorun giderme](/help/troubleshooting) sayfasına göz atın |
 
-:::note Yeniden deneme geri sayımı nasıl işler
-Cora Max belli aralıklarla yeniden bağlanmayı dener. Bağlantı ilk koptuğunda yaklaşık 15 saniye sonra, ardından bir kez daha 15 saniye sonra dener. Sonra iki kez 30 saniyede bir, ardından bağlanana kadar dakikada bir dener. Hemen yeniden denemez ama pes de etmez. Ekranda **Çevrimdışı, 45 s içinde tekrar denenecek** yazıyorsa her şey olması gerektiği gibi işliyordur.
+:::note Yeniden deneme geri sayımı nasıl çalışır
+Cora Max düzenli bir tempoyla yeniden bağlanmayı dener. İlk kopuştan sonra yaklaşık 15 saniye, sonra yine 15 saniye, sonra iki kez 30 saniye, ardından bağlanana kadar dakikada bir bekler. Hiçbir zaman pes etmez. **Çevrimdışı, 45 s içinde tekrar denenecek** normaldir.
 :::
 
-:::warning Cora Assistant hemen dinlemeye başlar
-Cora Assistant simgesine dokununca sesli konuşma hemen başlar. Ayarları açmak istediyseniz en sağdaki dişli simgesine dokunun.
-:::
+## Pano {#the-dashboard}
 
-## Pano
+Ekranın geri kalanı panodur: her widget'ı görünür tutan sabit bir ızgara. Kaymaz.
 
-Ekranın geri kalanı panodur. Sabit bir ızgaradaki tüm widget'lar aynı anda görünür. Cora Max panosu kaymaz.
+Widget'lar telefonunuzdakilerle aynı şekilde çalışır, yalnızca birkaç adım geriden okunacak kadar büyüktür. Her biçimin ne gösterdiği [Widget rehberi](/help/mobile-widgets) sayfasında. Panoda neler olduğunu değiştirmek için [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasına bakın.
 
-Widget'lar telefonunuzdakilerle aynı şekilde çalışır, yalnızca birkaç adım geriden okunacak kadar büyüktür. Her widget'ın ne gösterdiği **[Widget rehberi](/help/mobile-widgets)** sayfasında. Panodakileri değiştirmek için **[Cora Max panosunu düzenleme](/help/max-dashboard-editing)** sayfasına bakın.
+Ölçülen bir parametreyi gösteren her widget, tıpkı telefonunuzdaki gibi **yaşını** ve **kaynağını** gösterir. Yanında `2 g` yazan bir sayı iki günlüktür. Cihaz ve kontrol kutucukları ise kendi durumlarını gösterir.
 
-Ölçülen bir parametreyi gösteren her widget'ta, telefondaki gibi ölçümün **yaşı** ve **kaynağı** yazar. Yanında `2 g` yazan bir değer iki gün öncesine aittir ve öyle gösterilir. Cihaz ve kontrol kutucukları ise kendi durumlarını gösterir.
+### Ekran karardığında {#when-the-screen-is-dimmed}
 
-## Akvaryum menüsü
+**Şu kadar süre sonra karart** süresi boyunca dokunulmazsa ekran kararır. İlk dokunuşunuz yalnızca ekranı uyandırır, böylece yanlışlıkla bir kontrole basamaz. Ekranı kullanmak için yeniden dokunun.
 
-![Akvaryum menüsü](img/max-menu.webp "Üst çubuktaki akvaryum adından, o akvaryumla ilgili her şey.")
+## Akvaryum menüsü {#the-tank-menu}
 
-Akvaryum adına dokununca ekrandaki akvaryumun menüsü açılır:
+![Pano üzerinde açık akvaryum menüsü: Parametreleri kaydet, Günlük, Reef Buddy ve akvaryumun diğer ekranları](img/max-menu.webp "Üst çubuktaki akvaryum adından açılan akvaryum menüsü.")
+
+Ekrandaki akvaryumun menüsünü açmak için akvaryum adına dokunun.
 
 | Öğe | Ne açılır |
 |---|---|
-| **Parametreleri kaydet** | Test kiti sonuçlarını ekran klavyesiyle girin |
-| **Günlük** | Bu akvaryumun [günlüğü](/help/mobile-journal) |
-| **Reef Buddy** | Güncel [özet](/help/mobile-reef-buddy) |
+| **Parametreleri kaydet** | Test kiti ölçümlerini ekran klavyesiyle girin |
+| **Günlük** | Bu akvaryumun [günlüğü](/help/max-records) |
+| **Reef Buddy** | En son [özet](/help/max-intelligence) |
 | **Sağlık Raporları** | Sağlık değerlendirmeleri |
-| **Bakım** | [Görev listesi](/help/mobile-maintenance) |
-| **ICP Raporları** | Yüklenen [laboratuvar sonuçları](/help/mobile-icp-health) |
+| **Bakım** | [Görev listesi](/help/max-records) |
+| **ICP Raporları** | Yüklenen [laboratuvar sonuçları](/help/max-intelligence) |
 | **Parametre geçmişi** | Verisi olan herhangi bir parametreyi seçin ve [grafiğini](/help/max-intelligence) açın |
-| **Uyarı eşikleri** | Bu akvaryumdaki her değer için sağlıklı aralık |
-| **Canlılar** | Bu akvaryumun [canlı listesi](/help/mobile-livestock). Bu ekranda yalnızca okunur |
-| **Etkinlik** | [Tüm priz, besleme ve dozaj komutları](/help/max-activity) ve sonuçları |
+| **Uyarı eşikleri** | Bu akvaryumdaki her metrik için [sağlıklı aralık](/help/max-alerts) |
+| **Canlılar** | Bu akvaryumun envanteri, bu ekranda yalnızca görüntüleme |
+| **Etkinlik** | [Her priz, besleme ve doz](/help/max-activity) ve ne olduğu |
 | **Pano düzeni** | [Bu ekrandaki widget'ları düzenleyin](/help/max-dashboard-editing) |
 | **Birimler** | Bu akvaryumun ölçümleri için görüntüleme birimleri |
-| **Akvaryum ayarları** | Bu akvaryumun tüm ayarları |
+| **Akvaryum ayarları** | Bu akvaryumun tam ayarlar ekranı |
 
-## Akvaryumlar arasında geçiş
+## Akvaryumlar arasında geçiş {#switching-tanks}
 
-Üst çubuğun en solundaki **ızgara simgesiyle** [Reef Room](/help/max-reef-room)'a gidin ve istediğiniz akvaryumu açın. Her akvaryumun kendi pano düzeni vardır. Akvaryum değiştirdikçe tüm ekran değişir.
+[Reef Room](/help/max-reef-room)'a gitmek için üst çubuğun en solundaki **ızgara simgesine** dokunun, sonra istediğiniz akvaryumu açın. Panoda yana da kaydırabilirsiniz. Her akvaryumun kendi pano düzeni vardır, bu yüzden geçiş yaptıkça tüm ekran değişir.
 
-## Prizler ve Besleme çekmecesi
+## Prizler ve Besleme çekmecesi {#the-outlets-feed-drawer}
 
-Ekranın altındaki sekmeyi yukarı çekin. Açılan çekmecede sistemdeki tüm prizler ve besleme kontrolleri var.
+Neptune Apex'i olan bir akvaryumda panonun altında küçük bir **Prizler ve Besleme** etiketi durur. **Kontroller**'i açmak için ona dokunun ya da panonun herhangi bir yerinde yukarı kaydırın.
 
-- **Prizler**: Her birini Otomatik, Kapalı ya da Açık yapabilirsiniz
-- **Besleme**: Yem verirken gereken ekipmanı durdurur, sonra hepsini eski haline getirir
+- **BESLEME**, Apex besleme döngülerinizden birini **A**, **B**, **C** ya da **D** ile başlatır. **İptal** onu erken bitirir.
+- **PRİZLER**'in her biri Otomatik, Kapalı ve Açık arasında değiştirilebilir.
+
+Çekmece bu pano için seçtiğiniz prizleri ve besleme döngülerini, hiç seçmediyseniz hepsini listeler. Ayrıntılar [Prizler ve kontroller](/help/max-controls) sayfasında.
 
 :::warning Bu çekmece gerçek ekipmanı kontrol eder
-Buradaki her düğme gerçek ekipmanı çalıştırır. Dokunduğunuz anda komut gider. Ama *gitti* demek *yapıldı* demek değildir. Sonuç Onaylandı, Onaylanmadı, Reddedildi ya da Değişiklik yok olarak döner. Hangisi olduğunu [Etkinlik](/help/max-activity) ekranında görürsünüz. Yem verirken akışı durdurmanın güvenli yolu besleme modudur, çünkü her şeyi kendisi eski haline getirir. Elle Kapalı yaptığınız bir priz ise siz değiştirene kadar kapalı kalır.
+Dokunduğunuz anda bir komut gider, ama göndermek yapıldığı anlamına gelmez. Sonuç Onaylandı, Onaylanmadı, Reddedildi ya da Değişiklik yok olarak döner ve hangisi olduğunu [Etkinlik](/help/max-activity) içinde görebilirsiniz. Besleme modu, yem verirken akışı durdurmanın güvenli yoludur, çünkü her şeyi kendisi eski haline getirir. Elle yapılan Kapalı, siz geri değiştirene kadar kapalı kalır.
 :::
 
-## Bir şey ters görünüyorsa
+## Bir şey yerinde görünmüyorsa {#if-something-looks-out-of-place}
 
-Ölçümler eski görünüyorsa ya da durum etiketi turuncu veya kırmızıysa işe **[Sorun giderme](/help/troubleshooting)** sayfasından başlayın.
+Ölçümler eski görünüyorsa ya da durum etiketi turuncu veya kırmızıysa [Sorun giderme](/help/troubleshooting) ile başlayın.

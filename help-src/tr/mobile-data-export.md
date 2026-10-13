@@ -1,71 +1,81 @@
 ---
-title: Verileriniz
-description: Ölçümlerinizi, günlüğünüzü ve uyarılarınızı tablo dosyası olarak dışa aktarın. Hesabınızı nasıl sileceğinizi öğrenin.
+title: Verilerinizi dışa aktarma ve hesabınızı silme
+description: Ölçümlerinizi, günlüğünüzü ve uyarılarınızı tablo dosyası olarak dışa aktarın, çıkış yapın ya da Cora hesabınızı silin ve bunun neleri kaldırdığını öğrenin.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 30
-group: Account
+reviewed: 2026-10-13
+order: 36
+group: Settings and account
 ---
 
-Akvaryum kayıtlarınız size aittir. İstediğiniz zaman dışa aktarabilirsiniz.
+Akvaryum kayıtlarınız size aittir. Bu sayfa onları nasıl dışa aktaracağınızı ve isterseniz hesabınızı nasıl sileceğinizi gösterir.
 
-![Hesap verisi ayarları](img/mobile-data.webp "Dışa aktarma ve silme, Hesap ve Abonelik ekranının en altında yan yana durur.")
+![Cora Mobile'da Verilerimi Dışa Aktar ve Hesabı Sil](img/mobile-data.webp "Ayarlar, ardından hesabınız: Verilerimi Dışa Aktar ve Hesabı Sil, Çıkış Yap'ın altında durur.")
 
 ## Dışa aktarma
 
-**Ayarlar → hesabınız → Verilerimi Dışa Aktar.**
+1. **Ayarlar**'ı açın ve en üstteki hesap kartına dokunun. **Hesap ve Abonelik** açılır.
+2. **Verilerimi Dışa Aktar**'a dokunun.
 
-Dışa aktarma, ücretsiz plan dahil **bütün planlarda ücretsizdir**.
+Dışa aktarma, ücretsiz plan dahil **her planda ücretsizdir**.
 
-Cora verilerinizi **CSV dosyası** olarak verir. Bu dosyaları Excel, Numbers, Google Sheets ya da tablo açabilen herhangi bir programla açabilirsiniz:
+Cora **CSV dosyaları** verir. Bunlar Excel, Numbers, Google Sheets ya da tablo okuyabilen başka herhangi bir programda açılan tablo dosyalarıdır.
 
 | Dosya | İçeriği |
 |---|---|
 | `cora_parameters.csv` | Ölçümleriniz, her biri kaynağı ve zamanıyla |
 | `cora_journal.csv` | Günlük kayıtlarınız |
 | `cora_alerts.csv` | Verilen uyarılar |
-| `cora_export_summary.csv` | Bu dışa aktarmanın kapsamı ve kesilen kısımlar |
+| `cora_export_summary.csv` | Bu dışa aktarmanın kapsadıkları, kesilen kısımlar dahil |
 
-:::note Dışa aktarmada neler var, neler yok
-Dışa aktarma en çok istenen üç kaydı kapsar: **ölçümler, günlük kayıtları ve uyarılar**. Hesabınızdaki her şeyin kopyası değildir. Panolar, canlılar, bakım, otomasyonlar, raporlar ve cihaz ayarları dosyalarda yer almaz.
+:::note Dışa aktarmada neler var
+Dışa aktarma, insanların en çok istediği üç kaydı kapsar: **ölçümler, günlük kayıtları ve uyarılar**. Tüm hesabınızın bir kopyası değildir. Panolar, canlılar, bakım, otomasyonlar, raporlar ve cihaz ayarları dahil değildir.
 
-Her dosya **akvaryum başına 25.000 satırla** sınırlıdır. Beş dakikada bir otuz parametre kaydeden bir akvaryum bu sınırı üç günde aşar. Uzun süredir çalışan bir akvaryumun verisi bu yüzden sınırda kesilir. Kesilme olduysa özet dosyasında açıkça yazar. Dosyanın eksiksiz olduğunu varsaymayın, özet dosyasına bakın.
+Üçünün her biri **akvaryum başına 25.000 satırda** durur. Beş dakikada bir otuz parametre kaydeden bir akvaryum üç günde bundan fazlasını yazar, bu yüzden uzun süredir çalışan bir akvaryum bu sınıra takılır. Bu olduğunda özet dosyası size söyler. Dışa aktarmanın eksiksiz olduğunu varsaymadan önce ona bakın.
 :::
 
-Parametre dosyasında her ölçümün yalnızca değeri değil, **kaynağı** da yer alır. Böylece alkalinite tablonuzda probun ölçtüğü değerle test kitinin gösterdiği değer ayrı kalır.
+Parametre dosyası her ölçümün **kaynağını** da içerir. Böylece alkalinite tablonuzda probunuzun söylediğini test kitinizin söylediğinden yine ayırt edebilirsiniz.
 
 :::note Büyük değişikliklerden önce dışa aktarın
-Bir akvaryumu kapatmadan ya da sisteminizde büyük değişiklik yapmadan önce verilerinizi dışa aktarın. Dışa aktarılan dosyalar Cora Mobile'a ve hesabınıza bağlı değildir.
+Bir akvaryumu kapatmadan ya da sisteminizde büyük değişiklikler yapmadan önce dışa aktarın. Dosyalar Cora Mobile'a ya da hesabınıza bağlı değildir.
 :::
 
 ## Çıkış yapmak ile silmek arasındaki fark
 
-**Çıkış Yap** bu cihazın hesabınızla bağlantısını keser. Verilerinize dokunulmaz. Yeniden giriş yaptığınızda her şey geri gelir.
+**Çıkış Yap** bu telefonun hesabınızla bağlantısını keser. Verilerinize dokunulmaz, yeniden giriş yaptığınızda her şey geri gelir.
 
-**Hesabı Sil** ise kalıcıdır.
+**Hesabı Sil** kalıcıdır.
 
 ## Hesabınızı silme
 
-**Ayarlar → hesabınız → Hesabı Sil.**
-
-Silme işlemi kalıcıdır. Hesabınız, akvaryumlarınız, ölçümleriniz, günlüğünüz, laboratuvar sonuçlarınız ve cihaz bağlantılarınız silinir. İşlem geri alınamaz ve bekleme süresi yoktur.
-
-Saklamak istediğiniz bir şey varsa önce dışa aktarın.
-
 :::warning Hesabı silmek aboneliği iptal etmez
-App Store ya da Google Play aboneliği Cora'ya değil, **mağazaya** bağlıdır. Hesabınızı silince buradaki kaydınız silinir ama **ödemeler durmaz**. Apple ya da Google üzerinden siz iptal edene kadar ücret alınmaya devam eder. Önce aboneliği iptal edin, sonra hesabı silin.
+App Store ya da Google Play aboneliği **mağazaya** aittir. Hesabınızı silmek Cora'daki kaydınızı kaldırır ama **ödemeler durmaz**. Apple ya da Google üzerinden kendiniz iptal edene kadar ücret alınmaya devam eder. Önce orada iptal edin, sonra silin. [İptal etme](/help/mobile-plans#cancelling) bölümüne bakın.
 :::
 
-## Anonim veri paylaşımı
+1. Saklamak istediğiniz bir şey varsa önce [dışa aktarın](#disa-aktarma).
+2. **Ayarlar**'ı açın, hesap kartına ve ardından **Hesabı Sil**'e dokunun.
+3. Onay metnini okuyun. Mağaza aboneliğiniz varsa önce iptal edebilmeniz için bir **Aboneliği yönet** düğmesi bulunur.
+4. **Sil**'e dokunun.
+
+Bu işlem hesabınızı, akvaryumlarınızı, ölçümlerinizi, günlüğünüzü, laboratuvar sonuçlarınızı ve cihaz bağlantılarınızı kaldırır. Geri alınamaz ve bekleme süresi yoktur.
+
+Giriş yapalı uzun zaman olduysa Cora bir şey silmeden önce sizin olduğunuzu kanıtlamanızı isteyebilir. E-posta ve şifreyle giriş yaptıysanız **Şifrenizi onaylayın** der. Apple ya da Google ile giriş yaptıysanız onlarla yeniden giriş yapın. Sonra tekrar deneyin. Siz bunu yapana kadar hiçbir şey silinmez.
+
+## Anonimleştirilmiş veriye katkı
 
 **Ayarlar → Cora Assistant → Anonimleştirilmiş akvaryum verisine katkıda bulun.**
 
-Bu ayar açıkken akvaryumunuzun parametre geçmişi reef araştırmaları için saklanır. Bu kopya **sizinle hiçbir şekilde ilişkilendirilmez** ve hesabınızı sonradan silseniz de kalır. Ayarı kapatırsanız bu geçmiş de diğer verilerle birlikte silinir.
+Bu ayar açıkken akvaryumunuzun parametre geçmişi reef araştırmaları için **sizinle hiçbir bağlantısı olmadan** saklanır. Bu, bir akvaryumu kaldırdığınızda ve hesabınızı sildiğinizde olur. Ayarı kapatırsanız bu geçmiş de diğer her şeyle birlikte silinir.
 
-Bu, hesap silmeden ayrı bir karardır. Hesap silindikten sonra da kalan tek veri budur, bu yüzden bilinçli karar verin. Ayar **varsayılan olarak açıktır**. Bu anahtara bakmadan hesabınızı silerseniz kimliksizleştirilmiş kopya geride kalır.
+Bu, hesabınızı silmekten ayrı bir seçimdir. Verilerinizin hesaptan sonra da kalan tek parçası budur, bu yüzden biraz düşünün. Ayar **varsayılan olarak açıktır**. Bu anahtara bakmadan hesabınızı silerseniz kimliksizleştirilmiş kopya geride kalır.
 
 ## Cora neleri saklar
 
-Tüm ayrıntılar [gizlilik politikasında](/privacy-policy.html) (İngilizce). Kısaca Cora şunları saklar: akvaryum verileriniz, hesabınız ve üretici hesabı üzerinden bağladığınız ekipmanın giriş bilgileri.
+Tüm ayrıntılar [gizlilik politikasında](/privacy-policy.html). Kısaca Cora akvaryum verilerinizi, hesabınızı ve bir üretici hesabı üzerinden bağladığınız ekipmanın giriş bilgilerini saklar.
 
-Bir cihazı kaldırdığınızda o cihazın giriş bilgisi silinir. Hesabınızı sildiğinizde sizinle ilgili her şey silinir. İki istisna var: anahtarı açık bıraktıysanız anonim araştırma kopyası ve yalnızca mağazanın iptal edebileceği aboneliğiniz.
+Bir cihazı kaldırmak onun giriş bilgisini unutturur. Hesabınızı silmek, adınıza tutulan her şeyi kaldırır. İstisnalar şunlar:
+
+- o anahtarı açık bıraktıysanız anonimleştirilmiş araştırma kopyası
+- yalnızca mağazanın iptal edebileceği mağaza aboneliğiniz
+- abonelik yönetimi sağlayıcımızdaki müşteri kaydınız. Bir mağaza iadesi ya da ödeme itirazı yine de işlenebilsin diye hesabınızdan 120 gün sonra silinir
+
+Başka bir telefonda yeniden giriş yapmak ya da giriş yönteminizi değiştirmek [Giriş yapma ve hesap kurtarma](/help/mobile-account) sayfasında anlatılır. Planlar ve faturalandırma [Planlar ve abonelikler](/help/mobile-plans) sayfasında.

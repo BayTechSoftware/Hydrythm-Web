@@ -1,49 +1,58 @@
 ---
-title: Pomoc
-description: Jak zgłosić problem prosto z Cora Mobile i co jest wysyłane razem ze zgłoszeniem.
+title: Zgłaszanie problemu
+description: Zgłoś błąd albo wyślij opinię prosto z Cora Mobile, zobacz, co jest wysyłane razem ze zgłoszeniem, włącz raporty awarii albo napisz do pomocy.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 33
-group: Account
+reviewed: 2026-10-13
+order: 37
+group: Settings and account
 ---
 
-Zgłoszenie wysłane prosto z Cora Mobile przydaje się bardziej niż opis problemu po czasie. Cora Mobile dołącza szczegóły, które trudno potem zapamiętać.
+Żeby zgłosić problem albo wysłać opinię, użyj **Ustawienia → Pomoc i wsparcie → Zgłoś błąd / wyślij opinię**. Zgłoszenie wysłane prosto z Cora Mobile dołącza szczegóły, które trudno potem zapamiętać.
 
-**Ustawienia → Zgłoś błąd / wyślij opinię.**
+![Formularz opinii w Cora Mobile](img/mobile-support.webp "Wybierz, czego dotyczy zgłoszenie, opisz, co się stało, i dodaj zrzut ekranu, jeśli pomoże.")
 
 ## Co wypełniasz
 
-Formularz pyta o dwie rzeczy: **czego dotyczy zgłoszenie**, żeby trafiło we właściwe miejsce, i **co się stało**, opisane własnymi słowami.
+1. W **Jakiego rodzaju to jest?** wybierz jedną opcję: **Coś jest zepsute**, **Prośba o funkcję**, **Błędne dane**, **Niejasne**, **Płatności** albo **Coś innego**. Dzięki temu zgłoszenie trafi do właściwej osoby.
+2. W **Co się stało?** opisz to własnymi słowami.
+3. Dotknij **Wyślij**. Zobaczysz *Dzięki, otrzymaliśmy Twoje zgłoszenie.*
 
-Napisz konkretnie, czego się spodziewasz i co widzisz. „Alkaliczność na pulpicie miała 2 dni, choć Apex odczytywał ją normalnie” pomoże bardziej niż „odczyty nie działają”.
+Napisz, czego się spodziewasz i co widzisz. „Alkaliczność na pulpicie pokazywała 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.
+
+Możesz wysłać do 10 zgłoszeń dziennie.
 
 ## Co dołącza się automatycznie
 
-Do każdego zgłoszenia dołącza się krótka linijka z kontekstem. Formularz pokazuje ją przed wysłaniem:
+Do każdego zgłoszenia dołącza się krótka linijka z kontekstem. Formularz pokazuje ją przed wysłaniem, w *Wysłane z Twoim zgłoszeniem*.
 
-- **wersja aplikacji**
-- **platforma** i wersja systemu
+- **wersja Cora Mobile**
+- Twoja **platforma** i wersja systemu
 - **ekran**, z którego otwarto formularz
 
-Dzięki temu „nie działało” zamienia się w coś, co da się odtworzyć. Linijka jest widoczna, więc nie wysyłamy niczego, czego nie widzisz.
+Zgłoszenie zawiera też język telefonu i wybrane akwarium. Dzięki temu zwykle da się odtworzyć, co poszło nie tak.
 
 ## Zrzuty ekranu
 
-**Dołącz zrzut ekranu** dodaje obraz do zgłoszenia, a **Usuń zrzut ekranu** usuwa go przed wysłaniem.
+**Dołącz zrzut ekranu** dodaje do zgłoszenia obraz z Twoich zdjęć. **Usuń zrzut ekranu** usuwa go przed wysłaniem. Najpierw zrób zrzut ekranu, potem otwórz formularz.
 
-:::warning Zrzut ekranu zobaczy zespół pomocy Cory
-Cora Mobile pisze o tym wprost nad przyciskiem. Zanim dołączysz zrzut, przejrzyj go. Zrzut pulpitu pokazuje nazwy akwariów, odczyty i wszystko inne, co było wtedy na ekranie.
+:::warning Pomoc Cory zobaczy Twój zrzut ekranu
+Cora Mobile pisze o tym nad przyciskiem. Zanim dołączysz obraz, przejrzyj go. Zrzut pulpitu pokazuje nazwy akwariów i odczyty, a także wszystko inne, co było na ekranie.
 :::
 
-:::note Dlaczego w trybie opiekuna nie ma zrzutów ekranu
-Gdy oglądasz cudze akwarium przez udostępniony link, opcja zrzutu ekranu jest niedostępna. Taki zrzut dołączyłby *cudze* dane do *Twojego* zgłoszenia, a właściciel akwarium nigdy by się o tym nie dowiedział.
+:::note W trybie opiekuna nie ma zrzutów ekranu
+Gdy oglądasz cudze akwarium przez udostępniony link, nie możesz dołączyć zrzutu ekranu. Trafiłyby wtedy *cudze* dane do *Twojego* zgłoszenia, a właściciel nigdy by się o tym nie dowiedział.
 :::
 
 ## Automatyczne raporty awarii
 
-**Wysyłaj raporty awarii**, obok wiersza zgłoszeń, działa podobnie, tylko nie musisz samodzielnie zauważać problemu ani go opisywać. Jeśli Cora Mobile ulegnie awarii, sama ją zgłosi. Więcej w [Ustawieniach](/help/mobile-settings).
+**Wysyłaj raporty awarii**, w **Pomoc i wsparcie** pod wierszem zgłoszeń, robi to samo, tylko nie musisz samodzielnie zauważać, że coś się zepsuło, ani tego opisywać. Jeśli Cora Mobile się zatrzyma albo ekran się nie wczyta, aplikacja wyśle szczegóły techniczne. Nie zawierają danych akwarium, zdjęć ani danych konta. Zobacz [Ustawienia Cora Mobile](/help/mobile-settings#getting-help).
+
+## Pisanie do pomocy
+
+**Ustawienia → Pomoc i wsparcie → Skontaktuj się z pomocą** otwiera e-mail do **[cora@coraiq.tech](mailto:cora@coraiq.tech)** z wpisaną wersją Cora Mobile. Zwykle odpowiadamy w ciągu jednego dnia. Jeśli telefon nie ma aplikacji pocztowej, napisz na ten adres z dowolnego konta e-mail.
 
 ## Inne miejsca
 
-- Pytania o własne akwarium zwykle szybciej rozwiąże **[Cora Assistant](/help/mobile-assistant)**, który widzi Twoje odczyty.
-- Jeśli coś działa inaczej, niż opisano, najpierw zajrzyj do **[Rozwiązywania problemów](/help/troubleshooting)**.
+- Pytania o własne akwarium zwykle szybciej rozwiąże [Cora Assistant](/help/mobile-assistant), bo widzi Twoje odczyty.
+- Jeśli coś działa inaczej, niż opisuje ten przewodnik, najpierw zajrzyj do [Rozwiązywania problemów](/help/troubleshooting).
+- Z pytaniem o płatności zajrzyj do [Planów i subskrypcji](/help/mobile-plans).

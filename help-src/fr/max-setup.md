@@ -1,78 +1,102 @@
 ---
 title: Configurer Cora Max
-description: Premier démarrage, Wi-Fi, appairage avec votre compte et choix des aquariums affichés sur Cora Max.
+description: Associez un nouveau Cora Max à Cora Mobile en Bluetooth, connectez-le au Wi-Fi, choisissez ses aquariums, et déplacez-le plus tard vers un autre aquarium.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-13
 order: 1
 group: Getting started
+twin: mobile-setup
 ---
 
-Cora Max est l’écran mural de votre pièce du récif. Il affiche votre système en direct, se lit depuis toute la pièce et comprend la voix.
+Cette page vous mène d’un Cora Max neuf à un écran mural qui fonctionne. Vous l’associez depuis votre téléphone en Bluetooth, et vous ne tapez rien sur l’écran lui-même.
 
 :::tip Configurez d’abord vos aquariums sur votre téléphone
-Cora Max affiche les aquariums et les appareils de votre compte. Si vous les configurez d’abord dans Cora Mobile, Cora Max les récupère à l’appairage, et vous n’avez rien à taper sur l’écran mural.
-
-**Seules les dispositions du tableau de bord ne suivent pas.** Chaque écran garde la sienne, et vous organisez celui-ci après l’appairage. Plus de détails dans [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
+Cora Max affiche les aquariums et les appareils de votre compte, et il ne peut pas créer d’aquarium lui-même. [Configurez-les d’abord dans Cora Mobile](/help/mobile-setup). Cora Max les récupère dès que vous l’associez.
 :::
 
-## Ce qu’il vous faut
+## Ce qu’il vous faut {#what-you-need}
 
-- Cora Max, branché
-- Le nom et le mot de passe de votre Wi-Fi
-- Le compte que vous utilisez pour Cora Mobile
+- Cora Max, branché et allumé. Il est fait pour rester branché.
+- Cora Mobile sur votre téléphone, connecté, avec **au moins un aquarium** déjà créé.
+- Le Bluetooth activé sur votre téléphone, et le téléphone près de Cora Max.
+- Le nom et le mot de passe de votre réseau Wi-Fi.
 
-## La configuration se fait depuis votre téléphone
+Placez Cora Max là où vous le voyez depuis l’autre bout de la pièce et où vous pouvez lui parler, à l’abri des éclaboussures et des dépôts de sel.
 
-Allumez Cora Max. Il affiche un écran d’appairage et **se signale de lui-même**. Vous n’avez rien à taper dessus.
+## Ce que l’écran affiche d’abord {#what-the-screen-shows-first}
 
-![L’écran d’appairage de Cora Max](img/max-pairing-screen.webp "L’écran se nomme lui-même pour que vous puissiez choisir le bon depuis votre téléphone.")
+Allumez Cora Max. Il affiche un écran d’association qui indique **Ouvrez l’application Cora sur votre téléphone**, puis **Touchez Ajouter un appareil.** et **Choisissez ce Cora Max dans la liste des appareils.** En dessous, il affiche **Détectable sous le nom** suivi de son nom, qui se termine par un code court. Si vous en associez plusieurs, ce code permet de les distinguer sur votre téléphone.
 
-L’écran affiche le nom sous lequel on le trouve, qui se termine par un court identifiant. Si vous appairez plusieurs Cora Max, cet identifiant vous aide à les reconnaître dans la liste du téléphone.
+![L’écran d’association de Cora Max, en attente de votre téléphone](img/max-pairing-screen.webp "En attente de votre téléphone. La ligne du bas montre le nom que votre téléphone affichera.")
 
-Tout le reste se passe dans Cora Mobile, en cinq étapes affichées en haut de la fiche : **Connecter · Wi-Fi · Connexion · Aquariums · Terminé.**
+Le même écran affiche un court avis sur les intégrations avec l’équipement d’autres fabricants. Les Conditions que vous avez acceptées dans Cora Mobile couvrent aussi Cora Max.
 
-**1 · Connecter.** Sur votre téléphone, touchez **Appareils → Ajouter un appareil → Cora**. Cora trouve le Cora Max et affiche ce qu’il a détecté : son adresse MAC, sa version de micrologiciel, sa variante et sa révision matérielle. Vérifiez que c’est le bon avant de continuer.
+## Associer depuis votre téléphone {#pairing}
 
-**2 · Wi-Fi.** Choisissez votre réseau dans la liste, ou touchez **Rechercher à nouveau**, puis saisissez le mot de passe. Vous le tapez sur le clavier du téléphone, pas sur l’écran mural.
+Tout le reste se passe dans Cora Mobile. Une feuille vous guide en cinq étapes, affichées en haut : **Connecter · Wi-Fi · Connexion · Aquariums · Terminé**.
 
-**3 · Connexion.** Votre téléphone autorise Cora Max sur votre compte. Pendant ce temps, Cora Max affiche sa progression.
+1. **Le trouver.** Ouvrez l’onglet **Appareils**, touchez **Ajouter un appareil**, puis **Cora**. L’écran **Ajoutez votre Cora** liste les appareils Cora de votre réseau et les appareils de configuration proches trouvés en Bluetooth. Touchez **Analyser** si le vôtre n’apparaît pas encore, puis touchez votre Cora Max.
 
-![Cora Max pendant l’appairage](img/max-pairing-verifying.webp "L’écran suit la vérification du compte pendant que votre téléphone la pilote.")
+   ![L’écran Ajoutez votre Cora dans Cora Mobile, en recherche d’appareils](img/mobile-add-device.webp "Ajouter un appareil, puis Cora. Cora Mobile cherche sur votre Wi-Fi et en Bluetooth, avec la saisie manuelle de l’adresse IP en dessous.")
 
-**4 · Aquariums.** Choisissez les aquariums que cet écran affiche, **quatre au maximum**. Chacun apparaît avec son nom et son type.
+2. **Connecter.** Votre téléphone se connecte à Cora Max en Bluetooth et affiche son adresse MAC, son micrologiciel, sa variante et sa révision matérielle. Vérifiez que c’est le bon, puis touchez **Continuer**.
 
-**5 · Terminé.** L’écran confirme que la configuration est terminée et vous donne un **Code PIN de récupération**.
+3. **Wi-Fi.** Choisissez votre réseau dans la liste, ou touchez **Rechercher à nouveau**, et tapez le mot de passe sur votre téléphone. À partir de là, votre téléphone parle à Cora Max en Wi-Fi, gardez donc le téléphone sur le même réseau.
 
-:::warning Notez le Code PIN de récupération
-La dernière étape affiche un **Code PIN de récupération** à six chiffres. C’est le seul moyen d’entrer en récupération sur ce Cora Max. Pour l’utiliser, posez cinq doigts en haut à droite de l’écran pendant dix secondes, puis saisissez le code. Vous le retrouverez plus tard dans les réglages de cet appareil sur votre téléphone, mais jamais sur Cora Max.
+4. **Connexion.** Votre téléphone associe Cora Max à votre compte. Cela se fait tout seul, et Cora Max affiche sa propre progression, comme **Vérification de votre compte…** et **Configuration de votre aquarium…**.
+
+   ![L’écran d’association de Cora Max affichant Vérification de votre compte](img/max-pairing-verifying.webp "Cora Max affiche chaque étape pendant que votre téléphone l’associe à votre compte.")
+
+5. **Aquariums.** Sous **Attribuer des aquariums**, choisissez les aquariums que ce Cora Max va gérer, **jusqu’à quatre**.
+
+6. **Terminé.** Votre téléphone indique que Cora Max est configuré et affiche un **Code PIN de récupération**. Touchez le bouton qui ouvre le tableau de bord de votre aquarium, ou **Aller aux appareils**. Cora Max affiche **Appairé**, puis **Ouverture du tableau de bord…**.
+
+:::warning Notez le code PIN de récupération
+Le **Code PIN de récupération** a six chiffres et c’est le seul moyen d’entrer en récupération sur ce Cora Max. Pour l’utiliser, posez cinq doigts en haut à droite de l’écran pendant dix secondes, puis saisissez le code PIN. La récupération vous permet de refaire le Wi-Fi, d’associer à nouveau, de rechercher une mise à jour ou de faire une réinitialisation d’usine. Vous retrouvez le code PIN sur votre téléphone sous **Appareils → votre Cora Max → Code PIN de récupération**, mais jamais sur Cora Max lui-même.
 :::
 
-:::note L’appairage relie l’écran à votre compte
-Une fois appairé, Cora Max voit les mêmes aquariums, appareils, mesures et données que votre téléphone. **Les dispositions du tableau de bord ne suivent pas.** Cora Max crée la sienne à partir de votre profil d’aquarium, et vous l’organisez à part.
-:::
+### Si l’association bloque {#if-pairing-gets-stuck}
 
-Suivez les instructions à l’écran pour le relier à votre compte. Cora Mobile vous confirme que l’appairage a réussi.
+- **Le Bluetooth est désactivé. Activez-le, puis appuyez à nouveau sur Rechercher.** Activez le Bluetooth et relancez la recherche.
+- **L’autorisation Bluetooth est désactivée pour Cora.** Autorisez le Bluetooth pour Cora dans les réglages de votre téléphone, puis touchez **Analyser**. Un iPhone peut aussi demander l’accès au réseau local. Autorisez-le aussi.
+- **Aucun appareil de configuration Cora à proximité n’a été trouvé via Bluetooth.** Placez-vous à côté de Cora Max, vérifiez qu’il affiche toujours l’écran d’association, et relancez la recherche.
+- **Aucun aquarium trouvé** à l’étape Aquariums. Votre compte n’a pas encore d’aquarium. Créez-en un dans Cora Mobile, puis refaites l’étape.
+- **Pas encore lié à votre aquarium** à la fin. Cora Max est associé, mais le lien avec l’aquarium n’a pas abouti. Touchez **Réessayer maintenant**. Tant que ce n’est pas fini, les alertes de cet écran utilisent les plages par défaut.
 
-:::note Un compte, plusieurs écrans
-Vous pouvez appairer plusieurs Cora Max au même compte, par exemple un dans la pièce du récif et un ailleurs. Chacun peut afficher ses propres aquariums et sa propre disposition du tableau de bord. Si deux écrans affichent le même aquarium, lisez [Contrôler l’équipement depuis Cora Max](/help/max-device-control) pour savoir ce que le second peut faire avec l’équipement.
-:::
+D’autres solutions dans [Résolution de problèmes](/help/troubleshooting#pairing-a-cora-max-fails).
 
-## Changer les aquariums affichés
+## Après l’association {#after-pairing}
 
-Les aquariums affichés font partie de l’appairage et se changent depuis **votre téléphone**. Ouvrez Cora Max dans **Appareils** et modifiez ses aquariums. Vous ne pouvez pas le faire depuis les réglages de Cora Max.
+Cora Max voit maintenant les mêmes aquariums, appareils, mesures et suivis que votre téléphone.
 
-## Créer le tableau de bord
+- Si l’un de vos aquariums avait déjà un Cora Max, Cora Max demande **Restaurer la disposition précédente pour cet aquarium ?** **Restaurer** remet les réglages d’affichage, de son et d’alerte que l’ancien avait enregistrés. **Repartir de zéro** les ignore.
+- Un aquarium sans mesure affiche **Pas encore de mesures** et un bouton **Enregistrer votre premier test**.
+- Cora Max construit un tableau de bord de départ à partir du profil de votre aquarium. Il ne copie pas celui de votre téléphone.
 
-Cora Max crée sa propre disposition de départ à partir de votre profil d’aquarium. Il **ne copie pas** celle de votre téléphone. Pour la changer, le plus simple est de passer par votre téléphone : **Appareils → votre Cora Max → Modifier le tableau de bord**. C’est plus rapide que de déplacer les tuiles sur l’écran mural.
+Vous pouvez associer plusieurs Cora Max au même compte, par exemple un dans la pièce technique et un dans le salon. Chacun peut afficher des aquariums différents et a sa propre disposition. Si deux affichent le même aquarium, [Plus d’un appareil Cora](/help/mobile-multi-device) explique lequel lit l’équipement.
 
-Le tableau de bord de Cora Max ne fonctionne pas comme celui du téléphone. C’est une grille fixe, et tout doit tenir sur un seul écran. Plus de détails dans **[Modifier le tableau de bord Cora Max](/help/max-dashboard-editing)**.
+## Construire le tableau de bord {#building-the-dashboard}
 
-## Mises à jour
+Le tableau de bord grand écran est une grille fixe, et tout doit tenir sur un seul écran. Le plus rapide est de le disposer depuis votre téléphone : ouvrez l’onglet **Appareils**, touchez votre Cora Max, puis touchez **Disposition du tableau de bord** sur la carte de l’aquarium. Vous pouvez aussi le faire au mur depuis le menu de l’aquarium.
 
-Cora Max se met à jour tout seul. Quand une nouvelle version sort, il la télécharge en arrière-plan, l’installe et vous dit ce qui a changé.
+Pour réutiliser la disposition d’un autre Cora Max ou d’un autre aquarium, chargez-la depuis **Mes tableaux de bord** dans l’éditeur. Plus de détails dans [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
 
-Vous voyez où vous en êtes dans **Réglages → Cora Max**.
+## Déplacer Cora Max vers un autre aquarium {#changing-which-tanks-it-shows}
 
-## Changer de réseau Wi-Fi
+Vous changez les aquariums qu’affiche un Cora Max sur votre téléphone. Les réglages de Cora Max lui-même ne le permettent pas.
 
-Allez dans **Réglages → Réglages Cora Max → Wi-Fi**. Choisissez le nouveau réseau et saisissez le mot de passe. L’appairage est conservé, et vous n’avez pas à reconfigurer l’écran.
+1. Dans Cora Mobile, ouvrez l’onglet **Appareils** et touchez votre Cora Max.
+2. Sous **Aquariums**, touchez **Ajouter un aquarium** et choisissez l’aquarium. Un Cora Max en accepte jusqu’à quatre. Quand il en a déjà quatre, le bouton disparaît : retirez-en d’abord un.
+3. Pour retirer un aquarium de cet écran, touchez l’icône rouge de retrait (**Retirer l’aquarium**) sur la carte de cet aquarium, puis touchez **Retirer**.
+
+Pour déplacer Cora Max d’un aquarium à un autre, ajoutez le nouvel aquarium, puis retirez l’ancien. Le nouvel aquarium reçoit un tableau de bord de départ construit à partir de son profil. Disposez-le avec **Disposition du tableau de bord**.
+
+Si ce Cora Max était le Cora Max principal épinglé de l’aquarium retiré, cet épinglage est effacé et l’aquarium repasse sur **Tout appareil actif (automatique)**. Plus de détails dans [Appareils et état des appareils](/help/max-devices).
+
+## Mises à jour {#updates}
+
+Cora Max se met à jour tout seul. Une nouvelle version se télécharge en arrière-plan et s’installe la nuit. Votre version est affichée en haut de **Réglages → Réglages Cora Max**. Plus de détails dans [Mises à jour et récupération](/help/max-updates).
+
+## Le passer sur un autre réseau Wi-Fi {#moving-it-to-a-different-network}
+
+Allez dans **Réglages → Réglages Cora Max → Wi-Fi**, choisissez le nouveau réseau et saisissez le mot de passe. Cora Max reste associé, vous n’avez donc pas à le configurer à nouveau.

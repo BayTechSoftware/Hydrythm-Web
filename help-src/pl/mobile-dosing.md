@@ -1,56 +1,72 @@
 ---
-title: Dozowanie
-description: Podaj Corze, co dozujesz, a przeliczy mililitry na prawdziwą zmianę w akwarium.
+title: Produkty dozujące i kalkulator dawek
+description: Sprawdź stężenie swoich produktów do alkaliczności, wapnia i magnezu, dodaj własne i użyj kalkulatora dawek, żeby policzyć, ile dodać.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 18
+reviewed: 2026-10-13
+order: 25
 group: Records
 ---
 
-Cora policzy dawki tylko wtedy, gdy zna stężenie Twoich produktów. Ustaw to raz, a kalkulator, śledzenie zużycia i uwagi Cory o dozowaniu będą oparte na prawdziwych liczbach, a nie na domysłach.
+Cora policzy dawki tylko wtedy, gdy wie, jak mocne są Twoje produkty. Ta strona opisuje listę produktów i korzystający z niej kalkulator dawek.
 
-**Ustawienia → Produkty dozujące.**
+Przejdź do **Ustawienia → Produkty dozujące**.
 
 ![Produkty dozujące](img/mobile-dosing.webp "Każdy produkt ma stężenie, z którego Cora liczy dawki i zużycie.")
 
-## Biblioteka produktów
+## Biblioteka produktów {#the-product-library}
 
-Cora ma wbudowaną bibliotekę popularnych produktów. Wyszukaj swój i dodaj go. Stężenie dodaje się razem z nim.
+Ekran **Produkty dozujące** ma już na liście popularne produkty, pogrupowane w **Alkaliczność (dKH)**, **Wapń (ppm)** i **Magnez (ppm)**. Znajdź swój i dotknij go, żeby sprawdzić stężenie.
 
-Przy każdym produkcie jest zapisane, o ile podnosi parametr na mililitr (albo na gram w przypadku produktów sypkich) w określonej objętości wody. To ta liczba zamienia „5 ml” w „+0,2 dKH w Twoim akwarium”.
+Każde stężenie mówi, o ile 1 ml (albo 1 g produktu sypkiego) podnosi parametr w określonej objętości wody. To ta liczba zamienia „5 ml” w „+0,2 dKH w Twoim akwarium”. Na górze przełączasz między **na 100 l** a **na 100 gal**.
 
-Produkt może mieć wartości dla alkaliczności, wapnia, magnezu, azotanów albo fosforanów. Produkt dwuskładnikowy ma po jednej wartości w każdej części, a produkt zbilansowany kilka.
+Zmieniaj wbudowane stężenie tylko wtedy, gdy na Twojej butelce jest inna wartość. Dotknij produktu, żeby otworzyć **Dostosuj stężenie**. **Przywróć domyślne** przywraca wartość Cory.
 
-## Własny produkt
+## Własny produkt {#adding-your-own}
 
-Jeśli Twojego produktu nie ma w bibliotece, dodaj go jako własny i wpisz stężenie. Producent prawie zawsze podaje je na etykiecie, np. „1 ml na 100 litrów podnosi alkaliczność o 0,1 dKH”.
+Jeśli Twojego produktu nie ma na liście, dotknij **+** (**Dodaj własny produkt**). Wpisz **Nazwę produktu**, wybierz **Płyn (ml)** albo **Suchy (g)** i podaj jego stężenie dla alkaliczności, wapnia albo magnezu. Zostaw pole puste, jeśli produkt nie zmienia danego parametru. Produkt dwuskładnikowy wypełnia po jednym polu w każdej części, a produkt zbilansowany kilka.
+
+Stężenie jest prawie zawsze na etykiecie, na przykład „1 ml na 100 litrów podnosi alkaliczność o 0,1 dKH”.
 
 :::warning Wpisz stężenie podane przez producenta
-Złe stężenie przekłamuje każdą dawkę tego produktu w tej samej proporcji. Jeśli nie znasz tej liczby, nie dodawaj produktu i nie zgaduj.
+Jeśli stężenie jest złe, każda dawka, którą Cora policzy dla tego produktu, będzie błędna w tej samej proporcji. Jeśli nie możesz znaleźć tej liczby, nie dodawaj produktu. Nie zgaduj.
 :::
 
-**Sól morska** to co innego niż produkt dozujący. Ustawiasz ją w profilu akwarium, nie tutaj. Cora ma sprawdzony katalog popularnych soli z wartościami podanymi przez producentów, z którego możesz wybrać swoją. Więcej w **[Profilu akwarium](/help/mobile-tank-profile)**.
+Produkty do azotanów i fosforanów pochodzą z własnej listy Cory w kalkulatorze. Nie możesz dodać ich tutaj.
 
-## Kalkulator dawek
+**Mieszanka soli** w Twoim akwarium nie jest produktem dozującym. Ustawiasz ją w profilu akwarium, a Cora ma katalog popularnych soli morskich z wartościami podanymi przez producentów, ze źródłami, z którego możesz wybierać. Zobacz [Profil akwarium](/help/mobile-tank-profile).
 
-Gdy produkty są ustawione, Cora policzy korektę na podstawie rzeczywistej objętości akwarium z jego profilu.
+## Kalkulator dawek {#the-dose-calculator}
 
-Kalkulator liczy **podnoszenie** alkaliczności, wapnia, magnezu oraz azotanów albo fosforanów.
+Kalkulator liczy, ile produktu trzeba, żeby podnieść parametr do wartości docelowej. Działa dla alkaliczności, wapnia, magnezu, azotanów i fosforanów.
 
-Przy **obniżaniu** daje wskazówki, a nie dawkę. Parametru nie da się obniżyć dozowaniem. Pomaga podmiana wody, wymiana mediów albo zmiana tego, co już dozujesz.
+1. Na pulpicie dotknij widżetu parametru, żeby go otworzyć.
+2. Dotknij ikony kalkulatora na górze. Kropka na niej oznacza, że odczyt jest poniżej wartości docelowej.
+3. Sprawdź liczby, które wpisała Cora:
+   - Bieżąca to Twój ostatni odczyt. Zaktualizuj ją, jeśli właśnie robisz test.
+   - Docelowa to środek zakresu alertu dla tego parametru albo typowy zakres rafowy, jeśli go nie ustawiono.
+   - **Objętość netto wody (l)** to 90% objętości akwarium, z poprawką na skały i piasek. Zmień ją, jeśli znasz prawdziwą wartość.
+4. Wybierz **Produkt**. Najpierw są Twoje produkty z profilu akwarium, potem gotowe ustawienia marek. Możesz też wpisać **Własne stężenie**.
 
-:::warning Duże korekty są rozłożone na kilka dni
-Cora ogranicza, o ile parametr może się zmienić w ciągu dnia, i rozkłada większą korektę na kilka dni. Jedna duża dawka to prosty sposób na szok w akwarium, dlatego kalkulator nigdy jej nie zaproponuje.
+Cora pokazuje całkowitą ilość potrzebną, żeby dojść do wartości docelowej.
+
+:::warning Rozłóż dużą korektę w czasie
+Kalkulator podaje całkowitą ilość, a nie dawkę dzienną. Jeśli całość to większy skok, niż jest bezpieczny w ciągu dnia, kalkulator o tym mówi, a Ty dzielisz to na kilka dni. **Zapytaj Cora** otwiera Cora Assistant z Twoimi liczbami, jeśli chcesz pomocy w zaplanowaniu ilości na dzień.
 :::
 
-Tu liczy się objętość wpisana przy konfiguracji. Jeśli objętość różni się od prawdziwej o 20%, dawki też będą o 20% nietrafione.
+Po podaniu dawki dotknij **Zapisz podaną dawkę**. Doda to wpis do [dziennika](/help/mobile-journal).
 
-## Zużycie
+Jeśli już jesteś na poziomie docelowym albo powyżej, kalkulator powie, że nie ma czego dodawać. Parametru nie da się obniżyć dozowaniem. Pomoże podmiana wody, wymiana mediów albo zmiana tego, co już dozujesz.
 
-Gdy Cora widzi i dawki, i odczyty, potrafi policzyć, ile akwarium naprawdę zużywa, i dać znać, gdy to się zmienia.
+Objętość ma tu znaczenie. Jeśli różni się o 20%, dawki też będą o 20% nietrafione.
 
-Gdy zmienia się zapotrzebowanie, najpierw sprawdź przyczynę. Rosnące zużycie alkaliczności często towarzyszy wzrostowi koralowców. Nagła zmiana w którąkolwiek stronę może też wynikać z dawki, która nie dociera do akwarium, błędu testu, wytrącania, podmiany wody albo zmiany w sprzęcie. Sprawdź, co jeszcze zmieniło się w tym czasie.
+## Zużycie {#consumption}
 
-## Sprzęt dozujący
+Gdy Cora widzi i dawki, i odczyty, potrafi policzyć, co zużywa Twoje akwarium, i dać znać, gdy to się zmienia.
 
-Jeśli masz podłączoną pompę dozującą, jej głowice pojawiają się jako urządzenia z własnymi odczytami: ile zostało w każdej głowicy i co dozowała. Więcej w **[Podłączaniu sprzętu](/help/mobile-connections)**.
+Gdy zmienia się zapotrzebowanie, przyjrzyj się temu, zanim wyciągniesz wniosek. Rosnące zapotrzebowanie na alkaliczność często oznacza wzrost, ale nagła zmiana w którąkolwiek stronę może też wynikać z pominiętej dawki, błędu testu, wytrącania, podmiany wody albo zmiany sprzętu. Sprawdź, co jeszcze zmieniło się w okolicach tej daty.
+
+## Sprzęt dozujący {#dosing-equipment}
+
+Jeśli masz podłączony dozownik, na przykład Neptune DŌS albo Red Sea ReefDose, jego głowice pojawiają się z własnymi odczytami, w tym z tym, ile zostało w każdej głowicy i co dozowała. Jak je uruchamiać i uzupełniać, opisuje [Sterowanie sprzętem](/help/mobile-device-control), a ich alerty o niskim poziomie w pojemniku i pominiętej dawce są w [Alertach dozownika](/help/mobile-device-control#doser-alerts).
+
+Automatyzacja też może dozować z głowicy DŌS, z limitem 10 mL na głowicę dziennie. Zobacz [Automatyzacje i sceny](/help/mobile-automation#actions).

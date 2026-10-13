@@ -1,56 +1,72 @@
 ---
-title: Dozaj
-description: Hangi ürünleri dozladığınızı Cora'ya bildirin. Cora da mililitreleri akvaryumdaki gerçek değişime çevirsin.
+title: Dozaj ürünleri ve dozaj hesaplayıcı
+description: Alkalinite, kalsiyum ve magnezyum ürünlerinizin yoğunluğunu kontrol edin, kendi ürünlerinizi ekleyin ve ne kadar ekleyeceğinizi dozaj hesaplayıcısıyla bulun.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 18
+reviewed: 2026-10-13
+order: 25
 group: Records
 ---
 
-Cora'nın dozaj hesabı yapabilmesi için ürünlerinizin ne kadar güçlü olduğunu bilmesi gerekir. Bunu bir kez ayarlayın. Hesaplayıcı, tüketim takibi ve Cora'nın dozajınız hakkında söyledikleri artık tahmine değil, gerçek sayılara dayanır.
+Cora dozaj hesabını ancak ürünlerinizin ne kadar güçlü olduğunu biliyorsa yapabilir. Bu sayfa ürün listesini ve onu kullanan dozaj hesaplayıcısını anlatır.
 
-**Ayarlar → Dozaj Ürünleri.**
+**Ayarlar → Dozaj Ürünleri** yoluna gidin.
 
-![Dozaj ürünleri](img/mobile-dosing.webp "Her ürünün gücü, Cora'nın dozaj ve tüketim hesaplarında kullanılır.")
+![Dozaj ürünleri](img/mobile-dosing.webp "Ürünler, Cora'nın dozaj ve tüketim hesaplarında kullandığı yoğunluğu taşır.")
 
-## Ürün kütüphanesi
+## Ürün kütüphanesi {#the-product-library}
 
-Cora'da yaygın ürünlerden oluşan hazır bir kütüphane var. Kendi ürününüzü arayıp ekleyin. Ürünün gücü de onunla birlikte gelir.
+**Dozaj ürünleri** ekranı yaygın ürünleri **Alkalinite (dKH)**, **Kalsiyum (ppm)** ve **Magnezyum (ppm)** başlıkları altında gruplanmış olarak zaten listeler. Kendi ürününüzü bulun ve yoğunluğunu kontrol etmek için dokunun.
 
-Her ürün, belli bir su hacminde mililitre başına (kuru ürünlerde gram başına) bir parametreyi ne kadar artırdığını kaydeder. "5 ml"yi "akvaryumunuzda +0,2 dKH"ye çeviren sayı budur.
+Her yoğunluk, 1 ml'nin (kuru üründe 1 g'ın) belli bir su hacminde parametreyi ne kadar yükselttiğidir. "5 ml"yi "akvaryumunuzda +0,2 dKH"ye çeviren sayı budur. Üstten **100 L başına** ile **100 gal başına** arasında geçiş yapın.
 
-Ürünler alkalinite, kalsiyum, magnezyum, nitrat ya da fosfat değerleri içerebilir. İki bileşenli ürünlerin her bileşeni bir değer taşır. Dengeli ürünler ise birkaç değer birden taşır.
+Hazır bir yoğunluğu yalnızca şişenizde farklı bir değer yazıyorsa değiştirin. **Yoğunluğu ayarla**'yı açmak için ürüne dokunun. **Varsayılana sıfırla** Cora'nın değerini geri getirir.
 
-## Kendi ürününüzü ekleme
+## Kendi ürününüzü ekleme {#adding-your-own}
 
-Ürününüz kütüphanede yoksa özel ürün olarak ekleyin ve gücünü girin. Üreticinin etiketinde bu bilgi neredeyse her zaman yazar. Örneğin: "100 litrede 1 ml, alkaliniteyi 0,1 dKH artırır."
+Ürününüz listede yoksa **+** (**Özel ürün ekle**) düğmesine dokunun. Bir **Ürün adı** verin, **Sıvı (ml)** ya da **Kuru (g)** seçin ve alkalinite, kalsiyum ya da magnezyum için yoğunluğunu doldurun. Ürün bir parametreyi etkilemiyorsa o alanı boş bırakın. İki bileşenli bir ürün her biri için bir alan doldurur, dengeli bir ürün ise birkaç alan.
 
-:::warning Üreticinin belirttiği gücü girin
-Güç yanlışsa o ürünle yapılan her dozaj hesabı aynı oranda yanlış çıkar. Değeri bilmiyorsanız tahmin etmeyin, ürünü hiç eklemeyin.
+Yoğunluk neredeyse her zaman etikette yazar, "100 litrede 1 ml, alkaliniteyi 0,1 dKH yükseltir" gibi.
+
+:::warning Üreticinin verdiği yoğunluğu kullanın
+Yoğunluk yanlışsa Cora'nın o ürün için hesapladığı her doz aynı oranda yanlış olur. Değeri bulamıyorsanız ürünü eklemeyin. Tahmin etmeyin.
 :::
 
-Akvaryumunuzun **tuz karışımı** dozaj ürünlerinden ayrıdır. Tuz karışımını burada değil, akvaryum profilinde seçersiniz. Cora, yaygın reef tuzlarının yayımlanmış değerlerini kaynaklarıyla birlikte bir katalogda tutar. Ayrıntılar **[Akvaryum profili](/help/mobile-tank-profile)** sayfasında.
+Nitrat ve fosfat ürünleri hesaplayıcıda Cora'nın kendi listesinden gelir. Bunları buraya ekleyemezsiniz.
 
-## Dozaj hesaplayıcı
+Akvaryumunuzun **tuz karışımı** bir dozaj ürünü değildir. Onu akvaryumun profilinde ayarlarsınız ve Cora, aralarından seçim yapabileceğiniz, yaygın reef tuzlarının yayımlanmış değerlerini kaynaklarıyla birlikte içeren bir katalog sunar. [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasına bakın.
 
-Ürünleri ekledikten sonra Cora, profilinizdeki gerçek akvaryum hacmini kullanarak düzeltme dozunu hesaplar.
+## Dozaj hesaplayıcı {#the-dose-calculator}
 
-**Artırma** için hesap yapar: alkalinite, kalsiyum, magnezyum ve artırmak istiyorsanız nitrat ya da fosfat.
+Hesaplayıcı, bir parametreyi hedefine çıkarmak için ne kadar ürün gerektiğini hesaplar. Alkalinite, kalsiyum, magnezyum, nitrat ve fosfat için kullanılabilir.
 
-**Düşürme** için doz vermez, ne yapabileceğinizi anlatır. Bir parametreyi dozajla düşüremezsiniz. Çözüm su değişimi, medya değişimi ya da hâlihazırda dozladığınız üründe bir değişikliktir.
+1. Panoda parametrenin widget'ına dokunarak açın.
+2. Üstteki hesap makinesi simgesine dokunun. Üzerindeki nokta, ölçümün hedefin altında olduğunu gösterir.
+3. Cora'nın doldurduğu sayıları kontrol edin:
+   - Güncel değer en son ölçümünüzdür. Yeni test ettiyseniz güncelleyin.
+   - Hedef, o parametre için uyarı aralığınızın ortasıdır. Bir aralık ayarlamadıysanız tipik reef aralığıdır.
+   - **Net su hacmi (L)**, kaya ve kum payı bırakmak için akvaryum hacminizin %90'ıdır. Gerçek değeri biliyorsanız değiştirin.
+4. **Ürün**'ü seçin. Akvaryum profilindeki kendi ürünleriniz önce, ardından marka hazır ayarları gelir. Bir **Özel yoğunluk** da girebilirsiniz.
 
-:::warning Büyük düzeltmeler tek seferde değil, birkaç güne yayılarak yapılır
-Cora bir parametrenin bir günde ne kadar değişebileceğine sınır koyar ve büyük düzeltmeleri birkaç güne böler. Akvaryumu şoka sokan şey tek seferde verilen büyük dozdur. Hesaplayıcı böyle bir doz önermez.
+Cora hedefe ulaşmak için gereken toplam miktarı gösterir.
+
+:::warning Büyük bir düzeltmeyi zamana yayın
+Hesaplayıcı günlük dozu değil, toplamı verir. Toplam, bir günde güvenli olandan büyük bir sıçramaysa bunu söyler ve siz de onu birkaç güne bölersiniz. Günde ne kadar vereceğinizi planlamak için yardım isterseniz **Cora'ya Sor**, sayılarınızla birlikte Cora Assistant'ı açar.
 :::
 
-Kurulumda girdiğiniz hacim burada önemlidir. Hacim %20 yanlışsa dozaj sonuçları da %20 yanlış çıkar.
+Dozu verdiğinizde **Verdiğiniz dozu kaydedin**'e dokunun. Bu, [günlüğünüze](/help/mobile-journal) bir kayıt ekler.
 
-## Tüketim
+Zaten hedefte ya da üstündeyseniz hesaplayıcı eklenecek bir şey olmadığını söyler. Bir parametreyi dozajla düşüremezsiniz. Çözüm su değişimi, medya değişimi ya da zaten dozladığınız şeyi değiştirmektir.
 
-Cora hem dozlarınızı hem ölçümlerinizi görünce akvaryumunuzun gerçekte ne kadar tükettiğini hesaplar. Tüketim değişirse size haber verir.
+Burada hacim önemlidir. Hacim %20 yanlışsa dozlar da %20 yanlış olur.
 
-Tüketim değiştiğinde hemen sonuca varmayın. Önce nedenine bakın. Alkalinite tüketiminin artması çoğu zaman büyümeden kaynaklanır. Ancak iki yöndeki ani değişimin nedeni verilmeyen bir doz, test hatası, çökelme, su değişimi ya da ekipman değişikliği de olabilir. Aynı tarihlerde başka nelerin değiştiğini kontrol edin.
+## Tüketim {#consumption}
 
-## Dozaj ekipmanı
+Cora hem dozlarınızı hem ölçümlerinizi görebildiğinde akvaryumunuzun ne kadar tükettiğini hesaplayabilir ve bu değiştiğinde size söyler.
 
-Bağlı bir dozaj ünitesi varsa kafaları kendi ölçümleriyle birer cihaz olarak görünür. Her kafada ne kadar kaldığını ve ne dozladığını görürsünüz. Ayrıntılar **[Ekipmanınızı bağlama](/help/mobile-connections)** sayfasında.
+Tüketim değiştiğinde bir sonuca varmadan önce daha yakından bakın. Alkalinite tüketiminin artması çoğu zaman büyüme demektir, ama iki yöndeki ani bir değişim kaçırılan bir dozdan, test hatasından, çökelmeden, su değişiminden ya da ekipman değişikliğinden de kaynaklanabilir. O tarihin çevresinde başka neyin değiştiğine bakın.
+
+## Dozaj ekipmanı {#dosing-equipment}
+
+Neptune DŌS ya da Red Sea ReefDose gibi bağlı bir dozaj pompanız varsa kafaları, her kafada ne kaldığı ve ne dozladığı dahil kendi ölçümleriyle görünür. Onları nasıl çalıştırıp dolduracağınız [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında, düşük kap ve kaçırılan doz uyarıları da [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümünde anlatılır.
+
+Bir otomasyon da bir DŌS kafasından dozaj yapabilir. Bu, kafa başına günde 10 mL ile sınırlıdır. [Otomasyonlar ve sahneler](/help/mobile-automation#actions) sayfasına bakın.

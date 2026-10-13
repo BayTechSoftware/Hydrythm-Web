@@ -1,39 +1,41 @@
 ---
 title: Akvaryumunuzu paylaşın
-description: Akvaryumunuzun şu anki durumunu gösteren, paylaşmaya hazır bir kart hazırlayın.
+description: Akvaryum anlık görüntüsü kartıyla akvaryumunuzun ölçümlerini gösteren bir resmi sosyal medyada ya da bir arkadaşınızla paylaşın.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 27
+reviewed: 2026-10-13
+order: 10
 group: Your dashboard
 ---
 
-Cora, akvaryumunuzun güncel parametrelerini tek karta toplayan bir **akvaryum anlık görüntüsü** hazırlar. Kart, paylaşmaya uygun biçimdedir.
+Cora bir **akvaryum anlık görüntüsü** hazırlayabilir: akvaryumunuzun güncel parametrelerini tek bir resimde toplayan, sosyal medyaya ya da bir arkadaşınıza mesaj olarak göndermeye uygun bir kart.
 
-## Kartı hazırlama
+## Kartı hazırlama {#creating-one}
 
-Panoda akvaryum başlığındaki **paylaş** simgesine dokunun. Cora kartı hazırlar ve siz göndermeden önce önizlemesini gösterir.
+Panoda akvaryum başlığındaki paylaş simgesine dokunun. Bir Sağlık Raporunun üstündeki kamera simgesine de dokunabilirsiniz. **Akvaryum Anlık Görüntüsü** kartın önizlemesiyle açılır. Siz nereye gideceğini seçene kadar hiçbir şey gönderilmez.
 
 ![Akvaryum anlık görüntüsü sayfası](img/mobile-sharing.webp "Hangi parametrelerin görüneceğini ve kartın biçimini seçin.")
 
-## Kartta neler var
+## Kartta neler var {#what-it-contains}
 
-Kartın üstünde akvaryumunuzun adı, yaşı, türü ve canlı sayısı yer alır. Altında seçtiğiniz parametreler, her biri güncel değeri ve son eğilimiyle birlikte listelenir.
+Kartta akvaryumunuzun adı, yaşı, türü ve canlı sayısı yer alır. Yakın tarihli bir sağlık puanı varsa o da görünür. Altında seçtiğiniz parametreler, her biri güncel değeri ve son eğilimiyle birlikte listelenir.
 
-## Neyin görüneceğini seçme
+## Neyin görüneceğini seçme {#choosing-what-appears}
 
-**Karttaki parametreler** bölümünde akvaryumun takip ettiği her parametre bir çip olarak durur. Karta eklemek istediklerinizi işaretleyin ya da **Tümünü seç**'e dokunun. En iyi sonucu üç ya da dört parametre verir. Daha fazlasında kart kalabalıklaşır.
+**Karttaki parametreler**, son bir hafta içinde ölçümü olan her parametre için bir çip gösterir. Eklemek ya da çıkarmak için çiplere dokunun. **Tümünü seç** hepsini açar. Hepsi açıkken düğme **Sıfırla**'ya dönüşür ve başlangıçtaki seçime geri döner. En iyi görünümü üç ya da dört parametre verir. Daha fazlasında kart kalabalıklaşır. Kartta her zaman en az bir parametre kalır.
 
-## Biçim
+Bu telefon, o akvaryum için yaptığınız seçimi bir dahaki sefere hatırlar.
 
-İki seçenek var:
+## Biçim {#shape}
 
-- **Kare (1:1)**: gönderi ya da mesaj için
-- **Hikaye (9:16)**: tam ekran hikaye için
+İki biçim var.
 
-## Gönderme
+- **Kare** (1:1): gönderi ya da mesaj için.
+- **Hikaye** (9:16): tam ekran hikaye için.
 
-**Paylaş**'a dokunduğunuzda telefonunuzun her zamanki paylaşım menüsü açılır. Kartı, telefonunuzdan resim gönderebildiğiniz her yere yollayabilirsiniz. Siz bir hedef seçmeden hiçbir şey hesabınızdan dışarı çıkmaz.
+## Gönderme {#sending-it}
+
+**Paylaş**, telefonunuzun her zamanki paylaşım menüsünü açar. Kartı, telefonunuzun resim gönderebildiği her yere yollayabilirsiniz. Siz nereye gideceğini seçene kadar hiçbir şey hesabınızdan dışarı çıkmaz.
 
 :::note Anlık görüntü erişim vermez
-Anlık görüntüyü paylaşmak kimseye hesabınıza, geçmişinize ya da ekipmanınıza erişim vermez. Siz yokken birinin akvaryuma bakmasını istiyorsanız tatil modunu kullanın. Tatil modu, bakıcı için salt okunur bir sayfa hazırlar. Ayrıntılar [Tatile çıkarken](/help/mobile-vacation) sayfasında.
+Anlık görüntü yalnızca bir resimdir. Kimseye hesabınıza, geçmişinize ya da ekipmanınıza erişim vermez. Siz yokken akvaryuma biri bakacaksa [Tatile çıkarken](/help/mobile-vacation) sayfasındaki özelliği kullanın. Bu özellik bakıcı için salt okunur bir sayfa hazırlar.
 :::

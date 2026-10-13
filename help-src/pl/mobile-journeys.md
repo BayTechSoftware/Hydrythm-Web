@@ -1,70 +1,97 @@
 ---
-title: Przewodniki krok po kroku
-description: Pomoc krok po kroku przy cyklowaniu nowego akwarium i przy rozwiązywaniu problemu.
+title: Ścieżki z przewodnikiem
+description: Rozpocznij ścieżkę cyklowania nowego akwarium, przejdź ją do końca i krok po kroku uporaj się z problemem bruzdnic.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 25
+reviewed: 2026-10-13
+order: 32
 group: Intelligence
 ---
 
-W przewodniku Cora prowadzi Cię przez coś, co trwa dni albo tygodnie. To więcej niż odpowiedź na jedno pytanie. Są dwa rodzaje przewodników i każdy działa inaczej: **cyklowanie** nowego akwarium i rozwiązywanie **problemu**.
+W ścieżce Cora prowadzi Cię przez coś, co trwa dni albo tygodnie. Są dwa rodzaje ścieżek i działają inaczej: **cyklowanie** nowego akwarium i rozwiązywanie **problemu**.
+
+## Rozpoczynanie ścieżki cyklowania
+
+Prowadzone cyklowanie jest bezpłatne w każdym planie. Uruchamiasz je z pulpitu akwarium.
+
+1. Otwórz nowe akwarium w zakładce **Panel**. Karta zapyta **Zaczynasz nowe akwarium?**
+2. Dotknij jej. Za pierwszym razem Cora wyjaśni **Prowadzone cyklowanie**: gdy akwarium się cykluje, pulpit skupia się na amoniaku, azotynach i azotanach i wstrzymuje zwykłe kontrole rafowe, które jeszcze nie mają zastosowania.
+3. Dotknij **Rozumiem: zacznij cyklowanie**. Ścieżka się otworzy.
+
+:::warning Uruchom ją, zanim cokolwiek zapiszesz albo podłączysz sprzęt
+Karta **Zaczynasz nowe akwarium?** pokazuje się tylko przy akwarium bez żadnych odczytów. Gdy tylko zapiszesz test albo podłączysz urządzenie, które wysyła odczyty, karta znika i nie ma innego sposobu na uruchomienie ścieżki cyklowania. Jeśli akwarium wciąż się cykluje, najpierw uruchom ścieżkę, a potem zapisz pierwszy test z jej wnętrza.
+:::
+
+Gdy ścieżka działa, karta na pulpicie pokazuje **Kontynuuj cyklowanie · Dzień N**. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać **Wznów cyklowanie**, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik.
 
 ## Cyklowanie nowego akwarium
 
-Ten przewodnik jest dla akwarium, które nie jest jeszcze gotowe na obsadę. Podczas cyklowania namnażają się bakterie, które zamieniają toksyczny amoniak w bezpieczny azotan. Przewodnik śledzi ten proces do samego końca.
+To ścieżka dla akwarium, które nie jest jeszcze gotowe na obsadę. Podczas cyklowania rosną bakterie, które zamieniają toksyczny amoniak w bezpieczne azotany, a ścieżka śledzi ten proces do końca.
 
-![Przewodnik cyklowania w trakcie](img/mobile-journeys.webp "Etap, trzy wartości, które go wyznaczają, i czas od ostatniego testu.")
+![Ścieżka cyklowania w trakcie](img/mobile-journeys.webp "Etap, trzy wartości, które go wyznaczają, i czas od ostatniego testu.")
 
-Co dwa, trzy dni zapisuj wyniki testów na amoniak, azotyn i azotan. Na ich podstawie Cora ustala, na jakim etapie jesteś:
+Ekran ścieżki, **Nowe akwarium: cyklowanie**, ma **Twoją listę kontrolną konfiguracji** z krokami przygotowania akwarium i zaszczepienia go bakteriami oraz krótkim wyjaśnieniem dlaczego i jak przy każdym z nich. Odhaczaj je na bieżąco.
+
+Dotknij **Zapisz test**, żeby dodać test na amoniak, azotyny i azotany. Wpisz to, co pokazał test, resztę zostaw pustą i dotknij **Zapisz test**. Testuj co dwa, trzy dni. Na podstawie tych odczytów Cora ustala Twój etap:
 
 | Etap | Co się dzieje |
 |---|---|
-| **Zapisz swój pierwszy test** | Nie ma jeszcze żadnego wyniku. Bez liczb przewodnik nie ustali etapu |
-| **Gotowe do rozpoczęcia** | Wszystko blisko zera, azotanu jeszcze nie ma. Amoniak nie został dodany albo jeszcze się nie przekształca |
-| **Etap amoniaku** | Pierwsza kolonia bakterii się zakłada i zużywa amoniak |
-| **Etap azotynu: w połowie drogi** | Druga kolonia usuwa azotyn. Zwykle to najdłuższy etap. Wiele osób myśli wtedy, że coś poszło nie tak, bo liczby przestają się zmieniać |
-| **Wygląda na zacyklowane** | Amoniaku i azotynu już nie ma, azotan jest obecny. Zrób końcowe sprawdzenie opisane na ekranie, a potem dotknij **Oznacz moje akwarium jako zacyklowane** |
+| **Zapisz swój pierwszy test** | Nic jeszcze nie zapisano. Ścieżka potrzebuje liczb, żeby ustalić etap |
+| **Gotowe do rozpoczęcia** | Wszystko jest blisko zera i nie ma jeszcze azotanów. Amoniaku nie dodano albo jeszcze nie zaczął się przekształcać |
+| **Etap amoniaku** | Pierwsza kolonia rośnie i zjada amoniak |
+| **Etap azotynu: w połowie drogi** | Druga kolonia usuwa azotyny. To zwykle najdłuższy odcinek i ten, przy którym ludzie myślą, że coś poszło nie tak, bo liczby przestają się zmieniać |
+| **Wygląda na zacyklowane** | Amoniaku i azotynów już nie ma, a azotany są obecne. Zanim oznaczysz akwarium jako zacyklowane, zrób końcowe sprawdzenie z ekranu |
 
-Wykres **Twój cykl do tej pory** pokazuje trzy krzywe razem. Są przeskalowane względem siebie, a nie do wartości bezwzględnych, żeby było widać, jak jedna kolonia przejmuje pracę od drugiej. Dotknij nazwy, żeby zobaczyć prawdziwe liczby.
+**Twój cykl do tej pory** rysuje trzy krzywe razem. Są przeskalowane względem siebie, a nie do prawdziwych wartości, żeby było widać, jak jedna kolonia przekazuje pracę następnej. Dotknij nazwy, żeby zobaczyć prawdziwe liczby.
+
+Żeby poznać drugą opinię, dotknij **Zapytaj Cora o cyklowanie**. Otworzy się [Cora Assistant](/help/mobile-assistant) z pytaniem o Twoje ostatnie odczyty.
 
 :::warning Dwie rzeczy zatrzymują cyklowanie
-**Amoniak lub azotyn powyżej 5 ppm** zatrzyma bakterie, które próbujesz namnożyć. Jeśli przesadzisz, pomoże częściowa podmiana wody. **pH poniżej 7** też zatrzymuje cyklowanie. Przewodnik ostrzeże Cię w obu przypadkach, bo wtedy dalsze czekanie nic nie da.
+**Amoniak albo azotyny powyżej 5 ppm** zatrzymują bakterie, które próbujesz wyhodować. Jeśli przesadzisz, częściowa podmiana wody obniży poziom. **pH poniżej 7** też zatrzymuje cyklowanie. Ścieżka ostrzeże Cię w obu przypadkach, bo dłuższe czekanie nie pomoże.
 :::
 
-:::note Zapisuj wszystkie trzy wyniki, także te, które stoją w miejscu
-Cora pokazuje **Wygląda na zacyklowane** dopiero wtedy, gdy amoniak i azotyn zostały *zmierzone* na zerze, a azotan jest obecny. Sam azotan nie wystarczy. Woda, której używasz, często go zawiera, a sam azotan wyglądałby jak koniec cyklu. Do akwarium, które nie jest jeszcze gotowe, mogłaby wtedy trafić obsada.
+:::note Zapisuj wszystkie trzy testy
+Cora pokazuje **Wygląda na zacyklowane** dopiero wtedy, gdy amoniak i azotyny zostały *zmierzone* na zerze, a azotany są obecne. Same azotany nie wystarczą. Woda wyjściowa często je zawiera, a same mogłyby wyglądać jak zakończony cykl i skusić do zbyt wczesnego wpuszczenia obsady.
 :::
 
-:::note O gotowości decydują odczyty, a nie kalendarz
-Przewodnik ocenia gotowość na podstawie zapisanych wyników, a nie liczby tygodni. Akwarium bez testu od dwóch tygodni zostaje na tym samym etapie. Dlatego przewodnik pokazuje, ile czasu minęło od ostatniego testu.
+:::note O gotowości decydują odczyty
+Ścieżka ocenia gotowość na podstawie tego, co zapisano. Liczba tygodni się nie liczy. Jeśli nie testujesz przez dwa tygodnie, akwarium zostaje tam, gdzie było. Dlatego ścieżka pokazuje, ile czasu minęło od ostatniego testu.
 :::
+
+## Gdy cykl się zakończy
+
+Gdy ścieżka pokaże **Wygląda na zacyklowane**, zrób końcowe sprawdzenie: podaj pełną dawkę amoniaku, około 2 ppm, i przetestuj ponownie po około 24 godzinach. Jeśli amoniak i azotyny są na zerze, a azotany są obecne, cykl jest zakończony.
+
+1. Dotknij **Oznacz moje akwarium jako zacyklowane**.
+2. Cora zapyta **Oznaczyć akwarium jako zacyklowane?** Dotknij **Tak, zacyklowane** albo **Jeszcze nie**, żeby kontynuować.
+
+Akwarium przełączy się na normalne monitorowanie i włączy się pełna analiza rafowa. Wpuszczaj obsadę powoli, zaczynając od najbardziej odpornych.
 
 ## Rozwiązywanie problemu
 
-Przewodniki problemowe dotyczą **jednego konkretnego problemu: bruzdnic (dinoflagellatów)**. Cora proponuje taki przewodnik, gdy wskazują na to Twoje odczyty i raport. Przewodnik powstaje tylko wtedy, gdy przyjmiesz propozycję, nigdy automatycznie.
+Ścieżki problemów dotyczą **jednego problemu: bruzdnic (dinoflagellatów)**. Cora proponuje taką ścieżkę, gdy wskazują na to Twoje odczyty i raport. Ścieżka zaczyna się tylko wtedy, gdy ją przyjmiesz. Cora nigdy nie uruchamia jej sama.
 
-:::note Przewodniki nie rozwiązują jeszcze wszystkich problemów
-Na razie są dwa: cyklowanie i bruzdnice. Z innymi problemami pomogą Ci [Cora Assistant](/help/mobile-assistant) i [dziennik](/help/mobile-journal).
+:::note Na razie tylko dwie ścieżki
+Cyklowanie i bruzdnice to na razie jedyne ścieżki. Przy innych problemach korzystaj z [Cora Assistant](/help/mobile-assistant) i [dziennika](/help/mobile-journal).
 :::
 
-Przewodnik problemowy ma trzy etapy:
+Ścieżka problemu ma trzy etapy:
 
 1. **Weryfikacja**: czy możesz ufać odczytowi? Potwierdź go świeżym testem, a potem dotknij **Potwierdzone: to jest prawdziwe**. Jeśli nie pasuje do Twojego akwarium, dotknij **To nie to / odrzuć**.
-2. **Plan**: Cora wypisuje kroki i przy każdym wyjaśnia, dlaczego i jak. Odhaczaj je na bieżąco, tak długo, jak trzeba, a potem dotknij **Jak to idzie?**
-3. **Wynik**: czy to pomogło?
+2. **Plan**: Cora wymienia kroki, przy każdym z wyjaśnieniem dlaczego i jak. Odhaczaj je na bieżąco, tak długo, jak trzeba, a potem dotknij **Jak to idzie?**
+3. **Wynik**: czy to zadziałało?
 
-:::note Weryfikację robisz Ty, a nie Cora
-Przewodnik problemowy zaczyna się od **Weryfikacji**. Zanim pokaże plan, prosi Cię o potwierdzenie odczytu. Cora prosi Cię o przyjrzenie się akwarium, a nie wystawia oceny. Przewodnik cyklowania nie ma etapu **Weryfikacja**. Opiera się na testach, które zapisujesz.
+:::note Weryfikacja należy do Ciebie
+Ścieżka problemu otwiera się na **Weryfikacji**. Prosi Cię o potwierdzenie odczytu, zanim pokaże plan. Ścieżka cyklowania nie ma kroku **Weryfikacja**. Opiera się na zapisywanych testach.
 :::
 
 ### Zapisywanie wyniku
 
-Na końcu podajesz, jak się skończyło:
+Na końcu mówisz, co się stało:
 
 **Rozwiązane** · **Poprawa** · **Bez zmian** · **Pogorszenie** · **Zatrzymane**
 
-Podaj wynik zgodnie z prawdą, także gdy to **Pogorszenie**. Wynik zostaje zapisany razem z przewodnikiem. Przy podobnym problemie w przyszłości będzie można sprawdzić, co wtedy wypróbowano i z jakim skutkiem.
+Odpowiedz szczerze, nawet jeśli to **Pogorszenie**. Wynik zostaje zapisany ze ścieżką, więc gdy podobny problem pojawi się później, porównasz go z tym, co wypróbowano i jak poszło.
 
-## Odrzucanie przewodnika
+## Odrzucanie ścieżki
 
-Jeśli przewodnik Ci się nie przydaje, odrzuć go. Przestanie się pojawiać, a Cora zapamięta odrzucenie i rzadziej będzie proponować podobne przewodniki.
+Jeśli ścieżka problemu się nie przydaje, odrzuć ją. Przestanie się pokazywać, a Cora zapisze odrzucenie i będzie rzadziej proponować podobne ścieżki.

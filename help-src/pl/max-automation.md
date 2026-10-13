@@ -1,54 +1,70 @@
 ---
 title: Sceny na Cora Max
-description: Jak tworzyć, uruchamiać i edytować sceny bezpośrednio na ekranie Cora Max.
+description: Twórz, uruchamiaj, edytuj i usuwaj sceny na Cora Max, z Ustawienia → Automatyzacje albo z kafelka sceny na pulpicie.
 section: Cora Max
-reviewed: 2026-09-27
-order: 15
-group: Automation
+reviewed: 2026-10-13
+order: 9
+group: Alerts and automation
+twin: mobile-automation
 ---
 
-**Scena** to zapisany zestaw akcji na sprzęcie, które działają razem przez ustalony czas albo do chwili, gdy je zatrzymasz. Sceny działają tak samo, bez względu na to, czy tworzysz je na telefonie, czy na Cora Max. Ta strona opisuje pracę ze scenami na Cora Max.
+**Scena** to zapisany zestaw akcji na sprzęcie, które działają razem, przez ustalony czas albo dopóki ich nie zatrzymasz. Na Cora Max możesz tworzyć, uruchamiać i edytować sceny. Sceny utworzone na telefonie i na Cora Max to te same sceny. Reguły automatyzacji (w rodzaju „gdy stanie się to, zrób tamto”) ustawiasz na telefonie. Więcej w [Scenach i automatyzacjach](/help/mobile-automation).
+
+![Lista Sceny na Cora Max, z chipem filtra dla każdego akwarium i przyciskiem Nowa scena](img/max-automation.webp "Lista Sceny filtrowana według akwarium. Gdy nie ma jeszcze scen, lista o tym mówi i proponuje Nowa scena.")
 
 ## Gdzie są sceny
 
-W **Ustawienia → Automatyzacje** zobaczysz wszystkie sceny ze wszystkich akwariów. Jeśli masz więcej niż jedno akwarium, nad listą są plakietki filtrów, po jednej na akwarium. Lista jest ta sama, bez względu na to, gdzie scenę utworzono.
+**Ustawienia → Automatyzacje** otwiera **Sceny**, listę wszystkich scen ze wszystkich akwariów. Jeśli masz więcej niż jedno akwarium, jest chip filtra dla każdego z nich, a także **Wszystkie akwaria**.
 
-Dotknij sceny, żeby ją edytować, albo dotknij **+**, żeby utworzyć nową. Jeśli masz kilka akwariów i nie wybierzesz filtra, Cora Max zapyta, do którego akwarium ma należeć nowa scena.
+Dotknij sceny, żeby ją edytować, albo dotknij **Nowa scena**, żeby utworzyć nową. Jeśli masz więcej niż jedno akwarium i nie wybrano filtra, Cora Max zapyta **Dla którego akwarium jest ta scena?**
 
 ## Tworzenie sceny
 
-1. Wpisz **Nazwa sceny**.
-2. Dodaj **Kroki**. Na Cora Max krok może przełączyć gniazdo Apex (**WŁ.**, **WYŁ.** albo **AUTO**) albo wtyczkę Zigbee (**Włącz**, **Wyłącz** albo **Przełącz**). Kroki dodane na telefonie dla innego sprzętu też tu widać. Możesz zmienić ich kolejność albo je usunąć, ale nie dodasz tu nowego kroku tego rodzaju.
-3. Wybierz czas działania: określoną liczbę minut albo **Stałe** (scena działa, dopóki jej nie zatrzymasz).
-4. Zdecyduj, czy scena ma prosić o potwierdzenie przed uruchomieniem (**Pytaj przed uruchomieniem**). Zostaw to włączone, chyba że masz pewność, że scena nie zmienia niczego, co wymaga drugiego spojrzenia.
-5. Zapisz.
+![Pusty formularz Nowa scena na Cora Max](img/max-scene-builder.webp "Nowa scena: nazwa, Stałe albo Czasowe, Pytaj przed uruchomieniem, a potem Dodaj krok.")
 
-:::note Głowice dozujące DŌS nie mogą być krokiem sceny
-Żadna scena, utworzona na Cora Max czy na telefonie, nie włączy głowicy dozującej. Dawki nie da się w ten sposób podać przez przypadek.
+1. Wpisz **Nazwę sceny**.
+2. Dotknij **Dodaj krok** i wybierz, co robi ten krok. Widzisz tylko rodzaje sprzętu, które ma to akwarium:
+   - **Gniazdo Apex**: przełącz gniazdo Neptune Apex na **WŁ.**, **WYŁ.** albo **AUTO**.
+   - **Steruj sprzętem Red Sea**: na przykład **ReefDose: dawkuj teraz**, **ReefDose: ustaw dawkę dzienną**, **ReefRun: ustaw prędkość pompy**, **ATO: zacznij ręczne napełnianie** albo **ReefMat: przesuń rolkę**.
+   - **Steruj pompą cyrkulacyjną**: ustaw przepływ albo tryb fali pompy Jecod, włącz ją lub wyłącz albo **Wstrzymaj na czas karmienia**.
+   - **Uruchom karmienie na Gyre**: wstrzymaj Maxspect Gyre na czas karmienia. Sam ruszy ponownie.
+   - **GHL**: przerwa na karmienie, konserwacja, podmiana wody, scena oświetlenia i inne polecenia kontrolera.
+   - **HYDROS**: tryb, poziom wyjścia, dawka albo **HYDROS: powrót do harmonogramu**.
+3. W ten sam sposób dodaj kolejne kroki. Możesz zmieniać ich kolejność albo je usuwać. Krok, którego ten ekran nie potrafi edytować, ma oznaczenie **Nieedytowalne tutaj**. Edytuj go na telefonie.
+4. Wybierz, jak długo scena działa. **Czasowe** działa przez liczbę minut ustawioną w **Czas trwania (minuty)**. **Stałe** działa, dopóki jej nie zatrzymasz.
+5. Zostaw **Pytaj przed uruchomieniem** włączone, chyba że masz pewność, że scena nigdy nie dotyka niczego, co wymaga drugiego spojrzenia.
+6. Dotknij **Zapisz**.
+
+:::note Dawki w scenie
+Głowica Neptune DŌS nigdy nie może być krokiem sceny. Krok **ReefDose: dawkuj teraz** może i ma własne pole **Maks. na dawkę (ml)**. Zostaw je puste, a limit wyniesie 10 mL. Dawka powyżej tego limitu jest odrzucana, nigdy zmniejszana. W każdej scenie, która dozuje, zostaw **Pytaj przed uruchomieniem** włączone.
+:::
+
+:::note Beta
+**Beta.** Maxspect, GHL i HYDROS są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html).
 :::
 
 ## Uruchamianie sceny
 
 Sceny widać na pulpicie jako kafelki. Dotknij **Uruchom**, żeby uruchomić scenę.
 
-Jeśli scena wymaga potwierdzenia, Cora Max najpierw pokaże dokładnie, co zrobi, po jednej linii na krok. Przeczytaj listę, a potem uruchom scenę albo anuluj.
+Jeśli scena pyta przed uruchomieniem, Cora Max najpierw wymienia, co zamierza zrobić, po jednej linijce na krok. Przeczytaj to, a potem uruchom scenę albo anuluj.
 
-Gdy działa scena z ustalonym czasem, jej kafelek odlicza czas do końca. Ma też przycisk **Zatrzymaj**, jeśli chcesz ją zakończyć wcześniej. Kafelek stałej sceny pokazuje, że działa, dopóki jej nie zatrzymasz.
+Gdy działa scena czasowa, jej kafelek odlicza czas do końca i pokazuje **Zatrzymaj**, jeśli chcesz ją zakończyć wcześniej. Kafelek sceny stałej pokazuje, że działa, dopóki nie dotkniesz **Zatrzymaj**. Gdy scena się kończy albo ją zatrzymasz, kafelek pokazuje **Przywracanie…**, a Cora w tym czasie przywraca sprzęt.
 
-Uruchomienie i zatrzymanie sceny zawsze przechodzi przez Cora Cloud, tak jak każde inne polecenie. Wynik znajdziesz w [Co zostało zmienione i przez co](/help/max-activity).
+Uruchomienie i zatrzymanie sceny idzie przez Cora Cloud, jak każde inne polecenie. Wynik znajdziesz w [Aktywności](/help/max-activity).
 
-Jeśli scena nie chce się uruchomić albo zatrzymać, zajrzyj do [Rozwiązywanie problemów](/help/troubleshooting).
+Na Cora Max nie da się uruchamiać scen głosem. Użyj kafelka, **Ustawienia → Automatyzacje** albo telefonu.
 
-:::note Blokada rodzicielska dotyczy też scen
-Gdy włączona jest [Blokada rodzicielska](/help/max-voice), z tego ekranu nie uruchomisz ani nie zatrzymasz sceny, tak jak nie użyjesz innych przycisków sterowania. Głosem możesz dalej pytać o scenę, ale nie uruchomisz jej ani nie zatrzymasz.
+Jeśli scena nie chce się uruchomić albo zatrzymać, zajrzyj do [Rozwiązywania problemów](/help/troubleshooting).
+
+:::note Blokada rodzicielska obejmuje też sceny
+Gdy [Blokada rodzicielska](/help/max-settings#child-lock) zablokowała ekran, nie uruchomisz z niego, nie zatrzymasz ani nie edytujesz sceny, tak jak każdego innego elementu sterowania.
 :::
 
 ## Edytowanie i usuwanie sceny
 
-Otwórz scenę w **Ustawienia → Automatyzacje** albo przytrzymaj jej kafelek na pulpicie. Możesz wtedy zmienić nazwę, kroki, czas działania i potwierdzenie albo usunąć scenę.
+Żeby zmienić scenę, otwórz ją z **Ustawienia → Automatyzacje** albo przytrzymaj jej kafelek na pulpicie. Zmień, co trzeba, i dotknij **Zapisz**. Żeby ją usunąć, dotknij **Usuń scenę**. Nie da się tego cofnąć.
 
 :::note Starszy Cora Max uruchomi scenę, ale jej nie zmieni
-Tworzenie i edytowanie scen na ekranie to nowsza funkcja Cora Max. Starszy Cora Max na tym samym koncie pokaże i uruchomi scenę utworzoną na telefonie albo na nowszym Cora Max, ale nie może jej zmienić. W takiej sytuacji zaktualizuj Cora Max albo edytuj scenę na telefonie lub nowszym ekranie.
+Starsze wersje Cora Max nadal pokazują i uruchamiają każdą scenę, ale nie mogą jej zmienić. Zaktualizuj Cora Max ([Aktualizacje i odzyskiwanie](/help/max-updates)) albo edytuj scenę na telefonie.
 :::
-
-Więcej o tym, co potrafi scena i jak tworzy się ją na telefonie, przeczytasz w [Sceny i automatyzacje](/help/mobile-automation).

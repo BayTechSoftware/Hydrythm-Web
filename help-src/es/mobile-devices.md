@@ -1,19 +1,25 @@
 ---
 title: Añadir, editar y eliminar dispositivos
-description: Cómo añadir equipos a Cora, asignarlos a un acuario y quitarlos bien, todo desde un mismo sitio.
+description: Añade equipos a Cora, asígnalos a un acuario, cámbiales el nombre, comprueba que funcionan bien y quítalos, todo desde la pestaña Dispositivos.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 11
 group: Equipment
+twin: max-devices
 ---
 
-Añade, edita, asigna y quita cada dispositivo desde la pestaña **Dispositivos**, agrupados por marca. Cada grupo se puede plegar, así la lista se sigue leyendo bien aunque tengas una sala llena de equipos.
+La pestaña **Dispositivos** es donde añades, asignas, renombras, revisas y quitas cada equipo. Los dispositivos se agrupan por marca, y cada grupo se puede plegar.
 
-![La pestaña Dispositivos](img/mobile-devices.webp "Los equipos se agrupan por marca y cada grupo se puede plegar.")
+![La pestaña Dispositivos](img/mobile-devices.webp "Los equipos se agrupan por marca. Cada grupo se puede plegar.")
 
-## Añadir equipos
+## Añadir equipos {#adding-equipment}
 
-Toca **Agregar dispositivo** y elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**. Los usuarios Beta ven además **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** y **Cámara**, cada una con una etiqueta **Beta**. Cada una abre justo lo que necesita para encontrar tu equipo: un escaneo de red, una dirección IP, un inicio de sesión o una clave de dispositivo. [Conectar tus equipos](/help/mobile-connections) explica lo que necesita cada marca.
+1. En la pestaña **Dispositivos**, toca **Agregar dispositivo**.
+2. Elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**. Los usuarios Beta ven además **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** y **Cámara**, cada una con una etiqueta **Beta**.
+3. Sigue los pasos de la marca. Según la marca, es un escaneo de red, una dirección IP, un inicio de sesión o una clave de dispositivo. [Conectar tus equipos](/help/mobile-connections) tiene los pasos de cada marca.
+4. Elige el acuario al que pertenece.
+
+![La lista Agregar dispositivo de un usuario Beta](img/mobile-add-device-beta.webp "Las marcas Beta llevan una etiqueta Beta.")
 
 :::note Beta
 **Beta.** Las integraciones Beta solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
@@ -21,39 +27,44 @@ Toca **Agregar dispositivo** y elige la marca: **Cora**, **Neptune Apex**, **Red
 
 Una fila que necesita un Cora Max en el acuario (Maxspect, GHL, EcoTech, Inkbird y Cámara) aparece en gris y dice **Requiere Cora Max** hasta que el acuario tiene uno.
 
-**Cora** es como se empareja un Cora Max nuevo. Busca los que ya están en tu Wi-Fi, o cerca por Bluetooth. Si no lo encuentra, usa **Introducir dirección IP manualmente** en esa misma pantalla.
-
-Cuando añades un equipo como un calentador, una bomba o un skimmer, Cora te sugiere marcas y modelos mientras escribes. Las sugerencias vienen de una lista amplia de marcas comprobadas. Si la tuya no sale, escríbela igual. Cora guarda lo que pongas.
-
-:::note Cora y tu teléfono tienen que estar en la misma red
-Los equipos que Cora detecta en tu red tienen que estar en la misma red que tu teléfono cuando los añades. **Después de configurarlos, solo se puede llegar a ellos por esa red** (o por Bluetooth, si el equipo lo usa), salvo que un dispositivo Cora en casa pueda hacerlo por ti.
-
-Por eso, un equipo que en casa marca bien puede mostrar valores más antiguos cuando estás fuera, salvo que un Cora Max en casa pueda consultarlo. No es un fallo. Depende de desde dónde se puede llegar al equipo.
+:::note Sin un Cora Max, algunos equipos son solo locales
+A los equipos Neptune Apex, Red Sea y Jecod se llega por tu red doméstica o por Bluetooth. Sin un Cora Max, la pantalla de añadir dice *Sin Cora Max, esta integración solo funciona localmente en la app Mobile.* Tu teléfono solo los lee y los controla mientras está en la misma red (o al alcance del Bluetooth). Fuera de casa ves las últimas lecturas que guardó tu teléfono y no puedes controlarlos. Un Cora Max en el acuario los lee a todas horas y transmite tus órdenes. Más información en [Conectar tus equipos](/help/mobile-connections#local-only).
 :::
 
-## La página de un dispositivo
+Cuando añades un equipo de tu red, tu teléfono tiene que estar en la misma red que el equipo.
 
-Abre cualquier dispositivo de la lista. Primero están sus controles, y luego tres secciones que funcionan igual para todas las marcas.
+## Emparejar un Cora Max {#pairing-a-cora-max}
 
+![La pantalla Añade tu Cora en Cora Mobile, buscando dispositivos](img/mobile-add-device.webp "Agregar dispositivo y luego Cora. Cora Mobile busca en tu Wi-Fi y por Bluetooth, con Introducir dirección IP manualmente debajo.")
+
+**Cora** es como se empareja un Cora Max nuevo. Encuentra las unidades que ya están en tu Wi-Fi, o las que están cerca por Bluetooth. Si no encuentra la tuya, usa **Introducir dirección IP manualmente** en la misma pantalla. Todos los pasos están en [Configurar Cora Max](/help/max-setup).
+
+## La página de un dispositivo {#a-devices-page}
+
+Toca cualquier dispositivo de la lista para abrir su página. Primero están sus controles, y después secciones que funcionan igual para todas las marcas.
+
+- **Estado** muestra el **Modelo**, el **N.º de serie**, el **Firmware** y cuándo supo Cora de él por última vez (**Visto por última vez**).
 - **Acuarios** muestra a qué acuario (o acuarios) está asignado. Toca **Cambiar** para reasignarlo.
 - **Conexión** es donde editas su dirección IP, su inicio de sesión o su clave de dispositivo.
 - **Quitar dispositivo**, al final.
 
-Cora Max, Neptune Apex y GHL pueden servir a más de un acuario, así que su selector de acuario es una lista de casillas. Cora Max se puede asignar hasta a cuatro. Consulta [Más de un dispositivo Cora](/help/mobile-multi-device). Todo lo demás, incluido HYDROS, sirve a un solo acuario a la vez: elegir uno distinto mueve el dispositivo ahí y lo quita del anterior.
+Cora Max, Neptune Apex y GHL pueden servir a más de un acuario, así que su selector de acuario es una lista de casillas. Cora Max se puede asignar hasta a cuatro. Consulta [Más de un dispositivo Cora](/help/mobile-multi-device). Todo lo demás, incluido HYDROS, sirve a un solo acuario a la vez. Elegir uno distinto mueve el dispositivo ahí y lo quita del anterior.
 
 :::warning Asigna el acuario antes de fiarte de las lecturas
-Un dispositivo sin acuario sigue enviando datos, pero sus números no tienen dónde aparecer. Si acabas de añadir un dispositivo y no sale en ningún panel, revisa esto primero.
+Un dispositivo sin acuario sigue informando, pero sus números no tienen dónde ir. Si un dispositivo que acabas de añadir no sale en ningún panel, revisa esto primero.
 :::
 
-## Cambiar el nombre
+Lo que hacen los controles de cada marca está en [Controlar tus equipos](/help/mobile-device-control).
 
-Abre el dispositivo y toca el lápiz junto a su nombre. Ponle el que usas en el día a día: "Retorno", "Gyre izquierdo", "Calentador del sump". El nombre sale en los widgets, en las alertas y en todo lo que le preguntes a Cora. Si significa algo para ti, todo lo demás se entiende mejor.
+## Cambiar el nombre {#renaming}
 
-Los nombres pueden tener hasta 40 caracteres. Si dos dispositivos del mismo tipo no tienen nombre, Cora los distingue con un código corto después del nombre. Cora nunca usa un número de serie como nombre.
+Abre el dispositivo y toca el lápiz junto a su nombre. Ponle el que usas en el día a día, como "Retorno", "Gyre izquierdo" o "Calentador del sump". El nombre sale en los widgets, en las alertas y en todo lo que le preguntes a Cora.
 
-El nombre solo cambia en Cora. En la aplicación del fabricante sigue igual.
+Los nombres pueden tener hasta 40 caracteres. Deja el nombre vacío para volver al nombre propio del dispositivo. Si dos dispositivos del mismo tipo no tienen nombre, Cora los distingue con un código corto después del nombre. Cora nunca usa un número de serie como nombre.
 
-## Comprobar que un dispositivo funciona bien
+El nombre nuevo solo se aplica en Cora. No cambia el nombre en la app del propio fabricante.
+
+## Comprobar que un dispositivo funciona bien {#health}
 
 Cada dispositivo es una fila de la pestaña Dispositivos, con su icono, su nombre, su modelo y su acuario. El punto de la fila indica su estado.
 
@@ -64,7 +75,7 @@ Cada dispositivo es una fila de la pestaña Dispositivos, con su icono, su nombr
 | Naranja | Un aviso o un fallo |
 | Rojo | Sin conexión |
 
-Las lecturas, los modos, el desvinculado y la dirección IP están en la página de detalles del dispositivo, que se abre con una sección **Estado**. Lo que quieres ver es una hora de actualización reciente y ningún aviso.
+Para ver más, abre el dispositivo. Su sección **Estado** muestra cuándo supo Cora de él por última vez. Lo que quieres ver es una hora reciente y ningún aviso.
 
 | Lo que ves | Qué significa |
 |---|---|
@@ -72,17 +83,20 @@ Las lecturas, los modos, el desvinculado y la dirección IP están en la página
 | "Actualizado hace 3 h" en algo que solo informa cada pocas horas | Todo bien |
 | "No se pudo contactar…" | Un problema de red, o el dispositivo está apagado |
 | "…rechazó el inicio de sesión" | Hay que volver a conectar la cuenta del fabricante. Abre el dispositivo e inicia sesión otra vez |
-| "Esperando a Cora Max" | Un controlador GHL que acabas de añadir: aparece en cuanto un Cora Max de su red lo haya leído |
-| Nada | Nunca ha enviado datos. Revisa el acuario asignado y la conexión |
+| "Esperando a Cora Max" | Un controlador GHL o un monitor Inkbird que acabas de añadir: aparece en cuanto un Cora Max lo haya leído |
+| Lecturas más antiguas cuando estás fuera | Normal en Apex, Red Sea y Jecod sin un Cora Max en el acuario (mira más arriba) |
+| Nada | Nunca ha informado. Revisa el acuario asignado y la conexión |
 
-## Quitar un dispositivo
+Cuando un dispositivo deja de informar, Cora puede avisarte. Los tiempos están en [Alertas y umbrales](/help/mobile-alerts). Para cualquier otra cosa, consulta [Solución de problemas](/help/troubleshooting).
 
-Abre el dispositivo y toca **Quitar dispositivo**. Cora te pide que confirmes: *"{name} se quitará de Cora. El dispositivo en sí no se restablece ni se modifica."*
+## Quitar un dispositivo {#removing-a-device}
 
-**Tus lecturas se conservan.** Al quitar un dispositivo, Cora deja de recoger datos nuevos de él. El historial que ya tenía se queda en el acuario, y los widgets que lo usaban conservan sus lecturas pasadas.
+Abre el dispositivo y toca **Quitar dispositivo**, o desliza su fila hacia la izquierda en la pestaña Dispositivos. Cora te pide que confirmes: *"{name} se quitará de Cora. El dispositivo en sí no se restablece ni se modifica."*
 
-Lo que pierdes es la conexión en directo y, si el dispositivo se conectaba con una cuenta del fabricante, el inicio de sesión guardado. Si lo vuelves a añadir, tendrás que iniciar sesión otra vez.
+**Tus lecturas se conservan.** Al quitar un dispositivo, Cora deja de recoger datos nuevos de él. El historial que ya había reunido se queda en el acuario, y los widgets que lo usaban conservan sus lecturas pasadas.
 
-:::tip Silencia un dispositivo pesado sin quitarlo
-Si un dispositivo funciona bien pero te avisa demasiado, cambia sus umbrales o sus notificaciones. Lo explicamos en [Alertas y umbrales](/help/mobile-alerts). Mantienes la conexión y los datos, y se acaban los avisos de más.
+Pierdes la conexión en directo. Si el dispositivo se conectaba con una cuenta del fabricante, también pierdes el inicio de sesión guardado, así que tendrás que iniciar sesión otra vez si lo vuelves a añadir.
+
+:::tip Silencia un dispositivo ruidoso sin quitarlo
+Si un dispositivo funciona bien pero avisa demasiado, cambia sus umbrales o sus ajustes de notificación en [Alertas y umbrales](/help/mobile-alerts). Mantienes la conexión y los datos, y se acaba el ruido.
 :::

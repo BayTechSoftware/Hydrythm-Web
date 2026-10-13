@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Configurar Cora Max | Cora Help</title>
-  <meta name="description" content="El primer arranque, la conexión Wi-Fi, el emparejamiento con tu cuenta y cómo llevar tus acuarios a la pantalla grande.">
+  <meta name="description" content="Empareja un Cora Max nuevo con Cora Mobile por Bluetooth, conéctalo al Wi-Fi, elige sus acuarios y cámbialo de acuario más adelante.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/max-setup">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-setup">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-setup">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Configurar Cora Max | Cora Help">
-  <meta property="og:description" content="El primer arranque, la conexión Wi-Fi, el emparejamiento con tu cuenta y cómo llevar tus acuarios a la pantalla grande.">
+  <meta property="og:description" content="Empareja un Cora Max nuevo con Cora Mobile por Bluetooth, conéctalo al Wi-Fi, elige sus acuarios y cámbialo de acuario más adelante.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/max-setup">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ayuda","item":"https://coraiq.tech/es/help/"},{"@type":"ListItem","position":2,"name":"Cora Max","item":"https://coraiq.tech/es/help/max-setup"},{"@type":"ListItem","position":3,"name":"Primeros pasos","item":"https://coraiq.tech/es/help/max-setup"},{"@type":"ListItem","position":4,"name":"Configurar Cora Max"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Ir al contenido</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/es/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Ayuda</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Buscar en la guía">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navegación de la guía">
     <button class="hclose" id="hclose" type="button" aria-label="Cerrar navegación">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Guía">
 <ul>
 <li><a href="/es/help/">Ayuda de Cora</a></li>
+</ul>
+<p class="nav-sec">Ayuda</p>
+<ul>
+<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
+<li><a href="/es/help/how-do-i">¿Cómo hago...?</a></li>
+<li><a href="/es/help/equipment-by-brand">Equipos por marca</a></li>
+<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
+<li><a href="/es/help/glossary">Glosario</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
+<li><a href="/es/help/mobile-tour">Moverte por Cora Mobile</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
-<li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
+<li><a href="/es/help/mobile-tanks">Gestionar tus acuarios</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
-<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
 <li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
+<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
+<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
 <li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
-<li><a href="/es/help/mobile-probes">Asignación de parámetros</a></li>
-<li><a href="/es/help/mobile-consumables">Consumibles</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
+<li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
 <li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
 <li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
 <li><a href="/es/help/mobile-alerts">Alertas y umbrales</a></li>
 <li><a href="/es/help/mobile-notifications">Notificaciones</a></li>
 <li><a href="/es/help/mobile-automation">Automatizaciones y escenas</a></li>
+<li><a href="/es/help/mobile-vacation">Irse de viaje: un plan para quien cuida tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registros</summary><ul>
-<li><a href="/es/help/mobile-dosing">Dosificación</a></li>
+<li><a href="/es/help/mobile-journal">El diario</a></li>
+<li><a href="/es/help/mobile-dosing">Productos de dosificación y la calculadora de dosis</a></li>
 <li><a href="/es/help/mobile-maintenance">Mantenimiento</a></li>
 <li><a href="/es/help/mobile-livestock">Fauna</a></li>
-<li><a href="/es/help/mobile-journal">El diario</a></li>
 <li><a href="/es/help/mobile-activity">Actividad y línea de tiempo</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
-<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
+<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-icp-health">ICP e informes de salud</a></li>
+<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Cuenta</summary><ul>
-<li><a href="/es/help/mobile-vacation">Irse de viaje</a></li>
+<summary>Ajustes y cuenta</summary><ul>
+<li><a href="/es/help/mobile-settings">Ajustes de Cora Mobile</a></li>
 <li><a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a></li>
-<li><a href="/es/help/mobile-data-export">Tus datos</a></li>
-<li><a href="/es/help/mobile-plans">Planes</a></li>
-<li><a href="/es/help/mobile-settings">Ajustes</a></li>
-<li><a href="/es/help/mobile-support">Obtener ayuda</a></li>
+<li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
+<li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
+<li><a href="/es/help/mobile-support">Informar de un problema</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g" open>
@@ -137,8 +147,14 @@
 <li><a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertas y automatización</summary><ul>
+<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
+<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Registros</summary><ul>
 <li><a href="/es/help/max-records">Diario, fauna y mantenimiento</a></li>
+<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
@@ -146,64 +162,60 @@
 <li><a href="/es/help/max-voice">Hablar con Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertas</summary><ul>
-<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
-<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Ajustes</summary><ul>
+<summary>Ajustes y cuenta</summary><ul>
 <li><a href="/es/help/max-settings">Ajustes de Cora Max</a></li>
 <li><a href="/es/help/max-updates">Actualizaciones y recuperación</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatización</summary><ul>
-<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Ayuda</p>
-<ul>
-<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
-<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
-<li><a href="/es/help/glossary">Glosario</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="/es/help/">Ayuda</a></li><li><a href="/es/help/max-setup" lang="en">Cora Max</a></li><li><a href="/es/help/max-setup">Primeros pasos</a></li></ol></nav>
       <h1>Configurar Cora Max</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#qu-necesitas">Qué necesitas</a></li><li><a href="#la-configuracin-se-hace-desde-el-telfono">La configuración se hace desde el teléfono</a></li><li><a href="#cambiar-qu-acuarios-muestra">Cambiar qué acuarios muestra</a></li><li><a href="#crear-el-panel">Crear el panel</a></li><li><a href="#actualizaciones">Actualizaciones</a></li><li><a href="#cambiar-de-red">Cambiar de red</a></li></ul></nav>
-<p>Cora Max es el centro de mando de tu cuarto de acuarios. Es una pantalla de pared que muestra tu sistema en directo, se lee desde el otro lado de la habitación y además entiende la voz.</p>
-<aside class="cal cal-tip"><p class="cal-t">Configura primero tus acuarios en el teléfono</p><p>Cora Max muestra los acuarios y dispositivos de tu cuenta. Si los configuras antes en Cora Mobile, aparecen en cuanto emparejas el Cora Max y no tienes que escribir en la pared.</p>
-<p>Los diseños de panel son la excepción, porque no se copian. Cada pantalla tiene el suyo, así que este lo colocas después de emparejar. Consulta <a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a>.</p></aside>
-<h2 id="qu-necesitas">Qué necesitas</h2>
-<ul><li>Cora Max encendido</li><li>El nombre y la contraseña de tu red Wi-Fi</li><li>La cuenta que usas en Cora Mobile</li></ul>
-<h2 id="la-configuracin-se-hace-desde-el-telfono">La configuración se hace desde el teléfono</h2>
-<p>Enciende Cora Max. Aparece una pantalla de emparejamiento y el Cora Max <strong>se da a conocer</strong> por sí solo. No tienes que escribir nada en él.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: La pantalla de emparejamiento de Cora Max"><img src="/help/img/max-pairing-screen.webp" alt="La pantalla de emparejamiento de Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>La pantalla muestra su nombre para que elijas la correcta desde el teléfono.</figcaption></figure>
-<p>En la pantalla ves el nombre con el que aparece, que termina en un código corto. Si vas a emparejar varios, ese código te sirve para distinguirlos en la lista del teléfono.</p>
-<p>Todo lo demás se hace en Cora Mobile, en cinco pasos que ves arriba en la hoja: <strong>Conectar · Wi-Fi · Autenticación · Acuarios · Listo.</strong></p>
-<p><strong>1 · Conectar.</strong> En el teléfono, toca <strong>Dispositivos → Agregar dispositivo → Cora</strong>. Encuentra el Cora Max y te enseña lo que ha encontrado (dirección MAC, versión de firmware, variante y revisión de hardware). Así compruebas que es el correcto antes de seguir.</p>
-<p><strong>2 · Wi-Fi.</strong> Elige tu red en la lista, o toca <strong>Volver a buscar</strong>, y escribe la contraseña. La escribes con el teclado del teléfono, no en la pantalla de pared.</p>
-<p><strong>3 · Autenticación.</strong> El teléfono autoriza el Cora Max con tu cuenta. Mientras tanto, Cora Max muestra su propio progreso.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Cora Max durante el emparejamiento"><img src="/help/img/max-pairing-verifying.webp" alt="Cora Max durante el emparejamiento" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>La pantalla sigue la comprobación de la cuenta mientras el teléfono la dirige.</figcaption></figure>
-<p><strong>4 · Acuarios.</strong> Elige qué acuarios va a mostrar esta pantalla, <strong>hasta cuatro</strong>. Cada uno aparece con su nombre y su tipo.</p>
-<p><strong>5 · Listo.</strong> La pantalla confirma que ya está configurada y te da un <strong>PIN de recuperación</strong>.</p>
-<aside class="cal cal-warning"><p class="cal-t">Apunta el PIN de recuperación</p><p>El último paso muestra un <strong>PIN de recuperación</strong> de seis cifras. Es la única forma de entrar en recuperación en ese Cora Max. Para usarlo, mantén cinco dedos en la esquina superior derecha de la pantalla durante diez segundos y escribe el PIN. Más adelante lo puedes volver a ver en los ajustes de ese dispositivo en el teléfono, pero no en el propio Cora Max.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">El emparejamiento une la pantalla a tu cuenta</p><p>Una vez emparejado, Cora Max ve los mismos acuarios, dispositivos, lecturas y registros que tu teléfono. <strong>Los diseños de panel no se copian.</strong> Cora Max crea el suyo a partir del perfil de tu acuario y tú lo colocas aparte.</p></aside>
-<p>Sigue las instrucciones de la pantalla para vincularlo a tu cuenta. Cora Mobile te avisará cuando el emparejamiento haya terminado bien.</p>
-<aside class="cal cal-note"><p class="cal-t">Una cuenta, varias pantallas</p><p>Puedes emparejar más de un Cora Max con la misma cuenta (uno en el cuarto de acuarios y otro en otro sitio). Cada uno puede mostrar sus propios acuarios y tener su propio diseño de panel. Si dos muestran el mismo acuario, en <a href="/es/help/max-device-control">Controlar equipos desde Cora Max</a> verás qué puede hacer el segundo con los equipos.</p></aside>
-<h2 id="cambiar-qu-acuarios-muestra">Cambiar qué acuarios muestra</h2>
-<p>Los acuarios asignados forman parte del emparejamiento y se cambian desde <strong>el teléfono</strong>. Abre el Cora Max en <strong>Dispositivos</strong> y edita sus acuarios. No se cambian desde los ajustes del propio Cora Max.</p>
-<h2 id="crear-el-panel">Crear el panel</h2>
-<p>Cora Max crea su diseño inicial a partir del perfil de tu acuario. <strong>No</strong> copia el del teléfono. Para cambiarlo, lo más fácil es hacerlo desde el teléfono en <strong>Dispositivos → tu Cora Max → Editar panel</strong>, que es más rápido que colocar casillas en la pared.</p>
-<p>El panel de la pantalla grande funciona distinto que el del teléfono. Es una cuadrícula fija que tiene que caber entera en una pantalla. Consulta <strong><a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a></strong>.</p>
-<h2 id="actualizaciones">Actualizaciones</h2>
-<p>Cora Max se actualiza solo. Cuando hay una versión nueva, la descarga en segundo plano, la instala y te cuenta qué ha cambiado.</p>
-<p>Para ver qué versión tienes, ve a <strong>Ajustes → Cora Max</strong>.</p>
-<h2 id="cambiar-de-red">Cambiar de red</h2>
-<p>Ve a <strong>Ajustes → Ajustes de Cora Max → Wi-Fi</strong>, elige la red nueva y escribe la contraseña. El emparejamiento se mantiene y no tienes que volver a configurar la pantalla.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/es/help/max-tour"><span>Siguiente</span><b>La pantalla de inicio de Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-09-30.</p>
+      <p class="twin">En Cora Mobile: <a href="/es/help/mobile-setup">Configurar Cora Mobile</a></p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#what-you-need">Qué necesitas</a></li><li><a href="#what-the-screen-shows-first">Qué muestra primero la pantalla</a></li><li><a href="#pairing">Emparejar desde tu teléfono</a></li><li><a href="#after-pairing">Después de emparejar</a></li><li><a href="#building-the-dashboard">Crear el panel</a></li><li><a href="#changing-which-tanks-it-shows">Pasar Cora Max a otro acuario</a></li><li><a href="#updates">Actualizaciones</a></li><li><a href="#moving-it-to-a-different-network">Cambiarlo a otra red Wi-Fi</a></li></ul></nav>
+<p>Esta página te lleva de un Cora Max nuevo a una pantalla de pared funcionando. Lo emparejas desde tu teléfono por Bluetooth, y no escribes nada en la propia pantalla.</p>
+<aside class="cal cal-tip"><p class="cal-t">Configura antes tus acuarios en el teléfono</p><p>Cora Max muestra los acuarios y dispositivos de tu cuenta, y no puede crear un acuario por sí mismo. <a href="/es/help/mobile-setup">Configúralos primero en Cora Mobile</a>. Cora Max los recoge en cuanto lo emparejas.</p></aside>
+<h2 id="what-you-need">Qué necesitas</h2>
+<ul><li>Cora Max, enchufado y encendido. Está pensado para quedarse enchufado.</li><li>Cora Mobile en tu teléfono, con la sesión iniciada y <strong>al menos un acuario</strong> ya creado.</li><li>El Bluetooth de tu teléfono activado, y el teléfono cerca de Cora Max.</li><li>El nombre y la contraseña de tu red Wi-Fi.</li></ul>
+<p>Pon Cora Max donde puedas verlo desde el otro lado de la habitación y hablarle, lejos de salpicaduras y de los restos de sal.</p>
+<h2 id="what-the-screen-shows-first">Qué muestra primero la pantalla</h2>
+<p>Enciende Cora Max. Muestra una pantalla de emparejamiento que dice <strong>Abre la app de Cora en tu teléfono</strong>, y después <strong>Toca Añadir dispositivo.</strong> y <strong>Elige este Cora Max en la lista de dispositivos.</strong> Debajo muestra <strong>Detectable como</strong> y su nombre, que termina en un código corto. Si estás emparejando más de uno, ese código los distingue en tu teléfono.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: La pantalla de emparejamiento de Cora Max, esperando a tu teléfono"><img src="/help/img/max-pairing-screen.webp" alt="La pantalla de emparejamiento de Cora Max, esperando a tu teléfono" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Esperando a tu teléfono. La línea de abajo muestra el nombre que verás en tu teléfono.</figcaption></figure>
+<p>La misma pantalla tiene un breve aviso sobre las integraciones con equipos de otros fabricantes. Las condiciones que aceptaste en Cora Mobile también cubren Cora Max.</p>
+<h2 id="pairing">Emparejar desde tu teléfono</h2>
+<p>Todo lo demás se hace en Cora Mobile. Una hoja te guía por cinco pasos, que se muestran arriba: <strong>Conectar · Wi-Fi · Autenticación · Acuarios · Listo</strong>.</p>
+<ol><li><strong>Encontrarlo.</strong> Abre la pestaña <strong>Dispositivos</strong>, toca <strong>Agregar dispositivo</strong> y después <strong>Cora</strong>. La pantalla <strong>Añade tu Cora</strong> lista los dispositivos Cora de tu red y los dispositivos de configuración cercanos encontrados por Bluetooth. Toca <strong>Buscar</strong> si el tuyo todavía no aparece, y después toca tu Cora Max.</li></ol>
+<p>   <figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: La pantalla Añade tu Cora en Cora Mobile, buscando dispositivos"><img src="/help/img/mobile-add-device.webp" alt="La pantalla Añade tu Cora en Cora Mobile, buscando dispositivos" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Agregar dispositivo y luego Cora. Cora Mobile busca en tu Wi-Fi y por Bluetooth, con Introducir dirección IP manualmente debajo.</figcaption></figure></p>
+<ol><li><strong>Conectar.</strong> Tu teléfono se conecta a Cora Max por Bluetooth y muestra su dirección MAC, su firmware, su variante y su revisión de hardware. Comprueba que es el correcto y toca <strong>Continuar</strong>.</li></ol>
+<ol><li><strong>Wi-Fi.</strong> Elige tu red de la lista, o toca <strong>Volver a buscar</strong>, y escribe la contraseña en tu teléfono. A partir de aquí tu teléfono habla con Cora Max por Wi-Fi, así que mantén el teléfono en la misma red.</li></ol>
+<ol><li><strong>Autenticación.</strong> Tu teléfono vincula Cora Max a tu cuenta. Esto se hace solo, y Cora Max muestra su propio progreso, como <strong>Verificando tu cuenta…</strong> y <strong>Configurando tu acuario…</strong>.</li></ol>
+<p>   <figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: La pantalla de emparejamiento de Cora Max mostrando Verificando tu cuenta"><img src="/help/img/max-pairing-verifying.webp" alt="La pantalla de emparejamiento de Cora Max mostrando Verificando tu cuenta" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Cora Max muestra cada paso mientras tu teléfono lo vincula a tu cuenta.</figcaption></figure></p>
+<ol><li><strong>Acuarios.</strong> En <strong>Asignar acuarios</strong>, elige los acuarios que gestionará este Cora Max, <strong>hasta cuatro</strong>.</li></ol>
+<ol><li><strong>Listo.</strong> Tu teléfono dice que Cora Max está configurado y muestra un <strong>PIN de recuperación</strong>. Toca el botón que abre el panel de tu acuario, o <strong>Ir a Dispositivos</strong>. Cora Max muestra <strong>Emparejado</strong> y después <strong>Abriendo panel…</strong>.</li></ol>
+<aside class="cal cal-warning"><p class="cal-t">Apunta el PIN de recuperación</p><p>El <strong>PIN de recuperación</strong> tiene seis dígitos y es la única forma de entrar en la recuperación de ese Cora Max. Para usarlo, mantén cinco dedos en la esquina superior derecha de la pantalla durante diez segundos y después escribe el PIN. La recuperación te permite volver a configurar el Wi-Fi, emparejar de nuevo, buscar una actualización o restablecer de fábrica. Puedes volver a encontrar el PIN en tu teléfono, en <strong>Dispositivos → tu Cora Max → PIN de recuperación</strong>, pero nunca en el propio Cora Max.</p></aside>
+<h3 id="if-pairing-gets-stuck">Si el emparejamiento se queda atascado</h3>
+<ul><li><strong>El Bluetooth está desactivado. Actívalo y vuelve a tocar Buscar.</strong> Activa el Bluetooth y vuelve a buscar.</li><li><strong>El permiso de Bluetooth está desactivado para Cora.</strong> Permite el Bluetooth para Cora en los ajustes de tu teléfono y toca <strong>Buscar</strong>. Un iPhone también puede pedir acceso a la red local. Permítelo también.</li><li><strong>No se encontraron dispositivos de configuración Cora cercanos por Bluetooth.</strong> Ponte al lado de Cora Max, comprueba que sigue mostrando la pantalla de emparejamiento y vuelve a buscar.</li><li><strong>No se encontraron acuarios</strong> en el paso Acuarios. Tu cuenta todavía no tiene ningún acuario. Crea uno en Cora Mobile y vuelve a intentar el paso.</li><li><strong>Aún no vinculado a tu acuario</strong> al final. Cora Max está emparejado, pero la vinculación con el acuario no terminó. Toca <strong>Reintentar ahora</strong>. Hasta que termine, las alertas de esta pantalla usan rangos predeterminados.</li></ul>
+<p>Más soluciones en <a href="/es/help/troubleshooting#pairing-a-cora-max-fails">Solución de problemas</a>.</p>
+<h2 id="after-pairing">Después de emparejar</h2>
+<p>Cora Max ya ve los mismos acuarios, dispositivos, lecturas y registros que tu teléfono.</p>
+<ul><li>Si uno de tus acuarios tuvo antes un Cora Max, Cora Max pregunta <strong>¿Restaurar el diseño anterior para este acuario?</strong> <strong>Restaurar</strong> recupera los ajustes de pantalla, sonido y alertas que guardó el anterior. <strong>Empezar de nuevo</strong> se los salta.</li><li>Un acuario sin lecturas todavía muestra <strong>Aún no hay lecturas</strong> y un botón <strong>Registra tu primera prueba</strong>.</li><li>Cora Max crea un panel inicial a partir del perfil de tu acuario. No copia el de tu teléfono.</li></ul>
+<p>Puedes emparejar más de un Cora Max con la misma cuenta, por ejemplo uno en el cuarto de los acuarios y otro en el salón. Cada uno puede mostrar acuarios distintos y tiene su propio diseño. Si dos muestran el mismo acuario, <a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a> explica cuál lee los equipos.</p>
+<h2 id="building-the-dashboard">Crear el panel</h2>
+<p>El panel de pantalla grande es una cuadrícula fija, y todo tiene que caber en una pantalla. La forma más rápida de organizarlo es desde tu teléfono: abre la pestaña <strong>Dispositivos</strong>, toca tu Cora Max y después toca <strong>Diseño del panel</strong> en la tarjeta del acuario. También puedes hacerlo en la pantalla de pared desde el menú del acuario.</p>
+<p>Para reutilizar un diseño de otro Cora Max o de otro acuario, cárgalo desde <strong>Mis paneles</strong> en el editor. Más información en <a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a>.</p>
+<h2 id="changing-which-tanks-it-shows">Pasar Cora Max a otro acuario</h2>
+<p>Los acuarios que muestra un Cora Max se cambian en tu teléfono. Los ajustes propios de Cora Max no pueden hacerlo.</p>
+<ol><li>En Cora Mobile, abre la pestaña <strong>Dispositivos</strong> y toca tu Cora Max.</li><li>En <strong>Acuarios</strong>, toca <strong>Agregar acuario</strong> y elige el acuario. Un Cora Max admite hasta cuatro. Cuando ya tiene cuatro, el botón desaparece, así que quita uno antes.</li><li>Para quitar un acuario de esta pantalla, toca el icono rojo de quitar (<strong>Quitar acuario</strong>) en la tarjeta de ese acuario, y después toca <strong>Quitar</strong>.</li></ol>
+<p>Para pasar Cora Max de un acuario a otro, añade el acuario nuevo y después quita el antiguo. El acuario nuevo recibe un panel inicial creado a partir de su perfil. Organízalo con <strong>Diseño del panel</strong>.</p>
+<p>Si este Cora Max era el Cora Max principal fijado para el acuario que quitaste, esa fijación se borra y el acuario vuelve a <strong>Cualquiera activo (automático)</strong>. Más información en <a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a>.</p>
+<h2 id="updates">Actualizaciones</h2>
+<p>Cora Max se actualiza solo. Una versión nueva se descarga en segundo plano y se instala por la noche. Tu versión aparece arriba en <strong>Ajustes → Ajustes de Cora Max</strong>. Más información en <a href="/es/help/max-updates">Actualizaciones y recuperación</a>.</p>
+<h2 id="moving-it-to-a-different-network">Cambiarlo a otra red Wi-Fi</h2>
+<p>Ve a <strong>Ajustes → Ajustes de Cora Max → Wi-Fi</strong>, elige la red nueva y escribe la contraseña. Cora Max sigue emparejado, así que no tienes que volver a configurarlo.</p>
+      <nav class="pn" aria-label="Seguir leyendo"><a class="pn-n" href="/es/help/max-tour"><span>Siguiente</span><b>La pantalla de inicio de Cora Max</b></a></nav>
+      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -320,10 +332,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Captura de pantalla");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Cerrar"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -344,55 +356,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Sin resultados para \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Sin resultados para \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Prueba con menos palabras o con otras distintas, o ve a:</p><ul><li><a href=\"/es/help/troubleshooting\">Soluci\u00f3n de problemas</a></li><li><a href=\"/es/help/how-do-i\">\u00bfC\u00f3mo hago...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contactar con soporte</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -424,9 +603,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/es/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';
       });

@@ -1,97 +1,145 @@
 ---
-title: Abos
-description: Was in welchem Plan steckt, wo du deine Nutzung siehst und wie du wechselst oder kündigst.
+title: Pläne und Abos
+description: Was die Pläne Free, Testphase, Plus, Pro und Max enthalten, wie du ein Abo abschließt oder upgradest, wo du deine Nutzung siehst und wie du auf iPhone oder Android kündigst.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 31
-group: Account
+reviewed: 2026-10-13
+order: 35
+group: Settings and account
 ---
 
-Dein Becken zu überwachen kostet nichts und ist unbegrenzt. Die bezahlten Stufen erhöhen die KI-Kontingente und schalten Reef Buddy frei.
+Dein Becken zu überwachen ist kostenlos und unbegrenzt. Die bezahlten Pläne geben dir größere KI-Kontingente und fügen Reef Buddy hinzu. Diese Seite behandelt, was jeder Plan enthält und wie du ein Abo abschließt, änderst oder kündigst.
 
 ## Was immer kostenlos ist
 
-- Live-Messwerte deiner Ausrüstung mit Dashboards und Diagrammen
+- Live-Messwerte von deiner Ausrüstung, mit Dashboards und Diagrammen
 - Geräte, Warnungen und Schwellenwerte
 - Tagebuch, Wartung und Besatz
 - Push-Benachrichtigungen bei kritischen Warnungen
-- **ein Becken**
+- Geführtes Einfahren für ein neues Becken
+- So viele Becken, wie du willst. KI-Funktionen gelten für dein erstes Becken (siehe [Welche Becken KI bekommen](#which-tanks-get-ai))
+- Deine Daten exportieren
 
 ## Die kostenlosen Kontingente
 
-| Funktion | Kostenlos |
+| Funktion | Free |
 |---|---|
-| Nachrichten an den Assistenten | 20 pro Monat. Sprache zählt zum selben Kontingent und verbraucht pro Runde mehr |
-| Zustandsberichte | 1 pro Monat |
-| ICP-Analyse | **eine einzige**, einmal für das ganze Konto, danach gesperrt |
-| KI für Becken | nur für dein primäres Becken |
-| Reef Buddy | nicht enthalten |
+| Nachrichten an den Assistenten | 20 pro Monat. Sprache nutzt denselben Topf und kostet pro Runde mehr |
+| Sprachsitzungen | 20 pro Monat |
+| Gesundheitsberichte | 1 pro Monat |
+| ICP-Analyse | **Eine, einmalig**. Du bekommst eine einzige Analyse für die ganze Lebensdauer des Kontos, danach ist sie gesperrt |
+| KI für Becken | Nur dein erstes Becken |
+| Reef Buddy | Nicht enthalten. Du siehst eine gesperrte Karte mit **Pläne ansehen** |
 
-Ist ein Kontingent aufgebraucht, kannst du alles, was schon erstellt wurde, weiter lesen.
+Ist ein Kontingent aufgebraucht, kannst du trotzdem alles lesen, was Cora schon für dich erstellt hat.
 
 ## Die Testphase
 
-Eine **30-tägige Pro-Testphase beginnt mit deiner Registrierung**, nicht erst, wenn du eine Funktion zum ersten Mal nutzt. Sie enthält Reef Buddy und die höheren Kontingente.
+Deine **30-tägige Pro-Testphase beginnt, wenn du dein Konto anlegst**. Sie wartet nicht, bis du eine Funktion zum ersten Mal nutzt, und du brauchst keine Karte. **Konto & Abo** zeigt sie als **Cora Pro Test**, mit dem Datum, an dem sie endet.
 
-Danach fällt das Konto auf Kostenlos zurück. **Gelöscht wird nichts.** Alle Messwerte, Tagebucheinträge, Berichte und Zusammenfassungen, die du schon hast, bleiben lesbar.
+| Während der Testphase | |
+|---|---|
+| Nachrichten an den Assistenten | 100 pro Monat |
+| Sprachsitzungen | 60 pro Monat |
+| Gesundheitsberichte | 4 pro Monat |
+| ICP-Analysen | 1 pro Monat |
+| Reef Buddy und KI-Überwachung | Dein erstes Becken |
+
+Die Testphase enthält Reef Buddy und **Mit KI gestalten**. Ihre Kontingente sind kleiner als die des Pro-Plans.
+
+Endet sie, geht dein Konto zurück auf Free. **Es wird nichts gelöscht.** Du kannst weiterhin jeden Messwert, Tagebucheintrag, Bericht und jedes Briefing lesen, das du hast.
 
 ## Bezahlte Stufen
 
-Es gibt drei Stufen, **Plus**, **Pro** und **Max**, jeweils monatlich oder jährlich. Die aktuellen Preise siehst du in Cora Mobile und im Store, denn dort wird abgerechnet.
+Es gibt drei Pläne, **Plus**, **Pro** und **Max**, jeweils monatlich oder jährlich. Die Einstellungen zeigen sie als Cora Plus, Cora Pro und Cora Max. Aktuelle Preise findest du in Cora Mobile und in deinem App Store, denn dort bezahlst du.
 
 | | Plus | Pro | Max |
 |---|---|---|---|
 | Nachrichten an den Assistenten / Monat | 500 | 1.200 | 2.500 (faire Nutzung) |
 | Sprachsitzungen / Monat | 100 | 200 | 400 |
-| Zustandsberichte / Monat | 4 | 12 | 100 |
+| Gesundheitsberichte / Monat | 4 | 12 | 100 |
 | ICP-Analysen / Monat | 1 | 3 | 30 |
 | Becken mit KI-Überwachung | 1 | 5 | 20 |
 
-Sprachsitzungen werden eigens gezählt, und jede gesprochene Antwort zählt zusätzlich zu deinem Nachrichtenkontingent. In jeder bezahlten Stufe sind Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora lesen kann, und der Vergleich mit deiner eigenen Historie enthalten.
+Sprachsitzungen haben ihre eigene Zahl, und jede gesprochene Antwort verbraucht außerdem dein Nachrichtenkontingent. Jeder bezahlte Plan enthält Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora liest, den Vergleich mit deinem eigenen Verlauf und **Mit KI gestalten** für Dashboards (bis zu 5 Entwürfe pro Tag für jedes Becken).
 
-Über **Einstellungen → dein Konto** öffnest du **Konto & Abo**.
+Bezahlte Pläne enthalten außerdem Warnungen vom Skimmer-Wächter für eine Kamera an deinem Technikbecken. Die Testphase nicht. **Beta.** Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support. Mehr dazu unter [Kameras](/help/mobile-cameras).
 
-![Konto und Abo](img/mobile-plans.webp "Dein Plan und sein Verlängerungsdatum, mit den Store-Steuerungen darunter.")
+:::note Der Max-Plan ist nicht der Cora Max-Bildschirm
+Der **Max-Plan** ist ein Abo. **Cora Max** ist der Bildschirm neben deinem Becken. Für das eine brauchst du das andere nicht.
+:::
 
-Dort siehst du deinen aktuellen Plan und wann er sich verlängert. Außerdem findest du:
+### Welche Becken KI bekommen {#which-tanks-get-ai}
 
-| Steuerung | Funktion |
+Reef Buddy und die KI-Überwachung gelten für so viele Becken, wie dein Plan erlaubt, gezählt von oben in **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz.
+
+## Ein Abo abschließen oder upgraden {#subscribing}
+
+1. Öffne **Einstellungen** und tippe oben auf die Kontokarte. **Konto & Abo** öffnet sich.
+2. Tippe neben deinem Plan auf **Pläne ansehen** (bei Free oder in der Testphase), **Upgrade** (bei Plus) oder **Auf Max upgraden** (bei Pro).
+3. Wähl **Monatlich** oder **Jährlich**. Der Jahrespreis zeigt, wie viel du sparst.
+4. Wähl einen Plan und tippe auf **Abonnieren**.
+5. Bestätige beim App Store oder bei Google Play. Dein neuer Plan wird freigeschaltet, sobald der Store ihn bestätigt.
+
+![Die Planauswahl in Cora Mobile, mit Monatlich und Jährlich](img/mobile-paywall.webp "Wähl Monatlich oder Jährlich, dann einen Plan, dann Abonnieren.")
+
+Dieselbe Planauswahl öffnet sich auch, wenn du an eine Grenze kommst, zum Beispiel *Du hast dein Nachrichtenlimit erreicht*, und über die gesperrte Reef Buddy-Karte.
+
+## Konto & Abo
+
+![Konto & Abo in Cora Mobile](img/mobile-plans.webp "Dein Plan unter Abo, mit Auf Max upgraden und Käufe wiederherstellen.")
+
+**Konto & Abo** zeigt deinen aktuellen Plan und wann er sich verlängert oder endet. Darunter stehen diese Steuerungen.
+
+| Steuerung | Tut |
 |---|---|
-| **Code einlösen** | löst einen Aktions- oder Partnercode ein |
-| **Abo verwalten** | öffnet die Abo-Einstellungen deines Stores |
-| **Käufe wiederherstellen** | holt einen Kauf zurück, den du auf einem anderen Gerät oder vor einer Neuinstallation gemacht hast |
+| **Code einlösen** | Löst einen Aktions- oder Partnercode ein. Nur Android: Auf dem iPhone erscheint es nicht |
+| **Abo verwalten** | Öffnet die Abo-Seite deines Stores. Es erscheint, wenn Cora weiß, wo du den Plan gekauft hast |
+| **Käufe wiederherstellen** | Holt einen Kauf zurück, den du auf einem anderen Gerät oder vor einer Neuinstallation gemacht hast |
 
-## Nachsehen, was du verbraucht hast
+## Sehen, was du verbraucht hast
 
-![Nutzung und Limits](img/mobile-usage.webp "Jede bemessene Funktion gegen ihr monatliches Kontingent.")
+![Nutzung & Limits in Cora Mobile](img/mobile-usage.webp "Jede gezählte Funktion neben ihrem monatlichen Kontingent.")
 
-Unter **Einstellungen → Cora Assistant → Nutzung & Limits** siehst du an einer Stelle alle gezählten Funktionen mit ihrem Monatskontingent: Nachrichten an den Assistenten, ICP-Analysen und Zustandsberichte.
+**Einstellungen → Cora Assistant → Nutzung & Limits** zeigt jede gezählte Funktion neben ihrem monatlichen Kontingent, alles auf einem Bildschirm. Das sind Nachrichten an den Assistenten, ICP-Analysen und Gesundheitsberichte.
 
-Außerdem zeigt dir jede gezählte Funktion dort, wo du sie nutzt, wie viel du verbraucht hast:
+Du siehst die Nutzung auch dort, wo du jede Funktion nutzt.
 
-- **Assistent**: die Nachrichten dieses Monats, über dem Nachrichtenfeld
-- **Intelligenz**: die ICP- und Zustandsberichte dieses Monats, unter den Schaltflächen
+- Im **Assistent** stehen die Nachrichten dieses Monats über dem Nachrichtenfeld.
+- In **Intelligenz** stehen die ICP-Analysen und Gesundheitsberichte dieses Monats unter den Tasten.
 
-Dort siehst du, wie viel von deinem Monatskontingent noch übrig ist.
+Die Zählung beginnt am Anfang jedes Kalendermonats von vorn.
 
 ## Den Plan wechseln
 
-Tippe auf **Abo verwalten**. Änderungen laufen über den App Store oder Google Play. Es gelten dieselben Regeln wie für jedes andere Abo auf deinem Gerät, auch die Erstattungs- und Kündigungsbedingungen des Stores.
+Um hochzuwechseln, nutze **Upgrade** oder **Auf Max upgraden** wie oben. Um herunterzuwechseln oder zwischen monatlich und jährlich zu wechseln, nutze **Abo verwalten**. Änderungen laufen über den App Store oder Google Play und folgen denselben Regeln wie jedes andere Abo auf deinem Handy, einschließlich der Erstattungs- und Kündigungsbedingungen des Stores.
 
 ## Kündigen
 
-Du kündigst im App Store oder bei Google Play, nicht in Cora. Dein Plan läuft bis zum Ende des bezahlten Zeitraums und fällt dann auf Kostenlos zurück.
+Du kündigst bei dem Store, bei dem du bezahlt hast. In Cora kannst du nicht kündigen. Dein Plan läuft bis zum Ende des bezahlten Zeitraums und geht dann zurück auf Free.
 
-:::note Beim Kündigen wird nichts gelöscht
-Deine Becken, Messwerte, Historie und dein Tagebuch bleiben genau so, wie sie sind. Du verlierst den Zugang zu den bezahlten Funktionen, aber nicht deine Daten. Kommst du später zurück, ist alles noch da.
+Am schnellsten geht es über **Einstellungen → deine Kontokarte → Abo verwalten**. Hast du den Plan auf der anderen Art von Handy gekauft, sagt Cora das (*Im App Store gekauft* oder *Bei Google Play gekauft*), und **Weiter** öffnet die Seite dieses Stores.
+
+Fehlt **Abo verwalten**, geh direkt zum Store.
+
+- **iPhone:** Öffne die App **Einstellungen**, tippe auf deinen Namen und dann auf **Abonnements**. Wähl Cora und tippe auf **Abo kündigen**.
+- **Android:** Öffne **Google Play**, tippe auf dein Profilbild und dann auf **Zahlungen und Abos → Abos**. Wähl Cora und tippe auf **Kündigen**.
+
+:::note Kündigen löscht nichts
+Deine Becken, Messwerte, dein Verlauf und dein Tagebuch bleiben, wie sie sind. Du verlierst die bezahlten Funktionen, behältst aber deine Daten. Kommst du später zurück, ist alles noch da.
+:::
+
+:::warning Dein Konto zu löschen, kündigt nicht
+Willst du dein Konto löschen, kündige zuerst das Abo. Das Löschen des Kontos hält den Store nicht davon ab, dir weiter etwas zu berechnen. Siehe [Dein Konto löschen](/help/mobile-data-export#deleting-your-account).
 :::
 
 ## Wenn dein Plan nicht angezeigt wird
 
-Manchmal dauert es einen Moment, bis ein Kauf in Cora Mobile ankommt. Sind schon ein paar Minuten vergangen:
+Manchmal braucht ein Kauf einen Moment, bis er Cora Mobile erreicht. Sind ein paar Minuten vergangen, versuch Folgendes.
 
-1. Schließ Cora Mobile ganz und öffne es wieder.
-2. Prüf, ob du mit demselben Konto angemeldet bist, mit dem du gekauft hast.
-3. Prüf, ob auf deinem Gerät das Store-Konto aktiv ist, mit dem du gekauft hast.
+1. Schließ Cora ganz und öffne es wieder.
+2. Prüf, ob du mit demselben Konto angemeldet bist, mit dem gekauft wurde.
+3. Prüf, ob das Store-Konto auf deinem Handy das ist, mit dem du gekauft hast.
 
-Taucht der Plan immer noch nicht auf, tippe auf **Käufe wiederherstellen**. Hilft auch das nicht, schreib eine E-Mail mit dem Kaufdatum an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Ist er immer noch nicht da, tippe auf **Käufe wiederherstellen**. Sagen die Einstellungen *Dein Tarif konnte nicht überprüft werden*, prüf deine Verbindung und tippe auf **Erneut versuchen**. Dein Zugang ändert sich nicht, während Cora prüft. Hilft nichts davon, schreib eine E-Mail mit dem Kaufdatum an **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+
+Deine Daten bleiben deine, egal welchen Plan du hast. Mehr dazu unter [Daten exportieren und Konto löschen](/help/mobile-data-export). Um ein Abrechnungsproblem aus Cora Mobile heraus zu melden, siehe [Ein Problem melden](/help/mobile-support).

@@ -1,106 +1,84 @@
 ---
 title: Dein Dashboard bearbeiten
-description: Leg die Spaltenzahl fest, füge Widgets hinzu, ordne sie an, ändere ihre Größe und speichere Layouts, die du für andere Becken wiederverwenden kannst.
+description: Widgets auf deinem Handy-Dashboard hinzufügen, verschieben, in der Größe ändern und entfernen, die Spaltenzahl festlegen und ein Cora Max-Dashboard vom Handy aus bearbeiten.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 6
+order: 8
 group: Your dashboard
+twin: max-dashboard-editing
 ---
 
-Im Dashboard-Editor legst du fest, welche Widgets auf dem Dashboard eines Beckens stehen und wie sie angeordnet sind.
+Der Dashboard-Editor legt fest, welche Widgets auf dem Dashboard eines Beckens erscheinen und wie sie angeordnet sind. Jedes Becken hat sein eigenes Layout, und es folgt deinem Konto auf jedes Handy, auf dem du dich anmeldest.
 
-## Den Editor öffnen
+## Den Editor öffnen {#opening-the-editor}
 
-Scroll ans Ende des Dashboards und tippe auf **Dashboard bearbeiten**.
+Scroll das Dashboard nach unten und tippe auf **Dashboard bearbeiten**, direkt unter den Widgets. Der Editor öffnet sich als **Dashboard bearbeiten**, mit dem Hinweis **Lange auf eine Kachel drücken, um sie zu verschieben. Tippen zum Konfigurieren.**
 
-:::note Der Stift neben dem Beckennamen führt woandershin
-Er öffnet **Becken bearbeiten**, also das Beckenprofil mit Volumen, Besatz, Dosierung, Beleuchtung und Strömung. Mehr dazu unter [Dein Beckenprofil](/help/mobile-tank-profile).
+:::note Der Stift in der Beckenkopfzeile öffnet etwas anderes
+Er öffnet **Becken bearbeiten**, das Beckenprofil mit Volumen, Besatz, Dosierung, Beleuchtung und Strömung. Darum geht es unter [Dein Beckenprofil](/help/mobile-tank-profile).
 :::
 
-![Der Dashboard-Editor](img/mobile-edit.webp "Jede Kachel zeigt ihren Namen und Typ. Tippe auf ein rotes Kreuz, um sie zu entfernen.")
+![Der Bildschirm Dashboard bearbeiten in Cora Mobile](img/mobile-edit.webp "Oben die Spalten, dann jede Kachel mit ihrem Namen und Typ. Tippe auf ein rotes Kreuz, um sie zu entfernen.")
 
-## Die Spaltenzahl festlegen
+## Die Spaltenzahl festlegen {#setting-the-column-count}
 
-Wähl oben im Editor **2**, **3** oder **4** Spalten. Je mehr Widgets du hinzufügst, desto weiter wächst das Raster nach unten, und du scrollst durch das Dashboard.
+Wähl oben im Editor neben **SPALTEN** **2**, **3** oder **4**. Das Raster wächst nach unten, wenn du Widgets hinzufügst, und das Dashboard scrollt.
 
-| Spalten | Passt, wenn |
+| Spalten | Nimm sie, wenn |
 |---|---|
-| 2 | du nur wenige Wasserwerte beobachtest und große Kacheln willst |
-| 3 | Standard, passt für die meisten Becken |
-| 4 | du viel auf einmal sehen willst oder ein großes Handy hast |
+| 2 | Du wenige Wasserwerte beobachtest und große Kacheln willst |
+| 3 | Der Standard. Passt für die meisten Becken |
+| 4 | Du eine dichte Ansicht willst oder ein großes Handy hast |
 
-## Ein Widget hinzufügen
+## Ein Widget hinzufügen {#adding-a-widget}
 
-1. Tippe im Editor auf **+**.
-2. Wähl aus, was das Widget zeigen soll: einen Wasserwert, ein Gerät oder eine Steckdose.
-3. Wähl den Widget-Typ. Die Typen findest du in der [Widget-Referenz](/help/mobile-widgets).
+1. Tippe unter dem Raster auf **Kachel hinzufügen** oder auf eine leere Zelle.
+2. Wähl unter **Kachel hinzufügen**, welche Art es ist. **Wasserwert** umfasst einen Wert, eine Anzeige, ein Diagramm oder einen Status für einen Wasserwert. **Steckdose** steuert eine Apex-Steckdose. Die anderen Zeilen sind für Ausrüstung, etwa **ReefBeat**, **Trident**, **DŌS** oder **Jecod**. Die meisten erscheinen nur, wenn das Becken diese Ausrüstung hat.
+3. Wähl den Wasserwert, die Steckdose oder das Gerät.
+4. Bei einem Wasserwert wählst du den Typ. Die [Widget-Referenz](/help/mobile-widgets) beschreibt jeden.
 
-Cora bietet dir nur Quellen an, die es für das Becken gibt. Ein Wasserwert ohne Quelle taucht auf, sobald du ein Gerät verbindest, das ihn meldet, oder einen Messwert von Hand einträgst.
+Du siehst nur Wasserwerte, die das Becken hat. Ein Wasserwert ohne Quelle erscheint, sobald du Ausrüstung verbindest, die ihn meldet, oder einen Messwert von Hand einträgst.
 
-## Widgets anordnen
+Das Raster fasst bis zu 20 Zeilen. Ist es voll, sagt Cora **Dashboard ist voll: Entferne zuerst eine Kachel.** Ein Diagramm braucht zwei freie Zellen nebeneinander.
 
-- Zum Verschieben hältst du ein Widget gedrückt und ziehst es an die neue Stelle. Die anderen Widgets rücken zurecht.
-- Zum Entfernen tippst du auf das rote Kreuz in seiner Ecke.
-- Seine Einstellungen öffnest du mit einem Tipp auf das Widget.
+## Widgets anordnen {#arranging-widgets}
 
-## Größe ändern
+- Um ein Widget zu verschieben, halt es gedrückt und zieh es. Die anderen weichen aus.
+- Um ein Widget zu entfernen, tippe auf das rote Kreuz in seiner Ecke oder tippe auf das Widget und dann auf **Entfernen**.
+- Um die Einstellungen eines Widgets zu ändern, tippe darauf.
 
-Ein Widget belegt eine oder zwei Spalten und eine oder zwei Zeilen. Die Größe stellst du in den Einstellungen des Widgets ein. Eine Kamera-Kachel (Beta) kann bis zu drei Spalten breit sein. Kameras stehen nur Beta-Nutzern offen. Siehe [Beta-Funktionen](/help/mobile-beta).
+## Widget-Einstellungen {#widget-settings}
 
-Ein **Trend**-Widget ist immer mindestens zwei Spalten breit.
-
-## Widget-Einstellungen
-
-Je nach Widget-Typ kannst du Folgendes einstellen:
+Tippe im Editor auf ein Widget, um seine Einstellungen zu öffnen. Je nach Widget kannst du festlegen:
 
 | Einstellung | Gilt für |
 |---|---|
-| Bezeichnung | alle Typen |
-| Quelle | jeden Wasserwert, der von mehr als einer Quelle gemeldet wird |
-| Zeitfenster | Trend: 1 Stunde, 6 Stunden, 24 Stunden, 7 Tage, 30 Tage, 1 Jahr |
-| Bereich | Anzeige: kommt aus den Schwellenwerten des Beckens, außer du legst hier einen eigenen fest |
-| Größe | alle Typen |
+| **Typ** | Wasserwert-Widgets: Wert, Anzeige, Diagramm oder Status |
+| **Wasserwert** | Wasserwert-Widgets: welchen Wasserwert es zeigt |
+| Die Steckdose oder das Gerät | Steckdosen- und Ausrüstungskacheln: welche oder welches sie zeigen |
+| **Restmenge anzeigen als** | Dosierer-Kacheln: **Tage** oder **Milliliter (mL)** |
+| **Breite** | Jedes Widget: **1×** oder **2×** (eine Kamera bis zu **3×**). Ein Diagramm ist immer mindestens 2 breit |
+| **Höhe** | Jedes Widget: **1×** oder **2×** |
+| **Zeitraum** | Diagramm: 1h, 6h, 24h, 7d, 30d oder 1y |
 
-## Speichern
+Tippe auf **Fertig**, um die Einstellungen zu behalten, oder auf **Entfernen**, um das Widget herauszunehmen.
 
-Tippe auf **Speichern**, um das Layout zu übernehmen. Über das Schließen-Symbol verwirfst du deine Änderungen.
+Ein Widget hat keine eigene Beschriftung, Quelle oder einen eigenen Bereich. Sein Warnbereich kommt aus den Warnschwellen des Beckens: Drück auf dem Dashboard lange auf das Widget oder siehe [Warnungen und Schwellenwerte](/help/mobile-alerts). Welcher Quelle ein Wasserwert folgt, legst du pro Becken unter [Parameterzuordnung](/help/mobile-probes) fest.
 
-## Meine Dashboards
+## Speichern {#saving}
 
-Ein Layout, das dir gefällt, kannst du speichern und wiederverwenden. Tippe auf **Meine Dashboards → Dieses Design speichern** und gib ihm einen Namen. Du kannst bis zu **30** Designs aufheben.
+Tippe auf **Speichern**, um das Layout zu behalten. Um deine Änderungen zu verwerfen, tippe auf das Schließen-Symbol. Hast du etwas geändert, fragt Cora **Änderungen verwerfen?** Tippe auf **Verwerfen** oder auf **Weiter bearbeiten**, um zurückzugehen.
 
-Ein gespeichertes Design kannst du auf ein anderes Becken oder auf einen Cora Max-Bildschirm laden.
+Der Handy-Editor hat kein Rückgängig und keine gespeicherten Designs. Messwerte, Verlauf und Tagebucheinträge werden getrennt vom Layout gespeichert, beim Bearbeiten eines Dashboards kann davon also nie etwas verloren gehen.
 
-:::note Vor dem Bestätigen siehst du, welche Kacheln wegfallen
-Beim Laden eines Designs bleiben nur die Kacheln, die das Ziel wirklich mit Daten füllen kann. Alle anderen fallen weg. Du siehst sie vorher unter **Zurückgelassen**, jeweils mit dem Grund: Das Becken hat diesen Messwert noch nie gemeldet, es gibt keine Steckdose mit diesem Namen, das ReefBeat-Gerät oder Apex-Modul ist nicht mit diesem Becken verknüpft, oder im Raster war kein Platz mehr.
-:::
+## Das Cora Max-Dashboard bearbeiten {#editing-the-cora-max-dashboard}
 
-## Ein früheres Layout zurückholen
+Das Cora Max-Dashboard bearbeitest du getrennt, über **Geräte →** dein Cora Max **→ Dashboard-Layout**, auf der Karte des Beckens. Es nutzt ein festes Raster, das nicht scrollt, und auf Cora Max kommt nichts an, bis du auf **Speichern & veröffentlichen** tippst.
 
-Mit einem gespeicherten Design kommst du zu einem Layout zurück, das dir gefallen hat. Speichere es, solange das Dashboard so aussieht, wie du es willst. Später kannst du es wieder anwenden.
+Dieser Editor hat drei Extras, die das Handy-Dashboard nicht hat:
 
-Das ist eine **Wiederherstellung, kein Rückgängig**. Du wählst das Design aus der Liste und bestätigst. Es ersetzt dann das aktuelle Layout, und Kacheln, die das Becken nicht füllen kann, fallen weg. Du bekommst das Layout zurück, das du gespeichert hast, nicht den Stand vor deiner letzten Änderung.
+- **Meine Dashboards** bewahrt bis zu 30 gespeicherte Designs in deinem Konto auf. Jedes Cora Max im Konto kann eins laden. Kacheln, die das Ziel nicht füllen kann, stehen vor dem Laden unter **Zurückgelassen:**.
+- **Vorlagen** öffnet **Dashboard-Vorlagen**: **Übersicht**, **Ausrüstung**, **Wasserwerte** und, wenn das Becken eine Kamera hat, **Kamera**. Es ist in jedem Abo offen und nutzt keine KI. Kameras sind in der Beta und nur für Beta-Nutzer offen.
+- **Mit KI gestalten**, mit einem kostenpflichtigen Abo oder während der Testphase, schlägt ein ganzes Layout vor, ausgehend von dem, was das Becken meldet und verknüpft hat. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
 
-Messwerte, Historie und Tagebucheinträge speichert Cora getrennt vom Layout. Beim Bearbeiten eines Dashboards kann davon also nichts verloren gehen.
-
-## Das Cora Max-Dashboard bearbeiten
-
-Das Dashboard auf dem Cora Max bearbeitest du separat unter **Geräte → dein Cora Max → Dashboard bearbeiten**. Es hat ein festes Raster, das nicht scrollt. Mehr dazu unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).
-
-### Vorlagen
-
-Der Cora Max-Editor hat oben außerdem ein Symbol **Vorlagen**, neben **Mit KI gestalten**. Es steht in jedem Tarif zur Verfügung und nutzt nie KI, funktioniert also auch ohne Datenfreigabe für KI.
-
-Es öffnet **Dashboard-Vorlagen**: **Übersicht**, **Ausrüstung**, **Wasserwerte** und, wenn das Becken eine Kamera hat, **Kamera**. Jedes Layout entsteht aus dem, was dieses Becken meldet und verknüpft hat, mit einer Vorschau und der Zahl der Kacheln auf seinem Raster. Kameras sind in der Beta und nur für Beta-Nutzer verfügbar.
-
-Tippe auf **Verwenden** und bestätige dann **Dashboard ersetzen?** mit **Ersetzen**. Willst du dein aktuelles Layout behalten, tippe auf **Aktuelles zuerst als Preset sichern**. Auf dem Cora Max kommt nichts an, bis du auf **Speichern & veröffentlichen** tippst.
-
-### Mit KI gestalten
-
-Mit einem kostenpflichtigen Tarif hat der Editor oben ein Funkelsymbol mit der Beschriftung **Mit KI gestalten**. Tippe darauf, und Cora schlägt ein ganzes Layout vor, passend zu dem, was dieses Becken meldet und verknüpft hat. Mit einem kostenlosen Tarif zeigt das Symbol ein Schloss (**Mit KI gestalten (bezahlte Tarife)**) und öffnet die Tarife.
-
-Der Vorschlag zeigt, wie viele Kacheln er hat und wie groß das Raster ist. Tippe auf **Verwenden**, um ihn in den Editor zu übernehmen, oder auf **Erneut versuchen** für einen anderen. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
-
-Ein KI-Entwurf ersetzt, was auf dem Dashboard ist, das du gerade bearbeitest. Auf dem Cora Max kommt nichts an, bis du auf **Speichern & veröffentlichen** tippst, du kannst also immer noch verlassen, ohne zu speichern. Willst du dein aktuelles Layout vorher behalten, speichere es unter **Meine Dashboards**.
-
-Mit KI gestalten braucht die eingeschaltete Datenfreigabe für KI in den Einstellungen. Ist sie aus, wirst du darauf hingewiesen und kannst sie einschalten und es noch einmal versuchen. Hat das Becken noch keine Messwerte oder verknüpften Geräte, gibt es nichts, woraus sich ein Entwurf machen ließe.
+Wie jedes davon funktioniert, steht unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).

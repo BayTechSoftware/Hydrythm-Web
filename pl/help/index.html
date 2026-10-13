@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cora Help</title>
-  <meta name="description" content="Jak skonfigurować Cora Max i Cora Mobile i jak z nich korzystać: pierwsze kroki, pulpity, urządzenia, alerty, Reef Buddy, ICP i raporty zdrowia.">
+  <meta name="description" content="Skonfiguruj Cora Mobile i Cora Max i korzystaj z nich: dodaj akwarium, podłącz sprzęt, ustaw alerty, czytaj Reef Buddy i wyniki ICP, sparuj Cora Max i rozwiązuj problemy.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Cora Help">
-  <meta property="og:description" content="Jak skonfigurować Cora Max i Cora Mobile i jak z nich korzystać: pierwsze kroki, pulpity, urządzenia, alerty, Reef Buddy, ICP i raporty zdrowia.">
+  <meta property="og:description" content="Skonfiguruj Cora Mobile i Cora Max i korzystaj z nich: dodaj akwarium, podłącz sprzęt, ustaw alerty, czytaj Reef Buddy i wyniki ICP, sparuj Cora Max i rozwiązuj problemy.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,7 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
 </head>
 <body>
 <a class="skip" href="#main">Przejdź do treści</a>
@@ -39,7 +39,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/pl/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Pomoc</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Szukaj w przewodniku">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +55,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Nawigacja po przewodniku">
     <button class="hclose" id="hclose" type="button" aria-label="Zamknij menu">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Przewodnik">
 <ul>
 <li><a href="/pl/help/" class="cur" aria-current="page">Pomoc Cora</a></li>
+</ul>
+<p class="nav-sec">Pomoc</p>
+<ul>
+<li><a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a></li>
+<li><a href="/pl/help/how-do-i">Jak to zrobić?</a></li>
+<li><a href="/pl/help/equipment-by-brand">Sprzęt według marki</a></li>
+<li><a href="/pl/help/faq">Najczęstsze pytania</a></li>
+<li><a href="/pl/help/glossary">Słownik</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Pierwsze kroki</summary><ul>
-<li><a href="/pl/help/mobile-setup">Pierwsze kroki z Cora Mobile</a></li>
-<li><a href="/pl/help/mobile-account">Logowanie i odzyskiwanie konta</a></li>
+<li><a href="/pl/help/mobile-setup">Konfiguracja Cora Mobile</a></li>
+<li><a href="/pl/help/mobile-tour">Jak poruszać się po Cora Mobile</a></li>
 <li><a href="/pl/help/mobile-tank-profile">Profil akwarium</a></li>
-<li><a href="/pl/help/mobile-tour">Pięć zakładek</a></li>
+<li><a href="/pl/help/mobile-tanks">Zarządzanie akwariami</a></li>
+<li><a href="/pl/help/mobile-account">Logowanie i odzyskiwanie konta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
 <li><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a></li>
+<li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
 <li><a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a></li>
 <li><a href="/pl/help/mobile-widgets">Rodzaje widżetów</a></li>
-<li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
 <li><a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +92,41 @@
 <li><a href="/pl/help/mobile-connections">Podłączanie sprzętu</a></li>
 <li><a href="/pl/help/mobile-device-control">Sterowanie sprzętem</a></li>
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
-<li><a href="/pl/help/mobile-probes">Mapowanie parametrów</a></li>
-<li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne</a></li>
-<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
-<li><a href="/pl/help/mobile-cameras">Kamery i czuwanie skimmera</a></li>
+<li><a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a></li>
+<li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a></li>
+<li><a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a></li>
 <li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
+<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerty i automatyzacja</summary><ul>
 <li><a href="/pl/help/mobile-alerts">Alerty i progi</a></li>
 <li><a href="/pl/help/mobile-notifications">Powiadomienia</a></li>
 <li><a href="/pl/help/mobile-automation">Automatyzacje i sceny</a></li>
+<li><a href="/pl/help/mobile-vacation">Wyjazd: plan dla opiekuna akwarium</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Zapisy</summary><ul>
-<li><a href="/pl/help/mobile-dosing">Dozowanie</a></li>
+<li><a href="/pl/help/mobile-journal">Dziennik</a></li>
+<li><a href="/pl/help/mobile-dosing">Produkty dozujące i kalkulator dawek</a></li>
 <li><a href="/pl/help/mobile-maintenance">Konserwacja</a></li>
 <li><a href="/pl/help/mobile-livestock">Obsada</a></li>
-<li><a href="/pl/help/mobile-journal">Dziennik</a></li>
 <li><a href="/pl/help/mobile-activity">Aktywność i oś czasu</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencja</summary><ul>
-<li><a href="/pl/help/mobile-assistant">Rozmowa z Corą</a></li>
 <li><a href="/pl/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/pl/help/mobile-journeys">Przewodniki krok po kroku</a></li>
+<li><a href="/pl/help/mobile-assistant">Pytania do Cory</a></li>
 <li><a href="/pl/help/mobile-icp-health">ICP i raporty zdrowia</a></li>
+<li><a href="/pl/help/mobile-journeys">Ścieżki z przewodnikiem</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Konto</summary><ul>
-<li><a href="/pl/help/mobile-vacation">Wyjazd</a></li>
+<summary>Ustawienia i konto</summary><ul>
+<li><a href="/pl/help/mobile-settings">Ustawienia Cora Mobile</a></li>
 <li><a href="/pl/help/mobile-multi-device">Więcej niż jedno urządzenie Cora</a></li>
-<li><a href="/pl/help/mobile-data-export">Twoje dane</a></li>
-<li><a href="/pl/help/mobile-plans">Plany</a></li>
-<li><a href="/pl/help/mobile-settings">Ustawienia</a></li>
-<li><a href="/pl/help/mobile-support">Pomoc</a></li>
+<li><a href="/pl/help/mobile-plans">Plany i subskrypcje</a></li>
+<li><a href="/pl/help/mobile-data-export">Eksport danych i usuwanie konta</a></li>
+<li><a href="/pl/help/mobile-support">Zgłaszanie problemu</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,68 +146,56 @@
 <li><a href="/pl/help/max-devices">Urządzenia i ich stan</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alerty i automatyzacja</summary><ul>
+<li><a href="/pl/help/max-alerts">Alerty na Cora Max</a></li>
+<li><a href="/pl/help/max-automation">Sceny na Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Zapisy</summary><ul>
 <li><a href="/pl/help/max-records">Dziennik, obsada i konserwacja</a></li>
+<li><a href="/pl/help/max-activity">Aktywność na Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencja</summary><ul>
 <li><a href="/pl/help/max-intelligence">Reef Buddy i raporty</a></li>
-<li><a href="/pl/help/max-voice">Rozmowa z Corą na Cora Max</a></li>
+<li><a href="/pl/help/max-voice">Rozmowa z Corą</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alerty</summary><ul>
-<li><a href="/pl/help/max-activity">Aktywność na Cora Max</a></li>
-<li><a href="/pl/help/max-alerts">Alerty na Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Ustawienia</summary><ul>
+<summary>Ustawienia i konto</summary><ul>
 <li><a href="/pl/help/max-settings">Ustawienia Cora Max</a></li>
-<li><a href="/pl/help/max-updates">Aktualizacje i tryb odzyskiwania</a></li>
+<li><a href="/pl/help/max-updates">Aktualizacje i odzyskiwanie</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatyzacja</summary><ul>
-<li><a href="/pl/help/max-automation">Sceny na Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Pomoc</p>
-<ul>
-<li><a href="/pl/help/faq">Najczęstsze pytania</a></li>
-<li><a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a></li>
-<li><a href="/pl/help/glossary">Słownik</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
-      <h1>Pomoc Cora</h1>
-      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#dwie-czci-cory">Dwie części Cory</a></li><li><a href="#co-cora-dodaje-do-kontrolera">Co Cora dodaje do kontrolera</a></li><li><a href="#jak-si-tu-odnale">Jak się tu odnaleźć</a></li><li><a href="#opieka-nad-akwarium">Opieka nad akwarium</a></li><li><a href="#twj-sprzt">Twój sprzęt</a></li><li><a href="#na-duym-ekranie">Na dużym ekranie</a></li></ul></nav>
-<p>Tu znajdziesz wszystko, czego potrzebujesz, żeby prowadzić akwarium z Corą. Od czego chcesz zacząć?</p>
-<ul class="tiles">
-<li><a href="/pl/help/mobile-setup"><b>Zaczynasz z Cora Mobile</b><span>Załóż konto, dodaj pierwsze akwarium i zobacz odczyty na ekranie.</span></a></li>
-<li><a href="/pl/help/max-setup"><b>Zaczynasz z Cora Max</b><span>Pierwsze uruchomienie, parowanie i akwaria na dużym ekranie.</span></a></li>
-<li><a href="/pl/help/mobile-dashboard-editing"><b>Ułóż swój pulpit</b><span>Wybierz układ, dodaj widżety i rozmieść je tak, jak Ci pasuje.</span></a></li>
-<li><a href="/pl/help/troubleshooting"><b>Rozwiąż problem</b><span>Odczyty przestały napływać, urządzenie milczy albo alert nie znika.</span></a></li>
-<li><a href="/pl/help/faq"><b>Najczęstsze pytania</b><span>Krótkie odpowiedzi o konfiguracji, Cora Max, urządzeniach, alertach, planach i prywatności.</span></a></li>
-</ul>
-<h2 id="dwie-czci-cory">Dwie części Cory</h2>
-<p><strong>Cora Mobile</strong> działa na telefonie. Tu ustawiasz prawie wszystko: akwaria, urządzenia, pulpity, alerty i preparaty do dozowania. Masz ją przy sobie także z dala od akwarium. Na ekranie głównym telefonu ikona nazywa się po prostu <strong>Cora</strong>.</p>
-<p><strong>Cora Max</strong> to centrum dowodzenia na ścianie w pokoju z akwarium. Pokazuje te same akwaria i te same dane na żywo na ekranie, który przeczytasz z drugiego końca pokoju. Reaguje też na głos.</p>
-<p>Oba korzystają z jednego konta. Akwaria, odczyty, urządzenia i zapisy są więc takie same w obu miejscach i niczego nie konfigurujesz dwa razy.</p>
-<p>Niektóre ustawienia dotyczą konkretnego ekranu. Każdy ekran ma <strong>własny układ pulpitu</strong>. Jego Wi-Fi, jasność, dźwięk, fraza aktywująca i blokada rodzicielska również działają tylko na nim. Więcej w <a href="/pl/help/mobile-multi-device">Co jest wspólne, a co nie</a>.</p>
-<aside class="cal cal-tip"><p class="cal-t">Zacznij od telefonu</p><p>Nawet jeśli kupujesz Cora Max, najpierw skonfiguruj akwaria i urządzenia w Cora Mobile. Na telefonie łatwiej się pisze, a Cora Max sam pobierze wszystkie dane.</p></aside>
-<h2 id="co-cora-dodaje-do-kontrolera">Co Cora dodaje do kontrolera</h2>
-<p>Przy każdym odczycie widać źródło i wiek. Gdy dwa źródła się nie zgadzają, na przykład sonda i test kropelkowy albo dozownik i wyniki ICP, Cora mówi o tym wprost. Nie uśrednia ich po cichu. Gdy parametr zaczyna się zmieniać, <strong>Reef Buddy</strong> zwraca na to uwagę następnego ranka.</p>
-<h2 id="jak-si-tu-odnale">Jak się tu odnaleźć</h2>
-<ul><li><strong><a href="/pl/help/mobile-tour">Pięć zakładek</a></strong>: Cora Mobile w dwie minuty</li><li><strong><a href="/pl/help/max-tour">Ekran główny Cora Max</a></strong>: co oznacza każdy element na dużym ekranie</li><li><strong><a href="/pl/help/faq">Najczęstsze pytania</a></strong>: krótkie odpowiedzi pogrupowane według tematów</li><li><strong><a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a></strong>: coś jest nie tak? Zacznij tutaj</li><li><strong><a href="/pl/help/glossary">Słownik</a></strong>: akwarium, źródło, widżet, zapisany układ, próg i inne pojęcia</li></ul>
-<h2 id="opieka-nad-akwarium">Opieka nad akwarium</h2>
-<p>Poza odczytami i pulpitami Cora zbiera w jednym miejscu resztę pracy przy akwarium:</p>
-<ul><li><strong><a href="/pl/help/mobile-automation">Automatyzacje i sceny</a></strong>: reguły, które działają same</li><li><strong><a href="/pl/help/mobile-dosing">Dozowanie</a></strong>: stężenie preparatów, kalkulator i zużycie</li><li><strong><a href="/pl/help/mobile-maintenance">Konserwacja</a></strong>: powtarzające się zadania z przypomnieniami</li><li><strong><a href="/pl/help/mobile-livestock">Obsada</a></strong>: co masz w akwarium i co się z tym działo</li><li><strong><a href="/pl/help/mobile-journeys">Przewodniki krok po kroku</a></strong>: cyklowanie akwarium albo rozwiązywanie problemu</li><li><strong><a href="/pl/help/mobile-activity">Aktywność</a></strong>: co się działo ze sprzętem i co to spowodowało</li><li><strong><a href="/pl/help/mobile-vacation">Wyjazd</a></strong>: plan, który przekażesz osobie opiekującej się akwarium</li><li><strong><a href="/pl/help/mobile-data-export">Twoje dane</a></strong>: eksport danych i usuwanie konta</li><li><strong><a href="/pl/help/mobile-account">Logowanie i odzyskiwanie konta</a></strong>: hasła, weryfikacja i błędny adres e-mail</li><li><strong><a href="/pl/help/mobile-support">Pomoc</a></strong>: jak zgłosić problem i co jest wysyłane razem ze zgłoszeniem</li></ul>
-<h2 id="twj-sprzt">Twój sprzęt</h2>
-<ul><li><strong><a href="/pl/help/mobile-device-control">Sterowanie sprzętem</a></strong>: gniazda, pompy, głowice dozujące i testery</li><li><strong><a href="/pl/help/mobile-beta">Funkcje Beta</a></strong>: co znaczy Beta, kto widzi integracje Beta i jak poprosić o dostęp</li><li><strong><a href="/pl/help/mobile-cameras">Kamery i czuwanie skimmera</a></strong>: dodaj kamerę i dostań ostrzeżenie, zanim kubek odpieniacza się przeleje</li><li><strong><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech™</a></strong>: Radion, VorTech i Versa przez Bluetooth</li><li><strong><a href="/pl/help/mobile-probes">Sondy</a></strong>: przypisywanie sond kontrolera i zapisywanie kalibracji</li><li><strong><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne</a></strong>: alerty o uzupełnieniu reagentów, pojemników i zbiorników</li><li><strong><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></strong>: programy dnia dla pomp, ich kopiowanie i podgląd harmonogramu Gyre</li><li><strong><a href="/pl/help/mobile-multi-device">Więcej niż jedno urządzenie Cora</a></strong>: które odpowiada na głos, a które odpytuje sprzęt</li></ul>
-<h2 id="na-duym-ekranie">Na dużym ekranie</h2>
-<ul><li><strong><a href="/pl/help/max-reef-room">Reef Room</a></strong>: wszystkie akwaria na jednym ekranie</li><li><strong><a href="/pl/help/max-devices">Urządzenia i ich stan</a></strong>: co widzi Cora Max i jego własna diagnostyka</li><li><strong><a href="/pl/help/max-intelligence">Reef Buddy i raporty</a></strong>: briefing i wyniki laboratoryjne na ekranie na ścianie</li><li><strong><a href="/pl/help/max-device-control">Sterowanie sprzętem z Cora Max</a></strong>: strony urządzeń na ekranie na ścianie</li><li><strong><a href="/pl/help/max-activity">Aktywność na Cora Max</a></strong>: co zostało wykonane, odrzucone albo nigdy nie zostało potwierdzone</li><li><strong><a href="/pl/help/max-updates">Aktualizacje i tryb odzyskiwania</a></strong>: jak ekran sam dba o aktualne oprogramowanie</li></ul>
       
-      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-12.</p>
+      <h1>Pomoc Cora</h1>
+      
+      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#szybki-start">Szybki start</a></li><li><a href="#czeste-problemy">Częste problemy</a></li><li><a href="#twoj-sprzet-wedlug-marki">Twój sprzęt według marki</a></li><li><a href="#cora-mobile-i-cora-max">Cora Mobile i Cora Max</a></li><li><a href="#cora-mobile">Cora Mobile</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#pomoc">Pomoc</a></li></ul></nav>
+<p>Wszystko, czego potrzebujesz, żeby prowadzić rafę z Corą. Wybierz zadanie albo skorzystaj z wyszukiwania na górze.</p>
+<ul class="tiles"><li><a href="/pl/help/mobile-setup"><b>Zaczynasz z Cora Mobile</b><span>Załóż konto, dodaj pierwsze akwarium i zobacz odczyty na ekranie.</span></a></li><li><a href="/pl/help/max-setup"><b>Zaczynasz z Cora Max</b><span>Sparuj go z telefonem i przenieś akwaria na ekran na ścianie.</span></a></li><li><a href="/pl/help/mobile-connections"><b>Podłącz sprzęt</b><span>Neptune™ Apex, Red Sea™, Jecod™, AquaWiz™ i marki Beta.</span></a></li><li><a href="/pl/help/mobile-alerts"><b>Ustaw alerty</b><span>Wybierz zakres dla każdego parametru i to, co trafia na telefon.</span></a></li><li><a href="/pl/help/mobile-dashboard-editing"><b>Ułóż pulpit</b><span>Dodawaj i układaj widżety w telefonie albo na Cora Max.</span></a></li><li><a href="/pl/help/mobile-assistant"><b>Porozmawiaj z Corą</b><span>Pytaj o akwarium, pisząc, albo powiedz „Hey Cora” do Cora Max.</span></a></li><li><a href="/pl/help/troubleshooting"><b>Rozwiąż problem</b><span>Odczyty przestały napływać, urządzenie jest offline albo alert nie znika.</span></a></li><li><a href="/pl/help/how-do-i"><b>Jak to zrobić?</b><span>Każde typowe zadanie z linkiem do kroków.</span></a></li></ul>
+<h2 id="szybki-start">Szybki start</h2>
+<ol><li>Zainstaluj Cora Mobile, zarejestruj się i dodaj pierwsze akwarium. Zobacz <a href="/pl/help/mobile-setup">Konfiguracja Cora Mobile</a>.</li><li>Podłącz sprzęt z <strong>Urządzenia → Dodaj urządzenie</strong> albo zapisz test wody ręcznie. Zobacz <a href="/pl/help/mobile-connections">Podłączanie sprzętu</a>.</li><li>Sprawdź zakres alertu dla każdego parametru. Zobacz <a href="/pl/help/mobile-alerts">Alerty i progi</a>.</li><li>Pozwól Cora Mobile wysyłać powiadomienia i wybierz, które. Zobacz <a href="/pl/help/mobile-notifications">Powiadomienia</a>.</li><li>Jeśli masz Cora Max, sparuj go z telefonu. Zobacz <a href="/pl/help/max-setup">Konfiguracja Cora Max</a>.</li></ol>
+<aside class="cal cal-tip"><p class="cal-t">Zacznij od telefonu</p><p>Nawet jeśli kupujesz Cora Max, najpierw <a href="/pl/help/mobile-setup">skonfiguruj akwaria i urządzenia w Cora Mobile</a>. Na telefonie łatwiej się pisze, a Cora Max pobierze wszystko z Twojego konta.</p></aside>
+<h2 id="czeste-problemy">Częste problemy</h2>
+<ul><li><a href="/pl/help/troubleshooting#a-reading-is-stale">Odczyt jest nieaktualny</a></li><li>[„[Urządzenie]: przestał raportować”](/help/troubleshooting#device-stopped-reporting)</li><li><a href="/pl/help/troubleshooting#my-cora-max-is-offline">Mój Cora Max jest offline</a></li><li><a href="/pl/help/troubleshooting#im-not-getting-notifications">Nie dostaję powiadomień</a></li><li><a href="/pl/help/troubleshooting#an-alert-is-not-clearing">Alert nie znika</a></li><li><a href="/pl/help/troubleshooting#pairing-a-cora-max-fails">Parowanie Cora Max się nie udaje</a></li><li><a href="/pl/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed">„Nie udało się połączyć z Apex”</a></li></ul>
+<h2 id="twoj-sprzet-wedlug-marki">Twój sprzęt według marki</h2>
+<ul><li><a href="/pl/help/equipment-by-brand#neptune-apex">Neptune Apex, DŌS i Trident</a></li><li><a href="/pl/help/equipment-by-brand#red-sea">Red Sea ReefBeat</a></li><li><a href="/pl/help/equipment-by-brand#jecod">Jecod i Jebao™</a></li><li><a href="/pl/help/equipment-by-brand#aquawiz">AquaWiz KH Controller</a></li><li>Beta, tylko dla użytkowników Beta: <a href="/pl/help/equipment-by-brand#maxspect">Maxspect™</a>, <a href="/pl/help/equipment-by-brand#ghl">GHL™</a>, <a href="/pl/help/equipment-by-brand#hydros">HYDROS™</a>, <a href="/pl/help/equipment-by-brand#focustronic">Focustronic™</a>, <a href="/pl/help/equipment-by-brand#ecotech">EcoTech™</a>, <a href="/pl/help/equipment-by-brand#inkbird">Inkbird™</a>, <a href="/pl/help/equipment-by-brand#cameras">kamery</a>. Zobacz <a href="/pl/help/mobile-beta">Funkcje Beta</a>.</li></ul>
+<h2 id="cora-mobile-i-cora-max">Cora Mobile i Cora Max</h2>
+<p><strong>Cora Mobile</strong> to aplikacja na telefon. Tu ustawiasz prawie wszystko (akwaria, urządzenia, pulpity, alerty, produkty dozujące) i to ją masz przy sobie z dala od akwarium. Ikona na ekranie głównym ma podpis <strong>Cora</strong>.</p>
+<p><strong>Cora Max</strong> to ekran na ścianę w pokoju z akwarium. Pokazuje te same akwaria i te same dane na żywo, na tyle duże, że przeczytasz je z drugiego końca pokoju, odczytuje sprzęt przez całą dobę i możesz do niego mówić.</p>
+<p>Oba korzystają z tego samego konta, więc akwaria, odczyty, urządzenia i zapiski są na każdym takie same. Każdy ekran ma własny układ pulpitu, a Wi-Fi, jasność, dźwięk, słowo aktywujące i blokada rodzicielska Cora Max dotyczą tylko tego ekranu. Więcej w <a href="/pl/help/mobile-multi-device">Więcej niż jedno urządzenie Cora</a>.</p>
+<p>Każdy odczyt pokazuje swoje źródło i wiek. Jeśli dwa źródła się nie zgadzają, na przykład sonda i test kropelkowy, Cora mówi Ci o tym, zamiast po cichu je uśredniać. Gdy coś zaczyna dryfować, <strong>Reef Buddy</strong> wspomina o tym w codziennym podsumowaniu.</p>
+<h2 id="cora-mobile">Cora Mobile</h2>
+<div class="tw"><table class="stack"><thead><tr><th>Temat</th><th>Strony</th></tr></thead><tbody><tr><td data-th="Temat">Pierwsze kroki</td><td data-th="Strony"><a href="/pl/help/mobile-setup">Konfiguracja Cora Mobile</a> · <a href="/pl/help/mobile-tour">Jak poruszać się po Cora Mobile</a> · <a href="/pl/help/mobile-tank-profile">Profil akwarium</a> · <a href="/pl/help/mobile-tanks">Zarządzanie akwariami</a> · <a href="/pl/help/mobile-account">Logowanie i odzyskiwanie konta</a></td></tr><tr><td data-th="Temat">Twój pulpit</td><td data-th="Strony"><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a> · <a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a> · <a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a> · <a href="/pl/help/mobile-widgets">Rodzaje widżetów</a> · <a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></td></tr><tr><td data-th="Temat">Sprzęt</td><td data-th="Strony"><a href="/pl/help/mobile-devices">Dodawanie, edytowanie i usuwanie urządzeń</a> · <a href="/pl/help/mobile-connections">Podłączanie sprzętu</a> · <a href="/pl/help/mobile-device-control">Sterowanie sprzętem</a> · <a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a> · <a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a> · <a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a> · <a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a> · <a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a> · <a href="/pl/help/mobile-beta">Funkcje Beta</a></td></tr><tr><td data-th="Temat">Alerty i automatyzacja</td><td data-th="Strony"><a href="/pl/help/mobile-alerts">Alerty i progi</a> · <a href="/pl/help/mobile-notifications">Powiadomienia</a> · <a href="/pl/help/mobile-automation">Automatyzacje i sceny</a> · <a href="/pl/help/mobile-vacation">Wyjazd</a></td></tr><tr><td data-th="Temat">Zapiski</td><td data-th="Strony"><a href="/pl/help/mobile-journal">Dziennik</a> · <a href="/pl/help/mobile-dosing">Dozowanie</a> · <a href="/pl/help/mobile-maintenance">Konserwacja</a> · <a href="/pl/help/mobile-livestock">Obsada</a> · <a href="/pl/help/mobile-activity">Aktywność i oś czasu</a></td></tr><tr><td data-th="Temat">Inteligencja</td><td data-th="Strony"><a href="/pl/help/mobile-reef-buddy">Reef Buddy</a> · <a href="/pl/help/mobile-assistant">Pytania do Cory</a> · <a href="/pl/help/mobile-icp-health">ICP i raporty zdrowia</a> · <a href="/pl/help/mobile-journeys">Ścieżki z przewodnikiem</a></td></tr><tr><td data-th="Temat">Ustawienia i konto</td><td data-th="Strony"><a href="/pl/help/mobile-settings">Ustawienia Cora Mobile</a> · <a href="/pl/help/mobile-multi-device">Więcej niż jedno urządzenie Cora</a> · <a href="/pl/help/mobile-plans">Plany i subskrypcje</a> · <a href="/pl/help/mobile-data-export">Eksport danych i usuwanie konta</a> · <a href="/pl/help/mobile-support">Zgłaszanie problemu</a></td></tr></tbody></table></div>
+<h2 id="cora-max">Cora Max</h2>
+<div class="tw"><table class="stack"><thead><tr><th>Temat</th><th>Strony</th></tr></thead><tbody><tr><td data-th="Temat">Pierwsze kroki</td><td data-th="Strony"><a href="/pl/help/max-setup">Konfiguracja Cora Max</a> · <a href="/pl/help/max-tour">Ekran główny Cora Max</a> · <a href="/pl/help/max-reef-room">Reef Room</a></td></tr><tr><td data-th="Temat">Twój pulpit</td><td data-th="Strony"><a href="/pl/help/max-dashboard-editing">Edytowanie pulpitu Cora Max</a></td></tr><tr><td data-th="Temat">Sprzęt</td><td data-th="Strony"><a href="/pl/help/max-controls">Gniazda i sterowanie</a> · <a href="/pl/help/max-device-control">Sterowanie sprzętem z Cora Max</a> · <a href="/pl/help/max-devices">Urządzenia i ich stan</a></td></tr><tr><td data-th="Temat">Alerty i automatyzacja</td><td data-th="Strony"><a href="/pl/help/max-alerts">Alerty na Cora Max</a> · <a href="/pl/help/max-automation">Sceny na Cora Max</a></td></tr><tr><td data-th="Temat">Zapiski</td><td data-th="Strony"><a href="/pl/help/max-records">Dziennik, obsada i konserwacja</a> · <a href="/pl/help/max-activity">Aktywność na Cora Max</a></td></tr><tr><td data-th="Temat">Inteligencja</td><td data-th="Strony"><a href="/pl/help/max-intelligence">Reef Buddy i raporty</a> · <a href="/pl/help/max-voice">Rozmowa z Corą</a></td></tr><tr><td data-th="Temat">Ustawienia i konto</td><td data-th="Strony"><a href="/pl/help/max-settings">Ustawienia Cora Max</a> · <a href="/pl/help/max-updates">Aktualizacje i odzyskiwanie</a></td></tr></tbody></table></div>
+<h2 id="pomoc">Pomoc</h2>
+<p><a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a> · <a href="/pl/help/how-do-i">Jak to zrobić?</a> · <a href="/pl/help/equipment-by-brand">Sprzęt według marki</a> · <a href="/pl/help/faq">Najczęstsze pytania</a> · <a href="/pl/help/glossary">Słownik</a> · Nadal problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
+      
+      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -315,10 +312,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Zrzut ekranu");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Zamknij"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -339,55 +336,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Brak wynik\u00f3w dla \u201e" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Brak wynik\u00f3w dla \u201e" + esc(q)
+        + "\u201d." + '</p>' + "<p>Spr\u00f3buj u\u017cy\u0107 mniej s\u0142\u00f3w lub innych s\u0142\u00f3w albo przejd\u017a do:</p><ul><li><a href=\"/pl/help/troubleshooting\">Rozwi\u0105zywanie problem\u00f3w</a></li><li><a href=\"/pl/help/how-do-i\">Jak to zrobi\u0107?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Skontaktuj si\u0119 z pomoc\u0105</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -419,9 +583,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/pl/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/pl/help/search.json?v=27523801fa').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';
       });

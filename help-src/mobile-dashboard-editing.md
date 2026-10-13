@@ -1,27 +1,28 @@
 ---
 title: Editing your dashboard
-description: Set the column count, add and arrange widgets, resize tiles, and save layouts to reuse on other tanks.
+description: Add, move, resize and remove widgets on your phone dashboard, set the column count, and edit a Cora Max dashboard from your phone.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 6
+order: 8
 group: Your dashboard
+twin: max-dashboard-editing
 ---
 
-The dashboard editor sets which widgets appear on a tank's dashboard and how they're arranged.
+The dashboard editor sets which widgets appear on a tank's dashboard and how they're arranged. Each tank has its own layout, and it follows your account to any phone you sign in on.
 
-## Opening the editor
+## Opening the editor {#opening-the-editor}
 
-Scroll to the bottom of the dashboard and tap **Edit dashboard**.
+Scroll down the dashboard and tap **Edit dashboard**, just under the widgets. The editor opens as **Edit Dashboard**, with the hint **Long-press a tile to move it. Tap to configure.**
 
-:::note The pencil next to the tank name opens something else
+:::note The pencil in the tank header opens something else
 It opens **Edit tank**, the tank profile with volume, livestock, dosing, lighting and flow. That's covered in [Your tank profile](/help/mobile-tank-profile).
 :::
 
-![The dashboard editor](img/mobile-edit.webp "Each tile shows its name and type. Tap a red cross to remove it.")
+![The Edit Dashboard screen in Cora Mobile](img/mobile-edit.webp "Columns at the top, then each tile with its name and type. Tap a red cross to remove it.")
 
-## Setting the column count
+## Setting the column count {#setting-the-column-count}
 
-Pick **2**, **3** or **4** columns at the top of the editor. The grid grows downward as you add widgets, and the dashboard scrolls.
+Pick **2**, **3** or **4** next to **COLUMNS** at the top of the editor. The grid grows downward as you add widgets, and the dashboard scrolls.
 
 | Columns | Use when |
 |---|---|
@@ -29,78 +30,55 @@ Pick **2**, **3** or **4** columns at the top of the editor. The grid grows down
 | 3 | The default. Works for most tanks |
 | 4 | You want a dense view, or you have a big phone |
 
-## Adding a widget
+## Adding a widget {#adding-a-widget}
 
-1. Tap **+** in the editor.
-2. Pick what the widget shows: a parameter, a device or an outlet.
-3. Pick the widget type. The [Widget reference](/help/mobile-widgets) describes each one.
+1. Tap **Add tile** under the grid, or tap an empty cell.
+2. In **Add a tile**, pick what kind it is. **Metric** covers a value, gauge, graph or status for a parameter. **Outlet** controls an Apex outlet. The other rows are for equipment, such as **ReefBeat**, **Trident**, **DŌS** or **Jecod**. Most of them only appear when the tank has that equipment.
+3. Pick the parameter, outlet or device.
+4. For a metric, pick the type. The [Widget reference](/help/mobile-widgets) describes each one.
 
-You only see sources the tank has. A parameter with no source shows up once you connect equipment that reports it, or log a reading by hand.
+You only see parameters the tank has. A parameter with no source shows up once you connect equipment that reports it, or log a reading by hand.
 
-## Arranging widgets
+The grid holds up to 20 rows. When it's full, Cora says **Dashboard is full: remove a tile first.** A graph needs two free cells side by side.
+
+## Arranging widgets {#arranging-widgets}
 
 - To move a widget, press and hold it, then drag. The others move around it.
-- To remove a widget, tap the red cross in its corner.
+- To remove a widget, tap the red cross in its corner, or tap the widget and then **Remove**.
 - To change a widget's settings, tap it.
 
-## Resizing
+## Widget settings {#widget-settings}
 
-A widget takes up one or two columns and one or two rows. Set the size in the widget's settings. A camera tile (Beta) can be up to three columns wide. Cameras are only open to Beta users. See [Beta features](/help/mobile-beta).
-
-A **trend** widget is always at least two columns wide.
-
-## Widget settings
-
-Depending on the widget type, you can set:
+Tap a widget in the editor to open its settings. Depending on the widget, you can set:
 
 | Setting | Applies to |
 |---|---|
-| Label | All types |
-| Source | Any parameter reported by more than one thing |
-| Time window | Trend: 1 hour, 6 hours, 24 hours, 7 days, 30 days, 1 year |
-| Range | Gauge. Taken from the tank's thresholds unless you change it here |
-| Size | All types |
+| **Type** | Metric widgets: Value, Gauge, Graph or Status |
+| **Parameter** | Metric widgets: which parameter it shows |
+| The outlet or device | Outlet and equipment tiles: which one it shows |
+| **Show remaining as** | Doser tiles: **Days** or **Milliliters (mL)** |
+| **Width** | Every widget: **1×** or **2×** (a camera up to **3×**). A graph is always at least 2 wide |
+| **Height** | Every widget: **1×** or **2×** |
+| **Time range** | Graph: 1h, 6h, 24h, 7d, 30d or 1y |
 
-## Saving
+Tap **Done** to keep the settings, or **Remove** to take the widget off.
 
-Tap **Save** to keep the layout, or the close icon to throw away your changes.
+A widget has no label, source or range of its own. Its alert range comes from the tank's alert thresholds: long-press the widget on the dashboard, or see [Alerts and thresholds](/help/mobile-alerts). Which source a parameter follows is set per tank in [Parameter Mapping](/help/mobile-probes).
 
-## My dashboards
+## Saving {#saving}
 
-You can save a layout you like and use it again. Tap **My dashboards → Save this design** and give it a name. You can keep up to **30**.
+Tap **Save** to keep the layout. To throw your changes away, tap the close icon. If you changed anything, Cora asks **Discard changes?** Tap **Discard**, or **Keep editing** to go back.
 
-You can load a saved design onto another tank or onto a Cora Max screen.
+The phone editor has no undo and no saved designs. Readings, history and journal entries are stored apart from the layout, so editing a dashboard can never lose them.
 
-:::note You see which tiles won't fit before you load
-Loading a design keeps only the tiles the target can fill. The rest are dropped and listed under **Left behind** before you confirm, each with its reason. The tank may never have reported that metric, there may be no outlet with that name, the ReefBeat device or Apex module may not be linked to this tank, or the grid may have run out of room.
-:::
+## Editing the Cora Max dashboard {#editing-the-cora-max-dashboard}
 
-## Restoring a previous layout
+You edit the Cora Max dashboard separately, from **Devices →** your Cora Max **→ Dashboard layout**, on the tank's card. It uses a fixed grid that doesn't scroll, and nothing reaches Cora Max until you tap **Save & Publish**.
 
-A saved design is how you get back to a layout you liked. Save one while the dashboard looks the way you want, and you can apply it again later.
+That editor has three extras the phone dashboard doesn't:
 
-This restores a saved layout. It isn't an undo. You pick the design from the list and confirm, and it replaces the current layout, dropping any tile the tank can't fill. You get the layout you saved, not whatever was there before your last edit.
+- **My dashboards** keeps up to 30 saved designs on your account. Any Cora Max on the account can load one. Tiles the target can't fill are listed under **Left behind:** before you load.
+- **Templates** opens **Dashboard templates**: **Overview**, **Equipment**, **Parameters** and, when the tank has a camera, **Camera**. It's open on every plan and doesn't use AI. Cameras are in Beta and only open to Beta users.
+- **Design with AI**, on a paid plan or during the trial, proposes a whole layout from what the tank reports and has linked. You can make 5 designs per tank per day.
 
-Readings, history and journal entries are stored apart from the layout, so editing a dashboard can never lose them.
-
-## Editing the Cora Max dashboard
-
-You edit the Cora Max dashboard separately, from **Devices → your Cora Max → Edit Dashboard**. It uses a fixed grid that doesn't scroll. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
-
-### Templates
-
-The Cora Max editor also has a **Templates** icon at the top, next to **Design with AI**. It's open on every plan and never uses AI, so it also works without AI data sharing.
-
-It opens **Dashboard templates**: **Overview**, **Equipment**, **Parameters** and, when the tank has a camera, **Camera**. Each layout is built from what this tank reports and has linked, with a preview and the number of tiles on its grid. Cameras are in Beta and only open to Beta users.
-
-Tap **Use this**, then confirm **Replace your dashboard?** with **Replace**. To keep your current layout, tap **Save current as preset first**. Nothing reaches Cora Max until you tap **Save & Publish**.
-
-### Design with AI
-
-On a paid plan, the editor has a sparkle icon at the top, labelled **Design with AI**. Tap it and Cora proposes a whole layout built from what this tank reports and has linked. On a free plan the icon shows a lock (**Design with AI (paid plans)**) and opens the plans.
-
-The proposal shows how many tiles it has and the grid size. Tap **Use this** to put it in the editor, or **Try again** for another one. You can make 5 designs per tank per day.
-
-An AI design replaces what's on the dashboard you're editing. Nothing reaches Cora Max until you tap **Save & Publish**, so you can still leave without saving. To keep your current layout first, save it under **My dashboards**.
-
-Design with AI needs AI data sharing to be turned on in Settings. If it's off, you'll be told, and you can switch it on and try again. If the tank has no readings or linked devices yet, there's nothing to design from.
+How each one works is in [Editing the Cora Max dashboard](/help/max-dashboard-editing).

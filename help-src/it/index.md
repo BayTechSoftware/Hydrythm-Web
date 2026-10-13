@@ -1,78 +1,88 @@
 ---
 title: Guida di Cora
-description: Come configurare e usare Cora Max e Cora Mobile: primi passi, dashboard, dispositivi, avvisi, Reef Buddy, ICP e rapporti di salute.
+description: Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l'attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP, associa Cora Max e risolvi i problemi.
 section: -
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 0
 ---
 
-Qui trovi tutto quello che ti serve per gestire la tua vasca con Cora. Scegli da dove partire:
+Tutto quello che ti serve per gestire il tuo reef con Cora. Scegli un'attività, oppure cerca in alto.
 
-<ul class="tiles">
-<li><a href="/help/mobile-setup"><b>Nuovo su Cora Mobile</b><span>Crea l'account, aggiungi la prima vasca e guarda arrivare le letture.</span></a></li>
-<li><a href="/help/max-setup"><b>Nuovo su Cora Max</b><span>Prima accensione, associazione e le tue vasche sullo schermo grande.</span></a></li>
-<li><a href="/help/mobile-dashboard-editing"><b>Crea la tua dashboard</b><span>Scegli un layout, aggiungi i widget e sistemali come ti viene più naturale.</span></a></li>
-<li><a href="/help/troubleshooting"><b>Risolvi un problema</b><span>Le letture si sono fermate, un dispositivo non risponde o un avviso non si chiude.</span></a></li>
-<li><a href="/help/faq"><b>Domande frequenti</b><span>Risposte veloci su configurazione, Cora Max, dispositivi, avvisi, piani e privacy.</span></a></li>
-</ul>
-
-## Le due parti di Cora
-
-**Cora Mobile** è Cora sul telefono. Qui configuri quasi tutto: vasche, dispositivi, dashboard, avvisi e prodotti per il dosaggio. Quando sei lontano dalla vasca, Cora resta con te. Sulla schermata Home l'icona si chiama semplicemente **Cora**.
-
-**Cora Max** è il centro di comando a parete della stanza della vasca. Mostra le stesse vasche e gli stessi dati in tempo reale su uno schermo leggibile da tutta la stanza. Puoi anche parlargli.
-
-Usano lo stesso account. Vasche, letture, dispositivi e registri sono gli stessi su tutti e due, e non devi configurarli due volte.
-
-Alcune cose restano legate al singolo schermo. Ogni schermo ha il **suo layout della dashboard**, e le impostazioni di uno schermo (Wi-Fi, luminosità, audio, parola di attivazione, blocco bambini) valgono solo per quello. Trovi di più in [Cosa è condiviso e cosa no](/help/mobile-multi-device).
-
-:::tip Parti dal telefono
-Anche se hai comprato Cora Max, configura prima vasche e dispositivi in Cora Mobile. Sul telefono scrivi più comodamente, e Cora Max ritrova tutto da solo.
+:::tiles
+- [Nuovo su Cora Mobile](/help/mobile-setup): Crea il tuo account, aggiungi la prima vasca e porta le letture sullo schermo.
+- [Nuovo su Cora Max](/help/max-setup): Associalo al telefono e porta le tue vasche sullo schermo a parete.
+- [Collega la tua attrezzatura](/help/mobile-connections): Neptune Apex, Red Sea, Jecod, AquaWiz e le marche in Beta.
+- [Imposta gli avvisi](/help/mobile-alerts): Scegli l'intervallo di ogni parametro e cosa arriva sul telefono.
+- [Crea la tua dashboard](/help/mobile-dashboard-editing): Aggiungi i widget e disponili, sul telefono o su Cora Max.
+- [Parla con Cora](/help/mobile-assistant): Fai domande sulla tua vasca scrivendo, oppure di' "Hey Cora" a Cora Max.
+- [Risolvi un problema](/help/troubleshooting): Le letture si sono fermate, un dispositivo è andato offline o un avviso non si chiude.
+- [Come faccio a...?](/help/how-do-i): Tutte le attività comuni, con un link ai passaggi.
 :::
 
-## Cosa aggiunge Cora a un controller
+## Per cominciare
 
-Ogni lettura mostra la fonte e da quanto tempo è stata rilevata. Se due fonti non concordano, per esempio una sonda e un kit di test oppure un dosatore e i risultati ICP, Cora te lo segnala. Non fa una media di nascosto. Se un valore inizia a spostarsi, **Reef Buddy** te lo fa notare la mattina seguente.
+1. Installa Cora Mobile, registrati e aggiungi la tua prima vasca. Vedi [Configurare Cora Mobile](/help/mobile-setup).
+2. Collega la tua attrezzatura da **Dispositivi → Aggiungi dispositivo**, oppure registra a mano un test dell'acqua. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+3. Controlla l'intervallo di avviso di ogni parametro. Vedi [Avvisi e soglie](/help/mobile-alerts).
+4. Lascia che Cora Mobile invii notifiche, e scegli quali. Vedi [Notifiche](/help/mobile-notifications).
+5. Se hai un Cora Max, associalo dal telefono. Vedi [Configurare Cora Max](/help/max-setup).
 
-## Come orientarti
+:::tip Comincia dal telefono
+Anche se hai comprato Cora Max, [configura prima vasche e dispositivi in Cora Mobile](/help/mobile-setup). Scrivere è più comodo sul telefono, e Cora Max prende tutto dal tuo account.
+:::
 
-- **[Le cinque schede](/help/mobile-tour)**: Cora Mobile in due minuti
-- **[La schermata Home di Cora Max](/help/max-tour)**: cosa vuol dire tutto quello che vedi sullo schermo grande
-- **[Domande frequenti](/help/faq)**: risposte veloci, divise per argomento
-- **[Risoluzione dei problemi](/help/troubleshooting)**: se qualcosa non va, parti da qui
-- **[Glossario](/help/glossary)**: vasca, fonte, widget, design salvato, soglia e tutto il resto
+## Problemi comuni
 
-## Gestire la vasca
+- [Una lettura è vecchia](/help/troubleshooting#a-reading-is-stale)
+- ["[Dispositivo]: ha smesso di inviare dati"](/help/troubleshooting#device-stopped-reporting)
+- [Il mio Cora Max è offline](/help/troubleshooting#my-cora-max-is-offline)
+- [Non ricevo notifiche](/help/troubleshooting#im-not-getting-notifications)
+- [Un avviso non si chiude](/help/troubleshooting#an-alert-is-not-clearing)
+- [L'associazione di un Cora Max non riesce](/help/troubleshooting#pairing-a-cora-max-fails)
+- ["Impossibile raggiungere l'Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed)
 
-Oltre a letture e dashboard, Cora tiene in un unico posto anche il resto del lavoro:
+## La tua attrezzatura per marca
 
-- **[Automazioni e scene](/help/mobile-automation)**: regole che partono da sole
-- **[Dosaggio](/help/mobile-dosing)**: concentrazione dei prodotti, calcolatore e consumi
-- **[Manutenzione](/help/mobile-maintenance)**: lavori ricorrenti con promemoria
-- **[Popolazione](/help/mobile-livestock)**: cosa hai in vasca, e che fine ha fatto
-- **[Percorsi guidati](/help/mobile-journeys)**: il ciclaggio di una vasca nuova o la soluzione di un problema
-- **[Attività](/help/mobile-activity)**: cosa è successo alla tua attrezzatura, e perché
-- **[Andare in vacanza](/help/mobile-vacation)**: un piano da lasciare a chi si occupa della vasca
-- **[I tuoi dati](/help/mobile-data-export)**: esportazioni ed eliminazione dell'account
-- **[Accesso e recupero dell'account](/help/mobile-account)**: password, verifica e indirizzo email sbagliato
-- **[Ottenere assistenza](/help/mobile-support)**: come segnalare un problema e cosa viene inviato con la segnalazione
+- [Neptune Apex, DŌS e Trident](/help/equipment-by-brand#neptune-apex)
+- [Red Sea ReefBeat](/help/equipment-by-brand#red-sea)
+- [Jecod e Jebao](/help/equipment-by-brand#jecod)
+- [Controller KH AquaWiz](/help/equipment-by-brand#aquawiz)
+- Beta, solo per gli utenti Beta: [Maxspect](/help/equipment-by-brand#maxspect), [GHL](/help/equipment-by-brand#ghl), [HYDROS](/help/equipment-by-brand#hydros), [Focustronic](/help/equipment-by-brand#focustronic), [EcoTech](/help/equipment-by-brand#ecotech), [Inkbird](/help/equipment-by-brand#inkbird), [telecamere](/help/equipment-by-brand#cameras). Vedi [Funzioni Beta](/help/mobile-beta).
 
-## La tua attrezzatura
+## Cora Mobile e Cora Max
 
-- **[Controllare la tua attrezzatura](/help/mobile-device-control)**: prese, pompe, teste di dosaggio e tester
-- **[Funzioni Beta](/help/mobile-beta)**: cosa vuol dire Beta, chi vede le integrazioni Beta e come chiedere l'accesso
-- **[Telecamere e controllo dello schiumatoio](/help/mobile-cameras)**: aggiungere una telecamera ed essere avvisati prima che il bicchiere dello schiumatoio trabocchi
-- **[Luci, pompe e dosatori EcoTech](/help/mobile-ecotech)**: Radion, VorTech e Versa via Bluetooth
-- **[Sonde](/help/mobile-probes)**: collegare le sonde di un controller e registrare la calibrazione
-- **[Materiali di consumo](/help/mobile-consumables)**: avvisi di rifornimento per reagenti, contenitori e serbatoi
-- **[Programmare l'attrezzatura](/help/mobile-schedules)**: programmi giornalieri per le pompe, come copiarli e come vedere il programma di una gyre
-- **[Più di un dispositivo Cora](/help/mobile-multi-device)**: quale risponde alla voce e quale legge l'attrezzatura
+**Cora Mobile** è l'app per il telefono. Qui configuri quasi tutto (vasche, dispositivi, dashboard, avvisi, prodotti di dosaggio), ed è quella che porti con te quando sei lontano dalla vasca. L'icona nella schermata Home si chiama **Cora**.
 
-## Sullo schermo grande
+**Cora Max** è lo schermo a parete per la stanza dell'acquario. Mostra le stesse vasche e gli stessi dati in tempo reale, abbastanza grandi da leggerli dall'altra parte della stanza, legge la tua attrezzatura giorno e notte, e puoi parlargli.
 
-- **[La Stanza barriera](/help/max-reef-room)**: tutte le vasche insieme
-- **[Dispositivi e salute dei dispositivi](/help/max-devices)**: cosa vede Cora Max, e la sua diagnostica
-- **[Reef Buddy e rapporti](/help/max-intelligence)**: il briefing e i risultati di laboratorio sullo schermo a parete
-- **[Controllare l'equipaggiamento da Cora Max](/help/max-device-control)**: le pagine dei dispositivi sullo schermo a parete
-- **[Attività su Cora Max](/help/max-activity)**: cosa è stato eseguito, rifiutato o mai confermato
-- **[Aggiornamenti e ripristino](/help/max-updates)**: come lo schermo resta aggiornato
+Entrambi usano lo stesso account, quindi vasche, letture, dispositivi e registri sono gli stessi su tutti e due. Ogni schermo tiene il suo layout della dashboard, e Wi-Fi, luminosità, suono, parola di attivazione e blocco bambini di un Cora Max valgono solo per quello schermo. Di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
+
+Ogni lettura mostra la sua fonte e la sua età. Se due fonti non concordano, come una sonda e un test, Cora te lo dice invece di farne in silenzio la media. Quando qualcosa comincia a derivare, **Reef Buddy** te lo segnala nel briefing giornaliero.
+
+## Cora Mobile
+
+| Argomento | Pagine |
+|---|---|
+| Primi passi | [Configurare Cora Mobile](/help/mobile-setup) · [Orientarsi in Cora Mobile](/help/mobile-tour) · [Il profilo della tua vasca](/help/mobile-tank-profile) · [Gestire le tue vasche](/help/mobile-tanks) · [Accesso e recupero dell'account](/help/mobile-account) |
+| La tua dashboard | [Leggere la dashboard](/help/mobile-dashboard) · [Approfondire un parametro](/help/mobile-metric-detail) · [Modificare la dashboard](/help/mobile-dashboard-editing) · [Guida ai widget](/help/mobile-widgets) · [Condividere la tua vasca](/help/mobile-sharing) |
+| Attrezzatura | [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices) · [Collegare la tua attrezzatura](/help/mobile-connections) · [Controllare la tua attrezzatura](/help/mobile-device-control) · [Programmare l'attrezzatura](/help/mobile-schedules) · [Mappatura parametri e sonde](/help/mobile-probes) · [Materiali di consumo e avvisi di rifornimento](/help/mobile-consumables) · [Telecamere e Controllo schiumatoio](/help/mobile-cameras) · [Luci, pompe e dosatori EcoTech](/help/mobile-ecotech) · [Funzioni Beta](/help/mobile-beta) |
+| Avvisi e automazione | [Avvisi e soglie](/help/mobile-alerts) · [Notifiche](/help/mobile-notifications) · [Automazioni e scene](/help/mobile-automation) · [Andare in vacanza](/help/mobile-vacation) |
+| Registri | [Il diario](/help/mobile-journal) · [Dosaggio](/help/mobile-dosing) · [Manutenzione](/help/mobile-maintenance) · [Popolazione](/help/mobile-livestock) · [Attività e cronologia](/help/mobile-activity) |
+| Intelligence | [Reef Buddy](/help/mobile-reef-buddy) · [Fare domande a Cora](/help/mobile-assistant) · [ICP e report di salute](/help/mobile-icp-health) · [Percorsi guidati](/help/mobile-journeys) |
+| Impostazioni e account | [Impostazioni di Cora Mobile](/help/mobile-settings) · [Più di un dispositivo Cora](/help/mobile-multi-device) · [Piani e abbonamenti](/help/mobile-plans) · [Esportare i tuoi dati ed eliminare l'account](/help/mobile-data-export) · [Segnalare un problema](/help/mobile-support) |
+
+## Cora Max
+
+| Argomento | Pagine |
+|---|---|
+| Primi passi | [Configurare Cora Max](/help/max-setup) · [La schermata principale di Cora Max](/help/max-tour) · [La Reef Room](/help/max-reef-room) |
+| La tua dashboard | [Modificare la dashboard di Cora Max](/help/max-dashboard-editing) |
+| Attrezzatura | [Prese e comandi](/help/max-controls) · [Controllare l'attrezzatura da Cora Max](/help/max-device-control) · [Dispositivi e salute dei dispositivi](/help/max-devices) |
+| Avvisi e automazione | [Avvisi su Cora Max](/help/max-alerts) · [Scene su Cora Max](/help/max-automation) |
+| Registri | [Diario, popolazione e manutenzione](/help/max-records) · [Attività su Cora Max](/help/max-activity) |
+| Intelligence | [Reef Buddy e report](/help/max-intelligence) · [Parlare con Cora](/help/max-voice) |
+| Impostazioni e account | [Impostazioni di Cora Max](/help/max-settings) · [Aggiornamenti e ripristino](/help/max-updates) |
+
+## Aiuto
+
+[Risoluzione dei problemi](/help/troubleshooting) · [Come faccio a...?](/help/how-do-i) · [Attrezzatura per marca](/help/equipment-by-brand) · [Domande frequenti](/help/faq) · [Glossario](/help/glossary) · Ancora bloccato? Scrivi a [cora@coraiq.tech](mailto:cora@coraiq.tech).

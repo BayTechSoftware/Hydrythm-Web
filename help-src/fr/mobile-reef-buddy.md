@@ -1,98 +1,118 @@
 ---
 title: Reef Buddy
-description: Votre briefing du matin : ce qu’il contient, quand il arrive et comment lire ses scores.
+description: Votre briefing quotidien Reef Buddy, ce qu’il couvre, quand il arrive, comment lire les scores, et pourquoi un briefing peut ne pas arriver.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 24
+reviewed: 2026-10-13
+order: 29
 group: Intelligence
+twin: max-intelligence
 ---
 
-Reef Buddy fait chaque jour un court point sur votre aquarium. Il arrive le matin, vous dit ce qui a changé et vous signale ce qui mérite votre attention, avant que vous ne le remarquiez vous-même.
+Reef Buddy est un court bilan quotidien de votre aquarium. Il arrive chaque matin, vous dit ce qui a changé, et signale ce qui demande votre attention avant que vous ne le remarquiez vous-même.
 
-Il s’affiche sous forme de carte en haut du tableau de bord, et vous envoie une notification.
+Vous le voyez sous forme de carte en haut de votre tableau de bord, et sous forme d’une seule notification quand il y a quelque chose qui mérite d’agir.
 
-![Un briefing Reef Buddy](img/mobile-reefbuddy.webp "Scores Stabilité et Données, un résumé, puis les observations derrière eux.")
+![Un briefing Reef Buddy](img/mobile-reefbuddy.webp "Les scores Stabilité et Données, un résumé, puis les analyses qui les expliquent.")
 
-## Le contenu d’un briefing
+## Ce que contient un briefing
 
-Le briefing commence par **un titre**, qui résume l’état de l’aquarium aujourd’hui en une ligne.
-
-Viennent ensuite **deux scores**.
+Il commence par un titre, une ligne qui résume l’aquarium aujourd’hui. Viennent ensuite deux scores.
 
 | Score | Signification |
 |---|---|
-| **Stabilité** | Sur 100. La régularité de vos mesures sur les 30 derniers jours |
-| **Données** | En pourcentage. La quantité de données sur laquelle repose l’évaluation |
+| **Stabilité** | Sur 100. À quel point vos mesures ont été stables ces 30 derniers jours |
+| **Données** | Un pourcentage. À quel point les données derrière l’évaluation sont complètes |
 
-Un score Données bas veut dire que l’évaluation repose sur moins de mesures que prévu. Regardez-le en premier. S’il est bas, prenez le score Stabilité d’à côté comme une indication provisoire.
+Un score Données faible veut dire que Cora avait moins de mesures qu’il n’en voulait. Regardez-le en premier. Quand Données est faible, prenez le chiffre de Stabilité à côté comme une première estimation.
 
-Puis **un résumé** : un court paragraphe qui explique le titre, à partir de vos vraies valeurs et de vos plages.
+Vient ensuite un résumé, un court paragraphe qui explique le titre avec vos vraies valeurs et vos plages.
 
-Enfin, **les observations**, c’est-à-dire les constats un par un. Chacune a une catégorie (par exemple *Chimie de l’eau*) et une fréquence (par exemple *Quotidien*). Touchez-la pour voir le détail. En haut de la section, une étiquette indique le type d’aquarium et le degré de complétude de son profil. Les deux influencent ce que Cora peut en conclure.
+Puis viennent les analyses, une par constat. Chacune a une catégorie (comme *Chimie de l’eau*) et une fréquence (comme *Quotidien*), et vous pouvez la déplier pour plus de détails. Une puce en haut de la section indique le type d’aquarium et à quel point son profil est complet. Les deux influencent ce que Cora peut conclure.
 
-Les observations sont triées avant de vous arriver. Une observation doit se vérifier sur plusieurs mesures, pas sur une seule. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne vous aurait pas déjà montré.
+Cora filtre les analyses avant qu’elles ne vous parviennent. Une analyse doit tenir sur plusieurs mesures. Une seule ne suffit pas. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne montrerait pas déjà.
 
-Touchez la carte dans le tableau de bord pour ouvrir le briefing complet.
+Touchez la carte du tableau de bord pour ouvrir le briefing complet.
 
-## Mettre à jour le briefing avec un nouveau test
+## Rouvrir le briefing {#dismissing-the-card}
 
-Si vous enregistrez un test à la main ou ajoutez un résultat ICP après la parution du briefing, la carte du briefing complet affiche **Nouvelles mesures depuis ce briefing** avec un bouton **Mettre à jour le briefing**. Touchez-le et Cora refait le briefing avec les nouveaux chiffres. Vous pouvez le faire une fois par jour pour chaque foyer. Ensuite, le bouton est grisé et indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
+Touchez **×** pour retirer la carte du jour du tableau de bord. Celle de demain arrivera quand même.
+
+Pour ouvrir le briefing du jour après avoir retiré la carte, touchez le bouton journal en haut du tableau de bord (**Bilan de santé quotidien Reef Buddy**). Un briefing plus ancien s’ouvre depuis sa notification.
+
+## Mettre à jour le briefing avec un nouveau test {#updating-the-briefing-with-a-new-test}
+
+Si vous notez un test à la main ou ajoutez un résultat ICP après la sortie du briefing, le briefing complet affiche **Nouvelles mesures depuis ce briefing** avec un bouton **Mettre à jour le briefing**. Touchez-le et Cora refait le briefing avec les nouveaux chiffres. Cela utilise un message de votre quota d’Assistant.
+
+Vous pouvez le faire une fois par jour pour votre compte. Ensuite, le bouton est grisé et indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
 
 Les mesures des sondes et des contrôleurs ne déclenchent pas cette proposition, car elles arrivent toute la journée.
 
-## Pourquoi vous voyez une observation
+## Pourquoi vous voyez une analyse
 
-Sous une observation, touchez **Pourquoi je vois ceci ?** La feuille **Pourquoi vous voyez ceci** liste les **Mesures utilisées**, la **Cible de comparaison** (votre propre cible, ou une plage de référence), tout ce qui vient **Dans votre journal** et qui a été pris en compte, et la **Fenêtre d’analyse (jours)** examinée. Si le raisonnement ne correspond pas à votre aquarium, répondez à l’observation comme décrit plus bas dans « Réagir à une observation ».
+Sous une analyse, touchez **Pourquoi je vois ceci ?** La feuille **Pourquoi vous voyez ceci** liste les **Mesures utilisées**, la **Cible de comparaison** (votre propre cible, ou une plage de référence), tout ce qui vient **Dans votre journal** et qu’elle a pris en compte, et la période en jours qu’elle a examinée. Si le raisonnement ne correspond pas à votre aquarium, répondez à l’analyse comme décrit dans [Corriger une analyse](#correcting-an-insight).
 
-Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de lumière de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité saisie à la main à côté de celle d’un appareil, les totaux de vos têtes DŌS et, si vous avez un moniteur d’air ambiant Inkbird en Beta, la température et l’humidité de la pièce. Inkbird n’est ouvert qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
+Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité notée à la main à côté de celle d’un appareil, les totaux de vos têtes DŌS et, si vous avez un moniteur d’air ambiant Inkbird, la température et l’humidité de la pièce.
 
-## Quand il arrive
+:::note Inkbird est en Beta
+**Beta.** Inkbird est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support. Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+:::
 
-Une fois par jour pour chaque aquarium, à l’heure que vous choisissez. Réglez-la dans les **Réglages**, sous **Heure du briefing**. Le briefing arrive dans les 15 minutes environ suivant cette heure, dans votre propre fuseau horaire. Si vous ne choisissez rien, il arrive à 8h00.
+## Quand il arrive {#when-it-arrives}
 
-Choisissez une heure après votre test du matin habituel, pour que le résultat du jour soit dans le briefing.
+Une fois par jour pour chaque aquarium, à l’heure que vous choisissez. Réglez-la dans **Réglages → Heure du briefing**, à côté de **Notifications**. Le briefing arrive dans les 15 minutes environ qui suivent cette heure, dans votre fuseau horaire. Si vous ne choisissez jamais, il arrive à 8:00.
 
-Les jours où rien ne demande votre attention, Reef Buddy reste en général silencieux. Il ne vous envoie pas de notification juste pour dire que tout va bien. **Une notification veut dire qu’il y a quelque chose à faire.** Ce peut être un nouveau changement, ou une situation qui dure depuis assez longtemps pour être signalée.
+Choisissez une heure après votre test habituel du matin, pour que le résultat du jour soit dans le briefing.
+
+Un jour où rien ne demande votre attention, Reef Buddy reste en général silencieux. Il ne vous envoie pas de notification juste pour dire que tout va bien. **Une notification veut dire qu’il y a quelque chose qui mérite d’agir.** Ce peut être un nouveau changement, ou quelque chose qui dure depuis assez longtemps pour être signalé.
 
 :::note Un aquarium, un briefing
-Chaque aquarium a son propre briefing. Si vous avez trois bacs, vous recevez trois briefings, chacun sur son bac.
+Chaque aquarium couvert par votre forfait reçoit son propre briefing, et chacun ne concerne que cet aquarium. Voir [Quels aquariums reçoivent un briefing](#availability).
 :::
 
 :::note Cora Max a son propre réglage Reef Buddy
-Un Cora Max a lui aussi une section **Reef Buddy** dans ses Réglages. Son **Heure du briefing** est le même réglage que sur votre téléphone : le changer sur l’un des deux le change aussi sur l’autre. L’interrupteur du briefing à l’écran appartient uniquement à ce Cora Max. Le couper ne change rien à ce qui arrive sur votre téléphone.
+Cora Max a aussi une section **Reef Buddy** dans ses réglages. Son **Heure du briefing** est le même réglage que sur votre téléphone : changez-la sur l’un et les deux suivent. L’interrupteur du briefing à l’écran n’appartient qu’à ce Cora Max. Le désactiver là n’empêche pas le briefing d’arriver sur votre téléphone.
 :::
 
 ## Lire les scores
 
-**Stabilité** indique à quel point vos mesures ont été régulières sur les 30 derniers jours. Ce score mesure la régularité, pas le fait d’être dans la plage. Un aquarium stable à un mauvais niveau peut donc avoir un bon score. Pour un score qui tient compte de vos plages cibles, lancez un [Rapport de santé](/help/mobile-icp-health). Stabilité se suit dans le temps, ce n’est pas une note. Comparez-le à vos propres scores passés, pas à celui d’un autre aquarium.
+**Stabilité** montre à quel point vos mesures ont été stables ces 30 derniers jours. Il ne mesure que la stabilité. Il ne vérifie pas si les mesures sont dans la plage, donc un aquarium maintenu stable au mauvais niveau peut quand même avoir un bon score. Pour voir où vous en êtes par rapport à vos plages cibles, lancez un [Rapport de santé](/help/mobile-icp-health#health-reports). Considérez Stabilité comme une tendance à suivre dans le temps. Comparez-le avec vos propres scores précédents, et non avec l’aquarium de quelqu’un d’autre.
 
-**Données** indique la quantité d’informations récentes utilisées pour l’évaluation. Ce score baisse quand les mesures vieillissent.
+**Données** montre combien d’informations récentes Cora avait pour travailler. Il baisse quand les mesures vieillissent.
 
-:::note Un score Données qui baisse signale souvent des mesures trop anciennes
-Si rien n’a été testé depuis une semaine, le score Données chute et le score Stabilité devient moins fiable. Enregistrez des mesures pour faire remonter les deux.
+:::note Un score Données qui baisse veut en général dire des mesures anciennes
+Si vous n’avez rien testé depuis une semaine, le score Données baisse et le score Stabilité devient moins fiable. Notez quelques mesures pour faire remonter les deux.
 :::
 
-## Fermer la carte
+## Quels aquariums reçoivent un briefing {#availability}
 
-Le **×** retire la carte du jour du tableau de bord. Celle de demain arrivera quand même. Les anciens briefings restent accessibles depuis l’onglet **Intelligence**.
+Reef Buddy fait partie des forfaits payants. Il est aussi inclus dans l’essai de 30 jours qui commence à la création de votre compte.
 
-## Disponibilité
+Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Plus, 5 avec Pro et 20 avec Max. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Réglages → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
 
-Reef Buddy fait partie des forfaits payants. Il est inclus dans l’essai de 30 jours qui commence à l’inscription. Après l’essai, un compte gratuit ne reçoit plus de briefing. Voir [Forfaits](/help/mobile-plans).
+Après l’essai, un compte gratuit voit une carte Reef Buddy verrouillée avec **Voir les forfaits** à la place du briefing, et ne reçoit pas de notification de briefing. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 
-## Réagir à une observation
+## Si aucun briefing n’est arrivé
 
-Vous pouvez répondre à chaque observation de quatre façons.
+- **Rien ne demandait votre attention.** Reef Buddy reste silencieux un bon jour. La carte est quand même sur le tableau de bord.
+- **Votre essai est terminé.** Un compte gratuit a la carte verrouillée et aucune notification.
+- **L’aquarium dépasse la limite de votre forfait.** Remontez-le dans **Réglages → Réorganiser les aquariums**.
+- **Les notifications sont désactivées.** Vérifiez [Notifications](/help/mobile-notifications).
+
+Si vous avez désactivé **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées**, le briefing arrive quand même, mais son résumé est un texte fixe simple et l’observation rédigée par l’IA est omise. Voir [Interroger Cora](/help/mobile-assistant#consent).
+
+## Corriger une analyse {#correcting-an-insight}
+
+Vous pouvez répondre à chaque analyse de l’une de ces quatre façons.
 
 | Réponse | Signification |
 |---|---|
-| **Confirmé** | C’était juste, et utile |
-| **Ne correspond pas** | Ça ne correspond pas à ce que vous voyez |
-| **Le savais déjà** | C’est juste, mais vous le saviez |
-| **Pas sûr** | Vous ne pouvez pas encore juger |
+| **Confirmé** | Elle était juste, et utile |
+| **Ne correspond pas** | Elle ne correspond pas à ce que vous observez |
+| **Le savais déjà** | Juste, mais vous le saviez |
+| **Pas sûr** | Vous ne pouvez pas encore en juger |
 
-Quand Reef Buddy signale une dérive, il demande aussi *Cet avertissement était-il utile ?* Vous pouvez répondre **Utile**, **Pas utile**, **Ce changement est prévu** ou **La mesure semble erronée**. Vos réponses influencent ce qui passe en tête des briefings suivants. Une observation écartée ne l’est que **pour un temps**. Si la situation dure, elle revient.
+Quand Reef Buddy signale une dérive, il demande aussi *Cet avertissement était-il utile ?* Vous pouvez répondre **Utile**, **Pas utile**, **Ce changement est prévu** ou **La mesure semble erronée**. Vos retours influencent ce qui apparaît en premier dans les briefings suivants. Masquer une analyse ne dure qu’un temps. Si le problème est toujours là, l’analyse revient.
 
-:::note Les constats sérieux ne sont jamais écartés
-Vos réponses ne peuvent atténuer que les observations de faible gravité. Les observations d’avertissement et les observations critiques continuent d’apparaître, quelles que soient vos réponses passées.
+:::note Les constats sérieux ne sont jamais masqués
+Les retours ne font taire que les analyses de faible gravité. Les analyses d’avertissement et critiques continuent d’apparaître, quoi que vous ayez répondu avant.
 :::

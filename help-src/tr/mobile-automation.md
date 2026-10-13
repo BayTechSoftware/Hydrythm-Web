@@ -1,99 +1,132 @@
 ---
 title: Otomasyonlar ve sahneler
-description: Kendi kendine çalışan kurallar (tetikleyiciler, koşullar, eylemler) oluşturun ve bunları sahnelerde toplayın.
+description: Bir ölçüm, bir uyarı, bir saat ya da çevrimdışı olan bir cihaz için Cora'nın kendi başına harekete geçmesini sağlayın ve eylemleri tek dokunuşla çalıştırdığınız sahnelerde toplayın.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 17
+reviewed: 2026-10-13
+order: 22
 group: Alerts and automation
+twin: max-automation
 ---
 
-Otomasyon, Cora'nın sizin yerinize çalıştırdığı bir kuraldır: *şu olunca şunu kontrol et, sonra şunu yap.* Sahneler ise birkaç eylemi tek seferde çalıştırabileceğiniz ya da zamanlayabileceğiniz tek grupta toplar.
+Otomasyon, Cora'nın sizin için çalıştırdığı bir kuraldır: *bu olduğunda şunu kontrol et, sonra bunu yap.* Sahne ise birkaç eylemi, istediğinizde çalıştırdığınız tek bir şeyde toplar.
 
-**Ayarlar → Otomasyon.**
+**Ayarlar → Otomasyonlar** yoluna gidin.
 
-![Otomasyon listesi](img/mobile-automation.webp "Otomasyonlar ve Sahneler ayrı sekmelerdir. Her kuralın açma kapama anahtarı var.")
+![Cora Mobile'da Otomasyonlar ve Sahneler sekmeleriyle Otomasyon ekranı](img/mobile-automation.webp "Otomasyonlar ve Sahneler ayrı sekmelerdir. Her kuralın kendi anahtarı vardır.")
 
-Ekranda iki sekme (**Otomasyonlar** ve **Sahneler**) ve bir **Yeni otomasyon** düğmesi var. Her kuralda ne yaptığını anlatan tek satırlık özet, açma kapama anahtarı ve düzenleme ya da silme menüsü bulunur. Henüz hiç çalışmamış kurallarda bu da belirtilir.
+Ekranın iki sekmesi vardır, **Otomasyonlar** ve **Sahneler**, ve bir **Yeni otomasyon** ya da **Yeni sahne** düğmesi bulunur. Her kural tek satırlık bir özet, bir etkinleştirme anahtarı ve onu **Düzenle**mek ya da **Sil**mek için bir menü gösterir. Henüz çalışmamış bir kural bunu söyler.
 
-:::warning Kurallar gerçek ekipmanı çalıştırır
-Pompayı açıp kapatan bir kural, siz başında olsanız da olmasanız da pompayı açıp kapatır. Kuralları tek tek oluşturun. Yenisini eklemeden önce her birinin beklediğiniz gibi çalıştığını kontrol edin.
+:::warning Kurallar gerçek ekipman üzerinde çalışır
+Bir kural bir pompayı açıp kapatıyorsa, siz izlemiyorken de pompa açılıp kapanır. Her seferinde bir kural oluşturun ve bir sonrakini eklemeden önce beklediğiniz şeyi yaptığını kontrol edin.
 :::
 
-## Kuralın yapısı
+## Bir kuralın yapısı {#shape}
 
-Her kural aynı üç bölümden oluşur:
+Her otomasyonun üç parçası vardır.
 
-**Tetikleyici**: kuralı neyin başlattığı
-**Koşullar**: ayrıca neyin doğru olması gerektiği
-**Eylemler**: kuralın sırasıyla ne yaptığı
+- Tetikleyici onu uyandırır.
+- Koşulların da doğru olması gerekir.
+- Eylemler, ardından sırayla yaptığı şeylerdir.
 
-## Kuralı ne başlatabilir
+![Cora Mobile'da boş bir Yeni otomasyon formu](img/mobile-rule-builder.webp "Yeni bir otomasyon: tetikleyiciler, Eğer koşulları, Sonra eylemleri, Aksi halde eğer ve Aksi halde, ardından bekleme süresi ve zaman aralığı.")
 
-Dört şey:
+## Bir kuralı ne uyandırabilir {#triggers}
+
+**Ne zaman: herhangi bir tetikleyici** altına bir ya da daha fazla tetikleyici ekleyin. Herhangi biri kuralı başlatır.
 
 | Tetikleyici | Ne zaman çalışır |
 |---|---|
-| **Bir parametre değiştiğinde** | Bir parametre, belirlediğiniz değeri seçtiğiniz yönde geçtiğinde |
-| **Bir uyarı tetiklendiğinde** | Bir uyarı verildiğinde, kapandığında ya da ikisinde de |
-| **Günün belirli bir saatinde** | Kendi saat diliminize göre günün belli bir saatinde |
-| **Bir cihaz çevrimdışı olduğunda** | Bir cihaz çevrimdışı olduğunda ya da yeniden bağlandığında |
+| **Bir parametre değiştiğinde** | Bir parametre belirlediğiniz bir değeri geçtiğinde. **Yön**'ü seçin: **Yükseliyor**, **Düşüyor** ya da **Herhangi bir değişiklik** |
+| **Bir uyarı tetiklendiğinde** | Bir uyarı **Tetiklendiğinde**, **Temizlendiğinde** ya da ikisinde de. Bunu **Eşik** ya da **Değişim hızı** uyarılarıyla sınırlayabilirsiniz |
+| **Günün belirli bir saatinde** | Kendi saat diliminizde günün bir saatinde |
+| **Bir cihaz çevrimdışı olduğunda** | Cora Max'iniz **Çevrimdışı** olduğunda, yeniden **Çevrimiçi** olduğunda ya da her iki durumda |
 
-## Koşullar
+:::tip Cora Max'iniz düştüğünde haberiniz olsun
+**Bir cihaz çevrimdışı olduğunda** ve **Beni Bilgilendir** içeren bir kural, ekipmanınızı okuyan Cora Max'in elektriği ya da Wi-Fi'ı kesildiğinde size haber verir.
+:::
 
-Eylemlerin gerçekten çalışıp çalışmayacağına koşullar karar verir. Bilinen karşılaştırmaları kullanabilirsiniz (eşittir, eşit değildir, büyüktür, küçüktür ve diğerleri). Bunları **ve**, **veya** ve **değil** ile birleştirebilirsiniz.
+## Koşullar {#conditions}
 
-Bir de *önceki* adımın sonucuna bakan **adım** koşulu var. "Bunu dene, olmazsa şunu yap" gibi kurallar bu koşulla yazılır.
+Koşullar eylemlerin çalışıp çalışmayacağına karar verir. **Koşul ekle**'ye dokunun ve seçin:
 
-## Kural neler yapabilir
+- **Parametre karşılaştırma**: bir değerin üstünde, altında ya da ona eşit bir ölçüm
+- **Parametre bir aralığın içinde / dışında**
+- **Uyarı etkin**
+- **Priz açık / kapalı**: bir Apex prizi için
+- **Günün saati**: 22:00 ile 06:00 gibi bir zaman aralığı
+- **Önceki bir adımın sonucuna göre**: önceki bir adımın **TAMAM** mı geçtiğini yoksa **Atlandı** mı olduğunu kontrol eder. "Bunu dene, işe yaramadıysa onun yerine şunu yap" için kullanın
 
-Ekipman gerektiren eylemler yalnızca o ekipmanın olduğu akvaryumlarda çıkar:
+Birden fazla koşul varsa **Eşleşme**'yi **Hepsi (VE)** ya da **Herhangi biri (VEYA)** olarak ayarlayın.
+
+## Dallar ve adım başına kontroller {#branches}
+
+Bir otomasyon farklı durumlarda farklı şeyler yapabilir. İlk bloğu **Eğer**'dir. Başka bir durum eklemek için **Aksi halde eğer**'e dokunun ya da geri kalan her şey için bir **Aksi halde** bloğu ekleyin. Cora koşulları sağlanan ilk bloğu çalıştırır.
+
+Tek bir eylemi de bir koşula bağlayabilirsiniz. O adımda **Yalnızca şu durumda…**'ya dokunun ve ona kendi koşulunu verin. Koşul yoksa adım her zaman çalışır.
+
+## Ne zaman çalışabilir {#when-it-may-run}
+
+- **Çalıştırmalar arası bekleme süresi**, bir kuralın çok erken yeniden çalışmasını önler. 10 dk ile başlar.
+- **Yalnızca şu saatler arasında çalıştır**, kuralı bir zaman aralığıyla sınırlar, örneğin yalnızca gündüz.
+- **Canlı değerlere karşı test et**, hiçbir şey yapmadan kuralı akvaryumunuzun şu anki ölçümlerine göre kontrol eder. Neyin *çalışacağını* ya da neden hiçbir şeyin çalışmayacağını söyler.
+
+## Bir kural neler yapabilir {#actions}
+
+Ekipman gerektiren bir eylem yalnızca o ekipmanı olan bir akvaryumda görünür.
 
 | Eylem | Ne yapar |
 |---|---|
-| **Apex Ekipmanını Kontrol Et** | Prizi açıp kapatır |
-| **Bir Red Sea Ekipmanını Kontrol Et** | Bir ReefBeat ünitesini çalıştırır |
-| **Bir Dalga Pompasını Kontrol Et** | Jecod pompasının akışını, dalga modunu ya da gücünü ayarlar. **Besleme için duraklat** seçeneği de var. Besleme bitince akvaryumdaki Cora Max pompayı eski ayarına döndürür |
-| **Bir Cora Ekipmanını Kontrol Et** | Akıllı fişi açıp kapatır |
-| **IR Cihazını Kontrol Et** | Kızılötesi komut gönderir |
-| **Apex Besleme Döngüsünü Çalıştır** | Beslemeyi başlatır |
-| **Bir Trident Testi Çalıştır** | Test başlatır |
-| **Beni Bilgilendir** | Size bildirim gönderir |
-| **Sonraki Adımdan Önce Bekle** | Devam etmeden önce bekler |
-| **Bir Sahne Çalıştır** | Bu kuralın içinden başka bir sahneyi çalıştırır |
+| **Apex Ekipmanını Kontrol Et** | Bir prizi açar ya da kapatır |
+| **Apex Besleme Döngüsünü Çalıştır** | Bir besleme başlatır. Apex onu kendi zamanlayıcısıyla bitirir |
+| **Bir Trident Testi Çalıştır** | Bir test başlatır. Her çalışma reaktif kullanır |
+| **Bir DŌS Kafasından Dozaj Ver** | Bir DŌS kafasında ölçülü bir doz çalıştırır |
+| **Bir Red Sea Ekipmanını Kontrol Et** | Bir ReefBeat ünitesini yönetir |
+| **Bir Dalga Pompasını Kontrol Et** | Bir Jecod pompasının akışını, dalga modunu ya da gücünü ayarlar ya da **Besleme için duraklat**. Besleme bittiğinde akvaryumdaki Cora Max pompayı eski haline getirir |
+| **Bir GHL Ekipmanını kontrol et (Beta)** | Bir besleme programını duraklatır, bakım ya da su değişimi modunu başlatır, bir ışık sahnesi ya da parlaklık ayarlar ve daha fazlası |
+| **Bir HYDROS Cihazını Kontrol Et (Beta)** | Bir çıkışı ayarlar, onu programına döndürür, mod değiştirir, bir test cihazı komutu çalıştırır ya da bir kafadan dozaj yapar |
+| **Bir EcoTech cihazını kontrol et (Beta)** | Bir Radion'un yoğunluğunu ya da sahnesini ayarlar, bir VorTech beslemesi ya da modu başlatır, bir Versa'dan dozaj yapar ya da herhangi birini programına döndürür |
+| **Beni Bilgilendir** | Kendi **Başlık** ve **Mesaj**'ınızla kendinize bir bildirim gönderir |
+| **Sonraki Adımdan Önce Bekle** | Devam etmeden önce duraklar |
+| **Bir Sahne Çalıştır** | Bu kuralın içinden bir sahne çalıştırır |
 | **Bir Otomasyonu Yönet** | Başka bir kuralı açar ya da kapatır |
-| **Bir DŌS Kafasından Dozaj Ver** | DŌS kafasından ölçülü doz verir |
-| **Bakım görevi oluştur** | Akvaryumun [bakım](/help/mobile-maintenance) listesine bir iş ekler, örneğin pH bir değerin altına düştüğünde CO2 yıkayıcı malzemesini değiştirmek |
+| **Bakım görevi oluştur** | Akvaryumun [bakım](/help/mobile-maintenance) listesine bir iş koyar, örneğin pH bir değerin altına düştüğünde CO2 yıkayıcı medyasını değiştirmek |
 
-:::warning Kuralla yapılan dozaj geri alınamaz ve sınırlıdır
-Verilen dozu akvaryumdan geri alamazsınız. Kuralın bir kafadan dozaj yapabilmesi için kafanın **kalibre edilmiş** olması gerekir. Siz başında değilken yapılan dozaj **kafa başına günde 10 mL** ile sınırlıdır. Kural nasıl yazılırsa yazılsın bu sınırı aşamaz. Dozaj eylemleri, kafalarınız dozaj kafası olarak tanındıktan sonra listede çıkar.
+:::note Beta
+GHL, HYDROS ve EcoTech Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+:::
+
+:::warning Bir doz geri alınamaz ve sınırlıdır
+Bir dozu akvaryumdan geri çıkaramazsınız. Bir kural yalnızca bir Cora Max'te **Dozajlamak için ölç** ile ölçülmüş bir kafadan dozaj yapabilir. Doz akvaryumdaki bir Cora Max'te çalışır. Kurallardan dozaj, kural nasıl yazılmış olursa olsun **kafa başına günde 10 mL** ile sınırlıdır.
 :::
 
 :::note Bakım görevi oluştur ne yapar
-Akvaryumu seçin, sonra **Mevcut görev** (mevcut bir görev hemen yapılması gereken hale gelir) ya da **Yeni görev** (bir **Görev adı** verin) seçeneğini seçin. Yeni görev tek seferliktir, hemen yapılması gerekir ve görev açıkken kural onu yeniden oluşturmaz. Tek bir bildirim alırsınız. Tek seferlik görev, tamamladığınızda listeden kalkar.
+Akvaryumu seçin, sonra **Mevcut görev** (var olan bir görevin zamanı şimdiye çekilir) ya da **Yeni görev** (ona bir **Görev adı** verin). Yeni bir görev tek seferliktir, zamanı hemen gelir ve kural, görev açık kaldığı sürece onu yeniden oluşturmaz. Tek bir bildirim alırsınız ve tek seferlik görev, onu tamamladığınızda listeden çıkar.
 :::
 
-:::note Adımları sıralamak için Bekle'yi kullanın
-Bekleme adımıyla tek kural sırayla birkaç iş yapabilir. Örneğin prizi kapatır, bekler, sonra yeniden açar. Bunun için ikinci kurala ve programa gerek kalmaz.
+:::note Bekleme kısadır
+**Sonraki Adımdan Önce Bekle** en fazla 60 saniye duraklar ve bir dal toplamda 60 saniye bekleyebilir. Duraklamadan sonra bir sonraki adım taze ölçümleri görür. Su değişimi sırasında ana pompanın 30 dakika kapalı kalması gibi daha uzun bir bekleme için **Şu süre boyunca çalıştır** ayarlı bir sahne kullanın (aşağıda).
 :::
 
-## Sahneler
+## Sahneler {#scenes}
 
-Sahne, adı olan eylem grubudur: "Su değişimi", "Fotoğraf modu", "Gece" gibi. Sahneyi istediğiniz an, bir programla ya da başka bir kuralın içinden çalıştırabilirsiniz.
+Sahne, "Su değişimi", "Fotoğraf modu" ya da "Gece" gibi adı olan bir eylem grubudur. **Yeni otomasyon**'a ya da **Yeni sahne**'ye dokunun ve en üstte **Sahne**'yi seçin. Bir sahnenin tetikleyicisi yoktur. Onu listedeki **Şimdi çalıştır** ile, bir kuralın içinden **Bir Sahne Çalıştır** ile ya da **Günün belirli bir saatinde** içeren bir kural aracılığıyla bir zaman çizelgesine göre çalıştırırsınız.
 
-Bir sahne başka bir sahneyi çağırabilir. Ama Cora, iç içe geçme sınırını aşan sahneleri ve kendi kendini çağıran sahneleri çalıştırmaz. Böylece akvaryumda sonsuza kadar dönen döngü oluşmaz.
+**Şu süre boyunca çalıştır**, bir sahnenin ne kadar süreceğini ayarlar: birkaç dakika ya da saat ya da **Ben değiştirene kadar**. Süre dolduğunda Cora sahnenin prizlerini eski hallerine getirir. Diğer ekipman sahnenin bıraktığı gibi kalır. Süreli bir sahne çalışırken liste bir geri sayım ve onu erken bitiren bir **Durdur** düğmesi gösterir.
 
-Sahne çalıştıktan sonra Cora adım adım neler olduğunu, başarısız olan adımlarla birlikte size bildirir.
+Bir sahne ısıtıcı, soğutucu, ana pompa ya da su tamamlama gibi önemli bir prizi değiştiriyorsa Cora onu çalıştırmadan önce sorar ve o adımları listeler. Bunu sahnedeki **Çalıştırmadan önce sor** ile kapatabilirsiniz.
 
-Bir sahneyi elle çalıştırmak istediğinizde Cora önce onay ister. Çünkü sahne aynı anda birkaç ekipmanı açıp kapatabilir.
+Bir sahne başka bir sahneyi 3 seviye derinliğe kadar çağırabilir. Cora kendini çağıran bir sahneyi çalıştırmaz, çünkü döngüye girip akvaryum üzerinde işlem yapmaya devam edebilir.
 
-## Cora Max'te hazırlanan sahneler
+Bir sahne çalıştıktan sonra, başarısız olan ya da çalışmayan her şey dahil, adım adım ne olduğunu görürsünüz.
 
-Sahneleri yalnızca telefondan değil, doğrudan Cora Max tabletten de oluşturup düzenleyebilirsiniz. İki yerde de aynı sahneler görünür, çünkü sahneler hesapta ortaktır. Evinizde eski bir Cora Max varsa telefonda hazırlanan sahneyi yine çalıştırır. Yalnızca cihaz üzerinde düzenleme yeni bir özelliktir. Bu yüzden eski tablet sahneyi gösterip değiştirmenize izin vermeyebilir. Bu durumda sahneyi telefondan düzenleyin.
+## Cora Max'te yapılan sahneler {#scenes-on-cora-max}
 
-## Kuralı kapatma
+Sahneleri bir Cora Max'te de oluşturup düzenleyebilirsiniz. Hesapta paylaşılan aynı sahne setidir. Eski bir Cora Max telefonda yapılmış bir sahneyi yine de çalıştırabilir. Ancak cihazda düzenleme daha yenidir, bu yüzden eski bir Cora Max bir sahneyi değiştirmenize izin vermeden gösterebilir. Onun yerine telefondan düzenleyin.
 
-Her kuralın açma kapama anahtarı var. Kuralı kapattığınızda tanımı silinmez. Kuralı gelecek mevsim yeniden kullanmak istiyorsanız baştan kurmak yerine kapatıp bekletin.
+## Bir kuralı kapatma {#turning-a-rule-off}
 
-## Kuralın neler yaptığını görme
+Her kuralın bir etkinleştirme anahtarı vardır. Bir kuralı kapatmak ayarlarını saklar, bu da onu gelecek mevsim geri istediğinizde işe yarar.
 
-Kuralın yaptığı her işlem, kaynağı olarak o kuralla birlikte kaydedilir. Ayrıntılar **[Etkinlik](/help/mobile-activity)** sayfasında.
+## Bir kuralın ne yaptığını görme {#seeing-what-a-rule-did}
+
+Bir kuralın yaptığı her eylem, nedeni olarak **Otomasyon kuralı** ile kaydedilir. Onu [Etkinlik](/help/mobile-activity) içinde bulursunuz.

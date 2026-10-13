@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mantenimiento | Cora Help</title>
-  <meta name="description" content="Tareas periódicas con recordatorios, como limpiar el skimmer, cambiar las mangas filtrantes o revisar las bombas.">
+  <meta name="description" content="Añade tareas periódicas como limpiar el skimmer o cambiar las mangas filtrantes, recibe un recordatorio cuando toquen y márcalas como hechas o posponlas.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-maintenance">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-maintenance">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-maintenance">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Mantenimiento | Cora Help">
-  <meta property="og:description" content="Tareas periódicas con recordatorios, como limpiar el skimmer, cambiar las mangas filtrantes o revisar las bombas.">
+  <meta property="og:description" content="Añade tareas periódicas como limpiar el skimmer o cambiar las mangas filtrantes, recibe un recordatorio cuando toquen y márcalas como hechas o posponlas.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-maintenance">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ayuda","item":"https://coraiq.tech/es/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/es/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Registros","item":"https://coraiq.tech/es/help/mobile-journal"},{"@type":"ListItem","position":4,"name":"Mantenimiento"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Ir al contenido</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/es/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Ayuda</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Buscar en la guía">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navegación de la guía">
     <button class="hclose" id="hclose" type="button" aria-label="Cerrar navegación">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Guía">
 <ul>
 <li><a href="/es/help/">Ayuda de Cora</a></li>
+</ul>
+<p class="nav-sec">Ayuda</p>
+<ul>
+<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
+<li><a href="/es/help/how-do-i">¿Cómo hago...?</a></li>
+<li><a href="/es/help/equipment-by-brand">Equipos por marca</a></li>
+<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
+<li><a href="/es/help/glossary">Glosario</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/mobile-setup">Configurar Cora Mobile</a></li>
-<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
+<li><a href="/es/help/mobile-tour">Moverte por Cora Mobile</a></li>
 <li><a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a></li>
-<li><a href="/es/help/mobile-tour">Las cinco pestañas</a></li>
+<li><a href="/es/help/mobile-tanks">Gestionar tus acuarios</a></li>
+<li><a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
 <li><a href="/es/help/mobile-dashboard">Leer tu panel</a></li>
-<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
-<li><a href="/es/help/mobile-widgets">Tipos de widget</a></li>
 <li><a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a></li>
+<li><a href="/es/help/mobile-dashboard-editing">Editar tu panel</a></li>
+<li><a href="/es/help/mobile-widgets">Referencia de widgets</a></li>
 <li><a href="/es/help/mobile-sharing">Compartir tu acuario</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/es/help/mobile-connections">Conectar tus equipos</a></li>
 <li><a href="/es/help/mobile-device-control">Controlar tus equipos</a></li>
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
-<li><a href="/es/help/mobile-probes">Asignación de parámetros</a></li>
-<li><a href="/es/help/mobile-consumables">Consumibles</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
+<li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
+<li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
 <li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
 <li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
+<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
 <li><a href="/es/help/mobile-alerts">Alertas y umbrales</a></li>
 <li><a href="/es/help/mobile-notifications">Notificaciones</a></li>
 <li><a href="/es/help/mobile-automation">Automatizaciones y escenas</a></li>
+<li><a href="/es/help/mobile-vacation">Irse de viaje: un plan para quien cuida tu acuario</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Registros</summary><ul>
-<li><a href="/es/help/mobile-dosing">Dosificación</a></li>
+<li><a href="/es/help/mobile-journal">El diario</a></li>
+<li><a href="/es/help/mobile-dosing">Productos de dosificación y la calculadora de dosis</a></li>
 <li><a href="/es/help/mobile-maintenance" class="cur" aria-current="page">Mantenimiento</a></li>
 <li><a href="/es/help/mobile-livestock">Fauna</a></li>
-<li><a href="/es/help/mobile-journal">El diario</a></li>
 <li><a href="/es/help/mobile-activity">Actividad y línea de tiempo</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
-<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-reef-buddy">Reef Buddy</a></li>
-<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
+<li><a href="/es/help/mobile-assistant">Preguntar a Cora</a></li>
 <li><a href="/es/help/mobile-icp-health">ICP e informes de salud</a></li>
+<li><a href="/es/help/mobile-journeys">Itinerarios guiados</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Cuenta</summary><ul>
-<li><a href="/es/help/mobile-vacation">Irse de viaje</a></li>
+<summary>Ajustes y cuenta</summary><ul>
+<li><a href="/es/help/mobile-settings">Ajustes de Cora Mobile</a></li>
 <li><a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a></li>
-<li><a href="/es/help/mobile-data-export">Tus datos</a></li>
-<li><a href="/es/help/mobile-plans">Planes</a></li>
-<li><a href="/es/help/mobile-settings">Ajustes</a></li>
-<li><a href="/es/help/mobile-support">Obtener ayuda</a></li>
+<li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
+<li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
+<li><a href="/es/help/mobile-support">Informar de un problema</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Alertas y automatización</summary><ul>
+<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
+<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Registros</summary><ul>
 <li><a href="/es/help/max-records">Diario, fauna y mantenimiento</a></li>
+<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Inteligencia</summary><ul>
@@ -146,66 +162,55 @@
 <li><a href="/es/help/max-voice">Hablar con Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Alertas</summary><ul>
-<li><a href="/es/help/max-activity">Actividad en Cora Max</a></li>
-<li><a href="/es/help/max-alerts">Alertas en Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Ajustes</summary><ul>
+<summary>Ajustes y cuenta</summary><ul>
 <li><a href="/es/help/max-settings">Ajustes de Cora Max</a></li>
 <li><a href="/es/help/max-updates">Actualizaciones y recuperación</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatización</summary><ul>
-<li><a href="/es/help/max-automation">Escenas en Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Ayuda</p>
-<ul>
-<li><a href="/es/help/faq">Preguntas frecuentes</a></li>
-<li><a href="/es/help/troubleshooting">Solución de problemas</a></li>
-<li><a href="/es/help/glossary">Glosario</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="/es/help/">Ayuda</a></li><li><a href="/es/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/es/help/mobile-journal">Registros</a></li></ol></nav>
       <h1>Mantenimiento</h1>
-      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#el-resumen">El resumen</a></li><li><a href="#aadir-una-tarea">Añadir una tarea</a></li><li><a href="#tareas-que-cora-crea-por-ti">Tareas que Cora crea por ti</a></li><li><a href="#recordatorios">Recordatorios</a></li><li><a href="#marcar-una-tarea-como-hecha">Marcar una tarea como hecha</a></li><li><a href="#posponer">Posponer</a></li><li><a href="#pausar-una-tarea">Pausar una tarea</a></li><li><a href="#mantenimiento-y-diario">Mantenimiento y diario</a></li></ul></nav>
-<p>En Mantenimiento tienes las tareas periódicas del acuario y sus recordatorios. Se abre desde la fila de accesos directos, al final del panel.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: La lista de mantenimiento"><img src="/help/img/mobile-maintenance.webp" alt="La lista de mantenimiento" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>El cumplimiento, las tareas atrasadas y, en cada tarea, cuándo se hizo por última vez y cuándo toca la próxima.</figcaption></figure>
-<h2 id="el-resumen">El resumen</h2>
-<p>Arriba verás dos datos.</p>
-<ul><li><strong>Cumplimiento de mantenimiento</strong> es la parte de las tareas que ahora mismo están al día.</li><li><strong>Atrasadas</strong> es el número de tareas que ya han pasado su fecha.</li></ul>
-<p>Cada tarea tiene un color según su urgencia, que puede ser atrasada, próxima o programada. Todas muestran cuándo se hicieron por última vez y cuándo toca la próxima.</p>
-<h2 id="aadir-una-tarea">Añadir una tarea</h2>
-<p>Ponle un nombre y un icono, e indica cada cuántos días hay que hacerla. Cora calcula cuándo toca la próxima vez.</p>
-<p>Algunas tareas habituales:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Tarea</th><th>Cada</th></tr></thead><tbody><tr><td data-th="Tarea">Cambiar las mangas filtrantes</td><td data-th="Cada">3–7 días</td></tr><tr><td data-th="Tarea">Limpiar el vaso del skimmer</td><td data-th="Cada">7 días</td></tr><tr><td data-th="Tarea">Limpiar el cristal</td><td data-th="Cada">7 días</td></tr><tr><td data-th="Tarea">Cambiar el carbón o el GFO</td><td data-th="Cada">30 días</td></tr><tr><td data-th="Tarea">Revisar la bomba de retorno</td><td data-th="Cada">90–180 días</td></tr><tr><td data-th="Tarea">Calibrar las sondas</td><td data-th="Cada">30–90 días</td></tr></tbody></table></div>
-<h2 id="tareas-que-cora-crea-por-ti">Tareas que Cora crea por ti</h2>
-<p>Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea™, Cora añade por su cuenta el mantenimiento que ese equipo necesita, ya con el intervalo correcto. Verás aparecer tareas como estas:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Tarea</th><th>Cada</th></tr></thead><tbody><tr><td data-th="Dispositivo">ReefATO+</td><td data-th="Tarea">Replace ReefATO+ EC sensor</td><td data-th="Cada">42 días</td></tr><tr><td data-th="Dispositivo">ReefATO+</td><td data-th="Tarea">Replace ReefATO+ return pump</td><td data-th="Cada">135 días</td></tr><tr><td data-th="Dispositivo">ReefMat</td><td data-th="Tarea">Replace ReefMat carbon</td><td data-th="Cada">25 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Check ReefRun skimmer venturi</td><td data-th="Cada">35 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Replace ReefRun skimmer rotor</td><td data-th="Cada">135 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Calibrate ReefRun full-cup sensor</td><td data-th="Cada">28 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Calibrate ReefRun overskimming sensor</td><td data-th="Cada">28 días</td></tr><tr><td data-th="Dispositivo">ReefRun, por bomba</td><td data-th="Tarea">Service ReefRun pump motor</td><td data-th="Cada">135 días</td></tr><tr><td data-th="Dispositivo">ReefRun, por bomba</td><td data-th="Tarea">Clean ReefRun pump strainer</td><td data-th="Cada">42 días</td></tr><tr><td data-th="Dispositivo">ReefDose, por cabezal</td><td data-th="Tarea">Calibrate ReefDose head</td><td data-th="Cada">90 días</td></tr><tr><td data-th="Dispositivo">ReefDose, por cabezal</td><td data-th="Tarea">Replace ReefDose head tubing</td><td data-th="Cada">450 días</td></tr></tbody></table></div>
-<p>Funcionan igual que cualquier tarea que añadas tú: puedes renombrarlas, cambiar su intervalo, posponerlas o pausarlas. Si eliminas una, Cora no la vuelve a crear para ese dispositivo.</p>
-<h3 id="probar-el-agua">Probar el agua</h3>
-<p>Si tocas <strong>Recordarme probar cada semana</strong> en la tarjeta de la primera prueba, Cora añade una tarea semanal llamada <strong>Probar el agua</strong>, que vence el <strong>Día de la prueba</strong> que elijas. Funciona como cualquier tarea que añadas tú. Consulta <a href="/es/help/mobile-setup">Configurar Cora Mobile</a>.</p>
-<h3 id="desde-una-automatizacin">Desde una automatización</h3>
-<p>Una <a href="/es/help/mobile-automation">automatización</a> con la acción <strong>Crear una tarea de mantenimiento</strong> puede poner un trabajo en esta lista cuando se activa su regla, o hacer que una tarea existente venza ahora. Una tarea nueva es puntual, vence ahora y sale de la lista cuando la completas. Mientras siga abierta, la misma automatización no añade otra. Recibes una sola notificación.</p>
-<h2 id="recordatorios">Recordatorios</h2>
-<p>Cada tarea puede enviarte un recordatorio. Tú eliges cuándo llega.</p>
-<ul><li><strong>Cuántos días antes</strong> de la fecha</li><li><strong>A qué hora</strong> del día</li></ul>
-<p>Si prefieres ver una tarea solo en la lista, desactiva sus recordatorios.</p>
-<h2 id="marcar-una-tarea-como-hecha">Marcar una tarea como hecha</h2>
-<p>Toca <strong>Completar</strong> en la tarea o deslízala. Cora guarda cuándo la hiciste y programa la siguiente a partir de ese momento. Si la haces con tres días de retraso, la siguiente también se mueve tres días.</p>
-<aside class="cal cal-note"><p class="cal-t">Al tocar una tarea, se abre para editarla</p><p>Si tocas la fila, se abre la tarea y puedes cambiar su nombre, su intervalo o sus recordatorios. Para completarla, usa <strong>Completar</strong>.</p></aside>
-<h2 id="posponer">Posponer</h2>
-<p>Si ahora no puedes hacer una tarea, toca <strong>Posponer</strong>. Sigue en la lista, en gris y con el estado <strong>Postergada</strong>, y muestra su nueva fecha. No desaparece nada. Solo dejas de recibir avisos hasta ese día.</p>
-<aside class="cal cal-warning"><p class="cal-t">No marques como hecha una tarea que no hiciste</p><p>La próxima fecha se calcula a partir del día en que la completaste. Si marcas como hecha una tarea pendiente, se mueven todas las fechas siguientes. Mejor posponla.</p></aside>
-<h2 id="pausar-una-tarea">Pausar una tarea</h2>
-<p>Puedes desactivar una tarea, por ejemplo si has retirado ese equipo o si la tarea no toca en esta temporada. Se queda en la lista, deja de tener fecha y puedes volver a activarla cuando quieras.</p>
-<h2 id="mantenimiento-y-diario">Mantenimiento y diario</h2>
-<p>Completar una tarea no es lo mismo que escribir en el diario. Mantenimiento te dice qué toca hacer. El <strong><a href="/es/help/mobile-journal">diario</a></strong> recoge qué hiciste y qué pasó después. Si una tarea tuvo algo raro, como una bomba llena de arena o unas mangas negras después de un solo día, apúntalo también en el diario.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/es/help/mobile-dosing"><span>Anterior</span><b>Dosificación</b></a><a class="pn-n" href="/es/help/mobile-livestock"><span>Siguiente</span><b>Fauna</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-12.</p>
+      <p class="twin">En Cora Max: <a href="/es/help/max-records">Diario, fauna y mantenimiento</a></p>
+      <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#summary">El resumen</a></li><li><a href="#adding-a-task">Añadir una tarea</a></li><li><a href="#reminders">Recordatorios</a></li><li><a href="#marking-done">Marcar una tarea como hecha</a></li><li><a href="#editing">Editar una tarea</a></li><li><a href="#snoozing">Posponer</a></li></ul></nav>
+<p>Mantenimiento guarda las tareas que tu acuario necesita con regularidad, con un recordatorio para cada una.</p>
+<p>Toca <strong>Mantenimiento</strong> en la fila de botones que hay debajo del panel. También está en Ajustes → tu acuario → <strong>Mantenimiento</strong>.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: La lista de mantenimiento"><img src="/help/img/mobile-maintenance.webp" alt="La lista de mantenimiento" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>El cumplimiento, las tareas atrasadas y, en cada tarea, cuándo se hizo por última vez y cuándo toca la próxima.</figcaption></figure>
+<h2 id="summary">El resumen</h2>
+<p>Arriba verás el <strong>Cumplimiento de mantenimiento</strong>, la parte de las tareas que ahora mismo están al día, y cuántas tareas están atrasadas.</p>
+<p>Cada tarea de la lista tiene un color según esté atrasada, próxima o programada. También muestra cuándo la hiciste por última vez y cuándo toca la próxima.</p>
+<h2 id="adding-a-task">Añadir una tarea</h2>
+<p>Toca <strong>Agregar tarea</strong> y elige:</p>
+<ul><li><strong>Desde plantilla</strong> para una tarea habitual con su intervalo ya puesto. Elígela, indica cuándo toca la próxima vez y a qué hora quieres el recordatorio, y toca <strong>Confirmar</strong>.</li><li><strong>Tarea personalizada</strong> para una tuya. Ponle un <strong>Nombre de la tarea</strong>, un <strong>Intervalo (días)</strong>, una <strong>Categoría</strong> y una <strong>Próxima fecha de vencimiento</strong>. Activa <strong>Recordatorio</strong> y elige <strong>Recordarme a las</strong> si quieres una notificación.</li></ul>
+<p>Algunas de las plantillas, con el intervalo con el que empiezan:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Tarea</th><th>Intervalo</th></tr></thead><tbody><tr><td data-th="Tarea">Cambiar mangas filtrantes</td><td data-th="Intervalo">3 días</td></tr><tr><td data-th="Tarea">Limpiar el vaso del skimmer</td><td data-th="Intervalo">7 días</td></tr><tr><td data-th="Tarea">Cambio de agua</td><td data-th="Intervalo">7 días</td></tr><tr><td data-th="Tarea">Probar parámetros del agua</td><td data-th="Intervalo">7 días</td></tr><tr><td data-th="Tarea">Reemplazar carbón</td><td data-th="Intervalo">30 días</td></tr><tr><td data-th="Tarea">Calibrar sonda de pH</td><td data-th="Intervalo">30 días</td></tr><tr><td data-th="Tarea">Limpiar bombas de circulación</td><td data-th="Intervalo">90 días</td></tr><tr><td data-th="Tarea">Subir resultados de ICP</td><td data-th="Intervalo">90 días</td></tr></tbody></table></div>
+<p>Puedes cambiar el intervalo de cualquier tarea más adelante.</p>
+<h3 id="red-sea-tasks">Tareas que Cora añade para los equipos Red Sea™</h3>
+<p>Cuando conectas un ReefDose, un ReefATO+, un ReefMat o un ReefRun de Red Sea, Cora añade el mantenimiento que ese equipo necesita, ya con el intervalo correcto:</p>
+<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Tarea</th><th>Intervalo</th></tr></thead><tbody><tr><td data-th="Dispositivo">ReefATO+</td><td data-th="Tarea">Replace ReefATO+ EC sensor</td><td data-th="Intervalo">42 días</td></tr><tr><td data-th="Dispositivo">ReefATO+</td><td data-th="Tarea">Replace ReefATO+ return pump</td><td data-th="Intervalo">135 días</td></tr><tr><td data-th="Dispositivo">ReefMat</td><td data-th="Tarea">Replace ReefMat carbon</td><td data-th="Intervalo">25 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Check ReefRun skimmer venturi</td><td data-th="Intervalo">35 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Replace ReefRun skimmer rotor</td><td data-th="Intervalo">135 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Calibrate ReefRun full-cup sensor</td><td data-th="Intervalo">28 días</td></tr><tr><td data-th="Dispositivo">ReefRun</td><td data-th="Tarea">Calibrate ReefRun overskimming sensor</td><td data-th="Intervalo">28 días</td></tr><tr><td data-th="Dispositivo">ReefRun, por bomba</td><td data-th="Tarea">Service ReefRun pump motor</td><td data-th="Intervalo">135 días</td></tr><tr><td data-th="Dispositivo">ReefRun, por bomba</td><td data-th="Tarea">Clean ReefRun pump strainer</td><td data-th="Intervalo">42 días</td></tr><tr><td data-th="Dispositivo">ReefDose, por cabezal</td><td data-th="Tarea">Calibrate ReefDose head</td><td data-th="Intervalo">90 días</td></tr><tr><td data-th="Dispositivo">ReefDose, por cabezal</td><td data-th="Tarea">Replace ReefDose head tubing</td><td data-th="Intervalo">450 días</td></tr></tbody></table></div>
+<p>Funcionan igual que cualquier tarea que añadas tú. Puedes cambiarles el nombre, cambiar el intervalo, posponerlas o eliminarlas. Si eliminas una, Cora no la vuelve a añadir para ese dispositivo.</p>
+<h3 id="test-water">Probar el agua</h3>
+<p>Si tocas <strong>Recordarme probar cada semana</strong> en la tarjeta de la primera prueba, Cora añade una tarea semanal llamada <strong>Probar el agua</strong>, que vence el <strong>Día de la prueba</strong> que elijas. Funciona como cualquier otra tarea. Consulta <a href="/es/help/mobile-setup">Configurar Cora Mobile</a>. También puedes añadir un recordatorio de pruebas en cualquier momento con la plantilla <strong>Probar parámetros del agua</strong>.</p>
+<h3 id="from-an-automation">Desde una automatización</h3>
+<p>Una <a href="/es/help/mobile-automation">automatización</a> con la acción <strong>Crear una tarea de mantenimiento</strong> puede poner una tarea en esta lista cuando se activa su regla, o hacer que una tarea existente venza ahora. Una tarea nueva es una <strong>Tarea única</strong>, vence ahora y muestra <em>Creada por una automatización</em> con el motivo. Sale de la lista cuando la completas. Mientras siga abierta, la misma automatización no añade otra. Recibes una sola notificación.</p>
+<h2 id="reminders">Recordatorios</h2>
+<p>Abre una tarea, activa <strong>Recordatorio</strong> y elige <strong>Recordarme a las</strong>. Recibes una notificación el día antes de que venza y otra ese mismo día. Mientras está atrasada, recibes un recordatorio cada pocos días. Si varias tareas de un acuario vencen a la vez, llegan en una sola notificación.</p>
+<p>Los recordatorios están en <strong>Recordatorios de mantenimiento</strong>, en <a href="/es/help/mobile-notifications">Ajustes → Notificaciones</a>. Si prefieres ver una tarea solo en la lista, desactiva su <strong>Recordatorio</strong>.</p>
+<h2 id="marking-done">Marcar una tarea como hecha</h2>
+<p>Desliza la tarea hacia la derecha, o ábrela y toca <strong>Completar</strong>. Si la deslizaste por error, toca <strong>Deshacer</strong> en el mensaje que aparece.</p>
+<p>Cora guarda la hora en que la terminaste y cuenta la próxima fecha a partir de ahí. Así que si haces una tarea con tres días de retraso, la siguiente también se mueve tres días.</p>
+<p>La hoja de la tarea muestra su <strong>Historial de finalizaciones</strong>, incluido el retraso de cada una.</p>
+<aside class="cal cal-note"><p class="cal-t">Completar una tarea también escribe una entrada en el diario</p><p>Cora añade por ti una entrada breve a tu <a href="/es/help/mobile-journal">diario</a>, indicando si fue con retraso. Añade tu propia entrada cuando haya algo más que contar, por ejemplo si la bomba estaba llena de arena o las mangas estaban negras después de un solo día.</p></aside>
+<h2 id="editing">Editar una tarea</h2>
+<p>Toca una tarea para abrirla. Puedes cambiar el <strong>Nombre de la tarea</strong>, el <strong>Intervalo (días)</strong>, las <strong>Notas (opcional)</strong>, la <strong>Próxima fecha de vencimiento</strong> y el recordatorio, y después tocar <strong>Guardar</strong>. <strong>Eliminar</strong> la borra.</p>
+<h2 id="snoozing">Posponer</h2>
+<p>¿No puedes hacer una tarea ahora? Ábrela, toca <strong>Posponer</strong> y elige <strong>1 día</strong>, <strong>3 días</strong>, <strong>1 semana</strong>, <strong>2 semanas</strong> o <strong>1 mes</strong>. Sigue en la lista como <strong>Pospuesta</strong> con su nueva fecha, y no recibes recordatorios hasta entonces.</p>
+<aside class="cal cal-warning"><p class="cal-t">Marca una tarea como hecha solo cuando la hayas hecho</p><p>La próxima fecha se cuenta a partir del día en que la marcas como hecha. Si marcas como hecha una tarea pendiente, se mueven todas las fechas siguientes. Mejor posponla.</p></aside>
+<p>No hay forma de pausar una tarea. Para una tarea que no toca en esta temporada, posponla <strong>1 mes</strong>, o elimínala y vuelve a añadirla más adelante.</p>
+      <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-dosing"><span>Anterior</span><b>Productos de dosificación y la calculadora de dosis</b></a><a class="pn-n" href="/es/help/mobile-livestock"><span>Siguiente</span><b>Fauna</b></a></nav>
+      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -322,10 +327,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Captura de pantalla");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Cerrar"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -346,55 +351,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Sin resultados para \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Sin resultados para \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Prueba con menos palabras o con otras distintas, o ve a:</p><ul><li><a href=\"/es/help/troubleshooting\">Soluci\u00f3n de problemas</a></li><li><a href=\"/es/help/how-do-i\">\u00bfC\u00f3mo hago...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contactar con soporte</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -426,9 +598,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/es/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';
       });

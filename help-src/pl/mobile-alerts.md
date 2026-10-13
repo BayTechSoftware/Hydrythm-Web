@@ -1,146 +1,170 @@
 ---
 title: Alerty i progi
-description: Ustaw zakres dla każdego parametru, wybierz, o czym chcesz wiedzieć, i sprawdź, dlaczego pojawił się alert.
+description: Ustaw prawidłowy zakres dla każdego odczytu, wybierz, jak często alert może Cię powiadamiać, i sprawdź, dlaczego urządzenie „przestało raportować”.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 15
+order: 20
 group: Alerts and automation
+twin: max-alerts
 ---
 
-Alert pojawia się, gdy odczyt wyjdzie poza ustawiony zakres. Zakresy ustawiasz Ty i Ty decydujesz, które alerty trafiają na telefon.
+Dostajesz alert, gdy odczyt wyjdzie poza zakres, który dla niego ustawiono. Ta strona opisuje ustawianie tych zakresów, to, co dzieje się, gdy alert się pojawi, i jak długo Cora czeka, zanim powie, że urządzenie przestało raportować.
 
-**Centrum alertów** otworzysz z rzędu skrótów na dole pulpitu.
+Żeby otworzyć **Centrum alertów**, dotknij **Alerty** w rzędzie przycisków pod pulpitem. Znajdziesz je też w Ustawieniach → Twoje akwarium → **Progi alertów**.
 
-![Centrum alertów](img/mobile-alerts.webp "Aktywne alerty z poziomem ważności, przyczyną i czasem.")
+![Zakładka Aktywne w Centrum alertów w Cora Mobile](img/mobile-alerts.webp "Aktywne alerty, każdy z ważnością, przyczyną i czasem, oraz Wyświetl regułę i Wyjaśnij ten alert.")
 
-## Centrum alertów
+## Centrum alertów {#alert-center}
 
-Są tu dwie zakładki:
+Ma dwie zakładki. **Aktywne** wymienia alerty, które trwają teraz, z licznikiem na plakietce. **Reguły** zawiera reguły, które je wywołują.
 
-- **Aktywne**: alerty, które trwają teraz, z licznikiem na plakietce
-- **Reguły**: progi i reguły tempa zmiany, z których te alerty się biorą
+Każdy aktywny alert pokazuje parametr i akwarium, odczyt, który go wywołał, krótkie wyjaśnienie, chip ważności, rodzaj reguły, która zadziałała (**Próg** albo **Tempo zmiany**), i czas. Ma dwa przyciski:
 
-Przy każdym aktywnym alercie widać parametr i akwarium, odczyt, który go wywołał, krótkie wyjaśnienie, poziom ważności, rodzaj reguły (**Próg** albo **Tempo zmiany**) i godzinę.
+- **Wyświetl regułę** otwiera regułę, która za nim stoi, żeby poprawić zakres. Przy alercie dozownika, na przykład gdy w głowicy DŌS albo ReefDose kończy się płyn albo pominięto dawkę, ten przycisk to **Otwórz dozownik**. Otwiera stronę tego dozownika z jego alertami.
+- **Wyjaśnij ten alert** otwiera Cora Assistant z gotowym do wysłania pytaniem o alert. Sprawdź je, zmień, jeśli chcesz, i wyślij.
 
-Każdy alert ma dwa przyciski:
+## Zakładka Reguły {#rules}
 
-- **Wyświetl regułę** otwiera regułę, która go wywołała. Tam możesz poprawić zakres. Przy alercie dozownika, na przykład gdy w głowicy DŌS albo ReefDose kończy się płyn albo pominięto dawkę, jest tu zamiast niego przycisk **Otwórz dozownik**. Otwiera stronę tego dozownika z jego alertami.
-- **Wyjaśnij ten alert** prosi Asystenta, żeby ocenił alert na tle historii Twojego akwarium.
+![Zakładka Reguły](img/mobile-alert-rules.webp "Reguły pogrupowane według parametru, każda z własnym przełącznikiem.")
 
-## Zakładka Reguły
+Reguły są pogrupowane według parametru. Każda ma własny przełącznik w swoim wierszu, więc możesz ją wyłączyć bez otwierania. Wiersz pokazuje też **Aktywny teraz**, gdy jej alert trwa, albo kiedy ostatnio zadziałała (albo **Nigdy nie zadziałał**).
 
-Reguły są pogrupowane według parametru. Każda reguła ma własny przełącznik w swoim wierszu, więc możesz ją wyłączyć bez otwierania. Dotknij wiersza, żeby zmienić zakres albo czas wstrzymania.
+Reguły głowicy dozującej mają nazwę od głowicy i tego, co obserwują, na przykład *Jod · pozostałe dni* albo *Jod · pozostało*. Pominięta dawka pojawia się jako *Jod · pominięta dawka*. Każdy DŌS i każdy ReefDose ma tu jeden własny wiersz, a alerty jego głowic nie są wymieniane osobno. Dotknij wiersza, żeby otworzyć stronę tego dozownika. Zobacz [Alerty dozownika](/help/mobile-device-control#doser-alerts).
 
-Reguły głowicy dozującej mają w nazwie głowicę i to, co obserwują, na przykład *Jod · pozostałe dni* albo *Jod · pozostało*. Pominięta dawka pojawia się jako *Jod · pominięta dawka*.
+Na dole:
 
-Każdy DŌS i każdy ReefDose ma tu jeden własny wiersz. Alerty jego głowic nie są wymienione osobno. Dotknij wiersza, żeby otworzyć stronę dozownika z jego alertami. Zobacz [Alerty dozowników](/help/mobile-device-control#doser-alerts).
+- **Dodaj zalecane reguły** dodaje brakujące reguły zalecane przez Corę. Pomija parametr, który ma już regułę. W akwarium bez żadnych reguł ten przycisk to **Dodaj domyślne reguły**.
+- **Dodaj własną regułę** tworzy Twoją własną regułę. Wybierz parametr i **Typ reguły**, **Próg** albo **Tempo zmiany**. Przycisk **Dodaj regułę** w prawym dolnym rogu robi to samo.
 
-Jeśli brakuje części reguł zalecanych przez Corę, **Dodaj zalecane reguły** na dole je doda. Pomija parametry, które mają już regułę. **Dodaj własną regułę** ustawia Twoją własną regułę.
+### Edytowanie reguły {#editing-a-rule}
 
-## Ustawianie zakresu
+Dotknij wiersza reguły, żeby ją otworzyć. Znajdziesz tam:
 
-Parametry, które Cora potrafi ocenić, mają zakres docelowy. Wartości domyślne wynikają z typu i wieku akwarium podanych przy konfiguracji i zwykle są rozsądnym punktem wyjścia. Parametr bez sensownego zakresu nie jest oceniany. Zostaje szary, a Cora niczego nie zgaduje.
+- **Minimum alertu** i **Maksimum alertu**, czyli sam zakres. Zostaw jedno puste, żeby ustawić tylko górną albo dolną granicę.
+- **Polecane**, które przywraca zakres sugerowany przez Corę.
+- **Zakres wskaźnika (wyświetlacz Cora)**, z **Min. wskaźnika** i **Maks. wskaźnika**. Ustalają tylko skalę wskaźnika na Cora Max. Nigdy nie wywołują alertu.
+- **Czas wstrzymania między alertami**, opisany [niżej](#cooldowns).
+- **Włączone** i przycisk usuwania.
 
-Żeby zmienić zakres, **przytrzymaj widżet** parametru na pulpicie. Od razu otworzą się jego progi. Zwykłe dotknięcie otwiera widok parametru, więc warto zapamiętać to przytrzymanie.
+Reguła usterki urządzenia, na przykład Tridenta bez odczynnika, nie ma zakresu. Wybierasz tylko jej czas wstrzymania.
 
-Jeśli parametr nie ma jeszcze reguły, pola pokazują wartości domyślne Cora i informuje o tym notatka pod nimi. Zmień dowolną wartość, a ustawisz własną.
+## Ustawianie zakresu {#setting-a-range}
 
-Wszystkie zakresy naraz zobaczysz pod przyciskiem **Alerty** w rzędzie pod pulpitem.
+Parametry, które Cora potrafi ocenić, mają zakres docelowy. Wartości domyślne pochodzą z typu i wieku akwarium podanych przy konfiguracji i są rozsądnym początkiem. Jeśli parametr nie ma przydatnego zakresu, Cora go nie ocenia, a jego widżet zostaje neutralnie szary.
+
+Najszybciej zmienisz zakres, przytrzymując widżet parametru na pulpicie. Otworzą się jego progi. Zwykłe dotknięcie otwiera zamiast tego widok parametru.
+
+![Arkusz edycji progu pH w Cora Mobile](img/mobile-threshold-sheet.webp "Minimum i maksimum alertu, zakres wskaźnika dla Cora Max i czas wstrzymania między alertami.")
+
+Jeśli parametr nie ma jeszcze reguły, pola zaczynają od wartości domyślnych Cory, a notatka pod nimi o tym mówi. Zmień dowolną wartość, żeby ustawić własną.
 
 Możesz ustawić:
 
-- **Zakres**, czyli dolną i górną granicę, np. dla alkaliczności albo temperatury
-- **Górną granicę**, gdy niska wartość nie szkodzi, np. dla azotanów czy fosforanów
-- **Dolną granicę**, jeśli liczy się tylko minimum
+- zakres, z dolną i górną granicą, dla takich rzeczy jak alkaliczność albo temperatura
+- górną granicę, tylko z maksimum, dla rzeczy, przy których niska wartość nie szkodzi, jak azotany albo fosforany
+- dolną granicę, tylko z minimum
 
-:::tip Ustaw zakres, w którym naprawdę trzymasz akwarium
-Wartości domyślne to punkt wyjścia, a nie wyrok. Akwarium z niską zawartością składników odżywczych na 6 dKH nie jest „złe” tylko dlatego, że tabela podaje 8–9. Ustaw zakres, w którym naprawdę pracujesz, a Cora da znać, gdy zaczniesz z niego wychodzić.
+:::tip Ustaw zakres, w którym naprawdę pracuje Twoje akwarium
+Wartości domyślne to tylko punkt wyjścia. Akwarium z niską zawartością składników odżywczych na 6 dKH nie jest „złe” dlatego, że tabela podaje 8–9. Ustaw zakres, w którym pracujesz, a Cora powie Ci, gdy *Ty* zaczniesz dryfować.
 :::
 
-## Kiedy pojawia się alert
+## Co wywołuje alert {#what-triggers-an-alert}
 
-Alert pojawia się, gdy odczyt przekroczy próg. Cora sprawdza każdy odczyt od razu po nadejściu, więc wystarczy jeden odczyt spoza zakresu.
+Alert pojawia się, gdy odczyt przekroczy próg. Cora sprawdza każdy odczyt, gdy tylko nadejdzie, więc wystarczy jeden odczyt poza zakresem.
 
-Gdy alert już trwa, Cora nie powiadamia Cię o nim w kółko. Zanim alert znów się odezwie, musi minąć czas wstrzymania. Alert **znika sam**, gdy tylko odczyt wróci do zakresu. Nie trzeba niczego potwierdzać.
+Reguła tempa zmiany obserwuje, jak szybko zmienia się parametr, a nie gdzie jest. Używaj jej, gdy szybkość zmiany jest ważniejsza niż sama liczba.
 
-Możesz też ustawić regułę **tempa zmiany**. Sprawdza ona, jak szybko zmienia się parametr, a nie gdzie jest teraz. Przydaje się tam, gdzie liczy się tempo zmiany bardziej niż sama wartość.
+Gdy alert już trwa, nie będzie Cię ciągle powiadamiać o tym samym. [Czas wstrzymania](#cooldowns) reguły decyduje, kiedy może powiadomić Cię ponownie.
 
-## Gdzie widać alerty
+## Gdzie pojawiają się alerty
 
-- **Dzwonek** w prawym górnym rogu każdego ekranu przechowuje historię. Liczba przy nim to alerty, których jeszcze nie przeczytano.
-- **Powiadomienia push** przychodzą na telefon, jeśli na nie pozwolisz.
-- **Widżet** na pulpicie zmienia kolor na bursztynowy albo czerwony.
-- **Cora Max** pokazuje te same alerty na dużym ekranie.
+- Dzwonek w prawym górnym rogu głównych zakładek przechowuje historię. Liczba pokazuje, ilu jeszcze nie przeczytano. Więcej w [Powiadomieniach](/help/mobile-notifications).
+- Powiadomienie push trafia na telefon, jeśli ta kategoria jest włączona.
+- Widżet na pulpicie robi się bursztynowy albo czerwony.
+- Cora Max pokazuje te same alerty na swoim ekranie.
 
-## Gdy sprzęt wymaga uwagi
+## Gdy sprzęt wymaga uwagi {#equipment-faults}
 
-Część alertów dotyczy sprzętu, a nie odczytu. Gdy urządzenie, np. Trident albo pompa Jecod, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, np. *„Akwarium główne: Pompa powrotna wymaga uwagi”*, i podaje, co się stało, np. zablokowany wirnik. Gdy usterka minie, przychodzi drugie powiadomienie: *„Akwarium główne: Pompa powrotna znów działa poprawnie”*. Oba należą do kategorii **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
+Niektóre alerty dotyczą sprzętu, a nie odczytu. Gdy urządzenie, na przykład Trident albo pompa Jecod, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, na przykład *„Akwarium główne: Pompa powrotna wymaga uwagi”*. Podaje też, co jest nie tak, na przykład zablokowany wirnik. Gdy usterka minie, dostaniesz drugie: *„Akwarium główne: Pompa powrotna znów działa poprawnie”*. Oba należą do **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
 
-Gyre Maxspect (Beta) może wywołać ten sam alert, gdy Cora Max w jego sieci wykryje obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza gyre co jakiś czas, nie bez przerwy. Robi to tylko wtedy, gdy działa i ma połączenie z gyre.
+Maxspect Gyre (Beta) może wywołać ten sam alert. Dzieje się tak, gdy Cora Max w jego sieci znajdzie obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od Gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza tylko od czasu do czasu i tylko wtedy, gdy działa i może połączyć się z Gyre.
 
-## Urządzenie przestało się zgłaszać
+## Urządzenie przestało raportować {#stopped-reporting}
 
-Gdy Neptune Apex, urządzenie Red Sea ReefBeat, AquaWiz, pompa Jecod, gyre Maxspect, urządzenie EcoTech albo monitor powietrza w pomieszczeniu Inkbird ucichną, Cora informuje o tym: *„[Urządzenie]: przestało się zgłaszać”*. Sprawdź zasilanie urządzenia, jego Wi-Fi (albo zasięg Bluetooth) oraz to, czy Cora Max, który je odczytuje, jest włączony. Gdy urządzenie znów zacznie się zgłaszać, przychodzi drugie powiadomienie.
+Gdy podłączone urządzenie ucichnie, Cora wysyła *„[Urządzenie]: przestał raportować”*. Nie oznacza to, że urządzenie jest zepsute, tylko że Cora od jakiegoś czasu nic od niego nie dostała. Gdy wróci, dostaniesz drugie powiadomienie, *„[Urządzenie]: znów raportuje”*.
 
-Jak długo Cora czeka, zależy od urządzenia.
+Jak długo Cora czeka, zależy od urządzenia:
 
-- Neptune Apex i Red Sea ReefBeat: około 30 minut bez aktualizacji.
-- AquaWiz: około 3 godzin, bo odpytuje rzadziej.
-- Jecod i Maxspect: trzy brakujące odczyty z rzędu, liczone według własnego interwału odczytu urządzenia.
-- EcoTech i Inkbird: trzy brakujące odczyty z rzędu, liczone według interwału, który ustawiasz dla tej sieci albo tego monitora.
+| Urządzenie | Cora czeka |
+|---|---|
+| Neptune Apex | Około 30 minut bez aktualizacji |
+| Red Sea ReefBeat | Około 30 minut |
+| AquaWiz | Około 3 godzin, bo raportuje rzadziej |
+| Pompy Jecod | Trzy brakujące odczyty z rzędu, według interwału odczytu pompy (90 minut przy domyślnych 30) |
+| Maxspect (Beta) | Trzy brakujące odczyty z rzędu, tak jak Jecod |
+| EcoTech (Beta) | Trzy brakujące odczyty z rzędu, według interwału odczytu sieci (90 minut przy domyślnych 30). Jeśli ustawisz dłuższy czas w **Światło przestaje odpowiadać**, Cora czeka tak długo |
+| Monitor powietrza w pomieszczeniu Inkbird (Beta) | Trzy brakujące odczyty z rzędu, według własnego interwału monitora (15 minut przy domyślnych 5) |
+| Focustronic (Beta) | Około 3 godzin |
+| GHL (Beta) | Około 15 minut. Powiadomienie mówi *„kontroler GHL nieosiągalny”* |
+| HYDROS (Beta) | Około 30 minut. Powiadomienie mówi *„kontroler HYDROS nie odpowiada”* |
 
-Maxspect, EcoTech i Inkbird to integracje Beta, które mogą dodawać tylko użytkownicy Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
+Co sprawdzić, zależy od tego, jak Cora odczytuje urządzenie.
 
-Alert ten należy do kategorii **Awarie sprzętu** w **Ustawienia → Powiadomienia**, razem z alertami usterek opisanymi wyżej.
+- Apex, ReefBeat, Jecod, Maxspect i GHL odczytuje Cora Max przez Wi-Fi. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony i online.
+- EcoTech i Inkbird odczytuje Cora Max przez Bluetooth. Sprawdź zasilanie, to, czy urządzenie jest w zasięgu Bluetooth Cora Max, i czy Cora Max jest włączony.
+- AquaWiz i Focustronic są odczytywane przez Twoje konto u producenta. Sprawdź połączenie z kontem na stronie urządzenia w Cora Mobile.
+- Przy HYDROS sprawdź zasilanie, Wi-Fi i klucz urządzenia.
 
-## „Odczyty Red Sea przestały się aktualizować”
+GHL może też powiedzieć *„API GHL jest wyłączone”* albo że kontroler *„odrzucił połączenie”*. Jeśli Cora Max, który odczytuje kontroler GHL, ucichnie, dostaniesz *„Cora Max nie raportuje dla”* tego kontrolera. Rozwiązania są w [Rozwiązywaniu problemów](/help/troubleshooting).
 
-Na stronie parametru akwarium może pojawić się taki baner:
+Te powiadomienia należą do **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
 
-> Odczyty Red Sea przestały się aktualizować. Żadne urządzenie nie odczytuje teraz urządzeń Red Sea tego akwarium: sprawdź główny Cora Max w Ustawieniach albo otwórz to akwarium na urządzeniu w tej samej sieci Wi-Fi.
-
-Oznacza to, że żaden telefon ani Cora Max nie odpytuje teraz sprzętu ReefBeat tego akwarium. Widoczne odczyty są więc stare, ale niekoniecznie błędne. Dotknij banera, żeby otworzyć **Główne Cora Max**. Wybierz tam urządzenie, które jest włączone, albo ustaw **Każde aktywne (automatycznie)**. Szczegóły są na stronie [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Jeśli baner nie znika, zajrzyj do [Rozwiązywania problemów](/help/troubleshooting).
-
-## Co ma do Ciebie docierać
-
-W **Ustawienia → Powiadomienia** wybierasz:
-
-- które kategorie powiadomień mogą wysyłać push
-
-Reef Buddy nie ma osobnego przełącznika. Wysyła briefing, gdy jest coś do zrobienia, a gdy nie ma, milczy.
-
-:::note Cora z założenia nie przeszkadza
-Codzienny briefing to jedno powiadomienie push na akwarium dziennie. W dzień, w którym nic nie wymaga uwagi, zwykle w ogóle się nie pojawia i nie pisze, że wszystko jest w porządku. Jeśli Cora wysyła powiadomienie, coś się zmieniło.
+:::note Beta
+Maxspect, EcoTech, Inkbird, Focustronic, GHL i HYDROS są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
 :::
 
-## Czas wstrzymania: jak często ten sam alert może powiadamiać
+Akwarium Red Sea może też pokazać baner *„Odczyty Red Sea przestały się aktualizować”*, gdy żaden telefon ani Cora Max nie odczytuje jego sprzętu ReefBeat. Dotknij go, żeby wybrać **Główne Cora Max**. Pełne rozwiązanie jest w [Rozwiązywaniu problemów](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 
-Każda reguła ma własny **Czas wstrzymania między alertami**. Ustawiasz go przy dodawaniu albo edycji reguły, w zakładce **Reguły** w Centrum alertów. Czas wstrzymania nie ukrywa alertu. Ogranicza tylko to, jak często Cora wysyła o nim push. Odczyt nadal jest oceniany, a alert przez cały czas widać na widżecie i pod dzwonkiem.
+## Co do Ciebie dociera {#choosing-what-reaches-you}
 
-Do wyboru jest 15 min, 30 min, 1 godz., 2 godz., 4 godz., 8 godz., 1 dzień, 3 dni i **1 tydzień**.
+W **Ustawienia → Powiadomienia** wybierasz, które kategorie mogą wysyłać Ci powiadomienia. Zobacz [Powiadomienia](/help/mobile-notifications), gdzie opisano też [ciszę w nocy](/help/mobile-notifications#quiet-at-night).
 
-Krótki czas pasuje do odczytu, który zmienia się szybko, np. temperatury. Długi, aż do tygodnia, pasuje do problemu, który trwa dniami, gdy czekasz na część. Tak jest na przykład z Tridentem bez odczynnika albo z pustym pojemnikiem pompy dozującej. Bez długiego czasu wstrzymania Cora wysyłałaby push o tym samym znanym problemie kilka razy dziennie.
+Reef Buddy nie ma własnego przełącznika. Jego porę ustala wiersz **Godzina podsumowania**, tuż pod Powiadomieniami w Ustawieniach. W planie darmowym nie ma powiadomienia o podsumowaniu.
 
-:::note Aktywny alert wyciszysz na Cora Max
-Cora Mobile nie ma przycisku odkładania przy aktywnym alercie. Ten przycisk jest na ekranie Cora Max przy akwarium i wycisza alert na czas wstrzymania ustawiony tutaj. Na telefonie o tym, jak często słyszysz o danym problemie, decyduje czas wstrzymania reguły.
+:::note Cora milczy, chyba że coś się zmieniło
+Codzienne podsumowanie to jedno powiadomienie na akwarium dziennie. W dzień, w którym nic Cię nie potrzebuje, zwykle milczy, zamiast mówić, że wszystko w porządku. Jeśli Cora wysyła powiadomienie, coś się zmieniło.
 :::
 
-## Kiedy alert znika
+## Czasy wstrzymania: jak często ten sam alert może Cię powiadamiać {#cooldowns}
 
-Alert znika, gdy odczyt wróci do zakresu. Nie trzeba go zamykać. To informacja o stanie akwarium, a nie zadanie do odhaczenia.
+Każda reguła ma własny **Czas wstrzymania między alertami**. Ustawiasz go przy dodawaniu albo edycji reguły. Reguła, która nigdy go nie miała, używa 1 h.
 
-:::note Chwilowe skoki też wywołują alerty
-Wystarczy jeden odczyt spoza zakresu, więc skok sondy też wywoła alert. Jeśli źródło jest niepewne, skalibruj je albo przełącz widżet na inne źródło. Nie poszerzaj progu.
+Czas wstrzymania nie ukrywa alertu. Ogranicza tylko to, jak często Cora wysyła o nim powiadomienie. Odczyt jest nadal oceniany, a alert przez cały czas widać na widżecie i pod dzwonkiem.
+
+Możesz wybrać 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 dzień, 3 dni albo 1 tydzień.
+
+Krótki czas pasuje do szybko zmieniającego się odczytu, takiego jak temperatura. Długi, do tygodnia, pasuje do czegoś, co pozostaje złe przez dni, gdy czekasz na część, na przykład Tridenta bez odczynnika albo pustego pojemnika dozującego.
+
+:::note Odłóż jest na Cora Max
+Cora Mobile nie ma przycisku Odłóż przy aktywnym alercie. Odłóż jest na ekranie Cora Max przy akwarium i wycisza alert na czas wstrzymania wybrany tutaj. W telefonie to czas wstrzymania reguły decyduje, jak często słyszysz o danej sprawie.
 :::
 
-Jeśli błędny jest odczyt, a nie stan akwarium (np. sonda wymaga kalibracji), napraw źródło. Szerszy próg uciszy wadliwą sondę, ale ukryje też następny prawdziwy problem.
+## Znikanie alertu {#clearing-an-alert}
 
-## Wyłączanie alertu
+Alert znika sam, gdy odczyt wróci do zakresu. Nie ma czego zamykać. Dostajesz wtedy jedno powiadomienie, na przykład *„Akwarium główne: Wapń wrócił do normy”*. Jeśli problem wróci później, dostaniesz nowy alert.
 
-Wyłącz przełącznik w wierszu reguły w zakładce **Reguły** w Centrum alertów. Reguła i zakres zostają zapisane, więc możesz ją później włączyć bez ustawiania od nowa.
+:::note Krótkie skoki też wywołują alerty
+Do wywołania alertu wystarczy jeden odczyt poza zakresem, więc sonda, która skacze, go wywoła. Jeśli źródło jest niepewne, skalibruj je albo skieruj widżet na inne źródło. Nie poszerzaj progu.
+:::
 
-Dopóki reguła jest wyłączona, Cora nie ocenia tego odczytu. Jej widżet zostaje neutralnie szary i nigdy nie wywoła alertu.
+Czasem błędny jest odczyt, a akwarium jest w porządku, na przykład gdy sonda wymaga kalibracji. W takim przypadku napraw źródło. Jeśli poszerzysz próg, żeby uciszyć złą sondę, przegapisz też następny prawdziwy problem.
 
-:::warning Wycisz parametr, ale nie usuwaj zakresu
-Usunięcie progu nie zawsze kończy ocenę odczytu. Domyślne zakresy odniesienia nadal nadają wartości kolor i mogą trafiać do briefingu. Użyj przełącznika reguły.
+## Wyłączanie alertu {#turning-an-alert-off}
+
+Wyłącz przełącznik w wierszu reguły w zakładce **Reguły**. Cora zachowuje regułę i jej zakres, więc możesz ją włączyć ponownie bez ustawiania od nowa.
+
+Dopóki reguła jest wyłączona, Cora nie ocenia tego odczytu. Jego widżet zostaje neutralnie szary i nigdy nie wywoła alertu.
+
+:::warning Wyłącz parametr bez usuwania zakresu
+Usunięcie reguły nie zawsze sprawia, że Cora przestaje oceniać ten odczyt. Domyślne zakresy odniesienia nadal kolorują wartość i mogą trafiać do podsumowania. Użyj przełącznika reguły.
 :::

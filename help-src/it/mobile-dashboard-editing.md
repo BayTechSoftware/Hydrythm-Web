@@ -1,106 +1,84 @@
 ---
 title: Modificare la dashboard
-description: Scegli il numero di colonne, aggiungi e sposta i widget, cambia la dimensione dei riquadri e salva layout da riusare su altre vasche.
+description: Aggiungi, sposta, ridimensiona e rimuovi i widget sulla dashboard del telefono, imposta il numero di colonne e modifica dal telefono la dashboard di un Cora Max.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 6
+order: 8
 group: Your dashboard
+twin: max-dashboard-editing
 ---
 
-Con l'editor della dashboard decidi quali widget compaiono sulla dashboard di una vasca e come sono disposti.
+L'editor della dashboard decide quali widget compaiono sulla dashboard di una vasca e come sono disposti. Ogni vasca ha il suo layout, che segue il tuo account su qualsiasi telefono con cui accedi.
 
-## Aprire l'editor
+## Aprire l'editor {#opening-the-editor}
 
-Scorri in fondo alla dashboard e tocca **Modifica dashboard**.
+Scorri la dashboard verso il basso e tocca **Modifica dashboard**, subito sotto i widget. L'editor si apre come **Modifica dashboard**, con il suggerimento **Tocca a lungo un riquadro per spostarlo. Tocca per configurarlo.**
 
-:::note La matita accanto al nome della vasca apre un'altra schermata
-La matita apre **Modifica vasca**, cioè il profilo della vasca con volume, popolazione, dosaggio, illuminazione e flusso. Ne parliamo in [Il profilo della tua vasca](/help/mobile-tank-profile).
+:::note La matita nell'intestazione della vasca apre un'altra cosa
+Apre **Modifica vasca**, il profilo della vasca con volume, popolazione, dosaggio, illuminazione e flusso. Ne parliamo in [Il profilo della vasca](/help/mobile-tank-profile).
 :::
 
-![L'editor della dashboard](img/mobile-edit.webp "Ogni riquadro mostra il suo nome e tipo. Tocca una croce rossa per rimuoverlo.")
+![La schermata Modifica dashboard in Cora Mobile](img/mobile-edit.webp "Le colonne in alto, poi ogni riquadro con il suo nome e tipo. Tocca una croce rossa per rimuoverlo.")
 
-## Scegliere il numero di colonne
+## Impostare il numero di colonne {#setting-the-column-count}
 
-In alto nell'editor scegli **2**, **3** o **4** colonne. La griglia si allunga verso il basso man mano che aggiungi widget, e la dashboard scorre.
+Scegli **2**, **3** o **4** accanto a **COLONNE** in alto nell'editor. La griglia si allunga verso il basso man mano che aggiungi widget, e la dashboard scorre.
 
 | Colonne | Quando usarle |
 |---|---|
 | 2 | Segui pochi parametri e vuoi riquadri grandi |
-| 3 | È l'impostazione predefinita e va bene per quasi tutte le vasche |
-| 4 | Vuoi vedere tante cose insieme, o hai un telefono grande |
+| 3 | L'impostazione predefinita. Va bene per la maggior parte delle vasche |
+| 4 | Vuoi una vista fitta, o hai un telefono grande |
 
-## Aggiungere un widget
+## Aggiungere un widget {#adding-a-widget}
 
-1. Tocca **+** nell'editor.
-2. Scegli cosa deve mostrare: un parametro, un dispositivo o una presa.
-3. Scegli il tipo di widget. Li trovi tutti in [Guida di riferimento ai widget](/help/mobile-widgets).
+1. Tocca **Aggiungi riquadro** sotto la griglia, oppure tocca una cella vuota.
+2. In **Aggiungi un riquadro**, scegli di che tipo è. **Parametro** comprende un valore, un indicatore, un grafico o uno stato per un parametro. **Presa** comanda una presa Apex. Le altre righe sono per l'attrezzatura, come **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La maggior parte compare solo quando la vasca ha quell'attrezzatura.
+3. Scegli il parametro, la presa o il dispositivo.
+4. Per un parametro, scegli il tipo. La [Guida ai widget](/help/mobile-widgets) li descrive tutti.
 
-Vedi solo le fonti che esistono sulla vasca. Un parametro senza fonte compare quando colleghi un'attrezzatura che lo misura o registri una lettura a mano.
+Vedi solo i parametri che la vasca ha. Un parametro senza fonte compare quando colleghi un'attrezzatura che lo riporta, oppure registri una lettura a mano.
 
-## Disporre i widget
+La griglia contiene fino a 20 righe. Quando è piena, Cora dice **La dashboard è piena: rimuovi prima un riquadro.** Un grafico ha bisogno di due celle libere affiancate.
 
-- **Per spostare un widget**, tienilo premuto e trascinalo. Gli altri si risistemano intorno.
-- **Per togliere un widget**, tocca la croce rossa nell'angolo.
-- **Per cambiare le impostazioni di un widget**, toccalo.
+## Disporre i widget {#arranging-widgets}
 
-## Dimensione
+- Per spostare un widget, tienilo premuto e trascinalo. Gli altri si spostano intorno.
+- Per rimuovere un widget, tocca la croce rossa nel suo angolo, oppure tocca il widget e poi **Rimuovi**.
+- Per cambiare le impostazioni di un widget, toccalo.
 
-Un widget occupa una o due colonne e una o due righe. La dimensione si imposta nelle impostazioni del widget. Un riquadro telecamera (Beta) può essere largo fino a tre colonne. Le telecamere sono aperte solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+## Impostazioni del widget {#widget-settings}
 
-Un widget **grafico** è sempre largo almeno due colonne.
+Tocca un widget nell'editor per aprirne le impostazioni. A seconda del widget, puoi impostare:
 
-## Impostazioni del widget
-
-A seconda del tipo di widget puoi impostare:
-
-| Impostazione | Per quali widget |
+| Impostazione | Vale per |
 |---|---|
-| Etichetta | Tutti |
-| Fonte | Qualsiasi parametro misurato da più di una fonte |
-| Intervallo di tempo | Grafico: 1 ora, 6 ore, 24 ore, 7 giorni, 30 giorni, 1 anno |
-| Intervallo | Indicatore: prende le soglie della vasca, a meno che tu non lo cambi qui |
-| Dimensione | Tutti |
+| **Tipo** | Widget di parametro: Valore, Indicatore, Grafico o Stato |
+| **Parametro** | Widget di parametro: quale parametro mostra |
+| La presa o il dispositivo | Riquadri di prese e attrezzatura: quale mostra |
+| **Mostra il rimanente come** | Riquadri dei dosatori: **Giorni** o **Millilitri (mL)** |
+| **Larghezza** | Ogni widget: **1×** o **2×** (una telecamera fino a **3×**). Un grafico è sempre largo almeno 2 |
+| **Altezza** | Ogni widget: **1×** o **2×** |
+| **Intervallo di tempo** | Grafico: 1h, 6h, 24h, 7g, 30g o 1a |
 
-## Salvare
+Tocca **Fatto** per tenere le impostazioni, oppure **Rimuovi** per togliere il widget.
 
-Tocca **Salva** per applicare il layout, oppure l'icona di chiusura per annullare le modifiche.
+Un widget non ha un'etichetta, una fonte o un intervallo suoi. Il suo intervallo di avviso viene dalle soglie di avviso della vasca: tieni premuto il widget sulla dashboard, oppure vedi [Avvisi e soglie](/help/mobile-alerts). Quale fonte segue un parametro si imposta per vasca in [Mappatura parametri](/help/mobile-probes).
 
-## Le mie dashboard
+## Salvare {#saving}
 
-Se un layout ti piace, puoi salvarlo e riusarlo. Vai in **Le mie dashboard → Salva questo design** e dagli un nome. Puoi tenerne fino a **30**.
+Tocca **Salva** per tenere il layout. Per buttare via le modifiche, tocca l'icona di chiusura. Se hai cambiato qualcosa, Cora chiede **Scartare le modifiche?** Tocca **Scarta**, oppure **Continua a modificare** per tornare indietro.
 
-Puoi caricare un design salvato su un'altra vasca o su uno schermo Cora Max.
+L'editor del telefono non ha un annulla e non ha design salvati. Letture, storico e voci del diario sono salvati separatamente dal layout, quindi modificare una dashboard non può mai farli perdere.
 
-:::note Prima di confermare vedi i riquadri che non si possono riempire
-Quando carichi un design, restano solo i riquadri che la destinazione può riempire davvero. Gli altri vengono tolti e, prima che tu confermi, li trovi elencati sotto **Lasciati indietro** con il motivo: la vasca non ha mai misurato quel parametro, non c'è una presa con quel nome, il dispositivo ReefBeat o il modulo Apex non è collegato a questa vasca, oppure nella griglia non c'è più spazio.
-:::
+## Modificare la dashboard di Cora Max {#editing-the-cora-max-dashboard}
 
-## Tornare a un layout precedente
+La dashboard di Cora Max la modifichi a parte, da **Dispositivi →** il tuo Cora Max **→ Layout dashboard**, sulla scheda della vasca. Usa una griglia fissa che non scorre, e niente arriva su Cora Max finché non tocchi **Salva e pubblica**.
 
-Per tornare a un layout che ti piaceva usi un design salvato. Salvalo quando la dashboard è sistemata come vuoi, così potrai riapplicarlo in seguito.
+Quell'editor ha tre cose in più rispetto alla dashboard del telefono:
 
-Si tratta di un **ripristino, non di un annulla**. Scegli il design dall'elenco, confermi, e prende il posto del layout attuale, togliendo anche i riquadri che la vasca non può riempire. Torni al layout che avevi salvato, non a quello prima dell'ultima modifica.
+- **Le mie dashboard** conserva fino a 30 design salvati sul tuo account. Qualsiasi Cora Max dell'account può caricarne uno. I riquadri che la destinazione non può riempire sono elencati sotto **Lasciati indietro:** prima del caricamento.
+- **Modelli** apre **Modelli di dashboard**: **Panoramica**, **Attrezzatura**, **Parametri** e, quando la vasca ha una telecamera, **Fotocamera**. È disponibile con tutti i piani e non usa l'IA. Le telecamere sono in Beta e disponibili solo per gli utenti Beta.
+- **Progetta con l'IA**, con un piano a pagamento o durante la prova, propone un layout completo in base a quello che la vasca riporta e ha collegato. Puoi fare 5 design per vasca al giorno.
 
-Letture, storico e voci di diario sono salvati a parte rispetto al layout. Nessuna modifica alla dashboard li può cancellare.
-
-## Modificare la dashboard di Cora Max
-
-La dashboard di Cora Max si modifica a parte, da **Dispositivi → il tuo Cora Max → Modifica Dashboard**. Ha una griglia fissa e non scorre. I dettagli sono in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
-
-### Modelli
-
-In alto, accanto a **Progetta con l'IA**, l'editor di Cora Max ha anche un'icona **Modelli**. È disponibile con tutti i piani e non usa mai l'IA, quindi funziona anche senza la condivisione dei dati con l'IA.
-
-Apre **Modelli di dashboard**: **Panoramica**, **Attrezzatura**, **Parametri** e, se la vasca ha una telecamera, **Fotocamera**. Ogni layout è costruito in base a ciò che questa vasca riporta e ha collegato, con un'anteprima e il numero di riquadri sulla sua griglia. Le telecamere sono in Beta e disponibili solo per gli utenti Beta.
-
-Tocca **Usa questo**, poi conferma **Sostituire la dashboard?** con **Sostituisci**. Per tenere il layout attuale, tocca **Salva prima l'attuale come preset**. Niente arriva su Cora Max finché non tocchi **Salva e pubblica**.
-
-### Progetta con l'IA
-
-Con un piano a pagamento, in alto nell'editor c'è un'icona a scintilla, **Progetta con l'IA**. Toccala e Cora propone un layout completo in base a ciò che questa vasca riporta e ha collegato. Con un piano gratuito l'icona mostra un lucchetto (**Progetta con l'IA (piani a pagamento)**) e apre i piani.
-
-La proposta mostra quanti riquadri ha e la dimensione della griglia. Tocca **Usa questo** per portarla nell'editor, oppure **Riprova** per averne un'altra. Puoi fare 5 progetti al giorno per vasca.
-
-Un progetto dell'IA sostituisce quello che c'è nella dashboard che stai modificando. Niente arriva su Cora Max finché non tocchi **Salva e pubblica**, quindi puoi ancora uscire senza salvare. Per tenere prima il layout attuale, salvalo in **Le mie dashboard**.
-
-Progetta con l'IA richiede la condivisione dei dati con l'IA attiva nelle Impostazioni. Se è disattivata, te lo viene detto e puoi attivarla e riprovare. Se la vasca non ha ancora letture o dispositivi collegati, non c'è niente da cui partire.
+Come funziona ognuno è spiegato in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).

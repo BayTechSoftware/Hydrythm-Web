@@ -1,106 +1,84 @@
 ---
 title: Modifier votre tableau de bord
-description: Choisir le nombre de colonnes, ajouter et placer des widgets, changer la taille des tuiles et enregistrer des mises en page à réutiliser sur d’autres aquariums.
+description: Ajoutez, déplacez, redimensionnez et retirez des widgets sur le tableau de bord de votre téléphone, réglez le nombre de colonnes et modifiez un tableau de bord Cora Max depuis votre téléphone.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 6
+order: 8
 group: Your dashboard
+twin: max-dashboard-editing
 ---
 
-L’éditeur de tableau de bord sert à choisir les widgets affichés sur le tableau de bord d’un aquarium et à les placer.
+L’éditeur de tableau de bord définit quels widgets apparaissent sur le tableau de bord d’un aquarium et comment ils sont disposés. Chaque aquarium a sa propre disposition, et elle suit votre compte sur tout téléphone où vous vous connectez.
 
-## Ouvrir l’éditeur
+## Ouvrir l’éditeur {#opening-the-editor}
 
-Faites défiler jusqu’en bas du tableau de bord et touchez **Modifier le tableau de bord**.
+Faites défiler le tableau de bord et touchez **Modifier le tableau de bord**, juste sous les widgets. L’éditeur s’ouvre sous le nom **Modifier le tableau de bord**, avec l’indication **Appuyez longuement sur une tuile pour la déplacer. Appuyez pour la configurer.**
 
-:::note Le crayon à côté du nom de l’aquarium ouvre un autre écran
-Il ouvre **Modifier l’aquarium**, c’est-à-dire le profil de l’aquarium : volume, population, dosage, éclairage et brassage. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
+:::note Le crayon de l’en-tête de l’aquarium ouvre autre chose
+Il ouvre **Modifier l’aquarium**, le profil de l’aquarium avec le volume, la population, le dosage, l’éclairage et le brassage. C’est expliqué dans [Le profil de votre aquarium](/help/mobile-tank-profile).
 :::
 
-![L’éditeur de tableau de bord](img/mobile-edit.webp "Chaque tuile affiche son nom et son type. Touchez une croix rouge pour la retirer.")
+![L’écran Modifier le tableau de bord dans Cora Mobile](img/mobile-edit.webp "Les colonnes en haut, puis chaque tuile avec son nom et son type. Touchez une croix rouge pour la retirer.")
 
-## Choisir le nombre de colonnes
+## Choisir le nombre de colonnes {#setting-the-column-count}
 
-En haut de l’éditeur, choisissez **2**, **3** ou **4** colonnes. La grille s’allonge vers le bas à mesure que vous ajoutez des widgets, et le tableau de bord défile.
+Choisissez **2**, **3** ou **4** à côté de **COLONNES** en haut de l’éditeur. La grille s’allonge vers le bas à mesure que vous ajoutez des widgets, et le tableau de bord défile.
 
-| Colonnes | Pour qui |
+| Colonnes | À utiliser quand |
 |---|---|
 | 2 | Vous suivez peu de paramètres et voulez de grandes tuiles |
-| 3 | Réglage par défaut. Convient à la plupart des aquariums |
+| 3 | Le réglage par défaut. Convient à la plupart des aquariums |
 | 4 | Vous voulez une vue serrée, ou vous avez un grand téléphone |
 
-## Ajouter un widget
+## Ajouter un widget {#adding-a-widget}
 
-1. Touchez **+** dans l’éditeur.
-2. Choisissez ce que le widget affiche : un paramètre, un appareil ou une prise.
-3. Choisissez le type de widget. Les types sont décrits dans la [Référence des widgets](/help/mobile-widgets).
+1. Touchez **Ajouter une tuile** sous la grille, ou touchez une case vide.
+2. Dans **Ajouter une tuile**, choisissez son genre. **Paramètre** couvre une valeur, une jauge, un graphique ou un état pour un paramètre. **Prise** commande une prise Apex. Les autres lignes concernent l’équipement, comme **ReefBeat**, **Trident**, **DŌS** ou **Jecod**. La plupart n’apparaissent que si l’aquarium a cet équipement.
+3. Choisissez le paramètre, la prise ou l’appareil.
+4. Pour un paramètre, choisissez le type. La [Référence des widgets](/help/mobile-widgets) décrit chacun d’eux.
 
-Seules les sources présentes sur l’aquarium sont proposées. Un paramètre sans source apparaît dès que vous connectez un équipement qui le mesure, ou que vous saisissez une mesure à la main.
+Vous ne voyez que les paramètres de l’aquarium. Un paramètre sans source apparaît dès que vous connectez un équipement qui le mesure, ou que vous notez une mesure à la main.
 
-## Placer les widgets
+La grille contient jusqu’à 20 lignes. Quand elle est pleine, Cora indique **Le tableau de bord est plein : retirez une tuile d’abord.** Un graphique a besoin de deux cases libres côte à côte.
 
-- **Pour déplacer un widget**, gardez le doigt dessus, puis faites-le glisser. Les autres widgets se réorganisent autour.
-- **Pour retirer un widget**, touchez la croix rouge dans son coin.
-- **Pour modifier les réglages d’un widget**, touchez-le.
+## Disposer les widgets {#arranging-widgets}
 
-## Changer la taille
+- Pour déplacer un widget, gardez le doigt dessus, puis faites-le glisser. Les autres se réorganisent autour.
+- Pour retirer un widget, touchez la croix rouge dans son coin, ou touchez le widget puis **Retirer**.
+- Pour changer les réglages d’un widget, touchez-le.
 
-Un widget prend une ou deux colonnes, et une ou deux lignes. La taille se règle dans les réglages du widget. Une tuile caméra (Beta) peut faire jusqu’à trois colonnes de large. Les caméras ne sont ouvertes qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
+## Réglages du widget {#widget-settings}
 
-Un widget de **tendance** fait toujours au moins deux colonnes de large.
-
-## Réglages du widget
-
-Selon le type de widget, vous pouvez régler :
+Touchez un widget dans l’éditeur pour ouvrir ses réglages. Selon le widget, vous pouvez régler :
 
 | Réglage | Concerne |
 |---|---|
-| Étiquette | Tous les types |
-| Source | Tout paramètre fourni par plusieurs sources |
-| Période | Tendance : 1 heure, 6 heures, 24 heures, 7 jours, 30 jours, 1 an |
-| Plage | Jauge : reprend les seuils de l’aquarium, sauf si vous la changez ici |
-| Taille | Tous les types |
+| **Type** | Widgets de paramètre : Valeur, Jauge, Graphique ou État |
+| **Paramètre** | Widgets de paramètre : le paramètre affiché |
+| La prise ou l’appareil | Tuiles de prise et d’équipement : celle ou celui qui est affiché |
+| **Afficher le reste en** | Tuiles de doseur : **Jours** ou **Millilitres (mL)** |
+| **Largeur** | Tous les widgets : **1×** ou **2×** (une caméra jusqu’à **3×**). Un graphique fait toujours au moins 2 de large |
+| **Hauteur** | Tous les widgets : **1×** ou **2×** |
+| **Plage de temps** | Graphique : 1 h, 6 h, 24 h, 7 j, 30 j ou 1 an |
 
-## Enregistrer
+Touchez **Terminé** pour garder les réglages, ou **Retirer** pour enlever le widget.
 
-Touchez **Enregistrer** pour appliquer la mise en page. Pour abandonner vos changements, touchez l’icône de fermeture.
+Un widget n’a pas d’étiquette, de source ni de plage à lui. Sa plage d’alerte vient des seuils d’alerte de l’aquarium : faites un appui long sur le widget dans le tableau de bord, ou voyez [Alertes et seuils](/help/mobile-alerts). La source suivie par un paramètre se règle par aquarium dans l’[Association des paramètres](/help/mobile-probes).
 
-## Mes tableaux de bord
+## Enregistrer {#saving}
 
-Une mise en page vous plaît ? Enregistrez-la pour la réutiliser. Touchez **Mes tableaux de bord → Enregistrer ce design**, puis donnez-lui un nom. Vous pouvez en garder jusqu’à **30**.
+Touchez **Enregistrer** pour garder la disposition. Pour abandonner vos changements, touchez l’icône de fermeture. Si vous avez changé quelque chose, Cora demande **Abandonner les modifications ?** Touchez **Abandonner**, ou **Continuer à modifier** pour revenir.
 
-Vous pouvez charger un design enregistré sur un autre aquarium, ou sur un écran Cora Max.
+L’éditeur du téléphone n’a ni annulation ni designs enregistrés. Les mesures, l’historique et les entrées du journal sont stockés à part de la disposition : modifier un tableau de bord ne peut donc jamais les effacer.
 
-:::note Les tuiles impossibles à remplir sont listées avant de valider
-Au chargement d’un design, seules les tuiles que la cible peut vraiment remplir sont gardées. Les autres sont écartées et listées sous **Laissées de côté** avant que vous validiez, chacune avec sa raison. L’aquarium n’a jamais fourni cette mesure, aucune prise ne porte ce nom, l’appareil ReefBeat ou le module Apex n’est pas lié à cet aquarium, ou la grille manquait de place.
-:::
+## Modifier le tableau de bord Cora Max {#editing-the-cora-max-dashboard}
 
-## Revenir à une ancienne mise en page
+Vous modifiez le tableau de bord Cora Max à part, depuis **Appareils →** votre Cora Max **→ Disposition du tableau de bord**, sur la carte de l’aquarium. Il utilise une grille fixe qui ne défile pas, et rien n’arrive sur Cora Max tant que vous ne touchez pas **Enregistrer et publier**.
 
-Pour retrouver une mise en page que vous aimiez, passez par un design enregistré. Enregistrez-en un quand le tableau de bord est disposé comme vous le voulez. Vous pourrez le réappliquer plus tard.
+Cet éditeur a trois atouts que le tableau de bord du téléphone n’a pas :
 
-C’est une **restauration, pas une annulation**. Vous choisissez le design dans la liste, vous confirmez, et il remplace la mise en page actuelle. Les tuiles que l’aquarium ne peut pas remplir sont écartées au passage. Vous retrouvez la mise en page enregistrée, pas l’état d’avant votre dernière modification.
+- **Mes tableaux de bord** garde jusqu’à 30 designs enregistrés sur votre compte. N’importe quel Cora Max du compte peut en charger un. Les tuiles que la cible ne peut pas remplir sont listées sous **Laissées de côté :** avant le chargement.
+- **Modèles** ouvre **Modèles de tableau de bord** : **Vue d'ensemble**, **Équipement**, **Paramètres** et, si l’aquarium a une caméra, **Caméra**. C’est ouvert avec tous les forfaits et n’utilise pas l’IA. Les caméras sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta.
+- **Concevoir avec l'IA**, avec un forfait payant ou pendant l’essai, propose une disposition complète à partir de ce que l’aquarium remonte et a associé. Vous pouvez créer 5 designs par aquarium et par jour.
 
-Les mesures, l’historique et les entrées du journal sont stockés à part de la mise en page. Modifier un tableau de bord ne peut donc pas les effacer.
-
-## Modifier le tableau de bord Cora Max
-
-Le tableau de bord du Cora Max se modifie à part, dans **Appareils → votre Cora Max → Modifier le tableau de bord**. Sa grille est fixe et ne défile pas. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
-
-### Modèles
-
-L’éditeur Cora Max a aussi une icône **Modèles** en haut, à côté de **Concevoir avec l’IA**. Elle est disponible avec tous les forfaits et n’utilise jamais l’IA, donc elle fonctionne aussi sans partage de données avec l’IA.
-
-Elle ouvre **Modèles de tableau de bord** : **Vue d’ensemble**, **Équipement**, **Paramètres** et, si l’aquarium a une caméra, **Caméra**. Chaque disposition est construite à partir de ce que cet aquarium remonte et a associé, avec un aperçu et le nombre de tuiles sur sa grille. Les caméras sont en Beta et réservées aux utilisateurs Beta.
-
-Touchez **Utiliser**, puis confirmez **Remplacer votre tableau de bord ?** avec **Remplacer**. Pour garder votre disposition actuelle, touchez **Enregistrer l’actuel comme préréglage d’abord**. Rien n’arrive sur Cora Max tant que vous ne touchez pas **Enregistrer et publier**.
-
-### Concevoir avec l’IA
-
-Avec un forfait payant, l’éditeur a en haut une icône d’étincelles intitulée **Concevoir avec l’IA**. Touchez-la et Cora propose une disposition complète à partir de ce que cet aquarium remonte et a associé. Avec un forfait gratuit, l’icône affiche un cadenas (**Concevoir avec l’IA (forfaits payants)**) et ouvre les forfaits.
-
-La proposition indique combien de tuiles elle contient et la taille de la grille. Touchez **Utiliser** pour la placer dans l’éditeur, ou **Réessayer** pour en obtenir une autre. Vous pouvez créer 5 propositions par aquarium et par jour.
-
-Une proposition de l’IA remplace ce qui se trouve sur le tableau de bord que vous modifiez. Rien n’arrive sur Cora Max tant que vous ne touchez pas **Enregistrer et publier**, vous pouvez donc encore quitter sans enregistrer. Pour garder d’abord votre disposition actuelle, enregistrez-la sous **Mes tableaux de bord**.
-
-Concevoir avec l’IA nécessite que le partage de données avec l’IA soit activé dans les Réglages. S’il est désactivé, l’application vous le dit, et vous pouvez l’activer puis réessayer. Si l’aquarium n’a encore aucune mesure ni appareil associé, il n’y a rien à partir de quoi concevoir.
+Le fonctionnement de chacun est expliqué dans [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).

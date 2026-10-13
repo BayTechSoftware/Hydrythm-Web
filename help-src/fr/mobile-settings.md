@@ -1,116 +1,123 @@
 ---
-title: Réglages
-description: Toutes les sections des réglages de Cora Mobile : compte, aquariums, Cora Assistant, langue, notifications, automatisation et activité.
+title: Réglages de Cora Mobile
+description: Où tout se trouve dans l’onglet Paramètres de Cora Mobile, de votre compte et votre forfait aux aquariums, à Cora Assistant, à la langue, au mode sombre, aux notifications et à l’assistance.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 32
-group: Account
+reviewed: 2026-10-13
+order: 33
+group: Settings and account
+twin: max-settings
 ---
 
-Voici tout ce que vous pouvez régler, dans l’ordre de l’écran.
+Cette page parcourt l’onglet **Paramètres** (l’écran **Réglages**), dans l’ordre où vous trouvez les choses.
 
-![L’onglet Réglages](img/mobile-settings.webp "Une ligne par domaine. Votre carte de compte se trouve au-dessus.")
+![L’onglet Paramètres dans Cora Mobile](img/mobile-settings.webp "La carte de votre compte en haut, un bandeau Mode vacances quand il est actif, puis le groupe Cora.")
 
 ## Votre compte
 
-La carte du haut indique le compte connecté et votre forfait. Touchez-la pour accéder à :
+La carte du haut indique avec quel compte vous êtes connecté et quel forfait vous avez. Touchez-la pour ouvrir **Compte et abonnement**. On y trouve, de haut en bas :
 
-- **Nom d’affichage** : le nom sous lequel Cora Mobile vous désigne
-- **Forfait et abonnement** : votre forfait, ce qu’il comprend et comment en changer
-- **E-mails labo et ICP** : ajoutez jusqu’à 3 adresses e-mail supplémentaires que votre laboratoire peut utiliser pour joindre votre compte. Voir [Rapports ICP et de santé](/help/mobile-icp-health).
+- **Nom d’affichage** est le nom que vous donne Cora Mobile.
+- **E-mails labo et ICP** vous permet d’ajouter jusqu’à 3 adresses e-mail supplémentaires que votre laboratoire peut utiliser pour joindre votre compte. Voir [Rapports ICP et de santé](/help/mobile-icp-health#which-email-a-lab-can-use).
+- **Abonnement** affiche votre forfait et sa date de renouvellement, avec **Voir les forfaits**, **Passer à un forfait supérieur** ou **Passer à Max**, puis **Gérer l’abonnement** et **Restaurer les achats**. Sur Android, il y a aussi **Utiliser un code**. Tout est expliqué dans [Forfaits et abonnements](/help/mobile-plans).
 - **Se déconnecter**
-- **Supprimer le compte** : c’est définitif. Lisez d’abord les deux notes plus bas.
+- **Exporter mes données** vous donne vos mesures, entrées de journal et alertes sous forme de fichiers, gratuitement avec tous les forfaits. Voir [Exporter vos données](/help/mobile-data-export).
+- **Supprimer le compte** est définitif. Lisez les deux notes de [Vos données et votre vie privée](#your-data-and-privacy) avant de l’utiliser.
 
 ## Cora
 
-- **Automatisations** : les règles et les scènes qui tournent toutes seules. Tout est expliqué dans **[Automatisations et scènes](/help/mobile-automation)**.
-- **Cora Assistant** : l’IA qui répond à vos questions sur votre aquarium, et le choix de l’appareil qui répond à votre voix. Voir la section « Cora Assistant » plus bas, et **[Interroger Cora](/help/mobile-assistant)**.
-- **Activité** : l’historique de toutes les commandes envoyées à votre équipement. Tout est expliqué dans **[Activité et chronologie](/help/mobile-activity)**.
-- **Produits de dosage** : la concentration de ce que vous dosez. Tout est expliqué dans **[Dosage](/help/mobile-dosing)**.
+- **Automatisations** sont des règles et des scènes qui s’exécutent toutes seules. Plus de détails dans [Automatisations et scènes](/help/mobile-automation).
+- **Cora Assistant** contient les interrupteurs de consentement à l’IA, la mémoire IA, l’appareil répondant, le partage avec les laboratoires et votre consommation. Voir [Cora Assistant](#cora-assistant) plus bas.
+- **Activité** est un journal de chaque commande envoyée à votre équipement. Plus de détails dans [Activité et chronologie](/help/mobile-activity).
+- **Produits de dosage** contient la concentration de ce que vous dosez. Plus de détails dans [Dosage](/help/mobile-dosing).
 
-:::warning Les automatisations agissent sur du vrai matériel
-Une règle qui coupe une pompe la coupe, que vous soyez là ou non. Créez une règle à la fois, et vérifiez qu’elle fait ce que vous attendez avant de passer à la suivante.
+:::warning Les automatisations agissent sur de vrais équipements
+Une règle qui commande une pompe la commandera même quand vous ne regardez pas. Créez les règles une par une, et vérifiez que chacune fait ce que vous attendez avant d’ajouter la suivante.
 :::
 
-## Aquariums
+## Aquariums {#tanks}
 
-Une ligne par aquarium, puis :
+Vous voyez une ligne par aquarium, puis ceci.
 
-- **Ajouter un aquarium**
-- **Réorganiser les aquariums** : l’ordre dans lequel ils défilent quand vous balayez le tableau de bord
-- **Aquariums supprimés** : les aquariums que vous avez supprimés, si vous devez y récupérer quelque chose
+- **Ajouter un aquarium** ouvre un nouveau profil d’aquarium.
+- **Réorganiser les aquariums** définit l’ordre dans lequel ils défilent sur le tableau de bord. Il décide aussi quels aquariums ont Reef Buddy et la surveillance par l’IA quand votre forfait couvre moins d’aquariums que vous n’en avez. Voir [Forfaits et abonnements](/help/mobile-plans#paid-tiers).
+- **Aquariums supprimés** garde les aquariums que vous avez retirés. Retirer un aquarium ne fait que le masquer, et **Restaurer** le fait revenir avec ses mesures, son journal et ses appareils.
 
-Quand vous ouvrez un aquarium, sa page de réglages comporte trois parties.
+L’ajout, le retrait et la restauration d’aquariums sont expliqués pas à pas dans [Gérer vos aquariums](/help/mobile-tanks).
+
+Ouvrez un aquarium : sa page de réglages a trois parties.
 
 - **Réglages** contient **Modifier l’aquarium**, **Association des paramètres**, **Seuils d’alerte**, **Unités**, **Cora Max principal** et **Mode vacances**.
 - **Registres et rapports** contient **Journal**, **Entretien**, **Population**, **Reef Buddy**, **Rapports de santé**, **Rapports ICP**, **Activité** et **Configuration guidée**.
 - **Appareils sur cet aquarium** est une liste en lecture seule.
 
-**Association des paramètres** sert à choisir quel appareil alimente chaque mesure. Voir [Association des paramètres](/help/mobile-probes). **Unités** règle la façon dont cet aquarium affiche ses mesures, y compris les litres ou les gallons US ou UK pour le volume. Voir [Le profil de votre aquarium](/help/mobile-tank-profile). **Cora Max principal** est l’appareil qui interroge l’équipement de cet aquarium, et il est expliqué dans [Plus d’un appareil Cora](/help/mobile-multi-device). Pour ajouter ou retirer un appareil, utilisez l’[onglet Appareils](/help/mobile-devices).
+**Association des paramètres** est l’endroit où vous choisissez quel appareil alimente chaque mesure. Voir [Association des paramètres](/help/mobile-probes). **Unités** définit comment cet aquarium affiche ses mesures, y compris les litres ou les gallons US ou UK pour le volume. Voir [Le profil de votre aquarium](/help/mobile-tank-profile). **Cora Max principal** est l’appareil qui interroge l’équipement de cet aquarium, expliqué dans [Plus d’un appareil Cora](/help/mobile-multi-device#primary-cora-max). Pour ajouter ou retirer un appareil, utilisez l’[onglet Appareils](/help/mobile-devices).
 
-**Mode vacances** : un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et dressez la liste des tâches avec leur fréquence. Cora en fait une page simple, en lecture seule, que vous partagez avec cette personne. Elle n’a pas besoin de compte. Tout est expliqué dans **[Partir en vacances](/help/mobile-vacation)**.
+**Mode vacances** est un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et faites une liste de tâches, avec la fréquence de chacune. Cora en fait une page simple en lecture seule que vous pouvez partager avec votre gardien. Il n’a pas besoin de compte. Plus de détails dans [Partir en vacances](/help/mobile-vacation).
 
 ## Réglages de l’application
 
-- **Notifications** : ce qui arrive sur votre téléphone. Tout est expliqué dans **[Notifications](/help/mobile-notifications)**.
-- **Heure du briefing** : l’heure à laquelle votre briefing Reef Buddy quotidien arrive, dans votre propre fuseau horaire. C’est un réglage unique pour le compte, partagé avec Cora Max. Tout est expliqué dans **[Reef Buddy](/help/mobile-reef-buddy)**.
-- **Langue** : la langue du compte, décrite plus bas.
-- **Apparence** : clair, sombre, ou comme votre téléphone.
-- **Accès aux appareils** : décrit plus bas.
-- **Aide et assistance** : contacter l’assistance, signaler un bug ou envoyer un avis, et le site web et la FAQ de Cora.
-- **À propos** : décrit plus bas.
+- **Notifications** décide de ce qui arrive sur votre téléphone. Plus de détails dans [Notifications](/help/mobile-notifications).
+- **Heure du briefing** est l’heure à laquelle arrive votre briefing quotidien Reef Buddy, dans votre fuseau horaire. C’est un seul réglage pour le compte, partagé avec Cora Max. Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy#when-it-arrives).
+- **Langue** est la langue du compte. Voir plus bas.
+- **Apparence** a un interrupteur **Mode sombre**. Activé, Cora Mobile utilise le thème sombre Deep Reef. Désactivé, il utilise le thème clair Luminous Azure.
+- **Accès aux appareils** est expliqué plus bas.
+- **Aide et assistance** est l’endroit où vous contactez l’assistance, signalez un bug et trouvez le site web et la FAQ de Cora. Voir plus bas.
+- **À propos** est expliqué plus bas.
 
-## Langue
+## Langue {#language}
 
-**La langue vaut pour tout le compte, pas pour un seul appareil.** Si vous la changez sur votre téléphone, elle change aussi sur tous les Cora Max du foyer, et inversement. Les nouveaux rapports, alertes et briefings Reef Buddy suivent la nouvelle langue à partir de ce moment. Les anciens restent dans leur langue d’origine et ne sont pas retraduits.
+**Il y a une seule langue pour tout le compte.** Les appareils n’ont pas chacun la leur. Si vous la changez sur votre téléphone, elle change aussi sur tous les Cora Max du foyer, et inversement. Les nouveaux rapports, alertes et briefings Reef Buddy utilisent la nouvelle langue à partir de là. Les anciens restent dans la langue où ils ont été écrits. Ils ne sont pas retraduits.
 
-Si Cora Mobile s’affiche tout à coup dans une langue inattendue, quelqu’un (ou un autre appareil du compte) l’a changée ici ou dans le réglage **Langue** d’un Cora Max. Ce réglage est partagé entre tous les appareils.
+Si tout s’affiche soudain dans une langue inattendue, quelqu’un l’a changée. Ce peut être ici, depuis un autre appareil du compte, ou dans le réglage **Langue** d’un Cora Max. C’est le même réglage partout.
 
-## Accès aux appareils
+## Accès aux appareils {#device-access}
 
-**Accès aux appareils** ouvre les réglages de votre téléphone pour Cora. Vous y autorisez ce dont Cora a besoin pour trouver votre équipement. La ligne n’indique pas si une autorisation est coupée. Elle vous emmène à l’endroit où le vérifier.
+**Accès aux appareils** ouvre les réglages de votre téléphone pour Cora. C’est là que vous autorisez ce dont Cora a besoin pour trouver votre équipement. La ligne n’indique pas si quelque chose est désactivé. Elle vous emmène simplement à l’endroit où vous pouvez vérifier.
 
-- Sur iPhone : réseau local et Bluetooth. Sans l’accès au réseau local, une recherche d’équipement sur votre Wi-Fi ne trouve rien et n’affiche aucune erreur. L’iPhone ne pose la question qu’une fois. C’est donc ici que vous pouvez réactiver l’accès.
-- Sur Android : Bluetooth et localisation.
+- Sur iPhone, ce sont Réseau local et Bluetooth. Sans l’accès au réseau local, une recherche d’équipement sur votre Wi-Fi ne trouve rien, et vous ne verrez aucune erreur. L’iPhone ne demande qu’une fois, c’est donc ainsi que vous le réactivez.
+- Sur Android, ce sont le Bluetooth et la localisation.
 
-## Cora Assistant
+## Cora Assistant {#cora-assistant}
 
-Cette section s’ouvre depuis la ligne **Cora Assistant**, dans la partie **Cora** plus haut.
+Vous l’ouvrez depuis la ligne **Cora Assistant** sous **Cora**, plus haut.
 
-- **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** décide si Cora Assistant peut utiliser l’historique, les mesures et les appareils de votre aquarium. Cora Assistant ne peut pas répondre sans cette autorisation. Si elle est coupée, Cora réaffiche son écran de consentement avant votre prochain message, et **Accepter et continuer** la réactive. Voir [Interroger Cora](/help/mobile-assistant).
-- **Contribuer des données d’aquarium anonymisées** décide si une copie anonymisée de l’historique de vos paramètres est conservée pour la recherche sur les récifs. **Cette option est activée tant que vous ne la coupez pas.** C’est la seule donnée qui survit à la suppression du compte.
-- **Mémoire IA** contient ce que Cora retient de votre installation d’une conversation à l’autre. Vous pouvez la lire et la réinitialiser. Elle n’apparaît que si l’autorisation ci-dessus est activée.
-- **Appareil répondant** choisit l’appareil Cora qui répond au mot d’activation chez vous. Tout est expliqué dans **[Plus d’un appareil Cora](/help/mobile-multi-device)**.
-- **Utilisation et limites** montre vos quotas du mois et ce que vous avez consommé.
+- **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** permet à Cora Assistant d’utiliser l’historique, les paramètres et les appareils de votre aquarium. Il doit être activé pour l’Assistant (écrit ou parlé, sur votre téléphone et sur Cora Max), l’analyse ICP, les rapports de santé et **Concevoir avec l'IA**. Reef Buddy arrive quand même sans lui, avec un résumé simple. La liste complète est dans [Interroger Cora](/help/mobile-assistant#what-the-switch-covers).
+- **Contribuer des données d’aquarium anonymisées** garde une copie anonymisée de l’historique de vos paramètres pour la recherche sur les récifs. **C’est activé sauf si vous le désactivez.** Cette copie est faite quand vous retirez un aquarium, et c’est la seule chose conservée après la suppression de votre compte. Voir [Partager des données anonymisées](/help/mobile-data-export#contributing-anonymised-data).
+- **Mémoire IA** est ce que Cora retient de votre système d’une conversation à l’autre. Vous pouvez la lire et la réinitialiser. Elle n’apparaît que tant que l’interrupteur de consentement ci-dessus est activé.
+- **Appareil répondant** choisit quel appareil Cora répond à la phrase d’activation chez vous. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device#cora-assistant-answering-device).
+- **Partager l’analyse de Cora avec les laboratoires** décide si un laboratoire qui vous envoie des résultats peut voir les scores et l’analyse écrite de Cora. C’est désactivé jusqu’à ce que vous l’activiez.
+- **Laboratoires de confiance** liste les laboratoires qui peuvent envoyer des résultats à vos aquariums sans demander à chaque fois. Il apparaît dès que vous avez fait confiance à un laboratoire. Plus de détails dans [Rapports ICP et de santé](/help/mobile-icp-health#trusted-labs).
+- **Utilisation et limites** affiche vos quotas mensuels et ce que vous en avez utilisé.
 
-## Vos données et votre confidentialité
+## Vos données et votre vie privée {#your-data-and-privacy}
 
-Trois réglages concernant vos données se trouvent à des endroits différents, et on les rate facilement.
+Trois réglages concernant vos données se trouvent à des endroits différents, il est donc facile de les manquer.
 
-- **Exporter mes données** se trouve sur la **carte du compte**, à côté de Supprimer le compte. Vous récupérez vos mesures, vos entrées de journal et vos alertes sous forme de fichiers, gratuitement avec tous les forfaits. Voir **[Exporter vos données](/help/mobile-data-export)**.
-- **Contribuer des données d’aquarium anonymisées** se trouve dans **Cora Assistant**, plus haut. **Cette option est activée tant que vous ne la coupez pas.** C’est la seule donnée qui survit à la suppression du compte.
-- **Envoyer les rapports de plantage** se trouve à côté de **Signaler un bug / envoyer un retour**. Il sert à la même chose que cette ligne, sans que vous ayez à remarquer le problème ni à le décrire.
+- **Exporter mes données** est dans **Compte et abonnement**, juste au-dessus de **Supprimer le compte**. Voir [Exporter vos données](/help/mobile-data-export).
+- **Contribuer des données d’aquarium anonymisées** est sous **Cora Assistant**, plus haut.
+- **Envoyer les rapports de plantage** est dans **Aide et assistance**. Il envoie les détails techniques quand Cora Mobile s’arrête ou qu’un écran ne se charge pas, sans que vous ayez à écrire quoi que ce soit. Aucune donnée d’aquarium, aucune photo ni aucun détail de compte n’est inclus.
 
-:::warning Supprimer votre compte NE résilie PAS votre abonnement
-Un abonnement App Store ou Google Play dépend de la **boutique d’applications**, pas de Cora. Supprimer votre compte efface vos données chez nous, mais **la facturation continue**. Elle s’arrête seulement quand vous résiliez directement auprès d’Apple ou de Google. Résiliez d’abord l’abonnement, puis supprimez le compte.
+:::warning Supprimer votre compte ne résilie PAS votre abonnement
+Un abonnement App Store ou Google Play appartient à la **boutique**, pas à Cora. Supprimer votre compte efface votre dossier ici, mais **la facturation ne s’arrête pas**. Vous continuez à être facturé jusqu’à ce que vous résiliiez vous-même auprès d’Apple ou de Google. Résiliez d’abord l’abonnement, puis supprimez le compte.
 :::
 
-:::note Ce que la suppression ne touche pas
-Si **Contribuer des données d’aquarium anonymisées** est activé (ce qui est le cas si vous ne l’avez pas coupé), une copie anonymisée des profils de vos aquariums et de l’historique de leurs paramètres est conservée pour la recherche lors de cette même suppression. Elle ne contient aucun lien avec vous. Si vous voulez qu’elle disparaisse aussi, coupez cet interrupteur *avant* de supprimer le compte.
+:::note Ce que la suppression n’efface pas
+Si **Contribuer des données d’aquarium anonymisées** est activé (et il l’est, sauf si vous l’avez désactivé), une copie anonymisée des profils et de l’historique des paramètres de vos aquariums est conservée pour la recherche quand vous supprimez votre compte. Elle n’a aucun lien avec vous. Si vous voulez qu’elle disparaisse aussi, désactivez l’interrupteur *avant* de supprimer.
 :::
+
+## Aide et assistance {#getting-help}
+
+**Réglages → Aide et assistance** contient :
+
+- **Contacter l’assistance** ouvre un e-mail à notre intention. Nous répondons en général sous un jour.
+- **Signaler un bug / envoyer un retour** envoie un signalement depuis Cora Mobile. Voir [Signaler un problème](/help/mobile-support).
+- **Envoyer les rapports de plantage**, décrit plus haut.
+- **Site web et FAQ Cora** ouvre le site web de Cora.
 
 ## À propos
 
-Vous y trouvez la version installée, et :
+Cette section affiche la version que vous utilisez, et quelques autres lignes.
 
-- **Revoir les conseils** : relance la visite guidée du tableau de bord du premier lancement, décrite dans **[Les cinq onglets](/help/mobile-tour)**. Pratique après une mise à jour, ou quand une nouvelle personne commence à utiliser Cora Mobile
-- **Politique de confidentialité** et **Conditions générales** : liens vers les pages juridiques (en anglais)
-- **Licences** : les logiciels libres sur lesquels repose Cora Mobile
-
-## Obtenir de l’aide
-
-En bas des Réglages :
-
-- **Contacter l’assistance** : nous envoie un e-mail. Nous répondons en général dans la journée
-- **Signaler un bug / envoyer un retour**
-- **Site web et FAQ Cora**
+- **Revoir les conseils** rejoue la visite du tableau de bord du premier lancement, celle décrite dans [La visite du premier lancement](/help/mobile-tour#the-first-run-tour). C’est pratique après une mise à jour, ou quand quelqu’un de nouveau commence à utiliser Cora Mobile.
+- **Politique de confidentialité** et **Conditions générales** renvoient aux pages juridiques.
+- **Licences** liste les logiciels libres sur lesquels Cora Mobile est construit.

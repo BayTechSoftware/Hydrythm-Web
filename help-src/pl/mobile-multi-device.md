@@ -1,79 +1,80 @@
 ---
 title: Więcej niż jedno urządzenie Cora
-description: Wybierz, które urządzenie odpowiada głosem, a które odpytuje każde akwarium.
+description: Gdy masz więcej niż jedno urządzenie Cora, wybierz, które odpowiada na Twój głos, a które odpytuje każde akwarium, i sprawdź, co działa poza domem.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
-group: Account
+order: 34
+group: Settings and account
+twin: max-reef-room
 ---
 
-W domu może być więcej niż jeden Cora Max. Dwa ustawienia decydują, który co robi, żeby nie dublowały swojej pracy. Warto też wiedzieć, co w ogóle jest między nimi wspólne.
+Ta strona jest dla domu z więcej niż jednym Cora Max albo z Cora Max i kilkoma telefonami. Dwa ustawienia decydują, które urządzenie co robi, żeby nie wykonywały dwa razy tej samej pracy. Warto też wiedzieć, co jest między nimi wspólne.
 
 ## Co jest wspólne, a co nie
 
-| Wspólne dla wszystkich urządzeń | Osobne dla każdego ekranu |
+| Wspólne dla wszystkich urządzeń | Należy do jednego Cora Max |
 |---|---|
-| Akwaria, odczyty i historia | Układ pulpitu |
+| Akwaria, odczyty i historia | Jego układ pulpitu |
 | Urządzenia i ich ustawienia | Wi-Fi, jasność, dźwięk |
-| Dziennik, obsada, konserwacja | Fraza wybudzająca i blokada rodzicielska |
-| Alerty, progi, automatyzacje | Akwaria widoczne na tym ekranie |
+| Dziennik, obsada, konserwacja | Fraza aktywująca i blokada rodzicielska |
+| Alerty, progi, automatyzacje | Które akwaria pokazuje ten ekran |
 | Plany i wykorzystanie | |
 
-Zmiana progu na jednym urządzeniu działa wszędzie. Zmiana układu pulpitu już nie. Każdy ekran ma własny układ, a telefon i Cora Max nigdy nie dzielą jednego.
+Jeśli zmienisz próg na jednym urządzeniu, zmieni się wszędzie. Z układami pulpitu jest inaczej. Układ w telefonie idzie za Twoim kontem, więc każdy telefon, na którym się zalogujesz, pokazuje ten sam. Każdy Cora Max ma własny układ, a telefon i Cora Max nigdy nie dzielą jednego.
 
-## Cora Assistant: urządzenie odpowiadające
+## Cora Assistant: Urządzenie odpowiadające {#cora-assistant-answering-device}
 
-**Ustawienia → Cora Assistant → Urządzenie odpowiadające** określa, które **urządzenie Cora** odpowiada, gdy mówisz do pokoju. Odpowiada zawsze tylko jedno, bez względu na to, ile Cię słyszy. Wybierz to, które stoi najbliżej miejsca, gdzie zwykle jesteś.
+**Ustawienia → Cora Assistant → Urządzenie odpowiadające** wybiera **urządzenie Cora**, które odpowiada, gdy mówisz do pokoju. Niezależnie od tego, ile urządzeń Cię słyszy, odpowiada tylko jedno. Wybierz to, które jest najbliżej miejsca, w którym zwykle stoisz.
 
-Frazy wybudzającej nasłuchuje tylko urządzenie odpowiadające. Gdy jest offline albo nie było widziane dłużej niż 15 minut, nasłuchiwanie przejmuje inny Cora Max i przestaje, gdy tamto wróci. Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice).
+Frazy aktywującej nasłuchuje tylko Urządzenie odpowiadające. Gdy jest offline albo nie było widziane dłużej niż 15 minut, nasłuchiwanie przejmuje inny Cora Max i przestaje, gdy tamto wróci. Więcej w [Rozmowie z Corą](/help/max-voice).
 
-To inne ustawienie niż opisane niżej Główne Cora Max. Urządzenie odpowiadające decyduje, które urządzenie odpowiada na Twój głos. Główne Cora Max decyduje, które urządzenie odpytuje sprzęt akwarium. Jeśli masz w domu dwa Cora Max, możesz ustawić je różnie.
+To ustawienie jest niezależne od opisanego niżej Głównego Cora Max. Urządzenie odpowiadające decyduje, kto odpowiada na Twój głos. Główne Cora Max decyduje, kto odpytuje sprzęt akwarium. Mając w domu dwa Cora Max, możesz ustawić je różnie.
 
-![Wybór urządzenia odpowiadającego](img/mobile-voice-responder.webp "Przy każdym urządzeniu widać, na jaką frazę reaguje i czy jest online.")
+![Wybór Urządzenia odpowiadającego](img/mobile-voice-responder.webp "Przy każdym urządzeniu widać, na co reaguje i czy jest online.")
 
-Przy każdym urządzeniu na liście widać frazę wybudzającą, na którą reaguje, i to, czy jest online. **Te frazy nie muszą być takie same.** Fraza jest wbudowana w samo urządzenie, więc różne modele Cora mogą reagować na różne frazy. Sprawdź frazę w wierszu danego urządzenia i nie zakładaj, że w domu obowiązuje jedna.
+Każde urządzenie na liście pokazuje swoją frazę aktywującą i to, czy jest online. **Frazy aktywujące nie zawsze są takie same.** Fraza jest wytrenowana w urządzeniu, więc różne modele Cora mogą reagować na różne frazy. Sprawdź wiersz każdego urządzenia. Nie zakładaj, że cały dom używa jednej frazy.
 
 :::note Telefonu nie ma na tej liście
-Telefon nie reaguje na frazę wybudzającą. Rozmowę zaczynasz na nim dotknięciem. To działa zawsze i nie zależy od tego ustawienia. Na liście jest tylko sprzęt Cora z obsługą głosu.
+Telefon nie nasłuchuje frazy aktywującej. Rozmowę zaczynasz na nim dotknięciem i to działa zawsze, niezależnie od tego ustawienia. Lista pokazuje tylko sprzęt Cora z obsługą głosu.
 :::
 
 ## Główne Cora Max
 
-Sprzęt w Twojej sieci odczytuje Cora Max. Gdyby kilka urządzeń mogło odczytywać ten sam kontroler, bez tego ustawienia odpytywałyby go równolegle.
+Cora Max odczytuje sprzęt w Twojej sieci. Gdyby więcej niż jeden mógł połączyć się z tym samym kontrolerem, wszystkie odpytywałyby go równolegle.
 
-**Główne Cora Max** to wybór dla każdego akwarium osobno: które urządzenie odczytuje kontroler tego akwarium. W Cora Mobile otwórz akwarium i dotknij **Główne Cora Max**.
+**Główne Cora Max** pozwala wybrać dla każdego akwarium, które urządzenie odczytuje kontroler tego akwarium. W Cora Mobile otwórz akwarium i dotknij **Główne Cora Max**.
 
-| Ustawienie | Jak działa |
+| Ustawienie | Działanie |
 |---|---|
-| Wybrane urządzenie | Tylko to urządzenie Cora odpytuje kontroler. Pozostaje główne także wtedy, gdy jest offline, i inne urządzenia Cora go nie zastępują. Cora Mobile odpytuje kontroler tylko wtedy, gdy to urządzenie jest offline. |
-| **Każde aktywne (automatycznie)** | Aplikacja i każde urządzenie Cora online dzielą się pracą (liczy się ostatni zapis). Gdy jedno przejdzie w tryb offline, inne pracuje dalej. Dobre, gdy masz tylko jedno urządzenie, i bezpieczniejsze ustawienie domyślne, jeśli nie wiesz, które urządzenie ma się tym zajmować. |
+| Wybrane urządzenie | To jedyne urządzenie Cora, które odpytuje kontroler. Pozostaje główne, nawet gdy jest offline, a inne urządzenia Cora go nie zastępują. Cora Mobile odczytuje kontroler tylko wtedy, gdy to urządzenie jest offline. |
+| **Każde aktywne (automatycznie)** | Cora Mobile i każde urządzenie Cora online dzielą się pracą (wygrywa ostatni zapis). Gdy jedno przejdzie w tryb offline, inne pracuje dalej. Dobre dla domu z jednym urządzeniem i bezpieczniejszy wybór, jeśli nie masz pewności, które urządzenie powinno obsługiwać akwarium. |
 
-Gdy wybrane urządzenie jest offline, polecenie, które musi przez nie przejść, nie zostanie wykonane. Cora poinformuje Cię, że akwarium jest ustawione na to urządzenie, że urządzenie jest offline i że nic się nie wykonało. Spróbuj ponownie, gdy urządzenie wróci. Jeśli będzie offline dłużej, wybierz inne urządzenie albo **Każde aktywne (automatycznie)**.
+Gdy wybrane urządzenie jest offline, polecenie, które musi przez nie przejść, nie zostanie wykonane. Cora powie Ci, że akwarium jest ustawione na to urządzenie, że jest ono offline i że nic się nie wykonało. Spróbuj ponownie, gdy wróci. Jeśli będzie offline przez dłuższy czas, wybierz inne urządzenie albo **Każde aktywne (automatycznie)**.
 
-:::note Gdy dwa urządzenia obsługują jedno akwarium, wybierz główne
+:::note Dwa urządzenia pilnują jednego akwarium? Ustaw główne
 Wybór głównego urządzenia odciąża kontroler i usuwa zdublowane odczyty z tego samego źródła.
 :::
 
-:::note To ustawienie dotyczy akwarium w całym koncie, a nie jednego urządzenia
-Główne Cora Max należy do akwarium, a nie do telefonu czy Cora Max, na który akurat patrzysz. Zmiana na dowolnym urządzeniu działa w całym domu.
+:::note To ustawienie należy do akwarium
+Główne Cora Max ustawia się dla każdego akwarium w całym koncie. Nie należy do telefonu ani do Cora Max, który akurat masz w ręku. Zmień je na dowolnym urządzeniu, a zmieni się dla całego domu.
 :::
 
 ## Co działa poza domem
 
-Gdy jesteś poza siecią Wi-Fi akwarium, telefon nie łączy się ze sprzętem bezpośrednio. Polecenie trafia do Cora Cloud, a Cora Cloud przekazuje je do Cora Max przy akwarium. To ten Cora Max łączy się ze sprzętem.
+Gdy jesteś poza siecią Wi-Fi akwarium, telefon nie łączy się ze sprzętem bezpośrednio. Polecenie trafia do Cora Cloud, która przekazuje je do Cora Max przy akwarium. To ten Cora Max łączy się ze sprzętem.
 
-W praktyce:
+Co to dla Ciebie oznacza:
 
-- **Odczyty i historia** są dostępne zawsze i wszędzie, bo są już zapisane w Cora Cloud.
-- **Sterowanie sprzętem** (przełączenie gniazda, karmienie, dawka z głowicy, wstrzymanie pompy) działa też poza domem, jeśli Cora Max przy akwarium jest online i ma połączenie z tym sprzętem. Jeśli żaden nie ma, polecenie nie dotrze.
-- **Ustawienia samego urządzenia** (a nie jego odczyty) czasem wymagają telefonu w *tej samej* sieci co urządzenie. Sam Cora Max przy akwarium wtedy nie wystarczy. Jeśli tak jest, strona urządzenia mówi o tym wprost.
+- **Odczyty i historia** są zawsze dostępne, gdziekolwiek jesteś. Są już zapisane w Cora Cloud.
+- **Sterowanie sprzętem** działa też poza domem, jeśli Cora Max przy akwarium jest online i może połączyć się z tym sprzętem. Dotyczy to na przykład przełączenia gniazda, uruchomienia karmienia, dawki z głowicy albo wstrzymania pompy. Jeśli żaden Cora Max nie może się z nim połączyć, polecenie nie dotrze.
+- **Własne ustawienia urządzenia** (jego natywne ustawienia, a nie odczyty) czasem wymagają telefonu w *tej samej* sieci co urządzenie. Cora Max przy akwarium wtedy nie wystarczy. Strona tego urządzenia mówi, kiedy tak jest.
 
-Dwa komunikaty mówią, że polecenie nie przeszło bez problemu:
+Dwa komunikaty mówią, że polecenie nie przeszło bez problemu.
 
-- **„Nic nie zostało wysłane”**: polecenie nie wyszło z telefonu albo żaden Cora Max przy akwarium nie mógł go przyjąć. Nic się nie wykonało. Zobaczysz to, gdy Główne Cora Max akwarium jest offline i żadne inne urządzenie w tym akwarium nie może go zastąpić.
-- **„Mogło już zostać wykonane”**: polecenie zostało wysłane, ale żaden Cora Max nie potwierdził go na czas. Cora naprawdę nie wie, czy się wykonało. Zanim spróbujesz ponownie, sprawdź stan samego sprzętu, żeby nie wysłać polecenia dwa razy.
+- **„Nic nie zostało wysłane”** oznacza, że polecenie nigdy nie wyszło z telefonu albo żaden Cora Max przy akwarium nie mógł go przyjąć. Nic się nie wykonało. Zobaczysz to, gdy Główne Cora Max akwarium jest offline, a żadne inne urządzenie przy tym akwarium nie może go zastąpić.
+- **„Mogło już zostać wykonane”** oznacza, że polecenie wyszło, ale żaden Cora Max nie potwierdził go na czas. Cora naprawdę nie wie, czy się wykonało. Sprawdź sam sprzęt, zanim spróbujesz ponownie, żeby nie wysłać polecenia dwa razy.
 
-Jeśli któryś z tych komunikatów się powtarza, sprawdź, czy Cora Max przy akwarium jest online. Możesz też ustawić **Główne Cora Max** na **Każde aktywne (automatycznie)**, żeby polecenie mogło odebrać każde urządzenie online. Wszystkie możliwe wyniki polecenia opisuje [Sterowanie sprzętem](/help/mobile-device-control).
+Jeśli któryś z tych komunikatów się powtarza, sprawdź, czy Cora Max przy akwarium jest online. Możesz też ustawić **Główne Cora Max** na **Każde aktywne (automatycznie)**, żeby polecenie mogło przejąć każde urządzenie online. Wszystkie możliwe wyniki polecenia wymienia [Sterowanie sprzętem](/help/mobile-device-control).
 
 ## Gdzie widać stan każdego urządzenia
 

@@ -1,60 +1,69 @@
 ---
 title: Aktivität und Zeitleiste
-description: Alles, was mit deiner Ausrüstung passiert ist, und wer oder was es ausgelöst hat.
+description: Jede Änderung sehen, die an deine Ausrüstung geschickt wurde, wer oder was sie ausgelöst hat und ob sie geklappt hat, und die Zeitleiste des Beckens rund um ein Datum lesen.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 22
+reviewed: 2026-10-13
+order: 28
 group: Records
+twin: max-activity
 ---
 
-Unter Aktivität steht jede **Schaltanfrage**, also jeder Versuch, etwas zu ändern. Zu jedem Eintrag siehst du, wer die Anfrage gestellt hat und was daraus geworden ist.
+Die Aktivität listet jeden Versuch auf, etwas an deiner Ausrüstung zu ändern: Steckdosen schalten, Fütterungszyklen, Dosierungen und alles, was eine Szene oder Automation getan hat. Jede Zeile zeigt, was es ausgelöst hat und was danach passiert ist, auch bei den Anfragen, die nicht geklappt haben.
 
-Nicht jede Anfrage ändert etwas. Abgelehnte Anfragen wurden nicht ausgeführt, mit einer Ausnahme: Bei *Kein Gerät hat rechtzeitig geantwortet* kann die Aktion trotzdem gelaufen sein. Prüf die Ausrüstung, bevor du es noch einmal versuchst. Bei **Keine Änderung** war sie schon im gewünschten Zustand. Ob eine unbestätigte Anfrage das Gerät erreicht hat, ist unklar. Cora protokolliert jedes Ergebnis.
+Geh zu **Einstellungen → Aktivität**. Hast du mehr als ein Becken, wähl es mit den Becken-Chips oben.
 
-**Einstellungen → Aktivität.**
+![Die Aktivität in Cora Mobile](img/mobile-activity.webp "Oben die Legende der Ergebnisse, dann jede Aktion mit Ergebnis, Auslöser und Weg.")
 
-![Das Aktivitätsprotokoll](img/mobile-activity.webp "Jede Aktion, mit der Oberfläche, die sie angefordert hat.")
+## Was die Ergebnisse bedeuten {#outcomes}
 
-## Was protokolliert wird
+Jede Zeile hat ein Ergebnis. Dieselbe Legende steht oben auf dem Bildschirm unter **WAS DIE ERGEBNISSE BEDEUTEN**.
 
-Jede **Anfrage**, auch die, die nicht geklappt haben: Steckdosen schalten, Fütterungen, Dosierungen, Änderungen an Steckdosen und alles, was eine Szene oder Automation getan hat.
+| Ergebnis | Bedeutung |
+|---|---|
+| **Bestätigt** | Das Gerät hat gemeldet, dass es das getan hat |
+| **Unbestätigt** | Es wurde gesendet, aber es kam keine Rückmeldung. Vielleicht hat es das Gerät erreicht, vielleicht nicht |
+| **Abgelehnt** | Es wurde abgelehnt und nicht ausgeführt. Lies die Zeile, um zu sehen, warum |
+| **Keine Änderung** | Die Ausrüstung war schon in diesem Zustand, deshalb wurde nichts gesendet |
 
-Anfragen, die **abgelehnt** wurden, **keine Änderung** bewirkt haben oder **unbestätigt** zurückkamen, landen genauso im Protokoll wie ausgeführte. Darum geht es hier: Ein Befehl, der still und leise nichts getan hat, ist genau das, was du hier finden willst.
+Eine Ablehnung ist anders. *Kein Gerät hat rechtzeitig geantwortet* bedeutet, dass die Anfrage trotzdem ausgeführt worden sein kann. Prüf die Ausrüstung, bevor du es noch einmal versuchst.
 
-## Wer es ausgelöst hat
+Ein Befehl, der still nichts getan hat, ist genau das, was du hier finden willst. Deshalb bleiben fehlgeschlagene und wirkungslose Anfragen zusammen mit denen, die geklappt haben, im Protokoll.
 
-Jeder Eintrag nennt seinen Auslöser:
+## Was es ausgelöst hat {#causes}
+
+Jede Zeile nennt ihren Auslöser:
 
 | Auslöser | Bedeutung |
 |---|---|
-| **Diese App** | Du hast hier getippt |
+| **Diese App** | Du hast es in Cora Mobile angetippt |
 | **Sprache in dieser App** | Du hast auf diesem Handy per Sprache gefragt |
-| **Auf einem Cora getippt** | Jemand hat einen Cora-Bildschirm benutzt. Die Zeile sagt, welchen |
-| **Sprache an einem Cora Max** | Jemand hat mit einem Bildschirm gesprochen |
-| **Cora Assistant** | Du hast Cora darum gebeten |
-| **Automationsregel** | Eine Regel hat ausgelöst |
-| **Smart-Taste** | Jemand hat eine echte Taste gedrückt |
-| **Von Cora Cloud gesendet** | Der Befehl kam über dein Konto aus Cora Cloud |
-| **Unbekannte Quelle** | Protokolliert, bevor sich die Quelle feststellen ließ |
+| **Auf einem Cora getippt** | Jemand hat einen Cora Max-Bildschirm benutzt. Die Zeile sagt, welchen |
+| **Sprache an einem Cora Max** | Jemand hat mit einem Cora Max gesprochen |
+| **Cora Assistant** | Du hast Cora Assistant in einem Chat darum gebeten |
+| **Automationsregel** | Eine [Automation oder Szene](/help/mobile-automation) hat es getan |
+| **Von Cora Cloud gesendet** | Es kam von deinem Konto über Cora Cloud |
+| **Unbekannte Quelle** | Aufgezeichnet, bevor Cora sagen konnte, woher es kam |
 
-## Welchen Weg es genommen hat
+## Welchen Weg es genommen hat {#route}
 
-Jede Zeile hat außerdem einen Chip für den Weg. *Wie* eine Anfrage bei deiner Ausrüstung angekommen ist, erklärt oft, was schiefgelaufen ist:
+Jede Zeile hat außerdem einen Chip für den Weg. Wenn etwas schiefgeht, erklärt oft der Weg, auf dem die Anfrage deine Ausrüstung erreicht hat, warum.
 
 | Chip | Bedeutung |
 |---|---|
-| **LAN** | Direkt über dein eigenes Netzwerk an die Ausrüstung geschickt |
-| **ÜBER CLOUD** | Über dein Konto geschickt, weil die Ausrüstung direkt nicht erreichbar war |
-| **ROUTE ?** | Protokolliert, bevor Cora Wege aufgezeichnet hat. Der Weg ist wirklich unbekannt und wird auch nicht geraten |
+| **LAN** | Über dein eigenes Netzwerk direkt an die Ausrüstung geschickt |
+| **ÜBER CLOUD** | Über dein Konto geschickt, für Ausrüstung, die Cora nicht direkt erreicht |
+| **ROUTE ?** | Aufgezeichnet, bevor Wege festgehalten wurden, deshalb ist der Weg unbekannt |
 
-Hast du mehr als ein Cora, steht in der Zeile auch, welches die Anfrage verschickt hat.
+Hast du mehr als ein Cora Max, sagt die Zeile auch, welches die Anfrage ausgeführt hat.
 
-## Die Zeitleiste des Beckens
+## Die Zeitleiste des Beckens {#tank-timeline}
 
-Neben den Aktionen der Ausrüstung hat jedes Becken eine **Zeitleiste**. Dort stehen Messwerte, Warnungen, Tagebucheinträge, ICP-Ergebnisse und Änderungen am Besatz in zeitlicher Reihenfolge.
+Bei der Aktivität geht es um Ausrüstung. Bei der Zeitleiste des Beckens, auf dem Bildschirm **Riffgeschichte** genannt, geht es um das Becken. Sie zeigt Tagebucheinträge, Wartung, Änderungen am Besatz, Wassertests und Warnungen in zeitlicher Reihenfolge, mit Meilensteinen unterwegs.
 
-Schau in die Aktivität, wenn du wissen willst *"Was hat etwas getan?"*. Schau in die Zeitleiste, wenn du wissen willst *"Was war rund um dieses Datum los?"*
+Um sie zu öffnen, geh zum [Tagebuch](/help/mobile-journal) und tippe oben auf das Symbol **Beckenzeitleiste**. Mit den Chips oben zeigst du nur **Tagebuch**, **Wartung**, **Besatz**, **Wassertests** oder **Warnungen**, oder **Alle**. **Ältere Geschichte laden** geht weiter zurück. Du kannst auch hier einen **Neuer Eintrag** anlegen oder einen diktieren.
 
-:::note Zeitleiste und Tagebuch ergänzen sich
-In der Zeitleiste steht, was Cora aufgezeichnet hat. Im [Tagebuch](/help/mobile-journal) steht, was du getan hast. Liest du beide zusammen, erkennst du Ursache und Wirkung rund um ein bestimmtes Datum.
+Nimm die Aktivität, wenn du wissen willst *"Was hat etwas getan?"* Nimm die Zeitleiste, wenn du wissen willst *"Was war rund um dieses Datum los?"*
+
+:::note Nutze die Zeitleiste zusammen mit dem Tagebuch
+Die Zeitleiste sammelt, was Cora aufgezeichnet hat. Das Tagebuch enthält, was du getan hast und warum. Lies beide nebeneinander, um Ursache und Wirkung rund um ein Datum zu sehen.
 :::

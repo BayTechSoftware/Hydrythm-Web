@@ -1,88 +1,104 @@
 ---
 title: Cora Max panosunu düzenleme
-description: Izgara seçin, widget ekleyin ve Cora Max ekranı için düzenlerinizi kaydedin.
+description: Cora Max panosunda kutucuk ekleyin, taşıyın ve kaldırın, bir ızgara seçin, şablonları ya da Yapay zeka ile tasarla'yı kullanın ve düzenleri herhangi bir Cora Max'te yeniden kullanmak üzere kaydedin.
 section: Cora Max
 reviewed: 2026-10-13
 order: 4
 group: Your dashboard
+twin: mobile-dashboard-editing
 ---
 
-Cora Max panosu **sabit bir ızgara** kullanır. Tüm kutucuklar tek ekrana sığmalıdır, çünkü ekran kaymaz. Telefondaki panodan en büyük farkı budur.
+Bu sayfa bir Cora Max panosundaki kutucukları nasıl düzenleyeceğinizi gösterir. Pano **sabit bir ızgara** kullanır: ekran kaymaz, bu yüzden her kutucuğun tek ekrana sığması gerekir. Telefon panosundan temel farkı budur.
 
-Düzenleyiciyi **akvaryum menüsünden** açın. Üst çubukta akvaryum adına, sonra **Pano düzeni**'ne dokunun. Aynı ekran **Ayarlar → Akvaryum ayarları → [akvaryumunuz] → Pano düzeni** altında da var.
+Düzenleyiciyi **akvaryum menüsünden** açın: üst çubukta akvaryum adına, ardından **Pano düzeni**'ne dokunun. Aynı ekran **Ayarlar → [akvaryumunuz] → Pano düzeni** altında da var.
 
-![Cora Max'te pano düzenleyicisi](img/max-dashboard-editor.webp "Üstte ızgara boyutları, altında kutucuklar. Kutucuklarda ölçüm değil, tür ve kaynak yazar, çünkü bu bir düzen ekranıdır. Kaydet'e basana kadar hiçbir şey kaydedilmez.")
+![Cora Max'te pano düzenleyicisi](img/max-dashboard-editor.webp "Üstte ızgara boyutları, ardından kutucuklar. Bu bir düzen ekranıdır, bu yüzden her kutucuk ölçüm yerine türünü ve kaynağını gösterir. Kaydet'e basana kadar hiçbir şey kaydedilmez.")
 
 :::tip Telefonunuzdan da düzenleyebilirsiniz
-**Cihazlar → Cora Max'iniz → Panoyu Düzenle** ile aynı düzeni Cora Mobile'dan kurarsınız. Kutucukları duvardaki ekranda tek tek yerleştirmekten daha hızlıdır. Sonuç ekranda hemen görünür.
+Cora Mobile'da **Cihazlar** sekmesini açın, Cora Max'inize, ardından akvaryumun kartındaki **Pano düzeni**'ne dokunun. Bu, kutucukları bir duvar ekranında elle yerleştirmekten daha hızlıdır ve sonuç kaydettiğiniz anda Cora Max'te görünür.
 :::
 
-## Izgara seçme
+## Izgara seçme {#choosing-a-grid}
 
-Önce yoğunluğu seçin. Izgarayı sonradan değiştirirseniz tüm kutucuklar yeniden yerleşir.
+Önce ızgara boyutunu seçin. Onu sonradan değiştirmek tüm kutucukların yerini değiştirir.
 
-| Izgara | Kutucuk | Nasıl görünür |
+| Izgara | Kutucuk | Nasıl hissettirir |
 |---|---|---|
-| 2×2, 3×2, 3×3 | 4-9 | Büyük. Odanın öbür ucundan okunur. |
-| 4×4, 5×3, 6×4 | 16-24 | Eksiksiz bir sistem için en çok seçilen. |
-| 6×5, 8×4, 8×5 | 30-40 | Yoğun. Tüm reef odası tek ekranda. |
-| 9×5, 10×5 | 45-50 | Çok yoğun. En büyük ekranlara uygun. |
-| **Otomatik** | 32'ye kadar | Cora, eklediğiniz kutucuk sayısına uygun bir şekil seçer. |
+| 2×2, 3×2, 3×3 | 4–9 | Büyük. Odanın öbür ucundan kolayca okunur. |
+| 4×4, 5×3, 6×4 | 16–24 | Eksiksiz bir sistem için olağan seçim. |
+| 6×5, 8×4, 8×5 | 30–40 | Yoğun. Bütün bir reef odası tek ekranda. |
+| 9×5, 10×5 | 45–50 | Çok yoğun. En iyisi en büyük ekranlarda. |
+| **Otomatik** | 32'ye kadar | Cora, eklediğiniz kutucuk sayısına uyan bir şekil seçer. |
 
-Sabit ızgaraya hücre sayısı kadar kutucuk sığar. 10×5'te bu 50'dir. Kendi sınırı olan tek seçenek **Otomatik**'tir. 32 kutucukta durur, çünkü daha fazlasında yazılar uzaktan okunamayacak kadar küçülür.
+Sabit bir ızgara hücre sayısı kadar kutucuk alır, 10×5'te 50'ye kadar. **Otomatik**'in kendi 32 kutucuk sınırı vardır. Bunun ötesinde yazı uzaktan okunamayacak kadar küçülür.
 
-:::note Emin değilseniz Otomatik ile başlayın
-İstediğiniz kutucukları ekleyin ve ızgarayı **Otomatik**'te bırakın. Cora onlara uyan bir şekil seçer. Sonucu beğenirseniz ızgarayı o sabit şekle ayarlayın.
+:::note Emin değil misiniz? Otomatik ile başlayın
+İstediğiniz kutucukları ekleyin ve ızgarayı **Otomatik**'te bırakın. Cora onlara uyan bir şekil seçer. Beğenirseniz sonradan o sabit şekle geçebilirsiniz.
 :::
 
-:::warning Izgarayı değiştirince kutucuklar yalnızca yer kalmazsa silinir
-Kutucuklar yeni şekle yeniden yerleştirilir, konumlarına göre atılmaz. Hâlâ geçerli bir hücrede olan kutucuk yerinde kalır, geri kalanlar sırayla yeniden dizilir. Kutucuk yalnızca yeni ızgarada **kutucuklarınızdan daha az hücre** varsa kaybolur. Cora kaç tanesinin silindiğini size söyler. 10×5'ten (50 hücre) 3×3'e (9 hücre) geçerseniz çoğu gider.
+:::warning Izgarayı değiştirmek yalnızca kutucuklar sığmadığında onları düşürür
+Izgarayı değiştirdiğinizde Cora kutucukları konumlarına göre atmaz. Hâlâ geçerli bir hücresi olan kutucuklar yerinde kalır, geri kalanlar sırayla yeniden yerleştirilir. Kutucuk yalnızca yeni ızgarada **kutucuklarınızdan daha az hücre** varsa kaybolur ve Cora kaç tanesinin gittiğini söyler. 10×5'ten (50 hücre) 3×3'e (9) geçmek çoğunu kaybettirir.
 :::
 
-## Ekleme ve yerleştirme
+## Kutucuk ekleme ve yerleştirme {#adding-and-arranging}
 
-Düzenleyicinin üstünde üç hareket yazar: **düzenlemek için kutucuğa dokunun**, **taşımak için uzun basın**, **kaldırmak için ✕**. Kutucuklar bir ya da iki hücre genişliğinde, bir ya da iki hücre yüksekliğinde olabilir.
+1. **Bileşen ekle**'yi açmak için boş bir hücreye (**+** gösterir) dokunun.
+2. **TÜR** altında kutucuğun türünü, ardından ne göstereceğini (bir ölçüm, bir priz, bir cihaz ya da bir sahne) seçin.
+3. **BOYUT** altında ne kadar büyük olacağını seçin. Bir kutucuk bir ya da iki hücre genişliğinde ve bir ya da iki hücre yüksekliğinde olabilir. Bir Grafik'in ayrıca bir **ZAMAN ARALIĞI** vardır. Bir dozaj pompası kutucuğunda **Gün** ya da **Mililitre (mL)** olarak **Kalanı şu şekilde göster** bulunur.
+4. **Ekle**'ye dokunun.
 
-**Prizler ve Besleme**, kontrol edebildiğiniz prizleri ve besleme döngülerini tek tek değil, tek adımda ekler. **Tümünü temizle** ızgarayı boşaltır, baştan başlayabilirsiniz.
+Hareketler düzenleyicinin üstünde listelenir: **düzenlemek için bir kutucuğa dokunun**, **taşımak için uzun basın** ve **kaldırmak için ✕**. **Tümünü temizle**, baştan başlayabilmeniz için ızgarayı boşaltır.
 
-On altı kutucuk türü var: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* ve Kamera *(Beta)*. Hepsi **[Widget rehberi](/help/mobile-widgets)** sayfasında anlatılıyor.
+On altı kutucuk türü şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* ve Kamera *(Beta)*. Onları [Widget rehberi](/help/mobile-widgets) sayfasında bulursunuz. **Sahne** kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir [sahne](/help/max-automation) çalıştırır.
 
-Beta kutucuklar, yalnızca Beta kullanıcılarının ekleyebildiği Beta entegrasyonlara aittir ve bir kutucuğu ancak cihaza sahip olduğunuzda görürsünüz. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+:::note Beta
+**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) ve kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Kutucukları ancak cihaza sahip olduğunuzda görünür. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+:::
 
-## Şablonlar
+## Prizler ve Besleme {#outlets-feed}
 
-**Şablonlar**, düzenleyicinin üstünde **Yapay zeka ile tasarla**'nın yanında bulunur. Her planda açıktır ve hiç yapay zeka kullanmaz, bu yüzden yapay zeka veri paylaşımı kapalıyken de çalışır.
+Düzenleyicideki **Prizler ve Besleme**, panonun altından yukarı kaydırdığınız çekmece olan **Kontroller**'de hangi prizlerin ve besleme döngülerinin görüneceğini seçer. Kutucuk eklemez. Hiçbirini seçmezseniz Kontroller hepsini listeler. Bir prizi ızgaranın kendisine koymak için bir **Priz** kutucuğu ekleyin. Ayrıntılar [Prizler ve kontroller](/help/max-controls) sayfasında.
 
-**Pano şablonları**'nı açar. Bunlar, bu akvaryumun bildirdiği ve bağladığı şeylerden oluşturulan birkaç hazır düzendir:
+## Şablonlar {#templates}
 
-- **Genel bakış**: az sayıda büyük kutucuk. Temel parametreler gösterge olarak, yanlarında ana cihazlarınız
+**Şablonlar**, düzenleyicinin üstünde **Panolarım** ve **Yapay zeka ile tasarla**'nın yanında durur. Her planda açıktır ve hiçbir zaman yapay zeka kullanmaz, bu yüzden yapay zeka veri paylaşımı olmadan da çalışır.
+
+Bu akvaryumun bildirdiklerinden ve bağladıklarından oluşturulan birkaç hazır düzen olan **Pano şablonları**'nı açar:
+
+- **Genel bakış**: temel parametreler gösterge olarak ve ana cihazlarınızla, az sayıda büyük kutucuk
 - **Ekipman**: önce her cihaz için bir kutucuk, ardından prizler ve temel parametreler
 - **Parametreler**: önce grafikler ve ölçümler, cihazlar ve prizler en sonda
-- **Kamera**: sol üstte büyük bir canlı görüntü, yanında temel parametreler. Yalnızca akvaryumda kamera varsa görünür. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
+- **Kamera**: sol üstte büyük bir canlı görüntü ve yanında temel parametreler. Yalnızca akvaryumda bir kamera varsa görünür. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
 
-Her şablon bir önizleme ve hangi ızgarada kaç kutucuğu olduğunu gösterir. **Bunu kullan**'a dokunun. Cora önce **Panonuz değiştirilsin mi?** diye sorar. Mevcut düzeninizi saklamak istiyorsanız **Önce mevcut olanı ön ayar olarak kaydet**'e, istemiyorsanız **Değiştir**'e dokunun. **Kaydet**'e basana kadar hiçbir şey kaydedilmez.
+Her biri bir önizleme ve hangi ızgarada kaç kutucuğu olduğunu gösterir. **Bunu kullan**'a dokunun. Cora önce **Panonuz değiştirilsin mi?** diye sorar. Mevcut düzeninizi saklamak istiyorsanız **Önce mevcut olanı ön ayar olarak kaydet**'e, istemiyorsanız **Değiştir**'e dokunun. **Kaydet**'e basana kadar hiçbir şey kaydedilmez.
 
-## Yapay zeka ile tasarla
+## Yapay zeka ile tasarla {#design-with-ai}
 
-Ücretli bir planda düzenleyicide **Yapay zeka ile tasarla** düğmesi bulunur. Cora, bu akvaryumun bildirdiği ve bağladığı şeylere bakarak komple bir düzen önerir ve kaç kutucuğu olduğunu, hangi ızgarada olduğunu gösterir. Düzenleyiciye almak için **Bunu kullan**'a, başka bir öneri için **Tekrar deneyin**'e dokunun. Her akvaryum için günde 5 tasarım yapabilirsiniz.
+Düzenleyicide bir **Yapay zeka ile tasarla** düğmesi vardır. Ücretli bir planda ve deneme süresinde çalışır. Cora, bu akvaryumun bildirdiklerinden ve bağladıklarından komple bir düzen önerir ve hangi ızgarada kaç kutucuğu olduğunu gösterir. Onu düzenleyiciye koymak için **Bunu kullan**'a, başka bir öneri için **Tekrar dene**'ye dokunun. Her akvaryum için günde 5 tasarım yapabilirsiniz.
 
-Yapay zeka tasarımı bu panodaki mevcut düzenin yerine geçer. **Kaydet**'e basana kadar hiçbir şey kaydedilmez ve mevcut düzeninizi önce panolarınızdan biri olarak kaydederek saklayabilirsiniz. Ücretsiz plandaysanız **Yapay zeka ile tasarla** sizi planlara yönlendirir. Ayrıca Cora uygulamasında yapay zeka veri paylaşımının açık olması gerekir.
+Bir yapay zeka tasarımı bu panoda şu an olanın yerine geçer. **Kaydet**'e basana kadar hiçbir şey kaydedilmez ve mevcut düzeninizi önce **Panolarım**'a kaydederek saklayabilirsiniz. Ücretsiz planda **Yapay zeka ile tasarla** sizi planlara yönlendirir. Ayrıca Cora Mobile'da yapay zeka veri paylaşımının açık olmasını gerektirir. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant) sayfasında.
 
-## Uzaktan okunacak şekilde tasarlayın
+## Uzaktan okunmak için tasarlama {#designing-for-distance}
 
-Duvardaki ekranı telefondan daha uzaktan okursunuz. Genellikle de dikkatle değil, bir göz atarak.
+İnsanlar bir duvar ekranını telefondan daha uzaktan ve genellikle hızlı bir bakışla okur.
 
-- **Öne çıkan parametrelere 2×2 yer verin.** Alkalinite, sıcaklık, pH gibi yanına gitmeden görmek istediğiniz değerler.
-- **Kontrolleri kenarlara koyun.** En çok dokunduğunuz kutucuklar priz kutucuklarıdır. Kenardayken onlara daha kolay dokunursunuz.
-- **Türe göre değil, konuya göre gruplayın.** Dozajla ilgili her şey bir yerde, akışla ilgili her şey başka bir yerde olsun. Duvardaki ekrana bölge bölge bakarsınız.
-- **Eser elementleri küçük tutun.** Eser elementler ve yavaş değişen diğer değerler anlık izlemek için değil, arada bakmak içindir. 1×1 bir değer kutucuğu yeter.
+- Önemli parametrelerinizi ikiye iki yapın. Alkalinite, sıcaklık ve pH yanına yürümeden okumak isteyeceğiniz şeylerdir.
+- Kontrolleri kenarlara koyun. Priz kutucukları uzandığınız kutucuklardır ve kenarlarda onlara dokunmak daha kolaydır.
+- Kutucukları konuya göre gruplayın. Dozajla ilgili her şeyi bir arada, akışla ilgili her şeyi bir arada tutun, çünkü bir duvarı alan alan tararsınız.
+- Eser elementleri küçük tutun. Onlar ve yavaş değişen diğer sayılar başvuru içindir, bu yüzden bire bir bir değer kutucuğu yeterlidir.
 
-## Düzenleri kaydetme
+## Düzenleri kaydetme ve yeniden kullanma {#saving-layouts}
 
-Düzenleyicide yaptığınız değişiklikler ancak **Kaydet**'e basınca geçerli olur. Kaydetmeden çıkarsanız değişiklikler silinir.
+Düzenleyicide yaptığınız hiçbir şey **Kaydet**'e basana kadar etkili olmaz. Kaydedilmemiş değişikliklerle çıkarsanız Cora önce **Değişiklikler atılsın mı?** diye sorar.
 
-Tekrar kullanmak istediğiniz düzenleri **Panolarım**'da saklarsınız. Böylece her seferinde baştan kurmak yerine aralarında geçiş yaparsınız. Örneğin günlük kullanım için yoğun bir düzen, akvaryumda çalışırken büyük kutucuklu bir düzen kullanabilirsiniz. Aralarında geçmek tek dokunuş.
+**Panolarım**, dönmek istediğiniz tasarımları tutar. Bu ekranda değil hesabınızda saklanırlar, bu yüzden hesabınızdaki her Cora Max, başka bir akvaryum ya da yedek bir ekran için onları yükleyebilir.
 
-## Birden çok akvaryum
+- **Bu tasarımı kaydet**, düzenleyicide olanı saklar. En fazla 30 tane tutabilirsiniz.
+- **Yükle**, kayıtlı bir tasarımı düzenleyiciye koyar. Telefonunuzdan kaydedilen tasarımlar **Telefon** olarak işaretlenir.
+- Yüklemeden önce Cora kaç kutucuğun aktarılacağını söyler. Aktarılamayan her şey, örneğin bu akvaryumun bildirmediği bir ölçüm ya da bu akvaryumda olmayan bir cihaz, nedeniyle birlikte **Geride kalanlar:** altında listelenir.
 
-Her akvaryumun kendi düzeni vardır. Her birini kendi ayarlarından, tek tek düzenleyin.
+Örneğin her gün kullandığınız yoğun bir düzen ve akvaryumda çalışırken kullanacağınız büyük kutucuklu bir düzen tutabilirsiniz.
+
+## Birden fazla akvaryum {#multiple-tanks}
+
+Her akvaryumun kendi düzeni vardır. O akvaryuma geçin ve akvaryum menüsünden **Pano düzeni**'ni açın ya da **Ayarlar → [o akvaryum] → Pano düzeni** yolunu kullanın.

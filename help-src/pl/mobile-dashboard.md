@@ -1,101 +1,121 @@
 ---
 title: Jak czytać pulpit
-description: Jak czytać pulpit Cory: widżety, wiek odczytów, źródła i znaczenie kolorów.
+description: Jak czytać pulpit Cory: widżety, wiek i źródła odczytów, znaczenie kolorów i karty, które pojawiają się i znikają.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 5
+reviewed: 2026-10-13
+order: 6
 group: Your dashboard
 ---
 
-Pulpit to siatka **widżetów**. Każdy pokazuje jedną rzecz z jednego akwarium. Co na nim będzie, zależy tylko od Ciebie. Więcej w **[Edytowaniu pulpitu](/help/mobile-dashboard-editing)**.
+Pulpit to siatka **widżetów** dla jednego akwarium. Każdy widżet pokazuje jedną rzecz. Ty decydujesz, co na nim jest, tak jak opisuje [Edytowanie pulpitu](/help/mobile-dashboard-editing).
 
-![Pulpit Cora Mobile](img/mobile-dashboard.webp "Wskaźniki, liczby, trendy i przełączniki na jednym ekranie.")
+![Pulpit Cora Mobile](img/mobile-dashboard.webp "Nagłówek akwarium i karta Reef Buddy, a pod nimi wskaźniki, wartości, wykresy i kafelki urządzeń.")
 
-## Nagłówek akwarium
+## Nagłówek akwarium {#the-tank-header}
 
-Na górze każdego pulpitu są:
+Każdy pulpit zaczyna się od:
 
-- **Nazwa akwarium** z małym symbolem obok. Ten symbol służy tylko do **szybkiej zmiany nazwy**.
-- **Karmienie** wstrzymuje przepływ i odpieniacz na czas karmienia, a potem wszystko przywraca.
-- **Reef Buddy** otwiera dzisiejszy poranny briefing.
-- **Udostępnij** wysyła zrzut pulpitu.
-- **Ołówek po prawej** otwiera [profil akwarium](/help/mobile-tank-profile).
+- Nazwy akwarium z małym symbolem obok. Dotknij nazwy, żeby zmienić nazwę akwarium. Tylko to robi.
+- **Karmienie**, tylko przy akwarium z Neptune Apex. Otwiera **Tryb karmienia** z cyklami Twojego Apex od **Karmienie A** do **Karmienie D**. To Twój Apex decyduje, co się wstrzymuje i kiedy wraca, tak jak to w nim ustawiono. Gdy cykl działa, przycisk pokazuje, który, na przykład **Karmienie A**. Dotknij go i wybierz **Odwołaj karmienie**, żeby zakończyć go wcześniej. Poza domem polecenie wysyła za Ciebie Cora Max przy akwarium.
+- Ikony gazety, która otwiera najnowsze podsumowanie **Reef Buddy**.
+- Ikony udostępniania, która tworzy zdjęcie akwarium. Zobacz [Udostępnianie akwarium](/help/mobile-sharing).
+- Linijki, która otwiera **Jednostki** dla tego akwarium. Zobacz [Profil akwarium](/help/mobile-tank-profile#units).
+- Ołówka po prawej, który otwiera [profil akwarium](/help/mobile-tank-profile).
 
-:::note Trzy podobne przyciski, trzy różne miejsca
-Symbol przy nazwie zmienia nazwę akwarium. Ołówek po prawej otwiera **profil** akwarium. Sam pulpit edytujesz jeszcze gdzie indziej: przyciskiem **Edytuj panel** na *dole* pulpitu, pod widżetami.
+:::note Trzy podobne elementy
+Nazwa akwarium zmienia nazwę akwarium. Ołówek po prawej otwiera **profil** akwarium. Żeby edytować sam pulpit, dotknij **Edytuj panel** tuż pod widżetami.
 :::
 
-Jeśli masz kilka akwariów, przesuwaj palcem w bok, żeby przełączać się między nimi.
+Jeśli masz więcej niż jedno akwarium, przesuwaj palcem w bok, żeby się między nimi przełączać. Zobacz [Zarządzanie akwariami](/help/mobile-tanks).
 
-## Karta Reef Buddy
+## Karta Reef Buddy {#the-reef-buddy-card}
 
-Pod nagłówkiem jest karta z podsumowaniem ostatniego briefingu: nagłówek, oceny **Stabilność** i **Dane** oraz liczba spostrzeżeń. Dotknij jej, żeby otworzyć cały briefing, albo zamknij ją przyciskiem **×**. Nowa karta pojawi się z następnym briefingiem.
+Nad widżetami karta podsumowuje ostatnie podsumowanie dnia. Pokazuje nagłówek, wynik na 100, gdy Cora ma dość danych, datę, z której pochodzi, oraz liczbę spostrzeżeń i dryfujących odczytów. Dotknij jej, żeby otworzyć całe podsumowanie, albo zamknij ją przyciskiem **×**. Nowa karta pojawi się z następnym podsumowaniem. Więcej w [Reef Buddy](/help/mobile-reef-buddy).
 
-## Jak czytać widżet parametru
+## Jak czytać widżet parametru {#how-to-read-a-parameter-widget}
 
-Widżet **zmierzonego parametru** ma zawsze te same trzy elementy w tych samych miejscach. Kafelki urządzeń i sterowania (gniazdo, pompa dozująca, pompa) pokazują za to swój stan, bo nie stoi za nimi jeden odczyt.
+Widżet **zmierzonego parametru** zawsze pokazuje te same trzy rzeczy w tych samych miejscach. Kafelki urządzeń i sterowania, takie jak gniazdo, dozownik albo pompa, pokazują zamiast tego swój stan, bo nie stoi za nimi jeden odczyt.
 
-**Wartość** to sam odczyt, duży i na środku.
+Wartość to sam odczyt, duży i na środku.
 
-**Wiek** jest pod nią albo obok: `teraz`, `1g`, `2d`. Mówi, jak dawno zrobiono odczyt, a nie kiedy odświeżył się ekran. Wartość, która nie zmieniła się od dwóch dni, pokazuje `2d`. To też jest informacja.
+Wiek jest pod nią albo obok, jako `teraz`, `1g` albo `2d`. Mówi, jak dawno źródło ostatnio potwierdziło tę wartość, a nie kiedy ostatnio odświeżył się ekran. Dla sondy to chwila, gdy jej urządzenie ostatnio się zgłosiło, więc stały odczyt z działającej sondy pozostaje świeży, nawet gdy liczba się nie zmienia. Dla wyniku testu kropelkowego albo ICP to chwila wykonania testu. Wiek, który przy sondzie ciągle rośnie, oznacza, że jej urządzenie przestało raportować.
 
-**Znaczek źródła** to mały symbol obok wieku. Pokazuje, skąd pochodzi liczba: z sondy, kontrolera, wyniku laboratoryjnego albo z Twojego testu kropelkowego. Dotknij widżetu, a zobaczysz pełną nazwę źródła i niedawną historię.
+Znaczek źródła to mały symbol obok wieku. Pokazuje, skąd pochodzi liczba: z sondy, kontrolera, wyniku z laboratorium albo od Ciebie z testu kropelkowego. Dotknij widżetu, żeby zobaczyć pełną nazwę źródła i niedawną historię.
 
-:::note Dlaczego wiek jest tak ważny
-Idealny odczyt alkaliczności sprzed czterech dni nie jest bieżącym odczytem alkaliczności. Wiek jest przy każdej wartości, żeby różnicę było widać od razu.
+:::note Dlaczego wiek ma znaczenie
+Idealny odczyt alkaliczności sprzed czterech dni nie jest Twoją alkalicznością dzisiaj. Każda wartość pokazuje swój wiek, żeby różnicę było widać od razu.
 :::
 
-## Kolory
+## Kolory {#colours}
 
-Cora używa kolorów oszczędnie i zawsze w tym samym znaczeniu:
+Cora używa niewielu kolorów i każdy zawsze znaczy to samo:
 
 | Kolor | Znaczenie |
 |---|---|
-| Zielony | Wartość jest spokojnie w zakresie |
-| Bursztynowy | Blisko granicy. **Zwykle nadal w zakresie**, ale w jego ostatniej dziesiątej części |
+| Zielony | Spokojnie w zakresie dla tego parametru |
+| Bursztynowy | Blisko granicy. **Zwykle nadal w zakresie**, w jego ostatniej dziesiątej części |
 | Czerwony | Poza granicą. Warto zareagować |
-| Szary | Brak oceny: nie ma świeżego odczytu albo zakresu, do którego można porównać |
+| Szary | Brak oceny. Nie ma świeżego odczytu albo zakresu, według którego można go ocenić |
 
-:::note Bursztynowy zwykle znaczy „jeszcze dobrze, ale coś się zmienia”
-Bursztynowy oznacza *margines*, a nie przekroczenie. Odczyt w zakresie, ale w jego ostatnich 10%, dostaje bursztynowy kolor. Dzięki temu dryf widać, zanim stanie się problemem, gdy jest jeszcze czas na reakcję.
+:::note Bursztynowy zwykle znaczy „na razie dobrze, ale coś dryfuje”
+Bursztynowy to margines. Odczyt w zakresie, ale w jego ostatnich 10%, robi się bursztynowy, więc widzisz dryf, gdy jest jeszcze czas na reakcję.
 
 Są dwa doprecyzowania.
 
-**Zakres ustawiony przez Ciebie to granica.** Po jej przekroczeniu widżet od razu robi się czerwony, bez bursztynowego marginesu, bo tę granicę wyznaczasz świadomie. Zakres **podany przez Corę** jest łagodniejszym punktem odniesienia. Przez pierwsze 10% poza granicą widżet jest bursztynowy, a dalej czerwony.
+**Zakres ustawiony przez Ciebie to twarda granica.** Po jej przekroczeniu widżet od razu robi się czerwony, bez bursztynowego marginesu. Zakres **podany przez Corę** jest łagodniejszy. Przez pierwsze 10% poza granicą widżet jest bursztynowy, a dalej czerwony.
 
-**Limit jednostronny** (górna granica dla zanieczyszczenia albo dolna dla składnika odżywczego) jest oceniany tylko przy górnej krawędzi. Dlatego miedź na zerze jest zielona i nie dostaje bursztynowego koloru za to, że leży przy dole skali.
+**Limit jednostronny**, na przykład górna granica dla zanieczyszczenia albo dolna dla składnika odżywczego, jest oceniany tylko na górnej krawędzi. Dlatego miedź na zerze jest zielona i nie robi się bursztynowa za to, że leży przy dole skali.
 :::
 
-Widżet z bursztynową albo czerwoną ramką wymaga uwagi. Ramka obejmuje cały widżet, nie samą liczbę, więc widać ją podczas przewijania.
+Widżet z bursztynową albo czerwoną ramką wymaga uwagi. Ramkę dostaje cały widżet, więc zauważysz go podczas przewijania.
 
-## Pod widżetami
+Żeby zmienić zakres, przytrzymaj widżet. Więcej w [Alertach i progach](/help/mobile-alerts).
 
-![Dół pulpitu](img/mobile-dashboard-foot.webp "Edytuj panel, Zapisz parametry i skróty do czterech rodzajów zapisów.")
+## Karty, które pojawiają się i znikają {#cards-that-come-and-go}
 
-Na dole pulpitu są:
+Niektóre karty pojawiają się tylko wtedy, gdy jest coś do powiedzenia. Większość z nich jest między nagłówkiem a widżetami.
 
-- **Edytuj panel** otwiera [edytor pulpitu](/help/mobile-dashboard-editing).
-- **Zapisz parametry** służy do ręcznego wpisania wyników testów kropelkowych.
-- **Historia parametrów** otwiera historię dowolnego parametru, który ma dane, nawet takiego bez widżetu. Zobacz [Szczegóły parametru](/help/mobile-metric-detail).
-- **Karmienie** zapisuje karmienie, które odbiega od Twojego planu. Zobacz [Dziennik](/help/mobile-journal).
-- **Dziennik · Alerty · Konserwacja · Obsada** to skróty do tych miejsc dla tego akwarium.
+| Karta | Kiedy się pojawia | Co dotknąć |
+|---|---|---|
+| **Zaczynasz nowe akwarium?** | Przy akwarium bez żadnych odczytów. Po rozpoczęciu zmienia się w **Kontynuuj cyklowanie** | Kartę, żeby zacząć cyklowanie z przewodnikiem. Zobacz [Ścieżki z przewodnikiem](/help/mobile-journeys) |
+| **Parametry akwarium** z *Jeszcze brak odczytów* | Akwarium nie ma jeszcze odczytów | **Skonfiguruj akwarium** |
+| *Nie udało się połączyć z Twoimi odczytami: wyświetlanie danych z pamięci podręcznej.* | Cora nie może wczytać najnowszych odczytów, często z braku połączenia | **Spróbuj ponownie** |
+| **Wynik laboratoryjny od {lab} czeka na Ciebie.** | Laboratorium przysłało wynik, a Cora musi wiedzieć, do którego akwarium należy | **Wybierz akwarium**. Zobacz [ICP i raporty zdrowia](/help/mobile-icp-health) |
+| Zachęta do profilu (**Odblokuj lepsze analizy**) | Profil akwarium jest wypełniony w mniej niż 80% | Kartę, żeby dalej wypełniać profil |
+| **Okres próbny Cora Pro: pozostało 9 dni** | Ostatnie dni okresu próbnego | Kartę albo **Zachowaj Pro**. Zobacz [Plany i subskrypcje](/help/mobile-plans) |
+| **Reef Buddy** | Podsumowanie jest gotowe | Kartę |
+| **Jak zwykle karmisz?** | Nie ustawiono planu karmienia | **Ustaw plan karmienia** |
+| *Odczyty Red Sea przestały się aktualizować.* | Nic nie odczytuje urządzeń Red Sea tego akwarium | Zobacz [Alerty i progi](/help/mobile-alerts) |
+| **Kamery** (Beta) | Akwarium ma kamerę, pod widżetami. Kamery są dostępne tylko dla użytkowników Beta | **Oglądaj na żywo** |
+| **Zapisz pierwszy test wody** | Brak odczytów i podłączonego sprzętu, pod widżetami | Kartę. Zobacz [Konfiguracja Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
-W akwarium bez odczytów i bez podłączonego sprzętu karta nad nimi, **Zapisz pierwszy test wody**, pomaga zacząć. Zobacz [Pierwsze kroki z Cora Mobile](/help/mobile-setup).
+## Pod widżetami {#below-the-widgets}
 
-Linijka nad nimi pokazuje, kiedy pulpit się ostatnio zaktualizował i z jakich źródeł korzystał.
+![Dół pulpitu w Cora Mobile](img/mobile-dashboard-foot.webp "Edytuj panel, przyciski Zapisz parametry, Historia parametrów i Karmienie oraz skróty do czterech rodzajów zapisków.")
 
-## Szczegóły widżetu
+Od góry do dołu znajdziesz:
 
-Dotknij widżetu, żeby otworzyć szczegóły: pełną historię na wykresie, wszystkie źródła, które podawały ten parametr, i obecne progi. Stamtąd wpiszesz nowy odczyt ręcznie, zmienisz zakres albo cofniesz się dalej w historii.
+- Linijkę z informacją, kiedy pulpit ostatnio się zaktualizował i z jakich źródeł korzystał, a obok niej **Edytuj panel**. To otwiera [edytor pulpitu](/help/mobile-dashboard-editing).
+- Kartę **Zapisz pierwszy test wody**, przy akwarium bez odczytów i bez podłączonego sprzętu.
+- **Zapisz parametry**, do ręcznego wpisywania wyników testów kropelkowych.
+- **Historia parametrów**, żeby otworzyć historię dowolnego parametru, który ma dane, nawet takiego bez widżetu. Zobacz [Szczegóły parametru](/help/mobile-metric-detail).
+- **Karmienie**, żeby zapisać karmienie, które odbiega od planu. Zobacz [Dziennik](/help/mobile-journal).
+- **Dziennik · Alerty · Konserwacja · Obsada**, skróty do tych miejsc dla tego akwarium.
 
-## Gdy widżet nie ma wartości
+## Dotknięcie i przytrzymanie {#tapping-through}
+
+Dotknij widżetu parametru, żeby otworzyć jego szczegóły. Zobaczysz pełną historię na wykresie, każde źródło, które go zgłaszało, i pasmo alertu. Stamtąd porównasz źródła, wykluczysz błędny odczyt albo zapiszesz konserwację sondy. Zobacz [Szczegóły parametru](/help/mobile-metric-detail).
+
+**Przytrzymaj** widżet parametru, żeby ustawić jego zakres alertu prosto z pulpitu.
+
+## Gdy widżet nie ma wartości {#if-a-widget-has-no-value}
 
 Widżet pokazuje wartość, gdy ją dostanie. Jeśli jest pusty, zwykle chodzi o jedno z tych:
 
 - Urządzenie jest offline. Sprawdź zakładkę **Urządzenia**.
-- Parametr nie ma jeszcze źródła. Wpisz go ręcznie albo podłącz sprzęt, który go mierzy.
-- Parametr nigdy nie został zgłoszony ani wpisany, więc nie ma jeszcze żadnego zapisu.
+- Parametr nie ma jeszcze źródła. Zapisz go ręcznie albo podłącz sprzęt, który go zgłasza.
+- Dla tego parametru nigdy niczego nie zgłoszono ani nie zapisano.
 
-Stary odczyt nie znika dlatego, że okno wykresu jest krótsze niż jego wiek. Zostaje na widżecie razem z wiekiem, więc od razu widać, że jest stary, a nie że go brakuje.
+Stary odczyt nie znika tylko dlatego, że jest starszy niż okno wykresu. Zostaje na widżecie razem z wiekiem, więc nieaktualna wartość wygląda na nieaktualną, a nie na brakującą.
 
-W innych sprawach zajrzyj do **[Rozwiązywania problemów](/help/troubleshooting)**.
+W innych sprawach zajrzyj do [Rozwiązywania problemów](/help/troubleshooting#a-widget-shows-no-value).

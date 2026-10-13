@@ -1,56 +1,81 @@
 ---
-title: Giriş yapma ve hesabı kurtarma
-description: Giriş yapın, unuttuğunuz şifreyi sıfırlayın ve doğrulayamadığınız e-posta adresini düzeltin.
+title: Giriş yapma ve hesap kurtarma
+description: Giriş yapamıyor musunuz? Unuttuğunuz şifreyi sıfırlayın, e-posta adresinizi doğrulayın ya da düzeltin, adınızı değiştirin ve Cora Mobile'dan çıkış yapın.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 2
+reviewed: 2026-10-13
+order: 5
 group: Getting started
 ---
 
-Akvaryumlarınız, ölçümleriniz ve cihazlarınız hesabınızda toplanır. Bu yüzden hesabınıza yeniden girebilmek her ayardan daha önemlidir.
+Hesabınız akvaryumlarınızı, ölçümlerinizi ve cihazlarınızı bir arada tutar. Bu sayfa hesabınıza girmenize ve onu düzende tutmanıza yardım eder. İlk kez hesap açmak [Cora Mobile'ı kurma](/help/mobile-setup#create-your-account) sayfasında anlatılır.
 
-## Hesap açma
 
-Kaydolurken **Kabul ediyorum: Şartlar ve Koşullar ve Gizlilik Politikası** kutusunu işaretlemeniz gerekir. İşaretlemeden Cora hesabınızı açmaz. İki metin de bağlantıdır, kabul etmeden önce açıp okuyabilirsiniz.
+## Giriş yapamıyor musunuz? {#cant-sign-in}
 
-## Giriş yöntemleri
+Gördüğünüzle eşleşen durumdan başlayın.
 
-Cora'ya **e-posta adresi ve şifreyle**, ya da **Apple ile devam et** veya **Google ile devam et** ile giriş yapabilirsiniz.
+- *Şifrenizi unuttunuz.* [Şifrenizi unuttuysanız](/help/mobile-account#forgotten-password) bölümüne bakın.
+- *Cora, adresin farklı bir giriş yöntemiyle açılmış bir hesabı olduğunu söylüyor.* İlk kez başka bir yolla kaydoldunuz. İlk seferde nasıl giriş yaptıysanız öyle girin: e-posta ve şifrenizle, Google ile ya da Apple ile.
+- *Girdiniz ama akvaryumlarınız yok.* Büyük olasılıkla ikinci, boş bir hesaptasınız. Bu, diğer giriş yöntemi Apple'ın **E-postamı Gizle** özelliği ya da başka bir Google hesabı gibi farklı bir adres kullandığında olur. Akvaryumlarınız kaybolmadı. Çıkış yapın ve ilk seferdeki gibi giriş yapın.
+- *Cora çok fazla giriş denemesi yapıldığını söylüyor.* Birkaç dakika bekleyin ya da şifrenizi sıfırlayıp hemen giriş yapmak için **Şifrenizi mi unuttunuz?**'a dokunun.
+- *Cora hesabın devre dışı bırakıldığını söylüyor.* Mesajda yazmanız gereken bir adres yer alır. Hesabın geri açılması için kaydolduğunuz adresten o adrese e-posta gönderin.
+- *Giriş hiç ilerlemiyor.* Önce **Kabul ediyorum: Şartlar ve Koşullar ve Gizlilik Politikası** kutusunu işaretleyin. Her giriş yöntemi bunu gerektirir.
 
-Her seferinde aynı yöntemi kullanın. E-posta adresiyle açtığınız hesaba Google ile girmeye çalışırsanız ilk hesabınıza değil, *ikinci ve boş* bir hesaba girersiniz. Akvaryumlarınız kaybolmamıştır, yalnızca yanlış hesaptasınız. Böyle olursa çıkış yapın ve ilk kullandığınız yöntemle yeniden giriş yapın.
+## Giriş yöntemleri {#ways-to-sign-in}
 
-## Şifrenizi unuttuysanız
+**E-posta adresi ve şifreyle** ya da **Apple ile devam et** veya **Google ile devam et** ile giriş yapabilirsiniz. Her seferinde aynı yöntemi kullanın.
 
-Giriş ekranında **Şifrenizi mi unuttunuz?**'a dokunun, e-posta adresinizi girin ve **Bağlantı Gönder**'e dokunun. Gelen bağlantıyı aynı cihazda açın ve yeni şifrenizi belirleyin.
+**Apple ile devam et**'i kullanıyorsanız, laboratuvar ve ICP sonuçları Cora hesabınıza ulaşabilsin diye Apple sorduğunda **E-postamı Paylaş**'ı seçin. Adresi zaten gizlemeyi seçtiyseniz gerçek adresinizi [Laboratuvar ve ICP e-postaları](/help/mobile-account#lab-and-icp-emails) altında ekleyin.
 
-:::note Onay mesajı bilerek belirsiz yazılmıştır
-Mesajda *"Bu adreste bir Cora hesabı varsa sıfırlama bağlantısı yola çıktı"* yazar. Adres kayıtlı olsa da olmasa da aynı mesaj çıkar. Böylece bu ekran, kimin hesabı olduğunu öğrenmek için kullanılamaz. E-posta gelmiyorsa büyük ihtimalle kaydolurken başka bir adres kullandınız.
+## Şifrenizi unuttuysanız {#forgotten-password}
+
+Giriş ekranında **Şifrenizi mi unuttunuz?**'a dokunun, e-posta adresinizi girin ve **Bağlantı Gönder**'e dokunun. Bağlantıyı aynı cihazda açın ve yeni bir şifre belirleyin.
+
+:::note Mesaj her iki durumda da aynıdır
+Adres kayıtlı olsa da olmasa da *"bu adreste bir Cora hesabı varsa sıfırlama bağlantısı yolda"* mesajını görürsünüz. Bu, kimsenin bu ekranı kimin hesabı olduğunu öğrenmek için kullanmasını engeller. E-posta gelmiyorsa büyük olasılıkla farklı bir adresle kaydoldunuz.
 :::
 
-Birkaç dakika içinde e-posta gelmezse spam klasörüne bakın. Sonra diğer giriş yöntemlerini deneyin. **Apple ile devam et** ya da **Google ile devam et** ile açılan hesapların sıfırlanacak bir Cora şifresi yoktur.
+Birkaç dakika içinde hiçbir şey gelmezse spam klasörünüze bakın. Sonra diğer giriş yöntemlerini deneyin. **Apple ile devam et** ya da **Google ile devam et** ile açılmış bir hesabın sıfırlanacak bir Cora şifresi yoktur.
 
-## E-postanızı doğrulama
+Yeni bir şifre en az 8 karakter, bir büyük harf, bir rakam ve bir sembol içermelidir.
 
-Kaydolduktan sonra Cora, noreply@coraiq.tech adresinden *"Cora için e-postanızı onaylayın"* konulu bir doğrulama e-postası gönderir. E-postadaki **E-postamı onayla** düğmesine dokunun. Bağlantı 24 saat geçerlidir. Sonra Cora Mobile'a dönüp **E-postamı Doğruladım**'a dokunun.
+## E-postanızı doğrulama {#verifying-your-email}
 
-E-posta gelmediyse spam klasörüne bakın. Sonra doğrulama ekranındaki **Doğrulama e-postasını yeniden gönder**'e dokunun. Cora dakikada en fazla bir, saatte en fazla beş doğrulama e-postası gönderir. İlk e-posta da bu sayıya dahildir. Daha erken dokunursanız Cora biraz beklemenizi ister.
+Bir e-posta adresiyle kaydolduktan sonra Cora, noreply@coraiq.tech adresinden *"Cora için e-postanızı onaylayın"* konulu bir doğrulama e-postası gönderir. İçindeki **E-postamı onayla**'ya dokunun. Bağlantının süresi 24 saat sonra dolar. Sonra Cora Mobile'a dönün ve **E-postamı Doğruladım**'a dokunun.
 
-## E-posta adresi yanlışsa
 
-Adresi yanlış yazdıysanız baştan başlamanız gerekmez. Doğrulama ekranında **Adres yanlış mı? E-postayı değiştir** seçeneği var. Doğru adresi girin, yeni bağlantı o adrese gider.
+E-posta gelmediyse spam klasörünüze bakın, sonra doğrulama ekranındaki **Doğrulama e-postasını yeniden gönder**'e dokunun. Cora dakikada en fazla bir, saatte en fazla beş doğrulama e-postası gönderir ve ilk e-posta da sayılır. Çok erken dokunursanız Cora beklemenizi ister.
+
+## Hâlâ doğrulanmıyor {#still-verifying}
+
+**E-postamı Doğruladım**'a dokunduğunuzda Cora Mobile hesabınızı kontrol eder. E-postanız hâlâ doğrulanmamışsa en yeni mesajdaki **E-postamı onayla**'ya dokunun, biraz bekleyin ve yeniden kontrol edin. Bağlantının süresi dolduysa **Doğrulama e-postasını yeniden gönder**'e dokunun. Doğrulama gerçekleştiğinde tüm cihazlarınızda geçerli olur.
+
+## E-posta adresi yanlış {#the-email-address-is-wrong}
+
+Yanlış yazdıysanız baştan başlamanız gerekmez. Doğrulama ekranında **Adres yanlış mı? E-postayı değiştir**'e dokunun ve doğru adresi girin. Cora o adrese yeni bir bağlantı gönderir. O bağlantıya dokunduktan sonra yeni adresle yeniden giriş yapın.
+
+Farklı bir hesapla baştan başlamak için doğrulama ekranında **Çıkış yap**'a dokunun.
 
 :::note "Çıkış yapıp yeniden giriş yapın, sonra tekrar deneyin"
-Hesaptaki e-posta adresini değiştirmek güvenlik açısından hassas bir işlemdir. Bu yüzden Cora bazen yakın zamanda giriş yapmış olmanızı ister. Sizden çıkış yapıp yeniden girmeniz istenirse bu normaldir. Çıkış yapıp girin, sonra **Adres yanlış mı? E-postayı değiştir**'e yeniden dokunun.
+Bir hesabın e-posta adresini değiştirmek bir güvenlik adımıdır, bu yüzden Cora bazen önce yakın zamanda giriş yapmış olmanızı ister. Çıkış yapıp yeniden girmenizi isterse bunu yapın, sonra **Adres yanlış mı? E-postayı değiştir**'e yeniden dokunun.
 :::
 
-## Doğrulama hâlâ görünmüyorsa
+## Şifrenizi ya da e-postanızı sonradan değiştirme {#changing-your-password-or-email-later}
 
-**E-postamı Doğruladım**'a dokunduğunuzda Cora Mobile durumu kontrol eder. E-postanın henüz doğrulanmadığını söylüyorsa en son gelen e-postadaki **E-postamı onayla** düğmesine dokunun, biraz bekleyin ve yeniden kontrol edin. Bağlantının süresi dolduysa **Doğrulama e-postasını yeniden gönder** ile yenisini isteyin. Doğrulama cihaza değil hesaba bağlıdır. Bir kez başarılı olunca bütün cihazlarınızda geçerli olur.
+E-postanız doğrulandıktan sonra Cora Mobile'da ikisi için de bir ayar yoktur.
 
-## Laboratuvar ve ICP e-postaları
+- Şifreniz için çıkış yapın, sonra giriş ekranında **Şifrenizi mi unuttunuz?**'u kullanın.
+- E-posta adresiniz için **Ayarlar → Yardım ve Destek** yolundan destek ekibine ulaşın. [Sorun bildirme](/help/mobile-support) sayfasına bakın.
+- Bir Apple ya da Google hesabının şifresini ve adresini Apple ya da Google yönetir.
 
-Laboratuvarlar ve e-postayla gelen ICP sonuçları hesabınızı e-posta adresiyle bulur. Laboratuvarınız giriş yaptığınızdan farklı bir adres biliyorsa ya da gizli bir Apple e-postasıyla giriş yaptıysanız, adresi **Ayarlar → hesap kartınız → Laboratuvar ve ICP e-postaları** altından ekleyin. **Laboratuvar e-postası ekle**'ye, sonra **Kodu gönder**'e dokunun, e-postadaki 6 haneli kodu girin ve **Doğrula**'ya dokunun. En fazla 3 adres ekleyebilirsiniz. Adımlar [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
+## Adınız {#your-name}
 
-## Çıkış yapma
+**Ayarlar**'a, ardından en üstteki hesap kartına gidin ve **Görünen ad**'a dokunun. Cora Assistant size bu adla hitap eder.
 
-**Ayarlar → hesabınız → Çıkış Yap** bu cihazın hesapla bağlantısını keser. Hiçbir şey silinmez. Yeniden giriş yaptığınızda akvaryumlarınız, ölçümleriniz ve cihazlarınız geri gelir. Çıkış yapmakla hesabı silmek arasındaki farkı [Verileriniz](/help/mobile-data-export) sayfasında bulabilirsiniz.
+## Laboratuvar ve ICP e-postaları {#lab-and-icp-emails}
+
+Laboratuvarlar ve e-postayla gelen ICP sonuçları hesabınızı e-posta adresiyle bulur. Laboratuvarınız giriş yaptığınız adresten farklı bir adres biliyorsa ya da gizli bir Apple e-postasıyla giriş yaptıysanız onu **Ayarlar → hesap kartınız → Laboratuvar ve ICP e-postaları** altında ekleyin. **Laboratuvar e-postası ekle**'ye, ardından **Kodu gönder**'e dokunun, e-postadaki 6 haneli kodu girin ve **Doğrula**'ya dokunun. En fazla 3 adres ekleyebilirsiniz. Adımlar [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasında.
+
+## Çıkış yapma {#signing-out}
+
+**Ayarlar → hesabınız → Çıkış Yap** bu cihazdan çıkış yapar. Hiçbir şey silinmez ve yeniden giriş yaptığınızda akvaryumlarınız, ölçümleriniz ve cihazlarınız yerli yerindedir. Çıkış yapmanın hesabınızı silmekten farkı [Verileriniz](/help/mobile-data-export) sayfasında anlatılır.

@@ -1,23 +1,24 @@
 ---
 title: Editing the Cora Max dashboard
-description: Choose a grid, add widgets and save layouts for the Cora Max display.
+description: Add, move and remove tiles on the Cora Max dashboard, pick a grid, use templates or Design with AI, and save layouts to reuse on any Cora Max.
 section: Cora Max
 reviewed: 2026-10-13
 order: 4
 group: Your dashboard
+twin: mobile-dashboard-editing
 ---
 
-The Cora Max dashboard uses a **fixed grid**. The display doesn't scroll, so every tile has to fit on one screen. That's the main difference from the phone dashboard.
+This page shows how to arrange the tiles on a Cora Max dashboard. It uses a **fixed grid**: the display doesn't scroll, so every tile has to fit on one screen. That's the main difference from the phone dashboard.
 
-Open the editor from the **tank menu** (tap the tank name in the top bar, then **Dashboard layout**). You'll also find it under **Settings → Tank settings → [your tank] → Dashboard layout**.
+Open the editor from the **tank menu**: tap the tank name in the top bar, then **Dashboard layout**. It's also under **Settings → [your tank] → Dashboard layout**.
 
 ![The dashboard editor on Cora Max](img/max-dashboard-editor.webp "Grid sizes across the top, then the tiles. This is a layout screen, so each tile shows its type and source instead of a reading. Nothing is saved until you press Save.")
 
 :::tip You can also edit it from your phone
-In Cora Mobile, go to **Devices → your Cora Max → Edit Dashboard** to build the same layout. It's quicker than arranging tiles by hand on a wall screen, and the result shows up on Cora Max right away.
+In Cora Mobile, open the **Devices** tab, tap your Cora Max, then tap **Dashboard layout** on the tank's card. It's quicker than arranging tiles by hand on a wall screen, and the result shows up on Cora Max as soon as you save.
 :::
 
-## Choosing a grid
+## Choosing a grid {#choosing-a-grid}
 
 Pick the grid size first. Changing it later moves all the tiles around.
 
@@ -39,19 +40,28 @@ Add the tiles you want and leave the grid on **Auto**. Cora picks a shape that f
 When you change the grid, Cora doesn't throw tiles away by position. Tiles that still have a valid cell stay where they are, and the rest are packed back in, in order. You only lose tiles when the new grid has **fewer cells than you have tiles**, and Cora tells you how many went. Going from 10×5 (50 cells) to 3×3 (9) loses most of them.
 :::
 
-## Adding and arranging
+## Adding and arranging tiles {#adding-and-arranging}
 
-The three gestures are listed along the top of the editor: **tap a tile to edit**, **long-press to move it**, and **✕ to remove it**. A tile can be one or two cells wide and one or two cells tall.
+1. Tap an empty cell (it shows a **+**) to open **Add widget**.
+2. Under **TYPE**, pick the kind of tile, then what it shows (a reading, an outlet, a device or a scene).
+3. Under **SIZE**, pick how big it is. A tile can be one or two cells wide and one or two cells tall. A Graph also has a **TIME RANGE**. A doser tile has **Show remaining as**, in **Days** or **Milliliters (mL)**.
+4. Tap **Add**.
 
-**Outlets & Feed** adds all your controllable outlets and feed cycles in one go. **Clear all** empties the grid so you can start over.
+The gestures are listed along the top of the editor: **tap a tile to edit**, **long-press to move it**, and **✕ to remove it**. **Clear all** empties the grid so you can start over.
 
-The sixteen tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* and Camera *(Beta)*. You'll find them all in the [Widget reference](/help/mobile-widgets).
+The sixteen tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* and Camera *(Beta)*. You'll find them in the [Widget reference](/help/mobile-widgets). The **Scene** tile only exists on Cora Max. It runs a [scene](/help/max-automation) with one tap.
 
-The Beta tiles belong to Beta integrations that only Beta users can add, and you only see one once you have the device. See [Beta features](/help/mobile-beta).
+:::note Beta
+**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). Their tiles only show up once you have the device. More in [Beta features](/help/mobile-beta).
+:::
 
-## Templates
+## Outlets & Feed {#outlets-feed}
 
-**Templates** sits beside **Design with AI** at the top of the editor. It's open on every plan and never uses AI, so it also works without AI data sharing.
+**Outlets & Feed** in the editor chooses which outlets and feed cycles appear in **Controls**, the drawer you swipe up from the bottom of the dashboard. It doesn't add tiles. If you pick none, Controls lists all of them. To put an outlet on the grid itself, add an **Outlet** tile. More in [Outlets and controls](/help/max-controls).
+
+## Templates {#templates}
+
+**Templates** sits at the top of the editor, beside **My dashboards** and **Design with AI**. It's open on every plan and never uses AI, so it also works without AI data sharing.
 
 It opens **Dashboard templates**, a few ready-made layouts built from what this tank reports and has linked:
 
@@ -62,13 +72,13 @@ It opens **Dashboard templates**, a few ready-made layouts built from what this 
 
 Each one shows a preview and how many tiles it has on which grid. Tap **Use this**. Cora asks **Replace your dashboard?** first. Tap **Save current as preset first** if you want to keep the layout you have, or **Replace**. Nothing is saved until you press **Save**.
 
-## Design with AI
+## Design with AI {#design-with-ai}
 
-On a paid plan, the editor has a **Design with AI** button. Cora proposes a whole layout from what this tank reports and has linked, and shows how many tiles it has and on which grid. Tap **Use this** to put it in the editor, or **Try again** for another. You can make 5 designs per tank per day.
+The editor has a **Design with AI** button. It works on a paid plan and during the trial. Cora proposes a whole layout from what this tank reports and has linked, and shows how many tiles it has and on which grid. Tap **Use this** to put it in the editor, or **Try again** for another. You can make 5 designs per tank per day.
 
-An AI design replaces what's on this dashboard now. Nothing is saved until you press **Save**, and you can keep your current layout first by saving it as one of your dashboards. If you're on a free plan, **Design with AI** points you to the plans. It also needs AI data sharing to be turned on in the Cora app.
+An AI design replaces what's on this dashboard now. Nothing is saved until you press **Save**, and you can keep your current layout first by saving it to **My dashboards**. On the free plan, **Design with AI** points you to the plans. It also needs AI data sharing turned on in Cora Mobile. More in [Asking Cora](/help/mobile-assistant).
 
-## Designing for distance
+## Designing for distance {#designing-for-distance}
 
 People read a wall display from further away than a phone, and usually with a quick glance.
 
@@ -77,12 +87,18 @@ People read a wall display from further away than a phone, and usually with a qu
 - Group tiles by subject. Keep everything about dosing together and everything about flow together, because you scan a wall by area.
 - Keep trace elements small. They and other slow-moving numbers are for reference, so a one-by-one value tile is plenty.
 
-## Saving layouts
+## Saving and reusing layouts {#saving-layouts}
 
-Nothing you do in the editor takes effect until you press **Save**. If you leave without saving, your changes are lost.
+Nothing you do in the editor takes effect until you press **Save**. If you leave with unsaved changes, Cora asks **Discard changes?** first.
 
-**My dashboards** keeps layouts you want to come back to, so you can switch instead of rebuilding. For example, you might want a dense everyday layout and a big-tile one for when you're working in the tank. Switching takes one tap.
+**My dashboards** keeps designs you want to come back to. They're saved on your account, not on this screen, so any Cora Max on your account can load them, for another tank or for a replacement screen.
 
-## Multiple tanks
+- **Save this design** stores what's in the editor. You can keep up to 30.
+- **Load** puts a saved design in the editor. Designs saved from your phone are marked **Phone**.
+- Before loading, Cora tells you how many tiles will come across. Anything that can't, such as a reading this tank doesn't report or a device that isn't on this tank, is listed under **Left behind:** with the reason.
 
-Each tank has its own layout. Edit each one from that tank's own settings.
+For example, you might keep a dense everyday layout and a big-tile one for when you're working in the tank.
+
+## Multiple tanks {#multiple-tanks}
+
+Each tank has its own layout. Switch to that tank and open **Dashboard layout** from its tank menu, or use **Settings → [that tank] → Dashboard layout**.

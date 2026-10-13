@@ -1,131 +1,197 @@
 ---
 title: Ausrüstung mit Cora Max steuern
-description: Geräteseiten auf dem großen Bildschirm für Sonden, Steckdosen, Dosierköpfe, Testgeräte und Pumpen.
+description: Geräteseiten auf Cora Max für Neptune Apex, Trident und DŌS, Red Sea ReefBeat, Jecod, AquaWiz und die Beta-Marken, nach Marke sortiert.
 section: Cora Max
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 6
 group: Equipment
+twin: mobile-device-control
 ---
 
-Cora Max erreicht dieselbe Ausrüstung wie dein Handy, und jedes Gerät hat eine eigene Seite. Du öffnest sie über **Einstellungen → Geräte** oder indem du auf dem Dashboard auf eine Gerätekachel tippst.
+Auf dieser Seite geht es darum, was du auf der Seite jedes Geräts auf Cora Max sehen und tun kannst, Marke für Marke. Cora Max erreicht dieselbe Ausrüstung wie dein Handy. Öffne eine Geräteseite über das Gerätesymbol in der oberen Leiste, über **Einstellungen → Geräte** oder indem du auf dem Dashboard auf eine Gerätekachel tippst.
 
-![Eine Apex-Seite auf Cora Max](img/max-device-control.webp "Fütterungszyklen und alle Steckdosen, für einen Wandbildschirm angeordnet.")
+![Eine Apex-Seite auf Cora Max mit ihren Fütterungstasten und Steckdosen](img/max-device-control.webp "Feed A bis D und Abbrechen, dann die Steckdosen, für einen Wandbildschirm angeordnet.")
 
-:::warning Diese Steuerung wirkt auf echte Geräte
-Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du tippst. Gesendet heißt aber noch nicht erledigt. Zurück kommt **Bestätigt**, **Unbestätigt**, **Abgelehnt** oder **Keine Änderung**, und unter [Aktivität](/help/max-activity) siehst du, was davon zutraf.
+:::warning Diese Steuerung wirkt auf laufende Ausrüstung
+Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du tippst, aber gesendet heißt nicht erledigt. Er kommt mit **Bestätigt**, **Unbestätigt**, **Abgelehnt** oder **Keine Änderung** zurück, und unter [Aktivität](/help/max-activity) siehst du, was davon.
 :::
 
-## Welche Geräte eine Seite haben
+Ausrüstung fügst du auf dem Handy hinzu, weist sie dort zu und entfernst sie dort. Cora Max zeigt sie, sobald dein Konto sie hat. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
 
-| Gerät | Was die Seite zeigt |
+## Was eine Seite hat {#what-has-a-page}
+
+| Gerät | Zeigt |
 |---|---|
-| **Neptune Apex** | Sonden und Steckdosen, jede Steckdose ist schaltbar |
-| **Trident** | Teststatus, Reagenz- und Abfallstand, und du kannst einen Test starten |
-| **DŌS**, auch DŌS QD | Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden) |
-| **Red Sea ReefBeat** | Je nach Gerät Dosierköpfe, Reservoir, Rollentage oder Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefRun-Programm sowie ReefMat-Einstellungen *(Beta)* |
-| **ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | Sonden von ReefControl. Steckdosen von ReefControl Power als Ausgänge, ein oder aus, noch keinen Automatikmodus. ReefWave und ReefLED nur zum Ansehen |
-| **Jecod** | Pumpenmodus, Intensität und das Tagesprogramm |
-| **Maxspect** *(Beta)* | Modus und Geschwindigkeit für **Gyre A** und **Gyre B**, **Pumpenzustand** (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und der Zeitplan, nur zum Ansehen |
+| **Neptune Apex** | Sonden und Steckdosen, und du kannst jede Steckdose schalten |
+| **Trident** | Teststatus, Reagenz- und Abfallstand und eine Taste, um einen Test zu starten |
+| **DŌS**, auch der DŌS QD | Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden) |
+| **Red Sea ReefBeat** | Was das Gerät hat: Dosierköpfe, Reservoir, Rollentage, Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefRun-Programm und ReefMat-Einstellungen *(Beta)* |
+| **Red Sea ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | Die Sonden von ReefControl. Die Anschlüsse von ReefControl Power als Steckdosen, ein oder aus, noch ohne Automatikmodus. ReefWave und ReefLED nur zum Ansehen |
+| **Jecod** | Pumpenmodus und Intensität und ihr Tagesprogramm |
+| **AquaWiz** | Keine eigene Seite. Er steht unter **Geräte**, und seine Messwerte erscheinen auf dem Dashboard |
+| **Maxspect** *(Beta)* | Modus und Geschwindigkeit für **Gyre A** und **Gyre B**, **Pumpenzustand** (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und ihr Zeitplan, nur zum Ansehen |
 | **GHL ProfiLux / Mitras** *(Beta)* | Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse |
-| **HYDROS** *(Beta)* | Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreiben-Schlüssel auch Ausgänge, Modi, Dosierköpfe und Testbefehle |
-| **Focustronic** *(Beta)* | Status, letzter Test, Pumpen und Fläschchen |
-| **EcoTech** *(Beta)* | Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer, jeweils mit eigener Seite. Befehle an VorTech und Versa sind noch nicht an echter Hardware bewiesen |
-| **Inkbird** *(Beta)* | Raumluftwerte, nur zum Ansehen |
-| **Kamera** *(Beta)* | Ein Bild deiner Kamera, als Kachel auf dem Dashboard oder auf einer eigenen Seite, mit dem Skimmer-Wächter in kostenpflichtigen Tarifen |
+| **HYDROS** *(Beta)* | Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreibschlüssel auch Ausgänge, Modi, Dosierköpfe und Testerbefehle |
+| **Focustronic** *(Beta)* | Status, letzter Test, Pumpen und Fläschchen, dazu je nach Gerät **Jetzt messen**, **Jetzt dosieren** oder **Jetzt testen** |
+| **EcoTech** *(Beta)* | Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer, jeweils mit eigener Seite. Befehle an VorTech und Versa sind an echter Hardware noch nicht erprobt |
+| **Inkbird** *(Beta)* | Raumluftwerte, nur zum Lesen |
+| **Kamera** *(Beta)* | Ein Bild deiner Kamera, als Kachel auf dem Dashboard oder auf einer eigenen Seite, mit dem Skimmer-Wächter in den kostenpflichtigen Abos |
 
-Stoppt sich ein Red Sea-Gerät selbst, steht auf seiner Seite, was los ist, und die passende Lösung gleich daneben: **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder bei einem Dosierkopf **Zurücksetzen**.
+:::note Beta
+**Beta.** Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
+:::
 
-Ein ReefDose-Plan, ein ReefRun-Geschwindigkeitsprogramm und ReefMats geplanter Vorschub, Modell, Position und Neue Rolle funktionieren hier genauso wie auf deinem Handy. [Deine Ausrüstung verbinden](/help/mobile-connections) und [Deine Ausrüstung steuern](/help/mobile-device-control) haben die Details.
+Die meisten Geräteseiten haben einen Stift, um das Gerät umzubenennen. Der neue Name erscheint auch auf deinem Handy. Mehr dazu unter [Geräte und Gerätezustand](/help/max-devices).
 
-## DŌS-Köpfe
+## Neptune Apex {#neptune-apex}
 
-Bevor Cora einen DŌS-Kopf von Hand dosiert, musst du ihn einmal messen. Mit **Zum Dosieren messen** läuft der Kopf zwanzig Sekunden lang in einen Messbecher, und du gibst ein, wie viel herausgekommen ist. Cora speichert pro Kopf eine Messung und nimmt immer die neueste, egal auf welchem Cora Max sie gemacht wurde. Auf der Seite des Kopfes siehst du, wo und wann er gemessen wurde.
+Die Apex-Seite listet deine Sonden und Steckdosen auf, mit deinen Fütterungszyklen oben. Jede Steckdose schaltet zwischen **Auto**, **Aus** und **Ein**, und Steckdosen mit Vorhängeschloss bitten um Bestätigung. Wie die drei Zustände und der Fütterungsmodus funktionieren, steht unter [Steckdosen und Steuerung](/help/max-controls).
 
-Hast du einen Kopf in Apex Fusion auf Aus gestellt, bleibt er nach einer manuellen Dosierung aus. Alle anderen Köpfe gehen zurück auf Auto.
+Steckdosen erreichst du auch über die Schublade **Steckdosen & Füttern** unten auf dem Dashboard. Sie listet die Steckdosen auf, die für dieses Dashboard eingeschaltet sind (oder alle, wenn du keine ausgewählt hast).
 
-### Wofür ein Kopf verwendet wird
+Ein großer Apex mit mehreren Modulen zeigt alle seine Steckdosen und Sonden. DŌS-Köpfe erscheinen nie in der Steckdosenliste, du kannst dort also keinen einschalten und laufen lassen. Dosiere über die eigene Seite des Kopfes.
 
-In den Einstellungen jedes Kopfes legst du einen **Verwendungstyp** fest: **Supplement**, **Wasserwechsel: neues Salzwasser rein**, **Wasserwechsel: altes Wasser raus**, **Kalkwasser**, **Calciumreaktor**, **Futter**, **Nachfüllen** oder **Andere**. Davon hängen zwei Dinge ab:
+### Trident {#trident}
 
-- **Wie groß der Behälter sein darf.** Jeder Verwendungstyp kann einen Behälter mit bis zu 1.000 Litern verfolgen. Über dem eigenen 150-Liter-Zähler des Apex verfolgt Cora das Volumen selbst und setzt den Zähler des Apex alle 100 Liter zurück.
-- **Ob er große Mengen von Hand dosieren darf.** Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Für alle anderen Verwendungstypen kannst du eine eigene **Größte manuelle Dosierung** festlegen, höchstens 10 Liter, und ein eigenes **Tageslimit für Automationen und den Assistant**. Eine große Handdosierung braucht außerdem **Große Dosierungen (Beta)**, eingeschaltet in den Einstellungen des Kopfes. Das ist standardmäßig aus: Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
+Die Trident-Seite zeigt den Teststatus und den Reagenz- und Abfallstand. Du kannst hier einen Test starten und mit **Warnungseinstellungen** eine Nachfüllwarnung festlegen.
 
-Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als **Gekoppelter Kopf** verbinden und einen Wert für **Ausgleichswarnung ab** eintragen. Weichen die Tagesmengen der beiden Köpfe um mehr als diesen Wert voneinander ab, warnt Cora dich. Meist pumpt dann eine Seite nicht so wie erwartet.
+## DŌS-Köpfe {#dos-heads}
 
-### Wenn eine große Dosierung abbricht
+Du musst einen DŌS-Kopf einmal messen, bevor Cora damit von Hand dosiert. **Zum Dosieren messen** lässt den Kopf zwanzig Sekunden lang in einen Messbecher laufen, und du gibst ein, wie viel herausgekommen ist. Cora behält eine Messung pro Kopf und nimmt die neueste, egal welches Cora Max sie gemacht hat. Die Seite des Kopfes zeigt, wo und wann er gemessen wurde.
 
-Für eine große Dosierung ändert Cora vorübergehend, was der Kopf am Apex tut, und stellt danach seinen normalen Zeitplan wieder her. Reißt die Verbindung mittendrin ab, zeigt Cora Max auf der Seite des Kopfes einen Hinweis: *„Eine große Dosierung an [Kopf] wurde nicht sauber abgeschlossen. Cora versucht weiterhin, sein Programm zurückzusetzen; prüfe es in Apex Fusion.“*
+Nach einer manuellen Dosierung bleibt ein Kopf, den du in Apex Fusion auf Aus gestellt hast, auf Aus. Jeder andere Kopf geht zurück auf Auto.
 
-Prüf den Kopf dann selbst in Apex Fusion und tippe erst danach auf **Ich habe den Kopf in Fusion geprüft**, um den Hinweis zu schließen. Tu das nur, wenn du gesehen hast, dass wirklich der eigene Zeitplan des Kopfes läuft und nicht das Dosierprogramm von Cora.
+Ein DŌS hat keinen Füllstandssensor und dosiert auch aus einem leeren Behälter weiter. Leg mit **Warnungseinstellungen** auf der DŌS-Seite eine Nachfüllwarnung fest. Mehr dazu unter [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
 
-Lässt sich der Hinweis nicht schließen oder taucht er immer wieder auf, hilft dir die [Problembehebung](/help/troubleshooting).
+### Wofür ein Kopf verwendet wird {#what-a-head-is-used-for}
 
-## GHL ProfiLux und Mitras
+In den Einstellungen eines Kopfes kannst du seinen **Verwendungstyp** festlegen. Die Optionen sind **Supplement**, **Wasserwechsel: neues Salzwasser rein**, **Wasserwechsel: altes Wasser raus**, **Kalkwasser**, **Calciumreaktor**, **Futter** oder **Nachfüllen** und **Andere**. Der Verwendungstyp ändert zwei Dinge.
+
+- Wie groß ein Behälter sein kann, den er verfolgt. Jeder Verwendungstyp kann einen Behälter mit bis zu 1.000 Litern verfolgen. Über dem eigenen 150-Liter-Zähler des Apex verfolgt Cora das Volumen selbst und setzt den Apex-Zähler alle 100 Liter zurück.
+- Ob er von Hand eine große Dosierung bekommen kann. Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Jeder andere Verwendungstyp kann eine eigene Grenze **Größte manuelle Dosierung** haben, bis zu einer festen Obergrenze von 10 Litern, und ein eigenes **Tageslimit für Automationen und den Assistant**. Eine große Handdosierung braucht außerdem **Große Dosierungen (Beta)**, eingeschaltet in den Einstellungen des Kopfes, standardmäßig aus. Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
+
+Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als **Gekoppelter Kopf** verbinden und eine Menge für **Ausgleichswarnung ab** festlegen. Weichen die Tagessummen der beiden Köpfe um mehr als das voneinander ab, warnt Cora dich. Ein Paar außer Gleichgewicht heißt meist, dass eine Seite nicht pumpt, wie sie sollte.
+
+### Wenn eine große Dosierung unterbrochen wird {#if-a-large-dose-is-interrupted}
+
+Eine große Dosierung ändert eine Weile, was der Kopf am Apex tut, und stellt dann seinen normalen Zeitplan wieder her. Bricht die Verbindung mittendrin ab, zeigt Cora Max auf der Seite dieses Kopfes einen Hinweis: *"Eine große Dosierung an [Kopf] wurde nicht sauber abgeschlossen. Cora versucht weiterhin, sein Programm zurückzusetzen; prüfe es in Apex Fusion."*
+
+Prüf den Kopf selbst in Apex Fusion und tippe dann auf **Ich habe den Kopf in Fusion geprüft**, um den Hinweis zu schließen. Tu das erst, wenn du bestätigt hast, dass der eigene Zeitplan des Kopfes läuft und nicht das Dosierprogramm von Cora.
+
+Lässt sich der Hinweis nicht schließen oder kommt er immer wieder, schau in die [Problembehebung](/help/troubleshooting).
+
+## Red Sea ReefBeat {#red-sea}
+
+Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut: ReefDose-Köpfe und Behälter, das Reservoir des ReefATO+, die Rollentage des ReefMat und die Pumpengeschwindigkeiten des ReefRun. Vorratswarnungen für ReefDose-Köpfe, das ReefATO+-Reservoir und die ReefMat-Rolle legst du mit **Warnungseinstellungen** auf der Seite des Geräts fest.
+
+Stoppt sich ein Red Sea-Gerät selbst, sagt dir seine Seite, was los ist, und setzt die Lösung gleich daneben. Das ist **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder **Zurücksetzen** bei einem Dosierkopf.
+
+Ein ReefDose-Plan, ein ReefRun-Geschwindigkeitsprogramm und beim ReefMat der geplante Vorschub, das Modell, die Position und Neue Rolle funktionieren hier genauso wie auf dem Handy. [Deine Ausrüstung steuern](/help/mobile-device-control) hat die Details.
+
+ReefControl, ReefControl Power, ReefWave und ReefLED tragen *(Beta)* im Namen, sind aber für alle offen. ReefControl zeigt seine Sonden. Die Anschlüsse von ReefControl Power erscheinen als Steckdosen, nur ein oder aus. ReefWave und ReefLED sind vorerst nur zum Ansehen.
+
+## Jecod {#jecod}
+
+Die Jecod-Seite zeigt Modus und Intensität der Pumpe, und du kannst beides ändern.
+
+Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
+
+## AquaWiz {#aquawiz}
+
+Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+
+## Maxspect {#maxspect}
+
+:::note Beta
+**Beta.** Maxspect ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
+:::
+
+Die Maxspect-Seite zeigt Modus und Geschwindigkeit von **Gyre A** und **Gyre B** und ihren **Pumpenzustand**. Den Zeitplan einer Gyre kannst du hier ansehen, aber nicht speichern. Stell ihn in der Maxspect-App ein.
+
+## GHL ProfiLux und Mitras {#ghl}
 
 :::note Beta
 **Beta.** GHL ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
 :::
 
-Verbinde einen GHL-Controller über dein Handy: **Geräte → Gerät hinzufügen → GHL**. Die Schritte dazu stehen unter [Deine Ausrüstung verbinden](/help/mobile-connections). Cora Max zeigt und steuert ihn, sobald ein Cora Max in seinem Netzwerk ihn ausgelesen hat, aber die Einrichtung selbst läuft auf dem Handy.
+Verbinde einen GHL-Controller über dein Handy: **Geräte → Gerät hinzufügen → GHL**. [Deine Ausrüstung verbinden](/help/mobile-connections) hat die Schritte. Cora Max zeigt und steuert ihn, sobald ein Cora Max in seinem Netzwerk ihn ausgelesen hat, aber die Einrichtung selbst läuft auf dem Handy.
 
-Ein ProfiLux mini liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren aus. Ist **Steuerung durch Cora zulassen (Beta)** eingeschaltet, kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.
+Ein ProfiLux mini liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren. Mit eingeschaltetem **Steuerung durch Cora zulassen (Beta)** kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und die Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.
 
-Steuerungen bleiben aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Ist es eingeschaltet, kannst du eine Steckdose auf **Immer an**, **Immer aus** oder **Zurueck zu automatisch** stellen, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Sieht eine Änderung nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal.
+Die Steuerung bleibt aus, bis du **Steuerung durch Cora zulassen (Beta)** auf der Seite des Geräts einschaltest. Standardmäßig ist es aus. Ist es eingeschaltet, kann eine Steckdose auf **Immer an**, **Immer aus** oder **Zurück zu automatisch** gestellt werden, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und lehnt einen Wert außerhalb davon ab. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Eine Änderung, die nach Heizer oder Rückförderpumpe aussieht, lässt dich zweimal bestätigen.
 
-Wird der Behälter eines Dosierers knapp, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Der Standardwert ist 20 % Füllstand, und du kannst ihn in der Regel des Dosierers in der [Warnzentrale](/help/mobile-alerts) ändern.
+Geht der Behälter eines Dosierers zur Neige, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Standard sind 20 % Füllstand, und du kannst das an der Regel des Dosierers in der [Warnzentrale](/help/mobile-alerts) ändern.
 
-Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich ausgeschaltet. GHL schaltet sie nach jedem Firmware-Update wieder aus. Schalte sie unter **System → GHL API** im GHL Control Center oder in GHL Connect wieder ein. Den Rest findest du unter [Problembehebung](/help/troubleshooting).
+Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich ausgeschaltet. GHL schaltet sie nach jedem Firmware-Update aus. Schalte sie unter **System → GHL API** im GHL Control Center oder in GHL Connect wieder ein. Den Rest findest du in der [Problembehebung](/help/troubleshooting).
 
-## HYDROS
+## HYDROS {#hydros}
 
 :::note Beta
 **Beta.** HYDROS ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
 :::
 
-HYDROS ist die einzige Anbindung, die ihren Controller über die Cloud erreicht. Deshalb funktioniert sie auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Eingerichtet wird sie nur über dein Handy: **Geräte → Gerät hinzufügen → HYDROS**. Die Schritte dazu stehen unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+HYDROS erreicht seinen Controller über die HYDROS-Cloud, deshalb funktioniert es auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Eingerichtet wird es nur über dein Handy: **Geräte → Gerät hinzufügen → HYDROS**. [Deine Ausrüstung verbinden](/help/mobile-connections) hat die Schritte.
 
-Lesen und Steuern funktioniert genauso wie auf deinem Handy; unter [Deine Ausrüstung steuern](/help/mobile-device-control) stehen Ausgänge, Modi, Dosierköpfe und Testbefehle sowie die Dosierungsgrenzen pro Kopf.
+Lesen und Steuern funktioniert genauso wie auf dem Handy. Unter [Deine Ausrüstung steuern](/help/mobile-device-control) stehen Ausgänge, Modi, Dosierköpfe und Testerbefehle sowie die Dosiergrenzen pro Kopf.
 
-## EcoTech, Inkbird und Kameras
+## Focustronic {#focustronic}
 
 :::note Beta
-**Beta.** EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Cora Max zeigt sie, sobald dein Konto sie von deinem Handy aus verknüpft hat. Für Beta-Zugang wende dich an den [Support](/support.html).
+**Beta.** Focustronic ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.
 :::
 
-Du verknüpfst sie über dein Handy, und ein Cora Max am Becken liest sie aus. [EcoTech-Leuchten, -Pumpen und -Dosierer](/help/mobile-ecotech) behandelt Radion, VorTech und Versa. Ein Inkbird-Raumluftmonitor zeigt seine Messwerte und sonst nichts. Eine Kamera und, in kostenpflichtigen Tarifen, der Skimmer-Wächter sind unter [Kameras und Skimmer-Wächter](/help/mobile-cameras) beschrieben. Um eine Kamera an der Wand zu zeigen, füge im Dashboard-Editor eine Kamera-Kachel hinzu.
+Die Focustronic-Seite zeigt den Status des Geräts, seinen letzten Test und seine Pumpen und Fläschchen. Unter **Steuerung**:
 
-## Zeitpläne
+- Ein Alkatronic hat **Jetzt messen**.
+- Ein Dosetronic hat **Jetzt dosieren** für jede Pumpe. Gib die Menge ein, bis zu 500 ml auf einmal, tippe auf **Prüfen** und bestätige dann. Eine Dosierung lässt sich nicht rückgängig machen, und Cora wiederholt sie nie.
+- Ein Mastertronic hat ein Testprofil zur Auswahl und **Jetzt testen**.
 
-Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso erstellen wie auf dem Handy. Der Editor ist derselbe, mit Tagesgrafik, Liste der Zeiträume und einer Zeile mit Aktionen. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
+Diese Befehle laufen über die Server von Focustronic, auf die Cora keinen Einfluss hat. Richte das Gerät auf dem Handy ein, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
 
-Den Zeitplan einer Maxspect-Gyre *(Beta)* kannst du hier ansehen, aber nicht speichern. Stell ihn in der Maxspect-App ein.
+## EcoTech, Inkbird und Kameras {#ecotech-inkbird-and-cameras}
 
-## Steckdosen
+:::note Beta
+**Beta.** EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
+:::
 
-Steckdosen erreichst du auch über die Schublade **Steckdosen & Füttern** am unteren Rand des Dashboards. Dort stehen alle Steckdosen, die für dieses Dashboard freigegeben sind (oder alle, wenn du keine ausgewählt hast). Mehr dazu unter [Steckdosen und Steuerung](/help/max-controls).
+Du verknüpfst sie über dein Handy, und ein Cora Max am Becken fragt sie ab.
 
-DŌS-Köpfe erscheinen nie in der Steckdosenliste. So kann dort niemand einen Kopf einschalten und laufen lassen. Dosiere immer über die Seite des Kopfes. Ein großer Apex mit mehreren Modulen zeigt alle seine Steckdosen und Sonden.
+### EcoTech {#ecotech}
 
-## Verbrauchsmaterial
+Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer haben jeweils eine eigene Seite, mit einer Taste **Warnungseinstellungen** für ihre Vorräte. [EcoTech-Leuchten, -Pumpen und -Dosierer](/help/mobile-ecotech) hat die Details.
 
-Die Schwellen fürs Nachfüllen (Reagenz, Behälter, Reservoirs) legst du hier auf der Seite des Geräts fest, genau wie auf dem Handy. Mehr dazu unter [Verbrauchsmaterial](/help/mobile-consumables).
+### Inkbird {#inkbird}
 
-## Am Becken eintragen und rechnen
+Ein Inkbird-Raumluftmonitor zeigt seine Messwerte und sonst nichts.
 
-Zwei Dinge gehen an der Wand oft bequemer als auf dem Handy:
+### Kameras und Skimmer-Wächter {#cameras}
 
-- **Werte erfassen**: Trag Testergebnisse über die Bildschirmtastatur ein. Du findest das im Beckenmenü.
-- **Dosierrechner**: Berechne eine Korrektur mit dem Beckenvolumen und der Stärke deiner Produkte. Du öffnest ihn auf der Seite eines Wasserwerts. Er nutzt dasselbe Volumen und dieselben Produktstärken wie das Handy, daher kommt hier dieselbe Dosis heraus wie dort. Mehr dazu unter [Dosierung](/help/mobile-dosing).
+Um eine Kamera an der Wand zu zeigen, füg im [Dashboard-Editor](/help/max-dashboard-editing) eine Kachel **Kamera** hinzu. Tippe auf die Kachel, um die Kamera im Vollbild zu öffnen. Ihre Tasten blenden sich nach ein paar Sekunden aus, und ein Tippen holt sie zurück.
 
-## Auf einem zweiten Cora Max
+Mit eingeschaltetem Skimmer-Wächter (kostenpflichtige Abos) zeigen die Kamerakachel und die Vollbildansicht den Füllstand des Bechers und wie alt er ist, zum Beispiel *Becher 42 % · vor 5 Min.* Er wird bernsteinfarben, wenn er bis auf 10 Punkte an deinen Warnwert herankommt, und rot, wenn er ihn erreicht. In der Vollbild-Kamera öffnet **Alarm bei 80 %** (oder dein Wert) **Alarm für den Abschäumerbecher**, wo du den Wert festlegst. Du bekommst eine Benachrichtigung, wenn der Becher ihn erreicht.
 
-Zeigen mehrere Cora Max dasselbe Becken, liest nur eines davon die Ausrüstung dieses Beckens. Auf den Geräteseiten heißt es das Cora Max am Becken. Die anderen öffnen die Geräteseiten trotzdem. Steht im Status-Chip **Cloud**, ist dieser Bildschirm einer der anderen. Sie zeigen, was das Cora Max am Becken zuletzt gelesen hat und wie lange das her ist. Jeden Befehl schicken sie über Cora Cloud an dieses Cora Max, das ihn dann ausführt.
+Wie du eine Kamera und den Skimmer-Wächter einrichtest, steht unter [Kameras und Skimmer-Wächter](/help/mobile-cameras).
 
-Ein paar Dinge gehen nur am Cora Max am Becken:
+## Verbrauchsmaterial {#consumables}
 
-- **Zum Dosieren messen** und **Erneut messen** gibt es nur dort. Ist ein Kopf gemessen, funktioniert **Jetzt dosieren** auf jedem Cora Max.
-- Einen Jecod-Zeitplan kannst du von einem anderen Cora Max nur ändern, wenn das Cora Max am Becken die Pumpe in der letzten Stunde gelesen hat. Bei einer Pumpe, die nur über Bluetooth spricht, geht das nie. Ein **Auf die Pumpe anwenden** von dort schickt höchstens 12 Änderungen. Größere Änderungen schickst du also in mehreren Teilen.
+Nachfüllschwellen (Reagenz, Behälter, Reservoirs) legst du hier auf der Seite des Geräts fest, genau wie auf dem Handy. Mehr dazu unter [Verbrauchsmaterial und Nachfüllwarnungen](/help/mobile-consumables).
 
-## Was geändert wurde, und von was
+## Am Becken eintragen und rechnen {#logging-and-calculating-at-the-tank}
 
-Jede Aktion wird mit ihrem Auslöser festgehalten. Mehr dazu unter [Aktivität und Zeitleiste](/help/mobile-activity).
+Zwei Dinge gehen an der Wand oft leichter als auf dem Handy.
+
+- **Werte erfassen** lässt dich Testergebnisse über die Bildschirmtastatur eintragen. Du findest es im Beckenmenü.
+- **Dosierrechner** berechnet eine Korrektur aus dem Beckenvolumen und der Stärke deiner Produkte. Öffne ihn auf der Seite eines Wasserwerts. Er nutzt dasselbe Volumen und dieselben Produktstärken wie dein Handy, eine hier berechnete Dosis stimmt also mit einer dort berechneten überein. Mehr dazu unter [Dosierung](/help/mobile-dosing).
+
+## Auf einem zweiten Cora Max {#on-a-second-cora-max}
+
+Zeigt mehr als ein Cora Max ein Becken, fragt eins davon die Ausrüstung dieses Beckens ab. Die Geräteseiten nennen es das Cora Max am Becken. Die anderen können die Geräteseiten trotzdem öffnen, und eine Statusanzeige **Cloud** heißt, dass du auf einem von ihnen bist. Sie zeigen, was das Cora Max am Becken zuletzt gelesen hat und wie lange das her ist. Jeder Befehl geht über Cora Cloud an das Cora Max am Becken, das ihn ausführt.
+
+Ein paar Dinge funktionieren nur am Cora Max am Becken.
+
+- **Zum Dosieren messen** und **Erneut messen** erscheinen nur dort. Ist ein Kopf gemessen, funktioniert **Jetzt dosieren** auf jedem Cora Max.
+- Einen Jecod-Zeitplan kannst du von einem anderen Cora Max nur ändern, wenn das Cora Max am Becken die Pumpe in der letzten Stunde gelesen hat, und nie bei einer Pumpe, die nur über Bluetooth spricht. Ein **Auf die Pumpe anwenden** von dort schickt höchstens 12 Änderungen, schick eine größere Änderung also in Teilen.
+
+## Was geändert wurde, und wodurch {#what-was-changed-and-by-what}
+
+Jede Aktion wird zusammen mit ihrem Auslöser protokolliert. Mehr dazu unter [Aktivität auf Cora Max](/help/max-activity).

@@ -2,25 +2,27 @@
 title: Programar equipos
 description: Crea un programa diario para una bomba Jecod, cópialo a otras bombas y consulta el programa de un gyre Maxspect (Beta).
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 12
+reviewed: 2026-10-13
+order: 14
 group: Equipment
 ---
 
-Las bombas y los gyres pueden seguir un **programa diario**. Es un conjunto de periodos, cada uno con su intensidad, que se repite todos los días. En las bombas Jecod puedes crear el programa directamente desde Cora. El programa de un gyre Maxspect *(Beta)* aquí solo se puede ver. Se configura en la aplicación de Maxspect. Maxspect solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
+Usa esta página para darle a una bomba Jecod un **programa diario**: un conjunto de periodos, cada uno con su intensidad, que se repite todos los días. Ábrela desde **Dispositivos** → toca la bomba.
 
-Abre el dispositivo desde la pestaña **Dispositivos**.
+También puedes ver el horario de un gyre Maxspect *(Beta)* de la misma forma, pero se configura en la aplicación de Maxspect. Maxspect solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta). Las luces y bombas de otras marcas tienen sus horarios en sus propias páginas: [EcoTech](/help/mobile-ecotech) *(Beta)*, y ReefRun y ReefDose de Red Sea en [Controlar tus equipos](/help/mobile-device-control#red-sea).
 
-![El horario de una bomba](img/mobile-schedules.webp "El gráfico del día de 0 a 24 horas, con los periodos en una lista debajo.")
+![La página de una bomba Jecod en Cora Mobile con Horario elegido](img/mobile-schedules.webp "Horario elegido arriba, la pausa de alimentación y después el gráfico del día.")
 
-## Igual todo el día, u Horario
+## Igual todo el día, u Horario {#same-all-day-or-schedule}
 
 En la parte superior de la página de la bomba eliges uno de estos dos modos:
 
 - **Igual todo el día**, con una sola intensidad constante
 - **Horario**, con un programa diario dividido en periodos
 
-Tu elección se envía a la bomba. Si tu teléfono no está en la red de la bomba, se envía a través del Cora Max del acuario. Una bomba Bluetooth tiene que estar a tu alcance. Mientras no lo esté, lo que elijas aquí solo cambia lo que ves en pantalla.
+Cora envía tu elección directamente a la bomba cuando tu teléfono está en su red. Si no lo está, se envía a través del Cora Max del acuario. Una bomba Bluetooth tiene que estar a tu alcance. Mientras no lo esté, lo que elijas aquí solo cambia lo que ves en pantalla.
+
+Una pausa de alimentación saca la bomba de su horario durante un rato, y en tu teléfono el horario solo vuelve mientras la página de la bomba sigue abierta. Consulta [Pausa de alimentación](/help/mobile-device-control#jecod-feeding).
 
 ## El editor de horarios
 
@@ -58,6 +60,8 @@ Cuando tu teléfono no está en la red de la bomba, Cora Mobile trabaja a travé
 - **Igual todo el día** y **Horario** cambian el modo de la bomba a través de ese Cora Max.
 - Un periodo que añadas o cambies solo pasa por el Cora Max si este ha conectado con la bomba en la última hora. Si no, el horario te lo indica y no puedes cambiarlo desde donde estás.
 - **Copiar horario a…**, **Guardar horario como…**, **Horarios guardados…**, **Compartir este horario** y **Pegar un código de horario…** necesitan que tu teléfono esté en la red de la bomba. Mientras tanto aparecen en gris y el menú te explica por qué.
+
+Sin un Cora Max en el acuario, solo puedes cambiar una bomba mientras tu teléfono está en su red. Más información en [Conectar tus equipos](/help/mobile-connections#local-only).
 
 A una bomba Bluetooth solo se llega desde un teléfono que esté cerca. Acércate para cambiarle el modo, cambiar su horario o usar cualquiera de esas opciones.
 

@@ -1,146 +1,170 @@
 ---
 title: Uyarılar ve eşikler
-description: Her parametrenin aralığını belirleyin, hangi durumlarda haber alacağınızı seçin ve bir uyarının neden geldiğini anlayın.
+description: Her ölçüm için sağlıklı aralığı ayarlayın, bir uyarının sizi ne sıklıkla bilgilendirebileceğini seçin ve bir cihazın neden "bildirim yapmıyor" olduğunu öğrenin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 15
+order: 20
 group: Alerts and automation
+twin: max-alerts
 ---
 
-Bir ölçüm, belirlediğiniz aralığın dışına çıktığında uyarı verilir. Aralıkları siz belirlersiniz. Hangi uyarıların telefonunuza geleceğini de siz seçersiniz.
+Bir ölçüm onun için belirlediğiniz aralığın dışına çıktığında bir uyarı alırsınız. Bu sayfa bu aralıkları ayarlamayı, bir uyarı tetiklendiğinde ne olduğunu ve Cora'nın bir cihazın bildirmeyi bıraktığını söylemeden önce ne kadar beklediğini anlatır.
 
-**Uyarı Merkezi**'ni panonun altındaki kısayol satırından açın.
+**Uyarı Merkezi**'ni açmak için panonun altındaki düğme satırında **Uyarılar**'a dokunun. Aynı ekran Ayarlar → akvaryumunuz → **Uyarı eşikleri** yolunda da var.
 
-![Uyarı Merkezi](img/mobile-alerts.webp "Etkin uyarılar. Her birinde önem derecesi, uyarıya neyin yol açtığı ve zamanı görünür.")
+![Cora Mobile'da Uyarı Merkezi'nin Etkin sekmesi](img/mobile-alerts.webp "Etkin uyarılar, her biri önem düzeyi, onu neyin tetiklediği ve ne zaman tetiklendiğiyle, ayrıca Kuralı görüntüle ve Bu uyarıyı açıkla.")
 
-## Uyarı Merkezi
+## Uyarı Merkezi {#alert-center}
 
-İki sekme var:
+İki sekmesi vardır. **Etkin**, şu anda açık olan uyarıları bir sayı rozetiyle listeler. **Kurallar**, onları oluşturan kuralları tutar.
 
-- **Etkin**: şu an açık olan uyarılar. Sekmedeki rozet kaç uyarı olduğunu gösterir
-- **Kurallar**: bu uyarıları üreten eşik ve değişim hızı kuralları
+Her etkin uyarı parametreyi ve akvaryumu, onu tetikleyen ölçümü, kısa bir açıklamayı, bir önem düzeyi çipini, tetiklenen kuralın türünü (**Eşik** ya da **Değişim Hızı**) ve ne zaman tetiklendiğini gösterir. İki düğmesi vardır:
 
-Her etkin uyarıda şunlar görünür: parametre ve akvaryum, uyarıya yol açan ölçüm, sade açıklama, önem derecesi etiketi, uyarıyı veren kuralın türü (**Eşik** ya da **Değişim Hızı**) ve uyarının zamanı.
+- **Kuralı görüntüle**, aralığı ayarlayabilmeniz için arkasındaki kuralı açar. Bir DŌS ya da ReefDose kafasının azalması ya da kaçırılan bir doz gibi bir dozaj pompası uyarısında bu düğme bunun yerine **Dozaj pompasını aç**'tır. O dozaj pompasının uyarılarıyla birlikte sayfasını açar.
+- **Bu uyarıyı açıkla**, uyarı hakkında gönderilmeye hazır bir soruyla Cora Assistant'ı açar. Kontrol edin, isterseniz değiştirin, sonra gönderin.
 
-Her uyarıda iki düğme var:
+## Kurallar sekmesi {#rules}
 
-- **Kuralı görüntüle**: uyarıyı veren kuralı açar. Aralığı buradan değiştirebilirsiniz. Bir dozaj pompası uyarısında, örneğin bir DŌS ya da ReefDose kafasında sıvı azaldığında veya bir dozaj kaçırıldığında, bu düğmenin yerinde **Dozaj pompasını aç** bulunur. O dozaj pompasının sayfasını uyarılarıyla birlikte açar
-- **Bu uyarıyı açıkla**: asistandan uyarıyı akvaryumunuzun geçmişine bakarak yorumlamasını ister
+![Kurallar sekmesi](img/mobile-alert-rules.webp "Parametreye göre gruplanmış kurallar, her biri kendi anahtarıyla.")
 
-## Kurallar sekmesi
+Kurallar parametreye göre gruplanır. Her kuralın satırında kendi anahtarı vardır, böylece birini açmadan kapatabilirsiniz. Bir satır, uyarısı açıkken **Şu anda tetikleniyor**'u ya da en son ne zaman tetiklendiğini (veya **Hiç tetiklenmedi**) de gösterir.
 
-Kurallar parametreye göre gruplanır. Her kuralın kendi satırında bir açma kapama anahtarı vardır, böylece kuralı açmadan kapatabilirsiniz. Aralığını ya da bekleme süresini değiştirmek için satıra dokunun.
+Bir dozaj kafasının kuralları kafanın adıyla ve neyi izlediğiyle adlandırılır, örneğin *İyot · kalan gün* ya da *İyot · kalan*. Kaçırılan bir doz *İyot · kaçırılan dozaj* olarak görünür. Her DŌS'un ve her ReefDose'un burada kendine ait tek bir satırı vardır ve kafa uyarıları tek tek listelenmez. O dozaj pompasının sayfasını açmak için satıra dokunun. [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümüne bakın.
 
-Bir dozaj kafasının kuralları, kafanın adını ve neyi izlediğini taşır, örneğin *İyot · kalan gün* ya da *İyot · kalan*. Kaçırılan bir dozaj *İyot · kaçırılan dozaj* olarak görünür.
+En altta:
 
-Her DŌS ve her ReefDose'un burada kendine ait tek bir satırı vardır. Kafa uyarıları tek tek listelenmez. O dozaj pompasının sayfasını uyarılarıyla açmak için satıra dokunun. Bkz. [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts).
+- **Önerilen kuralları ekle**, Cora'nın önerdiği kurallardan eksik olanları ekler. Zaten kuralı olan bir parametreyi atlar. Hiç kuralı olmayan bir akvaryumda bu düğmede **Varsayılan Kuralları Ekle** yazar.
+- **Özel Kural Ekle**, kendi kuralınızı kurar. Parametreyi ve **Kural türü**'nü, **Eşik** ya da **Değişim Hızı**, seçin. Sağ alttaki **Kural Ekle** düğmesi de aynı şeyi yapar.
 
-Cora'nın önerdiği kurallardan bazıları eksikse en alttaki **Önerilen kuralları ekle** onları ekler. Zaten kuralı olan parametreleri atlar. **Özel Kural Ekle** ile kendi kuralınızı kurarsınız.
+### Bir kuralı düzenleme {#editing-a-rule}
 
-## Aralık belirleme
+Açmak için bir kuralın satırına dokunun. Şunları bulursunuz:
 
-Cora'nın değerlendirebildiği parametrelerin hedef aralığı vardır. Varsayılan aralıklar, akvaryumu kurarken girdiğiniz türe ve yaşa göre belirlenir. Başlangıç için genellikle uygundur. Kullanılabilir bir aralığı olmayan parametre hiç değerlendirilmez. Cora tahmin yürütmez, parametre nötr gri renkte kalır.
+- Aralığın kendisi olan **Uyarı minimumu** ve **Uyarı maksimumu**. Üst ya da alt sınır için birini boş bırakın.
+- Cora'nın önerdiği aralığı geri getiren **Önerilen**.
+- **Gösterge min** ve **Gösterge maks** ile **Gösterge Aralığı (Cora ekranı)**. Bunlar yalnızca Cora Max'teki göstergenin ölçeğini ayarlar. Asla uyarı oluşturmaz.
+- [Aşağıda](#cooldowns) açıklanan **Uyarılar arası bekleme süresi**.
+- **Etkin** ve bir silme düğmesi.
 
-Bir aralığı değiştirmek için panodaki widget'a **uzun basın**. Bu, o parametrenin eşiklerini doğrudan açar. Kısa dokunuş ise parametre ekranını açar. İki hareket farklı yerlere gider. Uzun basma, aklınızda tutmanız gereken kısayoldur.
+Reaktifi biten bir Trident gibi bir cihaz arızası kuralının aralığı yoktur. Yalnızca bekleme süresini seçersiniz.
 
-Parametrenin henüz kuralı yoksa alanlarda Cora'nın varsayılan değerleri yazar ve altındaki notta bu belirtilir. Kendi aralığınızı belirlemek için herhangi bir değeri değiştirin.
+## Aralık ayarlama {#setting-a-range}
 
-Bütün aralıkları bir arada görmek için panonun altındaki düğme satırından **Uyarılar**'a dokunun.
+Cora'nın değerlendirebildiği parametrelerin bir hedef aralığı vardır. Varsayılanlar akvaryumu kurduğunuzda akvaryum türünüzden ve yaşından gelir ve mantıklı bir başlangıçtır. Bir parametrenin kullanılabilir bir aralığı yoksa Cora onu değerlendirmez ve widget'ı nötr gri kalır.
 
-Şunları belirleyebilirsiniz:
+Bir aralığı değiştirmenin en hızlı yolu panoda parametrenin widget'ına uzun basmaktır. Bu, eşiklerini açar. Normal bir dokunuş ise parametre görünümünü açar.
 
-- **Aralık**: alkalinite ya da sıcaklık gibi değerler için alt ve üst sınır
-- **Üst sınır**: nitrat ya da fosfat gibi düşük olmasında sakınca olmayan değerler için yalnızca üst sınır
-- **Alt sınır**: yalnızca alt sınır
+![Cora Mobile'da pH için Eşiği Düzenle sayfası](img/mobile-threshold-sheet.webp "Uyarı minimumu ve maksimumu, Cora Max için gösterge aralığı ve uyarılar arası bekleme süresi.")
 
-:::tip Akvaryumunuzun gerçekte çalıştığı aralığı girin
-Varsayılanlar yalnızca başlangıç noktasıdır, kesin hüküm değildir. 6 dKH'de düşük besinle çalışan bir akvaryum, bir tabloda 8–9 yazıyor diye "yanlış" değildir. Gerçekte çalıştığınız aralığı girin. Cora da *sizin* aralığınızdan kaydığınızda size haber verir.
+Parametrenin henüz kuralı yoksa alanlar Cora'nın varsayılanıyla başlar ve altındaki bir not bunu söyler. Kendi değerinizi ayarlamak için herhangi bir değeri değiştirin.
+
+Şunları ayarlayabilirsiniz:
+
+- alkalinite ya da sıcaklık gibi şeyler için alt ve üst değeri olan bir aralık
+- nitrat ya da fosfat gibi düşük olmasının sorun olmadığı şeyler için yalnızca üst değeri olan bir üst sınır
+- yalnızca alt değeri olan bir alt sınır
+
+:::tip Akvaryumunuzun gerçekte çalıştığı aralığı ayarlayın
+Varsayılanlar yalnızca bir başlangıç noktasıdır. 6 dKH'de çalışan düşük besinli bir akvaryum, bir tablo 8–9 diyor diye "yanlış" değildir. Çalıştığınız aralığı ayarlayın, Cora da *siz* kaydığınızda size söylesin.
 :::
 
-## Uyarıya ne yol açar
+## Bir uyarıyı ne tetikler {#what-triggers-an-alert}
 
-Bir ölçüm eşiği geçtiğinde uyarı verilir. Cora her ölçümü geldiği anda kontrol eder. Bu yüzden aralığın dışındaki tek bir ölçüm bile uyarı için yeterlidir.
+Bir uyarı, bir ölçüm bir eşiği geçtiğinde tetiklenir. Cora her ölçümü geldikçe kontrol eder, bu yüzden aralığınızın dışındaki tek bir ölçüm yeterlidir.
 
-Uyarı verildikten sonra aynı konuda size tekrar tekrar bildirim gelmez. Yeniden bildirim için bekleme süresinin dolması gerekir. Ölçüm aralığa geri döndüğü anda uyarı da **kendiliğinden kapanır**. Onaylamanız gereken bir şey yoktur.
+Değişim hızı kuralı bir parametrenin nerede durduğu yerine ne kadar hızlı hareket ettiğini izler. Bir değişimin hızı sayıdan daha önemli olduğunda kullanın.
 
-**Değişim hızı** kuralı da kurabilirsiniz. Bu kural parametrenin şu anki değerine değil, ne kadar hızlı değiştiğine bakar. Sayının kendisinden çok değişimin hızının önemli olduğu durumlar için bu kuralı kullanın.
+Bir uyarı açıldığında aynı şey hakkında sizi bilgilendirmeye devam etmez. Sizi ne zaman yeniden bilgilendirebileceğine kuralın [bekleme süresi](#cooldowns) karar verir.
 
 ## Uyarılar nerede görünür
 
-- Her ekranın sağ üstündeki **zil**, uyarı geçmişinizi tutar. Üstündeki sayı okumadığınız uyarıların sayısıdır.
-- **Anlık bildirimler**, izin verdiyseniz telefonunuza gelir.
-- Panodaki **widget** turuncu ya da kırmızı olur.
-- **Cora Max** aynı uyarıları büyük ekranda gösterir.
+- Ana sekmelerin sağ üstündeki zil geçmişinizi tutar. Sayı kaç tanesini okumadığınızı gösterir. Ayrıntılar [Bildirimler](/help/mobile-notifications) sayfasında.
+- O kategori açıksa telefonunuza bir anlık bildirim ulaşır.
+- Panodaki widget turuncuya ya da kırmızıya döner.
+- Cora Max aynı uyarıları ekranında gösterir.
 
-## Ekipman sorun bildirdiğinde
+## Ekipman ilgi gerektirdiğinde {#equipment-faults}
 
-Bazı uyarılar bir ölçümle değil, ekipmanla ilgilidir. Trident ya da Jecod pompası gibi bir cihaz arıza bildirdiğinde Cora, akvaryumun ve cihazın adının geçtiği bir bildirim gönderir. Örneğin *"Salon akvaryumu: Ana pompa dikkat gerektiriyor"*. Bildirimde sıkışmış rotor gibi sorunun ne olduğu da yazar. Arıza giderilince ikinci bildirim gelir: *"Salon akvaryumu: Ana pompa tekrar normal"*. İki bildirim de **Ayarlar → Bildirimler** altında **Ekipman Arızaları** kategorisindedir.
+Bazı uyarılar bir ölçümle değil ekipmanla ilgilidir. Bir Trident ya da Jecod pompası gibi bir cihaz arıza bildirdiğinde Cora akvaryumu ve cihazı adlandıran bir bildirim gönderir, örneğin *"Salon: Ana pompa dikkat gerektiriyor"*. Ayrıca sıkışmış bir rotor gibi neyin yanlış olduğunu da söyler. Arıza giderildiğinde ikinci bir bildirim alırsınız: *"Salon: Ana pompa tekrar normal"*. İkisi de **Ayarlar → Bildirimler** içinde **Ekipman Arızaları** altına girer.
 
-Maxspect gyre (Beta) için de aynı uyarı gelebilir. Aynı ağdaki bir Cora Max, iki kafanın da %0'a ayarlı olduğunu görürse ya da gyre üst üste iki kez yanıt vermezse bu uyarı verilir. Bunu güvenlik önlemi değil, uyarı olarak görün. Cora Max gyre'yi sürekli değil, ara ara kontrol eder. Bunu da yalnızca çalışırken ve gyre'ye ulaşabildiğinde yapar.
+Bir Maxspect gyre (Beta) da aynı uyarıyı verebilir. Bu, ağındaki bir Cora Max iki kafanın da %0'a ayarlandığını gördüğünde ya da gyre'den üst üste iki kez yanıt alamadığında olur. Bunu bir güvence değil bir uyarı olarak görün. Cora Max yalnızca ara sıra ve yalnızca çalışırken ve gyre'ye ulaşabildiğinde kontrol eder.
 
-## Bir cihaz bildirim göndermeyi kesti
+## Bir cihaz bildirmeyi bıraktı {#stopped-reporting}
 
-Bir Neptune Apex, Red Sea ReefBeat cihazı, AquaWiz, Jecod pompası, Maxspect gyre, EcoTech cihazı ya da Inkbird oda havası monitörü sessiz kalırsa Cora size haber verir: *"[Cihaz]: bildirim göndermeyi kesti."* Cihazın gücünü ve Wi-Fi (ya da Bluetooth menzili) bağlantısını, bir de onu okuyan Cora Max'in açık olduğunu kontrol edin. Cihaz yeniden bildirim göndermeye başladığında ikinci bir bildirim alırsınız.
+Bağlı bir cihaz sessizleştiğinde Cora *"[Cihaz]: bildirim yapmıyor"* gönderir. Bu cihazın bozuk olduğu anlamına gelmez, yalnızca Cora'nın bir süredir ondan haber almadığı anlamına gelir. Geri geldiğinde ikinci bir bildirim alırsınız: *"[Cihaz]: tekrar bildiriyor"*.
 
-Cora'nın ne kadar bekleyeceği cihaza göre değişir.
+Cora'nın ne kadar beklediği cihaza bağlıdır:
 
-- Neptune Apex ve Red Sea ReefBeat: güncelleme gelmeden yaklaşık 30 dakika.
-- AquaWiz: daha seyrek kontrol edildiği için yaklaşık 3 saat.
-- Jecod ve Maxspect: üst üste üç ölçüm kaçırılması. Cihazın kendi ölçüm aralığına göre sayılır.
-- EcoTech ve Inkbird: üst üste üç ölçüm kaçırılması. O ağ ya da monitör için belirlediğiniz aralığa göre sayılır.
+| Cihaz | Cora'nın beklediği süre |
+|---|---|
+| Neptune Apex | Güncelleme olmadan yaklaşık 30 dakika |
+| Red Sea ReefBeat | Yaklaşık 30 dakika |
+| AquaWiz | Yaklaşık 3 saat, çünkü daha seyrek bildirir |
+| Jecod pompaları | Pompanın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 ile 90 dakika) |
+| Maxspect (Beta) | Jecod gibi üst üste üç kaçırılan ölçüm |
+| EcoTech (Beta) | Ağın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 ile 90 dakika). **Işık yanıt vermeyi durdurursa** altında daha uzun bir süre ayarladıysanız Cora o kadar bekler |
+| Inkbird oda havası monitörü (Beta) | Monitörün kendi aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 5 ile 15 dakika) |
+| Focustronic (Beta) | Yaklaşık 3 saat |
+| GHL (Beta) | Yaklaşık 15 dakika. Bildirimde *"GHL kontrolörüne ulaşılamıyor"* yazar |
+| HYDROS (Beta) | Yaklaşık 30 dakika. Bildirimde *"HYDROS kontrolörü bildirim yapmıyor"* yazar |
 
-Maxspect, EcoTech ve Inkbird, yalnızca Beta kullanıcılarının ekleyebildiği Beta entegrasyonlardır. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
+Neyi kontrol edeceğiniz Cora'nın cihazı nasıl okuduğuna bağlıdır.
 
-Bu da yukarıdaki arıza uyarıları gibi **Ayarlar → Bildirimler** altında **Ekipman Arızaları** kategorisindedir.
+- Apex, ReefBeat, Jecod, Maxspect ve GHL'yi bir Cora Max Wi-Fi üzerinden okur. Cihazın gücünü ve Wi-Fi'ını, ayrıca onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin.
+- EcoTech ve Inkbird'ü bir Cora Max Bluetooth üzerinden okur. Gücü, cihazın Cora Max'in Bluetooth menzili içinde olduğunu ve Cora Max'in açık olduğunu kontrol edin.
+- AquaWiz ve Focustronic, üreticideki hesabınız üzerinden okunur. Cora Mobile'da cihazın sayfasındaki hesap bağlantısını kontrol edin.
+- HYDROS için gücünü, Wi-Fi'ını ve cihaz anahtarını kontrol edin.
 
-## "Red Sea değerleri güncellenmiyor"
+GHL ayrıca size *"GHL API kapalı"* ya da kontrolörün *"bağlantıyı reddetti"*ğini söyleyebilir. Bir GHL kontrolörünü okuyan Cora Max sessizleşirse o kontrolör için *"Cora Max bildirim göndermiyor"* alırsınız. Çözümler [Sorun giderme](/help/troubleshooting) sayfasında.
 
-Bir akvaryumun parametre sayfasında şu şeridi görebilirsiniz:
+Bu bildirimler **Ayarlar → Bildirimler** içinde **Ekipman Arızaları** altına girer.
 
-> Red Sea değerleri güncellenmiyor. Bu akvaryumun Red Sea cihazlarını şu anda hiçbir cihaz okumuyor: Ayarlar'da birincil Cora Max'i kontrol edin veya bu akvaryumu aynı Wi-Fi ağındaki bir cihazda açın.
-
-Bu, şu an o akvaryumun ReefBeat ekipmanını hiçbir telefonun ya da Cora Max'in yoklamadığı anlamına gelir. Gösterilen ölçümler eskidir ama yanlış olmak zorunda değildir. Şeride dokunarak **Birincil Cora Max** ayarını açın. Açık olan bir cihaz seçin ya da ayarı **Aktif olan herhangi biri (otomatik)** yapın. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında. Şerit kaybolmazsa [Sorun giderme](/help/troubleshooting) sayfasına bakın.
-
-## Size nelerin geleceğini seçme
-
-**Ayarlar → Bildirimler.** Burada şunu ayarlarsınız:
-
-- Hangi bildirim kategorilerinin telefonunuza gelebileceği
-
-Reef Buddy'nin ayrı anahtarı yoktur. İlgilenmeniz gereken bir şey olduğunda özet gönderir, yoksa sessiz kalır.
-
-:::note Cora gereksiz yere rahatsız etmez
-Günlük özet, her akvaryum için günde tek bildirimdir. Dikkatinizi gerektiren bir şey olmayan günlerde "her şey yolunda" demek için bildirim göndermez, genellikle sessiz kalır. Cora bildirim gönderiyorsa bir şey değişmiş demektir.
+:::note Beta
+Maxspect, EcoTech, Inkbird, Focustronic, GHL ve HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
 :::
 
-## Bekleme süresi: aynı uyarı ne sıklıkla bildirim gönderir
+Bir Red Sea akvaryumu, hiçbir telefon ya da Cora Max ReefBeat ekipmanını okumadığında *"Red Sea değerleri güncellenmiyor"* şeridini de gösterebilir. Bir **Birincil Cora Max** seçmek için ona dokunun. Tam çözüm [Sorun giderme](/help/troubleshooting#red-sea-readings-have-stopped-updating) sayfasında.
 
-Her kuralın kendi **Uyarılar arası bekleme süresi** var. Bu süreyi kuralı eklerken ya da düzenlerken (Uyarı Merkezi'nin **Kurallar** sekmesinde) seçersiniz. Bekleme süresi uyarıyı gizlemez. Yalnızca Cora'nın o uyarı için ne sıklıkla bildirim göndereceğini sınırlar. Ölçüm bu süre boyunca da değerlendirilir. Uyarı da widget'ta ve zilde görünmeye devam eder.
+## Size nelerin ulaşacağını seçme {#choosing-what-reaches-you}
 
-Şu sürelerden birini seçebilirsiniz: 15 dk, 30 dk, 1 sa, 2 sa, 4 sa, 8 sa, 1 gün, 3 gün ya da **1 hafta**.
+**Ayarlar → Bildirimler** içinde hangi kategorilerin size anlık bildirim gönderebileceğini seçersiniz. [Geceleri sessiz tutmayı](/help/mobile-notifications#quiet-at-night) da anlatan [Bildirimler](/help/mobile-notifications) sayfasına bakın.
 
-Kısa bekleme süresi, sıcaklık gibi hızlı değişen ölçümlere uyar. Bir haftaya kadar çıkan uzun süreler ise, bir parça beklerken günlerce düzelmeyecek sorunlar içindir. Örneğin reaktifi biten bir Trident ya da boşalmış bir dozaj kabı. Uzun bekleme süresi olmasa Cora aynı bilinen sorun için günde birkaç kez bildirim gönderirdi.
+Reef Buddy'nin kendine ait bir anahtarı yoktur. Zamanlaması, Ayarlar'da Bildirimler'in hemen altındaki **Özet saati** satırıdır. Ücretsiz planda özet bildirimi yoktur.
 
-:::note Etkin uyarıyı ertelemek Cora Max'ten yapılır
-Cora Mobile'da etkin uyarı için ayrı Ertele düğmesi yoktur. Bu düğme akvaryumun yanındaki Cora Max ekranındadır ve uyarıyı burada seçtiğiniz bekleme süresi kadar susturur. Telefondan bir konuda ne sıklıkla haber alacağınızı değiştirmek için uyarıyı ertelemezsiniz, kuralın bekleme süresini değiştirirsiniz.
+:::note Bir şey değişmedikçe Cora sessiz kalır
+Günlük özet, akvaryum başına günde bir bildirimdir. Size ihtiyaç olmayan bir günde genellikle her şeyin yolunda olduğunu söylemek yerine sessiz kalır. Cora bildirim gönderiyorsa bir şey değişmiştir.
 :::
 
-## Uyarının kapanması
+## Bekleme süreleri: aynı uyarının sizi ne sıklıkla bilgilendirebileceği {#cooldowns}
 
-Ölçüm aralığa geri dönünce uyarı kapanır. Kapatmanız gereken bir şey yoktur. Uyarı sizden bir iş beklemez, akvaryumun durumunu bildirir.
+Her kuralın kendi **Uyarılar arası bekleme süresi** vardır. Onu kuralı eklerken ya da düzenlerken ayarlarsınız. Hiç ayarlanmamış bir kural 1 sa kullanır.
 
-:::note Anlık sıçramalar da uyarıya yol açar
-Aralık dışındaki tek bir ölçüm uyarı için yeterlidir. Bu yüzden anlık sıçrama yapan prob da uyarı verdirir. Kaynak güvenilmezse eşiği genişletmeyin. Kaynağı yeniden kalibre edin ya da widget'ı başka bir kaynağa bağlayın.
+Bekleme süresi uyarıyı gizlemez. Yalnızca Cora'nın onun hakkında ne sıklıkla bildirim göndereceğini sınırlar. Ölçüm yine değerlendirilir ve uyarı bütün süre boyunca widget'ta ve zilin altında kalır.
+
+15 dk, 30 dk, 1 sa, 2 sa, 4 sa, 8 sa, 1 gün, 3 gün ya da 1 hafta seçebilirsiniz.
+
+Kısa bir bekleme süresi sıcaklık gibi hızlı değişen bir ölçüme uyar. Bir haftaya kadar uzun bir süre ise bir parça beklerken günlerce yanlış kalan bir şeye uyar, örneğin reaktifi biten bir Trident ya da boş bir dozaj kabı.
+
+:::note Ertele Cora Max'tedir
+Cora Mobile'da etkin bir uyarıda Ertele düğmesi yoktur. Ertele akvaryumdaki Cora Max ekranındadır ve uyarıyı burada seçtiğiniz bekleme süresi boyunca susturur. Telefonunuzda bir şey hakkında ne sıklıkla haber alacağınızı kural başına bekleme süresiyle değiştirirsiniz.
 :::
 
-Sorun akvaryumda değil de ölçümdeyse (örneğin kalibrasyon isteyen bir prob) kaynağı düzeltin. Hatalı probu susturmak için eşiği genişletirseniz bir sonraki gerçek sorunu da gizlemiş olursunuz.
+## Bir uyarının temizlenmesi {#clearing-an-alert}
 
-## Bir uyarıyı kapatma
+Bir uyarı, ölçüm aralığa geri döndüğünde kendiliğinden temizlenir. Sizin kapatmanız gereken bir şey yoktur. Temizlendiğinde tek bir bildirim alırsınız, örneğin *"Salon: Alkalinite normale döndü"*. Sorun daha sonra geri gelirse yeni bir uyarı alırsınız.
 
-Uyarı Merkezi'nin **Kurallar** sekmesinde kuralın satırındaki anahtarı kapatın. Kural ve aralığı silinmez. İstediğinizde baştan kurmadan yeniden açabilirsiniz.
+:::note Kısa sıçramalar da uyarı oluşturur
+Aralık dışındaki tek bir ölçüm uyarı oluşturmaya yeter, bu yüzden sıçrayan bir prob bir uyarı tetikler. Bir kaynak güvenilmezse onu yeniden kalibre edin ya da widget'ı farklı bir kaynağa yönlendirin. Eşiği genişletmeyin.
+:::
 
-Kural kapalıyken Cora o ölçümü değerlendirmez. Widget'ı nötr gri kalır ve hiç uyarı vermez.
+Bazen ölçüm yanlıştır ve akvaryum iyidir, örneğin bir probun kalibrasyona ihtiyacı olduğunda. Bu durumda kaynağı düzeltin. Kötü bir probu susturmak için bir eşiği genişletirseniz bir sonraki gerçek sorunu da kaçırırsınız.
 
-:::warning Parametreyi susturmak için aralığı silmeyin
-Eşiği silmek o ölçümün değerlendirilmesini tamamen durdurmayabilir. Varsayılan referans aralıklar değeri yine renklendirir ve özete de yansıyabilir. Bunun yerine kuralın anahtarını kullanın.
+## Bir uyarıyı kapatma {#turning-an-alert-off}
+
+**Kurallar** sekmesinde kuralın satırındaki anahtarı kapatın. Cora kuralı ve aralığını saklar, böylece onu yeniden kurmadan tekrar açabilirsiniz.
+
+Bir kural kapalıyken Cora o ölçümü değerlendirmez. Widget'ı nötr gri kalır ve asla uyarı vermez.
+
+:::warning Bir parametreyi aralığını silmeden kapatın
+Bir kuralı silmek Cora'nın o ölçümü değerlendirmesini her zaman durdurmaz. Varsayılan referans bantları değeri yine renklendirir ve özeti yine besleyebilir. Kuralın anahtarını kullanın.
 :::

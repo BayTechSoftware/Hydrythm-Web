@@ -1,64 +1,70 @@
 ---
 title: Gniazda i sterowanie
-description: Przełączanie gniazd z Cora Max, tryb karmienia i to, co naprawdę oznacza Auto.
+description: Przełączaj gniazda Apex z Cora Max, uruchamiaj albo przerywaj tryb karmienia, korzystaj z szuflady Gniazda i karmienie i poznaj znaczenie stanów Auto, Wył. i Wł.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-13
 order: 5
 group: Equipment
 ---
 
-Cora Max może przełączać sprzęt w Twoim systemie. Użyjesz do tego widżetów sterowania na pulpicie, szuflady **Gniazda i karmienie** albo głosu.
+Ta strona opisuje przełączanie gniazd i uruchamianie trybu karmienia z Cora Max. Zrobisz to kafelkami gniazd na pulpicie, z szuflady **Gniazda i karmienie** albo głosem.
 
-:::warning Te przyciski działają na prawdziwym akwarium
-Nie da się tego cofnąć. Gniazda z kłódką najpierw proszą o potwierdzenie. Pozostałe przełączają się od razu po dotknięciu. Wynik polecenia to **Potwierdzono**, **Niepotwierdzone** (wysłane, ale nic nie odpowiedziało), **Odmówiono** albo **Bez zmian**. Więcej w [Sterowanie sprzętem](/help/mobile-device-control).
+:::warning Te przyciski działają na Twoje akwarium
+Nie da się tego cofnąć. Gniazda z kłódką najpierw proszą o potwierdzenie. Pozostałe zmieniają się od razu po dotknięciu. Polecenie może wrócić jako **Potwierdzono**, **Niepotwierdzone** (wysłane, ale nic nie odpowiedziało), **Odmówiono** albo **Bez zmian**. Więcej w [Sterowaniu sprzętem](/help/mobile-device-control).
 :::
 
-## Trzy stany
+## Trzy stany {#the-three-states}
 
 Każde gniazdo jest w jednym z trzech stanów.
 
-**AUTO** oddaje gniazdo z powrotem programowi Apex. W tym stanie gniazdo powinno być przez większość czasu.
+**AUTO** oddaje gniazdo z powrotem programowi Apex. Przez większość czasu gniazdo powinno być właśnie w tym stanie.
 
 **WYŁ.** i **WŁ.** to ręczne nadpisania. Działają od razu i **zostają, dopóki ich nie zmienisz**. Nie wygasają i nic nie przywróci ich za Ciebie.
 
-:::warning Ręczne nadpisanie samo nie wygasa
-Gdy skończysz, ustaw gniazdo z powrotem na **AUTO**. Nic nie zrobi tego za Ciebie. Nadpisanie to jednak nie blokada. Później możesz je zmienić Ty, głos albo automatyzacja.
+:::warning Ręczne nadpisanie nie wygasa
+Gdy skończysz, ustaw gniazdo z powrotem na **AUTO**, bo nic innego tego nie zrobi. Nadpisanie to jednak nie blokada. Później możesz je zmienić Ty, Twój głos albo automatyzacja.
 :::
 
-## Przełączanie z pulpitu
+## Przełączanie z pulpitu {#switching-from-the-dashboard}
 
-Widżety sterowania pokazują trzy stany, a aktualny jest podświetlony. Dotknij stanu, który chcesz ustawić.
+Kafelki gniazd pokazują trzy stany, a bieżący jest podświetlony. Dotknij tego, który chcesz.
 
-Niektóre gniazda mają **kłódkę**. Nie trzeba jej nigdzie wyłączać. Oznacza tylko, że gniazdo prosi o potwierdzenie przed zmianą, więc przypadkowe dotknięcie nie przełączy niczego ważnego. Więcej niżej.
+Niektóre gniazda mają **kłódkę**. Oznacza ona, że gniazdo prosi o potwierdzenie przed zmianą, więc przypadkowe dotknięcie nie przełączy niczego ważnego. Po dotknięciu okno pokazuje gniazdo, jego bieżący stan, nadpisanie, które zamierzasz ustawić, i to, co może ono zrobić z akwarium. Nie ma żadnej blokady do wyłączania gdzie indziej.
 
-## Szuflada Sterowanie
+Domyślnie kłódkę mają grzałki, chłodziarki, pompy powrotne, dolewka (ATO), karmniki i każde gniazdo, którego Cora nie potrafi sklasyfikować. Oświetlenie, odpieniacze, pompy cyrkulacyjne, pompy dozujące, reaktory, UV i wentylatory przełączają się jednym dotknięciem.
 
-Wysuń uchwyt na dole pulpitu, żeby otworzyć **Sterowanie**. Znajdziesz tam wszystkie gniazda w systemie, także te bez widżetu, i cykle karmienia.
+## Szuflada Gniazda i karmienie {#the-controls-drawer}
 
-![Szuflada Sterowanie](img/max-controls.webp "U góry cykle karmienia, niżej wszystkie gniazda.")
+Zobaczysz ją tylko przy akwarium z Neptune Apex. Dotknij małej etykiety **Gniazda i karmienie** na dole pulpitu albo przesuń palcem w górę w dowolnym miejscu pulpitu. Otworzy się **Sterowanie** z sekcją **KARMIENIE** u góry i **GNIAZDA** pod nią.
 
-Gniazdo z **kłódką** wymaga wyraźnego potwierdzenia przed zmianą. Po dotknięciu otwiera się okno z nazwą gniazda, jego aktualnym stanem i stanem, który chcesz ustawić. To tylko krok potwierdzenia, a nie blokada, którą trzeba gdzieś wyłączyć.
+![Szuflada Sterowanie](img/max-controls.webp "U góry cykle karmienia, niżej gniazda wybrane dla tego pulpitu.")
 
-## Tryb karmienia
+Pokazuje gniazda i cykle karmienia wybrane w **Gniazda i karmienie** w [edytorze pulpitu](/help/max-dashboard-editing#outlets-feed), albo wszystkie, jeśli żadnych nie wybrano. Gniazda z kłódką także tu proszą o potwierdzenie. Gniazda w innych kontrolerach przełączasz na ich własnych stronach urządzeń, zobacz [Sterowanie sprzętem z Cora Max](/help/max-device-control).
 
-Tryb karmienia to bezpieczny sposób, żeby na czas karmienia wstrzymać przepływ. Wstrzymuje sprzęt, który ma stanąć, nie rusza reszty i **sam przywraca wszystko**, gdy czas minie.
+Jeśli po dotknięciu gniazda pojawi się *Apex nie odpowiedział: mogło się to już zastosować*, sprawdź gniazdo przed kolejną próbą.
 
-Lepiej użyć trybu karmienia niż wyłączać pompy ręcznie, bo system wróci do normy, nawet jeśli o tym zapomnisz.
+## Tryb karmienia {#feed-mode}
 
-Cykle karmienia są oznaczone literami **A**, **B**, **C** i **D**. Definiuje je Twój kontroler i każdy wstrzymuje inny zestaw sprzętu. Wybierz ten, który pasuje do tego, co robisz. **Odwołaj karmienie** kończy działający cykl wcześniej i od razu wszystko przywraca.
+Tryb karmienia to bezpieczny sposób na wstrzymanie przepływu na czas karmienia. Twój Apex wstrzymuje sprzęt, który ma stanąć, nie rusza reszty i **sam przywraca wszystko**, gdy czas minie.
 
-Cykl uruchomisz z szuflady **Sterowanie** albo mówiąc *„włącz tryb karmienia”*.
+Używaj go zamiast ręcznego wyłączania pomp. Przywróci system, nawet jeśli zapomnisz.
 
-## Głosem
+Cykle karmienia to Feed A, Feed B, Feed C i Feed D, pokazane jako **A**, **B**, **C** i **D** w **KARMIENIE**. To cykle zaprogramowane w Twoim Apex i każdy może wstrzymywać inny zestaw sprzętu. Wybierz ten, który pasuje do tego, co robisz. **Anuluj** kończy działający cykl wcześniej i od razu wszystko przywraca.
 
-Gniazda możesz przełączać głosem, na przykład: *„wyłącz odpieniacz”*, *„ustaw wentylator z powrotem na auto”*.
+Uruchom go z szuflady albo powiedz *„włącz tryb karmienia”*.
 
-Wszystko, co dotyczy sprzętu, jest **potwierdzane przed wykonaniem**. Cora mówi, co zamierza zrobić, i czeka na Twoją zgodę. Nie wykona polecenia, którego nie jest pewna.
+Jeśli Cora Max mówi, że Apex nie odpowiedział, karmienie może już trwać. Sprawdź pompę powrotną, zanim uruchomisz je ponownie.
 
-Więcej w [Rozmowa z Corą na Cora Max](/help/max-voice).
+## Głosem {#by-voice}
 
-## Co się stało
+Gniazda możesz przełączać głosem, na przykład *„wyłącz odpieniacz”* albo *„ustaw wentylator z powrotem na auto”*.
 
-Każde żądanie jest zapisywane razem ze źródłem (Cora Mobile, ekran Cora, głos, Asystent, reguła automatyzacji, inteligentny przycisk albo Twoje konto) i drogą, którą przeszło. Na Cora Max dotknij nazwy akwarium na górnym pasku i wybierz **Aktywność**. Na telefonie znajdziesz je w **Ustawienia → Aktywność**.
+Zanim cokolwiek dotrze do sprzętu, Cora **najpierw pyta Cię o zgodę**. Mówi, co zamierza zrobić, i czeka na Twoje OK. Jeśli nie jest pewna, o co prosisz, nic nie zrobi.
 
-Tu najpierw zajrzyj, gdy coś się zmieniło i nie wiesz dlaczego.
+Więcej w [Rozmowie z Corą](/help/max-voice).
+
+## Co się stało {#seeing-what-happened}
+
+Każde żądanie jest zapisywane razem z tym, co o nie poprosiło i jak poszło, niezależnie od tego, czy przyszło z Cora Mobile, Cora Max, głosu, Asystenta czy automatyzacji. Na Cora Max dotknij nazwy akwarium na górnym pasku i wybierz **Aktywność**. Na telefonie znajdziesz je w **Ustawienia → Aktywność**. Więcej w [Aktywności na Cora Max](/help/max-activity).
+
+Gdy coś się zmieniło i nie wiesz dlaczego, zajrzyj tam najpierw.

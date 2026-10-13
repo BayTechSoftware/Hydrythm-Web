@@ -1,17 +1,18 @@
 ---
 title: Más de un dispositivo Cora
-description: Elige qué dispositivo responde a tu voz y cuál consulta cada acuario.
+description: Con más de un dispositivo Cora, elige cuál responde a tu voz y cuál consulta cada acuario, y mira qué funciona cuando estás fuera de casa.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
-group: Account
+order: 34
+group: Settings and account
+twin: max-reef-room
 ---
 
-Un hogar puede tener más de un Cora Max. Con dos ajustes decides qué hace cada uno, para que no repitan el mismo trabajo. También conviene saber qué comparten y qué no.
+Esta página es para un hogar con más de un Cora Max, o con un Cora Max y varios teléfonos. Con dos ajustes decides qué hace cada dispositivo, para que no repitan el mismo trabajo. También conviene saber qué comparten y qué no.
 
 ## Qué se comparte y qué no
 
-| Se comparte en todos los dispositivos | Es propio de cada pantalla |
+| Se comparte en todos los dispositivos | Es propio de cada Cora Max |
 |---|---|
 | Acuarios, lecturas e historial | El diseño de su panel |
 | Dispositivos y sus ajustes | Wi-Fi, brillo, audio |
@@ -19,9 +20,9 @@ Un hogar puede tener más de un Cora Max. Con dos ajustes decides qué hace cada
 | Alertas, umbrales, automatizaciones | Qué acuarios muestra esa pantalla |
 | Planes y uso | |
 
-Si cambias un umbral en un dispositivo, cambia en todos. Si reorganizas un panel, no. Cada pantalla tiene su propio diseño, y el teléfono y Cora Max nunca comparten el mismo.
+Si cambias un umbral en un dispositivo, cambia en todos. Con el diseño del panel no pasa lo mismo. El diseño del teléfono sigue a tu cuenta, así que todos los teléfonos en los que inicias sesión muestran el mismo. Cada Cora Max tiene su propio diseño, y el teléfono y Cora Max nunca comparten el mismo.
 
-## Cora Assistant: dispositivo que responde
+## Cora Assistant: dispositivo que responde {#cora-assistant-answering-device}
 
 En **Ajustes → Cora Assistant → Dispositivo que responde** eliges qué **dispositivo Cora** te contesta cuando hablas en voz alta en la habitación. Aunque te oigan varios, solo responde uno. Elige el que tengas más cerca del sitio donde sueles estar.
 
@@ -37,7 +38,7 @@ Cada dispositivo de la lista muestra la frase de activación que escucha y si es
 El teléfono no escucha ninguna frase de activación. En él empiezas una conversación tocando la pantalla, y eso funciona siempre, sin depender de este ajuste. La lista solo muestra equipos Cora con voz.
 :::
 
-## Cora Max principal
+## Cora Max principal {#primary-cora-max}
 
 El equipo de tu red lo lee un Cora Max. Si varios pueden leer el mismo controlador, sin este ajuste lo consultarían todos a la vez.
 
@@ -45,7 +46,7 @@ El equipo de tu red lo lee un Cora Max. Si varios pueden leer el mismo controlad
 
 | Ajuste | Qué pasa |
 |---|---|
-| Un dispositivo concreto | Pasa a ser el único dispositivo Cora que consulta el controlador. Sigue siendo el principal aunque esté desconectado, y los demás dispositivos Cora no lo sustituyen. Cora Mobile solo consulta el controlador mientras ese dispositivo está desconectado. |
+| Un dispositivo concreto | Pasa a ser el único dispositivo Cora que consulta el controlador. Sigue siendo el principal aunque esté desconectado, y los demás dispositivos Cora no lo sustituyen. Cora Mobile lee el controlador solo mientras ese dispositivo está desconectado. |
 | **Cualquiera activo (automático)** | Cora Mobile y todos los dispositivos Cora en línea se reparten el trabajo (vale la última escritura). Si uno se desconecta, otro sigue. Es lo adecuado en un hogar con un solo dispositivo, y la opción más segura si no sabes cuál debería encargarse. |
 
 Si el dispositivo que elegiste está desconectado, las órdenes que tienen que pasar por él no se ejecutan. Cora te avisa de que el acuario usa ese dispositivo, de que está desconectado y de que no se ha ejecutado nada. Así puedes volver a intentarlo cuando se conecte. Si va a estar desconectado un tiempo, elige otro dispositivo o **Cualquiera activo (automático)**.
@@ -58,7 +59,7 @@ Con un principal, el controlador recibe menos consultas y desaparecen las lectur
 Cora Max principal pertenece al acuario, no al teléfono ni al Cora Max que tienes delante. Si lo cambias desde cualquier dispositivo, cambia para todo el hogar.
 :::
 
-## Qué funciona fuera de casa
+## Qué funciona fuera de casa {#what-works-away-from-home}
 
 Cuando no estás conectado al Wi-Fi de tu acuario, el teléfono no habla directamente con tu equipo. La orden va a Cora Cloud, que se la pasa a un Cora Max que está junto al acuario. Ese Cora Max es el que llega al equipo.
 

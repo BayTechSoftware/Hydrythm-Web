@@ -1,146 +1,170 @@
 ---
 title: Alertes et seuils
-description: Réglez la plage de chaque paramètre, choisissez les alertes que vous recevez et comprenez pourquoi une alerte s’est déclenchée.
+description: Réglez la plage saine de chaque mesure, choisissez à quelle fréquence une alerte peut vous prévenir, et découvrez pourquoi un appareil "ne remonte plus de mesures".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 15
+order: 20
 group: Alerts and automation
+twin: max-alerts
 ---
 
-Une alerte se déclenche quand une mesure sort de la plage que vous avez réglée. C’est vous qui réglez les plages, et c’est vous qui choisissez les alertes qui arrivent sur votre téléphone.
+Vous recevez une alerte quand une mesure sort de la plage que vous avez réglée pour elle. Cette page explique comment régler ces plages, ce qui se passe quand une alerte se déclenche, et combien de temps Cora attend avant de dire qu’un appareil ne remonte plus de mesures.
 
-Ouvrez le **Centre d’alertes** depuis la ligne de raccourcis en bas du tableau de bord.
+Pour ouvrir le **Centre d’alertes**, touchez **Alertes** dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Réglages → votre aquarium → **Seuils d’alerte**.
 
-![Le Centre d’alertes](img/mobile-alerts.webp "Alertes actives, chacune avec sa gravité, ce qui l’a déclenchée, et quand.")
+![L’onglet Actives du Centre d’alertes dans Cora Mobile](img/mobile-alerts.webp "Les alertes actives, chacune avec sa gravité, ce qui l’a déclenchée et quand, plus Voir la règle et Expliquer cette alerte.")
 
-## Le Centre d’alertes
+## Le Centre d’alertes {#alert-center}
 
-Il a deux onglets.
+Il a deux onglets. **Actives** liste les alertes en cours, avec un badge de comptage. **Règles** contient les règles qui les déclenchent.
 
-- **Actives** : les alertes en cours, avec un badge qui les compte
-- **Règles** : les seuils et les règles de taux de variation qui produisent ces alertes
+Chaque alerte active affiche le paramètre et l’aquarium, la mesure qui l’a déclenchée, une courte explication, une puce de gravité, le type de règle qui s’est déclenchée (**Seuil** ou **Taux de variation**) et le moment du déclenchement. Elle a deux boutons :
 
-Chaque alerte active indique le paramètre et l’aquarium, la mesure en cause, une explication simple, une étiquette de gravité, le type de règle (**Seuil** ou **Taux de variation**) et l’heure du déclenchement.
+- **Voir la règle** ouvre la règle qui est derrière, pour que vous puissiez ajuster la plage. Sur une alerte de doseur, comme une tête DŌS ou ReefDose presque vide ou une dose manquée, ce bouton devient **Ouvrir le doseur**. Il ouvre la page de ce doseur avec ses alertes.
+- **Expliquer cette alerte** ouvre Cora Assistant avec une question sur l’alerte prête à envoyer. Vérifiez-la, modifiez-la si vous voulez, puis envoyez-la.
 
-Chaque alerte a deux boutons.
+## L’onglet Règles {#rules}
 
-- **Voir la règle** ouvre la règle à l’origine de l’alerte. Vous pouvez y ajuster la plage. Pour une alerte de doseur, par exemple une tête DŌS ou ReefDose presque vide ou une dose manquée, ce bouton devient **Ouvrir le doseur**. Il ouvre la page de ce doseur avec ses alertes.
-- **Expliquer cette alerte** demande à l’Assistant de l’interpréter à la lumière de l’historique de votre aquarium.
+![L’onglet Règles](img/mobile-alert-rules.webp "Les règles regroupées par paramètre, chacune avec son propre interrupteur.")
 
-## L’onglet Règles
+Les règles sont regroupées par paramètre. Chaque règle a son propre interrupteur sur sa ligne, pour que vous puissiez en désactiver une sans l’ouvrir. Une ligne indique aussi **Se déclenche maintenant** tant que son alerte est en cours, ou quand elle s’est déclenchée pour la dernière fois (ou **Jamais déclenchée**).
 
-Les règles sont regroupées par paramètre. Chaque règle a son propre interrupteur sur sa ligne, pour la désactiver sans l’ouvrir. Touchez une ligne pour changer sa plage ou son délai.
+Les règles d’une tête de dosage portent le nom de la tête et de ce qu’elles surveillent, par exemple *Iode · jours restants* ou *Iode · restant*. Une dose manquée apparaît comme *Iode · dose manquée*. Chaque DŌS et chaque ReefDose a ici une seule ligne, et les alertes de ses têtes ne sont pas listées une par une. Touchez la ligne pour ouvrir la page de ce doseur. Voir [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
 
-Les règles d’une tête de dosage portent le nom de la tête et de ce qu’elles surveillent, par exemple *Iode · jours restants* ou *Iode · restant*. Une dose manquée apparaît sous la forme *Iode · dose manquée*.
+En bas :
 
-Chaque DŌS et chaque ReefDose a ici sa propre ligne. Les alertes de ses têtes ne sont pas listées une par une. Touchez la ligne pour ouvrir la page de ce doseur avec ses alertes. Voir [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
+- **Ajouter les règles recommandées** ajoute celles des règles recommandées par Cora qui manquent. Il ignore un paramètre qui a déjà une règle. Sur un aquarium sans aucune règle, ce bouton indique **Ajouter les règles par défaut**.
+- **Ajouter une règle personnalisée** crée une règle à vous. Choisissez le paramètre et le **Type de règle**, **Seuil** ou **Taux de variation**. Le bouton **Ajouter une règle** en bas à droite fait la même chose.
 
-S’il manque certaines des règles recommandées par Cora, **Ajouter les règles recommandées**, tout en bas, les ajoute. Les paramètres qui ont déjà une règle sont ignorés. **Ajouter une règle personnalisée** crée une règle à vous.
+### Modifier une règle {#editing-a-rule}
 
-## Régler une plage
+Touchez la ligne d’une règle pour l’ouvrir. Vous y trouvez :
 
-Les paramètres que Cora sait évaluer ont une plage cible. Les valeurs par défaut dépendent du type et de l’âge de l’aquarium indiqués à sa création. C’est en général un bon point de départ. Un paramètre sans plage utilisable n’est pas évalué du tout. Il reste en gris neutre, et Cora ne devine rien.
+- **Minimum d’alerte** et **Maximum d’alerte**, la plage elle-même. Laissez-en un vide pour un plafond ou un plancher.
+- **Recommandé**, qui remet la plage suggérée par Cora.
+- **Plage de la jauge (affichage Cora)**, avec **Min. de la jauge** et **Max. de la jauge**. Ils ne règlent que l’échelle de la jauge sur Cora Max. Ils ne déclenchent jamais d’alerte.
+- **Délai entre les alertes**, expliqué [plus bas](#cooldowns).
+- **Activée**, et un bouton de suppression.
 
-Pour changer une plage, **appuyez longuement sur le widget** du paramètre dans le tableau de bord. Les seuils de ce paramètre s’ouvrent directement. Un appui simple ouvre la page du paramètre. Les deux gestes ne mènent pas au même endroit, et c’est l’appui long qu’il faut retenir.
+Une règle de panne d’appareil, comme un Trident à court de réactif, n’a pas de plage. Vous choisissez seulement son délai.
 
-Si le paramètre n’a pas encore de règle, les champs affichent la valeur par défaut de Cora, et une note en dessous le signale. Modifiez une valeur pour définir la vôtre.
+## Régler une plage {#setting-a-range}
 
-Pour voir toutes les règles à la fois, touchez **Alertes** dans la rangée de boutons sous le tableau de bord.
+Les paramètres que Cora peut évaluer ont une plage cible. Les valeurs par défaut viennent du type et de l’âge de votre aquarium lors de sa configuration, et c’est un bon point de départ. Si un paramètre n’a pas de plage utilisable, Cora ne l’évalue pas, et son widget reste gris neutre.
+
+Le plus rapide pour changer une plage est de faire un appui long sur le widget du paramètre dans le tableau de bord. Cela ouvre ses seuils. Un appui normal ouvre plutôt la page du paramètre.
+
+![La feuille de modification du seuil de pH dans Cora Mobile](img/mobile-threshold-sheet.webp "Minimum et maximum d’alerte, la plage de la jauge pour Cora Max, et le délai entre les alertes.")
+
+Si le paramètre n’a pas encore de règle, les champs démarrent sur la valeur par défaut de Cora et une note en dessous l’indique. Changez n’importe quelle valeur pour régler la vôtre.
 
 Vous pouvez régler :
 
-- **Une plage** : une limite basse et une limite haute, par exemple pour l’alcalinité ou la température
-- **Un plafond** : une limite haute seulement, quand une valeur basse ne pose pas de problème, comme pour les nitrates ou les phosphates
-- **Un plancher** : une limite basse seulement
+- une plage, avec un bas et un haut, pour des choses comme l’alcalinité ou la température
+- un plafond, avec seulement un haut, pour ce qui peut être bas sans problème, comme les nitrates ou les phosphates
+- un plancher, avec seulement un bas
 
-:::tip Réglez la plage où tourne vraiment votre aquarium
-Les valeurs par défaut sont un point de départ, pas un jugement. Un aquarium pauvre en nutriments à 6 dKH n’a pas « tort » parce qu’un tableau indique 8–9. Réglez la plage où vous tournez réellement, et Cora vous préviendra quand *votre* aquarium s’en écarte.
+:::tip Réglez la plage où votre aquarium tourne vraiment
+Les valeurs par défaut ne sont qu’un point de départ. Un aquarium pauvre en nutriments à 6 dKH n’est pas « dans l’erreur » parce qu’un tableau dit 8–9. Réglez la plage où vous tournez, et Cora vous prévient quand *vous* dérivez.
 :::
 
-## Ce qui déclenche une alerte
+## Ce qui déclenche une alerte {#what-triggers-an-alert}
 
-Une alerte se déclenche quand une mesure franchit un seuil. Cora vérifie chaque mesure dès qu’elle arrive. Une seule mesure hors de votre plage suffit donc.
+Une alerte se déclenche quand une mesure franchit un seuil. Cora vérifie chaque mesure à son arrivée, donc une seule mesure hors de votre plage suffit.
 
-Une fois l’alerte déclenchée, Cora ne vous relance pas sans arrêt pour la même chose. Un délai doit passer avant qu’elle puisse se déclencher de nouveau. L’alerte **se ferme toute seule** dès qu’une mesure revient dans la plage. Vous n’avez rien à valider.
+Une règle de taux de variation surveille la vitesse à laquelle un paramètre bouge plutôt que sa position. Utilisez-la quand la vitesse d’un changement compte plus que le chiffre.
 
-Vous pouvez aussi créer une règle de **taux de variation**. Elle surveille la vitesse à laquelle un paramètre bouge, pas sa valeur du moment. Choisissez-la quand la vitesse du changement compte plus que le chiffre.
+Une fois qu’une alerte est en cours, elle ne vous prévient pas sans cesse de la même chose. Le [délai](#cooldowns) de la règle décide quand elle peut vous prévenir à nouveau.
 
 ## Où apparaissent les alertes
 
-- **La cloche**, en haut à droite de chaque écran, garde l’historique. Le chiffre indique le nombre d’alertes non lues.
-- **Les notifications push** arrivent sur votre téléphone si vous les autorisez.
-- **Le widget** passe à l’orange ou au rouge dans le tableau de bord.
-- **Cora Max** affiche les mêmes alertes sur le grand écran.
+- La cloche, en haut à droite des onglets principaux, garde votre historique. Le chiffre indique combien vous n’en avez pas lu. Plus de détails dans [Notifications](/help/mobile-notifications).
+- Une notification push arrive sur votre téléphone si cette catégorie est activée.
+- Le widget du tableau de bord passe à l’orange ou au rouge.
+- Cora Max affiche les mêmes alertes à l’écran.
 
-## Quand l’équipement a besoin d’attention
+## Quand un équipement demande de l’attention {#equipment-faults}
 
-Certaines alertes portent sur l’équipement et non sur une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification avec le nom de l’aquarium et de l’appareil, par exemple *« Aquarium Display : la pompe de remontée a besoin d’attention »*. Elle précise le problème, comme un rotor bloqué. Quand la panne disparaît, une deuxième notification suit : *« Aquarium Display : la pompe de remontée est de nouveau OK »*. Les deux dépendent de **Pannes d’équipement** dans **Réglages → Notifications**.
+Certaines alertes concernent l’équipement, pas une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification qui nomme l’aquarium et l’appareil, par exemple *« Aquarium principal : Pompe de remontée demande de l’attention »*. Elle dit aussi ce qui ne va pas, comme un rotor bloqué. Quand la panne disparaît, vous en recevez une deuxième : *« Aquarium principal : Pompe de remontée fonctionne de nouveau »*. Les deux relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
 
-Une pompe de brassage Maxspect (Beta) peut déclencher la même alerte. Cela arrive quand un Cora Max sur le même réseau trouve les deux têtes réglées à 0 %, ou quand la pompe ne répond pas deux fois de suite. Voyez-y un avertissement, pas une sécurité. Le Cora Max vérifie de temps en temps, pas en continu, et seulement s’il est allumé et peut joindre la pompe.
+Une Gyre Maxspect (Beta) peut déclencher la même alerte. Cela arrive quand un Cora Max de son réseau trouve les deux têtes réglées à 0 %, ou n’obtient aucune réponse de la Gyre deux fois de suite. Considérez-la comme un avertissement, pas comme une protection. Le Cora Max ne vérifie que de temps en temps, et seulement tant qu’il fonctionne et peut joindre la Gyre.
 
-## Un appareil ne se signale plus
+## Un appareil ne remonte plus de mesures {#stopped-reporting}
 
-Si un Neptune Apex, un appareil Red Sea ReefBeat, un AquaWiz, une pompe Jecod, une pompe de brassage Maxspect, un appareil EcoTech ou un moniteur d’air ambiant Inkbird devient silencieux, Cora vous prévient : *« [Appareil] : ne se signale plus »*. Vérifiez son alimentation et son Wi-Fi (ou la portée Bluetooth), et que le Cora Max qui le lit est allumé. Une deuxième notification arrive dès qu’il se signale de nouveau.
+Quand un appareil connecté devient silencieux, Cora envoie *« [Appareil] : ne remonte plus de mesures »*. Cela ne veut pas dire que l’appareil est en panne, seulement que Cora n’en a pas eu de nouvelles depuis un moment. Vous recevez une deuxième notification, *« [Appareil] : remonte de nouveau des mesures »*, quand il revient.
 
-Le délai d’attente de Cora dépend de l’appareil.
+Le temps d’attente de Cora dépend de l’appareil :
 
-- Neptune Apex et Red Sea ReefBeat : environ 30 minutes sans mise à jour.
-- AquaWiz : environ 3 heures, car il vérifie moins souvent.
-- Jecod et Maxspect : trois mesures manquées de suite, comptées sur l’intervalle de mesure propre à l’appareil.
-- EcoTech et Inkbird : trois mesures manquées de suite, comptées sur l’intervalle que vous avez réglé pour ce réseau ou ce moniteur.
+| Appareil | Cora attend |
+|---|---|
+| Neptune Apex | Environ 30 minutes sans mise à jour |
+| Red Sea ReefBeat | Environ 30 minutes |
+| AquaWiz | Environ 3 heures, car il transmet moins souvent |
+| Pompes Jecod | Trois lectures manquées d’affilée, à l’intervalle de lecture de la pompe (90 minutes avec les 30 par défaut) |
+| Maxspect (Beta) | Trois lectures manquées d’affilée, comme Jecod |
+| EcoTech (Beta) | Trois lectures manquées d’affilée, à l’intervalle de lecture du réseau (90 minutes avec les 30 par défaut). Si vous réglez un délai plus long sous **La lampe ne répond plus**, Cora attend ce délai |
+| Moniteur d’air ambiant Inkbird (Beta) | Trois lectures manquées d’affilée, à l’intervalle propre du moniteur (15 minutes avec les 5 par défaut) |
+| Focustronic (Beta) | Environ 3 heures |
+| GHL (Beta) | Environ 15 minutes. La notification indique *« Contrôleur GHL injoignable »* |
+| HYDROS (Beta) | Environ 30 minutes. La notification indique *« Le contrôleur HYDROS ne transmet plus »* |
 
-Maxspect, EcoTech et Inkbird sont des intégrations Beta que seuls les utilisateurs Beta peuvent ajouter. Voir [Fonctions Beta](/help/mobile-beta).
+Ce qu’il faut vérifier dépend de la façon dont Cora lit l’appareil.
 
-Cette alerte dépend de **Pannes d’équipement** dans **Réglages → Notifications**, comme les alertes de panne ci-dessus.
+- Apex, ReefBeat, Jecod, Maxspect et GHL sont lus par un Cora Max en Wi-Fi. Vérifiez l’alimentation et le Wi-Fi de l’appareil, et que le Cora Max qui le lit est allumé et en ligne.
+- EcoTech et Inkbird sont lus par un Cora Max en Bluetooth. Vérifiez l’alimentation, que l’appareil est à portée Bluetooth du Cora Max, et que le Cora Max est allumé.
+- AquaWiz et Focustronic sont lus par votre compte chez le fabricant. Vérifiez la connexion du compte sur la page de l’appareil dans Cora Mobile.
+- Pour HYDROS, vérifiez son alimentation, son Wi-Fi et sa clé d’appareil.
 
-## « Les mesures Red Sea ont arrêté de se mettre à jour »
+GHL peut aussi vous indiquer *« API GHL désactivée »* ou que le contrôleur *« a refusé la connexion »*. Si le Cora Max qui lit un contrôleur GHL devient silencieux, vous recevez *« Cora Max ne transmet plus pour »* ce contrôleur. Les solutions sont dans [Résolution de problèmes](/help/troubleshooting).
 
-Cette bannière peut apparaître sur la page d’un paramètre :
+Ces notifications relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
 
-> Les mesures Red Sea ont arrêté de se mettre à jour. Aucun appareil ne lit actuellement les appareils Red Sea de cet aquarium : vérifiez Cora Max principal dans Réglages, ou ouvrez cet aquarium sur un appareil sur le même Wi-Fi.
-
-Aucun téléphone ni Cora Max n’interroge en ce moment l’équipement ReefBeat de cet aquarium. Les mesures affichées sont donc anciennes, mais pas forcément fausses. Touchez la bannière pour ouvrir **Cora Max principal**. Choisissez alors un appareil allumé, ou réglez l’option sur **Tout appareil actif (automatique)**. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device). Si la bannière reste, consultez la page [Résolution de problèmes](/help/troubleshooting).
-
-## Choisir ce que vous recevez
-
-Dans **Réglages → Notifications**, vous choisissez :
-
-- les catégories de notifications autorisées à vous être envoyées
-
-Reef Buddy n’a pas d’interrupteur à lui. Il envoie un briefing quand il y a quelque chose à faire, et il se tait sinon.
-
-:::note Cora sait se taire
-Le briefing quotidien, c’est une notification par aquarium et par jour. Les jours où rien ne demande votre attention, il reste en général silencieux. Il ne vous écrit pas juste pour dire que tout va bien. Si Cora vous envoie une notification, c’est que quelque chose a changé.
+:::note Beta
+Maxspect, EcoTech, Inkbird, Focustronic, GHL et HYDROS sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
-## Délais : à quelle fréquence une même alerte vous prévient
+Un aquarium Red Sea peut aussi afficher un bandeau, *« Les relevés Red Sea ne se mettent plus à jour »*, quand aucun téléphone ni aucun Cora Max ne lit son équipement ReefBeat. Touchez-le pour choisir un **Cora Max principal**. La solution complète est dans [Résolution de problèmes](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 
-Chaque règle a son propre **Délai entre les alertes**. Vous le réglez quand vous ajoutez ou modifiez la règle, dans l’onglet **Règles** du Centre d’alertes. Ce délai ne cache pas l’alerte. Il limite seulement le nombre de notifications que Cora vous envoie à son sujet. La mesure reste évaluée, et l’alerte reste visible sur le widget et dans la cloche pendant tout ce temps.
+## Choisir ce qui vous parvient {#choosing-what-reaches-you}
 
-Les choix possibles sont 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 jour, 3 jours ou **1 semaine**.
+Dans **Réglages → Notifications**, vous choisissez quelles catégories peuvent vous envoyer une notification. Voir [Notifications](/help/mobile-notifications), qui explique aussi comment [garder des nuits calmes](/help/mobile-notifications#quiet-at-night).
 
-Un délai court convient à une mesure qui bouge vite, comme la température. Un délai long, jusqu’à une semaine, convient à un problème qui dure plusieurs jours le temps de recevoir une pièce, comme un Trident sans réactif ou un bidon de dosage vide. Sans ce long délai, Cora vous enverrait plusieurs notifications par jour pour un problème que vous connaissez déjà.
+Reef Buddy n’a pas d’interrupteur à lui. Son horaire est la ligne **Heure du briefing**, juste sous Notifications dans les Réglages. Avec le forfait gratuit, il n’y a pas de notification de briefing.
 
-:::note Le report d’une alerte se fait sur Cora Max
-Cora Mobile n’a pas de bouton pour reporter une alerte active. Ce bouton se trouve sur l’écran Cora Max près de l’aquarium. Il coupe l’alerte pendant le délai que vous avez choisi ici. Depuis le téléphone, pour être prévenu moins souvent, réglez ce délai dans la règle.
+:::note Cora reste silencieux sauf si quelque chose a changé
+Le briefing quotidien est une seule notification par aquarium et par jour. Un jour où rien ne demande votre attention, il reste en général silencieux au lieu de vous dire que tout va bien. Si Cora vous envoie une notification, quelque chose a changé.
 :::
 
-## Fermer une alerte
+## Délais : à quelle fréquence la même alerte peut vous prévenir {#cooldowns}
 
-Une alerte se ferme quand la mesure revient dans la plage. Il n’y a rien à ignorer. L’alerte décrit l’état de l’aquarium, ce n’est pas une tâche.
+Chaque règle a son propre **Délai entre les alertes**. Vous le réglez quand vous ajoutez ou modifiez la règle. Une règle qui n’en a jamais eu utilise 1 h.
 
-:::note Une mesure passagère déclenche aussi une alerte
-Une seule mesure hors plage suffit. Une sonde qui fait un pic déclenchera donc une alerte. Si une source n’est pas fiable, réétalonnez-la ou choisissez une autre source pour le widget. N’élargissez pas le seuil.
+Le délai ne masque pas l’alerte. Il limite seulement la fréquence des notifications. La mesure est toujours évaluée, et l’alerte reste sur le widget et sous la cloche pendant tout ce temps.
+
+Vous pouvez choisir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 jour, 3 jours ou 1 semaine.
+
+Un délai court convient à une mesure qui bouge vite, comme la température. Un délai long, jusqu’à une semaine, convient à quelque chose qui reste anormal pendant des jours en attendant une pièce, comme un Trident à court de réactif ou un récipient de dosage vide.
+
+:::note Reporter se trouve sur Cora Max
+Cora Mobile n’a pas de bouton Reporter sur une alerte active. Reporter se trouve sur l’écran Cora Max à l’aquarium, et coupe l’alerte pendant le délai que vous avez choisi ici. Sur votre téléphone, le délai de chaque règle est le moyen de changer la fréquence à laquelle vous entendez parler de quelque chose.
 :::
 
-Si c’est la mesure qui est fausse et non l’aquarium (une sonde à étalonner, par exemple), corrigez la source. Élargir un seuil pour faire taire une mauvaise sonde cache aussi le prochain vrai problème.
+## Effacer une alerte {#clearing-an-alert}
 
-## Désactiver une alerte
+Une alerte s’efface toute seule quand la mesure revient dans la plage. Il n’y a rien à fermer. Vous recevez alors une notification, par exemple *« Aquarium principal : Alcalinité revenue à la normale »*. Si le problème revient plus tard, vous recevez une nouvelle alerte.
 
-Coupez l’interrupteur sur la ligne de la règle, dans l’onglet **Règles** du Centre d’alertes. La règle et sa plage sont gardées. Vous pourrez la réactiver sans tout refaire.
+:::note Les pics brefs déclenchent aussi des alertes
+Une seule mesure hors plage suffit à déclencher une alerte, donc une sonde qui fait un pic en déclenchera une. Si une source n’est pas fiable, réétalonnez-la ou faites suivre au widget une autre source. N’élargissez pas le seuil.
+:::
+
+Parfois la mesure est fausse et l’aquarium va bien, par exemple quand une sonde a besoin d’être étalonnée. Dans ce cas, corrigez la source. Si vous élargissez un seuil pour faire taire une mauvaise sonde, vous manquerez aussi le prochain vrai problème.
+
+## Désactiver une alerte {#turning-an-alert-off}
+
+Désactivez l’interrupteur sur la ligne de la règle dans l’onglet **Règles**. Cora garde la règle et sa plage, pour que vous puissiez la réactiver sans tout reconfigurer.
 
 Tant qu’une règle est désactivée, Cora n’évalue pas cette mesure. Son widget reste gris neutre et ne déclenche jamais d’alerte.
 
-:::warning Faire taire un paramètre sans supprimer sa plage
-Retirer un seuil n’arrête pas forcément toute évaluation de la mesure. Les plages de référence par défaut colorent toujours la valeur et peuvent toujours alimenter le briefing. Utilisez plutôt l’interrupteur de la règle.
+:::warning Désactivez un paramètre sans supprimer sa plage
+Supprimer une règle n’empêche pas toujours Cora d’évaluer cette mesure. Les plages de référence par défaut colorent toujours la valeur et peuvent toujours alimenter le briefing. Utilisez l’interrupteur de la règle.
 :::

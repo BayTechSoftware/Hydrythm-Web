@@ -1,27 +1,28 @@
 ---
 title: Edytowanie pulpitu
-description: Ustaw liczbę kolumn, dodawaj i układaj widżety, zmieniaj rozmiar kafelków i zapisuj układy, których użyjesz na innych akwariach.
+description: Dodawaj, przenoś, zmieniaj rozmiar i usuwaj widżety na pulpicie w telefonie, ustaw liczbę kolumn i edytuj z telefonu pulpit Cora Max.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 6
+order: 8
 group: Your dashboard
+twin: max-dashboard-editing
 ---
 
-W edytorze pulpitu decydujesz, jakie widżety są na pulpicie akwarium i jak są ułożone.
+Edytor pulpitu ustala, które widżety są na pulpicie akwarium i jak są ułożone. Każde akwarium ma własny układ, który idzie za Twoim kontem na każdy telefon, na którym się zalogujesz.
 
-## Jak otworzyć edytor
+## Jak otworzyć edytor {#opening-the-editor}
 
-Przewiń pulpit na sam dół i dotknij **Edytuj panel**.
+Przewiń pulpit w dół i dotknij **Edytuj panel**, tuż pod widżetami. Edytor otwiera się jako **Edytuj panel**, z podpowiedzią **Przytrzymaj kafelek, aby go przenieść. Dotknij, aby skonfigurować.**
 
-:::note Ołówek przy nazwie akwarium otwiera coś innego
-Ołówek otwiera **Edytuj akwarium**, czyli profil akwarium z objętością, obsadą, dozowaniem, oświetleniem i przepływem. Więcej w [Profilu akwarium](/help/mobile-tank-profile).
+:::note Ołówek w nagłówku akwarium otwiera coś innego
+Otwiera **Edytuj akwarium**, czyli profil akwarium z objętością, obsadą, dozowaniem, oświetleniem i przepływem. Opisuje go [Profil akwarium](/help/mobile-tank-profile).
 :::
 
-![Edytor pulpitu](img/mobile-edit.webp "Każdy kafelek pokazuje nazwę i typ. Czerwony krzyżyk go usuwa.")
+![Ekran Edytuj panel w Cora Mobile](img/mobile-edit.webp "Kolumny na górze, a pod nimi każdy kafelek z nazwą i typem. Dotknij czerwonego krzyżyka, żeby go usunąć.")
 
-## Liczba kolumn
+## Liczba kolumn {#setting-the-column-count}
 
-Na górze edytora wybierz **2**, **3** albo **4** kolumny. Siatka rośnie w dół, gdy dodajesz widżety, a pulpit się przewija.
+Wybierz **2**, **3** albo **4** obok **KOLUMNY** na górze edytora. Siatka rośnie w dół, gdy dodajesz widżety, a pulpit się przewija.
 
 | Kolumny | Kiedy wybrać |
 |---|---|
@@ -29,78 +30,55 @@ Na górze edytora wybierz **2**, **3** albo **4** kolumny. Siatka rośnie w dó�
 | 3 | Ustawienie domyślne. Pasuje do większości akwariów |
 | 4 | Chcesz gęstszego widoku albo masz duży telefon |
 
-## Dodawanie widżetu
+## Dodawanie widżetu {#adding-a-widget}
 
-1. Dotknij **+** w edytorze.
-2. Wybierz, co ma pokazywać widżet: parametr, urządzenie albo gniazdo.
-3. Wybierz typ widżetu. Opis typów znajdziesz w [Rodzajach widżetów](/help/mobile-widgets).
+1. Dotknij **Dodaj kafelek** pod siatką albo dotknij pustej komórki.
+2. W **Dodaj kafelek** wybierz jego rodzaj. **Parametr** obejmuje wartość, wskaźnik, wykres albo stan parametru. **Gniazdo** steruje gniazdem Apex. Pozostałe wiersze są dla sprzętu, na przykład **ReefBeat**, **Trident**, **DŌS** albo **Jecod**. Większość z nich pojawia się tylko wtedy, gdy akwarium ma ten sprzęt.
+3. Wybierz parametr, gniazdo albo urządzenie.
+4. Dla parametru wybierz typ. Każdy opisują [Rodzaje widżetów](/help/mobile-widgets).
 
-Na liście są tylko źródła, które istnieją w danym akwarium. Parametr bez źródła pojawi się, gdy podłączysz sprzęt, który go mierzy, albo wpiszesz odczyt ręcznie.
+Widzisz tylko parametry, które ma akwarium. Parametr bez źródła pojawi się, gdy podłączysz sprzęt, który go podaje, albo zapiszesz odczyt ręcznie.
 
-## Układanie widżetów
+Siatka mieści do 20 rzędów. Gdy jest pełna, Cora pokaże **Panel jest pełny: najpierw usuń jakiś kafelek.** Wykres potrzebuje dwóch wolnych komórek obok siebie.
 
-- **Żeby przenieść widżet**, przytrzymaj go i przeciągnij. Pozostałe widżety same zrobią mu miejsce.
-- **Żeby usunąć widżet**, dotknij czerwonego krzyżyka w jego rogu.
-- **Żeby zmienić ustawienia widżetu**, dotknij go.
+## Układanie widżetów {#arranging-widgets}
 
-## Rozmiar
+- Żeby przenieść widżet, przytrzymaj go, a potem przeciągnij. Pozostałe przesuną się wokół niego.
+- Żeby usunąć widżet, dotknij czerwonego krzyżyka w jego rogu albo dotknij widżetu, a potem **Usuń**.
+- Żeby zmienić ustawienia widżetu, dotknij go.
 
-Widżet zajmuje jedną albo dwie kolumny i jeden albo dwa rzędy. Rozmiar ustawiasz w ustawieniach widżetu. Kafelek kamery (Beta) może mieć do trzech kolumn szerokości. Kamery są dostępne tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
+## Ustawienia widżetu {#widget-settings}
 
-Widżet **trendu** ma zawsze co najmniej dwie kolumny szerokości.
+Dotknij widżetu w edytorze, żeby otworzyć jego ustawienia. W zależności od widżetu możesz ustawić:
 
-## Ustawienia widżetu
-
-W zależności od typu widżetu możesz ustawić:
-
-| Ustawienie | Dla jakich widżetów |
+| Ustawienie | Dotyczy |
 |---|---|
-| Etykieta | Wszystkich |
-| Źródło | Każdego parametru, który podaje więcej niż jedno źródło |
-| Okno czasowe | Trendu: 1 godzina, 6 godzin, 24 godziny, 7 dni, 30 dni, 1 rok |
-| Zakres | Wskaźnika. Domyślnie brany z progów akwarium, chyba że zmienisz go tutaj |
-| Rozmiar | Wszystkich |
+| **Typ** | Widżetów parametrów: Wartość, Wskaźnik, Wykres albo Stan |
+| **Parametr** | Widżetów parametrów: który parametr pokazuje |
+| Gniazdo albo urządzenie | Kafelków gniazd i sprzętu: które pokazuje |
+| **Pokaż pozostałe jako** | Kafelków dozowników: **Dni** albo **Mililitry (mL)** |
+| **Szerokość** | Każdego widżetu: **1×** albo **2×** (kamera do **3×**). Wykres ma zawsze co najmniej 2 szerokości |
+| **Wysokość** | Każdego widżetu: **1×** albo **2×** |
+| **Zakres czasu** | Wykresu: 1h, 6h, 24h, 7d, 30d albo 1y |
 
-## Zapisywanie
+Dotknij **Gotowe**, żeby zachować ustawienia, albo **Usuń**, żeby zdjąć widżet.
 
-Dotknij **Zapisz**, żeby zastosować układ, albo ikony zamknięcia, żeby porzucić zmiany.
+Widżet nie ma własnej etykiety, źródła ani zakresu. Jego zakres alertu pochodzi z progów alertów akwarium: przytrzymaj widżet na pulpicie albo zobacz [Alerty i progi](/help/mobile-alerts). To, za którym źródłem idzie parametr, ustawiasz dla każdego akwarium w [Mapowaniu parametrów](/help/mobile-probes).
 
-## Moje panele
+## Zapisywanie {#saving}
 
-Układ, który Ci odpowiada, możesz zapisać i użyć ponownie. Wybierz **Moje panele → Zapisz ten projekt** i nadaj mu nazwę. Możesz mieć do **30** projektów.
+Dotknij **Zapisz**, żeby zachować układ. Żeby porzucić zmiany, dotknij ikony zamknięcia. Jeśli coś zmieniono, Cora zapyta **Odrzucić zmiany?** Dotknij **Odrzuć** albo **Kontynuuj edycję**, żeby wrócić.
 
-Zapisany projekt wczytasz na inne akwarium albo na ekran Cora Max.
+Edytor w telefonie nie ma cofania ani zapisanych projektów. Odczyty, historia i wpisy w dzienniku są przechowywane osobno od układu, więc edycja pulpitu nigdy ich nie usunie.
 
-:::note Przed zatwierdzeniem widać, których kafelków nie da się przenieść
-Po wczytaniu projektu zostają tylko kafelki, dla których w nowym miejscu są dane. Pozostałe Cora pomija i przed zatwierdzeniem pokazuje je pod **Pozostawione:** razem z powodem. Może to być parametr, którego akwarium nigdy nie zgłosiło, brak gniazda o tej nazwie, urządzenie ReefBeat albo moduł Apex niepołączony z tym akwarium albo brak miejsca w siatce.
-:::
+## Edytowanie pulpitu Cora Max {#editing-the-cora-max-dashboard}
 
-## Powrót do wcześniejszego układu
+Pulpit Cora Max edytujesz osobno, z **Urządzenia →** Twój Cora Max **→ Układ panelu**, na karcie akwarium. Ma stałą siatkę, która się nie przewija, i nic nie trafi na Cora Max, dopóki nie dotkniesz **Zapisz i opublikuj**.
 
-Do układu, który Ci się podobał, wrócisz przez zapisany projekt. Zapisz go, gdy pulpit wygląda tak, jak chcesz, a później możesz go przywrócić.
+Ten edytor ma trzy dodatki, których nie ma pulpit w telefonie:
 
-To **przywrócenie, a nie cofnięcie zmian**. Wybierasz projekt z listy, potwierdzasz i projekt zastępuje bieżący układ. Kafelki, których akwarium nie wypełni danymi, znikają. Wraca zapisany układ, a nie stan sprzed ostatniej zmiany.
+- **Moje panele** przechowuje na Twoim koncie do 30 zapisanych projektów. Każdy Cora Max na koncie może wczytać dowolny z nich. Kafelki, których docelowy pulpit nie wypełni, są wymienione pod **Pozostawione:** przed wczytaniem.
+- **Szablony** otwiera **Szablony pulpitu**: **Przegląd**, **Sprzęt**, **Parametry** oraz, gdy akwarium ma kamerę, **Kamera**. Działają w każdym planie i nie używają AI. Kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta.
+- **Zaprojektuj z AI**, w płatnym planie albo w okresie próbnym, proponuje cały układ na podstawie tego, co akwarium zgłasza i co ma podłączone. Możesz zrobić 5 projektów na akwarium dziennie.
 
-Odczyty, historia i wpisy w dzienniku są przechowywane osobno od układu, więc żadna zmiana pulpitu ich nie usunie.
-
-## Edytowanie pulpitu Cora Max
-
-Pulpit Cora Max edytujesz osobno: **Urządzenia → Twój Cora Max → Edytuj panel**. Ma stałą siatkę, która się nie przewija. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).
-
-### Szablony
-
-Edytor Cora Max ma też u góry ikonę **Szablony**, obok **Zaprojektuj z AI**. Działa w każdym planie i nigdy nie używa AI, więc działa też bez udostępniania danych AI.
-
-Otwiera **Szablony pulpitu**: **Przegląd**, **Sprzęt**, **Parametry** oraz, gdy akwarium ma kamerę, **Kamera**. Każdy układ jest zbudowany z tego, co to akwarium zgłasza i co ma podłączone, i ma podgląd oraz liczbę kafelków na swojej siatce. Kamery są w wersji Beta i dostępne tylko dla użytkowników Beta.
-
-Dotknij **Użyj tego**, a potem potwierdź **Zastąpić pulpit?** przyciskiem **Zastąp**. Żeby zachować obecny układ, dotknij **Najpierw zapisz obecny jako preset**. Nic nie trafi na Cora Max, dopóki nie dotkniesz **Zapisz i opublikuj**.
-
-### Zaprojektuj z AI
-
-W płatnym planie edytor ma u góry ikonę iskier z podpisem **Zaprojektuj z AI**. Dotknij jej, a Cora zaproponuje cały układ zbudowany z tego, co to akwarium zgłasza i co ma podłączone. W planie darmowym ikona ma kłódkę (**Zaprojektuj z AI (plany płatne)**) i otwiera plany.
-
-Propozycja pokazuje, ile ma kafelków i jaki rozmiar siatki. Dotknij **Użyj tego**, aby wstawić ją do edytora, albo **Spróbuj ponownie**, aby dostać inną. Możesz zrobić 5 projektów na akwarium dziennie.
-
-Projekt z AI zastępuje to, co jest na edytowanym pulpicie. Nic nie trafi na Cora Max, dopóki nie dotkniesz **Zapisz i opublikuj**, więc nadal możesz wyjść bez zapisywania. Aby najpierw zachować obecny układ, zapisz go w **Moje panele**.
-
-Zaprojektuj z AI wymaga włączonego w Ustawieniach udostępniania danych AI. Jeśli jest wyłączone, dostaniesz informację i możesz je włączyć, a potem spróbować ponownie. Jeśli akwarium nie ma jeszcze odczytów ani podłączonych urządzeń, nie ma z czego projektować.
+Jak działa każdy z nich, opisuje [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing).

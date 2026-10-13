@@ -1,70 +1,74 @@
 ---
 title: Ekipman programları
-description: Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın. Maxspect gyre programını görüntüleyin (Beta).
+description: Bir Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın, bir Maxspect gyre'nin programını görüntüleyin (Beta).
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 12
+reviewed: 2026-10-13
+order: 14
 group: Equipment
 ---
 
-Pompalar ve gyre'ler **günlük program** çalıştırabilir. Günlük program, her birinin kendi yoğunluğu olan ve her gün tekrarlanan periyotlardan oluşur. Cora, Jecod pompalarının programını doğrudan yazabilir. Maxspect gyre'lerin *(Beta)* programını ise burada yalnızca görüntüleyebilirsiniz. Bu programı Maxspect uygulamasından ayarlayın. Maxspect yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
+Bir Jecod pompasına **günlük program** vermek için bu sayfayı kullanın: her birinin kendi yoğunluğu olan ve her gün tekrarlanan bir dizi periyot. **Cihazlar** sekmesinden pompaya dokunarak açın.
 
-Cihazı **Cihazlar** sekmesinden açın.
+Bir Maxspect gyre'nin programını *(Beta)* da aynı şekilde görüntüleyebilirsiniz, ama onu Maxspect uygulamasında ayarlarsınız. Maxspect yalnızca Beta kullanıcılarına açıktır. [Beta özellikleri](/help/mobile-beta) sayfasına bakın. Diğer markaların ışıkları ve pompaları programlarını kendi sayfalarında tutar: [EcoTech](/help/mobile-ecotech) *(Beta)* ile Red Sea'nin ReefRun ve ReefDose'u [Ekipmanınızı kontrol etme](/help/mobile-device-control#red-sea) sayfasında.
 
-![Pompa programı](img/mobile-schedules.webp "0–24 saatlik gün grafiği ve altında listelenen periyotlar.")
+![Cora Mobile'da Program seçili bir Jecod pompası sayfası](img/mobile-schedules.webp "Üstte Program seçili, ardından besleme duraklatması ve gün grafiği.")
 
-## Tüm gün aynı ya da Program
+## Tüm gün aynı ya da Program {#same-all-day-or-schedule}
 
-Pompa iki moddan birinde çalışır. Modu pompanın sayfasının üstünden seçersiniz:
+Bir pompa iki moddan birinde çalışır. Birini sayfasının üstünden seçin.
 
-- **Tüm gün aynı**: gün boyu sabit tek yoğunluk
-- **Program**: periyotlardan oluşan günlük program
+- **Tüm gün aynı**, bütün gün tek bir yoğunlukta çalışır.
+- **Program**, periyotlardan oluşan bir günlük programı izler.
 
-Seçiminiz pompaya gönderilir. Telefonunuz pompanın ağında değilse seçim akvaryumdaki Cora Max üzerinden gider. Bluetooth pompanın menzilde olması gerekir. Menzile girene kadar buradaki seçim yalnızca ekranda gördüğünüzü değiştirir.
+Telefonunuz pompanın ağındayken Cora seçiminizi doğrudan pompaya gönderir. Değilse seçim akvaryumdaki Cora Max üzerinden gider. Bluetooth bir pompanın menzilde olması gerekir. Menzile girene kadar seçiminiz yalnızca ekranda gördüğünüzü değiştirir.
+
+Besleme duraklatması pompayı bir süreliğine programından çıkarır ve telefonunuzda program ancak pompanın sayfası açık kaldığı sürece geri gelir. [Besleme duraklatması](/help/mobile-device-control#jecod-feeding) bölümüne bakın.
 
 ## Program düzenleyici
 
-Her program ekranı aynı üç bölümden oluşur:
+Her program ekranında aynı üç bölüm vardır.
 
-**Gün grafiği**: 0'dan 24'e kadar bütün gün. Her periyot bir blok olarak çizilir, bloğun yüksekliği yoğunluğu gösterir. Programın istediğiniz gibi çalışıp çalışmadığını en hızlı buradan görürsünüz.
+En üstte gün grafiği durur. Günün tamamını 0'dan 24 saate kadar gösterir ve her periyot, yüksekliği yoğunluğu olan bir bloktur. Bir programın düşündüğünüz şeyi yapıp yapmadığını kontrol etmenin en hızlı yolu budur.
 
-**Periyot listesi**: grafiğin altında her periyot saatleri, modu ve yoğunluğuyla listelenir. Örneğin *Rastgele, 00:00–03:00, Frek 50%, 40%*. Periyotları buradan ekler, düzenler ve silersiniz.
+Grafiğin altında periyot listesi vardır. Her periyot saatlerini, modunu ve yoğunluğunu gösterir, örneğin *Rastgele, 00:00–03:00, Frek %50, %40*. Periyotları burada ekler, düzenler ve kaldırırsınız.
 
-**Periyot ekleme ve değiştirme**: **Programa ekle** yeni bir periyot ekler. Bir periyodu değiştirmek için açın ve **Kaydet**'e dokunun. Silmek için **Sil**'e dokunun. Cora silmeden önce onay ister.
+Periyot eklemek için **Programa ekle**'ye dokunun. Birini değiştirmek için açın ve **Kaydet**'e dokunun. Kaldırmak için **Sil**'e dokunun ve onaylayın.
 
-Maxspect gyre'nin *(Beta)* Gyre A ve Gyre B adlı iki kafası var. Bu yüzden gün grafiğinde her kafa için ayrı bir iz görünür ve planlar **GYRE A** ve **GYRE B** başlıkları altında listelenir. Gyre programı yalnızca görüntülenebilir. İşlem satırında **Yalnızca görüntüle** yazar. Programı Maxspect uygulamasından ayarlarsınız.
+Bir Maxspect gyre'nin *(Beta)* Gyre A ve Gyre B olarak gösterilen iki kafası vardır. Gün grafiğinde her biri için bir iz bulunur ve planları **GYRE A** ve **GYRE B** altında listelenir. Bir gyre'nin programını burada yalnızca görüntüleyebilirsiniz. İşlem satırında **Yalnızca görüntüle** yazar ve programı Maxspect uygulamasında ayarlarsınız.
 
-:::warning Program cihaza yazılır
-Kaydettiğinizde program ekipmana gönderilir. Ekipman programı kendi saatine göre çalıştırır. Cora'ya bağlantı olsa da olmasa da program çalışmaya devam eder.
+:::warning Kaydetmek programı cihaza yazar
+Kaydettiğinizde Cora programı ekipmana gönderir ve ekipman onu kendi saatine göre çalıştırır. Cora ona ulaşabilse de ulaşamasa da çalışmaya devam eder.
 :::
 
 ## Programı pompalar arasında kopyalama
 
-Aynı şekilde çalışması gereken birkaç pompanız varsa bir program hazırlayıp kopyalayın.
+Aynı şekilde davranması gereken birkaç pompanız varsa bir program hazırlayın ve kopyalayın.
 
-Kopyalamak istediğiniz programın olduğu pompayı açın. **Programı şuraya kopyala…**'ya dokunun ve hedef pompayı seçin.
+İstediğiniz programın olduğu pompayı açın, **Programı şuraya kopyala…**'ya dokunun ve kopyalanacak pompayı seçin.
 
 ## Programı saklama ve paylaşma
 
-Beğendiğiniz bir programı yeniden hazırlamanız gerekmez:
+Beğendiğiniz bir programınız olduğunda onu yeniden hazırlamanız gerekmez.
 
-- **Programı farklı kaydet…** programı bir adla saklar. **Kayıtlı programlar…** ile sonra yeniden uygularsınız.
-- **Bu zamanlamayı paylaş** programı kısa bir koda çevirir. Size gönderilen bir kodu **Bir zamanlama kodu yapıştır…** ile uygularsınız. Bu özellik Cora Mobile'a özeldir. Kod yalnızca programı taşır, hesabınıza erişim vermez.
+- **Programı farklı kaydet…** onu bir adla saklar. **Kayıtlı programlar…** daha sonra yeniden uygular.
+- **Bu zamanlamayı paylaş** onu kısa bir koda çevirir. **Bir zamanlama kodu yapıştır…** birinin size gönderdiği kodu uygular. Bu bir Cora Mobile özelliğidir. Kod yalnızca programı taşır, kimseye hesabınıza erişim vermez.
 
-## Pompanın ağında değilken
+## Pompanın ağından uzaktayken
 
-Telefonunuz pompanın ağında değilse Cora Mobile akvaryumdaki Cora Max üzerinden çalışır. Bu durumda bazı sınırlar var:
+Telefonunuz pompanın ağında değilken Cora Mobile akvaryumdaki Cora Max üzerinden çalışır. Birkaç şey farklı işler.
 
-- **Tüm gün aynı** ve **Program** seçimi pompaya o Cora Max üzerinden gider.
-- Eklediğiniz ya da değiştirdiğiniz bir periyot, ancak o Cora Max son bir saat içinde pompaya ulaştıysa gider. Ulaşmadıysa program ekranı bunu söyler ve bulunduğunuz yerden değişiklik yapamazsınız.
-- **Programı şuraya kopyala…**, **Programı farklı kaydet…**, **Kayıtlı programlar…**, **Bu zamanlamayı paylaş** ve **Bir zamanlama kodu yapıştır…** için telefonunuzun pompanın ağında olması gerekir. O zamana kadar bu seçenekler soluk görünür ve menüde nedeni yazar.
+- **Tüm gün aynı** ve **Program**, pompayı o Cora Max üzerinden değiştirir.
+- Eklediğiniz ya da değiştirdiğiniz bir periyot ancak o Cora Max son bir saat içinde pompaya ulaştıysa gider. Ulaşmadıysa program bunu size söyler ve bulunduğunuz yerden değiştiremezsiniz.
+- **Programı şuraya kopyala…**, **Programı farklı kaydet…**, **Kayıtlı programlar…**, **Bu zamanlamayı paylaş** ve **Bir zamanlama kodu yapıştır…** için telefonunuzun pompanın ağında olması gerekir. O zamana kadar soluk görünürler ve menü nedenini söyler.
 
-Bluetooth pompaya yalnızca yakınındaki bir telefondan ulaşılır. Pompayı açıp kapatmak, programını değiştirmek ya da bu seçenekleri kullanmak için menzil içinde durun.
+Akvaryumda Cora Max yoksa bir pompayı ancak telefonunuz onun ağındayken değiştirebilirsiniz. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections#local-only) sayfasında.
+
+Bluetooth bir pompaya yalnızca ona yakın bir telefondan ulaşabilirsiniz. Onu açıp kapatmak, programını değiştirmek ya da bu menü öğelerinden birini kullanmak için menzil içinde durun.
 
 ## Program uygulama
 
-Kayıtlı bir programı, periyotları yeniden oluşturmadan tek adımda pompaya verebilirsiniz. Pompayı açın, üstteki **Daha fazla** menüsüne dokunun ve **Kayıtlı programlar…** seçeneğini seçin. Listede bu akvaryum için kaydedilen bütün programlar vardır, başka bir pompada oluşturduklarınız da. Birini seçip **Uygula** düğmesine dokunun. Program, pompanın bütün gününü değiştirir.
+Kayıtlı bir programı, periyotları yeniden oluşturmadan tek adımda bir pompaya verebilirsiniz. Pompayı açın, üstteki **Daha fazla**'ya dokunun ve **Kayıtlı programlar…**'ı seçin. Liste, başka bir pompada hazırladıklarınız dahil bu akvaryumda kaydedilmiş tüm programları tutar. Birini seçin ve **Uygula**'ya dokunun. Program pompanın bütün gününün yerine geçer.
 
-## Programın uygulandığını kontrol etme
+## Uygulandığını kontrol etme
 
-Kaydettikten sonra cihaz sayfası, ünitenin gerçekte çalıştırdığı programı gösterir. İkisi farklıysa program cihaza yazılamamıştır. Cihaza erişilebildiğini kontrol edip tekrar deneyin.
+Kaydettikten sonra cihaz sayfası pompanın çalıştırdığı programı gösterir. Kaydettiğinizle uyuşmuyorsa değişiklik ulaşmamıştır. Cihaza erişilebildiğini kontrol edin ve tekrar deneyin.

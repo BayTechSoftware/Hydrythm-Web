@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ausrüstung mit Cora Max steuern | Cora Help</title>
-  <meta name="description" content="Geräteseiten auf dem großen Bildschirm für Sonden, Steckdosen, Dosierköpfe, Testgeräte und Pumpen.">
+  <meta name="description" content="Geräteseiten auf Cora Max für Neptune Apex, Trident und DŌS, Red Sea ReefBeat, Jecod, AquaWiz und die Beta-Marken, nach Marke sortiert.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/max-device-control">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-device-control">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-device-control">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Ausrüstung mit Cora Max steuern | Cora Help">
-  <meta property="og:description" content="Geräteseiten auf dem großen Bildschirm für Sonden, Steckdosen, Dosierköpfe, Testgeräte und Pumpen.">
+  <meta property="og:description" content="Geräteseiten auf Cora Max für Neptune Apex, Trident und DŌS, Red Sea ReefBeat, Jecod, AquaWiz und die Beta-Marken, nach Marke sortiert.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/max-device-control">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hilfe","item":"https://coraiq.tech/de/help/"},{"@type":"ListItem","position":2,"name":"Cora Max","item":"https://coraiq.tech/de/help/max-setup"},{"@type":"ListItem","position":3,"name":"Geräte","item":"https://coraiq.tech/de/help/max-controls"},{"@type":"ListItem","position":4,"name":"Ausrüstung mit Cora Max steuern"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/de/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Hilfe</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Anleitung durchsuchen">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigation der Anleitung">
     <button class="hclose" id="hclose" type="button" aria-label="Navigation schließen">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Anleitung">
 <ul>
 <li><a href="/de/help/">Cora Hilfe</a></li>
+</ul>
+<p class="nav-sec">Hilfe</p>
+<ul>
+<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
+<li><a href="/de/help/how-do-i">Wie mache ich...?</a></li>
+<li><a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a></li>
+<li><a href="/de/help/faq">Häufige Fragen</a></li>
+<li><a href="/de/help/glossary">Glossar</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Erste Schritte</summary><ul>
 <li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
-<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
+<li><a href="/de/help/mobile-tour">So findest du dich in Cora Mobile zurecht</a></li>
 <li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
-<li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
+<li><a href="/de/help/mobile-tanks">Deine Becken verwalten</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Dein Dashboard</summary><ul>
 <li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
 <li><a href="/de/help/mobile-widgets">Widget-Referenz</a></li>
-<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></li>
 <li><a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></li>
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
-<li><a href="/de/help/mobile-probes">Parameterzuordnung</a></li>
-<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
+<li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
+<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
 <li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
 <li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
+<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
 <li><a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a></li>
 <li><a href="/de/help/mobile-notifications">Benachrichtigungen</a></li>
 <li><a href="/de/help/mobile-automation">Automationen und Szenen</a></li>
+<li><a href="/de/help/mobile-vacation">Verreisen: ein Plan für deine Urlaubsvertretung</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Aufzeichnungen</summary><ul>
-<li><a href="/de/help/mobile-dosing">Dosierung</a></li>
+<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
+<li><a href="/de/help/mobile-dosing">Dosierprodukte und Dosierrechner</a></li>
 <li><a href="/de/help/mobile-maintenance">Wartung</a></li>
 <li><a href="/de/help/mobile-livestock">Besatz</a></li>
-<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
 <li><a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenz</summary><ul>
-<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
 <li><a href="/de/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
+<li><a href="/de/help/mobile-icp-health">ICP und Gesundheitsberichte</a></li>
 <li><a href="/de/help/mobile-journeys">Geführte Journeys</a></li>
-<li><a href="/de/help/mobile-icp-health">ICP und Zustandsberichte</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Konto</summary><ul>
-<li><a href="/de/help/mobile-vacation">Verreisen</a></li>
+<summary>Einstellungen und Konto</summary><ul>
+<li><a href="/de/help/mobile-settings">Cora Mobile-Einstellungen</a></li>
 <li><a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></li>
-<li><a href="/de/help/mobile-data-export">Deine Daten</a></li>
-<li><a href="/de/help/mobile-plans">Abos</a></li>
-<li><a href="/de/help/mobile-settings">Einstellungen</a></li>
-<li><a href="/de/help/mobile-support">Hilfe erhalten</a></li>
+<li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
+<li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
+<li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -137,8 +147,14 @@
 <li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Warnungen und Automatisierung</summary><ul>
+<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
+<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Aufzeichnungen</summary><ul>
 <li><a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a></li>
+<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenz</summary><ul>
@@ -146,83 +162,98 @@
 <li><a href="/de/help/max-voice">Mit Cora sprechen</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Warnungen</summary><ul>
-<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
-<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Einstellungen</summary><ul>
+<summary>Einstellungen und Konto</summary><ul>
 <li><a href="/de/help/max-settings">Cora Max-Einstellungen</a></li>
 <li><a href="/de/help/max-updates">Updates und Wiederherstellung</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatisierung</summary><ul>
-<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Hilfe</p>
-<ul>
-<li><a href="/de/help/faq">Häufige Fragen</a></li>
-<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
-<li><a href="/de/help/glossary">Glossar</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Navigationspfad"><ol><li><a href="/de/help/">Hilfe</a></li><li><a href="/de/help/max-setup" lang="en">Cora Max</a></li><li><a href="/de/help/max-controls">Geräte</a></li></ol></nav>
       <h1>Ausrüstung mit Cora Max steuern</h1>
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#welche-gerte-eine-seite-haben">Welche Geräte eine Seite haben</a></li><li><a href="#ds-kpfe">DŌS-Köpfe</a></li><li><a href="#ghl-profilux-und-mitras">GHL ProfiLux und Mitras</a></li><li><a href="#hydros">HYDROS</a></li><li><a href="#ecotech-inkbird-und-kameras">EcoTech, Inkbird und Kameras</a></li><li><a href="#zeitplne">Zeitpläne</a></li><li><a href="#steckdosen">Steckdosen</a></li><li><a href="#verbrauchsmaterial">Verbrauchsmaterial</a></li><li><a href="#am-becken-eintragen-und-rechnen">Am Becken eintragen und rechnen</a></li><li><a href="#auf-einem-zweiten-cora-max">Auf einem zweiten Cora Max</a></li><li><a href="#was-gendert-wurde-und-von-was">Was geändert wurde, und von was</a></li></ul></nav>
-<p>Cora Max erreicht dieselbe Ausrüstung wie dein Handy, und jedes Gerät hat eine eigene Seite. Du öffnest sie über <strong>Einstellungen → Geräte</strong> oder indem du auf dem Dashboard auf eine Gerätekachel tippst.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Eine Apex-Seite auf Cora Max"><img src="/help/img/max-device-control.webp" alt="Eine Apex-Seite auf Cora Max" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Fütterungszyklen und alle Steckdosen, für einen Wandbildschirm angeordnet.</figcaption></figure>
-<aside class="cal cal-warning"><p class="cal-t">Diese Steuerung wirkt auf echte Geräte</p><p>Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du tippst. Gesendet heißt aber noch nicht erledigt. Zurück kommt <strong>Bestätigt</strong>, <strong>Unbestätigt</strong>, <strong>Abgelehnt</strong> oder <strong>Keine Änderung</strong>, und unter <a href="/de/help/max-activity">Aktivität</a> siehst du, was davon zutraf.</p></aside>
-<h2 id="welche-gerte-eine-seite-haben">Welche Geräte eine Seite haben</h2>
-<div class="tw"><table class="stack"><thead><tr><th>Gerät</th><th>Was die Seite zeigt</th></tr></thead><tbody><tr><td data-th="Gerät"><strong>Neptune™ Apex</strong></td><td data-th="Was die Seite zeigt">Sonden und Steckdosen, jede Steckdose ist schaltbar</td></tr><tr><td data-th="Gerät"><strong>Trident</strong></td><td data-th="Was die Seite zeigt">Teststatus, Reagenz- und Abfallstand, und du kannst einen Test starten</td></tr><tr><td data-th="Gerät"><strong>DŌS</strong>, auch DŌS QD</td><td data-th="Was die Seite zeigt">Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden)</td></tr><tr><td data-th="Gerät"><strong>Red Sea™ ReefBeat</strong></td><td data-th="Was die Seite zeigt">Je nach Gerät Dosierköpfe, Reservoir, Rollentage oder Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefRun-Programm sowie ReefMat-Einstellungen <em>(Beta)</em></td></tr><tr><td data-th="Gerät"><strong>ReefControl</strong>, <strong>ReefControl Power</strong>, <strong>ReefWave</strong>, <strong>ReefLED</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Sonden von ReefControl. Steckdosen von ReefControl Power als Ausgänge, ein oder aus, noch keinen Automatikmodus. ReefWave und ReefLED nur zum Ansehen</td></tr><tr><td data-th="Gerät"><strong>Jecod™</strong></td><td data-th="Was die Seite zeigt">Pumpenmodus, Intensität und das Tagesprogramm</td></tr><tr><td data-th="Gerät"><strong>Maxspect™</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Modus und Geschwindigkeit für <strong>Gyre A</strong> und <strong>Gyre B</strong>, <strong>Pumpenzustand</strong> (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und der Zeitplan, nur zum Ansehen</td></tr><tr><td data-th="Gerät"><strong>GHL™ ProfiLux / Mitras</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse</td></tr><tr><td data-th="Gerät"><strong>HYDROS™</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreiben-Schlüssel auch Ausgänge, Modi, Dosierköpfe und Testbefehle</td></tr><tr><td data-th="Gerät"><strong>Focustronic™</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Status, letzter Test, Pumpen und Fläschchen</td></tr><tr><td data-th="Gerät"><strong>EcoTech™</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer, jeweils mit eigener Seite. Befehle an VorTech und Versa sind noch nicht an echter Hardware bewiesen</td></tr><tr><td data-th="Gerät"><strong>Inkbird™</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Raumluftwerte, nur zum Ansehen</td></tr><tr><td data-th="Gerät"><strong>Kamera</strong> <em>(Beta)</em></td><td data-th="Was die Seite zeigt">Ein Bild deiner Kamera, als Kachel auf dem Dashboard oder auf einer eigenen Seite, mit dem Skimmer-Wächter in kostenpflichtigen Tarifen</td></tr></tbody></table></div>
-<p>Stoppt sich ein Red Sea-Gerät selbst, steht auf seiner Seite, was los ist, und die passende Lösung gleich daneben: <strong>Fortsetzen</strong>, <strong>Notstopp aufheben</strong>, <strong>Sensor gereinigt</strong>, <strong>Ich habe bereits eine neue Rolle eingelegt</strong> oder bei einem Dosierkopf <strong>Zurücksetzen</strong>.</p>
-<p>Ein ReefDose-Plan, ein ReefRun-Geschwindigkeitsprogramm und ReefMats geplanter Vorschub, Modell, Position und Neue Rolle funktionieren hier genauso wie auf deinem Handy. <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a> und <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a> haben die Details.</p>
-<h2 id="ds-kpfe">DŌS-Köpfe</h2>
-<p>Bevor Cora einen DŌS-Kopf von Hand dosiert, musst du ihn einmal messen. Mit <strong>Zum Dosieren messen</strong> läuft der Kopf zwanzig Sekunden lang in einen Messbecher, und du gibst ein, wie viel herausgekommen ist. Cora speichert pro Kopf eine Messung und nimmt immer die neueste, egal auf welchem Cora Max sie gemacht wurde. Auf der Seite des Kopfes siehst du, wo und wann er gemessen wurde.</p>
-<p>Hast du einen Kopf in Apex Fusion auf Aus gestellt, bleibt er nach einer manuellen Dosierung aus. Alle anderen Köpfe gehen zurück auf Auto.</p>
-<h3 id="wofr-ein-kopf-verwendet-wird">Wofür ein Kopf verwendet wird</h3>
-<p>In den Einstellungen jedes Kopfes legst du einen <strong>Verwendungstyp</strong> fest: <strong>Supplement</strong>, <strong>Wasserwechsel: neues Salzwasser rein</strong>, <strong>Wasserwechsel: altes Wasser raus</strong>, <strong>Kalkwasser</strong>, <strong>Calciumreaktor</strong>, <strong>Futter</strong>, <strong>Nachfüllen</strong> oder <strong>Andere</strong>. Davon hängen zwei Dinge ab:</p>
-<ul><li><strong>Wie groß der Behälter sein darf.</strong> Jeder Verwendungstyp kann einen Behälter mit bis zu 1.000 Litern verfolgen. Über dem eigenen 150-Liter-Zähler des Apex verfolgt Cora das Volumen selbst und setzt den Zähler des Apex alle 100 Liter zurück.</li><li><strong>Ob er große Mengen von Hand dosieren darf.</strong> Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Für alle anderen Verwendungstypen kannst du eine eigene <strong>Größte manuelle Dosierung</strong> festlegen, höchstens 10 Liter, und ein eigenes <strong>Tageslimit für Automationen und den Assistant</strong>. Eine große Handdosierung braucht außerdem <strong>Große Dosierungen (Beta)</strong>, eingeschaltet in den Einstellungen des Kopfes. Das ist standardmäßig aus: Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.</li></ul>
-<p>Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als <strong>Gekoppelter Kopf</strong> verbinden und einen Wert für <strong>Ausgleichswarnung ab</strong> eintragen. Weichen die Tagesmengen der beiden Köpfe um mehr als diesen Wert voneinander ab, warnt Cora dich. Meist pumpt dann eine Seite nicht so wie erwartet.</p>
-<h3 id="wenn-eine-groe-dosierung-abbricht">Wenn eine große Dosierung abbricht</h3>
-<p>Für eine große Dosierung ändert Cora vorübergehend, was der Kopf am Apex tut, und stellt danach seinen normalen Zeitplan wieder her. Reißt die Verbindung mittendrin ab, zeigt Cora Max auf der Seite des Kopfes einen Hinweis: <em>„Eine große Dosierung an [Kopf] wurde nicht sauber abgeschlossen. Cora versucht weiterhin, sein Programm zurückzusetzen; prüfe es in Apex Fusion.“</em></p>
-<p>Prüf den Kopf dann selbst in Apex Fusion und tippe erst danach auf <strong>Ich habe den Kopf in Fusion geprüft</strong>, um den Hinweis zu schließen. Tu das nur, wenn du gesehen hast, dass wirklich der eigene Zeitplan des Kopfes läuft und nicht das Dosierprogramm von Cora.</p>
-<p>Lässt sich der Hinweis nicht schließen oder taucht er immer wieder auf, hilft dir die <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
-<h2 id="ghl-profilux-und-mitras">GHL ProfiLux und Mitras</h2>
+      <p class="twin">In Cora Mobile: <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></p>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#what-has-a-page">Was eine Seite hat</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#dos-heads">DŌS-Köpfe</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod</a></li><li><a href="#aquawiz">AquaWiz</a></li><li><a href="#maxspect">Maxspect</a></li><li><a href="#ghl">GHL ProfiLux und Mitras</a></li><li><a href="#hydros">HYDROS</a></li><li><a href="#focustronic">Focustronic</a></li><li><a href="#ecotech-inkbird-and-cameras">EcoTech, Inkbird und Kameras</a></li><li><a href="#consumables">Verbrauchsmaterial</a></li><li><a href="#logging-and-calculating-at-the-tank">Am Becken eintragen und rechnen</a></li><li><a href="#on-a-second-cora-max">Auf einem zweiten Cora Max</a></li><li><a href="#what-was-changed-and-by-what">Was geändert wurde, und wodurch</a></li></ul></nav>
+<p>Auf dieser Seite geht es darum, was du auf der Seite jedes Geräts auf Cora Max sehen und tun kannst, Marke für Marke. Cora Max erreicht dieselbe Ausrüstung wie dein Handy. Öffne eine Geräteseite über das Gerätesymbol in der oberen Leiste, über <strong>Einstellungen → Geräte</strong> oder indem du auf dem Dashboard auf eine Gerätekachel tippst.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Eine Apex-Seite auf Cora Max mit ihren Fütterungstasten und Steckdosen"><img src="/help/img/max-device-control.webp" alt="Eine Apex-Seite auf Cora Max mit ihren Fütterungstasten und Steckdosen" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Feed A bis D und Abbrechen, dann die Steckdosen, für einen Wandbildschirm angeordnet.</figcaption></figure>
+<aside class="cal cal-warning"><p class="cal-t">Diese Steuerung wirkt auf laufende Ausrüstung</p><p>Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du tippst, aber gesendet heißt nicht erledigt. Er kommt mit <strong>Bestätigt</strong>, <strong>Unbestätigt</strong>, <strong>Abgelehnt</strong> oder <strong>Keine Änderung</strong> zurück, und unter <a href="/de/help/max-activity">Aktivität</a> siehst du, was davon.</p></aside>
+<p>Ausrüstung fügst du auf dem Handy hinzu, weist sie dort zu und entfernst sie dort. Cora Max zeigt sie, sobald dein Konto sie hat. Siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
+<h2 id="what-has-a-page">Was eine Seite hat</h2>
+<div class="tw"><table class="stack"><thead><tr><th>Gerät</th><th>Zeigt</th></tr></thead><tbody><tr><td data-th="Gerät"><strong>Neptune™ Apex</strong></td><td data-th="Zeigt">Sonden und Steckdosen, und du kannst jede Steckdose schalten</td></tr><tr><td data-th="Gerät"><strong>Trident</strong></td><td data-th="Zeigt">Teststatus, Reagenz- und Abfallstand und eine Taste, um einen Test zu starten</td></tr><tr><td data-th="Gerät"><strong>DŌS</strong>, auch der DŌS QD</td><td data-th="Zeigt">Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden)</td></tr><tr><td data-th="Gerät"><strong>Red Sea™ ReefBeat</strong></td><td data-th="Zeigt">Was das Gerät hat: Dosierköpfe, Reservoir, Rollentage, Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefRun-Programm und ReefMat-Einstellungen <em>(Beta)</em></td></tr><tr><td data-th="Gerät"><strong>Red Sea ReefControl</strong>, <strong>ReefControl Power</strong>, <strong>ReefWave</strong>, <strong>ReefLED</strong> <em>(Beta)</em></td><td data-th="Zeigt">Die Sonden von ReefControl. Die Anschlüsse von ReefControl Power als Steckdosen, ein oder aus, noch ohne Automatikmodus. ReefWave und ReefLED nur zum Ansehen</td></tr><tr><td data-th="Gerät"><strong>Jecod™</strong></td><td data-th="Zeigt">Pumpenmodus und Intensität und ihr Tagesprogramm</td></tr><tr><td data-th="Gerät"><strong>AquaWiz™</strong></td><td data-th="Zeigt">Keine eigene Seite. Er steht unter <strong>Geräte</strong>, und seine Messwerte erscheinen auf dem Dashboard</td></tr><tr><td data-th="Gerät"><strong>Maxspect™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Modus und Geschwindigkeit für <strong>Gyre A</strong> und <strong>Gyre B</strong>, <strong>Pumpenzustand</strong> (Countdown bis zur Reinigung, Strom an Kopf A, verbaute Köpfe, Firmware) und ihr Zeitplan, nur zum Ansehen</td></tr><tr><td data-th="Gerät"><strong>GHL™ ProfiLux / Mitras</strong> <em>(Beta)</em></td><td data-th="Zeigt">Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse</td></tr><tr><td data-th="Gerät"><strong>HYDROS™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Was sein Geräteschlüssel meldet: Eingänge, und mit einem Schreibschlüssel auch Ausgänge, Modi, Dosierköpfe und Testerbefehle</td></tr><tr><td data-th="Gerät"><strong>Focustronic™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Status, letzter Test, Pumpen und Fläschchen, dazu je nach Gerät <strong>Jetzt messen</strong>, <strong>Jetzt dosieren</strong> oder <strong>Jetzt testen</strong></td></tr><tr><td data-th="Gerät"><strong>EcoTech™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer, jeweils mit eigener Seite. Befehle an VorTech und Versa sind an echter Hardware noch nicht erprobt</td></tr><tr><td data-th="Gerät"><strong>Inkbird™</strong> <em>(Beta)</em></td><td data-th="Zeigt">Raumluftwerte, nur zum Lesen</td></tr><tr><td data-th="Gerät"><strong>Kamera</strong> <em>(Beta)</em></td><td data-th="Zeigt">Ein Bild deiner Kamera, als Kachel auf dem Dashboard oder auf einer eigenen Seite, mit dem Skimmer-Wächter in den kostenpflichtigen Abos</td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.</p></aside>
+<p>Die meisten Geräteseiten haben einen Stift, um das Gerät umzubenennen. Der neue Name erscheint auch auf deinem Handy. Mehr dazu unter <a href="/de/help/max-devices">Geräte und Gerätezustand</a>.</p>
+<h2 id="neptune-apex">Neptune Apex</h2>
+<p>Die Apex-Seite listet deine Sonden und Steckdosen auf, mit deinen Fütterungszyklen oben. Jede Steckdose schaltet zwischen <strong>Auto</strong>, <strong>Aus</strong> und <strong>Ein</strong>, und Steckdosen mit Vorhängeschloss bitten um Bestätigung. Wie die drei Zustände und der Fütterungsmodus funktionieren, steht unter <a href="/de/help/max-controls">Steckdosen und Steuerung</a>.</p>
+<p>Steckdosen erreichst du auch über die Schublade <strong>Steckdosen &amp; Füttern</strong> unten auf dem Dashboard. Sie listet die Steckdosen auf, die für dieses Dashboard eingeschaltet sind (oder alle, wenn du keine ausgewählt hast).</p>
+<p>Ein großer Apex mit mehreren Modulen zeigt alle seine Steckdosen und Sonden. DŌS-Köpfe erscheinen nie in der Steckdosenliste, du kannst dort also keinen einschalten und laufen lassen. Dosiere über die eigene Seite des Kopfes.</p>
+<h3 id="trident">Trident</h3>
+<p>Die Trident-Seite zeigt den Teststatus und den Reagenz- und Abfallstand. Du kannst hier einen Test starten und mit <strong>Warnungseinstellungen</strong> eine Nachfüllwarnung festlegen.</p>
+<h2 id="dos-heads">DŌS-Köpfe</h2>
+<p>Du musst einen DŌS-Kopf einmal messen, bevor Cora damit von Hand dosiert. <strong>Zum Dosieren messen</strong> lässt den Kopf zwanzig Sekunden lang in einen Messbecher laufen, und du gibst ein, wie viel herausgekommen ist. Cora behält eine Messung pro Kopf und nimmt die neueste, egal welches Cora Max sie gemacht hat. Die Seite des Kopfes zeigt, wo und wann er gemessen wurde.</p>
+<p>Nach einer manuellen Dosierung bleibt ein Kopf, den du in Apex Fusion auf Aus gestellt hast, auf Aus. Jeder andere Kopf geht zurück auf Auto.</p>
+<p>Ein DŌS hat keinen Füllstandssensor und dosiert auch aus einem leeren Behälter weiter. Leg mit <strong>Warnungseinstellungen</strong> auf der DŌS-Seite eine Nachfüllwarnung fest. Mehr dazu unter <a href="/de/help/mobile-device-control#doser-alerts">Dosierer-Warnungen</a>.</p>
+<h3 id="what-a-head-is-used-for">Wofür ein Kopf verwendet wird</h3>
+<p>In den Einstellungen eines Kopfes kannst du seinen <strong>Verwendungstyp</strong> festlegen. Die Optionen sind <strong>Supplement</strong>, <strong>Wasserwechsel: neues Salzwasser rein</strong>, <strong>Wasserwechsel: altes Wasser raus</strong>, <strong>Kalkwasser</strong>, <strong>Calciumreaktor</strong>, <strong>Futter</strong> oder <strong>Nachfüllen</strong> und <strong>Andere</strong>. Der Verwendungstyp ändert zwei Dinge.</p>
+<ul><li>Wie groß ein Behälter sein kann, den er verfolgt. Jeder Verwendungstyp kann einen Behälter mit bis zu 1.000 Litern verfolgen. Über dem eigenen 150-Liter-Zähler des Apex verfolgt Cora das Volumen selbst und setzt den Apex-Zähler alle 100 Liter zurück.</li><li>Ob er von Hand eine große Dosierung bekommen kann. Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Jeder andere Verwendungstyp kann eine eigene Grenze <strong>Größte manuelle Dosierung</strong> haben, bis zu einer festen Obergrenze von 10 Litern, und ein eigenes <strong>Tageslimit für Automationen und den Assistant</strong>. Eine große Handdosierung braucht außerdem <strong>Große Dosierungen (Beta)</strong>, eingeschaltet in den Einstellungen des Kopfes, standardmäßig aus. Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.</li></ul>
+<p>Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als <strong>Gekoppelter Kopf</strong> verbinden und eine Menge für <strong>Ausgleichswarnung ab</strong> festlegen. Weichen die Tagessummen der beiden Köpfe um mehr als das voneinander ab, warnt Cora dich. Ein Paar außer Gleichgewicht heißt meist, dass eine Seite nicht pumpt, wie sie sollte.</p>
+<h3 id="if-a-large-dose-is-interrupted">Wenn eine große Dosierung unterbrochen wird</h3>
+<p>Eine große Dosierung ändert eine Weile, was der Kopf am Apex tut, und stellt dann seinen normalen Zeitplan wieder her. Bricht die Verbindung mittendrin ab, zeigt Cora Max auf der Seite dieses Kopfes einen Hinweis: <em>"Eine große Dosierung an [Kopf] wurde nicht sauber abgeschlossen. Cora versucht weiterhin, sein Programm zurückzusetzen; prüfe es in Apex Fusion."</em></p>
+<p>Prüf den Kopf selbst in Apex Fusion und tippe dann auf <strong>Ich habe den Kopf in Fusion geprüft</strong>, um den Hinweis zu schließen. Tu das erst, wenn du bestätigt hast, dass der eigene Zeitplan des Kopfes läuft und nicht das Dosierprogramm von Cora.</p>
+<p>Lässt sich der Hinweis nicht schließen oder kommt er immer wieder, schau in die <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
+<h2 id="red-sea">Red Sea ReefBeat</h2>
+<p>Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut: ReefDose-Köpfe und Behälter, das Reservoir des ReefATO+, die Rollentage des ReefMat und die Pumpengeschwindigkeiten des ReefRun. Vorratswarnungen für ReefDose-Köpfe, das ReefATO+-Reservoir und die ReefMat-Rolle legst du mit <strong>Warnungseinstellungen</strong> auf der Seite des Geräts fest.</p>
+<p>Stoppt sich ein Red Sea-Gerät selbst, sagt dir seine Seite, was los ist, und setzt die Lösung gleich daneben. Das ist <strong>Fortsetzen</strong>, <strong>Notstopp aufheben</strong>, <strong>Sensor gereinigt</strong>, <strong>Ich habe bereits eine neue Rolle eingelegt</strong> oder <strong>Zurücksetzen</strong> bei einem Dosierkopf.</p>
+<p>Ein ReefDose-Plan, ein ReefRun-Geschwindigkeitsprogramm und beim ReefMat der geplante Vorschub, das Modell, die Position und Neue Rolle funktionieren hier genauso wie auf dem Handy. <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a> hat die Details.</p>
+<p>ReefControl, ReefControl Power, ReefWave und ReefLED tragen <em>(Beta)</em> im Namen, sind aber für alle offen. ReefControl zeigt seine Sonden. Die Anschlüsse von ReefControl Power erscheinen als Steckdosen, nur ein oder aus. ReefWave und ReefLED sind vorerst nur zum Ansehen.</p>
+<h2 id="jecod">Jecod</h2>
+<p>Die Jecod-Seite zeigt Modus und Intensität der Pumpe, und du kannst beides ändern.</p>
+<p>Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter <a href="/de/help/mobile-schedules">Ausrüstung planen</a>.</p>
+<h2 id="aquawiz">AquaWiz</h2>
+<p>Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter <strong>Geräte</strong>, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
+<h2 id="maxspect">Maxspect</h2>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Maxspect ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.</p></aside>
+<p>Die Maxspect-Seite zeigt Modus und Geschwindigkeit von <strong>Gyre A</strong> und <strong>Gyre B</strong> und ihren <strong>Pumpenzustand</strong>. Den Zeitplan einer Gyre kannst du hier ansehen, aber nicht speichern. Stell ihn in der Maxspect-App ein.</p>
+<h2 id="ghl">GHL ProfiLux und Mitras</h2>
 <aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> GHL ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.</p></aside>
-<p>Verbinde einen GHL-Controller über dein Handy: <strong>Geräte → Gerät hinzufügen → GHL</strong>. Die Schritte dazu stehen unter <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>. Cora Max zeigt und steuert ihn, sobald ein Cora Max in seinem Netzwerk ihn ausgelesen hat, aber die Einrichtung selbst läuft auf dem Handy.</p>
-<p>Ein ProfiLux mini liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren aus. Ist <strong>Steuerung durch Cora zulassen (Beta)</strong> eingeschaltet, kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.</p>
-<p>Steuerungen bleiben aus, bis du <strong>Steuerung durch Cora zulassen (Beta)</strong> auf der Seite des Geräts einschaltest. Das ist standardmäßig aus. Ist es eingeschaltet, kannst du eine Steckdose auf <strong>Immer an</strong>, <strong>Immer aus</strong> oder <strong>Zurueck zu automatisch</strong> stellen, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und weist einen Wert außerhalb davon zurück. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Sieht eine Änderung nach Heizer oder Rückförderpumpe aus, fragt Cora dich zweimal.</p>
-<p>Wird der Behälter eines Dosierers knapp, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Der Standardwert ist 20 % Füllstand, und du kannst ihn in der Regel des Dosierers in der <a href="/de/help/mobile-alerts">Warnzentrale</a> ändern.</p>
-<p>Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich ausgeschaltet. GHL schaltet sie nach jedem Firmware-Update wieder aus. Schalte sie unter <strong>System → GHL API</strong> im GHL Control Center oder in GHL Connect wieder ein. Den Rest findest du unter <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
+<p>Verbinde einen GHL-Controller über dein Handy: <strong>Geräte → Gerät hinzufügen → GHL</strong>. <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a> hat die Schritte. Cora Max zeigt und steuert ihn, sobald ein Cora Max in seinem Netzwerk ihn ausgelesen hat, aber die Einrichtung selbst läuft auf dem Handy.</p>
+<p>Ein ProfiLux mini liest seine Sonden, Steckdosen, Dosierer und Füllstandssensoren. Mit eingeschaltetem <strong>Steuerung durch Cora zulassen (Beta)</strong> kann ein mini außerdem seine Steckdosen schalten, genau wie jeder andere GHL-Controller. Alles andere, etwa Sollwerte und die Fütterungspause, braucht einen ProfiLux 3, 4 oder Mitras.</p>
+<p>Die Steuerung bleibt aus, bis du <strong>Steuerung durch Cora zulassen (Beta)</strong> auf der Seite des Geräts einschaltest. Standardmäßig ist es aus. Ist es eingeschaltet, kann eine Steckdose auf <strong>Immer an</strong>, <strong>Immer aus</strong> oder <strong>Zurück zu automatisch</strong> gestellt werden, und ein Sollwert wie Temperatur oder pH zeigt seinen erlaubten Bereich und lehnt einen Wert außerhalb davon ab. Beide Arten von Änderung werden auf dem Controller selbst gespeichert und bleiben dort, auch wenn Cora später den Kontakt zu ihm verliert. Eine Änderung, die nach Heizer oder Rückförderpumpe aussieht, lässt dich zweimal bestätigen.</p>
+<p>Geht der Behälter eines Dosierers zur Neige, warnt dich Cora genauso wie bei anderem Verbrauchsmaterial. Standard sind 20 % Füllstand, und du kannst das an der Regel des Dosierers in der <a href="/de/help/mobile-alerts">Warnzentrale</a> ändern.</p>
+<p>Nimmt der Controller eine Änderung nicht an, ist seine GHL-API wahrscheinlich ausgeschaltet. GHL schaltet sie nach jedem Firmware-Update aus. Schalte sie unter <strong>System → GHL API</strong> im GHL Control Center oder in GHL Connect wieder ein. Den Rest findest du in der <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
 <h2 id="hydros">HYDROS</h2>
 <aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> HYDROS ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.</p></aside>
-<p>HYDROS ist die einzige Anbindung, die ihren Controller über die Cloud erreicht. Deshalb funktioniert sie auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Eingerichtet wird sie nur über dein Handy: <strong>Geräte → Gerät hinzufügen → HYDROS</strong>. Die Schritte dazu stehen unter <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
-<p>Lesen und Steuern funktioniert genauso wie auf deinem Handy; unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a> stehen Ausgänge, Modi, Dosierköpfe und Testbefehle sowie die Dosierungsgrenzen pro Kopf.</p>
-<h2 id="ecotech-inkbird-und-kameras">EcoTech, Inkbird und Kameras</h2>
-<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Cora Max zeigt sie, sobald dein Konto sie von deinem Handy aus verknüpft hat. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>.</p></aside>
-<p>Du verknüpfst sie über dein Handy, und ein Cora Max am Becken liest sie aus. <a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a> behandelt Radion, VorTech und Versa. Ein Inkbird-Raumluftmonitor zeigt seine Messwerte und sonst nichts. Eine Kamera und, in kostenpflichtigen Tarifen, der Skimmer-Wächter sind unter <a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a> beschrieben. Um eine Kamera an der Wand zu zeigen, füge im Dashboard-Editor eine Kamera-Kachel hinzu.</p>
-<h2 id="zeitplne">Zeitpläne</h2>
-<p>Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso erstellen wie auf dem Handy. Der Editor ist derselbe, mit Tagesgrafik, Liste der Zeiträume und einer Zeile mit Aktionen. Mehr dazu unter <a href="/de/help/mobile-schedules">Ausrüstung planen</a>.</p>
-<p>Den Zeitplan einer Maxspect-Gyre <em>(Beta)</em> kannst du hier ansehen, aber nicht speichern. Stell ihn in der Maxspect-App ein.</p>
-<h2 id="steckdosen">Steckdosen</h2>
-<p>Steckdosen erreichst du auch über die Schublade <strong>Steckdosen &amp; Füttern</strong> am unteren Rand des Dashboards. Dort stehen alle Steckdosen, die für dieses Dashboard freigegeben sind (oder alle, wenn du keine ausgewählt hast). Mehr dazu unter <a href="/de/help/max-controls">Steckdosen und Steuerung</a>.</p>
-<p>DŌS-Köpfe erscheinen nie in der Steckdosenliste. So kann dort niemand einen Kopf einschalten und laufen lassen. Dosiere immer über die Seite des Kopfes. Ein großer Apex mit mehreren Modulen zeigt alle seine Steckdosen und Sonden.</p>
-<h2 id="verbrauchsmaterial">Verbrauchsmaterial</h2>
-<p>Die Schwellen fürs Nachfüllen (Reagenz, Behälter, Reservoirs) legst du hier auf der Seite des Geräts fest, genau wie auf dem Handy. Mehr dazu unter <a href="/de/help/mobile-consumables">Verbrauchsmaterial</a>.</p>
-<h2 id="am-becken-eintragen-und-rechnen">Am Becken eintragen und rechnen</h2>
-<p>Zwei Dinge gehen an der Wand oft bequemer als auf dem Handy:</p>
-<ul><li><strong>Werte erfassen</strong>: Trag Testergebnisse über die Bildschirmtastatur ein. Du findest das im Beckenmenü.</li><li><strong>Dosierrechner</strong>: Berechne eine Korrektur mit dem Beckenvolumen und der Stärke deiner Produkte. Du öffnest ihn auf der Seite eines Wasserwerts. Er nutzt dasselbe Volumen und dieselben Produktstärken wie das Handy, daher kommt hier dieselbe Dosis heraus wie dort. Mehr dazu unter <a href="/de/help/mobile-dosing">Dosierung</a>.</li></ul>
-<h2 id="auf-einem-zweiten-cora-max">Auf einem zweiten Cora Max</h2>
-<p>Zeigen mehrere Cora Max dasselbe Becken, liest nur eines davon die Ausrüstung dieses Beckens. Auf den Geräteseiten heißt es das Cora Max am Becken. Die anderen öffnen die Geräteseiten trotzdem. Steht im Status-Chip <strong>Cloud</strong>, ist dieser Bildschirm einer der anderen. Sie zeigen, was das Cora Max am Becken zuletzt gelesen hat und wie lange das her ist. Jeden Befehl schicken sie über Cora Cloud an dieses Cora Max, das ihn dann ausführt.</p>
-<p>Ein paar Dinge gehen nur am Cora Max am Becken:</p>
-<ul><li><strong>Zum Dosieren messen</strong> und <strong>Erneut messen</strong> gibt es nur dort. Ist ein Kopf gemessen, funktioniert <strong>Jetzt dosieren</strong> auf jedem Cora Max.</li><li>Einen Jecod-Zeitplan kannst du von einem anderen Cora Max nur ändern, wenn das Cora Max am Becken die Pumpe in der letzten Stunde gelesen hat. Bei einer Pumpe, die nur über Bluetooth spricht, geht das nie. Ein <strong>Auf die Pumpe anwenden</strong> von dort schickt höchstens 12 Änderungen. Größere Änderungen schickst du also in mehreren Teilen.</li></ul>
-<h2 id="was-gendert-wurde-und-von-was">Was geändert wurde, und von was</h2>
-<p>Jede Aktion wird mit ihrem Auslöser festgehalten. Mehr dazu unter <a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a>.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/max-controls"><span>Zurück</span><b>Steckdosen und Steuerung</b></a><a class="pn-n" href="/de/help/max-devices"><span>Weiter</span><b>Geräte und Gerätezustand</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-12.</p>
+<p>HYDROS erreicht seinen Controller über die HYDROS-Cloud, deshalb funktioniert es auch, wenn Cora Max in einem anderen Netzwerk ist als der Controller. Eingerichtet wird es nur über dein Handy: <strong>Geräte → Gerät hinzufügen → HYDROS</strong>. <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a> hat die Schritte.</p>
+<p>Lesen und Steuern funktioniert genauso wie auf dem Handy. Unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a> stehen Ausgänge, Modi, Dosierköpfe und Testerbefehle sowie die Dosiergrenzen pro Kopf.</p>
+<h2 id="focustronic">Focustronic</h2>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Focustronic ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>. Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht.</p></aside>
+<p>Die Focustronic-Seite zeigt den Status des Geräts, seinen letzten Test und seine Pumpen und Fläschchen. Unter <strong>Steuerung</strong>:</p>
+<ul><li>Ein Alkatronic hat <strong>Jetzt messen</strong>.</li><li>Ein Dosetronic hat <strong>Jetzt dosieren</strong> für jede Pumpe. Gib die Menge ein, bis zu 500 ml auf einmal, tippe auf <strong>Prüfen</strong> und bestätige dann. Eine Dosierung lässt sich nicht rückgängig machen, und Cora wiederholt sie nie.</li><li>Ein Mastertronic hat ein Testprofil zur Auswahl und <strong>Jetzt testen</strong>.</li></ul>
+<p>Diese Befehle laufen über die Server von Focustronic, auf die Cora keinen Einfluss hat. Richte das Gerät auf dem Handy ein, siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
+<h2 id="ecotech-inkbird-and-cameras">EcoTech, Inkbird und Kameras</h2>
+<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> EcoTech, Inkbird und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den <a href="/support.html">Support</a>.</p></aside>
+<p>Du verknüpfst sie über dein Handy, und ein Cora Max am Becken fragt sie ab.</p>
+<h3 id="ecotech">EcoTech</h3>
+<p>Radion-Leuchten, VorTech-Pumpen und Versa-Dosierer haben jeweils eine eigene Seite, mit einer Taste <strong>Warnungseinstellungen</strong> für ihre Vorräte. <a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a> hat die Details.</p>
+<h3 id="inkbird">Inkbird</h3>
+<p>Ein Inkbird-Raumluftmonitor zeigt seine Messwerte und sonst nichts.</p>
+<h3 id="cameras">Kameras und Skimmer-Wächter</h3>
+<p>Um eine Kamera an der Wand zu zeigen, füg im <a href="/de/help/max-dashboard-editing">Dashboard-Editor</a> eine Kachel <strong>Kamera</strong> hinzu. Tippe auf die Kachel, um die Kamera im Vollbild zu öffnen. Ihre Tasten blenden sich nach ein paar Sekunden aus, und ein Tippen holt sie zurück.</p>
+<p>Mit eingeschaltetem Skimmer-Wächter (kostenpflichtige Abos) zeigen die Kamerakachel und die Vollbildansicht den Füllstand des Bechers und wie alt er ist, zum Beispiel <em>Becher 42 % · vor 5 Min.</em> Er wird bernsteinfarben, wenn er bis auf 10 Punkte an deinen Warnwert herankommt, und rot, wenn er ihn erreicht. In der Vollbild-Kamera öffnet <strong>Alarm bei 80 %</strong> (oder dein Wert) <strong>Alarm für den Abschäumerbecher</strong>, wo du den Wert festlegst. Du bekommst eine Benachrichtigung, wenn der Becher ihn erreicht.</p>
+<p>Wie du eine Kamera und den Skimmer-Wächter einrichtest, steht unter <a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a>.</p>
+<h2 id="consumables">Verbrauchsmaterial</h2>
+<p>Nachfüllschwellen (Reagenz, Behälter, Reservoirs) legst du hier auf der Seite des Geräts fest, genau wie auf dem Handy. Mehr dazu unter <a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a>.</p>
+<h2 id="logging-and-calculating-at-the-tank">Am Becken eintragen und rechnen</h2>
+<p>Zwei Dinge gehen an der Wand oft leichter als auf dem Handy.</p>
+<ul><li><strong>Werte erfassen</strong> lässt dich Testergebnisse über die Bildschirmtastatur eintragen. Du findest es im Beckenmenü.</li><li><strong>Dosierrechner</strong> berechnet eine Korrektur aus dem Beckenvolumen und der Stärke deiner Produkte. Öffne ihn auf der Seite eines Wasserwerts. Er nutzt dasselbe Volumen und dieselben Produktstärken wie dein Handy, eine hier berechnete Dosis stimmt also mit einer dort berechneten überein. Mehr dazu unter <a href="/de/help/mobile-dosing">Dosierung</a>.</li></ul>
+<h2 id="on-a-second-cora-max">Auf einem zweiten Cora Max</h2>
+<p>Zeigt mehr als ein Cora Max ein Becken, fragt eins davon die Ausrüstung dieses Beckens ab. Die Geräteseiten nennen es das Cora Max am Becken. Die anderen können die Geräteseiten trotzdem öffnen, und eine Statusanzeige <strong>Cloud</strong> heißt, dass du auf einem von ihnen bist. Sie zeigen, was das Cora Max am Becken zuletzt gelesen hat und wie lange das her ist. Jeder Befehl geht über Cora Cloud an das Cora Max am Becken, das ihn ausführt.</p>
+<p>Ein paar Dinge funktionieren nur am Cora Max am Becken.</p>
+<ul><li><strong>Zum Dosieren messen</strong> und <strong>Erneut messen</strong> erscheinen nur dort. Ist ein Kopf gemessen, funktioniert <strong>Jetzt dosieren</strong> auf jedem Cora Max.</li><li>Einen Jecod-Zeitplan kannst du von einem anderen Cora Max nur ändern, wenn das Cora Max am Becken die Pumpe in der letzten Stunde gelesen hat, und nie bei einer Pumpe, die nur über Bluetooth spricht. Ein <strong>Auf die Pumpe anwenden</strong> von dort schickt höchstens 12 Änderungen, schick eine größere Änderung also in Teilen.</li></ul>
+<h2 id="what-was-changed-and-by-what">Was geändert wurde, und wodurch</h2>
+<p>Jede Aktion wird zusammen mit ihrem Auslöser protokolliert. Mehr dazu unter <a href="/de/help/max-activity">Aktivität auf Cora Max</a>.</p>
+      <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-controls"><span>Zurück</span><b>Steckdosen und Steuerung</b></a><a class="pn-n" href="/de/help/max-devices"><span>Weiter</span><b>Geräte und Gerätezustand</b></a></nav>
+      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -339,10 +370,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Bildschirmfoto");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Schlie\u00dfen"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -363,55 +394,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Keine Treffer f\u00fcr \u201e" + esc(q) + "\u201c." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Keine Treffer f\u00fcr \u201e" + esc(q)
+        + "\u201c." + '</p>' + "<p>Versuche es mit weniger oder anderen W\u00f6rtern, oder gehe zu:</p><ul><li><a href=\"/de/help/troubleshooting\">Problembehebung</a></li><li><a href=\"/de/help/how-do-i\">Wie mache ich...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Support kontaktieren</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -443,9 +641,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/de/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
       });

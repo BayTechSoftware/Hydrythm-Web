@@ -1,99 +1,132 @@
 ---
 title: Automationen und Szenen
-description: Leg Regeln an, die von selbst laufen (Auslöser, Bedingungen, Aktionen), und fasse Aktionen zu Szenen zusammen.
+description: Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Szenen zusammenfassen, die du mit einem Tippen startest.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 17
+reviewed: 2026-10-13
+order: 22
 group: Alerts and automation
+twin: max-automation
 ---
 
-Eine Automation ist eine Regel, die Cora für dich ausführt: *Wenn das passiert, prüf jenes und tu dann dies.* In einer Szene fasst du mehrere Aktionen zusammen, die du dann auf einmal startest oder nach Zeitplan laufen lässt.
+Eine Automation ist eine Regel, die Cora für dich ausführt: *Wenn das passiert, prüf jenes und tu dann dies.* Eine Szene fasst mehrere Aktionen zu einer Sache zusammen, die du startest, wann du willst.
 
-**Einstellungen → Automation.**
+Geh zu **Einstellungen → Automationen**.
 
-![Die Automations-Liste](img/mobile-automation.webp "Automationen und Szenen sind getrennte Tabs. Jede Regel hat einen Aktivierungsschalter.")
+![Der Automationsbildschirm in Cora Mobile, mit den Tabs Automationen und Szenen](img/mobile-automation.webp "Automationen und Szenen sind getrennte Tabs. Jede Regel hat ihren eigenen Schalter.")
 
-Der Bildschirm hat zwei Tabs, **Automationen** und **Szenen**, und die Schaltfläche **Neue Automation**. Zu jeder Regel siehst du in einer Zeile, was sie tut, dazu einen Aktivierungsschalter und ein Menü zum Bearbeiten oder Löschen. Ist eine Regel noch nie gelaufen, steht das dabei.
+Der Bildschirm hat zwei Tabs, **Automationen** und **Szenen**, mit einer Taste **Neue Automation** oder **Neue Szene**. Jede Regel zeigt eine einzeilige Zusammenfassung, einen Schalter zum Aktivieren und ein Menü zum **Bearbeiten** oder **Löschen**. Bei einer Regel, die noch nicht gelaufen ist, steht das dabei.
 
-:::warning Regeln schalten echte Geräte
-Eine Regel, die eine Pumpe schaltet, schaltet sie auch dann, wenn du nicht hinschaust. Leg eine Regel nach der anderen an. Prüf bei jeder, ob sie tut, was du erwartest, bevor du die nächste hinzufügst.
+:::warning Regeln wirken auf echte Ausrüstung
+Schaltet eine Regel eine Pumpe, schaltet die Pumpe auch dann, wenn du nicht hinschaust. Bau eine Regel nach der anderen und prüf, ob sie tut, was du erwartest, bevor du die nächste hinzufügst.
 :::
 
-## Wie eine Regel aufgebaut ist
+## Wie eine Regel aufgebaut ist {#shape}
 
-Jede Regel hat dieselben drei Teile:
+Jede Automation hat drei Teile.
 
-**Auslöser**: was sie startet
-**Bedingungen**: was zusätzlich zutreffen muss
-**Aktionen**: was sie dann der Reihe nach tut
+- Der Auslöser weckt sie.
+- Die Bedingungen müssen außerdem zutreffen.
+- Die Aktionen sind das, was sie dann der Reihe nach tut.
 
-## Was eine Regel startet
+![Ein leeres Formular Neue Automation in Cora Mobile](img/mobile-rule-builder.webp "Eine neue Automation: Auslöser, Wenn-Bedingungen, Dann-Aktionen, Sonst-wenn und Sonst, dann die Abklingzeit und das Zeitfenster.")
 
-Es gibt vier Auslöser:
+## Was eine Regel wecken kann {#triggers}
 
-| Auslöser | Startet, wenn |
+Füg unter **Wenn: ein beliebiger Auslöser** einen oder mehrere Auslöser hinzu. Jeder davon startet die Regel.
+
+| Auslöser | Löst aus, wenn |
 |---|---|
-| **Wenn sich ein Wasserwert ändert** | ein Wasserwert einen von dir gewählten Wert in der gewählten Richtung überschreitet |
-| **Wenn eine Warnung ausgelöst wird** | eine Warnung kommt, verschwindet oder beides |
-| **Zu einer Tageszeit** | eine bestimmte Uhrzeit erreicht ist, in deiner eigenen Zeitzone |
-| **Wenn ein Gerät offline geht** | ein Gerät offline geht oder wieder erreichbar ist |
+| **Wenn sich ein Wasserwert ändert** | Ein Wasserwert einen Wert überschreitet, den du festlegst. Wähl die **Richtung**: **Steigend**, **Fallend** oder **Jede Änderung** |
+| **Wenn eine Warnung ausgelöst wird** | Eine Warnung **Ausgelöst** oder **Behoben** wird, oder beides. Du kannst es auf Warnungen vom Typ **Schwellenwert** oder **Änderungsrate** beschränken |
+| **Zu einer Tageszeit** | Eine Uhrzeit, in deiner eigenen Zeitzone |
+| **Wenn ein Gerät offline geht** | Dein Cora Max **Offline** geht, wieder **Online** kommt, oder in beiden Fällen |
 
-## Bedingungen
+:::tip Erfahre es, wenn dein Cora Max wegfällt
+Eine Regel mit **Wenn ein Gerät offline geht** und **Mich benachrichtigen** sagt dir, wenn das Cora Max, das deine Ausrüstung abfragt, Strom oder WLAN verliert.
+:::
 
-Mit Bedingungen entscheidest du, ob die Aktionen wirklich laufen. Du hast die üblichen Vergleiche (gleich, ungleich, größer als, kleiner als und so weiter) und kannst sie mit **und**, **oder** und **nicht** verknüpfen.
+## Bedingungen {#conditions}
 
-Dazu kommt eine **Schritt**-Bedingung. Sie prüft, wie der *vorige* Schritt ausgegangen ist. Damit kannst du Regeln schreiben wie: "Versuch das. Hat es nicht geklappt, mach stattdessen jenes."
+Bedingungen entscheiden, ob die Aktionen laufen. Tippe auf **Bedingung hinzufügen** und wähl:
 
-## Was eine Regel tun kann
+- **Wasserwert vergleichen**, ein Messwert über, unter oder gleich einem Wert
+- **Wasserwert innerhalb / außerhalb eines Bereichs**
+- **Warnung aktiv**
+- **Steckdose ist ein / aus**, für eine Apex-Steckdose
+- **Tageszeit**, ein Zeitfenster wie 22:00 bis 06:00
+- **Wie ein früherer Schritt verlaufen ist**, das prüft, ob ein früherer Schritt **OK** war oder **Übersprungen** wurde. Nutze es für "versuch das, und wenn es nicht geklappt hat, mach stattdessen jenes"
 
-Aktionen für bestimmte Geräte bekommst du nur bei einem Becken angeboten, zu dem diese Geräte gehören:
+Bei mehreren Bedingungen stellst du **Übereinstimmung** auf **Alle (UND)** oder **Beliebig (ODER)**.
+
+## Verzweigungen und Prüfungen pro Schritt {#branches}
+
+Eine Automation kann in verschiedenen Fällen verschiedene Dinge tun. Ihr erster Block ist **Wenn**. Tippe auf **Sonst-wenn**, um einen weiteren Fall hinzuzufügen, oder füg einen Block **Sonst** für alles andere hinzu. Cora führt den ersten Block aus, dessen Bedingungen zutreffen.
+
+Du kannst auch eine einzelne Aktion absichern. Tippe bei diesem Schritt auf **Nur wenn …** und gib ihm eine eigene Bedingung. Ohne Bedingung läuft der Schritt immer.
+
+## Wann sie laufen darf {#when-it-may-run}
+
+- **Abklingzeit zwischen Ausführungen** verhindert, dass eine Regel zu schnell wieder auslöst. Sie beginnt bei 10 Min.
+- **Nur ausführen zwischen** beschränkt die Regel auf ein Zeitfenster, zum Beispiel nur tagsüber.
+- **Mit aktuellen Werten testen** prüft die Regel gegen die aktuellen Messwerte deines Beckens, ohne etwas zu tun. Es sagt dir, was *laufen würde*, oder warum nichts laufen würde.
+
+## Was eine Regel tun kann {#actions}
+
+Eine Aktion, die Ausrüstung braucht, erscheint nur bei einem Becken, das diese Ausrüstung hat.
 
 | Aktion | Was sie tut |
 |---|---|
-| **Apex-Gerät steuern** | schaltet eine Steckdose |
-| **Ein Red-Sea-Gerät steuern** | steuert ein ReefBeat-Gerät |
-| **Eine Strömungspumpe steuern** | stellt bei einer Jecod-Pumpe Strömung, Wellenmodus oder Leistung ein. Oder du wählst **Für Fütterung pausieren**. Dann stellt das Cora Max am Becken die Pumpe nach der Fütterung zurück |
-| **Ein Cora-Gerät steuern** | schaltet eine Smart-Steckdose |
-| **IR-Gerät steuern** | sendet einen Infrarot-Befehl |
-| **Apex Fütterungszyklus starten** | startet eine Fütterung |
-| **Einen Trident Test durchführen** | startet einen Test |
-| **Mich benachrichtigen** | schickt dir eine Push-Nachricht |
-| **Vor dem nächsten Schritt warten** | legt eine Pause ein, bevor es weitergeht |
-| **Eine Szene ausführen** | startet eine andere Szene aus dieser Regel heraus |
-| **Eine Automation verwalten** | schaltet eine andere Regel ein oder aus |
-| **Einen DŌS Kopf dosieren** | gibt an einem DŌS-Kopf eine abgemessene Dosis ab |
-| **Wartungsaufgabe erstellen** | setzt eine Aufgabe auf die [Wartungsliste](/help/mobile-maintenance) des Beckens, zum Beispiel das Filtermaterial des CO2-Scrubbers zu wechseln, wenn der pH unter einen Wert fällt |
+| **Apex-Gerät steuern** | Eine Steckdose schalten |
+| **Apex Fütterungszyklus starten** | Eine Fütterung starten. Der Apex beendet sie mit seinem eigenen Timer |
+| **Einen Trident Test durchführen** | Einen Test starten. Jeder Lauf verbraucht Reagenz |
+| **Einen DŌS Kopf dosieren** | Eine abgemessene Dosis an einem DŌS-Kopf abgeben |
+| **Ein Red-Sea-Gerät steuern** | Ein ReefBeat-Gerät steuern |
+| **Eine Strömungspumpe steuern** | Strömung, Wellenmodus oder Leistung einer Jecod-Pumpe einstellen oder **Für Fütterung pausieren**. Das Cora Max am Becken stellt die Pumpe zurück, wenn die Fütterung endet |
+| **Ein GHL-Gerät steuern (Beta)** | Ein Fütterungsprogramm pausieren, den Wartungs- oder Wasserwechselmodus starten, eine Lichtszene oder Helligkeit einstellen und mehr |
+| **Ein HYDROS-Gerät steuern (Beta)** | Einen Ausgang setzen, ihn zu seinem Zeitplan zurückgeben, den Modus wechseln, einen Testerbefehl ausführen oder aus einem Kopf dosieren |
+| **Ein EcoTech-Gerät steuern (Beta)** | Intensität oder Szene einer Radion einstellen, eine Fütterung oder einen Modus einer VorTech starten, aus einem Versa dosieren oder jedes davon zum Zeitplan zurückgeben |
+| **Mich benachrichtigen** | Dir eine Push-Nachricht mit deinem eigenen **Titel** und deiner eigenen **Nachricht** schicken |
+| **Vor dem nächsten Schritt warten** | Eine Pause einlegen, bevor es weitergeht |
+| **Eine Szene ausführen** | Eine Szene aus dieser Regel heraus starten |
+| **Eine Automation verwalten** | Eine andere Regel ein- oder ausschalten |
+| **Wartungsaufgabe erstellen** | Eine Aufgabe auf die [Wartungsliste](/help/mobile-maintenance) des Beckens setzen, zum Beispiel das Material des CO2-Scrubbers wechseln, wenn der pH unter einen Wert fällt |
 
-:::warning Dosieren per Regel lässt sich nicht rückgängig machen und ist begrenzt
-Was einmal dosiert ist, bekommst du nicht mehr aus dem Becken. Ein Kopf muss **kalibriert** sein, bevor eine Regel damit dosieren darf. Unbeaufsichtigtes Dosieren ist auf **10 mL pro Kopf und Tag** begrenzt. Keine Regel kann das überschreiten, egal wie sie geschrieben ist. Dosier-Aktionen tauchen erst auf, wenn Cora deine Köpfe als Dosierköpfe erkannt hat.
+:::note Beta
+GHL, HYDROS und EcoTech sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
+:::
+
+:::warning Eine Dosierung lässt sich nicht rückgängig machen, und sie ist begrenzt
+Eine Dosierung bekommst du nicht mehr aus dem Becken heraus. Eine Regel kann nur aus einem Kopf dosieren, der auf einem Cora Max mit **Zum Dosieren messen** gemessen wurde. Die Dosierung läuft auf einem Cora Max am Becken. Dosieren per Regel ist auf **10 ml pro Kopf und Tag** begrenzt, egal wie die Regel geschrieben ist.
 :::
 
 :::note Was Wartungsaufgabe erstellen macht
-Wähle das Becken, dann **Bestehende Aufgabe** (eine bestehende Aufgabe wird sofort fällig) oder **Neue Aufgabe** (gib einen **Aufgabenname** an). Eine neue Aufgabe ist einmalig und sofort fällig, und die Regel legt sie nicht noch einmal an, solange sie offen ist. Du bekommst eine Benachrichtigung, und die einmalige Aufgabe verschwindet aus der Liste, sobald du sie erledigst.
+Wähl das Becken, dann **Bestehende Aufgabe** (eine bestehende Aufgabe wird sofort fällig) oder **Neue Aufgabe** (gib ihr einen **Aufgabenname**). Eine neue Aufgabe ist einmalig und sofort fällig, und die Regel legt sie nicht noch einmal an, solange sie offen ist. Du bekommst eine Benachrichtigung, und die einmalige Aufgabe verschwindet aus der Liste, wenn du sie erledigst.
 :::
 
-:::note Mit Warten Schritte in einer Regel ordnen
-Mit einer Pause kann eine einzige Regel einen festen Ablauf abarbeiten. Sie schaltet zum Beispiel eine Steckdose aus, wartet und schaltet sie dann wieder ein. Eine zweite Regel mit Zeitplan brauchst du dafür nicht.
+:::note Warten ist kurz
+**Vor dem nächsten Schritt warten** pausiert bis zu 60 Sekunden, und eine Verzweigung kann insgesamt 60 Sekunden warten. Nach der Pause sieht der nächste Schritt frische Messwerte. Für eine längere Pause, etwa eine Rückförderpumpe, die während eines Wasserwechsels 30 Minuten aus ist, nimm eine Szene mit **Ausführen für** (siehe unten).
 :::
 
-## Szenen
+## Szenen {#scenes}
 
-Eine Szene ist eine Gruppe von Aktionen mit einem Namen, etwa "Wasserwechsel", "Fotomodus" oder "Nacht". Du startest sie von Hand, per Zeitplan oder aus einer anderen Regel heraus.
+Eine Szene ist eine benannte Gruppe von Aktionen, etwa "Wasserwechsel", "Fotomodus" oder "Nacht". Tippe auf **Neue Automation** oder **Neue Szene** und wähl oben **Szene**. Eine Szene hat keinen Auslöser. Du startest sie mit **Jetzt ausführen** in der Liste, aus einer Regel heraus mit **Eine Szene ausführen** oder nach Zeitplan über eine Regel mit **Zu einer Tageszeit**.
 
-Eine Szene darf eine andere Szene aufrufen. Ist eine Szene tiefer verschachtelt als erlaubt, führt Cora sie nicht aus. Das gilt auch für eine Szene, die sich selbst aufrufen würde. So kann keine Endlosschleife entstehen, die immer weiter auf das Becken einwirkt.
+**Ausführen für** legt fest, wie lange eine Szene dauert: eine Zahl von Minuten oder Stunden, oder **Bis ich es ändere**. Ist die Zeit um, schaltet Cora die Steckdosen der Szene zurück, wie sie waren. Andere Ausrüstung bleibt so, wie die Szene sie gelassen hat. Während eine zeitgesteuerte Szene läuft, zeigt die Liste einen Countdown und eine Taste **Stopp**, die sie vorzeitig beendet.
 
-Nach jedem Lauf zeigt dir Cora Schritt für Schritt, was passiert ist, auch was nicht geklappt hat.
+Schaltet eine Szene eine wichtige Steckdose, etwa einen Heizer, Kühler, eine Rückförderpumpe oder die Nachfüllanlage, fragt Cora vor dem Start nach und listet diese Schritte auf. Du kannst das mit **Vor der Ausführung fragen** an der Szene ausschalten.
 
-Startest du eine Szene von Hand, fragt Cora vorher nach. Eine Szene kann ja mehrere Geräte auf einmal schalten.
+Eine Szene kann eine andere Szene aufrufen, bis zu 3 Ebenen tief. Eine Szene, die sich selbst aufruft, führt Cora nicht aus, weil sie in einer Schleife immer weiter auf das Becken einwirken könnte.
 
-## Szenen vom Cora Max
+Nachdem eine Szene gelaufen ist, siehst du Schritt für Schritt, was passiert ist, auch was fehlgeschlagen ist oder nicht gelaufen ist.
 
-Du kannst Szenen auch direkt auf einem Cora Max anlegen und bearbeiten. Es sind dieselben Szenen wie auf dem Handy, sie gelten für das ganze Konto. Ein älteres Cora Max im Haushalt kann eine auf dem Handy erstellte Szene trotzdem ausführen. Nur das Bearbeiten direkt am Gerät ist neuer. Ein älteres Cora Max zeigt dir die Szene also vielleicht an, lässt dich dort aber nichts ändern. Bearbeite sie dann am Handy.
+## Szenen, die auf Cora Max angelegt wurden {#scenes-on-cora-max}
 
-## Eine Regel ausschalten
+Du kannst Szenen auch auf einem Cora Max anlegen und bearbeiten. Es sind dieselben Szenen, im ganzen Konto geteilt. Ein älteres Cora Max kann eine auf dem Handy angelegte Szene trotzdem starten. Das Bearbeiten am Gerät ist aber neuer, ein älteres Cora Max zeigt eine Szene also vielleicht, ohne dich etwas ändern zu lassen. Bearbeite sie dann auf dem Handy.
 
-Jede Regel hat einen Aktivierungsschalter. Schaltest du eine Regel aus, bleibt sie gespeichert. Das ist praktisch, wenn du sie nächste Saison wieder brauchst und nicht neu bauen willst.
+## Eine Regel ausschalten {#turning-a-rule-off}
 
-## Nachsehen, was eine Regel getan hat
+Jede Regel hat einen Schalter zum Aktivieren. Schaltest du eine Regel aus, bleiben ihre Einstellungen erhalten. Das hilft, wenn du sie nächste Saison wieder willst.
 
-Jede Aktion einer Regel wird protokolliert, mit der Regel als Auslöser. Du findest sie unter **[Aktivität](/help/mobile-activity)**.
+## Sehen, was eine Regel getan hat {#seeing-what-a-rule-did}
+
+Jede Aktion, die eine Regel ausführt, wird mit **Automationsregel** als Auslöser festgehalten. Du findest sie unter [Aktivität](/help/mobile-activity).

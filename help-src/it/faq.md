@@ -1,375 +1,229 @@
 ---
 title: Domande frequenti
-description: Risposte veloci su configurazione, Cora Max, Cora Mobile, dispositivi, avvisi, Reef Buddy e Cora Assistant, lingue e account.
+description: Risposte brevi su cosa ti serve, Cora Max, usare Cora fuori casa, attrezzatura, avvisi, Reef Buddy, lingue, piani e i tuoi dati.
 section: Help
-reviewed: 2026-10-12
-order: 0
+reviewed: 2026-10-13
+order: 4
 ---
 
-Qui trovi prima la risposta breve, poi il link alla pagina completa. Se in realtà la tua domanda è "qualcosa non va", vai direttamente a [Risoluzione dei problemi](/help/troubleshooting).
+Risposte brevi, con i link alle pagine complete. Se qualcosa non funziona, vai direttamente a [Risoluzione dei problemi](/help/troubleshooting). Se vuoi i passaggi per un'attività, prova [Come faccio a...?](/help/how-do-i).
 
-## Per iniziare
+## Per cominciare
 
-### Cosa devo comprare per usare Cora?
+### Mi serve un Cora Max, o basta il telefono? {#do-i-need-a-cora-max}
 
-Per iniziare basta il telefono. Cora Mobile gestisce da solo vasche, dispositivi e avvisi. Cora Max è uno schermo a parete per la stanza della vasca, in più, ma non serve per forza.
+Non devi comprare niente per cominciare. Cora Mobile da sola segue le tue vasche, registra i test, invia avvisi e fa funzionare Cora Assistant.
 
-Trovi di più nella [Guida di Cora](/help/).
+Un Cora Max nella vasca aggiunge alcune cose. Senza, il telefono legge un dispositivo Neptune Apex, Red Sea o Jecod solo mentre Cora Mobile è aperta sullo stesso Wi-Fi. Un Cora Max li legge giorno e notte, tiene aggiornate le tue letture mentre sei via e passa i comandi che invii da lontano. Maxspect, GHL, EcoTech, Inkbird e le telecamere hanno bisogno di un Cora Max per funzionare (sono in Beta, vedi sotto). Di più in [Attrezzatura per marca](/help/equipment-by-brand).
 
-### Mi serve per forza Cora Max, o basta Cora Mobile?
+### Come aggiungo la mia prima vasca? {#how-do-i-add-my-first-tank}
 
-Basta Cora Mobile. Tutte le funzioni principali (vasche, dispositivi, dashboard, avvisi, dosaggio) nascono in Cora Mobile. Cora Max mostra le stesse vasche su uno schermo più grande, e in più ha la voce.
+Dopo la registrazione, Cora Mobile ti fa tre domande: un nome, il tipo di vasca e quanta acqua. Solo il nome è obbligatorio. Di più in [Configurare Cora Mobile](/help/mobile-setup).
 
-Trovi di più nella [Guida di Cora](/help/) e in [Configurare Cora Mobile](/help/mobile-setup).
+### Posso provare Cora prima di registrarmi? {#can-i-try-cora-before-i-sign-up}
 
-### Come aggiungo la prima vasca?
+Sì. Nella schermata di accesso, tocca **Esplora una barriera demo**. È una vasca di esempio, e non ti serve un account. Di più in [Configurare Cora Mobile](/help/mobile-setup).
 
-Cora Mobile ti guida passo passo. Crea l'account, poi aggiungi una vasca e rispondi alle domande del profilo. Dispositivi e dashboard vengono dopo, quando la vasca c'è già.
+### La mia vasca sta ancora facendo il ciclo. Cora può aiutarmi? {#my-tank-is-still-cycling}
 
-Trovi di più in [Configurare Cora Mobile](/help/mobile-setup).
+Sì. Tocca **Stai avviando una nuova vasca?** sulla dashboard per avviare il percorso di ciclaggio. La scheda compare solo su una vasca ancora senza letture, quindi fallo prima di registrare un test o collegare attrezzatura. Di più in [Percorsi guidati](/help/mobile-journeys).
 
-### Cos'è il "profilo della vasca" e perché fa tante domande?
+### Cosa vuol dire "profilo della vasca", e perché fa così tante domande? {#what-does-tank-profile-mean}
 
-Il profilo della vasca descrive il tuo sistema a grandi linee: dimensioni, tipo di acqua, popolazione, come dosi e come fai i test. Con queste risposte Cora imposta delle soglie di partenza sensate. Anche Reef Buddy e Cora Assistant le usano, così le loro risposte parlano della tua vasca e non di una vasca qualsiasi.
+Il profilo della vasca descrive il tuo impianto: dimensioni, popolazione, illuminazione, e come dosi e fai i test. Cora usa le tue risposte per impostare intervalli iniziali sensati, e per far parlare Reef Buddy e Cora Assistant della tua vasca invece che dei reef in generale. Puoi saltare qualsiasi sezione. Di più in [Il profilo della tua vasca](/help/mobile-tank-profile).
 
-Trovi di più in [Profilo della vasca](/help/mobile-tank-profile).
+### Quanto dura la configurazione? {#how-long-does-setup-take}
 
-### Quanto ci vuole per la configurazione?
-
-Una vasca senza attrezzatura si configura in pochi minuti. Con i dispositivi veri (sonde, controller, pompe) ci vuole di più, solo perché ognuno va associato a parte. Puoi sempre aggiungerne altri più avanti.
-
-Trovi di più in [Configurare Cora Mobile](/help/mobile-setup).
+Una vasca senza attrezzatura richiede pochi minuti. Ogni dispositivo ha bisogno del suo passaggio di associazione, quindi quella parte richiede di più. Puoi aggiungerne altri più avanti.
 
 ## Cora Max
 
-### Un Cora Max può mostrare più di una vasca?
+### Un Cora Max può mostrare più di una vasca? {#can-one-cora-max-show-more-than-one-tank}
 
-Sì. Un Cora Max può mostrare tutte le vasche del tuo account, una alla volta, e la Stanza barriera le mostra tutte insieme.
+Sì, fino a quattro. [La Reef Room](/help/max-reef-room) le mostra una accanto all'altra. Per più vasche, aggiungi un secondo Cora Max.
 
-Trovi di più in [La Stanza barriera](/help/max-reef-room).
+### Due schermi Cora Max possono mostrare la stessa vasca? {#can-two-cora-max-screens-show-the-same-tank}
 
-### Cos'è il "Cora Max principale" e devo impostarlo?
+Sì. Aggiungili entrambi alla stessa vasca e mostrano gli stessi dati in tempo reale. Il **Cora Max principale** decide solo quale dei due parla con l'attrezzatura della vasca. Di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
 
-Il Cora Max principale decide quale Cora Max parla con l'attrezzatura di una vasca. Quasi nessuno lo tocca mai. Se hai un solo Cora Max non c'è niente da scegliere, e l'impostazione predefinita, **Qualsiasi attivo (automatico)**, fa dividere il lavoro in automatico a tutti i Cora Max online. Scegli un Cora Max preciso solo se vuoi che sia uno solo a leggere l'attrezzatura.
+### Cos'è il "Cora Max principale", e devo impostarlo? {#what-is-primary-cora-max}
 
-Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
+Decide quale Cora Max legge l'attrezzatura di una vasca. La maggior parte delle persone non lo tocca mai. Con un solo Cora Max non c'è niente da scegliere. Il valore predefinito, **Qualsiasi attivo (automatico)**, lascia che ogni Cora Max online si divida il lavoro. Scegline uno preciso solo se vuoi che lo faccia un unico dispositivo. Di più in [Più di un dispositivo Cora](/help/mobile-multi-device#primary-cora-max).
 
-### Se ho più di un Cora Max, quale risponde a "Hey Cora"?
+### Quale dispositivo risponde a "Hey Cora" se ho più di un Cora Max? {#which-device-answers-hey-cora}
 
-Alla parola di attivazione risponde un solo dispositivo Cora alla volta. Lo scegli in Impostazioni, sotto **Cora Assistant**. È una scelta diversa dal Cora Max principale: una riguarda la voce, l'altra la comunicazione con la tua attrezzatura.
+Risponde un solo dispositivo Cora alla volta. Lo scegli in Cora Mobile in **Impostazioni → Cora Assistant**. Non ha niente a che fare con il Cora Max principale. Di più in [Parlare con Cora](/help/max-voice).
 
-Trovi di più in [La voce su Cora Max](/help/max-voice) e in [Più di un dispositivo Cora](/help/mobile-multi-device).
+### Perché Cora Mobile non trova il mio Cora Max quando provo ad associarlo? {#why-cant-cora-mobile-find-my-cora-max}
 
-### Cora Max ha bisogno di internet, o basta il Wi-Fi di casa?
+Un Cora Max nuovo si trova via Bluetooth. Attiva il Bluetooth, consenti a Cora di usarlo e mettiti vicino allo schermo. Ti serve anche almeno una vasca in Cora Mobile. Dopo il passo del Wi-Fi, il telefono parla con Cora Max via Wi-Fi, quindi resta sulla stessa rete finché l'associazione non finisce. Ogni messaggio di errore e la sua soluzione sono in [Risoluzione dei problemi](/help/troubleshooting#pairing-a-cora-max-fails).
 
-Cora Max usa il Wi-Fi di casa per raggiungere la tua attrezzatura. Per l'accesso, la sincronizzazione e l'Assistant deve raggiungere Cora Cloud, e per questo serve internet. L'indicatore di stato nella barra in alto ti dice quale connessione ha in quel momento.
+### Il telefono deve essere sullo stesso Wi-Fi del Cora Max? {#does-my-phone-need-the-same-wi-fi}
 
-Trovi di più in [La schermata Home di Cora Max](/help/max-tour).
+Solo mentre lo associ. Dopo, puoi usare Cora da qualsiasi posto. Alcune impostazioni proprie di un dispositivo richiedono comunque il telefono sulla rete di quel dispositivo.
 
-### Cora Max funziona anche se Cora Cloud non è raggiungibile?
+### Cora Max ha bisogno di internet, o solo del Wi-Fi di casa? {#does-cora-max-need-the-internet}
 
-Cora Max continua a mostrare gli ultimi dati che ha e continua a lavorare con l'attrezzatura sulla sua rete. Accesso, sincronizzazione tra dispositivi e Assistant però ripartono solo quando Cora Cloud torna raggiungibile.
+Di entrambi. Gli serve il Wi-Fi di casa per raggiungere la tua attrezzatura, e internet per raggiungere Cora Cloud per la sincronizzazione, gli altri dispositivi e l'Assistente. L'etichetta di stato nella barra in alto mostra quale dei due ha. Di più in [La schermata principale di Cora Max](/help/max-tour).
 
-Trovi di più in [La schermata Home di Cora Max](/help/max-tour) e in [Dispositivi e salute dei dispositivi](/help/max-devices).
+### Cosa succede se va giù internet? {#what-happens-if-my-internet-goes-down}
 
-### Posso spostare Cora Max su un'altra rete Wi-Fi più avanti?
+Cora Max e Cora Mobile continuano a mostrare gli ultimi dati che hanno e a lavorare con l'attrezzatura sulla loro rete. La sincronizzazione tra dispositivi, la voce e l'Assistente tornano quando torna la connessione.
 
-Sì, direttamente da Cora Max: collegalo alla nuova rete dalle sue impostazioni di rete. Vasche, dispositivi e account restano uguali. Cambia solo la connessione Wi-Fi.
+### Posso spostare Cora Max su una nuova rete Wi-Fi o un nuovo router? {#can-i-move-cora-max-to-a-new-wi-fi}
 
-Trovi di più in [Configurare Cora Max](/help/max-setup).
+Sì. Su Cora Max, collegati alla nuova rete in **Impostazioni → Impostazioni Cora Max → Wi-Fi**. Le tue vasche, i dispositivi e l'account restano gli stessi. L'attrezzatura sulla vecchia rete diventa irraggiungibile finché non si collega a quella nuova, quindi ricollega ogni dispositivo nel modo in cui l'avevi aggiunto la prima volta. Di più in [Configurare Cora Max](/help/max-setup).
 
 ## Cora Mobile
 
-### Perché Cora Mobile chiede l'accesso a Rete locale e Bluetooth?
+### Perché Cora Mobile chiede l'accesso alla Rete locale e al Bluetooth? {#why-local-network-and-bluetooth}
 
-Con l'accesso a Rete locale Cora Mobile trova e associa un Cora Max o l'attrezzatura Wi-Fi sulla rete di casa. Il Bluetooth serve per l'attrezzatura che si associa in quel modo. Senza questi permessi, durante l'associazione Cora Mobile non trova il dispositivo.
+Le serve l'accesso alla Rete locale per trovare l'attrezzatura Wi-Fi e raggiungere un Cora Max sulla rete di casa, e il Bluetooth per associare un Cora Max e l'attrezzatura che usa il Bluetooth. Senza, non trova il dispositivo. Di più in [Impostazioni di Cora Mobile](/help/mobile-settings).
 
-Trovi di più in [Impostazioni](/help/mobile-settings) e in [Risoluzione dei problemi](/help/troubleshooting).
+### Posso controllare la vasca quando non sono a casa? {#can-i-check-on-my-tank-away}
 
-### Due Cora Max possono mostrare la stessa vasca?
+Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz, e in Beta HYDROS e Focustronic, vengono letti attraverso il cloud del loro produttore, quindi continuano ad aggiornarsi in ogni caso. Le letture che registri a mano e lo storico della vasca ci sono sempre.
 
-Sì. Aggiungili tutti e due alla stessa vasca e vedrai gli stessi dati in tempo reale su entrambi. Il Cora Max principale decide solo quale dei due parla con l'attrezzatura, non chi può mostrare la vasca.
+### Posso comandare l'attrezzatura quando sono fuori casa? {#can-i-control-equipment-away}
 
-Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
+Sì, se un Cora Max nella vasca è online e può raggiungere quell'attrezzatura. Il tuo comando va a Cora Cloud e il Cora Max lo esegue. Senza un Cora Max, puoi comandare un dispositivo Neptune Apex, Red Sea o Jecod solo mentre il telefono è sulla sua rete. Di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
 
-### Posso controllare la vasca dal telefono quando non sono a casa?
+### Due persone possono usare la stessa vasca? {#can-two-people-use-the-same-tank}
 
-Sì. Letture e storico sono sempre disponibili attraverso Cora Cloud, ovunque tu sia. Alcune impostazioni del dispositivo (non le letture) si aprono solo quando il telefono è sulla stessa rete del dispositivo.
+Non c'è ancora un accesso condiviso tra due account separati. Una famiglia può accedere allo stesso account Cora su più di un telefono. Tutti vedono le stesse vasche, ricevono le stesse notifiche, e le modifiche valgono per tutto l'account. Per chi si occupa della vasca mentre sei via, [Andare in vacanza](/help/mobile-vacation) crea una pagina in sola lettura che non richiede un account. Un'[istantanea condivisa](/help/mobile-sharing) è solo un'immagine.
 
-Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
+### Come aggiungo un'altra vasca? {#how-do-i-add-another-tank}
 
-### Posso comandare l'attrezzatura, per esempio spegnere una pompa, quando sono fuori casa?
+In Cora Mobile, apri **Impostazioni** e tocca **Aggiungi vasca**. Poi sposta lì i suoi dispositivi, e aggiungila al tuo Cora Max se ne hai uno. Di più in [Gestire le tue vasche](/help/mobile-tanks).
 
-Per quasi tutta l'attrezzatura sì. Prese, modalità alimentazione e comandi simili passano da Cora Cloud, quindi funzionano anche lontano dalla rete della vasca. Alcune impostazioni proprie del dispositivo richiedono ancora che il telefono sia sul Wi-Fi della vasca.
+### Ho rimosso una vasca per sbaglio. Posso recuperarla? {#can-i-get-a-removed-tank-back}
 
-Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device) e in [Controllare la tua attrezzatura](/help/mobile-device-control).
+Sì. Rimuovere una vasca la nasconde soltanto. Apri **Impostazioni → Vasche rimosse** e tocca **Ripristina**. Letture, diario e dispositivi tornano com'erano. Se una vasca rimossa manda ancora avvisi, vedi [Risoluzione dei problemi](/help/troubleshooting#alerts-from-a-removed-tank).
 
-### Due persone possono usare la stessa vasca?
+## Attrezzatura
 
-Oggi Cora è pensato per un account per vasca. Se vuoi che un'altra persona veda la vasca o ti dia una mano, condividila con lei. Non entrare con lo stesso account su due telefoni.
+### Con quale attrezzatura funziona Cora? {#what-equipment-does-cora-work-with}
 
-Trovi di più in [Condivisione](/help/mobile-sharing).
+Neptune Apex (con DŌS e Trident), attrezzatura Red Sea ReefBeat, pompe Jecod e Jebao e il controller KH AquaWiz. In Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird e telecamere. Per tutto il resto, puoi registrare le letture a mano. Ogni marca, con i link alle sue pagine, è in [Attrezzatura per marca](/help/equipment-by-brand).
 
-## Dispositivi e integrazioni
+### Cosa vuol dire "Beta" per un'integrazione? {#what-does-beta-mean}
 
-### Con quale attrezzatura funziona Cora?
+La stiamo ancora testando e sviluppando. Alcune letture o alcuni comandi possono essere limitati, e quello che vedi può cambiare da un aggiornamento all'altro.
 
-Cora si collega a un elenco sempre più lungo di controller e attrezzatura, dai controller Wi-Fi alle pompe dosometriche e alle gyre. L'elenco aggiornato è nella pagina delle connessioni. Per tutto quello che Cora non collega direttamente, puoi registrare le letture a mano. Una parte è in Beta e viene mostrata solo agli utenti Beta.
+**Beta.** Le integrazioni Beta sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). Partecipare a un programma di test di uno store non lo attiva. Di più in [Funzioni Beta](/help/mobile-beta).
 
-Trovi di più in [Connessioni](/help/mobile-connections).
+### Perché una marca è disattivata con "Richiede Cora Max"? {#why-requires-cora-max}
 
-### Cora è affiliata a Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech o Inkbird?
+Quell'attrezzatura la legge Cora Max, non il telefono. Aggiungi prima un Cora Max alla vasca, e la marca si sblocca. Di più in [Attrezzatura per marca](/help/equipment-by-brand).
 
-No. Cora non è affiliata a nessun produttore di attrezzatura a cui si collega, non è approvata da loro e non è loro partner. Questo vale anche per Maxspect, GHL, HYDROS, Focustronic, EcoTech e Inkbird, le cui integrazioni sono in Beta. Cora si collega ai loro account pubblici, alle loro API ufficiali o ai protocolli della rete locale. Un aggiornamento dell'app o del firmware del produttore può cambiare o interrompere la connessione in qualsiasi momento, dal loro lato e senza preavviso.
+### Cora è affiliata a Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech o Inkbird? {#is-cora-affiliated}
 
-Trovi di più in [Connessioni](/help/mobile-connections).
+No. Cora non è affiliata, approvata o in partnership con nessun produttore a cui si collega. Cora usa i loro account pubblici, le API ufficiali o i protocolli di rete locale. Un aggiornamento dell'app o del firmware del produttore può cambiare o interrompere quel collegamento in qualsiasi momento, senza preavviso. Di più in [Collegare la tua attrezzatura](/help/mobile-connections).
 
-### Cosa vuol dire che un'integrazione è "Beta"?
+### Il telefono non ha trovato niente quando ho cercato l'attrezzatura. Perché? {#search-found-nothing}
 
-Vuol dire che la stiamo ancora testando e sviluppando. Alcune letture o alcuni comandi possono essere limitati, e quello che vedi può cambiare da un aggiornamento all'altro. Oggi Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird e le telecamere (con il controllo dello schiumatoio) sono in Beta.
+Controlla che l'attrezzatura sia accesa e già configurata nell'app del produttore, se ne ha bisogno. Poi controlla che il telefono consenta a Cora l'accesso alla Rete locale e al Bluetooth. Cora non può trovare un'attrezzatura che non si è mai collegata alla tua rete. Di più in [Risoluzione dei problemi](/help/troubleshooting#a-device-cannot-be-reached).
 
-Le integrazioni Beta sono aperte solo agli utenti Beta. Se non lo sei, non le vedi in **Aggiungi dispositivo**. Per chiedere l'accesso Beta, contatta il [supporto](/support.html). Partecipare a un programma di test di uno store non lo attiva. Trovi di più in [Funzioni Beta](/help/mobile-beta).
+### È sicuro lasciare che Cora comandi la mia pompa dosometrica? {#is-it-safe-to-let-cora-dose}
 
-Se qualcosa non funziona come descritto nella guida, scrivici da [Ottenere assistenza](/help/mobile-support).
+Cora dosa solo quello che hai impostato: un prodotto, una quantità e un programma che definisci tu, entro i limiti che imposti per ogni testa. Se una dose si ferma a metà, Cora genera un avviso che lo dice, e ti dice quanto è entrato quando può saperlo. Leggilo prima di dare per scontato che sia entrata tutta la dose. Di più in [Controllare la tua attrezzatura](/help/mobile-device-control) e [Risoluzione dei problemi](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared).
 
-### Perché Cora Mobile non trova il mio Cora Max quando provo ad associarlo?
+### Come fa Cora a sapere quanto è concentrato il mio prodotto di dosaggio? {#how-strong-is-my-dosing-product}
 
-Quasi sempre è colpa del Wi-Fi. Per l'associazione il telefono e Cora Max devono essere sulla stessa rete, e su iPhone Cora ha bisogno anche dell'accesso a Rete locale. Cora Mobile ti mostra quale passo dell'associazione non è riuscito e ti propone **Riprova**.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Il telefono deve essere sullo stesso Wi-Fi di Cora Max?
-
-Per associarlo sì. Dopo l'associazione, nell'uso di tutti i giorni funziona da dove vuoi attraverso Cora Cloud. Solo poche impostazioni proprie del dispositivo richiedono che il telefono torni su quel Wi-Fi.
-
-Trovi di più in [Più di un dispositivo Cora](/help/mobile-multi-device) e in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Cosa succede se cambio router o nome della rete Wi-Fi?
-
-L'attrezzatura e i Cora Max collegati a quella rete non si raggiungono più finché non li colleghi alla nuova rete o al nuovo nome. Collega di nuovo ogni dispositivo come hai fatto la prima volta.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Ho cercato l'attrezzatura e non è stato trovato niente. Cosa c'è che non va?
-
-Controlla che l'attrezzatura sia accesa e, se serve, già configurata nell'app del produttore. Controlla anche che il telefono abbia i permessi per Rete locale e Bluetooth. Un dispositivo che non è mai entrato nella tua rete non si trova finché non ci entra.
-
-Trovi di più in [Impostazioni](/help/mobile-settings) e in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Perché le letture del mio dispositivo Red Sea si sono fermate?
-
-Quando nessun dispositivo sulla rete di quella vasca sta leggendo la tua attrezzatura Red Sea, Cora mostra un banner che lo dice. Controlla il Cora Max principale in Impostazioni, oppure apri la vasca da un dispositivo collegato allo stesso Wi-Fi dell'attrezzatura Red Sea.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting) e in [Più di un dispositivo Cora](/help/mobile-multi-device).
-
-### Perché dice "Impossibile raggiungere la pompa" quando provo a comandare la mia pompa Jecod?
-
-Il comando non è arrivato alla pompa. Di solito la pompa è spenta, non è sulla sua rete o (se è solo Bluetooth) è troppo lontana. Controlla alimentazione e connessione, avvicinati se si collega via Bluetooth e riprova.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Perché il programma della gyre non si applica?
-
-L'invio di un programma a una gyre può fallire come un comando qualsiasi: la gyre non ha risposto. Controlla che sia accesa e sulla sua rete, poi riprova dalla schermata del programma.
-
-Trovi di più in [Programmare l'attrezzatura](/help/mobile-schedules) e in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Posso lasciare che Cora comandi da sola la mia pompa dosometrica?
-
-Cora dosa solo quello che imposti tu: il prodotto, la concentrazione e il programma li decidi tu. Se una dose si interrompe a metà, Cora genera un avviso apposito e non dà per scontato che sia finita. Così non ti ritrovi con una dose troppo bassa o troppo alta senza saperlo.
-
-Trovi di più in [Dosaggio](/help/mobile-dosing) e in [Controllare la tua attrezzatura](/help/mobile-device-control).
-
-### Cosa succede se una dose si interrompe a metà?
-
-Cora genera un avviso che ti dice che la dose non è finita e, quando riesce a saperlo, quanto liquido è stato erogato davvero. Leggi l'avviso prima di dare per scontato che la dose sia completa, poi riprendi o correggi da lì.
-
-Trovi di più in [Controllare la tua attrezzatura](/help/mobile-device-control).
-
-### Come fa Cora a sapere quanto è concentrato il mio prodotto?
-
-Lo prende da una libreria interna di sali e prodotti per il dosaggio con i valori pubblicati, oppure dalla concentrazione che scrivi tu quando aggiungi un tuo prodotto.
-
-Trovi di più in [Dosaggio](/help/mobile-dosing).
+Viene dalla libreria di prodotti integrata, che elenca sali e prodotti di dosaggio con i loro valori pubblicati. Se aggiungi un prodotto tuo, la concentrazione la inserisci tu. Di più in [Dosaggio](/help/mobile-dosing).
 
 ## Avvisi e notifiche
 
-### Perché non mi arriva nessuna notifica?
+### Perché non ricevo nessuna notifica? {#why-no-notifications}
 
-In **Impostazioni → Notifiche** controlla che la categoria dell'avviso possa inviare notifiche. Poi controlla nelle impostazioni del telefono che Cora abbia il permesso per le notifiche. Il briefing del giorno, poi, nei giorni in cui non è cambiato niente non manda notifiche. È normale, non è un guasto.
+Di solito una categoria è spenta in **Impostazioni → Notifiche**, oppure il telefono non permette le notifiche di Cora. I passaggi sono in [Risoluzione dei problemi](/help/troubleshooting#im-not-getting-notifications).
 
-Trovi di più in [Notifiche](/help/mobile-notifications) e in [Risoluzione dei problemi](/help/troubleshooting).
+### Perché il mio widget è grigio? {#why-is-my-widget-grey}
 
-### Perché un avviso non si chiude anche se la lettura sembra a posto?
+Cora non lo sta valutando: il suo avviso è spento, non ha un intervallo, oppure la lettura è troppo vecchia. Vedi [Risoluzione dei problemi](/help/troubleshooting#a-widget-is-grey).
 
-Può darsi che la lettura sia ancora fuori intervallo (guarda il suo storico), che la soglia non sia adatta alla tua vasca, o che sia la fonte a dare un numero fuori intervallo (spesso una sonda da calibrare). Di solito conviene sistemare la fonte, non la soglia.
+### Posso fermare le notifiche di notte? {#can-i-stop-notifications-at-night}
 
-Trovi di più in [Avvisi e soglie](/help/mobile-alerts) e in [Risoluzione dei problemi](/help/troubleshooting).
+Cora Mobile non ha ore di silenzio sue. Usa la modalità Full immersion o Non disturbare del telefono, e fai passare Cora se vuoi comunque gli avvisi urgenti. Su Cora Max, **Attenuazione notturna** abbassa la luminosità dello schermo di notte, e puoi spegnere **Suono degli avvisi** in **AUDIO E VOCE** in **Impostazioni → Impostazioni Cora Max**. Di più in [Notifiche](/help/mobile-notifications#quiet-at-night).
 
-### Come zittisco un avviso per un po' senza disattivarlo?
+### Come silenzio un avviso per un po' senza spegnerlo? {#how-do-i-silence-an-alert}
 
-Su Cora Max tocca **Rinvia**. Zittisce quell'avviso su quello schermo per il tempo di attesa impostato nella regola di avviso. L'avviso resta aperto e la sua soglia non cambia. Sul telefono, invece, imposta un'**Attesa tra gli avvisi** più lunga nella regola.
+Su Cora Max, tocca **Rinvia**. Silenzia quell'avviso su quello schermo per l'**Attesa tra gli avvisi** della regola (fino a 1 settimana). L'avviso resta aperto e il suo intervallo non cambia. Sul telefono, imposta invece un'**Attesa tra gli avvisi** più lunga sulla regola. Di più in [Avvisi e soglie](/help/mobile-alerts).
 
-Trovi di più in [Avvisi e soglie](/help/mobile-alerts).
+### Che differenza c'è tra Rinvia e Ignora? {#snooze-or-dismiss}
 
-### Che differenza c'è tra rinviare un avviso e ignorarlo?
+Sono entrambi su Cora Max e riguardano solo quello schermo. **Rinvia** silenzia lì l'avviso per un po', e torna se il problema c'è ancora quando finisce il rinvio. **Ignora** lo chiude lì finché la lettura non torna nell'intervallo. Se il problema ritorna più avanti, ricevi un nuovo avviso.
 
-Sono tutti e due su Cora Max e agiscono solo su quello schermo. **Rinvia** lì zittisce l'avviso per un po', e l'avviso torna se alla fine del rinvio il problema c'è ancora. **Ignora** lì lo chiude finché la lettura non torna nell'intervallo. Se più avanti il problema si ripresenta, ricevi un nuovo avviso.
+### Perché ho ricevuto un avviso sul telefono ma non su Cora Max, o viceversa? {#alert-on-phone-not-on-cora-max}
 
-Trovi di più in [Avvisi e soglie](/help/mobile-alerts).
-
-### Posso scegliere per quanto tempo rinviare un avviso? Il massimo è una settimana?
-
-Il rinvio dura quanto l'**Attesa tra gli avvisi** della regola, che imposti in Cora Mobile. Il massimo è 1 settimana.
-
-Trovi di più in [Avvisi e soglie](/help/mobile-alerts).
-
-### Perché ho ricevuto un avviso sul telefono ma non su Cora Max, o il contrario?
-
-Gli interruttori in **Impostazioni → Notifiche** di Cora Mobile appartengono al tuo account e valgono su ogni telefono su cui hai fatto l'accesso. Cora Max non ha interruttori per le notifiche. Mostra ogni avviso a parete, a meno che tu non l'abbia rinviato o ignorato su quello schermo. Se il telefono resta muto, controlla che la categoria sia attiva e che il telefono consenta le notifiche di Cora.
-
-Trovi di più in [Notifiche](/help/mobile-notifications) e in [Avvisi su Cora Max](/help/max-alerts).
+Gli interruttori in **Impostazioni → Notifiche** appartengono al tuo account, quindi valgono su ogni telefono su cui hai effettuato l'accesso. Cora Max mostra ogni avviso, a meno che gli avvisi a schermo non siano spenti per quello schermo (sul telefono, **Dispositivi**, il tuo Cora Max, **Avvisi**), o che tu l'abbia rinviato o ignorato lì. Di più in [Avvisi su Cora Max](/help/max-alerts).
 
 ## Reef Buddy e Cora Assistant
 
-### Cosa posso chiedere a Cora, e cosa non può fare?
+### Cos'è Reef Buddy, e in cosa è diverso dall'Assistente? {#reef-buddy-or-assistant}
 
-Cora Assistant risponde a domande su letture, storico, dosaggio e diario della tua vasca. Può anche fare azioni sull'attrezzatura che gli chiedi a voce o per iscritto. Non può fare niente su cui non ha dati o connessione, e in quel caso te lo dice senza tirare a indovinare.
+Reef Buddy è il tuo briefing giornaliero, scritto per te senza che tu lo chieda. Ha un titolo, due punteggi e i punti che ci stanno dietro. Cora Assistant è a cui fai domande, quando vuoi, scrivendo o parlando. Di più in [Reef Buddy](/help/mobile-reef-buddy).
 
-Trovi di più in [L'Assistant](/help/mobile-assistant).
+### Perché il mio briefing si è fermato, o perché la mia seconda vasca non lo riceve? {#why-did-my-briefing-stop}
 
-### Cora può davvero comandare l'attrezzatura, o mi dà solo informazioni?
+Reef Buddy fa parte dei piani a pagamento e della prova di 30 giorni. Ogni piano copre un certo numero di vasche, contate nell'ordine di **Impostazioni → Riordina vasche**. In un giorno in cui non è cambiato niente, il briefing resta in silenzio. Di più in [Risoluzione dei problemi](/help/troubleshooting#my-daily-briefing-stopped).
 
-Tutte e due le cose. Se gli fai una domanda, risponde in base ai dati della tua vasca. Se gli chiedi di fare qualcosa (per esempio avviare la modalità alimentazione) e l'attrezzatura lo permette, lo fa.
+### Cosa posso chiedere a Cora, e cosa può fare? {#what-can-i-ask-cora}
 
-Trovi di più in [L'Assistant](/help/mobile-assistant) e in [La voce su Cora Max](/help/max-voice).
+Chiedi delle letture, dello storico, del dosaggio, dei risultati di laboratorio e del diario della tua vasca. Cora può anche fare cose per te, come registrare un test o accendere e spegnere l'attrezzatura, e ti chiede prima di confermare. Ti dice quando non ha dati o connessione per qualcosa, invece di tirare a indovinare. Di più in [Fare domande a Cora](/help/mobile-assistant) e [Parlare con Cora](/help/max-voice).
 
-### Cora si ricorda cosa gli ho detto l'ultima volta?
+### Cora si ricorda quello che le ho detto l'ultima volta? {#does-cora-remember}
 
-Sì, nei limiti spiegati nella pagina dell'Assistant. Può usare quello che sa già della tua vasca, così non devi ripetere tutto ogni volta.
+Sì, entro i limiti spiegati nella pagina [Fare domande a Cora](/help/mobile-assistant). Può usare il contesto precedente sulla tua vasca, così non devi ripeterti.
 
-Trovi di più in [L'Assistant](/help/mobile-assistant).
+### Perché Cora mi ha dato una risposta sbagliata o strana? {#why-a-wrong-answer}
 
-### Perché Cora mi ha dato una risposta sbagliata o strana?
-
-Cora Assistant risponde in base ai dati che ha sulla vasca selezionata. Le cause più comuni sono la vasca sbagliata, letture mancanti o una domanda poco chiara. Riformula la domanda o controlla quale vasca hai scelto, e riprova.
-
-Trovi di più in [L'Assistant](/help/mobile-assistant).
-
-### Cos'è Reef Buddy, e in cosa è diverso dall'Assistant?
-
-Reef Buddy è il tuo briefing del giorno, che ricevi senza chiederlo: un titolo, due punteggi e gli insight da cui nascono. A Cora Assistant invece fai domande quando vuoi, scrivendo o a voce.
-
-Trovi di più in [Reef Buddy](/help/mobile-reef-buddy) e nel [Glossario](/help/glossary).
+Cora risponde partendo dai dati che ha per la vasca che hai selezionato. Le cause più comuni sono la vasca sbagliata, letture mancanti o una domanda che può voler dire due cose. Controlla il selettore della vasca o riformula, e riprova.
 
 ## Lingue
 
-### Che lingua parla Cora? In famiglia possiamo usarne una diversa a testa?
+### Quali lingue parla Cora? {#which-languages}
 
-Cora usa una sola lingua per tutto l'account, non una per persona o per dispositivo. Chi entra con quell'account vede la stessa lingua ovunque.
+Inglese, tedesco, francese, turco, italiano, spagnolo e polacco. Cora usa una sola lingua per tutto l'account, quindi chiunque abbia effettuato l'accesso a quell'account vede la stessa lingua su ogni dispositivo. Di più in [Impostazioni di Cora Mobile](/help/mobile-settings).
 
-Trovi di più in [Impostazioni](/help/mobile-settings) e nel [Glossario](/help/glossary).
+### Ho cambiato la lingua sul telefono. Perché è cambiata anche sul mio Cora Max? {#language-changed-everywhere}
 
-### Ho cambiato la lingua sul telefono. Perché è cambiata anche su Cora Max?
+La lingua è un'impostazione dell'account. Cambiala sul telefono o su qualsiasi Cora Max e cambia ovunque in pochi istanti.
 
-Perché la lingua è un'impostazione dell'account, non del dispositivo. Se la cambi da un punto qualsiasi (il telefono o un Cora Max), dopo pochi istanti cambia ovunque.
+### I vecchi report e avvisi verranno tradotti? {#are-old-reports-translated}
 
-Trovi di più in [Impostazioni](/help/mobile-settings) e nel [Glossario](/help/glossary).
-
-### Dopo il cambio di lingua, i vecchi rapporti e avvisi vengono tradotti?
-
-No, ed è normale. Quello che esisteva già resta nella lingua in cui è stato scritto. Solo i nuovi avvisi, rapporti e briefing di Reef Buddy arrivano nella nuova lingua.
-
-Trovi di più in [Impostazioni](/help/mobile-settings) e nel [Glossario](/help/glossary).
+No. Quello che è già stato scritto resta nella lingua originale. I nuovi avvisi, report e briefing di Reef Buddy usano la nuova lingua.
 
 ## Account, piani e privacy
 
-### Cosa è gratis per sempre, e cosa richiede un abbonamento?
+### Cosa è gratis, e cosa richiede un piano? {#whats-free}
 
-I piani attuali, i loro limiti e cosa comprende ognuno li trovi nella pagina Piani dentro Cora Mobile e nella pagina della guida sui Piani. Guarda lì, perché i piani possono cambiare e un numero scritto qui potrebbe non essere aggiornato.
+Vedi [Piani e abbonamenti](/help/mobile-plans) per cosa comprende ogni piano.
 
-Trovi di più in [Piani](/help/mobile-plans).
+### Il piano Max è la stessa cosa di Cora Max? {#max-plan-or-cora-max}
 
-### Cosa succede ai miei dati quando finisce la prova gratuita o l'abbonamento?
+No. Il piano **Max** è un abbonamento in Cora Mobile. Cora Max è lo schermo a parete. Non ti serve l'uno per avere l'altro.
 
-Lo storico della vasca non viene cancellato. Cambiano solo le funzioni che puoi ancora usare. Cosa comprende ogni livello lo trovi nella pagina Piani.
+### Cosa succede allo storico della mia vasca se finisce la prova o il piano? {#history-when-plan-ends}
 
-Trovi di più in [Piani](/help/mobile-plans).
+Non viene eliminato nulla. Le tue vasche, i dispositivi e lo storico restano nel tuo account con qualsiasi piano. Cambiano solo le funzioni che puoi usare.
 
-### Se elimino l'account Cora, si annulla anche l'abbonamento Apple o Google?
+### Eliminare il mio account Cora annulla l'abbonamento Apple o Google? {#does-deleting-cancel-subscription}
 
-No. Eliminare l'account Cora non annulla un abbonamento comprato dall'App Store o da Google Play. Quello va annullato a parte, con Apple o con Google.
+No. Annulla anche l'abbonamento con Apple o Google. La conferma di **Elimina account** ha un pulsante **Gestisci abbonamento** apposta. Di più in [Esportare i tuoi dati ed eliminare l'account](/help/mobile-data-export).
 
-Trovi di più in [Impostazioni](/help/mobile-settings).
+### Come cambio email o password? {#change-email-or-password}
 
-### Posso cambiare o annullare il piano senza perdere lo storico della vasca?
+Per cambiare la password, esci e usa **Password dimenticata?** nella schermata di accesso. Per cambiare l'email dopo averla verificata, contatta l'assistenza. Se accedi con Apple o Google, cambiale con Apple o Google. Di più in [Accesso e recupero dell'account](/help/mobile-account).
 
-Sì. Vasche, dispositivi e storico restano nel tuo account qualunque piano tu scelga. Cambiano solo le funzioni che puoi usare.
+### Cosa fa Cora con i dati della mia vasca? {#what-does-cora-do-with-my-data}
 
-Trovi di più in [Piani](/help/mobile-plans).
+Cora li usa per mostrarti le letture, far funzionare gli avvisi e alimentare Reef Buddy e Cora Assistant. Cosa viene conservato e come può essere usato è in [Esportare i tuoi dati ed eliminare l'account](/help/mobile-data-export), in [Impostazioni di Cora Mobile](/help/mobile-settings) e nell'informativa sulla privacy.
 
-### Cosa fa Cora con i dati della mia vasca?
+### Posso avere una copia di tutto quello che Cora ha conservato sulla mia vasca? {#can-i-get-a-copy}
 
-Cora li usa per mostrarti le letture, per far funzionare avvisi e soglie, e per Reef Buddy e Cora Assistant. Cosa viene conservato e come può essere usato lo spiegano le pagine sull'esportazione dei dati e sulle impostazioni, e l'informativa sulla privacy.
-
-Trovi di più in [I tuoi dati](/help/mobile-data-export) e in [Impostazioni](/help/mobile-settings).
-
-### Posso avere una copia di tutto quello che Cora ha salvato sulla mia vasca?
-
-Sì, puoi esportarla da Cora Mobile. Cosa contiene l'esportazione e come chiederla lo trovi nella pagina sull'esportazione dei dati.
-
-Trovi di più in [I tuoi dati](/help/mobile-data-export).
-
-### Se elimino l'account, sparisce davvero tutto?
-
-Eliminando l'account i tuoi dati vengono cancellati come spiegato nella pagina Impostazioni, compresa la scelta sul contributo di dati anonimi. Se vuoi il dettaglio preciso, leggi quella pagina prima di eliminare l'account.
-
-Trovi di più in [Impostazioni](/help/mobile-settings).
-
-## Problemi comuni
-
-### Perché un widget non mostra nessun valore?
-
-Di solito è un problema di connessione, non un parametro che manca. Guarda se anche i widget vicini hanno lo stesso problema, poi controlla la riga del dispositivo in **Dispositivi**.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Perché una lettura dice che è di un'ora fa?
-
-L'età indicata è giusta: non è arrivato niente di più recente. Alcuni dispositivi sono lenti di natura (per esempio un titolatore che misura ogni ora). Per tutto il resto, controlla la riga del dispositivo in **Dispositivi**.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Il mio dispositivo dice "accesso rifiutato". Cosa faccio?
-
-L'account del produttore ha rifiutato l'accesso salvato, quasi sempre perché la password è cambiata dalla loro parte. Apri la riga del dispositivo e accedi di nuovo.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting).
-
-### Perché Cora Max mostra dati vecchi anche se dice "Online"?
-
-**Online** e **Cloud** vogliono dire tutti e due che lo schermo funziona. Se l'indicatore mostra uno dei due e i dati sono comunque vecchi, il problema non è in Cora Max ma prima. Controlla la stessa vasca sul telefono.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting) e in [La schermata Home di Cora Max](/help/max-tour).
-
-### Perché la sonda e il kit di test non sono d'accordo?
-
-Cora ti sta segnalando una differenza reale, non un guasto. Calibra la sonda, rifai il test con reagente fresco e confronta i due valori nelle stesse condizioni. Un risultato ICP può darti un terzo dato.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting) e in [ICP e rapporti di salute](/help/mobile-icp-health).
-
-### Cosa succede se cade la connessione internet?
-
-Cora Max e Cora Mobile continuano a mostrare gli ultimi dati ricevuti e a lavorare con l'attrezzatura che è già sulla loro rete. Accesso, sincronizzazione e Assistant tornano quando torna la connessione.
-
-Trovi di più in [Risoluzione dei problemi](/help/troubleshooting) e in [La schermata Home di Cora Max](/help/max-tour).
-
-### Cora funziona senza internet?
-
-In parte. Le letture già arrivate e il controllo dell'attrezzatura sulla stessa rete locale continuano a funzionare. Accesso, sincronizzazione tra dispositivi, archiviazione su Cora Cloud e Assistant hanno bisogno di internet.
-
-Trovi di più in [La schermata Home di Cora Max](/help/max-tour) e in [Risoluzione dei problemi](/help/troubleshooting).
+Sì, puoi esportarlo da Cora Mobile. [Esportare i tuoi dati](/help/mobile-data-export) spiega cosa comprende l'esportazione.
 
 ---
 
-Non hai trovato la risposta? In [Risoluzione dei problemi](/help/troubleshooting) trovi le soluzioni divise per sintomo, oppure scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.
+Ancora non trovi la risposta? [Risoluzione dei problemi](/help/troubleshooting) passa in rassegna le soluzioni sintomo per sintomo, oppure scrivi a **[cora@coraiq.tech](mailto:cora@coraiq.tech)**.

@@ -2,25 +2,27 @@
 title: Scheduling equipment
 description: Build a day program for a Jecod pump and copy it between pumps, and view a Maxspect gyre's schedule (Beta).
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 12
+reviewed: 2026-10-13
+order: 14
 group: Equipment
 ---
 
-Pumps and gyres can run a **day program**. It's a set of periods, each with its own intensity, that repeats every day. Cora can build these for Jecod pumps. You can view a Maxspect gyre's schedule *(Beta)* here, but you set it in the Maxspect app. Maxspect is only open to Beta users. See [Beta features](/help/mobile-beta).
+Use this page to give a Jecod pump a **day program**: a set of periods, each with its own intensity, that repeats every day. Open it from **Devices** → tap the pump.
 
-Open the device from the **Devices** tab.
+You can also view a Maxspect gyre's schedule *(Beta)* the same way, but you set it in the Maxspect app. Maxspect is only open to Beta users. See [Beta features](/help/mobile-beta). Lights and pumps from other brands keep their schedules in their own pages: [EcoTech](/help/mobile-ecotech) *(Beta)*, and Red Sea's ReefRun and ReefDose in [Controlling your equipment](/help/mobile-device-control#red-sea).
 
-![A pump schedule](img/mobile-schedules.webp "The day graph across 0–24 hours, with each period listed below it.")
+![A Jecod pump page in Cora Mobile with Schedule picked](img/mobile-schedules.webp "Schedule picked at the top, the feeding pause, then the day graph.")
 
-## Same all day, or Schedule
+## Same all day, or Schedule {#same-all-day-or-schedule}
 
 A pump runs in one of two modes. Pick one at the top of its page.
 
 - **Same all day** runs at one intensity the whole time.
 - **Schedule** follows a day program made of periods.
 
-Cora sends your choice to the pump. If your phone isn't on the pump's network, it goes through the Cora Max at the tank. A Bluetooth pump has to be in range. Until it is, your choice only changes what you see on screen.
+Cora sends your choice straight to the pump when your phone is on its network. If your phone isn't, it goes through the Cora Max at the tank. A Bluetooth pump has to be in range. Until it is, your choice only changes what you see on screen.
+
+A feeding pause takes the pump off its schedule for a while, and on your phone the schedule comes back only while the pump's page stays open. See [Feeding pause](/help/mobile-device-control#jecod-feeding).
 
 ## The schedule editor
 
@@ -58,6 +60,8 @@ When your phone isn't on the pump's network, Cora Mobile goes through the Cora M
 - **Same all day** and **Schedule** switch the pump through that Cora Max.
 - A period you add or change only goes through if that Cora Max has reached the pump in the last hour. If it hasn't, the schedule tells you, and you can't change it from where you are.
 - **Copy schedule to…**, **Save schedule as…**, **Saved schedules…**, **Share this schedule** and **Paste a schedule code…** need your phone on the pump's network. Until it is, they're greyed out and the menu tells you why.
+
+Without a Cora Max at the tank, you can only change a pump while your phone is on its network. More in [Connecting your equipment](/help/mobile-connections#local-only).
 
 You can only reach a Bluetooth pump from a phone close to it. Stand in range to switch it, change its schedule or use any of those menu items.
 

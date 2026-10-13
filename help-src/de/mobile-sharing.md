@@ -1,39 +1,41 @@
 ---
 title: Dein Becken teilen
-description: Erstell eine Karte zum Teilen, die zeigt, wie es deinem Becken gerade geht.
+description: Ein Bild der Messwerte deines Beckens mit einer Schnappschuss-Karte in sozialen Medien oder mit einem Freund teilen.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 27
+reviewed: 2026-10-13
+order: 10
 group: Your dashboard
 ---
 
-Cora kann einen **Beckenschnappschuss** für dich erstellen. Das ist eine einzelne Karte mit den aktuellen Wasserwerten deines Beckens, fertig zum Teilen.
+Cora kann einen **Beckenschnappschuss** machen: ein Bild der aktuellen Wasserwerte deines Beckens, aufbereitet für soziale Medien oder eine Nachricht an einen Freund.
 
-## Einen Schnappschuss erstellen
+## Einen erstellen {#creating-one}
 
-Tippe auf dem Dashboard in der Kopfzeile des Beckens auf das Symbol **Teilen**. Cora baut die Karte und zeigt dir eine Vorschau, bevor irgendetwas verschickt wird.
+Tippe auf dem Dashboard in der Beckenkopfzeile auf das Teilen-Symbol. Du kannst auch oben in einem Gesundheitsbericht auf das Kamerasymbol tippen. **Beckenschnappschuss** öffnet sich mit einer Vorschau der Karte, und es wird nichts gesendet, bis du wählst, wohin sie geht.
 
-![Das Beckenschnappschuss-Formular](img/mobile-sharing.webp "Wähle, welche Wasserwerte erscheinen, und die Form der Karte.")
+![Das Fenster Beckenschnappschuss](img/mobile-sharing.webp "Wähl, welche Werte erscheinen, und die Form der Karte.")
 
-## Was auf der Karte steht
+## Was sie enthält {#what-it-contains}
 
-Auf der Karte stehen Name, Alter und Typ deines Beckens und wie viele Tiere darin leben. Darunter folgen die Wasserwerte, die du ausgewählt hast, jeweils mit aktuellem Wert und dem jüngsten Verlauf.
+Die Karte zeigt Name, Alter, Typ und Zahl der Besatztiere deines Beckens, dazu seine Gesundheitsbewertung, wenn es eine aktuelle gibt. Darunter stehen die Werte, die du ausgewählt hast, jeweils mit aktuellem Wert und jüngstem Trend.
 
-## Auswählen, was draufkommt
+## Auswählen, was erscheint {#choosing-what-appears}
 
-Unter **Wasserwerte auf der Karte** steht jeder Wasserwert des Beckens als Chip. Hak die an, die auf die Karte sollen, oder tippe auf **Alle auswählen**. Drei oder vier lesen sich am besten. Bei mehr wird es auf der Karte eng.
+**Wasserwerte auf der Karte** zeigt einen Chip für jeden Wasserwert mit Messwerten aus der letzten Woche. Tippe auf Chips, um sie hinzuzufügen oder zu entfernen. **Alle auswählen** schaltet alle ein, und sind alle eingeschaltet, wird die Taste zu **Zurücksetzen**, das zur Startauswahl zurückkehrt. Drei oder vier sehen am besten aus. Mit mehr wird die Karte eng. Die Karte behält immer mindestens einen.
 
-## Format
+Dieses Handy merkt sich deine Auswahl für dieses Becken beim nächsten Mal.
 
-Es gibt zwei Formate:
+## Form {#shape}
 
-- **Quadratisch (1:1)** für einen Beitrag oder eine Nachricht
-- **Story (9:16)** für eine Story im Vollbild
+Es gibt zwei Formate.
 
-## Verschicken
+- **Quadratisch** (1:1) ist für einen Beitrag oder eine Nachricht.
+- **Story** (9:16) ist für eine Story im Vollbild.
 
-Mit **Teilen** übergibst du die Karte an das normale Teilen-Menü deines Handys. Du kannst sie also überallhin schicken, wohin dein Handy Bilder senden kann. Solange du kein Ziel auswählst, verlässt nichts dein Konto.
+## Verschicken {#sending-it}
+
+**Teilen** öffnet das übliche Teilen-Menü deines Handys, du kannst die Karte also überallhin schicken, wohin dein Handy ein Bild schicken kann. Nichts verlässt dein Konto, bis du wählst, wohin es geht.
 
 :::note Ein Schnappschuss gibt keinen Zugang
-Teilst du einen Schnappschuss, bekommt niemand Zugang zu deinem Konto, deiner Historie oder deiner Ausrüstung. Soll sich jemand um dein Becken kümmern, während du weg bist, nimm stattdessen [Verreisen](/help/mobile-vacation). Damit erstellst du eine Seite, die man nur lesen kann.
+Ein Schnappschuss ist nur ein Bild. Er lässt niemanden in dein Konto, deinen Verlauf oder an deine Ausrüstung. Kümmert sich jemand um das Becken, während du weg bist, nutze [Verreisen](/help/mobile-vacation). Das erstellt eine Seite nur zum Lesen für diese Person.
 :::

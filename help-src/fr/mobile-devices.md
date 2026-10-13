@@ -1,88 +1,102 @@
 ---
 title: Ajouter, modifier et retirer des appareils
-description: Ajouter un équipement à Cora, le rattacher à un aquarium et le retirer proprement, le tout depuis un seul endroit.
+description: Ajoutez un équipement à Cora, attribuez-le à un aquarium, renommez-le, vérifiez qu’il fonctionne bien et retirez-le, le tout depuis l’onglet Appareils.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 11
 group: Equipment
+twin: max-devices
 ---
 
-Ajoutez, modifiez, rattachez et retirez chaque appareil depuis l’onglet **Appareils**, classé par marque. Chaque groupe peut se replier, pour que la liste reste lisible même avec beaucoup d’équipement.
+L’onglet **Appareils** est l’endroit où vous ajoutez, attribuez, renommez, vérifiez et retirez chaque équipement. Les appareils sont regroupés par marque, et vous pouvez replier chaque groupe.
 
 ![L’onglet Appareils](img/mobile-devices.webp "L’équipement est regroupé par marque. Chaque groupe se replie.")
 
-## Ajouter un équipement
+## Ajouter un équipement {#adding-equipment}
 
-Touchez **Ajouter un appareil**, puis choisissez la marque\xa0: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** ou **AquaWiz**. Les utilisateurs Beta voient aussi **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** et **Caméra**, chacun avec une pastille **Bêta**. Chacune ouvre exactement ce dont elle a besoin pour trouver votre équipement\xa0: une recherche sur le réseau, une adresse IP, une connexion ou une clé d’appareil. [Connecter votre équipement](/help/mobile-connections) détaille ce qu’il faut pour chaque marque.
+1. Dans l’onglet **Appareils**, touchez **Ajouter un appareil**.
+2. Choisissez la marque : **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** ou **AquaWiz**. Les utilisateurs Beta voient aussi **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** et **Caméra**, chacun avec une puce **Bêta**.
+3. Suivez les étapes de la marque. Selon la marque, c’est une recherche sur le réseau, une adresse IP, une connexion à un compte ou une clé d’appareil. [Connecter votre équipement](/help/mobile-connections) donne les étapes pour chaque marque.
+4. Choisissez l’aquarium auquel il appartient.
+
+![La liste Ajouter un appareil pour un utilisateur Beta](img/mobile-add-device-beta.webp "Les marques en Beta portent une puce Beta.")
 
 :::note Beta
-**Beta.** Les intégrations Beta ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’en êtes pas un, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+**Beta.** Les intégrations Beta ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
 :::
 
-Une ligne qui demande un Cora Max à l’aquarium (Maxspect, GHL, EcoTech, Inkbird et Caméra) est grisée et affiche **Nécessite Cora Max** tant que l’aquarium n’en a pas.
+Une ligne qui a besoin d’un Cora Max à l’aquarium (Maxspect, GHL, EcoTech, Inkbird et Caméra) est grisée et indique **Nécessite Cora Max** tant que l’aquarium n’en a pas.
 
-**Cora** sert à appairer un nouveau Cora Max. Cherche les appareils déjà sur votre Wi-Fi, ou ceux à proximité en Bluetooth. Si la recherche ne trouve rien, **Saisir l’adresse IP manuellement** se trouve sur le même écran.
-
-Quand vous ajoutez un équipement comme un chauffage, une pompe ou un écumeur, la marque et le modèle se **complètent automatiquement**. Commencez à taper, et Cora propose des noms tirés d’une longue liste de marques vérifiée à la source. Si la vôtre n’y est pas, tapez-la quand même. Cora garde ce que vous saisissez.
-
-:::note Cora et votre téléphone doivent être sur le même réseau
-Un équipement trouvé sur le réseau local doit être sur le même réseau que votre téléphone au moment de l’ajout. **Après l’installation, il reste joignable uniquement sur ce réseau** (ou en Bluetooth pour les appareils qui l’utilisent), sauf si un appareil Cora sur place peut le joindre pour vous.
-
-Un équipement qui s’affiche bien à la maison peut donc montrer des valeurs plus anciennes quand vous êtes absent, sauf si un Cora Max sur place peut l’interroger. Ce n’est pas une panne. Cela dépend simplement de l’endroit d’où l’équipement est joignable.
+:::note Sans Cora Max, certains équipements sont uniquement locaux
+Les équipements Neptune Apex, Red Sea et Jecod sont joints par votre réseau domestique ou en Bluetooth. Sans Cora Max, l’écran d’ajout indique *Sans Cora Max, cette intégration fonctionne uniquement en local dans l'application Mobile.* Votre téléphone ne le lit et ne le commande que tant qu’il est sur le même réseau (ou à portée Bluetooth). Loin de chez vous, vous voyez les dernières mesures enregistrées par votre téléphone et ne pouvez pas le commander. Un Cora Max à l’aquarium le lit jour et nuit et transmet vos commandes. Plus de détails dans [Connecter votre équipement](/help/mobile-connections#local-only).
 :::
 
-## La page d’un appareil
+Quand vous ajoutez un équipement depuis votre réseau, votre téléphone doit être sur le même réseau que l’équipement.
 
-Ouvrez n’importe quel appareil depuis la liste. Ses commandes viennent en premier, puis trois sections qui fonctionnent de la même façon pour toutes les marques.
+## Associer un Cora Max {#pairing-a-cora-max}
 
-- **Aquariums** indique à quel aquarium (ou à quels aquariums) il est rattaché. Touchez **Modifier** pour changer le rattachement.
-- **Connexion** sert à modifier son adresse IP, sa connexion ou sa clé d’appareil.
-- **Retirer l'appareil**, tout en bas.
+![L’écran Ajoutez votre Cora dans Cora Mobile, en recherche d’appareils](img/mobile-add-device.webp "Ajouter un appareil, puis Cora. Cora Mobile cherche sur votre Wi-Fi et en Bluetooth, avec la saisie manuelle de l’adresse IP en dessous.")
 
-Cora Max, Neptune Apex et GHL peuvent desservir plusieurs aquariums, si bien que leur sélecteur d’aquarium est une liste à cocher. Cora Max peut être rattaché à quatre aquariums au plus. Voir [Plus d’un appareil Cora](/help/mobile-multi-device). Tout le reste, y compris HYDROS, dessert un seul aquarium à la fois\xa0: en choisir un autre y déplace l’appareil et l’enlève de l’ancien.
+**Cora** est la façon d’associer un nouveau Cora Max. Il trouve les appareils déjà sur votre Wi-Fi, ou ceux à proximité en Bluetooth. S’il ne trouve pas le vôtre, utilisez **Saisir l’adresse IP manuellement** sur le même écran. La procédure complète est dans [Configurer Cora Max](/help/max-setup).
 
-:::warning Choisissez l’aquarium avant de vous fier aux mesures
-Un appareil sans aquarium envoie quand même ses mesures, mais elles ne s’affichent nulle part. Si un appareil que vous venez d’ajouter n’apparaît sur aucun tableau de bord, vérifiez d’abord ce point.
+## La page d’un appareil {#a-devices-page}
+
+Touchez n’importe quel appareil de la liste pour ouvrir sa page. Ses commandes viennent en premier, puis des sections qui fonctionnent de la même façon pour toutes les marques.
+
+- **État** affiche le **Modèle**, le **N° de série**, le **Micrologiciel** et la dernière fois que Cora a eu de ses nouvelles (**Dernière connexion**).
+- **Aquariums** indique à quel aquarium (ou à quels aquariums) il est attribué. Touchez **Modifier** pour le réattribuer.
+- **Connexion** est l’endroit où vous modifiez son adresse IP, ses identifiants ou sa clé d’appareil.
+- **Retirer l'appareil**, en bas.
+
+Cora Max, Neptune Apex et GHL peuvent servir plusieurs aquariums, leur choix d’aquarium est donc une liste à cocher. Cora Max peut être attribué à quatre aquariums au plus. Voir [Plus d’un appareil Cora](/help/mobile-multi-device). Tout le reste, y compris HYDROS, sert un seul aquarium à la fois. En choisir un autre y déplace l’appareil et le retire de l’ancien.
+
+:::warning Attribuez l’aquarium avant de vous fier aux mesures
+Un appareil sans aquarium transmet quand même, mais ses chiffres ne vont nulle part. Si un appareil que vous venez d’ajouter n’apparaît sur aucun tableau de bord, vérifiez cela en premier.
 :::
 
-## Renommer
+Ce que font les commandes de chaque marque est expliqué dans [Contrôler votre équipement](/help/mobile-device-control).
 
-Ouvrez l’appareil et touchez le crayon à côté de son nom. Donnez-lui le nom que vous utilisez tous les jours\xa0: « Remontée », « Brassage gauche », « Chauffage décantation ». Ce nom apparaît sur les widgets, dans les alertes et dans vos échanges avec Cora. Un nom parlant rend donc tout le reste plus clair.
+## Renommer {#renaming}
 
-Les noms peuvent compter jusqu’à 40 caractères. Si deux appareils du même type n’ont pas de nom, Cora les distingue par un court code après le nom. Cora n’utilise jamais un numéro de série comme nom.
+Ouvrez l’appareil et touchez le crayon à côté de son nom. Utilisez le nom que vous lui donnez au quotidien, comme « Remontée », « Gyre gauche » ou « Chauffage décantation ». Le nom apparaît sur les widgets, dans les alertes et dans tout ce que vous demandez à Cora.
 
-Le nouveau nom ne vaut que dans Cora. Il ne change pas dans l’application du fabricant.
+Les noms peuvent faire jusqu’à 40 caractères. Laissez le nom vide pour revenir au nom propre de l’appareil. Si deux appareils du même type n’ont pas de nom, Cora les distingue par un code court après le nom. Cora n’utilise jamais un numéro de série comme nom.
 
-## Vérifier qu’un appareil va bien
+Le nouveau nom ne s’applique que dans Cora. Il ne change pas le nom dans l’application du fabricant.
 
-Chaque appareil occupe une ligne de l’onglet Appareils, avec son icône, son nom, son modèle et son aquarium. Le point sur la ligne indique son état.
+## Vérifier qu’un appareil fonctionne bien {#health}
 
-| Point | Ce que cela veut dire |
+Chaque appareil est une ligne de l’onglet Appareils, avec son icône, son nom, son modèle et son aquarium. Le point sur la ligne indique son état.
+
+| Point | Signification |
 |---|---|
 | Gris | Cora ne sait pas encore |
 | Vert | Fonctionne normalement |
 | Orange | Un avertissement ou une panne |
 | Rouge | Hors ligne |
 
-Les mesures, les modes, la dissociation et l’adresse IP se trouvent sur la page de détail de l’appareil, qui s’ouvre sur une section **État**. Ce que vous voulez voir, c’est une mise à jour récente et aucun avertissement.
+Pour en savoir plus, ouvrez l’appareil. Sa section **État** indique la dernière fois que Cora a eu de ses nouvelles. Vous voulez une heure récente et aucun avertissement.
 
-| Ce que vous voyez | Ce que cela veut dire |
+| Ce que vous voyez | Signification |
 |---|---|
-| Une heure de mise à jour récente | Tout fonctionne |
-| « Mis à jour il y a 3 h » sur un appareil qui n’envoie ses mesures qu’à quelques heures d’intervalle | Normal |
-| « Impossible d’atteindre… » | Un problème de réseau, ou l’appareil est éteint |
-| « …a refusé la connexion » | Le compte du fabricant doit être reconnecté. Ouvrez l’appareil et reconnectez-vous |
-| « En attente de Cora Max » | Un contrôleur GHL que vous venez d’ajouter\xa0: il apparaît dès qu’un Cora Max sur son réseau l’a lu |
-| Rien du tout | L’appareil n’a jamais rien envoyé. Vérifiez l’aquarium choisi et la connexion |
+| Une heure de mise à jour récente | Fonctionne normalement |
+| « Mis à jour il y a 3 h » sur un appareil qui ne transmet que toutes les quelques heures | Rien d’anormal |
+| « Impossible de joindre… » | Un problème de réseau, ou l’appareil est éteint |
+| « … a refusé la connexion » | Le compte du fabricant doit être reconnecté. Ouvrez l’appareil et reconnectez-vous |
+| « En attente de Cora Max » | Un contrôleur GHL ou un moniteur Inkbird que vous venez d’ajouter : il apparaît dès qu’un Cora Max l’a lu |
+| Des mesures plus anciennes pendant votre absence | Normal pour Apex, Red Sea et Jecod sans Cora Max à l’aquarium (voir plus haut) |
+| Rien du tout | Il n’a jamais transmis. Vérifiez l’attribution à l’aquarium et la connexion |
 
-## Retirer un appareil
+Quand un appareil ne remonte plus de mesures, Cora peut vous alerter. Les délais sont dans [Alertes et seuils](/help/mobile-alerts). Pour tout le reste, voir [Résolution de problèmes](/help/troubleshooting).
 
-Ouvrez l’appareil et touchez **Retirer l'appareil**. Cora vous demande de confirmer\xa0: *« {name} sera retiré de Cora. L'appareil lui-même n'est ni réinitialisé ni modifié. »*
+## Retirer un appareil {#removing-a-device}
 
-**Vos mesures sont conservées.** Une fois l’appareil retiré, Cora arrête d’en recevoir de nouvelles données. L’historique déjà recueilli reste sur l’aquarium, et les widgets liés à cet appareil gardent ses anciennes mesures.
+Ouvrez l’appareil et touchez **Retirer l'appareil**, ou balayez sa ligne vers la gauche dans l’onglet Appareils. Cora vous demande de confirmer : *« {name} sera retiré de Cora. L'appareil lui-même n'est ni réinitialisé ni modifié. »*
 
-Vous perdez le lien en direct. Si l’appareil passait par un compte de fabricant, vous perdez aussi la connexion enregistrée. Pour le rajouter, il faudra vous reconnecter.
+**Vos mesures sont conservées.** Retirer un appareil arrête la collecte de nouvelles données par Cora. L’historique déjà recueilli reste sur l’aquarium, et tout widget qui l’utilisait garde ses mesures passées.
 
-:::tip Calmer un appareil trop bavard sans le retirer
-Si un appareil fonctionne bien mais envoie trop d’alertes, ajustez ses seuils ou ses réglages de notification. Tout est expliqué dans **[Alertes et seuils](/help/mobile-alerts)**. Vous gardez la connexion et les données, sans le bruit.
+Vous perdez le lien en direct. Si l’appareil se connectait par un compte de fabricant, vous perdez aussi les identifiants enregistrés : il faudra vous reconnecter si vous l’ajoutez à nouveau.
+
+:::tip Faire taire un appareil bruyant sans le retirer
+Si un appareil fonctionne bien mais alerte trop souvent, changez ses seuils ou ses réglages de notification dans [Alertes et seuils](/help/mobile-alerts). Vous gardez la connexion et les données, et le bruit s’arrête.
 :::

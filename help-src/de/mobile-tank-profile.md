@@ -1,80 +1,98 @@
 ---
 title: Dein Beckenprofil
-description: Volumen, Besatz, Ausrüstung und Dosierung, mit denen Cora deine Messwerte einordnet.
+description: Volumen, Typ, Besatz, Beleuchtung, Dosierung und Ausrüstung deines Beckens eintragen oder ändern, die Cora nutzt, um Messwerte zu beurteilen und Dosierungen zu berechnen.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 3
 group: Getting started
 ---
 
-Das Beckenprofil beschreibt dein System. Damit bewertet Cora Messwerte, berechnet Dosierungen und erkennt, was für genau dein Becken normal ist.
+Das Beckenprofil beschreibt dein System. Cora nutzt es, um Messwerte zu beurteilen, Dosierungen zu berechnen und zu entscheiden, was gerade für dein Becken normal ist.
 
-Du öffnest es mit dem **Stift rechts in der Kopfzeile des Beckens**. Das kleine Symbol neben dem Beckennamen ist nur zum schnellen Umbenennen da.
+Um es zu öffnen, tippe auf den **Stift rechts in der Beckenkopfzeile** oder geh zu **Einstellungen**, tippe auf das Becken und wähl **Becken bearbeiten**. Ein Tippen auf den Beckennamen in der Kopfzeile ist ein schnelles Umbenennen. Das Profil öffnet es nicht.
 
-## Geführte Einrichtung
+## Geführte Einrichtung {#guided-setup}
 
-In einem Profil steckt viel. Die **Geführte Einrichtung** geht deshalb einen Bereich nach dem anderen mit dir durch: Dosierung, Beleuchtung, Strömung und Filterung, Besatz und deine Ausrüstung. So musst du nicht das ganze Formular auf einmal ausfüllen.
+In einem Profil steckt viel, deshalb führt dich die **Geführte Einrichtung** Abschnitt für Abschnitt hindurch. Sie öffnet sich über **Mein Becken einrichten, geführt** direkt nach dem Anlegen eines Beckens, über **Einstellungen → dein Becken → Geführte Einrichtung** und über den Profilhinweis auf dem Dashboard.
 
-Du kannst jederzeit unterbrechen:
+Die Abschnitte kommen in dieser Reihenfolge: **Beckenname & -typ**, **Beckenmaße**, **Beleuchtung**, **Dosierung**, **Wassermanagement**, **Besatz**, **Temperaturregelung**, **Strömung & Filterung** und **Schädlinge & Behandlung**. Oben auf dem Bildschirm steht **Schritt 2 von 10** und so weiter.
 
-- **Später fertigstellen** lässt das Profil, wie es ist, und bringt dich zurück. Deine bisherigen Antworten bleiben gespeichert.
-- Öffnest du die geführte Einrichtung wieder, geht es bei dem Bereich weiter, bei dem du aufgehört hast.
-- **Später entscheiden** überspringt eine Frage, die du noch nicht beantworten willst. Der Rest geht trotzdem weiter.
-- Willst du einen Bereich mit ungespeicherten Änderungen verlassen, fragt Cora nach und bietet dir **Weiter bearbeiten** oder **Verlassen** an.
+- **Speichern & weiter** speichert den Abschnitt und geht weiter. **Überspringen** geht weiter, ohne ihn zu speichern.
+- **Später fertigstellen** bringt dich zurück und behält die Antworten, die du bisher gespeichert hast. Öffnest du die geführte Einrichtung wieder, macht sie dort weiter, wo du aufgehört hast.
+- Verlässt du einen Abschnitt mit ungespeicherten Änderungen, fragt Cora **Diesen Schritt verlassen?** Tippe auf **Weiter bearbeiten** oder **Verlassen**.
 
-Über die Prozentzahl im Profil kommst du jederzeit zurück in die geführte Einrichtung. Dasselbe gilt für den Hinweis auf dem Dashboard, der erscheint, solange das Profil unter 100 % liegt.
+Hast du sie noch nicht beantwortet, ist die letzte Seite **Cora Assistant & deine Daten**. Schalte **Meine Beckendaten für persönliche Empfehlungen nutzen** ein, wenn die Antworten von Cora Assistant dieses Profil nutzen sollen, und tippe dann auf **Speichern**, oder tippe auf **Später entscheiden**. Du kannst es jederzeit in den Einstellungen ändern. Siehe [Cora fragen](/help/mobile-assistant#consent).
 
-:::note Jeder Bereich macht Coras Antworten genauer
-Vollständigkeit ist kein Selbstzweck. Mit deinen Dosierprodukten funktionieren der Dosierrechner und die Verbrauchsübersicht. Besatz und Beckentyp bestimmen, woran deine Messwerte gemessen werden. Aus der Ausrüstung weiß Cora, worüber es überhaupt sprechen kann. Ist das Profil dünn, fallen auch die Antworten allgemein aus.
+Am Ende siehst du **Gut gemacht: Dein Beckenprofil ist eingerichtet**. **Geräte hinzufügen** bringt dich zum Tab **Geräte**, um Ausrüstung für dieses Becken hinzuzufügen, und **Zu meinem Dashboard** bringt dich zurück.
+
+:::note Jeder Abschnitt verändert, was Cora dir sagen kann
+Je mehr du ausfüllst, desto mehr kann Cora tun. Dosierprodukte lassen den Dosierrechner und die Verbrauchsübersicht funktionieren. Besatz und Beckentyp verändern, woran deine Messwerte gemessen werden. Die Ausrüstung sagt Cora, was du hast. Mit einem dünnen Profil bekommst du allgemeinere Antworten.
 :::
 
-![Der Beckenprofil-Editor](img/mobile-tank-profile.webp "Jeder Bereich zeigt einen Vollständigkeitsstatus. Die Bewertung oben spiegelt wider, wie viel Cora über das Becken weiß.")
+![Der Beckenprofil-Editor](img/mobile-tank-profile.webp "Jeder Abschnitt zeigt, wie weit er ausgefüllt ist. Die Zahl oben zeigt, wie viel Cora über das Becken weiß.")
 
-## Vollständigkeit
+## Vollständigkeit {#completeness}
 
-Die Prozentzahl oben zeigt, wie viel vom Profil ausgefüllt ist. Je vollständiger das Profil, desto genauer die Tipps. Ist es leer, arbeitet Cora mit Standardwerten.
+Die Prozentzahl oben im Profil zeigt, wie viel davon du ausgefüllt hast. Tippe darauf, um zum nächsten Abschnitt zu springen, der nicht fertig ist. Je vollständiger das Profil, desto genauer die Empfehlungen. Bei einem leeren nutzt Cora Standardwerte.
 
-## Bereiche
+Das Dashboard zeigt einen Hinweis zum Fertigstellen des Profils, solange es zu weniger als 80 % ausgefüllt ist. Er öffnet die geführte Einrichtung, bis du sie einmal durchlaufen hast, und danach das Profil. Schließ den Hinweis, und er bleibt weg, bis du Cora Mobile das nächste Mal öffnest.
 
-| Bereich | Inhalt |
+## Abschnitte {#sections}
+
+Im Profil stehen die Abschnitte so. Tippe auf einen, um ihn zu öffnen. Das Info-Symbol neben jedem sagt dir, wofür seine Felder genutzt werden.
+
+| Abschnitt | Umfasst |
 |---|---|
-| Beckenname & -typ | wie du das Becken nennst und sein Typ |
-| Beckenmaße | Abmessungen, gesamtes Wasservolumen und das Startdatum des Beckens |
-| Dosierung | was du dosierst und wie |
-| Wassermanagement | Wasserwechsel, Nachfüllung, Zielwerte für die Salinität |
-| Besatz | was im Becken lebt und wie dicht es besetzt ist |
-| Temperaturregelung | Heizer und Kühlung |
-| Beleuchtung | Leuchten und Beleuchtungsdauer |
-| Strömung & Filterung | Pumpen, Abschäumer, Filtermedien und Marke und Modell deines Controllers |
-| Wasserwert-Quellen | aus welcher Quelle jeder Wasserwert kommt |
-| Schädlinge & Behandlung | womit du zu kämpfen hattest und was du eingesetzt hast |
+| **Fütterungsplan** | Wie du normalerweise fütterst, damit du nur die Ausnahmen einträgst. Siehe [Das Tagebuch](/help/mobile-journal) |
+| **Beckenname & -typ** | Wie du das Becken nennst und sein Typ |
+| **Beckenmaße** | Abmessungen, gesamtes Wasservolumen und Startdatum des Beckens |
+| **Dosierung** | Was du dosierst und wie |
+| **Wassermanagement** | Wasserwechsel, Nachfüllung, Zielwerte für die Salinität |
+| **Besatz** | Was im Becken lebt und wie dicht es besetzt ist |
+| **Temperaturregelung** | Heiz- und Kühltechnik |
+| **Beleuchtung** | Leuchten und Beleuchtungsdauer |
+| **Strömung & Filterung** | Pumpen, Abschäumer, Filtermedien und Marke und Modell deines Controllers |
+| **Wasserwert-Quellen** | Aus welcher Quelle jeder Wasserwert gelesen wird |
+| **Schädlinge & Behandlung** | Schädlinge, mit denen du zu tun hattest, ihr Stand und was du versucht hast |
 
-![Die untere Hälfte des Profils](img/mobile-tank-profile-devices.webp "Wasserwert-Quellen und Behandlungshistorie.")
+Fügst du unter **Temperaturregelung**, **Strömung & Filterung** oder **Beleuchtung** einen Heizer, eine Pumpe, eine Leuchte oder einen Abschäumer hinzu, schlägt Cora beim Tippen Marken und Modelle vor. Steht deins nicht in der Liste, tipp es trotzdem ein. Cora behält, was du eingibst.
 
-Tippe auf einen Bereich, um ihn aufzuklappen. Das Info-Symbol daneben erklärt, wofür die Felder gebraucht werden.
+**Wasserwert-Quellen** erscheint nicht, während du ein neues Becken hinzufügst. Es behandelt dieselbe Wahl wie **Parameterzuordnung** in den Einstellungen des Beckens, die dir volle Kontrolle über jede Sonde gibt. Siehe [Parameterzuordnung](/help/mobile-probes).
 
-:::note Geräte stehen jetzt im Tab Geräte
-Deinen Apex, deine Red-Sea-Geräte und jedes andere Gerät fügst du im Tab **Geräte** hinzu, ordnest sie dort zu und entfernst sie dort, nicht mehr im Profil. Mehr dazu unter [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices). Willst du nur nachsehen, was zugeordnet ist, zeigen die Beckeneinstellungen die schreibgeschützte Liste **Geräte an diesem Becken**.
+![Die untere Hälfte eines Beckenprofils in Cora Mobile](img/mobile-tank-profile-devices.webp "Wasserwert-Quellen und Schädlinge & Behandlung, dann ganz unten Becken entfernen.")
+
+:::note Geräte gehören in den Tab Geräte
+Deinen Apex, deine Red Sea-Geräte und jedes andere Gerät fügst du im Tab **Geräte** hinzu, weist sie dort zu und entfernst sie dort, nicht im Profil. Siehe [Geräte hinzufügen, bearbeiten und entfernen](/help/mobile-devices). Die Seite des Beckens unter **Einstellungen** zeigt eine Liste **Geräte an diesem Becken** nur zum Lesen, wenn du nur prüfen willst, was zugewiesen ist.
 :::
 
-## Einheiten
+## Einheiten {#units}
 
-Jedes Becken hat seine eigenen Anzeigeeinheiten. Geh zu **Einstellungen**, öffne das Becken und wähle **Einheiten**. Du kannst festlegen, wie dieses Becken Salinität, Temperatur, Alkalinität, Volumen, Phosphat und Nitrat zeigt. Das Volumen kann in Litern, US-Gallonen oder UK-Gallonen stehen.
+Jedes Becken hat seine eigenen Anzeigeeinheiten. Tippe in der Beckenkopfzeile auf das Linealsymbol oder geh zu **Einstellungen**, tippe auf das Becken und wähl **Einheiten**. Du kannst festlegen, wie dieses Becken Salinität, Temperatur, Alkalinität, Volumen, Phosphat und Nitrat zeigt. Das Volumen kann in Litern, US-Gallonen oder UK-Gallonen sein.
 
-Die Einheiten gelten für dieses Becken auf jedem Handy und jedem Cora Max, das es öffnet. Deine Messwerte werden nicht verändert, nur die Anzeige. Anzeigen, Kacheln, Verlauf, Berichte und das, was Cora Assistant sagt, folgen alle deiner Wahl. Öffne auf dem Cora Max das Beckenmenü und tippe auf **Einheiten**.
+Die Einheiten gelten für dieses Becken auf jedem Handy und jedem Cora Max, das es öffnet. Deine Messwerte werden nicht verändert, nur wie sie angezeigt werden. Anzeigen, Kacheln, Verlauf, Berichte und was Cora Assistant sagt, folgen alle der Wahl. Auf Cora Max öffne das Beckenmenü und tippe auf **Einheiten**.
 
-## Volumen
+## Volumen {#volume}
 
-Trag das tatsächliche Wasservolumen mit Technikbecken ein, nicht das Nennvolumen, das auf dem Becken steht.
+Gib das echte Wasservolumen ein, mit Technikbecken. Nimm nicht das Nennvolumen, das auf dem Becken steht.
 
-:::warning Die Dosierberechnung hängt direkt am Volumen
-Trägst du ein 20 % zu hohes Volumen ein, fallen auch die empfohlenen Dosierungen 20 % zu hoch aus. Bist du unsicher, miss lieber nach.
+:::warning Dosierungen hängen direkt am Volumen
+Ist das Volumen 20 % zu hoch, sind auch die Dosiervorschläge 20 % zu hoch. Bist du nicht sicher, miss es. Rate nicht.
 :::
 
-## Beckenalter
+## Beckenalter {#tank-age}
 
-Trag unter **Beckenmaße** das **Startdatum des Beckens** ein. Cora bewertet Messwerte danach, was für ein Becken in diesem Alter normal ist. Ein drei Monate altes System wird also anders bewertet als eins, das fünf Jahre läuft. Fährt dein Becken noch ein, starte das begleitete Einfahren über die Karte **Startest du ein neues Becken?** auf dem Dashboard.
+Stell unter **Beckenmaße** das **Startdatum des Beckens** ein. Cora beurteilt Messwerte danach, was für ein Becken dieses Alters normal ist, ein drei Monate altes System und ein fünf Jahre altes werden also unterschiedlich beurteilt.
 
-## Das Profil aktuell halten
+Fährt das Becken noch ein, tippe auf dem Dashboard auf die Karte **Startest du ein neues Becken?**, um das geführte Einfahren zu starten. Mach das, bevor du den ersten Test einträgst oder Ausrüstung verknüpfst, denn die Karte erscheint nur bei einem Becken ganz ohne Messwerte. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
 
-Pass das Profil an, wenn sich an deinem System etwas ändert, etwa bei neuer Ausrüstung, geändertem Besatz oder einem anderen Dosierschema. Cora zieht seine Schlüsse aus dem Profil. Ist es veraltet, sind es die Tipps auch.
+## Das Profil aktuell halten {#keeping-the-profile-current}
+
+Aktualisiere das Profil, wenn sich dein System ändert, etwa bei neuer Ausrüstung, anderem Besatz oder einem neuen Dosierschema. Cora arbeitet mit dem Profil, ist es veraltet, sind es die Empfehlungen also auch.
+
+## Ein weiteres Becken hinzufügen {#adding-another-tank}
+
+Geh zu **Einstellungen** und tippe auf **Becken hinzufügen**. Das öffnet dasselbe Profil, leer, mit **Becken speichern** ganz unten. Die vollständigen Schritte, auch zu Ausrüstung und Cora Max, stehen unter [Deine Becken verwalten](/help/mobile-tanks#adding-another-tank).
+
+## Ein Becken entfernen {#removing-a-tank}
+
+**Becken entfernen** steht ganz unten im Profil. Es blendet das Becken aus und behält seine Daten, und du kannst es später zurückholen. Lies vorher [Ein Becken entfernen](/help/mobile-tanks#removing-a-tank), denn manches läuft weiter.

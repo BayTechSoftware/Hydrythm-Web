@@ -1,17 +1,18 @@
 ---
 title: More than one Cora device
-description: Choose which device answers your voice and which one polls each tank.
+description: With more than one Cora device, choose which one answers your voice and which one polls each tank, and see what works away from home.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
-group: Account
+order: 34
+group: Settings and account
+twin: max-reef-room
 ---
 
-A household can have more than one Cora Max. Two settings decide which one does what, so they don't do the same work twice. It also helps to know what they share.
+This page is for a household with more than one Cora Max, or a Cora Max and several phones. Two settings decide which device does what, so they don't do the same work twice. It also helps to know what they share.
 
 ## What is shared, and what is not
 
-| Shared across every device | Belongs to one screen |
+| Shared across every device | Belongs to one Cora Max |
 |---|---|
 | Tanks, readings and history | Its dashboard layout |
 | Devices and their settings | Wi-Fi, brightness, audio |
@@ -19,9 +20,9 @@ A household can have more than one Cora Max. Two settings decide which one does 
 | Alerts, thresholds, automations | Which tanks that screen shows |
 | Plans and usage | |
 
-If you change a threshold on one device, it changes everywhere. Dashboard layouts are different. Each screen keeps its own, and the phone and Cora Max never share one.
+If you change a threshold on one device, it changes everywhere. Dashboard layouts are different. Your phone layout follows your account, so every phone you sign in on shows the same one. Each Cora Max keeps its own layout, and the phone and Cora Max never share one.
 
-## Cora Assistant: Answering device
+## Cora Assistant: Answering device {#cora-assistant-answering-device}
 
 **Settings → Cora Assistant → Answering device** picks the **Cora device** that answers when you talk to the room. However many devices hear you, only one answers. Set it to the one closest to where you usually stand.
 
@@ -29,7 +30,7 @@ Only the Answering device listens for the wake phrase. Another Cora Max takes ov
 
 This is separate from Primary Cora Max, further down. Answering device decides who answers your voice. Primary Cora Max decides who polls a tank's equipment. With two Cora Max devices at home, you might set them differently.
 
-![The voice responder picker](img/mobile-voice-responder.webp "Each device shows what it listens for, and whether it is online.")
+![The Answering device picker](img/mobile-voice-responder.webp "Each device shows what it listens for, and whether it is online.")
 
 Each device in the list shows its wake phrase and whether it's online. **The wake phrases aren't always the same.** The phrase is trained into the device, so different Cora models can listen for different ones. Check each device's own row. Don't assume the whole household uses one phrase.
 
@@ -45,7 +46,7 @@ A Cora Max reads the equipment on your network. If more than one can reach the s
 
 | Setting | Behaviour |
 |---|---|
-| A named device | It's the only Cora device that polls the controller. It stays the primary even while it's offline, and other Cora devices don't take over. Cora Mobile only polls while it's offline. |
+| A named device | It's the only Cora device that polls the controller. It stays the primary even while it's offline, and other Cora devices don't take over. Cora Mobile reads the controller only while that device is offline. |
 | **Any active (automatic)** | Cora Mobile and any online Cora device share the work (last write wins). If one goes offline, another carries on. Good for a household with one device, and the safer choice if you're not sure which device should own the tank. |
 
 While the device you named is offline, a command that has to go through it won't run. Cora tells you the tank is set to use that device, that it's offline and that nothing ran. Try again once it's back. If it'll be offline for a while, pick another device or **Any active (automatic)**.

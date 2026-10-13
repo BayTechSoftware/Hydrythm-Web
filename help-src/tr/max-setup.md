@@ -1,78 +1,102 @@
 ---
 title: Cora Max'i kurma
-description: İlk açılış, Wi-Fi'ye bağlanma, hesabınızla eşleştirme ve akvaryumlarınızı büyük ekrana getirme.
+description: Yeni bir Cora Max'i Bluetooth üzerinden Cora Mobile ile eşleştirin, Wi-Fi'a bağlayın, akvaryumlarını seçin ve daha sonra başka bir akvaryuma taşıyın.
 section: Cora Max
-reviewed: 2026-09-30
+reviewed: 2026-10-13
 order: 1
 group: Getting started
+twin: mobile-setup
 ---
 
-Cora Max reef odanızın kontrol merkezidir. Duvardaki bu ekran canlı sisteminizi odanın öbür ucundan okunacak şekilde gösterir ve sesli komutları da dinler.
+Bu sayfa sizi yeni bir Cora Max'ten çalışan bir duvar ekranına götürür. Onu telefonunuzdan Bluetooth üzerinden eşleştirirsiniz ve ekranın kendisinde hiçbir şey yazmazsınız.
 
-:::tip Akvaryumlarınızı önce telefonda kurun
-Cora Max hesabınızdaki akvaryumları ve cihazları gösterir. Bunları önce Cora Mobile'da kurarsanız, cihazı eşleştirdiğiniz anda hepsi ekrana gelir. Duvardaki ekranda yazı yazmanız gerekmez.
-
-**Pano düzenleri bunun dışındadır.** Telefondan aktarılmaz. Her ekranın kendi düzeni vardır, bu yüzden bu ekranın düzenini eşleştirmeden sonra kurarsınız. Nasıl yapılacağı [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.
+:::tip Akvaryumlarınızı önce telefonunuzda kurun
+Cora Max hesabınızdaki akvaryumları ve cihazları gösterir ve kendisi akvaryum oluşturamaz. Önce [onları Cora Mobile'da kurun](/help/mobile-setup). Cora Max onu eşleştirdiğiniz anda onları alır.
 :::
 
-## Neler gerekli
+## Nelere ihtiyacınız var {#what-you-need}
 
-- Fişe takılı bir Cora Max
-- Wi-Fi ağınızın adı ve şifresi
-- Cora Mobile'da kullandığınız hesap
+- Fişe takılı ve açık bir Cora Max. Sürekli fişte kalması için tasarlanmıştır.
+- Telefonunuzda giriş yapılmış ve **en az bir akvaryumu** zaten oluşturulmuş Cora Mobile.
+- Telefonunuzda açık Bluetooth ve Cora Max'e yakın bir telefon.
+- Wi-Fi ağınızın adı ve şifresi.
 
-## Kurulumu telefonunuzdan yaparsınız
+Cora Max'i odanın öbür ucundan görebileceğiniz ve onunla konuşabileceğiniz, su sıçramalarından ve tuz birikiminden uzak bir yere koyun.
 
-Cihazı açın. Ekranda bir eşleştirme sayfası çıkar ve cihaz **kendini yakındaki telefonlara duyurur**. Ekranda hiçbir şey yazmanız gerekmez.
+## Ekran ilk olarak ne gösterir {#what-the-screen-shows-first}
 
-![Cora Max eşleştirme ekranı](img/max-pairing-screen.webp "Ekran kendi adını gösterir, telefonunuzdaki listeden doğru cihazı seçersiniz.")
+Cora Max'i açın. **Telefonunuzdaki Cora uygulamasını açın**, ardından **Cihaz Ekle'ye dokunun.** ve **Cihazlar listesinden bu Cora Max'i seçin.** yazan bir eşleştirme ekranı gösterir. Altında **… olarak keşfedilebilir** ve kısa bir kodla biten adı yazar. Birden fazla cihaz eşleştiriyorsanız telefonunuzda onları bu kod ayırt eder.
 
-Ekranda cihazın görünen adı yazar. Adın sonunda kısa bir kimlik kodu vardır. Birden çok cihaz eşleştiriyorsanız telefondaki listede onları bu kodla ayırt edersiniz.
+![Telefonunuzu bekleyen Cora Max eşleştirme ekranı](img/max-pairing-screen.webp "Telefonunuzu bekliyor. Alt satır, telefonunuzun listeleyeceği adı gösterir.")
 
-Gerisini Cora Mobile'da yaparsınız. Kurulum beş adımdır, adımların adları pencerenin üstünde yazar: **Bağlan · Wi-Fi · Kimlik Doğrulama · Akvaryumlar · Bitti.**
+Aynı ekranda diğer üreticilerin ekipmanlarıyla entegrasyonlar hakkında kısa bir bilgi notu vardır. Cora Mobile'da kabul ettiğiniz Şartlar Cora Max'i de kapsar.
 
-**1 · Bağlan.** Telefonunuzda **Cihazlar → Cihaz Ekle → Cora**'ya dokunun. Cora Mobile cihazı bulur ve bilgilerini gösterir: MAC adresi, yazılım sürümü, model ve donanım revizyonu. Devam etmeden önce doğru cihaz olduğunu kontrol edin.
+## Telefonunuzdan eşleştirme {#pairing}
 
-**2 · Wi-Fi.** Listeden ağınızı seçin ya da **Yeniden tara**'ya dokunun. Sonra şifreyi girin. Şifreyi duvardaki ekranda değil, telefonunuzun klavyesinde yazarsınız.
+Geri kalan her şey Cora Mobile'da olur. Bir sayfa, üstünde gösterilen beş adımda size yol gösterir: **Bağlan · Wi-Fi · Kimlik Doğrulama · Akvaryumlar · Tamamlandı**.
 
-**3 · Kimlik Doğrulama.** Telefonunuz cihazı hesabınıza tanıtır. Bu sırada Cora Max ekranında ilerleme görünür.
+1. **Bulun.** **Cihazlar** sekmesini açın, **Cihaz Ekle**'ye, ardından **Cora**'ya dokunun. **Cora'nızı Ekleyin** ekranı ağınızdaki Cora cihazlarını ve Bluetooth üzerinden bulunan yakındaki kurulum cihazlarını listeler. Sizinki henüz orada değilse **Tara**'ya dokunun, sonra Cora Max'inize dokunun.
 
-![Eşleştirme sırasında Cora Max](img/max-pairing-verifying.webp "Telefonunuz işlemi yürütürken ekranda hesap kontrolünün ilerleyişi görünür.")
+   ![Cora Mobile'da cihaz arayan Cora'nızı Ekleyin ekranı](img/mobile-add-device.webp "Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'ınızda ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.")
 
-**4 · Akvaryumlar.** Bu ekranın hangi akvaryumları göstereceğini seçin. **En fazla dört** akvaryum seçebilirsiniz. Her akvaryum adı ve türüyle listelenir.
+2. **Bağlan.** Telefonunuz Cora Max'e Bluetooth üzerinden bağlanır ve MAC adresini, yazılım sürümünü, modelini ve donanım revizyonunu gösterir. Doğru cihaz olduğunu kontrol edin, sonra **Devam et**'e dokunun.
 
-**5 · Bitti.** Ekran kurulumun bittiğini onaylar ve size bir **Kurtarma PIN'i** verir.
+3. **Wi-Fi.** Listeden ağınızı seçin ya da **Yeniden tara**'ya dokunun ve şifreyi telefonunuzda yazın. Bundan sonra telefonunuz Cora Max ile Wi-Fi üzerinden konuşur, bu yüzden telefonu aynı ağda tutun.
+
+4. **Kimlik Doğrulama.** Telefonunuz Cora Max'i hesabınıza bağlar. Bu kendiliğinden çalışır ve Cora Max **Hesabınız doğrulanıyor…** ve **Akvaryumunuz kuruluyor…** gibi kendi ilerlemesini gösterir.
+
+   ![Hesabınız doğrulanıyor gösteren Cora Max eşleştirme ekranı](img/max-pairing-verifying.webp "Telefonunuz onu hesabınıza bağlarken Cora Max her adımı gösterir.")
+
+5. **Akvaryumlar.** **Akvaryumlar Ata** altında bu Cora Max'in yöneteceği akvaryumları, **en fazla dört** tane, seçin.
+
+6. **Tamamlandı.** Telefonunuz Cora Max'in kurulduğunu söyler ve bir **Kurtarma PIN'i** gösterir. Akvaryumunuzun panosunu açan düğmeye ya da **Cihazlara Git**'e dokunun. Cora Max **Eşleştirildi**, ardından **Pano açılıyor…** gösterir.
 
 :::warning Kurtarma PIN'ini bir yere yazın
-Son adımda altı haneli bir **Kurtarma PIN'i** görünür. O cihazda kurtarma moduna yalnızca bu PIN ile girebilirsiniz. Kullanmak için ekranın sağ üst köşesine beş parmağınızı koyup on saniye basılı tutun, sonra PIN'i girin. PIN'i daha sonra telefonunuzda o cihazın ayarlarında bulabilirsiniz, ama Cora Max'in kendisinde bulamazsınız.
+**Kurtarma PIN'i** altı hanelidir ve o Cora Max'te kurtarmaya girmenin tek yoludur. Kullanmak için ekranın sağ üst köşesinde beş parmağınızı on saniye basılı tutun, sonra PIN'i girin. Kurtarma; Wi-Fi'ı yeniden kurmanıza, yeniden eşleştirmenize, güncelleme kontrol etmenize ya da fabrika ayarlarına sıfırlamanıza olanak verir. PIN'i telefonunuzda **Cihazlar → Cora Max'iniz → Kurtarma PIN'i** altında yeniden bulabilirsiniz, ama Cora Max'in kendisinde asla bulamazsınız.
 :::
 
-:::note Ekranı size eşleştirme bağlar
-Eşleştirmeden sonra Cora Max telefonunuzdaki akvaryumları, cihazları, ölçümleri ve kayıtları görür. **Pano düzenleri telefondan aktarılmaz.** Cora Max kendi düzenini akvaryum profilinize göre kurar, siz de onu ayrıca düzenlersiniz.
-:::
+### Eşleştirme takılırsa {#if-pairing-gets-stuck}
 
-Ekrandaki adımları izleyerek cihazı hesabınıza bağlayın. Eşleştirme tamamlanınca Cora Mobile bunu size bildirir.
+- **Bluetooth kapalı. Açın, ardından tekrar Tara'ya dokunun.** Bluetooth'u açın ve yeniden tarayın.
+- **Cora için Bluetooth izni kapalı.** Telefonunuzun ayarlarında Cora için Bluetooth'a izin verin, sonra **Tara**'ya dokunun. Bir iPhone yerel ağ erişimi de isteyebilir. Ona da izin verin.
+- **Bluetooth üzerinden yakında Cora kurulum cihazı bulunamadı.** Cora Max'in yanında durun, hâlâ eşleştirme ekranını gösterdiğini kontrol edin ve yeniden tarayın.
+- Akvaryumlar adımında **Akvaryum Bulunamadı**. Hesabınızda henüz akvaryum yok. Cora Mobile'da bir tane oluşturun, sonra adımı yeniden deneyin.
+- Sonda **Henüz akvaryumunuza bağlı değil**. Cora Max eşleştirildi ama akvaryum bağlantısı tamamlanmadı. **Şimdi tekrar dene**'ye dokunun. Tamamlanana kadar bu ekranın uyarıları varsayılan aralıkları kullanır.
 
-:::note Tek hesap, birden çok ekran
-Aynı hesaba birden çok Cora Max eşleştirebilirsiniz, örneğin biri reef odasında, biri başka bir odada. Her biri farklı akvaryumları ve kendi pano düzenini gösterebilir. İki ekran aynı akvaryumu gösteriyorsa ikincisinin ekipmanla neler yapabileceğini [Cora Max'ten ekipman kontrolü](/help/max-device-control) sayfasında bulabilirsiniz.
-:::
+Diğer çözümler [Sorun giderme](/help/troubleshooting#pairing-a-cora-max-fails) sayfasında.
 
-## Gösterilen akvaryumları değiştirme
+## Eşleştirmeden sonra {#after-pairing}
 
-Akvaryum ataması eşleştirmenin bir parçasıdır ve **telefonunuzdan** değiştirilir. **Cihazlar**'da cihazı açın ve atanmış akvaryumları düzenleyin. Cora Max'in kendi ayarlarında bu seçenek yoktur.
+Cora Max artık telefonunuzla aynı akvaryumları, cihazları, ölçümleri ve kayıtları görür.
 
-## Panoyu kurma
+- Akvaryumlarınızdan birinde daha önce bir Cora Max varsa Cora Max **Bu akvaryum için önceki düzen geri yüklensin mi?** diye sorar. **Geri Yükle**, eskisinin kaydettiği ekran, ses ve uyarı ayarlarını geri getirir. **Sıfırdan başla** bunları atlar.
+- Henüz ölçümü olmayan bir akvaryum **Henüz ölçüm yok** ve bir **İlk testini kaydet** düğmesi gösterir.
+- Cora Max akvaryum profilinizden bir başlangıç panosu oluşturur. Telefonunuzdakini kopyalamaz.
 
-Cora Max ilk düzenini akvaryum profilinize göre kendisi kurar. Telefonunuzdaki düzeni **kopyalamaz**. Değiştirmenin en kolay yolu telefonunuzdur: **Cihazlar → Cora Max'iniz → Panoyu Düzenle**. Kutucukları duvardaki ekranda yerleştirmekten daha hızlıdır.
+Aynı hesaba birden fazla Cora Max eşleştirebilirsiniz, örneğin biri balık odasında, biri oturma odasında. Her biri farklı akvaryumlar gösterebilir ve kendi düzenine sahiptir. İkisi aynı akvaryumu gösteriyorsa ekipmanı hangisinin okuduğunu [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfası açıklar.
 
-Büyük ekrandaki pano telefondakinden farklı çalışır. Sabit bir ızgara kullanır ve her şey tek ekrana sığmak zorundadır. Ayrıntılar **[Cora Max panosunu düzenleme](/help/max-dashboard-editing)** sayfasında.
+## Panoyu oluşturma {#building-the-dashboard}
 
-## Güncellemeler
+Büyük ekran panosu sabit bir ızgaradır ve her şeyin tek ekrana sığması gerekir. Onu düzenlemenin en hızlı yolu telefonunuzdur: **Cihazlar** sekmesini açın, Cora Max'inize dokunun, sonra akvaryumun kartındaki **Pano düzeni**'ne dokunun. Bunu duvardaki ekranda akvaryum menüsünden de yapabilirsiniz.
 
-Cora Max kendini günceller. Yeni sürüm çıkınca arka planda indirip kurar ve nelerin değiştiğini size söyler.
+Başka bir Cora Max'ten ya da başka bir akvaryumdan bir düzeni yeniden kullanmak için onu düzenleyicideki **Panolarım**'dan yükleyin. Ayrıntılar [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.
 
-Hangi sürümde olduğunuza **Ayarlar → Cora Max** altından bakabilirsiniz.
+## Cora Max'i başka bir akvaryuma taşıma {#changing-which-tanks-it-shows}
 
-## Başka bir ağa geçme
+Bir Cora Max'in hangi akvaryumları göstereceğini telefonunuzda değiştirirsiniz. Cora Max'in kendi ayarları bunu yapamaz.
 
-**Ayarlar → Cora Max Ayarları → Wi-Fi**'ye gidin. Yeni ağı seçin ve şifreyi girin. Eşleştirme bozulmaz, ekranı yeniden kurmanız gerekmez.
+1. Cora Mobile'da **Cihazlar** sekmesini açın ve Cora Max'inize dokunun.
+2. **Akvaryumlar** altında **Akvaryum Ekle**'ye dokunun ve akvaryumu seçin. Bir Cora Max en fazla dört akvaryum alır. Zaten dört tane varsa düğme kaybolur, bu yüzden önce birini kaldırın.
+3. Bir akvaryumu bu ekrandan çıkarmak için o akvaryumun kartındaki kırmızı kaldırma simgesine (**Akvaryumu kaldır**), ardından **Kaldır**'a dokunun.
+
+Cora Max'i bir akvaryumdan diğerine taşımak için yeni akvaryumu ekleyin, sonra eskisini kaldırın. Yeni akvaryum profilinden oluşturulan bir başlangıç panosu alır. Onu **Pano düzeni** ile düzenleyin.
+
+Bu Cora Max, kaldırdığınız akvaryumun sabitlenmiş Birincil Cora Max'iyse o sabitleme kaldırılır ve akvaryum **Aktif olan herhangi biri (otomatik)**'e döner. Ayrıntılar [Cihazlar ve cihaz sağlığı](/help/max-devices) sayfasında.
+
+## Güncellemeler {#updates}
+
+Cora Max kendini günceller. Yeni bir sürüm arka planda iner ve gece yüklenir. Sürümünüz **Ayarlar → Cora Max Ayarları**'nın en üstünde gösterilir. Ayrıntılar [Güncellemeler ve kurtarma](/help/max-updates) sayfasında.
+
+## Başka bir Wi-Fi ağına taşıma {#moving-it-to-a-different-network}
+
+**Ayarlar → Cora Max Ayarları → Wi-Fi** yoluna gidin, yeni ağı seçin ve şifreyi girin. Cora Max eşleşmiş olarak kalır, bu yüzden onu yeniden kurmanız gerekmez.

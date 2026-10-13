@@ -1,68 +1,75 @@
 ---
-title: Parametre Eşlemesi
-description: Her ölçümü hangi probun beslediğini her kontrol cihazında görün, kalibrasyon ve temizliği kaydedin.
+title: Parametre Eşlemesi ve problar
+description: Her ölçümü hangi probun sağlayacağını seçin, her probun neyi ölçtüğünü Cora'ya söyleyin, prob kalibrasyonunu ve temizliğini kaydedin.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 13
+reviewed: 2026-10-13
+order: 15
 group: Equipment
 ---
 
-Birden fazla kontrol cihazınız varsa, ya da aynı şeyi ölçen iki probunuz varsa, Cora hangi ölçüme güveneceğini bilmek zorundadır. **Parametre Eşlemesi** bunu ayarladığınız, ve her probun ne olduğunu Cora'ya ilk kez söylediğiniz yerdir.
+Her probun neyi ölçtüğünü ve iki prob aynı şeyi bildirdiğinde hangisine güveneceğini Cora'ya söylemek için **Parametre Eşlemesi**'ni kullanın. **Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ne dokunun.
 
-**Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ni seçin. **Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve onda yoktur. Ona Neptune Apex ve GHL (Beta) cihaz sayfalarından da ulaşabilirsiniz. GHL yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
+**Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve orada bu seçenek yoktur. Ona Neptune Apex ve GHL (Beta) cihaz sayfalarından da ulaşabilirsiniz. GHL yalnızca Beta kullanıcılarına açıktır. [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
 
 Ekranda bir arama alanı (**Parametre ara**) ve iki sekme var: **Eşleme** ve **Kaynaklar**. Arama parametre adlarına, prob adlarına, cihazlara ve markalara bakar. Aynı arama alanı her parametre seçicisinde bulunur.
 
-## Her ölçüm nereden geliyor
+## Problar: her birinin ne olduğunu Cora'ya söyleme {#mapping}
 
-Bu, **Kaynaklar** sekmesidir.
+![Eşleme sekmesi](img/mobile-probe-mapping.webp "Her prob, onu bildiren cihaza göre gruplanmış ve eşlendiği parametreyle.")
 
-![Her ölçüm nereden geliyor](img/mobile-probes.webp "Her parametre, onu besleyen prob ve değiştirmek için bir Seç düğmesi.")
+İlk **Eşleme** sekmesi açılır. Cora'nın bildiği her probu, onu bildiren cihaza göre gruplanmış ve güncel ölçümüyle birlikte listeler. Cora standart prob adlarını kendisi tanır ve her satır neyle eşleştirdiğini gösterir. Genellikle yalnızca yerleştiremediği birkaçını düzeltmeniz gerekir.
 
-Bu bölüm, bu akvaryum için Cora'nın izlediği pH ya da sıcaklık gibi her parametreyi listeler ve şu anda hangi probun onu beslediğini gösterir.
+Her satırda üç seçenek var.
 
-Bir ölçüme dokunduğunuzda, bağladığınız her kontrol cihazında onu bildiren bütün probları görürsünüz. Her biri markasını, kontrol cihazındaki kendi adını ve canlı değerini gösterir. Birini seçerek sabitleyin, ya da Cora'nın raporlayan hangi probu kullanacağına kendisinin karar vermesi için **Otomatik (en yeni ölçüm kazanır)** seçeneğini seçin.
+- **Bir Cora parametresi**, o probun ölçtüğü metriktir.
+- **Özel…**, Cora'da standart bir parametresi olmayan problar içindir. **Özel metrik (BÜYÜK HARF token)** alanına kısa, büyük harfli bir ad yazın, Cora da onu bu adla izler.
+- **Yok say**, hiç kaydedilmesini istemediğiniz problar içindir.
 
-Her ölçümün yanındaki etiket hangisinin geçerli olduğunu gösterir: **Otomatik**, ya da bir prob sabitlediyseniz **Siz seçtiniz**.
+Yok sayılan ya da eşlenmemiş bir prob panoda görünmez ve uyarı tetiklemez.
 
-Sabitlediğiniz prob bildirim göndermeyi bırakırsa Cora en son ne zaman haber aldığını gösterir ve **Otomatiğe dön** seçeneğini sunar. Böylece ölü bir prob ölçümü kilitli bırakamaz.
+Bir eşleme, bir sonraki ölçümler geldiğinde çalışmaya başlar. Burada yaptığınız bir düzeltme geçmişi yeniden yazmaz, yalnızca o andan sonra kaydedilenleri değiştirir. Değişikliklerinizi uygulamak için **Kaydet**'e dokunun.
 
-Bir ölçüme kendi görünen adını vermek için **Yeniden adlandır**'a dokunun. Bu, probun kendisine verdiğiniz addan ayrıdır. Panonuzda, uyarılarda ve Reef Buddy'de görünen bu addır.
-
-:::note Bir sızıntı sensörü burada yeniden atanamaz
-Sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu seçiciden hariç tutulur. Her zamanki gibi çalışmaya devam eder.
+:::warning Cora eşlenmemiş bir probu göremez
+Prob çalıştığı halde bir parametrede hiç ölçüm görünmüyorsa önce eşlemesini kontrol edin.
 :::
 
-## Problar: her birinin ne olduğunu Cora'ya söyleme
+## Her ölçüm nereden geliyor {#sources}
 
-**Eşleme** sekmesi ilk açılır. Cora'nın bildiği her probu, onu bildiren cihaza göre gruplanmış ve güncel ölçümüyle birlikte görürsünüz. Cora standart prob adlarını kendisi tanır ve her satırda neyle eşleştirdiğini gösterir. Genellikle Cora'nın tanıyamadığı birkaçını düzeltmeniz yeterlidir.
+![Kaynaklar sekmesi](img/mobile-probes.webp "Her ölçüm, onu sağlayan prob ve Otomatik mi yoksa sizin seçiminiz mi olduğu.")
 
-Her satırda üç seçenek var:
+**Kaynaklar** sekmesi, Cora'nın bu akvaryum için izlediği pH ya da sıcaklık gibi her metriği listeler ve şu anda onu hangi probun sağladığını gösterir.
 
-- **Cora parametresi**: probun ölçtüğü değer.
-- **Özel**: Cora'da standart karşılığı olmayan problar için. Proba büyük harfle kısa bir kod verirsiniz, Cora onu bu adla takip eder.
-- **Yok say**: hiç kaydedilmesini istemediğiniz problar için.
+Bağladığınız tüm kontrolcülerde onu bildiren her probu görmek için bir ölçüme dokunun. Her biri markasını, prob için kullandığı kendi adını ve canlı değerini gösterir. Sabitlemek için birini seçin ya da Cora'nın en son bildiren probu kullanması için **Otomatik (en yeni ölçüm kazanır)**'ı seçin. Diğerleri geçmişte kalır.
 
-Yok sayılan ya da eşlenmemiş prob panoda görünmez ve uyarı üretmez.
+Her ölçümün yanındaki etiket hangisinin geçerli olduğunu gösterir: **Otomatik** ya da bir probu sabitlediğinizde **Sizin seçiminiz**. Seçiminiz tek bir widget için değil, o ölçüm için tüm akvaryumda geçerlidir.
 
-Eşlemeler bir sonraki ölçüm kaydından itibaren geçerli olur. Burada yaptığınız düzeltme geçmişi değiştirmez, yalnızca bundan sonra kaydedilenleri etkiler. Uygulamak için **Kaydet**'e dokunun.
+Sabitlenmiş bir prob bildirmeyi bırakırsa Cora ondan en son ne zaman haber alındığını gösterir ve **Otomatik'e Dön**'ü önerir. Böylece ölü bir prob bir ölçümü takılı bırakamaz.
 
-:::warning Cora eşlenmemiş probu görmez
-Prob çalıştığı hâlde bir parametrede hiç ölçüm görünmüyorsa ilk iş onun eşlemesini kontrol edin.
+Bir ölçüme kendi görünen adını vermek için **Yeniden adlandır**'a dokunun. Bu, probun kendisine verdiğiniz addan ayrıdır. Panonuzda, uyarılarda ve Reef Buddy'de görünen budur.
+
+Akvaryum profilinde de bir **Parametre Kaynakları** bölümü vardır (yeni bir akvaryum oluştururken gizlidir). Aynı şeyi daha kısa bir biçimde ayarlar. Her kontrolcüdeki her probu tek yerde görmek istediğinizde Parametre Eşlemesi'ni kullanın.
+
+:::note Sızıntı sensörü burada yeniden atanamaz
+Bir sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu seçicinin dışında tutulur. Her zamanki gibi çalışır.
 :::
 
-## Aynı parametre için birden fazla prob
+## Bir parametre için birden fazla prob {#multiple-probes}
 
-İki sıcaklık probunuz varsa, ister aynı kontrol cihazında ister iki ayrı cihazda olsunlar, ikisini de eşleyin. Cora bunları ayrı kaynaklar olarak tutar, ve **Kaynaklar** sekmesi hangisinin ölçümü besleyeceğini seçtiğiniz ya da Otomatik bıraktığınız yerdir. İkisini [parametre ekranında](/help/mobile-metric-detail) karşılaştırabilirsiniz.
+İki sıcaklık probunuz varsa, ister aynı kontrolcüde ister iki farklı kontrolcüde olsun, ikisini de eşleyin. Cora onları ayrı kaynaklar olarak tutar. Ölçümü hangisinin sağlayacağını **Kaynaklar** sekmesinde seçersiniz ya da Otomatik'te bırakırsınız. İkisini [parametre görünümünde](/help/mobile-metric-detail) karşılaştırabilirsiniz.
 
-İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin yalnızca daha geç bir ölçüm zamanına sahip bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe girer ve güncel değerin üzerine yazmaz. Bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
+İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe gider ve güncel değerin üzerine yazmaz. **Kaynaklar** sekmesinde bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
 
-## Prob bakımını kaydetme
+## Prob bakımını kaydetme {#recording-probe-care}
 
-Problar zamanla kayar. Cora her probun en son ne zaman kalibre edildiğini ya da temizlendiğini takip eder. Böylece gerçek bir değişimi, bakıma ihtiyacı olan bir probdan ayırt edebilirsiniz.
+Problar zamanla kayar. Bir probu kalibre ettiğinizde, temizlediğinizde ya da değiştirdiğinizde Cora'ya söyleyin, böylece ölçümdeki sıçramayı akvaryumda gerçek bir değişiklik sanmaz.
 
-Kalibrasyonu ya da temizliği probun kaydından girin. Bunu düzenli bir [bakım görevi](/help/mobile-maintenance) olarak da ekleyebilirsiniz.
+1. Panoda parametrenin widget'ına dokunun, örneğin pH, sıcaklık, tuzluluk ya da ORP.
+2. Üst çubuktaki **Prob bakımını kaydet**'e (sensör simgesi) dokunun.
+3. Ne yaptığınızı seçin: **Kalibre Edildi**, **Temizlendi**, **Değiştirildi**, **Yeniden Konumlandırıldı** ya da **Referansla Karşılaştırıldı**. Bir **Referans ölçüm** ve not ekleyebilirsiniz.
+4. **Prob bakımını kaydet**'e dokunun.
 
-:::note Kalibrasyon geçmişi farkları açıklar
-Probla test kiti farklı sonuç veriyorsa önce probun en son ne zaman kalibre edildiğine bakın.
+Parametre görünümü bundan sonra o probun ne zaman kalibre edildiğini gösterir. Prob bakımı tekrarlanan bir [bakım görevi](/help/mobile-maintenance) olarak da iyi işler.
+
+:::note Kalibrasyon tarihleri uyuşmazlıkları açıklar
+Bir prob ile bir test kiti farklı sonuç verdiğinde probu en son ne zaman kalibre ettiğinize bakın. Yanıt genellikle budur.
 :::

@@ -1,49 +1,51 @@
 ---
-title: Partir en vacances
-description: Préparez un plan pour la personne qui garde votre aquarium, et envoyez-le sous forme de page qu’elle ouvre sans compte.
+title: Partir en vacances : un plan pour la personne qui garde votre aquarium
+description: Activez le mode vacances, préparez une liste de tâches pour votre gardien et partagez-la sous forme de page en lecture seule, avec les mesures en direct, qu’il ouvre sans compte.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 28
-group: Account
+reviewed: 2026-10-13
+order: 23
+group: Alerts and automation
 ---
 
-Avec le mode vacances, quelqu’un d’autre peut s’occuper de votre aquarium. Vous fixez les dates, vous listez les tâches, et Cora prépare une page simple à envoyer à cette personne.
+Le mode vacances aide quelqu’un d’autre à s’occuper de votre aquarium pendant votre absence. Vous choisissez les dates et les tâches, et Cora crée une page web que vous envoyez à votre gardien.
 
-**Réglages → Aquariums → Mode vacances.**
+Allez dans Réglages → votre aquarium → **Mode vacances**. Si vous avez plusieurs aquariums, choisissez l’aquarium en haut. Chaque aquarium a son propre plan.
 
-![Mode vacances](img/mobile-vacation.webp "Dates du voyage, liste de tâches pour le gardien, et les notes qui l’accompagnent.")
+![Le mode vacances dans Cora Mobile](img/mobile-vacation.webp "L’aquarium, un rappel que les alertes vous parviennent toujours, les dates du voyage, puis la liste pour le gardien.")
 
-## Préparer le plan
+## Le configurer {#setting-it-up}
 
-Indiquez d’abord les **dates** de votre départ et de votre retour.
+1. Sous **Quand êtes-vous absent ?**, touchez **Choisissez vos dates de voyage**.
+2. Préparez la **Liste pour le gardien**. Les tâches d’entretien qui arrivent à échéance pendant votre absence vous sont proposées, chacune avec sa fréquence. Touchez une suggestion pour l’ajouter, comme **Nourrir l’aquarium**, **Vérifier le réservoir de l’ATO**, **Vider la coupelle de l’écumeur** ou **M’appeler si quelque chose semble anormal**. Pour ajouter votre propre tâche, tapez-la sous **Ajouter votre propre tâche…** et touchez **Ajouter une tâche**.
+3. Sous **Notes et contact**, rédigez les **Notes pour le gardien** et, sous **Si quelque chose semble anormal**, indiquez comment vous joindre.
+4. Touchez **Démarrer le mode vacances**.
 
-Dressez ensuite **la liste des tâches**, chacune avec sa fréquence. Cora affiche la fréquence sous forme d’étiquette à côté de la tâche.
-
-| Fréquence | Pour |
-|---|---|
-| **Quotidien** | Le nourrissage, un rapide coup d’œil à l’aquarium |
-| **Tous les 3 jours** | L’appoint d’eau, la vérification de l’écumeur |
-| **Une fois** | Un changement d’eau pendant votre absence |
-| **Toujours** | Les consignes permanentes, comme un équipement auquel il ne faut pas toucher |
+Chaque tâche indique sa fréquence, par exemple **Quotidien**, **Tous les 3 jours**, **Une fois** ou **Toujours** (une consigne permanente). Cora la déduit de la tâche d’entretien ou de la suggestion. Une tâche que vous tapez vous-même n’a pas d’étiquette, alors indiquez la fréquence dans son texte.
 
 Écrivez la liste pour quelqu’un qui ne connaît pas l’aquarium récifal. Donnez les quantités et la marche à suivre en toutes lettres. « Donner un cube de nourriture congelée, décongelé, une fois par jour » est bien plus clair que « nourrir comme d’habitude ».
 
-## Partager le plan
-
-Cora transforme le plan en **page en lecture seule**. Envoyez le lien à la personne qui garde l’aquarium. Elle n’a besoin ni de Cora Mobile ni d’un compte.
-
-Elle peut lire la liste des tâches et voir l’aquarium. Elle ne peut rien modifier, ne peut pas piloter l’équipement et ne voit pas le reste de votre compte.
-
 :::note Dites à quoi il ne faut pas toucher
-Ajoutez des consignes permanentes pour l’équipement que la personne doit laisser tel quel. Choisissez la fréquence **Toujours** pour ces consignes.
+Ajoutez une tâche pour tout équipement auquel le gardien ne doit pas toucher, par exemple « Ne rien changer sur le contrôleur ». Mettez-le aussi dans les notes.
 :::
 
-## Pendant votre absence
+## Le partager avec votre gardien {#sharing}
 
-Tout le reste continue de fonctionner : mesures, alertes, Reef Buddy, automatisations. Le mode vacances ajoute seulement la page du gardien. Il ne change rien à la gestion de votre aquarium.
+Touchez **Créer un lien pour le gardien**. Cora crée une page web en lecture seule avec la liste, vos notes et les mesures de l’aquarium en direct. Votre gardien n’a besoin ni de Cora Mobile ni d’un compte. Touchez **Partager** pour l’envoyer, ou **Copier** pour copier le lien.
 
-Si vous voulez rester joignable, vérifiez vos **[réglages de notifications](/help/mobile-notifications)** avant de partir.
+Sur cette page, le gardien peut cocher les tâches au fur et à mesure. Vous voyez chacune sous **Activité du gardien**, avec l’heure. Il ne peut rien changer d’autre, ne peut pas piloter l’équipement et ne voit pas le reste de votre compte.
 
-## Au retour
+Le lien fonctionne jusqu’à votre date de retour plus 2 jours. **Nouveau lien** crée un nouveau lien et l’ancien cesse de fonctionner, ce qui est pratique si vous l’avez envoyé à la mauvaise personne.
 
-Une fois rentré, terminez le plan. La liste des tâches est gardée. Au prochain départ, vous pourrez la réutiliser sans tout réécrire.
+## Pendant votre absence {#while-away}
+
+Tout le reste continue de fonctionner normalement : mesures, alertes, Reef Buddy, dosage et automatisations. Le mode vacances ne met rien en pause. Tant qu’il est actif, le haut des Réglages indique *Le mode vacances est activé*. Touchez-le pour revoir le plan ou y mettre fin.
+
+:::warning Les alertes vous parviennent toujours
+La page du gardien montre les alertes actives, mais le gardien n’est jamais notifié. Les alertes de paramètres continuent d’arriver sur votre téléphone. Restez joignable, et mettez votre numéro dans le plan. Vérifiez vos [réglages de notifications](/help/mobile-notifications) avant de partir.
+:::
+
+Pour changer le plan pendant votre absence, touchez **Modifier**, puis **Enregistrer les modifications**.
+
+## Au retour {#coming-back}
+
+Touchez **Mettre fin au mode vacances** et confirmez avec **Y mettre fin**. Le lien du gardien cesse de fonctionner immédiatement. Votre liste reste enregistrée pour la prochaine fois.

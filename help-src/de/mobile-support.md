@@ -1,49 +1,58 @@
 ---
-title: Hilfe erhalten
-description: So meldest du ein Problem direkt aus Cora Mobile, und das wird dabei mitgeschickt.
+title: Ein Problem melden
+description: Einen Fehler melden oder Feedback aus Cora Mobile heraus schicken, sehen, was mitgeschickt wird, Absturzberichte einschalten oder dem Support schreiben.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 33
-group: Account
+reviewed: 2026-10-13
+order: 37
+group: Settings and account
 ---
 
-Meldest du ein Problem direkt aus Cora Mobile, hilft das mehr, als es später zu beschreiben. Cora Mobile hängt nämlich Details an, die man sich schlecht merken kann.
+Um ein Problem zu melden oder Feedback zu schicken, nutze **Einstellungen → Hilfe & Support → Fehler melden / Feedback senden**. Meldest du aus Cora Mobile heraus, werden Details angehängt, an die man sich später schwer erinnert.
 
-**Einstellungen → Fehler melden / Feedback senden.**
+![Das Formular zum Senden von Feedback in Cora Mobile](img/mobile-support.webp "Wähl, um was für eine Sache es sich handelt, sag, was passiert ist, und füg einen Screenshot hinzu, wenn es hilft.")
 
 ## Was du ausfüllst
 
-Das Formular fragt nach zwei Dingen. Zuerst, **worum es geht**, damit dein Bericht bei der richtigen Stelle landet. Dann, **was passiert ist**, in deinen eigenen Worten.
+1. Wähl unter **Um was für eine Sache handelt es sich?** eins: **Etwas ist kaputt**, **Funktionswunsch**, **Falsche Daten**, **Verwirrend**, **Abrechnung** oder **Etwas anderes**. So kommt der Bericht zur richtigen Person.
+2. Schreib unter **Was ist passiert?** in deinen eigenen Worten, was los war.
+3. Tippe auf **Senden**. Du siehst *Danke, wir haben deinen Bericht erhalten.*
 
-Beschreib genau, was du erwartet hast und was du stattdessen gesehen hast. "Die Alkalinität war auf dem Dashboard 2 Tage alt, obwohl der Apex ganz normal Werte geliefert hat" hilft uns viel mehr als "Messwerte kaputt".
+Sag, was du erwartet hast und was du gesehen hast. "Alkalinität war auf dem Dashboard 2 Tage alt, obwohl der Apex normal gemessen hat" hilft viel mehr als "Messwerte kaputt".
+
+Du kannst bis zu 10 Berichte pro Tag schicken.
 
 ## Was automatisch angehängt wird
 
-Jeder Bericht bekommt eine kurze Zeile mit Zusatzinfos. Das Formular zeigt sie dir vor dem Senden:
+Jeder Bericht enthält eine kurze Zeile mit Zusammenhang. Das Formular zeigt sie dir vor dem Senden, unter *Mit deinem Bericht gesendet*.
 
-- die **App-Version**
+- die **Version von Cora Mobile**
 - deine **Plattform** und die Version des Betriebssystems
-- den **Bildschirm**, auf dem du warst, als du das Formular geöffnet hast
+- der **Bildschirm**, auf dem du warst
 
-Damit lässt sich ein "hat nicht geklappt" nachstellen. Die Zeile ist sichtbar und nicht versteckt. Es wird also nichts gesendet, was du nicht gesehen hast.
+Der Bericht enthält außerdem die Sprache deines Handys und das Becken, das du ausgewählt hattest. Damit können wir meist nachstellen, was schiefgelaufen ist.
 
 ## Screenshots
 
-Mit **Screenshot anhängen** fügst du dem Bericht ein Bild hinzu. Mit **Screenshot entfernen** nimmst du es vor dem Senden wieder heraus.
+**Screenshot anhängen** fügt dem Bericht ein Bild aus deinen Fotos hinzu. **Screenshot entfernen** nimmt es vor dem Senden wieder heraus. Mach den Screenshot zuerst und öffne dann das Formular.
 
-:::warning Den Screenshot sieht der Cora-Support
-Das steht auch in Cora Mobile über der Schaltfläche. Schau dir das Bild vor dem Anhängen an. Ein Screenshot vom Dashboard zeigt deine Beckennamen und Messwerte und alles andere, was in dem Moment auf dem Bildschirm war.
+:::warning Der Cora-Support sieht deinen Screenshot
+Cora Mobile sagt dir das über der Taste. Prüf das Bild, bevor du es anhängst. Ein Screenshot vom Dashboard zeigt deine Beckennamen und Messwerte und alles andere, was auf dem Bildschirm war.
 :::
 
-:::note Warum es im Sitter-Modus keine Screenshots gibt
-Schaust du dir über einen geteilten Link das Becken von jemand anderem an, bietet Cora Mobile keine Screenshots an. Ein Screenshot würde sonst *deren* Daten an *dein* Support-Ticket hängen, und sie würden nie davon erfahren.
+:::note Keine Screenshots im Sitter-Modus
+Siehst du dir über einen geteilten Link das Becken von jemand anderem an, kannst du keinen Screenshot anhängen. Er würde *deren* Daten in *dein* Support-Ticket bringen, und sie würden es nie erfahren.
 :::
 
 ## Automatische Absturzberichte
 
-**Absturzberichte senden** steht neben der Zeile für Fehlerberichte. Der Schalter dient demselben Zweck, nur musst du nicht selbst merken, dass etwas kaputt ist, und es aufschreiben. Stürzt Cora Mobile ab, meldet es den Absturz von selbst. Mehr dazu unter [Einstellungen](/help/mobile-settings).
+**Absturzberichte senden**, unter **Hilfe & Support** unter der Zeile zum Melden, erledigt dieselbe Aufgabe, ohne dass du merken musst, dass etwas kaputt ist, und es aufschreibst. Bricht Cora Mobile ab oder lädt ein Bildschirm nicht, schickt es die technischen Details. Beckendaten, Fotos oder Kontodaten sind nicht dabei. Siehe [Cora Mobile-Einstellungen](/help/mobile-settings#getting-help).
 
-## Andere Wege
+## Dem Support schreiben
 
-- Fragen zu deinem eigenen Becken beantwortet dir meist **[Cora Assistant](/help/mobile-assistant)** schneller, denn er sieht deine Messwerte.
-- Verhält sich etwas anders als beschrieben, schau zuerst in die **[Problembehebung](/help/troubleshooting)**.
+**Einstellungen → Hilfe & Support → Support kontaktieren** öffnet eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit deiner Version von Cora Mobile schon eingetragen. Wir antworten meist innerhalb eines Tages. Hat dein Handy keine Mail-App, schreib von einem beliebigen E-Mail-Konto an diese Adresse.
+
+## Anderswo
+
+- Fragen zu deinem eigenen Becken lassen sich meist schneller mit [Cora Assistant](/help/mobile-assistant) beantworten, weil es deine Messwerte sehen kann.
+- Funktioniert etwas nicht so, wie diese Anleitung sagt, schau zuerst in die [Problembehebung](/help/troubleshooting).
+- Für eine Frage zur Abrechnung siehe [Pläne und Abos](/help/mobile-plans).

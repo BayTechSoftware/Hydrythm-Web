@@ -1,27 +1,51 @@
 ---
 title: Reef Buddy and reports
-description: The daily briefing, ICP results, health reports and history charts on Cora Max.
+description: The morning Reef Buddy briefing on Cora Max, giving feedback on insights, recording probe care, ICP results, health reports and history charts.
 section: Cora Max
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 12
 group: Intelligence
+twin: mobile-reef-buddy
 ---
 
-Cora Max shows the same insights as your phone, on a screen big enough to read from across the room. You'll find them in the **tank menu** (tap the tank name in the top bar).
+Cora Max shows the same insights as your phone, on a screen big enough to read from across the room. Reef Buddy, **ICP Reports**, **Health Reports** and **Parameter History** are all in the **tank menu** (tap the tank name in the top bar).
 
-![Reef Buddy on Cora Max](img/max-intelligence.webp "The briefing at full size.")
+## The morning briefing
+
+Each day at your **Briefing time**, once today's briefing is ready, Reef Buddy appears over the dashboard. If **Reef Buddy briefing** is on, Cora reads it out loud. It closes by itself after ten minutes if nobody touches it, or close it yourself.
+
+To read it again, tap the **Reef Buddy** icon in the top bar. A dot on the icon means you haven't opened today's briefing yet. The full Reef Buddy screen is in the tank menu.
+
+Set the time and the read-aloud switch in **Settings → Cora Max Settings → REEF BUDDY**. The **Briefing time** is the same on every device on your account.
 
 ## Reef Buddy
 
-The daily briefing shows up on the dashboard and also has its own full screen. There you'll see the Stability and Data scores, the summary and the insights behind them.
+![The Reef Buddy screen on Cora Max, with today's daily health score, the insights and Since your last ICP](img/max-intelligence.webp "Today's score and summary, the insights, and what moved since your last ICP.")
 
-What the scores mean is explained in [Reef Buddy](/help/mobile-reef-buddy).
+The Reef Buddy screen shows the Stability and Data scores, the summary and the insights behind them. What the scores mean is explained in [Reef Buddy](/help/mobile-reef-buddy).
 
-After you log a test or add an ICP result, the screen shows **New readings since this briefing** and an **Update briefing** button. Tap it to redo the briefing with the new numbers. It works once a day: afterwards the screen says *You can update the briefing once a day. Next update: tomorrow.*
+After you log a test or add an ICP result, the screen shows **New readings since this briefing** and an **Update briefing** button. Tap it to redo the briefing with the new numbers. It works once a day. After that the screen says *You can update the briefing once a day. Next update: tomorrow.*
+
+### Acting on an insight
+
+Tap an insight to open it.
+
+- **Why am I seeing this?** shows the readings, target and journal entries it's based on.
+- **Does this match what you see?** Answer **Confirmed**, **Already knew**, **Doesn't match** or **Not sure**, then say whether it was **Valuable** or **Not really**. Cora uses your answers to learn your tank.
+
+When Cora doubts a reading, it shows it under **Worth a check**, for example a probe that may be drifting. There you can:
+
+- tap **I checked it** to record what you did to the probe,
+- tap **Add to Maintenance** to make it a task (**Check pH probe** or **Verify dosing configuration**), or
+- tap **Dismiss**. It stays quiet unless the problem persists.
+
+### Recording probe care
+
+After you clean, calibrate or replace a probe, record it so Cora doesn't mistake the jump for probe drift. Open that parameter's history chart and tap **Record probe care** (the sensor icon at the top), or use **I checked it** on a probe insight. Pick what you did, optionally enter a reference reading, and tap **Log probe care**. More in [Recording probe care](/help/mobile-probes#recording-probe-care).
 
 ## ICP results
 
-![ICP reports on Cora Max](img/max-icp.webp "Every uploaded result, with its score.")
+![The ICP Reports screen on Cora Max, with the latest report, the list of reports and the selected report's summary](img/max-icp.webp "The latest result and its score, every report on file, and the open report's summary.")
 
 This screen shows your uploaded results with the score and summary for each, plus trends across all your reports.
 
@@ -31,20 +55,28 @@ You upload results from your phone. More about this in [ICP and health reports](
 
 ## Health reports
 
-You can run and read a health report at the wall. It's the same assessment your phone makes, and its score works the same way as an ICP score.
+You can run and read a health report at the wall. Open **Health Reports** and tap **Generate**. It's the same assessment your phone makes from your parameters, ICP results and journal, and its score works the same way as an ICP score.
+
+- Health reports need AI data sharing. If it's off, Cora Max shows **Data sharing needed**. Turn it on in Cora Mobile under **Settings → Cora Assistant**.
+- Each plan has a number of health reports a month. When they're used up, you see **Monthly limit reached** until next month. More in [Plans](/help/mobile-plans).
 
 ## History charts
 
-Open the **tank menu** and tap **Parameter History**. Choose a parameter from **Choose a parameter**, and it opens as a full-screen chart. Tapping a tile on the dashboard opens the same chart. On a wall display, this is the best way to spot a slow drift. A month of alkalinity at full screen shows a trend a small tile can't.
+Open the **tank menu** and tap **Parameter History**, then pick a parameter. It opens as a full-screen chart. Tapping a tile on the dashboard opens the same chart. On a wall display, this is the best way to spot a slow drift. A month of alkalinity at full screen shows a trend a small tile can't.
 
-The parameter name in the header is a dropdown, so you can switch to another parameter and keep the timeframe. Two more dropdowns set the **Timeframe** and the **Source**: **All sources**, or one of **Apex**, **Manual**, **ICP**, **Cora**, **ReefBeat** or **AquaWiz**. **Compare** draws a second parameter on the same chart, and the list has every parameter the tank has. Each source has its own colour. ReefBeat and AquaWiz points are squares, and readings someone took by hand (Manual and ICP) are larger dots. **All sources** shows every source side by side and never averages one source's readings with another's.
+- The parameter name in the header is a dropdown, so you can switch parameters and keep the timeframe.
+- **Timeframe** sets the period.
+- **Source** shows **All sources** or one source this parameter comes from, such as **Apex**, **Manual**, **ICP** or **ReefBeat**. Only sources this parameter has are listed.
+- **Compare** draws a second parameter on the same chart.
 
-More in [Looking into a parameter](/help/mobile-metric-detail).
+Each source has its own colour. Device readings such as ReefBeat and AquaWiz are squares, and readings someone took by hand (Manual and ICP) are larger dots. **All sources** shows every source side by side and never averages one source's readings with another's. Dashed lines mark logged doses. Under the chart you'll see **Latest**, **Avg**, **Min**, **Max** and the **30d low** and **30d high**.
+
+For alkalinity, calcium and magnesium, the **Dose calculator** button at the top works out a correction dose. More in [Looking into a parameter](/help/mobile-metric-detail).
 
 ## Guided journeys
 
-You can follow a journey on Cora Max and see how far along it is.
+An active journey shows as a slim banner at the top of the tank's dashboard. Tap it to see the steps and how far along you are.
 
-You can also take readings for a cycling journey here. **Log a test** on the cycling screen records ammonia, nitrite and nitrate without reaching for your phone, which helps when you're at the tank with a test kit in hand.
+On a new tank that's cycling, you can take readings here. **Log a test** on the cycling screen records ammonia, nitrite and nitrate without reaching for your phone.
 
-At the wall, an **issue** journey is view only. Starting one, completing a step, recording an outcome, and resolving or dismissing it all happen on your phone. More about this in [Guided journeys](/help/mobile-journeys).
+An **issue** journey is view only at the wall. Starting one, completing a step, recording an outcome, and resolving or dismissing it all happen on your phone. More about this in [Guided journeys](/help/mobile-journeys).

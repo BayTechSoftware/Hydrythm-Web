@@ -1,41 +1,71 @@
 ---
-title: Sarf malzemeleri
-description: Reaktif, dozaj kapları, rezervuarlar ve filtre medyası için dolum uyarıları kurun.
+title: Sarf malzemeleri ve dolum uyarıları
+description: Reaktif, dozaj kapları, su tamamlama depoları ve filtre ruloları için dolum uyarıları kurun ve doldurduğunuzda Cora'ya bildirin.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 14
+reviewed: 2026-10-13
+order: 16
 group: Equipment
 ---
 
-Bir şey tüketen ekipman (reaktif, dozaj sıvısı, tamamlama suyu, filtre medyası) Cora'ya ne kadar kaldığını bildirir. Cora da bitmeden önce sizi uyarır.
+Reaktif, dozaj sıvısı, su tamamlama suyu ya da filtre rulosu bitmeden Cora'nın sizi uyarması için dolum uyarılarını kullanın. Cihazı **Cihazlar** sekmesinden açın (ya da panodaki kutucuğuna dokunun), sonra üst çubuktaki **zile** dokunun.
 
-## Dolum uyarısı kurma
+## Dolum uyarısı kurma {#setting-a-refill-alert}
 
-Cihazı açın. Bunun için **Cihazlar** sekmesini kullanabilir ya da panodaki kutucuğuna dokunabilirsiniz. Sonra üst çubuktaki **zil** simgesine dokunun.
+![Bir ReefDose 4 için Uyarılar sayfası, her kafa için kalan gün eşiği ve anahtarıyla](img/mobile-consumables.webp "Her kafa için bir eşik, her birinin kendi anahtarı var.")
 
-![Dozaj ünitesi için dolum uyarıları](img/mobile-consumables.webp "Her kafa için ayrı eşik. Her biri tek tek açılıp kapatılır.")
+Sayfanın adı **Uyarılar:** ve ardından cihazın adıdır. Ekipmanda birden fazla kap varsa her birinin kendi eşiği ve kendi anahtarı olur. Böylece yakından izlediğiniz bir kafayla nadiren dokunduğunuz bir kafayı farklı ayarlayabilirsiniz. Bir anahtarı kapatmak değeri sonrası için saklar.
 
-Birden fazla kabı olan ekipmanda her kabın kendi eşiği olur. Yakından izlediğiniz kafayla nadiren elinizi sürdüğünüz kafayı farklı ayarlayabilirsiniz.
+Nereden ayarlanır:
 
-**Eşiklerin çoğu hacim yerine gün olarak girilir.** Cora, kalan miktarın sizin gerçek kullanım hızınızla kaç gün yeteceğini hesaplar. İşinize yarayan sayı budur. "Dört günlük kalsiyum kaldı" bilgisi, "180 mL kaldı" bilgisinden çok daha fazlasını anlatır.
+- **Çoğu cihaz**: cihaz sayfasının üst çubuğundaki zil.
+- **DŌS**: DŌS sayfasındaki **Uyarılar** kartı ya da zil. [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümüne bakın.
+- **AquaWiz ve GHL dozaj pompaları**: [Uyarı Merkezi](/help/mobile-alerts)'nin **Kurallar** sekmesindeki kuralları.
 
-| Cihaz | Eşik neye göre |
-|---|---|
-| Trident | Kalan test sayısı ve atık şişesinin doluluğu |
-| Dozaj kafası | Takviyenin kaç gün yeteceği. Bazı kafalarda kalan mililitre de seçilebilir |
-| ATO | Rezervuarın kaç gün yeteceği |
-| Mat rulosu | Rulonun kaç gün yeteceği |
+Eşiklerin çoğu hacim olarak değil gün olarak girilir. Cora, kalan miktarın sizin kullanım hızınızla ne kadar yeteceğini hesaplar. "Dört günlük kalsiyum kaldı" bilgisiyle bir şey yapabilirsiniz. "180 mL kaldı" bilgisiyle yapamazsınız.
 
-Sarf malzemesi uyarısı diğer uyarılar gibi çalışır. [Uyarı Merkezi](/help/mobile-alerts)'nde görünür ve telefonunuza bildirim gönderebilir. Seviye eşiğin altına indiğinde **tek** bildirim alırsınız, bildirimler art arda gelmez. Seviye yeniden eşiğin üstüne çıkınca uyarı kapanır.
+## Neler için uyarı alabilirsiniz {#thresholds}
 
-## Eşik seçme
+| Cihaz | Eşik | Başlangıç değeri |
+|---|---|---|
+| Trident | **Kalan testler** (en az kalan reaktif) | 10 test |
+| Trident | **Atık şişesi** (dolu şişe bir sonraki testi başarısız yapar) | %85 dolu |
+| DŌS kafası | *[kafa] · kalan gün* | 7 gün |
+| DŌS kafası | *[kafa] · kalan*, mL olarak | 100 mL |
+| Eski suyu dışarı alan DŌS kafası | **Atık kabında kalan alan** | |
+| DŌS kafası | **Kaçırılan dozaj uyarıları** (bir anahtar) | |
+| ReefDose kafası | Takviyenin kaç gün yeteceği | 7 gün |
+| ReefATO+ | Son su tamamlama kullanımından tahmin edilen **Depo süresi** | 2 gün |
+| ReefMat | Rulonun ilerleme hızından tahmin edilen **Kalan rulo** | 3 gün |
+| AquaWiz | Kalan alkalinite takviyesi | 100 mL |
+| GHL dozaj pompası *(Beta)* | Kabın ne kadar dolu olduğu | %20 |
+| EcoTech Versa *(Beta)* | Takviyenin kaç gün yeteceği ve kabın ne kadar dolu olduğu | 7 gün, %10 |
 
-Eşiği, harekete geçmeye vaktiniz kalacak kadar erken ayarlayın. Malzemenin bittiği gün gelen uyarı işe yaramaz.
+Bir Focustronic *(Beta)* ünitesi kendi reaktif ve tampon uyarılarını kendi sayfasında gösterir.
 
-:::warning Bazı ekipmanlar boşalınca durmaz
-Kabı boşalan dozaj kafası zamanlamasına göre çalışmaya devam eder ve aslında vermediği dozları da vermiş gibi kaydeder. Bunu dolum uyarısı önler. Dozaj yaptığınız her kafa için bir uyarı kurun.
+:::note Beta
+**Beta.** GHL, EcoTech ve Focustronic Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
 :::
 
-## Doldurduktan sonra
+Sarf malzemesi uyarısı diğer uyarılar gibi çalışır. [Uyarı Merkezi](/help/mobile-alerts)'nde görünür ve telefonunuza bildirim gönderebilir. Bir seviye aşıldığında **tek** bildirim alırsınız. Seviye yeniden eşiğin üstüne çıkınca uyarı kapanır.
 
-Cihazın sayfasında seviyeyi sıfırlayın ya da güncelleyin. Böylece uyarı kapanır ve bir sonraki uyarı doğru hesaplanır.
+## Eşik seçme {#choosing-a-threshold}
+
+Eşiği, harekete geçmeye vaktiniz kalacak kadar erken ayarlayın. Bir şeyin bittiği gün gelen uyarı hiç uyarı sayılmaz.
+
+:::warning Bazı ekipmanlar boşken de çalışmaya devam eder
+Kabı boş bir DŌS kafası zamanlamasını çalıştırmaya devam eder ve hiç vermediği dozları vermiş gibi bildirir. Kendine ait bir düşük seviye uyarısı yoktur. Bunu yakalamanın yolu dolum uyarısıdır, bu yüzden dozaj yaptığınız her kafa için bir tane kurun.
+:::
+
+## Doldurduktan sonra {#after-refilling}
+
+Uyarının kapanması ve bir sonraki uyarının doğru seviyeden hesaplanması için bunu cihaz sayfasında Cora'ya bildirin.
+
+| Cihaz | Dokunun |
+|---|---|
+| DŌS kafası | **Doldur**, ardından **Dolu**, ya da **Kalan Hacim**'i ayarlayın |
+| DŌS atık kabı | Boşalttıktan sonra boş alanını tam olarak sıfırlayın |
+| ReefDose kafası | **Şişede kalan** |
+| ReefMat | Yeni rulo taktıktan sonra **Yeni rulo (Beta)** |
+| EcoTech Versa *(Beta)* | **Dolduruldu olarak işaretle** |
+
+Trident, ReefATO+ ve AquaWiz kendi seviyelerini bildirir, bu yüzden Cora'da sıfırlanacak bir şey yoktur.

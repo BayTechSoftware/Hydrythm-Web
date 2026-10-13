@@ -1,98 +1,118 @@
 ---
 title: Reef Buddy
-description: Deine tägliche Zusammenfassung, was drinsteht, wann sie kommt und wie du die Werte liest.
+description: Dein tägliches Reef Buddy-Briefing, was es abdeckt, wann es kommt, wie du die Bewertungen liest und warum ein Briefing vielleicht nicht kommt.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 24
+reviewed: 2026-10-13
+order: 29
 group: Intelligence
+twin: max-intelligence
 ---
 
-Reef Buddy ist ein kurzer täglicher Blick auf dein Becken. Die Zusammenfassung kommt jeden Morgen, sagt dir, was sich verändert hat, und weist dich auf alles hin, was du dir ansehen solltest, oft bevor es dir selbst auffällt.
+Reef Buddy ist ein kurzer täglicher Blick auf dein Becken. Es kommt jeden Morgen, sagt dir, was sich geändert hat, und weist dich auf alles hin, was deine Aufmerksamkeit braucht, bevor es dir selbst auffallen würde.
 
-Du findest sie als Karte oben auf deinem Dashboard und als Benachrichtigung.
+Du siehst es als Karte oben auf deinem Dashboard und als eine Benachrichtigung, wenn es etwas gibt, bei dem sich Handeln lohnt.
 
-![Eine Reef Buddy-Zusammenfassung](img/mobile-reefbuddy.webp "Stabilitäts- und Daten-Bewertungen, eine Zusammenfassung, dann die Insights dahinter.")
+![Ein Reef Buddy-Briefing](img/mobile-reefbuddy.webp "Bewertungen für Stabilität und Daten, eine Zusammenfassung, dann die Insights dahinter.")
 
-## Was in einer Zusammenfassung steht
+## Was in einem Briefing steht
 
-Eine **Schlagzeile**, die das Becken heute in einer Zeile beschreibt.
+Es beginnt mit einer Schlagzeile, einer Zeile, die das Becken heute zusammenfasst. Dann kommen zwei Bewertungen.
 
-Zwei **Werte**:
-
-| Wert | Bedeutung |
+| Bewertung | Bedeutung |
 |---|---|
-| **Stabilität** | von 0 bis 100. Wie gleichmäßig deine Messwerte in den letzten 30 Tagen waren |
-| **Daten** | in Prozent. Wie vollständig die Daten hinter der Einschätzung sind |
+| **Stabilität** | Von 100. Wie gleichmäßig deine Messwerte in den letzten 30 Tagen waren |
+| **Daten** | Ein Prozentsatz. Wie vollständig die Daten hinter der Einschätzung sind |
 
-Ein niedriger Daten-Wert heißt, dass die Einschätzung auf weniger Messwerten beruht, als sie bräuchte. Schau ihn dir deshalb zuerst an. Ist er niedrig, nimm die Stabilität daneben nur als vorläufig.
+Ein niedriger Daten-Wert heißt, dass Cora weniger Messwerte zur Verfügung hatte, als es wollte. Sieh ihn dir zuerst an. Ist Daten niedrig, nimm die Zahl für Stabilität daneben als erste Schätzung.
 
-Eine **Zusammenfassung**: ein kurzer Absatz, der die Schlagzeile erklärt und sich auf deine echten Werte und Bereiche bezieht.
+Danach kommt eine Zusammenfassung, ein kurzer Absatz, der die Schlagzeile mit deinen echten Werten und Bereichen erklärt.
 
-Die **Erkenntnisse**, also die einzelnen Befunde. Jede hat eine Kategorie (etwa *Wasserchemie*) und einen Rhythmus (etwa *Täglich*) und lässt sich für Details aufklappen. Ein Chip oben im Abschnitt zeigt den Beckentyp und wie vollständig das Profil ausgefüllt ist. Beides beeinflusst, welche Schlüsse Cora ziehen kann.
+Dann kommen die Insights, eins für jeden Befund. Jedes hat eine Kategorie (etwa *Wasserchemie*) und einen Rhythmus (etwa *Täglich*), und du kannst es für Details aufklappen. Ein Chip oben im Abschnitt zeigt den Beckentyp und wie vollständig sein Profil ist. Beides beeinflusst, was Cora schließen kann.
 
-Bevor eine Erkenntnis bei dir ankommt, wird sie gefiltert. Sie muss sich über mehrere Messwerte bestätigen, ein einzelner Ausreißer reicht nicht. Und sie muss dir etwas sagen, das du nicht schon an einem einzelnen Diagramm gesehen hättest.
+Cora filtert Insights, bevor sie dich erreichen. Ein Insight muss sich über mehrere Messwerte halten. Einer reicht nicht. Es muss dir außerdem etwas sagen, das ein einzelnes Diagramm nicht schon zeigen würde.
 
-Tippe auf die Karte im Dashboard, um die ganze Zusammenfassung zu öffnen.
+Tippe auf die Karte auf dem Dashboard, um das ganze Briefing zu öffnen.
 
-## Die Zusammenfassung mit einem neuen Test aktualisieren
+## Das Briefing wieder öffnen {#dismissing-the-card}
 
-Trägst du einen Test von Hand ein oder fügst ein ICP-Ergebnis hinzu, nachdem die Zusammenfassung erschienen ist, zeigt die Karte in der ganzen Zusammenfassung **Neue Messwerte seit diesem Briefing** mit einer Schaltfläche **Briefing aktualisieren**. Tippe darauf, und Cora erstellt die Zusammenfassung mit den neuen Zahlen neu. Das geht einmal am Tag für jeden Haushalt. Danach ist die Schaltfläche grau und zeigt *Du kannst das Briefing einmal pro Tag aktualisieren. Nächste Aktualisierung: morgen.*
+Tippe auf **×**, um die heutige Karte vom Dashboard zu entfernen. Die von morgen kommt trotzdem.
+
+Um das heutige Briefing zu öffnen, nachdem du die Karte entfernt hast, tippe oben auf dem Dashboard auf die Zeitungstaste (**Reef Buddy tägliche Gesundheit**). Ein älteres Briefing öffnest du über seine Benachrichtigung.
+
+## Das Briefing mit einem neuen Test aktualisieren
+
+Trägst du einen Test von Hand ein oder fügst ein ICP-Ergebnis hinzu, nachdem das Briefing erschienen ist, zeigt das ganze Briefing **Neue Messwerte seit diesem Briefing** mit einer Taste **Briefing aktualisieren**. Tippe darauf, und Cora erstellt das Briefing mit den neuen Zahlen neu. Das verbraucht eine Nachricht aus deinem Assistant-Kontingent.
+
+Das geht einmal am Tag für dein Konto. Danach ist die Taste ausgegraut und sagt *Du kannst das Briefing einmal pro Tag aktualisieren. Nächste Aktualisierung: morgen.*
 
 Messwerte von Sonden und Controllern lösen dieses Angebot nicht aus, weil sie den ganzen Tag hereinkommen.
 
-## Warum du eine Erkenntnis siehst
+## Warum du ein Insight siehst
 
-Tippe unter einer Erkenntnis auf **Warum sehe ich das?** Das Blatt **Darum siehst du das** zeigt unter **Verwendete Messwerte**, was eingeflossen ist, unter **Verglichener Zielwert** deinen eigenen Zielwert oder einen Referenzbereich, unter **Aus deinem Journal** alles, was berücksichtigt wurde, und unter **Zeitfenster (Tage)** den betrachteten Zeitraum. Passt die Begründung nicht zu deinem Becken, antworte auf die Erkenntnis, wie unter "Eine Erkenntnis bewerten" weiter unten beschrieben.
+Tippe unter einem Insight auf **Warum sehe ich das?** Das Fenster **Darum siehst du das** listet die **Verwendete Messwerte** auf, den **Verglichener Zielwert** (dein eigener Zielwert oder ein Referenzbereich), alles **Aus deinem Journal**, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter [Ein Insight korrigieren](#ein-insight-korrigieren) beschrieben.
 
-Zusammenfassungen stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts, die Summen deiner DŌS-Köpfe und, wenn du einen Inkbird-Raumluftmonitor (Beta) hast, Temperatur und Luftfeuchtigkeit im Raum. Inkbird steht nur Beta-Nutzern offen. Siehe [Beta-Funktionen](/help/mobile-beta).
+Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts, die Summen deiner DŌS-Köpfe und, wenn du einen Inkbird-Raumluftmonitor hast, Temperatur und Luftfeuchtigkeit im Raum.
 
-## Wann sie kommt
+:::note Inkbird ist in der Beta
+**Beta.** Inkbird ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
+:::
 
-Einmal am Tag für jedes Becken, zu der Uhrzeit, die du wählst. Du stellst sie in den **Einstellungen** unter **Briefing-Zeit** ein. Die Zusammenfassung kommt innerhalb von etwa 15 Minuten nach dieser Uhrzeit, in deiner eigenen Zeitzone. Wählst du nichts aus, kommt sie um 8:00 Uhr.
+## Wann es kommt
 
-Wähle eine Uhrzeit nach deinem üblichen Morgentest, damit das heutige Ergebnis in der Zusammenfassung steht.
+Einmal am Tag für jedes Becken, zu der Stunde, die du wählst. Stell sie unter **Einstellungen → Briefing-Zeit** ein, neben **Benachrichtigungen**. Das Briefing kommt innerhalb von etwa 15 Minuten nach dieser Stunde, in deiner eigenen Zeitzone. Wählst du nie etwas, kommt es um 8:00.
 
-An Tagen, an denen nichts deine Aufmerksamkeit braucht, bleibt Reef Buddy meist still. Cora schickt dir dann keine Nachricht, nur um zu sagen, dass alles in Ordnung ist. **Kommt eine Push-Nachricht, gibt es etwas zu tun.** Das kann eine neue Veränderung sein oder ein Zustand, der schon so lange anhält, dass er erwähnt werden sollte.
+Wähl eine Stunde nach deinem üblichen Morgentest, damit das heutige Ergebnis im Briefing ist.
 
-:::note Jedes Becken hat seine eigene Zusammenfassung
-Hast du drei Becken, bekommst du drei Zusammenfassungen. Jede handelt nur von ihrem Becken.
+An einem Tag, an dem nichts deine Aufmerksamkeit braucht, bleibt Reef Buddy meist still. Es schickt keine Push-Nachricht, nur um zu sagen, dass alles in Ordnung ist. **Eine Push-Nachricht heißt, dass es etwas gibt, bei dem sich Handeln lohnt.** Das kann eine neue Änderung sein oder etwas, das lange genug anhält, um es zu erwähnen.
+
+:::note Ein Becken, ein Briefing
+Jedes Becken, das dein Abo abdeckt, bekommt sein eigenes Briefing, und jedes handelt nur von diesem Becken. Siehe [Welche Becken ein Briefing bekommen](#availability).
 :::
 
 :::note Cora Max hat eine eigene Reef Buddy-Einstellung
-Auch ein Cora Max hat in seinen Einstellungen einen Abschnitt **Reef Buddy**. Seine **Briefing-Zeit** ist dieselbe Einstellung wie auf deinem Handy: Änderst du sie an einem der beiden Geräte, gilt das für beide. Der Schalter für die Zusammenfassung auf dem Bildschirm gehört nur zu diesem einen Cora Max. Schaltest du ihn dort aus, kommt die Zusammenfassung trotzdem weiter auf dein Handy.
+Cora Max hat in seinen Einstellungen auch einen Bereich **Reef Buddy**. Seine **Briefing-Zeit** ist dieselbe Einstellung wie auf deinem Handy: Ändere sie auf einem von beiden, und beide folgen. Der Schalter für das Briefing auf dem Bildschirm gehört nur zu diesem Cora Max. Schaltest du ihn dort aus, erreicht das Briefing trotzdem dein Handy.
 :::
 
-## Die Werte lesen
+## Die Bewertungen lesen
 
-Die **Stabilität** zeigt, wie gleichmäßig deine Messwerte in den letzten 30 Tagen waren. Ob die Werte im Bereich liegen, misst sie nicht. Ein Becken, das gleichmäßig auf dem falschen Niveau läuft, kann also trotzdem gut abschneiden. Eine Bewertung gegen deine Zielbereiche bekommst du mit einem [Zustandsbericht](/help/mobile-icp-health). Die Stabilität ist ein Verlauf, den du über die Zeit beobachtest, keine Schulnote. Vergleich sie mit deinen eigenen früheren Werten und nicht mit einem anderen Becken.
+**Stabilität** zeigt, wie gleichmäßig deine Messwerte in den letzten 30 Tagen waren. Sie misst nur die Gleichmäßigkeit. Ob die Messwerte im Bereich liegen, prüft sie nicht, ein Becken, das gleichmäßig auf dem falschen Niveau gehalten wird, kann also trotzdem gut abschneiden. Um zu sehen, wie du im Vergleich zu deinen Zielbereichen dastehst, erstelle einen [Gesundheitsbericht](/help/mobile-icp-health#health-reports). Betrachte die Stabilität als Trend, den du über die Zeit beobachtest. Vergleich sie mit deinen eigenen früheren Bewertungen und nicht mit dem Becken von jemand anderem.
 
-Der Wert **Daten** zeigt, wie viele aktuelle Informationen für die Einschätzung da waren. Er sinkt, wenn Messwerte veralten.
+**Daten** zeigt, wie viele aktuelle Informationen Cora zur Verfügung hatte. Der Wert sinkt, wenn Messwerte alt werden.
 
-:::note Sinkt der Daten-Wert, sind meist Messwerte veraltet
-Hast du eine Woche lang nichts getestet, sinkt der Daten-Wert, und die Stabilität wird weniger verlässlich. Trag neue Messwerte ein, dann erholen sich beide.
+:::note Ein sinkender Daten-Wert heißt meist alte Messwerte
+Hast du eine Woche lang nichts getestet, sinkt der Daten-Wert, und die Stabilität wird weniger verlässlich. Trag ein paar Messwerte ein, um beide wieder anzuheben.
 :::
 
-## Die Karte ausblenden
+## Welche Becken ein Briefing bekommen {#availability}
 
-Mit **×** blendest du die Karte von heute auf dem Dashboard aus. Die von morgen kommt trotzdem. Frühere Zusammenfassungen findest du weiter im Tab **Intelligenz**.
+Reef Buddy gehört zu den bezahlten Abos. Es ist auch in der 30-tägigen Testphase enthalten, die beginnt, wenn du dein Konto anlegst.
 
-## Verfügbarkeit
+Jedes Abo deckt eine feste Zahl von Becken ab: 1 in der Testphase und bei Plus, 5 bei Pro und 20 bei Max. Briefings gehen an die ersten Becken in der Reihenfolge unter **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, das leer ausgeht, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz.
 
-Reef Buddy gehört zu den bezahlten Stufen. Es ist auch in der 30-tägigen Testphase enthalten, die mit deiner Registrierung beginnt. Nach der Testphase bekommt ein kostenloses Konto keine Zusammenfassungen mehr. Mehr dazu unter [Abos](/help/mobile-plans).
+Nach der Testphase sieht ein kostenloses Konto dort, wo das Briefing war, eine gesperrte Reef Buddy-Karte mit **Pläne ansehen** und bekommt keine Briefing-Benachrichtigung. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 
-## Eine Erkenntnis bewerten
+## Wenn kein Briefing kam
 
-Auf jede Erkenntnis kannst du mit einer von vier Antworten reagieren:
+- **Nichts brauchte deine Aufmerksamkeit.** Reef Buddy bleibt an einem guten Tag still. Die Karte steht trotzdem auf dem Dashboard.
+- **Deine Testphase ist zu Ende.** Ein kostenloses Konto bekommt die gesperrte Karte und keine Benachrichtigung.
+- **Das Becken liegt über der Grenze deines Abos.** Schieb es unter **Einstellungen → Becken neu anordnen** nach oben.
+- **Benachrichtigungen sind aus.** Prüf [Benachrichtigungen](/help/mobile-notifications).
+
+Hast du **Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen** ausgeschaltet, kommt das Briefing trotzdem, aber seine Zusammenfassung ist ein einfacher fester Text, und die Beobachtung, die eine KI schreibt, fehlt. Siehe [Cora fragen](/help/mobile-assistant#consent).
+
+## Ein Insight korrigieren
+
+Du kannst auf jedes Insight auf eine von vier Arten reagieren.
 
 | Antwort | Bedeutung |
 |---|---|
-| **Bestätigt** | war richtig und hilfreich |
-| **Stimmt nicht überein** | passt nicht zu dem, was du siehst |
-| **Schon gewusst** | stimmt, aber du wusstest es schon |
-| **Nicht sicher** | kannst du noch nicht beurteilen |
+| **Bestätigt** | Es war richtig und nützlich |
+| **Stimmt nicht überein** | Es passt nicht zu dem, was du siehst |
+| **Schon gewusst** | Richtig, aber du wusstest es schon |
+| **Nicht sicher** | Du kannst es noch nicht beurteilen |
 
-Meldet Reef Buddy eine Drift, fragt es auch *War dieser Hinweis nützlich?* Du kannst **Hilfreich**, **Nicht hilfreich**, **Diese Änderung ist erwartet** oder **Messwert sieht falsch aus** antworten. Deine Antworten beeinflussen, was in späteren Zusammenfassungen oben steht. Ausgeblendet wird eine Erkenntnis nur **auf Zeit**. Hält der Zustand an, taucht sie wieder auf.
+Meldet Reef Buddy eine Drift, fragt es außerdem *War dieser Hinweis nützlich?* Du kannst mit **Hilfreich**, **Nicht hilfreich**, **Diese Änderung ist erwartet** oder **Messwert sieht falsch aus** antworten. Deine Rückmeldung bestimmt, was in späteren Briefings zuerst erscheint. Ein Insight auszublenden, gilt nur eine Weile. Besteht das Problem noch, kommt das Insight zurück.
 
-:::note Ernste Befunde blendet Cora nie aus
-Nur weniger dringende Erkenntnisse lassen sich durch deine Antworten beruhigen. Warnungen und kritische Befunde erscheinen weiter, egal wie du vorher darauf reagiert hast.
+:::note Ernste Befunde werden nie ausgeblendet
+Rückmeldungen beruhigen nur weniger ernste Insights. Warnungen und kritische Insights erscheinen weiter, egal was du vorher geantwortet hast.
 :::

@@ -1,88 +1,102 @@
 ---
 title: Dodawanie, edytowanie i usuwanie urządzeń
-description: Jak dodać sprzęt do Cory, przypisać go do akwarium i bezpiecznie go usunąć, wszystko w jednym miejscu.
+description: Dodaj sprzęt do Cory, przypisz go do akwarium, zmień jego nazwę, sprawdź, czy działa poprawnie, i usuń go, wszystko z zakładki Urządzenia.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 11
 group: Equipment
+twin: max-devices
 ---
 
-Dodawaj, edytuj, przypisuj i usuwaj każde urządzenie w zakładce **Urządzenia**, pogrupowane według marek. Każdą grupę można zwinąć, więc nawet przy dużej ilości sprzętu lista pozostaje czytelna.
+W zakładce **Urządzenia** dodajesz, przypisujesz, nazywasz, sprawdzasz i usuwasz każdy element sprzętu. Urządzenia są pogrupowane według marek, a każdą grupę możesz zwinąć.
 
 ![Zakładka Urządzenia](img/mobile-devices.webp "Sprzęt pogrupowany według marek. Każdą grupę można zwinąć.")
 
-## Dodawanie sprzętu
+## Dodawanie sprzętu {#adding-equipment}
 
-Dotknij **Dodaj urządzenie**, a potem wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** albo **AquaWiz**. Użytkownicy Beta widzą też **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** i **Kamera**, każdą z plakietką **Beta**. Każda otwiera dokładnie to, czego potrzebuje, żeby znaleźć Twój sprzęt: skanowanie sieci, adres IP, logowanie albo klucz urządzenia. [Podłączanie sprzętu](/help/mobile-connections) opisuje, czego potrzebuje każda marka.
+1. W zakładce **Urządzenia** dotknij **Dodaj urządzenie**.
+2. Wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** albo **AquaWiz**. Użytkownicy Beta widzą też **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** i **Kamera**, każdą z chipem **Beta**.
+3. Wykonaj kroki dla danej marki. W zależności od marki to skanowanie sieci, adres IP, logowanie albo klucz urządzenia. [Podłączanie sprzętu](/help/mobile-connections) opisuje kroki dla każdej marki.
+4. Wybierz akwarium, do którego należy.
+
+![Lista Dodaj urządzenie u użytkownika Beta](img/mobile-add-device-beta.webp "Marki Beta mają chip Beta.")
 
 :::note Beta
-**Beta.** Integracje Beta są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcje Beta](/help/mobile-beta).
+**Beta.** Integracje Beta są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
 :::
 
 Wiersz, który wymaga Cora Max w akwarium (Maxspect, GHL, EcoTech, Inkbird i Kamera), jest wyszarzony i pokazuje **Wymaga Cora Max**, dopóki akwarium go nie ma.
 
-**Cora** to sposób na sparowanie nowego Cora Max. Wyszukuje urządzenia w Twojej sieci Wi-Fi albo w pobliżu przez Bluetooth. Jeśli wyszukiwanie nic nie znajdzie, na tym samym ekranie jest przycisk **Wpisz adres IP ręcznie**.
-
-Gdy dodajesz sprzęt, np. grzałkę, pompę albo odpieniacz, Cora **podpowiada** markę i model. Zacznij pisać, a Cora zaproponuje nazwy z dużej, sprawdzonej listy marek. Jeśli Twojej marki nie ma, i tak ją wpisz. Cora zapisze to, co wpiszesz.
-
-:::note Cora i telefon muszą być w tej samej sieci
-Sprzęt wykrywany lokalnie musi przy dodawaniu być w tej samej sieci co telefon. **Po konfiguracji też jest osiągalny tylko w tej sieci** (albo przez Bluetooth, jeśli z niego korzysta), chyba że na miejscu jest urządzenie Cora, które się z nim połączy.
-
-Sprzęt, który w domu pokazuje dobre odczyty, poza domem może więc pokazywać starsze wartości, jeśli na miejscu nie ma Cora Max, który by go odpytywał. To nie usterka. Po prostu sprzęt jest osiągalny tylko z określonego miejsca.
+:::note Bez Cora Max część sprzętu działa tylko lokalnie
+Ze sprzętem Neptune Apex, Red Sea i Jecod łączysz się przez sieć domową albo Bluetooth. Bez Cora Max ekran dodawania pokazuje *Bez Cora Max ta integracja działa tylko lokalnie w aplikacji Mobile.* Telefon odczytuje go i nim steruje tylko wtedy, gdy jest w tej samej sieci (albo w zasięgu Bluetooth). Poza domem widzisz ostatnie odczyty zapisane przez telefon i nie możesz nim sterować. Cora Max przy akwarium odczytuje go przez całą dobę i przekazuje Twoje polecenia. Więcej w [Podłączaniu sprzętu](/help/mobile-connections#local-only).
 :::
 
-## Strona urządzenia
+Gdy dodajesz sprzęt ze swojej sieci, telefon musi być w tej samej sieci co sprzęt.
 
-Otwórz dowolne urządzenie z listy. Najpierw są jego przyciski sterujące, a pod nimi trzy sekcje, które działają tak samo dla każdej marki.
+## Parowanie Cora Max {#pairing-a-cora-max}
 
-- **Akwaria** pokazuje, do którego akwarium (albo akwariów) jest przypisane. Dotknij **Zmień**, żeby je przepisać.
-- **Połączenie** to miejsce, gdzie edytujesz jego adres IP, dane logowania albo klucz urządzenia.
+![Ekran Dodaj swoje Cora w Cora Mobile, szukający urządzeń](img/mobile-add-device.webp "Dodaj urządzenie, potem Cora. Cora Mobile szuka w Twojej sieci Wi-Fi i przez Bluetooth, a niżej jest Wpisz adres IP ręcznie.")
+
+**Cora** służy do parowania nowego Cora Max. Znajduje urządzenia już podłączone do Twojej sieci Wi-Fi albo pobliskie przez Bluetooth. Jeśli nie może znaleźć Twojego, użyj **Wpisz adres IP ręcznie** na tym samym ekranie. Pełny opis jest w [Konfiguracji Cora Max](/help/max-setup).
+
+## Strona urządzenia {#a-devices-page}
+
+Dotknij dowolnego urządzenia na liście, żeby otworzyć jego stronę. Najpierw są jego elementy sterowania, a potem sekcje, które działają tak samo dla każdej marki.
+
+- **Stan** pokazuje **Model**, **Numer seryjny**, **Oprogramowanie** i to, kiedy Cora ostatnio miała z nim kontakt (**Ostatnio widziano**).
+- **Akwaria** pokazuje, do którego akwarium (albo akwariów) jest przypisane. Dotknij **Zmień**, żeby przypisać je inaczej.
+- **Połączenie** to miejsce, w którym edytujesz jego adres IP, dane logowania albo klucz urządzenia.
 - **Usuń urządzenie**, na samym dole.
 
-Cora Max, Neptune Apex i GHL mogą obsługiwać więcej niż jedno akwarium, więc ich wybór akwarium to lista zaznaczeń. Cora Max można przypisać do maksymalnie czterech akwariów. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Wszystko inne, w tym HYDROS, obsługuje jedno akwarium naraz: wybranie innego przenosi tam urządzenie i zdejmuje je ze starego.
+Cora Max, Neptune Apex i GHL mogą obsługiwać więcej niż jedno akwarium, więc ich wybór akwarium to lista z polami wyboru. Cora Max można przypisać do maksymalnie czterech. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Wszystko inne, w tym HYDROS, obsługuje jedno akwarium naraz. Wybranie innego przenosi tam urządzenie i zdejmuje je ze starego.
 
 :::warning Przypisz akwarium, zanim zaczniesz polegać na odczytach
-Urządzenie bez akwarium nadal wysyła odczyty, ale nie mają one gdzie trafić. Jeśli nowo dodane urządzenie nie pojawia się na pulpicie, najpierw sprawdź właśnie to.
+Urządzenie bez akwarium nadal raportuje, ale jego liczby nie mają gdzie trafić. Jeśli właśnie dodane urządzenie nie pokazuje się na pulpicie, najpierw sprawdź to.
 :::
 
-## Zmiana nazwy
+Co robią elementy sterowania każdej marki, opisuje [Sterowanie sprzętem](/help/mobile-device-control).
 
-Otwórz urządzenie i dotknij ołówka obok nazwy. Nazwij je tak, jak mówisz o nim na co dzień, np. „Powrotna”, „Lewy gyre”, „Grzałka w sumpie”. Nazwa pojawia się na widżetach, w alertach i w rozmowach z Corą, więc czytelna dla Ciebie nazwa ułatwia wszystko.
+## Zmiana nazwy {#renaming}
 
-Nazwa może mieć do 40 znaków. Jeśli dwa urządzenia tego samego rodzaju nie mają nazwy, Cora odróżnia je krótkim kodem po nazwie. Cora nigdy nie używa numeru seryjnego jako nazwy.
+Otwórz urządzenie i dotknij ołówka obok nazwy. Użyj nazwy, której używasz na co dzień, na przykład „Powrotna”, „Lewy gyre” albo „Grzałka w sumpie”. Nazwa pojawia się na widżetach, w alertach i we wszystkim, o co pytasz Corę.
 
-Nowa nazwa obowiązuje tylko w Corze. W aplikacji producenta nazwa się nie zmienia.
+Nazwa może mieć do 40 znaków. Zostaw ją pustą, żeby wrócić do własnej nazwy urządzenia. Jeśli dwa urządzenia tego samego rodzaju nie mają nazwy, Cora odróżnia je krótkim kodem po nazwie. Cora nigdy nie używa numeru seryjnego jako nazwy.
 
-## Czy urządzenie działa poprawnie
+Nowa nazwa obowiązuje tylko w Corze. Nie zmienia nazwy w aplikacji producenta.
+
+## Czy urządzenie działa poprawnie {#health}
 
 Każde urządzenie to jeden wiersz w zakładce Urządzenia, z ikoną, nazwą, modelem i akwarium. Kropka w wierszu pokazuje jego stan.
 
-| Kropka | Co to znaczy |
+| Kropka | Co oznacza |
 |---|---|
 | Szara | Cora jeszcze nie wie |
 | Zielona | Działa normalnie |
 | Pomarańczowa | Ostrzeżenie albo usterka |
 | Czerwona | Offline |
 
-Odczyty, tryby, odłączanie i adres IP są na stronie szczegółów urządzenia, która zaczyna się od sekcji **Stan**. Dobrze, gdy widać niedawny czas aktualizacji i żadnego ostrzeżenia.
+Więcej zobaczysz po otwarciu urządzenia. Jego sekcja **Stan** pokazuje, kiedy Cora ostatnio miała z nim kontakt. Dobrze, gdy czas jest niedawny i nie ma ostrzeżenia.
 
-| Co widzisz | Co to znaczy |
+| Co widzisz | Co oznacza |
 |---|---|
-| Niedawny czas aktualizacji | Wszystko działa |
-| „Zaktualizowano 3 godz. temu” przy urządzeniu, które zgłasza się tylko co kilka godzin | Wszystko w porządku |
+| Niedawny czas aktualizacji | Działa normalnie |
+| „Zaktualizowano 3 godz. temu” przy czymś, co raportuje tylko co kilka godzin | Wszystko w porządku |
 | „Nie udało się połączyć…” | Problem z siecią albo urządzenie jest wyłączone |
-| „…odmówiło logowania” | Trzeba ponownie połączyć konto producenta. Otwórz urządzenie i zaloguj się jeszcze raz |
-| „Czeka na Cora Max” | Kontroler GHL, który właśnie dodano: pojawi się, gdy tylko Cora Max w jego sieci go odczyta |
-| Nic | Urządzenie nigdy nie wysłało danych. Sprawdź przypisanie do akwarium i połączenie |
+| „…odmówiło logowania” | Konto producenta trzeba połączyć ponownie. Otwórz urządzenie i zaloguj się jeszcze raz |
+| „Czeka na Cora Max” | Właśnie dodany kontroler GHL albo monitor Inkbird: pojawi się, gdy odczyta go Cora Max |
+| Starsze odczyty, gdy jesteś poza domem | Normalne dla Apex, Red Sea i Jecod bez Cora Max przy akwarium (zobacz wyżej) |
+| Nic | Urządzenie nigdy nie raportowało. Sprawdź przypisanie do akwarium i połączenie |
 
-## Usuwanie urządzenia
+Gdy urządzenie przestanie raportować, Cora może Cię o tym powiadomić. Czasy opisują [Alerty i progi](/help/mobile-alerts). W innych sprawach zobacz [Rozwiązywanie problemów](/help/troubleshooting).
 
-Otwórz urządzenie i dotknij **Usuń urządzenie**. Cora poprosi o potwierdzenie: *„{name} zostanie usunięty z Cora. Samo urządzenie nie jest resetowane ani zmieniane.”*
+## Usuwanie urządzenia {#removing-a-device}
 
-**Odczyty zostają.** Po usunięciu urządzenia Cora przestaje zbierać z niego nowe dane. Zebrana historia zostaje przy akwarium, a widżety, które z niego korzystały, zachowują wcześniejsze odczyty.
+Otwórz urządzenie i dotknij **Usuń urządzenie** albo przesuń jego wiersz w lewo w zakładce Urządzenia. Cora poprosi o potwierdzenie: *„{name} zostanie usunięty z Cora. Samo urządzenie nie jest resetowane ani zmieniane.”*
 
-Tracisz połączenie na żywo, a jeśli urządzenie łączyło się przez konto producenta, także zapisane dane logowania. Gdy dodasz je ponownie, trzeba będzie znów się zalogować.
+**Twoje odczyty zostają.** Usunięcie urządzenia sprawia, że Cora przestaje zbierać z niego nowe dane. Zebrana już historia zostaje przy akwarium, a każdy widżet, który z niego korzystał, zachowuje wcześniejsze odczyty.
+
+Tracisz połączenie na żywo. Jeśli urządzenie łączyło się przez konto producenta, tracisz też zapisane dane logowania, więc po ponownym dodaniu trzeba będzie znów się zalogować.
 
 :::tip Wycisz uciążliwe urządzenie bez usuwania
-Jeśli urządzenie działa dobrze, ale za często wywołuje alerty, zmień jego progi albo ustawienia powiadomień. Więcej w **[Alertach i progach](/help/mobile-alerts)**. Połączenie i dane zostają, a powiadomień będzie mniej.
+Jeśli urządzenie działa dobrze, ale za często wywołuje alerty, zmień jego progi albo ustawienia powiadomień w [Alertach i progach](/help/mobile-alerts). Zachowasz połączenie i dane, a hałas ustanie.
 :::

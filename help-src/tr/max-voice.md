@@ -1,101 +1,128 @@
 ---
 title: Cora ile konuşma
-description: Cora Max'i sesle kullanma, konuşma başlatma, neler sorabileceğiniz ve onayların nasıl işlediği.
+description: Cora Max'te sesi ve "Hey Cora"yı kullanın, sesle neler yapıp neler yapamayacağını, yapay zeka veri paylaşımını ve aylık hakkınızı öğrenin, Cora yanıt vermediğinde ne yapacağınızı görün.
 section: Cora Max
 reviewed: 2026-10-13
-order: 12
+order: 13
 group: Intelligence
+twin: mobile-assistant
 ---
 
-Cora Max'e sesle komut verebilirsiniz. Elleriniz ıslakken ya da odanın öbür ucundayken en kolay yol budur.
+Cora Max ile konuşabilirsiniz. Elleriniz ıslakken ya da odanın öbür ucundayken onu kullanmanın en kolay yolu budur. Cora Max'teki ses, telefonunuzda kullandığınız asistanın aynısı olan Cora Assistant'tır.
 
-## İki şekilde başlarsınız
+## Başlamadan önce
 
-**"Hey Cora" deyin.** Cora Max bu uyandırma sözünü arka planda dinler. Duyunca konuşmayı başlatır.
+- **Yapay zeka veri paylaşımının açık olması gerekir.** Cora Mobile'da **Ayarlar → Cora Assistant** altında **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**'i açın. Kapalıyken Cora Max **Sesli asistan onayınızı bekliyor** gösterir ve söylediğiniz hiçbir şey gönderilmez. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant#consent) sayfasında.
+- **Ses aylık yapay zeka hakkınızı kullanır.** Sesli oturumların kendi aylık sayacı vardır ve her sesli yanıt, telefonunuzla aynı asistan hakkından yazılı bir yanıttan daha fazla mesaj kullanır. İkisini de planınız belirler. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
 
-Ya da üst çubuktaki **Cora Assistant** simgesine dokunun. Cora hemen dinlemeye başlar, sesli cevap verir ve siz durdurana kadar dinlemeye devam eder.
+## Başlamanın iki yolu
 
-![Ses ayarları](img/max-voice.webp "Uyandırma sözcüğü dinlemeyi kapatsanız da dokunarak konuşmaya devam edebilirsiniz.")
+**"Hey Cora"** deyin. Cora Max uyandırma ifadesini arka planda dinler ve duyduğunda bir oturum başlatır.
 
-Arka planda dinlemeyi kapatmak için **Ayarlar → Cora Max Ayarları → Ses ve Konuşma → Uyandırma sözcüğü dinleme**'ye gidin. Cora Assistant simgesine dokunarak konuşmaya yine devam edebilirsiniz. Ekranın sürekli dinlemesini istemiyorsanız bu ayarı kullanın.
+Ya da üst çubuktaki **Cora Assistant** simgesine dokunun. Cora hemen dinlemeye başlar ve yüksek sesle yanıt verir. Onay adımı yoktur, bu yüzden yanlışlıkla dokunduysanız **İptal**'e dokunun. Hiçbir şey kaybolmaz.
 
-Aynı **Ses ve Konuşma** bölümündeki **Ses çıkışı** ile dahili hoparlörü, 3,5 mm bağlantıyı ya da Bluetooth'u seçersiniz. Konuşma için dahili hoparlör üçü arasında en zayıf olanıdır.
+![Kararmış panonun üstünde, İptal düğmesiyle dinleyen Cora Assistant](img/max-voice-session.webp "Dinleyen Cora Assistant, altında İptal.")
 
-## "Hey Cora"ya hangi cihaz cevap verir
+## Ses ve uyandırma sözcüğü ayarları
 
-Evinizde birden çok Cora Max varsa uyandırma sözüne yalnızca biri cevap verir. Buna **Yanıtlayan cihaz** denir. Bu seçim, ekipmanınızı hangi cihazın yokladığından ayrıdır. O ayarın adı **Birincil Cora Max**'tır ve [Cihazlar ve cihaz sağlığı](/help/max-devices) sayfasında anlatılır.
+![Cora Max Ayarları'nda Uyarı sesi, Sesli uyarılar ve Uyandırma sözcüğü anahtarları, altında Reef Buddy özeti anahtarı](img/max-voice.webp "Uyarı sesi, Sesli uyarılar ve Uyandırma sözcüğü, altlarında Reef Buddy.")
 
-Yanıtlayan cihazı iki Cora Max'ten birinde **Ayarlar → Cora Assistant**'tan ya da Cora Mobile'dan değiştirebilirsiniz. Ayar yalnızca bu ekran için değil, tüm eviniz için geçerlidir.
+Bunlar **Ayarlar → Cora Max Ayarları → SES VE KONUŞMA** içindedir ve yalnızca bu ekran için geçerlidir.
 
-"Hey Cora"yı yalnızca **Yanıtlayan cihaz** dinler. O cihaz çevrimiçiyken diğer Cora Max ekranlarınız dinlemez. Çevrimdışı olursa ya da 15 dakikadan uzun süredir görülmediyse başka bir Cora Max onun yerine dinlemeye başlar, o geri gelince de dinlemeyi bırakır. Bu geçiş yaklaşık bir dakika sürer. Hemen ardından "Hey Cora"ya kimse cevap vermezse bir kez daha söyleyin ya da **Cora Assistant** simgesine dokunun.
+- **Uyandırma sözcüğü** arka planda dinlemeyi açar ya da kapatır. Kapalıyken **Cora Assistant** simgesine dokunmak yine çalışır, bu yüzden ekranın sürekli dinlemesini istemiyorsanız bunu kullanın.
+- **Hoparlör** sesin nereden çıkacağını seçer: **Dahili**, **3.5 mm** ya da **BT** (Bluetooth). Ses için dahili hoparlör üçü arasında en zayıfıdır. **BT**, hoparlörünüzü eşleştirme moduna alıp listeden seçtiğiniz **Bir Bluetooth hoparlörü eşleştir**'i açar.
 
-:::note Dokunduğunuz anda başlar
-Cora Assistant'a dokununca konuşma hemen başlar, onay sorulmaz. Yanlışlıkla dokunduysanız konuşmayı durdurun. Hiçbir şey kaybolmaz.
-:::
+## "Hey Cora"ya hangi cihaz yanıt verir
+
+Evde birden fazla Cora Max'iniz varsa uyandırma ifadesine yalnızca biri yanıt verir. Bu, **Yanıtlayan cihaz**'dır. Ekipmanınızı okuyan cihazdan, yani **Birincil Cora Max**'ten ayrı bir ayardır (ayrıntılar [Cihazlar ve cihaz sağlığı](/help/max-devices) sayfasında).
+
+Onu herhangi bir Cora Max'te **Ayarlar → Cora Assistant** içinde ya da Cora Mobile'da değiştirin. Tüm eviniz için geçerlidir.
+
+"Hey Cora"yı yalnızca **Yanıtlayan cihaz** dinler. O çevrimiçiyken diğer Cora Max ekranlarınız dinlemez. Çevrimdışı olursa ya da 15 dakikadan uzun süredir görülmediyse başka bir Cora Max onun yerine dinlemeye başlar ve o geri gelince yeniden bırakır. Geçiş yaklaşık bir dakika sürer, bu yüzden hemen ardından "Hey Cora"ya kimse yanıt vermezse yeniden söyleyin ya da **Cora Assistant** simgesine dokunun.
 
 ## Neler sorabilirsiniz
 
-**Akvaryumla ilgili sorular**
+Akvaryumla ilgili sorular:
 
 - *"Alkalinitem kaç?"*
 - *"Sıcaklık bugün sabit miydi?"*
 - *"Suyu en son ne zaman değiştirdim?"*
 - *"pH neden her zamankinden düşük?"*
-- *"Son altı ayın magnezyumunu en son ICP'imle karşılaştır."*
+- *"Magnezyumumun son altı ayını en son ICP'mle karşılaştır."*
 
-**Yaptırabileceğiniz işler**
+Devam soruları için kendinizi tekrarlamanız gerekmez. Ana akvaryumla ilgili bir sorudan sonra *"peki frag akvaryumu?"* demeniz yeter.
 
-- *"Skimmer'ı kapat."*
-- *"Besleme modunu başlat."*
-- *"Fanı yeniden otomatiğe al."*
-- *"Yirmi litrelik su değişimi yaptığımı kaydet."*
-- *"Ekstra mysis verdiğimi kaydet."* ya da *"Sabah beslemesini atladığımı kaydet."*
+## Cora sesle neler yapabilir
 
-**Devam soruları.** Aynı şeyi tekrar söylemeniz gerekmez. Ana akvaryumla ilgili bir sorudan sonra *"peki frag akvaryumu?"* demeniz yeter.
+- Bir Neptune Apex prizini açar, kapatır ya da yeniden otomatiğe alır: *"Skimmer'ı kapat."* *"Fanı yeniden otomatiğe al."*
+- Bir Apex besleme döngüsü başlatır (Besleme A–D): *"Besleme modunu başlat."*
+- Bir Trident testi başlatır: *"Alkalinite testi başlat."*
+- Bir uyarı aralığını değiştirir: *"pH uyarısını 7.9 ile 8.4 arasına ayarla."*
+- Bir test sonucu kaydeder: *"Alkaliniteyi 8.1 olarak kaydet."*
+- Günlüğe yazar: *"Yirmi litrelik su değişimi yaptığımı kaydet."* *"Ekstra mysis verdiğimi kaydet."* *"Sabah beslemesini atladığımı kaydet."*
+- Red Sea ekipmanını kontrol eder: bir ReefDose kafasından dozaj yapar, günlük dozunu değiştirir, bir ReefATO+ dolumu başlatır, bir ReefMat'i ilerletir ya da bir ReefRun pompasının hızını ayarlar.
+- Jecod pompalarını kontrol eder.
+- Beta ekipmanı: bir Focustronic testi ya da dozu başlatır, GHL komutlarını çalıştırır ve EcoTech VorTech pompalarını kontrol eder.
 
-## Çocuk kilidi
+## Cora'nın Cora Max'te sesle yapamadıkları
 
-**Ayarlar → Cora Max Ayarları → Çocuk kilidi**, bu ekrandan ekipman kumandasını engeller. Sorular ve ölçümler çalışmaya devam eder. Cora alkalinitenizin kaç olduğunu söyler ama ana pompayı kapatmaz.
+- Bir sahneyi çalıştırmak ya da durdurmak. Sahne kutucuğunu ya da **Ayarlar → Otomasyonlar**'ı kullanın.
+- Bir Neptune DŌS kafasından dozaj yapmak ya da bir EcoTech Versa ile dozaj yapmak. Cora Max'te cihazın sayfasını kullanın.
+- Bir Maxspect gyre'yi, bir HYDROS kontrolcüsünü ya da bir EcoTech Radion'u kontrol etmek. Cihazın sayfasını kullanın.
+- Cora Max'in kendi ayarlarını değiştirmek, cihaz eklemek ya da panoyu düzenlemek.
 
-Çocukların ya da misafirlerin ulaşabileceği bir ekranda kullanın.
+Telefonunuzdaki Cora Assistant bunlardan bazılarını yapabilir. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant#what-cora-can-change) sayfasında.
 
-**Kilidi açmak için** şunlardan birini yapın:
-
-- Ses tuşuna **iki saniye içinde üç kez** basın.
-- **Sağ üst köşeye beş parmağınızı koyup on saniye basılı tutun.**
-
-Üç basışın da iki saniye içinde olması gerekir. Böylece gelişigüzel dokunuşlar ekranın kilidini açmaz. Yine de çocuk kilidi bir güvenlik önlemi değildir. Nasıl açtığınızı gören biri aynısını yapabilir.
+:::note Beta
+**Beta.** Focustronic, GHL, HYDROS, Maxspect ve EcoTech Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
+:::
 
 ## Onaylar
 
-Ekipmanınıza giden her komut uygulanmadan önce onaylanır. Cora ne yapacağını tam olarak söyler ve sizin onayınızı bekler.
+Ekipmanınıza bir şey ulaşmadan önce Cora size danışır. Ne yapmak üzere olduğunu tam olarak söyler ve onayınızı bekler. Hesabınızın dilinde yüksek sesle yanıt verebilirsiniz.
 
-Komut belirsizse, örneğin iki ısıtıcınız varsa ve "ısıtıcı" dediyseniz, Cora tahmin yürütmez. Hangisini kastettiğinizi sorar.
+Söylediğiniz şey birden fazla anlama gelebiliyorsa (iki ısıtıcınız var ve "ısıtıcı" dediniz), Cora tahmin etmek yerine hangisi olduğunu sorar.
 
-:::warning Onay verdiğinizde sorumluluk sizdedir
-Onay adımı, sizi şaşırtacak bir şey olmasın diye var. Kabul etmeden önce Cora'nın ne söylediğine dikkat edin. Özellikle yaşam desteğini kapatan komutlarda.
+Cora'nın ekipmana yaptığı her şey sonucuyla birlikte ekranda görünür ve [Etkinlik](/help/max-activity) içine kaydedilir.
+
+:::warning Onaylamak sizin kararınız
+Onay, hiçbir şey sizi şaşırtmasın diye vardır. Kabul etmeden önce onu okuyun ya da dinleyin, özellikle yaşam desteğini kapatan ya da dozaj yapan her şeyde.
 :::
 
-## Cora neleri görür
+## Cora neleri görebilir
 
-Telefonunuzda gördüklerinizin aynısını: canlı ölçümleriniz ve her birinin ne kadar eski olduğu, her parametrenin yaklaşık altı aylık geçmişi, günlüğünüz ve laboratuvar sonuçlarınız. Bunların hepsi o anda ekrandaki akvaryum için geçerlidir.
+Ekrandaki akvaryum için: canlı ölçümleriniz ve her birinin ne kadar eski olduğu, herhangi bir parametrenin yaklaşık altı aya kadar geçmişi, son günlüğünüz ve laboratuvar sonuçlarınız.
 
-Bir ölçüm eskiyse Cora bunu söyler. Güncelmiş gibi cevap vermez.
+Bir ölçüm eskiyse Cora bunu söyler ve onu güncel saymaz.
 
 ## Cora hangi akvaryumdan bahsediyor
 
-Ekranda hangi akvaryum varsa ondan. Başka bir akvaryumu soracaksanız önce üst çubuktan akvaryumu değiştirin ya da sorunuzda akvaryumun adını söyleyin.
+Ekran hangi akvaryumu gösteriyorsa ondan. Önce üst çubuktan akvaryum değiştirin ya da sorunuzda akvaryumun adını söyleyin.
 
 ## Durdurma
 
-*"Dur"* deyin ya da konuşmayı bitirmek için dokunun. Konuşma bitince Cora dinlemeyi bırakır.
+*"Dur"* ya da *"hoşça kal"* deyin. Cora dinlerken **İptal**'e, konuşurken **Konuşmayı durdur**'a da dokunabilirsiniz. Yaklaşık 30 saniye kimse konuşmazsa oturum kendiliğinden biter. Oturum bittiğinde Cora dinlemeyi bırakır.
 
-## Cora yanlış anlarsa
+## Çocuk kilidi ve ses
 
-Reef terimleri zordur, ekipman adları daha da zor. Cora bir cihazın adını sürekli yanlış anlıyorsa **Cihazlar**'da cihaza daha kolay ayırt edilen bir ad verin. Kısa ve sıradan kelimeler en iyi sonucu verir.
+[Çocuk kilidi](/help/max-settings#child-lock) ekranı kilitlediğinde Cora soruları yanıtlamaya devam eder ama ekipmanınızı değiştiren her şeyi reddeder.
 
-## Cora cevap vermiyorsa
+## Yanlış duyarsa
 
-Şunları kontrol edin: **Uyandırma sözcüğü dinleme** hâlâ açık mı (**Ayarlar → Cora Max Ayarları → Ses ve Konuşma**), bu cihaz evin **Yanıtlayan cihazı** mı (yukarıda anlatıldı), ses düzeyi açık mı. Cihazın hemen yanındaki gürültülü bir sump ya da filtre de uyandırma sözünün duyulmasını zorlaştırabilir. Cihazın yerini değiştirmek ya da biraz daha yakından konuşmak çoğu zaman sorunu çözer.
+Reef sözcükleri zordur, ekipman adları daha da zordur. Cora bir cihazı sürekli yanlış duyuyorsa ona daha belirgin bir ad verin. **Ayarlar → Cihazlar**'a gidin, cihazın yanındaki kaleme (ya da sayfasındaki **Yeniden adlandır**'a) dokunun ve kısa, gündelik bir ad yazın. Yeni ad telefonunuzda da görünür.
 
-Sorun sürerse [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+## Cora yanıt vermiyorsa
+
+- **Uyandırma sözcüğü**'nün açık olduğunu (**Ayarlar → Cora Max Ayarları → SES VE KONUŞMA**), bu Cora Max'in **Yanıtlayan cihaz**'ınız olduğunu (yukarıya bakın) ve sesinin açık olduğunu kontrol edin.
+- Cora Max'in hemen yanındaki gürültülü bir sump ya da filtre onun uyandırma ifadesini duymasını engelleyebilir. Yerini değiştirin ya da biraz daha yakından konuşun.
+
+Cora Max dinlemek yerine bir mesaj gösterirse:
+
+| Mesaj | Ne yapmalı |
+|---|---|
+| **Sesli asistan onayınızı bekliyor** | Cora Mobile'da yapay zeka veri paylaşımını açın (**Ayarlar → Cora Assistant**), sonra tekrar deneyin |
+| **Ücretsiz ses limitine ulaşıldı** | Bu ayın hakkı bitti. Cora Mobile'da planınızı yükseltin ya da gelecek ayı bekleyin |
+| **Çok fazla istek** | Biraz bekleyin, sonra tekrar deneyin |
+| **Bağlantı sorunu** | Bu Cora Max'in Wi-Fi bağlantısını kontrol edin, sonra **Cora Assistant** simgesine yeniden dokunun |
+
+Bu işe yaramazsa [Sorun giderme](/help/troubleshooting) sayfasına göz atın.

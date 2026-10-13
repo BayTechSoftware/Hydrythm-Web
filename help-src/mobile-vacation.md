@@ -1,49 +1,51 @@
 ---
-title: Going away
-description: Make a plan your tank sitter can follow, and share it as a page they can open without an account.
+title: Going away: a plan for your tank sitter
+description: Turn on vacation mode, build a checklist for your tank sitter, and share it as a read-only page with live readings that they open without an account.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 28
-group: Account
+reviewed: 2026-10-13
+order: 23
+group: Alerts and automation
 ---
 
-Vacation mode helps someone else look after your tank. You set the dates and list the jobs, and Cora makes a simple page you can send them.
+Vacation mode helps someone else look after your tank while you're away. You pick the dates and the jobs, and Cora makes a web page you send to your sitter.
 
-Go to **Settings → Tanks → Vacation mode.**
+Go to Settings → your tank → **Vacation mode**. If you have more than one tank, pick the tank at the top. Each tank has its own plan.
 
-![Vacation mode](img/mobile-vacation.webp "Travel dates, the sitter checklist, and the notes that go with it.")
+![Vacation mode in Cora Mobile](img/mobile-vacation.webp "The tank, a reminder that alerts still come to you, the trip dates, then the sitter checklist.")
 
-## Building the plan
+## Setting it up {#setting-it-up}
 
-First, set the dates you leave and come back.
+1. Under **When are you away?**, tap **Pick your travel dates**.
+2. Build the **Sitter checklist**. Maintenance tasks that come due while you're gone are offered for you, each with how often it's needed. Tap a suggestion to add it, such as **Feed the tank**, **Check the ATO reservoir**, **Empty the skimmer cup** or **Call me if anything looks wrong**. To add your own job, type it under **Add your own task…** and tap **Add task**.
+3. Under **Notes & contact**, write **Notes for the sitter** and, under **If anything looks wrong**, how to reach you.
+4. Tap **Start vacation mode**.
 
-Then make a checklist. Give each job a frequency, and Cora shows it as a plain tag next to the job.
-
-| Frequency | For |
-|---|---|
-| **Daily** | Feeding, a quick look at the tank |
-| **Every 3 days** | Topping off, checking the skimmer |
-| **Once** | A water change while you are away |
-| **Always** | Standing instructions, such as equipment not to adjust |
+Each job shows how often to do it, for example **Daily**, **Every 3 days**, **Once** or **Always** (a standing instruction). Cora works this out from the maintenance task or the suggestion. A job you type yourself has no tag, so put the timing in its wording.
 
 Write the checklist for someone who doesn't know reef tanks. Spell out amounts and how to do things. "Feed one cube of frozen food, thawed, once a day" is much clearer than "feed as usual".
 
-## Sharing it
-
-Cora turns the plan into a **read-only page**. Send your sitter the link. They don't need Cora Mobile or an account.
-
-They can read the checklist and see the tank. They can't change anything, control equipment or see the rest of your account.
-
 :::note Say what to leave alone
-Add standing instructions for any equipment the sitter shouldn't touch. Give them the **Always** frequency.
+Add a job for any equipment the sitter shouldn't touch, for example "Don't change anything on the controller". Put it in the notes too.
 :::
 
-## While you are away
+## Sharing it with your sitter {#sharing}
 
-Everything else keeps working as usual, including readings, alerts, Reef Buddy and automations. Vacation mode only adds the sitter page. It doesn't change how your tank is run.
+Tap **Create sitter link**. Cora makes a read-only web page with the checklist, your notes and live tank readings. Your sitter doesn't need Cora Mobile or an account. Tap **Share** to send it, or **Copy** the link.
 
-If you want to hear from Cora while you're gone, check your [notification settings](/help/mobile-notifications) before you leave.
+On that page the sitter can tick jobs off as they do them. You see each one under **Sitter activity**, with the time. They can't change anything else, control equipment or see the rest of your account.
 
-## Coming back
+The link works until your end date plus 2 days. **New link** makes a fresh link and the old one stops working, which is handy if you sent it to the wrong person.
 
-End the plan when you're home. Cora keeps the checklist, so you can use it again next time you go away.
+## While you are away {#while-away}
+
+Everything else keeps working as usual, including readings, alerts, Reef Buddy, dosing and automations. Vacation mode doesn't pause anything. While it's on, the top of Settings says *Vacation mode is on*. Tap it to review the plan or end it.
+
+:::warning Alerts still come to you
+The sitter's page shows active alerts, but the sitter is never notified. Parameter alerts keep going to your phone. Keep your phone reachable, and put your number in the plan. Check your [notification settings](/help/mobile-notifications) before you leave.
+:::
+
+To change the plan while you're away, tap **Edit**, then **Save changes**.
+
+## Coming back {#coming-back}
+
+Tap **End vacation mode** and confirm with **End it**. The sitter link stops working right away. Your checklist stays saved for next time.

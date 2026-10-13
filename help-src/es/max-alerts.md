@@ -1,56 +1,76 @@
 ---
 title: Alertas en Cora Max
-description: Las alertas de la barra superior, el historial de notificaciones y cómo cambiar umbrales desde la pantalla de pared.
+description: Qué hacer cuando aparece una alerta en Cora Max, cómo posponerla o descartarla, cambiar los umbrales de alerta en la pantalla de pared y configurar el sonido de alerta.
 section: Cora Max
 reviewed: 2026-10-13
-order: 11
-group: Alerts
+order: 8
+group: Alerts and automation
+twin: mobile-alerts
 ---
 
-## Etiquetas de alerta
+Esta página explica qué hace Cora Max cuando algo necesita tu atención, y qué puedes cambiar en la pantalla de pared. Cómo funcionan los rangos, las reglas y las notificaciones del teléfono se explica en [Alertas y umbrales](/help/mobile-alerts).
 
-Cuando una lectura está fuera de rango, aparece como una etiqueta en la barra superior. Si no caben todas, verás **+2** (o el número que corresponda). Toca una etiqueta para ver la lista completa.
+## Cuando aparece una alerta
 
-Se ven desde el otro lado de la habitación, sin tocar nada.
+Cuando una lectura sale de rango, un dispositivo informa de un fallo, se omite una dosis o se acaba un suministro, Cora Max muestra la alerta en el centro de la pantalla. Debajo hay tres botones.
 
-## Cuando aparece una alerta en la pantalla
+1. **Responder por voz** empieza una conversación con Cora sobre esta alerta, para que no tengas que tocar nada más. Más información en [Hablar con Cora](/help/max-voice).
+2. **Posponer** silencia la alerta en este Cora Max durante un tiempo. El botón muestra cuánto, por ejemplo **Posponer 1 h**. Es el tiempo de espera fijado para esta alerta en los ajustes de alertas de Cora Mobile, y puede llegar a 1 semana (útil para algo como un nivel bajo de reactivo que no va a cambiar en días).
+3. **Descartar** cierra la alerta ahora. Se queda en silencio en esta pantalla hasta que el problema desaparece. Si vuelve más tarde, recibirás una alerta nueva.
 
-Cuando una lectura sale de rango, Cora Max también muestra la alerta en el centro de la pantalla. Debajo tiene tres botones:
+Cuando la alerta trata de un dosificador, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, la tarjeta también tiene un botón **Abrir DŌS** o **Abrir ReefDose** (**Abrir Versa** para una EcoTech Versa). Te lleva a la página de ese dosificador, donde se configuran sus alertas.
 
-1. **Responder por voz**: habla con Cora sobre la alerta sin escribir ni tocar nada más. Más información en [Hablar con Cora](/help/max-voice).
-2. **Posponer [duración]**: silencia la alerta en este Cora Max durante un tiempo, sin desactivarla. El botón indica cuánto, por ejemplo **Posponer 1 h**. Es el mismo tiempo de espera que tiene este tipo de alerta en los ajustes de alertas de Cora Mobile, y puede llegar a **1 semana** para cosas como un reactivo bajo, que no va a cambiar en días.
-3. **Descartar**: cierra la alerta ahora. Se queda en silencio hasta que la lectura vuelve a su rango normal. Si el problema se repite más adelante, recibirás una alerta nueva.
-
-Si la alerta es de un dosificador, por ejemplo un cabezal de DŌS o de ReefDose que se está quedando sin líquido o una dosis omitida, la tarjeta también tiene un botón **Abrir DŌS** o **Abrir ReefDose**. Te lleva a la página de ese dosificador, donde se configuran sus alertas.
-
-Si **Posponer** o **Descartar** dan error, vuelve a intentarlo una vez. Si sigue fallando, consulta [Solución de problemas](/help/troubleshooting).
+Si Posponer o Descartar muestran un error, inténtalo una vez más. Si sigue fallando, consulta [Una alerta no desaparece](/help/troubleshooting#an-alert-is-not-clearing).
 
 :::note Posponer solo afecta a este Cora Max
-**Posponer** y **Descartar** solo silencian la alerta en **este Cora Max**. Aquí deja de aparecer, de sonar y de hablar, y sale de la lista de la barra superior hasta que termina el tiempo pospuesto (o, con **Descartar**, hasta que la lectura vuelve a estar en rango). Tu teléfono sigue recibiendo las notificaciones y los demás Cora Max siguen mostrando la alerta. También se queda en el **Historial de notificaciones**, y tus ajustes de alertas no cambian.
+Mientras una alerta está pospuesta o descartada, este Cora Max deja de mostrarla, de hacerla sonar y de decirla en voz alta, y desaparece de la barra superior. Tu teléfono sigue recibiendo sus notificaciones, otras pantallas Cora Max siguen mostrando la alerta, sigue en **Historial de notificaciones** y tus ajustes de alertas no cambian.
 :::
 
-## El historial de notificaciones
+## Alertas en la barra superior
 
-En **Ajustes → Ajustes de Cora Max → Notificaciones → Historial de notificaciones** tienes la bandeja de **toda la cuenta**. Ahí están todos los resúmenes, alarmas y avisos de cuenta de tu sistema, también los que no salieron de esta pantalla y los que tu teléfono se perdió.
+Cada alerta activa también aparece como una pequeña etiqueta en la barra superior, lo bastante grande para verla desde el otro lado de la habitación. Si hay más de las que caben, verás **+2** (o las que sean).
 
-## Cambiar umbrales
+- Toca una etiqueta para volver a traer esa alerta al centro de la pantalla.
+- Toca **+2** para abrir **Alarmas activas**, la lista de todo lo que está activo. Toca una de la lista para abrirla.
 
-![Ajustes del acuario en Cora Max](img/max-tank-settings.webp "Cada acuario tiene su propio diario, mantenimiento, alertas, fauna y resumen.")
+## La bandeja de notificaciones
 
-Toca el nombre del acuario en la barra superior y elige **Alertas**, o ve a **Ajustes → [tu acuario] → Umbrales de alerta**. Los dos caminos abren los mismos rangos que ves en el teléfono, y lo que cambies aquí se aplica en todas partes.
+**Ajustes → Ajustes de Cora Max → Historial de notificaciones** es la bandeja de toda tu cuenta. Guarda cada resumen, alarma y aviso de la cuenta de tu sistema, incluidos los que no generó esta pantalla y todo lo que se le pasó a tu teléfono. Cuando una lectura sale de rango y vuelve, ves las dos cosas.
 
-También puedes cambiar un umbral manteniendo pulsado su widget en el panel.
+## Editar umbrales {#editing-thresholds}
 
-Cada parámetro de la lista tiene su propio interruptor. Una alerta que has desactivado indica **Alerta desactivada**. Cora conserva su rango, pero no evalúa esa lectura mientras está desactivada. El widget se queda en gris neutro y nunca genera una alerta. Si un parámetro todavía no tiene alerta, indica **Sin alerta configurada**, y **Añadir alerta** crea una con el rango que se muestra.
+![Los ajustes de un acuario en Cora Max, con Umbrales de alerta, Unidades y Cora Max principal](img/max-tank-settings.webp "Umbrales de alerta y Unidades primero, y después el Cora Max principal de este acuario.")
 
-La hoja del umbral tiene el mismo interruptor arriba, junto a **Alerta activada** o **Alerta desactivada**. Si guardas un rango nuevo en una alerta desactivada, Cora te pregunta **¿Activar esta alerta?** Toca **Activar** para activarla con los valores nuevos, o **Dejar desactivada** para guardarlos sin activarla.
+Toca el nombre del acuario en la barra superior y elige **Umbrales de alerta**, o ve a **Ajustes → [tu acuario] → Umbrales de alerta**. Los dos abren los mismos rangos que ves en tu teléfono, y un cambio que hagas aquí se aplica en todas partes.
 
-Cómo funcionan los rangos y las reglas se explica en [Alertas y umbrales](/help/mobile-alerts).
+También puedes cambiar un umbral manteniendo pulsado su widget en el panel, o por voz: *"Hey Cora, pon la alerta de pH entre 7,9 y 8,4."* Cora te dice el cambio y espera a que des el visto bueno.
 
-## Alertas de dosificadores
+Cada parámetro de la lista tiene su propio interruptor. Una alerta que has desactivado dice **Alerta desactivada**. Cora conserva su rango, pero no valora esa lectura mientras está desactivada. El widget se queda en gris neutro y nunca genera una alerta. Si un parámetro todavía no tiene alerta, dice **Sin alerta configurada**, y **Añadir alerta** crea una con el rango que se muestra.
 
-En la página de un DŌS, cada cabezal tiene un botón **Configuración de alertas**. Ahí fijas los niveles de días restantes y de líquido restante de ese cabezal, y tienes el interruptor **Alertas de dosis omitida**, que te avisa cuando el cabezal se salta sus dosis programadas.
+![La lista Umbrales de alerta en Cora Max](img/max-alerts.webp "Cada lectura tiene su propio interruptor. Una lectura sin alerta muestra Sin alerta configurada y un botón Añadir alerta.")
+
+La hoja del umbral tiene el mismo interruptor arriba, junto a **Alerta activada** o **Alerta desactivada**. Si guardas un rango nuevo en una alerta desactivada, Cora pregunta **¿Activar esta alerta?** Toca **Activar** para activarla con los valores nuevos, o **Dejar desactivada** para guardarlos y dejarla desactivada.
+
+## Alertas de dispositivos y suministros {#doser-alerts}
+
+Los equipos con algo que se acaba tienen un botón **Configuración de alertas** en su página de Cora Max. Son el Trident (reactivos y residuos), los cabezales DŌS, las Red Sea ReefDose, ReefATO+ y ReefMat, y las EcoTech Radion, VorTech y Versa. Elige el nivel del que quieres enterarte, y recibes una notificación cuando se pasa. En un cabezal DŌS, **Alertas de dosis omitida** también te avisa cuando el cabezal se salta sus dosis programadas.
+
+Lo que significa cada alerta de dosificador está en [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
+
+:::note Beta
+**Beta.** EcoTech está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
+:::
+
+## Sonido de alerta, alertas habladas y encender la pantalla
+
+Estos ajustes son solo de esta pantalla. Están en **Ajustes → Ajustes de Cora Max**.
+
+- **Sonido de alerta** (en **SONIDO Y VOZ**) reproduce un tono cuando llega una alerta nueva. Su control deslizante fija el volumen.
+- **Alertas habladas** (en **SONIDO Y VOZ**) hace que Cora diga la alerta en voz alta.
+- **Encender pantalla con alarma** (en **PANTALLA**) ilumina una pantalla atenuada cuando llega una alerta. Las alertas críticas siempre la encienden.
+
+Para que un Cora Max deje de mostrar alertas en su pantalla, abre Cora Mobile, ve a **Dispositivos →** tu Cora Max y desactiva **Alertas**. El historial de notificaciones y las notificaciones de tu teléfono no cambian.
 
 :::note Una sola alerta para toda la cuenta
-Cada dispositivo no genera su propia alerta. Cora Max, tu teléfono y cualquier otra pantalla muestran la misma, y desaparece de todas a la vez cuando la lectura vuelve a estar en rango.
+Cada dispositivo no genera su propia copia de una alerta. Cora Max, tu teléfono y cualquier otra pantalla muestran la misma, y desaparece en todos cuando la lectura vuelve al rango.
 :::

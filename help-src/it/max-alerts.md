@@ -1,56 +1,76 @@
 ---
 title: Avvisi su Cora Max
-description: Gli avvisi nella barra in alto, la cronologia delle notifiche e come cambiare le soglie dallo schermo a parete.
+description: Cosa fare quando compare un avviso su Cora Max, come rinviarlo o ignorarlo, cambiare le soglie di avviso dallo schermo a parete e impostare il suono degli avvisi.
 section: Cora Max
 reviewed: 2026-10-13
-order: 11
-group: Alerts
+order: 8
+group: Alerts and automation
+twin: mobile-alerts
 ---
+
+Questa pagina spiega cosa fa Cora Max quando qualcosa richiede la tua attenzione, e cosa puoi cambiare dallo schermo a parete. Come funzionano intervalli, regole e notifiche sul telefono è spiegato in [Avvisi e soglie](/help/mobile-alerts).
+
+## Quando compare un avviso
+
+Quando una lettura esce dall'intervallo, un dispositivo segnala un guasto, una dose viene saltata o una scorta sta finendo, Cora Max mostra l'avviso al centro dello schermo. Sotto ci sono tre pulsanti.
+
+1. **Rispondi a voce** avvia una conversazione con Cora su questo avviso, così non devi toccare nient'altro. Di più in [Parlare con Cora](/help/max-voice).
+2. **Rinvia** silenzia l'avviso su questo Cora Max per un po'. Il pulsante mostra per quanto, per esempio **Rinvia 1 h**. È l'attesa impostata per questo avviso nelle impostazioni degli avvisi di Cora Mobile, e può arrivare a 1 settimana (comodo per qualcosa come un livello basso di reagente che non cambierà per giorni).
+3. **Ignora** chiude subito l'avviso. Resta in silenzio su questo schermo finché il problema non sparisce. Se torna più avanti, riceverai un nuovo avviso.
+
+Quando l'avviso riguarda un dosatore, come una testa DŌS o ReefDose quasi vuota o una dose mancata, la scheda ha anche un pulsante **Apri DŌS** o **Apri ReefDose** (**Apri Versa** per un EcoTech Versa). Ti porta alla pagina di quel dosatore, dove si impostano i suoi avvisi.
+
+Se Rinvia o Ignora mostra un errore, riprova una volta. Se continua a non funzionare, vedi [Un avviso non si chiude](/help/troubleshooting#an-alert-is-not-clearing).
+
+:::note Rinvia vale solo per questo Cora Max
+Mentre un avviso è rinviato o ignorato, questo Cora Max smette di mostrarlo, suonarlo e dirlo a voce, e l'avviso esce dalla barra in alto. Il telefono riceve comunque le sue notifiche, gli altri schermi Cora Max mostrano comunque l'avviso, resta in **Cronologia notifiche** e le tue impostazioni degli avvisi non cambiano.
+:::
 
 ## Gli avvisi nella barra in alto
 
-Quando una lettura è fuori intervallo, compare come piccola etichetta nella barra in alto. Se non ci stanno tutte, vedi **+2** (o quante sono). Tocca un'etichetta per vederle tutte.
+Ogni avviso attivo compare anche come piccola etichetta nella barra in alto, abbastanza grande da vederla dall'altra parte della stanza. Se sono più di quelli che ci stanno, vedrai **+2** (o quanti sono).
 
-Le vedi anche dall'altra parte della stanza, senza toccare niente.
+- Tocca un'etichetta per riportare quell'avviso al centro dello schermo.
+- Tocca **+2** per aprire **Allarmi attivi**, l'elenco di tutto quello che è attivo. Toccane uno nell'elenco per aprirlo.
 
-## Quando arriva un avviso
+## La casella delle notifiche
 
-Quando una lettura esce dall'intervallo, Cora Max mostra l'avviso anche al centro dello schermo. Sotto ci sono tre pulsanti:
+**Impostazioni → Impostazioni Cora Max → Cronologia notifiche** è la casella di tutto il tuo account. Contiene ogni briefing, allarme e comunicazione dell'account per il tuo impianto, compresi quelli che questo schermo non ha mostrato e tutto quello che il telefono si è perso. Quando una lettura esce dall'intervallo e poi ci rientra, vedi entrambe le cose.
 
-1. **Rispondi a voce**: parli con Cora dell'avviso, senza scrivere e senza toccare altro. Trovi di più in [Parlare con Cora](/help/max-voice).
-2. **Rinvia [durata]**: mette in pausa l'avviso su questo Cora Max per un certo tempo, senza disattivarlo. Il pulsante stesso indica la durata, per esempio **Rinvia 1 h**. È la stessa attesa impostata per questo tipo di avviso nelle impostazioni degli avvisi di Cora Mobile. Può arrivare a **1 settimana**, utile per cose come un reagente quasi finito, che per giorni non cambia.
-3. **Ignora**: chiude subito l'avviso. Resta in silenzio finché la lettura non torna nell'intervallo. Se il problema si ripresenta più avanti, ricevi un nuovo avviso.
+## Modificare le soglie
 
-Se l'avviso riguarda un dosatore, per esempio una testa di DŌS o di ReefDose quasi vuota o una dose mancata, la scheda ha anche un pulsante **Apri DŌS** o **Apri ReefDose**. Ti porta alla pagina di quel dosatore, dove si impostano i suoi avvisi.
+![Le impostazioni di una vasca su Cora Max, con Soglie di avviso, Unità e Cora Max principale](img/max-tank-settings.webp "Prima Soglie di avviso e Unità, poi il Cora Max principale di questa vasca.")
 
-Se **Rinvia** o **Ignora** mostra un errore, riprova una volta. Se non va ancora, guarda la pagina [Risoluzione dei problemi](/help/troubleshooting).
+Tocca il nome della vasca nella barra in alto e scegli **Soglie di avviso**, oppure vai in **Impostazioni → [la tua vasca] → Soglie di avviso**. Entrambi aprono gli stessi intervalli che vedi sul telefono, e una modifica fatta qui vale ovunque.
 
-:::note Il rinvio vale solo per questo Cora Max
-**Rinvia** e **Ignora** zittiscono l'avviso solo su **questo Cora Max**. Qui l'avviso smette di comparire, di suonare e di parlare, ed esce dall'elenco in alto finché non finisce il tempo del rinvio (con **Ignora**, finché la lettura non torna nell'intervallo). Il telefono continua a ricevere le notifiche e gli altri Cora Max continuano a mostrare l'avviso. L'avviso resta anche in **Cronologia notifiche** e le impostazioni degli avvisi non cambiano.
+Puoi anche cambiare una soglia tenendo premuto il suo widget sulla dashboard, oppure a voce: *"Hey Cora, imposta l'avviso del pH da 7,9 a 8,4."* Cora ti dice la modifica e aspetta il tuo OK.
+
+Ogni parametro nell'elenco ha il suo interruttore. Un avviso che hai spento dice **Avviso disattivato**. Cora conserva il suo intervallo, ma non valuta quella lettura finché è spento. Il widget resta grigio neutro e non fa mai scattare un avviso. Se un parametro non ha ancora un avviso, dice **Nessun avviso impostato**, e **Aggiungi avviso** ne crea uno con l'intervallo mostrato.
+
+![L'elenco Soglie di avviso su Cora Max](img/max-alerts.webp "Ogni lettura ha il suo interruttore. Una lettura senza avviso mostra Nessun avviso impostato e un pulsante Aggiungi avviso.")
+
+Il pannello della soglia ha lo stesso interruttore in alto, accanto ad **Avviso attivo** o **Avviso disattivato**. Se salvi un nuovo intervallo su un avviso spento, Cora chiede **Attivare questo avviso?** Tocca **Attiva** per accenderlo con i nuovi valori, oppure **Lascia disattivato** per salvarli e lasciarlo spento.
+
+## Avvisi di dispositivi e scorte {#doser-alerts}
+
+L'attrezzatura con qualcosa che finisce ha un pulsante **Impostazioni avvisi** nella sua pagina su Cora Max. Sono il Trident (reagenti e rifiuti), le teste DŌS, Red Sea ReefDose, ReefATO+ e ReefMat, e le EcoTech Radion, VorTech e Versa. Scegli il livello di cui vuoi essere avvisato, e ricevi una notifica quando viene superato. Su una testa DŌS, **Avvisi di dose mancata** ti dice anche quando la testa salta le sue dosi programmate.
+
+Cosa significa ogni avviso del dosatore è spiegato in [Avvisi del dosatore](/help/mobile-device-control#doser-alerts).
+
+:::note Beta
+**Beta.** EcoTech è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html).
 :::
 
-## La cronologia delle notifiche
+## Suono degli avvisi, avvisi parlati e risveglio dello schermo
 
-In **Impostazioni → Impostazioni Cora Max → Notifiche → Cronologia notifiche** trovi le notifiche di **tutto l'account**: briefing, allarmi e comunicazioni di tutto il tuo sistema, anche quelle che non sono partite da questo schermo. Qui trovi anche quello che ti è sfuggito sul telefono.
+Queste impostazioni valgono solo per questo schermo. Le trovi in **Impostazioni → Impostazioni Cora Max**.
 
-## Cambiare le soglie
+- **Suono degli avvisi** (sotto **AUDIO E VOCE**) suona un tono quando arriva un nuovo avviso. Il suo cursore imposta il volume.
+- **Avvisi parlati** (sotto **AUDIO E VOCE**) fa dire a Cora l'avviso ad alta voce.
+- **Attiva schermo con allarme** (sotto **SCHERMO**) riaccende uno schermo attenuato quando arriva un avviso. Gli avvisi critici lo riaccendono sempre.
 
-![Impostazioni vasca su Cora Max](img/max-tank-settings.webp "Ogni vasca ha il suo diario, la sua manutenzione, i suoi avvisi, la sua popolazione e il suo briefing.")
+Per far sì che un Cora Max non mostri proprio gli avvisi sul suo schermo, apri Cora Mobile, vai in **Dispositivi →** il tuo Cora Max e spegni **Avvisi**. La cronologia delle notifiche e le notifiche del telefono non cambiano.
 
-Tocca il nome della vasca nella barra in alto e scegli **Avvisi**, oppure vai in **Impostazioni → [la tua vasca] → Soglie di avviso**. In tutti e due i casi apri gli stessi intervalli che vedi sul telefono. Quello che cambi qui vale ovunque.
-
-Puoi cambiare una soglia anche tenendo premuto il suo widget sulla dashboard.
-
-Ogni parametro dell'elenco ha il suo interruttore. Un avviso che hai spento mostra **Avviso disattivato**. Cora tiene il suo intervallo, ma finché è spento non valuta quella lettura. Il widget resta grigio neutro e non fa mai scattare un avviso. Se un parametro non ha ancora un avviso, mostra **Nessun avviso impostato**, e **Aggiungi avviso** ne crea uno con l'intervallo mostrato.
-
-In alto nella scheda della soglia c'è lo stesso interruttore, accanto ad **Avviso attivo** o **Avviso disattivato**. Se salvi un nuovo intervallo su un avviso spento, Cora ti chiede **Attivare questo avviso?** Tocca **Attiva** per accenderlo con i nuovi valori, oppure **Lascia disattivato** per salvarli e lasciarlo spento.
-
-Come funzionano intervalli e regole lo spiega la pagina [Avvisi e soglie](/help/mobile-alerts).
-
-## Avvisi dei dosatori
-
-Nella pagina di un DŌS ogni testa ha un pulsante **Impostazioni avvisi**. Lì imposti le soglie dei giorni rimanenti e del liquido rimanente di quella testa, e trovi l'interruttore **Avvisi di dose mancata**, che ti avvisa quando la testa salta le dosi programmate.
-
-:::note Un avviso vale per tutto l'account
-I dispositivi non generano ciascuno il proprio avviso. Cora Max, il telefono e gli altri schermi mostrano lo stesso avviso. Quando la lettura torna nell'intervallo, l'avviso si chiude ovunque nello stesso momento.
+:::note Un solo avviso per tutto l'account
+Ogni dispositivo non genera una sua copia dell'avviso. Cora Max, il telefono e qualsiasi altro schermo mostrano lo stesso avviso, che si chiude su tutti quando la lettura torna nell'intervallo.
 :::

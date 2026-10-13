@@ -1,106 +1,84 @@
 ---
-title: Panoyu düzenleme
-description: Sütun sayısını seçin, widget ekleyip yerleştirin, kutucukları boyutlandırın ve düzenleri başka akvaryumlarda kullanmak için kaydedin.
+title: Panonuzu düzenleme
+description: Telefon panonuzda widget ekleyin, taşıyın, boyutlandırın ve kaldırın, sütun sayısını ayarlayın ve bir Cora Max panosunu telefonunuzdan düzenleyin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 6
+order: 8
 group: Your dashboard
+twin: max-dashboard-editing
 ---
 
-Pano düzenleyicide bir akvaryumun panosunda hangi widget'ların görüneceğini ve nasıl yerleşeceğini belirlersiniz.
+Pano düzenleyici, bir akvaryumun panosunda hangi widget'ların görüneceğini ve nasıl yerleşeceğini belirler. Her akvaryumun kendi düzeni vardır ve bu düzen, giriş yaptığınız her telefona hesabınızla birlikte gelir.
 
-## Düzenleyiciyi açma
+## Düzenleyiciyi açma {#opening-the-editor}
 
-Panonun en altına inin ve **Gösterge panelini düzenle**'ye dokunun.
+Panoda aşağı kaydırın ve widget'ların hemen altındaki **Panoyu düzenle**'ye dokunun. Düzenleyici **Panoyu Düzenle** başlığıyla ve **Taşımak için bir karoya uzun basın. Yapılandırmak için dokunun.** ipucuyla açılır.
 
-:::note Akvaryum adının yanındaki kalem başka bir ekranı açar
-Kalem, **Akvaryumu düzenle** ekranını açar. Bu ekran hacim, canlılar, dozaj, aydınlatma ve akış bilgilerinin olduğu akvaryum profilidir. Ayrıntılar [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasında.
+:::note Akvaryum başlığındaki kalem başka bir şeyi açar
+Kalem, hacim, canlılar, dozaj, aydınlatma ve akış bilgilerinin olduğu akvaryum profili **Akvaryumu düzenle**'yi açar. Bu, [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasında anlatılır.
 :::
 
-![Pano düzenleyici](img/mobile-edit.webp "Her kutucukta adı ve türü yazar. Kaldırmak için kırmızı çarpıya dokunun.")
+![Cora Mobile'da Panoyu Düzenle ekranı](img/mobile-edit.webp "Üstte sütunlar, ardından adı ve türüyle her kutucuk. Kaldırmak için kırmızı çarpıya dokunun.")
 
-## Sütun sayısını seçme
+## Sütun sayısını ayarlama {#setting-the-column-count}
 
-Düzenleyicinin üstünden **2**, **3** ya da **4** sütun seçin. Widget ekledikçe ızgara aşağı doğru uzar ve pano kaydırılabilir olur.
+Düzenleyicinin üstünde **SÜTUNLAR**'ın yanından **2**, **3** ya da **4**'ü seçin. Widget ekledikçe ızgara aşağı doğru uzar ve pano kaydırılır.
 
-| Sütun | Ne zaman seçmeli |
+| Sütun | Ne zaman kullanılır |
 |---|---|
 | 2 | Az sayıda parametre izliyorsanız ve büyük kutucuklar istiyorsanız |
 | 3 | Varsayılan. Çoğu akvaryum için uygun |
-| 4 | Sık bir görünüm istiyorsanız ya da telefonunuzun ekranı büyükse |
+| 4 | Sık bir görünüm istiyorsanız ya da telefonunuz büyükse |
 
-## Widget ekleme
+## Widget ekleme {#adding-a-widget}
 
-1. Düzenleyicide **+**'ya dokunun.
-2. Widget'ın ne göstereceğini seçin: parametre, cihaz ya da priz.
-3. Widget türünü seçin. Türler [Widget rehberi](/help/mobile-widgets) sayfasında anlatılıyor.
+1. Izgaranın altındaki **Karo ekle**'ye ya da boş bir hücreye dokunun.
+2. **Bir karo ekle** içinde türünü seçin. **Metrik**, bir parametre için değer, gösterge, grafik ya da durum gösterir. **Priz** bir Apex prizini kontrol eder. Diğer satırlar **ReefBeat**, **Trident**, **DŌS** ya da **Jecod** gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür.
+3. Parametreyi, prizi ya da cihazı seçin.
+4. Bir metrik için türü seçin. [Widget rehberi](/help/mobile-widgets) her birini anlatır.
 
-Listede yalnızca akvaryumda olan kaynaklar çıkar. Kaynağı olmayan bir parametre, onu ölçen ekipmanı bağladığınızda ya da elle bir ölçüm girdiğinizde listeye gelir.
+Yalnızca akvaryumda bulunan parametreleri görürsünüz. Kaynağı olmayan bir parametre, onu bildiren ekipmanı bağladığınızda ya da elle bir ölçüm girdiğinizde görünür.
 
-## Widget'ları yerleştirme
+Izgara en fazla 20 satır alır. Dolduğunda Cora **Pano dolu: önce bir karo kaldırın.** der. Bir grafik yan yana iki boş hücre ister.
 
-- **Widget'ı taşımak için** basılı tutun ve sürükleyin. Diğer widget'lar kendiliğinden yer değiştirir.
-- **Widget'ı kaldırmak için** köşesindeki kırmızı çarpıya dokunun.
-- **Widget'ın ayarlarını değiştirmek için** üzerine dokunun.
+## Widget'ları yerleştirme {#arranging-widgets}
 
-## Boyutlandırma
+- Bir widget'ı taşımak için basılı tutun ve sürükleyin. Diğerleri onun çevresinde yer değiştirir.
+- Bir widget'ı kaldırmak için köşesindeki kırmızı çarpıya ya da widget'a, ardından **Kaldır**'a dokunun.
+- Bir widget'ın ayarlarını değiştirmek için ona dokunun.
 
-Bir widget bir ya da iki sütun, bir ya da iki satır kaplar. Boyutu widget'ın ayarlarından seçin. Bir kamera kutucuğu (Beta) en fazla üç sütun genişliğinde olabilir. Kameralar yalnızca Beta kullanıcılarına açıktır. Bkz. [Beta özellikleri](/help/mobile-beta).
+## Widget ayarları {#widget-settings}
 
-**Eğilim** widget'ı her zaman en az iki sütun genişliğindedir.
+Ayarlarını açmak için düzenleyicide bir widget'a dokunun. Widget'a göre şunları ayarlayabilirsiniz:
 
-## Widget ayarları
-
-Widget türüne göre şunları ayarlayabilirsiniz:
-
-| Ayar | Hangi widget'larda |
+| Ayar | Nerede geçerli |
 |---|---|
-| Etiket | Hepsinde |
-| Kaynak | Birden fazla kaynaktan gelen her parametrede |
-| Zaman aralığı | Eğilim: 1 saat, 6 saat, 24 saat, 7 gün, 30 gün, 1 yıl |
-| Aralık | Gösterge: burada değiştirmezseniz akvaryumun eşiklerini kullanır |
-| Boyut | Hepsinde |
+| **Tür** | Metrik widget'ları: Değer, Gösterge, Grafik ya da Durum |
+| **Parametre** | Metrik widget'ları: hangi parametreyi gösterdiği |
+| Priz ya da cihaz | Priz ve ekipman kutucukları: hangisini gösterdiği |
+| **Kalanı şu şekilde göster** | Dozaj pompası kutucukları: **Gün** ya da **Mililitre (mL)** |
+| **Genişlik** | Her widget: **1×** ya da **2×** (kamera **3×**'e kadar). Grafik her zaman en az 2 genişliktedir |
+| **Yükseklik** | Her widget: **1×** ya da **2×** |
+| **Zaman aralığı** | Grafik: 1 sa, 6 sa, 24 sa, 7 g, 30 g ya da 1 y |
 
-## Kaydetme
+Ayarları saklamak için **Bitti**'ye, widget'ı çıkarmak için **Kaldır**'a dokunun.
 
-Düzeni uygulamak için **Kaydet**'e dokunun. Değişikliklerden vazgeçmek için kapatma simgesine dokunun.
+Bir widget'ın kendine ait etiketi, kaynağı ya da aralığı yoktur. Uyarı aralığı akvaryumun uyarı eşiklerinden gelir: panoda widget'a uzun basın ya da [Uyarılar ve eşikler](/help/mobile-alerts) sayfasına bakın. Bir parametrenin hangi kaynağı izleyeceği her akvaryum için [Parametre Eşlemesi](/help/mobile-probes) içinde ayarlanır.
 
-## Panolarım
+## Kaydetme {#saving}
 
-Beğendiğiniz düzeni kaydedip tekrar kullanabilirsiniz. **Panolarım → Bu tasarımı kaydet**'e dokunun ve tasarıma bir ad verin. En fazla **30** tasarım saklayabilirsiniz.
+Düzeni saklamak için **Kaydet**'e dokunun. Değişikliklerinizden vazgeçmek için kapatma simgesine dokunun. Bir şeyi değiştirdiyseniz Cora **Değişiklikler atılsın mı?** diye sorar. **At**'a ya da geri dönmek için **Düzenlemeye devam et**'e dokunun.
 
-Kayıtlı bir tasarımı başka bir akvaryuma ya da Cora Max ekranına yükleyebilirsiniz.
+Telefon düzenleyicisinde geri alma ve kayıtlı tasarım yoktur. Ölçümler, geçmiş ve günlük kayıtları düzenden ayrı saklanır, bu yüzden bir panoyu düzenlemek onları asla kaybettirmez.
 
-:::note Doldurulamayan kutucuklar önceden listelenir
-Tasarımı yüklediğinizde yalnızca hedefte gerçekten doldurulabilen kutucuklar kalır. Diğerleri çıkarılır. Onaylamadan önce bunlar **Geride kalanlar:** başlığı altında nedenleriyle listelenir: akvaryum o parametreyi hiç bildirmemiş, o adda bir priz yok, ReefBeat cihazı ya da Apex modülü bu akvaryuma bağlı değil ya da ızgarada yer kalmamış.
-:::
+## Cora Max panosunu düzenleme {#editing-the-cora-max-dashboard}
 
-## Eski bir düzene dönme
+Cora Max panosunu ayrı olarak, akvaryumun kartındaki **Cihazlar →** Cora Max'iniz **→ Pano düzeni** yolundan düzenlersiniz. Kaymayan sabit bir ızgara kullanır ve siz **Kaydet ve Yayınla**'ya dokunana kadar Cora Max'e hiçbir şey ulaşmaz.
 
-Beğendiğiniz bir düzene kayıtlı tasarımla geri dönersiniz. Pano tam istediğiniz gibiyken tasarımı kaydedin. Sonra istediğiniz zaman yeniden uygulayabilirsiniz.
+Bu düzenleyicide telefon panosunda olmayan üç ek özellik vardır:
 
-Bu bir **geri alma değil, geri yüklemedir**. Listeden tasarımı seçip onaylarsınız. Tasarım şu anki düzenin yerine geçer ve akvaryumun dolduramayacağı kutucuklar yine çıkarılır. Son düzenlemenizden önceki hâle değil, kaydettiğiniz düzene dönersiniz.
+- **Panolarım**, hesabınızda en fazla 30 kayıtlı tasarım tutar. Hesaptaki her Cora Max bunlardan birini yükleyebilir. Hedefin dolduramayacağı kutucuklar, yüklemeden önce **Geride kalanlar:** altında listelenir.
+- **Şablonlar**, **Pano şablonları**'nı açar: **Genel bakış**, **Ekipman**, **Parametreler** ve akvaryumda kamera varsa **Kamera**. Her planda açıktır ve yapay zeka kullanmaz. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
+- **Yapay zeka ile tasarla**, ücretli bir planda ya da deneme süresinde, akvaryumun bildirdiği ve bağladığı şeylerden komple bir düzen önerir. Her akvaryum için günde 5 tasarım yapabilirsiniz.
 
-Ölçümler, geçmiş ve günlük kayıtları düzenden ayrı saklanır. Panoda yaptığınız hiçbir düzenleme bunları silmez.
-
-## Cora Max panosunu düzenleme
-
-Cora Max panosunu ayrıca düzenlersiniz: **Cihazlar → Cora Max'iniz → Panoyu Düzenle**. Bu pano kaydırılan değil, sabit bir ızgara kullanır. Ayrıntılar [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.
-
-### Şablonlar
-
-Cora Max düzenleyicisinin üstünde, **Yapay zeka ile tasarla**'nın yanında bir **Şablonlar** simgesi de vardır. Her planda açıktır ve hiç yapay zeka kullanmaz, bu yüzden yapay zeka veri paylaşımı kapalıyken de çalışır.
-
-**Pano şablonları**'nı açar: **Genel bakış**, **Ekipman**, **Parametreler** ve akvaryumda kamera varsa **Kamera**. Her düzen bu akvaryumun bildirdiği ve bağladığı şeylerden oluşturulur, bir önizlemesi olur ve ızgarasındaki kutucuk sayısını gösterir. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
-
-**Bunu kullan**'a dokunun, ardından **Panonuz değiştirilsin mi?** sorusunu **Değiştir** ile onaylayın. Mevcut düzeninizi saklamak için **Önce mevcut olanı ön ayar olarak kaydet**'e dokunun. **Kaydet ve Yayınla**'ya dokunana kadar Cora Max'e hiçbir şey ulaşmaz.
-
-### Yapay zeka ile tasarla
-
-Ücretli bir planda düzenleyicinin üstünde, **Yapay zeka ile tasarla** etiketli bir parıltı simgesi bulunur. Ona dokunun, Cora bu akvaryumun bildirdiği ve bağladığı şeylere bakarak komple bir düzen önersin. Ücretsiz planda simge bir kilit gösterir (**Yapay zeka ile tasarla (ücretli planlar)**) ve planları açar.
-
-Öneri, kaç kutucuğu olduğunu ve ızgara boyutunu gösterir. Düzenleyiciye almak için **Bunu kullan**'a, başka bir öneri için **Tekrar deneyin**'e dokunun. Her akvaryum için günde 5 tasarım yapabilirsiniz.
-
-Yapay zeka tasarımı, düzenlediğiniz panodakilerin yerine geçer. **Kaydet ve Yayınla**'ya dokunana kadar Cora Max'e hiçbir şey ulaşmaz, yani kaydetmeden çıkabilirsiniz. Mevcut düzeninizi önce saklamak için onu **Panolarım** altına kaydedin.
-
-Yapay zeka ile tasarla için Ayarlar'da yapay zeka veri paylaşımının açık olması gerekir. Kapalıysa size söylenir, açıp yeniden deneyebilirsiniz. Akvaryumun henüz ölçümü ya da bağlı cihazı yoksa tasarlanacak bir şey yoktur.
+Her birinin nasıl çalıştığı [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.

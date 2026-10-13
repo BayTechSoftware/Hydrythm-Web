@@ -1,97 +1,103 @@
 ---
 title: Bakım
-description: Düzenli işler ve hatırlatmalar. Skimmer temizliği, filtre çorapları, pompa bakımı.
+description: Skimmer temizliği ya da filtre çorabı değişimi gibi tekrarlanan işler ekleyin, zamanı geldiğinde hatırlatma alın ve onları tamamlandı olarak işaretleyin ya da erteleyin.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 19
+reviewed: 2026-10-13
+order: 26
 group: Records
+twin: max-records
 ---
 
-Bakım ekranı, akvaryumun düzenli olarak ihtiyaç duyduğu işleri ve bunların hatırlatmalarını tutar. Ekranı panonun altındaki kısayol satırından açın.
+Bakım, akvaryumunuzun düzenli olarak ihtiyaç duyduğu işleri her biri için bir hatırlatmayla birlikte tutar.
 
-![Bakım listesi](img/mobile-maintenance.webp "Uyum oranı, gecikmiş görev sayısı ve her görevin son yapıldığı ile bir sonraki tarih.")
+Panonun altındaki düğme satırında **Bakım**'a dokunun. Aynı ekran Ayarlar → akvaryumunuz → **Bakım** yolunda da var.
 
-## Özet
+![Bakım listesi](img/mobile-maintenance.webp "Uyum oranı, gecikmiş görev sayısı ve her görevin son tamamlanma ve bir sonraki tarihi.")
 
-Üst kısımda şunlar var:
+## Özet {#summary}
 
-- **Bakım Uyumu**: şu an zamanında yapılan görevlerin oranı
-- **Gecikmiş sayısı**: tarihi geçmiş görev sayısı
+En üstte **Bakım Uyumu** (şu anda zamanında olan görevlerin oranı) ve kaç görevin geciktiği yer alır.
 
-Listedeki görevler aciliyetine göre renklenir: gecikmiş, yaklaşan ya da planlanmış. Her görevde son ne zaman yapıldığı ve bir sonraki tarihi görünür.
+Listedeki her görev gecikmiş, yakında ya da planlanmış olmasına göre renklenir. Ayrıca onu en son ne zaman yaptığınızı ve bir sonraki tarihini gösterir.
 
-## Görev ekleme
+## Görev ekleme {#adding-a-task}
 
-Göreve bir ad ve simge verin, kaç günde bir yapılacağını girin. Bir sonraki tarihi Cora hesaplar.
+**Görev Ekle**'ye dokunun ve şunlardan birini seçin:
 
-Sık kullanılan görevler:
+- **Şablondan**: aralığı doldurulmuş yaygın bir iş için. Seçin, sonra bir sonraki tarihini ve hatırlatılmak istediğiniz saati ayarlayın ve **Onayla**'ya dokunun.
+- **Özel Görev**: kendi işiniz için. Bir **Görev adı**, bir **Aralık (gün)**, bir **Kategori** ve bir **Sonraki vade tarihi** girin. Bildirim istiyorsanız **Hatırlatıcı**'yı açın ve **Bana şu saatte hatırlat**'ı seçin.
+
+Şablonlardan bazıları ve başlangıç aralıkları:
 
 | Görev | Aralık |
 |---|---|
-| Filtre çoraplarını değiştir | 3–7 gün |
+| Filtre çoraplarını değiştir | 3 gün |
 | Skimmer kabını temizle | 7 gün |
-| Camı temizle | 7 gün |
-| Karbonu ya da GFO'yu değiştir | 30 gün |
-| Ana pompanın bakımını yap | 90–180 gün |
-| Probları kalibre et | 30–90 gün |
+| Su değişimi | 7 gün |
+| Su parametrelerini test et | 7 gün |
+| Karbonu değiştir | 30 gün |
+| pH probunu kalibre et | 30 gün |
+| Güç kafalarını temizle | 90 gün |
+| ICP sonuçlarını yükle | 90 gün |
 
-## Cora'nın sizin için oluşturduğu görevler
+Her görevin aralığını sonradan değiştirebilirsiniz.
 
-Bir Red Sea ReefDose, ReefATO+, ReefMat ya da ReefRun bağladığınızda Cora, o cihazın ihtiyaç duyduğu bakımı doğru aralıkla kendiliğinden ekler. Şöyle görevler eklendiğini göreceksiniz:
+### Cora'nın Red Sea ekipmanı için eklediği görevler {#red-sea-tasks}
+
+Bir Red Sea ReefDose, ReefATO+, ReefMat ya da ReefRun bağladığınızda Cora, o ünitenin ihtiyaç duyduğu bakımı doğru aralıkla ekler:
 
 | Cihaz | Görev | Aralık |
 |---|---|---|
-| ReefATO+ | Replace ReefATO+ EC sensor | 42 gün |
-| ReefATO+ | Replace ReefATO+ return pump | 135 gün |
-| ReefMat | Replace ReefMat carbon | 25 gün |
-| ReefRun | Check ReefRun skimmer venturi | 35 gün |
-| ReefRun | Replace ReefRun skimmer rotor | 135 gün |
-| ReefRun | Calibrate ReefRun full-cup sensor | 28 gün |
-| ReefRun | Calibrate ReefRun overskimming sensor | 28 gün |
-| ReefRun, pompa başına | Service ReefRun pump motor | 135 gün |
-| ReefRun, pompa başına | Clean ReefRun pump strainer | 42 gün |
-| ReefDose, kafa başına | Calibrate ReefDose head | 90 gün |
-| ReefDose, kafa başına | Replace ReefDose head tubing | 450 gün |
+| ReefATO+ | ReefATO+ EC sensörünü değiştirin | 42 gün |
+| ReefATO+ | ReefATO+ geri dönüş pompasını değiştirin | 135 gün |
+| ReefMat | ReefMat karbonunu değiştirin | 25 gün |
+| ReefRun | ReefRun skimmer venturisini kontrol edin | 35 gün |
+| ReefRun | ReefRun skimmer rotorunu değiştirin | 135 gün |
+| ReefRun | ReefRun tam kap sensörünü kalibre edin | 28 gün |
+| ReefRun | ReefRun aşırı köpük sensörünü kalibre edin | 28 gün |
+| ReefRun, pompa başına | ReefRun pompa motorunu bakımdan geçirin | 135 gün |
+| ReefRun, pompa başına | ReefRun pompa süzgecini temizleyin | 42 gün |
+| ReefDose, kafa başına | ReefDose kafasını kalibre edin | 90 gün |
+| ReefDose, kafa başına | ReefDose kafasının hortumunu değiştirin | 450 gün |
 
-Bu görevler kendi eklediğiniz görevlerle aynı şekilde çalışır: adını değiştirebilir, aralığını değiştirebilir, erteleyebilir ya da duraklatabilirsiniz. Birini silerseniz Cora o cihaz için bunu bir daha eklemez.
+Bunlar kendi eklediğiniz görevler gibi çalışır. Adlarını ve aralıklarını değiştirebilir, onları erteleyebilir ya da silebilirsiniz. Birini silerseniz Cora onu o cihaz için yeniden eklemez.
 
-### Suyu test et
+### Suyu test et {#test-water}
 
-İlk test kartında **Her hafta test etmemi hatırlat**'a dokunursanız Cora, seçtiğiniz **Test günü**'ne denk gelen haftalık bir **Suyu test et** görevi ekler. Kendi eklediğiniz herhangi bir görev gibi çalışır. Bkz. [Cora Mobile kurulumu](/help/mobile-setup).
+İlk test kartında **Her hafta test etmemi hatırlat**'a dokunursanız Cora, seçtiğiniz **Test günü**'nde zamanı gelen, **Suyu test et** adında haftalık bir görev ekler. Diğer görevler gibi çalışır. [Cora Mobile'ı kurma](/help/mobile-setup) sayfasına bakın. **Su parametrelerini test et** şablonuyla istediğiniz zaman bir test hatırlatıcısı da ekleyebilirsiniz.
 
-### Bir otomasyondan
+### Bir otomasyondan {#from-an-automation}
 
-**Bakım görevi oluştur** eylemine sahip bir [otomasyon](/help/mobile-automation), kuralı çalıştığında bu listeye bir iş ekleyebilir ya da var olan bir görevi hemen yapılması gereken hale getirebilir. Yeni olan tek seferliktir, hemen yapılması gerekir ve tamamladığınızda listeden kalkar. Açıkken aynı otomasyon bir tane daha eklemez. Tek bir bildirim alırsınız.
+**Bakım görevi oluştur** eylemi olan bir [otomasyon](/help/mobile-automation), kuralı tetiklendiğinde bu listeye bir iş ekleyebilir ya da var olan bir görevin zamanını şimdiye çekebilir. Yeni eklenen iş, zamanı şimdi olan bir **Tek seferlik görev**dir ve nedeniyle birlikte *Bir otomasyon oluşturdu* gösterir. Tamamladığınızda listeden çıkar. Açık kaldığı sürece aynı otomasyon bir tane daha eklemez. Tek bir bildirim alırsınız.
 
-## Hatırlatmalar
+## Hatırlatmalar {#reminders}
 
-Her görev için hatırlatma kurabilir, zamanını siz belirleyebilirsiniz:
+Bir görevi açın, **Hatırlatıcı**'yı açın ve **Bana şu saatte hatırlat**'ı seçin. Zamanı gelmeden bir gün önce ve o gün birer bildirim alırsınız. Görev gecikmiş olduğu sürece birkaç günde bir hatırlatma alırsınız. Bir akvaryumda birkaç görevin zamanı aynı anda gelirse tek bir bildirim olarak gelirler.
 
-- Tarihten **kaç gün önce** hatırlatılacağı
-- Hatırlatmanın **günün hangi saatinde** geleceği
+Hatırlatmalar [Ayarlar → Bildirimler](/help/mobile-notifications) içinde **Bakım Hatırlatıcıları** altındadır. Bir görevi yalnızca listede görmek istiyorsanız **Hatırlatıcı**'sını kapatın.
 
-Bir görevi yalnızca listede görmek istiyorsanız hatırlatmasını kapatın.
+## Görevi tamamlandı olarak işaretleme {#marking-done}
 
-## Görevi yapıldı olarak işaretleme
+Görevi sağa kaydırın ya da açıp **Tamamla**'ya dokunun. Yanlışlıkla kaydırdıysanız çıkan mesajdaki **Geri al**'a dokunun.
 
-Görevdeki **Tamamla** düğmesine dokunun ya da görevi kaydırın. Cora işin yapıldığı anı kaydeder ve bir sonrakini o andan itibaren planlar. Üç gün geç yaptığınız bir iş, bir sonrakini de üç gün ileri atar. Cora işi zamanında yapılmış gibi saymaz.
+Cora işi bitirdiğiniz zamanı kaydeder ve bir sonraki tarihi o andan sayar. Yani bir işi üç gün geç yaparsanız bir sonraki de üç gün ileri kayar.
 
-:::note Satıra dokunursanız düzenleme açılır
-Satırın kendisine dokunduğunuzda görevin adını, aralığını ya da hatırlatmalarını değiştirebileceğiniz ekran açılır. Görevi bitirmek için **Tamamla**'yı kullanın.
+Görevin sayfası, her birinin ne kadar geciktiği dahil **Tamamlama geçmişi**'ni gösterir.
+
+:::note Bir görevi tamamlamak günlüğe de kayıt yazar
+Cora sizin için [günlüğünüze](/help/mobile-journal) kısa bir kayıt ekler ve gecikmişse bunu da belirtir. Söyleyecek daha fazla şey varsa, örneğin pompa kumla doluysa ya da çoraplar bir günde simsiyah olduysa, kendi kaydınızı ekleyin.
 :::
 
-## Erteleme
+## Görevi düzenleme {#editing}
 
-Bir işi şu an yapamıyorsanız erteleyin. Görev listede soluk bir **Ertelendi** durumuyla ve yeni tarihiyle kalır. Hiçbir şey kaybolmaz, yalnızca o tarihe kadar yeniden hatırlatılmaz.
+Açmak için bir göreve dokunun. **Görev adı**, **Aralık (gün)**, **Notlar (isteğe bağlı)**, **Sonraki vade tarihi** ve hatırlatıcıyı değiştirip **Kaydet**'e dokunabilirsiniz. **Sil** görevi kaldırır.
 
-:::warning Yapmadığınız görevi yapıldı olarak işaretlemeyin
-Bir sonraki tarih, işin yapıldığı tarihe göre hesaplanır. Bekleyen bir görevi yapıldı olarak işaretlerseniz sonraki bütün tarihler kayar. Bunun yerine erteleyin.
+## Erteleme {#snoozing}
+
+Bir işi şu an yapamıyor musunuz? Açın, **Ertele**'ye dokunun ve **1 Gün**, **3 Gün**, **1 Hafta**, **2 Hafta** ya da **1 Ay**'ı seçin. Görev yeni tarihiyle **Ertelendi** olarak listede kalır ve o zamana kadar hatırlatma almazsınız.
+
+:::warning Görevi yalnızca yaptığınızda tamamlandı olarak işaretleyin
+Bir sonraki tarih, görevi tamamlandı olarak işaretlediğiniz günden sayılır. Bekleyen bir görevi tamamlandı olarak işaretlerseniz sonraki tüm tarihler kayar. Onun yerine erteleyin.
 :::
 
-## Görevi duraklatma
-
-Bir görevi pasif hâle getirebilirsiniz. Devreden çıkardığınız bir ekipman ya da bu mevsim gerekmeyen bir iş için kullanışlıdır. Görev listede kalır ama tarihi gelmez. İstediğiniz zaman yeniden etkinleştirebilirsiniz.
-
-## Bakım ve günlük
-
-Görevi tamamlamak günlüğe kayıt yazmakla aynı şey değildir. Bakım "Sırada ne var?" sorusunu yanıtlar. **[Günlük](/help/mobile-journal)** ise "Gerçekte ne yaptım, sonra ne oldu?" sorusunu. Bir iş sıra dışı geçtiyse (pompa kumla doluydu, çoraplar bir günde simsiyah oldu) bunu günlüğe de yazın.
+Bir görevi duraklatmanın yolu yoktur. Bu mevsim geçerli olmayan bir iş için onu **1 Ay** erteleyin ya da silip daha sonra yeniden ekleyin.

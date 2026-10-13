@@ -1,68 +1,75 @@
 ---
-title: Mappatura parametri
-description: Vedi quale sonda guida ogni lettura in tutti i controller, e annota calibrazioni e pulizie.
+title: Mappatura parametri e sonde
+description: Scegli quale sonda guida ogni lettura, di' a Cora cosa misura ogni sonda e registra calibrazioni e pulizie delle sonde.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 13
+reviewed: 2026-10-13
+order: 15
 group: Equipment
 ---
 
-Se hai più di un controller, o due sonde che misurano la stessa cosa, Cora deve sapere quale lettura considerare valida. La **Mappatura parametri** è dove sistemi questo, ed è anche dove dici a Cora cos'è ogni sonda fin dall'inizio.
+Usa **Mappatura parametri** per dire a Cora cosa misura ogni sonda e, quando due sonde riportano la stessa cosa, di quale fidarsi. Vai in **Impostazioni**, apri la vasca e tocca **Mappatura parametri**.
 
-Vai in **Impostazioni**, apri la vasca e scegli **Mappatura parametri**. Si trova tra **Modifica vasca** e **Soglie di avviso**. La matita in alto sulla dashboard apre **Modifica vasca**, che non la contiene. La raggiungi anche dalle pagine dei dispositivi Neptune Apex e GHL (Beta). GHL è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+Si trova tra **Modifica vasca** e **Soglie di avviso**. La matita in alto sulla dashboard apre **Modifica vasca**, che non la contiene. La raggiungi anche dalle pagine dei dispositivi Neptune Apex e GHL (Beta). GHL è disponibile solo per gli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
 
 La schermata ha un campo di ricerca (**Cerca parametri**) e due schede, **Mappatura** e **Fonti**. La ricerca guarda nei nomi dei parametri, nei nomi delle sonde, nei dispositivi e nelle marche. Lo stesso campo di ricerca c'è in ogni selettore di parametri.
 
-## Da dove arriva ogni lettura
+## Sonde: dire a Cora cos'è ognuna {#mapping}
 
-Questa è la scheda **Fonti**.
+![La scheda Mappatura](img/mobile-probe-mapping.webp "Ogni sonda, raggruppata per il dispositivo che la riporta, con il parametro a cui è mappata.")
 
-![Da dove arriva ogni lettura](img/mobile-probes.webp "Ogni parametro, quale sonda lo guida e un pulsante Scegli per cambiarla.")
+Si apre per prima la scheda **Mappatura**. Elenca tutte le sonde che Cora conosce, raggruppate per il dispositivo che le riporta, con la lettura attuale. Cora riconosce da sola i nomi standard delle sonde, e ogni riga mostra a cosa le ha associate. Di solito devi correggere solo le poche che non è riuscita a collocare.
 
-Questa sezione elenca ogni parametro che Cora segue per questa vasca, come pH o temperatura, e mostra quale sonda lo sta alimentando in questo momento.
+Ogni riga ti dà tre scelte.
 
-Tocca una lettura per vedere tutte le sonde che la riportano, in tutti i controller che hai collegato. Ognuna mostra la sua marca, il nome che le ha dato il controller e il suo valore in tempo reale. Scegline una per fissarla, oppure scegli **Automatico (vince la lettura più recente)** per lasciare che Cora usi la sonda che ha riportato per ultima. Le altre restano nello storico.
+- **Un parametro Cora** è il valore che misura quella sonda.
+- **Personalizzato…** è per una sonda per cui Cora non ha un parametro standard. Scrivi un nome breve in maiuscolo in **Parametro personalizzato (token in MAIUSCOLO)**, e Cora la segue con quel nome.
+- **Ignora** è per le sonde che non vuoi registrare per niente.
 
-Un'etichetta accanto a ogni lettura mostra quale sonda è attiva: **Automatico**, oppure **Scelta da te** una volta che ne hai fissata una.
+Una sonda ignorata o non mappata non compare su una dashboard e non fa scattare avvisi.
 
-Se una sonda fissata smette di riportare, Cora mostra da quanto tempo non risponde più e offre **Torna ad Automatico**, così una sonda morta non può bloccare una lettura.
+Una mappatura comincia a funzionare dalle letture successive. Correggerne una qui non riscrive lo storico. Cambia solo quello che viene salvato da quel momento. Tocca **Salva** per applicare le modifiche.
 
-Tocca **Rinomina** per dare a una lettura un nome tutto suo. È diverso dal nome che dai alla sonda stessa, ed è quello che compare sulla dashboard, negli avvisi e in Reef Buddy.
+:::warning Cora non vede una sonda non mappata
+Se un parametro non mostra letture ma la sonda funziona, controlla per prima cosa la sua mappatura.
+:::
+
+## Da dove arriva ogni lettura {#sources}
+
+![La scheda Fonti](img/mobile-probes.webp "Ogni lettura, la sonda che la alimenta e se è Automatico o Scelto da te.")
+
+La scheda **Fonti** elenca ogni parametro che Cora segue per questa vasca, come pH o temperatura, e mostra quale sonda lo sta alimentando in questo momento.
+
+Tocca una lettura per vedere tutte le sonde che la riportano, in tutti i controller che hai collegato. Ognuna mostra la sua marca, il nome che ha per la sonda e il valore in tempo reale. Scegline una per fissarla, oppure scegli **Automatico (vince la lettura più recente)** per lasciare che Cora usi la sonda che ha riportato per ultima. Le altre restano nello storico.
+
+Un'etichetta accanto a ogni lettura mostra quale vale: **Automatico**, oppure **Scelto da te** dopo che hai fissato una sonda. La tua scelta vale per quella lettura in tutta la vasca, non per un solo widget.
+
+Se una sonda fissata smette di riportare, Cora mostra quando l'ha sentita l'ultima volta e offre **Torna ad Automatico**, così una sonda morta non può lasciare una lettura bloccata.
+
+Tocca **Rinomina** per dare a una lettura un nome tutto suo. È separato da qualsiasi nome tu dia alla sonda stessa. È quello che compare sulla dashboard, negli avvisi e in Reef Buddy.
+
+Anche il profilo della vasca ha una sezione **Fonti dei parametri** (è nascosta mentre crei una vasca nuova). Imposta la stessa cosa in forma più breve. Usa Mappatura parametri quando vuoi avere in un unico posto tutte le sonde di tutti i controller.
 
 :::note Un sensore di allagamento qui non si può riassegnare
-L'allarme di un sensore di allagamento dipende dal suo stesso nome, quindi è escluso da questa scelta. Funziona come sempre.
+L'allarme di un sensore di allagamento dipende dal suo nome, quindi è escluso da questa scelta. Funziona come sempre.
 :::
 
-## Sonde: dire a Cora cos'è ognuna
+## Più sonde per un parametro {#multiple-probes}
 
-Si apre per prima la scheda **Mappatura**. Elenca tutte le sonde che Cora conosce, raggruppate per dispositivo, ognuna con la sua lettura attuale. Cora riconosce da sola i nomi standard e la riga mostra a quale parametro ha associato la sonda. Di solito quindi devi solo correggere quelle che Cora non è riuscita a riconoscere, senza doverle mappare tutte a mano.
+Se hai due sonde di temperatura, sullo stesso controller o su due diversi, mappale entrambe. Cora le tiene come fonti separate, e la scheda **Fonti** è dove scegli quale guida la lettura, oppure lasci Automatico. Puoi confrontarle nella [pagina del parametro](/help/mobile-metric-detail).
 
-Per ogni riga hai tre scelte:
+Quando due fonti riportano lo stesso parametro, vince la misura più recente. Un valore sullo schermo viene sostituito solo da una lettura con un orario di misura successivo, da qualunque dispositivo arrivi. Una lettura più vecchia, o un dispositivo che rimanda una lettura vecchia, va nello storico e non sovrascrive il valore attuale. Se hai fissato una fonte nella scheda **Fonti**, Cora segue invece quella fonte.
 
-- **Un parametro Cora**: il valore che misura quella sonda.
-- **Personalizzato**: per una sonda che non corrisponde a nessun parametro standard di Cora. Le dai un nome breve in maiuscolo e Cora la registra con quel nome.
-- **Ignora**: per le sonde che non vuoi registrare.
+## Registrare la cura delle sonde {#recording-probe-care}
 
-Una sonda ignorata o non mappata non compare sulla dashboard e non fa scattare avvisi.
+Le sonde derivano. Quando calibri, pulisci o sostituisci una sonda, dillo a Cora, così non scambia il salto nella lettura per un vero cambiamento nella vasca.
 
-La mappatura vale dalla prossima lettura registrata. Una correzione quindi non riscrive lo storico, ma cambia quello che viene salvato da quel momento. Tocca **Salva** per applicarla.
+1. Tocca il widget del parametro sulla dashboard, per esempio pH, temperatura, salinità o ORP.
+2. Tocca **Registra cura della sonda** (l'icona del sensore) nella barra in alto.
+3. Scegli cosa hai fatto: **Calibrata**, **Pulita**, **Sostituita**, **Riposizionata** o **Confrontata con un riferimento**. Puoi aggiungere una **Lettura di riferimento** e una nota.
+4. Tocca **Registra cura della sonda**.
 
-:::warning Una sonda non mappata per Cora non esiste
-Se un parametro non ha letture ma la sonda funziona, controlla per prima cosa la sua mappatura.
-:::
+La pagina del parametro mostra poi quanto tempo fa è stata calibrata quella sonda. La cura delle sonde funziona bene anche come [attività di manutenzione](/help/mobile-maintenance) ricorrente.
 
-## Più sonde per lo stesso parametro
-
-Se hai due sonde di temperatura, sullo stesso controller o su due diversi, mappale entrambe. Cora le tiene come fonti separate, e la scheda **Fonti** è dove scegli quale delle due guida la lettura, oppure lasci Automatico. Puoi confrontarle in [la pagina del parametro](/help/mobile-metric-detail).
-
-Quando due fonti riportano lo stesso parametro, vince la misura più recente. Un valore sullo schermo viene sostituito solo da una lettura con un orario di misura più recente, da qualsiasi dispositivo provenga. Una lettura più vecchia, o un dispositivo che rimanda una lettura vecchia, va nello storico e non sovrascrive il valore attuale. Se hai fissato una fonte, Cora segue invece quella fonte.
-
-## Annotare la cura delle sonde
-
-Con il tempo le sonde perdono precisione. Cora può tenere traccia di quando hai calibrato o pulito ogni sonda l'ultima volta, così capisci se un valore è cambiato davvero o se la sonda ha bisogno di una sistemata.
-
-Registra calibrazione o pulizia dalla voce della sonda. È anche un buon candidato per un [lavoro di manutenzione](/help/mobile-maintenance) ricorrente.
-
-:::note La data di calibrazione spiega le differenze
-Quando sonda e test non concordano, la prima cosa da guardare di solito è quando hai calibrato la sonda l'ultima volta.
+:::note Le date di calibrazione spiegano le differenze
+Quando una sonda e un test non concordano, controlla quando hai calibrato la sonda l'ultima volta. Di solito la risposta è lì.
 :::

@@ -1,41 +1,50 @@
 ---
 title: Aktywność na Cora Max
-description: Każde polecenie, które system wykonał, odrzucił albo którego nie mógł potwierdzić, czytelne z Cora Max.
+description: Sprawdź na Cora Max, czy polecenie naprawdę dotarło do sprzętu, kto albo co o nie poprosiło i dlaczego zostało odrzucone.
 section: Cora Max
-reviewed: 2026-09-09
-order: 10
-group: Alerts
+reviewed: 2026-10-13
+order: 11
+group: Records
+twin: mobile-activity
 ---
 
-Cora Max pokazuje ten sam dziennik aktywności co telefon. Jest w nim każde **żądanie akcji** (każda próba zmiany czegoś) i to, co się z nim stało. Odrzucone albo niepotwierdzone żądanie mogło w ogóle nie dotrzeć do sprzętu i dlatego też trafia do dziennika.
+Aktywność to dziennik każdej próby zmiany czegoś w Twoim sprzęcie i tego, co się z nią stało. To ten sam dziennik, który pokazuje telefon. Zajrzyj tu najpierw, gdy coś, o co prosisz, chyba się nie wykonało.
 
-Otworzysz go z **menu akwarium** (dotknij nazwy akwarium na górnym pasku) albo przez **Ustawienia → Ustawienia akwarium → [Twoje akwarium] → Aktywność**.
+Otworzysz go z **menu akwarium** (dotknij nazwy akwarium na górnym pasku) albo przez **Ustawienia → [Twoje akwarium] → Aktywność**.
 
-![Dziennik aktywności na Cora Max](img/max-activity.webp "Legenda jest zawsze na górze ekranu, więc nie musisz pamiętać, co oznacza każdy wynik.")
+![Dziennik aktywności na Cora Max](img/max-activity.webp "Legenda na górze wyjaśnia każdy wynik.")
 
 ## Co mówi każdy wpis
 
-Każdy wiersz podaje akcję, sprzęt i godzinę. Ważniejsze są jednak dwie inne rzeczy.
+Każdy wiersz pokazuje sprzęt i to, o co poproszono, na przykład *Pompa powrotna: Wyłączono*, oraz godzinę. Mówi też dwie inne rzeczy.
 
-Pierwsza to źródło polecenia. Może nim być Ty na tym ekranie, Ty na telefonie, głos, Asystent, reguła [automatyzacji](/help/mobile-automation), inteligentny przycisk albo Twoje konto. Jeśli polecenie wydano na Cora Max, wpis mówi to wprost.
+**Co o to poprosiło.** Na przykład **Dotknięcie na tym Cora**, **Głos na tym Cora**, **Aplikacja Cora**, **Głos w aplikacji Cora**, **Reguła automatyzacji** albo **Wysłano z chmury**.
 
-Druga to droga polecenia. Wpis pokazuje, czy polecenie poszło przez Twoją sieć domową, czy przez konto, i które Cora je wykonało. Gdy masz kilka urządzeń Cora, tak sprawdzisz, które z nich zadziałało.
+**Jaką drogą poszło.** **LAN** oznacza, że polecenie poszło przez Twoją własną sieć. **PRZEZ CHMURĘ** oznacza, że poszło przez Cora Cloud. Jeśli masz więcej niż jedno Cora Max, wpis mówi też, które z nich je wykonało.
 
 ## Cztery wyniki
 
+Legenda na górze ekranu je powtarza.
+
 | Wynik | Znaczenie |
 |---|---|
-| **Potwierdzono** | Sprzęt odpowiedział, że wykonał polecenie |
-| **Niepotwierdzone** | Polecenie wysłano, ale nic nie odpowiedziało. To znaczy *nie wiemy*, a nie *zadziałało* |
-| **Odmówiono** | Polecenie nie zostało wykonane. Zablokowała je reguła bezpieczeństwa, blokada albo sam sprzęt |
+| **Potwierdzono** | Sprzęt odpowiedział, że to wykonał |
+| **Niepotwierdzone** | Wysłano, ale nic nie odpowiedziało. Nie wiemy, czy zadziałało |
+| **Odmówiono** | Nie wykonano. Odrzuciła to reguła bezpieczeństwa, blokada albo sam sprzęt |
 | **Bez zmian** | Sprzęt był już w stanie, o który prosisz |
 
-## Dlaczego wynik jest ważny
+Pod wpisem **Odmówiono** albo **Niepotwierdzone** jest linijka z powodem i z tym, co sprawdzić przed ponowną próbą. Na przykład: *Żadne urządzenie nie odpowiedziało na czas, więc MOGŁO się to jeszcze wykonać. Sprawdź sprzęt przed powtórzeniem.*
 
-W chwili dotknięcia polecenie wysłane, ale niepotwierdzone, wygląda tak samo jak polecenie, które zadziałało. Różnicę widać dopiero na tym ekranie.
+## Gdy coś się nie wykonało
 
-Jeśli coś się chyba nie wykonało, zajrzyj tutaj, zanim uznasz, że sprzęt się zepsuł. Zwykle okazuje się, że żądanie odrzucono albo że nic na nie nie odpowiedziało.
+Na ekranie dotykowym polecenie wysłane, ale nigdy niepotwierdzone, wygląda tak samo jak polecenie, które zadziałało. Ten ekran pokazuje różnicę.
+
+1. Znajdź wpis z tym, o co prosisz.
+2. Jeśli to **Odmówiono**, przeczytaj powód pod spodem. Nic się nie wykonało.
+3. Jeśli to **Niepotwierdzone**, sprawdź sam sprzęt przed ponowną próbą, żeby nie zrobić tego dwa razy.
+
+Jeśli nadal coś się nie zgadza, zajrzyj do [Ustalania, dlaczego coś się zmieniło](/help/troubleshooting#establishing-why-something-changed).
 
 ## Aktywność i dziennik
 
-Aktywność pokazuje, co zrobił system. W [dzienniku](/help/mobile-journal) jest to, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.
+Aktywność pokazuje, co zrobił system. [Dziennik](/help/max-records#journal) pokazuje, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.

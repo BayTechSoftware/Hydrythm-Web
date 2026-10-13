@@ -1,52 +1,81 @@
 ---
 title: Bildirimler
-description: Telefonunuza nelerin geleceğini seçin ve kaçırdığınız bildirimleri nerede okuyacağınızı öğrenin.
+description: Telefonunuza hangi bildirimlerin geleceğini seçin, geceleri sessiz tutun, kaçırdıklarınızı zilin altında okuyun ve gelmeyen bildirimleri düzeltin.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 16
+reviewed: 2026-10-13
+order: 21
 group: Alerts and automation
 ---
 
-Cora'nın size gönderebileceği her şeyi **Ayarlar → Bildirimler** bölümünden yönetirsiniz.
+**Ayarlar → Bildirimler**, Cora'nın bildirimlerinden hangilerinin telefonunuza geleceğini belirler. Bu sayfa ayrıca zili, sessiz geceleri ve hiçbir şey gelmediğinde neyi kontrol edeceğinizi anlatır.
 
-![Bildirim ayarları](img/mobile-notifications.webp "Her kategorinin bildirimi ayrı ayrı açılıp kapatılır.")
+![Cora Mobile'da Ayarlar, Bildirimler](img/mobile-notifications.webp "Her kategorinin kendi anahtarı var.")
 
-## Hangi bildirimler gelebilir
+## Neler bildirim gönderebilir {#categories}
 
-Her kategoriyi ayrı ayrı açıp kapatabilirsiniz:
+En üstteki kart, bu telefonun Cora'dan gelen bildirimlere izin verip vermediğini söyler (**Bildirimler etkin** ya da **Bildirimler devre dışı**). **Uygulama Bildirimleri** altında her kategorinin kendi anahtarı vardır:
 
 | Kategori | Neleri kapsar |
 |---|---|
-| **Parametre Uyarıları** | Belirlediğiniz aralığın dışına çıkan su değerleri |
-| **Bakım Hatırlatıcıları** | Su değişimi gibi planladığınız işler ve yeni bir akvaryumda üç gün sonra hâlâ ölçüm yoksa ilk testinizi kaydetmenizi hatırlatan tek seferlik bir bildirim |
-| **Ekipman Arızaları** | Sorun bildiren cihazlar. Örneğin test yapmayı bırakmış bir Trident |
-| **Sarf Malzemesi Azalıyor** | Reaktif, tamamlama suyu, dozaj kapları ve dolan atık şişesi |
-| **ICP Raporu Hazır** | ICP sonuçlarınızın analizi bitti, okuyabilirsiniz |
+| **Parametre Uyarıları** | Belirlediğiniz aralığın dışına çıkan su kimyası ve değer geri döndüğünde gelen *düzeldi* bildirimi |
+| **Bakım Hatırlatıcıları** | Su değişimi gibi planladığınız görevler ve yeni bir akvaryumda üç gün sonra hâlâ ölçüm yoksa ilk testinizi kaydetmeniz için tek seferlik bir hatırlatma |
+| **Ekipman Arızaları** | Sorun bildiren bir cihaz, örneğin test yapmayı bırakmış bir Trident. Ayrıca [bildirmeyi bırakan](/help/mobile-alerts#stopped-reporting) bir cihaz, kaçırılan bir doz ve Skimmer Gözcüsü'nün kap dolu uyarısı |
+| **Sarf Malzemesi Azalıyor** | Reaktif, su tamamlama suyu, dozaj kapları ve dolan atık şişesi |
+| **ICP Raporu Hazır** | ICP sonuçlarınız analiz edildi ve okunmaya hazır |
 
-Bir kategoriyi kapatırsanız telefonunuza bildirim gelmez. Olay yine de kaydedilir ve zilde görünür.
+Bir kategoriyi kapattığınızda bildirim göndermeyi bırakır. Cora olayı yine kaydeder ve onu zilin altında yine bulursunuz.
 
-:::warning "Parametre Uyarıları" yalnızca su kimyası içindir
-Bu anahtarın akvaryumla ilgili her şeyi kapsadığını düşünmek kolaydır, ama kapsamaz. Test yapmayı bırakan bir Trident **Ekipman Arızaları** kategorisine girer. Reaktifin bitmesi **Sarf Malzemesi Azalıyor** kategorisindedir. İkisinin de kendi anahtarı var. Uzun süredir yalnızca Parametre Uyarıları'nı açık tutuyor ve bunun her şeyi kapsadığını düşünüyorsanız diğer iki anahtarı kontrol edin.
+Bu anahtarlar hesabınıza aittir, bu yüzden giriş yaptığınız her telefonda geçerlidir.
+
+:::warning "Parametre Uyarıları" yalnızca kimyayla ilgilidir
+Bu anahtar akvaryumun size söyleyebileceği her şeyi kapsamaz. Test yapmayı bırakmış bir Trident **Ekipman Arızaları** kategorisindedir. Reaktifin bitmesi **Sarf Malzemesi Azalıyor** kategorisindedir. Her birinin kendi anahtarı var. Uzun süredir Parametre Uyarıları'na güveniyorsanız diğer ikisini kontrol edin.
 :::
 
-**Atık şişesi de Sarf Malzemesi Azalıyor kategorisindedir.** Şişe azalmaz, dolar. Ama yapmanız gereken iş aynıdır: testler durmadan önce bir şeyi boşaltmak ya da değiştirmek.
+Atık şişesi azalmak yerine dolsa da sarf malzemesi sayılır. Testleri durdurmadan önce boşaltılması gereken bir şeydir.
 
-## Zil
+### Anahtarı olmayan bildirimler {#other-notifications}
 
-Zil her ekranın sağ üstündedir. Cora'nın verdiği bütün uyarılar, telefonunuza bildirim olarak gelsin gelmesin, burada en yeniden eskiye sıralanır. Zilin üstündeki sayı, okumadığınız uyarıların sayısıdır.
+Birkaç bildirim bu listede yer almaz:
 
-Telefonunuza bir gün bakmadıysanız ya da kapattığınız bir kategoride bir uyarı çıktıysa buraya bakın.
+- Reef Buddy'nin günlük özeti. Ne zaman geleceğini Ayarlar'da Bildirimler'in hemen altındaki **Özet saati** satırıyla seçersiniz. Ücretsiz planda özet bildirimi yoktur. Ayrıntılar [Reef Buddy](/help/mobile-reef-buddy) sayfasında.
+- Plan bildirimleri: deneme süresi bitmeden 7 gün ve 1 gün önce ve bittiğinde gelen hatırlatmalar, ayrıca aylık Cora Assistant hakkınızın %80'ini ve %100'ünü kullandığınızda gelen uyarı. [Planlar](/help/mobile-plans) sayfasına bakın.
 
-## Hiç bildirim gelmiyorsa
+## Geceleri sessiz tutma {#quiet-at-night}
 
-Şunları sırayla kontrol edin:
+Cora Mobile'da sessiz saatler ayarı yoktur. Bir parametre uyarısı, gece ya da gündüz, ölçüm aralığınızı aştığı anda gönderilir. Bir geceyi sessiz geçirmenin yolları şunlardır:
 
-1. **Ayarlar → Bildirimler**: O kategorinin bildirimi açık mı?
-2. Telefonunuzun kendi ayarları: Cora'nın bildirim göndermesine izin var mı? Kurulumda bu izni reddettiyseniz buradaki ayarların hiçbiri işe yaramaz.
-3. Gönderilecek bir şey var mı? Hiçbir şeyin değişmediği günlerde Reef Buddy sessiz kalır.
+- Telefonunuzun Odak ya da Rahatsız Etmeyin modunu kullanın. Cora'nın bildirimleri sessizce bekler ve onları sabah zilin altında bulursunuz. Gerçek acil durumların sizi uyandırmasını istiyorsanız Cora'ya izin verin.
+- Gece ihtiyacınız olmayan kategorileri kapatın. Sarf malzemeleri ve bakım genellikle bekleyebilir. Yine de bir anahtar bütün gün kapalı kalır.
+- Bir kuralın bekleme süresini uzatın. Zaten bildiğiniz bir sorun hakkında bir uyarı sizi uyandırıp duruyorsa **Uyarılar arası bekleme süresi**'ni artırın. [Bekleme süreleri](/help/mobile-alerts#cooldowns) bölümüne bakın.
+- Hatırlatmaların ne zaman geleceğini seçin. Her bakım görevinin bir **Bana şu saatte hatırlat** saati vardır, Reef Buddy de **Özet saati**'nizi kullanır (siz değiştirmedikçe 8:00).
 
-## Çok fazla bildirim geliyorsa
+Cora Max'te **Gece karartması** ekranı gece boyunca karartır, SES VE KONUŞMA bölümünde de **Uyarı sesi** ve **Sesli uyarılar**'ı kapatabilirsiniz. Bu ikisi siz yeniden açana kadar kapalı kalır. [Cora Max ayarları](/help/max-settings) sayfasına bakın.
 
-Bildirimleri kapatmadan önce eşiklerinize bakın. Uyarılar çok sık geliyorsa genellikle aralık, akvaryumun gerçek değerlerinden daha dar ayarlanmıştır ya da bir kaynağın kalibre edilmesi gerekiyordur. Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
+:::warning Duymak isteyeceğiniz şeyi susturmayın
+Gece 3'te açık kalan bir ısıtıcı tam da almak istediğiniz uyarıdır. Telefonunuzu geceleri susturuyorsanız, böyle bir uyarı size yine ulaşabilsin diye Odak ya da Rahatsız Etmeyin modunda Cora'ya izin verin.
+:::
 
-Bir kategoriyi kapatırsanız o kategorideki bildirimlerin hepsi kapanır. Sorun tek bir uyarının çok sık gelmesiyse kategoriyi kapatmayın. O kuralın **Uyarılar arası bekleme süresi** ayarını değiştirin. 15 dakika ile 1 hafta arasında bir süre seçebilirsiniz. Bekleme süresi seçenekleri ve Cora Max'teki "erteleme"nin ne anlama geldiği [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında anlatılıyor.
+## Zil {#the-bell}
+
+Zil ana sekmelerin sağ üstünde durur. Cora'nın verdiği her şeyi, bildirim olarak gönderilsin ya da gönderilmesin, en yeni en üstte olacak şekilde tutar. Üstündeki sayı, okumadıklarınızın sayısıdır.
+
+İçeride bildirimler **Bugün**, **Dün** ve daha önceki tarihlere göre gruplanır. Listeyi daraltmak için üstteki akvaryum çiplerini (**Tümü** ya da bir akvaryum) kullanın. **Tümünü okundu işaretle** sayıyı sıfırlar. **Tümünü Temizle**, siz onayladıktan sonra gelen kutusunu boşaltır ve geri alınamaz.
+
+Telefonunuzdan bir gün uzak kaldıktan sonra ya da kapattığınız bir kategori bir şey bildirdiğinde buna bakın.
+
+## Hiçbir şey gelmiyorsa {#if-nothing-is-arriving}
+
+Şunları sırayla kontrol edin.
+
+1. **Ayarlar → Bildirimler**'in en üstündeki karta bakın. **Bildirimler devre dışı** yazıyorsa bu telefon Cora'yı engelliyordur. **Ayarları Aç**'a dokunun ve bildirimlere izin verin. Engelli oldukları sürece, aşağıdaki anahtarlar ne derse desin bu telefona hiçbir şey ulaşmaz.
+2. **Uygulama Bildirimleri** altında kategorinin anahtarını kontrol edin.
+3. Telefonunuzun Odak ya da Rahatsız Etmeyin modunu kontrol edin.
+4. Gönderilecek bir şey olup olmadığını düşünün. Hiçbir şeyin değişmediği günlerde Reef Buddy sessiz kalır ve ücretsiz bir hesap özet almaz. Zaten açık olan bir uyarı, sizi yeniden bilgilendirmeden önce [bekleme süresini](/help/mobile-alerts#cooldowns) bekler.
+
+Hâlâ bir şey yok mu? [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+
+## Çok fazla bildirim geliyorsa {#if-too-much-is-arriving}
+
+Bildirimleri kapatmadan önce eşiklerinize bakın. Çok fazla uyarı genellikle bir aralığın akvaryumun gerçekte çalıştığından daha dar olduğu ya da bir kaynağın kalibre edilmesi gerektiği anlamına gelir. Ayrıntılar [Uyarılar ve eşikler](/help/mobile-alerts) sayfasında.
+
+Bir kategoriyi kapatmak onun tamamını susturur. Sorun tek bir uyarının çok sık gelmesiyse onun yerine o kuralın **Uyarılar arası bekleme süresi**'ni değiştirin. 15 dakikadan 1 haftaya kadar ayarlanabilir. Bekleme süresi seçenekleri ve Cora Max'te Ertele'nin ne yaptığı [Bekleme süreleri](/help/mobile-alerts#cooldowns) bölümünde.

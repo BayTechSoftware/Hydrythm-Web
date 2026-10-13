@@ -1,58 +1,61 @@
 ---
 title: Besatz
-description: Halte fest, was in deinem Becken lebt, wann es eingezogen ist und was daraus wurde.
+description: Die Korallen, Fische und Wirbellosen in deinem Becken hinzufügen und Verluste, Frags, Verkäufe und Umzüge festhalten, damit du später Muster erkennst.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 20
+reviewed: 2026-10-13
+order: 27
 group: Records
+twin: max-records
 ---
 
-Unter Besatz hältst du fest, was in deinem Becken lebt, also Korallen, Fische und Wirbellose. Zu jedem Tier siehst du, wann es dazugekommen ist und wie es ihm gerade geht. Du öffnest den Besatz über die Reihe mit Verknüpfungen unten auf dem Dashboard.
+Der Besatz ist deine Liste der Korallen, Fische und Wirbellosen in deinem Becken. Für jeden Eintrag hält er das Datum fest, an dem du ihn hinzugefügt hast, und was seitdem mit ihm passiert ist.
 
-![Das Besatz-Inventar](img/mobile-livestock.webp "Bestandsübersicht und aktuelle Verluste, mit nach Typ gruppierten Einträgen.")
+Tippe in der Reihe von Tasten unter dem Dashboard auf **Besatz**. Du findest ihn auch unter Einstellungen → dein Becken → **Besatz**.
 
-## Die Übersicht
+![Der Besatzbestand](img/mobile-livestock.webp "Bestandsübersicht und jüngste Verluste, mit nach Typ gruppierten Einträgen.")
 
-Ganz oben siehst du:
+## Die Übersicht {#summary}
 
-- die **Bestandsübersicht** mit Summen nach grober Kategorie, etwa Korallen, Fische und Wirbellose
-- die **Verluste**, also wie viele Einträge in den letzten 90 Tagen als verloren markiert wurden
+Oben siehst du die **Bestandsübersicht**, mit Summen für Korallen, Fische und Wirbellose und wie viele Verluste du in den letzten 90 Tagen festgehalten hast.
 
-Darunter sind die Einträge nach Typ gruppiert (SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch und so weiter), jeweils mit Menge und dem Datum, an dem sie dazugekommen sind.
+Darunter sind die Einträge nach Typ gruppiert, etwa SPS-Koralle, LPS-Koralle, Weichkoralle und Fisch. Jeder zeigt seine Menge und das Datum, an dem du ihn hinzugefügt hast.
 
-Mit **Verlorene zeigen** in der oberen Leiste blendest du auch Tiere ein, die nicht mehr im Becken sind.
+Tippe oben auf **Verlorene zeigen**, um zu sehen, was nicht mehr im Becken ist. **Lebende zeigen** bringt dich zurück.
 
-## Etwas hinzufügen
+## Etwas hinzufügen {#adding-something}
 
-Zu jedem Eintrag gehören:
+Tippe unten auf dem Bildschirm auf **Besatz hinzufügen** und füll aus:
 
-- **Name**: wie du das Tier nennst
-- **Typ**: SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch, Wirbelloses, Anemone oder Sonstiges
-- **Art**: optional, falls du sie kennst
-- **Menge**: für eine Gruppe, etwa einen Schwarm oder ein Frag-Paket
-- **Hinzugefügt am**: steht zunächst auf heute
-- **Notizen**: Händler, Platz im Becken, Preis oder was du dir sonst merken willst
+- **Name \***, wie du es nennst. Das ist das einzige Pflichtfeld.
+- **Typ**: SPS-Koralle, LPS-Koralle, Weichkoralle, Fisch, Wirbelloses Tier, Anemone oder Andere.
+- **Art (optional)**, wenn du sie kennst.
+- **Menge**, für Gruppen wie einen Schwarm oder ein Frag-Paket.
+- **Notizen (optional)**, für alles andere, etwa Händler, Platz im Becken oder Preis.
 
-## Was daraus wurde
+Das Datum des Hinzufügens wird beim Speichern auf heute gesetzt.
 
-Jeder Eintrag hat einen Status:
+## Wenn sich etwas ändert {#status}
 
-| Status | Bedeutung |
-|---|---|
-| **Lebend** | noch im Becken |
-| **Verloren** | gestorben |
-| **Gefraggt** | zerteilt, die Kolonie lebt weiter |
-| **Verkauft** | an jemand anderen abgegeben |
-| **Umgezogen** | in einem deiner anderen Becken |
+Tippe auf einen Eintrag, um zu sehen, was du damit tun kannst:
 
-Markierst du ein Tier als **verloren**, speichert Cora das Datum und auf Wunsch einen Grund. Trägst du Verluste konsequent ein, erkennst du später Muster. Vielleicht häufen sich Verluste an einer Stelle im Becken oder nach einem bestimmten Ereignis.
+- **Als verloren markieren**, wenn etwas stirbt. Hat der Eintrag eine Menge über eins, fragt Cora **Wie viele verloren?**, damit du einen Teil einer Gruppe festhalten kannst. Leg das Datum des Verlusts fest und wähl einen **Grund**, etwa Bleiche, RTN, Aggression oder unbekannt.
+- **Gefraggt**, wenn du es zerteilt hast und die Kolonie weiterlebt.
+- **Verkauft**, wenn es an jemand anderen ging.
+- **Umgezogen**, wenn es jetzt in einem anderen deiner Becken ist.
+- Bei einem Eintrag, der nicht mehr lebt, macht **Als lebend wiederherstellen** die Änderung rückgängig, etwa wenn du es aus Versehen markiert hast.
+- **Bearbeiten** ändert die Details. **Löschen** entfernt den Eintrag ganz.
+- **Verlauf ansehen** öffnet die Geschichte des Eintrags: wann er hinzugefügt wurde und wann er verloren ging oder das Becken verlassen hat.
 
-:::note "Unbekannt" ist ein gültiger Grund
-Trag das Datum auch dann ein, wenn du die Ursache nicht kennst. Genau das Datum brauchst du später zum Vergleichen.
+Trägst du jeden Verlust ein, zeigen sich später Muster. Vielleicht häufen sich die Verluste in einer Ecke des Beckens oder folgen einem bestimmten Ereignis.
+
+:::note "Unbekannt" ist ein guter Grund
+Trag das Datum ein, auch wenn du die Ursache nicht kennst. Das Datum ist es, womit du später vergleichst.
 :::
 
-## Besatz und der Rest von Cora
+## Besatz und der Rest von Cora {#livestock-and-cora}
 
-Dein Besatz fließt in die Bewertung deiner Wasserwerte ein. Ein dicht besetztes SPS-Becken und ein locker besetztes Weichkorallenbecken misst Cora nicht mit demselben Maßstab.
+Cora beurteilt deine Wasserwerte auch danach, wie dicht das Becken besetzt ist. Ein volles SPS-System und ein locker besetztes Weichkorallenbecken werden nicht am selben Maßstab gemessen.
 
-Du kannst Cora auch nach deinem Besatz fragen. Fragen wie *"Wann habe ich die Hammerkoralle eingesetzt?"* oder *"Was habe ich dieses Jahr verloren?"* beantwortet Cora aus diesen Einträgen.
+Du kannst auch danach fragen. Cora Assistant beantwortet Fragen wie *"Wann habe ich die Hammerkoralle eingesetzt?"* oder *"Was habe ich dieses Jahr verloren?"* aus dieser Liste.
+
+Änderungen am Besatz erscheinen auch auf der [Zeitleiste des Beckens](/help/mobile-activity#tank-timeline). Schreib die Geschichte hinter einem Verlust oder einem Neuzugang ins [Tagebuch](/help/mobile-journal).

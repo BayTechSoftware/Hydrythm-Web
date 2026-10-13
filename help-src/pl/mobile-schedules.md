@@ -1,70 +1,74 @@
 ---
 title: Harmonogramy sprzętu
-description: Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy i podejrzyj harmonogram gyre Maxspect (Beta).
+description: Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy, a także podejrzyj harmonogram Maxspect Gyre (Beta).
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 12
+reviewed: 2026-10-13
+order: 14
 group: Equipment
 ---
 
-Pompy i gyre mogą pracować według **programu dnia**. To zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. W pompach Jecod Cora może sama tworzyć takie programy. Harmonogram gyre Maxspect *(Beta)* możesz tu tylko podejrzeć, a ustawiasz go w aplikacji Maxspect. Maxspect jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
+Na tej stronie nadasz pompie Jecod **program dnia**: zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. Otwórz go z **Urządzenia** → dotknij pompy.
 
-Otwórz urządzenie w zakładce **Urządzenia**.
+W ten sam sposób możesz podejrzeć harmonogram Maxspect Gyre *(Beta)*, ale ustawiasz go w aplikacji Maxspect. Maxspect jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta). Lampy i pompy innych marek mają harmonogramy na własnych stronach: [EcoTech](/help/mobile-ecotech) *(Beta)*, a ReefRun i ReefDose od Red Sea w [Sterowaniu sprzętem](/help/mobile-device-control#red-sea).
 
-![Harmonogram pompy](img/mobile-schedules.webp "Wykres dnia od 0 do 24 godzin, a pod nim lista okresów.")
+![Strona pompy Jecod w Cora Mobile z wybranym Harmonogramem](img/mobile-schedules.webp "Harmonogram wybrany na górze, przerwa na karmienie, a pod nimi wykres dnia.")
 
-## Tak samo cały dzień albo Harmonogram
+## Tak samo cały dzień albo Harmonogram {#same-all-day-or-schedule}
 
-Pompa pracuje w jednym z dwóch trybów. Wybierasz go na górze jej strony:
+Pompa pracuje w jednym z dwóch trybów. Wybierz go na górze jej strony.
 
-- **Tak samo cały dzień**: jedna intensywność przez cały czas
-- **Harmonogram**: program dnia z okresami
+- **Tak samo cały dzień** to jedna intensywność przez cały czas.
+- **Harmonogram** to program dnia złożony z okresów.
 
-Wybór trafia do pompy. Jeśli telefon nie jest w sieci pompy, idzie przez Cora Max przy akwarium. Pompa Bluetooth musi być w zasięgu. Dopóki nie jest, wybór zmienia tylko to, co widzisz na ekranie.
+Gdy telefon jest w sieci pompy, Cora wysyła Twój wybór prosto do pompy. Jeśli nie jest, wybór idzie przez Cora Max przy akwarium. Pompa Bluetooth musi być w zasięgu. Dopóki nie jest, wybór zmienia tylko to, co widzisz na ekranie.
+
+Przerwa na karmienie na chwilę zdejmuje pompę z harmonogramu, a w telefonie harmonogram wraca tylko wtedy, gdy strona pompy pozostaje otwarta. Zobacz [Przerwa na karmienie](/help/mobile-device-control#jecod-feeding).
 
 ## Edytor harmonogramu
 
 Każdy ekran harmonogramu ma te same trzy części.
 
-**Wykres dnia** pokazuje cały dzień od 0 do 24 godzin. Każdy okres jest blokiem, a jego wysokość to intensywność. Tak najszybciej sprawdzisz, czy program robi to, czego się spodziewasz.
+Na górze jest wykres dnia. Pokazuje cały dzień od 0 do 24 godzin, a każdy okres to blok, którego wysokość oznacza intensywność. Tak najszybciej sprawdzisz, czy program robi to, czego się spodziewasz.
 
-**Lista okresów** jest pod wykresem. Przy każdym okresie widać godziny, tryb i intensywność, np. *Random, 00:00–03:00, Freq 50%, 40%*. Tutaj dodajesz, zmieniasz i usuwasz okresy.
+Pod wykresem jest lista okresów. Przy każdym widać godziny, tryb i intensywność, na przykład *Random, 00:00–03:00, Freq 50%, 40%*. Tutaj dodajesz, zmieniasz i usuwasz okresy.
 
-**Dodaj do harmonogramu** dodaje nowy okres. Żeby zmienić okres, otwórz go i dotknij **Zapisz**. Żeby go usunąć, dotknij **Usuń**. Cora poprosi o potwierdzenie, zanim okres zniknie.
+Dotknij **Dodaj do harmonogramu**, żeby dodać okres. Żeby go zmienić, otwórz go i dotknij **Zapisz**. Żeby go usunąć, dotknij **Usuń** i potwierdź.
 
-Gyre Maxspect *(Beta)* ma dwie głowice, Gyre A i Gyre B, więc jego wykres dnia ma dwa tory, po jednym dla każdej. Plany są wypisane pod **GYRE A** i **GYRE B**. Harmonogram gyre służy tylko do podglądu. W wierszu akcji widać **Tylko podgląd**, a harmonogram ustawiasz w aplikacji Maxspect.
+Maxspect Gyre *(Beta)* ma dwie głowice, pokazane jako Gyre A i Gyre B. Jego wykres dnia ma tor dla każdej z nich, a plany są wymienione pod **GYRE A** i **GYRE B**. Harmonogram Gyre możesz tu tylko podejrzeć. Jego wiersz akcji pokazuje **Tylko podgląd**, a harmonogram ustawiasz w aplikacji Maxspect.
 
-:::warning Harmonogram zapisuje się w urządzeniu
-Po zapisaniu program trafia do sprzętu, a sprzęt realizuje go według własnego zegara. Działa dalej, nawet gdy Cora jest nieosiągalna.
+:::warning Zapis wysyła harmonogram do urządzenia
+Po zapisaniu Cora wysyła program do sprzętu, a sprzęt realizuje go według własnego zegara. Działa dalej niezależnie od tego, czy Cora może się z nim połączyć.
 :::
 
 ## Kopiowanie programu na inne pompy
 
-Jeśli masz kilka pomp, które powinny pracować podobnie, ułóż jeden program i go skopiuj.
+Jeśli masz kilka pomp, które powinny pracować tak samo, ułóż jeden program i go skopiuj.
 
-Otwórz pompę z programem, który chcesz skopiować, wybierz **Skopiuj harmonogram do…** i wskaż pompę docelową.
+Otwórz pompę z programem, który chcesz skopiować, dotknij **Skopiuj harmonogram do…** i wybierz pompę docelową.
 
-## Zapisywanie i udostępnianie harmonogramu
+## Zachowywanie i udostępnianie harmonogramu
 
-Dobrego harmonogramu nie musisz układać od nowa:
+Gdy masz harmonogram, który Ci odpowiada, nie musisz układać go od nowa.
 
-- **Zapisz harmonogram jako…** zachowuje go pod wybraną nazwą, a **Zapisane harmonogramy…** pozwala go później przywrócić.
-- **Udostępnij ten harmonogram** zamienia go w krótki kod, a **Wklej kod harmonogramu…** wczytuje kod, który ktoś Ci wysłał. To funkcja Cora Mobile. Kod przenosi sam harmonogram, a nie dostęp do Twojego konta.
+- **Zapisz harmonogram jako…** zachowuje go pod nazwą. **Zapisane harmonogramy…** stosuje go ponownie później.
+- **Udostępnij ten harmonogram** zamienia go w krótki kod. **Wklej kod harmonogramu…** stosuje kod, który ktoś Ci wysłał. To funkcja Cora Mobile. Kod przenosi tylko harmonogram. Nie daje nikomu dostępu do Twojego konta.
 
 ## Poza siecią pompy
 
-Gdy telefon nie jest w sieci pompy, Cora Mobile łączy się przez Cora Max przy akwarium, ale z ograniczeniami:
+Gdy telefon nie jest w sieci pompy, Cora Mobile łączy się przez Cora Max przy akwarium. Kilka rzeczy działa wtedy inaczej.
 
 - **Tak samo cały dzień** i **Harmonogram** przełączają pompę przez ten Cora Max.
-- Dodany albo zmieniony okres przejdzie przez Cora Max tylko wtedy, gdy Cora Max łączył się z pompą w ciągu ostatniej godziny. Jeśli nie, harmonogram mówi to wprost i nie da się go zmienić z miejsca, w którym jesteś.
+- Dodany albo zmieniony okres przejdzie tylko wtedy, gdy ten Cora Max połączył się z pompą w ciągu ostatniej godziny. Jeśli nie, harmonogram Ci o tym powie i nie zmienisz go z miejsca, w którym jesteś.
 - **Skopiuj harmonogram do…**, **Zapisz harmonogram jako…**, **Zapisane harmonogramy…**, **Udostępnij ten harmonogram** i **Wklej kod harmonogramu…** wymagają telefonu w sieci pompy. Do tego czasu są wyszarzone, a menu wyjaśnia dlaczego.
 
-Z pompą Bluetooth połączy się tylko telefon, który jest blisko niej. Podejdź w jej zasięg, żeby ją przełączyć, zmienić harmonogram albo użyć którejś z tych opcji.
+Bez Cora Max przy akwarium możesz zmieniać pompę tylko wtedy, gdy telefon jest w jej sieci. Więcej w [Podłączaniu sprzętu](/help/mobile-connections#local-only).
 
-## Zastosowanie programu
+Z pompą Bluetooth połączy się tylko telefon, który jest blisko niej. Stań w jej zasięgu, żeby ją przełączyć, zmienić harmonogram albo użyć którejś z tych opcji menu.
 
-Pompie możesz jednym krokiem nadać zapisany harmonogram, bez ponownego układania okresów. Otwórz pompę, dotknij **Więcej** u góry i wybierz **Zapisane harmonogramy…**. Na liście są wszystkie harmonogramy zapisane dla tego akwarium, także te utworzone na innej pompie. Wybierz jeden i dotknij **Zastosuj**. Zastąpi on cały dzień pompy.
+## Stosowanie programu
 
-## Czy program się zapisał
+Pompie możesz jednym krokiem nadać zapisany harmonogram, bez ponownego układania okresów. Otwórz pompę, dotknij **Więcej** na górze i wybierz **Zapisane harmonogramy…**. Na liście są wszystkie harmonogramy zapisane dla tego akwarium, także te utworzone na innej pompie. Wybierz jeden i dotknij **Zastosuj**. Zastąpi on cały dzień pompy.
 
-Po zapisaniu strona urządzenia pokazuje program, który sprzęt naprawdę realizuje. Jeśli nie zgadza się z Twoim, zapis nie dotarł. Sprawdź, czy urządzenie jest osiągalne, i spróbuj ponownie.
+## Czy się zapisało
+
+Po zapisaniu strona urządzenia pokazuje program, który realizuje pompa. Jeśli nie zgadza się z tym, co zapisano, zmiana nie dotarła. Sprawdź, czy urządzenie jest osiągalne, i spróbuj ponownie.

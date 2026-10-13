@@ -1,88 +1,104 @@
 ---
 title: Modifier le tableau de bord Cora Max
-description: Choisir une grille, ajouter des widgets et enregistrer des dispositions pour Cora Max.
+description: Ajoutez, déplacez et retirez des tuiles sur le tableau de bord Cora Max, choisissez une grille, utilisez les modèles ou Concevoir avec l’IA, et enregistrez des dispositions à réutiliser sur n’importe quel Cora Max.
 section: Cora Max
 reviewed: 2026-10-13
 order: 4
 group: Your dashboard
+twin: mobile-dashboard-editing
 ---
 
-Le tableau de bord de Cora Max utilise une **grille fixe**. Toutes les tuiles doivent tenir sur un seul écran, car l’affichage ne défile pas. C’est la grande différence avec le tableau de bord du téléphone.
+Cette page explique comment disposer les tuiles d’un tableau de bord Cora Max. Il utilise une **grille fixe** : l’affichage ne défile pas, donc toutes les tuiles doivent tenir sur un seul écran. C’est la grande différence avec le tableau de bord du téléphone.
 
-Ouvrez l’éditeur depuis le **menu de l’aquarium** : touchez le nom de l’aquarium dans la barre du haut, puis **Disposition du tableau de bord**. Vous le trouvez aussi dans **Réglages → Réglages de l’aquarium → [votre aquarium] → Disposition du tableau de bord**.
+Ouvrez l’éditeur depuis le **menu de l’aquarium** : touchez le nom de l’aquarium dans la barre du haut, puis **Disposition du tableau de bord**. Vous le trouvez aussi dans **Réglages → [votre aquarium] → Disposition du tableau de bord**.
 
-![L’éditeur de tableau de bord sur Cora Max](img/max-dashboard-editor.webp "Tailles de grille en haut, puis les tuiles. Chacune montre son type et sa source, pas une mesure ; c’est un écran de mise en page. Rien n’est écrit jusqu’à ce que vous appuyiez sur Enregistrer.")
+![L’éditeur de tableau de bord sur Cora Max](img/max-dashboard-editor.webp "Les tailles de grille en haut, puis les tuiles. C’est un écran de mise en page, donc chaque tuile montre son type et sa source au lieu d’une mesure. Rien n’est enregistré tant que vous n’appuyez pas sur Enregistrer.")
 
-:::tip Vous pouvez aussi la modifier depuis votre téléphone
-Dans Cora Mobile, **Appareils → votre Cora Max → Modifier le tableau de bord** crée la même disposition. C’est plus rapide que de déplacer les tuiles à la main sur l’écran mural, et le résultat s’affiche aussitôt sur Cora Max.
+:::tip Vous pouvez aussi le modifier depuis votre téléphone
+Dans Cora Mobile, ouvrez l’onglet **Appareils**, touchez votre Cora Max, puis touchez **Disposition du tableau de bord** sur la carte de l’aquarium. C’est plus rapide que de disposer les tuiles à la main sur un écran mural, et le résultat apparaît sur Cora Max dès que vous enregistrez.
 :::
 
-## Choisir une grille
+## Choisir une grille {#choosing-a-grid}
 
-Choisissez d’abord la densité. Si vous la changez ensuite, tout est réorganisé.
+Choisissez d’abord la taille de la grille. La changer plus tard déplace toutes les tuiles.
 
 | Grille | Tuiles | Rendu |
 |---|---|---|
-| 2×2, 3×2, 3×3 | 4–9 | Grand. Lisible depuis l’autre bout de la pièce. |
-| 4×4, 5×3, 6×4 | 16–24 | Le choix courant pour un système complet. |
-| 6×5, 8×4, 8×5 | 30–40 | Dense. Toute une pièce de récif d’un coup. |
+| 2×2, 3×2, 3×3 | 4–9 | Grand. Facile à lire depuis l’autre bout de la pièce. |
+| 4×4, 5×3, 6×4 | 16–24 | Le choix habituel pour un système complet. |
+| 6×5, 8×4, 8×5 | 30–40 | Dense. Toute une pièce de récif sur un seul écran. |
 | 9×5, 10×5 | 45–50 | Très dense. Idéal sur les plus grands écrans. |
-| **Auto** | jusqu’à 32 | Cora choisit une forme adaptée au nombre de tuiles. |
+| **Auto** | jusqu’à 32 | Cora choisit une forme adaptée au nombre de tuiles ajoutées. |
 
-Une grille fixe contient autant de tuiles que de cases, jusqu’à 50 en 10×5. Seule l’option **Auto** a sa propre limite : 32 tuiles. Au-delà, le texte devient trop petit pour être lu de loin.
+Une grille fixe contient autant de tuiles qu’elle a de cases, jusqu’à 50 en 10×5. **Auto** a sa propre limite de 32 tuiles. Au-delà, le texte devient trop petit pour être lu de loin.
 
 :::note Dans le doute, commencez par Auto
-Ajoutez les tuiles que vous voulez et laissez la grille sur **Auto**. Cora choisit une forme qui leur convient. Si le résultat vous plaît, fixez ensuite cette forme.
+Ajoutez les tuiles que vous voulez et laissez la grille sur **Auto**. Cora choisit une forme qui leur convient. Si elle vous plaît, vous pourrez ensuite passer à cette forme fixe.
 :::
 
-:::warning Changer de grille peut supprimer des tuiles, mais seulement faute de place
-Les tuiles sont replacées dans la nouvelle forme. Celles qui sont déjà dans une case valide restent en place, et les autres sont replacées dans l’ordre. Vous ne perdez des tuiles que si la nouvelle grille a **moins de cases que vous n’avez de tuiles**, et Cora vous dit combien ont disparu. Passer de 10×5 (50 cases) à 3×3 (9) en supprime la plupart.
+:::warning Changer de grille ne retire des tuiles que si elles ne tiennent pas
+Quand vous changez de grille, Cora ne jette pas les tuiles selon leur position. Les tuiles qui ont encore une case valide restent en place, et les autres sont replacées dans l’ordre. Vous ne perdez des tuiles que si la nouvelle grille a **moins de cases que vous n’avez de tuiles**, et Cora vous dit combien ont disparu. Passer de 10×5 (50 cases) à 3×3 (9) en retire la plupart.
 :::
 
-## Ajouter et disposer
+## Ajouter et disposer les tuiles {#adding-and-arranging}
 
-L’éditeur rappelle les trois gestes en haut : **touchez une tuile pour la modifier**, **faites un appui long pour la déplacer**, et **touchez ✕ pour la retirer**. Une tuile peut faire une ou deux cases de large, et une ou deux cases de haut.
+1. Touchez une case vide (elle affiche un **+**) pour ouvrir **Ajouter un widget**.
+2. Sous **TYPE**, choisissez le genre de tuile, puis ce qu’elle affiche (une mesure, une prise, un appareil ou une scène).
+3. Sous **TAILLE**, choisissez sa taille. Une tuile peut faire une ou deux cases de large et une ou deux cases de haut. Un graphique a aussi une **PLAGE DE TEMPS**. Une tuile de doseur a **Afficher le reste en**, en **Jours** ou **Millilitres (mL)**.
+4. Touchez **Ajouter**.
 
-**Prises et nourrissage** ajoute d’un coup toutes vos prises commandables et vos cycles de nourrissage. **Tout effacer** vide la grille pour repartir de zéro.
+Les gestes sont rappelés en haut de l’éditeur : **Touchez une tuile pour modifier**, **appui long pour déplacer** et **✕ pour retirer**. **Tout effacer** vide la grille pour repartir de zéro.
 
-Les seize types de tuiles (Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* et Caméra *(Beta)*) sont décrits dans la **[Référence des widgets](/help/mobile-widgets)**.
+Les seize types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* et Caméra *(Beta)*. Vous les trouverez dans la [Référence des widgets](/help/mobile-widgets). La tuile **Scène** n’existe que sur Cora Max. Elle lance une [scène](/help/max-automation) d’un seul appui.
 
-Les tuiles Beta appartiennent à des intégrations Beta que seuls les utilisateurs Beta peuvent ajouter, et vous n’en voyez une qu’une fois l’appareil ajouté. Voir [Fonctions Beta](/help/mobile-beta).
+:::note Beta
+**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) et les caméras sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Leurs tuiles n’apparaissent qu’une fois l’appareil ajouté. Plus de détails dans [Fonctions Beta](/help/mobile-beta).
+:::
 
-## Modèles
+## Prises et nourrissage {#outlets-feed}
 
-**Modèles** se trouve à côté de **Concevoir avec l’IA**, en haut de l’éditeur. Il est disponible avec tous les forfaits et n’utilise jamais l’IA, donc il fonctionne aussi sans partage de données avec l’IA.
+**Prises et nourrissage**, dans l’éditeur, choisit quelles prises et quels cycles de nourrissage apparaissent dans **Commandes**, le tiroir que vous faites glisser vers le haut depuis le bas du tableau de bord. Cela n’ajoute pas de tuiles. Si vous n’en choisissez aucun, Commandes les liste tous. Pour mettre une prise sur la grille elle-même, ajoutez une tuile **Prise**. Plus de détails dans [Prises et commandes](/help/max-controls).
 
-Il ouvre **Modèles de tableau de bord**, quelques dispositions toutes prêtes construites à partir de ce que cet aquarium remonte et a associé :
+## Modèles {#templates}
 
-- **Vue d’ensemble** : peu de tuiles, en grand, avec les paramètres clés en jauges et vos appareils principaux
-- **Équipement** : d’abord une tuile par appareil, puis les prises et les paramètres clés
-- **Paramètres** : graphiques et mesures d’abord, appareils et prises en dernier
-- **Caméra** : une grande vue en direct en haut à gauche, avec les paramètres clés à côté. Il n’apparaît que si l’aquarium a une caméra. Les caméras sont en Beta et réservées aux utilisateurs Beta.
+**Modèles** se trouve en haut de l’éditeur, à côté de **Mes tableaux de bord** et **Concevoir avec l'IA**. C’est ouvert avec tous les forfaits et n’utilise jamais l’IA, donc cela fonctionne aussi sans partage de données avec l’IA.
 
-Chaque modèle affiche un aperçu et indique combien de tuiles il contient et sur quelle grille. Touchez **Utiliser**. Cora demande d’abord **Remplacer votre tableau de bord ?** Touchez **Enregistrer l’actuel comme préréglage d’abord** si vous voulez garder votre disposition actuelle, ou **Remplacer**. Rien n’est enregistré tant que vous ne touchez pas **Enregistrer**.
+Cela ouvre **Modèles de tableau de bord**, quelques dispositions toutes prêtes construites à partir de ce que cet aquarium remonte et a associé :
 
-## Concevoir avec l’IA
+- **Vue d'ensemble** : peu de tuiles, en grand, avec les paramètres clés en jauges et vos appareils principaux
+- **Équipement** : d’abord une tuile par appareil, puis les prises et les paramètres clés
+- **Paramètres** : graphiques et mesures d’abord, appareils et prises en dernier
+- **Caméra** : une grande vue en direct en haut à gauche, avec les paramètres clés à côté. Il n’apparaît que si l’aquarium a une caméra. Les caméras sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta.
 
-Avec un forfait payant, l’éditeur a un bouton **Concevoir avec l’IA**. Cora propose une disposition complète à partir de ce que cet aquarium remonte et a associé, et indique combien de tuiles elle contient et sur quelle grille. Touchez **Utiliser** pour la placer dans l’éditeur, ou **Réessayer** pour en obtenir une autre. Vous pouvez créer 5 propositions par aquarium et par jour.
+Chacun affiche un aperçu et indique combien de tuiles il contient et sur quelle grille. Touchez **Utiliser**. Cora demande d’abord **Remplacer votre tableau de bord ?** Touchez **Enregistrer l'actuel comme préréglage d'abord** si vous voulez garder votre disposition actuelle, ou **Remplacer**. Rien n’est enregistré tant que vous n’appuyez pas sur **Enregistrer**.
 
-Une proposition de l’IA remplace ce qui se trouve actuellement sur ce tableau de bord. Rien n’est enregistré tant que vous ne touchez pas **Enregistrer**, et vous pouvez d’abord garder votre disposition actuelle en l’enregistrant comme l’un de vos tableaux de bord. Avec un forfait gratuit, **Concevoir avec l’IA** vous renvoie vers les forfaits. Il faut aussi que le partage de données avec l’IA soit activé dans l’application Cora.
+## Concevoir avec l’IA {#design-with-ai}
 
-## Penser à la distance
+L’éditeur a un bouton **Concevoir avec l'IA**. Il fonctionne avec un forfait payant et pendant l’essai. Cora propose une disposition complète à partir de ce que cet aquarium remonte et a associé, et indique combien de tuiles elle contient et sur quelle grille. Touchez **Utiliser** pour la placer dans l’éditeur, ou **Réessayer** pour en obtenir une autre. Vous pouvez créer 5 designs par aquarium et par jour.
+
+Un design de l’IA remplace ce qui se trouve actuellement sur ce tableau de bord. Rien n’est enregistré tant que vous n’appuyez pas sur **Enregistrer**, et vous pouvez d’abord garder votre disposition actuelle en l’enregistrant dans **Mes tableaux de bord**. Avec le forfait gratuit, **Concevoir avec l'IA** vous renvoie vers les forfaits. Il faut aussi que le partage de données avec l’IA soit activé dans Cora Mobile. Plus de détails dans [Interroger Cora](/help/mobile-assistant).
+
+## Penser à la distance {#designing-for-distance}
 
 On lit un écran mural de plus loin qu’un téléphone, et le plus souvent d’un simple coup d’œil.
 
-- **Mettez vos paramètres principaux en deux par deux.** Alcalinité, température, pH : ce que vous voulez lire sans vous approcher.
-- **Placez les commandes sur les bords.** Ce sont les tuiles de prises que vous touchez, et elles sont plus faciles à atteindre sur les côtés.
-- **Regroupez par sujet.** Tout le dosage ensemble, tout le brassage ensemble. Sur un mur, l’œil parcourt l’écran par zones.
-- **Gardez les oligo-éléments en petit.** Ces valeurs lentes servent de repère, pas de surveillance. Une simple tuile Valeur suffit.
+- Mettez vos paramètres clés en deux par deux. L’alcalinité, la température et le pH sont des valeurs que vous voudrez lire sans vous approcher.
+- Placez les commandes sur les bords. Les tuiles de prises sont celles que vous touchez, et elles sont plus faciles à atteindre sur les côtés.
+- Regroupez les tuiles par sujet. Gardez tout le dosage ensemble et tout le brassage ensemble, car on parcourt un écran mural par zones.
+- Gardez les oligo-éléments en petit. Ces valeurs et les autres valeurs lentes servent de repère, donc une tuile Valeur d’une case suffit largement.
 
-## Enregistrer les dispositions
+## Enregistrer et réutiliser des dispositions {#saving-layouts}
 
-Rien ne change avant que vous touchiez **Enregistrer**. Si vous quittez sans enregistrer, vos changements sont perdus.
+Rien de ce que vous faites dans l’éditeur ne prend effet tant que vous n’appuyez pas sur **Enregistrer**. Si vous quittez avec des changements non enregistrés, Cora demande d’abord **Abandonner les modifications ?**
 
-**Mes tableaux de bord** garde les dispositions que vous voulez réutiliser. Vous passez de l’une à l’autre sans tout refaire. Par exemple, une disposition dense pour tous les jours et une disposition à grandes tuiles pour quand vous travaillez dans l’aquarium. Un geste suffit pour changer.
+**Mes tableaux de bord** garde les designs auxquels vous voulez revenir. Ils sont enregistrés sur votre compte, pas sur cet écran : n’importe quel Cora Max de votre compte peut donc les charger, pour un autre aquarium ou pour un écran de remplacement.
 
-## Plusieurs aquariums
+- **Enregistrer ce design** garde ce qui est dans l’éditeur. Vous pouvez en garder jusqu’à 30.
+- **Charger** place un design enregistré dans l’éditeur. Les designs enregistrés depuis votre téléphone sont marqués **Téléphone**.
+- Avant le chargement, Cora vous dit combien de tuiles seront reprises. Ce qui ne peut pas l’être, comme une mesure que cet aquarium ne remonte pas ou un appareil qui n’est pas sur cet aquarium, est listé sous **Laissées de côté :** avec la raison.
 
-Chaque aquarium a sa propre disposition. Modifiez-les une par une, depuis les réglages de chaque aquarium.
+Par exemple, vous pouvez garder une disposition dense pour tous les jours et une disposition à grandes tuiles pour quand vous travaillez dans l’aquarium.
+
+## Plusieurs aquariums {#multiple-tanks}
+
+Chaque aquarium a sa propre disposition. Passez sur cet aquarium et ouvrez **Disposition du tableau de bord** depuis son menu d’aquarium, ou utilisez **Réglages → [cet aquarium] → Disposition du tableau de bord**.

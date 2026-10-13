@@ -1,101 +1,128 @@
 ---
 title: Mit Cora sprechen
-description: Sprachsteuerung auf Cora Max nutzen, ein Gespräch starten, was du fragen kannst und wie Bestätigungen funktionieren.
+description: Sprache und "Hey Cora" auf Cora Max nutzen, was per Sprache geht und was nicht, Teilen von Daten mit der KI und dein monatliches Kontingent, und was du tust, wenn Cora nicht antwortet.
 section: Cora Max
 reviewed: 2026-10-13
-order: 12
+order: 13
 group: Intelligence
+twin: mobile-assistant
 ---
 
-Cora Max versteht Sprache. Das ist am bequemsten, wenn du nasse Hände hast oder am anderen Ende des Raums stehst.
+Du kannst mit Cora Max sprechen. So nutzt du es am einfachsten, wenn du nasse Hände hast oder am anderen Ende des Raums stehst. Sprache auf Cora Max ist Cora Assistant, derselbe Assistent, den du auf dem Handy nutzt.
+
+## Bevor du anfängst
+
+- **Das Teilen von Daten mit der KI muss eingeschaltet sein.** Schalte **Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen** in Cora Mobile unter **Einstellungen → Cora Assistant** ein. Solange es aus ist, zeigt Cora Max **Sprachsteuerung braucht deine Zustimmung**, und nichts, was du sagst, wird gesendet. Mehr dazu unter [Cora fragen](/help/mobile-assistant#consent).
+- **Sprache verbraucht dein monatliches KI-Kontingent.** Sprachsitzungen haben ihre eigene monatliche Zahl, und jede gesprochene Antwort verbraucht außerdem Nachrichten aus demselben Assistant-Kontingent wie dein Handy, mehr als eine getippte. Dein Abo legt beides fest. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 
 ## Zwei Wege zum Start
 
-**Sag „Hey Cora“.** Cora Max hört im Hintergrund auf dieses Weckwort und startet ein Gespräch, sobald es das hört.
+Sag **"Hey Cora"**. Cora Max hört im Hintergrund auf das Weckwort und startet eine Sitzung, wenn es es hört.
 
-Oder tippe in der oberen Leiste auf das Symbol **Cora Assistant**. Cora hört sofort zu, antwortet laut und hört weiter zu, bis du das Gespräch beendest.
+Oder tippe in der oberen Leiste auf das Symbol **Cora Assistant**. Cora hört sofort zu und antwortet laut. Es gibt keinen Bestätigungsschritt. Hast du aus Versehen getippt, tippe auf **Abbrechen**. Es geht nichts verloren.
 
-![Spracheinstellungen](img/max-voice.webp "Die Weckwort-Erkennung lässt sich ausschalten, Tippen zum Sprechen geht trotzdem.")
+![Cora Assistant hört auf Cora Max zu, mit einer Taste Abbrechen, über dem gedimmten Dashboard](img/max-voice-session.webp "Cora Assistant hört zu, darunter Abbrechen.")
 
-Unter **Einstellungen → Cora Max-Einstellungen → Ton & Sprache → Weckwort-Erkennung** schaltest du das Zuhören im Hintergrund aus. Das Cora Assistant-Symbol funktioniert dann weiter. Nimm diese Einstellung, wenn der Bildschirm nicht ständig zuhören soll.
+## Einstellungen für Ton und Weckwort
 
-Unter **Audioausgabe**, ebenfalls unter **Ton & Sprache**, wählst du den internen Lautsprecher, einen 3,5-mm-Anschluss oder Bluetooth. Für Sprache ist der interne Lautsprecher die schwächste der drei Möglichkeiten.
+![Die Schalter Warnton, Gesprochene Warnungen und Weckwort in den Cora Max-Einstellungen, darunter der Schalter für das Reef Buddy-Briefing](img/max-voice.webp "Warnton, Gesprochene Warnungen und Weckwort, darunter Reef Buddy.")
 
-## Welches Gerät auf „Hey Cora“ antwortet
+Diese stehen unter **Einstellungen → Cora Max-Einstellungen → TON & SPRACHE** und gelten nur für diesen Bildschirm.
 
-Hast du mehr als ein Cora Max, antwortet nur eines auf das Weckwort. Es heißt **Antwortgerät**. Das legst du unabhängig von **Primäres Cora Max** fest, also dem Gerät, das deine Ausrüstung abfragt. Mehr dazu unter [Geräte und Gerätezustand](/help/max-devices).
+- **Weckwort** schaltet das Zuhören im Hintergrund ein oder aus. Ist es aus, funktioniert ein Tippen auf das Symbol **Cora Assistant** trotzdem. Nutze das, wenn der Bildschirm nicht ständig zuhören soll.
+- **Lautsprecher** wählt, wo der Ton herauskommt: **Intern**, **3.5 mm** oder **BT** (Bluetooth). Für Sprache ist der interne Lautsprecher der schwächste der drei. **BT** öffnet **Bluetooth-Lautsprecher koppeln**, wo du deinen Lautsprecher in den Kopplungsmodus versetzt und ihn aus der Liste wählst.
 
-Du änderst es unter **Einstellungen → Cora Assistant** auf jedem Cora Max oder in Cora Mobile. Die Einstellung gilt für deinen ganzen Haushalt.
+## Welches Gerät auf "Hey Cora" antwortet
 
-Nur das **Antwortgerät** hört auf „Hey Cora“. Deine anderen Cora Max-Bildschirme hören nicht zu, solange es online ist. Geht es offline oder wurde es länger als 15 Minuten nicht gesehen, übernimmt ein anderes Cora Max das Zuhören und hört wieder auf, sobald es zurück ist. Der Wechsel dauert etwa eine Minute. Antwortet also direkt nach einem Wechsel niemand auf „Hey Cora“, sag es noch einmal oder tippe auf das **Cora Assistant**-Symbol.
+Hast du zu Hause mehr als ein Cora Max, antwortet nur eins auf das Weckwort. Das ist das **Antwortgerät**. Es ist eine andere Einstellung als das Gerät, das deine Ausrüstung abfragt, also das **Primäre Cora Max** (mehr dazu unter [Geräte und Gerätezustand](/help/max-devices)).
 
-:::note Das Gespräch startet, sobald du tippst
-Cora Assistant startet sofort ein Live-Gespräch, ohne Rückfrage. Hast du aus Versehen getippt, beende das Gespräch einfach. Dabei geht nichts verloren.
-:::
+Du änderst es unter **Einstellungen → Cora Assistant** auf jedem Cora Max oder in Cora Mobile. Es gilt für deinen ganzen Haushalt.
+
+Nur das **Antwortgerät** hört auf "Hey Cora". Deine anderen Cora Max-Bildschirme hören nicht zu, solange es online ist. Geht es offline oder wurde es länger als 15 Minuten nicht gesehen, fängt ein anderes Cora Max an seiner Stelle an zuzuhören und hört wieder auf, sobald es zurück ist. Der Wechsel dauert etwa eine Minute. Antwortet direkt nach einem Wechsel niemand auf "Hey Cora", sag es noch einmal oder tippe auf das Symbol **Cora Assistant**.
 
 ## Was du fragen kannst
 
-**Fragen zum Becken**
+Fragen zum Becken:
 
-- *„Wie ist meine Alkalinität?“*
-- *„War die Temperatur heute stabil?“*
-- *„Wann habe ich zuletzt Wasser gewechselt?“*
-- *„Warum ist der pH niedriger als sonst?“*
-- *„Vergleiche mein Magnesium der letzten sechs Monate mit meinem neuesten ICP.“*
+- *"Wie ist meine Alkalinität?"*
+- *"War die Temperatur heute stabil?"*
+- *"Wann habe ich zuletzt Wasser gewechselt?"*
+- *"Warum ist der pH niedriger als sonst?"*
+- *"Vergleiche mein Magnesium der letzten sechs Monate mit meinem neuesten ICP."*
 
-**Aufgaben**
+Bei Nachfragen musst du dich nicht wiederholen. Nach einer Frage zum Hauptbecken funktioniert *"und das Ablegerbecken?"*.
 
-- *„Schalte den Abschäumer aus.“*
-- *„Starte den Fütterungsmodus.“*
-- *„Stell den Lüfter zurück auf Auto.“*
-- *„Notiere, dass ich zwanzig Liter Wasser gewechselt habe.“*
-- *„Notiere, dass ich extra Mysis gefüttert habe.“* oder *„Notiere, dass ich die Morgenfütterung ausgelassen habe.“*
+## Was Cora per Sprache tun kann
 
-**Nachfragen.** Du musst nicht alles wiederholen. Nach einer Frage zum angezeigten Becken klappt auch *„Und im Ablegerbecken?“*.
+- Eine Neptune Apex-Steckdose ein, aus oder zurück auf Auto schalten: *"Schalte den Abschäumer aus."* *"Stell den Lüfter zurück auf Auto."*
+- Einen Apex-Fütterungszyklus starten (Feed A bis D): *"Starte den Fütterungsmodus."*
+- Einen Trident-Test starten: *"Starte einen Alkalinitätstest."*
+- Einen Warnbereich ändern: *"Stell die pH-Warnung auf 7,9 bis 8,4."*
+- Ein Testergebnis eintragen: *"Trag Alkalinität 8,1 ein."*
+- Ins Tagebuch schreiben: *"Notier, dass ich zwanzig Liter Wasser gewechselt habe."* *"Notier, dass ich extra Mysis gefüttert habe."* *"Notier, dass ich die Morgenfütterung ausgelassen habe."*
+- Red Sea-Ausrüstung steuern: aus einem ReefDose-Kopf dosieren, seine Tagesdosis ändern, eine ReefATO+-Befüllung starten, eine ReefMat weiterdrehen oder die Geschwindigkeit einer ReefRun-Pumpe einstellen.
+- Jecod-Pumpen steuern.
+- Beta-Ausrüstung: einen Focustronic-Test oder eine Focustronic-Dosierung starten, GHL-Befehle ausführen und EcoTech VorTech-Pumpen steuern.
 
-## Kindersicherung
+## Was Cora auf Cora Max nicht per Sprache tun kann
 
-Mit **Einstellungen → Cora Max-Einstellungen → Kindersicherung** sperrst du an diesem Bildschirm alle Schaltbefehle. Fragen und Messwerte funktionieren weiter. Cora sagt dir also, wie hoch deine Alkalinität ist, schaltet aber die Rückförderpumpe nicht aus.
+- Eine Szene starten oder stoppen. Nutze die Szenen-Kachel oder **Einstellungen → Automationen**.
+- Aus einem Neptune DŌS-Kopf dosieren oder einen EcoTech Versa dosieren lassen. Nutze die Seite des Geräts auf Cora Max.
+- Eine Maxspect-Gyre, einen HYDROS-Controller oder eine EcoTech Radion steuern. Nutze die Seite des Geräts.
+- Die eigenen Einstellungen von Cora Max ändern, Geräte hinzufügen oder das Dashboard bearbeiten.
 
-Schalte sie an einem Bildschirm ein, an den Kinder oder Besucher herankommen.
+Cora Assistant auf deinem Handy kann einiges davon. Mehr dazu unter [Cora fragen](/help/mobile-assistant#what-cora-can-change).
 
-**Zum Entsperren** hast du zwei Möglichkeiten:
-
-- Drück die **Lautstärketaste dreimal innerhalb von zwei Sekunden**, oder
-- **halte fünf Finger zehn Sekunden lang in die obere rechte Ecke**.
-
-Alle drei Tastendrücke müssen in zwei Sekunden erfolgen. So entsperren einzelne, zufällige Berührungen den Bildschirm nicht. Die Kindersicherung schützt trotzdem nicht vor fremdem Zugriff. Wer dir beim Entsperren zusieht, kann es nachmachen.
+:::note Beta
+**Beta.** Focustronic, GHL, HYDROS, Maxspect und EcoTech sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
+:::
 
 ## Bestätigungen
 
-Bevor Cora etwas an deiner Ausrüstung ändert, fragt Cora nach. Du hörst genau, was gleich passiert, und Cora wartet auf dein Okay.
+Bevor etwas deine Ausrüstung erreicht, fragt Cora bei dir nach. Cora sagt dir genau, was gleich passiert, und wartet auf dein OK. Du kannst laut antworten, in der Sprache deines Kontos.
 
-Ist eine Anweisung nicht eindeutig (du hast zum Beispiel zwei Heizer und sagst „den Heizer“), fragt Cora nach, welchen du meinst, und rät nicht.
+Kann das, was du gesagt hast, mehr als eins bedeuten (du hast zwei Heizer und sagst "den Heizer"), fragt Cora nach, welchen du meinst, statt zu raten.
 
-:::warning Mit deiner Bestätigung übernimmst du die Verantwortung
-Die Bestätigung soll verhindern, dass dich etwas überrascht. Hör dir an, was Cora sagt, bevor du zustimmst. Das gilt besonders, wenn etwas Lebenswichtiges fürs Becken abgeschaltet wird.
+Alles, was Cora an der Ausrüstung tut, erscheint mit seinem Ergebnis auf dem Bildschirm und wird unter [Aktivität](/help/max-activity) protokolliert.
+
+:::warning Die Bestätigung ist deine Entscheidung
+Die Bestätigung ist da, damit dich nichts überrascht. Lies oder hör sie dir an, bevor du zustimmst, besonders bei allem, was lebenswichtige Technik abschaltet oder dosiert.
 :::
 
 ## Was Cora sieht
 
-Dasselbe wie auf deinem Handy, jeweils für das Becken auf dem Bildschirm: deine Live-Messwerte und wie alt sie sind, den Verlauf jedes Wasserwerts über bis zu etwa sechs Monate, dein Tagebuch und deine Laborergebnisse.
+Für das Becken auf dem Bildschirm: deine Live-Messwerte und wie alt jeder ist, bis zu etwa sechs Monate Verlauf für jeden Wasserwert, dein aktuelles Tagebuch und deine Laborergebnisse.
 
-Ist ein Messwert veraltet, sagt Cora dir das und tut nicht so, als wäre er aktuell.
+Ist ein Messwert veraltet, sagt Cora dir das und behandelt ihn nicht als aktuell.
 
 ## Um welches Becken es geht
 
-Um das Becken, das gerade auf dem Bildschirm ist. Wechsle vorher in der oberen Leiste das Becken, oder nenn das Becken in deiner Frage.
+Um das Becken, das der Bildschirm gerade zeigt. Wechsle zuerst in der oberen Leiste das Becken oder nenn das Becken in deiner Frage.
 
 ## Beenden
 
-Sag *„Stopp“* oder tippe, um das Gespräch zu beenden. Danach hört Cora nicht mehr zu.
+Sag *"Stopp"* oder *"Tschüss"*. Du kannst auch auf **Abbrechen** tippen, während Cora zuhört, oder auf **Sprechen stoppen**, während Cora spricht. Spricht etwa 30 Sekunden niemand, endet die Sitzung von selbst. Cora hört auf zuzuhören, wenn die Sitzung endet.
+
+## Kindersicherung und Sprache
+
+Solange die [Kindersicherung](/help/max-settings#child-lock) den Bildschirm gesperrt hat, beantwortet Cora weiter Fragen, lehnt aber alles ab, was deine Ausrüstung ändert.
 
 ## Wenn Cora dich falsch versteht
 
-Riff-Begriffe sind schwierig, Gerätenamen noch mehr. Versteht Cora ein Gerät immer wieder falsch, gib ihm unter **Geräte** einen Namen, der sich deutlicher abhebt. Kurze, alltägliche Wörter klappen am besten.
+Riff-Begriffe sind schwierig, Gerätenamen noch mehr. Versteht Cora ein Gerät immer wieder falsch, gib ihm einen deutlicheren Namen. Geh zu **Einstellungen → Geräte**, tippe auf den Stift neben dem Gerät (oder auf **Umbenennen** auf seiner Seite) und gib einen kurzen, alltäglichen Namen ein. Der neue Name erscheint auch auf deinem Handy.
 
 ## Wenn Cora nicht antwortet
 
-Prüf, ob die **Weckwort-Erkennung** noch eingeschaltet ist (**Einstellungen → Cora Max-Einstellungen → Ton & Sprache**), ob dieses Gerät das **Antwortgerät** deines Haushalts ist (siehe oben) und ob die Lautstärke aufgedreht ist. Auch ein lautes Technikbecken oder ein Filter direkt neben dem Gerät kann dazu führen, dass Cora das Weckwort nicht zuverlässig hört. Stell das Gerät dann woanders hin oder sprich etwas näher daran.
+- Prüf, ob **Weckwort** eingeschaltet ist (**Einstellungen → Cora Max-Einstellungen → TON & SPRACHE**), ob dieses Cora Max dein **Antwortgerät** ist (siehe oben) und ob seine Lautstärke aufgedreht ist.
+- Ein lautes Technikbecken oder ein Filter direkt neben Cora Max kann verhindern, dass es das Weckwort hört. Stell es woanders hin oder sprich etwas näher daran.
 
-Hilft das alles nicht, schau in die [Problembehebung](/help/troubleshooting).
+Zeigt Cora Max eine Meldung, statt zuzuhören:
+
+| Meldung | Was du tust |
+|---|---|
+| **Sprachsteuerung braucht deine Zustimmung** | Schalte das Teilen von Daten mit der KI in Cora Mobile ein (**Einstellungen → Cora Assistant**) und versuch es noch einmal |
+| **Kostenloses Sprachlimit erreicht** | Das Kontingent für diesen Monat ist aufgebraucht. Upgrade dein Abo in Cora Mobile oder warte auf den nächsten Monat |
+| **Zu viele Anfragen** | Warte einen Moment und versuch es dann noch einmal |
+| **Verbindungsproblem** | Prüf das WLAN dieses Cora Max und tippe dann noch einmal auf das Symbol **Cora Assistant** |
+
+Hilft das nicht, schau in die [Problembehebung](/help/troubleshooting).

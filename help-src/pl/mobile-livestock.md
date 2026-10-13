@@ -1,58 +1,61 @@
 ---
 title: Obsada
-description: Zapisuj, co jest w akwarium, kiedy trafiło do niego i co się z tym stało.
+description: Dodaj koralowce, ryby i bezkręgowce z akwarium i zapisuj straty, fragi, sprzedaże i przeniesienia, żeby później zauważyć wzorce.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 20
+reviewed: 2026-10-13
+order: 27
 group: Records
+twin: max-records
 ---
 
-W obsadzie zapisujesz, co mieszka w akwarium (koralowce, ryby i bezkręgowce), kiedy każda pozycja została dodana i jaki ma teraz status. Obsadę otworzysz z rzędu skrótów na dole pulpitu.
+Obsada to lista koralowców, ryb i bezkręgowców w Twoim akwarium. Przy każdej pozycji zapisana jest data dodania i to, co się z nią od tego czasu działo.
+
+Dotknij **Obsada** w rzędzie przycisków pod pulpitem. Znajdziesz ją też w Ustawieniach → Twoje akwarium → **Obsada**.
 
 ![Spis obsady](img/mobile-livestock.webp "Podsumowanie obsady i ostatnie straty, z pozycjami pogrupowanymi według typu.")
 
-## Podsumowanie
+## Podsumowanie {#summary}
 
-Na górze są:
+Na górze zobaczysz **Podsumowanie obsady** z liczbą koralowców, ryb i bezkręgowców oraz z liczbą strat zapisanych w ostatnich 90 dniach.
 
-- **Podsumowanie obsady**, czyli liczby w głównych grupach, takich jak koralowce, ryby i bezkręgowce
-- **Straty**, czyli liczba pozycji oznaczonych jako utracone w ciągu ostatnich 90 dni
+Pod nim pozycje są pogrupowane według typu, na przykład koralowiec SPS, koralowiec LPS, koralowiec miękki i ryba. Przy każdej widać liczbę sztuk i datę dodania.
 
-Pozycje są pogrupowane według typu (koralowiec SPS, koralowiec LPS, koralowiec miękki, ryba i tak dalej). Przy każdej widać liczbę sztuk i datę dodania.
+Dotknij **Pokaż utracone** na górze, żeby zobaczyć to, czego nie ma już w akwarium. **Pokaż żywe** wraca do listy.
 
-**Pokaż utracone** na górnym pasku dołącza pozycje, których nie ma już w akwarium.
+## Dodawanie pozycji {#adding-something}
 
-## Dodawanie pozycji
+Dotknij **Dodaj do obsady** na dole ekranu i wypełnij:
 
-Każda pozycja ma pola:
+- **Nazwa \***, czyli jak to nazywasz. To jedyne pole, które musisz wypełnić.
+- **Typ**: koralowiec SPS, koralowiec LPS, koralowiec miękki, ryba, bezkręgowiec, ukwiał albo inne.
+- **Gatunek (opcjonalnie)**, jeśli go znasz.
+- **Liczba**, dla grup, takich jak ławica albo zestaw fragów.
+- **Notatki (opcjonalnie)** na wszystko inne, na przykład sprzedawcę, miejsce w akwarium albo cenę.
 
-- **Nazwa**: jak ją nazywasz
-- **Typ**: koralowiec SPS, koralowiec LPS, koralowiec miękki, ryba, bezkręgowiec, anemon albo inne
-- **Gatunek**: opcjonalnie, jeśli go znasz
-- **Liczba**: dla grupy, np. ławicy albo zestawu fragów
-- **Data dodania**: domyślnie dzisiejsza
-- **Notatki**: sprzedawca, miejsce w akwarium, cena albo inny szczegół, który chcesz zapamiętać
+Data dodania ustawia się na dzisiejszą w chwili zapisu.
 
-## Co się z tym stało
+## Gdy coś się zmienia {#status}
 
-Każda pozycja ma status:
+Dotknij pozycji, żeby zobaczyć, co możesz z nią zrobić:
 
-| Status | Co oznacza |
-|---|---|
-| **Żywe** | Nadal w akwarium |
-| **Utracone** | Nie przeżyło |
-| **Odfragowano** | Podzielone na fragi, kolonia rośnie dalej |
-| **Sprzedano** | Trafiło do kogoś innego |
-| **Przeniesiono** | Jest w innym Twoim akwarium |
+- **Oznacz jako utracone**, gdy coś padnie. Jeśli pozycja ma liczbę większą niż jeden, Cora zapyta **Ile utracono?**, więc możesz zapisać stratę części grupy. Ustaw datę straty i wybierz **Przyczynę**, na przykład blaknięcie, RTN, agresję albo nieznaną.
+- **Odfragowano**, gdy koralowiec podzielono na fragi, a kolonia żyje dalej.
+- **Sprzedano**, gdy trafiło do kogoś innego.
+- **Przeniesiono**, gdy jest teraz w innym Twoim akwarium.
+- Przy pozycji, która już nie żyje, **Przywróć jako żywe** cofa zmianę, na przykład gdy oznaczysz coś przez pomyłkę.
+- **Edytuj** zmienia szczegóły. **Usuń** całkowicie usuwa pozycję.
+- **Zobacz historię** otwiera historię pozycji: kiedy ją dodano i kiedy przepadła albo opuściła akwarium.
 
-Gdy oznaczysz pozycję jako **utraconą**, Cora zapisze datę i opcjonalnie przyczynę. Jeśli zapisujesz straty na bieżąco, później łatwiej zauważyć wzorce, np. straty w jednej części akwarium albo po konkretnym zdarzeniu.
+Jeśli zapisujesz każdą stratę, później pojawią się wzorce. Może straty skupiają się w jednym rogu akwarium albo następują po konkretnym zdarzeniu.
 
-:::note „Nieznane” to też dobra przyczyna
-Zapisz datę, nawet jeśli nie wiesz, co się stało. To właśnie data pozwala później coś porównać.
+:::note „Nieznana” to też dobra przyczyna
+Zapisz datę, nawet jeśli nie znasz przyczyny. To z datą będziesz później porównywać.
 :::
 
-## Obsada a reszta Cory
+## Obsada a reszta Cory {#livestock-and-cora}
 
-Obsada wpływa na to, jak Cora ocenia Twoje parametry. Gęsto obsadzony system z koralowcami SPS i akwarium z kilkoma koralowcami miękkimi nie są oceniane tą samą miarą.
+Cora ocenia Twoje parametry częściowo według tego, jak gęsto obsadzone jest akwarium. Gęsto obsadzony system SPS i lekko obsadzone akwarium z koralowcami miękkimi nie są oceniane tą samą miarą.
 
-Możesz też pytać o obsadę. Na pytania w rodzaju *„Kiedy pojawił się młotek?”* albo *„Co zginęło w tym roku?”* Cora odpowie na podstawie tego spisu.
+Możesz też o nią pytać. Cora Assistant odpowiada na pytania w rodzaju *„Kiedy dodano Euphyllię młotkową?”* albo *„Co padło w tym roku?”* na podstawie tej listy.
+
+Zmiany w obsadzie pojawiają się też na [osi czasu akwarium](/help/mobile-activity#tank-timeline). Historię straty albo nowego mieszkańca opisz w [dzienniku](/help/mobile-journal).

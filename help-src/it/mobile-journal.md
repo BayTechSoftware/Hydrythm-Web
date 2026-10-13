@@ -1,74 +1,85 @@
 ---
 title: Il diario
-description: Annota cosa fai alla vasca, così più avanti capisci cosa ha causato cosa.
+description: Scrivi o detta cosa hai fatto alla vasca, registra l'alimentazione e chiedi a Cora di una voce, così più avanti capisci cosa ha causato cosa.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 21
+reviewed: 2026-10-13
+order: 24
 group: Records
+twin: max-records
 ---
 
-Nel diario annoti cosa hai fatto alla vasca: cambi d'acqua, nuovi animali, modifiche al dosaggio, lavori sull'attrezzatura e manutenzione.
+Nel diario scrivi cosa hai fatto alla vasca: cambi d'acqua, nuovi animali, modifiche al dosaggio, lavori sull'attrezzatura e qualsiasi cosa insolita. Quando un parametro si sposta e non sai perché, il diario ti mostra cosa è cambiato intorno a quella data.
 
-Serve per confrontare dopo. Quando un parametro si sposta senza motivo apparente, il diario ti dice cosa è cambiato intorno a quella data.
+Tocca **Diario** nella fila di pulsanti sotto la dashboard per aprire il **Diario della vasca**. Lo trovi anche in Impostazioni → la tua vasca → **Diario**.
 
-![Il diario](img/mobile-journal.webp "Voci in ordine inverso, con le foto incorporate.")
+![Il Diario della vasca in Cora Mobile](img/mobile-journal.webp "Voci dalla più recente, con le etichette delle categorie per filtrarle.")
 
-## Aggiungere una voce
+## Scrivere una voce {#adding-an-entry}
 
-Tocca il pulsante **Diario** che si trova in basso a destra sopra la Dashboard.
+Tocca **Nuova voce**. Il modulo ha:
 
-Scrivi cosa hai fatto con parole semplici. Se serve, aggiungi una foto: un corallo che prende colore, un apparecchio che si comporta in modo strano, il risultato di un test.
+- **TITOLO** e **DESCRIZIONE**, con parole semplici
+- **CATEGORIA**: Osservazione, Preoccupazione, Emergenza, Modifica o Traguardo. Una preoccupazione o un'emergenza ha anche una **GRAVITÀ** (Info, Avviso o Critico)
+- **DATA E ORA**, che parte da adesso. Cambiala se la scrivi più tardi
+- **TAG**, per ritrovare le voci
+- **FOTO**, con **Scatta foto** o **Scegli dalla libreria**. Un corallo che prende colore, una pompa che si comporta in modo strano o il risultato di un test
+- **Allega parametri dell'acqua**, che salva con la voce le letture attuali della vasca. È quello che rende utile una voce mesi dopo
 
-Puoi anche **dettare** la voce. Con le mani bagnate è la cosa più comoda: parli e quello che dici viene scritto nella voce.
-
-Vasca e orario vengono aggiunti da soli.
-
-:::note Bastano poche parole
-Una voce breve va benissimo: "cambio acqua 20 l, 5 ml di alcalinità in più" è già completa. Scrivila subito, perché le voci ricostruite a memoria sono meno affidabili.
+:::note Tieni le voci brevi
+Basta una nota breve. "Cambio d'acqua 20 l, 5 ml di alcalinità in più" dice tutto. Se puoi, scrivila sul momento.
 :::
 
-## Cosa annotare
+## Dettare una voce {#dictating}
 
-Le cose che poi contano di più:
+Il pulsante rotondo di Cora con scritto **Diario**, in basso a destra sulla dashboard, registra una nota vocale, più comoda con le mani bagnate. Toccalo, racconta cosa è successo (fino a un minuto) e tocca di nuovo per fermare. Cora trasforma quello che hai detto in una o più voci del diario e ti dice quante ne ha salvate. Lo stesso pulsante c'è nella cronologia della vasca.
 
-- **Cambi d'acqua**: quanta acqua e quando
-- **Tutto quello che entra in vasca**: animali, rocce, materiali filtranti
-- **Modifiche al dosaggio**: cosa hai cambiato e perché
-- **Attrezzatura**: pulita, sostituita, spostata, guasta
-- **Manutenzione**: schiumatoio pulito, calze filtranti cambiate, pompe revisionate
-- **Imprevisti**: un blackout, una giornata molto calda, una perdita d'acqua
+La dettatura usa Cora Assistant. Se non gli hai ancora permesso di usare i dati della tua vasca, Cora te lo chiede prima.
 
-## Alimentazione
+## Cosa annotare {#what-to-record}
 
-Dì a Cora una volta come dai da mangiare di solito, poi registra solo le eccezioni.
+Queste di solito contano di più:
 
-Per impostare la routine, apri **Modifica vasca** (la matita in cima alla dashboard) e tocca **Routine di alimentazione**. Finché non lo fai, una scheda nella dashboard, **Come nutri di solito?**, ti porta lì con **Imposta la routine**. Per ogni alimento indica l'alimento, una **Quantità**, un'**Unità** (cubo, pizzico, g, ml, goccia, misurino o foglio) e le **Volte al giorno**. Tocca **Aggiungi alimento** per aggiungerne altri. Attiva **Uso un distributore automatico** se ne hai uno che dà da mangiare al posto tuo, e i suoi pasti contano come parte della routine. In **Peso delle porzioni (facoltativo)** puoi dire quanto pesa un cubetto o un pizzico, così Cora può confrontare i pasti nel tempo in grammi.
+- Cambi d'acqua: quanta acqua e quando
+- Tutto quello che entra in vasca: animali, rocce, materiali filtranti
+- Modifiche al dosaggio: cosa hai cambiato e perché
+- Attrezzatura: pulita, sostituita, spostata, guasta
+- Qualsiasi cosa insolita: un blackout, una giornata calda, una perdita d'acqua
 
-Quando un giorno è diverso dalla routine, tocca **Alimentazione** nella riga di pulsanti sotto i widget. Il foglio **Registra un'eccezione di alimentazione** ha tre scelte: **Pasto extra**, **Pasto saltato** e **Alimento o quantità cambiato**. Puoi aggiungere una **Quantità (facoltativo)**. Ognuna è una normale voce del diario e Reef Buddy la usa, così una vasca stabile non viene incolpata per uno spuntino che le hai dato.
+Alcune voci vengono scritte per te. Completare un'attività di [manutenzione](/help/mobile-maintenance) ne aggiunge una, e lo stesso fa **Registra la dose che hai dato** nel [calcolatore di dosaggio](/help/mobile-dosing#the-dose-calculator).
+
+## Alimentazione {#feeding}
+
+Di' a Cora una volta come dai da mangiare di solito, poi registra solo le eccezioni.
+
+Per impostare la routine, apri **Modifica vasca** (la matita in alto sulla dashboard) e tocca **Routine di alimentazione**. Finché non l'hai fatto, una scheda sulla dashboard, **Come nutri di solito?**, ti porta lì con **Imposta la routine**. Per ogni alimento indica l'alimento, una **Quantità**, un'**Unità** (cubo, pizzico, g, ml, goccia, misurino o foglio) e le **Volte al giorno**. Tocca **Aggiungi alimento** per aggiungerne altri. Attiva **Uso un distributore automatico** se ne hai uno che dà da mangiare al posto tuo, e i suoi pasti contano come parte della routine. In **Peso delle porzioni (facoltativo)** puoi dire quanto pesa un cubetto o un pizzico, così Cora può confrontare i pasti nel tempo in grammi.
+
+Quando un giorno è diverso dalla routine, tocca **Alimentazione** nella fila di pulsanti sotto i widget, oppure l'icona dell'alimentazione in alto nel diario. Il pannello **Registra un'eccezione di alimentazione** ha tre scelte: **Pasto extra**, **Pasto saltato** e **Alimento o quantità cambiato**. Puoi aggiungere una **Quantità (facoltativo)**. Ognuna è una normale voce del diario, e Reef Buddy la usa, così una vasca stabile non viene incolpata per uno spuntino che le hai dato.
 
 Altri modi in cui un pasto viene registrato:
 
-- Su un Neptune Apex, un ciclo di alimentazione da A a D viene registrato quando il Cora Max che legge il tuo Apex lo vede partire. Vale anche per un ciclo che avvii dall'Apex, in Apex Fusion o dal programma dell'Apex stesso.
+- Su un Neptune Apex, un ciclo di alimentazione da A a D viene registrato quando il Cora Max che legge il tuo Apex lo vede partire. Vale per un ciclo che avvii dall'Apex, in Apex Fusion o dal programma dell'Apex stesso.
 - Dillo a Cora Assistant, a voce o in chat, con qualcosa come *"Annota che ho dato mysis."* Scrive la voce per te.
 
-## Modificare ed eliminare le voci
+## Modificare ed eliminare le voci {#editing}
 
-Tocca una voce per aprirla e modificarla. Per eliminarla, scorrila di lato e conferma. Cora ti chiede conferma perché una voce scritta sul momento non si può ricostruire dopo.
+Tocca una voce per aprirla e modificarla. Per eliminarne una, scorrila verso sinistra e conferma. Una voce eliminata non si può recuperare.
 
-## Chiedere a Cora di una voce
+## Chiedere a Cora di una voce {#analyze}
 
-Le voci che hai segnato come **preoccupazione** o **emergenza** hanno il comando **Analizza**. Passa la voce a [Cora Assistant](/help/mobile-assistant) insieme alle letture della vasca di quei giorni, e ricevi una valutazione. Usalo quando hai annotato qualcosa che ti preoccupa e vuoi un secondo parere.
+Una voce nella categoria **Preoccupazione** o **Emergenza** ha un pulsante **Analizza**. Invia la voce, insieme alle letture della vasca intorno alla stessa data, a [Cora Assistant](/help/mobile-assistant), e la valutazione compare sulla voce. Usalo quando hai annotato qualcosa che ti preoccupa e vuoi un secondo parere.
 
-## Rileggere il diario
+## Rileggere il diario {#reading-it-back}
 
-Il diario è una sequenza per vasca che parte dalla voce più recente. Le foto compaiono direttamente nelle voci.
+Ogni vasca ha il suo diario, dal più recente, con le foto nelle voci.
 
-Se il diario è lungo, filtra per categoria per vedere un solo tipo di voce: osservazioni, preoccupazioni o emergenze.
+Per restringere un diario lungo, tocca un'etichetta di categoria in alto: **Osservazione**, **Preoccupazione**, **Emergenza**, **Modifica** o **Traguardo**.
 
-L'Assistant legge il diario. A domande come *"quando ho cambiato l'acqua l'ultima volta?"* risponde usando le tue voci e le tue letture.
+L'icona **Cronologia della vasca** in alto apre la storia della vasca, dove le voci del diario stanno accanto a manutenzione, popolazione, test dell'acqua e avvisi. Vedi [Attività e cronologia](/help/mobile-activity#tank-timeline).
 
-## Su Cora Max
+Anche Cora Assistant legge il diario. Risponde a domande come *"quando ho cambiato l'acqua l'ultima volta?"* usando le tue voci oltre alle tue letture.
 
-Puoi aggiungere voci al diario anche da Cora Max, spesso più comodo quando sei in piedi davanti alla vasca. Il diario si apre dal menu della vasca, oppure puoi dettare una voce a voce.
+## Su Cora Max {#on-cora-max}
 
-La schermata del diario su Cora Max ha anche i pulsanti **Pasto extra** e **Pasto saltato**, con una riga che mostra la tua routine di alimentazione. Se non ne hai impostata una, la riga dice *Imposta la tua routine di alimentazione nell'app per telefono*, perché la routine si imposta in Cora Mobile.
+Puoi aggiungere voci al diario anche da Cora Max, comodo quando sei in piedi davanti alla vasca. Apri il diario dal menu della vasca, oppure detta una voce.
+
+La schermata del diario su Cora Max ha anche i pulsanti **Pasto extra** e **Pasto saltato**, con una riga che mostra la tua routine di alimentazione. Se non ne hai impostata una, la riga dice *Imposta la tua routine di alimentazione nell'app per telefono*, perché la routine si imposta in Cora Mobile. Di più in [Diario, popolazione e manutenzione](/help/max-records) su Cora Max.

@@ -1,19 +1,20 @@
 ---
-title: Your data
-description: Export your readings, journal and alerts as spreadsheets, and delete your account if you want to.
+title: Exporting your data and deleting your account
+description: Export your readings, journal and alerts as spreadsheet files, sign out, or delete your Cora account and what that removes.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 30
-group: Account
+reviewed: 2026-10-13
+order: 36
+group: Settings and account
 ---
 
-Your tank records belong to you, and you can take them out whenever you like.
+Your tank records belong to you. This page shows how to export them, and how to delete your account if you want to.
 
-![Account data controls](img/mobile-data.webp "Export and deletion sit together at the foot of Account & Subscription.")
+![Export My Data and Delete Account in Cora Mobile](img/mobile-data.webp "Settings, then your account: Export My Data and Delete Account sit below Sign Out.")
 
 ## Exporting
 
-**Settings → your account → Export My Data.**
+1. Open **Settings** and tap the account card at the top. **Account & Subscription** opens.
+2. Tap **Export My Data**.
 
 Exporting is **free on every plan**, including the free one.
 
@@ -40,27 +41,30 @@ Take an export before you shut down a tank or make big changes to your setup. Th
 
 ## Signing out versus deleting
 
-**Sign Out** disconnects this device from your account. Your data isn't touched, and signing back in brings everything back.
+**Sign Out** disconnects this phone from your account. Your data isn't touched, and signing back in brings everything back.
 
-**Delete account** is permanent.
+**Delete Account** is permanent.
 
 ## Deleting your account
 
-**Settings → your account → Delete account.**
-
-This is permanent. It removes your account, tanks, readings, journal, lab results and device links. You can't undo it, and there's no grace period.
-
-If you want to keep anything, export it first.
-
 :::warning Deleting doesn't cancel your subscription
-An App Store or Google Play subscription belongs to the **store**. Deleting your account removes your record with Cora, but **the billing doesn't stop**. You'll keep being charged until you cancel with Apple or Google yourself. Cancel there first, then delete.
+An App Store or Google Play subscription belongs to the **store**. Deleting your account removes your record with Cora, but **the billing doesn't stop**. You'll keep being charged until you cancel with Apple or Google yourself. Cancel there first, then delete. See [Cancelling](/help/mobile-plans#cancelling).
 :::
+
+1. If you want to keep anything, [export it](#exporting) first.
+2. Open **Settings**, tap the account card, then **Delete Account**.
+3. Read the confirmation. If you have a store subscription, it has a **Manage subscription** button so you can cancel first.
+4. Tap **Delete**.
+
+This removes your account, tanks, readings, journal, lab results and device links. You can't undo it, and there's no grace period.
+
+If you signed in a while ago, Cora may ask you to prove it's you before it deletes anything. With an email and password, it asks you to **Confirm your password**. With Apple or Google, sign in with them again. Then try again. Until you do, nothing is deleted.
 
 ## Contributing anonymised data
 
 **Settings → Cora Assistant → Contribute anonymized tank data.**
 
-While this is on, your tank's parameter history is kept for reef research **with no link to you**, even if you later delete your account. Turn it off and that history is deleted with everything else.
+While this is on, your tank's parameter history is kept for reef research **with no link to you**. That happens when you remove a tank, and when you delete your account. Turn it off and that history is deleted with everything else.
 
 This is a separate choice from deleting your account. It's the only part of your data that outlives the account, so give it some thought. It's **on by default**. If you delete your account without checking this switch, the de-identified copy stays behind.
 
@@ -68,4 +72,10 @@ This is a separate choice from deleting your account. It's the only part of your
 
 The [privacy policy](/privacy-policy.html) has the full detail. Briefly, Cora stores your tank data, your account, and the sign-ins for any equipment you connected through a manufacturer's account.
 
-Removing a device forgets its sign-in. Deleting your account removes everything held under your name, with the two exceptions above. Those are the anonymised research copy, if you left that switch on, and your store subscription, which only the store can cancel.
+Removing a device forgets its sign-in. Deleting your account removes everything held under your name, with these exceptions:
+
+- the anonymised research copy, if you left that switch on
+- your store subscription, which only the store can cancel
+- your customer record at our subscription management provider, which is deleted 120 days after your account so a store refund or payment dispute can still be handled
+
+Signing in again on another phone, or changing your sign-in, is covered in [Signing in and account recovery](/help/mobile-account). Plans and billing are in [Plans and subscriptions](/help/mobile-plans).

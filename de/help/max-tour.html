@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Der Cora Max-Startbildschirm | Cora Help</title>
-  <meta name="description" content="Was du auf dem Cora Max-Bildschirm siehst, von der oberen Leiste über das Dashboard-Raster bis zur Steckdosen-Schublade.">
+  <meta name="description" content="Was die obere Leiste, die Statusanzeige, die Warnhinweise, das Beckenmenü und das Dashboard auf Cora Max bedeuten und wie du das Becken wechselst und Steckdosen &amp; Füttern öffnest.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/max-tour">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-tour">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-tour">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Der Cora Max-Startbildschirm | Cora Help">
-  <meta property="og:description" content="Was du auf dem Cora Max-Bildschirm siehst, von der oberen Leiste über das Dashboard-Raster bis zur Steckdosen-Schublade.">
+  <meta property="og:description" content="Was die obere Leiste, die Statusanzeige, die Warnhinweise, das Beckenmenü und das Dashboard auf Cora Max bedeuten und wie du das Becken wechselst und Steckdosen &amp; Füttern öffnest.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/max-tour">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hilfe","item":"https://coraiq.tech/de/help/"},{"@type":"ListItem","position":2,"name":"Cora Max","item":"https://coraiq.tech/de/help/max-setup"},{"@type":"ListItem","position":3,"name":"Erste Schritte","item":"https://coraiq.tech/de/help/max-setup"},{"@type":"ListItem","position":4,"name":"Der Cora Max-Startbildschirm"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/de/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Hilfe</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Anleitung durchsuchen">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigation der Anleitung">
     <button class="hclose" id="hclose" type="button" aria-label="Navigation schließen">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Anleitung">
 <ul>
 <li><a href="/de/help/">Cora Hilfe</a></li>
+</ul>
+<p class="nav-sec">Hilfe</p>
+<ul>
+<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
+<li><a href="/de/help/how-do-i">Wie mache ich...?</a></li>
+<li><a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a></li>
+<li><a href="/de/help/faq">Häufige Fragen</a></li>
+<li><a href="/de/help/glossary">Glossar</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Erste Schritte</summary><ul>
 <li><a href="/de/help/mobile-setup">Cora Mobile einrichten</a></li>
-<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
+<li><a href="/de/help/mobile-tour">So findest du dich in Cora Mobile zurecht</a></li>
 <li><a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a></li>
-<li><a href="/de/help/mobile-tour">Die fünf Tabs</a></li>
+<li><a href="/de/help/mobile-tanks">Deine Becken verwalten</a></li>
+<li><a href="/de/help/mobile-account">Anmelden und Konto wiederherstellen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Dein Dashboard</summary><ul>
 <li><a href="/de/help/mobile-dashboard">Dein Dashboard lesen</a></li>
+<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-dashboard-editing">Dein Dashboard bearbeiten</a></li>
 <li><a href="/de/help/mobile-widgets">Widget-Referenz</a></li>
-<li><a href="/de/help/mobile-metric-detail">Einen Wasserwert genauer ansehen</a></li>
 <li><a href="/de/help/mobile-sharing">Dein Becken teilen</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,41 +93,41 @@
 <li><a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a></li>
 <li><a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a></li>
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
-<li><a href="/de/help/mobile-probes">Parameterzuordnung</a></li>
-<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
+<li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
+<li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
 <li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
 <li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
+<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
 <li><a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a></li>
 <li><a href="/de/help/mobile-notifications">Benachrichtigungen</a></li>
 <li><a href="/de/help/mobile-automation">Automationen und Szenen</a></li>
+<li><a href="/de/help/mobile-vacation">Verreisen: ein Plan für deine Urlaubsvertretung</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Aufzeichnungen</summary><ul>
-<li><a href="/de/help/mobile-dosing">Dosierung</a></li>
+<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
+<li><a href="/de/help/mobile-dosing">Dosierprodukte und Dosierrechner</a></li>
 <li><a href="/de/help/mobile-maintenance">Wartung</a></li>
 <li><a href="/de/help/mobile-livestock">Besatz</a></li>
-<li><a href="/de/help/mobile-journal">Das Tagebuch</a></li>
 <li><a href="/de/help/mobile-activity">Aktivität und Zeitleiste</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenz</summary><ul>
-<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
 <li><a href="/de/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/de/help/mobile-assistant">Cora fragen</a></li>
+<li><a href="/de/help/mobile-icp-health">ICP und Gesundheitsberichte</a></li>
 <li><a href="/de/help/mobile-journeys">Geführte Journeys</a></li>
-<li><a href="/de/help/mobile-icp-health">ICP und Zustandsberichte</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Konto</summary><ul>
-<li><a href="/de/help/mobile-vacation">Verreisen</a></li>
+<summary>Einstellungen und Konto</summary><ul>
+<li><a href="/de/help/mobile-settings">Cora Mobile-Einstellungen</a></li>
 <li><a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></li>
-<li><a href="/de/help/mobile-data-export">Deine Daten</a></li>
-<li><a href="/de/help/mobile-plans">Abos</a></li>
-<li><a href="/de/help/mobile-settings">Einstellungen</a></li>
-<li><a href="/de/help/mobile-support">Hilfe erhalten</a></li>
+<li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
+<li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
+<li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g" open>
@@ -137,8 +147,14 @@
 <li><a href="/de/help/max-devices">Geräte und Gerätezustand</a></li>
 </ul></details>
 <details class="nav-g">
+<summary>Warnungen und Automatisierung</summary><ul>
+<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
+<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
+</ul></details>
+<details class="nav-g">
 <summary>Aufzeichnungen</summary><ul>
 <li><a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a></li>
+<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenz</summary><ul>
@@ -146,59 +162,50 @@
 <li><a href="/de/help/max-voice">Mit Cora sprechen</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Warnungen</summary><ul>
-<li><a href="/de/help/max-activity">Aktivität auf Cora Max</a></li>
-<li><a href="/de/help/max-alerts">Warnungen auf Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Einstellungen</summary><ul>
+<summary>Einstellungen und Konto</summary><ul>
 <li><a href="/de/help/max-settings">Cora Max-Einstellungen</a></li>
 <li><a href="/de/help/max-updates">Updates und Wiederherstellung</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automatisierung</summary><ul>
-<li><a href="/de/help/max-automation">Szenen auf Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Hilfe</p>
-<ul>
-<li><a href="/de/help/faq">Häufige Fragen</a></li>
-<li><a href="/de/help/troubleshooting">Problembehebung</a></li>
-<li><a href="/de/help/glossary">Glossar</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Navigationspfad"><ol><li><a href="/de/help/">Hilfe</a></li><li><a href="/de/help/max-setup" lang="en">Cora Max</a></li><li><a href="/de/help/max-setup">Erste Schritte</a></li></ol></nav>
       <h1>Der Cora Max-Startbildschirm</h1>
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-obere-leiste">Die obere Leiste</a></li><li><a href="#das-dashboard">Das Dashboard</a></li><li><a href="#das-beckenmen">Das Beckenmenü</a></li><li><a href="#das-becken-wechseln">Das Becken wechseln</a></li><li><a href="#die-schublade-steckdosen-fttern">Die Schublade Steckdosen &amp; Füttern</a></li><li><a href="#wenn-etwas-nicht-stimmt">Wenn etwas nicht stimmt</a></li></ul></nav>
-<p>Cora Max zeigt immer ein Becken auf einmal. Der ganze Bildschirm ist voller Live-Messwerte, die du quer durch den Raum lesen kannst.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Der Cora Max-Startbildschirm"><img src="/help/img/max-home.webp" alt="Der Cora Max-Startbildschirm" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Ein Becken auf dem ganzen Bildschirm.</figcaption></figure>
-<h2 id="die-obere-leiste">Die obere Leiste</h2>
+      <p class="twin">In Cora Mobile: <a href="/de/help/mobile-tour">So findest du dich in Cora Mobile zurecht</a></p>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#the-top-bar">Die obere Leiste</a></li><li><a href="#the-dashboard">Das Dashboard</a></li><li><a href="#the-tank-menu">Das Beckenmenü</a></li><li><a href="#switching-tanks">Das Becken wechseln</a></li><li><a href="#the-outlets-feed-drawer">Die Schublade Steckdosen &amp; Füttern</a></li><li><a href="#if-something-looks-out-of-place">Wenn etwas nicht stimmt</a></li></ul></nav>
+<p>Diese Seite erklärt, was du auf Cora Max siehst. Es zeigt ein Becken auf einmal, mit Live-Messwerten, die den ganzen Bildschirm füllen, damit du sie quer durch den Raum lesen kannst.</p>
+<figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Der Cora Max-Startbildschirm mit den Anzeigen, Werten, Diagrammen und Gerätekacheln eines Beckens unter der oberen Leiste"><img src="/help/img/max-home.webp" alt="Der Cora Max-Startbildschirm mit den Anzeigen, Werten, Diagrammen und Gerätekacheln eines Beckens unter der oberen Leiste" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Das Dashboard eines Beckens füllt den Bildschirm, darüber die obere Leiste.</figcaption></figure>
+<h2 id="the-top-bar">Die obere Leiste</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Die obere Leiste von Cora Max"><img src="/help/img/max-topbar.webp" alt="Die obere Leiste von Cora Max" width="1280" height="120" loading="lazy" decoding="async"></button><figcaption>Die obere Leiste, von links nach rechts nummeriert wie in der Liste unten.</figcaption></figure>
 <p>Von links nach rechts:</p>
-<ul><li><strong>Das Raster-Symbol</strong> öffnet den Riffraum mit allen Becken, die dieser Bildschirm zeigt.</li><li><strong>Der Beckenname</strong> mit einem kleinen Pfeil. Tippst du darauf, öffnet sich das <strong>Beckenmenü</strong> mit allen Bildschirmen für das angezeigte Becken, vom Eintragen eines Testergebnisses bis zum Anordnen des Dashboards. Die ganze Liste steht weiter unten.</li><li><strong>Hinweis-Chips für Warnungen</strong>: alles, was gerade außerhalb seines Bereichs liegt. Passen nicht alle hinein, siehst du zum Beispiel <strong>+2</strong>. Tippe darauf, um alle zu sehen.</li><li><strong>Die Uhr</strong></li><li><strong>Der Status-Chip</strong> zeigt, was dieser Bildschirm gerade tut. Grün heißt alles gut, gelb braucht deine Aufmerksamkeit, rot ist ein Fehler. Alle möglichen Anzeigen stehen weiter unten.</li><li><strong>Akku und WLAN</strong></li><li><strong>Das Geräte-Symbol</strong>: alles, was verbunden ist, und wie es ihm geht</li><li><strong>Das Reef Buddy-Symbol</strong> öffnet die heutige Zusammenfassung. Ein Punkt bedeutet, dass du sie noch nicht gelesen hast.</li><li><strong>Das Cora Assistant-Symbol</strong> startet ein Gespräch per Sprache.</li><li><strong>Das Zahnrad</strong>: die Einstellungen</li></ul>
-<h3 id="was-der-status-chip-bedeutet">Was der Status-Chip bedeutet</h3>
-<div class="tw"><table class="stack"><thead><tr><th>Anzeige</th><th>Bedeutung</th></tr></thead><tbody><tr><td data-th="Anzeige"><strong>Online</strong></td><td data-th="Bedeutung">Dieser Bildschirm sammelt deine Messwerte, und sie sind aktuell</td></tr><tr><td data-th="Anzeige"><strong>Cloud</strong></td><td data-th="Bedeutung">Ein anderes Cora sammelt die Messwerte dieses Beckens, und dieser Bildschirm zeigt sie an. Die Werte sind genauso aktuell wie bei <strong>Online</strong>. Hast du mehrere Cora, zeigt der Bildschirm, der nicht selbst sammelt, diese Anzeige</td></tr><tr><td data-th="Anzeige"><strong>Apex-Abfrage</strong>, <strong>Sprache aktiv</strong></td><td data-th="Bedeutung">Cora Max ist gerade mit etwas beschäftigt</td></tr><tr><td data-th="Anzeige"><strong>Abfrage aus</strong></td><td data-th="Bedeutung">Das Sammeln ist für dieses Becken ausgeschaltet. In Cora Mobile kannst du es wieder einschalten</td></tr><tr><td data-th="Anzeige"><strong>Aktualisierung läuft</strong></td><td data-th="Bedeutung">Das Sammeln pausiert, während ein Update installiert wird</td></tr><tr><td data-th="Anzeige"><strong>Veraltet</strong></td><td data-th="Bedeutung">Es kommen keine neuen Messwerte mehr an. Der Bildschirm zeigt die letzten, die er bekommen hat</td></tr><tr><td data-th="Anzeige"><strong>Apex erneut in 12s</strong></td><td data-th="Bedeutung">Dein Apex hat nicht geantwortet. Cora Max versucht es noch einmal, wenn der Countdown abgelaufen ist</td></tr><tr><td data-th="Anzeige"><strong>Cloud-Abgleich fehlgeschlagen</strong></td><td data-th="Bedeutung">Dein Apex hat geantwortet, aber seine Messwerte ließen sich nicht in Cora Cloud speichern. Das Dashboard hinkt deshalb hinterher. Cora Max versucht es weiter</td></tr><tr><td data-th="Anzeige"><strong>Cloud-Speichern abgelehnt</strong></td><td data-th="Bedeutung">Cora Cloud lehnt es ab, einen Teil der Daten dieses Bildschirms zu speichern. Mit deinem Becken oder mit Cora Max ist alles in Ordnung, und auf diesem Bildschirm musst du nichts ändern. Die Lösung ist ein Update von Cora Cloud. Öffne <strong>Einstellungen → Cora Max-Einstellungen → Firmware-Update</strong> und sieh im Bereich <strong>Status</strong> nach: Die Zeile <strong>Cloud-Speichern</strong> nennt die betroffenen Daten. Dann <a href="/support.html">wende dich an den Support</a></td></tr><tr><td data-th="Anzeige"><strong>Offline</strong></td><td data-th="Bedeutung">Keine Verbindung. Der Bildschirm zeigt die letzten Daten, die er bekommen hat</td></tr><tr><td data-th="Anzeige"><strong>Offline, erneuter Versuch in 45s</strong></td><td data-th="Bedeutung">Dein Netzwerk läuft, aber Cora Cloud ist seit mehr als 30 Sekunden nicht erreichbar. Cora Max verbindet sich von selbst neu. Der Countdown zeigt, wann der nächste Versuch kommt</td></tr><tr><td data-th="Anzeige"><strong>Haupt-Cora offline</strong></td><td data-th="Bedeutung">Dieser Bildschirm ist ein zweites Cora Max für dieses Becken, und das Gerät aus <strong>Primäres Cora Max</strong> ist offline. Dieser Bildschirm zeigt die letzten Daten, bis das primäre Gerät wieder da ist oder du ein anderes wählst. Mehr dazu unter <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></td></tr><tr><td data-th="Anzeige"><strong>Apex-Passwort</strong></td><td data-th="Bedeutung">Dein Apex hat das gespeicherte Passwort abgelehnt. Mehr dazu unter <a href="/de/help/troubleshooting">Problembehebung</a></td></tr></tbody></table></div>
-<aside class="cal cal-note"><p class="cal-t">So läuft der Countdown für neue Versuche</p><p>Cora Max versucht in festen Abständen, sich neu zu verbinden: etwa 15 Sekunden nach dem ersten Abbruch, dann nach weiteren 15 Sekunden, dann zweimal nach je 30 Sekunden und danach jede Minute, bis es klappt. Es versucht es also nicht ununterbrochen, gibt aber auch nicht auf. Zeigt der Bildschirm <strong>Offline, erneuter Versuch in 45s</strong>, ist alles in Ordnung.</p></aside>
-<aside class="cal cal-warning"><p class="cal-t">Cora Assistant hört sofort zu</p><p>Tippst du auf das Cora Assistant-Symbol, beginnt sofort ein Live-Gespräch per Sprache. Wolltest du eigentlich in die Einstellungen, nimm das Zahnrad ganz rechts.</p></aside>
-<h2 id="das-dashboard">Das Dashboard</h2>
-<p>Den Rest des Bildschirms füllt das Dashboard aus: ein festes Raster aus Widgets, die alle gleichzeitig zu sehen sind. Das Cora Max-Dashboard scrollt nicht.</p>
-<p>Die Widgets funktionieren wie auf deinem Handy, sind aber so groß, dass du sie auch mit etwas Abstand liest. Was jedes Widget zeigt, steht in der <strong><a href="/de/help/mobile-widgets">Widget-Übersicht</a></strong>. Wie du das Dashboard änderst, steht unter <strong><a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a></strong>.</p>
-<p>Jedes Widget mit einem gemessenen Wasserwert zeigt dessen <strong>Alter</strong> und <strong>Quelle</strong>, genau wie auf dem Handy. Steht <code>2d</code> neben einer Zahl, ist sie zwei Tage alt, und das siehst du auch. Geräte- und Steuerungskacheln zeigen dagegen ihren eigenen Zustand.</p>
-<h2 id="das-beckenmen">Das Beckenmenü</h2>
-<figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Das Beckenmenü"><img src="/help/img/max-menu.webp" alt="Das Beckenmenü" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Alles für das aktuelle Becken, erreichbar über den Beckennamen in der oberen Leiste.</figcaption></figure>
-<p>Tippst du auf den Beckennamen, öffnet sich das Menü für das Becken, das gerade angezeigt wird:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Eintrag</th><th>Was sich öffnet</th></tr></thead><tbody><tr><td data-th="Eintrag"><strong>Werte erfassen</strong></td><td data-th="Was sich öffnet">Testergebnisse über die Bildschirmtastatur eintragen</td></tr><tr><td data-th="Eintrag"><strong>Tagebuch</strong></td><td data-th="Was sich öffnet"><a href="/de/help/mobile-journal">Das Tagebuch</a> für dieses Becken</td></tr><tr><td data-th="Eintrag"><strong>Reef Buddy</strong></td><td data-th="Was sich öffnet">Die aktuelle <a href="/de/help/mobile-reef-buddy">Zusammenfassung</a></td></tr><tr><td data-th="Eintrag"><strong>Zustandsberichte</strong></td><td data-th="Was sich öffnet">Bewertungen zum Zustand deines Beckens</td></tr><tr><td data-th="Eintrag"><strong>Wartung</strong></td><td data-th="Was sich öffnet">Die <a href="/de/help/mobile-maintenance">Aufgabenliste</a></td></tr><tr><td data-th="Eintrag"><strong>ICP-Berichte</strong></td><td data-th="Was sich öffnet">Hochgeladene <a href="/de/help/mobile-icp-health">Laborergebnisse</a></td></tr><tr><td data-th="Eintrag"><strong>Parameterverlauf</strong></td><td data-th="Was sich öffnet">Einen beliebigen Wasserwert mit Daten wählen und sein <a href="/de/help/max-intelligence">Diagramm</a> öffnen</td></tr><tr><td data-th="Eintrag"><strong>Warnschwellen</strong></td><td data-th="Was sich öffnet">Der gesunde Bereich für jeden Wasserwert dieses Beckens</td></tr><tr><td data-th="Eintrag"><strong>Besatz</strong></td><td data-th="Was sich öffnet">Der <a href="/de/help/mobile-livestock">Besatz</a> dieses Beckens, hier nur zum Ansehen</td></tr><tr><td data-th="Eintrag"><strong>Aktivität</strong></td><td data-th="Was sich öffnet"><a href="/de/help/max-activity">Alle Schaltvorgänge, Fütterungen und Dosierungen</a> und was daraus wurde</td></tr><tr><td data-th="Eintrag"><strong>Dashboard-Layout</strong></td><td data-th="Was sich öffnet"><a href="/de/help/max-dashboard-editing">Die Widgets auf diesem Bildschirm anordnen</a></td></tr><tr><td data-th="Eintrag"><strong>Einheiten</strong></td><td data-th="Was sich öffnet">Die Anzeigeeinheiten für die Messwerte dieses Beckens</td></tr><tr><td data-th="Eintrag"><strong>Beckeneinstellungen</strong></td><td data-th="Was sich öffnet">Alle Einstellungen für dieses Becken</td></tr></tbody></table></div>
-<h2 id="das-becken-wechseln">Das Becken wechseln</h2>
-<p>Tippe auf das <strong>Raster-Symbol</strong> ganz links in der oberen Leiste, um in <a href="/de/help/max-reef-room">den Riffraum</a> zu kommen, und öffne dort das Becken, das du sehen willst. Jedes Becken hat sein eigenes Dashboard-Layout. Wechselst du das Becken, sieht also der ganze Bildschirm anders aus.</p>
-<h2 id="die-schublade-steckdosen-fttern">Die Schublade Steckdosen &amp; Füttern</h2>
-<p>An der Lasche am unteren Bildschirmrand ziehst du eine Schublade hoch. Darin findest du alle Steckdosen deines Systems und die Fütterungssteuerung.</p>
-<ul><li><strong>Steckdosen</strong>: Jede lässt sich einzeln auf Auto, Aus oder Ein stellen.</li><li><strong>Fütterung</strong>: pausiert die passenden Geräte zum Füttern und schaltet danach alles wieder ein.</li></ul>
-<aside class="cal cal-warning"><p class="cal-t">Diese Schublade steuert echte Geräte</p><p>Alles darin wirkt direkt auf deine Ausrüstung. Ein Befehl geht raus, sobald du tippst. Gesendet heißt aber noch nicht erledigt. Zurück kommt Bestätigt, Unbestätigt, Abgelehnt oder Keine Änderung, und unter <a href="/de/help/max-activity">Aktivität</a> siehst du, was davon zutraf. Zum Füttern nimmst du am besten den Fütterungsmodus, denn er stellt alles von selbst wieder her. Schaltest du etwas von Hand auf Aus, bleibt es aus, bis du es selbst zurückstellst.</p></aside>
-<h2 id="wenn-etwas-nicht-stimmt">Wenn etwas nicht stimmt</h2>
-<p>Wirken die Messwerte veraltet oder ist der Status-Chip gelb oder rot, fang mit der <strong><a href="/de/help/troubleshooting">Problembehebung</a></strong> an.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/de/help/max-setup"><span>Zurück</span><b>Cora Max einrichten</b></a><a class="pn-n" href="/de/help/max-reef-room"><span>Weiter</span><b>Der Riffraum</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-12.</p>
+<ol><li><strong>Das Raster-Symbol</strong> öffnet <a href="/de/help/max-reef-room">den Riffraum</a>, die Übersicht über alle Becken, die dieser Bildschirm zeigt.</li><li><strong>Der Beckenname</strong>, mit einem kleinen Pfeil. Tippe darauf, um das <strong>Beckenmenü</strong> zu öffnen, das jeden Bildschirm für das angezeigte Becken enthält. Die ganze Liste steht unten.</li><li><strong>Warnhinweise</strong> zeigen, was gerade Aufmerksamkeit braucht: Messwerte außerhalb des Bereichs, Gerätefehler, verpasste Dosierungen oder knappe Vorräte. Tippe auf einen Hinweis, um diese Warnung wieder in die Mitte des Bildschirms zu holen. Passen nicht alle hinein, siehst du <strong>+2</strong> (oder wie viele es eben sind). Tippe darauf, um jeden aktiven Alarm zu sehen.</li><li><strong>Die Uhr</strong>. Du kannst sie mit <strong>Uhr anzeigen</strong> unter <strong>Einstellungen → Cora Max-Einstellungen</strong> ausblenden.</li><li><strong>Die Statusanzeige</strong> zeigt, was dieser Bildschirm gerade tut. Grün heißt alles gut, Blau heißt beschäftigt, Bernstein braucht einen Blick und Rot ist ein Fehler. Jeder Status steht unten.</li><li><strong>Akku und WLAN</strong>.</li><li><strong>Das Gerätesymbol</strong> öffnet <strong>Geräte</strong>, gefiltert auf dieses Becken. Ein Becken ohne Geräte zeigt es nicht.</li><li><strong>Das Reef Buddy-Symbol</strong> öffnet das heutige Briefing. Ein Punkt heißt, dass du es noch nicht gelesen hast.</li><li><strong>Das Cora Assistant-Symbol</strong> startet ein Gespräch per Sprache.</li><li><strong>Das Zahnrad</strong> öffnet die Einstellungen.</li></ol>
+<aside class="cal cal-warning"><p class="cal-t">Cora Assistant hört sofort zu</p><p>Ein Tippen auf das Cora Assistant-Symbol startet sofort ein Live-Gespräch per Sprache. Wolltest du in die Einstellungen, ist das das Zahnrad ganz rechts.</p></aside>
+<h3 id="what-the-status-pill-means">Was die Statusanzeige bedeutet</h3>
+<div class="tw"><table class="stack"><thead><tr><th>Anzeige</th><th>Bedeutung</th></tr></thead><tbody><tr><td data-th="Anzeige"><strong>Online</strong></td><td data-th="Bedeutung">Dieser Bildschirm sammelt deine Messwerte, und sie sind aktuell</td></tr><tr><td data-th="Anzeige"><strong>Cloud</strong></td><td data-th="Bedeutung">Ein anderes Cora sammelt die Messwerte dieses Beckens, und dieser Bildschirm zeigt sie. Sie sind genauso aktuell wie bei <strong>Online</strong>. Hast du mehr als ein Cora, zeigt das, das nicht sammelt, diese Anzeige</td></tr><tr><td data-th="Anzeige"><strong>Apex-Abfrage</strong>, <strong>Sprache aktiv</strong></td><td data-th="Bedeutung">Gerade mit etwas beschäftigt (blau)</td></tr><tr><td data-th="Anzeige"><strong>Abfrage aus</strong></td><td data-th="Bedeutung">Das Sammeln ist für dieses Becken ausgeschaltet. Du kannst es in Cora Mobile wieder einschalten</td></tr><tr><td data-th="Anzeige"><strong>Aktualisierung läuft</strong></td><td data-th="Bedeutung">Das Sammeln pausiert, während ein Update installiert wird</td></tr><tr><td data-th="Anzeige"><strong>Veraltet</strong></td><td data-th="Bedeutung">Es kommen keine Messwerte mehr an. Der Bildschirm zeigt die letzten, die er bekommen hat</td></tr><tr><td data-th="Anzeige"><strong>Apex erneut in 12s</strong></td><td data-th="Bedeutung">Dein Apex hat nicht geantwortet. Cora Max versucht es noch einmal, wenn der Countdown abgelaufen ist</td></tr><tr><td data-th="Anzeige"><strong>Cloud-Abgleich fehlgeschlagen</strong></td><td data-th="Bedeutung">Dein Apex hat geantwortet, aber seine Messwerte ließen sich nicht in Cora Cloud speichern, deshalb hinkt das Dashboard hinterher. Cora Max versucht es weiter</td></tr><tr><td data-th="Anzeige"><strong>Cloud-Speichern abgelehnt</strong></td><td data-th="Bedeutung">Cora Cloud lehnt es ab, einen Teil der Daten dieses Bildschirms zu speichern. Mit deinem Becken und mit Cora Max ist alles in Ordnung, und auf diesem Bildschirm musst du nichts ändern. Die Lösung ist ein Update von Cora Cloud. Öffne <strong>Einstellungen → Cora Max-Einstellungen</strong> und scroll zum Bereich <strong>Status</strong>, wo die Zeile <strong>Cloud-Speichern</strong> sagt, welche Daten betroffen sind. Dann <a href="/support.html">wende dich an den Support</a></td></tr><tr><td data-th="Anzeige"><strong>Offline</strong></td><td data-th="Bedeutung">Keine Verbindung. Der Bildschirm zeigt die letzten Daten, die er bekommen hat</td></tr><tr><td data-th="Anzeige"><strong>Offline, erneuter Versuch in 45s</strong></td><td data-th="Bedeutung">Dein Netzwerk läuft, aber Cora Cloud ist seit mehr als 30 Sekunden nicht erreichbar. Cora Max verbindet sich von selbst neu, und der Countdown zeigt, wann es den nächsten Versuch macht</td></tr><tr><td data-th="Anzeige"><strong>Haupt-Cora offline</strong></td><td data-th="Bedeutung">Dieser Bildschirm ist ein zweites Cora Max für dieses Becken, und das <strong>Primäre Cora Max</strong> (das festgelegte Gerät, das die Ausrüstung dieses Beckens abfragt) ist offline gegangen. Dieser Bildschirm zeigt weiter die letzten Daten, die er hat, bis das primäre zurückkommt oder du ein anderes Primäres Cora Max wählst. Mehr dazu unter <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a></td></tr><tr><td data-th="Anzeige"><strong>Apex-Passwort</strong></td><td data-th="Bedeutung">Dein Apex hat das gespeicherte Passwort abgelehnt. Schau in die <a href="/de/help/troubleshooting">Problembehebung</a></td></tr></tbody></table></div>
+<aside class="cal cal-note"><p class="cal-t">So funktioniert der Countdown für neue Versuche</p><p>Cora Max versucht in gleichmäßigem Takt, sich neu zu verbinden. Es wartet etwa 15 Sekunden nach dem ersten Abbruch, dann wieder 15 Sekunden, dann zweimal 30 Sekunden und danach einmal pro Minute, bis es durchkommt. Es gibt nie auf. <strong>Offline, erneuter Versuch in 45s</strong> ist normal.</p></aside>
+<h2 id="the-dashboard">Das Dashboard</h2>
+<p>Den Rest des Bildschirms füllt das Dashboard, ein festes Raster, das jedes Widget sichtbar hält. Es scrollt nicht.</p>
+<p>Widgets funktionieren wie auf deinem Handy, sind aber groß genug, um sie ein paar Schritte entfernt zu lesen. Was jede Form zeigt, steht in der <a href="/de/help/mobile-widgets">Widget-Referenz</a>. Um zu ändern, was auf dem Dashboard ist, siehe <a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a>.</p>
+<p>Jedes Widget mit einem gemessenen Wasserwert zeigt sein <strong>Alter</strong> und seine <strong>Quelle</strong>, genau wie auf dem Handy. Eine Zahl mit <code>2d</code> daneben ist zwei Tage alt. Geräte- und Steuerungskacheln zeigen stattdessen ihren eigenen Zustand.</p>
+<h3 id="when-the-screen-is-dimmed">Wenn der Bildschirm gedimmt ist</h3>
+<p>Nach der Zeit unter <strong>Dimmen nach</strong> ohne Berührung dimmt sich der Bildschirm. Dein erstes Tippen weckt ihn nur, damit es nicht aus Versehen eine Steuerung drückt. Tippe noch einmal, um den Bildschirm zu nutzen.</p>
+<h2 id="the-tank-menu">Das Beckenmenü</h2>
+<figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Das Beckenmenü über dem Dashboard, mit Werte erfassen, Tagebuch, Reef Buddy und den anderen Bildschirmen für das Becken"><img src="/help/img/max-menu.webp" alt="Das Beckenmenü über dem Dashboard, mit Werte erfassen, Tagebuch, Reef Buddy und den anderen Bildschirmen für das Becken" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Das Beckenmenü, geöffnet über den Beckennamen in der oberen Leiste.</figcaption></figure>
+<p>Tippe auf den Beckennamen, um das Menü für das angezeigte Becken zu öffnen.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Eintrag</th><th>Öffnet</th></tr></thead><tbody><tr><td data-th="Eintrag"><strong>Werte erfassen</strong></td><td data-th="Öffnet">Testkit-Messwerte über die Bildschirmtastatur eintippen</td></tr><tr><td data-th="Eintrag"><strong>Tagebuch</strong></td><td data-th="Öffnet"><a href="/de/help/max-records">Das Tagebuch</a> für dieses Becken</td></tr><tr><td data-th="Eintrag"><strong>Reef Buddy</strong></td><td data-th="Öffnet">Das neueste <a href="/de/help/max-intelligence">Briefing</a></td></tr><tr><td data-th="Eintrag"><strong>Gesundheitsberichte</strong></td><td data-th="Öffnet">Gesundheitsbewertungen</td></tr><tr><td data-th="Eintrag"><strong>Wartung</strong></td><td data-th="Öffnet">Die <a href="/de/help/max-records">Aufgabenliste</a></td></tr><tr><td data-th="Eintrag"><strong>ICP-Berichte</strong></td><td data-th="Öffnet">Hochgeladene <a href="/de/help/max-intelligence">Laborergebnisse</a></td></tr><tr><td data-th="Eintrag"><strong>Parameterverlauf</strong></td><td data-th="Öffnet">Einen beliebigen Wasserwert mit Daten wählen und sein <a href="/de/help/max-intelligence">Diagramm</a> öffnen</td></tr><tr><td data-th="Eintrag"><strong>Warnschwellen</strong></td><td data-th="Öffnet">Der <a href="/de/help/max-alerts">gesunde Bereich</a> für jeden Wert dieses Beckens</td></tr><tr><td data-th="Eintrag"><strong>Besatz</strong></td><td data-th="Öffnet">Der Bestand dieses Beckens, auf diesem Bildschirm nur zum Ansehen</td></tr><tr><td data-th="Eintrag"><strong>Aktivität</strong></td><td data-th="Öffnet"><a href="/de/help/max-activity">Jede Steckdose, Fütterung und Dosierung</a> und was passiert ist</td></tr><tr><td data-th="Eintrag"><strong>Dashboard-Layout</strong></td><td data-th="Öffnet"><a href="/de/help/max-dashboard-editing">Die Widgets auf diesem Bildschirm anordnen</a></td></tr><tr><td data-th="Eintrag"><strong>Einheiten</strong></td><td data-th="Öffnet">Die Anzeigeeinheiten für die Messwerte dieses Beckens</td></tr><tr><td data-th="Eintrag"><strong>Beckeneinstellungen</strong></td><td data-th="Öffnet">Der vollständige Einstellungsbildschirm für dieses Becken</td></tr></tbody></table></div>
+<h2 id="switching-tanks">Das Becken wechseln</h2>
+<p>Tippe auf das <strong>Raster-Symbol</strong> ganz links in der oberen Leiste, um zu <a href="/de/help/max-reef-room">dem Riffraum</a> zu gehen, und öffne dann das Becken, das du willst. Du kannst auch auf dem Dashboard zur Seite wischen. Jedes Becken hat sein eigenes Dashboard-Layout, der ganze Bildschirm ändert sich also beim Wechseln.</p>
+<h2 id="the-outlets-feed-drawer">Die Schublade Steckdosen &amp; Füttern</h2>
+<p>Bei einem Becken mit Neptune™ Apex sitzt unten auf dem Dashboard eine kleine Beschriftung <strong>Steckdosen &amp; Füttern</strong>. Tippe darauf oder wisch irgendwo auf dem Dashboard nach oben, um <strong>Steuerung</strong> zu öffnen.</p>
+<ul><li><strong>FÜTTERN</strong> startet einen deiner Apex-Fütterungszyklen mit <strong>A</strong>, <strong>B</strong>, <strong>C</strong> oder <strong>D</strong>. <strong>Abbrechen</strong> beendet ihn vorzeitig.</li><li><strong>STECKDOSEN</strong> lassen sich jeweils zwischen Auto, Aus und Ein schalten.</li></ul>
+<p>Sie listet die Steckdosen und Fütterungszyklen auf, die du für dieses Dashboard ausgewählt hast, oder alle, wenn du keine ausgewählt hast. Mehr dazu unter <a href="/de/help/max-controls">Steckdosen und Steuerung</a>.</p>
+<aside class="cal cal-warning"><p class="cal-t">Diese Schublade steuert echte Ausrüstung</p><p>Ein Befehl geht raus, sobald du tippst, aber gesendet heißt nicht erledigt. Er kommt mit Bestätigt, Unbestätigt, Abgelehnt oder Keine Änderung zurück, und unter <a href="/de/help/max-activity">Aktivität</a> siehst du, was davon. Der Fütterungsmodus ist der sichere Weg, die Strömung zum Füttern zu pausieren, denn er stellt alles von selbst wieder her. Ein manuelles Aus bleibt aus, bis du es zurückstellst.</p></aside>
+<h2 id="if-something-looks-out-of-place">Wenn etwas nicht stimmt</h2>
+<p>Wirken die Messwerte veraltet oder ist die Statusanzeige bernsteinfarben oder rot, fang mit der <a href="/de/help/troubleshooting">Problembehebung</a> an.</p>
+      <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-setup"><span>Zurück</span><b>Cora Max einrichten</b></a><a class="pn-n" href="/de/help/max-reef-room"><span>Weiter</span><b>Der Riffraum</b></a></nav>
+      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -315,10 +322,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Bildschirmfoto");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Schlie\u00dfen"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -339,55 +346,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Keine Treffer f\u00fcr \u201e" + esc(q) + "\u201c." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Keine Treffer f\u00fcr \u201e" + esc(q)
+        + "\u201c." + '</p>' + "<p>Versuche es mit weniger oder anderen W\u00f6rtern, oder gehe zu:</p><ul><li><a href=\"/de/help/troubleshooting\">Problembehebung</a></li><li><a href=\"/de/help/how-do-i\">Wie mache ich...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Support kontaktieren</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -419,9 +593,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/de/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
       });

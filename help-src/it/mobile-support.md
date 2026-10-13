@@ -1,49 +1,58 @@
 ---
-title: Ottenere assistenza
-description: Segnala un problema direttamente da Cora Mobile e scopri cosa viene inviato insieme alla segnalazione.
+title: Segnalare un problema
+description: Segnala un bug o invia un feedback da Cora Mobile, scopri cosa viene inviato insieme, attiva le segnalazioni di arresto anomalo o scrivi all'assistenza.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 33
-group: Account
+reviewed: 2026-10-13
+order: 37
+group: Settings and account
 ---
 
-Conviene segnalare un problema direttamente da Cora Mobile, nel momento in cui succede, perché Cora Mobile allega da sola i dettagli difficili da ricordare.
+Per segnalare un problema o inviare un feedback, usa **Impostazioni → Aiuto e assistenza → Segnala un bug / Invia feedback**. Se segnali da Cora Mobile, vengono allegati dettagli difficili da ricordare in seguito.
 
-**Impostazioni → Segnala un bug / Invia feedback.**
+![Il modulo di feedback in Cora Mobile](img/mobile-support.webp "Scegli di che tipo di cosa si tratta, racconta cosa è successo e aggiungi uno screenshot se serve.")
 
-## Cosa scrivi tu
+## Cosa compili
 
-Il modulo ti chiede due cose: **di che tipo di problema si tratta**, così la segnalazione arriva alla persona giusta, e **cosa è successo**, con parole tue.
+1. In **Che tipo di cosa è?**, scegline una: **Qualcosa è rotto**, **Richiesta di funzionalità**, **Dati errati**, **Poco chiaro**, **Fatturazione** oppure **Qualcos'altro**. Così la segnalazione arriva alla persona giusta.
+2. In **Cos'è successo?**, scrivilo con parole tue.
+3. Tocca **Invia**. Vedrai *Grazie, abbiamo ricevuto il tuo rapporto.*
 
-Scrivi con precisione cosa ti aspettavi e cosa hai visto. "Sulla dashboard l'alcalinità risultava vecchia di 2 g mentre l'Apex la leggeva bene" è molto più utile di "letture rotte".
+Scrivi cosa ti aspettavi e cosa hai visto. "Sulla dashboard l'alcalinità risultava vecchia di 2 g mentre l'Apex la leggeva bene" è molto più utile di "letture rotte".
+
+Puoi inviare fino a 10 segnalazioni al giorno.
 
 ## Cosa viene allegato in automatico
 
-A ogni segnalazione si aggiunge una breve riga di contesto, che il modulo ti mostra prima dell'invio:
+A ogni segnalazione si aggiunge una breve riga di contesto. Il modulo te la mostra prima dell'invio, sotto *Inviato con il tuo rapporto*.
 
-- la **versione dell'app**
+- la **versione di Cora Mobile**
 - la **piattaforma** e la versione del sistema operativo
-- la **schermata** in cui eri quando hai aperto il modulo
+- la **schermata** in cui ti trovavi
 
-Con queste informazioni un "non ha funzionato" diventa un problema che si può riprodurre. La riga è visibile, quindi non parte nulla che tu non abbia visto.
+La segnalazione riporta anche la lingua del telefono e la vasca che avevi selezionato. Con queste informazioni di solito riusciamo a riprodurre cosa è andato storto.
 
 ## Screenshot
 
-**Allega uno screenshot** aggiunge un'immagine alla segnalazione. Con **Rimuovi screenshot** la togli prima dell'invio.
+**Allega uno screenshot** aggiunge alla segnalazione un'immagine dalle tue foto. **Rimuovi screenshot** la toglie prima dell'invio. Fai prima lo screenshot, poi apri il modulo.
 
-:::warning L'assistenza Cora vede lo screenshot
-Cora Mobile te lo ricorda sopra il comando. Guarda bene l'immagine prima di allegarla. Uno screenshot della dashboard mostra i nomi e le letture delle tue vasche, e tutto quello che c'era sullo schermo in quel momento.
+:::warning L'assistenza Cora vedrà il tuo screenshot
+Cora Mobile te lo dice sopra il pulsante. Controlla l'immagine prima di allegarla. Uno screenshot della dashboard mostra i nomi e le letture delle tue vasche, più tutto quello che c'era sullo schermo.
 :::
 
-:::note In modalità sitter non si possono allegare screenshot
-Quando guardi la vasca di un'altra persona da un link condiviso, l'opzione screenshot non c'è. Uno screenshot allegherebbe i dati *suoi* alla *tua* richiesta di assistenza, e quella persona non lo saprebbe mai.
+:::note Niente screenshot in modalità sitter
+Quando guardi la vasca di un'altra persona tramite un link condiviso, non puoi allegare uno screenshot. Metterebbe i dati *suoi* nella *tua* richiesta di assistenza, e quella persona non lo saprebbe mai.
 :::
 
 ## Segnalazioni automatiche di arresto anomalo
 
-**Invia segnalazioni di arresto anomalo**, accanto alla riga delle segnalazioni, fa lo stesso lavoro senza che tu debba accorgerti del problema e scriverci: se Cora Mobile si blocca, lo segnala da sola. Vedi [Impostazioni](/help/mobile-settings).
+**Invia segnalazioni di arresto anomalo**, in **Aiuto e assistenza** sotto la riga delle segnalazioni, fa lo stesso lavoro senza che tu debba accorgerti che qualcosa si è rotto e scriverlo. Se Cora Mobile si blocca o una schermata non si carica, invia i dettagli tecnici. Non include dati della vasca, foto o dati dell'account. Vedi [Impostazioni di Cora Mobile](/help/mobile-settings#getting-help).
+
+## Scrivere all'assistenza
+
+**Impostazioni → Aiuto e assistenza → Contatta l'assistenza** apre un'email a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con la versione di Cora Mobile già inserita. Di solito rispondiamo entro un giorno. Se il telefono non ha un'app di posta, scrivi a quell'indirizzo da qualsiasi account email.
 
 ## Altre strade
 
-- Per le domande sulla tua vasca di solito fai prima con **[Cora Assistant](/help/mobile-assistant)**, che vede le tue letture.
-- Se qualcosa non funziona come descritto nella guida, guarda prima in **[Risoluzione dei problemi](/help/troubleshooting)**.
+- Per le domande sulla tua vasca di solito fai prima con [Cora Assistant](/help/mobile-assistant), perché vede le tue letture.
+- Se qualcosa non funziona come dice questa guida, guarda prima in [Risoluzione dei problemi](/help/troubleshooting).
+- Per una domanda sulla fatturazione, vedi [Piani e abbonamenti](/help/mobile-plans).

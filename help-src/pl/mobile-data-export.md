@@ -1,71 +1,81 @@
 ---
-title: Twoje dane
-description: Jak wyeksportować odczyty, dziennik i alerty do arkuszy kalkulacyjnych i jak usunąć konto.
+title: Eksport danych i usuwanie konta
+description: Wyeksportuj odczyty, dziennik i alerty do plików arkusza kalkulacyjnego, wyloguj się albo usuń konto Cora i zobacz, co to usuwa.
 section: Cora Mobile
-reviewed: 2026-09-27
-order: 30
-group: Account
+reviewed: 2026-10-13
+order: 36
+group: Settings and account
 ---
 
-Zapisy z Twojego akwarium należą do Ciebie. Możesz je pobrać w każdej chwili.
+Zapisy z Twojego akwarium należą do Ciebie. Ta strona pokazuje, jak je wyeksportować i jak usunąć konto, jeśli chcesz.
 
-![Dane konta](img/mobile-data.webp "Eksport i usuwanie konta są obok siebie na dole ekranu Konto i subskrypcja.")
+![Eksportuj moje dane i Usuń konto w Cora Mobile](img/mobile-data.webp "Ustawienia, potem Twoje konto: Eksportuj moje dane i Usuń konto są pod Wyloguj się.")
 
-## Eksport
+## Eksport {#exporting}
 
-**Ustawienia → Twoje konto → Eksportuj moje dane.**
+1. Otwórz **Ustawienia** i dotknij karty konta na górze. Otworzy się **Konto i subskrypcja**.
+2. Dotknij **Eksportuj moje dane**.
 
 Eksport jest **bezpłatny w każdym planie**, także w darmowym.
 
-Cora eksportuje dane do **plików CSV**. To arkusze, które otworzysz w Excelu, Numbers, Arkuszach Google albo w dowolnym programie do tabel:
+Cora eksportuje **pliki CSV**. To arkusze, które otworzysz w Excelu, Numbers, Arkuszach Google albo w dowolnym programie, który czyta tabele.
 
 | Plik | Co zawiera |
 |---|---|
-| `cora_parameters.csv` | Twoje odczyty, każdy ze źródłem i datą z godziną |
-| `cora_journal.csv` | Wpisy w dzienniku |
-| `cora_alerts.csv` | Alerty, które się pojawiły |
-| `cora_export_summary.csv` | Co obejmuje eksport, w tym co zostało ucięte |
+| `cora_parameters.csv` | Twoje odczyty, każdy ze źródłem i znacznikiem czasu |
+| `cora_journal.csv` | Twoje wpisy w dzienniku |
+| `cora_alerts.csv` | Zgłoszone alerty |
+| `cora_export_summary.csv` | Co obejmuje ten eksport, w tym wszystko, co zostało ucięte |
 
-:::note Co jest w eksporcie, a czego nie ma
-Eksport obejmuje **odczyty, wpisy w dzienniku i alerty**, bo o te trzy rodzaje danych ludzie proszą najczęściej. Nie jest to kopia całego konta. Nie ma w nim pulpitów, obsady, konserwacji, automatyzacji, raportów ani ustawień urządzeń.
+:::note Co jest w eksporcie
+Eksport obejmuje **odczyty, wpisy w dzienniku i alerty**, czyli trzy rodzaje zapisów, o które ludzie proszą. Nie jest kopią całego konta. Nie ma w nim pulpitów, obsady, konserwacji, automatyzacji, raportów ani ustawień urządzeń.
 
-Każdy z tych trzech plików ma limit **25 000 wierszy na akwarium**. Akwarium, które co pięć minut zapisuje trzydzieści parametrów, przekroczy go w trzy dni. Dane z akwarium działającego od dawna zostaną więc ucięte na tym limicie. Plik podsumowania mówi wprost, czy tak się stało. Sprawdź go, zanim uznasz, że plik jest kompletny.
+Każdy z tych trzech plików kończy się na **25 000 wierszy na akwarium**. Akwarium, które co pięć minut zapisuje trzydzieści metryk, przekroczy to w trzy dni, więc akwarium działające od dawna trafi na ten limit. Plik podsumowania powie Ci, kiedy tak się stało. Sprawdź go, zanim uznasz, że eksport jest kompletny.
 :::
 
-Eksport parametrów zawiera przy każdym odczycie jego **źródło**. W arkuszu z alkalicznością widać więc, co podała sonda, a co test kropelkowy.
+Eksport parametrów zawiera **źródło** każdego odczytu. W arkuszu z alkalicznością nadal odróżnisz więc, co podała sonda, a co test kropelkowy.
 
 :::note Zrób eksport przed dużymi zmianami
-Wyeksportuj dane, zanim zlikwidujesz akwarium albo mocno zmienisz jego konfigurację. Wyeksportowane pliki nie zależą od Cora Mobile ani od Twojego konta.
+Wyeksportuj dane, zanim zlikwidujesz akwarium albo mocno zmienisz swój system. Pliki nie zależą od Cora Mobile ani od Twojego konta.
 :::
 
 ## Wylogowanie a usunięcie konta
 
-**Wyloguj się** odłącza to urządzenie od konta. Dane zostają nietknięte, a po ponownym zalogowaniu wszystko wraca.
+**Wyloguj się** odłącza ten telefon od konta. Dane zostają nietknięte, a po ponownym zalogowaniu wszystko wraca.
 
 **Usuń konto** działa na stałe.
 
 ## Usuwanie konta
 
-**Ustawienia → Twoje konto → Usuń konto.**
-
-Tego nie da się cofnąć. Usuwane są konto, akwaria, odczyty, dziennik, wyniki laboratoryjne i połączenia z urządzeniami. Nie ma okresu karencji.
-
-Jeśli chcesz coś zachować, najpierw zrób eksport.
-
 :::warning Usunięcie konta nie anuluje subskrypcji
-Subskrypcja w App Store albo Google Play należy do **sklepu**, a nie do Cory. Usunięcie konta kasuje Twoje dane u nas, ale **nie zatrzymuje płatności**. Opłaty będą pobierane, dopóki nie anulujesz subskrypcji w Apple albo Google. Najpierw anuluj ją tam, a dopiero potem usuń konto.
+Subskrypcja w App Store albo Google Play należy do **sklepu**. Usunięcie konta kasuje Twój zapis w Corze, ale **płatności się nie zatrzymują**. Opłaty będą pobierane, dopóki samodzielnie nie anulujesz subskrypcji w Apple albo Google. Najpierw anuluj ją tam, potem usuń konto. Zobacz [Anulowanie](/help/mobile-plans#cancelling).
 :::
+
+1. Jeśli chcesz coś zachować, najpierw [to wyeksportuj](#exporting).
+2. Otwórz **Ustawienia**, dotknij karty konta, a potem **Usuń konto**.
+3. Przeczytaj potwierdzenie. Jeśli masz subskrypcję w sklepie, jest tam przycisk **Zarządzaj subskrypcją**, żeby najpierw ją anulować.
+4. Dotknij **Usuń**.
+
+To usuwa konto, akwaria, odczyty, dziennik, wyniki z laboratorium i połączenia z urządzeniami. Nie da się tego cofnąć i nie ma okresu karencji.
+
+Jeśli logowanie było dawno, Cora może poprosić o potwierdzenie tożsamości, zanim cokolwiek usunie. Przy e-mailu i haśle poprosi **Potwierdź swoje hasło**. Przy Apple albo Google zaloguj się nimi ponownie. Potem spróbuj jeszcze raz. Dopóki tego nie zrobisz, nic nie zostanie usunięte.
 
 ## Udostępnianie zanonimizowanych danych
 
 **Ustawienia → Cora Assistant → Udostępniaj zanonimizowane dane akwarium.**
 
-Gdy ten przełącznik jest włączony, historia parametrów akwarium zostaje zachowana na potrzeby badań nad rafami, **bez żadnego powiązania z Tobą**, nawet jeśli później usuniesz konto. Jeśli go wyłączysz, ta historia zostanie usunięta razem z resztą.
+Gdy ten przełącznik jest włączony, historia parametrów akwarium jest zachowywana na potrzeby badań nad rafami, **bez żadnego powiązania z Tobą**. Dzieje się tak, gdy usuwasz akwarium i gdy usuwasz konto. Wyłącz go, a ta historia zostanie usunięta razem ze wszystkim innym.
 
-To osobna decyzja, niezależna od usunięcia konta. To też jedyna część danych, która zostaje po usunięciu konta, więc warto zdecydować świadomie. Przełącznik jest **domyślnie włączony**. Jeśli usuniesz konto bez zaglądania do niego, zanonimizowana kopia zostanie.
+To osobna decyzja, niezależna od usunięcia konta. To jedyna część danych, która przetrwa konto, więc przemyśl ją. Przełącznik jest **domyślnie włączony**. Jeśli usuniesz konto bez sprawdzenia tego przełącznika, odpersonalizowana kopia zostanie.
 
 ## Co przechowuje Cora
 
-Wszystkie szczegóły są w [polityce prywatności](/privacy-policy.html) (po angielsku). Najważniejsze to dane akwarium, konto i dane logowania do sprzętu podłączonego przez konto producenta.
+Pełne szczegóły są w [polityce prywatności](/privacy-policy.html). W skrócie: Cora przechowuje dane akwarium, Twoje konto i dane logowania do sprzętu podłączonego przez konto producenta.
 
-Po usunięciu urządzenia Cora zapomina te dane logowania. Usunięcie konta kasuje wszystko, co jest z Tobą powiązane, z dwoma opisanymi wyżej wyjątkami. Pierwszy to zanonimizowana kopia do badań, jeśli przełącznik jest włączony. Drugi to subskrypcja w sklepie, którą może anulować tylko sklep.
+Usunięcie urządzenia sprawia, że Cora zapomina jego dane logowania. Usunięcie konta kasuje wszystko, co jest przechowywane pod Twoim nazwiskiem, z tymi wyjątkami:
+
+- zanonimizowana kopia do badań, jeśli przełącznik został włączony
+- subskrypcja w sklepie, którą może anulować tylko sklep
+- Twój zapis klienta u naszego dostawcy zarządzania subskrypcjami, usuwany 120 dni po koncie, żeby nadal dało się obsłużyć zwrot w sklepie albo spór o płatność
+
+Ponowne logowanie na innym telefonie albo zmianę sposobu logowania opisuje [Logowanie i odzyskiwanie konta](/help/mobile-account). Plany i płatności są w [Planach i subskrypcjach](/help/mobile-plans).

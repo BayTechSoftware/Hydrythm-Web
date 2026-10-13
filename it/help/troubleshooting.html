@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Risoluzione dei problemi | Cora Help</title>
-  <meta name="description" content="Le letture si sono fermate, un dispositivo è offline, un avviso non si chiude o qualcosa non ti torna. Parti da qui.">
+  <meta name="description" content="Sistema una lettura vecchia, un dispositivo andato offline, un comando che non è arrivato, un Cora Max che non si associa o un avviso che non si chiude.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/troubleshooting">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/troubleshooting">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Risoluzione dei problemi | Cora Help">
-  <meta property="og:description" content="Le letture si sono fermate, un dispositivo è offline, un avviso non si chiude o qualcosa non ti torna. Parti da qui.">
+  <meta property="og:description" content="Sistema una lettura vecchia, un dispositivo andato offline, un comando che non è arrivato, un Cora Max che non si associa o un avviso che non si chiude.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Aiuto","item":"https://coraiq.tech/it/help/"},{"@type":"ListItem","position":2,"name":"Risoluzione dei problemi"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Vai al contenuto</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/it/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Aiuto</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Cerca nella guida">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigazione della guida">
     <button class="hclose" id="hclose" type="button" aria-label="Chiudi la navigazione">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Guida">
 <ul>
 <li><a href="/it/help/">Guida di Cora</a></li>
+</ul>
+<p class="nav-sec">Aiuto</p>
+<ul>
+<li><a href="/it/help/troubleshooting" class="cur" aria-current="page">Risoluzione dei problemi</a></li>
+<li><a href="/it/help/how-do-i">Come faccio a...?</a></li>
+<li><a href="/it/help/equipment-by-brand">Attrezzatura per marca</a></li>
+<li><a href="/it/help/faq">Domande frequenti</a></li>
+<li><a href="/it/help/glossary">Glossario</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g">
 <summary>Per iniziare</summary><ul>
 <li><a href="/it/help/mobile-setup">Configurare Cora Mobile</a></li>
-<li><a href="/it/help/mobile-account">Accesso e recupero dell&#x27;account</a></li>
+<li><a href="/it/help/mobile-tour">Orientarsi in Cora Mobile</a></li>
 <li><a href="/it/help/mobile-tank-profile">Il profilo della tua vasca</a></li>
-<li><a href="/it/help/mobile-tour">Le cinque schede</a></li>
+<li><a href="/it/help/mobile-tanks">Gestire le tue vasche</a></li>
+<li><a href="/it/help/mobile-account">Accesso e recupero dell&#x27;account</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
 <li><a href="/it/help/mobile-dashboard">Leggere la dashboard</a></li>
-<li><a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a></li>
-<li><a href="/it/help/mobile-widgets">Guida di riferimento ai widget</a></li>
 <li><a href="/it/help/mobile-metric-detail">Approfondire un parametro</a></li>
+<li><a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a></li>
+<li><a href="/it/help/mobile-widgets">Guida ai widget</a></li>
 <li><a href="/it/help/mobile-sharing">Condividere la tua vasca</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,48 +93,48 @@
 <li><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
-<li><a href="/it/help/mobile-probes">Mappatura parametri</a></li>
-<li><a href="/it/help/mobile-consumables">Materiali di consumo</a></li>
-<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
-<li><a href="/it/help/mobile-cameras">Telecamere e controllo dello schiumatoio</a></li>
+<li><a href="/it/help/mobile-probes">Mappatura parametri e sonde</a></li>
+<li><a href="/it/help/mobile-consumables">Materiali di consumo e avvisi di rifornimento</a></li>
+<li><a href="/it/help/mobile-cameras">Telecamere e Controllo schiumatoio</a></li>
 <li><a href="/it/help/mobile-ecotech">Luci, pompe e dosatori EcoTech</a></li>
+<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Avvisi e automazione</summary><ul>
 <li><a href="/it/help/mobile-alerts">Avvisi e soglie</a></li>
 <li><a href="/it/help/mobile-notifications">Notifiche</a></li>
 <li><a href="/it/help/mobile-automation">Automazioni e scene</a></li>
+<li><a href="/it/help/mobile-vacation">Andare in vacanza: un piano per chi si occupa della vasca</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registri</summary><ul>
-<li><a href="/it/help/mobile-dosing">Dosaggio</a></li>
+<li><a href="/it/help/mobile-journal">Il diario</a></li>
+<li><a href="/it/help/mobile-dosing">Prodotti di dosaggio e calcolatore di dosaggio</a></li>
 <li><a href="/it/help/mobile-maintenance">Manutenzione</a></li>
 <li><a href="/it/help/mobile-livestock">Popolazione</a></li>
-<li><a href="/it/help/mobile-journal">Il diario</a></li>
 <li><a href="/it/help/mobile-activity">Attività e cronologia</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenza</summary><ul>
-<li><a href="/it/help/mobile-assistant">Fare domande a Cora</a></li>
 <li><a href="/it/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/it/help/mobile-assistant">Fare domande a Cora</a></li>
+<li><a href="/it/help/mobile-icp-health">ICP e report di salute</a></li>
 <li><a href="/it/help/mobile-journeys">Percorsi guidati</a></li>
-<li><a href="/it/help/mobile-icp-health">ICP e rapporti di salute</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Account</summary><ul>
-<li><a href="/it/help/mobile-vacation">Andare in vacanza</a></li>
+<summary>Impostazioni e account</summary><ul>
+<li><a href="/it/help/mobile-settings">Impostazioni di Cora Mobile</a></li>
 <li><a href="/it/help/mobile-multi-device">Più di un dispositivo Cora</a></li>
-<li><a href="/it/help/mobile-data-export">I tuoi dati</a></li>
-<li><a href="/it/help/mobile-plans">Piani</a></li>
-<li><a href="/it/help/mobile-settings">Impostazioni</a></li>
-<li><a href="/it/help/mobile-support">Ottenere assistenza</a></li>
+<li><a href="/it/help/mobile-plans">Piani e abbonamenti</a></li>
+<li><a href="/it/help/mobile-data-export">Esportare i tuoi dati ed eliminare l&#x27;account</a></li>
+<li><a href="/it/help/mobile-support">Segnalare un problema</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
 <summary>Per iniziare</summary><ul>
 <li><a href="/it/help/max-setup">Configurare Cora Max</a></li>
-<li><a href="/it/help/max-tour">La schermata Home di Cora Max</a></li>
-<li><a href="/it/help/max-reef-room">La Stanza barriera</a></li>
+<li><a href="/it/help/max-tour">La schermata principale di Cora Max</a></li>
+<li><a href="/it/help/max-reef-room">La Reef Room</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
@@ -132,232 +142,205 @@
 </ul></details>
 <details class="nav-g">
 <summary>Apparecchiature</summary><ul>
-<li><a href="/it/help/max-controls">Prese e controlli</a></li>
-<li><a href="/it/help/max-device-control">Controllare l&#x27;equipaggiamento da Cora Max</a></li>
+<li><a href="/it/help/max-controls">Prese e comandi</a></li>
+<li><a href="/it/help/max-device-control">Controllare l&#x27;attrezzatura da Cora Max</a></li>
 <li><a href="/it/help/max-devices">Dispositivi e salute dei dispositivi</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Avvisi e automazione</summary><ul>
+<li><a href="/it/help/max-alerts">Avvisi su Cora Max</a></li>
+<li><a href="/it/help/max-automation">Scene su Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registri</summary><ul>
 <li><a href="/it/help/max-records">Diario, popolazione e manutenzione</a></li>
+<li><a href="/it/help/max-activity">Attività su Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenza</summary><ul>
-<li><a href="/it/help/max-intelligence">Reef Buddy e rapporti</a></li>
+<li><a href="/it/help/max-intelligence">Reef Buddy e report</a></li>
 <li><a href="/it/help/max-voice">Parlare con Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Avvisi</summary><ul>
-<li><a href="/it/help/max-activity">Attività su Cora Max</a></li>
-<li><a href="/it/help/max-alerts">Avvisi su Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Impostazioni</summary><ul>
+<summary>Impostazioni e account</summary><ul>
 <li><a href="/it/help/max-settings">Impostazioni di Cora Max</a></li>
 <li><a href="/it/help/max-updates">Aggiornamenti e ripristino</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automazione</summary><ul>
-<li><a href="/it/help/max-automation">Scene su Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Aiuto</p>
-<ul>
-<li><a href="/it/help/faq">Domande frequenti</a></li>
-<li><a href="/it/help/troubleshooting" class="cur" aria-current="page">Risoluzione dei problemi</a></li>
-<li><a href="/it/help/glossary">Glossario</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Percorso di navigazione"><ol><li><a href="/it/help/">Aiuto</a></li></ol></nav>
       <h1>Risoluzione dei problemi</h1>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#un-widget-non-mostra-nessun-valore">Un widget non mostra nessun valore</a></li><li><a href="#una-lettura-vecchia">Una lettura è vecchia</a></li><li><a href="#dispositivo-ha-smesso-di-comunicare">&quot;[Dispositivo]: ha smesso di comunicare&quot;</a></li><li><a href="#un-dispositivo-non-si-raggiunge">Un dispositivo non si raggiunge</a></li><li><a href="#un-dispositivo-dice-che-laccesso-stato-rifiutato">Un dispositivo dice che l&#x27;accesso è stato rifiutato</a></li><li><a href="#lassociazione-di-un-cora-max-non-riesce">L&#x27;associazione di un Cora Max non riesce</a></li><li><a href="#cora-max-mostra-dati-vecchi">Cora Max mostra dati vecchi</a></li><li><a href="#cora-max-mostra-salvataggio-cloud-rifiutato">Cora Max mostra &quot;Salvataggio cloud rifiutato&quot;</a></li><li><a href="#un-avviso-non-si-chiude">Un avviso non si chiude</a></li><li><a href="#due-fonti-non-sono-daccordo">Due fonti non sono d&#x27;accordo</a></li><li><a href="#non-mi-arrivano-le-notifiche">Non mi arrivano le notifiche</a></li><li><a href="#capire-perch-qualcosa-cambiato">Capire perché qualcosa è cambiato</a></li><li><a href="#dopo-le-modifiche-la-dashboard-non-va-bene">Dopo le modifiche la dashboard non va bene</a></li><li><a href="#i-valori-red-sea-non-si-aggiornano-pi">&quot;I valori Red Sea non si aggiornano più&quot;</a></li><li><a href="#api-ghl-disattivata">&quot;API GHL disattivata&quot;</a></li><li><a href="#controller-ghl-non-raggiungibile">&quot;Controller GHL non raggiungibile&quot;</a></li><li><a href="#un-controller-hydros-risulta-offline-o-non-riporta">Un controller HYDROS risulta offline o non riporta</a></li><li><a href="#impossibile-raggiungere-questa-pompa-nulla-stato-inviato">&quot;Impossibile raggiungere questa pompa: nulla è stato inviato.&quot;</a></li><li><a href="#impossibile-raggiungere-questa-pompa-via-bluetooth-avvicinat">&quot;Impossibile raggiungere questa pompa via Bluetooth. Avvicinati e riprova.&quot;</a></li><li><a href="#impossibile-raggiungere-quel-gyre-nessuna-alimentazione-stat">&quot;Impossibile raggiungere quel Gyre. Nessuna alimentazione è stata avviata.&quot;</a></li><li><a href="#impossibile-raggiungere-quel-gyre-il-suo-programma-non-stato">&quot;Impossibile raggiungere quel Gyre. Il suo programma non è stato cambiato.&quot;</a></li><li><a href="#impossibile-raggiungere-lapex-nulla-cambiato-nulla-stato-dos">&quot;Impossibile raggiungere l&#x27;Apex: nulla è cambiato&quot; / &quot;nulla è stato dosato&quot;</a></li><li><a href="#non-stato-inviato-nessun-altro-dispositivo-di-questa-vasca-p">&quot;Non è stato inviato: nessun altro dispositivo di questa vasca può inviarlo&quot;</a></li><li><a href="#un-cora-max-secondario-mostra-cora-principale-offline">Un Cora Max secondario mostra &quot;Cora principale offline&quot;</a></li><li><a href="#il-dispositivo-offline-mostra-lultimo-stato-conosciuto">&quot;Il dispositivo è offline. Mostra l&#x27;ultimo stato conosciuto.&quot;</a></li><li><a href="#alcune-impostazioni-reefbeat-sono-grigie-o-mancano">Alcune impostazioni ReefBeat sono grigie o mancano</a></li><li><a href="#impossibile-raggiungere-cora-controlla-il-wi-fi-o-i-dati-mob">&quot;Impossibile raggiungere Cora. Controlla il Wi-Fi o i dati mobili, poi riprova.&quot;</a></li><li><a href="#allimprovviso-tutto-nella-lingua-sbagliata">All&#x27;improvviso è tutto nella lingua sbagliata</a></li><li><a href="#dopo-il-cambio-di-lingua-un-vecchio-avviso-o-rapporto-ancora">Dopo il cambio di lingua, un vecchio avviso o rapporto è ancora nella lingua di prima</a></li><li><a href="#un-avviso-continua-a-mandare-notifiche-anche-dopo-che-lho-vi">Un avviso continua a mandare notifiche anche dopo che l&#x27;ho visto</a></li><li><a href="#una-dose-si-fermata-a-met-ed-comparso-un-avviso-di-ripristin">Una dose si è fermata a metà ed è comparso un avviso di &quot;ripristino&quot;</a></li><li><a href="#una-scena-creata-sul-telefono-non-si-pu-modificare-su-cora-m">Una scena creata sul telefono non si può modificare su Cora Max</a></li><li><a href="#cora-assistant-risponde-sulla-vasca-sbagliata">Cora Assistant risponde sulla vasca sbagliata</a></li><li><a href="#cora-assistant-non-risponde-o-mostra-di-nuovo-la-schermata-d">Cora Assistant non risponde, o mostra di nuovo la schermata del consenso</a></li><li><a href="#un-risultato-icp-dal-laboratorio-o-per-email-non-mai-arrivat">Un risultato ICP dal laboratorio o per email non è mai arrivato</a></li><li><a href="#una-notifica-di-icp-via-email-non-dice-il-nome-del-laborator">Una notifica di ICP via email non dice il nome del laboratorio</a></li><li><a href="#un-widget-mostra-le-unit-sbagliate">Un widget mostra le unità sbagliate</a></li><li><a href="#dopo-il-cambio-di-unit-un-indicatore-o-una-soglia-sembrano-d">Dopo il cambio di unità un indicatore o una soglia sembrano diversi</a></li><li><a href="#dopo-uninterruzione-del-wi-fi-cora-max-non-si-ricollega-subi">Dopo un&#x27;interruzione del Wi-Fi Cora Max non si ricollega subito</a></li><li><a href="#ho-rinominato-un-cora-max-dal-telefono-ma-sullo-schermo-non-">Ho rinominato un Cora Max dal telefono, ma sullo schermo non cambia</a></li><li><a href="#non-trovo-dove-spegnere-la-parola-di-attivazione-su-cora-max">Non trovo dove spegnere la parola di attivazione su Cora Max</a></li><li><a href="#con-il-blocco-bambini-nessuno-riesce-a-entrare-in-impostazio">Con il blocco bambini nessuno riesce a entrare in Impostazioni</a></li><li><a href="#ancora-bloccato">Ancora bloccato?</a></li></ul></nav>
-<p>Parti da quello che vedi.</p>
-<h2 id="un-widget-non-mostra-nessun-valore">Un widget non mostra nessun valore</h2>
-<p>Controlla in quest'ordine:</p>
-<ol><li><strong>Guarda l'età dei widget vicini.</strong> Se sono tutti vecchi, il problema è la connessione, non il parametro.</li><li><strong>Apri la scheda Dispositivi.</strong> Se un dispositivo non si raggiunge, lo dice nella sua riga.</li><li><strong>Controlla a quale vasca è assegnato.</strong> Un dispositivo che manda i dati alla vasca sbagliata sembra proprio un dispositivo che non manda niente. Apri il dispositivo e controlla la vasca.</li><li><strong>Controlla che la fonte esista.</strong> Nessuno manda i fosfati se non hai un'attrezzatura che li misura o se non li registri a mano.</li></ol>
-<h2 id="una-lettura-vecchia">Una lettura è vecchia</h2>
-<p>L'età indicata è giusta: non è arrivato niente di nuovo.</p>
-<ul><li><strong>I parametri registrati a mano</strong> invecchiano quando non inserisci letture nuove. Registrane una.</li><li><strong>Se invecchiano le letture dell'attrezzatura</strong>, il dispositivo ha smesso di mandare dati. Controlla la sua riga in <strong>Dispositivi</strong>.</li><li><strong>Alcuni dispositivi sono lenti di natura.</strong> Un titolatore che misura ogni ora di solito mostra <code>1h</code>. Non è un guasto.</li></ul>
-<h2 id="dispositivo-ha-smesso-di-comunicare">"[Dispositivo]: ha smesso di comunicare"</h2>
-<p>Cora manda questo messaggio quando un dispositivo diventa silenzioso. Non vuol dire che il dispositivo sia rotto, solo che Cora non lo sente da un po'.</p>
-<ul><li>Un Neptune™ Apex o un'unità Red Sea™ ReefBeat è considerato silenzioso dopo circa 30 minuti. AquaWiz™ ne impiega circa 3 ore.</li><li>Una pompa Jecod™ o Maxspect™ è considerata silenziosa dopo tre letture mancate di fila, contate sull'intervallo di lettura di quel dispositivo.</li><li>Un dispositivo EcoTech™ o un monitor Inkbird™, entrambi in Beta, è considerato silenzioso anch'esso dopo tre letture mancate di fila, contate sull'intervallo di lettura che hai impostato. Le reti EcoTech con sole luci vengono lette ogni 30 minuti per impostazione predefinita, quindi calcola almeno 90 minuti.</li></ul>
-<ol><li>Controlla l'alimentazione del dispositivo e la portata del Wi-Fi o del Bluetooth.</li><li>Controlla che il Cora Max che lo legge sia acceso e online.</li><li>Aspetta la lettura successiva. Quando torna a comunicare ricevi una seconda notifica.</li></ol>
-<p>Trovi di più in <a href="/it/help/mobile-alerts">Avvisi e soglie</a>. I dispositivi Beta sono spiegati in <a href="/it/help/mobile-beta">Funzioni Beta</a>.</p>
-<h2 id="un-dispositivo-non-si-raggiunge">Un dispositivo non si raggiunge</h2>
-<p>Di solito è colpa della rete.</p>
-<ol><li>L'attrezzatura è accesa e funziona nella sua app?</li><li>È sulla stessa rete su cui l'hai aggiunta?</li><li>Hai cambiato qualcosa nel router (router nuovo, nuovo nome della rete, isolamento della rete ospiti)?</li></ol>
-<p>L'attrezzatura che si collega dalla rete di casa deve essere raggiungibile su quella rete. Quella che si collega con l'account del produttore non ne ha bisogno, ma l'account deve essere ancora valido.</p>
-<h2 id="un-dispositivo-dice-che-laccesso-stato-rifiutato">Un dispositivo dice che l'accesso è stato rifiutato</h2>
-<p>Il produttore ha rifiutato l'accesso salvato. Quasi sempre succede perché hai cambiato la password del tuo account da loro.</p>
-<p>Apri la riga del dispositivo e accedi di nuovo.</p>
-<h2 id="lassociazione-di-un-cora-max-non-riesce">L'associazione di un Cora Max non riesce</h2>
-<p>Se l'aggiunta di un Cora Max si blocca a metà, Cora Mobile ti dice quale passo non è riuscito e perché. Sotto trovi <strong>Annulla</strong> e <strong>Riprova</strong>.</p>
-<ul><li><em>"Il telefono non è riuscito a raggiungere il Cora Max sulla rete Wi-Fi."</em> Collega il telefono e Cora Max alla stessa rete Wi-Fi. Su iPhone controlla anche che Cora abbia l'accesso a Rete locale. Ci arrivi da <strong>Impostazioni → Accesso dispositivi</strong> (trovi di più in <a href="/it/help/mobile-settings">Impostazioni</a>). Poi tocca <strong>Riprova</strong>.</li><li><em>"Il Cora Max non ha accettato questa sessione di associazione."</em> Riprovare non serve. Chiudi la schermata e ricomincia da <strong>Dispositivi → Aggiungi dispositivo → Cora</strong>.</li></ul>
-<p>Con qualsiasi altro messaggio, tocca <strong>Riprova</strong>.</p>
-<h2 id="cora-max-mostra-dati-vecchi">Cora Max mostra dati vecchi</h2>
-<p>Guarda l'indicatore di stato nella barra in alto. <strong>Online</strong> e <strong>Cloud</strong> vogliono dire tutti e due che va bene. Se hai più di un Cora, lo schermo che non raccoglie i dati mostra <strong>Cloud</strong>, e le sue letture sono aggiornate lo stesso. <strong>Non aggiornato</strong> o <strong>Offline</strong> vuol dire che lo schermo ha perso la sua fonte e mostra gli ultimi dati ricevuti. È il comportamento giusto, ma i dati non sono attuali.</p>
-<ul><li>Controlla il Wi-Fi in <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong></li><li>Controlla che la rete funzioni</li><li>Se l'indicatore dice <strong>Online</strong> o <strong>Cloud</strong> e i dati sono comunque vecchi, il problema è a monte. Controlla la stessa vasca sul telefono</li></ul>
-<h2 id="cora-max-mostra-salvataggio-cloud-rifiutato">Cora Max mostra "Salvataggio cloud rifiutato"</h2>
-<p>Questa etichetta nella barra in alto significa che Cora Cloud si rifiuta di salvare alcuni dati di questa schermata. Non c'è niente che non va nella tua vasca o in Cora Max, e non serve cambiare niente sullo schermo. La soluzione è un aggiornamento di Cora Cloud.</p>
-<ol><li>Apri <strong>Impostazioni → Impostazioni Cora Max → Aggiornamento firmware</strong> e guarda la sezione <strong>Stato</strong>. La riga <strong>Salvataggio cloud</strong> dice quali dati vengono rifiutati, per esempio le letture o le prese di un dispositivo.</li><li><a href="/support.html">Contatta il supporto</a> e dicci cosa c'è scritto su quella riga.</li></ol>
-<p>Nel frattempo le tue letture continuano a comparire su Cora Max. Semplicemente non vengono salvate nel tuo account finché la correzione non arriva.</p>
-<h2 id="un-avviso-non-si-chiude">Un avviso non si chiude</h2>
-<p>Un avviso si chiude quando la lettura torna nell'intervallo. Se non si chiude:</p>
-<ul><li><strong>La lettura è davvero fuori intervallo.</strong> Guarda lo storico del widget.</li><li><strong>La soglia non è adatta alla tua vasca.</strong> Trovi come cambiarla in <a href="/it/help/mobile-alerts">Avvisi e soglie</a>.</li><li><strong>La fonte sbaglia.</strong> Una sonda da calibrare manda un numero che è davvero fuori intervallo. Sistema la sonda, non la soglia.</li></ul>
-<h2 id="due-fonti-non-sono-daccordo">Due fonti non sono d'accordo</h2>
-<p>Qui Cora sta facendo il suo lavoro. Se la sonda e il kit di test non sono d'accordo, nel tuo sistema c'è davvero una differenza.</p>
-<p>Un risultato ICP è un terzo parere utile, ma non chiude la questione. I laboratori danno risultati diversi tra loro, e il modo in cui il campione viene trattato e spedito cambia il risultato. Due test che concordano valgono molto più di uno solo.</p>
-<p>Di solito la sonda va calibrata. A volte il kit di test è vecchio. Calibra la sonda, rifai il test con reagente fresco e confronta i due valori nelle stesse condizioni. Un <a href="/it/help/mobile-icp-health">risultato ICP</a> aggiunge un terzo dato al confronto.</p>
-<h2 id="non-mi-arrivano-le-notifiche">Non mi arrivano le notifiche</h2>
-<ol><li>In <strong>Impostazioni → Notifiche</strong> controlla che quella categoria possa inviare notifiche push</li><li>Controlla nelle impostazioni del telefono che Cora abbia il permesso per le notifiche</li><li>Ricorda che il briefing del giorno non manda notifiche nei giorni in cui non è cambiato niente</li></ol>
-<h2 id="capire-perch-qualcosa-cambiato">Capire perché qualcosa è cambiato</h2>
-<p><strong>Impostazioni → Attività</strong> elenca ogni cambio di presa, alimentazione, dose e presa smart, con chi l'ha chiesto: Cora Mobile, uno schermo Cora, la voce, l'Assistant, una regola di automazione, un pulsante smart o il tuo account.</p>
-<h2 id="dopo-le-modifiche-la-dashboard-non-va-bene">Dopo le modifiche la dashboard non va bene</h2>
-<p>Carica un design salvato: apri <strong>Le mie dashboard</strong> e scegline uno.</p>
-<p>Se non ne hai salvato nessuno, rifai il layout e salvalo come design. Da lì in poi, per tornarci basta un tocco.</p>
-<p>In ogni caso letture, storico e voci del diario sono salvati a parte rispetto al layout, quindi non perdi niente di quello che c'è dietro la dashboard.</p>
-<h2 id="i-valori-red-sea-non-si-aggiornano-pi">"I valori Red Sea non si aggiornano più"</h2>
-<p>Nessun dispositivo sulla rete di questa vasca sta leggendo la tua attrezzatura Red Sea, quindi le letture sullo schermo non si sono aggiornate.</p>
-<p>Prova così:</p>
-<ol><li>Apri <strong>Impostazioni → Cora Max principale</strong> e controlla che ci sia un Cora Max impostato (oppure che sia scelto <strong>Qualsiasi attivo (automatico)</strong>).</li><li>Apri la vasca da un dispositivo collegato allo stesso Wi-Fi dell'attrezzatura Red Sea.</li><li>Controlla nella sua app che l'attrezzatura Red Sea sia accesa e online.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="api-ghl-disattivata">"API GHL™ disattivata"</h2>
-<p>GHL è un'integrazione Beta. Vedi <a href="/it/help/mobile-beta">Funzioni Beta</a>.</p>
-<p>GHL disattiva la sua API ufficiale dopo ogni aggiornamento firmware, quindi è normale dopo un aggiornamento, non un guasto. Riattivala da <strong>System → GHL API</strong> in GHL Control Center o GHL Connect, direttamente sul controller. Cora continua a controllare e si ricollega da sola appena torna attiva.</p>
-<h2 id="controller-ghl-non-raggiungibile">"Controller GHL non raggiungibile"</h2>
-<p>Cora Max non riesce a raggiungere l'indirizzo IP del controller sulla tua rete.</p>
-<ol><li>Controlla che il controller sia acceso e collegato alla rete.</li><li>Controlla che il suo indirizzo IP non sia cambiato. Se è cambiato, aprilo sul telefono (<strong>Dispositivi</strong>) e aggiornalo in <strong>Connessione</strong>.</li><li>Controlla che il Cora Max che legge questa vasca sia sulla stessa rete del controller.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="un-controller-hydros-risulta-offline-o-non-riporta">Un controller HYDROS™ risulta offline o non riporta</h2>
-<p>HYDROS passa dal suo stesso cloud, quindi di solito vuol dire che il controller ha perso l'alimentazione o la sua connessione di rete, non un problema di Cora. Controllalo nell'app HYDROS. Le letture su Cora si aggiornano appena torna online, e un comando inviato mentre risulta offline non parte affatto.</p>
-<p>Se un dispositivo HYDROS mostra <strong>Chiave revocata</strong>, la sua chiave dispositivo è stata rimossa o sostituita nell'app HYDROS. Crea una nuova chiave e collegala di nuovo da <strong>Dispositivi → Aggiungi HYDROS (Beta)</strong>, oppure dalle impostazioni della vasca su Cora Max.</p>
-<h2 id="impossibile-raggiungere-questa-pompa-nulla-stato-inviato">"Impossibile raggiungere questa pompa: nulla è stato inviato."</h2>
-<p>Il comando a una pompa Jecod o Jebao™ non è mai partito. Di solito la pompa è spenta o non è sulla sua rete.</p>
-<p>Prova così:</p>
-<ol><li>Controlla che la pompa sia accesa.</li><li>Controlla che sia sulla stessa rete su cui l'hai aggiunta.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="impossibile-raggiungere-questa-pompa-via-bluetooth-avvicinat">"Impossibile raggiungere questa pompa via Bluetooth. Avvicinati e riprova."</h2>
-<p>Un dispositivo Jecod solo Bluetooth è troppo lontano dal telefono.</p>
-<p>Prova così:</p>
-<ol><li>Avvicinati alla pompa.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="impossibile-raggiungere-quel-gyre-nessuna-alimentazione-stat">"Impossibile raggiungere quel Gyre. Nessuna alimentazione è stata avviata."</h2>
-<p>Una gyre Maxspect (integrazione in Beta) non ha risposto quando Cora ha provato ad avviare la modalità alimentazione.</p>
-<p>Prova così:</p>
-<ol><li>Controlla che la gyre sia accesa e sulla sua rete.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="impossibile-raggiungere-quel-gyre-il-suo-programma-non-stato">"Impossibile raggiungere quel Gyre. Il suo programma non è stato cambiato."</h2>
-<p>Il programma inviato a una gyre Maxspect (integrazione in Beta) non l'ha raggiunta.</p>
-<p>Prova così:</p>
-<ol><li>Controlla che il telefono o Cora Max siano sulla rete della gyre.</li><li>Tocca <strong>Riprova</strong> dalla schermata del programma.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="impossibile-raggiungere-lapex-nulla-cambiato-nulla-stato-dos">"Impossibile raggiungere l'Apex: nulla è cambiato" / "nulla è stato dosato"</h2>
+      
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#readings-and-widgets">Letture e widget</a></li><li><a href="#device-not-reporting">Un dispositivo ha smesso di inviare dati o non si raggiunge</a></li><li><a href="#command-did-not-go-through">Un comando non è arrivato</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#alerts-and-notifications">Avvisi, notifiche e briefing giornaliero</a></li><li><a href="#cameras-and-skimmer-watch">Telecamere e Controllo schiumatoio</a></li><li><a href="#cora-assistant-and-voice">Cora Assistant e voce</a></li><li><a href="#lab-results-and-health-reports">Risultati di laboratorio e report di salute</a></li><li><a href="#language-units-and-signing-in">Lingua, unità e accesso</a></li><li><a href="#still-stuck">Ancora bloccato</a></li></ul></nav>
+<p>Trova la famiglia a cui appartiene il tuo problema, poi il messaggio o il sintomo che vedi. I titoli tra virgolette sono le parole esatte che Cora ti mostra.</p>
+<ul><li><a href="#readings-and-widgets">Letture e widget</a></li><li><a href="#device-not-reporting">Un dispositivo ha smesso di inviare dati o non si raggiunge</a></li><li><a href="#command-did-not-go-through">Un comando non è arrivato</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#alerts-and-notifications">Avvisi, notifiche e briefing giornaliero</a></li><li><a href="#cameras-and-skimmer-watch">Telecamere e Controllo schiumatoio</a></li><li><a href="#cora-assistant-and-voice">Cora Assistant e voce</a></li><li><a href="#lab-results-and-health-reports">Risultati di laboratorio e report di salute</a></li><li><a href="#language-units-and-signing-in">Lingua, unità e accesso</a></li></ul>
+<aside class="cal cal-note"><p class="cal-t">Integrazioni Beta</p><p>Alcune voci qui sotto riguardano integrazioni Beta: Maxspect™, GHL™, HYDROS™, Focustronic™, EcoTech™, Inkbird™ e telecamere. <strong>Beta.</strong> Queste integrazioni sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in <strong>Aggiungi dispositivo</strong>. Per chiedere l'accesso alla Beta, contatta l'assistenza. Di più in <a href="/it/help/mobile-beta">Funzioni Beta</a>.</p></aside>
+<h2 id="readings-and-widgets">Letture e widget</h2>
+<h3 id="a-widget-shows-no-value">Un widget non mostra nessun valore</h3>
+<p>Controlla queste cose in ordine.</p>
+<ol><li>Guarda l'età sui widget vicini. Se sono tutti vecchi anche loro, è la connessione, non il parametro.</li><li>Apri la scheda <strong>Dispositivi</strong>. Se un dispositivo non si raggiunge, la sua riga ha un pallino rosso o lo dice.</li><li>Controlla su quale vasca è il dispositivo. Un dispositivo che invia dati alla vasca sbagliata sembra proprio uno che non ne invia. Apri il dispositivo e controlla la sua vasca.</li><li>Controlla che qualcosa lo misuri. Niente riporta i fosfati a meno che tu non abbia un'attrezzatura che li misura o li registri a mano.</li></ol>
+<h3 id="a-widget-is-grey">Un widget è grigio</h3>
+<p>Grigio vuol dire che Cora non sta valutando quella lettura. Ci sono tre motivi tipici.</p>
+<ol><li>Il suo avviso è spento. Riattivalo nella scheda <strong>Regole</strong> del Centro avvisi.</li><li>Non ha un intervallo con cui valutarla. Tieni premuto il widget e imposta un intervallo.</li><li>La lettura è troppo vecchia. Controlla l'età sul widget, poi registra una nuova lettura o controlla il dispositivo.</li></ol>
+<p>Cosa significa ogni colore è spiegato in <a href="/it/help/mobile-dashboard#colours">Leggere la dashboard</a>.</p>
+<h3 id="a-reading-is-stale">Una lettura è vecchia</h3>
+<p>L'età sul widget è giusta. Non è arrivato niente di nuovo.</p>
+<ul><li>I parametri registrati a mano invecchiano quando nessuno registra una lettura. Registrane una.</li><li>Le letture dell'attrezzatura invecchiano quando il dispositivo smette di inviare dati. Controlla la sua riga in <strong>Dispositivi</strong>.</li><li>Alcune attrezzature inviano dati solo ogni tanto. Un titolatore che misura ogni ora di solito mostra <code>1h</code>. È normale.</li></ul>
+<h3 id="two-sources-disagree">Due fonti non concordano</h3>
+<p>Non c'è niente di rotto. Quando la sonda e il test non concordano, ti dicono qualcosa di reale sul tuo impianto.</p>
+<p>Di solito la sonda va calibrata. A volte il test è vecchio. Calibra la sonda, rifai il test con reagente nuovo e confronta i due nelle stesse condizioni. Se una lettura era chiaramente sbagliata, puoi escluderla. Vedi <a href="/it/help/mobile-metric-detail">Approfondire un parametro</a>.</p>
+<p>Un <a href="/it/help/mobile-icp-health">risultato ICP</a> ti dà un terzo numero da confrontare, ma da solo non chiude la questione. I laboratori differiscono tra loro, e il modo in cui un campione viene trattato e spedito cambia il risultato.</p>
+<h3 id="a-widget-shows-the-wrong-units">Un widget mostra le unità sbagliate</h3>
+<p>Sono le unità di visualizzazione della vasca. I tuoi dati vanno bene, e i valori sono salvati allo stesso modo comunque vengano mostrati.</p>
+<ol><li>Apri <strong>Impostazioni</strong>, apri quella vasca e scegli <strong>Unità</strong>.</li><li>Cambiale lì. Ogni telefono e Cora Max che mostra quella vasca si aggiorna di conseguenza.</li></ol>
+<h3 id="a-gauge-or-threshold-looks-different-after-changing-display-">Un indicatore o una soglia sembrano diversi dopo il cambio di unità</h3>
+<p>È normale. Indicatori, riquadri e storico vengono ridisegnati nell'unità che hai scelto. I valori sottostanti non sono cambiati.</p>
+<h3 id="my-dashboard-looks-wrong-after-editing">La dashboard sembra sbagliata dopo una modifica</h3>
+<p>Letture, storico e diario sono salvati separatamente dal layout, quindi non hai perso niente.</p>
+<ul><li><strong>Sul telefono</strong>, l'editor non ha un annulla né design salvati. Apri <strong>Modifica dashboard</strong> e rimetti a posto i widget. Di più in <a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a>.</li><li><strong>Su Cora Max</strong>, carica un design salvato: apri <strong>Layout dashboard</strong>, tocca <strong>Le mie dashboard</strong> e scegline uno. Se non ne hai salvato uno, ricostruisci il layout e tocca <strong>Salva questo progetto</strong>, così la prossima volta basta un tocco. Di più in <a href="/it/help/max-dashboard-editing#saving-layouts">Modificare la dashboard di Cora Max</a>.</li></ul>
+<h3 id="establishing-why-something-changed">Capire perché qualcosa è cambiato</h3>
+<p><strong>Impostazioni → Attività</strong> elenca ogni accensione o spegnimento di una presa, alimentazione e dose, e cosa l'ha chiesto: Cora Mobile, un Cora Max, la voce, l'Assistente, un'automazione o il tuo account. Di più in <a href="/it/help/mobile-activity">Attività e cronologia</a>.</p>
+<h2 id="device-not-reporting">Un dispositivo ha smesso di inviare dati o non si raggiunge</h2>
+<h3 id="device-stopped-reporting">"[Dispositivo]: ha smesso di inviare dati"</h3>
+<p>Cora invia questo messaggio quando un dispositivo tace. Non vuol dire che il dispositivo sia rotto, solo che Cora non lo sente da un po'. Quanto aspetta Cora per ogni marca è spiegato in <a href="/it/help/mobile-alerts#stopped-reporting">Avvisi e soglie</a>.</p>
+<ol><li>Controlla l'alimentazione del dispositivo, e la sua portata Wi-Fi o Bluetooth.</li><li>Controlla che il Cora Max che lo legge sia acceso e online. Senza un Cora Max, il telefono legge un dispositivo Neptune™ Apex, Red Sea™ o Jecod™ solo mentre Cora Mobile è aperta sullo stesso Wi-Fi.</li><li>Aspetta la lettura successiva. Ricevi una seconda notifica quando torna a inviare dati.</li></ol>
+<p>GHL e HYDROS hanno i loro messaggi, più avanti in questa pagina.</p>
+<h3 id="device-is-offline-showing-last-known-state">"Il dispositivo è offline. Mostra l'ultimo stato conosciuto."</h3>
+<p>Il dispositivo ha smesso di inviare dati, e Cora mostra gli ultimi valori che aveva. Non sono attuali.</p>
+<ol><li>Controlla la connessione di rete del dispositivo stesso.</li><li>Non considerare i valori come attuali finché la riga non smette di dire offline.</li></ol>
+<h3 id="a-device-cannot-be-reached">Un dispositivo non si raggiunge</h3>
+<p>Di solito è la rete.</p>
+<ol><li>L'attrezzatura è accesa e funziona nella sua app?</li><li>È sulla stessa rete su cui l'hai aggiunta?</li><li>È cambiato qualcosa con il router (hardware nuovo, nuovo nome della rete, isolamento della rete ospiti)?</li></ol>
+<p>L'attrezzatura sulla rete locale deve essere raggiungibile su quella rete. L'attrezzatura che si collega tramite un account del produttore no, ma quell'account deve comunque essere valido. Se l'indirizzo del dispositivo è cambiato, aprilo nella scheda <strong>Dispositivi</strong> e tocca <strong>Modifica connessione</strong> in <strong>Connessione</strong>.</p>
+<h3 id="a-device-says-the-sign-in-was-refused">Un dispositivo dice che l'accesso è stato rifiutato</h3>
+<p>Il produttore ha respinto l'accesso salvato. Quasi sempre succede perché hai cambiato la password presso di loro. Apri la riga del dispositivo e accedi di nuovo.</p>
+<h3 id="red-sea-readings-have-stopped-updating">"I valori Red Sea non si aggiornano più"</h3>
+<p>In questo momento niente su questa vasca sta leggendo la tua attrezzatura Red Sea, quindi le letture sullo schermo non vengono aggiornate.</p>
+<ol><li>Apri <strong>Impostazioni</strong>, apri la vasca, poi <strong>Cora Max principale</strong>. Controlla che sia impostato un Cora Max, oppure che sia scelto <strong>Qualsiasi attivo (automatico)</strong>.</li><li>Se non hai un Cora Max, apri la vasca in Cora Mobile mentre il telefono è sullo stesso Wi-Fi dell'attrezzatura Red Sea.</li><li>Controlla che l'attrezzatura Red Sea sia accesa e online nella sua app.</li></ol>
+<h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Alcune impostazioni ReefBeat sono disattivate o mancano</h3>
+<p>È normale. Le impostazioni proprie di un dispositivo Red Sea si aprono solo quando il telefono è sulla stessa rete del dispositivo. Lontano da quella rete vedi solo le letture.</p>
+<ol><li>Collegati al Wi-Fi della vasca per cambiare quelle impostazioni.</li><li>Letture e storico continuano a funzionare quando sei via.</li></ol>
+<h3 id="ghl-api-is-off">"API GHL disattivata"</h3>
+<p>GHL (Beta) disattiva la sua API ufficiale dopo ogni aggiornamento del firmware, quindi dopo un aggiornamento è normale. Riattivala da <strong>System → GHL API</strong> in GHL Control Center o GHL Connect, sul controller stesso. Cora continua a controllare e si ricollega quando è di nuovo attiva.</p>
+<h3 id="ghl-controller-unreachable">"Controller GHL non raggiungibile"</h3>
+<p>Cora Max non riesce a raggiungere l'indirizzo del controller GHL (Beta) sulla tua rete.</p>
+<ol><li>Controlla che il controller sia acceso e collegato alla tua rete.</li><li>Controlla che il suo indirizzo IP non sia cambiato. Se è cambiato, aprilo sul telefono (<strong>Dispositivi</strong>) e aggiornalo in <strong>Connessione</strong>.</li><li>Controlla che il Cora Max che legge questa vasca sia sulla stessa rete del controller.</li></ol>
+<h3 id="a-hydros-controller-shows-as-offline-or-not-reporting">Un controller HYDROS risulta offline o non invia dati</h3>
+<p>HYDROS (Beta) invia i dati attraverso il suo cloud, quindi di solito vuol dire che il controller ha perso l'alimentazione o la sua connessione. Controllalo nell'app HYDROS. Le letture si rimettono in pari quando torna online. Un comando inviato mentre sembra offline non viene inviato per niente.</p>
+<p>Se un dispositivo HYDROS mostra <strong>Chiave revocata</strong>, la sua chiave dispositivo è stata rimossa o sostituita nell'app HYDROS. Crea una nuova chiave e collegalo di nuovo dal telefono da <strong>Dispositivi → Aggiungi dispositivo → HYDROS</strong>.</p>
+<h2 id="command-did-not-go-through">Un comando non è arrivato</h2>
+<p>Ogni comando finisce come <strong>Confermato</strong>, <strong>Non confermato</strong>, <strong>Rifiutato</strong> o <strong>Nessun cambiamento</strong>. Cosa significa ognuno è spiegato in <a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a>.</p>
+<h3 id="could-not-reach-this-pump-nothing-was-sent">"Impossibile raggiungere questa pompa: nulla è stato inviato."</h3>
+<p>Un comando alla tua pompa Jecod o Jebao™ non è mai partito da Cora. Sul telefono il messaggio dice <em>"Impossibile raggiungere questa pompa. Deve essere sullo stesso Wi-Fi del tuo telefono."</em> Di solito la pompa è spenta o non è sulla sua rete.</p>
+<ol><li>Controlla che la pompa sia accesa.</li><li>Controlla che sia sulla stessa rete su cui l'hai aggiunta, e che anche il telefono o il Cora Max siano su quella rete.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
+<h3 id="could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">"Impossibile raggiungere questa pompa via Bluetooth. Avvicinati e riprova."</h3>
+<p>Il telefono è fuori portata di una pompa Jecod solo Bluetooth. Avvicinati alla pompa e tocca <strong>Riprova</strong>.</p>
+<h3 id="could-not-reach-that-gyre-its-program-was-not-changed">"Impossibile raggiungere quel Gyre. Il suo programma non è stato cambiato."</h3>
+<p>Cora non è riuscita a far arrivare un nuovo programma a una gyre Maxspect (Beta). Controlla che la gyre sia accesa e che il telefono o il Cora Max siano sulla sua rete, poi tocca <strong>Riprova</strong> nella schermata del programma.</p>
+<h3 id="could-not-reach-the-apex-nothing-changed-nothing-was-dosed">"Impossibile raggiungere l'Apex: nulla è cambiato" / "nulla è stato dosato"</h3>
 <p>Un Neptune Apex, un Trident o una testa DŌS non ha risposto a un comando o a una richiesta di dose.</p>
-<p>Prova così:</p>
-<ol><li>Apri l'app dell'Apex e controlla che sia online.</li><li>Controlla la connessione di rete del dispositivo che stai usando.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="non-stato-inviato-nessun-altro-dispositivo-di-questa-vasca-p">"Non è stato inviato: nessun altro dispositivo di questa vasca può inviarlo"</h2>
-<p>Nessun dispositivo Cora di questa vasca ha i dati di collegamento dell'Apex che servono per il comando, oppure quello che li ha è offline.</p>
-<p>Prova così:</p>
-<ol><li>Aggiungi i dati dell'Apex in <strong>Impostazioni</strong> su un dispositivo che è online adesso, oppure</li><li>Imposta come <strong>Cora Max principale</strong> di questa vasca un altro Cora Max che funziona.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="un-cora-max-secondario-mostra-cora-principale-offline">Un Cora Max secondario mostra "Cora principale offline"</h2>
-<p>Il Cora Max principale di questa vasca è andato offline. Questo schermo secondario mostra quindi gli ultimi dati ricevuti, non quelli in tempo reale.</p>
-<p>Prova così:</p>
-<ol><li>Controlla alimentazione e Wi-Fi del Cora Max principale.</li><li>Aspetta che si ricolleghi, oppure scegli come <strong>Cora Max principale</strong> un dispositivo che è online adesso.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="il-dispositivo-offline-mostra-lultimo-stato-conosciuto">"Il dispositivo è offline. Mostra l'ultimo stato conosciuto."</h2>
-<p>È il normale comportamento quando un dispositivo si scollega. Il dispositivo ha smesso di mandare dati, e Cora mostra gli ultimi valori che aveva senza farli passare per attuali.</p>
-<p>Prova così:</p>
-<ol><li>Controlla la connessione di rete del dispositivo.</li><li>Considera i valori mostrati come non aggiornati finché la riga dice offline.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="alcune-impostazioni-reefbeat-sono-grigie-o-mancano">Alcune impostazioni ReefBeat sono grigie o mancano</h2>
-<p>Non è un guasto. Le impostazioni proprie del dispositivo (non le letture) si aprono solo quando il telefono è sulla stessa rete del dispositivo. Lontano da quella rete vedi solo le letture.</p>
-<p>Prova così:</p>
-<ol><li>Collegati al Wi-Fi della vasca per cambiare quelle impostazioni.</li><li>Lontano dalla vasca, letture e storico funzionano normalmente.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="impossibile-raggiungere-cora-controlla-il-wi-fi-o-i-dati-mob">"Impossibile raggiungere Cora. Controlla il Wi-Fi o i dati mobili, poi riprova."</h2>
-<p>Al momento dell'accesso il telefono non riesce a collegarsi a Cora Cloud. Il problema è la connessione del telefono, non l'attrezzatura della vasca.</p>
-<p>Prova così:</p>
-<ol><li>Controlla che il telefono abbia una connessione Wi-Fi o dati mobili funzionante.</li><li>Se puoi, prova un'altra rete.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="allimprovviso-tutto-nella-lingua-sbagliata">All'improvviso è tutto nella lingua sbagliata</h2>
-<p>Qualcuno ha cambiato la lingua dell'account da un dispositivo. La lingua è una sola per tutto l'account, non si imposta per dispositivo.</p>
-<p>Prova così:</p>
-<ol><li>Apri <strong>Impostazioni → Lingua</strong> su Cora Mobile o su Cora Max.</li><li>Se è stata cambiata per sbaglio, rimetti quella giusta. Il cambio vale subito ovunque.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="dopo-il-cambio-di-lingua-un-vecchio-avviso-o-rapporto-ancora">Dopo il cambio di lingua, un vecchio avviso o rapporto è ancora nella lingua di prima</h2>
-<p>È normale, non è un errore. Cora non traduce di nuovo quello che esiste già. Solo i nuovi avvisi, rapporti e briefing seguono la nuova lingua.</p>
-<p>Non c'è niente da sistemare. I contenuti nuovi arriveranno nella lingua attuale.</p>
-<p>Se hai altri dubbi, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="un-avviso-continua-a-mandare-notifiche-anche-dopo-che-lho-vi">Un avviso continua a mandare notifiche anche dopo che l'ho visto</h2>
-<p><strong>Rinvia</strong> e <strong>Ignora</strong> su Cora Max zittiscono solo quel Cora Max. Il telefono continua a ricevere notifiche finché la lettura resta fuori intervallo.</p>
-<p>Prova così:</p>
-<ol><li>Per ricevere notifiche meno spesso sul telefono, apri la regola di avviso in Cora Mobile e imposta un'<strong>Attesa tra gli avvisi</strong> più lunga (fino a 1 settimana).</li><li>Se la soglia non va bene per la tua vasca, cambia la soglia stessa.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/mobile-alerts">Avvisi e soglie</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="una-dose-si-fermata-a-met-ed-comparso-un-avviso-di-ripristin">Una dose si è fermata a metà ed è comparso un avviso di "ripristino"</h2>
-<p>La testa DŌS ha perso il contatto durante la dose. Cora te lo segnala apposta, senza dare per scontato che la dose sia stata erogata tutta.</p>
-<p>Prova così:</p>
-<ol><li>Apri l'avviso e guarda quanto è stato dosato davvero prima dell'interruzione.</li><li>Riprendi o correggi la dose in base a quella quantità, non a quella programmata all'inizio.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome della vasca e del dispositivo.</p>
-<h2 id="una-scena-creata-sul-telefono-non-si-pu-modificare-su-cora-m">Una scena creata sul telefono non si può modificare su Cora Max</h2>
-<p>Modificare le scene direttamente sullo schermo a parete è una novità di Cora Max. Le versioni più vecchie avviano le scene create sul telefono, ma non le modificano.</p>
-<p>Prova così:</p>
-<ol><li>Aggiorna Cora Max, oppure</li><li>Continua a modificare quella scena dal telefono. Su Cora Max si avvia comunque.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/max-updates">Aggiornamenti e ripristino</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="cora-assistant-risponde-sulla-vasca-sbagliata">Cora Assistant risponde sulla vasca sbagliata</h2>
-<p>Prima della domanda non è stata scelta nessuna vasca, oppure è attiva la vasca sbagliata.</p>
-<p>Prova così:</p>
-<ol><li>Scegli prima la vasca giusta.</li><li>Fai di nuovo la domanda.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/mobile-assistant">L'Assistant</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="cora-assistant-non-risponde-o-mostra-di-nuovo-la-schermata-d">Cora Assistant non risponde, o mostra di nuovo la schermata del consenso</h2>
-<p>L'opzione <strong>Consenti al Cora Assistant di usare i dati salvati della vasca</strong> è stata spenta, quindi l'Assistant non ha dati da cui rispondere.</p>
-<p>Per riattivarla, tocca <strong>Accetta e continua</strong> nella schermata del consenso.</p>
-<p>Se ancora non va, guarda <a href="/it/help/mobile-assistant">L'Assistant</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="un-risultato-icp-dal-laboratorio-o-per-email-non-mai-arrivat">Un risultato ICP dal laboratorio o per email non è mai arrivato</h2>
-<p>Perché un risultato entri in Cora bisogna scegliere la vasca a cui collegarlo, e a volte serve anche un mittente riconosciuto.</p>
-<p>Prova così:</p>
-<ol><li>Rileggi le istruzioni che compaiono la prima volta che invii un risultato a Cora.</li><li>Quando te lo chiede, conferma a quale vasca collegare il risultato.</li><li>Se hai già mandato un risultato in passato, invia l'email dallo stesso indirizzo di quella volta.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/mobile-icp-health">ICP e rapporti di salute</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="una-notifica-di-icp-via-email-non-dice-il-nome-del-laborator">Una notifica di ICP via email non dice il nome del laboratorio</h2>
-<p>È un problema noto: nella notifica push "scegli vasca" mancava il nome del laboratorio. Nelle versioni attuali è stato risolto.</p>
-<p>Prova così:</p>
-<ol><li>Aggiorna Cora Mobile all'ultima versione.</li><li>Il risultato non ha nessun problema. Mancava solo il nome nel testo della notifica.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="un-widget-mostra-le-unit-sbagliate">Un widget mostra le unità sbagliate</h2>
-<p>Dipende dalle unità di visualizzazione impostate per la vasca, non dai dati. I valori vengono salvati sempre allo stesso modo, comunque tu li veda.</p>
-<p>Prova così:</p>
-<ol><li>Apri le <strong>Impostazioni</strong>, apri quella vasca e scegli <strong>Unità</strong>.</li><li>Cambiale lì. Tutti i telefoni e i Cora Max che mostrano quella vasca si aggiornano.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="dopo-il-cambio-di-unit-un-indicatore-o-una-soglia-sembrano-d">Dopo il cambio di unità un indicatore o una soglia sembrano diversi</h2>
-<p>È normale. Indicatori, riquadri e storico vengono ridisegnati nell'unità che hai scelto. I valori veri non sono cambiati.</p>
-<p>Non c'è niente da sistemare: cambia solo l'aspetto.</p>
-<p>Se hai altri dubbi, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="dopo-uninterruzione-del-wi-fi-cora-max-non-si-ricollega-subi">Dopo un'interruzione del Wi-Fi Cora Max non si ricollega subito</h2>
-<p>Quando perde la connessione, Cora Max aspetta un po' di più prima di ogni nuovo tentativo, così non sovraccarica la rete. Arriva ad aspettare circa un minuto tra un tentativo e l'altro.</p>
-<p>Prova così:</p>
-<ol><li>Quando la rete torna, aspetta circa un minuto.</li><li>Se dopo non si è ancora ricollegato, controlla il Wi-Fi in <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong>.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/max-tour">La schermata Home di Cora Max</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="ho-rinominato-un-cora-max-dal-telefono-ma-sullo-schermo-non-">Ho rinominato un Cora Max dal telefono, ma sullo schermo non cambia</h2>
-<p>Il nome che imposti dal telefono è un'etichetta dell'account per quel dispositivo. Il nome che Cora Max mostra durante l'associazione può essere un'altra cosa.</p>
-<p>Prova così:</p>
-<ol><li>Controlla quale "nome" stai guardando: quello nell'elenco dei dispositivi sul telefono, o quello nella schermata di associazione di Cora Max.</li><li>Se vuoi cambiare l'etichetta dell'account, rinominalo dall'elenco dei dispositivi sul telefono.</li></ol>
-<p>Se ancora non va, scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando il nome del dispositivo.</p>
-<h2 id="non-trovo-dove-spegnere-la-parola-di-attivazione-su-cora-max">Non trovo dove spegnere la parola di attivazione su Cora Max</h2>
-<p>L'interruttore della parola di attivazione è nella sezione <strong>Audio e voce</strong>. Non si trova nelle impostazioni di Cora Assistant.</p>
-<p>Prova così:</p>
-<ol><li>Vai in <strong>Impostazioni → Impostazioni Cora Max → Audio e voce → Ascolto parola di attivazione</strong>.</li><li>Spegnilo. Puoi comunque toccare l'icona di Cora per avviare una conversazione a voce.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/max-settings">Impostazioni su Cora Max</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="con-il-blocco-bambini-nessuno-riesce-a-entrare-in-impostazio">Con il blocco bambini nessuno riesce a entrare in Impostazioni</h2>
-<p>Funziona così. Dopo un certo tempo senza tocchi, il blocco bambini impedisce a chiunque di accendere o spegnere l'attrezzatura da questo schermo, sia al tocco sia a voce. Le letture continuano ad aggiornarsi, e puoi comunque fare domande a Cora.</p>
-<p>Per sbloccare:</p>
-<ol><li>Premi <strong>Volume Su</strong> o <strong>Volume Giù</strong> tre volte entro due secondi, oppure</li><li>Tieni cinque dita nell'angolo in alto a destra dello schermo per dieci secondi.</li></ol>
-<p>Se ancora non va, guarda <a href="/it/help/max-voice">La voce su Cora Max</a> oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
-<h2 id="ancora-bloccato">Ancora bloccato?</h2>
-<p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>. Dicci quale vasca, quale schermata e cosa ti aspettavi di vedere. Così ti rispondiamo prima e meglio.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/it/help/faq"><span>Precedente</span><b>Domande frequenti</b></a><a class="pn-n" href="/it/help/glossary"><span>Successivo</span><b>Glossario</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.170 e Cora Mobile 0.5.111. Ultimo controllo il 2026-10-12.</p>
+<ol><li>Apri l'app dell'Apex e controlla che sia online.</li><li>Controlla la connessione di rete del telefono o del Cora Max che stai usando. Per cambiare una testa DŌS dal telefono, il telefono deve essere sulla stessa rete dell'Apex.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
+<h3 id="this-could-not-be-sent-no-device-on-this-tank-can-send-it">"… non è stato inviato: questo Cora Max non ha i dati Apex"</h3>
+<p>Cora Max mostra questo messaggio quando non ha modo di raggiungere il tuo Apex e nessun altro dispositivo della vasca può inviare il comando al posto suo. Il messaggio dice di aggiungere i dati Apex nelle Impostazioni, ma ora si impostano sul telefono.</p>
+<ol><li>Sul telefono, apri <strong>Dispositivi</strong>, poi il tuo Apex, e controlla indirizzo e accesso in <strong>Connessione</strong>. Correggili con <strong>Modifica connessione</strong>.</li><li>Oppure rendi un Cora Max funzionante il <strong>Cora Max principale</strong> di questa vasca: <strong>Impostazioni</strong>, apri la vasca, poi <strong>Cora Max principale</strong>.</li></ol>
+<h3 id="feed-does-not-start">L'alimentazione non parte dal telefono</h3>
+<p>Sul telefono, <strong>Alimenta</strong> compare solo su una vasca con un Neptune Apex, e avvia uno dei cicli di alimentazione programmati sull'Apex.</p>
+<ul><li><em>"Nessun Cora su questa vasca può raggiungere l'Apex, e non sei sulla sua rete."</em> Collegati al Wi-Fi dell'Apex, oppure associa un Cora Max alla vasca.</li><li><em>"L'Apex non ha risposto, ma potrebbe già essere in fase di alimentazione."</em> Controlla il controller prima di riprovare.</li></ul>
+<h3 id="a-dose-stopped-partway-through-and-a-restore-alert-appeared">Una dose si è fermata a metà ed è comparso un avviso di "ripristino"</h3>
+<p>La testa DŌS ha perso il contatto durante la dose. Cora te lo dice, così non deve dare per scontato che sia entrata tutta la dose.</p>
+<ol><li>Apri l'avviso e controlla quanto è stato dosato prima che si fermasse.</li><li>Usa quella quantità per decidere se riprendere o correggere la dose.</li></ol>
+<h2 id="cora-max">Cora Max</h2>
+<h3 id="my-cora-max-is-offline">Il mio Cora Max è offline</h3>
+<p>Sul telefono, la sua riga nella scheda <strong>Dispositivi</strong> ha un pallino rosso. Mentre è offline, l'attrezzatura che legge smette di aggiornarsi, potresti ricevere avvisi "ha smesso di inviare dati" per quell'attrezzatura, e i comandi inviati da lontano possono tornare come <em>"Nulla è stato inviato"</em>.</p>
+<ol><li>Controlla che Cora Max sia alimentato e che lo schermo sia acceso.</li><li>Su Cora Max, controlla <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong>, e che il router funzioni.</li><li>Se sulla vasca c'è un altro Cora Max, imposta <strong>Cora Max principale</strong> su <strong>Qualsiasi attivo (automatico)</strong> così può prendere il suo posto. Vedi <a href="/it/help/mobile-multi-device">Più di un dispositivo Cora</a>.</li><li>Se non si avvia correttamente, vedi <a href="/it/help/max-updates">Aggiornamenti e ripristino</a>.</li></ol>
+<aside class="cal cal-tip"><p class="cal-t">Fatti avvisare la prossima volta</p><p>In Cora Mobile, apri <strong>Impostazioni → Automazioni</strong> e crea una regola con il trigger <strong>Quando un dispositivo va offline</strong>, scegli il tuo Cora Max e aggiungi l'azione <strong>Avvisami</strong>. Di più in <a href="/it/help/mobile-automation">Automazioni e scene</a>.</p></aside>
+<h3 id="pairing-a-cora-max-fails">L'associazione di un Cora Max non riesce</h3>
+<p>Cora Mobile trova un Cora Max nuovo via Bluetooth, poi gli passa il tuo Wi-Fi. Prima di cominciare, abbi almeno una vasca in Cora Mobile, il Bluetooth acceso e il telefono vicino allo schermo. Se l'associazione si ferma a metà, Cora Mobile ti dice perché, con <strong>Annulla</strong> e <strong>Riprova</strong> sotto.</p>
+<ul><li><em>"Il Bluetooth è disattivato. Attivalo, poi tocca di nuovo Scansiona."</em> Attiva il Bluetooth e cerca di nuovo.</li><li><em>"L'autorizzazione Bluetooth per Cora è disattivata. Attivala nelle Impostazioni, poi tocca di nuovo Scansiona."</em> Consenti il Bluetooth per Cora nelle impostazioni del telefono. <strong>Impostazioni → Accesso dispositivi</strong> in Cora Mobile ti porta lì.</li><li><em>"Nessun dispositivo di configurazione Cora trovato nelle vicinanze via Bluetooth."</em> Mettiti accanto a Cora Max, controlla che mostri la sua schermata di configurazione e cerca di nuovo.</li><li><strong>Nessuna vasca trovata</strong>: crea prima una vasca in Cora Mobile, poi associa.</li><li><em>"Il telefono non è riuscito a raggiungere il Cora Max sulla rete Wi-Fi."</em> Metti il telefono e Cora Max sulla stessa rete Wi-Fi. Su iPhone, controlla anche che Cora abbia l'accesso alla Rete locale (<strong>Impostazioni → Accesso dispositivi</strong>). Poi tocca <strong>Riprova</strong>.</li><li><em>"Il Cora Max non ha accettato questa sessione di associazione."</em> Riprovare non serve. Chiudi la schermata e ricomincia da <strong>Dispositivi → Aggiungi dispositivo → Cora</strong>.</li></ul>
+<p>Per qualsiasi altro messaggio, tocca <strong>Riprova</strong>. Tutta la configurazione è in <a href="/it/help/max-setup">Configurare Cora Max</a>.</p>
+<h3 id="cora-max-shows-old-data">Cora Max mostra dati vecchi</h3>
+<p>Guarda l'etichetta di stato nella barra in alto. <strong>Online</strong> e <strong>Cloud</strong> vanno entrambi bene. Se hai più di un Cora Max, quello che non sta raccogliendo i dati mostra <strong>Cloud</strong>, e le sue letture sono aggiornate allo stesso modo. <strong>Non aggiornato</strong> o <strong>Offline</strong> vuol dire che Cora Max ha perso la sua fonte e mostra gli ultimi dati ricevuti.</p>
+<ul><li>Controlla il Wi-Fi in <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong>.</li><li>Controlla che la rete stessa funzioni.</li><li>Se l'etichetta dice <strong>Online</strong> o <strong>Cloud</strong> e i dati sono comunque vecchi, il problema è prima di Cora Max. Controlla la stessa vasca sul telefono.</li></ul>
+<h3 id="cora-max-shows-apex-password">Cora Max mostra "Password Apex"</h3>
+<p>Il tuo Apex ha rifiutato l'accesso salvato da Cora, di solito perché la password dell'Apex è stata cambiata. Sul telefono, apri <strong>Dispositivi</strong>, poi il tuo Apex, e tocca <strong>Modifica connessione</strong> in <strong>Connessione</strong> per inserire quella nuova.</p>
+<h3 id="cora-max-shows-cloud-save-refused">Cora Max mostra "Salvataggio cloud rifiutato"</h3>
+<p>Cora Cloud rifiuta di salvare alcuni dati di questo schermo. Non c'è niente che non va nella tua vasca o in Cora Max, e non c'è niente da cambiare sullo schermo. La soluzione è un aggiornamento di Cora Cloud.</p>
+<ol><li>Apri <strong>Impostazioni → Impostazioni Cora Max</strong> e scorri fino a <strong>STATO</strong>. La riga <strong>Salvataggio cloud</strong> dice quali dati vengono rifiutati, per esempio le letture o le prese di un dispositivo.</li><li><a href="/support.html">Contatta l'assistenza</a> e dicci cosa dice quella riga.</li></ol>
+<p>Nel frattempo le tue letture continuano a comparire su Cora Max. Semplicemente non vengono salvate nel tuo account finché non arriva la correzione.</p>
+<h3 id="a-secondary-cora-max-shows-main-cora-offline">Un secondo Cora Max mostra "Cora principale offline"</h3>
+<p>Il Cora Max principale di questa vasca è andato offline. Questo schermo mostra gli ultimi dati ricevuti, quindi non sono in tempo reale.</p>
+<ol><li>Controlla l'alimentazione e il Wi-Fi del Cora Max principale.</li><li>Aspetta che si ricolleghi, oppure cambia il <strong>Cora Max principale</strong> con un dispositivo online.</li></ol>
+<h3 id="cora-max-wont-reconnect-right-away-after-a-wi-fi-outage">Cora Max non si ricollega subito dopo un'interruzione del Wi-Fi</h3>
+<p>Dopo aver perso la connessione, Cora Max aspetta un po' di più prima di ogni nuovo tentativo, così non intasa la tua rete. L'attesa cresce fino a circa un minuto.</p>
+<ol><li>Dagli circa un minuto dopo che la rete è tornata.</li><li>Se ancora non si è ricollegato, controlla <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong>.</li></ol>
+<h3 id="renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl">Rinominare un Cora Max dal telefono non cambia quello che mostra</h3>
+<p>Il nome che imposti sul telefono è l'etichetta dell'account per quel dispositivo. Il nome che Cora Max mostra sulla sua schermata di associazione può essere diverso.</p>
+<ol><li>Controlla quale nome stai guardando: quello nell'elenco dei dispositivi del telefono, o quello sulla schermata di associazione di Cora Max.</li><li>Per cambiare l'etichetta dell'account, rinominalo dall'elenco dei dispositivi del telefono.</li></ol>
+<h3 id="i-cant-find-where-to-turn-off-the-wake-word-on-cora-max">Non trovo dove spegnere la parola di attivazione</h3>
+<p>I comandi della parola di attivazione stanno con le impostazioni del suono, non con quelle di Cora Assistant.</p>
+<ol><li>Su Cora Max, vai in <strong>Impostazioni → Impostazioni Cora Max</strong>, e trova <strong>Parola di attivazione</strong> in <strong>AUDIO E VOCE</strong>.</li><li>Spegnila. Puoi comunque toccare l'icona di <strong>Cora Assistant</strong> per cominciare a parlare.</li></ol>
+<p>Di più in <a href="/it/help/max-voice">Parlare con Cora</a>.</p>
+<h3 id="child-lock-wont-let-anyone-into-settings">Il blocco bambini non lascia entrare nessuno nelle Impostazioni</h3>
+<p>È proprio quello che fa il blocco bambini. Dopo un certo tempo senza tocchi, impedisce a chiunque di comandare l'attrezzatura da questo schermo, al tocco o a voce. Le letture continuano ad aggiornarsi, e puoi comunque fare domande a Cora. Per sbloccare:</p>
+<ol><li>Premi <strong>Volume su</strong> o <strong>Volume giù</strong> tre volte entro due secondi, oppure</li><li>Tieni cinque dita nell'angolo in alto a destra dello schermo per dieci secondi.</li></ol>
+<p>Di più in <a href="/it/help/max-settings#child-lock">Impostazioni di Cora Max</a>.</p>
+<h3 id="a-scene-made-on-the-phone-doesnt-show-up-as-editable-on-cora">Una scena creata sul telefono non si può modificare su Cora Max</h3>
+<p>Solo le versioni più recenti di Cora Max possono modificare le scene sullo schermo. Le versioni più vecchie avviano comunque le scene che hai creato sul telefono, ma non possono modificarle.</p>
+<ol><li>Aggiorna Cora Max (<a href="/it/help/max-updates">Aggiornamenti e ripristino</a>), oppure</li><li>Continua a modificare quella scena dal telefono. Su Cora Max funziona in ogni caso.</li></ol>
+<h2 id="alerts-and-notifications">Avvisi, notifiche e briefing giornaliero</h2>
+<h3 id="an-alert-is-not-clearing">Un avviso non si chiude</h3>
+<p>Un avviso si chiude quando la lettura torna nell'intervallo. Se non si chiude, ci sono tre motivi probabili.</p>
+<ul><li>La lettura è davvero fuori intervallo. Guarda lo storico del widget.</li><li>L'intervallo non è adatto alla tua vasca. Vedi <a href="/it/help/mobile-alerts">Avvisi e soglie</a>.</li><li>La fonte è sballata. Una sonda che va calibrata riporta un numero che è davvero fuori intervallo. Sistema la sonda e lascia stare l'intervallo.</li></ul>
+<h3 id="an-alert-wont-stop-notifying-even-after-ive-acknowledged-it">Un avviso continua a notificarmi anche dopo che l'ho preso in carico</h3>
+<p><strong>Rinvia</strong> e <strong>Ignora</strong> su Cora Max silenziano solo quel Cora Max. Il telefono continua a ricevere notifiche finché la lettura è fuori intervallo.</p>
+<ol><li>Per sentirne parlare meno spesso, apri la regola dell'avviso in Cora Mobile e imposta un'<strong>Attesa tra gli avvisi</strong> più lunga (fino a 1 settimana).</li><li>Se l'intervallo non è adatto alla tua vasca, cambia l'intervallo stesso.</li></ol>
+<h3 id="im-not-getting-notifications">Non ricevo notifiche</h3>
+<ol><li>In <strong>Impostazioni → Notifiche</strong>, controlla che la categoria possa inviare notifiche.</li><li>Controlla il permesso delle notifiche del telefono per Cora.</li><li>Il briefing giornaliero resta in silenzio nei giorni in cui non è cambiato niente. Se si è fermato del tutto, vedi la voce successiva.</li></ol>
+<p>Di più in <a href="/it/help/mobile-notifications">Notifiche</a>.</p>
+<h3 id="my-daily-briefing-stopped">Il mio briefing giornaliero si è fermato</h3>
+<ul><li>La tua prova è finita. Reef Buddy fa parte dei piani a pagamento. Dopo la prova di 30 giorni, un account gratuito smette di ricevere il briefing giornaliero. Vedi <a href="/it/help/mobile-plans">Piani e abbonamenti</a>.</li><li>La vasca non è coperta dal tuo piano. Ogni piano copre un certo numero di vasche, contate nell'ordine di <strong>Impostazioni → Riordina vasche</strong>. Sposta una vasca più in alto per includerla.</li><li>Oggi non è cambiato niente. In una giornata tranquilla il briefing resta in silenzio.</li></ul>
+<p>Di più in <a href="/it/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<h3 id="alerts-from-a-removed-tank">Continuano ad arrivare avvisi da una vasca che ho rimosso</h3>
+<p>Rimuovere una vasca la nasconde soltanto. I suoi dispositivi restano collegati, e un Cora Max può ancora leggerla, quindi la sua attrezzatura può continuare a inviare dati e avvisi.</p>
+<ol><li>Ripristinala da <strong>Impostazioni → Vasche rimosse</strong> così puoi vederla di nuovo.</li><li>Rimuovi o sposta i suoi dispositivi nella scheda <strong>Dispositivi</strong>.</li><li>Toglila dal tuo Cora Max: sul telefono, apri <strong>Dispositivi</strong>, poi il tuo Cora Max, e in <strong>Vasche</strong> tocca <strong>Rimuovi vasca</strong> accanto a lei.</li></ol>
+<p>Poi rimuovi di nuovo la vasca. Di più in <a href="/it/help/mobile-tanks">Gestire le tue vasche</a>.</p>
+<h2 id="cameras-and-skimmer-watch">Telecamere e Controllo schiumatoio</h2>
+<p>Telecamere e Controllo schiumatoio sono in Beta. La configurazione è spiegata in <a href="/it/help/mobile-cameras">Telecamere e Controllo schiumatoio</a>.</p>
+<h3 id="skimmer-watch-messages">Il Controllo schiumatoio mostra un messaggio invece del livello del bicchiere</h3>
+<ul><li><strong>Segna prima il bicchiere</strong>: il Controllo schiumatoio non sa ancora dov'è il bicchiere. Tocca <strong>Segna il bicchiere</strong> e trascina il riquadro sopra.</li><li><strong>Non calibrato: svuota il bicchiere e tocca Il bicchiere è vuoto ora</strong>: fai esattamente questo, con il bicchiere vuoto.</li><li><strong>Riquadro spostato: calibra di nuovo</strong>: hai spostato il riquadro, quindi calibra di nuovo con il bicchiere vuoto.</li><li><strong>Non sicuro (bassa affidabilità)</strong>: l'immagine non era abbastanza chiara. Leggi i <strong>Consigli per la videocamera</strong> nella schermata del Controllo schiumatoio, poi aspetta il controllo successivo o tocca <strong>Controlla ora</strong>.</li><li><strong>Luce troppo forte dietro il bicchiere</strong>: spegni la luce dietro il bicchiere, oppure imposta la visione notturna della telecamera sempre attiva.</li><li><strong>Cora Max non è riuscito a ottenere un'immagine della videocamera.</strong>: controlla che la telecamera sia alimentata e online, e che il Cora Max che la legge sia acceso.</li><li><strong>L'ultimo controllo non è riuscito.</strong>: tocca <strong>Controlla ora</strong>. Se continua a non riuscire, controlla la telecamera e Cora Max.</li><li><strong>Nessuna lettura per ora. Cora Max controlla ogni 15 minuti.</strong>: aspetta il primo controllo.</li><li><strong>Il controllo dello schiumatoio richiede un piano a pagamento.</strong>: il Controllo schiumatoio fa parte dei piani a pagamento.</li></ul>
+<h2 id="cora-assistant-and-voice">Cora Assistant e voce</h2>
+<h3 id="cora-assistant-answers-about-the-wrong-tank">Cora Assistant risponde sulla vasca sbagliata</h3>
+<p>Non hai scelto una vasca prima di chiedere, oppure è selezionata quella sbagliata. Scegli la vasca che intendi, poi chiedi di nuovo. Di più in <a href="/it/help/mobile-assistant">Fare domande a Cora</a>.</p>
+<h3 id="cora-assistant-refuses-to-answer-or-shows-a-consent-screen-a">Cora Assistant non risponde, o mostra di nuovo una schermata di consenso</h3>
+<p><strong>Consenti al Cora Assistant di usare i dati salvati della vasca</strong> è spento, quindi non ha niente da cui partire per rispondere. Tocca <strong>Accetta e continua</strong> nella schermata del consenso, oppure accendi l'interruttore in <strong>Impostazioni → Cora Assistant</strong>.</p>
+<h3 id="voice-needs-your-ok">Cora Max dice "La voce ha bisogno del tuo consenso"</h3>
+<p>La voce su Cora Max usa la stessa scelta di condivisione dei dati di Cora Assistant sul telefono. In Cora Mobile, apri <strong>Impostazioni → Cora Assistant</strong> e attiva <strong>Consenti al Cora Assistant di usare i dati salvati della vasca</strong>, poi riprova. Di più in <a href="/it/help/max-voice">Parlare con Cora</a>.</p>
+<h2 id="lab-results-and-health-reports">Risultati di laboratorio e report di salute</h2>
+<h3 id="a-lab-or-emailed-icp-result-never-showed-up">Un risultato di laboratorio o un ICP inviato per email non è mai arrivato</h3>
+<p>Un risultato si aggiunge solo quando ha una vasca, a volte Cora deve anche riconoscere il mittente, e Cora ha bisogno del tuo consenso per leggerlo.</p>
+<ol><li>Se vedi <em>"Cora Assistant ha bisogno della tua autorizzazione per leggerlo."</em>, apri <strong>Impostazioni → Cora Assistant</strong> e attiva <strong>Consenti al Cora Assistant di usare i dati salvati della vasca</strong>. Il risultato arriva quando dai il consenso.</li><li>Controlla il suggerimento che Cora mostra la prima volta che le invii un risultato.</li><li>Quando Cora te lo chiede, conferma a quale vasca appartiene il risultato.</li><li>Se hai già inviato un risultato in passato, invia questo dallo stesso indirizzo email.</li></ol>
+<p>Di più in <a href="/it/help/mobile-icp-health">ICP e report di salute</a>.</p>
+<h3 id="my-icp-file-wont-upload">Il mio file ICP non si carica</h3>
+<p>Cora legge il report in PDF che ti manda il laboratorio. Foto e screenshot non si possono leggere. Scarica prima il PDF dal tuo laboratorio, poi tocca di nuovo <strong>Carica ICP</strong>.</p>
+<h3 id="black-screen-after-a-report">Lo schermo diventa nero dopo un report di salute o un caricamento ICP</h3>
+<p>Poteva succedere in Cora Mobile 1.2 e versioni precedenti, e Cora Mobile 1.3 lo risolve: aggiorna Cora Mobile dall'App Store o da Google Play. Se ti capita prima di aggiornare, chiudi Cora Mobile e riaprila. Il report è stato salvato, e lo trovi in <strong>Intelligence</strong>.</p>
+<h2 id="language-units-and-signing-in">Lingua, unità e accesso</h2>
+<h3 id="everything-is-suddenly-in-the-wrong-language">All'improvviso è tutto nella lingua sbagliata</h3>
+<p>Qualcuno ha cambiato la lingua dell'account su uno dei tuoi dispositivi. È un'unica impostazione per tutto l'account.</p>
+<ol><li>Apri <strong>Impostazioni → Lingua</strong> in Cora Mobile o su Cora Max.</li><li>Rimettila com'era. La modifica vale ovunque.</li></ol>
+<h3 id="an-old-alert-or-report-is-still-in-a-different-language-afte">Un vecchio avviso o report è in un'altra lingua dopo il cambio</h3>
+<p>È normale. Cora non ritraduce niente di quello che ha già scritto. I nuovi avvisi, report e briefing usano la nuova lingua.</p>
+<h3 id="could-not-reach-cora-check-your-wi-fi-or-mobile-data-then-tr">"Impossibile raggiungere Cora. Controlla il Wi-Fi o i dati mobili, poi riprova."</h3>
+<p>Il telefono non riesce a raggiungere Cora Cloud per l'accesso. Riguarda la connessione del telefono, non l'attrezzatura della vasca.</p>
+<ol><li>Controlla che il telefono abbia il Wi-Fi o i dati mobili funzionanti.</li><li>Prova un'altra rete se ne hai una.</li><li>Tocca <strong>Riprova</strong>.</li></ol>
+<p>Gli altri problemi di accesso sono in <a href="/it/help/mobile-account">Accesso e recupero dell'account</a>.</p>
+<h2 id="still-stuck">Ancora bloccato</h2>
+<p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, oppure segnalalo da Cora Mobile come descritto in <a href="/it/help/mobile-support">Segnalare un problema</a>. Dicci quale vasca, quale dispositivo, quale schermata e cosa ti aspettavi di vedere.</p>
+      <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/how-do-i"><span>Successivo</span><b>Come faccio a...?</b></a></nav>
+      <p class="stamp">Scritto per Cora Max 0.28.170 e Cora Mobile 0.5.111. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -474,10 +457,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Screenshot");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Chiudi"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -498,55 +481,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Nessun risultato per \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Nessun risultato per \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Prova con meno parole o con parole diverse, oppure vai a:</p><ul><li><a href=\"/it/help/troubleshooting\">Risoluzione dei problemi</a></li><li><a href=\"/it/help/how-do-i\">Come faccio a...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contatta l\u2019assistenza</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -578,9 +728,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/it/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/it/help/search.json?v=60b8434692').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';
       });

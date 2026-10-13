@@ -1,17 +1,18 @@
 ---
 title: Mehr als ein Cora-Gerät
-description: Leg fest, welches Gerät auf Sprache antwortet und welches jedes Becken abfragt.
+description: Mit mehr als einem Cora-Gerät festlegen, welches auf deine Stimme antwortet und welches jedes Becken abfragt, und sehen, was unterwegs funktioniert.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
-group: Account
+order: 34
+group: Settings and account
+twin: max-reef-room
 ---
 
-In einem Haushalt kann es mehr als ein Cora Max geben. Zwei Einstellungen legen fest, welches Gerät was übernimmt, damit sie sich nicht in die Quere kommen. Außerdem lohnt es sich zu wissen, was die Geräte überhaupt miteinander teilen.
+Diese Seite ist für einen Haushalt mit mehr als einem Cora Max oder mit einem Cora Max und mehreren Handys. Zwei Einstellungen legen fest, welches Gerät was übernimmt, damit sie nicht dieselbe Arbeit doppelt machen. Außerdem lohnt es sich zu wissen, was die Geräte überhaupt miteinander teilen.
 
 ## Was geteilt wird und was nicht
 
-| Gilt für alle Geräte im Konto | Gehört zu einem Bildschirm |
+| Gilt für alle Geräte im Konto | Gehört zu einem Cora Max |
 |---|---|
 | Becken, Messwerte und Historie | das Dashboard-Layout |
 | Geräte und ihre Einstellungen | WLAN, Helligkeit, Ton |
@@ -19,9 +20,9 @@ In einem Haushalt kann es mehr als ein Cora Max geben. Zwei Einstellungen legen 
 | Warnungen, Schwellenwerte, Automationen | welche Becken dieser Bildschirm zeigt |
 | Abos und Nutzung | |
 
-Änderst du einen Schwellenwert auf einem Gerät, gilt er überall. Ein umgebautes Dashboard gilt dagegen nur dort. Jeder Bildschirm behält sein eigenes Layout, und Handy und Cora Max teilen sich nie eins.
+Änderst du einen Schwellenwert auf einem Gerät, gilt er überall. Bei Dashboard-Layouts ist das anders. Dein Handy-Layout folgt deinem Konto, deshalb zeigt jedes Handy, auf dem du dich anmeldest, dasselbe. Jedes Cora Max behält sein eigenes Layout, und Handy und Cora Max teilen sich nie eins.
 
-## Cora Assistant: Antwortgerät
+## Cora Assistant: Antwortgerät {#cora-assistant-answering-device}
 
 Unter **Einstellungen → Cora Assistant → Antwortgerät** legst du fest, welches **Cora-Gerät** antwortet, wenn du in den Raum sprichst. Es antwortet immer nur eins, egal wie viele dich hören. Wähl das Gerät, das deinem üblichen Standort am nächsten ist.
 
@@ -29,7 +30,7 @@ Nur das Antwortgerät hört auf das Weckwort. Ist es offline oder wurde es läng
 
 Das ist nicht dasselbe wie das Primäre Cora Max weiter unten. Das Antwortgerät bestimmt, welches Gerät auf deine Stimme antwortet. Das Primäre Cora Max bestimmt, welches Gerät die Ausrüstung eines Beckens abfragt. Hast du zwei Cora Max, stellst du die beiden vielleicht unterschiedlich ein.
 
-![Die Sprachantwort-Auswahl](img/mobile-voice-responder.webp "Jedes Gerät zeigt, worauf es hört, und ob es online ist.")
+![Die Auswahl des Antwortgeräts](img/mobile-voice-responder.webp "Jedes Gerät zeigt, worauf es hört, und ob es online ist.")
 
 Zu jedem Gerät in der Liste siehst du, auf welches Weckwort es hört und ob es online ist. **Die Weckwörter sind nicht überall gleich.** Das Wort ist fest im Gerät trainiert, und verschiedene Cora-Modelle können auf verschiedene Wörter hören. Lies das Wort in der Zeile des jeweiligen Geräts nach und geh nicht davon aus, dass im ganzen Haushalt dasselbe gilt.
 
@@ -45,7 +46,7 @@ Mit **Primäres Cora Max** legst du für jedes Becken fest, welches Gerät seine
 
 | Einstellung | Verhalten |
 |---|---|
-| ein bestimmtes Gerät | Nur dieses Cora-Gerät fragt den Controller ab. Es bleibt auch dann primär, wenn es offline ist, und kein anderes Cora-Gerät springt ein. Cora Mobile fragt nur ab, solange es offline ist. |
+| ein bestimmtes Gerät | Nur dieses Cora-Gerät fragt den Controller ab. Es bleibt auch dann primär, wenn es offline ist, und kein anderes Cora-Gerät springt ein. Cora Mobile liest den Controller nur, solange dieses Gerät offline ist. |
 | **Jedes aktive (automatisch)** | Cora Mobile und alle Cora-Geräte, die online sind, teilen sich die Arbeit (der letzte Schreibvorgang gilt). Fällt eins aus, macht ein anderes weiter. Das passt für einen Haushalt mit einem Gerät und ist die sicherere Wahl, wenn du nicht weißt, welches Gerät zuständig sein soll. |
 
 Ist das Gerät, das du festgelegt hast, offline, laufen Befehle nicht, die darüber gehen müssen. Cora sagt dir dann, dass das Becken auf dieses Gerät eingestellt ist, dass es offline ist und dass nichts passiert ist. Du kannst es erneut versuchen, sobald das Gerät wieder da ist. Bleibt es länger offline, wähl ein anderes Gerät oder **Jedes aktive (automatisch)**.

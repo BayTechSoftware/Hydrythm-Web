@@ -1,54 +1,70 @@
 ---
 title: Cora Max'te sahneler
-description: Sahneleri doğrudan Cora Max ekranında oluşturun, çalıştırın ve düzenleyin.
+description: Ayarlar → Otomasyonlar yolundan ya da panodaki bir sahne kutucuğundan Cora Max'te sahne oluşturun, çalıştırın, düzenleyin ve silin.
 section: Cora Max
-reviewed: 2026-09-27
-order: 15
-group: Automation
+reviewed: 2026-10-13
+order: 9
+group: Alerts and automation
+twin: mobile-automation
 ---
 
-**Sahne**, birlikte çalışan kayıtlı ekipman eylemleridir. Belli bir süre ya da siz durdurana kadar çalışır. Sahneyi telefonda da Cora Max'te de oluştursanız aynı şekilde çalışır. Bu sayfa duvardaki ekranda yapılanları anlatıyor.
+**Sahne**, birlikte çalışan kayıtlı bir ekipman eylemleri setidir. Ya belli bir süre ya da siz durdurana kadar çalışır. Cora Max'te sahne oluşturabilir, çalıştırabilir ve düzenleyebilirsiniz. Telefonunuzda ve Cora Max'te yapılan sahneler aynı sahnelerdir. Otomasyon kuralları ("bu olduğunda şunu yap" türü) telefonunuzda kurulur. Ayrıntılar [Sahneler ve otomasyonlar](/help/mobile-automation) sayfasında.
+
+![Cora Max'te sahne listesi, her akvaryum için bir filtre çipi ve Yeni Sahne düğmesiyle](img/max-automation.webp "Akvaryuma göre süzülmüş sahne listesi. Henüz sahne yoksa bunu söyler ve Yeni Sahne'yi önerir.")
 
 ## Sahneler nerede
 
-**Ayarlar → Otomasyonlar**'da tüm akvaryumlarınızın tüm sahneleri listelenir. Birden çok akvaryumunuz varsa her biri için bir filtre çipi çıkar. Sahneyi telefonda ya da Cora Max'te oluşturmuş olmanız fark etmez, liste aynıdır.
+**Ayarlar → Otomasyonlar**, tüm akvaryumlarınızın tüm sahnelerini listeleyen **Sahneler**'i açar. Birden fazla akvaryumunuz varsa her biri için bir filtre çipi ve ayrıca **Tüm akvaryumlar** çipi bulunur.
 
-Düzenlemek için sahneye, yeni sahne oluşturmak için **+**'ya dokunun. Birden çok akvaryumunuz varsa ve filtre seçmediyseniz Cora Max yeni sahnenin hangi akvaryuma ait olduğunu sorar.
+Düzenlemek için bir sahneye, yeni bir sahne oluşturmak için **Yeni Sahne**'ye dokunun. Birden fazla akvaryumunuz varsa ve hiçbir filtre seçili değilse Cora Max **Bu sahne hangi akvaryum için?** diye sorar.
 
 ## Sahne oluşturma
 
-1. Sahneye bir **ad** verin.
-2. **Adım** ekleyin. Cora Max'te bir adım Apex prizini (**Açık**, **Kapalı** ya da **Otomatik**) veya Zigbee fişini (**Aç**, **Kapat** ya da **Değiştir**) kumanda edebilir. Telefonda başka ekipmanlar için eklenmiş adımlar burada da görünür. Onların sırasını değiştirebilir ya da onları silebilirsiniz, ama bu ekrandan aynı türde yeni adım ekleyemezsiniz.
-3. Ne kadar süreceğini seçin. Belli bir dakika ya da **Kalıcı** (siz durdurana kadar çalışır).
-4. Sahne çalışmadan önce **onay** istensin mi, seçin. Sahnenin, bir daha bakmadan değiştirilmesi tehlikeli olacak hiçbir şeye dokunmadığından emin değilseniz bunu açık bırakın.
-5. Kaydedin.
+![Cora Max'te boş bir Yeni Sahne formu](img/max-scene-builder.webp "Yeni bir sahne: ad, Kalıcı ya da Süreli, Çalıştırmadan önce sor, ardından Adım Ekle.")
 
-:::note DŌS dozaj kafaları sahne adımı olamaz
-Cora Max'te ya da telefonda oluşturulan hiçbir sahne dozaj kafasını çalıştıramaz. Dozaj, bir sahnenin yanlışlıkla tetikleyebileceği bir işlem olmamalı.
+1. Bir **Sahne adı** yazın.
+2. **Adım Ekle**'ye dokunun ve adımın ne yapacağını seçin. Yalnızca bu akvaryumda bulunan ekipman türlerini görürsünüz:
+   - **Apex Prizi**: bir Neptune Apex prizini **AÇIK**, **KAPALI** ya da **OTOMATİK** konumuna alır.
+   - **Bir Red Sea cihazını kontrol et**: örneğin **ReefDose: şimdi dozla**, **ReefDose: günlük dozu ayarla**, **ReefRun: pompa hızını ayarla**, **ATO: manuel dolum başlat** ya da **ReefMat: ruloyu ilerlet**.
+   - **Bir Dalga Pompasını Kontrol Et**: bir Jecod pompasının akışını ya da dalga modunu ayarlar, açar ya da kapatır veya **Besleme için duraklat**.
+   - **Gyre için besleme başlat**: besleme için bir Maxspect gyre'yi duraklatır. Kendiliğinden yeniden başlar.
+   - **GHL**: besleme duraklatma, bakım, su değişimi, ışık sahnesi ve diğer kontrolcü komutları.
+   - **HYDROS**: bir mod, bir çıkış seviyesi, bir doz ya da **HYDROS: programa geri dön**.
+3. Başka adımları da aynı şekilde ekleyin. Sıralarını değiştirebilir ya da kaldırabilirsiniz. Bu ekranın düzenleyemediği bir adımda **Burada düzenlenemez** yazar. Onu telefonunuzda düzenleyin.
+4. Ne kadar çalışacağını seçin. **Süreli**, **Süre (dakika)** alanına girdiğiniz dakika kadar çalışır. **Kalıcı**, siz durdurana kadar çalışır.
+5. Sahnenin ikinci kez bakılması gereken hiçbir şeye dokunmadığından emin değilseniz **Çalıştırmadan önce sor**'u açık bırakın.
+6. **Kaydet**'e dokunun.
+
+:::note Sahnede dozaj
+Bir Neptune DŌS kafası hiçbir zaman sahne adımı olamaz. **ReefDose: şimdi dozla** adımı olabilir ve kendi **Doz başına maksimum (ml)** alanı vardır. 10 mL için boş bırakın. Bu sınırın üstündeki bir doz reddedilir, asla küçültülmez. Dozaj yapan her sahnede **Çalıştırmadan önce sor**'u açık tutun.
+:::
+
+:::note Beta
+**Beta.** Maxspect, GHL ve HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
 :::
 
 ## Sahne çalıştırma
 
-Sahneler panoda kutucuk olarak görünür. Başlatmak için **Çalıştır**'a dokunun.
+Sahneler panoda kutucuk olarak görünür. Birini başlatmak için **Çalıştır**'a dokunun.
 
-Sahne onay istiyorsa Cora Max, hiçbir şey yapmadan önce ne yapacağını her adım için bir satırda listeler. Okuyun, sonra çalıştırın ya da iptal edin.
+Sahne çalışmadan önce soruyorsa Cora Max önce ne yapacağını her adım için bir satırda listeler. Okuyun, sonra çalıştırın ya da iptal edin.
 
-Süreli sahne çalışırken kutucukta bitişe kalan süre ve erken bitirmek için **Durdur** düğmesi görünür. Kalıcı sahnenin kutucuğu siz durdurana kadar çalışıyor olarak kalır.
+Süreli bir sahne çalışırken kutucuğu bitişe kadar geri sayar ve erken bitirmek isterseniz **Durdur**'u gösterir. Kalıcı bir sahnenin kutucuğu, siz **Durdur**'a dokunana kadar onu çalışıyor olarak gösterir. Bir sahne bittiğinde ya da onu durdurduğunuzda, Cora ekipmanı eski haline getirirken kutucukta **Geri yükleniyor…** yazar.
 
-Sahneyi çalıştırma ve durdurma komutları, diğer tüm komutlar gibi her zaman Cora Cloud üzerinden gider. Sonucun nereye kaydedildiğini [Ne değişti, kim değiştirdi](/help/max-activity) sayfasında bulabilirsiniz.
+Bir sahneyi çalıştırmak ya da durdurmak, diğer her komut gibi Cora Cloud üzerinden gider. Sonucu [Etkinlik](/help/max-activity) içinde bulursunuz.
 
-Sahne çalışmıyor ya da durmuyorsa [Sorun giderme](/help/troubleshooting) sayfasına bakın.
+Sahneler Cora Max'te sesle çalıştırılamaz. Kutucuğu, **Ayarlar → Otomasyonlar**'ı ya da telefonunuzu kullanın.
+
+Bir sahne çalışmıyor ya da durmuyorsa [Sorun giderme](/help/troubleshooting) sayfasına göz atın.
 
 :::note Çocuk kilidi sahneleri de kapsar
-[Çocuk kilidi](/help/max-voice) açıkken bu ekrandan sahne çalıştıramaz ya da durduramazsınız. Diğer kontroller de kilitlenir. Sahneler hakkında sesle soru sormaya devam edebilirsiniz, ama sesle sahne başlatamaz ya da durduramazsınız.
+[Çocuk kilidi](/help/max-settings#child-lock) ekranı kilitlediğinde, diğer tüm kontroller gibi bir sahneyi de buradan çalıştıramaz, durduramaz ya da düzenleyemezsiniz.
 :::
 
 ## Sahneyi düzenleme ya da silme
 
-Sahneyi **Ayarlar → Otomasyonlar**'dan açın ya da panodaki kutucuğuna uzun basın. Buradan adını, adımlarını, süresini ve onay ayarını değiştirebilir ya da sahneyi silebilirsiniz.
+Bir sahneyi değiştirmek için onu **Ayarlar → Otomasyonlar**'dan açın ya da panodaki kutucuğuna uzun basın. Gerekeni değiştirin ve **Kaydet**'e dokunun. Kaldırmak için **Sahneyi Sil**'e dokunun. Bu geri alınamaz.
 
-:::note Eski Cora Max ekranları sahne çalıştırır ama düzenleyemez
-Duvardaki ekranda sahne oluşturma ve düzenleme, Cora Max'e yeni gelen bir özelliktir. Aynı hesaptaki eski bir Cora Max, telefonda ya da yeni bir Cora Max'te oluşturulmuş sahneyi gösterir ve çalıştırır. Yalnızca değiştiremez. Bu durumda Cora Max'i güncelleyin ya da sahneyi telefondan veya yeni bir ekrandan düzenleyin.
+:::note Eski bir Cora Max sahneyi çalıştırabilir ama düzenleyemez
+Eski Cora Max sürümleri her sahneyi göstermeye ve çalıştırmaya devam eder ama hiçbirini değiştiremez. Cora Max'i güncelleyin ([Güncellemeler ve kurtarma](/help/max-updates)) ya da sahneyi telefonunuzda düzenleyin.
 :::
-
-Sahnelerle neler yapabileceğinizi ve telefonda nasıl oluşturulduklarını [Sahneler ve otomasyonlar](/help/mobile-automation) sayfasında bulabilirsiniz.

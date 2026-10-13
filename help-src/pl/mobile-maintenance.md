@@ -1,97 +1,103 @@
 ---
 title: Konserwacja
-description: Powtarzalne prace z przypomnieniami: czyszczenie odpieniacza, skarpety filtracyjne, serwis pomp.
+description: Dodawaj powtarzalne prace, takie jak czyszczenie odpieniacza albo wymiana skarpet filtracyjnych, dostawaj przypomnienia o terminach i oznaczaj zadania jako wykonane albo je odkładaj.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 19
+reviewed: 2026-10-13
+order: 26
 group: Records
+twin: max-records
 ---
 
-W konserwacji są powtarzalne prace, których wymaga akwarium, i przypomnienia o nich. Otworzysz ją z rzędu skrótów na dole pulpitu.
+Konserwacja przechowuje prace, których akwarium regularnie wymaga, z przypomnieniem dla każdej z nich.
 
-![Lista konserwacji](img/mobile-maintenance.webp "Zgodność, liczba zaległych zadań i każde zadanie z datą ostatniego wykonania i kolejnym terminem.")
+Dotknij **Konserwacja** w rzędzie przycisków pod pulpitem. Znajdziesz ją też w Ustawieniach → Twoje akwarium → **Konserwacja**.
 
-## Podsumowanie
+![Lista konserwacji](img/mobile-maintenance.webp "Zgodność, liczba zaległych zadań i każde zadanie z ostatnim wykonaniem i kolejnym terminem.")
 
-Na górze są:
+## Podsumowanie {#summary}
 
-- **Zgodność konserwacji**, czyli jaka część zadań jest teraz wykonywana na czas
-- **Liczba zaległych**, czyli ile zadań ma przekroczony termin
+Na górze zobaczysz **Zgodność konserwacji**, czyli jaka część zadań jest teraz w terminie, i ile zadań jest zaległych.
 
-Zadania na liście mają kolory według pilności: zaległe, z bliskim terminem albo zaplanowane. Przy każdym widać, kiedy wykonano je ostatnio i kiedy jest następny termin.
+Każde zadanie na liście ma kolor: zaległe, z bliskim terminem albo zaplanowane. Widać też, kiedy ostatnio je wykonano i kiedy przypada następny termin.
 
-## Dodawanie zadania
+## Dodawanie zadania {#adding-a-task}
 
-Podaj nazwę, wybierz ikonę i wpisz, co ile dni trzeba je wykonywać. Cora wyliczy następny termin.
+Dotknij **Dodaj zadanie**, a potem wybierz:
 
-Typowe zadania:
+- **Z szablonu** dla typowej pracy z wpisanym już interwałem. Wybierz ją, ustaw następny termin i godzinę przypomnienia, a potem dotknij **Potwierdź**.
+- **Własne zadanie** dla własnej pracy. Podaj **Nazwę zadania**, **Interwał (dni)**, **Kategorię** i **Następny termin**. Włącz **Przypomnienie** i wybierz **Przypomnij mi o**, jeśli chcesz dostać powiadomienie.
 
-| Zadanie | Co ile |
+Niektóre szablony, z interwałem, od którego startują:
+
+| Zadanie | Interwał |
 |---|---|
-| Wymiana skarpet filtracyjnych | 3–7 dni |
-| Czyszczenie kubka odpieniacza | 7 dni |
-| Czyszczenie szyb | 7 dni |
-| Wymiana węgla albo GFO | 30 dni |
-| Serwis pompy powrotnej | 90–180 dni |
-| Kalibracja sond | 30–90 dni |
+| Zmień skarpety filtracyjne | 3 dni |
+| Wyczyść kubek odpieniacza | 7 dni |
+| Wymiana wody | 7 dni |
+| Przetestuj parametry wody | 7 dni |
+| Wymień węgiel | 30 dni |
+| Skalibruj sondę pH | 30 dni |
+| Wyczyść pompy cyrkulacyjne | 90 dni |
+| Wgraj wyniki ICP | 90 dni |
 
-## Zadania, które Cora tworzy sama
+Interwał każdego zadania możesz później zmienić.
 
-Gdy podłączysz Red Sea ReefDose, ReefATO+, ReefMat albo ReefRun, Cora sama dodaje serwis, jakiego wymaga to urządzenie, od razu z właściwym interwałem. Pojawią się zadania takie jak te:
+### Zadania, które Cora dodaje dla sprzętu Red Sea {#red-sea-tasks}
 
-| Urządzenie | Zadanie | Co ile |
+Gdy podłączysz Red Sea ReefDose, ReefATO+, ReefMat albo ReefRun, Cora dodaje serwis, którego wymaga to urządzenie, od razu z właściwym interwałem:
+
+| Urządzenie | Zadanie | Interwał |
 |---|---|---|
-| ReefATO+ | Replace ReefATO+ EC sensor | 42 dni |
-| ReefATO+ | Replace ReefATO+ return pump | 135 dni |
-| ReefMat | Replace ReefMat carbon | 25 dni |
-| ReefRun | Check ReefRun skimmer venturi | 35 dni |
-| ReefRun | Replace ReefRun skimmer rotor | 135 dni |
-| ReefRun | Calibrate ReefRun full-cup sensor | 28 dni |
-| ReefRun | Calibrate ReefRun overskimming sensor | 28 dni |
-| ReefRun, per pump | Service ReefRun pump motor | 135 dni |
-| ReefRun, per pump | Clean ReefRun pump strainer | 42 dni |
-| ReefDose, per head | Calibrate ReefDose head | 90 dni |
-| ReefDose, per head | Replace ReefDose head tubing | 450 dni |
+| ReefATO+ | Wymień czujnik EC ReefATO+ | 42 dni |
+| ReefATO+ | Wymień pompę powrotną ReefATO+ | 135 dni |
+| ReefMat | Wymień węgiel w ReefMat | 25 dni |
+| ReefRun | Sprawdź venturi skimmera ReefRun | 35 dni |
+| ReefRun | Wymień wirnik skimmera ReefRun | 135 dni |
+| ReefRun | Skalibruj czujnik pełnego kubka ReefRun | 28 dni |
+| ReefRun | Skalibruj czujnik nadmiernego skimowania ReefRun | 28 dni |
+| ReefRun, każda pompa | Zrób przegląd silnika pompy ReefRun | 135 dni |
+| ReefRun, każda pompa | Wyczyść sitko pompy ReefRun | 42 dni |
+| ReefDose, każda głowica | Skalibruj głowicę ReefDose | 90 dni |
+| ReefDose, każda głowica | Wymień wężyk głowicy ReefDose | 450 dni |
 
-Działają dokładnie tak samo jak zadania dodane przez Ciebie: możesz je przemianować, zmienić interwał, odłożyć albo wstrzymać. Jeśli usuniesz zadanie, Cora nie doda go z powrotem dla tego urządzenia.
+Działają jak każde zadanie dodane samodzielnie. Możesz zmienić ich nazwę, interwał, odłożyć je albo usunąć. Jeśli usuniesz któreś, Cora nie doda go ponownie dla tego urządzenia.
 
-### Przetestuj wodę
+### Przetestuj wodę {#test-water}
 
-Jeśli dotkniesz **Przypominaj mi o teście co tydzień** na karcie pierwszego testu, Cora doda cotygodniowe zadanie o nazwie **Przetestuj wodę**, wymagalne w wybrany **Dzień testu**. Działa jak każde zadanie dodane przez Ciebie. Zobacz [Pierwsze kroki z Cora Mobile](/help/mobile-setup).
+Jeśli na karcie pierwszego testu dotkniesz **Przypominaj mi o teście co tydzień**, Cora doda cotygodniowe zadanie **Przetestuj wodę**, z terminem w wybrany **Dzień testu**. Działa jak każde inne zadanie. Zobacz [Konfiguracja Cora Mobile](/help/mobile-setup). Przypomnienie o testach możesz też dodać w dowolnej chwili szablonem **Przetestuj parametry wody**.
 
-### Z automatyzacji
+### Z automatyzacji {#from-an-automation}
 
-[Automatyzacja](/help/mobile-automation) z akcją **Utwórz zadanie konserwacyjne** może dodać zadanie do tej listy, gdy zadziała jej reguła, albo sprawić, że istniejące zadanie stanie się wymagalne od razu. Nowe zadanie jest jednorazowe, wymagalne od razu i znika z listy, gdy je wykonasz. Dopóki jest otwarte, ta sama automatyzacja nie dodaje kolejnego. Dostajesz jedno powiadomienie.
+[Automatyzacja](/help/mobile-automation) z akcją **Utwórz zadanie konserwacyjne** może dodać pracę do tej listy, gdy zadziała jej reguła, albo ustawić termin istniejącego zadania na teraz. Nowe zadanie to **Zadanie jednorazowe** z terminem na teraz, z dopiskiem *Utworzone przez automatyzację* i powodem. Znika z listy, gdy je wykonasz. Dopóki jest otwarte, ta sama automatyzacja nie doda kolejnego. Dostajesz jedno powiadomienie.
 
-## Przypomnienia
+## Przypomnienia {#reminders}
 
-Każde zadanie może Ci przypominać, a Ty ustalasz kiedy:
+Otwórz zadanie i włącz **Przypomnienie**, a potem wybierz **Przypomnij mi o**. Dostaniesz powiadomienie dzień przed terminem i w dniu terminu. Gdy zadanie jest zaległe, przypomnienie przychodzi co kilka dni. Jeśli kilka zadań w jednym akwarium ma termin w tym samym czasie, przychodzą jako jedno powiadomienie.
 
-- ile dni przed terminem
-- o której godzinie przychodzi przypomnienie
+Przypomnienia należą do **Przypomnień o konserwacji** w [Ustawienia → Powiadomienia](/help/mobile-notifications). Jeśli wolisz tylko widzieć zadanie na liście, wyłącz jego **Przypomnienie**.
 
-Jeśli chcesz tylko widzieć zadanie na liście, wyłącz dla niego przypomnienia.
+## Oznaczanie zadania jako wykonanego {#marking-done}
 
-## Oznaczanie zadania jako wykonanego
+Przesuń zadanie palcem w prawo albo otwórz je i dotknij **Zakończ**. Jeśli przesunięto je przez pomyłkę, dotknij **Cofnij** w komunikacie, który się pojawi.
 
-Dotknij **Zakończ** przy zadaniu albo przesuń je palcem. Cora zapisze czas wykonania i od tego momentu wyliczy następny termin. Jeśli zrobisz coś trzy dni po terminie, następny termin też przesunie się o trzy dni. Cora nie udaje, że zadanie było zrobione na czas.
+Cora zapisuje godzinę zakończenia i od niej liczy następny termin. Jeśli więc zrobisz coś trzy dni po terminie, następny termin też przesunie się o trzy dni.
 
-:::note Dotknięcie zadania otwiera edycję
-Dotknięcie samego wiersza otwiera zadanie, żeby zmienić nazwę, częstotliwość albo przypomnienia. Żeby oznaczyć je jako wykonane, użyj **Zakończ**.
+Arkusz zadania pokazuje **Historię zakończeń**, w tym to, jak bardzo każde wykonanie było spóźnione.
+
+:::note Wykonanie zadania tworzy też wpis w dzienniku
+Cora dodaje za Ciebie krótki wpis w [dzienniku](/help/mobile-journal), z informacją, czy zadanie było spóźnione. Dodaj własny wpis, gdy jest coś więcej do powiedzenia, na przykład gdy pompa była pełna piasku albo skarpety były czarne po jednym dniu.
 :::
 
-## Odkładanie
+## Edytowanie zadania {#editing}
 
-Jeśli nie możesz teraz wykonać zadania, odłóż je. Zostanie na liście, wyszarzone, ze statusem **Odłożone** i nową datą. Nic nie znika, po prostu do tej daty nie dostaniesz przypomnienia.
+Dotknij zadania, żeby je otworzyć. Możesz zmienić **Nazwę zadania**, **Interwał (dni)**, **Notatki (opcjonalnie)**, **Następny termin** i przypomnienie, a potem dotknąć **Zapisz**. **Usuń** je usuwa.
 
-:::warning Nie oznaczaj zadania jako wykonanego, jeśli nie zostało zrobione
-Następny termin liczy się od daty wykonania. Jeśli oznaczysz zaległe zadanie jako wykonane, przesuniesz wszystkie kolejne terminy. Lepiej je odłóż.
+## Odkładanie {#snoozing}
+
+Nie możesz teraz zająć się pracą? Otwórz ją, dotknij **Odłóż** i wybierz **1 dzień**, **3 dni**, **1 tydzień**, **2 tygodnie** albo **1 miesiąc**. Zostanie na liście jako **Odłożone** z nową datą i do tego czasu nie dostaniesz przypomnienia.
+
+:::warning Oznaczaj zadanie jako wykonane dopiero po wykonaniu
+Następny termin liczy się od dnia, w którym oznaczysz zadanie jako wykonane. Jeśli oznaczysz otwarte zadanie jako wykonane, przesuną się wszystkie kolejne terminy. Zamiast tego je odłóż.
 :::
 
-## Wstrzymanie zadania
-
-Zadanie możesz ustawić jako nieaktywne, np. gdy wyłączasz dany sprzęt albo praca nie dotyczy bieżącego sezonu. Zadanie zostaje na liście, nie ma terminu i możesz je później znów aktywować.
-
-## Konserwacja a dziennik
-
-Wykonanie zadania to nie to samo co wpis w dzienniku. Konserwacja mówi, co jest do zrobienia. **[Dziennik](/help/mobile-journal)** mówi, co naprawdę zostało zrobione i co działo się potem. Jeśli coś było nietypowe (pompa pełna piasku, skarpety czarne po jednym dniu), dopisz to też do dziennika.
+Zadania nie da się wstrzymać. Pracę, która nie dotyczy bieżącego sezonu, odłóż na **1 miesiąc** albo usuń i dodaj ponownie później.

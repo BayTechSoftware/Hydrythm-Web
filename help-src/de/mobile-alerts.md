@@ -1,144 +1,170 @@
 ---
 title: Warnungen und Schwellenwerte
-description: Leg für jeden Wasserwert den Bereich fest, bestimme, worüber du Bescheid bekommst, und finde heraus, warum eine Warnung kam.
+description: Den gesunden Bereich für jeden Messwert festlegen, bestimmen, wie oft eine Warnung dich benachrichtigen darf, und herausfinden, warum ein Gerät "sich nicht mehr meldet".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 15
+order: 20
 group: Alerts and automation
+twin: max-alerts
 ---
 
-Verlässt ein Messwert den Bereich, den du festgelegt hast, meldet Cora eine Warnung. Die Bereiche legst du selbst fest, und du bestimmst auch, welche Warnungen auf deinem Handy ankommen.
+Du bekommst eine Warnung, wenn ein Messwert den Bereich verlässt, den du dafür festgelegt hast. Auf dieser Seite geht es darum, diese Bereiche festzulegen, was passiert, wenn eine Warnung ausgelöst wird, und wie lange Cora wartet, bevor es sagt, dass ein Gerät sich nicht mehr meldet.
 
-Die **Warnzentrale** öffnest du über die Reihe mit Verknüpfungen am unteren Rand des Dashboards.
+Um die **Warnzentrale** zu öffnen, tippe in der Reihe von Tasten unter dem Dashboard auf **Warnungen**. Du findest sie auch unter Einstellungen → dein Becken → **Warnschwellen**.
 
-![Die Warnzentrale](img/mobile-alerts.webp "Aktive Warnungen, jede mit ihrem Schweregrad, was sie ausgelöst hat, und wann.")
+![Der Tab Aktiv der Warnzentrale in Cora Mobile](img/mobile-alerts.webp "Aktive Warnungen, jede mit ihrem Schweregrad, was sie ausgelöst hat und wann, dazu Regel ansehen und Diese Warnung erklären.")
 
-## Die Warnzentrale
+## Die Warnzentrale {#alert-center}
 
-Die Warnzentrale hat zwei Tabs:
+Sie hat zwei Tabs. **Aktiv** listet die Warnungen auf, die gerade bestehen, mit einer Zahl daneben. **Regeln** enthält die Regeln, die sie auslösen.
 
-- **Aktiv** zeigt die gerade bestehenden Warnungen, mit einer Zahl daneben.
-- **Regeln** zeigt die Schwellenwert- und Änderungsraten-Regeln, aus denen die Warnungen entstehen.
+Jede aktive Warnung zeigt den Wasserwert und das Becken, den Messwert, der sie ausgelöst hat, eine kurze Erklärung, einen Chip für den Schweregrad, die Art der Regel, die ausgelöst hat (**Schwellenwert** oder **Änderungsrate**), und wann sie ausgelöst hat. Sie hat zwei Tasten:
 
-Zu jeder aktiven Warnung siehst du den Wasserwert und das Becken, den auslösenden Messwert und eine kurze Erklärung. Dazu kommen ein Chip für den Schweregrad, die Art der Regel (**Schwellenwert** oder **Änderungsrate**) und die Uhrzeit.
+- **Regel ansehen** öffnet die Regel dahinter, damit du den Bereich anpassen kannst. Bei einer Dosierer-Warnung, etwa einem DŌS- oder ReefDose-Kopf, der zur Neige geht, oder einer verpassten Dosierung, heißt diese Taste stattdessen **Dosierer öffnen**. Sie öffnet die Seite dieses Dosierers mit seinen Warnungen.
+- **Diese Warnung erklären** öffnet Cora Assistant mit einer fertigen Frage zur Warnung. Prüf sie, ändere sie, wenn du willst, und schick sie dann ab.
 
-Bei jeder Warnung hast du zwei Möglichkeiten:
+## Der Tab Regeln {#rules}
 
-- **Regel ansehen** öffnet die zugehörige Regel. Dort kannst du den Bereich anpassen. Bei einer Dosierer-Warnung, etwa einem fast leeren DŌS- oder ReefDose-Kopf oder einer verpassten Dosierung, heißt diese Schaltfläche stattdessen **Dosierer öffnen**. Sie öffnet die Seite dieses Dosierers mit seinen Warnungen.
-- **Diese Warnung erklären** lässt den Assistenten die Warnung vor dem Hintergrund der Geschichte deines Beckens einordnen.
+![Der Tab Regeln](img/mobile-alert-rules.webp "Regeln nach Wasserwert gruppiert, jede mit ihrem eigenen Schalter.")
 
-## Der Tab Regeln
+Die Regeln sind nach Wasserwert gruppiert. Jede Regel hat in ihrer Zeile einen eigenen Schalter, du kannst sie also ausschalten, ohne sie zu öffnen. Eine Zeile zeigt außerdem **Löst gerade aus**, solange ihre Warnung besteht, oder wann sie zuletzt ausgelöst hat (oder **Nie ausgelöst**).
 
-Die Regeln sind nach Wasserwert gruppiert. Jede Regel hat in ihrer Zeile einen eigenen Ein/Aus-Schalter, du kannst sie also ausschalten, ohne sie zu öffnen. Tippe auf eine Zeile, um Bereich oder Abklingzeit zu ändern.
+Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel *Jod · Tage übrig* oder *Jod · verbleibend*. Eine verpasste Dosierung erscheint als *Jod · Dosierung verpasst*. Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile, und die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieses Dosierers zu öffnen. Siehe [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
 
-Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel *Jod · Tage übrig* oder *Jod · verbleibend*. Eine verpasste Dosierung erscheint als *Jod · Dosierung verpasst*.
+Ganz unten:
 
-Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile. Die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieses Dosierers mit seinen Warnungen zu öffnen. Siehe [Warnungen für Dosierer](/help/mobile-device-control#doser-alerts).
+- **Empfohlene Regeln hinzufügen** fügt die empfohlenen Regeln von Cora hinzu, die fehlen. Einen Wasserwert, der schon eine Regel hat, überspringt es. Bei einem Becken ganz ohne Regeln heißt diese Taste **Standardregeln hinzufügen**.
+- **Eigene Regel hinzufügen** richtet eine eigene Regel ein. Wähl den Wasserwert und den **Regeltyp**, **Schwellenwert** oder **Änderungsrate**. Die Taste **Regel hinzufügen** unten rechts tut dasselbe.
 
-Fehlen einige von Coras empfohlenen Regeln, fügt **Empfohlene Regeln hinzufügen** ganz unten sie hinzu. Wasserwerte, die schon eine Regel haben, werden übersprungen. Mit **Eigene Regel hinzufügen** richtest du eine eigene Regel ein.
+### Eine Regel bearbeiten {#editing-a-rule}
 
-## Einen Bereich festlegen
+Tippe auf die Zeile einer Regel, um sie zu öffnen. Du findest dort:
 
-Wasserwerte, die Cora bewerten kann, haben einen Zielbereich. Die Standardwerte richten sich nach Beckentyp und Alter, die du bei der Einrichtung angegeben hast. Damit fährst du am Anfang meist gut. Hat ein Wasserwert keinen brauchbaren Bereich, bewertet Cora ihn gar nicht. Er bleibt neutral grau, und Cora rät nicht herum.
+- **Warnuntergrenze** und **Warnobergrenze**, den Bereich selbst. Lass eins leer für eine Obergrenze oder eine Untergrenze.
+- **Empfohlen**, das den von Cora vorgeschlagenen Bereich zurückholt.
+- **Anzeigebereich (Cora-Anzeige)**, mit **Anzeige-Min.** und **Anzeige-Max.** Diese legen nur die Skala der Anzeige auf Cora Max fest. Sie lösen nie eine Warnung aus.
+- **Abklingzeit zwischen Warnungen**, erklärt [weiter unten](#cooldowns).
+- **Aktiviert** und eine Taste zum Löschen.
 
-Zum Ändern **hältst du das Widget** auf dem Dashboard **lange gedrückt**. Dann gehen direkt die Schwellenwerte dieses Wasserwerts auf. Tippst du nur kurz, landest du in der Ansicht des Wasserwerts. Die beiden Gesten führen also an verschiedene Stellen. Das lange Drücken lohnt sich zu merken.
+Eine Regel für einen Gerätefehler, etwa ein Trident ohne Reagenz, hat keinen Bereich. Du wählst nur ihre Abklingzeit.
 
-Gibt es für den Wasserwert noch keine Regel, stehen in den Feldern Coras Standardwerte. Ein Hinweis darunter sagt dir das. Ändere einfach einen Wert, dann gilt deiner.
+## Einen Bereich festlegen {#setting-a-range}
 
-Alle Bereiche auf einen Blick findest du unter **Warnungen** in der Reihe mit Schaltflächen unter dem Dashboard.
+Wasserwerte, die Cora bewerten kann, haben einen Zielbereich. Die Standardwerte kommen aus Beckentyp und Alter, die du beim Einrichten des Beckens angegeben hast, und sind ein sinnvoller Anfang. Hat ein Wasserwert keinen brauchbaren Bereich, bewertet Cora ihn nicht, und sein Widget bleibt neutral grau.
 
-Du kannst Folgendes festlegen:
+Am schnellsten änderst du einen Bereich, indem du auf dem Dashboard lange auf das Widget des Wasserwerts drückst. Das öffnet seine Schwellenwerte. Ein normales Tippen öffnet stattdessen die Ansicht des Wasserwerts.
 
-- **Einen Bereich** mit Unter- und Obergrenze, etwa für Alkalinität oder Temperatur
-- **Eine Obergrenze** allein, für Werte, bei denen niedrig in Ordnung ist, etwa Nitrat oder Phosphat
-- **Eine Untergrenze** allein
+![Das Fenster Schwellenwert bearbeiten für pH in Cora Mobile](img/mobile-threshold-sheet.webp "Warnuntergrenze und -obergrenze, der Anzeigebereich für Cora Max und die Abklingzeit zwischen Warnungen.")
+
+Hat der Wasserwert noch keine Regel, starten die Felder mit dem Standard von Cora, und ein Hinweis darunter sagt das. Ändere einen beliebigen Wert, um deinen eigenen festzulegen.
+
+Du kannst festlegen:
+
+- einen Bereich, mit Unter- und Obergrenze, für Dinge wie Alkalinität oder Temperatur
+- eine Obergrenze, nur mit einem Höchstwert, für Dinge, bei denen niedrig in Ordnung ist, wie Nitrat oder Phosphat
+- eine Untergrenze, nur mit einem Mindestwert
 
 :::tip Stell den Bereich ein, in dem dein Becken wirklich läuft
-Die Standardwerte sind ein Ausgangspunkt, kein Urteil. Ein nährstoffarmes Becken mit 6 dKH ist nicht "falsch", nur weil in einer Tabelle 8–9 steht. Stell den Bereich ein, in dem dein Becken läuft. Dann sagt Cora dir Bescheid, wenn *du* davon abweichst.
+Die Standardwerte sind nur ein Ausgangspunkt. Ein nährstoffarmes Becken mit 6 dKH ist nicht "falsch", nur weil in einer Tabelle 8–9 steht. Stell den Bereich ein, in dem du fährst, und Cora sagt dir, wenn *du* abdriftest.
 :::
 
-## Wann eine Warnung kommt
+## Was eine Warnung auslöst {#what-triggers-an-alert}
 
-Eine Warnung kommt, sobald ein Messwert einen Schwellenwert überschreitet. Cora prüft jeden Messwert beim Eintreffen. Ein einziger Messwert außerhalb deines Bereichs genügt also.
+Eine Warnung löst aus, wenn ein Messwert einen Schwellenwert überschreitet. Cora prüft jeden Messwert, sobald er ankommt, ein einziger Messwert außerhalb deines Bereichs genügt also.
 
-Ist eine Warnung aktiv, meldet sie sich nicht ständig neu wegen derselben Sache. Erst nach einer Abklingzeit kann sie wieder ausgelöst werden. Sobald ein Messwert wieder im Bereich liegt, **verschwindet sie von selbst**. Du musst nichts bestätigen.
+Eine Regel für die Änderungsrate achtet darauf, wie schnell sich ein Wasserwert bewegt, statt darauf, wo er steht. Nimm sie, wenn das Tempo einer Änderung wichtiger ist als die Zahl.
 
-Außerdem kannst du eine Regel für die **Änderungsrate** anlegen. Sie achtet darauf, wie schnell sich ein Wasserwert bewegt, und nicht darauf, wo er gerade steht. Nimm sie für Werte, bei denen das Tempo einer Veränderung wichtiger ist als die Zahl selbst.
+Ist eine Warnung aktiv, benachrichtigt sie dich nicht ständig wegen derselben Sache. Die [Abklingzeit](#cooldowns) der Regel entscheidet, wann sie dich wieder benachrichtigen darf.
 
-## Wo Warnungen auftauchen
+## Wo Warnungen erscheinen
 
-- **Die Glocke** oben rechts auf jedem Bildschirm enthält den Verlauf. Die Zahl zeigt, wie viele du noch nicht gelesen hast.
-- **Push-Benachrichtigungen** kommen auf dein Handy, wenn du sie erlaubst.
-- **Das Widget** auf dem Dashboard färbt sich gelb oder rot.
-- **Cora Max** zeigt dieselben Warnungen auf dem großen Bildschirm.
+- Die Glocke oben rechts in den Haupt-Tabs bewahrt deinen Verlauf auf. Die Zahl zeigt, wie viele du noch nicht gelesen hast. Mehr dazu unter [Benachrichtigungen](/help/mobile-notifications).
+- Eine Push-Benachrichtigung erreicht dein Handy, wenn diese Kategorie eingeschaltet ist.
+- Das Widget auf dem Dashboard wird bernsteinfarben oder rot.
+- Cora Max zeigt dieselben Warnungen auf seinem Bildschirm.
 
-## Wenn die Ausrüstung Hilfe braucht
+## Wenn Ausrüstung Aufmerksamkeit braucht {#equipment-faults}
 
-Manche Warnungen betreffen die Ausrüstung und keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit Becken und Gerät, zum Beispiel *"Display-Becken: Rückförderpumpe braucht Aufmerksamkeit"*. Darin steht auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, kommt eine zweite Nachricht: *"Display-Becken: Rückförderpumpe ist wieder in Ordnung"*. Beide gehören zur Kategorie **Gerätefehler** unter **Einstellungen → Benachrichtigungen**.
+Manche Warnungen betreffen Ausrüstung, keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit dem Becken und dem Gerät, zum Beispiel *"Hauptbecken: Rückförderpumpe braucht Aufmerksamkeit"*. Sie sagt auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, bekommst du eine zweite: *"Hauptbecken: Rückförderpumpe ist wieder in Ordnung"*. Beide fallen unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 
-Auch eine Maxspect Gyre (Beta) kann diese Warnung auslösen. Das passiert, wenn ein Cora Max im selben Netzwerk feststellt, dass beide Köpfe auf 0 % stehen, oder wenn die Gyre zweimal hintereinander nicht antwortet. Verlass dich darauf nur als Hinweis, nicht als Schutz. Das Cora Max schaut nur ab und zu nach und nur, solange es läuft und die Gyre erreicht.
+Eine Maxspect-Gyre (Beta) kann dieselbe Warnung auslösen. Das passiert, wenn ein Cora Max in ihrem Netzwerk beide Köpfe auf 0 % findet oder zweimal hintereinander keine Antwort von der Gyre bekommt. Betrachte es als Warnung, nicht als Absicherung. Das Cora Max prüft nur von Zeit zu Zeit und nur, solange es läuft und die Gyre erreicht.
 
-## Ein Gerät meldet sich nicht mehr
+## Ein Gerät meldet sich nicht mehr {#stopped-reporting}
 
-Meldet sich ein Neptune Apex, ein Red Sea ReefBeat-Gerät, AquaWiz, eine Jecod-Pumpe, eine Maxspect Gyre, ein EcoTech-Gerät oder ein Inkbird-Raumluftmonitor nicht mehr, sagt dir Cora Bescheid: *"[Gerät]: meldet sich nicht mehr."* Prüfe Stromversorgung und WLAN (oder Bluetooth-Reichweite), und ob das Cora Max, das es ausliest, eingeschaltet ist. Meldet sich das Gerät wieder, bekommst du eine zweite Benachrichtigung.
+Wird ein verbundenes Gerät still, schickt Cora *"[Gerät]: meldet sich nicht mehr"*. Das heißt nicht, dass das Gerät kaputt ist, nur, dass Cora eine Weile nichts von ihm gehört hat. Du bekommst eine zweite Benachrichtigung, *"[Gerät]: meldet sich wieder"*, wenn es zurückkommt.
 
-Wie lange Cora wartet, hängt vom Gerät ab.
+Wie lange Cora wartet, hängt vom Gerät ab:
 
-- Neptune Apex und Red Sea ReefBeat: etwa 30 Minuten ohne Update.
-- AquaWiz: etwa 3 Stunden, weil es seltener prüft.
-- Jecod und Maxspect: drei verpasste Messungen in Folge, gezählt im eigenen Messintervall des Geräts.
-- EcoTech und Inkbird: drei verpasste Messungen in Folge, gezählt im Intervall, das du für dieses Netzwerk oder diesen Monitor eingestellt hast.
+| Gerät | Cora wartet |
+|---|---|
+| Neptune Apex | Etwa 30 Minuten ohne Update |
+| Red Sea ReefBeat | Etwa 30 Minuten |
+| AquaWiz | Etwa 3 Stunden, weil er seltener meldet |
+| Jecod-Pumpen | Drei verpasste Messungen in Folge, im Messintervall der Pumpe (90 Minuten beim Standard von 30) |
+| Maxspect (Beta) | Drei verpasste Messungen in Folge, wie bei Jecod |
+| EcoTech (Beta) | Drei verpasste Messungen in Folge, im Messintervall des Netzwerks (90 Minuten beim Standard von 30). Stellst du unter **Leuchte antwortet nicht mehr** eine längere Zeit ein, wartet Cora so lange |
+| Inkbird-Raumluftmonitor (Beta) | Drei verpasste Messungen in Folge, im eigenen Intervall des Monitors (15 Minuten beim Standard von 5) |
+| Focustronic (Beta) | Etwa 3 Stunden |
+| GHL (Beta) | Etwa 15 Minuten. Die Benachrichtigung lautet *"GHL-Controller nicht erreichbar"* |
+| HYDROS (Beta) | Etwa 30 Minuten. Die Benachrichtigung lautet *"HYDROS-Controller meldet sich nicht"* |
 
-Maxspect, EcoTech und Inkbird sind Beta-Anbindungen, die nur Beta-Nutzer hinzufügen können. Siehe [Beta-Funktionen](/help/mobile-beta).
+Was du prüfst, hängt davon ab, wie Cora das Gerät liest.
 
-Das fällt wie die Fehlerwarnungen oben unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
+- Apex, ReefBeat, Jecod, Maxspect und GHL werden von einem Cora Max über WLAN abgefragt. Prüf Strom und WLAN des Geräts und ob das Cora Max, das es abfragt, eingeschaltet und online ist.
+- EcoTech und Inkbird werden von einem Cora Max über Bluetooth abgefragt. Prüf den Strom, ob das Gerät in Bluetooth-Reichweite des Cora Max ist und ob das Cora Max eingeschaltet ist.
+- AquaWiz und Focustronic werden über dein Konto beim Hersteller abgefragt. Prüf die Kontoverbindung auf der Seite des Geräts in Cora Mobile.
+- Bei HYDROS prüf Strom, WLAN und Geräteschlüssel.
 
-## "Die Red Sea-Messwerte werden nicht mehr aktualisiert"
+GHL kann dir auch *"GHL-API ist ausgeschaltet"* melden oder dass der Controller *"die Verbindung abgelehnt"* hat. Wird das Cora Max still, das einen GHL-Controller abfragt, bekommst du *"Cora Max meldet sich nicht für"* diesen Controller. Die Lösungen stehen in der [Problembehebung](/help/troubleshooting).
 
-Auf der Wasserwert-Seite eines Beckens kann dieser Banner erscheinen:
+Diese Benachrichtigungen fallen unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 
-> Die Red Sea-Messwerte werden nicht mehr aktualisiert. Kein Gerät liest die Red Sea-Geräte dieses Beckens aus: Prüfe das primäre Cora Max in den Einstellungen oder öffne dieses Becken auf einem Gerät im selben Wi-Fi-Netzwerk.
-
-Gerade fragt also weder ein Handy noch ein Cora Max die ReefBeat-Ausrüstung dieses Beckens ab. Die angezeigten Messwerte sind deshalb alt, aber nicht unbedingt falsch. Tippe auf den Banner, um **Primäres Cora Max** zu öffnen. Wähle dort ein Gerät, das eingeschaltet ist, oder stell **Jedes aktive (automatisch)** ein. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device). Verschwindet der Banner nicht, hilft dir die [Problembehebung](/help/troubleshooting) weiter.
-
-## Bestimmen, was bei dir ankommt
-
-Unter **Einstellungen → Benachrichtigungen** legst du fest, welche Benachrichtigungskategorien dir Push-Nachrichten schicken dürfen.
-
-Reef Buddy hat keinen eigenen Schalter. Es schickt dir eine Zusammenfassung, wenn es etwas zu tun gibt, und bleibt sonst still.
-
-:::note Cora meldet sich nur, wenn es etwas zu sagen gibt
-Die tägliche Zusammenfassung ist eine Push-Nachricht pro Becken und Tag. An Tagen, an denen nichts deine Aufmerksamkeit braucht, bleibt sie meist aus. Cora schreibt dir dann nicht extra, dass alles in Ordnung ist. Kommt eine Nachricht, hat sich etwas geändert.
+:::note Beta
+Maxspect, EcoTech, Inkbird, Focustronic, GHL und HYDROS sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
 :::
 
-## Abklingzeit: wie oft dieselbe Warnung dich benachrichtigt
+Ein Red Sea-Becken kann außerdem einen Banner zeigen, *"Die Red Sea-Messwerte werden nicht mehr aktualisiert"*, wenn kein Handy und kein Cora Max seine ReefBeat-Ausrüstung abfragt. Tippe darauf, um ein **Primäres Cora Max** zu wählen. Die vollständige Lösung steht in der [Problembehebung](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 
-Jede Regel hat eine eigene **Abklingzeit zwischen Warnungen**. Du stellst sie ein, wenn du die Regel anlegst oder bearbeitest (im Tab **Regeln** der Warnzentrale). Die Warnung selbst bleibt dabei sichtbar. Die Abklingzeit begrenzt nur, wie oft Cora dir dazu eine Push-Nachricht schickt. Der Messwert wird die ganze Zeit weiter bewertet, und die Warnung bleibt auf dem Widget und in der Glocke stehen.
+## Wählen, was dich erreicht {#choosing-what-reaches-you}
 
-Zur Auswahl stehen 15 Min., 30 Min., 1 Std., 2 Std., 4 Std., 8 Std., 1 Tag, 3 Tage und **1 Woche**.
+Unter **Einstellungen → Benachrichtigungen** wählst du, welche Kategorien dir eine Push-Nachricht schicken dürfen. Siehe [Benachrichtigungen](/help/mobile-notifications), wo es auch darum geht, [die Nächte ruhig zu halten](/help/mobile-notifications#quiet-at-night).
 
-Eine kurze Abklingzeit passt zu schnell schwankenden Messwerten wie der Temperatur. Eine lange, bis zu einer Woche, passt zu Problemen, die tagelang bestehen, während du auf Ersatz wartest. Beispiele sind ein Trident ohne Reagenz oder ein leerer Dosierbehälter. Ohne lange Abklingzeit würde Cora dich mehrmals am Tag an dasselbe bekannte Problem erinnern.
+Reef Buddy hat keinen eigenen Schalter. Seine Uhrzeit ist die Zeile **Briefing-Zeit**, direkt unter Benachrichtigungen in den Einstellungen. Im kostenlosen Abo gibt es keine Briefing-Benachrichtigung.
 
-:::note Schlummern geht nur am Cora Max
-In Cora Mobile gibt es bei einer aktiven Warnung keine eigene Schlummern-Schaltfläche. Die findest du am Cora Max-Bildschirm am Becken. Sie schaltet die Warnung für die Abklingzeit stumm, die du hier gewählt hast. Am Handy steuerst du über die Abklingzeit der Regel, wie oft du von einer Sache hörst. Ein Schlummern für einzelne Warnungen gibt es hier nicht.
+:::note Cora bleibt still, außer es hat sich etwas geändert
+Das tägliche Briefing ist eine Push-Nachricht pro Becken und Tag. An einem Tag, an dem nichts dich braucht, bleibt es meist still, statt dir zu sagen, dass alles gut ist. Schickt Cora etwas, hat sich etwas geändert.
 :::
 
-## Eine Warnung beenden
+## Abklingzeiten: wie oft dieselbe Warnung dich benachrichtigen darf {#cooldowns}
 
-Eine Warnung verschwindet, sobald der Messwert wieder im Bereich liegt. Wegklicken musst du nichts. Die Warnung beschreibt den Zustand des Beckens und ist keine Aufgabe.
+Jede Regel hat ihre eigene **Abklingzeit zwischen Warnungen**. Du stellst sie ein, wenn du die Regel hinzufügst oder bearbeitest. Eine Regel, die nie eine hatte, nutzt 1 Std.
+
+Die Abklingzeit versteckt die Warnung nicht. Sie begrenzt nur, wie oft Cora dazu eine Push-Nachricht schickt. Der Messwert wird weiter bewertet, und die Warnung bleibt die ganze Zeit auf dem Widget und unter der Glocke.
+
+Du kannst 15 Min., 30 Min., 1 Std., 2 Std., 4 Std., 8 Std., 1 Tag, 3 Tage oder 1 Woche wählen.
+
+Eine kurze Abklingzeit passt zu einem schnell schwankenden Messwert wie der Temperatur. Eine lange, bis zu einer Woche, passt zu etwas, das tagelang falsch bleibt, während du auf ein Teil wartest, etwa ein Trident ohne Reagenz oder ein leerer Dosierbehälter.
+
+:::note Verschieben gibt es auf Cora Max
+Cora Mobile hat bei einer aktiven Warnung keine Taste zum Verschieben. Verschieben gibt es auf dem Cora Max-Bildschirm am Becken, und es macht die Warnung für die Abklingzeit still, die du hier gewählt hast. Auf dem Handy änderst du mit der Abklingzeit der Regel, wie oft du von etwas hörst.
+:::
+
+## Eine Warnung beenden {#clearing-an-alert}
+
+Eine Warnung verschwindet von selbst, wenn der Messwert wieder in den Bereich kommt. Du musst nichts wegklicken. Du bekommst dann eine Benachrichtigung, zum Beispiel *"Hauptbecken: Alkalinität wieder normal"*. Kommt das Problem später zurück, bekommst du eine neue Warnung.
 
 :::note Auch kurze Ausreißer lösen Warnungen aus
-Ein einziger Messwert außerhalb des Bereichs genügt für eine Warnung. Schlägt eine Sonde kurz aus, bekommst du also eine. Ist eine Quelle unzuverlässig, kalibriere sie neu oder stell das Widget auf eine andere Quelle um. Den Schwellenwert zu erweitern hilft hier nicht.
+Ein einziger Messwert außerhalb des Bereichs reicht für eine Warnung, eine Sonde, die kurz ausschlägt, löst also eine aus. Ist eine Quelle unzuverlässig, kalibriere sie neu oder stell das Widget auf eine andere Quelle. Mach den Schwellenwert nicht weiter.
 :::
 
-Stimmt der Messwert nicht und das Becken ist in Ordnung (zum Beispiel, weil eine Sonde kalibriert werden muss), kümmere dich um die Quelle. Weitest du den Schwellenwert aus, um eine schlechte Sonde ruhigzustellen, überhörst du auch das nächste echte Problem.
+Manchmal ist der Messwert falsch und das Becken in Ordnung, etwa wenn eine Sonde kalibriert werden muss. Kümmere dich in dem Fall um die Quelle. Machst du einen Schwellenwert weiter, um eine schlechte Sonde ruhigzustellen, verpasst du auch das nächste echte Problem.
 
-## Eine Warnung ausschalten
+## Eine Warnung ausschalten {#turning-an-alert-off}
 
-Schalte im Tab **Regeln** der Warnzentrale den Schalter in der Zeile der Regel aus. Regel und Bereich bleiben gespeichert. Du kannst sie später wieder einschalten, ohne alles neu einzurichten.
+Schalte den Schalter in der Zeile der Regel im Tab **Regeln** aus. Cora behält die Regel und ihren Bereich, du kannst sie also wieder einschalten, ohne sie neu einzurichten.
 
 Solange eine Regel aus ist, bewertet Cora diesen Messwert nicht. Sein Widget bleibt neutral grau und löst nie eine Warnung aus.
 
-:::warning Wasserwert stummschalten, ohne den Bereich zu löschen
-Löschst du einen Schwellenwert, hört die Bewertung dieses Messwerts nicht unbedingt ganz auf. Standard-Referenzbereiche färben den Wert weiter ein und können weiter in die Zusammenfassung einfließen. Nimm deshalb den Schalter der Regel.
+:::warning Schalte einen Wasserwert aus, ohne seinen Bereich zu löschen
+Eine Regel zu löschen, hält Cora nicht immer davon ab, diesen Messwert zu bewerten. Standard-Referenzbereiche färben den Wert weiter ein und können weiter ins Briefing einfließen. Nimm den Schalter der Regel.
 :::

@@ -1,50 +1,82 @@
 ---
 title: Reef Buddy und Berichte
-description: Die tägliche Zusammenfassung, ICP-Ergebnisse, Zustandsberichte und Verlaufsdiagramme auf Cora Max.
+description: Das morgendliche Reef Buddy-Briefing auf Cora Max, Rückmeldung zu Insights, Sondenpflege erfassen, ICP-Ergebnisse, Gesundheitsberichte und Verlaufsdiagramme.
 section: Cora Max
-reviewed: 2026-10-12
-order: 9
+reviewed: 2026-10-13
+order: 12
 group: Intelligence
+twin: mobile-reef-buddy
 ---
 
-Cora Max zeigt dieselben Auswertungen wie dein Handy, nur groß genug, um sie aus der Entfernung zu lesen. Du erreichst sie über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen.
+Cora Max zeigt dieselben Insights wie dein Handy, auf einem Bildschirm, der groß genug ist, um ihn quer durch den Raum zu lesen. Reef Buddy, **ICP-Berichte**, **Gesundheitsberichte** und **Parameterverlauf** findest du alle im **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen).
 
-![Reef Buddy auf Cora Max](img/max-intelligence.webp "Die Zusammenfassung in voller Größe.")
+## Das morgendliche Briefing
+
+Jeden Tag zu deiner **Briefing-Zeit** erscheint Reef Buddy über dem Dashboard, sobald das heutige Briefing fertig ist. Ist **Reef Buddy Briefing** eingeschaltet, liest Cora es laut vor. Es schließt sich von selbst nach zehn Minuten, wenn niemand es berührt, oder du schließt es selbst.
+
+Um es noch einmal zu lesen, tippe in der oberen Leiste auf das Symbol **Reef Buddy**. Ein Punkt am Symbol heißt, dass du das heutige Briefing noch nicht geöffnet hast. Den vollständigen Reef Buddy-Bildschirm findest du im Beckenmenü.
+
+Uhrzeit und Vorleseschalter stellst du unter **Einstellungen → Cora Max-Einstellungen → REEF BUDDY** ein. Die **Briefing-Zeit** ist auf jedem Gerät in deinem Konto dieselbe.
 
 ## Reef Buddy
 
-Die tägliche Zusammenfassung erscheint auf dem Dashboard und hat einen eigenen Vollbildschirm. Dort stehen die Bewertungen für Stabilität und Daten, die Zusammenfassung und die Insights dahinter.
+![Der Reef Buddy-Bildschirm auf Cora Max, mit der heutigen Gesundheitsbewertung, den Insights und Seit deinem letzten ICP](img/max-intelligence.webp "Die heutige Bewertung und Zusammenfassung, die Insights und was sich seit deinem letzten ICP bewegt hat.")
 
-Was die Bewertungen bedeuten, erfährst du unter [Reef Buddy](/help/mobile-reef-buddy).
+Der Reef Buddy-Bildschirm zeigt die Bewertungen für Stabilität und Daten, die Zusammenfassung und die Insights dahinter. Was die Bewertungen bedeuten, steht unter [Reef Buddy](/help/mobile-reef-buddy).
 
-Hast du einen Test eingetragen oder ein ICP-Ergebnis hinzugefügt, zeigt der Bildschirm **Neue Messwerte seit diesem Briefing** und eine Schaltfläche **Briefing aktualisieren**. Tippe darauf, um das Briefing mit den neuen Zahlen neu zu erstellen. Das geht einmal am Tag: danach steht auf dem Bildschirm *Du kannst das Briefing einmal am Tag aktualisieren. Nächste Aktualisierung: morgen.*
+Nachdem du einen Test eingetragen oder ein ICP-Ergebnis hinzugefügt hast, zeigt der Bildschirm **Neue Messwerte seit diesem Briefing** und eine Taste **Briefing aktualisieren**. Tippe darauf, um das Briefing mit den neuen Zahlen neu zu erstellen. Das geht einmal am Tag. Danach steht auf dem Bildschirm *Du kannst das Briefing einmal pro Tag aktualisieren. Nächste Aktualisierung: morgen.*
+
+### Auf ein Insight reagieren
+
+Tippe auf ein Insight, um es zu öffnen.
+
+- **Warum sehe ich das?** zeigt die Messwerte, das Ziel und die Tagebucheinträge, auf denen es beruht.
+- **Stimmt das mit dem überein, was du siehst?** Antworte mit **Bestätigt**, **Schon gewusst**, **Stimmt nicht überein** oder **Nicht sicher** und sag dann, ob es **Wertvoll** oder **Nicht wirklich** war. Cora nutzt deine Antworten, um dein Becken kennenzulernen.
+
+Zweifelt Cora an einem Messwert, zeigt es ihn unter **Einen Blick wert**, zum Beispiel eine Sonde, die vielleicht driftet. Dort kannst du:
+
+- auf **Ich habe es geprüft** tippen, um festzuhalten, was du an der Sonde gemacht hast,
+- auf **Zur Wartung hinzufügen** tippen, um daraus eine Aufgabe zu machen (**pH-Sonde prüfen** oder **Dosierkonfiguration prüfen**), oder
+- auf **Verwerfen** tippen. Es bleibt still, außer das Problem besteht weiter.
+
+### Sondenpflege erfassen
+
+Nachdem du eine Sonde gereinigt, kalibriert oder ersetzt hast, halte das fest, damit Cora den Sprung nicht für eine driftende Sonde hält. Öffne das Verlaufsdiagramm dieses Wasserwerts und tippe auf **Sondenpflege erfassen** (das Sensorsymbol oben) oder nutze **Ich habe es geprüft** bei einem Sonden-Insight. Wähl, was du gemacht hast, gib bei Bedarf einen Referenzwert ein und tippe auf **Sondenpflege erfassen**. Mehr dazu unter [Sondenpflege erfassen](/help/mobile-probes#recording-probe-care).
 
 ## ICP-Ergebnisse
 
-![ICP-Berichte auf Cora Max](img/max-icp.webp "Alle hochgeladenen Ergebnisse mit ihrer Bewertung.")
+![Der Bildschirm ICP-Berichte auf Cora Max, mit dem neuesten Bericht, der Liste der Berichte und der Zusammenfassung des gewählten Berichts](img/max-icp.webp "Das neueste Ergebnis und seine Bewertung, alle gespeicherten Berichte und die Zusammenfassung des geöffneten Berichts.")
 
-Hier siehst du deine hochgeladenen Ergebnisse, jeweils mit Bewertung und Zusammenfassung, und die Trends über alle Berichte.
+Dieser Bildschirm zeigt deine hochgeladenen Ergebnisse mit Bewertung und Zusammenfassung für jedes, dazu die Trends über alle deine Berichte.
 
-Die Bewertung bis 100 berechnet Cora aus deinen Ergebnissen und den jeweiligen Bereichen. Liegt ein Wasserwert außerhalb seines Bereichs, bleibt die Bewertung bei 70 oder darunter. Liegt einer weit daneben, bleibt sie bei 40 oder darunter. Die Farbe zeigt, wo du stehst: grün (gesund) über 70, gelb (braucht Aufmerksamkeit) von 40 bis 70 und rot (kritisch) unter 40.
+Die Bewertung von 100 entsteht, indem Cora deine Ergebnisse mit ihren Bereichen vergleicht. Liegt ein Wasserwert außerhalb seines Bereichs, kann die Bewertung nicht über 70 gehen. Liegt einer weit daneben, nicht über 40. Die Farbe zeigt die Stufe. Grün (gesund) ist über 70, Bernstein (braucht Aufmerksamkeit) 40 bis 70 und Rot (kritisch) unter 40.
 
-Ergebnisse lädst du auf dem Handy hoch. Mehr dazu unter [ICP und Zustandsberichte](/help/mobile-icp-health).
+Ergebnisse lädst du vom Handy hoch. Mehr dazu unter [ICP und Gesundheitsberichte](/help/mobile-icp-health).
 
-## Zustandsberichte
+## Gesundheitsberichte
 
-Du kannst einen Zustandsbericht an der Wand erstellen und dort lesen. Es ist dieselbe Auswertung wie auf dem Handy, und die Bewertung wird genauso berechnet wie bei ICP.
+Du kannst einen Gesundheitsbericht an der Wand erstellen und lesen. Öffne **Gesundheitsberichte** und tippe auf **Erstellen**. Es ist dieselbe Auswertung, die dein Handy aus deinen Wasserwerten, ICP-Ergebnissen und dem Tagebuch macht, und ihre Bewertung funktioniert genauso wie eine ICP-Bewertung.
+
+- Gesundheitsberichte brauchen das Teilen von Daten mit der KI. Ist es aus, zeigt Cora Max **Datenfreigabe nötig**. Schalte es in Cora Mobile unter **Einstellungen → Cora Assistant** ein.
+- Jedes Abo hat eine Anzahl Gesundheitsberichte pro Monat. Sind sie aufgebraucht, siehst du bis zum nächsten Monat **Monatslimit erreicht**. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 
 ## Verlaufsdiagramme
 
-Öffne das **Beckenmenü** und tippe auf **Parameterverlauf**. Wähle unter **Parameter wählen** einen Wasserwert, und er öffnet sich als Diagramm im Vollbild. Tippst du auf eine Kachel im Dashboard, öffnet sich dasselbe Diagramm. An der Wand siehst du so am besten, wenn ein Wert langsam wegdriftet. Ein Monat Alkalinität im Vollbild zeigt einen Trend, den eine kleine Kachel nicht zeigen kann.
+Öffne das **Beckenmenü**, tippe auf **Parameterverlauf** und wähl einen Wasserwert. Er öffnet sich als Diagramm im Vollbild. Ein Tippen auf eine Kachel auf dem Dashboard öffnet dasselbe Diagramm. An einem Wandbildschirm erkennst du so am besten eine langsame Drift. Ein Monat Alkalinität im Vollbild zeigt einen Trend, den eine kleine Kachel nicht zeigen kann.
 
-Der Wasserwertname in der Kopfzeile ist ein Dropdown, du kannst also zu einem anderen Wasserwert wechseln und den Zeitraum behalten. Zwei weitere Dropdowns legen **Zeitraum** und **Quelle** fest: **Alle Quellen** oder eine von **Apex**, **Manuell**, **ICP**, **Cora**, **ReefBeat** oder **AquaWiz**. **Vergleichen** zeichnet einen zweiten Wasserwert ins selbe Diagramm, und die Liste enthält jeden Wasserwert, den das Becken hat. Jede Quelle hat ihre eigene Farbe. Punkte von ReefBeat und AquaWiz erscheinen als Quadrate, von Hand gemessene Werte (Manuell und ICP) als größere Punkte. **Alle Quellen** zeigt alle Quellen nebeneinander. Werte aus verschiedenen Quellen werden dabei nie gemittelt.
+- Der Name des Wasserwerts in der Kopfzeile ist ein Dropdown, du kannst also den Wasserwert wechseln und den Zeitraum behalten.
+- **Zeitraum** legt den Zeitraum fest.
+- **Quelle** zeigt **Alle Quellen** oder eine Quelle, aus der dieser Wasserwert kommt, etwa **Apex**, **Manuell**, **ICP** oder **ReefBeat**. Nur Quellen, die dieser Wasserwert hat, stehen in der Liste.
+- **Vergleichen** zeichnet einen zweiten Wasserwert ins selbe Diagramm.
 
-Mehr dazu unter [Einen Wasserwert genauer ansehen](/help/mobile-metric-detail).
+Jede Quelle hat ihre eigene Farbe. Gerätemesswerte wie ReefBeat und AquaWiz sind Quadrate, und Messwerte, die jemand von Hand genommen hat (Manuell und ICP), sind größere Punkte. **Alle Quellen** zeigt jede Quelle nebeneinander und mittelt nie die Messwerte einer Quelle mit denen einer anderen. Gestrichelte Linien markieren eingetragene Dosierungen. Unter dem Diagramm siehst du **Neuester**, **Ø**, **Min**, **Max** sowie **30-Tage-Tief** und **30-Tage-Hoch**.
+
+Bei Alkalinität, Calcium und Magnesium berechnet die Taste **Dosierrechner** oben eine Korrekturdosis. Mehr dazu unter [Einen Wasserwert genauer ansehen](/help/mobile-metric-detail).
 
 ## Geführte Journeys
 
-Auf Cora Max kannst du eine Journey verfolgen und sehen, wie weit sie ist.
+Eine aktive Journey erscheint als schmales Banner oben auf dem Dashboard des Beckens. Tippe darauf, um die Schritte zu sehen und wie weit du bist.
 
-**Bei einer Einfahr-Journey kannst du hier auch Messwerte eintragen.** Mit **Test erfassen** im Einfahr-Bildschirm trägst du Ammoniak, Nitrit und Nitrat ein, ohne zum Handy zu greifen. Genau dann, wenn du mit dem Testkit am Becken stehst.
+Bei einem neuen Becken, das einfährt, kannst du hier Messwerte eintragen. **Test erfassen** auf dem Einfahr-Bildschirm hält Ammoniak, Nitrit und Nitrat fest, ohne dass du zum Handy greifen musst.
 
-Eine **Problem**-Journey kannst du an der Wand nur ansehen. Starten, einen Schritt abschließen, ein Ergebnis eintragen, sie lösen oder verwerfen, das alles machst du auf dem Handy. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
+Eine **Problem**-Journey kannst du an der Wand nur ansehen. Eine starten, einen Schritt abschließen, ein Ergebnis festhalten und sie lösen oder verwerfen machst du alles auf dem Handy. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).

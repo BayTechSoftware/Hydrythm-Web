@@ -1,81 +1,121 @@
 ---
-title: Pierwsze kroki z Cora Mobile
-description: Zainstaluj Corę, załóż konto, dodaj pierwsze akwarium i zobacz pierwsze odczyty na ekranie.
+title: Konfiguracja Cora Mobile
+description: Zainstaluj Cora Mobile, załóż konto, dodaj pierwsze akwarium i krok po kroku zobacz pierwsze odczyty na ekranie.
 section: Cora Mobile
-reviewed: 2026-10-12
+reviewed: 2026-10-13
 order: 1
 group: Getting started
+twin: max-setup
 ---
 
-Konfiguracja trwa około dziesięciu minut. Na koniec będziesz mieć konto, skonfigurowane akwarium i pulpit z odczytami na żywo.
+Ta strona prowadzi przez pierwsze dziesięć minut z Cora Mobile, w kolejności, w jakiej pojawiają się ekrany. Na koniec będziesz mieć konto, akwarium i pulpit z odczytami.
 
-## Instalacja Cora Mobile
+## Instalacja Cora Mobile {#install-cora-mobile}
 
-Na iPhonie pobierz **Cora Mobile** z [App Store](https://apps.apple.com/app/cora-mobile/id6760301981). Na Androida Cora Mobile wkrótce pojawi się w Google Play. Na ekranie głównym ikona ma podpis **Cora**. To właśnie Cora Mobile.
+Na iPhonie pobierz **Cora Mobile** z [App Store](https://apps.apple.com/app/cora-mobile/id6760301981). Na Androida Cora Mobile wkrótce pojawi się w Google Play. Ikona na ekranie głównym ma podpis **Cora**. To właśnie Cora Mobile.
 
-## Najpierw się rozejrzyj
+## Ekrany powitalne {#the-welcome-screens}
 
-Zanim założysz konto, możesz wybrać **Zobacz przykładową rafę**. To przykładowe akwarium z realistycznymi danymi, ułożone dokładnie tak jak prawdziwe. Działa wyłącznie na danych przykładowych. Nie łączy się z żadnym sprzętem i nic, co tam zrobisz, nie zostanie zapisane.
+Gdy pierwszy raz otworzysz Cora Mobile, kilka krótkich ekranów ją przedstawi. Dotykaj **Dalej**, żeby je przejść, albo **Pomiń** w prawym górnym rogu, żeby od razu przejść do logowania.
 
-Sprawdź w nim, jak działają pulpity, widżety i odczyty, zanim się zdecydujesz.
+Dwa z nich o coś proszą:
 
-## Zakładanie konta
+- **Twoje urządzenia działają w Twojej sieci Wi-Fi** uprzedza o pytaniu, które iPhone zada później. Gdy dodasz pierwszy sprzęt, iPhone zapyta, czy Cora może wyszukiwać urządzenia w sieci lokalnej. Zezwól, bo inaczej Cora nic nie znajdzie w Twojej sieci Wi-Fi. Jeśli odmówiono, **Ustawienia → Dostęp do urządzeń** prowadzi do przełącznika. Zobacz [Ustawienia](/help/mobile-settings#device-access).
+- Ostatni ekran dotyczy alertów. Dotknij **Zezwól na powiadomienia**, a potem zezwól w okienku telefonu, żeby alerty docierały na ten telefon. **Może później** pomija ten krok. Więcej w [Powiadomieniach](/help/mobile-notifications).
 
-Otwórz Cora Mobile i wybierz **Utwórz konto**. Możesz zarejestrować się adresem e-mail albo przez Apple lub Google, jeśli nie chcesz pamiętać kolejnego hasła.
+## Najpierw się rozejrzyj {#looking-around-first}
 
-Cora poprosi o potwierdzenie adresu e-mail i wyśle **link**. Otwórz go na tym urządzeniu i wróć do Cora Mobile. Jeśli wiadomość nie dotrze w ciągu minuty, zajrzyj do spamu.
+Do rozejrzenia się nie potrzebujesz konta. Na ekranie logowania dotknij **Zobacz przykładową rafę**. To przykładowe akwarium z realistycznymi danymi, ułożone jak prawdziwe. Nie łączy się z żadnym sprzętem i nic, co tam zrobisz, nie zostanie zapisane.
+
+Gdy zechcesz założyć własne akwarium, dotknij **Zrób to swoim**.
+
+## Załóż konto {#create-your-account}
+
+1. Na ekranie logowania dotknij **Zarejestruj się** (pod *Nie masz konta?*).
+2. Wpisz adres e-mail i dwa razy hasło. Hasło musi mieć co najmniej 8 znaków, wielką literę, cyfrę i symbol. Lista pod **Twoje hasło musi zawierać:** odhacza się podczas pisania.
+3. Zaznacz **Akceptuję: Warunki korzystania i Polityka prywatności**. Oba to linki, więc możesz je najpierw przeczytać.
+4. Dotknij **Utwórz konto**.
+
+Możesz też dotknąć **Kontynuuj z Apple** albo **Kontynuuj z Google** i pominąć hasło. Tam też zaznacz pole z warunkami. Przy Apple wybierz **Udostępnij mój adres e-mail**, gdy Apple zapyta, żeby wyniki z laboratorium i ICP mogły trafić na Twoje konto Cora.
+
+Jeśli rejestracja była adresem e-mail, Cora poprosi teraz o jego weryfikację. Otwórz e-mail od Cory na tym samym telefonie i dotknij **Potwierdź mój e-mail**. Potem wróć do Cora Mobile i dotknij **Mój e-mail jest zweryfikowany**. Jeśli w ciągu minuty nic nie przyjdzie, zajrzyj do spamu albo dotknij **Wyślij ponownie e-mail weryfikacyjny**. Więcej w [Logowaniu i odzyskiwaniu konta](/help/mobile-account#verifying-your-email).
 
 :::note Jedno konto na wszystkich ekranach
-Konto łączy wszystko w jedną całość. Zaloguj się na to samo konto na Cora Max albo na innym telefonie, a zobaczysz te same akwaria, urządzenia, odczyty i zapisy.
+Twoje konto przechowuje wszystko. Sparuj z nim Cora Max albo zaloguj się na innym telefonie, a zobaczysz te same akwaria, urządzenia, odczyty i zapiski.
 
-Układy pulpitu **nie są** wspólne. Każdy ekran ma własny. Szczegóły w części [Co jest wspólne, a co nie](/help/mobile-multi-device).
+Układ pulpitu w telefonie idzie za kontem na każdy telefon, na którym się zalogujesz. Każdy Cora Max ma własny układ. Zobacz [Co jest wspólne, a co nie](/help/mobile-multi-device).
 :::
 
-## Pierwsze akwarium
+## Dodaj pierwsze akwarium {#add-your-first-tank}
 
-**Akwarium** w Corze to każdy zbiornik wody, który chcesz śledzić. Większość osób ma jedno. Jeśli masz osobny system na fragi albo kwarantannę, to są osobne akwaria.
+W Corze **akwarium** to każdy zbiornik wody, który chcesz śledzić. Większość osób ma jedno. Jeśli masz system na fragi albo akwarium kwarantannowe, każde z nich to osobne akwarium.
 
-Kreator konfiguracji pyta o poniższe rzeczy. Wszystko możesz później zmienić w [profilu akwarium](/help/mobile-tank-profile):
+Po zalogowaniu **Poznajmy Twoje akwarium** pyta o trzy rzeczy. Wymagana jest tylko nazwa, a wszystko możesz później zmienić w [profilu akwarium](/help/mobile-tank-profile).
 
-1. **Nazwa**: taka, jakiej używasz na co dzień, np. „Główne”, „Fragi”, „Kwarantanna”.
-2. **Typ**: rafa mieszana, przewaga SPS, koralowce miękkie, tylko ryby.
-3. **Wymiary i objętość**: rzeczywista objętość wody razem z sumpem. Na niej opierają się obliczenia dawek, więc warto podać ją w miarę dokładnie.
+1. **Jak je nazwiesz?** to nazwa, której używasz na co dzień, na przykład „Główne”, „Fragi” albo „Kwarantanna”.
+2. **Jaki to typ akwarium?** to **Rafa SPS**, **Rafa LPS**, **Rafa mieszana**, **Rafa koralowców miękkich**, **FOWLR** albo **Tylko ryby**. Typ ustala początkowe zakresy alertów. Jeśli nie masz pewności, wybierz **Rafa mieszana**.
+3. **Ile wody?** to rzeczywista objętość wody razem z sumpem. Na tej liczbie opierają się obliczenia dawek, więc podaj ją w miarę dokładnie. Jeśli znasz tylko rozmiar akwarium, dotknij **Nie znasz objętości? Wpisz wymiary**, a Cora ją policzy.
 
-Potem dotknij **Dodaj urządzenia**, żeby od razu przejść do dodawania sprzętu, albo pomiń to na razie. Resztę uzupełnisz później w [profilu akwarium](/help/mobile-tank-profile), we własnym tempie. To obejmuje obsadę, dozowanie, wartości docelowe, oświetlenie i przepływ.
+Dotknij **Utwórz moje akwarium**.
 
-:::note Wiek akwarium wpływa na ocenę odczytów
-Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku. Kreator o to nie pyta. W profilu akwarium, w sekcji **Wymiary akwarium**, ustaw pole **Data uruchomienia akwarium**. Jeśli akwarium dopiero się cykluje, dotknij **Zaczynasz nowe akwarium?** na pulpicie, żeby włączyć prowadzone cyklowanie.
+:::note Akwarium wciąż się cykluje?
+Dotknij **Zaczynasz nowe akwarium?** na pulpicie, **zanim** zapiszesz test albo podłączysz sprzęt. Ta karta pokazuje się tylko przy akwarium bez żadnych odczytów i to nią włączasz prowadzone cyklowanie. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+
+Cora ocenia też odczyty względem tego, co jest normalne dla akwarium w danym wieku. Kreator o to nie pyta, więc ustaw **Data uruchomienia akwarium** w profilu akwarium, w **Wymiary akwarium**.
 :::
 
-## Podłączanie sprzętu
+## „Akwarium jest już aktywne” {#your-tank-is-live}
 
-Gdy akwarium już jest, przejdź do zakładki **Urządzenia**, dotknij **Dodaj urządzenie** i wybierz markę. Cora współpracuje ze sprzętem, który już masz. Co jest obsługiwane i czego potrzebuje każde urządzenie, przeczytasz w **[Podłączaniu sprzętu](/help/mobile-connections)**.
+Następnie zobaczysz nazwę akwarium z dopiskiem **jest już aktywne**, na przykład **„Główne” jest już aktywne**. Ekran proponuje cztery kolejne kroki. Wybierz dowolny albo żaden.
 
-Ten krok możesz pominąć i wrócić do niego później. Akwarium działa świetnie także bez urządzeń. Wtedy wpisujesz odczyty ręcznie.
+- **Skonfiguruj mój akwarium z przewodnikiem** prowadzi przez resztę profilu, po jednej sekcji. Zobacz [Prowadzona konfiguracja](/help/mobile-tank-profile#guided-setup). Kończy się przyciskiem **Dodaj urządzenia**, który przenosi do dodawania sprzętu.
+- **Połącz swój sprzęt** paruje Cora Max. Dla Neptune Apex, Red Sea albo innej marki użyj zamiast tego **Urządzenia → Dodaj urządzenie** (zobacz niżej).
+- **Zapisz swój pierwszy test** otwiera krok pierwszego testu opisany w [Karcie pierwszego testu](/help/mobile-setup#the-first-test-card).
+- **Zapytaj asystenta o cokolwiek** otwiera Cora Assistant z gotowym do wysłania pierwszym pytaniem.
 
-## Pierwsze odczyty
+Gdy skończysz, dotknij **Przejdź do mojego panelu** albo **Zrobię to później**.
 
-Niektóre parametry sprawdzisz tylko testem kropelkowym. Przewiń pulpit na sam dół i dotknij **Zapisz parametry**.
+## Pierwsze 30 dni {#your-first-30-days}
 
-![Zapisywanie parametrów](img/mobile-logparams.webp "Wpisz wyniki testów kropelkowych dla dowolnego parametru, który śledzi akwarium.")
+Na nowym darmowym koncie **Przejdź do mojego panelu** najpierw pokazuje **Pierwsze 30 dni na nasz koszt**. Twój 30-dniowy okres próbny Pro zaczął się w chwili założenia konta i nie wymaga karty. Dotknij **Zacznij odkrywać**, żeby kontynuować, albo **Zobacz plany**, żeby obejrzeć płatne plany. Więcej w [Planach i subskrypcjach](/help/mobile-plans#the-trial).
 
-Każdy odczyt zapisuje się razem ze źródłem i czasem. Dzięki temu Cora powie Ci, gdy sonda i test kropelkowy podają różne wartości.
+## Pierwsze spojrzenie na pulpit {#your-first-look-at-the-dashboard}
 
-### Karta pierwszego testu
+Przy pierwszym otwarciu pulpitu dzieją się dwie rzeczy.
 
-Akwarium bez odczytów i bez podłączonego sprzętu pokazuje u góry pulpitu kartę **Zapisz pierwszy test wody**. Jeden odczyt wystarczy, żeby Reef Buddy, alerty i spostrzeżenia zaczęły dla Ciebie działać. Cora proponuje ten sam krok zaraz po utworzeniu akwarium. Dotknij karty i wybierz jedną z opcji.
+- Cora zapyta **Włączyć spersonalizowane wskazówki rafowe?** Dotknij **Włącz**, jeśli chcesz, żeby Cora Assistant używał w odpowiedziach zapisanych danych akwarium. **Nie teraz** zostawia to wyłączone. Więcej w [Pytaniach do Cory](/help/mobile-assistant#consent).
+- Krótkie wprowadzenie pokazuje główne części ekranu. Zobacz [Wprowadzenie przy pierwszym uruchomieniu](/help/mobile-tour#the-first-run-tour).
+
+## Podłącz sprzęt {#connect-your-equipment}
+
+Przejdź do zakładki **Urządzenia**, dotknij **Dodaj urządzenie** i wybierz markę. Cora współpracuje ze sprzętem, który już masz. [Podłączanie sprzętu](/help/mobile-connections) wymienia, co jest obsługiwane i czego potrzebuje każde urządzenie.
+
+Możesz to pominąć i wrócić później. Akwarium działa dobrze bez urządzeń. Wtedy po prostu zapisujesz odczyty ręcznie.
+
+## Zapisz pierwsze odczyty {#log-your-first-readings}
+
+Niektóre parametry pochodzą tylko z testów kropelkowych. Przewiń pulpit w dół i dotknij **Zapisz parametry** w rzędzie przycisków pod widżetami.
+
+![Formularz Zapisz parametry w Cora Mobile](img/mobile-logparams.webp "Wybierz datę i godzinę, a potem wpisz wyniki testów w grupach Podstawowe, Pierwiastki i Składniki odżywcze.")
+
+Cora zapisuje każdy odczyt z jego źródłem i czasem. Dzięki temu może Ci powiedzieć, gdy sonda i test kropelkowy się nie zgadzają.
+
+### Karta pierwszego testu {#the-first-test-card}
+
+Akwarium bez odczytów i bez podłączonego sprzętu pokazuje pod widżetami, tuż nad **Zapisz parametry**, kartę **Zapisz pierwszy test wody**. Jeden odczyt wystarczy, żeby zaczęły działać Reef Buddy, alerty i spostrzeżenia. Dotknij karty i wybierz jedną z opcji.
+
 
 - **Zapisz wyniki testów teraz** otwiera formularz **Zapisz parametry**.
-- **Połącz urządzenie (Apex lub Red Sea)** otwiera proces dodawania urządzenia. Jeśli profil Twojego akwarium wymienia urządzenie, które Cora może połączyć, karta podaje jego nazwę, na przykład *Połącz swój Neptune Apex*.
+- **Połącz urządzenie (Apex lub Red Sea)** otwiera ekran parowania Cora Max. Żeby połączyć Apex albo urządzenie Red Sea, przejdź do **Urządzenia → Dodaj urządzenie** i wybierz markę. Jeśli profil akwarium wymienia już urządzenie, które Cora może połączyć, karta podaje je z nazwy, na przykład *Połącz swoje urządzenie Neptune Apex*.
 - **Później** zamyka arkusz.
-- **Przypominaj mi o teście co tydzień** dodaje cotygodniowe zadanie konserwacyjne o nazwie **Przetestuj wodę**. Najpierw wybierz **Dzień testu**.
+- **Przypominaj mi o teście co tydzień** dodaje cotygodniowe zadanie konserwacyjne **Przetestuj wodę**. Najpierw wybierz **Dzień testu**.
 
-Dotknij krzyżyka na karcie, żeby ją ukryć. Karta znika sama, gdy akwarium ma odczyt albo podłączone źródło. Cora Max też pokazuje **Zapisz pierwszy test** w akwarium bez danych.
+Dotknij krzyżyka na karcie, żeby ją ukryć. Karta znika sama, gdy akwarium ma odczyt albo podłączone źródło. Cora Max też pokazuje **Zapisz swój pierwszy test** przy akwarium bez danych.
 
-Jeśli akwarium nadal nie ma odczytów trzy dni po utworzeniu, Cora wysyła jedno przypomnienie push. Jeśli żadne z Twoich akwariów nie ma odczytów, Cora wysyła też krótki e-mail w 3. i 10. dniu po rejestracji, po jednym. Oba podlegają Twojemu przełącznikowi **Przypomnienia o konserwacji** w **Ustawienia → Powiadomienia**, a e-mail zawiera linię, jak z niego zrezygnować.
+Jeśli akwarium nadal nie ma odczytów trzy dni po utworzeniu, Cora wysyła jedno przypomnienie push. Jeśli żadne z Twoich akwariów nie ma odczytów, Cora wysyła też krótki e-mail 3. i 10. dnia po rejestracji, każdy jeden raz. Oba zależą od przełącznika **Przypomnienia o konserwacji** w **Ustawienia → Powiadomienia**, a e-mail ma linijkę z informacją, jak z niego zrezygnować.
 
-## Jak wygląda gotowa konfiguracja
+## Jak wygląda gotowa konfiguracja {#what-good-looks-like}
 
-Wszystko gotowe, gdy na górze pulpitu widać nazwę akwarium, niżej kilka widżetów z liczbami, a po pierwszym nocnym briefingu także kartę **Reef Buddy**.
+Wszystko jest gotowe, gdy Panel pokazuje na górze nazwę akwarium i kilka widżetów z liczbami. Karta **Reef Buddy** pojawi się, gdy w nocy powstanie pierwsze podsumowanie.
 
-Dalej: **[Pięć zakładek](/help/mobile-tour)**.
+Dalej zajrzyj do [Jak poruszać się po Cora Mobile](/help/mobile-tour). Żeby dodać drugie akwarium, zobacz [Zarządzanie akwariami](/help/mobile-tanks).

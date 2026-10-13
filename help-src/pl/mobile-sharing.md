@@ -1,39 +1,41 @@
 ---
 title: Udostępnianie akwarium
-description: Przygotuj kartę z bieżącym stanem akwarium, gotową do udostępnienia.
+description: Udostępnij w mediach społecznościowych albo znajomemu obraz z odczytami akwarium, czyli kartę Zdjęcie akwarium.
 section: Cora Mobile
-reviewed: 2026-09-09
-order: 27
+reviewed: 2026-10-13
+order: 10
 group: Your dashboard
 ---
 
-Cora może przygotować **zrzut akwarium**, czyli jedną kartę z bieżącymi parametrami akwarium, gotową do udostępnienia.
+Cora może przygotować **zdjęcie akwarium**: jeden obraz z bieżącymi parametrami akwarium, ułożony pod media społecznościowe albo wiadomość do znajomego.
 
-## Jak go zrobić
+## Jak je zrobić {#creating-one}
 
-Dotknij ikony **udostępniania** w nagłówku akwarium na pulpicie. Cora przygotuje kartę i pokaże podgląd, zanim cokolwiek zostanie wysłane.
+Dotknij ikony udostępniania w nagłówku akwarium na pulpicie. Możesz też dotknąć ikony aparatu u góry Raportu zdrowia. Otworzy się **Zdjęcie akwarium** z podglądem karty i nic nie zostanie wysłane, dopóki nie wybierzesz, dokąd ma trafić.
 
-![Zrzut akwarium](img/mobile-sharing.webp "Wybierz parametry na karcie i jej format.")
+![Arkusz Zdjęcie akwarium](img/mobile-sharing.webp "Wybierz, które metryki pojawią się na karcie, i jej kształt.")
 
-## Co jest na karcie
+## Co jest na karcie {#what-it-contains}
 
-Na karcie jest nazwa akwarium, jego wiek, typ i liczba mieszkańców, a pod nimi wybrane parametry. Przy każdym widać bieżącą wartość i ostatni trend.
+Na karcie jest nazwa akwarium, jego wiek, typ i liczba mieszkańców, a także wynik zdrowia, jeśli jest jakiś niedawny. Pod spodem są wybrane metryki, każda z bieżącą wartością i ostatnim trendem.
 
-## Co pokazać
+## Co pokazać {#choosing-what-appears}
 
-W sekcji **Metryki na karcie** każdy parametr akwarium ma swoją etykietę. Zaznacz te, które chcesz pokazać, albo dotknij **Wybierz wszystko**. Najlepiej wyglądają trzy albo cztery. Przy większej liczbie robi się ciasno.
+W sekcji **Metryki na karcie** każdy parametr z odczytami z ostatniego tygodnia ma swój chip. Dotykaj chipów, żeby je dodać albo usunąć. **Wybierz wszystko** włącza wszystkie, a gdy wszystkie są włączone, przycisk zmienia się w **Resetuj**, który przywraca wybór początkowy. Najlepiej wyglądają trzy albo cztery. Przy większej liczbie na karcie robi się ciasno. Karta zawsze zachowuje co najmniej jedną metrykę.
 
-## Format
+Ten telefon zapamięta Twój wybór dla tego akwarium na następny raz.
 
-Są dwa formaty:
+## Kształt {#shape}
 
-- **Kwadrat (1:1)**: do posta albo wiadomości
-- **Story (9:16)**: do relacji na pełnym ekranie
+Są dwa formaty.
 
-## Wysyłanie
+- **Kwadrat** (1:1) do posta albo wiadomości.
+- **Story** (9:16) do relacji na pełnym ekranie.
 
-**Udostępnij** otwiera zwykłe okno udostępniania w telefonie. Kartę wyślesz więc wszędzie, gdzie telefon może wysłać obraz. Nic nie wychodzi z Twojego konta, dopóki nie wybierzesz, gdzie wysłać kartę.
+## Wysyłanie {#sending-it}
 
-:::note Zrzut nie daje dostępu
-Udostępniony zrzut nie daje nikomu dostępu do Twojego konta, historii ani sprzętu. Jeśli ktoś ma zająć się akwarium pod Twoją nieobecność, użyj [Wyjazdu](/help/mobile-vacation). Tam powstaje strona tylko do odczytu.
+**Udostępnij** otwiera zwykłe okno udostępniania w telefonie, więc kartę wyślesz wszędzie, gdzie telefon może wysłać obraz. Nic nie wychodzi z Twojego konta, dopóki nie wybierzesz, dokąd ma trafić.
+
+:::note Zdjęcie nie daje dostępu
+Zdjęcie akwarium to tylko obraz. Nie daje nikomu dostępu do Twojego konta, historii ani sprzętu. Jeśli ktoś ma zająć się akwarium pod Twoją nieobecność, użyj [Wyjazdu](/help/mobile-vacation). Tworzy on dla tej osoby stronę tylko do odczytu.
 :::

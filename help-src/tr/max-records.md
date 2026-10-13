@@ -1,55 +1,61 @@
 ---
 title: Günlük, canlılar ve bakım
-description: Cora Max'teki kayıt ekranları ve hangi işi telefon yerine duvardaki ekranda yapacağınız.
+description: Cora Max'te test kaydedin, günlüğe kayıt ekleyin, besleme kaydedin ve bakım görevlerini tamamlayın. Hâlâ telefonunuzda yaptıklarınızı da görün.
 section: Cora Max
-reviewed: 2026-10-12
-order: 8
+reviewed: 2026-10-13
+order: 10
 group: Records
+twin: mobile-journal
 ---
 
-Cora Max telefondaki kayıtların aynısını gösterir. Ama hepsini düzenleyemezsiniz. Duvardaki ekranda neler yapabileceğiniz bölüme göre değişir:
+Cora Max telefonunuzla aynı kayıtları gösterir, ama hepsini burada değiştiremezsiniz. Duvardaki ekranda yapabilecekleriniz şunlar.
 
 | Bölüm | Cora Max'te |
 |---|---|
-| **Günlük** | Kayıtları okuyun ve yeni kayıt ekleyin. **Ekstra besleme** ya da **Besleme atlandı** kaydını tek dokunuşla girin |
-| **Ölçümler** | Test sonuçlarını ekran klavyesiyle girin |
-| **Bakım** | Görevi tamamlayın ya da erteleyin. Görev oluşturma ve düzenleme telefonda yapılır |
-| **Canlılar** | Yalnızca okunur. Ekleme ve düzenleme telefonda yapılır |
+| **Parametreleri kaydet** | Test sonuçlarını girin |
+| **Günlük** | Kayıtları okuyun ve yenilerini ekleyin. **Ekstra besleme** ya da **Besleme atlandı** kaydını tek dokunuşla girin |
+| **Bakım** | Bir görevi **Tamamlandı** olarak işaretleyin ya da **Ertele**. Görevleri telefonunuzda oluşturur ve düzenlersiniz |
+| **Canlılar** | Yalnızca görüntüleme. Ekleme ve düzenleme telefonunuzda yapılır |
 
-Burada eklediğiniz her şey hemen telefonunuzda da görünür. Telefonda eklediğiniz de burada.
+Hepsi **akvaryum menüsünde** (üst çubukta akvaryum adına dokunun) ve **Ayarlar → [akvaryumunuz]** altında. Burada eklediğiniz her şey hemen telefonunuzda görünür, tersi de geçerli.
 
-Hepsine **akvaryum menüsünden** ulaşırsınız. Üst çubukta akvaryum adına dokunmanız yeter.
+## Ölçüm kaydetme
 
-![Cora Max'te bakım](img/max-records.webp "Zamanı gelen görevler, her birinin yanında Ertele ve Bitti düğmeleri, altta da son tamamlananlar.")
+**Parametreleri kaydet**'i açın, bir parametreye dokunun, ölçümü ekran klavyesiyle yazın ve kaydedin. Doğrudan akvaryumun panosuna ve geçmişine gider, böylece testi yaptığınız yerde, akvaryumun başında kaydedebilirsiniz. *"Hey Cora, alkaliniteyi 8.1 olarak kaydet"* de diyebilirsiniz.
+
+Cora her sayıyı kaydetmeden önce kontrol eder. Biri yazım hatası gibi görünüyorsa ya da son 30 gününüzün çok dışındaysa **Bu değerler tekrar kontrol edilsin mi?** diye sorar ve ne demek istediğinizi önerebilir (*"8.1 mi demek istediniz?"*). Düzeltmek için **Geri dön**'e, ölçüm doğruysa **Yine de kaydet**'e dokunun.
+
+O parametre için daha yeni bir ölçüm zaten gösteriliyorsa değerinizin yanında **Yalnızca geçmişe kaydedildi** yazar. Değer geçmişte ve grafiklerde saklanır, pano ise daha yeni olanı göstermeye devam eder.
 
 ## Günlük
 
-Akvaryumun başından ayrılmadan kayıt ekleyin. Çoğu zaman bu daha pratiktir, çünkü işi yaparken zaten duvardaki ekranın önündesiniz.
-
-**Akvaryum menüsünü** açın (üst çubukta akvaryum adına dokunun) ve **+** ile kayıt ekleyin. Ya da *"Hey Cora, mysis ile beslediğimi kaydet"* deyin. Günlüğün ayrıntıları [Günlük](/help/mobile-journal) sayfasında.
-
-:::note Üst çubukta günlük simgesi yok
-Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir. Üzerindeki nokta, günün özetini henüz okumadığınızı gösterir. Günlüğe kaydı akvaryum menüsünden ya da sesle eklersiniz.
-:::
+Akvaryum menüsünden **Günlük**'ü açın ve **Yeni kayıt**'a dokunun. Bir başlık verin, isterseniz açıklama, etiket ya da fotoğraf ekleyin. **Su parametrelerini ekle**, güncel ölçümleri kayıtla birlikte saklar. Ya da *"Hey Cora, mysis ile beslediğimi kaydet"* deyin. Ayrıntılar [Günlük](/help/mobile-journal) sayfasında.
 
 ### Besleme
 
-Günlük ekranının en üstündeki **Ekstra besleme** ve **Besleme atlandı** düğmeleri her biri bir günlük kaydı ekler. Altlarındaki satır besleme rutininizi gösterir, örneğin *Besleme rutini: Pul yem: 2 tutam, günde 2 kez*. Rutini Cora Mobile'da ayarlarsınız. Kayıtlı bir rutin yoksa satırda *Besleme rutinini telefon uygulamasından ayarlayın* yazar.
+Günlük ekranının üstündeki **Ekstra besleme** ve **Besleme atlandı** düğmelerinin her biri bir günlük kaydı ekler. Altlarındaki satır besleme rutininizi gösterir, örneğin *Besleme rutini: Pul yem: 2 tutam, günde iki kez*. Rutini Cora Mobile'da ayarlarsınız. Kayıtlı rutin yoksa satırda *Besleme rutinini telefon uygulamasından ayarlayın* yazar.
 
-Cora Max Neptune Apex'inizi okuyorsa, bir Besleme A-D döngüsü başladığında onu da kaydeder. Döngüyü burada, Apex'te ya da Apex Fusion'da başlatmanız fark etmez.
+Cora Max Neptune Apex'inizi okuyorsa, bir Besleme A–D döngüsü başladığında onu da kaydeder. Döngüyü burada, Apex'te ya da Apex Fusion'da başlatmanız fark etmez.
 
-## Canlılar
-
-Türe göre gruplanmış tüm envanteri telefondaki durumlarıyla birlikte görürsünüz. Bu ekran **yalnızca okunur**. Canlı eklemek ve düzenlemek için Cora Mobile'ı kullanın. Orada girdiğiniz kayıt hemen bu ekranda da çıkar. Ayrıntılar [Canlılar](/help/mobile-livestock) sayfasında.
+:::note Üst çubukta günlük simgesi yok
+Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir. Üzerindeki nokta, bugünün özetini henüz okumadığınızı gösterir. Günlük kayıtlarını akvaryum menüsünden ya da sesle eklersiniz.
+:::
 
 ## Bakım
 
-Görev listesini, uyum oranını ve geciken görev sayısını görürsünüz. Bir işi bitirdiğinizde görevi hemen tamamlandı olarak işaretleyebilirsiniz. Ayrıntılar [Bakım](/help/mobile-maintenance) sayfasında.
+![Cora Max'te bakım](img/max-records.webp "Zamanı gelen görevler, her birinde Ertele ve Tamamlandı, altta da son tamamlananlar.")
 
-## Ölçüm girme
+Ekranın üstü kaç görevin zamanının geldiğini söyler. Altında **Yaklaşan**, her görevi **BUGÜN**, **3g İÇİNDE** ya da **GECİKTİ 2g** ile listeler. **Tamamlandı · son 7 gün** de son yaptıklarınızı gösterir.
 
-Cora Max'te test sonuçlarını doğrudan girebileceğiniz bir ekran klavyesi var. Testi akvaryumun başında yaptıysanız sonucu da orada kaydedersiniz.
+- Bir görevi bitirdiğinizde **Tamamlandı**'ya dokunun.
+- Görevi **1 Gün**, **3 Gün**, **1 Hafta**, **2 Hafta** ya da **1 Ay** ertelemek için **Ertele**'ye dokunun.
 
-:::note Kayıtlar ortaktır, kopyalanmaz
+Görevleri telefonunuzda ekler ve değiştirirsiniz. Ayrıntılar [Bakım](/help/mobile-maintenance) sayfasında.
+
+## Canlılar
+
+Burada **Akvaryumda** olanlar ve **Artık akvaryumda değil** olanlarla birlikte tüm envanter yer alır. Bu ekranda yalnızca görüntülenir. Canlıları Cora Mobile'da ekler ve düzenlersiniz, orada eklediğiniz şey hemen bu ekranda görünür. Ayrıntılar [Canlılar](/help/mobile-livestock) sayfasında.
+
+:::note Tek kayıt seti
 Her akvaryumun tek bir günlüğü, tek bir canlı envanteri ve tek bir bakım listesi vardır. Cora Max ve telefonunuz aynı kayıtları gösterir.
 :::

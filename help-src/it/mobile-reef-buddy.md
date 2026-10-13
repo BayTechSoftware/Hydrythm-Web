@@ -1,98 +1,118 @@
 ---
 title: Reef Buddy
-description: Il briefing quotidiano: cosa contiene, quando arriva e come leggere i punteggi.
+description: Il tuo briefing quotidiano di Reef Buddy, cosa contiene, quando arriva, come leggere i punteggi e perché un briefing potrebbe non arrivare.
 section: Cora Mobile
-reviewed: 2026-10-12
-order: 24
+reviewed: 2026-10-13
+order: 29
 group: Intelligence
+twin: max-intelligence
 ---
 
-Reef Buddy è un breve resoconto quotidiano sulla tua vasca. Arriva ogni mattina, ti dice cosa è cambiato e ti segnala quello che merita attenzione prima che te ne accorga da solo.
+Reef Buddy è un breve sguardo quotidiano alla tua vasca. Arriva ogni mattina, ti dice cosa è cambiato e ti segnala quello che richiede attenzione prima che te ne accorga da solo.
 
-Lo trovi come scheda in cima alla dashboard e come notifica.
+Lo vedi come scheda in cima alla dashboard, e come notifica quando c'è qualcosa su cui vale la pena agire.
 
-![Un briefing di Reef Buddy](img/mobile-reefbuddy.webp "Punteggi Stabilità e Dati, un riepilogo, poi gli insight dietro di essi.")
+![Un briefing di Reef Buddy](img/mobile-reefbuddy.webp "I punteggi Stabilità e Dati, un riassunto, poi le osservazioni che ci stanno dietro.")
 
 ## Cosa c'è in un briefing
 
-**Un titolo**, cioè la situazione della vasca oggi in una riga.
-
-Poi ci sono due punteggi:
+Comincia con un titolo, una riga che riassume la vasca oggi. Poi vengono due punteggi.
 
 | Punteggio | Significato |
 |---|---|
-| **Stabilità** | Su 100. Quanto sono state stabili le letture negli ultimi 30 giorni |
-| **Dati** | In percentuale. Quanto sono completi i dati su cui si basa la valutazione |
+| **Stabilità** | Su 100. Quanto sono state stabili le tue letture negli ultimi 30 giorni |
+| **Dati** | Una percentuale. Quanto sono completi i dati dietro la valutazione |
 
-Un punteggio Dati basso vuol dire che la valutazione si basa su meno letture di quante ne servirebbero. Guardalo per primo. Se Dati è basso, considera provvisorio il punteggio Stabilità che gli sta accanto.
+Un punteggio Dati basso vuol dire che Cora aveva meno letture di quante ne volesse. Guardalo per primo. Quando Dati è basso, prendi il numero di Stabilità accanto come una prima stima.
 
-**Un riassunto**, un breve paragrafo che spiega il titolo con i tuoi valori e i tuoi intervalli.
+Poi c'è un riassunto, un breve paragrafo che spiega il titolo usando i tuoi valori e intervalli reali.
 
-**Osservazioni**, cioè i singoli risultati. Ognuna ha una categoria (per esempio *Chimica dell'acqua*) e una frequenza (per esempio *Giornaliero*), e si apre per mostrare i dettagli. In cima alla sezione un'etichetta mostra il tipo di vasca e quanto è completo il suo profilo, perché da tutti e due dipende quello che Cora può dedurre.
+Poi vengono le osservazioni, una per ogni risultato. Ognuna ha una categoria (per esempio *Chimica dell'acqua*) e una frequenza (per esempio *Giornaliero*), e puoi aprirla per i dettagli. Un'etichetta in cima alla sezione mostra il tipo di vasca e quanto è completo il suo profilo. Tutti e due influiscono su cosa Cora può concludere.
 
-Le osservazioni vengono filtrate prima di arrivare a te. Un'osservazione deve reggere su più letture, non su una sola, e deve dirti qualcosa che un singolo grafico non ti avrebbe già mostrato.
+Cora filtra le osservazioni prima che arrivino a te. Un'osservazione deve reggere su più letture. Una sola non basta. Deve anche dirti qualcosa che un singolo grafico non mostrerebbe già.
 
 Tocca la scheda sulla dashboard per aprire il briefing completo.
 
+## Riaprire il briefing {#dismissing-the-card}
+
+Tocca **×** per togliere la scheda di oggi dalla dashboard. Quella di domani arriva comunque.
+
+Per aprire il briefing di oggi dopo aver tolto la scheda, tocca il pulsante del giornale in alto sulla dashboard (**Salute quotidiana di Reef Buddy**). Un briefing più vecchio si apre dalla sua notifica.
+
 ## Aggiornare il briefing con un nuovo test
 
-Se registri un test a mano o aggiungi un risultato ICP dopo l'uscita del briefing, la scheda del briefing completo mostra **Nuove misurazioni dopo questo briefing** con un pulsante **Aggiorna il briefing**. Toccalo e Cora rifà il briefing con i numeri nuovi. Puoi farlo una volta al giorno per ogni famiglia. Dopo, il pulsante è disattivato e dice *Puoi aggiornare il briefing una volta al giorno. Prossimo aggiornamento: domani.*
+Se registri un test a mano o aggiungi un risultato ICP dopo l'uscita del briefing, il briefing completo mostra **Nuove misurazioni dopo questo briefing** con un pulsante **Aggiorna il briefing**. Toccalo e Cora rifà il briefing con i numeri nuovi. Usa un messaggio della tua quota dell'Assistente.
+
+Puoi farlo una volta al giorno per il tuo account. Dopo, il pulsante è disattivato e dice *Puoi aggiornare il briefing una volta al giorno. Prossimo aggiornamento: domani.*
 
 Le letture di sonde e controller non fanno comparire questa proposta, perché arrivano per tutto il giorno.
 
 ## Perché vedi un'osservazione
 
-Sotto un'osservazione, tocca **Perché vedo questo?** Il foglio **Perché lo vedi** elenca le **Misurazioni usate**, l'**Obiettivo di confronto** (il tuo obiettivo o un intervallo di riferimento), tutto quello **Dal tuo diario** di cui ha tenuto conto e la **Finestra di analisi (giorni)** che ha guardato. Se il ragionamento non si adatta alla tua vasca, rispondi all'osservazione come spiegato più sotto in "Correggere un'osservazione".
+Sotto un'osservazione, tocca **Perché vedo questo?** Il pannello **Perché lo vedi** elenca le **Misurazioni usate**, l'**Obiettivo di confronto** (il tuo obiettivo, o un intervallo di riferimento), tutto quello **Dal tuo diario** di cui ha tenuto conto e il periodo in giorni che ha guardato. Se il ragionamento non si adatta alla tua vasca, rispondi all'osservazione come spiegato in [Correggere un'osservazione](#correcting-an-insight).
 
-I briefing usano anche più dei soli valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo, i totali delle tue teste DŌS e, se hai un monitor Inkbird per l'aria della stanza in Beta, la temperatura e l'umidità della stanza. Inkbird è aperto solo agli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+I briefing usano anche altro oltre ai valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo, i totali delle tue teste DŌS e, se hai un monitor dell'aria della stanza Inkbird, la temperatura e l'umidità della stanza.
+
+:::note Inkbird è in Beta
+**Beta.** Inkbird è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza. Di più in [Funzioni Beta](/help/mobile-beta).
+:::
 
 ## Quando arriva
 
-Una volta al giorno per ogni vasca, all'ora che scegli. La imposti in **Impostazioni**, alla voce **Orario del riepilogo**. Il briefing arriva entro circa 15 minuti da quell'ora, nel tuo fuso orario. Se non scegli nulla, arriva alle 8:00.
+Una volta al giorno per ogni vasca, all'ora che scegli. La imposti in **Impostazioni → Orario del riepilogo**, accanto a **Notifiche**. Il briefing arriva entro circa 15 minuti da quell'ora, nel tuo fuso orario. Se non scegli mai, arriva alle 8:00.
 
-Scegli un orario successivo al tuo solito test del mattino, così il risultato di oggi è nel briefing.
+Scegli un'ora successiva al tuo solito test del mattino, così il risultato di oggi è nel briefing.
 
-Nei giorni in cui non c'è niente da guardare, di solito Reef Buddy non manda notifiche per dirti che va tutto bene. **Se ricevi una notifica, c'è qualcosa da fare.** Può essere un cambiamento nuovo, oppure una situazione che dura da abbastanza tempo da meritare una segnalazione.
+In un giorno in cui niente richiede la tua attenzione, di solito Reef Buddy resta in silenzio. Non manda una notifica solo per dire che va tutto bene. **Una notifica vuol dire che c'è qualcosa su cui vale la pena agire.** Può essere un cambiamento nuovo, oppure qualcosa che dura da abbastanza tempo da meritare una segnalazione.
 
-:::note Un briefing per ogni vasca
-Ogni vasca ha il suo briefing. Se hai tre impianti ricevi tre briefing, ognuno solo sul suo impianto.
+:::note Una vasca, un briefing
+Ogni vasca coperta dal tuo piano riceve il suo briefing, e ognuno parla solo di quella vasca. Vedi [Quali vasche ricevono un briefing](#availability).
 :::
 
 :::note Cora Max ha la sua impostazione per Reef Buddy
-Anche un Cora Max ha una sezione **Reef Buddy** nelle sue Impostazioni. Il suo **Orario del riepilogo** è la stessa impostazione del telefono: cambialo su uno dei due e cambia su entrambi. L'interruttore del briefing a schermo appartiene solo a quel Cora Max. Spegnerlo lì non impedisce al briefing di arrivare sul telefono.
+Anche Cora Max ha una sezione **Reef Buddy** nelle sue Impostazioni. Il suo **Orario del riepilogo** è la stessa impostazione del telefono: cambialo su uno dei due e lo seguono entrambi. L'interruttore del briefing a schermo appartiene solo a quel Cora Max. Spegnerlo lì non impedisce al briefing di arrivare sul telefono.
 :::
 
 ## Leggere i punteggi
 
-**Stabilità** indica quanto sono state stabili le letture negli ultimi 30 giorni. Misura la stabilità e non se le letture sono nell'intervallo. Una vasca tenuta stabile al livello sbagliato può quindi avere un buon punteggio. Per un punteggio rispetto ai tuoi intervalli obiettivo, chiedi un [Report di salute](/help/mobile-icp-health). La Stabilità va seguita nel tempo e non è un voto. Confrontala con i tuoi punteggi precedenti, non con quelli di un'altra vasca.
+**Stabilità** mostra quanto sono state stabili le tue letture negli ultimi 30 giorni. Misura solo la stabilità. Non controlla se le letture sono nell'intervallo, quindi una vasca tenuta stabile al livello sbagliato può comunque avere un buon punteggio. Per vedere come vai rispetto ai tuoi intervalli obiettivo, avvia un [Report di salute](/help/mobile-icp-health#health-reports). Considera la Stabilità come una tendenza da seguire nel tempo. Confrontala con i tuoi punteggi precedenti, non con la vasca di qualcun altro.
 
-**Dati** indica quante informazioni recenti aveva a disposizione la valutazione. Scende quando le letture invecchiano.
+**Dati** mostra quante informazioni recenti Cora aveva a disposizione. Scende quando le letture invecchiano.
 
-:::note Se il punteggio Dati scende, di solito le letture sono vecchie
-Se per una settimana non fai test, il punteggio Dati scende e la Stabilità diventa meno affidabile. Registra nuove letture e tutti e due tornano a posto.
+:::note Un punteggio Dati in calo di solito vuol dire letture vecchie
+Se non fai nessun test per una settimana, il punteggio Dati scende e il punteggio Stabilità diventa meno affidabile. Registra qualche lettura per farli risalire entrambi.
 :::
 
-## Chiudere la scheda
+## Quali vasche ricevono un briefing {#availability}
 
-La **×** toglie dalla dashboard la scheda di oggi. Quella di domani arriva comunque. I briefing passati restano nella scheda **Intelligence**.
+Reef Buddy fa parte dei piani a pagamento. È compreso anche nella prova di 30 giorni che parte quando crei il tuo account.
 
-## Disponibilità
+Ogni piano copre un certo numero di vasche: 1 nella prova e con Plus, 5 con Pro e 20 con Max. I briefing vanno alle prime vasche nell'ordine impostato in **Impostazioni → Riordina vasche**. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.
 
-Reef Buddy fa parte dei piani a pagamento. È compreso nella prova di 30 giorni che parte quando ti registri. Finita la prova, con un account gratuito non ricevi più briefing. Vedi [Piani](/help/mobile-plans).
+Dopo la prova, un account gratuito vede una scheda Reef Buddy bloccata con **Vedi i piani** al posto del briefing, e non riceve la notifica del briefing. Di più in [Piani e abbonamenti](/help/mobile-plans).
+
+## Se il briefing non è arrivato
+
+- **Niente richiedeva la tua attenzione.** In una buona giornata Reef Buddy resta in silenzio. La scheda è comunque sulla dashboard.
+- **La tua prova è finita.** Un account gratuito riceve la scheda bloccata e nessuna notifica.
+- **La vasca è oltre il limite del tuo piano.** Spostala più in alto in **Impostazioni → Riordina vasche**.
+- **Le notifiche sono spente.** Controlla [Notifiche](/help/mobile-notifications).
+
+Se hai spento **Consenti al Cora Assistant di usare i dati salvati della vasca**, il briefing arriva comunque, ma il suo riassunto è un testo fisso semplice e l'osservazione scritta dall'IA viene omessa. Vedi [Fare domande a Cora](/help/mobile-assistant#consent).
 
 ## Correggere un'osservazione
 
-A ogni osservazione puoi dare una di quattro risposte:
+Puoi rispondere a ogni osservazione in uno di quattro modi.
 
 | Risposta | Significato |
 |---|---|
-| **Confermato** | Era giusta e utile |
+| **Confermato** | Era giusta, e utile |
 | **Non corrisponde** | Non corrisponde a quello che vedi |
-| **Lo sapevo già** | Era giusta, ma lo sapevi già |
+| **Lo sapevo già** | Giusta, ma lo sapevi già |
 | **Non sicuro** | Per ora non sai giudicarla |
 
-Quando Reef Buddy segnala una deriva, chiede anche *Questo avviso è stato utile?* Puoi rispondere **Utile**, **Non utile**, **Questo cambiamento è previsto** oppure **La misurazione sembra errata**. Le tue risposte influenzano cosa verrà messo in primo piano nei briefing successivi. Un'osservazione che scarti sparisce **solo per un po'**: se la situazione continua, torna.
+Quando Reef Buddy segnala una deriva, chiede anche *Questo avviso è stato utile?* Puoi rispondere **Utile**, **Non utile**, **Questo cambiamento è previsto** o **La misurazione sembra errata**. Le tue risposte influenzano cosa compare per primo nei briefing successivi. Nascondere un'osservazione vale solo per un po'. Se il problema c'è ancora, l'osservazione torna.
 
-:::note I problemi seri non vengono mai nascosti
-Le tue risposte possono attenuare solo le osservazioni meno gravi. Quelle di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.
+:::note I risultati seri non vengono mai nascosti
+Le risposte attenuano solo le osservazioni meno gravi. Le osservazioni di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.
 :::

@@ -1,64 +1,70 @@
 ---
 title: Steckdosen und Steuerung
-description: Steckdosen auf Cora Max schalten, den Fütterungsmodus nutzen und verstehen, was Auto bedeutet.
+description: Apex-Steckdosen auf Cora Max schalten, den Fütterungsmodus starten oder abbrechen, die Schublade Steckdosen & Füttern nutzen und was Auto, Aus und Ein bedeuten.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-13
 order: 5
 group: Equipment
 ---
 
-Mit Cora Max schaltest du die Ausrüstung in deinem System. Das geht über Steuerungs-Widgets auf dem Dashboard, über die Schublade **Steckdosen & Füttern** oder per Sprache.
+Auf dieser Seite geht es darum, auf Cora Max Steckdosen zu schalten und den Fütterungsmodus zu starten. Das geht über Steckdosen-Kacheln auf dem Dashboard, über die Schublade **Steckdosen & Füttern** oder per Sprache.
 
 :::warning Diese Steuerung wirkt direkt auf dein Becken
-Es gibt kein Rückgängig. Steckdosen mit Vorhängeschloss fragen vorher nach einer Bestätigung. Alle anderen schalten, sobald du tippst. Als Ergebnis bekommst du **Bestätigt**, **Unbestätigt** (gesendet, aber keine Rückmeldung), **Abgelehnt** oder **Keine Änderung**. Mehr dazu unter [Deine Ausrüstung steuern](/help/mobile-device-control).
+Es gibt kein Rückgängig. Steckdosen mit Vorhängeschloss bitten dich vorher um Bestätigung. Alle anderen schalten, sobald du tippst. Ein Befehl kann mit **Bestätigt**, **Unbestätigt** (gesendet, aber keine Rückmeldung), **Abgelehnt** oder **Keine Änderung** zurückkommen. Mehr dazu unter [Deine Ausrüstung steuern](/help/mobile-device-control).
 :::
 
-## Die drei Zustände
+## Die drei Zustände {#the-three-states}
 
 Jede Steckdose ist in einem von drei Zuständen.
 
-**Auto** gibt die Steckdose an ihr Apex-Programm zurück. Meistens sollte eine Steckdose hier stehen.
+**Auto** gibt die Steckdose an ihre Apex-Programmierung zurück. Meistens sollte eine Steckdose dort stehen.
 
 **Aus** und **Ein** sind manuelle Übersteuerungen. Sie wirken sofort und **bleiben, bis du sie zurückstellst**. Sie laufen nicht ab, und nichts stellt sie für dich zurück.
 
 :::warning Eine manuelle Übersteuerung läuft nicht ab
-Stell die Steckdose zurück auf **Auto**, wenn du fertig bist. Das macht sonst niemand. Du, die Sprachsteuerung oder eine Automation können sie später trotzdem ändern. Eine Übersteuerung ist keine Sperre.
+Stell sie zurück auf **Auto**, wenn du fertig bist, denn sonst tut es niemand. Eine Übersteuerung ist aber keine Sperre. Du, deine Stimme oder eine Automation können sie später trotzdem ändern.
 :::
 
-## Auf dem Dashboard schalten
+## Auf dem Dashboard schalten {#switching-from-the-dashboard}
 
-Steuerungs-Widgets zeigen alle drei Zustände und heben den aktuellen hervor. Tippe auf den Zustand, den du willst.
+Steckdosen-Kacheln zeigen die drei Zustände und heben den aktuellen hervor. Tippe auf den, den du willst.
 
-Manche Steckdosen haben ein **Vorhängeschloss**. Du musst es nirgends ausschalten. Es bedeutet nur, dass die Steckdose vor jeder Änderung nachfragt, damit ein versehentliches Tippen nichts Wichtiges schaltet. Mehr dazu weiter unten.
+Manche Steckdosen haben ein **Vorhängeschloss**. Es bedeutet, dass die Steckdose dich vor einer Änderung um Bestätigung bittet, damit ein versehentliches Tippen nichts Wichtiges schaltet. Wenn du darauf tippst, zeigt ein Dialog die Steckdose, ihren aktuellen Zustand, die Übersteuerung, die du gleich setzt, und was das mit dem Becken machen kann. Es gibt keine Sperre, die du anderswo ausschalten müsstest.
 
-## Die Schublade Steuerung
+Standardmäßig haben Heizer, Kühler, Rückförderpumpen, Nachfüllanlage (ATO), Futterautomaten und jede Steckdose, die Cora nicht einordnen kann, das Vorhängeschloss. Licht, Abschäumer, Strömungspumpen, Dosierpumpen, Reaktoren, UV und Lüfter schalten mit einem Tippen.
 
-Zieh die Lasche am unteren Rand des Dashboards nach oben, um die **Steuerung** zu öffnen. Dort findest du alle Steckdosen deines Systems, auch die ohne eigenes Widget, und die Fütterungszyklen.
+## Die Schublade Steckdosen & Füttern {#the-controls-drawer}
 
-![Die Steuerungs-Schublade](img/max-controls.webp "Oben die Fütterungszyklen, darunter alle Steckdosen.")
+Du siehst sie nur bei einem Becken mit Neptune Apex. Tippe auf die kleine Beschriftung **Steckdosen & Füttern** unten auf dem Dashboard oder wisch irgendwo auf dem Dashboard nach oben. Das öffnet **Steuerung**, mit **FÜTTERN** oben und **STECKDOSEN** darunter.
 
-Eine Steckdose mit **Vorhängeschloss** ändert sich erst, wenn du ausdrücklich bestätigst. Tippst du darauf, öffnet sich ein Dialog. Er nennt die Steckdose, ihren aktuellen Zustand und die Übersteuerung, die du gleich auslöst. Das ist ein Bestätigungsschritt und keine Sperre, die du anderswo lösen müsstest.
+![Die Schublade Steuerung](img/max-controls.webp "Oben die Fütterungszyklen, darunter die Steckdosen, die für dieses Dashboard ausgewählt sind.")
 
-## Fütterungsmodus
+Sie zeigt die Steckdosen und Fütterungszyklen, die du im [Dashboard-Editor](/help/max-dashboard-editing#outlets-feed) unter **Steckdosen & Füttern** ausgewählt hast, oder alle, wenn du keine ausgewählt hast. Steckdosen mit Vorhängeschloss bitten auch hier um Bestätigung. Anschlüsse an anderen Controllern schaltest du auf ihren eigenen Geräteseiten, siehe [Ausrüstung mit Cora Max steuern](/help/max-device-control).
 
-Mit dem Fütterungsmodus pausierst du die Strömung sicher zum Füttern. Er pausiert die Geräte, die pausieren sollen, und lässt die anderen weiterlaufen. Wenn die Zeit um ist, **stellt er alles von selbst wieder her**.
+Kommt nach dem Tippen auf eine Steckdose *Der Apex hat nicht geantwortet: Es wurde möglicherweise übernommen* zurück, prüf die Steckdose, bevor du es noch einmal versuchst.
 
-Nimm lieber den Fütterungsmodus, als Pumpen von Hand auszuschalten. Dann musst du nicht selbst daran denken, alles wieder einzuschalten.
+## Fütterungsmodus {#feed-mode}
 
-Die Fütterungszyklen heißen **A**, **B**, **C** und **D**. Dein Controller legt sie fest, und jeder pausiert andere Geräte. Wähl den, der zu deinem Vorhaben passt. Mit **Abbrechen** beendest du einen laufenden Zyklus vorzeitig, und alles läuft sofort wieder.
+Mit dem Fütterungsmodus pausierst du die Strömung sicher, während du fütterst. Dein Apex pausiert die Ausrüstung, die pausieren soll, lässt den Rest in Ruhe und **stellt alles von selbst wieder her**, wenn die Zeit um ist.
 
-Starte einen Zyklus in der Steuerungs-Schublade, oder sag *„Fütterungsmodus starten“*.
+Nimm ihn, statt Pumpen von Hand auszuschalten. Er stellt das System auch dann wieder her, wenn du es vergisst.
 
-## Per Sprache
+Die Fütterungszyklen sind Feed A, Feed B, Feed C und Feed D und erscheinen unter **FÜTTERN** als **A**, **B**, **C** und **D**. Es sind die Zyklen, die auf deinem Apex programmiert sind, und jeder kann andere Ausrüstung pausieren. Wähl den, der zu dem passt, was du vorhast. **Abbrechen** beendet einen laufenden Zyklus vorzeitig und stellt alles sofort wieder her.
 
-Du kannst Steckdosen auch per Sprache schalten, etwa mit *„Schalte den Abschäumer aus“* oder *„Stell den Lüfter zurück auf Auto“*.
+Starte einen in der Schublade oder sag *"Fütterungsmodus starten"*.
 
-Bevor Cora etwas an deiner Ausrüstung ändert, **fragt Cora nach**. Du hörst, was gleich passiert, und Cora wartet auf dein Okay. Ist eine Anweisung unklar, passiert nichts.
+Sagt Cora Max, dass der Apex nicht geantwortet hat, läuft die Fütterung vielleicht schon. Prüf die Rückförderpumpe, bevor du sie noch einmal startest.
 
-Mehr dazu unter **[Mit Cora sprechen](/help/max-voice)**.
+## Per Sprache {#by-voice}
 
-## Nachsehen, was passiert ist
+Du kannst Steckdosen per Sprache schalten, zum Beispiel *"Schalte den Abschäumer aus"* oder *"Stell den Lüfter zurück auf Auto"*.
 
-Jede Anfrage wird festgehalten. Dazu steht, wer sie ausgelöst hat (diese App, ein Cora-Bildschirm, die Sprachsteuerung, der Assistent, eine Automationsregel, eine Smart-Taste oder dein Konto) und welchen Weg sie genommen hat. Auf Cora Max tippst du in der oberen Leiste auf den Beckennamen und wählst **Aktivität**. Auf dem Handy findest du das unter **Einstellungen → Aktivität**.
+Bevor etwas deine Ausrüstung erreicht, **fragt Cora erst bei dir nach**. Cora sagt dir, was gleich passiert, und wartet auf dein OK. Ist Cora nicht sicher, was du meinst, passiert nichts.
+
+Mehr dazu unter [Mit Cora sprechen](/help/max-voice).
+
+## Nachsehen, was passiert ist {#seeing-what-happened}
+
+Jede Anfrage wird protokolliert, mit dem, was sie ausgelöst hat, und wie sie ausgegangen ist, egal ob sie aus Cora Mobile, von einem Cora Max, per Sprache, vom Assistenten oder von einer Automation kam. Auf Cora Max tippst du in der oberen Leiste auf den Beckennamen und wählst **Aktivität**. Auf dem Handy findest du es unter **Einstellungen → Aktivität**. Mehr dazu unter [Aktivität auf Cora Max](/help/max-activity).
 
 Hat sich etwas geändert und du weißt nicht, warum, schau zuerst dort nach.

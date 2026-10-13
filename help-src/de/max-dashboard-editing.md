@@ -1,88 +1,104 @@
 ---
 title: Das Cora Max-Dashboard bearbeiten
-description: Raster wählen, Widgets hinzufügen und Layouts für den Cora Max-Bildschirm speichern.
+description: Kacheln auf dem Cora Max-Dashboard hinzufügen, verschieben und entfernen, ein Raster wählen, Vorlagen oder Mit KI gestalten nutzen und Layouts speichern, um sie auf jedem Cora Max wiederzuverwenden.
 section: Cora Max
 reviewed: 2026-10-13
 order: 4
 group: Your dashboard
+twin: mobile-dashboard-editing
 ---
 
-Das Cora Max-Dashboard hat ein **festes Raster**. Alle Kacheln müssen auf einen Bildschirm passen, denn der Bildschirm scrollt nicht. Das ist der größte Unterschied zum Dashboard auf dem Handy.
+Diese Seite zeigt, wie du die Kacheln auf einem Cora Max-Dashboard anordnest. Es nutzt ein **festes Raster**: Der Bildschirm scrollt nicht, also muss jede Kachel auf einen Bildschirm passen. Das ist der größte Unterschied zum Dashboard auf dem Handy.
 
-Den Editor öffnest du über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen und dann auf **Dashboard-Layout**. Du findest ihn auch unter **Einstellungen → Beckeneinstellungen → [dein Becken] → Dashboard-Layout**.
+Öffne den Editor über das **Beckenmenü**: Tippe in der oberen Leiste auf den Beckennamen und dann auf **Dashboard-Layout**. Du findest ihn auch unter **Einstellungen → [dein Becken] → Dashboard-Layout**.
 
-![Der Dashboard-Editor auf Cora Max](img/max-dashboard-editor.webp "Oben die Rastergrößen, darunter die Kacheln. Jede Kachel zeigt ihren Typ und ihre Quelle, aber keinen Messwert, denn hier geht es nur um das Layout. Gespeichert wird erst, wenn du auf Speichern tippst.")
+![Der Dashboard-Editor auf Cora Max](img/max-dashboard-editor.webp "Oben die Rastergrößen, darunter die Kacheln. Das ist ein Layout-Bildschirm, deshalb zeigt jede Kachel ihren Typ und ihre Quelle statt eines Messwerts. Gespeichert wird erst, wenn du auf Speichern drückst.")
 
-:::tip Du kannst das Dashboard auch auf dem Handy bearbeiten
-Unter **Geräte → dein Cora Max → Dashboard bearbeiten** baust du in Cora Mobile dasselbe Layout. Das geht schneller, als Kacheln an der Wand von Hand anzuordnen, und das Ergebnis erscheint sofort auf dem Bildschirm.
+:::tip Du kannst es auch auf dem Handy bearbeiten
+Öffne in Cora Mobile den Tab **Geräte**, tippe auf dein Cora Max und dann auf der Karte des Beckens auf **Dashboard-Layout**. Das geht schneller, als Kacheln an einem Wandbildschirm von Hand anzuordnen, und das Ergebnis erscheint auf Cora Max, sobald du speicherst.
 :::
 
-## Ein Raster wählen
+## Ein Raster wählen {#choosing-a-grid}
 
-Wähle zuerst die Dichte. Änderst du sie später, ordnen sich alle Kacheln neu an.
+Wähl zuerst die Rastergröße. Änderst du sie später, verschieben sich alle Kacheln.
 
 | Raster | Kacheln | So wirkt es |
 |---|---|---|
-| 2×2, 3×2, 3×3 | 4–9 | Groß. Quer durch den Raum lesbar. |
+| 2×2, 3×2, 3×3 | 4–9 | Groß. Quer durch den Raum gut lesbar. |
 | 4×4, 5×3, 6×4 | 16–24 | Die übliche Wahl für ein komplettes System. |
-| 6×5, 8×4, 8×5 | 30–40 | Dicht. Ein ganzer Riffraum auf einen Blick. |
+| 6×5, 8×4, 8×5 | 30–40 | Dicht. Ein ganzer Riffraum auf einem Bildschirm. |
 | 9×5, 10×5 | 45–50 | Sehr dicht. Am besten auf den größten Bildschirmen. |
 | **Auto** | bis zu 32 | Cora wählt eine Form, die zur Zahl deiner Kacheln passt. |
 
-Ein festes Raster fasst so viele Kacheln, wie es Zellen hat, bei 10×5 also bis zu 50. Nur **Auto** hat eine eigene Obergrenze von 32 Kacheln. Bei mehr Kacheln wird die Schrift zu klein, um sie aus der Entfernung zu lesen.
+Ein festes Raster fasst so viele Kacheln, wie es Zellen hat, bis zu 50 bei 10×5. **Auto** hat eine eigene Grenze von 32 Kacheln. Darüber wird die Schrift zu klein, um sie aus der Entfernung zu lesen.
 
-:::note Im Zweifel mit Auto anfangen
-Füge die Kacheln hinzu, die du haben willst, und lass das Raster auf **Auto**. Cora wählt dann eine passende Form. Gefällt dir das Ergebnis, kannst du diese Form danach fest einstellen.
+:::note Unsicher? Fang mit Auto an
+Füg die Kacheln hinzu, die du willst, und lass das Raster auf **Auto**. Cora wählt eine Form, die passt. Gefällt sie dir, kannst du danach auf diese feste Form wechseln.
 :::
 
-:::warning Beim Rasterwechsel gehen Kacheln nur verloren, wenn der Platz fehlt
-Cora verwirft beim Wechsel keine Kacheln wegen ihrer Position, sondern ordnet sie in die neue Form ein. Was schon in einer gültigen Zelle liegt, bleibt dort. Der Rest wird der Reihe nach wieder einsortiert. Verloren gehen Kacheln nur, wenn das neue Raster **weniger Zellen hat, als du Kacheln hast**. Cora sagt dir dann, wie viele weggefallen sind. Wechselst du von 10×5 (50 Zellen) auf 3×3 (9), sind die meisten weg.
+:::warning Beim Rasterwechsel fallen Kacheln nur weg, wenn sie nicht passen
+Wenn du das Raster wechselst, wirft Cora keine Kacheln wegen ihrer Position weg. Kacheln, die noch eine gültige Zelle haben, bleiben, wo sie sind, und der Rest wird der Reihe nach wieder einsortiert. Kacheln verlierst du nur, wenn das neue Raster **weniger Zellen hat, als du Kacheln hast**, und Cora sagt dir, wie viele weggefallen sind. Von 10×5 (50 Zellen) auf 3×3 (9) verlierst du die meisten.
 :::
 
-## Hinzufügen und anordnen
+## Kacheln hinzufügen und anordnen {#adding-and-arranging}
 
-Oben im Editor stehen die drei Gesten: **Tippe auf eine Kachel, um sie zu bearbeiten**, **drück lange, um sie zu verschieben**, und tippe auf **✕, um sie zu entfernen**. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein.
+1. Tippe auf eine leere Zelle (sie zeigt ein **+**), um **Widget hinzufügen** zu öffnen.
+2. Wähl unter **TYP** die Art der Kachel und dann, was sie zeigt (einen Messwert, eine Steckdose, ein Gerät oder eine Szene).
+3. Wähl unter **GRÖSSE**, wie groß sie ist. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein. Ein Diagramm hat außerdem einen **ZEITRAUM**. Eine Dosierer-Kachel hat **Restmenge anzeigen als**, in **Tage** oder **Milliliter (mL)**.
+4. Tippe auf **Hinzufügen**.
 
-Mit **Steckdosen & Füttern** fügst du alle schaltbaren Steckdosen und Fütterungszyklen auf einmal hinzu. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
+Die Gesten stehen oben im Editor: **Tippen zum Bearbeiten**, **Lange drücken zum Verschieben** und **✕ zum Entfernen**. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 
-Die sechzehn Kacheltypen (Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* und Kamera *(Beta)*) findest du in der **[Widget-Übersicht](/help/mobile-widgets)**.
+Die sechzehn Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* und Kamera *(Beta)*. Du findest sie in der [Widget-Referenz](/help/mobile-widgets). Die Kachel **Szene** gibt es nur auf Cora Max. Sie startet eine [Szene](/help/max-automation) mit einem Tippen.
 
-Die Beta-Kacheln gehören zu Beta-Anbindungen, die nur Beta-Nutzer hinzufügen können, und du siehst eine erst, wenn du das Gerät hast. Siehe [Beta-Funktionen](/help/mobile-beta).
+:::note Beta
+**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Ihre Kacheln erscheinen erst, wenn du das Gerät hast. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
+:::
 
-## Vorlagen
+## Steckdosen & Füttern {#outlets-feed}
 
-**Vorlagen** steht oben im Editor neben **Mit KI gestalten**. Die Funktion steht in jedem Tarif zur Verfügung und nutzt nie KI, sie funktioniert also auch ohne Datenfreigabe für KI.
+**Steckdosen & Füttern** im Editor wählt, welche Steckdosen und Fütterungszyklen in **Steuerung** erscheinen, der Schublade, die du unten auf dem Dashboard nach oben wischst. Kacheln fügt es nicht hinzu. Wählst du keine aus, listet Steuerung alle auf. Um eine Steckdose auf das Raster selbst zu legen, füg eine Kachel **Steckdose** hinzu. Mehr dazu unter [Steckdosen und Steuerung](/help/max-controls).
 
-Sie öffnet **Dashboard-Vorlagen**, ein paar fertige Layouts, die aus dem entstehen, was dieses Becken meldet und verknüpft hat:
+## Vorlagen {#templates}
 
-- **Übersicht**: wenige große Kacheln, mit den wichtigsten Werten als Anzeigen und deinen Hauptgeräten
-- **Ausrüstung**: zuerst eine Kachel pro Gerät, dann Steckdosen und die wichtigsten Werte
+**Vorlagen** steht oben im Editor, neben **Meine Dashboards** und **Mit KI gestalten**. Es ist in jedem Abo offen und nutzt nie KI, funktioniert also auch ohne Teilen von Daten mit der KI.
+
+Es öffnet **Dashboard-Vorlagen**, ein paar fertige Layouts, gebaut aus dem, was dieses Becken meldet und verknüpft hat:
+
+- **Übersicht**: wenige große Kacheln, mit den wichtigsten Wasserwerten als Anzeigen und deinen Hauptgeräten
+- **Ausrüstung**: zuerst eine Kachel pro Gerät, dann Steckdosen und die wichtigsten Wasserwerte
 - **Wasserwerte**: Diagramme und Messwerte zuerst, Geräte und Steckdosen zuletzt
-- **Kamera**: eine große Live-Ansicht oben links, daneben die wichtigsten Werte. Sie erscheint nur, wenn das Becken eine Kamera hat. Kameras sind in der Beta und nur für Beta-Nutzer verfügbar.
+- **Kamera**: eine große Live-Ansicht oben links mit den wichtigsten Wasserwerten daneben. Sie erscheint nur, wenn das Becken eine Kamera hat. Kameras sind in der Beta und nur für Beta-Nutzer offen.
 
-Jede Vorlage zeigt eine Vorschau und wie viele Kacheln sie auf welchem Raster hat. Tippe auf **Verwenden**. Cora fragt zuerst **Dashboard ersetzen?** Tippe auf **Aktuelles zuerst als Preset sichern**, wenn du dein jetziges Layout behalten willst, oder auf **Ersetzen**. Gespeichert wird erst, wenn du auf **Speichern** tippst.
+Jede zeigt eine Vorschau und wie viele Kacheln sie auf welchem Raster hat. Tippe auf **Verwenden**. Cora fragt zuerst **Dashboard ersetzen?** Tippe auf **Aktuelles zuerst als Preset sichern**, wenn du dein jetziges Layout behalten willst, oder auf **Ersetzen**. Gespeichert wird erst, wenn du auf **Speichern** drückst.
 
-## Mit KI gestalten
+## Mit KI gestalten {#design-with-ai}
 
-Mit einem kostenpflichtigen Tarif hat der Editor die Schaltfläche **Mit KI gestalten**. Cora schlägt ein ganzes Layout vor, passend zu dem, was dieses Becken meldet und verknüpft hat, und zeigt, wie viele Kacheln es hat und auf welchem Raster. Tippe auf **Verwenden**, um es in den Editor zu übernehmen, oder auf **Erneut versuchen** für einen anderen Vorschlag. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
+Der Editor hat eine Taste **Mit KI gestalten**. Sie funktioniert mit einem kostenpflichtigen Abo und während der Testphase. Cora schlägt ein ganzes Layout vor, ausgehend von dem, was dieses Becken meldet und verknüpft hat, und zeigt, wie viele Kacheln es hat und auf welchem Raster. Tippe auf **Verwenden**, um es in den Editor zu übernehmen, oder auf **Erneut versuchen** für einen anderen Vorschlag. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
 
-Ein KI-Entwurf ersetzt, was gerade auf diesem Dashboard ist. Gespeichert wird erst, wenn du auf **Speichern** tippst. Dein aktuelles Layout kannst du vorher sichern, indem du es als eines deiner Dashboards speicherst. Mit einem kostenlosen Tarif führt **Mit KI gestalten** zu den Tarifen. Außerdem muss die Datenfreigabe für KI in der Cora-App eingeschaltet sein.
+Ein KI-Entwurf ersetzt, was gerade auf diesem Dashboard ist. Gespeichert wird erst, wenn du auf **Speichern** drückst, und du kannst dein aktuelles Layout vorher behalten, indem du es unter **Meine Dashboards** speicherst. Im kostenlosen Abo führt **Mit KI gestalten** zu den Abos. Außerdem muss das Teilen von Daten mit der KI in Cora Mobile eingeschaltet sein. Mehr dazu unter [Cora fragen](/help/mobile-assistant).
 
-## Für den Blick aus der Entfernung
+## Für den Blick aus der Entfernung gestalten {#designing-for-distance}
 
-Einen Wandbildschirm liest du aus größerer Entfernung als ein Handy, und meist nur im Vorbeigehen.
+Einen Wandbildschirm liest man aus größerer Entfernung als ein Handy, und meist nur mit einem kurzen Blick.
 
-- **Gib deinen wichtigsten Wasserwerten zwei mal zwei Zellen.** Alkalinität, Temperatur, pH: alles, was du ablesen willst, ohne hinzugehen.
-- **Leg die Steuerung an den Rand.** Nach Steckdosenkacheln greifst du am häufigsten, und an den Seiten triffst du sie leichter.
-- **Sortiere nach Thema.** Alles zur Dosierung zusammen, alles zur Strömung zusammen. An der Wand suchst du nach Bereichen.
-- **Lass die Spurenelemente klein.** Spurenelemente und andere Werte, die sich langsam ändern, schaust du nur gelegentlich nach. Dafür reicht eine Wert-Kachel mit einer Zelle.
+- Gib deinen wichtigsten Wasserwerten zwei mal zwei Zellen. Alkalinität, Temperatur und pH willst du ablesen, ohne hinzugehen.
+- Leg Steuerungen an den Rand. Nach Steckdosen-Kacheln greifst du, und an den Seiten triffst du sie leichter.
+- Gruppier Kacheln nach Thema. Halt alles zur Dosierung zusammen und alles zur Strömung zusammen, denn eine Wand überfliegst du nach Bereichen.
+- Lass Spurenelemente klein. Sie und andere Werte, die sich langsam ändern, sind zum Nachschauen da, eine Wert-Kachel mit einer Zelle reicht also.
 
-## Layouts speichern
+## Layouts speichern und wiederverwenden {#saving-layouts}
 
-Was du im Editor änderst, wirkt erst, wenn du auf **Speichern** tippst. Verlässt du den Editor ohne zu speichern, sind die Änderungen weg.
+Was du im Editor tust, wirkt erst, wenn du auf **Speichern** drückst. Verlässt du ihn mit ungespeicherten Änderungen, fragt Cora zuerst **Änderungen verwerfen?**
 
-In **Meine Dashboards** legst du Layouts ab, zu denen du zurückkehren willst. So wechselst du zwischen ihnen, ohne sie neu zu bauen. Ein dichtes Layout für den Alltag und eines mit großen Kacheln für die Arbeit am Becken passen zu verschiedenen Situationen, und der Wechsel kostet nur einen Tipp.
+**Meine Dashboards** bewahrt Designs auf, zu denen du zurückkehren willst. Sie sind in deinem Konto gespeichert, nicht auf diesem Bildschirm, deshalb kann jedes Cora Max in deinem Konto sie laden, für ein anderes Becken oder für einen Ersatzbildschirm.
 
-## Mehrere Becken
+- **Dieses Design speichern** speichert, was im Editor ist. Du kannst bis zu 30 behalten.
+- **Laden** holt ein gespeichertes Design in den Editor. Designs, die auf dem Handy gespeichert wurden, sind mit **Telefon** markiert.
+- Vor dem Laden sagt dir Cora, wie viele Kacheln mitkommen. Was nicht mitkommen kann, etwa ein Messwert, den dieses Becken nicht meldet, oder ein Gerät, das nicht zu diesem Becken gehört, steht unter **Zurückgelassen:** mit dem Grund.
 
-Jedes Becken hat sein eigenes Layout. Du bearbeitest sie nacheinander, jeweils in den Einstellungen des Beckens.
+Du könntest zum Beispiel ein dichtes Layout für den Alltag behalten und eins mit großen Kacheln für die Arbeit am Becken.
+
+## Mehrere Becken {#multiple-tanks}
+
+Jedes Becken hat sein eigenes Layout. Wechsle zu diesem Becken und öffne **Dashboard-Layout** über sein Beckenmenü, oder nutze **Einstellungen → [dieses Becken] → Dashboard-Layout**.

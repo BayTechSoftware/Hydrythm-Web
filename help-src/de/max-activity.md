@@ -1,41 +1,50 @@
 ---
 title: Aktivität auf Cora Max
-description: Jeder Befehl, den dein System ausgeführt oder abgelehnt hat oder nicht bestätigen konnte, direkt an der Wand.
+description: Prüf auf Cora Max, ob ein Befehl deine Ausrüstung wirklich erreicht hat, wer oder was ihn ausgelöst hat und warum einer abgelehnt wurde.
 section: Cora Max
-reviewed: 2026-09-09
-order: 10
-group: Alerts
+reviewed: 2026-10-13
+order: 11
+group: Records
+twin: mobile-activity
 ---
 
-Cora Max zeigt dasselbe Aktivitätsprotokoll wie dein Handy. Darin steht jede **Aktuierungsanfrage**, also jeder Versuch, etwas zu ändern, und was daraus geworden ist. Auch abgelehnte oder unbestätigte Anfragen stehen drin, denn sie haben die Ausrüstung vielleicht nie erreicht.
+Die Aktivität ist das Protokoll jedes Versuchs, etwas an deiner Ausrüstung zu ändern, und was daraus geworden ist. Es ist dasselbe Protokoll, das dein Handy zeigt. Schau zuerst hier nach, wenn etwas, worum du gebeten hast, anscheinend nicht passiert ist.
 
-Du öffnest es über das **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) oder über **Einstellungen → Beckeneinstellungen → [dein Becken] → Aktivität**.
+Du öffnest sie über das **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) oder über **Einstellungen → [dein Becken] → Aktivität**.
 
-![Das Aktivitätsprotokoll auf Cora Max](img/max-activity.webp "Die Legende bleibt oben auf dem Bildschirm, du musst dir die Ergebnisse also nicht merken.")
+![Das Aktivitätsprotokoll auf Cora Max](img/max-activity.webp "Die Legende oben erklärt jedes Ergebnis.")
 
-## Was in einem Eintrag steht
+## Was dir jeder Eintrag sagt
 
-Jede Zeile nennt die Aktion, das Gerät und die Uhrzeit. Dazu kommen zwei Angaben, die meist wichtiger sind.
+Jede Zeile zeigt die Ausrüstung und was angefragt wurde, zum Beispiel *Rückförderpumpe: Ausgeschaltet*, und die Uhrzeit. Außerdem sagt sie dir zwei weitere Dinge.
 
-**Wer es ausgelöst hat**: du an diesem Bildschirm, du auf deinem Handy, die Sprachsteuerung, der Assistent, eine [Automations](/help/mobile-automation)regel, eine Smart-Taste oder dein Konto. Hast du etwas an der Wand ausgelöst, steht das ausdrücklich im Eintrag.
+**Wer es ausgelöst hat.** Zum Beispiel **Auf diesem Cora getippt**, **Sprache auf diesem Cora**, **Cora-App**, **Sprache in der Cora-App**, **Automationsregel** oder **Aus der Cloud gesendet**.
 
-**Welchen Weg der Befehl genommen hat**: ob er über dein eigenes Netzwerk oder über dein Konto lief und welches Cora ihn ausgeführt hat. Hast du mehr als ein Cora, erkennst du so, welches gehandelt hat.
+**Welchen Weg es genommen hat.** **LAN** heißt, es lief über dein eigenes Netzwerk. **ÜBER CLOUD** heißt, es lief über Cora Cloud. Hast du mehr als ein Cora Max, steht im Eintrag auch, welches es ausgeführt hat.
 
 ## Die vier Ergebnisse
 
+Die Legende oben auf dem Bildschirm wiederholt sie.
+
 | Ergebnis | Bedeutung |
 |---|---|
-| **Bestätigt** | Das Gerät hat gemeldet, dass es den Befehl ausgeführt hat |
-| **Unbestätigt** | Gesendet, aber es kam keine Rückmeldung. Das heißt: *Wir wissen es nicht*. Es heißt nicht, dass es geklappt hat |
-| **Abgelehnt** | Wurde nicht ausgeführt. Eine Sicherheitsregel, eine Sperre oder das Gerät selbst hat es abgelehnt |
-| **Keine Änderung** | Das Gerät war schon in dem Zustand, den du wolltest |
+| **Bestätigt** | Die Ausrüstung hat zurückgemeldet, dass sie es getan hat |
+| **Unbestätigt** | Gesendet, aber es kam keine Rückmeldung. Wir wissen nicht, ob es geklappt hat |
+| **Abgelehnt** | Wurde nicht ausgeführt. Eine Sicherheitsregel, eine Sperre oder die Ausrüstung selbst hat es abgelehnt |
+| **Keine Änderung** | Es war schon in dem Zustand, den du wolltest |
 
-## Warum das Ergebnis wichtig ist
+Unter einem Eintrag **Abgelehnt** oder **Unbestätigt** sagt eine Zeile, warum, und was du prüfen solltest, bevor du es noch einmal versuchst. Zum Beispiel: *Kein Gerät hat rechtzeitig geantwortet, es KÖNNTE also trotzdem ausgeführt worden sein. Prüf die Ausrüstung, bevor du es wiederholst.*
 
-In dem Moment, in dem du tippst, sieht ein gesendeter, aber nie bestätigter Befehl genauso aus wie einer, der geklappt hat. Erst hier siehst du den Unterschied.
+## Wenn etwas nicht passiert ist
 
-Scheint etwas nicht passiert zu sein, schau zuerst hier nach, bevor du von einem Defekt ausgehst. Meist wurde die Anfrage abgelehnt, oder es kam nie eine Rückmeldung.
+Auf einem Touchscreen sieht ein Befehl, der gesendet, aber nie bestätigt wurde, genauso aus wie einer, der geklappt hat. Dieser Bildschirm zeigt dir den Unterschied.
+
+1. Such den Eintrag für das, worum du gebeten hast.
+2. Steht dort **Abgelehnt**, lies den Grund darunter. Es wurde nichts ausgeführt.
+3. Steht dort **Unbestätigt**, prüf die Ausrüstung selbst, bevor du es noch einmal versuchst, damit es nicht zweimal passiert.
+
+Wenn es dann immer noch keinen Sinn ergibt, siehe [Herausfinden, warum sich etwas geändert hat](/help/troubleshooting#establishing-why-something-changed).
 
 ## Zusammen mit dem Tagebuch lesen
 
-In der Aktivität steht, was das System getan hat. Im [Tagebuch](/help/mobile-journal) steht, was du von Hand gemacht hast. Zusammen erklären die beiden die meisten Überraschungen.
+Die Aktivität zeigt, was das System getan hat. Das [Tagebuch](/help/max-records#journal) zeigt, was du von Hand gemacht hast. Zusammen erklären sie die meisten Überraschungen.

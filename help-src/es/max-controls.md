@@ -1,64 +1,70 @@
 ---
 title: Tomas y controles
-description: Cómo cambiar las tomas desde Cora Max, cómo usar el modo alimentación y qué significa Auto.
+description: Enciende y apaga tomas del Apex desde Cora Max, inicia o cancela el modo alimentación, usa el cajón Tomas y alimentación y mira qué significan Auto, Apagado y Encendido.
 section: Cora Max
-reviewed: 2026-09-09
+reviewed: 2026-10-13
 order: 5
 group: Equipment
 ---
 
-Desde Cora Max puedes encender y apagar el equipo de tu sistema con los widgets de control del panel, con el cajón **Tomas y alimentación** o por voz.
+Esta página explica cómo encender y apagar tomas e iniciar el modo alimentación desde Cora Max. Puedes hacerlo desde las casillas de tomas del panel, desde el cajón **Tomas y alimentación** o por voz.
 
 :::warning Estos controles actúan sobre tu acuario
-No se pueden deshacer. Las tomas con candado te piden confirmación antes. Las demás cambian en cuanto tocas. Una orden puede volver como **Confirmado**, **Sin confirmar** (se envió pero no llegó respuesta), **Rechazado** o **Sin cambios**. Más detalles en [Controlar tus equipos](/help/mobile-device-control).
+No hay forma de deshacer. Las tomas con candado te piden que confirmes primero. Las demás cambian en cuanto tocas. Una orden puede volver **Confirmado**, **Sin confirmar** (enviada, pero sin respuesta), **Rechazado** o **Sin cambios**. Más información en [Controlar tus equipos](/help/mobile-device-control).
 :::
 
-## Los tres estados
+## Los tres estados {#the-three-states}
 
-Cada toma está siempre en uno de estos tres estados.
+Cada toma está en uno de tres estados.
 
-**Auto** devuelve la toma a su programación del Apex. Es donde debería estar casi siempre.
+**Auto** devuelve la toma a su programación del Apex. La mayor parte del tiempo, ahí es donde debe estar una toma.
 
-**Apagado** y **Encendido** son cambios manuales. Se aplican al momento y **se quedan así hasta que tú los cambies**. No caducan y nada los devuelve a su estado por ti.
+**Apagado** y **Encendido** son cambios manuales. Se aplican al momento y **se mantienen hasta que los vuelvas a cambiar**. No caducan, y nada los restablece por ti.
 
 :::warning Un cambio manual no caduca
-Cuando termines, vuelve a poner **Auto**. Nada lo hará por ti. Aun así, tú, la voz o una automatización pueden cambiarla más tarde. Un cambio manual no es un bloqueo.
+Vuelve a ponerla en **Auto** cuando termines, porque nada más lo hará. Eso sí, un cambio manual no es un bloqueo. Tú, tu voz o una automatización podéis cambiarlo más tarde.
 :::
 
-## Cambiar una toma desde el panel
+## Cambiar desde el panel {#switching-from-the-dashboard}
 
-Los widgets de control muestran los tres estados, con el actual resaltado. Toca el que quieras.
+Las casillas de tomas muestran los tres estados, con el actual resaltado. Toca el que quieras.
 
-Algunas tomas llevan un **candado**. No hay que desactivarlo en ningún sitio. Solo indica que la toma te pide confirmación antes de cambiar, para que un toque sin querer no apague algo importante. Lo verás más abajo.
+Algunas tomas tienen un **candado**. Significa que la toma te pide que confirmes antes de cambiar, para que un toque accidental no apague algo crítico. Cuando la tocas, un cuadro de diálogo muestra la toma, su estado actual, el cambio que vas a hacer y lo que eso puede provocar en el acuario. No hay ningún bloqueo que desactivar en otro sitio.
 
-## El cajón de controles
+Por defecto, el candado está en calentadores, enfriadores, bombas de retorno, reposición (ATO), comederos y cualquier toma que Cora no sepa clasificar. Las luces, los skimmers, las bombas de circulación, las bombas dosificadoras, los reactores, el UV y los ventiladores cambian con un solo toque.
 
-Desliza hacia arriba la pestaña de la parte inferior del panel para abrir **Controles**. Ahí están todas las tomas del sistema, tengan widget o no, y los ciclos de alimentación.
+## El cajón Tomas y alimentación {#the-controls-drawer}
 
-![El cajón de controles](img/max-controls.webp "Arriba los ciclos de alimentación y debajo todas las tomas.")
+Solo lo verás en un acuario con un Neptune Apex. Toca la pequeña etiqueta **Tomas y alimentación** en la parte de abajo del panel, o desliza hacia arriba en cualquier parte del panel. Se abre **Controles**, con **ALIMENTACIÓN** arriba y **TOMAS** debajo.
 
-Si una toma lleva **candado**, tienes que confirmar antes de que cambie. Al tocarla se abre un diálogo con el nombre de la toma, su estado actual y el cambio que vas a aplicar. Es solo un paso de confirmación. No hay nada que desactivar en otro sitio.
+![El cajón Controles](img/max-controls.webp "Los ciclos de alimentación arriba y después las tomas elegidas para este panel.")
 
-## Modo alimentación
+Muestra las tomas y los ciclos de alimentación que elegiste en **Tomas y alimentación** en el [editor del panel](/help/max-dashboard-editing#outlets-feed), o todos si no elegiste ninguno. Las tomas con candado también te piden que confirmes aquí. Los enchufes de otros controladores se manejan desde sus propias páginas de dispositivo, consulta [Controlar equipos desde Cora Max](/help/max-device-control).
 
-El modo alimentación es la forma segura de parar el flujo para dar de comer. Pausa el equipo que tiene que pararse, deja funcionando el resto y **lo vuelve a poner todo como estaba** cuando se acaba el tiempo.
+Si al tocar una toma aparece *El Apex no respondió: puede que ya se haya aplicado*, revisa la toma antes de volver a intentarlo.
 
-Úsalo antes que apagar las bombas a mano. Así no depende de que te acuerdes de volver a encenderlas.
+## Modo alimentación {#feed-mode}
 
-Los ciclos de alimentación van con letras: **A**, **B**, **C** y **D**. Son los ciclos que define tu controlador, y cada uno pausa un grupo distinto de equipos. Elige el que encaje con lo que vas a hacer. **Cancelar** termina el ciclo antes de tiempo y lo restablece todo al momento.
+El modo alimentación es la forma segura de detener el caudal mientras alimentas. Tu Apex pausa los equipos que deben pausarse, deja el resto como está y **lo vuelve a poner todo como estaba por sí solo** cuando se acaba el tiempo.
 
-Inícialo desde el cajón de controles o di *"inicia el modo alimentación"*.
+Úsalo en lugar de apagar bombas a mano. Devuelve el sistema a su estado aunque se te olvide.
 
-## Por voz
+Los ciclos de alimentación son Feed A, Feed B, Feed C y Feed D, que aparecen como **A**, **B**, **C** y **D** en **ALIMENTACIÓN**. Son los ciclos programados en tu Apex, y cada uno puede pausar un conjunto distinto de equipos. Elige el que encaje con lo que estás haciendo. **Cancelar** termina antes un ciclo en marcha y lo vuelve a poner todo como estaba al momento.
 
-También puedes cambiar las tomas por voz: *"apaga el skimmer"*, *"vuelve a poner el ventilador en auto"*.
+Empieza uno desde el cajón, o di *"empieza el modo alimentación"*.
 
-Antes de tocar tu equipo, Cora **te pide confirmación**. Te dice lo que va a hacer y espera a que digas que sí. Si no tiene clara una instrucción, no actúa.
+Si Cora Max dice que el Apex no respondió, puede que la alimentación ya esté en marcha. Revisa la bomba de retorno antes de volver a empezarla.
 
-Más información en **[Hablar con Cora](/help/max-voice)**.
+## Por voz {#by-voice}
 
-## Ver qué pasó
+Puedes cambiar tomas por voz, por ejemplo *"apaga el skimmer"* o *"vuelve a poner el ventilador en auto"*.
 
-Cada solicitud queda registrada, con quién la pidió (Cora Mobile, una pantalla Cora, la voz, Cora Assistant, una regla de automatización, un botón inteligente o tu cuenta) y por dónde fue. En Cora Max, toca el nombre del acuario en la barra superior y elige **Actividad**. En el teléfono lo encuentras en **Ajustes → Actividad**.
+Antes de que nada llegue a tus equipos, Cora **lo comprueba primero contigo**. Te dice lo que va a hacer y espera a que des el visto bueno. Si no está segura de lo que pediste, no actúa.
 
-Es lo primero que conviene mirar cuando algo ha cambiado y no sabes por qué.
+Más información en [Hablar con Cora](/help/max-voice).
+
+## Ver qué ha pasado {#seeing-what-happened}
+
+Cada solicitud queda registrada, con lo que la pidió y cómo fue, venga de Cora Mobile, de un Cora Max, de la voz, del Asistente o de una automatización. En Cora Max, toca el nombre del acuario en la barra superior y elige **Actividad**. En tu teléfono, está en **Ajustes → Actividad**. Más información en [Actividad en Cora Max](/help/max-activity).
+
+Cuando algo ha cambiado y no sabes por qué, mira ahí primero.

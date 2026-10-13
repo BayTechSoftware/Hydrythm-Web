@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Configurare Cora Mobile | Cora Help</title>
-  <meta name="description" content="Installa Cora, crea l&#x27;account, aggiungi la prima vasca e guarda comparire le prime letture.">
+  <meta name="description" content="Installa Cora Mobile, crea il tuo account, aggiungi la prima vasca e porta sullo schermo le prime letture, passo dopo passo.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/mobile-setup">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-setup">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-setup">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Configurare Cora Mobile | Cora Help">
-  <meta property="og:description" content="Installa Cora, crea l&#x27;account, aggiungi la prima vasca e guarda comparire le prime letture.">
+  <meta property="og:description" content="Installa Cora Mobile, crea il tuo account, aggiungi la prima vasca e porta sullo schermo le prime letture, passo dopo passo.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/mobile-setup">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -30,7 +30,8 @@
        the fallback first, which is the behaviour we want. -->
   <link rel="stylesheet" href="/fonts.css?v=b2f805be29" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="/fonts.css?v=b2f805be29"></noscript>
-  <link rel="stylesheet" href="/help/help.css?v=efd1c31e50">
+  <link rel="stylesheet" href="/help/help.css?v=5c60e1e60e">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Aiuto","item":"https://coraiq.tech/it/help/"},{"@type":"ListItem","position":2,"name":"Cora Mobile","item":"https://coraiq.tech/it/help/mobile-setup"},{"@type":"ListItem","position":3,"name":"Per iniziare","item":"https://coraiq.tech/it/help/mobile-setup"},{"@type":"ListItem","position":4,"name":"Configurare Cora Mobile"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Vai al contenuto</a>
@@ -39,7 +40,7 @@
   <div class="hnav-in">
     <a class="hbrand" href="/it/help/">
       <img src="/cora_logo-240.webp" alt="Cora" width="400" height="163">
-      <span>Help</span>
+      <span>Aiuto</span>
     </a>
     <button class="hfind" id="hfind" type="button" aria-label="Cerca nella guida">
       <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
@@ -55,26 +56,35 @@
 
 <div class="hwrap">
   <div class="hscrim" id="hscrim" hidden></div>
-  <aside class="hside" id="hside" aria-label="Guide navigation">
+  <aside class="hside" id="hside" aria-label="Navigazione della guida">
     <button class="hclose" id="hclose" type="button" aria-label="Chiudi la navigazione">&times;</button>
-    <nav aria-label="Guide">
+    <nav aria-label="Guida">
 <ul>
 <li><a href="/it/help/">Guida di Cora</a></li>
+</ul>
+<p class="nav-sec">Aiuto</p>
+<ul>
+<li><a href="/it/help/troubleshooting">Risoluzione dei problemi</a></li>
+<li><a href="/it/help/how-do-i">Come faccio a...?</a></li>
+<li><a href="/it/help/equipment-by-brand">Attrezzatura per marca</a></li>
+<li><a href="/it/help/faq">Domande frequenti</a></li>
+<li><a href="/it/help/glossary">Glossario</a></li>
 </ul>
 <p class="nav-sec" lang="en">Cora Mobile</p>
 <details class="nav-g" open>
 <summary>Per iniziare</summary><ul>
 <li><a href="/it/help/mobile-setup" class="cur" aria-current="page">Configurare Cora Mobile</a></li>
-<li><a href="/it/help/mobile-account">Accesso e recupero dell&#x27;account</a></li>
+<li><a href="/it/help/mobile-tour">Orientarsi in Cora Mobile</a></li>
 <li><a href="/it/help/mobile-tank-profile">Il profilo della tua vasca</a></li>
-<li><a href="/it/help/mobile-tour">Le cinque schede</a></li>
+<li><a href="/it/help/mobile-tanks">Gestire le tue vasche</a></li>
+<li><a href="/it/help/mobile-account">Accesso e recupero dell&#x27;account</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
 <li><a href="/it/help/mobile-dashboard">Leggere la dashboard</a></li>
-<li><a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a></li>
-<li><a href="/it/help/mobile-widgets">Guida di riferimento ai widget</a></li>
 <li><a href="/it/help/mobile-metric-detail">Approfondire un parametro</a></li>
+<li><a href="/it/help/mobile-dashboard-editing">Modificare la dashboard</a></li>
+<li><a href="/it/help/mobile-widgets">Guida ai widget</a></li>
 <li><a href="/it/help/mobile-sharing">Condividere la tua vasca</a></li>
 </ul></details>
 <details class="nav-g">
@@ -83,48 +93,48 @@
 <li><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a></li>
 <li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
-<li><a href="/it/help/mobile-probes">Mappatura parametri</a></li>
-<li><a href="/it/help/mobile-consumables">Materiali di consumo</a></li>
-<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
-<li><a href="/it/help/mobile-cameras">Telecamere e controllo dello schiumatoio</a></li>
+<li><a href="/it/help/mobile-probes">Mappatura parametri e sonde</a></li>
+<li><a href="/it/help/mobile-consumables">Materiali di consumo e avvisi di rifornimento</a></li>
+<li><a href="/it/help/mobile-cameras">Telecamere e Controllo schiumatoio</a></li>
 <li><a href="/it/help/mobile-ecotech">Luci, pompe e dosatori EcoTech</a></li>
+<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Avvisi e automazione</summary><ul>
 <li><a href="/it/help/mobile-alerts">Avvisi e soglie</a></li>
 <li><a href="/it/help/mobile-notifications">Notifiche</a></li>
 <li><a href="/it/help/mobile-automation">Automazioni e scene</a></li>
+<li><a href="/it/help/mobile-vacation">Andare in vacanza: un piano per chi si occupa della vasca</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registri</summary><ul>
-<li><a href="/it/help/mobile-dosing">Dosaggio</a></li>
+<li><a href="/it/help/mobile-journal">Il diario</a></li>
+<li><a href="/it/help/mobile-dosing">Prodotti di dosaggio e calcolatore di dosaggio</a></li>
 <li><a href="/it/help/mobile-maintenance">Manutenzione</a></li>
 <li><a href="/it/help/mobile-livestock">Popolazione</a></li>
-<li><a href="/it/help/mobile-journal">Il diario</a></li>
 <li><a href="/it/help/mobile-activity">Attività e cronologia</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenza</summary><ul>
-<li><a href="/it/help/mobile-assistant">Fare domande a Cora</a></li>
 <li><a href="/it/help/mobile-reef-buddy">Reef Buddy</a></li>
+<li><a href="/it/help/mobile-assistant">Fare domande a Cora</a></li>
+<li><a href="/it/help/mobile-icp-health">ICP e report di salute</a></li>
 <li><a href="/it/help/mobile-journeys">Percorsi guidati</a></li>
-<li><a href="/it/help/mobile-icp-health">ICP e rapporti di salute</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Account</summary><ul>
-<li><a href="/it/help/mobile-vacation">Andare in vacanza</a></li>
+<summary>Impostazioni e account</summary><ul>
+<li><a href="/it/help/mobile-settings">Impostazioni di Cora Mobile</a></li>
 <li><a href="/it/help/mobile-multi-device">Più di un dispositivo Cora</a></li>
-<li><a href="/it/help/mobile-data-export">I tuoi dati</a></li>
-<li><a href="/it/help/mobile-plans">Piani</a></li>
-<li><a href="/it/help/mobile-settings">Impostazioni</a></li>
-<li><a href="/it/help/mobile-support">Ottenere assistenza</a></li>
+<li><a href="/it/help/mobile-plans">Piani e abbonamenti</a></li>
+<li><a href="/it/help/mobile-data-export">Esportare i tuoi dati ed eliminare l&#x27;account</a></li>
+<li><a href="/it/help/mobile-support">Segnalare un problema</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
 <summary>Per iniziare</summary><ul>
 <li><a href="/it/help/max-setup">Configurare Cora Max</a></li>
-<li><a href="/it/help/max-tour">La schermata Home di Cora Max</a></li>
-<li><a href="/it/help/max-reef-room">La Stanza barriera</a></li>
+<li><a href="/it/help/max-tour">La schermata principale di Cora Max</a></li>
+<li><a href="/it/help/max-reef-room">La Reef Room</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>La tua dashboard</summary><ul>
@@ -132,80 +142,88 @@
 </ul></details>
 <details class="nav-g">
 <summary>Apparecchiature</summary><ul>
-<li><a href="/it/help/max-controls">Prese e controlli</a></li>
-<li><a href="/it/help/max-device-control">Controllare l&#x27;equipaggiamento da Cora Max</a></li>
+<li><a href="/it/help/max-controls">Prese e comandi</a></li>
+<li><a href="/it/help/max-device-control">Controllare l&#x27;attrezzatura da Cora Max</a></li>
 <li><a href="/it/help/max-devices">Dispositivi e salute dei dispositivi</a></li>
+</ul></details>
+<details class="nav-g">
+<summary>Avvisi e automazione</summary><ul>
+<li><a href="/it/help/max-alerts">Avvisi su Cora Max</a></li>
+<li><a href="/it/help/max-automation">Scene su Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Registri</summary><ul>
 <li><a href="/it/help/max-records">Diario, popolazione e manutenzione</a></li>
+<li><a href="/it/help/max-activity">Attività su Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Intelligenza</summary><ul>
-<li><a href="/it/help/max-intelligence">Reef Buddy e rapporti</a></li>
+<li><a href="/it/help/max-intelligence">Reef Buddy e report</a></li>
 <li><a href="/it/help/max-voice">Parlare con Cora</a></li>
 </ul></details>
 <details class="nav-g">
-<summary>Avvisi</summary><ul>
-<li><a href="/it/help/max-activity">Attività su Cora Max</a></li>
-<li><a href="/it/help/max-alerts">Avvisi su Cora Max</a></li>
-</ul></details>
-<details class="nav-g">
-<summary>Impostazioni</summary><ul>
+<summary>Impostazioni e account</summary><ul>
 <li><a href="/it/help/max-settings">Impostazioni di Cora Max</a></li>
 <li><a href="/it/help/max-updates">Aggiornamenti e ripristino</a></li>
 </ul></details>
-<details class="nav-g">
-<summary>Automazione</summary><ul>
-<li><a href="/it/help/max-automation">Scene su Cora Max</a></li>
-</ul></details>
-<p class="nav-sec">Aiuto</p>
-<ul>
-<li><a href="/it/help/faq">Domande frequenti</a></li>
-<li><a href="/it/help/troubleshooting">Risoluzione dei problemi</a></li>
-<li><a href="/it/help/glossary">Glossario</a></li>
-</ul>
     </nav>
   </aside>
 
   <main class="hmain" id="main">
     <article class="doc">
+      <nav class="crumbs" aria-label="Percorso di navigazione"><ol><li><a href="/it/help/">Aiuto</a></li><li><a href="/it/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/it/help/mobile-setup">Per iniziare</a></li></ol></nav>
       <h1>Configurare Cora Mobile</h1>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#installare-cora-mobile">Installare Cora Mobile</a></li><li><a href="#dare-prima-unocchiata">Dare prima un&#x27;occhiata</a></li><li><a href="#creare-laccount">Creare l&#x27;account</a></li><li><a href="#aggiungere-la-prima-vasca">Aggiungere la prima vasca</a></li><li><a href="#collegare-lattrezzatura">Collegare l&#x27;attrezzatura</a></li><li><a href="#registrare-le-prime-letture">Registrare le prime letture</a></li><li><a href="#quando-tutto-pronto">Quando è tutto pronto</a></li></ul></nav>
-<p>La configurazione richiede una decina di minuti. Alla fine avrai un account, una vasca configurata e una dashboard con le letture in tempo reale.</p>
-<h2 id="installare-cora-mobile">Installare Cora Mobile</h2>
-<p>Su iPhone scarica <strong>Cora Mobile</strong> dall'<a href="https://apps.apple.com/app/cora-mobile/id6760301981" target="_blank" rel="noopener">App Store</a>. Su Android Cora Mobile arriverà presto su Google Play. Nella schermata Home l'icona si chiama <strong>Cora</strong>: è Cora Mobile.</p>
-<h2 id="dare-prima-unocchiata">Dare prima un'occhiata</h2>
-<p>Prima di creare un account puoi scegliere <strong>Esplora una barriera demo</strong>. È una vasca di esempio con dati realistici, organizzata esattamente come una vera. Usa solo dati di esempio: non è collegata a nessuna attrezzatura e quello che fai lì non viene salvato.</p>
-<p>Serve per vedere come funzionano dashboard, widget e letture prima di iniziare davvero.</p>
-<h2 id="creare-laccount">Creare l'account</h2>
-<p>Apri Cora Mobile e scegli <strong>Crea account</strong>. Puoi registrarti con un indirizzo email, oppure con Apple o Google se non vuoi un'altra password da ricordare.</p>
-<p>Poi devi verificare l'email. Cora ti manda un <strong>link</strong>: aprilo sul telefono e torna in Cora Mobile. Se non arriva entro un minuto, guarda nella posta indesiderata.</p>
-<aside class="cal cal-note"><p class="cal-t">Un solo account per tutti gli schermi</p><p>L'account tiene insieme tutto. Se accedi con lo stesso account su Cora Max o su un altro telefono, ritrovi le stesse vasche, gli stessi dispositivi, le stesse letture e gli stessi registri.</p>
-<p>I layout della dashboard <strong>non</strong> sono condivisi: ogni schermo ha il suo. Vedi <a href="/it/help/mobile-multi-device">Cosa è condiviso e cosa non lo è</a>.</p></aside>
-<h2 id="aggiungere-la-prima-vasca">Aggiungere la prima vasca</h2>
-<p>In Cora una <strong>vasca</strong> è un volume d'acqua che vuoi tenere sotto controllo. Quasi tutti ne hanno una. Se hai una vasca per i frag o una quarantena, sono vasche separate.</p>
-<p>La configurazione guidata ti chiede queste cose, e puoi cambiarle tutte più avanti dal <a href="/it/help/mobile-tank-profile">profilo della vasca</a>:</p>
-<ol><li><strong>Nome</strong>: il nome con cui la chiami tutti i giorni, come "Display", "Frag", "QT".</li><li><strong>Tipo</strong>: reef misto, a prevalenza SPS, coralli molli, solo pesci.</li><li><strong>Dimensioni e volume</strong>: il volume d'acqua reale, sump compresa. Serve ai calcoli di dosaggio, quindi conviene che sia più o meno giusto.</li></ol>
-<p>Dopo, tocca <strong>Aggiungi dispositivi</strong> per andare dritto ad aggiungere la tua attrezzatura, oppure saltalo per ora. Tutto il resto (popolazione, dosaggio, obiettivi, illuminazione, movimento) lo completi dopo, con calma, dal <a href="/it/help/mobile-tank-profile">profilo della vasca</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">L'età della vasca conta nella valutazione</p><p>Cora valuta le letture in base a quello che è normale per una vasca di quell'età. La configurazione guidata non la chiede. Imposta la <strong>Data di avvio della vasca</strong> nel profilo della vasca, sotto <strong>Dimensioni vasca</strong>. Se la vasca sta ancora facendo il ciclo, tocca <strong>Stai avviando una nuova vasca?</strong> sulla dashboard per attivare il ciclo guidato.</p></aside>
-<h2 id="collegare-lattrezzatura">Collegare l'attrezzatura</h2>
-<p>Quando la vasca è pronta, vai nella scheda <strong>Dispositivi</strong>, tocca <strong>Aggiungi dispositivo</strong> e scegli la marca. Cora funziona con quella che hai già. In <strong><a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a></strong> trovi cosa è supportato e cosa serve per ogni apparecchio.</p>
-<p>Puoi anche saltare questo passaggio e farlo dopo. Una vasca funziona benissimo anche senza dispositivi: in quel caso registri le letture a mano.</p>
-<h2 id="registrare-le-prime-letture">Registrare le prime letture</h2>
-<p>Alcuni parametri si misurano solo con un test. Scorri in fondo alla dashboard e tocca <strong>Registra parametri</strong>.</p>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Registrazione dei parametri"><img src="/help/img/mobile-logparams.webp" alt="Registrazione dei parametri" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Inserisci i risultati del kit di test per qualsiasi parametro tracciato dalla vasca.</figcaption></figure>
-<p>Ogni lettura viene salvata con la fonte e l'orario. Così Cora può dirti quando una sonda e un test non vanno d'accordo.</p>
-<h3 id="la-scheda-del-primo-test">La scheda del primo test</h3>
-<p>Una vasca senza letture e senza attrezzatura collegata mostra in cima alla dashboard una scheda, <strong>Registra il tuo primo test dell’acqua</strong>. Basta una misurazione perché Reef Buddy, gli avvisi e le analisi inizino a lavorare per te. Cora propone lo stesso passo anche subito dopo aver creato una vasca. Tocca la scheda e scegli una di queste voci.</p>
-<ul><li><strong>Registra i risultati ora</strong> apre il modulo <strong>Registra parametri</strong>.</li><li><strong>Collega un dispositivo (Apex o Red Sea™)</strong> apre il flusso Aggiungi dispositivo. Se il profilo della vasca elenca già un dispositivo che Cora può collegare, la scheda lo nomina, per esempio <em>Collega il tuo Neptune™ Apex</em>.</li><li><strong>Più tardi</strong> chiude il foglio.</li><li><strong>Ricordami di testare ogni settimana</strong> aggiunge un lavoro di manutenzione settimanale chiamato <strong>Testare l’acqua</strong>. Scegli prima il <strong>Giorno del test</strong>.</li></ul>
+      <p class="twin">Su Cora Max: <a href="/it/help/max-setup">Configurare Cora Max</a></p>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#install-cora-mobile">Installare Cora Mobile</a></li><li><a href="#the-welcome-screens">Le schermate di benvenuto</a></li><li><a href="#looking-around-first">Dare prima un&#x27;occhiata</a></li><li><a href="#create-your-account">Creare il tuo account</a></li><li><a href="#add-your-first-tank">Aggiungere la prima vasca</a></li><li><a href="#your-tank-is-live">&quot;La tua vasca è attiva&quot;</a></li><li><a href="#your-first-30-days">I tuoi primi 30 giorni</a></li><li><a href="#your-first-look-at-the-dashboard">Il primo sguardo alla dashboard</a></li><li><a href="#connect-your-equipment">Collegare l&#x27;attrezzatura</a></li><li><a href="#log-your-first-readings">Registrare le prime letture</a></li><li><a href="#what-good-looks-like">Quando è tutto a posto</a></li></ul></nav>
+<p>Questa pagina ti accompagna nei primi dieci minuti con Cora Mobile, nell'ordine in cui compaiono le schermate. Alla fine avrai un account, una vasca e una dashboard con delle letture.</p>
+<h2 id="install-cora-mobile">Installare Cora Mobile</h2>
+<p>Su iPhone, scarica <strong>Cora Mobile</strong> dall'<a href="https://apps.apple.com/app/cora-mobile/id6760301981" target="_blank" rel="noopener">App Store</a>. Su Android, Cora Mobile arriverà presto su Google Play. L'icona nella schermata Home si chiama <strong>Cora</strong>. È Cora Mobile.</p>
+<h2 id="the-welcome-screens">Le schermate di benvenuto</h2>
+<p>La prima volta che apri Cora Mobile, alcune brevi schermate te lo presentano. Tocca <strong>Avanti</strong> per scorrerle, oppure <strong>Salta</strong> in alto a destra per andare subito all'accesso.</p>
+<p>Due di queste ti chiedono qualcosa:</p>
+<ul><li><strong>I tuoi dispositivi vivono sul tuo Wi-Fi</strong> ti avvisa di una domanda che l'iPhone ti farà più avanti. Quando aggiungi la tua prima attrezzatura, l'iPhone chiede se Cora può trovare dispositivi sulla rete locale. Consentilo, altrimenti Cora non trova niente sul tuo Wi-Fi. Se hai detto di no, <strong>Impostazioni → Accesso dispositivi</strong> ti porta all'interruttore. Vedi <a href="/it/help/mobile-settings">Impostazioni</a>.</li><li>L'ultima schermata riguarda gli avvisi. Tocca <strong>Consenti notifiche</strong>, poi consentile nella richiesta del telefono, così gli avvisi arrivano su questo telefono. <strong>Forse più tardi</strong> salta il passaggio. Di più in <a href="/it/help/mobile-notifications">Notifiche</a>.</li></ul>
+<h2 id="looking-around-first">Dare prima un'occhiata</h2>
+<p>Non ti serve un account per dare un'occhiata. Nella schermata di accesso, tocca <strong>Esplora una barriera demo</strong>. È una vasca di esempio con dati realistici, organizzata come una vera. Non c'è nessuna attrezzatura coinvolta, e niente di quello che fai lì viene salvato.</p>
+<p>Quando sei pronto per la tua vasca, tocca <strong>Rendila tua</strong>.</p>
+<h2 id="create-your-account">Creare il tuo account</h2>
+<ol><li>Nella schermata di accesso, tocca <strong>Registrati</strong> (sotto <em>Non hai un account?</em>).</li><li>Inserisci il tuo indirizzo email e una password, due volte. La password deve avere almeno 8 caratteri, una lettera maiuscola, un numero e un simbolo. L'elenco sotto <strong>La tua password deve avere:</strong> si spunta mentre scrivi.</li><li>Spunta <strong>Accetto: Termini e Condizioni e Informativa sulla Privacy</strong>. Sono entrambi link, quindi puoi leggerli prima.</li><li>Tocca <strong>Crea account</strong>.</li></ol>
+<p>Puoi anche toccare <strong>Continua con Apple</strong> o <strong>Continua con Google</strong> e saltare la password. Spunta anche lì la casella dei termini. Con Apple, scegli <strong>Condividi la mia email</strong> quando Apple te lo chiede, così i risultati di laboratorio e ICP possono arrivare al tuo account Cora.</p>
+<p>Se ti sei registrato con un indirizzo email, ora Cora ti chiede di verificarlo. Apri l'email di Cora sullo stesso telefono e tocca <strong>Conferma la mia email</strong>. Poi torna in Cora Mobile e tocca <strong>Ho verificato la mia email</strong>. Se entro un minuto non arriva niente, guarda nella posta indesiderata, oppure tocca <strong>Invia di nuovo l'email di verifica</strong>. Di più in <a href="/it/help/mobile-account#verifying-your-email">Accesso e recupero dell'account</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Un solo account per ogni schermo</p><p>Il tuo account contiene tutto. Associaci un Cora Max, o accedi su un altro telefono, e vedrai le stesse vasche, gli stessi dispositivi, le stesse letture e gli stessi registri.</p>
+<p>Il layout della dashboard del telefono segue l'account su qualsiasi telefono con cui accedi. Ogni Cora Max tiene il suo layout. Vedi <a href="/it/help/mobile-multi-device">Cosa è condiviso e cosa no</a>.</p></aside>
+<h2 id="add-your-first-tank">Aggiungere la prima vasca</h2>
+<p>In Cora, una <strong>vasca</strong> è qualsiasi volume d'acqua che vuoi seguire. Quasi tutti ne hanno una. Se hai un impianto per i frag o una vasca di quarantena, ognuna è una vasca a sé.</p>
+<p>Dopo l'accesso, <strong>Facciamo conoscenza con la tua vasca</strong> ti chiede tre cose. Solo il nome è obbligatorio, e puoi cambiare tutto più avanti nel <a href="/it/help/mobile-tank-profile">profilo della vasca</a>.</p>
+<ol><li><strong>Come la chiami?</strong> è il nome che usi tutti i giorni, come "Display", "Frag" o "QT".</li><li><strong>Che tipo di vasca è?</strong> è <strong>Barriera SPS</strong>, <strong>Barriera LPS</strong>, <strong>Barriera mista</strong>, <strong>Barriera di coralli molli</strong>, <strong>FOWLR</strong> o <strong>Solo pesci</strong>. Il tipo imposta i tuoi intervalli di avviso iniziali. Se non sei sicuro, scegli <strong>Barriera mista</strong>.</li><li><strong>Quanta acqua?</strong> è il volume d'acqua reale, sump compresa. I calcoli di dosaggio usano questo numero, quindi cerca di inserirlo più o meno giusto. Se conosci solo le dimensioni della vasca, tocca <strong>Non conosci il volume? Inserisci le dimensioni</strong> e Cora lo calcola.</li></ol>
+<p>Tocca <strong>Crea la mia vasca</strong>.</p>
+<aside class="cal cal-note"><p class="cal-t">La vasca sta ancora facendo il ciclo?</p><p>Tocca <strong>Stai avviando una nuova vasca?</strong> sulla dashboard <strong>prima</strong> di registrare un test o collegare attrezzatura. Quella scheda compare solo su una vasca senza nessuna lettura, ed è il modo per attivare il ciclaggio guidato. Di più in <a href="/it/help/mobile-journeys">Percorsi guidati</a>.</p>
+<p>Cora valuta anche le letture rispetto a quello che è normale per una vasca di quell'età. La procedura guidata non la chiede, quindi imposta la <strong>Data di avvio della vasca</strong> nel profilo della vasca, in <strong>Dimensioni vasca</strong>.</p></aside>
+<h2 id="your-tank-is-live">"La tua vasca è attiva"</h2>
+<p>Poi vedi il nome della tua vasca seguito da <strong>è attiva</strong>, per esempio <strong>"Display" è attiva</strong>. Ti propone quattro passi successivi. Scegline uno qualsiasi, o nessuno.</p>
+<ul><li><strong>Configura la mia vasca, guidato</strong> ti accompagna nel resto del profilo, una sezione alla volta. Vedi <a href="/it/help/mobile-tank-profile#guided-setup">Configurazione guidata</a>. Finisce con <strong>Aggiungi dispositivi</strong>, che ti porta ad aggiungere la tua attrezzatura.</li><li><strong>Collega i tuoi dispositivi</strong> associa un Cora Max. Per un Neptune™ Apex, Red Sea™ o qualsiasi altra marca, usa invece <strong>Dispositivi → Aggiungi dispositivo</strong> (vedi sotto).</li><li><strong>Registra il tuo primo test</strong> apre il passaggio del primo test descritto in <a href="/it/help/mobile-setup#the-first-test-card">La scheda del primo test</a>.</li><li><strong>Chiedi qualsiasi cosa all'assistente</strong> apre Cora Assistant con una prima domanda pronta da inviare.</li></ul>
+<p>Quando hai finito, tocca <strong>Vai alla mia dashboard</strong>, oppure <strong>Lo farò più tardi</strong>.</p>
+<h2 id="your-first-30-days">I tuoi primi 30 giorni</h2>
+<p>Su un nuovo account gratuito, <strong>Vai alla mia dashboard</strong> mostra prima <strong>I tuoi primi 30 giorni sono offerti da noi</strong>. La tua prova Pro di 30 giorni è partita quando hai creato l'account, e non serve una carta. Tocca <strong>Inizia a esplorare</strong> per continuare, oppure <strong>Vedi i piani</strong> per guardare i piani a pagamento. Di più in <a href="/it/help/mobile-plans">Piani e abbonamenti</a>.</p>
+<h2 id="your-first-look-at-the-dashboard">Il primo sguardo alla dashboard</h2>
+<p>La prima volta che apri la dashboard succedono due cose.</p>
+<ul><li>Cora chiede <strong>Attivare la guida personalizzata per la barriera?</strong> Tocca <strong>Attiva</strong> se vuoi che Cora Assistant usi nelle sue risposte i dati salvati della tua vasca. <strong>Non ora</strong> la lascia spenta. Di più in <a href="/it/help/mobile-assistant">Fare domande a Cora</a>.</li><li>Un breve tour ti mostra le parti principali dello schermo. Vedi <a href="/it/help/mobile-tour#the-first-run-tour">Il tour del primo avvio</a>.</li></ul>
+<h2 id="connect-your-equipment">Collegare l'attrezzatura</h2>
+<p>Vai nella scheda <strong>Dispositivi</strong>, tocca <strong>Aggiungi dispositivo</strong> e scegli la marca. Cora funziona con l'attrezzatura che hai già. <a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a> elenca cosa è supportato e cosa serve a ogni dispositivo.</p>
+<p>Puoi saltare questo passaggio e tornarci dopo. Una vasca funziona bene anche senza dispositivi. Registri semplicemente le letture a mano.</p>
+<h2 id="log-your-first-readings">Registrare le prime letture</h2>
+<p>Alcuni parametri arrivano solo da un test. Scorri la dashboard verso il basso e tocca <strong>Registra parametri</strong>, nella fila di pulsanti sotto i widget.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ingrandisci: Il modulo Registra parametri in Cora Mobile"><img src="/help/img/mobile-logparams.webp" alt="Il modulo Registra parametri in Cora Mobile" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Scegli data e ora, poi inserisci i risultati dei test in Principali, Elementi e Nutrienti.</figcaption></figure>
+<p>Cora salva ogni lettura con la sua fonte e il suo orario. È così che può dirti quando una sonda e un test non concordano.</p>
+<h3 id="the-first-test-card">La scheda del primo test</h3>
+<p>Una vasca senza letture e senza attrezzatura collegata mostra una scheda sotto i widget, subito sopra <strong>Registra parametri</strong>. Dice <strong>Registra il tuo primo test dell’acqua</strong>. Basta una lettura perché Reef Buddy, gli avvisi e le osservazioni comincino a funzionare. Tocca la scheda e scegli una di queste voci.</p>
+<ul><li><strong>Registra i risultati ora</strong> apre il modulo <strong>Registra parametri</strong>.</li><li><strong>Collega un dispositivo (Apex o Red Sea)</strong> apre la schermata di associazione di un Cora Max. Per collegare un Apex o un'unità Red Sea, vai in <strong>Dispositivi → Aggiungi dispositivo</strong> e scegli la marca. Se il profilo della vasca elenca già un dispositivo che Cora può collegare, la scheda lo nomina, per esempio <em>Collega il tuo Neptune Apex</em>.</li><li><strong>Più tardi</strong> chiude il pannello.</li><li><strong>Ricordami di testare ogni settimana</strong> aggiunge un'attività di manutenzione settimanale chiamata <strong>Testare l’acqua</strong>. Scegli prima il <strong>Giorno del test</strong>.</li></ul>
 <p>Tocca la croce sulla scheda per nasconderla. La scheda sparisce da sola quando la vasca ha una lettura o una fonte collegata. Anche Cora Max mostra <strong>Registra il tuo primo test</strong> su una vasca senza dati.</p>
-<p>Se una vasca non ha ancora letture tre giorni dopo averla creata, Cora manda una sola notifica di promemoria. Se nessuna delle tue vasche ha letture, Cora manda anche una breve email al giorno 3 e al giorno 10 dopo la tua iscrizione, una volta ciascuna. Entrambe seguono l'interruttore <strong>Promemoria di manutenzione</strong> in <strong>Impostazioni → Notifiche</strong>, e l'email ha una riga che spiega come fermarla.</p>
-<h2 id="quando-tutto-pronto">Quando è tutto pronto</h2>
-<p>Hai finito quando nella Dashboard vedi il nome della vasca in alto e qualche widget con dei numeri. Dopo il primo briefing notturno comparirà anche la scheda <strong>Reef Buddy</strong>.</p>
-<p>Il passo successivo: <strong><a href="/it/help/mobile-tour">Le cinque schede</a></strong>.</p>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/it/help/mobile-account"><span>Successivo</span><b>Accesso e recupero dell&#x27;account</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.170 e Cora Mobile 0.5.111. Ultimo controllo il 2026-10-12.</p>
+<p>Se una vasca non ha ancora letture tre giorni dopo averla creata, Cora manda una notifica di promemoria. Se nessuna delle tue vasche ha letture, Cora manda anche una breve email il giorno 3 e il giorno 10 dopo la tua registrazione, una volta ciascuna. Entrambe seguono il tuo interruttore <strong>Promemoria di manutenzione</strong> in <strong>Impostazioni → Notifiche</strong>, e l'email ha una riga che spiega come fermarla.</p>
+<h2 id="what-good-looks-like">Quando è tutto a posto</h2>
+<p>La configurazione è fatta quando la Dashboard mostra il nome della vasca in alto e qualche widget con dei numeri. Una scheda <strong>Reef Buddy</strong> arriva dopo che il primo briefing è stato preparato durante la notte.</p>
+<p>Poi dai un'occhiata a <a href="/it/help/mobile-tour">Orientarsi in Cora Mobile</a>. Per aggiungere una seconda vasca, vedi <a href="/it/help/mobile-tanks">Gestire le tue vasche</a>.</p>
+      <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/mobile-tour"><span>Successivo</span><b>Orientarsi in Cora Mobile</b></a></nav>
+      <p class="stamp">Scritto per Cora Max 0.28.170 e Cora Mobile 0.5.111. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -322,10 +340,10 @@
     box.className = 'lb';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', img.alt || 'Screenshot');
+    box.setAttribute('aria-label', img.alt || "Screenshot");
     var x = document.createElement('button');
     x.type = 'button'; x.className = 'lb-x';
-    x.setAttribute('aria-label', 'Close'); x.innerHTML = '&times;';
+    x.setAttribute('aria-label', "Chiudi"); x.innerHTML = '&times;';
     var big = document.createElement('img');
     big.src = img.currentSrc || img.src; big.alt = img.alt || '';
     box.appendChild(big); box.appendChild(x);
@@ -346,55 +364,222 @@
 })();
 
 // ── Search ─────────────────────────────────────────────────────────────
-(function () {
-  var btn = document.getElementById('hfind');
-  if (!btn) return;
-  var docs = null, dlg = null, input = null, list = null, opener = null;
+// The matching rules are SEARCH_CORE_JS in build_help.py (tested under node
+// by the self-test); this is only the dialog around it.
 
+var CoraSearch = (function () {
+  // One character in, ONE character out, always: snippets are cut from the
+  // original text at offsets found in the folded text.
+  var FOLD = {'ı': 'i', 'ł': 'l', 'ø': 'o', 'đ': 'd', 'ß': 's', 'æ': 'a', 'œ': 'o',
+              '-': ' ', '‐': ' ', '‑': ' ', '–': ' ', '_': ' ', '/': ' '};
+  var memo = {};
+  function foldChar(c, lang) {
+    var k = lang + c, v = memo[k];
+    if (v !== undefined) return v;
+    var lc = c.toLocaleLowerCase(lang);
+    v = FOLD[lc] || FOLD[c];
+    if (v === undefined) {
+      var n = lc.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      v = n.length ? n.charAt(0) : c;
+      if (FOLD[v]) v = FOLD[v];
+    }
+    memo[k] = v;
+    return v;
+  }
+  function fold(s, lang) {
+    var o = new Array(s.length);
+    for (var i = 0; i < s.length; i++) o[i] = foldChar(s.charAt(i), lang);
+    return o.join('');
+  }
+  function words(s) { return s.split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(t) {
-    return t.replace(/[&<>]/g, function (c) {
-      return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c];
+    return String(t).replace(/[&<>"]/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c];
+    });
+  }
+  // Always at the START of a word. A phrase's spaces are optional ("top off"
+  // finds "topoff"), and one word may be split once into two parts of at
+  // least two letters, so wifi finds "Wi-Fi" (a folded hyphen is a space)
+  // while "ato" still cannot reach into "a tour". A one- or two-letter word
+  // must be the WHOLE word ("ph" is not "phone", "kh" is not "khaki").
+  function rx(alt) {
+    var w = alt.split(' '), body;
+    if (w.length > 1) {
+      body = w.join(' ?');
+    } else {
+      var v = [alt];
+      for (var k = 2; k <= alt.length - 2; k++) v.push(alt.slice(0, k) + ' ' + alt.slice(k));
+      body = v.join('|');
+    }
+    var end = alt.length <= 2 ? '(?![a-z0-9])' : '';
+    return new RegExp('(?:^|[^a-z0-9])(' + body + ')' + end);
+  }
+
+  function prep(raw, lang) {
+    var syn = {}, stop = {};
+    (raw.stop || []).forEach(function (w) { stop[words(fold(w, lang)).join('')] = 1; });
+    (raw.syn || []).forEach(function (row) {
+      var alts = row.map(function (a) { return words(fold(a, lang)).join(' '); });
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        syn[k] = (syn[k] || []).concat(alts);
+      });
+    });
+    var docs = (raw.docs || []).map(function (d) {
+      return {
+        u: d.u, t: d.t, s: d.s, d: d.d || '',
+        tn: fold(d.t, lang), dn: fold(d.d || '', lang),
+        x: d.x.map(function (c) {
+          return {h: c[0], id: c[1], b: c[2], hn: fold(c[0], lang), bn: fold(c[2], lang)};
+        })
+      };
+    });
+    return {lang: lang, syn: syn, stop: stop, docs: docs};
+  }
+
+  function lookup(P, k, single) {
+    if (P.syn[k]) return P.syn[k];
+    if (!single) return null;
+    var suf = ['s', 'es', 'ing', 'ed', 'er'];
+    for (var i = 0; i < suf.length; i++) {
+      var L = suf[i].length;
+      if (k.length > L + 2 && k.slice(-L) === suf[i] && P.syn[k.slice(0, -L)]) return P.syn[k.slice(0, -L)];
+    }
+    return null;
+  }
+
+  // The query as a list of CONCEPTS; each concept is a list of regexes, and
+  // a concept matches when any one of them does.
+  function concepts(q, P) {
+    var t = words(fold(q, P.lang)), out = [], i = 0;
+    while (i < t.length) {
+      var hit = null, n;
+      for (n = Math.min(3, t.length - i); n >= 1 && !hit; n--) {
+        var g = lookup(P, t.slice(i, i + n).join(''), n === 1);
+        if (g) hit = [t.slice(i, i + n).join(' ')].concat(g);
+      }
+      if (hit) { out.push(hit); i += n + 1; continue; }
+      if (!P.stop[t[i]]) out.push([t[i]]);
+      i++;
+    }
+    if (!out.length) out = t.map(function (w) { return [w]; });
+    return out.map(function (alts) {
+      var seen = {}, r = [];
+      alts.forEach(function (a) {
+        var k = a.replace(/ /g, '');
+        if (k && !seen[k]) { seen[k] = 1; r.push(rx(a)); }
+      });
+      return r;
     });
   }
 
-  // A snippet centred on the hit, so a result shows WHY it matched.
-  function snip(body, q) {
-    var i = body.toLowerCase().indexOf(q);
-    if (i < 0) return '';
-    var a = Math.max(0, i - 45), b = Math.min(body.length, i + q.length + 75);
-    return (a ? '…' : '') + esc(body.slice(a, i))
-      + '<mark>' + esc(body.slice(i, i + q.length)) + '</mark>'
-      + esc(body.slice(i + q.length, b)) + (b < body.length ? '…' : '');
+  function first(rs, s) {
+    for (var i = 0; i < rs.length; i++) { var m = rs[i].exec(s); if (m) return m; }
+    return null;
   }
 
-  function score(d, q) {
-    var t = d.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if ((d.d || '').toLowerCase().indexOf(q) > -1) return 40;
-    for (var i = 0; i < d.h.length; i++) {
-      if (d.h[i].toLowerCase().indexOf(q) > -1) return 30;
+  function snip(x, C) {
+    for (var c = 0; c < C.length; c++) {
+      var m = first(C[c], x.bn);
+      if (!m) continue;
+      var L = m[1].length, i = m.index + m[0].length - L;
+      var a = Math.max(0, i - 45), b = Math.min(x.b.length, i + L + 75);
+      return (a ? '…' : '') + esc(x.b.slice(a, i)) + '<mark>' + esc(x.b.slice(i, i + L))
+        + '</mark>' + esc(x.b.slice(i + L, b)) + (b < x.b.length ? '…' : '');
     }
-    if (d.b.toLowerCase().indexOf(q) > -1) return 10;
-    return 0;
+    return '';
   }
+
+  function search(P, q, limit) {
+    var C = concepts(q, P);
+    if (!C.length) return [];
+    var qw = words(fold(q, P.lang));
+    // What the reader literally typed beats a synonym of it.
+    var lit = qw.length ? rx(qw.join(' ')) : null;
+    var phrase = qw.length > 1 ? lit : null;
+    var found = [];
+    P.docs.forEach(function (d) {
+      var score = 0, hits = 0, titleAll = true;
+      var cs = d.x.map(function () { return {s: 0, n: 0, hh: 0}; });
+      for (var c = 0; c < C.length; c++) {
+        var rs = C[c], inT = !!first(rs, d.tn), inD = !!first(rs, d.dn), inH = false, inB = false;
+        for (var j = 0; j < d.x.length; j++) {
+          var h = !!first(rs, d.x[j].hn), b = !!first(rs, d.x[j].bn);
+          if (h) { inH = true; cs[j].s += 30; cs[j].hh++; hits++; }
+          if (b) { inB = true; cs[j].s += 10; hits++; }
+          if (h || b) cs[j].n++;
+        }
+        if (!inT) titleAll = false;
+        if (!(inT || inD || inH || inB)) return;          // AND: every concept
+        score += inT ? 60 : inD ? 40 : inH ? 30 : 10;
+      }
+      if (words(d.tn).join(' ') === qw.join(' ')) score += 40;
+      if (phrase) {
+        if (phrase.test(d.tn)) score += 50;
+        else if (d.x.some(function (x) { return phrase.test(x.hn); })) score += 25;
+      }
+      var order = [];
+      for (var k = 0; k < cs.length; k++) {
+        if (!cs[k].s || !d.x[k].id) continue;
+        if (lit && lit.test(d.x[k].hn)) cs[k].s += 20;
+        else if (lit && lit.test(d.x[k].bn)) cs[k].s += 5;
+        order.push(k);
+      }
+      order.sort(function (a, b) {
+        return (cs[b].n - cs[a].n) || (cs[b].hh - cs[a].hh) || (cs[b].s - cs[a].s) || (a - b);
+      });
+      var secs = [];
+      if (!titleAll && order.length) {
+        var top = order[0];
+        if (cs[top].n === C.length || cs[top].hh) secs.push(top);
+        var nx = order[1];
+        if (secs.length && nx !== undefined && cs[nx].n === C.length && cs[nx].hh) secs.push(nx);
+      }
+      found.push({d: d, score: score, hits: hits, secs: secs});
+    });
+    found.sort(function (a, b) { return (b.score - a.score) || (b.hits - a.hits); });
+
+    var out = [];
+    for (var f = 0; f < found.length && out.length < (limit || 12); f++) {
+      var r = found[f], d = r.d;
+      if (r.secs.length) {
+        r.secs.forEach(function (j, n) {
+          var x = d.x[j];
+          out.push({u: d.u + '#' + x.id, t: n ? x.h : d.t + ' › ' + x.h, s: d.s,
+                    sn: snip(x, C) || esc(d.d), sub: n > 0, score: r.score});
+        });
+      } else {
+        var sn = '';
+        for (var j = 0; j < d.x.length && !sn; j++) sn = snip(d.x[j], C);
+        out.push({u: d.u, t: d.t, s: d.s, sn: sn || esc(d.d), sub: false, score: r.score});
+      }
+    }
+    return out.slice(0, limit || 12);
+  }
+
+  return {fold: fold, prep: prep, concepts: concepts, search: search, esc: esc};
+})();
+if (typeof module !== 'undefined') module.exports = CoraSearch;
+
+(function () {
+  var btn = document.getElementById('hfind');
+  if (!btn) return;
+  var P = null, dlg = null, input = null, list = null, opener = null;
+  var esc = CoraSearch.esc;
 
   function run() {
-    var q = input.value.trim().toLowerCase();
-    if (!q || !docs) { list.innerHTML = ''; return; }
-    var hits = docs.map(function (d) { return [score(d, q), d]; })
-                   .filter(function (r) { return r[0] > 0; })
-                   .sort(function (a, b) { return b[0] - a[0]; })
-                   .slice(0, 12);
+    var q = input.value.trim();
+    if (!q || !P) { list.innerHTML = ''; return; }
+    var hits = CoraSearch.search(P, q, 12);
     if (!hits.length) {
-      list.innerHTML = '<li class="snone">' + "Nessun risultato per \u201c" + esc(q) + "\u201d." + '</li>';
+      list.innerHTML = '<li class="snone"><p>' + "Nessun risultato per \u201c" + esc(q)
+        + "\u201d." + '</p>' + "<p>Prova con meno parole o con parole diverse, oppure vai a:</p><ul><li><a href=\"/it/help/troubleshooting\">Risoluzione dei problemi</a></li><li><a href=\"/it/help/how-do-i\">Come faccio a...?</a></li><li><a href=\"mailto:cora@coraiq.tech\">Contatta l\u2019assistenza</a></li></ul>" + '</li>';
       return;
     }
     list.innerHTML = hits.map(function (r, i) {
-      var d = r[1], sn = snip(d.b, q) || esc(d.d || '');
-      return '<li><a href="' + d.u + '"' + (i ? '' : ' class="on"') + '>'
-        + '<b>' + esc(d.t) + '</b><em>' + d.s + ' · ' + sn + '</em></a></li>';
+      return '<li' + (r.sub ? ' class="ssub"' : '') + '><a href="' + esc(r.u) + '"'
+        + (i ? '' : ' class="on"') + '><b>' + esc(r.t) + '</b><em>'
+        + (r.sub ? '' : esc(r.s) + ' · ') + r.sn + '</em></a></li>';
     }).join('');
   }
 
@@ -426,9 +611,11 @@
     });
     input.addEventListener('input', run);
     // ⭐ Fetched ONCE, on first open, never on a page that is only read.
-    if (docs) { run(); return; }
-    fetch('/it/help/search.json').then(function (r) { return r.json(); })
-      .then(function (j) { docs = j; run(); })
+    if (P) { run(); return; }
+    // ⭐ Versioned by content hash: GitHub Pages caches each file for its
+    // own 600 s, and a new page reading an old-format index would fail.
+    fetch('/it/help/search.json?v=60b8434692').then(function (r) { return r.json(); })
+      .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';
       });
