@@ -11,7 +11,7 @@ Tout ce qu’il vous faut pour gérer votre récif avec Cora. Choisissez une tâ
 :::tiles
 - [Nouveau sur Cora Mobile](/help/mobile-setup): Créez votre compte, ajoutez votre premier aquarium et affichez vos mesures à l’écran.
 - [Nouveau sur Cora Max](/help/max-setup): Associez-le à votre téléphone et affichez vos aquariums sur l’écran mural.
-- [Connecter votre équipement](/help/mobile-connections): Neptune Apex, Red Sea, Jecod, AquaWiz et les marques en Beta.
+- [Connecter votre équipement](/help/mobile-connections): Neptune Apex, Red Sea, Jecod et AquaWiz.
 - [Régler les alertes](/help/mobile-alerts): Choisissez la plage de chaque paramètre et ce qui arrive sur votre téléphone.
 - [Créer votre tableau de bord](/help/mobile-dashboard-editing): Ajoutez des widgets et disposez-les, sur votre téléphone ou sur Cora Max.
 - [Parler à Cora](/help/mobile-assistant): Posez vos questions sur votre aquarium par écrit, ou dites "Hey Cora" à Cora Max.
@@ -47,7 +47,6 @@ Même si vous avez acheté Cora Max, [configurez d’abord vos aquariums et vos 
 - [Red Sea ReefBeat](/help/equipment-by-brand#red-sea)
 - [Jecod et Jebao](/help/equipment-by-brand#jecod)
 - [AquaWiz KH Controller](/help/equipment-by-brand#aquawiz)
-- Beta, réservé aux utilisateurs Beta : [Maxspect](/help/equipment-by-brand#maxspect), [GHL](/help/equipment-by-brand#ghl), [HYDROS](/help/equipment-by-brand#hydros), [Focustronic](/help/equipment-by-brand#focustronic), [EcoTech](/help/equipment-by-brand#ecotech), [Inkbird](/help/equipment-by-brand#inkbird), [caméras](/help/equipment-by-brand#cameras). Voir [Fonctions Beta](/help/mobile-beta).
 
 ## Cora Mobile et Cora Max
 
@@ -65,7 +64,7 @@ Chaque mesure indique sa source et son âge. Si deux sources ne sont pas d’acc
 |---|---|
 | Premiers pas | [Configurer Cora Mobile](/help/mobile-setup) · [Se repérer](/help/mobile-tour) · [Le profil de votre aquarium](/help/mobile-tank-profile) · [Gérer vos aquariums](/help/mobile-tanks) · [Connexion et récupération de compte](/help/mobile-account) |
 | Votre tableau de bord | [Lire votre tableau de bord](/help/mobile-dashboard) · [Examiner un paramètre](/help/mobile-metric-detail) · [Modifier votre tableau de bord](/help/mobile-dashboard-editing) · [Référence des widgets](/help/mobile-widgets) · [Partager votre aquarium](/help/mobile-sharing) |
-| Équipement | [Ajouter, modifier et retirer des appareils](/help/mobile-devices) · [Connecter votre équipement](/help/mobile-connections) · [Contrôler votre équipement](/help/mobile-device-control) · [Programmer l’équipement](/help/mobile-schedules) · [Association des paramètres et sondes](/help/mobile-probes) · [Consommables et alertes de réapprovisionnement](/help/mobile-consumables) · [Caméras et surveillance de l’écumeur](/help/mobile-cameras) · [Lampes, pompes et doseurs EcoTech](/help/mobile-ecotech) · [Fonctions Beta](/help/mobile-beta) |
+| Équipement | [Ajouter, modifier et retirer des appareils](/help/mobile-devices) · [Connecter votre équipement](/help/mobile-connections) · [Contrôler votre équipement](/help/mobile-device-control) · [Programmer l’équipement](/help/mobile-schedules) · [Association des paramètres et sondes](/help/mobile-probes) · [Consommables et alertes de réapprovisionnement](/help/mobile-consumables) |
 | Alertes et automatisation | [Alertes et seuils](/help/mobile-alerts) · [Notifications](/help/mobile-notifications) · [Automatisations et scènes](/help/mobile-automation) · [Partir en vacances](/help/mobile-vacation) |
 | Suivi | [Le journal](/help/mobile-journal) · [Dosage](/help/mobile-dosing) · [Entretien](/help/mobile-maintenance) · [Population](/help/mobile-livestock) · [Activité et chronologie](/help/mobile-activity) |
 | Intelligence | [Reef Buddy](/help/mobile-reef-buddy) · [Interroger Cora](/help/mobile-assistant) · [Rapports ICP et de santé](/help/mobile-icp-health) · [Parcours guidés](/help/mobile-journeys) |

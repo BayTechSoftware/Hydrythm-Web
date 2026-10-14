@@ -3,7 +3,7 @@ title: Günlük
 description: Akvaryumunuzda yaptıklarınızı yazın ya da sesle kaydedin, beslemeyi kaydedin ve bir kayıt hakkında Cora'ya sorun, böylece ileride neyin neye yol açtığını görün.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 24
+order: 26
 group: Records
 twin: max-records
 ---

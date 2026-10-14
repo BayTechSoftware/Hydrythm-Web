@@ -15,23 +15,28 @@ twin: max-devices
 ## Ekipman ekleme {#adding-equipment}
 
 1. **Cihazlar** sekmesinde **Cihaz Ekle**'ye dokunun.
-2. Markayı seçin: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** ya da **AquaWiz**. Beta kullanıcıları ayrıca her birinde bir **Beta** çipiyle **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** ve **Kamera** görür.
+2. Markayı seçin: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** ya da **AquaWiz**.
 3. Markanın adımlarını izleyin. Markaya göre bu bir ağ taraması, bir IP adresi, bir giriş ya da bir cihaz anahtarıdır. Her markanın adımları [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 4. Ait olduğu akvaryumu seçin.
 
-![Bir Beta kullanıcısı için Cihaz Ekle listesi](img/mobile-add-device-beta.webp "Beta markalarında bir Beta çipi bulunur.")
+![Cihaz Ekle'deki marka listesi](img/mobile-add-device-brands.webp "Eklediğiniz cihazın markasını seçin.")
 
-:::note Beta
-**Beta.** Beta entegrasyonları yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
-Akvaryumda bir Cora Max gerektiren bir satır (Maxspect, GHL, EcoTech, Inkbird ve Kamera), akvaryumda bir Cora Max olana kadar soluk görünür ve **Cora Max Gerektirir** yazar.
 
 :::note Cora Max olmadan bazı ekipmanlar yalnızca yereldir
 Neptune Apex, Red Sea ve Jecod ekipmanına ev ağınız ya da Bluetooth üzerinden ulaşılır. Cora Max yoksa ekleme ekranında *Bu entegrasyon, Cora Max olmadan yalnızca Mobile uygulamasında yerel olarak çalışır.* yazar. Telefonunuz onu yalnızca aynı ağdayken (ya da Bluetooth menzilindeyken) okur ve kontrol eder. Evden uzaktayken telefonunuzun kaydettiği son ölçümleri görürsünüz ve onu kontrol edemezsiniz. Akvaryumdaki bir Cora Max onu gece gündüz okur ve komutlarınızı iletir. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections#local-only) sayfasında.
 :::
 
 Ağınızdan ekipman eklerken telefonunuzun ekipmanla aynı ağda olması gerekir.
+
+### Bluetooth kapasitesi {#bluetooth-capacity}
+
+Bir Cora Max, okuduğu tüm ekipman arasında Bluetooth'unu paylaşır, bu yüzden ancak belli bir miktarı yetiştirebilir. Bluetooth üzerinden bağlanan bir Jecod pompası eklediğinizde Cora önce akvaryumdaki Cora Max'in ne kadar meşgul olduğunu kontrol eder. Genellikle hiçbir şey görmezsiniz. Aksi halde iki mesajdan biri çıkar:
+
+- **Bluetooth yoğunlaşıyor**: *Bu Cora Max Bluetooth sınırına yaklaştı. Daha fazla cihaz daha seyrek güncellenebilir. Daha fazla cihaz eklemeyi planlıyorsanız ikinci bir Cora Max ekleyin.* Cihazı yine de eklemek için **Devam et**'e ya da **İptal**'e dokunun.
+- **Bluetooth sınırına ulaşıldı**: *Bu Cora Max Bluetooth sınırına ulaştı. Bu cihazlar için ikinci bir Cora Max ekleyin.* Cihaz eklenmez. **TAMAM**'a dokunun.
+
+Cora akvaryumun birincil Cora Max'ini, seçilmemişse en çok yeri olan Cora Max'i kontrol eder. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device#primary-cora-max) sayfasında.
 
 ## Cora Max eşleştirme {#pairing-a-cora-max}
 
@@ -48,7 +53,7 @@ Sayfasını açmak için listedeki herhangi bir cihaza dokunun. Önce kontroller
 - **Bağlantı**, IP adresini, giriş bilgisini ya da cihaz anahtarını düzenlediğiniz yerdir.
 - En altta **Cihazı kaldır**.
 
-Cora Max, Neptune Apex ve GHL birden fazla akvaryuma hizmet edebilir, bu yüzden akvaryum seçicileri bir onay listesidir. Cora Max en fazla dört akvaryuma atanabilir. [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasına bakın. HYDROS dahil diğer her şey aynı anda tek bir akvaryuma hizmet eder. Farklı birini seçmek cihazı oraya taşır ve eskisinden çıkarır.
+Cora Max ve Neptune Apex birden fazla akvaryuma hizmet edebilir, bu yüzden akvaryum seçicileri bir onay listesidir. Cora Max en fazla dört akvaryuma atanabilir. [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasına bakın. Diğer her şey aynı anda tek bir akvaryuma hizmet eder. Farklı birini seçmek cihazı oraya taşır ve eskisinden çıkarır.
 
 :::warning Ölçümlere güvenmeden önce akvaryumu atayın
 Akvaryumu olmayan bir cihaz bildirmeye devam eder ama sayılarının gidecek yeri yoktur. Yeni eklediğiniz bir cihaz panoda görünmüyorsa önce bunu kontrol edin.
@@ -83,7 +88,6 @@ Daha fazlası için cihazı açın. **Durum** bölümü Cora'nın ondan en son n
 | Yalnızca birkaç saatte bir bildiren bir şeyde "3 sa önce güncellendi" | Sorun yok |
 | "… ulaşılamadı" | Bir ağ sorunu var ya da cihaz kapalı |
 | "… girişi reddetti" | Üretici hesabının yeniden bağlanması gerekiyor. Cihazı açın ve yeniden giriş yapın |
-| "Cora Max bekleniyor" | Yeni eklediğiniz bir GHL kontrolcüsü ya da Inkbird monitörü: bir Cora Max onu okuduğunda görünür |
 | Uzaktayken daha eski ölçümler | Akvaryumda Cora Max olmayan Apex, Red Sea ve Jecod için normal (yukarıya bakın) |
 | Hiçbir şey | Hiç bildirmedi. Akvaryum atamasını ve bağlantıyı kontrol edin |
 

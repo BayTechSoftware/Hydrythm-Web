@@ -18,7 +18,8 @@ Quando una lettura esce dall'intervallo, un dispositivo segnala un guasto, una d
 2. **Rinvia** silenzia l'avviso su questo Cora Max per un po'. Il pulsante mostra per quanto, per esempio **Rinvia 1 h**. È l'attesa impostata per questo avviso nelle impostazioni degli avvisi di Cora Mobile, e può arrivare a 1 settimana (comodo per qualcosa come un livello basso di reagente che non cambierà per giorni).
 3. **Ignora** chiude subito l'avviso. Resta in silenzio su questo schermo finché il problema non sparisce. Se torna più avanti, riceverai un nuovo avviso.
 
-Quando l'avviso riguarda un dosatore, come una testa DŌS o ReefDose quasi vuota o una dose mancata, la scheda ha anche un pulsante **Apri DŌS** o **Apri ReefDose** (**Apri Versa** per un EcoTech Versa). Ti porta alla pagina di quel dosatore, dove si impostano i suoi avvisi.
+Quando l'avviso riguarda un dosatore, come una testa DŌS o ReefDose quasi vuota o una dose mancata, la scheda ha anche un pulsante **Apri DŌS** o **Apri ReefDose**. Ti porta alla pagina di quel dosatore, dove si impostano i suoi avvisi.
+
 
 Se Rinvia o Ignora mostra un errore, riprova una volta. Se continua a non funzionare, vedi [Un avviso non si chiude](/help/troubleshooting#an-alert-is-not-clearing).
 
@@ -53,13 +54,10 @@ Il pannello della soglia ha lo stesso interruttore in alto, accanto ad **Avviso 
 
 ## Avvisi di dispositivi e scorte {#doser-alerts}
 
-L'attrezzatura con qualcosa che finisce ha un pulsante **Impostazioni avvisi** nella sua pagina su Cora Max. Sono il Trident (reagenti e rifiuti), le teste DŌS, Red Sea ReefDose, ReefATO+ e ReefMat, e le EcoTech Radion, VorTech e Versa. Scegli il livello di cui vuoi essere avvisato, e ricevi una notifica quando viene superato. Su una testa DŌS, **Avvisi di dose mancata** ti dice anche quando la testa salta le sue dosi programmate.
+L'attrezzatura con qualcosa che finisce ha un pulsante **Impostazioni avvisi** nella sua pagina su Cora Max. Sono il Trident (reagenti e rifiuti), le teste DŌS, Red Sea ReefDose, ReefATO+ e ReefMat. Scegli il livello di cui vuoi essere avvisato, e ricevi una notifica quando viene superato. Su una testa DŌS, **Avvisi di dose mancata** ti dice anche quando la testa salta le sue dosi programmate.
 
 Cosa significa ogni avviso del dosatore è spiegato in [Avvisi del dosatore](/help/mobile-device-control#doser-alerts).
 
-:::note Beta
-**Beta.** EcoTech è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html).
-:::
 
 ## Suono degli avvisi, avvisi parlati e risveglio dello schermo
 

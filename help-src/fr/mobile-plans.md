@@ -3,7 +3,7 @@ title: Forfaits et abonnements
 description: Ce que comprennent les forfaits Free, essai, Plus, Pro et Max, comment s’abonner ou passer à un forfait supérieur, où voir votre consommation et comment résilier sur iPhone ou Android.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 35
+order: 37
 group: Settings and account
 ---
 
@@ -62,7 +62,6 @@ Il y a trois forfaits, **Plus**, **Pro** et **Max**, chacun mensuel ou annuel. L
 
 Les sessions vocales ont leur propre compteur, et chaque réponse parlée consomme aussi votre quota de messages. Tous les forfaits payants comprennent Reef Buddy, l’import et l’analyse ICP pour les laboratoires que Cora lit, la comparaison avec votre propre historique, et **Concevoir avec l'IA** pour les tableaux de bord (jusqu’à 5 designs par jour pour chaque aquarium).
 
-Les forfaits payants comprennent aussi les alertes de la surveillance de l’écumeur pour une caméra sur votre décantation. L’essai ne les comprend pas. **Beta.** Les caméras sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support. Plus de détails dans [Caméras](/help/mobile-cameras).
 
 :::note Le forfait Max n’est pas l’écran Cora Max
 Le **forfait Max** est un abonnement. **Cora Max** est l’écran installé près de votre aquarium. Vous n’avez pas besoin de l’un pour avoir l’autre.

@@ -62,20 +62,15 @@ Non serve ripeterti per le domande successive. Dopo una domanda sulla vasca prin
 - Scrivere nel diario: *"Annota che ho fatto un cambio d'acqua di venti litri."* *"Annota che ho dato mysis in più."* *"Annota che ho saltato il pasto del mattino."*
 - Comandare l'attrezzatura Red Sea: dosare da una testa ReefDose, cambiarne la dose giornaliera, avviare un rabbocco ReefATO+, far avanzare un ReefMat o impostare la velocità di una pompa ReefRun.
 - Comandare le pompe Jecod.
-- Attrezzatura in Beta: avviare un test o una dose Focustronic, eseguire comandi GHL e comandare le pompe EcoTech VorTech.
 
 ## Cosa Cora non può fare a voce su Cora Max
 
 - Avviare o fermare una scena. Usa il riquadro della scena o **Impostazioni → Automazioni**.
-- Dosare da una testa Neptune DŌS, o dosare con un EcoTech Versa. Usa la pagina del dispositivo su Cora Max.
-- Comandare una gyre Maxspect, un controller HYDROS o una EcoTech Radion. Usa la pagina del dispositivo.
+- Dosare da una testa Neptune DŌS. Usa la pagina del dispositivo su Cora Max.
 - Cambiare le impostazioni di Cora Max, aggiungere dispositivi o modificare la dashboard.
 
 Cora Assistant sul telefono può fare alcune di queste cose. Di più in [Fare domande a Cora](/help/mobile-assistant#what-cora-can-change).
 
-:::note Beta
-**Beta.** Focustronic, GHL, HYDROS, Maxspect ed EcoTech sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html).
-:::
 
 ## Conferme
 

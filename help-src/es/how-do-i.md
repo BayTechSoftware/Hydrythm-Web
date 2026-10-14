@@ -38,7 +38,7 @@ Elige la tarea que quieres hacer. Cada enlace abre los pasos para hacerla. Si al
 - [Conectar equipos Red Sea ReefBeat](/help/mobile-connections#red-sea-reefbeat)
 - [Conectar una bomba Jecod o Jebao](/help/mobile-connections#jecod)
 - [Conectar un AquaWiz KH Controller](/help/mobile-connections#aquawiz-kh-controller)
-- [Saber por qué no veo Maxspect, GHL o EcoTech](/help/mobile-beta#who-gets-beta)
+- [Solucionar "Límite de Bluetooth alcanzado" al agregar un dispositivo](/help/mobile-devices#bluetooth-capacity)
 - [Pasar un dispositivo a otro acuario](/help/mobile-devices#a-devices-page)
 - [Cambiar el nombre de un dispositivo](/help/mobile-devices#renaming)
 - [Eliminar un dispositivo](/help/mobile-devices#removing-a-device)

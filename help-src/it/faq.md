@@ -14,7 +14,7 @@ Risposte brevi, con i link alle pagine complete. Se qualcosa non funziona, vai d
 
 Non devi comprare niente per cominciare. Cora Mobile da sola segue le tue vasche, registra i test, invia avvisi e fa funzionare Cora Assistant.
 
-Un Cora Max nella vasca aggiunge alcune cose. Senza, il telefono legge un dispositivo Neptune Apex, Red Sea o Jecod solo mentre Cora Mobile è aperta sullo stesso Wi-Fi. Un Cora Max li legge giorno e notte, tiene aggiornate le tue letture mentre sei via e passa i comandi che invii da lontano. Maxspect, GHL, EcoTech, Inkbird e le telecamere hanno bisogno di un Cora Max per funzionare (sono in Beta, vedi sotto). Di più in [Attrezzatura per marca](/help/equipment-by-brand).
+Un Cora Max nella vasca aggiunge alcune cose. Senza, il telefono legge un dispositivo Neptune Apex, Red Sea o Jecod solo mentre Cora Mobile è aperta sullo stesso Wi-Fi. Un Cora Max li legge giorno e notte, tiene aggiornate le tue letture mentre sei via e passa i comandi che invii da lontano. Di più in [Attrezzatura per marca](/help/equipment-by-brand).
 
 ### Come aggiungo la mia prima vasca? {#how-do-i-add-my-first-tank}
 
@@ -82,7 +82,7 @@ Le serve l'accesso alla Rete locale per trovare l'attrezzatura Wi-Fi e raggiunge
 
 ### Posso controllare la vasca quando non sono a casa? {#can-i-check-on-my-tank-away}
 
-Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz, e in Beta HYDROS e Focustronic, vengono letti attraverso il cloud del loro produttore, quindi continuano ad aggiornarsi in ogni caso. Le letture che registri a mano e lo storico della vasca ci sono sempre.
+Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz viene letto attraverso il cloud del suo produttore, quindi continua ad aggiornarsi in ogni caso. Le letture che registri a mano e lo storico della vasca ci sono sempre.
 
 ### Posso comandare l'attrezzatura quando sono fuori casa? {#can-i-control-equipment-away}
 
@@ -104,19 +104,11 @@ Sì. Rimuovere una vasca la nasconde soltanto. Apri **Impostazioni → Vasche ri
 
 ### Con quale attrezzatura funziona Cora? {#what-equipment-does-cora-work-with}
 
-Neptune Apex (con DŌS e Trident), attrezzatura Red Sea ReefBeat, pompe Jecod e Jebao e il controller KH AquaWiz. In Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird e telecamere. Per tutto il resto, puoi registrare le letture a mano. Ogni marca, con i link alle sue pagine, è in [Attrezzatura per marca](/help/equipment-by-brand).
+Neptune Apex (con DŌS e Trident), attrezzatura Red Sea ReefBeat, pompe Jecod e Jebao e il controller KH AquaWiz. Per tutto il resto, puoi registrare le letture a mano. Ogni marca, con i link alle sue pagine, è in [Attrezzatura per marca](/help/equipment-by-brand).
 
-### Cosa vuol dire "Beta" per un'integrazione? {#what-does-beta-mean}
 
-La stiamo ancora testando e sviluppando. Alcune letture o alcuni comandi possono essere limitati, e quello che vedi può cambiare da un aggiornamento all'altro.
 
-**Beta.** Le integrazioni Beta sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). Partecipare a un programma di test di uno store non lo attiva. Di più in [Funzioni Beta](/help/mobile-beta).
-
-### Perché una marca è disattivata con "Richiede Cora Max"? {#why-requires-cora-max}
-
-Quell'attrezzatura la legge Cora Max, non il telefono. Aggiungi prima un Cora Max alla vasca, e la marca si sblocca. Di più in [Attrezzatura per marca](/help/equipment-by-brand).
-
-### Cora è affiliata a Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech o Inkbird? {#is-cora-affiliated}
+### Cora è affiliata a Neptune, Red Sea o Jebao? {#is-cora-affiliated}
 
 No. Cora non è affiliata, approvata o in partnership con nessun produttore a cui si collega. Cora usa i loro account pubblici, le API ufficiali o i protocolli di rete locale. Un aggiornamento dell'app o del firmware del produttore può cambiare o interrompere quel collegamento in qualsiasi momento, senza preavviso. Di più in [Collegare la tua attrezzatura](/help/mobile-connections).
 

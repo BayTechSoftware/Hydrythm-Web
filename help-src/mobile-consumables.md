@@ -19,7 +19,7 @@ Where to set it:
 
 - **Most devices**: the bell in the top bar of the device's page.
 - **DŌS**: the **Alerts** card on the DŌS page, or the bell. See [Doser alerts](/help/mobile-device-control#doser-alerts).
-- **AquaWiz and GHL dosers**: their rule on the **Rules** tab of the [Alert Center](/help/mobile-alerts).
+- **AquaWiz**: the rule on the **Rules** tab of the [Alert Center](/help/mobile-alerts).
 
 Most thresholds are in days, not volume. Cora works out how long what's left will last at the rate you're using it. "Four days of calcium left" is something you can act on. "180 mL left" isn't.
 
@@ -37,14 +37,7 @@ Most thresholds are in days, not volume. Cora works out how long what's left wil
 | ReefATO+ | **Reservoir runway**, estimated from recent top-off use | 2 days |
 | ReefMat | **Roll remaining**, estimated from how fast the roller advances | 3 days |
 | AquaWiz | Alkalinity supplement left | 100 mL |
-| GHL doser *(Beta)* | How full the container is | 20% |
-| EcoTech Versa *(Beta)* | Days of supplement left, and how full the container is | 7 days, 10% |
 
-A Focustronic *(Beta)* unit shows its own reagent and buffer warnings on its page.
-
-:::note Beta
-**Beta.** GHL, EcoTech and Focustronic are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
 
 A consumable alert works like any other alert. It shows in the [Alert Center](/help/mobile-alerts) and can push to your phone. You get **one** notification when a level is crossed, and it clears when the level is back above the threshold.
 
@@ -65,7 +58,6 @@ Tell Cora on the device's page, so the alert clears and the next warning is work
 | DŌS head | **Fill**, then **Full**, or set **Volume Remaining** |
 | DŌS waste container | Reset its free space to full after you empty it |
 | ReefDose head | **Remaining in bottle** |
-| ReefMat | **New roll (Beta)** after you load a new roll |
-| EcoTech Versa *(Beta)* | **Mark as refilled** |
+| ReefMat | **New roll** after you load a new roll |
 
 Trident, ReefATO+ and AquaWiz report their own levels, so there's nothing to reset in Cora.

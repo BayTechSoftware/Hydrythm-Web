@@ -19,7 +19,7 @@ Dove impostarlo:
 
 - **La maggior parte dei dispositivi**: la campanella nella barra in alto della pagina del dispositivo.
 - **DŌS**: la scheda **Avvisi** nella pagina del DŌS, oppure la campanella. Vedi [Avvisi del dosatore](/help/mobile-device-control#doser-alerts).
-- **Dosatori AquaWiz e GHL**: la loro regola nella scheda **Regole** del [Centro avvisi](/help/mobile-alerts).
+- **Dosatori AquaWiz**: la loro regola nella scheda **Regole** del [Centro avvisi](/help/mobile-alerts).
 
 Quasi tutte le soglie sono in giorni, non in volume. Cora calcola quanto durerà quello che resta al ritmo con cui lo stai usando. "Quattro giorni di calcio rimasti" è un dato su cui puoi agire. "180 mL rimasti" no.
 
@@ -37,14 +37,7 @@ Quasi tutte le soglie sono in giorni, non in volume. Cora calcola quanto durerà
 | ReefATO+ | **Autonomia del serbatoio**, stimata dal consumo recente di rabbocco | 2 giorni |
 | ReefMat | **Rullo rimanente**, stimato dalla velocità con cui avanza il rullo | 3 giorni |
 | AquaWiz | Integratore di alcalinità rimasto | 100 mL |
-| Dosatore GHL *(Beta)* | Quanto è pieno il contenitore | 20% |
-| EcoTech Versa *(Beta)* | Giorni di integratore rimasti, e quanto è pieno il contenitore | 7 giorni, 10% |
 
-Un'unità Focustronic *(Beta)* mostra i propri avvisi su reagente e tampone nella sua pagina.
-
-:::note Beta
-**Beta.** GHL, EcoTech e Focustronic sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html).
-:::
 
 Un avviso sui materiali di consumo funziona come tutti gli altri avvisi. Compare nel [Centro avvisi](/help/mobile-alerts) e può arrivarti come notifica sul telefono. Ricevi **una** notifica quando il livello supera la soglia, e l'avviso si chiude quando il livello torna sopra la soglia.
 
@@ -65,7 +58,6 @@ Diglielo nella pagina del dispositivo, così l'avviso si chiude e il prossimo vi
 | Testa DŌS | **Riempi**, poi **Pieno**, oppure imposta **Volume rimanente** |
 | Contenitore dei rifiuti DŌS | Riporta lo spazio libero al massimo dopo averlo svuotato |
 | Testa ReefDose | **Rimanente nella bottiglia** |
-| ReefMat | **Nuovo rotolo (Beta)** dopo aver caricato un rotolo nuovo |
-| EcoTech Versa *(Beta)* | **Segna come riempito** |
+| ReefMat | **Nuovo rotolo** dopo aver caricato un rotolo nuovo |
 
 Trident, ReefATO+ e AquaWiz riportano da soli i propri livelli, quindi in Cora non c'è niente da azzerare.

@@ -1,6 +1,6 @@
 ---
 title: Harmonogramy sprzętu
-description: Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy, a także podejrzyj harmonogram Maxspect Gyre (Beta).
+description: Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,13 +9,13 @@ group: Equipment
 
 Na tej stronie nadasz pompie Jecod **program dnia**: zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. Otwórz go z **Urządzenia** → dotknij pompy.
 
-W ten sam sposób możesz podejrzeć harmonogram Maxspect Gyre *(Beta)*, ale ustawiasz go w aplikacji Maxspect. Maxspect jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta). Lampy i pompy innych marek mają harmonogramy na własnych stronach: [EcoTech](/help/mobile-ecotech) *(Beta)*, a ReefRun i ReefDose od Red Sea w [Sterowaniu sprzętem](/help/mobile-device-control#red-sea).
+Lampy i pompy innych marek mają harmonogramy na własnych stronach: ReefDose od Red Sea w [Sterowaniu sprzętem](/help/mobile-device-control#red-sea).
 
 ![Strona pompy Jecod w Cora Mobile z wybranym Harmonogramem](img/mobile-schedules.webp "Harmonogram wybrany na górze, przerwa na karmienie, a pod nimi wykres dnia.")
 
 ## Tak samo cały dzień albo Harmonogram {#same-all-day-or-schedule}
 
-Pompa pracuje w jednym z dwóch trybów. Wybierz go na górze jej strony.
+Pompa pracuje w jednym z dwóch trybów. Wybierz go przełącznikiem na jej stronie. Działający jest oznaczony *· działa*, a strona otwiera się na nim.
 
 - **Tak samo cały dzień** to jedna intensywność przez cały czas.
 - **Harmonogram** to program dnia złożony z okresów.
@@ -34,7 +34,6 @@ Pod wykresem jest lista okresów. Przy każdym widać godziny, tryb i intensywno
 
 Dotknij **Dodaj do harmonogramu**, żeby dodać okres. Żeby go zmienić, otwórz go i dotknij **Zapisz**. Żeby go usunąć, dotknij **Usuń** i potwierdź.
 
-Maxspect Gyre *(Beta)* ma dwie głowice, pokazane jako Gyre A i Gyre B. Jego wykres dnia ma tor dla każdej z nich, a plany są wymienione pod **GYRE A** i **GYRE B**. Harmonogram Gyre możesz tu tylko podejrzeć. Jego wiersz akcji pokazuje **Tylko podgląd**, a harmonogram ustawiasz w aplikacji Maxspect.
 
 :::warning Zapis wysyła harmonogram do urządzenia
 Po zapisaniu Cora wysyła program do sprzętu, a sprzęt realizuje go według własnego zegara. Działa dalej niezależnie od tego, czy Cora może się z nim połączyć.

@@ -1,6 +1,6 @@
 ---
 title: Programmer l’équipement
-description: Créez un programme journalier pour une pompe Jecod, copiez-le d’une pompe à l’autre, et consultez le programme d’une Gyre Maxspect (Beta).
+description: Créez un programme journalier pour une pompe Jecod et copiez-le d’une pompe à l’autre.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,15 +9,15 @@ group: Equipment
 
 Cette page explique comment donner à une pompe Jecod un **programme journalier** : un ensemble de périodes, chacune avec sa propre intensité, qui se répète tous les jours. Ouvrez-le depuis **Appareils** → touchez la pompe.
 
-Vous pouvez aussi consulter de la même façon le programme d’une Gyre Maxspect *(Beta)*, mais il se règle dans l’application Maxspect. Maxspect n’est ouvert qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta). Les lampes et pompes d’autres marques gardent leurs programmes sur leurs propres pages : [EcoTech](/help/mobile-ecotech) *(Beta)*, et les ReefRun et ReefDose de Red Sea dans [Contrôler votre équipement](/help/mobile-device-control#red-sea).
+Les lampes et pompes d’autres marques gardent leurs programmes sur leurs propres pages : les ReefDose de Red Sea dans [Contrôler votre équipement](/help/mobile-device-control#red-sea).
 
 ![La page d’une pompe Jecod dans Cora Mobile avec Programme choisi](img/mobile-schedules.webp "Programme choisi en haut, la pause nourrissage, puis le graphique de la journée.")
 
-## Constant toute la journée, ou Programme {#same-all-day-or-schedule}
+## Identique toute la journée, ou Programme {#same-all-day-or-schedule}
 
-Une pompe fonctionne dans l’un de ces deux modes. Choisissez-en un en haut de sa page.
+Une pompe fonctionne dans l’un de ces deux modes. Choisissez-en un avec le sélecteur de sa page. Celui qui fonctionne est marqué *· en cours*, et la page s’ouvre dessus.
 
-- **Constant toute la journée** tourne à une seule intensité en continu.
+- **Identique toute la journée** tourne à une seule intensité en continu.
 - **Programme** suit un programme journalier fait de périodes.
 
 Cora envoie votre choix directement à la pompe quand votre téléphone est sur son réseau. Sinon, il passe par le Cora Max de l’aquarium. Une pompe Bluetooth doit être à portée. Tant qu’elle ne l’est pas, votre choix ne change que ce que vous voyez à l’écran.
@@ -34,7 +34,6 @@ Sous le graphique se trouve la liste des périodes. Chacune indique ses horaires
 
 Touchez **Ajouter au programme** pour ajouter une période. Pour en changer une, ouvrez-la et touchez **Enregistrer**. Pour la retirer, touchez **Supprimer** et confirmez.
 
-Une Gyre Maxspect *(Beta)* a deux têtes, affichées Gyre A et Gyre B. Son graphique a une piste pour chacune, et ses plans sont listés sous **GYRE A** et **GYRE B**. Ici, vous pouvez seulement consulter le programme d’une Gyre. Sa ligne d’action indique **Lecture seule**, et le programme se règle dans l’application Maxspect.
 
 :::warning Enregistrer écrit le programme dans l’appareil
 Quand vous enregistrez, Cora envoie le programme à l’équipement, qui l’exécute avec sa propre horloge. Il continue de tourner, que Cora puisse le joindre ou non.
@@ -57,7 +56,7 @@ Une fois que vous avez un programme qui vous plaît, vous n’avez pas à le ref
 
 Quand votre téléphone n’est pas sur le réseau de la pompe, Cora Mobile passe par le Cora Max de l’aquarium. Quelques points fonctionnent différemment.
 
-- **Constant toute la journée** et **Programme** changent le mode de la pompe par ce Cora Max.
+- **Identique toute la journée** et **Programme** changent le mode de la pompe par ce Cora Max.
 - Une période que vous ajoutez ou modifiez ne passe que si ce Cora Max a joint la pompe dans la dernière heure. Sinon, le programme vous le dit, et vous ne pouvez pas le changer d’où vous êtes.
 - **Copier le programme vers…**, **Enregistrer le programme sous…**, **Programmes enregistrés…**, **Partager ce programme** et **Coller un code de programme…** demandent que votre téléphone soit sur le réseau de la pompe. En attendant, ils sont grisés et le menu vous explique pourquoi.
 

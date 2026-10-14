@@ -3,7 +3,7 @@ title: Partir en vacances : un plan pour la personne qui garde votre aquarium
 description: Activez le mode vacances, préparez une liste de tâches pour votre gardien et partagez-la sous forme de page en lecture seule, avec les mesures en direct, qu’il ouvre sans compte.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 25
 group: Alerts and automation
 ---
 

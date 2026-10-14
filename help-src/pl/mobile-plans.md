@@ -3,7 +3,7 @@ title: Plany i subskrypcje
 description: Co obejmują plany Free, okres próbny, Plus, Pro i Max, jak wykupić subskrypcję albo przejść na wyższy plan, gdzie sprawdzić wykorzystanie i jak anulować na iPhonie albo Androidzie.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 35
+order: 37
 group: Settings and account
 ---
 
@@ -62,7 +62,6 @@ Są trzy plany, **Plus**, **Pro** i **Max**, każdy z płatnością miesięczną
 
 Sesje głosowe mają własny licznik, a każda odpowiedź głosowa zużywa też limit wiadomości. Każdy płatny plan obejmuje Reef Buddy, przesyłanie i analizę ICP z laboratoriów, które odczytuje Cora, porównanie z Twoją własną historią oraz **Zaprojektuj z AI** dla pulpitów (do 5 projektów dziennie dla każdego akwarium).
 
-Płatne plany obejmują też alerty Czuwania skimmera dla kamery przy sumpie. Okres próbny ich nie obejmuje. **Beta.** Kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną. Więcej w [Kamerach](/help/mobile-cameras).
 
 :::note Plan Max to nie ekran Cora Max
 **Plan Max** to subskrypcja. **Cora Max** to ekran, który stoi przy akwarium. Jedno nie wymaga drugiego.

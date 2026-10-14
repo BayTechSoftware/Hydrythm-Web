@@ -14,7 +14,7 @@ Des réponses courtes, avec des liens vers les pages complètes. Si quelque chos
 
 Vous n’avez rien à acheter pour commencer. Cora Mobile seul suit vos aquariums, note vos tests, envoie des alertes et fait tourner Cora Assistant.
 
-Un Cora Max à l’aquarium ajoute quelques choses. Sans lui, votre téléphone ne lit un appareil Neptune Apex, Red Sea ou Jecod que tant que Cora Mobile est ouvert sur le même Wi-Fi. Un Cora Max les lit jour et nuit, garde vos mesures à jour pendant votre absence, et transmet les commandes que vous envoyez à distance. Maxspect, GHL, EcoTech, Inkbird et les caméras ont besoin d’un Cora Max pour fonctionner (ils sont en Beta, voir plus bas). Plus de détails dans [L’équipement par marque](/help/equipment-by-brand).
+Un Cora Max à l’aquarium ajoute quelques choses. Sans lui, votre téléphone ne lit un appareil Neptune Apex, Red Sea ou Jecod que tant que Cora Mobile est ouvert sur le même Wi-Fi. Un Cora Max les lit jour et nuit, garde vos mesures à jour pendant votre absence, et transmet les commandes que vous envoyez à distance. Plus de détails dans [L’équipement par marque](/help/equipment-by-brand).
 
 ### Comment ajouter mon premier aquarium ? {#how-do-i-add-my-first-tank}
 
@@ -82,7 +82,7 @@ Il a besoin de l’accès au réseau local pour trouver l’équipement Wi-Fi et
 
 ### Puis-je surveiller mon aquarium quand je ne suis pas chez moi ? {#can-i-check-on-my-tank-away}
 
-Oui. Avec un Cora Max à l’aquarium, vos mesures restent à jour où que vous soyez. Sans lui, un appareil Neptune Apex, Red Sea ou Jecod affiche les dernières mesures que votre téléphone a enregistrées pendant qu’il était sur le même Wi-Fi. Un AquaWiz, et en Beta HYDROS et Focustronic, sont lus par le cloud de leur fabricant, ils continuent donc de se mettre à jour dans tous les cas. Les mesures que vous notez à la main et l’historique de l’aquarium sont toujours là.
+Oui. Avec un Cora Max à l’aquarium, vos mesures restent à jour où que vous soyez. Sans lui, un appareil Neptune Apex, Red Sea ou Jecod affiche les dernières mesures que votre téléphone a enregistrées pendant qu’il était sur le même Wi-Fi. Un AquaWiz est lu par le cloud de son fabricant, il continue donc de se mettre à jour dans tous les cas. Les mesures que vous notez à la main et l’historique de l’aquarium sont toujours là.
 
 ### Puis-je commander l’équipement quand je suis loin de chez moi ? {#can-i-control-equipment-away}
 
@@ -104,19 +104,11 @@ Oui. Retirer un aquarium ne fait que le masquer. Ouvrez **Réglages → Aquarium
 
 ### Avec quel équipement Cora fonctionne-t-il ? {#what-equipment-does-cora-work-with}
 
-Neptune Apex (avec DŌS et Trident), l’équipement Red Sea ReefBeat, les pompes Jecod et Jebao et l’AquaWiz KH Controller. En Beta : Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird et les caméras. Pour tout le reste, vous pouvez noter les mesures à la main. Toutes les marques, avec des liens vers leurs pages, sont dans [L’équipement par marque](/help/equipment-by-brand).
+Neptune Apex (avec DŌS et Trident), l’équipement Red Sea ReefBeat, les pompes Jecod et Jebao et l’AquaWiz KH Controller. Pour tout le reste, vous pouvez noter les mesures à la main. Toutes les marques, avec des liens vers leurs pages, sont dans [L’équipement par marque](/help/equipment-by-brand).
 
-### Que veut dire "Beta" pour une intégration ? {#what-does-beta-mean}
 
-Nous sommes encore en train de la tester et de la développer. Certaines mesures ou commandes peuvent être limitées, et ce que vous voyez peut changer d’une mise à jour à l’autre.
 
-**Beta.** Les intégrations Beta ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Participer à un programme de test d’un store ne l’active pas. Plus de détails dans [Fonctions Beta](/help/mobile-beta).
-
-### Pourquoi une marque est-elle grisée avec "Nécessite Cora Max" ? {#why-requires-cora-max}
-
-C’est Cora Max qui lit cet équipement, pas votre téléphone. Ajoutez d’abord un Cora Max à l’aquarium, et la marque devient disponible. Plus de détails dans [L’équipement par marque](/help/equipment-by-brand).
-
-### Cora est-il affilié à Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech ou Inkbird ? {#is-cora-affiliated}
+### Cora est-il affilié à Neptune, Red Sea ou Jebao ? {#is-cora-affiliated}
 
 Non. Cora n’est ni affilié, ni approuvé, ni partenaire d’aucun des fabricants auxquels il se connecte. Cora communique avec leurs comptes publics, leurs API officielles ou leurs protocoles de réseau local. L’application ou une mise à jour du micrologiciel d’un fabricant peut changer ou casser cette connexion à tout moment, sans préavis. Plus de détails dans [Connecter votre équipement](/help/mobile-connections).
 

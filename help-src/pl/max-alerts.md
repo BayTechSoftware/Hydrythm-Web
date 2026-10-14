@@ -18,7 +18,8 @@ Gdy odczyt wyjdzie poza zakres, urządzenie zgłosi usterkę, dawka zostanie pom
 2. **Uśpij** wycisza alert na tym Cora Max na jakiś czas. Przycisk pokazuje, na jak długo, na przykład **Uśpij na 1 h**. To czas wstrzymania ustawiony dla tego alertu w ustawieniach alertów w Cora Mobile i może wynosić nawet 1 tydzień (przydaje się przy czymś takim jak niski poziom odczynnika, który przez kilka dni się nie zmieni).
 3. **Odrzuć** zamyka alert od razu. Na tym ekranie alert milczy, dopóki problem nie zniknie. Jeśli wróci później, dostaniesz nowy alert.
 
-Gdy alert dotyczy dozownika, na przykład kończącego się płynu w głowicy DŌS albo ReefDose lub pominiętej dawki, karta ma też przycisk **Otwórz DŌS** albo **Otwórz ReefDose** (**Otwórz Versa** dla EcoTech Versa). Przenosi on na stronę tego dozownika, gdzie ustawia się jego alerty.
+Gdy alert dotyczy dozownika, na przykład kończącego się płynu w głowicy DŌS albo ReefDose lub pominiętej dawki, karta ma też przycisk **Otwórz DŌS** albo **Otwórz ReefDose**. Przenosi on na stronę tego dozownika, gdzie ustawia się jego alerty.
+
 
 Jeśli Uśpij albo Odrzuć pokaże błąd, spróbuj jeszcze raz. Jeśli błąd się powtarza, zobacz [Alert nie znika](/help/troubleshooting#an-alert-is-not-clearing).
 
@@ -53,13 +54,10 @@ Arkusz progu ma ten sam przełącznik na górze, obok **Alert włączony** albo 
 
 ## Alerty urządzeń i zasobów {#doser-alerts}
 
-Sprzęt, w którym coś się kończy, ma na swojej stronie na Cora Max przycisk **Ustawienia alertów**. Dotyczy to Tridenta (odczynniki i odpady), głowic DŌS, Red Sea ReefDose, ReefATO+ i ReefMat oraz EcoTech Radion, VorTech i Versa. Wybierz poziom, o którym chcesz wiedzieć, a po jego przekroczeniu dostaniesz jedno powiadomienie. W głowicy DŌS **Alerty o pominiętej dawce** informują też, gdy głowica pominie zaplanowane dawki.
+Sprzęt, w którym coś się kończy, ma na swojej stronie na Cora Max przycisk **Ustawienia alertów**. Dotyczy to Tridenta (odczynniki i odpady), głowic DŌS, Red Sea ReefDose, ReefATO+ i ReefMat. Wybierz poziom, o którym chcesz wiedzieć, a po jego przekroczeniu dostaniesz jedno powiadomienie. W głowicy DŌS **Alerty o pominiętej dawce** informują też, gdy głowica pominie zaplanowane dawki.
 
 Co oznacza każdy alert dozownika, opisują [Alerty dozownika](/help/mobile-device-control#doser-alerts).
 
-:::note Beta
-**Beta.** EcoTech jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html).
-:::
 
 ## Dźwięk alertu, alerty głosowe i wybudzanie ekranu
 

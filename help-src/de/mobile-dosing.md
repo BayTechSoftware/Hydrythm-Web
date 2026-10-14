@@ -3,7 +3,7 @@ title: Dosierprodukte und Dosierrechner
 description: Die Stärke deiner Alkalinitäts-, Calcium- und Magnesiumprodukte prüfen, eigene hinzufügen und mit dem Dosierrechner ausrechnen, wie viel du zugeben musst.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 25
+order: 27
 group: Records
 ---
 

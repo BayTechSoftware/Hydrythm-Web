@@ -3,7 +3,7 @@ title: Impostazioni di Cora Mobile
 description: Dove si trova tutto nella scheda Impostazioni di Cora Mobile, dall'account e dal piano a vasche, Cora Assistant, lingua, modalità scura, notifiche e assistenza.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 33
+order: 35
 group: Settings and account
 twin: max-settings
 ---

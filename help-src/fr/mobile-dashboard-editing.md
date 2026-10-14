@@ -57,7 +57,7 @@ Touchez un widget dans l’éditeur pour ouvrir ses réglages. Selon le widget, 
 | **Paramètre** | Widgets de paramètre : le paramètre affiché |
 | La prise ou l’appareil | Tuiles de prise et d’équipement : celle ou celui qui est affiché |
 | **Afficher le reste en** | Tuiles de doseur : **Jours** ou **Millilitres (mL)** |
-| **Largeur** | Tous les widgets : **1×** ou **2×** (une caméra jusqu’à **3×**). Un graphique fait toujours au moins 2 de large |
+| **Largeur** | Tous les widgets : **1×** ou **2×**. Un graphique fait toujours au moins 2 de large |
 | **Hauteur** | Tous les widgets : **1×** ou **2×** |
 | **Plage de temps** | Graphique : 1 h, 6 h, 24 h, 7 j, 30 j ou 1 an |
 
@@ -78,7 +78,7 @@ Vous modifiez le tableau de bord Cora Max à part, depuis **Appareils →** votr
 Cet éditeur a trois atouts que le tableau de bord du téléphone n’a pas :
 
 - **Mes tableaux de bord** garde jusqu’à 30 designs enregistrés sur votre compte. N’importe quel Cora Max du compte peut en charger un. Les tuiles que la cible ne peut pas remplir sont listées sous **Laissées de côté :** avant le chargement.
-- **Modèles** ouvre **Modèles de tableau de bord** : **Vue d'ensemble**, **Équipement**, **Paramètres** et, si l’aquarium a une caméra, **Caméra**. C’est ouvert avec tous les forfaits et n’utilise pas l’IA. Les caméras sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta.
+- **Modèles** ouvre **Modèles de tableau de bord** : **Vue d'ensemble**, **Équipement** et **Paramètres**. C’est ouvert avec tous les forfaits et n’utilise pas l’IA.
 - **Concevoir avec l'IA**, avec un forfait payant ou pendant l’essai, propose une disposition complète à partir de ce que l’aquarium remonte et a associé. Vous pouvez créer 5 designs par aquarium et par jour.
 
 Le fonctionnement de chacun est expliqué dans [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).

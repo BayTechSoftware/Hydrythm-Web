@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Your daily Reef Buddy briefing, what it covers, when it arrives, how to read the scores, and why a briefing might not come.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Next is a summary, a short paragraph that explains the headline using your real 
 
 Then come the insights, one for each finding. Each has a category (such as *Water Chemistry*) and a cadence (such as *Daily*), and you can expand it for detail. A chip at the top of the section shows the tank type and how complete its profile is. Both affect what Cora can conclude.
 
+
 Cora filters insights before they reach you. An insight has to hold up over several readings. One isn't enough. It also has to tell you something a single chart wouldn't already show.
 
 Tap the card on the dashboard to open the full briefing.
@@ -51,11 +52,8 @@ Probe and controller readings don't trigger this offer, because they come in all
 
 Under an insight, tap **Why am I seeing this?** The sheet **Why you're seeing this** lists the **Readings it used**, the **Target it compared against** (your own target, or a reference range), anything **From your journal** that it took into account, and the time window in days it looked at. If the reasoning doesn't fit your tank, answer the insight as described in [Correcting an insight](#correcting-an-insight).
 
-Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's, the totals of your DŌS heads and, if you have an Inkbird room air monitor, the room's temperature and humidity.
+Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's and the totals of your DŌS heads.
 
-:::note Inkbird is in Beta
-**Beta.** Inkbird is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact support. More in [Beta features](/help/mobile-beta).
-:::
 
 ## When it arrives
 

@@ -9,7 +9,7 @@ group: Equipment
 
 Usa **Mappatura parametri** per dire a Cora cosa misura ogni sonda e, quando due sonde riportano la stessa cosa, di quale fidarsi. Vai in **Impostazioni**, apri la vasca e tocca **Mappatura parametri**.
 
-Si trova tra **Modifica vasca** e **Soglie di avviso**. La matita in alto sulla dashboard apre **Modifica vasca**, che non la contiene. La raggiungi anche dalle pagine dei dispositivi Neptune Apex e GHL (Beta). GHL è disponibile solo per gli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta).
+Si trova tra **Modifica vasca** e **Soglie di avviso**. La matita in alto sulla dashboard apre **Modifica vasca**, che non la contiene. La raggiungi anche dalle pagine dei dispositivi Neptune Apex.
 
 La schermata ha un campo di ricerca (**Cerca parametri**) e due schede, **Mappatura** e **Fonti**. La ricerca guarda nei nomi dei parametri, nei nomi delle sonde, nei dispositivi e nelle marche. Lo stesso campo di ricerca c'è in ogni selettore di parametri.
 

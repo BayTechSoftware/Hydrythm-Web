@@ -13,14 +13,10 @@ Busca la familia a la que pertenece tu problema, y después el mensaje o el sín
 - [Una orden no llegó](#command-did-not-go-through)
 - [Cora Max](#cora-max)
 - [Alertas, notificaciones y el resumen diario](#alerts-and-notifications)
-- [Cámaras y vigilancia del skimmer](#cameras-and-skimmer-watch)
 - [Cora Assistant y la voz](#cora-assistant-and-voice)
 - [Resultados de laboratorio e informes de salud](#lab-results-and-health-reports)
 - [Idioma, unidades e inicio de sesión](#language-units-and-signing-in)
 
-:::note Integraciones Beta
-Algunas entradas de abajo tratan de integraciones Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird y cámaras. **Beta.** Estas integraciones están en Beta y solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con el soporte. Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
 ## Lecturas y widgets {#readings-and-widgets}
 
@@ -91,7 +87,6 @@ Cora envía esto cuando un dispositivo se queda en silencio. No significa que el
 2. Comprueba que el Cora Max que lo lee está encendido y en línea. Sin un Cora Max, tu teléfono lee un dispositivo Neptune Apex, Red Sea o Jecod solo mientras Cora Mobile está abierta en el mismo Wi-Fi.
 3. Espera a la siguiente lectura. Recibirás una segunda notificación cuando vuelva a informar.
 
-GHL y HYDROS tienen sus propios mensajes, más abajo en esta página.
 
 ### "El dispositivo está fuera de línea. Mostrando el último estado conocido." {#device-is-offline-showing-last-known-state}
 
@@ -129,23 +124,6 @@ Es normal. Los ajustes propios de un dispositivo Red Sea solo se abren cuando tu
 1. Conéctate al Wi-Fi del acuario para cambiar esos ajustes.
 2. Las lecturas y el historial siguen funcionando cuando estás fuera.
 
-### "API GHL desactivada" {#ghl-api-is-off}
-
-GHL (Beta) desactiva su API oficial después de cada actualización de firmware, así que esto es normal tras una actualización. Vuelve a activarla desde **System → GHL API** en GHL Control Center o GHL Connect, en el propio controlador. Cora sigue comprobándolo y se vuelve a conectar en cuanto está activada.
-
-### "No se puede contactar con el controlador GHL" {#ghl-controller-unreachable}
-
-Cora Max no puede llegar a la dirección del controlador GHL (Beta) en tu red.
-
-1. Comprueba que el controlador está encendido y conectado a tu red.
-2. Comprueba que su dirección IP no ha cambiado. Si ha cambiado, ábrelo en tu teléfono (**Dispositivos**) y actualízala en **Conexión**.
-3. Comprueba que el Cora Max que lee este acuario está en la misma red que el controlador.
-
-### Un controlador HYDROS aparece desconectado o sin informar {#a-hydros-controller-shows-as-offline-or-not-reporting}
-
-HYDROS (Beta) informa a través de su propia nube, así que esto normalmente significa que el controlador se ha quedado sin corriente o ha perdido su propia conexión. Revísalo en la app HYDROS. Las lecturas se ponen al día cuando vuelve a estar en línea. Una orden enviada mientras parece desconectado no se envía.
-
-Si un dispositivo HYDROS muestra **Clave revocada**, su clave de dispositivo se eliminó o se sustituyó en la app HYDROS. Crea una clave nueva y vuelve a vincularlo en tu teléfono desde **Dispositivos → Agregar dispositivo → HYDROS**.
 
 ## Una orden no llegó {#command-did-not-go-through}
 
@@ -163,9 +141,6 @@ Una orden a tu bomba Jecod o Jebao nunca salió de Cora. En tu teléfono el mens
 
 Tu teléfono está fuera del alcance de una bomba Jecod que solo usa Bluetooth. Acércate a la bomba y toca **Reintentar**.
 
-### "No se pudo contactar con ese Gyre. Su programa no cambió." {#could-not-reach-that-gyre-its-program-was-not-changed}
-
-Cora no pudo hacer llegar un horario nuevo a un gyre Maxspect (Beta). Comprueba que el gyre está encendido y que tu teléfono o tu Cora Max está en su red, y después toca **Reintentar** en la pantalla del horario.
 
 ### "No se pudo contactar al Apex: nada cambió" / "no se dosificó nada" {#could-not-reach-the-apex-nothing-changed-nothing-was-dosed}
 
@@ -334,21 +309,6 @@ Quitar un acuario solo lo oculta. Sus dispositivos siguen vinculados a él, y un
 
 Después vuelve a quitar el acuario. Más información en [Gestionar tus acuarios](/help/mobile-tanks).
 
-## Cámaras y vigilancia del skimmer {#cameras-and-skimmer-watch}
-
-Las cámaras y la vigilancia del skimmer son Beta. Cómo configurarlas se explica en [Cámaras y vigilancia del skimmer](/help/mobile-cameras).
-
-### La vigilancia del skimmer muestra un mensaje en lugar del nivel del vaso {#skimmer-watch-messages}
-
-- **Marca primero el vaso**: la vigilancia del skimmer todavía no sabe dónde está el vaso. Toca **Marcar el vaso** y arrastra el recuadro sobre él.
-- **Sin calibrar: vacía el vaso y toca El vaso está vacío ahora**: haz exactamente eso, con el vaso vacío.
-- **Recuadro movido: calibra de nuevo**: moviste el recuadro, así que vuelve a calibrar con el vaso vacío.
-- **No estoy seguro (poca confianza)**: la imagen no era lo bastante clara. Lee los **Consejos para la cámara** de la pantalla de la vigilancia del skimmer, y después espera a la siguiente comprobación o toca **Comprobar ahora**.
-- **Luz demasiado fuerte detrás del vaso**: apaga la luz que hay detrás del vaso, o pon la visión nocturna de la cámara siempre activada.
-- **Cora Max no pudo obtener imagen de la cámara.**: comprueba que la cámara está encendida y en línea, y que el Cora Max que la lee está encendido.
-- **La última comprobación falló.**: toca **Comprobar ahora**. Si sigue fallando, revisa la cámara y Cora Max.
-- **Aún no hay lectura. Cora Max comprueba cada 15 minutos.**: espera a la primera comprobación.
-- **La vigilancia del skimmer requiere un plan de pago.**: la vigilancia del skimmer forma parte de los planes de pago.
 
 ## Cora Assistant y la voz {#cora-assistant-and-voice}
 

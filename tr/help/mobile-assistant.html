@@ -95,9 +95,6 @@
 <li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
-<li><a href="/tr/help/mobile-cameras">Kameralar ve Skimmer Gözcüsü</a></li>
-<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozaj pompaları</a></li>
-<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Uyarılar ve otomasyon</summary><ul>
@@ -193,7 +190,6 @@
 <p>Cora yalnızca akvaryumda olanı önerir. Akvaryumda DŌS yoksa dozaj yapamaz.</p>
 <p>Bir testi, günlük kaydını ya da beslemeyi kaydetmek siz istediğinizde olur. Ekipmanınızı ya da bir uyarı aralığını değiştiren her şey farklıdır: Cora tam olarak neyi değiştirmek üzere olduğunu söyler ve evet demenizi bekler. Belirsiz bir talimata göre hareket etmez. Bir komut çalışmış olabilir ama Cora onu doğrulayamadıysa bunu söyler. Yeniden istemeden önce ekipmanı kontrol edin.</p>
 <p>Ekipman kontrolü evden uzaktayken yalnızca akvaryumdaki bir Cora Max ekipmana ulaşabildiğinde çalışır. <a href="/tr/help/mobile-multi-device">Evden uzaktayken neler çalışır</a> bölümüne bakın.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta ekipmanı</p><p>Cora ayrıca GHL™, HYDROS™, Focustronic™, Maxspect™ ve EcoTech™ (Radion, VorTech ve Versa) ekipmanını da kontrol edebilir. <strong>Beta.</strong> Bu entegrasyonlar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları <strong>Cihaz Ekle</strong> içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Cora tavsiye verir, karar sizindir</p><p>Önemli olan her şeyi kendi testlerinizle kontrol edin. Büyük değişikliklere başka birinden gelen bir tavsiyeye nasıl yaklaşıyorsanız öyle yaklaşın ve harekete geçmeden önce mantıklı olup olmadığını kontrol edin. Mesaj kutusunun altındaki satır da aynı şeyi söyler.</p></aside>
 <h2 id="izin">İzin</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Büyüt: Asistan izni"><img src="/help/img/mobile-assistant-consent.webp" alt="Asistan izni" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>İki ayrı izin ve Cora'nın tuttuğu hafıza.</figcaption></figure>
@@ -225,7 +221,7 @@
 <p>Bir yanıt kendinden emin ama yanlış görünüyorsa önce veri çipine bakın. Çoğu zaman yanıt, Cora'ya verilen veriye göre doğrudur. Asıl sorun eski bir ölçüm ya da yanlış akvaryuma atanmış bir kaynaktır.</p>
 <p>Bir yanıtı altındaki başparmak simgeleriyle değerlendirin. Başparmak aşağı <em>Onunla ilgili sorun neydi?</em> diye sorar. <strong>Yanlış</strong> ya da <strong>Akvaryumumı gözden kaçırdı</strong> gibi bir neden seçin ve <strong>Değerlendirmeyi gönder</strong>'e dokunun. Düzeltmemize yardım eden budur.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-reef-buddy"><span>Önceki</span><b>Reef Buddy</b></a><a class="pn-n" href="/tr/help/mobile-icp-health"><span>Sonraki</span><b>ICP ve sağlık raporları</b></a></nav>
-      <p class="stamp">Cora Max 0.28.170 ve Cora Mobile 0.5.111 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -616,7 +612,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=7b891243eb').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

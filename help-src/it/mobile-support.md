@@ -3,7 +3,7 @@ title: Segnalare un problema
 description: Segnala un bug o invia un feedback da Cora Mobile, scopri cosa viene inviato insieme, attiva le segnalazioni di arresto anomalo o scrivi all'assistenza.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 37
+order: 39
 group: Settings and account
 ---
 

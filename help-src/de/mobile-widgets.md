@@ -25,23 +25,13 @@ Widgets fügst du im [Dashboard-Editor](/help/mobile-dashboard-editing) hinzu un
 | **ReefBeat** | Ein Red Sea-Gerät, mit seiner eigenen Zusammenfassung |
 | **Apex-Modul** | Ein eingebautes Apex-Modul, etwa ein Trident oder DŌS |
 | **Jecod** | Eine Jecod-Pumpe, mit Modus und Intensität |
-| **Maxspect** *(Beta)* | Eine Gyre, mit beiden Motoren |
-| **GHL** *(Beta)* | Ein ProfiLux- oder Mitras-Controller, mit seiner eigenen Zusammenfassung |
-| **HYDROS** *(Beta)* | Ein HYDROS-Controller, mit seiner eigenen Zusammenfassung |
-| **Radion** *(Beta)* | Eine EcoTech Radion-Leuchte oder ein verknüpftes Radion-Netz |
-| **VorTech** *(Beta)* | Eine EcoTech VorTech-Pumpe, mit Modus und Geschwindigkeit |
-| **Versa** *(Beta)* | Ein EcoTech Versa-Dosierer, mit seinen Köpfen |
-| **Kamera** *(Beta)* | Eine Live-Ansicht einer deiner Kameras, bis zu drei Spalten breit und zwei Zeilen hoch |
 
 Alles nach Steckdose ist eine **Gerätekachel**. Jede gehört zu einem Stück Ausrüstung statt zu einem Wasserwert und zeigt, was dieses Gerät meldet. Cora Max hat außerdem eine Kachel **Szene**, die du auf Cora Max hinzufügst. Siehe [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).
 
-:::note Beta-Kacheln
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech und Versa) und Kamera sind Beta-Anbindungen, nur für Beta-Nutzer offen. Diese Kacheln siehst du erst, wenn du das Gerät hast. Siehe [Beta-Funktionen](/help/mobile-beta).
-:::
 
 ## Größe {#sizing}
 
-**Breite** und **Höhe** können jeweils **1×** oder **2×** sein, ein Widget ist also eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Eine Kamera kann bis zu **3×** breit sein. Ein Diagramm ist nie eine Zelle breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Das ist meist eine gute Form für deinen wichtigsten Wasserwert.
+**Breite** und **Höhe** können jeweils **1×** oder **2×** sein, ein Widget ist also eine oder zwei Zellen breit und eine oder zwei Zellen hoch. Ein Diagramm ist nie eine Zelle breit. Auf einem Dashboard mit drei Spalten belegt eine zwei Zellen breite Anzeige zwei Drittel der Zeile. Das ist meist eine gute Form für deinen wichtigsten Wasserwert.
 
 ## Was ein Wasserwert-Widget zeigt {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ Welche Geräte eine Kachel haben können, hängt davon ab, was du verbunden hast
 
 ## Dosierer-Kacheln {#doser-tiles}
 
-Eine Kachel für einen Dosierer (ein Apex DŌS, ein ReefDose oder ein EcoTech Versa) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe verkleinert. Auf einer hohen Kachel nimmt die Zeile zwei Zeilen ein, mit dem Namen in der ersten und dem, was übrig ist, in der zweiten, zum Beispiel *40d* und *2.8 L*. Auf einer niedrigen Kachel fällt die Detailzeile weg, und der Name bleibt lesbar.
+Eine Kachel für einen Dosierer (ein Apex DŌS oder ein ReefDose) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe verkleinert. Auf einer hohen Kachel nimmt die Zeile zwei Zeilen ein, mit dem Namen in der ersten und dem, was übrig ist, in der zweiten, zum Beispiel *40d* und *2.8 L*. Auf einer niedrigen Kachel fällt die Detailzeile weg, und der Name bleibt lesbar.
 
 Leg mit **Restmenge anzeigen als** fest, was zuerst kommt: **Tage** oder **Milliliter (mL)**. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename, gefolgt von "Kopf" und seiner Nummer, angezeigt. Eine Jecod-Dosierer-Kachel ist nur zum Lesen und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.

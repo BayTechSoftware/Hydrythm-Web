@@ -18,6 +18,7 @@ Ouvrez-la depuis le **menu de l’aquarium** (touchez le nom de l’aquarium dan
 
 Chaque ligne indique l’équipement et ce qui a été demandé, par exemple *Retour : Éteint*, ainsi que l’heure. Elle vous dit aussi deux autres choses.
 
+
 **Qui l’a demandé.** Par exemple **Touché sur ce Cora**, **Voix sur ce Cora**, **Application Cora**, **Voix dans l’application Cora**, **Règle d’automatisation** ou **Envoyé depuis le cloud**.
 
 **Le chemin suivi.** **LAN** veut dire que la commande est passée par votre propre réseau. **VIA LE CLOUD** veut dire qu’elle est passée par Cora Cloud. Si vous avez plus d’un Cora Max, la ligne indique aussi lequel l’a exécutée.

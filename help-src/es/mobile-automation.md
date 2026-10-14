@@ -3,7 +3,7 @@ title: Automatizaciones y escenas
 description: Haz que Cora actúe sola ante una lectura, una alerta, una hora o un dispositivo que se desconecta, y agrupa acciones en escenas que ejecutas con un toque.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Añade uno o más disparadores en **Cuando: cualquier detonante**. Cualquiera de
 | Disparador | Se activa cuando |
 |---|---|
 | **Cuando un parámetro cambia** | Un parámetro pasa de un valor que tú fijas. Elige la **Dirección**: **Subida**, **Bajada** o **Cualquier cambio** |
-| **Cuando se activa una alerta** | Una alerta queda **Activada**, **Resuelta**, o cualquiera de las dos. Puedes limitarlo a alertas de **Umbral** o de **Tasa de cambio** |
+| **Cuando se activa una alerta** | Una alerta queda **Activada**, **Resuelta**, o cualquiera de las dos. Puedes limitarlo a alertas de **Umbral** o de **Tasa de cambio**. |
 | **A una hora del día** | Una hora del día, en tu propia zona horaria |
 | **Cuando un dispositivo se desconecta** | Tu Cora Max queda **Sin conexión**, vuelve a estar **En línea**, o cualquiera de las dos |
 
@@ -82,18 +82,12 @@ Una acción que necesita un equipo solo aparece en un acuario que tiene ese equi
 | **Dosificar un cabezal DŌS** | Da una dosis medida con un cabezal DŌS |
 | **Controlar un equipo Red Sea** | Maneja una unidad ReefBeat |
 | **Controlar una bomba de circulación** | Ajusta el caudal, el modo de olas o la potencia de una bomba Jecod, o usa **Pausar para alimentar**. El Cora Max del acuario vuelve a poner la bomba como estaba cuando termina la alimentación |
-| **Controlar un equipo GHL (Beta)** | Pausa un programa de alimentación, inicia el modo de mantenimiento o de cambio de agua, fija una escena o un brillo de luz, y más |
-| **Controlar un equipo HYDROS (Beta)** | Fija una salida, la devuelve a su horario, cambia de modo, ejecuta una orden del analizador o dosifica con un cabezal |
-| **Controlar un dispositivo EcoTech (Beta)** | Fija la intensidad o la escena de una Radion, inicia una alimentación o un modo de una VorTech, dosifica con una Versa, o devuelve cualquiera de ellas a su horario |
 | **Notificarme** | Te envía una notificación push con tu propio **Título** y **Mensaje** |
 | **Esperar antes del siguiente paso** | Hace una pausa antes de seguir |
 | **Ejecutar una escena** | Ejecuta una escena desde dentro de esta regla |
 | **Gestionar una automatización** | Activa o desactiva otra regla |
 | **Crear una tarea de mantenimiento** | Pone una tarea en la lista de [mantenimiento](/help/mobile-maintenance) del acuario, por ejemplo cambiar el medio del depurador de CO2 cuando el pH baja de un valor |
 
-:::note Beta
-GHL, HYDROS y EcoTech están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
 :::warning Una dosis no se puede deshacer, y tiene un límite
 Una dosis no se puede sacar del acuario. Una regla solo puede dosificar con un cabezal que se haya medido con **Medir para dosificar** en un Cora Max. La dosis la ejecuta un Cora Max del acuario. La dosificación desde reglas tiene un máximo de **10 mL por cabezal al día**, esté como esté escrita la regla.

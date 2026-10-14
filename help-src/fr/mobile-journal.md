@@ -3,7 +3,7 @@ title: Le journal
 description: Écrivez ou dictez ce que vous avez fait sur votre aquarium, notez les repas et interrogez Cora sur une entrée, pour retrouver plus tard ce qui a causé quoi.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 24
+order: 26
 group: Records
 twin: max-records
 ---

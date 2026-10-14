@@ -14,7 +14,7 @@ Use a device's own page to see its live state and change what it's doing. Open i
 
 Every device page is laid out the same way. The name and details are at the top, then a row of live readings, any state the device reports, and its controls. The bell in the title bar sets alert thresholds for that device, as described in [Consumables](/help/mobile-consumables). How to add a device in the first place is in [Connecting your equipment](/help/mobile-connections).
 
-Jump to your equipment: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Doser alerts](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz) · [Maxspect](#maxspect) · [GHL](#ghl) · [HYDROS](#hydros) · [Focustronic](#focustronic) · [EcoTech, Inkbird and cameras](#ecotech-inkbird-cameras)
+Jump to your equipment: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Doser alerts](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning These controls act on live equipment
 There's no preview and no undo. Some controls ask you to confirm first.
@@ -90,7 +90,7 @@ The two water-change use types go in **pairs**. Set one head's **Paired head** t
 
 A container can be up to 1,000 L, for every use type. The Apex itself only counts up to 150 L, so above that Cora tracks the container itself from what the head doses. Enter the **Total Volume** when you set it up. Cora also resets the Apex's own counter now and then, and Activity shows that as *Reset the Apex's own counter to 150 L*.
 
-Each head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank, and after you turn on **Large doses (Beta)** in the head's settings. It's off by default. Turn it on only after you've watched the first large dose run at the tank.
+Each head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank, and after you turn on **Large doses** in the head's settings. It's off by default. Turn it on only after you've watched the first large dose run at the tank.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,16 +98,12 @@ Each Red Sea unit has a page that fits what it does:
 
 | Unit | Page shows | You can |
 |---|---|---|
-| [ReefDose](#reefdose) | Each head, its container and what it has dosed | Dose, change the daily dose, edit the **Dosing plan (Beta)** |
-| [ReefRun](#reefrun) | Return and skimmer pump speed and state | Change speed, switch a pump, edit the **Pump schedule (Beta)** |
-| [ReefMat](#reefmat) | Remaining roll, in days and metres | Advance the mat, set **ReefMat settings (Beta)**, register a new roll |
+| [ReefDose](#reefdose) | Each head, its container and what it has dosed | Dose, change the daily dose, edit the **Dosing plan** |
+| [ReefRun](#reefrun) | Return and skimmer pump speed and state | Change speed, switch a pump |
+| [ReefMat](#reefmat) | Remaining roll, in days and metres | Advance the mat, set **ReefMat settings**, register a new roll |
 | [ReefATO+](#reefato) | Reservoir level and top-off activity | Set a reservoir alert |
-| **ReefControl** *(Beta)* | Its temperature, pH, salinity and ORP probes | View its readings |
-| **ReefWave**, **ReefLED** *(Beta)* | Its current mode | View only, for now |
 
-ReefControl, ReefControl Power, ReefWave and ReefLED carry *(Beta)* in their name but are open to everyone. See [Beta features](/help/mobile-beta).
 
-**ReefControl Power** *(Beta)* sockets show up as outlets, switched from the same outlet control as an Apex outlet, on or off only. There's no automatic mode for them yet.
 
 When you're away from the unit's network, Cora Mobile sends Red Sea commands through a Cora Max on the tank. If no Cora Max can do it, the page says so and nothing is sent.
 
@@ -119,9 +115,9 @@ For each head you can set **Dose per day** and **Remaining in bottle**, run **Do
 
 The **Dosing** section shows **Upcoming doses**, what each head has dosed today (**Dosed today so far**), and **Dosed per head** for the **Last 7 days** or its **Lifetime**. Cora reads this while a Cora Max or your phone is on your home network.
 
-### Editing a dosing plan *(Beta)* {#reefdose-plan}
+### Editing a dosing plan {#reefdose-plan}
 
-Tap the calendar icon on a ReefDose page to open the **Dosing plan (Beta)**.
+Tap the calendar icon on a ReefDose page to open the **Dosing plan**.
 
 A plan is a daily total, split into up to four time windows. Each window has a start and end time, how many doses it should deliver, and a speed: **Whisper**, **Regular** or **Quick**. Add and remove windows, then save. Cora shows you what you're about to send and asks you to confirm before it replaces the head's whole plan.
 
@@ -131,18 +127,17 @@ The editor reads the plan that's already on the unit first, so you're editing th
 
 ReefRun controls return and skimmer pumps. It isn't a wave pump. You can change a pump's speed, switch it on or off, and adjust skimmer settings.
 
-Tap the calendar icon to open the **Pump schedule (Beta)**. A program is up to six segments on one pump port. Each segment has a start time and a speed, and can add a short pulse. Speed is either 0 or from 5% up. Like the ReefDose plan, it reads the program on the unit first, and **Save** asks you to confirm before it replaces the pump's whole program.
 
 ## ReefMat {#reefmat}
 
 The ReefMat page shows how much roll is left, in days and metres. Tap **Advance now** to move the mat on by hand. Cora asks **Advance the mat now?** first. You can also set a refill alert for the roll.
 
-Tap the gear for **ReefMat settings (Beta)**:
+Tap the gear for **ReefMat settings**:
 
 - **Scheduled advance** turns on a fixed-time advance, separate from the auto-advance sensor already on the page. Turn it on and set how often, and how far each advance moves the mat.
 - **ReefMat model** and **Motor position** (**Left** or **Right**) tell Cora which unit and orientation you have.
 
-After you load a new roll, tell Cora with **New roll (Beta)**: its thickness, and its outer diameter if you know it. **Advance now** only moves the mat you already have loaded.
+After you load a new roll, tell Cora with **New roll**: its thickness, and its outer diameter if you know it. **Advance now** only moves the mat you already have loaded.
 
 ## ReefATO+ {#reefato}
 
@@ -183,13 +178,13 @@ Defaults and other consumables are in [Consumables](/help/mobile-consumables).
 
 ## Jecod / Jebao pumps {#jecod}
 
-The pump page shows the current wave pattern (mode) and intensity, and you can change both. Pick **Same all day** or **Schedule** at the top. Building a day program, and copying, saving or sharing it, is in [Scheduling equipment](/help/mobile-schedules).
+The pump page shows the current wave pattern (mode) and intensity, and you can change both. Its status sits in the title row, next to the pump's name. A switch with **Same all day** and **Schedule** marks the one that is running with *· running*, and the page opens on it. Building a day program, and copying, saving or sharing it, is in [Scheduling equipment](/help/mobile-schedules).
 
 If the pump is part of a group, the page shows its role, such as **Leads the group**, **Follows: in step** or **Follows: alternating**.
 
 ### Feeding pause {#jecod-feeding}
 
-Start a feeding pause from the **Feeding** section of the pump's page. Some pumps end the pause by themselves, and the page says *The pump ends this itself.*
+Start a feeding pause from **Feeding** on the pump's page: tap **5**, **10**, **15** or **30** min. Some pumps end the pause by themselves, and the page says *The pump ends this itself.*
 
 :::warning Keep the pump's page open during a feeding pause
 Some pumps don't end a feed by themselves, and the page says so. For those, and for any pump on a schedule, Cora Mobile brings the wave pattern and the schedule back only while the pump's page stays open. If you leave the page, the pump stays stopped in feed mode, or stays off its schedule, until you change it again or tap **Schedule**.
@@ -207,93 +202,6 @@ The AquaWiz card shows your alkalinity readings, and pH if your unit reports it.
 
 If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default. Change it from its rule in the [Alert Center](/help/mobile-alerts).
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). Some controls may be limited, and what you see here may change between updates. If something doesn't work as described, let us know from [Reporting a problem](/help/mobile-support). More in [Beta features](/help/mobile-beta).
-:::
-
-The gyre page shows whether the gyre is running, the wave pattern and speed of **Gyre A** and **Gyre B**, and when they were last read. From here you can:
-
-- Switch the gyre on or off with the switch next to its state. Cora asks you to confirm first. Switching off stops both gyres and leaves the schedule alone.
-- Tap **Change settings** to set each gyre's wave pattern and pump speed, plus the duration for patterns that have one, and whether the two gyres are linked. Cora lists what will change and asks you to confirm. Alternating is set in the Maxspect app, and a gyre running it keeps its ramps and hold times.
-- Tap **Set program** if the program saved on the gyre can't be read. It sets both gyres so the gyre can start again.
-- See the gyre's day program on the **Schedule** card. You can only view it here. Set the schedule in the Maxspect app.
-- Check **Pump health**. It shows when the pump next needs cleaning (the pump counts this down itself), the current drawn by head A, which heads are fitted and the firmware. Tap **Read** to fetch it.
-
-:::note How Cora Mobile reaches a gyre
-If a Cora Max serves the tank, Cora Mobile goes through that Cora Max, even when you're away from home. **Change settings** then starts from that Cora Max's last reading. Otherwise your phone talks to the gyre directly and has to be on the gyre's network. Opening the page reads the gyre. If the page is showing an older stored reading, **Change settings** stays hidden until you tap refresh.
-:::
-
-## GHL ProfiLux and Mitras {#ghl}
-
-:::note Beta
-**Beta.** GHL is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Reporting a problem](/help/mobile-support). More in [Beta features](/help/mobile-beta).
-:::
-
-The controller's page shows its probes, sockets, dosers and level sensors, and on the Director models, its KH and ion test results.
-
-Controls stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default, and turning it on lets Cora send feed pause, maintenance, water change, thunderstorm, lighting, setpoint and socket commands to that controller. Once you can add the device, this switch needs no extra access.
-
-Once it's on:
-
-- A socket can be set to **Always on**, **Always off**, or **Back to automatic** to hand it back to the controller's own programming.
-- A setpoint, such as temperature or pH, shows its allowed range and refuses a value outside it.
-
-:::warning A socket or setpoint change is saved on the controller itself
-It isn't only stored in Cora. Setting a socket to Always on or Always off overrides the controller's own programming for it until you choose Back to automatic.
-:::
-
-If a socket or setpoint looks like it belongs to a heater or a return pump, Cora asks you to confirm twice before sending it.
-
-If a doser's container is running low, Cora warns you the same way it does for other consumables. The default is 20% full, and you can change it from the doser's rule in the [Alert Center](/help/mobile-alerts).
-
-:::note ProfiLux mini
-A mini can only switch its sockets. Everything else here, such as setpoints and feed pause, needs a ProfiLux 3, 4 or Mitras.
-:::
-
-If the controller turns the change down, check that its GHL API is switched on with full access. GHL turns this off after every firmware update. [Troubleshooting](/help/troubleshooting) has the steps.
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). Some readings or controls may not work yet, and what you see here may change between updates. If something doesn't work as described, let us know from [Reporting a problem](/help/mobile-support). More in [Beta features](/help/mobile-beta).
-:::
-
-What you see here depends on the key you linked with. A **Read** key gives you its inputs only. A **Write** key adds outputs, modes, dosing and tester commands, plus a page banner that reminds you which kind of key you're on.
-
-With a write key, controls also stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default.
-
-Once it's on, the page can show:
-
-- **Outputs**, as a switch for an on/off output, a slider for a level such as a pump or light, or a button for a flag. An overridden output shows **Overridden** with a **Back to schedule** button to hand it back to its own program.
-- **Modes**, such as Feed or Water Change, as a row of choices. Tapping one asks you to confirm.
-- **Dosing heads**, each with a **Dose** button and a **Head settings** entry where you set its own limits: a largest hand dose and a daily cap. Asking for more than a head's limit, or more than its own daily cap has left for the day, is refused with the numbers in the message.
-- **Tester commands**, for a connected iV or Maven, run from a button and confirmed first.
-
-If the controller hasn't reported in a while, the page says so and readings may be out of date. A command sent while it looks offline isn't sent at all, and the page tells you that too.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, [contact support](/support.html). More in [Beta features](/help/mobile-beta).
-:::
-
-Each device shows its status, firmware, last test and, for an Alkatronic, the alkalinity and pH it measured. You also see pumps with how much is left in each, parameters, vials and any reagent or buffer warnings. Cora asks Focustronic for new readings every 30 minutes.
-
-Under **Controls** you can **Measure now**, **Dose now** from a pump (up to 500 mL at once) and, on a Mastertronic, **Test now**. Each one asks you to confirm first. Cora never retries a dose, so if the result says it's unknown, check the device. Commands go through Focustronic's servers, which Cora doesn't control, and they're only available while the device is online.
-
-## EcoTech, Inkbird and cameras {#ecotech-inkbird-cameras}
-
-:::note Beta
-**Beta.** EcoTech, Inkbird and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, [contact support](/support.html).
-:::
-
-These have their own pages:
-
-- EcoTech Radion lights, VorTech pumps and Versa dosers: [EcoTech lights, pumps and dosers](/help/mobile-ecotech)
-- Inkbird room air monitors only report readings, so there's nothing to control: [Connecting your equipment](/help/mobile-connections#inkbird-room-air-monitor)
-- Cameras and Skimmer Watch: [Cameras and Skimmer Watch](/help/mobile-cameras)
 
 ## What happens after you change something {#what-happens-after-you-change-something}
 

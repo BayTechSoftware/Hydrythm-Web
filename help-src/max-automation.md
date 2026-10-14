@@ -27,9 +27,8 @@ Tap a scene to edit it, or tap **New Scene** to build one. If you have more than
    - **Apex Outlet**: switch a Neptune Apex outlet to **ON**, **OFF** or **AUTO**.
    - **Control a Red Sea device**: for example **ReefDose: dose now**, **ReefDose: set daily dose**, **ReefRun: set pump speed**, **ATO: start a manual fill** or **ReefMat: advance the roll**.
    - **Control a wavemaker**: set a Jecod pump's flow or wave mode, turn it on or off, or **Pause for feeding**.
-   - **Start a gyre feed**: pause a Maxspect gyre for feeding. It starts again by itself.
-   - **GHL**: a feed pause, maintenance, water change, light scene and other controller commands.
-   - **HYDROS**: a mode, an output level, a dose, or **HYDROS: back to schedule**.
+   - **Run a Trident test**: alkalinity, combined or nutrients. Each run uses reagent.
+   - **Run an Apex feed cycle**: pick the cycle. The Apex runs the feed timer and resumes by itself.
 3. Add more steps the same way. You can reorder or remove them. A step this screen can't edit says **Not editable here**. Edit that one on your phone.
 4. Choose how long it runs. **Timed** runs for the minutes you set in **Run for (minutes)**. **Permanent** runs until you stop it.
 5. Leave **Ask before running** on unless you're sure the scene never touches anything that needs a second look.
@@ -39,9 +38,6 @@ Tap a scene to edit it, or tap **New Scene** to build one. If you have more than
 A Neptune DŌS head can never be a scene step. A **ReefDose: dose now** step can, and it has its own **Max per dose (mL)**. Leave it empty for 10 mL. A dose above that ceiling is refused, never made smaller. Keep **Ask before running** on for any scene that doses.
 :::
 
-:::note Beta
-**Beta.** Maxspect, GHL and HYDROS are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
 
 ## Running a scene
 

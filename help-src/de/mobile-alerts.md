@@ -3,7 +3,7 @@ title: Warnungen und Schwellenwerte
 description: Den gesunden Bereich für jeden Messwert festlegen, bestimmen, wie oft eine Warnung dich benachrichtigen darf, und herausfinden, warum ein Gerät "sich nicht mehr meldet".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 20
+order: 22
 group: Alerts and automation
 twin: max-alerts
 ---
@@ -87,7 +87,6 @@ Ist eine Warnung aktiv, benachrichtigt sie dich nicht ständig wegen derselben S
 
 Manche Warnungen betreffen Ausrüstung, keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit dem Becken und dem Gerät, zum Beispiel *"Hauptbecken: Rückförderpumpe braucht Aufmerksamkeit"*. Sie sagt auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, bekommst du eine zweite: *"Hauptbecken: Rückförderpumpe ist wieder in Ordnung"*. Beide fallen unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 
-Eine Maxspect-Gyre (Beta) kann dieselbe Warnung auslösen. Das passiert, wenn ein Cora Max in ihrem Netzwerk beide Köpfe auf 0 % findet oder zweimal hintereinander keine Antwort von der Gyre bekommt. Betrachte es als Warnung, nicht als Absicherung. Das Cora Max prüft nur von Zeit zu Zeit und nur, solange es läuft und die Gyre erreicht.
 
 ## Ein Gerät meldet sich nicht mehr {#stopped-reporting}
 
@@ -101,27 +100,16 @@ Wie lange Cora wartet, hängt vom Gerät ab:
 | Red Sea ReefBeat | Etwa 30 Minuten |
 | AquaWiz | Etwa 3 Stunden, weil er seltener meldet |
 | Jecod-Pumpen | Drei verpasste Messungen in Folge, im Messintervall der Pumpe (90 Minuten beim Standard von 30) |
-| Maxspect (Beta) | Drei verpasste Messungen in Folge, wie bei Jecod |
-| EcoTech (Beta) | Drei verpasste Messungen in Folge, im Messintervall des Netzwerks (90 Minuten beim Standard von 30). Stellst du unter **Leuchte antwortet nicht mehr** eine längere Zeit ein, wartet Cora so lange |
-| Inkbird-Raumluftmonitor (Beta) | Drei verpasste Messungen in Folge, im eigenen Intervall des Monitors (15 Minuten beim Standard von 5) |
-| Focustronic (Beta) | Etwa 3 Stunden |
-| GHL (Beta) | Etwa 15 Minuten. Die Benachrichtigung lautet *"GHL-Controller nicht erreichbar"* |
-| HYDROS (Beta) | Etwa 30 Minuten. Die Benachrichtigung lautet *"HYDROS-Controller meldet sich nicht"* |
+| Zigbee-Steckdose | Meldet sich 30 Minuten nach einem Neustart des Hubs noch nicht zurück. Gib ihr mit **Umbenennen** einen Namen, damit die Meldung sie nennt |
 
 Was du prüfst, hängt davon ab, wie Cora das Gerät liest.
 
-- Apex, ReefBeat, Jecod, Maxspect und GHL werden von einem Cora Max über WLAN abgefragt. Prüf Strom und WLAN des Geräts und ob das Cora Max, das es abfragt, eingeschaltet und online ist.
-- EcoTech und Inkbird werden von einem Cora Max über Bluetooth abgefragt. Prüf den Strom, ob das Gerät in Bluetooth-Reichweite des Cora Max ist und ob das Cora Max eingeschaltet ist.
-- AquaWiz und Focustronic werden über dein Konto beim Hersteller abgefragt. Prüf die Kontoverbindung auf der Seite des Geräts in Cora Mobile.
-- Bei HYDROS prüf Strom, WLAN und Geräteschlüssel.
+- Apex, ReefBeat und Jecod werden von einem Cora Max über WLAN abgefragt. Prüf Strom und WLAN des Geräts und ob das Cora Max, das es abfragt, eingeschaltet und online ist.
+- AquaWiz wird über dein Konto beim Hersteller abgefragt. Prüf die Kontoverbindung auf der Seite des Geräts in Cora Mobile.
 
-GHL kann dir auch *"GHL-API ist ausgeschaltet"* melden oder dass der Controller *"die Verbindung abgelehnt"* hat. Wird das Cora Max still, das einen GHL-Controller abfragt, bekommst du *"Cora Max meldet sich nicht für"* diesen Controller. Die Lösungen stehen in der [Problembehebung](/help/troubleshooting).
 
 Diese Benachrichtigungen fallen unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 
-:::note Beta
-Maxspect, EcoTech, Inkbird, Focustronic, GHL und HYDROS sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
 Ein Red Sea-Becken kann außerdem einen Banner zeigen, *"Die Red Sea-Messwerte werden nicht mehr aktualisiert"*, wenn kein Handy und kein Cora Max seine ReefBeat-Ausrüstung abfragt. Tippe darauf, um ein **Primäres Cora Max** zu wählen. Die vollständige Lösung steht in der [Problembehebung](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 

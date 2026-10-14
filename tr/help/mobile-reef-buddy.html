@@ -95,9 +95,6 @@
 <li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
-<li><a href="/tr/help/mobile-cameras">Kameralar ve Skimmer Gözcüsü</a></li>
-<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozaj pompaları</a></li>
-<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Uyarılar ve otomasyon</summary><ul>
@@ -195,8 +192,7 @@
 <p>Prob ve kontrolcü ölçümleri bu teklifi tetiklemez, çünkü gün boyu gelirler.</p>
 <h2 id="bir-icgoruyu-neden-goruyorsunuz">Bir içgörüyü neden görüyorsunuz</h2>
 <p>Bir içgörünün altında <strong>Bunu neden görüyorum?</strong>'a dokunun. <strong>Bunu neden görüyorsunuz</strong> sayfası <strong>Kullanılan ölçümler</strong>'i, <strong>Karşılaştırılan hedef</strong>'i (kendi hedefiniz ya da bir referans aralığı), dikkate aldığı her şeyi <strong>Günlüğünüzden</strong> ve baktığı gün cinsinden zaman aralığını listeler. Gerekçe akvaryumunuza uymuyorsa içgörüyü <a href="#bir-icgoruyu-duzeltme">Bir içgörüyü düzeltme</a> bölümünde anlatıldığı gibi yanıtlayın.</p>
-<p>Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık programlarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında, DŌS kafalarınızın toplamlarını ve bir Inkbird™ oda havası monitörünüz varsa odanın sıcaklığını ve nemini kullanabilirler.</p>
-<aside class="cal cal-note"><p class="cal-t">Inkbird Beta aşamasındadır</p><p><strong>Beta.</strong> Inkbird Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu <strong>Cihaz Ekle</strong> içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar <a href="/tr/help/mobile-beta">Beta özellikleri</a> sayfasında.</p></aside>
+<p>Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık programlarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında ve DŌS kafalarınızın toplamlarını kullanabilirler.</p>
 <h2 id="ne-zaman-gelir">Ne zaman gelir</h2>
 <p>Her akvaryum için günde bir kez, seçtiğiniz saatte. Bunu <strong>Bildirimler</strong>'in yanındaki <strong>Ayarlar → Özet saati</strong> içinde ayarlayın. Özet o saatten sonraki yaklaşık 15 dakika içinde, kendi saat diliminizde gelir. Hiç seçmezseniz 8:00'de gelir.</p>
 <p>Her zamanki sabah testinizden sonraki bir saat seçin, böylece bugünün sonucu özete girer.</p>
@@ -220,7 +216,7 @@
 <p>Reef Buddy bir kayma bildirdiğinde ayrıca <em>Bu uyarı işinize yaradı mı?</em> diye sorar. <strong>Faydalı</strong>, <strong>Faydalı değil</strong>, <strong>Bu değişiklik beklenen bir şey</strong> ya da <strong>Ölçüm yanlış görünüyor</strong> diye yanıtlayabilirsiniz. Geri bildiriminiz, sonraki özetlerde neyin önce görüneceğini şekillendirir. Bir içgörüyü gizlemek yalnızca bir süre için geçerlidir. Sorun hâlâ varsa içgörü geri gelir.</p>
 <aside class="cal cal-note"><p class="cal-t">Ciddi tespitler hiçbir zaman gizlenmez</p><p>Geri bildirim yalnızca önemi düşük içgörüleri sessizleştirir. Uyarı ve kritik düzeydeki içgörüler, daha önce ne yanıt vermiş olursanız olun görünmeye devam eder.</p></aside>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-activity"><span>Önceki</span><b>Etkinlik ve zaman çizelgesi</b></a><a class="pn-n" href="/tr/help/mobile-assistant"><span>Sonraki</span><b>Cora&#x27;ya sorun</b></a></nav>
-      <p class="stamp">Cora Max 0.28.170 ve Cora Mobile 0.5.111 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -611,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=7b891243eb').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

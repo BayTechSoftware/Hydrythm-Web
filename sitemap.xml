@@ -253,24 +253,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/help/mobile-beta</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/help/mobile-cameras</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/help/mobile-ecotech</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/help/mobile-multi-device</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -541,18 +523,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/de/help/mobile-beta</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/de/help/mobile-cameras</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/de/help/mobile-connections</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -596,12 +566,6 @@
   </url>
   <url>
     <loc>https://coraiq.tech/de/help/mobile-dosing</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/de/help/mobile-ecotech</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -901,18 +865,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/fr/help/mobile-beta</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/fr/help/mobile-cameras</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/fr/help/mobile-connections</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -956,12 +908,6 @@
   </url>
   <url>
     <loc>https://coraiq.tech/fr/help/mobile-dosing</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/fr/help/mobile-ecotech</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1261,18 +1207,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/tr/help/mobile-beta</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/tr/help/mobile-cameras</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/tr/help/mobile-connections</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -1316,12 +1250,6 @@
   </url>
   <url>
     <loc>https://coraiq.tech/tr/help/mobile-dosing</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/tr/help/mobile-ecotech</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1621,18 +1549,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/it/help/mobile-beta</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/it/help/mobile-cameras</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/it/help/mobile-connections</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -1676,12 +1592,6 @@
   </url>
   <url>
     <loc>https://coraiq.tech/it/help/mobile-dosing</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/it/help/mobile-ecotech</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1981,18 +1891,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/es/help/mobile-beta</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/es/help/mobile-cameras</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/es/help/mobile-connections</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -2036,12 +1934,6 @@
   </url>
   <url>
     <loc>https://coraiq.tech/es/help/mobile-dosing</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/es/help/mobile-ecotech</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -2341,18 +2233,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://coraiq.tech/pl/help/mobile-beta</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/pl/help/mobile-cameras</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://coraiq.tech/pl/help/mobile-connections</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -2396,12 +2276,6 @@
   </url>
   <url>
     <loc>https://coraiq.tech/pl/help/mobile-dosing</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://coraiq.tech/pl/help/mobile-ecotech</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

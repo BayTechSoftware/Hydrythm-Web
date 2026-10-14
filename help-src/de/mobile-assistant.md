@@ -3,7 +3,7 @@ title: Cora fragen
 description: Cora Assistant per Tippen oder Sprechen nutzen, was Cora sehen kann, was Cora für dich tun kann, der Schalter für das Teilen von Daten und das Gedächtnis.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Einen Test, einen Tagebucheintrag oder eine Fütterung trägt Cora ein, sobald d
 
 Ausrüstung von unterwegs zu steuern, funktioniert nur, wenn ein Cora Max am Becken die Ausrüstung erreicht. Siehe [Was unterwegs funktioniert](/help/mobile-multi-device#what-works-away-from-home).
 
-:::note Beta-Ausrüstung
-Cora kann auch GHL-, HYDROS-, Focustronic-, Maxspect- und EcoTech-Ausrüstung (Radion, VorTech und Versa) steuern. **Beta.** Diese Anbindungen sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support.
-:::
 
 :::warning Cora berät. Du entscheidest
 Prüf alles Wichtige mit deinen eigenen Tests nach. Behandle große Änderungen so, wie du den Rat von jemand anderem behandeln würdest, und prüf kurz, ob sie Sinn ergeben, bevor du handelst. Die Zeile unter dem Nachrichtenfeld sagt dasselbe.

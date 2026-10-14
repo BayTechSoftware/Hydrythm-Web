@@ -95,9 +95,6 @@
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
-<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
-<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -193,7 +190,7 @@
 <h2 id="con-el-diario-al-lado">Con el diario al lado</h2>
 <p>Actividad muestra lo que hizo el sistema. El <a href="/es/help/max-records#journal">diario</a> muestra lo que hiciste tú a mano. Entre los dos se explican la mayoría de las sorpresas.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-records"><span>Anterior</span><b>Diario, fauna y mantenimiento</b></a><a class="pn-n" href="/es/help/max-intelligence"><span>Siguiente</span><b>Reef Buddy e informes</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -584,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

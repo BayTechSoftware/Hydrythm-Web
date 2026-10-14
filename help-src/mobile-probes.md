@@ -9,7 +9,7 @@ group: Equipment
 
 Use **Parameter Mapping** to tell Cora what each probe measures and, when two probes report the same thing, which one to trust. Go to **Settings**, open the tank, and tap **Parameter Mapping**.
 
-It sits between **Edit tank** and **Alert thresholds**. The pencil at the top of the dashboard opens **Edit tank**, which doesn't have it. You can also reach it from the Neptune Apex and GHL (Beta) device pages. GHL is only open to Beta users. See [Beta features](/help/mobile-beta).
+It sits between **Edit tank** and **Alert thresholds**. The pencil at the top of the dashboard opens **Edit tank**, which doesn't have it. You can also reach it from the Neptune Apex device page.
 
 The screen has a search field (**Search parameters**) and two tabs, **Mapping** and **Sources**. Search looks at parameter names, probe names, devices and brands. The same search field is in every parameter picker.
 

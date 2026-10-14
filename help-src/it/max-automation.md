@@ -27,9 +27,8 @@ Tocca una scena per modificarla, oppure tocca **Nuova scena** per crearne una. S
    - **Presa Apex**: porta una presa Neptune Apex su **ON**, **OFF** o **AUTO**.
    - **Controlla un'apparecchiatura Red Sea**: per esempio **ReefDose: dosa adesso**, **ReefDose: imposta dose giornaliera**, **ReefRun: imposta velocità pompa**, **ATO: avvia un riempimento manuale** o **ReefMat: avanza il rotolo**.
    - **Controlla una pompa di movimento**: imposta flusso o modalità onda di una pompa Jecod, accendila o spegnila, oppure **Pausa per l'alimentazione**.
-   - **Avvia un'alimentazione Gyre**: mette in pausa una gyre Maxspect per l'alimentazione. Riparte da sola.
-   - **GHL**: una pausa alimentazione, manutenzione, cambio d'acqua, scena luci e altri comandi del controller.
-   - **HYDROS**: una modalità, un livello di uscita, una dose, oppure **HYDROS: torna alla programmazione**.
+   - **Avvia un test Trident**: alcalinità, combinato o nutrienti. Ogni esecuzione consuma reagente.
+   - **Avvia un ciclo di alimentazione Apex**: scegli il ciclo. L'Apex gestisce il timer e riprende da solo.
 3. Aggiungi altri passi allo stesso modo. Puoi riordinarli o toglierli. Un passo che questa schermata non può modificare dice **Non modificabile qui**. Modificalo dal telefono.
 4. Scegli quanto dura. **A tempo** dura i minuti che imposti in **Durata (minuti)**. **Permanente** dura finché non la fermi.
 5. Lascia attivo **Chiedi prima di eseguire** a meno che tu non sia sicuro che la scena non tocchi mai niente che meriti un secondo controllo.
@@ -39,9 +38,6 @@ Tocca una scena per modificarla, oppure tocca **Nuova scena** per crearne una. S
 Una testa Neptune DŌS non può mai essere un passo di una scena. Un passo **ReefDose: dosa adesso** sì, e ha il suo **Massimo per dose (ml)**. Lascialo vuoto per 10 mL. Una dose sopra quel tetto viene rifiutata, mai ridotta. Tieni attivo **Chiedi prima di eseguire** per qualsiasi scena che dosa.
 :::
 
-:::note Beta
-**Beta.** Maxspect, GHL e HYDROS sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html).
-:::
 
 ## Avviare una scena
 

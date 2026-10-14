@@ -9,7 +9,7 @@ group: Equipment
 
 Utilisez **Association des paramètres** pour dire à Cora ce que mesure chaque sonde et, quand deux sondes mesurent la même chose, laquelle croire. Allez dans **Réglages**, ouvrez l’aquarium et touchez **Association des paramètres**.
 
-Elle se trouve entre **Modifier l’aquarium** et **Seuils d’alerte**. Le crayon en haut du tableau de bord ouvre **Modifier l’aquarium**, qui ne la contient pas. Vous pouvez aussi y accéder depuis les pages d’appareil Neptune Apex et GHL (Beta). GHL n’est ouvert qu’aux utilisateurs Beta. Voir [Fonctions Beta](/help/mobile-beta).
+Elle se trouve entre **Modifier l’aquarium** et **Seuils d’alerte**. Le crayon en haut du tableau de bord ouvre **Modifier l’aquarium**, qui ne la contient pas. Vous pouvez aussi y accéder depuis les pages d’appareil Neptune Apex.
 
 L’écran a un champ de recherche (**Rechercher un paramètre**) et deux onglets, **Association** et **Sources**. La recherche porte sur les noms de paramètres, les noms de sondes, les appareils et les marques. Le même champ de recherche se trouve dans chaque sélecteur de paramètre.
 

@@ -1,6 +1,6 @@
 ---
 title: Ekipman programları
-description: Bir Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın, bir Maxspect gyre'nin programını görüntüleyin (Beta).
+description: Bir Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,13 +9,13 @@ group: Equipment
 
 Bir Jecod pompasına **günlük program** vermek için bu sayfayı kullanın: her birinin kendi yoğunluğu olan ve her gün tekrarlanan bir dizi periyot. **Cihazlar** sekmesinden pompaya dokunarak açın.
 
-Bir Maxspect gyre'nin programını *(Beta)* da aynı şekilde görüntüleyebilirsiniz, ama onu Maxspect uygulamasında ayarlarsınız. Maxspect yalnızca Beta kullanıcılarına açıktır. [Beta özellikleri](/help/mobile-beta) sayfasına bakın. Diğer markaların ışıkları ve pompaları programlarını kendi sayfalarında tutar: [EcoTech](/help/mobile-ecotech) *(Beta)* ile Red Sea'nin ReefRun ve ReefDose'u [Ekipmanınızı kontrol etme](/help/mobile-device-control#red-sea) sayfasında.
+Diğer markaların ışıkları ve pompaları programlarını kendi sayfalarında tutar: Red Sea'nin ReefDose'u [Ekipmanınızı kontrol etme](/help/mobile-device-control#red-sea) sayfasında.
 
 ![Cora Mobile'da Program seçili bir Jecod pompası sayfası](img/mobile-schedules.webp "Üstte Program seçili, ardından besleme duraklatması ve gün grafiği.")
 
 ## Tüm gün aynı ya da Program {#same-all-day-or-schedule}
 
-Bir pompa iki moddan birinde çalışır. Birini sayfasının üstünden seçin.
+Bir pompa iki moddan birinde çalışır. Birini sayfasındaki anahtarla seçin. Çalışan *· çalışıyor* ile işaretlenir ve sayfa onda açılır.
 
 - **Tüm gün aynı**, bütün gün tek bir yoğunlukta çalışır.
 - **Program**, periyotlardan oluşan bir günlük programı izler.
@@ -34,7 +34,6 @@ Grafiğin altında periyot listesi vardır. Her periyot saatlerini, modunu ve yo
 
 Periyot eklemek için **Programa ekle**'ye dokunun. Birini değiştirmek için açın ve **Kaydet**'e dokunun. Kaldırmak için **Sil**'e dokunun ve onaylayın.
 
-Bir Maxspect gyre'nin *(Beta)* Gyre A ve Gyre B olarak gösterilen iki kafası vardır. Gün grafiğinde her biri için bir iz bulunur ve planları **GYRE A** ve **GYRE B** altında listelenir. Bir gyre'nin programını burada yalnızca görüntüleyebilirsiniz. İşlem satırında **Yalnızca görüntüle** yazar ve programı Maxspect uygulamasında ayarlarsınız.
 
 :::warning Kaydetmek programı cihaza yazar
 Kaydettiğinizde Cora programı ekipmana gönderir ve ekipman onu kendi saatine göre çalıştırır. Cora ona ulaşabilse de ulaşamasa da çalışmaya devam eder.

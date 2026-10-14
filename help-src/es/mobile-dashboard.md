@@ -86,7 +86,6 @@ Algunas tarjetas solo aparecen cuando hay algo que decir. La mayoría están ent
 | **Reef Buddy** | Hay un resumen listo | La tarjeta |
 | **¿Cómo alimentas normalmente?** | No has configurado una rutina de alimentación | **Configurar rutina** |
 | *Las lecturas de Red Sea han dejado de actualizarse.* | Nada está leyendo los equipos Red Sea de este acuario | Consulta [Alertas y umbrales](/help/mobile-alerts) |
-| **Cámaras** (Beta) | El acuario tiene una cámara, debajo de los widgets. Las cámaras solo están abiertas a los usuarios Beta | **Ver en vivo** |
 | **Registra tu primera prueba de agua** | Sin lecturas y sin equipos vinculados, debajo de los widgets | La tarjeta. Consulta [Configurar Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
 ## Debajo de los widgets {#below-the-widgets}

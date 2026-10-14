@@ -14,7 +14,7 @@ Canlı durumunu görmek ve yaptığı şeyi değiştirmek için bir cihazın ken
 
 Her cihaz sayfası aynı şekilde düzenlenmiştir. Ad ve ayrıntılar en üstte, ardından bir sıra canlı ölçüm, cihazın bildirdiği her durum ve kontrolleri gelir. Başlık çubuğundaki zil, [Sarf malzemeleri](/help/mobile-consumables) sayfasında anlatıldığı gibi o cihaz için uyarı eşiklerini ayarlar. Bir cihazı ilk başta nasıl ekleyeceğiniz [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 
-Ekipmanınıza atlayın: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Dozaj pompası uyarıları](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz) · [Maxspect](#maxspect) · [GHL](#ghl) · [HYDROS](#hydros) · [Focustronic](#focustronic) · [EcoTech, Inkbird ve kameralar](#ecotech-inkbird-cameras)
+Ekipmanınıza atlayın: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Dozaj pompası uyarıları](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning Bu kontroller canlı ekipman üzerinde çalışır
 Önizleme ve geri alma yoktur. Bazı kontroller önce onay ister.
@@ -90,7 +90,7 @@ Cora'nın ne yaptığını bilmesi ve ondan doğru söz etmesi için her kafaya 
 
 Her kullanım amacı için bir kap 1.000 L'ye kadar olabilir. Apex'in kendisi yalnızca 150 L'ye kadar sayar, bu yüzden bunun üstünde Cora kabı kafanın dozladığından kendisi izler. Kurarken **Toplam Hacim**'i girin. Cora ayrıca Apex'in kendi sayacını zaman zaman sıfırlar ve Etkinlik bunu *Apex'in kendi sayacı 150 L'ye sıfırlandı* olarak gösterir.
 
-Her kafanın ayrıca bir **Elle verilecek en büyük dozaj** sınırı vardır, böylece bir yazım hatası elle bir dozu kastettiğinizden çok daha büyük bir şeye çeviremez. Büyük elle dozlar yalnızca kafanın hızı akvaryumun başında gerçek bir teste göre ölçüldükten ve siz kafanın ayarlarında **Büyük dozlar (Beta)**'yı açtıktan sonra kullanılabilir. Varsayılan olarak kapalıdır. Bunu yalnızca ilk büyük dozun çalışmasını akvaryumun başında izledikten sonra açın.
+Her kafanın ayrıca bir **Elle verilecek en büyük dozaj** sınırı vardır, böylece bir yazım hatası elle bir dozu kastettiğinizden çok daha büyük bir şeye çeviremez. Büyük elle dozlar yalnızca kafanın hızı akvaryumun başında gerçek bir teste göre ölçüldükten ve siz kafanın ayarlarında **Büyük dozlar**'ı açtıktan sonra kullanılabilir. Varsayılan olarak kapalıdır. Bunu yalnızca ilk büyük dozun çalışmasını akvaryumun başında izledikten sonra açın.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,16 +98,12 @@ Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır:
 
 | Ünite | Sayfada | Yapabilecekleriniz |
 |---|---|---|
-| [ReefDose](#reefdose) | Her kafa, kabı ve ne dozladığı | Dozaj yapma, günlük dozu değiştirme, **Dozaj planı (Beta)**'nı düzenleme |
-| [ReefRun](#reefrun) | Ana pompa ve skimmer pompası hızı ve durumu | Hızı değiştirme, bir pompayı açıp kapatma, **Pompa programı (Beta)**'nı düzenleme |
-| [ReefMat](#reefmat) | Gün ve metre olarak kalan rulo | Matı ilerletme, **ReefMat ayarları (Beta)**'nı ayarlama, yeni bir rulo kaydetme |
+| [ReefDose](#reefdose) | Her kafa, kabı ve ne dozladığı | Dozaj yapma, günlük dozu değiştirme, **Dozaj planı**'nı düzenleme |
+| [ReefRun](#reefrun) | Ana pompa ve skimmer pompası hızı ve durumu | Hızı değiştirme, bir pompayı açıp kapatma |
+| [ReefMat](#reefmat) | Gün ve metre olarak kalan rulo | Matı ilerletme, **ReefMat ayarları**'nı ayarlama, yeni bir rulo kaydetme |
 | [ReefATO+](#reefato) | Hazne seviyesi ve su tamamlama etkinliği | Bir hazne uyarısı kurma |
-| **ReefControl** *(Beta)* | Sıcaklık, pH, tuzluluk ve ORP probları | Ölçümlerini görüntüleme |
-| **ReefWave**, **ReefLED** *(Beta)* | Mevcut modu | Şimdilik yalnızca görüntüleme |
 
-ReefControl, ReefControl Power, ReefWave ve ReefLED'in adında *(Beta)* geçer ama herkese açıktır. [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
 
-**ReefControl Power** *(Beta)* prizleri, bir Apex prizi ile aynı priz kontrolünden yalnızca açık ya da kapalı olarak değiştirilen prizler şeklinde görünür. Bunlar için henüz otomatik mod yoktur.
 
 Ünitenin ağından uzaktayken Cora Mobile Red Sea komutlarını akvaryumdaki bir Cora Max üzerinden gönderir. Bunu hiçbir Cora Max yapamıyorsa sayfa bunu söyler ve hiçbir şey gönderilmez.
 
@@ -119,9 +115,9 @@ Her kafa için **Günlük dozaj** ve **Şişede kalan** değerlerini ayarlayabil
 
 **Dozaj** bölümü **Yaklaşan dozlar**'ı, her kafanın bugün ne dozladığını (**Bugün şimdiye kadar dozlanan**) ve **Son 7 gün** ya da **Toplam** için **Kafa başına dozlanan**'ı gösterir. Cora bunu bir Cora Max ya da telefonunuz ev ağınızdayken okur.
 
-### Bir dozaj planını düzenleme *(Beta)* {#reefdose-plan}
+### Bir dozaj planını düzenleme {#reefdose-plan}
 
-**Dozaj planı (Beta)**'nı açmak için bir ReefDose sayfasındaki takvim simgesine dokunun.
+**Dozaj planı**'nı açmak için bir ReefDose sayfasındaki takvim simgesine dokunun.
 
 Bir plan, en fazla dört zaman aralığına bölünmüş günlük bir toplamdır. Her aralığın bir başlangıç ve bitiş saati, kaç doz vermesi gerektiği ve bir hızı vardır: **Fısıltı**, **Normal** ya da **Hızlı**. Aralık ekleyip kaldırın, sonra kaydedin. Cora, kafanın tüm planının yerine geçmeden önce göndermek üzere olduğunuz şeyi gösterir ve onaylamanızı ister.
 
@@ -131,18 +127,17 @@ Düzenleyici önce ünitede zaten olan planı okur, böylece boş bir formu değ
 
 ReefRun ana pompaları ve skimmer pompalarını kontrol eder. Bir dalga pompası değildir. Bir pompanın hızını değiştirebilir, onu açıp kapatabilir ve skimmer ayarlarını düzenleyebilirsiniz.
 
-**Pompa programı (Beta)**'nı açmak için takvim simgesine dokunun. Bir program, tek bir pompa portunda en fazla altı bölümden oluşur. Her bölümün bir başlangıç saati ve bir hızı vardır ve kısa bir darbe ekleyebilir. Hız ya 0'dır ya da %5'ten yukarıdır. ReefDose planında olduğu gibi önce ünitedeki programı okur ve **Kaydet**, pompanın tüm programının yerine geçmeden önce onaylamanızı ister.
 
 ## ReefMat {#reefmat}
 
 ReefMat sayfası gün ve metre olarak ne kadar rulo kaldığını gösterir. Matı elle ilerletmek için **Şimdi ilerlet**'e dokunun. Cora önce **Mat şimdi ilerletilsin mi?** diye sorar. Rulo için bir dolum uyarısı da kurabilirsiniz.
 
-**ReefMat ayarları (Beta)** için dişliye dokunun:
+**ReefMat ayarları** için dişliye dokunun:
 
 - **Zamanlanmış ilerletme**, sayfada zaten bulunan otomatik ilerletme sensöründen ayrı, sabit zamanlı bir ilerletmeyi açar. Açın ve ne sıklıkla ve her ilerletmenin matı ne kadar taşıyacağını ayarlayın.
 - **ReefMat modeli** ve **Motor konumu** (**Sol** ya da **Sağ**), Cora'ya hangi üniteye ve yöne sahip olduğunuzu söyler.
 
-Yeni bir rulo taktıktan sonra bunu **Yeni rulo (Beta)** ile Cora'ya bildirin: kalınlığı ve biliyorsanız dış çapı. **Şimdi ilerlet** yalnızca zaten takılı olan matı ilerletir.
+Yeni bir rulo taktıktan sonra bunu **Yeni rulo** ile Cora'ya bildirin: kalınlığı ve biliyorsanız dış çapı. **Şimdi ilerlet** yalnızca zaten takılı olan matı ilerletir.
 
 ## ReefATO+ {#reefato}
 
@@ -183,13 +178,13 @@ Varsayılanlar ve diğer sarf malzemeleri [Sarf malzemeleri](/help/mobile-consum
 
 ## Jecod / Jebao pompaları {#jecod}
 
-Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. En üstten **Tüm gün aynı** ya da **Program**'ı seçin. Günlük program hazırlamak ve onu kopyalamak, kaydetmek ya da paylaşmak [Ekipman programları](/help/mobile-schedules) sayfasında.
+Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. **Tüm gün aynı** ve **Program** seçenekli bir anahtar çalışanı *· çalışıyor* ile işaretler ve sayfa onda açılır. Günlük program hazırlamak ve onu kopyalamak, kaydetmek ya da paylaşmak [Ekipman programları](/help/mobile-schedules) sayfasında.
 
 Pompa bir grubun parçasıysa sayfa onun rolünü gösterir, örneğin **Grubu yönetir**, **Takip eder: eş zamanlı** ya da **Takip eder: değişimli**.
 
 ### Besleme duraklatması {#jecod-feeding}
 
-Pompanın sayfasındaki **Besleme** bölümünden bir besleme duraklatması başlatın. Bazı pompalar duraklatmayı kendileri bitirir ve sayfada *Pompa bunu kendiliğinden bitirir.* yazar.
+Pompanın sayfasında **Besleme** bölümünden bir besleme duraklatması başlatın: **5**, **10**, **15** ya da **30** dk'ya dokunun. Bazı pompalar duraklatmayı kendileri bitirir ve sayfada *Pompa bunu kendiliğinden bitirir.* yazar.
 
 :::warning Besleme duraklatması sırasında pompanın sayfasını açık tutun
 Bazı pompalar bir beslemeyi kendileri bitirmez ve sayfa bunu söyler. Bunlar için ve programda olan her pompa için Cora Mobile dalga desenini ve programı yalnızca pompanın sayfası açık kaldığı sürece geri getirir. Sayfadan çıkarsanız pompa, siz onu yeniden değiştirene ya da **Program**'a dokunana kadar besleme modunda durmuş ya da programının dışında kalır.
@@ -207,93 +202,6 @@ AquaWiz kartı alkalinite ölçümlerinizi ve üniteniz bildiriyorsa pH'ı göst
 
 Üniteniz kabını izliyorsa Cora takviye azaldığında, varsayılan olarak 100 mL'de, sizi uyarır. Bunu [Uyarı Merkezi](/help/mobile-alerts)'ndeki kuralından değiştirin.
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Bazı kontroller sınırlı olabilir ve burada gördükleriniz güncellemeler arasında değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Sorun bildirme](/help/mobile-support) sayfasından bize bildirin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
-
-Gyre sayfası gyre'nin çalışıp çalışmadığını, **Gyre A** ve **Gyre B**'nin dalga desenini ve hızını ve en son ne zaman okunduklarını gösterir. Buradan şunları yapabilirsiniz:
-
-- Durumunun yanındaki anahtarla gyre'yi açıp kapatın. Cora önce onaylamanızı ister. Kapatmak iki gyre'yi de durdurur ve programa dokunmaz.
-- Her gyre'nin dalga desenini ve pompa hızını, süresi olan desenler için süreyi ve iki gyre'nin bağlı olup olmadığını ayarlamak için **Ayarları değiştir**'e dokunun. Cora neyin değişeceğini listeler ve onaylamanızı ister. Değişimli mod Maxspect uygulamasında ayarlanır ve onu çalıştıran bir gyre rampalarını ve bekleme sürelerini korur.
-- Gyre'de kayıtlı program okunamıyorsa **Programı ayarla**'ya dokunun. Gyre'nin yeniden başlayabilmesi için iki gyre'yi de ayarlar.
-- Gyre'nin günlük programını **Program** kartında görün. Onu burada yalnızca görüntüleyebilirsiniz. Programı Maxspect uygulamasında ayarlayın.
-- **Pompa sağlığı**'nı kontrol edin. Pompanın bir sonraki temizliğe ne zaman ihtiyaç duyacağını (pompa bunu kendisi geri sayar), A kafasının çektiği akımı, hangi kafaların takılı olduğunu ve yazılımı gösterir. Getirmek için **Oku**'ya dokunun.
-
-:::note Cora Mobile bir gyre'ye nasıl ulaşır
-Akvaryuma bir Cora Max hizmet ediyorsa Cora Mobile, siz evden uzaktayken bile o Cora Max üzerinden gider. **Ayarları değiştir** bu durumda o Cora Max'in son okumasından başlar. Aksi halde telefonunuz gyre ile doğrudan konuşur ve gyre'nin ağında olması gerekir. Sayfayı açmak gyre'yi okur. Sayfa daha eski kayıtlı bir okuma gösteriyorsa **Ayarları değiştir**, siz yenile'ye dokunana kadar gizli kalır.
-:::
-
-## GHL ProfiLux ve Mitras {#ghl}
-
-:::note Beta
-**Beta.** GHL Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Bazı ölçümler ya da kontroller henüz çalışmayabilir ve burada gördükleriniz güncellemeler arasında değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Sorun bildirme](/help/mobile-support) sayfasından bize bildirin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
-
-Kontrolcünün sayfası problarını, prizlerini, dozaj pompalarını ve seviye sensörlerini ve Director modellerinde KH ve iyon test sonuçlarını gösterir.
-
-Kontroller, cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kapalı kalır. Varsayılan olarak kapalıdır ve onu açmak Cora'nın o kontrolcüye besleme duraklatması, bakım, su değişimi, fırtına, aydınlatma, ayar noktası ve priz komutları göndermesini sağlar. Cihazı ekleyebildiğiniz sürece bu anahtar ek erişim gerektirmez.
-
-Açıldığında:
-
-- Bir priz **Her zaman açık**, **Her zaman kapalı** ya da onu kontrolcünün kendi programına geri vermek için **Otomatiğe dön** olarak ayarlanabilir.
-- Sıcaklık ya da pH gibi bir ayar noktası izin verilen aralığını gösterir ve dışındaki bir değeri reddeder.
-
-:::warning Bir priz ya da ayar noktası değişikliği kontrolcünün kendisine kaydedilir
-Yalnızca Cora'da saklanmaz. Bir prizi Her zaman açık ya da Her zaman kapalı yapmak, siz Otomatiğe dön'ü seçene kadar o priz için kontrolcünün kendi programını geçersiz kılar.
-:::
-
-Bir priz ya da ayar noktası bir ısıtıcıya ya da ana pompaya ait gibi görünüyorsa Cora göndermeden önce iki kez onaylamanızı ister.
-
-Bir dozaj pompasının kabı azalıyorsa Cora sizi diğer sarf malzemelerinde olduğu gibi uyarır. Varsayılan %20 doluluktur ve bunu [Uyarı Merkezi](/help/mobile-alerts)'ndeki dozaj pompası kuralından değiştirebilirsiniz.
-
-:::note ProfiLux mini
-Bir mini yalnızca prizlerini açıp kapatabilir. Ayar noktaları ve besleme duraklatması gibi buradaki diğer her şey bir ProfiLux 3, 4 ya da Mitras gerektirir.
-:::
-
-Kontrolcü değişikliği reddederse GHL API'sinin tam erişimle açık olduğunu kontrol edin. GHL bunu her yazılım güncellemesinden sonra kapatır. Adımlar [Sorun giderme](/help/troubleshooting) sayfasında.
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Bazı ölçümler ya da kontroller henüz çalışmayabilir ve burada gördükleriniz güncellemeler arasında değişebilir. Bir şey anlatıldığı gibi çalışmıyorsa [Sorun bildirme](/help/mobile-support) sayfasından bize bildirin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
-
-Burada gördükleriniz bağladığınız anahtara bağlıdır. Bir **Read** (okuma) anahtarı yalnızca girişlerini verir. Bir **Write** (yazma) anahtarı çıkışları, modları, dozajı ve test cihazı komutlarını ve hangi tür anahtarda olduğunuzu hatırlatan bir sayfa şeridini ekler.
-
-Bir yazma anahtarıyla da kontroller, cihazın sayfasında **Cora'dan kontrole izin ver (Beta)**'yı açana kadar kapalı kalır. Varsayılan olarak kapalıdır.
-
-Açıldığında sayfa şunları gösterebilir:
-
-- **ÇIKIŞLAR**: açık/kapalı bir çıkış için bir anahtar, pompa ya da ışık gibi bir seviye için bir kaydırıcı ya da bir bayrak için bir düğme. Geçersiz kılınmış bir çıkış, onu kendi programına geri vermek için bir **Programa geri dön** düğmesiyle **Geçersiz kılındı** gösterir.
-- **MOD**: Besleme ya da Su Değişimi gibi modlar, bir sıra seçenek olarak. Birine dokunmak onay ister.
-- **DOZAJ BAŞLIKLARI**: her biri bir **Dozla** düğmesiyle ve kendi sınırlarını (elle en büyük doz ve günlük üst sınır) ayarladığınız bir **Başlık ayarları** girişiyle. Bir kafanın sınırından ya da kendi günlük üst sınırından o gün kalandan fazlasını istemek, mesajdaki sayılarla birlikte reddedilir.
-- **TEST KOMUTLARI**: bağlı bir iV ya da Maven için, bir düğmeden çalıştırılır ve önce onaylanır.
-
-Kontrolcü bir süredir bildirmediyse sayfa bunu söyler ve ölçümler güncel olmayabilir. Çevrimdışı görünürken gönderilen bir komut hiç gönderilmez ve sayfa bunu da size söyler.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html). Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
-
-Her cihaz durumunu, yazılımını, son testini ve bir Alkatronic için ölçtüğü alkalinite ve pH'ı gösterir. Ayrıca her birinde ne kadar kaldığıyla pompaları, parametreleri, şişeleri ve reaktif ya da tampon uyarılarını görürsünüz. Cora her 30 dakikada bir Focustronic'ten yeni ölçümler ister.
-
-**Kontroller** altında **Şimdi ölç**, bir pompadan **Şimdi dozla** (bir seferde en fazla 500 mL) ve bir Mastertronic'te **Şimdi test et** yapabilirsiniz. Her biri önce onay ister. Cora bir dozu asla yeniden denemez, bu yüzden sonuç bilinmiyor diyorsa cihazı kontrol edin. Komutlar Cora'nın kontrol etmediği Focustronic sunucularından geçer ve yalnızca cihaz çevrimiçiyken kullanılabilir.
-
-## EcoTech, Inkbird ve kameralar {#ecotech-inkbird-cameras}
-
-:::note Beta
-**Beta.** EcoTech, Inkbird ve kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destekle iletişime geçin](/support.html).
-:::
-
-Bunların kendi sayfaları vardır:
-
-- EcoTech Radion ışıkları, VorTech pompaları ve Versa dozaj pompaları: [EcoTech ışıkları, pompaları ve dozaj pompaları](/help/mobile-ecotech)
-- Inkbird oda havası monitörleri yalnızca ölçüm bildirir, bu yüzden kontrol edilecek bir şey yoktur: [Ekipmanınızı bağlama](/help/mobile-connections#inkbird-room-air-monitor)
-- Kameralar ve Skimmer Gözcüsü: [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras)
 
 ## Bir şeyi değiştirdikten sonra ne olur {#what-happens-after-you-change-something}
 

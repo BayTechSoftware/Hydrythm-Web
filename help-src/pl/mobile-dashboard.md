@@ -86,7 +86,6 @@ Niektóre karty pojawiają się tylko wtedy, gdy jest coś do powiedzenia. Więk
 | **Reef Buddy** | Podsumowanie jest gotowe | Kartę |
 | **Jak zwykle karmisz?** | Nie ustawiono planu karmienia | **Ustaw plan karmienia** |
 | *Odczyty Red Sea przestały się aktualizować.* | Nic nie odczytuje urządzeń Red Sea tego akwarium | Zobacz [Alerty i progi](/help/mobile-alerts) |
-| **Kamery** (Beta) | Akwarium ma kamerę, pod widżetami. Kamery są dostępne tylko dla użytkowników Beta | **Oglądaj na żywo** |
 | **Zapisz pierwszy test wody** | Brak odczytów i podłączonego sprzętu, pod widżetami | Kartę. Zobacz [Konfiguracja Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
 ## Pod widżetami {#below-the-widgets}

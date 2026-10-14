@@ -49,11 +49,8 @@ Wenn du das Raster wechselst, wirft Cora keine Kacheln wegen ihrer Position weg.
 
 Die Gesten stehen oben im Editor: **Tippen zum Bearbeiten**, **Lange drücken zum Verschieben** und **✕ zum Entfernen**. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 
-Die sechzehn Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* und Kamera *(Beta)*. Du findest sie in der [Widget-Referenz](/help/mobile-widgets). Die Kachel **Szene** gibt es nur auf Cora Max. Sie startet eine [Szene](/help/max-automation) mit einem Tippen.
+Die Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul und Jecod. Du findest sie in der [Widget-Referenz](/help/mobile-widgets). Die Kachel **Szene** gibt es nur auf Cora Max. Sie startet eine [Szene](/help/max-automation) mit einem Tippen.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Ihre Kacheln erscheinen erst, wenn du das Gerät hast. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
 ## Steckdosen & Füttern {#outlets-feed}
 
@@ -68,7 +65,6 @@ Es öffnet **Dashboard-Vorlagen**, ein paar fertige Layouts, gebaut aus dem, was
 - **Übersicht**: wenige große Kacheln, mit den wichtigsten Wasserwerten als Anzeigen und deinen Hauptgeräten
 - **Ausrüstung**: zuerst eine Kachel pro Gerät, dann Steckdosen und die wichtigsten Wasserwerte
 - **Wasserwerte**: Diagramme und Messwerte zuerst, Geräte und Steckdosen zuletzt
-- **Kamera**: eine große Live-Ansicht oben links mit den wichtigsten Wasserwerten daneben. Sie erscheint nur, wenn das Becken eine Kamera hat. Kameras sind in der Beta und nur für Beta-Nutzer offen.
 
 Jede zeigt eine Vorschau und wie viele Kacheln sie auf welchem Raster hat. Tippe auf **Verwenden**. Cora fragt zuerst **Dashboard ersetzen?** Tippe auf **Aktuelles zuerst als Preset sichern**, wenn du dein jetziges Layout behalten willst, oder auf **Ersetzen**. Gespeichert wird erst, wenn du auf **Speichern** drückst.
 

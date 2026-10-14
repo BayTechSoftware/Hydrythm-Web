@@ -38,7 +38,7 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Podłącz sprzęt Red Sea ReefBeat](/help/mobile-connections#red-sea-reefbeat)
 - [Podłącz pompę Jecod albo Jebao](/help/mobile-connections#jecod)
 - [Podłącz AquaWiz KH Controller](/help/mobile-connections#aquawiz-kh-controller)
-- [Sprawdź, dlaczego nie widzisz Maxspect, GHL ani EcoTech](/help/mobile-beta#who-gets-beta)
+- [Napraw „Osiągnięto limit Bluetooth" przy dodawaniu urządzenia](/help/mobile-devices#bluetooth-capacity)
 - [Przenieś urządzenie do innego akwarium](/help/mobile-devices#a-devices-page)
 - [Zmień nazwę urządzenia](/help/mobile-devices#renaming)
 - [Usuń urządzenie](/help/mobile-devices#removing-a-device)

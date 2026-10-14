@@ -1,6 +1,6 @@
 ---
 title: Programmare l'attrezzatura
-description: Crea un programma giornaliero per una pompa Jecod e copialo tra le pompe, e guarda il programma di una gyre Maxspect (Beta).
+description: Crea un programma giornaliero per una pompa Jecod e copialo tra le pompe.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,13 +9,13 @@ group: Equipment
 
 Usa questa pagina per dare a una pompa Jecod un **programma giornaliero**: una serie di fasce, ognuna con la sua intensità, che si ripete ogni giorno. Aprilo da **Dispositivi** → tocca la pompa.
 
-Allo stesso modo puoi anche guardare il programma di una gyre Maxspect *(Beta)*, ma lo imposti nell'app Maxspect. Maxspect è disponibile solo per gli utenti Beta. Vedi [Funzioni Beta](/help/mobile-beta). Le luci e le pompe di altre marche tengono i loro programmi nelle loro pagine: [EcoTech](/help/mobile-ecotech) *(Beta)*, e ReefRun e ReefDose di Red Sea in [Controllare la tua attrezzatura](/help/mobile-device-control#red-sea).
+Le luci e le pompe di altre marche tengono i loro programmi nelle loro pagine: ReefDose di Red Sea in [Controllare la tua attrezzatura](/help/mobile-device-control#red-sea).
 
 ![La pagina di una pompa Jecod in Cora Mobile con Programma selezionato](img/mobile-schedules.webp "Programma selezionato in alto, la pausa per l'alimentazione, poi il grafico della giornata.")
 
 ## Uguale tutto il giorno o Programma {#same-all-day-or-schedule}
 
-Una pompa funziona in una di due modalità. Sceglila in cima alla sua pagina.
+Una pompa funziona in una di due modalità. Sceglila con il selettore nella sua pagina. Quella in corso è segnata con *· in corso*, e la pagina si apre su di essa.
 
 - **Uguale tutto il giorno** funziona sempre alla stessa intensità.
 - **Programma** segue un programma giornaliero fatto di fasce.
@@ -34,7 +34,6 @@ Sotto il grafico c'è l'elenco delle fasce. Ogni fascia mostra orari, modalità 
 
 Tocca **Aggiungi al programma** per aggiungere una fascia. Per cambiarne una, aprila e tocca **Salva**. Per toglierla, tocca **Elimina** e conferma.
 
-Una gyre Maxspect *(Beta)* ha due teste, indicate come Gyre A e Gyre B. Il suo grafico della giornata ha una traccia per ognuna, e i suoi piani sono elencati sotto **GYRE A** e **GYRE B**. Qui puoi solo guardare il programma di una gyre. La sua riga dei comandi dice **Solo visualizzazione**, e il programma si imposta nell'app Maxspect.
 
 :::warning Salvare scrive il programma sul dispositivo
 Quando salvi, Cora invia il programma all'attrezzatura, che lo segue con il suo orologio. Continua a funzionare che Cora riesca a raggiungerla oppure no.

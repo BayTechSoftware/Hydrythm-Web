@@ -3,7 +3,7 @@ title: Bildirimler
 description: Telefonunuza hangi bildirimlerin geleceğini seçin, geceleri sessiz tutun, kaçırdıklarınızı zilin altında okuyun ve gelmeyen bildirimleri düzeltin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ En üstteki kart, bu telefonun Cora'dan gelen bildirimlere izin verip vermediği
 |---|---|
 | **Parametre Uyarıları** | Belirlediğiniz aralığın dışına çıkan su kimyası ve değer geri döndüğünde gelen *düzeldi* bildirimi |
 | **Bakım Hatırlatıcıları** | Su değişimi gibi planladığınız görevler ve yeni bir akvaryumda üç gün sonra hâlâ ölçüm yoksa ilk testinizi kaydetmeniz için tek seferlik bir hatırlatma |
-| **Ekipman Arızaları** | Sorun bildiren bir cihaz, örneğin test yapmayı bırakmış bir Trident. Ayrıca [bildirmeyi bırakan](/help/mobile-alerts#stopped-reporting) bir cihaz, kaçırılan bir doz ve Skimmer Gözcüsü'nün kap dolu uyarısı |
+| **Ekipman Arızaları** | Sorun bildiren bir cihaz, örneğin test yapmayı bırakmış bir Trident. Ayrıca [bildirmeyi bırakan](/help/mobile-alerts#stopped-reporting) bir cihaz ve kaçırılan bir doz |
 | **Sarf Malzemesi Azalıyor** | Reaktif, su tamamlama suyu, dozaj kapları ve dolan atık şişesi |
 | **ICP Raporu Hazır** | ICP sonuçlarınız analiz edildi ve okunmaya hazır |
 

@@ -14,7 +14,7 @@ Short answers, with links to the full pages. If something isn't working, go stra
 
 You don't need to buy anything to start. Cora Mobile on its own tracks your tanks, logs tests, sends alerts and runs Cora Assistant.
 
-A Cora Max at the tank adds a few things. Without one, your phone reads a Neptune Apex, Red Sea or Jecod device only while Cora Mobile is open on the same Wi-Fi. A Cora Max reads them around the clock, keeps your readings current while you're away, and passes on commands you send from away. Maxspect, GHL, EcoTech, Inkbird and cameras need a Cora Max to work at all (these are Beta, see below). More in [Equipment by brand](/help/equipment-by-brand).
+A Cora Max at the tank adds a few things. Without one, your phone reads a Neptune Apex, Red Sea or Jecod device only while Cora Mobile is open on the same Wi-Fi. A Cora Max reads them around the clock, keeps your readings current while you're away, and passes on commands you send from away. More in [Equipment by brand](/help/equipment-by-brand).
 
 ### How do I add my first tank? {#how-do-i-add-my-first-tank}
 
@@ -82,7 +82,7 @@ It needs Local Network access to find Wi-Fi equipment and reach a Cora Max on yo
 
 ### Can I check on my tank when I'm not home? {#can-i-check-on-my-tank-away}
 
-Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz, and in Beta HYDROS and Focustronic, are read through their maker's cloud, so they keep updating either way. Readings you log by hand and the tank's history are always there.
+Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz is read through its maker's cloud, so it keeps updating either way. Readings you log by hand and the tank's history are always there.
 
 ### Can I control equipment when I'm away from home? {#can-i-control-equipment-away}
 
@@ -104,19 +104,11 @@ Yes. Removing a tank only hides it. Open **Settings → Removed tanks** and tap 
 
 ### What equipment does Cora work with? {#what-equipment-does-cora-work-with}
 
-Neptune Apex (with DŌS and Trident), Red Sea ReefBeat equipment, Jecod and Jebao pumps and the AquaWiz KH Controller. In Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird and cameras. For anything else, you can log readings by hand. Every brand, with links to its pages, is in [Equipment by brand](/help/equipment-by-brand).
+Neptune Apex (with DŌS and Trident), Red Sea ReefBeat equipment, Jecod and Jebao pumps and the AquaWiz KH Controller. For anything else, you can log readings by hand. Every brand, with links to its pages, is in [Equipment by brand](/help/equipment-by-brand).
 
-### What does "Beta" mean for an integration? {#what-does-beta-mean}
 
-We're still testing and developing it. Some readings or controls may be limited, and what you see can change between updates.
 
-**Beta.** The Beta integrations are only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). Joining a store testing programme doesn't switch it on. More in [Beta features](/help/mobile-beta).
-
-### Why is a brand greyed out with "Requires Cora Max"? {#why-requires-cora-max}
-
-Cora Max reads that equipment, not your phone. Add a Cora Max to the tank first, and the brand opens up. More in [Equipment by brand](/help/equipment-by-brand).
-
-### Is Cora affiliated with Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech or Inkbird? {#is-cora-affiliated}
+### Is Cora affiliated with Neptune, Red Sea or Jebao? {#is-cora-affiliated}
 
 No. Cora isn't affiliated with, endorsed by, or partnered with any manufacturer it connects to. Cora talks to their public accounts, official APIs or local network protocols. A manufacturer's own app or firmware update can change or break that connection at any time, without notice. More in [Connecting your equipment](/help/mobile-connections).
 

@@ -9,7 +9,7 @@ group: Equipment
 
 W **Mapowaniu parametrów** mówisz Corze, co mierzy każda sonda, a gdy dwie sondy zgłaszają to samo, której z nich ufać. Przejdź do **Ustawień**, otwórz akwarium i dotknij **Mapowanie parametrów**.
 
-Jest ono między **Edytuj akwarium** a **Progi alertów**. Ołówek na górze pulpitu otwiera **Edytuj akwarium**, gdzie go nie ma. Trafisz tu też ze stron urządzeń Neptune Apex i GHL (Beta). GHL jest dostępny tylko dla użytkowników Beta. Zobacz [Funkcje Beta](/help/mobile-beta).
+Jest ono między **Edytuj akwarium** a **Progi alertów**. Ołówek na górze pulpitu otwiera **Edytuj akwarium**, gdzie go nie ma. Trafisz tu też ze stron urządzeń Neptune Apex.
 
 Ekran ma pole wyszukiwania (**Szukaj parametrów**) i dwie zakładki, **Mapowanie** i **Źródła**. Wyszukiwanie obejmuje nazwy parametrów, nazwy sond, urządzenia i marki. To samo pole wyszukiwania jest w każdym wyborze parametru.
 

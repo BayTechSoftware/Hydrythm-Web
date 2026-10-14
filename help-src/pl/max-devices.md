@@ -16,15 +16,12 @@ twin: mobile-devices
 
 Cora Max widzi ten sam sprzęt co telefon, bo oba odczytują to samo konto.
 
-Chipami filtra na górze pokażesz **Wszystkie akwaria** albo tylko jedno. Urządzenia są pogrupowane według marki. Każda pozycja ma kropkę stanu (szarą, gdy Cora jeszcze nie wie, zieloną, gdy działa, pomarańczową przy ostrzeżeniu albo usterce, czerwoną, gdy jest offline), jednolinijkowe podsumowanie tego, co urządzenie zawiera (*21 gniazd · 4 karmienia*, *zostało 19 testów*), akwarium, do którego należy, i czas **Ostatnio widziano**. Urządzenia Beta mają chip **Beta**.
+Chipami filtra na górze pokażesz **Wszystkie akwaria** albo tylko jedno. Urządzenia są pogrupowane według marki. Każda pozycja ma kropkę stanu (szarą, gdy Cora jeszcze nie wie, zieloną, gdy działa, pomarańczową przy ostrzeżeniu albo usterce, czerwoną, gdy jest offline), jednolinijkowe podsumowanie tego, co urządzenie zawiera (*21 gniazd · 4 karmienia*, *zostało 19 testów*), akwarium, do którego należy, i czas **Ostatnio widziano**.
 
 Dotknij urządzenia, żeby otworzyć jego stronę. Każda strona urządzenia zaczyna się od sekcji **Stan**. Co potrafi każda strona, opisuje [Sterowanie sprzętem z Cora Max](/help/max-device-control).
 
 Jeśli lista pokazuje **Wciąż wczytywanie części urządzeń: ta lista może być niekompletna.**, daj jej chwilę.
 
-:::note Beta
-**Beta.** Lampy, pompy i dozowniki EcoTech, monitory powietrza w pomieszczeniu Inkbird i kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
 ### Zmiana nazwy urządzenia {#renaming-a-device}
 
@@ -42,6 +39,7 @@ Urządzenia dodajesz, przypisujesz i usuwasz w telefonie. Cora Max je pokazuje i
 
 - **Każde aktywne (automatycznie)** oznacza, że pracą dzieli się każde urządzenie Cora online, które może połączyć się ze sprzętem tego akwarium, a wygrywa najnowszy zapis. Używaj tego, chyba że masz powód, żeby przypiąć jedno urządzenie.
 - Przypnij jedno urządzenie, żeby tylko ono odczytywało sprzęt. Jeśli przejdzie w tryb offline, żaden inny Cora Max go nie zastąpi. Sprzęt odczytuje wtedy tylko Cora Mobile otwarta w tej samej sieci Wi-Fi, dopóki nie przypniesz innego urządzenia albo nie wrócisz do **Każde aktywne (automatycznie)**.
+
 
 Ustawiasz to raz dla akwarium i działa na każdym ekranie Cora. Możesz to zmienić na każdym Cora Max, który pokazuje to akwarium, albo w Cora Mobile (**Ustaw jako główne Cora Max** na stronie Cora Max). Więcej w [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
 

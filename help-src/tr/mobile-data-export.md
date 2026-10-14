@@ -3,7 +3,7 @@ title: Verilerinizi dışa aktarma ve hesabınızı silme
 description: Ölçümlerinizi, günlüğünüzü ve uyarılarınızı tablo dosyası olarak dışa aktarın, çıkış yapın ya da Cora hesabınızı silin ve bunun neleri kaldırdığını öğrenin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 38
 group: Settings and account
 ---
 

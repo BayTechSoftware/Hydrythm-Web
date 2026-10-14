@@ -3,7 +3,7 @@ title: Alertas y umbrales
 description: Fija el rango saludable de cada lectura, elige cada cuánto puede avisarte una alerta y descubre por qué un dispositivo "dejó de informar".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 20
+order: 22
 group: Alerts and automation
 twin: max-alerts
 ---
@@ -87,7 +87,6 @@ Cuando una alerta está activa, no te sigue avisando de lo mismo. El [tiempo de 
 
 Algunas alertas tratan de un equipo, no de una lectura. Cuando un dispositivo como un Trident o una bomba Jecod informa de un fallo, Cora envía una notificación con el nombre del acuario y del dispositivo, por ejemplo *"Acuario principal: la bomba de retorno necesita atención"*. También dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, recibes una segunda: *"Acuario principal: la bomba de retorno vuelve a estar bien"*. Las dos pertenecen a **Fallas de equipos** en **Ajustes → Notificaciones**.
 
-Un gyre Maxspect (Beta) puede generar la misma alerta. Pasa cuando un Cora Max de su red encuentra los dos cabezales al 0 %, o no recibe respuesta del gyre dos veces seguidas. Tómalo como un aviso, no como una protección. El Cora Max solo lo comprueba de vez en cuando, y solo mientras está funcionando y puede llegar al gyre.
 
 ## Un dispositivo ha dejado de informar {#stopped-reporting}
 
@@ -101,27 +100,16 @@ Cuánto espera Cora depende del dispositivo:
 | Red Sea ReefBeat | Unos 30 minutos |
 | AquaWiz | Unas 3 horas, porque informa con menos frecuencia |
 | Bombas Jecod | Tres lecturas perdidas seguidas, según el intervalo de lectura de la bomba (90 minutos con el predeterminado de 30) |
-| Maxspect (Beta) | Tres lecturas perdidas seguidas, como Jecod |
-| EcoTech (Beta) | Tres lecturas perdidas seguidas, según el intervalo de lectura de la red (90 minutos con el predeterminado de 30). Si fijas un tiempo más largo en **La luz deja de responder**, Cora espera ese tiempo |
-| Monitor de aire de habitación Inkbird (Beta) | Tres lecturas perdidas seguidas, según el intervalo propio del monitor (15 minutos con el predeterminado de 5) |
-| Focustronic (Beta) | Unas 3 horas |
-| GHL (Beta) | Unos 15 minutos. La notificación dice *"No se puede contactar con el controlador GHL"* |
-| HYDROS (Beta) | Unos 30 minutos. La notificación dice *"El controlador HYDROS no informa"* |
+| Enchufe Zigbee | No ha vuelto 30 minutos después de reiniciar el hub. Ponle nombre con **Renombrar** para que el aviso la nombre |
 
 Qué revisar depende de cómo lee Cora el dispositivo.
 
-- Apex, ReefBeat, Jecod, Maxspect y GHL los lee un Cora Max por Wi-Fi. Revisa la alimentación y el Wi-Fi del dispositivo, y que el Cora Max que lo lee esté encendido y en línea.
-- EcoTech e Inkbird los lee un Cora Max por Bluetooth. Revisa la alimentación, que el dispositivo esté al alcance del Bluetooth del Cora Max y que el Cora Max esté encendido.
-- AquaWiz y Focustronic se leen a través de tu cuenta con el fabricante. Revisa la conexión de la cuenta en la página del dispositivo en Cora Mobile.
-- En HYDROS, revisa su alimentación, su Wi-Fi y su clave de dispositivo.
+- Apex, ReefBeat y Jecod los lee un Cora Max por Wi-Fi. Revisa la alimentación y el Wi-Fi del dispositivo, y que el Cora Max que lo lee esté encendido y en línea.
+- AquaWiz se lee a través de tu cuenta con el fabricante. Revisa la conexión de la cuenta en la página del dispositivo en Cora Mobile.
 
-GHL también puede decirte *"API GHL desactivada"* o que el controlador *"rechazó la conexión"*. Si el Cora Max que lee un controlador GHL se queda en silencio, recibes *"Cora Max no informa"* para ese controlador. Las soluciones están en [Solución de problemas](/help/troubleshooting).
 
 Estas notificaciones pertenecen a **Fallas de equipos** en **Ajustes → Notificaciones**.
 
-:::note Beta
-Maxspect, EcoTech, Inkbird, Focustronic, GHL y HYDROS están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
 Un acuario Red Sea también puede mostrar un aviso, *"Las lecturas de Red Sea han dejado de actualizarse"*, cuando ningún teléfono ni Cora Max está leyendo sus equipos ReefBeat. Tócalo para elegir un **Cora Max principal**. La solución completa está en [Solución de problemas](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 

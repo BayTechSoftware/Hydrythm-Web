@@ -86,7 +86,6 @@ Certaines cartes n’apparaissent que quand il y a quelque chose à dire. La plu
 | **Reef Buddy** | Un briefing est prêt | La carte |
 | **Comment nourris-tu d'habitude ?** | Vous n’avez pas réglé de routine d’alimentation | **Configurer la routine** |
 | *Les relevés Red Sea ne se mettent plus à jour.* | Rien ne lit les appareils Red Sea de cet aquarium | Voir [Alertes et seuils](/help/mobile-alerts) |
-| **Caméras** (Beta) | L’aquarium a une caméra, sous les widgets. Les caméras ne sont ouvertes qu’aux utilisateurs Beta | **Voir en direct** |
 | **Enregistrez votre premier test d’eau** | Aucune mesure et aucun équipement associé, sous les widgets | La carte. Voir [Configurer Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
 ## Sous les widgets {#below-the-widgets}

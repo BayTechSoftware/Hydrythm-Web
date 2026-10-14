@@ -26,7 +26,6 @@ Votre version figure sur la carte en haut de **Réglages → Réglages Cora Max*
 Sous **Réglages de mise à jour**, sur le même écran :
 
 - **Plage d’installation** définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de **Début** et de **Fin**, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous **Appareils →** votre Cora Max **→ Fuseau horaire**.
-- **Canal de mise à jour** vaut **Stable** ou **Bêta**. Laissez-le sur **Stable** sauf si l’assistance vous demande de changer. Un Cora Max sur **Bêta** ne reçoit pas les versions stables.
 
 Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Réglages Cora Max** et faites défiler jusqu’à **ÉTAT**. La section affiche pour chaque aquarium l’**État de l’interrogation**, la **Dernière interrogation**, la **Dernière écriture cloud** et l’**Enregistrement cloud**.
 

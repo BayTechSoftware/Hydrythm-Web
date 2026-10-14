@@ -95,9 +95,6 @@
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
-<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
-<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -204,7 +201,7 @@
 <ul><li>la copia anonimizada para investigación, si dejaste ese interruptor activado</li><li>tu suscripción de la tienda, que solo la tienda puede cancelar</li><li>tu ficha de cliente en nuestro proveedor de gestión de suscripciones, que se elimina 120 días después que tu cuenta para que todavía se pueda atender un reembolso de la tienda o una disputa de pago</li></ul>
 <p>Volver a iniciar sesión en otro teléfono, o cambiar tu forma de iniciar sesión, se explica en <a href="/es/help/mobile-account">Inicio de sesión y recuperación de la cuenta</a>. Los planes y la facturación están en <a href="/es/help/mobile-plans">Planes y suscripciones</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-plans"><span>Anterior</span><b>Planes y suscripciones</b></a><a class="pn-n" href="/es/help/mobile-support"><span>Siguiente</span><b>Informar de un problema</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -595,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -62,20 +62,15 @@ Devam soruları için kendinizi tekrarlamanız gerekmez. Ana akvaryumla ilgili b
 - Günlüğe yazar: *"Yirmi litrelik su değişimi yaptığımı kaydet."* *"Ekstra mysis verdiğimi kaydet."* *"Sabah beslemesini atladığımı kaydet."*
 - Red Sea ekipmanını kontrol eder: bir ReefDose kafasından dozaj yapar, günlük dozunu değiştirir, bir ReefATO+ dolumu başlatır, bir ReefMat'i ilerletir ya da bir ReefRun pompasının hızını ayarlar.
 - Jecod pompalarını kontrol eder.
-- Beta ekipmanı: bir Focustronic testi ya da dozu başlatır, GHL komutlarını çalıştırır ve EcoTech VorTech pompalarını kontrol eder.
 
 ## Cora'nın Cora Max'te sesle yapamadıkları
 
 - Bir sahneyi çalıştırmak ya da durdurmak. Sahne kutucuğunu ya da **Ayarlar → Otomasyonlar**'ı kullanın.
-- Bir Neptune DŌS kafasından dozaj yapmak ya da bir EcoTech Versa ile dozaj yapmak. Cora Max'te cihazın sayfasını kullanın.
-- Bir Maxspect gyre'yi, bir HYDROS kontrolcüsünü ya da bir EcoTech Radion'u kontrol etmek. Cihazın sayfasını kullanın.
+- Bir Neptune DŌS kafasından dozaj yapmak. Cora Max'te cihazın sayfasını kullanın.
 - Cora Max'in kendi ayarlarını değiştirmek, cihaz eklemek ya da panoyu düzenlemek.
 
 Telefonunuzdaki Cora Assistant bunlardan bazılarını yapabilir. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant#what-cora-can-change) sayfasında.
 
-:::note Beta
-**Beta.** Focustronic, GHL, HYDROS, Maxspect ve EcoTech Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
-:::
 
 ## Onaylar
 

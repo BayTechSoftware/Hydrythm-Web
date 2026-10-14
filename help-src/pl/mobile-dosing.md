@@ -3,7 +3,7 @@ title: Produkty dozujące i kalkulator dawek
 description: Sprawdź stężenie swoich produktów do alkaliczności, wapnia i magnezu, dodaj własne i użyj kalkulatora dawek, żeby policzyć, ile dodać.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 25
+order: 27
 group: Records
 ---
 

@@ -3,7 +3,7 @@ title: Pläne und Abos
 description: Was die Pläne Free, Testphase, Plus, Pro und Max enthalten, wie du ein Abo abschließt oder upgradest, wo du deine Nutzung siehst und wie du auf iPhone oder Android kündigst.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 35
+order: 37
 group: Settings and account
 ---
 
@@ -62,7 +62,6 @@ Es gibt drei Pläne, **Plus**, **Pro** und **Max**, jeweils monatlich oder jähr
 
 Sprachsitzungen haben ihre eigene Zahl, und jede gesprochene Antwort verbraucht außerdem dein Nachrichtenkontingent. Jeder bezahlte Plan enthält Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora liest, den Vergleich mit deinem eigenen Verlauf und **Mit KI gestalten** für Dashboards (bis zu 5 Entwürfe pro Tag für jedes Becken).
 
-Bezahlte Pläne enthalten außerdem Warnungen vom Skimmer-Wächter für eine Kamera an deinem Technikbecken. Die Testphase nicht. **Beta.** Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support. Mehr dazu unter [Kameras](/help/mobile-cameras).
 
 :::note Der Max-Plan ist nicht der Cora Max-Bildschirm
 Der **Max-Plan** ist ein Abo. **Cora Max** ist der Bildschirm neben deinem Becken. Für das eine brauchst du das andere nicht.

@@ -19,7 +19,7 @@ Gdzie to ustawić:
 
 - **Większość urządzeń**: dzwonek na górnym pasku strony urządzenia.
 - **DŌS**: karta **Alerty** na stronie DŌS albo dzwonek. Zobacz [Alerty dozownika](/help/mobile-device-control#doser-alerts).
-- **Dozowniki AquaWiz i GHL**: ich reguła w zakładce **Reguły** w [Centrum alertów](/help/mobile-alerts).
+- **AquaWiz**: reguła w zakładce **Reguły** w [Centrum alertów](/help/mobile-alerts).
 
 Większość progów ustawia się w dniach, a nie w objętości. Cora liczy, na jak długo wystarczy to, co zostało, przy Twoim tempie zużycia. Z „wapnia zostało na cztery dni” od razu wiesz, co zrobić. Z „zostało 180 mL” już nie.
 
@@ -37,14 +37,7 @@ Większość progów ustawia się w dniach, a nie w objętości. Cora liczy, na 
 | ReefATO+ | **Zapas w zbiorniku**, szacowany na podstawie ostatniego zużycia na dolewkę | 2 dni |
 | ReefMat | **Pozostała rolka**, szacowana na podstawie tego, jak szybko przesuwa się rolka | 3 dni |
 | AquaWiz | Ile zostało suplementu alkaliczności | 100 mL |
-| Dozownik GHL *(Beta)* | Jak pełny jest pojemnik | 20% |
-| EcoTech Versa *(Beta)* | Na ile dni wystarczy suplementu i jak pełny jest pojemnik | 7 dni, 10% |
 
-Urządzenie Focustronic *(Beta)* pokazuje na swojej stronie własne ostrzeżenia o odczynniku i buforze.
-
-:::note Beta
-**Beta.** GHL, EcoTech i Focustronic są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html).
-:::
 
 Alert materiału eksploatacyjnego działa jak każdy inny alert. Pojawia się w [Centrum alertów](/help/mobile-alerts) i może wysłać powiadomienie na telefon. Po przekroczeniu poziomu dostajesz **jedno** powiadomienie, a alert znika, gdy poziom znów będzie powyżej progu.
 
@@ -65,7 +58,6 @@ Daj znać Corze na stronie urządzenia, żeby alert zniknął, a kolejne ostrze�
 | Głowica DŌS | **Napełnij**, a potem **Pełny**, albo ustaw **Pozostała objętość** |
 | Zbiornik odpadów DŌS | Po opróżnieniu przywróć jego wolne miejsce do pełnego |
 | Głowica ReefDose | **Pozostało w butelce** |
-| ReefMat | **Nowa rolka (Beta)** po założeniu nowej rolki |
-| EcoTech Versa *(Beta)* | **Oznacz jako uzupełniony** |
+| ReefMat | **Nowa rolka** po założeniu nowej rolki |
 
 Trident, ReefATO+ i AquaWiz same podają swoje poziomy, więc w Corze nie trzeba niczego resetować.

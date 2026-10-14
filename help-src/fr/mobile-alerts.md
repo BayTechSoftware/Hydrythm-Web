@@ -3,7 +3,7 @@ title: Alertes et seuils
 description: Réglez la plage saine de chaque mesure, choisissez à quelle fréquence une alerte peut vous prévenir, et découvrez pourquoi un appareil "ne remonte plus de mesures".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 20
+order: 22
 group: Alerts and automation
 twin: max-alerts
 ---
@@ -87,7 +87,6 @@ Une fois qu’une alerte est en cours, elle ne vous prévient pas sans cesse de 
 
 Certaines alertes concernent l’équipement, pas une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification qui nomme l’aquarium et l’appareil, par exemple *« Aquarium principal : Pompe de remontée demande de l’attention »*. Elle dit aussi ce qui ne va pas, comme un rotor bloqué. Quand la panne disparaît, vous en recevez une deuxième : *« Aquarium principal : Pompe de remontée fonctionne de nouveau »*. Les deux relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
 
-Une Gyre Maxspect (Beta) peut déclencher la même alerte. Cela arrive quand un Cora Max de son réseau trouve les deux têtes réglées à 0 %, ou n’obtient aucune réponse de la Gyre deux fois de suite. Considérez-la comme un avertissement, pas comme une protection. Le Cora Max ne vérifie que de temps en temps, et seulement tant qu’il fonctionne et peut joindre la Gyre.
 
 ## Un appareil ne remonte plus de mesures {#stopped-reporting}
 
@@ -101,27 +100,16 @@ Le temps d’attente de Cora dépend de l’appareil :
 | Red Sea ReefBeat | Environ 30 minutes |
 | AquaWiz | Environ 3 heures, car il transmet moins souvent |
 | Pompes Jecod | Trois lectures manquées d’affilée, à l’intervalle de lecture de la pompe (90 minutes avec les 30 par défaut) |
-| Maxspect (Beta) | Trois lectures manquées d’affilée, comme Jecod |
-| EcoTech (Beta) | Trois lectures manquées d’affilée, à l’intervalle de lecture du réseau (90 minutes avec les 30 par défaut). Si vous réglez un délai plus long sous **La lampe ne répond plus**, Cora attend ce délai |
-| Moniteur d’air ambiant Inkbird (Beta) | Trois lectures manquées d’affilée, à l’intervalle propre du moniteur (15 minutes avec les 5 par défaut) |
-| Focustronic (Beta) | Environ 3 heures |
-| GHL (Beta) | Environ 15 minutes. La notification indique *« Contrôleur GHL injoignable »* |
-| HYDROS (Beta) | Environ 30 minutes. La notification indique *« Le contrôleur HYDROS ne transmet plus »* |
+| Prise Zigbee | N’est pas revenue 30 minutes après le redémarrage du hub. Donnez-lui un nom avec **Renommer** pour que l’alerte la nomme |
 
 Ce qu’il faut vérifier dépend de la façon dont Cora lit l’appareil.
 
-- Apex, ReefBeat, Jecod, Maxspect et GHL sont lus par un Cora Max en Wi-Fi. Vérifiez l’alimentation et le Wi-Fi de l’appareil, et que le Cora Max qui le lit est allumé et en ligne.
-- EcoTech et Inkbird sont lus par un Cora Max en Bluetooth. Vérifiez l’alimentation, que l’appareil est à portée Bluetooth du Cora Max, et que le Cora Max est allumé.
-- AquaWiz et Focustronic sont lus par votre compte chez le fabricant. Vérifiez la connexion du compte sur la page de l’appareil dans Cora Mobile.
-- Pour HYDROS, vérifiez son alimentation, son Wi-Fi et sa clé d’appareil.
+- Apex, ReefBeat et Jecod sont lus par un Cora Max en Wi-Fi. Vérifiez l’alimentation et le Wi-Fi de l’appareil, et que le Cora Max qui le lit est allumé et en ligne.
+- AquaWiz est lu par votre compte chez le fabricant. Vérifiez la connexion du compte sur la page de l’appareil dans Cora Mobile.
 
-GHL peut aussi vous indiquer *« API GHL désactivée »* ou que le contrôleur *« a refusé la connexion »*. Si le Cora Max qui lit un contrôleur GHL devient silencieux, vous recevez *« Cora Max ne transmet plus pour »* ce contrôleur. Les solutions sont dans [Résolution de problèmes](/help/troubleshooting).
 
 Ces notifications relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
 
-:::note Beta
-Maxspect, EcoTech, Inkbird, Focustronic, GHL et HYDROS sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
-:::
 
 Un aquarium Red Sea peut aussi afficher un bandeau, *« Les relevés Red Sea ne se mettent plus à jour »*, quand aucun téléphone ni aucun Cora Max ne lit son équipement ReefBeat. Touchez-le pour choisir un **Cora Max principal**. La solution complète est dans [Résolution de problèmes](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 

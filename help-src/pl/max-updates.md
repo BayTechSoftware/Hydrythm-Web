@@ -26,7 +26,6 @@ Twoja wersja jest na karcie na górze **Ustawienia → Ustawienia Cora Max** (*C
 W **Ustawieniach aktualizacji** na tym samym ekranie:
 
 - **Okno instalacji** ustawia godziny, w których mogą instalować się aktualizacje, z godziną **Początek** i **Koniec**, w czasie lokalnym tego ekranu. Strefę czasową ustawiasz w Cora Mobile, w **Urządzenia →** Twój Cora Max **→ Strefa czasowa**.
-- **Kanał aktualizacji** to **Stabilny** albo **Beta**. Zostaw **Stabilny**, chyba że pomoc techniczna poprosi o zmianę. Cora Max na kanale **Beta** nie dostaje wersji stabilnych.
 
 Żeby sprawdzić, czy ten ekran odczytuje Twoje urządzenia i zapisuje do Cora Cloud, wróć do **Ustawienia Cora Max** i przewiń do **STAN**. Pokazuje dla każdego akwarium **Stan odpytywania**, **Ostatnie odpytanie**, **Ostatni zapis do chmury** i **Zapis w chmurze**.
 

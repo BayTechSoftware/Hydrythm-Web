@@ -18,6 +18,7 @@ Etkinlik, ekipmanınızda bir şeyi değiştirmeye yönelik her denemenin ve son
 
 Her satırda ekipman ve istenen şey (örneğin *Ana pompa: Kapatıldı*) ile saat yazar. Ayrıca iki bilgi daha verir.
 
+
 **İsteği ne verdi.** Örneğin **Bu Cora'da dokunuldu**, **Bu Cora'da sesle**, **Cora uygulaması**, **Cora uygulamasında sesle**, **Otomasyon kuralı** ya da **Buluttan gönderildi**.
 
 **Komut hangi yoldan gitti.** **LAN**, komutun kendi ağınız üzerinden gittiği anlamına gelir. **BULUT ÜZERİNDEN**, Cora Cloud üzerinden gittiği anlamına gelir. Birden fazla Cora Max'iniz varsa kayıt, komutu hangisinin uyguladığını da söyler.

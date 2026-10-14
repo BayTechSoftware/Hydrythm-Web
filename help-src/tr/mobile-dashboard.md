@@ -86,7 +86,6 @@ Bazı kartlar yalnızca söylenecek bir şey olduğunda görünür. Çoğu başl
 | **Reef Buddy** | Bir özet hazır | Karta |
 | **Normalde nasıl besliyorsun?** | Bir besleme rutini ayarlamadınız | **Rutini ayarla** |
 | *Red Sea değerleri güncellenmiyor.* | Bu akvaryumun Red Sea cihazlarını hiçbir şey okumuyor | [Uyarılar ve eşikler](/help/mobile-alerts) sayfasına bakın |
-| **Kameralar** (Beta) | Akvaryumda bir kamera var, widget'ların altında. Kameralar yalnızca Beta kullanıcılarına açıktır | **Canlı izle** |
 | **İlk su testini kaydet** | Ölçüm ve bağlı ekipman yok, widget'ların altında | Karta. [Cora Mobile'ı kurma](/help/mobile-setup#the-first-test-card) sayfasına bakın |
 
 ## Widget'ların altında {#below-the-widgets}

@@ -16,15 +16,12 @@ twin: mobile-devices
 
 Cora Max sieht dieselbe Ausrüstung wie dein Handy, weil beide dasselbe Konto lesen.
 
-Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur eins. Die Geräte sind nach Marke gruppiert. Jeder Eintrag hat einen Statuspunkt (grau, wenn Cora es noch nicht weiß, grün, wenn es funktioniert, orange bei einer Warnung oder einem Fehler, rot, wenn es offline ist), eine einzeilige Zusammenfassung dessen, was das Gerät hat (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*), das Becken, zu dem es gehört, und wann es **Zuletzt gesehen** wurde. Beta-Geräte tragen einen Chip **Beta**.
+Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur eins. Die Geräte sind nach Marke gruppiert. Jeder Eintrag hat einen Statuspunkt (grau, wenn Cora es noch nicht weiß, grün, wenn es funktioniert, orange bei einer Warnung oder einem Fehler, rot, wenn es offline ist), eine einzeilige Zusammenfassung dessen, was das Gerät hat (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*), das Becken, zu dem es gehört, und wann es **Zuletzt gesehen** wurde.
 
 Tippe auf ein Gerät, um seine Seite zu öffnen. Jede Geräteseite beginnt mit einem Bereich **Status**. Was jede Seite kann, steht unter [Ausrüstung mit Cora Max steuern](/help/max-device-control).
 
 Steht in der Liste **Einige Geräte werden noch geladen: Diese Liste ist möglicherweise unvollständig.**, gib ihr einen Moment.
 
-:::note Beta
-**Beta.** EcoTech-Leuchten, -Pumpen und -Dosierer, Inkbird-Raumluftmonitore und Kameras sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
 ### Ein Gerät umbenennen {#renaming-a-device}
 
@@ -42,6 +39,7 @@ Um es zu sehen oder zu ändern, öffne **Einstellungen → [dein Becken] → Pri
 
 - **Jedes aktive (automatisch)** heißt, dass sich alle Cora-Geräte, die online sind und die Ausrüstung dieses Beckens erreichen, die Arbeit teilen, und der neueste Schreibvorgang gewinnt. Nimm das, außer du hast einen Grund, ein Gerät festzulegen.
 - Leg ein Gerät fest, damit nur dieses Gerät die Ausrüstung abfragt. Geht es offline, übernimmt kein anderes Cora Max. Dann liest nur noch Cora Mobile die Ausrüstung, wenn es im selben WLAN geöffnet ist, bis du ein anderes Gerät festlegst oder zurück auf **Jedes aktive (automatisch)** stellst.
+
 
 Du legst das einmal für das Becken fest, und es gilt für jeden Cora-Bildschirm. Du kannst es an jedem Cora Max ändern, das das Becken zeigt, oder in Cora Mobile (**Als primäres Cora Max festlegen** auf der Seite des Cora Max). Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 

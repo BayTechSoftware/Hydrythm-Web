@@ -95,9 +95,6 @@
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
 <li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
 <li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
-<li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
-<li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
@@ -190,7 +187,6 @@
 <p>Il y a trois forfaits, <strong>Plus</strong>, <strong>Pro</strong> et <strong>Max</strong>, chacun mensuel ou annuel. Les réglages les affichent comme Cora Plus, Cora Pro et Cora Max. Vous trouverez les prix actuels dans Cora Mobile et dans votre boutique d’applications, puisque c’est là que vous payez.</p>
 <div class="tw"><table><thead><tr><th></th><th>Plus</th><th>Pro</th><th>Max</th></tr></thead><tbody><tr><td data-th="">Messages à l’Assistant / mois</td><td data-th="Plus">500</td><td data-th="Pro">1 200</td><td data-th="Max">2 500 (usage raisonnable)</td></tr><tr><td data-th="">Sessions vocales / mois</td><td data-th="Plus">100</td><td data-th="Pro">200</td><td data-th="Max">400</td></tr><tr><td data-th="">Rapports de santé / mois</td><td data-th="Plus">4</td><td data-th="Pro">12</td><td data-th="Max">100</td></tr><tr><td data-th="">Analyses ICP / mois</td><td data-th="Plus">1</td><td data-th="Pro">3</td><td data-th="Max">30</td></tr><tr><td data-th="">Aquariums avec surveillance par l’IA</td><td data-th="Plus">1</td><td data-th="Pro">5</td><td data-th="Max">20</td></tr></tbody></table></div>
 <p>Les sessions vocales ont leur propre compteur, et chaque réponse parlée consomme aussi votre quota de messages. Tous les forfaits payants comprennent Reef Buddy, l’import et l’analyse ICP pour les laboratoires que Cora lit, la comparaison avec votre propre historique, et <strong>Concevoir avec l'IA</strong> pour les tableaux de bord (jusqu’à 5 designs par jour pour chaque aquarium).</p>
-<p>Les forfaits payants comprennent aussi les alertes de la surveillance de l’écumeur pour une caméra sur votre décantation. L’essai ne les comprend pas. <strong>Beta.</strong> Les caméras sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans <strong>Ajouter un appareil</strong>. Pour demander l’accès Beta, contactez le support. Plus de détails dans <a href="/fr/help/mobile-cameras">Caméras</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Le forfait Max n’est pas l’écran Cora Max</p><p>Le <strong>forfait Max</strong> est un abonnement. <strong>Cora Max</strong> est l’écran installé près de votre aquarium. Vous n’avez pas besoin de l’un pour avoir l’autre.</p></aside>
 <h3 id="which-tanks-get-ai">Quels aquariums ont l’IA</h3>
 <p>Reef Buddy et la surveillance par l’IA couvrent autant d’aquariums que votre forfait le permet, comptés à partir du haut de <strong>Réglages → Réorganiser les aquariums</strong>. Pour inclure un aquarium, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.</p>
@@ -223,7 +219,7 @@
 <p>Si ce n’est toujours pas là, touchez <strong>Restaurer les achats</strong>. Si les Réglages indiquent <em>Impossible de vérifier votre forfait</em>, vérifiez votre connexion et touchez <strong>Réessayer</strong>. Votre accès ne change pas pendant que Cora vérifie. Si rien de tout cela ne marche, écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> en indiquant la date de l’achat.</p>
 <p>Vos données restent à vous quel que soit votre forfait. Plus de détails dans <a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a>. Pour signaler un problème de facturation depuis Cora Mobile, voir <a href="/fr/help/mobile-support">Signaler un problème</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-multi-device"><span>Précédent</span><b>Plus d’un appareil Cora</b></a><a class="pn-n" href="/fr/help/mobile-data-export"><span>Suivant</span><b>Exporter vos données et supprimer votre compte</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -614,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

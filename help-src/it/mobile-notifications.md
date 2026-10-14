@@ -3,7 +3,7 @@ title: Notifiche
 description: Scegli quali notifiche arrivano sul telefono, tieni tranquille le notti, leggi quello che ti sei perso nella campanella e risolvi le notifiche che non arrivano.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ La scheda in alto dice se questo telefono permette o no le notifiche di Cora (**
 |---|---|
 | **Avvisi sui parametri** | Valori dell'acqua fuori da un intervallo che hai impostato, e la notifica di *ripristino* quando tornano nell'intervallo |
 | **Promemoria di manutenzione** | Lavori che hai programmato, come i cambi d'acqua, e un promemoria una tantum per registrare il primo test quando una vasca nuova dopo tre giorni non ha ancora letture |
-| **Guasti dell'apparecchiatura** | Un dispositivo che segnala un problema, per esempio un Trident che ha smesso di fare test. Anche un dispositivo che [ha smesso di inviare dati](/help/mobile-alerts#stopped-reporting), una dose mancata e l'avviso di coppetta piena del Controllo schiumatoio |
+| **Guasti dell'apparecchiatura** | Un dispositivo che segnala un problema, per esempio un Trident che ha smesso di fare test. Anche un dispositivo che [ha smesso di inviare dati](/help/mobile-alerts#stopped-reporting) e una dose mancata |
 | **Scorte in esaurimento** | Reagente, acqua di rabbocco, contenitori di dosaggio e flacone dei rifiuti pieno |
 | **Rapporto ICP pronto** | I tuoi risultati ICP sono stati analizzati e puoi leggerli |
 

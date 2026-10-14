@@ -95,9 +95,6 @@
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
 <li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
 <li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
-<li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
-<li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
@@ -193,7 +190,6 @@
 <p>Cora bietet nur an, was das Becken hat. Gibt es am Becken keinen DŌS, kann Cora nicht dosieren.</p>
 <p>Einen Test, einen Tagebucheintrag oder eine Fütterung trägt Cora ein, sobald du darum bittest. Alles, was deine Ausrüstung oder einen Warnbereich ändert, ist anders: Cora sagt dir genau, was sich gleich ändert, und wartet auf dein Ja. Auf eine unklare Anweisung hin handelt Cora nicht. Wurde ein Befehl vielleicht ausgeführt, Cora konnte es aber nicht bestätigen, sagt Cora dir das. Prüf die Ausrüstung, bevor du noch einmal fragst.</p>
 <p>Ausrüstung von unterwegs zu steuern, funktioniert nur, wenn ein Cora Max am Becken die Ausrüstung erreicht. Siehe <a href="/de/help/mobile-multi-device">Was unterwegs funktioniert</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta-Ausrüstung</p><p>Cora kann auch GHL™-, HYDROS™-, Focustronic™-, Maxspect™- und EcoTech™-Ausrüstung (Radion, VorTech und Versa) steuern. <strong>Beta.</strong> Diese Anbindungen sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den Support.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Cora berät. Du entscheidest</p><p>Prüf alles Wichtige mit deinen eigenen Tests nach. Behandle große Änderungen so, wie du den Rat von jemand anderem behandeln würdest, und prüf kurz, ob sie Sinn ergeben, bevor du handelst. Die Zeile unter dem Nachrichtenfeld sagt dasselbe.</p></aside>
 <h2 id="zustimmung">Zustimmung</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Zustimmung für den Assistenten"><img src="/help/img/mobile-assistant-consent.webp" alt="Zustimmung für den Assistenten" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Zwei getrennte Berechtigungen und das Gedächtnis, das Cora behält.</figcaption></figure>
@@ -225,7 +221,7 @@
 <p>Klingt eine Antwort sehr sicher, ist aber falsch, prüf zuerst den Daten-Chip. Oft stimmt die Antwort für die Daten, die Cora bekommen hat. Das eigentliche Problem ist ein veralteter Messwert oder eine Quelle, die dem falschen Becken zugeordnet ist.</p>
 <p>Bewerte eine Antwort mit den Daumen darunter. Ein Daumen nach unten fragt <em>Was hat daran nicht gestimmt?</em> Wähl einen Grund, etwa <strong>Falsch</strong> oder <strong>Mein Becken nicht berücksichtigt</strong>, und tippe auf <strong>Bewertung senden</strong>. Genau das hilft uns, es zu verbessern.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-reef-buddy"><span>Zurück</span><b>Reef Buddy</b></a><a class="pn-n" href="/de/help/mobile-icp-health"><span>Weiter</span><b>ICP und Gesundheitsberichte</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -616,7 +612,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

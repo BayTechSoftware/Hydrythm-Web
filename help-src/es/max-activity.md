@@ -18,6 +18,7 @@ Actividad es el registro de cada intento de cambiar algo en tu equipo y de lo qu
 
 Cada fila muestra el equipo y lo que se pidió, por ejemplo *Retorno: Apagado*, y la hora. También te dice dos cosas más.
 
+
 **Quién lo pidió.** Por ejemplo **Tocado en este Cora**, **Voz en este Cora**, **App de Cora**, **Voz en la app de Cora**, **Regla de automatización** o **Enviado desde la nube**.
 
 **Por dónde fue.** **LAN** significa que fue por tu propia red. **VÍA LA NUBE** significa que pasó por Cora Cloud. Si tienes más de un Cora Max, la entrada también dice cuál la ejecutó.

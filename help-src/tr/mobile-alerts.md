@@ -3,7 +3,7 @@ title: Uyarılar ve eşikler
 description: Her ölçüm için sağlıklı aralığı ayarlayın, bir uyarının sizi ne sıklıkla bilgilendirebileceğini seçin ve bir cihazın neden "bildirim yapmıyor" olduğunu öğrenin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 20
+order: 22
 group: Alerts and automation
 twin: max-alerts
 ---
@@ -87,7 +87,6 @@ Bir uyarı açıldığında aynı şey hakkında sizi bilgilendirmeye devam etme
 
 Bazı uyarılar bir ölçümle değil ekipmanla ilgilidir. Bir Trident ya da Jecod pompası gibi bir cihaz arıza bildirdiğinde Cora akvaryumu ve cihazı adlandıran bir bildirim gönderir, örneğin *"Salon: Ana pompa dikkat gerektiriyor"*. Ayrıca sıkışmış bir rotor gibi neyin yanlış olduğunu da söyler. Arıza giderildiğinde ikinci bir bildirim alırsınız: *"Salon: Ana pompa tekrar normal"*. İkisi de **Ayarlar → Bildirimler** içinde **Ekipman Arızaları** altına girer.
 
-Bir Maxspect gyre (Beta) da aynı uyarıyı verebilir. Bu, ağındaki bir Cora Max iki kafanın da %0'a ayarlandığını gördüğünde ya da gyre'den üst üste iki kez yanıt alamadığında olur. Bunu bir güvence değil bir uyarı olarak görün. Cora Max yalnızca ara sıra ve yalnızca çalışırken ve gyre'ye ulaşabildiğinde kontrol eder.
 
 ## Bir cihaz bildirmeyi bıraktı {#stopped-reporting}
 
@@ -101,27 +100,16 @@ Cora'nın ne kadar beklediği cihaza bağlıdır:
 | Red Sea ReefBeat | Yaklaşık 30 dakika |
 | AquaWiz | Yaklaşık 3 saat, çünkü daha seyrek bildirir |
 | Jecod pompaları | Pompanın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 ile 90 dakika) |
-| Maxspect (Beta) | Jecod gibi üst üste üç kaçırılan ölçüm |
-| EcoTech (Beta) | Ağın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 ile 90 dakika). **Işık yanıt vermeyi durdurursa** altında daha uzun bir süre ayarladıysanız Cora o kadar bekler |
-| Inkbird oda havası monitörü (Beta) | Monitörün kendi aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 5 ile 15 dakika) |
-| Focustronic (Beta) | Yaklaşık 3 saat |
-| GHL (Beta) | Yaklaşık 15 dakika. Bildirimde *"GHL kontrolörüne ulaşılamıyor"* yazar |
-| HYDROS (Beta) | Yaklaşık 30 dakika. Bildirimde *"HYDROS kontrolörü bildirim yapmıyor"* yazar |
+| Zigbee fişi | Hub yeniden başladıktan 30 dakika sonra hâlâ dönmemişse. Bildirimin onu adıyla anması için **Yeniden adlandır** ile ad verin |
 
 Neyi kontrol edeceğiniz Cora'nın cihazı nasıl okuduğuna bağlıdır.
 
-- Apex, ReefBeat, Jecod, Maxspect ve GHL'yi bir Cora Max Wi-Fi üzerinden okur. Cihazın gücünü ve Wi-Fi'ını, ayrıca onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin.
-- EcoTech ve Inkbird'ü bir Cora Max Bluetooth üzerinden okur. Gücü, cihazın Cora Max'in Bluetooth menzili içinde olduğunu ve Cora Max'in açık olduğunu kontrol edin.
-- AquaWiz ve Focustronic, üreticideki hesabınız üzerinden okunur. Cora Mobile'da cihazın sayfasındaki hesap bağlantısını kontrol edin.
-- HYDROS için gücünü, Wi-Fi'ını ve cihaz anahtarını kontrol edin.
+- Apex, ReefBeat ve Jecod'u bir Cora Max Wi-Fi üzerinden okur. Cihazın gücünü ve Wi-Fi'ını, ayrıca onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin.
+- AquaWiz, üreticideki hesabınız üzerinden okunur. Cora Mobile'da cihazın sayfasındaki hesap bağlantısını kontrol edin.
 
-GHL ayrıca size *"GHL API kapalı"* ya da kontrolörün *"bağlantıyı reddetti"*ğini söyleyebilir. Bir GHL kontrolörünü okuyan Cora Max sessizleşirse o kontrolör için *"Cora Max bildirim göndermiyor"* alırsınız. Çözümler [Sorun giderme](/help/troubleshooting) sayfasında.
 
 Bu bildirimler **Ayarlar → Bildirimler** içinde **Ekipman Arızaları** altına girer.
 
-:::note Beta
-Maxspect, EcoTech, Inkbird, Focustronic, GHL ve HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
 Bir Red Sea akvaryumu, hiçbir telefon ya da Cora Max ReefBeat ekipmanını okumadığında *"Red Sea değerleri güncellenmiyor"* şeridini de gösterebilir. Bir **Birincil Cora Max** seçmek için ona dokunun. Tam çözüm [Sorun giderme](/help/troubleshooting#red-sea-readings-have-stopped-updating) sayfasında.
 

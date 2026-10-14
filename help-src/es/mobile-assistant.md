@@ -3,7 +3,7 @@ title: Preguntar a Cora
 description: Usa Cora Assistant escribiendo o hablando, qué puede ver, qué puede hacer por ti, el interruptor de uso compartido de datos y la memoria.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Anotar una prueba, una entrada del diario o una alimentación se hace en cuanto 
 
 El control de equipos funciona fuera de casa solo cuando un Cora Max del acuario puede llegar al equipo. Consulta [Qué funciona fuera de casa](/help/mobile-multi-device#what-works-away-from-home).
 
-:::note Equipos Beta
-Cora también puede controlar equipos GHL, HYDROS, Focustronic, Maxspect y EcoTech (Radion, VorTech y Versa). **Beta.** Estas integraciones están en Beta y solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con el soporte.
-:::
 
 :::warning Cora aconseja. Tú decides
 Comprueba lo importante con tus propias pruebas. Trata los cambios grandes como tratarías el consejo de cualquier otra persona, y revísalos con sentido común antes de actuar. La línea bajo el cuadro de mensajes dice lo mismo.

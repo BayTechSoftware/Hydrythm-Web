@@ -16,15 +16,12 @@ Cora Max'te **Ayarlar → Cihazlar**, gördüğü ekipmanı ve her cihazın duru
 
 Cora Max telefonunuzla aynı ekipmanı görür, çünkü ikisi de aynı hesabı okur.
 
-Üstteki filtre çipleriyle **Tüm akvaryumlar**'ı ya da yalnızca birini gösterin. Cihazlar markaya göre gruplanır. Her kayıtta bir durum noktası (Cora henüz bilmiyorsa gri, çalışıyorsa yeşil, uyarı ya da arıza varsa turuncu, çevrimdışıysa kırmızı), cihazda ne olduğunu anlatan tek satırlık bir özet (*21 priz · 4 besleme*, *19 test kaldı*), ait olduğu akvaryum ve **Son görülme** zamanı bulunur. Beta cihazlarında bir **Beta** çipi vardır.
+Üstteki filtre çipleriyle **Tüm akvaryumlar**'ı ya da yalnızca birini gösterin. Cihazlar markaya göre gruplanır. Her kayıtta bir durum noktası (Cora henüz bilmiyorsa gri, çalışıyorsa yeşil, uyarı ya da arıza varsa turuncu, çevrimdışıysa kırmızı), cihazda ne olduğunu anlatan tek satırlık bir özet (*21 priz · 4 besleme*, *19 test kaldı*), ait olduğu akvaryum ve **Son görülme** zamanı bulunur.
 
 Sayfasını açmak için bir cihaza dokunun. Her cihaz sayfası bir **Durum** bölümüyle açılır. Her sayfanın neler yapabildiği [Cora Max'ten ekipman kontrolü](/help/max-device-control) sayfasında.
 
 Listede **Bazı cihazlar hâlâ yükleniyor: bu liste eksik olabilir.** yazıyorsa biraz bekleyin.
 
-:::note Beta
-**Beta.** EcoTech ışıkları, pompaları ve dozaj pompaları, Inkbird oda havası monitörleri ve kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
 ### Bir cihazın adını değiştirme {#renaming-a-device}
 
@@ -42,6 +39,7 @@ Görmek ya da değiştirmek için **Ayarlar → [akvaryumunuz] → Birincil Cora
 
 - **Aktif olan herhangi biri (otomatik)**, bu akvaryumun ekipmanına ulaşabilen her çevrimiçi Cora cihazının işi paylaştığı ve en son yazanın kazandığı anlamına gelir. Tek bir cihazı sabitlemek için bir nedeniniz yoksa bunu kullanın.
 - Ekipmanı yalnızca o cihaz okusun diye bir cihazı sabitleyin. O cihaz çevrimdışı olursa başka hiçbir Cora Max devralmaz. Siz başka bir cihazı sabitleyene ya da **Aktif olan herhangi biri (otomatik)**'e dönene kadar ekipmanı yalnızca aynı Wi-Fi'da açık olan Cora Mobile okur.
+
 
 Bunu akvaryum için bir kez ayarlarsınız ve her Cora ekranında geçerli olur. Akvaryumu gösteren herhangi bir Cora Max'ten ya da Cora Mobile'dan (Cora Max'in sayfasındaki **Birincil Cora Max Yap**) değiştirebilirsiniz. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında.
 

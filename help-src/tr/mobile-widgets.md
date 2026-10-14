@@ -25,23 +25,13 @@ Widget'ları [pano düzenleyicisinde](/help/mobile-dashboard-editing) ekler ve y
 | **ReefBeat** | Kendi özetiyle tek bir Red Sea ünitesi |
 | **Apex modülü** | Trident ya da DŌS gibi takılı tek bir Apex modülü |
 | **Jecod** | Modu ve yoğunluğuyla tek bir Jecod pompası |
-| **Maxspect** *(Beta)* | İki motoruyla tek bir gyre |
-| **GHL** *(Beta)* | Kendi özetiyle tek bir ProfiLux ya da Mitras kontrolcüsü |
-| **HYDROS** *(Beta)* | Kendi özetiyle tek bir HYDROS kontrolcüsü |
-| **Radion** *(Beta)* | Tek bir EcoTech Radion ışığı ya da bağlı bir Radion ağı |
-| **VorTech** *(Beta)* | Modu ve hızıyla tek bir EcoTech VorTech pompası |
-| **Versa** *(Beta)* | Kafalarıyla tek bir EcoTech Versa dozaj pompası |
-| **Kamera** *(Beta)* | Kameralarınızdan birinin canlı görüntüsü, en fazla üç sütun genişliğinde ve iki satır yüksekliğinde |
 
 Priz'den sonraki her şey bir **cihaz** kutucuğudur. Her biri bir parametreye değil bir ekipmana aittir ve o ünite ne bildiriyorsa onu gösterir. Cora Max'te ayrıca Cora Max'te eklediğiniz bir **Sahne** kutucuğu vardır. [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasına bakın.
 
-:::note Beta kutucukları
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech ve Versa) ve Kamera, yalnızca Beta kullanıcılarına açık Beta entegrasyonlarıdır. Bu kutucukları ancak cihaza sahip olduğunuzda görürsünüz. [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
-:::
 
 ## Boyut {#sizing}
 
-**Genişlik** ve **Yükseklik** her biri **1×** ya da **2×** olabilir, yani bir widget bir ya da iki hücre genişliğinde ve bir ya da iki hücre yüksekliğindedir. Bir kamera **3×** genişliğe kadar çıkabilir. Grafik hiçbir zaman tek hücre genişliğinde olmaz. Üç sütunlu bir panoda iki hücre genişliğindeki bir gösterge satırın üçte ikisini kaplar. Bu genellikle en önemli parametreniz için iyi bir biçimdir.
+**Genişlik** ve **Yükseklik** her biri **1×** ya da **2×** olabilir, yani bir widget bir ya da iki hücre genişliğinde ve bir ya da iki hücre yüksekliğindedir. Grafik hiçbir zaman tek hücre genişliğinde olmaz. Üç sütunlu bir panoda iki hücre genişliğindeki bir gösterge satırın üçte ikisini kaplar. Bu genellikle en önemli parametreniz için iyi bir biçimdir.
 
 ## Parametre widget'ı neler gösterir {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ Hangi cihazların kutucuğu olabileceği neleri bağladığınıza bağlıdır. 
 
 ## Dozaj pompası kutucukları {#doser-tiles}
 
-Bir dozaj pompasının (Apex DŌS, ReefDose ya da EcoTech Versa) kutucuğu her kafa için bir satır gösterir. Bir kafa adı hiçbir zaman okunabilir boyutun altına küçültülmez. Uzun bir kutucukta satır iki satır kaplar: ilkinde ad, ikincisinde kalan miktar, örneğin *40g* ve *2.8 L*. Kısa bir kutucukta ayrıntı satırı çıkarılır ve ad okunabilir kalır.
+Bir dozaj pompasının (Apex DŌS ya da ReefDose) kutucuğu her kafa için bir satır gösterir. Bir kafa adı hiçbir zaman okunabilir boyutun altına küçültülmez. Uzun bir kutucukta satır iki satır kaplar: ilkinde ad, ikincisinde kalan miktar, örneğin *40g* ve *2.8 L*. Kısa bir kutucukta ayrıntı satırı çıkarılır ve ad okunabilir kalır.
 
 Neyin önce geleceğini **Kalanı şu şekilde göster** ile ayarlayın: **Gün** ya da **Mililitre (mL)**. Kendi adı olmayan bir ReefDose kafası, cihaz adı, ardından "kafa" ve numarasıyla gösterilir. Jecod dozaj pompası kutucuğu salt okunurdur ve günlük planı gösterir, çünkü Jecod şişede ne kadar kaldığını bildirmez.

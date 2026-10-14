@@ -1,6 +1,6 @@
 ---
 title: Programar equipos
-description: Crea un programa diario para una bomba Jecod, cópialo a otras bombas y consulta el programa de un gyre Maxspect (Beta).
+description: Crea un programa diario para una bomba Jecod y cópialo a otras bombas.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,13 +9,13 @@ group: Equipment
 
 Usa esta página para darle a una bomba Jecod un **programa diario**: un conjunto de periodos, cada uno con su intensidad, que se repite todos los días. Ábrela desde **Dispositivos** → toca la bomba.
 
-También puedes ver el horario de un gyre Maxspect *(Beta)* de la misma forma, pero se configura en la aplicación de Maxspect. Maxspect solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta). Las luces y bombas de otras marcas tienen sus horarios en sus propias páginas: [EcoTech](/help/mobile-ecotech) *(Beta)*, y ReefRun y ReefDose de Red Sea en [Controlar tus equipos](/help/mobile-device-control#red-sea).
+Las luces y bombas de otras marcas tienen sus horarios en sus propias páginas: ReefDose de Red Sea en [Controlar tus equipos](/help/mobile-device-control#red-sea).
 
 ![La página de una bomba Jecod en Cora Mobile con Horario elegido](img/mobile-schedules.webp "Horario elegido arriba, la pausa de alimentación y después el gráfico del día.")
 
 ## Igual todo el día, u Horario {#same-all-day-or-schedule}
 
-En la parte superior de la página de la bomba eliges uno de estos dos modos:
+Una bomba funciona en uno de dos modos. Elige uno con el selector de su página. El que está en marcha lleva *· en marcha*, y la página se abre en él:
 
 - **Igual todo el día**, con una sola intensidad constante
 - **Horario**, con un programa diario dividido en periodos
@@ -34,7 +34,6 @@ La **lista de periodos**, debajo del gráfico, muestra cada periodo con su horar
 
 Con **Agregar al programa** añades un periodo. Para cambiar uno, ábrelo y toca **Guardar**. Para quitarlo, toca **Eliminar**. Antes de borrarlo se te pide que lo confirmes.
 
-Un gyre Maxspect *(Beta)* tiene dos cabezales, que aparecen como Gyre A y Gyre B. Por eso su gráfico del día tiene dos pistas, una por cabezal, y sus planes salen en **GYRE A** y **GYRE B**. El horario de un gyre solo se puede ver. En su fila de acciones pone **Solo lectura**, y el horario se configura en la aplicación de Maxspect.
 
 :::warning El horario se guarda en el propio equipo
 Al guardar, el programa se envía al equipo, que lo sigue con su propio reloj. Sigue funcionando aunque Cora no pueda conectarse con él.

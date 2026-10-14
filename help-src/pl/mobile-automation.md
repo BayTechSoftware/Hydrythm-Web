@@ -3,7 +3,7 @@ title: Automatyzacje i sceny
 description: Spraw, żeby Cora działała sama, gdy zmieni się odczyt, pojawi się alert, nadejdzie godzina albo urządzenie przejdzie w tryb offline, i łącz akcje w sceny uruchamiane jednym dotknięciem.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Dodaj jeden albo więcej wyzwalaczy w **Gdy: dowolny wyzwalacz**. Każdy z nich 
 | Wyzwalacz | Działa, gdy |
 |---|---|
 | **Gdy parametr się zmienia** | Parametr przekroczy ustawioną wartość. Wybierz **Kierunek**: **Wzrost**, **Spadek** albo **Każda zmiana** |
-| **Gdy alert się aktywuje** | Alert zostaje **Zgłoszony**, **Usunięty** albo jedno i drugie. Możesz ograniczyć to do alertów **Próg** albo **Tempo zmiany** |
+| **Gdy alert się aktywuje** | Alert zostaje **Zgłoszony**, **Usunięty** albo jedno i drugie. Możesz ograniczyć to do alertów **Próg** albo **Tempo zmiany**. |
 | **O określonej godzinie** | O godzinie dnia, w Twojej strefie czasowej |
 | **Gdy urządzenie traci połączenie** | Twój Cora Max przechodzi w tryb **Offline**, wraca **Online** albo jedno i drugie |
 
@@ -82,18 +82,12 @@ Akcja, która wymaga sprzętu, pojawia się tylko przy akwarium, które ma ten s
 | **Zdawkuj z głowicy DŌS** | Podaje odmierzoną dawkę z głowicy DŌS |
 | **Steruj sprzętem Red Sea** | Steruje urządzeniem ReefBeat |
 | **Steruj pompą cyrkulacyjną** | Ustawia przepływ, tryb fali albo zasilanie pompy Jecod albo **Wstrzymaj na czas karmienia**. Cora Max przy akwarium przywraca pompę, gdy karmienie się skończy |
-| **Steruj sprzętem GHL (Beta)** | Wstrzymuje program karmienia, uruchamia tryb konserwacji albo podmiany wody, ustawia scenę albo jasność oświetlenia i więcej |
-| **Kontroluj urządzenie HYDROS (Beta)** | Ustawia wyjście, przywraca je do harmonogramu, zmienia tryb, wykonuje polecenie testera albo dozuje z głowicy |
-| **Steruj urządzeniem EcoTech (Beta)** | Ustawia intensywność albo scenę Radion, uruchamia karmienie albo tryb VorTech, dozuje z Versa albo przywraca dowolne z nich do harmonogramu |
 | **Powiadom mnie** | Wysyła Ci powiadomienie z własnym **Tytułem** i **Wiadomością** |
 | **Czekaj przed następnym krokiem** | Robi przerwę przed kontynuacją |
 | **Uruchom scenariusz** | Uruchamia scenę z wnętrza tej reguły |
 | **Zarządzaj automatyzacją** | Włącza albo wyłącza inną regułę |
 | **Utwórz zadanie konserwacyjne** | Dodaje pracę do listy [konserwacji](/help/mobile-maintenance) akwarium, na przykład wymianę wkładu skrubera CO2, gdy pH spadnie poniżej wartości |
 
-:::note Beta
-GHL, HYDROS i EcoTech są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
 :::warning Dawki nie da się cofnąć i ma limit
 Dawki nie wyjmiesz z akwarium. Reguła może dozować tylko z głowicy, którą zmierzono funkcją **Zmierz, aby dozować** na Cora Max. Dawkę wykonuje Cora Max przy akwarium. Dozowanie z reguł ma limit **10 mL na głowicę dziennie**, niezależnie od tego, jak reguła jest napisana.

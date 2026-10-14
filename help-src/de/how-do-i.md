@@ -38,7 +38,7 @@ Such dir die Aufgabe aus, die du erledigen willst. Jeder Link führt zu den Schr
 - [Red Sea ReefBeat-Ausrüstung verbinden](/help/mobile-connections#red-sea-reefbeat)
 - [Eine Jecod- oder Jebao-Pumpe verbinden](/help/mobile-connections#jecod)
 - [Einen AquaWiz KH Controller verbinden](/help/mobile-connections#aquawiz-kh-controller)
-- [Herausfinden, warum ich Maxspect, GHL oder EcoTech nicht sehe](/help/mobile-beta#who-gets-beta)
+- ["Bluetooth-Limit erreicht" beim Hinzufügen eines Geräts beheben](/help/mobile-devices#bluetooth-capacity)
 - [Ein Gerät in ein anderes Becken verschieben](/help/mobile-devices#a-devices-page)
 - [Ein Gerät umbenennen](/help/mobile-devices#renaming)
 - [Ein Gerät entfernen](/help/mobile-devices#removing-a-device)

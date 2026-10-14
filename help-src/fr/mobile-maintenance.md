@@ -3,7 +3,7 @@ title: Entretien
 description: Ajoutez des tâches régulières comme le nettoyage de l’écumeur ou le changement des chaussettes filtrantes, recevez un rappel à l’échéance, et marquez-les comme faites ou reportez-les.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 28
 group: Records
 twin: max-records
 ---

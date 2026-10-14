@@ -86,7 +86,6 @@ Some cards only show when there's something to say. Most of them sit between the
 | **Reef Buddy** | A briefing is ready | The card |
 | **How do you usually feed?** | You haven't set a feeding routine | **Set up routine** |
 | *Red Sea readings have stopped updating.* | Nothing is reading this tank's Red Sea devices | See [Alerts and thresholds](/help/mobile-alerts) |
-| **Cameras** (Beta) | The tank has a camera, under the widgets. Cameras are only open to Beta users | **Watch live** |
 | **Log your first water test** | No readings and no linked equipment, under the widgets | The card. See [Setting up Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
 ## Below the widgets {#below-the-widgets}

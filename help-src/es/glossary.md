@@ -1,6 +1,6 @@
 ---
 title: Glosario
-description: Qué quiere decir Cora con acuario, fuente, widget, umbral, Cora Max principal, modo alimentación, escena, vigilancia del skimmer y las demás palabras que verás en las apps.
+description: Qué quiere decir Cora con acuario, fuente, widget, umbral, Cora Max principal, modo alimentación, escena y las demás palabras que verás en las apps.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -40,9 +40,6 @@ Donde le dices a Cora qué mide cada sonda de un controlador, y qué dispositivo
 
 Una regla que funciona sola, como "si la temperatura pasa de 27, enciende el ventilador". Cada regla tiene un [disparador](#trigger), [condiciones](#condition) opcionales y una o más acciones. Las encontrarás en Cora Mobile en **Ajustes → Automatizaciones**. Consulta [Automatizaciones y escenas](/help/mobile-automation).
 
-## Beta {#beta}
-
-Una integración que todavía estamos probando y desarrollando. **Beta.** Las integraciones Beta (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird y las cámaras) solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con el soporte. Las funciones que solo llevan "(Beta)" en el nombre, como Dosis grandes o Ajustes de ReefMat, están abiertas a todos. Consulta [Funciones Beta](/help/mobile-beta).
 
 ## Bloqueo infantil {#child-lock}
 
@@ -124,13 +121,8 @@ La etiqueta de la barra superior de Cora Max que dice cómo recibe sus datos est
 
 De dónde vino una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Cada lectura tiene una, así que Cora puede avisarte cuando dos fuentes no coinciden. Si más de una fuente informa de la misma lectura, [Asignación de parámetros](/help/mobile-probes) es donde eliges en cuál confiar, o la dejas en Automático.
 
-## GHL {#ghl}
 
-GHL Advanced Technology, fabricante de los controladores ProfiLux y Mitras. La compatibilidad de Cora con GHL está en **Beta** y solo está abierta a los usuarios Beta. Consulta [Equipos por marca](/help/equipment-by-brand).
 
-## HYDROS {#hydros}
-
-El sistema de control y dosificación de CoralVue. Cora lo lee a través de la nube propia de HYDROS, así que sigue funcionando fuera de casa. La compatibilidad de Cora con HYDROS está en **Beta** y solo está abierta a los usuarios Beta. Consulta [Equipos por marca](/help/equipment-by-brand).
 
 ## ICP {#icp}
 
@@ -186,15 +178,12 @@ El punto de color de cada fila de la pestaña Dispositivos en Cora Mobile. Verde
 
 ## Red Sea ReefBeat {#red-sea-reefbeat}
 
-La familia de equipos conectados de Red Sea: ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED y ReefControl. Cora la lee en tu red doméstica. Consulta [Equipos por marca](/help/equipment-by-brand).
+La familia de equipos conectados de Red Sea: ReefDose, ReefRun, ReefMat y ReefATO+. Cora la lee en tu red doméstica. Consulta [Equipos por marca](/help/equipment-by-brand).
 
 ## Reef Buddy {#reef-buddy}
 
 Tu resumen diario. Tiene un titular, dos puntuaciones (**Estabilidad** sobre 100 y **Datos** como porcentaje) y los análisis en los que se basan. Forma parte de los planes de pago. Consulta [Reef Buddy](/help/mobile-reef-buddy).
 
-## Requiere Cora Max {#requires-cora-max}
-
-Una etiqueta en una marca de **Agregar dispositivo**. Ese equipo lo lee un Cora Max, así que el acuario necesita uno primero. Consulta [Equipos por marca](/help/equipment-by-brand).
 
 ## Resultado de una orden {#command-outcome}
 
@@ -220,10 +209,7 @@ El analizador de Neptune para alcalinidad, calcio y magnesio. Funciona con un Ne
 
 El rango con el que estás conforme para un parámetro. Puede ser un rango, un máximo o un mínimo. Lo fijas tú, y los valores predeterminados son solo un punto de partida. Consulta [Alertas y umbrales](/help/mobile-alerts).
 
-## Vigilancia del skimmer {#skimmer-watch}
-
-Una función de las cámaras que vigila el vaso colector del skimmer y te avisa antes de que se desborde. Cora Max comprueba el vaso cada 15 minutos. Necesita una cámara, que está en **Beta** y solo está abierta a los usuarios Beta, y un plan de pago. Consulta [Cámaras y vigilancia del skimmer](/help/mobile-cameras).
 
 ## Widget {#widget}
 
-Una casilla de un panel que muestra una sola cosa, como un valor, un medidor, un gráfico, una toma o una cámara. Consulta [Referencia de widgets](/help/mobile-widgets).
+Una casilla de un panel que muestra una sola cosa, como un valor, un medidor, un gráfico o una toma. Consulta [Referencia de widgets](/help/mobile-widgets).

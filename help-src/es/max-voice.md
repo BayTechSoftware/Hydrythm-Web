@@ -62,20 +62,15 @@ No hace falta que te repitas en las preguntas siguientes. Después de una pregun
 - Escribir en el diario: *"Anota que hice un cambio de agua de veinte litros."* *"Anota que di misis de más."* *"Anota que me salté la comida de la mañana."*
 - Controlar equipos Red Sea: dosificar con un cabezal ReefDose, cambiar su dosis diaria, empezar un rellenado del ReefATO+, avanzar un ReefMat o fijar la velocidad de una bomba ReefRun.
 - Controlar bombas Jecod.
-- Equipos Beta: empezar una prueba o una dosis de Focustronic, ejecutar órdenes de GHL y controlar bombas EcoTech VorTech.
 
 ## Qué no puede hacer Cora por voz en Cora Max
 
 - Ejecutar o detener una escena. Usa la casilla de la escena o **Ajustes → Automatizaciones**.
-- Dosificar con un cabezal Neptune DŌS, o dosificar con una EcoTech Versa. Usa la página del dispositivo en Cora Max.
-- Controlar un gyre Maxspect, un controlador HYDROS o una EcoTech Radion. Usa la página del dispositivo.
+- Dosificar con un cabezal Neptune DŌS. Usa la página del dispositivo en Cora Max.
 - Cambiar los ajustes propios de Cora Max, añadir dispositivos o editar el panel.
 
 Cora Assistant en tu teléfono puede hacer algunas de estas cosas. Más información en [Preguntar a Cora](/help/mobile-assistant#what-cora-can-change).
 
-:::note Beta
-**Beta.** Focustronic, GHL, HYDROS, Maxspect y EcoTech están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
-:::
 
 ## Confirmaciones
 

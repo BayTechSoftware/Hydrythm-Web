@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 
 import html
+import os
 import re
 import sys
 import unicodedata
@@ -29,7 +30,10 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SRC = ROOT / "help-src"
+# ⭐ `HELP_SRC` points the build at another source tree with the same layout
+# (used by the private prepare step to build from the full source, see
+# help-src/README.md). Unset, it is this repo's help-src/.
+SRC = Path(os.environ["HELP_SRC"]).resolve() if os.environ.get("HELP_SRC") else ROOT / "help-src"
 OUT = ROOT / "help"
 SITE = "https://coraiq.tech"
 
@@ -93,22 +97,14 @@ SUPPORT_EMAIL = "cora@coraiq.tech"
 # each brand keeps its NAME with a ™ and DISCLAIMER_1 names the owners. Marked on
 # the first mention per page (the convention: once is the notice, every time is
 # noise). Order matters: "Neptune Systems" before "Neptune".
+# ⛔ Only brands the published guide names. A brand whose integration is still
+# hidden gets its row here in the same change that makes it public.
 TRADEMARKS = [
     ("neptune", r"Neptune Systems|Neptune"),
     ("redsea", r"Red Sea"),
     ("jecod", r"Jecod"),
     ("jebao", r"Jebao"),
-    ("maxspect", r"Maxspect"),
     ("aquawiz", r"AquaWiz"),
-    ("hydros", r"Hydros|HYDROS"),
-    ("ghl", r"GHL"),
-    ("nyos", r"NYOS|Nyos"),
-    ("focustronic", r"Focustronic"),
-    ("ecotech", r"EcoTech"),
-    ("inkbird", r"Inkbird"),
-    ("wyze", r"Wyze"),
-    ("tapo", r"Tapo"),
-    ("sonoff", r"Sonoff"),
     ("abyzz", r"Abyzz"),
     ("deltec", r"Deltec"),
 ]
@@ -507,6 +503,8 @@ SYN_COMMON = [
     ["apex", "neptune"],
     ["reefbeat", "red sea"],
     ["icp", "triton", "water test lab"],
+    # ⛔ No rows for hidden features: this list ships inside every
+    # search.json, and nothing published may name one.
 ]
 
 SYNONYMS = {
@@ -528,7 +526,6 @@ SYNONYMS = {
         ["outlet", "socket", "plug", "power strip", "energy bar"],
         ["update", "upgrade", "firmware"],
         ["light", "led", "lighting"],
-        ["camera", "webcam"],
     ],
     "de": [
         ["offline", "nicht verbunden", "keine daten", "meldet nicht", "nicht erreichbar", "getrennt"],
@@ -673,6 +670,9 @@ class Page:
     lang: str = "en"
     html: str = ""
     headings: list = field(default_factory=list)
+    # Heading ids that only existed inside stripped `<!-- beta -->` blocks: a
+    # link to one of them must fail the build (see `hidden_link_problems`).
+    stripped_ids: set = field(default_factory=set)
 
     @property
     def url(self) -> str:
@@ -872,6 +872,121 @@ def split_heading(raw: str) -> tuple[str, str]:
     if m:
         return m.group(1).strip(), m.group(2)
     return raw.strip(), slugify(raw)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Beta content is HIDDEN from the public guide (owner, 2026-10-14: "ALL Beta
+# functions must be hidden on the public Help").
+#
+# ⭐ Two mechanisms, both resolved BEFORE rendering, so nothing downstream
+# (nav, search, sitemap, twin lines, hreflang, Previous/Next) ever sees it:
+#  · frontmatter `beta: true`  -> the whole page is not built, in any language,
+#    and any stale HTML for it is deleted from help/ and <lang>/help/;
+#  · `<!-- beta -->` ... `<!-- /beta -->` -> that span of Markdown is removed.
+#    A block whose markers sit at line starts/ends removes WHOLE LINES (so a
+#    list or table stays contiguous); one inside a line removes just the span.
+#    No nesting; an unbalanced marker aborts the build.
+# ⛔ A link to a hidden page, or to an anchor that only existed inside a
+# stripped block, aborts the build (`hidden_link_problems`): wrap the linking
+# text in a beta block too.
+# ⛔ Nothing published may name a Beta feature (`beta_leaks`, run by the build
+# AND the self-test over every page and search index in every language).
+# ─────────────────────────────────────────────────────────────────────────────
+
+_BETA_MARK = re.compile(r"<!--\s*(/?)beta\s*-->", re.I)
+
+
+def strip_beta(md: str, where: str = "?") -> tuple[str, str]:
+    """Remove `<!-- beta -->` blocks. Returns (published markdown, removed text).
+
+    ⛔ Raises SystemExit on an unbalanced or nested marker, naming the line.
+    """
+    out: list[str] = []
+    removed: list[str] = []
+    pos = 0
+    open_at = None  # (match start, line number) of the pending opener
+    for m in _BETA_MARK.finditer(md):
+        line_no = md.count("\n", 0, m.start()) + 1
+        closing = bool(m.group(1))
+        if not closing:
+            if open_at is not None:
+                raise SystemExit(f"⛔ {where}:{line_no}: nested <!-- beta --> (the one on line "
+                                 f"{open_at[1]} is not closed); beta blocks do not nest")
+            open_at = (m.start(), line_no)
+            continue
+        if open_at is None:
+            raise SystemExit(f"⛔ {where}:{line_no}: <!-- /beta --> without an opening <!-- beta -->")
+        start, end = open_at[0], m.end()
+        line_start = md.rfind("\n", 0, start) + 1
+        nl = md.find("\n", end)
+        line_end = len(md) if nl == -1 else nl
+        if not md[line_start:start].strip() and not md[end:line_end].strip():
+            # Whole lines: drop them, newline included, so the block leaves no
+            # blank line behind to split a list or a table in two.
+            start, end = line_start, (line_end + 1 if nl != -1 else line_end)
+        out.append(md[pos:start])
+        removed.append(md[start:end])
+        pos = end
+        open_at = None
+    if open_at is not None:
+        raise SystemExit(f"⛔ {where}:{open_at[1]}: <!-- beta --> is never closed with <!-- /beta -->")
+    out.append(md[pos:])
+    return "".join(out), "\n".join(removed)
+
+
+# ⛔ THE LEAK RULE: no published byte may name a hidden feature or say "Beta".
+# Word-boundary, case-insensitive, over the rendered HTML (tags included, so
+# alt text, meta tags and URLs count) and over each language's search.json.
+#
+# ⭐ The list of hidden brands and feature names is NOT in this public repo:
+# writing it here would publish exactly what it protects. The private prepare
+# step passes it in through `HELP_LEAK_RULES`, a JSON file:
+#     {"terms": "<regex>", "allow_word": "<regex>", "allow_ctx": "<regex>"}
+# `terms` is what must never appear; a hit whose word matches `allow_word` is
+# forgiven when it sits inside an `allow_ctx` phrase (for example a generic
+# word that only some phrases make harmless). Without the file, the rule is
+# just the word Beta in any language (beta, bêta, Beta-..., Betatester...).
+@dataclass
+class LeakRules:
+    terms: re.Pattern
+    allow_word: re.Pattern | None = None
+    allow_ctx: re.Pattern | None = None
+
+
+_DEFAULT_TERMS = r"\bb[eê]ta"
+
+
+def load_leak_rules(path: str | None = None) -> LeakRules:
+    path = path if path is not None else os.environ.get("HELP_LEAK_RULES", "")
+    if not path:
+        return LeakRules(re.compile(_DEFAULT_TERMS, re.I))
+    try:
+        cfg = json.loads(Path(path).read_text(encoding="utf-8"))
+        terms = cfg["terms"]
+    except (OSError, ValueError, KeyError) as e:
+        # ⛔ A rules file that was asked for but cannot be read must not quietly
+        # fall back to the weaker default.
+        raise SystemExit(f"⛔ HELP_LEAK_RULES={path} is unreadable: {e}")
+    comp = lambda k: re.compile(cfg[k], re.I) if cfg.get(k) else None
+    return LeakRules(re.compile(f"(?:{terms})|{_DEFAULT_TERMS}", re.I),
+                     comp("allow_word"), comp("allow_ctx"))
+
+
+LEAK_RULES = load_leak_rules()
+
+
+def beta_leaks(text: str, rules: LeakRules | None = None) -> list[str]:
+    """Every leak-rule hit in `text`, each with a little context."""
+    rules = rules or LEAK_RULES
+    hits = []
+    for m in rules.terms.finditer(text):
+        lo = max(0, m.start() - 40)
+        ctx = text[lo:m.end() + 40]
+        if rules.allow_word and rules.allow_ctx and rules.allow_word.match(m.group(0)):
+            if any(c.start() <= m.start() - lo < c.end() for c in rules.allow_ctx.finditer(ctx)):
+                continue
+        hits.append(f"{m.group(0)!r} in …{ctx.replace(chr(10), ' ')}…")
+    return hits
 
 
 _TILE_RE = re.compile(r"^\s*[-*]\s+\[([^\]]+)\]\(([^)\s]+)\)\s*[:.]?\s*(.*)$")
@@ -2453,7 +2568,55 @@ def extract_root() -> str:
     return block
 
 
-def load_pages(lang: str = "en") -> list[Page]:
+# lang -> slugs whose frontmatter says `beta: true` (filled by `load_pages`).
+HIDDEN: dict[str, set[str]] = {}
+LINK_PROBLEMS: list[str] = []
+
+
+def hidden_link_problems(lang_pages_map: dict[str, list[Page]],
+                         hidden: dict[str, set[str]]) -> list[str]:
+    """Links (and twins) that would point at hidden Beta content.
+
+    ⛔ Run on the RENDERED but NOT YET LOCALIZED html, where every internal
+    link is still English-style: after `localize_links` a link to a missing
+    slug quietly becomes the language index and an unknown anchor is dropped,
+    which would hide exactly the mistake this is here to catch.
+    """
+    en_hidden = hidden.get("en", set())
+    bad = []
+    for lang, pages in lang_pages_map.items():
+        hid = en_hidden | hidden.get(lang, set())
+        by = {p.slug: p for p in pages}
+        en_live = {q.slug for q in lang_pages_map.get("en", [])}
+        for h in hidden.get(lang, set()) - en_hidden:
+            if h in en_live:
+                bad.append(f"{lang}/{h} is beta: true but the English page is published")
+        for p in pages:
+            if p.slug in en_hidden and lang != "en":
+                bad.append(f"{lang}/{p.slug} is published but the English page is beta: true; "
+                           "mark the translation beta: true too")
+            if p.twin and p.twin in hid:
+                bad.append(f"{lang}/{p.slug}: twin: {p.twin} is a hidden Beta page")
+            for m in _ANY_HELP_HREF.finditer(p.html):
+                path, slug, frag = m.group(1), m.group(2), m.group(3)
+                if not path and not frag:
+                    continue
+                target = p.slug if not path else (slug or "index")
+                if path and target in hid:
+                    bad.append(f"{lang}/{p.slug} links to hidden Beta page /help/{target}")
+                    continue
+                t = by.get(target)
+                if t is None or not frag or frag == "#":
+                    continue
+                aid = frag[1:]
+                live = {x for _, _, x in t.headings}
+                if aid in t.stripped_ids and aid not in live:
+                    bad.append(f"{lang}/{p.slug} links to #{aid} on {target}, which only "
+                               "exists inside a stripped beta block")
+    return sorted(set(bad))
+
+
+def load_pages(lang: str = "en", root: Path | None = None) -> list[Page]:
     """Load one language's tree.
 
     ⭐ `en` reads help-src/*.md, exactly as before. Any other language reads
@@ -2463,7 +2626,8 @@ def load_pages(lang: str = "en") -> list[Page]:
     language's translator has not started, and the site simply does not
     publish that language's help section yet (see help-src/README.md).
     """
-    src_dir = SRC if lang == "en" else SRC / lang
+    base = root or SRC
+    src_dir = base if lang == "en" else base / lang
     pages: list[Page] = []
     if not src_dir.exists():
         return pages
@@ -2475,6 +2639,19 @@ def load_pages(lang: str = "en") -> list[Page]:
         for key in ("title", "description", "section", "order"):
             if key not in meta:
                 raise SystemExit(f"⛔ {path.name} frontmatter is missing '{key}'")
+        beta = meta.get("beta", "").lower()
+        if beta not in ("", "true", "false"):
+            raise SystemExit(f"⛔ {lang}/{path.name}: beta: must be true or false, not {beta!r}")
+        if beta == "true":
+            # ⛔ A Beta page is NOT BUILT: no HTML, no nav entry, no search
+            # entry, no sitemap entry, no twin line, no language-menu target.
+            HIDDEN.setdefault(lang, set()).add(path.stem)
+            continue
+        body, removed = strip_beta(body, f"{'' if lang == 'en' else lang + '/'}{path.name}")
+        stripped_ids = {
+            split_heading(m.group(1))[1]
+            for m in re.finditer(r"^#{2,4}\s+(.*)$", removed, re.M)
+        }
         pages.append(
             Page(
                 slug=path.stem,
@@ -2487,6 +2664,7 @@ def load_pages(lang: str = "en") -> list[Page]:
                 twin=meta.get("twin", ""),
                 lang=lang,
                 body_md=body,
+                stripped_ids=stripped_ids,
             )
         )
     if not pages:
@@ -2572,6 +2750,11 @@ def desired_sitemap_text(lang_pages_map: dict[str, list[Page]]) -> str | None:
     if not path.exists():
         return None
     text = _SITEMAP_LANG_BLOCK_RE.sub("", path.read_text(encoding="utf-8"))
+    # ⛔ A hidden Beta page leaves the (otherwise hand-kept) English entries too.
+    for slug in sorted(HIDDEN.get("en", set())):
+        text = re.sub(
+            r"  <url>\s*<loc>" + re.escape(f"{SITE}/help/{slug}") + r"</loc>.*?</url>\n",
+            "", text, flags=re.S)
 
     blocks = []
     for lang in LANGS:
@@ -2593,8 +2776,9 @@ def desired_sitemap_text(lang_pages_map: dict[str, list[Page]]) -> str | None:
     return text.replace("</urlset>", "".join(blocks) + "</urlset>")
 
 
-def load_all() -> dict[str, list[Page]]:
+def load_all(check_links: bool = True) -> dict[str, list[Page]]:
     """Every language's pages, rendered and with links localized."""
+    HIDDEN.clear()
     lang_pages_map: dict[str, list[Page]] = {"en": load_pages("en")}
     for lang in LANGS:
         lang_pages_map[lang] = load_pages(lang)
@@ -2606,6 +2790,13 @@ def load_all() -> dict[str, list[Page]]:
         for p in pages:
             p.headings = []
             p.html = render(p.body_md, p.headings)
+
+    problems = hidden_link_problems(lang_pages_map, HIDDEN)
+    LINK_PROBLEMS[:] = problems
+    if problems and check_links:
+        raise SystemExit(
+            "⛔ links to hidden Beta content (wrap the linking text in "
+            "<!-- beta --> ... <!-- /beta --> too):\n   · " + "\n   · ".join(problems))
 
     # Rewrite English-style /help/... links in translated pages to
     # /<lang>/help/..., dropping an anchor that does not exist in the
@@ -2665,6 +2856,32 @@ def build(check_only: bool = False) -> int:
     if sitemap_text is not None:
         targets.append((ROOT / "sitemap.xml", sitemap_text))
 
+    # ⛔ Refuse to write anything that names a Beta feature (see `beta_leaks`).
+    leaks = [f"{path.relative_to(ROOT)}: {hit}" for path, content in targets
+             if path.suffix in (".html", ".json") for hit in beta_leaks(content)]
+    if leaks:
+        print(f"⛔ {len(leaks)} Beta mention(s) would be published:")
+        for x in leaks[:60]:
+            print(f"   · {x}")
+        return 1
+
+    # ⛔ Hidden Beta pages: delete any HTML an earlier build left behind, so a
+    # later publish cannot ship it.
+    gone = []
+    en_hidden = HIDDEN.get("en", set())
+    for lang in ALL_LANGS:
+        base = OUT if lang == "en" else ROOT / lang / "help"
+        for slug in sorted(en_hidden | HIDDEN.get(lang, set())):
+            f = base / ("index.html" if slug == "index" else f"{slug}.html")
+            if f.exists():
+                gone.append(f)
+
+    if check_only:
+        stale += [str(f.relative_to(ROOT)) + " (hidden Beta page, delete)" for f in gone]
+    else:
+        for f in gone:
+            f.unlink()
+
     for path, content in targets:
         old = path.read_text(encoding="utf-8") if path.exists() else None
         if old == content:
@@ -2682,7 +2899,8 @@ def build(check_only: bool = False) -> int:
         print(f"✅ help/ is up to date ({total_pages} pages)")
         return 0
 
-    print(f"✅ {total_pages} pages · {written} file(s) written · css v{CSS_VERSION}")
+    print(f"✅ {total_pages} pages · {written} file(s) written · css v{CSS_VERSION}"
+          f" · {len(gone)} hidden Beta page file(s) removed")
     if NOINDEX:
         print("⚠️  NOINDEX is ON — pages carry robots noindex and are unlisted.")
     if _MISSING:
@@ -2798,6 +3016,21 @@ def run_search_js(cases: list[dict]) -> list | None:
         return json.loads(r.stdout)
 
 
+def all_leaks(lang_pages_map: dict[str, list[Page]]) -> list[str]:
+    """`beta_leaks` over every page shell and search index, all languages."""
+    slug_index = build_slug_index(lang_pages_map)
+    out = []
+    for lang, pages in lang_pages_map.items():
+        if not pages:
+            continue
+        for hit in beta_leaks(search_index(pages)):
+            out.append(f"{lang}/search.json: {hit}")
+        for p in pages:
+            for hit in beta_leaks(shell(p, pages, slug_index)):
+                out.append(f"{lang}/{p.slug}: {hit}")
+    return out
+
+
 def self_test() -> int:
     fails = []
     ran = []
@@ -2848,13 +3081,13 @@ def self_test() -> int:
     ok("⛔ script is NOT passed through", "&lt;script&gt;" in render("<script>alert(1)</script>", []))
     ok("tokens extract", "--brand:" in extract_root())
 
-    tm = mark_trademarks('<p>Neptune Systems and Red Sea. Red Sea again, <a href="/x?maxspect">Maxspect</a>.</p>'
+    tm = mark_trademarks('<p>Neptune Systems and Red Sea. Red Sea again, <a href="/x?jebao">Jebao</a>.</p>'
                          '<code>Jecod</code> then Jecod.')
     ok("™ on the first brand mention", "Neptune Systems™ and Red Sea™." in tm)
     ok("™ only once per brand per page", "Red Sea again" in tm and tm.count("Red Sea™") == 1)
-    ok("™ never inside a tag attribute", 'href="/x?maxspect"' in tm and ">Maxspect™<" in tm)
+    ok("™ never inside a tag attribute", 'href="/x?jebao"' in tm and ">Jebao™<" in tm)
     ok("™ never inside code", "<code>Jecod</code> then Jecod™." in tm)
-    ok("™ not doubled", mark_trademarks("Maxspect™ gyre") == "Maxspect™ gyre")
+    ok("™ not doubled", mark_trademarks("Jebao™ pump") == "Jebao™ pump")
 
     # ⛔⛔ THE INLINE SCRIPT MUST PARSE. The page shell is an f-string, so a
     # single `{` in the JavaScript is a FORMAT PLACEHOLDER — that broke the
@@ -2895,10 +3128,6 @@ def self_test() -> int:
         ok(f"search index under 480 KB ({_idx.stat().st_size // 1024} KB)",
            _idx.stat().st_size < 491_520)
 
-    # ⛔ CONTENT RULE, ENFORCED. help-src/README.md has said 'Maxspect is
-    # "coming soon"' since the guide was written, and SIX pages named it as a
-    # shipped integration anyway (found in review, 2026-09-09) while the public
-    # site carried a badge-soon. A rule nobody checks is a rule nobody follows.
     # ⛔ TWO SECTIONS WITH THE SAME NAME ON ONE PAGE. It has happened twice:
     # max-settings.md carried `## Devices` and `## Tank settings` twice, and
     # the two Tank-settings sections CONTRADICTED each other on what polling
@@ -2917,29 +3146,97 @@ def self_test() -> int:
             dupes.append(f"{md.name}: {sorted(dup_h)}")
     ok(f"⛔ no page repeats a section heading ({dupes})", not dupes)
 
-    # Owner, 2026-10-12: the Beta integrations are only open to Beta users, so
-    # every page naming one must say Beta, not just Maxspect ("vice versa" excluded).
-    _BETA_BRANDS = re.compile(
-        r"\b(?:maxspect|ghl|hydros|focustronic|ecotech|radion|vortech|inkbird)\b|(?<!vice )\bversa\b")
-    unlabelled, stale_soon = [], []
-    for md in sorted(SRC.glob("*.md")):
-        if md.name == "README.md":
-            continue
-        body = md.read_text(encoding="utf-8")
-        # Owner, 2026-09-17: *"let's flag MaxSpect as Beta on Help pages, it still
-        # testing and development in progress."* It was "coming soon" until then, so
-        # the guard now demands "beta" and refuses a leftover "coming soon" on any
-        # line that names Maxspect (a page can say both only if one is stale).
-        low = body.lower()
-        if _BETA_BRANDS.search(low) and not re.search(r"\bbeta\b", low):
-            unlabelled.append(md.name)
-        stale_soon.extend(f"{md.name}:{i}" for i, line in enumerate(low.splitlines(), 1)
-                          if "maxspect" in line and "coming soon" in line)
-    ok(f"⛔ every Beta brand (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird) is labelled Beta wherever it is named ({unlabelled})",
-       not unlabelled)
-    ok(f"⛔ no line still calls Maxspect coming soon ({stale_soon})",
-       not stale_soon)
+    # Owner, 2026-10-14: ALL Beta functions are HIDDEN on the public guide (this
+    # replaced the 2026-10-12 rule that every page naming a Beta brand must say
+    # "Beta"). The mechanism, unit by unit; the real content is checked below.
+    _sb = lambda md: strip_beta(md, "test")[0]
+    ok("beta block: a whole paragraph goes, its neighbours stay",
+       _sb("A\n\n<!-- beta -->\nB secret\n<!-- /beta -->\n\nC\n") == "A\n\n\nC\n")
+    ok("beta block: a list keeps one <ul> after an item is stripped",
+       render(_sb("- a\n<!-- beta -->\n- b\n<!-- /beta -->\n- c"), [])
+       == "<ul><li>a</li><li>c</li></ul>")
+    ok("beta block: a table keeps one body after a row is stripped",
+       render(_sb("| A | B |\n|---|---|\n| 1 | 2 |\n<!-- beta -->\n| x | y |\n<!-- /beta -->\n| 3 | 4 |"), []
+              ).count("<tr>") == 3)
+    ok("beta block: inline span inside a sentence",
+       _sb("Apex<!-- beta -->, Acme<!-- /beta --> and Red Sea.") == "Apex and Red Sea.")
+    ok("beta block: a whole section with its heading",
+       "Secret" not in render(_sb("## Open\n\nx\n\n<!-- beta -->\n## Secret {#s}\n\ny\n<!-- /beta -->\n"), []))
+    for _bad, _why in (("<!-- beta -->\nx\n", "never closed"), ("x\n<!-- /beta -->\n", "without an opening"),
+                       ("<!-- beta -->a<!-- beta -->b<!-- /beta --><!-- /beta -->", "nested")):
+        try:
+            strip_beta(_bad, "test")
+            _raised = ""
+        except SystemExit as e:
+            _raised = str(e)
+        ok(f"⛔ unbalanced beta marker fails the build ({_why})", _why in _raised)
 
+    import tempfile as _tf2
+    with _tf2.TemporaryDirectory() as _d:
+        _fm = "---\ntitle: {t}\ndescription: d\nsection: Help\norder: {o}\n{x}---\n{b}"
+        Path(_d, "open.md").write_text(_fm.format(t="Open", o=1, x="", b="## Kept {#kept}\n\n"
+                                                  "<!-- beta -->\n## Gone {#gone}\n<!-- /beta -->\n"))
+        Path(_d, "secret.md").write_text(_fm.format(t="Secret", o=2, x="beta: true\n", b="x\n"))
+        HIDDEN.clear()
+        _lp = load_pages("en", Path(_d))
+    ok("beta: true page is not loaded (so not built, listed, indexed or mapped)",
+       [x.slug for x in _lp] == ["open"] and HIDDEN.get("en") == {"secret"})
+    ok("a heading inside a stripped block is remembered as stripped",
+       _lp[0].stripped_ids == {"gone"} and "Gone" not in _lp[0].body_md)
+    _lp[0].headings = []
+    _lp[0].html = render(_lp[0].body_md, _lp[0].headings)
+    _lk = Page(slug="linker", title="L", description="d", section="Help", order=3, body_md="")
+    _lk.html = ('<a href="/help/secret">x</a><a href="/help/open#gone">y</a>'
+                '<a href="/help/open#kept">ok</a>')
+    _de_lk = Page(slug="linker", title="L", description="d", section="Help", order=3, body_md="", lang="de")
+    _de_lk.html = '<a href="/help/secret">x</a>'
+    _hp = hidden_link_problems({"en": [_lp[0], _lk], "de": [_de_lk]}, {"en": {"secret"}})
+    ok(f"⛔ a link to a hidden page fails, in English and in a translation ({_hp})",
+       sum("hidden Beta page /help/secret" in x for x in _hp) == 2)
+    ok("⛔ a link to an anchor that only existed in a stripped block fails",
+       any("#gone" in x for x in _hp) and not any("#kept" in x for x in _hp))
+    _tw = Page(slug="t", title="T", description="d", section="Help", order=4, body_md="", twin="secret")
+    ok("⛔ a twin: pointing at a hidden page fails",
+       any("twin: secret" in x for x in hidden_link_problems({"en": [_tw]}, {"en": {"secret"}})))
+    HIDDEN.clear()
+
+    # The mechanism with a stand-in rule (the real list is private, see LeakRules).
+    _tr = LeakRules(re.compile(r"\bacme\b|\bwidget\w*|" + _DEFAULT_TERMS, re.I),
+                    re.compile(r"widget", re.I), re.compile(r"widget icon", re.I))
+    ok("leak rule: a listed term, the word Beta in any language and an unlisted use are caught",
+       all(beta_leaks(w, _tr) for w in ("Acme pumps", "a Beta user", "bêta", "Betatester", "widgets")))
+    ok("leak rule: an allowed phrase, and words that merely contain the letters, pass",
+       not any(beta_leaks(w, _tr) for w in ("tap the widget icon", "alphabet", "acmes", "between")))
+    ok("leak rule: without a rules file only the word Beta is checked",
+       beta_leaks("Beta", load_leak_rules("")) and not beta_leaks("Acme", load_leak_rules("")))
+    with _tf.NamedTemporaryFile("w", suffix=".json", delete=False) as _fh:
+        _fh.write(json.dumps({"terms": r"\bacme\b"}))
+    ok("leak rule: a rules file adds its terms and keeps the word Beta",
+       all(beta_leaks(w, load_leak_rules(_fh.name)) for w in ("Acme", "beta")))
+    Path(_fh.name).unlink()
+    try:
+        load_leak_rules("/nonexistent/rules.json")
+        _raised = False
+    except SystemExit:
+        _raised = True
+    ok("⛔ an unreadable rules file fails instead of falling back", _raised)
+
+    # ⛔ THE REAL CONTENT: nothing published, in any language, names a Beta
+    # feature. Every page shell (title, meta, nav, body, alt text, URLs) and
+    # every search.json, exactly as `build()` would write them.
+    try:
+        _leak_map = load_all()
+    except SystemExit as e:
+        _leak_map = None
+        ok(f"⛔ every tree loads for the leak check ({e})", False)
+    if _leak_map is not None:
+        _leaks = all_leaks(_leak_map)
+        ok(f"⛔ no published page or search index names a Beta feature or says Beta "
+           f"({len(_leaks)}: {_leaks[:8]})", not _leaks)
+        _hid_urls = [f"{SITE}/help/{h}" for h in HIDDEN.get("en", set())]
+        _sm_now = (ROOT / "sitemap.xml").read_text(encoding="utf-8") if (ROOT / "sitemap.xml").exists() else ""
+        _in_sm = [u for u in _hid_urls if f"<loc>{u}</loc>" in _sm_now]
+        ok(f"⛔ no hidden Beta page is in sitemap.xml ({_in_sm})", not _in_sm)
     # ⛔ PUBLISHED 2026-09-17. While NOINDEX is False every page must be in
     # sitemap.xml, or a new page ships invisible to search. Keyed on each page's
     # own canonical URL, so no hand-kept count can drift.
@@ -2950,6 +3247,8 @@ def self_test() -> int:
         for md in sorted(SRC.glob("*.md")):
             if md.name == "README.md":
                 continue
+            if re.search(r"^beta:\s*true\s*$", md.read_text(encoding="utf-8").split("\n---\n", 1)[0], re.M):
+                continue  # hidden Beta page: must NOT be in the sitemap (checked above)
             _url = "/help/" if md.stem == "index" else f"/help/{md.stem}"
             if f"<loc>{SITE}{_url}</loc>" not in _sm_text:
                 not_in_sitemap.append(md.stem)
@@ -2965,7 +3264,7 @@ def self_test() -> int:
     #
     # ⚠️ The check is the WHOLE SOURCE TREE, not the two files that were wrong.
     # A rule applied only where it was already broken never catches the next
-    # page. Same reasoning as the Maxspect guard above.
+    # page.
     jargon = {
         "swoosh": "the assistant control is 'Cora Assistant'",
         "cora mark": "the assistant control is 'Cora Assistant'",
@@ -3239,4 +3538,14 @@ def self_test() -> int:
 if __name__ == "__main__":
     if "--self-test" in sys.argv:
         sys.exit(self_test())
+    if "--leaks" in sys.argv:
+        # Read-only: every Beta mention that would be published, optionally
+        # for the languages named after the flag (e.g. --leaks de fr).
+        _want = [a for a in sys.argv[sys.argv.index("--leaks") + 1:] if a in ALL_LANGS]
+        _m = load_all(check_links=False)
+        _m = {k: v for k, v in _m.items() if not _want or k in _want}
+        _l = [f"LINK {x}" for x in LINK_PROBLEMS
+              if not _want or x.split("/", 1)[0] in _want] + all_leaks(_m)
+        print("\n".join(_l) or "✅ no Beta mentions would be published")
+        sys.exit(1 if _l else 0)
     sys.exit(build(check_only="--check" in sys.argv))

@@ -1,6 +1,6 @@
 ---
 title: Markaya göre ekipman
-description: Neptune Apex, Red Sea ReefBeat, Jecod, AquaWiz ya da Beta ekipmanınızla ilgili her şey tek yerde: eklemekten kontrol etmeye, uyarılarından çözümlerine kadar.
+description: Neptune Apex, Red Sea ReefBeat, Jecod ya da AquaWiz ekipmanınızla ilgili her şey tek yerde: eklemekten kontrol etmeye, uyarılarından çözümlerine kadar.
 section: Help
 reviewed: 2026-10-13
 order: 3
@@ -12,7 +12,6 @@ Markanızla ilgili tüm sayfaları görmek için markanızı bulun: nasıl eklen
 - [Red Sea ReefBeat](#red-sea)
 - [Jecod ve Jebao](#jecod)
 - [AquaWiz KH Controller](#aquawiz)
-- Beta: [Maxspect](#maxspect) · [GHL](#ghl) · [HYDROS](#hydros) · [Focustronic](#focustronic) · [EcoTech](#ecotech) · [Inkbird](#inkbird) · [Kameralar](#cameras)
 
 Her markayı telefonunuzdan, **Cihazlar → Cihaz Ekle** yolundan eklersiniz. Neptune Apex, Red Sea ve Jecod ev ağınız üzerinden okunur: Cora Max yoksa telefonunuz onları yalnızca Cora Mobile aynı Wi-Fi'da açıkken okur. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections#local-only) sayfasında.
 
@@ -29,7 +28,7 @@ Cora, Apex'inizin problarını ve prizlerini okur, besleme döngülerini çalı�
 
 ## Red Sea ReefBeat {#red-sea}
 
-ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED ve ReefControl. Bir cihazın kendi ayarları yalnızca telefonunuz cihazla aynı ağdayken açılır.
+ReefDose, ReefRun, ReefMat ve ReefATO+. Bir cihazın kendi ayarları yalnızca telefonunuz cihazla aynı ağdayken açılır.
 
 - Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#red-sea-reefbeat)
 - Telefonunuzda kontrol: [Red Sea ReefBeat](/help/mobile-device-control#red-sea), [ReefDose](/help/mobile-device-control#reefdose), [ReefRun](/help/mobile-device-control#reefrun), [ReefMat](/help/mobile-device-control#reefmat), [ReefATO+](/help/mobile-device-control#reefato)
@@ -57,73 +56,6 @@ Cora onu AquaWiz'in kendi bulutu üzerinden okur, bu yüzden Cora Max olmadan da
 - Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting)
 - Çözümler: [bir ölçüm eski](/help/troubleshooting#a-reading-is-stale), [giriş reddedildi](/help/troubleshooting#a-device-says-the-sign-in-was-refused)
 
-## Beta entegrasyonları {#beta}
-
-**Beta.** Bu entegrasyonlar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bir mağaza test programına katılmak onu açmaz. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-
-Maxspect, GHL, EcoTech, Inkbird ve kameralar bir Cora Max tarafından okunur, bu yüzden akvaryumda bir Cora Max olana kadar **Cora Max Gerektirir** gösterirler.
-
-## Maxspect (Beta) {#maxspect}
-
-Maxspect gyre'ler. Akvaryumdaki bir Cora Max onları okur.
-
-- Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#maxspect)
-- Telefonunuzda kontrol: [Maxspect](/help/mobile-device-control#maxspect), [programı](/help/mobile-schedules)
-- Cora Max'te: [Maxspect](/help/max-device-control#maxspect)
-- Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting)
-- Çözümler: ["Bu Gyre'ye ulaşılamadı"](/help/troubleshooting#could-not-reach-that-gyre-its-program-was-not-changed)
-
-## GHL (Beta) {#ghl}
-
-Kontrolcünün ağındaki bir Cora Max tarafından okunan GHL ProfiLux ve Mitras.
-
-- Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#ghl-profilux-and-mitras)
-- Telefonunuzda kontrol: [GHL](/help/mobile-device-control#ghl)
-- Cora Max'te: [GHL](/help/max-device-control#ghl)
-- Çözümler: ["GHL API kapalı"](/help/troubleshooting#ghl-api-is-off), ["GHL denetleyicisine erişilemiyor"](/help/troubleshooting#ghl-controller-unreachable)
-
-## HYDROS (Beta) {#hydros}
-
-HYDROS'un kendi bulutu üzerinden okunan CoralVue HYDROS kontrolcüleri ve dozaj pompaları.
-
-- Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#hydros)
-- Telefonunuzda kontrol: [HYDROS](/help/mobile-device-control#hydros)
-- Cora Max'te: [HYDROS](/help/max-device-control#hydros)
-- Çözümler: [çevrimdışı, bildirmiyor ya da Anahtar iptal edildi](/help/troubleshooting#a-hydros-controller-shows-as-offline-or-not-reporting)
-
-## Focustronic (Beta) {#focustronic}
-
-Focustronic sunucuları üzerinden okunan Focustronic test cihazları ve dozaj pompaları.
-
-- Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#focustronic)
-- Telefonunuzda kontrol: [Focustronic](/help/mobile-device-control#focustronic)
-- Cora Max'te: [Focustronic](/help/max-device-control#focustronic)
-- Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting)
-
-## EcoTech (Beta) {#ecotech}
-
-Bir Cora Max tarafından Bluetooth üzerinden okunan Radion ışıkları, VorTech pompaları ve Versa dozaj pompaları.
-
-- Telefonunuzda ekleme ve kontrol: [EcoTech ışıkları, pompaları ve dozaj pompaları](/help/mobile-ecotech), [cihaz sayfasında](/help/mobile-device-control#ecotech-inkbird-cameras)
-- Cora Max'te: [EcoTech](/help/max-device-control#ecotech)
-- Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting)
-
-## Inkbird (Beta) {#inkbird}
-
-Bir Cora Max tarafından okunan Inkbird oda havası monitörü.
-
-- Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#inkbird-room-air-monitor)
-- Telefonunuzda: [Inkbird](/help/mobile-device-control#ecotech-inkbird-cameras)
-- Cora Max'te: [Inkbird](/help/max-device-control#inkbird)
-- Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting)
-
-## Kameralar ve Skimmer Gözcüsü (Beta) {#cameras}
-
-Akvaryumu canlı izleyin ve skimmer kabı taşmadan önce Skimmer Gözcüsü'nün sizi uyarmasına izin verin. Skimmer Gözcüsü ücretli planların bir parçasıdır.
-
-- Kamera ekleme ve Skimmer Gözcüsü'nü kurma: [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras)
-- Cora Max'te: [Kameralar ve Skimmer Gözcüsü](/help/max-device-control#cameras)
-- Çözümler: [Skimmer Gözcüsü mesajları](/help/troubleshooting#skimmer-watch-messages)
 
 ## Diğer her şey {#anything-else}
 

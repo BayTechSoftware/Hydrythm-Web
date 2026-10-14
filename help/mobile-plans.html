@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -190,7 +187,6 @@
 <p>There are three plans, <strong>Plus</strong>, <strong>Pro</strong> and <strong>Max</strong>, each monthly or annual. Settings shows them as Cora Plus, Cora Pro and Cora Max. You'll find current prices in Cora Mobile and in your app store, since that's where you pay.</p>
 <div class="tw"><table><thead><tr><th></th><th>Plus</th><th>Pro</th><th>Max</th></tr></thead><tbody><tr><td data-th="">Assistant messages / month</td><td data-th="Plus">500</td><td data-th="Pro">1,200</td><td data-th="Max">2,500 (fair use)</td></tr><tr><td data-th="">Voice sessions / month</td><td data-th="Plus">100</td><td data-th="Pro">200</td><td data-th="Max">400</td></tr><tr><td data-th="">Health Reports / month</td><td data-th="Plus">4</td><td data-th="Pro">12</td><td data-th="Max">100</td></tr><tr><td data-th="">ICP analyses / month</td><td data-th="Plus">1</td><td data-th="Pro">3</td><td data-th="Max">30</td></tr><tr><td data-th="">Tanks with AI monitoring</td><td data-th="Plus">1</td><td data-th="Pro">5</td><td data-th="Max">20</td></tr></tbody></table></div>
 <p>Voice sessions have their own count, and every spoken reply also uses up your message allowance. Every paid plan includes Reef Buddy, ICP upload and analysis for the labs Cora reads, comparison with your own history, and <strong>Design with AI</strong> for dashboards (up to 5 designs a day for each tank).</p>
-<p>Paid plans also include Skimmer Watch alerts for a camera on your sump. The trial doesn't. <strong>Beta.</strong> Cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in <strong>Add device</strong>. To ask for Beta access, contact support. More in <a href="/help/mobile-cameras">Cameras</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">The Max plan isn't the Cora Max screen</p><p>The <strong>Max plan</strong> is a subscription. <strong>Cora Max</strong> is the screen that sits by your tank. You don't need one to have the other.</p></aside>
 <h3 id="which-tanks-get-ai">Which tanks get AI</h3>
 <p>Reef Buddy and AI monitoring cover as many tanks as your plan allows, counted from the top of <strong>Settings → Reorder tanks</strong>. To bring a tank in, move it up the list. Removed tanks don't take a place.</p>
@@ -223,7 +219,7 @@
 <p>If it still isn't there, tap <strong>Restore Purchases</strong>. If Settings says <em>Couldn't verify your plan</em>, check your connection and tap <strong>Retry</strong>. Your access doesn't change while Cora checks. If none of that works, email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the date you bought it.</p>
 <p>Your data stays yours whatever plan you're on. More in <a href="/help/mobile-data-export">Exporting your data and deleting your account</a>. To report a billing problem from inside Cora Mobile, see <a href="/help/mobile-support">Reporting a problem</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-multi-device"><span>Previous</span><b>More than one Cora device</b></a><a class="pn-n" href="/help/mobile-data-export"><span>Next</span><b>Exporting your data and deleting your account</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -614,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

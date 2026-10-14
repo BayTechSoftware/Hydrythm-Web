@@ -3,7 +3,7 @@ title: ICP and health reports
 description: Upload an ICP test PDF or have your lab send it, read the score, track each element over time, and run a Health Report of your whole system.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ On each element row you'll see the range the lab printed, shown as *Lab range*, 
 If the lab prints *n.d.*, or *not detected*, for an element, Cora records it as 0 and says it wasn't detected.
 
 :::note Dissolved CO2 is not room CO2
-**Dissolved CO₂** in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room, which an Inkbird room air monitor measures. The two have different ranges and are never mixed. **Beta.** Inkbird is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact support.
+**Dissolved CO₂** in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room. The two have different ranges and are never mixed.
 :::
 
 The **Since your last ICP** card shows what changed most since last time. It's usually the quickest way into a new report.

@@ -1,6 +1,6 @@
 ---
 title: Sözlük
-description: Cora'nın akvaryum, kaynak, widget, eşik, Birincil Cora Max, besleme modu, sahne, Skimmer Gözcüsü ve uygulamalarda göreceğiniz diğer sözcüklerle ne kastettiği.
+description: Cora'nın akvaryum, kaynak, widget, eşik, Birincil Cora Max, besleme modu, sahne ve uygulamalarda göreceğiniz diğer sözcüklerle ne kastettiği.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -28,9 +28,6 @@ Besleme için bir duraklatma. Bir Neptune Apex'te **Besle**, Apex'te programlanm
 
 Normalde nasıl beslediğiniz, akvaryum için bir kez ayarlanır (örneğin günde iki kez pul yem). Sonrasında yalnızca farklı geçen günleri kaydedersiniz ve Reef Buddy ikisini de hesaba katar. [Günlük](/help/mobile-journal) sayfasına bakın.
 
-## Beta
-
-Hâlâ test ettiğimiz ve geliştirdiğimiz bir entegrasyon. **Beta.** Beta entegrasyonları (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird ve kameralar) yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Yalnızca adında "(Beta)" geçen Büyük dozlar ya da ReefMat ayarları gibi özellikler herkese açıktır. [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
 
 ## Birincil Cora Max
 
@@ -48,9 +45,6 @@ Telefonunuzu, Cora Max'inizi ve ekipmanınızı uyum içinde tutan ve geçmişin
 
 Reef odası için duvar ekranı. Akvaryumlarınızı canlı gösterir, ekipmanınızı gece gündüz okur ve onunla konuşabilirsiniz. [Cora Max'i kurma](/help/max-setup) sayfasına bakın.
 
-## Cora Max Gerektirir
-
-**Cihaz Ekle** içinde bir markadaki etiket. O ekipmanı bir Cora Max okur, bu yüzden akvaryumda önce bir Cora Max olması gerekir. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
 
 ## Cora Mobile
 
@@ -88,9 +82,7 @@ Bir Cora Max uyarısındaki düğme. Uyarıyı kapatmadan o Cora Max'te kuralın
 
 Bir parametre için memnun olduğunuz aralık. Bir aralık, bir üst sınır ya da bir alt sınır olabilir. Onu siz belirlersiniz, varsayılanlar yalnızca bir başlangıç noktasıdır. [Uyarılar ve eşikler](/help/mobile-alerts) sayfasına bakın.
 
-## GHL
 
-ProfiLux ve Mitras kontrolcülerinin üreticisi GHL Advanced Technology. Cora'nın GHL desteği **Beta** aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
 
 ## Günlük
 
@@ -100,9 +92,6 @@ Akvaryuma ne yaptığınızın kaydı. Cora da onu okur, böylece "Alkalinite d�
 
 Tüm Cora hesabınızın kullandığı tek dil: English, Deutsch, Français, Türkçe, Italiano, Español ya da Polski. Kişi ya da cihaz başına ayarlanmaz. Onu telefonunuzda ya da herhangi bir Cora Max'te **Ayarlar → Dil** içinde değiştirin, her cihaz birkaç saniye içinde uyar. Zaten yazılmış olan her şey kendi dilinde kalır. [Cora Mobile ayarları](/help/mobile-settings) sayfasına bakın.
 
-## HYDROS
-
-CoralVue'nun kontrolcü ve dozaj sistemi. Cora onu HYDROS'un kendi bulutu üzerinden okur, bu yüzden evden uzaktayken de çalışmaya devam eder. Cora'nın HYDROS desteği **Beta** aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
 
 ## ICP
 
@@ -166,7 +155,7 @@ Kontrolcünüzde açılıp kapatılabilen bir priz. Cora'da üç durumu vardır:
 
 ## Red Sea ReefBeat
 
-Red Sea'nin bağlı ekipman ailesi: ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED ve ReefControl. Cora onu ev ağınızda okur. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
+Red Sea'nin bağlı ekipman ailesi: ReefDose, ReefRun, ReefMat ve ReefATO+. Cora onu ev ağınızda okur. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
 
 ## Reef Buddy
 
@@ -188,9 +177,6 @@ Bütün bir sisteme dönemsel olarak daha derin bir bakış. Her parametreyi, ka
 
 "Su değişimi" ya da "Gece" gibi adı olan bir eylem grubu. Onu istediğinizde, bir programa göre ya da başka bir [otomasyonun](#otomasyon) içinden çalıştırabilirsiniz. Sahneler Cora Mobile ve Cora Max tarafından paylaşılır. [Otomasyonlar ve sahneler](/help/mobile-automation) sayfasına bakın.
 
-## Skimmer Gözcüsü
-
-Skimmer toplama kabını izleyen ve taşmadan önce sizi uyaran bir kamera özelliği. Cora Max kabı 15 dakikada bir kontrol eder. **Beta** aşamasında olan ve yalnızca Beta kullanıcılarına açık bir kamera ve ücretli bir plan gerektirir. [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras) sayfasına bakın.
 
 ## Tatil modu
 
@@ -214,7 +200,7 @@ Cora'nın size bir şeyin ilgi gerektirdiğini söylemesi. Genellikle belirledi�
 
 ## Widget
 
-Bir panoda tek bir şeyi gösteren kutucuk, örneğin bir değer, bir gösterge, bir grafik, bir priz ya da bir kamera. [Widget rehberi](/help/mobile-widgets) sayfasına bakın.
+Bir panoda tek bir şeyi gösteren kutucuk, örneğin bir değer, bir gösterge, bir grafik ya da bir priz. [Widget rehberi](/help/mobile-widgets) sayfasına bakın.
 
 ## Yanıtlayan cihaz
 

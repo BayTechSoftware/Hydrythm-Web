@@ -95,9 +95,6 @@
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
 <li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
 <li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
-<li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
-<li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
@@ -197,7 +194,7 @@
 <p>Das ist der vollständige Bestand, mit dem, was <strong>Im Becken</strong> ist, und dem, was <strong>Nicht mehr im Becken</strong> ist. Hier kannst du ihn nur ansehen. Besatz fügst du in Cora Mobile hinzu und bearbeitest ihn dort, und was du dort hinzufügst, erscheint sofort auf diesem Bildschirm. Mehr dazu unter <a href="/de/help/mobile-livestock">Besatz</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Ein Satz Aufzeichnungen</p><p>Jedes Becken hat ein Tagebuch, einen Besatzbestand und eine Wartungsliste. Cora Max und dein Handy zeigen dieselben Aufzeichnungen.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-automation"><span>Zurück</span><b>Szenen auf Cora Max</b></a><a class="pn-n" href="/de/help/max-activity"><span>Weiter</span><b>Aktivität auf Cora Max</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -588,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

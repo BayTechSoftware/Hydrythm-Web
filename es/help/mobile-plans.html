@@ -95,9 +95,6 @@
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
-<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
-<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -190,7 +187,6 @@
 <p>Hay tres planes, <strong>Plus</strong>, <strong>Pro</strong> y <strong>Max</strong>, cada uno mensual o anual. Ajustes los muestra como Cora Plus, Cora Pro y Cora Max. Los precios actuales están en Cora Mobile y en tu tienda de aplicaciones, porque ahí es donde pagas.</p>
 <div class="tw"><table><thead><tr><th></th><th>Plus</th><th>Pro</th><th>Max</th></tr></thead><tbody><tr><td data-th="">Mensajes al Asistente / mes</td><td data-th="Plus">500</td><td data-th="Pro">1.200</td><td data-th="Max">2.500 (uso razonable)</td></tr><tr><td data-th="">Sesiones de voz / mes</td><td data-th="Plus">100</td><td data-th="Pro">200</td><td data-th="Max">400</td></tr><tr><td data-th="">Informes de salud / mes</td><td data-th="Plus">4</td><td data-th="Pro">12</td><td data-th="Max">100</td></tr><tr><td data-th="">Análisis de ICP / mes</td><td data-th="Plus">1</td><td data-th="Pro">3</td><td data-th="Max">30</td></tr><tr><td data-th="">Acuarios con vigilancia por IA</td><td data-th="Plus">1</td><td data-th="Pro">5</td><td data-th="Max">20</td></tr></tbody></table></div>
 <p>Las sesiones de voz tienen su propio contador, y cada respuesta hablada también gasta de tu cuota de mensajes. Todos los planes de pago incluyen Reef Buddy, la subida y el análisis de ICP de los laboratorios que Cora sabe leer, la comparación con tu propio historial y <strong>Diseñar con IA</strong> para los paneles (hasta 5 diseños al día por acuario).</p>
-<p>Los planes de pago también incluyen las alertas de la vigilancia del skimmer para una cámara en tu sump. La prueba gratuita no. <strong>Beta.</strong> Las cámaras están en Beta y solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en <strong>Agregar dispositivo</strong>. Para pedir acceso Beta, contacta con el soporte. Más información en <a href="/es/help/mobile-cameras">Cámaras</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">El plan Max no es la pantalla Cora Max</p><p>El <strong>plan Max</strong> es una suscripción. <strong>Cora Max</strong> es la pantalla que está junto a tu acuario. No necesitas uno para tener el otro.</p></aside>
 <h3 id="which-tanks-get-ai">Qué acuarios tienen IA</h3>
 <p>Reef Buddy y la vigilancia con IA cubren tantos acuarios como permita tu plan, contados desde arriba en <strong>Ajustes → Reordenar acuarios</strong>. Para incluir un acuario, súbelo en la lista. Los acuarios eliminados no ocupan sitio.</p>
@@ -223,7 +219,7 @@
 <p>Si sigue sin aparecer, toca <strong>Restaurar compras</strong>. Si Ajustes dice <em>No se pudo verificar tu plan</em>, revisa tu conexión y toca <strong>Reintentar</strong>. Tu acceso no cambia mientras Cora lo comprueba. Si nada de esto funciona, escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con la fecha de la compra.</p>
 <p>Tus datos siguen siendo tuyos sea cual sea tu plan. Más información en <a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a>. Para informar de un problema de facturación desde Cora Mobile, consulta <a href="/es/help/mobile-support">Informar de un problema</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-multi-device"><span>Anterior</span><b>Más de un dispositivo Cora</b></a><a class="pn-n" href="/es/help/mobile-data-export"><span>Siguiente</span><b>Exportar tus datos y eliminar tu cuenta</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -614,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

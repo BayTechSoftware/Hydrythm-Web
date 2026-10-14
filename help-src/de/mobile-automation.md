@@ -3,7 +3,7 @@ title: Automationen und Szenen
 description: Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Szenen zusammenfassen, die du mit einem Tippen startest.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Füg unter **Wenn: ein beliebiger Auslöser** einen oder mehrere Auslöser hinzu
 | Auslöser | Löst aus, wenn |
 |---|---|
 | **Wenn sich ein Wasserwert ändert** | Ein Wasserwert einen Wert überschreitet, den du festlegst. Wähl die **Richtung**: **Steigend**, **Fallend** oder **Jede Änderung** |
-| **Wenn eine Warnung ausgelöst wird** | Eine Warnung **Ausgelöst** oder **Behoben** wird, oder beides. Du kannst es auf Warnungen vom Typ **Schwellenwert** oder **Änderungsrate** beschränken |
+| **Wenn eine Warnung ausgelöst wird** | Eine Warnung **Ausgelöst** oder **Behoben** wird, oder beides. Du kannst es auf Warnungen vom Typ **Schwellenwert** oder **Änderungsrate** beschränken. |
 | **Zu einer Tageszeit** | Eine Uhrzeit, in deiner eigenen Zeitzone |
 | **Wenn ein Gerät offline geht** | Dein Cora Max **Offline** geht, wieder **Online** kommt, oder in beiden Fällen |
 
@@ -82,18 +82,12 @@ Eine Aktion, die Ausrüstung braucht, erscheint nur bei einem Becken, das diese 
 | **Einen DŌS Kopf dosieren** | Eine abgemessene Dosis an einem DŌS-Kopf abgeben |
 | **Ein Red-Sea-Gerät steuern** | Ein ReefBeat-Gerät steuern |
 | **Eine Strömungspumpe steuern** | Strömung, Wellenmodus oder Leistung einer Jecod-Pumpe einstellen oder **Für Fütterung pausieren**. Das Cora Max am Becken stellt die Pumpe zurück, wenn die Fütterung endet |
-| **Ein GHL-Gerät steuern (Beta)** | Ein Fütterungsprogramm pausieren, den Wartungs- oder Wasserwechselmodus starten, eine Lichtszene oder Helligkeit einstellen und mehr |
-| **Ein HYDROS-Gerät steuern (Beta)** | Einen Ausgang setzen, ihn zu seinem Zeitplan zurückgeben, den Modus wechseln, einen Testerbefehl ausführen oder aus einem Kopf dosieren |
-| **Ein EcoTech-Gerät steuern (Beta)** | Intensität oder Szene einer Radion einstellen, eine Fütterung oder einen Modus einer VorTech starten, aus einem Versa dosieren oder jedes davon zum Zeitplan zurückgeben |
 | **Mich benachrichtigen** | Dir eine Push-Nachricht mit deinem eigenen **Titel** und deiner eigenen **Nachricht** schicken |
 | **Vor dem nächsten Schritt warten** | Eine Pause einlegen, bevor es weitergeht |
 | **Eine Szene ausführen** | Eine Szene aus dieser Regel heraus starten |
 | **Eine Automation verwalten** | Eine andere Regel ein- oder ausschalten |
 | **Wartungsaufgabe erstellen** | Eine Aufgabe auf die [Wartungsliste](/help/mobile-maintenance) des Beckens setzen, zum Beispiel das Material des CO2-Scrubbers wechseln, wenn der pH unter einen Wert fällt |
 
-:::note Beta
-GHL, HYDROS und EcoTech sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
 :::warning Eine Dosierung lässt sich nicht rückgängig machen, und sie ist begrenzt
 Eine Dosierung bekommst du nicht mehr aus dem Becken heraus. Eine Regel kann nur aus einem Kopf dosieren, der auf einem Cora Max mit **Zum Dosieren messen** gemessen wurde. Die Dosierung läuft auf einem Cora Max am Becken. Dosieren per Regel ist auf **10 ml pro Kopf und Tag** begrenzt, egal wie die Regel geschrieben ist.

@@ -38,7 +38,7 @@ Yapmak istediğiniz işi seçin. Her bağlantı o işin adımlarını açar. Bir
 - [Red Sea ReefBeat ekipmanı bağlama](/help/mobile-connections#red-sea-reefbeat)
 - [Jecod ya da Jebao pompa bağlama](/help/mobile-connections#jecod)
 - [AquaWiz KH Controller bağlama](/help/mobile-connections#aquawiz-kh-controller)
-- [Maxspect, GHL ya da EcoTech'i neden göremediğimi öğrenme](/help/mobile-beta#who-gets-beta)
+- [Cihaz eklerken "Bluetooth sınırına ulaşıldı" sorununu giderme](/help/mobile-devices#bluetooth-capacity)
 - [Bir cihazı başka bir akvaryuma taşıma](/help/mobile-devices#a-devices-page)
 - [Bir cihazın adını değiştirme](/help/mobile-devices#renaming)
 - [Bir cihazı kaldırma](/help/mobile-devices#removing-a-device)

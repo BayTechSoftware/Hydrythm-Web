@@ -86,7 +86,6 @@ Alcune schede compaiono solo quando c'è qualcosa da dire. La maggior parte sta 
 | **Reef Buddy** | Un briefing è pronto | La scheda |
 | **Come nutri di solito?** | Non hai impostato una routine di alimentazione | **Imposta la routine** |
 | *I valori Red Sea non si aggiornano più.* | Nessun dispositivo sta leggendo i dispositivi Red Sea di questa vasca | Vedi [Avvisi e soglie](/help/mobile-alerts) |
-| **Telecamere** (Beta) | La vasca ha una telecamera, sotto i widget. Le telecamere sono disponibili solo per gli utenti Beta | **Guarda dal vivo** |
 | **Registra il tuo primo test dell’acqua** | Nessuna lettura e nessuna attrezzatura collegata, sotto i widget | La scheda. Vedi [Configurare Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
 ## Sotto i widget {#below-the-widgets}

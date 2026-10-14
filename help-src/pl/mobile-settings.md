@@ -3,7 +3,7 @@ title: Ustawienia Cora Mobile
 description: Gdzie co jest w zakładce Ustawienia w Cora Mobile, od konta i planu po akwaria, Cora Assistant, język, tryb ciemny, powiadomienia i pomoc.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 33
+order: 35
 group: Settings and account
 twin: max-settings
 ---

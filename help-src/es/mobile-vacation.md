@@ -3,7 +3,7 @@ title: Irse de viaje: un plan para quien cuida tu acuario
 description: Activa el modo vacaciones, prepara una lista de tareas para quien cuida tu acuario y compártela como una página de solo lectura con lecturas en directo que se abre sin cuenta.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 25
 group: Alerts and automation
 ---
 

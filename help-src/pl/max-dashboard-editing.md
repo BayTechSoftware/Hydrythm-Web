@@ -49,11 +49,8 @@ Gdy zmieniasz siatkę, Cora nie wyrzuca kafelków według pozycji. Kafelki, któ
 
 Gesty są wymienione u góry edytora: **Dotknij kafelek, aby edytować**, **przytrzymaj, aby przenieść** i **✕, aby usunąć**. **Wyczyść wszystko** opróżnia siatkę, żeby zacząć od nowa.
 
-Szesnaście typów kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* i Kamera *(Beta)*. Znajdziesz je w [Rodzajach widżetów](/help/mobile-widgets). Kafelek **Scena** istnieje tylko na Cora Max. Uruchamia [scenę](/help/max-automation) jednym dotknięciem.
+Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod. Znajdziesz je w [Rodzajach widżetów](/help/mobile-widgets). Kafelek **Scena** istnieje tylko na Cora Max. Uruchamia [scenę](/help/max-automation) jednym dotknięciem.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) i kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Ich kafelki pojawiają się dopiero wtedy, gdy masz to urządzenie. Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
 ## Gniazda i karmienie {#outlets-feed}
 
@@ -68,7 +65,6 @@ Otwierają **Szablony pulpitu**, kilka gotowych układów zbudowanych z tego, co
 - **Przegląd**: mało dużych kafelków, z podstawowymi parametrami jako wskaźnikami i głównymi urządzeniami
 - **Sprzęt**: najpierw po jednym kafelku na urządzenie, potem gniazda i podstawowe parametry
 - **Parametry**: najpierw wykresy i odczyty, a urządzenia i gniazda na końcu
-- **Kamera**: duży podgląd na żywo w lewym górnym rogu, a obok podstawowe parametry. Pojawia się tylko wtedy, gdy akwarium ma kamerę. Kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta.
 
 Każdy pokazuje podgląd oraz liczbę kafelków i siatkę. Dotknij **Użyj tego**. Cora najpierw zapyta **Zastąpić pulpit?** Dotknij **Najpierw zapisz obecny jako preset**, jeśli chcesz zachować obecny układ, albo **Zastąp**. Nic się nie zapisze, dopóki nie naciśniesz **Zapisz**.
 

@@ -19,7 +19,7 @@ Wo du es einstellst:
 
 - **Die meisten Geräte**: die Glocke in der oberen Leiste der Geräteseite.
 - **DŌS**: die Karte **Warnungen** auf der DŌS-Seite oder die Glocke. Siehe [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
-- **AquaWiz- und GHL-Dosierer**: ihre Regel im Tab **Regeln** der [Warnzentrale](/help/mobile-alerts).
+- **AquaWiz-Dosierer**: ihre Regel im Tab **Regeln** der [Warnzentrale](/help/mobile-alerts).
 
 Die meisten Schwellenwerte sind in Tagen, nicht in Volumen. Cora rechnet aus, wie lange der Rest bei deinem Verbrauch noch reicht. "Calcium für vier Tage übrig" ist etwas, womit du arbeiten kannst. "180 ml übrig" nicht.
 
@@ -37,14 +37,7 @@ Die meisten Schwellenwerte sind in Tagen, nicht in Volumen. Cora rechnet aus, wi
 | ReefATO+ | **Restlaufzeit des Behälters**, geschätzt aus dem jüngsten Nachfüllverbrauch | 2 Tage |
 | ReefMat | **Verbleibende Rolle**, geschätzt daraus, wie schnell die Rolle vorrückt | 3 Tage |
 | AquaWiz | Verbleibender Alkalinitäts-Zusatz | 100 ml |
-| GHL-Dosierer *(Beta)* | Wie voll der Behälter ist | 20 % |
-| EcoTech Versa *(Beta)* | Tage, die das Supplement noch reicht, und wie voll der Behälter ist | 7 Tage, 10 % |
 
-Ein Focustronic-Gerät *(Beta)* zeigt seine eigenen Warnungen zu Reagenz und Puffer auf seiner Seite.
-
-:::note Beta
-**Beta.** GHL, EcoTech und Focustronic sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
-:::
 
 Eine Verbrauchsmaterial-Warnung funktioniert wie jede andere Warnung. Sie erscheint in der [Warnzentrale](/help/mobile-alerts) und kann eine Push-Nachricht an dein Handy schicken. Du bekommst **eine** Benachrichtigung, wenn ein Stand unterschritten wird, und sie verschwindet, wenn der Stand wieder über dem Schwellenwert liegt.
 
@@ -65,7 +58,6 @@ Sag es Cora auf der Seite des Geräts, damit die Warnung verschwindet und die n�
 | DŌS-Kopf | **Befüllen**, dann **Voll**, oder stell **Verbleibendes Volumen** ein |
 | DŌS-Abfallbehälter | Setz seinen freien Platz nach dem Leeren auf voll zurück |
 | ReefDose-Kopf | **Rest in der Flasche** |
-| ReefMat | **Neue Rolle (Beta)**, nachdem du eine neue Rolle eingelegt hast |
-| EcoTech Versa *(Beta)* | **Als nachgefüllt markieren** |
+| ReefMat | **Neue Rolle**, nachdem du eine neue Rolle eingelegt hast |
 
 Trident, ReefATO+ und AquaWiz melden ihren Stand selbst, in Cora musst du also nichts zurücksetzen.

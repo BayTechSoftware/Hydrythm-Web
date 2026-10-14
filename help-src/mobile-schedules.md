@@ -1,6 +1,6 @@
 ---
 title: Scheduling equipment
-description: Build a day program for a Jecod pump and copy it between pumps, and view a Maxspect gyre's schedule (Beta).
+description: Build a day program for a Jecod pump and copy it between pumps.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,13 +9,13 @@ group: Equipment
 
 Use this page to give a Jecod pump a **day program**: a set of periods, each with its own intensity, that repeats every day. Open it from **Devices** → tap the pump.
 
-You can also view a Maxspect gyre's schedule *(Beta)* the same way, but you set it in the Maxspect app. Maxspect is only open to Beta users. See [Beta features](/help/mobile-beta). Lights and pumps from other brands keep their schedules in their own pages: [EcoTech](/help/mobile-ecotech) *(Beta)*, and Red Sea's ReefRun and ReefDose in [Controlling your equipment](/help/mobile-device-control#red-sea).
+Lights and pumps from other brands keep their schedules in their own pages: Red Sea's ReefDose in [Controlling your equipment](/help/mobile-device-control#red-sea).
 
 ![A Jecod pump page in Cora Mobile with Schedule picked](img/mobile-schedules.webp "Schedule picked at the top, the feeding pause, then the day graph.")
 
 ## Same all day, or Schedule {#same-all-day-or-schedule}
 
-A pump runs in one of two modes. Pick one at the top of its page.
+A pump runs in one of two modes. Pick one with the switch on its page. The one that is running is marked *· running*, and the page opens on it.
 
 - **Same all day** runs at one intensity the whole time.
 - **Schedule** follows a day program made of periods.
@@ -34,7 +34,6 @@ Below the graph is the period list. Each period shows its hours, mode and intens
 
 Tap **Add to schedule** to add a period. To change one, open it and tap **Save**. To remove it, tap **Delete** and confirm.
 
-A Maxspect gyre *(Beta)* has two heads, shown as Gyre A and Gyre B. Its day graph has a track for each, and its plans are listed under **GYRE A** and **GYRE B**. You can only view a gyre's schedule here. Its action row says **View only**, and you set the schedule in the Maxspect app.
 
 :::warning Saving writes the schedule to the device
 When you save, Cora sends the program to the equipment, and the equipment runs it on its own clock. It keeps running whether Cora can reach it or not.

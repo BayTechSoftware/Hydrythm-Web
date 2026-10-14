@@ -49,11 +49,8 @@ When you change the grid, Cora doesn't throw tiles away by position. Tiles that 
 
 The gestures are listed along the top of the editor: **tap a tile to edit**, **long-press to move it**, and **✕ to remove it**. **Clear all** empties the grid so you can start over.
 
-The sixteen tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* and Camera *(Beta)*. You'll find them in the [Widget reference](/help/mobile-widgets). The **Scene** tile only exists on Cora Max. It runs a [scene](/help/max-automation) with one tap.
+The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod. You'll find them in the [Widget reference](/help/mobile-widgets). The **Scene** tile only exists on Cora Max. It runs a [scene](/help/max-automation) with one tap.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). Their tiles only show up once you have the device. More in [Beta features](/help/mobile-beta).
-:::
 
 ## Outlets & Feed {#outlets-feed}
 
@@ -68,7 +65,6 @@ It opens **Dashboard templates**, a few ready-made layouts built from what this 
 - **Overview**: few, large tiles, with the core parameters as gauges and your main devices
 - **Equipment**: one tile per device first, then outlets and the core parameters
 - **Parameters**: charts and readings first, with devices and outlets last
-- **Camera**: a large live view top-left with the core parameters beside it. It only appears when the tank has a camera. Cameras are in Beta and only open to Beta users.
 
 Each one shows a preview and how many tiles it has on which grid. Tap **Use this**. Cora asks **Replace your dashboard?** first. Tap **Save current as preset first** if you want to keep the layout you have, or **Replace**. Nothing is saved until you press **Save**.
 

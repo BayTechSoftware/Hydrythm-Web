@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Günlük Reef Buddy özetiniz, neleri kapsadığı, ne zaman geldiği, puanların nasıl okunduğu ve bir özetin neden gelmeyebileceği.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Sonra bir özet gelir: başlığı gerçek değerlerinizi ve aralıklarınızı 
 
 Ardından her tespit için bir tane olmak üzere içgörüler gelir. Her birinin bir kategorisi (*Su Kimyası* gibi) ve bir sıklığı (*Günlük* gibi) vardır ve ayrıntı için genişletebilirsiniz. Bölümün üstündeki bir çip akvaryum türünü ve profilinin ne kadar dolu olduğunu gösterir. İkisi de Cora'nın varabileceği sonuçları etkiler.
 
+
 Cora içgörüleri size ulaşmadan önce süzer. Bir içgörünün birkaç ölçüm boyunca geçerli kalması gerekir. Tek bir ölçüm yetmez. Ayrıca tek bir grafiğin zaten göstermeyeceği bir şey söylemesi gerekir.
 
 Tam özeti açmak için panodaki karta dokunun.
@@ -51,11 +52,8 @@ Prob ve kontrolcü ölçümleri bu teklifi tetiklemez, çünkü gün boyu gelirl
 
 Bir içgörünün altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümler**'i, **Karşılaştırılan hedef**'i (kendi hedefiniz ya da bir referans aralığı), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı gün cinsinden zaman aralığını listeler. Gerekçe akvaryumunuza uymuyorsa içgörüyü [Bir içgörüyü düzeltme](#bir-icgoruyu-duzeltme) bölümünde anlatıldığı gibi yanıtlayın.
 
-Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık programlarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında, DŌS kafalarınızın toplamlarını ve bir Inkbird oda havası monitörünüz varsa odanın sıcaklığını ve nemini kullanabilirler.
+Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık programlarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında ve DŌS kafalarınızın toplamlarını kullanabilirler.
 
-:::note Inkbird Beta aşamasındadır
-**Beta.** Inkbird Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
 ## Ne zaman gelir
 

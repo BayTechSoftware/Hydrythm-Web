@@ -3,12 +3,13 @@ title: Actividad y línea de tiempo
 description: Ve cada cambio enviado a tus equipos, quién o qué lo pidió y si funcionó, y lee la línea de tiempo del acuario alrededor de una fecha.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Actividad muestra cada intento de cambiar algo en tus equipos: encender o apagar tomas, ciclos de alimentación, dosis y todo lo que haya hecho una escena o una automatización. Cada fila muestra qué lo pidió y qué pasó después, incluidas las solicitudes que no funcionaron.
+
 
 Ve a **Ajustes → Actividad**. Si tienes más de un acuario, elígelo con las etiquetas de acuario de arriba.
 

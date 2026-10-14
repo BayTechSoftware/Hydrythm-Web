@@ -3,7 +3,7 @@ title: Cora'ya sorun
 description: Cora Assistant'ı yazarak ya da konuşarak kullanın; neleri görebildiğini, sizin için neler yapabildiğini, veri paylaşım anahtarını ve hafızayı öğrenin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Bir testi, günlük kaydını ya da beslemeyi kaydetmek siz istediğinizde olur.
 
 Ekipman kontrolü evden uzaktayken yalnızca akvaryumdaki bir Cora Max ekipmana ulaşabildiğinde çalışır. [Evden uzaktayken neler çalışır](/help/mobile-multi-device#what-works-away-from-home) bölümüne bakın.
 
-:::note Beta ekipmanı
-Cora ayrıca GHL, HYDROS, Focustronic, Maxspect ve EcoTech (Radion, VorTech ve Versa) ekipmanını da kontrol edebilir. **Beta.** Bu entegrasyonlar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin.
-:::
 
 :::warning Cora tavsiye verir, karar sizindir
 Önemli olan her şeyi kendi testlerinizle kontrol edin. Büyük değişikliklere başka birinden gelen bir tavsiyeye nasıl yaklaşıyorsanız öyle yaklaşın ve harekete geçmeden önce mantıklı olup olmadığını kontrol edin. Mesaj kutusunun altındaki satır da aynı şeyi söyler.

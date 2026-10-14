@@ -3,7 +3,7 @@ title: Notifications
 description: Choose which notifications reach your phone, keep nights quiet, read what you missed under the bell, and fix notifications that don't arrive.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ The card at the top says whether this phone allows notifications from Cora at al
 |---|---|
 | **Parameter Alerts** | Water chemistry outside a range you set, and the *recovered* notification when it comes back |
 | **Maintenance Reminders** | Tasks you scheduled, like water changes, and a one-time reminder to log your first test when a new tank still has no readings after three days |
-| **Equipment Faults** | A device reporting a problem, for example a Trident that has stopped testing. Also a device that [stopped reporting](/help/mobile-alerts#stopped-reporting), a missed dose, and the full-cup alert from Skimmer Watch |
+| **Equipment Faults** | A device reporting a problem, for example a Trident that has stopped testing. Also a device that [stopped reporting](/help/mobile-alerts#stopped-reporting) and a missed dose |
 | **Supplies Running Low** | Reagent, top-off water, dosing containers, and a full waste bottle |
 | **ICP Report Ready** | Your ICP results are analysed and ready to read |
 

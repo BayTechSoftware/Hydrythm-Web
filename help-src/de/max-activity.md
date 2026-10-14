@@ -18,6 +18,7 @@ Du öffnest sie über das **Beckenmenü** (tippe in der oberen Leiste auf den Be
 
 Jede Zeile zeigt die Ausrüstung und was angefragt wurde, zum Beispiel *Rückförderpumpe: Ausgeschaltet*, und die Uhrzeit. Außerdem sagt sie dir zwei weitere Dinge.
 
+
 **Wer es ausgelöst hat.** Zum Beispiel **Auf diesem Cora getippt**, **Sprache auf diesem Cora**, **Cora-App**, **Sprache in der Cora-App**, **Automationsregel** oder **Aus der Cloud gesendet**.
 
 **Welchen Weg es genommen hat.** **LAN** heißt, es lief über dein eigenes Netzwerk. **ÜBER CLOUD** heißt, es lief über Cora Cloud. Hast du mehr als ein Cora Max, steht im Eintrag auch, welches es ausgeführt hat.

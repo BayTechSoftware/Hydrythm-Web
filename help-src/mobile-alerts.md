@@ -3,7 +3,7 @@ title: Alerts and thresholds
 description: Set the healthy range for each reading, choose how often an alert can notify you, and find out why a device "stopped reporting".
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 20
+order: 22
 group: Alerts and automation
 twin: max-alerts
 ---
@@ -87,7 +87,6 @@ Once an alert is up, it won't keep notifying you about the same thing. The rule'
 
 Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod pump reports a fault, Cora sends a notification naming the tank and the device, for example *"Display tank: Return pump needs attention"*. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: *"Display tank: Return pump is OK again"*. Both fall under **Equipment Faults** in **Settings → Notifications**.
 
-A Maxspect gyre (Beta) can raise the same alert. This happens when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat it as a warning, not a safeguard. The Cora Max only checks from time to time, and only while it's running and can reach the gyre.
 
 ## A device has stopped reporting {#stopped-reporting}
 
@@ -101,27 +100,16 @@ How long Cora waits depends on the device:
 | Red Sea ReefBeat | About 30 minutes |
 | AquaWiz | About 3 hours, because it reports less often |
 | Jecod pumps | Three missed readings in a row, on the pump's reading interval (90 minutes at the default 30) |
-| Maxspect (Beta) | Three missed readings in a row, like Jecod |
-| EcoTech (Beta) | Three missed readings in a row, on the network's reading interval (90 minutes at the default 30). If you set a longer time under **Light stops answering**, Cora waits that long |
-| Inkbird room air monitor (Beta) | Three missed readings in a row, on the monitor's own interval (15 minutes at the default 5) |
-| Focustronic (Beta) | About 3 hours |
-| GHL (Beta) | About 15 minutes. The notification says *"GHL controller not reachable"* |
-| HYDROS (Beta) | About 30 minutes. The notification says *"HYDROS controller not reporting"* |
+| Zigbee smart plug | Still silent 30 minutes after its hub restarted. Give it a name with **Rename** so the alert says which plug |
 
 What to check depends on how Cora reads the device.
 
-- Apex, ReefBeat, Jecod, Maxspect and GHL are read by a Cora Max over Wi-Fi. Check the device's power and Wi-Fi, and that the Cora Max that reads it is switched on and online.
-- EcoTech and Inkbird are read by a Cora Max over Bluetooth. Check the power, that the device is within Bluetooth range of the Cora Max, and that the Cora Max is on.
-- AquaWiz and Focustronic are read through your account with the maker. Check the account connection on the device's page in Cora Mobile.
-- For HYDROS, check its power, Wi-Fi and device key.
+- Apex, ReefBeat and Jecod are read by a Cora Max over Wi-Fi. Check the device's power and Wi-Fi, and that the Cora Max that reads it is switched on and online.
+- AquaWiz is read through your account with the maker. Check the account connection on the device's page in Cora Mobile.
 
-GHL can also tell you *"GHL API is off"* or that the controller *"rejected the connection"*. If the Cora Max that reads a GHL controller goes quiet, you get *"Cora Max not reporting for"* that controller. The fixes are in [Troubleshooting](/help/troubleshooting).
 
 These notifications fall under **Equipment Faults** in **Settings → Notifications**.
 
-:::note Beta
-Maxspect, EcoTech, Inkbird, Focustronic, GHL and HYDROS are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). More in [Beta features](/help/mobile-beta).
-:::
 
 A Red Sea tank can also show a banner, *"Red Sea readings have stopped updating"*, when no phone or Cora Max is reading its ReefBeat equipment. Tap it to pick a **Primary Cora Max**. The full fix is in [Troubleshooting](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 

@@ -12,13 +12,31 @@ reason. A NEW surface added to either app fails this until it is routed.
 
     python3 audit_coverage.py          # report
     python3 audit_coverage.py --strict # non-zero if anything is unrouted
+
+Options (used by the private prepare step, see help-src/README.md):
+    --src DIR        the help source to check routes against (default help-src/)
+    --repo DIR       the app repo holding mobile/lib and cora-max/lib (default ..)
+    --manifest JSON  extra {"map": {...}, "excluded": {...}} entries kept outside
+                     this repo, for surfaces whose help is not published
 """
-import re, sys
+import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-REPO = ROOT.parent
-SRC = ROOT / "help-src"
+
+
+def _opt(name: str, default: Path | None) -> Path | None:
+    if name in sys.argv:
+        i = sys.argv.index(name)
+        if i + 1 >= len(sys.argv):
+            raise SystemExit(f"⛔ {name} needs a value")
+        return Path(sys.argv[i + 1]).resolve()
+    return default
+
+
+REPO = _opt("--repo", ROOT.parent)
+SRC = _opt("--src", ROOT / "help-src")
+MANIFEST = _opt("--manifest", None)
 
 # surface stem -> help page slug
 MAP = {
@@ -48,10 +66,10 @@ MAP = {
     "apex_dashboard": "mobile-device-control", "apex_detail": "max-device-control",
     "reefbeat_device_detail": "mobile-device-control",
     "trident_detail": "mobile-device-control", "dos_detail": "mobile-device-control",
-    "maxspect_detail": "mobile-device-control", "gizwits_control": "mobile-device-control",
+ "gizwits_control": "mobile-device-control",
     "gizwits_ble_device": "mobile-device-control",
     "gizwits_undrivable_device": "mobile-device-control",
-    "maxspect_schedule": "mobile-schedules", "gizwits_schedule": "mobile-schedules",
+ "gizwits_schedule": "mobile-schedules",
     "gizwits_apply_program": "mobile-schedules", "gizwits_copy_schedule": "mobile-schedules",
     "probe_mapping": "mobile-probes", "record_probe_care": "mobile-probes",
     "consumable_alert": "mobile-consumables",
@@ -95,47 +113,16 @@ MAP = {
     "dos_head_config": "max-device-control",
     "scene_list": "max-automation", "scene_editor": "max-automation",
     "scene_confirm": "max-automation",
-    # -- added 2026-09-30 with the GHL / HYDROS / probe mapping v2 round --
-    "ghl_detail": "max-device-control", "ghl_device_detail": "mobile-device-control",
-    "hydros_device_detail": "mobile-device-control",
-    "hydros_head_config": "mobile-device-control",
+    # -- added 2026-09-30 with the probe mapping v2 round --
     "metric_source": "mobile-probes", "rename_metric": "mobile-probes",
     # -- added 2026-10-01 with the phone Devices consolidation (one Add Device) --
     "brand_picker": "mobile-devices",
-    "apex_setup": "mobile-connections", "ghl_connection_form": "mobile-connections",
-    "ghl_replace": "mobile-connections", "hydros_add": "mobile-connections",
+    "apex_setup": "mobile-connections",
     "reefbeat_setup": "mobile-connections",
     "apex_device_detail": "mobile-device-control",
     "aquawiz_device_detail": "mobile-device-control",
     "specto_device_detail": "mobile-device-control",
-    "hydros_detail": "max-device-control",
-    # -- added 2026-10-12 with the Beta integrations and the Sept/Oct features --
-    "camera": "mobile-cameras",
-    "camera_add": "mobile-cameras",
-    "camera_brand": "mobile-cameras",
-    "skimmer_mark": "mobile-cameras",
-    "mobius_add": "mobile-ecotech",
-    "mobius_device_detail": "mobile-ecotech",
-    "mobius_device_redirect": "mobile-ecotech",
-    "mobius_rename": "mobile-ecotech",
-    "mobius_schedule_editor": "mobile-ecotech",
-    "mobius_settings": "mobile-ecotech",
-    "radion": "mobile-ecotech",
-    "radion_alert": "mobile-ecotech",
-    "radion_rename": "mobile-ecotech",
-    "radion_settings": "mobile-ecotech",
-    "versa": "mobile-ecotech",
-    "versa_detail": "mobile-ecotech",
-    "versa_schedule_editor": "mobile-ecotech",
-    "vortech": "mobile-ecotech",
-    "vortech_alert": "mobile-ecotech",
-    "vortech_detail": "mobile-ecotech",
-    "vortech_schedule_editor": "mobile-ecotech",
-    "focustronic_add": "mobile-connections",
-    "focustronic_detail": "mobile-connections",
-    "focustronic_device_detail": "mobile-connections",
-    "inkbird_add": "mobile-connections",
-    "inkbird_device": "mobile-connections",
+    # -- added 2026-10-12 with the Sept/Oct features --
     "device_rename": "mobile-devices",
     "dashboard_ai_design": "mobile-dashboard-editing",
     "feeding_routine": "mobile-journal",
@@ -148,9 +135,6 @@ MAP = {
 
 # surface stem -> why it is deliberately NOT in the guide
 EXCLUDED = {
-    "reef_factory_add": "feature disabled, not documented",
-    "reef_factory_detail": "feature disabled, not documented",
-    "reef_factory_device": "feature disabled, not documented",
     "dashboard_template": "rule templates not public yet; document when phone 350 / Cora Max OTA ships",
     "admin_dashboard": "internal admin", "admin_intelligence": "internal admin",
     "admin_partner_campaigns": "internal admin", "admin_user_detail": "internal admin",
@@ -161,7 +145,6 @@ EXCLUDED = {
     "zigbee_button_config": "needs a gateway outside the public lineup",
     "gizwits_ble_probe": "developer probe screen",
     "webrtc_probe": "developer probe screen",
-    "beta_nda": "beta programme, not a shipped-product surface",
     "bounded": "layout infrastructure, not a screen",
     "admin_fleet_health": "internal admin",
 }
@@ -183,7 +166,22 @@ def surfaces():
 
 
 def main() -> int:
+    if MANIFEST is not None:
+        extra = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        clash = sorted((MAP.keys() & extra.get("map", {}).keys())
+                       | (EXCLUDED.keys() & extra.get("excluded", {}).keys()))
+        if clash:
+            print(f"⛔ the manifest repeats entries already in this file: {clash}")
+            return 2
+        MAP.update(extra.get("map", {}))
+        EXCLUDED.update(extra.get("excluded", {}))
     pages = {p.stem for p in SRC.glob("*.md") if p.name != "README.md"}
+    # ⭐ Owner, 2026-10-14: Beta features are HIDDEN on the public guide. Their
+    # pages carry `beta: true` and are not built, but they still exist in
+    # help-src/ and still document the surface, so a surface routed to one
+    # COUNTS AS ROUTED (it is reported separately below, not as a gap).
+    hidden = {p.stem for p in SRC.glob("*.md") if p.name != "README.md"
+              and re.search(r"^beta:\s*true\s*$", p.read_text(encoding="utf-8").split("\n---\n", 1)[0], re.M)}
     found = surfaces()
     # ⛔ A zero denominator is a broken run, not a clean tree.
     if len(found) < 60:
@@ -203,9 +201,11 @@ def main() -> int:
     covered = len(found) - len(EXCLUDED & found.keys()) - len(unrouted)
     print(f"surfaces found      : {len(found)}")
     print(f"  routed to a page  : {covered}")
+    to_hidden = sorted(s for s in found if MAP.get(s) in hidden and s not in EXCLUDED)
+    print(f"    of which to a hidden Beta page: {len(to_hidden)}")
     print(f"  excluded on purpose: {len(EXCLUDED & found.keys())}")
     print(f"  UNROUTED          : {len(unrouted)}")
-    print(f"help pages          : {len(pages)}")
+    print(f"help pages          : {len(pages)} ({len(hidden)} hidden Beta: {', '.join(sorted(hidden))})")
     if unrouted:
         print("\n⛔ no help page covers these surfaces:")
         for stem, tree in unrouted:

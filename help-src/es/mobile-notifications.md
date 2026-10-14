@@ -3,7 +3,7 @@ title: Notificaciones
 description: Elige qué notificaciones llegan a tu teléfono, ten noches tranquilas, lee lo que te perdiste en la campana y arregla las notificaciones que no llegan.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ La tarjeta de arriba indica si este teléfono permite notificaciones de Cora (**
 |---|---|
 | **Alertas de parámetros** | La química del agua sale de un rango que fijaste, y la notificación de *recuperación* cuando vuelve |
 | **Recordatorios de mantenimiento** | Tareas que programaste, como los cambios de agua, y un recordatorio único para anotar tu primera prueba cuando un acuario nuevo sigue sin lecturas a los tres días |
-| **Fallas de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir. También un dispositivo que [dejó de informar](/help/mobile-alerts#stopped-reporting), una dosis omitida y la alerta de vaso lleno de la vigilancia del skimmer |
+| **Fallas de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir. También un dispositivo que [dejó de informar](/help/mobile-alerts#stopped-reporting) y una dosis omitida |
 | **Suministros bajos** | Reactivo, agua de reposición, envases de dosificación y una botella de residuos llena |
 | **Informe ICP listo** | Tus resultados de ICP ya están analizados y puedes leerlos |
 

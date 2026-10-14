@@ -19,7 +19,7 @@ Dónde se configura:
 
 - **La mayoría de los dispositivos**: la campana de la barra superior de la página del dispositivo.
 - **DŌS**: la tarjeta **Alertas** de la página del DŌS, o la campana. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
-- **Dosificadoras AquaWiz y GHL**: su regla en la pestaña **Reglas** del [Centro de alertas](/help/mobile-alerts).
+- **Dosificadoras AquaWiz**: su regla en la pestaña **Reglas** del [Centro de alertas](/help/mobile-alerts).
 
 La mayoría de los umbrales van en días, no en volumen. Cora calcula cuánto te durará lo que queda según lo que estás gastando. "Quedan cuatro días de calcio" es algo con lo que puedes actuar. "Quedan 180 mL", no.
 
@@ -37,14 +37,7 @@ La mayoría de los umbrales van en días, no en volumen. Cora calcula cuánto te
 | ReefATO+ | **Autonomía del depósito**, calculada según el uso reciente de la reposición | 2 días |
 | ReefMat | **Rollo restante**, calculado según lo rápido que avanza el rodillo | 3 días |
 | AquaWiz | Suplemento de alcalinidad que queda | 100 mL |
-| Dosificadora GHL *(Beta)* | Lo lleno que está el envase | 20% |
-| EcoTech Versa *(Beta)* | Días de suplemento que quedan, y lo lleno que está el envase | 7 días, 10% |
 
-Una unidad Focustronic *(Beta)* muestra sus propios avisos de reactivo y de tampón en su página.
-
-:::note Beta
-**Beta.** GHL, EcoTech y Focustronic están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
-:::
 
 Una alerta de consumible funciona como cualquier otra alerta. Aparece en el [Centro de alertas](/help/mobile-alerts) y puede llegarte como notificación al teléfono. Recibes **una** sola notificación cuando se cruza un nivel, y la alerta desaparece cuando el nivel vuelve a estar por encima del umbral.
 
@@ -65,7 +58,6 @@ Díselo a Cora en la página del dispositivo, para que la alerta desaparezca y e
 | Cabezal DŌS | **Llenar** y después **Lleno**, o pon el **Volumen restante** |
 | Contenedor de residuos del DŌS | Restablece su espacio libre a lleno después de vaciarlo |
 | Cabezal ReefDose | **Restante en la botella** |
-| ReefMat | **Nuevo rollo (Beta)** después de poner un rollo nuevo |
-| EcoTech Versa *(Beta)* | **Marcar como rellenado** |
+| ReefMat | **Nuevo rollo** después de poner un rollo nuevo |
 
 Trident, ReefATO+ y AquaWiz informan de sus propios niveles, así que no hay nada que restablecer en Cora.

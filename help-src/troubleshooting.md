@@ -13,14 +13,10 @@ Find the family your problem belongs to, then the message or symptom you see. He
 - [A command didn't go through](#command-did-not-go-through)
 - [Cora Max](#cora-max)
 - [Alerts, notifications and the daily briefing](#alerts-and-notifications)
-- [Cameras and Skimmer Watch](#cameras-and-skimmer-watch)
 - [Cora Assistant and voice](#cora-assistant-and-voice)
 - [Lab results and health reports](#lab-results-and-health-reports)
 - [Language, units and signing in](#language-units-and-signing-in)
 
-:::note Beta integrations
-Some entries below are about Beta integrations: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird and cameras. **Beta.** These integrations are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact support. More in [Beta features](/help/mobile-beta).
-:::
 
 ## Readings and widgets {#readings-and-widgets}
 
@@ -91,7 +87,6 @@ Cora sends this when a device goes quiet. It doesn't mean the device is broken, 
 2. Check that the Cora Max reading it is switched on and online. Without a Cora Max, your phone reads a Neptune Apex, Red Sea or Jecod device only while Cora Mobile is open on the same Wi-Fi.
 3. Wait for the next reading. You get a second notification once it's reporting again.
 
-GHL and HYDROS have their own messages, further down this page.
 
 ### "Device is offline. Showing last known state." {#device-is-offline-showing-last-known-state}
 
@@ -129,23 +124,6 @@ That's normal. A Red Sea device's own settings only open when your phone is on t
 1. Join the tank's Wi-Fi to change those settings.
 2. Readings and history keep working when you're away.
 
-### "GHL API is off" {#ghl-api-is-off}
-
-GHL (Beta) turns its official API off after every firmware update, so this is normal after an update. Turn it back on from **System → GHL API** in GHL Control Center or GHL Connect, on the controller itself. Cora keeps checking and reconnects once it's back on.
-
-### "GHL controller unreachable" {#ghl-controller-unreachable}
-
-Cora Max can't reach the GHL (Beta) controller's address on your network.
-
-1. Check the controller is powered on and connected to your network.
-2. Check its IP address hasn't changed. If it has, open it on your phone (**Devices**) and update it under **Connection**.
-3. Check the Cora Max reading this tank is on the same network as the controller.
-
-### A HYDROS controller shows as offline or not reporting {#a-hydros-controller-shows-as-offline-or-not-reporting}
-
-HYDROS (Beta) reports through its own cloud, so this usually means the controller has lost power or its own connection. Check it in the HYDROS app. Readings catch up once it's back online. A command sent while it looks offline isn't sent at all.
-
-If a HYDROS device shows **Key revoked**, its device key was removed or replaced in the HYDROS app. Create a new key and link it again on your phone from **Devices → Add Device → HYDROS**.
 
 ## A command didn't go through {#command-did-not-go-through}
 
@@ -163,9 +141,6 @@ A command to your Jecod or Jebao pump never left Cora. On your phone the message
 
 Your phone is out of range of a Bluetooth-only Jecod pump. Move closer to the pump and tap **Retry**.
 
-### "Could not reach that gyre. Its program was not changed." {#could-not-reach-that-gyre-its-program-was-not-changed}
-
-Cora couldn't get a new schedule through to a Maxspect (Beta) gyre. Check the gyre is powered on and that your phone or Cora Max is on its network, then tap **Retry** on the schedule screen.
 
 ### "Could not reach the Apex: nothing changed" / "nothing was dosed" {#could-not-reach-the-apex-nothing-changed-nothing-was-dosed}
 
@@ -334,21 +309,6 @@ Removing a tank only hides it. Its devices stay linked to it, and a Cora Max can
 
 Then remove the tank again. More in [Managing your tanks](/help/mobile-tanks).
 
-## Cameras and Skimmer Watch {#cameras-and-skimmer-watch}
-
-Cameras and Skimmer Watch are Beta. Setting them up is in [Cameras and Skimmer Watch](/help/mobile-cameras).
-
-### Skimmer Watch shows a message instead of a cup level {#skimmer-watch-messages}
-
-- **Mark the cup first**: Skimmer Watch doesn't know where the cup is yet. Tap **Mark the cup** and drag the box over it.
-- **Not calibrated: empty the cup and tap Cup is empty now**: do exactly that, with the cup empty.
-- **Box moved: calibrate again**: you moved the box, so calibrate again with an empty cup.
-- **Not sure (low confidence)**: the picture wasn't clear enough. Read the **Camera tips** on the Skimmer Watch screen, then wait for the next check or tap **Check now**.
-- **Light too bright behind the cup**: turn off the light behind the cup, or set the camera's night vision to always on.
-- **Cora Max could not get a picture of the camera.**: check the camera is powered and online, and that the Cora Max reading it is on.
-- **The last check failed.**: tap **Check now**. If it keeps failing, check the camera and Cora Max.
-- **No reading yet. Cora Max checks every 15 minutes.**: wait for the first check.
-- **Skimmer Watch needs a paid plan.**: Skimmer Watch is part of the paid plans.
 
 ## Cora Assistant and voice {#cora-assistant-and-voice}
 

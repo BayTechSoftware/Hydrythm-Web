@@ -49,11 +49,8 @@ Quand vous changez de grille, Cora ne jette pas les tuiles selon leur position. 
 
 Les gestes sont rappelés en haut de l’éditeur : **Touchez une tuile pour modifier**, **appui long pour déplacer** et **✕ pour retirer**. **Tout effacer** vide la grille pour repartir de zéro.
 
-Les seize types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* et Caméra *(Beta)*. Vous les trouverez dans la [Référence des widgets](/help/mobile-widgets). La tuile **Scène** n’existe que sur Cora Max. Elle lance une [scène](/help/max-automation) d’un seul appui.
+Les types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex et Jecod. Vous les trouverez dans la [Référence des widgets](/help/mobile-widgets). La tuile **Scène** n’existe que sur Cora Max. Elle lance une [scène](/help/max-automation) d’un seul appui.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) et les caméras sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Leurs tuiles n’apparaissent qu’une fois l’appareil ajouté. Plus de détails dans [Fonctions Beta](/help/mobile-beta).
-:::
 
 ## Prises et nourrissage {#outlets-feed}
 
@@ -68,7 +65,6 @@ Cela ouvre **Modèles de tableau de bord**, quelques dispositions toutes prêtes
 - **Vue d'ensemble** : peu de tuiles, en grand, avec les paramètres clés en jauges et vos appareils principaux
 - **Équipement** : d’abord une tuile par appareil, puis les prises et les paramètres clés
 - **Paramètres** : graphiques et mesures d’abord, appareils et prises en dernier
-- **Caméra** : une grande vue en direct en haut à gauche, avec les paramètres clés à côté. Il n’apparaît que si l’aquarium a une caméra. Les caméras sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta.
 
 Chacun affiche un aperçu et indique combien de tuiles il contient et sur quelle grille. Touchez **Utiliser**. Cora demande d’abord **Remplacer votre tableau de bord ?** Touchez **Enregistrer l'actuel comme préréglage d'abord** si vous voulez garder votre disposition actuelle, ou **Remplacer**. Rien n’est enregistré tant que vous n’appuyez pas sur **Enregistrer**.
 

@@ -95,9 +95,6 @@
 <li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
-<li><a href="/tr/help/mobile-cameras">Kameralar ve Skimmer Gözcüsü</a></li>
-<li><a href="/tr/help/mobile-ecotech">EcoTech ışıkları, pompaları ve dozaj pompaları</a></li>
-<li><a href="/tr/help/mobile-beta">Beta özellikleri</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Uyarılar ve otomasyon</summary><ul>
@@ -190,7 +187,6 @@
 <p>Üç plan var: <strong>Plus</strong>, <strong>Pro</strong> ve <strong>Max</strong>. Her biri aylık ya da yıllık alınabilir. Ayarlar onları Cora Plus, Cora Pro ve Cora Max olarak gösterir. Güncel fiyatları Cora Mobile'da ve uygulama mağazanızda bulursunuz, çünkü ödemeyi orada yaparsınız.</p>
 <div class="tw"><table><thead><tr><th></th><th>Plus</th><th>Pro</th><th>Max</th></tr></thead><tbody><tr><td data-th="">Asistan mesajı / ay</td><td data-th="Plus">500</td><td data-th="Pro">1.200</td><td data-th="Max">2.500 (adil kullanım)</td></tr><tr><td data-th="">Sesli oturum / ay</td><td data-th="Plus">100</td><td data-th="Pro">200</td><td data-th="Max">400</td></tr><tr><td data-th="">Sağlık Raporu / ay</td><td data-th="Plus">4</td><td data-th="Pro">12</td><td data-th="Max">100</td></tr><tr><td data-th="">ICP analizi / ay</td><td data-th="Plus">1</td><td data-th="Pro">3</td><td data-th="Max">30</td></tr><tr><td data-th="">Yapay zeka izlemeli akvaryum</td><td data-th="Plus">1</td><td data-th="Pro">5</td><td data-th="Max">20</td></tr></tbody></table></div>
 <p>Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan da düşer. Her ücretli plan Reef Buddy'yi, Cora'nın okuduğu laboratuvarlar için ICP yükleme ve analizini, kendi geçmişinizle karşılaştırmayı ve panolar için <strong>Yapay zeka ile tasarla</strong>'yı (her akvaryum için günde en fazla 5 tasarım) içerir.</p>
-<p>Ücretli planlar ayrıca sump'ınızdaki bir kamera için Skimmer Gözcüsü uyarılarını içerir. Deneme içermez. <strong>Beta.</strong> Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onları <strong>Cihaz Ekle</strong> içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar <a href="/tr/help/mobile-cameras">Kameralar</a> sayfasında.</p>
 <aside class="cal cal-note"><p class="cal-t">Max planı Cora Max ekranı değildir</p><p><strong>Max planı</strong> bir aboneliktir. <strong>Cora Max</strong>, akvaryumunuzun yanında duran ekrandır. Birine sahip olmak için diğerine ihtiyacınız yoktur.</p></aside>
 <h3 id="which-tanks-get-ai">Hangi akvaryumlar yapay zeka alır</h3>
 <p>Reef Buddy ve yapay zeka izlemesi, <strong>Ayarlar → Akvaryumları yeniden sırala</strong> listesinin üstünden sayılarak planınızın izin verdiği kadar akvaryumu kapsar. Bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.</p>
@@ -223,7 +219,7 @@
 <p>Hâlâ yoksa <strong>Satın Alımları Geri Yükle</strong>'ye dokunun. Ayarlar'da <em>Planınız doğrulanamadı</em> yazıyorsa bağlantınızı kontrol edin ve <strong>Tekrar dene</strong>'ye dokunun. Cora kontrol ederken erişiminiz değişmez. Bunların hiçbiri işe yaramazsa satın aldığınız tarihle birlikte <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
 <p>Hangi planda olursanız olun verileriniz size aittir. Ayrıntılar <a href="/tr/help/mobile-data-export">Verilerinizi dışa aktarma ve hesabınızı silme</a> sayfasında. Cora Mobile içinden bir faturalandırma sorunu bildirmek için <a href="/tr/help/mobile-support">Sorun bildirme</a> sayfasına bakın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-multi-device"><span>Önceki</span><b>Birden fazla Cora cihazı</b></a><a class="pn-n" href="/tr/help/mobile-data-export"><span>Sonraki</span><b>Verilerinizi dışa aktarma ve hesabınızı silme</b></a></nav>
-      <p class="stamp">Cora Max 0.28.170 ve Cora Mobile 0.5.111 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -614,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=7b891243eb').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

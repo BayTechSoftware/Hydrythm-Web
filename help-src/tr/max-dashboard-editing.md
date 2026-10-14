@@ -49,11 +49,8 @@ Izgarayı değiştirdiğinizde Cora kutucukları konumlarına göre atmaz. Hâl�
 
 Hareketler düzenleyicinin üstünde listelenir: **düzenlemek için bir kutucuğa dokunun**, **taşımak için uzun basın** ve **kaldırmak için ✕**. **Tümünü temizle**, baştan başlayabilmeniz için ızgarayı boşaltır.
 
-On altı kutucuk türü şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* ve Kamera *(Beta)*. Onları [Widget rehberi](/help/mobile-widgets) sayfasında bulursunuz. **Sahne** kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir [sahne](/help/max-automation) çalıştırır.
+Kutucuk türleri şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü ve Jecod. Onları [Widget rehberi](/help/mobile-widgets) sayfasında bulursunuz. **Sahne** kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir [sahne](/help/max-automation) çalıştırır.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) ve kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Kutucukları ancak cihaza sahip olduğunuzda görünür. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
 ## Prizler ve Besleme {#outlets-feed}
 
@@ -68,7 +65,6 @@ Bu akvaryumun bildirdiklerinden ve bağladıklarından oluşturulan birkaç haz�
 - **Genel bakış**: temel parametreler gösterge olarak ve ana cihazlarınızla, az sayıda büyük kutucuk
 - **Ekipman**: önce her cihaz için bir kutucuk, ardından prizler ve temel parametreler
 - **Parametreler**: önce grafikler ve ölçümler, cihazlar ve prizler en sonda
-- **Kamera**: sol üstte büyük bir canlı görüntü ve yanında temel parametreler. Yalnızca akvaryumda bir kamera varsa görünür. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
 
 Her biri bir önizleme ve hangi ızgarada kaç kutucuğu olduğunu gösterir. **Bunu kullan**'a dokunun. Cora önce **Panonuz değiştirilsin mi?** diye sorar. Mevcut düzeninizi saklamak istiyorsanız **Önce mevcut olanı ön ayar olarak kaydet**'e, istemiyorsanız **Değiştir**'e dokunun. **Kaydet**'e basana kadar hiçbir şey kaydedilmez.
 

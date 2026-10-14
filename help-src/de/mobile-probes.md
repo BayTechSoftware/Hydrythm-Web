@@ -9,7 +9,7 @@ group: Equipment
 
 Mit der **Parameterzuordnung** sagst du Cora, was jede Sonde misst und, wenn zwei Sonden dasselbe melden, welcher es vertrauen soll. Geh zu **Einstellungen**, öffne das Becken und tippe auf **Parameterzuordnung**.
 
-Sie steht zwischen **Becken bearbeiten** und **Warnschwellen**. Der Stift oben auf dem Dashboard öffnet **Becken bearbeiten**, wo es sie nicht gibt. Du erreichst sie auch über die Geräteseiten von Neptune Apex und GHL (Beta). GHL ist nur für Beta-Nutzer offen. Siehe [Beta-Funktionen](/help/mobile-beta).
+Sie steht zwischen **Becken bearbeiten** und **Warnschwellen**. Der Stift oben auf dem Dashboard öffnet **Becken bearbeiten**, wo es sie nicht gibt. Du erreichst sie auch über die Geräteseiten von Neptune Apex.
 
 Der Bildschirm hat ein Suchfeld (**Parameter suchen**) und zwei Tabs, **Zuordnung** und **Quellen**. Die Suche durchsucht Namen von Wasserwerten, Namen von Sonden, Geräte und Marken. Dasselbe Suchfeld gibt es in jeder Auswahl von Wasserwerten.
 

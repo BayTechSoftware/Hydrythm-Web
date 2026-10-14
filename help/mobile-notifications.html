@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Alerts and automation</summary><ul>
@@ -179,7 +176,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Settings, Notifications in Cora Mobile"><img src="/help/img/mobile-notifications.webp" alt="Settings, Notifications in Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Each category has its own switch.</figcaption></figure>
 <h2 id="categories">What can push</h2>
 <p>The card at the top says whether this phone allows notifications from Cora at all (<strong>Notifications enabled</strong> or <strong>Notifications disabled</strong>). Under <strong>App Notifications</strong>, each category has its own switch:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set, and the <em>recovered</em> notification when it comes back</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes, and a one-time reminder to log your first test when a new tank still has no readings after three days</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem, for example a Trident that has stopped testing. Also a device that <a href="/help/mobile-alerts#stopped-reporting">stopped reporting</a>, a missed dose, and the full-cup alert from Skimmer Watch</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers, and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Category</th><th>Covers</th></tr></thead><tbody><tr><td data-th="Category"><strong>Parameter Alerts</strong></td><td data-th="Covers">Water chemistry outside a range you set, and the <em>recovered</em> notification when it comes back</td></tr><tr><td data-th="Category"><strong>Maintenance Reminders</strong></td><td data-th="Covers">Tasks you scheduled, like water changes, and a one-time reminder to log your first test when a new tank still has no readings after three days</td></tr><tr><td data-th="Category"><strong>Equipment Faults</strong></td><td data-th="Covers">A device reporting a problem, for example a Trident that has stopped testing. Also a device that <a href="/help/mobile-alerts#stopped-reporting">stopped reporting</a> and a missed dose</td></tr><tr><td data-th="Category"><strong>Supplies Running Low</strong></td><td data-th="Covers">Reagent, top-off water, dosing containers, and a full waste bottle</td></tr><tr><td data-th="Category"><strong>ICP Report Ready</strong></td><td data-th="Covers">Your ICP results are analysed and ready to read</td></tr></tbody></table></div>
 <p>When you turn a category off, it stops pushing. Cora still records the event, and you'll still find it under the bell.</p>
 <p>These switches belong to your account, so they apply to every phone you're signed in on.</p>
 <aside class="cal cal-warning"><p class="cal-t">"Parameter Alerts" is only about chemistry</p><p>That switch doesn't cover everything the tank might tell you. A Trident that has stopped testing is an <strong>Equipment Fault</strong>. Reagent running out is <strong>Supplies Running Low</strong>. Each has its own switch. If you've relied on Parameter Alerts for a long time, check the other two.</p></aside>
@@ -204,7 +201,7 @@
 <p>Look at your thresholds before you turn notifications off. Too many alerts usually means a range is tighter than the tank really runs, or a source needs calibrating. More in <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
 <p>Turning a category off silences all of it. If it's one alert pushing too often, change <strong>Cooldown between alerts</strong> on that rule instead. It goes from 15 minutes up to 1 week. The cooldown options, and what Snooze does on Cora Max, are in <a href="/help/mobile-alerts#cooldowns">Cooldowns</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-alerts"><span>Previous</span><b>Alerts and thresholds</b></a><a class="pn-n" href="/help/mobile-automation"><span>Next</span><b>Automations and scenes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -595,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

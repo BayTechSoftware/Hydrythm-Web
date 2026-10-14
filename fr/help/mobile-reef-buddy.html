@@ -95,9 +95,6 @@
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
 <li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
 <li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
-<li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
-<li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
@@ -195,8 +192,7 @@
 <p>Les mesures des sondes et des contrôleurs ne déclenchent pas cette proposition, car elles arrivent toute la journée.</p>
 <h2 id="pourquoi-vous-voyez-une-analyse">Pourquoi vous voyez une analyse</h2>
 <p>Sous une analyse, touchez <strong>Pourquoi je vois ceci ?</strong> La feuille <strong>Pourquoi vous voyez ceci</strong> liste les <strong>Mesures utilisées</strong>, la <strong>Cible de comparaison</strong> (votre propre cible, ou une plage de référence), tout ce qui vient <strong>Dans votre journal</strong> et qu’elle a pris en compte, et la période en jours qu’elle a examinée. Si le raisonnement ne correspond pas à votre aquarium, répondez à l’analyse comme décrit dans <a href="#correcting-an-insight">Corriger une analyse</a>.</p>
-<p>Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité notée à la main à côté de celle d’un appareil, les totaux de vos têtes DŌS et, si vous avez un moniteur d’air ambiant Inkbird™, la température et l’humidité de la pièce.</p>
-<aside class="cal cal-note"><p class="cal-t">Inkbird est en Beta</p><p><strong>Beta.</strong> Inkbird est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans <strong>Ajouter un appareil</strong>. Pour demander l’accès Beta, contactez le support. Plus de détails dans <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p></aside>
+<p>Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité notée à la main à côté de celle d’un appareil et les totaux de vos têtes DŌS.</p>
 <h2 id="when-it-arrives">Quand il arrive</h2>
 <p>Une fois par jour pour chaque aquarium, à l’heure que vous choisissez. Réglez-la dans <strong>Réglages → Heure du briefing</strong>, à côté de <strong>Notifications</strong>. Le briefing arrive dans les 15 minutes environ qui suivent cette heure, dans votre fuseau horaire. Si vous ne choisissez jamais, il arrive à 8:00.</p>
 <p>Choisissez une heure après votre test habituel du matin, pour que le résultat du jour soit dans le briefing.</p>
@@ -220,7 +216,7 @@
 <p>Quand Reef Buddy signale une dérive, il demande aussi <em>Cet avertissement était-il utile ?</em> Vous pouvez répondre <strong>Utile</strong>, <strong>Pas utile</strong>, <strong>Ce changement est prévu</strong> ou <strong>La mesure semble erronée</strong>. Vos retours influencent ce qui apparaît en premier dans les briefings suivants. Masquer une analyse ne dure qu’un temps. Si le problème est toujours là, l’analyse revient.</p>
 <aside class="cal cal-note"><p class="cal-t">Les constats sérieux ne sont jamais masqués</p><p>Les retours ne font taire que les analyses de faible gravité. Les analyses d’avertissement et critiques continuent d’apparaître, quoi que vous ayez répondu avant.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-activity"><span>Précédent</span><b>Activité et chronologie</b></a><a class="pn-n" href="/fr/help/mobile-assistant"><span>Suivant</span><b>Interroger Cora</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -611,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

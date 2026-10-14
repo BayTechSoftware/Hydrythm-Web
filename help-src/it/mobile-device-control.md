@@ -14,7 +14,7 @@ Usa la pagina di un dispositivo per vederne lo stato in tempo reale e cambiare q
 
 Ogni pagina dispositivo è organizzata allo stesso modo. Nome e dettagli sono in alto, poi una fila di letture in tempo reale, gli stati che il dispositivo riporta e i suoi comandi. La campanella nella barra del titolo imposta le soglie di avviso per quel dispositivo, come descritto in [Materiali di consumo](/help/mobile-consumables). Come aggiungere un dispositivo all'inizio è spiegato in [Collegare la tua attrezzatura](/help/mobile-connections).
 
-Vai alla tua attrezzatura: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Avvisi del dosatore](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz) · [Maxspect](#maxspect) · [GHL](#ghl) · [HYDROS](#hydros) · [Focustronic](#focustronic) · [EcoTech, Inkbird e telecamere](#ecotech-inkbird-cameras)
+Vai alla tua attrezzatura: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Avvisi del dosatore](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning Questi comandi agiscono sull'attrezzatura in funzione
 Non c'è anteprima e non c'è annulla. Alcuni comandi ti chiedono prima di confermare.
@@ -90,7 +90,7 @@ I due tipi di uso del cambio d'acqua vanno in **coppia**. Imposta la **Testa abb
 
 Un contenitore può arrivare a 1.000 L, per ogni tipo di uso. L'Apex da solo conta solo fino a 150 L, quindi oltre quel valore Cora segue il contenitore da sé in base a quanto dosa la testa. Inserisci il **Volume totale** quando lo configuri. Cora inoltre ogni tanto azzera il contatore interno dell'Apex, e Attività lo mostra come *Contatore interno dell'Apex reimpostato a 150 L*.
 
-Ogni testa ha anche un limite **Dose massima manuale**, così un errore di battitura non può trasformare una dose manuale in qualcosa di molto più grande di quello che volevi. Le dosi manuali grandi diventano disponibili solo dopo che la velocità della testa è stata misurata con un test reale alla vasca, e dopo che hai attivato **Dosi grandi (Beta)** nelle impostazioni della testa. È spento di default. Attivalo solo dopo aver guardato la prima dose grande eseguita alla vasca.
+Ogni testa ha anche un limite **Dose massima manuale**, così un errore di battitura non può trasformare una dose manuale in qualcosa di molto più grande di quello che volevi. Le dosi manuali grandi diventano disponibili solo dopo che la velocità della testa è stata misurata con un test reale alla vasca, e dopo che hai attivato **Dosi grandi** nelle impostazioni della testa. È spento di default. Attivalo solo dopo aver guardato la prima dose grande eseguita alla vasca.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,16 +98,12 @@ Ogni unità Red Sea ha una pagina adatta a quello che fa:
 
 | Unità | La pagina mostra | Puoi |
 |---|---|---|
-| [ReefDose](#reefdose) | Ogni testa, il suo contenitore e quanto ha dosato | Dosare, cambiare la dose giornaliera, modificare il **Piano di dosaggio (Beta)** |
-| [ReefRun](#reefrun) | Velocità e stato delle pompe di risalita e dello schiumatoio | Cambiare la velocità, accendere o spegnere una pompa, modificare il **Programma della pompa (Beta)** |
-| [ReefMat](#reefmat) | Il rotolo rimanente, in giorni e metri | Far avanzare il tappetino, impostare **Impostazioni ReefMat (Beta)**, registrare un rotolo nuovo |
+| [ReefDose](#reefdose) | Ogni testa, il suo contenitore e quanto ha dosato | Dosare, cambiare la dose giornaliera, modificare il **Piano di dosaggio** |
+| [ReefRun](#reefrun) | Velocità e stato delle pompe di risalita e dello schiumatoio | Cambiare la velocità, accendere o spegnere una pompa |
+| [ReefMat](#reefmat) | Il rotolo rimanente, in giorni e metri | Far avanzare il tappetino, impostare **Impostazioni ReefMat**, registrare un rotolo nuovo |
 | [ReefATO+](#reefato) | Livello del serbatoio e attività di rabbocco | Impostare un avviso per il serbatoio |
-| **ReefControl** *(Beta)* | Le sue sonde di temperatura, pH, salinità e ORP | Vederne le letture |
-| **ReefWave**, **ReefLED** *(Beta)* | La sua modalità attuale | Solo visualizzazione, per ora |
 
-ReefControl, ReefControl Power, ReefWave e ReefLED hanno *(Beta)* nel nome ma sono disponibili per tutti. Vedi [Funzioni Beta](/help/mobile-beta).
 
-Le prese di **ReefControl Power** *(Beta)* compaiono come prese, comandate dallo stesso comando di una presa Apex, solo accese o spente. Per loro non c'è ancora una modalità automatica.
 
 Quando sei lontano dalla rete dell'unità, Cora Mobile invia i comandi Red Sea tramite un Cora Max nella vasca. Se nessun Cora Max può farlo, la pagina lo dice e non viene inviato niente.
 
@@ -119,9 +115,9 @@ Per ogni testa puoi impostare **Dose al giorno** e **Rimanente nella bottiglia**
 
 La sezione **Dosaggio** mostra le **Prossime dosi**, quanto ha dosato oggi ogni testa (**Dosato oggi finora**) e **Dosato per testa** negli **Ultimi 7 giorni** o in **Totale**. Cora legge questi dati mentre un Cora Max o il tuo telefono è sulla rete di casa.
 
-### Modificare un piano di dosaggio *(Beta)* {#reefdose-plan}
+### Modificare un piano di dosaggio {#reefdose-plan}
 
-Tocca l'icona del calendario nella pagina di un ReefDose per aprire il **Piano di dosaggio (Beta)**.
+Tocca l'icona del calendario nella pagina di un ReefDose per aprire il **Piano di dosaggio**.
 
 Un piano è un totale giornaliero, diviso in un massimo di quattro fasce orarie. Ogni fascia ha un'ora di inizio e di fine, quante dosi deve erogare e una velocità: **Silenzioso**, **Normale** o **Rapido**. Aggiungi e togli le fasce, poi salva. Cora ti mostra cosa stai per inviare e ti chiede di confermare prima di sostituire tutto il piano della testa.
 
@@ -131,18 +127,17 @@ L'editor legge prima il piano che c'è già sull'unità, quindi stai modificando
 
 ReefRun comanda le pompe di risalita e dello schiumatoio. Non è una pompa di movimento. Puoi cambiare la velocità di una pompa, accenderla o spegnerla e regolare le impostazioni dello schiumatoio.
 
-Tocca l'icona del calendario per aprire il **Programma della pompa (Beta)**. Un programma ha fino a sei segmenti su una porta della pompa. Ogni segmento ha un'ora di inizio e una velocità, e può aggiungere un breve impulso. La velocità è 0 oppure dal 5% in su. Come il piano del ReefDose, legge prima il programma sull'unità, e **Salva** ti chiede di confermare prima di sostituire tutto il programma della pompa.
 
 ## ReefMat {#reefmat}
 
 La pagina del ReefMat mostra quanto rotolo resta, in giorni e metri. Tocca **Avanza ora** per far avanzare il tappetino a mano. Cora chiede prima **Avanzare il tappetino ora?** Puoi anche impostare un avviso di rifornimento per il rotolo.
 
-Tocca l'ingranaggio per **Impostazioni ReefMat (Beta)**:
+Tocca l'ingranaggio per **Impostazioni ReefMat**:
 
 - **Avanzamento programmato** attiva un avanzamento a orari fissi, separato dal sensore di avanzamento automatico già presente nella pagina. Attivalo e imposta ogni quanto, e di quanto ogni avanzamento sposta il tappetino.
 - **Modello ReefMat** e **Posizione motore** (**Sinistra** o **Destra**) dicono a Cora quale unità e quale orientamento hai.
 
-Dopo aver caricato un rotolo nuovo, dillo a Cora con **Nuovo rotolo (Beta)**: il suo spessore, e il diametro esterno se lo conosci. **Avanza ora** fa solo avanzare il tappetino che hai già caricato.
+Dopo aver caricato un rotolo nuovo, dillo a Cora con **Nuovo rotolo**: il suo spessore, e il diametro esterno se lo conosci. **Avanza ora** fa solo avanzare il tappetino che hai già caricato.
 
 ## ReefATO+ {#reefato}
 
@@ -183,13 +178,13 @@ I valori predefiniti e gli altri materiali di consumo sono in [Materiali di cons
 
 ## Pompe Jecod / Jebao {#jecod}
 
-La pagina della pompa mostra lo schema d'onda attuale (modalità) e l'intensità, e puoi cambiarli entrambi. Scegli **Uguale tutto il giorno** o **Programma** in alto. Creare un programma giornaliero, e copiarlo, salvarlo o condividerlo, è spiegato in [Programmare l'attrezzatura](/help/mobile-schedules).
+La pagina della pompa mostra lo schema d'onda attuale (modalità) e l'intensità, e puoi cambiarli entrambi. Il suo stato è nella riga del titolo, accanto al nome della pompa. Un selettore con **Uguale tutto il giorno** e **Programma** segna quello in corso con *· in corso*, e la pagina si apre su di esso. Creare un programma giornaliero, e copiarlo, salvarlo o condividerlo, è spiegato in [Programmare l'attrezzatura](/help/mobile-schedules).
 
 Se la pompa fa parte di un gruppo, la pagina mostra il suo ruolo, come **Guida il gruppo**, **Segue: in sincrono** o **Segue: alternata**.
 
 ### Pausa per l'alimentazione {#jecod-feeding}
 
-Avvia una pausa per l'alimentazione dalla sezione **Alimentazione** della pagina della pompa. Alcune pompe terminano la pausa da sole, e la pagina dice *La pompa termina questa fase da sola.*
+Avvia una pausa per l'alimentazione da **Alimentazione** nella pagina della pompa: tocca **5**, **10**, **15** o **30** min. Alcune pompe terminano la pausa da sole, e la pagina dice *La pompa termina questa fase da sola.*
 
 :::warning Tieni aperta la pagina della pompa durante una pausa per l'alimentazione
 Alcune pompe non terminano da sole un'alimentazione, e la pagina lo dice. Per queste, e per qualsiasi pompa con un programma, Cora Mobile ripristina lo schema d'onda e il programma solo finché la pagina della pompa resta aperta. Se lasci la pagina, la pompa resta ferma in modalità alimentazione, o resta fuori dal suo programma, finché non la cambi di nuovo o tocchi **Programma**.
@@ -207,93 +202,6 @@ La scheda AquaWiz mostra le tue letture di alcalinità, e il pH se la tua unità
 
 Se la tua unità segue il suo contenitore, Cora ti avvisa quando l'integratore sta finendo, a 100 mL di default. Cambialo dalla sua regola nel [Centro avvisi](/help/mobile-alerts).
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, [contatta l'assistenza](/support.html). Alcuni comandi potrebbero essere limitati, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, faccelo sapere da [Segnalare un problema](/help/mobile-support). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
-
-La pagina della gyre mostra se la gyre è in funzione, lo schema d'onda e la velocità di **Gyre A** e **Gyre B**, e quando sono state lette l'ultima volta. Da qui puoi:
-
-- Accendere o spegnere la gyre con l'interruttore accanto al suo stato. Cora ti chiede prima di confermare. Spegnere ferma entrambe le gyre e lascia stare il programma.
-- Toccare **Modifica impostazioni** per impostare lo schema d'onda e la velocità di ogni gyre, più la durata per gli schemi che ne hanno una, e se le due gyre sono collegate. Cora elenca cosa cambierà e ti chiede di confermare. L'alternanza si imposta nell'app Maxspect, e una gyre che la usa mantiene le sue rampe e i suoi tempi di mantenimento.
-- Toccare **Imposta programma** se il programma salvato sulla gyre non si può leggere. Imposta entrambe le gyre così la gyre può ripartire.
-- Vedere il programma giornaliero della gyre nella scheda **Programma**. Qui puoi solo guardarlo. Il programma si imposta nell'app Maxspect.
-- Controllare **Stato pompa**. Mostra quando la pompa dovrà essere pulita la prossima volta (la pompa fa il conto alla rovescia da sola), la corrente assorbita dalla testa A, quali teste sono installate e il firmware. Tocca **Leggi** per recuperarlo.
-
-:::note Come Cora Mobile raggiunge una gyre
-Se un Cora Max serve la vasca, Cora Mobile passa da quel Cora Max, anche quando sei fuori casa. **Modifica impostazioni** parte allora dall'ultima lettura di quel Cora Max. Altrimenti il telefono parla direttamente con la gyre e deve essere sulla rete della gyre. Aprire la pagina legge la gyre. Se la pagina mostra una lettura salvata più vecchia, **Modifica impostazioni** resta nascosto finché non tocchi aggiorna.
-:::
-
-## GHL ProfiLux e Mitras {#ghl}
-
-:::note Beta
-**Beta.** GHL è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, [contatta l'assistenza](/support.html). Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, faccelo sapere da [Segnalare un problema](/help/mobile-support). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
-
-La pagina del controller mostra sonde, prese, dosatori e sensori di livello e, sui modelli Director, i risultati dei test di KH e ioni.
-
-I comandi restano spenti finché non attivi **Consenti il controllo da Cora (Beta)** nella pagina del dispositivo. È spento di default, e attivarlo permette a Cora di inviare a quel controller comandi di pausa alimentazione, manutenzione, cambio d'acqua, temporale, illuminazione, valori impostati e prese. Una volta che puoi aggiungere il dispositivo, questo interruttore non richiede altri accessi.
-
-Quando è attivo:
-
-- Una presa si può impostare su **Sempre acceso**, **Sempre spento** o **Torna ad automatico** per restituirla alla programmazione del controller.
-- Un valore impostato, come temperatura o pH, mostra il suo intervallo consentito e rifiuta un valore fuori da quello.
-
-:::warning La modifica di una presa o di un valore impostato viene salvata sul controller stesso
-Non viene salvata solo in Cora. Impostare una presa su Sempre acceso o Sempre spento scavalca la programmazione del controller per quella presa finché non scegli Torna ad automatico.
-:::
-
-Se una presa o un valore impostato sembra appartenere a un riscaldatore o a una pompa di risalita, Cora ti chiede di confermare due volte prima di inviarlo.
-
-Se il contenitore di un dosatore sta finendo, Cora ti avvisa come fa per gli altri materiali di consumo. Il valore predefinito è pieno al 20%, e puoi cambiarlo dalla regola del dosatore nel [Centro avvisi](/help/mobile-alerts).
-
-:::note ProfiLux mini
-Un mini può solo accendere e spegnere le sue prese. Tutto il resto qui, come i valori impostati e la pausa alimentazione, richiede un ProfiLux 3, 4 o un Mitras.
-:::
-
-Se il controller rifiuta la modifica, controlla che la sua API GHL sia attiva con accesso completo. GHL la disattiva dopo ogni aggiornamento del firmware. [Risoluzione dei problemi](/help/troubleshooting) ha i passaggi.
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, [contatta l'assistenza](/support.html). Alcune letture o alcuni comandi potrebbero non funzionare ancora, e quello che vedi qui potrebbe cambiare da un aggiornamento all'altro. Se qualcosa non funziona come descritto, faccelo sapere da [Segnalare un problema](/help/mobile-support). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
-
-Quello che vedi qui dipende dalla chiave con cui hai collegato il controller. Una chiave **Read** ti dà solo i suoi ingressi. Una chiave **Write** aggiunge uscite, modalità, dosaggio e comandi del tester, più un banner nella pagina che ti ricorda che tipo di chiave stai usando.
-
-Con una chiave di scrittura, anche i comandi restano spenti finché non attivi **Consenti il controllo da Cora (Beta)** nella pagina del dispositivo. È spento di default.
-
-Quando è attivo, la pagina può mostrare:
-
-- **Uscite**, come un interruttore per un'uscita acceso/spento, un cursore per un livello come una pompa o una luce, o un pulsante per un indicatore. Un'uscita scavalcata mostra **Sovrascritto** con un pulsante **Torna al programma** per restituirla al suo programma.
-- **Modalità**, come Alimentazione o Cambio d'acqua, come una fila di scelte. Toccarne una ti chiede di confermare.
-- **Teste di dosaggio**, ognuna con un pulsante **Dosa** e una voce **Impostazioni testa** dove imposti i suoi limiti: una dose manuale massima e un tetto giornaliero. Chiedere più del limite di una testa, o più di quanto resta del suo tetto giornaliero per la giornata, viene rifiutato con i numeri nel messaggio.
-- **Comandi del tester**, per un iV o un Maven collegato, avviati da un pulsante e confermati prima.
-
-Se il controller non si fa sentire da un po', la pagina lo dice e le letture potrebbero non essere aggiornate. Un comando inviato mentre sembra offline non viene inviato per niente, e la pagina ti dice anche questo.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, [contatta l'assistenza](/support.html). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
-
-Ogni dispositivo mostra il suo stato, il firmware, l'ultimo test e, per un Alkatronic, l'alcalinità e il pH che ha misurato. Vedi anche le pompe con quanto resta in ciascuna, i parametri, le fiale ed eventuali avvisi su reagente o tampone. Cora chiede a Focustronic nuove letture ogni 30 minuti.
-
-In **Controlli** puoi usare **Misura ora**, **Dosa ora** da una pompa (fino a 500 mL alla volta) e, su un Mastertronic, **Testa ora**. Ognuno ti chiede prima di confermare. Cora non ripete mai una dose, quindi se il risultato dice che è sconosciuto, controlla il dispositivo. I comandi passano dai server di Focustronic, che Cora non controlla, e sono disponibili solo mentre il dispositivo è online.
-
-## EcoTech, Inkbird e telecamere {#ecotech-inkbird-cameras}
-
-:::note Beta
-**Beta.** EcoTech, Inkbird e le telecamere sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, [contatta l'assistenza](/support.html).
-:::
-
-Hanno le loro pagine:
-
-- Luci EcoTech Radion, pompe VorTech e dosatori Versa: [Luci, pompe e dosatori EcoTech](/help/mobile-ecotech)
-- I monitor dell'aria della stanza Inkbird riportano solo letture, quindi non c'è niente da comandare: [Collegare la tua attrezzatura](/help/mobile-connections#inkbird-room-air-monitor)
-- Telecamere e Controllo schiumatoio: [Telecamere e Controllo schiumatoio](/help/mobile-cameras)
 
 ## Cosa succede dopo che hai cambiato qualcosa {#what-happens-after-you-change-something}
 

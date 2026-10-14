@@ -95,9 +95,6 @@
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
 <li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
 <li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
-<li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
-<li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
@@ -195,8 +192,7 @@
 <p>Messwerte von Sonden und Controllern lösen dieses Angebot nicht aus, weil sie den ganzen Tag hereinkommen.</p>
 <h2 id="warum-du-ein-insight-siehst">Warum du ein Insight siehst</h2>
 <p>Tippe unter einem Insight auf <strong>Warum sehe ich das?</strong> Das Fenster <strong>Darum siehst du das</strong> listet die <strong>Verwendete Messwerte</strong> auf, den <strong>Verglichener Zielwert</strong> (dein eigener Zielwert oder ein Referenzbereich), alles <strong>Aus deinem Journal</strong>, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter <a href="#ein-insight-korrigieren">Ein Insight korrigieren</a> beschrieben.</p>
-<p>Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts, die Summen deiner DŌS-Köpfe und, wenn du einen Inkbird™-Raumluftmonitor hast, Temperatur und Luftfeuchtigkeit im Raum.</p>
-<aside class="cal cal-note"><p class="cal-t">Inkbird ist in der Beta</p><p><strong>Beta.</strong> Inkbird ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter <strong>Gerät hinzufügen</strong>. Für Beta-Zugang wende dich an den Support. Mehr dazu unter <a href="/de/help/mobile-beta">Beta-Funktionen</a>.</p></aside>
+<p>Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts und die Summen deiner DŌS-Köpfe.</p>
 <h2 id="wann-es-kommt">Wann es kommt</h2>
 <p>Einmal am Tag für jedes Becken, zu der Stunde, die du wählst. Stell sie unter <strong>Einstellungen → Briefing-Zeit</strong> ein, neben <strong>Benachrichtigungen</strong>. Das Briefing kommt innerhalb von etwa 15 Minuten nach dieser Stunde, in deiner eigenen Zeitzone. Wählst du nie etwas, kommt es um 8:00.</p>
 <p>Wähl eine Stunde nach deinem üblichen Morgentest, damit das heutige Ergebnis im Briefing ist.</p>
@@ -220,7 +216,7 @@
 <p>Meldet Reef Buddy eine Drift, fragt es außerdem <em>War dieser Hinweis nützlich?</em> Du kannst mit <strong>Hilfreich</strong>, <strong>Nicht hilfreich</strong>, <strong>Diese Änderung ist erwartet</strong> oder <strong>Messwert sieht falsch aus</strong> antworten. Deine Rückmeldung bestimmt, was in späteren Briefings zuerst erscheint. Ein Insight auszublenden, gilt nur eine Weile. Besteht das Problem noch, kommt das Insight zurück.</p>
 <aside class="cal cal-note"><p class="cal-t">Ernste Befunde werden nie ausgeblendet</p><p>Rückmeldungen beruhigen nur weniger ernste Insights. Warnungen und kritische Insights erscheinen weiter, egal was du vorher geantwortet hast.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-activity"><span>Zurück</span><b>Aktivität und Zeitleiste</b></a><a class="pn-n" href="/de/help/mobile-assistant"><span>Weiter</span><b>Cora fragen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -611,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

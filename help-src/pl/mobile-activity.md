@@ -3,12 +3,13 @@ title: Aktywność i oś czasu
 description: Zobacz każdą zmianę wysłaną do sprzętu, kto albo co o nią poprosiło i czy zadziałała, oraz przeczytaj oś czasu akwarium wokół danej daty.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Aktywność to lista każdej próby zmiany czegoś w Twoim sprzęcie: przełączeń gniazd, cykli karmienia, dawek i wszystkiego, co zrobiła scena albo automatyzacja. Każdy wiersz pokazuje, co o to poprosiło i co działo się dalej, także przy żądaniach, które nie zadziałały.
+
 
 Przejdź do **Ustawienia → Aktywność**. Jeśli masz więcej niż jedno akwarium, wybierz je chipami akwariów na górze.
 

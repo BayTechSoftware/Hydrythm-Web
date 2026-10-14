@@ -3,7 +3,7 @@ title: Konserwacja
 description: Dodawaj powtarzalne prace, takie jak czyszczenie odpieniacza albo wymiana skarpet filtracyjnych, dostawaj przypomnienia o terminach i oznaczaj zadania jako wykonane albo je odkładaj.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 28
 group: Records
 twin: max-records
 ---

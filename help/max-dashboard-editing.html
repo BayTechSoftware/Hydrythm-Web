@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -188,14 +185,13 @@
 <h2 id="adding-and-arranging">Adding and arranging tiles</h2>
 <ol><li>Tap an empty cell (it shows a <strong>+</strong>) to open <strong>Add widget</strong>.</li><li>Under <strong>TYPE</strong>, pick the kind of tile, then what it shows (a reading, an outlet, a device or a scene).</li><li>Under <strong>SIZE</strong>, pick how big it is. A tile can be one or two cells wide and one or two cells tall. A Graph also has a <strong>TIME RANGE</strong>. A doser tile has <strong>Show remaining as</strong>, in <strong>Days</strong> or <strong>Milliliters (mL)</strong>.</li><li>Tap <strong>Add</strong>.</li></ol>
 <p>The gestures are listed along the top of the editor: <strong>tap a tile to edit</strong>, <strong>long-press to move it</strong>, and <strong>✕ to remove it</strong>. <strong>Clear all</strong> empties the grid so you can start over.</p>
-<p>The sixteen tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module, Jecod™, Maxspect™ <em>(Beta)</em>, GHL™ <em>(Beta)</em>, HYDROS™ <em>(Beta)</em>, Radion <em>(Beta)</em>, VorTech <em>(Beta)</em>, Versa <em>(Beta)</em> and Camera <em>(Beta)</em>. You'll find them in the <a href="/help/mobile-widgets">Widget reference</a>. The <strong>Scene</strong> tile only exists on Cora Max. It runs a <a href="/help/max-automation">scene</a> with one tap.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Maxspect, GHL, HYDROS, EcoTech™ (Radion, VorTech, Versa) and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in <strong>Add device</strong>. To ask for Beta access, contact <a href="/support.html">support</a>. Their tiles only show up once you have the device. More in <a href="/help/mobile-beta">Beta features</a>.</p></aside>
+<p>The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod™. You'll find them in the <a href="/help/mobile-widgets">Widget reference</a>. The <strong>Scene</strong> tile only exists on Cora Max. It runs a <a href="/help/max-automation">scene</a> with one tap.</p>
 <h2 id="outlets-feed">Outlets &amp; Feed</h2>
 <p><strong>Outlets &amp; Feed</strong> in the editor chooses which outlets and feed cycles appear in <strong>Controls</strong>, the drawer you swipe up from the bottom of the dashboard. It doesn't add tiles. If you pick none, Controls lists all of them. To put an outlet on the grid itself, add an <strong>Outlet</strong> tile. More in <a href="/help/max-controls">Outlets and controls</a>.</p>
 <h2 id="templates">Templates</h2>
 <p><strong>Templates</strong> sits at the top of the editor, beside <strong>My dashboards</strong> and <strong>Design with AI</strong>. It's open on every plan and never uses AI, so it also works without AI data sharing.</p>
 <p>It opens <strong>Dashboard templates</strong>, a few ready-made layouts built from what this tank reports and has linked:</p>
-<ul><li><strong>Overview</strong>: few, large tiles, with the core parameters as gauges and your main devices</li><li><strong>Equipment</strong>: one tile per device first, then outlets and the core parameters</li><li><strong>Parameters</strong>: charts and readings first, with devices and outlets last</li><li><strong>Camera</strong>: a large live view top-left with the core parameters beside it. It only appears when the tank has a camera. Cameras are in Beta and only open to Beta users.</li></ul>
+<ul><li><strong>Overview</strong>: few, large tiles, with the core parameters as gauges and your main devices</li><li><strong>Equipment</strong>: one tile per device first, then outlets and the core parameters</li><li><strong>Parameters</strong>: charts and readings first, with devices and outlets last</li></ul>
 <p>Each one shows a preview and how many tiles it has on which grid. Tap <strong>Use this</strong>. Cora asks <strong>Replace your dashboard?</strong> first. Tap <strong>Save current as preset first</strong> if you want to keep the layout you have, or <strong>Replace</strong>. Nothing is saved until you press <strong>Save</strong>.</p>
 <h2 id="design-with-ai">Design with AI</h2>
 <p>The editor has a <strong>Design with AI</strong> button. It works on a paid plan and during the trial. Cora proposes a whole layout from what this tank reports and has linked, and shows how many tiles it has and on which grid. Tap <strong>Use this</strong> to put it in the editor, or <strong>Try again</strong> for another. You can make 5 designs per tank per day.</p>
@@ -211,7 +207,7 @@
 <h2 id="multiple-tanks">Multiple tanks</h2>
 <p>Each tank has its own layout. Switch to that tank and open <strong>Dashboard layout</strong> from its tank menu, or use <strong>Settings → [that tank] → Dashboard layout</strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-reef-room"><span>Previous</span><b>The Reef Room</b></a><a class="pn-n" href="/help/max-controls"><span>Next</span><b>Outlets and controls</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -602,7 +598,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

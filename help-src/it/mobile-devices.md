@@ -15,23 +15,28 @@ La scheda **Dispositivi** è dove aggiungi, assegni, rinomini, controlli e rimuo
 ## Aggiungere attrezzatura {#adding-equipment}
 
 1. Nella scheda **Dispositivi**, tocca **Aggiungi dispositivo**.
-2. Scegli la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**. Gli utenti Beta vedono anche **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** e **Telecamera**, ognuno con un'etichetta **Beta**.
+2. Scegli la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**.
 3. Segui i passaggi della marca. A seconda della marca si tratta di una ricerca in rete, un indirizzo IP, un accesso o una chiave dispositivo. [Collegare la tua attrezzatura](/help/mobile-connections) ha i passaggi per ogni marca.
 4. Scegli la vasca a cui appartiene.
 
-![L'elenco Aggiungi dispositivo per un utente Beta](img/mobile-add-device-beta.webp "Le marche in Beta hanno un'etichetta Beta.")
+![L'elenco delle marche in Aggiungi dispositivo](img/mobile-add-device-brands.webp "Scegli la marca del dispositivo che stai aggiungendo.")
 
-:::note Beta
-**Beta.** Le integrazioni Beta sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
 
-Una riga che richiede un Cora Max nella vasca (Maxspect, GHL, EcoTech, Inkbird e Telecamera) è disattivata e dice **Richiede Cora Max** finché la vasca non ne ha uno.
 
 :::note Senza un Cora Max, alcune attrezzature sono solo locali
 L'attrezzatura Neptune Apex, Red Sea e Jecod si raggiunge tramite la rete di casa o il Bluetooth. Senza un Cora Max, la schermata di aggiunta dice *Senza Cora Max, questa integrazione funziona solo localmente nell'app Mobile.* Il telefono la legge e la comanda solo mentre è sulla stessa rete (o a portata Bluetooth). Lontano da casa vedi le ultime letture che il telefono ha salvato e non puoi comandarla. Un Cora Max nella vasca la legge giorno e notte e le passa i tuoi comandi. Di più in [Collegare la tua attrezzatura](/help/mobile-connections#local-only).
 :::
 
 Quando aggiungi attrezzatura dalla tua rete, il telefono deve essere sulla stessa rete dell'attrezzatura.
+
+### Capacità Bluetooth {#bluetooth-capacity}
+
+Un Cora Max condivide il suo Bluetooth tra tutta l'attrezzatura che legge, quindi può tenere il passo solo fino a un certo punto. Quando aggiungi una pompa Jecod che si collega via Bluetooth, Cora controlla prima quanto è occupato il Cora Max della vasca. Di solito non vedi nulla. Altrimenti compare uno di due messaggi:
+
+- **Il Bluetooth si sta affollando**: *Questo Cora Max è vicino al limite Bluetooth. Più dispositivi potrebbero aggiornarsi meno spesso. Aggiungi un secondo Cora Max se prevedi di aggiungerne altri.* Tocca **Continua** per aggiungere comunque il dispositivo, oppure **Annulla**.
+- **Limite Bluetooth raggiunto**: *Questo Cora Max ha raggiunto il limite Bluetooth. Aggiungi un secondo Cora Max per questi dispositivi.* Il dispositivo non viene aggiunto. Tocca **OK**.
+
+Cora controlla il Cora Max principale della vasca o, se non ne è scelto uno, il Cora Max con più spazio. Di più in [Più di un dispositivo Cora](/help/mobile-multi-device#primary-cora-max).
 
 ## Associare un Cora Max {#pairing-a-cora-max}
 
@@ -48,7 +53,7 @@ Tocca un dispositivo qualsiasi nell'elenco per aprirne la pagina. Prima vengono 
 - **Connessione** è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.
 - **Rimuovi dispositivo**, in fondo.
 
-Cora Max, Neptune Apex e GHL possono servire più di una vasca, quindi il loro selettore di vasca è un elenco a scelta multipla. Cora Max si può assegnare a un massimo di quattro. Vedi [Più di un dispositivo Cora](/help/mobile-multi-device). Tutto il resto, compreso HYDROS, serve una vasca alla volta. Sceglierne una diversa sposta lì il dispositivo e lo toglie da quella vecchia.
+Cora Max e Neptune Apex possono servire più di una vasca, quindi il loro selettore di vasca è un elenco a scelta multipla. Cora Max si può assegnare a un massimo di quattro. Vedi [Più di un dispositivo Cora](/help/mobile-multi-device). Tutto il resto serve una vasca alla volta. Sceglierne una diversa sposta lì il dispositivo e lo toglie da quella vecchia.
 
 :::warning Assegna la vasca prima di fidarti delle letture
 Un dispositivo senza vasca continua a inviare dati, ma i suoi numeri non hanno dove andare. Se un dispositivo appena aggiunto non compare su una dashboard, controlla prima questo.
@@ -83,7 +88,6 @@ Per saperne di più, apri il dispositivo. La sua sezione **Stato** mostra quando
 | "Aggiornato 3 h fa" su un dispositivo che riporta solo ogni poche ore | Va bene |
 | "Impossibile raggiungere…" | Un problema di rete, oppure il dispositivo è spento |
 | "…ha rifiutato l'accesso" | L'account del produttore va ricollegato. Apri il dispositivo e accedi di nuovo |
-| "In attesa di Cora Max" | Un controller GHL o un monitor Inkbird appena aggiunto: compare quando un Cora Max l'ha letto |
 | Letture più vecchie mentre sei via | Normale per Apex, Red Sea e Jecod senza un Cora Max nella vasca (vedi sopra) |
 | Niente di niente | Non ha mai inviato dati. Controlla la vasca assegnata e la connessione |
 

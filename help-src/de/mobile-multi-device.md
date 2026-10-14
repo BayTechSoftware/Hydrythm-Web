@@ -3,7 +3,7 @@ title: Mehr als ein Cora-Gerät
 description: Mit mehr als einem Cora-Gerät festlegen, welches auf deine Stimme antwortet und welches jedes Becken abfragt, und sehen, was unterwegs funktioniert.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 34
+order: 36
 group: Settings and account
 twin: max-reef-room
 ---

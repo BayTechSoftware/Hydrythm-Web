@@ -14,7 +14,7 @@ Na własnej stronie urządzenia zobaczysz jego stan na żywo i zmienisz to, co r
 
 Każda strona urządzenia jest ułożona tak samo. Na górze są nazwa i szczegóły, potem rząd odczytów na żywo, stan, który zgłasza urządzenie, i jego elementy sterowania. Dzwonek na pasku tytułu ustawia progi alertów dla tego urządzenia, tak jak opisują [Materiały eksploatacyjne](/help/mobile-consumables). Jak w ogóle dodać urządzenie, opisuje [Podłączanie sprzętu](/help/mobile-connections).
 
-Przejdź do swojego sprzętu: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Alerty dozownika](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz) · [Maxspect](#maxspect) · [GHL](#ghl) · [HYDROS](#hydros) · [Focustronic](#focustronic) · [EcoTech, Inkbird i kamery](#ecotech-inkbird-cameras)
+Przejdź do swojego sprzętu: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Alerty dozownika](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning Te przyciski działają na pracujący sprzęt
 Nie ma podglądu ani cofania. Niektóre elementy sterowania najpierw proszą o potwierdzenie.
@@ -90,7 +90,7 @@ Dwa przeznaczenia do podmiany wody działają w **parach**. Ustaw **Sparowana g�
 
 Pojemnik może mieć do 1000 L, przy każdym przeznaczeniu. Sam Apex liczy tylko do 150 L, więc powyżej tego Cora sama śledzi pojemnik na podstawie tego, co dozuje głowica. Wpisz **Całkowitą objętość** przy konfiguracji. Cora też od czasu do czasu zeruje własny licznik Apex, a Aktywność pokazuje to jako *Własny licznik Apex zresetowano do 150 L*.
 
-Każda głowica ma też limit **Największa dawka ręczna**, żeby literówka nie zamieniła dawki ręcznej w coś znacznie większego, niż chodziło. Duże dawki ręczne stają się dostępne dopiero wtedy, gdy tempo głowicy zostało zmierzone prawdziwym testem przy akwarium i gdy włączysz **Duże dawki (Beta)** w ustawieniach głowicy. Domyślnie jest wyłączone. Włącz je dopiero wtedy, gdy obejrzysz przy akwarium pierwszą dużą dawkę.
+Każda głowica ma też limit **Największa dawka ręczna**, żeby literówka nie zamieniła dawki ręcznej w coś znacznie większego, niż chodziło. Duże dawki ręczne stają się dostępne dopiero wtedy, gdy tempo głowicy zostało zmierzone prawdziwym testem przy akwarium i gdy włączysz **Duże dawki** w ustawieniach głowicy. Domyślnie jest wyłączone. Włącz je dopiero wtedy, gdy obejrzysz przy akwarium pierwszą dużą dawkę.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,16 +98,12 @@ Każde urządzenie Red Sea ma stronę dopasowaną do tego, co robi:
 
 | Urządzenie | Strona pokazuje | Możesz |
 |---|---|---|
-| [ReefDose](#reefdose) | Każdą głowicę, jej pojemnik i to, co dozowała | Dozować, zmienić dawkę dzienną, edytować **Plan dozowania (Beta)** |
-| [ReefRun](#reefrun) | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, przełączyć pompę, edytować **Harmonogram pompy (Beta)** |
-| [ReefMat](#reefmat) | Pozostałą rolkę, w dniach i metrach | Przesunąć matę, ustawić **Ustawienia ReefMat (Beta)**, zarejestrować nową rolkę |
+| [ReefDose](#reefdose) | Każdą głowicę, jej pojemnik i to, co dozowała | Dozować, zmienić dawkę dzienną, edytować **Plan dozowania** |
+| [ReefRun](#reefrun) | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, przełączyć pompę |
+| [ReefMat](#reefmat) | Pozostałą rolkę, w dniach i metrach | Przesunąć matę, ustawić **Ustawienia ReefMat**, zarejestrować nową rolkę |
 | [ReefATO+](#reefato) | Poziom w zbiorniku i aktywność dolewki | Ustawić alert zbiornika |
-| **ReefControl** *(Beta)* | Swoje sondy temperatury, pH, zasolenia i ORP | Przeglądać odczyty |
-| **ReefWave**, **ReefLED** *(Beta)* | Swój bieżący tryb | Na razie tylko podgląd |
 
-ReefControl, ReefControl Power, ReefWave i ReefLED mają w nazwie *(Beta)*, ale są dostępne dla wszystkich. Zobacz [Funkcje Beta](/help/mobile-beta).
 
-Gniazda **ReefControl Power** *(Beta)* pojawiają się jako gniazda, przełączane tym samym elementem sterowania co gniazdo Apex, tylko włączone albo wyłączone. Nie mają jeszcze trybu automatycznego.
 
 Gdy jesteś poza siecią urządzenia, Cora Mobile wysyła polecenia Red Sea przez Cora Max przy akwarium. Jeśli żaden Cora Max nie może tego zrobić, strona o tym mówi i nic nie jest wysyłane.
 
@@ -119,9 +115,9 @@ Dla każdej głowicy możesz ustawić **Dawka dzienna** i **Pozostało w butelce
 
 Sekcja **Dozowanie** pokazuje **Nadchodzące dawki**, to, co każda głowica dozowała dziś (**Dozowano dziś do tej pory**), oraz **Dozowane na głowicę** za **Ostatnie 7 dni** albo **Łącznie**. Cora odczytuje to, gdy Cora Max albo Twój telefon jest w Twojej sieci domowej.
 
-### Edytowanie planu dozowania *(Beta)* {#reefdose-plan}
+### Edytowanie planu dozowania {#reefdose-plan}
 
-Dotknij ikony kalendarza na stronie ReefDose, żeby otworzyć **Plan dozowania (Beta)**.
+Dotknij ikony kalendarza na stronie ReefDose, żeby otworzyć **Plan dozowania**.
 
 Plan to suma dzienna podzielona na maksymalnie cztery okna czasowe. Każde okno ma godzinę początku i końca, liczbę dawek do podania i prędkość: **Cichy**, **Normalny** albo **Szybki**. Dodawaj i usuwaj okna, a potem zapisz. Cora pokaże, co zamierzasz wysłać, i poprosi o potwierdzenie, zanim zastąpi cały plan głowicy.
 
@@ -131,18 +127,17 @@ Edytor najpierw odczytuje plan, który już jest w urządzeniu, więc edytujesz 
 
 ReefRun steruje pompami powrotnymi i pompami odpieniaczy. To nie jest pompa cyrkulacyjna. Możesz zmienić prędkość pompy, włączyć ją albo wyłączyć i dostosować ustawienia odpieniacza.
 
-Dotknij ikony kalendarza, żeby otworzyć **Harmonogram pompy (Beta)**. Program to maksymalnie sześć segmentów na jednym porcie pompy. Każdy segment ma godzinę początku i prędkość i może dodać krótki impuls. Prędkość to 0 albo od 5% w górę. Tak jak przy planie ReefDose, najpierw odczytywany jest program z urządzenia, a **Zapisz** prosi o potwierdzenie, zanim zastąpi cały program pompy.
 
 ## ReefMat {#reefmat}
 
 Strona ReefMat pokazuje, ile zostało rolki, w dniach i metrach. Dotknij **Przewiń teraz**, żeby ręcznie przesunąć matę. Cora najpierw zapyta **Przewinąć matę teraz?** Możesz też ustawić alert uzupełnienia rolki.
 
-Dotknij koła zębatego, żeby otworzyć **Ustawienia ReefMat (Beta)**:
+Dotknij koła zębatego, żeby otworzyć **Ustawienia ReefMat**:
 
 - **Zaplanowany posuw** włącza przesuwanie o stałych porach, niezależne od czujnika automatycznego posuwu, który już jest na stronie. Włącz go i ustaw, jak często i o ile ma przesuwać matę każdy posuw.
 - **Model ReefMat** i **Pozycja silnika** (**Lewa** albo **Prawa**) mówią Corze, jakie masz urządzenie i w jakim ułożeniu.
 
-Po założeniu nowej rolki daj znać Corze przez **Nowa rolka (Beta)**: podaj jej grubość, a jeśli znasz, także średnicę zewnętrzną. **Przewiń teraz** przesuwa tylko już założoną matę.
+Po założeniu nowej rolki daj znać Corze przez **Nowa rolka**: podaj jej grubość, a jeśli znasz, także średnicę zewnętrzną. **Przewiń teraz** przesuwa tylko już założoną matę.
 
 ## ReefATO+ {#reefato}
 
@@ -183,13 +178,13 @@ Wartości domyślne i inne materiały eksploatacyjne opisują [Materiały eksplo
 
 ## Pompy Jecod / Jebao {#jecod}
 
-Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Wybierz na górze **Tak samo cały dzień** albo **Harmonogram**. Układanie programu dnia, jego kopiowanie, zapisywanie i udostępnianie opisują [Harmonogramy sprzętu](/help/mobile-schedules).
+Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Przełącznik z **Tak samo cały dzień** i **Harmonogram** oznacza działający tryb napisem *· działa*, a strona otwiera się na nim. Układanie programu dnia, jego kopiowanie, zapisywanie i udostępnianie opisują [Harmonogramy sprzętu](/help/mobile-schedules).
 
 Jeśli pompa należy do grupy, strona pokazuje jej rolę, na przykład **Prowadzi grupę**, **Podąża: zgodnie** albo **Podąża: przemiennie**.
 
 ### Przerwa na karmienie {#jecod-feeding}
 
-Przerwę na karmienie uruchomisz w sekcji **Karmienie** na stronie pompy. Niektóre pompy same kończą przerwę, a strona pokazuje wtedy *Pompa zakończy to sama.*
+Przerwę na karmienie uruchomisz w **Karmienie** na stronie pompy: dotknij **5**, **10**, **15** lub **30** min. Niektóre pompy same kończą przerwę, a strona pokazuje wtedy *Pompa zakończy to sama.*
 
 :::warning Podczas przerwy na karmienie nie zamykaj strony pompy
 Niektóre pompy same nie kończą karmienia, a strona o tym mówi. Dla nich i dla każdej pompy na harmonogramie Cora Mobile przywraca wzór fali i harmonogram tylko wtedy, gdy strona pompy pozostaje otwarta. Jeśli wyjdziesz ze strony, pompa zostaje zatrzymana w trybie karmienia albo poza harmonogramem, dopóki znów czegoś nie zmienisz albo nie dotkniesz **Harmonogram**.
@@ -207,93 +202,6 @@ Karta AquaWiz pokazuje odczyty alkaliczności, a także pH, jeśli Twoje urządz
 
 Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega Cię, gdy kończy się suplement, domyślnie przy 100 mL. Zmienisz to w jego regule w [Centrum alertów](/help/mobile-alerts).
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Część funkcji sterowania może być ograniczona, a to, co tu widzisz, może się zmieniać między aktualizacjami. Jeśli coś nie działa tak, jak opisano, daj nam znać przez [Zgłaszanie problemu](/help/mobile-support). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
-
-Strona Gyre pokazuje, czy Gyre pracuje, wzór fali i prędkość **Gyre A** i **Gyre B** oraz kiedy je ostatnio odczytano. Stąd możesz:
-
-- Włączyć albo wyłączyć Gyre przełącznikiem obok jego stanu. Cora najpierw poprosi o potwierdzenie. Wyłączenie zatrzymuje oba Gyre i nie rusza harmonogramu.
-- Dotknąć **Zmień ustawienia**, żeby ustawić wzór fali i prędkość każdego Gyre, czas trwania dla wzorów, które go mają, oraz to, czy oba Gyre są połączone. Cora wymieni, co się zmieni, i poprosi o potwierdzenie. Tryb naprzemienny ustawia się w aplikacji Maxspect, a Gyre, który w nim pracuje, zachowuje swoje narastania i czasy utrzymania.
-- Dotknąć **Ustaw program**, jeśli programu zapisanego w Gyre nie da się odczytać. Ustawia oba Gyre, żeby urządzenie mogło znów ruszyć.
-- Zobaczyć program dnia Gyre na karcie **Harmonogram**. Tutaj możesz go tylko podejrzeć. Harmonogram ustawiasz w aplikacji Maxspect.
-- Sprawdzić **Stan pompy**. Pokazuje, kiedy pompa będzie wymagała czyszczenia (pompa sama to odlicza), prąd pobierany przez głowicę A, zamontowane głowice i oprogramowanie. Dotknij **Odczytaj**, żeby to pobrać.
-
-:::note Jak Cora Mobile łączy się z Gyre
-Jeśli akwarium obsługuje Cora Max, Cora Mobile łączy się przez ten Cora Max, nawet gdy jesteś poza domem. **Zmień ustawienia** zaczyna wtedy od ostatniego odczytu tego Cora Max. W przeciwnym razie telefon rozmawia z Gyre bezpośrednio i musi być w jego sieci. Otwarcie strony odczytuje Gyre. Jeśli strona pokazuje starszy zapisany odczyt, **Zmień ustawienia** jest ukryte, dopóki nie dotkniesz odświeżenia.
-:::
-
-## GHL ProfiLux i Mitras {#ghl}
-
-:::note Beta
-**Beta.** GHL jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmieniać między aktualizacjami. Jeśli coś nie działa tak, jak opisano, daj nam znać przez [Zgłaszanie problemu](/help/mobile-support). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
-
-Strona kontrolera pokazuje jego sondy, gniazda, dozowniki i czujniki poziomu, a w modelach Director także wyniki testów KH i jonów.
-
-Sterowanie jest wyłączone, dopóki nie włączysz **Zezwól na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone, a jego włączenie pozwala Corze wysyłać do tego kontrolera polecenia przerwy na karmienie, konserwacji, podmiany wody, burzy, oświetlenia, wartości zadanych i gniazd. Gdy już możesz dodać urządzenie, ten przełącznik nie wymaga dodatkowego dostępu.
-
-Po włączeniu:
-
-- Gniazdo można ustawić na **Zawsze włączone**, **Zawsze wyłączone** albo **Powrót do automatycznego**, żeby oddać je własnemu programowi kontrolera.
-- Wartość zadana, na przykład temperatura albo pH, pokazuje dozwolony zakres i odrzuca wartość spoza niego.
-
-:::warning Zmiana gniazda albo wartości zadanej zapisuje się w samym kontrolerze
-Nie jest przechowywana tylko w Corze. Ustawienie gniazda na Zawsze włączone albo Zawsze wyłączone nadpisuje dla niego własny program kontrolera, dopóki nie wybierzesz Powrót do automatycznego.
-:::
-
-Jeśli gniazdo albo wartość zadana wygląda na należącą do grzałki albo pompy powrotnej, Cora prosi o potwierdzenie dwa razy przed wysłaniem.
-
-Jeśli w pojemniku dozownika kończy się płyn, Cora ostrzega Cię tak samo jak przy innych materiałach eksploatacyjnych. Domyślnie przy 20% napełnienia, a zmienisz to w regule dozownika w [Centrum alertów](/help/mobile-alerts).
-
-:::note ProfiLux mini
-Mini może tylko przełączać swoje gniazda. Wszystko inne tutaj, na przykład wartości zadane i przerwa na karmienie, wymaga ProfiLux 3, 4 albo Mitras.
-:::
-
-Jeśli kontroler odrzuci zmianę, sprawdź, czy jego API GHL jest włączone z pełnym dostępem. GHL wyłącza je po każdej aktualizacji oprogramowania. Kroki opisuje [Rozwiązywanie problemów](/help/troubleshooting).
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Część odczytów albo funkcji sterowania może jeszcze nie działać, a to, co tu widzisz, może się zmieniać między aktualizacjami. Jeśli coś nie działa tak, jak opisano, daj nam znać przez [Zgłaszanie problemu](/help/mobile-support). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
-
-To, co tu widzisz, zależy od klucza, którym połączono urządzenie. Klucz **Read** daje tylko jego wejścia. Klucz **Write** dodaje wyjścia, tryby, dozowanie i polecenia testera, a także baner na stronie, który przypomina, jakiego klucza używasz.
-
-Przy kluczu zapisu sterowanie też jest wyłączone, dopóki nie włączysz **Zezwól na sterowanie z Cora (Beta)** na stronie urządzenia. Domyślnie jest wyłączone.
-
-Po włączeniu strona może pokazywać:
-
-- **Wyjścia**, jako przełącznik dla wyjścia włącz/wyłącz, suwak dla poziomu, na przykład pompy albo oświetlenia, albo przycisk dla flagi. Nadpisane wyjście pokazuje **Nadpisane** z przyciskiem **Powrót do harmonogramu**, który oddaje je jego własnemu programowi.
-- **Tryby**, na przykład Feed albo Water Change, jako rząd opcji. Dotknięcie jednej prosi o potwierdzenie.
-- **Głowice dozujące**, każdą z przyciskiem **Dozuj** i pozycją **Ustawienia głowicy**, gdzie ustawiasz jej własne limity: największą dawkę ręczną i dzienny limit. Prośba o więcej niż limit głowicy albo więcej, niż zostało z jej dziennego limitu, zostaje odrzucona z liczbami w komunikacie.
-- **Polecenia testera**, dla podłączonego iV albo Maven, uruchamiane przyciskiem i najpierw potwierdzane.
-
-Jeśli kontroler od jakiegoś czasu się nie zgłaszał, strona o tym mówi, a odczyty mogą być nieaktualne. Polecenie wysłane, gdy kontroler wygląda na offline, w ogóle nie zostaje wysłane, a strona też o tym mówi.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
-
-Każde urządzenie pokazuje swój stan, oprogramowanie, ostatni test, a w przypadku Alkatronic zmierzoną alkaliczność i pH. Widzisz też pompy z ilością pozostałą w każdej, parametry, fiolki i ostrzeżenia o odczynniku albo buforze. Cora prosi Focustronic o nowe odczyty co 30 minut.
-
-W **Sterowanie** możesz użyć **Zmierz teraz**, **Dozuj teraz** z pompy (do 500 mL naraz), a w Mastertronic **Testuj teraz**. Każde z nich najpierw prosi o potwierdzenie. Cora nigdy nie ponawia dawki, więc jeśli wynik jest nieznany, sprawdź urządzenie. Polecenia idą przez serwery Focustronic, nad którymi Cora nie ma kontroli, i są dostępne tylko wtedy, gdy urządzenie jest online.
-
-## EcoTech, Inkbird i kamery {#ecotech-inkbird-cameras}
-
-:::note Beta
-**Beta.** EcoTech, Inkbird i kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, [skontaktuj się z pomocą techniczną](/support.html).
-:::
-
-Mają własne strony:
-
-- Lampy EcoTech Radion, pompy VorTech i dozowniki Versa: [Lampy, pompy i dozowniki EcoTech](/help/mobile-ecotech)
-- Monitory powietrza w pomieszczeniu Inkbird tylko zgłaszają odczyty, więc nie ma czym sterować: [Podłączanie sprzętu](/help/mobile-connections#inkbird-room-air-monitor)
-- Kamery i Czuwanie skimmera: [Kamery i Czuwanie skimmera](/help/mobile-cameras)
 
 ## Co się dzieje po zmianie {#what-happens-after-you-change-something}
 

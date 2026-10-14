@@ -1,6 +1,6 @@
 ---
 title: Glossario
-description: Cosa intende Cora con vasca, fonte, widget, soglia, Cora Max principale, modalità alimentazione, scena, Controllo schiumatoio e le altre parole che vedi nelle app.
+description: Cosa intende Cora con vasca, fonte, widget, soglia, Cora Max principale, modalità alimentazione, scena e le altre parole che vedi nelle app.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -24,9 +24,6 @@ Una regola che parte da sola, come "se la temperatura supera 27, accendi la vent
 
 Cora che ti dice che qualcosa richiede attenzione. Di solito è una lettura fuori dall'intervallo che hai impostato. Può anche essere un parametro che si muove troppo in fretta, un guasto dell'attrezzatura, un dispositivo che ha smesso di inviare dati, un materiale di consumo che sta finendo o un risultato di laboratorio in arrivo. La maggior parte degli avvisi si chiude da sola quando il problema passa. Vedi [Avvisi e soglie](/help/mobile-alerts).
 
-## Beta
-
-Un'integrazione che stiamo ancora testando e sviluppando. **Beta.** Le integrazioni Beta (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird e telecamere) sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza. Le funzioni che hanno solo "(Beta)" nel nome, come Dosi grandi o Impostazioni ReefMat, sono disponibili per tutti. Vedi [Funzioni Beta](/help/mobile-beta).
 
 ## Blocco bambini
 
@@ -44,9 +41,6 @@ La CO₂ nell'acqua, in mg/L, come la riporta un report ICP. Non è la CO₂ del
 
 Un controllo in più su un'[automazione](#automation), come una lettura sopra un certo valore. Le azioni vengono eseguite solo quando le condizioni sono soddisfatte. Vedi [Automazioni e scene](/help/mobile-automation).
 
-## Controllo schiumatoio
-
-Una funzione della telecamera che guarda il bicchiere di raccolta dello schiumatoio e ti avvisa prima che trabocchi. Cora Max controlla il bicchiere ogni 15 minuti. Richiede una telecamera, che è in **Beta** e disponibile solo per gli utenti Beta, e un piano a pagamento. Vedi [Telecamere e Controllo schiumatoio](/help/mobile-cameras).
 
 ## Cora Assistant
 
@@ -100,13 +94,8 @@ L'etichetta nella barra in alto di Cora Max che dice come questo schermo riceve 
 
 Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un test. Ogni lettura ne ha una, così Cora può dirti quando due fonti non concordano. Se più di una fonte riporta la stessa lettura, [Mappatura parametri](/help/mobile-probes) è dove scegli di quale fidarti, oppure la lasci su Automatico.
 
-## GHL
 
-GHL Advanced Technology, produttore dei controller ProfiLux e Mitras. Il supporto GHL di Cora è in **Beta** ed è disponibile solo per gli utenti Beta. Vedi [Attrezzatura per marca](/help/equipment-by-brand).
 
-## HYDROS
-
-Il sistema di controllo e dosaggio di CoralVue. Cora lo legge attraverso il cloud di HYDROS, quindi continua a funzionare fuori casa. Il supporto HYDROS di Cora è in **Beta** ed è disponibile solo per gli utenti Beta. Vedi [Attrezzatura per marca](/help/equipment-by-brand).
 
 ## ICP
 
@@ -170,7 +159,7 @@ Un pulsante nell'editor della dashboard. Cora propone un layout completo in base
 
 ## Red Sea ReefBeat
 
-La famiglia di attrezzatura connessa di Red Sea: ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED e ReefControl. Cora la legge sulla tua rete di casa. Vedi [Attrezzatura per marca](/help/equipment-by-brand).
+La famiglia di attrezzatura connessa di Red Sea: ReefDose, ReefRun, ReefMat e ReefATO+. Cora la legge sulla tua rete di casa. Vedi [Attrezzatura per marca](/help/equipment-by-brand).
 
 ## Reef Buddy
 
@@ -184,9 +173,6 @@ La schermata di Cora Max che mostra tutte le tue vasche una accanto all'altra. S
 
 Uno sguardo più approfondito e periodico a tutto un impianto. Tiene conto insieme di ogni parametro, fonte, dose e risultato di laboratorio recente. Vedi [ICP e report di salute](/help/mobile-icp-health).
 
-## Richiede Cora Max
-
-Un'etichetta su una marca in **Aggiungi dispositivo**. Quell'attrezzatura viene letta da un Cora Max, quindi la vasca ne ha bisogno prima. Vedi [Attrezzatura per marca](/help/equipment-by-brand).
 
 ## Rinvia
 
@@ -226,4 +212,4 @@ Una vasca che hai rimosso. I suoi dati vengono conservati, e puoi ripristinarla 
 
 ## Widget
 
-Un riquadro di una dashboard che mostra una cosa, come un valore, un indicatore, un grafico, una presa o una telecamera. Vedi [Guida ai widget](/help/mobile-widgets).
+Un riquadro di una dashboard che mostra una cosa, come un valore, un indicatore, un grafico o una presa. Vedi [Guida ai widget](/help/mobile-widgets).

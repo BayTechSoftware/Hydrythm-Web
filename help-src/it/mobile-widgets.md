@@ -25,23 +25,13 @@ I widget si aggiungono e si dispongono nell'[editor della dashboard](/help/mobil
 | **ReefBeat** | Un'unità Red Sea, con il suo riepilogo |
 | **Modulo Apex** | Un modulo Apex installato, come un Trident o un DŌS |
 | **Jecod** | Una pompa Jecod, con modalità e intensità |
-| **Maxspect** *(Beta)* | Una gyre, con entrambi i motori |
-| **GHL** *(Beta)* | Un controller ProfiLux o Mitras, con il suo riepilogo |
-| **HYDROS** *(Beta)* | Un controller HYDROS, con il suo riepilogo |
-| **Radion** *(Beta)* | Una luce EcoTech Radion, oppure una rete Radion collegata |
-| **VorTech** *(Beta)* | Una pompa EcoTech VorTech, con modalità e velocità |
-| **Versa** *(Beta)* | Un dosatore EcoTech Versa, con le sue teste |
-| **Telecamera** *(Beta)* | Una vista in diretta da una delle tue telecamere, larga fino a tre colonne e alta due righe |
 
 Tutto quello che viene dopo Presa è un riquadro **dispositivo**. Ognuno appartiene a un apparecchio invece che a un parametro, e mostra quello che l'unità riporta. Cora Max ha anche un riquadro **Scena**, che aggiungi su Cora Max. Vedi [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
 
-:::note Riquadri Beta
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech e Versa) e Telecamera sono integrazioni Beta, disponibili solo per gli utenti Beta. Vedi questi riquadri solo quando hai il dispositivo. Vedi [Funzioni Beta](/help/mobile-beta).
-:::
 
 ## Dimensioni {#sizing}
 
-**Larghezza** e **Altezza** possono essere ciascuna **1×** o **2×**, quindi un widget è largo una o due celle e alto una o due celle. Una telecamera può essere larga fino a **3×**. Un grafico non è mai largo una sola cella. Su una dashboard a tre colonne, un indicatore largo due occupa due terzi della riga. Di solito è una buona forma per il tuo parametro più importante.
+**Larghezza** e **Altezza** possono essere ciascuna **1×** o **2×**, quindi un widget è largo una o due celle e alto una o due celle. Un grafico non è mai largo una sola cella. Su una dashboard a tre colonne, un indicatore largo due occupa due terzi della riga. Di solito è una buona forma per il tuo parametro più importante.
 
 ## Cosa mostra un widget di parametro {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ Quali dispositivi possono avere un riquadro dipende da cosa hai collegato. Vedi 
 
 ## Riquadri dei dosatori {#doser-tiles}
 
-Il riquadro di un dosatore (un Apex DŌS, un ReefDose o un EcoTech Versa) mostra una riga per testa. Il nome di una testa non viene mai rimpicciolito sotto una dimensione leggibile. Su un riquadro alto la riga occupa due linee, con il nome sulla prima e quello che resta sulla seconda, per esempio *40g* e *2,8 L*. Su un riquadro basso la linea di dettaglio viene tolta e il nome resta leggibile.
+Il riquadro di un dosatore (un Apex DŌS o un ReefDose) mostra una riga per testa. Il nome di una testa non viene mai rimpicciolito sotto una dimensione leggibile. Su un riquadro alto la riga occupa due linee, con il nome sulla prima e quello che resta sulla seconda, per esempio *40g* e *2,8 L*. Su un riquadro basso la linea di dettaglio viene tolta e il nome resta leggibile.
 
 Imposta cosa viene prima con **Mostra il rimanente come**: **Giorni** o **Millilitri (mL)**. Una testa ReefDose senza un nome suo viene mostrata con il nome del dispositivo seguito da "testa" e dal suo numero. Il riquadro di un dosatore Jecod è in sola lettura e mostra il piano giornaliero, perché Jecod non riporta quanto resta nel flacone.

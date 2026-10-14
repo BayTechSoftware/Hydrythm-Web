@@ -3,7 +3,7 @@ title: Plans and subscriptions
 description: What the Free, trial, Plus, Pro and Max plans include, how to subscribe or upgrade, where to see your usage, and how to cancel on iPhone or Android.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 35
+order: 37
 group: Settings and account
 ---
 
@@ -62,7 +62,6 @@ There are three plans, **Plus**, **Pro** and **Max**, each monthly or annual. Se
 
 Voice sessions have their own count, and every spoken reply also uses up your message allowance. Every paid plan includes Reef Buddy, ICP upload and analysis for the labs Cora reads, comparison with your own history, and **Design with AI** for dashboards (up to 5 designs a day for each tank).
 
-Paid plans also include Skimmer Watch alerts for a camera on your sump. The trial doesn't. **Beta.** Cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact support. More in [Cameras](/help/mobile-cameras).
 
 :::note The Max plan isn't the Cora Max screen
 The **Max plan** is a subscription. **Cora Max** is the screen that sits by your tank. You don't need one to have the other.

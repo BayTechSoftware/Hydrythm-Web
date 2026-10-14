@@ -3,7 +3,7 @@ title: Automations and scenes
 description: Make Cora act on its own when a reading, an alert, a time or a device goes offline, and group actions into scenes you run with one tap.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Add one or more triggers under **When: any trigger**. Any one of them starts the
 | Trigger | Fires when |
 |---|---|
 | **When a metric changes** | A parameter crosses a value you set. Pick the **Direction**: **Rising**, **Falling** or **Any change** |
-| **When an alert fires** | An alert is **Raised**, **Cleared**, or either. You can limit it to **Threshold** or **Rate of change** alerts |
+| **When an alert fires** | An alert is **Raised**, **Cleared**, or either. You can limit it to **Threshold** or **Rate of change** alerts. |
 | **At a time of day** | A time of day, in your own timezone |
 | **When a device goes offline** | Your Cora Max goes **Offline**, comes back **Online**, or either way |
 
@@ -82,18 +82,12 @@ An action that needs equipment only shows up on a tank that has that equipment.
 | **Dose a DŌS Head** | Run a measured dose on a DŌS head |
 | **Control a Red Sea Equipment** | Drive a ReefBeat unit |
 | **Control a wavemaker** | Set a Jecod pump's flow, wave mode or power, or **Pause for feeding**. The Cora Max at the tank puts the pump back when the feed ends |
-| **Control a GHL Equipment (Beta)** | Pause a feeding program, start maintenance or water change mode, set a light scene or brightness, and more |
-| **Control a HYDROS Equipment (Beta)** | Set an output, return it to its schedule, switch mode, run a tester command or dose from a head |
-| **Control an EcoTech device (Beta)** | Set a Radion's intensity or scene, start a VorTech feed or mode, dose from a Versa, or return any of them to schedule |
 | **Notify Me** | Send yourself a push with your own **Title** and **Message** |
 | **Wait Before Next Step** | Pause before carrying on |
 | **Run a Scene** | Run a scene from inside this rule |
 | **Manage an Automation** | Turn another rule on or off |
 | **Create a Maintenance Task** | Put a job on the tank's [maintenance](/help/mobile-maintenance) list, for example change the CO2 scrubber media when pH drops below a value |
 
-:::note Beta
-GHL, HYDROS and EcoTech are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). More in [Beta features](/help/mobile-beta).
-:::
 
 :::warning A dose can't be undone, and it's capped
 You can't take a dose back out of the tank. A rule can only dose from a head that has been measured with **Measure to dose** on a Cora Max. The dose runs on a Cora Max at the tank. Dosing from rules is capped at **10 mL per head per day**, however the rule is written.

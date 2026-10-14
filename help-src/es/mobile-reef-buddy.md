@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Tu resumen diario de Reef Buddy: qué incluye, cuándo llega, cómo leer las puntuaciones y por qué puede no llegar un resumen.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Después viene el resumen, un párrafo corto que explica el titular con tus valo
 
 Luego vienen los análisis, uno por cada hallazgo. Cada uno tiene una categoría (como *Química del agua*) y una frecuencia (como *Diaria*), y puedes desplegarlo para ver más. Una etiqueta arriba de la sección muestra el tipo de acuario y lo completo que está su perfil. Las dos cosas influyen en lo que Cora puede concluir.
 
+
 Cora filtra los análisis antes de que te lleguen. Un análisis tiene que mantenerse a lo largo de varias lecturas. Con una no basta. También tiene que contarte algo que un solo gráfico no te mostraría ya.
 
 Toca la tarjeta del panel para abrir el resumen completo.
@@ -51,11 +52,8 @@ Las lecturas de sondas y controladores no activan esta opción, porque llegan du
 
 Debajo de un análisis, toca **¿Por qué veo esto?** La hoja **Por qué ves esto** lista las **Lecturas que usó**, el **Objetivo de comparación** (tu propio objetivo o un rango de referencia), lo que **De tu diario** haya tenido en cuenta y el periodo en días que miró. Si el razonamiento no encaja con tu acuario, responde al análisis como se explica en [Corregir un análisis](#correcting-an-insight).
 
-Los resúmenes también usan más que las lecturas de parámetros. Pueden usar los horarios de tus luces, la velocidad de un rollo ReefMat, tu alcalinidad anotada a mano junto a la de un dispositivo, los totales de tus cabezales DŌS y, si tienes un monitor de aire de habitación Inkbird, la temperatura y la humedad de la habitación.
+Los resúmenes también usan más que las lecturas de parámetros. Pueden usar los horarios de tus luces, la velocidad de un rollo ReefMat, tu alcalinidad anotada a mano junto a la de un dispositivo y los totales de tus cabezales DŌS.
 
-:::note Inkbird está en Beta
-**Beta.** Inkbird está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con el soporte. Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
 ## Cuándo llega {#when-it-arrives}
 

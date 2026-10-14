@@ -3,7 +3,7 @@ title: Exporting your data and deleting your account
 description: Export your readings, journal and alerts as spreadsheet files, sign out, or delete your Cora account and what that removes.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 38
 group: Settings and account
 ---
 

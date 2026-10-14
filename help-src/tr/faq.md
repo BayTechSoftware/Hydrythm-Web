@@ -14,7 +14,7 @@ Tam sayfalara bağlantılarla kısa yanıtlar. Bir şey çalışmıyorsa doğrud
 
 Başlamak için bir şey satın almanız gerekmez. Cora Mobile tek başına akvaryumlarınızı takip eder, testleri kaydeder, uyarı gönderir ve Cora Assistant'ı çalıştırır.
 
-Akvaryumdaki bir Cora Max birkaç şey ekler. O olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'da açıkken okur. Bir Cora Max onları gece gündüz okur, siz uzaktayken ölçümlerinizi güncel tutar ve uzaktan gönderdiğiniz komutları iletir. Maxspect, GHL, EcoTech, Inkbird ve kameraların çalışabilmesi için bir Cora Max gerekir (bunlar Beta'dır, aşağıya bakın). Ayrıntılar [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
+Akvaryumdaki bir Cora Max birkaç şey ekler. O olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'da açıkken okur. Bir Cora Max onları gece gündüz okur, siz uzaktayken ölçümlerinizi güncel tutar ve uzaktan gönderdiğiniz komutları iletir. Ayrıntılar [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
 
 ### İlk akvaryumumu nasıl eklerim? {#how-do-i-add-my-first-tank}
 
@@ -82,7 +82,7 @@ Wi-Fi ekipmanını bulmak ve ev ağınızdaki bir Cora Max'e ulaşmak için Yere
 
 ### Evde değilken akvaryumuma bakabilir miyim? {#can-i-check-on-my-tank-away}
 
-Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz ve Beta'da HYDROS ile Focustronic, üreticilerinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam ederler. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
+Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
 
 ### Evden uzaktayken ekipmanı kontrol edebilir miyim? {#can-i-control-equipment-away}
 
@@ -104,19 +104,11 @@ Evet. Bir akvaryumu kaldırmak onu yalnızca gizler. **Ayarlar → Kaldırılan 
 
 ### Cora hangi ekipmanla çalışır? {#what-equipment-does-cora-work-with}
 
-Neptune Apex (DŌS ve Trident ile), Red Sea ReefBeat ekipmanı, Jecod ve Jebao pompaları ve AquaWiz KH Controller. Beta'da: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird ve kameralar. Diğer her şey için ölçümleri elle kaydedebilirsiniz. Sayfalarına bağlantılarıyla her marka [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
+Neptune Apex (DŌS ve Trident ile), Red Sea ReefBeat ekipmanı, Jecod ve Jebao pompaları ve AquaWiz KH Controller. Diğer her şey için ölçümleri elle kaydedebilirsiniz. Sayfalarına bağlantılarıyla her marka [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
 
-### Bir entegrasyon için "Beta" ne anlama gelir? {#what-does-beta-mean}
 
-Onu hâlâ test ediyor ve geliştiriyoruz. Bazı ölçümler ya da kontroller sınırlı olabilir ve gördükleriniz güncellemeler arasında değişebilir.
 
-**Beta.** Beta entegrasyonları yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Bir mağaza test programına katılmak onu açmaz. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-
-### Bir marka neden "Cora Max Gerektirir" ile soluk görünüyor? {#why-requires-cora-max}
-
-O ekipmanı telefonunuz değil, Cora Max okur. Önce akvaryuma bir Cora Max ekleyin, marka açılır. Ayrıntılar [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
-
-### Cora; Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech ya da Inkbird ile bağlantılı mı? {#is-cora-affiliated}
+### Cora; Neptune, Red Sea ya da Jebao ile bağlantılı mı? {#is-cora-affiliated}
 
 Hayır. Cora bağlandığı hiçbir üreticiyle bağlantılı değildir, onlar tarafından onaylanmamıştır ve onlarla ortaklığı yoktur. Cora onların herkese açık hesaplarıyla, resmi API'leriyle ya da yerel ağ protokolleriyle konuşur. Bir üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı herhangi bir zamanda, haber vermeden değiştirebilir ya da bozabilir. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 

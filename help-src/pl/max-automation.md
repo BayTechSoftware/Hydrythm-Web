@@ -27,9 +27,8 @@ Dotknij sceny, żeby ją edytować, albo dotknij **Nowa scena**, żeby utworzyć
    - **Gniazdo Apex**: przełącz gniazdo Neptune Apex na **WŁ.**, **WYŁ.** albo **AUTO**.
    - **Steruj sprzętem Red Sea**: na przykład **ReefDose: dawkuj teraz**, **ReefDose: ustaw dawkę dzienną**, **ReefRun: ustaw prędkość pompy**, **ATO: zacznij ręczne napełnianie** albo **ReefMat: przesuń rolkę**.
    - **Steruj pompą cyrkulacyjną**: ustaw przepływ albo tryb fali pompy Jecod, włącz ją lub wyłącz albo **Wstrzymaj na czas karmienia**.
-   - **Uruchom karmienie na Gyre**: wstrzymaj Maxspect Gyre na czas karmienia. Sam ruszy ponownie.
-   - **GHL**: przerwa na karmienie, konserwacja, podmiana wody, scena oświetlenia i inne polecenia kontrolera.
-   - **HYDROS**: tryb, poziom wyjścia, dawka albo **HYDROS: powrót do harmonogramu**.
+   - **Uruchom test Trident**: alkaliczność, test łączony lub nutrienty. Każde uruchomienie zużywa odczynnik.
+   - **Uruchom cykl karmienia Apex**: wybierz cykl. Timer karmienia prowadzi Apex i sam wznawia pracę.
 3. W ten sam sposób dodaj kolejne kroki. Możesz zmieniać ich kolejność albo je usuwać. Krok, którego ten ekran nie potrafi edytować, ma oznaczenie **Nieedytowalne tutaj**. Edytuj go na telefonie.
 4. Wybierz, jak długo scena działa. **Czasowe** działa przez liczbę minut ustawioną w **Czas trwania (minuty)**. **Stałe** działa, dopóki jej nie zatrzymasz.
 5. Zostaw **Pytaj przed uruchomieniem** włączone, chyba że masz pewność, że scena nigdy nie dotyka niczego, co wymaga drugiego spojrzenia.
@@ -39,9 +38,6 @@ Dotknij sceny, żeby ją edytować, albo dotknij **Nowa scena**, żeby utworzyć
 Głowica Neptune DŌS nigdy nie może być krokiem sceny. Krok **ReefDose: dawkuj teraz** może i ma własne pole **Maks. na dawkę (ml)**. Zostaw je puste, a limit wyniesie 10 mL. Dawka powyżej tego limitu jest odrzucana, nigdy zmniejszana. W każdej scenie, która dozuje, zostaw **Pytaj przed uruchomieniem** włączone.
 :::
 
-:::note Beta
-**Beta.** Maxspect, GHL i HYDROS są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html).
-:::
 
 ## Uruchamianie sceny
 

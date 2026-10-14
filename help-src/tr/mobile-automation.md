@@ -3,7 +3,7 @@ title: Otomasyonlar ve sahneler
 description: Bir ölçüm, bir uyarı, bir saat ya da çevrimdışı olan bir cihaz için Cora'nın kendi başına harekete geçmesini sağlayın ve eylemleri tek dokunuşla çalıştırdığınız sahnelerde toplayın.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Her otomasyonun üç parçası vardır.
 | Tetikleyici | Ne zaman çalışır |
 |---|---|
 | **Bir parametre değiştiğinde** | Bir parametre belirlediğiniz bir değeri geçtiğinde. **Yön**'ü seçin: **Yükseliyor**, **Düşüyor** ya da **Herhangi bir değişiklik** |
-| **Bir uyarı tetiklendiğinde** | Bir uyarı **Tetiklendiğinde**, **Temizlendiğinde** ya da ikisinde de. Bunu **Eşik** ya da **Değişim hızı** uyarılarıyla sınırlayabilirsiniz |
+| **Bir uyarı tetiklendiğinde** | Bir uyarı **Tetiklendiğinde**, **Temizlendiğinde** ya da ikisinde de. Bunu **Eşik** ya da **Değişim hızı** uyarılarıyla sınırlayabilirsiniz. |
 | **Günün belirli bir saatinde** | Kendi saat diliminizde günün bir saatinde |
 | **Bir cihaz çevrimdışı olduğunda** | Cora Max'iniz **Çevrimdışı** olduğunda, yeniden **Çevrimiçi** olduğunda ya da her iki durumda |
 
@@ -82,18 +82,12 @@ Ekipman gerektiren bir eylem yalnızca o ekipmanı olan bir akvaryumda görünü
 | **Bir DŌS Kafasından Dozaj Ver** | Bir DŌS kafasında ölçülü bir doz çalıştırır |
 | **Bir Red Sea Ekipmanını Kontrol Et** | Bir ReefBeat ünitesini yönetir |
 | **Bir Dalga Pompasını Kontrol Et** | Bir Jecod pompasının akışını, dalga modunu ya da gücünü ayarlar ya da **Besleme için duraklat**. Besleme bittiğinde akvaryumdaki Cora Max pompayı eski haline getirir |
-| **Bir GHL Ekipmanını kontrol et (Beta)** | Bir besleme programını duraklatır, bakım ya da su değişimi modunu başlatır, bir ışık sahnesi ya da parlaklık ayarlar ve daha fazlası |
-| **Bir HYDROS Cihazını Kontrol Et (Beta)** | Bir çıkışı ayarlar, onu programına döndürür, mod değiştirir, bir test cihazı komutu çalıştırır ya da bir kafadan dozaj yapar |
-| **Bir EcoTech cihazını kontrol et (Beta)** | Bir Radion'un yoğunluğunu ya da sahnesini ayarlar, bir VorTech beslemesi ya da modu başlatır, bir Versa'dan dozaj yapar ya da herhangi birini programına döndürür |
 | **Beni Bilgilendir** | Kendi **Başlık** ve **Mesaj**'ınızla kendinize bir bildirim gönderir |
 | **Sonraki Adımdan Önce Bekle** | Devam etmeden önce duraklar |
 | **Bir Sahne Çalıştır** | Bu kuralın içinden bir sahne çalıştırır |
 | **Bir Otomasyonu Yönet** | Başka bir kuralı açar ya da kapatır |
 | **Bakım görevi oluştur** | Akvaryumun [bakım](/help/mobile-maintenance) listesine bir iş koyar, örneğin pH bir değerin altına düştüğünde CO2 yıkayıcı medyasını değiştirmek |
 
-:::note Beta
-GHL, HYDROS ve EcoTech Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
 :::warning Bir doz geri alınamaz ve sınırlıdır
 Bir dozu akvaryumdan geri çıkaramazsınız. Bir kural yalnızca bir Cora Max'te **Dozajlamak için ölç** ile ölçülmüş bir kafadan dozaj yapabilir. Doz akvaryumdaki bir Cora Max'te çalışır. Kurallardan dozaj, kural nasıl yazılmış olursa olsun **kafa başına günde 10 mL** ile sınırlıdır.

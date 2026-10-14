@@ -15,23 +15,28 @@ La pestaña **Dispositivos** es donde añades, asignas, renombras, revisas y qui
 ## Añadir equipos {#adding-equipment}
 
 1. En la pestaña **Dispositivos**, toca **Agregar dispositivo**.
-2. Elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**. Los usuarios Beta ven además **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** y **Cámara**, cada una con una etiqueta **Beta**.
+2. Elige la marca: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** o **AquaWiz**.
 3. Sigue los pasos de la marca. Según la marca, es un escaneo de red, una dirección IP, un inicio de sesión o una clave de dispositivo. [Conectar tus equipos](/help/mobile-connections) tiene los pasos de cada marca.
 4. Elige el acuario al que pertenece.
 
-![La lista Agregar dispositivo de un usuario Beta](img/mobile-add-device-beta.webp "Las marcas Beta llevan una etiqueta Beta.")
+![La lista de marcas de Agregar dispositivo](img/mobile-add-device-brands.webp "Elige la marca del equipo que vas a agregar.")
 
-:::note Beta
-**Beta.** Las integraciones Beta solo están abiertas a los usuarios Beta. Si no eres usuario Beta, no las verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
-Una fila que necesita un Cora Max en el acuario (Maxspect, GHL, EcoTech, Inkbird y Cámara) aparece en gris y dice **Requiere Cora Max** hasta que el acuario tiene uno.
 
 :::note Sin un Cora Max, algunos equipos son solo locales
 A los equipos Neptune Apex, Red Sea y Jecod se llega por tu red doméstica o por Bluetooth. Sin un Cora Max, la pantalla de añadir dice *Sin Cora Max, esta integración solo funciona localmente en la app Mobile.* Tu teléfono solo los lee y los controla mientras está en la misma red (o al alcance del Bluetooth). Fuera de casa ves las últimas lecturas que guardó tu teléfono y no puedes controlarlos. Un Cora Max en el acuario los lee a todas horas y transmite tus órdenes. Más información en [Conectar tus equipos](/help/mobile-connections#local-only).
 :::
 
 Cuando añades un equipo de tu red, tu teléfono tiene que estar en la misma red que el equipo.
+
+### Capacidad de Bluetooth {#bluetooth-capacity}
+
+Un Cora Max reparte su Bluetooth entre todos los equipos que lee, así que solo puede con una cantidad limitada. Cuando agregas una bomba Jecod que se conecta por Bluetooth, Cora comprueba antes cuánto trabajo tiene el Cora Max del acuario. Normalmente no ves nada. Si no, aparece uno de dos mensajes:
+
+- **El Bluetooth se está saturando**: *Este Cora Max está cerca de su límite de Bluetooth. Más dispositivos podrían actualizarse con menos frecuencia. Añade un segundo Cora Max si piensas añadir más.* Toca **Continuar** para agregar el dispositivo de todos modos, o **Cancelar**.
+- **Límite de Bluetooth alcanzado**: *Este Cora Max ha alcanzado su límite de Bluetooth. Añade un segundo Cora Max para estos dispositivos.* El dispositivo no se agrega. Toca **Aceptar**.
+
+Cora comprueba el Cora Max principal del acuario o, si no hay ninguno elegido, el Cora Max con más margen. Más en [Más de un dispositivo Cora](/help/mobile-multi-device#primary-cora-max).
 
 ## Emparejar un Cora Max {#pairing-a-cora-max}
 
@@ -48,7 +53,7 @@ Toca cualquier dispositivo de la lista para abrir su página. Primero están sus
 - **Conexión** es donde editas su dirección IP, su inicio de sesión o su clave de dispositivo.
 - **Quitar dispositivo**, al final.
 
-Cora Max, Neptune Apex y GHL pueden servir a más de un acuario, así que su selector de acuario es una lista de casillas. Cora Max se puede asignar hasta a cuatro. Consulta [Más de un dispositivo Cora](/help/mobile-multi-device). Todo lo demás, incluido HYDROS, sirve a un solo acuario a la vez. Elegir uno distinto mueve el dispositivo ahí y lo quita del anterior.
+Cora Max y Neptune Apex pueden servir a más de un acuario, así que su selector de acuario es una lista de casillas. Cora Max se puede asignar hasta a cuatro. Consulta [Más de un dispositivo Cora](/help/mobile-multi-device). Todo lo demás sirve a un solo acuario a la vez. Elegir uno distinto mueve el dispositivo ahí y lo quita del anterior.
 
 :::warning Asigna el acuario antes de fiarte de las lecturas
 Un dispositivo sin acuario sigue informando, pero sus números no tienen dónde ir. Si un dispositivo que acabas de añadir no sale en ningún panel, revisa esto primero.
@@ -83,7 +88,6 @@ Para ver más, abre el dispositivo. Su sección **Estado** muestra cuándo supo 
 | "Actualizado hace 3 h" en algo que solo informa cada pocas horas | Todo bien |
 | "No se pudo contactar…" | Un problema de red, o el dispositivo está apagado |
 | "…rechazó el inicio de sesión" | Hay que volver a conectar la cuenta del fabricante. Abre el dispositivo e inicia sesión otra vez |
-| "Esperando a Cora Max" | Un controlador GHL o un monitor Inkbird que acabas de añadir: aparece en cuanto un Cora Max lo haya leído |
 | Lecturas más antiguas cuando estás fuera | Normal en Apex, Red Sea y Jecod sin un Cora Max en el acuario (mira más arriba) |
 | Nada | Nunca ha informado. Revisa el acuario asignado y la conexión |
 

@@ -57,7 +57,7 @@ Tippe im Editor auf ein Widget, um seine Einstellungen zu öffnen. Je nach Widge
 | **Wasserwert** | Wasserwert-Widgets: welchen Wasserwert es zeigt |
 | Die Steckdose oder das Gerät | Steckdosen- und Ausrüstungskacheln: welche oder welches sie zeigen |
 | **Restmenge anzeigen als** | Dosierer-Kacheln: **Tage** oder **Milliliter (mL)** |
-| **Breite** | Jedes Widget: **1×** oder **2×** (eine Kamera bis zu **3×**). Ein Diagramm ist immer mindestens 2 breit |
+| **Breite** | Jedes Widget: **1×** oder **2×**. Ein Diagramm ist immer mindestens 2 breit |
 | **Höhe** | Jedes Widget: **1×** oder **2×** |
 | **Zeitraum** | Diagramm: 1h, 6h, 24h, 7d, 30d oder 1y |
 
@@ -78,7 +78,7 @@ Das Cora Max-Dashboard bearbeitest du getrennt, über **Geräte →** dein Cora 
 Dieser Editor hat drei Extras, die das Handy-Dashboard nicht hat:
 
 - **Meine Dashboards** bewahrt bis zu 30 gespeicherte Designs in deinem Konto auf. Jedes Cora Max im Konto kann eins laden. Kacheln, die das Ziel nicht füllen kann, stehen vor dem Laden unter **Zurückgelassen:**.
-- **Vorlagen** öffnet **Dashboard-Vorlagen**: **Übersicht**, **Ausrüstung**, **Wasserwerte** und, wenn das Becken eine Kamera hat, **Kamera**. Es ist in jedem Abo offen und nutzt keine KI. Kameras sind in der Beta und nur für Beta-Nutzer offen.
+- **Vorlagen** öffnet **Dashboard-Vorlagen**: **Übersicht**, **Ausrüstung** und **Wasserwerte**. Es ist in jedem Abo offen und nutzt keine KI.
 - **Mit KI gestalten**, mit einem kostenpflichtigen Abo oder während der Testphase, schlägt ein ganzes Layout vor, ausgehend von dem, was das Becken meldet und verknüpft hat. Du kannst 5 Entwürfe pro Becken und Tag erstellen.
 
 Wie jedes davon funktioniert, steht unter [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing).

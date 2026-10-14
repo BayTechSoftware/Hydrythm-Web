@@ -25,23 +25,13 @@ Widżety dodajesz i układasz w [edytorze pulpitu](/help/mobile-dashboard-editin
 | **ReefBeat** | Jedno urządzenie Red Sea z jego własnym podsumowaniem |
 | **Moduł Apex** | Jeden zamontowany moduł Apex, na przykład Trident albo DŌS |
 | **Jecod** | Jedną pompę Jecod z trybem i intensywnością |
-| **Maxspect** *(Beta)* | Jeden Gyre z oboma silnikami |
-| **GHL** *(Beta)* | Jeden kontroler ProfiLux albo Mitras z jego własnym podsumowaniem |
-| **HYDROS** *(Beta)* | Jeden kontroler HYDROS z jego własnym podsumowaniem |
-| **Radion** *(Beta)* | Jedną lampę EcoTech Radion albo połączoną sieć Radion |
-| **VorTech** *(Beta)* | Jedną pompę EcoTech VorTech z trybem i prędkością |
-| **Versa** *(Beta)* | Jeden dozownik EcoTech Versa z jego głowicami |
-| **Kamera** *(Beta)* | Podgląd na żywo z jednej z Twoich kamer, do trzech kolumn szerokości i dwóch rzędów wysokości |
 
 Wszystko po Gnieździe to kafelki **urządzeń**. Każdy należy do konkretnego sprzętu, a nie do parametru, i pokazuje to, co zgłasza dane urządzenie. Cora Max ma też kafelek **Scena**, który dodajesz na Cora Max. Zobacz [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing).
 
-:::note Kafelki Beta
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech i Versa) oraz Kamera to integracje Beta, dostępne tylko dla użytkowników Beta. Te kafelki widzisz dopiero wtedy, gdy masz to urządzenie. Zobacz [Funkcje Beta](/help/mobile-beta).
-:::
 
 ## Rozmiar {#sizing}
 
-**Szerokość** i **Wysokość** mogą mieć wartość **1×** albo **2×**, więc widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Kamera może mieć do **3×** szerokości. Wykres nigdy nie ma szerokości jednej komórki. Na pulpicie z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. To zwykle dobry kształt dla najważniejszego parametru.
+**Szerokość** i **Wysokość** mogą mieć wartość **1×** albo **2×**, więc widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres nigdy nie ma szerokości jednej komórki. Na pulpicie z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. To zwykle dobry kształt dla najważniejszego parametru.
 
 ## Co pokazuje widżet parametru {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ To, które urządzenia mogą mieć kafelek, zależy od tego, co podłączono. Zo
 
 ## Kafelki dozowników {#doser-tiles}
 
-Kafelek dozownika (Apex DŌS, ReefDose albo EcoTech Versa) pokazuje jeden wiersz na głowicę. Nazwa głowicy nigdy nie jest zmniejszana poniżej czytelnego rozmiaru. Na wysokim kafelku wiersz zajmuje dwie linie, z nazwą w pierwszej i tym, co zostało, w drugiej, na przykład *40d* i *2.8 L*. Na niskim kafelku linia ze szczegółami jest pomijana, a nazwa pozostaje czytelna.
+Kafelek dozownika (Apex DŌS albo ReefDose) pokazuje jeden wiersz na głowicę. Nazwa głowicy nigdy nie jest zmniejszana poniżej czytelnego rozmiaru. Na wysokim kafelku wiersz zajmuje dwie linie, z nazwą w pierwszej i tym, co zostało, w drugiej, na przykład *40d* i *2.8 L*. Na niskim kafelku linia ze szczegółami jest pomijana, a nazwa pozostaje czytelna.
 
 To, co jest pierwsze, ustawiasz w **Pokaż pozostałe jako**: **Dni** albo **Mililitry (mL)**. Głowica ReefDose bez własnej nazwy jest pokazana jako nazwa urządzenia, a po niej „head” i jej numer. Kafelek dozownika Jecod jest tylko do odczytu i pokazuje plan dzienny, bo Jecod nie zgłasza, ile zostało w butelce.

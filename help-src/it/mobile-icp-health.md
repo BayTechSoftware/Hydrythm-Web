@@ -3,7 +3,7 @@ title: ICP e report di salute
 description: Carica il PDF di un test ICP o fallo inviare dal tuo laboratorio, leggi il punteggio, segui ogni elemento nel tempo e avvia un Report di salute di tutto l'impianto.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ Su ogni riga di elemento vedi l'intervallo stampato dal laboratorio, indicato co
 Se il laboratorio stampa *n.d.*, o *not detected*, per un elemento, Cora lo registra come 0 e dice che non è stato rilevato.
 
 :::note La CO2 disciolta non è la CO2 della stanza
-La **CO₂ disciolta** in un report ICP è la CO2 nell'acqua, in mg/L. È una lettura diversa dalla CO2 dell'aria della stanza, che misura un monitor dell'aria della stanza Inkbird. Le due hanno intervalli diversi e non vengono mai mescolate. **Beta.** Inkbird è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza.
+La **CO₂ disciolta** in un report ICP è la CO2 nell'acqua, in mg/L. È una lettura diversa dalla CO2 dell'aria della stanza. Le due hanno intervalli diversi e non vengono mai mescolate.
 :::
 
 La scheda **Dal tuo ultimo ICP** mostra cosa è cambiato di più dall'ultima volta. Di solito è il modo più veloce per entrare in un nuovo report.

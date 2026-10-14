@@ -62,20 +62,15 @@ You don't need to repeat yourself for follow-ups. After a question about the dis
 - Write in the journal: *"Log that I did a twenty litre water change."* *"Log that I fed extra mysis."* *"Log that I skipped the morning feed."*
 - Control Red Sea equipment: dose from a ReefDose head, change its daily dose, start a ReefATO+ fill, advance a ReefMat, or set a ReefRun pump's speed.
 - Control Jecod pumps.
-- Beta equipment: start a Focustronic test or dose, run GHL commands, and control EcoTech VorTech pumps.
 
 ## What Cora can't do by voice on Cora Max
 
 - Run or stop a scene. Use the scene tile or **Settings → Automations**.
-- Dose from a Neptune DŌS head, or dose an EcoTech Versa. Use the device's page on Cora Max.
-- Control a Maxspect gyre, a HYDROS controller or an EcoTech Radion. Use the device's page.
+- Dose from a Neptune DŌS head. Use the device's page on Cora Max.
 - Change Cora Max's own settings, add devices or edit the dashboard.
 
 Cora Assistant on your phone can do some of these. More in [Asking Cora](/help/mobile-assistant#what-cora-can-change).
 
-:::note Beta
-**Beta.** Focustronic, GHL, HYDROS, Maxspect and EcoTech are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
 
 ## Confirmations
 

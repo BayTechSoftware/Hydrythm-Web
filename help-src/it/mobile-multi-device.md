@@ -3,7 +3,7 @@ title: Più di un dispositivo Cora
 description: Con più di un dispositivo Cora, scegli quale risponde alla tua voce e quale legge ogni vasca, e scopri cosa funziona fuori casa.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 34
+order: 36
 group: Settings and account
 twin: max-reef-room
 ---

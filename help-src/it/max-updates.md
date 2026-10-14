@@ -26,7 +26,6 @@ La tua versione è nella scheda in cima a **Impostazioni → Impostazioni Cora M
 In **Impostazioni aggiornamento** nella stessa schermata:
 
 - **Finestra di installazione** imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di **Inizio** e di **Fine**, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in **Dispositivi →** il tuo Cora Max **→ Fuso orario**.
-- **Canale aggiornamento** è **Stabile** o **Beta**. Lascialo su **Stabile** a meno che l'assistenza non ti chieda di cambiarlo. Un Cora Max su **Beta** non riceve le versioni stabili.
 
 Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in **Impostazioni Cora Max** e scorri fino a **STATO**. Mostra per ogni vasca **Stato polling**, **Ultimo polling**, **Ultima scrittura cloud** e **Salvataggio cloud**.
 

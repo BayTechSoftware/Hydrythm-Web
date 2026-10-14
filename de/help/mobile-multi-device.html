@@ -95,9 +95,6 @@
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
 <li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
 <li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
-<li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
-<li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
@@ -203,7 +200,7 @@
 <h2 id="wo-du-den-zustand-jedes-gerats-siehst">Wo du den Zustand jedes Geräts siehst</h2>
 <p>Cora Max zeigt den Abfragestatus jedes Beckens unter <strong>Einstellungen → Cora Max-Einstellungen → Status</strong>. Mehr dazu unter <a href="/de/help/max-devices">Geräte und Gerätezustand</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-settings"><span>Zurück</span><b>Cora Mobile-Einstellungen</b></a><a class="pn-n" href="/de/help/mobile-plans"><span>Weiter</span><b>Pläne und Abos</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -594,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

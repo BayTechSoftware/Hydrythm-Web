@@ -95,9 +95,6 @@
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
 <li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
 <li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
-<li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
-<li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
@@ -209,7 +206,7 @@
 <p>Chaque élément est suivi, y compris les oligo-éléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent <em>Acidity</em> est le pH.</p>
 <p>Sur la ligne de chaque élément, vous voyez la plage imprimée par le laboratoire, affichée comme <em>Plage du laboratoire</em>, à côté de la plage propre à Cora pour cet élément. Un élément pour lequel Cora n’a pas de plage de référence porte l’étiquette <strong>Pas de plage Cora</strong>. Le rapport indique combien d’éléments ont une plage Cora et évalue les autres à partir des connaissances générales sur le récif. Cora Assistant commente chaque élément testé, et son commentaire vaut même quand il n’y a pas de plage Cora.</p>
 <p>Si le laboratoire imprime <em>n.d.</em>, ou <em>non détecté</em>, pour un élément, Cora l’enregistre à 0 et indique qu’il n’a pas été détecté.</p>
-<aside class="cal cal-note"><p class="cal-t">Le CO2 dissous n’est pas le CO2 de la pièce</p><p>Le <strong>CO₂ dissous</strong> d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce, que mesure un moniteur d’air ambiant Inkbird™. Les deux ont des plages différentes et ne sont jamais mélangés. <strong>Beta.</strong> Inkbird est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans <strong>Ajouter un appareil</strong>. Pour demander l’accès Beta, contactez le support.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Le CO2 dissous n’est pas le CO2 de la pièce</p><p>Le <strong>CO₂ dissous</strong> d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce. Les deux ont des plages différentes et ne sont jamais mélangés.</p></aside>
 <p>La carte <strong>Depuis votre dernier ICP</strong> montre ce qui a le plus changé depuis la dernière fois. C’est en général le moyen le plus rapide d’aborder un nouveau rapport.</p>
 <p>Touchez <strong>Tendances</strong> pour voir n’importe quel élément sur tous les tests que vous avez importés. C’est là que l’ICP devient vraiment utile.</p>
 <aside class="cal cal-tip"><p class="cal-t">C’est au deuxième test que cela devient intéressant</p><p>Un ICP vous dit où vous en êtes. Le deuxième vous dit dans quelle direction vous allez, et c’est sur cela que vous pouvez agir. Testez à un rythme régulier, sans attendre que quelque chose tourne mal.</p></aside>
@@ -232,7 +229,7 @@
 <p>L’écran Intelligence sépare les deux sortes. Les résultats de laboratoire sont sous <strong>RAPPORTS ICP</strong> et les bilans générés sous <strong>RAPPORTS DE SANTÉ</strong>. Chaque liste affiche les plus récents en premier, avec leur score. Touchez-en un pour le rouvrir en entier.</p>
 <p>Vous pouvez aussi y accéder depuis <strong>Réglages</strong> : ouvrez un aquarium, puis <strong>Rapports ICP</strong> ou <strong>Rapports de santé</strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-assistant"><span>Précédent</span><b>Interroger Cora</b></a><a class="pn-n" href="/fr/help/mobile-journeys"><span>Suivant</span><b>Parcours guidés</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -623,7 +620,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

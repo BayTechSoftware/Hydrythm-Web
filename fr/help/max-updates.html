@@ -95,9 +95,6 @@
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
 <li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
 <li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
-<li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
-<li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
@@ -184,7 +181,7 @@
 <p>Votre version figure sur la carte en haut de <strong>Réglages → Réglages Cora Max</strong> (<em>Cora Max · micrologiciel 0.28.170</em>), et sous <strong>AIDE ET À PROPOS → À propos</strong>.</p>
 <p><strong>Réglages → Réglages Cora Max → Mise à jour du micrologiciel</strong> (dans <strong>RÉSEAU ET MISES À JOUR</strong>) affiche la version que vous avez et indique si une mise à jour attend. Touchez <strong>Rechercher des mises à jour</strong> pour vérifier maintenant, ou <strong>Télécharger et installer</strong> quand il y en a une.</p>
 <p>Sous <strong>Réglages de mise à jour</strong>, sur le même écran :</p>
-<ul><li><strong>Plage d’installation</strong> définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de <strong>Début</strong> et de <strong>Fin</strong>, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous <strong>Appareils →</strong> votre Cora Max <strong>→ Fuseau horaire</strong>.</li><li><strong>Canal de mise à jour</strong> vaut <strong>Stable</strong> ou <strong>Bêta</strong>. Laissez-le sur <strong>Stable</strong> sauf si l’assistance vous demande de changer. Un Cora Max sur <strong>Bêta</strong> ne reçoit pas les versions stables.</li></ul>
+<ul><li><strong>Plage d’installation</strong> définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de <strong>Début</strong> et de <strong>Fin</strong>, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous <strong>Appareils →</strong> votre Cora Max <strong>→ Fuseau horaire</strong>.</li></ul>
 <p>Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à <strong>Réglages Cora Max</strong> et faites défiler jusqu’à <strong>ÉTAT</strong>. La section affiche pour chaque aquarium l’<strong>État de l’interrogation</strong>, la <strong>Dernière interrogation</strong>, la <strong>Dernière écriture cloud</strong> et l’<strong>Enregistrement cloud</strong>.</p>
 <h2 id="quand-une-mise-a-jour-est-disponible">Quand une mise à jour est disponible</h2>
 <p>Un message vous dit ce qui est nouveau et vous propose deux choix.</p>
@@ -210,7 +207,7 @@
 <h2 id="si-un-appareil-ne-redemarre-pas">Si un appareil ne redémarre pas</h2>
 <p>Écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> en indiquant la version affichée à l’écran et le message qu’il affiche. Ne le réappairez pas avant. L’état de l’association aide souvent à comprendre ce qui s’est passé.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-settings"><span>Précédent</span><b>Réglages de Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -601,7 +598,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

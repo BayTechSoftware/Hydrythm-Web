@@ -3,7 +3,7 @@ title: ICP und Gesundheitsberichte
 description: Ein ICP-Test-PDF hochladen oder von deinem Labor schicken lassen, die Bewertung lesen, jedes Element über die Zeit verfolgen und einen Gesundheitsbericht über dein ganzes System erstellen.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ In jeder Elementzeile siehst du den Bereich, den das Labor gedruckt hat, als *La
 Druckt das Labor für ein Element *n.d.* oder *not detected*, erfasst Cora es als 0 und sagt, dass es nicht nachgewiesen wurde.
 
 :::note Gelöstes CO2 ist nicht das CO2 im Raum
-**Gelöstes CO₂** in einem ICP-Bericht ist das CO2 im Wasser, in mg/L. Es ist ein anderer Messwert als das CO2 der Luft in deinem Raum, das ein Inkbird-Raumluftmonitor misst. Die beiden haben unterschiedliche Bereiche und werden nie vermischt. **Beta.** Inkbird ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support.
+**Gelöstes CO₂** in einem ICP-Bericht ist das CO2 im Wasser, in mg/L. Es ist ein anderer Messwert als das CO2 der Luft in deinem Raum. Die beiden haben unterschiedliche Bereiche und werden nie vermischt.
 :::
 
 Die Karte **Seit deinem letzten ICP** zeigt, was sich seit dem letzten Mal am stärksten geändert hat. Sie ist meist der schnellste Weg in einen neuen Bericht.

@@ -3,7 +3,7 @@ title: Asking Cora
 description: Use Cora Assistant by typing or talking, what it can see, what it can do for you, the data sharing switch, and memory.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Logging a test, a journal entry or a feeding happens when you ask for it. Anythi
 
 Equipment control works away from home only when a Cora Max at the tank can reach the equipment. See [What works away from home](/help/mobile-multi-device#what-works-away-from-home).
 
-:::note Beta equipment
-Cora can also control GHL, HYDROS, Focustronic, Maxspect and EcoTech (Radion, VorTech and Versa) equipment. **Beta.** These integrations are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact support.
-:::
 
 :::warning Cora advises. You decide
 Check anything important with your own testing. Treat big changes the way you'd treat advice from anyone else, and sanity-check them before you act. The line under the message box says the same.

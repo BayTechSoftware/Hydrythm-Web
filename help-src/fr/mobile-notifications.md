@@ -3,7 +3,7 @@ title: Notifications
 description: Choisissez quelles notifications arrivent sur votre téléphone, gardez des nuits calmes, relisez ce que vous avez manqué sous la cloche, et réparez des notifications qui n’arrivent pas.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ La carte en haut indique si ce téléphone autorise les notifications de Cora (*
 |---|---|
 | **Alertes de paramètres** | La chimie de l’eau hors d’une plage que vous avez réglée, et la notification de *retour à la normale* quand elle y revient |
 | **Rappels d’entretien** | Les tâches que vous avez programmées, comme les changements d’eau, et un rappel unique de noter votre premier test quand un nouvel aquarium n’a toujours aucune mesure après trois jours |
-| **Pannes d’équipement** | Un appareil qui signale un problème, par exemple un Trident qui a arrêté de tester. Aussi un appareil qui [ne remonte plus de mesures](/help/mobile-alerts#stopped-reporting), une dose manquée, et l’alerte de godet plein de la surveillance de l’écumeur |
+| **Pannes d’équipement** | Un appareil qui signale un problème, par exemple un Trident qui a arrêté de tester. Aussi un appareil qui [ne remonte plus de mesures](/help/mobile-alerts#stopped-reporting) et une dose manquée |
 | **Consommables bientôt épuisés** | Réactif, eau d’appoint, récipients de dosage, et une bouteille de déchets pleine |
 | **Rapport ICP prêt** | Vos résultats ICP sont analysés et prêts à lire |
 

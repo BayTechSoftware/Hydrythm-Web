@@ -95,9 +95,6 @@
 <li><a href="/de/help/mobile-schedules">Ausrüstung planen</a></li>
 <li><a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a></li>
 <li><a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a></li>
-<li><a href="/de/help/mobile-cameras">Kameras und Skimmer-Wächter</a></li>
-<li><a href="/de/help/mobile-ecotech">EcoTech-Leuchten, -Pumpen und -Dosierer</a></li>
-<li><a href="/de/help/mobile-beta">Beta-Funktionen</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Warnungen und Automatisierung</summary><ul>
@@ -184,7 +181,7 @@
 <p>Deine Version steht auf der Karte oben unter <strong>Einstellungen → Cora Max-Einstellungen</strong> (<em>Cora Max · Firmware 0.28.170</em>) und unter <strong>HILFE &amp; ÜBER → Über</strong>.</p>
 <p><strong>Einstellungen → Cora Max-Einstellungen → Firmware-Update</strong> (in <strong>NETZWERK &amp; UPDATES</strong>) zeigt die Version, die du hast, und ob ein Update wartet. Tippe auf <strong>Nach Updates suchen</strong>, um jetzt nachzusehen, oder auf <strong>Herunterladen &amp; installieren</strong>, wenn eins da ist.</p>
 <p>Unter <strong>Update-Einstellungen</strong> auf demselben Bildschirm:</p>
-<ul><li><strong>Installationsfenster</strong> legt die Stunden fest, in denen sich Updates installieren dürfen, mit einer Zeit für <strong>Start</strong> und <strong>Ende</strong>, in der Ortszeit dieses Bildschirms. Die Zeitzone stellst du in Cora Mobile ein, unter <strong>Geräte →</strong> dein Cora Max <strong>→ Zeitzone</strong>.</li><li><strong>Update-Kanal</strong> ist <strong>Stabil</strong> oder <strong>Beta</strong>. Lass ihn auf <strong>Stabil</strong>, außer der Support bittet dich, zu wechseln. Ein Cora Max auf <strong>Beta</strong> bekommt keine stabilen Versionen.</li></ul>
+<ul><li><strong>Installationsfenster</strong> legt die Stunden fest, in denen sich Updates installieren dürfen, mit einer Zeit für <strong>Start</strong> und <strong>Ende</strong>, in der Ortszeit dieses Bildschirms. Die Zeitzone stellst du in Cora Mobile ein, unter <strong>Geräte →</strong> dein Cora Max <strong>→ Zeitzone</strong>.</li></ul>
 <p>Um zu sehen, ob dieser Bildschirm deine Geräte abfragt und in Cora Cloud speichert, geh zurück zu <strong>Cora Max-Einstellungen</strong> und scroll zu <strong>STATUS</strong>. Dort stehen für jedes Becken <strong>Abfragestatus</strong>, <strong>Letzte Abfrage</strong>, <strong>Letzter Cloud-Schreibvorgang</strong> und <strong>Cloud-Speichern</strong>.</p>
 <h2 id="wenn-ein-update-bereitsteht">Wenn ein Update bereitsteht</h2>
 <p>Ein Hinweis sagt dir, was neu ist, und gibt dir zwei Möglichkeiten.</p>
@@ -210,7 +207,7 @@
 <h2 id="wenn-ein-gerat-nicht-neu-startet">Wenn ein Gerät nicht neu startet</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> mit der Version, die auf dem Bildschirm steht, und der Meldung, die er zeigt. Koppel es vorher nicht neu. Der Kopplungsstatus hilft oft herauszufinden, was passiert ist.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-settings"><span>Zurück</span><b>Cora Max-Einstellungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.170 und Cora Mobile 0.5.111. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -601,7 +598,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=27e4c3fd7b').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -3,7 +3,7 @@ title: ICP e informes de salud
 description: Sube el PDF de una prueba ICP o haz que tu laboratorio lo envíe, lee la puntuación, sigue cada elemento a lo largo del tiempo y genera un informe de salud de todo tu sistema.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado 
 Si el laboratorio imprime *n.d.*, o *no detectado*, para un elemento, Cora lo registra como 0 e indica que no se detectó.
 
 :::note El CO2 disuelto no es el CO2 de la habitación
-**CO₂ disuelto** en un informe de ICP es el CO2 del agua, en mg/L. Es una lectura distinta del CO2 del aire de tu habitación, que mide un monitor de aire de habitación Inkbird. Los dos tienen rangos distintos y nunca se mezclan. **Beta.** Inkbird está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con el soporte.
+**CO₂ disuelto** en un informe de ICP es el CO2 del agua, en mg/L. Es una lectura distinta del CO2 del aire de tu habitación. Los dos tienen rangos distintos y nunca se mezclan.
 :::
 
 La tarjeta **Desde tu último ICP** muestra lo que más ha cambiado desde la última vez. Suele ser la forma más rápida de entrar en un informe nuevo.

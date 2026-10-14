@@ -11,7 +11,7 @@ Reef akvaryumunuzu Cora ile yönetmek için gereken her şey burada. Bir iş se�
 :::tiles
 - [Cora Mobile'a yeniyim](/help/mobile-setup): Hesabınızı açın, ilk akvaryumunuzu ekleyin ve ölçümleri ekranda görün.
 - [Cora Max'e yeniyim](/help/max-setup): Telefonunuzla eşleştirin ve akvaryumlarınızı duvardaki ekrana getirin.
-- [Ekipmanınızı bağlayın](/help/mobile-connections): Neptune Apex, Red Sea, Jecod, AquaWiz ve Beta markaları.
+- [Ekipmanınızı bağlayın](/help/mobile-connections): Neptune Apex, Red Sea, Jecod ve AquaWiz.
 - [Uyarıları ayarlayın](/help/mobile-alerts): Her parametrenin aralığını ve telefonunuza nelerin geleceğini seçin.
 - [Panonuzu kurun](/help/mobile-dashboard-editing): Telefonunuzda ya da Cora Max'te widget ekleyin ve yerleştirin.
 - [Cora ile konuşun](/help/mobile-assistant): Akvaryumunuzu yazarak sorun ya da Cora Max'e "Hey Cora" deyin.
@@ -47,7 +47,6 @@ Cora Max aldıysanız bile önce [akvaryumlarınızı ve cihazlarınızı Cora M
 - [Red Sea ReefBeat](/help/equipment-by-brand#red-sea)
 - [Jecod ve Jebao](/help/equipment-by-brand#jecod)
 - [AquaWiz KH Controller](/help/equipment-by-brand#aquawiz)
-- Beta, yalnızca Beta kullanıcıları için: [Maxspect](/help/equipment-by-brand#maxspect), [GHL](/help/equipment-by-brand#ghl), [HYDROS](/help/equipment-by-brand#hydros), [Focustronic](/help/equipment-by-brand#focustronic), [EcoTech](/help/equipment-by-brand#ecotech), [Inkbird](/help/equipment-by-brand#inkbird), [kameralar](/help/equipment-by-brand#cameras). [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
 
 ## Cora Mobile ve Cora Max
 
@@ -65,7 +64,7 @@ Her ölçüm kaynağını ve yaşını gösterir. Bir prob ile bir test kiti gib
 |---|---|
 | Başlarken | [Cora Mobile'ı kurma](/help/mobile-setup) · [Yolunuzu bulma](/help/mobile-tour) · [Akvaryum profiliniz](/help/mobile-tank-profile) · [Akvaryumlarınızı yönetme](/help/mobile-tanks) · [Giriş yapma ve hesap kurtarma](/help/mobile-account) |
 | Panonuz | [Panonuzu okuma](/help/mobile-dashboard) · [Bir parametreyi inceleme](/help/mobile-metric-detail) · [Panonuzu düzenleme](/help/mobile-dashboard-editing) · [Widget rehberi](/help/mobile-widgets) · [Akvaryumunuzu paylaşın](/help/mobile-sharing) |
-| Ekipman | [Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices) · [Ekipmanınızı bağlama](/help/mobile-connections) · [Ekipmanınızı kontrol etme](/help/mobile-device-control) · [Ekipman programları](/help/mobile-schedules) · [Parametre Eşlemesi ve problar](/help/mobile-probes) · [Sarf malzemeleri ve dolum uyarıları](/help/mobile-consumables) · [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras) · [EcoTech ışıkları, pompaları ve dozaj pompaları](/help/mobile-ecotech) · [Beta özellikleri](/help/mobile-beta) |
+| Ekipman | [Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices) · [Ekipmanınızı bağlama](/help/mobile-connections) · [Ekipmanınızı kontrol etme](/help/mobile-device-control) · [Ekipman programları](/help/mobile-schedules) · [Parametre Eşlemesi ve problar](/help/mobile-probes) · [Sarf malzemeleri ve dolum uyarıları](/help/mobile-consumables) |
 | Uyarılar ve otomasyon | [Uyarılar ve eşikler](/help/mobile-alerts) · [Bildirimler](/help/mobile-notifications) · [Otomasyonlar ve sahneler](/help/mobile-automation) · [Tatile çıkarken](/help/mobile-vacation) |
 | Kayıtlar | [Günlük](/help/mobile-journal) · [Dozaj](/help/mobile-dosing) · [Bakım](/help/mobile-maintenance) · [Canlılar](/help/mobile-livestock) · [Etkinlik ve zaman çizelgesi](/help/mobile-activity) |
 | Zeka | [Reef Buddy](/help/mobile-reef-buddy) · [Cora'ya sorun](/help/mobile-assistant) · [ICP ve sağlık raporları](/help/mobile-icp-health) · [Rehberli yolculuklar](/help/mobile-journeys) |

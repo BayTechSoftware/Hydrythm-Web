@@ -3,7 +3,7 @@ title: Daten exportieren und Konto löschen
 description: Deine Messwerte, dein Tagebuch und deine Warnungen als Tabellendateien exportieren, dich abmelden oder dein Cora-Konto löschen, und was das entfernt.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 38
 group: Settings and account
 ---
 

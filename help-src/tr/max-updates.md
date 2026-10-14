@@ -26,7 +26,6 @@ Sürümünüz **Ayarlar → Cora Max Ayarları** ekranının en üstündeki kart
 Aynı ekranda **Güncelleme ayarları** altında:
 
 - **Yükleme penceresi**, güncellemelerin yüklenebileceği saatleri bu ekranın yerel saatine göre bir **Başlangıç** ve **Bitiş** saatiyle belirler. Saat dilimi Cora Mobile'da **Cihazlar →** Cora Max'iniz **→ Saat dilimi** altında ayarlanır.
-- **Güncelleme kanalı**, **Kararlı** ya da **Beta**'dır. Destek ekibi değiştirmenizi istemedikçe **Kararlı**'da bırakın. **Beta**'daki bir Cora Max kararlı sürümleri almaz.
 
 Bu ekranın cihazlarınızı okuyup okumadığını ve Cora Cloud'a kaydedip kaydetmediğini görmek için **Cora Max Ayarları**'na dönün ve **DURUM**'a kaydırın. Her akvaryum için **Yoklama durumu**, **Son yoklama**, **Son bulut yazımı** ve **Bulut kaydı** gösterilir.
 

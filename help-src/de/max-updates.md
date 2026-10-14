@@ -26,7 +26,6 @@ Deine Version steht auf der Karte oben unter **Einstellungen → Cora Max-Einste
 Unter **Update-Einstellungen** auf demselben Bildschirm:
 
 - **Installationsfenster** legt die Stunden fest, in denen sich Updates installieren dürfen, mit einer Zeit für **Start** und **Ende**, in der Ortszeit dieses Bildschirms. Die Zeitzone stellst du in Cora Mobile ein, unter **Geräte →** dein Cora Max **→ Zeitzone**.
-- **Update-Kanal** ist **Stabil** oder **Beta**. Lass ihn auf **Stabil**, außer der Support bittet dich, zu wechseln. Ein Cora Max auf **Beta** bekommt keine stabilen Versionen.
 
 Um zu sehen, ob dieser Bildschirm deine Geräte abfragt und in Cora Cloud speichert, geh zurück zu **Cora Max-Einstellungen** und scroll zu **STATUS**. Dort stehen für jedes Becken **Abfragestatus**, **Letzte Abfrage**, **Letzter Cloud-Schreibvorgang** und **Cloud-Speichern**.
 

@@ -49,11 +49,8 @@ Quando cambi la griglia, Cora non butta via i riquadri in base alla posizione. I
 
 I gesti sono elencati in alto nell'editor: **tocca un riquadro per modificarlo**, **tieni premuto per spostarlo** e **✕ per rimuoverlo**. **Svuota tutto** svuota la griglia così puoi ricominciare.
 
-I sedici tipi di riquadro sono Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* e Telecamera *(Beta)*. Li trovi nella [Guida ai widget](/help/mobile-widgets). Il riquadro **Scena** esiste solo su Cora Max. Avvia una [scena](/help/max-automation) con un tocco.
+I tipi di riquadro sono Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex e Jecod. Li trovi nella [Guida ai widget](/help/mobile-widgets). Il riquadro **Scena** esiste solo su Cora Max. Avvia una [scena](/help/max-automation) con un tocco.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) e le telecamere sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). I loro riquadri compaiono solo quando hai il dispositivo. Di più in [Funzioni Beta](/help/mobile-beta).
-:::
 
 ## Prese e alimentazione {#outlets-feed}
 
@@ -68,7 +65,6 @@ Apre **Modelli di dashboard**, alcuni layout pronti costruiti in base a quello c
 - **Panoramica**: pochi riquadri grandi, con i parametri principali come indicatori e i tuoi dispositivi principali
 - **Attrezzatura**: prima un riquadro per dispositivo, poi le prese e i parametri principali
 - **Parametri**: prima grafici e letture, con dispositivi e prese per ultimi
-- **Fotocamera**: una grande vista in diretta in alto a sinistra con i parametri principali accanto. Compare solo quando la vasca ha una telecamera. Le telecamere sono in Beta e sono disponibili solo per gli utenti Beta.
 
 Ognuno mostra un'anteprima e quanti riquadri ha su quale griglia. Tocca **Usa questo**. Cora chiede prima **Sostituire la dashboard?** Tocca **Salva prima l'attuale come preset** se vuoi tenere il layout che hai, oppure **Sostituisci**. Non viene salvato niente finché non premi **Salva**.
 

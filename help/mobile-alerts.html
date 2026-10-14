@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Alerts and automation</summary><ul>
@@ -208,16 +205,13 @@
 <ul><li>The bell, at the top right of the main tabs, keeps your history. The number shows how many you haven't read. More in <a href="/help/mobile-notifications">Notifications</a>.</li><li>A push notification reaches your phone if that category is switched on.</li><li>The widget on the dashboard turns amber or red.</li><li>Cora Max shows the same alerts on its screen.</li></ul>
 <h2 id="equipment-faults">When equipment needs attention</h2>
 <p>Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod™ pump reports a fault, Cora sends a notification naming the tank and the device, for example <em>"Display tank: Return pump needs attention"</em>. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: <em>"Display tank: Return pump is OK again"</em>. Both fall under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
-<p>A Maxspect™ gyre (Beta) can raise the same alert. This happens when a Cora Max on its network finds both heads set to 0%, or gets no answer from the gyre twice in a row. Treat it as a warning, not a safeguard. The Cora Max only checks from time to time, and only while it's running and can reach the gyre.</p>
 <h2 id="stopped-reporting">A device has stopped reporting</h2>
 <p>When a connected device goes quiet, Cora sends <em>"[Device]: stopped reporting"</em>. It doesn't mean the device is broken, only that Cora hasn't heard from it for a while. You get a second notification, <em>"[Device]: reporting again"</em>, when it comes back.</p>
 <p>How long Cora waits depends on the device:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Device</th><th>Cora waits</th></tr></thead><tbody><tr><td data-th="Device">Neptune™ Apex</td><td data-th="Cora waits">About 30 minutes without an update</td></tr><tr><td data-th="Device">Red Sea™ ReefBeat</td><td data-th="Cora waits">About 30 minutes</td></tr><tr><td data-th="Device">AquaWiz™</td><td data-th="Cora waits">About 3 hours, because it reports less often</td></tr><tr><td data-th="Device">Jecod pumps</td><td data-th="Cora waits">Three missed readings in a row, on the pump's reading interval (90 minutes at the default 30)</td></tr><tr><td data-th="Device">Maxspect (Beta)</td><td data-th="Cora waits">Three missed readings in a row, like Jecod</td></tr><tr><td data-th="Device">EcoTech™ (Beta)</td><td data-th="Cora waits">Three missed readings in a row, on the network's reading interval (90 minutes at the default 30). If you set a longer time under <strong>Light stops answering</strong>, Cora waits that long</td></tr><tr><td data-th="Device">Inkbird™ room air monitor (Beta)</td><td data-th="Cora waits">Three missed readings in a row, on the monitor's own interval (15 minutes at the default 5)</td></tr><tr><td data-th="Device">Focustronic™ (Beta)</td><td data-th="Cora waits">About 3 hours</td></tr><tr><td data-th="Device">GHL™ (Beta)</td><td data-th="Cora waits">About 15 minutes. The notification says <em>"GHL controller not reachable"</em></td></tr><tr><td data-th="Device">HYDROS™ (Beta)</td><td data-th="Cora waits">About 30 minutes. The notification says <em>"HYDROS controller not reporting"</em></td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Device</th><th>Cora waits</th></tr></thead><tbody><tr><td data-th="Device">Neptune™ Apex</td><td data-th="Cora waits">About 30 minutes without an update</td></tr><tr><td data-th="Device">Red Sea™ ReefBeat</td><td data-th="Cora waits">About 30 minutes</td></tr><tr><td data-th="Device">AquaWiz™</td><td data-th="Cora waits">About 3 hours, because it reports less often</td></tr><tr><td data-th="Device">Jecod pumps</td><td data-th="Cora waits">Three missed readings in a row, on the pump's reading interval (90 minutes at the default 30)</td></tr><tr><td data-th="Device">Zigbee smart plug</td><td data-th="Cora waits">Still silent 30 minutes after its hub restarted. Give it a name with <strong>Rename</strong> so the alert says which plug</td></tr></tbody></table></div>
 <p>What to check depends on how Cora reads the device.</p>
-<ul><li>Apex, ReefBeat, Jecod, Maxspect and GHL are read by a Cora Max over Wi-Fi. Check the device's power and Wi-Fi, and that the Cora Max that reads it is switched on and online.</li><li>EcoTech and Inkbird are read by a Cora Max over Bluetooth. Check the power, that the device is within Bluetooth range of the Cora Max, and that the Cora Max is on.</li><li>AquaWiz and Focustronic are read through your account with the maker. Check the account connection on the device's page in Cora Mobile.</li><li>For HYDROS, check its power, Wi-Fi and device key.</li></ul>
-<p>GHL can also tell you <em>"GHL API is off"</em> or that the controller <em>"rejected the connection"</em>. If the Cora Max that reads a GHL controller goes quiet, you get <em>"Cora Max not reporting for"</em> that controller. The fixes are in <a href="/help/troubleshooting">Troubleshooting</a>.</p>
+<ul><li>Apex, ReefBeat and Jecod are read by a Cora Max over Wi-Fi. Check the device's power and Wi-Fi, and that the Cora Max that reads it is switched on and online.</li><li>AquaWiz is read through your account with the maker. Check the account connection on the device's page in Cora Mobile.</li></ul>
 <p>These notifications fall under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta</p><p>Maxspect, EcoTech, Inkbird, Focustronic, GHL and HYDROS are in Beta and only open to Beta users. If you are not a Beta user you will not see them in <strong>Add device</strong>. To ask for Beta access, contact <a href="/support.html">support</a>. More in <a href="/help/mobile-beta">Beta features</a>.</p></aside>
 <p>A Red Sea tank can also show a banner, <em>"Red Sea readings have stopped updating"</em>, when no phone or Cora Max is reading its ReefBeat equipment. Tap it to pick a <strong>Primary Cora Max</strong>. The full fix is in <a href="/help/troubleshooting#red-sea-readings-have-stopped-updating">Troubleshooting</a>.</p>
 <h2 id="choosing-what-reaches-you">Choosing what reaches you</h2>
 <p>In <strong>Settings → Notifications</strong> you choose which categories can send you a push. See <a href="/help/mobile-notifications">Notifications</a>, which also covers <a href="/help/mobile-notifications#quiet-at-night">keeping nights quiet</a>.</p>
@@ -237,8 +231,8 @@
 <p>Turn off the switch on the rule's row in the <strong>Rules</strong> tab. Cora keeps the rule and its range, so you can switch it back on without setting it up again.</p>
 <p>While a rule is off, Cora doesn't grade that reading. Its widget stays neutral grey and it never raises an alert.</p>
 <aside class="cal cal-warning"><p class="cal-t">Turn a parameter off without deleting its range</p><p>Deleting a rule doesn't always stop Cora assessing that reading. Default reference bands still colour the value and can still feed the briefing. Use the rule's switch.</p></aside>
-      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-beta"><span>Previous</span><b>Beta features</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-consumables"><span>Previous</span><b>Consumables and refill alerts</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -629,7 +623,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -14,7 +14,7 @@ Kurze Antworten, mit Links zu den ausführlichen Seiten. Wenn etwas nicht funkti
 
 Für den Anfang musst du nichts kaufen. Cora Mobile allein verwaltet deine Becken, trägt Tests ein, schickt Warnungen und betreibt Cora Assistant.
 
-Ein Cora Max am Becken bringt ein paar Dinge dazu. Ohne Cora Max liest dein Handy ein Neptune Apex-, Red Sea- oder Jecod-Gerät nur, solange Cora Mobile im selben WLAN geöffnet ist. Ein Cora Max fragt sie rund um die Uhr ab, hält deine Messwerte aktuell, während du weg bist, und leitet Befehle weiter, die du von unterwegs schickst. Maxspect, GHL, EcoTech, Inkbird und Kameras funktionieren überhaupt nur mit einem Cora Max (sie sind Beta, siehe unten). Mehr dazu unter [Ausrüstung nach Marke](/help/equipment-by-brand).
+Ein Cora Max am Becken bringt ein paar Dinge dazu. Ohne Cora Max liest dein Handy ein Neptune Apex-, Red Sea- oder Jecod-Gerät nur, solange Cora Mobile im selben WLAN geöffnet ist. Ein Cora Max fragt sie rund um die Uhr ab, hält deine Messwerte aktuell, während du weg bist, und leitet Befehle weiter, die du von unterwegs schickst. Mehr dazu unter [Ausrüstung nach Marke](/help/equipment-by-brand).
 
 ### Wie füge ich mein erstes Becken hinzu? {#how-do-i-add-my-first-tank}
 
@@ -82,7 +82,7 @@ Den Zugriff auf das lokale Netzwerk braucht es, um WLAN-Ausrüstung zu finden un
 
 ### Kann ich nach meinem Becken sehen, wenn ich nicht zu Hause bin? {#can-i-check-on-my-tank-away}
 
-Ja. Mit einem Cora Max am Becken bleiben deine Messwerte aktuell, wo immer du bist. Ohne Cora Max zeigt ein Neptune Apex-, Red Sea- oder Jecod-Gerät die letzten Messwerte, die dein Handy gespeichert hat, als es im selben WLAN war. Ein AquaWiz und, in der Beta, HYDROS und Focustronic werden über die Cloud ihres Herstellers abgefragt und aktualisieren sich deshalb so oder so. Von Hand eingetragene Messwerte und der Verlauf des Beckens sind immer da.
+Ja. Mit einem Cora Max am Becken bleiben deine Messwerte aktuell, wo immer du bist. Ohne Cora Max zeigt ein Neptune Apex-, Red Sea- oder Jecod-Gerät die letzten Messwerte, die dein Handy gespeichert hat, als es im selben WLAN war. Ein AquaWiz wird über die Cloud seines Herstellers abgefragt und aktualisiert sich deshalb so oder so. Von Hand eingetragene Messwerte und der Verlauf des Beckens sind immer da.
 
 ### Kann ich Ausrüstung steuern, wenn ich nicht zu Hause bin? {#can-i-control-equipment-away}
 
@@ -104,19 +104,11 @@ Ja. Entfernen blendet ein Becken nur aus. Öffne **Einstellungen → Entfernte B
 
 ### Mit welcher Ausrüstung arbeitet Cora? {#what-equipment-does-cora-work-with}
 
-Neptune Apex (mit DŌS und Trident), Red Sea ReefBeat-Ausrüstung, Jecod- und Jebao-Pumpen und der AquaWiz KH Controller. In der Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird und Kameras. Für alles andere kannst du Messwerte von Hand eintragen. Jede Marke mit Links zu ihren Seiten steht unter [Ausrüstung nach Marke](/help/equipment-by-brand).
+Neptune Apex (mit DŌS und Trident), Red Sea ReefBeat-Ausrüstung, Jecod- und Jebao-Pumpen und der AquaWiz KH Controller. Für alles andere kannst du Messwerte von Hand eintragen. Jede Marke mit Links zu ihren Seiten steht unter [Ausrüstung nach Marke](/help/equipment-by-brand).
 
-### Was bedeutet "Beta" bei einer Anbindung? {#what-does-beta-mean}
 
-Wir testen und entwickeln sie noch. Manche Messwerte oder Steuerungen können eingeschränkt sein, und was du siehst, kann sich mit Updates ändern.
 
-**Beta.** Die Beta-Anbindungen sind nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Die Teilnahme an einem Testprogramm im App Store schaltet sie nicht frei. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-
-### Warum ist eine Marke ausgegraut und zeigt "Erfordert Cora Max"? {#why-requires-cora-max}
-
-Diese Ausrüstung fragt Cora Max ab, nicht dein Handy. Füg dem Becken zuerst ein Cora Max hinzu, dann wird die Marke freigeschaltet. Mehr dazu unter [Ausrüstung nach Marke](/help/equipment-by-brand).
-
-### Gehört Cora zu Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech oder Inkbird? {#is-cora-affiliated}
+### Gehört Cora zu Neptune, Red Sea oder Jebao? {#is-cora-affiliated}
 
 Nein. Cora gehört zu keinem der Hersteller, mit denen es sich verbindet, wird von keinem empfohlen und arbeitet mit keinem als Partner zusammen. Cora nutzt ihre öffentlichen Konten, offiziellen APIs oder lokalen Netzwerkprotokolle. Ein Update der App oder Firmware eines Herstellers kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 

@@ -3,7 +3,7 @@ title: Guided journeys
 description: Start the guided cycling journey for a new tank, follow it to the end, and work through a dinoflagellate problem step by step.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 32
+order: 34
 group: Intelligence
 ---
 

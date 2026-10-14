@@ -57,7 +57,7 @@ Ayarlarını açmak için düzenleyicide bir widget'a dokunun. Widget'a göre ş
 | **Parametre** | Metrik widget'ları: hangi parametreyi gösterdiği |
 | Priz ya da cihaz | Priz ve ekipman kutucukları: hangisini gösterdiği |
 | **Kalanı şu şekilde göster** | Dozaj pompası kutucukları: **Gün** ya da **Mililitre (mL)** |
-| **Genişlik** | Her widget: **1×** ya da **2×** (kamera **3×**'e kadar). Grafik her zaman en az 2 genişliktedir |
+| **Genişlik** | Her widget: **1×** ya da **2×**. Grafik her zaman en az 2 genişliktedir |
 | **Yükseklik** | Her widget: **1×** ya da **2×** |
 | **Zaman aralığı** | Grafik: 1 sa, 6 sa, 24 sa, 7 g, 30 g ya da 1 y |
 
@@ -78,7 +78,7 @@ Cora Max panosunu ayrı olarak, akvaryumun kartındaki **Cihazlar →** Cora Max
 Bu düzenleyicide telefon panosunda olmayan üç ek özellik vardır:
 
 - **Panolarım**, hesabınızda en fazla 30 kayıtlı tasarım tutar. Hesaptaki her Cora Max bunlardan birini yükleyebilir. Hedefin dolduramayacağı kutucuklar, yüklemeden önce **Geride kalanlar:** altında listelenir.
-- **Şablonlar**, **Pano şablonları**'nı açar: **Genel bakış**, **Ekipman**, **Parametreler** ve akvaryumda kamera varsa **Kamera**. Her planda açıktır ve yapay zeka kullanmaz. Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır.
+- **Şablonlar**, **Pano şablonları**'nı açar: **Genel bakış**, **Ekipman** ve **Parametreler**. Her planda açıktır ve yapay zeka kullanmaz.
 - **Yapay zeka ile tasarla**, ücretli bir planda ya da deneme süresinde, akvaryumun bildirdiği ve bağladığı şeylerden komple bir düzen önerir. Her akvaryum için günde 5 tasarım yapabilirsiniz.
 
 Her birinin nasıl çalıştığı [Cora Max panosunu düzenleme](/help/max-dashboard-editing) sayfasında.

@@ -3,7 +3,7 @@ title: Tatile çıkarken: akvaryum bakıcınız için bir plan
 description: Tatil modunu açın, akvaryum bakıcınız için bir kontrol listesi hazırlayın ve bunu canlı ölçümler gösteren, hesap gerektirmeden açılan salt okunur bir sayfa olarak paylaşın.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 25
 group: Alerts and automation
 ---
 

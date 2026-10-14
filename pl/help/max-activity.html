@@ -95,9 +95,6 @@
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
 <li><a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a></li>
-<li><a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a></li>
-<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
-<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerty i automatyzacja</summary><ul>
@@ -193,7 +190,7 @@
 <h2 id="aktywnosc-i-dziennik">Aktywność i dziennik</h2>
 <p>Aktywność pokazuje, co zrobił system. <a href="/pl/help/max-records">Dziennik</a> pokazuje, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-records"><span>Poprzedni</span><b>Dziennik, obsada i konserwacja</b></a><a class="pn-n" href="/pl/help/max-intelligence"><span>Następny</span><b>Reef Buddy i raporty</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -584,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=27523801fa').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

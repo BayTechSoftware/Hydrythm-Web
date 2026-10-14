@@ -3,7 +3,7 @@ title: Piani e abbonamenti
 description: Cosa comprendono i piani Free, prova, Plus, Pro e Max, come abbonarti o passare a un piano superiore, dove vedere quanto hai usato e come annullare su iPhone o Android.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 35
+order: 37
 group: Settings and account
 ---
 
@@ -62,7 +62,6 @@ Ci sono tre piani, **Plus**, **Pro** e **Max**, ciascuno mensile o annuale. Le I
 
 Le sessioni vocali hanno un conteggio a parte, e ogni risposta a voce consuma anche la tua quota di messaggi. Ogni piano a pagamento comprende Reef Buddy, il caricamento e l'analisi ICP per i laboratori che Cora sa leggere, il confronto con il tuo storico e **Progetta con l'IA** per le dashboard (fino a 5 design al giorno per ogni vasca).
 
-I piani a pagamento comprendono anche gli avvisi del Controllo schiumatoio per una telecamera sulla tua sump. La prova no. **Beta.** Le telecamere sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza. Di più in [Telecamere](/help/mobile-cameras).
 
 :::note Il piano Max non è lo schermo Cora Max
 Il **piano Max** è un abbonamento. **Cora Max** è lo schermo che sta accanto alla vasca. Non ti serve l'uno per avere l'altro.

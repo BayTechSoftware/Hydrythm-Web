@@ -9,7 +9,7 @@ group: Equipment
 
 Her probun neyi ölçtüğünü ve iki prob aynı şeyi bildirdiğinde hangisine güveneceğini Cora'ya söylemek için **Parametre Eşlemesi**'ni kullanın. **Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ne dokunun.
 
-**Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve orada bu seçenek yoktur. Ona Neptune Apex ve GHL (Beta) cihaz sayfalarından da ulaşabilirsiniz. GHL yalnızca Beta kullanıcılarına açıktır. [Beta özellikleri](/help/mobile-beta) sayfasına bakın.
+**Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve orada bu seçenek yoktur. Ona Neptune Apex cihaz sayfalarından da ulaşabilirsiniz.
 
 Ekranda bir arama alanı (**Parametre ara**) ve iki sekme var: **Eşleme** ve **Kaynaklar**. Arama parametre adlarına, prob adlarına, cihazlara ve markalara bakar. Aynı arama alanı her parametre seçicisinde bulunur.
 

@@ -3,7 +3,7 @@ title: The journal
 description: Write down or dictate what you did to your tank, log feeding, and ask Cora about an entry, so later you can see what caused what.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 24
+order: 26
 group: Records
 twin: max-records
 ---

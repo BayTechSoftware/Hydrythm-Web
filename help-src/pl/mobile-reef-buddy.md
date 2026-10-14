@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Twoje codzienne podsumowanie Reef Buddy: co obejmuje, kiedy przychodzi, jak czytać oceny i dlaczego podsumowanie może nie przyjść.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Dalej jest podsumowanie, krótki akapit, który wyjaśnia nagłówek na podstawi
 
 Potem są spostrzeżenia, po jednym na każde ustalenie. Każde ma kategorię (na przykład *Chemia wody*) i częstotliwość (na przykład *Codziennie*) i możesz je rozwinąć, żeby zobaczyć szczegóły. Chip na górze sekcji pokazuje typ akwarium i to, na ile uzupełniony jest jego profil. Oba wpływają na to, jakie wnioski może wyciągnąć Cora.
 
+
 Cora filtruje spostrzeżenia, zanim do Ciebie trafią. Spostrzeżenie musi się utrzymać przez kilka odczytów. Jeden nie wystarczy. Musi też mówić coś, czego nie pokazałby już sam wykres.
 
 Dotknij karty na pulpicie, żeby otworzyć całe podsumowanie.
@@ -51,11 +52,8 @@ Odczyty z sond i kontrolerów nie wywołują tej propozycji, bo napływają prze
 
 Pod spostrzeżeniem dotknij **Dlaczego to widzę?** Arkusz **Dlaczego to widzisz** wymienia **Użyte odczyty**, **Wartość docelową do porównania** (Twoją własną albo zakres odniesienia), wszystko **Z Twojego dziennika**, co wzięto pod uwagę, i okres w dniach, który przeanalizowano. Jeśli rozumowanie nie pasuje do Twojego akwarium, odpowiedz na spostrzeżenie tak, jak opisuje [Ocena spostrzeżenia](#correcting-an-insight).
 
-Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów świateł Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia, sum z Twoich głowic DŌS oraz, jeśli masz monitor powietrza w pomieszczeniu Inkbird, temperatury i wilgotności w pomieszczeniu.
+Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów świateł Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia oraz sum z Twoich głowic DŌS.
 
-:::note Inkbird jest w wersji Beta
-**Beta.** Inkbird jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną. Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
 ## Kiedy przychodzi
 

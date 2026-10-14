@@ -1,6 +1,6 @@
 ---
 title: Glossaire
-description: Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène, surveillance de l’écumeur et les autres mots que vous verrez dans les applications.
+description: Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène et les autres mots que vous verrez dans les applications.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -32,9 +32,6 @@ L’AquaWiz KH Controller, un testeur d’alcalinité. Cora le lit par le cloud 
 
 Une règle qui s’exécute toute seule, comme « si la température dépasse 27, allume le ventilateur ». Chaque règle a un [déclencheur](#trigger), des [conditions](#condition) facultatives et une ou plusieurs actions. Vous les trouvez dans Cora Mobile sous **Réglages → Automatisations**. Voir [Automatisations et scènes](/help/mobile-automation).
 
-## Beta
-
-Une intégration que nous testons et développons encore. **Beta.** Les intégrations Beta (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird et caméras) ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support. Les fonctions qui portent seulement "(bêta)" dans leur nom, comme Doses importantes ou Paramètres ReefMat, sont ouvertes à tous. Voir [Fonctions Beta](/help/mobile-beta).
 
 ## Étalonnage
 
@@ -96,9 +93,8 @@ Une pause pour nourrir. Sur un Neptune Apex, **Nourrir** lance l’un des cycles
 
 Votre façon habituelle de nourrir, réglée une fois pour l’aquarium (par exemple, des flocons deux fois par jour). Ensuite, vous ne notez que les jours qui diffèrent, et Reef Buddy tient compte des deux. Voir [Le journal](/help/mobile-journal).
 
-## GHL
 
-GHL Advanced Technology, fabricant des contrôleurs ProfiLux et Mitras. La prise en charge de GHL par Cora est en **Beta** et n’est ouverte qu’aux utilisateurs Beta. Voir [L’équipement par marque](/help/equipment-by-brand).
+
 
 ## Parcours guidé
 
@@ -108,9 +104,6 @@ Un plan étape par étape que Cora vous fait suivre, comme le cyclage d’un nou
 
 Un examen plus approfondi et périodique de tout un système. Il prend en compte ensemble chaque paramètre, chaque source, chaque dose et chaque résultat de laboratoire récent. Voir [Rapports ICP et de santé](/help/mobile-icp-health).
 
-## HYDROS
-
-Le système de contrôle et de dosage de CoralVue. Cora le lit par le cloud d’HYDROS, il continue donc de fonctionner loin de chez vous. La prise en charge d’HYDROS par Cora est en **Beta** et n’est ouverte qu’aux utilisateurs Beta. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## ICP
 
@@ -154,7 +147,7 @@ Un nombre à six chiffres que Cora Max affiche à la fin de la configuration. C�
 
 ## Red Sea ReefBeat
 
-La famille d’équipements connectés de Red Sea : ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED et ReefControl. Cora la lit sur votre réseau domestique. Voir [L’équipement par marque](/help/equipment-by-brand).
+La famille d’équipements connectés de Red Sea : ReefDose, ReefRun, ReefMat et ReefATO+. Cora la lit sur votre réseau domestique. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## Reef Buddy
 
@@ -168,9 +161,6 @@ L’écran de Cora Max qui montre tous vos aquariums côte à côte. À l’écr
 
 Un aquarium que vous avez retiré. Ses données sont conservées, et vous pouvez le faire revenir depuis **Réglages → Aquariums supprimés**. Voir [Gérer vos aquariums](/help/mobile-tanks).
 
-## Nécessite Cora Max
-
-Une étiquette sur une marque dans **Ajouter un appareil**. Cet équipement est lu par un Cora Max, l’aquarium doit donc d’abord en avoir un. Voir [L’équipement par marque](/help/equipment-by-brand).
 
 ## Design enregistré
 
@@ -180,9 +170,6 @@ Une disposition de tableau de bord Cora Max que vous avez gardée sous **Mes tab
 
 Un groupe d’actions qui porte un nom, comme « Changement d’eau » ou « Nuit ». Vous pouvez la lancer quand vous voulez, selon un horaire, ou depuis une autre [automatisation](#automation). Les scènes sont partagées entre Cora Mobile et Cora Max. Voir [Automatisations et scènes](/help/mobile-automation).
 
-## Surveillance de l’écumeur
-
-Une fonction de caméra qui surveille le godet de l’écumeur et vous prévient avant qu’il ne déborde. Cora Max vérifie le godet toutes les 15 minutes. Elle nécessite une caméra, qui est en **Beta** et n’est ouverte qu’aux utilisateurs Beta, et un forfait payant. Voir [Caméras et surveillance de l’écumeur](/help/mobile-cameras).
 
 ## Reporter
 
@@ -226,4 +213,4 @@ Le mode pour la personne qui garde votre aquarium. Vous créez un plan daté ave
 
 ## Widget
 
-Une tuile d’un tableau de bord qui affiche une seule chose, comme une valeur, une jauge, un graphique, une prise ou une caméra. Voir [Référence des widgets](/help/mobile-widgets).
+Une tuile d’un tableau de bord qui affiche une seule chose, comme une valeur, une jauge, un graphique ou une prise. Voir [Référence des widgets](/help/mobile-widgets).

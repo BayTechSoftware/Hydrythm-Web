@@ -57,7 +57,7 @@ Tap a widget in the editor to open its settings. Depending on the widget, you ca
 | **Parameter** | Metric widgets: which parameter it shows |
 | The outlet or device | Outlet and equipment tiles: which one it shows |
 | **Show remaining as** | Doser tiles: **Days** or **Milliliters (mL)** |
-| **Width** | Every widget: **1×** or **2×** (a camera up to **3×**). A graph is always at least 2 wide |
+| **Width** | Every widget: **1×** or **2×**. A graph is always at least 2 wide |
 | **Height** | Every widget: **1×** or **2×** |
 | **Time range** | Graph: 1h, 6h, 24h, 7d, 30d or 1y |
 
@@ -78,7 +78,7 @@ You edit the Cora Max dashboard separately, from **Devices →** your Cora Max *
 That editor has three extras the phone dashboard doesn't:
 
 - **My dashboards** keeps up to 30 saved designs on your account. Any Cora Max on the account can load one. Tiles the target can't fill are listed under **Left behind:** before you load.
-- **Templates** opens **Dashboard templates**: **Overview**, **Equipment**, **Parameters** and, when the tank has a camera, **Camera**. It's open on every plan and doesn't use AI. Cameras are in Beta and only open to Beta users.
+- **Templates** opens **Dashboard templates**: **Overview**, **Equipment** and **Parameters**. It's open on every plan and doesn't use AI.
 - **Design with AI**, on a paid plan or during the trial, proposes a whole layout from what the tank reports and has linked. You can make 5 designs per tank per day.
 
 How each one works is in [Editing the Cora Max dashboard](/help/max-dashboard-editing).

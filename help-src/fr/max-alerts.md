@@ -18,7 +18,8 @@ Quand une mesure sort de sa plage, qu’un appareil signale une panne, qu’une 
 2. **Reporter** fait taire l’alerte sur ce Cora Max pendant un moment. Le bouton indique combien de temps, par exemple **Reporter 1 h**. C’est le délai réglé pour cette alerte dans les réglages d’alerte de Cora Mobile, et il peut aller jusqu’à 1 semaine (pratique pour un niveau de réactif bas qui ne changera pas avant des jours).
 3. **Ignorer** ferme l’alerte maintenant. Elle reste silencieuse sur cet écran jusqu’à ce que le problème disparaisse. S’il revient plus tard, vous recevez une nouvelle alerte.
 
-Quand l’alerte concerne un doseur, comme une tête DŌS ou ReefDose presque vide ou une dose manquée, la carte a aussi un bouton **Ouvrir DŌS** ou **Ouvrir ReefDose** (**Ouvrir Versa** pour un EcoTech Versa). Il vous mène à la page de ce doseur, où se règlent ses alertes.
+Quand l’alerte concerne un doseur, comme une tête DŌS ou ReefDose presque vide ou une dose manquée, la carte a aussi un bouton **Ouvrir DŌS** ou **Ouvrir ReefDose**. Il vous mène à la page de ce doseur, où se règlent ses alertes.
+
 
 Si Reporter ou Ignorer affiche une erreur, réessayez une fois. Si cela échoue encore, voir [Une alerte ne disparaît pas](/help/troubleshooting#an-alert-is-not-clearing).
 
@@ -53,13 +54,10 @@ La feuille du seuil a le même interrupteur en haut, à côté de **Alerte activ
 
 ## Alertes d’appareils et de consommables {#doser-alerts}
 
-Un équipement qui consomme quelque chose a un bouton **Paramètres d’alerte** sur sa page dans Cora Max. C’est le cas d’un Trident (réactifs et déchets), des têtes DŌS, des Red Sea ReefDose, ReefATO+ et ReefMat, et des EcoTech Radion, VorTech et Versa. Choisissez le niveau dont vous voulez être averti, et vous recevez une seule notification quand il est franchi. Sur une tête DŌS, **Alertes de dose manquée** vous prévient aussi quand la tête manque ses doses programmées.
+Un équipement qui consomme quelque chose a un bouton **Paramètres d’alerte** sur sa page dans Cora Max. C’est le cas d’un Trident (réactifs et déchets), des têtes DŌS, des Red Sea ReefDose, ReefATO+ et ReefMat. Choisissez le niveau dont vous voulez être averti, et vous recevez une seule notification quand il est franchi. Sur une tête DŌS, **Alertes de dose manquée** vous prévient aussi quand la tête manque ses doses programmées.
 
 La signification de chaque alerte de doseur est dans [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
 
-:::note Beta
-**Beta.** EcoTech est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html).
-:::
 
 ## Son d’alerte, alertes vocales et réveil de l’écran
 

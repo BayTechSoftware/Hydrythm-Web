@@ -1,6 +1,6 @@
 ---
 title: Deine Ausrüstung verbinden
-description: So verbindest du ein Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Gerät und, in der Beta, Maxspect-, GHL-, HYDROS-, Focustronic- und Inkbird-Ausrüstung mit Cora.
+description: So verbindest du ein Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Gerät mit Cora.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 12
@@ -9,9 +9,8 @@ group: Equipment
 
 Diese Seite zeigt, wie du jede Marke mit Cora verbindest und was jede Verbindung braucht. Alle fangen gleich an: **Geräte → Gerät hinzufügen**, dann wählst du die Marke.
 
-![Die Liste Gerät hinzufügen für einen Beta-Nutzer](img/mobile-add-device-beta.webp "Die Markenliste. Beta-Marken tragen einen Beta-Chip.")
+![Die Markenliste unter Gerät hinzufügen](img/mobile-add-device-brands.webp "Die Markenliste.")
 
-Die mit *(Beta)* markierten Marken sind nur für Beta-Nutzer offen. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 | Marke | Öffnet | Ohne Cora Max |
 |---|---|---|
@@ -20,13 +19,6 @@ Die mit *(Beta)* markierten Marken sind nur für Beta-Nutzer offen. Siehe [Beta-
 | Red Sea | Einen Scan in deinem Netzwerk, dann das Becken, zu dem jedes Gerät gehört | Nur lokal |
 | Jecod / Jebao | Einen Scan in deinem Netzwerk oder Bluetooth | Nur lokal |
 | AquaWiz | Deine AquaWiz-Anmeldung | Funktioniert |
-| Maxspect *(Beta)* | Denselben Scan wie Jecod | **Erfordert Cora Max** |
-| GHL *(Beta)* | Seine Adresse, Schnittstelle und, bei einem mini, seine Anmeldung | **Erfordert Cora Max** |
-| HYDROS *(Beta)* | Einen Geräteschlüssel aus der HYDROS-App | Funktioniert |
-| Focustronic *(Beta)* | Deine Focustronic-Anmeldung, dann das Becken, zu dem jedes Gerät gehört | Funktioniert |
-| EcoTech *(Beta)* | Einen Bluetooth-Scan nach Radion-Leuchten, VorTech-Pumpen und Versa-Dosierern. Siehe [EcoTech-Leuchten, -Pumpen und -Dosierer](/help/mobile-ecotech) | **Erfordert Cora Max** |
-| Inkbird *(Beta)* | Einen Bluetooth-Scan nach deinem Raumluftmonitor | **Erfordert Cora Max** |
-| Kamera *(Beta)* | Wyze, Tapo, Sonoff oder eine andere RTSP-Kamera. Siehe [Kameras und Skimmer-Wächter](/help/mobile-cameras) | **Erfordert Cora Max** |
 
 ## Ohne Cora Max: nur lokal {#local-only}
 
@@ -35,7 +27,7 @@ Neptune Apex-, Red Sea- und Jecod-Ausrüstung ist in deinem Heimnetz (oder über
 - Dein Handy liest und steuert die Ausrüstung, solange Cora Mobile im selben Netzwerk geöffnet ist oder in Bluetooth-Reichweite.
 - Unterwegs siehst du die letzten Messwerte, die dein Handy gespeichert hat, und kannst sie nicht steuern.
 
-Ein Cora Max am Becken fragt diese Ausrüstung rund um die Uhr ab und leitet deine Befehle weiter, wenn du unterwegs bist. AquaWiz, HYDROS und Focustronic werden über den eigenen Dienst des Herstellers erreicht, sie funktionieren also überall ohne Cora Max. Zeilen mit **Erfordert Cora Max** sind ausgegraut, bis das Becken eins hat. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
+Ein Cora Max am Becken fragt diese Ausrüstung rund um die Uhr ab und leitet deine Befehle weiter, wenn du unterwegs bist. AquaWiz wird über den eigenen Dienst des Herstellers erreicht und funktioniert also überall ohne Cora Max. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device).
 
 ## Neptune Apex {#neptune-apex}
 
@@ -54,7 +46,7 @@ Sobald er verbunden ist, wird jede Sonde, die dein Apex meldet, zu einer Quelle,
 
 ## Red Sea ReefBeat {#red-sea-reefbeat}
 
-Cora spricht mit ReefBeat-Ausrüstung in deinem lokalen Netzwerk. Unterstützt werden **ReefDose**, **ReefATO+**, **ReefMat** und **ReefRun**, dazu **ReefControl**, **ReefControl Power**, **ReefWave** und **ReefLED**, die *(Beta)* im Namen tragen, aber für alle offen sind.
+Cora spricht mit ReefBeat-Ausrüstung in deinem lokalen Netzwerk. Unterstützt werden **ReefDose**, **ReefATO+**, **ReefMat** und **ReefRun**.
 
 1. Richte das Gerät zuerst in der ReefBeat-App von Red Sea ein und prüf, ob es im selben Netzwerk ist wie dein Handy.
 2. Geh zu **Geräte → Gerät hinzufügen → Red Sea**. Cora durchsucht dein Netzwerk.
@@ -62,7 +54,7 @@ Cora spricht mit ReefBeat-Ausrüstung in deinem lokalen Netzwerk. Unterstützt w
 
 Ein Red Sea-Gerät versorgt ein Becken. Wählst du ein anderes, wandert es dorthin.
 
-Jedes Gerät bekommt seine eigene Geräteseite, und seine Messwerte werden zu Quellen. ReefDose meldet seine Köpfe und Behälter, ReefATO+ sein Reservoir und seine Befüllungen, ReefMat die Tage, die es noch hat, und ReefRun den Zustand seiner Pumpe. ReefControl meldet seine Sonden genauso. ReefWave und ReefLED zeigen vorerst nur ihren Modus. Was jede Seite dich tun lässt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
+Jedes Gerät bekommt seine eigene Geräteseite, und seine Messwerte werden zu Quellen. ReefDose meldet seine Köpfe und Behälter, ReefATO+ sein Reservoir und seine Befüllungen, ReefMat die Tage, die es noch hat, und ReefRun den Zustand seiner Pumpe. Was jede Seite dich tun lässt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
 
 ## Jecod / Jebao {#jecod}
 
@@ -102,73 +94,6 @@ Du bekommst die Alkalinität als Quelle, so oft aktualisiert, wie dein Controlle
 AquaWiz vergibt pro Konto eine Anmeldung, deshalb nutzt Cora dieselbe wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, trennt sich Cora. Verbinde es danach über die Gerätezeile neu. Um Cora den Zugriff ganz zu entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.
 :::
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Steuerungen können eingeschränkt sein, und was du hier siehst, kann sich mit Updates ändern. Funktioniert etwas nicht wie beschrieben, sag es uns über [Ein Problem melden](/help/mobile-support).
-:::
-
-Cora verbindet sich mit Maxspect Gyre-Pumpen und kann sie lesen und steuern. Füg eine über **Geräte → Gerät hinzufügen → Maxspect** hinzu, mit demselben Scan wie Jecod. Sie braucht ein Cora Max am Becken. Ohne eins zeigt die Zeile **Erfordert Cora Max**.
-
-Beim Hinzufügen muss eine Gyre im selben Netzwerk sein wie dein Handy. Danach erreicht Cora Mobile sie über das Cora Max des Beckens, auch wenn du unterwegs bist. Wellenmuster, Geschwindigkeit, der Zeitplan und **Pumpenzustand** stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#maxspect).
-
-## GHL ProfiLux und Mitras {#ghl-profilux-and-mitras}
-
-:::note Beta
-**Beta.** GHL ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht. Funktioniert etwas nicht wie beschrieben, sag es uns über [Ein Problem melden](/help/mobile-support).
-:::
-
-Cora liest einen GHL ProfiLux- oder Mitras-Controller: Sonden, Steckdosen, Dosierer, Füllstandssensoren und, bei den Director-Modellen, KH- und Ionen-Testergebnisse.
-
-1. Geh zu **Geräte → Gerät hinzufügen → GHL**. Es braucht ein Cora Max am Becken und zeigt ohne eins **Erfordert Cora Max**.
-2. Dein Handy kann nicht danach scannen, gib also seine Adresse ein und wähl die Schnittstelle selbst: **Offizielle API**, **HTTP** oder **ProfiLux mini** (der außerdem seine Anmeldung braucht).
-3. Wähl, zu welchem Becken er gehört. Ein GHL-Controller kann mehr als ein Becken versorgen.
-
-Ein GHL-Controller spricht nicht direkt mit deinem Handy. Er zeigt **Wartet auf Cora Max**, bis ein Cora Max in seinem Netzwerk ihn gelesen hat, dann erscheinen seine Messwerte und Steuerungen überall.
-
-Die GHL-API muss eingeschaltet sein, damit Cora den Controller überhaupt erreicht. GHL schaltet sie nach jedem Firmware-Update aus, prüf das also zuerst, wenn nichts erscheint. Die [Problembehebung](/help/troubleshooting) sagt, was zu tun ist. Die Steuerung steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#ghl).
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Manche Messwerte oder Steuerungen funktionieren vielleicht noch nicht. Funktioniert etwas nicht wie beschrieben, sag es uns über [Ein Problem melden](/help/mobile-support).
-:::
-
-Bei HYDROS müssen dein Handy und dein Controller nicht im selben Netzwerk sein, und du brauchst kein Cora Max. Cora erreicht ihn über die eigene Cloud von HYDROS, deshalb funktioniert er auch unterwegs und sogar bei geschlossenem Cora Mobile.
-
-1. Leg in der HYDROS-App einen **Geräteschlüssel** für den Anbieter **cora-iq** an. Wähl **Lesen**, wenn du nur seine Messwerte willst, oder **Schreiben**, wenn du ihn auch von Cora aus steuern willst.
-2. Geh in Cora Mobile zu **Geräte → Gerät hinzufügen → HYDROS**. Der Bildschirm heißt **HYDROS hinzufügen (Beta)**.
-3. Füg den Schlüssel in **HYDROS-Geräteschlüssel** ein, tippe auf **Schlüssel prüfen**, wähl das Becken und tippe auf **Verknüpfen**.
-
-Sobald er verknüpft ist, importiert Cora die letzten 33 Tage seines Verlaufs und liest von da an weiter. [Deine Ausrüstung steuern](/help/mobile-device-control#hydros) behandelt, was du lesen und, mit einem Schreibschlüssel, steuern kannst.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
-:::
-
-Cora liest Focustronic Alkatronic-, Dosetronic- und Mastertronic-Geräte über dein Focustronic-Konto, das funktioniert also auch unterwegs und braucht kein Cora Max.
-
-1. Geh zu **Geräte → Gerät hinzufügen → Focustronic** und melde dich mit demselben Konto an, das du in der Focustronic-App nutzt.
-2. Wähl, zu welchem Becken jedes Gerät gehört, und tippe dann auf **Mit Cora verknüpfen**.
-
-**Angemeldet bleiben** lässt Cora dein Focustronic-Passwort verschlüsselt behalten und sich von selbst wieder anmelden. Schaltest du es aus, behält Cora nur eine vorübergehende Anmeldung und schickt dir eine Benachrichtigung, wenn du dich wieder anmelden musst. Lehnt Focustronic die Anmeldung ab, öffne **Focustronic hinzufügen** und melde dich erneut an.
-
-Was jedes Gerät zeigt, und **Jetzt messen**, **Jetzt dosieren** und **Jetzt testen**, stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#focustronic).
-
-## Inkbird-Raumluftmonitor {#inkbird-room-air-monitor}
-
-:::note Beta
-**Beta.** Inkbird ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
-:::
-
-Cora liest einen Inkbird-Raumluftmonitor IAM-T1 oder IAM-T2. Ein Cora Max am Becken liest ihn über Bluetooth, und Cora schreibt nie etwas auf den Monitor. Die Zeile zeigt **Erfordert Cora Max**, bis das Becken eins hat.
-
-1. Geh zu **Geräte → Gerät hinzufügen → Inkbird**. Cora sucht nach Monitoren in der Nähe. Bluetooth muss eingeschaltet sein, mit Berechtigung für Cora.
-2. Wähl deinen und tippe auf **Mit Becken verknüpfen**. Erscheint keiner, geh näher heran und tippe auf **Erneut suchen**.
-
-Die Seite des Monitors zeigt seinen letzten Messwert. **Messintervall** legt fest, wie oft ein Cora Max ihn liest. Bis ein Cora Max ihn gelesen hat, steht auf der Seite **Warte auf Cora Max**. Wird er still, zeigt sie **Meldet nicht**, und Cora warnt dich. Raumwerte fließen auch in [Reef Buddy](/help/mobile-reef-buddy) ein. Um aufzuhören, tippe auf **Verknüpfung lösen**. Cora Max liest ihn dann nicht mehr, und der Verlauf bleibt.
 
 ## Von Hand eintragen {#logging-by-hand}
 

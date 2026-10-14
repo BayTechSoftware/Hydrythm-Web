@@ -38,7 +38,7 @@ Scegli l'attività che vuoi fare. Ogni link apre i passaggi. Se qualcosa non fun
 - [Collegare l'attrezzatura Red Sea ReefBeat](/help/mobile-connections#red-sea-reefbeat)
 - [Collegare una pompa Jecod o Jebao](/help/mobile-connections#jecod)
 - [Collegare un controller KH AquaWiz](/help/mobile-connections#aquawiz-kh-controller)
-- [Capire perché non vedo Maxspect, GHL o EcoTech](/help/mobile-beta#who-gets-beta)
+- [Risolvere "Limite Bluetooth raggiunto" quando aggiungo un dispositivo](/help/mobile-devices#bluetooth-capacity)
 - [Spostare un dispositivo su un'altra vasca](/help/mobile-devices#a-devices-page)
 - [Rinominare un dispositivo](/help/mobile-devices#renaming)
 - [Rimuovere un dispositivo](/help/mobile-devices#removing-a-device)

@@ -18,6 +18,7 @@ Open it from the **tank menu** (tap the tank name in the top bar), or go to **Se
 
 Each row shows the equipment and what was asked, for example *Return: Turned off*, and the time. It also tells you two more things.
 
+
 **What asked for it.** For example **Tapped on this Cora**, **Voice on this Cora**, **Cora app**, **Voice in the Cora app**, **Automation rule** or **Sent from the cloud**.
 
 **How it travelled.** **LAN** means it went over your own network. **VIA CLOUD** means it went through Cora Cloud. If you have more than one Cora Max, the entry also says which one carried it out.

@@ -95,9 +95,6 @@
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
 <li><a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a></li>
-<li><a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a></li>
-<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
-<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerty i automatyzacja</summary><ul>
@@ -193,7 +190,6 @@
 <p>Cora proponuje tylko to, co ma akwarium. Jeśli w akwarium nie ma DŌS, nie może dozować.</p>
 <p>Zapisanie testu, wpisu w dzienniku albo karmienia dzieje się od razu, gdy o to poprosisz. Wszystko, co zmienia sprzęt albo zakres alertu, działa inaczej: Cora mówi dokładnie, co zamierza zmienić, i czeka na Twoje „tak”. Na niejasne polecenie nie zareaguje. Jeśli polecenie mogło się wykonać, ale Cora nie mogła tego potwierdzić, powie o tym. Sprawdź sprzęt, zanim poprosisz ponownie.</p>
 <p>Sterowanie sprzętem działa poza domem tylko wtedy, gdy Cora Max przy akwarium może połączyć się ze sprzętem. Zobacz <a href="/pl/help/mobile-multi-device">Co działa poza domem</a>.</p>
-<aside class="cal cal-note"><p class="cal-t">Sprzęt Beta</p><p>Cora może też sterować sprzętem GHL™, HYDROS™, Focustronic™, Maxspect™ i EcoTech™ (Radion, VorTech i Versa). <strong>Beta.</strong> Te integracje są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w <strong>Dodaj urządzenie</strong>. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Cora doradza. Ty decydujesz</p><p>Wszystko ważne sprawdzaj własnymi testami. Do dużych zmian podchodź tak jak do rady od kogokolwiek innego i zweryfikuj je, zanim zaczniesz działać. To samo mówi linijka pod polem wiadomości.</p></aside>
 <h2 id="zgoda">Zgoda</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Zgoda Asystenta"><img src="/help/img/mobile-assistant-consent.webp" alt="Zgoda Asystenta" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Dwie osobne zgody i pamięć, którą prowadzi Cora.</figcaption></figure>
@@ -225,7 +221,7 @@
 <p>Jeśli odpowiedź brzmi pewnie, ale jest błędna, najpierw sprawdź chip danych. Często odpowiedź jest prawidłowa dla danych, które dostała Cora. Prawdziwym problemem jest nieaktualny odczyt albo źródło przypisane do niewłaściwego akwarium.</p>
 <p>Oceń odpowiedź kciukami pod nią. Kciuk w dół pyta <em>Co było z tym nie tak?</em> Wybierz powód, na przykład <strong>Błędna</strong> albo <strong>Nie uwzględniła mojego akwarium</strong>, i dotknij <strong>Wyślij ocenę</strong>. To pomaga nam to naprawić.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-reef-buddy"><span>Poprzedni</span><b>Reef Buddy</b></a><a class="pn-n" href="/pl/help/mobile-icp-health"><span>Następny</span><b>ICP i raporty zdrowia</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -616,7 +612,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=27523801fa').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

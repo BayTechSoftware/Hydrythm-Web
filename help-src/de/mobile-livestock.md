@@ -3,7 +3,7 @@ title: Besatz
 description: Die Korallen, Fische und Wirbellosen in deinem Becken hinzufügen und Verluste, Frags, Verkäufe und Umzüge festhalten, damit du später Muster erkennst.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 27
+order: 29
 group: Records
 twin: max-records
 ---

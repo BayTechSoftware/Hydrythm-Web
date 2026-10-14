@@ -95,9 +95,6 @@
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
 <li><a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a></li>
-<li><a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a></li>
-<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
-<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerty i automatyzacja</summary><ul>
@@ -195,8 +192,7 @@
 <p>Odczyty z sond i kontrolerów nie wywołują tej propozycji, bo napływają przez cały dzień.</p>
 <h2 id="dlaczego-widzisz-spostrzezenie">Dlaczego widzisz spostrzeżenie</h2>
 <p>Pod spostrzeżeniem dotknij <strong>Dlaczego to widzę?</strong> Arkusz <strong>Dlaczego to widzisz</strong> wymienia <strong>Użyte odczyty</strong>, <strong>Wartość docelową do porównania</strong> (Twoją własną albo zakres odniesienia), wszystko <strong>Z Twojego dziennika</strong>, co wzięto pod uwagę, i okres w dniach, który przeanalizowano. Jeśli rozumowanie nie pasuje do Twojego akwarium, odpowiedz na spostrzeżenie tak, jak opisuje <a href="#correcting-an-insight">Ocena spostrzeżenia</a>.</p>
-<p>Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów świateł Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia, sum z Twoich głowic DŌS oraz, jeśli masz monitor powietrza w pomieszczeniu Inkbird™, temperatury i wilgotności w pomieszczeniu.</p>
-<aside class="cal cal-note"><p class="cal-t">Inkbird jest w wersji Beta</p><p><strong>Beta.</strong> Inkbird jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w <strong>Dodaj urządzenie</strong>. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną. Więcej w <a href="/pl/help/mobile-beta">Funkcjach Beta</a>.</p></aside>
+<p>Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów świateł Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia oraz sum z Twoich głowic DŌS.</p>
 <h2 id="kiedy-przychodzi">Kiedy przychodzi</h2>
 <p>Raz dziennie dla każdego akwarium, o wybranej godzinie. Ustawisz ją w <strong>Ustawienia → Godzina podsumowania</strong>, obok <strong>Powiadomień</strong>. Podsumowanie przychodzi w ciągu około 15 minut od tej godziny, w Twojej strefie czasowej. Jeśli nigdy jej nie wybierzesz, przychodzi o 8:00.</p>
 <p>Wybierz godzinę po swoim zwykłym porannym teście, żeby dzisiejszy wynik trafił do podsumowania.</p>
@@ -220,7 +216,7 @@
 <p>Gdy Reef Buddy wskaże dryf, zapyta też <em>Czy to ostrzeżenie było przydatne?</em> Możesz odpowiedzieć <strong>Przydatne</strong>, <strong>Nieprzydatne</strong>, <strong>Ta zmiana jest oczekiwana</strong> albo <strong>Odczyt wygląda błędnie</strong>. Twoje odpowiedzi wpływają na to, co pojawia się na początku kolejnych podsumowań. Ukrycie spostrzeżenia działa tylko przez jakiś czas. Jeśli problem trwa, spostrzeżenie wróci.</p>
 <aside class="cal cal-note"><p class="cal-t">Poważne ustalenia nigdy nie są ukrywane</p><p>Odpowiedzi wyciszają tylko spostrzeżenia o niższej ważności. Ostrzeżenia i spostrzeżenia krytyczne pojawiają się dalej, niezależnie od wcześniejszych odpowiedzi.</p></aside>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-activity"><span>Poprzedni</span><b>Aktywność i oś czasu</b></a><a class="pn-n" href="/pl/help/mobile-assistant"><span>Następny</span><b>Pytania do Cory</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -611,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=27523801fa').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

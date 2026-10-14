@@ -25,23 +25,13 @@ Vous ajoutez et disposez les widgets dans [l’éditeur de tableau de bord](/hel
 | **ReefBeat** | Un appareil Red Sea, avec son propre résumé |
 | **Module Apex** | Un module Apex installé, comme un Trident ou un DŌS |
 | **Jecod** | Une pompe Jecod, avec son mode et son intensité |
-| **Maxspect** *(Beta)* | Une Gyre, avec ses deux moteurs |
-| **GHL** *(Beta)* | Un contrôleur ProfiLux ou Mitras, avec son propre résumé |
-| **HYDROS** *(Beta)* | Un contrôleur HYDROS, avec son propre résumé |
-| **Radion** *(Beta)* | Une lampe EcoTech Radion, ou un réseau maillé Radion associé |
-| **VorTech** *(Beta)* | Une pompe EcoTech VorTech, avec son mode et sa vitesse |
-| **Versa** *(Beta)* | Un doseur EcoTech Versa, avec ses têtes |
-| **Caméra** *(Beta)* | Une vue en direct de l’une de vos caméras, jusqu’à trois colonnes de large et deux lignes de haut |
 
 Tout ce qui suit Prise est une tuile d’**appareil**. Chacune appartient à un équipement plutôt qu’à un paramètre, et affiche ce que cet appareil remonte. Cora Max a aussi une tuile **Scène**, que vous ajoutez sur Cora Max. Voir [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
 
-:::note Tuiles Beta
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech et Versa) et Caméra sont des intégrations Beta, ouvertes uniquement aux utilisateurs Beta. Vous ne voyez ces tuiles qu’une fois l’appareil ajouté. Voir [Fonctions Beta](/help/mobile-beta).
-:::
 
 ## Taille {#sizing}
 
-**Largeur** et **Hauteur** peuvent chacune valoir **1×** ou **2×** : un widget fait donc une ou deux cases de large et une ou deux cases de haut. Une caméra peut faire jusqu’à **3×** de large. Un graphique ne fait jamais une seule case de large. Sur un tableau de bord à trois colonnes, une jauge de deux cases de large occupe les deux tiers de la rangée. C’est en général une bonne forme pour votre paramètre le plus important.
+**Largeur** et **Hauteur** peuvent chacune valoir **1×** ou **2×** : un widget fait donc une ou deux cases de large et une ou deux cases de haut. Un graphique ne fait jamais une seule case de large. Sur un tableau de bord à trois colonnes, une jauge de deux cases de large occupe les deux tiers de la rangée. C’est en général une bonne forme pour votre paramètre le plus important.
 
 ## Ce qu’affiche un widget de paramètre {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ Les appareils qui peuvent avoir une tuile dépendent de ce que vous avez connect
 
 ## Tuiles de doseur {#doser-tiles}
 
-Une tuile de doseur (un DŌS Apex, un ReefDose ou un EcoTech Versa) affiche une ligne par tête. Un nom de tête n’est jamais réduit en dessous d’une taille lisible. Sur une tuile haute, la ligne prend deux lignes, avec le nom sur la première et ce qui reste sur la seconde, par exemple *40 j* et *2,8 L*. Sur une tuile basse, la ligne de détail disparaît et le nom reste lisible.
+Une tuile de doseur (un DŌS Apex ou un ReefDose) affiche une ligne par tête. Un nom de tête n’est jamais réduit en dessous d’une taille lisible. Sur une tuile haute, la ligne prend deux lignes, avec le nom sur la première et ce qui reste sur la seconde, par exemple *40 j* et *2,8 L*. Sur une tuile basse, la ligne de détail disparaît et le nom reste lisible.
 
 Choisissez ce qui vient en premier avec **Afficher le reste en** : **Jours** ou **Millilitres (mL)**. Une tête ReefDose sans nom propre est affichée avec le nom de l’appareil suivi de « tête » et de son numéro. Une tuile de doseur Jecod est en lecture seule et affiche le plan quotidien, car Jecod n’indique pas combien il reste dans le flacon.

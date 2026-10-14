@@ -15,23 +15,28 @@ Im Tab **Geräte** fügst du jedes Stück Ausrüstung hinzu, weist es zu, benenn
 ## Ausrüstung hinzufügen {#adding-equipment}
 
 1. Tippe im Tab **Geräte** auf **Gerät hinzufügen**.
-2. Wähl die Marke: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** oder **AquaWiz**. Beta-Nutzer sehen außerdem **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** und **Kamera**, jeweils mit einem Chip **Beta**.
+2. Wähl die Marke: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** oder **AquaWiz**.
 3. Folge den Schritten der Marke. Je nach Marke ist das ein Netzwerkscan, eine IP-Adresse, eine Anmeldung oder ein Geräteschlüssel. [Deine Ausrüstung verbinden](/help/mobile-connections) hat die Schritte für jede Marke.
 4. Wähl das Becken, zu dem es gehört.
 
-![Die Liste Gerät hinzufügen für einen Beta-Nutzer](img/mobile-add-device-beta.webp "Beta-Marken tragen einen Beta-Chip.")
+![Die Markenliste unter Gerät hinzufügen](img/mobile-add-device-brands.webp "Wähle die Marke des Geräts, das du hinzufügst.")
 
-:::note Beta
-**Beta.** Die Beta-Anbindungen sind nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html). Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
-Eine Zeile, die ein Cora Max am Becken braucht (Maxspect, GHL, EcoTech, Inkbird und Kamera), ist ausgegraut und zeigt **Erfordert Cora Max**, bis das Becken eins hat.
 
 :::note Ohne Cora Max ist manche Ausrüstung nur lokal
 Neptune Apex-, Red Sea- und Jecod-Ausrüstung wird über dein Heimnetz oder Bluetooth erreicht. Ohne Cora Max sagt der Bildschirm zum Hinzufügen *Diese Integration funktioniert ohne Cora Max nur lokal in der Mobile-App.* Dein Handy liest und steuert sie nur, solange es im selben Netzwerk (oder in Bluetooth-Reichweite) ist. Unterwegs siehst du die letzten Messwerte, die dein Handy gespeichert hat, und kannst sie nicht steuern. Ein Cora Max am Becken fragt sie rund um die Uhr ab und leitet deine Befehle weiter. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections#local-only).
 :::
 
 Fügst du Ausrüstung aus deinem Netzwerk hinzu, muss dein Handy im selben Netzwerk sein wie die Ausrüstung.
+
+### Bluetooth-Kapazität {#bluetooth-capacity}
+
+Ein Cora Max teilt sein Bluetooth unter der gesamten Ausrüstung auf, die es liest, und kommt daher nur bis zu einer Grenze mit. Wenn du eine Jecod-Pumpe hinzufügst, die über Bluetooth verbunden ist, prüft Cora zuerst, wie ausgelastet das Cora Max des Beckens ist. Meist siehst du nichts. Sonst erscheint eine von zwei Meldungen:
+
+- **Bluetooth wird stark ausgelastet**: *Dieses Cora Max nähert sich seinem Bluetooth-Limit. Weitere Geräte werden möglicherweise seltener aktualisiert. Fügen Sie ein zweites Cora Max hinzu, wenn Sie mehr Geräte hinzufügen möchten.* Tippe auf **Weiter**, um das Gerät trotzdem hinzuzufügen, oder auf **Abbrechen**.
+- **Bluetooth-Limit erreicht**: *Dieses Cora Max hat sein Bluetooth-Limit erreicht. Fügen Sie für diese Geräte ein zweites Cora Max hinzu.* Das Gerät wird nicht hinzugefügt. Tippe auf **OK**.
+
+Cora prüft das primäre Cora Max des Beckens oder, wenn keins gewählt ist, das Cora Max mit dem meisten Platz. Mehr unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device#primary-cora-max).
 
 ## Ein Cora Max koppeln {#pairing-a-cora-max}
 
@@ -48,7 +53,7 @@ Tippe auf ein beliebiges Gerät in der Liste, um seine Seite zu öffnen. Zuerst 
 - **Verbindung** ist, wo du seine IP-Adresse, Anmeldung oder seinen Geräteschlüssel bearbeitest.
 - **Gerät entfernen**, ganz unten.
 
-Cora Max, Neptune Apex und GHL können mehr als ein Becken versorgen, deshalb ist ihre Beckenauswahl eine Checkliste. Cora Max kann bis zu vier zugewiesen bekommen. Siehe [Mehr als ein Cora-Gerät](/help/mobile-multi-device). Alles andere, auch HYDROS, versorgt immer ein Becken. Wählst du ein anderes, wandert das Gerät dorthin und verschwindet beim alten.
+Cora Max und Neptune Apex können mehr als ein Becken versorgen, deshalb ist ihre Beckenauswahl eine Checkliste. Cora Max kann bis zu vier zugewiesen bekommen. Siehe [Mehr als ein Cora-Gerät](/help/mobile-multi-device). Alles andere versorgt immer ein Becken. Wählst du ein anderes, wandert das Gerät dorthin und verschwindet beim alten.
 
 :::warning Weise das Becken zu, bevor du dich auf die Messwerte verlässt
 Ein Gerät ohne Becken meldet trotzdem, aber seine Zahlen landen nirgends. Erscheint ein Gerät, das du gerade hinzugefügt hast, auf keinem Dashboard, prüf das zuerst.
@@ -83,7 +88,6 @@ Für mehr öffne das Gerät. Sein Bereich **Status** zeigt, wann Cora zuletzt vo
 | "Vor 3 Std. aktualisiert" bei etwas, das nur alle paar Stunden meldet | In Ordnung |
 | "… nicht erreichbar" oder "… konnte nicht erreicht werden" | Ein Netzwerkproblem, oder das Gerät ist aus |
 | "… hat die Anmeldung abgelehnt" | Das Konto beim Hersteller muss neu verbunden werden. Öffne das Gerät und melde dich erneut an |
-| "Wartet auf Cora Max" | Ein GHL-Controller oder Inkbird-Monitor, den du gerade hinzugefügt hast: Er erscheint, sobald ein Cora Max ihn gelesen hat |
 | Ältere Messwerte, während du unterwegs bist | Normal für Apex, Red Sea und Jecod ohne Cora Max am Becken (siehe oben) |
 | Gar nichts | Es hat nie gemeldet. Prüf die Beckenzuweisung und die Verbindung |
 

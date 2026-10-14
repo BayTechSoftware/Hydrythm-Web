@@ -3,7 +3,7 @@ title: Zgłaszanie problemu
 description: Zgłoś błąd albo wyślij opinię prosto z Cora Mobile, zobacz, co jest wysyłane razem ze zgłoszeniem, włącz raporty awarii albo napisz do pomocy.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 37
+order: 39
 group: Settings and account
 ---
 

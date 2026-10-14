@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -209,7 +206,7 @@
 <p>Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records all 71 elements a lab can report, and the line some labs call <em>Acidity</em> is pH.</p>
 <p>On each element row you'll see the range the lab printed, shown as <em>Lab range</em>, next to Cora's own range for that element. An element Cora has no reference range for carries the tag <strong>No Cora range</strong>. The report says how many elements have a Cora range and assesses the rest from general reef knowledge. Cora Assistant comments on every element that was tested, and its comment stands even when there's no Cora range.</p>
 <p>If the lab prints <em>n.d.</em>, or <em>not detected</em>, for an element, Cora records it as 0 and says it wasn't detected.</p>
-<aside class="cal cal-note"><p class="cal-t">Dissolved CO2 is not room CO2</p><p><strong>Dissolved CO₂</strong> in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room, which an Inkbird™ room air monitor measures. The two have different ranges and are never mixed. <strong>Beta.</strong> Inkbird is in Beta and only open to Beta users. If you are not a Beta user you will not see it in <strong>Add device</strong>. To ask for Beta access, contact support.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Dissolved CO2 is not room CO2</p><p><strong>Dissolved CO₂</strong> in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room. The two have different ranges and are never mixed.</p></aside>
 <p>The <strong>Since your last ICP</strong> card shows what changed most since last time. It's usually the quickest way into a new report.</p>
 <p>Tap <strong>Trends</strong> to see any element across every test you've uploaded. This is where ICP becomes really useful.</p>
 <aside class="cal cal-tip"><p class="cal-t">The second test is where it gets interesting</p><p>One ICP tells you where you are. The second tells you which way you're heading, and that's what you can act on. Test on a regular rhythm, and don't wait for something to go wrong.</p></aside>
@@ -232,7 +229,7 @@
 <p>The Intelligence screen keeps the two kinds apart. Lab results are under <strong>ICP REPORTS</strong> and generated reviews under <strong>HEALTH REPORTS</strong>. Each list shows the newest first, with its score. Tap one to open it again in full.</p>
 <p>You can also get to them from <strong>Settings</strong>: open a tank, then <strong>ICP Reports</strong> or <strong>Health Reports</strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-assistant"><span>Previous</span><b>Asking Cora</b></a><a class="pn-n" href="/help/mobile-journeys"><span>Next</span><b>Guided journeys</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -623,7 +620,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

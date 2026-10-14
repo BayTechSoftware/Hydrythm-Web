@@ -16,15 +16,12 @@ twin: mobile-devices
 
 Cora Max sees the same equipment as your phone, because they both read the same account.
 
-Use the filter chips at the top to show **All tanks** or just one. Devices are grouped by brand. Each entry has a status dot (grey when Cora doesn't know yet, green when it's working, orange for a warning or fault, red when it's offline), a one-line summary of what the device holds (*21 outlets · 4 feeds*, *19 tests left*), the tank it belongs to and when it was **Last seen**. Beta devices carry a **Beta** chip.
+Use the filter chips at the top to show **All tanks** or just one. Devices are grouped by brand. Each entry has a status dot (grey when Cora doesn't know yet, green when it's working, orange for a warning or fault, red when it's offline), a one-line summary of what the device holds (*21 outlets · 4 feeds*, *19 tests left*), the tank it belongs to and when it was **Last seen**.
 
 Tap a device to open its page. Every device page opens with a **Status** section. What each page can do is in [Controlling equipment from Cora Max](/help/max-device-control).
 
 If the list says **Still loading some devices: this list may be incomplete.**, give it a moment.
 
-:::note Beta
-**Beta.** EcoTech lights, pumps and dosers, Inkbird room air monitors and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). More in [Beta features](/help/mobile-beta).
-:::
 
 ### Renaming a device {#renaming-a-device}
 
@@ -42,6 +39,7 @@ To see or change it, open **Settings → [your tank] → Primary Cora Max**. You
 
 - **Any active (automatic)** means every online Cora device that can reach this tank's equipment shares the work, and the latest write wins. Use this unless you have a reason to pin one device.
 - Pin one device, so only that device reads the equipment. If it goes offline, no other Cora Max takes over. Only Cora Mobile, open on the same Wi-Fi, reads the equipment until you pin a different one or switch back to **Any active (automatic)**.
+
 
 You set this once for the tank, and it applies to every Cora screen. You can change it from any Cora Max that shows the tank, or from Cora Mobile (**Make Primary Cora Max** on the Cora Max's page). More in [More than one Cora device](/help/mobile-multi-device).
 

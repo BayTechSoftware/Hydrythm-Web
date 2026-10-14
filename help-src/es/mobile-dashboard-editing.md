@@ -57,7 +57,7 @@ Toca un widget en el editor para abrir sus ajustes. Según el widget, puedes con
 | **Parámetro** | Widgets de parámetro: qué parámetro muestra |
 | La toma o el dispositivo | Casillas de toma y de equipo: cuál muestra |
 | **Mostrar lo restante como** | Casillas de dosificadora: **Días** o **Mililitros (mL)** |
-| **Ancho** | Todos los widgets: **1×** o **2×** (una cámara hasta **3×**). Un gráfico siempre ocupa al menos 2 de ancho |
+| **Ancho** | Todos los widgets: **1×** o **2×**. Un gráfico siempre ocupa al menos 2 de ancho |
 | **Alto** | Todos los widgets: **1×** o **2×** |
 | **Rango de tiempo** | Gráfico: 1h, 6h, 24h, 7d, 30d o 1y |
 
@@ -78,7 +78,7 @@ El panel de Cora Max se edita aparte, desde **Dispositivos →** tu Cora Max **�
 Ese editor tiene tres extras que el panel del teléfono no tiene:
 
 - **Mis paneles** guarda hasta 30 diseños en tu cuenta. Cualquier Cora Max de la cuenta puede cargar uno. Las casillas que el destino no puede rellenar aparecen en **Se quedan fuera:** antes de cargarlo.
-- **Plantillas** abre **Plantillas de panel**: **Resumen**, **Equipo**, **Parámetros** y, si el acuario tiene una cámara, **Cámara**. Está disponible en todos los planes y no usa IA. Las cámaras están en Beta y solo están abiertas a los usuarios Beta.
+- **Plantillas** abre **Plantillas de panel**: **Resumen**, **Equipo** y **Parámetros**. Está disponible en todos los planes y no usa IA.
 - **Diseñar con IA**, con un plan de pago o durante la prueba gratuita, propone un diseño completo a partir de lo que el acuario informa y tiene vinculado. Puedes hacer 5 diseños por acuario al día.
 
 Cómo funciona cada uno se explica en [Editar el panel de Cora Max](/help/max-dashboard-editing).

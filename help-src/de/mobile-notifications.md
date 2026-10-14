@@ -3,7 +3,7 @@ title: Benachrichtigungen
 description: Wählen, welche Benachrichtigungen dein Handy erreichen, die Nächte ruhig halten, unter der Glocke nachlesen, was du verpasst hast, und Benachrichtigungen reparieren, die nicht ankommen.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ Die Karte oben sagt, ob dieses Handy überhaupt Benachrichtigungen von Cora erla
 |---|---|
 | **Wasserwert-Warnungen** | Wasserchemie außerhalb eines Bereichs, den du festgelegt hast, und die Benachrichtigung *wieder normal*, wenn sie zurückkommt |
 | **Wartungserinnerungen** | Aufgaben, die du geplant hast, etwa Wasserwechsel, und eine einmalige Erinnerung, deinen ersten Test einzutragen, wenn ein neues Becken nach drei Tagen noch keine Messwerte hat |
-| **Gerätefehler** | Ein Gerät meldet ein Problem, zum Beispiel ein Trident, der nicht mehr testet. Außerdem ein Gerät, das [sich nicht mehr meldet](/help/mobile-alerts#stopped-reporting), eine verpasste Dosierung und die Warnung bei vollem Becher vom Skimmer-Wächter |
+| **Gerätefehler** | Ein Gerät meldet ein Problem, zum Beispiel ein Trident, der nicht mehr testet. Außerdem ein Gerät, das [sich nicht mehr meldet](/help/mobile-alerts#stopped-reporting), und eine verpasste Dosierung |
 | **Vorräte werden knapp** | Reagenz, Nachfüllwasser, Dosierbehälter und eine volle Abfallflasche |
 | **ICP-Bericht bereit** | Deine ICP-Ergebnisse sind ausgewertet und können gelesen werden |
 

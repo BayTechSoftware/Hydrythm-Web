@@ -3,7 +3,7 @@ title: Population
 description: Ajoutez les coraux, poissons et invertébrés de votre aquarium, et notez les pertes, boutures, ventes et déplacements pour repérer des tendances plus tard.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 27
+order: 29
 group: Records
 twin: max-records
 ---

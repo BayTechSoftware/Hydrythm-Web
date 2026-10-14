@@ -1,6 +1,6 @@
 ---
 title: Glossar
-description: Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene, Skimmer-Wächter und den anderen Begriffen in den Apps meint.
+description: Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in den Apps meint.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -44,9 +44,6 @@ Eine zusätzliche Prüfung bei einer [Automation](#automation), etwa dass ein Me
 
 Wie ein Befehl an deine Ausrüstung ausgegangen ist. **Bestätigt**: Die Ausrüstung hat zurückgemeldet, dass sie es getan hat. **Unbestätigt**: gesendet, aber es kam keine Rückmeldung, prüf also das Gerät. **Abgelehnt**: Er wurde nicht ausgeführt. **Keine Änderung**: Es war schon so. Siehe [Deine Ausrüstung steuern](/help/mobile-device-control).
 
-## Beta
-
-Eine Anbindung, die wir noch testen und weiterentwickeln. **Beta.** Die Beta-Anbindungen (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird und Kameras) sind nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support. Funktionen, die nur "(Beta)" im Namen tragen, etwa große Dosierungen oder die ReefMat-Einstellungen, sind für alle offen. Siehe [Beta-Funktionen](/help/mobile-beta).
 
 ## Cora Assistant
 
@@ -76,9 +73,6 @@ Eine Pumpe eines Neptune DŌS-Dosierers. Du kannst jedem Kopf eine Aufgabe geben
 
 Ein Becken, das du entfernt hast. Seine Daten bleiben erhalten, und du kannst es unter **Einstellungen → Entfernte Becken** zurückholen. Siehe [Deine Becken verwalten](/help/mobile-tanks).
 
-## Erfordert Cora Max
-
-Ein Hinweis an einer Marke unter **Gerät hinzufügen**. Diese Ausrüstung wird von einem Cora Max abgefragt, das Becken braucht also zuerst eins. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
 
 ## Fütterungsmodus
 
@@ -104,13 +98,6 @@ Ein gründlicherer, regelmäßiger Blick auf ein ganzes System. Er betrachtet al
 
 Ein Cora Max-Dashboard-Layout, das du unter **Meine Dashboards** abgelegt hast. Du kannst es später wieder anwenden oder auf ein anderes Becken oder ein anderes Cora Max laden. Das Handy-Dashboard hat keine gespeicherten Designs. Siehe [Das Cora Max-Dashboard bearbeiten](/help/max-dashboard-editing#saving-layouts).
 
-## GHL
-
-GHL Advanced Technology, Hersteller der Controller ProfiLux und Mitras. Die GHL-Unterstützung von Cora ist in der **Beta** und nur für Beta-Nutzer offen. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
-
-## HYDROS
-
-Das Controller- und Dosiersystem von CoralVue. Cora liest es über die eigene Cloud von HYDROS, deshalb funktioniert es auch unterwegs. Die HYDROS-Unterstützung von Cora ist in der **Beta** und nur für Beta-Nutzer offen. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
 
 ## ICP
 
@@ -158,7 +145,7 @@ Woher ein Messwert kommt: von einer Sonde, einem Controller, einem Laborergebnis
 
 ## Red Sea ReefBeat
 
-Die vernetzte Ausrüstung von Red Sea: ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED und ReefControl. Cora liest sie in deinem Heimnetz. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
+Die vernetzte Ausrüstung von Red Sea: ReefDose, ReefRun, ReefMat und ReefATO+. Cora liest sie in deinem Heimnetz. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
 
 ## Reef Buddy
 
@@ -172,9 +159,6 @@ Der Cora Max-Bildschirm, der alle deine Becken nebeneinander zeigt. Auf dem Bild
 
 Der Bereich, mit dem du bei einem Wasserwert zufrieden bist. Das kann ein Bereich sein, eine Obergrenze oder eine Untergrenze. Du legst ihn fest, und die Standardwerte sind nur ein Anfang. Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts).
 
-## Skimmer-Wächter
-
-Eine Kamerafunktion, die den Auffangbecher des Abschäumers beobachtet und dich warnt, bevor er überläuft. Cora Max prüft den Becher alle 15 Minuten. Sie braucht eine Kamera, die in der **Beta** und nur für Beta-Nutzer offen ist, und ein kostenpflichtiges Abo. Siehe [Kameras und Skimmer-Wächter](/help/mobile-cameras).
 
 ## Statusanzeige
 
@@ -222,7 +206,7 @@ Etwas, das du an deinem Wasser messen kannst, etwa Alkalinität, Calcium, Nitrat
 
 ## Widget
 
-Eine Kachel auf einem Dashboard, die eine Sache zeigt, etwa einen Wert, eine Anzeige, ein Diagramm, eine Steckdose oder eine Kamera. Siehe [Widget-Referenz](/help/mobile-widgets).
+Eine Kachel auf einem Dashboard, die eine Sache zeigt, etwa einen Wert, eine Anzeige, ein Diagramm oder eine Steckdose. Siehe [Widget-Referenz](/help/mobile-widgets).
 
 ## Wiederherstellungs-PIN
 

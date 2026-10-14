@@ -57,7 +57,7 @@ Dotknij widżetu w edytorze, żeby otworzyć jego ustawienia. W zależności od 
 | **Parametr** | Widżetów parametrów: który parametr pokazuje |
 | Gniazdo albo urządzenie | Kafelków gniazd i sprzętu: które pokazuje |
 | **Pokaż pozostałe jako** | Kafelków dozowników: **Dni** albo **Mililitry (mL)** |
-| **Szerokość** | Każdego widżetu: **1×** albo **2×** (kamera do **3×**). Wykres ma zawsze co najmniej 2 szerokości |
+| **Szerokość** | Każdego widżetu: **1×** albo **2×**. Wykres ma zawsze co najmniej 2 szerokości |
 | **Wysokość** | Każdego widżetu: **1×** albo **2×** |
 | **Zakres czasu** | Wykresu: 1h, 6h, 24h, 7d, 30d albo 1y |
 
@@ -78,7 +78,7 @@ Pulpit Cora Max edytujesz osobno, z **Urządzenia →** Twój Cora Max **→ Uk�
 Ten edytor ma trzy dodatki, których nie ma pulpit w telefonie:
 
 - **Moje panele** przechowuje na Twoim koncie do 30 zapisanych projektów. Każdy Cora Max na koncie może wczytać dowolny z nich. Kafelki, których docelowy pulpit nie wypełni, są wymienione pod **Pozostawione:** przed wczytaniem.
-- **Szablony** otwiera **Szablony pulpitu**: **Przegląd**, **Sprzęt**, **Parametry** oraz, gdy akwarium ma kamerę, **Kamera**. Działają w każdym planie i nie używają AI. Kamery są w wersji Beta i są dostępne tylko dla użytkowników Beta.
+- **Szablony** otwiera **Szablony pulpitu**: **Przegląd**, **Sprzęt** i **Parametry**. Działają w każdym planie i nie używają AI.
 - **Zaprojektuj z AI**, w płatnym planie albo w okresie próbnym, proponuje cały układ na podstawie tego, co akwarium zgłasza i co ma podłączone. Możesz zrobić 5 projektów na akwarium dziennie.
 
 Jak działa każdy z nich, opisuje [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing).

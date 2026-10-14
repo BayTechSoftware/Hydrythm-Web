@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -174,10 +171,9 @@
       <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li></ol></nav>
       <h1>Troubleshooting</h1>
       
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#readings-and-widgets">Readings and widgets</a></li><li><a href="#device-not-reporting">A device stopped reporting or can&#x27;t be reached</a></li><li><a href="#command-did-not-go-through">A command didn&#x27;t go through</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#alerts-and-notifications">Alerts, notifications and the daily briefing</a></li><li><a href="#cameras-and-skimmer-watch">Cameras and Skimmer Watch</a></li><li><a href="#cora-assistant-and-voice">Cora Assistant and voice</a></li><li><a href="#lab-results-and-health-reports">Lab results and health reports</a></li><li><a href="#language-units-and-signing-in">Language, units and signing in</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#readings-and-widgets">Readings and widgets</a></li><li><a href="#device-not-reporting">A device stopped reporting or can&#x27;t be reached</a></li><li><a href="#command-did-not-go-through">A command didn&#x27;t go through</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#alerts-and-notifications">Alerts, notifications and the daily briefing</a></li><li><a href="#cora-assistant-and-voice">Cora Assistant and voice</a></li><li><a href="#lab-results-and-health-reports">Lab results and health reports</a></li><li><a href="#language-units-and-signing-in">Language, units and signing in</a></li><li><a href="#still-stuck">Still stuck</a></li></ul></nav>
 <p>Find the family your problem belongs to, then the message or symptom you see. Headings in quotes are the exact words Cora shows you.</p>
-<ul><li><a href="#readings-and-widgets">Readings and widgets</a></li><li><a href="#device-not-reporting">A device stopped reporting or can't be reached</a></li><li><a href="#command-did-not-go-through">A command didn't go through</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#alerts-and-notifications">Alerts, notifications and the daily briefing</a></li><li><a href="#cameras-and-skimmer-watch">Cameras and Skimmer Watch</a></li><li><a href="#cora-assistant-and-voice">Cora Assistant and voice</a></li><li><a href="#lab-results-and-health-reports">Lab results and health reports</a></li><li><a href="#language-units-and-signing-in">Language, units and signing in</a></li></ul>
-<aside class="cal cal-note"><p class="cal-t">Beta integrations</p><p>Some entries below are about Beta integrations: Maxspect™, GHL™, HYDROS™, Focustronic™, EcoTech™, Inkbird™ and cameras. <strong>Beta.</strong> These integrations are in Beta and only open to Beta users. If you are not a Beta user you will not see them in <strong>Add device</strong>. To ask for Beta access, contact support. More in <a href="/help/mobile-beta">Beta features</a>.</p></aside>
+<ul><li><a href="#readings-and-widgets">Readings and widgets</a></li><li><a href="#device-not-reporting">A device stopped reporting or can't be reached</a></li><li><a href="#command-did-not-go-through">A command didn't go through</a></li><li><a href="#cora-max">Cora Max</a></li><li><a href="#alerts-and-notifications">Alerts, notifications and the daily briefing</a></li><li><a href="#cora-assistant-and-voice">Cora Assistant and voice</a></li><li><a href="#lab-results-and-health-reports">Lab results and health reports</a></li><li><a href="#language-units-and-signing-in">Language, units and signing in</a></li></ul>
 <h2 id="readings-and-widgets">Readings and widgets</h2>
 <h3 id="a-widget-shows-no-value">A widget shows no value</h3>
 <p>Go through these in order.</p>
@@ -207,7 +203,6 @@
 <h3 id="device-stopped-reporting">"[Device]: stopped reporting"</h3>
 <p>Cora sends this when a device goes quiet. It doesn't mean the device is broken, only that Cora hasn't heard from it for a while. How long Cora waits for each brand is in <a href="/help/mobile-alerts#stopped-reporting">Alerts and thresholds</a>.</p>
 <ol><li>Check the device's power, and its Wi-Fi or Bluetooth range.</li><li>Check that the Cora Max reading it is switched on and online. Without a Cora Max, your phone reads a Neptune™ Apex, Red Sea™ or Jecod™ device only while Cora Mobile is open on the same Wi-Fi.</li><li>Wait for the next reading. You get a second notification once it's reporting again.</li></ol>
-<p>GHL and HYDROS have their own messages, further down this page.</p>
 <h3 id="device-is-offline-showing-last-known-state">"Device is offline. Showing last known state."</h3>
 <p>The device stopped reporting, and Cora is showing the last values it had. They aren't current.</p>
 <ol><li>Check the device's own network connection.</li><li>Don't treat the values as live until the row stops saying offline.</li></ol>
@@ -223,14 +218,6 @@
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Some ReefBeat settings are greyed out or missing</h3>
 <p>That's normal. A Red Sea device's own settings only open when your phone is on the same network as the device. Away from that network you only see readings.</p>
 <ol><li>Join the tank's Wi-Fi to change those settings.</li><li>Readings and history keep working when you're away.</li></ol>
-<h3 id="ghl-api-is-off">"GHL API is off"</h3>
-<p>GHL (Beta) turns its official API off after every firmware update, so this is normal after an update. Turn it back on from <strong>System → GHL API</strong> in GHL Control Center or GHL Connect, on the controller itself. Cora keeps checking and reconnects once it's back on.</p>
-<h3 id="ghl-controller-unreachable">"GHL controller unreachable"</h3>
-<p>Cora Max can't reach the GHL (Beta) controller's address on your network.</p>
-<ol><li>Check the controller is powered on and connected to your network.</li><li>Check its IP address hasn't changed. If it has, open it on your phone (<strong>Devices</strong>) and update it under <strong>Connection</strong>.</li><li>Check the Cora Max reading this tank is on the same network as the controller.</li></ol>
-<h3 id="a-hydros-controller-shows-as-offline-or-not-reporting">A HYDROS controller shows as offline or not reporting</h3>
-<p>HYDROS (Beta) reports through its own cloud, so this usually means the controller has lost power or its own connection. Check it in the HYDROS app. Readings catch up once it's back online. A command sent while it looks offline isn't sent at all.</p>
-<p>If a HYDROS device shows <strong>Key revoked</strong>, its device key was removed or replaced in the HYDROS app. Create a new key and link it again on your phone from <strong>Devices → Add Device → HYDROS</strong>.</p>
 <h2 id="command-did-not-go-through">A command didn't go through</h2>
 <p>Every command ends as <strong>Confirmed</strong>, <strong>Unconfirmed</strong>, <strong>Refused</strong> or <strong>No change</strong>. What each one means is in <a href="/help/mobile-device-control">Controlling your equipment</a>.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">"Could not reach this pump: nothing was sent"</h3>
@@ -238,8 +225,6 @@
 <ol><li>Check the pump is powered on.</li><li>Check it's on the same network you added it on, and that your phone or Cora Max is on that network too.</li><li>Tap <strong>Retry</strong>.</li></ol>
 <h3 id="could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">"Could not reach this pump over Bluetooth. Stand near it and try again."</h3>
 <p>Your phone is out of range of a Bluetooth-only Jecod pump. Move closer to the pump and tap <strong>Retry</strong>.</p>
-<h3 id="could-not-reach-that-gyre-its-program-was-not-changed">"Could not reach that gyre. Its program was not changed."</h3>
-<p>Cora couldn't get a new schedule through to a Maxspect (Beta) gyre. Check the gyre is powered on and that your phone or Cora Max is on its network, then tap <strong>Retry</strong> on the schedule screen.</p>
 <h3 id="could-not-reach-the-apex-nothing-changed-nothing-was-dosed">"Could not reach the Apex: nothing changed" / "nothing was dosed"</h3>
 <p>A Neptune Apex, Trident or DŌS head didn't respond to a command or a dose request.</p>
 <ol><li>Open the Apex's own app and check it's online.</li><li>Check the network connection on the phone or Cora Max you're using. Changing a DŌS head from your phone needs the phone on the same network as the Apex.</li><li>Tap <strong>Retry</strong>.</li></ol>
@@ -307,10 +292,6 @@
 <p>Removing a tank only hides it. Its devices stay linked to it, and a Cora Max can still be reading it, so its equipment can keep reporting and alerting.</p>
 <ol><li>Restore it from <strong>Settings → Removed tanks</strong> so you can see it again.</li><li>Remove or move its devices on the <strong>Devices</strong> tab.</li><li>Take it off your Cora Max: on your phone, open <strong>Devices</strong>, then your Cora Max, and under <strong>Tanks</strong> tap <strong>Remove tank</strong> next to it.</li></ol>
 <p>Then remove the tank again. More in <a href="/help/mobile-tanks">Managing your tanks</a>.</p>
-<h2 id="cameras-and-skimmer-watch">Cameras and Skimmer Watch</h2>
-<p>Cameras and Skimmer Watch are Beta. Setting them up is in <a href="/help/mobile-cameras">Cameras and Skimmer Watch</a>.</p>
-<h3 id="skimmer-watch-messages">Skimmer Watch shows a message instead of a cup level</h3>
-<ul><li><strong>Mark the cup first</strong>: Skimmer Watch doesn't know where the cup is yet. Tap <strong>Mark the cup</strong> and drag the box over it.</li><li><strong>Not calibrated: empty the cup and tap Cup is empty now</strong>: do exactly that, with the cup empty.</li><li><strong>Box moved: calibrate again</strong>: you moved the box, so calibrate again with an empty cup.</li><li><strong>Not sure (low confidence)</strong>: the picture wasn't clear enough. Read the <strong>Camera tips</strong> on the Skimmer Watch screen, then wait for the next check or tap <strong>Check now</strong>.</li><li><strong>Light too bright behind the cup</strong>: turn off the light behind the cup, or set the camera's night vision to always on.</li><li><strong>Cora Max could not get a picture of the camera.</strong>: check the camera is powered and online, and that the Cora Max reading it is on.</li><li><strong>The last check failed.</strong>: tap <strong>Check now</strong>. If it keeps failing, check the camera and Cora Max.</li><li><strong>No reading yet. Cora Max checks every 15 minutes.</strong>: wait for the first check.</li><li><strong>Skimmer Watch needs a paid plan.</strong>: Skimmer Watch is part of the paid plans.</li></ul>
 <h2 id="cora-assistant-and-voice">Cora Assistant and voice</h2>
 <h3 id="cora-assistant-answers-about-the-wrong-tank">Cora Assistant answers about the wrong tank</h3>
 <p>You didn't pick a tank before asking, or the wrong one is selected. Pick the tank you mean, then ask again. More in <a href="/help/mobile-assistant">Asking Cora</a>.</p>
@@ -340,7 +321,7 @@
 <h2 id="still-stuck">Still stuck</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, or report it from Cora Mobile as described in <a href="/help/mobile-support">Reporting a problem</a>. Tell us which tank, which device, which screen, and what you expected to see.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/help/how-do-i"><span>Next</span><b>How do I...?</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -731,7 +712,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

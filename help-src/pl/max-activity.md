@@ -18,6 +18,7 @@ Otworzysz go z **menu akwarium** (dotknij nazwy akwarium na górnym pasku) albo 
 
 Każdy wiersz pokazuje sprzęt i to, o co poproszono, na przykład *Pompa powrotna: Wyłączono*, oraz godzinę. Mówi też dwie inne rzeczy.
 
+
 **Co o to poprosiło.** Na przykład **Dotknięcie na tym Cora**, **Głos na tym Cora**, **Aplikacja Cora**, **Głos w aplikacji Cora**, **Reguła automatyzacji** albo **Wysłano z chmury**.
 
 **Jaką drogą poszło.** **LAN** oznacza, że polecenie poszło przez Twoją własną sieć. **PRZEZ CHMURĘ** oznacza, że poszło przez Cora Cloud. Jeśli masz więcej niż jedno Cora Max, wpis mówi też, które z nich je wykonało.

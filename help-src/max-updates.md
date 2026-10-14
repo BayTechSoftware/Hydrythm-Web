@@ -26,7 +26,6 @@ Your version is on the card at the top of **Settings → Cora Max Settings** (*C
 Under **Update settings** on the same screen:
 
 - **Install window** sets the hours updates may install, with a **Start** and **End** time, in this screen's local time. The time zone is set in Cora Mobile, under **Devices →** your Cora Max **→ Time zone**.
-- **Update channel** is **Stable** or **Beta**. Leave it on **Stable** unless support asks you to switch. A Cora Max on **Beta** doesn't get stable releases.
 
 To see whether this screen is reading your devices and saving to Cora Cloud, go back to **Cora Max Settings** and scroll to **STATUS**. It shows each tank's **Polling status**, **Last poll**, **Last cloud write** and **Cloud save**.
 

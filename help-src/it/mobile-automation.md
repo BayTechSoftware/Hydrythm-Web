@@ -3,7 +3,7 @@ title: Automazioni e scene
 description: Fai agire Cora da sola quando cambia una lettura, scatta un avviso, arriva un'ora o un dispositivo va offline, e raggruppa le azioni in scene che avvii con un tocco.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Aggiungi uno o più trigger in **Quando: qualsiasi trigger**. Uno qualsiasi di q
 | Trigger | Scatta quando |
 |---|---|
 | **Quando un parametro cambia** | Un parametro supera un valore che imposti. Scegli la **Direzione**: **In aumento**, **In diminuzione** o **Qualsiasi variazione** |
-| **Quando un avviso scatta** | Un avviso è **Generato**, **Risolto**, o entrambi. Puoi limitarlo agli avvisi di **Soglia** o di **Velocità di variazione** |
+| **Quando un avviso scatta** | Un avviso è **Generato**, **Risolto**, o entrambi. Puoi limitarlo agli avvisi di **Soglia** o di **Velocità di variazione**. |
 | **A un'ora del giorno** | Un'ora del giorno, nel tuo fuso orario |
 | **Quando un dispositivo va offline** | Il tuo Cora Max va **Offline**, torna **Online**, o in entrambi i casi |
 
@@ -82,18 +82,12 @@ Un'azione che richiede un'attrezzatura compare solo su una vasca che ha quell'at
 | **Dosa una testa DŌS** | Esegue una dose misurata su una testa DŌS |
 | **Controlla un'apparecchiatura Red Sea** | Comanda un'unità ReefBeat |
 | **Controlla una pompa di movimento** | Imposta flusso, modalità onda o potenza di una pompa Jecod, oppure **Pausa per l'alimentazione**. Il Cora Max nella vasca rimette la pompa com'era quando l'alimentazione finisce |
-| **Controlla un’apparecchiatura GHL (Beta)** | Mette in pausa un programma di alimentazione, avvia la modalità manutenzione o cambio d'acqua, imposta una scena o la luminosità delle luci, e altro |
-| **Controlla un'apparecchiatura HYDROS (Beta)** | Imposta un'uscita, la riporta al suo programma, cambia modalità, esegue un comando del tester o dosa da una testa |
-| **Controlla un dispositivo EcoTech (Beta)** | Imposta intensità o scena di una Radion, avvia un'alimentazione o una modalità VorTech, dosa da un Versa, o riporta uno qualsiasi di questi al suo programma |
 | **Avvisami** | Ti invia una notifica push con il tuo **Titolo** e **Messaggio** |
 | **Attendi prima del passo successivo** | Fa una pausa prima di continuare |
 | **Esegui una scena** | Avvia una scena dall'interno di questa regola |
 | **Gestisci un'automazione** | Attiva o disattiva un'altra regola |
 | **Crea un'attività di manutenzione** | Mette un lavoro nell'elenco della [manutenzione](/help/mobile-maintenance) della vasca, per esempio cambiare il materiale dello scrubber di CO2 quando il pH scende sotto un valore |
 
-:::note Beta
-GHL, HYDROS ed EcoTech sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
 
 :::warning Una dose non si può annullare, ed è limitata
 Non puoi togliere una dose dalla vasca. Una regola può dosare solo da una testa che è stata misurata con **Misura per dosare** su un Cora Max. La dose viene eseguita da un Cora Max nella vasca. Il dosaggio dalle regole è limitato a **10 mL per testa al giorno**, comunque sia scritta la regola.

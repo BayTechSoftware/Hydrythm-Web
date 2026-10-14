@@ -13,14 +13,10 @@ Trova la famiglia a cui appartiene il tuo problema, poi il messaggio o il sintom
 - [Un comando non è arrivato](#command-did-not-go-through)
 - [Cora Max](#cora-max)
 - [Avvisi, notifiche e briefing giornaliero](#alerts-and-notifications)
-- [Telecamere e Controllo schiumatoio](#cameras-and-skimmer-watch)
 - [Cora Assistant e voce](#cora-assistant-and-voice)
 - [Risultati di laboratorio e report di salute](#lab-results-and-health-reports)
 - [Lingua, unità e accesso](#language-units-and-signing-in)
 
-:::note Integrazioni Beta
-Alcune voci qui sotto riguardano integrazioni Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird e telecamere. **Beta.** Queste integrazioni sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza. Di più in [Funzioni Beta](/help/mobile-beta).
-:::
 
 ## Letture e widget {#readings-and-widgets}
 
@@ -91,7 +87,6 @@ Cora invia questo messaggio quando un dispositivo tace. Non vuol dire che il dis
 2. Controlla che il Cora Max che lo legge sia acceso e online. Senza un Cora Max, il telefono legge un dispositivo Neptune Apex, Red Sea o Jecod solo mentre Cora Mobile è aperta sullo stesso Wi-Fi.
 3. Aspetta la lettura successiva. Ricevi una seconda notifica quando torna a inviare dati.
 
-GHL e HYDROS hanno i loro messaggi, più avanti in questa pagina.
 
 ### "Il dispositivo è offline. Mostra l'ultimo stato conosciuto." {#device-is-offline-showing-last-known-state}
 
@@ -129,23 +124,6 @@ In questo momento niente su questa vasca sta leggendo la tua attrezzatura Red Se
 1. Collegati al Wi-Fi della vasca per cambiare quelle impostazioni.
 2. Letture e storico continuano a funzionare quando sei via.
 
-### "API GHL disattivata" {#ghl-api-is-off}
-
-GHL (Beta) disattiva la sua API ufficiale dopo ogni aggiornamento del firmware, quindi dopo un aggiornamento è normale. Riattivala da **System → GHL API** in GHL Control Center o GHL Connect, sul controller stesso. Cora continua a controllare e si ricollega quando è di nuovo attiva.
-
-### "Controller GHL non raggiungibile" {#ghl-controller-unreachable}
-
-Cora Max non riesce a raggiungere l'indirizzo del controller GHL (Beta) sulla tua rete.
-
-1. Controlla che il controller sia acceso e collegato alla tua rete.
-2. Controlla che il suo indirizzo IP non sia cambiato. Se è cambiato, aprilo sul telefono (**Dispositivi**) e aggiornalo in **Connessione**.
-3. Controlla che il Cora Max che legge questa vasca sia sulla stessa rete del controller.
-
-### Un controller HYDROS risulta offline o non invia dati {#a-hydros-controller-shows-as-offline-or-not-reporting}
-
-HYDROS (Beta) invia i dati attraverso il suo cloud, quindi di solito vuol dire che il controller ha perso l'alimentazione o la sua connessione. Controllalo nell'app HYDROS. Le letture si rimettono in pari quando torna online. Un comando inviato mentre sembra offline non viene inviato per niente.
-
-Se un dispositivo HYDROS mostra **Chiave revocata**, la sua chiave dispositivo è stata rimossa o sostituita nell'app HYDROS. Crea una nuova chiave e collegalo di nuovo dal telefono da **Dispositivi → Aggiungi dispositivo → HYDROS**.
 
 ## Un comando non è arrivato {#command-did-not-go-through}
 
@@ -163,9 +141,6 @@ Un comando alla tua pompa Jecod o Jebao non è mai partito da Cora. Sul telefono
 
 Il telefono è fuori portata di una pompa Jecod solo Bluetooth. Avvicinati alla pompa e tocca **Riprova**.
 
-### "Impossibile raggiungere quel Gyre. Il suo programma non è stato cambiato." {#could-not-reach-that-gyre-its-program-was-not-changed}
-
-Cora non è riuscita a far arrivare un nuovo programma a una gyre Maxspect (Beta). Controlla che la gyre sia accesa e che il telefono o il Cora Max siano sulla sua rete, poi tocca **Riprova** nella schermata del programma.
 
 ### "Impossibile raggiungere l'Apex: nulla è cambiato" / "nulla è stato dosato" {#could-not-reach-the-apex-nothing-changed-nothing-was-dosed}
 
@@ -334,21 +309,6 @@ Rimuovere una vasca la nasconde soltanto. I suoi dispositivi restano collegati, 
 
 Poi rimuovi di nuovo la vasca. Di più in [Gestire le tue vasche](/help/mobile-tanks).
 
-## Telecamere e Controllo schiumatoio {#cameras-and-skimmer-watch}
-
-Telecamere e Controllo schiumatoio sono in Beta. La configurazione è spiegata in [Telecamere e Controllo schiumatoio](/help/mobile-cameras).
-
-### Il Controllo schiumatoio mostra un messaggio invece del livello del bicchiere {#skimmer-watch-messages}
-
-- **Segna prima il bicchiere**: il Controllo schiumatoio non sa ancora dov'è il bicchiere. Tocca **Segna il bicchiere** e trascina il riquadro sopra.
-- **Non calibrato: svuota il bicchiere e tocca Il bicchiere è vuoto ora**: fai esattamente questo, con il bicchiere vuoto.
-- **Riquadro spostato: calibra di nuovo**: hai spostato il riquadro, quindi calibra di nuovo con il bicchiere vuoto.
-- **Non sicuro (bassa affidabilità)**: l'immagine non era abbastanza chiara. Leggi i **Consigli per la videocamera** nella schermata del Controllo schiumatoio, poi aspetta il controllo successivo o tocca **Controlla ora**.
-- **Luce troppo forte dietro il bicchiere**: spegni la luce dietro il bicchiere, oppure imposta la visione notturna della telecamera sempre attiva.
-- **Cora Max non è riuscito a ottenere un'immagine della videocamera.**: controlla che la telecamera sia alimentata e online, e che il Cora Max che la legge sia acceso.
-- **L'ultimo controllo non è riuscito.**: tocca **Controlla ora**. Se continua a non riuscire, controlla la telecamera e Cora Max.
-- **Nessuna lettura per ora. Cora Max controlla ogni 15 minuti.**: aspetta il primo controllo.
-- **Il controllo dello schiumatoio richiede un piano a pagamento.**: il Controllo schiumatoio fa parte dei piani a pagamento.
 
 ## Cora Assistant e voce {#cora-assistant-and-voice}
 

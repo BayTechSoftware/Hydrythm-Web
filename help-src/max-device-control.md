@@ -1,6 +1,6 @@
 ---
 title: Controlling equipment from Cora Max
-description: Device pages on Cora Max for Neptune Apex, Trident and DŌS, Red Sea ReefBeat, Jecod, AquaWiz and the Beta brands, by brand.
+description: Device pages on Cora Max for Neptune Apex, Trident and DŌS, Red Sea ReefBeat, Jecod and AquaWiz, by brand.
 section: Cora Max
 reviewed: 2026-10-13
 order: 6
@@ -25,21 +25,9 @@ You add, assign and remove equipment on your phone. Cora Max shows it once your 
 | **Neptune Apex** | Probes and outlets, and you can switch each outlet |
 | **Trident** | Test state, reagent and waste levels, and a button to start a test |
 | **DŌS**, including the DŌS QD | Each head's dosing, schedule, runway and container volume (with pause, fill, dose now and a one-time twenty-second measure) |
-| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan and ReefRun program editor and ReefMat settings *(Beta)* |
-| **Red Sea ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | ReefControl's probes. ReefControl Power's sockets as outlets, on or off, no automatic mode yet. ReefWave and ReefLED, view only |
+| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan editor and ReefMat settings |
 | **Jecod** | Pump mode and intensity, and its day program |
 | **AquaWiz** | No page of its own. It's listed in **Devices**, and its readings go on the dashboard |
-| **Maxspect** *(Beta)* | Mode and speed for **Gyre A** and **Gyre B**, **Pump health** (cleaning countdown, head A current, fitted heads, firmware), and its schedule, view only |
-| **GHL ProfiLux / Mitras** *(Beta)* | Probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results |
-| **HYDROS** *(Beta)* | Whatever its device key reports: inputs, and with a write key, outputs, modes, dosing heads and tester commands |
-| **Focustronic** *(Beta)* | Status, last test, pumps and vials, plus **Measure now**, **Dose now** or **Test now** depending on the unit |
-| **EcoTech** *(Beta)* | Radion lights, VorTech pumps and Versa dosers, each with its own page. Commands to VorTech and Versa aren't proven on hardware yet |
-| **Inkbird** *(Beta)* | Room air readings, read only |
-| **Camera** *(Beta)* | A picture from your camera, as a tile on the dashboard or on its own page, with Skimmer Watch on paid plans |
-
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
-:::
 
 Most device pages have a pencil to rename the device. The new name shows on your phone too. More in [Devices and device health](/help/max-devices).
 
@@ -68,7 +56,7 @@ A DŌS has no level sensor and keeps dosing from an empty container. Set a refil
 In a head's settings sheet you can set its **use type**. The options are **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, and **Other**. The use type changes two things.
 
 - How big a container it can track. Every use type can track a container of up to 1,000 litres. Above the Apex's own 150 litre counter, Cora tracks the volume itself, and Cora resets the Apex counter every 100 litres.
-- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**. A large hand dose also needs **Large doses (Beta)** turned on in the head's settings, off by default. Turn it on only after you've watched the first large dose run at the tank.
+- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**. A large hand dose also needs **Large doses** turned on in the head's settings, off by default. Turn it on only after you've watched the first large dose run at the tank.
 
 You can link a water-change pair (new saltwater in, old water out) as a **Paired head** and set a **Balance warning above** amount. If the two heads' totals for the day drift apart by more than that, Cora warns you. A pair that's out of balance usually means one side isn't pumping as it should.
 
@@ -86,13 +74,17 @@ Each Red Sea unit has a page that fits what it does: ReefDose heads and containe
 
 If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
 
-A ReefDose plan, a ReefRun speed program and ReefMat's scheduled advance, model, position and New roll all work the same way here as on your phone. [Controlling your equipment](/help/mobile-device-control) has the detail.
+A ReefDose plan and ReefMat's scheduled advance, model, position and New roll all work the same way here as on your phone. [Controlling your equipment](/help/mobile-device-control) has the detail.
 
-ReefControl, ReefControl Power, ReefWave and ReefLED carry *(Beta)* in their name but are open to everyone. ReefControl shows its probes. ReefControl Power's sockets show up as outlets, on or off only. ReefWave and ReefLED are view only for now.
 
 ## Jecod {#jecod}
 
-The Jecod page shows the pump's mode and intensity, and you can change both.
+The Jecod page shows the pump's mode and intensity, and you can change both. Its status sits in the title row, next to the pump's name. The top bar holds the power switch, the pattern running now and **Feeding** with four pills: **5**, **10**, **15** and **30** min. Tap a pill to pause the pump for that long. Below the bar are two cards:
+
+- **Same all day**: tap a setting to run it all day.
+- **Schedule**: the day graph and the list of plans, with **now** on the current one. **Edit** opens the editor, and the ⋮ menu holds **Copy schedule to…**, **Save schedule as…** and **Saved schedules…**.
+
+The card that is running has an outline and a **Running** chip. A Jecod pump has no **End feed** button. Every Jecod pump that can pause for feeding shows the **5**, **10**, **15** and **30** min pills. On a Jecod Pro the Feeding tile in the wave patterns does the same, for 10 minutes. Through a Cora Max that is away from the tank, a Jecod pump feeds for 10 minutes only. A pump that cannot feed right now shows the reason in one short line under the pills, and a long press shows the full sentence.
 
 You can write Jecod pump day programs at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More in [Scheduling equipment](/help/mobile-schedules).
 
@@ -100,77 +92,6 @@ You can write Jecod pump day programs at the wall as well as on your phone. The 
 
 An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see [Connecting your equipment](/help/mobile-connections).
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
-:::
-
-The Maxspect page shows the mode and speed of **Gyre A** and **Gyre B** and its **Pump health**. You can view a gyre's schedule here, but you can't save it. Set it in the Maxspect app.
-
-## GHL ProfiLux and Mitras {#ghl}
-
-:::note Beta
-**Beta.** GHL is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
-:::
-
-Connect a GHL controller from your phone: **Devices → Add Device → GHL**. [Connecting your equipment](/help/mobile-connections) has the steps. Cora Max shows and controls it once a Cora Max on its network has read it, but setup itself happens on the phone.
-
-A ProfiLux mini reads its probes, sockets, dosers and level sensors. With **Allow control from Cora (Beta)** on, a mini can also switch its sockets, the same way as any other GHL controller. Everything else, such as setpoints and feed pause, needs a ProfiLux 3, 4 or Mitras.
-
-Controls stay off until you turn on **Allow control from Cora (Beta)** on the device's page. It's off by default. Once it's on, a socket can be set to **Always on**, **Always off**, or **Back to automatic**, and a setpoint such as temperature or pH shows its allowed range and refuses a value outside it. Both kinds of change are saved on the controller itself and stay there even if Cora later loses touch with it. A change that looks like it touches a heater or return pump asks you to confirm twice.
-
-If a doser's container is running low, Cora warns you the same way it does for other consumables. The default is 20% full, and you can change it from the doser's rule in the [Alert Center](/help/mobile-alerts).
-
-If the controller won't take a change, its GHL API is probably switched off. GHL turns this off after every firmware update. Turn it back on from **System → GHL API** in GHL Control Center or GHL Connect. [Troubleshooting](/help/troubleshooting) has the rest.
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
-:::
-
-HYDROS reaches its controller through the HYDROS cloud, so it works even when Cora Max is on a different network than the controller. It's set up only from your phone: **Devices → Add Device → HYDROS**. [Connecting your equipment](/help/mobile-connections) has the steps.
-
-Reading and controlling it works the same as on your phone. See [Controlling your equipment](/help/mobile-device-control) for outputs, modes, dosing heads and tester commands, and for the per-head dose limits.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet.
-:::
-
-The Focustronic page shows the unit's status, its last test, and its pumps and vials. Under **Controls**:
-
-- An Alkatronic has **Measure now**.
-- A Dosetronic has **Dose now** for each pump. Enter the amount, up to 500 mL at once, tap **Review**, then confirm. A dose can't be undone, and Cora never retries it.
-- A Mastertronic has a test profile to pick and **Test now**.
-
-These commands go through Focustronic's servers, which Cora doesn't control. Set the unit up on your phone, see [Connecting your equipment](/help/mobile-connections).
-
-## EcoTech, Inkbird and cameras {#ecotech-inkbird-and-cameras}
-
-:::note Beta
-**Beta.** EcoTech, Inkbird and cameras are in Beta and only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
-
-You link these from your phone, and a Cora Max on the tank does the reading.
-
-### EcoTech {#ecotech}
-
-Radion lights, VorTech pumps and Versa dosers each have their own page, with an **Alert settings** button for their supplies. [EcoTech lights, pumps and dosers](/help/mobile-ecotech) has the detail.
-
-### Inkbird {#inkbird}
-
-An Inkbird room air monitor shows its readings and nothing more.
-
-### Cameras and Skimmer Watch {#cameras}
-
-To show a camera on the wall, add a **Camera** tile in the [dashboard editor](/help/max-dashboard-editing). Tap the tile to open the camera full screen. Its buttons fade after a few seconds, and a tap brings them back.
-
-With Skimmer Watch on (paid plans), the camera tile and the full-screen view show the cup level and how old it is, for example *Cup 42% · 5 min ago*. It turns amber within 10 points of your alert level and red at it. On the full-screen camera, **Alert at 80%** (or your level) opens **Skimmer cup alert**, where you set the level. You get one notification when the cup reaches it.
-
-Setting up a camera and Skimmer Watch is covered in [Cameras and Skimmer Watch](/help/mobile-cameras).
 
 ## Consumables {#consumables}
 

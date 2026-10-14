@@ -19,7 +19,7 @@ Où le régler :
 
 - **La plupart des appareils** : la cloche dans la barre du haut de la page de l’appareil.
 - **DŌS** : la carte **Alertes** sur la page du DŌS, ou la cloche. Voir [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
-- **Doseurs AquaWiz et GHL** : leur règle dans l’onglet **Règles** du [Centre d’alertes](/help/mobile-alerts).
+- **AquaWiz** : leur règle dans l’onglet **Règles** du [Centre d’alertes](/help/mobile-alerts).
 
 La plupart des seuils se règlent en jours, pas en volume. Cora calcule combien de temps durera ce qui reste au rythme où vous l’utilisez. « Encore quatre jours de calcium » vous permet d’agir. « Encore 180 mL », non.
 
@@ -37,14 +37,7 @@ La plupart des seuils se règlent en jours, pas en volume. Cora calcule combien 
 | ReefATO+ | **Autonomie du réservoir**, estimée d’après la consommation récente de l’osmolateur | 2 jours |
 | ReefMat | **Rouleau restant**, estimé d’après la vitesse d’avancement du rouleau | 3 jours |
 | AquaWiz | Produit d’alcalinité restant | 100 mL |
-| Doseur GHL *(Beta)* | Niveau de remplissage du récipient | 20 % |
-| EcoTech Versa *(Beta)* | Jours de produit restants, et niveau de remplissage du récipient | 7 jours, 10 % |
 
-Un appareil Focustronic *(Beta)* affiche ses propres avertissements de réactif et de tampon sur sa page.
-
-:::note Beta
-**Beta.** GHL, EcoTech et Focustronic sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html).
-:::
 
 Une alerte de consommable fonctionne comme les autres alertes. Elle apparaît dans le [Centre d’alertes](/help/mobile-alerts) et peut arriver sur votre téléphone. Vous recevez **une seule** notification quand un niveau passe le seuil, et l’alerte se ferme quand le niveau repasse au-dessus du seuil.
 
@@ -65,7 +58,6 @@ Indiquez-le à Cora sur la page de l’appareil, pour que l’alerte se ferme et
 | Tête DŌS | **Remplir**, puis **Plein**, ou réglez **Volume restant** |
 | Récipient de déchets DŌS | Remettez son espace libre à plein après l’avoir vidé |
 | Tête ReefDose | **Restant dans le flacon** |
-| ReefMat | **Nouveau rouleau (bêta)** après avoir mis un nouveau rouleau |
-| EcoTech Versa *(Beta)* | **Marquer comme rempli** |
+| ReefMat | **Nouveau rouleau** après avoir mis un nouveau rouleau |
 
 Trident, ReefATO+ et AquaWiz indiquent eux-mêmes leurs niveaux, il n’y a donc rien à réinitialiser dans Cora.

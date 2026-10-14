@@ -3,7 +3,7 @@ title: Esportare i tuoi dati ed eliminare l'account
 description: Esporta letture, diario e avvisi come fogli di calcolo, esci dall'account, oppure elimina il tuo account Cora e scopri cosa viene rimosso.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 38
 group: Settings and account
 ---
 

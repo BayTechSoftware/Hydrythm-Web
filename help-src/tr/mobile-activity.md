@@ -3,12 +3,13 @@ title: Etkinlik ve zaman çizelgesi
 description: Ekipmanınıza gönderilen her değişikliği, onu kimin ya da neyin istediğini ve çalışıp çalışmadığını görün, bir tarihin çevresinde akvaryumun zaman çizelgesini okuyun.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Etkinlik, ekipmanınızda bir şeyi değiştirmeye yönelik her denemeyi listeler: priz açıp kapatma, besleme döngüleri, dozajlar ve bir sahnenin ya da otomasyonun yaptığı her şey. Her satır, isteği neyin verdiğini ve ardından ne olduğunu gösterir. Çalışmayan istekler de buna dahildir.
+
 
 **Ayarlar → Etkinlik** yoluna gidin. Birden fazla akvaryumunuz varsa üstteki akvaryum çipleriyle seçin.
 

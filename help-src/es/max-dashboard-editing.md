@@ -49,11 +49,8 @@ Cuando cambias la cuadrícula, Cora no descarta casillas según su posición. La
 
 Los gestos aparecen arriba en el editor: **toca un mosaico para editar**, **mantén pulsado para mover** y **✕ para eliminar**. **Vaciar todo** vacía la cuadrícula para que empieces de nuevo.
 
-Los dieciséis tipos de casilla son Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, Módulo del Apex, Jecod, Maxspect *(Beta)*, GHL *(Beta)*, HYDROS *(Beta)*, Radion *(Beta)*, VorTech *(Beta)*, Versa *(Beta)* y Cámara *(Beta)*. Los encontrarás en la [Referencia de widgets](/help/mobile-widgets). La casilla **Escena** solo existe en Cora Max. Ejecuta una [escena](/help/max-automation) con un toque.
+Los tipos de casilla son Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, Módulo del Apex y Jecod. Los encontrarás en la [Referencia de widgets](/help/mobile-widgets). La casilla **Escena** solo existe en Cora Max. Ejecuta una [escena](/help/max-automation) con un toque.
 
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech, Versa) y las cámaras están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Sus casillas solo aparecen cuando tienes el dispositivo. Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
 ## Tomas y alimentación {#outlets-feed}
 
@@ -68,7 +65,6 @@ Abre **Plantillas de panel**, unos cuantos diseños ya hechos a partir de lo que
 - **Resumen**: pocas casillas grandes, con los parámetros principales como medidores y tus dispositivos principales
 - **Equipo**: primero una casilla por dispositivo, y después las tomas y los parámetros principales
 - **Parámetros**: primero los gráficos y las lecturas, y al final los dispositivos y las tomas
-- **Cámara**: una vista grande en directo arriba a la izquierda con los parámetros principales al lado. Solo aparece cuando el acuario tiene una cámara. Las cámaras están en Beta y solo están abiertas a los usuarios Beta.
 
 Cada una muestra una vista previa y cuántas casillas tiene y en qué cuadrícula. Toca **Usar este**. Cora pregunta antes **¿Sustituir tu panel?** Toca **Guardar antes el actual como preajuste** si quieres conservar el diseño que tienes, o **Sustituir**. No se guarda nada hasta que pulsas **Guardar**.
 

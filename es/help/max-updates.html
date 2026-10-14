@@ -95,9 +95,6 @@
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
-<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
-<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -184,7 +181,7 @@
 <p>Tu versión está en la tarjeta de arriba de <strong>Ajustes → Ajustes de Cora Max</strong> (<em>Cora Max · firmware 0.28.170</em>), y en <strong>AYUDA Y ACERCA DE → Acerca de</strong>.</p>
 <p><strong>Ajustes → Ajustes de Cora Max → Actualización de firmware</strong> (en <strong>RED Y ACTUALIZACIONES</strong>) muestra la versión que tienes y si hay una actualización esperando. Toca <strong>Buscar actualizaciones</strong> para mirar ahora, o <strong>Descargar e instalar</strong> cuando haya una.</p>
 <p>En <strong>Ajustes de actualización</strong>, en la misma pantalla:</p>
-<ul><li><strong>Ventana de instalación</strong> fija las horas en que se pueden instalar las actualizaciones, con una hora de <strong>Inicio</strong> y de <strong>Fin</strong>, en la hora local de esta pantalla. La zona horaria se fija en Cora Mobile, en <strong>Dispositivos →</strong> tu Cora Max <strong>→ Zona horaria</strong>.</li><li><strong>Canal de actualización</strong> es <strong>Estable</strong> o <strong>Beta</strong>. Déjalo en <strong>Estable</strong> salvo que el soporte te pida cambiarlo. Un Cora Max en <strong>Beta</strong> no recibe las versiones estables.</li></ul>
+<ul><li><strong>Ventana de instalación</strong> fija las horas en que se pueden instalar las actualizaciones, con una hora de <strong>Inicio</strong> y de <strong>Fin</strong>, en la hora local de esta pantalla. La zona horaria se fija en Cora Mobile, en <strong>Dispositivos →</strong> tu Cora Max <strong>→ Zona horaria</strong>.</li></ul>
 <p>Para ver si esta pantalla está leyendo tus dispositivos y guardando en Cora Cloud, vuelve a <strong>Ajustes de Cora Max</strong> y baja hasta <strong>ESTADO</strong>. Muestra el <strong>Estado de sondeo</strong>, el <strong>Último sondeo</strong>, la <strong>Última escritura en la nube</strong> y el <strong>Guardado en la nube</strong> de cada acuario.</p>
 <h2 id="cuando-hay-una-actualizacion-disponible">Cuando hay una actualización disponible</h2>
 <p>Un aviso te cuenta las novedades y te da dos opciones.</p>
@@ -210,7 +207,7 @@
 <h2 id="si-una-unidad-no-se-reinicia">Si una unidad no se reinicia</h2>
 <p>Escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con la versión que aparece en pantalla y el mensaje que muestra. No la vuelvas a emparejar antes. El estado del emparejamiento suele ayudar a saber qué pasó.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-settings"><span>Anterior</span><b>Ajustes de Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -601,7 +598,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

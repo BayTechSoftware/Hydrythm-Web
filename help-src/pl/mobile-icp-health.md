@@ -3,7 +3,7 @@ title: ICP i raporty zdrowia
 description: Prześlij PDF z testem ICP albo pozwól, żeby laboratorium go wysłało, przeczytaj ocenę, śledź każdy pierwiastek w czasie i uruchom Raport zdrowia całego systemu.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ W każdym wierszu pierwiastka zobaczysz zakres wydrukowany przez laboratorium, p
 Jeśli laboratorium drukuje dla pierwiastka *n.d.* albo *not detected*, Cora zapisuje go jako 0 i podaje, że go nie wykryto.
 
 :::note Rozpuszczony CO2 to nie CO2 w pomieszczeniu
-**Rozpuszczony CO₂** w raporcie ICP to CO2 w wodzie, w mg/L. To inny odczyt niż CO2 w powietrzu w pomieszczeniu, który mierzy monitor powietrza w pomieszczeniu Inkbird. Mają różne zakresy i nigdy nie są mieszane. **Beta.** Inkbird jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną.
+**Rozpuszczony CO₂** w raporcie ICP to CO2 w wodzie, w mg/L. To inny odczyt niż CO2 w powietrzu w pomieszczeniu. Mają różne zakresy i nigdy nie są mieszane.
 :::
 
 Karta **Od Twojego ostatniego ICP** pokazuje, co zmieniło się najbardziej od ostatniego razu. To zwykle najszybsza droga do nowego raportu.

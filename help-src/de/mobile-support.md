@@ -3,7 +3,7 @@ title: Ein Problem melden
 description: Einen Fehler melden oder Feedback aus Cora Mobile heraus schicken, sehen, was mitgeschickt wird, Absturzberichte einschalten oder dem Support schreiben.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 37
+order: 39
 group: Settings and account
 ---
 

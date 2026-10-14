@@ -16,15 +16,12 @@ twin: mobile-devices
 
 Cora Max ve los mismos equipos que tu teléfono, porque los dos leen la misma cuenta.
 
-Usa las etiquetas de filtro de arriba para mostrar **Todos los acuarios** o solo uno. Los dispositivos se agrupan por marca. Cada entrada tiene un punto de estado (gris cuando Cora todavía no lo sabe, verde cuando funciona, naranja para un aviso o un fallo, rojo cuando está desconectado), un resumen de una línea de lo que tiene el dispositivo (*21 tomas · 4 alimentaciones*, *quedan 19 pruebas*), el acuario al que pertenece y cuándo se vio por última vez (**Visto por última vez**). Los dispositivos Beta llevan una etiqueta **Beta**.
+Usa las etiquetas de filtro de arriba para mostrar **Todos los acuarios** o solo uno. Los dispositivos se agrupan por marca. Cada entrada tiene un punto de estado (gris cuando Cora todavía no lo sabe, verde cuando funciona, naranja para un aviso o un fallo, rojo cuando está desconectado), un resumen de una línea de lo que tiene el dispositivo (*21 tomas · 4 alimentaciones*, *quedan 19 pruebas*), el acuario al que pertenece y cuándo se vio por última vez (**Visto por última vez**).
 
 Toca un dispositivo para abrir su página. Todas las páginas de dispositivo se abren con una sección **Estado**. Lo que puede hacer cada página está en [Controlar equipos desde Cora Max](/help/max-device-control).
 
 Si la lista dice **Todavía cargando algunos dispositivos: esta lista puede estar incompleta.**, espera un momento.
 
-:::note Beta
-**Beta.** Las luces, bombas y dosificadoras EcoTech, los monitores de aire de habitación Inkbird y las cámaras están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Más información en [Funciones Beta](/help/mobile-beta).
-:::
 
 ### Cambiar el nombre de un dispositivo {#renaming-a-device}
 
@@ -42,6 +39,7 @@ Para verlo o cambiarlo, abre **Ajustes → [tu acuario] → Cora Max principal**
 
 - **Cualquiera activo (automático)** significa que todos los dispositivos Cora en línea que pueden llegar a los equipos de este acuario se reparten el trabajo, y vale la última escritura. Usa esta opción salvo que tengas un motivo para fijar un dispositivo.
 - Fijar un dispositivo, para que solo ese dispositivo lea los equipos. Si se desconecta, ningún otro Cora Max lo sustituye. Solo Cora Mobile, abierta en el mismo Wi-Fi, lee los equipos hasta que fijes otro o vuelvas a **Cualquiera activo (automático)**.
+
 
 Esto se fija una vez para el acuario, y se aplica a todas las pantallas Cora. Puedes cambiarlo desde cualquier Cora Max que muestre el acuario, o desde Cora Mobile (**Hacer Cora Max principal** en la página del Cora Max). Más información en [Más de un dispositivo Cora](/help/mobile-multi-device).
 

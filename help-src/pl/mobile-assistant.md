@@ -3,7 +3,7 @@ title: Pytania do Cory
 description: Korzystaj z Cora Assistant, pisząc albo mówiąc, i sprawdź, co widzi, co może dla Ciebie zrobić, jak działa przełącznik udostępniania danych i pamięć.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Zapisanie testu, wpisu w dzienniku albo karmienia dzieje się od razu, gdy o to 
 
 Sterowanie sprzętem działa poza domem tylko wtedy, gdy Cora Max przy akwarium może połączyć się ze sprzętem. Zobacz [Co działa poza domem](/help/mobile-multi-device#what-works-away-from-home).
 
-:::note Sprzęt Beta
-Cora może też sterować sprzętem GHL, HYDROS, Focustronic, Maxspect i EcoTech (Radion, VorTech i Versa). **Beta.** Te integracje są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną.
-:::
 
 :::warning Cora doradza. Ty decydujesz
 Wszystko ważne sprawdzaj własnymi testami. Do dużych zmian podchodź tak jak do rady od kogokolwiek innego i zweryfikuj je, zanim zaczniesz działać. To samo mówi linijka pod polem wiadomości.

@@ -13,14 +13,10 @@ Znajdź grupę, do której należy Twój problem, a potem komunikat albo objaw, 
 - [Polecenie nie przeszło](#command-did-not-go-through)
 - [Cora Max](#cora-max)
 - [Alerty, powiadomienia i codzienne podsumowanie](#alerts-and-notifications)
-- [Kamery i Czuwanie skimmera](#cameras-and-skimmer-watch)
 - [Cora Assistant i głos](#cora-assistant-and-voice)
 - [Wyniki z laboratorium i raporty zdrowia](#lab-results-and-health-reports)
 - [Język, jednostki i logowanie](#language-units-and-signing-in)
 
-:::note Integracje Beta
-Niektóre wpisy poniżej dotyczą integracji Beta: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird i kamer. **Beta.** Te integracje są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną. Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
 ## Odczyty i widżety {#readings-and-widgets}
 
@@ -91,7 +87,6 @@ Cora wysyła to, gdy urządzenie ucichnie. Nie oznacza to, że urządzenie jest 
 2. Sprawdź, czy Cora Max, który je odczytuje, jest włączony i online. Bez Cora Max telefon odczytuje urządzenie Neptune Apex, Red Sea albo Jecod tylko wtedy, gdy Cora Mobile jest otwarta w tej samej sieci Wi-Fi.
 3. Poczekaj na następny odczyt. Gdy urządzenie znów zacznie raportować, dostaniesz drugie powiadomienie.
 
-GHL i HYDROS mają własne komunikaty, opisane niżej na tej stronie.
 
 ### „Urządzenie jest offline. Wyświetlany jest ostatni znany stan.” {#device-is-offline-showing-last-known-state}
 
@@ -129,23 +124,6 @@ To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy,
 1. Dołącz do sieci Wi-Fi akwarium, żeby zmienić te ustawienia.
 2. Odczyty i historia działają, gdy jesteś poza domem.
 
-### „API GHL jest wyłączone” {#ghl-api-is-off}
-
-GHL (Beta) wyłącza swoje oficjalne API po każdej aktualizacji oprogramowania, więc po aktualizacji to normalne. Włącz je ponownie w **System → GHL API** w GHL Control Center albo GHL Connect, na samym kontrolerze. Cora dalej sprawdza i połączy się ponownie, gdy API zostanie włączone.
-
-### „Kontroler GHL jest nieosiągalny” {#ghl-controller-unreachable}
-
-Cora Max nie może połączyć się z adresem kontrolera GHL (Beta) w Twojej sieci.
-
-1. Sprawdź, czy kontroler jest włączony i podłączony do Twojej sieci.
-2. Sprawdź, czy jego adres IP się nie zmienił. Jeśli tak, otwórz go w telefonie (**Urządzenia**) i zaktualizuj w **Połączenie**.
-3. Sprawdź, czy Cora Max, który odczytuje to akwarium, jest w tej samej sieci co kontroler.
-
-### Kontroler HYDROS pokazuje się jako offline albo nie raportuje {#a-hydros-controller-shows-as-offline-or-not-reporting}
-
-HYDROS (Beta) raportuje przez własną chmurę, więc zwykle oznacza to, że kontroler stracił zasilanie albo własne połączenie. Sprawdź go w aplikacji HYDROS. Odczyty nadrobią zaległości, gdy wróci online. Polecenie wysłane, gdy wygląda na offline, w ogóle nie zostaje wysłane.
-
-Jeśli urządzenie HYDROS pokazuje **Klucz odwołany**, jego klucz urządzenia został usunięty albo zastąpiony w aplikacji HYDROS. Utwórz nowy klucz i połącz go ponownie w telefonie z **Urządzenia → Dodaj urządzenie → HYDROS**.
 
 ## Polecenie nie przeszło {#command-did-not-go-through}
 
@@ -163,9 +141,6 @@ Polecenie do pompy Jecod albo Jebao nigdy nie wyszło z Cory. W telefonie komuni
 
 Telefon jest poza zasięgiem pompy Jecod, która łączy się tylko przez Bluetooth. Podejdź bliżej pompy i dotknij **Spróbuj ponownie**.
 
-### „Nie udało się połączyć z tym Gyre. Jego program nie został zmieniony.” {#could-not-reach-that-gyre-its-program-was-not-changed}
-
-Cora nie mogła przesłać nowego harmonogramu do Maxspect Gyre (Beta). Sprawdź, czy Gyre jest włączony i czy telefon albo Cora Max jest w jego sieci, a potem dotknij **Spróbuj ponownie** na ekranie harmonogramu.
 
 ### „Nie udało się połączyć z Apex: nic się nie zmieniło” / „nic nie zdozowano” {#could-not-reach-the-apex-nothing-changed-nothing-was-dosed}
 
@@ -334,21 +309,6 @@ Usunięcie akwarium tylko je ukrywa. Jego urządzenia zostają z nim połączone
 
 Potem usuń akwarium ponownie. Więcej w [Zarządzaniu akwariami](/help/mobile-tanks).
 
-## Kamery i Czuwanie skimmera {#cameras-and-skimmer-watch}
-
-Kamery i Czuwanie skimmera są w wersji Beta. Ich konfigurację opisują [Kamery i Czuwanie skimmera](/help/mobile-cameras).
-
-### Czuwanie skimmera pokazuje komunikat zamiast poziomu w kubku {#skimmer-watch-messages}
-
-- **Najpierw zaznacz kubek**: Czuwanie skimmera jeszcze nie wie, gdzie jest kubek. Dotknij **Zaznacz kubek** i przeciągnij na niego ramkę.
-- **Brak kalibracji: opróżnij kubek i dotknij Kubek jest teraz pusty**: zrób dokładnie to, z pustym kubkiem.
-- **Ramka przesunięta: skalibruj ponownie**: przesunięto ramkę, więc skalibruj ponownie z pustym kubkiem.
-- **Niepewne (niska pewność)**: obraz nie był wystarczająco wyraźny. Przeczytaj **Wskazówki dla kamery** na ekranie Czuwania skimmera, a potem poczekaj na następne sprawdzenie albo dotknij **Sprawdź teraz**.
-- **Zbyt jasne światło za kubkiem**: wyłącz światło za kubkiem albo ustaw widzenie nocne kamery na zawsze włączone.
-- **Cora Max nie mógł pobrać obrazu z kamery.**: sprawdź, czy kamera jest zasilana i online i czy Cora Max, który ją odczytuje, jest włączony.
-- **Ostatnie sprawdzenie nie powiodło się.**: dotknij **Sprawdź teraz**. Jeśli błąd się powtarza, sprawdź kamerę i Cora Max.
-- **Brak odczytu. Cora Max sprawdza co 15 minut.**: poczekaj na pierwsze sprawdzenie.
-- **Czuwanie skimmera wymaga płatnego planu.**: Czuwanie skimmera jest częścią płatnych planów.
 
 ## Cora Assistant i głos {#cora-assistant-and-voice}
 

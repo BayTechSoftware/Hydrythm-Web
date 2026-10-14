@@ -3,12 +3,13 @@ title: Activité et chronologie
 description: Voyez chaque changement envoyé à votre équipement, qui ou quoi l’a demandé et s’il a marché, et lisez la chronologie de l’aquarium autour d’une date.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Activité liste chaque tentative de changer quelque chose sur votre équipement : prises allumées ou éteintes, cycles de nourrissage, dosages, et tout ce qu’une scène ou une automatisation a fait. Chaque ligne indique ce qui l’a demandé et ce qui s’est passé ensuite, y compris pour les demandes qui n’ont pas marché.
+
 
 Allez dans **Réglages → Activité**. Si vous avez plusieurs aquariums, choisissez-le avec les puces d’aquarium en haut.
 

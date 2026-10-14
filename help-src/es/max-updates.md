@@ -26,7 +26,6 @@ Tu versión está en la tarjeta de arriba de **Ajustes → Ajustes de Cora Max**
 En **Ajustes de actualización**, en la misma pantalla:
 
 - **Ventana de instalación** fija las horas en que se pueden instalar las actualizaciones, con una hora de **Inicio** y de **Fin**, en la hora local de esta pantalla. La zona horaria se fija en Cora Mobile, en **Dispositivos →** tu Cora Max **→ Zona horaria**.
-- **Canal de actualización** es **Estable** o **Beta**. Déjalo en **Estable** salvo que el soporte te pida cambiarlo. Un Cora Max en **Beta** no recibe las versiones estables.
 
 Para ver si esta pantalla está leyendo tus dispositivos y guardando en Cora Cloud, vuelve a **Ajustes de Cora Max** y baja hasta **ESTADO**. Muestra el **Estado de sondeo**, el **Último sondeo**, la **Última escritura en la nube** y el **Guardado en la nube** de cada acuario.
 

@@ -95,9 +95,6 @@
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
 <li><a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a></li>
-<li><a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a></li>
-<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
-<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
 </ul></details>
 <details class="nav-g" open>
 <summary>Alerty i automatyzacja</summary><ul>
@@ -208,16 +205,13 @@
 <ul><li>Dzwonek w prawym górnym rogu głównych zakładek przechowuje historię. Liczba pokazuje, ilu jeszcze nie przeczytano. Więcej w <a href="/pl/help/mobile-notifications">Powiadomieniach</a>.</li><li>Powiadomienie push trafia na telefon, jeśli ta kategoria jest włączona.</li><li>Widżet na pulpicie robi się bursztynowy albo czerwony.</li><li>Cora Max pokazuje te same alerty na swoim ekranie.</li></ul>
 <h2 id="equipment-faults">Gdy sprzęt wymaga uwagi</h2>
 <p>Niektóre alerty dotyczą sprzętu, a nie odczytu. Gdy urządzenie, na przykład Trident albo pompa Jecod™, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, na przykład <em>„Akwarium główne: Pompa powrotna wymaga uwagi”</em>. Podaje też, co jest nie tak, na przykład zablokowany wirnik. Gdy usterka minie, dostaniesz drugie: <em>„Akwarium główne: Pompa powrotna znów działa poprawnie”</em>. Oba należą do <strong>Awarie sprzętu</strong> w <strong>Ustawienia → Powiadomienia</strong>.</p>
-<p>Maxspect™ Gyre (Beta) może wywołać ten sam alert. Dzieje się tak, gdy Cora Max w jego sieci znajdzie obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od Gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza tylko od czasu do czasu i tylko wtedy, gdy działa i może połączyć się z Gyre.</p>
 <h2 id="stopped-reporting">Urządzenie przestało raportować</h2>
 <p>Gdy podłączone urządzenie ucichnie, Cora wysyła <em>„[Urządzenie]: przestał raportować”</em>. Nie oznacza to, że urządzenie jest zepsute, tylko że Cora od jakiegoś czasu nic od niego nie dostała. Gdy wróci, dostaniesz drugie powiadomienie, <em>„[Urządzenie]: znów raportuje”</em>.</p>
 <p>Jak długo Cora czeka, zależy od urządzenia:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Urządzenie</th><th>Cora czeka</th></tr></thead><tbody><tr><td data-th="Urządzenie">Neptune™ Apex</td><td data-th="Cora czeka">Około 30 minut bez aktualizacji</td></tr><tr><td data-th="Urządzenie">Red Sea™ ReefBeat</td><td data-th="Cora czeka">Około 30 minut</td></tr><tr><td data-th="Urządzenie">AquaWiz™</td><td data-th="Cora czeka">Około 3 godzin, bo raportuje rzadziej</td></tr><tr><td data-th="Urządzenie">Pompy Jecod</td><td data-th="Cora czeka">Trzy brakujące odczyty z rzędu, według interwału odczytu pompy (90 minut przy domyślnych 30)</td></tr><tr><td data-th="Urządzenie">Maxspect (Beta)</td><td data-th="Cora czeka">Trzy brakujące odczyty z rzędu, tak jak Jecod</td></tr><tr><td data-th="Urządzenie">EcoTech™ (Beta)</td><td data-th="Cora czeka">Trzy brakujące odczyty z rzędu, według interwału odczytu sieci (90 minut przy domyślnych 30). Jeśli ustawisz dłuższy czas w <strong>Światło przestaje odpowiadać</strong>, Cora czeka tak długo</td></tr><tr><td data-th="Urządzenie">Monitor powietrza w pomieszczeniu Inkbird™ (Beta)</td><td data-th="Cora czeka">Trzy brakujące odczyty z rzędu, według własnego interwału monitora (15 minut przy domyślnych 5)</td></tr><tr><td data-th="Urządzenie">Focustronic™ (Beta)</td><td data-th="Cora czeka">Około 3 godzin</td></tr><tr><td data-th="Urządzenie">GHL™ (Beta)</td><td data-th="Cora czeka">Około 15 minut. Powiadomienie mówi <em>„kontroler GHL nieosiągalny”</em></td></tr><tr><td data-th="Urządzenie">HYDROS™ (Beta)</td><td data-th="Cora czeka">Około 30 minut. Powiadomienie mówi <em>„kontroler HYDROS nie odpowiada”</em></td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Urządzenie</th><th>Cora czeka</th></tr></thead><tbody><tr><td data-th="Urządzenie">Neptune™ Apex</td><td data-th="Cora czeka">Około 30 minut bez aktualizacji</td></tr><tr><td data-th="Urządzenie">Red Sea™ ReefBeat</td><td data-th="Cora czeka">Około 30 minut</td></tr><tr><td data-th="Urządzenie">AquaWiz™</td><td data-th="Cora czeka">Około 3 godzin, bo raportuje rzadziej</td></tr><tr><td data-th="Urządzenie">Pompy Jecod</td><td data-th="Cora czeka">Trzy brakujące odczyty z rzędu, według interwału odczytu pompy (90 minut przy domyślnych 30)</td></tr><tr><td data-th="Urządzenie">Wtyczka Zigbee</td><td data-th="Cora czeka">Nie wróciła 30 minut po restarcie huba. Nadaj jej nazwę przez <strong>Zmień nazwę</strong>, aby alert ją wskazywał</td></tr></tbody></table></div>
 <p>Co sprawdzić, zależy od tego, jak Cora odczytuje urządzenie.</p>
-<ul><li>Apex, ReefBeat, Jecod, Maxspect i GHL odczytuje Cora Max przez Wi-Fi. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony i online.</li><li>EcoTech i Inkbird odczytuje Cora Max przez Bluetooth. Sprawdź zasilanie, to, czy urządzenie jest w zasięgu Bluetooth Cora Max, i czy Cora Max jest włączony.</li><li>AquaWiz i Focustronic są odczytywane przez Twoje konto u producenta. Sprawdź połączenie z kontem na stronie urządzenia w Cora Mobile.</li><li>Przy HYDROS sprawdź zasilanie, Wi-Fi i klucz urządzenia.</li></ul>
-<p>GHL może też powiedzieć <em>„API GHL jest wyłączone”</em> albo że kontroler <em>„odrzucił połączenie”</em>. Jeśli Cora Max, który odczytuje kontroler GHL, ucichnie, dostaniesz <em>„Cora Max nie raportuje dla”</em> tego kontrolera. Rozwiązania są w <a href="/pl/help/troubleshooting">Rozwiązywaniu problemów</a>.</p>
+<ul><li>Apex, ReefBeat i Jecod odczytuje Cora Max przez Wi-Fi. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony i online.</li><li>AquaWiz jest odczytywany przez Twoje konto u producenta. Sprawdź połączenie z kontem na stronie urządzenia w Cora Mobile.</li></ul>
 <p>Te powiadomienia należą do <strong>Awarie sprzętu</strong> w <strong>Ustawienia → Powiadomienia</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta</p><p>Maxspect, EcoTech, Inkbird, Focustronic, GHL i HYDROS są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w <strong>Dodaj urządzenie</strong>. Aby poprosić o dostęp do Beta, skontaktuj się z <a href="/support.html">pomocą techniczną</a>. Więcej w <a href="/pl/help/mobile-beta">Funkcjach Beta</a>.</p></aside>
 <p>Akwarium Red Sea może też pokazać baner <em>„Odczyty Red Sea przestały się aktualizować”</em>, gdy żaden telefon ani Cora Max nie odczytuje jego sprzętu ReefBeat. Dotknij go, żeby wybrać <strong>Główne Cora Max</strong>. Pełne rozwiązanie jest w <a href="/pl/help/troubleshooting#red-sea-readings-have-stopped-updating">Rozwiązywaniu problemów</a>.</p>
 <h2 id="choosing-what-reaches-you">Co do Ciebie dociera</h2>
 <p>W <strong>Ustawienia → Powiadomienia</strong> wybierasz, które kategorie mogą wysyłać Ci powiadomienia. Zobacz <a href="/pl/help/mobile-notifications">Powiadomienia</a>, gdzie opisano też <a href="/pl/help/mobile-notifications#quiet-at-night">ciszę w nocy</a>.</p>
@@ -237,8 +231,8 @@
 <p>Wyłącz przełącznik w wierszu reguły w zakładce <strong>Reguły</strong>. Cora zachowuje regułę i jej zakres, więc możesz ją włączyć ponownie bez ustawiania od nowa.</p>
 <p>Dopóki reguła jest wyłączona, Cora nie ocenia tego odczytu. Jego widżet zostaje neutralnie szary i nigdy nie wywoła alertu.</p>
 <aside class="cal cal-warning"><p class="cal-t">Wyłącz parametr bez usuwania zakresu</p><p>Usunięcie reguły nie zawsze sprawia, że Cora przestaje oceniać ten odczyt. Domyślne zakresy odniesienia nadal kolorują wartość i mogą trafiać do podsumowania. Użyj przełącznika reguły.</p></aside>
-      <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-beta"><span>Poprzedni</span><b>Funkcje Beta</b></a><a class="pn-n" href="/pl/help/mobile-notifications"><span>Następny</span><b>Powiadomienia</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
+      <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-consumables"><span>Poprzedni</span><b>Materiały eksploatacyjne i alerty uzupełnienia</b></a><a class="pn-n" href="/pl/help/mobile-notifications"><span>Następny</span><b>Powiadomienia</b></a></nav>
+      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -629,7 +623,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=27523801fa').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

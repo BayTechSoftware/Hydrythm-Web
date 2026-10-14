@@ -27,9 +27,8 @@ Touchez une scène pour la modifier, ou touchez **Nouvelle scène** pour en cré
    - **Prise Apex** : mettre une prise Neptune Apex sur **ON**, **OFF** ou **AUTO**.
    - **Contrôler un équipement Red Sea** : par exemple **ReefDose : doser maintenant**, **ReefDose : définir la dose quotidienne**, **ReefRun : définir la vitesse de la pompe**, **ATO : démarrer un remplissage manuel** ou **ReefMat : avancer le rouleau**.
    - **Contrôler une pompe de brassage** : régler le débit ou le mode de vague d’une pompe Jecod, l’allumer ou l’éteindre, ou **Mettre en pause pour le nourrissage**.
-   - **Démarrer une alimentation Gyre** : mettre en pause une Gyre Maxspect pour le nourrissage. Elle redémarre toute seule.
-   - **GHL** : une pause nourrissage, l’entretien, un changement d’eau, une scène d’éclairage et d’autres commandes du contrôleur.
-   - **HYDROS** : un mode, un niveau de sortie, une dose, ou **HYDROS : retour au programme**.
+   - **Lancer un test Trident** : alcalinité, combiné ou nutriments. Chaque test consomme du réactif.
+   - **Lancer un cycle de nourrissage Apex** : choisissez le cycle. L’Apex gère le minuteur de nourrissage et reprend seul.
 3. Ajoutez d’autres étapes de la même façon. Vous pouvez les réordonner ou les retirer. Une étape que cet écran ne peut pas modifier indique **Non modifiable ici**. Modifiez-la sur votre téléphone.
 4. Choisissez combien de temps elle dure. **Minutée** tourne pendant les minutes réglées dans **Durée (minutes)**. **Permanente** tourne jusqu’à ce que vous l’arrêtiez.
 5. Laissez **Demander avant d’exécuter** activé, sauf si vous êtes sûr que la scène ne touche jamais à quelque chose qui mérite une vérification.
@@ -39,9 +38,6 @@ Touchez une scène pour la modifier, ou touchez **Nouvelle scène** pour en cré
 Une tête Neptune DŌS ne peut jamais être une étape de scène. Une étape **ReefDose : doser maintenant** le peut, et elle a son propre **Max par dose (ml)**. Laissez-le vide pour 10 mL. Une dose au-dessus de ce plafond est refusée, jamais réduite. Gardez **Demander avant d’exécuter** activé pour toute scène qui dose.
 :::
 
-:::note Beta
-**Beta.** Maxspect, GHL et HYDROS sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html).
-:::
 
 ## Lancer une scène
 

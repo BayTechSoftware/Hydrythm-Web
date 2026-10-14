@@ -27,9 +27,8 @@ Tippe auf eine Szene, um sie zu bearbeiten, oder auf **Neue Szene**, um eine anz
    - **Apex-Steckdose**: eine Neptune Apex-Steckdose auf **EIN**, **AUS** oder **AUTO** schalten.
    - **Ein Red-Sea-Gerät steuern**: zum Beispiel **ReefDose: jetzt dosieren**, **ReefDose: Tagesdosis einstellen**, **ReefRun: Pumpengeschwindigkeit einstellen**, **ATO: manuelle Befüllung starten** oder **ReefMat: Rolle weiterdrehen**.
    - **Eine Strömungspumpe steuern**: Strömung oder Wellenmodus einer Jecod-Pumpe einstellen, sie ein- oder ausschalten oder **Für Fütterung pausieren**.
-   - **Eine Gyre-Fütterung starten**: eine Maxspect-Gyre für die Fütterung pausieren. Sie startet danach von selbst wieder.
-   - **GHL**: eine Fütterungspause, Wartung, Wasserwechsel, Lichtszene und andere Controller-Befehle.
-   - **HYDROS**: ein Modus, eine Ausgangsstufe, eine Dosierung oder **HYDROS: zurück zum Zeitplan**.
+   - **Einen Trident-Test starten**: Alkalinität, kombiniert oder Nährstoffe. Jeder Lauf verbraucht Reagenz.
+   - **Einen Apex-Fütterungszyklus starten**: wähle den Zyklus. Das Apex führt den Fütterungstimer selbst und läuft danach allein weiter.
 3. Füg auf dieselbe Weise weitere Schritte hinzu. Du kannst sie umsortieren oder entfernen. Ein Schritt, den dieser Bildschirm nicht bearbeiten kann, zeigt **Hier nicht bearbeitbar**. Bearbeite ihn auf dem Handy.
 4. Wähl, wie lange sie läuft. **Zeitgesteuert** läuft so viele Minuten, wie du unter **Laufzeit (Minuten)** festlegst. **Dauerhaft** läuft, bis du sie stoppst.
 5. Lass **Vor der Ausführung fragen** eingeschaltet, außer du bist sicher, dass die Szene nie etwas berührt, das einen zweiten Blick braucht.
@@ -39,9 +38,6 @@ Tippe auf eine Szene, um sie zu bearbeiten, oder auf **Neue Szene**, um eine anz
 Ein Neptune DŌS-Kopf kann nie ein Szenenschritt sein. Ein Schritt **ReefDose: jetzt dosieren** schon, und er hat sein eigenes **Max. pro Dosis (ml)**. Lass es leer für 10 ml. Eine Dosierung über dieser Obergrenze wird abgelehnt, nie verkleinert. Lass **Vor der Ausführung fragen** bei jeder Szene eingeschaltet, die dosiert.
 :::
 
-:::note Beta
-**Beta.** Maxspect, GHL und HYDROS sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
-:::
 
 ## Eine Szene starten
 

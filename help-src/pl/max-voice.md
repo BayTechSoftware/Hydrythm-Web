@@ -62,20 +62,15 @@ Przy pytaniach uzupełniających nie musisz się powtarzać. Po pytaniu o akwari
 - Napisać w dzienniku: *„Zapisz podmianę dwudziestu litrów wody.”* *„Zapisz dodatkowe karmienie mysis.”* *„Zapisz pominięcie porannego karmienia.”*
 - Sterować sprzętem Red Sea: podać dawkę z głowicy ReefDose, zmienić jej dawkę dzienną, uruchomić napełnianie ReefATO+, przesunąć ReefMat albo ustawić prędkość pompy ReefRun.
 - Sterować pompami Jecod.
-- Sprzęt Beta: uruchomić test albo dawkę Focustronic, wykonać polecenia GHL i sterować pompami EcoTech VorTech.
 
 ## Czego Cora nie może zrobić głosem na Cora Max
 
 - Uruchomić ani zatrzymać sceny. Użyj kafelka sceny albo **Ustawienia → Automatyzacje**.
-- Dozować z głowicy Neptune DŌS ani dozować z EcoTech Versa. Użyj strony urządzenia na Cora Max.
-- Sterować Maxspect Gyre, kontrolerem HYDROS ani EcoTech Radion. Użyj strony urządzenia.
+- Dozować z głowicy Neptune DŌS. Użyj strony urządzenia na Cora Max.
 - Zmienić własnych ustawień Cora Max, dodać urządzeń ani edytować pulpitu.
 
 Cora Assistant w telefonie potrafi niektóre z tych rzeczy. Więcej w [Pytaniach do Cory](/help/mobile-assistant#what-cora-can-change).
 
-:::note Beta
-**Beta.** Focustronic, GHL, HYDROS, Maxspect i EcoTech są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html).
-:::
 
 ## Potwierdzenia
 

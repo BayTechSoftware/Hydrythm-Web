@@ -1,6 +1,6 @@
 ---
 title: Słownik
-description: Co Cora rozumie przez akwarium, źródło, widżet, próg, Główne Cora Max, tryb karmienia, scenę, Czuwanie skimmera i inne słowa, które zobaczysz w aplikacjach.
+description: Co Cora rozumie przez akwarium, źródło, widżet, próg, Główne Cora Max, tryb karmienia, scenę i inne słowa, które zobaczysz w aplikacjach.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -24,9 +24,6 @@ AquaWiz KH Controller, tester alkaliczności. Cora odczytuje go przez własną c
 
 Reguła, która działa sama, na przykład „jeśli temperatura przekroczy 27, włącz wentylator”. Każda reguła ma [wyzwalacz](#trigger), opcjonalne [warunki](#condition) i jedną albo więcej akcji. Znajdziesz je w Cora Mobile w **Ustawienia → Automatyzacje**. Zobacz [Automatyzacje i sceny](/help/mobile-automation).
 
-## Beta
-
-Integracja, którą wciąż testujemy i rozwijamy. **Beta.** Integracje Beta (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird i kamery) są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną. Funkcje, które mają tylko „(Beta)” w nazwie, na przykład Duże dawki albo Ustawienia ReefMat, są dostępne dla wszystkich. Zobacz [Funkcje Beta](/help/mobile-beta).
 
 ## Blokada rodzicielska
 
@@ -52,9 +49,6 @@ Aplikacja na telefon. Ikona na ekranie głównym ma podpis **Cora**. Zobacz [Kon
 
 Najkrótszy czas, jaki Cora czeka przed ponownym wysłaniem tego samego alertu, od 15 minut do tygodnia. Dzięki niemu jeden trwający problem nie powiadamia Cię co kilka minut. Ustawiasz go dla każdej reguły alertu jako **Czas wstrzymania między alertami**. Zobacz [Alerty i progi](/help/mobile-alerts).
 
-## Czuwanie skimmera
-
-Funkcja kamery, która obserwuje kubek odpieniacza i ostrzega Cię, zanim się przepełni. Cora Max sprawdza kubek co 15 minut. Wymaga kamery, która jest w wersji **Beta** i jest dostępna tylko dla użytkowników Beta, oraz płatnego planu. Zobacz [Kamery i Czuwanie skimmera](/help/mobile-cameras).
 
 ## Dawka
 
@@ -68,9 +62,6 @@ Twój zapis tego, co robisz przy akwarium. Cora też go czyta, więc możesz zap
 
 Etykieta na górnym pasku Cora Max, która mówi, jak ten ekran dostaje dane, na przykład **Online**, **Chmura**, **Nieaktualne** albo **Offline**. Zobacz [Ekran główny Cora Max](/help/max-tour).
 
-## GHL
-
-GHL Advanced Technology, producent kontrolerów ProfiLux i Mitras. Obsługa GHL w Corze jest w wersji **Beta** i jest dostępna tylko dla użytkowników Beta. Zobacz [Sprzęt według marki](/help/equipment-by-brand).
 
 ## Głowica DŌS
 
@@ -80,13 +71,11 @@ Jedna pompa dozownika Neptune DŌS. Każdej głowicy możesz nadać przeznaczeni
 
 Cora Max, który odczytuje za Ciebie sprzęt akwarium w Twojej sieci. Ustaw je na jeden Cora Max albo na **Każde aktywne (automatycznie)**, gdy pracą dzieli się każdy Cora Max online dla tego akwarium. Dotyczy odczytu sprzętu, a nie głosu (od tego jest [urządzenie odpowiadające](#answering-device)). Zmienisz je w Cora Mobile: **Ustawienia**, otwórz akwarium, a potem **Główne Cora Max**. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device).
 
+
 ## Gniazdo
 
 Przełączane gniazdo w kontrolerze. W Corze ma trzy stany: **AUTO**, **WYŁ.** i **WŁ.** Zobacz [Gniazda i sterowanie](/help/max-controls).
 
-## HYDROS
-
-System kontrolera i dozowania od CoralVue. Cora odczytuje go przez własną chmurę HYDROS, więc działa też poza domem. Obsługa HYDROS w Corze jest w wersji **Beta** i jest dostępna tylko dla użytkowników Beta. Zobacz [Sprzęt według marki](/help/equipment-by-brand).
 
 ## ICP
 
@@ -138,7 +127,7 @@ Głębsze, okresowe spojrzenie na cały system. Bierze pod uwagę razem każdy p
 
 ## Red Sea ReefBeat
 
-Rodzina podłączanego sprzętu Red Sea: ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED i ReefControl. Cora odczytuje go w Twojej sieci domowej. Zobacz [Sprzęt według marki](/help/equipment-by-brand).
+Rodzina podłączanego sprzętu Red Sea: ReefDose, ReefRun, ReefMat i ReefATO+. Cora odczytuje go w Twojej sieci domowej. Zobacz [Sprzęt według marki](/help/equipment-by-brand).
 
 ## Reef Buddy
 
@@ -198,15 +187,12 @@ Dodatkowe sprawdzenie w [automatyzacji](#automation), na przykład czy odczyt je
 
 ## Widżet
 
-Jeden kafelek na pulpicie, który pokazuje jedną rzecz, na przykład wartość, wskaźnik, wykres, gniazdo albo kamerę. Zobacz [Rodzaje widżetów](/help/mobile-widgets).
+Jeden kafelek na pulpicie, który pokazuje jedną rzecz, na przykład wartość, wskaźnik, wykres albo gniazdo. Zobacz [Rodzaje widżetów](/help/mobile-widgets).
 
 ## Wiek
 
 Jak dawno wykonano odczyt, pokazane na każdym widżecie parametru jako `teraz`, `1g`, `2d`. To nie jest czas ostatniego odświeżenia ekranu. Duży wiek oznacza, że sam odczyt jest stary.
 
-## Wymaga Cora Max
-
-Oznaczenie przy marce w **Dodaj urządzenie**. Ten sprzęt odczytuje Cora Max, więc akwarium najpierw musi go mieć. Zobacz [Sprzęt według marki](/help/equipment-by-brand).
 
 ## Wynik polecenia
 

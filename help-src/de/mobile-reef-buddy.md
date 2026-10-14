@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Dein tägliches Reef Buddy-Briefing, was es abdeckt, wann es kommt, wie du die Bewertungen liest und warum ein Briefing vielleicht nicht kommt.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Danach kommt eine Zusammenfassung, ein kurzer Absatz, der die Schlagzeile mit de
 
 Dann kommen die Insights, eins für jeden Befund. Jedes hat eine Kategorie (etwa *Wasserchemie*) und einen Rhythmus (etwa *Täglich*), und du kannst es für Details aufklappen. Ein Chip oben im Abschnitt zeigt den Beckentyp und wie vollständig sein Profil ist. Beides beeinflusst, was Cora schließen kann.
 
+
 Cora filtert Insights, bevor sie dich erreichen. Ein Insight muss sich über mehrere Messwerte halten. Einer reicht nicht. Es muss dir außerdem etwas sagen, das ein einzelnes Diagramm nicht schon zeigen würde.
 
 Tippe auf die Karte auf dem Dashboard, um das ganze Briefing zu öffnen.
@@ -51,11 +52,8 @@ Messwerte von Sonden und Controllern lösen dieses Angebot nicht aus, weil sie d
 
 Tippe unter einem Insight auf **Warum sehe ich das?** Das Fenster **Darum siehst du das** listet die **Verwendete Messwerte** auf, den **Verglichener Zielwert** (dein eigener Zielwert oder ein Referenzbereich), alles **Aus deinem Journal**, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter [Ein Insight korrigieren](#ein-insight-korrigieren) beschrieben.
 
-Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts, die Summen deiner DŌS-Köpfe und, wenn du einen Inkbird-Raumluftmonitor hast, Temperatur und Luftfeuchtigkeit im Raum.
+Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts und die Summen deiner DŌS-Köpfe.
 
-:::note Inkbird ist in der Beta
-**Beta.** Inkbird ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
 ## Wann es kommt
 

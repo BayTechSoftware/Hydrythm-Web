@@ -86,7 +86,6 @@ Manche Karten erscheinen nur, wenn es etwas zu sagen gibt. Die meisten sitzen zw
 | **Reef Buddy** | Ein Briefing ist fertig | Die Karte |
 | **Wie fütterst du normalerweise?** | Du hast keinen Fütterungsplan festgelegt | **Routine einrichten** |
 | *Die Red Sea-Messwerte werden nicht mehr aktualisiert.* | Nichts fragt die Red Sea-Geräte dieses Beckens ab | Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts) |
-| **Kameras** (Beta) | Das Becken hat eine Kamera, unter den Widgets. Kameras sind nur für Beta-Nutzer offen | **Live ansehen** |
 | **Trage deinen ersten Wassertest ein** | Keine Messwerte und keine verknüpfte Ausrüstung, unter den Widgets | Die Karte. Siehe [Cora Mobile einrichten](/help/mobile-setup#the-first-test-card) |
 
 ## Unter den Widgets {#below-the-widgets}

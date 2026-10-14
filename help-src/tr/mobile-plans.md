@@ -3,7 +3,7 @@ title: Planlar ve abonelikler
 description: Free, deneme, Plus, Pro ve Max planlarında neler var, nasıl abone olunur ya da yükseltilir, kullanımınızı nerede görürsünüz ve iPhone'da ya da Android'de nasıl iptal edersiniz.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 35
+order: 37
 group: Settings and account
 ---
 
@@ -62,7 +62,6 @@ Bittiğinde hesabınız Free'ye döner. **Hiçbir şey silinmez.** Elinizdeki he
 
 Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan da düşer. Her ücretli plan Reef Buddy'yi, Cora'nın okuduğu laboratuvarlar için ICP yükleme ve analizini, kendi geçmişinizle karşılaştırmayı ve panolar için **Yapay zeka ile tasarla**'yı (her akvaryum için günde en fazla 5 tasarım) içerir.
 
-Ücretli planlar ayrıca sump'ınızdaki bir kamera için Skimmer Gözcüsü uyarılarını içerir. Deneme içermez. **Beta.** Kameralar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar [Kameralar](/help/mobile-cameras) sayfasında.
 
 :::note Max planı Cora Max ekranı değildir
 **Max planı** bir aboneliktir. **Cora Max**, akvaryumunuzun yanında duran ekrandır. Birine sahip olmak için diğerine ihtiyacınız yoktur.

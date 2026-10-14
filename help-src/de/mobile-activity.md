@@ -3,12 +3,13 @@ title: Aktivität und Zeitleiste
 description: Jede Änderung sehen, die an deine Ausrüstung geschickt wurde, wer oder was sie ausgelöst hat und ob sie geklappt hat, und die Zeitleiste des Beckens rund um ein Datum lesen.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Die Aktivität listet jeden Versuch auf, etwas an deiner Ausrüstung zu ändern: Steckdosen schalten, Fütterungszyklen, Dosierungen und alles, was eine Szene oder Automation getan hat. Jede Zeile zeigt, was es ausgelöst hat und was danach passiert ist, auch bei den Anfragen, die nicht geklappt haben.
+
 
 Geh zu **Einstellungen → Aktivität**. Hast du mehr als ein Becken, wähl es mit den Becken-Chips oben.
 

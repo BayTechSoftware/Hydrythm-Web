@@ -3,7 +3,7 @@ title: Cora Mobile-Einstellungen
 description: Wo alles im Tab Einstellungen von Cora Mobile steht, von deinem Konto und Abo über Becken, Cora Assistant, Sprache, Dunkelmodus und Benachrichtigungen bis zum Support.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 33
+order: 35
 group: Settings and account
 twin: max-settings
 ---

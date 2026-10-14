@@ -95,9 +95,6 @@
 <li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
 <li><a href="/it/help/mobile-probes">Mappatura parametri e sonde</a></li>
 <li><a href="/it/help/mobile-consumables">Materiali di consumo e avvisi di rifornimento</a></li>
-<li><a href="/it/help/mobile-cameras">Telecamere e Controllo schiumatoio</a></li>
-<li><a href="/it/help/mobile-ecotech">Luci, pompe e dosatori EcoTech</a></li>
-<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Avvisi e automazione</summary><ul>
@@ -184,7 +181,7 @@
 <p>La tua versione è nella scheda in cima a <strong>Impostazioni → Impostazioni Cora Max</strong> (<em>Cora Max · firmware 0.28.170</em>), e in <strong>AIUTO E INFORMAZIONI → Informazioni</strong>.</p>
 <p><strong>Impostazioni → Impostazioni Cora Max → Aggiornamento firmware</strong> (in <strong>RETE E AGGIORNAMENTI</strong>) mostra la versione che hai e se c'è un aggiornamento in attesa. Tocca <strong>Controlla aggiornamenti</strong> per controllare subito, oppure <strong>Scarica e installa</strong> quando ce n'è uno.</p>
 <p>In <strong>Impostazioni aggiornamento</strong> nella stessa schermata:</p>
-<ul><li><strong>Finestra di installazione</strong> imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di <strong>Inizio</strong> e di <strong>Fine</strong>, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in <strong>Dispositivi →</strong> il tuo Cora Max <strong>→ Fuso orario</strong>.</li><li><strong>Canale aggiornamento</strong> è <strong>Stabile</strong> o <strong>Beta</strong>. Lascialo su <strong>Stabile</strong> a meno che l'assistenza non ti chieda di cambiarlo. Un Cora Max su <strong>Beta</strong> non riceve le versioni stabili.</li></ul>
+<ul><li><strong>Finestra di installazione</strong> imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di <strong>Inizio</strong> e di <strong>Fine</strong>, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in <strong>Dispositivi →</strong> il tuo Cora Max <strong>→ Fuso orario</strong>.</li></ul>
 <p>Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in <strong>Impostazioni Cora Max</strong> e scorri fino a <strong>STATO</strong>. Mostra per ogni vasca <strong>Stato polling</strong>, <strong>Ultimo polling</strong>, <strong>Ultima scrittura cloud</strong> e <strong>Salvataggio cloud</strong>.</p>
 <h2 id="quando-ce-un-aggiornamento-disponibile">Quando c'è un aggiornamento disponibile</h2>
 <p>Un messaggio ti dice cosa c'è di nuovo e ti dà due scelte.</p>
@@ -210,7 +207,7 @@
 <h2 id="se-ununita-non-si-riavvia">Se un'unità non si riavvia</h2>
 <p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando la versione mostrata sullo schermo e il messaggio che mostra. Non associarla di nuovo prima. Lo stato dell'associazione spesso aiuta a capire cosa è successo.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-settings"><span>Precedente</span><b>Impostazioni di Cora Max</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.170 e Cora Mobile 0.5.111. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -601,7 +598,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=60b8434692').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

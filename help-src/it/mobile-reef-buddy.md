@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Il tuo briefing quotidiano di Reef Buddy, cosa contiene, quando arriva, come leggere i punteggi e perché un briefing potrebbe non arrivare.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Poi c'è un riassunto, un breve paragrafo che spiega il titolo usando i tuoi val
 
 Poi vengono le osservazioni, una per ogni risultato. Ognuna ha una categoria (per esempio *Chimica dell'acqua*) e una frequenza (per esempio *Giornaliero*), e puoi aprirla per i dettagli. Un'etichetta in cima alla sezione mostra il tipo di vasca e quanto è completo il suo profilo. Tutti e due influiscono su cosa Cora può concludere.
 
+
 Cora filtra le osservazioni prima che arrivino a te. Un'osservazione deve reggere su più letture. Una sola non basta. Deve anche dirti qualcosa che un singolo grafico non mostrerebbe già.
 
 Tocca la scheda sulla dashboard per aprire il briefing completo.
@@ -51,11 +52,8 @@ Le letture di sonde e controller non fanno comparire questa proposta, perché ar
 
 Sotto un'osservazione, tocca **Perché vedo questo?** Il pannello **Perché lo vedi** elenca le **Misurazioni usate**, l'**Obiettivo di confronto** (il tuo obiettivo, o un intervallo di riferimento), tutto quello **Dal tuo diario** di cui ha tenuto conto e il periodo in giorni che ha guardato. Se il ragionamento non si adatta alla tua vasca, rispondi all'osservazione come spiegato in [Correggere un'osservazione](#correcting-an-insight).
 
-I briefing usano anche altro oltre ai valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo, i totali delle tue teste DŌS e, se hai un monitor dell'aria della stanza Inkbird, la temperatura e l'umidità della stanza.
+I briefing usano anche altro oltre ai valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo e i totali delle tue teste DŌS.
 
-:::note Inkbird è in Beta
-**Beta.** Inkbird è in Beta ed è disponibile solo per gli utenti Beta. Se non sei un utente Beta non lo vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza. Di più in [Funzioni Beta](/help/mobile-beta).
-:::
 
 ## Quando arriva
 

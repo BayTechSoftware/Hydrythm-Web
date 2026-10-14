@@ -18,7 +18,8 @@ Bir ölçüm aralık dışına çıktığında, bir cihaz arıza bildirdiğinde,
 2. **Ertele**, uyarıyı bu Cora Max'te bir süreliğine susturur. Düğme ne kadar süre olduğunu gösterir, örneğin **1 sa ertele**. Bu, Cora Mobile'ın uyarı ayarlarında bu uyarı için belirlenen bekleme süresidir ve 1 haftaya kadar uzun olabilir (günlerce değişmeyecek düşük bir reaktif seviyesi gibi durumlarda işe yarar).
 3. **Kapat**, uyarıyı hemen kapatır. Sorun geçene kadar bu ekranda sessiz kalır. Daha sonra geri gelirse yeni bir uyarı alırsınız.
 
-Uyarı bir dozaj pompasıyla ilgiliyse, örneğin bir DŌS ya da ReefDose kafası azaldıysa ya da bir doz kaçırıldıysa, kartta ayrıca bir **DŌS aç** ya da **ReefDose aç** düğmesi (EcoTech Versa için **Versa aç**) bulunur. Sizi uyarılarının ayarlandığı o dozaj pompasının sayfasına götürür.
+Uyarı bir dozaj pompasıyla ilgiliyse, örneğin bir DŌS ya da ReefDose kafası azaldıysa ya da bir doz kaçırıldıysa, kartta ayrıca bir **DŌS aç** ya da **ReefDose aç** düğmesi bulunur. Sizi uyarılarının ayarlandığı o dozaj pompasının sayfasına götürür.
+
 
 Ertele ya da Kapat bir hata gösterirse bir kez daha deneyin. Başarısız olmaya devam ederse [Bir uyarı kapanmıyor](/help/troubleshooting#an-alert-is-not-clearing) bölümüne bakın.
 
@@ -53,13 +54,10 @@ Eşik sayfasının üstünde, **Uyarı açık** ya da **Uyarı kapalı** yazıs�
 
 ## Cihaz ve sarf malzemesi uyarıları {#doser-alerts}
 
-Bir şeyi tükenen ekipmanın Cora Max'teki sayfasında bir **Uyarı ayarları** düğmesi bulunur. Bunlar Trident (reaktifler ve atık), DŌS kafaları, Red Sea ReefDose, ReefATO+ ve ReefMat ile EcoTech Radion, VorTech ve Versa'dır. Haber almak istediğiniz seviyeyi seçin, seviye aşıldığında tek bir bildirim alırsınız. Bir DŌS kafasında **Kaçırılan dozaj uyarıları**, kafa programlanmış dozlarını kaçırdığında da size haber verir.
+Bir şeyi tükenen ekipmanın Cora Max'teki sayfasında bir **Uyarı ayarları** düğmesi bulunur. Bunlar şunlardır: Trident (reaktifler ve atık), DŌS kafaları, Red Sea ReefDose, ReefATO+ ve ReefMat. Haber almak istediğiniz seviyeyi seçin, seviye aşıldığında tek bir bildirim alırsınız. Bir DŌS kafasında **Kaçırılan dozaj uyarıları**, kafa programlanmış dozlarını kaçırdığında da size haber verir.
 
 Her dozaj pompası uyarısının ne anlama geldiği [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümünde.
 
-:::note Beta
-**Beta.** EcoTech Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
-:::
 
 ## Uyarı sesi, sesli uyarılar ve ekranı uyandırma
 

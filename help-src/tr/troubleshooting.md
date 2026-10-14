@@ -13,14 +13,10 @@ Sorununuzun ait olduğu grubu, ardından gördüğünüz mesajı ya da belirtiyi
 - [Bir komut ulaşmadı](#command-did-not-go-through)
 - [Cora Max](#cora-max)
 - [Uyarılar, bildirimler ve günlük özet](#alerts-and-notifications)
-- [Kameralar ve Skimmer Gözcüsü](#cameras-and-skimmer-watch)
 - [Cora Assistant ve ses](#cora-assistant-and-voice)
 - [Laboratuvar sonuçları ve sağlık raporları](#lab-results-and-health-reports)
 - [Dil, birimler ve giriş yapma](#language-units-and-signing-in)
 
-:::note Beta entegrasyonları
-Aşağıdaki bazı maddeler Beta entegrasyonlarıyla ilgilidir: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird ve kameralar. **Beta.** Bu entegrasyonlar Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin. Ayrıntılar [Beta özellikleri](/help/mobile-beta) sayfasında.
-:::
 
 ## Ölçümler ve widget'lar {#readings-and-widgets}
 
@@ -91,7 +87,6 @@ Cora bunu bir cihaz sessizleştiğinde gönderir. Cihazın bozuk olduğu anlamı
 2. Onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin. Cora Max olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'da açıkken okur.
 3. Bir sonraki ölçümü bekleyin. Yeniden bildirmeye başladığında ikinci bir bildirim alırsınız.
 
-GHL ve HYDROS'un bu sayfanın aşağısında kendi mesajları vardır.
 
 ### "Cihaz çevrimdışı. Son bilinen durum gösteriliyor." {#device-is-offline-showing-last-known-state}
 
@@ -129,23 +124,6 @@ Bu normaldir. Bir Red Sea cihazının kendi ayarları yalnızca telefonunuz ciha
 1. O ayarları değiştirmek için akvaryumun Wi-Fi'ına katılın.
 2. Siz uzaktayken ölçümler ve geçmiş çalışmaya devam eder.
 
-### "GHL API kapalı" {#ghl-api-is-off}
-
-GHL (Beta) her yazılım güncellemesinden sonra resmi API'sini kapatır, bu yüzden bir güncellemeden sonra bu normaldir. Onu kontrolcünün kendisinde, GHL Control Center ya da GHL Connect'te **System → GHL API** yolundan yeniden açın. Cora kontrol etmeye devam eder ve API açıldığında yeniden bağlanır.
-
-### "GHL denetleyicisine erişilemiyor" {#ghl-controller-unreachable}
-
-Cora Max, ağınızdaki GHL (Beta) kontrolcüsünün adresine ulaşamıyor.
-
-1. Kontrolcünün açık ve ağınıza bağlı olduğunu kontrol edin.
-2. IP adresinin değişmediğini kontrol edin. Değiştiyse onu telefonunuzda (**Cihazlar**) açın ve **Bağlantı** altında güncelleyin.
-3. Bu akvaryumu okuyan Cora Max'in kontrolcüyle aynı ağda olduğunu kontrol edin.
-
-### Bir HYDROS kontrolcüsü çevrimdışı ya da bildirim yapmıyor görünüyor {#a-hydros-controller-shows-as-offline-or-not-reporting}
-
-HYDROS (Beta) kendi bulutu üzerinden bildirir, bu yüzden bu genellikle kontrolcünün gücünü ya da kendi bağlantısını kaybettiği anlamına gelir. Onu HYDROS uygulamasında kontrol edin. Yeniden çevrimiçi olduğunda ölçümler yetişir. Çevrimdışı görünürken gönderilen bir komut hiç gönderilmez.
-
-Bir HYDROS cihazı **Anahtar iptal edildi** gösteriyorsa cihaz anahtarı HYDROS uygulamasında kaldırılmış ya da değiştirilmiştir. Yeni bir anahtar oluşturun ve onu telefonunuzda **Cihazlar → Cihaz Ekle → HYDROS** yolundan yeniden bağlayın.
 
 ## Bir komut ulaşmadı {#command-did-not-go-through}
 
@@ -163,9 +141,6 @@ Jecod ya da Jebao pompanıza giden bir komut Cora'dan hiç çıkmadı. Telefonun
 
 Telefonunuz yalnızca Bluetooth kullanan bir Jecod pompasının menzili dışında. Pompaya yaklaşın ve **Tekrar dene**'ye dokunun.
 
-### "Bu Gyre'ye ulaşılamadı. Programı değiştirilmedi." {#could-not-reach-that-gyre-its-program-was-not-changed}
-
-Cora bir Maxspect (Beta) gyre'ye yeni bir program iletemedi. Gyre'nin açık olduğunu ve telefonunuzun ya da Cora Max'in onun ağında olduğunu kontrol edin, sonra program ekranında **Tekrar dene**'ye dokunun.
 
 ### "Apex'e ulaşılamadı: hiçbir şey değişmedi" / "hiçbir şey dozajlanmadı" {#could-not-reach-the-apex-nothing-changed-nothing-was-dosed}
 
@@ -334,21 +309,6 @@ Bir akvaryumu kaldırmak onu yalnızca gizler. Cihazları ona bağlı kalır ve 
 
 Sonra akvaryumu yeniden kaldırın. Ayrıntılar [Akvaryumlarınızı yönetme](/help/mobile-tanks) sayfasında.
 
-## Kameralar ve Skimmer Gözcüsü {#cameras-and-skimmer-watch}
-
-Kameralar ve Skimmer Gözcüsü Beta'dır. Kurulumları [Kameralar ve Skimmer Gözcüsü](/help/mobile-cameras) sayfasında.
-
-### Skimmer Gözcüsü kap seviyesi yerine bir mesaj gösteriyor {#skimmer-watch-messages}
-
-- **Önce kabı işaretleyin**: Skimmer Gözcüsü kabın nerede olduğunu henüz bilmiyor. **Kabı işaretle**'ye dokunun ve çerçeveyi kabın üstüne sürükleyin.
-- **Kalibre edilmedi: kabı boşaltın ve Kap şu an boş düğmesine dokunun**: kap boşken tam olarak bunu yapın.
-- **Çerçeve taşındı: yeniden kalibre edin**: çerçeveyi taşıdınız, bu yüzden boş bir kapla yeniden kalibre edin.
-- **Emin değil (düşük güven)**: görüntü yeterince net değildi. Skimmer Gözcüsü ekranındaki **Kamera ipuçları**'nı okuyun, sonra bir sonraki kontrolü bekleyin ya da **Şimdi kontrol et**'e dokunun.
-- **Kabın arkasındaki ışık çok parlak**: kabın arkasındaki ışığı kapatın ya da kameranın gece görüşünü her zaman açık yapın.
-- **Cora Max kameradan görüntü alamadı.**: kameranın açık ve çevrimiçi olduğunu ve onu okuyan Cora Max'in açık olduğunu kontrol edin.
-- **Son kontrol başarısız oldu.**: **Şimdi kontrol et**'e dokunun. Başarısız olmaya devam ederse kamerayı ve Cora Max'i kontrol edin.
-- **Henüz ölçüm yok. Cora Max 15 dakikada bir kontrol eder.**: ilk kontrolü bekleyin.
-- **Skimmer Gözcüsü ücretli plan gerektirir.**: Skimmer Gözcüsü ücretli planların bir parçasıdır.
 
 ## Cora Assistant ve ses {#cora-assistant-and-voice}
 

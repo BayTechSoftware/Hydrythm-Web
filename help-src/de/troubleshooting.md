@@ -13,14 +13,10 @@ Such den Bereich, zu dem dein Problem gehört, und dann die Meldung oder das Sym
 - [Ein Befehl ist nicht durchgekommen](#command-did-not-go-through)
 - [Cora Max](#cora-max)
 - [Warnungen, Benachrichtigungen und das tägliche Briefing](#alerts-and-notifications)
-- [Kameras und Skimmer-Wächter](#cameras-and-skimmer-watch)
 - [Cora Assistant und Sprache](#cora-assistant-and-voice)
 - [Laborergebnisse und Gesundheitsberichte](#lab-results-and-health-reports)
 - [Sprache, Einheiten und Anmelden](#language-units-and-signing-in)
 
-:::note Beta-Anbindungen
-Manche Einträge unten betreffen Beta-Anbindungen: Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird und Kameras. **Beta.** Diese Anbindungen sind in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du sie nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den Support. Mehr dazu unter [Beta-Funktionen](/help/mobile-beta).
-:::
 
 ## Messwerte und Widgets {#readings-and-widgets}
 
@@ -91,7 +87,6 @@ Cora schickt das, wenn ein Gerät still wird. Es heißt nicht, dass das Gerät k
 2. Prüf, ob das Cora Max, das es abfragt, eingeschaltet und online ist. Ohne Cora Max liest dein Handy ein Neptune Apex-, Red Sea- oder Jecod-Gerät nur, solange Cora Mobile im selben WLAN geöffnet ist.
 3. Warte auf den nächsten Messwert. Du bekommst eine zweite Benachrichtigung, sobald es sich wieder meldet.
 
-GHL und HYDROS haben ihre eigenen Meldungen, weiter unten auf dieser Seite.
 
 ### "Gerät ist offline. Der letzte bekannte Status wird angezeigt." {#device-is-offline-showing-last-known-state}
 
@@ -129,23 +124,6 @@ Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur
 1. Verbinde dich mit dem WLAN des Beckens, um diese Einstellungen zu ändern.
 2. Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.
 
-### "GHL-API ist ausgeschaltet" {#ghl-api-is-off}
-
-GHL (Beta) schaltet seine offizielle API nach jedem Firmware-Update aus, nach einem Update ist das also normal. Schalte sie unter **System → GHL API** im GHL Control Center oder in GHL Connect am Controller selbst wieder ein. Cora prüft weiter und verbindet sich neu, sobald sie wieder an ist.
-
-### "GHL-Controller nicht erreichbar" {#ghl-controller-unreachable}
-
-Cora Max erreicht die Adresse des GHL-Controllers (Beta) in deinem Netzwerk nicht.
-
-1. Prüf, ob der Controller eingeschaltet und mit deinem Netzwerk verbunden ist.
-2. Prüf, ob sich seine IP-Adresse geändert hat. Wenn ja, öffne ihn auf dem Handy (**Geräte**) und aktualisiere sie unter **Verbindung**.
-3. Prüf, ob das Cora Max, das dieses Becken abfragt, im selben Netzwerk ist wie der Controller.
-
-### Ein HYDROS-Controller wird als offline angezeigt oder meldet sich nicht {#a-hydros-controller-shows-as-offline-or-not-reporting}
-
-HYDROS (Beta) meldet über seine eigene Cloud, das heißt also meist, dass der Controller Strom oder seine eigene Verbindung verloren hat. Prüf ihn in der HYDROS-App. Die Messwerte holen auf, sobald er wieder online ist. Ein Befehl, den du schickst, während er offline wirkt, wird gar nicht gesendet.
-
-Zeigt ein HYDROS-Gerät **Schlüssel widerrufen**, wurde sein Geräteschlüssel in der HYDROS-App entfernt oder ersetzt. Leg einen neuen Schlüssel an und verknüpf ihn auf dem Handy erneut über **Geräte → Gerät hinzufügen → HYDROS**.
 
 ## Ein Befehl ist nicht durchgekommen {#command-did-not-go-through}
 
@@ -163,9 +141,6 @@ Ein Befehl an deine Jecod- oder Jebao-Pumpe hat Cora nie verlassen. Auf dem Hand
 
 Dein Handy ist außer Reichweite einer Jecod-Pumpe, die nur Bluetooth nutzt. Geh näher an die Pumpe und tippe auf **Erneut versuchen**.
 
-### "Dieser Gyre war nicht erreichbar. Sein Programm wurde nicht geändert." {#could-not-reach-that-gyre-its-program-was-not-changed}
-
-Cora konnte einen neuen Zeitplan nicht an eine Maxspect-Gyre (Beta) übertragen. Prüf, ob die Gyre eingeschaltet ist und ob dein Handy oder Cora Max in ihrem Netzwerk ist, und tippe dann im Zeitplan-Bildschirm auf **Erneut versuchen**.
 
 ### "Der Apex war nicht erreichbar: nichts wurde geändert" / "nichts wurde dosiert" {#could-not-reach-the-apex-nothing-changed-nothing-was-dosed}
 
@@ -334,21 +309,6 @@ Ein Becken zu entfernen, blendet es nur aus. Seine Geräte bleiben mit ihm verkn
 
 Entferne das Becken dann noch einmal. Mehr dazu unter [Deine Becken verwalten](/help/mobile-tanks).
 
-## Kameras und Skimmer-Wächter {#cameras-and-skimmer-watch}
-
-Kameras und der Skimmer-Wächter sind Beta. Wie du sie einrichtest, steht unter [Kameras und Skimmer-Wächter](/help/mobile-cameras).
-
-### Der Skimmer-Wächter zeigt eine Meldung statt eines Füllstands {#skimmer-watch-messages}
-
-- **Markieren Sie zuerst den Becher**: Der Skimmer-Wächter weiß noch nicht, wo der Becher ist. Tippe auf **Becher markieren** und zieh den Rahmen darüber.
-- **Nicht kalibriert: Becher leeren und auf Becher ist jetzt leer tippen**: Tu genau das, mit leerem Becher.
-- **Rahmen verschoben: erneut kalibrieren**: Du hast den Rahmen verschoben, kalibriere also noch einmal mit leerem Becher.
-- **Nicht sicher (geringe Sicherheit)**: Das Bild war nicht klar genug. Lies die **Kamera-Tipps** auf dem Bildschirm des Skimmer-Wächters und warte dann auf die nächste Prüfung oder tippe auf **Jetzt prüfen**.
-- **Licht hinter dem Becher zu hell**: Schalte das Licht hinter dem Becher aus oder stell die Nachtsicht der Kamera auf immer an.
-- **Cora Max konnte kein Bild der Kamera abrufen.**: Prüf, ob die Kamera Strom hat und online ist und ob das Cora Max, das sie abfragt, an ist.
-- **Die letzte Prüfung ist fehlgeschlagen.**: Tippe auf **Jetzt prüfen**. Schlägt es weiter fehl, prüf die Kamera und Cora Max.
-- **Noch keine Messung. Cora Max prüft alle 15 Minuten.**: Warte auf die erste Prüfung.
-- **Skimmer-Wächter benötigt einen kostenpflichtigen Plan.**: Der Skimmer-Wächter gehört zu den kostenpflichtigen Abos.
 
 ## Cora Assistant und Sprache {#cora-assistant-and-voice}
 

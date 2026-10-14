@@ -95,9 +95,6 @@
 <li><a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a></li>
 <li><a href="/pl/help/mobile-probes">Mapowanie parametrów i sondy</a></li>
 <li><a href="/pl/help/mobile-consumables">Materiały eksploatacyjne i alerty uzupełnienia</a></li>
-<li><a href="/pl/help/mobile-cameras">Kamery i Czuwanie skimmera</a></li>
-<li><a href="/pl/help/mobile-ecotech">Lampy, pompy i dozowniki EcoTech</a></li>
-<li><a href="/pl/help/mobile-beta">Funkcje Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerty i automatyzacja</summary><ul>
@@ -209,7 +206,7 @@
 <p>Śledzony jest każdy pierwiastek, w tym pierwiastki śladowe i zanieczyszczenia, a także główne parametry. Cora zapisuje wszystkie 71 pierwiastków, które może podać laboratorium, a linia, którą niektóre laboratoria nazywają <em>Acidity</em>, to pH.</p>
 <p>W każdym wierszu pierwiastka zobaczysz zakres wydrukowany przez laboratorium, pokazany jako <em>Zakres laboratorium</em>, obok własnego zakresu Cory dla tego pierwiastka. Pierwiastek, dla którego Cora nie ma zakresu odniesienia, ma znacznik <strong>Brak zakresu Cora</strong>. Raport mówi, ile pierwiastków ma zakres Cory, a resztę ocenia na podstawie ogólnej wiedzy rafowej. Cora Assistant komentuje każdy przebadany pierwiastek, a jego komentarz obowiązuje także wtedy, gdy nie ma zakresu Cory.</p>
 <p>Jeśli laboratorium drukuje dla pierwiastka <em>n.d.</em> albo <em>not detected</em>, Cora zapisuje go jako 0 i podaje, że go nie wykryto.</p>
-<aside class="cal cal-note"><p class="cal-t">Rozpuszczony CO2 to nie CO2 w pomieszczeniu</p><p><strong>Rozpuszczony CO₂</strong> w raporcie ICP to CO2 w wodzie, w mg/L. To inny odczyt niż CO2 w powietrzu w pomieszczeniu, który mierzy monitor powietrza w pomieszczeniu Inkbird™. Mają różne zakresy i nigdy nie są mieszane. <strong>Beta.</strong> Inkbird jest w wersji Beta i jest dostępny tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz go w <strong>Dodaj urządzenie</strong>. Aby poprosić o dostęp do Beta, skontaktuj się z pomocą techniczną.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Rozpuszczony CO2 to nie CO2 w pomieszczeniu</p><p><strong>Rozpuszczony CO₂</strong> w raporcie ICP to CO2 w wodzie, w mg/L. To inny odczyt niż CO2 w powietrzu w pomieszczeniu. Mają różne zakresy i nigdy nie są mieszane.</p></aside>
 <p>Karta <strong>Od Twojego ostatniego ICP</strong> pokazuje, co zmieniło się najbardziej od ostatniego razu. To zwykle najszybsza droga do nowego raportu.</p>
 <p>Dotknij <strong>Trendy</strong>, żeby zobaczyć dowolny pierwiastek we wszystkich przesłanych testach. Tu ICP staje się naprawdę przydatne.</p>
 <aside class="cal cal-tip"><p class="cal-t">Ciekawie robi się przy drugim teście</p><p>Jeden ICP mówi, gdzie jesteś. Drugi mówi, w którą stronę zmierzasz, i na tym możesz działać. Testuj w regularnym rytmie i nie czekaj, aż coś pójdzie nie tak.</p></aside>
@@ -232,7 +229,7 @@
 <p>Ekran Inteligencja trzyma oba rodzaje osobno. Wyniki z laboratorium są w <strong>RAPORTY ICP</strong>, a wygenerowane przeglądy w <strong>RAPORTY ZDROWIA</strong>. Każda lista pokazuje najnowsze na górze, z oceną. Dotknij raportu, żeby otworzyć go ponownie w całości.</p>
 <p>Dotrzesz do nich też z <strong>Ustawień</strong>: otwórz akwarium, a potem <strong>Raporty ICP</strong> albo <strong>Raporty zdrowia</strong>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-assistant"><span>Poprzedni</span><b>Pytania do Cory</b></a><a class="pn-n" href="/pl/help/mobile-journeys"><span>Następny</span><b>Ścieżki z przewodnikiem</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.170 i Cora Mobile 0.5.111. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -623,7 +620,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=27523801fa').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

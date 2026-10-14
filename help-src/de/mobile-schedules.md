@@ -1,6 +1,6 @@
 ---
 title: Ausrüstung planen
-description: Ein Tagesprogramm für eine Jecod-Pumpe bauen und zwischen Pumpen kopieren und den Zeitplan einer Maxspect-Gyre (Beta) ansehen.
+description: Ein Tagesprogramm für eine Jecod-Pumpe bauen und zwischen Pumpen kopieren.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 14
@@ -9,13 +9,13 @@ group: Equipment
 
 Auf dieser Seite gibst du einer Jecod-Pumpe ein **Tagesprogramm**: eine Folge von Zeiträumen mit jeweils eigener Intensität, die sich jeden Tag wiederholt. Öffne es über **Geräte** → auf die Pumpe tippen.
 
-Den Zeitplan einer Maxspect-Gyre *(Beta)* kannst du auf demselben Weg ansehen, festlegen musst du ihn aber in der Maxspect-App. Maxspect ist nur für Beta-Nutzer offen. Siehe [Beta-Funktionen](/help/mobile-beta). Leuchten und Pumpen anderer Marken haben ihre Zeitpläne auf ihren eigenen Seiten: [EcoTech](/help/mobile-ecotech) *(Beta)* und ReefRun und ReefDose von Red Sea unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
+Leuchten und Pumpen anderer Marken haben ihre Zeitpläne auf ihren eigenen Seiten: ReefDose von Red Sea unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
 
 ![Eine Jecod-Pumpenseite in Cora Mobile mit gewähltem Zeitplan](img/mobile-schedules.webp "Oben Zeitplan gewählt, dann die Fütterungspause und der Tagesgraph.")
 
 ## Den ganzen Tag gleich oder Zeitplan {#same-all-day-or-schedule}
 
-Eine Pumpe läuft in einem von zwei Modi. Wähl einen oben auf ihrer Seite.
+Eine Pumpe läuft in einem von zwei Modi. Wähl einen mit dem Schalter auf ihrer Seite. Der laufende ist mit *· läuft* markiert, und die Seite öffnet sich auf ihm.
 
 - **Den ganzen Tag gleich** läuft die ganze Zeit mit einer Intensität.
 - **Zeitplan** folgt einem Tagesprogramm aus Zeiträumen.
@@ -34,7 +34,6 @@ Unter dem Graphen steht die Liste der Zeiträume. Jeder Zeitraum zeigt seine Uhr
 
 Tippe auf **Zum Zeitplan hinzufügen**, um einen Zeitraum hinzuzufügen. Um einen zu ändern, öffne ihn und tippe auf **Speichern**. Um ihn zu entfernen, tippe auf **Löschen** und bestätige.
 
-Eine Maxspect-Gyre *(Beta)* hat zwei Köpfe, angezeigt als Gyre A und Gyre B. Ihr Tagesgraph hat eine Spur für jeden, und ihre Pläne stehen unter **GYRE A** und **GYRE B**. Den Zeitplan einer Gyre kannst du hier nur ansehen. In ihrer Aktionszeile steht **Nur Ansicht**, und du legst den Zeitplan in der Maxspect-App fest.
 
 :::warning Speichern schreibt den Zeitplan aufs Gerät
 Beim Speichern schickt Cora das Programm an die Ausrüstung, und die Ausrüstung führt es nach ihrer eigenen Uhr aus. Es läuft weiter, ob Cora sie erreichen kann oder nicht.

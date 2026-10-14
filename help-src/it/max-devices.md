@@ -16,15 +16,12 @@ twin: mobile-devices
 
 Cora Max vede la stessa attrezzatura del telefono, perché entrambi leggono lo stesso account.
 
-Usa le etichette filtro in alto per mostrare **Tutte le vasche** o una sola. I dispositivi sono raggruppati per marca. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), un riassunto di una riga di quello che contiene il dispositivo (*21 prese · 4 alimentazioni*, *19 test rimanenti*), la vasca a cui appartiene e quando è stato **Visto l'ultima volta**. I dispositivi in Beta hanno un'etichetta **Beta**.
+Usa le etichette filtro in alto per mostrare **Tutte le vasche** o una sola. I dispositivi sono raggruppati per marca. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), un riassunto di una riga di quello che contiene il dispositivo (*21 prese · 4 alimentazioni*, *19 test rimanenti*), la vasca a cui appartiene e quando è stato **Visto l'ultima volta**.
 
 Tocca un dispositivo per aprirne la pagina. Ogni pagina dispositivo si apre con una sezione **Stato**. Cosa può fare ogni pagina è spiegato in [Controllare l'attrezzatura da Cora Max](/help/max-device-control).
 
 Se l'elenco dice **Alcuni dispositivi sono ancora in caricamento: questo elenco potrebbe essere incompleto.**, aspetta un attimo.
 
-:::note Beta
-**Beta.** Le luci, le pompe e i dosatori EcoTech, i monitor dell'aria della stanza Inkbird e le telecamere sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non li vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'[assistenza](/support.html). Di più in [Funzioni Beta](/help/mobile-beta).
-:::
 
 ### Rinominare un dispositivo {#renaming-a-device}
 
@@ -42,6 +39,7 @@ Per vederlo o cambiarlo, apri **Impostazioni → [la tua vasca] → Cora Max pri
 
 - **Qualsiasi attivo (automatico)** vuol dire che ogni dispositivo Cora online che può raggiungere l'attrezzatura di questa vasca si divide il lavoro, e vince l'ultima scrittura. Usalo a meno che tu non abbia un motivo per fissare un dispositivo.
 - Fissa un dispositivo, così solo quel dispositivo legge l'attrezzatura. Se va offline, nessun altro Cora Max prende il suo posto. Solo Cora Mobile, aperta sullo stesso Wi-Fi, legge l'attrezzatura finché non ne fissi un altro o torni a **Qualsiasi attivo (automatico)**.
+
 
 Lo imposti una volta per la vasca, e vale per ogni schermo Cora. Puoi cambiarlo da qualsiasi Cora Max che mostra la vasca, oppure da Cora Mobile (**Rendi Cora Max principale** nella pagina del Cora Max). Di più in [Più di un dispositivo Cora](/help/mobile-multi-device).
 

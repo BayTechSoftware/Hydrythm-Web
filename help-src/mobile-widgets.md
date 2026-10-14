@@ -25,23 +25,13 @@ You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-edi
 | **ReefBeat** | One Red Sea unit, with its own summary |
 | **Apex module** | One fitted Apex module, such as a Trident or DŌS |
 | **Jecod** | One Jecod pump, with its mode and intensity |
-| **Maxspect** *(Beta)* | One gyre, with both motors |
-| **GHL** *(Beta)* | One ProfiLux or Mitras controller, with its own summary |
-| **HYDROS** *(Beta)* | One HYDROS controller, with its own summary |
-| **Radion** *(Beta)* | One EcoTech Radion light, or a linked Radion mesh |
-| **VorTech** *(Beta)* | One EcoTech VorTech pump, with its mode and speed |
-| **Versa** *(Beta)* | One EcoTech Versa doser, with its heads |
-| **Camera** *(Beta)* | A live view from one of your cameras, up to three columns wide and two rows tall |
 
 Everything after Outlet is a **device** tile. Each one belongs to a piece of equipment instead of a parameter, and shows whatever that unit reports. Cora Max also has a **Scene** tile, which you add on Cora Max. See [Editing the Cora Max dashboard](/help/max-dashboard-editing).
 
-:::note Beta tiles
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech and Versa) and Camera are Beta integrations, only open to Beta users. You only see these tiles once you have the device. See [Beta features](/help/mobile-beta).
-:::
 
 ## Sizing {#sizing}
 
-**Width** and **Height** can each be **1×** or **2×**, so a widget is one or two cells wide and one or two cells tall. A camera can be up to **3×** wide. A graph is never one cell wide. On a three-column dashboard, a two-wide gauge takes up two thirds of the row. That's usually a good shape for your most important parameter.
+**Width** and **Height** can each be **1×** or **2×**, so a widget is one or two cells wide and one or two cells tall. A graph is never one cell wide. On a three-column dashboard, a two-wide gauge takes up two thirds of the row. That's usually a good shape for your most important parameter.
 
 ## What a parameter widget shows {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ Which devices can have a tile depends on what you've connected. See [Connecting 
 
 ## Doser tiles {#doser-tiles}
 
-A tile for a doser (an Apex DŌS, a ReefDose or an EcoTech Versa) shows one row per head. A head name is never shrunk below a readable size. On a tall tile the row takes two lines, with the name on the first and what's left on the second, for example *40d* and *2.8 L*. On a short tile the detail line is dropped and the name stays readable.
+A tile for a doser (an Apex DŌS or a ReefDose) shows one row per head. A head name is never shrunk below a readable size. On a tall tile the row takes two lines, with the name on the first and what's left on the second, for example *40d* and *2.8 L*. On a short tile the detail line is dropped and the name stays readable.
 
 Set what comes first with **Show remaining as**: **Days** or **Milliliters (mL)**. A ReefDose head with no name of its own is shown as the device name followed by "head" and its number. A Jecod doser tile is read only and shows the daily plan, because Jecod doesn't report how much is left in the bottle.

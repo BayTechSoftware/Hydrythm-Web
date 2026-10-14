@@ -1,6 +1,6 @@
 ---
 title: Connecting your equipment
-description: How to connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit and, in Beta, Maxspect, GHL, HYDROS, Focustronic and Inkbird equipment to Cora.
+description: How to connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 12
@@ -9,9 +9,8 @@ group: Equipment
 
 This page shows how to connect each brand of equipment to Cora and what each connection needs. They all start the same way: **Devices → Add Device**, then pick the brand.
 
-![The Add device list for a Beta user](img/mobile-add-device-beta.webp "The brand list. Beta brands carry a Beta chip.")
+![The Add Device brand list](img/mobile-add-device-brands.webp "The brand list.")
 
-The brands marked *(Beta)* are only open to Beta users. See [Beta features](/help/mobile-beta).
 
 | Brand | Opens | Without a Cora Max |
 |---|---|---|
@@ -20,13 +19,6 @@ The brands marked *(Beta)* are only open to Beta users. See [Beta features](/hel
 | Red Sea | A scan on your network, then which tank each unit belongs to | Local only |
 | Jecod / Jebao | A scan on your network, or Bluetooth | Local only |
 | AquaWiz | Your AquaWiz sign-in | Works |
-| Maxspect *(Beta)* | The same scan as Jecod | **Requires Cora Max** |
-| GHL *(Beta)* | Its address, interface and, for a mini, its login | **Requires Cora Max** |
-| HYDROS *(Beta)* | A device key from the HYDROS app | Works |
-| Focustronic *(Beta)* | Your Focustronic sign-in, then which tank each device belongs to | Works |
-| EcoTech *(Beta)* | A Bluetooth scan for Radion lights, VorTech pumps and Versa dosers. See [EcoTech lights, pumps and dosers](/help/mobile-ecotech) | **Requires Cora Max** |
-| Inkbird *(Beta)* | A Bluetooth scan for your room air monitor | **Requires Cora Max** |
-| Camera *(Beta)* | Wyze, Tapo, Sonoff or another RTSP camera. See [Cameras and Skimmer Watch](/help/mobile-cameras) | **Requires Cora Max** |
 
 ## Without a Cora Max: local only {#local-only}
 
@@ -35,7 +27,7 @@ Neptune Apex, Red Sea and Jecod equipment is on your home network (or Bluetooth)
 - Your phone reads and controls the equipment while Cora Mobile is open on the same network, or in Bluetooth range.
 - Away from home you see the last readings your phone saved, and you can't control it.
 
-A Cora Max at the tank reads this equipment around the clock and passes on your commands when you're away. AquaWiz, HYDROS and Focustronic are reached through the maker's own service, so they work from anywhere without a Cora Max. Rows marked **Requires Cora Max** are greyed out until the tank has one. More in [More than one Cora device](/help/mobile-multi-device).
+A Cora Max at the tank reads this equipment around the clock and passes on your commands when you're away. AquaWiz is reached through the maker's own service, so it works from anywhere without a Cora Max. More in [More than one Cora device](/help/mobile-multi-device).
 
 ## Neptune Apex {#neptune-apex}
 
@@ -54,7 +46,7 @@ Once it's connected, every probe your Apex reports becomes a source you can put 
 
 ## Red Sea ReefBeat {#red-sea-reefbeat}
 
-Cora talks to ReefBeat equipment on your local network. It supports **ReefDose**, **ReefATO+**, **ReefMat** and **ReefRun**, plus **ReefControl**, **ReefControl Power**, **ReefWave** and **ReefLED**, which carry *(Beta)* in their name but are open to everyone.
+Cora talks to ReefBeat equipment on your local network. It supports **ReefDose**, **ReefATO+**, **ReefMat** and **ReefRun**.
 
 1. Set the unit up in Red Sea's ReefBeat app first, and check it's on the same network as your phone.
 2. Go to **Devices → Add Device → Red Sea**. Cora scans your network.
@@ -62,7 +54,7 @@ Cora talks to ReefBeat equipment on your local network. It supports **ReefDose**
 
 A Red Sea unit serves one tank. Picking a different one moves it there.
 
-Each unit gets its own device page, and its readings become sources. ReefDose reports its heads and containers, ReefATO+ its reservoir and fills, ReefMat the days it has left, and ReefRun its pump state. ReefControl reports its probes the same way. ReefWave and ReefLED show their mode only, for now. What each page lets you do is in [Controlling your equipment](/help/mobile-device-control#red-sea).
+Each unit gets its own device page, and its readings become sources. ReefDose reports its heads and containers, ReefATO+ its reservoir and fills, ReefMat the days it has left, and ReefRun its pump state. What each page lets you do is in [Controlling your equipment](/help/mobile-device-control#red-sea).
 
 ## Jecod / Jebao {#jecod}
 
@@ -102,73 +94,6 @@ You get alkalinity as a source, updated as often as your controller titrates, an
 AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.
 :::
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some controls may be limited, and what you see here may change between updates. If something doesn't work as described, let us know from [Reporting a problem](/help/mobile-support).
-:::
-
-Cora connects to Maxspect Gyre pumps and can read and drive them. Add one from **Devices → Add Device → Maxspect**, the same scan Jecod uses. It needs a Cora Max in the tank. Without one the row shows **Requires Cora Max**.
-
-When you add a gyre, it has to be on the same network as your phone. After that, Cora Mobile reaches it through the tank's Cora Max, even when you're away. Wave pattern, speed, the schedule and **Pump health** are in [Controlling your equipment](/help/mobile-device-control#maxspect).
-
-## GHL ProfiLux and Mitras {#ghl-profilux-and-mitras}
-
-:::note Beta
-**Beta.** GHL is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet. If something doesn't work as described, let us know from [Reporting a problem](/help/mobile-support).
-:::
-
-Cora reads a GHL ProfiLux or Mitras controller: probes, sockets, dosers, level sensors and, on the Director models, KH and ion test results.
-
-1. Go to **Devices → Add Device → GHL**. It needs a Cora Max in the tank, and shows **Requires Cora Max** without one.
-2. Your phone can't scan for it, so enter its address and pick the interface yourself: **Official API**, **HTTP**, or **ProfiLux mini** (which also needs its login).
-3. Pick which tank it belongs to. A GHL controller can serve more than one tank.
-
-A GHL controller doesn't talk to your phone directly. It shows **Waiting for Cora Max** until a Cora Max on its network has read it, then its readings and controls show up everywhere.
-
-The GHL API has to be switched on for Cora to reach the controller at all. GHL turns it off after every firmware update, so check this first if nothing appears. [Troubleshooting](/help/troubleshooting) covers what to do. Controls are in [Controlling your equipment](/help/mobile-device-control#ghl).
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html). Some readings or controls may not work yet. If something doesn't work as described, let us know from [Reporting a problem](/help/mobile-support).
-:::
-
-HYDROS doesn't need your phone and your controller on the same network, or a Cora Max. Cora reaches it through HYDROS's own cloud, so it keeps working away from home, and even with Cora Mobile closed.
-
-1. In the HYDROS app, create a **device key** for the provider **cora-iq**. Choose **Read** if you only want its readings, or **Write** if you also want to control it from Cora.
-2. In Cora Mobile, go to **Devices → Add Device → HYDROS**. The screen is called **Add HYDROS (Beta)**.
-3. Paste the key into **HYDROS device key**, tap **Check key**, pick the tank and tap **Link**.
-
-Once it's linked, Cora imports the last 33 days of its history, then keeps reading forward from there. [Controlling your equipment](/help/mobile-device-control#hydros) covers what you can read and, with a write key, control.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
-
-Cora reads Focustronic Alkatronic, Dosetronic and Mastertronic devices through your Focustronic account, so it works away from home and doesn't need a Cora Max.
-
-1. Go to **Devices → Add Device → Focustronic** and sign in with the same account you use in the Focustronic app.
-2. Choose which tank each device belongs to, then tap **Link to Cora**.
-
-**Stay signed in** lets Cora keep your Focustronic password, encrypted, and sign in again on its own. If you turn it off, Cora keeps only a temporary sign-in and sends you a notification when you need to sign in again. If Focustronic refuses the sign-in, open **Add Focustronic** and sign in again.
-
-What each device shows, and **Measure now**, **Dose now** and **Test now**, are in [Controlling your equipment](/help/mobile-device-control#focustronic).
-
-## Inkbird room air monitor {#inkbird-room-air-monitor}
-
-:::note Beta
-**Beta.** Inkbird is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
-
-Cora reads an Inkbird IAM-T1 or IAM-T2 room air monitor. A Cora Max in the tank reads it over Bluetooth, and Cora never writes anything to the monitor. The row shows **Requires Cora Max** until the tank has one.
-
-1. Go to **Devices → Add Device → Inkbird**. Cora scans for monitors nearby. Bluetooth has to be on, with permission for Cora.
-2. Pick yours and tap **Link to tank**. If none appears, move closer and tap **Scan again**.
-
-The monitor's page shows its last reading. **Sampling interval** sets how often a Cora Max reads it. Until a Cora Max has read it, the page says **Waiting for Cora Max**. If it goes quiet it shows **Not reporting** and Cora warns you. Room readings also feed [Reef Buddy](/help/mobile-reef-buddy). To stop, **Unlink** it. Cora Max stops reading it and the history stays.
 
 ## Logging by hand {#logging-by-hand}
 

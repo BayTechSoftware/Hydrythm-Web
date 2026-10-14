@@ -3,7 +3,7 @@ title: Fare domande a Cora
 description: Usa Cora Assistant scrivendo o parlando, scopri cosa vede, cosa può fare per te, l'interruttore di condivisione dei dati e la memoria.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Registrare un test, una voce di diario o un pasto avviene quando lo chiedi. Tutt
 
 Il controllo dell'attrezzatura funziona fuori casa solo quando un Cora Max nella vasca può raggiungere l'attrezzatura. Vedi [Cosa funziona fuori casa](/help/mobile-multi-device#what-works-away-from-home).
 
-:::note Attrezzatura in Beta
-Cora può comandare anche l'attrezzatura GHL, HYDROS, Focustronic, Maxspect ed EcoTech (Radion, VorTech e Versa). **Beta.** Queste integrazioni sono in Beta e sono disponibili solo per gli utenti Beta. Se non sei un utente Beta non le vedrai in **Aggiungi dispositivo**. Per chiedere l'accesso alla Beta, contatta l'assistenza.
-:::
 
 :::warning Cora consiglia. Decidi tu
 Verifica le cose importanti con i tuoi test. Tratta i cambiamenti grandi come faresti con il consiglio di chiunque altro, e controllali con buon senso prima di agire. Lo dice anche la riga sotto la casella dei messaggi.

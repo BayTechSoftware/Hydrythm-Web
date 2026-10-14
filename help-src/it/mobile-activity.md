@@ -3,12 +3,13 @@ title: Attività e cronologia
 description: Guarda ogni modifica inviata alla tua attrezzatura, chi o cosa l'ha chiesta e se ha funzionato, e leggi la cronologia della vasca intorno a una data.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Attività elenca ogni tentativo di cambiare qualcosa sulla tua attrezzatura: accensione e spegnimento delle prese, cicli di alimentazione, dosaggi e tutto quello che ha fatto una scena o un'automazione. Ogni riga mostra cosa l'ha chiesto e cosa è successo dopo, comprese le richieste che non hanno funzionato.
+
 
 Vai in **Impostazioni → Attività**. Se hai più di una vasca, sceglila con le etichette delle vasche in alto.
 

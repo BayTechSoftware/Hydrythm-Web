@@ -25,23 +25,13 @@ Los widgets se añaden y se colocan en [el editor del panel](/help/mobile-dashbo
 | **ReefBeat** | Un equipo Red Sea, con su propio resumen |
 | **Módulo del Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
 | **Jecod** | Una bomba Jecod, con su modo y su intensidad |
-| **Maxspect** *(Beta)* | Un gyre, con sus dos motores |
-| **GHL** *(Beta)* | Un controlador ProfiLux o Mitras, con su propio resumen |
-| **HYDROS** *(Beta)* | Un controlador HYDROS, con su propio resumen |
-| **Radion** *(Beta)* | Una luz EcoTech Radion, o una malla de Radion vinculada |
-| **VorTech** *(Beta)* | Una bomba EcoTech VorTech, con su modo y su velocidad |
-| **Versa** *(Beta)* | Una dosificadora EcoTech Versa, con sus cabezales |
-| **Cámara** *(Beta)* | Una vista en directo de una de tus cámaras, de hasta tres columnas de ancho y dos filas de alto |
 
 Todo lo que va después de Toma son casillas de **dispositivo**. Cada una pertenece a un equipo en lugar de a un parámetro, y muestra lo que ese equipo informe. Cora Max también tiene una casilla de **Escena**, que se añade en Cora Max. Consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
 
-:::note Casillas Beta
-Maxspect, GHL, HYDROS, EcoTech (Radion, VorTech y Versa) y Cámara son integraciones Beta, abiertas solo a los usuarios Beta. Solo ves estas casillas cuando ya tienes el dispositivo. Consulta [Funciones Beta](/help/mobile-beta).
-:::
 
 ## Tamaño {#sizing}
 
-**Ancho** y **Alto** pueden ser **1×** o **2×**, así que un widget ocupa una o dos celdas de ancho y una o dos de alto. Una cámara puede llegar a **3×** de ancho. Un gráfico nunca ocupa una sola celda de ancho. En un panel de tres columnas, un medidor de dos de ancho ocupa dos tercios de la fila. Suele ser una buena forma para tu parámetro más importante.
+**Ancho** y **Alto** pueden ser **1×** o **2×**, así que un widget ocupa una o dos celdas de ancho y una o dos de alto. Un gráfico nunca ocupa una sola celda de ancho. En un panel de tres columnas, un medidor de dos de ancho ocupa dos tercios de la fila. Suele ser una buena forma para tu parámetro más importante.
 
 ## Qué muestra un widget de parámetro {#what-a-parameter-widget-shows}
 
@@ -106,6 +96,6 @@ Qué dispositivos pueden tener casilla depende de lo que hayas conectado. Consul
 
 ## Casillas de dosificadora {#doser-tiles}
 
-La casilla de una dosificadora (un DŌS de Apex, una ReefDose o una Versa de EcoTech) muestra una fila por cabezal. El nombre de un cabezal nunca se reduce por debajo de un tamaño legible. En una casilla alta, la fila ocupa dos líneas, con el nombre en la primera y lo que queda en la segunda, por ejemplo *40d* y *2,8 L*. En una casilla baja se quita la línea de detalle y el nombre se mantiene legible.
+La casilla de una dosificadora (un DŌS de Apex o una ReefDose) muestra una fila por cabezal. El nombre de un cabezal nunca se reduce por debajo de un tamaño legible. En una casilla alta, la fila ocupa dos líneas, con el nombre en la primera y lo que queda en la segunda, por ejemplo *40d* y *2,8 L*. En una casilla baja se quita la línea de detalle y el nombre se mantiene legible.
 
 Elige qué va primero con **Mostrar lo restante como**: **Días** o **Mililitros (mL)**. Un cabezal ReefDose sin nombre propio se muestra como el nombre del dispositivo seguido de "head" y su número. La casilla de una dosificadora Jecod es de solo lectura y muestra el plan diario, porque Jecod no informa de cuánto queda en la botella.

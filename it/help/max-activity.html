@@ -95,9 +95,6 @@
 <li><a href="/it/help/mobile-schedules">Programmare l&#x27;attrezzatura</a></li>
 <li><a href="/it/help/mobile-probes">Mappatura parametri e sonde</a></li>
 <li><a href="/it/help/mobile-consumables">Materiali di consumo e avvisi di rifornimento</a></li>
-<li><a href="/it/help/mobile-cameras">Telecamere e Controllo schiumatoio</a></li>
-<li><a href="/it/help/mobile-ecotech">Luci, pompe e dosatori EcoTech</a></li>
-<li><a href="/it/help/mobile-beta">Funzioni Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Avvisi e automazione</summary><ul>
@@ -193,7 +190,7 @@
 <h2 id="leggerla-insieme-al-diario">Leggerla insieme al diario</h2>
 <p>Attività mostra cosa ha fatto il sistema. Il <a href="/it/help/max-records">diario</a> mostra cosa hai fatto tu a mano. Insieme spiegano la maggior parte delle sorprese.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-records"><span>Precedente</span><b>Diario, popolazione e manutenzione</b></a><a class="pn-n" href="/it/help/max-intelligence"><span>Successivo</span><b>Reef Buddy e report</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.170 e Cora Mobile 0.5.111. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -584,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=60b8434692').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

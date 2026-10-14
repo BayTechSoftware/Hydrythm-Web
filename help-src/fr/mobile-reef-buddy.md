@@ -3,7 +3,7 @@ title: Reef Buddy
 description: Votre briefing quotidien Reef Buddy, ce qu’il couvre, quand il arrive, comment lire les scores, et pourquoi un briefing peut ne pas arriver.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 31
 group: Intelligence
 twin: max-intelligence
 ---
@@ -29,6 +29,7 @@ Vient ensuite un résumé, un court paragraphe qui explique le titre avec vos vr
 
 Puis viennent les analyses, une par constat. Chacune a une catégorie (comme *Chimie de l’eau*) et une fréquence (comme *Quotidien*), et vous pouvez la déplier pour plus de détails. Une puce en haut de la section indique le type d’aquarium et à quel point son profil est complet. Les deux influencent ce que Cora peut conclure.
 
+
 Cora filtre les analyses avant qu’elles ne vous parviennent. Une analyse doit tenir sur plusieurs mesures. Une seule ne suffit pas. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne montrerait pas déjà.
 
 Touchez la carte du tableau de bord pour ouvrir le briefing complet.
@@ -51,11 +52,8 @@ Les mesures des sondes et des contrôleurs ne déclenchent pas cette proposition
 
 Sous une analyse, touchez **Pourquoi je vois ceci ?** La feuille **Pourquoi vous voyez ceci** liste les **Mesures utilisées**, la **Cible de comparaison** (votre propre cible, ou une plage de référence), tout ce qui vient **Dans votre journal** et qu’elle a pris en compte, et la période en jours qu’elle a examinée. Si le raisonnement ne correspond pas à votre aquarium, répondez à l’analyse comme décrit dans [Corriger une analyse](#correcting-an-insight).
 
-Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité notée à la main à côté de celle d’un appareil, les totaux de vos têtes DŌS et, si vous avez un moniteur d’air ambiant Inkbird, la température et l’humidité de la pièce.
+Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils peuvent utiliser les programmes de vos lampes, la vitesse d’un rouleau ReefMat, votre alcalinité notée à la main à côté de celle d’un appareil et les totaux de vos têtes DŌS.
 
-:::note Inkbird est en Beta
-**Beta.** Inkbird est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support. Plus de détails dans [Fonctions Beta](/help/mobile-beta).
-:::
 
 ## Quand il arrive {#when-it-arrives}
 

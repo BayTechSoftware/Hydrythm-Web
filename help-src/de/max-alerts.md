@@ -18,7 +18,8 @@ Wenn ein Messwert den Bereich verlässt, ein Gerät einen Fehler meldet, eine Do
 2. **Verschieben** macht die Warnung auf diesem Cora Max eine Weile still. Die Taste zeigt, wie lange, zum Beispiel **1 Std. schlummern**. Das ist die Abklingzeit, die für diese Warnung in den Warneinstellungen von Cora Mobile festgelegt ist, und sie kann bis zu 1 Woche dauern (praktisch etwa bei einem niedrigen Reagenzstand, der sich tagelang nicht ändert).
 3. **Verwerfen** schließt die Warnung sofort. Sie bleibt auf diesem Bildschirm still, bis das Problem vorbei ist. Kommt es später zurück, bekommst du eine neue Warnung.
 
-Geht es bei der Warnung um einen Dosierer, etwa einen DŌS- oder ReefDose-Kopf, der zur Neige geht, oder eine verpasste Dosierung, hat die Karte zusätzlich eine Taste **DŌS öffnen** oder **ReefDose öffnen** (**Versa öffnen** bei einem EcoTech Versa). Sie bringt dich zur Seite dieses Dosierers, wo seine Warnungen eingestellt werden.
+Geht es bei der Warnung um einen Dosierer, etwa einen DŌS- oder ReefDose-Kopf, der zur Neige geht, oder eine verpasste Dosierung, hat die Karte zusätzlich eine Taste **DŌS öffnen** oder **ReefDose öffnen**. Sie bringt dich zur Seite dieses Dosierers, wo seine Warnungen eingestellt werden.
+
 
 Zeigt Verschieben oder Verwerfen einen Fehler, versuch es noch einmal. Klappt es weiterhin nicht, siehe [Eine Warnung verschwindet nicht](/help/troubleshooting#an-alert-is-not-clearing).
 
@@ -53,13 +54,10 @@ Das Schwellenwert-Fenster hat denselben Schalter oben, neben **Warnung an** oder
 
 ## Geräte- und Vorratswarnungen {#doser-alerts}
 
-Ausrüstung mit etwas, das zur Neige geht, hat auf ihrer Seite auf Cora Max eine Taste **Warnungseinstellungen**. Das sind ein Trident (Reagenzien und Abfall), DŌS-Köpfe, Red Sea ReefDose, ReefATO+ und ReefMat sowie die EcoTech Radion, VorTech und Versa. Wähl den Stand, bei dem du Bescheid bekommen willst, und du bekommst eine Benachrichtigung, sobald er unterschritten ist. Bei einem DŌS-Kopf meldet dir **Warnungen bei verpasster Dosierung** außerdem, wenn der Kopf seine geplanten Dosierungen auslässt.
+Ausrüstung mit etwas, das zur Neige geht, hat auf ihrer Seite auf Cora Max eine Taste **Warnungseinstellungen**. Das sind ein Trident (Reagenzien und Abfall), DŌS-Köpfe, Red Sea ReefDose, ReefATO+ und ReefMat. Wähl den Stand, bei dem du Bescheid bekommen willst, und du bekommst eine Benachrichtigung, sobald er unterschritten ist. Bei einem DŌS-Kopf meldet dir **Warnungen bei verpasster Dosierung** außerdem, wenn der Kopf seine geplanten Dosierungen auslässt.
 
 Was jede Dosierer-Warnung bedeutet, steht unter [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
 
-:::note Beta
-**Beta.** EcoTech ist in der Beta und nur für Beta-Nutzer offen. Wenn du kein Beta-Nutzer bist, siehst du es nicht unter **Gerät hinzufügen**. Für Beta-Zugang wende dich an den [Support](/support.html).
-:::
 
 ## Warnton, gesprochene Warnungen und Aufwecken des Bildschirms
 

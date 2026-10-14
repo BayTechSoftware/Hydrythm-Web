@@ -57,7 +57,7 @@ Tocca un widget nell'editor per aprirne le impostazioni. A seconda del widget, p
 | **Parametro** | Widget di parametro: quale parametro mostra |
 | La presa o il dispositivo | Riquadri di prese e attrezzatura: quale mostra |
 | **Mostra il rimanente come** | Riquadri dei dosatori: **Giorni** o **Millilitri (mL)** |
-| **Larghezza** | Ogni widget: **1×** o **2×** (una telecamera fino a **3×**). Un grafico è sempre largo almeno 2 |
+| **Larghezza** | Ogni widget: **1×** o **2×**. Un grafico è sempre largo almeno 2 |
 | **Altezza** | Ogni widget: **1×** o **2×** |
 | **Intervallo di tempo** | Grafico: 1h, 6h, 24h, 7g, 30g o 1a |
 
@@ -78,7 +78,7 @@ La dashboard di Cora Max la modifichi a parte, da **Dispositivi →** il tuo Cor
 Quell'editor ha tre cose in più rispetto alla dashboard del telefono:
 
 - **Le mie dashboard** conserva fino a 30 design salvati sul tuo account. Qualsiasi Cora Max dell'account può caricarne uno. I riquadri che la destinazione non può riempire sono elencati sotto **Lasciati indietro:** prima del caricamento.
-- **Modelli** apre **Modelli di dashboard**: **Panoramica**, **Attrezzatura**, **Parametri** e, quando la vasca ha una telecamera, **Fotocamera**. È disponibile con tutti i piani e non usa l'IA. Le telecamere sono in Beta e disponibili solo per gli utenti Beta.
+- **Modelli** apre **Modelli di dashboard**: **Panoramica**, **Attrezzatura** e **Parametri**. È disponibile con tutti i piani e non usa l'IA.
 - **Progetta con l'IA**, con un piano a pagamento o durante la prova, propone un layout completo in base a quello che la vasca riporta e ha collegato. Puoi fare 5 design per vasca al giorno.
 
 Come funziona ognuno è spiegato in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).

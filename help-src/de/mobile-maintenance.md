@@ -3,7 +3,7 @@ title: Wartung
 description: Wiederkehrende Aufgaben wie Abschäumer reinigen oder Filtersocken wechseln hinzufügen, erinnert werden, wenn sie fällig sind, und sie als erledigt markieren oder verschieben.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 28
 group: Records
 twin: max-records
 ---

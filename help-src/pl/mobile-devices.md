@@ -15,23 +15,28 @@ W zakładce **Urządzenia** dodajesz, przypisujesz, nazywasz, sprawdzasz i usuwa
 ## Dodawanie sprzętu {#adding-equipment}
 
 1. W zakładce **Urządzenia** dotknij **Dodaj urządzenie**.
-2. Wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** albo **AquaWiz**. Użytkownicy Beta widzą też **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** i **Kamera**, każdą z chipem **Beta**.
+2. Wybierz markę: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** albo **AquaWiz**.
 3. Wykonaj kroki dla danej marki. W zależności od marki to skanowanie sieci, adres IP, logowanie albo klucz urządzenia. [Podłączanie sprzętu](/help/mobile-connections) opisuje kroki dla każdej marki.
 4. Wybierz akwarium, do którego należy.
 
-![Lista Dodaj urządzenie u użytkownika Beta](img/mobile-add-device-beta.webp "Marki Beta mają chip Beta.")
+![Lista marek w Dodaj urządzenie](img/mobile-add-device-brands.webp "Wybierz markę dodawanego urządzenia.")
 
-:::note Beta
-**Beta.** Integracje Beta są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
-Wiersz, który wymaga Cora Max w akwarium (Maxspect, GHL, EcoTech, Inkbird i Kamera), jest wyszarzony i pokazuje **Wymaga Cora Max**, dopóki akwarium go nie ma.
 
 :::note Bez Cora Max część sprzętu działa tylko lokalnie
 Ze sprzętem Neptune Apex, Red Sea i Jecod łączysz się przez sieć domową albo Bluetooth. Bez Cora Max ekran dodawania pokazuje *Bez Cora Max ta integracja działa tylko lokalnie w aplikacji Mobile.* Telefon odczytuje go i nim steruje tylko wtedy, gdy jest w tej samej sieci (albo w zasięgu Bluetooth). Poza domem widzisz ostatnie odczyty zapisane przez telefon i nie możesz nim sterować. Cora Max przy akwarium odczytuje go przez całą dobę i przekazuje Twoje polecenia. Więcej w [Podłączaniu sprzętu](/help/mobile-connections#local-only).
 :::
 
 Gdy dodajesz sprzęt ze swojej sieci, telefon musi być w tej samej sieci co sprzęt.
+
+### Pojemność Bluetooth {#bluetooth-capacity}
+
+Cora Max dzieli swój Bluetooth między cały sprzęt, który odczytuje, więc nadąży tylko z ograniczoną liczbą urządzeń. Gdy dodajesz pompę Jecod łączącą się przez Bluetooth, Cora najpierw sprawdza, jak bardzo obciążony jest Cora Max akwarium. Zwykle nic nie widzisz. W przeciwnym razie pojawia się jeden z dwóch komunikatów:
+
+- **Bluetooth robi się zajęty**: *Ten Cora Max zbliża się do limitu Bluetooth. Więcej urządzeń może aktualizować się rzadziej. Dodaj drugi Cora Max, jeśli planujesz dodać więcej.* Dotknij **Dalej**, aby mimo to dodać urządzenie, albo **Anuluj**.
+- **Osiągnięto limit Bluetooth**: *Ten Cora Max osiągnął limit Bluetooth. Dodaj drugi Cora Max dla tych urządzeń.* Urządzenie nie zostaje dodane. Dotknij **OK**.
+
+Cora sprawdza główny Cora Max akwarium albo, jeśli żaden nie jest wybrany, Cora Max z największym zapasem. Więcej w [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device#primary-cora-max).
 
 ## Parowanie Cora Max {#pairing-a-cora-max}
 
@@ -48,7 +53,7 @@ Dotknij dowolnego urządzenia na liście, żeby otworzyć jego stronę. Najpierw
 - **Połączenie** to miejsce, w którym edytujesz jego adres IP, dane logowania albo klucz urządzenia.
 - **Usuń urządzenie**, na samym dole.
 
-Cora Max, Neptune Apex i GHL mogą obsługiwać więcej niż jedno akwarium, więc ich wybór akwarium to lista z polami wyboru. Cora Max można przypisać do maksymalnie czterech. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Wszystko inne, w tym HYDROS, obsługuje jedno akwarium naraz. Wybranie innego przenosi tam urządzenie i zdejmuje je ze starego.
+Cora Max i Neptune Apex mogą obsługiwać więcej niż jedno akwarium, więc ich wybór akwarium to lista z polami wyboru. Cora Max można przypisać do maksymalnie czterech. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Wszystko inne obsługuje jedno akwarium naraz. Wybranie innego przenosi tam urządzenie i zdejmuje je ze starego.
 
 :::warning Przypisz akwarium, zanim zaczniesz polegać na odczytach
 Urządzenie bez akwarium nadal raportuje, ale jego liczby nie mają gdzie trafić. Jeśli właśnie dodane urządzenie nie pokazuje się na pulpicie, najpierw sprawdź to.
@@ -83,7 +88,6 @@ Więcej zobaczysz po otwarciu urządzenia. Jego sekcja **Stan** pokazuje, kiedy 
 | „Zaktualizowano 3 godz. temu” przy czymś, co raportuje tylko co kilka godzin | Wszystko w porządku |
 | „Nie udało się połączyć…” | Problem z siecią albo urządzenie jest wyłączone |
 | „…odmówiło logowania” | Konto producenta trzeba połączyć ponownie. Otwórz urządzenie i zaloguj się jeszcze raz |
-| „Czeka na Cora Max” | Właśnie dodany kontroler GHL albo monitor Inkbird: pojawi się, gdy odczyta go Cora Max |
 | Starsze odczyty, gdy jesteś poza domem | Normalne dla Apex, Red Sea i Jecod bez Cora Max przy akwarium (zobacz wyżej) |
 | Nic | Urządzenie nigdy nie raportowało. Sprawdź przypisanie do akwarium i połączenie |
 

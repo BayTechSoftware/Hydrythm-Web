@@ -3,7 +3,7 @@ title: Alerty i progi
 description: Ustaw prawidłowy zakres dla każdego odczytu, wybierz, jak często alert może Cię powiadamiać, i sprawdź, dlaczego urządzenie „przestało raportować”.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 20
+order: 22
 group: Alerts and automation
 twin: max-alerts
 ---
@@ -87,7 +87,6 @@ Gdy alert już trwa, nie będzie Cię ciągle powiadamiać o tym samym. [Czas ws
 
 Niektóre alerty dotyczą sprzętu, a nie odczytu. Gdy urządzenie, na przykład Trident albo pompa Jecod, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, na przykład *„Akwarium główne: Pompa powrotna wymaga uwagi”*. Podaje też, co jest nie tak, na przykład zablokowany wirnik. Gdy usterka minie, dostaniesz drugie: *„Akwarium główne: Pompa powrotna znów działa poprawnie”*. Oba należą do **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
 
-Maxspect Gyre (Beta) może wywołać ten sam alert. Dzieje się tak, gdy Cora Max w jego sieci znajdzie obie głowice ustawione na 0% albo dwa razy z rzędu nie dostanie odpowiedzi od Gyre. Traktuj to jako ostrzeżenie, a nie zabezpieczenie. Cora Max sprawdza tylko od czasu do czasu i tylko wtedy, gdy działa i może połączyć się z Gyre.
 
 ## Urządzenie przestało raportować {#stopped-reporting}
 
@@ -101,27 +100,16 @@ Jak długo Cora czeka, zależy od urządzenia:
 | Red Sea ReefBeat | Około 30 minut |
 | AquaWiz | Około 3 godzin, bo raportuje rzadziej |
 | Pompy Jecod | Trzy brakujące odczyty z rzędu, według interwału odczytu pompy (90 minut przy domyślnych 30) |
-| Maxspect (Beta) | Trzy brakujące odczyty z rzędu, tak jak Jecod |
-| EcoTech (Beta) | Trzy brakujące odczyty z rzędu, według interwału odczytu sieci (90 minut przy domyślnych 30). Jeśli ustawisz dłuższy czas w **Światło przestaje odpowiadać**, Cora czeka tak długo |
-| Monitor powietrza w pomieszczeniu Inkbird (Beta) | Trzy brakujące odczyty z rzędu, według własnego interwału monitora (15 minut przy domyślnych 5) |
-| Focustronic (Beta) | Około 3 godzin |
-| GHL (Beta) | Około 15 minut. Powiadomienie mówi *„kontroler GHL nieosiągalny”* |
-| HYDROS (Beta) | Około 30 minut. Powiadomienie mówi *„kontroler HYDROS nie odpowiada”* |
+| Wtyczka Zigbee | Nie wróciła 30 minut po restarcie huba. Nadaj jej nazwę przez **Zmień nazwę**, aby alert ją wskazywał |
 
 Co sprawdzić, zależy od tego, jak Cora odczytuje urządzenie.
 
-- Apex, ReefBeat, Jecod, Maxspect i GHL odczytuje Cora Max przez Wi-Fi. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony i online.
-- EcoTech i Inkbird odczytuje Cora Max przez Bluetooth. Sprawdź zasilanie, to, czy urządzenie jest w zasięgu Bluetooth Cora Max, i czy Cora Max jest włączony.
-- AquaWiz i Focustronic są odczytywane przez Twoje konto u producenta. Sprawdź połączenie z kontem na stronie urządzenia w Cora Mobile.
-- Przy HYDROS sprawdź zasilanie, Wi-Fi i klucz urządzenia.
+- Apex, ReefBeat i Jecod odczytuje Cora Max przez Wi-Fi. Sprawdź zasilanie i Wi-Fi urządzenia oraz to, czy Cora Max, który je odczytuje, jest włączony i online.
+- AquaWiz jest odczytywany przez Twoje konto u producenta. Sprawdź połączenie z kontem na stronie urządzenia w Cora Mobile.
 
-GHL może też powiedzieć *„API GHL jest wyłączone”* albo że kontroler *„odrzucił połączenie”*. Jeśli Cora Max, który odczytuje kontroler GHL, ucichnie, dostaniesz *„Cora Max nie raportuje dla”* tego kontrolera. Rozwiązania są w [Rozwiązywaniu problemów](/help/troubleshooting).
 
 Te powiadomienia należą do **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
 
-:::note Beta
-Maxspect, EcoTech, Inkbird, Focustronic, GHL i HYDROS są w wersji Beta i są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Więcej w [Funkcjach Beta](/help/mobile-beta).
-:::
 
 Akwarium Red Sea może też pokazać baner *„Odczyty Red Sea przestały się aktualizować”*, gdy żaden telefon ani Cora Max nie odczytuje jego sprzętu ReefBeat. Dotknij go, żeby wybrać **Główne Cora Max**. Pełne rozwiązanie jest w [Rozwiązywaniu problemów](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 

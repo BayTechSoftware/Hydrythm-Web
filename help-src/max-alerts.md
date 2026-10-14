@@ -18,7 +18,8 @@ When a reading goes out of range, a device reports a fault, a dose is missed or 
 2. **Snooze** silences the alert on this Cora Max for a while. The button shows how long, for example **Snooze 1 h**. That's the cooldown set for this alert in Cora Mobile's alert settings, and it can be as long as 1 week (handy for something like a low reagent level that won't change for days).
 3. **Dismiss** closes the alert now. It stays quiet on this screen until the problem is gone. If it comes back later, you'll get a new alert.
 
-When the alert is about a doser, such as a DŌS or ReefDose head running low or a missed dose, the card also has an **Open DŌS** or **Open ReefDose** button (**Open Versa** for an EcoTech Versa). It takes you to that doser's page, where its alerts are set.
+When the alert is about a doser, such as a DŌS or ReefDose head running low or a missed dose, the card also has an **Open DŌS** or **Open ReefDose** button. It takes you to that doser's page, where its alerts are set.
+
 
 If Snooze or Dismiss shows an error, try once more. If it keeps failing, see [An alert is not clearing](/help/troubleshooting#an-alert-is-not-clearing).
 
@@ -53,13 +54,10 @@ The threshold sheet has the same switch at the top, next to **Alert on** or **Al
 
 ## Device and supply alerts {#doser-alerts}
 
-Equipment with something that runs out has an **Alert settings** button on its page on Cora Max. That's a Trident (reagents and waste), DŌS heads, Red Sea ReefDose, ReefATO+ and ReefMat, and the EcoTech Radion, VorTech and Versa. Pick the level you want to hear about, and you get one notification when it's passed. On a DŌS head, **Missed dose alerts** also tells you when the head misses its scheduled doses.
+Equipment with something that runs out has an **Alert settings** button on its page on Cora Max. That's a Trident (reagents and waste), DŌS heads, Red Sea ReefDose, ReefATO+ and ReefMat. Pick the level you want to hear about, and you get one notification when it's passed. On a DŌS head, **Missed dose alerts** also tells you when the head misses its scheduled doses.
 
 What each doser alert means is in [Doser alerts](/help/mobile-device-control#doser-alerts).
 
-:::note Beta
-**Beta.** EcoTech is in Beta and only open to Beta users. If you are not a Beta user you will not see it in **Add device**. To ask for Beta access, contact [support](/support.html).
-:::
 
 ## Alert sound, spoken alerts and waking the screen
 

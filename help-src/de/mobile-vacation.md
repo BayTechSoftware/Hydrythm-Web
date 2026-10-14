@@ -3,7 +3,7 @@ title: Verreisen: ein Plan für deine Urlaubsvertretung
 description: Den Urlaubsmodus einschalten, eine Checkliste für deine Urlaubsvertretung erstellen und sie als Seite nur zum Lesen mit Live-Messwerten teilen, die ohne Konto geöffnet wird.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 25
 group: Alerts and automation
 ---
 

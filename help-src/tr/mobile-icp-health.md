@@ -3,7 +3,7 @@ title: ICP ve sağlık raporları
 description: Bir ICP testi PDF'i yükleyin ya da laboratuvarınızın göndermesini sağlayın, puanı okuyun, her elementi zaman içinde izleyin ve tüm sisteminiz için bir Sağlık Raporu çalıştırın.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ Her element satırında, Cora'nın o element için kendi aralığının yanında
 Laboratuvar bir element için *n.d.* ya da *not detected* (tespit edilmedi) basarsa Cora onu 0 olarak kaydeder ve tespit edilmediğini söyler.
 
 :::note Çözünmüş CO2 oda CO2'si değildir
-Bir ICP raporundaki **Çözünmüş CO₂**, mg/L cinsinden sudaki CO2'dir. Bir Inkbird oda havası monitörünün ölçtüğü odanızdaki havanın CO2'sinden farklı bir ölçümdür. İkisinin aralıkları farklıdır ve asla karıştırılmazlar. **Beta.** Inkbird Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz onu **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için destek ekibiyle iletişime geçin.
+Bir ICP raporundaki **Çözünmüş CO₂**, mg/L cinsinden sudaki CO2'dir. Odanızdaki havanın CO2'sinden farklı bir ölçümdür. İkisinin aralıkları farklıdır ve asla karıştırılmazlar.
 :::
 
 **Son ICP'nizden bu yana** kartı geçen seferden bu yana en çok neyin değiştiğini gösterir. Genellikle yeni bir rapora girmenin en hızlı yoludur.

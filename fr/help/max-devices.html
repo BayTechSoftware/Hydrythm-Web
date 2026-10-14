@@ -95,9 +95,6 @@
 <li><a href="/fr/help/mobile-schedules">Programmer l’équipement</a></li>
 <li><a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li>
 <li><a href="/fr/help/mobile-consumables">Consommables et alertes de réapprovisionnement</a></li>
-<li><a href="/fr/help/mobile-cameras">Caméras et surveillance de l’écumeur</a></li>
-<li><a href="/fr/help/mobile-ecotech">Lampes, pompes et doseurs EcoTech</a></li>
-<li><a href="/fr/help/mobile-beta">Fonctions Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertes et automatisation</summary><ul>
@@ -179,10 +176,9 @@
 <h2 id="the-device-list">La liste des appareils</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Agrandir : La liste des appareils sur Cora Max, filtrée par aquarium et regroupée par marque"><img src="/help/img/max-devices.webp" alt="La liste des appareils sur Cora Max, filtrée par aquarium et regroupée par marque" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Filtrez par aquarium, puis chaque appareil regroupé par marque, avec un résumé d’une ligne et son aquarium.</figcaption></figure>
 <p>Cora Max voit le même équipement que votre téléphone, car ils lisent tous les deux le même compte.</p>
-<p>Utilisez les puces de filtre en haut pour afficher <strong>Tous les aquariums</strong> ou un seul. Les appareils sont regroupés par marque. Chaque entrée a un point d’état (gris quand Cora ne sait pas encore, vert quand il fonctionne, orange pour un avertissement ou une panne, rouge quand il est hors ligne), un résumé d’une ligne de ce que contient l’appareil (<em>21 prises · 4 nourrissages</em>, <em>19 tests restants</em>), l’aquarium auquel il appartient et sa <strong>Dernière connexion</strong>. Les appareils en Beta portent une puce <strong>Bêta</strong>.</p>
+<p>Utilisez les puces de filtre en haut pour afficher <strong>Tous les aquariums</strong> ou un seul. Les appareils sont regroupés par marque. Chaque entrée a un point d’état (gris quand Cora ne sait pas encore, vert quand il fonctionne, orange pour un avertissement ou une panne, rouge quand il est hors ligne), un résumé d’une ligne de ce que contient l’appareil (<em>21 prises · 4 nourrissages</em>, <em>19 tests restants</em>), l’aquarium auquel il appartient et sa <strong>Dernière connexion</strong>.</p>
 <p>Touchez un appareil pour ouvrir sa page. Chaque page d’appareil commence par une section <strong>État</strong>. Ce que chaque page permet de faire est expliqué dans <a href="/fr/help/max-device-control">Contrôler l’équipement depuis Cora Max</a>.</p>
 <p>Si la liste indique <strong>Chargement de certains appareils en cours : cette liste peut être incomplète.</strong>, patientez un instant.</p>
-<aside class="cal cal-note"><p class="cal-t">Beta</p><p><strong>Beta.</strong> Les lampes, pompes et doseurs EcoTech™, les moniteurs d’air ambiant Inkbird™ et les caméras sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans <strong>Ajouter un appareil</strong>. Pour demander l’accès Beta, contactez le <a href="/support.html">support</a>. Plus de détails dans <a href="/fr/help/mobile-beta">Fonctions Beta</a>.</p></aside>
 <h3 id="renaming-a-device">Renommer un appareil</h3>
 <p>Touchez le crayon sur la ligne d’un appareil, ou sur sa page, et tapez le nouveau nom. Laissez le nom vide pour revenir au nom propre de l’appareil. Le nom est partagé avec votre téléphone, il change donc là aussi.</p>
 <h3 id="adding-and-removing-devices">Ajouter et retirer des appareils</h3>
@@ -205,7 +201,7 @@
 <p>Sous <strong>Aquariums</strong>, chaque aquarium affiché par ce Cora Max a une carte avec <strong>Disposition du tableau de bord</strong>, <strong>Modifier l’aquarium</strong> et son appareil d’interrogation. <strong>Ajouter un aquarium</strong> et l’icône de retrait changent les aquariums qu’il affiche, et ces changements s’appliquent à tout le compte. Vous ne pouvez les faire que sur votre téléphone. Les étapes sont dans <a href="/fr/help/max-setup#changing-which-tanks-it-shows">Configurer Cora Max</a>. Le Cora Max principal d’un aquarium peut se changer depuis votre téléphone comme depuis Cora Max.</p>
 <p>Sous <strong>Réinitialisation</strong>, <strong>Réinitialiser l’écran</strong> renvoie l’écran à son écran d’association. Il reste sur votre Wi-Fi, vous pouvez donc l’associer à nouveau en Bluetooth, et les données de vos aquariums sont conservées. <strong>Retirer l’appareil</strong> le retire de votre compte. Les mesures de vos aquariums sont conservées, et vous pourrez l’associer à nouveau plus tard.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-device-control"><span>Précédent</span><b>Contrôler l’équipement depuis Cora Max</b></a><a class="pn-n" href="/fr/help/max-alerts"><span>Suivant</span><b>Alertes sur Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.170 et Cora Mobile 0.5.111. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -596,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=510bd9a02f').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

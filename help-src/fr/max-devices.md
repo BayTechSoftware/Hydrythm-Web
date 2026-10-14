@@ -16,15 +16,12 @@ twin: mobile-devices
 
 Cora Max voit le même équipement que votre téléphone, car ils lisent tous les deux le même compte.
 
-Utilisez les puces de filtre en haut pour afficher **Tous les aquariums** ou un seul. Les appareils sont regroupés par marque. Chaque entrée a un point d’état (gris quand Cora ne sait pas encore, vert quand il fonctionne, orange pour un avertissement ou une panne, rouge quand il est hors ligne), un résumé d’une ligne de ce que contient l’appareil (*21 prises · 4 nourrissages*, *19 tests restants*), l’aquarium auquel il appartient et sa **Dernière connexion**. Les appareils en Beta portent une puce **Bêta**.
+Utilisez les puces de filtre en haut pour afficher **Tous les aquariums** ou un seul. Les appareils sont regroupés par marque. Chaque entrée a un point d’état (gris quand Cora ne sait pas encore, vert quand il fonctionne, orange pour un avertissement ou une panne, rouge quand il est hors ligne), un résumé d’une ligne de ce que contient l’appareil (*21 prises · 4 nourrissages*, *19 tests restants*), l’aquarium auquel il appartient et sa **Dernière connexion**.
 
 Touchez un appareil pour ouvrir sa page. Chaque page d’appareil commence par une section **État**. Ce que chaque page permet de faire est expliqué dans [Contrôler l’équipement depuis Cora Max](/help/max-device-control).
 
 Si la liste indique **Chargement de certains appareils en cours : cette liste peut être incomplète.**, patientez un instant.
 
-:::note Beta
-**Beta.** Les lampes, pompes et doseurs EcoTech, les moniteurs d’air ambiant Inkbird et les caméras sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
-:::
 
 ### Renommer un appareil {#renaming-a-device}
 
@@ -42,6 +39,7 @@ Pour le voir ou le changer, ouvrez **Réglages → [votre aquarium] → Cora Max
 
 - **Tout appareil actif (automatique)** veut dire que chaque appareil Cora en ligne qui peut joindre l’équipement de cet aquarium partage le travail, et la dernière écriture l’emporte. Utilisez cette option sauf si vous avez une raison d’épingler un appareil.
 - Épinglez un appareil, pour que lui seul lise l’équipement. S’il se déconnecte, aucun autre Cora Max ne prend le relais. Seul Cora Mobile, ouvert sur le même Wi-Fi, lit l’équipement jusqu’à ce que vous en épingliez un autre ou que vous repassiez sur **Tout appareil actif (automatique)**.
+
 
 Vous le réglez une fois pour l’aquarium, et il s’applique à tous les écrans Cora. Vous pouvez le changer depuis n’importe quel Cora Max qui affiche l’aquarium, ou depuis Cora Mobile (**Définir comme Cora Max principal** sur la page du Cora Max). Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device).
 

@@ -3,12 +3,13 @@ title: Activity and timeline
 description: See every change sent to your equipment, who or what asked for it and whether it worked, and read the tank's timeline around a date.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 28
+order: 30
 group: Records
 twin: max-activity
 ---
 
 Activity lists every attempt to change something on your equipment: outlet switches, feed cycles, doses, and anything a scene or automation did. Each row shows what asked for it and what happened next, including the requests that didn't work.
+
 
 Go to **Settings → Activity**. If you have more than one tank, pick it with the tank chips at the top.
 

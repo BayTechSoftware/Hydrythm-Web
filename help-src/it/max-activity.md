@@ -18,6 +18,7 @@ Aprilo dal **menu della vasca** (tocca il nome della vasca nella barra in alto),
 
 Ogni riga mostra l'attrezzatura e cosa è stato chiesto, per esempio *Risalita: Spenta*, e l'orario. Ti dice anche altre due cose.
 
+
 **Cosa l'ha chiesto.** Per esempio **Toccato su questo Cora**, **Voce su questo Cora**, **App Cora**, **Voce nell'app Cora**, **Regola di automazione** o **Inviato dal cloud**.
 
 **Che strada ha fatto.** **LAN** vuol dire che è passato sulla tua rete. **TRAMITE CLOUD** vuol dire che è passato da Cora Cloud. Se hai più di un Cora Max, la voce dice anche quale l'ha eseguito.

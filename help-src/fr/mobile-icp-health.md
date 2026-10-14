@@ -3,7 +3,7 @@ title: Rapports ICP et de santé
 description: Importez le PDF d’un test ICP ou faites-le envoyer par votre laboratoire, lisez le score, suivez chaque élément dans le temps et lancez un rapport de santé de tout votre système.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 31
+order: 33
 group: Intelligence
 twin: max-intelligence
 ---
@@ -87,7 +87,7 @@ Sur la ligne de chaque élément, vous voyez la plage imprimée par le laboratoi
 Si le laboratoire imprime *n.d.*, ou *non détecté*, pour un élément, Cora l’enregistre à 0 et indique qu’il n’a pas été détecté.
 
 :::note Le CO2 dissous n’est pas le CO2 de la pièce
-Le **CO₂ dissous** d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce, que mesure un moniteur d’air ambiant Inkbird. Les deux ont des plages différentes et ne sont jamais mélangés. **Beta.** Inkbird est en Beta et n’est ouvert qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne le verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support.
+Le **CO₂ dissous** d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce. Les deux ont des plages différentes et ne sont jamais mélangés.
 :::
 
 La carte **Depuis votre dernier ICP** montre ce qui a le plus changé depuis la dernière fois. C’est en général le moyen le plus rapide d’aborder un nouveau rapport.

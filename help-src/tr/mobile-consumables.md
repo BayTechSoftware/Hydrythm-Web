@@ -19,7 +19,7 @@ Nereden ayarlanır:
 
 - **Çoğu cihaz**: cihaz sayfasının üst çubuğundaki zil.
 - **DŌS**: DŌS sayfasındaki **Uyarılar** kartı ya da zil. [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümüne bakın.
-- **AquaWiz ve GHL dozaj pompaları**: [Uyarı Merkezi](/help/mobile-alerts)'nin **Kurallar** sekmesindeki kuralları.
+- **AquaWiz**: [Uyarı Merkezi](/help/mobile-alerts)'nin **Kurallar** sekmesindeki kuralları.
 
 Eşiklerin çoğu hacim olarak değil gün olarak girilir. Cora, kalan miktarın sizin kullanım hızınızla ne kadar yeteceğini hesaplar. "Dört günlük kalsiyum kaldı" bilgisiyle bir şey yapabilirsiniz. "180 mL kaldı" bilgisiyle yapamazsınız.
 
@@ -37,14 +37,7 @@ Eşiklerin çoğu hacim olarak değil gün olarak girilir. Cora, kalan miktarın
 | ReefATO+ | Son su tamamlama kullanımından tahmin edilen **Depo süresi** | 2 gün |
 | ReefMat | Rulonun ilerleme hızından tahmin edilen **Kalan rulo** | 3 gün |
 | AquaWiz | Kalan alkalinite takviyesi | 100 mL |
-| GHL dozaj pompası *(Beta)* | Kabın ne kadar dolu olduğu | %20 |
-| EcoTech Versa *(Beta)* | Takviyenin kaç gün yeteceği ve kabın ne kadar dolu olduğu | 7 gün, %10 |
 
-Bir Focustronic *(Beta)* ünitesi kendi reaktif ve tampon uyarılarını kendi sayfasında gösterir.
-
-:::note Beta
-**Beta.** GHL, EcoTech ve Focustronic Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
-:::
 
 Sarf malzemesi uyarısı diğer uyarılar gibi çalışır. [Uyarı Merkezi](/help/mobile-alerts)'nde görünür ve telefonunuza bildirim gönderebilir. Bir seviye aşıldığında **tek** bildirim alırsınız. Seviye yeniden eşiğin üstüne çıkınca uyarı kapanır.
 
@@ -65,7 +58,6 @@ Uyarının kapanması ve bir sonraki uyarının doğru seviyeden hesaplanması i
 | DŌS kafası | **Doldur**, ardından **Dolu**, ya da **Kalan Hacim**'i ayarlayın |
 | DŌS atık kabı | Boşalttıktan sonra boş alanını tam olarak sıfırlayın |
 | ReefDose kafası | **Şişede kalan** |
-| ReefMat | Yeni rulo taktıktan sonra **Yeni rulo (Beta)** |
-| EcoTech Versa *(Beta)* | **Dolduruldu olarak işaretle** |
+| ReefMat | Yeni rulo taktıktan sonra **Yeni rulo** |
 
 Trident, ReefATO+ ve AquaWiz kendi seviyelerini bildirir, bu yüzden Cora'da sıfırlanacak bir şey yoktur.

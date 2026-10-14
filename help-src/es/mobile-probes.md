@@ -9,7 +9,7 @@ group: Equipment
 
 Usa **Asignación de parámetros** para decirle a Cora qué mide cada sonda y, cuando dos sondas informan de lo mismo, en cuál confiar. Ve a **Ajustes**, abre el acuario y toca **Asignación de parámetros**.
 
-Está entre **Editar acuario** y **Umbrales de alerta**. El lápiz de la parte superior del panel abre **Editar acuario**, que no la tiene. También puedes llegar desde las páginas de dispositivo de Neptune Apex y GHL (Beta). GHL solo está abierto a los usuarios Beta. Consulta [Funciones Beta](/help/mobile-beta).
+Está entre **Editar acuario** y **Umbrales de alerta**. El lápiz de la parte superior del panel abre **Editar acuario**, que no la tiene. También puedes llegar desde las páginas de dispositivo de Neptune Apex.
 
 La pantalla tiene un campo de búsqueda (**Buscar parámetros**) y dos pestañas, **Asignación** y **Fuentes**. La búsqueda mira los nombres de parámetros, los nombres de sondas, los dispositivos y las marcas. El mismo campo de búsqueda está en todos los selectores de parámetros.
 

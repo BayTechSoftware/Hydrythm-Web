@@ -15,23 +15,28 @@ The **Devices** tab is where you add, assign, rename, check and remove every pie
 ## Adding equipment {#adding-equipment}
 
 1. On the **Devices** tab, tap **Add Device**.
-2. Pick the brand: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** or **AquaWiz**. Beta users also see **Maxspect**, **GHL**, **HYDROS**, **Focustronic**, **EcoTech**, **Inkbird** and **Camera**, each with a **Beta** chip.
+2. Pick the brand: **Cora**, **Neptune Apex**, **Red Sea**, **Jecod** or **AquaWiz**.
 3. Follow the brand's steps. Depending on the brand that's a network scan, an IP address, a sign-in or a device key. [Connecting your equipment](/help/mobile-connections) has the steps for each brand.
 4. Choose the tank it belongs to.
 
-![The Add device list for a Beta user](img/mobile-add-device-beta.webp "Beta brands carry a Beta chip.")
+![The Add Device brand list](img/mobile-add-device-brands.webp "Pick the brand of the equipment you are adding.")
 
-:::note Beta
-**Beta.** The Beta integrations are only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact [support](/support.html). More in [Beta features](/help/mobile-beta).
-:::
 
-A row that needs a Cora Max in the tank (Maxspect, GHL, EcoTech, Inkbird and Camera) is greyed out and says **Requires Cora Max** until the tank has one.
 
 :::note Without a Cora Max, some equipment is local only
 Neptune Apex, Red Sea and Jecod equipment is reached over your home network or Bluetooth. Without a Cora Max, the add screen says *This integration works only locally on the Mobile app without Cora Max.* Your phone reads and controls it only while it's on the same network (or in Bluetooth range). Away from home you see the last readings your phone saved and can't control it. A Cora Max at the tank reads it around the clock and passes your commands on. More in [Connecting your equipment](/help/mobile-connections#local-only).
 :::
 
 When you add equipment from your network, your phone has to be on the same network as the equipment.
+
+### Bluetooth capacity {#bluetooth-capacity}
+
+A Cora Max shares its Bluetooth between all the equipment it reads, so it can only keep up with so much. When you add a Jecod pump that connects over Bluetooth, Cora checks how busy the tank's Cora Max is first. Usually you see nothing. Otherwise one of two messages appears:
+
+- **Bluetooth is getting busy**: *This Cora Max is close to its Bluetooth limit. More devices may update less often. Add a second Cora Max if you plan to add more.* Tap **Continue** to add the device anyway, or **Cancel**.
+- **Bluetooth limit reached**: *This Cora Max is at its Bluetooth limit. Add a second Cora Max for these devices.* The device isn't added. Tap **OK**.
+
+Cora checks the tank's primary Cora Max or, if none is chosen, the Cora Max with the most room. More in [More than one Cora device](/help/mobile-multi-device#primary-cora-max).
 
 ## Pairing a Cora Max {#pairing-a-cora-max}
 
@@ -48,7 +53,7 @@ Tap any device in the list to open its page. Its controls come first, then secti
 - **Connection** is where you edit its IP address, sign-in or device key.
 - **Remove device**, at the bottom.
 
-Cora Max, Neptune Apex and GHL can serve more than one tank, so their tank picker is a checklist. Cora Max can be assigned up to four. See [More than one Cora device](/help/mobile-multi-device). Everything else, including HYDROS, serves one tank at a time. Picking a different one moves the device there and takes it off the old one.
+Cora Max and Neptune Apex can serve more than one tank, so their tank picker is a checklist. Cora Max can be assigned up to four. See [More than one Cora device](/help/mobile-multi-device). Everything else serves one tank at a time. Picking a different one moves the device there and takes it off the old one.
 
 :::warning Assign the tank before you rely on the readings
 A device without a tank still reports, but its numbers have nowhere to go. If a device you just added isn't showing on a dashboard, check this first.
@@ -83,7 +88,6 @@ For more, open the device. Its **Status** section shows when Cora last heard fro
 | "Updated 3 h ago" on something that only reports every few hours | Fine |
 | "Could not reach…" | A network problem, or the device is off |
 | "…refused the sign-in" | The manufacturer's account needs reconnecting. Open the device and sign in again |
-| "Waiting for Cora Max" | A GHL controller or Inkbird monitor you just added: it shows up once a Cora Max has read it |
 | Older readings while you're away | Normal for Apex, Red Sea and Jecod without a Cora Max at the tank (see above) |
 | Nothing at all | It's never reported. Check the tank assignment and the connection |
 

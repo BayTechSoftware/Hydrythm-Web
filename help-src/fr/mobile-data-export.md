@@ -3,7 +3,7 @@ title: Exporter vos données et supprimer votre compte
 description: Exportez vos mesures, votre journal et vos alertes en fichiers de tableur, déconnectez-vous, ou supprimez votre compte Cora et voyez ce que cela efface.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 38
 group: Settings and account
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Controlar equipos desde Cora Max
-description: Las páginas de dispositivo en Cora Max para Neptune Apex, Trident y DŌS, Red Sea ReefBeat, Jecod, AquaWiz y las marcas Beta, marca a marca.
+description: Las páginas de dispositivo en Cora Max para Neptune Apex, Trident y DŌS, Red Sea ReefBeat, Jecod y AquaWiz, marca a marca.
 section: Cora Max
 reviewed: 2026-10-13
 order: 6
@@ -25,21 +25,9 @@ Los equipos se añaden, se asignan y se quitan en tu teléfono. Cora Max los mue
 | **Neptune Apex** | Sondas y tomas, y puedes cambiar cada toma |
 | **Trident** | El estado de la prueba, los niveles de reactivo y de residuos, y un botón para empezar una prueba |
 | **DŌS**, incluido el DŌS QD | La dosificación, el horario, la autonomía y el volumen del envase de cada cabezal (con pausa, llenado, dosificar ahora y una medición única de veinte segundos) |
-| **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de las bombas, además de un editor completo del plan de ReefDose y del programa de ReefRun y los ajustes de ReefMat *(Beta)* |
-| **Red Sea ReefControl**, **ReefControl Power**, **ReefWave**, **ReefLED** *(Beta)* | Las sondas de ReefControl. Los enchufes de ReefControl Power como tomas, encendidos o apagados, todavía sin modo automático. ReefWave y ReefLED, solo consulta |
+| **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de las bombas, además de un editor completo del plan de ReefDose y los ajustes de ReefMat |
 | **Jecod** | El modo y la intensidad de la bomba, y su programa diario |
 | **AquaWiz** | No tiene página propia. Aparece en **Dispositivos**, y sus lecturas van al panel |
-| **Maxspect** *(Beta)* | El modo y la velocidad de **Gyre A** y **Gyre B**, **Salud de la bomba** (cuenta atrás de limpieza, corriente del cabezal A, cabezales instalados, firmware) y su horario, solo consulta |
-| **GHL ProfiLux / Mitras** *(Beta)* | Sondas, tomas, dosificadoras, sensores de nivel y, en los modelos Director, resultados de pruebas de KH y de iones |
-| **HYDROS** *(Beta)* | Lo que informe su clave de dispositivo: entradas y, con una clave de escritura, salidas, modos, cabezales de dosificación y órdenes del analizador |
-| **Focustronic** *(Beta)* | Estado, última prueba, bombas y viales, además de **Medir ahora**, **Dosificar ahora** o **Probar ahora** según la unidad |
-| **EcoTech** *(Beta)* | Luces Radion, bombas VorTech y dosificadoras Versa, cada una con su propia página. Las órdenes a VorTech y Versa todavía no se han probado en hardware real |
-| **Inkbird** *(Beta)* | Lecturas del aire de la habitación, solo lectura |
-| **Cámara** *(Beta)* | Una imagen de tu cámara, como casilla en el panel o en su propia página, con la vigilancia del skimmer en los planes de pago |
-
-:::note Beta
-**Beta.** Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird y las cámaras están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Puede que algunas lecturas o controles todavía no funcionen.
-:::
 
 La mayoría de las páginas de dispositivo tienen un lápiz para cambiar el nombre del dispositivo. El nombre nuevo también aparece en tu teléfono. Más información en [Dispositivos y estado de los dispositivos](/help/max-devices).
 
@@ -68,7 +56,7 @@ Un DŌS no tiene sensor de nivel y sigue dosificando con el envase vacío. Fija 
 En la hoja de ajustes de un cabezal puedes fijar su **tipo de uso**. Las opciones son **Suplemento**, **Cambio de agua: entrada de agua salada nueva**, **Cambio de agua: salida de agua vieja**, **Agua de kalk**, **Reactor de calcio**, **Alimento** o **Relleno**, y **Otro**. El tipo de uso cambia dos cosas.
 
 - El tamaño del envase que puede seguir. Todos los tipos de uso pueden seguir un envase de hasta 1.000 litros. Por encima del contador propio del Apex de 150 litros, Cora sigue el volumen por su cuenta, y restablece el contador del Apex cada 100 litros.
-- Si puede dar una dosis grande a mano. Los cabezales de Suplemento y Alimento mantienen el tope actual, pequeño y prudente. Todos los demás tipos de uso pueden tener su propio límite de **Dosis manual más grande**, hasta un tope máximo de 10 litros, y su propio **Límite diario para automatizaciones y el asistente**. Una dosis manual grande también necesita **Dosis grandes (Beta)** activado en los ajustes del cabezal, que viene desactivado. Actívalo solo después de haber visto la primera dosis grande en el acuario.
+- Si puede dar una dosis grande a mano. Los cabezales de Suplemento y Alimento mantienen el tope actual, pequeño y prudente. Todos los demás tipos de uso pueden tener su propio límite de **Dosis manual más grande**, hasta un tope máximo de 10 litros, y su propio **Límite diario para automatizaciones y el asistente**. Una dosis manual grande también necesita **Dosis grandes** activado en los ajustes del cabezal, que viene desactivado. Actívalo solo después de haber visto la primera dosis grande en el acuario.
 
 Puedes vincular una pareja de cambio de agua (entrada de agua salada nueva, salida de agua vieja) como **Cabezal emparejado** y fijar una cantidad en **Aviso de balance por encima de**. Si los totales del día de los dos cabezales se separan más que eso, Cora te avisa. Una pareja desequilibrada suele significar que uno de los lados no bombea como debería.
 
@@ -86,13 +74,17 @@ Cada unidad Red Sea tiene una página adaptada a lo que hace: los cabezales y en
 
 Si una unidad Red Sea se detiene sola, su página te dice qué pasa y pone la solución justo al lado. Es **Reanudar**, **Borrar emergencia**, **Sensor limpiado**, **Ya cargué un rollo nuevo** o **Restablecer** para un cabezal de dosificación.
 
-Un plan de ReefDose, un programa de velocidad de ReefRun y el avance programado, el modelo, la posición y el rollo nuevo de ReefMat funcionan aquí igual que en tu teléfono. [Controlar tus equipos](/help/mobile-device-control) tiene los detalles.
+Un plan de ReefDose y el avance programado, el modelo, la posición y el rollo nuevo de ReefMat funcionan aquí igual que en tu teléfono. [Controlar tus equipos](/help/mobile-device-control) tiene los detalles.
 
-ReefControl, ReefControl Power, ReefWave y ReefLED llevan *(Beta)* en su nombre pero están abiertos a todos. ReefControl muestra sus sondas. Los enchufes de ReefControl Power aparecen como tomas, solo encendidos o apagados. ReefWave y ReefLED son solo de consulta, de momento.
 
 ## Jecod {#jecod}
 
-La página de Jecod muestra el modo y la intensidad de la bomba, y puedes cambiar los dos.
+La página de Jecod muestra el modo y la intensidad de la bomba, y puedes cambiar los dos. Su estado está en la fila del título, junto al nombre de la bomba. La barra superior tiene el interruptor, el patrón que se ejecuta ahora y **Alimentación** con cuatro botones: **5**, **10**, **15** y **30** min. Toca uno para pausar la bomba ese tiempo. Debajo hay dos tarjetas:
+
+- **Igual todo el día**: toca un ajuste para ejecutarlo todo el día.
+- **Horario**: el gráfico del día y la lista de planes, con **ahora** en el actual. **Editar** abre el editor y el menú ⋮ tiene **Copiar horario a…**, **Guardar horario como…** y **Horarios guardados…**.
+
+La tarjeta en marcha tiene un contorno y una etiqueta **En marcha**. Una bomba Jecod no tiene el botón **Terminar alimentación**. Toda bomba Jecod que puede pausarse para alimentar muestra los botones de **5**, **10**, **15** y **30** min. En una Jecod Pro, la casilla Alimentación de los patrones de ola hace lo mismo, durante 10 minutos. Por un Cora Max lejos del acuario, una bomba Jecod solo alimenta 10 minutos. Una bomba que ahora no puede alimentar muestra el motivo en una línea corta bajo los botones, y una pulsación larga muestra la frase completa.
 
 Puedes escribir programas diarios de bombas Jecod en la pantalla de pared igual que en tu teléfono. El editor es el mismo, con un gráfico del día, una lista de periodos y una fila de acciones. Más información en [Programar equipos](/help/mobile-schedules).
 
@@ -100,77 +92,6 @@ Puedes escribir programas diarios de bombas Jecod en la pantalla de pared igual 
 
 Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en **Dispositivos**, donde puedes cambiarle el nombre, y sus lecturas salen en el panel como cualquier otra fuente. Configúralo y gestiónalo en tu teléfono, consulta [Conectar tus equipos](/help/mobile-connections).
 
-## Maxspect {#maxspect}
-
-:::note Beta
-**Beta.** Maxspect está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Puede que algunas lecturas o controles todavía no funcionen.
-:::
-
-La página de Maxspect muestra el modo y la velocidad de **Gyre A** y **Gyre B** y su **Salud de la bomba**. Aquí puedes ver el horario de un gyre, pero no guardarlo. Configúralo en la app de Maxspect.
-
-## GHL ProfiLux y Mitras {#ghl}
-
-:::note Beta
-**Beta.** GHL está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Puede que algunas lecturas o controles todavía no funcionen.
-:::
-
-Conecta un controlador GHL desde tu teléfono: **Dispositivos → Agregar dispositivo → GHL**. [Conectar tus equipos](/help/mobile-connections) tiene los pasos. Cora Max lo muestra y lo controla en cuanto un Cora Max de su red lo ha leído, pero la configuración se hace en el teléfono.
-
-Un ProfiLux mini lee sus sondas, tomas, dosificadoras y sensores de nivel. Con **Permitir el control desde Cora (Beta)** activado, un mini también puede encender y apagar sus tomas, igual que cualquier otro controlador GHL. Todo lo demás, como los valores de consigna y la pausa de alimentación, necesita un ProfiLux 3, 4 o Mitras.
-
-Los controles siguen desactivados hasta que activas **Permitir el control desde Cora (Beta)** en la página del dispositivo. Viene desactivado. Cuando está activado, una toma se puede poner en **Siempre encendido**, **Siempre apagado** o **Volver a automático**, y un valor de consigna como la temperatura o el pH muestra su rango permitido y rechaza un valor fuera de él. Los dos tipos de cambio se guardan en el propio controlador y se quedan ahí aunque Cora pierda después el contacto con él. Un cambio que parece afectar a un calentador o a una bomba de retorno te pide que confirmes dos veces.
-
-Si el envase de una dosificadora se está acabando, Cora te avisa igual que con otros consumibles. El valor predeterminado es el 20 % de llenado, y puedes cambiarlo desde la regla de la dosificadora en el [Centro de alertas](/help/mobile-alerts).
-
-Si el controlador no acepta un cambio, probablemente su API de GHL está desactivada. GHL la desactiva después de cada actualización de firmware. Vuelve a activarla desde **System → GHL API** en GHL Control Center o GHL Connect. [Solución de problemas](/help/troubleshooting) tiene el resto.
-
-## HYDROS {#hydros}
-
-:::note Beta
-**Beta.** HYDROS está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Puede que algunas lecturas o controles todavía no funcionen.
-:::
-
-HYDROS llega a su controlador a través de la nube de HYDROS, así que funciona aunque Cora Max esté en otra red que el controlador. Solo se configura desde tu teléfono: **Dispositivos → Agregar dispositivo → HYDROS**. [Conectar tus equipos](/help/mobile-connections) tiene los pasos.
-
-Leerlo y controlarlo funciona igual que en tu teléfono. Consulta [Controlar tus equipos](/help/mobile-device-control) para las salidas, los modos, los cabezales de dosificación y las órdenes del analizador, y para los límites de dosis por cabezal.
-
-## Focustronic {#focustronic}
-
-:::note Beta
-**Beta.** Focustronic está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html). Puede que algunas lecturas o controles todavía no funcionen.
-:::
-
-La página de Focustronic muestra el estado de la unidad, su última prueba y sus bombas y viales. En **Controles**:
-
-- Un Alkatronic tiene **Medir ahora**.
-- Un Dosetronic tiene **Dosificar ahora** para cada bomba. Escribe la cantidad, hasta 500 mL de una vez, toca **Revisar** y confirma. Una dosis no se puede deshacer, y Cora nunca la reintenta.
-- Un Mastertronic tiene un perfil de prueba para elegir y **Probar ahora**.
-
-Estas órdenes pasan por los servidores de Focustronic, que Cora no controla. Configura la unidad en tu teléfono, consulta [Conectar tus equipos](/help/mobile-connections).
-
-## EcoTech, Inkbird y cámaras {#ecotech-inkbird-and-cameras}
-
-:::note Beta
-**Beta.** EcoTech, Inkbird y las cámaras están en Beta y solo están abiertos a los usuarios Beta. Si no eres usuario Beta, no los verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
-:::
-
-Se vinculan desde tu teléfono, y un Cora Max del acuario hace la lectura.
-
-### EcoTech {#ecotech}
-
-Las luces Radion, las bombas VorTech y las dosificadoras Versa tienen cada una su propia página, con un botón **Configuración de alertas** para sus suministros. [Luces, bombas y dosificadoras EcoTech](/help/mobile-ecotech) tiene los detalles.
-
-### Inkbird {#inkbird}
-
-Un monitor de aire de habitación Inkbird muestra sus lecturas y nada más.
-
-### Cámaras y vigilancia del skimmer {#cameras}
-
-Para mostrar una cámara en la pared, añade una casilla **Cámara** en el [editor del panel](/help/max-dashboard-editing). Toca la casilla para abrir la cámara a pantalla completa. Sus botones desaparecen a los pocos segundos, y un toque los hace volver.
-
-Con la vigilancia del skimmer activada (planes de pago), la casilla de la cámara y la vista a pantalla completa muestran el nivel del vaso y su antigüedad, por ejemplo *Vaso 42 % · hace 5 min*. Se pone ámbar a 10 puntos de tu nivel de alerta y roja al alcanzarlo. En la cámara a pantalla completa, **Aviso al 80 %** (o tu nivel) abre **Aviso del vaso del skimmer**, donde fijas el nivel. Recibes una notificación cuando el vaso lo alcanza.
-
-Cómo configurar una cámara y la vigilancia del skimmer se explica en [Cámaras y vigilancia del skimmer](/help/mobile-cameras).
 
 ## Consumibles {#consumables}
 

@@ -3,7 +3,7 @@ title: Interroger Cora
 description: Utilisez Cora Assistant à l’écrit ou à la voix, ce qu’il voit, ce qu’il peut faire pour vous, l’interrupteur de partage de données et la mémoire.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 30
+order: 32
 group: Intelligence
 twin: max-voice
 ---
@@ -58,9 +58,6 @@ Noter un test, une entrée de journal ou un repas se fait dès que vous le deman
 
 La commande de l’équipement ne fonctionne loin de chez vous que si un Cora Max à l’aquarium peut joindre l’équipement. Voir [Ce qui fonctionne loin de chez vous](/help/mobile-multi-device#what-works-away-from-home).
 
-:::note Équipement en Beta
-Cora peut aussi commander l’équipement GHL, HYDROS, Focustronic, Maxspect et EcoTech (Radion, VorTech et Versa). **Beta.** Ces intégrations sont en Beta et ne sont ouvertes qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le support.
-:::
 
 :::warning Cora conseille. Vous décidez
 Vérifiez tout ce qui est important avec vos propres tests. Traitez les gros changements comme vous traiteriez le conseil de n’importe qui, et vérifiez qu’ils tiennent debout avant d’agir. La ligne sous la zone de saisie dit la même chose.

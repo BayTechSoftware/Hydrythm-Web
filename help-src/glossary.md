@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene, Skimmer Watch and the other words you'll see in the apps.
+description: What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you'll see in the apps.
 section: Help
 reviewed: 2026-10-13
 order: 5
@@ -32,9 +32,6 @@ The AquaWiz KH Controller, an alkalinity tester. Cora reads it through AquaWiz's
 
 A rule that runs by itself, like "if temperature goes above 27, turn on the fan". Each rule has a [trigger](#trigger), optional [conditions](#condition) and one or more actions. Find them in Cora Mobile under **Settings → Automations**. See [Automations and scenes](/help/mobile-automation).
 
-## Beta
-
-An integration we're still testing and developing. **Beta.** The Beta integrations (Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird and cameras) are only open to Beta users. If you are not a Beta user you will not see them in **Add device**. To ask for Beta access, contact support. Features that only carry "(Beta)" in their name, such as Large doses or ReefMat settings, are open to everyone. See [Beta features](/help/mobile-beta).
 
 ## Calibration
 
@@ -96,9 +93,7 @@ A pause for feeding. On a Neptune Apex, **Feed** starts one of the feed cycles, 
 
 How you usually feed, set once for the tank (for example, flakes twice a day). After that you only log the days that differ, and Reef Buddy takes both into account. See [The journal](/help/mobile-journal).
 
-## GHL
 
-GHL Advanced Technology, maker of the ProfiLux and Mitras controllers. Cora's GHL support is in **Beta** and only open to Beta users. See [Equipment by brand](/help/equipment-by-brand).
 
 ## Guided journey
 
@@ -108,9 +103,6 @@ A step-by-step plan Cora walks you through, such as cycling a new tank or workin
 
 A deeper, periodic look at a whole system. It takes every parameter, source, dose and recent lab result into account together. See [ICP and health reports](/help/mobile-icp-health).
 
-## HYDROS
-
-CoralVue's controller and dosing system. Cora reads it through HYDROS's own cloud, so it keeps working away from home. Cora's HYDROS support is in **Beta** and only open to Beta users. See [Equipment by brand](/help/equipment-by-brand).
 
 ## ICP
 
@@ -154,7 +146,7 @@ A six-digit number Cora Max shows at the end of setup. It's the only way into re
 
 ## Red Sea ReefBeat
 
-Red Sea's family of connected equipment: ReefDose, ReefRun, ReefMat, ReefATO+, ReefWave, ReefLED and ReefControl. Cora reads it on your home network. See [Equipment by brand](/help/equipment-by-brand).
+Red Sea's family of connected equipment: ReefDose, ReefRun, ReefMat and ReefATO+. Cora reads it on your home network. See [Equipment by brand](/help/equipment-by-brand).
 
 ## Reef Buddy
 
@@ -168,9 +160,6 @@ The Cora Max screen that shows all your tanks side by side. On screen it's calle
 
 A tank you removed. Its data is kept, and you can bring it back from **Settings → Removed tanks**. See [Managing your tanks](/help/mobile-tanks).
 
-## Requires Cora Max
-
-A tag on a brand in **Add Device**. That equipment is read by a Cora Max, so the tank needs one first. See [Equipment by brand](/help/equipment-by-brand).
 
 ## Saved design
 
@@ -180,9 +169,6 @@ A Cora Max dashboard layout you've kept under **My dashboards**. You can apply i
 
 A named group of actions, like "Water change" or "Night". You can run it when you want, on a schedule, or from inside another [automation](#automation). Scenes are shared by Cora Mobile and Cora Max. See [Automations and scenes](/help/mobile-automation).
 
-## Skimmer Watch
-
-A camera feature that watches the skimmer collection cup and warns you before it overflows. Cora Max checks the cup every 15 minutes. It needs a camera, which is in **Beta** and only open to Beta users, and a paid plan. See [Cameras and Skimmer Watch](/help/mobile-cameras).
 
 ## Snooze
 
@@ -226,4 +212,4 @@ Tank-sitter mode. You make a dated plan with a checklist of jobs, and Cora turns
 
 ## Widget
 
-One tile on a dashboard that shows one thing, such as a value, a gauge, a graph, an outlet or a camera. See [Widget reference](/help/mobile-widgets).
+One tile on a dashboard that shows one thing, such as a value, a gauge, a graph or an outlet. See [Widget reference](/help/mobile-widgets).

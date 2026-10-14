@@ -18,7 +18,8 @@ Cuando una lectura sale de rango, un dispositivo informa de un fallo, se omite u
 2. **Posponer** silencia la alerta en este Cora Max durante un tiempo. El botón muestra cuánto, por ejemplo **Posponer 1 h**. Es el tiempo de espera fijado para esta alerta en los ajustes de alertas de Cora Mobile, y puede llegar a 1 semana (útil para algo como un nivel bajo de reactivo que no va a cambiar en días).
 3. **Descartar** cierra la alerta ahora. Se queda en silencio en esta pantalla hasta que el problema desaparece. Si vuelve más tarde, recibirás una alerta nueva.
 
-Cuando la alerta trata de un dosificador, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, la tarjeta también tiene un botón **Abrir DŌS** o **Abrir ReefDose** (**Abrir Versa** para una EcoTech Versa). Te lleva a la página de ese dosificador, donde se configuran sus alertas.
+Cuando la alerta trata de un dosificador, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, la tarjeta también tiene un botón **Abrir DŌS** o **Abrir ReefDose**. Te lleva a la página de ese dosificador, donde se configuran sus alertas.
+
 
 Si Posponer o Descartar muestran un error, inténtalo una vez más. Si sigue fallando, consulta [Una alerta no desaparece](/help/troubleshooting#an-alert-is-not-clearing).
 
@@ -53,13 +54,10 @@ La hoja del umbral tiene el mismo interruptor arriba, junto a **Alerta activada*
 
 ## Alertas de dispositivos y suministros {#doser-alerts}
 
-Los equipos con algo que se acaba tienen un botón **Configuración de alertas** en su página de Cora Max. Son el Trident (reactivos y residuos), los cabezales DŌS, las Red Sea ReefDose, ReefATO+ y ReefMat, y las EcoTech Radion, VorTech y Versa. Elige el nivel del que quieres enterarte, y recibes una notificación cuando se pasa. En un cabezal DŌS, **Alertas de dosis omitida** también te avisa cuando el cabezal se salta sus dosis programadas.
+Los equipos con algo que se acaba tienen un botón **Configuración de alertas** en su página de Cora Max. Son el Trident (reactivos y residuos), los cabezales DŌS, las Red Sea ReefDose, ReefATO+ y ReefMat. Elige el nivel del que quieres enterarte, y recibes una notificación cuando se pasa. En un cabezal DŌS, **Alertas de dosis omitida** también te avisa cuando el cabezal se salta sus dosis programadas.
 
 Lo que significa cada alerta de dosificador está en [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
 
-:::note Beta
-**Beta.** EcoTech está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en **Agregar dispositivo**. Para pedir acceso Beta, contacta con [soporte](/support.html).
-:::
 
 ## Sonido de alerta, alertas habladas y encender la pantalla
 

@@ -27,9 +27,8 @@ Düzenlemek için bir sahneye, yeni bir sahne oluşturmak için **Yeni Sahne**'y
    - **Apex Prizi**: bir Neptune Apex prizini **AÇIK**, **KAPALI** ya da **OTOMATİK** konumuna alır.
    - **Bir Red Sea cihazını kontrol et**: örneğin **ReefDose: şimdi dozla**, **ReefDose: günlük dozu ayarla**, **ReefRun: pompa hızını ayarla**, **ATO: manuel dolum başlat** ya da **ReefMat: ruloyu ilerlet**.
    - **Bir Dalga Pompasını Kontrol Et**: bir Jecod pompasının akışını ya da dalga modunu ayarlar, açar ya da kapatır veya **Besleme için duraklat**.
-   - **Gyre için besleme başlat**: besleme için bir Maxspect gyre'yi duraklatır. Kendiliğinden yeniden başlar.
-   - **GHL**: besleme duraklatma, bakım, su değişimi, ışık sahnesi ve diğer kontrolcü komutları.
-   - **HYDROS**: bir mod, bir çıkış seviyesi, bir doz ya da **HYDROS: programa geri dön**.
+   - **Bir Trident testi başlat**: alkalinite, birleşik ya da besinler. Her çalıştırma reaktif harcar.
+   - **Bir Apex besleme döngüsü başlat**: döngüyü seçin. Besleme zamanlayıcısı Apex'tedir ve bitince kendiliğinden devam eder.
 3. Başka adımları da aynı şekilde ekleyin. Sıralarını değiştirebilir ya da kaldırabilirsiniz. Bu ekranın düzenleyemediği bir adımda **Burada düzenlenemez** yazar. Onu telefonunuzda düzenleyin.
 4. Ne kadar çalışacağını seçin. **Süreli**, **Süre (dakika)** alanına girdiğiniz dakika kadar çalışır. **Kalıcı**, siz durdurana kadar çalışır.
 5. Sahnenin ikinci kez bakılması gereken hiçbir şeye dokunmadığından emin değilseniz **Çalıştırmadan önce sor**'u açık bırakın.
@@ -39,9 +38,6 @@ Düzenlemek için bir sahneye, yeni bir sahne oluşturmak için **Yeni Sahne**'y
 Bir Neptune DŌS kafası hiçbir zaman sahne adımı olamaz. **ReefDose: şimdi dozla** adımı olabilir ve kendi **Doz başına maksimum (ml)** alanı vardır. 10 mL için boş bırakın. Bu sınırın üstündeki bir doz reddedilir, asla küçültülmez. Dozaj yapan her sahnede **Çalıştırmadan önce sor**'u açık tutun.
 :::
 
-:::note Beta
-**Beta.** Maxspect, GHL ve HYDROS Beta aşamasındadır ve yalnızca Beta kullanıcılarına açıktır. Beta kullanıcısı değilseniz bunları **Cihaz Ekle** içinde görmezsiniz. Beta erişimi istemek için [destek](/support.html) ile iletişime geçin.
-:::
 
 ## Sahne çalıştırma
 

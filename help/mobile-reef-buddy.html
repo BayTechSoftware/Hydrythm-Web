@@ -95,9 +95,6 @@
 <li><a href="/help/mobile-schedules">Scheduling equipment</a></li>
 <li><a href="/help/mobile-probes">Parameter Mapping and probes</a></li>
 <li><a href="/help/mobile-consumables">Consumables and refill alerts</a></li>
-<li><a href="/help/mobile-cameras">Cameras and Skimmer Watch</a></li>
-<li><a href="/help/mobile-ecotech">EcoTech lights, pumps and dosers</a></li>
-<li><a href="/help/mobile-beta">Beta features</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alerts and automation</summary><ul>
@@ -195,8 +192,7 @@
 <p>Probe and controller readings don't trigger this offer, because they come in all day.</p>
 <h2 id="why-youre-seeing-an-insight">Why you're seeing an insight</h2>
 <p>Under an insight, tap <strong>Why am I seeing this?</strong> The sheet <strong>Why you're seeing this</strong> lists the <strong>Readings it used</strong>, the <strong>Target it compared against</strong> (your own target, or a reference range), anything <strong>From your journal</strong> that it took into account, and the time window in days it looked at. If the reasoning doesn't fit your tank, answer the insight as described in <a href="#correcting-an-insight">Correcting an insight</a>.</p>
-<p>Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's, the totals of your DŌS heads and, if you have an Inkbird™ room air monitor, the room's temperature and humidity.</p>
-<aside class="cal cal-note"><p class="cal-t">Inkbird is in Beta</p><p><strong>Beta.</strong> Inkbird is in Beta and only open to Beta users. If you are not a Beta user you will not see it in <strong>Add device</strong>. To ask for Beta access, contact support. More in <a href="/help/mobile-beta">Beta features</a>.</p></aside>
+<p>Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's and the totals of your DŌS heads.</p>
 <h2 id="when-it-arrives">When it arrives</h2>
 <p>Once a day for each tank, at the hour you choose. Set it in <strong>Settings → Briefing time</strong>, next to <strong>Notifications</strong>. The briefing arrives within about 15 minutes of that hour, in your own time zone. If you never choose, it comes at 8:00.</p>
 <p>Pick an hour after your usual morning test, so today's result is in the briefing.</p>
@@ -220,7 +216,7 @@
 <p>When Reef Buddy flags a drift, it also asks <em>Was this heads-up useful?</em> You can answer <strong>Helpful</strong>, <strong>Not helpful</strong>, <strong>This change is expected</strong> or <strong>Reading looks wrong</strong>. Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts for a while. If the problem is still there, the insight comes back.</p>
 <aside class="cal cal-note"><p class="cal-t">Serious findings are never hidden</p><p>Feedback only quiets lower-severity insights. Warning and critical insights keep showing up, whatever you've answered before.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-activity"><span>Previous</span><b>Activity and timeline</b></a><a class="pn-n" href="/help/mobile-assistant"><span>Next</span><b>Asking Cora</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.170 and Cora Mobile 0.5.111. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -611,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=a564921959').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

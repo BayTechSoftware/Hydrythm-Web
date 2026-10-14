@@ -95,9 +95,6 @@
 <li><a href="/es/help/mobile-schedules">Programar equipos</a></li>
 <li><a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a></li>
 <li><a href="/es/help/mobile-consumables">Consumibles y alertas de reposición</a></li>
-<li><a href="/es/help/mobile-cameras">Cámaras y vigilancia del skimmer</a></li>
-<li><a href="/es/help/mobile-ecotech">Luces, bombas y dosificadoras EcoTech</a></li>
-<li><a href="/es/help/mobile-beta">Funciones Beta</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Alertas y automatización</summary><ul>
@@ -209,7 +206,7 @@
 <p>Se sigue cada elemento, incluidos los oligoelementos y los contaminantes además de los parámetros principales. Cora registra los 71 elementos que puede informar un laboratorio, y la línea que algunos laboratorios llaman <em>Acidez</em> es el pH.</p>
 <p>En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado como <em>Rango del laboratorio</em>, junto al rango propio de Cora para ese elemento. Un elemento para el que Cora no tiene rango de referencia lleva la etiqueta <strong>Sin rango de Cora</strong>. El informe indica cuántos elementos tienen un rango de Cora y valora el resto con el conocimiento general de arrecife. Cora Assistant comenta todos los elementos analizados, y su comentario se mantiene aunque no haya rango de Cora.</p>
 <p>Si el laboratorio imprime <em>n.d.</em>, o <em>no detectado</em>, para un elemento, Cora lo registra como 0 e indica que no se detectó.</p>
-<aside class="cal cal-note"><p class="cal-t">El CO2 disuelto no es el CO2 de la habitación</p><p><strong>CO₂ disuelto</strong> en un informe de ICP es el CO2 del agua, en mg/L. Es una lectura distinta del CO2 del aire de tu habitación, que mide un monitor de aire de habitación Inkbird™. Los dos tienen rangos distintos y nunca se mezclan. <strong>Beta.</strong> Inkbird está en Beta y solo está abierto a los usuarios Beta. Si no eres usuario Beta, no lo verás en <strong>Agregar dispositivo</strong>. Para pedir acceso Beta, contacta con el soporte.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">El CO2 disuelto no es el CO2 de la habitación</p><p><strong>CO₂ disuelto</strong> en un informe de ICP es el CO2 del agua, en mg/L. Es una lectura distinta del CO2 del aire de tu habitación. Los dos tienen rangos distintos y nunca se mezclan.</p></aside>
 <p>La tarjeta <strong>Desde tu último ICP</strong> muestra lo que más ha cambiado desde la última vez. Suele ser la forma más rápida de entrar en un informe nuevo.</p>
 <p>Toca <strong>Tendencias</strong> para ver cualquier elemento a lo largo de todas las pruebas que has subido. Aquí es donde el ICP se vuelve realmente útil.</p>
 <aside class="cal cal-tip"><p class="cal-t">La segunda prueba es la interesante</p><p>Un ICP te dice dónde estás. El segundo te dice hacia dónde vas, y eso es con lo que puedes actuar. Haz pruebas con un ritmo regular, y no esperes a que algo vaya mal.</p></aside>
@@ -232,7 +229,7 @@
 <p>La pantalla Inteligencia mantiene separados los dos tipos. Los resultados de laboratorio están en <strong>INFORMES DE ICP</strong> y las revisiones generadas en <strong>INFORMES DE SALUD</strong>. Cada lista muestra primero el más reciente, con su puntuación. Toca uno para volver a abrirlo completo.</p>
 <p>También puedes llegar a ellos desde <strong>Ajustes</strong>: abre un acuario y después <strong>Informes ICP</strong> o <strong>Informes de salud</strong>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-assistant"><span>Anterior</span><b>Preguntar a Cora</b></a><a class="pn-n" href="/es/help/mobile-journeys"><span>Siguiente</span><b>Itinerarios guiados</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.170 y Cora Mobile 0.5.111. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -623,7 +620,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cafcf056d6').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -3,7 +3,7 @@ title: Automatisations et scènes
 description: Faites agir Cora tout seul selon une mesure, une alerte, une heure ou un appareil qui se déconnecte, et regroupez des actions en scènes que vous lancez d’un seul appui.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 22
+order: 24
 group: Alerts and automation
 twin: max-automation
 ---
@@ -37,7 +37,7 @@ Ajoutez un ou plusieurs déclencheurs sous **Quand : n’importe quel déclench
 | Déclencheur | Se déclenche quand |
 |---|---|
 | **Quand une valeur change** | Un paramètre franchit une valeur que vous avez réglée. Choisissez la **Direction** : **En hausse**, **En baisse** ou **Tout changement** |
-| **Quand une alerte se déclenche** | Une alerte est **Déclenchée**, **Effacée**, ou l’un ou l’autre. Vous pouvez la limiter aux alertes de **Seuil** ou de **Taux de variation** |
+| **Quand une alerte se déclenche** | Une alerte est **Déclenchée**, **Effacée**, ou l’un ou l’autre. Vous pouvez la limiter aux alertes de **Seuil** ou de **Taux de variation**. |
 | **À une heure de la journée** | Une heure de la journée, dans votre propre fuseau horaire |
 | **Quand un appareil passe hors ligne** | Votre Cora Max passe **Hors ligne**, revient **En ligne**, ou l’un ou l’autre |
 
@@ -82,18 +82,12 @@ Une action qui nécessite un équipement n’apparaît que sur un aquarium qui a
 | **Doser une tête DŌS** | Faire une dose mesurée avec une tête DŌS |
 | **Contrôler un équipement Red Sea** | Piloter un appareil ReefBeat |
 | **Contrôler une pompe de brassage** | Régler le débit, le mode de vague ou l’alimentation d’une pompe Jecod, ou **Mettre en pause pour le nourrissage**. Le Cora Max de l’aquarium remet la pompe en marche à la fin du nourrissage |
-| **Contrôler un équipement GHL (bêta)** | Mettre en pause un programme de nourrissage, lancer le mode entretien ou changement d’eau, régler une scène ou une luminosité d’éclairage, et plus |
-| **Contrôler un équipement HYDROS (bêta)** | Régler une sortie, la remettre sur son programme, changer de mode, lancer une commande de testeur ou doser avec une tête |
-| **Contrôler un appareil EcoTech (bêta)** | Régler l’intensité ou la scène d’une Radion, lancer un nourrissage ou un mode VorTech, doser avec un Versa, ou remettre n’importe lequel sur son programme |
 | **Me notifier** | Vous envoyer une notification avec votre propre **Titre** et votre **Message** |
 | **Attendre avant l’étape suivante** | Faire une pause avant de continuer |
 | **Lancer une scène** | Lancer une scène depuis cette règle |
 | **Gérer une automatisation** | Activer ou désactiver une autre règle |
 | **Créer une tâche d’entretien** | Ajouter une tâche à la liste d’[entretien](/help/mobile-maintenance) de l’aquarium, par exemple changer le média du filtre à CO2 quand le pH passe sous une valeur |
 
-:::note Beta
-GHL, HYDROS et EcoTech sont en Beta et ne sont ouverts qu’aux utilisateurs Beta. Si vous n’êtes pas un utilisateur Beta, vous ne les verrez pas dans **Ajouter un appareil**. Pour demander l’accès Beta, contactez le [support](/support.html). Plus de détails dans [Fonctions Beta](/help/mobile-beta).
-:::
 
 :::warning Une dose ne s’annule pas, et elle est plafonnée
 On ne peut pas retirer une dose de l’aquarium. Une règle ne peut doser qu’avec une tête mesurée avec **Mesurer pour doser** sur un Cora Max. La dose s’exécute sur un Cora Max à l’aquarium. Le dosage par règle est plafonné à **10 mL par tête et par jour**, quelle que soit la façon dont la règle est écrite.

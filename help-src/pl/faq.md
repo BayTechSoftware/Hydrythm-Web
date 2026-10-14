@@ -14,7 +14,7 @@ Krótkie odpowiedzi z linkami do pełnych stron. Jeśli coś nie działa, przejd
 
 Na start nie musisz niczego kupować. Sama Cora Mobile śledzi akwaria, zapisuje testy, wysyła alerty i uruchamia Cora Assistant.
 
-Cora Max przy akwarium dodaje kilka rzeczy. Bez niego telefon odczytuje urządzenie Neptune Apex, Red Sea albo Jecod tylko wtedy, gdy Cora Mobile jest otwarta w tej samej sieci Wi-Fi. Cora Max odczytuje je przez całą dobę, utrzymuje aktualne odczyty, gdy jesteś poza domem, i przekazuje polecenia wysyłane z daleka. Maxspect, GHL, EcoTech, Inkbird i kamery w ogóle wymagają Cora Max (to integracje Beta, zobacz niżej). Więcej w [Sprzęcie według marki](/help/equipment-by-brand).
+Cora Max przy akwarium dodaje kilka rzeczy. Bez niego telefon odczytuje urządzenie Neptune Apex, Red Sea albo Jecod tylko wtedy, gdy Cora Mobile jest otwarta w tej samej sieci Wi-Fi. Cora Max odczytuje je przez całą dobę, utrzymuje aktualne odczyty, gdy jesteś poza domem, i przekazuje polecenia wysyłane z daleka. Więcej w [Sprzęcie według marki](/help/equipment-by-brand).
 
 ### Jak dodać pierwsze akwarium? {#how-do-i-add-my-first-tank}
 
@@ -82,7 +82,7 @@ Dostępu do sieci lokalnej potrzebuje, żeby znajdować sprzęt Wi-Fi i łączy�
 
 ### Czy mogę sprawdzić akwarium, gdy nie ma mnie w domu? {#can-i-check-on-my-tank-away}
 
-Tak. Z Cora Max przy akwarium odczyty pozostają aktualne, gdziekolwiek jesteś. Bez niego urządzenie Neptune Apex, Red Sea albo Jecod pokazuje ostatnie odczyty zapisane przez telefon, gdy był w tej samej sieci Wi-Fi. AquaWiz, a w wersji Beta HYDROS i Focustronic, są odczytywane przez chmurę producenta, więc i tak się aktualizują. Odczyty zapisane ręcznie i historia akwarium są zawsze dostępne.
+Tak. Z Cora Max przy akwarium odczyty pozostają aktualne, gdziekolwiek jesteś. Bez niego urządzenie Neptune Apex, Red Sea albo Jecod pokazuje ostatnie odczyty zapisane przez telefon, gdy był w tej samej sieci Wi-Fi. AquaWiz jest odczytywany przez chmurę producenta, więc i tak się aktualizuje. Odczyty zapisane ręcznie i historia akwarium są zawsze dostępne.
 
 ### Czy mogę sterować sprzętem poza domem? {#can-i-control-equipment-away}
 
@@ -104,19 +104,11 @@ Tak. Usunięcie akwarium tylko je ukrywa. Otwórz **Ustawienia → Usunięte akw
 
 ### Z jakim sprzętem współpracuje Cora? {#what-equipment-does-cora-work-with}
 
-Z Neptune Apex (z DŌS i Trident), sprzętem Red Sea ReefBeat, pompami Jecod i Jebao oraz AquaWiz KH Controller. W wersji Beta: z Maxspect, GHL, HYDROS, Focustronic, EcoTech, Inkbird i kamerami. Dla wszystkiego innego możesz zapisywać odczyty ręcznie. Każda marka, z linkami do jej stron, jest w [Sprzęcie według marki](/help/equipment-by-brand).
+Z Neptune Apex (z DŌS i Trident), sprzętem Red Sea ReefBeat, pompami Jecod i Jebao oraz AquaWiz KH Controller. Dla wszystkiego innego możesz zapisywać odczyty ręcznie. Każda marka, z linkami do jej stron, jest w [Sprzęcie według marki](/help/equipment-by-brand).
 
-### Co oznacza „Beta” przy integracji? {#what-does-beta-mean}
 
-Wciąż ją testujemy i rozwijamy. Część odczytów albo funkcji sterowania może być ograniczona, a to, co widzisz, może się zmieniać między aktualizacjami.
 
-**Beta.** Integracje Beta są dostępne tylko dla użytkowników Beta. Jeśli nie jesteś użytkownikiem Beta, nie zobaczysz ich w **Dodaj urządzenie**. Aby poprosić o dostęp do Beta, skontaktuj się z [pomocą techniczną](/support.html). Udział w programie testowym sklepu z aplikacjami go nie włącza. Więcej w [Funkcjach Beta](/help/mobile-beta).
-
-### Dlaczego marka jest wyszarzona z napisem „Wymaga Cora Max”? {#why-requires-cora-max}
-
-Ten sprzęt odczytuje Cora Max, a nie telefon. Najpierw dodaj Cora Max do akwarium, a marka stanie się dostępna. Więcej w [Sprzęcie według marki](/help/equipment-by-brand).
-
-### Czy Cora jest powiązana z Neptune, Red Sea, Jebao, GHL, HYDROS, Maxspect, Focustronic, EcoTech albo Inkbird? {#is-cora-affiliated}
+### Czy Cora jest powiązana z Neptune, Red Sea albo Jebao? {#is-cora-affiliated}
 
 Nie. Cora nie jest powiązana z żadnym producentem, z którym się łączy, nie jest przez niego popierana ani nie jest jego partnerem. Cora korzysta z ich publicznych kont, oficjalnych API albo protokołów sieci lokalnej. Własna aplikacja albo aktualizacja oprogramowania producenta może w każdej chwili, bez uprzedzenia, zmienić albo zepsuć to połączenie. Więcej w [Podłączaniu sprzętu](/help/mobile-connections).
 

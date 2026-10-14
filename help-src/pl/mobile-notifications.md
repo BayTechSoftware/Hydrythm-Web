@@ -3,7 +3,7 @@ title: Powiadomienia
 description: Wybierz, które powiadomienia docierają na telefon, zachowaj ciszę w nocy, przeczytaj pod dzwonkiem to, co Cię ominęło, i napraw powiadomienia, które nie przychodzą.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 21
+order: 23
 group: Alerts and automation
 ---
 
@@ -19,7 +19,7 @@ Karta na górze mówi, czy ten telefon w ogóle pozwala Corze wysyłać powiadom
 |---|---|
 | **Alerty parametrów** | Chemii wody poza ustawionym zakresem i powiadomienia o *powrocie do normy*, gdy wróci |
 | **Przypomnienia o konserwacji** | Zaplanowanych zadań, takich jak podmiany wody, oraz jednorazowego przypomnienia o zapisaniu pierwszego testu, gdy nowe akwarium po trzech dniach nadal nie ma odczytów |
-| **Awarie sprzętu** | Urządzenia zgłaszającego problem, na przykład Tridenta, który przestał robić testy. Także urządzenia, które [przestało raportować](/help/mobile-alerts#stopped-reporting), pominiętej dawki i alertu o pełnym kubku z Czuwania skimmera |
+| **Awarie sprzętu** | Urządzenia zgłaszającego problem, na przykład Tridenta, który przestał robić testy. Także urządzenia, które [przestało raportować](/help/mobile-alerts#stopped-reporting) i pominiętej dawki |
 | **Kończące się zasoby** | Odczynnika, wody do dolewki, pojemników dozujących i pełnej butelki odpadów |
 | **Raport ICP gotowy** | Wyników ICP, które są przeanalizowane i gotowe do przeczytania |
 
