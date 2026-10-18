@@ -125,6 +125,16 @@ Bu normaldir. Bir Red Sea cihazının kendi ayarları yalnızca telefonunuz ciha
 2. Siz uzaktayken ölçümler ve geçmiş çalışmaya devam eder.
 
 
+### Bir AquaWiz ölçümü saatlerce eski {#an-aquawiz-reading-is-hours-old}
+
+Bu normal olabilir. AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir; bu yüzden Cora Max yoksa bir ölçüm yaklaşık yarım gün eski olabilir. Cora Mobile'da cihazın sayfasını açın: ölçümün ne zaman yapıldığını ve nereden geldiğini gösterir, **Şimdi oku** da yeni bir ölçüm ister (en fazla 15 dakikada bir).
+
+Bir Cora Max'iniz varsa ve kart hâlâ **AquaWiz bulutundan, 12 saatte bir** diyorsa:
+
+- Kontrolörün akvaryumun ana Cora Max'inin Wi-Fi menzilinde olduğunu kontrol edin.
+- AquaWiz uygulamasında kontrolörün ürün yazılımının güncel olduğunu kontrol edin; eski ürün yazılımında yerel erişim yoktur.
+- Üst üste iki başarısız okumadan sonra Cora Max ertesi güne kadar bekler. Başarısız olmaya devam ederse destekle iletişime geçin.
+
 ## Bir komut ulaşmadı {#command-did-not-go-through}
 
 Her komut **Onaylandı**, **Onaylanmadı**, **Reddedildi** ya da **Değişiklik yok** olarak sonuçlanır. Her birinin ne anlama geldiği [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.

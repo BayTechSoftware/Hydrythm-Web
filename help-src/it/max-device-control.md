@@ -90,7 +90,19 @@ Puoi scrivere le programmazioni giornaliere delle pompe Jecod sullo schermo a pa
 
 ## AquaWiz {#aquawiz}
 
-Un controller KH AquaWiz non ha una pagina propria su Cora Max. È elencato in **Dispositivi**, dove puoi rinominarlo, e le sue letture compaiono sulla dashboard come qualsiasi altra fonte. Un Cora Max sulla stessa vasca può anche leggerlo ogni ora, quando riesce a raggiungere il controller. Configuralo e gestiscilo dal telefono, vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+Un controller KH AquaWiz non ha una pagina propria su Cora Max. È elencato in **Dispositivi**, dove puoi rinominarlo, e le sue letture compaiono sulla dashboard come qualsiasi altra fonte. Configuralo e gestiscilo dal telefono, vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+
+### Lettura oraria da Cora Max {#aquawiz-hourly}
+
+AquaWiz lascia che Cora legga il suo cloud solo ogni 12 ore. Per tenere aggiornata l'alcalinità, il Cora Max principale della vasca legge anche direttamente il controller, una volta all'ora, dieci minuti prima dell'ora piena:
+
+- Si collega per qualche secondo al Wi-Fi del controller, legge l'ultimo risultato e torna subito al tuo Wi-Fi di casa. Il Cora Max resta offline circa 4 secondi.
+- La password del tuo Wi-Fi di casa non viene mai salvata né inviata da nessuna parte per questo.
+- Lo fa solo il Cora Max principale della vasca. Un secondo Cora Max sulla stessa vasca no.
+- Aspetta mentre il Cora Max sta parlando con te, si aggiorna, si associa o cambia Wi-Fi, e riprova l'ora dopo.
+- Il controller deve essere nel raggio Wi-Fi del Cora Max e il suo firmware deve offrire l'accesso locale. Se due letture di fila falliscono, il Cora Max smette di provare per il resto della giornata e la lettura dal cloud ogni 12 ore continua.
+
+Una lettura da Cora Max mostra **Ogni ora dal tuo Cora Max** sulla scheda AquaWiz del telefono. Porta anche gli avvisi di pompa, sonda pH e contenitore dell'acqua descritti in [Avvisi](/help/mobile-alerts#equipment-faults).
 
 
 ## Materiali di consumo {#consumables}

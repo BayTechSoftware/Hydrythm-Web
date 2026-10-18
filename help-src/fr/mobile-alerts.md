@@ -87,6 +87,14 @@ Une fois qu’une alerte est en cours, elle ne vous prévient pas sans cesse de 
 
 Certaines alertes concernent l’équipement, pas une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification qui nomme l’aquarium et l’appareil, par exemple *« Aquarium principal : Pompe de remontée demande de l’attention »*. Elle dit aussi ce qui ne va pas, comme un rotor bloqué. Quand la panne disparaît, vous en recevez une deuxième : *« Aquarium principal : Pompe de remontée fonctionne de nouveau »*. Les deux relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
 
+Un AquaWiz KH Controller lu toutes les heures par votre Cora Max déclenche le même type d’alerte quand :
+
+- sa pompe doseuse signale une panne ;
+- sa sonde pH est défaillante ou proche de la fin de sa vie ;
+- le niveau de son réservoir d’eau reste bas ou haut pendant plus d’une heure.
+
+Cela demande la lecture horaire par le Cora Max (voir [Contrôler l’équipement depuis Cora Max](/help/max-device-control#aquawiz-hourly)) : la lecture cloud d’AquaWiz toutes les 12 heures ne les transmet pas.
+
 
 ## Un appareil ne remonte plus de mesures {#stopped-reporting}
 

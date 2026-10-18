@@ -125,6 +125,16 @@ That's normal. A Red Sea device's own settings only open when your phone is on t
 2. Readings and history keep working when you're away.
 
 
+### An AquaWiz reading is hours old {#an-aquawiz-reading-is-hours-old}
+
+That can be normal. AquaWiz lets Cora read its cloud only every 12 hours, so without a Cora Max a reading can be up to about half a day old. Open the device's page in Cora Mobile: it shows when the reading was measured and where it came from, and **Read now** asks for a fresh one (at most once every 15 minutes).
+
+If you have a Cora Max and the card still says **From AquaWiz cloud, every 12 hours**:
+
+- Check the controller is within Wi-Fi range of the tank's main Cora Max.
+- Check the controller's firmware is up to date in the AquaWiz app; older firmware has no local access.
+- After two failed reads in a row Cora Max waits until the next day. If it keeps failing, contact support.
+
 ## A command didn't go through {#command-did-not-go-through}
 
 Every command ends as **Confirmed**, **Unconfirmed**, **Refused** or **No change**. What each one means is in [Controlling your equipment](/help/mobile-device-control).

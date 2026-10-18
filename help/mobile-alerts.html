@@ -205,10 +205,13 @@
 <ul><li>The bell, at the top right of the main tabs, keeps your history. The number shows how many you haven't read. More in <a href="/help/mobile-notifications">Notifications</a>.</li><li>A push notification reaches your phone if that category is switched on.</li><li>The widget on the dashboard turns amber or red.</li><li>Cora Max shows the same alerts on its screen.</li></ul>
 <h2 id="equipment-faults">When equipment needs attention</h2>
 <p>Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod™ pump reports a fault, Cora sends a notification naming the tank and the device, for example <em>"Display tank: Return pump needs attention"</em>. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: <em>"Display tank: Return pump is OK again"</em>. Both fall under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
+<p>An AquaWiz™ KH Controller read every hour by your Cora Max raises the same kind of alert when:</p>
+<ul><li>its dosing pump reports a fault;</li><li>its pH probe has failed, or is near the end of its life;</li><li>its water box level stays low or high for over an hour.</li></ul>
+<p>These need the hourly reading from Cora Max (see <a href="/help/max-device-control#aquawiz-hourly">Cora Max device pages</a>): AquaWiz's 12-hourly cloud reading doesn't carry them.</p>
 <h2 id="stopped-reporting">A device has stopped reporting</h2>
 <p>When a connected device goes quiet, Cora sends <em>"[Device]: stopped reporting"</em>. It doesn't mean the device is broken, only that Cora hasn't heard from it for a while. You get a second notification, <em>"[Device]: reporting again"</em>, when it comes back.</p>
 <p>How long Cora waits depends on the device:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Device</th><th>Cora waits</th></tr></thead><tbody><tr><td data-th="Device">Neptune™ Apex</td><td data-th="Cora waits">About 30 minutes without an update</td></tr><tr><td data-th="Device">Red Sea™ ReefBeat</td><td data-th="Cora waits">About 30 minutes</td></tr><tr><td data-th="Device">AquaWiz™</td><td data-th="Cora waits">About 25 hours, because AquaWiz lets Cora read its cloud only every 12 hours</td></tr><tr><td data-th="Device">Jecod pumps</td><td data-th="Cora waits">Three missed readings in a row, on the pump's reading interval (90 minutes at the default 30)</td></tr><tr><td data-th="Device">Zigbee smart plug</td><td data-th="Cora waits">Still silent 30 minutes after its hub restarted. Give it a name with <strong>Rename</strong> so the alert says which plug</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Device</th><th>Cora waits</th></tr></thead><tbody><tr><td data-th="Device">Neptune™ Apex</td><td data-th="Cora waits">About 30 minutes without an update</td></tr><tr><td data-th="Device">Red Sea™ ReefBeat</td><td data-th="Cora waits">About 30 minutes</td></tr><tr><td data-th="Device">AquaWiz</td><td data-th="Cora waits">About 25 hours, because AquaWiz lets Cora read its cloud only every 12 hours</td></tr><tr><td data-th="Device">Jecod pumps</td><td data-th="Cora waits">Three missed readings in a row, on the pump's reading interval (90 minutes at the default 30)</td></tr><tr><td data-th="Device">Zigbee smart plug</td><td data-th="Cora waits">Still silent 30 minutes after its hub restarted. Give it a name with <strong>Rename</strong> so the alert says which plug</td></tr></tbody></table></div>
 <p>What to check depends on how Cora reads the device.</p>
 <ul><li>Apex, ReefBeat and Jecod are read by a Cora Max over Wi-Fi. Check the device's power and Wi-Fi, and that the Cora Max that reads it is switched on and online.</li><li>AquaWiz is read through your account with the maker. Check the account connection on the device's page in Cora Mobile.</li></ul>
 <p>These notifications fall under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
@@ -623,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7b924462c4').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

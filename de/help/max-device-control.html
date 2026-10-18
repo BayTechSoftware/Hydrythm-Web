@@ -207,7 +207,11 @@
 <p>Die Karte, die läuft, hat einen Rahmen und einen Chip <strong>Läuft</strong>. Eine Jecod-Pumpe hat keine Schaltfläche <strong>Fütterung beenden</strong>. Jede Jecod-Pumpe, die für die Fütterung pausieren kann, zeigt die Chips <strong>5</strong>, <strong>10</strong>, <strong>15</strong> und <strong>30</strong> Min. Bei einer Jecod Pro tut die Kachel Füttern in den Wellenmustern dasselbe, für 10 Minuten. Über ein Cora Max, das nicht am Becken ist, füttert eine Jecod-Pumpe nur 10 Minuten lang. Kann eine Pumpe gerade nicht füttern, steht der Grund in einer kurzen Zeile unter den Chips, und ein langer Druck zeigt den ganzen Satz. Eine vom Telefon gestartete Fütterung beendet auch das Cora Max: Läuft die Zeit ab, kehrt die Pumpe zu ihrem Programm zurück.</p>
 <p>Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter <a href="/de/help/mobile-schedules">Ausrüstung planen</a>.</p>
 <h2 id="aquawiz">AquaWiz</h2>
-<p>Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter <strong>Geräte</strong>, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Ein Cora Max am selben Becken kann ihn auch jede Stunde auslesen, wenn er den Controller erreicht. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
+<p>Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter <strong>Geräte</strong>, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</p>
+<h3 id="aquawiz-hourly">Stündliches Auslesen durch Cora Max</h3>
+<p>AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalinität aktuell bleibt, liest das Haupt-Cora-Max des Beckens den Controller auch direkt aus, einmal pro Stunde, zehn Minuten vor der vollen Stunde:</p>
+<ul><li>Es verbindet sich für ein paar Sekunden mit dem eigenen WLAN des Controllers, liest das letzte Ergebnis und wechselt sofort zurück in dein Heim-WLAN. Dabei ist das Cora Max etwa 4 Sekunden offline.</li><li>Dein Heim-WLAN-Passwort wird dabei weder gespeichert noch irgendwohin gesendet.</li><li>Nur das Haupt-Cora-Max des Beckens macht das. Ein zweites Cora Max am selben Becken nicht.</li><li>Es wartet, solange das Cora Max mit dir spricht, aktualisiert, koppelt oder das WLAN wechselt, und versucht es in der nächsten Stunde wieder.</li><li>Der Controller muss in WLAN-Reichweite des Cora Max sein, und seine Firmware muss lokalen Zugriff bieten. Schlagen zwei Messungen hintereinander fehl, versucht das Cora Max es für den Rest des Tages nicht mehr, und die 12-Stunden-Messung aus der Cloud läuft weiter.</li></ul>
+<p>Ein Messwert vom Cora Max zeigt auf der AquaWiz-Karte im Handy <strong>Stündlich von deinem Cora Max</strong>. Er bringt außerdem die Warnungen zu Pumpe, pH-Sonde und Wasserbehälter mit, die unter <a href="/de/help/mobile-alerts#equipment-faults">Warnungen</a> beschrieben sind.</p>
 <h2 id="consumables">Verbrauchsmaterial</h2>
 <p>Nachfüllschwellen (Reagenz, Behälter, Reservoirs) legst du hier auf der Seite des Geräts fest, genau wie auf dem Handy. Mehr dazu unter <a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a>.</p>
 <h2 id="logging-and-calculating-at-the-tank">Am Becken eintragen und rechnen</h2>
@@ -611,7 +615,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=6aeec59ceb').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -87,6 +87,14 @@ Once an alert is up, it won't keep notifying you about the same thing. The rule'
 
 Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod pump reports a fault, Cora sends a notification naming the tank and the device, for example *"Display tank: Return pump needs attention"*. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: *"Display tank: Return pump is OK again"*. Both fall under **Equipment Faults** in **Settings → Notifications**.
 
+An AquaWiz KH Controller read every hour by your Cora Max raises the same kind of alert when:
+
+- its dosing pump reports a fault;
+- its pH probe has failed, or is near the end of its life;
+- its water box level stays low or high for over an hour.
+
+These need the hourly reading from Cora Max (see [Cora Max device pages](/help/max-device-control#aquawiz-hourly)): AquaWiz's 12-hourly cloud reading doesn't carry them.
+
 
 ## A device has stopped reporting {#stopped-reporting}
 

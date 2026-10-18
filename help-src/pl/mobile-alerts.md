@@ -87,6 +87,14 @@ Gdy alert już trwa, nie będzie Cię ciągle powiadamiać o tym samym. [Czas ws
 
 Niektóre alerty dotyczą sprzętu, a nie odczytu. Gdy urządzenie, na przykład Trident albo pompa Jecod, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, na przykład *„Akwarium główne: Pompa powrotna wymaga uwagi”*. Podaje też, co jest nie tak, na przykład zablokowany wirnik. Gdy usterka minie, dostaniesz drugie: *„Akwarium główne: Pompa powrotna znów działa poprawnie”*. Oba należą do **Awarie sprzętu** w **Ustawienia → Powiadomienia**.
 
+AquaWiz KH Controller czytany co godzinę przez Twój Cora Max wywołuje ten sam rodzaj alertu, gdy:
+
+- jego pompa dozująca zgłasza usterkę;
+- jego sonda pH uległa awarii albo kończy żywotność;
+- poziom w jego zbiorniku na wodę przez ponad godzinę pozostaje niski lub wysoki.
+
+Potrzebny jest do tego godzinowy odczyt z Cora Max (zobacz [Sterowanie sprzętem z Cora Max](/help/max-device-control#aquawiz-hourly)): odczyt z chmury AquaWiz co 12 godzin ich nie niesie.
+
 
 ## Urządzenie przestało raportować {#stopped-reporting}
 

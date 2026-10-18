@@ -125,6 +125,16 @@ Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur
 2. Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.
 
 
+### Ein AquaWiz-Messwert ist Stunden alt {#an-aquawiz-reading-is-hours-old}
+
+Das kann normal sein. AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen, ohne Cora Max kann ein Messwert also bis zu einem halben Tag alt sein. Öffne die Seite des Geräts in Cora Mobile: Sie zeigt, wann der Messwert gemessen wurde und woher er kam, und **Jetzt auslesen** fragt einen frischen an (höchstens alle 15 Minuten).
+
+Wenn du ein Cora Max hast und auf der Karte trotzdem **Aus der AquaWiz-Cloud, alle 12 Stunden** steht:
+
+- Prüfe, ob der Controller in WLAN-Reichweite des Haupt-Cora-Max des Beckens ist.
+- Prüfe in der AquaWiz-App, ob die Firmware des Controllers aktuell ist; ältere Firmware bietet keinen lokalen Zugriff.
+- Nach zwei fehlgeschlagenen Messungen hintereinander wartet das Cora Max bis zum nächsten Tag. Klappt es weiterhin nicht, wende dich an den Support.
+
 ## Ein Befehl ist nicht durchgekommen {#command-did-not-go-through}
 
 Jeder Befehl endet als **Bestätigt**, **Unbestätigt**, **Abgelehnt** oder **Keine Änderung**. Was jedes davon bedeutet, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control).

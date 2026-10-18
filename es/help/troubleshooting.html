@@ -218,6 +218,10 @@
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Algunos ajustes de ReefBeat aparecen en gris o no aparecen</h3>
 <p>Es normal. Los ajustes propios de un dispositivo Red Sea solo se abren cuando tu teléfono está en la misma red que el dispositivo. Fuera de esa red solo ves lecturas.</p>
 <ol><li>Conéctate al Wi-Fi del acuario para cambiar esos ajustes.</li><li>Las lecturas y el historial siguen funcionando cuando estás fuera.</li></ol>
+<h3 id="an-aquawiz-reading-is-hours-old">Una lectura de AquaWiz™ tiene horas de antigüedad</h3>
+<p>Puede ser normal. AquaWiz solo deja que Cora lea su nube cada 12 horas, así que sin un Cora Max una lectura puede tener hasta medio día. Abre la página del dispositivo en Cora Mobile: muestra cuándo se midió la lectura y de dónde viene, y <strong>Leer ahora</strong> pide una nueva (como máximo cada 15 minutos).</p>
+<p>Si tienes un Cora Max y la tarjeta sigue diciendo <strong>Desde la nube de AquaWiz, cada 12 horas</strong>:</p>
+<ul><li>Comprueba que el controlador esté al alcance del Wi-Fi del Cora Max principal del acuario.</li><li>Comprueba en la app de AquaWiz que el firmware del controlador esté al día; el firmware más antiguo no tiene acceso local.</li><li>Tras dos lecturas fallidas seguidas, el Cora Max espera hasta el día siguiente. Si sigue fallando, contacta con el soporte.</li></ul>
 <h2 id="command-did-not-go-through">Una orden no llegó</h2>
 <p>Cada orden termina como <strong>Confirmado</strong>, <strong>Sin confirmar</strong>, <strong>Rechazado</strong> o <strong>Sin cambios</strong>. Lo que significa cada uno está en <a href="/es/help/mobile-device-control">Controlar tus equipos</a>.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">"No se pudo contactar a esta bomba: no se envió nada"</h3>
@@ -712,7 +716,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=cd79229e59').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

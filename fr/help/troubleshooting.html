@@ -218,6 +218,10 @@
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Certains réglages ReefBeat sont grisés ou manquants</h3>
 <p>C’est normal. Les réglages propres d’un appareil Red Sea ne s’ouvrent que lorsque votre téléphone est sur le même réseau que l’appareil. Loin de ce réseau, vous ne voyez que les mesures.</p>
 <ol><li>Rejoignez le Wi-Fi de l’aquarium pour changer ces réglages.</li><li>Les mesures et l’historique continuent de fonctionner pendant votre absence.</li></ol>
+<h3 id="an-aquawiz-reading-is-hours-old">Une mesure AquaWiz™ date de plusieurs heures</h3>
+<p>Cela peut être normal. AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures, donc sans Cora Max une mesure peut dater d’une demi-journée. Ouvrez la page de l’appareil dans Cora Mobile : elle indique quand la mesure a été prise et d’où elle vient, et <strong>Lire maintenant</strong> en demande une fraîche (au plus une fois toutes les 15 minutes).</p>
+<p>Si vous avez un Cora Max et que la carte indique toujours <strong>Depuis le cloud AquaWiz, toutes les 12 heures</strong> :</p>
+<ul><li>Vérifiez que le contrôleur est à portée Wi-Fi du Cora Max principal de l’aquarium.</li><li>Vérifiez dans l’application AquaWiz que le firmware du contrôleur est à jour ; un firmware plus ancien n’a pas d’accès local.</li><li>Après deux lectures ratées de suite, le Cora Max attend le lendemain. Si cela continue d’échouer, contactez le support.</li></ul>
 <h2 id="command-did-not-go-through">Une commande n’est pas passée</h2>
 <p>Chaque commande se termine en <strong>Confirmé</strong>, <strong>Non confirmé</strong>, <strong>Refusé</strong> ou <strong>Aucun changement</strong>. La signification de chacun est dans <a href="/fr/help/mobile-device-control">Contrôler votre équipement</a>.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">"Impossible de joindre cette pompe : rien n’a été envoyé"</h3>
@@ -712,7 +716,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

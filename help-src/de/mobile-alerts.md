@@ -87,6 +87,14 @@ Ist eine Warnung aktiv, benachrichtigt sie dich nicht ständig wegen derselben S
 
 Manche Warnungen betreffen Ausrüstung, keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit dem Becken und dem Gerät, zum Beispiel *"Hauptbecken: Rückförderpumpe braucht Aufmerksamkeit"*. Sie sagt auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, bekommst du eine zweite: *"Hauptbecken: Rückförderpumpe ist wieder in Ordnung"*. Beide fallen unter **Gerätefehler** in **Einstellungen → Benachrichtigungen**.
 
+Ein AquaWiz KH Controller, den dein Cora Max jede Stunde ausliest, löst dieselbe Art Warnung aus, wenn:
+
+- seine Dosierpumpe einen Fehler meldet;
+- seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist;
+- der Füllstand seines Wasserbehälters länger als eine Stunde zu niedrig oder zu hoch bleibt.
+
+Dafür braucht es das stündliche Auslesen durch das Cora Max (siehe [Ausrüstung mit Cora Max steuern](/help/max-device-control#aquawiz-hourly)): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.
+
 
 ## Ein Gerät meldet sich nicht mehr {#stopped-reporting}
 

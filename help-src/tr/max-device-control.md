@@ -90,7 +90,19 @@ Jecod pompası günlük zamanlamalarını telefonunuzda olduğu gibi duvardaki e
 
 ## AquaWiz {#aquawiz}
 
-Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Aynı akvaryumdaki bir Cora Max, kontrolöre ulaşabildiğinde onu her saat de okuyabilir. Onu telefonunuzda kurun ve yönetin, [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
+Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Onu telefonunuzda kurun ve yönetin, [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
+
+### Cora Max'ten saatlik okuma {#aquawiz-hourly}
+
+AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir. Alkaliniteyi güncel tutmak için akvaryumun ana Cora Max'i kontrolörü doğrudan da okur, saat başından on dakika önce, saatte bir kez:
+
+- Birkaç saniyeliğine kontrolörün kendi Wi-Fi ağına bağlanır, son sonucu okur ve hemen ev Wi-Fi'nize döner. Bu sırada Cora Max yaklaşık 4 saniye çevrimdışı kalır.
+- Ev Wi-Fi şifreniz bu işlem için hiçbir yere kaydedilmez veya gönderilmez.
+- Bunu yalnızca akvaryumun ana Cora Max'i yapar. Aynı akvaryumdaki ikinci bir Cora Max yapmaz.
+- Cora Max sizinle konuşurken, güncellenirken, eşleşirken ya da Wi-Fi değiştirirken bekler ve bir sonraki saatte yeniden dener.
+- Kontrolör Cora Max'in Wi-Fi menzilinde olmalı ve ürün yazılımı yerel erişim sunmalıdır. Üst üste iki okuma başarısız olursa Cora Max günün geri kalanında denemeyi bırakır ve 12 saatlik bulut okuması devam eder.
+
+Cora Max'ten gelen bir ölçüm, telefondaki AquaWiz kartında **Cora Max cihazınızdan saatlik** olarak görünür. Ayrıca [Uyarılar](/help/mobile-alerts#equipment-faults) sayfasında anlatılan pompa, pH probu ve su haznesi uyarılarını da getirir.
 
 
 ## Sarf malzemeleri {#consumables}

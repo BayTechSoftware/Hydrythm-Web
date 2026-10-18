@@ -207,7 +207,11 @@
 <p>The card that is running has an outline and a <strong>Running</strong> chip. A Jecod pump has no <strong>End feed</strong> button. Every Jecod pump that can pause for feeding shows the <strong>5</strong>, <strong>10</strong>, <strong>15</strong> and <strong>30</strong> min pills. On a Jecod Pro the Feeding tile in the wave patterns does the same, for 10 minutes. Through a Cora Max that is away from the tank, a Jecod pump feeds for 10 minutes only. A pump that cannot feed right now shows the reason in one short line under the pills, and a long press shows the full sentence. A feed started from your phone is ended by Cora Max too: when the time is up, the pump returns to its program.</p>
 <p>You can write Jecod pump schedules at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More in <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
 <h2 id="aquawiz">AquaWiz</h2>
-<p>An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in <strong>Devices</strong>, where you can rename it, and its readings show on the dashboard like any other source. A Cora Max on the same tank can also read it every hour when it can reach the controller. Set it up and manage it on your phone, see <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
+<p>An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in <strong>Devices</strong>, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
+<h3 id="aquawiz-hourly">Hourly reading from Cora Max</h3>
+<p>AquaWiz lets Cora read its cloud only every 12 hours. To keep alkalinity current, the tank's main Cora Max also reads the controller directly, once an hour at ten to the hour:</p>
+<ul><li>It joins the controller's own Wi-Fi for a few seconds, reads the latest result, and goes straight back to your home Wi-Fi. Cora Max is offline for about 4 seconds while it does this.</li><li>Your home Wi-Fi password is never saved or sent anywhere by this.</li><li>Only the tank's main Cora Max does it. A second Cora Max on the same tank doesn't.</li><li>It waits while Cora Max is talking to you, updating, pairing or changing Wi-Fi, and tries again the next hour.</li><li>The controller must be within Wi-Fi range of the Cora Max, and its firmware must offer local access. If two reads in a row fail, Cora Max stops trying for the rest of the day and the 12-hour cloud reading carries on.</li></ul>
+<p>A reading from Cora Max shows <strong>Hourly from your Cora Max</strong> on the phone's AquaWiz card. It also brings the pump, pH probe and water box alerts described in <a href="/help/mobile-alerts#equipment-faults">Alerts</a>.</p>
 <h2 id="consumables">Consumables</h2>
 <p>You set refill thresholds (reagent, containers, reservoirs) on the device's own page here, the same as on your phone. More in <a href="/help/mobile-consumables">Consumables</a>.</p>
 <h2 id="logging-and-calculating-at-the-tank">Logging and calculating at the tank</h2>
@@ -611,7 +615,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7b924462c4').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

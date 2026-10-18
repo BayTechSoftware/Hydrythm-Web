@@ -90,7 +90,19 @@ You can write Jecod pump schedules at the wall as well as on your phone. The edi
 
 ## AquaWiz {#aquawiz}
 
-An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. A Cora Max on the same tank can also read it every hour when it can reach the controller. Set it up and manage it on your phone, see [Connecting your equipment](/help/mobile-connections).
+An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see [Connecting your equipment](/help/mobile-connections).
+
+### Hourly reading from Cora Max {#aquawiz-hourly}
+
+AquaWiz lets Cora read its cloud only every 12 hours. To keep alkalinity current, the tank's main Cora Max also reads the controller directly, once an hour at ten to the hour:
+
+- It joins the controller's own Wi-Fi for a few seconds, reads the latest result, and goes straight back to your home Wi-Fi. Cora Max is offline for about 4 seconds while it does this.
+- Your home Wi-Fi password is never saved or sent anywhere by this.
+- Only the tank's main Cora Max does it. A second Cora Max on the same tank doesn't.
+- It waits while Cora Max is talking to you, updating, pairing or changing Wi-Fi, and tries again the next hour.
+- The controller must be within Wi-Fi range of the Cora Max, and its firmware must offer local access. If two reads in a row fail, Cora Max stops trying for the rest of the day and the 12-hour cloud reading carries on.
+
+A reading from Cora Max shows **Hourly from your Cora Max** on the phone's AquaWiz card. It also brings the pump, pH probe and water box alerts described in [Alerts](/help/mobile-alerts#equipment-faults).
 
 
 ## Consumables {#consumables}

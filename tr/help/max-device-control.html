@@ -207,7 +207,11 @@
 <p>Çalışan kartın bir çerçevesi ve <strong>Çalışıyor</strong> etiketi vardır. Jecod pompasında <strong>Beslemeyi bitir</strong> düğmesi yoktur. Besleme için duraklayabilen her Jecod pompası <strong>5</strong>, <strong>10</strong>, <strong>15</strong> ve <strong>30</strong> dk düğmelerini gösterir. Bir Jecod Pro pompasında dalga desenlerindeki Besleme kutucuğu aynı işi 10 dakika için yapar. Akvaryumdan uzaktaki bir Cora Max üzerinden ulaşılan Jecod pompası yalnızca 10 dakika besler. Şu anda besleyemeyen bir pompa nedenini düğmelerin altında kısa bir satırda gösterir, uzun basınca tam cümleyi görürsünüz. Telefondan başlatılan bir beslemeyi Cora Max de bitirir: süre dolunca pompa programına döner.</p>
 <p>Jecod pompası günlük zamanlamalarını telefonunuzda olduğu gibi duvardaki ekranda da yazabilirsiniz. Düzenleyici aynıdır: bir gün grafiği, bir periyot listesi ve bir eylem satırı. Ayrıntılar <a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a> sayfasında.</p>
 <h2 id="aquawiz">AquaWiz</h2>
-<p>Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. <strong>Cihazlar</strong> içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Aynı akvaryumdaki bir Cora Max, kontrolöre ulaşabildiğinde onu her saat de okuyabilir. Onu telefonunuzda kurun ve yönetin, <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasına bakın.</p>
+<p>Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. <strong>Cihazlar</strong> içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Onu telefonunuzda kurun ve yönetin, <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasına bakın.</p>
+<h3 id="aquawiz-hourly">Cora Max'ten saatlik okuma</h3>
+<p>AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir. Alkaliniteyi güncel tutmak için akvaryumun ana Cora Max'i kontrolörü doğrudan da okur, saat başından on dakika önce, saatte bir kez:</p>
+<ul><li>Birkaç saniyeliğine kontrolörün kendi Wi-Fi ağına bağlanır, son sonucu okur ve hemen ev Wi-Fi'nize döner. Bu sırada Cora Max yaklaşık 4 saniye çevrimdışı kalır.</li><li>Ev Wi-Fi şifreniz bu işlem için hiçbir yere kaydedilmez veya gönderilmez.</li><li>Bunu yalnızca akvaryumun ana Cora Max'i yapar. Aynı akvaryumdaki ikinci bir Cora Max yapmaz.</li><li>Cora Max sizinle konuşurken, güncellenirken, eşleşirken ya da Wi-Fi değiştirirken bekler ve bir sonraki saatte yeniden dener.</li><li>Kontrolör Cora Max'in Wi-Fi menzilinde olmalı ve ürün yazılımı yerel erişim sunmalıdır. Üst üste iki okuma başarısız olursa Cora Max günün geri kalanında denemeyi bırakır ve 12 saatlik bulut okuması devam eder.</li></ul>
+<p>Cora Max'ten gelen bir ölçüm, telefondaki AquaWiz kartında <strong>Cora Max cihazınızdan saatlik</strong> olarak görünür. Ayrıca <a href="/tr/help/mobile-alerts#equipment-faults">Uyarılar</a> sayfasında anlatılan pompa, pH probu ve su haznesi uyarılarını da getirir.</p>
 <h2 id="consumables">Sarf malzemeleri</h2>
 <p>Dolum eşiklerini (reaktif, kaplar, depolar) burada da telefonunuzdaki gibi cihazın kendi sayfasında ayarlarsınız. Ayrıntılar <a href="/tr/help/mobile-consumables">Sarf malzemeleri</a> sayfasında.</p>
 <h2 id="logging-and-calculating-at-the-tank">Akvaryumun başında kaydetme ve hesaplama</h2>
@@ -611,7 +615,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=7866b39996').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

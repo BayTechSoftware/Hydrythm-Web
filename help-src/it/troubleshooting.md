@@ -125,6 +125,16 @@ In questo momento niente su questa vasca sta leggendo la tua attrezzatura Red Se
 2. Letture e storico continuano a funzionare quando sei via.
 
 
+### Una lettura AquaWiz ha ore di ritardo {#an-aquawiz-reading-is-hours-old}
+
+Può essere normale. AquaWiz lascia che Cora legga il suo cloud solo ogni 12 ore, quindi senza un Cora Max una lettura può avere fino a mezza giornata. Apri la pagina del dispositivo in Cora Mobile: mostra quando è stata misurata la lettura e da dove viene, e **Leggi ora** ne chiede una fresca (al massimo una volta ogni 15 minuti).
+
+Se hai un Cora Max e la scheda dice ancora **Dal cloud AquaWiz, ogni 12 ore**:
+
+- Controlla che il controller sia nel raggio Wi-Fi del Cora Max principale della vasca.
+- Controlla nell'app AquaWiz che il firmware del controller sia aggiornato; il firmware più vecchio non ha accesso locale.
+- Dopo due letture fallite di fila il Cora Max aspetta fino al giorno dopo. Se continua a fallire, contatta l'assistenza.
+
 ## Un comando non è arrivato {#command-did-not-go-through}
 
 Ogni comando finisce come **Confermato**, **Non confermato**, **Rifiutato** o **Nessun cambiamento**. Cosa significa ognuno è spiegato in [Controllare la tua attrezzatura](/help/mobile-device-control).

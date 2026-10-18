@@ -90,7 +90,19 @@ Vous pouvez écrire les programmes journaliers des pompes Jecod au mur comme sur
 
 ## AquaWiz {#aquawiz}
 
-Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé dans **Appareils**, où vous pouvez le renommer, et ses mesures s’affichent sur le tableau de bord comme n’importe quelle autre source. Un Cora Max sur le même aquarium peut aussi le lire toutes les heures quand il peut atteindre le contrôleur. Configurez-le et gérez-le sur votre téléphone, voir [Connecter votre équipement](/help/mobile-connections).
+Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé dans **Appareils**, où vous pouvez le renommer, et ses mesures s’affichent sur le tableau de bord comme n’importe quelle autre source. Configurez-le et gérez-le sur votre téléphone, voir [Connecter votre équipement](/help/mobile-connections).
+
+### Lecture horaire par Cora Max {#aquawiz-hourly}
+
+AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures. Pour garder l’alcalinité à jour, le Cora Max principal de l’aquarium lit aussi le contrôleur directement, une fois par heure, dix minutes avant l’heure pile :
+
+- Il se connecte quelques secondes au Wi-Fi propre du contrôleur, lit le dernier résultat et revient aussitôt sur votre Wi-Fi domestique. Le Cora Max est hors ligne environ 4 secondes pendant ce temps.
+- Le mot de passe de votre Wi-Fi domestique n’est jamais enregistré ni envoyé nulle part pour cela.
+- Seul le Cora Max principal de l’aquarium le fait. Un deuxième Cora Max sur le même aquarium ne le fait pas.
+- Il attend tant que le Cora Max vous parle, se met à jour, s’associe ou change de Wi-Fi, et réessaie à l’heure suivante.
+- Le contrôleur doit être à portée Wi-Fi du Cora Max, et son firmware doit offrir un accès local. Si deux lectures de suite échouent, le Cora Max n’essaie plus jusqu’à la fin de la journée et la lecture cloud toutes les 12 heures continue.
+
+Une mesure issue du Cora Max affiche **Toutes les heures depuis votre Cora Max** sur la carte AquaWiz du téléphone. Elle apporte aussi les alertes de pompe, de sonde pH et de réservoir d’eau décrites dans [Alertes](/help/mobile-alerts#equipment-faults).
 
 
 ## Consommables {#consumables}

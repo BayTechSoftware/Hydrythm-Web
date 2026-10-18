@@ -207,7 +207,11 @@
 <p>La carte en cours a un contour et une pastille <strong>En marche</strong>. Une pompe Jecod n’a pas de bouton <strong>Terminer le nourrissage</strong>. Toute pompe Jecod qui peut se mettre en pause pour le nourrissage affiche les pastilles <strong>5</strong>, <strong>10</strong>, <strong>15</strong> et <strong>30</strong> min. Sur une Jecod Pro, la tuile Nourrissage des types de vague fait la même chose, pour 10 minutes. Par un Cora Max éloigné de l’aquarium, une pompe Jecod ne se nourrit que 10 minutes. Une pompe qui ne peut pas se nourrir pour le moment en donne la raison en une courte ligne sous les pastilles, et un appui long affiche la phrase complète. Un nourrissage lancé depuis le téléphone est aussi terminé par le Cora Max : à la fin du temps, la pompe revient à son programme.</p>
 <p>Vous pouvez écrire les programmes journaliers des pompes Jecod au mur comme sur votre téléphone. L’éditeur est le même, avec un graphique de la journée, une liste de périodes et une rangée d’actions. Plus de détails dans <a href="/fr/help/mobile-schedules">Programmer l’équipement</a>.</p>
 <h2 id="aquawiz">AquaWiz</h2>
-<p>Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé dans <strong>Appareils</strong>, où vous pouvez le renommer, et ses mesures s’affichent sur le tableau de bord comme n’importe quelle autre source. Un Cora Max sur le même aquarium peut aussi le lire toutes les heures quand il peut atteindre le contrôleur. Configurez-le et gérez-le sur votre téléphone, voir <a href="/fr/help/mobile-connections">Connecter votre équipement</a>.</p>
+<p>Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé dans <strong>Appareils</strong>, où vous pouvez le renommer, et ses mesures s’affichent sur le tableau de bord comme n’importe quelle autre source. Configurez-le et gérez-le sur votre téléphone, voir <a href="/fr/help/mobile-connections">Connecter votre équipement</a>.</p>
+<h3 id="aquawiz-hourly">Lecture horaire par Cora Max</h3>
+<p>AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures. Pour garder l’alcalinité à jour, le Cora Max principal de l’aquarium lit aussi le contrôleur directement, une fois par heure, dix minutes avant l’heure pile :</p>
+<ul><li>Il se connecte quelques secondes au Wi-Fi propre du contrôleur, lit le dernier résultat et revient aussitôt sur votre Wi-Fi domestique. Le Cora Max est hors ligne environ 4 secondes pendant ce temps.</li><li>Le mot de passe de votre Wi-Fi domestique n’est jamais enregistré ni envoyé nulle part pour cela.</li><li>Seul le Cora Max principal de l’aquarium le fait. Un deuxième Cora Max sur le même aquarium ne le fait pas.</li><li>Il attend tant que le Cora Max vous parle, se met à jour, s’associe ou change de Wi-Fi, et réessaie à l’heure suivante.</li><li>Le contrôleur doit être à portée Wi-Fi du Cora Max, et son firmware doit offrir un accès local. Si deux lectures de suite échouent, le Cora Max n’essaie plus jusqu’à la fin de la journée et la lecture cloud toutes les 12 heures continue.</li></ul>
+<p>Une mesure issue du Cora Max affiche <strong>Toutes les heures depuis votre Cora Max</strong> sur la carte AquaWiz du téléphone. Elle apporte aussi les alertes de pompe, de sonde pH et de réservoir d’eau décrites dans <a href="/fr/help/mobile-alerts#equipment-faults">Alertes</a>.</p>
 <h2 id="consumables">Consommables</h2>
 <p>Vous réglez ici les seuils de réapprovisionnement (réactif, réservoirs de dosage, réservoirs d’osmolateur) sur la page de l’appareil lui-même, comme sur votre téléphone. Plus de détails dans <a href="/fr/help/mobile-consumables">Consommables</a>.</p>
 <h2 id="logging-and-calculating-at-the-tank">Noter et calculer devant l’aquarium</h2>
@@ -611,7 +615,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

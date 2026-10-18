@@ -218,6 +218,10 @@
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Bazı ReefBeat ayarları soluk görünüyor ya da yok</h3>
 <p>Bu normaldir. Bir Red Sea cihazının kendi ayarları yalnızca telefonunuz cihazla aynı ağdayken açılır. O ağdan uzaktayken yalnızca ölçümleri görürsünüz.</p>
 <ol><li>O ayarları değiştirmek için akvaryumun Wi-Fi'ına katılın.</li><li>Siz uzaktayken ölçümler ve geçmiş çalışmaya devam eder.</li></ol>
+<h3 id="an-aquawiz-reading-is-hours-old">Bir AquaWiz™ ölçümü saatlerce eski</h3>
+<p>Bu normal olabilir. AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir; bu yüzden Cora Max yoksa bir ölçüm yaklaşık yarım gün eski olabilir. Cora Mobile'da cihazın sayfasını açın: ölçümün ne zaman yapıldığını ve nereden geldiğini gösterir, <strong>Şimdi oku</strong> da yeni bir ölçüm ister (en fazla 15 dakikada bir).</p>
+<p>Bir Cora Max'iniz varsa ve kart hâlâ <strong>AquaWiz bulutundan, 12 saatte bir</strong> diyorsa:</p>
+<ul><li>Kontrolörün akvaryumun ana Cora Max'inin Wi-Fi menzilinde olduğunu kontrol edin.</li><li>AquaWiz uygulamasında kontrolörün ürün yazılımının güncel olduğunu kontrol edin; eski ürün yazılımında yerel erişim yoktur.</li><li>Üst üste iki başarısız okumadan sonra Cora Max ertesi güne kadar bekler. Başarısız olmaya devam ederse destekle iletişime geçin.</li></ul>
 <h2 id="command-did-not-go-through">Bir komut ulaşmadı</h2>
 <p>Her komut <strong>Onaylandı</strong>, <strong>Onaylanmadı</strong>, <strong>Reddedildi</strong> ya da <strong>Değişiklik yok</strong> olarak sonuçlanır. Her birinin ne anlama geldiği <a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a> sayfasında.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">"Bu pompaya ulaşılamadı: hiçbir şey gönderilmedi"</h3>
@@ -712,7 +716,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=7866b39996').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

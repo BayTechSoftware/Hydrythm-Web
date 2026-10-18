@@ -90,7 +90,19 @@ Puedes crear horarios diarios de bombas Jecod en la pantalla de pared igual que 
 
 ## AquaWiz {#aquawiz}
 
-Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en **Dispositivos**, donde puedes cambiarle el nombre, y sus lecturas salen en el panel como cualquier otra fuente. Un Cora Max en el mismo acuario también puede leerlo cada hora cuando llega al controlador. Configúralo y gestiónalo en tu teléfono, consulta [Conectar tus equipos](/help/mobile-connections).
+Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en **Dispositivos**, donde puedes cambiarle el nombre, y sus lecturas salen en el panel como cualquier otra fuente. Configúralo y gestiónalo en tu teléfono, consulta [Conectar tus equipos](/help/mobile-connections).
+
+### Lectura cada hora desde Cora Max {#aquawiz-hourly}
+
+AquaWiz solo deja que Cora lea su nube cada 12 horas. Para mantener la alcalinidad al día, el Cora Max principal del acuario también lee el controlador directamente, una vez por hora, diez minutos antes de cada hora en punto:
+
+- Se conecta unos segundos al Wi-Fi propio del controlador, lee el último resultado y vuelve enseguida a tu Wi-Fi de casa. El Cora Max queda sin conexión unos 4 segundos.
+- La contraseña de tu Wi-Fi de casa nunca se guarda ni se envía a ningún sitio por esto.
+- Solo lo hace el Cora Max principal del acuario. Un segundo Cora Max en el mismo acuario no.
+- Espera mientras el Cora Max habla contigo, se actualiza, se empareja o cambia de Wi-Fi, y lo intenta de nuevo a la hora siguiente.
+- El controlador debe estar al alcance del Wi-Fi del Cora Max, y su firmware debe ofrecer acceso local. Si fallan dos lecturas seguidas, el Cora Max deja de intentarlo el resto del día y la lectura de la nube cada 12 horas continúa.
+
+Una lectura desde Cora Max muestra **Cada hora desde tu Cora Max** en la tarjeta de AquaWiz del teléfono. También trae las alertas de bomba, sonda de pH y depósito de agua descritas en [Alertas](/help/mobile-alerts#equipment-faults).
 
 
 ## Consumibles {#consumables}

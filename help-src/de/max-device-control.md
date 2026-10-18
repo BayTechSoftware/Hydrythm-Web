@@ -90,7 +90,19 @@ Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf
 
 ## AquaWiz {#aquawiz}
 
-Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Ein Cora Max am selben Becken kann ihn auch jede Stunde auslesen, wenn er den Controller erreicht. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+
+### Stündliches Auslesen durch Cora Max {#aquawiz-hourly}
+
+AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalinität aktuell bleibt, liest das Haupt-Cora-Max des Beckens den Controller auch direkt aus, einmal pro Stunde, zehn Minuten vor der vollen Stunde:
+
+- Es verbindet sich für ein paar Sekunden mit dem eigenen WLAN des Controllers, liest das letzte Ergebnis und wechselt sofort zurück in dein Heim-WLAN. Dabei ist das Cora Max etwa 4 Sekunden offline.
+- Dein Heim-WLAN-Passwort wird dabei weder gespeichert noch irgendwohin gesendet.
+- Nur das Haupt-Cora-Max des Beckens macht das. Ein zweites Cora Max am selben Becken nicht.
+- Es wartet, solange das Cora Max mit dir spricht, aktualisiert, koppelt oder das WLAN wechselt, und versucht es in der nächsten Stunde wieder.
+- Der Controller muss in WLAN-Reichweite des Cora Max sein, und seine Firmware muss lokalen Zugriff bieten. Schlagen zwei Messungen hintereinander fehl, versucht das Cora Max es für den Rest des Tages nicht mehr, und die 12-Stunden-Messung aus der Cloud läuft weiter.
+
+Ein Messwert vom Cora Max zeigt auf der AquaWiz-Karte im Handy **Stündlich von deinem Cora Max**. Er bringt außerdem die Warnungen zu Pumpe, pH-Sonde und Wasserbehälter mit, die unter [Warnungen](/help/mobile-alerts#equipment-faults) beschrieben sind.
 
 
 ## Verbrauchsmaterial {#consumables}
