@@ -2,7 +2,7 @@
 title: Ajustes de Cora Max
 description: Todos los ajustes de Cora Max, desde el nombre, el brillo, la atenuación nocturna, el altavoz y la palabra de activación hasta el bloqueo infantil, el idioma, el Wi-Fi, volver a emparejar y el restablecimiento de fábrica.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -61,6 +61,8 @@ Debajo de la tarjeta están estas secciones.
 | **ESTADO** | Una tarjeta por cada acuario que muestra esta pantalla, con **Estado de sondeo**, **Último sondeo**, **Última escritura en la nube** y **Guardado en la nube**. Solo consulta |
 | **AYUDA Y ACERCA DE** | **Ayuda y soporte** (contactar con el soporte o informar de un problema) y **Acerca de** (versión y licencias) |
 | **RESTABLECER** | **Volver a emparejar este dispositivo** y **Restablecer valores de fábrica**. Mira más abajo |
+
+**Ayuda y soporte** también muestra un código QR. Escanéalo con tu teléfono para abrir esta guía en tu idioma.
 
 Cuando la pantalla se ha atenuado, tu primer toque solo la despierta. No pulsa nada.
 

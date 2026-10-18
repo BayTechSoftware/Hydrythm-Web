@@ -2,7 +2,7 @@
 title: Devices and device health
 description: See and rename the equipment Cora Max reads, choose which Cora Max reads each tank, fix a tank whose readings stopped, and manage a Cora Max from your phone.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Equipment
 twin: mobile-devices
@@ -15,6 +15,8 @@ twin: mobile-devices
 ![The device list on Cora Max, filtered by tank and grouped by brand](img/max-devices.webp "Filter by tank, then each device grouped by brand, with a one-line summary and its tank.")
 
 Cora Max sees the same equipment as your phone, because they both read the same account.
+
+In the list, the Cora families come first, then every brand from A to Z.
 
 Use the filter chips at the top to show **All tanks** or just one. Devices are grouped by brand. Each entry has a status dot (grey when Cora doesn't know yet, green when it's working, orange for a warning or fault, red when it's offline), a one-line summary of what the device holds (*21 outlets · 4 feeds*, *19 tests left*), the tank it belongs to and when it was **Last seen**.
 

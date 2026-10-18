@@ -2,7 +2,7 @@
 title: Parlare con Cora
 description: Usa la voce e "Hey Cora" su Cora Max, cosa può e non può fare a voce, la condivisione dei dati con l'IA e la tua quota mensile, e cosa fare quando Cora non risponde.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -30,7 +30,7 @@ Oppure tocca l'icona di **Cora Assistant** nella barra in alto. Cora comincia su
 Sono in **Impostazioni → Impostazioni Cora Max → AUDIO E VOCE**, e valgono solo per questo schermo.
 
 - **Parola di attivazione** accende o spegne l'ascolto in sottofondo. Se è spenta, toccare l'icona di **Cora Assistant** funziona comunque, quindi usala se preferisci che lo schermo non ascolti sempre.
-- **Altoparlante** sceglie da dove esce il suono: **Interna**, **3,5 mm** o **BT** (Bluetooth). Per la voce, l'altoparlante interno è il più debole dei tre. **BT** apre **Accoppia un altoparlante Bluetooth**, dove metti l'altoparlante in modalità di associazione e lo scegli dall'elenco.
+- **Altoparlante** sceglie da dove esce il suono: **Interna**, **3,5 mm** o **BT** (Bluetooth). Per la voce, l'altoparlante interno è il più debole dei tre. **BT** apre **Associa un altoparlante Bluetooth**, dove metti l'altoparlante in modalità di associazione e lo scegli dall'elenco.
 
 ## Quale dispositivo risponde a "Hey Cora"
 
@@ -62,15 +62,19 @@ Non serve ripeterti per le domande successive. Dopo una domanda sulla vasca prin
 - Scrivere nel diario: *"Annota che ho fatto un cambio d'acqua di venti litri."* *"Annota che ho dato mysis in più."* *"Annota che ho saltato il pasto del mattino."*
 - Comandare l'attrezzatura Red Sea: dosare da una testa ReefDose, cambiarne la dose giornaliera, avviare un rabbocco ReefATO+, far avanzare un ReefMat o impostare la velocità di una pompa ReefRun.
 - Comandare le pompe Jecod.
+- Avviare un'automazione o una scena per nome, come Cora Assistant sul telefono: *"Avvia la scena cambio acqua."*
 
 ## Cosa Cora non può fare a voce su Cora Max
 
-- Avviare o fermare una scena. Usa il riquadro della scena o **Impostazioni → Automazioni**.
 - Dosare da una testa Neptune DŌS. Usa la pagina del dispositivo su Cora Max.
 - Cambiare le impostazioni di Cora Max, aggiungere dispositivi o modificare la dashboard.
 
 Cora Assistant sul telefono può fare alcune di queste cose. Di più in [Fare domande a Cora](/help/mobile-assistant#what-cora-can-change).
 
+
+## Aprire la schermata da una risposta {#help-answers}
+
+Quando chiedi come si fa una cosa, Cora risponde dalla Guida. Se la risposta riguarda una schermata di Cora Max, la scheda vocale mostra il suo titolo e **Apri questa schermata**. Toccalo per andarci. Compare solo se c'è una schermata da aprire. Cora Max non ha un browser, quindi non c'è un link alla pagina web.
 
 ## Conferme
 

@@ -2,7 +2,7 @@
 title: Ajustes de Cora Mobile
 description: Dónde está cada cosa en la pestaña Ajustes de Cora Mobile, desde tu cuenta y tu plan hasta los acuarios, Cora Assistant, el idioma, el modo oscuro, las notificaciones y el soporte.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -112,7 +112,7 @@ Si **Contribuir con datos anonimizados del acuario** está activado (y lo está,
 - **Contactar soporte** abre un correo para nosotros. Normalmente respondemos en un día.
 - **Reportar un error / Enviar comentarios** envía un informe desde Cora Mobile. Consulta [Informar de un problema](/help/mobile-support).
 - **Enviar informes de errores**, descrito más arriba.
-- **Sitio web y preguntas frecuentes de Cora** abre el sitio web de Cora.
+- **Sitio web y preguntas frecuentes de Cora** abre el sitio web de Cora. Abre esta guía en tu idioma.
 
 ## Acerca de
 

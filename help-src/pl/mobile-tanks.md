@@ -2,12 +2,12 @@
 title: Zarządzanie akwariami
 description: Dodaj kolejne akwarium, przełączaj się między akwariami, zmieniaj ich kolejność i to, które dostają Reef Buddy, oraz usuwaj i przywracaj akwaria.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
 
-Ta strona opisuje posiadanie więcej niż jednego akwarium: dodawanie go, przechodzenie między akwariami, ustawianie ich kolejności i usuwanie akwarium, którego już nie prowadzisz. Każde akwarium ma własny pulpit, urządzenia, alerty i zapiski.
+Ta strona opisuje posiadanie więcej niż jednego akwarium: dodawanie go, przechodzenie między akwariami, ustawianie ich kolejności i usuwanie akwarium, którego już nie prowadzisz. Każde akwarium ma własny panel, urządzenia, alerty i zapiski.
 
 W każdym planie możesz mieć tyle akwariów, ile chcesz. Plan decyduje tylko o tym, ile z nich dostaje Reef Buddy (zobacz [Kolejność decyduje, które akwaria dostają Reef Buddy](/help/mobile-tanks#reef-buddy-and-tank-order)).
 
@@ -25,7 +25,7 @@ Potem daj akwarium jego sprzęt:
 - Żeby pokazać akwarium na Cora Max, przejdź do **Urządzenia**, otwórz swój Cora Max i dotknij **Dodaj akwarium** w **Przypisane akwaria**. Cora Max pokazuje do 4 akwariów.
 
 :::tip Nowe akwarium jeszcze się cykluje?
-Dotknij **Zaczynasz nowe akwarium?** na jego pulpicie, zanim zapiszesz test albo podłączysz sprzęt. Karta pokazuje się tylko przy akwarium bez żadnych odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Dotknij **Zaczynasz nowe akwarium?** na jego panelu, zanim zapiszesz test albo podłączysz sprzęt. Karta pokazuje się tylko przy akwarium bez żadnych odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 :::
 
 ## Przełączanie między akwariami {#switching-between-tanks}
@@ -33,7 +33,7 @@ Dotknij **Zaczynasz nowe akwarium?** na jego pulpicie, zanim zapiszesz test albo
 - **Panel**: przesuń palcem w lewo albo w prawo. Kropki na górze pokazują, na którym akwarium jesteś.
 - **Ustawienia**: każde akwarium ma własny wiersz. Dotknij go, żeby otworzyć ustawienia tego akwarium, na przykład **Progi alertów**, **Mapowanie parametrów** i **Jednostki**.
 - **Asystent** i **Inteligencja**: wybierz akwarium na górze ekranu. Zobacz [Pytania do Cory](/help/mobile-assistant#pick-a-tank-first).
-- Powiadomienie dotyczące jednego akwarium otwiera pulpit tego akwarium.
+- Powiadomienie dotyczące jednego akwarium otwiera panel tego akwarium.
 
 Na Cora Max Reef Room pokazuje wszystkie akwaria obok siebie. Zobacz [Reef Room](/help/max-reef-room).
 
@@ -41,11 +41,11 @@ Na Cora Max Reef Room pokazuje wszystkie akwaria obok siebie. Zobacz [Reef Room]
 
 Przejdź do **Ustawień** i dotknij **Zmień kolejność akwariów**, a potem przeciągnij akwaria w wybranej kolejności. Możesz też przeciągnąć akwarium za uchwyt na liście na ekranie Ustawień. **Zmień kolejność akwariów** działa dopiero, gdy masz co najmniej dwa akwaria.
 
-W tej kolejności przesuwasz akwaria na pulpicie.
+W tej kolejności przesuwasz akwaria na panelu.
 
 ### Kolejność decyduje, które akwaria dostają Reef Buddy {#reef-buddy-and-tank-order}
 
-Twój plan obejmuje określoną liczbę akwariów, które dostają codzienne podsumowanie Reef Buddy. Cora daje je pierwszym akwariom w kolejności z **Zmień kolejność akwariów**. W planie Plus i w czasie 30-dniowego okresu próbnego to tylko pierwsze akwarium. Pro obejmuje 5 akwariów, a Max 20. Więcej w [Planach i subskrypcjach](/help/mobile-plans).
+Twój plan obejmuje określoną liczbę akwariów, które dostają codzienne podsumowanie Reef Buddy. Cora daje je pierwszym akwariom w kolejności z **Zmień kolejność akwariów**. W planie Essential i w czasie 30-dniowego okresu próbnego to tylko pierwsze akwarium. Advanced obejmuje 5 akwariów, a Expert 20. Więcej w [Planach i subskrypcjach](/help/mobile-plans).
 
 Jeśli akwarium nie dostaje podsumowania, przesuń je na początek listy. Usunięte akwaria się nie liczą.
 
@@ -55,12 +55,12 @@ Jeśli akwarium nie dostaje podsumowania, przesuń je na początek listy. Usuni�
 2. Przewiń na dół i dotknij **Usuń akwarium**.
 3. Cora zapyta **Usunąć to akwarium?** Dotknij **Usuń**.
 
-Usunięcie tylko ukrywa akwarium. Znika ono z pulpitu i z listy w Ustawieniach, ale jego odczyty, dziennik i zapiski zostają. W każdej chwili możesz je przywrócić.
+Usunięcie tylko ukrywa akwarium. Znika ono z panelu i z listy w Ustawieniach, ale jego odczyty, dziennik i zapiski zostają. W każdej chwili możesz je przywrócić.
 
-Dla usuniętego akwarium zatrzymuje się: podsumowanie Reef Buddy, przypomnienia o konserwacji i jego miejsce w liczbie akwariów z Reef Buddy w Twoim planie.
+Usunięte akwarium jest zachowane ze względu na swoją historię, ale nigdy nie jest pokazywane i milczy. Nie wysyła alertów ani przypomnień, nie dostaje podsumowania Reef Buddy, nie zajmuje miejsca w liczbie akwariów Reef Buddy w Twoim planie, a jego automatyzacje się zatrzymują.
 
-:::warning Sprzęt usuniętego akwarium działa dalej
-Usunięcie akwarium niczego nie odłącza. Jego urządzenia zostają do niego przypisane i dalej raportują, przypisany do niego Cora Max dalej je pokazuje, a jego sprzęt nadal może wysyłać Ci alerty.
+:::note Sprzęt usuniętego akwarium pozostaje połączony
+Usunięcie akwarium niczego nie odłącza. Jego urządzenia zostają do niego przypisane, a przypisany do niego Cora Max pozostaje przypisany, ale nic z tego akwarium nie jest pokazywane i żaden alert ani przypomnienie do Ciebie nie dociera.
 
 Zanim usuniesz akwarium, przenieś albo usuń jego urządzenia w zakładce **Urządzenia**. Potem otwórz swój Cora Max w **Urządzenia** i dotknij ikony **Usuń akwarium** obok tego akwarium w **Przypisane akwaria**.
 :::

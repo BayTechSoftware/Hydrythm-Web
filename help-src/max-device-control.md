@@ -2,7 +2,7 @@
 title: Controlling equipment from Cora Max
 description: Device pages on Cora Max for Neptune Apex, Trident and DŌS, Red Sea ReefBeat, Jecod and AquaWiz, by brand.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -26,7 +26,7 @@ You add, assign and remove equipment on your phone. Cora Max shows it once your 
 | **Trident** | Test state, reagent and waste levels, and a button to start a test |
 | **DŌS**, including the DŌS QD | Each head's dosing, schedule, runway and container volume (with pause, fill, dose now and a one-time twenty-second measure) |
 | **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan editor and ReefMat settings |
-| **Jecod** | Pump mode and intensity, and its day program |
+| **Jecod** | Pump mode and intensity, and its schedule |
 | **AquaWiz** | No page of its own. It's listed in **Devices**, and its readings go on the dashboard |
 
 Most device pages have a pencil to rename the device. The new name shows on your phone too. More in [Devices and device health](/help/max-devices).
@@ -84,13 +84,13 @@ The Jecod page shows the pump's mode and intensity, and you can change both. Its
 - **Same all day**: tap a setting to run it all day.
 - **Schedule**: the day graph and the list of plans, with **now** on the current one. **Edit** opens the editor, and the ⋮ menu holds **Copy schedule to…**, **Save schedule as…** and **Saved schedules…**.
 
-The card that is running has an outline and a **Running** chip. A Jecod pump has no **End feed** button. Every Jecod pump that can pause for feeding shows the **5**, **10**, **15** and **30** min pills. On a Jecod Pro the Feeding tile in the wave patterns does the same, for 10 minutes. Through a Cora Max that is away from the tank, a Jecod pump feeds for 10 minutes only. A pump that cannot feed right now shows the reason in one short line under the pills, and a long press shows the full sentence.
+The card that is running has an outline and a **Running** chip. A Jecod pump has no **End feed** button. Every Jecod pump that can pause for feeding shows the **5**, **10**, **15** and **30** min pills. On a Jecod Pro the Feeding tile in the wave patterns does the same, for 10 minutes. Through a Cora Max that is away from the tank, a Jecod pump feeds for 10 minutes only. A pump that cannot feed right now shows the reason in one short line under the pills, and a long press shows the full sentence. A feed started from your phone is ended by Cora Max too: when the time is up, the pump returns to its program.
 
-You can write Jecod pump day programs at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More in [Scheduling equipment](/help/mobile-schedules).
+You can write Jecod pump schedules at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More in [Scheduling equipment](/help/mobile-schedules).
 
 ## AquaWiz {#aquawiz}
 
-An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see [Connecting your equipment](/help/mobile-connections).
+An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. A Cora Max on the same tank can also read it every hour when it can reach the controller. Set it up and manage it on your phone, see [Connecting your equipment](/help/mobile-connections).
 
 
 ## Consumables {#consumables}

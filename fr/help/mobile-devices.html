@@ -208,7 +208,7 @@
 <p>Vous perdez le lien en direct. Si l’appareil se connectait par un compte de fabricant, vous perdez aussi les identifiants enregistrés : il faudra vous reconnecter si vous l’ajoutez à nouveau.</p>
 <aside class="cal cal-tip"><p class="cal-t">Faire taire un appareil bruyant sans le retirer</p><p>Si un appareil fonctionne bien mais alerte trop souvent, changez ses seuils ou ses réglages de notification dans <a href="/fr/help/mobile-alerts">Alertes et seuils</a>. Vous gardez la connexion et les données, et le bruit s’arrête.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-sharing"><span>Précédent</span><b>Partager votre aquarium</b></a><a class="pn-n" href="/fr/help/mobile-connections"><span>Suivant</span><b>Connecter votre équipement</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

@@ -2,7 +2,7 @@
 title: Aktualizacje i odzyskiwanie
 description: Jak Cora Max sam się aktualizuje, okno instalacji i kanał aktualizacji, sprawdzanie wersji, PIN odzyskiwania i co zrobić, gdy Cora Max się nie uruchamia albo pokazuje kod pomocy.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 15
 group: Settings and account
 ---
@@ -29,6 +29,8 @@ W **Ustawieniach aktualizacji** na tym samym ekranie:
 
 Żeby sprawdzić, czy ten ekran odczytuje Twoje urządzenia i zapisuje do Cora Cloud, wróć do **Ustawienia Cora Max** i przewiń do **STAN**. Pokazuje dla każdego akwarium **Stan odpytywania**, **Ostatnie odpytanie**, **Ostatni zapis do chmury** i **Zapis w chmurze**.
 
+Jeśli aktualizacja pobiera się wolno, sprawdź połączenie za pomocą **Testu prędkości sieci** na tym samym ekranie. **Uruchom test** pobiera do 16 MB pliku aktualizacji z Cora Cloud, przez najwyżej 20 sekund, i pokazuje prędkość w MB/s.
+
 ## Gdy jest dostępna aktualizacja
 
 Pojawi się okno z opisem nowości i dwoma możliwościami.
@@ -43,7 +45,7 @@ Jeśli nic nie zrobisz, aktualizacja zainstaluje się sama w **Oknie instalacji*
 Możesz też uruchomić ją z telefonu: w Cora Mobile otwórz **Urządzenia →** Twój Cora Max i dotknij **Zaktualizuj do v…**.
 
 :::note Aktualizacja nie usuwa odczytów
-Twoje dane są na Twoim koncie. Po ponownym uruchomieniu Cora Max ma te same akwaria, pulpity i historię.
+Twoje dane są na Twoim koncie. Po ponownym uruchomieniu Cora Max ma te same akwaria, panele i historię.
 :::
 
 ## Odzyskiwanie {#recovery}

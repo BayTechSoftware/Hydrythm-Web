@@ -2,7 +2,7 @@
 title: Automations and scenes
 description: Make Cora act on its own when a reading, an alert, a time or a device goes offline, and group actions into scenes you run with one tap.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -124,3 +124,5 @@ Every rule has an enable switch. Turning a rule off keeps its settings, which he
 ## Seeing what a rule did {#seeing-what-a-rule-did}
 
 Every action a rule takes is recorded with **Automation rule** as its cause. You'll find it in [Activity](/help/mobile-activity).
+
+A step that fails or has to wait does not stay pending. It expires at once, the run is recorded as failed, and you get a notification that names the automation, the step and why. A step fails when, for example, its device is offline, no Cora Max is available to carry it out, the device refuses it or doesn't answer, or a heater or chiller was switched a moment ago. A step on a removed tank doesn't notify you.

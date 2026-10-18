@@ -2,7 +2,7 @@
 title: Glosario
 description: Qué quiere decir Cora con acuario, fuente, widget, umbral, Cora Max principal, modo alimentación, escena y las demás palabras que verás en las apps.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 5
 ---
 
@@ -14,7 +14,7 @@ Un volumen de agua que sigues. Un sistema de esquejes o un acuario de cuarentena
 
 ## Acuario eliminado {#removed-tank}
 
-Un acuario que has quitado. Sus datos se conservan, y puedes recuperarlo desde **Ajustes → Acuarios eliminados**. Consulta [Gestionar tus acuarios](/help/mobile-tanks).
+Un acuario que has quitado. Sus datos se conservan, y puedes recuperarlo desde **Ajustes → Acuarios eliminados**. Consulta [Gestionar tus acuarios](/help/mobile-tanks). Nunca se muestra, no envía alertas ni recordatorios y sus automatizaciones se detienen.
 
 ## Alerta {#alert}
 

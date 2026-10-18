@@ -1,8 +1,8 @@
 ---
 title: Plans and subscriptions
-description: What the Free, trial, Plus, Pro and Max plans include, how to subscribe or upgrade, where to see your usage, and how to cancel on iPhone or Android.
+description: What the Free, trial, Essential, Advanced and Expert plans include, how to subscribe or upgrade, where to see your usage, and how to cancel on iPhone or Android.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -34,7 +34,7 @@ When an allowance runs out, you can still read everything Cora has already made 
 
 ## The trial
 
-Your **30-day Pro trial starts when you create your account**. It doesn't wait until you first use a feature, and you don't need a card. **Account & Subscription** shows it as **Cora Pro Trial**, with the date it ends.
+Your **30-day Advanced trial starts when you create your account**. It doesn't wait until you first use a feature, and you don't need a card. **Account & Subscription** shows it as **Cora Advanced Trial**, with the date it ends.
 
 | During the trial | |
 |---|---|
@@ -44,15 +44,15 @@ Your **30-day Pro trial starts when you create your account**. It doesn't wait u
 | ICP analyses | 1 a month |
 | Reef Buddy and AI monitoring | Your first tank |
 
-The trial includes Reef Buddy and **Design with AI**. Its allowances are smaller than the Pro plan's.
+The trial includes Reef Buddy and **Design with AI**. Its allowances are smaller than the Advanced plan's.
 
 When it ends, your account goes back to Free. **Nothing is deleted.** You can still read every reading, journal entry, report and briefing you have.
 
 ## Paid tiers
 
-There are three plans, **Plus**, **Pro** and **Max**, each monthly or annual. Settings shows them as Cora Plus, Cora Pro and Cora Max. You'll find current prices in Cora Mobile and in your app store, since that's where you pay.
+There are three plans, **Essential**, **Advanced** and **Expert**, each monthly or annual. Settings shows them as Cora Essential, Cora Advanced and Cora Expert. You'll find current prices in Cora Mobile and in your app store, since that's where you pay.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Assistant messages / month | 500 | 1,200 | 2,500 (fair use) |
 | Voice sessions / month | 100 | 200 | 400 |
@@ -63,8 +63,8 @@ There are three plans, **Plus**, **Pro** and **Max**, each monthly or annual. Se
 Voice sessions have their own count, and every spoken reply also uses up your message allowance. Every paid plan includes Reef Buddy, ICP upload and analysis for the labs Cora reads, comparison with your own history, and **Design with AI** for dashboards (up to 5 designs a day for each tank).
 
 
-:::note The Max plan isn't the Cora Max screen
-The **Max plan** is a subscription. **Cora Max** is the screen that sits by your tank. You don't need one to have the other.
+:::note The Expert plan isn't the Cora Max screen
+The **Expert plan** is a subscription. **Cora Max** is the screen that sits by your tank. You don't need one to have the other.
 :::
 
 ### Which tanks get AI {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy and AI monitoring cover as many tanks as your plan allows, counted fr
 ## Subscribing or upgrading {#subscribing}
 
 1. Open **Settings** and tap the account card at the top. **Account & Subscription** opens.
-2. Next to your plan, tap **See plans** (on Free or the trial), **Upgrade** (on Plus) or **Upgrade to Max** (on Pro).
+2. Next to your plan, tap **See plans** (on Free or the trial), **Upgrade** (on Essential) or **Upgrade to Expert** (on Advanced).
 3. Choose **Monthly** or **Annual**. The annual price shows how much you save.
 4. Pick a plan and tap **Subscribe**.
 5. Confirm with the App Store or Google Play. Your new plan unlocks as soon as the store confirms it.
@@ -85,7 +85,7 @@ The same plan picker also opens when you reach a limit, for example *You've hit 
 
 ## Account & Subscription
 
-![Account & Subscription in Cora Mobile](img/mobile-plans.webp "Your plan under Subscription, with Upgrade to Max and Restore Purchases.")
+![Account & Subscription in Cora Mobile](img/mobile-plans.webp "Your plan under Subscription, with Upgrade to Expert and Restore Purchases.")
 
 **Account & Subscription** shows your current plan and when it renews or ends. Below that are these controls.
 
@@ -110,7 +110,7 @@ The counts start again at the beginning of each calendar month.
 
 ## Changing plan
 
-To move up, use **Upgrade** or **Upgrade to Max** as above. To move down or switch between monthly and annual, use **Manage Subscription**. Changes go through the App Store or Google Play and follow the same rules as any other subscription on your phone, including that store's refund and cancellation terms.
+To move up, use **Upgrade** or **Upgrade to Expert** as above. To move down or switch between monthly and annual, use **Manage Subscription**. Changes go through the App Store or Google Play and follow the same rules as any other subscription on your phone, including that store's refund and cancellation terms.
 
 ## Cancelling
 

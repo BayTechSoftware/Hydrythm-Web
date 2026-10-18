@@ -2,7 +2,7 @@
 title: Podłączanie sprzętu
 description: Jak podłączyć do Cory urządzenie Neptune Apex, Red Sea ReefBeat, Jecod albo AquaWiz.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 12
 group: Equipment
 ---
@@ -36,13 +36,13 @@ Cora odczytuje Twój Apex przez sieć lokalną, w tym sondy, gniazda i zamontowa
 1. Przejdź do **Urządzenia → Dodaj urządzenie → Neptune Apex**.
 2. Dotknij **Skanuj sieć w poszukiwaniu APEX** i wybierz swój Apex albo wpisz jego adres w **Lub wpisz IP ręcznie:**.
 3. Wypełnij **Login Apex (tylko jeśli został ustawiony w Apex):**. Zostaw hasło puste, jeśli go nie ustawiono.
-4. Dotknij **Wczytaj metryki z APEX** i zaznacz te, które chcesz, w **Metryki do śledzenia**.
+4. Dotknij **Wczytaj parametry z APEX** i zaznacz te, które chcesz, w **Parametry do śledzenia**.
 5. Ustaw **Częstotliwość odpytywania**. Nie zostawiaj jej wyłączonej: przy wyłączonym odpytywaniu nic nie odczytuje Apex, a jego odczyty stają się nieaktualne.
 6. Dotknij **Dalej**, zaznacz każde akwarium w **Którym akwariom służy ten Apex?**, a potem dotknij **Zapisz**. Apex może obsługiwać więcej niż jedno akwarium.
 
 Jeśli skanowanie nic nie znajdzie, sprawdź, czy telefon jest w tej samej sieci Wi-Fi co Apex, albo wpisz adres IP samodzielnie.
 
-Po połączeniu każda sonda, którą zgłasza Apex, staje się źródłem, które możesz umieścić na pulpicie. Gniazda pojawiają się jako elementy sterowania, a każdy zamontowany moduł rozszerzeń dostaje własny kafelek urządzenia. Twoje własne programowanie Apex działa dalej dokładnie tak, jak je ustawiono. Czym możesz sterować, opisuje [Sterowanie sprzętem](/help/mobile-device-control#neptune-apex).
+Po połączeniu każda sonda, którą zgłasza Apex, staje się źródłem, które możesz umieścić na panelu. Gniazda pojawiają się jako elementy sterowania, a każdy zamontowany moduł rozszerzeń dostaje własny kafelek urządzenia. Twoje własne programowanie Apex działa dalej dokładnie tak, jak je ustawiono. Czym możesz sterować, opisuje [Sterowanie sprzętem](/help/mobile-device-control#neptune-apex).
 
 ## Red Sea ReefBeat {#red-sea-reefbeat}
 
@@ -84,11 +84,11 @@ Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez Twoje konto AquaWiz,
 
 1. Przejdź do **Urządzenia → Dodaj urządzenie → AquaWiz**.
 2. Wpisz nazwę użytkownika i hasło AquaWiz i dotknij **Połącz**.
-3. Wybierz akwarium, włącz **Odczytuj też jego pH**, jeśli chcesz, i dotknij **Połącz z Cora**.
+3. Wybierz akwarium, sprawdź **Odczytuj też jego pH** (dla urządzenia, które zgłasza pH, na początku jest włączone) i dotknij **Połącz z Cora**.
 
 Gdy **Automatycznie utrzymuj połączenie** jest włączone, Cora przechowuje Twoje hasło AquaWiz i sama odnawia połączenie. Gdy jest wyłączone, Cora przechowuje tylko token logowania, który AquaWiz unieważnia mniej więcej co 30 dni, i wysyła Ci powiadomienie, gdy trzeba zalogować się ponownie.
 
-Dostajesz alkaliczność jako źródło, aktualizowaną tak często, jak Twój kontroler miareczkuje, a także pH, jeśli to włączono i Twoje urządzenie je zgłasza. Co pokazuje karta AquaWiz i jej alert suplementu, opisuje [Sterowanie sprzętem](/help/mobile-device-control#aquawiz).
+Dostajesz alkaliczność jako źródło, a także pH, jeśli Twoje urządzenie je zgłasza i **Odczytuj też jego pH** jest włączone. Pierwszy odczyt przychodzi zaraz po połączeniu. Potem AquaWiz pozwala Corze automatycznie czytać swoją chmurę tylko co 12 godzin, więc odczyt stamtąd może mieć nawet pół doby. Cora Max przy akwarium może też sam czytać kontroler co godzinę, gdy może go osiągnąć. Otwórz stronę urządzenia, żeby zobaczyć, kiedy zmierzono każdy odczyt i skąd pochodzi, i dotknij **Odczytaj teraz**, żeby dostać świeży (najwyżej raz na 15 minut). Co pokazuje karta AquaWiz i jej alerty, opisuje [Sterowanie sprzętem](/help/mobile-device-control#aquawiz).
 
 :::warning Cora używa tego samego logowania AquaWiz
 AquaWiz daje każdemu kontu jedno logowanie, więc Cora używa tego samego co aplikacja AquaWiz. Jeśli zmienisz hasło AquaWiz, Cora się rozłączy. Połącz ją potem ponownie z wiersza urządzenia. Żeby całkowicie odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.
@@ -97,7 +97,7 @@ AquaWiz daje każdemu kontu jedno logowanie, więc Cora używa tego samego co ap
 
 ## Ręczne zapisywanie {#logging-by-hand}
 
-Niektóre parametry pochodzą z testu kropelkowego, a nie ze sprzętu. Żeby wpisać wynik, przewiń na dół pulpitu i dotknij **Zapisz parametry**.
+Niektóre parametry pochodzą z testu kropelkowego, a nie ze sprzętu. Żeby wpisać wynik, przewiń na dół panelu i dotknij **Zapisz parametry**.
 
 Odczyty zapisane ręcznie liczą się tak samo jak inne. Pokazują się na widżetach z własnym źródłem i wiekiem i trafiają do Reef Buddy. Cora porównuje też z nimi Twoje sondy, gdy mówi, że dwa źródła się nie zgadzają.
 

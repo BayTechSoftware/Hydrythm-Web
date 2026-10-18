@@ -178,6 +178,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Looking into a parameter"><img src="/help/img/mobile-metric-detail.webp" alt="Looking into a parameter" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>The dropdowns along the top, then the chart with your alert band shaded.</figcaption></figure>
 <ul><li>A history chart. The row above it sets what it shows. <strong>Parameter</strong> switches to any other parameter that has data, and keeps your timeframe. <strong>Timeframe</strong> goes from 1h through 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d and 360d to All. <strong>Source</strong> starts on <strong>All sources</strong> and lists the sources that report this parameter on this tank, such as <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> or <em>Manual</em>. Pick one to see only its readings.</li><li><strong>Compare</strong>, at the end of the same row, draws a second parameter on the chart, like alkalinity with calcium or pH with temperature. The button then reads <strong>vs</strong> and the other parameter's name. Tap it again to take the second line off.</li><li>A row with <strong>Latest</strong>, <strong>Min</strong>, <strong>Avg</strong> and <strong>Max</strong> for the time window on screen.</li><li>Icons in the top bar: <strong>Readings</strong> opens the raw readings list, and <strong>Record probe care</strong> logs a calibration or cleaning. For alkalinity, calcium and magnesium there's also the dose calculator, which uses the tank volume from your <a href="/help/mobile-tank-profile">tank profile</a> and the strengths from <a href="/help/mobile-dosing">Dosing</a>.</li></ul>
 <p>The screen always opens on 24h and <strong>All sources</strong>. It doesn't remember what you picked last time.</p>
+<p>Specific gravity always shows three or four decimals, so 1.022 doesn't turn into 1.02. That's the same in Cora Mobile and Cora Max, on the dashboard, in the chart and in the readings list.</p>
 <h2 id="reading-the-chart">Reading the chart</h2>
 <ul><li>The green band is your alert range, so you see each reading against it. To change the range, long-press the widget on the dashboard. More in <a href="/help/mobile-alerts">Alerts and thresholds</a>.</li><li>A dashed line marks a logged dose, so you can line up a change with what you dosed.</li><li><strong>30d high</strong> and <strong>30d low</strong> are dashed lines showing the last 30 days' extremes.</li><li>A hollow dot is a reading you excluded.</li><li>With <strong>Compare</strong> on, the second parameter uses the right-hand axis.</li></ul>
 <h2 id="choosing-a-range">Choosing a timeframe</h2>
@@ -203,7 +204,7 @@
 <p>You log readings from the dashboard, not from this screen. Tap <strong>Log Parameters</strong> under the widgets and enter what your test kit says. The list is grouped, and the <strong>Trace</strong> group covers iodine, iron and copper in µg/L, and potassium in mg/L. Hand-logged readings count as much as any other. They get their own source and time, show on the chart and feed Reef Buddy. They're also what Cora checks your equipment against.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora double-checks odd-looking entries</p><p>If a value is far from where the tank has been, Cora asks you to confirm it before saving. This catches a decimal point in the wrong place, or a reading entered under the wrong parameter. Once you confirm, the reading is saved as usual.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-dashboard"><span>Previous</span><b>Reading your dashboard</b></a><a class="pn-n" href="/help/mobile-dashboard-editing"><span>Next</span><b>Editing your dashboard</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -594,7 +595,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -1,8 +1,8 @@
 ---
 title: Planlar ve abonelikler
-description: Free, deneme, Plus, Pro ve Max planlarında neler var, nasıl abone olunur ya da yükseltilir, kullanımınızı nerede görürsünüz ve iPhone'da ya da Android'de nasıl iptal edersiniz.
+description: Free, deneme, Essential, Advanced ve Expert planlarında neler var, nasıl abone olunur ya da yükseltilir, kullanımınızı nerede görürsünüz ve iPhone'da ya da Android'de nasıl iptal edersiniz.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -34,7 +34,7 @@ Bir hak bittiğinde Cora'nın sizin için daha önce hazırladığı her şeyi o
 
 ## Deneme süresi
 
-**30 günlük Pro denemeniz hesabınızı oluşturduğunuzda başlar**. Bir özelliği ilk kullanmanızı beklemez ve kart gerekmez. **Hesap ve Abonelik**, onu bittiği tarihle birlikte **Cora Pro Denemesi** olarak gösterir.
+**30 günlük Advanced denemeniz hesabınızı oluşturduğunuzda başlar**. Bir özelliği ilk kullanmanızı beklemez ve kart gerekmez. **Hesap ve Abonelik**, onu bittiği tarihle birlikte **Cora Advanced Denemesi** olarak gösterir.
 
 | Deneme süresince | |
 |---|---|
@@ -44,15 +44,15 @@ Bir hak bittiğinde Cora'nın sizin için daha önce hazırladığı her şeyi o
 | ICP analizleri | Ayda 1 |
 | Reef Buddy ve yapay zeka izlemesi | İlk akvaryumunuz |
 
-Deneme Reef Buddy'yi ve **Yapay zeka ile tasarla**'yı içerir. Hakları Pro planınkinden küçüktür.
+Deneme Reef Buddy'yi ve **Yapay zeka ile tasarla**'yı içerir. Hakları Advanced planınkinden küçüktür.
 
 Bittiğinde hesabınız Free'ye döner. **Hiçbir şey silinmez.** Elinizdeki her ölçümü, günlük kaydını, raporu ve özeti okumaya devam edebilirsiniz.
 
 ## Ücretli planlar
 
-Üç plan var: **Plus**, **Pro** ve **Max**. Her biri aylık ya da yıllık alınabilir. Ayarlar onları Cora Plus, Cora Pro ve Cora Max olarak gösterir. Güncel fiyatları Cora Mobile'da ve uygulama mağazanızda bulursunuz, çünkü ödemeyi orada yaparsınız.
+Üç plan var: **Essential**, **Advanced** ve **Expert**. Her biri aylık ya da yıllık alınabilir. Ayarlar onları Cora Essential, Cora Advanced ve Cora Expert olarak gösterir. Güncel fiyatları Cora Mobile'da ve uygulama mağazanızda bulursunuz, çünkü ödemeyi orada yaparsınız.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Asistan mesajı / ay | 500 | 1.200 | 2.500 (adil kullanım) |
 | Sesli oturum / ay | 100 | 200 | 400 |
@@ -63,8 +63,8 @@ Bittiğinde hesabınız Free'ye döner. **Hiçbir şey silinmez.** Elinizdeki he
 Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan da düşer. Her ücretli plan Reef Buddy'yi, Cora'nın okuduğu laboratuvarlar için ICP yükleme ve analizini, kendi geçmişinizle karşılaştırmayı ve panolar için **Yapay zeka ile tasarla**'yı (her akvaryum için günde en fazla 5 tasarım) içerir.
 
 
-:::note Max planı Cora Max ekranı değildir
-**Max planı** bir aboneliktir. **Cora Max**, akvaryumunuzun yanında duran ekrandır. Birine sahip olmak için diğerine ihtiyacınız yoktur.
+:::note Expert planı Cora Max ekranı değildir
+**Expert planı** bir aboneliktir. **Cora Max**, akvaryumunuzun yanında duran ekrandır. Birine sahip olmak için diğerine ihtiyacınız yoktur.
 :::
 
 ### Hangi akvaryumlar yapay zeka alır {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy ve yapay zeka izlemesi, **Ayarlar → Akvaryumları yeniden sırala**
 ## Abone olma ya da yükseltme {#subscribing}
 
 1. **Ayarlar**'ı açın ve en üstteki hesap kartına dokunun. **Hesap ve Abonelik** açılır.
-2. Planınızın yanında **Planları gör**'e (Free'de ya da denemede), **Yükselt**'e (Plus'ta) ya da **Max'e yükselt**'e (Pro'da) dokunun.
+2. Planınızın yanında **Planları gör**'e (Free'de ya da denemede), **Yükselt**'e (Essential'da) ya da **Expert'e yükselt**'e (Advanced'de) dokunun.
 3. **Aylık** ya da **Yıllık**'ı seçin. Yıllık fiyat ne kadar tasarruf ettiğinizi gösterir.
 4. Bir plan seçin ve **Abone Ol**'a dokunun.
 5. App Store ya da Google Play ile onaylayın. Mağaza onayladığı anda yeni planınız açılır.
@@ -85,7 +85,7 @@ Aynı plan seçici bir sınıra ulaştığınızda da açılır, örneğin *Mesa
 
 ## Hesap ve Abonelik
 
-![Cora Mobile'da Hesap ve Abonelik](img/mobile-plans.webp "Abonelik altında planınız, Max'e yükselt ve Satın Alımları Geri Yükle ile.")
+![Cora Mobile'da Hesap ve Abonelik](img/mobile-plans.webp "Abonelik altında planınız, Expert'e yükselt ve Satın Alımları Geri Yükle ile.")
 
 **Hesap ve Abonelik**, şu anki planınızı ve ne zaman yenileneceğini ya da biteceğini gösterir. Altında şu kontroller vardır.
 
@@ -97,9 +97,9 @@ Aynı plan seçici bir sınıra ulaştığınızda da açılır, örneğin *Mesa
 
 ## Ne kadar kullandığınızı görme
 
-![Cora Mobile'da Kullanım ve Limitler](img/mobile-usage.webp "Kullanımı sayılan her özellik, aylık hakkıyla birlikte.")
+![Cora Mobile'da Kullanım ve Sınırlar](img/mobile-usage.webp "Kullanımı sayılan her özellik, aylık hakkıyla birlikte.")
 
-**Ayarlar → Cora Assistant → Kullanım ve Limitler**, kullanımı sayılan her özelliği aylık hakkının yanında, hepsi tek bir ekranda gösterir. Bunlar asistan mesajları, ICP analizleri ve sağlık raporlarıdır.
+**Ayarlar → Cora Assistant → Kullanım ve Sınırlar**, kullanımı sayılan her özelliği aylık hakkının yanında, hepsi tek bir ekranda gösterir. Bunlar asistan mesajları, ICP analizleri ve sağlık raporlarıdır.
 
 Kullanımı her özelliği kullandığınız yerde de görebilirsiniz.
 
@@ -110,7 +110,7 @@ Sayaçlar her takvim ayının başında yeniden başlar.
 
 ## Plan değiştirme
 
-Yükseltmek için yukarıdaki gibi **Yükselt**'i ya da **Max'e yükselt**'i kullanın. Düşürmek ya da aylık ile yıllık arasında geçmek için **Aboneliği Yönet**'i kullanın. Değişiklikler App Store ya da Google Play üzerinden yapılır ve telefonunuzdaki diğer abonelikler gibi, o mağazanın iade ve iptal koşulları dahil, aynı kurallara uyar.
+Yükseltmek için yukarıdaki gibi **Yükselt**'i ya da **Expert'e yükselt**'i kullanın. Düşürmek ya da aylık ile yıllık arasında geçmek için **Aboneliği Yönet**'i kullanın. Değişiklikler App Store ya da Google Play üzerinden yapılır ve telefonunuzdaki diğer abonelikler gibi, o mağazanın iade ve iptal koşulları dahil, aynı kurallara uyar.
 
 ## İptal etme
 

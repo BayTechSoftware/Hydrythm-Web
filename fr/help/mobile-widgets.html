@@ -210,7 +210,7 @@
 <p>Une tuile de doseur (un DŌS Apex ou un ReefDose) affiche une ligne par tête. Un nom de tête n’est jamais réduit en dessous d’une taille lisible. Sur une tuile haute, la ligne prend deux lignes, avec le nom sur la première et ce qui reste sur la seconde, par exemple <em>40 j</em> et <em>2,8 L</em>. Sur une tuile basse, la ligne de détail disparaît et le nom reste lisible.</p>
 <p>Choisissez ce qui vient en premier avec <strong>Afficher le reste en</strong> : <strong>Jours</strong> ou <strong>Millilitres (mL)</strong>. Une tête ReefDose sans nom propre est affichée avec le nom de l’appareil suivi de « tête » et de son numéro. Une tuile de doseur Jecod est en lecture seule et affiche le plan quotidien, car Jecod n’indique pas combien il reste dans le flacon.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-dashboard-editing"><span>Précédent</span><b>Modifier votre tableau de bord</b></a><a class="pn-n" href="/fr/help/mobile-sharing"><span>Suivant</span><b>Partager votre aquarium</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

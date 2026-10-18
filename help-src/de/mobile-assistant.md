@@ -2,7 +2,7 @@
 title: Cora fragen
 description: Cora Assistant per Tippen oder Sprechen nutzen, was Cora sehen kann, was Cora für dich tun kann, der Schalter für das Teilen von Daten und das Gedächtnis.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -62,6 +62,17 @@ Ausrüstung von unterwegs zu steuern, funktioniert nur, wenn ein Cora Max am Bec
 :::warning Cora berät. Du entscheidest
 Prüf alles Wichtige mit deinen eigenen Tests nach. Behandle große Änderungen so, wie du den Rat von jemand anderem behandeln würdest, und prüf kurz, ob sie Sinn ergeben, bevor du handelst. Die Zeile unter dem Nachrichtenfeld sagt dasselbe.
 :::
+
+## Antworten aus der Hilfe {#help-answers}
+
+Frag, wie etwas geht, zum Beispiel *„Wie füge ich eine Dosierpumpe hinzu?“*, und Cora Assistant antwortet aus dieser Hilfe, in deiner Sprache, getippt oder gesprochen. Eine Frage zur App zählt als normale Nachricht.
+
+Unter der Antwort siehst du bis zu zwei Abschnitte der Hilfe, jeweils mit bis zu zwei Schaltflächen:
+
+- **Diesen Bildschirm öffnen** bringt dich direkt zu dem Bildschirm, um den es in der Antwort geht. Bist du schon dort, fehlt sie. Gehört der Bildschirm zu den Haupt-Tabs, endet vorher ein Sprachgespräch.
+- **In der Hilfe lesen** öffnet diese Hilfeseite im Browser in der App auf deinem Handy.
+
+Die Schaltflächen erscheinen nur, wenn es einen Bildschirm oder eine Seite zum Öffnen gibt.
 
 ## Zustimmung
 

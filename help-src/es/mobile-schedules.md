@@ -2,7 +2,7 @@
 title: Programar equipos
 description: Crea un programa diario para una bomba Jecod y cópialo a otras bombas.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
@@ -18,7 +18,7 @@ Las luces y bombas de otras marcas tienen sus horarios en sus propias páginas: 
 Una bomba funciona en uno de dos modos. Elige uno con el selector de su página. El que está en marcha lleva *· en marcha*, y la página se abre en él:
 
 - **Igual todo el día**, con una sola intensidad constante
-- **Horario**, con un programa diario dividido en periodos
+- **Horario**, con un horario diario dividido en periodos
 
 Cora envía tu elección directamente a la bomba cuando tu teléfono está en su red. Si no lo está, se envía a través del Cora Max del acuario. Una bomba Bluetooth tiene que estar a tu alcance. Mientras no lo esté, lo que elijas aquí solo cambia lo que ves en pantalla.
 
@@ -32,7 +32,7 @@ El **gráfico del día** muestra el día entero, de 0 a 24 horas. Cada periodo e
 
 La **lista de periodos**, debajo del gráfico, muestra cada periodo con su horario, su modo y su intensidad, por ejemplo *Aleatorio, 00:00–03:00, Frec 50%, 40%*. Aquí añades, editas y quitas periodos.
 
-Con **Agregar al programa** añades un periodo. Para cambiar uno, ábrelo y toca **Guardar**. Para quitarlo, toca **Eliminar**. Antes de borrarlo se te pide que lo confirmes.
+Con **Agregar al horario** añades un periodo. Para cambiar uno, ábrelo y toca **Guardar**. Para quitarlo, toca **Eliminar**. Antes de borrarlo se te pide que lo confirmes.
 
 
 :::warning El horario se guarda en el propio equipo
@@ -43,7 +43,7 @@ Al guardar, el programa se envía al equipo, que lo sigue con su propio reloj. S
 
 Si tienes varias bombas que deben funcionar igual, crea un programa y cópialo.
 
-Abre la bomba que tiene el programa, toca **Copiar horario a…** y elige la bomba de destino.
+Abre la bomba que tiene el horario, toca **Copiar horario a…** y elige la bomba de destino.
 
 ## Guardar y compartir un horario
 

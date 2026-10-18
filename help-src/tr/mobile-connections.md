@@ -2,7 +2,7 @@
 title: Ekipmanınızı bağlama
 description: Bir Neptune Apex, Red Sea ReefBeat, Jecod ya da AquaWiz ünitesini Cora'ya nasıl bağlayacağınız.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 12
 group: Equipment
 ---
@@ -54,7 +54,7 @@ Cora, yerel ağınızdaki ReefBeat ekipmanıyla konuşur. **ReefDose**, **ReefAT
 
 Bir Red Sea ünitesi tek bir akvaryuma hizmet eder. Farklı birini seçmek onu oraya taşır.
 
-Her ünite kendi cihaz sayfasını alır ve ölçümleri kaynak olur. ReefDose kafalarını ve kaplarını, ReefATO+ haznesini ve dolumlarını, ReefMat kalan günlerini, ReefRun da pompa durumunu bildirir. Her sayfanın neler yapmanızı sağladığı [Ekipmanınızı kontrol etme](/help/mobile-device-control#red-sea) sayfasında.
+Her ünite kendi cihaz sayfasını alır ve ölçümleri kaynak olur. ReefDose kafalarını ve kaplarını, ReefATO+ deposunu ve dolumlarını, ReefMat kalan günlerini, ReefRun da pompa durumunu bildirir. Her sayfanın neler yapmanızı sağladığı [Ekipmanınızı kontrol etme](/help/mobile-device-control#red-sea) sayfasında.
 
 ## Jecod / Jebao {#jecod}
 
@@ -76,19 +76,19 @@ Bir arama hiçbir şey bulamazsa sonuç Wi-Fi üzerinden kontrol ettiği adresle
 Sayfası Cora'nın okuduğu son ayarları ve ne kadar önce okuduğunu gösterir. Herhangi bir şeyi değiştirmek, bir besleme duraklatması başlatmak bile, pompanın menzilde olmasını gerektirir. Yakınında durun ve sayfayı yeniden açın.
 :::
 
-İki bağlantıyla da canlı durum, mod ve yoğunluk, besleme duraklatması ve günlük program elde edersiniz. Telefonunuzdan başlatılan bir besleme duraklatması bazı pompalarda pompanın sayfasının açık tutulmasını gerektirir. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control#jecod) sayfasında, günlük program da [Ekipman programları](/help/mobile-schedules) sayfasında anlatılır.
+İki bağlantıyla da canlı durum, mod ve yoğunluk, besleme duraklatması ve günlük zamanlama elde edersiniz. Telefonunuzdan başlatılan bir besleme duraklatması bazı pompalarda pompanın sayfasının açık tutulmasını gerektirir. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control#jecod) sayfasında, günlük zamanlama da [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında anlatılır.
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
-Cora bir AquaWiz KH kontrolcüsünden alkaliniteyi AquaWiz hesabınız üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez.
+Cora bir AquaWiz KH kontrolöründen alkaliniteyi AquaWiz hesabınız üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez.
 
 1. **Cihazlar → Cihaz Ekle → AquaWiz** yoluna gidin.
 2. AquaWiz kullanıcı adınızı ve şifrenizi girin ve **Bağlan**'a dokunun.
-3. Akvaryumu seçin, isterseniz **pH'ını da oku**'yu açın ve **Cora'ya Bağla**'ya dokunun.
+3. Akvaryumu seçin, **pH'ını da oku**'yu kontrol edin (pH bildiren bir ünitede başta açıktır) ve **Cora'ya Bağla**'ya dokunun.
 
 **Otomatik olarak bağlı kal** açıkken Cora AquaWiz şifrenizi saklar ve bağlantıyı kendisi yeniler. Kapalıyken Cora yalnızca AquaWiz'in yaklaşık 30 günde bir sona erdirdiği bir giriş belirteci saklar ve yeniden giriş yapma zamanı geldiğinde size bir bildirim gönderir.
 
-Kaynak olarak, kontrolcünüz ne sıklıkla titrasyon yapıyorsa o sıklıkla güncellenen alkaliniteyi alırsınız. Açtıysanız ve üniteniz bildiriyorsa pH da gelir. AquaWiz kartının ne gösterdiği ve takviye uyarısı [Ekipmanınızı kontrol etme](/help/mobile-device-control#aquawiz) sayfasında.
+Kaynak olarak alkaliniteyi alırsınız. Üniteniz bildiriyorsa ve **pH'ını da oku** açıksa pH da gelir. İlk ölçümünüz bağlar bağlamaz gelir. Sonrasında AquaWiz, Cora'nın bulutunu otomatik olarak yalnızca 12 saatte bir okumasına izin verir; yani oradan gelen bir ölçüm yarım güne kadar eski olabilir. Akvaryumdaki bir Cora Max, ulaşabildiğinde kontrolörü her saat kendisi de okuyabilir. Her ölçümün ne zaman yapıldığını ve nereden geldiğini görmek için cihazın sayfasını açın, yenisi için **Şimdi oku**'ya dokunun (en fazla 15 dakikada bir). AquaWiz kartının ne gösterdiği ve uyarıları [Ekipmanınızı kontrol etme](/help/mobile-device-control#aquawiz) sayfasında.
 
 :::warning Cora AquaWiz girişinizi paylaşır
 AquaWiz her hesaba tek bir giriş verir, bu yüzden Cora AquaWiz uygulamasıyla aynı girişi kullanır. AquaWiz şifrenizi değiştirirseniz Cora'nın bağlantısı kesilir. Sonrasında cihaz satırından yeniden bağlayın. Cora'nın erişimini tamamen kaldırmak için cihazı Cora'dan kaldırın ve AquaWiz şifrenizi değiştirin.

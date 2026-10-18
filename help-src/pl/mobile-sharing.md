@@ -11,17 +11,17 @@ Cora może przygotować **zdjęcie akwarium**: jeden obraz z bieżącymi paramet
 
 ## Jak je zrobić {#creating-one}
 
-Dotknij ikony udostępniania w nagłówku akwarium na pulpicie. Możesz też dotknąć ikony aparatu u góry Raportu zdrowia. Otworzy się **Zdjęcie akwarium** z podglądem karty i nic nie zostanie wysłane, dopóki nie wybierzesz, dokąd ma trafić.
+Dotknij ikony udostępniania w nagłówku akwarium na panelu. Możesz też dotknąć ikony aparatu u góry Raportu zdrowia. Otworzy się **Zdjęcie akwarium** z podglądem karty i nic nie zostanie wysłane, dopóki nie wybierzesz, dokąd ma trafić.
 
 ![Arkusz Zdjęcie akwarium](img/mobile-sharing.webp "Wybierz, które metryki pojawią się na karcie, i jej kształt.")
 
 ## Co jest na karcie {#what-it-contains}
 
-Na karcie jest nazwa akwarium, jego wiek, typ i liczba mieszkańców, a także wynik zdrowia, jeśli jest jakiś niedawny. Pod spodem są wybrane metryki, każda z bieżącą wartością i ostatnim trendem.
+Na karcie jest nazwa akwarium, jego wiek, typ i liczebność obsady, a także wynik zdrowia, jeśli jest jakiś niedawny. Pod spodem są wybrane parametry, każdy z bieżącą wartością i ostatnim trendem.
 
 ## Co pokazać {#choosing-what-appears}
 
-W sekcji **Metryki na karcie** każdy parametr z odczytami z ostatniego tygodnia ma swój chip. Dotykaj chipów, żeby je dodać albo usunąć. **Wybierz wszystko** włącza wszystkie, a gdy wszystkie są włączone, przycisk zmienia się w **Resetuj**, który przywraca wybór początkowy. Najlepiej wyglądają trzy albo cztery. Przy większej liczbie na karcie robi się ciasno. Karta zawsze zachowuje co najmniej jedną metrykę.
+W sekcji **Parametry na karcie** każdy parametr z odczytami z ostatniego tygodnia ma swój chip. Dotykaj chipów, żeby je dodać albo usunąć. **Wybierz wszystko** włącza wszystkie, a gdy wszystkie są włączone, przycisk zmienia się w **Resetuj**, który przywraca wybór początkowy. Najlepiej wyglądają trzy albo cztery. Przy większej liczbie na karcie robi się ciasno. Karta zawsze zachowuje co najmniej jeden parametr.
 
 Ten telefon zapamięta Twój wybór dla tego akwarium na następny raz.
 

@@ -2,7 +2,7 @@
 title: Wartung
 description: Wiederkehrende Aufgaben wie Abschäumer reinigen oder Filtersocken wechseln hinzufügen, erinnert werden, wenn sie fällig sind, und sie als erledigt markieren oder verschieben.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 28
 group: Records
 twin: max-records
@@ -49,7 +49,7 @@ Verbindest du ein Red Sea ReefDose, ReefATO+, ReefMat oder ReefRun, fügt Cora d
 | Gerät | Aufgabe | Intervall |
 |---|---|---|
 | ReefATO+ | ReefATO+-EC-Sensor ersetzen | 42 Tage |
-| ReefATO+ | ReefATO+-Rücklaufpumpe ersetzen | 135 Tage |
+| ReefATO+ | ReefATO+-Rückförderpumpe ersetzen | 135 Tage |
 | ReefMat | ReefMat-Kohle ersetzen | 25 Tage |
 | ReefRun | ReefRun-Abschäumer-Venturi prüfen | 35 Tage |
 | ReefRun | ReefRun-Abschäumer-Rotor ersetzen | 135 Tage |
@@ -80,13 +80,19 @@ Erinnerungen fallen unter **Wartungserinnerungen** in [Einstellungen → Benachr
 
 Wisch die Aufgabe nach rechts oder öffne sie und tippe auf **Erledigt**. Hast du aus Versehen gewischt, tippe in der Meldung, die erscheint, auf **Rückgängig**.
 
-Cora speichert die Zeit, zu der du fertig warst, und zählt die nächste Fälligkeit ab dann. Erledigst du eine Aufgabe drei Tage zu spät, rückt die nächste also auch um drei Tage nach hinten.
+Cora speichert die Zeit, zu der du fertig warst, und zählt die nächste Fälligkeit ab dann. Erledigst du eine Aufgabe drei Tage zu spät, rückt die nächste also auch um drei Tage nach hinten. Ist die Aufgabe überfällig, fragt Cora zuerst **Wann hast du es erledigt?** Wähle **Gerade eben** oder **Datum und Uhrzeit wählen**, wenn du es früher gemacht hast (siehe unten).
 
 Das Fenster der Aufgabe zeigt ihren **Erledigungsverlauf**, auch wie spät jede war.
 
 :::note Eine Aufgabe zu erledigen schreibt auch einen Tagebucheintrag
 Cora fügt für dich einen kurzen Eintrag in dein [Tagebuch](/help/mobile-journal) ein und vermerkt, wenn sie zu spät war. Füg einen eigenen Eintrag hinzu, wenn es mehr zu sagen gibt, etwa wenn die Pumpe voller Sand war oder die Socken nach einem Tag schwarz waren.
 :::
+
+## Eine Aufgabe nachträglich als erledigt markieren {#done-earlier}
+
+Du hast die Arbeit gestern gemacht und vergessen, sie abzuhaken? Öffne die Aufgabe, tippe auf **Früher erledigt…** und wähle Datum und Uhrzeit. Cora datiert die Erledigung, den Tagebucheintrag und die nächste Fälligkeit ab dieser Zeit. Die nächste Fälligkeit ist also die gewählte Zeit plus das Intervall.
+
+Du kannst bis zu ein Jahr zurückgehen, aber nicht vor das letzte Mal, als du die Aufgabe erledigt hast. Wählst du einen Zeitpunkt, der noch nicht war, oder einen vor der letzten Erledigung, sagt Cora es dir und speichert nichts.
 
 ## Eine Aufgabe bearbeiten {#editing}
 
@@ -97,7 +103,7 @@ Tippe auf eine Aufgabe, um sie zu öffnen. Du kannst **Aufgabenname**, **Interva
 Kommst du gerade nicht zu einer Aufgabe? Öffne sie, tippe auf **Verschieben** und wähl **1 Tag**, **3 Tage**, **1 Woche**, **2 Wochen** oder **1 Monat**. Sie bleibt als **Verschoben** mit ihrem neuen Datum in der Liste, und du wirst bis dahin nicht erinnert.
 
 :::warning Markier eine Aufgabe nur als erledigt, wenn du sie erledigt hast
-Die nächste Fälligkeit wird ab dem Tag gezählt, an dem du sie als erledigt markierst. Markierst du eine offene Aufgabe als erledigt, verschiebt sich jede spätere Fälligkeit. Verschieb sie stattdessen.
+Die nächste Fälligkeit wird ab dem Zeitpunkt gezählt, zu dem du die Aufgabe erledigt hast. Markierst du eine offene Aufgabe als erledigt, verschiebt sich jede spätere Fälligkeit. Hast du sie früher gemacht, nimm **Früher erledigt…** und wähle die echte Zeit. Hast du sie nicht gemacht, verschieb sie stattdessen.
 :::
 
 Eine Aufgabe zu pausieren geht nicht. Für eine Aufgabe, die in dieser Saison nicht anfällt, verschieb sie um **1 Monat** oder lösche sie und füg sie später wieder hinzu.

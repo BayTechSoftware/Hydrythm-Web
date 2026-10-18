@@ -2,7 +2,7 @@
 title: Cihazlar ve cihaz sağlığı
 description: Cora Max'in okuduğu ekipmanı görün ve adını değiştirin, her akvaryumu hangi Cora Max'in okuyacağını seçin, ölçümleri duran bir akvaryumu düzeltin ve bir Cora Max'i telefonunuzdan yönetin.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Equipment
 twin: mobile-devices
@@ -15,6 +15,8 @@ Cora Max'te **Ayarlar → Cihazlar**, gördüğü ekipmanı ve her cihazın duru
 ![Cora Max'te akvaryuma göre süzülmüş ve markaya göre gruplanmış cihaz listesi](img/max-devices.webp "Akvaryuma göre süzün, ardından her cihaz markasına göre gruplanmış, tek satırlık özeti ve akvaryumuyla.")
 
 Cora Max telefonunuzla aynı ekipmanı görür, çünkü ikisi de aynı hesabı okur.
+
+Listede önce Cora aileleri, sonra her marka A'dan Z'ye sıralanır.
 
 Üstteki filtre çipleriyle **Tüm akvaryumlar**'ı ya da yalnızca birini gösterin. Cihazlar markaya göre gruplanır. Her kayıtta bir durum noktası (Cora henüz bilmiyorsa gri, çalışıyorsa yeşil, uyarı ya da arıza varsa turuncu, çevrimdışıysa kırmızı), cihazda ne olduğunu anlatan tek satırlık bir özet (*21 priz · 4 besleme*, *19 test kaldı*), ait olduğu akvaryum ve **Son görülme** zamanı bulunur.
 
@@ -33,7 +35,7 @@ Cihazları telefonunuzda ekler, atar ve kaldırırsınız. Cora Max onları gös
 
 ## Birincil Cora Max: ekipmanınızla hangi cihaz konuşur {#primary-cora-max}
 
-**Birincil Cora Max**, bir akvaryumun kontrolcüsünü ve diğer ekipmanını tüm hesap adına okuyan Cora Max'tir (ya da başka bir Cora cihazı). Her akvaryumda bu işi yalnızca bir cihazın yapması gerekir. Diğer her ekran onun okuduğunu gösterir.
+**Birincil Cora Max**, bir akvaryumun kontrolörünü ve diğer ekipmanını tüm hesap adına okuyan Cora Max'tir (ya da başka bir Cora cihazı). Her akvaryumda bu işi yalnızca bir cihazın yapması gerekir. Diğer her ekran onun okuduğunu gösterir.
 
 Görmek ya da değiştirmek için **Ayarlar → [akvaryumunuz] → Birincil Cora Max**'i açın. İki seçeneğiniz var.
 

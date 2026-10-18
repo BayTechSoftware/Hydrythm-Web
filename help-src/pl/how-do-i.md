@@ -2,7 +2,7 @@
 title: Jak to zrobić?
 description: Lista typowych zadań w Cora Mobile i na Cora Max, każde z linkiem do dokładnych kroków, od założenia konta po parowanie Cora Max i anulowanie planu.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 
@@ -49,12 +49,12 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Ustaw dla pompy program dnia](/help/mobile-schedules)
 - [Zobacz, co zrobił Twój sprzęt i dlaczego](/help/mobile-activity)
 
-## Odczyty i pulpit
+## Odczyty i panel
 
 - [Zapisz test wody](/help/mobile-metric-detail#logging-a-reading-by-hand)
 - [Dostawaj co tydzień przypomnienie o teście](/help/mobile-maintenance#test-water)
 - [Dodaj, przenieś albo zmień rozmiar widżetu](/help/mobile-dashboard-editing#adding-a-widget)
-- [Zapisz układ pulpitu](/help/mobile-dashboard-editing#saving)
+- [Zapisz układ panelu](/help/mobile-dashboard-editing#saving)
 - [Usuń błędny odczyt](/help/mobile-metric-detail#excluding-a-bad-reading)
 - [Napraw szary widżet](/help/troubleshooting#a-widget-is-grey)
 - [Napraw widżet bez wartości](/help/troubleshooting#a-widget-shows-no-value)
@@ -73,7 +73,7 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Utwórz automatyzację](/help/mobile-automation)
 - [Dostań powiadomienie, gdy Cora Max przejdzie w tryb offline](/help/troubleshooting#my-cora-max-is-offline)
 
-## Zapiski
+## Zapisy
 
 - [Napisz wpis w dzienniku](/help/mobile-journal#adding-an-entry)
 - [Zapisz karmienie](/help/mobile-journal#feeding)
@@ -108,7 +108,7 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Napraw Cora Max, którego nie da się sparować](/help/troubleshooting#pairing-a-cora-max-fails)
 - [Zmień, które akwaria pokazuje Cora Max](/help/max-setup#changing-which-tanks-it-shows)
 - [Przełączaj akwaria na Cora Max](/help/max-tour#switching-tanks)
-- [Edytuj pulpit Cora Max](/help/max-dashboard-editing)
+- [Edytuj panel Cora Max](/help/max-dashboard-editing)
 - [Wybierz, które urządzenie odpowiada na „Hey Cora”](/help/mobile-multi-device#cora-assistant-answering-device)
 - [Wybierz, który Cora Max odczytuje sprzęt akwarium](/help/mobile-multi-device#primary-cora-max)
 - [Wyłącz „Hey Cora”](/help/troubleshooting#i-cant-find-where-to-turn-off-the-wake-word-on-cora-max)

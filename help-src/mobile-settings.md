@@ -2,7 +2,7 @@
 title: Cora Mobile settings
 description: Where everything is in Cora Mobile's Settings tab, from your account and plan to tanks, Cora Assistant, language, dark mode, notifications and support.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -112,7 +112,7 @@ If **Contribute anonymized tank data** is on (and it is, unless you turned it of
 - **Contact Support** opens an email to us. We usually reply within a day.
 - **Report a Bug / Send Feedback** sends a report from inside Cora Mobile. See [Reporting a problem](/help/mobile-support).
 - **Send crash reports**, described above.
-- **Cora Website & FAQ** opens the Cora website.
+- **Cora Website & FAQ** opens the Cora website. It opens this guide in your language.
 
 ## About
 

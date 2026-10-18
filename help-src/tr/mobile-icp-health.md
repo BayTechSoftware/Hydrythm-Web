@@ -2,7 +2,7 @@
 title: ICP ve sağlık raporları
 description: Bir ICP testi PDF'i yükleyin ya da laboratuvarınızın göndermesini sağlayın, puanı okuyun, her elementi zaman içinde izleyin ve tüm sisteminiz için bir Sağlık Raporu çalıştırın.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -85,6 +85,8 @@ Ana parametrelerin yanı sıra eser elementler ve kirleticiler dahil her element
 Her element satırında, Cora'nın o element için kendi aralığının yanında laboratuvarın bastığı aralığı *Laboratuvar aralığı* olarak görürsünüz. Cora'nın referans aralığı olmayan bir element **Cora aralığı yok** etiketini taşır. Rapor kaç elementin Cora aralığı olduğunu söyler ve geri kalanları genel reef bilgisine göre değerlendirir. Cora Assistant test edilen her element hakkında yorum yapar ve yorumu, Cora aralığı olmasa bile geçerlidir.
 
 Laboratuvar bir element için *n.d.* ya da *not detected* (tespit edilmedi) basarsa Cora onu 0 olarak kaydeder ve tespit edilmediğini söyler.
+
+Bir laboratuvar tuzluluk yerine **özgül ağırlık** (ya da bağıl yoğunluk) bildirirse Cora onu tuzluluk olarak kaydeder, yine SG olarak gösterir ve tuzluluk aralığınıza göre değerlendirir.
 
 :::note Çözünmüş CO2 oda CO2'si değildir
 Bir ICP raporundaki **Çözünmüş CO₂**, mg/L cinsinden sudaki CO2'dir. Odanızdaki havanın CO2'sinden farklı bir ölçümdür. İkisinin aralıkları farklıdır ve asla karıştırılmazlar.

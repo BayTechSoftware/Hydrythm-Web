@@ -2,7 +2,7 @@
 title: Cihaz ekleme, düzenleme ve kaldırma
 description: Cihazlar sekmesinden ekipmanı Cora'ya ekleyin, bir akvaryuma atayın, adını değiştirin, sağlıklı çalışıp çalışmadığını kontrol edin ve kaldırın.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices

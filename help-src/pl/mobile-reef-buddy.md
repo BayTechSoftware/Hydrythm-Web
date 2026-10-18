@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Twoje codzienne podsumowanie Reef Buddy: co obejmuje, kiedy przychodzi, jak czytać oceny i dlaczego podsumowanie może nie przyjść.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -10,7 +10,7 @@ twin: max-intelligence
 
 Reef Buddy to krótkie codzienne spojrzenie na Twoje akwarium. Przychodzi każdego ranka, mówi, co się zmieniło, i wskazuje wszystko, co wymaga uwagi, zanim to zauważysz.
 
-Zobaczysz go jako kartę na górze pulpitu i jako jedno powiadomienie, gdy jest coś, czym warto się zająć.
+Zobaczysz go jako kartę na górze panelu i jako jedno powiadomienie, gdy jest coś, czym warto się zająć.
 
 ![Podsumowanie Reef Buddy](img/mobile-reefbuddy.webp "Oceny Stabilność i Dane, podsumowanie, a pod nimi spostrzeżenia, na których się opierają.")
 
@@ -32,13 +32,13 @@ Potem są spostrzeżenia, po jednym na każde ustalenie. Każde ma kategorię (n
 
 Cora filtruje spostrzeżenia, zanim do Ciebie trafią. Spostrzeżenie musi się utrzymać przez kilka odczytów. Jeden nie wystarczy. Musi też mówić coś, czego nie pokazałby już sam wykres.
 
-Dotknij karty na pulpicie, żeby otworzyć całe podsumowanie.
+Dotknij karty na panelu, żeby otworzyć całe podsumowanie.
 
 ## Ponowne otwieranie podsumowania {#dismissing-the-card}
 
-Dotknij **×**, żeby usunąć dzisiejszą kartę z pulpitu. Jutrzejsza i tak przyjdzie.
+Dotknij **×**, żeby usunąć dzisiejszą kartę z panelu. Jutrzejsza i tak przyjdzie.
 
-Żeby otworzyć dzisiejsze podsumowanie po usunięciu karty, dotknij przycisku z gazetą na górze pulpitu (**Codzienne zdrowie Reef Buddy**). Starsze podsumowanie otworzysz z jego powiadomienia.
+Żeby otworzyć dzisiejsze podsumowanie po usunięciu karty, dotknij przycisku z gazetą na górze panelu (**Codzienne zdrowie Reef Buddy**). Starsze podsumowanie otworzysz z jego powiadomienia.
 
 ## Aktualizacja podsumowania po nowym teście
 
@@ -52,7 +52,7 @@ Odczyty z sond i kontrolerów nie wywołują tej propozycji, bo napływają prze
 
 Pod spostrzeżeniem dotknij **Dlaczego to widzę?** Arkusz **Dlaczego to widzisz** wymienia **Użyte odczyty**, **Wartość docelową do porównania** (Twoją własną albo zakres odniesienia), wszystko **Z Twojego dziennika**, co wzięto pod uwagę, i okres w dniach, który przeanalizowano. Jeśli rozumowanie nie pasuje do Twojego akwarium, odpowiedz na spostrzeżenie tak, jak opisuje [Ocena spostrzeżenia](#correcting-an-insight).
 
-Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów świateł Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia oraz sum z Twoich głowic DŌS.
+Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia oraz sum z Twoich głowic DŌS.
 
 
 ## Kiedy przychodzi
@@ -85,13 +85,13 @@ Jeśli przez tydzień nic nie testowano, ocena Dane spada, a Stabilność staje 
 
 Reef Buddy jest częścią płatnych planów. Jest też w 30-dniowym okresie próbnym, który zaczyna się w chwili założenia konta.
 
-Każdy plan obejmuje określoną liczbę akwariów: 1 w okresie próbnym i w Plus, 5 w Pro i 20 w Max. Podsumowania trafiają do pierwszych akwariów w kolejności ustawionej w **Ustawienia → Zmień kolejność akwariów**. Żeby objąć akwarium, które zostało pominięte, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca.
+Każdy plan obejmuje określoną liczbę akwariów: 1 w okresie próbnym i w Essential, 5 w Advanced i 20 w Expert. Podsumowania trafiają do pierwszych akwariów w kolejności ustawionej w **Ustawienia → Zmień kolejność akwariów**. Żeby objąć akwarium, które zostało pominięte, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca.
 
 Po okresie próbnym konto darmowe widzi w miejscu podsumowania zablokowaną kartę Reef Buddy z **Zobacz plany** i nie dostaje powiadomienia o podsumowaniu. Więcej w [Planach i subskrypcjach](/help/mobile-plans).
 
 ## Gdy podsumowanie nie przyszło
 
-- **Nic nie wymagało Twojej uwagi.** W dobry dzień Reef Buddy milczy. Karta nadal jest na pulpicie.
+- **Nic nie wymagało Twojej uwagi.** W dobry dzień Reef Buddy milczy. Karta nadal jest na panelu.
 - **Okres próbny się skończył.** Konto darmowe dostaje zablokowaną kartę i żadnego powiadomienia.
 - **Akwarium jest poza limitem planu.** Przesuń je wyżej w **Ustawienia → Zmień kolejność akwariów**.
 - **Powiadomienia są wyłączone.** Sprawdź [Powiadomienia](/help/mobile-notifications).

@@ -2,7 +2,7 @@
 title: Ausrüstung nach Marke
 description: Alles zu deiner Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Ausrüstung an einem Ort, vom Hinzufügen über das Steuern bis zu Warnungen und Lösungen.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 3
 ---
 
@@ -48,7 +48,7 @@ Pumpen, die Cora über dein Netzwerk oder über Bluetooth erreichen. Welcher Weg
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora liest ihn über die eigene Cloud von AquaWiz, deshalb aktualisiert er sich auch ohne Cora Max weiter.
+Cora liest ihn alle 12 Stunden über die eigene Cloud von AquaWiz, deshalb aktualisiert er sich auch ohne Cora Max weiter. Ein Cora Max am Becken kann einen stündlichen Messwert dazugeben.
 
 - Hinzufügen: [Deine Ausrüstung verbinden](/help/mobile-connections#aquawiz-kh-controller)
 - Auf dem Handy: [AquaWiz](/help/mobile-device-control#aquawiz)

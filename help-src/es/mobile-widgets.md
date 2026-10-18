@@ -1,13 +1,13 @@
 ---
 title: Referencia de widgets
-description: Todos los tipos de widget del panel de Cora Mobile, desde valor, medidor, gráfico, estado y toma hasta las casillas de dispositivos, y cuándo usar cada uno.
+description: Todos los tipos de widget del panel de Cora Mobile, desde valor, medidor, gráfico, estado y toma hasta las tarjetas de dispositivos, y cuándo usar cada uno.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 9
 group: Your dashboard
 ---
 
-Un widget es una casilla de tu panel, y muestra una sola cosa. Esta página repasa cada tipo y lo que puedes configurar en él.
+Un widget es una tarjeta de tu panel, y muestra una sola cosa. Esta página repasa cada tipo y lo que puedes configurar en él.
 
 Los widgets se añaden y se colocan en [el editor del panel](/help/mobile-dashboard-editing). Toca ahí un widget para abrir sus ajustes: **Tipo** y **Parámetro** en un widget de parámetro, la toma o el dispositivo en los demás, después **Ancho** y **Alto**, y **Rango de tiempo** en un gráfico.
 
@@ -26,7 +26,7 @@ Los widgets se añaden y se colocan en [el editor del panel](/help/mobile-dashbo
 | **Módulo del Apex** | Un módulo Apex instalado, como un Trident o un DŌS |
 | **Jecod** | Una bomba Jecod, con su modo y su intensidad |
 
-Todo lo que va después de Toma son casillas de **dispositivo**. Cada una pertenece a un equipo en lugar de a un parámetro, y muestra lo que ese equipo informe. Cora Max también tiene una casilla de **Escena**, que se añade en Cora Max. Consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
+Todo lo que va después de Toma son tarjetas de **dispositivo**. Cada una pertenece a un equipo en lugar de a un parámetro, y muestra lo que ese equipo informe. Cora Max también tiene una tarjeta de **Escena**, que se añade en Cora Max. Consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
 
 
 ## Tamaño {#sizing}
@@ -35,7 +35,7 @@ Todo lo que va después de Toma son casillas de **dispositivo**. Cada una perten
 
 ## Qué muestra un widget de parámetro {#what-a-parameter-widget-shows}
 
-Los widgets Valor, Medidor, Gráfico y Estado muestran un parámetro medido, y siempre muestran tres cosas. Las casillas de toma y de dispositivo muestran su propio estado, porque no hay una sola lectura detrás.
+Los widgets Valor, Medidor, Gráfico y Estado muestran un parámetro medido, y siempre muestran tres cosas. Las tarjetas de toma y de dispositivo muestran su propio estado, porque no hay una sola lectura detrás.
 
 - **El valor**, en grande
 - **La antigüedad** (`now`, `1h`, `2d`), que es cuánto hace que la fuente confirmó el valor por última vez. En una sonda, es cuándo se comunicó su dispositivo por última vez, así que una lectura estable sigue reciente. En un resultado de kit de pruebas o de ICP, es cuándo hiciste la prueba. Más información en [Leer tu panel](/help/mobile-dashboard#how-to-read-a-parameter-widget).
@@ -63,7 +63,7 @@ En una sola columna el arco queda demasiado pequeño para leerlo de un vistazo. 
 
 Un gráfico es una línea de tendencia en el rango de tiempo que elijas: 1h, 6h, 24h, 7d, 30d o 1y. Marca el máximo y el mínimo y destaca el valor actual.
 
-En un parámetro que mides con pruebas (con un Trident o un kit), la línea une tus pruebas reales. Si en el periodo solo hay una prueba, la línea llega desde la prueba anterior y no hay máximo ni mínimo. Si no hay ninguna prueba en el periodo, o no hay nada anterior con lo que unir una sola prueba, la casilla muestra **Recopilando…** en lugar de una línea.
+En un parámetro que mides con pruebas (con un Trident o un kit), la línea une tus pruebas reales. Si en el periodo solo hay una prueba, la línea llega desde la prueba anterior y no hay máximo ni mínimo. Si no hay ninguna prueba en el periodo, o no hay nada anterior con lo que unir una sola prueba, la tarjeta muestra **Recopilando…** en lugar de una línea.
 
 Úsalo para todo lo que se mueve, como el pH a lo largo del día, la temperatura en una ola de calor o la alcalinidad entre dosis.
 
@@ -81,7 +81,7 @@ Muestra la lectura en texto, con un punto de color para dentro del rango, desvi�
 
 Es un interruptor de tres posiciones para una toma del Apex: **Auto**, **Apagado** y **Encendido**. Tú eliges qué toma controla.
 
-- **Auto** devuelve la toma a lo que la controla normalmente. Puede ser un programa, una regla o el controlador al que pertenece.
+- **Auto** devuelve la toma a lo que la controla normalmente. Puede ser un horario, una regla o el controlador al que pertenece.
 - **Apagado** y **Encendido** son cambios manuales. Se mantienen hasta que los vuelvas a cambiar.
 
 :::warning Un cambio manual no caduca
@@ -90,12 +90,12 @@ Apagado significa apagado hasta que vuelvas a ponerla en Auto. Si apagas la bomb
 
 ## ReefBeat {#reefbeat}
 
-Es una casilla para un equipo completo. Muestra el resumen propio del equipo en lugar de un solo parámetro, por ejemplo el estado y el depósito de un ATO, los cabezales de una dosificadora o los días que le quedan a un rollo de fieltro. Tú eliges qué dispositivo muestra.
+Es una tarjeta para un equipo completo. Muestra el resumen propio del equipo en lugar de un solo parámetro, por ejemplo el estado y el depósito de un ATO, los cabezales de una dosificadora o los días que le quedan a un rollo de fieltro. Tú eliges qué dispositivo muestra.
 
-Qué dispositivos pueden tener casilla depende de lo que hayas conectado. Consulta [Conectar tus equipos](/help/mobile-connections).
+Qué dispositivos pueden tener tarjeta depende de lo que hayas conectado. Consulta [Conectar tus equipos](/help/mobile-connections).
 
-## Casillas de dosificadora {#doser-tiles}
+## Tarjetas de dosificadora {#doser-tiles}
 
-La casilla de una dosificadora (un DŌS de Apex o una ReefDose) muestra una fila por cabezal. El nombre de un cabezal nunca se reduce por debajo de un tamaño legible. En una casilla alta, la fila ocupa dos líneas, con el nombre en la primera y lo que queda en la segunda, por ejemplo *40d* y *2,8 L*. En una casilla baja se quita la línea de detalle y el nombre se mantiene legible.
+La tarjeta de una dosificadora (un DŌS de Apex o una ReefDose) muestra una fila por cabezal. El nombre de un cabezal nunca se reduce por debajo de un tamaño legible. En una tarjeta alta, la fila ocupa dos líneas, con el nombre en la primera y lo que queda en la segunda, por ejemplo *40d* y *2,8 L*. En una tarjeta baja se quita la línea de detalle y el nombre se mantiene legible.
 
-Elige qué va primero con **Mostrar lo restante como**: **Días** o **Mililitros (mL)**. Un cabezal ReefDose sin nombre propio se muestra como el nombre del dispositivo seguido de "head" y su número. La casilla de una dosificadora Jecod es de solo lectura y muestra el plan diario, porque Jecod no informa de cuánto queda en la botella.
+Elige qué va primero con **Mostrar lo restante como**: **Días** o **Mililitros (mL)**. Un cabezal ReefDose sin nombre propio se muestra como el nombre del dispositivo seguido de "head" y su número. La tarjeta de una dosificadora Jecod es de solo lectura y muestra el plan diario, porque Jecod no informa de cuánto queda en la botella.

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Escenas en Cora Max | Cora Help</title>
-  <meta name="description" content="Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una casilla de escena en el panel.">
+  <meta name="description" content="Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una tarjeta de escena en el panel.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/max-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/max-automation">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-automation">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Escenas en Cora Max | Cora Help">
-  <meta property="og:description" content="Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una casilla de escena en el panel.">
+  <meta property="og:description" content="Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una tarjeta de escena en el panel.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/max-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -182,18 +182,19 @@
 <ol><li>Escribe un <strong>Nombre de la escena</strong>.</li><li>Toca <strong>Añadir paso</strong> y elige qué hace el paso. Solo ves los tipos de equipo que tiene este acuario:</li><li><strong>Toma de Apex</strong>: pon una toma de Neptune™ Apex en <strong>ENCENDIDO</strong>, <strong>APAGADO</strong> o <strong>AUTO</strong>.</li><li><strong>Controlar un equipo Red Sea™</strong>: por ejemplo <strong>ReefDose: dosificar ahora</strong>, <strong>ReefDose: configurar dosis diaria</strong>, <strong>ReefRun: configurar velocidad de la bomba</strong>, <strong>ATO: iniciar un llenado manual</strong> o <strong>ReefMat: avanzar el rollo</strong>.</li><li><strong>Controlar una bomba de circulación</strong>: fija el caudal o el modo de olas de una bomba Jecod™, enciéndela o apágala, o usa <strong>Pausar para alimentar</strong>.</li><li><strong>Iniciar una prueba Trident</strong>: alcalinidad, combinada o nutrientes. Cada ejecución gasta reactivo.</li><li><strong>Iniciar un ciclo de alimentación Apex</strong>: elige el ciclo. El Apex lleva el temporizador y se reanuda solo.</li><li>Añade más pasos de la misma forma. Puedes reordenarlos o quitarlos. Un paso que esta pantalla no puede editar dice <strong>No editable aquí</strong>. Edítalo en tu teléfono.</li><li>Elige cuánto dura. <strong>Temporizada</strong> dura los minutos que pongas en <strong>Ejecutar durante (minutos)</strong>. <strong>Permanente</strong> dura hasta que la detienes.</li><li>Deja <strong>Preguntar antes de ejecutar</strong> activado salvo que estés seguro de que la escena nunca toca nada que necesite una segunda mirada.</li><li>Toca <strong>Guardar</strong>.</li></ol>
 <aside class="cal cal-note"><p class="cal-t">Dosis en una escena</p><p>Un cabezal Neptune DŌS nunca puede ser un paso de escena. Un paso <strong>ReefDose: dosificar ahora</strong> sí puede, y tiene su propio <strong>Máximo por dosis (ml)</strong>. Déjalo vacío para 10 mL. Una dosis por encima de ese tope se rechaza, nunca se reduce. Deja <strong>Preguntar antes de ejecutar</strong> activado en cualquier escena que dosifique.</p></aside>
 <h2 id="ejecutar-una-escena">Ejecutar una escena</h2>
-<p>Las escenas aparecen como casillas en el panel. Toca <strong>Ejecutar</strong> para empezar una.</p>
+<p>Las escenas aparecen como tarjetas en el panel. Toca <strong>Ejecutar</strong> para empezar una.</p>
 <p>Si la escena pregunta antes de ejecutarse, Cora Max lista primero lo que va a hacer, una línea por paso. Léelo y después ejecútala o cancela.</p>
-<p>Mientras una escena temporizada está en marcha, su casilla hace una cuenta atrás hasta el final y muestra <strong>Detener</strong> por si quieres terminarla antes. La casilla de una escena permanente la muestra en marcha hasta que tocas <strong>Detener</strong>. Cuando una escena termina o la detienes, la casilla muestra <strong>Restaurando…</strong> mientras Cora devuelve los equipos a como estaban.</p>
+<p>Mientras una escena temporizada está en marcha, su tarjeta hace una cuenta atrás hasta el final y muestra <strong>Detener</strong> por si quieres terminarla antes. La tarjeta de una escena permanente la muestra en marcha hasta que tocas <strong>Detener</strong>. Cuando una escena termina o la detienes, la tarjeta muestra <strong>Restaurando…</strong> mientras Cora devuelve los equipos a como estaban.</p>
 <p>Ejecutar o detener una escena pasa por Cora Cloud, como cualquier otra orden. Encontrarás el resultado en <a href="/es/help/max-activity">Actividad</a>.</p>
-<p>Las escenas no se pueden ejecutar por voz en Cora Max. Usa la casilla, <strong>Ajustes → Automatizaciones</strong> o tu teléfono.</p>
+<p>Las escenas no se pueden ejecutar por voz en Cora Max. Usa la tarjeta, <strong>Ajustes → Automatizaciones</strong> o tu teléfono.</p>
 <p>Si una escena no se ejecuta o no se detiene, echa un vistazo a <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">El bloqueo infantil también cubre las escenas</p><p>Mientras el <a href="/es/help/max-settings#child-lock">Bloqueo infantil</a> tiene la pantalla bloqueada, no puedes ejecutar, detener ni editar una escena desde ella, igual que cualquier otro control.</p></aside>
+<p>Un paso que falla o que tendría que esperar no se queda pendiente. Caduca al instante, la ejecución se registra como fallida y recibes una notificación que nombra la automatización, el paso y el motivo. Un paso falla, por ejemplo, si su dispositivo está sin conexión, si ningún Cora Max puede ejecutarlo, si el dispositivo lo rechaza o no responde, o si un calentador o enfriador se acaba de conmutar. Por un paso en un acuario eliminado no recibes notificaciones.</p>
 <h2 id="editar-o-eliminar-una-escena">Editar o eliminar una escena</h2>
-<p>Para cambiar una escena, ábrela desde <strong>Ajustes → Automatizaciones</strong> o mantén pulsada su casilla en el panel. Cambia lo que necesites y toca <strong>Guardar</strong>. Para quitarla, toca <strong>Eliminar escena</strong>. No se puede deshacer.</p>
+<p>Para cambiar una escena, ábrela desde <strong>Ajustes → Automatizaciones</strong> o mantén pulsada su tarjeta en el panel. Cambia lo que necesites y toca <strong>Guardar</strong>. Para quitarla, toca <strong>Eliminar escena</strong>. No se puede deshacer.</p>
 <aside class="cal cal-note"><p class="cal-t">Un Cora Max más antiguo puede ejecutar una escena pero no editarla</p><p>Las versiones antiguas de Cora Max siguen mostrando y ejecutando todas las escenas, pero no pueden cambiar ninguna. Actualiza Cora Max (<a href="/es/help/max-updates">Actualizaciones y recuperación</a>), o edita la escena en tu teléfono.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-alerts"><span>Anterior</span><b>Alertas en Cora Max</b></a><a class="pn-n" href="/es/help/max-records"><span>Siguiente</span><b>Diario, fauna y mantenimiento</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -584,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

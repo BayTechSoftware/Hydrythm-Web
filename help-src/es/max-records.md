@@ -2,7 +2,7 @@
 title: Diario, fauna y mantenimiento
 description: Anota una prueba, añade una entrada al diario, registra una comida y marca el mantenimiento en Cora Max, y qué sigues haciendo en el teléfono.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 10
 group: Records
 twin: mobile-journal
@@ -33,7 +33,7 @@ Abre **Diario** desde el menú del acuario y toca **Nueva entrada**. Ponle un t�
 
 ### Alimentación
 
-En la parte de arriba de la pantalla del diario, **Comida extra** y **Comida omitida** añaden cada uno una entrada al diario. Debajo, una línea muestra tu rutina de alimentación, por ejemplo *Rutina de alimentación: Copos: 2 pizcas, dos veces al día*. La rutina se configura en Cora Mobile. Si no hay ninguna guardada, la línea dice *Configura tu rutina de alimentación en la app del móvil*.
+En la parte de arriba de la pantalla del diario, **Comida extra** y **Comida omitida** añaden cada uno una entrada al diario. Debajo, una línea muestra tu rutina de alimentación, por ejemplo *Rutina de alimentación: Copos: 2 pizcas, dos veces al día*. La rutina se configura en Cora Mobile. Si no hay ninguna guardada, la línea dice *Configura tu rutina de alimentación en la app del teléfono*.
 
 Si Cora Max lee tu Neptune Apex, también anota un ciclo de alimentación de Feed A a D cuando empieza, lo hayas iniciado aquí, en el Apex o en Apex Fusion.
 
@@ -47,7 +47,8 @@ El icono que está junto al de dispositivos es **Reef Buddy**, y su punto indica
 
 La parte de arriba de la pantalla dice cuántas tareas están pendientes. Debajo, **Próximas** muestra cada tarea con **HOY**, **EN 3d** o **ATRASADA 2d**, y **Completadas · últimos 7 días** muestra lo que has hecho últimamente.
 
-- Toca **Listo** cuando termines una tarea.
+- Toca **Listo** cuando termines una tarea. Si está atrasada, Cora pregunta **¿Cuándo lo hiciste?**
+- Toca **Hecho antes…** si la hiciste antes de hoy. Elige la fecha y la hora, y la próxima fecha se cuenta desde ahí. No se acepta una hora futura ni una anterior a la última finalización.
 - Toca **Posponer** para retrasarla **1 día**, **3 días**, **1 semana**, **2 semanas** o **1 mes**.
 
 Las tareas se añaden y se cambian en el teléfono. Más información en [Mantenimiento](/help/mobile-maintenance).

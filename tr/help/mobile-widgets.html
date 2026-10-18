@@ -92,7 +92,7 @@
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
 </ul></details>
@@ -201,16 +201,16 @@
 <p>Ölçümü aralıkta, kayıyor ya da dışında olduğunu gösteren renkli bir noktayla birlikte düz yazı olarak gösterir. İşe yarar bir gösterge aralığı olmayan bir parametre için kullanın.</p>
 <h2 id="outlet">Priz</h2>
 <p>Bir Apex prizi için üç konumlu bir anahtardır: <strong>Otomatik</strong>, <strong>Kapalı</strong> ve <strong>Açık</strong>. Hangi prizi kontrol edeceğini siz seçersiniz.</p>
-<ul><li><strong>Otomatik</strong>, prizi normalde onu yöneten şeye geri verir. Bu bir program, bir kural ya da bağlı olduğu kontrolcü olabilir.</li><li><strong>Kapalı</strong> ve <strong>Açık</strong> elle yapılan geçersiz kılmalardır. Siz geri değiştirene kadar öyle kalırlar.</li></ul>
+<ul><li><strong>Otomatik</strong>, prizi normalde onu yöneten şeye geri verir. Bu bir zamanlama, bir kural ya da bağlı olduğu kontrolör olabilir.</li><li><strong>Kapalı</strong> ve <strong>Açık</strong> elle yapılan geçersiz kılmalardır. Siz geri değiştirene kadar öyle kalırlar.</li></ul>
 <aside class="cal cal-warning"><p class="cal-t">Elle yapılan geçersiz kılmaların etkisi geçmez</p><p>Kapalı, siz Otomatik'e geri alana kadar kapalı demektir. Akvaryumda çalışmak için ana pompayı kapattıysanız işiniz bitince onu Otomatik'e geri alın. Cora bunu sizin yerinize yapmaz.</p></aside>
 <h2 id="reefbeat">ReefBeat</h2>
-<p>Bütün bir ekipman için tek bir kutucuktur. Tek bir parametre yerine ünitenin kendi özetini gösterir, örneğin bir ATO'nun durumu ve haznesi, bir dozaj pompasının kafaları ya da bir mat rulosunun kaç günü kaldığı. Hangi cihazı göstereceğini siz seçersiniz.</p>
+<p>Bütün bir ekipman için tek bir kutucuktur. Tek bir parametre yerine ünitenin kendi özetini gösterir, örneğin bir ATO'nun durumu ve deposu, bir dozaj pompasının kafaları ya da bir mat rulosunun kaç günü kaldığı. Hangi cihazı göstereceğini siz seçersiniz.</p>
 <p>Hangi cihazların kutucuğu olabileceği neleri bağladığınıza bağlıdır. <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasına bakın.</p>
 <h2 id="doser-tiles">Dozaj pompası kutucukları</h2>
 <p>Bir dozaj pompasının (Apex DŌS ya da ReefDose) kutucuğu her kafa için bir satır gösterir. Bir kafa adı hiçbir zaman okunabilir boyutun altına küçültülmez. Uzun bir kutucukta satır iki satır kaplar: ilkinde ad, ikincisinde kalan miktar, örneğin <em>40g</em> ve <em>2.8 L</em>. Kısa bir kutucukta ayrıntı satırı çıkarılır ve ad okunabilir kalır.</p>
 <p>Neyin önce geleceğini <strong>Kalanı şu şekilde göster</strong> ile ayarlayın: <strong>Gün</strong> ya da <strong>Mililitre (mL)</strong>. Kendi adı olmayan bir ReefDose kafası, cihaz adı, ardından "kafa" ve numarasıyla gösterilir. Jecod dozaj pompası kutucuğu salt okunurdur ve günlük planı gösterir, çünkü Jecod şişede ne kadar kaldığını bildirmez.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-dashboard-editing"><span>Önceki</span><b>Panonuzu düzenleme</b></a><a class="pn-n" href="/tr/help/mobile-sharing"><span>Sonraki</span><b>Akvaryumunuzu paylaşın</b></a></nav>
-      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

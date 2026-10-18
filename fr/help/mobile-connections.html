@@ -188,7 +188,7 @@
 <p>Cora communique avec l’équipement ReefBeat sur votre réseau local. Il prend en charge <strong>ReefDose</strong>, <strong>ReefATO+</strong>, <strong>ReefMat</strong> et <strong>ReefRun</strong>.</p>
 <ol><li>Configurez d’abord l’appareil dans l’application ReefBeat de Red Sea, et vérifiez qu’il est sur le même réseau que votre téléphone.</li><li>Allez dans <strong>Appareils → Ajouter un appareil → Red Sea</strong>. Cora recherche sur votre réseau.</li><li>Choisissez l’aquarium auquel appartient chaque appareil.</li></ol>
 <p>Un appareil Red Sea dessert un seul aquarium. En choisir un autre l’y déplace.</p>
-<p>Chaque appareil a sa propre page, et ses mesures deviennent des sources. ReefDose signale ses têtes et ses récipients, ReefATO+ son réservoir et ses remplissages, ReefMat les jours qui lui restent, et ReefRun l’état de ses pompes. Ce que chaque page vous permet de faire est dans <a href="/fr/help/mobile-device-control#red-sea">Contrôler votre équipement</a>.</p>
+<p>Chaque appareil a sa propre page, et ses mesures deviennent des sources. ReefDose signale ses têtes et ses réservoirs, ReefATO+ son réservoir et ses remplissages, ReefMat les jours qui lui restent, et ReefRun l’état de ses pompes. Ce que chaque page vous permet de faire est dans <a href="/fr/help/mobile-device-control#red-sea">Contrôler votre équipement</a>.</p>
 <h2 id="jecod">Jecod / Jebao</h2>
 <p>Cora se connecte aux pompes Jecod et peut les lire et les commander. Ajoutez-en une depuis <strong>Appareils → Ajouter un appareil → Jecod</strong>. Une pompe Jecod rejoint Cora de l’une de deux façons, et cela décide de ce que vous pouvez en faire.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : L’écran d’ajout d’une pompe dans Cora Mobile, sans pompe trouvée pour l’instant"><img src="/help/img/mobile-connections.webp" alt="L’écran d’ajout d’une pompe dans Cora Mobile, sans pompe trouvée pour l’instant" width="620" height="921" loading="lazy" decoding="async"></button><figcaption>Aucune pompe vue pour l’instant : la recherche explique ce dont elle a besoin et pourquoi une pompe peut manquer un passage.</figcaption></figure>
@@ -200,9 +200,9 @@
 <p>Avec l’une ou l’autre connexion, vous avez l’état en direct, le mode et l’intensité, une pause nourrissage et un programme journalier. Une pause nourrissage lancée depuis votre téléphone demande, sur certaines pompes, que la page de la pompe reste ouverte. Les détails sont dans <a href="/fr/help/mobile-device-control#jecod">Contrôler votre équipement</a>, et <a href="/fr/help/mobile-schedules">Programmer l’équipement</a> explique le programme journalier.</p>
 <h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
 <p>Cora lit l’alcalinité d’un contrôleur KH AquaWiz par votre compte AquaWiz : cela fonctionne donc loin de chez vous et ne nécessite pas de Cora Max.</p>
-<ol><li>Allez dans <strong>Appareils → Ajouter un appareil → AquaWiz</strong>.</li><li>Saisissez votre nom d’utilisateur et votre mot de passe AquaWiz et touchez <strong>Connecter</strong>.</li><li>Choisissez l’aquarium, activez <strong>Lire aussi son pH</strong> si vous le voulez, et touchez <strong>Lier à Cora</strong>.</li></ol>
+<ol><li>Allez dans <strong>Appareils → Ajouter un appareil → AquaWiz</strong>.</li><li>Saisissez votre nom d’utilisateur et votre mot de passe AquaWiz et touchez <strong>Connecter</strong>.</li><li>Choisissez l’aquarium, vérifiez <strong>Lire aussi son pH</strong> (il est activé au départ pour un appareil qui signale le pH), et touchez <strong>Lier à Cora</strong>.</li></ol>
 <p>Avec <strong>Rester connecté automatiquement</strong> activé, Cora garde votre mot de passe AquaWiz et renouvelle la connexion tout seul. Désactivé, Cora ne garde qu’un jeton de connexion, qu’AquaWiz fait expirer environ tous les 30 jours, et vous envoie une notification quand il est temps de vous reconnecter.</p>
-<p>Vous obtenez l’alcalinité comme source, mise à jour aussi souvent que votre contrôleur titre, et aussi le pH si vous l’avez activé et que votre appareil le signale. Ce qu’affiche la carte AquaWiz, et son alerte de produit, sont dans <a href="/fr/help/mobile-device-control#aquawiz">Contrôler votre équipement</a>.</p>
+<p>Vous obtenez l’alcalinité comme source, et aussi le pH si votre appareil le signale et que <strong>Lire aussi son pH</strong> est activé. Votre première mesure arrive dès que vous liez l’appareil. Ensuite, AquaWiz ne laisse Cora lire son cloud automatiquement que toutes les 12 heures : une mesure venue de là peut avoir jusqu’à une demi-journée. Un Cora Max à l’aquarium peut aussi lire lui-même le contrôleur toutes les heures quand il peut l’atteindre. Ouvrez la page de l’appareil pour voir quand chaque mesure a été prise et d’où elle vient, et touchez <strong>Lire maintenant</strong> pour en avoir une fraîche (au plus une fois toutes les 15 minutes). Ce qu’affiche la carte AquaWiz, et ses alertes, sont dans <a href="/fr/help/mobile-device-control#aquawiz">Contrôler votre équipement</a>.</p>
 <aside class="cal cal-warning"><p class="cal-t">Cora partage votre connexion AquaWiz</p><p>AquaWiz donne une seule connexion par compte, donc Cora utilise la même que l’application AquaWiz. Si vous changez votre mot de passe AquaWiz, Cora se déconnecte. Reconnectez-le ensuite depuis la ligne de l’appareil. Pour retirer complètement l’accès de Cora, retirez l’appareil dans Cora et changez votre mot de passe AquaWiz.</p></aside>
 <h2 id="logging-by-hand">Saisie manuelle</h2>
 <p>Certains paramètres viennent d’un kit de test, pas d’un équipement. Pour saisir un résultat, faites défiler jusqu’en bas du tableau de bord et touchez <strong>Enregistrer les paramètres</strong>.</p>
@@ -210,7 +210,7 @@
 <h2 id="if-a-connection-stops-working">Si une connexion cesse de fonctionner</h2>
 <p>La ligne de l’appareil vous dit de quel genre de problème il s’agit. Cherchez-le dans le tableau de <a href="/fr/help/mobile-devices#health">Ajouter, modifier et retirer des appareils</a>. Pour tout ce qu’il ne couvre pas, voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-devices"><span>Précédent</span><b>Ajouter, modifier et retirer des appareils</b></a><a class="pn-n" href="/fr/help/mobile-device-control"><span>Suivant</span><b>Contrôler votre équipement</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

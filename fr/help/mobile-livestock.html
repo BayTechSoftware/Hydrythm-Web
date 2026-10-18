@@ -189,11 +189,11 @@
 <p>Si vous notez chaque perte, des tendances apparaîtront plus tard. Les pertes se regroupent peut-être dans un coin de l’aquarium, ou suivent un événement précis.</p>
 <aside class="cal cal-note"><p class="cal-t">« Inconnue » est une raison valable</p><p>Notez la date même si vous ne connaissez pas la cause. C’est la date que vous comparerez plus tard.</p></aside>
 <h2 id="livestock-and-cora">La population et le reste de Cora</h2>
-<p>Cora évalue vos paramètres en partie selon la population de l’aquarium. Un bac SPS très peuplé et un bac de coraux mous peu peuplé ne sont pas jugés de la même façon.</p>
+<p>Cora évalue vos paramètres en partie selon la population de l’aquarium. Un aquarium SPS très peuplé et un aquarium de coraux mous peu peuplé ne sont pas jugés de la même façon.</p>
 <p>Vous pouvez aussi poser des questions à ce sujet. Cora Assistant répond à des questions comme <em>« Quand ai-je ajouté le corail marteau ? »</em> ou <em>« Qu’ai-je perdu cette année ? »</em> à partir de cette liste.</p>
 <p>Les changements de population apparaissent aussi sur la <a href="/fr/help/mobile-activity#tank-timeline">chronologie de l’aquarium</a>. Racontez l’histoire d’une perte ou d’une nouvelle arrivée dans le <a href="/fr/help/mobile-journal">journal</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-maintenance"><span>Précédent</span><b>Entretien</b></a><a class="pn-n" href="/fr/help/mobile-activity"><span>Suivant</span><b>Activité et chronologie</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

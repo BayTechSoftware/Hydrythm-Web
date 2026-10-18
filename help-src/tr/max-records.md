@@ -2,7 +2,7 @@
 title: Günlük, canlılar ve bakım
 description: Cora Max'te test kaydedin, günlüğe kayıt ekleyin, besleme kaydedin ve bakım görevlerini tamamlayın. Hâlâ telefonunuzda yaptıklarınızı da görün.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 10
 group: Records
 twin: mobile-journal
@@ -47,7 +47,8 @@ Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir. Üzerindeki nokta, bug�
 
 Ekranın üstü kaç görevin zamanının geldiğini söyler. Altında **Yaklaşan**, her görevi **BUGÜN**, **3g İÇİNDE** ya da **GECİKTİ 2g** ile listeler. **Tamamlandı · son 7 gün** de son yaptıklarınızı gösterir.
 
-- Bir görevi bitirdiğinizde **Tamamlandı**'ya dokunun.
+- Bir görevi bitirdiğinizde **Tamamlandı**'ya dokunun. Zamanı geçmişse Cora **Ne zaman yaptınız?** diye sorar.
+- Bugünden önce yaptıysanız **Daha önce yapıldı…**'ya dokunun. Tarihi ve saati seçin, bir sonraki tarih o andan sayılır. Gelecekteki bir zaman ya da son tamamlamadan önceki bir zaman kabul edilmez.
 - Görevi **1 Gün**, **3 Gün**, **1 Hafta**, **2 Hafta** ya da **1 Ay** ertelemek için **Ertele**'ye dokunun.
 
 Görevleri telefonunuzda ekler ve değiştirirsiniz. Ayrıntılar [Bakım](/help/mobile-maintenance) sayfasında.

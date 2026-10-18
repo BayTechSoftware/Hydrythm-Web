@@ -7,7 +7,7 @@ order: 5
 group: Equipment
 ---
 
-Esta página explica cómo encender y apagar tomas e iniciar el modo alimentación desde Cora Max. Puedes hacerlo desde las casillas de tomas del panel, desde el cajón **Tomas y alimentación** o por voz.
+Esta página explica cómo encender y apagar tomas e iniciar el modo alimentación desde Cora Max. Puedes hacerlo desde las tarjetas de tomas del panel, desde el cajón **Tomas y alimentación** o por voz.
 
 :::warning Estos controles actúan sobre tu acuario
 No hay forma de deshacer. Las tomas con candado te piden que confirmes primero. Las demás cambian en cuanto tocas. Una orden puede volver **Confirmado**, **Sin confirmar** (enviada, pero sin respuesta), **Rechazado** o **Sin cambios**. Más información en [Controlar tus equipos](/help/mobile-device-control).
@@ -22,12 +22,12 @@ Cada toma está en uno de tres estados.
 **Apagado** y **Encendido** son cambios manuales. Se aplican al momento y **se mantienen hasta que los vuelvas a cambiar**. No caducan, y nada los restablece por ti.
 
 :::warning Un cambio manual no caduca
-Vuelve a ponerla en **Auto** cuando termines, porque nada más lo hará. Eso sí, un cambio manual no es un bloqueo. Tú, tu voz o una automatización podéis cambiarlo más tarde.
+Vuelve a ponerla en **Auto** cuando termines, porque nada más lo hará. Eso sí, un cambio manual no es un bloqueo. Puedes cambiarlo más tarde tú mismo, con tu voz o con una automatización.
 :::
 
 ## Cambiar desde el panel {#switching-from-the-dashboard}
 
-Las casillas de tomas muestran los tres estados, con el actual resaltado. Toca el que quieras.
+Las tarjetas de tomas muestran los tres estados, con el actual resaltado. Toca el que quieras.
 
 Algunas tomas tienen un **candado**. Significa que la toma te pide que confirmes antes de cambiar, para que un toque accidental no apague algo crítico. Cuando la tocas, un cuadro de diálogo muestra la toma, su estado actual, el cambio que vas a hacer y lo que eso puede provocar en el acuario. No hay ningún bloqueo que desactivar en otro sitio.
 

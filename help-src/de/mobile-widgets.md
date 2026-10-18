@@ -90,7 +90,7 @@ Aus heißt aus, bis du es zurück auf Auto stellst. Schaltest du eine Rückförd
 
 ## ReefBeat {#reefbeat}
 
-Das ist eine Kachel für ein ganzes Stück Ausrüstung. Sie zeigt die eigene Zusammenfassung des Geräts statt eines einzelnen Wasserwerts, etwa Status und Reservoir einer Nachfüllanlage, die Köpfe eines Dosierers oder wie viele Tage ein Mattenroller noch hat. Du wählst, welches Gerät sie zeigt.
+Das ist eine Kachel für ein ganzes Stück Ausrüstung. Sie zeigt die eigene Zusammenfassung des Geräts statt eines einzelnen Wasserwerts, etwa Status und Nachfüllbehälter einer Nachfüllanlage, die Köpfe eines Dosierers oder wie viele Tage ein Mattenroller noch hat. Du wählst, welches Gerät sie zeigt.
 
 Welche Geräte eine Kachel haben können, hängt davon ab, was du verbunden hast. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
 

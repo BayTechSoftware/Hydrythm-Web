@@ -2,7 +2,7 @@
 title: Najczęstsze pytania
 description: Krótkie odpowiedzi o tym, czego potrzebujesz, o Cora Max, korzystaniu z Cory poza domem, sprzęcie, alertach, Reef Buddy, językach, planach i Twoich danych.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Tak. Na ekranie logowania dotknij **Zobacz przykładową rafę**. To przykładow
 
 ### Moje akwarium wciąż się cykluje. Czy Cora może pomóc? {#my-tank-is-still-cycling}
 
-Tak. Dotknij **Zaczynasz nowe akwarium?** na pulpicie, żeby rozpocząć ścieżkę cyklowania. Karta pokazuje się tylko przy akwarium bez odczytów, więc zrób to, zanim zapiszesz test albo podłączysz sprzęt. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Tak. Dotknij **Zaczynasz nowe akwarium?** na panelu, żeby rozpocząć ścieżkę cyklowania. Karta pokazuje się tylko przy akwarium bez odczytów, więc zrób to, zanim zapiszesz test albo podłączysz sprzęt. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 
 ### Co oznacza „profil akwarium” i dlaczego zadaje tyle pytań? {#what-does-tank-profile-mean}
 
@@ -82,7 +82,7 @@ Dostępu do sieci lokalnej potrzebuje, żeby znajdować sprzęt Wi-Fi i łączy�
 
 ### Czy mogę sprawdzić akwarium, gdy nie ma mnie w domu? {#can-i-check-on-my-tank-away}
 
-Tak. Z Cora Max przy akwarium odczyty pozostają aktualne, gdziekolwiek jesteś. Bez niego urządzenie Neptune Apex, Red Sea albo Jecod pokazuje ostatnie odczyty zapisane przez telefon, gdy był w tej samej sieci Wi-Fi. AquaWiz jest odczytywany przez chmurę producenta, więc i tak się aktualizuje. Odczyty zapisane ręcznie i historia akwarium są zawsze dostępne.
+Tak. Z Cora Max przy akwarium odczyty pozostają aktualne, gdziekolwiek jesteś. Bez niego urządzenie Neptune Apex, Red Sea albo Jecod pokazuje ostatnie odczyty zapisane przez telefon, gdy był w tej samej sieci Wi-Fi. AquaWiz jest odczytywany przez chmurę producenta, więc i tak się aktualizuje, ale stamtąd tylko co 12 godzin. Odczyty zapisane ręcznie i historia akwarium są zawsze dostępne.
 
 ### Czy mogę sterować sprzętem poza domem? {#can-i-control-equipment-away}
 
@@ -192,9 +192,9 @@ Nie. To, co już napisano, zostaje w pierwotnym języku. Nowe alerty, raporty i 
 
 Co obejmuje każdy plan, opisują [Plany i subskrypcje](/help/mobile-plans).
 
-### Czy plan Max to to samo co Cora Max? {#max-plan-or-cora-max}
+### Czy plan Expert to to samo co Cora Max? {#max-plan-or-cora-max}
 
-Nie. Plan **Max** to subskrypcja w Cora Mobile. Cora Max to ekran na ścianę. Jedno nie wymaga drugiego.
+Nie. Plan **Expert** to subskrypcja w Cora Mobile. Cora Max to ekran na ścianę. Jedno nie wymaga drugiego.
 
 ### Co stanie się z historią akwarium, gdy skończy się okres próbny albo plan? {#history-when-plan-ends}
 

@@ -17,7 +17,7 @@ group: Settings and account
 2. W **Co się stało?** opisz to własnymi słowami.
 3. Dotknij **Wyślij**. Zobaczysz *Dzięki, otrzymaliśmy Twoje zgłoszenie.*
 
-Napisz, czego się spodziewasz i co widzisz. „Alkaliczność na pulpicie pokazywała 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.
+Napisz, czego się spodziewasz i co widzisz. „Alkaliczność na panelu pokazywała 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.
 
 Możesz wysłać do 10 zgłoszeń dziennie.
 
@@ -36,7 +36,7 @@ Zgłoszenie zawiera też język telefonu i wybrane akwarium. Dzięki temu zwykle
 **Dołącz zrzut ekranu** dodaje do zgłoszenia obraz z Twoich zdjęć. **Usuń zrzut ekranu** usuwa go przed wysłaniem. Najpierw zrób zrzut ekranu, potem otwórz formularz.
 
 :::warning Pomoc Cory zobaczy Twój zrzut ekranu
-Cora Mobile pisze o tym nad przyciskiem. Zanim dołączysz obraz, przejrzyj go. Zrzut pulpitu pokazuje nazwy akwariów i odczyty, a także wszystko inne, co było na ekranie.
+Cora Mobile pisze o tym nad przyciskiem. Zanim dołączysz obraz, przejrzyj go. Zrzut panelu pokazuje nazwy akwariów i odczyty, a także wszystko inne, co było na ekranie.
 :::
 
 :::note W trybie opiekuna nie ma zrzutów ekranu

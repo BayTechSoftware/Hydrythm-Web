@@ -2,7 +2,7 @@
 title: Preguntas frecuentes
 description: Respuestas breves sobre lo que necesitas, Cora Max, usar Cora fuera de casa, los equipos, las alertas, Reef Buddy, los idiomas, los planes y tus datos.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -82,7 +82,7 @@ Necesita acceso a la Red local para encontrar equipos Wi-Fi y llegar a un Cora M
 
 ### ¿Puedo ver cómo está mi acuario cuando no estoy en casa? {#can-i-check-on-my-tank-away}
 
-Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz se lee a través de la nube de su fabricante, así que se sigue actualizando de cualquier forma. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.
+Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz se lee a través de la nube de su fabricante, así que se sigue actualizando de cualquier forma, aunque desde ahí solo cada 12 horas. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.
 
 ### ¿Puedo controlar los equipos cuando estoy fuera de casa? {#can-i-control-equipment-away}
 
@@ -192,9 +192,9 @@ No. Lo que ya está escrito se queda en su idioma original. Las alertas, los inf
 
 Consulta [Planes y suscripciones](/help/mobile-plans) para ver qué incluye cada plan.
 
-### ¿El plan Max es lo mismo que Cora Max? {#max-plan-or-cora-max}
+### ¿El plan Expert es lo mismo que Cora Max? {#max-plan-or-cora-max}
 
-No. El plan **Max** es una suscripción en Cora Mobile. Cora Max es la pantalla de pared. No necesitas uno para tener el otro.
+No. El plan **Expert** es una suscripción en Cora Mobile. Cora Max es la pantalla de pared. No necesitas uno para tener el otro.
 
 ### ¿Qué pasa con el historial de mi acuario si termina mi prueba gratuita o mi plan? {#history-when-plan-ends}
 

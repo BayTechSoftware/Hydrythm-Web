@@ -184,10 +184,10 @@
 <p>Eine Zuordnung wirkt, sobald das nächste Mal Messwerte ankommen. Korrigierst du hier eine, wird der Verlauf nicht umgeschrieben. Es ändert sich nur, was ab dann gespeichert wird. Tippe auf <strong>Speichern</strong>, um deine Änderungen zu übernehmen.</p>
 <aside class="cal cal-warning"><p class="cal-t">Eine nicht zugeordnete Sonde sieht Cora nicht</p><p>Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf zuerst ihre Zuordnung.</p></aside>
 <h2 id="sources">Woher jeder Messwert kommt</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Der Tab Quellen"><img src="/help/img/mobile-probes.webp" alt="Der Tab Quellen" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Jeder Messwert, die Sonde, die ihn liefert, und ob er Automatisch oder Von Ihnen gewählt ist.</figcaption></figure>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Der Tab Quellen"><img src="/help/img/mobile-probes.webp" alt="Der Tab Quellen" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Jeder Messwert, die Sonde, die ihn liefert, und ob er Automatisch oder Von dir gewählt ist.</figcaption></figure>
 <p>Der Tab <strong>Quellen</strong> listet jeden Wert auf, den Cora für dieses Becken verfolgt, etwa pH oder Temperatur, und zeigt, welche Sonde ihn gerade liefert.</p>
 <p>Tippe auf einen Messwert, um jede Sonde zu sehen, die ihn meldet, über alle Controller, die du verbunden hast. Jede zeigt ihre Marke, ihren eigenen Namen für die Sonde und ihren Live-Wert. Wähl eine, um sie festzulegen, oder wähl <strong>Automatisch (neueste Messung gewinnt)</strong>, damit Cora die Sonde nimmt, die zuletzt gemeldet hat. Die anderen bleiben im Verlauf.</p>
-<p>Ein Hinweis neben jedem Messwert zeigt, was gilt: <strong>Automatisch</strong> oder <strong>Von Ihnen gewählt</strong>, sobald du eine Sonde festgelegt hast. Deine Wahl gilt für diesen Messwert im ganzen Becken, nicht für ein einzelnes Widget.</p>
+<p>Ein Hinweis neben jedem Messwert zeigt, was gilt: <strong>Automatisch</strong> oder <strong>Von dir gewählt</strong>, sobald du eine Sonde festgelegt hast. Deine Wahl gilt für diesen Messwert im ganzen Becken, nicht für ein einzelnes Widget.</p>
 <p>Meldet sich eine festgelegte Sonde nicht mehr, zeigt Cora, wann sie zuletzt gehört wurde, und bietet <strong>Zurück zu Automatisch</strong> an, damit eine tote Sonde einen Messwert nicht festhalten kann.</p>
 <p>Tippe auf <strong>Umbenennen</strong>, um einem Messwert einen eigenen Anzeigenamen zu geben. Das ist getrennt von jedem Namen, den du der Sonde selbst gibst. Er erscheint auf deinem Dashboard, in Warnungen und in Reef Buddy.</p>
 <p>Das Beckenprofil hat außerdem einen Bereich <strong>Wasserwert-Quellen</strong> (er ist ausgeblendet, während du ein neues Becken anlegst). Er legt dasselbe in kürzerer Form fest. Nutze die Parameterzuordnung, wenn du jede Sonde an jedem Controller an einem Ort haben willst.</p>
@@ -201,7 +201,7 @@
 <p>Die Wasserwert-Ansicht zeigt dann, wie lange es her ist, dass diese Sonde kalibriert wurde. Sondenpflege eignet sich auch gut als wiederkehrende <a href="/de/help/mobile-maintenance">Wartungsaufgabe</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Kalibrierdaten erklären Abweichungen</p><p>Widersprechen sich eine Sonde und ein Testkit, prüf, wann du die Sonde zuletzt kalibriert hast. Das ist meist die Antwort.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-schedules"><span>Zurück</span><b>Ausrüstung planen</b></a><a class="pn-n" href="/de/help/mobile-consumables"><span>Weiter</span><b>Verbrauchsmaterial und Nachfüllwarnungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

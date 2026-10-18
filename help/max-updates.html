@@ -183,6 +183,7 @@
 <p>Under <strong>Update settings</strong> on the same screen:</p>
 <ul><li><strong>Install window</strong> sets the hours updates may install, with a <strong>Start</strong> and <strong>End</strong> time, in this screen's local time. The time zone is set in Cora Mobile, under <strong>Devices →</strong> your Cora Max <strong>→ Time zone</strong>.</li></ul>
 <p>To see whether this screen is reading your devices and saving to Cora Cloud, go back to <strong>Cora Max Settings</strong> and scroll to <strong>STATUS</strong>. It shows each tank's <strong>Polling status</strong>, <strong>Last poll</strong>, <strong>Last cloud write</strong> and <strong>Cloud save</strong>.</p>
+<p>If an update downloads slowly, check your connection with the <strong>Network speed test</strong> on the same screen. <strong>Run test</strong> downloads up to 16 MB of the update file from Cora Cloud, for 20 seconds at most, and shows the speed in MB/s.</p>
 <h2 id="when-an-update-is-available">When an update is available</h2>
 <p>A prompt tells you what's new and gives you two choices.</p>
 <ul><li><strong>Update now</strong> installs right away and restarts. It takes about a minute. Keep Cora Max powered.</li><li><strong>Snooze 24 hours</strong> hides the prompt and asks you again a day later.</li></ul>
@@ -207,7 +208,7 @@
 <h2 id="if-a-unit-does-not-restart">If a unit does not restart</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the version shown on screen and the message it shows. Don't re-pair it first. The pairing state often helps work out what happened.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-settings"><span>Previous</span><b>Cora Max settings</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -19,8 +19,8 @@ La tarjeta de arriba indica si este teléfono permite notificaciones de Cora (**
 |---|---|
 | **Alertas de parámetros** | La química del agua sale de un rango que fijaste, y la notificación de *recuperación* cuando vuelve |
 | **Recordatorios de mantenimiento** | Tareas que programaste, como los cambios de agua, y un recordatorio único para anotar tu primera prueba cuando un acuario nuevo sigue sin lecturas a los tres días |
-| **Fallas de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir. También un dispositivo que [dejó de informar](/help/mobile-alerts#stopped-reporting) y una dosis omitida |
-| **Suministros bajos** | Reactivo, agua de reposición, envases de dosificación y una botella de residuos llena |
+| **Fallos de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir. También un dispositivo que [dejó de informar](/help/mobile-alerts#stopped-reporting) y una dosis omitida |
+| **Suministros bajos** | Reactivo, agua de reposición, recipientes de dosificación y una botella de residuos llena |
 | **Informe ICP listo** | Tus resultados de ICP ya están analizados y puedes leerlos |
 
 Si desactivas una categoría, deja de llegarte como notificación. Cora sigue registrando el evento, y lo seguirás encontrando en la campana.
@@ -28,7 +28,7 @@ Si desactivas una categoría, deja de llegarte como notificación. Cora sigue re
 Estos interruptores pertenecen a tu cuenta, así que se aplican a todos los teléfonos en los que has iniciado sesión.
 
 :::warning "Alertas de parámetros" es solo química del agua
-Ese interruptor no cubre todo lo que el acuario puede contarte. Un Trident que ha dejado de medir es una **falla de equipo**. Quedarse sin reactivo entra en **Suministros bajos**. Cada una tiene su propio interruptor. Si llevas tiempo confiando en las alertas de parámetros, revisa las otras dos.
+Ese interruptor no cubre todo lo que el acuario puede contarte. Un Trident que ha dejado de medir es un **fallo de equipo**. Quedarse sin reactivo entra en **Suministros bajos**. Cada una tiene su propio interruptor. Si llevas tiempo confiando en las alertas de parámetros, revisa las otras dos.
 :::
 
 La botella de residuos cuenta como suministro aunque se llena en lugar de vaciarse. Es algo que hay que vaciar antes de que detenga las pruebas.

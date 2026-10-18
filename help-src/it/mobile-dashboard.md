@@ -2,7 +2,7 @@
 title: Leggere la dashboard
 description: Come leggere la dashboard di Cora, dai widget, dall'età delle letture e dalle fonti al significato dei colori e alle schede che vanno e vengono.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Your dashboard
 ---
@@ -77,12 +77,12 @@ Alcune schede compaiono solo quando c'è qualcosa da dire. La maggior parte sta 
 
 | Scheda | Quando compare | Cosa toccare |
 |---|---|---|
-| **Stai avviando una nuova vasca?** | Su una vasca senza nessuna lettura. Dopo che hai iniziato, diventa **Continua il ciclaggio** | La scheda, per avviare il ciclaggio guidato. Vedi [Percorsi guidati](/help/mobile-journeys) |
+| **Stai avviando una nuova vasca?** | Su una vasca senza nessuna lettura. Dopo che hai iniziato, diventa **Continua la maturazione** | La scheda, per avviare la maturazione guidata. Vedi [Percorsi guidati](/help/mobile-journeys) |
 | **Parametri della vasca** con *Nessuna lettura ancora* | La vasca non ha ancora letture | **Configura vasca** |
 | *Impossibile raggiungere le tue letture: vengono mostrati i dati in cache.* | Cora non riesce a caricare le ultime letture, spesso per mancanza di connessione | **Riprova** |
 | **Un risultato di laboratorio da {lab} ti sta aspettando.** | Un laboratorio ha inviato un risultato e Cora deve sapere per quale vasca è | **Scegli vasca**. Vedi [ICP e report di salute](/help/mobile-icp-health) |
 | Suggerimento del profilo (**Sblocca approfondimenti più intelligenti**) | Il profilo della vasca è completo per meno dell'80% | La scheda, per continuare con il profilo |
-| **Prova Cora Pro: 9 giorni rimanenti** | Gli ultimi giorni della tua prova | La scheda, oppure **Mantieni Pro**. Vedi [Piani e abbonamenti](/help/mobile-plans) |
+| **Prova Cora Advanced: 9 giorni rimanenti** | Gli ultimi giorni della tua prova | La scheda, oppure **Mantieni Advanced**. Vedi [Piani e abbonamenti](/help/mobile-plans) |
 | **Reef Buddy** | Un briefing è pronto | La scheda |
 | **Come nutri di solito?** | Non hai impostato una routine di alimentazione | **Imposta la routine** |
 | *I valori Red Sea non si aggiornano più.* | Nessun dispositivo sta leggendo i dispositivi Red Sea di questa vasca | Vedi [Avvisi e soglie](/help/mobile-alerts) |

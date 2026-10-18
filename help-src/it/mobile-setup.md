@@ -2,7 +2,7 @@
 title: Configurare Cora Mobile
 description: Installa Cora Mobile, crea il tuo account, aggiungi la prima vasca e porta sullo schermo le prime letture, passo dopo passo.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 group: Getting started
 twin: max-setup
@@ -25,7 +25,7 @@ Due di queste ti chiedono qualcosa:
 
 ## Dare prima un'occhiata {#looking-around-first}
 
-Non ti serve un account per dare un'occhiata. Nella schermata di accesso, tocca **Esplora una barriera demo**. È una vasca di esempio con dati realistici, organizzata come una vera. Non c'è nessuna attrezzatura coinvolta, e niente di quello che fai lì viene salvato.
+Non ti serve un account per dare un'occhiata. Nella schermata di accesso, tocca **Esplora un reef demo**. È una vasca di esempio con dati realistici, organizzata come una vera. Non c'è nessuna attrezzatura coinvolta, e niente di quello che fai lì viene salvato.
 
 Quando sei pronto per la tua vasca, tocca **Rendila tua**.
 
@@ -53,13 +53,13 @@ In Cora, una **vasca** è qualsiasi volume d'acqua che vuoi seguire. Quasi tutti
 Dopo l'accesso, **Facciamo conoscenza con la tua vasca** ti chiede tre cose. Solo il nome è obbligatorio, e puoi cambiare tutto più avanti nel [profilo della vasca](/help/mobile-tank-profile).
 
 1. **Come la chiami?** è il nome che usi tutti i giorni, come "Display", "Frag" o "QT".
-2. **Che tipo di vasca è?** è **Barriera SPS**, **Barriera LPS**, **Barriera mista**, **Barriera di coralli molli**, **FOWLR** o **Solo pesci**. Il tipo imposta i tuoi intervalli di avviso iniziali. Se non sei sicuro, scegli **Barriera mista**.
+2. **Che tipo di vasca è?** è **Reef SPS**, **Reef LPS**, **Reef misto**, **Reef a coralli molli**, **FOWLR** o **Solo pesci**. Il tipo imposta i tuoi intervalli di avviso iniziali. Se non sei sicuro, scegli **Reef misto**.
 3. **Quanta acqua?** è il volume d'acqua reale, sump compresa. I calcoli di dosaggio usano questo numero, quindi cerca di inserirlo più o meno giusto. Se conosci solo le dimensioni della vasca, tocca **Non conosci il volume? Inserisci le dimensioni** e Cora lo calcola.
 
 Tocca **Crea la mia vasca**.
 
 :::note La vasca sta ancora facendo il ciclo?
-Tocca **Stai avviando una nuova vasca?** sulla dashboard **prima** di registrare un test o collegare attrezzatura. Quella scheda compare solo su una vasca senza nessuna lettura, ed è il modo per attivare il ciclaggio guidato. Di più in [Percorsi guidati](/help/mobile-journeys).
+Tocca **Stai avviando una nuova vasca?** sulla dashboard **prima** di registrare un test o collegare attrezzatura. Quella scheda compare solo su una vasca senza nessuna lettura, ed è il modo per attivare la maturazione guidata. Di più in [Percorsi guidati](/help/mobile-journeys).
 
 Cora valuta anche le letture rispetto a quello che è normale per una vasca di quell'età. La procedura guidata non la chiede, quindi imposta la **Data di avvio della vasca** nel profilo della vasca, in **Dimensioni vasca**.
 :::
@@ -77,13 +77,13 @@ Quando hai finito, tocca **Vai alla mia dashboard**, oppure **Lo farò più tard
 
 ## I tuoi primi 30 giorni {#your-first-30-days}
 
-Su un nuovo account gratuito, **Vai alla mia dashboard** mostra prima **I tuoi primi 30 giorni sono offerti da noi**. La tua prova Pro di 30 giorni è partita quando hai creato l'account, e non serve una carta. Tocca **Inizia a esplorare** per continuare, oppure **Vedi i piani** per guardare i piani a pagamento. Di più in [Piani e abbonamenti](/help/mobile-plans#the-trial).
+Su un nuovo account gratuito, **Vai alla mia dashboard** mostra prima **I tuoi primi 30 giorni sono offerti da noi**. La tua prova Advanced di 30 giorni è partita quando hai creato l'account, e non serve una carta. Tocca **Inizia a esplorare** per continuare, oppure **Vedi i piani** per guardare i piani a pagamento. Di più in [Piani e abbonamenti](/help/mobile-plans#the-trial).
 
 ## Il primo sguardo alla dashboard {#your-first-look-at-the-dashboard}
 
 La prima volta che apri la dashboard succedono due cose.
 
-- Cora chiede **Attivare la guida personalizzata per la barriera?** Tocca **Attiva** se vuoi che Cora Assistant usi nelle sue risposte i dati salvati della tua vasca. **Non ora** la lascia spenta. Di più in [Fare domande a Cora](/help/mobile-assistant#consent).
+- Cora chiede **Attivare la guida personalizzata per il reef?** Tocca **Attiva** se vuoi che Cora Assistant usi nelle sue risposte i dati salvati della tua vasca. **Non ora** la lascia spenta. Di più in [Fare domande a Cora](/help/mobile-assistant#consent).
 - Un breve tour ti mostra le parti principali dello schermo. Vedi [Il tour del primo avvio](/help/mobile-tour#the-first-run-tour).
 
 ## Collegare l'attrezzatura {#connect-your-equipment}

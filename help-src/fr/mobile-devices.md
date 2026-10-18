@@ -2,7 +2,7 @@
 title: Ajouter, modifier et retirer des appareils
 description: Ajoutez un équipement à Cora, attribuez-le à un aquarium, renommez-le, vérifiez qu’il fonctionne bien et retirez-le, le tout depuis l’onglet Appareils.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices

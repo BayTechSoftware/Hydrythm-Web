@@ -203,9 +203,10 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Un rapport ICP"><img src="/help/img/mobile-icp-report.webp" alt="Un rapport ICP" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Chaque rapport porte un score et un résumé écrit pour votre aquarium.</figcaption></figure>
 <p>Vous obtenez un score sur 100 et un résumé en langage simple de ce que cela signifie pour votre système, en tenant compte du type de votre aquarium, de son âge et de sa population.</p>
 <p>Le score compare vos résultats avec leurs plages cibles, y compris les plages que vous avez réglées vous-même. Si un résultat est hors de sa plage, le score ne peut pas dépasser 70, il ne peut donc pas indiquer <strong>Sain</strong>. Si l’un est très hors plage, il ne peut pas dépasser 40, aussi bons que soient les autres. L’étiquette sous le score indique <strong>Sain</strong> de 71 à 100, <strong>Attention requise</strong> de 40 à 70 et <strong>Critique</strong> de 0 à 39. Les rapports de santé sont notés de la même façon.</p>
-<p>Chaque élément est suivi, y compris les oligo-éléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent <em>Acidity</em> est le pH.</p>
+<p>Chaque élément est suivi, y compris les oligoéléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent <em>Acidity</em> est le pH.</p>
 <p>Sur la ligne de chaque élément, vous voyez la plage imprimée par le laboratoire, affichée comme <em>Plage du laboratoire</em>, à côté de la plage propre à Cora pour cet élément. Un élément pour lequel Cora n’a pas de plage de référence porte l’étiquette <strong>Pas de plage Cora</strong>. Le rapport indique combien d’éléments ont une plage Cora et évalue les autres à partir des connaissances générales sur le récif. Cora Assistant commente chaque élément testé, et son commentaire vaut même quand il n’y a pas de plage Cora.</p>
 <p>Si le laboratoire imprime <em>n.d.</em>, ou <em>non détecté</em>, pour un élément, Cora l’enregistre à 0 et indique qu’il n’a pas été détecté.</p>
+<p>Si un laboratoire indique la <strong>densité</strong> (ou densité relative) plutôt que la salinité, Cora l’enregistre comme salinité, toujours affichée en SG, et l’évalue selon votre plage de salinité.</p>
 <aside class="cal cal-note"><p class="cal-t">Le CO2 dissous n’est pas le CO2 de la pièce</p><p>Le <strong>CO₂ dissous</strong> d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce. Les deux ont des plages différentes et ne sont jamais mélangés.</p></aside>
 <p>La carte <strong>Depuis votre dernier ICP</strong> montre ce qui a le plus changé depuis la dernière fois. C’est en général le moyen le plus rapide d’aborder un nouveau rapport.</p>
 <p>Touchez <strong>Tendances</strong> pour voir n’importe quel élément sur tous les tests que vous avez importés. C’est là que l’ICP devient vraiment utile.</p>
@@ -229,7 +230,7 @@
 <p>L’écran Intelligence sépare les deux sortes. Les résultats de laboratoire sont sous <strong>RAPPORTS ICP</strong> et les bilans générés sous <strong>RAPPORTS DE SANTÉ</strong>. Chaque liste affiche les plus récents en premier, avec leur score. Touchez-en un pour le rouvrir en entier.</p>
 <p>Vous pouvez aussi y accéder depuis <strong>Réglages</strong> : ouvrez un aquarium, puis <strong>Rapports ICP</strong> ou <strong>Rapports de santé</strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-assistant"><span>Précédent</span><b>Interroger Cora</b></a><a class="pn-n" href="/fr/help/mobile-journeys"><span>Suivant</span><b>Parcours guidés</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -620,7 +621,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

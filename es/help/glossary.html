@@ -176,7 +176,7 @@
 <h2 id="tank">Acuario</h2>
 <p>Un volumen de agua que sigues. Un sistema de esquejes o un acuario de cuarentena cuenta como un acuario aparte. Consulta <a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a>.</p>
 <h2 id="removed-tank">Acuario eliminado</h2>
-<p>Un acuario que has quitado. Sus datos se conservan, y puedes recuperarlo desde <strong>Ajustes → Acuarios eliminados</strong>. Consulta <a href="/es/help/mobile-tanks">Gestionar tus acuarios</a>.</p>
+<p>Un acuario que has quitado. Sus datos se conservan, y puedes recuperarlo desde <strong>Ajustes → Acuarios eliminados</strong>. Consulta <a href="/es/help/mobile-tanks">Gestionar tus acuarios</a>. Nunca se muestra, no envía alertas ni recordatorios y sus automatizaciones se detienen.</p>
 <h2 id="alert">Alerta</h2>
 <p>Cora avisándote de que algo necesita atención. Normalmente es una lectura fuera del rango que fijaste. También puede ser un parámetro que cambia demasiado rápido, un fallo de un equipo, un dispositivo que ha dejado de informar, un consumible que se acaba o un resultado de laboratorio que llega. La mayoría de las alertas desaparecen solas cuando pasa el problema. Consulta <a href="/es/help/mobile-alerts">Alertas y umbrales</a>.</p>
 <h2 id="insight">Análisis</h2>
@@ -274,7 +274,7 @@
 <h2 id="widget">Widget</h2>
 <p>Una casilla de un panel que muestra una sola cosa, como un valor, un medidor, un gráfico o una toma. Consulta <a href="/es/help/mobile-widgets">Referencia de widgets</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/faq"><span>Anterior</span><b>Preguntas frecuentes</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -665,7 +665,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -186,20 +186,20 @@
 <p>Allez dans <strong>Réglages</strong> et touchez <strong>Réorganiser les aquariums</strong>, puis faites glisser les aquariums dans l’ordre voulu. Vous pouvez aussi faire glisser un aquarium par sa poignée dans la liste de l’écran Réglages. <strong>Réorganiser les aquariums</strong> ne fonctionne qu’à partir de deux aquariums.</p>
 <p>L’ordre est celui dans lequel vous les faites défiler sur le tableau de bord.</p>
 <h3 id="reef-buddy-and-tank-order">L’ordre décide quels aquariums ont Reef Buddy</h3>
-<p>Votre forfait couvre un nombre fixe d’aquariums pour le briefing quotidien de Reef Buddy. Cora le donne aux premiers dans votre ordre <strong>Réorganiser les aquariums</strong>. Avec Plus, et pendant l’essai de 30 jours, c’est uniquement votre premier aquarium. Pro couvre 5 aquariums et Max en couvre 20. Plus de détails dans <a href="/fr/help/mobile-plans">Forfaits et abonnements</a>.</p>
+<p>Votre forfait couvre un nombre fixe d’aquariums pour le briefing quotidien de Reef Buddy. Cora le donne aux premiers dans votre ordre <strong>Réorganiser les aquariums</strong>. Avec Essential, et pendant l’essai de 30 jours, c’est uniquement votre premier aquarium. Advanced couvre 5 aquariums et Expert en couvre 20. Plus de détails dans <a href="/fr/help/mobile-plans">Forfaits et abonnements</a>.</p>
 <p>Si un aquarium n’a pas de briefing, placez-le en haut de la liste. Les aquariums supprimés ne comptent pas.</p>
 <h2 id="removing-a-tank">Supprimer un aquarium</h2>
 <ol><li>Ouvrez le profil de l’aquarium : touchez le crayon dans l’en-tête de l’aquarium, ou allez dans <strong>Réglages</strong>, touchez l’aquarium et choisissez <strong>Modifier l’aquarium</strong>.</li><li>Faites défiler jusqu’en bas et touchez <strong>Retirer l’aquarium</strong>.</li><li>Cora demande <strong>Retirer cet aquarium ?</strong> Touchez <strong>Retirer</strong>.</li></ol>
 <p>Retirer un aquarium ne fait que le masquer. Il disparaît de votre tableau de bord et de votre liste dans les Réglages, et ses mesures, son journal et ses suivis sont conservés. Vous pouvez le faire revenir à tout moment.</p>
-<p>Pour un aquarium retiré, ces éléments s’arrêtent : le briefing de Reef Buddy, les rappels d’entretien, et sa place dans le nombre d’aquariums Reef Buddy de votre forfait.</p>
-<aside class="cal cal-warning"><p class="cal-t">L’équipement d’un aquarium retiré continue de fonctionner</p><p>Retirer un aquarium ne dissocie rien. Ses appareils lui restent attribués et continuent de remonter des mesures, un Cora Max qui lui est attribué continue de l’afficher, et son équipement peut encore vous envoyer des alertes.</p>
+<p>Un aquarium retiré est conservé pour son historique, mais il n’est jamais affiché et reste silencieux. Il n’envoie ni alertes ni rappels, ne reçoit aucun briefing de Reef Buddy, ne prend aucune place dans le décompte Reef Buddy de votre forfait, et ses automatisations s’arrêtent.</p>
+<aside class="cal cal-note"><p class="cal-t">L’équipement d’un aquarium retiré reste associé</p><p>Retirer un aquarium ne dissocie rien. Ses appareils lui restent attribués, et un Cora Max qui lui est attribué le reste, mais rien de cet aquarium n’est affiché et aucune alerte ni aucun rappel ne vous parvient.</p>
 <p>Avant de retirer un aquarium, déplacez ou retirez ses appareils dans l’onglet <strong>Appareils</strong>. Ouvrez ensuite votre Cora Max dans <strong>Appareils</strong> et touchez l’icône <strong>Retirer l’aquarium</strong> à côté de cet aquarium sous <strong>Aquariums attribués</strong>.</p></aside>
 <p>Quand vous retirez un aquarium, une copie anonymisée de l’historique de ses paramètres part à la recherche sur les récifs, sans aucun lien avec vous. Si vous ne le voulez pas, désactivez d’abord <strong>Contribuer des données d’aquarium anonymisées</strong>. Voir <a href="/fr/help/mobile-data-export">Vos données</a>.</p>
 <h2 id="restoring-a-removed-tank">Restaurer un aquarium retiré</h2>
 <p>Allez dans <strong>Réglages</strong> et touchez <strong>Aquariums supprimés</strong>. La ligne n’apparaît que si vous avez un aquarium retiré. Touchez <strong>Restaurer</strong> à côté de l’aquarium. Ses mesures, son journal et ses appareils reviennent exactement comme avant.</p>
 <p>Cora Mobile ne permet pas de supprimer définitivement un seul aquarium. Le seul moyen d’effacer les données d’un aquarium est de supprimer votre compte. Voir <a href="/fr/help/mobile-data-export">Vos données</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-tank-profile"><span>Précédent</span><b>Le profil de votre aquarium</b></a><a class="pn-n" href="/fr/help/mobile-account"><span>Suivant</span><b>Connexion et récupération de compte</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

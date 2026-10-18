@@ -49,7 +49,7 @@ Cora Assistant simgesine dokunmak canlı bir sesli oturum başlatır. Ayarları 
 | **Çevrimdışı** | Bağlantı yok. Ekran aldığı son veriyi gösterir |
 | **Çevrimdışı, 45 s içinde tekrar denenecek** | Ağınız çalışıyor ama Cora Cloud'a 30 saniyeden uzun süredir ulaşılamıyor. Cora Max kendiliğinden yeniden bağlanır ve geri sayım bir sonraki denemenin ne zaman olacağını gösterir |
 | **Ana Cora çevrimdışı** | Bu ekran bu akvaryum için ikinci bir Cora Max ve **Birincil Cora Max** (bu akvaryumun ekipmanını okumak için sabitlenen) çevrimdışı oldu. Bu ekran, birincil geri gelene ya da siz başka bir Birincil Cora Max seçene kadar elindeki son veriyi göstermeye devam eder. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında |
-| **Apex parolası** | Apex'iniz kayıtlı parolayı reddetti. [Sorun giderme](/help/troubleshooting) sayfasına göz atın |
+| **Apex şifresi** | Apex'iniz kayıtlı şifreyi reddetti. [Sorun giderme](/help/troubleshooting) sayfasına göz atın |
 
 :::note Yeniden deneme geri sayımı nasıl çalışır
 Cora Max düzenli bir tempoyla yeniden bağlanmayı dener. İlk kopuştan sonra yaklaşık 15 saniye, sonra yine 15 saniye, sonra iki kez 30 saniye, ardından bağlanana kadar dakikada bir bekler. Hiçbir zaman pes etmez. **Çevrimdışı, 45 s içinde tekrar denenecek** normaldir.

@@ -81,9 +81,9 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a></li>
+<li><a href="/pl/help/mobile-dashboard">Jak czytać panel</a></li>
 <li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
-<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a></li>
+<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie panelu</a></li>
 <li><a href="/pl/help/mobile-widgets">Rodzaje widżetów</a></li>
 <li><a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></li>
 </ul></details>
@@ -135,7 +135,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/max-dashboard-editing">Edytowanie pulpitu Cora Max</a></li>
+<li><a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Sprzęt</summary><ul>
@@ -202,8 +202,8 @@
 <p>Laboratoria i wyniki ICP wysyłane e-mailem znajdują Twoje konto po adresie e-mail. Jeśli laboratorium zna inny adres niż ten, którym się logujesz, albo logujesz się ukrytym adresem Apple, dodaj go w <strong>Ustawienia → karta Twojego konta → E-maile laboratorium i ICP</strong>. Dotknij <strong>Dodaj e-mail laboratorium</strong>, potem <strong>Wyślij kod</strong>, wpisz 6-cyfrowy kod z e-maila i dotknij <strong>Potwierdź</strong>. Możesz dodać do 3 adresów. Kroki opisują <a href="/pl/help/mobile-icp-health">ICP i raporty zdrowia</a>.</p>
 <h2 id="signing-out">Wylogowanie</h2>
 <p><strong>Ustawienia → Twoje konto → Wyloguj się</strong> wylogowuje to urządzenie. Nic nie zostaje usunięte, a po ponownym zalogowaniu Twoje akwaria, odczyty i urządzenia będą na miejscu. <a href="/pl/help/mobile-data-export">Twoje dane</a> wyjaśniają, czym wylogowanie różni się od usunięcia konta.</p>
-      <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-tanks"><span>Poprzedni</span><b>Zarządzanie akwariami</b></a><a class="pn-n" href="/pl/help/mobile-dashboard"><span>Następny</span><b>Jak czytać pulpit</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
+      <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-tanks"><span>Poprzedni</span><b>Zarządzanie akwariami</b></a><a class="pn-n" href="/pl/help/mobile-dashboard"><span>Następny</span><b>Jak czytać panel</b></a></nav>
+      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -594,7 +594,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=a4adc6772e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

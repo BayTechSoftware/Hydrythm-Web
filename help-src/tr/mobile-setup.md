@@ -2,7 +2,7 @@
 title: Cora Mobile'ı kurma
 description: Cora Mobile'ı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi adım adım ekrana getirin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 group: Getting started
 twin: max-setup
@@ -20,7 +20,7 @@ Cora Mobile'ı ilk açtığınızda birkaç kısa ekran onu tanıtır. Araların
 
 İkisi sizden bir şey ister:
 
-- **Cihazlarınız Wi-Fi'nizde yaşar**, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'ınızda hiçbir şey bulamaz. Hayır dediyseniz **Ayarlar → Cihaz erişimi** sizi anahtara götürür. [Ayarlar](/help/mobile-settings#device-access) sayfasına bakın.
+- **Cihazlarınız Wi-Fi ağınızdadır**, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'ınızda hiçbir şey bulamaz. Hayır dediyseniz **Ayarlar → Cihaz erişimi** sizi anahtara götürür. [Ayarlar](/help/mobile-settings#device-access) sayfasına bakın.
 - Son ekran uyarılarla ilgilidir. Uyarıların bu telefona ulaşması için **Bildirimlere izin ver**'e dokunun, sonra telefonunuzun penceresinde izin verin. **Belki sonra** bunu atlar. Ayrıntılar [Bildirimler](/help/mobile-notifications) sayfasında.
 
 ## Önce bir göz atın {#looking-around-first}
@@ -77,7 +77,7 @@ Bitirdiğinizde **Panoma git**'e ya da **Bunu daha sonra yapacağım**'a dokunun
 
 ## İlk 30 gününüz {#your-first-30-days}
 
-Yeni bir ücretsiz hesapta **Panoma git** önce **İlk 30 gününüz bizden** ekranını gösterir. 30 günlük Pro denemeniz hesabınızı oluşturduğunuzda başladı ve kart gerekmez. Devam etmek için **Keşfetmeye başla**'ya, ücretli planlara bakmak için **Planları gör**'e dokunun. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans#the-trial) sayfasında.
+Yeni bir ücretsiz hesapta **Panoma git** önce **İlk 30 gününüz bizden** ekranını gösterir. 30 günlük Advanced denemeniz hesabınızı oluşturduğunuzda başladı ve kart gerekmez. Devam etmek için **Keşfetmeye başla**'ya, ücretli planlara bakmak için **Planları gör**'e dokunun. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans#the-trial) sayfasında.
 
 ## Panoya ilk bakış {#your-first-look-at-the-dashboard}
 

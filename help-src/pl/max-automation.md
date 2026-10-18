@@ -1,8 +1,8 @@
 ---
 title: Sceny na Cora Max
-description: Twórz, uruchamiaj, edytuj i usuwaj sceny na Cora Max, z Ustawienia → Automatyzacje albo z kafelka sceny na pulpicie.
+description: Twórz, uruchamiaj, edytuj i usuwaj sceny na Cora Max, z Ustawienia → Automatyzacje albo z kafelka sceny na panelu.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -25,9 +25,9 @@ Dotknij sceny, żeby ją edytować, albo dotknij **Nowa scena**, żeby utworzyć
 1. Wpisz **Nazwę sceny**.
 2. Dotknij **Dodaj krok** i wybierz, co robi ten krok. Widzisz tylko rodzaje sprzętu, które ma to akwarium:
    - **Gniazdo Apex**: przełącz gniazdo Neptune Apex na **WŁ.**, **WYŁ.** albo **AUTO**.
-   - **Steruj sprzętem Red Sea**: na przykład **ReefDose: dawkuj teraz**, **ReefDose: ustaw dawkę dzienną**, **ReefRun: ustaw prędkość pompy**, **ATO: zacznij ręczne napełnianie** albo **ReefMat: przesuń rolkę**.
+   - **Steruj sprzętem Red Sea**: na przykład **ReefDose: dawkuj teraz**, **ReefDose: ustaw dawkę dzienną**, **ReefRun: ustaw prędkość pompy**, **ATO: zacznij ręczne napełnianie** albo **ReefMat: przewiń rolkę**.
    - **Steruj pompą cyrkulacyjną**: ustaw przepływ albo tryb fali pompy Jecod, włącz ją lub wyłącz albo **Wstrzymaj na czas karmienia**.
-   - **Uruchom test Trident**: alkaliczność, test łączony lub nutrienty. Każde uruchomienie zużywa odczynnik.
+   - **Uruchom test Trident**: alkaliczność, test łączony lub biogeny. Każde uruchomienie zużywa odczynnik.
    - **Uruchom cykl karmienia Apex**: wybierz cykl. Timer karmienia prowadzi Apex i sam wznawia pracę.
 3. W ten sam sposób dodaj kolejne kroki. Możesz zmieniać ich kolejność albo je usuwać. Krok, którego ten ekran nie potrafi edytować, ma oznaczenie **Nieedytowalne tutaj**. Edytuj go na telefonie.
 4. Wybierz, jak długo scena działa. **Czasowe** działa przez liczbę minut ustawioną w **Czas trwania (minuty)**. **Stałe** działa, dopóki jej nie zatrzymasz.
@@ -41,7 +41,7 @@ Głowica Neptune DŌS nigdy nie może być krokiem sceny. Krok **ReefDose: dawku
 
 ## Uruchamianie sceny
 
-Sceny widać na pulpicie jako kafelki. Dotknij **Uruchom**, żeby uruchomić scenę.
+Sceny widać na panelu jako kafelki. Dotknij **Uruchom**, żeby uruchomić scenę.
 
 Jeśli scena pyta przed uruchomieniem, Cora Max najpierw wymienia, co zamierza zrobić, po jednej linijce na krok. Przeczytaj to, a potem uruchom scenę albo anuluj.
 
@@ -57,9 +57,11 @@ Jeśli scena nie chce się uruchomić albo zatrzymać, zajrzyj do [Rozwiązywani
 Gdy [Blokada rodzicielska](/help/max-settings#child-lock) zablokowała ekran, nie uruchomisz z niego, nie zatrzymasz ani nie edytujesz sceny, tak jak każdego innego elementu sterowania.
 :::
 
+Krok, który się nie powiódł albo musiałby czekać, nie zostaje w zawieszeniu. Wygasa od razu, przebieg jest zapisany jako nieudany, a Ty dostajesz powiadomienie z nazwą automatyzacji, krokiem i przyczyną. Krok nie udaje się na przykład wtedy, gdy jego urządzenie jest offline, żaden Cora Max nie może go wykonać, urządzenie go odrzuca albo nie odpowiada, albo grzałka lub chłodziarka została przełączona chwilę temu. Dla kroku na usuniętym akwarium nie dostajesz powiadomienia.
+
 ## Edytowanie i usuwanie sceny
 
-Żeby zmienić scenę, otwórz ją z **Ustawienia → Automatyzacje** albo przytrzymaj jej kafelek na pulpicie. Zmień, co trzeba, i dotknij **Zapisz**. Żeby ją usunąć, dotknij **Usuń scenę**. Nie da się tego cofnąć.
+Żeby zmienić scenę, otwórz ją z **Ustawienia → Automatyzacje** albo przytrzymaj jej kafelek na panelu. Zmień, co trzeba, i dotknij **Zapisz**. Żeby ją usunąć, dotknij **Usuń scenę**. Nie da się tego cofnąć.
 
 :::note Starszy Cora Max uruchomi scenę, ale jej nie zmieni
 Starsze wersje Cora Max nadal pokazują i uruchamiają każdą scenę, ale nie mogą jej zmienić. Zaktualizuj Cora Max ([Aktualizacje i odzyskiwanie](/help/max-updates)) albo edytuj scenę na telefonie.

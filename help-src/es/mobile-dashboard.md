@@ -2,21 +2,21 @@
 title: Leer tu panel
 description: Cómo leer el panel de Cora, desde los widgets, la antigüedad de las lecturas y las fuentes hasta lo que significan los colores y las tarjetas que aparecen y desaparecen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Your dashboard
 ---
 
 El panel es una cuadrícula de **widgets** de un acuario. Cada widget muestra una cosa. Tú decides qué va en él, como se explica en [Editar tu panel](/help/mobile-dashboard-editing).
 
-![Un panel de Cora Mobile](img/mobile-dashboard.webp "La cabecera del acuario y la tarjeta de Reef Buddy, y después medidores, valores, gráficos y casillas de dispositivos.")
+![Un panel de Cora Mobile](img/mobile-dashboard.webp "La cabecera del acuario y la tarjeta de Reef Buddy, y después medidores, valores, gráficos y tarjetas de dispositivos.")
 
 ## La cabecera del acuario {#the-tank-header}
 
 Cada panel empieza con:
 
 - El nombre del acuario, con un pequeño icono al lado. Toca el nombre para cambiar el nombre del acuario. No hace nada más.
-- **Alimentar**, solo en un acuario con un Neptune Apex. Abre el **Modo de alimentación** con los ciclos **Feed A** a **Feed D** de tu Apex. Tu Apex decide qué se pausa y cuándo vuelve, según lo configuraste allí. Mientras un ciclo está en marcha, el botón muestra cuál, por ejemplo **Feed A**. Tócalo y elige **Cancelar alimentación** para terminarlo antes. Fuera de casa, un Cora Max del acuario envía la orden por ti.
+- **Alimentar**, solo en un acuario con un Neptune Apex. Abre el **Modo alimentación** con los ciclos **Feed A** a **Feed D** de tu Apex. Tu Apex decide qué se pausa y cuándo vuelve, según lo configuraste allí. Mientras un ciclo está en marcha, el botón muestra cuál, por ejemplo **Feed A**. Tócalo y elige **Cancelar alimentación** para terminarlo antes. Fuera de casa, un Cora Max del acuario envía la orden por ti.
 - El icono del periódico, que abre el último resumen de **Reef Buddy**.
 - El icono de compartir, que crea una instantánea del acuario. Consulta [Compartir tu acuario](/help/mobile-sharing).
 - La regla, que abre **Unidades** para este acuario. Consulta [El perfil de tu acuario](/help/mobile-tank-profile#units).
@@ -34,7 +34,7 @@ Encima de los widgets, una tarjeta resume el último resumen. Muestra el titular
 
 ## Cómo leer un widget de parámetro {#how-to-read-a-parameter-widget}
 
-Un widget de un **parámetro medido** siempre muestra las mismas tres cosas en el mismo sitio. Las casillas de dispositivos y controles, como una toma, una unidad de dosificación o una bomba, muestran su propio estado, porque no hay una sola lectura detrás.
+Un widget de un **parámetro medido** siempre muestra las mismas tres cosas en el mismo sitio. Las tarjetas de dispositivos y controles, como una toma, una unidad de dosificación o una bomba, muestran su propio estado, porque no hay una sola lectura detrás.
 
 El valor es la propia lectura, en grande y en el centro.
 
@@ -82,7 +82,7 @@ Algunas tarjetas solo aparecen cuando hay algo que decir. La mayoría están ent
 | *No se pudo acceder a tus lecturas: mostrando lo que hay en caché.* | Cora no puede cargar las últimas lecturas, a menudo por falta de conexión | **Reintentar** |
 | **Un resultado de laboratorio de {lab} te está esperando.** | Un laboratorio envió un resultado y Cora necesita saber de qué acuario es | **Elegir acuario**. Consulta [ICP e informes de salud](/help/mobile-icp-health) |
 | Aviso del perfil (**Desbloquea perspectivas más inteligentes**) | El perfil del acuario está completo en menos de un 80 % | La tarjeta, para seguir con el perfil |
-| **Prueba de Cora Pro: quedan 9 días** | Los últimos días de tu prueba gratuita | La tarjeta, o **Mantener Pro**. Consulta [Planes y suscripciones](/help/mobile-plans) |
+| **Prueba de Cora Advanced: quedan 9 días** | Los últimos días de tu prueba gratuita | La tarjeta, o **Mantener Advanced**. Consulta [Planes y suscripciones](/help/mobile-plans) |
 | **Reef Buddy** | Hay un resumen listo | La tarjeta |
 | **¿Cómo alimentas normalmente?** | No has configurado una rutina de alimentación | **Configurar rutina** |
 | *Las lecturas de Red Sea han dejado de actualizarse.* | Nada está leyendo los equipos Red Sea de este acuario | Consulta [Alertas y umbrales](/help/mobile-alerts) |

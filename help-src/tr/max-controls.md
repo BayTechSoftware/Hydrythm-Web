@@ -22,16 +22,16 @@ Her priz üç durumdan birindedir.
 **Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Hemen devreye girer ve **siz geri değiştirene kadar öyle kalırlar**. Süreleri dolmaz ve hiçbir şey onları sizin yerinize sıfırlamaz.
 
 :::warning Elle yapılan geçersiz kılmanın süresi dolmaz
-İşiniz bitince prizi **Otomatik**'e geri alın, çünkü bunu başka hiçbir şey yapmaz. Yine de geçersiz kılma bir kilit değildir. Siz, sesiniz ya da bir otomasyon onu daha sonra değiştirebilir.
+İşiniz bitince prizi **Otomatik**'e geri alın, çünkü bunu başka hiçbir şey yapmaz. Yine de manuel ayar bir kilit değildir. Siz, sesiniz ya da bir otomasyon onu daha sonra değiştirebilir.
 :::
 
 ## Panodan açıp kapatma {#switching-from-the-dashboard}
 
 Priz kutucukları üç durumu gösterir, geçerli olan vurgulanır. İstediğinize dokunun.
 
-Bazı prizlerde bir **asma kilit** vardır. Bu, prizin değişmeden önce onay istediği anlamına gelir. Böylece yanlışlıkla yapılan bir dokunuş önemli bir şeyi açıp kapatamaz. Dokunduğunuzda bir pencere prizi, şu anki durumunu, ayarlamak üzere olduğunuz geçersiz kılmayı ve bunun akvaryuma ne yapabileceğini gösterir. Başka bir yerden kapatılacak bir kilit yoktur.
+Bazı prizlerde bir **asma kilit** vardır. Bu, prizin değişmeden önce onay istediği anlamına gelir. Böylece yanlışlıkla yapılan bir dokunuş önemli bir şeyi açıp kapatamaz. Dokunduğunuzda bir pencere prizi, şu anki durumunu, ayarlamak üzere olduğunuz manuel ayarı ve bunun akvaryuma ne yapabileceğini gösterir. Başka bir yerden kapatılacak bir kilit yoktur.
 
-Varsayılan olarak asma kilit ısıtıcılarda, soğutucularda, ana pompalarda, otomatik su tamamlamada (ATO), yemleyicilerde ve Cora'nın sınıflandıramadığı her prizde bulunur. Işıklar, skimmer'lar, dalga pompaları, dozaj pompaları, reaktörler, UV ve fanlar tek dokunuşla değişir.
+Varsayılan olarak asma kilit ısıtıcılarda, soğutucularda, ana pompalarda, otomatik su tamamlamada (ATO), otomatik yemliklerde ve Cora'nın sınıflandıramadığı her prizde bulunur. Işıklar, skimmer'lar, dalga pompaları, dozaj pompaları, reaktörler, UV ve fanlar tek dokunuşla değişir.
 
 ## Prizler ve Besleme çekmecesi {#the-controls-drawer}
 

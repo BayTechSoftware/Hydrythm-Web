@@ -2,7 +2,7 @@
 title: Geräte hinzufügen, bearbeiten und entfernen
 description: Ausrüstung zu Cora hinzufügen, einem Becken zuweisen, umbenennen, prüfen, ob sie in Ordnung ist, und entfernen, alles im Tab Geräte.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices
@@ -33,8 +33,8 @@ Fügst du Ausrüstung aus deinem Netzwerk hinzu, muss dein Handy im selben Netzw
 
 Ein Cora Max teilt sein Bluetooth unter der gesamten Ausrüstung auf, die es liest, und kommt daher nur bis zu einer Grenze mit. Wenn du eine Jecod-Pumpe hinzufügst, die über Bluetooth verbunden ist, prüft Cora zuerst, wie ausgelastet das Cora Max des Beckens ist. Meist siehst du nichts. Sonst erscheint eine von zwei Meldungen:
 
-- **Bluetooth wird stark ausgelastet**: *Dieses Cora Max nähert sich seinem Bluetooth-Limit. Weitere Geräte werden möglicherweise seltener aktualisiert. Fügen Sie ein zweites Cora Max hinzu, wenn Sie mehr Geräte hinzufügen möchten.* Tippe auf **Weiter**, um das Gerät trotzdem hinzuzufügen, oder auf **Abbrechen**.
-- **Bluetooth-Limit erreicht**: *Dieses Cora Max hat sein Bluetooth-Limit erreicht. Fügen Sie für diese Geräte ein zweites Cora Max hinzu.* Das Gerät wird nicht hinzugefügt. Tippe auf **OK**.
+- **Bluetooth wird stark ausgelastet**: *Dieses Cora Max nähert sich seinem Bluetooth-Limit. Weitere Geräte werden möglicherweise seltener aktualisiert. Füge ein zweites Cora Max hinzu, wenn du mehr Geräte hinzufügen möchtest.* Tippe auf **Weiter**, um das Gerät trotzdem hinzuzufügen, oder auf **Abbrechen**.
+- **Bluetooth-Limit erreicht**: *Dieses Cora Max hat sein Bluetooth-Limit erreicht. Füge für diese Geräte ein zweites Cora Max hinzu.* Das Gerät wird nicht hinzugefügt. Tippe auf **OK**.
 
 Cora prüft das primäre Cora Max des Beckens oder, wenn keins gewählt ist, das Cora Max mit dem meisten Platz. Mehr unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device#primary-cora-max).
 

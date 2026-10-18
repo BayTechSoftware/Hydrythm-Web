@@ -1,18 +1,18 @@
 ---
-title: Edytowanie pulpitu Cora Max
-description: Dodawaj, przenoś i usuwaj kafelki na pulpicie Cora Max, wybierz siatkę, użyj szablonów albo Zaprojektuj z AI i zapisuj układy do ponownego użycia na dowolnym Cora Max.
+title: Edytowanie panelu Cora Max
+description: Dodawaj, przenoś i usuwaj kafelki na panelu Cora Max, wybierz siatkę, użyj szablonów albo Zaprojektuj z AI i zapisuj układy do ponownego użycia na dowolnym Cora Max.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
 ---
 
-Ta strona pokazuje, jak układać kafelki na pulpicie Cora Max. Pulpit ma **stałą siatkę**: ekran się nie przewija, więc każdy kafelek musi zmieścić się na jednym ekranie. To główna różnica w porównaniu z pulpitem w telefonie.
+Ta strona pokazuje, jak układać kafelki na panelu Cora Max. Pulpit ma **stałą siatkę**: ekran się nie przewija, więc każdy kafelek musi zmieścić się na jednym ekranie. To główna różnica w porównaniu z panelem w telefonie.
 
 Edytor otworzysz z **menu akwarium**: dotknij nazwy akwarium na górnym pasku, a potem **Układ panelu**. Jest też w **Ustawienia → [Twoje akwarium] → Układ panelu**.
 
-![Edytor pulpitu na Cora Max](img/max-dashboard-editor.webp "Rozmiary siatki na górze, a pod nimi kafelki. To ekran układu, więc każdy kafelek pokazuje swój typ i źródło zamiast odczytu. Nic się nie zapisze, dopóki nie naciśniesz Zapisz.")
+![Edytor panelu na Cora Max](img/max-dashboard-editor.webp "Rozmiary siatki na górze, a pod nimi kafelki. To ekran układu, więc każdy kafelek pokazuje swój typ i źródło zamiast odczytu. Nic się nie zapisze, dopóki nie naciśniesz Zapisz.")
 
 :::tip Możesz też edytować go z telefonu
 W Cora Mobile otwórz zakładkę **Urządzenia**, dotknij swojego Cora Max, a potem **Układ panelu** na karcie akwarium. To szybsze niż ręczne układanie kafelków na ekranie na ścianie, a wynik pojawi się na Cora Max, gdy tylko zapiszesz.
@@ -54,25 +54,27 @@ Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, 
 
 ## Gniazda i karmienie {#outlets-feed}
 
-**Gniazda i karmienie** w edytorze wybiera, które gniazda i cykle karmienia pojawią się w **Sterowaniu**, szufladzie wysuwanej z dołu pulpitu. Nie dodaje kafelków. Jeśli nic nie wybierzesz, Sterowanie wymienia wszystkie. Żeby umieścić gniazdo na samej siatce, dodaj kafelek **Gniazdo**. Więcej w [Gniazdach i sterowaniu](/help/max-controls).
+**Gniazda i karmienie** w edytorze wybiera, które gniazda i cykle karmienia pojawią się w **Sterowaniu**, szufladzie wysuwanej z dołu panelu. Nie dodaje kafelków. Jeśli nic nie wybierzesz, Sterowanie wymienia wszystkie. Żeby umieścić gniazdo na samej siatce, dodaj kafelek **Gniazdo**. Więcej w [Gniazdach i sterowaniu](/help/max-controls).
+
+Gdy usuniesz urządzenie z akwarium, jego kafelki same znikają z panelu, w telefonie i na każdym Cora Max tego akwarium. Kafelek, którego urządzenia już nie ma, pokazuje **To urządzenie nie jest już w tym akwarium** i niczego nie otwiera.
 
 ## Szablony {#templates}
 
 **Szablony** są na górze edytora, obok **Moje panele** i **Zaprojektuj z AI**. Działają w każdym planie i nigdy nie używają AI, więc działają też bez udostępniania danych AI.
 
-Otwierają **Szablony pulpitu**, kilka gotowych układów zbudowanych z tego, co to akwarium zgłasza i co ma podłączone:
+Otwierają **Szablony panelu**, kilka gotowych układów zbudowanych z tego, co to akwarium zgłasza i co ma podłączone:
 
 - **Przegląd**: mało dużych kafelków, z podstawowymi parametrami jako wskaźnikami i głównymi urządzeniami
 - **Sprzęt**: najpierw po jednym kafelku na urządzenie, potem gniazda i podstawowe parametry
 - **Parametry**: najpierw wykresy i odczyty, a urządzenia i gniazda na końcu
 
-Każdy pokazuje podgląd oraz liczbę kafelków i siatkę. Dotknij **Użyj tego**. Cora najpierw zapyta **Zastąpić pulpit?** Dotknij **Najpierw zapisz obecny jako preset**, jeśli chcesz zachować obecny układ, albo **Zastąp**. Nic się nie zapisze, dopóki nie naciśniesz **Zapisz**.
+Każdy pokazuje podgląd oraz liczbę kafelków i siatkę. Dotknij **Użyj tego**. Cora najpierw zapyta **Zastąpić panel?** Dotknij **Najpierw zapisz obecny projekt**, jeśli chcesz zachować obecny układ, albo **Zastąp**. Nic się nie zapisze, dopóki nie naciśniesz **Zapisz**.
 
 ## Zaprojektuj z AI {#design-with-ai}
 
 Edytor ma przycisk **Zaprojektuj z AI**. Działa w płatnym planie i w okresie próbnym. Cora proponuje cały układ na podstawie tego, co to akwarium zgłasza i co ma podłączone, i pokazuje, ile ma kafelków i na jakiej siatce. Dotknij **Użyj tego**, żeby wstawić go do edytora, albo **Spróbuj ponownie**, żeby dostać inny. Możesz zrobić 5 projektów na akwarium dziennie.
 
-Projekt z AI zastępuje to, co jest teraz na tym pulpicie. Nic się nie zapisze, dopóki nie naciśniesz **Zapisz**, a obecny układ możesz najpierw zachować, zapisując go w **Moje panele**. W planie darmowym **Zaprojektuj z AI** kieruje do planów. Wymaga też udostępniania danych AI włączonego w Cora Mobile. Więcej w [Pytaniach do Cory](/help/mobile-assistant).
+Projekt z AI zastępuje to, co jest teraz na tym panelu. Nic się nie zapisze, dopóki nie naciśniesz **Zapisz**, a obecny układ możesz najpierw zachować, zapisując go w **Moje panele**. W planie darmowym **Zaprojektuj z AI** kieruje do planów. Wymaga też udostępniania danych AI włączonego w Cora Mobile. Więcej w [Pytaniach do Cory](/help/mobile-assistant).
 
 ## Projektowanie pod czytanie z daleka {#designing-for-distance}
 

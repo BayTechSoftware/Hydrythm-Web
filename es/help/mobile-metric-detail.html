@@ -178,6 +178,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: Ver un parámetro a fondo"><img src="/help/img/mobile-metric-detail.webp" alt="Ver un parámetro a fondo" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Arriba los desplegables y luego el gráfico con tu franja de alerta sombreada.</figcaption></figure>
 <ul><li>Un gráfico de historial. La fila de encima fija lo que muestra. <strong>Parámetro</strong> pasa a cualquier otro parámetro que tenga datos y conserva tu periodo. <strong>Periodo</strong> va de 1h, pasando por 6h, 12h, 24h, 3d, 7d, 15d, 30d, 90d, 180d y 360d, hasta Todo. <strong>Fuente</strong> empieza en <strong>Todas las fuentes</strong> y lista las fuentes que informan de este parámetro en este acuario, como <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> o <em>Manual</em>. Elige una para ver solo sus lecturas.</li><li><strong>Comparar</strong>, al final de la misma fila, dibuja un segundo parámetro en el gráfico, como alcalinidad con calcio o pH con temperatura. El botón pasa a decir <strong>vs</strong> y el nombre del otro parámetro. Vuelve a tocarlo para quitar la segunda línea.</li><li>Una fila con <strong>Más reciente</strong>, <strong>Mín</strong>, <strong>Prom</strong> y <strong>Máx</strong> del periodo que tienes en pantalla.</li><li>Iconos en la barra superior: <strong>Lecturas</strong> abre la lista de lecturas sin procesar, y <strong>Registrar cuidado de sonda</strong> anota una calibración o una limpieza. Para la alcalinidad, el calcio y el magnesio también está la calculadora de dosis, que usa el volumen del acuario de tu <a href="/es/help/mobile-tank-profile">perfil del acuario</a> y las concentraciones de <a href="/es/help/mobile-dosing">Dosificación</a>.</li></ul>
 <p>La pantalla siempre se abre en 24h y <strong>Todas las fuentes</strong>. No recuerda lo que elegiste la última vez.</p>
+<p>La gravedad específica (SG) siempre muestra tres o cuatro decimales, así que 1,022 no se convierte en 1,02. Es igual en Cora Mobile y Cora Max, en el panel, en el gráfico y en la lista de lecturas.</p>
 <h2 id="reading-the-chart">Leer el gráfico</h2>
 <ul><li>La franja verde es tu rango de alerta, así que ves cada lectura junto a él. Para cambiar el rango, mantén pulsado el widget en el panel. Más información en <a href="/es/help/mobile-alerts">Alertas y umbrales</a>.</li><li>Una línea discontinua marca una dosis registrada, para que puedas relacionar un cambio con lo que dosificaste.</li><li><strong>Máximo 30 d</strong> y <strong>Mínimo 30 d</strong> son líneas discontinuas con los extremos de los últimos 30 días.</li><li>Un punto hueco es una lectura que excluiste.</li><li>Con <strong>Comparar</strong> activado, el segundo parámetro usa el eje de la derecha.</li></ul>
 <h2 id="choosing-a-range">Elegir un periodo</h2>
@@ -203,7 +204,7 @@
 <p>Las lecturas se registran desde el panel, no desde esta pantalla. Toca <strong>Registrar parámetros</strong> debajo de los widgets e introduce lo que marca tu kit de pruebas. La lista está agrupada, y el grupo <strong>Oligoelementos</strong> incluye yodo, hierro y cobre en µg/L, y potasio en mg/L. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico y Reef Buddy las usa. También son con lo que Cora compara tus equipos.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora revisa los valores que parecen raros</p><p>Si un valor está muy lejos de lo que viene marcando el acuario, Cora te pide que lo confirmes antes de guardarlo. Así se detecta una coma decimal fuera de sitio o una lectura puesta en el parámetro equivocado. Cuando la confirmas, la lectura se guarda con normalidad.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-dashboard"><span>Anterior</span><b>Leer tu panel</b></a><a class="pn-n" href="/es/help/mobile-dashboard-editing"><span>Siguiente</span><b>Editar tu panel</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -594,7 +595,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

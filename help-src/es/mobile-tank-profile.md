@@ -69,7 +69,7 @@ Tu Apex, tus unidades Red Sea y el resto de dispositivos se añaden, se asignan 
 
 Cada acuario tiene sus propias unidades de visualización. Toca el icono de la regla en la cabecera del acuario, o ve a **Ajustes**, toca el acuario y elige **Unidades**. Puedes fijar cómo muestra este acuario la salinidad, la temperatura, la alcalinidad, el volumen, el fosfato y el nitrato. El volumen puede ser en litros, galones de EE. UU. o galones del Reino Unido.
 
-Las unidades se aplican a este acuario en todos los teléfonos y Cora Max que lo abran. Tus lecturas no cambian, solo cómo se muestran. Los medidores, las casillas, el historial, los informes y lo que dice Cora Assistant siguen la elección. En Cora Max, abre el menú del acuario y toca **Unidades**.
+Las unidades se aplican a este acuario en todos los teléfonos y Cora Max que lo abran. Tus lecturas no cambian, solo cómo se muestran. Los medidores, las tarjetas, el historial, los informes y lo que dice Cora Assistant siguen la elección. En Cora Max, abre el menú del acuario y toca **Unidades**.
 
 ## Volumen {#volume}
 

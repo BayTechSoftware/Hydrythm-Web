@@ -1,8 +1,8 @@
 ---
 title: Forfaits et abonnements
-description: Ce que comprennent les forfaits Free, essai, Plus, Pro et Max, comment s’abonner ou passer à un forfait supérieur, où voir votre consommation et comment résilier sur iPhone ou Android.
+description: Ce que comprennent les forfaits Free, essai, Essential, Advanced et Expert, comment s’abonner ou passer à un forfait supérieur, où voir votre consommation et comment résilier sur iPhone ou Android.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -34,7 +34,7 @@ Quand un quota est épuisé, vous pouvez toujours lire tout ce que Cora a déjà
 
 ## L’essai {#the-trial}
 
-Votre **essai Pro de 30 jours commence à la création de votre compte**. Il n’attend pas votre première utilisation d’une fonction, et vous n’avez pas besoin de carte bancaire. **Compte et abonnement** l’affiche comme **Essai Cora Pro**, avec sa date de fin.
+Votre **essai Advanced de 30 jours commence à la création de votre compte**. Il n’attend pas votre première utilisation d’une fonction, et vous n’avez pas besoin de carte bancaire. **Compte et abonnement** l’affiche comme **Essai Cora Advanced**, avec sa date de fin.
 
 | Pendant l’essai | |
 |---|---|
@@ -44,15 +44,15 @@ Votre **essai Pro de 30 jours commence à la création de votre compte**. Il n�
 | Analyses ICP | 1 par mois |
 | Reef Buddy et surveillance par l’IA | Votre premier aquarium |
 
-L’essai comprend Reef Buddy et **Concevoir avec l'IA**. Ses quotas sont plus petits que ceux du forfait Pro.
+L’essai comprend Reef Buddy et **Concevoir avec l'IA**. Ses quotas sont plus petits que ceux du forfait Advanced.
 
 À la fin, votre compte repasse en Free. **Rien n’est supprimé.** Vous pouvez toujours lire chaque mesure, entrée de journal, rapport et briefing que vous avez.
 
 ## Forfaits payants {#paid-tiers}
 
-Il y a trois forfaits, **Plus**, **Pro** et **Max**, chacun mensuel ou annuel. Les réglages les affichent comme Cora Plus, Cora Pro et Cora Max. Vous trouverez les prix actuels dans Cora Mobile et dans votre boutique d’applications, puisque c’est là que vous payez.
+Il y a trois forfaits, **Essential**, **Advanced** et **Expert**, chacun mensuel ou annuel. Les réglages les affichent comme Cora Essential, Cora Advanced et Cora Expert. Vous trouverez les prix actuels dans Cora Mobile et dans votre boutique d’applications, puisque c’est là que vous payez.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Messages à l’Assistant / mois | 500 | 1 200 | 2 500 (usage raisonnable) |
 | Sessions vocales / mois | 100 | 200 | 400 |
@@ -63,8 +63,8 @@ Il y a trois forfaits, **Plus**, **Pro** et **Max**, chacun mensuel ou annuel. L
 Les sessions vocales ont leur propre compteur, et chaque réponse parlée consomme aussi votre quota de messages. Tous les forfaits payants comprennent Reef Buddy, l’import et l’analyse ICP pour les laboratoires que Cora lit, la comparaison avec votre propre historique, et **Concevoir avec l'IA** pour les tableaux de bord (jusqu’à 5 designs par jour pour chaque aquarium).
 
 
-:::note Le forfait Max n’est pas l’écran Cora Max
-Le **forfait Max** est un abonnement. **Cora Max** est l’écran installé près de votre aquarium. Vous n’avez pas besoin de l’un pour avoir l’autre.
+:::note Le forfait Expert n’est pas l’écran Cora Max
+Le **forfait Expert** est un abonnement. **Cora Max** est l’écran installé près de votre aquarium. Vous n’avez pas besoin de l’un pour avoir l’autre.
 :::
 
 ### Quels aquariums ont l’IA {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy et la surveillance par l’IA couvrent autant d’aquariums que votre
 ## S’abonner ou passer à un forfait supérieur {#subscribing}
 
 1. Ouvrez **Réglages** et touchez la carte du compte en haut. **Compte et abonnement** s’ouvre.
-2. À côté de votre forfait, touchez **Voir les forfaits** (en Free ou pendant l’essai), **Passer à un forfait supérieur** (en Plus) ou **Passer à Max** (en Pro).
+2. À côté de votre forfait, touchez **Voir les forfaits** (en Free ou pendant l’essai), **Passer à un forfait supérieur** (en Essential) ou **Passer à Expert** (en Advanced).
 3. Choisissez **Mensuel** ou **Annuel**. Le prix annuel indique combien vous économisez.
 4. Choisissez un forfait et touchez **S’abonner**.
 5. Confirmez auprès de l’App Store ou de Google Play. Votre nouveau forfait se débloque dès que la boutique le confirme.
@@ -85,7 +85,7 @@ Le même choix de forfait s’ouvre aussi quand vous atteignez une limite, par e
 
 ## Compte et abonnement
 
-![Compte et abonnement dans Cora Mobile](img/mobile-plans.webp "Votre forfait sous Abonnement, avec Passer à Max et Restaurer les achats.")
+![Compte et abonnement dans Cora Mobile](img/mobile-plans.webp "Votre forfait sous Abonnement, avec Passer à Expert et Restaurer les achats.")
 
 **Compte et abonnement** affiche votre forfait actuel et sa date de renouvellement ou de fin. En dessous se trouvent ces commandes.
 
@@ -110,7 +110,7 @@ Les compteurs repartent à zéro au début de chaque mois civil.
 
 ## Changer de forfait
 
-Pour monter en gamme, utilisez **Passer à un forfait supérieur** ou **Passer à Max** comme ci-dessus. Pour descendre ou passer du mensuel à l’annuel, utilisez **Gérer l’abonnement**. Les changements passent par l’App Store ou Google Play et suivent les mêmes règles que tout autre abonnement sur votre téléphone, y compris les conditions de remboursement et de résiliation de cette boutique.
+Pour monter en gamme, utilisez **Passer à un forfait supérieur** ou **Passer à Expert** comme ci-dessus. Pour descendre ou passer du mensuel à l’annuel, utilisez **Gérer l’abonnement**. Les changements passent par l’App Store ou Google Play et suivent les mêmes règles que tout autre abonnement sur votre téléphone, y compris les conditions de remboursement et de résiliation de cette boutique.
 
 ## Résilier {#cancelling}
 

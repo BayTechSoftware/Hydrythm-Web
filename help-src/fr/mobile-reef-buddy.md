@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Votre briefing quotidien Reef Buddy, ce qu’il couvre, quand il arrive, comment lire les scores, et pourquoi un briefing peut ne pas arriver.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -85,7 +85,7 @@ Si vous n’avez rien testé depuis une semaine, le score Données baisse et le 
 
 Reef Buddy fait partie des forfaits payants. Il est aussi inclus dans l’essai de 30 jours qui commence à la création de votre compte.
 
-Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Plus, 5 avec Pro et 20 avec Max. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Réglages → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
+Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Essential, 5 avec Advanced et 20 avec Expert. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Réglages → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
 
 Après l’essai, un compte gratuit voit une carte Reef Buddy verrouillée avec **Voir les forfaits** à la place du briefing, et ne reçoit pas de notification de briefing. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 

@@ -2,7 +2,7 @@
 title: Editing your dashboard
 description: Add, move, resize and remove widgets on your phone dashboard, set the column count, and edit a Cora Max dashboard from your phone.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -40,6 +40,8 @@ Pick **2**, **3** or **4** next to **COLUMNS** at the top of the editor. The gri
 You only see parameters the tank has. A parameter with no source shows up once you connect equipment that reports it, or log a reading by hand.
 
 The grid holds up to 20 rows. When it's full, Cora says **Dashboard is full: remove a tile first.** A graph needs two free cells side by side.
+
+When you remove a device from a tank, its tiles leave the dashboard by themselves, on your phone and on every Cora Max of that tank. A tile whose device has gone says **This device is no longer on this tank** and opens nothing.
 
 ## Arranging widgets {#arranging-widgets}
 

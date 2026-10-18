@@ -2,7 +2,7 @@
 title: Reading your dashboard
 description: How to read Cora's dashboard, from widgets, reading age and sources to what the colours mean and the cards that come and go.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Your dashboard
 ---
@@ -82,7 +82,7 @@ Some cards only show when there's something to say. Most of them sit between the
 | *Couldn't reach your readings: showing what's cached.* | Cora can't load the latest readings, often with no connection | **Retry** |
 | **Lab result from {lab} is waiting.** | A lab sent a result and Cora needs to know which tank it's for | **Choose tank**. See [ICP and health reports](/help/mobile-icp-health) |
 | Profile prompt (**Unlock smarter insights**) | The tank profile is under 80% complete | The card, to carry on with the profile |
-| **Cora Pro trial: 9 days left** | The last days of your trial | The card, or **Keep Pro**. See [Plans and subscriptions](/help/mobile-plans) |
+| **Cora Advanced trial: 9 days left** | The last days of your trial | The card, or **Keep Advanced**. See [Plans and subscriptions](/help/mobile-plans) |
 | **Reef Buddy** | A briefing is ready | The card |
 | **How do you usually feed?** | You haven't set a feeding routine | **Set up routine** |
 | *Red Sea readings have stopped updating.* | Nothing is reading this tank's Red Sea devices | See [Alerts and thresholds](/help/mobile-alerts) |

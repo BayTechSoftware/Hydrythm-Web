@@ -2,7 +2,7 @@
 title: Cora Mobile ayarları
 description: Hesabınız ve planınızdan akvaryumlara, Cora Assistant'a, dile, koyu moda, bildirimlere ve desteğe kadar Cora Mobile'ın Ayarlar sekmesinde her şeyin nerede olduğu.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -87,7 +87,7 @@ Bunu yukarıda **Cora** altındaki **Cora Assistant** satırından açarsınız.
 - **Yanıtlayan cihaz**, evinizde uyandırma ifadesine hangi Cora cihazının yanıt vereceğini seçer. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device#cora-assistant-answering-device) sayfasında.
 - **Cora'nın analizini laboratuvarlarla paylaşın**, size sonuç gönderen bir laboratuvarın Cora'nın puanlarını ve yazılı analizini görüp göremeyeceğini belirler. Siz açana kadar kapalıdır.
 - **Güvenilen laboratuvarlar**, her seferinde sormadan akvaryumlarınıza sonuç gönderebilen laboratuvarları listeler. Bir laboratuvara güvendiğinizde görünür. Ayrıntılar [ICP ve sağlık raporları](/help/mobile-icp-health#trusted-labs) sayfasında.
-- **Kullanım ve Limitler**, aylık haklarınızı ve ne kadarını kullandığınızı gösterir.
+- **Kullanım ve Sınırlar**, aylık haklarınızı ve ne kadarını kullandığınızı gösterir.
 
 ## Verileriniz ve gizlilik
 
@@ -112,7 +112,7 @@ App Store ya da Google Play aboneliği Cora'ya değil, **mağazaya** aittir. Hes
 - **Destekle İletişime Geç** bize bir e-posta açar. Genellikle bir gün içinde yanıt veririz.
 - **Hata Bildir / Geri Bildirim Gönder**, Cora Mobile içinden bir rapor gönderir. [Sorun bildirme](/help/mobile-support) sayfasına bakın.
 - **Çökme raporları gönder**, yukarıda anlatılmıştır.
-- **Cora Web Sitesi ve SSS**, Cora web sitesini açar.
+- **Cora Web Sitesi ve SSS**, Cora web sitesini açar. Bu kılavuzu kendi dilinizde açar.
 
 ## Hakkında
 

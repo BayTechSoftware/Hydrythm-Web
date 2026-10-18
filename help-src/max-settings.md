@@ -2,7 +2,7 @@
 title: Cora Max settings
 description: Every Cora Max setting, from rename, brightness, night dimming, speaker and wake word to child lock, language, Wi-Fi, re-pairing and factory reset.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -61,6 +61,8 @@ Below the card are these sections.
 | **STATUS** | One card for each tank this screen shows, with **Polling status**, **Last poll**, **Last cloud write** and **Cloud save**. View only |
 | **HELP & ABOUT** | **Help & Support** (contact support or report a problem) and **About** (version and licenses) |
 | **RESET** | **Re-pair this device** and **Factory reset**. See below |
+
+**Help & Support** also shows a QR code. Scan it with your phone to open this guide in your language.
 
 When the screen has dimmed, your first tap only wakes it. It doesn't press anything.
 

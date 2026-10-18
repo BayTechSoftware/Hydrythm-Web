@@ -2,7 +2,7 @@
 title: Managing your tanks
 description: Add another tank, switch between tanks, change their order and which tanks get Reef Buddy, and remove or restore a tank.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
@@ -45,7 +45,7 @@ The order is the order you swipe through on the dashboard.
 
 ### The order decides which tanks get Reef Buddy {#reef-buddy-and-tank-order}
 
-Your plan covers a set number of tanks for Reef Buddy's daily briefing. Cora gives it to the first ones in your **Reorder tanks** order. On Plus, and during the 30-day trial, that's your first tank only. Pro covers 5 tanks and Max covers 20. More in [Plans and subscriptions](/help/mobile-plans).
+Your plan covers a set number of tanks for Reef Buddy's daily briefing. Cora gives it to the first ones in your **Reorder tanks** order. On Essential, and during the 30-day trial, that's your first tank only. Advanced covers 5 tanks and Expert covers 20. More in [Plans and subscriptions](/help/mobile-plans).
 
 If a tank gets no briefing, move it to the top of the list. Removed tanks don't count.
 
@@ -57,10 +57,10 @@ If a tank gets no briefing, move it to the top of the list. Removed tanks don't 
 
 Removing only hides the tank. It leaves your dashboard and your Settings list, and its readings, journal and records are kept. You can bring it back at any time.
 
-These stop for a removed tank: Reef Buddy's briefing, maintenance reminders, and its place in your plan's Reef Buddy count.
+A removed tank is kept for its history, but it is never shown and it stays silent. It sends no alerts and no reminders, it gets no Reef Buddy briefing and takes no place in your plan's Reef Buddy count, and its automations stop.
 
-:::warning A removed tank's equipment keeps running
-Removing a tank doesn't unlink anything. Its devices stay assigned to it and keep reporting, a Cora Max assigned to it keeps showing it, and its equipment can still send you alerts.
+:::note A removed tank's equipment stays linked
+Removing a tank doesn't unlink anything. Its devices stay assigned to it, and a Cora Max assigned to it stays assigned, but nothing from that tank is shown and no alert or reminder reaches you.
 
 Before you remove a tank, move or remove its devices on the **Devices** tab. Then open your Cora Max under **Devices** and tap the **Remove tank** icon next to that tank under **Assigned Tanks**.
 :::

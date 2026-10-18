@@ -2,7 +2,7 @@
 title: Panonuzu düzenleme
 description: Telefon panonuzda widget ekleyin, taşıyın, boyutlandırın ve kaldırın, sütun sayısını ayarlayın ve bir Cora Max panosunu telefonunuzdan düzenleyin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -12,7 +12,7 @@ Pano düzenleyici, bir akvaryumun panosunda hangi widget'ların görüneceğini 
 
 ## Düzenleyiciyi açma {#opening-the-editor}
 
-Panoda aşağı kaydırın ve widget'ların hemen altındaki **Panoyu düzenle**'ye dokunun. Düzenleyici **Panoyu Düzenle** başlığıyla ve **Taşımak için bir karoya uzun basın. Yapılandırmak için dokunun.** ipucuyla açılır.
+Panoda aşağı kaydırın ve widget'ların hemen altındaki **Panoyu düzenle**'ye dokunun. Düzenleyici **Panoyu Düzenle** başlığıyla ve **Taşımak için bir kutucuğa uzun basın. Yapılandırmak için dokunun.** ipucuyla açılır.
 
 :::note Akvaryum başlığındaki kalem başka bir şeyi açar
 Kalem, hacim, canlılar, dozaj, aydınlatma ve akış bilgilerinin olduğu akvaryum profili **Akvaryumu düzenle**'yi açar. Bu, [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasında anlatılır.
@@ -32,14 +32,16 @@ Düzenleyicinin üstünde **SÜTUNLAR**'ın yanından **2**, **3** ya da **4**'�
 
 ## Widget ekleme {#adding-a-widget}
 
-1. Izgaranın altındaki **Karo ekle**'ye ya da boş bir hücreye dokunun.
-2. **Bir karo ekle** içinde türünü seçin. **Metrik**, bir parametre için değer, gösterge, grafik ya da durum gösterir. **Priz** bir Apex prizini kontrol eder. Diğer satırlar **ReefBeat**, **Trident**, **DŌS** ya da **Jecod** gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür.
+1. Izgaranın altındaki **Kutucuk ekle**'ye ya da boş bir hücreye dokunun.
+2. **Bir kutucuk ekle** içinde türünü seçin. **Metrik**, bir parametre için değer, gösterge, grafik ya da durum gösterir. **Priz** bir Apex prizini kontrol eder. Diğer satırlar **ReefBeat**, **Trident**, **DŌS** ya da **Jecod** gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür.
 3. Parametreyi, prizi ya da cihazı seçin.
 4. Bir metrik için türü seçin. [Widget rehberi](/help/mobile-widgets) her birini anlatır.
 
 Yalnızca akvaryumda bulunan parametreleri görürsünüz. Kaynağı olmayan bir parametre, onu bildiren ekipmanı bağladığınızda ya da elle bir ölçüm girdiğinizde görünür.
 
-Izgara en fazla 20 satır alır. Dolduğunda Cora **Pano dolu: önce bir karo kaldırın.** der. Bir grafik yan yana iki boş hücre ister.
+Izgara en fazla 20 satır alır. Dolduğunda Cora **Pano dolu: önce bir kutucuk kaldırın.** der. Bir grafik yan yana iki boş hücre ister.
+
+Bir cihazı akvaryumdan çıkardığınızda kutucukları panodan kendiliğinden kalkar, telefonunuzda ve o akvaryumdaki her Cora Max'te. Cihazı gitmiş bir kutucuk **Bu cihaz artık bu akvaryumda değil** yazar ve hiçbir şey açmaz.
 
 ## Widget'ları yerleştirme {#arranging-widgets}
 

@@ -67,6 +67,6 @@ Quand la consommation change, regardez de plus près avant de conclure. Une haus
 
 ## Équipement de dosage {#dosing-equipment}
 
-Si vous avez un doseur connecté, comme un Neptune DŌS ou un Red Sea ReefDose, ses têtes apparaissent avec leurs propres mesures, dont ce qui reste dans chaque tête et ce qu’elle a dosé. La façon de les faire fonctionner et de les remplir est dans [Contrôler votre équipement](/help/mobile-device-control), et leurs alertes de récipient bas et de dose manquée sont dans [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
+Si vous avez un doseur connecté, comme un Neptune DŌS ou un Red Sea ReefDose, ses têtes apparaissent avec leurs propres mesures, dont ce qui reste dans chaque tête et ce qu’elle a dosé. La façon de les faire fonctionner et de les remplir est dans [Contrôler votre équipement](/help/mobile-device-control), et leurs alertes de réservoir bas et de dose manquée sont dans [Alertes des doseurs](/help/mobile-device-control#doser-alerts).
 
 Une automatisation peut aussi doser depuis une tête DŌS, avec un plafond de 10 mL par tête et par jour. Voir [Automatisations et scènes](/help/mobile-automation#actions).

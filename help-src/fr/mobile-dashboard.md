@@ -2,7 +2,7 @@
 title: Lire votre tableau de bord
 description: Comment lire le tableau de bord de Cora, des widgets, de l’âge des mesures et des sources à la signification des couleurs et aux cartes qui vont et viennent.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Your dashboard
 ---
@@ -82,9 +82,9 @@ Certaines cartes n’apparaissent que quand il y a quelque chose à dire. La plu
 | *Impossible de joindre vos mesures : affichage des données en cache.* | Cora ne peut pas charger les dernières mesures, souvent faute de connexion | **Réessayer** |
 | **Un résultat de laboratoire de {lab} vous attend.** | Un laboratoire a envoyé un résultat et Cora doit savoir à quel aquarium il correspond | **Choisir l'aquarium**. Voir [Rapports ICP et de santé](/help/mobile-icp-health) |
 | Invitation du profil (**Débloquez des analyses plus fines**) | Le profil de l’aquarium est complet à moins de 80 % | La carte, pour continuer le profil |
-| **Essai Cora Pro : 9 jours restants** | Les derniers jours de votre essai | La carte, ou **Garder Pro**. Voir [Forfaits et abonnements](/help/mobile-plans) |
+| **Essai Cora Advanced : 9 jours restants** | Les derniers jours de votre essai | La carte, ou **Garder Advanced**. Voir [Forfaits et abonnements](/help/mobile-plans) |
 | **Reef Buddy** | Un briefing est prêt | La carte |
-| **Comment nourris-tu d'habitude ?** | Vous n’avez pas réglé de routine d’alimentation | **Configurer la routine** |
+| **Comment nourrissez-vous d’habitude ?** | Vous n’avez pas réglé de routine de nourrissage | **Configurer la routine** |
 | *Les relevés Red Sea ne se mettent plus à jour.* | Rien ne lit les appareils Red Sea de cet aquarium | Voir [Alertes et seuils](/help/mobile-alerts) |
 | **Enregistrez votre premier test d’eau** | Aucune mesure et aucun équipement associé, sous les widgets | La carte. Voir [Configurer Cora Mobile](/help/mobile-setup#the-first-test-card) |
 
@@ -98,7 +98,7 @@ De haut en bas, vous trouvez :
 - La carte **Enregistrez votre premier test d’eau**, sur un aquarium sans mesure et sans équipement associé.
 - **Enregistrer les paramètres**, pour saisir à la main les mesures de vos kits de test.
 - **Historique des paramètres**, pour ouvrir l’historique de n’importe quel paramètre qui a des données, même sans widget. Voir [Examiner un paramètre](/help/mobile-metric-detail).
-- **Alimentation**, pour noter un repas qui sort de votre routine. Voir [Le journal](/help/mobile-journal).
+- **Nourrissage**, pour noter un repas qui sort de votre routine. Voir [Le journal](/help/mobile-journal).
 - **Journal · Alertes · Entretien · Population**, des raccourcis vers ces zones pour cet aquarium.
 
 ## Toucher et appui long {#tapping-through}

@@ -1,15 +1,15 @@
 ---
 title: Rodzaje widżetów
-description: Każdy typ widżetu na pulpicie Cora Mobile, od wartości, wskaźnika, wykresu, stanu i gniazda po kafelki urządzeń, i kiedy używać każdego z nich.
+description: Każdy typ widżetu na panelu Cora Mobile, od wartości, wskaźnika, wykresu, stanu i gniazda po kafelki urządzeń, i kiedy używać każdego z nich.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 9
 group: Your dashboard
 ---
 
-Widżet to jeden kafelek na pulpicie, który pokazuje jedną rzecz. Ta strona omawia każdy typ i to, co możesz w nim ustawić.
+Widżet to jeden kafelek na panelu, który pokazuje jedną rzecz. Ta strona omawia każdy typ i to, co możesz w nim ustawić.
 
-Widżety dodajesz i układasz w [edytorze pulpitu](/help/mobile-dashboard-editing). Dotknij tam widżetu, żeby otworzyć jego ustawienia: **Typ** i **Parametr** dla parametru, gniazdo albo urządzenie dla pozostałych, potem **Szerokość** i **Wysokość**, a dla wykresu **Zakres czasu**.
+Widżety dodajesz i układasz w [edytorze panelu](/help/mobile-dashboard-editing). Dotknij tam widżetu, żeby otworzyć jego ustawienia: **Typ** i **Parametr** dla parametru, gniazdo albo urządzenie dla pozostałych, potem **Szerokość** i **Wysokość**, a dla wykresu **Zakres czasu**.
 
 ![Arkusz ustawień widżetu w Cora Mobile](img/mobile-widget-config.webp "Dolna połowa ustawień widżetu: parametr, szerokość, wysokość i zakres czasu, a pod nimi Usuń i Gotowe.")
 
@@ -26,22 +26,22 @@ Widżety dodajesz i układasz w [edytorze pulpitu](/help/mobile-dashboard-editin
 | **Moduł Apex** | Jeden zamontowany moduł Apex, na przykład Trident albo DŌS |
 | **Jecod** | Jedną pompę Jecod z trybem i intensywnością |
 
-Wszystko po Gnieździe to kafelki **urządzeń**. Każdy należy do konkretnego sprzętu, a nie do parametru, i pokazuje to, co zgłasza dane urządzenie. Cora Max ma też kafelek **Scena**, który dodajesz na Cora Max. Zobacz [Edytowanie pulpitu Cora Max](/help/max-dashboard-editing).
+Wszystko po Gnieździe to kafelki **urządzeń**. Każdy należy do konkretnego sprzętu, a nie do parametru, i pokazuje to, co zgłasza dane urządzenie. Cora Max ma też kafelek **Scena**, który dodajesz na Cora Max. Zobacz [Edytowanie panelu Cora Max](/help/max-dashboard-editing).
 
 
 ## Rozmiar {#sizing}
 
-**Szerokość** i **Wysokość** mogą mieć wartość **1×** albo **2×**, więc widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres nigdy nie ma szerokości jednej komórki. Na pulpicie z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. To zwykle dobry kształt dla najważniejszego parametru.
+**Szerokość** i **Wysokość** mogą mieć wartość **1×** albo **2×**, więc widżet ma jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres nigdy nie ma szerokości jednej komórki. Na panelu z trzema kolumnami wskaźnik o szerokości dwóch komórek zajmuje dwie trzecie rzędu. To zwykle dobry kształt dla najważniejszego parametru.
 
 ## Co pokazuje widżet parametru {#what-a-parameter-widget-shows}
 
 Widżety Wartość, Wskaźnik, Wykres i Stan pokazują zmierzony parametr i zawsze pokazują trzy rzeczy. Kafelki gniazd i urządzeń pokazują swój stan, bo nie stoi za nimi jeden odczyt.
 
 - **Wartość**, dużymi znakami
-- **Wiek** (`teraz`, `1g`, `2d`), czyli jak dawno źródło ostatnio potwierdziło wartość. Dla sondy to chwila, gdy jej urządzenie ostatnio się zgłosiło, więc stały odczyt pozostaje świeży. Dla wyniku testu kropelkowego albo ICP to chwila wykonania testu. Więcej w [Jak czytać pulpit](/help/mobile-dashboard#how-to-read-a-parameter-widget).
+- **Wiek** (`teraz`, `1g`, `2d`), czyli jak dawno źródło ostatnio potwierdziło wartość. Dla sondy to chwila, gdy jej urządzenie ostatnio się zgłosiło, więc stały odczyt pozostaje świeży. Dla wyniku testu kropelkowego albo ICP to chwila wykonania testu. Więcej w [Jak czytać panel](/help/mobile-dashboard#how-to-read-a-parameter-widget).
 - **Źródło**, mały znaczek, który mówi, skąd pochodzi liczba
 
-Widżet parametru nie ma własnego ustawienia zakresu ani źródła. Zakres pochodzi z progów alertów akwarium (przytrzymaj widżet na pulpicie), a źródło z [Mapowania parametrów](/help/mobile-probes). Dotknij widżetu na pulpicie, żeby zobaczyć jego pełną historię, każde źródło, które go zgłasza, i pasmo alertu.
+Widżet parametru nie ma własnego ustawienia zakresu ani źródła. Zakres pochodzi z progów alertów akwarium (przytrzymaj widżet na panelu), a źródło z [Mapowania parametrów](/help/mobile-probes). Dotknij widżetu na panelu, żeby zobaczyć jego pełną historię, każde źródło, które go zgłasza, i pasmo alertu.
 
 ## Wartość {#value}
 
@@ -82,9 +82,9 @@ Pokazuje odczyt jako zwykły tekst z kolorową kropką: w zakresie, w dryfie alb
 To przełącznik z trzema pozycjami dla gniazda Apex: **Auto**, **Wył.** i **Wł.** Wybierasz, którym gniazdem steruje.
 
 - **Auto** oddaje gniazdo temu, co nim zwykle steruje. Może to być harmonogram, reguła albo kontroler, do którego należy.
-- **Wył.** i **Wł.** to ręczne nadpisania. Obowiązują, dopóki ich nie zmienisz.
+- **Wył.** i **Wł.** to ręczne przełączenia. Obowiązują, dopóki ich nie zmienisz.
 
-:::warning Ręczne nadpisania nie wygasają
+:::warning Ręczne przełączenia nie wygasają
 Wył. oznacza wyłączone, dopóki nie ustawisz z powrotem Auto. Jeśli wyłączasz pompę powrotną na czas pracy w akwarium, po skończeniu ustaw ją z powrotem na Auto. Cora nie zrobi tego za Ciebie.
 :::
 

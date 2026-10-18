@@ -2,7 +2,7 @@
 title: Réglages de Cora Max
 description: Tous les réglages de Cora Max, du nom, de la luminosité, de l’atténuation nocturne, du haut-parleur et du mot d’activation au verrouillage enfant, à la langue, au Wi-Fi, à la nouvelle association et à la réinitialisation d’usine.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -60,7 +60,9 @@ Sous la carte se trouvent ces sections.
 | **RÉSEAU ET MISES À JOUR** | **Wi-Fi**, **Mise à jour du micrologiciel**, et **Interrogation des appareils**, qui indique à quelle fréquence ce Cora Max lit vos appareils (vous la changez dans Cora Mobile) |
 | **ÉTAT** | Une carte pour chaque aquarium affiché par cet écran, avec **État de l’interrogation**, **Dernière interrogation**, **Dernière écriture cloud** et **Enregistrement cloud**. Lecture seule |
 | **AIDE ET À PROPOS** | **Aide et assistance** (contacter l’assistance ou signaler un problème) et **À propos** (version et licences) |
-| **RÉINITIALISATION** | **Réappairer cet appareil** et **Réinitialisation d’usine**. Voir plus bas |
+| **RÉINITIALISATION** | **Réassocier cet appareil** et **Réinitialisation d’usine**. Voir plus bas |
+
+**Aide et assistance** affiche aussi un code QR. Scannez-le avec votre téléphone pour ouvrir ce guide dans votre langue.
 
 Quand l’écran est atténué, votre premier appui ne fait que le réveiller. Il n’actionne rien.
 
@@ -101,19 +103,19 @@ Le verrouillage enfant n’est pas un verrou de sécurité. Quiconque vous voit 
 
 **Réglages Cora Max → RÉINITIALISATION** propose deux options.
 
-**Réappairer cet appareil** efface l’association de cet écran et le ramène à l’écran d’association.
+**Réassocier cet appareil** efface l’association de cet écran et le ramène à l’écran d’association.
 
 **Réinitialisation d’usine** efface en plus toutes les préférences enregistrées sur cet écran. Sa confirmation vous dit ce qui est effacé et ce qui est conservé.
 
 Aucune des deux ne touche aux données d’aquarium déjà enregistrées dans Cora Cloud. Les deux retirent ce Cora Max de votre compte et lui font oublier son réseau Wi-Fi : vous l’associez donc à nouveau depuis Cora Mobile comme un appareil neuf. Si Cora Max ne peut pas joindre Cora Cloud pour se retirer, il indique *Ce Cora Max figure encore dans l’application Cora. Retirez-le également de là-bas.* Ouvrez-le dans Cora Mobile sous **Appareils** et choisissez **Retirer l’appareil**.
 
-![Les sections AIDE ET À PROPOS et RÉINITIALISATION des Réglages Cora Max](img/max-factory-reset.webp "La section RÉINITIALISATION, avec Réappairer cet appareil et Réinitialisation d’usine.")
+![Les sections AIDE ET À PROPOS et RÉINITIALISATION des Réglages Cora Max](img/max-factory-reset.webp "La section RÉINITIALISATION, avec Réassocier cet appareil et Réinitialisation d’usine.")
 
 Vous pouvez aussi réinitialiser un Cora Max depuis votre téléphone, dans Cora Mobile sous **Appareils →** votre Cora Max **→ Zone à risque**. C’est utile quand l’écran est hors de portée ou verrouillé.
 
 | Option | Où | Wi-Fi | Ce qui se passe |
 |---|---|---|---|
-| **Réappairer cet appareil** | Sur Cora Max | Oublié | Retour à l’écran d’association. Associez-le depuis Cora Mobile |
+| **Réassocier cet appareil** | Sur Cora Max | Oublié | Retour à l’écran d’association. Associez-le depuis Cora Mobile |
 | **Réinitialisation d’usine** | Sur Cora Max | Oublié | Association et tous les réglages de l’écran effacés. Associez-le depuis Cora Mobile |
 | **Réinitialiser l’écran** | Cora Mobile, **Zone à risque** | Conservé | Retour à l’écran de configuration à sa prochaine connexion. Associez-le à nouveau en Bluetooth |
 | **Retirer l’appareil** | Cora Mobile, **Zone à risque** | | Retiré de votre compte et de ses aquariums. Il pourra être associé à nouveau plus tard |

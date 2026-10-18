@@ -206,12 +206,12 @@
 <aside class="cal cal-note"><p class="cal-t">Lo que no se borra al eliminar la cuenta</p><p>Si <strong>Contribuir con datos anonimizados del acuario</strong> está activado (y lo está, salvo que lo hayas desactivado), al eliminar tu cuenta se guarda para investigación una copia anonimizada de los perfiles de tus acuarios y del historial de parámetros. No tiene ningún vínculo contigo. Si también quieres que desaparezca, desactiva el interruptor <em>antes</em> de eliminar la cuenta.</p></aside>
 <h2 id="getting-help">Ayuda y soporte</h2>
 <p><strong>Ajustes → Ayuda y soporte</strong> tiene esto.</p>
-<ul><li><strong>Contactar soporte</strong> abre un correo para nosotros. Normalmente respondemos en un día.</li><li><strong>Reportar un error / Enviar comentarios</strong> envía un informe desde Cora Mobile. Consulta <a href="/es/help/mobile-support">Informar de un problema</a>.</li><li><strong>Enviar informes de errores</strong>, descrito más arriba.</li><li><strong>Sitio web y preguntas frecuentes de Cora</strong> abre el sitio web de Cora.</li></ul>
+<ul><li><strong>Contactar soporte</strong> abre un correo para nosotros. Normalmente respondemos en un día.</li><li><strong>Reportar un error / Enviar comentarios</strong> envía un informe desde Cora Mobile. Consulta <a href="/es/help/mobile-support">Informar de un problema</a>.</li><li><strong>Enviar informes de errores</strong>, descrito más arriba.</li><li><strong>Sitio web y preguntas frecuentes de Cora</strong> abre el sitio web de Cora. Abre esta guía en tu idioma.</li></ul>
 <h2 id="acerca-de">Acerca de</h2>
 <p>Aquí ves la versión que usas, y unas cuantas filas más.</p>
 <ul><li><strong>Repetir consejos</strong> vuelve a reproducir el recorrido inicial del panel, el que se describe en <a href="/es/help/mobile-tour#the-first-run-tour">El recorrido inicial</a>. Viene bien después de una actualización, o cuando alguien nuevo empieza a usar Cora Mobile.</li><li><strong>Política de privacidad</strong> y <strong>Términos y condiciones</strong> enlazan a las páginas legales.</li><li><strong>Licencias</strong> lista el software de código abierto con el que está hecho Cora Mobile.</li></ul>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-journeys"><span>Anterior</span><b>Itinerarios guiados</b></a><a class="pn-n" href="/es/help/mobile-multi-device"><span>Siguiente</span><b>Más de un dispositivo Cora</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -602,7 +602,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

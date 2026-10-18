@@ -2,7 +2,7 @@
 title: Rozmowa z Corą
 description: Korzystaj z głosu i „Hey Cora” na Cora Max, sprawdź, co Cora może, a czego nie może zrobić głosem, jak działa udostępnianie danych AI i miesięczny limit oraz co zrobić, gdy Cora nie odpowiada.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -21,7 +21,7 @@ Powiedz **„Hey Cora”**. Cora Max w tle nasłuchuje frazy aktywującej i gdy 
 
 Albo dotknij ikony **Cora Assistant** na górnym pasku. Cora od razu zaczyna słuchać i odpowiada na głos. Nie ma kroku potwierdzenia, więc jeśli dotknięto ikony przez pomyłkę, dotknij **Anuluj**. Nic nie przepadnie.
 
-![Cora Assistant słucha na Cora Max, z przyciskiem Anuluj, nad przyciemnionym pulpitem](img/max-voice-session.webp "Cora Assistant słucha, a pod spodem jest Anuluj.")
+![Cora Assistant słucha na Cora Max, z przyciskiem Anuluj, nad przyciemnionym panelem](img/max-voice-session.webp "Cora Assistant słucha, a pod spodem jest Anuluj.")
 
 ## Ustawienia dźwięku i słowa aktywującego
 
@@ -62,15 +62,19 @@ Przy pytaniach uzupełniających nie musisz się powtarzać. Po pytaniu o akwari
 - Napisać w dzienniku: *„Zapisz podmianę dwudziestu litrów wody.”* *„Zapisz dodatkowe karmienie mysis.”* *„Zapisz pominięcie porannego karmienia.”*
 - Sterować sprzętem Red Sea: podać dawkę z głowicy ReefDose, zmienić jej dawkę dzienną, uruchomić napełnianie ReefATO+, przesunąć ReefMat albo ustawić prędkość pompy ReefRun.
 - Sterować pompami Jecod.
+- Uruchomić automatyzację lub scenę po nazwie, tak jak Cora Assistant w telefonie: *"Uruchom scenę podmiana wody."*
 
 ## Czego Cora nie może zrobić głosem na Cora Max
 
-- Uruchomić ani zatrzymać sceny. Użyj kafelka sceny albo **Ustawienia → Automatyzacje**.
 - Dozować z głowicy Neptune DŌS. Użyj strony urządzenia na Cora Max.
-- Zmienić własnych ustawień Cora Max, dodać urządzeń ani edytować pulpitu.
+- Zmienić własnych ustawień Cora Max, dodać urządzeń ani edytować panelu.
 
 Cora Assistant w telefonie potrafi niektóre z tych rzeczy. Więcej w [Pytaniach do Cory](/help/mobile-assistant#what-cora-can-change).
 
+
+## Otwieranie ekranu z odpowiedzi {#help-answers}
+
+Gdy pytasz, jak coś zrobić, Cora odpowiada na podstawie Pomocy. Jeśli odpowiedź dotyczy ekranu Cora Max, karta głosowa pokazuje jego tytuł i **Otwórz ten ekran**. Dotknij, żeby tam przejść. Pojawia się tylko wtedy, gdy jest ekran do otwarcia. Cora Max nie ma przeglądarki, więc nie ma linku do strony internetowej.
 
 ## Potwierdzenia
 

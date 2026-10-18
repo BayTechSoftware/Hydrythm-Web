@@ -24,7 +24,7 @@ Saati ve sesli okuma anahtarını **Ayarlar → Cora Max Ayarları → REEF BUDD
 
 Reef Buddy ekranı Kararlılık ve Veri puanlarını, özeti ve arkasındaki içgörüleri gösterir. Puanların ne anlama geldiği [Reef Buddy](/help/mobile-reef-buddy) sayfasında anlatılır.
 
-Bir test kaydettikten ya da bir ICP sonucu ekledikten sonra ekranda **Bu özetten sonra yeni ölçümler var.** yazısı ve bir **Özeti güncelle** düğmesi görünür. Özeti yeni sayılarla yeniden hazırlamak için ona dokunun. Günde bir kez çalışır. Sonrasında ekranda *Özeti günde bir kez güncelleyebilirsin. Sonraki güncelleme: yarın.* yazar.
+Bir test kaydettikten ya da bir ICP sonucu ekledikten sonra ekranda **Bu özetten sonra yeni ölçümler var.** yazısı ve bir **Özeti güncelle** düğmesi görünür. Özeti yeni sayılarla yeniden hazırlamak için ona dokunun. Günde bir kez çalışır. Sonrasında ekranda *Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.* yazar.
 
 ### Bir içgörüye göre hareket etme
 
@@ -58,7 +58,7 @@ Sonuçları telefonunuzdan yüklersiniz. Ayrıntılar [ICP ve sağlık raporlar�
 Bir sağlık raporunu duvardaki ekranda çalıştırıp okuyabilirsiniz. **Sağlık Raporları**'nı açın ve **Oluştur**'a dokunun. Telefonunuzun parametrelerinizden, ICP sonuçlarınızdan ve günlüğünüzden yaptığı değerlendirmenin aynısıdır ve puanı ICP puanıyla aynı şekilde çalışır.
 
 - Sağlık raporları yapay zeka veri paylaşımı gerektirir. Kapalıysa Cora Max **Veri paylaşımı gerekli** gösterir. Bunu Cora Mobile'da **Ayarlar → Cora Assistant** altında açın.
-- Her planın aylık bir sağlık raporu sayısı vardır. Bittiğinde gelecek aya kadar **Aylık limite ulaşıldı** görürsünüz. Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
+- Her planın aylık bir sağlık raporu sayısı vardır. Bittiğinde gelecek aya kadar **Aylık sınıra ulaşıldı** görürsünüz. Ayrıntılar [Planlar](/help/mobile-plans) sayfasında.
 
 ## Geçmiş grafikleri
 

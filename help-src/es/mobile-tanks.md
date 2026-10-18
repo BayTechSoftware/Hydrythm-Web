@@ -2,7 +2,7 @@
 title: Gestionar tus acuarios
 description: Añade otro acuario, pasa de un acuario a otro, cambia su orden y qué acuarios reciben Reef Buddy, y quita o restaura un acuario.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
@@ -45,7 +45,7 @@ El orden es el orden en que los recorres al deslizar en el panel.
 
 ### El orden decide qué acuarios reciben Reef Buddy {#reef-buddy-and-tank-order}
 
-Tu plan cubre un número fijo de acuarios para el resumen diario de Reef Buddy. Cora se lo da a los primeros según tu orden de **Reordenar acuarios**. Con Plus, y durante la prueba gratuita de 30 días, es solo tu primer acuario. Pro cubre 5 acuarios y Max cubre 20. Más información en [Planes y suscripciones](/help/mobile-plans).
+Tu plan cubre un número fijo de acuarios para el resumen diario de Reef Buddy. Cora se lo da a los primeros según tu orden de **Reordenar acuarios**. Con Essential, y durante la prueba gratuita de 30 días, es solo tu primer acuario. Advanced cubre 5 acuarios y Expert cubre 20. Más información en [Planes y suscripciones](/help/mobile-plans).
 
 Si un acuario no recibe resumen, súbelo al principio de la lista. Los acuarios eliminados no cuentan.
 
@@ -57,10 +57,10 @@ Si un acuario no recibe resumen, súbelo al principio de la lista. Los acuarios 
 
 Quitar solo oculta el acuario. Desaparece de tu panel y de tu lista de Ajustes, y sus lecturas, su diario y sus registros se conservan. Puedes recuperarlo cuando quieras.
 
-En un acuario eliminado se detienen: el resumen de Reef Buddy, los recordatorios de mantenimiento y su lugar en el número de acuarios con Reef Buddy de tu plan.
+Un acuario eliminado se conserva por su historial, pero nunca se muestra y se queda en silencio. No envía alertas ni recordatorios, no recibe resumen de Reef Buddy, no ocupa lugar en el número de acuarios de Reef Buddy de tu plan y sus automatizaciones se detienen.
 
-:::warning Los equipos de un acuario eliminado siguen funcionando
-Quitar un acuario no desvincula nada. Sus dispositivos siguen asignados a él y siguen informando, un Cora Max asignado a él lo sigue mostrando, y sus equipos todavía pueden enviarte alertas.
+:::note Los equipos de un acuario eliminado siguen vinculados
+Quitar un acuario no desvincula nada. Sus dispositivos siguen asignados a él, y un Cora Max asignado a él sigue asignado, pero nada de ese acuario se muestra y no te llega ninguna alerta ni recordatorio.
 
 Antes de quitar un acuario, mueve o quita sus dispositivos en la pestaña **Dispositivos**. Después abre tu Cora Max en **Dispositivos** y toca el icono **Quitar acuario** junto a ese acuario en **Acuarios asignados**.
 :::

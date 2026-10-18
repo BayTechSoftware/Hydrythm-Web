@@ -2,7 +2,7 @@
 title: Ustawienia Cora Max
 description: Wszystkie ustawienia Cora Max, od zmiany nazwy, jasności, nocnego przygaszania, głośnika i słowa aktywującego po blokadę rodzicielską, język, Wi-Fi, ponowne parowanie i ustawienia fabryczne.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -35,7 +35,7 @@ Każde akwarium ma wiersz, który otwiera jego własne ustawienia.
 - **Progi alertów** ustawiają prawidłowy zakres każdego odczytu. Więcej w [Alertach na Cora Max](/help/max-alerts#editing-thresholds).
 - **Jednostki** wybierają jednostki, w których to akwarium pokazuje zasolenie, temperaturę, alkaliczność, objętość, fosforany i azotany. Przy **Auto** każdy odczyt pokazuje się w jednostce, w której zapisało go źródło. Jeśli wybierzesz konkretną jednostkę, wszystko w tym akwarium zostanie na nią przeliczone, na każdym ekranie i gdy mówi Asystent.
 - **Główne Cora Max** to urządzenie, które odczytuje sprzęt tego akwarium. Więcej w [Urządzeniach i ich stanie](/help/max-devices).
-- **Układ panelu** to układ tego akwarium na Cora Max. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).
+- **Układ panelu** to układ tego akwarium na Cora Max. Więcej w [Edytowaniu panelu Cora Max](/help/max-dashboard-editing).
 - W **ZAPISY I RAPORTY**: **Zapisz parametry**, **Dziennik**, **Konserwacja**, **Obsada**, **Reef Buddy**, **Raporty zdrowia**, **Raporty ICP** i **Aktywność**. Więcej w [Dzienniku, obsadzie i konserwacji](/help/max-records) oraz [Reef Buddy i raportach](/help/max-intelligence).
 
 ## Ustawienia Cora Max: wszystko o tym ekranie
@@ -61,6 +61,8 @@ Pod kartą są te sekcje.
 | **STAN** | Po jednej karcie na każde akwarium, które pokazuje ten ekran, ze **Stanem odpytywania**, **Ostatnim odpytaniem**, **Ostatnim zapisem do chmury** i **Zapisem w chmurze**. Tylko do odczytu |
 | **POMOC I O APLIKACJI** | **Pomoc i wsparcie** (kontakt z pomocą albo zgłoszenie problemu) i **O aplikacji** (wersja i licencje) |
 | **RESET** | **Sparuj urządzenie ponownie** i **Ustawienia fabryczne**. Zobacz niżej |
+
+**Pomoc i wsparcie** pokazuje też kod QR. Zeskanuj go telefonem, żeby otworzyć ten przewodnik w swoim języku.
 
 Gdy ekran jest przyciemniony, pierwsze dotknięcie tylko go wybudza. Niczego nie naciska.
 

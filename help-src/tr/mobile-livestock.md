@@ -39,7 +39,7 @@ Kaydettiğinizde eklenme tarihi bugün olarak ayarlanır.
 Yapabileceklerinizi görmek için bir kayda dokunun:
 
 - **Kayıp Olarak İşaretle**: bir canlı öldüğünde. Kaydın miktarı birden fazlaysa Cora **Kaç tane kayboldu?** diye sorar, böylece grubun yalnızca bir kısmını kaydedebilirsiniz. Kaybın tarihini ayarlayın ve ağarma, RTN, saldırganlık ya da bilinmiyor gibi bir **Neden** seçin.
-- **Parçalandı**: canlıyı kestiyseniz ve koloni yaşamaya devam ediyorsa.
+- **Frag alındı**: canlıyı kestiyseniz ve koloni yaşamaya devam ediyorsa.
 - **Satıldı**: başka birine gittiyse.
 - **Taşındı**: artık başka bir akvaryumunuzdaysa.
 - Artık canlı olmayan bir kayıtta **Canlıya geri döndür** değişikliği geri alır, örneğin yanlışlıkla işaretlediyseniz.

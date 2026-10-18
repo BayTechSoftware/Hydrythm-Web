@@ -2,7 +2,7 @@
 title: ¿Cómo hago...?
 description: Una lista de tareas habituales en Cora Mobile y en Cora Max, cada una enlazada a los pasos exactos, desde crear tu cuenta hasta emparejar Cora Max o cancelar un plan.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 
@@ -46,7 +46,7 @@ Elige la tarea que quieres hacer. Cada enlace abre los pasos para hacerla. Si al
 - [Activar el modo alimentación en el teléfono](/help/mobile-dashboard#the-tank-header)
 - [Activar el modo alimentación en Cora Max](/help/max-controls#feed-mode)
 - [Pausar un cabezal DŌS](/help/mobile-device-control#dos)
-- [Darle a una bomba un programa diario](/help/mobile-schedules)
+- [Darle a una bomba un horario diario](/help/mobile-schedules)
 - [Ver qué hizo mi equipo y por qué](/help/mobile-activity)
 
 ## Lecturas y tu panel

@@ -2,7 +2,7 @@
 title: Scènes sur Cora Max
 description: Créez, lancez, modifiez et supprimez des scènes sur Cora Max, depuis Réglages → Automatisations ou une tuile de scène sur le tableau de bord.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -56,6 +56,8 @@ Si une scène refuse de se lancer ou de s’arrêter, consultez [Résolution de 
 :::note Le verrouillage enfant couvre aussi les scènes
 Tant que le [verrouillage enfant](/help/max-settings#child-lock) a verrouillé l’écran, vous ne pouvez pas lancer, arrêter ni modifier une scène depuis cet écran, comme pour toutes les autres commandes.
 :::
+
+Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un refroidisseur vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.
 
 ## Modifier ou supprimer une scène
 

@@ -2,7 +2,7 @@
 title: Controllare la tua attrezzatura
 description: Apri la pagina di un dispositivo per vederne lo stato in tempo reale e comandare prese, pompe, teste di dosaggio e tester, marca per marca.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
@@ -14,7 +14,7 @@ Usa la pagina di un dispositivo per vederne lo stato in tempo reale e cambiare q
 
 Ogni pagina dispositivo è organizzata allo stesso modo. Nome e dettagli sono in alto, poi una fila di letture in tempo reale, gli stati che il dispositivo riporta e i suoi comandi. La campanella nella barra del titolo imposta le soglie di avviso per quel dispositivo, come descritto in [Materiali di consumo](/help/mobile-consumables). Come aggiungere un dispositivo all'inizio è spiegato in [Collegare la tua attrezzatura](/help/mobile-connections).
 
-Vai alla tua attrezzatura: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Avvisi del dosatore](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
+Vai alla tua attrezzatura: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Avvisi della pompa dosometrica](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning Questi comandi agiscono sull'attrezzatura in funzione
 Non c'è anteprima e non c'è annulla. Alcuni comandi ti chiedono prima di confermare.
@@ -60,18 +60,18 @@ Puoi anche impostare un avviso per i test rimanenti e per il flacone dei rifiuti
 
 Un DŌS QD funziona esattamente come un DŌS, e tutto quello che c'è qui vale per entrambi. Quando un Cora Max legge il tuo Apex, le teste di dosaggio compaiono nella pagina del DŌS. Non compaiono mai nell'elenco delle prese.
 
-Ogni testa di dosaggio mostra cosa sta dosando, il suo programma, quanto ha dosato oggi e quanto resta nel contenitore. Mostra anche l'**autonomia**, cioè quanti giorni durerà al ritmo attuale.
+Ogni testa di dosaggio mostra cosa sta dosando, la sua programmazione, quanto ha dosato oggi e quanto resta nel contenitore. Mostra anche l'**autonomia**, cioè quanti giorni durerà al ritmo attuale.
 
 Se il DŌS smette di rispondere sull'AquaBus, la sua pagina mostra **Fuori bus** e una scheda **Richiede attenzione**. I valori sulla pagina sono allora gli ultimi riportati, non quello che sta facendo adesso. Controlla il cavo AquaBus del modulo e l'Apex.
 
 Per ogni testa puoi:
 
-- **Sospendi** e **Riprendi** il suo programma
+- **Sospendi** e **Riprendi** la sua programmazione
 - **Riempi**, per dire a Cora che il contenitore è di nuovo pieno o impostare quanto ne contiene (**Volume totale** è la dimensione del contenitore, **Volume rimanente** è quanto c'è adesso, e **Pieno** imposta l'uno uguale all'altro)
 - **Dosa ora**, per una dose misurata a mano
 
-:::note Modifica i programmi in Apex Fusion
-Cora mostra il programma e tiene traccia di quanto è stato dosato, ma non cambia il programma. Programma, velocità di dosaggio e numero di dosi si modificano nell'app Apex Fusion. Sospendere, riempire e dosare a mano funzionano qui.
+:::note Modifica le programmazioni in Apex Fusion
+Cora mostra la programmazione e tiene traccia di quanto è stato dosato, ma non cambia la programmazione. Programmazione, velocità di dosaggio e numero di dosi si modificano nell'app Apex Fusion. Sospendere, riempire e dosare a mano funzionano qui.
 :::
 
 :::note Misura una testa prima di dosare a mano
@@ -79,12 +79,12 @@ Cora non dosa a mano da una testa finché la testa non è stata misurata. **Misu
 :::
 
 :::warning Un DŌS continua a dosare quando il contenitore è vuoto
-L'unità non ha un sensore di livello e non si ferma da sola. Imposta un avviso di rifornimento per ogni testa in **Avvisi** nella pagina del DŌS, così Cora ti avvisa prima che il contenitore resti a secco. Vedi [Avvisi del dosatore](#doser-alerts).
+L'unità non ha un sensore di livello e non si ferma da sola. Imposta un avviso di rifornimento per ogni testa in **Avvisi** nella pagina del DŌS, così Cora ti avvisa prima che il contenitore resti a secco. Vedi [Avvisi della pompa dosometrica](#doser-alerts).
 :::
 
 ### A cosa serve ogni testa {#dos-head-use}
 
-Dai a ogni testa un **tipo di uso** così Cora sa cosa fa e ne parla correttamente. Le scelte sono **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Acqua di calce**, **Reattore di calcio**, **Alimento**, **Rabbocco** e **Altro**. Impostalo in **Usata per** nelle impostazioni della testa.
+Dai a ogni testa un **tipo di uso** così Cora sa cosa fa e ne parla correttamente. Le scelte sono **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Kalkwasser**, **Reattore di calcio**, **Alimento**, **Rabbocco** e **Altro**. Impostalo in **Usata per** nelle impostazioni della testa.
 
 I due tipi di uso del cambio d'acqua vanno in **coppia**. Imposta la **Testa abbinata** di una testa sulla testa che sposta l'acqua nel verso opposto, e Cora tratta le due come un'unica coppia per il cambio d'acqua.
 
@@ -109,9 +109,9 @@ Quando sei lontano dalla rete dell'unità, Cora Mobile invia i comandi Red Sea t
 
 ## ReefDose {#reefdose}
 
-![La pagina di un ReefDose 4 in Cora Mobile](img/mobile-reefdose.webp "Lo stato, le teste e il totale di oggi, Usa il dosatore per i consumi, poi ogni testa di dosaggio.")
+![La pagina di un ReefDose 4 in Cora Mobile](img/mobile-reefdose.webp "Lo stato, le teste e il totale di oggi, Usa la pompa dosometrica per i consumi, poi ogni testa di dosaggio.")
 
-Per ogni testa puoi impostare **Dose al giorno** e **Rimanente nella bottiglia**, usare **Dosa ora** e **Attiva programma**. Gli avvisi di rifornimento si impostano per testa con la campanella, come descritto in [Avvisi del dosatore](#doser-alerts).
+Per ogni testa puoi impostare **Dose al giorno** e **Rimanente nella bottiglia**, usare **Dosa ora** e **Attiva programmazione**. Gli avvisi di rifornimento si impostano per testa con la campanella, come descritto in [Avvisi della pompa dosometrica](#doser-alerts).
 
 La sezione **Dosaggio** mostra le **Prossime dosi**, quanto ha dosato oggi ogni testa (**Dosato oggi finora**) e **Dosato per testa** negli **Ultimi 7 giorni** o in **Totale**. Cora legge questi dati mentre un Cora Max o il tuo telefono è sulla rete di casa.
 
@@ -119,7 +119,7 @@ La sezione **Dosaggio** mostra le **Prossime dosi**, quanto ha dosato oggi ogni 
 
 Tocca l'icona del calendario nella pagina di un ReefDose per aprire il **Piano di dosaggio**.
 
-Un piano è un totale giornaliero, diviso in un massimo di quattro fasce orarie. Ogni fascia ha un'ora di inizio e di fine, quante dosi deve erogare e una velocità: **Silenzioso**, **Normale** o **Rapido**. Aggiungi e togli le fasce, poi salva. Cora ti mostra cosa stai per inviare e ti chiede di confermare prima di sostituire tutto il piano della testa.
+Un piano è un totale giornaliero, diviso in un massimo di quattro fasce orarie. Ogni fascia ha un'ora di inizio e di fine, quante dosi deve fare e una velocità: **Silenzioso**, **Normale** o **Rapido**. Aggiungi e togli le fasce, poi salva. Cora ti mostra cosa stai per inviare e ti chiede di confermare prima di sostituire tutto il piano della testa.
 
 L'editor legge prima il piano che c'è già sull'unità, quindi stai modificando quello vero, non un modulo vuoto.
 
@@ -159,9 +159,9 @@ Un'unità può fermarsi da sola. Una pompa ReefRun lo fa quando si riempie la co
 
 Alcuni di questi ti chiedono prima di confermare. Lontano dalla rete dell'unità passano da un Cora Max nella vasca, come descritto in [Red Sea ReefBeat](#red-sea).
 
-## Avvisi del dosatore {#doser-alerts}
+## Avvisi della pompa dosometrica {#doser-alerts}
 
-Un DŌS e un ReefDose tengono i loro avvisi nella loro pagina. La scheda **Regole** del [Centro avvisi](/help/mobile-alerts) ha una riga per dosatore che la apre, e anche il pulsante **Apri dosatore** di un avviso del dosatore ti porta qui.
+Un DŌS e un ReefDose tengono i loro avvisi nella loro pagina. La scheda **Regole** del [Centro avvisi](/help/mobile-alerts) ha una riga per pompa dosometrica che la apre, e anche il pulsante **Apri pompa dosometrica** di un avviso della pompa dosometrica ti porta qui.
 
 Nella pagina di un DŌS, tocca la scheda **Avvisi** (o la campanella nella barra del titolo). Il pannello elenca ogni testa, e per ognuna puoi impostare:
 
@@ -178,7 +178,7 @@ I valori predefiniti e gli altri materiali di consumo sono in [Materiali di cons
 
 ## Pompe Jecod / Jebao {#jecod}
 
-La pagina della pompa mostra lo schema d'onda attuale (modalità) e l'intensità, e puoi cambiarli entrambi. Il suo stato è nella riga del titolo, accanto al nome della pompa. Un selettore con **Uguale tutto il giorno** e **Programma** segna quello in corso con *· in corso*, e la pagina si apre su di esso. Creare un programma giornaliero, e copiarlo, salvarlo o condividerlo, è spiegato in [Programmare l'attrezzatura](/help/mobile-schedules).
+La pagina della pompa mostra lo schema d'onda attuale (modalità) e l'intensità, e puoi cambiarli entrambi. Il suo stato è nella riga del titolo, accanto al nome della pompa. Un selettore con **Uguale tutto il giorno** e **Programmazione** segna quello in corso con *· in corso*, e la pagina si apre su di esso. Creare una programmazione giornaliera, e copiarla, salvarla o condividerla, è spiegato in [Programmare l'attrezzatura](/help/mobile-schedules).
 
 Se la pompa fa parte di un gruppo, la pagina mostra il suo ruolo, come **Guida il gruppo**, **Segue: in sincrono** o **Segue: alternata**.
 
@@ -187,8 +187,10 @@ Se la pompa fa parte di un gruppo, la pagina mostra il suo ruolo, come **Guida i
 Avvia una pausa per l'alimentazione da **Alimentazione** nella pagina della pompa: tocca **5**, **10**, **15** o **30** min. Alcune pompe terminano la pausa da sole, e la pagina dice *La pompa termina questa fase da sola.*
 
 :::warning Tieni aperta la pagina della pompa durante una pausa per l'alimentazione
-Alcune pompe non terminano da sole un'alimentazione, e la pagina lo dice. Per queste, e per qualsiasi pompa con un programma, Cora Mobile ripristina lo schema d'onda e il programma solo finché la pagina della pompa resta aperta. Se lasci la pagina, la pompa resta ferma in modalità alimentazione, o resta fuori dal suo programma, finché non la cambi di nuovo o tocchi **Programma**.
+Alcune pompe non terminano da sole un'alimentazione, e la pagina lo dice. Per queste, e per qualsiasi pompa con una programmazione, Cora Mobile ripristina lo schema d'onda e la programmazione solo finché la pagina della pompa resta aperta. Se lasci la pagina, la pompa resta ferma in modalità alimentazione, o resta fuori dalla sua programmazione, finché non la cambi di nuovo o tocchi **Programmazione**.
 :::
+
+Se la tua casa ha un Cora Max, è lui a concludere l'alimentazione e a riportare la pompa al suo programma allo scadere del tempo, anche con Cora Mobile chiuso. L'avviso qui sopra vale quindi solo quando non c'è un Cora Max.
 
 Una pompa Bluetooth deve essere a portata del telefono per avviare un'alimentazione, e una pompa di rete deve essere sulla tua rete.
 
@@ -199,6 +201,10 @@ Una pompa Bluetooth deve essere a portata del telefono per avviare un'alimentazi
 ## AquaWiz {#aquawiz}
 
 La scheda AquaWiz mostra le tue letture di alcalinità, e il pH se la tua unità lo riporta. Mostra anche il tuo KH obiettivo, la concentrazione della dose e, per un'unità con il dosaggio configurato, la dose massima oraria e quanto integratore di alcalinità resta nel contenitore. Questi valori arrivano direttamente dalle tue impostazioni AquaWiz, quindi cambiali nell'app AquaWiz. Cora non può comandare un AquaWiz.
+
+Sotto le letture la scheda dice quando è stata misurata l'ultima (per esempio *Misurato 14:00*) e da dove viene: **Ogni ora dal tuo Cora Max** oppure **Dal cloud AquaWiz, ogni 12 ore**. Mostra anche la **variazione del pH**. Aprire la pagina chiede una lettura fresca, e **Leggi ora** la chiede di nuovo, al massimo una volta ogni 15 minuti. Se una lettura non è cambiata è normale: l'unità misura solo ogni tanto.
+
+Quando un Cora Max legge l'unità ogni ora, la scheda mostra anche pompa, sonda del pH e livello della vaschetta, e Cora ti avvisa quando la pompa segnala un guasto, la sonda del pH si è guastata o sta per finire la sua vita, oppure il livello della vaschetta resta basso o alto per oltre un'ora.
 
 Se la tua unità segue il suo contenitore, Cora ti avvisa quando l'integratore sta finendo, a 100 mL di default. Cambialo dalla sua regola nel [Centro avvisi](/help/mobile-alerts).
 

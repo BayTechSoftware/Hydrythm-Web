@@ -185,12 +185,12 @@
 <p>Pumpen, die Cora über dein Netzwerk oder über Bluetooth erreichen. Welcher Weg es ist, entscheidet, was du von unterwegs tun kannst.</p>
 <ul><li>Hinzufügen: <a href="/de/help/mobile-connections#jecod">Deine Ausrüstung verbinden</a></li><li>Auf dem Handy steuern: <a href="/de/help/mobile-device-control#jecod">Jecod-Pumpen</a>, <a href="/de/help/mobile-schedules">Tagesprogramme</a></li><li>Auf Cora Max: <a href="/de/help/max-device-control#jecod">Jecod</a></li><li>Warnungen: <a href="/de/help/mobile-alerts#stopped-reporting">meldet keine Daten mehr</a></li><li>Lösungen: <a href="/de/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent">"Diese Pumpe konnte nicht erreicht werden"</a>, <a href="/de/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">außerhalb der Bluetooth-Reichweite</a></li></ul>
 <h2 id="aquawiz">AquaWiz KH Controller</h2>
-<p>Cora liest ihn über die eigene Cloud von AquaWiz, deshalb aktualisiert er sich auch ohne Cora Max weiter.</p>
+<p>Cora liest ihn alle 12 Stunden über die eigene Cloud von AquaWiz, deshalb aktualisiert er sich auch ohne Cora Max weiter. Ein Cora Max am Becken kann einen stündlichen Messwert dazugeben.</p>
 <ul><li>Hinzufügen: <a href="/de/help/mobile-connections#aquawiz-kh-controller">Deine Ausrüstung verbinden</a></li><li>Auf dem Handy: <a href="/de/help/mobile-device-control#aquawiz">AquaWiz</a></li><li>Auf Cora Max: <a href="/de/help/max-device-control#aquawiz">AquaWiz</a></li><li>Warnungen: <a href="/de/help/mobile-alerts#stopped-reporting">meldet keine Daten mehr</a></li><li>Lösungen: <a href="/de/help/troubleshooting#a-reading-is-stale">ein Messwert ist veraltet</a>, <a href="/de/help/troubleshooting#a-device-says-the-sign-in-was-refused">Anmeldung abgelehnt</a></li></ul>
 <h2 id="anything-else">Alles andere</h2>
 <p>Für Ausrüstung, mit der Cora sich nicht verbindet, trägst du Messwerte von Hand ein. Siehe <a href="/de/help/mobile-connections#logging-by-hand">Von Hand eintragen</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/how-do-i"><span>Zurück</span><b>Wie mache ich...?</b></a><a class="pn-n" href="/de/help/faq"><span>Weiter</span><b>Häufige Fragen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

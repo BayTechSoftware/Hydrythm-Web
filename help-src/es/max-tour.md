@@ -10,7 +10,7 @@ twin: mobile-tour
 
 Esta página explica lo que ves en Cora Max. Muestra un acuario cada vez, con las lecturas en directo llenando la pantalla para que puedas leerlas desde el otro lado de la habitación.
 
-![La pantalla de inicio de Cora Max con los medidores, valores, gráficos y casillas de dispositivos de un acuario bajo la barra superior](img/max-home.webp "El panel de un acuario llena la pantalla, con la barra superior encima.")
+![La pantalla de inicio de Cora Max con los medidores, valores, gráficos y tarjetas de dispositivos de un acuario bajo la barra superior](img/max-home.webp "El panel de un acuario llena la pantalla, con la barra superior encima.")
 
 ## La barra superior {#the-top-bar}
 
@@ -61,7 +61,7 @@ El resto de la pantalla es el panel, una cuadrícula fija que mantiene visibles 
 
 Los widgets funcionan igual que en tu teléfono, pero lo bastante grandes para leerlos desde unos pasos atrás. Lo que muestra cada forma está en la [Referencia de widgets](/help/mobile-widgets). Para cambiar lo que hay en el panel, consulta [Editar el panel de Cora Max](/help/max-dashboard-editing).
 
-Cada widget con un parámetro medido muestra su **antigüedad** y su **fuente**, igual que en tu teléfono. Un número con `2d` al lado tiene dos días. Las casillas de dispositivos y controles muestran su propio estado.
+Cada widget con un parámetro medido muestra su **antigüedad** y su **fuente**, igual que en tu teléfono. Un número con `2d` al lado tiene dos días. Las tarjetas de dispositivos y controles muestran su propio estado.
 
 ### Cuando la pantalla está atenuada {#when-the-screen-is-dimmed}
 

@@ -2,7 +2,7 @@
 title: Contrôler votre équipement
 description: Ouvrez la page d’un appareil pour voir son état en direct et commander prises, pompes, têtes de dosage et testeurs, marque par marque.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
@@ -52,7 +52,7 @@ Votre Apex continue de suivre sa propre programmation. Cora ne change une prise 
 
 La page du Trident affiche l’état actuel du test et les niveaux de réactifs et d’eau usée. Vous pouvez lancer un test d’ici.
 
-Vous pouvez aussi régler une alerte pour les tests restants et pour la bouteille de déchets, pour que Cora vous prévienne avant que le réactif s’épuise ou que la bouteille se remplisse. Voir [Consommables](/help/mobile-consumables).
+Vous pouvez aussi régler une alerte pour les tests restants et pour le flacon de déchets, pour que Cora vous prévienne avant que le réactif s’épuise ou que la bouteille se remplisse. Voir [Consommables](/help/mobile-consumables).
 
 ## DŌS {#dos}
 
@@ -60,14 +60,14 @@ Vous pouvez aussi régler une alerte pour les tests restants et pour la bouteill
 
 Un DŌS QD fonctionne exactement comme un DŌS, et tout ce qui suit s’applique aux deux. Quand un Cora Max lit votre Apex, les têtes de dosage apparaissent sur la page du DŌS. Elles n’apparaissent jamais dans la liste des prises.
 
-Chaque tête de dosage affiche ce qu’elle dose, son programme, ce qu’elle a dosé aujourd’hui et ce qui reste dans le récipient. Elle affiche aussi l’**autonomie**, c’est-à-dire le nombre de jours que cela durera au rythme actuel.
+Chaque tête de dosage affiche ce qu’elle dose, son programme, ce qu’elle a dosé aujourd’hui et ce qui reste dans le réservoir. Elle affiche aussi l’**autonomie**, c’est-à-dire le nombre de jours que cela durera au rythme actuel.
 
 Si le DŌS cesse de répondre sur l’AquaBus, sa page affiche **Hors du bus** et une carte **Attention requise**. Les chiffres de la page sont alors les derniers qu’il a signalés, pas ce qu’il fait maintenant. Vérifiez le câble AquaBus du module et l’Apex.
 
 Pour chaque tête, vous pouvez :
 
 - **Pause** et **Reprendre** son programme
-- **Remplir**, pour dire à Cora que le récipient est de nouveau plein ou régler ce qu’il contient (**Volume total** est la taille du récipient, **Volume restant** est ce qu’il contient maintenant, et **Plein** règle l’un sur l’autre)
+- **Remplir**, pour dire à Cora que le réservoir est de nouveau plein ou régler ce qu’il contient (**Volume total** est la taille du réservoir, **Volume restant** est ce qu’il contient maintenant, et **Plein** règle l’un sur l’autre)
 - **Doser maintenant**, pour une dose mesurée à la main
 
 :::note Modifiez les programmes dans Apex Fusion
@@ -78,8 +78,8 @@ Cora affiche le programme et suit ce qui a été dosé, mais il ne change pas le
 Cora ne dose pas à la main avec une tête tant qu’elle n’a pas été mesurée. **Mesurer pour doser** et **Remesurer** se trouvent sur le Cora Max qui dose pour l’aquarium. Cora fait tourner la tête vingt secondes, vous mesurez ce qui est sorti, et Cora en déduit le vrai débit de la tête. Une seule mesure vaut pour tous les Cora Max et pour Cora Mobile. Mesurez chaque tête une fois, et à nouveau après avoir changé son tuyau.
 :::
 
-:::warning Un DŌS continue de doser quand son récipient est vide
-L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Réglez une alerte de réapprovisionnement pour chaque tête sous **Alertes** sur la page du DŌS, pour que Cora vous prévienne avant que le récipient soit à sec. Voir [Alertes des doseurs](#doser-alerts).
+:::warning Un DŌS continue de doser quand son réservoir est vide
+L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Réglez une alerte de réapprovisionnement pour chaque tête sous **Alertes** sur la page du DŌS, pour que Cora vous prévienne avant que le réservoir soit à sec. Voir [Alertes des doseurs](#doser-alerts).
 :::
 
 ### À quoi sert chaque tête {#dos-head-use}
@@ -88,7 +88,7 @@ Donnez à chaque tête un **type d’usage** pour que Cora sache ce qu’elle fa
 
 Les deux types d’usage de changement d’eau vont par **paires**. Réglez la **Tête associée** d’une tête sur la tête qui déplace l’eau dans l’autre sens, et Cora traite les deux comme une seule paire de changement d’eau.
 
-Un récipient peut faire jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L, donc au-delà, Cora suit lui-même le récipient d’après ce que dose la tête. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l'Apex remis à 150 L*.
+Un réservoir peut faire jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L, donc au-delà, Cora suit lui-même le réservoir d’après ce que dose la tête. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l'Apex remis à 150 L*.
 
 Chaque tête a aussi une limite de **Dosage manuel maximal**, pour qu’une faute de frappe ne puisse pas transformer une dose manuelle en quelque chose de bien plus gros que prévu. Les grosses doses à la main ne deviennent disponibles qu’après que le débit de la tête a été mesuré par un vrai test à l’aquarium, et après que vous avez activé **Doses importantes** dans les réglages de la tête. C’est désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
 
@@ -98,7 +98,7 @@ Chaque appareil Red Sea a une page adaptée à ce qu’il fait :
 
 | Appareil | La page affiche | Vous pouvez |
 |---|---|---|
-| [ReefDose](#reefdose) | Chaque tête, son récipient et ce qu’elle a dosé | Doser, changer la dose quotidienne, modifier le **Programme de dosage** |
+| [ReefDose](#reefdose) | Chaque tête, son réservoir et ce qu’elle a dosé | Doser, changer la dose quotidienne, modifier le **Programme de dosage** |
 | [ReefRun](#reefrun) | La vitesse et l’état des pompes de remontée et d’écumeur | Changer la vitesse, allumer ou éteindre une pompe |
 | [ReefMat](#reefmat) | Le rouleau restant, en jours et en mètres | Faire avancer le tapis, régler les **Paramètres ReefMat**, enregistrer un nouveau rouleau |
 | [ReefATO+](#reefato) | Le niveau du réservoir et l’activité de l’osmolateur | Régler une alerte de réservoir |
@@ -145,11 +145,11 @@ La page du ReefATO+ affiche le niveau du réservoir et les appoints récents. R�
 
 ## Quand un appareil Red Sea s’arrête de lui-même {#red-sea-stops}
 
-Un appareil peut s’arrêter de lui-même. Une pompe ReefRun le fait par exemple quand la coupelle de l’écumeur est pleine. Dans ce cas, la page dit pourquoi et propose la solution :
+Un appareil peut s’arrêter de lui-même. Une pompe ReefRun le fait par exemple quand le godet de l’écumeur est pleine. Dans ce cas, la page dit pourquoi et propose la solution :
 
 | Appareil | La page indique | Touchez |
 |---|---|---|
-| ReefRun | Quelle pompe s’est arrêtée et pourquoi, par exemple *Coupelle pleine. Videz-la, puis reprenez.* | **Reprendre** |
+| ReefRun | Quelle pompe s’est arrêtée et pourquoi, par exemple *Godet plein. Videz-le, puis reprenez.* | **Reprendre** |
 | ReefRun ou ReefMat | **Arrêt d’urgence** | **Effacer l’urgence** |
 | ReefMat | **Tapis coincé**, **Erreur d’installation** ou **Erreur de configuration** | **Reprendre** |
 | ReefMat | *Chargez un nouveau rouleau, puis confirmez-le dans l’application Red Sea.* | **J’ai déjà chargé un nouveau rouleau** |
@@ -166,8 +166,8 @@ Un DŌS et un ReefDose gardent leurs alertes sur leur propre page. L’onglet **
 Sur la page d’un DŌS, touchez la carte **Alertes** (ou la cloche de la barre de titre). La feuille liste chaque tête, et pour chacune vous pouvez régler :
 
 - *[tête] · jours restants*, par exemple *Iode · jours restants* : vous recevez une alerte en dessous de ce nombre de jours de réserve
-- *[tête] · restant* : vous recevez une alerte en dessous de cette quantité restante dans le récipient
-- **Espace restant dans le récipient de déchets**, pour une tête qui retire l’eau usée : vous recevez une alerte quand le récipient de déchets se remplit
+- *[tête] · restant* : vous recevez une alerte en dessous de cette quantité restante dans le réservoir
+- **Espace restant dans le réservoir d’eau usée**, pour une tête qui retire l’eau usée : vous recevez une alerte quand le réservoir d’eau usée se remplit
 - **Alertes de dose manquée** : un interrupteur qui vous prévient quand la tête manque une dose programmée
 
 Chaque seuil a son propre interrupteur, pour que vous puissiez en désactiver un en gardant sa valeur. Touchez **Enregistrer** quand vous avez fini.
@@ -190,6 +190,8 @@ Lancez une pause nourrissage depuis **Nourrissage** sur la page de la pompe : to
 Certaines pompes ne terminent pas un nourrissage d’elles-mêmes, et la page l’indique. Pour celles-là, et pour toute pompe sur un programme, Cora Mobile ne rétablit le type de vague et le programme que tant que la page de la pompe reste ouverte. Si vous quittez la page, la pompe reste arrêtée en mode nourrissage, ou reste hors de son programme, jusqu’à ce que vous la changiez à nouveau ou que vous touchiez **Programme**.
 :::
 
+Si votre foyer a un Cora Max, il met fin au nourrissage et remet la pompe sur son programme à la fin du temps, même si Cora Mobile est fermé. L’avertissement ci-dessus ne compte alors que s’il n’y a pas de Cora Max.
+
 Une pompe Bluetooth doit être à portée de votre téléphone pour lancer un nourrissage, et une pompe réseau doit être sur votre réseau.
 
 ### Vérifications de pannes {#jecod-fault-checks}
@@ -198,9 +200,13 @@ Une pompe Bluetooth doit être à portée de votre téléphone pour lancer un no
 
 ## AquaWiz {#aquawiz}
 
-La carte AquaWiz affiche vos mesures d’alcalinité, et le pH si votre appareil le signale. Elle affiche aussi votre KH cible, la concentration de votre dose et, pour un appareil avec le dosage configuré, sa dose maximale par heure et la quantité de produit d’alcalinité restant dans le récipient. Ces valeurs viennent directement de vos réglages AquaWiz : changez-les donc dans l’application AquaWiz. Cora ne peut pas commander un AquaWiz.
+La carte AquaWiz affiche vos mesures d’alcalinité, et le pH si votre appareil le signale. Elle affiche aussi votre KH cible, la concentration de votre dose et, pour un appareil avec le dosage configuré, sa dose maximale par heure et la quantité de produit d’alcalinité restant dans le réservoir. Ces valeurs viennent directement de vos réglages AquaWiz : changez-les donc dans l’application AquaWiz. Cora ne peut pas commander un AquaWiz.
 
-Si votre appareil suit son récipient, Cora vous prévient quand le produit s’épuise, à 100 mL par défaut. Changez-le depuis sa règle dans le [Centre d’alertes](/help/mobile-alerts).
+Sous les mesures, la carte indique quand la dernière a été prise (par exemple *Mesuré 14:00*) et d’où elle vient : **Toutes les heures depuis votre Cora Max** ou **Depuis le cloud AquaWiz, toutes les 12 heures**. Elle affiche aussi la **variation du pH**. L’ouverture de la page demande une mesure fraîche, et **Lire maintenant** la redemande, au plus une fois toutes les 15 minutes. Si une mesure n’a pas changé, c’est normal : l’appareil ne mesure que de temps en temps.
+
+Quand un Cora Max lit l’appareil toutes les heures, la carte affiche aussi sa pompe, sa sonde de pH et le niveau du bac d’eau, et Cora vous alerte quand la pompe signale un défaut, quand la sonde de pH est en panne ou presque en fin de vie, ou quand le niveau du bac d’eau reste bas ou haut plus d’une heure.
+
+Si votre appareil suit son réservoir, Cora vous prévient quand le produit s’épuise, à 100 mL par défaut. Changez-le depuis sa règle dans le [Centre d’alertes](/help/mobile-alerts).
 
 
 ## Ce qui se passe après un changement {#what-happens-after-you-change-something}

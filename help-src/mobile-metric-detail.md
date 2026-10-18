@@ -2,7 +2,7 @@
 title: Looking into a parameter
 description: Tap a widget to see a parameter's full history, compare sources and parameters, exclude a bad reading and record probe care.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
@@ -21,6 +21,8 @@ There are two ways in. Tap a widget on the dashboard, or tap **Parameter History
 - Icons in the top bar: **Readings** opens the raw readings list, and **Record probe care** logs a calibration or cleaning. For alkalinity, calcium and magnesium there's also the dose calculator, which uses the tank volume from your [tank profile](/help/mobile-tank-profile) and the strengths from [Dosing](/help/mobile-dosing).
 
 The screen always opens on 24h and **All sources**. It doesn't remember what you picked last time.
+
+Specific gravity always shows three or four decimals, so 1.022 doesn't turn into 1.02. That's the same in Cora Mobile and Cora Max, on the dashboard, in the chart and in the readings list.
 
 ## Reading the chart {#reading-the-chart}
 

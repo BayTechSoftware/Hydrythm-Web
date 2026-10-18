@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi
 description: Sistema una lettura vecchia, un dispositivo andato offline, un comando che non è arrivato, un Cora Max che non si associa o un avviso che non si chiude.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -301,13 +301,13 @@ Di più in [Reef Buddy](/help/mobile-reef-buddy).
 
 ### Continuano ad arrivare avvisi da una vasca che ho rimosso {#alerts-from-a-removed-tank}
 
-Rimuovere una vasca la nasconde soltanto. I suoi dispositivi restano collegati, e un Cora Max può ancora leggerla, quindi la sua attrezzatura può continuare a inviare dati e avvisi.
+Una vasca rimossa viene conservata per il suo storico, ma non invia avvisi né promemoria e le sue automazioni si fermano. Se ne ricevi ancora uno:
 
-1. Ripristinala da **Impostazioni → Vasche rimosse** così puoi vederla di nuovo.
-2. Rimuovi o sposta i suoi dispositivi nella scheda **Dispositivi**.
-3. Toglila dal tuo Cora Max: sul telefono, apri **Dispositivi**, poi il tuo Cora Max, e in **Vasche** tocca **Rimuovi vasca** accanto a lei.
+1. Apri **Impostazioni → Vasche rimosse**. Se la vasca non è nell'elenco, non è stata rimossa.
+2. Aggiorna Cora Mobile e il tuo Cora Max all'ultima versione.
+3. Gli avvisi continuano? Scrivi all'assistenza con il testo dell'avviso e l'ora in cui l'hai ricevuto. Vedi [Segnalare un problema](/help/mobile-support).
 
-Poi rimuovi di nuovo la vasca. Di più in [Gestire le tue vasche](/help/mobile-tanks).
+Di più in [Gestire le tue vasche](/help/mobile-tanks).
 
 
 ## Cora Assistant e voce {#cora-assistant-and-voice}

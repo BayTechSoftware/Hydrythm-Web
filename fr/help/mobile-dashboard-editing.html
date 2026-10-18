@@ -184,6 +184,7 @@
 <ol><li>Touchez <strong>Ajouter une tuile</strong> sous la grille, ou touchez une case vide.</li><li>Dans <strong>Ajouter une tuile</strong>, choisissez son genre. <strong>Paramètre</strong> couvre une valeur, une jauge, un graphique ou un état pour un paramètre. <strong>Prise</strong> commande une prise Apex. Les autres lignes concernent l’équipement, comme <strong>ReefBeat</strong>, <strong>Trident</strong>, <strong>DŌS</strong> ou <strong>Jecod™</strong>. La plupart n’apparaissent que si l’aquarium a cet équipement.</li><li>Choisissez le paramètre, la prise ou l’appareil.</li><li>Pour un paramètre, choisissez le type. La <a href="/fr/help/mobile-widgets">Référence des widgets</a> décrit chacun d’eux.</li></ol>
 <p>Vous ne voyez que les paramètres de l’aquarium. Un paramètre sans source apparaît dès que vous connectez un équipement qui le mesure, ou que vous notez une mesure à la main.</p>
 <p>La grille contient jusqu’à 20 lignes. Quand elle est pleine, Cora indique <strong>Le tableau de bord est plein : retirez une tuile d’abord.</strong> Un graphique a besoin de deux cases libres côte à côte.</p>
+<p>Quand vous retirez un appareil d’un aquarium, ses tuiles quittent le tableau de bord toutes seules, sur votre téléphone et sur chaque Cora Max de cet aquarium. Une tuile dont l’appareil a disparu affiche <strong>Cet appareil n'est plus dans cet aquarium</strong> et n’ouvre rien.</p>
 <h2 id="arranging-widgets">Disposer les widgets</h2>
 <ul><li>Pour déplacer un widget, gardez le doigt dessus, puis faites-le glisser. Les autres se réorganisent autour.</li><li>Pour retirer un widget, touchez la croix rouge dans son coin, ou touchez le widget puis <strong>Retirer</strong>.</li><li>Pour changer les réglages d’un widget, touchez-le.</li></ul>
 <h2 id="widget-settings">Réglages du widget</h2>
@@ -200,7 +201,7 @@
 <ul><li><strong>Mes tableaux de bord</strong> garde jusqu’à 30 designs enregistrés sur votre compte. N’importe quel Cora Max du compte peut en charger un. Les tuiles que la cible ne peut pas remplir sont listées sous <strong>Laissées de côté :</strong> avant le chargement.</li><li><strong>Modèles</strong> ouvre <strong>Modèles de tableau de bord</strong> : <strong>Vue d'ensemble</strong>, <strong>Équipement</strong> et <strong>Paramètres</strong>. C’est ouvert avec tous les forfaits et n’utilise pas l’IA.</li><li><strong>Concevoir avec l'IA</strong>, avec un forfait payant ou pendant l’essai, propose une disposition complète à partir de ce que l’aquarium remonte et a associé. Vous pouvez créer 5 designs par aquarium et par jour.</li></ul>
 <p>Le fonctionnement de chacun est expliqué dans <a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-metric-detail"><span>Précédent</span><b>Examiner un paramètre</b></a><a class="pn-n" href="/fr/help/mobile-widgets"><span>Suivant</span><b>Référence des widgets</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -591,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

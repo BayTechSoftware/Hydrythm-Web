@@ -2,7 +2,7 @@
 title: Cora Max ayarları
 description: Yeniden adlandırma, parlaklık, gece karartması, hoparlör ve uyandırma sözcüğünden çocuk kilidine, dile, Wi-Fi'a, yeniden eşleştirmeye ve fabrika ayarlarına sıfırlamaya kadar her Cora Max ayarı.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -61,6 +61,8 @@ Kartın altında şu bölümler vardır.
 | **DURUM** | Bu ekranın gösterdiği her akvaryum için **Yoklama durumu**, **Son yoklama**, **Son bulut yazımı** ve **Bulut kaydı** içeren bir kart. Yalnızca görüntüleme |
 | **YARDIM VE HAKKINDA** | **Yardım ve Destek** (destekle iletişim ya da sorun bildirme) ve **Hakkında** (sürüm ve lisanslar) |
 | **SIFIRLA** | **Bu cihazı yeniden eşleştir** ve **Fabrika ayarlarına sıfırla**. Aşağıya bakın |
+
+**Yardım ve Destek** ayrıca bir QR kodu gösterir. Bu kılavuzu kendi dilinizde açmak için telefonunuzla tarayın.
 
 Ekran karardığında ilk dokunuşunuz yalnızca onu uyandırır. Hiçbir şeye basmaz.
 

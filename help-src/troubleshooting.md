@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Fix a stale reading, a device that went offline, a command that didn't go through, a Cora Max that won't pair, or an alert that won't clear.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -301,13 +301,13 @@ More in [Reef Buddy](/help/mobile-reef-buddy).
 
 ### Alerts keep coming from a tank I removed {#alerts-from-a-removed-tank}
 
-Removing a tank only hides it. Its devices stay linked to it, and a Cora Max can still be reading it, so its equipment can keep reporting and alerting.
+A removed tank is kept for its history, but it sends no alerts or reminders, and its automations stop. If you still get one:
 
-1. Restore it from **Settings → Removed tanks** so you can see it again.
-2. Remove or move its devices on the **Devices** tab.
-3. Take it off your Cora Max: on your phone, open **Devices**, then your Cora Max, and under **Tanks** tap **Remove tank** next to it.
+1. Open **Settings → Removed tanks**. If the tank isn't listed, it hasn't been removed.
+2. Update Cora Mobile and your Cora Max to the latest version.
+3. Still getting alerts? Write to support with the alert text and the time you got it. See [Reporting a problem](/help/mobile-support).
 
-Then remove the tank again. More in [Managing your tanks](/help/mobile-tanks).
+More in [Managing your tanks](/help/mobile-tanks).
 
 
 ## Cora Assistant and voice {#cora-assistant-and-voice}

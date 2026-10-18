@@ -2,7 +2,7 @@
 title: Aktivität auf Cora Max
 description: Prüf auf Cora Max, ob ein Befehl deine Ausrüstung wirklich erreicht hat, wer oder was ihn ausgelöst hat und warum einer abgelehnt wurde.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 11
 group: Records
 twin: mobile-activity

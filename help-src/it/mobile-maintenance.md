@@ -2,7 +2,7 @@
 title: Manutenzione
 description: Aggiungi lavori ricorrenti come pulire lo schiumatoio o cambiare le calze filtranti, ricevi un promemoria quando scadono e segnali come fatti o rinviali.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 28
 group: Records
 twin: max-records
@@ -80,13 +80,19 @@ I promemoria rientrano in **Promemoria di manutenzione** in [Impostazioni → No
 
 Scorri l'attività verso destra, oppure aprila e tocca **Completa**. Se hai scorso per errore, tocca **Annulla** nel messaggio che compare.
 
-Cora salva l'ora in cui hai finito e calcola la prossima scadenza da quel momento. Quindi se fai un lavoro con tre giorni di ritardo, anche il prossimo slitta di tre giorni.
+Cora salva l'ora in cui hai finito e calcola la prossima scadenza da quel momento. Quindi se fai un lavoro con tre giorni di ritardo, anche il prossimo slitta di tre giorni. Se l'attività è in ritardo, Cora chiede prima **Quando l'hai fatto?** Scegli **Proprio ora**, oppure **Scegli data e ora** se l'hai fatto prima (vedi sotto).
 
 Il pannello dell'attività mostra la sua **Cronologia completamenti**, compreso quanto in ritardo è stata fatta ogni volta.
 
 :::note Completare un'attività scrive anche una voce nel diario
 Cora aggiunge per te una breve voce nel tuo [diario](/help/mobile-journal), indicando se eri in ritardo. Aggiungi una voce tua quando c'è altro da dire, per esempio se la pompa era piena di sabbia o le calze erano nere dopo un giorno.
 :::
+
+## Segnare un'attività come fatta prima {#done-earlier}
+
+Hai fatto il lavoro ieri e ti sei scordato di spuntarlo? Apri l'attività, tocca **Fatto prima…** e scegli data e ora. Cora data il completamento, la voce del diario e la prossima scadenza da quell'ora: la prossima scadenza è quindi l'ora scelta più l'intervallo.
+
+Puoi tornare indietro fino a un anno, ma non prima dell'ultima volta in cui hai completato l'attività. Se scegli un'ora che non è ancora arrivata, o una precedente all'ultimo completamento, Cora te lo dice e non salva nulla.
 
 ## Modificare un'attività {#editing}
 
@@ -97,7 +103,7 @@ Tocca un'attività per aprirla. Puoi cambiare **Nome attività**, **Intervallo (
 Non riesci a fare un lavoro adesso? Aprilo, tocca **Rinvia** e scegli **1 giorno**, **3 giorni**, **1 settimana**, **2 settimane** o **1 mese**. Resta nell'elenco come **Rinviata** con la nuova data, e non ricevi promemoria fino ad allora.
 
 :::warning Segna un'attività come fatta solo quando l'hai fatta
-La prossima scadenza viene calcolata dal giorno in cui la segni come fatta. Se segni come fatta un'attività ancora aperta, tutte le scadenze successive si spostano. Rinviala invece.
+La prossima scadenza viene calcolata dall'ora in cui hai fatto l'attività. Se segni come fatta un'attività ancora aperta, tutte le scadenze successive si spostano. Se l'hai fatta prima, usa **Fatto prima…** e scegli l'ora reale. Se non l'hai fatta, rinviala invece.
 :::
 
 Non c'è modo di mettere in pausa un'attività. Per un lavoro che in questa stagione non serve, rinvialo di **1 mese**, oppure eliminalo e aggiungilo di nuovo più avanti.

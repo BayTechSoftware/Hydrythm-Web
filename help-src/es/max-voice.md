@@ -2,7 +2,7 @@
 title: Hablar con Cora
 description: Usa la voz y "Hey Cora" en Cora Max, qué puede y qué no puede hacer por voz, el uso compartido de datos con la IA y tu cuota mensual, y qué hacer cuando Cora no responde.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -62,15 +62,19 @@ No hace falta que te repitas en las preguntas siguientes. Después de una pregun
 - Escribir en el diario: *"Anota que hice un cambio de agua de veinte litros."* *"Anota que di misis de más."* *"Anota que me salté la comida de la mañana."*
 - Controlar equipos Red Sea: dosificar con un cabezal ReefDose, cambiar su dosis diaria, empezar un rellenado del ReefATO+, avanzar un ReefMat o fijar la velocidad de una bomba ReefRun.
 - Controlar bombas Jecod.
+- Ejecutar una automatización o una escena por su nombre, como Cora Assistant en tu teléfono: *"Ejecuta la escena de cambio de agua."*
 
 ## Qué no puede hacer Cora por voz en Cora Max
 
-- Ejecutar o detener una escena. Usa la casilla de la escena o **Ajustes → Automatizaciones**.
 - Dosificar con un cabezal Neptune DŌS. Usa la página del dispositivo en Cora Max.
 - Cambiar los ajustes propios de Cora Max, añadir dispositivos o editar el panel.
 
 Cora Assistant en tu teléfono puede hacer algunas de estas cosas. Más información en [Preguntar a Cora](/help/mobile-assistant#what-cora-can-change).
 
+
+## Abrir la pantalla desde una respuesta {#help-answers}
+
+Cuando preguntas cómo hacer algo, Cora responde desde la Ayuda. Si la respuesta trata de una pantalla de Cora Max, la tarjeta de voz muestra su título y **Abrir esta pantalla**. Tócalo para ir allí. Solo aparece si hay una pantalla que abrir. Cora Max no tiene navegador, así que no hay enlace a la página web.
 
 ## Confirmaciones
 

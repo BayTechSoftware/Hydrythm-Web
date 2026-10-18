@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Il tuo briefing quotidiano di Reef Buddy, cosa contiene, quando arriva, come leggere i punteggi e perché un briefing potrebbe non arrivare.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -52,7 +52,7 @@ Le letture di sonde e controller non fanno comparire questa proposta, perché ar
 
 Sotto un'osservazione, tocca **Perché vedo questo?** Il pannello **Perché lo vedi** elenca le **Misurazioni usate**, l'**Obiettivo di confronto** (il tuo obiettivo, o un intervallo di riferimento), tutto quello **Dal tuo diario** di cui ha tenuto conto e il periodo in giorni che ha guardato. Se il ragionamento non si adatta alla tua vasca, rispondi all'osservazione come spiegato in [Correggere un'osservazione](#correcting-an-insight).
 
-I briefing usano anche altro oltre ai valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo e i totali delle tue teste DŌS.
+I briefing usano anche altro oltre ai valori dei parametri. Possono usare le programmazioni delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo e i totali delle tue teste DŌS.
 
 
 ## Quando arriva
@@ -85,7 +85,7 @@ Se non fai nessun test per una settimana, il punteggio Dati scende e il punteggi
 
 Reef Buddy fa parte dei piani a pagamento. È compreso anche nella prova di 30 giorni che parte quando crei il tuo account.
 
-Ogni piano copre un certo numero di vasche: 1 nella prova e con Plus, 5 con Pro e 20 con Max. I briefing vanno alle prime vasche nell'ordine impostato in **Impostazioni → Riordina vasche**. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.
+Ogni piano copre un certo numero di vasche: 1 nella prova e con Essential, 5 con Advanced e 20 con Expert. I briefing vanno alle prime vasche nell'ordine impostato in **Impostazioni → Riordina vasche**. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.
 
 Dopo la prova, un account gratuito vede una scheda Reef Buddy bloccata con **Vedi i piani** al posto del briefing, e non riceve la notifica del briefing. Di più in [Piani e abbonamenti](/help/mobile-plans).
 

@@ -176,7 +176,7 @@
 <h2 id="quando-compare-un-avviso">Quando compare un avviso</h2>
 <p>Quando una lettura esce dall'intervallo, un dispositivo segnala un guasto, una dose viene saltata o una scorta sta finendo, Cora Max mostra l'avviso al centro dello schermo. Sotto ci sono tre pulsanti.</p>
 <ol><li><strong>Rispondi a voce</strong> avvia una conversazione con Cora su questo avviso, così non devi toccare nient'altro. Di più in <a href="/it/help/max-voice">Parlare con Cora</a>.</li><li><strong>Rinvia</strong> silenzia l'avviso su questo Cora Max per un po'. Il pulsante mostra per quanto, per esempio <strong>Rinvia 1 h</strong>. È l'attesa impostata per questo avviso nelle impostazioni degli avvisi di Cora Mobile, e può arrivare a 1 settimana (comodo per qualcosa come un livello basso di reagente che non cambierà per giorni).</li><li><strong>Ignora</strong> chiude subito l'avviso. Resta in silenzio su questo schermo finché il problema non sparisce. Se torna più avanti, riceverai un nuovo avviso.</li></ol>
-<p>Quando l'avviso riguarda un dosatore, come una testa DŌS o ReefDose quasi vuota o una dose mancata, la scheda ha anche un pulsante <strong>Apri DŌS</strong> o <strong>Apri ReefDose</strong>. Ti porta alla pagina di quel dosatore, dove si impostano i suoi avvisi.</p>
+<p>Quando l'avviso riguarda una pompa dosometrica, come una testa DŌS o ReefDose quasi vuota o una dose mancata, la scheda ha anche un pulsante <strong>Apri DŌS</strong> o <strong>Apri ReefDose</strong>. Ti porta alla pagina di quella pompa dosometrica, dove si impostano i suoi avvisi.</p>
 <p>Se Rinvia o Ignora mostra un errore, riprova una volta. Se continua a non funzionare, vedi <a href="/it/help/troubleshooting#an-alert-is-not-clearing">Un avviso non si chiude</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Rinvia vale solo per questo Cora Max</p><p>Mentre un avviso è rinviato o ignorato, questo Cora Max smette di mostrarlo, suonarlo e dirlo a voce, e l'avviso esce dalla barra in alto. Il telefono riceve comunque le sue notifiche, gli altri schermi Cora Max mostrano comunque l'avviso, resta in <strong>Cronologia notifiche</strong> e le tue impostazioni degli avvisi non cambiano.</p></aside>
 <h2 id="gli-avvisi-nella-barra-in-alto">Gli avvisi nella barra in alto</h2>
@@ -193,14 +193,14 @@
 <p>Il pannello della soglia ha lo stesso interruttore in alto, accanto ad <strong>Avviso attivo</strong> o <strong>Avviso disattivato</strong>. Se salvi un nuovo intervallo su un avviso spento, Cora chiede <strong>Attivare questo avviso?</strong> Tocca <strong>Attiva</strong> per accenderlo con i nuovi valori, oppure <strong>Lascia disattivato</strong> per salvarli e lasciarlo spento.</p>
 <h2 id="doser-alerts">Avvisi di dispositivi e scorte</h2>
 <p>L'attrezzatura con qualcosa che finisce ha un pulsante <strong>Impostazioni avvisi</strong> nella sua pagina su Cora Max. Sono il Trident (reagenti e rifiuti), le teste DŌS, Red Sea™ ReefDose, ReefATO+ e ReefMat. Scegli il livello di cui vuoi essere avvisato, e ricevi una notifica quando viene superato. Su una testa DŌS, <strong>Avvisi di dose mancata</strong> ti dice anche quando la testa salta le sue dosi programmate.</p>
-<p>Cosa significa ogni avviso del dosatore è spiegato in <a href="/it/help/mobile-device-control#doser-alerts">Avvisi del dosatore</a>.</p>
+<p>Cosa significa ogni avviso della pompa dosometrica è spiegato in <a href="/it/help/mobile-device-control#doser-alerts">Avvisi della pompa dosometrica</a>.</p>
 <h2 id="suono-degli-avvisi-avvisi-parlati-e-risveglio-dello-schermo">Suono degli avvisi, avvisi parlati e risveglio dello schermo</h2>
 <p>Queste impostazioni valgono solo per questo schermo. Le trovi in <strong>Impostazioni → Impostazioni Cora Max</strong>.</p>
 <ul><li><strong>Suono degli avvisi</strong> (sotto <strong>AUDIO E VOCE</strong>) suona un tono quando arriva un nuovo avviso. Il suo cursore imposta il volume.</li><li><strong>Avvisi parlati</strong> (sotto <strong>AUDIO E VOCE</strong>) fa dire a Cora l'avviso ad alta voce.</li><li><strong>Attiva schermo con allarme</strong> (sotto <strong>SCHERMO</strong>) riaccende uno schermo attenuato quando arriva un avviso. Gli avvisi critici lo riaccendono sempre.</li></ul>
 <p>Per far sì che un Cora Max non mostri proprio gli avvisi sul suo schermo, apri Cora Mobile, vai in <strong>Dispositivi →</strong> il tuo Cora Max e spegni <strong>Avvisi</strong>. La cronologia delle notifiche e le notifiche del telefono non cambiano.</p>
 <aside class="cal cal-note"><p class="cal-t">Un solo avviso per tutto l'account</p><p>Ogni dispositivo non genera una sua copia dell'avviso. Cora Max, il telefono e qualsiasi altro schermo mostrano lo stesso avviso, che si chiude su tutti quando la lettura torna nell'intervallo.</p></aside>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-devices"><span>Precedente</span><b>Dispositivi e salute dei dispositivi</b></a><a class="pn-n" href="/it/help/max-automation"><span>Successivo</span><b>Scene su Cora Max</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.215 e Cora Mobile 0.5.124. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ed574cad08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

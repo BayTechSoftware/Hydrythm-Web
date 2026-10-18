@@ -203,7 +203,7 @@
 <h2 id="signing-out">Signing out</h2>
 <p><strong>Settings → your account → Sign Out</strong> signs this device out. Nothing is deleted, and when you sign back in your tanks, readings and devices are all there. <a href="/help/mobile-data-export">Your data</a> explains how signing out differs from deleting your account.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-tanks"><span>Previous</span><b>Managing your tanks</b></a><a class="pn-n" href="/help/mobile-dashboard"><span>Next</span><b>Reading your dashboard</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -594,7 +594,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

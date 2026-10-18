@@ -2,7 +2,7 @@
 title: Entretien
 description: Ajoutez des tâches régulières comme le nettoyage de l’écumeur ou le changement des chaussettes filtrantes, recevez un rappel à l’échéance, et marquez-les comme faites ou reportez-les.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 28
 group: Records
 twin: max-records
@@ -80,13 +80,19 @@ Les rappels relèvent de **Rappels d’entretien** dans [Réglages → Notificat
 
 Balayez la tâche vers la droite, ou ouvrez-la et touchez **Terminer**. Si vous avez balayé par erreur, touchez **Annuler** dans le message qui apparaît.
 
-Cora enregistre l’heure à laquelle vous avez fini et calcule la prochaine échéance à partir de là. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours aussi.
+Cora enregistre l’heure à laquelle vous avez fini et calcule la prochaine échéance à partir de là. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours aussi. Si la tâche est en retard, Cora demande d’abord **Quand l’avez-vous fait ?** Choisissez **À l’instant**, ou **Choisir la date et l’heure** si vous l’avez fait plus tôt (voir plus bas).
 
 La fiche de la tâche affiche son **Historique des validations**, avec le retard de chacune.
 
 :::note Terminer une tâche écrit aussi une entrée de journal
 Cora ajoute pour vous une courte entrée à votre [journal](/help/mobile-journal), en précisant si la tâche était en retard. Ajoutez votre propre entrée quand il y a plus à dire, par exemple quand la pompe était pleine de sable ou que les chaussettes étaient noires au bout d’un jour.
 :::
+
+## Marquer une tâche comme faite plus tôt {#done-earlier}
+
+Vous avez fait le travail hier et oublié de le cocher ? Ouvrez la tâche, touchez **Fait plus tôt…**, puis choisissez la date et l’heure. Cora date la validation, l’entrée de journal et la prochaine échéance à partir de cette heure : la prochaine échéance est donc l’heure choisie plus l’intervalle.
+
+Vous pouvez remonter jusqu’à un an, mais pas avant la dernière validation de la tâche. Si vous choisissez une heure qui n’est pas encore passée, ou antérieure à la dernière validation, Cora le dit et n’enregistre rien.
 
 ## Modifier une tâche {#editing}
 
@@ -97,7 +103,7 @@ Touchez une tâche pour l’ouvrir. Vous pouvez changer le **Nom de la tâche**,
 Vous ne pouvez pas faire une tâche maintenant ? Ouvrez-la, touchez **Reporter** et choisissez **1 jour**, **3 jours**, **1 semaine**, **2 semaines** ou **1 mois**. Elle reste dans la liste comme **Reportée** avec sa nouvelle date, et vous n’êtes pas rappelé avant.
 
 :::warning Ne marquez une tâche comme faite que si vous l’avez faite
-La prochaine échéance est calculée à partir du jour où vous la marquez comme faite. Si vous marquez comme faite une tâche encore à faire, toutes les échéances suivantes se décalent. Reportez-la plutôt.
+La prochaine échéance est calculée à partir de l’heure à laquelle vous avez fait la tâche. Si vous marquez comme faite une tâche encore à faire, toutes les échéances suivantes se décalent. Si vous l’avez faite plus tôt, utilisez **Fait plus tôt…** et choisissez l’heure réelle. Si vous ne l’avez pas faite, reportez-la plutôt.
 :::
 
 Il n’est pas possible de mettre une tâche en pause. Pour une tâche qui ne s’applique pas cette saison, reportez-la de **1 mois**, ou supprimez-la et ajoutez-la à nouveau plus tard.

@@ -17,7 +17,7 @@ Tocca l'icona di condivisione nell'intestazione della vasca, sulla dashboard. Pu
 
 ## Cosa contiene {#what-it-contains}
 
-La scheda mostra nome, età e tipo della vasca e il numero di animali, più il punteggio di salute quando ce n'è uno recente. Sotto ci sono i parametri che hai scelto, ciascuno con il valore attuale e l'andamento recente.
+La scheda mostra nome, età e tipo della vasca e il numero di animali, più il punteggio di salute quando ce n'è uno recente. Sotto ci sono i parametri che hai scelto, ciascuno con il valore attuale e la tendenza recente.
 
 ## Scegliere cosa mostrare {#choosing-what-appears}
 

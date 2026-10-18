@@ -2,7 +2,7 @@
 title: Cora Max'te sahneler
 description: Ayarlar → Otomasyonlar yolundan ya da panodaki bir sahne kutucuğundan Cora Max'te sahne oluşturun, çalıştırın, düzenleyin ve silin.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -56,6 +56,8 @@ Bir sahne çalışmıyor ya da durmuyorsa [Sorun giderme](/help/troubleshooting)
 :::note Çocuk kilidi sahneleri de kapsar
 [Çocuk kilidi](/help/max-settings#child-lock) ekranı kilitlediğinde, diğer tüm kontroller gibi bir sahneyi de buradan çalıştıramaz, durduramaz ya da düzenleyemezsiniz.
 :::
+
+Başarısız olan ya da bekleyecek olan bir adım beklemede kalmaz. Hemen süresi dolar, çalıştırma başarısız olarak kaydedilir ve otomasyonun adını, adımı ve nedenini söyleyen bir bildirim alırsınız. Örneğin cihazı çevrimdışıysa, onu yürütecek bir Cora Max yoksa, cihaz reddederse ya da yanıt vermezse veya bir ısıtıcı ya da soğutucu az önce açılıp kapatıldıysa adım başarısız olur. Kaldırılmış bir akvaryumdaki bir adım için bildirim gelmez.
 
 ## Sahneyi düzenleme ya da silme
 

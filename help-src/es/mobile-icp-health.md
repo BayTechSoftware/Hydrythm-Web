@@ -2,7 +2,7 @@
 title: ICP e informes de salud
 description: Sube el PDF de una prueba ICP o haz que tu laboratorio lo envíe, lee la puntuación, sigue cada elemento a lo largo del tiempo y genera un informe de salud de todo tu sistema.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -85,6 +85,8 @@ Se sigue cada elemento, incluidos los oligoelementos y los contaminantes además
 En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado como *Rango del laboratorio*, junto al rango propio de Cora para ese elemento. Un elemento para el que Cora no tiene rango de referencia lleva la etiqueta **Sin rango de Cora**. El informe indica cuántos elementos tienen un rango de Cora y valora el resto con el conocimiento general de arrecife. Cora Assistant comenta todos los elementos analizados, y su comentario se mantiene aunque no haya rango de Cora.
 
 Si el laboratorio imprime *n.d.*, o *no detectado*, para un elemento, Cora lo registra como 0 e indica que no se detectó.
+
+Si un laboratorio informa la **gravedad específica** (o densidad relativa) en lugar de la salinidad, Cora la guarda como salinidad, mostrada igualmente en SG, y la evalúa con tu rango de salinidad.
 
 :::note El CO2 disuelto no es el CO2 de la habitación
 **CO₂ disuelto** en un informe de ICP es el CO2 del agua, en mg/L. Es una lectura distinta del CO2 del aire de tu habitación. Los dos tienen rangos distintos y nunca se mezclan.

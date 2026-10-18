@@ -1,6 +1,6 @@
 ---
 title: Ścieżki z przewodnikiem
-description: Rozpocznij ścieżkę cyklowania nowego akwarium, przejdź ją do końca i krok po kroku uporaj się z problemem bruzdnic.
+description: Rozpocznij ścieżkę cyklowania nowego akwarium, przejdź ją do końca i krok po kroku uporaj się z problemem dinoflagellatów.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 34
@@ -11,17 +11,17 @@ W ścieżce Cora prowadzi Cię przez coś, co trwa dni albo tygodnie. Są dwa ro
 
 ## Rozpoczynanie ścieżki cyklowania
 
-Prowadzone cyklowanie jest bezpłatne w każdym planie. Uruchamiasz je z pulpitu akwarium.
+Prowadzone cyklowanie jest bezpłatne w każdym planie. Uruchamiasz je z panelu akwarium.
 
 1. Otwórz nowe akwarium w zakładce **Panel**. Karta zapyta **Zaczynasz nowe akwarium?**
-2. Dotknij jej. Za pierwszym razem Cora wyjaśni **Prowadzone cyklowanie**: gdy akwarium się cykluje, pulpit skupia się na amoniaku, azotynach i azotanach i wstrzymuje zwykłe kontrole rafowe, które jeszcze nie mają zastosowania.
+2. Dotknij jej. Za pierwszym razem Cora wyjaśni **Prowadzone cyklowanie**: gdy akwarium się cykluje, panel skupia się na amoniaku, azotynach i azotanach i wstrzymuje zwykłe kontrole rafowe, które jeszcze nie mają zastosowania.
 3. Dotknij **Rozumiem: zacznij cyklowanie**. Ścieżka się otworzy.
 
 :::warning Uruchom ją, zanim cokolwiek zapiszesz albo podłączysz sprzęt
 Karta **Zaczynasz nowe akwarium?** pokazuje się tylko przy akwarium bez żadnych odczytów. Gdy tylko zapiszesz test albo podłączysz urządzenie, które wysyła odczyty, karta znika i nie ma innego sposobu na uruchomienie ścieżki cyklowania. Jeśli akwarium wciąż się cykluje, najpierw uruchom ścieżkę, a potem zapisz pierwszy test z jej wnętrza.
 :::
 
-Gdy ścieżka działa, karta na pulpicie pokazuje **Kontynuuj cyklowanie · Dzień N**. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać **Wznów cyklowanie**, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik.
+Gdy ścieżka działa, karta na panelu pokazuje **Kontynuuj cyklowanie · Dzień N**. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać **Wznów cyklowanie**, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik.
 
 ## Cyklowanie nowego akwarium
 
@@ -68,10 +68,10 @@ Akwarium przełączy się na normalne monitorowanie i włączy się pełna anali
 
 ## Rozwiązywanie problemu
 
-Ścieżki problemów dotyczą **jednego problemu: bruzdnic (dinoflagellatów)**. Cora proponuje taką ścieżkę, gdy wskazują na to Twoje odczyty i raport. Ścieżka zaczyna się tylko wtedy, gdy ją przyjmiesz. Cora nigdy nie uruchamia jej sama.
+Ścieżki problemów dotyczą **jednego problemu: dinoflagellatów**. Cora proponuje taką ścieżkę, gdy wskazują na to Twoje odczyty i raport. Ścieżka zaczyna się tylko wtedy, gdy ją przyjmiesz. Cora nigdy nie uruchamia jej sama.
 
 :::note Na razie tylko dwie ścieżki
-Cyklowanie i bruzdnice to na razie jedyne ścieżki. Przy innych problemach korzystaj z [Cora Assistant](/help/mobile-assistant) i [dziennika](/help/mobile-journal).
+Cyklowanie i dinoflagellaty to na razie jedyne ścieżki. Przy innych problemach korzystaj z [Cora Assistant](/help/mobile-assistant) i [dziennika](/help/mobile-journal).
 :::
 
 Ścieżka problemu ma trzy etapy:

@@ -2,14 +2,14 @@
 title: Szczegóły parametru
 description: Dotknij widżetu, żeby zobaczyć pełną historię parametru, porównać źródła i parametry, wykluczyć błędny odczyt i zapisać konserwację sondy.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
 
 Widżet pokazuje liczbę. Dotknij go, żeby zobaczyć historię, która za nią stoi.
 
-Są dwa sposoby, żeby tu wejść. Dotknij widżetu na pulpicie albo dotknij **Historia parametrów** w rzędzie przycisków pod widżetami i wybierz parametr. **Historia parametrów** wymienia każdy parametr, który ma dane, nawet taki bez widżetu na pulpicie.
+Są dwa sposoby, żeby tu wejść. Dotknij widżetu na panelu albo dotknij **Historia parametrów** w rzędzie przycisków pod widżetami i wybierz parametr. **Historia parametrów** wymienia każdy parametr, który ma dane, nawet taki bez widżetu na panelu.
 
 ## Co tu znajdziesz {#what-you-get}
 
@@ -22,9 +22,11 @@ Są dwa sposoby, żeby tu wejść. Dotknij widżetu na pulpicie albo dotknij **H
 
 Ekran zawsze otwiera się na 24h i **Wszystkie źródła**. Nie pamięta, co wybrano ostatnio.
 
+Ciężar właściwy (SG) zawsze pokazuje trzy lub cztery miejsca po przecinku, więc 1,022 nie zamienia się w 1,02. Tak jest samo w Cora Mobile i Cora Max, na panelu, na wykresie i na liście odczytów.
+
 ## Jak czytać wykres {#reading-the-chart}
 
-- Zielone pasmo to Twój zakres alertu, więc każdy odczyt widzisz na jego tle. Żeby zmienić zakres, przytrzymaj widżet na pulpicie. Więcej w [Alertach i progach](/help/mobile-alerts).
+- Zielone pasmo to Twój zakres alertu, więc każdy odczyt widzisz na jego tle. Żeby zmienić zakres, przytrzymaj widżet na panelu. Więcej w [Alertach i progach](/help/mobile-alerts).
 - Linia przerywana oznacza zapisaną dawkę, więc zestawisz zmianę z tym, co podano.
 - **Maks. 30 dni** i **Min. 30 dni** to linie przerywane z wartościami skrajnymi z ostatnich 30 dni.
 - Pusta kropka to odczyt, który wykluczono.
@@ -49,7 +51,7 @@ Linia, która się nie rusza, może oznaczać stabilny parametr. Może też ozna
 
 Gdy parametr zgłasza więcej niż jedno źródło, Cora trzyma je osobno i ich nie uśrednia. Użyj listy **Źródło**, żeby obejrzeć każde z nich. To najszybszy sposób na porównanie sondy z testem kropelkowym.
 
-Na pulpicie widać najnowsze. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli przypięto źródło w **Mapowaniu parametrów**, Cora trzyma się tego źródła.
+Na panelu widać najnowsze. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli przypięto źródło w **Mapowaniu parametrów**, Cora trzyma się tego źródła.
 
 Jeśli sonda i testy zapisywane ręcznie stale różnią się o tyle samo, sondę zwykle trzeba skalibrować.
 
@@ -79,7 +81,7 @@ Dotknij **Zapisz konserwację sondy** (ikona czujnika na górnym pasku) i wybier
 
 ## Ręczne zapisywanie odczytu {#logging-a-reading-by-hand}
 
-Odczyty zapisujesz z pulpitu, a nie z tego ekranu. Dotknij **Zapisz parametry** pod widżetami i wpisz wynik testu kropelkowego. Lista jest pogrupowana, a grupa **Pierwiastki śladowe** obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Odczyty zapisane ręcznie liczą się tak samo jak inne. Dostają własne źródło i czas, pojawiają się na wykresie i trafiają do Reef Buddy. To też z nimi Cora porównuje Twój sprzęt.
+Odczyty zapisujesz z panelu, a nie z tego ekranu. Dotknij **Zapisz parametry** pod widżetami i wpisz wynik testu kropelkowego. Lista jest pogrupowana, a grupa **Pierwiastki śladowe** obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Odczyty zapisane ręcznie liczą się tak samo jak inne. Dostają własne źródło i czas, pojawiają się na wykresie i trafiają do Reef Buddy. To też z nimi Cora porównuje Twój sprzęt.
 
 :::note Cora sprawdza wpisy, które wyglądają dziwnie
 Jeśli wartość mocno odbiega od tego, gdzie akwarium było dotąd, Cora poprosi o potwierdzenie przed zapisaniem. Tak wyłapie przecinek w złym miejscu albo odczyt wpisany przy złym parametrze. Po potwierdzeniu odczyt zapisuje się normalnie.

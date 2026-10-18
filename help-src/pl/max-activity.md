@@ -2,17 +2,17 @@
 title: Aktywność na Cora Max
 description: Sprawdź na Cora Max, czy polecenie naprawdę dotarło do sprzętu, kto albo co o nie poprosiło i dlaczego zostało odrzucone.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 11
 group: Records
 twin: mobile-activity
 ---
 
-Aktywność to dziennik każdej próby zmiany czegoś w Twoim sprzęcie i tego, co się z nią stało. To ten sam dziennik, który pokazuje telefon. Zajrzyj tu najpierw, gdy coś, o co prosisz, chyba się nie wykonało.
+Aktywność to rejestr każdej próby zmiany czegoś w Twoim sprzęcie i tego, co się z nią stało. To ten sam rejestr, który pokazuje telefon. Zajrzyj tu najpierw, gdy coś, o co prosisz, chyba się nie wykonało.
 
 Otworzysz go z **menu akwarium** (dotknij nazwy akwarium na górnym pasku) albo przez **Ustawienia → [Twoje akwarium] → Aktywność**.
 
-![Dziennik aktywności na Cora Max](img/max-activity.webp "Legenda na górze wyjaśnia każdy wynik.")
+![Rejestr aktywności na Cora Max](img/max-activity.webp "Legenda na górze wyjaśnia każdy wynik.")
 
 ## Co mówi każdy wpis
 

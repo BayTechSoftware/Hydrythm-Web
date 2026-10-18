@@ -2,7 +2,7 @@
 title: Parler à Cora
 description: Utilisez la voix et "Hey Cora" sur Cora Max, ce qu’il peut faire ou non à la voix, le partage de données avec l’IA et votre quota mensuel, et que faire quand Cora ne répond pas.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -50,7 +50,7 @@ Des questions sur l’aquarium :
 - *« Pourquoi le pH est-il plus bas que d’habitude ? »*
 - *« Compare les six derniers mois de mon magnésium avec mon dernier ICP. »*
 
-Pas besoin de tout répéter pour une question de suivi. Après une question sur l’aquarium principal, *« et le bac à boutures ? »* fonctionne.
+Pas besoin de tout répéter pour une question de suivi. Après une question sur l’aquarium principal, *« et l’aquarium à boutures ? »* fonctionne.
 
 ## Ce que Cora peut faire à la voix
 
@@ -62,15 +62,19 @@ Pas besoin de tout répéter pour une question de suivi. Après une question sur
 - Écrire dans le journal : *« Note que j’ai fait un changement d’eau de vingt litres. »* *« Note que j’ai donné du mysis en plus. »* *« Note que j’ai sauté le repas du matin. »*
 - Commander l’équipement Red Sea : doser avec une tête ReefDose, changer sa dose quotidienne, lancer un remplissage ReefATO+, faire avancer un ReefMat ou régler la vitesse d’une pompe ReefRun.
 - Commander les pompes Jecod.
+- Lancer une automatisation ou une scène par son nom, comme Cora Assistant sur votre téléphone : *« Lance la scène changement d’eau. »*
 
 ## Ce que Cora ne peut pas faire à la voix sur Cora Max
 
-- Lancer ou arrêter une scène. Utilisez la tuile de scène ou **Réglages → Automatisations**.
 - Doser avec une tête Neptune DŌS. Utilisez la page de l’appareil sur Cora Max.
 - Changer les réglages de Cora Max lui-même, ajouter des appareils ou modifier le tableau de bord.
 
 Cora Assistant sur votre téléphone peut faire certaines de ces choses. Plus de détails dans [Interroger Cora](/help/mobile-assistant#what-cora-can-change).
 
+
+## Ouvrir l’écran depuis une réponse {#help-answers}
+
+Quand vous demandez comment faire quelque chose, Cora répond à partir de l’aide. Si la réponse concerne un écran de Cora Max, la carte vocale affiche son titre et **Ouvrir cet écran**. Touchez-le pour y aller. Il n’apparaît que s’il y a un écran à ouvrir. Cora Max n’a pas de navigateur, il n’y a donc pas de lien vers la page web.
 
 ## Confirmations
 

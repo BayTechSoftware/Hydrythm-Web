@@ -28,9 +28,9 @@ Cora eksportuje **pliki CSV**. To arkusze, które otworzysz w Excelu, Numbers, A
 | `cora_export_summary.csv` | Co obejmuje ten eksport, w tym wszystko, co zostało ucięte |
 
 :::note Co jest w eksporcie
-Eksport obejmuje **odczyty, wpisy w dzienniku i alerty**, czyli trzy rodzaje zapisów, o które ludzie proszą. Nie jest kopią całego konta. Nie ma w nim pulpitów, obsady, konserwacji, automatyzacji, raportów ani ustawień urządzeń.
+Eksport obejmuje **odczyty, wpisy w dzienniku i alerty**, czyli trzy rodzaje zapisów, o które ludzie proszą. Nie jest kopią całego konta. Nie ma w nim paneli, obsady, konserwacji, automatyzacji, raportów ani ustawień urządzeń.
 
-Każdy z tych trzech plików kończy się na **25 000 wierszy na akwarium**. Akwarium, które co pięć minut zapisuje trzydzieści metryk, przekroczy to w trzy dni, więc akwarium działające od dawna trafi na ten limit. Plik podsumowania powie Ci, kiedy tak się stało. Sprawdź go, zanim uznasz, że eksport jest kompletny.
+Każdy z tych trzech plików kończy się na **25 000 wierszy na akwarium**. Akwarium, które co pięć minut zapisuje trzydzieści parametrów, przekroczy to w trzy dni, więc akwarium działające od dawna trafi na ten limit. Plik podsumowania powie Ci, kiedy tak się stało. Sprawdź go, zanim uznasz, że eksport jest kompletny.
 :::
 
 Eksport parametrów zawiera **źródło** każdego odczytu. W arkuszu z alkalicznością nadal odróżnisz więc, co podała sonda, a co test kropelkowy.

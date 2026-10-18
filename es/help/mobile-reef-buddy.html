@@ -205,7 +205,7 @@
 <aside class="cal cal-note"><p class="cal-t">Si Datos baja, suele ser por lecturas antiguas</p><p>Si no has medido nada en una semana, la puntuación de Datos baja y la de Estabilidad se vuelve menos fiable. Registra algunas lecturas para que las dos se recuperen.</p></aside>
 <h2 id="availability">Qué acuarios reciben un resumen</h2>
 <p>Reef Buddy forma parte de los planes de pago. También está incluido en la prueba gratuita de 30 días que empieza cuando creas tu cuenta.</p>
-<p>Cada plan cubre un número fijo de acuarios: 1 en la prueba y en Plus, 5 en Pro y 20 en Max. Los resúmenes van a los primeros acuarios según el orden de <strong>Ajustes → Reordenar acuarios</strong>. Para incluir un acuario que se queda fuera, súbelo en la lista. Los acuarios eliminados no ocupan sitio.</p>
+<p>Cada plan cubre un número fijo de acuarios: 1 en la prueba y en Essential, 5 en Advanced y 20 en Expert. Los resúmenes van a los primeros acuarios según el orden de <strong>Ajustes → Reordenar acuarios</strong>. Para incluir un acuario que se queda fuera, súbelo en la lista. Los acuarios eliminados no ocupan sitio.</p>
 <p>Después de la prueba, una cuenta gratuita ve una tarjeta de Reef Buddy bloqueada con <strong>Ver planes</strong> donde estaba el resumen, y no recibe la notificación del resumen. Más información en <a href="/es/help/mobile-plans">Planes y suscripciones</a>.</p>
 <h2 id="si-no-llego-ningun-resumen">Si no llegó ningún resumen</h2>
 <ul><li><strong>No había nada que necesitara tu atención.</strong> Reef Buddy no dice nada en un buen día. La tarjeta sigue en el panel.</li><li><strong>Tu prueba gratuita terminó.</strong> Una cuenta gratuita recibe la tarjeta bloqueada y ninguna notificación.</li><li><strong>El acuario está fuera del límite de tu plan.</strong> Súbelo en <strong>Ajustes → Reordenar acuarios</strong>.</li><li><strong>Las notificaciones están desactivadas.</strong> Revisa <a href="/es/help/mobile-notifications">Notificaciones</a>.</li></ul>
@@ -216,7 +216,7 @@
 <p>Cuando Reef Buddy señala una desviación, también pregunta <em>¿Te sirvió este aviso?</em> Puedes responder <strong>Útil</strong>, <strong>No me sirvió</strong>, <strong>Este cambio es esperado</strong> o <strong>La lectura parece incorrecta</strong>. Tus respuestas influyen en lo que aparece primero en los resúmenes siguientes. Ocultar un análisis solo dura un tiempo. Si el problema sigue ahí, el análisis vuelve.</p>
 <aside class="cal cal-note"><p class="cal-t">Los hallazgos graves no se ocultan nunca</p><p>Las respuestas solo silencian los análisis menos graves. Los de advertencia y los críticos siguen apareciendo, respondieras lo que respondieras antes.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-activity"><span>Anterior</span><b>Actividad y línea de tiempo</b></a><a class="pn-n" href="/es/help/mobile-assistant"><span>Siguiente</span><b>Preguntar a Cora</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

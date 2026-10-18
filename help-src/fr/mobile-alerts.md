@@ -2,7 +2,7 @@
 title: Alertes et seuils
 description: Réglez la plage saine de chaque mesure, choisissez à quelle fréquence une alerte peut vous prévenir, et découvrez pourquoi un appareil "ne remonte plus de mesures".
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -98,7 +98,7 @@ Le temps d’attente de Cora dépend de l’appareil :
 |---|---|
 | Neptune Apex | Environ 30 minutes sans mise à jour |
 | Red Sea ReefBeat | Environ 30 minutes |
-| AquaWiz | Environ 3 heures, car il transmet moins souvent |
+| AquaWiz | Environ 25 heures, car AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures |
 | Pompes Jecod | Trois lectures manquées d’affilée, à l’intervalle de lecture de la pompe (90 minutes avec les 30 par défaut) |
 | Prise Zigbee | N’est pas revenue 30 minutes après le redémarrage du hub. Donnez-lui un nom avec **Renommer** pour que l’alerte la nomme |
 
@@ -131,7 +131,7 @@ Le délai ne masque pas l’alerte. Il limite seulement la fréquence des notifi
 
 Vous pouvez choisir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 jour, 3 jours ou 1 semaine.
 
-Un délai court convient à une mesure qui bouge vite, comme la température. Un délai long, jusqu’à une semaine, convient à quelque chose qui reste anormal pendant des jours en attendant une pièce, comme un Trident à court de réactif ou un récipient de dosage vide.
+Un délai court convient à une mesure qui bouge vite, comme la température. Un délai long, jusqu’à une semaine, convient à quelque chose qui reste anormal pendant des jours en attendant une pièce, comme un Trident à court de réactif ou un réservoir de dosage vide.
 
 :::note Reporter se trouve sur Cora Max
 Cora Mobile n’a pas de bouton Reporter sur une alerte active. Reporter se trouve sur l’écran Cora Max à l’aquarium, et coupe l’alerte pendant le délai que vous avez choisi ici. Sur votre téléphone, le délai de chaque règle est le moyen de changer la fréquence à laquelle vous entendez parler de quelque chose.

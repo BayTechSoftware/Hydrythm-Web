@@ -2,7 +2,7 @@
 title: Réglages de Cora Mobile
 description: Où tout se trouve dans l’onglet Paramètres de Cora Mobile, de votre compte et votre forfait aux aquariums, à Cora Assistant, à la langue, au mode sombre, aux notifications et à l’assistance.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -112,7 +112,7 @@ Si **Contribuer des données d’aquarium anonymisées** est activé (et il l’
 - **Contacter l’assistance** ouvre un e-mail à notre intention. Nous répondons en général sous un jour.
 - **Signaler un bug / envoyer un retour** envoie un signalement depuis Cora Mobile. Voir [Signaler un problème](/help/mobile-support).
 - **Envoyer les rapports de plantage**, décrit plus haut.
-- **Site web et FAQ Cora** ouvre le site web de Cora.
+- **Site web et FAQ Cora** ouvre le site web de Cora. Cela ouvre ce guide dans votre langue.
 
 ## À propos
 

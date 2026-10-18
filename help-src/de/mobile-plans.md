@@ -1,8 +1,8 @@
 ---
 title: Pläne und Abos
-description: Was die Pläne Free, Testphase, Plus, Pro und Max enthalten, wie du ein Abo abschließt oder upgradest, wo du deine Nutzung siehst und wie du auf iPhone oder Android kündigst.
+description: Was die Pläne Free, Testphase, Essential, Advanced und Expert enthalten, wie du ein Abo abschließt oder upgradest, wo du deine Nutzung siehst und wie du auf iPhone oder Android kündigst.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -34,7 +34,7 @@ Ist ein Kontingent aufgebraucht, kannst du trotzdem alles lesen, was Cora schon 
 
 ## Die Testphase
 
-Deine **30-tägige Pro-Testphase beginnt, wenn du dein Konto anlegst**. Sie wartet nicht, bis du eine Funktion zum ersten Mal nutzt, und du brauchst keine Karte. **Konto & Abo** zeigt sie als **Cora Pro Test**, mit dem Datum, an dem sie endet.
+Deine **30-tägige Advanced-Testphase beginnt, wenn du dein Konto anlegst**. Sie wartet nicht, bis du eine Funktion zum ersten Mal nutzt, und du brauchst keine Karte. **Konto & Abo** zeigt sie als **Cora Advanced Test**, mit dem Datum, an dem sie endet.
 
 | Während der Testphase | |
 |---|---|
@@ -44,15 +44,15 @@ Deine **30-tägige Pro-Testphase beginnt, wenn du dein Konto anlegst**. Sie wart
 | ICP-Analysen | 1 pro Monat |
 | Reef Buddy und KI-Überwachung | Dein erstes Becken |
 
-Die Testphase enthält Reef Buddy und **Mit KI gestalten**. Ihre Kontingente sind kleiner als die des Pro-Plans.
+Die Testphase enthält Reef Buddy und **Mit KI gestalten**. Ihre Kontingente sind kleiner als die des Advanced-Plans.
 
 Endet sie, geht dein Konto zurück auf Free. **Es wird nichts gelöscht.** Du kannst weiterhin jeden Messwert, Tagebucheintrag, Bericht und jedes Briefing lesen, das du hast.
 
 ## Bezahlte Stufen
 
-Es gibt drei Pläne, **Plus**, **Pro** und **Max**, jeweils monatlich oder jährlich. Die Einstellungen zeigen sie als Cora Plus, Cora Pro und Cora Max. Aktuelle Preise findest du in Cora Mobile und in deinem App Store, denn dort bezahlst du.
+Es gibt drei Pläne, **Essential**, **Advanced** und **Expert**, jeweils monatlich oder jährlich. Die Einstellungen zeigen sie als Cora Essential, Cora Advanced und Cora Expert. Aktuelle Preise findest du in Cora Mobile und in deinem App Store, denn dort bezahlst du.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Nachrichten an den Assistenten / Monat | 500 | 1.200 | 2.500 (faire Nutzung) |
 | Sprachsitzungen / Monat | 100 | 200 | 400 |
@@ -63,8 +63,8 @@ Es gibt drei Pläne, **Plus**, **Pro** und **Max**, jeweils monatlich oder jähr
 Sprachsitzungen haben ihre eigene Zahl, und jede gesprochene Antwort verbraucht außerdem dein Nachrichtenkontingent. Jeder bezahlte Plan enthält Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora liest, den Vergleich mit deinem eigenen Verlauf und **Mit KI gestalten** für Dashboards (bis zu 5 Entwürfe pro Tag für jedes Becken).
 
 
-:::note Der Max-Plan ist nicht der Cora Max-Bildschirm
-Der **Max-Plan** ist ein Abo. **Cora Max** ist der Bildschirm neben deinem Becken. Für das eine brauchst du das andere nicht.
+:::note Der Expert-Plan ist nicht der Cora Max-Bildschirm
+Der **Expert-Plan** ist ein Abo. **Cora Max** ist der Bildschirm neben deinem Becken. Für das eine brauchst du das andere nicht.
 :::
 
 ### Welche Becken KI bekommen {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy und die KI-Überwachung gelten für so viele Becken, wie dein Plan er
 ## Ein Abo abschließen oder upgraden {#subscribing}
 
 1. Öffne **Einstellungen** und tippe oben auf die Kontokarte. **Konto & Abo** öffnet sich.
-2. Tippe neben deinem Plan auf **Pläne ansehen** (bei Free oder in der Testphase), **Upgrade** (bei Plus) oder **Auf Max upgraden** (bei Pro).
+2. Tippe neben deinem Plan auf **Pläne ansehen** (bei Free oder in der Testphase), **Upgrade** (bei Essential) oder **Auf Expert upgraden** (bei Advanced).
 3. Wähl **Monatlich** oder **Jährlich**. Der Jahrespreis zeigt, wie viel du sparst.
 4. Wähl einen Plan und tippe auf **Abonnieren**.
 5. Bestätige beim App Store oder bei Google Play. Dein neuer Plan wird freigeschaltet, sobald der Store ihn bestätigt.
@@ -85,7 +85,7 @@ Dieselbe Planauswahl öffnet sich auch, wenn du an eine Grenze kommst, zum Beisp
 
 ## Konto & Abo
 
-![Konto & Abo in Cora Mobile](img/mobile-plans.webp "Dein Plan unter Abo, mit Auf Max upgraden und Käufe wiederherstellen.")
+![Konto & Abo in Cora Mobile](img/mobile-plans.webp "Dein Plan unter Abo, mit Auf Expert upgraden und Käufe wiederherstellen.")
 
 **Konto & Abo** zeigt deinen aktuellen Plan und wann er sich verlängert oder endet. Darunter stehen diese Steuerungen.
 
@@ -110,7 +110,7 @@ Die Zählung beginnt am Anfang jedes Kalendermonats von vorn.
 
 ## Den Plan wechseln
 
-Um hochzuwechseln, nutze **Upgrade** oder **Auf Max upgraden** wie oben. Um herunterzuwechseln oder zwischen monatlich und jährlich zu wechseln, nutze **Abo verwalten**. Änderungen laufen über den App Store oder Google Play und folgen denselben Regeln wie jedes andere Abo auf deinem Handy, einschließlich der Erstattungs- und Kündigungsbedingungen des Stores.
+Um hochzuwechseln, nutze **Upgrade** oder **Auf Expert upgraden** wie oben. Um herunterzuwechseln oder zwischen monatlich und jährlich zu wechseln, nutze **Abo verwalten**. Änderungen laufen über den App Store oder Google Play und folgen denselben Regeln wie jedes andere Abo auf deinem Handy, einschließlich der Erstattungs- und Kündigungsbedingungen des Stores.
 
 ## Kündigen
 

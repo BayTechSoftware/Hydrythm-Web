@@ -190,7 +190,7 @@
 <ol><li><strong>Accesso.</strong> Il telefono collega Cora Max al tuo account. Avviene da solo, e Cora Max mostra il suo avanzamento, come <strong>Verifica del tuo account…</strong> e <strong>Configurazione della tua vasca…</strong>.</li></ol>
 <p>   <figure class="shot"><button type="button" class="zoom" aria-label="Ingrandisci: La schermata di associazione di Cora Max che mostra Verifica del tuo account"><img src="/help/img/max-pairing-verifying.webp" alt="La schermata di associazione di Cora Max che mostra Verifica del tuo account" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Cora Max mostra ogni passo mentre il telefono lo collega al tuo account.</figcaption></figure></p>
 <ol><li><strong>Vasche.</strong> In <strong>Assegna vasche</strong>, scegli le vasche che questo Cora Max gestirà, <strong>fino a quattro</strong>.</li></ol>
-<ol><li><strong>Fatto.</strong> Il telefono dice che Cora Max è configurato e mostra un <strong>PIN di ripristino</strong>. Tocca il pulsante che apre la dashboard della tua vasca, oppure <strong>Vai a Dispositivi</strong>. Cora Max mostra <strong>Accoppiato</strong>, poi <strong>Apertura dashboard…</strong>.</li></ol>
+<ol><li><strong>Fatto.</strong> Il telefono dice che Cora Max è configurato e mostra un <strong>PIN di ripristino</strong>. Tocca il pulsante che apre la dashboard della tua vasca, oppure <strong>Vai a Dispositivi</strong>. Cora Max mostra <strong>Associato</strong>, poi <strong>Apertura dashboard…</strong>.</li></ol>
 <aside class="cal cal-warning"><p class="cal-t">Annota il PIN di ripristino</p><p>Il <strong>PIN di ripristino</strong> ha sei cifre ed è l'unico modo per entrare nel ripristino su quel Cora Max. Per usarlo, tieni cinque dita sull'angolo in alto a destra dello schermo per dieci secondi, poi inserisci il PIN. Il ripristino ti permette di rifare il Wi-Fi, associarlo di nuovo, controllare un aggiornamento o fare il ripristino di fabbrica. Puoi ritrovare il PIN sul telefono in <strong>Dispositivi → il tuo Cora Max → PIN di ripristino</strong>, ma mai su Cora Max stesso.</p></aside>
 <h3 id="if-pairing-gets-stuck">Se l'associazione si blocca</h3>
 <ul><li><strong>Il Bluetooth è disattivato. Attivalo, poi tocca di nuovo Scansiona.</strong> Attiva il Bluetooth e cerca di nuovo.</li><li><strong>L'autorizzazione Bluetooth per Cora è disattivata.</strong> Consenti il Bluetooth per Cora nelle impostazioni del telefono, poi tocca <strong>Scansiona</strong>. Un iPhone potrebbe chiedere anche l'accesso alla rete locale. Consenti anche quello.</li><li><strong>Nessun dispositivo di configurazione Cora trovato nelle vicinanze via Bluetooth.</strong> Mettiti accanto a Cora Max, controlla che mostri ancora la schermata di associazione e cerca di nuovo.</li><li><strong>Nessuna vasca trovata</strong> al passo Vasche. Il tuo account non ha ancora una vasca. Creane una in Cora Mobile, poi riprova il passo.</li><li><strong>Non ancora collegato alla tua vasca</strong> alla fine. Cora Max è associato, ma il collegamento alla vasca non è finito. Tocca <strong>Riprova ora</strong>. Finché non finisce, gli avvisi di questo schermo usano gli intervalli predefiniti.</li></ul>
@@ -212,7 +212,7 @@
 <h2 id="moving-it-to-a-different-network">Spostarlo su un'altra rete Wi-Fi</h2>
 <p>Vai in <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong>, scegli la nuova rete e inserisci la password. Cora Max resta associato, quindi non devi configurarlo di nuovo.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/max-tour"><span>Successivo</span><b>La schermata principale di Cora Max</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.215 e Cora Mobile 0.5.124. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -603,7 +603,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ed574cad08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

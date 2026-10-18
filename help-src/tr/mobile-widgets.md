@@ -81,7 +81,7 @@ pH günlük bir döngüyle iner çıkar, bu yüzden 24 saat size deseni gösteri
 
 Bir Apex prizi için üç konumlu bir anahtardır: **Otomatik**, **Kapalı** ve **Açık**. Hangi prizi kontrol edeceğini siz seçersiniz.
 
-- **Otomatik**, prizi normalde onu yöneten şeye geri verir. Bu bir program, bir kural ya da bağlı olduğu kontrolcü olabilir.
+- **Otomatik**, prizi normalde onu yöneten şeye geri verir. Bu bir zamanlama, bir kural ya da bağlı olduğu kontrolör olabilir.
 - **Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Siz geri değiştirene kadar öyle kalırlar.
 
 :::warning Elle yapılan geçersiz kılmaların etkisi geçmez
@@ -90,7 +90,7 @@ Kapalı, siz Otomatik'e geri alana kadar kapalı demektir. Akvaryumda çalışma
 
 ## ReefBeat {#reefbeat}
 
-Bütün bir ekipman için tek bir kutucuktur. Tek bir parametre yerine ünitenin kendi özetini gösterir, örneğin bir ATO'nun durumu ve haznesi, bir dozaj pompasının kafaları ya da bir mat rulosunun kaç günü kaldığı. Hangi cihazı göstereceğini siz seçersiniz.
+Bütün bir ekipman için tek bir kutucuktur. Tek bir parametre yerine ünitenin kendi özetini gösterir, örneğin bir ATO'nun durumu ve deposu, bir dozaj pompasının kafaları ya da bir mat rulosunun kaç günü kaldığı. Hangi cihazı göstereceğini siz seçersiniz.
 
 Hangi cihazların kutucuğu olabileceği neleri bağladığınıza bağlıdır. [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
 

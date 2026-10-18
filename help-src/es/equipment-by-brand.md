@@ -2,7 +2,7 @@
 title: Equipos por marca
 description: Todo sobre tus equipos Neptune Apex, Red Sea ReefBeat, Jecod o AquaWiz en un solo sitio, desde añadirlos hasta controlarlos, sus alertas y sus soluciones.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 3
 ---
 
@@ -23,7 +23,7 @@ Cora lee las sondas y las tomas de tu Apex, ejecuta sus ciclos de alimentación 
 - Decirle a Cora qué mide cada sonda: [Asignación de parámetros y sondas](/help/mobile-probes)
 - Controlarlo en tu teléfono: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - En Cora Max: [tomas y modo alimentación](/help/max-controls), [Apex y Trident](/help/max-device-control#neptune-apex), [cabezales DŌS](/help/max-device-control#dos-heads)
-- Alertas: [dejó de informar](/help/mobile-alerts#stopped-reporting), [alertas de dosificadores](/help/mobile-device-control#doser-alerts)
+- Alertas: [dejó de informar](/help/mobile-alerts#stopped-reporting), [alertas de dosificadoras](/help/mobile-device-control#doser-alerts)
 - Soluciones: ["No se pudo contactar al Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… no tiene datos del Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Contraseña de Apex"](/help/troubleshooting#cora-max-shows-apex-password), [La alimentación no empieza](/help/troubleshooting#feed-does-not-start), [una dosis se detuvo a medias](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
@@ -33,7 +33,7 @@ ReefDose, ReefRun, ReefMat y ReefATO+. Los ajustes propios de un dispositivo sol
 - Añadirlo: [Conectar tus equipos](/help/mobile-connections#red-sea-reefbeat)
 - Controlarlo en tu teléfono: [Red Sea ReefBeat](/help/mobile-device-control#red-sea), [ReefDose](/help/mobile-device-control#reefdose), [ReefRun](/help/mobile-device-control#reefrun), [ReefMat](/help/mobile-device-control#reefmat), [ReefATO+](/help/mobile-device-control#reefato)
 - En Cora Max: [Red Sea ReefBeat](/help/max-device-control#red-sea)
-- Alertas: [dejó de informar](/help/mobile-alerts#stopped-reporting), [alertas de dosificadores](/help/mobile-device-control#doser-alerts)
+- Alertas: [dejó de informar](/help/mobile-alerts#stopped-reporting), [alertas de dosificadoras](/help/mobile-device-control#doser-alerts)
 - Soluciones: ["Las lecturas de Red Sea han dejado de actualizarse"](/help/troubleshooting#red-sea-readings-have-stopped-updating), [ajustes en gris](/help/troubleshooting#some-reefbeat-settings-are-greyed-out-or-missing)
 
 ## Jecod y Jebao {#jecod}
@@ -41,14 +41,14 @@ ReefDose, ReefRun, ReefMat y ReefATO+. Los ajustes propios de un dispositivo sol
 Bombas que llegan a Cora por tu red o por Bluetooth. Cuál de las dos decide lo que puedes hacer desde fuera de casa.
 
 - Añadirla: [Conectar tus equipos](/help/mobile-connections#jecod)
-- Controlarla en tu teléfono: [Bombas Jecod](/help/mobile-device-control#jecod), [programas diarios](/help/mobile-schedules)
+- Controlarla en tu teléfono: [Bombas Jecod](/help/mobile-device-control#jecod), [horarios diarios](/help/mobile-schedules)
 - En Cora Max: [Jecod](/help/max-device-control#jecod)
 - Alertas: [dejó de informar](/help/mobile-alerts#stopped-reporting)
 - Soluciones: ["No se pudo contactar a esta bomba"](/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent), [fuera del alcance del Bluetooth](/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t)
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora lo lee a través de la nube propia de AquaWiz, así que se sigue actualizando sin un Cora Max.
+Cora lo lee a través de la nube propia de AquaWiz cada 12 horas, así que se sigue actualizando sin un Cora Max. Un Cora Max en el acuario puede añadir una lectura cada hora.
 
 - Añadirlo: [Conectar tus equipos](/help/mobile-connections#aquawiz-kh-controller)
 - En tu teléfono: [AquaWiz](/help/mobile-device-control#aquawiz)

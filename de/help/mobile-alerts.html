@@ -208,7 +208,7 @@
 <h2 id="stopped-reporting">Ein Gerät meldet sich nicht mehr</h2>
 <p>Wird ein verbundenes Gerät still, schickt Cora <em>"[Gerät]: meldet sich nicht mehr"</em>. Das heißt nicht, dass das Gerät kaputt ist, nur, dass Cora eine Weile nichts von ihm gehört hat. Du bekommst eine zweite Benachrichtigung, <em>"[Gerät]: meldet sich wieder"</em>, wenn es zurückkommt.</p>
 <p>Wie lange Cora wartet, hängt vom Gerät ab:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Gerät</th><th>Cora wartet</th></tr></thead><tbody><tr><td data-th="Gerät">Neptune™ Apex</td><td data-th="Cora wartet">Etwa 30 Minuten ohne Update</td></tr><tr><td data-th="Gerät">Red Sea™ ReefBeat</td><td data-th="Cora wartet">Etwa 30 Minuten</td></tr><tr><td data-th="Gerät">AquaWiz™</td><td data-th="Cora wartet">Etwa 3 Stunden, weil er seltener meldet</td></tr><tr><td data-th="Gerät">Jecod-Pumpen</td><td data-th="Cora wartet">Drei verpasste Messungen in Folge, im Messintervall der Pumpe (90 Minuten beim Standard von 30)</td></tr><tr><td data-th="Gerät">Zigbee-Steckdose</td><td data-th="Cora wartet">Meldet sich 30 Minuten nach einem Neustart des Hubs noch nicht zurück. Gib ihr mit <strong>Umbenennen</strong> einen Namen, damit die Meldung sie nennt</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Gerät</th><th>Cora wartet</th></tr></thead><tbody><tr><td data-th="Gerät">Neptune™ Apex</td><td data-th="Cora wartet">Etwa 30 Minuten ohne Update</td></tr><tr><td data-th="Gerät">Red Sea™ ReefBeat</td><td data-th="Cora wartet">Etwa 30 Minuten</td></tr><tr><td data-th="Gerät">AquaWiz™</td><td data-th="Cora wartet">Etwa 25 Stunden, weil AquaWiz Cora nur alle 12 Stunden die Cloud abfragen lässt</td></tr><tr><td data-th="Gerät">Jecod-Pumpen</td><td data-th="Cora wartet">Drei verpasste Messungen in Folge, im Messintervall der Pumpe (90 Minuten beim Standard von 30)</td></tr><tr><td data-th="Gerät">Zigbee-Steckdose</td><td data-th="Cora wartet">Meldet sich 30 Minuten nach einem Neustart des Gateways noch nicht zurück. Gib ihr mit <strong>Umbenennen</strong> einen Namen, damit die Meldung sie nennt</td></tr></tbody></table></div>
 <p>Was du prüfst, hängt davon ab, wie Cora das Gerät liest.</p>
 <ul><li>Apex, ReefBeat und Jecod werden von einem Cora Max über WLAN abgefragt. Prüf Strom und WLAN des Geräts und ob das Cora Max, das es abfragt, eingeschaltet und online ist.</li><li>AquaWiz wird über dein Konto beim Hersteller abgefragt. Prüf die Kontoverbindung auf der Seite des Geräts in Cora Mobile.</li></ul>
 <p>Diese Benachrichtigungen fallen unter <strong>Gerätefehler</strong> in <strong>Einstellungen → Benachrichtigungen</strong>.</p>
@@ -232,7 +232,7 @@
 <p>Solange eine Regel aus ist, bewertet Cora diesen Messwert nicht. Sein Widget bleibt neutral grau und löst nie eine Warnung aus.</p>
 <aside class="cal cal-warning"><p class="cal-t">Schalte einen Wasserwert aus, ohne seinen Bereich zu löschen</p><p>Eine Regel zu löschen, hält Cora nicht immer davon ab, diesen Messwert zu bewerten. Standard-Referenzbereiche färben den Wert weiter ein und können weiter ins Briefing einfließen. Nimm den Schalter der Regel.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-consumables"><span>Zurück</span><b>Verbrauchsmaterial und Nachfüllwarnungen</b></a><a class="pn-n" href="/de/help/mobile-notifications"><span>Weiter</span><b>Benachrichtigungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -623,7 +623,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -26,9 +26,9 @@ W nagłówku akwarium jest nazwa akwarium (dotknij jej, żeby ją zmienić) i rz
 - Linijka otwiera **Jednostki**, które ustalają, jak to akwarium pokazuje odczyty.
 - Ołówek otwiera [profil akwarium](/help/mobile-tank-profile).
 
-Tuż pod widżetami jest **Edytuj panel**, do zmiany samego pulpitu. Pod nim rząd przycisków ma **Zapisz parametry**, **Historia parametrów** i **Karmienie**, a dalej skróty do dziennika, alertów, konserwacji i obsady akwarium.
+Tuż pod widżetami jest **Edytuj panel**, do zmiany samego panelu. Pod nim rząd przycisków ma **Zapisz parametry**, **Historia parametrów** i **Karmienie**, a dalej skróty do dziennika, alertów, konserwacji i obsady akwarium.
 
-Więcej znajdziesz w [Jak czytać pulpit](/help/mobile-dashboard).
+Więcej znajdziesz w [Jak czytać panel](/help/mobile-dashboard).
 
 ## Urządzenia {#devices}
 
@@ -56,12 +56,12 @@ Więcej w [Ustawieniach Cora Mobile](/help/mobile-settings).
 
 ## Wprowadzenie przy pierwszym uruchomieniu {#the-first-run-tour}
 
-Gdy pierwszy raz otworzysz pulpit, Cora pokaże po kolei elementy ekranu: widżety, **Edytuj panel**, długie przytrzymanie widżetu, żeby dostroić jego zakres alertu, **Zapisz parametry**, skróty do zapisków oraz zakładki **Urządzenia**, **Asystent** i **Inteligencja**. Robi to tylko raz.
+Gdy pierwszy raz otworzysz panel, Cora pokaże po kolei elementy ekranu: widżety, **Edytuj panel**, długie przytrzymanie widżetu, żeby dostroić jego zakres alertu, **Zapisz parametry**, skróty do zapisków oraz zakładki **Urządzenia**, **Asystent** i **Inteligencja**. Robi to tylko raz.
 
-Żeby zobaczyć je jeszcze raz, przejdź do **Ustawienia → O aplikacji → Powtórz wskazówki**. Wprowadzenie zacznie się od nowa i przeniesie Cię na pulpit. Przydaje się po aktualizacji albo gdy dajesz telefon komuś innemu.
+Żeby zobaczyć je jeszcze raz, przejdź do **Ustawienia → O aplikacji → Powtórz wskazówki**. Wprowadzenie zacznie się od nowa i przeniesie Cię na panel. Przydaje się po aktualizacji albo gdy dajesz telefon komuś innemu.
 
 ## Dwa elementy poza zakładkami {#two-controls-outside-the-tabs}
 
 **Dzwonek** w prawym górnym rogu to historia powiadomień, ze wszystkimi alertami zgłoszonymi przez Corę, od najnowszych. Liczba na nim pokazuje, ile jeszcze nie przeczytano.
 
-**Przycisk dziennika** unosi się w prawym dolnym rogu Panelu. Dotknij go i powiedz, co właśnie zrobiono, na przykład podmianę wody, nowy koralowiec albo zmianę dawki. Gdy skończysz, dotknij przycisku stop, a Cora zapisze to w dzienniku. Zobacz [Dziennik](/help/mobile-journal).
+**Przycisk dziennika** unosi się w prawym dolnym rogu Panelu. Dotknij go i powiedz, co właśnie zrobiono, na przykład podmianę wody, nowy koral albo zmianę dawki. Gdy skończysz, dotknij przycisku stop, a Cora zapisze to w dzienniku. Zobacz [Dziennik](/help/mobile-journal).

@@ -2,7 +2,7 @@
 title: Modificare la dashboard
 description: Aggiungi, sposta, ridimensiona e rimuovi i widget sulla dashboard del telefono, imposta il numero di colonne e modifica dal telefono la dashboard di un Cora Max.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -41,6 +41,8 @@ Vedi solo i parametri che la vasca ha. Un parametro senza fonte compare quando c
 
 La griglia contiene fino a 20 righe. Quando è piena, Cora dice **La dashboard è piena: rimuovi prima un riquadro.** Un grafico ha bisogno di due celle libere affiancate.
 
+Quando togli un dispositivo da una vasca, i suoi riquadri lasciano la dashboard da soli, sul telefono e su ogni Cora Max di quella vasca. Un riquadro il cui dispositivo non c'è più dice **Questo dispositivo non è più in questa vasca** e non apre nulla.
+
 ## Disporre i widget {#arranging-widgets}
 
 - Per spostare un widget, tienilo premuto e trascinalo. Gli altri si spostano intorno.
@@ -56,7 +58,7 @@ Tocca un widget nell'editor per aprirne le impostazioni. A seconda del widget, p
 | **Tipo** | Widget di parametro: Valore, Indicatore, Grafico o Stato |
 | **Parametro** | Widget di parametro: quale parametro mostra |
 | La presa o il dispositivo | Riquadri di prese e attrezzatura: quale mostra |
-| **Mostra il rimanente come** | Riquadri dei dosatori: **Giorni** o **Millilitri (mL)** |
+| **Mostra il rimanente come** | Riquadri delle pompe dosometriche: **Giorni** o **Millilitri (mL)** |
 | **Larghezza** | Ogni widget: **1×** o **2×**. Un grafico è sempre largo almeno 2 |
 | **Altezza** | Ogni widget: **1×** o **2×** |
 | **Intervallo di tempo** | Grafico: 1h, 6h, 24h, 7g, 30g o 1a |

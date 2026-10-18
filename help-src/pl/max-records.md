@@ -2,7 +2,7 @@
 title: Dziennik, obsada i konserwacja
 description: Zapisz test, dodaj wpis w dzienniku, zapisz karmienie i odhacz konserwację na Cora Max, a także co nadal robisz na telefonie.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 10
 group: Records
 twin: mobile-journal
@@ -21,11 +21,11 @@ Wszystkie są w **menu akwarium** (dotknij nazwy akwarium na górnym pasku) i w 
 
 ## Zapisywanie odczytów
 
-Otwórz **Zapisz parametry**, dotknij parametru, wpisz odczyt na klawiaturze ekranowej i zapisz. Trafia on od razu na pulpit i do historii akwarium, więc test zapiszesz przy akwarium, przy którym go robisz. Możesz też powiedzieć *„Hey Cora, zapisz alkaliczność 8,1”*.
+Otwórz **Zapisz parametry**, dotknij parametru, wpisz odczyt na klawiaturze ekranowej i zapisz. Trafia on od razu na panel i do historii akwarium, więc test zapiszesz przy akwarium, przy którym go robisz. Możesz też powiedzieć *„Hey Cora, zapisz alkaliczność 8,1”*.
 
 Cora sprawdza każdą liczbę przed zapisem. Jeśli któraś wygląda na literówkę albo wykracza daleko poza ostatnie 30 dni, Cora pyta **Sprawdzić te wartości ponownie?** i może podpowiedzieć, o co chodziło (*„czy chodziło Ci o 8,1?”*). Dotknij **Wróć**, żeby to poprawić, albo **Zapisz mimo to**, jeśli odczyt jest prawidłowy.
 
-Jeśli dla tego parametru widać już nowszy odczyt, przy Twojej wartości pojawi się **Zapisano tylko w historii**. Zostaje ona w historii i na wykresach, a pulpit dalej pokazuje nowszą.
+Jeśli dla tego parametru widać już nowszy odczyt, przy Twojej wartości pojawi się **Zapisano tylko w historii**. Zostaje ona w historii i na wykresach, a panel dalej pokazuje nowszą.
 
 ## Dziennik
 
@@ -47,7 +47,8 @@ Ikona obok ikony urządzeń to **Reef Buddy**, a kropka przy niej oznacza, że d
 
 Góra ekranu mówi, ile zadań czeka. Pod nią **Nadchodzące** wymienia każde zadanie z oznaczeniem **DZIŚ**, **ZA 3d** albo **ZALEGŁE 2d**, a **Zakończone · ostatnie 7 dni** pokazuje, co ostatnio zrobiono.
 
-- Dotknij **Gotowe**, gdy skończysz zadanie.
+- Dotknij **Gotowe**, gdy skończysz zadanie. Jeśli jest po terminie, Cora pyta **Kiedy to zostało zrobione?**
+- Dotknij **Zrobione wcześniej…**, jeśli zrobiono to przed dzisiaj. Wybierz datę i godzinę, a następny termin liczy się od niej. Godzina z przyszłości ani wcześniejsza niż ostatnie wykonanie nie jest przyjmowana.
 - Dotknij **Odłóż**, żeby przesunąć je o **1 dzień**, **3 dni**, **1 tydzień**, **2 tygodnie** albo **1 miesiąc**.
 
 Zadania dodajesz i zmieniasz na telefonie. Więcej w [Konserwacji](/help/mobile-maintenance).

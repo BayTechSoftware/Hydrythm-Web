@@ -8,9 +8,9 @@ group: Records
 twin: max-records
 ---
 
-W dzienniku zapisujesz, co robisz przy akwarium: podmiany wody, nowych mieszkańców, zmiany w dozowaniu, prace przy sprzęcie i wszystko nietypowe. Gdy parametr się zmieni, a Ty nie wiesz dlaczego, dziennik pokazuje, co zmieniło się w okolicach tej daty.
+W dzienniku zapisujesz, co robisz przy akwarium: podmiany wody, nową obsadę, zmiany w dozowaniu, prace przy sprzęcie i wszystko nietypowe. Gdy parametr się zmieni, a Ty nie wiesz dlaczego, dziennik pokazuje, co zmieniło się w okolicach tej daty.
 
-Dotknij **Dziennik** w rzędzie przycisków pod pulpitem, żeby otworzyć **Dziennik akwarium**. Znajdziesz go też w Ustawieniach → Twoje akwarium → **Dziennik**.
+Dotknij **Dziennik** w rzędzie przycisków pod panelem, żeby otworzyć **Dziennik akwarium**. Znajdziesz go też w Ustawieniach → Twoje akwarium → **Dziennik**.
 
 ![Dziennik akwarium w Cora Mobile](img/mobile-journal.webp "Najnowsze wpisy na górze, z chipami kategorii do filtrowania.")
 
@@ -31,7 +31,7 @@ Krótka notatka wystarczy. „Podmiana 20 l, 5 ml alkaliczności więcej” mów
 
 ## Dyktowanie wpisu {#dictating}
 
-Okrągły przycisk Cora z podpisem **Dziennik** w prawym dolnym rogu pulpitu nagrywa notatkę głosową, co jest łatwiejsze z mokrymi rękami. Dotknij go, powiedz, co się stało (do minuty), i dotknij ponownie, żeby zakończyć. Cora zamieni Twoje słowa w jeden albo kilka wpisów w dzienniku i powie, ile zapisała. Ten sam przycisk jest na osi czasu akwarium.
+Okrągły przycisk Cora z podpisem **Dziennik** w prawym dolnym rogu panelu nagrywa notatkę głosową, co jest łatwiejsze z mokrymi rękami. Dotknij go, powiedz, co się stało (do minuty), i dotknij ponownie, żeby zakończyć. Cora zamieni Twoje słowa w jeden albo kilka wpisów w dzienniku i powie, ile zapisała. Ten sam przycisk jest na osi czasu akwarium.
 
 Dyktowanie korzysta z Cora Assistant. Jeśli jeszcze nie zezwolono mu na korzystanie z danych akwarium, Cora najpierw o to zapyta.
 
@@ -51,7 +51,7 @@ Niektóre wpisy powstają same. Wykonanie zadania [konserwacyjnego](/help/mobile
 
 Powiedz Corze raz, jak zwykle karmisz, a potem zapisuj tylko wyjątki.
 
-Żeby ustawić plan, otwórz **Edytuj akwarium** (ołówek na górze pulpitu) i dotknij **Plan karmienia**. Karta na pulpicie, **Jak zwykle karmisz?**, prowadzi tam przyciskiem **Ustaw plan karmienia**, dopóki tego nie zrobisz. Dla każdego pokarmu podaj pokarm, **Ilość**, **Jednostkę** (kostka, szczypta, g, ml, kropla, miarka albo płat) i **Razy dziennie**. Dotknij **Dodaj pokarm**, żeby dodać kolejny. Włącz **Używam automatycznego karmnika**, jeśli karmi za Ciebie karmnik. Jego karmienia liczą się wtedy jako część planu. W **Waga porcji (opcjonalnie)** możesz podać, ile waży jedna kostka albo szczypta, żeby Cora mogła porównywać karmienia w czasie w gramach.
+Żeby ustawić plan, otwórz **Edytuj akwarium** (ołówek na górze panelu) i dotknij **Plan karmienia**. Karta na panelu, **Jak zwykle karmisz?**, prowadzi tam przyciskiem **Ustaw plan karmienia**, dopóki tego nie zrobisz. Dla każdego pokarmu podaj pokarm, **Ilość**, **Jednostkę** (kostka, szczypta, g, ml, kropla, miarka albo płat) i **Razy dziennie**. Dotknij **Dodaj pokarm**, żeby dodać kolejny. Włącz **Używam automatycznego karmnika**, jeśli karmi za Ciebie karmnik. Jego karmienia liczą się wtedy jako część planu. W **Waga porcji (opcjonalnie)** możesz podać, ile waży jedna kostka albo szczypta, żeby Cora mogła porównywać karmienia w czasie w gramach.
 
 Gdy dzień odbiega od planu, dotknij **Karmienie** w rzędzie przycisków pod widżetami albo ikony karmienia na górze dziennika. Arkusz **Zapisz wyjątek w karmieniu** ma trzy opcje: **Dodatkowe karmienie**, **Pominięte karmienie** i **Zmieniono pokarm lub ilość**. Możesz dodać **Ilość (opcjonalnie)**. Każda z nich to zwykły wpis w dzienniku, z którego korzysta Reef Buddy, więc stabilne akwarium nie dostanie winy za przekąskę, którą mu podano.
 

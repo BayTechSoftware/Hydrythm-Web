@@ -40,19 +40,19 @@ Telefon bir uyandırma ifadesi dinlemez. Telefonda konuşmayı dokunarak başlat
 
 ## Birincil Cora Max
 
-Ağınızdaki ekipmanı bir Cora Max okur. Aynı kontrolcüye birden fazla Cora Max ulaşabiliyorsa hepsi onu yan yana yoklar.
+Ağınızdaki ekipmanı bir Cora Max okur. Aynı kontrolöre birden fazla Cora Max ulaşabiliyorsa hepsi onu yan yana yoklar.
 
-**Birincil Cora Max**, her akvaryum için o akvaryumun kontrolcüsünü hangi cihazın okuyacağını seçmenizi sağlar. Cora Mobile'da akvaryumu açın ve **Birincil Cora Max**'e dokunun.
+**Birincil Cora Max**, her akvaryum için o akvaryumun kontrolörünü hangi cihazın okuyacağını seçmenizi sağlar. Cora Mobile'da akvaryumu açın ve **Birincil Cora Max**'e dokunun.
 
 | Ayar | Davranış |
 |---|---|
-| Adı verilen bir cihaz | Kontrolcüyü yoklayan tek Cora cihazıdır. Çevrimdışıyken bile birincil kalır ve diğer Cora cihazları devralmaz. Cora Mobile kontrolcüyü yalnızca o cihaz çevrimdışıyken okur. |
+| Adı verilen bir cihaz | Kontrolörü yoklayan tek Cora cihazıdır. Çevrimdışıyken bile birincil kalır ve diğer Cora cihazları devralmaz. Cora Mobile kontrolörü yalnızca o cihaz çevrimdışıyken okur. |
 | **Aktif olan herhangi biri (otomatik)** | Cora Mobile ve çevrimiçi her Cora cihazı işi paylaşır (en son yazan kazanır). Biri çevrimdışı olursa diğeri devam eder. Tek cihazlı bir ev için uygundur ve akvaryumun hangi cihaza ait olması gerektiğinden emin değilseniz daha güvenli seçimdir. |
 
 Adını verdiğiniz cihaz çevrimdışıyken, onun üzerinden gitmesi gereken bir komut çalışmaz. Cora size akvaryumun o cihazı kullanacak şekilde ayarlandığını, cihazın çevrimdışı olduğunu ve hiçbir şeyin çalışmadığını söyler. Cihaz geri geldiğinde tekrar deneyin. Bir süre çevrimdışı kalacaksa başka bir cihaz ya da **Aktif olan herhangi biri (otomatik)** seçin.
 
 :::note Bir akvaryumu iki cihaz mı izliyor? Birincil seçin
-Bir birincil cihaz seçmek kontrolcünün yükünü azaltır ve aynı kaynaktan gelen tekrarlanan ölçümleri ortadan kaldırır.
+Bir birincil cihaz seçmek kontrolörün yükünü azaltır ve aynı kaynaktan gelen tekrarlanan ölçümleri ortadan kaldırır.
 :::
 
 :::note Bu ayar akvaryuma aittir

@@ -2,7 +2,7 @@
 title: Häufige Fragen
 description: Kurze Antworten dazu, was du brauchst, zu Cora Max, Cora unterwegs, Ausrüstung, Warnungen, Reef Buddy, Sprachen, Abos und deinen Daten.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -72,7 +72,7 @@ Cora Max und Cora Mobile zeigen weiter die letzten Daten, die sie haben, und arb
 
 ### Kann ich Cora Max in ein neues WLAN oder an einen neuen Router umziehen? {#can-i-move-cora-max-to-a-new-wi-fi}
 
-Ja. Verbinde Cora Max unter **Einstellungen → Cora Max-Einstellungen → Wi-Fi** mit dem neuen Netzwerk. Deine Becken, Geräte und dein Konto bleiben gleich. Ausrüstung im alten Netzwerk ist nicht mehr erreichbar, bis sie sich mit dem neuen verbindet. Verbinde also jedes Gerät so neu, wie du es beim ersten Mal hinzugefügt hast. Mehr dazu unter [Cora Max einrichten](/help/max-setup).
+Ja. Verbinde Cora Max unter **Einstellungen → Cora Max-Einstellungen → WLAN** mit dem neuen Netzwerk. Deine Becken, Geräte und dein Konto bleiben gleich. Ausrüstung im alten Netzwerk ist nicht mehr erreichbar, bis sie sich mit dem neuen verbindet. Verbinde also jedes Gerät so neu, wie du es beim ersten Mal hinzugefügt hast. Mehr dazu unter [Cora Max einrichten](/help/max-setup).
 
 ## Cora Mobile
 
@@ -82,7 +82,7 @@ Den Zugriff auf das lokale Netzwerk braucht es, um WLAN-Ausrüstung zu finden un
 
 ### Kann ich nach meinem Becken sehen, wenn ich nicht zu Hause bin? {#can-i-check-on-my-tank-away}
 
-Ja. Mit einem Cora Max am Becken bleiben deine Messwerte aktuell, wo immer du bist. Ohne Cora Max zeigt ein Neptune Apex-, Red Sea- oder Jecod-Gerät die letzten Messwerte, die dein Handy gespeichert hat, als es im selben WLAN war. Ein AquaWiz wird über die Cloud seines Herstellers abgefragt und aktualisiert sich deshalb so oder so. Von Hand eingetragene Messwerte und der Verlauf des Beckens sind immer da.
+Ja. Mit einem Cora Max am Becken bleiben deine Messwerte aktuell, wo immer du bist. Ohne Cora Max zeigt ein Neptune Apex-, Red Sea- oder Jecod-Gerät die letzten Messwerte, die dein Handy gespeichert hat, als es im selben WLAN war. Ein AquaWiz wird über die Cloud seines Herstellers abgefragt und aktualisiert sich deshalb so oder so, von dort aber nur alle 12 Stunden. Von Hand eingetragene Messwerte und der Verlauf des Beckens sind immer da.
 
 ### Kann ich Ausrüstung steuern, wenn ich nicht zu Hause bin? {#can-i-control-equipment-away}
 
@@ -192,9 +192,9 @@ Nein. Was schon geschrieben ist, bleibt in seiner ursprünglichen Sprache. Neue 
 
 Was jedes Abo enthält, steht unter [Pläne und Abos](/help/mobile-plans).
 
-### Ist das Max-Abo dasselbe wie Cora Max? {#max-plan-or-cora-max}
+### Ist das Expert-Abo dasselbe wie Cora Max? {#max-plan-or-cora-max}
 
-Nein. Das Abo **Max** ist ein Abonnement in Cora Mobile. Cora Max ist der Wandbildschirm. Für das eine brauchst du das andere nicht.
+Nein. Das Abo **Expert** ist ein Abonnement in Cora Mobile. Cora Max ist der Wandbildschirm. Für das eine brauchst du das andere nicht.
 
 ### Was passiert mit meinem Beckenverlauf, wenn meine Testphase oder mein Abo endet? {#history-when-plan-ends}
 

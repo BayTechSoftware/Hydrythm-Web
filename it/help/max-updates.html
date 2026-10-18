@@ -183,6 +183,7 @@
 <p>In <strong>Impostazioni aggiornamento</strong> nella stessa schermata:</p>
 <ul><li><strong>Finestra di installazione</strong> imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di <strong>Inizio</strong> e di <strong>Fine</strong>, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in <strong>Dispositivi →</strong> il tuo Cora Max <strong>→ Fuso orario</strong>.</li></ul>
 <p>Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in <strong>Impostazioni Cora Max</strong> e scorri fino a <strong>STATO</strong>. Mostra per ogni vasca <strong>Stato polling</strong>, <strong>Ultimo polling</strong>, <strong>Ultima scrittura cloud</strong> e <strong>Salvataggio cloud</strong>.</p>
+<p>Se un aggiornamento si scarica lentamente, controlla la connessione con il <strong>Test di velocità della rete</strong> nella stessa schermata. <strong>Avvia test</strong> scarica fino a 16 MB del file di aggiornamento da Cora Cloud, per al massimo 20 secondi, e mostra la velocità in MB/s.</p>
 <h2 id="quando-ce-un-aggiornamento-disponibile">Quando c'è un aggiornamento disponibile</h2>
 <p>Un messaggio ti dice cosa c'è di nuovo e ti dà due scelte.</p>
 <ul><li><strong>Aggiorna ora</strong> installa subito e riavvia. Ci vuole circa un minuto. Tieni Cora Max alimentato.</li><li><strong>Rinvia di 24 ore</strong> nasconde il messaggio e te lo richiede un giorno dopo.</li></ul>
@@ -196,7 +197,7 @@
 <p>Hai visto il PIN quando hai associato Cora Max. Lo trovi anche in Cora Mobile in <strong>Dispositivi →</strong> il tuo Cora Max <strong>→ PIN di ripristino</strong>. Cora Max non lo mostra mai, così un ospite o un bambino che si appoggia allo schermo non può entrare nel ripristino.</p>
 <p>Se sbagli il PIN tre volte, il ripristino si blocca per 30 secondi, e più a lungo dopo ogni altro tentativo sbagliato. <strong>Troppi tentativi</strong> ti dice quanto aspettare. Se Cora Max non è mai stato online dopo l'associazione, non ha ancora un PIN e mostra <strong>Il ripristino non è disponibile</strong>. Collegalo prima al Wi-Fi.</p>
 <p>Da <strong>Ripristino</strong> puoi:</p>
-<ul><li><strong>Ripeti configurazione Wi-Fi</strong>: scegliere una nuova rete Wi-Fi e una nuova password</li><li><strong>Ri-accoppia questo dispositivo</strong>: cancellare l'associazione e configurarlo di nuovo con Cora Mobile</li><li><strong>Forza controllo OTA</strong>: controllare subito gli aggiornamenti</li><li><strong>Ripristino di fabbrica</strong>: rimuovere l'associazione e ogni impostazione dello schermo</li></ul>
+<ul><li><strong>Ripeti configurazione Wi-Fi</strong>: scegliere una nuova rete Wi-Fi e una nuova password</li><li><strong>Riassocia questo dispositivo</strong>: cancellare l'associazione e configurarlo di nuovo con Cora Mobile</li><li><strong>Forza controllo OTA</strong>: controllare subito gli aggiornamenti</li><li><strong>Ripristino di fabbrica</strong>: rimuovere l'associazione e ogni impostazione dello schermo</li></ul>
 <p>I dati della vasca già salvati in Cora Cloud vengono conservati in ogni caso.</p>
 <p>Se Cora Max non riesce ad avviarsi più volte di fila, può anche tornare da solo alla versione precedente.</p>
 <aside class="cal cal-note"><p class="cal-t">Lo stesso gesto sblocca il blocco bambini</p><p>Se il <a href="/it/help/max-settings#child-lock">Blocco bambini</a> è attivo, tenere cinque dita nell'angolo sblocca anche lo schermo. Tocca <strong>Annulla</strong> nella casella <strong>PIN di ripristino</strong> se volevi solo sbloccare.</p></aside>
@@ -207,7 +208,7 @@
 <h2 id="se-ununita-non-si-riavvia">Se un'unità non si riavvia</h2>
 <p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando la versione mostrata sullo schermo e il messaggio che mostra. Non associarla di nuovo prima. Lo stato dell'associazione spesso aiuta a capire cosa è successo.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-settings"><span>Precedente</span><b>Impostazioni di Cora Max</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.215 e Cora Mobile 0.5.124. Ultimo controllo il 2026-10-17.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ed574cad08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

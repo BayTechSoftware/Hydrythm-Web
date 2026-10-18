@@ -81,9 +81,9 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a></li>
+<li><a href="/pl/help/mobile-dashboard">Jak czytać panel</a></li>
 <li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
-<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a></li>
+<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie panelu</a></li>
 <li><a href="/pl/help/mobile-widgets">Rodzaje widżetów</a></li>
 <li><a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></li>
 </ul></details>
@@ -135,7 +135,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/max-dashboard-editing">Edytowanie pulpitu Cora Max</a></li>
+<li><a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Sprzęt</summary><ul>
@@ -172,9 +172,9 @@
       <h1>Aktywność na Cora Max</h1>
       <p class="twin">W Cora Mobile: <a href="/pl/help/mobile-activity">Aktywność i oś czasu</a></p>
       <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#co-mowi-kazdy-wpis">Co mówi każdy wpis</a></li><li><a href="#cztery-wyniki">Cztery wyniki</a></li><li><a href="#gdy-cos-sie-nie-wykonalo">Gdy coś się nie wykonało</a></li><li><a href="#aktywnosc-i-dziennik">Aktywność i dziennik</a></li></ul></nav>
-<p>Aktywność to dziennik każdej próby zmiany czegoś w Twoim sprzęcie i tego, co się z nią stało. To ten sam dziennik, który pokazuje telefon. Zajrzyj tu najpierw, gdy coś, o co prosisz, chyba się nie wykonało.</p>
+<p>Aktywność to rejestr każdej próby zmiany czegoś w Twoim sprzęcie i tego, co się z nią stało. To ten sam rejestr, który pokazuje telefon. Zajrzyj tu najpierw, gdy coś, o co prosisz, chyba się nie wykonało.</p>
 <p>Otworzysz go z <strong>menu akwarium</strong> (dotknij nazwy akwarium na górnym pasku) albo przez <strong>Ustawienia → [Twoje akwarium] → Aktywność</strong>.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Dziennik aktywności na Cora Max"><img src="/help/img/max-activity.webp" alt="Dziennik aktywności na Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Legenda na górze wyjaśnia każdy wynik.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Rejestr aktywności na Cora Max"><img src="/help/img/max-activity.webp" alt="Rejestr aktywności na Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Legenda na górze wyjaśnia każdy wynik.</figcaption></figure>
 <h2 id="co-mowi-kazdy-wpis">Co mówi każdy wpis</h2>
 <p>Każdy wiersz pokazuje sprzęt i to, o co poproszono, na przykład <em>Pompa powrotna: Wyłączono</em>, oraz godzinę. Mówi też dwie inne rzeczy.</p>
 <p><strong>Co o to poprosiło.</strong> Na przykład <strong>Dotknięcie na tym Cora</strong>, <strong>Głos na tym Cora</strong>, <strong>Aplikacja Cora</strong>, <strong>Głos w aplikacji Cora</strong>, <strong>Reguła automatyzacji</strong> albo <strong>Wysłano z chmury</strong>.</p>
@@ -190,7 +190,7 @@
 <h2 id="aktywnosc-i-dziennik">Aktywność i dziennik</h2>
 <p>Aktywność pokazuje, co zrobił system. <a href="/pl/help/max-records">Dziennik</a> pokazuje, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-records"><span>Poprzedni</span><b>Dziennik, obsada i konserwacja</b></a><a class="pn-n" href="/pl/help/max-intelligence"><span>Następny</span><b>Reef Buddy i raporty</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=a4adc6772e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

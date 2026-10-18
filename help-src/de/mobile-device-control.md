@@ -2,7 +2,7 @@
 title: Deine Ausrüstung steuern
 description: Die Seite eines Geräts öffnen, um seinen Live-Zustand zu sehen und Steckdosen, Pumpen, Dosierköpfe und Tester zu schalten, Marke für Marke.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
@@ -100,8 +100,8 @@ Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut:
 |---|---|---|
 | [ReefDose](#reefdose) | Jeden Kopf, seinen Behälter und was er dosiert hat | Dosieren, die Tagesdosis ändern, den **Dosierplan** bearbeiten |
 | [ReefRun](#reefrun) | Geschwindigkeit und Zustand der Rückförder- und Abschäumerpumpe | Geschwindigkeit ändern, eine Pumpe schalten |
-| [ReefMat](#reefmat) | Verbleibende Rolle, in Tagen und Metern | Die Matte vorschieben, **ReefMat-Einstellungen** festlegen, eine neue Rolle eintragen |
-| [ReefATO+](#reefato) | Füllstand des Reservoirs und Nachfüllaktivität | Eine Reservoir-Warnung festlegen |
+| [ReefMat](#reefmat) | Verbleibende Rolle, in Tagen und Metern | Die Matte weiterspulen, **ReefMat-Einstellungen** festlegen, eine neue Rolle eintragen |
+| [ReefATO+](#reefato) | Füllstand des Reservoirs und Nachfüllaktivität | Eine Nachfüllbehälter-Warnung festlegen |
 
 
 
@@ -130,18 +130,18 @@ ReefRun steuert Rückförder- und Abschäumerpumpen. Es ist keine Strömungspump
 
 ## ReefMat {#reefmat}
 
-Die ReefMat-Seite zeigt, wie viel Rolle übrig ist, in Tagen und Metern. Tippe auf **Jetzt vorschieben**, um die Matte von Hand weiterzuschieben. Cora fragt zuerst **Die Matte jetzt vorschieben?** Du kannst auch eine Nachfüllwarnung für die Rolle festlegen.
+Die ReefMat-Seite zeigt, wie viel Rolle übrig ist, in Tagen und Metern. Tippe auf **Jetzt weiterspulen**, um die Matte von Hand weiterzuspulen. Cora fragt zuerst **Die Matte jetzt weiterspulen?** Du kannst auch eine Nachfüllwarnung für die Rolle festlegen.
 
 Tippe auf das Zahnrad für **ReefMat-Einstellungen**:
 
 - **Geplanter Vorschub** schaltet einen Vorschub zu festen Zeiten ein, getrennt vom Sensor für den automatischen Vorschub, der schon auf der Seite ist. Schalte ihn ein und leg fest, wie oft und wie weit jeder Vorschub die Matte bewegt.
 - **ReefMat-Modell** und **Motorposition** (**Links** oder **Rechts**) sagen Cora, welches Gerät und welche Ausrichtung du hast.
 
-Nachdem du eine neue Rolle eingelegt hast, sag es Cora mit **Neue Rolle**: ihre Dicke und, wenn du ihn kennst, ihren Außendurchmesser. **Jetzt vorschieben** bewegt nur die Matte, die schon eingelegt ist.
+Nachdem du eine neue Rolle eingelegt hast, sag es Cora mit **Neue Rolle**: ihre Dicke und, wenn du ihn kennst, ihren Außendurchmesser. **Jetzt weiterspulen** bewegt nur die Matte, die schon eingelegt ist.
 
 ## ReefATO+ {#reefato}
 
-Die ReefATO+-Seite zeigt den Füllstand des Reservoirs und die letzten Nachfüllungen. Leg mit der Glocke eine Reservoir-Warnung fest. Cora schätzt aus dem jüngsten Nachfüllverbrauch, wie viele Tage das Reservoir noch reicht, und du kannst auch den Assistenten danach fragen.
+Die ReefATO+-Seite zeigt den Füllstand des Nachfüllbehälters und die letzten Nachfüllungen. Leg mit der Glocke eine Warnung für den Nachfüllbehälter fest. Cora schätzt aus dem jüngsten Nachfüllverbrauch, wie viele Tage der Nachfüllbehälter noch reicht, und du kannst auch den Assistenten danach fragen.
 
 ## Wenn sich ein Red Sea-Gerät selbst stoppt {#red-sea-stops}
 
@@ -182,13 +182,15 @@ Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und
 
 Gehört die Pumpe zu einer Gruppe, zeigt die Seite ihre Rolle, etwa **Führt die Gruppe an**, **Folgt: im Gleichschritt** oder **Folgt: wechselnd**.
 
-### Fütterungspause {#jecod-feeding}
+### Futterpause {#jecod-feeding}
 
-Starte eine Fütterungspause unter **Füttern** auf der Seite der Pumpe: Tippe auf **5**, **10**, **15** oder **30** Min. Manche Pumpen beenden die Pause selbst, und die Seite sagt *Die Pumpe beendet das von selbst.*
+Starte eine Futterpause unter **Füttern** auf der Seite der Pumpe: Tippe auf **5**, **10**, **15** oder **30** Min. Manche Pumpen beenden die Pause selbst, und die Seite sagt *Die Pumpe beendet das von selbst.*
 
-:::warning Lass die Seite der Pumpe während einer Fütterungspause offen
+:::warning Lass die Seite der Pumpe während einer Futterpause offen
 Manche Pumpen beenden eine Fütterung nicht von selbst, und die Seite sagt das. Bei diesen, und bei jeder Pumpe mit Zeitplan, holt Cora Mobile das Wellenmuster und den Zeitplan nur zurück, solange die Seite der Pumpe offen bleibt. Verlässt du die Seite, bleibt die Pumpe im Fütterungsmodus gestoppt oder außerhalb ihres Zeitplans, bis du sie wieder änderst oder auf **Zeitplan** tippst.
 :::
+
+Hat dein Haushalt ein Cora Max, beendet es die Fütterung und setzt die Pumpe nach Ablauf der Zeit wieder auf ihr Programm, auch wenn Cora Mobile geschlossen ist. Die Warnung oben gilt dann nur, wenn es kein Cora Max gibt.
 
 Eine Bluetooth-Pumpe muss in Reichweite deines Handys sein, um eine Fütterung zu starten, und eine Netzwerkpumpe muss in deinem Netzwerk sein.
 
@@ -199,6 +201,10 @@ Eine Bluetooth-Pumpe muss in Reichweite deines Handys sein, um eine Fütterung z
 ## AquaWiz {#aquawiz}
 
 Die AquaWiz-Karte zeigt deine Alkalinitäts-Messwerte und den pH-Wert, wenn dein Gerät ihn meldet. Außerdem zeigt sie deinen KH-Zielwert, deine Dosierstärke und, bei einem Gerät mit eingerichteter Dosierung, seine maximale Dosis pro Stunde und wie viel Alkalinitäts-Zusatz noch im Behälter ist. Diese Werte kommen direkt aus deinen AquaWiz-Einstellungen, ändere sie also in der AquaWiz-App. Cora kann einen AquaWiz nicht steuern.
+
+Unter den Messwerten zeigt die Karte, wann der letzte gemessen wurde (zum Beispiel *Gemessen 14:00*) und woher er kam: **Stündlich von deinem Cora Max** oder **Aus der AquaWiz-Cloud, alle 12 Stunden**. Außerdem zeigt sie die **pH-Änderung**. Beim Öffnen der Seite fragt Cora einen frischen Messwert an, und **Jetzt auslesen** fragt noch einmal an, höchstens alle 15 Minuten. Ändert sich ein Messwert nicht, ist das normal: Das Gerät misst nur von Zeit zu Zeit.
+
+Liest ein Cora Max das Gerät jede Stunde aus, zeigt die Karte auch Pumpe, pH-Sonde und Wasserbox-Füllstand. Cora warnt dich, wenn die Pumpe einen Fehler meldet, die pH-Sonde ausgefallen oder fast am Ende ihrer Lebensdauer ist oder der Füllstand der Wasserbox länger als eine Stunde niedrig oder hoch bleibt.
 
 Erfasst dein Gerät seinen Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, standardmäßig bei 100 ml. Ändere das an seiner Regel in der [Warnzentrale](/help/mobile-alerts).
 

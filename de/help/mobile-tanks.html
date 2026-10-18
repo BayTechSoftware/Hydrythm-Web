@@ -186,20 +186,20 @@
 <p>Geh zu <strong>Einstellungen</strong>, tippe auf <strong>Becken neu anordnen</strong> und zieh die Becken in die gewünschte Reihenfolge. Du kannst ein Becken auch an seinem Griff in der Liste auf dem Einstellungsbildschirm ziehen. <strong>Becken neu anordnen</strong> funktioniert erst, wenn du mindestens zwei Becken hast.</p>
 <p>In dieser Reihenfolge wischst du auch durch das Dashboard.</p>
 <h3 id="reef-buddy-and-tank-order">Die Reihenfolge entscheidet, welche Becken Reef Buddy bekommen</h3>
-<p>Dein Abo deckt eine feste Zahl von Becken für das tägliche Briefing von Reef Buddy ab. Cora gibt es den ersten Becken in deiner Reihenfolge unter <strong>Becken neu anordnen</strong>. Bei Plus und während der 30-tägigen Testphase ist das nur dein erstes Becken. Pro deckt 5 Becken ab und Max 20. Mehr dazu unter <a href="/de/help/mobile-plans">Pläne und Abos</a>.</p>
+<p>Dein Abo deckt eine feste Zahl von Becken für das tägliche Briefing von Reef Buddy ab. Cora gibt es den ersten Becken in deiner Reihenfolge unter <strong>Becken neu anordnen</strong>. Bei Essential und während der 30-tägigen Testphase ist das nur dein erstes Becken. Advanced deckt 5 Becken ab und Expert 20. Mehr dazu unter <a href="/de/help/mobile-plans">Pläne und Abos</a>.</p>
 <p>Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte Becken zählen nicht mit.</p>
 <h2 id="removing-a-tank">Ein Becken entfernen</h2>
 <ol><li>Öffne das Beckenprofil: Tippe auf den Stift in der Beckenkopfzeile oder geh zu <strong>Einstellungen</strong>, tippe auf das Becken und wähl <strong>Becken bearbeiten</strong>.</li><li>Scroll ganz nach unten und tippe auf <strong>Becken entfernen</strong>.</li><li>Cora fragt <strong>Dieses Becken entfernen?</strong> Tippe auf <strong>Entfernen</strong>.</li></ol>
 <p>Entfernen blendet das Becken nur aus. Es verschwindet aus deinem Dashboard und deiner Liste unter Einstellungen, aber seine Messwerte, sein Tagebuch und seine Aufzeichnungen bleiben erhalten. Du kannst es jederzeit zurückholen.</p>
-<p>Für ein entferntes Becken hört Folgendes auf: das Briefing von Reef Buddy, Wartungserinnerungen und sein Platz in der Reef Buddy-Zahl deines Abos.</p>
-<aside class="cal cal-warning"><p class="cal-t">Die Ausrüstung eines entfernten Beckens läuft weiter</p><p>Beim Entfernen eines Beckens wird nichts getrennt. Seine Geräte bleiben ihm zugewiesen und melden weiter Daten, ein Cora Max, dem es zugewiesen ist, zeigt es weiter an, und seine Ausrüstung kann dir weiterhin Warnungen schicken.</p>
+<p>Ein entferntes Becken bleibt wegen seines Verlaufs erhalten, wird aber nie angezeigt und bleibt stumm. Es sendet keine Warnungen und keine Erinnerungen, bekommt kein Briefing von Reef Buddy, belegt keinen Platz in der Reef-Buddy-Zählung deines Plans, und seine Automationen stoppen.</p>
+<aside class="cal cal-note"><p class="cal-t">Die Ausrüstung eines entfernten Beckens bleibt verknüpft</p><p>Beim Entfernen eines Beckens wird nichts getrennt. Seine Geräte bleiben ihm zugewiesen, und ein ihm zugewiesenes Cora Max bleibt zugewiesen, aber nichts von diesem Becken wird angezeigt, und keine Warnung und keine Erinnerung erreicht dich.</p>
 <p>Bevor du ein Becken entfernst, verschieb oder entferne seine Geräte im Tab <strong>Geräte</strong>. Öffne dann dein Cora Max unter <strong>Geräte</strong> und tippe neben diesem Becken unter <strong>Zugewiesene Becken</strong> auf das Symbol <strong>Becken entfernen</strong>.</p></aside>
 <p>Wenn du ein Becken entfernst, geht eine anonymisierte Kopie seines Wasserwerte-Verlaufs an die Riffforschung, ohne Verbindung zu dir. Wenn du das nicht willst, schalte vorher <strong>Anonymisierte Beckendaten beisteuern</strong> aus. Siehe <a href="/de/help/mobile-data-export">Deine Daten</a>.</p>
 <h2 id="restoring-a-removed-tank">Ein entferntes Becken wiederherstellen</h2>
 <p>Geh zu <strong>Einstellungen</strong> und tippe auf <strong>Entfernte Becken</strong>. Die Zeile erscheint nur, wenn du ein entferntes Becken hast. Tippe neben dem Becken auf <strong>Wiederherstellen</strong>. Seine Messwerte, sein Tagebuch und seine Geräte kommen genau so zurück, wie sie waren.</p>
 <p>In Cora Mobile kannst du ein einzelnes Becken nicht endgültig löschen. Die Daten eines Beckens löschst du nur, indem du dein Konto löschst. Siehe <a href="/de/help/mobile-data-export">Deine Daten</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-tank-profile"><span>Zurück</span><b>Dein Beckenprofil</b></a><a class="pn-n" href="/de/help/mobile-account"><span>Weiter</span><b>Anmelden und Konto wiederherstellen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

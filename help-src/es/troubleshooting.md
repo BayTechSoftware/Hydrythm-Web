@@ -2,7 +2,7 @@
 title: Solución de problemas
 description: Arregla una lectura desactualizada, un dispositivo que se ha desconectado, una orden que no llegó, un Cora Max que no se empareja o una alerta que no desaparece.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -64,7 +64,7 @@ Son las unidades de visualización del acuario. Tus datos están bien, y los val
 
 ### Un medidor o un umbral se ve distinto después de cambiar las unidades {#a-gauge-or-threshold-looks-different-after-changing-display-}
 
-Es lo esperado. Los medidores, las casillas y el historial se vuelven a dibujar en la unidad que elegiste. Los valores que hay debajo no han cambiado.
+Es lo esperado. Los medidores, las tarjetas y el historial se vuelven a dibujar en la unidad que elegiste. Los valores que hay debajo no han cambiado.
 
 ### Mi panel se ve mal después de editarlo {#my-dashboard-looks-wrong-after-editing}
 
@@ -83,7 +83,7 @@ Tus lecturas, tu historial y tu diario se guardan aparte del diseño, así que n
 
 Cora envía esto cuando un dispositivo se queda en silencio. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Cuánto espera Cora con cada marca está en [Alertas y umbrales](/help/mobile-alerts#stopped-reporting).
 
-1. Revisa la alimentación del dispositivo, y su Wi-Fi o el alcance del Bluetooth.
+1. Revisa la alimentación eléctrica del dispositivo, y su Wi-Fi o el alcance del Bluetooth.
 2. Comprueba que el Cora Max que lo lee está encendido y en línea. Sin un Cora Max, tu teléfono lee un dispositivo Neptune Apex, Red Sea o Jecod solo mientras Cora Mobile está abierta en el mismo Wi-Fi.
 3. Espera a la siguiente lectura. Recibirás una segunda notificación cuando vuelva a informar.
 
@@ -224,7 +224,7 @@ Mientras tanto, tus lecturas se siguen mostrando en Cora Max. Simplemente no se 
 
 El Cora Max principal de este acuario se ha desconectado. Esta pantalla muestra los últimos datos que recibió, así que no son en directo.
 
-1. Revisa la alimentación y el Wi-Fi del Cora Max principal.
+1. Revisa la alimentación eléctrica y el Wi-Fi del Cora Max principal.
 2. Espera a que se vuelva a conectar, o cambia el **Cora Max principal** a un dispositivo que esté en línea.
 
 ### Cora Max no se vuelve a conectar enseguida después de un corte del Wi-Fi {#cora-max-wont-reconnect-right-away-after-a-wi-fi-outage}
@@ -301,13 +301,13 @@ Más información en [Reef Buddy](/help/mobile-reef-buddy).
 
 ### Siguen llegando alertas de un acuario que quité {#alerts-from-a-removed-tank}
 
-Quitar un acuario solo lo oculta. Sus dispositivos siguen vinculados a él, y un Cora Max puede seguir leyéndolo, así que sus equipos pueden seguir informando y enviando alertas.
+Un acuario eliminado se conserva por su historial, pero no envía alertas ni recordatorios y sus automatizaciones se detienen. Si aún recibes alguna:
 
-1. Restáuralo desde **Ajustes → Acuarios eliminados** para poder volver a verlo.
-2. Quita o mueve sus dispositivos en la pestaña **Dispositivos**.
-3. Quítalo de tu Cora Max: en tu teléfono, abre **Dispositivos**, luego tu Cora Max, y en **Acuarios** toca **Quitar acuario** junto a él.
+1. Abre **Ajustes → Acuarios eliminados**. Si el acuario no aparece, no se ha eliminado.
+2. Actualiza Cora Mobile y tu Cora Max a la última versión.
+3. ¿Siguen llegando alertas? Escribe al soporte con el texto de la alerta y la hora a la que llegó. Consulta [Informar de un problema](/help/mobile-support).
 
-Después vuelve a quitar el acuario. Más información en [Gestionar tus acuarios](/help/mobile-tanks).
+Más información en [Gestionar tus acuarios](/help/mobile-tanks).
 
 
 ## Cora Assistant y la voz {#cora-assistant-and-voice}

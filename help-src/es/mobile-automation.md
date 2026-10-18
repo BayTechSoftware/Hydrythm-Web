@@ -2,7 +2,7 @@
 title: Automatizaciones y escenas
 description: Haz que Cora actúe sola ante una lectura, una alerta, una hora o un dispositivo que se desconecta, y agrupa acciones en escenas que ejecutas con un toque.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -124,3 +124,5 @@ Cada regla tiene un interruptor para activarla. Desactivar una regla conserva su
 ## Ver qué hizo una regla {#seeing-what-a-rule-did}
 
 Cada acción que hace una regla queda registrada con **Regla de automatización** como origen. La encontrarás en [Actividad](/help/mobile-activity).
+
+Un paso que falla o que tendría que esperar no se queda pendiente. Caduca al instante, la ejecución se registra como fallida y recibes una notificación que nombra la automatización, el paso y el motivo. Un paso falla, por ejemplo, si su dispositivo está sin conexión, si ningún Cora Max puede ejecutarlo, si el dispositivo lo rechaza o no responde, o si un calentador o enfriador se acaba de conmutar. Por un paso en un acuario eliminado no recibes notificaciones.

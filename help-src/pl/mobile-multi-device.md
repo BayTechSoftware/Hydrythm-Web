@@ -14,13 +14,13 @@ Ta strona jest dla domu z więcej niż jednym Cora Max albo z Cora Max i kilkoma
 
 | Wspólne dla wszystkich urządzeń | Należy do jednego Cora Max |
 |---|---|
-| Akwaria, odczyty i historia | Jego układ pulpitu |
+| Akwaria, odczyty i historia | Jego układ panelu |
 | Urządzenia i ich ustawienia | Wi-Fi, jasność, dźwięk |
 | Dziennik, obsada, konserwacja | Fraza aktywująca i blokada rodzicielska |
 | Alerty, progi, automatyzacje | Które akwaria pokazuje ten ekran |
 | Plany i wykorzystanie | |
 
-Jeśli zmienisz próg na jednym urządzeniu, zmieni się wszędzie. Z układami pulpitu jest inaczej. Układ w telefonie idzie za Twoim kontem, więc każdy telefon, na którym się zalogujesz, pokazuje ten sam. Każdy Cora Max ma własny układ, a telefon i Cora Max nigdy nie dzielą jednego.
+Jeśli zmienisz próg na jednym urządzeniu, zmieni się wszędzie. Z układami panelu jest inaczej. Układ w telefonie idzie za Twoim kontem, więc każdy telefon, na którym się zalogujesz, pokazuje ten sam. Każdy Cora Max ma własny układ, a telefon i Cora Max nigdy nie dzielą jednego.
 
 ## Cora Assistant: Urządzenie odpowiadające {#cora-assistant-answering-device}
 

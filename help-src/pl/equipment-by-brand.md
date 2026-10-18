@@ -2,7 +2,7 @@
 title: Sprzęt według marki
 description: Wszystko o Twoim Neptune Apex, Red Sea ReefBeat, Jecod albo AquaWiz w jednym miejscu, od dodania przez sterowanie po alerty i rozwiązywanie problemów.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 3
 ---
 
@@ -48,7 +48,7 @@ Pompy, które łączą się z Corą przez Twoją sieć albo przez Bluetooth. Od 
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora odczytuje go przez własną chmurę AquaWiz, więc aktualizuje się także bez Cora Max.
+Cora odczytuje go co 12 godzin przez własną chmurę AquaWiz, więc aktualizuje się także bez Cora Max. Cora Max przy akwarium może dodać odczyt co godzinę.
 
 - Dodawanie: [Podłączanie sprzętu](/help/mobile-connections#aquawiz-kh-controller)
 - W telefonie: [AquaWiz](/help/mobile-device-control#aquawiz)

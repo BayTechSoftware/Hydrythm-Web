@@ -2,7 +2,7 @@
 title: ICP e report di salute
 description: Carica il PDF di un test ICP o fallo inviare dal tuo laboratorio, leggi il punteggio, segui ogni elemento nel tempo e avvia un Report di salute di tutto l'impianto.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -85,6 +85,8 @@ Ogni elemento viene seguito, compresi elementi in traccia e contaminanti oltre a
 Su ogni riga di elemento vedi l'intervallo stampato dal laboratorio, indicato come *Intervallo del laboratorio*, accanto all'intervallo di Cora per quell'elemento. Un elemento per cui Cora non ha un intervallo di riferimento ha l'etichetta **Nessun intervallo Cora**. Il report dice quanti elementi hanno un intervallo Cora e valuta gli altri in base alla conoscenza generale del reef. Cora Assistant commenta ogni elemento testato, e il suo commento vale anche quando non c'è un intervallo Cora.
 
 Se il laboratorio stampa *n.d.*, o *not detected*, per un elemento, Cora lo registra come 0 e dice che non è stato rilevato.
+
+Se un laboratorio riporta il **peso specifico** (o la densità relativa) al posto della salinità, Cora lo registra come salinità, sempre mostrata in SG, e lo valuta in base al tuo intervallo di salinità.
 
 :::note La CO2 disciolta non è la CO2 della stanza
 La **CO₂ disciolta** in un report ICP è la CO2 nell'acqua, in mg/L. È una lettura diversa dalla CO2 dell'aria della stanza. Le due hanno intervalli diversi e non vengono mai mescolate.

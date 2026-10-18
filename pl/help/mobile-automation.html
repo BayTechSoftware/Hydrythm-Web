@@ -81,9 +81,9 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a></li>
+<li><a href="/pl/help/mobile-dashboard">Jak czytać panel</a></li>
 <li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
-<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a></li>
+<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie panelu</a></li>
 <li><a href="/pl/help/mobile-widgets">Rodzaje widżetów</a></li>
 <li><a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></li>
 </ul></details>
@@ -135,7 +135,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/max-dashboard-editing">Edytowanie pulpitu Cora Max</a></li>
+<li><a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Sprzęt</summary><ul>
@@ -175,7 +175,7 @@
 <p>Automatyzacja to reguła, którą Cora wykonuje za Ciebie: <em>gdy stanie się to, sprawdź tamto, a potem zrób to.</em> Scena łączy kilka akcji w jedną całość, którą uruchamiasz, kiedy chcesz.</p>
 <p>Przejdź do <strong>Ustawienia → Automatyzacje</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Ekran Automatyzacje w Cora Mobile, z zakładkami Automatyzacje i Sceny"><img src="/help/img/mobile-automation.webp" alt="Ekran Automatyzacje w Cora Mobile, z zakładkami Automatyzacje i Sceny" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Automatyzacje i Sceny to osobne zakładki. Każda reguła ma własny przełącznik.</figcaption></figure>
-<p>Ekran ma dwie zakładki, <strong>Automatyzacje</strong> i <strong>Sceny</strong>, z przyciskiem <strong>Nowa automatyzacja</strong> albo <strong>Nowy scenariusz</strong>. Każda reguła pokazuje jednolinijkowe podsumowanie, przełącznik i menu z <strong>Edytuj</strong> albo <strong>Usuń</strong>. Reguła, która jeszcze nie zadziałała, mówi o tym.</p>
+<p>Ekran ma dwie zakładki, <strong>Automatyzacje</strong> i <strong>Sceny</strong>, z przyciskiem <strong>Nowa automatyzacja</strong> albo <strong>Nowa scena</strong>. Każda reguła pokazuje jednolinijkowe podsumowanie, przełącznik i menu z <strong>Edytuj</strong> albo <strong>Usuń</strong>. Reguła, która jeszcze nie zadziałała, mówi o tym.</p>
 <aside class="cal cal-warning"><p class="cal-t">Reguły działają na prawdziwy sprzęt</p><p>Jeśli reguła przełącza pompę, pompa przełączy się także wtedy, gdy nie patrzysz. Twórz reguły po jednej i sprawdź, czy każda robi to, czego się spodziewasz, zanim dodasz następną.</p></aside>
 <h2 id="shape">Budowa reguły</h2>
 <p>Każda automatyzacja ma trzy części.</p>
@@ -196,12 +196,12 @@
 <ul><li><strong>Czas wstrzymania między wykonaniami</strong> nie pozwala regule zadziałać ponownie za szybko. Zaczyna się od 10 min.</li><li><strong>Wykonuj tylko między</strong> ogranicza regułę do okna czasowego, na przykład tylko w dzień.</li><li><strong>Testuj z wartościami na żywo</strong> sprawdza regułę na bieżących odczytach akwarium, nic nie robiąc. Mówi, co <em>by się wykonało</em> albo dlaczego nic by się nie wykonało.</li></ul>
 <h2 id="actions">Co może zrobić reguła</h2>
 <p>Akcja, która wymaga sprzętu, pojawia się tylko przy akwarium, które ma ten sprzęt.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Akcja</th><th>Co robi</th></tr></thead><tbody><tr><td data-th="Akcja"><strong>Steruj sprzętem Apex</strong></td><td data-th="Co robi">Przełącza gniazdo</td></tr><tr><td data-th="Akcja"><strong>Uruchom cykl karmienia Apex</strong></td><td data-th="Co robi">Zaczyna karmienie. Apex kończy je według własnego licznika</td></tr><tr><td data-th="Akcja"><strong>Uruchom test Trident</strong></td><td data-th="Co robi">Zaczyna test. Każde uruchomienie zużywa odczynnik</td></tr><tr><td data-th="Akcja"><strong>Zdawkuj z głowicy DŌS</strong></td><td data-th="Co robi">Podaje odmierzoną dawkę z głowicy DŌS</td></tr><tr><td data-th="Akcja"><strong>Steruj sprzętem Red Sea™</strong></td><td data-th="Co robi">Steruje urządzeniem ReefBeat</td></tr><tr><td data-th="Akcja"><strong>Steruj pompą cyrkulacyjną</strong></td><td data-th="Co robi">Ustawia przepływ, tryb fali albo zasilanie pompy Jecod™ albo <strong>Wstrzymaj na czas karmienia</strong>. Cora Max przy akwarium przywraca pompę, gdy karmienie się skończy</td></tr><tr><td data-th="Akcja"><strong>Powiadom mnie</strong></td><td data-th="Co robi">Wysyła Ci powiadomienie z własnym <strong>Tytułem</strong> i <strong>Wiadomością</strong></td></tr><tr><td data-th="Akcja"><strong>Czekaj przed następnym krokiem</strong></td><td data-th="Co robi">Robi przerwę przed kontynuacją</td></tr><tr><td data-th="Akcja"><strong>Uruchom scenariusz</strong></td><td data-th="Co robi">Uruchamia scenę z wnętrza tej reguły</td></tr><tr><td data-th="Akcja"><strong>Zarządzaj automatyzacją</strong></td><td data-th="Co robi">Włącza albo wyłącza inną regułę</td></tr><tr><td data-th="Akcja"><strong>Utwórz zadanie konserwacyjne</strong></td><td data-th="Co robi">Dodaje pracę do listy <a href="/pl/help/mobile-maintenance">konserwacji</a> akwarium, na przykład wymianę wkładu skrubera CO2, gdy pH spadnie poniżej wartości</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Akcja</th><th>Co robi</th></tr></thead><tbody><tr><td data-th="Akcja"><strong>Steruj sprzętem Apex</strong></td><td data-th="Co robi">Przełącza gniazdo</td></tr><tr><td data-th="Akcja"><strong>Uruchom cykl karmienia Apex</strong></td><td data-th="Co robi">Zaczyna karmienie. Apex kończy je według własnego timera</td></tr><tr><td data-th="Akcja"><strong>Uruchom test Trident</strong></td><td data-th="Co robi">Zaczyna test. Każde uruchomienie zużywa odczynnik</td></tr><tr><td data-th="Akcja"><strong>Zdawkuj z głowicy DŌS</strong></td><td data-th="Co robi">Podaje odmierzoną dawkę z głowicy DŌS</td></tr><tr><td data-th="Akcja"><strong>Steruj sprzętem Red Sea™</strong></td><td data-th="Co robi">Steruje urządzeniem ReefBeat</td></tr><tr><td data-th="Akcja"><strong>Steruj pompą cyrkulacyjną</strong></td><td data-th="Co robi">Ustawia przepływ, tryb fali albo zasilanie pompy Jecod™ albo <strong>Wstrzymaj na czas karmienia</strong>. Cora Max przy akwarium przywraca pompę, gdy karmienie się skończy</td></tr><tr><td data-th="Akcja"><strong>Powiadom mnie</strong></td><td data-th="Co robi">Wysyła Ci powiadomienie z własnym <strong>Tytułem</strong> i <strong>Wiadomością</strong></td></tr><tr><td data-th="Akcja"><strong>Czekaj przed następnym krokiem</strong></td><td data-th="Co robi">Robi przerwę przed kontynuacją</td></tr><tr><td data-th="Akcja"><strong>Uruchom scenę</strong></td><td data-th="Co robi">Uruchamia scenę z wnętrza tej reguły</td></tr><tr><td data-th="Akcja"><strong>Zarządzaj automatyzacją</strong></td><td data-th="Co robi">Włącza albo wyłącza inną regułę</td></tr><tr><td data-th="Akcja"><strong>Utwórz zadanie konserwacyjne</strong></td><td data-th="Co robi">Dodaje pracę do listy <a href="/pl/help/mobile-maintenance">konserwacji</a> akwarium, na przykład wymianę wkładu skrubera CO2, gdy pH spadnie poniżej wartości</td></tr></tbody></table></div>
 <aside class="cal cal-warning"><p class="cal-t">Dawki nie da się cofnąć i ma limit</p><p>Dawki nie wyjmiesz z akwarium. Reguła może dozować tylko z głowicy, którą zmierzono funkcją <strong>Zmierz, aby dozować</strong> na Cora Max. Dawkę wykonuje Cora Max przy akwarium. Dozowanie z reguł ma limit <strong>10 mL na głowicę dziennie</strong>, niezależnie od tego, jak reguła jest napisana.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Co robi Utwórz zadanie konserwacyjne</p><p>Wybierz akwarium, a potem <strong>Istniejące zadanie</strong> (istniejące zadanie dostaje termin na teraz) albo <strong>Nowe zadanie</strong> (podaj <strong>Nazwę zadania</strong>). Nowe zadanie jest jednorazowe, z terminem od razu, a reguła nie tworzy go ponownie, dopóki jest otwarte. Dostajesz jedno powiadomienie, a jednorazowe zadanie znika z listy, gdy je wykonasz.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Czekanie jest krótkie</p><p><strong>Czekaj przed następnym krokiem</strong> robi przerwę do 60 sekund, a gałąź może czekać łącznie 60 sekund. Po przerwie następny krok widzi świeże odczyty. Do dłuższego wstrzymania, na przykład pompy powrotnej wyłączonej na 30 minut podczas podmiany wody, użyj sceny z <strong>Działaj przez</strong> (niżej).</p></aside>
 <h2 id="scenes">Sceny</h2>
-<p>Scena to nazwana grupa akcji, na przykład „Podmiana wody”, „Tryb zdjęć” albo „Noc”. Dotknij <strong>Nowa automatyzacja</strong> albo <strong>Nowy scenariusz</strong> i wybierz <strong>Scena</strong> na górze. Scena nie ma wyzwalacza. Uruchamiasz ją przyciskiem <strong>Uruchom teraz</strong> na liście, z wnętrza reguły przez <strong>Uruchom scenariusz</strong> albo według harmonogramu przez regułę z <strong>O określonej godzinie</strong>.</p>
+<p>Scena to nazwana grupa akcji, na przykład „Podmiana wody”, „Tryb zdjęć” albo „Noc”. Dotknij <strong>Nowa automatyzacja</strong> albo <strong>Nowa scena</strong> i wybierz <strong>Scena</strong> na górze. Scena nie ma wyzwalacza. Uruchamiasz ją przyciskiem <strong>Uruchom teraz</strong> na liście, z wnętrza reguły przez <strong>Uruchom scenę</strong> albo według harmonogramu przez regułę z <strong>O określonej godzinie</strong>.</p>
 <p><strong>Działaj przez</strong> ustala, jak długo trwa scena: liczbę minut albo godzin albo <strong>Aż to zmienię</strong>. Gdy czas minie, Cora przełącza gniazda sceny z powrotem do stanu sprzed sceny. Pozostały sprzęt zostaje taki, jakim zostawiła go scena. Gdy działa scena czasowa, lista pokazuje odliczanie i przycisk <strong>Zatrzymaj</strong>, który kończy ją wcześniej.</p>
 <p>Jeśli scena przełącza ważne gniazdo, na przykład grzałkę, chłodziarkę, pompę powrotną albo dolewkę, Cora pyta przed jej uruchomieniem i wymienia te kroki. Możesz to wyłączyć przełącznikiem <strong>Pytaj przed uruchomieniem</strong> w scenie.</p>
 <p>Scena może wywołać inną scenę, do 3 poziomów w głąb. Cora nie uruchomi sceny, która wywołuje samą siebie, bo mogłaby się zapętlić i ciągle działać na akwarium.</p>
@@ -212,8 +212,9 @@
 <p>Każda reguła ma przełącznik. Wyłączenie reguły zachowuje jej ustawienia, co przydaje się, gdy chcesz do niej wrócić w kolejnym sezonie.</p>
 <h2 id="seeing-what-a-rule-did">Co zrobiła reguła</h2>
 <p>Każda akcja wykonana przez regułę jest zapisywana z przyczyną <strong>Reguła automatyzacji</strong>. Znajdziesz ją w <a href="/pl/help/mobile-activity">Aktywności</a>.</p>
+<p>Krok, który się nie powiódł albo musiałby czekać, nie zostaje w zawieszeniu. Wygasa od razu, przebieg jest zapisany jako nieudany, a Ty dostajesz powiadomienie z nazwą automatyzacji, krokiem i przyczyną. Krok nie udaje się na przykład wtedy, gdy jego urządzenie jest offline, żaden Cora Max nie może go wykonać, urządzenie go odrzuca albo nie odpowiada, albo grzałka lub chłodziarka została przełączona chwilę temu. Dla kroku na usuniętym akwarium nie dostajesz powiadomienia.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-notifications"><span>Poprzedni</span><b>Powiadomienia</b></a><a class="pn-n" href="/pl/help/mobile-vacation"><span>Następny</span><b>Wyjazd: plan dla opiekuna akwarium</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -604,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=a4adc6772e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

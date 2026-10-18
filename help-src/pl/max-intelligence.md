@@ -12,7 +12,7 @@ Cora Max pokazuje te same spostrzeżenia co telefon, na ekranie na tyle dużym, 
 
 ## Poranne podsumowanie
 
-Codziennie o Twojej **Godzinie podsumowania**, gdy dzisiejsze podsumowanie jest gotowe, Reef Buddy pojawia się nad pulpitem. Jeśli **Podsumowanie Reef Buddy** jest włączone, Cora odczytuje je na głos. Zamyka się samo po dziesięciu minutach, jeśli nikt go nie dotknie, albo możesz je zamknąć wcześniej.
+Codziennie o Twojej **Godzinie podsumowania**, gdy dzisiejsze podsumowanie jest gotowe, Reef Buddy pojawia się nad panelem. Jeśli **Podsumowanie Reef Buddy** jest włączone, Cora odczytuje je na głos. Zamyka się samo po dziesięciu minutach, jeśli nikt go nie dotknie, albo możesz je zamknąć wcześniej.
 
 Żeby przeczytać je ponownie, dotknij ikony **Reef Buddy** na górnym pasku. Kropka na ikonie oznacza, że dzisiejszego podsumowania jeszcze nie otwarto. Pełny ekran Reef Buddy jest w menu akwarium.
 
@@ -49,7 +49,7 @@ Po wyczyszczeniu, kalibracji albo wymianie sondy zapisz to, żeby Cora nie wzię
 
 Ten ekran pokazuje przesłane wyniki z oceną i podsumowaniem każdego z nich, a także trendy ze wszystkich raportów.
 
-Ocena na 100 wynika z porównania Twoich wyników z ich zakresami. Jeśli jakikolwiek parametr jest poza zakresem, ocena nie przekroczy 70. Jeśli któryś jest daleko poza zakresem, nie przekroczy 40. Kolor pokazuje przedział. Zielony (dobrze) to powyżej 70, bursztynowy (wymaga uwagi) od 40 do 70, a czerwony (stan krytyczny) poniżej 40.
+Ocena na 100 wynika z porównania Twoich wyników z ich zakresami. Jeśli jakikolwiek parametr jest poza zakresem, ocena nie przekroczy 70. Jeśli któryś jest daleko poza zakresem, nie przekroczy 40. Kolor pokazuje przedział. Zielony (dobrze) to powyżej 70, pomarańczowy (wymaga uwagi) od 40 do 70, a czerwony (stan krytyczny) poniżej 40.
 
 Wyniki przesyłasz z telefonu. Więcej w [ICP i raportach zdrowia](/help/mobile-icp-health).
 
@@ -62,7 +62,7 @@ Raport zdrowia możesz uruchomić i przeczytać przy ścianie. Otwórz **Raporty
 
 ## Wykresy historii
 
-Otwórz **menu akwarium** i dotknij **Historia parametrów**, a potem wybierz parametr. Otworzy się jako wykres na pełnym ekranie. Dotknięcie kafelka na pulpicie otwiera ten sam wykres. Na ekranie na ścianie to najlepszy sposób, żeby zauważyć powolny dryf. Miesiąc alkaliczności na pełnym ekranie pokaże trend, którego mały kafelek nie pokaże.
+Otwórz **menu akwarium** i dotknij **Historia parametrów**, a potem wybierz parametr. Otworzy się jako wykres na pełnym ekranie. Dotknięcie kafelka na panelu otwiera ten sam wykres. Na ekranie na ścianie to najlepszy sposób, żeby zauważyć powolny dryf. Miesiąc alkaliczności na pełnym ekranie pokaże trend, którego mały kafelek nie pokaże.
 
 - Nazwa parametru w nagłówku to lista rozwijana, więc możesz zmienić parametr i zachować zakres czasu.
 - **Zakres czasu** ustawia okres.
@@ -75,7 +75,7 @@ Dla alkaliczności, wapnia i magnezu przycisk **Kalkulator dawki** na górze lic
 
 ## Ścieżki z przewodnikiem
 
-Aktywna ścieżka wyświetla się jako wąski baner na górze pulpitu akwarium. Dotknij go, żeby zobaczyć kroki i postęp.
+Aktywna ścieżka wyświetla się jako wąski baner na górze panelu akwarium. Dotknij go, żeby zobaczyć kroki i postęp.
 
 Przy nowym akwarium, które się cykluje, możesz tu zapisywać odczyty. **Zapisz test** na ekranie cyklowania zapisuje amoniak, azotyny i azotany bez sięgania po telefon.
 

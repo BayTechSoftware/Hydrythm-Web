@@ -54,7 +54,7 @@ Eşik sayfasının üstünde, **Uyarı açık** ya da **Uyarı kapalı** yazıs�
 
 ## Cihaz ve sarf malzemesi uyarıları {#doser-alerts}
 
-Bir şeyi tükenen ekipmanın Cora Max'teki sayfasında bir **Uyarı ayarları** düğmesi bulunur. Bunlar şunlardır: Trident (reaktifler ve atık), DŌS kafaları, Red Sea ReefDose, ReefATO+ ve ReefMat. Haber almak istediğiniz seviyeyi seçin, seviye aşıldığında tek bir bildirim alırsınız. Bir DŌS kafasında **Kaçırılan dozaj uyarıları**, kafa programlanmış dozlarını kaçırdığında da size haber verir.
+Bir şeyi tükenen ekipmanın Cora Max'teki sayfasında bir **Uyarı ayarları** düğmesi bulunur. Bunlar şunlardır: Trident (reaktifler ve atık), DŌS kafaları, Red Sea ReefDose, ReefATO+ ve ReefMat. Haber almak istediğiniz seviyeyi seçin, seviye aşıldığında tek bir bildirim alırsınız. Bir DŌS kafasında **Kaçırılan dozaj uyarıları**, kafa zamanlanmış dozlarını kaçırdığında da size haber verir.
 
 Her dozaj pompası uyarısının ne anlama geldiği [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümünde.
 

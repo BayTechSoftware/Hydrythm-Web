@@ -1,8 +1,8 @@
 ---
 title: Comment faire...?
-description: Une liste de tâches courantes dans Cora Mobile et sur Cora Max, chacune reliée aux étapes exactes, de la création de votre compte à l’association de Cora Max et à la résiliation d’un forfait.
+description: Une liste de tâches courantes dans Cora Mobile et sur Cora Max, chacune associée aux étapes exactes, de la création de votre compte à l’association de Cora Max et à la résiliation d’un forfait.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 

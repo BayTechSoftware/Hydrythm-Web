@@ -2,7 +2,7 @@
 title: Konserwacja
 description: Dodawaj powtarzalne prace, takie jak czyszczenie odpieniacza albo wymiana skarpet filtracyjnych, dostawaj przypomnienia o terminach i oznaczaj zadania jako wykonane albo je odkładaj.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 28
 group: Records
 twin: max-records
@@ -10,7 +10,7 @@ twin: max-records
 
 Konserwacja przechowuje prace, których akwarium regularnie wymaga, z przypomnieniem dla każdej z nich.
 
-Dotknij **Konserwacja** w rzędzie przycisków pod pulpitem. Znajdziesz ją też w Ustawieniach → Twoje akwarium → **Konserwacja**.
+Dotknij **Konserwacja** w rzędzie przycisków pod panelem. Znajdziesz ją też w Ustawieniach → Twoje akwarium → **Konserwacja**.
 
 ![Lista konserwacji](img/mobile-maintenance.webp "Zgodność, liczba zaległych zadań i każde zadanie z ostatnim wykonaniem i kolejnym terminem.")
 
@@ -51,10 +51,10 @@ Gdy podłączysz Red Sea ReefDose, ReefATO+, ReefMat albo ReefRun, Cora dodaje s
 | ReefATO+ | Wymień czujnik EC ReefATO+ | 42 dni |
 | ReefATO+ | Wymień pompę powrotną ReefATO+ | 135 dni |
 | ReefMat | Wymień węgiel w ReefMat | 25 dni |
-| ReefRun | Sprawdź venturi skimmera ReefRun | 35 dni |
-| ReefRun | Wymień wirnik skimmera ReefRun | 135 dni |
+| ReefRun | Sprawdź venturi odpieniacza ReefRun | 35 dni |
+| ReefRun | Wymień wirnik odpieniacza ReefRun | 135 dni |
 | ReefRun | Skalibruj czujnik pełnego kubka ReefRun | 28 dni |
-| ReefRun | Skalibruj czujnik nadmiernego skimowania ReefRun | 28 dni |
+| ReefRun | Skalibruj czujnik nadmiernego odpieniania ReefRun | 28 dni |
 | ReefRun, każda pompa | Zrób przegląd silnika pompy ReefRun | 135 dni |
 | ReefRun, każda pompa | Wyczyść sitko pompy ReefRun | 42 dni |
 | ReefDose, każda głowica | Skalibruj głowicę ReefDose | 90 dni |
@@ -80,13 +80,19 @@ Przypomnienia należą do **Przypomnień o konserwacji** w [Ustawienia → Powia
 
 Przesuń zadanie palcem w prawo albo otwórz je i dotknij **Zakończ**. Jeśli przesunięto je przez pomyłkę, dotknij **Cofnij** w komunikacie, który się pojawi.
 
-Cora zapisuje godzinę zakończenia i od niej liczy następny termin. Jeśli więc zrobisz coś trzy dni po terminie, następny termin też przesunie się o trzy dni.
+Cora zapisuje godzinę zakończenia i od niej liczy następny termin. Jeśli więc zrobisz coś trzy dni po terminie, następny termin też przesunie się o trzy dni. Jeśli zadanie jest po terminie, Cora najpierw pyta **Kiedy to zostało zrobione?** Wybierz **Przed chwilą** albo **Wybierz datę i godzinę**, jeśli zrobiono to wcześniej (patrz niżej).
 
 Arkusz zadania pokazuje **Historię zakończeń**, w tym to, jak bardzo każde wykonanie było spóźnione.
 
 :::note Wykonanie zadania tworzy też wpis w dzienniku
 Cora dodaje za Ciebie krótki wpis w [dzienniku](/help/mobile-journal), z informacją, czy zadanie było spóźnione. Dodaj własny wpis, gdy jest coś więcej do powiedzenia, na przykład gdy pompa była pełna piasku albo skarpety były czarne po jednym dniu.
 :::
+
+## Oznaczanie zadania jako zrobionego wcześniej {#done-earlier}
+
+Zrobiono to wczoraj i zapomniano odhaczyć? Otwórz zadanie, dotknij **Zrobione wcześniej…** i wybierz datę oraz godzinę. Cora datuje wykonanie, wpis w dzienniku i następny termin od tej godziny, więc następny termin to wybrana godzina plus odstęp.
+
+Możesz cofnąć się o najwyżej rok, ale nie przed ostatnie wykonanie zadania. Jeśli wybierzesz godzinę, która jeszcze nie nadeszła, albo wcześniejszą niż ostatnie wykonanie, Cora to zgłosi i niczego nie zapisze.
 
 ## Edytowanie zadania {#editing}
 
@@ -97,7 +103,7 @@ Dotknij zadania, żeby je otworzyć. Możesz zmienić **Nazwę zadania**, **Inte
 Nie możesz teraz zająć się pracą? Otwórz ją, dotknij **Odłóż** i wybierz **1 dzień**, **3 dni**, **1 tydzień**, **2 tygodnie** albo **1 miesiąc**. Zostanie na liście jako **Odłożone** z nową datą i do tego czasu nie dostaniesz przypomnienia.
 
 :::warning Oznaczaj zadanie jako wykonane dopiero po wykonaniu
-Następny termin liczy się od dnia, w którym oznaczysz zadanie jako wykonane. Jeśli oznaczysz otwarte zadanie jako wykonane, przesuną się wszystkie kolejne terminy. Zamiast tego je odłóż.
+Następny termin liczy się od chwili, w której zadanie zostało zrobione. Jeśli oznaczysz otwarte zadanie jako wykonane, przesuną się wszystkie kolejne terminy. Jeśli zrobiono je wcześniej, użyj **Zrobione wcześniej…** i wybierz prawdziwą godzinę. Jeśli go nie zrobiono, zamiast tego odłóż zadanie.
 :::
 
 Zadania nie da się wstrzymać. Pracę, która nie dotyczy bieżącego sezonu, odłóż na **1 miesiąc** albo usuń i dodaj ponownie później.

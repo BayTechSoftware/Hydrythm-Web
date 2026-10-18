@@ -2,7 +2,7 @@
 title: Automationen und Szenen
 description: Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Szenen zusammenfassen, die du mit einem Tippen startest.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -124,3 +124,5 @@ Jede Regel hat einen Schalter zum Aktivieren. Schaltest du eine Regel aus, bleib
 ## Sehen, was eine Regel getan hat {#seeing-what-a-rule-did}
 
 Jede Aktion, die eine Regel ausführt, wird mit **Automationsregel** als Auslöser festgehalten. Du findest sie unter [Aktivität](/help/mobile-activity).
+
+Ein Schritt, der fehlschlägt oder warten müsste, bleibt nicht offen. Er verfällt sofort, der Lauf wird als fehlgeschlagen festgehalten, und du bekommst eine Benachrichtigung, die die Automation, den Schritt und den Grund nennt. Ein Schritt scheitert zum Beispiel, wenn sein Gerät offline ist, kein Cora Max ihn ausführen kann, das Gerät ihn ablehnt oder nicht antwortet oder ein Heizer oder Kühler gerade erst geschaltet wurde. Für einen Schritt in einem entfernten Becken bekommst du keine Benachrichtigung.

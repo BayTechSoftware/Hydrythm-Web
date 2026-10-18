@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Dein tägliches Reef Buddy-Briefing, was es abdeckt, wann es kommt, wie du die Bewertungen liest und warum ein Briefing vielleicht nicht kommt.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -50,9 +50,9 @@ Messwerte von Sonden und Controllern lösen dieses Angebot nicht aus, weil sie d
 
 ## Warum du ein Insight siehst
 
-Tippe unter einem Insight auf **Warum sehe ich das?** Das Fenster **Darum siehst du das** listet die **Verwendete Messwerte** auf, den **Verglichener Zielwert** (dein eigener Zielwert oder ein Referenzbereich), alles **Aus deinem Journal**, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter [Ein Insight korrigieren](#ein-insight-korrigieren) beschrieben.
+Tippe unter einem Insight auf **Warum sehe ich das?** Das Fenster **Darum siehst du das** listet die **Verwendete Messwerte** auf, den **Verglichener Zielwert** (dein eigener Zielwert oder ein Referenzbereich), alles **Aus deinem Tagebuch**, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter [Ein Insight korrigieren](#ein-insight-korrigieren) beschrieben.
 
-Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts und die Summen deiner DŌS-Köpfe.
+Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtzeitpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts und die Summen deiner DŌS-Köpfe.
 
 
 ## Wann es kommt
@@ -85,7 +85,7 @@ Hast du eine Woche lang nichts getestet, sinkt der Daten-Wert, und die Stabilit�
 
 Reef Buddy gehört zu den bezahlten Abos. Es ist auch in der 30-tägigen Testphase enthalten, die beginnt, wenn du dein Konto anlegst.
 
-Jedes Abo deckt eine feste Zahl von Becken ab: 1 in der Testphase und bei Plus, 5 bei Pro und 20 bei Max. Briefings gehen an die ersten Becken in der Reihenfolge unter **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, das leer ausgeht, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz.
+Jedes Abo deckt eine feste Zahl von Becken ab: 1 in der Testphase und bei Essential, 5 bei Advanced und 20 bei Expert. Briefings gehen an die ersten Becken in der Reihenfolge unter **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, das leer ausgeht, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz.
 
 Nach der Testphase sieht ein kostenloses Konto dort, wo das Briefing war, eine gesperrte Reef Buddy-Karte mit **Pläne ansehen** und bekommt keine Briefing-Benachrichtigung. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 

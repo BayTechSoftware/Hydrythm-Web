@@ -2,7 +2,7 @@
 title: Diario, popolazione e manutenzione
 description: Registra un test, aggiungi una voce di diario, annota un pasto e spunta la manutenzione su Cora Max, e scopri cosa fai ancora dal telefono.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 10
 group: Records
 twin: mobile-journal
@@ -47,7 +47,8 @@ L'icona accanto a quella dei dispositivi è **Reef Buddy**, e il suo puntino vuo
 
 In alto la schermata dice quante attività sono in scadenza. Sotto, **In arrivo** elenca ogni attività con **OGGI**, **IN 3g** o **IN RITARDO 2g**, e **Completate · ultimi 7 giorni** mostra quello che hai fatto di recente.
 
-- Tocca **Fatto** quando finisci un'attività.
+- Tocca **Fatto** quando finisci un'attività. Se è in ritardo, Cora chiede **Quando l'hai fatto?**
+- Tocca **Fatto prima…** se l'hai fatta prima di oggi. Scegli data e ora, e la prossima scadenza si calcola da lì. Un'ora futura, o precedente all'ultimo completamento, non viene accettata.
 - Tocca **Rinvia** per spostarla di **1 giorno**, **3 giorni**, **1 settimana**, **2 settimane** o **1 mese**.
 
 Le attività si aggiungono e si modificano dal telefono. Di più in [Manutenzione](/help/mobile-maintenance).

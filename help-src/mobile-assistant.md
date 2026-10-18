@@ -2,7 +2,7 @@
 title: Asking Cora
 description: Use Cora Assistant by typing or talking, what it can see, what it can do for you, the data sharing switch, and memory.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -62,6 +62,17 @@ Equipment control works away from home only when a Cora Max at the tank can reac
 :::warning Cora advises. You decide
 Check anything important with your own testing. Treat big changes the way you'd treat advice from anyone else, and sanity-check them before you act. The line under the message box says the same.
 :::
+
+## Help answers {#help-answers}
+
+Ask how to do something, for example *"How do I add a dosing pump?"*, and Cora Assistant answers from this Help guide, in your language, typed or spoken. A question about the app counts as a normal message.
+
+Under the answer you may see up to two Help sections, each with up to two buttons:
+
+- **Open this screen** takes you straight to the screen the answer is about. It's left out when you're already there. If the screen is one of the main tabs, a voice conversation ends first.
+- **Read in Help** opens that Help page in your phone's in-app browser.
+
+The buttons only show when there's a screen or a page to open.
 
 ## Consent
 

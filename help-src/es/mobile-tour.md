@@ -20,7 +20,7 @@ Si tienes más de un acuario, desliza a la izquierda o a la derecha para pasar d
 
 La cabecera del acuario tiene el nombre del acuario, que puedes tocar para cambiarlo, y una fila de iconos:
 
-- **Alimentar** abre el **Modo de alimentación**, donde inicias uno de los ciclos de alimentación de tu Neptune Apex. Solo aparece en un acuario con Apex. Consulta [La cabecera del acuario](/help/mobile-dashboard#the-tank-header).
+- **Alimentar** abre el **Modo alimentación**, donde inicias uno de los ciclos de alimentación de tu Neptune Apex. Solo aparece en un acuario con Apex. Consulta [La cabecera del acuario](/help/mobile-dashboard#the-tank-header).
 - El icono del periódico abre el último resumen de **Reef Buddy**.
 - El icono de compartir crea una instantánea del acuario para enviarla. Consulta [Compartir tu acuario](/help/mobile-sharing).
 - La regla abre **Unidades**, donde eliges cómo muestra este acuario sus lecturas.

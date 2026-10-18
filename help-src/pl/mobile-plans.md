@@ -1,8 +1,8 @@
 ---
 title: Plany i subskrypcje
-description: Co obejmują plany Free, okres próbny, Plus, Pro i Max, jak wykupić subskrypcję albo przejść na wyższy plan, gdzie sprawdzić wykorzystanie i jak anulować na iPhonie albo Androidzie.
+description: Co obejmują plany Free, okres próbny, Essential, Advanced i Expert, jak wykupić subskrypcję albo przejść na wyższy plan, gdzie sprawdzić wykorzystanie i jak anulować na iPhonie albo Androidzie.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -11,7 +11,7 @@ Monitorowanie akwarium jest bezpłatne i bez limitu. Płatne plany dają większ
 
 ## Co jest zawsze bezpłatne
 
-- Odczyty na żywo ze sprzętu, z pulpitami i wykresami
+- Odczyty na żywo ze sprzętu, z panelami i wykresami
 - Urządzenia, alerty i progi
 - Dziennik, konserwacja i obsada
 - Powiadomienia push o krytycznych alertach
@@ -34,7 +34,7 @@ Gdy limit się wyczerpie, nadal możesz czytać wszystko, co Cora już dla Ciebi
 
 ## Okres próbny
 
-Twój **30-dniowy okres próbny Pro zaczyna się w chwili założenia konta**. Nie czeka na pierwsze użycie funkcji i nie wymaga karty. **Konto i subskrypcja** pokazuje go jako **Okres próbny Cora Pro**, z datą zakończenia.
+Twój **30-dniowy okres próbny Advanced zaczyna się w chwili założenia konta**. Nie czeka na pierwsze użycie funkcji i nie wymaga karty. **Konto i subskrypcja** pokazuje go jako **Okres próbny Cora Advanced**, z datą zakończenia.
 
 | W okresie próbnym | |
 |---|---|
@@ -44,15 +44,15 @@ Twój **30-dniowy okres próbny Pro zaczyna się w chwili założenia konta**. N
 | Analizy ICP | 1 miesięcznie |
 | Reef Buddy i monitorowanie AI | Twoje pierwsze akwarium |
 
-Okres próbny obejmuje Reef Buddy i **Zaprojektuj z AI**. Jego limity są mniejsze niż w planie Pro.
+Okres próbny obejmuje Reef Buddy i **Zaprojektuj z AI**. Jego limity są mniejsze niż w planie Advanced.
 
 Gdy się skończy, konto wraca do planu Free. **Nic nie zostaje usunięte.** Nadal możesz czytać każdy odczyt, wpis w dzienniku, raport i podsumowanie, które masz.
 
 ## Płatne plany
 
-Są trzy plany, **Plus**, **Pro** i **Max**, każdy z płatnością miesięczną albo roczną. Ustawienia pokazują je jako Cora Plus, Cora Pro i Cora Max. Aktualne ceny znajdziesz w Cora Mobile i w sklepie z aplikacjami, bo tam płacisz.
+Są trzy plany, **Essential**, **Advanced** i **Expert**, każdy z płatnością miesięczną albo roczną. Ustawienia pokazują je jako Cora Essential, Cora Advanced i Cora Expert. Aktualne ceny znajdziesz w Cora Mobile i w sklepie z aplikacjami, bo tam płacisz.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Wiadomości do Asystenta / miesiąc | 500 | 1 200 | 2 500 (w granicach rozsądnego użycia) |
 | Sesje głosowe / miesiąc | 100 | 200 | 400 |
@@ -60,11 +60,11 @@ Są trzy plany, **Plus**, **Pro** i **Max**, każdy z płatnością miesięczną
 | Analizy ICP / miesiąc | 1 | 3 | 30 |
 | Akwaria z monitorowaniem AI | 1 | 5 | 20 |
 
-Sesje głosowe mają własny licznik, a każda odpowiedź głosowa zużywa też limit wiadomości. Każdy płatny plan obejmuje Reef Buddy, przesyłanie i analizę ICP z laboratoriów, które odczytuje Cora, porównanie z Twoją własną historią oraz **Zaprojektuj z AI** dla pulpitów (do 5 projektów dziennie dla każdego akwarium).
+Sesje głosowe mają własny licznik, a każda odpowiedź głosowa zużywa też limit wiadomości. Każdy płatny plan obejmuje Reef Buddy, przesyłanie i analizę ICP z laboratoriów, które odczytuje Cora, porównanie z Twoją własną historią oraz **Zaprojektuj z AI** dla paneli (do 5 projektów dziennie dla każdego akwarium).
 
 
-:::note Plan Max to nie ekran Cora Max
-**Plan Max** to subskrypcja. **Cora Max** to ekran, który stoi przy akwarium. Jedno nie wymaga drugiego.
+:::note Plan Expert to nie ekran Cora Max
+**Plan Expert** to subskrypcja. **Cora Max** to ekran, który stoi przy akwarium. Jedno nie wymaga drugiego.
 :::
 
 ### Które akwaria dostają AI {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy i monitorowanie AI obejmują tyle akwariów, na ile pozwala Twój pla
 ## Wykupienie subskrypcji albo przejście na wyższy plan {#subscribing}
 
 1. Otwórz **Ustawienia** i dotknij karty konta na górze. Otworzy się **Konto i subskrypcja**.
-2. Obok swojego planu dotknij **Zobacz plany** (w Free albo okresie próbnym), **Ulepsz plan** (w Plus) albo **Ulepsz do Max** (w Pro).
+2. Obok swojego planu dotknij **Zobacz plany** (w Free albo okresie próbnym), **Ulepsz plan** (w Essential) albo **Ulepsz do Expert** (w Advanced).
 3. Wybierz **Miesięcznie** albo **Rocznie**. Cena roczna pokazuje, ile oszczędzasz.
 4. Wybierz plan i dotknij **Zamów subskrypcję**.
 5. Potwierdź w App Store albo Google Play. Nowy plan odblokuje się, gdy tylko sklep go potwierdzi.
@@ -85,7 +85,7 @@ Ten sam wybór planu otwiera się też, gdy dojdziesz do limitu, na przykład *L
 
 ## Konto i subskrypcja
 
-![Konto i subskrypcja w Cora Mobile](img/mobile-plans.webp "Twój plan w sekcji Subskrypcja, z Ulepsz do Max i Przywróć zakupy.")
+![Konto i subskrypcja w Cora Mobile](img/mobile-plans.webp "Twój plan w sekcji Subskrypcja, z Ulepsz do Expert i Przywróć zakupy.")
 
 **Konto i subskrypcja** pokazuje bieżący plan i datę odnowienia albo zakończenia. Pod spodem są te przyciski.
 
@@ -110,7 +110,7 @@ Liczniki zaczynają się od nowa na początku każdego miesiąca kalendarzowego.
 
 ## Zmiana planu
 
-Żeby przejść wyżej, użyj **Ulepsz plan** albo **Ulepsz do Max** jak wyżej. Żeby przejść niżej albo zmienić płatność miesięczną na roczną lub odwrotnie, użyj **Zarządzaj subskrypcją**. Zmiany przechodzą przez App Store albo Google Play i podlegają tym samym zasadom co każda inna subskrypcja w telefonie, w tym zasadom zwrotów i anulowania danego sklepu.
+Żeby przejść wyżej, użyj **Ulepsz plan** albo **Ulepsz do Expert** jak wyżej. Żeby przejść niżej albo zmienić płatność miesięczną na roczną lub odwrotnie, użyj **Zarządzaj subskrypcją**. Zmiany przechodzą przez App Store albo Google Play i podlegają tym samym zasadom co każda inna subskrypcja w telefonie, w tym zasadom zwrotów i anulowania danego sklepu.
 
 ## Anulowanie
 

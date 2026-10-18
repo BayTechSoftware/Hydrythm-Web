@@ -47,13 +47,13 @@ Voici ce qui compte le plus en général :
 
 Certaines entrées sont écrites pour vous. Terminer une tâche d’[entretien](/help/mobile-maintenance) en ajoute une, tout comme **Enregistrer la dose donnée** dans le [calculateur de dose](/help/mobile-dosing#the-dose-calculator).
 
-## Alimentation {#feeding}
+## Nourrissage {#feeding}
 
 Dites une fois à Cora comment vous nourrissez d’habitude, puis ne notez que les exceptions.
 
-Pour régler votre routine, ouvrez **Modifier l’aquarium** (le crayon en haut du tableau de bord) et touchez **Routine d'alimentation**. Une carte sur le tableau de bord, **Comment nourris-tu d'habitude ?**, vous y mène avec **Configurer la routine** tant que vous ne l’avez pas fait. Pour chaque aliment, indiquez l’aliment, une **Quantité**, une **Unité** (cube, pincée, g, ml, goutte, cuillère ou feuille) et le nombre de **Fois par jour**. Touchez **Ajouter un aliment** pour en ajouter d’autres. Activez **J'utilise un distributeur automatique** si un appareil nourrit à votre place, et ses repas comptent dans la routine. Sous **Poids des portions (facultatif)**, vous pouvez indiquer ce que pèse un cube ou une pincée, pour que Cora puisse comparer les repas dans le temps en grammes.
+Pour régler votre routine, ouvrez **Modifier l’aquarium** (le crayon en haut du tableau de bord) et touchez **Routine de nourrissage**. Une carte sur le tableau de bord, **Comment nourrissez-vous d’habitude ?**, vous y mène avec **Configurer la routine** tant que vous ne l’avez pas fait. Pour chaque aliment, indiquez l’aliment, une **Quantité**, une **Unité** (cube, pincée, g, ml, goutte, cuillère ou feuille) et le nombre de **Fois par jour**. Touchez **Ajouter un aliment** pour en ajouter d’autres. Activez **J'utilise un distributeur automatique** si un appareil nourrit à votre place, et ses repas comptent dans la routine. Sous **Poids des portions (facultatif)**, vous pouvez indiquer ce que pèse un cube ou une pincée, pour que Cora puisse comparer les repas dans le temps en grammes.
 
-Quand une journée sort de la routine, touchez **Alimentation** dans la rangée de boutons sous les widgets, ou l’icône d’alimentation en haut du journal. La feuille **Noter une exception d'alimentation** propose trois choix : **Repas en plus**, **Repas sauté** et **Aliment ou quantité modifié**. Vous pouvez ajouter une **Quantité (facultatif)**. Chacun est une entrée de journal ordinaire, et Reef Buddy s’en sert, pour qu’un aquarium stable ne soit pas mis en cause pour une gâterie que vous lui avez donnée.
+Quand une journée sort de la routine, touchez **Nourrissage** dans la rangée de boutons sous les widgets, ou l’icône de nourrissage en haut du journal. La feuille **Noter une exception de nourrissage** propose trois choix : **Repas en plus**, **Repas sauté** et **Aliment ou quantité modifié**. Vous pouvez ajouter une **Quantité (facultatif)**. Chacun est une entrée de journal ordinaire, et Reef Buddy s’en sert, pour qu’un aquarium stable ne soit pas mis en cause pour une gâterie que vous lui avez donnée.
 
 Autres façons dont un repas est noté :
 
@@ -82,4 +82,4 @@ Cora Assistant lit aussi le journal. Il répond à des questions comme *« quan
 
 Vous pouvez aussi ajouter des entrées de journal sur Cora Max, ce qui est pratique quand vous êtes devant l’aquarium. Ouvrez le journal depuis le menu de l’aquarium, ou dictez une entrée.
 
-L’écran du journal sur Cora Max a aussi les boutons **Repas en plus** et **Repas sauté**, avec une ligne qui affiche votre routine d’alimentation. Si vous n’en avez pas réglé, la ligne indique *Définissez votre routine d’alimentation dans l’app mobile*, car la routine se règle dans Cora Mobile. Plus de détails dans [Journal, population et entretien](/help/max-records) sur Cora Max.
+L’écran du journal sur Cora Max a aussi les boutons **Repas en plus** et **Repas sauté**, avec une ligne qui affiche votre routine de nourrissage. Si vous n’en avez pas réglé, la ligne indique *Définissez votre routine de nourrissage dans l’application mobile*, car la routine se règle dans Cora Mobile. Plus de détails dans [Journal, population et entretien](/help/max-records) sur Cora Max.

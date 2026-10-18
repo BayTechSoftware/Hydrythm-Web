@@ -289,9 +289,9 @@
 <ul><li>Your trial ended. Reef Buddy is part of the paid plans. After the 30-day trial, a free account stops getting the daily briefing. See <a href="/help/mobile-plans">Plans and subscriptions</a>.</li><li>The tank isn't covered by your plan. Each plan covers a set number of tanks, counted in the order of <strong>Settings → Reorder tanks</strong>. Move a tank up to include it.</li><li>Nothing changed today. The briefing stays quiet on a quiet day.</li></ul>
 <p>More in <a href="/help/mobile-reef-buddy">Reef Buddy</a>.</p>
 <h3 id="alerts-from-a-removed-tank">Alerts keep coming from a tank I removed</h3>
-<p>Removing a tank only hides it. Its devices stay linked to it, and a Cora Max can still be reading it, so its equipment can keep reporting and alerting.</p>
-<ol><li>Restore it from <strong>Settings → Removed tanks</strong> so you can see it again.</li><li>Remove or move its devices on the <strong>Devices</strong> tab.</li><li>Take it off your Cora Max: on your phone, open <strong>Devices</strong>, then your Cora Max, and under <strong>Tanks</strong> tap <strong>Remove tank</strong> next to it.</li></ol>
-<p>Then remove the tank again. More in <a href="/help/mobile-tanks">Managing your tanks</a>.</p>
+<p>A removed tank is kept for its history, but it sends no alerts or reminders, and its automations stop. If you still get one:</p>
+<ol><li>Open <strong>Settings → Removed tanks</strong>. If the tank isn't listed, it hasn't been removed.</li><li>Update Cora Mobile and your Cora Max to the latest version.</li><li>Still getting alerts? Write to support with the alert text and the time you got it. See <a href="/help/mobile-support">Reporting a problem</a>.</li></ol>
+<p>More in <a href="/help/mobile-tanks">Managing your tanks</a>.</p>
 <h2 id="cora-assistant-and-voice">Cora Assistant and voice</h2>
 <h3 id="cora-assistant-answers-about-the-wrong-tank">Cora Assistant answers about the wrong tank</h3>
 <p>You didn't pick a tank before asking, or the wrong one is selected. Pick the tank you mean, then ask again. More in <a href="/help/mobile-assistant">Asking Cora</a>.</p>
@@ -321,7 +321,7 @@
 <h2 id="still-stuck">Still stuck</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, or report it from Cora Mobile as described in <a href="/help/mobile-support">Reporting a problem</a>. Tell us which tank, which device, which screen, and what you expected to see.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/help/how-do-i"><span>Next</span><b>How do I...?</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -712,7 +712,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

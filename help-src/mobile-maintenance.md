@@ -2,7 +2,7 @@
 title: Maintenance
 description: Add recurring jobs like cleaning the skimmer or changing filter socks, get reminded when they're due, and mark them done or snooze them.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 28
 group: Records
 twin: max-records
@@ -80,13 +80,19 @@ Reminders come under **Maintenance Reminders** in [Settings → Notifications](/
 
 Swipe the task to the right, or open it and tap **Complete**. If you swiped by mistake, tap **Undo** on the message that appears.
 
-Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too.
+Cora saves the time you finished and counts the next due date from then. So if you do a job three days late, the next one moves out by three days too. If the task is overdue, Cora first asks **When did you do it?** Pick **Just now**, or **Pick date and time** if you did it earlier (see below).
 
 The task's sheet shows its **Completion history**, including how late each one was.
 
 :::note Completing a task also writes a journal entry
 Cora adds a short entry to your [journal](/help/mobile-journal) for you, noting if it was late. Add your own entry when there's more to say, for example when the pump was full of sand or the socks were black after one day.
 :::
+
+## Marking a task done earlier {#done-earlier}
+
+Did the job yesterday and forgot to tick it off? Open the task and tap **Done earlier…**, then pick the date and the time. Cora dates the completion, the journal entry and the next due date from that time, so the next due date is the time you picked plus the interval.
+
+You can go back up to a year, but not before the last time you completed the task. If you pick a time that hasn't happened yet, or one before the last completion, Cora says so and saves nothing.
 
 ## Editing a task {#editing}
 
@@ -97,7 +103,7 @@ Tap a task to open it. You can change the **Task name**, **Interval (days)**, **
 Can't get to a job right now? Open it, tap **Snooze** and pick **1 Day**, **3 Days**, **1 Week**, **2 Weeks** or **1 Month**. It stays in the list as **Snoozed** with its new date, and you won't be reminded until then.
 
 :::warning Only mark a task done when you've done it
-The next due date is counted from the day you mark it done. If you mark an open task as done, every later due date shifts. Snooze it instead.
+The next due date is counted from the time you did the task. If you mark an open task as done, every later due date shifts. If you did it earlier, use **Done earlier…** and pick the real time. If you haven't done it, snooze it instead.
 :::
 
 There's no way to pause a task. For a job that doesn't apply this season, snooze it for **1 Month**, or delete it and add it again later.

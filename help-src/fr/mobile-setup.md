@@ -2,7 +2,7 @@
 title: Configurer Cora Mobile
 description: Installez Cora Mobile, créez votre compte, ajoutez votre premier aquarium et affichez vos premières mesures à l’écran, étape par étape.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 group: Getting started
 twin: max-setup
@@ -77,7 +77,7 @@ Quand vous avez fini, touchez **Aller à mon tableau de bord**, ou **Je ferai ce
 
 ## Vos 30 premiers jours {#your-first-30-days}
 
-Sur un nouveau compte gratuit, **Aller à mon tableau de bord** affiche d’abord **Vos 30 premiers jours sont offerts**. Votre essai Pro de 30 jours a commencé à la création de votre compte, et aucune carte bancaire n’est nécessaire. Touchez **Commencer à explorer** pour continuer, ou **Voir les forfaits** pour regarder les forfaits payants. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans#the-trial).
+Sur un nouveau compte gratuit, **Aller à mon tableau de bord** affiche d’abord **Vos 30 premiers jours sont offerts**. Votre essai Advanced de 30 jours a commencé à la création de votre compte, et aucune carte bancaire n’est nécessaire. Touchez **Commencer à explorer** pour continuer, ou **Voir les forfaits** pour regarder les forfaits payants. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans#the-trial).
 
 ## Votre premier coup d’œil au tableau de bord {#your-first-look-at-the-dashboard}
 

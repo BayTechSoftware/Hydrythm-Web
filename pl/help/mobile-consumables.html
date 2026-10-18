@@ -81,9 +81,9 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a></li>
+<li><a href="/pl/help/mobile-dashboard">Jak czytać panel</a></li>
 <li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
-<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a></li>
+<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie panelu</a></li>
 <li><a href="/pl/help/mobile-widgets">Rodzaje widżetów</a></li>
 <li><a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></li>
 </ul></details>
@@ -135,7 +135,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/max-dashboard-editing">Edytowanie pulpitu Cora Max</a></li>
+<li><a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Sprzęt</summary><ul>
@@ -172,7 +172,7 @@
       <h1>Materiały eksploatacyjne i alerty uzupełnienia</h1>
       
       <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#setting-a-refill-alert">Ustawianie alertu uzupełnienia</a></li><li><a href="#thresholds">Przed czym możesz dostać ostrzeżenie</a></li><li><a href="#choosing-a-threshold">Jaki próg wybrać</a></li><li><a href="#after-refilling">Po uzupełnieniu</a></li></ul></nav>
-<p>Ustaw alerty uzupełnienia, żeby Cora ostrzegła Cię, zanim skończy się odczynnik, płyn do dozowania, woda do dolewki albo rolka filtracyjna. Otwórz urządzenie w zakładce <strong>Urządzenia</strong> (albo dotknij jego kafelka na pulpicie), a potem dotknij <strong>dzwonka</strong> na górnym pasku.</p>
+<p>Ustaw alerty uzupełnienia, żeby Cora ostrzegła Cię, zanim skończy się odczynnik, płyn do dozowania, woda do dolewki albo rolka filtracyjna. Otwórz urządzenie w zakładce <strong>Urządzenia</strong> (albo dotknij jego kafelka na panelu), a potem dotknij <strong>dzwonka</strong> na górnym pasku.</p>
 <h2 id="setting-a-refill-alert">Ustawianie alertu uzupełnienia</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Arkusz Alerty dla ReefDose 4, z progiem dni i przełącznikiem dla każdej głowicy"><img src="/help/img/mobile-consumables.webp" alt="Arkusz Alerty dla ReefDose 4, z progiem dni i przełącznikiem dla każdej głowicy" width="620" height="740" loading="lazy" decoding="async"></button><figcaption>Jeden próg na głowicę, każdy z własnym przełącznikiem.</figcaption></figure>
 <p>Arkusz nazywa się <strong>Alerty:</strong>, a po tym następuje nazwa urządzenia. Jeśli sprzęt ma więcej niż jeden pojemnik, każdy dostaje własny próg i własny przełącznik, więc głowicę, którą uważnie pilnujesz, i tę, której prawie nie ruszasz, możesz ustawić inaczej. Wyłączenie przełącznika zachowuje wartość na później.</p>
@@ -190,7 +190,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Urządzenie</th><th>Dotknij</th></tr></thead><tbody><tr><td data-th="Urządzenie">Głowica DŌS</td><td data-th="Dotknij"><strong>Napełnij</strong>, a potem <strong>Pełny</strong>, albo ustaw <strong>Pozostała objętość</strong></td></tr><tr><td data-th="Urządzenie">Zbiornik odpadów DŌS</td><td data-th="Dotknij">Po opróżnieniu przywróć jego wolne miejsce do pełnego</td></tr><tr><td data-th="Urządzenie">Głowica ReefDose</td><td data-th="Dotknij"><strong>Pozostało w butelce</strong></td></tr><tr><td data-th="Urządzenie">ReefMat</td><td data-th="Dotknij"><strong>Nowa rolka</strong> po założeniu nowej rolki</td></tr></tbody></table></div>
 <p>Trident, ReefATO+ i AquaWiz same podają swoje poziomy, więc w Corze nie trzeba niczego resetować.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-probes"><span>Poprzedni</span><b>Mapowanie parametrów i sondy</b></a><a class="pn-n" href="/pl/help/mobile-alerts"><span>Następny</span><b>Alerty i progi</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=a4adc6772e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

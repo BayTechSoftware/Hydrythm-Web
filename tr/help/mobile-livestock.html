@@ -92,7 +92,7 @@
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
 </ul></details>
@@ -185,7 +185,7 @@
 <p>Kaydettiğinizde eklenme tarihi bugün olarak ayarlanır.</p>
 <h2 id="status">Bir şey değiştiğinde</h2>
 <p>Yapabileceklerinizi görmek için bir kayda dokunun:</p>
-<ul><li><strong>Kayıp Olarak İşaretle</strong>: bir canlı öldüğünde. Kaydın miktarı birden fazlaysa Cora <strong>Kaç tane kayboldu?</strong> diye sorar, böylece grubun yalnızca bir kısmını kaydedebilirsiniz. Kaybın tarihini ayarlayın ve ağarma, RTN, saldırganlık ya da bilinmiyor gibi bir <strong>Neden</strong> seçin.</li><li><strong>Parçalandı</strong>: canlıyı kestiyseniz ve koloni yaşamaya devam ediyorsa.</li><li><strong>Satıldı</strong>: başka birine gittiyse.</li><li><strong>Taşındı</strong>: artık başka bir akvaryumunuzdaysa.</li><li>Artık canlı olmayan bir kayıtta <strong>Canlıya geri döndür</strong> değişikliği geri alır, örneğin yanlışlıkla işaretlediyseniz.</li><li><strong>Düzenle</strong> ayrıntıları değiştirir. <strong>Sil</strong> kaydı tamamen kaldırır.</li><li><strong>Geçmişi görüntüle</strong> kaydın hikayesini açar: ne zaman eklendiği, ne zaman kaybolduğu ya da akvaryumdan ayrıldığı.</li></ul>
+<ul><li><strong>Kayıp Olarak İşaretle</strong>: bir canlı öldüğünde. Kaydın miktarı birden fazlaysa Cora <strong>Kaç tane kayboldu?</strong> diye sorar, böylece grubun yalnızca bir kısmını kaydedebilirsiniz. Kaybın tarihini ayarlayın ve ağarma, RTN, saldırganlık ya da bilinmiyor gibi bir <strong>Neden</strong> seçin.</li><li><strong>Frag alındı</strong>: canlıyı kestiyseniz ve koloni yaşamaya devam ediyorsa.</li><li><strong>Satıldı</strong>: başka birine gittiyse.</li><li><strong>Taşındı</strong>: artık başka bir akvaryumunuzdaysa.</li><li>Artık canlı olmayan bir kayıtta <strong>Canlıya geri döndür</strong> değişikliği geri alır, örneğin yanlışlıkla işaretlediyseniz.</li><li><strong>Düzenle</strong> ayrıntıları değiştirir. <strong>Sil</strong> kaydı tamamen kaldırır.</li><li><strong>Geçmişi görüntüle</strong> kaydın hikayesini açar: ne zaman eklendiği, ne zaman kaybolduğu ya da akvaryumdan ayrıldığı.</li></ul>
 <p>Her kaybı kaydederseniz ileride örüntüler ortaya çıkar. Belki kayıplar akvaryumun bir köşesinde toplanıyordur ya da belli bir olayın ardından geliyordur.</p>
 <aside class="cal cal-note"><p class="cal-t">"Bilinmiyor" da geçerli bir neden</p><p>Nedenini bilmeseniz de tarihi kaydedin. İleride karşılaştıracağınız şey tarihtir.</p></aside>
 <h2 id="livestock-and-cora">Canlılar ve Cora'nın geri kalanı</h2>
@@ -193,7 +193,7 @@
 <p>Canlılarınızla ilgili soru da sorabilirsiniz. Cora Assistant, <em>"Çekiç mercanını ne zaman ekledim?"</em> ya da <em>"Bu yıl neleri kaybettim?"</em> gibi soruları bu listeye bakarak yanıtlar.</p>
 <p>Canlılarınızdaki değişiklikler <a href="/tr/help/mobile-activity#tank-timeline">akvaryum zaman çizelgesinde</a> de görünür. Bir kaybın ya da yeni gelen bir canlının hikayesini <a href="/tr/help/mobile-journal">günlüğe</a> yazın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-maintenance"><span>Önceki</span><b>Bakım</b></a><a class="pn-n" href="/tr/help/mobile-activity"><span>Sonraki</span><b>Etkinlik ve zaman çizelgesi</b></a></nav>
-      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

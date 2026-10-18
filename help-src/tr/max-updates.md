@@ -2,7 +2,7 @@
 title: Güncellemeler ve kurtarma
 description: Cora Max kendini nasıl günceller, yükleme penceresi ve güncelleme kanalı, sürümü kontrol etme, Kurtarma PIN'i ve Cora Max açılmazsa ya da bir destek kodu gösterirse ne yapılacağı.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 15
 group: Settings and account
 ---
@@ -28,6 +28,8 @@ Aynı ekranda **Güncelleme ayarları** altında:
 - **Yükleme penceresi**, güncellemelerin yüklenebileceği saatleri bu ekranın yerel saatine göre bir **Başlangıç** ve **Bitiş** saatiyle belirler. Saat dilimi Cora Mobile'da **Cihazlar →** Cora Max'iniz **→ Saat dilimi** altında ayarlanır.
 
 Bu ekranın cihazlarınızı okuyup okumadığını ve Cora Cloud'a kaydedip kaydetmediğini görmek için **Cora Max Ayarları**'na dönün ve **DURUM**'a kaydırın. Her akvaryum için **Yoklama durumu**, **Son yoklama**, **Son bulut yazımı** ve **Bulut kaydı** gösterilir.
+
+Bir güncelleme yavaş iniyorsa aynı ekrandaki **Ağ hız testi** ile bağlantınızı kontrol edin. **Testi başlat**, güncelleme dosyasının en fazla 16 MB'ını Cora Cloud'dan en çok 20 saniye boyunca indirir ve hızı MB/s olarak gösterir.
 
 ## Bir güncelleme olduğunda
 
@@ -73,7 +75,7 @@ Cora Max üst üste birkaç kez açılamazsa kendini önceki sürüme de geri al
 :::
 
 :::warning Kurtarma modundaki ekran hiçbir şeyi kontrol etmez
-Kontrolcünüz kendi programını çalıştırmaya devam eder. Ama **bu Cora Max**'in yürütmesi gereken bir [otomasyon](/help/mobile-automation) adımı, Cora Max kurtarma modundayken çalışamaz. Kural tetiklenir ama adım ekipmana hiç ulaşmaz.
+Kontrolörünüz kendi programını çalıştırmaya devam eder. Ama **bu Cora Max**'in yürütmesi gereken bir [otomasyon](/help/mobile-automation) adımı, Cora Max kurtarma modundayken çalışamaz. Kural tetiklenir ama adım ekipmana hiç ulaşmaz.
 :::
 
 ## Cora Max "Cora Max hit a problem" gösterirse

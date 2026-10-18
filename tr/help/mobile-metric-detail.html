@@ -92,7 +92,7 @@
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
 </ul></details>
@@ -178,6 +178,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Bir parametreyi inceleme"><img src="/help/img/mobile-metric-detail.webp" alt="Bir parametreyi inceleme" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Üstte açılır listeler, ardından uyarı bandınız gölgelenmiş grafik.</figcaption></figure>
 <ul><li>Bir geçmiş grafiği. Üstündeki satır neyi göstereceğini belirler. <strong>Parametre</strong>, verisi olan başka herhangi bir parametreye geçer ve zaman aralığınızı korur. <strong>Zaman aralığı</strong> 1 sa'ten başlayıp 6 sa, 12 sa, 24 sa, 3 g, 7 g, 15 g, 30 g, 90 g, 180 g ve 360 g üzerinden Tümü'ne kadar gider. <strong>Kaynak</strong>, <strong>Tüm kaynaklar</strong> ile başlar ve bu akvaryumda bu parametreyi bildiren <em>Apex</em>, <em>Cora</em>, <em>Red Sea™</em> ya da <em>Manuel</em> gibi kaynakları listeler. Yalnızca onun ölçümlerini görmek için birini seçin.</li><li>Aynı satırın sonundaki <strong>Karşılaştır</strong>, grafiğe ikinci bir parametre çizer, örneğin alkaliniteyle kalsiyumu ya da pH ile sıcaklığı. Düğme bu durumda diğer parametrenin adını ve <strong>ile</strong> yazısını gösterir (örneğin <em>Kalsiyum ile</em>). İkinci çizgiyi kaldırmak için ona yeniden dokunun.</li><li>Ekrandaki zaman aralığı için <strong>En son</strong>, <strong>Min</strong>, <strong>Ort</strong> ve <strong>Maks</strong> değerlerini içeren bir satır.</li><li>Üst çubukta simgeler: <strong>Ölçümler</strong> ham ölçüm listesini açar, <strong>Prob bakımını kaydet</strong> bir kalibrasyonu ya da temizliği kaydeder. Alkalinite, kalsiyum ve magnezyum için ayrıca <a href="/tr/help/mobile-tank-profile">akvaryum profilinizdeki</a> akvaryum hacmini ve <a href="/tr/help/mobile-dosing">Dozaj</a> sayfasındaki yoğunlukları kullanan dozaj hesaplayıcısı vardır.</li></ul>
 <p>Ekran her zaman 24 sa ve <strong>Tüm kaynaklar</strong> ile açılır. Son seferki seçiminizi hatırlamaz.</p>
+<p>Özgül ağırlık (SG) her zaman üç ya da dört ondalıkla gösterilir, yani 1,022 değeri 1,02 olmaz. Bu, Cora Mobile ve Cora Max'te aynıdır: panoda, grafikte ve ölçüm listesinde.</p>
 <h2 id="reading-the-chart">Grafiği okuma</h2>
 <ul><li>Yeşil bant uyarı aralığınızdır, böylece her ölçümü ona göre görürsünüz. Aralığı değiştirmek için panoda widget'a uzun basın. Ayrıntılar <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> sayfasında.</li><li>Kesikli bir çizgi kaydedilen bir dozu işaretler, böylece bir değişimi dozladığınız şeyle yan yana getirebilirsiniz.</li><li><strong>30g yüksek</strong> ve <strong>30g düşük</strong>, son 30 günün uç değerlerini gösteren kesikli çizgilerdir.</li><li>İçi boş bir nokta, hariç tuttuğunuz bir ölçümdür.</li><li><strong>Karşılaştır</strong> açıkken ikinci parametre sağ taraftaki ekseni kullanır.</li></ul>
 <h2 id="choosing-a-range">Zaman aralığı seçme</h2>
@@ -203,7 +204,7 @@
 <p>Ölçümleri bu ekrandan değil, panodan kaydedersiniz. Widget'ların altındaki <strong>Parametreleri Kaydet</strong>'e dokunun ve test kitinizin gösterdiğini girin. Liste gruplanmıştır ve <strong>İz Elementler</strong> grubu iyot, demir ve bakırı µg/L, potasyumu mg/L cinsinden kapsar. Elle kaydedilen ölçümler diğerleri kadar sayılır. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'yi beslerler. Cora'nın ekipmanınızı karşılaştırdığı da onlardır.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora tuhaf görünen girişleri iki kez kontrol eder</p><p>Bir değer akvaryumun olduğu yerden çok uzaksa Cora kaydetmeden önce onaylamanızı ister. Bu, yanlış yere konmuş bir ondalık ayırıcıyı ya da yanlış parametreye girilmiş bir ölçümü yakalar. Onayladığınızda ölçüm her zamanki gibi kaydedilir.</p></aside>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-dashboard"><span>Önceki</span><b>Panonuzu okuma</b></a><a class="pn-n" href="/tr/help/mobile-dashboard-editing"><span>Sonraki</span><b>Panonuzu düzenleme</b></a></nav>
-      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-17.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -594,7 +595,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

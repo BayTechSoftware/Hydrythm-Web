@@ -2,7 +2,7 @@
 title: Impostazioni di Cora Mobile
 description: Dove si trova tutto nella scheda Impostazioni di Cora Mobile, dall'account e dal piano a vasche, Cora Assistant, lingua, modalità scura, notifiche e assistenza.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -112,7 +112,7 @@ Se **Contribuisci con dati anonimi della vasca** è attivo (e lo è, a meno che 
 - **Contatta l'assistenza** apre un'email per noi. Di solito rispondiamo entro un giorno.
 - **Segnala un bug / Invia feedback** invia una segnalazione da Cora Mobile. Vedi [Segnalare un problema](/help/mobile-support).
 - **Invia segnalazioni di arresto anomalo**, descritto sopra.
-- **Sito web e FAQ di Cora** apre il sito di Cora.
+- **Sito web e FAQ di Cora** apre il sito di Cora. Apre questa guida nella tua lingua.
 
 ## Informazioni
 

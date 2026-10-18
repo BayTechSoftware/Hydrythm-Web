@@ -2,19 +2,19 @@
 title: Controlar tus equipos
 description: Abre la página de un dispositivo para ver su estado en directo y manejar tomas, bombas, cabezales de dosificación y analizadores, marca a marca.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
 ---
 
-Usa la página propia de un dispositivo para ver su estado en directo y cambiar lo que está haciendo. Ábrela desde **Dispositivos** → toca el dispositivo, o toca su casilla en el panel.
+Usa la página propia de un dispositivo para ver su estado en directo y cambiar lo que está haciendo. Ábrela desde **Dispositivos** → toca el dispositivo, o toca su tarjeta en el panel.
 
 ![La página de un ReefATO+ en Cora Mobile](img/mobile-device-detail.webp "El estado, las lecturas de hoy y el nivel del agua, y después fugas, rellenados y calibración de la sonda.")
 
 Todas las páginas de dispositivo se organizan igual. El nombre y los datos están arriba, y después una fila de lecturas en directo, cualquier estado que informe el dispositivo y sus controles. La campana de la barra de título fija los umbrales de alerta de ese dispositivo, como se explica en [Consumibles](/help/mobile-consumables). Cómo añadir un dispositivo está en [Conectar tus equipos](/help/mobile-connections).
 
-Ve directamente a tu equipo: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Alertas de dosificadores](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
+Ve directamente a tu equipo: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Alertas de dosificadoras](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning Estos controles actúan sobre equipos en funcionamiento
 No hay vista previa ni deshacer. Algunos controles te piden que confirmes primero.
@@ -60,14 +60,14 @@ También puedes fijar una alerta para las pruebas restantes y para la botella de
 
 Un DŌS QD funciona exactamente igual que un DŌS, y todo lo de aquí se aplica a los dos. Cuando un Cora Max lee tu Apex, los cabezales de dosificación aparecen en la página del DŌS. Nunca aparecen en la lista de tomas.
 
-Cada cabezal de dosificación muestra qué dosifica, su horario, lo que ha dosificado hoy y cuánto queda en el envase. También muestra la **autonomía**, es decir, cuántos días durará eso al ritmo actual.
+Cada cabezal de dosificación muestra qué dosifica, su horario, lo que ha dosificado hoy y cuánto queda en el recipiente. También muestra la **autonomía**, es decir, cuántos días durará eso al ritmo actual.
 
 Si el DŌS deja de responder en el AquaBus, su página muestra **Fuera del bus** y una tarjeta **Necesita atención**. Los datos de la página son entonces los últimos que informó, no lo que está haciendo ahora. Revisa el cable AquaBus del módulo y el Apex.
 
 Para cada cabezal puedes:
 
 - **Pausar** y **Reanudar** su horario
-- **Llenar**, para decirle a Cora que el envase vuelve a estar lleno o fijar cuánto tiene (**Volumen total** es el tamaño del envase, **Volumen restante** es lo que tiene ahora y **Lleno** iguala uno al otro)
+- **Llenar**, para decirle a Cora que el recipiente vuelve a estar lleno o fijar cuánto tiene (**Volumen total** es el tamaño del recipiente, **Volumen restante** es lo que tiene ahora y **Lleno** iguala uno al otro)
 - **Dosificar ahora**, para una dosis medida a mano
 
 :::note Edita los horarios en Apex Fusion
@@ -78,8 +78,8 @@ Cora muestra el horario y sigue lo que se ha dosificado, pero no cambia el horar
 Cora no dosifica a mano con un cabezal hasta que el cabezal se haya medido. **Medir para dosificar** y **Volver a medir** están en el Cora Max que dosifica para el acuario. Cora hace funcionar el cabezal veinte segundos, tú mides lo que salió y Cora calcula el ritmo real del cabezal. Una medición vale para todos los Cora Max y Cora Mobile. Mide cada cabezal una vez, y otra vez después de cambiarle el tubo.
 :::
 
-:::warning Un DŌS sigue dosificando con el envase vacío
-La unidad no tiene sensor de nivel y no se para sola. Fija una alerta de reposición para cada cabezal en **Alertas** en la página del DŌS, para que Cora te avise antes de que el envase se vacíe. Consulta [Alertas de dosificadores](#doser-alerts).
+:::warning Un DŌS sigue dosificando con el recipiente vacío
+La unidad no tiene sensor de nivel y no se para sola. Fija una alerta de reposición para cada cabezal en **Alertas** en la página del DŌS, para que Cora te avise antes de que el recipiente se vacíe. Consulta [Alertas de dosificadoras](#doser-alerts).
 :::
 
 ### Para qué se usa cada cabezal {#dos-head-use}
@@ -88,7 +88,7 @@ Dale a cada cabezal un **tipo de uso** para que Cora sepa qué hace y hable de �
 
 Los dos tipos de uso de cambio de agua van en **parejas**. Pon en el **Cabezal emparejado** de un cabezal el cabezal que mueve el agua en sentido contrario, y Cora trata los dos como una pareja de cambio de agua.
 
-Un envase puede tener hasta 1.000 L, en todos los tipos de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora sigue el envase a partir de lo que dosifica el cabezal. Introduce el **Volumen total** al configurarlo. Cora también restablece de vez en cuando el contador propio del Apex, y Actividad lo muestra como *Contador propio del Apex restablecido a 150 L*.
+Un recipiente puede tener hasta 1.000 L, en todos los tipos de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora sigue el recipiente a partir de lo que dosifica el cabezal. Introduce el **Volumen total** al configurarlo. Cora también restablece de vez en cuando el contador propio del Apex, y Actividad lo muestra como *Contador propio del Apex restablecido a 150 L*.
 
 Cada cabezal tiene además un límite de **Dosis manual más grande**, para que una errata no convierta una dosis manual en algo mucho mayor de lo que querías. Las dosis manuales grandes solo están disponibles después de medir el ritmo del cabezal frente a una prueba real en el acuario, y después de activar **Dosis grandes** en los ajustes del cabezal. Viene desactivado. Actívalo solo después de haber visto la primera dosis grande en el acuario.
 
@@ -98,7 +98,7 @@ Cada unidad Red Sea tiene una página adaptada a lo que hace:
 
 | Unidad | La página muestra | Puedes |
 |---|---|---|
-| [ReefDose](#reefdose) | Cada cabezal, su envase y lo que ha dosificado | Dosificar, cambiar la dosis diaria, editar el **Plan de dosificación** |
+| [ReefDose](#reefdose) | Cada cabezal, su recipiente y lo que ha dosificado | Dosificar, cambiar la dosis diaria, editar el **Plan de dosificación** |
 | [ReefRun](#reefrun) | La velocidad y el estado de las bombas de retorno y del skimmer | Cambiar la velocidad, encender o apagar una bomba |
 | [ReefMat](#reefmat) | El rollo restante, en días y metros | Avanzar el fieltro, fijar los **Ajustes de ReefMat**, registrar un rollo nuevo |
 | [ReefATO+](#reefato) | El nivel del depósito y la actividad de reposición | Fijar una alerta del depósito |
@@ -109,9 +109,9 @@ Cuando estás fuera de la red de la unidad, Cora Mobile envía las órdenes de R
 
 ## ReefDose {#reefdose}
 
-![La página de una ReefDose 4 en Cora Mobile](img/mobile-reefdose.webp "El estado, los cabezales y el total de hoy, Usar el dosificador para el consumo, y después cada cabezal de dosificación.")
+![La página de una ReefDose 4 en Cora Mobile](img/mobile-reefdose.webp "El estado, los cabezales y el total de hoy, Usar la dosificadora para el consumo, y después cada cabezal de dosificación.")
 
-Para cada cabezal puedes fijar la **Dosis por día** y lo **Restante en la botella**, hacer **Dosificar ahora** y **Activar horario**. Las alertas de reposición se fijan por cabezal con la campana, como se explica en [Alertas de dosificadores](#doser-alerts).
+Para cada cabezal puedes fijar la **Dosis por día** y lo **Restante en la botella**, hacer **Dosificar ahora** y **Activar horario**. Las alertas de reposición se fijan por cabezal con la campana, como se explica en [Alertas de dosificadoras](#doser-alerts).
 
 La sección **Dosificación** muestra las **Próximas dosis**, lo que ha dosificado hoy cada cabezal (**Dosificado hoy hasta ahora**) y **Dosificado por cabezal** en los **Últimos 7 días** o en **Total**. Cora lo lee mientras un Cora Max o tu teléfono está en tu red doméstica.
 
@@ -125,7 +125,7 @@ El editor lee primero el plan que ya está en la unidad, así que editas el plan
 
 ## ReefRun {#reefrun}
 
-ReefRun controla bombas de retorno y de skimmer. No es una bomba de olas. Puedes cambiar la velocidad de una bomba, encenderla o apagarla y ajustar los ajustes del skimmer.
+ReefRun controla bombas de retorno y de skimmer. No es una bomba de circulación. Puedes cambiar la velocidad de una bomba, encenderla o apagarla y ajustar los ajustes del skimmer.
 
 
 ## ReefMat {#reefmat}
@@ -159,15 +159,15 @@ Una unidad puede detenerse sola. Una bomba ReefRun lo hace cuando se llena el va
 
 Algunas te piden que confirmes primero. Fuera de la red de la unidad pasan por un Cora Max del acuario, como se explica en [Red Sea ReefBeat](#red-sea).
 
-## Alertas de dosificadores {#doser-alerts}
+## Alertas de dosificadoras {#doser-alerts}
 
-Un DŌS y una ReefDose guardan sus alertas en su propia página. La pestaña **Reglas** del [Centro de alertas](/help/mobile-alerts) tiene una fila por dosificador que la abre, y el botón **Abrir dosificador** de una alerta de dosificador también te trae aquí.
+Un DŌS y una ReefDose guardan sus alertas en su propia página. La pestaña **Reglas** del [Centro de alertas](/help/mobile-alerts) tiene una fila por dosificadora que la abre, y el botón **Abrir dosificadora** de una alerta de dosificadora también te trae aquí.
 
 En la página de un DŌS, toca la tarjeta **Alertas** (o la campana de la barra de título). La hoja lista todos los cabezales, y para cada uno puedes fijar:
 
 - *[cabezal] · días restantes*, por ejemplo *Yodo · días restantes*: recibes una alerta por debajo de esos días de suministro
-- *[cabezal] · restante*: recibes una alerta cuando queda menos de esa cantidad en el envase
-- **Espacio restante en el contenedor de residuos**, para un cabezal que saca agua vieja: recibes una alerta cuando el contenedor de residuos se está llenando
+- *[cabezal] · restante*: recibes una alerta cuando queda menos de esa cantidad en el recipiente
+- **Espacio restante en el recipiente de residuos**, para un cabezal que saca agua vieja: recibes una alerta cuando el recipiente de residuos se está llenando
 - **Alertas de dosis omitida**: un interruptor que te avisa cuando el cabezal se salta una dosis programada
 
 Cada umbral tiene su propio interruptor, así que puedes desactivar uno y conservar su valor. Toca **Guardar** cuando termines.
@@ -178,7 +178,7 @@ Los valores predeterminados y otros consumibles están en [Consumibles](/help/mo
 
 ## Bombas Jecod / Jebao {#jecod}
 
-La página de la bomba muestra el patrón de olas (modo) y la intensidad actuales, y puedes cambiar los dos. Su estado está en la fila del título, junto al nombre de la bomba. Un selector con **Igual todo el día** y **Horario** marca el que está en marcha con *· en marcha*, y la página se abre en él. Crear un programa diario, y copiarlo, guardarlo o compartirlo, se explica en [Programar equipos](/help/mobile-schedules).
+La página de la bomba muestra el patrón de olas (modo) y la intensidad actuales, y puedes cambiar los dos. Su estado está en la fila del título, junto al nombre de la bomba. Un selector con **Igual todo el día** y **Horario** marca el que está en marcha con *· en marcha*, y la página se abre en él. Crear un horario diario, y copiarlo, guardarlo o compartirlo, se explica en [Programar equipos](/help/mobile-schedules).
 
 Si la bomba forma parte de un grupo, la página muestra su papel, como **Lidera el grupo**, **Sigue: en sincronía** o **Sigue: alternando**.
 
@@ -190,6 +190,8 @@ Empieza una pausa de alimentación desde **Alimentación** en la página de la b
 Algunas bombas no terminan una alimentación por sí mismas, y la página lo indica. En esas, y en cualquier bomba con horario, Cora Mobile devuelve el patrón de olas y el horario solo mientras la página de la bomba sigue abierta. Si sales de la página, la bomba se queda parada en modo alimentación, o fuera de su horario, hasta que la vuelvas a cambiar o toques **Horario**.
 :::
 
+Si tu hogar tiene un Cora Max, él termina la alimentación y devuelve la bomba a su programa cuando acaba el tiempo, incluso con Cora Mobile cerrado. La advertencia de arriba solo importa entonces cuando no hay un Cora Max.
+
 Una bomba Bluetooth tiene que estar al alcance de tu teléfono para empezar una alimentación, y una bomba de red tiene que estar en tu red.
 
 ### Comprobaciones de fallos {#jecod-fault-checks}
@@ -198,9 +200,13 @@ Una bomba Bluetooth tiene que estar al alcance de tu teléfono para empezar una 
 
 ## AquaWiz {#aquawiz}
 
-La tarjeta de AquaWiz muestra tus lecturas de alcalinidad, y el pH si tu unidad lo informa. También muestra tu KH objetivo, la concentración de tu dosis y, en una unidad con dosificación configurada, su dosis máxima por hora y cuánto suplemento de alcalinidad queda en el envase. Estos datos vienen directamente de tus ajustes de AquaWiz, así que cámbialos en la app de AquaWiz. Cora no puede controlar un AquaWiz.
+La tarjeta de AquaWiz muestra tus lecturas de alcalinidad, y el pH si tu unidad lo informa. También muestra tu KH objetivo, la concentración de tu dosis y, en una unidad con dosificación configurada, su dosis máxima por hora y cuánto suplemento de alcalinidad queda en el recipiente. Estos datos vienen directamente de tus ajustes de AquaWiz, así que cámbialos en la app de AquaWiz. Cora no puede controlar un AquaWiz.
 
-Si tu unidad sigue su envase, Cora te avisa cuando el suplemento se está acabando, a 100 mL por defecto. Cámbialo desde su regla en el [Centro de alertas](/help/mobile-alerts).
+Debajo de las lecturas, la tarjeta dice cuándo se midió la última (por ejemplo *Medido 14:00*) y de dónde viene: **Cada hora desde tu Cora Max** o **Desde la nube de AquaWiz, cada 12 horas**. También muestra el **cambio de pH**. Al abrir la página se pide una lectura nueva, y **Leer ahora** la pide otra vez, como máximo cada 15 minutos. Si una lectura no ha cambiado, es normal: la unidad solo mide de vez en cuando.
+
+Cuando un Cora Max lee la unidad cada hora, la tarjeta muestra también la bomba, la sonda de pH y el nivel del depósito de agua, y Cora te avisa cuando la bomba informa de un fallo, la sonda de pH ha fallado o está cerca del final de su vida, o el nivel del depósito de agua se queda bajo o alto más de una hora.
+
+Si tu unidad sigue su recipiente, Cora te avisa cuando el suplemento se está acabando, a 100 mL por defecto. Cámbialo desde su regla en el [Centro de alertas](/help/mobile-alerts).
 
 
 ## Qué pasa después de cambiar algo {#what-happens-after-you-change-something}

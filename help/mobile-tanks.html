@@ -186,20 +186,20 @@
 <p>Go to <strong>Settings</strong> and tap <strong>Reorder tanks</strong>, then drag the tanks into the order you want. You can also drag a tank by its handle in the list on the Settings screen. <strong>Reorder tanks</strong> only works once you have two tanks or more.</p>
 <p>The order is the order you swipe through on the dashboard.</p>
 <h3 id="reef-buddy-and-tank-order">The order decides which tanks get Reef Buddy</h3>
-<p>Your plan covers a set number of tanks for Reef Buddy's daily briefing. Cora gives it to the first ones in your <strong>Reorder tanks</strong> order. On Plus, and during the 30-day trial, that's your first tank only. Pro covers 5 tanks and Max covers 20. More in <a href="/help/mobile-plans">Plans and subscriptions</a>.</p>
+<p>Your plan covers a set number of tanks for Reef Buddy's daily briefing. Cora gives it to the first ones in your <strong>Reorder tanks</strong> order. On Essential, and during the 30-day trial, that's your first tank only. Advanced covers 5 tanks and Expert covers 20. More in <a href="/help/mobile-plans">Plans and subscriptions</a>.</p>
 <p>If a tank gets no briefing, move it to the top of the list. Removed tanks don't count.</p>
 <h2 id="removing-a-tank">Removing a tank</h2>
 <ol><li>Open the tank profile: tap the pencil in the tank header, or go to <strong>Settings</strong>, tap the tank and choose <strong>Edit tank</strong>.</li><li>Scroll to the bottom and tap <strong>Remove Tank</strong>.</li><li>Cora asks <strong>Remove this tank?</strong> Tap <strong>Remove</strong>.</li></ol>
 <p>Removing only hides the tank. It leaves your dashboard and your Settings list, and its readings, journal and records are kept. You can bring it back at any time.</p>
-<p>These stop for a removed tank: Reef Buddy's briefing, maintenance reminders, and its place in your plan's Reef Buddy count.</p>
-<aside class="cal cal-warning"><p class="cal-t">A removed tank's equipment keeps running</p><p>Removing a tank doesn't unlink anything. Its devices stay assigned to it and keep reporting, a Cora Max assigned to it keeps showing it, and its equipment can still send you alerts.</p>
+<p>A removed tank is kept for its history, but it is never shown and it stays silent. It sends no alerts and no reminders, it gets no Reef Buddy briefing and takes no place in your plan's Reef Buddy count, and its automations stop.</p>
+<aside class="cal cal-note"><p class="cal-t">A removed tank's equipment stays linked</p><p>Removing a tank doesn't unlink anything. Its devices stay assigned to it, and a Cora Max assigned to it stays assigned, but nothing from that tank is shown and no alert or reminder reaches you.</p>
 <p>Before you remove a tank, move or remove its devices on the <strong>Devices</strong> tab. Then open your Cora Max under <strong>Devices</strong> and tap the <strong>Remove tank</strong> icon next to that tank under <strong>Assigned Tanks</strong>.</p></aside>
 <p>When you remove a tank, a de-identified copy of its parameter history goes to reef research, with no link to you. If you don't want that, turn off <strong>Contribute anonymized tank data</strong> first. See <a href="/help/mobile-data-export">Your data</a>.</p>
 <h2 id="restoring-a-removed-tank">Restoring a removed tank</h2>
 <p>Go to <strong>Settings</strong> and tap <strong>Removed tanks</strong>. The row only shows when you have a removed tank. Tap <strong>Restore</strong> next to the tank. Its readings, journal and devices come back exactly as they were.</p>
 <p>Cora Mobile has no way to delete a single tank for good. The only way to delete a tank's data is to delete your account. See <a href="/help/mobile-data-export">Your data</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-tank-profile"><span>Previous</span><b>Your tank profile</b></a><a class="pn-n" href="/help/mobile-account"><span>Next</span><b>Signing in and account recovery</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

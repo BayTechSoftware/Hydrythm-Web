@@ -2,7 +2,7 @@
 title: Szenen auf Cora Max
 description: Szenen auf Cora Max anlegen, starten, bearbeiten und löschen, über Einstellungen → Automationen oder eine Szenen-Kachel auf dem Dashboard.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -25,7 +25,7 @@ Tippe auf eine Szene, um sie zu bearbeiten, oder auf **Neue Szene**, um eine anz
 1. Gib einen **Szenenname** ein.
 2. Tippe auf **Schritt hinzufügen** und wähl, was der Schritt tut. Du siehst nur die Arten von Ausrüstung, die dieses Becken hat:
    - **Apex-Steckdose**: eine Neptune Apex-Steckdose auf **EIN**, **AUS** oder **AUTO** schalten.
-   - **Ein Red-Sea-Gerät steuern**: zum Beispiel **ReefDose: jetzt dosieren**, **ReefDose: Tagesdosis einstellen**, **ReefRun: Pumpengeschwindigkeit einstellen**, **ATO: manuelle Befüllung starten** oder **ReefMat: Rolle weiterdrehen**.
+   - **Ein Red-Sea-Gerät steuern**: zum Beispiel **ReefDose: jetzt dosieren**, **ReefDose: Tagesdosis einstellen**, **ReefRun: Pumpengeschwindigkeit einstellen**, **ATO: manuelle Befüllung starten** oder **ReefMat: Rolle weiterspulen**.
    - **Eine Strömungspumpe steuern**: Strömung oder Wellenmodus einer Jecod-Pumpe einstellen, sie ein- oder ausschalten oder **Für Fütterung pausieren**.
    - **Einen Trident-Test starten**: Alkalinität, kombiniert oder Nährstoffe. Jeder Lauf verbraucht Reagenz.
    - **Einen Apex-Fütterungszyklus starten**: wähle den Zyklus. Das Apex führt den Fütterungstimer selbst und läuft danach allein weiter.
@@ -56,6 +56,8 @@ Lässt sich eine Szene nicht starten oder nicht stoppen, schau in die [Problembe
 :::note Die Kindersicherung gilt auch für Szenen
 Solange die [Kindersicherung](/help/max-settings#child-lock) den Bildschirm gesperrt hat, kannst du dort keine Szene starten, stoppen oder bearbeiten, genau wie bei jeder anderen Steuerung.
 :::
+
+Ein Schritt, der fehlschlägt oder warten müsste, bleibt nicht offen. Er verfällt sofort, der Lauf wird als fehlgeschlagen festgehalten, und du bekommst eine Benachrichtigung, die die Automation, den Schritt und den Grund nennt. Ein Schritt scheitert zum Beispiel, wenn sein Gerät offline ist, kein Cora Max ihn ausführen kann, das Gerät ihn ablehnt oder nicht antwortet oder ein Heizer oder Kühler gerade erst geschaltet wurde. Für einen Schritt in einem entfernten Becken bekommst du keine Benachrichtigung.
 
 ## Eine Szene bearbeiten oder löschen
 

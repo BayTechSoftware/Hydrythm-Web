@@ -2,7 +2,7 @@
 title: Editar tu panel
 description: Añade, mueve, cambia de tamaño y quita widgets en el panel del teléfono, elige el número de columnas y edita el panel de un Cora Max desde el teléfono.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -12,13 +12,13 @@ El editor del panel decide qué widgets aparecen en el panel de un acuario y có
 
 ## Abrir el editor {#opening-the-editor}
 
-Baja por el panel y toca **Editar panel**, justo debajo de los widgets. El editor se abre como **Editar panel**, con la indicación **Mantén presionada una casilla para moverla. Tócala para configurarla.**
+Baja por el panel y toca **Editar panel**, justo debajo de los widgets. El editor se abre como **Editar panel**, con la indicación **Mantén presionada una tarjeta para moverla. Tócala para configurarla.**
 
 :::note El lápiz de la cabecera del acuario abre otra cosa
 Abre **Editar acuario**, el perfil del acuario con el volumen, la fauna, la dosificación, la iluminación y el flujo. Se explica en [El perfil de tu acuario](/help/mobile-tank-profile).
 :::
 
-![La pantalla Editar panel en Cora Mobile](img/mobile-edit.webp "Las columnas arriba y después cada casilla con su nombre y su tipo. Toca una cruz roja para quitarla.")
+![La pantalla Editar panel en Cora Mobile](img/mobile-edit.webp "Las columnas arriba y después cada tarjeta con su nombre y su tipo. Toca una cruz roja para quitarla.")
 
 ## Elegir el número de columnas {#setting-the-column-count}
 
@@ -26,20 +26,22 @@ Elige **2**, **3** o **4** junto a **COLUMNAS**, arriba del editor. La cuadrícu
 
 | Columnas | Cuándo usarlas |
 |---|---|
-| 2 | Sigues pocos parámetros y quieres casillas grandes |
+| 2 | Sigues pocos parámetros y quieres tarjetas grandes |
 | 3 | La opción predeterminada. Va bien en la mayoría de acuarios |
 | 4 | Quieres una vista densa o tienes un teléfono grande |
 
 ## Añadir un widget {#adding-a-widget}
 
-1. Toca **Agregar casilla** debajo de la cuadrícula, o toca una celda vacía.
-2. En **Agregar una casilla**, elige de qué tipo es. **Parámetro** incluye un valor, un medidor, un gráfico o un estado de un parámetro. **Toma** controla una toma del Apex. Las demás filas son para equipos, como **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La mayoría solo aparecen cuando el acuario tiene ese equipo.
+1. Toca **Agregar tarjeta** debajo de la cuadrícula, o toca una celda vacía.
+2. En **Agregar una tarjeta**, elige de qué tipo es. **Parámetro** incluye un valor, un medidor, un gráfico o un estado de un parámetro. **Toma** controla una toma del Apex. Las demás filas son para equipos, como **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La mayoría solo aparecen cuando el acuario tiene ese equipo.
 3. Elige el parámetro, la toma o el dispositivo.
 4. En un parámetro, elige el tipo. La [Referencia de widgets](/help/mobile-widgets) describe cada uno.
 
 Solo ves los parámetros que tiene el acuario. Un parámetro sin fuente aparece cuando conectas un equipo que lo informa o cuando registras una lectura a mano.
 
-La cuadrícula admite hasta 20 filas. Cuando está llena, Cora dice **El panel está lleno: quita una casilla primero.** Un gráfico necesita dos celdas libres una al lado de la otra.
+La cuadrícula admite hasta 20 filas. Cuando está llena, Cora dice **El panel está lleno: quita una tarjeta primero.** Un gráfico necesita dos celdas libres una al lado de la otra.
+
+Cuando quitas un dispositivo de un acuario, sus mosaicos salen solos del panel, en tu teléfono y en cada Cora Max de ese acuario. Un mosaico cuyo dispositivo ya no está dice **Este dispositivo ya no está en este acuario** y no abre nada.
 
 ## Ordenar widgets {#arranging-widgets}
 
@@ -55,8 +57,8 @@ Toca un widget en el editor para abrir sus ajustes. Según el widget, puedes con
 |---|---|
 | **Tipo** | Widgets de parámetro: Valor, Medidor, Gráfico o Estado |
 | **Parámetro** | Widgets de parámetro: qué parámetro muestra |
-| La toma o el dispositivo | Casillas de toma y de equipo: cuál muestra |
-| **Mostrar lo restante como** | Casillas de dosificadora: **Días** o **Mililitros (mL)** |
+| La toma o el dispositivo | Tarjetas de toma y de equipo: cuál muestra |
+| **Mostrar lo restante como** | Tarjetas de dosificadora: **Días** o **Mililitros (mL)** |
 | **Ancho** | Todos los widgets: **1×** o **2×**. Un gráfico siempre ocupa al menos 2 de ancho |
 | **Alto** | Todos los widgets: **1×** o **2×** |
 | **Rango de tiempo** | Gráfico: 1h, 6h, 24h, 7d, 30d o 1y |
@@ -77,7 +79,7 @@ El panel de Cora Max se edita aparte, desde **Dispositivos →** tu Cora Max **�
 
 Ese editor tiene tres extras que el panel del teléfono no tiene:
 
-- **Mis paneles** guarda hasta 30 diseños en tu cuenta. Cualquier Cora Max de la cuenta puede cargar uno. Las casillas que el destino no puede rellenar aparecen en **Se quedan fuera:** antes de cargarlo.
+- **Mis paneles** guarda hasta 30 diseños en tu cuenta. Cualquier Cora Max de la cuenta puede cargar uno. Las tarjetas que el destino no puede rellenar aparecen en **Se quedan fuera:** antes de cargarlo.
 - **Plantillas** abre **Plantillas de panel**: **Resumen**, **Equipo** y **Parámetros**. Está disponible en todos los planes y no usa IA.
 - **Diseñar con IA**, con un plan de pago o durante la prueba gratuita, propone un diseño completo a partir de lo que el acuario informa y tiene vinculado. Puedes hacer 5 diseños por acuario al día.
 

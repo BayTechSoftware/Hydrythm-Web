@@ -2,7 +2,7 @@
 title: Frequently asked questions
 description: Short answers about what you need, Cora Max, using Cora away from home, equipment, alerts, Reef Buddy, languages, plans and your data.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -82,7 +82,7 @@ It needs Local Network access to find Wi-Fi equipment and reach a Cora Max on yo
 
 ### Can I check on my tank when I'm not home? {#can-i-check-on-my-tank-away}
 
-Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz is read through its maker's cloud, so it keeps updating either way. Readings you log by hand and the tank's history are always there.
+Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz is read through its maker's cloud, so it keeps updating either way, though from there only every 12 hours. Readings you log by hand and the tank's history are always there.
 
 ### Can I control equipment when I'm away from home? {#can-i-control-equipment-away}
 
@@ -192,9 +192,9 @@ No. Anything already written stays in its original language. New alerts, reports
 
 See [Plans and subscriptions](/help/mobile-plans) for what each plan includes.
 
-### Is the Max plan the same as Cora Max? {#max-plan-or-cora-max}
+### Is the Expert plan the same as Cora Max? {#max-plan-or-cora-max}
 
-No. The **Max** plan is a subscription in Cora Mobile. Cora Max is the wall screen. You don't need one for the other.
+No. The **Expert** plan is a subscription in Cora Mobile. Cora Max is the wall screen. You don't need one for the other.
 
 ### What happens to my tank history if my trial or plan ends? {#history-when-plan-ends}
 

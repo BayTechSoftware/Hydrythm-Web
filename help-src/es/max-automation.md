@@ -1,8 +1,8 @@
 ---
 title: Escenas en Cora Max
-description: Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una casilla de escena en el panel.
+description: Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una tarjeta de escena en el panel.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -41,15 +41,15 @@ Un cabezal Neptune DŌS nunca puede ser un paso de escena. Un paso **ReefDose: d
 
 ## Ejecutar una escena
 
-Las escenas aparecen como casillas en el panel. Toca **Ejecutar** para empezar una.
+Las escenas aparecen como tarjetas en el panel. Toca **Ejecutar** para empezar una.
 
 Si la escena pregunta antes de ejecutarse, Cora Max lista primero lo que va a hacer, una línea por paso. Léelo y después ejecútala o cancela.
 
-Mientras una escena temporizada está en marcha, su casilla hace una cuenta atrás hasta el final y muestra **Detener** por si quieres terminarla antes. La casilla de una escena permanente la muestra en marcha hasta que tocas **Detener**. Cuando una escena termina o la detienes, la casilla muestra **Restaurando…** mientras Cora devuelve los equipos a como estaban.
+Mientras una escena temporizada está en marcha, su tarjeta hace una cuenta atrás hasta el final y muestra **Detener** por si quieres terminarla antes. La tarjeta de una escena permanente la muestra en marcha hasta que tocas **Detener**. Cuando una escena termina o la detienes, la tarjeta muestra **Restaurando…** mientras Cora devuelve los equipos a como estaban.
 
 Ejecutar o detener una escena pasa por Cora Cloud, como cualquier otra orden. Encontrarás el resultado en [Actividad](/help/max-activity).
 
-Las escenas no se pueden ejecutar por voz en Cora Max. Usa la casilla, **Ajustes → Automatizaciones** o tu teléfono.
+Las escenas no se pueden ejecutar por voz en Cora Max. Usa la tarjeta, **Ajustes → Automatizaciones** o tu teléfono.
 
 Si una escena no se ejecuta o no se detiene, echa un vistazo a [Solución de problemas](/help/troubleshooting).
 
@@ -57,9 +57,11 @@ Si una escena no se ejecuta o no se detiene, echa un vistazo a [Solución de pro
 Mientras el [Bloqueo infantil](/help/max-settings#child-lock) tiene la pantalla bloqueada, no puedes ejecutar, detener ni editar una escena desde ella, igual que cualquier otro control.
 :::
 
+Un paso que falla o que tendría que esperar no se queda pendiente. Caduca al instante, la ejecución se registra como fallida y recibes una notificación que nombra la automatización, el paso y el motivo. Un paso falla, por ejemplo, si su dispositivo está sin conexión, si ningún Cora Max puede ejecutarlo, si el dispositivo lo rechaza o no responde, o si un calentador o enfriador se acaba de conmutar. Por un paso en un acuario eliminado no recibes notificaciones.
+
 ## Editar o eliminar una escena
 
-Para cambiar una escena, ábrela desde **Ajustes → Automatizaciones** o mantén pulsada su casilla en el panel. Cambia lo que necesites y toca **Guardar**. Para quitarla, toca **Eliminar escena**. No se puede deshacer.
+Para cambiar una escena, ábrela desde **Ajustes → Automatizaciones** o mantén pulsada su tarjeta en el panel. Cambia lo que necesites y toca **Guardar**. Para quitarla, toca **Eliminar escena**. No se puede deshacer.
 
 :::note Un Cora Max más antiguo puede ejecutar una escena pero no editarla
 Las versiones antiguas de Cora Max siguen mostrando y ejecutando todas las escenas, pero no pueden cambiar ninguna. Actualiza Cora Max ([Actualizaciones y recuperación](/help/max-updates)), o edita la escena en tu teléfono.

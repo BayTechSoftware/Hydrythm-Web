@@ -2,7 +2,7 @@
 title: Appareils et état des appareils
 description: Voyez et renommez l’équipement que lit Cora Max, choisissez quel Cora Max lit chaque aquarium, réparez un aquarium dont les mesures se sont arrêtées et gérez un Cora Max depuis votre téléphone.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Equipment
 twin: mobile-devices
@@ -15,6 +15,8 @@ twin: mobile-devices
 ![La liste des appareils sur Cora Max, filtrée par aquarium et regroupée par marque](img/max-devices.webp "Filtrez par aquarium, puis chaque appareil regroupé par marque, avec un résumé d’une ligne et son aquarium.")
 
 Cora Max voit le même équipement que votre téléphone, car ils lisent tous les deux le même compte.
+
+Dans la liste, les familles Cora viennent en premier, puis chaque marque de A à Z.
 
 Utilisez les puces de filtre en haut pour afficher **Tous les aquariums** ou un seul. Les appareils sont regroupés par marque. Chaque entrée a un point d’état (gris quand Cora ne sait pas encore, vert quand il fonctionne, orange pour un avertissement ou une panne, rouge quand il est hors ligne), un résumé d’une ligne de ce que contient l’appareil (*21 prises · 4 nourrissages*, *19 tests restants*), l’aquarium auquel il appartient et sa **Dernière connexion**.
 

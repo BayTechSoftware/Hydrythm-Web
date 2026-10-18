@@ -2,7 +2,7 @@
 title: How do I...?
 description: A list of common tasks in Cora Mobile and on Cora Max, each linked to the exact steps, from creating your account to pairing Cora Max and cancelling a plan.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 
@@ -46,7 +46,7 @@ Pick the task you want to do. Each link opens the steps for it. If something isn
 - [Start feed mode on my phone](/help/mobile-dashboard#the-tank-header)
 - [Start feed mode on Cora Max](/help/max-controls#feed-mode)
 - [Pause a DŌS head](/help/mobile-device-control#dos)
-- [Give a pump a day program](/help/mobile-schedules)
+- [Give a pump a schedule](/help/mobile-schedules)
 - [See what my equipment did, and why](/help/mobile-activity)
 
 ## Readings and your dashboard

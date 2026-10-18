@@ -2,7 +2,7 @@
 title: Connecter votre équipement
 description: Comment connecter à Cora un Neptune Apex, un Red Sea ReefBeat, un Jecod ou un AquaWiz.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 12
 group: Equipment
 ---
@@ -54,7 +54,7 @@ Cora communique avec l’équipement ReefBeat sur votre réseau local. Il prend 
 
 Un appareil Red Sea dessert un seul aquarium. En choisir un autre l’y déplace.
 
-Chaque appareil a sa propre page, et ses mesures deviennent des sources. ReefDose signale ses têtes et ses récipients, ReefATO+ son réservoir et ses remplissages, ReefMat les jours qui lui restent, et ReefRun l’état de ses pompes. Ce que chaque page vous permet de faire est dans [Contrôler votre équipement](/help/mobile-device-control#red-sea).
+Chaque appareil a sa propre page, et ses mesures deviennent des sources. ReefDose signale ses têtes et ses réservoirs, ReefATO+ son réservoir et ses remplissages, ReefMat les jours qui lui restent, et ReefRun l’état de ses pompes. Ce que chaque page vous permet de faire est dans [Contrôler votre équipement](/help/mobile-device-control#red-sea).
 
 ## Jecod / Jebao {#jecod}
 
@@ -84,11 +84,11 @@ Cora lit l’alcalinité d’un contrôleur KH AquaWiz par votre compte AquaWiz�
 
 1. Allez dans **Appareils → Ajouter un appareil → AquaWiz**.
 2. Saisissez votre nom d’utilisateur et votre mot de passe AquaWiz et touchez **Connecter**.
-3. Choisissez l’aquarium, activez **Lire aussi son pH** si vous le voulez, et touchez **Lier à Cora**.
+3. Choisissez l’aquarium, vérifiez **Lire aussi son pH** (il est activé au départ pour un appareil qui signale le pH), et touchez **Lier à Cora**.
 
 Avec **Rester connecté automatiquement** activé, Cora garde votre mot de passe AquaWiz et renouvelle la connexion tout seul. Désactivé, Cora ne garde qu’un jeton de connexion, qu’AquaWiz fait expirer environ tous les 30 jours, et vous envoie une notification quand il est temps de vous reconnecter.
 
-Vous obtenez l’alcalinité comme source, mise à jour aussi souvent que votre contrôleur titre, et aussi le pH si vous l’avez activé et que votre appareil le signale. Ce qu’affiche la carte AquaWiz, et son alerte de produit, sont dans [Contrôler votre équipement](/help/mobile-device-control#aquawiz).
+Vous obtenez l’alcalinité comme source, et aussi le pH si votre appareil le signale et que **Lire aussi son pH** est activé. Votre première mesure arrive dès que vous liez l’appareil. Ensuite, AquaWiz ne laisse Cora lire son cloud automatiquement que toutes les 12 heures : une mesure venue de là peut avoir jusqu’à une demi-journée. Un Cora Max à l’aquarium peut aussi lire lui-même le contrôleur toutes les heures quand il peut l’atteindre. Ouvrez la page de l’appareil pour voir quand chaque mesure a été prise et d’où elle vient, et touchez **Lire maintenant** pour en avoir une fraîche (au plus une fois toutes les 15 minutes). Ce qu’affiche la carte AquaWiz, et ses alertes, sont dans [Contrôler votre équipement](/help/mobile-device-control#aquawiz).
 
 :::warning Cora partage votre connexion AquaWiz
 AquaWiz donne une seule connexion par compte, donc Cora utilise la même que l’application AquaWiz. Si vous changez votre mot de passe AquaWiz, Cora se déconnecte. Reconnectez-le ensuite depuis la ligne de l’appareil. Pour retirer complètement l’accès de Cora, retirez l’appareil dans Cora et changez votre mot de passe AquaWiz.

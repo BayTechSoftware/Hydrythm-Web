@@ -2,7 +2,7 @@
 title: Dispositivi e salute dei dispositivi
 description: Guarda e rinomina l'attrezzatura che Cora Max legge, scegli quale Cora Max legge ogni vasca, sistema una vasca le cui letture si sono fermate e gestisci un Cora Max dal telefono.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Equipment
 twin: mobile-devices
@@ -16,7 +16,9 @@ twin: mobile-devices
 
 Cora Max vede la stessa attrezzatura del telefono, perché entrambi leggono lo stesso account.
 
-Usa le etichette filtro in alto per mostrare **Tutte le vasche** o una sola. I dispositivi sono raggruppati per marca. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), un riassunto di una riga di quello che contiene il dispositivo (*21 prese · 4 alimentazioni*, *19 test rimanenti*), la vasca a cui appartiene e quando è stato **Visto l'ultima volta**.
+Nell'elenco vengono prima le famiglie Cora, poi ogni marchio dalla A alla Z.
+
+Usa le etichette filtro in alto per mostrare **Tutte le vasche** o una sola. I dispositivi sono raggruppati per marca. Ogni voce ha un pallino di stato (grigio quando Cora non lo sa ancora, verde quando funziona, arancione per un avviso o un guasto, rosso quando è offline), un riassunto di una riga di quello che contiene il dispositivo (*21 prese · 4 alimentazioni*, *19 test rimanenti*), la vasca a cui appartiene e il suo **Ultimo contatto**.
 
 Tocca un dispositivo per aprirne la pagina. Ogni pagina dispositivo si apre con una sezione **Stato**. Cosa può fare ogni pagina è spiegato in [Controllare l'attrezzatura da Cora Max](/help/max-device-control).
 
@@ -60,7 +62,7 @@ Se non basta, dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting
 
 ## Gestire un Cora Max dal telefono {#managing-a-cora-max-from-your-phone}
 
-Apri la scheda **Dispositivi** sul telefono e tocca il Cora Max. La scheda in alto mostra la variante, il firmware e quando è stato visto l'ultima volta. Da lì puoi rinominarlo e, quando c'è una nuova versione, toccare **Aggiorna a v…** per installarla subito. La scheda **PIN di ripristino** si trova subito sotto.
+Apri la scheda **Dispositivi** sul telefono e tocca il Cora Max. La scheda in alto mostra la variante, il firmware e l'ultimo contatto. Da lì puoi rinominarlo e, quando c'è una nuova versione, toccare **Aggiorna a v…** per installarla subito. La scheda **PIN di ripristino** si trova subito sotto.
 
 ![La pagina di un Cora Max in Cora Mobile, con Blocco bambini, Polling dispositivi, Fuso orario e Vasche assegnate](img/max-from-phone.webp "Le impostazioni di un singolo Cora Max sul telefono: Blocco bambini, Polling dispositivi e Fuso orario, poi le sue vasche.")
 

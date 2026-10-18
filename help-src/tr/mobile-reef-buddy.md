@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Günlük Reef Buddy özetiniz, neleri kapsadığı, ne zaman geldiği, puanların nasıl okunduğu ve bir özetin neden gelmeyebileceği.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -46,13 +46,13 @@ Kartı kaldırdıktan sonra bugünün özetini açmak için panonun üstündeki 
 
 Bunu hesabınız için günde bir kez yapabilirsiniz. Sonrasında düğme grileşir ve *Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.* yazar.
 
-Prob ve kontrolcü ölçümleri bu teklifi tetiklemez, çünkü gün boyu gelirler.
+Prob ve kontrolör ölçümleri bu teklifi tetiklemez, çünkü gün boyu gelirler.
 
 ## Bir içgörüyü neden görüyorsunuz
 
 Bir içgörünün altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümler**'i, **Karşılaştırılan hedef**'i (kendi hedefiniz ya da bir referans aralığı), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı gün cinsinden zaman aralığını listeler. Gerekçe akvaryumunuza uymuyorsa içgörüyü [Bir içgörüyü düzeltme](#bir-icgoruyu-duzeltme) bölümünde anlatıldığı gibi yanıtlayın.
 
-Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık programlarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında ve DŌS kafalarınızın toplamlarını kullanabilirler.
+Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık zamanlamalarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında ve DŌS kafalarınızın toplamlarını kullanabilirler.
 
 
 ## Ne zaman gelir
@@ -85,7 +85,7 @@ Bir haftadır hiçbir şey test etmediyseniz Veri puanı düşer ve Kararlılık
 
 Reef Buddy ücretli planların bir parçasıdır. Hesabınızı oluşturduğunuzda başlayan 30 günlük denemeye de dahildir.
 
-Her plan belli sayıda akvaryumu kapsar: denemede ve Plus'ta 1, Pro'da 5, Max'te 20. Özetler **Ayarlar → Akvaryumları yeniden sırala** içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.
+Her plan belli sayıda akvaryumu kapsar: denemede ve Essential'da 1, Advanced'de 5, Expert'te 20. Özetler **Ayarlar → Akvaryumları yeniden sırala** içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.
 
 Deneme bittikten sonra ücretsiz bir hesap, özetin olduğu yerde **Planları gör** düğmeli kilitli bir Reef Buddy kartı görür ve özet bildirimi almaz. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
 

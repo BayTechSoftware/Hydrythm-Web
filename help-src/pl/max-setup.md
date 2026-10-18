@@ -49,7 +49,7 @@ Wszystko inne dzieje się w Cora Mobile. Arkusz prowadzi Cię przez pięć krok�
 
 5. **Akwaria.** W **Przypisz akwaria** wybierz akwaria, którymi będzie zarządzał ten Cora Max, **najwyżej cztery**.
 
-6. **Gotowe.** Telefon mówi, że Cora Max jest skonfigurowany, i pokazuje **PIN odzyskiwania**. Dotknij przycisku, który otwiera pulpit akwarium, albo **Przejdź do Urządzeń**. Cora Max pokaże **Sparowano**, a potem **Otwieranie panelu…**.
+6. **Gotowe.** Telefon mówi, że Cora Max jest skonfigurowany, i pokazuje **PIN odzyskiwania**. Dotknij przycisku, który otwiera panel akwarium, albo **Przejdź do Urządzeń**. Cora Max pokaże **Sparowano**, a potem **Otwieranie panelu…**.
 
 :::warning Zapisz PIN odzyskiwania
 **PIN odzyskiwania** ma sześć cyfr i to jedyny sposób na wejście w odzyskiwanie na tym Cora Max. Żeby go użyć, przytrzymaj pięć palców w prawym górnym rogu ekranu przez dziesięć sekund, a potem wpisz PIN. Odzyskiwanie pozwala ponownie skonfigurować Wi-Fi, sparować urządzenie od nowa, sprawdzić aktualizację albo przywrócić ustawienia fabryczne. PIN znajdziesz ponownie w telefonie w **Urządzenia → Twój Cora Max → PIN odzyskiwania**, ale nigdy na samym Cora Max.
@@ -71,15 +71,15 @@ Cora Max widzi teraz te same akwaria, urządzenia, odczyty i zapiski co telefon.
 
 - Jeśli któreś z Twoich akwariów miało wcześniej Cora Max, Cora Max zapyta **Przywrócić poprzedni układ dla tego akwarium?** **Przywróć** przywraca ustawienia ekranu, dźwięku i alertów zapisane przez poprzedni. **Zacznij od nowa** je pomija.
 - Akwarium bez odczytów pokazuje **Jeszcze brak odczytów** i przycisk **Zapisz swój pierwszy test**.
-- Cora Max buduje początkowy pulpit na podstawie profilu akwarium. Nie kopiuje pulpitu z telefonu.
+- Cora Max buduje początkowy panel na podstawie profilu akwarium. Nie kopiuje panelu z telefonu.
 
 Do jednego konta możesz sparować więcej niż jeden Cora Max, na przykład jeden w pokoju z akwarium, a drugi w salonie. Każdy może pokazywać inne akwaria i ma własny układ. Jeśli dwa pokazują to samo akwarium, [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device) wyjaśnia, który z nich odczytuje sprzęt.
 
-## Budowanie pulpitu {#building-the-dashboard}
+## Budowanie panelu {#building-the-dashboard}
 
 Pulpit na dużym ekranie to stała siatka i wszystko musi zmieścić się na jednym ekranie. Najszybciej ułożysz go z telefonu: otwórz zakładkę **Urządzenia**, dotknij swojego Cora Max, a potem **Układ panelu** na karcie akwarium. Możesz to też zrobić przy ścianie z menu akwarium.
 
-Żeby użyć ponownie układu z innego Cora Max albo innego akwarium, wczytaj go z **Moje panele** w edytorze. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).
+Żeby użyć ponownie układu z innego Cora Max albo innego akwarium, wczytaj go z **Moje panele** w edytorze. Więcej w [Edytowaniu panelu Cora Max](/help/max-dashboard-editing).
 
 ## Przenoszenie Cora Max do innego akwarium {#changing-which-tanks-it-shows}
 
@@ -89,7 +89,7 @@ To, które akwaria pokazuje Cora Max, zmieniasz w telefonie. Własne ustawienia 
 2. W **Akwaria** dotknij **Dodaj akwarium** i wybierz akwarium. Cora Max mieści do czterech. Gdy ma już cztery, przycisku nie ma, więc najpierw usuń jedno.
 3. Żeby zdjąć akwarium z tego ekranu, dotknij czerwonej ikony usuwania (**Usuń akwarium**) na karcie tego akwarium, a potem **Usuń**.
 
-Żeby przenieść Cora Max z jednego akwarium do drugiego, dodaj nowe akwarium, a potem usuń stare. Nowe akwarium dostaje początkowy pulpit zbudowany z jego profilu. Ułóż go w **Układ panelu**.
+Żeby przenieść Cora Max z jednego akwarium do drugiego, dodaj nowe akwarium, a potem usuń stare. Nowe akwarium dostaje początkowy panel zbudowany z jego profilu. Ułóż go w **Układ panelu**.
 
 Jeśli ten Cora Max był przypiętym Głównym Cora Max usuniętego akwarium, przypięcie zostaje usunięte, a akwarium wraca do **Każde aktywne (automatycznie)**. Więcej w [Urządzeniach i ich stanie](/help/max-devices).
 

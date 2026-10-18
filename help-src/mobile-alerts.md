@@ -2,7 +2,7 @@
 title: Alerts and thresholds
 description: Set the healthy range for each reading, choose how often an alert can notify you, and find out why a device "stopped reporting".
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -98,7 +98,7 @@ How long Cora waits depends on the device:
 |---|---|
 | Neptune Apex | About 30 minutes without an update |
 | Red Sea ReefBeat | About 30 minutes |
-| AquaWiz | About 3 hours, because it reports less often |
+| AquaWiz | About 25 hours, because AquaWiz lets Cora read its cloud only every 12 hours |
 | Jecod pumps | Three missed readings in a row, on the pump's reading interval (90 minutes at the default 30) |
 | Zigbee smart plug | Still silent 30 minutes after its hub restarted. Give it a name with **Rename** so the alert says which plug |
 

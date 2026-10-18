@@ -2,7 +2,7 @@
 title: Rapports ICP et de santé
 description: Importez le PDF d’un test ICP ou faites-le envoyer par votre laboratoire, lisez le score, suivez chaque élément dans le temps et lancez un rapport de santé de tout votre système.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -80,11 +80,13 @@ Vous obtenez un score sur 100 et un résumé en langage simple de ce que cela si
 
 Le score compare vos résultats avec leurs plages cibles, y compris les plages que vous avez réglées vous-même. Si un résultat est hors de sa plage, le score ne peut pas dépasser 70, il ne peut donc pas indiquer **Sain**. Si l’un est très hors plage, il ne peut pas dépasser 40, aussi bons que soient les autres. L’étiquette sous le score indique **Sain** de 71 à 100, **Attention requise** de 40 à 70 et **Critique** de 0 à 39. Les rapports de santé sont notés de la même façon.
 
-Chaque élément est suivi, y compris les oligo-éléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent *Acidity* est le pH.
+Chaque élément est suivi, y compris les oligoéléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent *Acidity* est le pH.
 
 Sur la ligne de chaque élément, vous voyez la plage imprimée par le laboratoire, affichée comme *Plage du laboratoire*, à côté de la plage propre à Cora pour cet élément. Un élément pour lequel Cora n’a pas de plage de référence porte l’étiquette **Pas de plage Cora**. Le rapport indique combien d’éléments ont une plage Cora et évalue les autres à partir des connaissances générales sur le récif. Cora Assistant commente chaque élément testé, et son commentaire vaut même quand il n’y a pas de plage Cora.
 
 Si le laboratoire imprime *n.d.*, ou *non détecté*, pour un élément, Cora l’enregistre à 0 et indique qu’il n’a pas été détecté.
+
+Si un laboratoire indique la **densité** (ou densité relative) plutôt que la salinité, Cora l’enregistre comme salinité, toujours affichée en SG, et l’évalue selon votre plage de salinité.
 
 :::note Le CO2 dissous n’est pas le CO2 de la pièce
 Le **CO₂ dissous** d’un rapport ICP est le CO2 dans l’eau, en mg/L. C’est une mesure différente du CO2 de l’air de votre pièce. Les deux ont des plages différentes et ne sont jamais mélangés.

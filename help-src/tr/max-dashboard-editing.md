@@ -2,7 +2,7 @@
 title: Cora Max panosunu düzenleme
 description: Cora Max panosunda kutucuk ekleyin, taşıyın ve kaldırın, bir ızgara seçin, şablonları ya da Yapay zeka ile tasarla'yı kullanın ve düzenleri herhangi bir Cora Max'te yeniden kullanmak üzere kaydedin.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -55,6 +55,8 @@ Kutucuk türleri şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, Ree
 ## Prizler ve Besleme {#outlets-feed}
 
 Düzenleyicideki **Prizler ve Besleme**, panonun altından yukarı kaydırdığınız çekmece olan **Kontroller**'de hangi prizlerin ve besleme döngülerinin görüneceğini seçer. Kutucuk eklemez. Hiçbirini seçmezseniz Kontroller hepsini listeler. Bir prizi ızgaranın kendisine koymak için bir **Priz** kutucuğu ekleyin. Ayrıntılar [Prizler ve kontroller](/help/max-controls) sayfasında.
+
+Bir cihazı akvaryumdan çıkardığınızda kutucukları panodan kendiliğinden kalkar, telefonunuzda ve o akvaryumdaki her Cora Max'te. Cihazı gitmiş bir kutucuk **Bu cihaz artık bu akvaryumda değil** yazar ve hiçbir şey açmaz.
 
 ## Şablonlar {#templates}
 

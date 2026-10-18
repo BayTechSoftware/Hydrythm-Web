@@ -55,7 +55,7 @@ Bir sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu se�
 
 ## Bir parametre için birden fazla prob {#multiple-probes}
 
-İki sıcaklık probunuz varsa, ister aynı kontrolcüde ister iki farklı kontrolcüde olsun, ikisini de eşleyin. Cora onları ayrı kaynaklar olarak tutar. Ölçümü hangisinin sağlayacağını **Kaynaklar** sekmesinde seçersiniz ya da Otomatik'te bırakırsınız. İkisini [parametre görünümünde](/help/mobile-metric-detail) karşılaştırabilirsiniz.
+İki sıcaklık probunuz varsa, ister aynı kontrolörde ister iki farklı kontrolörde olsun, ikisini de eşleyin. Cora onları ayrı kaynaklar olarak tutar. Ölçümü hangisinin sağlayacağını **Kaynaklar** sekmesinde seçersiniz ya da Otomatik'te bırakırsınız. İkisini [parametre görünümünde](/help/mobile-metric-detail) karşılaştırabilirsiniz.
 
 İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe gider ve güncel değerin üzerine yazmaz. **Kaynaklar** sekmesinde bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
 

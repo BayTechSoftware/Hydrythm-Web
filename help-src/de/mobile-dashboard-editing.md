@@ -2,7 +2,7 @@
 title: Dein Dashboard bearbeiten
 description: Widgets auf deinem Handy-Dashboard hinzufügen, verschieben, in der Größe ändern und entfernen, die Spaltenzahl festlegen und ein Cora Max-Dashboard vom Handy aus bearbeiten.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -40,6 +40,8 @@ Wähl oben im Editor neben **SPALTEN** **2**, **3** oder **4**. Das Raster wäch
 Du siehst nur Wasserwerte, die das Becken hat. Ein Wasserwert ohne Quelle erscheint, sobald du Ausrüstung verbindest, die ihn meldet, oder einen Messwert von Hand einträgst.
 
 Das Raster fasst bis zu 20 Zeilen. Ist es voll, sagt Cora **Dashboard ist voll: Entferne zuerst eine Kachel.** Ein Diagramm braucht zwei freie Zellen nebeneinander.
+
+Entfernst du ein Gerät aus einem Becken, verschwinden seine Kacheln von selbst vom Dashboard, auf deinem Handy und auf jedem Cora Max dieses Beckens. Eine Kachel, deren Gerät weg ist, sagt **Dieses Gerät ist nicht mehr in diesem Becken** und öffnet nichts.
 
 ## Widgets anordnen {#arranging-widgets}
 

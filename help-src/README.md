@@ -86,10 +86,6 @@ Images taller than 1.4× their width are treated as phone screenshots and capped
 
 ## Rules this guide is written under
 
-- **Cora Mobile** and **Cora Max**: never "the app", "the kiosk", "the tablet", "E10".
-  The on-device icon is labelled **Cora**, which the setup page says once on purpose.
-- **Cora Assistant** and **Cora Cloud**: no third-party infrastructure is ever named.
-- Nothing about Flo, Senso, Specto, Cora Cube, Cora Base, Cora Pro or Cora Link.
 - Integrations named publicly: Neptune Apex (DŌS, Trident), Red Sea ReefBeat, Jecod/Jebao and
   the AquaWiz KH Controller.
 - ⛔⛔ **Both GIZ-14 disclaimers appear in the shared footer of every page.** They are in

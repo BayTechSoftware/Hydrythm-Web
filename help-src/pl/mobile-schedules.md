@@ -2,7 +2,7 @@
 title: Harmonogramy sprzętu
 description: Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
@@ -13,11 +13,11 @@ Lampy i pompy innych marek mają harmonogramy na własnych stronach: ReefDose od
 
 ![Strona pompy Jecod w Cora Mobile z wybranym Harmonogramem](img/mobile-schedules.webp "Harmonogram wybrany na górze, przerwa na karmienie, a pod nimi wykres dnia.")
 
-## Tak samo cały dzień albo Harmonogram {#same-all-day-or-schedule}
+## Cały dzień tak samo albo Harmonogram {#same-all-day-or-schedule}
 
 Pompa pracuje w jednym z dwóch trybów. Wybierz go przełącznikiem na jej stronie. Działający jest oznaczony *· działa*, a strona otwiera się na nim.
 
-- **Tak samo cały dzień** to jedna intensywność przez cały czas.
+- **Cały dzień tak samo** to jedna intensywność przez cały czas.
 - **Harmonogram** to program dnia złożony z okresów.
 
 Gdy telefon jest w sieci pompy, Cora wysyła Twój wybór prosto do pompy. Jeśli nie jest, wybór idzie przez Cora Max przy akwarium. Pompa Bluetooth musi być w zasięgu. Dopóki nie jest, wybór zmienia tylko to, co widzisz na ekranie.
@@ -56,7 +56,7 @@ Gdy masz harmonogram, który Ci odpowiada, nie musisz układać go od nowa.
 
 Gdy telefon nie jest w sieci pompy, Cora Mobile łączy się przez Cora Max przy akwarium. Kilka rzeczy działa wtedy inaczej.
 
-- **Tak samo cały dzień** i **Harmonogram** przełączają pompę przez ten Cora Max.
+- **Cały dzień tak samo** i **Harmonogram** przełączają pompę przez ten Cora Max.
 - Dodany albo zmieniony okres przejdzie tylko wtedy, gdy ten Cora Max połączył się z pompą w ciągu ostatniej godziny. Jeśli nie, harmonogram Ci o tym powie i nie zmienisz go z miejsca, w którym jesteś.
 - **Skopiuj harmonogram do…**, **Zapisz harmonogram jako…**, **Zapisane harmonogramy…**, **Udostępnij ten harmonogram** i **Wklej kod harmonogramu…** wymagają telefonu w sieci pompy. Do tego czasu są wyszarzone, a menu wyjaśnia dlaczego.
 

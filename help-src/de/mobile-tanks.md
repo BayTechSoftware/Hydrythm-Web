@@ -2,7 +2,7 @@
 title: Deine Becken verwalten
 description: Ein weiteres Becken hinzufügen, zwischen Becken wechseln, ihre Reihenfolge ändern und festlegen, welche Becken Reef Buddy bekommen, und ein Becken entfernen oder wiederherstellen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
@@ -45,7 +45,7 @@ In dieser Reihenfolge wischst du auch durch das Dashboard.
 
 ### Die Reihenfolge entscheidet, welche Becken Reef Buddy bekommen {#reef-buddy-and-tank-order}
 
-Dein Abo deckt eine feste Zahl von Becken für das tägliche Briefing von Reef Buddy ab. Cora gibt es den ersten Becken in deiner Reihenfolge unter **Becken neu anordnen**. Bei Plus und während der 30-tägigen Testphase ist das nur dein erstes Becken. Pro deckt 5 Becken ab und Max 20. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
+Dein Abo deckt eine feste Zahl von Becken für das tägliche Briefing von Reef Buddy ab. Cora gibt es den ersten Becken in deiner Reihenfolge unter **Becken neu anordnen**. Bei Essential und während der 30-tägigen Testphase ist das nur dein erstes Becken. Advanced deckt 5 Becken ab und Expert 20. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 
 Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte Becken zählen nicht mit.
 
@@ -57,10 +57,10 @@ Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte B
 
 Entfernen blendet das Becken nur aus. Es verschwindet aus deinem Dashboard und deiner Liste unter Einstellungen, aber seine Messwerte, sein Tagebuch und seine Aufzeichnungen bleiben erhalten. Du kannst es jederzeit zurückholen.
 
-Für ein entferntes Becken hört Folgendes auf: das Briefing von Reef Buddy, Wartungserinnerungen und sein Platz in der Reef Buddy-Zahl deines Abos.
+Ein entferntes Becken bleibt wegen seines Verlaufs erhalten, wird aber nie angezeigt und bleibt stumm. Es sendet keine Warnungen und keine Erinnerungen, bekommt kein Briefing von Reef Buddy, belegt keinen Platz in der Reef-Buddy-Zählung deines Plans, und seine Automationen stoppen.
 
-:::warning Die Ausrüstung eines entfernten Beckens läuft weiter
-Beim Entfernen eines Beckens wird nichts getrennt. Seine Geräte bleiben ihm zugewiesen und melden weiter Daten, ein Cora Max, dem es zugewiesen ist, zeigt es weiter an, und seine Ausrüstung kann dir weiterhin Warnungen schicken.
+:::note Die Ausrüstung eines entfernten Beckens bleibt verknüpft
+Beim Entfernen eines Beckens wird nichts getrennt. Seine Geräte bleiben ihm zugewiesen, und ein ihm zugewiesenes Cora Max bleibt zugewiesen, aber nichts von diesem Becken wird angezeigt, und keine Warnung und keine Erinnerung erreicht dich.
 
 Bevor du ein Becken entfernst, verschieb oder entferne seine Geräte im Tab **Geräte**. Öffne dann dein Cora Max unter **Geräte** und tippe neben diesem Becken unter **Zugewiesene Becken** auf das Symbol **Becken entfernen**.
 :::

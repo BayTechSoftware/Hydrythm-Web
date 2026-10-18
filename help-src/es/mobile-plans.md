@@ -1,8 +1,8 @@
 ---
 title: Planes y suscripciones
-description: Qué incluyen los planes Free, prueba gratuita, Plus, Pro y Max, cómo suscribirte o mejorar tu plan, dónde ver tu uso y cómo cancelar en iPhone o Android.
+description: Qué incluyen los planes Free, prueba gratuita, Essential, Advanced y Expert, cómo suscribirte o mejorar tu plan, dónde ver tu uso y cómo cancelar en iPhone o Android.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -34,7 +34,7 @@ Cuando se acaba una cuota, puedes seguir leyendo todo lo que Cora ya ha hecho pa
 
 ## La prueba gratuita {#the-trial}
 
-Tu **prueba de Pro de 30 días empieza cuando creas tu cuenta**. No espera a que uses una función por primera vez, y no necesitas tarjeta. **Cuenta y suscripción** la muestra como **Prueba de Cora Pro**, con la fecha en que termina.
+Tu **prueba de Advanced de 30 días empieza cuando creas tu cuenta**. No espera a que uses una función por primera vez, y no necesitas tarjeta. **Cuenta y suscripción** la muestra como **Prueba de Cora Advanced**, con la fecha en que termina.
 
 | Durante la prueba | |
 |---|---|
@@ -44,15 +44,15 @@ Tu **prueba de Pro de 30 días empieza cuando creas tu cuenta**. No espera a que
 | Análisis de ICP | 1 al mes |
 | Reef Buddy y vigilancia con IA | Tu primer acuario |
 
-La prueba incluye Reef Buddy y **Diseñar con IA**. Sus cuotas son más pequeñas que las del plan Pro.
+La prueba incluye Reef Buddy y **Diseñar con IA**. Sus cuotas son más pequeñas que las del plan Advanced.
 
 Cuando termina, tu cuenta vuelve a Free. **No se borra nada.** Puedes seguir leyendo todas tus lecturas, entradas del diario, informes y resúmenes.
 
 ## Planes de pago {#paid-tiers}
 
-Hay tres planes, **Plus**, **Pro** y **Max**, cada uno mensual o anual. Ajustes los muestra como Cora Plus, Cora Pro y Cora Max. Los precios actuales están en Cora Mobile y en tu tienda de aplicaciones, porque ahí es donde pagas.
+Hay tres planes, **Essential**, **Advanced** y **Expert**, cada uno mensual o anual. Ajustes los muestra como Cora Essential, Cora Advanced y Cora Expert. Los precios actuales están en Cora Mobile y en tu tienda de aplicaciones, porque ahí es donde pagas.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Mensajes al Asistente / mes | 500 | 1.200 | 2.500 (uso razonable) |
 | Sesiones de voz / mes | 100 | 200 | 400 |
@@ -63,8 +63,8 @@ Hay tres planes, **Plus**, **Pro** y **Max**, cada uno mensual o anual. Ajustes 
 Las sesiones de voz tienen su propio contador, y cada respuesta hablada también gasta de tu cuota de mensajes. Todos los planes de pago incluyen Reef Buddy, la subida y el análisis de ICP de los laboratorios que Cora sabe leer, la comparación con tu propio historial y **Diseñar con IA** para los paneles (hasta 5 diseños al día por acuario).
 
 
-:::note El plan Max no es la pantalla Cora Max
-El **plan Max** es una suscripción. **Cora Max** es la pantalla que está junto a tu acuario. No necesitas uno para tener el otro.
+:::note El plan Expert no es la pantalla Cora Max
+El **plan Expert** es una suscripción. **Cora Max** es la pantalla que está junto a tu acuario. No necesitas uno para tener el otro.
 :::
 
 ### Qué acuarios tienen IA {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy y la vigilancia con IA cubren tantos acuarios como permita tu plan, c
 ## Suscribirte o mejorar tu plan {#subscribing}
 
 1. Abre **Ajustes** y toca la tarjeta de la cuenta, arriba. Se abre **Cuenta y suscripción**.
-2. Junto a tu plan, toca **Ver planes** (en Free o en la prueba), **Mejorar plan** (en Plus) o **Mejorar a Max** (en Pro).
+2. Junto a tu plan, toca **Ver planes** (en Free o en la prueba), **Mejorar plan** (en Essential) o **Mejorar a Expert** (en Advanced).
 3. Elige **Mensual** o **Anual**. El precio anual muestra cuánto ahorras.
 4. Elige un plan y toca **Suscribirse**.
 5. Confirma con App Store o Google Play. Tu nuevo plan se desbloquea en cuanto la tienda lo confirma.
@@ -85,7 +85,7 @@ El mismo selector de planes también se abre cuando llegas a un límite, por eje
 
 ## Cuenta y suscripción
 
-![Cuenta y suscripción en Cora Mobile](img/mobile-plans.webp "Tu plan en Suscripción, con Mejorar a Max y Restaurar compras.")
+![Cuenta y suscripción en Cora Mobile](img/mobile-plans.webp "Tu plan en Suscripción, con Mejorar a Expert y Restaurar compras.")
 
 **Cuenta y suscripción** muestra tu plan actual y cuándo se renueva o termina. Debajo están estos controles.
 
@@ -110,7 +110,7 @@ Los contadores vuelven a empezar al principio de cada mes natural.
 
 ## Cambiar de plan
 
-Para subir, usa **Mejorar plan** o **Mejorar a Max** como se explica arriba. Para bajar o cambiar entre mensual y anual, usa **Gestionar suscripción**. Los cambios se hacen en App Store o Google Play y siguen las mismas reglas que cualquier otra suscripción de tu teléfono, incluidas las condiciones de reembolso y cancelación de esa tienda.
+Para subir, usa **Mejorar plan** o **Mejorar a Expert** como se explica arriba. Para bajar o cambiar entre mensual y anual, usa **Gestionar suscripción**. Los cambios se hacen en App Store o Google Play y siguen las mismas reglas que cualquier otra suscripción de tu teléfono, incluidas las condiciones de reembolso y cancelación de esa tienda.
 
 ## Cancelar {#cancelling}
 

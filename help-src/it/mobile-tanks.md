@@ -2,7 +2,7 @@
 title: Gestire le tue vasche
 description: Aggiungi un'altra vasca, passa da una vasca all'altra, cambia il loro ordine e quali vasche ricevono Reef Buddy, e rimuovi o ripristina una vasca.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
@@ -45,7 +45,7 @@ L'ordine è quello in cui le scorri sulla dashboard.
 
 ### L'ordine decide quali vasche ricevono Reef Buddy {#reef-buddy-and-tank-order}
 
-Il tuo piano copre un certo numero di vasche per il briefing giornaliero di Reef Buddy. Cora lo dà alle prime nell'ordine di **Riordina vasche**. Con Plus, e durante la prova di 30 giorni, è solo la prima vasca. Pro copre 5 vasche e Max ne copre 20. Di più in [Piani e abbonamenti](/help/mobile-plans).
+Il tuo piano copre un certo numero di vasche per il briefing giornaliero di Reef Buddy. Cora lo dà alle prime nell'ordine di **Riordina vasche**. Con Essential, e durante la prova di 30 giorni, è solo la prima vasca. Advanced copre 5 vasche e Expert ne copre 20. Di più in [Piani e abbonamenti](/help/mobile-plans).
 
 Se una vasca non riceve il briefing, spostala in cima all'elenco. Le vasche rimosse non contano.
 
@@ -57,10 +57,10 @@ Se una vasca non riceve il briefing, spostala in cima all'elenco. Le vasche rimo
 
 Rimuovere nasconde soltanto la vasca. Sparisce dalla dashboard e dall'elenco delle Impostazioni, ma letture, diario e registri vengono conservati. Puoi ripristinarla in qualsiasi momento.
 
-Per una vasca rimossa si fermano: il briefing di Reef Buddy, i promemoria di manutenzione e il suo posto nel conteggio di Reef Buddy del tuo piano.
+Una vasca rimossa viene conservata per il suo storico, ma non viene mai mostrata e resta in silenzio. Non invia avvisi né promemoria, non riceve il briefing di Reef Buddy, non occupa un posto nel conteggio di Reef Buddy del tuo piano e le sue automazioni si fermano.
 
-:::warning L'attrezzatura di una vasca rimossa continua a funzionare
-Rimuovere una vasca non scollega niente. I suoi dispositivi restano assegnati a lei e continuano a inviare dati, un Cora Max assegnato a lei continua a mostrarla, e la sua attrezzatura può ancora mandarti avvisi.
+:::note L'attrezzatura di una vasca rimossa resta collegata
+Rimuovere una vasca non scollega niente. I suoi dispositivi restano assegnati a lei, e un Cora Max assegnato ad essa resta assegnato, ma niente di quella vasca viene mostrato e nessun avviso o promemoria ti raggiunge.
 
 Prima di rimuovere una vasca, sposta o rimuovi i suoi dispositivi nella scheda **Dispositivi**. Poi apri il tuo Cora Max in **Dispositivi** e tocca l'icona **Rimuovi vasca** accanto a quella vasca in **Vasche assegnate**.
 :::

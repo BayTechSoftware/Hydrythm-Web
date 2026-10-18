@@ -2,7 +2,7 @@
 title: Actividad en Cora Max
 description: Comprueba en Cora Max si una orden llegó de verdad a tu equipo, quién o qué la pidió y por qué se rechazó.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 11
 group: Records
 twin: mobile-activity

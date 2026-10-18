@@ -193,7 +193,7 @@
 <h2 id="elsewhere">Elsewhere</h2>
 <ul><li>Questions about your own tank are usually quicker to answer with <a href="/help/mobile-assistant">Cora Assistant</a>, since it can see your readings.</li><li>If something doesn't work the way this guide says, check <a href="/help/troubleshooting">Troubleshooting</a> first.</li><li>For a billing question, see <a href="/help/mobile-plans">Plans and subscriptions</a>.</li></ul>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-data-export"><span>Previous</span><b>Exporting your data and deleting your account</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -2,7 +2,7 @@
 title: Impostazioni di Cora Max
 description: Ogni impostazione di Cora Max, da nome, luminosità, attenuazione notturna, altoparlante e parola di attivazione a blocco bambini, lingua, Wi-Fi, nuova associazione e ripristino di fabbrica.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -32,7 +32,7 @@ Valgono per ogni dispositivo Cora del tuo account.
 
 Ogni vasca ha una riga che apre le sue impostazioni.
 
-- **Soglie di avviso** imposta l'intervallo sano di ogni lettura. Di più in [Avvisi su Cora Max](/help/max-alerts#editing-thresholds).
+- **Soglie di avviso** imposta l'intervallo ideale di ogni lettura. Di più in [Avvisi su Cora Max](/help/max-alerts#editing-thresholds).
 - **Unità** sceglie le unità che questa vasca usa per salinità, temperatura, alcalinità, volume, fosfati e nitrati. Con **Auto**, ogni lettura compare nell'unità in cui l'ha registrata la sua fonte. Se scegli un'unità precisa, tutto in questa vasca viene convertito in quella, su ogni schermo e quando parla l'Assistente.
 - **Cora Max principale** è il dispositivo che legge l'attrezzatura di questa vasca. Di più in [Dispositivi e salute dei dispositivi](/help/max-devices).
 - **Layout dashboard** è il layout di Cora Max per questa vasca. Di più in [Modificare la dashboard di Cora Max](/help/max-dashboard-editing).
@@ -60,7 +60,9 @@ Sotto la scheda ci sono queste sezioni.
 | **RETE E AGGIORNAMENTI** | **Wi-Fi**, **Aggiornamento firmware** e **Polling dispositivi**, che mostra ogni quanto questo Cora Max legge i tuoi dispositivi (lo cambi in Cora Mobile) |
 | **STATO** | Una scheda per ogni vasca che mostra questo schermo, con **Stato polling**, **Ultimo polling**, **Ultima scrittura cloud** e **Salvataggio cloud**. Solo visualizzazione |
 | **AIUTO E INFORMAZIONI** | **Aiuto e assistenza** (contattare l'assistenza o segnalare un problema) e **Informazioni** (versione e licenze) |
-| **RIPRISTINO** | **Ri-accoppia questo dispositivo** e **Ripristino di fabbrica**. Vedi più sotto |
+| **RIPRISTINO** | **Riassocia questo dispositivo** e **Ripristino di fabbrica**. Vedi più sotto |
+
+**Aiuto e assistenza** mostra anche un codice QR. Inquadralo con il telefono per aprire questa guida nella tua lingua.
 
 Quando lo schermo è attenuato, il primo tocco lo risveglia soltanto. Non preme niente.
 
@@ -101,19 +103,19 @@ Il blocco bambini non è un blocco di sicurezza. Chiunque veda come lo sblocchi 
 
 **Impostazioni Cora Max → RIPRISTINO** ha due opzioni.
 
-**Ri-accoppia questo dispositivo** cancella l'associazione di questo schermo e lo riporta alla schermata di associazione.
+**Riassocia questo dispositivo** cancella l'associazione di questo schermo e lo riporta alla schermata di associazione.
 
 **Ripristino di fabbrica** cancella anche ogni preferenza salvata su questo schermo. La sua conferma ti dice cosa viene cancellato e cosa viene conservato.
 
 Nessuna delle due tocca i dati della vasca già salvati in Cora Cloud. Entrambe tolgono questo Cora Max dal tuo account e gli fanno dimenticare la rete Wi-Fi, quindi lo associ di nuovo da Cora Mobile come uno nuovo. Se Cora Max non riesce a raggiungere Cora Cloud per togliersi, dice *Questo Cora Max è ancora elencato nell'app Cora. Rimuovilo anche da lì.* Aprilo in Cora Mobile in **Dispositivi** e scegli **Rimuovi dispositivo**.
 
-![Le sezioni AIUTO E INFORMAZIONI e RIPRISTINO delle Impostazioni Cora Max](img/max-factory-reset.webp "La sezione RIPRISTINO, con Ri-accoppia questo dispositivo e Ripristino di fabbrica.")
+![Le sezioni AIUTO E INFORMAZIONI e RIPRISTINO delle Impostazioni Cora Max](img/max-factory-reset.webp "La sezione RIPRISTINO, con Riassocia questo dispositivo e Ripristino di fabbrica.")
 
 Puoi anche ripristinare un Cora Max dal telefono, in Cora Mobile in **Dispositivi →** il tuo Cora Max **→ Zona di pericolo**. È utile quando lo schermo è fuori portata o bloccato.
 
 | Opzione | Dove | Wi-Fi | Cosa succede |
 |---|---|---|---|
-| **Ri-accoppia questo dispositivo** | Su Cora Max | Dimenticato | Torna alla schermata di associazione. Associalo da Cora Mobile |
+| **Riassocia questo dispositivo** | Su Cora Max | Dimenticato | Torna alla schermata di associazione. Associalo da Cora Mobile |
 | **Ripristino di fabbrica** | Su Cora Max | Dimenticato | Associazione e ogni impostazione dello schermo cancellate. Associalo da Cora Mobile |
 | **Ripristina display** | Cora Mobile, **Zona di pericolo** | Conservato | Torna alla schermata di configurazione la prossima volta che è online. Associalo di nuovo via Bluetooth |
 | **Rimuovi dispositivo** | Cora Mobile, **Zona di pericolo** | | Rimosso dal tuo account e dalle sue vasche. Si può associare di nuovo più avanti |

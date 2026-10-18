@@ -2,7 +2,7 @@
 title: Mit Cora sprechen
 description: Sprache und "Hey Cora" auf Cora Max nutzen, was per Sprache geht und was nicht, Teilen von Daten mit der KI und dein monatliches Kontingent, und was du tust, wenn Cora nicht antwortet.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -60,17 +60,21 @@ Bei Nachfragen musst du dich nicht wiederholen. Nach einer Frage zum Hauptbecken
 - Einen Warnbereich ändern: *"Stell die pH-Warnung auf 7,9 bis 8,4."*
 - Ein Testergebnis eintragen: *"Trag Alkalinität 8,1 ein."*
 - Ins Tagebuch schreiben: *"Notier, dass ich zwanzig Liter Wasser gewechselt habe."* *"Notier, dass ich extra Mysis gefüttert habe."* *"Notier, dass ich die Morgenfütterung ausgelassen habe."*
-- Red Sea-Ausrüstung steuern: aus einem ReefDose-Kopf dosieren, seine Tagesdosis ändern, eine ReefATO+-Befüllung starten, eine ReefMat weiterdrehen oder die Geschwindigkeit einer ReefRun-Pumpe einstellen.
+- Red Sea-Ausrüstung steuern: aus einem ReefDose-Kopf dosieren, seine Tagesdosis ändern, eine ReefATO+-Befüllung starten, eine ReefMat weiterspulen oder die Geschwindigkeit einer ReefRun-Pumpe einstellen.
 - Jecod-Pumpen steuern.
+- Eine Automation oder Szene beim Namen starten, wie Cora Assistant auf deinem Telefon: *"Starte die Szene Wasserwechsel."*
 
 ## Was Cora auf Cora Max nicht per Sprache tun kann
 
-- Eine Szene starten oder stoppen. Nutze die Szenen-Kachel oder **Einstellungen → Automationen**.
 - Aus einem Neptune DŌS-Kopf dosieren. Nutze die Seite des Geräts auf Cora Max.
 - Die eigenen Einstellungen von Cora Max ändern, Geräte hinzufügen oder das Dashboard bearbeiten.
 
 Cora Assistant auf deinem Handy kann einiges davon. Mehr dazu unter [Cora fragen](/help/mobile-assistant#what-cora-can-change).
 
+
+## Den Bildschirm aus einer Antwort öffnen {#help-answers}
+
+Fragst du, wie etwas geht, antwortet Cora aus der Hilfe. Geht es in der Antwort um einen Bildschirm von Cora Max, zeigt die Sprachkarte seinen Titel und **Diesen Bildschirm öffnen**. Tippe darauf, um dorthin zu gehen. Die Schaltfläche erscheint nur, wenn es einen Bildschirm zum Öffnen gibt. Cora Max hat keinen Browser, deshalb gibt es keinen Link zur Webseite.
 
 ## Bestätigungen
 

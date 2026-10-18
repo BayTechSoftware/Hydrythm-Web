@@ -2,7 +2,7 @@
 title: Dispositivos y estado de los dispositivos
 description: Ve y cambia el nombre de los equipos que lee Cora Max, elige qué Cora Max lee cada acuario, arregla un acuario cuyas lecturas se han detenido y gestiona un Cora Max desde tu teléfono.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Equipment
 twin: mobile-devices
@@ -15,6 +15,8 @@ twin: mobile-devices
 ![La lista de dispositivos en Cora Max, filtrada por acuario y agrupada por marca](img/max-devices.webp "Filtra por acuario, y después cada dispositivo agrupado por marca, con un resumen de una línea y su acuario.")
 
 Cora Max ve los mismos equipos que tu teléfono, porque los dos leen la misma cuenta.
+
+En la lista van primero las familias Cora y después cada marca de la A a la Z.
 
 Usa las etiquetas de filtro de arriba para mostrar **Todos los acuarios** o solo uno. Los dispositivos se agrupan por marca. Cada entrada tiene un punto de estado (gris cuando Cora todavía no lo sabe, verde cuando funciona, naranja para un aviso o un fallo, rojo cuando está desconectado), un resumen de una línea de lo que tiene el dispositivo (*21 tomas · 4 alimentaciones*, *quedan 19 pruebas*), el acuario al que pertenece y cuándo se vio por última vez (**Visto por última vez**).
 

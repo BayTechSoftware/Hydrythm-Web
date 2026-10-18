@@ -81,9 +81,9 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/mobile-dashboard">Jak czytać pulpit</a></li>
+<li><a href="/pl/help/mobile-dashboard">Jak czytać panel</a></li>
 <li><a href="/pl/help/mobile-metric-detail">Szczegóły parametru</a></li>
-<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie pulpitu</a></li>
+<li><a href="/pl/help/mobile-dashboard-editing">Edytowanie panelu</a></li>
 <li><a href="/pl/help/mobile-widgets">Rodzaje widżetów</a></li>
 <li><a href="/pl/help/mobile-sharing">Udostępnianie akwarium</a></li>
 </ul></details>
@@ -135,7 +135,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Twój panel</summary><ul>
-<li><a href="/pl/help/max-dashboard-editing">Edytowanie pulpitu Cora Max</a></li>
+<li><a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Sprzęt</summary><ul>
@@ -183,13 +183,14 @@
 <p>W <strong>Ustawieniach aktualizacji</strong> na tym samym ekranie:</p>
 <ul><li><strong>Okno instalacji</strong> ustawia godziny, w których mogą instalować się aktualizacje, z godziną <strong>Początek</strong> i <strong>Koniec</strong>, w czasie lokalnym tego ekranu. Strefę czasową ustawiasz w Cora Mobile, w <strong>Urządzenia →</strong> Twój Cora Max <strong>→ Strefa czasowa</strong>.</li></ul>
 <p>Żeby sprawdzić, czy ten ekran odczytuje Twoje urządzenia i zapisuje do Cora Cloud, wróć do <strong>Ustawienia Cora Max</strong> i przewiń do <strong>STAN</strong>. Pokazuje dla każdego akwarium <strong>Stan odpytywania</strong>, <strong>Ostatnie odpytanie</strong>, <strong>Ostatni zapis do chmury</strong> i <strong>Zapis w chmurze</strong>.</p>
+<p>Jeśli aktualizacja pobiera się wolno, sprawdź połączenie za pomocą <strong>Testu prędkości sieci</strong> na tym samym ekranie. <strong>Uruchom test</strong> pobiera do 16 MB pliku aktualizacji z Cora Cloud, przez najwyżej 20 sekund, i pokazuje prędkość w MB/s.</p>
 <h2 id="gdy-jest-dostepna-aktualizacja">Gdy jest dostępna aktualizacja</h2>
 <p>Pojawi się okno z opisem nowości i dwoma możliwościami.</p>
 <ul><li><strong>Zaktualizuj teraz</strong> instaluje od razu i uruchamia ponownie. Trwa to około minuty. Nie odłączaj zasilania Cora Max.</li><li><strong>Odłóż na 24 godziny</strong> ukrywa okno i zapyta ponownie za dobę.</li></ul>
 <p>Gdy aktualizacja czeka, mała kropka pojawia się na ikonie <strong>Ustawienia</strong> na górnym pasku i w wierszu <strong>Aktualizacja oprogramowania</strong>. Kropka zostaje po odłożeniu, więc nadal widać, że aktualizacja czeka. Znika na czas instalacji.</p>
 <p>Jeśli nic nie zrobisz, aktualizacja zainstaluje się sama w <strong>Oknie instalacji</strong>.</p>
 <p>Możesz też uruchomić ją z telefonu: w Cora Mobile otwórz <strong>Urządzenia →</strong> Twój Cora Max i dotknij <strong>Zaktualizuj do v…</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">Aktualizacja nie usuwa odczytów</p><p>Twoje dane są na Twoim koncie. Po ponownym uruchomieniu Cora Max ma te same akwaria, pulpity i historię.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Aktualizacja nie usuwa odczytów</p><p>Twoje dane są na Twoim koncie. Po ponownym uruchomieniu Cora Max ma te same akwaria, panele i historię.</p></aside>
 <h2 id="recovery">Odzyskiwanie</h2>
 <p>Odzyskiwanie to tryb serwisowy na wypadek, gdy Cora Max nie chce się normalnie uruchomić albo gdy trzeba naprawić jego konfigurację bez laptopa.</p>
 <ol><li>Przytrzymaj <strong>pięć palców</strong> w prawym górnym rogu ekranu przez <strong>dziesięć sekund</strong>.</li><li>Otworzy się okno <strong>PIN odzyskiwania</strong>. Wpisz sześciocyfrowy PIN i dotknij <strong>Potwierdź</strong>.</li></ol>
@@ -207,7 +208,7 @@
 <h2 id="gdy-urzadzenie-nie-uruchamia-sie-ponownie">Gdy urządzenie nie uruchamia się ponownie</h2>
 <p>Napisz na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> i podaj wersję widoczną na ekranie oraz wyświetlany komunikat. Nie paruj go wcześniej ponownie. Stan parowania często pomaga ustalić, co się stało.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-settings"><span>Poprzedni</span><b>Ustawienia Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.192 i Cora Mobile 0.5.115. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=3317264c70').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=a4adc6772e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

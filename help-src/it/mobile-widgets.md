@@ -19,7 +19,7 @@ I widget si aggiungono e si dispongono nell'[editor della dashboard](/help/mobil
 |---|---|
 | **Valore** | La lettura attuale, con unità, età e fonte |
 | **Indicatore** | Un arco con il tuo intervallo segnato in fasce e un pallino sul valore |
-| **Grafico** | Un andamento nel periodo che scegli |
+| **Grafico** | Una tendenza nel periodo che scegli |
 | **Stato** | La lettura scritta a parole con un pallino colorato |
 | **Presa** | Un comando a tre posizioni: Auto, Off, On |
 | **ReefBeat** | Un'unità Red Sea, con il suo riepilogo |
@@ -47,7 +47,7 @@ Un widget di parametro non ha un'impostazione di intervallo o di fonte sua. L'in
 
 È il numero puro. Mostra la lettura attuale, l'unità, quanto è vecchia e da dove arriva.
 
-Usalo per i parametri che controlli più dal numero che dall'andamento, come calcio, magnesio o nitrati.
+Usalo per i parametri che controlli più dal numero che dalla tendenza, come calcio, magnesio o nitrati.
 
 ## Indicatore {#gauge}
 
@@ -81,7 +81,7 @@ Mostra la lettura scritta a parole, con un pallino colorato per dentro l'interva
 
 È un interruttore a tre posizioni per una presa Apex: **Auto**, **Off** e **On**. Scegli tu quale presa comanda.
 
-- **Auto** restituisce la presa a quello che la gestisce di solito. Può essere un programma, una regola o il controller a cui appartiene.
+- **Auto** restituisce la presa a quello che la gestisce di solito. Può essere una programmazione, una regola o il controller a cui appartiene.
 - **Off** e **On** sono comandi manuali. Restano finché non li cambi tu.
 
 :::warning I comandi manuali non scadono
@@ -90,12 +90,12 @@ Off vuol dire spento finché non la rimetti su Auto. Se spegni una pompa di risa
 
 ## ReefBeat {#reefbeat}
 
-È un riquadro per un intero apparecchio. Mostra il riepilogo dell'unità invece di un singolo parametro, per esempio stato e serbatoio di un ATO, le teste di un dosatore o quanti giorni restano al rotolo di un ReefMat. Scegli tu quale dispositivo mostra.
+È un riquadro per un intero apparecchio. Mostra il riepilogo dell'unità invece di un singolo parametro, per esempio stato e serbatoio di un ATO, le teste di una pompa dosometrica o quanti giorni restano al rotolo di un ReefMat. Scegli tu quale dispositivo mostra.
 
 Quali dispositivi possono avere un riquadro dipende da cosa hai collegato. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
 
-## Riquadri dei dosatori {#doser-tiles}
+## Riquadri delle pompe dosometriche {#doser-tiles}
 
-Il riquadro di un dosatore (un Apex DŌS o un ReefDose) mostra una riga per testa. Il nome di una testa non viene mai rimpicciolito sotto una dimensione leggibile. Su un riquadro alto la riga occupa due linee, con il nome sulla prima e quello che resta sulla seconda, per esempio *40g* e *2,8 L*. Su un riquadro basso la linea di dettaglio viene tolta e il nome resta leggibile.
+Il riquadro di una pompa dosometrica (un Apex DŌS o un ReefDose) mostra una riga per testa. Il nome di una testa non viene mai rimpicciolito sotto una dimensione leggibile. Su un riquadro alto la riga occupa due linee, con il nome sulla prima e quello che resta sulla seconda, per esempio *40g* e *2,8 L*. Su un riquadro basso la linea di dettaglio viene tolta e il nome resta leggibile.
 
-Imposta cosa viene prima con **Mostra il rimanente come**: **Giorni** o **Millilitri (mL)**. Una testa ReefDose senza un nome suo viene mostrata con il nome del dispositivo seguito da "testa" e dal suo numero. Il riquadro di un dosatore Jecod è in sola lettura e mostra il piano giornaliero, perché Jecod non riporta quanto resta nel flacone.
+Imposta cosa viene prima con **Mostra il rimanente come**: **Giorni** o **Millilitri (mL)**. Una testa ReefDose senza un nome suo viene mostrata con il nome del dispositivo seguito da "testa" e dal suo numero. Il riquadro di una pompa dosometrica Jecod è in sola lettura e mostra il piano giornaliero, perché Jecod non riporta quanto resta nel flacone.

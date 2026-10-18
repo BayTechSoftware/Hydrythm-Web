@@ -2,7 +2,7 @@
 title: Cora Mobile-Einstellungen
 description: Wo alles im Tab Einstellungen von Cora Mobile steht, von deinem Konto und Abo über Becken, Cora Assistant, Sprache, Dunkelmodus und Benachrichtigungen bis zum Support.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -112,7 +112,7 @@ Ist **Anonymisierte Beckendaten beisteuern** eingeschaltet (und das ist es, auß
 - **Support kontaktieren** öffnet eine E-Mail an uns. Wir antworten meist innerhalb eines Tages.
 - **Fehler melden / Feedback senden** schickt einen Bericht aus Cora Mobile heraus. Siehe [Ein Problem melden](/help/mobile-support).
 - **Absturzberichte senden**, oben beschrieben.
-- **Cora Website & FAQ** öffnet die Cora-Website.
+- **Cora Website & FAQ** öffnet die Cora-Website. Das öffnet diese Anleitung in deiner Sprache.
 
 ## Über
 

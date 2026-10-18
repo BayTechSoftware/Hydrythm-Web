@@ -2,7 +2,7 @@
 title: Alerty i progi
 description: Ustaw prawidłowy zakres dla każdego odczytu, wybierz, jak często alert może Cię powiadamiać, i sprawdź, dlaczego urządzenie „przestało raportować”.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -10,7 +10,7 @@ twin: max-alerts
 
 Dostajesz alert, gdy odczyt wyjdzie poza zakres, który dla niego ustawiono. Ta strona opisuje ustawianie tych zakresów, to, co dzieje się, gdy alert się pojawi, i jak długo Cora czeka, zanim powie, że urządzenie przestało raportować.
 
-Żeby otworzyć **Centrum alertów**, dotknij **Alerty** w rzędzie przycisków pod pulpitem. Znajdziesz je też w Ustawieniach → Twoje akwarium → **Progi alertów**.
+Żeby otworzyć **Centrum alertów**, dotknij **Alerty** w rzędzie przycisków pod panelem. Znajdziesz je też w Ustawieniach → Twoje akwarium → **Progi alertów**.
 
 ![Zakładka Aktywne w Centrum alertów w Cora Mobile](img/mobile-alerts.webp "Aktywne alerty, każdy z ważnością, przyczyną i czasem, oraz Wyświetl regułę i Wyjaśnij ten alert.")
 
@@ -52,7 +52,7 @@ Reguła usterki urządzenia, na przykład Tridenta bez odczynnika, nie ma zakres
 
 Parametry, które Cora potrafi ocenić, mają zakres docelowy. Wartości domyślne pochodzą z typu i wieku akwarium podanych przy konfiguracji i są rozsądnym początkiem. Jeśli parametr nie ma przydatnego zakresu, Cora go nie ocenia, a jego widżet zostaje neutralnie szary.
 
-Najszybciej zmienisz zakres, przytrzymując widżet parametru na pulpicie. Otworzą się jego progi. Zwykłe dotknięcie otwiera zamiast tego widok parametru.
+Najszybciej zmienisz zakres, przytrzymując widżet parametru na panelu. Otworzą się jego progi. Zwykłe dotknięcie otwiera zamiast tego widok parametru.
 
 ![Arkusz edycji progu pH w Cora Mobile](img/mobile-threshold-sheet.webp "Minimum i maksimum alertu, zakres wskaźnika dla Cora Max i czas wstrzymania między alertami.")
 
@@ -65,7 +65,7 @@ Możesz ustawić:
 - dolną granicę, tylko z minimum
 
 :::tip Ustaw zakres, w którym naprawdę pracuje Twoje akwarium
-Wartości domyślne to tylko punkt wyjścia. Akwarium z niską zawartością składników odżywczych na 6 dKH nie jest „złe” dlatego, że tabela podaje 8–9. Ustaw zakres, w którym pracujesz, a Cora powie Ci, gdy *Ty* zaczniesz dryfować.
+Wartości domyślne to tylko punkt wyjścia. Akwarium z niską zawartością biogenów na 6 dKH nie jest „złe” dlatego, że tabela podaje 8–9. Ustaw zakres, w którym pracujesz, a Cora powie Ci, gdy *Ty* zaczniesz dryfować.
 :::
 
 ## Co wywołuje alert {#what-triggers-an-alert}
@@ -80,7 +80,7 @@ Gdy alert już trwa, nie będzie Cię ciągle powiadamiać o tym samym. [Czas ws
 
 - Dzwonek w prawym górnym rogu głównych zakładek przechowuje historię. Liczba pokazuje, ilu jeszcze nie przeczytano. Więcej w [Powiadomieniach](/help/mobile-notifications).
 - Powiadomienie push trafia na telefon, jeśli ta kategoria jest włączona.
-- Widżet na pulpicie robi się bursztynowy albo czerwony.
+- Widżet na panelu robi się pomarańczowy albo czerwony.
 - Cora Max pokazuje te same alerty na swoim ekranie.
 
 ## Gdy sprzęt wymaga uwagi {#equipment-faults}
@@ -98,9 +98,9 @@ Jak długo Cora czeka, zależy od urządzenia:
 |---|---|
 | Neptune Apex | Około 30 minut bez aktualizacji |
 | Red Sea ReefBeat | Około 30 minut |
-| AquaWiz | Około 3 godzin, bo raportuje rzadziej |
+| AquaWiz | Około 25 godzin, bo AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin |
 | Pompy Jecod | Trzy brakujące odczyty z rzędu, według interwału odczytu pompy (90 minut przy domyślnych 30) |
-| Wtyczka Zigbee | Nie wróciła 30 minut po restarcie huba. Nadaj jej nazwę przez **Zmień nazwę**, aby alert ją wskazywał |
+| Wtyczka Zigbee | Nie wróciła 30 minut po restarcie bramki. Nadaj jej nazwę przez **Zmień nazwę**, aby alert ją wskazywał |
 
 Co sprawdzić, zależy od tego, jak Cora odczytuje urządzenie.
 

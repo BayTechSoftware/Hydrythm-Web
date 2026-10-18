@@ -1,8 +1,8 @@
 ---
 title: Piani e abbonamenti
-description: Cosa comprendono i piani Free, prova, Plus, Pro e Max, come abbonarti o passare a un piano superiore, dove vedere quanto hai usato e come annullare su iPhone o Android.
+description: Cosa comprendono i piani Free, prova, Essential, Advanced e Expert, come abbonarti o passare a un piano superiore, dove vedere quanto hai usato e come annullare su iPhone o Android.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 37
 group: Settings and account
 ---
@@ -15,7 +15,7 @@ Il monitoraggio della vasca è gratuito, senza limiti. I piani a pagamento ti da
 - Dispositivi, avvisi e soglie
 - Diario, manutenzione e popolazione
 - Notifiche push per gli avvisi critici
-- Ciclaggio guidato per una vasca nuova
+- Maturazione guidata per una vasca nuova
 - Tutte le vasche che vuoi. Le funzioni di IA coprono la tua prima vasca (vedi [Quali vasche hanno l'IA](#which-tanks-get-ai))
 - L'esportazione dei tuoi dati
 
@@ -34,7 +34,7 @@ Quando una quota finisce, puoi comunque leggere tutto quello che Cora ha già pr
 
 ## La prova
 
-La tua **prova Pro di 30 giorni parte quando crei il tuo account**. Non aspetta che tu usi una funzione per la prima volta, e non serve una carta. **Account e abbonamento** la mostra come **Prova Cora Pro**, con la data in cui finisce.
+La tua **prova Advanced di 30 giorni parte quando crei il tuo account**. Non aspetta che tu usi una funzione per la prima volta, e non serve una carta. **Account e abbonamento** la mostra come **Prova Cora Advanced**, con la data in cui finisce.
 
 | Durante la prova | |
 |---|---|
@@ -44,15 +44,15 @@ La tua **prova Pro di 30 giorni parte quando crei il tuo account**. Non aspetta 
 | Analisi ICP | 1 al mese |
 | Reef Buddy e monitoraggio IA | La tua prima vasca |
 
-La prova comprende Reef Buddy e **Progetta con l'IA**. Le sue quote sono più basse di quelle del piano Pro.
+La prova comprende Reef Buddy e **Progetta con l'IA**. Le sue quote sono più basse di quelle del piano Advanced.
 
 Quando finisce, il tuo account torna a Free. **Non viene eliminato nulla.** Puoi ancora leggere ogni lettura, voce di diario, report e briefing che hai.
 
 ## I piani a pagamento
 
-Ci sono tre piani, **Plus**, **Pro** e **Max**, ciascuno mensile o annuale. Le Impostazioni li mostrano come Cora Plus, Cora Pro e Cora Max. I prezzi aggiornati li trovi in Cora Mobile e nel tuo store, perché è lì che paghi.
+Ci sono tre piani, **Essential**, **Advanced** e **Expert**, ciascuno mensile o annuale. Le Impostazioni li mostrano come Cora Essential, Cora Advanced e Cora Expert. I prezzi aggiornati li trovi in Cora Mobile e nel tuo store, perché è lì che paghi.
 
-| | Plus | Pro | Max |
+| | Essential | Advanced | Expert |
 |---|---|---|---|
 | Messaggi all'Assistente / mese | 500 | 1.200 | 2.500 (uso ragionevole) |
 | Sessioni vocali / mese | 100 | 200 | 400 |
@@ -63,8 +63,8 @@ Ci sono tre piani, **Plus**, **Pro** e **Max**, ciascuno mensile o annuale. Le I
 Le sessioni vocali hanno un conteggio a parte, e ogni risposta a voce consuma anche la tua quota di messaggi. Ogni piano a pagamento comprende Reef Buddy, il caricamento e l'analisi ICP per i laboratori che Cora sa leggere, il confronto con il tuo storico e **Progetta con l'IA** per le dashboard (fino a 5 design al giorno per ogni vasca).
 
 
-:::note Il piano Max non è lo schermo Cora Max
-Il **piano Max** è un abbonamento. **Cora Max** è lo schermo che sta accanto alla vasca. Non ti serve l'uno per avere l'altro.
+:::note Il piano Expert non è lo schermo Cora Max
+Il **piano Expert** è un abbonamento. **Cora Max** è lo schermo che sta accanto alla vasca. Non ti serve l'uno per avere l'altro.
 :::
 
 ### Quali vasche hanno l'IA {#which-tanks-get-ai}
@@ -74,7 +74,7 @@ Reef Buddy e il monitoraggio IA coprono tante vasche quante ne consente il tuo p
 ## Abbonarsi o passare a un piano superiore {#subscribing}
 
 1. Apri **Impostazioni** e tocca la scheda dell'account in alto. Si apre **Account e abbonamento**.
-2. Accanto al tuo piano, tocca **Vedi i piani** (con Free o la prova), **Passa a un piano superiore** (con Plus) o **Passa a Max** (con Pro).
+2. Accanto al tuo piano, tocca **Vedi i piani** (con Free o la prova), **Passa a un piano superiore** (con Essential) o **Passa a Expert** (con Advanced).
 3. Scegli **Mensile** o **Annuale**. Il prezzo annuale mostra quanto risparmi.
 4. Scegli un piano e tocca **Abbonati**.
 5. Conferma con l'App Store o Google Play. Il nuovo piano si sblocca appena lo store lo conferma.
@@ -85,7 +85,7 @@ La stessa scelta del piano si apre anche quando raggiungi un limite, per esempio
 
 ## Account e abbonamento
 
-![Account e abbonamento in Cora Mobile](img/mobile-plans.webp "Il tuo piano sotto Abbonamento, con Passa a Max e Ripristina acquisti.")
+![Account e abbonamento in Cora Mobile](img/mobile-plans.webp "Il tuo piano sotto Abbonamento, con Passa a Expert e Ripristina acquisti.")
 
 **Account e abbonamento** mostra il tuo piano attuale e quando si rinnova o finisce. Sotto ci sono questi comandi.
 
@@ -110,7 +110,7 @@ I conteggi ripartono all'inizio di ogni mese di calendario.
 
 ## Cambiare piano
 
-Per salire, usa **Passa a un piano superiore** o **Passa a Max** come sopra. Per scendere o passare tra mensile e annuale, usa **Gestisci abbonamento**. Le modifiche passano dall'App Store o da Google Play e seguono le stesse regole di qualsiasi altro abbonamento sul telefono, comprese le condizioni di rimborso e disdetta di quello store.
+Per salire, usa **Passa a un piano superiore** o **Passa a Expert** come sopra. Per scendere o passare tra mensile e annuale, usa **Gestisci abbonamento**. Le modifiche passano dall'App Store o da Google Play e seguono le stesse regole di qualsiasi altro abbonamento sul telefono, comprese le condizioni di rimborso e disdetta di quello store.
 
 ## Annullare
 

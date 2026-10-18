@@ -43,7 +43,7 @@ Im Profil stehen die Abschnitte so. Tippe auf einen, um ihn zu öffnen. Das Info
 
 | Abschnitt | Umfasst |
 |---|---|
-| **Fütterungsplan** | Wie du normalerweise fütterst, damit du nur die Ausnahmen einträgst. Siehe [Das Tagebuch](/help/mobile-journal) |
+| **Fütterungsroutine** | Wie du normalerweise fütterst, damit du nur die Ausnahmen einträgst. Siehe [Das Tagebuch](/help/mobile-journal) |
 | **Beckenname & -typ** | Wie du das Becken nennst und sein Typ |
 | **Beckenmaße** | Abmessungen, gesamtes Wasservolumen und Startdatum des Beckens |
 | **Dosierung** | Was du dosierst und wie |

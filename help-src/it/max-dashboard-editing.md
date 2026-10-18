@@ -2,7 +2,7 @@
 title: Modificare la dashboard di Cora Max
 description: Aggiungi, sposta e togli riquadri sulla dashboard di Cora Max, scegli una griglia, usa i modelli o Progetta con l'IA, e salva layout da riusare su qualsiasi Cora Max.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -44,7 +44,7 @@ Quando cambi la griglia, Cora non butta via i riquadri in base alla posizione. I
 
 1. Tocca una cella vuota (mostra un **+**) per aprire **Aggiungi widget**.
 2. In **TIPO**, scegli il tipo di riquadro, poi cosa mostra (una lettura, una presa, un dispositivo o una scena).
-3. In **DIMENSIONE**, scegli quanto è grande. Un riquadro può essere largo una o due celle e alto una o due celle. Un Grafico ha anche un **INTERVALLO DI TEMPO**. Un riquadro di un dosatore ha **Mostra il rimanente come**, in **Giorni** o **Millilitri (mL)**.
+3. In **DIMENSIONE**, scegli quanto è grande. Un riquadro può essere largo una o due celle e alto una o due celle. Un Grafico ha anche un **INTERVALLO DI TEMPO**. Un riquadro di una pompa dosometrica ha **Mostra il rimanente come**, in **Giorni** o **Millilitri (mL)**.
 4. Tocca **Aggiungi**.
 
 I gesti sono elencati in alto nell'editor: **tocca un riquadro per modificarlo**, **tieni premuto per spostarlo** e **✕ per rimuoverlo**. **Svuota tutto** svuota la griglia così puoi ricominciare.
@@ -55,6 +55,8 @@ I tipi di riquadro sono Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBe
 ## Prese e alimentazione {#outlets-feed}
 
 **Prese e alimentazione** nell'editor sceglie quali prese e quali cicli di alimentazione compaiono in **Controlli**, il pannello che apri scorrendo verso l'alto dal fondo della dashboard. Non aggiunge riquadri. Se non ne scegli nessuno, Controlli li elenca tutti. Per mettere una presa sulla griglia stessa, aggiungi un riquadro **Presa**. Di più in [Prese e comandi](/help/max-controls).
+
+Quando togli un dispositivo da una vasca, i suoi riquadri lasciano la dashboard da soli, sul telefono e su ogni Cora Max di quella vasca. Un riquadro il cui dispositivo non c'è più dice **Questo dispositivo non è più in questa vasca** e non apre nulla.
 
 ## Modelli {#templates}
 

@@ -1,13 +1,13 @@
 ---
 title: Scheduling equipment
-description: Build a day program for a Jecod pump and copy it between pumps.
+description: Build a schedule for a Jecod pump and copy it between pumps.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
 
-Use this page to give a Jecod pump a **day program**: a set of periods, each with its own intensity, that repeats every day. Open it from **Devices** → tap the pump.
+Use this page to give a Jecod pump a **schedule**: a set of periods, each with its own intensity, that repeats every day. Open it from **Devices** → tap the pump.
 
 Lights and pumps from other brands keep their schedules in their own pages: Red Sea's ReefDose in [Controlling your equipment](/help/mobile-device-control#red-sea).
 
@@ -18,7 +18,7 @@ Lights and pumps from other brands keep their schedules in their own pages: Red 
 A pump runs in one of two modes. Pick one with the switch on its page. The one that is running is marked *· running*, and the page opens on it.
 
 - **Same all day** runs at one intensity the whole time.
-- **Schedule** follows a day program made of periods.
+- **Schedule** follows a set of periods.
 
 Cora sends your choice straight to the pump when your phone is on its network. If your phone isn't, it goes through the Cora Max at the tank. A Bluetooth pump has to be in range. Until it is, your choice only changes what you see on screen.
 

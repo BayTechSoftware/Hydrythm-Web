@@ -25,7 +25,7 @@ Karta na górze mówi, czy ten telefon w ogóle pozwala Corze wysyłać powiadom
 
 Wyłączona kategoria przestaje wysyłać powiadomienia. Cora nadal zapisuje zdarzenie i nadal znajdziesz je pod dzwonkiem.
 
-Te przełączniki należą do Twojego konta, więc działają na każdym telefonie, na którym jesteś zalogowany.
+Te przełączniki należą do Twojego konta, więc działają na każdym telefonie, na którym korzystasz z tego konta.
 
 :::warning „Alerty parametrów” dotyczą tylko chemii
 Ten przełącznik nie obejmuje wszystkiego, o czym może Ci powiedzieć akwarium. Trident, który przestał robić testy, to **Awarie sprzętu**. Kończący się odczynnik to **Kończące się zasoby**. Każda z nich ma własny przełącznik. Jeśli od dawna polegasz na Alertach parametrów, sprawdź te dwie pozostałe.

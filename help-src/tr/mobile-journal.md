@@ -51,13 +51,13 @@ Bazı kayıtlar sizin için yazılır. Bir [bakım](/help/mobile-maintenance) g�
 
 Cora'ya normalde nasıl beslediğinizi bir kez söyleyin, sonra yalnızca istisnaları kaydedin.
 
-Rutininizi ayarlamak için **Akvaryumu düzenle**'yi (panonun üstündeki kalem) açın ve **Besleme rutini**'ne dokunun. Siz ayarlayana kadar panodaki **Normalde nasıl besliyorsun?** kartı sizi **Rutini ayarla** ile oraya götürür. Her yem için yemi, bir **Miktar**, bir **Birim** (küp, tutam, g, ml, damla, ölçek ya da yaprak) ve **Günde kaç kez** değerini girin. Daha fazlası için **Yem ekle**'ye dokunun. Sizin yerinize bir otomatik yemleyici besliyorsa **Otomatik yemleyici kullanıyorum**'u açın, onun beslemeleri rutinin bir parçası sayılır. **Porsiyon ağırlıkları (isteğe bağlı)** altında bir küpün ya da bir tutamın ne kadar geldiğini girebilirsiniz, böylece Cora beslemeleri zaman içinde gram cinsinden karşılaştırabilir.
+Rutininizi ayarlamak için **Akvaryumu düzenle**'yi (panonun üstündeki kalem) açın ve **Besleme rutini**'ne dokunun. Siz ayarlayana kadar panodaki **Normalde nasıl besliyorsunuz?** kartı sizi **Rutini ayarla** ile oraya götürür. Her yem için yemi, bir **Miktar**, bir **Birim** (küp, tutam, g, ml, damla, ölçek ya da yaprak) ve **Günde kaç kez** değerini girin. Daha fazlası için **Yem ekle**'ye dokunun. Sizin yerinize bir otomatik yemlik besliyorsa **Otomatik yemlik kullanıyorum**'u açın, onun beslemeleri rutinin bir parçası sayılır. **Porsiyon ağırlıkları (isteğe bağlı)** altında bir küpün ya da bir tutamın ne kadar geldiğini girebilirsiniz, böylece Cora beslemeleri zaman içinde gram cinsinden karşılaştırabilir.
 
 Bir gün rutinden farklı geçtiğinde widget'ların altındaki düğme satırında **Besleme**'ye ya da günlüğün üstündeki besleme simgesine dokunun. **Besleme istisnası kaydet** sayfasında üç seçenek var: **Ekstra besleme**, **Besleme atlandı** ve **Yem veya miktar değişti**. Bir **Miktar (isteğe bağlı)** ekleyebilirsiniz. Her biri sıradan bir günlük kaydıdır ve Reef Buddy onu kullanır, böylece dengeli bir akvaryum verdiğiniz bir ara öğün yüzünden suçlanmaz.
 
 Beslemenin kaydedildiği diğer yollar:
 
-- Neptune Apex'te, Apex'inizi okuyan Cora Max bir Besleme A–D döngüsünün başladığını gördüğünde döngü kaydedilir. Bu, Apex'te, Apex Fusion'da ya da Apex'in kendi programıyla başlayan döngüleri kapsar.
+- Neptune Apex'te, Apex'inizi okuyan Cora Max bir Besleme A–D döngüsünün başladığını gördüğünde döngü kaydedilir. Bu, Apex'te, Apex Fusion'da ya da Apex'in kendi zamanlamasıyla başlayan döngüleri kapsar.
 - Cora Assistant'a sesle ya da sohbette *"Mysis verdiğimi kaydet."* gibi bir şey söyleyin. Kaydı sizin için yazar.
 
 ## Kayıtları düzenleme ve silme {#editing}

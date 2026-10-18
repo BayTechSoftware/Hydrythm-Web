@@ -176,6 +176,7 @@
 <h2 id="the-device-list">The device list</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The device list on Cora Max, filtered by tank and grouped by brand"><img src="/help/img/max-devices.webp" alt="The device list on Cora Max, filtered by tank and grouped by brand" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Filter by tank, then each device grouped by brand, with a one-line summary and its tank.</figcaption></figure>
 <p>Cora Max sees the same equipment as your phone, because they both read the same account.</p>
+<p>In the list, the Cora families come first, then every brand from A to Z.</p>
 <p>Use the filter chips at the top to show <strong>All tanks</strong> or just one. Devices are grouped by brand. Each entry has a status dot (grey when Cora doesn't know yet, green when it's working, orange for a warning or fault, red when it's offline), a one-line summary of what the device holds (<em>21 outlets · 4 feeds</em>, <em>19 tests left</em>), the tank it belongs to and when it was <strong>Last seen</strong>.</p>
 <p>Tap a device to open its page. Every device page opens with a <strong>Status</strong> section. What each page can do is in <a href="/help/max-device-control">Controlling equipment from Cora Max</a>.</p>
 <p>If the list says <strong>Still loading some devices: this list may be incomplete.</strong>, give it a moment.</p>
@@ -201,7 +202,7 @@
 <p>Under <strong>Tanks</strong>, each tank this Cora Max shows has a card with <strong>Dashboard layout</strong>, <strong>Edit tank</strong> and its polling device. <strong>Add Tank</strong> and the remove icon change which tanks it shows, and those changes apply to the whole account. You can only make them on your phone. The steps are in <a href="/help/max-setup#changing-which-tanks-it-shows">Setting up Cora Max</a>. Which device is the Primary Cora Max for a tank can be changed from either your phone or Cora Max.</p>
 <p>Under <strong>Reset</strong>, <strong>Reset display</strong> sends the screen back to its pairing screen. It stays on your Wi-Fi, so you can pair it again over Bluetooth, and your tank data is kept. <strong>Remove device</strong> takes it off your account. Your tank readings are kept, and you can pair it again later.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-device-control"><span>Previous</span><b>Controlling equipment from Cora Max</b></a><a class="pn-n" href="/help/max-alerts"><span>Next</span><b>Alerts on Cora Max</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -592,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

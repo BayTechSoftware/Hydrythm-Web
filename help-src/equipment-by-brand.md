@@ -2,7 +2,7 @@
 title: Equipment by brand
 description: Everything about your Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz equipment in one place, from adding it to controlling it, its alerts and its fixes.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 3
 ---
 
@@ -41,14 +41,14 @@ ReefDose, ReefRun, ReefMat and ReefATO+. A device's own settings only open when 
 Pumps that reach Cora over your network or over Bluetooth. Which one decides what you can do from away.
 
 - Add it: [Connecting your equipment](/help/mobile-connections#jecod)
-- Control it on your phone: [Jecod pumps](/help/mobile-device-control#jecod), [day programs](/help/mobile-schedules)
+- Control it on your phone: [Jecod pumps](/help/mobile-device-control#jecod), [schedules](/help/mobile-schedules)
 - On Cora Max: [Jecod](/help/max-device-control#jecod)
 - Alerts: [stopped reporting](/help/mobile-alerts#stopped-reporting)
 - Fixes: ["Could not reach this pump"](/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent), [out of Bluetooth range](/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t)
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora reads it through AquaWiz's own cloud, so it keeps updating without a Cora Max.
+Cora reads it through AquaWiz's own cloud every 12 hours, so it keeps updating without a Cora Max. A Cora Max at the tank can add an hourly reading.
 
 - Add it: [Connecting your equipment](/help/mobile-connections#aquawiz-kh-controller)
 - On your phone: [AquaWiz](/help/mobile-device-control#aquawiz)

@@ -2,13 +2,13 @@
 title: Konfiguracja Cora Mobile
 description: Zainstaluj Cora Mobile, załóż konto, dodaj pierwsze akwarium i krok po kroku zobacz pierwsze odczyty na ekranie.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 group: Getting started
 twin: max-setup
 ---
 
-Ta strona prowadzi przez pierwsze dziesięć minut z Cora Mobile, w kolejności, w jakiej pojawiają się ekrany. Na koniec będziesz mieć konto, akwarium i pulpit z odczytami.
+Ta strona prowadzi przez pierwsze dziesięć minut z Cora Mobile, w kolejności, w jakiej pojawiają się ekrany. Na koniec będziesz mieć konto, akwarium i panel z odczytami.
 
 ## Instalacja Cora Mobile {#install-cora-mobile}
 
@@ -43,7 +43,7 @@ Jeśli rejestracja była adresem e-mail, Cora poprosi teraz o jego weryfikację.
 :::note Jedno konto na wszystkich ekranach
 Twoje konto przechowuje wszystko. Sparuj z nim Cora Max albo zaloguj się na innym telefonie, a zobaczysz te same akwaria, urządzenia, odczyty i zapiski.
 
-Układ pulpitu w telefonie idzie za kontem na każdy telefon, na którym się zalogujesz. Każdy Cora Max ma własny układ. Zobacz [Co jest wspólne, a co nie](/help/mobile-multi-device).
+Układ panelu w telefonie idzie za kontem na każdy telefon, na którym się zalogujesz. Każdy Cora Max ma własny układ. Zobacz [Co jest wspólne, a co nie](/help/mobile-multi-device).
 :::
 
 ## Dodaj pierwsze akwarium {#add-your-first-tank}
@@ -53,13 +53,13 @@ W Corze **akwarium** to każdy zbiornik wody, który chcesz śledzić. Większo�
 Po zalogowaniu **Poznajmy Twoje akwarium** pyta o trzy rzeczy. Wymagana jest tylko nazwa, a wszystko możesz później zmienić w [profilu akwarium](/help/mobile-tank-profile).
 
 1. **Jak je nazwiesz?** to nazwa, której używasz na co dzień, na przykład „Główne”, „Fragi” albo „Kwarantanna”.
-2. **Jaki to typ akwarium?** to **Rafa SPS**, **Rafa LPS**, **Rafa mieszana**, **Rafa koralowców miękkich**, **FOWLR** albo **Tylko ryby**. Typ ustala początkowe zakresy alertów. Jeśli nie masz pewności, wybierz **Rafa mieszana**.
+2. **Jaki to typ akwarium?** to **Rafa SPS**, **Rafa LPS**, **Rafa mieszana**, **Rafa korali miękkich**, **FOWLR** albo **Tylko ryby**. Typ ustala początkowe zakresy alertów. Jeśli nie masz pewności, wybierz **Rafa mieszana**.
 3. **Ile wody?** to rzeczywista objętość wody razem z sumpem. Na tej liczbie opierają się obliczenia dawek, więc podaj ją w miarę dokładnie. Jeśli znasz tylko rozmiar akwarium, dotknij **Nie znasz objętości? Wpisz wymiary**, a Cora ją policzy.
 
 Dotknij **Utwórz moje akwarium**.
 
 :::note Akwarium wciąż się cykluje?
-Dotknij **Zaczynasz nowe akwarium?** na pulpicie, **zanim** zapiszesz test albo podłączysz sprzęt. Ta karta pokazuje się tylko przy akwarium bez żadnych odczytów i to nią włączasz prowadzone cyklowanie. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Dotknij **Zaczynasz nowe akwarium?** na panelu, **zanim** zapiszesz test albo podłączysz sprzęt. Ta karta pokazuje się tylko przy akwarium bez żadnych odczytów i to nią włączasz prowadzone cyklowanie. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 
 Cora ocenia też odczyty względem tego, co jest normalne dla akwarium w danym wieku. Kreator o to nie pyta, więc ustaw **Data uruchomienia akwarium** w profilu akwarium, w **Wymiary akwarium**.
 :::
@@ -77,11 +77,11 @@ Gdy skończysz, dotknij **Przejdź do mojego panelu** albo **Zrobię to późnie
 
 ## Pierwsze 30 dni {#your-first-30-days}
 
-Na nowym darmowym koncie **Przejdź do mojego panelu** najpierw pokazuje **Pierwsze 30 dni na nasz koszt**. Twój 30-dniowy okres próbny Pro zaczął się w chwili założenia konta i nie wymaga karty. Dotknij **Zacznij odkrywać**, żeby kontynuować, albo **Zobacz plany**, żeby obejrzeć płatne plany. Więcej w [Planach i subskrypcjach](/help/mobile-plans#the-trial).
+Na nowym darmowym koncie **Przejdź do mojego panelu** najpierw pokazuje **Pierwsze 30 dni na nasz koszt**. Twój 30-dniowy okres próbny Advanced zaczął się w chwili założenia konta i nie wymaga karty. Dotknij **Zacznij odkrywać**, żeby kontynuować, albo **Zobacz plany**, żeby obejrzeć płatne plany. Więcej w [Planach i subskrypcjach](/help/mobile-plans#the-trial).
 
-## Pierwsze spojrzenie na pulpit {#your-first-look-at-the-dashboard}
+## Pierwsze spojrzenie na panel {#your-first-look-at-the-dashboard}
 
-Przy pierwszym otwarciu pulpitu dzieją się dwie rzeczy.
+Przy pierwszym otwarciu panelu dzieją się dwie rzeczy.
 
 - Cora zapyta **Włączyć spersonalizowane wskazówki rafowe?** Dotknij **Włącz**, jeśli chcesz, żeby Cora Assistant używał w odpowiedziach zapisanych danych akwarium. **Nie teraz** zostawia to wyłączone. Więcej w [Pytaniach do Cory](/help/mobile-assistant#consent).
 - Krótkie wprowadzenie pokazuje główne części ekranu. Zobacz [Wprowadzenie przy pierwszym uruchomieniu](/help/mobile-tour#the-first-run-tour).
@@ -94,7 +94,7 @@ Możesz to pominąć i wrócić później. Akwarium działa dobrze bez urządze�
 
 ## Zapisz pierwsze odczyty {#log-your-first-readings}
 
-Niektóre parametry pochodzą tylko z testów kropelkowych. Przewiń pulpit w dół i dotknij **Zapisz parametry** w rzędzie przycisków pod widżetami.
+Niektóre parametry pochodzą tylko z testów kropelkowych. Przewiń panel w dół i dotknij **Zapisz parametry** w rzędzie przycisków pod widżetami.
 
 ![Formularz Zapisz parametry w Cora Mobile](img/mobile-logparams.webp "Wybierz datę i godzinę, a potem wpisz wyniki testów w grupach Podstawowe, Pierwiastki i Składniki odżywcze.")
 

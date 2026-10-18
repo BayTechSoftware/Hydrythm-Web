@@ -197,16 +197,16 @@
 <p>Puedes generar y leer un informe de salud en la pantalla de pared. Abre <strong>Informes de salud</strong> y toca <strong>Generar</strong>. Es la misma evaluación que hace tu teléfono a partir de tus parámetros, tus resultados de ICP y tu diario, y su puntuación funciona igual que la de un ICP.</p>
 <ul><li>Los informes de salud necesitan el uso compartido de datos con la IA. Si está desactivado, Cora Max muestra <strong>Es necesario compartir datos</strong>. Actívalo en Cora Mobile, en <strong>Ajustes → Cora Assistant</strong>.</li><li>Cada plan tiene un número de informes de salud al mes. Cuando se acaban, ves <strong>Límite mensual alcanzado</strong> hasta el mes siguiente. Más información en <a href="/es/help/mobile-plans">Planes</a>.</li></ul>
 <h2 id="graficos-del-historial">Gráficos del historial</h2>
-<p>Abre el <strong>menú del acuario</strong> y toca <strong>Historial de parámetros</strong>, y después elige un parámetro. Se abre como un gráfico a pantalla completa. Tocar una casilla del panel abre el mismo gráfico. En una pantalla de pared, es la mejor forma de detectar una desviación lenta. Un mes de alcalinidad a pantalla completa muestra una tendencia que una casilla pequeña no puede mostrar.</p>
+<p>Abre el <strong>menú del acuario</strong> y toca <strong>Historial de parámetros</strong>, y después elige un parámetro. Se abre como un gráfico a pantalla completa. Tocar una tarjeta del panel abre el mismo gráfico. En una pantalla de pared, es la mejor forma de detectar una desviación lenta. Un mes de alcalinidad a pantalla completa muestra una tendencia que una tarjeta pequeña no puede mostrar.</p>
 <ul><li>El nombre del parámetro en la cabecera es un desplegable, así que puedes cambiar de parámetro y conservar el periodo.</li><li><strong>Periodo</strong> fija el intervalo de tiempo.</li><li><strong>Fuente</strong> muestra <strong>Todas las fuentes</strong> o una de las fuentes de las que viene este parámetro, como <strong>Apex</strong>, <strong>Manual</strong>, <strong>ICP</strong> o <strong>ReefBeat</strong>. Solo se listan las fuentes que tiene este parámetro.</li><li><strong>Comparar</strong> dibuja un segundo parámetro en el mismo gráfico.</li></ul>
 <p>Cada fuente tiene su propio color. Las lecturas de dispositivos como ReefBeat y AquaWiz™ son cuadrados, y las lecturas que alguien tomó a mano (Manual e ICP) son puntos más grandes. <strong>Todas las fuentes</strong> muestra todas las fuentes una al lado de la otra y nunca promedia las lecturas de una fuente con las de otra. Las líneas discontinuas marcan dosis registradas. Debajo del gráfico verás <strong>Más reciente</strong>, <strong>Prom</strong>, <strong>Mín</strong>, <strong>Máx</strong> y <strong>Mín. 30 d</strong> y <strong>Máx. 30 d</strong>.</p>
 <p>Para la alcalinidad, el calcio y el magnesio, el botón <strong>Calculadora de dosis</strong> de arriba calcula una dosis de corrección. Más información en <a href="/es/help/mobile-metric-detail">Ver un parámetro a fondo</a>.</p>
 <h2 id="itinerarios-guiados">Itinerarios guiados</h2>
 <p>Un itinerario activo aparece como una franja estrecha en la parte de arriba del panel del acuario. Tócala para ver los pasos y cuánto has avanzado.</p>
-<p>En un acuario nuevo que está haciendo el ciclo, puedes anotar lecturas aquí. <strong>Registrar una prueba</strong> en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que coger el teléfono.</p>
+<p>En un acuario nuevo que está haciendo el ciclo, puedes anotar lecturas aquí. <strong>Registrar una prueba</strong> en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que tomar el teléfono.</p>
 <p>Un itinerario de <strong>problema</strong> es solo de consulta en la pantalla de pared. Empezarlo, completar un paso, anotar un resultado y resolverlo o descartarlo se hace en tu teléfono. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-activity"><span>Anterior</span><b>Actividad en Cora Max</b></a><a class="pn-n" href="/es/help/max-voice"><span>Siguiente</span><b>Hablar con Cora</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -2,7 +2,7 @@
 title: Sıkça sorulan sorular
 description: Neye ihtiyacınız olduğu, Cora Max, Cora'yı evden uzaktayken kullanma, ekipman, uyarılar, Reef Buddy, diller, planlar ve verileriniz hakkında kısa yanıtlar.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -82,7 +82,7 @@ Wi-Fi ekipmanını bulmak ve ev ağınızdaki bir Cora Max'e ulaşmak için Yere
 
 ### Evde değilken akvaryumuma bakabilir miyim? {#can-i-check-on-my-tank-away}
 
-Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
+Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder, ama oradan yalnızca 12 saatte bir. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
 
 ### Evden uzaktayken ekipmanı kontrol edebilir miyim? {#can-i-control-equipment-away}
 
@@ -118,7 +118,7 @@ Ekipmanın açık olduğunu ve gerekiyorsa üreticinin uygulamasında zaten kuru
 
 ### Dozaj pompamı Cora'nın kontrol etmesine izin vermek güvenli mi? {#is-it-safe-to-let-cora-dose}
 
-Cora yalnızca sizin kurduğunuzu dozlar: tanımladığınız bir ürün, bir miktar ve bir program, her kafa için belirlediğiniz sınırlar içinde. Bir doz yarıda durursa Cora bunu söyleyen bir uyarı verir ve mümkün olduğunda ne kadarının gittiğini söyler. Dozun tamamının gittiğini varsaymadan önce onu okuyun. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) ve [Sorun giderme](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared) sayfalarında.
+Cora yalnızca sizin kurduğunuzu dozlar: tanımladığınız bir ürün, bir miktar ve bir zamanlama, her kafa için belirlediğiniz sınırlar içinde. Bir doz yarıda durursa Cora bunu söyleyen bir uyarı verir ve mümkün olduğunda ne kadarının gittiğini söyler. Dozun tamamının gittiğini varsaymadan önce onu okuyun. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) ve [Sorun giderme](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared) sayfalarında.
 
 ### Cora dozaj ürünümün ne kadar güçlü olduğunu nereden biliyor? {#how-strong-is-my-dosing-product}
 
@@ -192,9 +192,9 @@ Hayır. Zaten yazılmış olan her şey kendi dilinde kalır. Yeni uyarılar, ra
 
 Her planın neleri içerdiği için [Planlar ve abonelikler](/help/mobile-plans) sayfasına bakın.
 
-### Max planı Cora Max ile aynı şey mi? {#max-plan-or-cora-max}
+### Expert planı Cora Max ile aynı şey mi? {#max-plan-or-cora-max}
 
-Hayır. **Max** planı Cora Mobile'daki bir aboneliktir. Cora Max ise duvar ekranıdır. Birine sahip olmak için diğerine ihtiyacınız yoktur.
+Hayır. **Expert** planı Cora Mobile'daki bir aboneliktir. Cora Max ise duvar ekranıdır. Birine sahip olmak için diğerine ihtiyacınız yoktur.
 
 ### Denemem ya da planım biterse akvaryum geçmişime ne olur? {#history-when-plan-ends}
 

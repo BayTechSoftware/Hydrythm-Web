@@ -15,7 +15,7 @@ Pour l’ouvrir, touchez le **crayon à droite de l’en-tête de l’aquarium**
 
 Un profil contient beaucoup de choses, alors la **Configuration guidée** vous le fait parcourir une section à la fois. Elle s’ouvre depuis **Configurer mon aquarium, guidé** juste après la création d’un aquarium, depuis **Réglages → Votre aquarium → Configuration guidée**, et depuis l’invitation à compléter le profil sur le tableau de bord.
 
-Les sections viennent dans cet ordre : **Nom et type de l’aquarium**, **Dimensions de l’aquarium**, **Éclairage**, **Dosage**, **Gestion de l’eau**, **Population**, **Contrôle de la température**, **Flux et filtration** et **Nuisibles et traitement**. Le haut de l’écran affiche **Étape 2 sur 10** et ainsi de suite.
+Les sections viennent dans cet ordre : **Nom et type de l’aquarium**, **Dimensions de l’aquarium**, **Éclairage**, **Dosage**, **Gestion de l’eau**, **Population**, **Contrôle de la température**, **Brassage et filtration** et **Nuisibles et traitement**. Le haut de l’écran affiche **Étape 2 sur 10** et ainsi de suite.
 
 - **Enregistrer et continuer** enregistre la section et passe à la suivante. **Passer** passe à la suite sans l’enregistrer.
 - **Terminer plus tard** vous ramène en arrière et garde les réponses enregistrées jusque-là. Quand vous rouvrez la configuration guidée, elle reprend là où vous vous êtes arrêté.
@@ -43,7 +43,7 @@ Dans le profil, les sections sont listées ainsi. Touchez-en une pour l’ouvrir
 
 | Section | Contenu |
 |---|---|
-| **Routine d'alimentation** | Votre façon habituelle de nourrir, pour que vous ne notiez que les exceptions. Voir [Le journal](/help/mobile-journal) |
+| **Routine de nourrissage** | Votre façon habituelle de nourrir, pour que vous ne notiez que les exceptions. Voir [Le journal](/help/mobile-journal) |
 | **Nom et type de l’aquarium** | Le nom de l’aquarium et son type |
 | **Dimensions de l’aquarium** | Taille physique, volume d’eau total et date de démarrage de l’aquarium |
 | **Dosage** | Ce que vous dosez et comment |
@@ -51,11 +51,11 @@ Dans le profil, les sections sont listées ainsi. Touchez-en une pour l’ouvrir
 | **Population** | Ce que contient l’aquarium et sa densité de population |
 | **Contrôle de la température** | Équipement de chauffage et de refroidissement |
 | **Éclairage** | Rampes et photopériode |
-| **Flux et filtration** | Pompes, écumage, médias, et marque et modèle de votre contrôleur |
+| **Brassage et filtration** | Pompes, écumage, médias, et marque et modèle de votre contrôleur |
 | **Sources des paramètres** | La source d’où chaque paramètre est lu |
 | **Nuisibles et traitement** | Les nuisibles que vous avez combattus, leur état et ce que vous avez essayé |
 
-Quand vous ajoutez un chauffage, une pompe, une lampe ou un écumeur sous **Contrôle de la température**, **Flux et filtration** ou **Éclairage**, Cora suggère des marques et des modèles pendant que vous tapez. Si le vôtre n’est pas dans la liste, tapez-le quand même. Cora garde ce que vous saisissez.
+Quand vous ajoutez un chauffage, une pompe, une lampe ou un écumeur sous **Contrôle de la température**, **Brassage et filtration** ou **Éclairage**, Cora suggère des marques et des modèles pendant que vous tapez. Si le vôtre n’est pas dans la liste, tapez-le quand même. Cora garde ce que vous saisissez.
 
 **Sources des paramètres** n’apparaît pas pendant que vous ajoutez un nouvel aquarium. Il couvre le même choix que l’**Association des paramètres** dans les réglages de l’aquarium, qui vous donne le contrôle complet sur chaque sonde. Voir [Association des paramètres](/help/mobile-probes).
 

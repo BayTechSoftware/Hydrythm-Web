@@ -181,20 +181,20 @@
 <p>Si une mesure plus récente de ce paramètre est déjà affichée, votre valeur indique <strong>Enregistré uniquement dans l’historique</strong>. Elle est gardée dans l’historique et les graphiques, et le tableau de bord continue d’afficher la plus récente.</p>
 <h2 id="journal">Journal</h2>
 <p>Ouvrez <strong>Journal</strong> depuis le menu de l’aquarium et touchez <strong>Nouvelle entrée</strong>. Donnez-lui un titre, et ajoutez une description, des étiquettes ou une photo si vous le souhaitez. <strong>Joindre les paramètres de l’eau</strong> enregistre les mesures actuelles avec l’entrée. Ou dites <em>« Hey Cora, note que j’ai nourri au mysis. »</em> Plus de détails dans <a href="/fr/help/mobile-journal">Le journal</a>.</p>
-<h3 id="alimentation">Alimentation</h3>
-<p>En haut de l’écran du journal, <strong>Repas en plus</strong> et <strong>Repas sauté</strong> ajoutent chacun une entrée au journal. Une ligne en dessous affiche votre routine d’alimentation, par exemple <em>Routine d’alimentation : Flocons : 2 pincées, deux fois par jour</em>. Vous réglez la routine dans Cora Mobile. Sans routine enregistrée, la ligne indique <em>Définissez votre routine d’alimentation dans l’app mobile</em>.</p>
+<h3 id="nourrissage">Nourrissage</h3>
+<p>En haut de l’écran du journal, <strong>Repas en plus</strong> et <strong>Repas sauté</strong> ajoutent chacun une entrée au journal. Une ligne en dessous affiche votre routine de nourrissage, par exemple <em>Routine de nourrissage : Flocons : 2 pincées, deux fois par jour</em>. Vous réglez la routine dans Cora Mobile. Sans routine enregistrée, la ligne indique <em>Définissez votre routine de nourrissage dans l’application mobile</em>.</p>
 <p>Si Cora Max lit votre Neptune™ Apex, il note aussi un cycle de nourrissage A à D dès qu’il démarre, que vous l’ayez lancé ici, sur l’Apex ou dans Apex Fusion.</p>
 <aside class="cal cal-note"><p class="cal-t">Pas d’icône de journal dans la barre du haut</p><p>L’icône à côté de celle des appareils est <strong>Reef Buddy</strong>, et son point signale que le briefing du jour n’a pas été lu. Vous ajoutez des entrées de journal depuis le menu de l’aquarium ou par la voix.</p></aside>
 <h2 id="entretien">Entretien</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Agrandir : Entretien sur Cora Max"><img src="/help/img/max-records.webp" alt="Entretien sur Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Tâches à faire, avec Reporter et Terminé sur chacune, et ce qui a été terminé récemment.</figcaption></figure>
 <p>Le haut de l’écran indique combien de tâches sont à faire. En dessous, <strong>À venir</strong> liste chaque tâche avec <strong>AUJOURD’HUI</strong>, <strong>DANS 3 j</strong> ou <strong>EN RETARD 2 j</strong>, et <strong>Terminées · 7 derniers jours</strong> montre ce que vous avez fait récemment.</p>
-<ul><li>Touchez <strong>Terminé</strong> quand vous avez fini une tâche.</li><li>Touchez <strong>Reporter</strong> pour la repousser de <strong>1 jour</strong>, <strong>3 jours</strong>, <strong>1 semaine</strong>, <strong>2 semaines</strong> ou <strong>1 mois</strong>.</li></ul>
+<ul><li>Touchez <strong>Terminé</strong> quand vous avez fini une tâche. Si elle est en retard, Cora demande <strong>Quand l’avez-vous fait ?</strong></li><li>Touchez <strong>Fait plus tôt…</strong> si vous l’avez faite avant aujourd’hui. Choisissez la date et l’heure, et la prochaine échéance est calculée à partir de là. Une heure future, ou antérieure à la dernière validation, n’est pas acceptée.</li><li>Touchez <strong>Reporter</strong> pour la repousser de <strong>1 jour</strong>, <strong>3 jours</strong>, <strong>1 semaine</strong>, <strong>2 semaines</strong> ou <strong>1 mois</strong>.</li></ul>
 <p>Vous ajoutez et modifiez les tâches sur votre téléphone. Plus de détails dans <a href="/fr/help/mobile-maintenance">Entretien</a>.</p>
 <h2 id="population">Population</h2>
 <p>C’est l’inventaire complet, avec ce qui est <strong>Dans l’aquarium</strong> et ce qui <strong>N’est plus dans l’aquarium</strong>. Ici, il est en lecture seule. Vous ajoutez et modifiez la population dans Cora Mobile, et ce que vous y ajoutez apparaît aussitôt sur cet écran. Plus de détails dans <a href="/fr/help/mobile-livestock">Population</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Un seul ensemble de suivis</p><p>Chaque aquarium a un seul journal, un seul inventaire de population et une seule liste d’entretien. Cora Max et votre téléphone affichent les mêmes suivis.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-automation"><span>Précédent</span><b>Scènes sur Cora Max</b></a><a class="pn-n" href="/fr/help/max-activity"><span>Suivant</span><b>Activité sur Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

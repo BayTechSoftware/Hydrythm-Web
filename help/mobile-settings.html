@@ -206,12 +206,12 @@
 <aside class="cal cal-note"><p class="cal-t">What deleting doesn't remove</p><p>If <strong>Contribute anonymized tank data</strong> is on (and it is, unless you turned it off), a de-identified copy of your tanks' profiles and parameter history is kept for research when you delete your account. It has no link back to you. If you want that gone too, turn the switch off <em>before</em> you delete.</p></aside>
 <h2 id="getting-help">Help &amp; Support</h2>
 <p><strong>Settings → Help &amp; Support</strong> has these.</p>
-<ul><li><strong>Contact Support</strong> opens an email to us. We usually reply within a day.</li><li><strong>Report a Bug / Send Feedback</strong> sends a report from inside Cora Mobile. See <a href="/help/mobile-support">Reporting a problem</a>.</li><li><strong>Send crash reports</strong>, described above.</li><li><strong>Cora Website &amp; FAQ</strong> opens the Cora website.</li></ul>
+<ul><li><strong>Contact Support</strong> opens an email to us. We usually reply within a day.</li><li><strong>Report a Bug / Send Feedback</strong> sends a report from inside Cora Mobile. See <a href="/help/mobile-support">Reporting a problem</a>.</li><li><strong>Send crash reports</strong>, described above.</li><li><strong>Cora Website &amp; FAQ</strong> opens the Cora website. It opens this guide in your language.</li></ul>
 <h2 id="about">About</h2>
 <p>This shows the version you're running, and a few more rows.</p>
 <ul><li><strong>Replay tips</strong> plays the first-run dashboard tour again, the one described in <a href="/help/mobile-tour#the-first-run-tour">The first-run tour</a>. It's handy after an update, or when someone new starts using Cora Mobile.</li><li><strong>Privacy Policy</strong> and <strong>Terms and Conditions</strong> link to the legal pages.</li><li><strong>Licenses</strong> lists the open-source software Cora Mobile is built on.</li></ul>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-journeys"><span>Previous</span><b>Guided journeys</b></a><a class="pn-n" href="/help/mobile-multi-device"><span>Next</span><b>More than one Cora device</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -602,7 +602,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -2,7 +2,7 @@
 title: Domande frequenti
 description: Risposte brevi su cosa ti serve, Cora Max, usare Cora fuori casa, attrezzatura, avvisi, Reef Buddy, lingue, piani e i tuoi dati.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -22,11 +22,11 @@ Dopo la registrazione, Cora Mobile ti fa tre domande: un nome, il tipo di vasca 
 
 ### Posso provare Cora prima di registrarmi? {#can-i-try-cora-before-i-sign-up}
 
-Sì. Nella schermata di accesso, tocca **Esplora una barriera demo**. È una vasca di esempio, e non ti serve un account. Di più in [Configurare Cora Mobile](/help/mobile-setup).
+Sì. Nella schermata di accesso, tocca **Esplora un reef demo**. È una vasca di esempio, e non ti serve un account. Di più in [Configurare Cora Mobile](/help/mobile-setup).
 
 ### La mia vasca sta ancora facendo il ciclo. Cora può aiutarmi? {#my-tank-is-still-cycling}
 
-Sì. Tocca **Stai avviando una nuova vasca?** sulla dashboard per avviare il percorso di ciclaggio. La scheda compare solo su una vasca ancora senza letture, quindi fallo prima di registrare un test o collegare attrezzatura. Di più in [Percorsi guidati](/help/mobile-journeys).
+Sì. Tocca **Stai avviando una nuova vasca?** sulla dashboard per avviare il percorso di maturazione. La scheda compare solo su una vasca ancora senza letture, quindi fallo prima di registrare un test o collegare attrezzatura. Di più in [Percorsi guidati](/help/mobile-journeys).
 
 ### Cosa vuol dire "profilo della vasca", e perché fa così tante domande? {#what-does-tank-profile-mean}
 
@@ -82,7 +82,7 @@ Le serve l'accesso alla Rete locale per trovare l'attrezzatura Wi-Fi e raggiunge
 
 ### Posso controllare la vasca quando non sono a casa? {#can-i-check-on-my-tank-away}
 
-Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz viene letto attraverso il cloud del suo produttore, quindi continua ad aggiornarsi in ogni caso. Le letture che registri a mano e lo storico della vasca ci sono sempre.
+Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz viene letto attraverso il cloud del suo produttore, quindi continua ad aggiornarsi in ogni caso, ma da lì solo ogni 12 ore. Le letture che registri a mano e lo storico della vasca ci sono sempre.
 
 ### Posso comandare l'attrezzatura quando sono fuori casa? {#can-i-control-equipment-away}
 
@@ -118,7 +118,7 @@ Controlla che l'attrezzatura sia accesa e già configurata nell'app del produtto
 
 ### È sicuro lasciare che Cora comandi la mia pompa dosometrica? {#is-it-safe-to-let-cora-dose}
 
-Cora dosa solo quello che hai impostato: un prodotto, una quantità e un programma che definisci tu, entro i limiti che imposti per ogni testa. Se una dose si ferma a metà, Cora genera un avviso che lo dice, e ti dice quanto è entrato quando può saperlo. Leggilo prima di dare per scontato che sia entrata tutta la dose. Di più in [Controllare la tua attrezzatura](/help/mobile-device-control) e [Risoluzione dei problemi](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared).
+Cora dosa solo quello che hai impostato: un prodotto, una quantità e una programmazione che definisci tu, entro i limiti che imposti per ogni testa. Se una dose si ferma a metà, Cora genera un avviso che lo dice, e ti dice quanto è entrato quando può saperlo. Leggilo prima di dare per scontato che sia entrata tutta la dose. Di più in [Controllare la tua attrezzatura](/help/mobile-device-control) e [Risoluzione dei problemi](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared).
 
 ### Come fa Cora a sapere quanto è concentrato il mio prodotto di dosaggio? {#how-strong-is-my-dosing-product}
 
@@ -192,9 +192,9 @@ No. Quello che è già stato scritto resta nella lingua originale. I nuovi avvis
 
 Vedi [Piani e abbonamenti](/help/mobile-plans) per cosa comprende ogni piano.
 
-### Il piano Max è la stessa cosa di Cora Max? {#max-plan-or-cora-max}
+### Il piano Expert è la stessa cosa di Cora Max? {#max-plan-or-cora-max}
 
-No. Il piano **Max** è un abbonamento in Cora Mobile. Cora Max è lo schermo a parete. Non ti serve l'uno per avere l'altro.
+No. Il piano **Expert** è un abbonamento in Cora Mobile. Cora Max è lo schermo a parete. Non ti serve l'uno per avere l'altro.
 
 ### Cosa succede allo storico della mia vasca se finisce la prova o il piano? {#history-when-plan-ends}
 

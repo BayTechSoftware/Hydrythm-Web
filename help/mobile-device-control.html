@@ -238,21 +238,24 @@
 <p>On a ReefDose page, tap the bell in the title bar. Each head has its own days-left threshold and switch.</p>
 <p>Defaults and other consumables are in <a href="/help/mobile-consumables">Consumables</a>.</p>
 <h2 id="jecod">Jecod / Jebao™ pumps</h2>
-<p>The pump page shows the current wave pattern (mode) and intensity, and you can change both. Its status sits in the title row, next to the pump's name. A switch with <strong>Same all day</strong> and <strong>Schedule</strong> marks the one that is running with <em>· running</em>, and the page opens on it. Building a day program, and copying, saving or sharing it, is in <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
+<p>The pump page shows the current wave pattern (mode) and intensity, and you can change both. Its status sits in the title row, next to the pump's name. A switch with <strong>Same all day</strong> and <strong>Schedule</strong> marks the one that is running with <em>· running</em>, and the page opens on it. Building a schedule, and copying, saving or sharing it, is in <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
 <p>If the pump is part of a group, the page shows its role, such as <strong>Leads the group</strong>, <strong>Follows: in step</strong> or <strong>Follows: alternating</strong>.</p>
 <h3 id="jecod-feeding">Feeding pause</h3>
 <p>Start a feeding pause from <strong>Feeding</strong> on the pump's page: tap <strong>5</strong>, <strong>10</strong>, <strong>15</strong> or <strong>30</strong> min. Some pumps end the pause by themselves, and the page says <em>The pump ends this itself.</em></p>
 <aside class="cal cal-warning"><p class="cal-t">Keep the pump's page open during a feeding pause</p><p>Some pumps don't end a feed by themselves, and the page says so. For those, and for any pump on a schedule, Cora Mobile brings the wave pattern and the schedule back only while the pump's page stays open. If you leave the page, the pump stays stopped in feed mode, or stays off its schedule, until you change it again or tap <strong>Schedule</strong>.</p></aside>
+<p>If your household has a Cora Max, it ends the feed and puts the pump back on its program when the time is up, even if Cora Mobile is closed. The warning above then matters only when there is no Cora Max.</p>
 <p>A Bluetooth pump has to be in range of your phone to start a feed, and a network pump has to be on your network.</p>
 <h3 id="jecod-fault-checks">Fault checks</h3>
 <p><strong>Fault checks</strong> sets how often Cora re-reads the pump so it can warn you about a fault, such as a jammed pump or one running dry. If you set it to off, those warnings stop for that pump. Fault checks need a Cora Max on the tank. Your choice is saved and the checks start once one is added. <strong>Use this for every pump on this tank</strong> copies the setting to all of them.</p>
 <h2 id="aquawiz">AquaWiz</h2>
 <p>The AquaWiz card shows your alkalinity readings, and pH if your unit reports it. It also shows your target KH, your dose strength and, for a unit with dosing set up, its maximum dose per hour and how much alkalinity supplement is left in the container. These come straight from your AquaWiz settings, so change them in the AquaWiz app. Cora can't control an AquaWiz.</p>
+<p>Under the readings the card shows when the last one was measured (<em>Measured 2:00 PM</em>, for example) and where it came from: <strong>Hourly from your Cora Max</strong> or <strong>From AquaWiz cloud, every 12 hours</strong>. It also shows the <strong>pH change</strong>. Opening the page asks for a fresh reading, and <strong>Read now</strong> asks again, at most once every 15 minutes. If a reading hasn't changed, that's normal: the unit only measures now and then.</p>
+<p>When a Cora Max reads the unit every hour, the card also shows its pump, pH probe and water box level, and Cora alerts you when the pump reports a fault, the pH probe has failed or is near the end of its life, or the water box level stays low or high for over an hour.</p>
 <p>If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default. Change it from its rule in the <a href="/help/mobile-alerts">Alert Center</a>.</p>
 <h2 id="what-happens-after-you-change-something">What happens after you change something</h2>
 <p>Every change is recorded in <a href="/help/mobile-activity">Activity</a>, with the surface it came from. If a device doesn't accept a change, that's recorded there too.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-connections"><span>Previous</span><b>Connecting your equipment</b></a><a class="pn-n" href="/help/mobile-schedules"><span>Next</span><b>Scheduling equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -643,7 +646,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

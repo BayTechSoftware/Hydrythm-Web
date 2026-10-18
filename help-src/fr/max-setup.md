@@ -49,7 +49,7 @@ Tout le reste se passe dans Cora Mobile. Une feuille vous guide en cinq étapes,
 
 5. **Aquariums.** Sous **Attribuer des aquariums**, choisissez les aquariums que ce Cora Max va gérer, **jusqu’à quatre**.
 
-6. **Terminé.** Votre téléphone indique que Cora Max est configuré et affiche un **Code PIN de récupération**. Touchez le bouton qui ouvre le tableau de bord de votre aquarium, ou **Aller aux appareils**. Cora Max affiche **Appairé**, puis **Ouverture du tableau de bord…**.
+6. **Terminé.** Votre téléphone indique que Cora Max est configuré et affiche un **Code PIN de récupération**. Touchez le bouton qui ouvre le tableau de bord de votre aquarium, ou **Aller aux appareils**. Cora Max affiche **Associé**, puis **Ouverture du tableau de bord…**.
 
 :::warning Notez le code PIN de récupération
 Le **Code PIN de récupération** a six chiffres et c’est le seul moyen d’entrer en récupération sur ce Cora Max. Pour l’utiliser, posez cinq doigts en haut à droite de l’écran pendant dix secondes, puis saisissez le code PIN. La récupération vous permet de refaire le Wi-Fi, d’associer à nouveau, de rechercher une mise à jour ou de faire une réinitialisation d’usine. Vous retrouvez le code PIN sur votre téléphone sous **Appareils → votre Cora Max → Code PIN de récupération**, mais jamais sur Cora Max lui-même.
@@ -61,7 +61,7 @@ Le **Code PIN de récupération** a six chiffres et c’est le seul moyen d’en
 - **L’autorisation Bluetooth est désactivée pour Cora.** Autorisez le Bluetooth pour Cora dans les réglages de votre téléphone, puis touchez **Analyser**. Un iPhone peut aussi demander l’accès au réseau local. Autorisez-le aussi.
 - **Aucun appareil de configuration Cora à proximité n’a été trouvé via Bluetooth.** Placez-vous à côté de Cora Max, vérifiez qu’il affiche toujours l’écran d’association, et relancez la recherche.
 - **Aucun aquarium trouvé** à l’étape Aquariums. Votre compte n’a pas encore d’aquarium. Créez-en un dans Cora Mobile, puis refaites l’étape.
-- **Pas encore lié à votre aquarium** à la fin. Cora Max est associé, mais le lien avec l’aquarium n’a pas abouti. Touchez **Réessayer maintenant**. Tant que ce n’est pas fini, les alertes de cet écran utilisent les plages par défaut.
+- **Pas encore associé à votre aquarium** à la fin. Cora Max est associé, mais le lien avec l’aquarium n’a pas abouti. Touchez **Réessayer maintenant**. Tant que ce n’est pas fini, les alertes de cet écran utilisent les plages par défaut.
 
 D’autres solutions dans [Résolution de problèmes](/help/troubleshooting#pairing-a-cora-max-fails).
 

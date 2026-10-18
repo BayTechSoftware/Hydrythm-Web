@@ -36,7 +36,7 @@ Ogni riquadro riassume una vasca.
 - Una barra colorata lungo il bordo sinistro, per lo stato peggiore di quella vasca.
 - Un **punteggio di salute** in un anello (con una, due o tre vasche). Accanto c'è una riga come *3 di 37 parametri fuori range* (o *Tutti i 37 parametri nel range*), e quanti sono vicini ai limiti.
 - Un'etichetta di stato: **N fuori range**, **N da monitorare** per le letture vicine ai limiti, **Sano**, oppure **In monitoraggio** finché non c'è ancora niente da valutare.
-- Le letture principali della vasca. I riquadri più larghi aggiungono a ognuna una linea di andamento delle 24 ore.
+- Le letture principali della vasca. I riquadri più larghi aggiungono a ognuna una linea di tendenza delle 24 ore.
 - **Quando si è aggiornato l'ultima volta**, e **Apri dashboard**.
 
 Il punteggio di salute guarda quanto è fuori ogni parametro e quanto conta, quindi tante letture buone non possono nascondere un problema serio. Arriva al 100% solo quando niente è fuori range. Se un parametro importante come alcalinità, calcio o magnesio è molto fuori range, il punteggio non può superare il 33%. Un metallo pesante molto fuori range può portarlo fino allo 0%. I parametri vicini ai limiti vengono contati nel riquadro ma non abbassano il punteggio.

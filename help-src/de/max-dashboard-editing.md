@@ -2,7 +2,7 @@
 title: Das Cora Max-Dashboard bearbeiten
 description: Kacheln auf dem Cora Max-Dashboard hinzufügen, verschieben und entfernen, ein Raster wählen, Vorlagen oder Mit KI gestalten nutzen und Layouts speichern, um sie auf jedem Cora Max wiederzuverwenden.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -56,6 +56,8 @@ Die Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat
 
 **Steckdosen & Füttern** im Editor wählt, welche Steckdosen und Fütterungszyklen in **Steuerung** erscheinen, der Schublade, die du unten auf dem Dashboard nach oben wischst. Kacheln fügt es nicht hinzu. Wählst du keine aus, listet Steuerung alle auf. Um eine Steckdose auf das Raster selbst zu legen, füg eine Kachel **Steckdose** hinzu. Mehr dazu unter [Steckdosen und Steuerung](/help/max-controls).
 
+Entfernst du ein Gerät aus einem Becken, verschwinden seine Kacheln von selbst vom Dashboard, auf deinem Handy und auf jedem Cora Max dieses Beckens. Eine Kachel, deren Gerät weg ist, sagt **Dieses Gerät ist nicht mehr in diesem Becken** und öffnet nichts.
+
 ## Vorlagen {#templates}
 
 **Vorlagen** steht oben im Editor, neben **Meine Dashboards** und **Mit KI gestalten**. Es ist in jedem Abo offen und nutzt nie KI, funktioniert also auch ohne Teilen von Daten mit der KI.
@@ -66,7 +68,7 @@ Es öffnet **Dashboard-Vorlagen**, ein paar fertige Layouts, gebaut aus dem, was
 - **Ausrüstung**: zuerst eine Kachel pro Gerät, dann Steckdosen und die wichtigsten Wasserwerte
 - **Wasserwerte**: Diagramme und Messwerte zuerst, Geräte und Steckdosen zuletzt
 
-Jede zeigt eine Vorschau und wie viele Kacheln sie auf welchem Raster hat. Tippe auf **Verwenden**. Cora fragt zuerst **Dashboard ersetzen?** Tippe auf **Aktuelles zuerst als Preset sichern**, wenn du dein jetziges Layout behalten willst, oder auf **Ersetzen**. Gespeichert wird erst, wenn du auf **Speichern** drückst.
+Jede zeigt eine Vorschau und wie viele Kacheln sie auf welchem Raster hat. Tippe auf **Verwenden**. Cora fragt zuerst **Dashboard ersetzen?** Tippe auf **Aktuelles zuerst sichern**, wenn du dein jetziges Layout behalten willst, oder auf **Ersetzen**. Gespeichert wird erst, wenn du auf **Speichern** drückst.
 
 ## Mit KI gestalten {#design-with-ai}
 

@@ -92,7 +92,7 @@
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a></li>
 <li><a href="/tr/help/mobile-probes">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
 </ul></details>
@@ -200,7 +200,7 @@
 <p>Neptune™ DŌS ya da Red Sea™ ReefDose gibi bağlı bir dozaj pompanız varsa kafaları, her kafada ne kaldığı ve ne dozladığı dahil kendi ölçümleriyle görünür. Onları nasıl çalıştırıp dolduracağınız <a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a> sayfasında, düşük kap ve kaçırılan doz uyarıları da <a href="/tr/help/mobile-device-control#doser-alerts">Dozaj pompası uyarıları</a> bölümünde anlatılır.</p>
 <p>Bir otomasyon da bir DŌS kafasından dozaj yapabilir. Bu, kafa başına günde 10 mL ile sınırlıdır. <a href="/tr/help/mobile-automation#actions">Otomasyonlar ve sahneler</a> sayfasına bakın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-journal"><span>Önceki</span><b>Günlük</b></a><a class="pn-n" href="/tr/help/mobile-maintenance"><span>Sonraki</span><b>Bakım</b></a></nav>
-      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

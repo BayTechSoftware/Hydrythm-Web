@@ -23,7 +23,7 @@ Cora Max pokazuje **najwyżej cztery akwaria**, a Reef Room daje każdemu tyle s
 | 3 | Trzy w rzędzie |
 | 4 | Dwa na dwa |
 
-Przy jednym akwarium Cora Max otwiera się na pulpicie tego akwarium. Ikona siatki nadal prowadzi do Reef Room.
+Przy jednym akwarium Cora Max otwiera się na panelu tego akwarium. Ikona siatki nadal prowadzi do Reef Room.
 
 :::note Cztery akwaria to limit
 Do jednego Cora Max możesz przypisać najwyżej cztery akwaria, przy parowaniu albo później w telefonie w **Urządzenia → Twój Cora Max**. Gdy spróbujesz dodać piąte, zobaczysz prośbę o usunięcie najpierw jednego z nich. Jeśli masz więcej akwariów, użyj drugiego Cora Max. Każdy ma własny zestaw. Kroki opisuje [Konfiguracja Cora Max](/help/max-setup#changing-which-tanks-it-shows).
@@ -46,7 +46,7 @@ Pod kafelkami pasek pokazuje po kolei dzisiejsze spostrzeżenia i najważniejsz�
 ## Przechodzenie między akwariami {#moving-between-tanks}
 
 - **Dotknij kafelka** albo **Otwórz panel**, żeby przejść do tego akwarium.
-- **Przesuń palcem w bok** na pulpicie, żeby przechodzić między akwariami i wrócić do Reef Room.
+- **Przesuń palcem w bok** na panelu, żeby przechodzić między akwariami i wrócić do Reef Room.
 - **Ikona siatki** wraca do Reef Room z każdej strony akwarium. W samym Reef Room jej nie zobaczysz.
 
-Każde akwarium ma własny układ pulpitu, więc ekran zmienia się całkowicie, gdy przechodzisz między nimi. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing).
+Każde akwarium ma własny układ panelu, więc ekran zmienia się całkowicie, gdy przechodzisz między nimi. Więcej w [Edytowaniu panelu Cora Max](/help/max-dashboard-editing).

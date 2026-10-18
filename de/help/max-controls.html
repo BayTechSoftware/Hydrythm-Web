@@ -182,7 +182,7 @@
 <h2 id="switching-from-the-dashboard">Auf dem Dashboard schalten</h2>
 <p>Steckdosen-Kacheln zeigen die drei Zustände und heben den aktuellen hervor. Tippe auf den, den du willst.</p>
 <p>Manche Steckdosen haben ein <strong>Vorhängeschloss</strong>. Es bedeutet, dass die Steckdose dich vor einer Änderung um Bestätigung bittet, damit ein versehentliches Tippen nichts Wichtiges schaltet. Wenn du darauf tippst, zeigt ein Dialog die Steckdose, ihren aktuellen Zustand, die Übersteuerung, die du gleich setzt, und was das mit dem Becken machen kann. Es gibt keine Sperre, die du anderswo ausschalten müsstest.</p>
-<p>Standardmäßig haben Heizer, Kühler, Rückförderpumpen, Nachfüllanlage (ATO), Futterautomaten und jede Steckdose, die Cora nicht einordnen kann, das Vorhängeschloss. Licht, Abschäumer, Strömungspumpen, Dosierpumpen, Reaktoren, UV und Lüfter schalten mit einem Tippen.</p>
+<p>Standardmäßig haben Heizer, Kühler, Rückförderpumpen, Nachfüllanlage (ATO), Futterautomaten und jede Steckdose, die Cora nicht einordnen kann, das Vorhängeschloss. Leuchten, Abschäumer, Strömungspumpen, Dosierpumpen, Reaktoren, UV und Lüfter schalten mit einem Tippen.</p>
 <h2 id="the-controls-drawer">Die Schublade Steckdosen &amp; Füttern</h2>
 <p>Du siehst sie nur bei einem Becken mit Neptune™ Apex. Tippe auf die kleine Beschriftung <strong>Steckdosen &amp; Füttern</strong> unten auf dem Dashboard oder wisch irgendwo auf dem Dashboard nach oben. Das öffnet <strong>Steuerung</strong>, mit <strong>FÜTTERN</strong> oben und <strong>STECKDOSEN</strong> darunter.</p>
 <figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Die Schublade Steuerung"><img src="/help/img/max-controls.webp" alt="Die Schublade Steuerung" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Oben die Fütterungszyklen, darunter die Steckdosen, die für dieses Dashboard ausgewählt sind.</figcaption></figure>
@@ -202,7 +202,7 @@
 <p>Jede Anfrage wird protokolliert, mit dem, was sie ausgelöst hat, und wie sie ausgegangen ist, egal ob sie aus Cora Mobile, von einem Cora Max, per Sprache, vom Assistenten oder von einer Automation kam. Auf Cora Max tippst du in der oberen Leiste auf den Beckennamen und wählst <strong>Aktivität</strong>. Auf dem Handy findest du es unter <strong>Einstellungen → Aktivität</strong>. Mehr dazu unter <a href="/de/help/max-activity">Aktivität auf Cora Max</a>.</p>
 <p>Hat sich etwas geändert und du weißt nicht, warum, schau zuerst dort nach.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-dashboard-editing"><span>Zurück</span><b>Das Cora Max-Dashboard bearbeiten</b></a><a class="pn-n" href="/de/help/max-device-control"><span>Weiter</span><b>Ausrüstung mit Cora Max steuern</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

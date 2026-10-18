@@ -2,7 +2,7 @@
 title: Pytania do Cory
 description: Korzystaj z Cora Assistant, pisząc albo mówiąc, i sprawdź, co widzi, co może dla Ciebie zrobić, jak działa przełącznik udostępniania danych i pamięć.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -63,11 +63,22 @@ Sterowanie sprzętem działa poza domem tylko wtedy, gdy Cora Max przy akwarium 
 Wszystko ważne sprawdzaj własnymi testami. Do dużych zmian podchodź tak jak do rady od kogokolwiek innego i zweryfikuj je, zanim zaczniesz działać. To samo mówi linijka pod polem wiadomości.
 :::
 
+## Odpowiedzi z Pomocy {#help-answers}
+
+Zapytaj, jak coś zrobić, na przykład *„Jak dodać pompę dozującą?”*, a Cora Assistant odpowie na podstawie tego przewodnika Pomocy, w Twoim języku, pisemnie lub głosowo. Pytanie o aplikację liczy się jak zwykła wiadomość.
+
+Pod odpowiedzią możesz zobaczyć do dwóch sekcji Pomocy, każda z maksymalnie dwoma przyciskami:
+
+- **Otwórz ten ekran** przenosi Cię prosto na ekran, którego dotyczy odpowiedź. Nie ma go, gdy już tam jesteś. Jeśli ekran jest jedną z głównych kart, rozmowa głosowa kończy się wcześniej.
+- **Przeczytaj w Pomocy** otwiera tę stronę Pomocy w przeglądarce wbudowanej w aplikację na telefonie.
+
+Przyciski pojawiają się tylko wtedy, gdy jest ekran lub strona do otwarcia.
+
 ## Zgoda
 
 ![Zgoda Asystenta](img/mobile-assistant-consent.webp "Dwie osobne zgody i pamięć, którą prowadzi Cora.")
 
-Gdy pierwszy raz otworzysz pulpit, Cora zapyta **Włączyć spersonalizowane wskazówki rafowe?** **Włącz** włącza udostępnianie danych. **Nie teraz** zostawia je wyłączone. Jeśli korzystasz z prowadzonej konfiguracji, jej ostatnia strona zadaje to samo pytanie.
+Gdy pierwszy raz otworzysz panel, Cora zapyta **Włączyć spersonalizowane wskazówki rafowe?** **Włącz** włącza udostępnianie danych. **Nie teraz** zostawia je wyłączone. Jeśli korzystasz z prowadzonej konfiguracji, jej ostatnia strona zadaje to samo pytanie.
 
 Możesz to zmienić w każdej chwili w **Ustawienia → Cora Assistant**, gdzie są dwa osobne przełączniki.
 
@@ -83,7 +94,7 @@ Możesz to zmienić w każdej chwili w **Ustawienia → Cora Assistant**, gdzie 
 - Wyniki z laboratorium, które przysyła Ci laboratorium albo e-mail
 - Raporty zdrowia
 - Dyktowanie wpisów w dzienniku i **Analizuj** w dzienniku
-- **Zaprojektuj z AI** dla pulpitów
+- **Zaprojektuj z AI** dla paneli
 
 Gdy jest wyłączony, funkcja najpierw prosi o Twoją zgodę. Podsumowania Reef Buddy nadal przychodzą, ale ze zwykłym stałym tekstem i bez obserwacji napisanej przez AI. Na Cora Max głos pokazuje *Głos wymaga Twojej zgody*, dopóki nie włączysz przełącznika w Cora Mobile.
 
@@ -107,7 +118,7 @@ Cora podaje wiek odczytów, z których korzysta. Jeśli ostatni odczyt alkaliczn
 
 ![Ustawienia, Cora Assistant w Cora Mobile](img/mobile-assistant-settings.webp "Dwa przełączniki danych, Pamięć AI, Urządzenie odpowiadające i Udostępniaj laboratoriom analizę Cora.")
 
-Cora pamięta różne rzeczy o akwarium z rozmowy na rozmowę. Na przykład to, że dozujesz metodą dwuskładnikową, że akwarium z fragami ma wspólny sump albo że próbujesz podnieść poziom składników odżywczych. Nie musisz za każdym razem tłumaczyć swojego systemu.
+Cora pamięta różne rzeczy o akwarium z rozmowy na rozmowę. Na przykład to, że dozujesz metodą dwuskładnikową, że akwarium z fragami ma wspólny sump albo że próbujesz podnieść poziom biogenów. Nie musisz za każdym razem tłumaczyć swojego systemu.
 
 **Ustawienia → Cora Assistant → Pamięć AI** pokazuje, co Cora zapisała o Twoim akwarium, i pozwala to zresetować. Każde akwarium ma własną pamięć, więc najpierw wybierz akwarium. Ten wiersz widać tylko wtedy, gdy **Pozwól Cora Assistant korzystać z zapisanych danych akwarium** jest włączone.
 

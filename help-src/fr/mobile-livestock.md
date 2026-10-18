@@ -54,7 +54,7 @@ Notez la date même si vous ne connaissez pas la cause. C’est la date que vous
 
 ## La population et le reste de Cora {#livestock-and-cora}
 
-Cora évalue vos paramètres en partie selon la population de l’aquarium. Un bac SPS très peuplé et un bac de coraux mous peu peuplé ne sont pas jugés de la même façon.
+Cora évalue vos paramètres en partie selon la population de l’aquarium. Un aquarium SPS très peuplé et un aquarium de coraux mous peu peuplé ne sont pas jugés de la même façon.
 
 Vous pouvez aussi poser des questions à ce sujet. Cora Assistant répond à des questions comme *« Quand ai-je ajouté le corail marteau ? »* ou *« Qu’ai-je perdu cette année ? »* à partir de cette liste.
 

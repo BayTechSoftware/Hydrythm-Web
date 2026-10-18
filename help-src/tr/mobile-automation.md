@@ -2,7 +2,7 @@
 title: Otomasyonlar ve sahneler
 description: Bir ölçüm, bir uyarı, bir saat ya da çevrimdışı olan bir cihaz için Cora'nın kendi başına harekete geçmesini sağlayın ve eylemleri tek dokunuşla çalıştırdığınız sahnelerde toplayın.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -124,3 +124,5 @@ Her kuralın bir etkinleştirme anahtarı vardır. Bir kuralı kapatmak ayarlar�
 ## Bir kuralın ne yaptığını görme {#seeing-what-a-rule-did}
 
 Bir kuralın yaptığı her eylem, nedeni olarak **Otomasyon kuralı** ile kaydedilir. Onu [Etkinlik](/help/mobile-activity) içinde bulursunuz.
+
+Başarısız olan ya da bekleyecek olan bir adım beklemede kalmaz. Hemen süresi dolar, çalıştırma başarısız olarak kaydedilir ve otomasyonun adını, adımı ve nedenini söyleyen bir bildirim alırsınız. Örneğin cihazı çevrimdışıysa, onu yürütecek bir Cora Max yoksa, cihaz reddederse ya da yanıt vermezse veya bir ısıtıcı ya da soğutucu az önce açılıp kapatıldıysa adım başarısız olur. Kaldırılmış bir akvaryumdaki bir adım için bildirim gelmez.

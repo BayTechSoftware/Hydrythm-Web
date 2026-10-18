@@ -2,7 +2,7 @@
 title: Warnungen und Schwellenwerte
 description: Den gesunden Bereich für jeden Messwert festlegen, bestimmen, wie oft eine Warnung dich benachrichtigen darf, und herausfinden, warum ein Gerät "sich nicht mehr meldet".
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -98,9 +98,9 @@ Wie lange Cora wartet, hängt vom Gerät ab:
 |---|---|
 | Neptune Apex | Etwa 30 Minuten ohne Update |
 | Red Sea ReefBeat | Etwa 30 Minuten |
-| AquaWiz | Etwa 3 Stunden, weil er seltener meldet |
+| AquaWiz | Etwa 25 Stunden, weil AquaWiz Cora nur alle 12 Stunden die Cloud abfragen lässt |
 | Jecod-Pumpen | Drei verpasste Messungen in Folge, im Messintervall der Pumpe (90 Minuten beim Standard von 30) |
-| Zigbee-Steckdose | Meldet sich 30 Minuten nach einem Neustart des Hubs noch nicht zurück. Gib ihr mit **Umbenennen** einen Namen, damit die Meldung sie nennt |
+| Zigbee-Steckdose | Meldet sich 30 Minuten nach einem Neustart des Gateways noch nicht zurück. Gib ihr mit **Umbenennen** einen Namen, damit die Meldung sie nennt |
 
 Was du prüfst, hängt davon ab, wie Cora das Gerät liest.
 

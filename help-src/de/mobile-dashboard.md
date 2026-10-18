@@ -2,7 +2,7 @@
 title: Dein Dashboard lesen
 description: So liest du das Dashboard von Cora, von Widgets, Alter der Messwerte und Quellen bis zu dem, was die Farben bedeuten, und den Karten, die kommen und gehen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Your dashboard
 ---
@@ -82,9 +82,9 @@ Manche Karten erscheinen nur, wenn es etwas zu sagen gibt. Die meisten sitzen zw
 | *Deine Messwerte waren nicht erreichbar: Zeigt zwischengespeicherte Daten.* | Cora kann die neuesten Messwerte nicht laden, oft ohne Verbindung | **Erneut versuchen** |
 | **Laborergebnis von {lab} wartet auf dich.** | Ein Labor hat ein Ergebnis geschickt, und Cora muss wissen, für welches Becken es ist | **Becken wählen**. Siehe [ICP und Gesundheitsberichte](/help/mobile-icp-health) |
 | Profilhinweis (**Schalte klügere Einblicke frei**) | Das Beckenprofil ist zu weniger als 80 % ausgefüllt | Die Karte, um mit dem Profil weiterzumachen |
-| **Cora Pro Testphase: noch 9 Tage** | Die letzten Tage deiner Testphase | Die Karte oder **Pro behalten**. Siehe [Pläne und Abos](/help/mobile-plans) |
+| **Cora Advanced Testphase: noch 9 Tage** | Die letzten Tage deiner Testphase | Die Karte oder **Advanced behalten**. Siehe [Pläne und Abos](/help/mobile-plans) |
 | **Reef Buddy** | Ein Briefing ist fertig | Die Karte |
-| **Wie fütterst du normalerweise?** | Du hast keinen Fütterungsplan festgelegt | **Routine einrichten** |
+| **Wie fütterst du normalerweise?** | Du hast keine Fütterungsroutine festgelegt | **Routine einrichten** |
 | *Die Red Sea-Messwerte werden nicht mehr aktualisiert.* | Nichts fragt die Red Sea-Geräte dieses Beckens ab | Siehe [Warnungen und Schwellenwerte](/help/mobile-alerts) |
 | **Trage deinen ersten Wassertest ein** | Keine Messwerte und keine verknüpfte Ausrüstung, unter den Widgets | Die Karte. Siehe [Cora Mobile einrichten](/help/mobile-setup#the-first-test-card) |
 

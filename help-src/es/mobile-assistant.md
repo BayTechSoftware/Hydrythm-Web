@@ -2,7 +2,7 @@
 title: Preguntar a Cora
 description: Usa Cora Assistant escribiendo o hablando, qué puede ver, qué puede hacer por ti, el interruptor de uso compartido de datos y la memoria.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -62,6 +62,17 @@ El control de equipos funciona fuera de casa solo cuando un Cora Max del acuario
 :::warning Cora aconseja. Tú decides
 Comprueba lo importante con tus propias pruebas. Trata los cambios grandes como tratarías el consejo de cualquier otra persona, y revísalos con sentido común antes de actuar. La línea bajo el cuadro de mensajes dice lo mismo.
 :::
+
+## Respuestas de la Ayuda {#help-answers}
+
+Pregunta cómo hacer algo, por ejemplo *"¿Cómo añado una bomba dosificadora?"*, y Cora Assistant responde desde esta Ayuda, en tu idioma, por escrito o por voz. Una pregunta sobre la app cuenta como un mensaje normal.
+
+Debajo de la respuesta puedes ver hasta dos secciones de la Ayuda, cada una con hasta dos botones:
+
+- **Abrir esta pantalla** te lleva directo a la pantalla de la que habla la respuesta. No aparece si ya estás en ella. Si la pantalla es una de las pestañas principales, una conversación por voz termina antes.
+- **Leer en la Ayuda** abre esa página de la Ayuda en el navegador integrado del teléfono.
+
+Los botones solo aparecen si hay una pantalla o una página que abrir.
 
 ## Consentimiento {#consent}
 

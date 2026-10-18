@@ -51,7 +51,7 @@ Profilde bölümler şöyle listelenir. Açmak için birine dokunun. Her birinin
 | **Canlılar** | Akvaryumda neler olduğu ve ne kadar kalabalık olduğu |
 | **Sıcaklık Kontrolü** | Isıtma ve soğutma ekipmanı |
 | **Aydınlatma** | Armatürler ve aydınlatma süresi |
-| **Akış ve Filtrasyon** | Pompalar, skimmer, medya ve kontrolcünüzün markası ve modeli |
+| **Akış ve Filtrasyon** | Pompalar, skimmer, medya ve kontrolörünüzün markası ve modeli |
 | **Parametre Kaynakları** | Her parametrenin hangi kaynaktan okunduğu |
 | **Zararlı ve Tedavi** | Uğraştığınız zararlılar, durumları ve neler denediğiniz |
 

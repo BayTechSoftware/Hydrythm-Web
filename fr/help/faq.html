@@ -210,7 +210,7 @@
 <h3 id="why-local-network-and-bluetooth">Pourquoi Cora Mobile demande-t-il l’accès au réseau local et au Bluetooth ?</h3>
 <p>Il a besoin de l’accès au réseau local pour trouver l’équipement Wi-Fi et joindre un Cora Max sur votre réseau domestique, et du Bluetooth pour associer un Cora Max et l’équipement qui utilise le Bluetooth. Sans eux, il ne peut pas trouver l’appareil. Plus de détails dans <a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a>.</p>
 <h3 id="can-i-check-on-my-tank-away">Puis-je surveiller mon aquarium quand je ne suis pas chez moi ?</h3>
-<p>Oui. Avec un Cora Max à l’aquarium, vos mesures restent à jour où que vous soyez. Sans lui, un appareil Neptune Apex, Red Sea ou Jecod affiche les dernières mesures que votre téléphone a enregistrées pendant qu’il était sur le même Wi-Fi. Un AquaWiz™ est lu par le cloud de son fabricant, il continue donc de se mettre à jour dans tous les cas. Les mesures que vous notez à la main et l’historique de l’aquarium sont toujours là.</p>
+<p>Oui. Avec un Cora Max à l’aquarium, vos mesures restent à jour où que vous soyez. Sans lui, un appareil Neptune Apex, Red Sea ou Jecod affiche les dernières mesures que votre téléphone a enregistrées pendant qu’il était sur le même Wi-Fi. Un AquaWiz™ est lu par le cloud de son fabricant, il continue donc de se mettre à jour dans tous les cas, mais depuis ce cloud seulement toutes les 12 heures. Les mesures que vous notez à la main et l’historique de l’aquarium sont toujours là.</p>
 <h3 id="can-i-control-equipment-away">Puis-je commander l’équipement quand je suis loin de chez moi ?</h3>
 <p>Oui, si un Cora Max à l’aquarium est en ligne et peut joindre cet équipement. Votre commande part vers Cora Cloud et le Cora Max l’exécute. Sans Cora Max, vous ne pouvez commander un appareil Neptune Apex, Red Sea ou Jecod que tant que votre téléphone est sur son réseau. Plus de détails dans <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a>.</p>
 <h3 id="can-two-people-use-the-same-tank">Deux personnes peuvent-elles utiliser le même aquarium ?</h3>
@@ -264,8 +264,8 @@
 <h2 id="compte-forfaits-et-vie-privee">Compte, forfaits et vie privée</h2>
 <h3 id="whats-free">Qu’est-ce qui est gratuit, et qu’est-ce qui demande un forfait ?</h3>
 <p>Voir <a href="/fr/help/mobile-plans">Forfaits et abonnements</a> pour ce que comprend chaque forfait.</p>
-<h3 id="max-plan-or-cora-max">Le forfait Max est-il la même chose que Cora Max ?</h3>
-<p>Non. Le forfait <strong>Max</strong> est un abonnement dans Cora Mobile. Cora Max est l’écran mural. Vous n’avez pas besoin de l’un pour avoir l’autre.</p>
+<h3 id="max-plan-or-cora-max">Le forfait Expert est-il la même chose que Cora Max ?</h3>
+<p>Non. Le forfait <strong>Expert</strong> est un abonnement dans Cora Mobile. Cora Max est l’écran mural. Vous n’avez pas besoin de l’un pour avoir l’autre.</p>
 <h3 id="history-when-plan-ends">Que devient l’historique de mon aquarium si mon essai ou mon forfait se termine ?</h3>
 <p>Rien n’est supprimé. Vos aquariums, vos appareils et votre historique restent sur votre compte quel que soit votre forfait. Seules les fonctions que vous pouvez utiliser changent.</p>
 <h3 id="does-deleting-cancel-subscription">Supprimer mon compte Cora résilie-t-il mon abonnement Apple ou Google ?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Vous ne trouvez toujours pas votre réponse ? <a href="/fr/help/troubleshooting">Résolution de problèmes</a> passe en revue les solutions symptôme par symptôme, ou écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/equipment-by-brand"><span>Précédent</span><b>L’équipement par marque</b></a><a class="pn-n" href="/fr/help/glossary"><span>Suivant</span><b>Glossaire</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

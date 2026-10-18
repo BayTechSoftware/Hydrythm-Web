@@ -188,7 +188,7 @@
 <p>Manche Einträge werden für dich geschrieben. Eine <a href="/de/help/mobile-maintenance">Wartungsaufgabe</a> abzuschließen fügt einen hinzu, und <strong>Die verabreichte Dosis protokollieren</strong> im <a href="/de/help/mobile-dosing#the-dose-calculator">Dosierrechner</a> auch.</p>
 <h2 id="feeding">Fütterung</h2>
 <p>Sag Cora einmal, wie du normalerweise fütterst, und trag dann nur die Ausnahmen ein.</p>
-<p>Um deinen Plan festzulegen, öffne <strong>Becken bearbeiten</strong> (der Stift oben auf dem Dashboard) und tippe auf <strong>Fütterungsplan</strong>. Eine Karte auf dem Dashboard, <strong>Wie fütterst du normalerweise?</strong>, bringt dich mit <strong>Routine einrichten</strong> dorthin, bis du es erledigt hast. Gib für jedes Futter das Futter, eine <strong>Menge</strong>, eine <strong>Einheit</strong> (Würfel, Prise, g, ml, Tropfen, Messlöffel oder Blatt) und <strong>Mal pro Tag</strong> an. Tippe auf <strong>Futter hinzufügen</strong> für mehr. Schalte <strong>Ich nutze einen Futterautomaten</strong> ein, wenn einer für dich füttert, dann zählen seine Fütterungen zum Plan. Unter <strong>Portionsgewichte (optional)</strong> kannst du angeben, was ein Würfel oder eine Prise wiegt, damit Cora Fütterungen über die Zeit in Gramm vergleichen kann.</p>
+<p>Um deine Routine festzulegen, öffne <strong>Becken bearbeiten</strong> (der Stift oben auf dem Dashboard) und tippe auf <strong>Fütterungsroutine</strong>. Eine Karte auf dem Dashboard, <strong>Wie fütterst du normalerweise?</strong>, bringt dich mit <strong>Routine einrichten</strong> dorthin, bis du es erledigt hast. Gib für jedes Futter das Futter, eine <strong>Menge</strong>, eine <strong>Einheit</strong> (Würfel, Prise, g, ml, Tropfen, Messlöffel oder Blatt) und <strong>Mal pro Tag</strong> an. Tippe auf <strong>Futter hinzufügen</strong> für mehr. Schalte <strong>Ich nutze einen Futterautomaten</strong> ein, wenn einer für dich füttert, dann zählen seine Fütterungen zum Plan. Unter <strong>Portionsgewichte (optional)</strong> kannst du angeben, was ein Würfel oder eine Prise wiegt, damit Cora Fütterungen über die Zeit in Gramm vergleichen kann.</p>
 <p>Weicht ein Tag vom Plan ab, tippe in der Reihe von Tasten unter den Widgets auf <strong>Fütterung</strong> oder auf das Fütterungssymbol oben im Tagebuch. Das Fenster <strong>Fütterungs-Ausnahme erfassen</strong> hat drei Möglichkeiten: <strong>Extra gefüttert</strong>, <strong>Fütterung ausgelassen</strong> und <strong>Futter oder Menge geändert</strong>. Du kannst eine <strong>Menge (optional)</strong> hinzufügen. Jede ist ein normaler Tagebucheintrag, und Reef Buddy nutzt sie, damit ein stabiles Becken nicht für einen Snack verantwortlich gemacht wird, den du ihm gegeben hast.</p>
 <p>Andere Wege, wie eine Fütterung eingetragen wird:</p>
 <ul><li>Bei einem Neptune™ Apex wird ein Fütterungszyklus Feed A bis D festgehalten, wenn das Cora Max, das deinen Apex abfragt, ihn starten sieht. Das gilt für einen Zyklus, den du am Apex, in Apex Fusion oder über den eigenen Zeitplan des Apex startest.</li><li>Sag Cora Assistant per Sprache oder im Chat etwas wie <em>"Notier, dass ich Mysis gefüttert habe."</em> Cora schreibt den Eintrag für dich.</li></ul>
@@ -203,9 +203,9 @@
 <p>Cora Assistant liest das Tagebuch auch. Fragen wie <em>"Wann habe ich zuletzt Wasser gewechselt?"</em> beantwortet Cora aus deinen Einträgen und deinen Messwerten.</p>
 <h2 id="on-cora-max">Auf Cora Max</h2>
 <p>Du kannst Tagebucheinträge auch auf Cora Max hinzufügen, was praktisch ist, wenn du am Becken stehst. Öffne das Tagebuch über das Beckenmenü oder diktiere einen Eintrag.</p>
-<p>Der Tagebuch-Bildschirm auf Cora Max hat außerdem die Tasten <strong>Extra gefüttert</strong> und <strong>Fütterung ausgelassen</strong>, mit einer Zeile, die deinen Fütterungsplan zeigt. Hast du keinen festgelegt, steht in der Zeile <em>Lege deinen Fütterungsplan in der Handy-App fest</em>, weil du den Plan in Cora Mobile festlegst. Mehr dazu unter <a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a> auf Cora Max.</p>
+<p>Der Tagebuch-Bildschirm auf Cora Max hat außerdem die Tasten <strong>Extra gefüttert</strong> und <strong>Fütterung ausgelassen</strong>, mit einer Zeile, die deine Fütterungsroutine zeigt. Hast du keine festgelegt, steht in der Zeile <em>Lege deine Fütterungsroutine in der Handy-App fest</em>, weil du die Routine in Cora Mobile festlegst. Mehr dazu unter <a href="/de/help/max-records">Tagebuch, Besatz und Wartung</a> auf Cora Max.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-vacation"><span>Zurück</span><b>Verreisen: ein Plan für deine Urlaubsvertretung</b></a><a class="pn-n" href="/de/help/mobile-dosing"><span>Weiter</span><b>Dosierprodukte und Dosierrechner</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -596,7 +596,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

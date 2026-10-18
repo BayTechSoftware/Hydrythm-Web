@@ -22,7 +22,7 @@ Toca **Nueva entrada**. El formulario tiene:
 - **CATEGORÍA**: Observación, Preocupación, Emergencia, Cambio o Hito. Una preocupación o una emergencia también lleva una **GRAVEDAD** (Info, Advertencia o Crítico)
 - **FECHA Y HORA**, que empieza en este momento. Cámbiala si lo apuntas más tarde
 - **ETIQUETAS**, para volver a encontrar las entradas
-- **FOTOS**, con **Tomar foto** o **Elegir de la biblioteca**. Un coral que está cogiendo color, una bomba que hace algo raro o el resultado de un kit de pruebas
+- **FOTOS**, con **Tomar foto** o **Elegir de la biblioteca**. Un coral que está tomando color, una bomba que hace algo raro o el resultado de un kit de pruebas
 - **Adjuntar parámetros del agua**, que guarda con la entrada las lecturas actuales del acuario. Es lo que hace útil una entrada meses después
 
 :::note Entradas breves
@@ -82,4 +82,4 @@ Cora Assistant también lee el diario. Responde a preguntas como *"¿cuándo cam
 
 También puedes añadir entradas al diario en Cora Max, algo práctico cuando estás de pie junto al acuario. Abre el diario desde el menú del acuario o dicta una entrada.
 
-La pantalla del diario de Cora Max también tiene los botones **Comida extra** y **Comida omitida**, con una línea que muestra tu rutina de alimentación. Si no has configurado ninguna, la línea dice *Configura tu rutina de alimentación en la app del móvil*, porque la rutina se configura en Cora Mobile. Más información en [Diario, fauna y mantenimiento](/help/max-records) en Cora Max.
+La pantalla del diario de Cora Max también tiene los botones **Comida extra** y **Comida omitida**, con una línea que muestra tu rutina de alimentación. Si no has configurado ninguna, la línea dice *Configura tu rutina de alimentación en la app del teléfono*, porque la rutina se configura en Cora Mobile. Más información en [Diario, fauna y mantenimiento](/help/max-records) en Cora Max.

@@ -2,7 +2,7 @@
 title: Cora'ya sorun
 description: Cora Assistant'ı yazarak ya da konuşarak kullanın; neleri görebildiğini, sizin için neler yapabildiğini, veri paylaşım anahtarını ve hafızayı öğrenin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -63,6 +63,17 @@ Ekipman kontrolü evden uzaktayken yalnızca akvaryumdaki bir Cora Max ekipmana 
 Önemli olan her şeyi kendi testlerinizle kontrol edin. Büyük değişikliklere başka birinden gelen bir tavsiyeye nasıl yaklaşıyorsanız öyle yaklaşın ve harekete geçmeden önce mantıklı olup olmadığını kontrol edin. Mesaj kutusunun altındaki satır da aynı şeyi söyler.
 :::
 
+## Yardım yanıtları {#help-answers}
+
+Bir şeyin nasıl yapıldığını sorun, örneğin *"Dozaj pompasını nasıl eklerim?"*, Cora Assistant da bu Yardım rehberinden, sizin dilinizde, yazılı ya da sesli yanıt verir. Uygulamayla ilgili bir soru normal bir mesaj sayılır.
+
+Yanıtın altında en fazla iki Yardım bölümü görebilirsiniz, her birinde en fazla iki düğme olur:
+
+- **Bu ekranı aç** sizi doğrudan yanıtın anlattığı ekrana götürür. Zaten oradaysanız görünmez. Ekran ana sekmelerden biriyse sesli konuşma önce biter.
+- **Yardım'da oku** o Yardım sayfasını telefonunuzdaki uygulama içi tarayıcıda açar.
+
+Düğmeler yalnızca açılacak bir ekran ya da sayfa varsa görünür.
+
 ## İzin
 
 ![Asistan izni](img/mobile-assistant-consent.webp "İki ayrı izin ve Cora'nın tuttuğu hafıza.")
@@ -95,7 +106,7 @@ Cora Assistant hesabınızın dilini kullanır. Bu, tüm ev için **Ayarlar → 
 
 Mesaj kutusunun üstündeki **Akvaryumunuzun canlı verisi kullanılıyor** çipi kapsamda neyin olduğunu gösterir. Cora'nın neyi okuduğunu görmek için ona dokunun: güncel değerler ve her birinin ne kadar eski olduğu, yakın geçmiş, günlüğünüz ve ICP sonuçlarınız.
 
-Kontrolcünüze ulaşılamıyorsa çipte **Canlı kontrolör çevrimdışı: kaydedilmiş veri kullanılıyor** yazar. Cora bu durumda elindeki son ölçümlerle çalışır.
+Kontrolörünüze ulaşılamıyorsa çipte **Canlı kontrolör çevrimdışı: kaydedilmiş veri kullanılıyor** yazar. Cora bu durumda elindeki son ölçümlerle çalışır.
 
 Cora Assistant bir parametrenin yaklaşık altı aylık geçmişine bakabilir. Bu yüzden *"Magnezyumumun son altı ayını en son ICP'mle karşılaştır."* diye sorabilirsiniz.
 

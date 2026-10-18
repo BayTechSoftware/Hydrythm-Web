@@ -200,7 +200,7 @@
 <ul><li><strong>Configurer mon aquarium, guidé</strong> vous guide dans le reste du profil, une section à la fois. Voir <a href="/fr/help/mobile-tank-profile#guided-setup">Configuration guidée</a>. Elle se termine par <strong>Ajouter des appareils</strong>, qui vous mène à l’ajout de votre équipement.</li><li><strong>Connectez votre matériel</strong> associe un Cora Max. Pour un Neptune™ Apex, un Red Sea™ ou toute autre marque, utilisez plutôt <strong>Appareils → Ajouter un appareil</strong> (voir plus bas).</li><li><strong>Enregistrez votre premier test</strong> ouvre l’étape du premier test décrite dans <a href="/fr/help/mobile-setup#the-first-test-card">La carte du premier test</a>.</li><li><strong>Posez une question à l’assistant</strong> ouvre Cora Assistant avec une première question prête à envoyer.</li></ul>
 <p>Quand vous avez fini, touchez <strong>Aller à mon tableau de bord</strong>, ou <strong>Je ferai cela plus tard</strong>.</p>
 <h2 id="your-first-30-days">Vos 30 premiers jours</h2>
-<p>Sur un nouveau compte gratuit, <strong>Aller à mon tableau de bord</strong> affiche d’abord <strong>Vos 30 premiers jours sont offerts</strong>. Votre essai Pro de 30 jours a commencé à la création de votre compte, et aucune carte bancaire n’est nécessaire. Touchez <strong>Commencer à explorer</strong> pour continuer, ou <strong>Voir les forfaits</strong> pour regarder les forfaits payants. Plus de détails dans <a href="/fr/help/mobile-plans#the-trial">Forfaits et abonnements</a>.</p>
+<p>Sur un nouveau compte gratuit, <strong>Aller à mon tableau de bord</strong> affiche d’abord <strong>Vos 30 premiers jours sont offerts</strong>. Votre essai Advanced de 30 jours a commencé à la création de votre compte, et aucune carte bancaire n’est nécessaire. Touchez <strong>Commencer à explorer</strong> pour continuer, ou <strong>Voir les forfaits</strong> pour regarder les forfaits payants. Plus de détails dans <a href="/fr/help/mobile-plans#the-trial">Forfaits et abonnements</a>.</p>
 <h2 id="your-first-look-at-the-dashboard">Votre premier coup d’œil au tableau de bord</h2>
 <p>Deux choses se passent la première fois que vous ouvrez le tableau de bord.</p>
 <ul><li>Cora demande <strong>Activer les conseils récifaux personnalisés ?</strong> Touchez <strong>Activer</strong> si vous voulez que Cora Assistant utilise les données enregistrées de votre aquarium dans ses réponses. <strong>Pas maintenant</strong> le laisse désactivé. Plus de détails dans <a href="/fr/help/mobile-assistant#consent">Interroger Cora</a>.</li><li>Une courte visite montre les parties principales de l’écran. Voir <a href="/fr/help/mobile-tour#the-first-run-tour">La visite du premier lancement</a>.</li></ul>
@@ -220,7 +220,7 @@
 <p>Vous êtes prêt quand le tableau de bord affiche le nom de votre aquarium en haut et quelques widgets avec des chiffres. Une carte <strong>Reef Buddy</strong> suit une fois que le premier briefing a tourné pendant la nuit.</p>
 <p>Ensuite, consultez <a href="/fr/help/mobile-tour">Se repérer dans Cora Mobile</a>. Pour ajouter un deuxième aquarium, voir <a href="/fr/help/mobile-tanks">Gérer vos aquariums</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-n" href="/fr/help/mobile-tour"><span>Suivant</span><b>Se repérer dans Cora Mobile</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

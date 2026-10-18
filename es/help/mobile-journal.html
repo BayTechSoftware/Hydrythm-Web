@@ -177,7 +177,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: El diario del acuario en Cora Mobile"><img src="/help/img/mobile-journal.webp" alt="El diario del acuario en Cora Mobile" width="620" height="940" loading="lazy" decoding="async"></button><figcaption>Las entradas, de la más nueva a la más antigua, con etiquetas de categoría para filtrarlas.</figcaption></figure>
 <h2 id="adding-an-entry">Escribir una entrada</h2>
 <p>Toca <strong>Nueva entrada</strong>. El formulario tiene:</p>
-<ul><li><strong>TÍTULO</strong> y <strong>DESCRIPCIÓN</strong>, con palabras sencillas</li><li><strong>CATEGORÍA</strong>: Observación, Preocupación, Emergencia, Cambio o Hito. Una preocupación o una emergencia también lleva una <strong>GRAVEDAD</strong> (Info, Advertencia o Crítico)</li><li><strong>FECHA Y HORA</strong>, que empieza en este momento. Cámbiala si lo apuntas más tarde</li><li><strong>ETIQUETAS</strong>, para volver a encontrar las entradas</li><li><strong>FOTOS</strong>, con <strong>Tomar foto</strong> o <strong>Elegir de la biblioteca</strong>. Un coral que está cogiendo color, una bomba que hace algo raro o el resultado de un kit de pruebas</li><li><strong>Adjuntar parámetros del agua</strong>, que guarda con la entrada las lecturas actuales del acuario. Es lo que hace útil una entrada meses después</li></ul>
+<ul><li><strong>TÍTULO</strong> y <strong>DESCRIPCIÓN</strong>, con palabras sencillas</li><li><strong>CATEGORÍA</strong>: Observación, Preocupación, Emergencia, Cambio o Hito. Una preocupación o una emergencia también lleva una <strong>GRAVEDAD</strong> (Info, Advertencia o Crítico)</li><li><strong>FECHA Y HORA</strong>, que empieza en este momento. Cámbiala si lo apuntas más tarde</li><li><strong>ETIQUETAS</strong>, para volver a encontrar las entradas</li><li><strong>FOTOS</strong>, con <strong>Tomar foto</strong> o <strong>Elegir de la biblioteca</strong>. Un coral que está tomando color, una bomba que hace algo raro o el resultado de un kit de pruebas</li><li><strong>Adjuntar parámetros del agua</strong>, que guarda con la entrada las lecturas actuales del acuario. Es lo que hace útil una entrada meses después</li></ul>
 <aside class="cal cal-note"><p class="cal-t">Entradas breves</p><p>Basta con una nota breve. "Cambio de agua de 20 l, 5 ml de alcalinidad extra" lo dice todo. Si puedes, escríbela en el momento.</p></aside>
 <h2 id="dictating">Dictar una entrada</h2>
 <p>El botón redondo de Cora con la etiqueta <strong>Diario</strong>, abajo a la derecha del panel, graba una nota de voz, algo más fácil con las manos mojadas. Tócalo, cuenta lo que pasó (hasta un minuto) y vuelve a tocarlo para parar. Cora convierte lo que dijiste en una o varias entradas del diario y te dice cuántas ha guardado. El mismo botón está en la línea de tiempo del acuario.</p>
@@ -203,9 +203,9 @@
 <p>Cora Assistant también lee el diario. Responde a preguntas como <em>"¿cuándo cambié el agua por última vez?"</em> con tus entradas y tus lecturas.</p>
 <h2 id="on-cora-max">En Cora Max</h2>
 <p>También puedes añadir entradas al diario en Cora Max, algo práctico cuando estás de pie junto al acuario. Abre el diario desde el menú del acuario o dicta una entrada.</p>
-<p>La pantalla del diario de Cora Max también tiene los botones <strong>Comida extra</strong> y <strong>Comida omitida</strong>, con una línea que muestra tu rutina de alimentación. Si no has configurado ninguna, la línea dice <em>Configura tu rutina de alimentación en la app del móvil</em>, porque la rutina se configura en Cora Mobile. Más información en <a href="/es/help/max-records">Diario, fauna y mantenimiento</a> en Cora Max.</p>
+<p>La pantalla del diario de Cora Max también tiene los botones <strong>Comida extra</strong> y <strong>Comida omitida</strong>, con una línea que muestra tu rutina de alimentación. Si no has configurado ninguna, la línea dice <em>Configura tu rutina de alimentación en la app del teléfono</em>, porque la rutina se configura en Cora Mobile. Más información en <a href="/es/help/max-records">Diario, fauna y mantenimiento</a> en Cora Max.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-vacation"><span>Anterior</span><b>Irse de viaje: un plan para quien cuida tu acuario</b></a><a class="pn-n" href="/es/help/mobile-dosing"><span>Siguiente</span><b>Productos de dosificación y la calculadora de dosis</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -596,7 +596,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

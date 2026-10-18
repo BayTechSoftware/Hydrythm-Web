@@ -49,7 +49,7 @@ Tutto il resto succede in Cora Mobile. Un pannello ti guida in cinque passi, mos
 
 5. **Vasche.** In **Assegna vasche**, scegli le vasche che questo Cora Max gestirà, **fino a quattro**.
 
-6. **Fatto.** Il telefono dice che Cora Max è configurato e mostra un **PIN di ripristino**. Tocca il pulsante che apre la dashboard della tua vasca, oppure **Vai a Dispositivi**. Cora Max mostra **Accoppiato**, poi **Apertura dashboard…**.
+6. **Fatto.** Il telefono dice che Cora Max è configurato e mostra un **PIN di ripristino**. Tocca il pulsante che apre la dashboard della tua vasca, oppure **Vai a Dispositivi**. Cora Max mostra **Associato**, poi **Apertura dashboard…**.
 
 :::warning Annota il PIN di ripristino
 Il **PIN di ripristino** ha sei cifre ed è l'unico modo per entrare nel ripristino su quel Cora Max. Per usarlo, tieni cinque dita sull'angolo in alto a destra dello schermo per dieci secondi, poi inserisci il PIN. Il ripristino ti permette di rifare il Wi-Fi, associarlo di nuovo, controllare un aggiornamento o fare il ripristino di fabbrica. Puoi ritrovare il PIN sul telefono in **Dispositivi → il tuo Cora Max → PIN di ripristino**, ma mai su Cora Max stesso.

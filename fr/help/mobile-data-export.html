@@ -201,7 +201,7 @@
 <ul><li>la copie anonymisée pour la recherche, si vous avez laissé cet interrupteur activé</li><li>votre abonnement par une boutique, que seule la boutique peut résilier</li><li>votre fiche client chez notre prestataire de gestion des abonnements, supprimée 120 jours après votre compte pour qu’un remboursement ou un litige de paiement auprès de la boutique puisse encore être traité</li></ul>
 <p>Se reconnecter sur un autre téléphone, ou changer de mode de connexion, est expliqué dans <a href="/fr/help/mobile-account">Connexion et récupération de compte</a>. Les forfaits et la facturation sont dans <a href="/fr/help/mobile-plans">Forfaits et abonnements</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-plans"><span>Précédent</span><b>Forfaits et abonnements</b></a><a class="pn-n" href="/fr/help/mobile-support"><span>Suivant</span><b>Signaler un problème</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

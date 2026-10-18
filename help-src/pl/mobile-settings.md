@@ -2,7 +2,7 @@
 title: Ustawienia Cora Mobile
 description: Gdzie co jest w zakładce Ustawienia w Cora Mobile, od konta i planu po akwaria, Cora Assistant, język, tryb ciemny, powiadomienia i pomoc.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 35
 group: Settings and account
 twin: max-settings
@@ -39,7 +39,7 @@ Reguła, która przełącza pompę, przełączy ją także wtedy, gdy nie patrzy
 Zobaczysz jeden wiersz na każde akwarium, a pod nimi:
 
 - **Dodaj akwarium** otwiera nowy profil akwarium.
-- **Zmień kolejność akwariów** ustala kolejność, w jakiej pojawiają się przy przesuwaniu pulpitu. Decyduje też, które akwaria dostają Reef Buddy i monitorowanie AI, gdy Twój plan obejmuje mniej akwariów, niż masz. Zobacz [Plany i subskrypcje](/help/mobile-plans#paid-tiers).
+- **Zmień kolejność akwariów** ustala kolejność, w jakiej pojawiają się przy przesuwaniu panelu. Decyduje też, które akwaria dostają Reef Buddy i monitorowanie AI, gdy Twój plan obejmuje mniej akwariów, niż masz. Zobacz [Plany i subskrypcje](/help/mobile-plans#paid-tiers).
 - **Usunięte akwaria** przechowuje usunięte akwaria. Usunięcie tylko ukrywa akwarium, a **Przywróć** przywraca je z odczytami, dziennikiem i urządzeniami.
 
 Dodawanie, usuwanie i przywracanie akwariów opisuje krok po kroku [Zarządzanie akwariami](/help/mobile-tanks).
@@ -112,12 +112,12 @@ Jeśli **Udostępniaj zanonimizowane dane akwarium** jest włączone (a jest, ch
 - **Kontakt z pomocą** otwiera e-mail do nas. Zwykle odpowiadamy w ciągu jednego dnia.
 - **Zgłoś błąd / wyślij opinię** wysyła zgłoszenie prosto z Cora Mobile. Zobacz [Zgłaszanie problemu](/help/mobile-support).
 - **Wysyłaj raporty awarii**, opisane wyżej.
-- **Strona i FAQ Cora** otwiera stronę Cora.
+- **Strona i FAQ Cora** otwiera stronę Cora. Otwiera ten przewodnik w Twoim języku.
 
 ## O aplikacji
 
 Pokazuje wersję, której używasz, i kilka dodatkowych wierszy.
 
-- **Powtórz wskazówki** odtwarza ponownie wprowadzenie do pulpitu przy pierwszym uruchomieniu, opisane w [Wprowadzeniu przy pierwszym uruchomieniu](/help/mobile-tour#the-first-run-tour). Przydaje się po aktualizacji albo gdy z Cora Mobile zaczyna korzystać ktoś nowy.
+- **Powtórz wskazówki** odtwarza ponownie wprowadzenie do panelu przy pierwszym uruchomieniu, opisane w [Wprowadzeniu przy pierwszym uruchomieniu](/help/mobile-tour#the-first-run-tour). Przydaje się po aktualizacji albo gdy z Cora Mobile zaczyna korzystać ktoś nowy.
 - **Polityka prywatności** i **Warunki korzystania** prowadzą do stron prawnych.
 - **Licencje** wymienia oprogramowanie open source, na którym zbudowano Cora Mobile.

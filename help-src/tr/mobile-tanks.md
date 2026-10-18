@@ -2,7 +2,7 @@
 title: Akvaryumlarınızı yönetme
 description: Başka bir akvaryum ekleyin, akvaryumlar arasında geçin, sıralarını ve hangi akvaryumların Reef Buddy alacağını değiştirin, bir akvaryumu kaldırın ya da geri getirin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
@@ -45,7 +45,7 @@ Panoda kaydırırken akvaryumlar bu sırayla gelir.
 
 ### Hangi akvaryumların Reef Buddy alacağını sıra belirler {#reef-buddy-and-tank-order}
 
-Planınız, Reef Buddy'nin günlük özeti için belli sayıda akvaryumu kapsar. Cora özeti **Akvaryumları yeniden sırala** sıranızdaki ilk akvaryumlara verir. Plus'ta ve 30 günlük deneme süresinde bu yalnızca ilk akvaryumunuzdur. Pro 5 akvaryumu, Max 20 akvaryumu kapsar. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
+Planınız, Reef Buddy'nin günlük özeti için belli sayıda akvaryumu kapsar. Cora özeti **Akvaryumları yeniden sırala** sıranızdaki ilk akvaryumlara verir. Essential'da ve 30 günlük deneme süresinde bu yalnızca ilk akvaryumunuzdur. Advanced 5 akvaryumu, Expert 20 akvaryumu kapsar. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
 
 Bir akvaryum özet almıyorsa onu listenin en üstüne taşıyın. Kaldırılan akvaryumlar sayılmaz.
 
@@ -57,10 +57,10 @@ Bir akvaryum özet almıyorsa onu listenin en üstüne taşıyın. Kaldırılan 
 
 Kaldırmak akvaryumu yalnızca gizler. Akvaryum panonuzdan ve Ayarlar listenizden çıkar, ama ölçümleri, günlüğü ve kayıtları saklanır. Onu istediğiniz zaman geri getirebilirsiniz.
 
-Kaldırılan bir akvaryum için şunlar durur: Reef Buddy özeti, bakım hatırlatıcıları ve planınızın Reef Buddy sayısındaki yeri.
+Kaldırılan bir akvaryum geçmişi için saklanır, ama asla gösterilmez ve sessiz kalır. Uyarı ve hatırlatıcı göndermez, Reef Buddy özeti almaz, planınızın Reef Buddy sayımında yer tutmaz ve otomasyonları durur.
 
-:::warning Kaldırılan akvaryumun ekipmanı çalışmaya devam eder
-Bir akvaryumu kaldırmak hiçbir bağlantıyı koparmaz. Cihazları ona atanmış olarak kalır ve bildirmeye devam eder, ona atanmış bir Cora Max onu göstermeye devam eder ve ekipmanı size hâlâ uyarı gönderebilir.
+:::note Kaldırılan akvaryumun ekipmanı bağlı kalır
+Bir akvaryumu kaldırmak hiçbir bağlantıyı koparmaz. Cihazları ona atanmış olarak kalır, ona atanmış bir Cora Max de atanmış kalır, ama o akvaryumdan hiçbir şey gösterilmez ve size hiçbir uyarı ya da hatırlatıcı ulaşmaz.
 
 Bir akvaryumu kaldırmadan önce cihazlarını **Cihazlar** sekmesinde taşıyın ya da kaldırın. Sonra **Cihazlar** altında Cora Max'inizi açın ve **Atanmış Akvaryumlar** altında o akvaryumun yanındaki **Akvaryumu kaldır** simgesine dokunun.
 :::

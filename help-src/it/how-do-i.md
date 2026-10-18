@@ -2,7 +2,7 @@
 title: Come faccio a...?
 description: Un elenco di attività comuni in Cora Mobile e su Cora Max, ognuna collegata ai passaggi esatti, dalla creazione dell'account all'associazione di Cora Max e all'annullamento di un piano.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 
@@ -23,7 +23,7 @@ Scegli l'attività che vuoi fare. Ogni link apre i passaggi. Se qualcosa non fun
 
 - [Creare la mia prima vasca](/help/mobile-setup#add-your-first-tank)
 - [Completare il profilo della vasca passo dopo passo](/help/mobile-tank-profile#guided-setup)
-- [Avviare il percorso di ciclaggio per una vasca nuova](/help/mobile-journeys#cycling-a-new-tank)
+- [Avviare il percorso di maturazione per una vasca nuova](/help/mobile-journeys#cycling-a-new-tank)
 - [Impostare l'età della mia vasca](/help/mobile-tank-profile#tank-age)
 - [Cambiare le unità (°F, ppt, dKH, galloni)](/help/mobile-tank-profile#units)
 - [Rinominare la mia vasca](/help/mobile-dashboard#the-tank-header)
@@ -46,7 +46,7 @@ Scegli l'attività che vuoi fare. Ogni link apre i passaggi. Se qualcosa non fun
 - [Avviare la modalità alimentazione dal telefono](/help/mobile-dashboard#the-tank-header)
 - [Avviare la modalità alimentazione su Cora Max](/help/max-controls#feed-mode)
 - [Mettere in pausa una testa DŌS](/help/mobile-device-control#dos)
-- [Dare a una pompa un programma giornaliero](/help/mobile-schedules)
+- [Dare a una pompa una programmazione giornaliera](/help/mobile-schedules)
 - [Vedere cosa ha fatto la mia attrezzatura, e perché](/help/mobile-activity)
 
 ## Letture e dashboard

@@ -16,7 +16,7 @@ Allez dans Réglages → votre aquarium → **Mode vacances**. Si vous avez plus
 ## Le configurer {#setting-it-up}
 
 1. Sous **Quand êtes-vous absent ?**, touchez **Choisissez vos dates de voyage**.
-2. Préparez la **Liste pour le gardien**. Les tâches d’entretien qui arrivent à échéance pendant votre absence vous sont proposées, chacune avec sa fréquence. Touchez une suggestion pour l’ajouter, comme **Nourrir l’aquarium**, **Vérifier le réservoir de l’ATO**, **Vider la coupelle de l’écumeur** ou **M’appeler si quelque chose semble anormal**. Pour ajouter votre propre tâche, tapez-la sous **Ajouter votre propre tâche…** et touchez **Ajouter une tâche**.
+2. Préparez la **Liste pour le gardien**. Les tâches d’entretien qui arrivent à échéance pendant votre absence vous sont proposées, chacune avec sa fréquence. Touchez une suggestion pour l’ajouter, comme **Nourrir l’aquarium**, **Vérifier le réservoir de l’ATO**, **Vider le godet de l’écumeur** ou **M’appeler si quelque chose semble anormal**. Pour ajouter votre propre tâche, tapez-la sous **Ajouter votre propre tâche…** et touchez **Ajouter une tâche**.
 3. Sous **Notes et contact**, rédigez les **Notes pour le gardien** et, sous **Si quelque chose semble anormal**, indiquez comment vous joindre.
 4. Touchez **Démarrer le mode vacances**.
 

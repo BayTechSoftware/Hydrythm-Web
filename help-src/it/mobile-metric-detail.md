@@ -2,7 +2,7 @@
 title: Approfondire un parametro
 description: Tocca un widget per vedere lo storico completo di un parametro, confrontare fonti e parametri, escludere una lettura sbagliata e registrare la cura delle sonde.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
@@ -21,6 +21,8 @@ Ci sono due modi per arrivarci. Tocca un widget sulla dashboard, oppure tocca **
 - Icone nella barra in alto: **Letture** apre l'elenco delle letture originali, e **Registra cura della sonda** registra una calibrazione o una pulizia. Per alcalinità, calcio e magnesio c'è anche il calcolatore di dosaggio, che usa il volume della vasca dal [profilo della vasca](/help/mobile-tank-profile) e le concentrazioni da [Dosaggio](/help/mobile-dosing).
 
 La schermata si apre sempre su 24h e **Tutte le fonti**. Non ricorda quello che hai scelto l'ultima volta.
+
+Il peso specifico (SG) mostra sempre tre o quattro decimali, quindi 1,022 non diventa 1,02. È uguale in Cora Mobile e Cora Max, sulla dashboard, nel grafico e nell'elenco delle letture.
 
 ## Leggere il grafico {#reading-the-chart}
 

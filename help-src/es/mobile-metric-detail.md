@@ -2,7 +2,7 @@
 title: Ver un parámetro a fondo
 description: Toca un widget para ver todo el historial de un parámetro, comparar fuentes y parámetros, excluir una lectura errónea y registrar el cuidado de una sonda.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
@@ -21,6 +21,8 @@ Hay dos formas de entrar. Toca un widget del panel, o toca **Historial de parám
 - Iconos en la barra superior: **Lecturas** abre la lista de lecturas sin procesar, y **Registrar cuidado de sonda** anota una calibración o una limpieza. Para la alcalinidad, el calcio y el magnesio también está la calculadora de dosis, que usa el volumen del acuario de tu [perfil del acuario](/help/mobile-tank-profile) y las concentraciones de [Dosificación](/help/mobile-dosing).
 
 La pantalla siempre se abre en 24h y **Todas las fuentes**. No recuerda lo que elegiste la última vez.
+
+La gravedad específica (SG) siempre muestra tres o cuatro decimales, así que 1,022 no se convierte en 1,02. Es igual en Cora Mobile y Cora Max, en el panel, en el gráfico y en la lista de lecturas.
 
 ## Leer el gráfico {#reading-the-chart}
 

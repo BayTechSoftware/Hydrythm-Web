@@ -2,7 +2,7 @@
 title: Automazioni e scene
 description: Fai agire Cora da sola quando cambia una lettura, scatta un avviso, arriva un'ora o un dispositivo va offline, e raggruppa le azioni in scene che avvii con un tocco.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -124,3 +124,5 @@ Ogni regola ha un interruttore di attivazione. Disattivare una regola ne conserv
 ## Vedere cosa ha fatto una regola {#seeing-what-a-rule-did}
 
 Ogni azione eseguita da una regola viene registrata con **Regola di automazione** come origine. La trovi in [Attività](/help/mobile-activity).
+
+Un passaggio che fallisce o che dovrebbe aspettare non resta in sospeso. Scade subito, l'esecuzione viene registrata come non riuscita e ricevi una notifica che indica l'automazione, il passaggio e il motivo. Un passaggio fallisce, per esempio, se il suo dispositivo è offline, se nessun Cora Max può eseguirlo, se il dispositivo lo rifiuta o non risponde, oppure se un riscaldatore o un refrigeratore è stato commutato un attimo fa. Per un passaggio su una vasca rimossa non ricevi notifiche.

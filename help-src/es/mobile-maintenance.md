@@ -2,7 +2,7 @@
 title: Mantenimiento
 description: Añade tareas periódicas como limpiar el skimmer o cambiar las mangas filtrantes, recibe un recordatorio cuando toquen y márcalas como hechas o posponlas.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 28
 group: Records
 twin: max-records
@@ -80,13 +80,19 @@ Los recordatorios están en **Recordatorios de mantenimiento**, en [Ajustes → 
 
 Desliza la tarea hacia la derecha, o ábrela y toca **Completar**. Si la deslizaste por error, toca **Deshacer** en el mensaje que aparece.
 
-Cora guarda la hora en que la terminaste y cuenta la próxima fecha a partir de ahí. Así que si haces una tarea con tres días de retraso, la siguiente también se mueve tres días.
+Cora guarda la hora en que la terminaste y cuenta la próxima fecha a partir de ahí. Así que si haces una tarea con tres días de retraso, la siguiente también se mueve tres días. Si la tarea está atrasada, Cora te pregunta primero **¿Cuándo lo hiciste?** Elige **Ahora mismo**, o **Elegir fecha y hora** si lo hiciste antes (mira más abajo).
 
 La hoja de la tarea muestra su **Historial de finalizaciones**, incluido el retraso de cada una.
 
 :::note Completar una tarea también escribe una entrada en el diario
 Cora añade por ti una entrada breve a tu [diario](/help/mobile-journal), indicando si fue con retraso. Añade tu propia entrada cuando haya algo más que contar, por ejemplo si la bomba estaba llena de arena o las mangas estaban negras después de un solo día.
 :::
+
+## Marcar una tarea como hecha antes {#done-earlier}
+
+¿Hiciste el trabajo ayer y olvidaste marcarlo? Abre la tarea, toca **Hecho antes…** y elige la fecha y la hora. Cora fecha la finalización, la entrada del diario y la próxima fecha a partir de esa hora, así que la próxima fecha es la hora que elegiste más el intervalo.
+
+Puedes retroceder hasta un año, pero no antes de la última vez que completaste la tarea. Si eliges una hora que todavía no ha llegado, o anterior a la última finalización, Cora te lo dice y no guarda nada.
 
 ## Editar una tarea {#editing}
 
@@ -97,7 +103,7 @@ Toca una tarea para abrirla. Puedes cambiar el **Nombre de la tarea**, el **Inte
 ¿No puedes hacer una tarea ahora? Ábrela, toca **Posponer** y elige **1 día**, **3 días**, **1 semana**, **2 semanas** o **1 mes**. Sigue en la lista como **Pospuesta** con su nueva fecha, y no recibes recordatorios hasta entonces.
 
 :::warning Marca una tarea como hecha solo cuando la hayas hecho
-La próxima fecha se cuenta a partir del día en que la marcas como hecha. Si marcas como hecha una tarea pendiente, se mueven todas las fechas siguientes. Mejor posponla.
+La próxima fecha se cuenta a partir de la hora en que hiciste la tarea. Si marcas como hecha una tarea pendiente, se mueven todas las fechas siguientes. Si la hiciste antes, usa **Hecho antes…** y elige la hora real. Si no la hiciste, mejor posponla.
 :::
 
 No hay forma de pausar una tarea. Para una tarea que no toca en esta temporada, posponla **1 mes**, o elimínala y vuelve a añadirla más adelante.

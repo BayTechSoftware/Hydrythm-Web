@@ -2,7 +2,7 @@
 title: Bir parametreyi inceleme
 description: Bir parametrenin tüm geçmişini görmek, kaynakları ve parametreleri karşılaştırmak, hatalı bir ölçümü hariç tutmak ve prob bakımını kaydetmek için bir widget'a dokunun.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
@@ -21,6 +21,8 @@ Widget size bir sayı gösterir. O sayının arkasındaki hikayeyi görmek için
 - Üst çubukta simgeler: **Ölçümler** ham ölçüm listesini açar, **Prob bakımını kaydet** bir kalibrasyonu ya da temizliği kaydeder. Alkalinite, kalsiyum ve magnezyum için ayrıca [akvaryum profilinizdeki](/help/mobile-tank-profile) akvaryum hacmini ve [Dozaj](/help/mobile-dosing) sayfasındaki yoğunlukları kullanan dozaj hesaplayıcısı vardır.
 
 Ekran her zaman 24 sa ve **Tüm kaynaklar** ile açılır. Son seferki seçiminizi hatırlamaz.
+
+Özgül ağırlık (SG) her zaman üç ya da dört ondalıkla gösterilir, yani 1,022 değeri 1,02 olmaz. Bu, Cora Mobile ve Cora Max'te aynıdır: panoda, grafikte ve ölçüm listesinde.
 
 ## Grafiği okuma {#reading-the-chart}
 

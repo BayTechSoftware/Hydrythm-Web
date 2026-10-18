@@ -2,7 +2,7 @@
 title: Cora Max'ten ekipman kontrolü
 description: Cora Max'te Neptune Apex, Trident ve DŌS, Red Sea ReefBeat, Jecod ve AquaWiz için cihaz sayfaları, markaya göre.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -24,8 +24,8 @@ Ekipmanı telefonunuzda ekler, atar ve kaldırırsınız. Hesabınızda olduğun
 |---|---|
 | **Neptune Apex** | Problar ve prizler, her prizi açıp kapatabilirsiniz |
 | **Trident** | Test durumu, reaktif ve atık seviyeleri ve bir test başlatma düğmesi |
-| DŌS QD dahil **DŌS** | Her kafanın dozajı, programı, ne kadar yeteceği ve kap hacmi (duraklatma, doldurma, şimdi dozajlama ve tek seferlik yirmi saniyelik bir ölçümle) |
-| **Red Sea ReefBeat** | Ünitede ne varsa: dozaj kafaları, hazne, rulo günleri, pompa modu, ayrıca tam bir ReefDose planı düzenleyicisi ve ReefMat ayarları |
+| DŌS QD dahil **DŌS** | Her kafanın dozajı, zamanlaması, ne kadar yeteceği ve kap hacmi (duraklatma, doldurma, şimdi dozajlama ve tek seferlik yirmi saniyelik bir ölçümle) |
+| **Red Sea ReefBeat** | Ünitede ne varsa: dozaj kafaları, depo, rulo günleri, pompa modu, ayrıca tam bir ReefDose planı düzenleyicisi ve ReefMat ayarları |
 | **Jecod** | Pompa modu ve yoğunluğu ve günlük programı |
 | **AquaWiz** | Kendi sayfası yok. **Cihazlar** içinde listelenir ve ölçümleri panoya gider |
 
@@ -56,25 +56,25 @@ Bir DŌS'un seviye sensörü yoktur ve boş bir kaptan dozaj yapmaya devam eder.
 Bir kafanın ayarlar sayfasında **Kullanım amacı**'nı ayarlayabilirsiniz. Seçenekler **Takviye**, **Su değişimi: yeni tuzlu su girişi**, **Su değişimi: eski su çıkışı**, **Kalkwasser**, **Kalsiyum reaktörü**, **Yem** ya da **Su tamamlama** ve **Diğer**'dir. Kullanım amacı iki şeyi değiştirir.
 
 - Ne kadar büyük bir kabı izleyebileceği. Her kullanım amacı 1.000 litreye kadar bir kabı izleyebilir. Apex'in kendi 150 litrelik sayacının üstünde hacmi Cora kendisi izler ve Apex sayacını her 100 litrede bir sıfırlar.
-- Elle büyük bir doz alıp alamayacağı. Takviye ve Yem kafaları bugünkü küçük, dikkatli sınırı korur. Diğer her kullanım amacının 10 litrelik kesin bir tavana kadar kendi **Elle verilecek en büyük dozaj** sınırı ve kendi **Otomasyonlar ve Asistan için günlük limit** değeri olabilir. Elle büyük bir doz ayrıca kafanın ayarlarında varsayılan olarak kapalı olan **Büyük dozlar**'ın açılmasını gerektirir. Bunu yalnızca ilk büyük dozun çalışmasını akvaryumun başında izledikten sonra açın.
+- Elle büyük bir doz alıp alamayacağı. Takviye ve Yem kafaları bugünkü küçük, dikkatli sınırı korur. Diğer her kullanım amacının 10 litrelik kesin bir tavana kadar kendi **Elle verilecek en büyük dozaj** sınırı ve kendi **Otomasyonlar ve Asistan için günlük sınır** değeri olabilir. Elle büyük bir doz ayrıca kafanın ayarlarında varsayılan olarak kapalı olan **Büyük dozlar**'ın açılmasını gerektirir. Bunu yalnızca ilk büyük dozun çalışmasını akvaryumun başında izledikten sonra açın.
 
 Bir su değişimi çiftini (yeni tuzlu su girişi, eski su çıkışı) **Eşleştirilmiş kafa** olarak bağlayabilir ve bir **Denge uyarısı üstünde** miktarı ayarlayabilirsiniz. İki kafanın gün içindeki toplamları bundan fazla açılırsa Cora sizi uyarır. Dengesiz bir çift genellikle bir tarafın olması gerektiği gibi pompalamadığı anlamına gelir.
 
 ### Büyük bir doz yarıda kalırsa {#if-a-large-dose-is-interrupted}
 
-Büyük bir doz, kafanın Apex'te yaptığı şeyi bir süreliğine değiştirir, sonra normal programını geri koyar. Bağlantı yarıda koparsa Cora Max o kafanın sayfasında bir şerit gösterir: *"[kafa] üzerindeki büyük bir dozaj düzgün bitmedi. Cora programını geri koymayı denemeye devam ediyor; bunu Apex Fusion'da kontrol edin."*
+Büyük bir doz, kafanın Apex'te yaptığı şeyi bir süreliğine değiştirir, sonra normal zamanlamasını geri koyar. Bağlantı yarıda koparsa Cora Max o kafanın sayfasında bir şerit gösterir: *"[kafa] üzerindeki büyük bir dozaj düzgün bitmedi. Cora programını geri koymayı denemeye devam ediyor; bunu Apex Fusion'da kontrol edin."*
 
-Kafayı Apex Fusion'da kendiniz kontrol edin, sonra şeridi kaldırmak için **Kafayı Fusion'da kontrol ettim**'e dokunun. Bunu yalnızca kafanın Cora'nın dozaj programını değil kendi programını çalıştırdığını doğruladıktan sonra yapın.
+Kafayı Apex Fusion'da kendiniz kontrol edin, sonra şeridi kaldırmak için **Kafayı Fusion'da kontrol ettim**'e dokunun. Bunu yalnızca kafanın Cora'nın dozaj programını değil kendi zamanlamasını çalıştırdığını doğruladıktan sonra yapın.
 
 Şerit kalkmıyorsa ya da geri gelmeye devam ediyorsa [Sorun giderme](/help/troubleshooting) sayfasına göz atın.
 
 ## Red Sea ReefBeat {#red-sea}
 
-Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır: ReefDose kafaları ve kapları, ReefATO+ haznesi, ReefMat rulo günleri ve ReefRun pompa hızları. ReefDose kafaları, ReefATO+ haznesi ve ReefMat rulosu için sarf malzemesi uyarıları ünitenin sayfasındaki **Uyarı ayarları** ile kurulur.
+Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır: ReefDose kafaları ve kapları, ReefATO+ deposu, ReefMat rulo günleri ve ReefRun pompa hızları. ReefDose kafaları, ReefATO+ deposu ve ReefMat rulosu için sarf malzemesi uyarıları ünitenin sayfasındaki **Uyarı ayarları** ile kurulur.
 
 Bir Red Sea ünitesi kendini durdurursa sayfası neyin yanlış olduğunu söyler ve çözümü hemen yanına koyar. Bu **Sürdür**, **Acil durumu temizle**, **Sensör temizlendi**, **Zaten yeni bir rulo yükledim** ya da bir dozaj kafası için **Sıfırla**'dır.
 
-Bir ReefDose planı ve ReefMat'in programlı ilerletmesi, modeli, konumu ve Yeni rulo burada da telefonunuzdakiyle aynı şekilde çalışır. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
+Bir ReefDose planı ve ReefMat'in zamanlanmış ilerletmesi, modeli, konumu ve Yeni rulo burada da telefonunuzdakiyle aynı şekilde çalışır. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 
 
 ## Jecod {#jecod}
@@ -82,20 +82,20 @@ Bir ReefDose planı ve ReefMat'in programlı ilerletmesi, modeli, konumu ve Yeni
 Jecod sayfası pompanın modunu ve yoğunluğunu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. Üst çubukta güç anahtarı, şu an çalışan desen ve dört etiketli **Besleme** bulunur: **5**, **10**, **15** ve **30** dk. Pompayı o kadar duraklatmak için bir etikete dokunun. Çubuğun altında iki kart vardır:
 
 - **Tüm gün aynı**: bir ayara dokunarak tüm gün çalıştırın.
-- **Program**: gün grafiği ve plan listesi; geçerli planda **şimdi** yazar. **Düzenle** düzenleyiciyi açar, ⋮ menüsünde **Programı şuraya kopyala…**, **Programı farklı kaydet…** ve **Kayıtlı programlar…** bulunur.
+- **Zamanlama**: gün grafiği ve plan listesi; geçerli planda **şimdi** yazar. **Düzenle** düzenleyiciyi açar, ⋮ menüsünde **Zamanlamayı şuraya kopyala…**, **Zamanlamayı farklı kaydet…** ve **Kayıtlı zamanlamalar…** bulunur.
 
-Çalışan kartın bir çerçevesi ve **Çalışıyor** etiketi vardır. Jecod pompasında **Beslemeyi bitir** düğmesi yoktur. Besleme için duraklayabilen her Jecod pompası **5**, **10**, **15** ve **30** dk düğmelerini gösterir. Bir Jecod Pro pompasında dalga desenlerindeki Besleme kutucuğu aynı işi 10 dakika için yapar. Akvaryumdan uzaktaki bir Cora Max üzerinden ulaşılan Jecod pompası yalnızca 10 dakika besler. Şu anda besleyemeyen bir pompa nedenini düğmelerin altında kısa bir satırda gösterir, uzun basınca tam cümleyi görürsünüz.
+Çalışan kartın bir çerçevesi ve **Çalışıyor** etiketi vardır. Jecod pompasında **Beslemeyi bitir** düğmesi yoktur. Besleme için duraklayabilen her Jecod pompası **5**, **10**, **15** ve **30** dk düğmelerini gösterir. Bir Jecod Pro pompasında dalga desenlerindeki Besleme kutucuğu aynı işi 10 dakika için yapar. Akvaryumdan uzaktaki bir Cora Max üzerinden ulaşılan Jecod pompası yalnızca 10 dakika besler. Şu anda besleyemeyen bir pompa nedenini düğmelerin altında kısa bir satırda gösterir, uzun basınca tam cümleyi görürsünüz. Telefondan başlatılan bir beslemeyi Cora Max de bitirir: süre dolunca pompa programına döner.
 
-Jecod pompası günlük programlarını telefonunuzda olduğu gibi duvardaki ekranda da yazabilirsiniz. Düzenleyici aynıdır: bir gün grafiği, bir periyot listesi ve bir eylem satırı. Ayrıntılar [Ekipman programları](/help/mobile-schedules) sayfasında.
+Jecod pompası günlük zamanlamalarını telefonunuzda olduğu gibi duvardaki ekranda da yazabilirsiniz. Düzenleyici aynıdır: bir gün grafiği, bir periyot listesi ve bir eylem satırı. Ayrıntılar [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında.
 
 ## AquaWiz {#aquawiz}
 
-Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Onu telefonunuzda kurun ve yönetin, [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
+Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Aynı akvaryumdaki bir Cora Max, kontrolöre ulaşabildiğinde onu her saat de okuyabilir. Onu telefonunuzda kurun ve yönetin, [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
 
 
 ## Sarf malzemeleri {#consumables}
 
-Dolum eşiklerini (reaktif, kaplar, hazneler) burada da telefonunuzdaki gibi cihazın kendi sayfasında ayarlarsınız. Ayrıntılar [Sarf malzemeleri](/help/mobile-consumables) sayfasında.
+Dolum eşiklerini (reaktif, kaplar, depolar) burada da telefonunuzdaki gibi cihazın kendi sayfasında ayarlarsınız. Ayrıntılar [Sarf malzemeleri](/help/mobile-consumables) sayfasında.
 
 ## Akvaryumun başında kaydetme ve hesaplama {#logging-and-calculating-at-the-tank}
 
@@ -111,7 +111,7 @@ Bir akvaryumu birden fazla Cora Max gösterdiğinde, o akvaryumun ekipmanını b
 Birkaç şey yalnızca akvaryumdaki Cora Max'te çalışır.
 
 - **Dozajlamak için ölç** ve **Yeniden ölç** yalnızca orada görünür. Bir kafa ölçüldükten sonra **Şimdi dozajla** her Cora Max'ten çalışır.
-- Bir Jecod programını başka bir Cora Max'ten ancak akvaryumdaki Cora Max pompayı son bir saat içinde okuduysa değiştirebilirsiniz ve yalnızca Bluetooth üzerinden konuşan bir pompa için asla değiştiremezsiniz. Oradan tek bir **Pompaya uygula** en fazla 12 değişiklik gönderir, bu yüzden daha büyük bir düzenlemeyi parçalar halinde gönderin.
+- Bir Jecod zamanlamasını başka bir Cora Max'ten ancak akvaryumdaki Cora Max pompayı son bir saat içinde okuduysa değiştirebilirsiniz ve yalnızca Bluetooth üzerinden konuşan bir pompa için asla değiştiremezsiniz. Oradan tek bir **Pompaya uygula** en fazla 12 değişiklik gönderir, bu yüzden daha büyük bir düzenlemeyi parçalar halinde gönderin.
 
 ## Neyin, neyle değiştirildiği {#what-was-changed-and-by-what}
 

@@ -2,7 +2,7 @@
 title: Cora Max-Einstellungen
 description: Jede Cora Max-Einstellung, vom Umbenennen über Helligkeit, Nachtdimmung, Lautsprecher und Weckwort bis zu Kindersicherung, Sprache, WLAN, neu koppeln und Werksreset.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -45,7 +45,7 @@ Die letzte Zeile in den Einstellungen trägt den Namen dieses Cora Max. Sie öff
 Oben ist eine Karte mit dem Namen dieses Bildschirms und seiner Firmware-Version (*Cora Max · Firmware 0.28.170*).
 
 - Tippe auf den Stift (**Dieses Gerät umbenennen**), um ihm einen neuen Namen zu geben, zum Beispiel "Wohnzimmer".
-- **Details anzeigen** listet seine **Cora-ID**, **MAC-Adresse**, sein **Wi-Fi-Netzwerk**, seine **IP-Adresse**, seine Becken und das Konto auf, mit dem es gekoppelt ist. Der Support fragt vielleicht danach.
+- **Details anzeigen** listet seine **Cora-ID**, **MAC-Adresse**, sein **WLAN-Netzwerk**, seine **IP-Adresse**, seine Becken und das Konto auf, mit dem es gekoppelt ist. Der Support fragt vielleicht danach.
 
 Unter der Karte stehen diese Bereiche.
 
@@ -57,10 +57,12 @@ Unter der Karte stehen diese Bereiche.
 | **KINDERSICHERUNG** | **Kindersicherung** ein oder aus und **Sperren nach**. Siehe [Kindersicherung](#child-lock) unten |
 | **BENACHRICHTIGUNGEN** | **Benachrichtigungsverlauf**, der Posteingang für dein ganzes Konto mit allen Briefings, Alarmen und Kontohinweisen |
 | **SPRACHE** | Die eine Sprache, die dein ganzes Konto nutzt: English, Deutsch, Español, Français, Italiano, Polski oder Türkçe. Siehe den Hinweis unten |
-| **NETZWERK & UPDATES** | **Wi-Fi**, **Firmware-Update** und **Geräteabfrage**, die zeigt, wie oft dieses Cora Max deine Geräte abfragt (ändern kannst du es in Cora Mobile) |
+| **NETZWERK & UPDATES** | **WLAN**, **Firmware-Update** und **Geräteabfrage**, die zeigt, wie oft dieses Cora Max deine Geräte abfragt (ändern kannst du es in Cora Mobile) |
 | **STATUS** | Eine Karte für jedes Becken, das dieser Bildschirm zeigt, mit **Abfragestatus**, **Letzte Abfrage**, **Letzter Cloud-Schreibvorgang** und **Cloud-Speichern**. Nur zum Ansehen |
 | **HILFE & ÜBER** | **Hilfe & Support** (den Support kontaktieren oder ein Problem melden) und **Über** (Version und Lizenzen) |
 | **ZURÜCKSETZEN** | **Dieses Gerät neu koppeln** und **Werksreset**. Siehe unten |
+
+**Hilfe & Support** zeigt außerdem einen QR-Code. Scanne ihn mit deinem Telefon, um diese Anleitung in deiner Sprache zu öffnen.
 
 Hat sich der Bildschirm gedimmt, weckt ihn dein erstes Tippen nur. Es drückt nichts.
 

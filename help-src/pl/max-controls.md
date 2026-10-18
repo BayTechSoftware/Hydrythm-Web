@@ -7,7 +7,7 @@ order: 5
 group: Equipment
 ---
 
-Ta strona opisuje przełączanie gniazd i uruchamianie trybu karmienia z Cora Max. Zrobisz to kafelkami gniazd na pulpicie, z szuflady **Gniazda i karmienie** albo głosem.
+Ta strona opisuje przełączanie gniazd i uruchamianie trybu karmienia z Cora Max. Zrobisz to kafelkami gniazd na panelu, z szuflady **Gniazda i karmienie** albo głosem.
 
 :::warning Te przyciski działają na Twoje akwarium
 Nie da się tego cofnąć. Gniazda z kłódką najpierw proszą o potwierdzenie. Pozostałe zmieniają się od razu po dotknięciu. Polecenie może wrócić jako **Potwierdzono**, **Niepotwierdzone** (wysłane, ale nic nie odpowiedziało), **Odmówiono** albo **Bez zmian**. Więcej w [Sterowaniu sprzętem](/help/mobile-device-control).
@@ -19,13 +19,13 @@ Każde gniazdo jest w jednym z trzech stanów.
 
 **AUTO** oddaje gniazdo z powrotem programowi Apex. Przez większość czasu gniazdo powinno być właśnie w tym stanie.
 
-**WYŁ.** i **WŁ.** to ręczne nadpisania. Działają od razu i **zostają, dopóki ich nie zmienisz**. Nie wygasają i nic nie przywróci ich za Ciebie.
+**WYŁ.** i **WŁ.** to ręczne przełączenia. Działają od razu i **zostają, dopóki ich nie zmienisz**. Nie wygasają i nic nie przywróci ich za Ciebie.
 
-:::warning Ręczne nadpisanie nie wygasa
-Gdy skończysz, ustaw gniazdo z powrotem na **AUTO**, bo nic innego tego nie zrobi. Nadpisanie to jednak nie blokada. Później możesz je zmienić Ty, Twój głos albo automatyzacja.
+:::warning Ręczne przełączenie nie wygasa
+Gdy skończysz, ustaw gniazdo z powrotem na **AUTO**, bo nic innego tego nie zrobi. Ręczne przełączenie to jednak nie blokada. Później możesz je zmienić Ty, Twój głos albo automatyzacja.
 :::
 
-## Przełączanie z pulpitu {#switching-from-the-dashboard}
+## Przełączanie z panelu {#switching-from-the-dashboard}
 
 Kafelki gniazd pokazują trzy stany, a bieżący jest podświetlony. Dotknij tego, który chcesz.
 
@@ -35,11 +35,11 @@ Domyślnie kłódkę mają grzałki, chłodziarki, pompy powrotne, dolewka (ATO)
 
 ## Szuflada Gniazda i karmienie {#the-controls-drawer}
 
-Zobaczysz ją tylko przy akwarium z Neptune Apex. Dotknij małej etykiety **Gniazda i karmienie** na dole pulpitu albo przesuń palcem w górę w dowolnym miejscu pulpitu. Otworzy się **Sterowanie** z sekcją **KARMIENIE** u góry i **GNIAZDA** pod nią.
+Zobaczysz ją tylko przy akwarium z Neptune Apex. Dotknij małej etykiety **Gniazda i karmienie** na dole panelu albo przesuń palcem w górę w dowolnym miejscu panelu. Otworzy się **Sterowanie** z sekcją **KARMIENIE** u góry i **GNIAZDA** pod nią.
 
 ![Szuflada Sterowanie](img/max-controls.webp "U góry cykle karmienia, niżej gniazda wybrane dla tego pulpitu.")
 
-Pokazuje gniazda i cykle karmienia wybrane w **Gniazda i karmienie** w [edytorze pulpitu](/help/max-dashboard-editing#outlets-feed), albo wszystkie, jeśli żadnych nie wybrano. Gniazda z kłódką także tu proszą o potwierdzenie. Gniazda w innych kontrolerach przełączasz na ich własnych stronach urządzeń, zobacz [Sterowanie sprzętem z Cora Max](/help/max-device-control).
+Pokazuje gniazda i cykle karmienia wybrane w **Gniazda i karmienie** w [edytorze panelu](/help/max-dashboard-editing#outlets-feed), albo wszystkie, jeśli żadnych nie wybrano. Gniazda z kłódką także tu proszą o potwierdzenie. Gniazda w innych kontrolerach przełączasz na ich własnych stronach urządzeń, zobacz [Sterowanie sprzętem z Cora Max](/help/max-device-control).
 
 Jeśli po dotknięciu gniazda pojawi się *Apex nie odpowiedział: mogło się to już zastosować*, sprawdź gniazdo przed kolejną próbą.
 

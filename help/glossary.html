@@ -246,7 +246,7 @@
 <h2 id="reef-room">Reef Room</h2>
 <p>The Cora Max screen that shows all your tanks side by side. On screen it's called <strong>Cora Tanks</strong>. See <a href="/help/max-reef-room">The Reef Room</a>.</p>
 <h2 id="removed-tank">Removed tank</h2>
-<p>A tank you removed. Its data is kept, and you can bring it back from <strong>Settings → Removed tanks</strong>. See <a href="/help/mobile-tanks">Managing your tanks</a>.</p>
+<p>A tank you removed. Its data is kept, and you can bring it back from <strong>Settings → Removed tanks</strong>. See <a href="/help/mobile-tanks">Managing your tanks</a>. It is never shown, sends no alerts or reminders, and its automations stop.</p>
 <h2 id="saved-design">Saved design</h2>
 <p>A Cora Max dashboard layout you've kept under <strong>My dashboards</strong>. You can apply it again later or load it onto another tank or Cora Max. The phone dashboard has no saved designs. See <a href="/help/max-dashboard-editing#saving-layouts">Editing the Cora Max dashboard</a>.</p>
 <h2 id="scene">Scene</h2>
@@ -274,7 +274,7 @@
 <h2 id="widget">Widget</h2>
 <p>One tile on a dashboard that shows one thing, such as a value, a gauge, a graph or an outlet. See <a href="/help/mobile-widgets">Widget reference</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/faq"><span>Previous</span><b>Frequently asked questions</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -665,7 +665,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

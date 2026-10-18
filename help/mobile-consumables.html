@@ -190,7 +190,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Device</th><th>Tap</th></tr></thead><tbody><tr><td data-th="Device">DŌS head</td><td data-th="Tap"><strong>Fill</strong>, then <strong>Full</strong>, or set <strong>Volume Remaining</strong></td></tr><tr><td data-th="Device">DŌS waste container</td><td data-th="Tap">Reset its free space to full after you empty it</td></tr><tr><td data-th="Device">ReefDose head</td><td data-th="Tap"><strong>Remaining in bottle</strong></td></tr><tr><td data-th="Device">ReefMat</td><td data-th="Tap"><strong>New roll</strong> after you load a new roll</td></tr></tbody></table></div>
 <p>Trident, ReefATO+ and AquaWiz report their own levels, so there's nothing to reset in Cora.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-probes"><span>Previous</span><b>Parameter Mapping and probes</b></a><a class="pn-n" href="/help/mobile-alerts"><span>Next</span><b>Alerts and thresholds</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

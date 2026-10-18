@@ -2,7 +2,7 @@
 title: Activity on Cora Max
 description: Check on Cora Max whether a command really reached your equipment, who or what asked for it, and why one was refused.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 11
 group: Records
 twin: mobile-activity

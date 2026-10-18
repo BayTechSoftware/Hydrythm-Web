@@ -2,7 +2,7 @@
 title: Actualizaciones y recuperación
 description: Cómo se actualiza solo Cora Max, la ventana de instalación y el canal de actualización, cómo ver la versión, el PIN de recuperación y qué hacer si Cora Max no arranca o muestra un código de soporte.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 15
 group: Settings and account
 ---
@@ -28,6 +28,8 @@ En **Ajustes de actualización**, en la misma pantalla:
 - **Ventana de instalación** fija las horas en que se pueden instalar las actualizaciones, con una hora de **Inicio** y de **Fin**, en la hora local de esta pantalla. La zona horaria se fija en Cora Mobile, en **Dispositivos →** tu Cora Max **→ Zona horaria**.
 
 Para ver si esta pantalla está leyendo tus dispositivos y guardando en Cora Cloud, vuelve a **Ajustes de Cora Max** y baja hasta **ESTADO**. Muestra el **Estado de sondeo**, el **Último sondeo**, la **Última escritura en la nube** y el **Guardado en la nube** de cada acuario.
+
+Si una actualización se descarga despacio, revisa tu conexión con la **Prueba de velocidad de red** de la misma pantalla. **Iniciar prueba** descarga hasta 16 MB del archivo de actualización desde Cora Cloud, durante 20 segundos como máximo, y muestra la velocidad en MB/s.
 
 ## Cuando hay una actualización disponible
 

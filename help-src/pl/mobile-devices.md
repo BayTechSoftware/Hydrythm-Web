@@ -2,7 +2,7 @@
 title: Dodawanie, edytowanie i usuwanie urządzeń
 description: Dodaj sprzęt do Cory, przypisz go do akwarium, zmień jego nazwę, sprawdź, czy działa poprawnie, i usuń go, wszystko z zakładki Urządzenia.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices
@@ -56,7 +56,7 @@ Dotknij dowolnego urządzenia na liście, żeby otworzyć jego stronę. Najpierw
 Cora Max i Neptune Apex mogą obsługiwać więcej niż jedno akwarium, więc ich wybór akwarium to lista z polami wyboru. Cora Max można przypisać do maksymalnie czterech. Zobacz [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device). Wszystko inne obsługuje jedno akwarium naraz. Wybranie innego przenosi tam urządzenie i zdejmuje je ze starego.
 
 :::warning Przypisz akwarium, zanim zaczniesz polegać na odczytach
-Urządzenie bez akwarium nadal raportuje, ale jego liczby nie mają gdzie trafić. Jeśli właśnie dodane urządzenie nie pokazuje się na pulpicie, najpierw sprawdź to.
+Urządzenie bez akwarium nadal raportuje, ale jego liczby nie mają gdzie trafić. Jeśli właśnie dodane urządzenie nie pokazuje się na panelu, najpierw sprawdź to.
 :::
 
 Co robią elementy sterowania każdej marki, opisuje [Sterowanie sprzętem](/help/mobile-device-control).

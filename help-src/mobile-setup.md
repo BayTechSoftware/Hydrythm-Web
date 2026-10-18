@@ -2,7 +2,7 @@
 title: Setting up Cora Mobile
 description: Install Cora Mobile, create your account, add your first tank and get your first readings on screen, step by step.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 group: Getting started
 twin: max-setup
@@ -77,7 +77,7 @@ When you're done, tap **Go to my dashboard**, or **I'll do this later**.
 
 ## Your first 30 days {#your-first-30-days}
 
-On a new free account, **Go to my dashboard** first shows **Your first 30 days are on us**. Your 30-day Pro trial started when you created your account, and no card is needed. Tap **Start exploring** to carry on, or **See plans** to look at the paid plans. More in [Plans and subscriptions](/help/mobile-plans#the-trial).
+On a new free account, **Go to my dashboard** first shows **Your first 30 days are on us**. Your 30-day Advanced trial started when you created your account, and no card is needed. Tap **Start exploring** to carry on, or **See plans** to look at the paid plans. More in [Plans and subscriptions](/help/mobile-plans#the-trial).
 
 ## Your first look at the dashboard {#your-first-look-at-the-dashboard}
 

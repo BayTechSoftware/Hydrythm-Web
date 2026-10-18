@@ -2,7 +2,7 @@
 title: ICP i raporty zdrowia
 description: Prześlij PDF z testem ICP albo pozwól, żeby laboratorium go wysłało, przeczytaj ocenę, śledź każdy pierwiastek w czasie i uruchom Raport zdrowia całego systemu.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -18,7 +18,7 @@ Cora odczytuje raport PDF, który przysyła Ci laboratorium. Najpierw pobierz go
 
 1. Dotknij **Przesłać ICP**.
 2. Wybierz laboratorium albo zostaw **Auto: wykryj laboratorium**. Cora ma wskazówki dla ATI, Fauna Marin, Modern Reef, Oceamo, Reef Zlements i Triton.
-3. Powiedz, czym jest próbka: **Woda z akwarium**, **Woda RO/DI**, **Mieszanka soli** albo **Inne**. Tylko woda z akwarium aktualizuje pulpit i alerty.
+3. Powiedz, czym jest próbka: **Woda z akwarium**, **Woda RO/DI**, **Mieszanka soli** albo **Inne**. Tylko woda z akwarium aktualizuje panel i alerty.
 4. Sprawdź datę pobrania próbki. Laboratoria drukują datę analizy, więc Cora pyta o Twoją i na jej podstawie umieszcza wyniki na wykresach.
 5. Dotknij **Wybierz PDF** i wybierz plik.
 
@@ -85,6 +85,8 @@ Ocena porównuje Twoje wyniki z ich zakresami docelowymi, także z tymi, które 
 W każdym wierszu pierwiastka zobaczysz zakres wydrukowany przez laboratorium, pokazany jako *Zakres laboratorium*, obok własnego zakresu Cory dla tego pierwiastka. Pierwiastek, dla którego Cora nie ma zakresu odniesienia, ma znacznik **Brak zakresu Cora**. Raport mówi, ile pierwiastków ma zakres Cory, a resztę ocenia na podstawie ogólnej wiedzy rafowej. Cora Assistant komentuje każdy przebadany pierwiastek, a jego komentarz obowiązuje także wtedy, gdy nie ma zakresu Cory.
 
 Jeśli laboratorium drukuje dla pierwiastka *n.d.* albo *not detected*, Cora zapisuje go jako 0 i podaje, że go nie wykryto.
+
+Jeśli laboratorium podaje **ciężar właściwy** (lub gęstość względną) zamiast zasolenia, Cora zapisuje go jako zasolenie, nadal pokazane w SG, i ocenia według Twojego zakresu zasolenia.
 
 :::note Rozpuszczony CO2 to nie CO2 w pomieszczeniu
 **Rozpuszczony CO₂** w raporcie ICP to CO2 w wodzie, w mg/L. To inny odczyt niż CO2 w powietrzu w pomieszczeniu. Mają różne zakresy i nigdy nie są mieszane.

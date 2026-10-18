@@ -2,7 +2,7 @@
 title: Journal, population et entretien
 description: Notez un test, ajoutez une entrée de journal, enregistrez un repas et cochez l’entretien sur Cora Max, et ce que vous faites encore sur votre téléphone.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 10
 group: Records
 twin: mobile-journal
@@ -31,9 +31,9 @@ Si une mesure plus récente de ce paramètre est déjà affichée, votre valeur 
 
 Ouvrez **Journal** depuis le menu de l’aquarium et touchez **Nouvelle entrée**. Donnez-lui un titre, et ajoutez une description, des étiquettes ou une photo si vous le souhaitez. **Joindre les paramètres de l’eau** enregistre les mesures actuelles avec l’entrée. Ou dites *« Hey Cora, note que j’ai nourri au mysis. »* Plus de détails dans [Le journal](/help/mobile-journal).
 
-### Alimentation
+### Nourrissage
 
-En haut de l’écran du journal, **Repas en plus** et **Repas sauté** ajoutent chacun une entrée au journal. Une ligne en dessous affiche votre routine d’alimentation, par exemple *Routine d’alimentation : Flocons : 2 pincées, deux fois par jour*. Vous réglez la routine dans Cora Mobile. Sans routine enregistrée, la ligne indique *Définissez votre routine d’alimentation dans l’app mobile*.
+En haut de l’écran du journal, **Repas en plus** et **Repas sauté** ajoutent chacun une entrée au journal. Une ligne en dessous affiche votre routine de nourrissage, par exemple *Routine de nourrissage : Flocons : 2 pincées, deux fois par jour*. Vous réglez la routine dans Cora Mobile. Sans routine enregistrée, la ligne indique *Définissez votre routine de nourrissage dans l’application mobile*.
 
 Si Cora Max lit votre Neptune Apex, il note aussi un cycle de nourrissage A à D dès qu’il démarre, que vous l’ayez lancé ici, sur l’Apex ou dans Apex Fusion.
 
@@ -47,7 +47,8 @@ L’icône à côté de celle des appareils est **Reef Buddy**, et son point sig
 
 Le haut de l’écran indique combien de tâches sont à faire. En dessous, **À venir** liste chaque tâche avec **AUJOURD’HUI**, **DANS 3 j** ou **EN RETARD 2 j**, et **Terminées · 7 derniers jours** montre ce que vous avez fait récemment.
 
-- Touchez **Terminé** quand vous avez fini une tâche.
+- Touchez **Terminé** quand vous avez fini une tâche. Si elle est en retard, Cora demande **Quand l’avez-vous fait ?**
+- Touchez **Fait plus tôt…** si vous l’avez faite avant aujourd’hui. Choisissez la date et l’heure, et la prochaine échéance est calculée à partir de là. Une heure future, ou antérieure à la dernière validation, n’est pas acceptée.
 - Touchez **Reporter** pour la repousser de **1 jour**, **3 jours**, **1 semaine**, **2 semaines** ou **1 mois**.
 
 Vous ajoutez et modifiez les tâches sur votre téléphone. Plus de détails dans [Entretien](/help/mobile-maintenance).

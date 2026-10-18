@@ -188,6 +188,7 @@
 <p>The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod™. You'll find them in the <a href="/help/mobile-widgets">Widget reference</a>. The <strong>Scene</strong> tile only exists on Cora Max. It runs a <a href="/help/max-automation">scene</a> with one tap.</p>
 <h2 id="outlets-feed">Outlets &amp; Feed</h2>
 <p><strong>Outlets &amp; Feed</strong> in the editor chooses which outlets and feed cycles appear in <strong>Controls</strong>, the drawer you swipe up from the bottom of the dashboard. It doesn't add tiles. If you pick none, Controls lists all of them. To put an outlet on the grid itself, add an <strong>Outlet</strong> tile. More in <a href="/help/max-controls">Outlets and controls</a>.</p>
+<p>When you remove a device from a tank, its tiles leave the dashboard by themselves, on your phone and on every Cora Max of that tank. A tile whose device has gone says <strong>This device is no longer on this tank</strong> and opens nothing.</p>
 <h2 id="templates">Templates</h2>
 <p><strong>Templates</strong> sits at the top of the editor, beside <strong>My dashboards</strong> and <strong>Design with AI</strong>. It's open on every plan and never uses AI, so it also works without AI data sharing.</p>
 <p>It opens <strong>Dashboard templates</strong>, a few ready-made layouts built from what this tank reports and has linked:</p>
@@ -207,7 +208,7 @@
 <h2 id="multiple-tanks">Multiple tanks</h2>
 <p>Each tank has its own layout. Switch to that tank and open <strong>Dashboard layout</strong> from its tank menu, or use <strong>Settings → [that tank] → Dashboard layout</strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-reef-room"><span>Previous</span><b>The Reef Room</b></a><a class="pn-n" href="/help/max-controls"><span>Next</span><b>Outlets and controls</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

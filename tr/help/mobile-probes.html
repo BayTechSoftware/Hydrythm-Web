@@ -92,7 +92,7 @@
 <li><a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a></li>
 <li><a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a></li>
 <li><a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></li>
-<li><a href="/tr/help/mobile-schedules">Ekipman programları</a></li>
+<li><a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a></li>
 <li><a href="/tr/help/mobile-probes" class="cur" aria-current="page">Parametre Eşlemesi ve problar</a></li>
 <li><a href="/tr/help/mobile-consumables">Sarf malzemeleri ve dolum uyarıları</a></li>
 </ul></details>
@@ -193,15 +193,15 @@
 <p>Akvaryum profilinde de bir <strong>Parametre Kaynakları</strong> bölümü vardır (yeni bir akvaryum oluştururken gizlidir). Aynı şeyi daha kısa bir biçimde ayarlar. Her kontrolcüdeki her probu tek yerde görmek istediğinizde Parametre Eşlemesi'ni kullanın.</p>
 <aside class="cal cal-note"><p class="cal-t">Sızıntı sensörü burada yeniden atanamaz</p><p>Bir sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu seçicinin dışında tutulur. Her zamanki gibi çalışır.</p></aside>
 <h2 id="multiple-probes">Bir parametre için birden fazla prob</h2>
-<p>İki sıcaklık probunuz varsa, ister aynı kontrolcüde ister iki farklı kontrolcüde olsun, ikisini de eşleyin. Cora onları ayrı kaynaklar olarak tutar. Ölçümü hangisinin sağlayacağını <strong>Kaynaklar</strong> sekmesinde seçersiniz ya da Otomatik'te bırakırsınız. İkisini <a href="/tr/help/mobile-metric-detail">parametre görünümünde</a> karşılaştırabilirsiniz.</p>
+<p>İki sıcaklık probunuz varsa, ister aynı kontrolörde ister iki farklı kontrolörde olsun, ikisini de eşleyin. Cora onları ayrı kaynaklar olarak tutar. Ölçümü hangisinin sağlayacağını <strong>Kaynaklar</strong> sekmesinde seçersiniz ya da Otomatik'te bırakırsınız. İkisini <a href="/tr/help/mobile-metric-detail">parametre görünümünde</a> karşılaştırabilirsiniz.</p>
 <p>İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe gider ve güncel değerin üzerine yazmaz. <strong>Kaynaklar</strong> sekmesinde bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.</p>
 <h2 id="recording-probe-care">Prob bakımını kaydetme</h2>
 <p>Problar zamanla kayar. Bir probu kalibre ettiğinizde, temizlediğinizde ya da değiştirdiğinizde Cora'ya söyleyin, böylece ölçümdeki sıçramayı akvaryumda gerçek bir değişiklik sanmaz.</p>
 <ol><li>Panoda parametrenin widget'ına dokunun, örneğin pH, sıcaklık, tuzluluk ya da ORP.</li><li>Üst çubuktaki <strong>Prob bakımını kaydet</strong>'e (sensör simgesi) dokunun.</li><li>Ne yaptığınızı seçin: <strong>Kalibre Edildi</strong>, <strong>Temizlendi</strong>, <strong>Değiştirildi</strong>, <strong>Yeniden Konumlandırıldı</strong> ya da <strong>Referansla Karşılaştırıldı</strong>. Bir <strong>Referans ölçüm</strong> ve not ekleyebilirsiniz.</li><li><strong>Prob bakımını kaydet</strong>'e dokunun.</li></ol>
 <p>Parametre görünümü bundan sonra o probun ne zaman kalibre edildiğini gösterir. Prob bakımı tekrarlanan bir <a href="/tr/help/mobile-maintenance">bakım görevi</a> olarak da iyi işler.</p>
 <aside class="cal cal-note"><p class="cal-t">Kalibrasyon tarihleri uyuşmazlıkları açıklar</p><p>Bir prob ile bir test kiti farklı sonuç verdiğinde probu en son ne zaman kalibre ettiğinize bakın. Yanıt genellikle budur.</p></aside>
-      <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-schedules"><span>Önceki</span><b>Ekipman programları</b></a><a class="pn-n" href="/tr/help/mobile-consumables"><span>Sonraki</span><b>Sarf malzemeleri ve dolum uyarıları</b></a></nav>
-      <p class="stamp">Cora Max 0.28.192 ve Cora Mobile 0.5.115 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-schedules"><span>Önceki</span><b>Ekipman zamanlamaları</b></a><a class="pn-n" href="/tr/help/mobile-consumables"><span>Sonraki</span><b>Sarf malzemeleri ve dolum uyarıları</b></a></nav>
+      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=4b66b3275e').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=16db2c61e1').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

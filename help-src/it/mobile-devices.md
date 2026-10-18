@@ -2,7 +2,7 @@
 title: Aggiungere, modificare e rimuovere dispositivi
 description: Aggiungi attrezzatura a Cora, assegnala a una vasca, rinominala, controlla che funzioni e rimuovila, tutto dalla scheda Dispositivi.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora controlla il Cora Max principale della vasca o, se non ne è scelto uno, il
 
 Tocca un dispositivo qualsiasi nell'elenco per aprirne la pagina. Prima vengono i suoi comandi, poi sezioni che funzionano allo stesso modo per ogni marca.
 
-- **Stato** mostra **Modello**, **Seriale**, **Firmware** e quando Cora l'ha sentito l'ultima volta (**Visto l'ultima volta**).
+- **Stato** mostra **Modello**, **Seriale**, **Firmware** e quando Cora l'ha sentito l'ultima volta (**Ultimo contatto**).
 - **Acquari** mostra a quale vasca (o vasche) è assegnato. Tocca **Modifica** per riassegnarlo.
 - **Connessione** è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.
 - **Rimuovi dispositivo**, in fondo.

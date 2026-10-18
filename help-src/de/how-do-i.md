@@ -2,7 +2,7 @@
 title: Wie mache ich...?
 description: Eine Liste häufiger Aufgaben in Cora Mobile und auf Cora Max, jeweils mit Link zu den genauen Schritten, vom Anlegen deines Kontos bis zum Koppeln von Cora Max und zum Kündigen eines Abos.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 

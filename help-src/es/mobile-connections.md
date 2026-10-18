@@ -2,7 +2,7 @@
 title: Conectar tus equipos
 description: Cómo conectar a Cora una unidad Neptune Apex, Red Sea ReefBeat, Jecod o AquaWiz.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 12
 group: Equipment
 ---
@@ -42,7 +42,7 @@ Cora lee tu Apex por tu red local, incluidas las sondas, las tomas y los módulo
 
 Si el escaneo no encuentra nada, comprueba que tu teléfono está en el mismo Wi-Fi que el Apex, o escribe tú la dirección IP.
 
-Una vez conectado, cada sonda que informa tu Apex pasa a ser una fuente que puedes poner en un panel. Las tomas aparecen como controles, y cada módulo de expansión instalado tiene su propia casilla de dispositivo. Tu propia programación del Apex sigue funcionando exactamente como la configuraste. Lo que puedes controlar está en [Controlar tus equipos](/help/mobile-device-control#neptune-apex).
+Una vez conectado, cada sonda que informa tu Apex pasa a ser una fuente que puedes poner en un panel. Las tomas aparecen como controles, y cada módulo de expansión instalado tiene su propia tarjeta de dispositivo. Tu propia programación del Apex sigue funcionando exactamente como la configuraste. Lo que puedes controlar está en [Controlar tus equipos](/help/mobile-device-control#neptune-apex).
 
 ## Red Sea ReefBeat {#red-sea-reefbeat}
 
@@ -54,7 +54,7 @@ Cora se comunica con los equipos ReefBeat por tu red local. Es compatible con **
 
 Una unidad Red Sea sirve a un solo acuario. Elegir otro la mueve ahí.
 
-Cada unidad tiene su propia página de dispositivo, y sus lecturas pasan a ser fuentes. ReefDose informa de sus cabezales y envases, ReefATO+ de su depósito y sus rellenados, ReefMat de los días que le quedan y ReefRun del estado de sus bombas. Lo que permite hacer cada página está en [Controlar tus equipos](/help/mobile-device-control#red-sea).
+Cada unidad tiene su propia página de dispositivo, y sus lecturas pasan a ser fuentes. ReefDose informa de sus cabezales y recipientes, ReefATO+ de su depósito y sus rellenados, ReefMat de los días que le quedan y ReefRun del estado de sus bombas. Lo que permite hacer cada página está en [Controlar tus equipos](/help/mobile-device-control#red-sea).
 
 ## Jecod / Jebao {#jecod}
 
@@ -76,7 +76,7 @@ Si una búsqueda no encuentra nada, el resultado muestra las direcciones que rev
 Su página muestra los últimos ajustes que leyó Cora y hace cuánto. Cambiar cualquier cosa, incluso empezar una pausa de alimentación, necesita la bomba al alcance. Acércate y vuelve a abrir la página.
 :::
 
-Con cualquiera de las dos conexiones tienes el estado en directo, el modo y la intensidad, una pausa de alimentación y un programa diario. En algunas bombas, una pausa de alimentación iniciada desde tu teléfono necesita que la página de la bomba siga abierta. Los detalles están en [Controlar tus equipos](/help/mobile-device-control#jecod), y [Programar equipos](/help/mobile-schedules) explica el programa diario.
+Con cualquiera de las dos conexiones tienes el estado en directo, el modo y la intensidad, una pausa de alimentación y un horario diario. En algunas bombas, una pausa de alimentación iniciada desde tu teléfono necesita que la página de la bomba siga abierta. Los detalles están en [Controlar tus equipos](/help/mobile-device-control#jecod), y [Programar equipos](/help/mobile-schedules) explica el programa diario.
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
@@ -84,11 +84,11 @@ Cora lee la alcalinidad de un controlador de KH AquaWiz a través de tu cuenta d
 
 1. Ve a **Dispositivos → Agregar dispositivo → AquaWiz**.
 2. Escribe tu usuario y tu contraseña de AquaWiz y toca **Conectar**.
-3. Elige el acuario, activa **Leer también su pH** si lo quieres y toca **Vincular a Cora**.
+3. Elige el acuario, revisa **Leer también su pH** (empieza activado en una unidad que informa del pH) y toca **Vincular a Cora**.
 
 Con **Mantenerse conectado automáticamente** activado, Cora guarda tu contraseña de AquaWiz y renueva la conexión por su cuenta. Desactivado, Cora guarda solo un token de inicio de sesión, que AquaWiz hace caducar más o menos cada 30 días, y te envía una notificación cuando toca volver a iniciar sesión.
 
-Tienes la alcalinidad como fuente, actualizada tan a menudo como titula tu controlador, y también el pH si lo activaste y tu unidad lo informa. Lo que muestra la tarjeta de AquaWiz, y su alerta de suplemento, están en [Controlar tus equipos](/help/mobile-device-control#aquawiz).
+Tienes la alcalinidad como fuente, y también el pH si tu unidad lo informa y **Leer también su pH** está activado. Tu primera lectura llega en cuanto la vinculas. Después, AquaWiz solo deja que Cora lea su nube automáticamente cada 12 horas, así que una lectura de ahí puede tener hasta medio día. Un Cora Max en el acuario también puede leer el controlador él mismo cada hora cuando llega hasta él. Abre la página del dispositivo para ver cuándo se midió cada lectura y de dónde viene, y toca **Leer ahora** para una nueva (como máximo cada 15 minutos). Lo que muestra la tarjeta de AquaWiz, y sus alertas, están en [Controlar tus equipos](/help/mobile-device-control#aquawiz).
 
 :::warning Cora comparte tu inicio de sesión de AquaWiz
 AquaWiz da a cada cuenta un solo inicio de sesión, así que Cora usa el mismo que la app de AquaWiz. Si cambias tu contraseña de AquaWiz, Cora se desconecta. Vuelve a conectarlo después desde la fila del dispositivo. Para quitarle a Cora el acceso por completo, quita el dispositivo en Cora y cambia tu contraseña de AquaWiz.

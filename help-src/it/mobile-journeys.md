@@ -1,35 +1,35 @@
 ---
 title: Percorsi guidati
-description: Avvia il percorso guidato di ciclaggio per una nuova vasca, seguilo fino alla fine e affronta un problema di dinoflagellati passo dopo passo.
+description: Avvia il percorso guidato di maturazione per una nuova vasca, seguilo fino alla fine e affronta un problema di dinoflagellati passo dopo passo.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 34
 group: Intelligence
 ---
 
-In un percorso Cora ti accompagna in qualcosa che dura giorni o settimane. Ci sono due tipi di percorso e funzionano in modo diverso: il **ciclaggio** di una nuova vasca e la gestione di un **problema**.
+In un percorso Cora ti accompagna in qualcosa che dura giorni o settimane. Ci sono due tipi di percorso e funzionano in modo diverso: la **maturazione** di una nuova vasca e la gestione di un **problema**.
 
-## Avviare il percorso di ciclaggio
+## Avviare il percorso di maturazione
 
-Il ciclaggio guidato è gratuito con tutti i piani. Lo avvii dalla dashboard della vasca.
+La maturazione guidata è gratuito con tutti i piani. Lo avvii dalla dashboard della vasca.
 
 1. Apri la nuova vasca nella scheda **Dashboard**. Una scheda chiede **Stai avviando una nuova vasca?**
-2. Toccala. La prima volta Cora spiega il **Ciclaggio guidato**: mentre la vasca fa il ciclo, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora.
-3. Tocca **Capito: avvia il ciclaggio**. Si apre il percorso.
+2. Toccala. La prima volta Cora spiega la **Maturazione guidata**: mentre la vasca fa il ciclo, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora.
+3. Tocca **Capito: avvia la maturazione**. Si apre il percorso.
 
 :::warning Avvialo prima di registrare qualcosa o collegare attrezzatura
-La scheda **Stai avviando una nuova vasca?** compare solo su una vasca senza nessuna lettura. Appena registri un test o colleghi un dispositivo che invia letture, la scheda sparisce, e non c'è un altro modo per avviare il percorso di ciclaggio. Se la vasca sta ancora facendo il ciclo, avvia prima il percorso, poi registra il primo test dall'interno del percorso.
+La scheda **Stai avviando una nuova vasca?** compare solo su una vasca senza nessuna lettura. Appena registri un test o colleghi un dispositivo che invia letture, la scheda sparisce, e non c'è un altro modo per avviare il percorso di maturazione. Se la vasca sta ancora facendo il ciclo, avvia prima il percorso, poi registra il primo test dall'interno del percorso.
 :::
 
-Quando è in corso, la scheda sulla dashboard dice **Continua il ciclaggio · Giorno N**. Toccala per tornare al percorso. Se dice **Riprendi il ciclaggio**, la vasca è ancora impostata per il ciclaggio: toccala per riaprire la guida.
+Quando è in corso, la scheda sulla dashboard dice **Continua la maturazione · Giorno N**. Toccala per tornare al percorso. Se dice **Riprendi la maturazione**, la vasca è ancora impostata per la maturazione: toccala per riaprire la guida.
 
-## Il ciclaggio di una nuova vasca
+## La maturazione di una nuova vasca
 
 Serve per una vasca non ancora pronta per gli animali. Durante il ciclo crescono i batteri che trasformano l'ammoniaca, che è tossica, in nitrati innocui, e il percorso segue il processo fino alla fine.
 
-![Un percorso di ciclaggio in corso](img/mobile-journeys.webp "La fase, i tre numeri che la definiscono e da quanto tempo non fai un test.")
+![Un percorso di maturazione in corso](img/mobile-journeys.webp "La fase, i tre numeri che la definiscono e da quanto tempo non fai un test.")
 
-La schermata del percorso, **Nuova vasca: ciclaggio**, ha **La tua lista di controllo per la configurazione**, con i passi per preparare la vasca e inocularla, e per ognuno un breve perché e come. Spuntali man mano.
+La schermata del percorso, **Nuova vasca: maturazione**, ha **La tua lista di controllo per la configurazione**, con i passi per preparare la vasca e inocularla, e per ognuno un breve perché e come. Spuntali man mano.
 
 Tocca **Registra un test** per aggiungere un test di ammoniaca, nitriti e nitrati. Inserisci quello che ha letto il tuo kit, lascia vuoto il resto e tocca **Salva test**. Fai un test ogni due o tre giorni. Cora ricava la fase da queste letture:
 
@@ -43,7 +43,7 @@ Tocca **Registra un test** per aggiungere un test di ammoniaca, nitriti e nitrat
 
 **Il tuo ciclo finora** mostra le tre curve insieme. Sono in scala l'una rispetto all'altra invece che sui valori reali, così vedi una colonia che passa il testimone alla successiva. Tocca un nome per vedere i numeri reali.
 
-Per un secondo parere, tocca **Chiedi a Cora del ciclaggio**. Apre [Cora Assistant](/help/mobile-assistant) con una domanda sulle tue ultime letture.
+Per un secondo parere, tocca **Chiedi a Cora della maturazione**. Apre [Cora Assistant](/help/mobile-assistant) con una domanda sulle tue ultime letture.
 
 :::warning Due cose bloccano un ciclo
 **Ammoniaca o nitriti sopra 5 ppm** bloccano i batteri che stai cercando di far crescere. Se hai esagerato, un cambio d'acqua parziale li riporta giù. Anche un **pH sotto 7** blocca il ciclo. Il percorso ti avvisa in tutti e due i casi, perché aspettare di più non serve.
@@ -71,7 +71,7 @@ La vasca passa al monitoraggio normale e si attiva tutta l'intelligenza da reef.
 I percorsi per i problemi riguardano **un solo problema: i dinoflagellati**. Cora te ne propone uno quando le tue letture e quello che hai segnalato puntano lì. Il percorso parte solo se accetti. Cora non ne avvia mai uno da sola.
 
 :::note Per ora solo due percorsi
-Ciclaggio e dinoflagellati sono gli unici percorsi per ora. Per gli altri problemi usa [Cora Assistant](/help/mobile-assistant) e il [diario](/help/mobile-journal).
+Maturazione e dinoflagellati sono gli unici percorsi per ora. Per gli altri problemi usa [Cora Assistant](/help/mobile-assistant) e il [diario](/help/mobile-journal).
 :::
 
 Un percorso per un problema ha tre fasi:
@@ -81,7 +81,7 @@ Un percorso per un problema ha tre fasi:
 3. **Risultato**: ha funzionato?
 
 :::note La verifica la completi tu
-Un percorso per un problema si apre su **Verifica**. Ti chiede di confermare la lettura prima di mostrarti un piano. Un percorso di ciclaggio non ha la fase **Verifica**. Si basa sui test che registri.
+Un percorso per un problema si apre su **Verifica**. Ti chiede di confermare la lettura prima di mostrarti un piano. Un percorso di maturazione non ha la fase **Verifica**. Si basa sui test che registri.
 :::
 
 ### Registrare il risultato

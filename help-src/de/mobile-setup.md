@@ -2,7 +2,7 @@
 title: Cora Mobile einrichten
 description: Cora Mobile installieren, dein Konto anlegen, dein erstes Becken hinzufügen und die ersten Messwerte auf den Bildschirm bringen, Schritt für Schritt.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 group: Getting started
 twin: max-setup
@@ -20,7 +20,7 @@ Wenn du Cora Mobile zum ersten Mal öffnest, stellen ein paar kurze Bildschirme 
 
 Zwei davon bitten um etwas:
 
-- **Deine Geräte laufen über dein Wi-Fi** weist dich auf eine Frage hin, die dein iPhone später stellt. Wenn du dein erstes Stück Ausrüstung hinzufügst, fragt das iPhone, ob Cora Geräte in deinem lokalen Netzwerk finden darf. Erlaube es, sonst findet Cora nichts in deinem WLAN. Hast du Nein gesagt, bringt dich **Einstellungen → Gerätezugriff** zum Schalter. Siehe [Cora Mobile-Einstellungen](/help/mobile-settings#device-access).
+- **Deine Geräte laufen über dein WLAN** weist dich auf eine Frage hin, die dein iPhone später stellt. Wenn du dein erstes Stück Ausrüstung hinzufügst, fragt das iPhone, ob Cora Geräte in deinem lokalen Netzwerk finden darf. Erlaube es, sonst findet Cora nichts in deinem WLAN. Hast du Nein gesagt, bringt dich **Einstellungen → Gerätezugriff** zum Schalter. Siehe [Cora Mobile-Einstellungen](/help/mobile-settings#device-access).
 - Der letzte Bildschirm handelt von Warnungen. Tippe auf **Benachrichtigungen erlauben** und erlaube es dann in der Abfrage deines Handys, damit Warnungen dieses Handy erreichen. **Vielleicht später** überspringt es. Mehr dazu unter [Benachrichtigungen](/help/mobile-notifications).
 
 ## Erst mal umschauen {#looking-around-first}
@@ -53,7 +53,7 @@ In Cora ist ein **Becken** jeder Wasserkörper, den du verfolgen willst. Die mei
 Nach der Anmeldung fragt **Lerne dein Becken kennen** drei Dinge. Nur der Name ist Pflicht, und du kannst alles später in deinem [Beckenprofil](/help/mobile-tank-profile) ändern.
 
 1. **Wie nennst du es?** ist der Name, den du im Alltag benutzt, etwa "Hauptbecken", "Frag" oder "QT".
-2. **Was für ein Becken ist es?** ist **SPS-Riff**, **LPS-Riff**, **Mischriff**, **Weichkorallenriff**, **FOWLR** oder **Nur Fisch**. Der Typ legt deine Start-Warnbereiche fest. Bist du unsicher, wähl **Mischriff**.
+2. **Was für ein Becken ist es?** ist **SPS-Riff**, **LPS-Riff**, **Mischbecken**, **Weichkorallenriff**, **FOWLR** oder **Nur Fisch**. Der Typ legt deine Start-Warnbereiche fest. Bist du unsicher, wähl **Mischbecken**.
 3. **Wie viel Wasser?** ist das echte Wasservolumen, mit Technikbecken. Die Dosierberechnung nutzt diese Zahl, sie sollte also ungefähr stimmen. Kennst du nur die Größe des Beckens, tippe auf **Volumen unbekannt? Maße eingeben**, und Cora rechnet es aus.
 
 Tippe auf **Mein Becken erstellen**.
@@ -77,7 +77,7 @@ Bist du fertig, tippe auf **Zu meinem Dashboard** oder **Das mache ich später**
 
 ## Deine ersten 30 Tage {#your-first-30-days}
 
-Bei einem neuen kostenlosen Konto zeigt **Zu meinem Dashboard** zuerst **Deine ersten 30 Tage gehen auf uns**. Deine 30-tägige Pro-Testphase hat begonnen, als du dein Konto angelegt hast, und du brauchst keine Karte. Tippe auf **Jetzt entdecken**, um weiterzumachen, oder auf **Pläne ansehen**, um dir die bezahlten Pläne anzusehen. Mehr dazu unter [Pläne und Abos](/help/mobile-plans#the-trial).
+Bei einem neuen kostenlosen Konto zeigt **Zu meinem Dashboard** zuerst **Deine ersten 30 Tage gehen auf uns**. Deine 30-tägige Advanced-Testphase hat begonnen, als du dein Konto angelegt hast, und du brauchst keine Karte. Tippe auf **Jetzt entdecken**, um weiterzumachen, oder auf **Pläne ansehen**, um dir die bezahlten Pläne anzusehen. Mehr dazu unter [Pläne und Abos](/help/mobile-plans#the-trial).
 
 ## Dein erster Blick auf das Dashboard {#your-first-look-at-the-dashboard}
 

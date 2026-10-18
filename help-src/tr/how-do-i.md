@@ -2,7 +2,7 @@
 title: Nasıl yaparım...?
 description: Cora Mobile'da ve Cora Max'te sık yapılan işlerin listesi. Hesap açmaktan Cora Max'i eşleştirmeye ve bir planı iptal etmeye kadar her biri tam adımlara bağlanır.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 2
 ---
 
@@ -46,7 +46,7 @@ Yapmak istediğiniz işi seçin. Her bağlantı o işin adımlarını açar. Bir
 - [Telefonumda besleme modunu başlatma](/help/mobile-dashboard#the-tank-header)
 - [Cora Max'te besleme modunu başlatma](/help/max-controls#feed-mode)
 - [Bir DŌS kafasını duraklatma](/help/mobile-device-control#dos)
-- [Bir pompaya günlük program verme](/help/mobile-schedules)
+- [Bir pompaya günlük zamanlama verme](/help/mobile-schedules)
 - [Ekipmanımın ne yaptığını ve nedenini görme](/help/mobile-activity)
 
 ## Ölçümler ve panonuz

@@ -182,19 +182,19 @@
 <h2 id="tagebuch">Tagebuch</h2>
 <p>Öffne <strong>Tagebuch</strong> im Beckenmenü und tippe auf <strong>Neuer Eintrag</strong>. Gib ihm einen Titel und füg, wenn du willst, eine Beschreibung, Tags oder ein Foto hinzu. <strong>Wasserwerte anhängen</strong> speichert die aktuellen Messwerte mit. Oder sag <em>"Hey Cora, notier, dass ich Mysis gefüttert habe."</em> Mehr dazu unter <a href="/de/help/mobile-journal">Das Tagebuch</a>.</p>
 <h3 id="futterung">Fütterung</h3>
-<p>Oben auf dem Tagebuch-Bildschirm fügen <strong>Extra gefüttert</strong> und <strong>Fütterung ausgelassen</strong> jeweils einen Tagebucheintrag hinzu. Eine Zeile darunter zeigt deinen Fütterungsplan, zum Beispiel <em>Fütterungsplan: Flocken: 2 Prisen, zweimal täglich</em>. Den Plan legst du in Cora Mobile fest. Ist keiner gespeichert, steht in der Zeile <em>Lege deinen Fütterungsplan in der Handy-App fest</em>.</p>
+<p>Oben auf dem Tagebuch-Bildschirm fügen <strong>Extra gefüttert</strong> und <strong>Fütterung ausgelassen</strong> jeweils einen Tagebucheintrag hinzu. Eine Zeile darunter zeigt deine Fütterungsroutine, zum Beispiel <em>Fütterungsroutine: Flocken: 2 Prisen, zweimal täglich</em>. Die Routine legst du in Cora Mobile fest. Ist keine gespeichert, steht in der Zeile <em>Lege deine Fütterungsroutine in der Handy-App fest</em>.</p>
 <p>Fragt Cora Max deinen Neptune™ Apex ab, hält es außerdem einen Fütterungszyklus Feed A bis D fest, sobald einer startet, egal ob du ihn hier, am Apex oder in Apex Fusion gestartet hast.</p>
 <aside class="cal cal-note"><p class="cal-t">In der oberen Leiste gibt es kein Tagebuch-Symbol</p><p>Das Symbol neben dem Gerätesymbol ist <strong>Reef Buddy</strong>, und sein Punkt bedeutet, dass das heutige Briefing ungelesen ist. Tagebucheinträge fügst du über das Beckenmenü oder per Sprache hinzu.</p></aside>
 <h2 id="wartung">Wartung</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Wartung auf Cora Max"><img src="/help/img/max-records.webp" alt="Wartung auf Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Fällige Aufgaben, jeweils mit Verschieben und Fertig, und was zuletzt erledigt wurde.</figcaption></figure>
 <p>Oben auf dem Bildschirm steht, wie viele Aufgaben fällig sind. Darunter listet <strong>Anstehend</strong> jede Aufgabe mit <strong>HEUTE</strong>, <strong>IN 3T</strong> oder <strong>ÜBERFÄLLIG 2T</strong> auf, und <strong>Erledigt · letzte 7 Tage</strong> zeigt, was du zuletzt gemacht hast.</p>
-<ul><li>Tippe auf <strong>Fertig</strong>, wenn du eine Aufgabe erledigt hast.</li><li>Tippe auf <strong>Verschieben</strong>, um sie um <strong>1 Tag</strong>, <strong>3 Tage</strong>, <strong>1 Woche</strong>, <strong>2 Wochen</strong> oder <strong>1 Monat</strong> zu verschieben.</li></ul>
+<ul><li>Tippe auf <strong>Fertig</strong>, wenn du eine Aufgabe erledigt hast. Ist sie überfällig, fragt Cora <strong>Wann hast du es erledigt?</strong></li><li>Tippe auf <strong>Früher erledigt…</strong>, wenn du es vor heute gemacht hast. Wähle Datum und Uhrzeit, und die nächste Fälligkeit zählt ab dann. Ein Zeitpunkt in der Zukunft oder vor der letzten Erledigung wird nicht angenommen.</li><li>Tippe auf <strong>Verschieben</strong>, um sie um <strong>1 Tag</strong>, <strong>3 Tage</strong>, <strong>1 Woche</strong>, <strong>2 Wochen</strong> oder <strong>1 Monat</strong> zu verschieben.</li></ul>
 <p>Aufgaben fügst du auf dem Handy hinzu und änderst sie dort. Mehr dazu unter <a href="/de/help/mobile-maintenance">Wartung</a>.</p>
 <h2 id="besatz">Besatz</h2>
 <p>Das ist der vollständige Bestand, mit dem, was <strong>Im Becken</strong> ist, und dem, was <strong>Nicht mehr im Becken</strong> ist. Hier kannst du ihn nur ansehen. Besatz fügst du in Cora Mobile hinzu und bearbeitest ihn dort, und was du dort hinzufügst, erscheint sofort auf diesem Bildschirm. Mehr dazu unter <a href="/de/help/mobile-livestock">Besatz</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Ein Satz Aufzeichnungen</p><p>Jedes Becken hat ein Tagebuch, einen Besatzbestand und eine Wartungsliste. Cora Max und dein Handy zeigen dieselben Aufzeichnungen.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-automation"><span>Zurück</span><b>Szenen auf Cora Max</b></a><a class="pn-n" href="/de/help/max-activity"><span>Weiter</span><b>Aktivität auf Cora Max</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

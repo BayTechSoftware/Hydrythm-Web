@@ -1,8 +1,8 @@
 ---
 title: Avvisi e soglie
-description: Imposta l'intervallo sano di ogni lettura, scegli ogni quanto un avviso può notificarti e scopri perché un dispositivo "ha smesso di inviare dati".
+description: Imposta l'intervallo ideale di ogni lettura, scegli ogni quanto un avviso può notificarti e scopri perché un dispositivo "ha smesso di inviare dati".
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -20,7 +20,7 @@ Ha due schede. **Attivi** elenca gli avvisi in corso in questo momento, con un b
 
 Ogni avviso attivo mostra il parametro e la vasca, la lettura che l'ha fatto scattare, una breve spiegazione, un'etichetta con la gravità, il tipo di regola che è scattata (**Soglia** o **Velocità di variazione**) e quando è scattata. Ha due pulsanti:
 
-- **Vedi la regola** apre la regola che c'è dietro, così puoi correggere l'intervallo. Su un avviso di un dosatore, come una testa DŌS o ReefDose quasi vuota o una dose mancata, questo pulsante è invece **Apri dosatore**. Apre la pagina di quel dosatore con i suoi avvisi.
+- **Vedi la regola** apre la regola che c'è dietro, così puoi correggere l'intervallo. Su un avviso di una pompa dosometrica, come una testa DŌS o ReefDose quasi vuota o una dose mancata, questo pulsante è invece **Apri pompa dosometrica**. Apre la pagina di quella pompa dosometrica con i suoi avvisi.
 - **Spiega questo avviso** apre Cora Assistant con una domanda sull'avviso pronta da inviare. Controllala, cambiala se vuoi, poi inviala.
 
 ## La scheda Regole {#rules}
@@ -29,7 +29,7 @@ Ogni avviso attivo mostra il parametro e la vasca, la lettura che l'ha fatto sca
 
 Le regole sono raggruppate per parametro. Ogni regola ha il suo interruttore sulla riga, così puoi spegnerne una senza aprirla. Una riga mostra anche **In corso** mentre il suo avviso è attivo, oppure quando è scattato l'ultima volta (o **Mai scattato**).
 
-Le regole di una testa di dosaggio prendono il nome dalla testa e da quello che controllano, per esempio *Iodio · giorni rimanenti* o *Iodio · rimanente*. Una dose mancata compare come *Iodio · dose mancata*. Ogni DŌS e ogni ReefDose ha qui una sola riga, e gli avvisi delle sue teste non sono elencati uno per uno. Tocca la riga per aprire la pagina di quel dosatore. Vedi [Avvisi del dosatore](/help/mobile-device-control#doser-alerts).
+Le regole di una testa di dosaggio prendono il nome dalla testa e da quello che controllano, per esempio *Iodio · giorni rimanenti* o *Iodio · rimanente*. Una dose mancata compare come *Iodio · dose mancata*. Ogni DŌS e ogni ReefDose ha qui una sola riga, e gli avvisi delle sue teste non sono elencati uno per uno. Tocca la riga per aprire la pagina di quella pompa dosometrica. Vedi [Avvisi della pompa dosometrica](/help/mobile-device-control#doser-alerts).
 
 In fondo:
 
@@ -98,7 +98,7 @@ Quanto aspetta Cora dipende dal dispositivo:
 |---|---|
 | Neptune Apex | Circa 30 minuti senza un aggiornamento |
 | Red Sea ReefBeat | Circa 30 minuti |
-| AquaWiz | Circa 3 ore, perché invia dati meno spesso |
+| AquaWiz | Circa 25 ore, perché AquaWiz lascia leggere il suo cloud a Cora solo ogni 12 ore |
 | Pompe Jecod | Tre letture mancate di fila, sull'intervallo di lettura della pompa (90 minuti con il valore predefinito di 30) |
 | Presa Zigbee | Non è tornata 30 minuti dopo il riavvio dell'hub. Dalle un nome con **Rinomina** perché l'avviso la indichi |
 

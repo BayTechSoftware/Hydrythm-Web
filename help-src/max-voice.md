@@ -2,7 +2,7 @@
 title: Talking to Cora
 description: Use voice and "Hey Cora" on Cora Max, what it can and can't do by voice, AI data sharing and your monthly allowance, and what to do when Cora doesn't answer.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -62,15 +62,19 @@ You don't need to repeat yourself for follow-ups. After a question about the dis
 - Write in the journal: *"Log that I did a twenty litre water change."* *"Log that I fed extra mysis."* *"Log that I skipped the morning feed."*
 - Control Red Sea equipment: dose from a ReefDose head, change its daily dose, start a ReefATO+ fill, advance a ReefMat, or set a ReefRun pump's speed.
 - Control Jecod pumps.
+- Run an automation or scene by name, like Cora Assistant on your phone: *"Run the water change scene."*
 
 ## What Cora can't do by voice on Cora Max
 
-- Run or stop a scene. Use the scene tile or **Settings → Automations**.
 - Dose from a Neptune DŌS head. Use the device's page on Cora Max.
 - Change Cora Max's own settings, add devices or edit the dashboard.
 
 Cora Assistant on your phone can do some of these. More in [Asking Cora](/help/mobile-assistant#what-cora-can-change).
 
+
+## Open the screen from an answer {#help-answers}
+
+When you ask how to do something, Cora answers from the Help guide. If the answer is about a Cora Max screen, the voice card shows its title and **Open this screen**. Tap it to go there. It only shows when there's a screen to open. Cora Max has no browser, so there's no link to the web page.
 
 ## Confirmations
 

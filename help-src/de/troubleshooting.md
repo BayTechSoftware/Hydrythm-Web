@@ -2,7 +2,7 @@
 title: Problembehebung
 description: Einen veralteten Messwert, ein Gerät, das offline gegangen ist, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine Warnung, die nicht verschwindet, beheben.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -131,7 +131,7 @@ Jeder Befehl endet als **Bestätigt**, **Unbestätigt**, **Abgelehnt** oder **Ke
 
 ### "Diese Pumpe konnte nicht erreicht werden: Es wurde nichts gesendet" {#could-not-reach-this-pump-nothing-was-sent}
 
-Ein Befehl an deine Jecod- oder Jebao-Pumpe hat Cora nie verlassen. Auf dem Handy lautet die Meldung *"Diese Pumpe konnte nicht erreicht werden. Sie muss im selben Wi-Fi wie dein Telefon sein."* Meist ist die Pumpe aus oder nicht in ihrem Netzwerk.
+Ein Befehl an deine Jecod- oder Jebao-Pumpe hat Cora nie verlassen. Auf dem Handy lautet die Meldung *"Diese Pumpe konnte nicht erreicht werden. Sie muss im selben WLAN wie dein Telefon sein."* Meist ist die Pumpe aus oder nicht in ihrem Netzwerk.
 
 1. Prüf, ob die Pumpe eingeschaltet ist.
 2. Prüf, ob sie im selben Netzwerk ist, in dem du sie hinzugefügt hast, und ob dein Handy oder Cora Max auch in diesem Netzwerk ist.
@@ -178,7 +178,7 @@ Der DŌS-Kopf hat während der Dosierung die Verbindung verloren. Cora sagt es d
 Auf dem Handy hat seine Zeile im Tab **Geräte** einen roten Punkt. Solange es offline ist, wird Ausrüstung, die es abfragt, nicht mehr aktualisiert, du bekommst vielleicht Warnungen, dass sich diese Ausrüstung nicht mehr meldet, und Befehle, die du von unterwegs schickst, können mit *"Es wurde nichts gesendet"* zurückkommen.
 
 1. Prüf, ob Cora Max Strom hat und der Bildschirm an ist.
-2. Prüf auf Cora Max **Einstellungen → Cora Max-Einstellungen → Wi-Fi** und ob dein Router funktioniert.
+2. Prüf auf Cora Max **Einstellungen → Cora Max-Einstellungen → WLAN** und ob dein Router funktioniert.
 3. Ist ein weiteres Cora Max am Becken, stell **Primäres Cora Max** auf **Jedes aktive (automatisch)**, damit es übernehmen kann. Siehe [Mehr als ein Cora-Gerät](/help/mobile-multi-device#primary-cora-max).
 4. Startet es nicht richtig, siehe [Updates und Wiederherstellung](/help/max-updates).
 
@@ -194,7 +194,7 @@ Cora Mobile findet ein neues Cora Max über Bluetooth und gibt ihm dann dein WLA
 - *"Bluetooth-Berechtigung ist für Cora deaktiviert. Aktiviere sie in den Einstellungen und tippe dann erneut auf Scannen."* Erlaube Cora in den Einstellungen deines Handys Bluetooth. **Einstellungen → Gerätezugriff** in Cora Mobile bringt dich dorthin.
 - *"Es wurden keine Cora Einrichtungsgeräte in der Nähe über Bluetooth gefunden."* Stell dich neben Cora Max, prüf, ob es seinen Einrichtungsbildschirm zeigt, und scanne noch einmal.
 - **Keine Becken gefunden**: Leg zuerst ein Becken in Cora Mobile an und koppel dann.
-- *"Dein Telefon konnte das Cora Max in deinem Wi-Fi nicht erreichen."* Bring dein Handy und Cora Max ins selbe WLAN. Prüf auf dem iPhone außerdem, ob Cora Zugriff auf das lokale Netzwerk hat (**Einstellungen → Gerätezugriff**). Tippe dann auf **Erneut versuchen**.
+- *"Dein Telefon konnte das Cora Max in deinem WLAN nicht erreichen."* Bring dein Handy und Cora Max ins selbe WLAN. Prüf auf dem iPhone außerdem, ob Cora Zugriff auf das lokale Netzwerk hat (**Einstellungen → Gerätezugriff**). Tippe dann auf **Erneut versuchen**.
 - *"Das Cora Max hat diese Kopplungssitzung nicht akzeptiert."* Erneut versuchen hilft nicht. Schließ den Bildschirm und fang wieder bei **Geräte → Gerät hinzufügen → Cora** an.
 
 Bei jeder anderen Meldung tippe auf **Erneut versuchen**. Die ganze Einrichtung steht unter [Cora Max einrichten](/help/max-setup).
@@ -203,7 +203,7 @@ Bei jeder anderen Meldung tippe auf **Erneut versuchen**. Die ganze Einrichtung 
 
 Sieh dir die Statusanzeige in der oberen Leiste an. **Online** und **Cloud** sind beide in Ordnung. Hast du mehr als ein Cora Max, zeigt das, das die Daten nicht sammelt, **Cloud**, und seine Messwerte sind genauso aktuell. **Veraltet** oder **Offline** heißt, dass Cora Max seine Quelle verloren hat und die letzten Daten zeigt, die es bekommen hat.
 
-- Prüf das WLAN unter **Einstellungen → Cora Max-Einstellungen → Wi-Fi**.
+- Prüf das WLAN unter **Einstellungen → Cora Max-Einstellungen → WLAN**.
 - Prüf, ob dein Netzwerk selbst funktioniert.
 - Steht in der Anzeige **Online** oder **Cloud** und sind die Daten trotzdem alt, liegt das Problem vor Cora Max. Prüf dasselbe Becken auf deinem Handy.
 
@@ -232,7 +232,7 @@ Das Primäre Cora Max für dieses Becken ist offline gegangen. Dieser Bildschirm
 Nachdem es seine Verbindung verloren hat, wartet Cora Max vor jedem neuen Versuch etwas länger, damit es dein Netzwerk nicht überflutet. Die Wartezeit wächst auf etwa eine Minute.
 
 1. Gib ihm etwa eine Minute, nachdem dein Netzwerk zurück ist.
-2. Hat es sich dann immer noch nicht verbunden, prüf **Einstellungen → Cora Max-Einstellungen → Wi-Fi**.
+2. Hat es sich dann immer noch nicht verbunden, prüf **Einstellungen → Cora Max-Einstellungen → WLAN**.
 
 ### Ein Cora Max auf dem Handy umzubenennen ändert nicht, was es zeigt {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 
@@ -301,13 +301,13 @@ Mehr dazu unter [Reef Buddy](/help/mobile-reef-buddy).
 
 ### Von einem entfernten Becken kommen weiter Warnungen {#alerts-from-a-removed-tank}
 
-Ein Becken zu entfernen, blendet es nur aus. Seine Geräte bleiben mit ihm verknüpft, und ein Cora Max kann es weiter abfragen, seine Ausrüstung kann also weiter melden und warnen.
+Ein entferntes Becken bleibt wegen seines Verlaufs erhalten, sendet aber keine Warnungen oder Erinnerungen, und seine Automationen stoppen. Kommt trotzdem noch eine:
 
-1. Hol es unter **Einstellungen → Entfernte Becken** zurück, damit du es wieder siehst.
-2. Entferne oder verschieb seine Geräte im Tab **Geräte**.
-3. Nimm es von deinem Cora Max: Öffne auf dem Handy **Geräte**, dann dein Cora Max, und tippe unter **Becken** daneben auf **Becken entfernen**.
+1. Öffne **Einstellungen → Entfernte Becken**. Steht das Becken dort nicht, wurde es nicht entfernt.
+2. Aktualisiere Cora Mobile und dein Cora Max auf die neueste Version.
+3. Kommen weiter Warnungen? Schreib dem Support mit dem Text der Warnung und der Uhrzeit. Siehe [Ein Problem melden](/help/mobile-support).
 
-Entferne das Becken dann noch einmal. Mehr dazu unter [Deine Becken verwalten](/help/mobile-tanks).
+Mehr dazu unter [Deine Becken verwalten](/help/mobile-tanks).
 
 
 ## Cora Assistant und Sprache {#cora-assistant-and-voice}
@@ -358,7 +358,7 @@ Jemand hat die Kontosprache auf einem deiner Geräte geändert. Sie ist eine Ein
 
 Das ist zu erwarten. Cora übersetzt nichts neu, was es schon geschrieben hat. Neue Warnungen, Berichte und Briefings nutzen die neue Sprache.
 
-### "Cora konnte nicht erreicht werden. Prüfe dein Wi-Fi oder deine mobilen Daten und versuche es erneut." {#could-not-reach-cora-check-your-wi-fi-or-mobile-data-then-tr}
+### "Cora konnte nicht erreicht werden. Prüfe dein WLAN oder deine mobilen Daten und versuche es erneut." {#could-not-reach-cora-check-your-wi-fi-or-mobile-data-then-tr}
 
 Dein Handy erreicht Cora Cloud nicht, um dich anzumelden. Das betrifft die Verbindung deines Handys, nicht die Ausrüstung deines Beckens.
 

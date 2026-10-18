@@ -2,7 +2,7 @@
 title: Ekipmanınızı kontrol etme
 description: Canlı durumunu görmek ve prizleri, pompaları, dozaj kafalarını ve test cihazlarını marka marka değiştirmek için bir cihazın sayfasını açın.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
@@ -39,7 +39,7 @@ Akvaryumda Cora Max yokken Neptune Apex, Red Sea ve Jecod ekipmanı yalnızca ye
 
 ![Cora Mobile'da durumunu, Trident ve DŌS modüllerini, Parametre Eşlemesi'ni ve hizmet ettiği akvaryumu gösteren bir Apex sayfası](img/mobile-apex.webp "Apex sayfası: Durum, Modüller, Parametre Eşlemesi ve Akvaryumlar.")
 
-Apex sayfası kontrolcünün durumunu, ardından **Modüller**, **Parametre Eşlemesi** ve **Akvaryumlar**'ı gösterir.
+Apex sayfası kontrolörün durumunu, ardından **Modüller**, **Parametre Eşlemesi** ve **Akvaryumlar**'ı gösterir.
 
 - **Modüller**, takılı her Trident ve DŌS'u listeler. Kendi sayfasını açmak için birine dokunun.
 - **Parametre Eşlemesi**, her probun neyi besleyeceğini seçtiğiniz yerdir. Problar Cora'ya kaynak olarak bildirir ve onları bir panoya koyabilirsiniz. [Parametre Eşlemesi ve problar](/help/mobile-probes) sayfasına bakın.
@@ -60,18 +60,18 @@ Ayrıca kalan testler ve atık şişesi için bir uyarı kurabilirsiniz, böylec
 
 Bir DŌS QD tam olarak bir DŌS gibi çalışır ve buradaki her şey ikisi için de geçerlidir. Bir Cora Max Apex'inizi okuduğunda dozaj kafaları DŌS sayfasında görünür. Priz listesinde hiçbir zaman görünmezler.
 
-Her dozaj kafası neyi dozladığını, programını, bugün ne dozladığını ve kapta ne kadar kaldığını gösterir. Ayrıca bunun mevcut hızla kaç gün yeteceğini gösteren **Kalan süre**'yi de gösterir.
+Her dozaj kafası neyi dozladığını, zamanlamasını, bugün ne dozladığını ve kapta ne kadar kaldığını gösterir. Ayrıca bunun mevcut hızla kaç gün yeteceğini gösteren **Kalan süre**'yi de gösterir.
 
 DŌS, AquaBus'ta yanıt vermeyi bırakırsa sayfası **Veri yolunda değil** ve bir **Dikkat gerekiyor** kartı gösterir. Bu durumda sayfadaki değerler şu anda yaptığı şey değil, bildirdiği son değerlerdir. Modülün AquaBus kablosunu ve Apex'i kontrol edin.
 
 Her kafa için şunları yapabilirsiniz:
 
-- Programını **Duraklat** ve **Sürdür**
+- Zamanlamasını **Duraklat** ve **Sürdür**
 - **Doldur**: Cora'ya kabın yeniden dolu olduğunu söylemek ya da içinde ne kadar olduğunu ayarlamak için (**Toplam Hacim** kabın boyutu, **Kalan Hacim** şu anda içinde olan miktardır, **Dolu** birini diğerine eşitler)
 - **Şimdi dozajla**: elle ölçülü bir doz için
 
-:::note Programları Apex Fusion'da düzenleyin
-Cora programı gösterir ve neyin dozlandığını izler, ama programı değiştirmez. Programı, dozaj hızını ve doz sayısını Apex Fusion uygulamasında düzenlersiniz. Duraklatma, doldurma ve elle dozaj burada çalışır.
+:::note Zamanlamaları Apex Fusion'da düzenleyin
+Cora zamanlamayı gösterir ve neyin dozlandığını izler, ama zamanlamayı değiştirmez. Zamanlamayı, dozaj hızını ve doz sayısını Apex Fusion uygulamasında düzenlersiniz. Duraklatma, doldurma ve elle dozaj burada çalışır.
 :::
 
 :::note Elle dozaj yapmadan önce bir kafayı ölçün
@@ -101,7 +101,7 @@ Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır:
 | [ReefDose](#reefdose) | Her kafa, kabı ve ne dozladığı | Dozaj yapma, günlük dozu değiştirme, **Dozaj planı**'nı düzenleme |
 | [ReefRun](#reefrun) | Ana pompa ve skimmer pompası hızı ve durumu | Hızı değiştirme, bir pompayı açıp kapatma |
 | [ReefMat](#reefmat) | Gün ve metre olarak kalan rulo | Matı ilerletme, **ReefMat ayarları**'nı ayarlama, yeni bir rulo kaydetme |
-| [ReefATO+](#reefato) | Hazne seviyesi ve su tamamlama etkinliği | Bir hazne uyarısı kurma |
+| [ReefATO+](#reefato) | Depo seviyesi ve su tamamlama etkinliği | Bir depo uyarısı kurma |
 
 
 
@@ -111,7 +111,7 @@ Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır:
 
 ![Cora Mobile'da bir ReefDose 4 sayfası](img/mobile-reefdose.webp "Durum, kafalar ve bugünün toplamı, tüketim için dozaj pompasını kullan, ardından her dozaj kafası.")
 
-Her kafa için **Günlük dozaj** ve **Şişede kalan** değerlerini ayarlayabilir, **Şimdi dozajla**'yı çalıştırabilir ve **Zaman planını etkinleştir** diyebilirsiniz. Dolum uyarıları, [Dozaj pompası uyarıları](#doser-alerts) bölümünde anlatıldığı gibi zil ile kafa başına kurulur.
+Her kafa için **Günlük dozaj** ve **Şişede kalan** değerlerini ayarlayabilir, **Şimdi dozajla**'yı çalıştırabilir ve **Zamanlamayı etkinleştir** diyebilirsiniz. Dolum uyarıları, [Dozaj pompası uyarıları](#doser-alerts) bölümünde anlatıldığı gibi zil ile kafa başına kurulur.
 
 **Dozaj** bölümü **Yaklaşan dozlar**'ı, her kafanın bugün ne dozladığını (**Bugün şimdiye kadar dozlanan**) ve **Son 7 gün** ya da **Toplam** için **Kafa başına dozlanan**'ı gösterir. Cora bunu bir Cora Max ya da telefonunuz ev ağınızdayken okur.
 
@@ -141,7 +141,7 @@ Yeni bir rulo taktıktan sonra bunu **Yeni rulo** ile Cora'ya bildirin: kalınl�
 
 ## ReefATO+ {#reefato}
 
-ReefATO+ sayfası hazne seviyesini ve son su tamamlamaları gösterir. Zil ile bir hazne uyarısı kurun. Cora haznenin kaç gün yeteceğini son su tamamlama kullanımından tahmin eder ve bunu asistana da sorabilirsiniz.
+ReefATO+ sayfası depo seviyesini ve son su tamamlamaları gösterir. Zil ile bir depo uyarısı kurun. Cora deponun kaç gün yeteceğini son su tamamlama kullanımından tahmin eder ve bunu asistana da sorabilirsiniz.
 
 ## Bir Red Sea ünitesi kendini durdurduğunda {#red-sea-stops}
 
@@ -168,7 +168,7 @@ Bir DŌS sayfasında **Uyarılar** kartına (ya da başlık çubuğundaki zile) 
 - *[kafa] · kalan gün*, örneğin *İyot · kalan gün*: bu kadar günlük stokun altına düşünce uyarı alırsınız
 - *[kafa] · kalan*: kapta bu kadarın altında kalınca uyarı alırsınız
 - **Atık kabında kalan alan**: eski suyu dışarı alan bir kafa için, atık kabı dolmaya başladığında uyarı alırsınız
-- **Kaçırılan dozaj uyarıları**: kafa programlanmış bir dozu kaçırdığında size haber veren bir anahtar
+- **Kaçırılan dozaj uyarıları**: kafa zamanlanmış bir dozu kaçırdığında size haber veren bir anahtar
 
 Her eşiğin kendi anahtarı vardır, böylece birini kapatıp değerini saklayabilirsiniz. Bitirdiğinizde **Kaydet**'e dokunun.
 
@@ -178,17 +178,19 @@ Varsayılanlar ve diğer sarf malzemeleri [Sarf malzemeleri](/help/mobile-consum
 
 ## Jecod / Jebao pompaları {#jecod}
 
-Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. **Tüm gün aynı** ve **Program** seçenekli bir anahtar çalışanı *· çalışıyor* ile işaretler ve sayfa onda açılır. Günlük program hazırlamak ve onu kopyalamak, kaydetmek ya da paylaşmak [Ekipman programları](/help/mobile-schedules) sayfasında.
+Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. **Tüm gün aynı** ve **Zamanlama** seçenekli bir anahtar çalışanı *· çalışıyor* ile işaretler ve sayfa onda açılır. Günlük zamanlama hazırlamak ve onu kopyalamak, kaydetmek ya da paylaşmak [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında.
 
-Pompa bir grubun parçasıysa sayfa onun rolünü gösterir, örneğin **Grubu yönetir**, **Takip eder: eş zamanlı** ya da **Takip eder: değişimli**.
+Pompa bir grubun parçasıysa sayfa onun rolünü gösterir, örneğin **Grubu yönetir**, **Takip eder: eş zamanlı** ya da **Takip eder: dönüşümlü**.
 
 ### Besleme duraklatması {#jecod-feeding}
 
 Pompanın sayfasında **Besleme** bölümünden bir besleme duraklatması başlatın: **5**, **10**, **15** ya da **30** dk'ya dokunun. Bazı pompalar duraklatmayı kendileri bitirir ve sayfada *Pompa bunu kendiliğinden bitirir.* yazar.
 
 :::warning Besleme duraklatması sırasında pompanın sayfasını açık tutun
-Bazı pompalar bir beslemeyi kendileri bitirmez ve sayfa bunu söyler. Bunlar için ve programda olan her pompa için Cora Mobile dalga desenini ve programı yalnızca pompanın sayfası açık kaldığı sürece geri getirir. Sayfadan çıkarsanız pompa, siz onu yeniden değiştirene ya da **Program**'a dokunana kadar besleme modunda durmuş ya da programının dışında kalır.
+Bazı pompalar bir beslemeyi kendileri bitirmez ve sayfa bunu söyler. Bunlar için ve zamanlamada olan her pompa için Cora Mobile dalga desenini ve zamanlamayı yalnızca pompanın sayfası açık kaldığı sürece geri getirir. Sayfadan çıkarsanız pompa, siz onu yeniden değiştirene ya da **Zamanlama**'ya dokunana kadar besleme modunda durmuş ya da zamanlamasının dışında kalır.
 :::
+
+Eviniz bir Cora Max içeriyorsa, süre dolduğunda besleme molasını o bitirir ve pompayı programına döndürür; Cora Mobile kapalı olsa bile. Yukarıdaki uyarı bu durumda yalnızca Cora Max yoksa geçerlidir.
 
 Bir besleme başlatmak için Bluetooth bir pompanın telefonunuzun menzilinde, bir ağ pompasının da ağınızda olması gerekir.
 
@@ -199,6 +201,10 @@ Bir besleme başlatmak için Bluetooth bir pompanın telefonunuzun menzilinde, b
 ## AquaWiz {#aquawiz}
 
 AquaWiz kartı alkalinite ölçümlerinizi ve üniteniz bildiriyorsa pH'ı gösterir. Ayrıca hedef KH'nizi, dozaj yoğunluğunuzu ve dozaj kurulu bir ünite için saatlik en yüksek dozunu ve kapta ne kadar alkalinite takviyesi kaldığını gösterir. Bunlar doğrudan AquaWiz ayarlarınızdan gelir, bu yüzden onları AquaWiz uygulamasında değiştirin. Cora bir AquaWiz'i kontrol edemez.
+
+Ölçümlerin altında kart, sonuncusunun ne zaman ölçüldüğünü (örneğin *Ölçüm: 14:00*) ve nereden geldiğini söyler: **Cora Max cihazınızdan saatlik** ya da **AquaWiz bulutundan, 12 saatte bir**. Ayrıca **pH değişimi**ni de gösterir. Sayfayı açmak yeni bir ölçüm ister, **Şimdi oku** da yeniden ister; en fazla 15 dakikada bir. Bir ölçüm değişmediyse bu normaldir: ünite ölçümü yalnızca ara sıra yapar.
+
+Bir Cora Max üniteyi her saat okuyorsa kart ayrıca pompayı, pH probunu ve su haznesi seviyesini de gösterir. Pompa arıza bildirdiğinde, pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında veya su haznesi seviyesi bir saatten uzun süre düşük ya da yüksek kaldığında Cora sizi uyarır.
 
 Üniteniz kabını izliyorsa Cora takviye azaldığında, varsayılan olarak 100 mL'de, sizi uyarır. Bunu [Uyarı Merkezi](/help/mobile-alerts)'ndeki kuralından değiştirin.
 

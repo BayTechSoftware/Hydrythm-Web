@@ -2,7 +2,7 @@
 title: Attività su Cora Max
 description: Controlla su Cora Max se un comando è davvero arrivato alla tua attrezzatura, chi o cosa l'ha chiesto e perché uno è stato rifiutato.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 11
 group: Records
 twin: mobile-activity

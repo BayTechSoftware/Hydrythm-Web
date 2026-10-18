@@ -7,7 +7,7 @@ order: 16
 group: Equipment
 ---
 
-Ustaw alerty uzupełnienia, żeby Cora ostrzegła Cię, zanim skończy się odczynnik, płyn do dozowania, woda do dolewki albo rolka filtracyjna. Otwórz urządzenie w zakładce **Urządzenia** (albo dotknij jego kafelka na pulpicie), a potem dotknij **dzwonka** na górnym pasku.
+Ustaw alerty uzupełnienia, żeby Cora ostrzegła Cię, zanim skończy się odczynnik, płyn do dozowania, woda do dolewki albo rolka filtracyjna. Otwórz urządzenie w zakładce **Urządzenia** (albo dotknij jego kafelka na panelu), a potem dotknij **dzwonka** na górnym pasku.
 
 ## Ustawianie alertu uzupełnienia {#setting-a-refill-alert}
 

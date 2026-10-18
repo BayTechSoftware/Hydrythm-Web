@@ -13,7 +13,7 @@ Profil akwarium opisuje Twój system. Na jego podstawie Cora ocenia odczyty, lic
 
 ## Prowadzona konfiguracja {#guided-setup}
 
-Profil ma dużo pól, więc **Prowadzona konfiguracja** przeprowadza Cię przez niego po jednej sekcji. Otworzysz ją przyciskiem **Skonfiguruj mój akwarium z przewodnikiem** zaraz po utworzeniu akwarium, z **Ustawienia → Twoje akwarium → Prowadzona konfiguracja** oraz z zachęty do profilu na pulpicie.
+Profil ma dużo pól, więc **Prowadzona konfiguracja** przeprowadza Cię przez niego po jednej sekcji. Otworzysz ją przyciskiem **Skonfiguruj mój akwarium z przewodnikiem** zaraz po utworzeniu akwarium, z **Ustawienia → Twoje akwarium → Prowadzona konfiguracja** oraz z zachęty do profilu na panelu.
 
 Sekcje są w tej kolejności: **Nazwa i typ akwarium**, **Wymiary akwarium**, **Oświetlenie**, **Dozowanie**, **Zarządzanie wodą**, **Obsada**, **Kontrola temperatury**, **Przepływ i filtracja** oraz **Szkodniki i leczenie**. Góra ekranu pokazuje **Krok 2 z 10** i tak dalej.
 
@@ -35,7 +35,7 @@ Im więcej wypełnisz, tym więcej Cora potrafi. Produkty dozujące uruchamiają
 
 Procent na górze profilu pokazuje, jaką jego część wypełniono. Dotknij go, żeby przejść do następnej niedokończonej sekcji. Im pełniejszy profil, tym bardziej konkretne porady. Przy pustym Cora korzysta z wartości domyślnych.
 
-Dopóki profil jest wypełniony w mniej niż 80%, pulpit pokazuje zachętę do jego uzupełnienia. Otwiera ona prowadzoną konfigurację, dopóki nie przejdziesz jej raz, a potem profil. Zamknij zachętę, a nie pojawi się do następnego otwarcia Cora Mobile.
+Dopóki profil jest wypełniony w mniej niż 80%, panel pokazuje zachętę do jego uzupełnienia. Otwiera ona prowadzoną konfigurację, dopóki nie przejdziesz jej raz, a potem profil. Zamknij zachętę, a nie pojawi się do następnego otwarcia Cora Mobile.
 
 ## Sekcje {#sections}
 
@@ -83,7 +83,7 @@ Jeśli objętość jest o 20% za duża, sugerowane dawki też są o 20% za duże
 
 Ustaw **Data uruchomienia akwarium** w **Wymiary akwarium**. Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku, więc trzymiesięczny system i pięcioletni są oceniane inaczej.
 
-Jeśli akwarium wciąż się cykluje, dotknij karty **Zaczynasz nowe akwarium?** na pulpicie, żeby uruchomić prowadzone cyklowanie. Zrób to przed zapisaniem pierwszego testu albo podłączeniem sprzętu, bo karta pokazuje się tylko przy akwarium bez żadnych odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Jeśli akwarium wciąż się cykluje, dotknij karty **Zaczynasz nowe akwarium?** na panelu, żeby uruchomić prowadzone cyklowanie. Zrób to przed zapisaniem pierwszego testu albo podłączeniem sprzętu, bo karta pokazuje się tylko przy akwarium bez żadnych odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 
 ## Aktualny profil {#keeping-the-profile-current}
 

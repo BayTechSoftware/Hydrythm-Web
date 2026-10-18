@@ -182,11 +182,11 @@
 <figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Der Cora Max-Kopplungsbildschirm, der auf dein Handy wartet"><img src="/help/img/max-pairing-screen.webp" alt="Der Cora Max-Kopplungsbildschirm, der auf dein Handy wartet" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Wartet auf dein Handy. Die unterste Zeile zeigt den Namen, den dein Handy auflistet.</figcaption></figure>
 <p>Auf demselben Bildschirm steht ein kurzer Hinweis zu Anbindungen an Ausrüstung anderer Hersteller. Die Bedingungen, die du in Cora Mobile akzeptiert hast, gelten auch für Cora Max.</p>
 <h2 id="pairing">Vom Handy aus koppeln</h2>
-<p>Alles Weitere passiert in Cora Mobile. Ein Fenster führt dich durch fünf Schritte, die oben stehen: <strong>Verbinden · Wi-Fi · Anmeldung · Becken · Fertig</strong>.</p>
+<p>Alles Weitere passiert in Cora Mobile. Ein Fenster führt dich durch fünf Schritte, die oben stehen: <strong>Verbinden · WLAN · Anmeldung · Becken · Fertig</strong>.</p>
 <ol><li><strong>Finden.</strong> Öffne den Tab <strong>Geräte</strong>, tippe auf <strong>Gerät hinzufügen</strong> und dann auf <strong>Cora</strong>. Der Bildschirm <strong>Füge dein Cora hinzu</strong> listet Cora-Geräte in deinem Netzwerk und Einrichtungsgeräte in der Nähe auf, die über Bluetooth gefunden wurden. Tippe auf <strong>Scannen</strong>, wenn deins noch nicht dabei ist, und dann auf dein Cora Max.</li></ol>
 <p>   <figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Der Bildschirm Füge dein Cora hinzu in Cora Mobile, der nach Geräten sucht"><img src="/help/img/mobile-add-device.webp" alt="Der Bildschirm Füge dein Cora hinzu in Cora Mobile, der nach Geräten sucht" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Gerät hinzufügen, dann Cora. Cora Mobile sucht in deinem WLAN und über Bluetooth, darunter IP-Adresse manuell eingeben.</figcaption></figure></p>
 <ol><li><strong>Verbinden.</strong> Dein Handy verbindet sich über Bluetooth mit Cora Max und zeigt MAC-Adresse, Firmware, Variante und Hardware-Revision. Prüf, ob es das richtige ist, und tippe dann auf <strong>Weiter</strong>.</li></ol>
-<ol><li><strong>Wi-Fi.</strong> Wähl dein Netzwerk aus der Liste oder tippe auf <strong>Erneut scannen</strong> und gib das Passwort auf dem Handy ein. Ab hier spricht dein Handy über WLAN mit Cora Max, lass das Handy also im selben Netzwerk.</li></ol>
+<ol><li><strong>WLAN.</strong> Wähl dein Netzwerk aus der Liste oder tippe auf <strong>Erneut scannen</strong> und gib das Passwort auf dem Handy ein. Ab hier spricht dein Handy über WLAN mit Cora Max, lass das Handy also im selben Netzwerk.</li></ol>
 <ol><li><strong>Anmeldung.</strong> Dein Handy verknüpft Cora Max mit deinem Konto. Das läuft von selbst, und Cora Max zeigt seinen eigenen Fortschritt, etwa <strong>Dein Konto wird überprüft…</strong> und <strong>Dein Becken wird eingerichtet…</strong>.</li></ol>
 <p>   <figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Der Cora Max-Kopplungsbildschirm mit Dein Konto wird überprüft"><img src="/help/img/max-pairing-verifying.webp" alt="Der Cora Max-Kopplungsbildschirm mit Dein Konto wird überprüft" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Cora Max zeigt jeden Schritt, während dein Handy es mit deinem Konto verknüpft.</figcaption></figure></p>
 <ol><li><strong>Becken.</strong> Wähl unter <strong>Becken zuweisen</strong> die Becken, die dieses Cora Max verwalten soll, <strong>bis zu vier</strong>.</li></ol>
@@ -210,9 +210,9 @@
 <h2 id="updates">Updates</h2>
 <p>Cora Max aktualisiert sich selbst. Eine neue Version lädt im Hintergrund und installiert sich nachts. Deine Version steht oben unter <strong>Einstellungen → Cora Max-Einstellungen</strong>. Mehr dazu unter <a href="/de/help/max-updates">Updates und Wiederherstellung</a>.</p>
 <h2 id="moving-it-to-a-different-network">In ein anderes WLAN umziehen</h2>
-<p>Geh zu <strong>Einstellungen → Cora Max-Einstellungen → Wi-Fi</strong>, wähl das neue Netzwerk und gib das Passwort ein. Cora Max bleibt gekoppelt, du musst es also nicht neu einrichten.</p>
+<p>Geh zu <strong>Einstellungen → Cora Max-Einstellungen → WLAN</strong>, wähl das neue Netzwerk und gib das Passwort ein. Cora Max bleibt gekoppelt, du musst es also nicht neu einrichten.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/max-tour"><span>Weiter</span><b>Der Cora Max-Startbildschirm</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -603,7 +603,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

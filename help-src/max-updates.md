@@ -2,7 +2,7 @@
 title: Updates and recovery
 description: How Cora Max updates itself, the install window and update channel, checking the version, the Recovery PIN, and what to do if Cora Max won't start or shows a support code.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 15
 group: Settings and account
 ---
@@ -28,6 +28,8 @@ Under **Update settings** on the same screen:
 - **Install window** sets the hours updates may install, with a **Start** and **End** time, in this screen's local time. The time zone is set in Cora Mobile, under **Devices →** your Cora Max **→ Time zone**.
 
 To see whether this screen is reading your devices and saving to Cora Cloud, go back to **Cora Max Settings** and scroll to **STATUS**. It shows each tank's **Polling status**, **Last poll**, **Last cloud write** and **Cloud save**.
+
+If an update downloads slowly, check your connection with the **Network speed test** on the same screen. **Run test** downloads up to 16 MB of the update file from Cora Cloud, for 20 seconds at most, and shows the speed in MB/s.
 
 ## When an update is available
 

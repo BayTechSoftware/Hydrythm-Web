@@ -2,7 +2,7 @@
 title: Controllare l'attrezzatura da Cora Max
 description: Le pagine dispositivo su Cora Max per Neptune Apex, Trident e DŌS, Red Sea ReefBeat, Jecod e AquaWiz, marca per marca.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -24,9 +24,9 @@ L'attrezzatura si aggiunge, si assegna e si rimuove dal telefono. Cora Max la mo
 |---|---|
 | **Neptune Apex** | Sonde e prese, e puoi accendere e spegnere ogni presa |
 | **Trident** | Stato del test, livelli di reagente e rifiuti, e un pulsante per avviare un test |
-| **DŌS**, compreso il DŌS QD | Il dosaggio, il programma, l'autonomia e il volume del contenitore di ogni testa (con pausa, riempimento, dosa ora e una misura di venti secondi da fare una volta) |
-| **Red Sea ReefBeat** | Quello che ha l'unità: teste di dosaggio, serbatoio, giorni del rullo, modalità della pompa, più un editor completo del piano ReefDose e le impostazioni ReefMat |
-| **Jecod** | Modalità e intensità della pompa, e il suo programma giornaliero |
+| **DŌS**, compreso il DŌS QD | Il dosaggio, la programmazione, l'autonomia e il volume del contenitore di ogni testa (con pausa, riempimento, dosa ora e una misura di venti secondi da fare una volta) |
+| **Red Sea ReefBeat** | Quello che ha l'unità: teste di dosaggio, serbatoio, giorni del rotolo, modalità della pompa, più un editor completo del piano ReefDose e le impostazioni ReefMat |
+| **Jecod** | Modalità e intensità della pompa, e la sua programmazione giornaliera |
 | **AquaWiz** | Nessuna pagina propria. È elencato in **Dispositivi**, e le sue letture vanno sulla dashboard |
 
 La maggior parte delle pagine dispositivo ha una matita per rinominare il dispositivo. Il nuovo nome compare anche sul telefono. Di più in [Dispositivi e salute dei dispositivi](/help/max-devices).
@@ -49,11 +49,11 @@ Devi misurare una testa DŌS una volta prima che Cora la usi per dosare a mano. 
 
 Dopo una dose manuale, una testa che avevi impostato su Off in Apex Fusion resta su Off. Qualsiasi altra testa torna su Auto.
 
-Un DŌS non ha un sensore di livello e continua a dosare da un contenitore vuoto. Imposta un avviso di rifornimento con **Impostazioni avvisi** nella pagina del DŌS. Di più in [Avvisi del dosatore](/help/mobile-device-control#doser-alerts).
+Un DŌS non ha un sensore di livello e continua a dosare da un contenitore vuoto. Imposta un avviso di rifornimento con **Impostazioni avvisi** nella pagina del DŌS. Di più in [Avvisi della pompa dosometrica](/help/mobile-device-control#doser-alerts).
 
 ### A cosa serve una testa {#what-a-head-is-used-for}
 
-Nel pannello delle impostazioni di una testa puoi impostarne il **tipo di uso**. Le opzioni sono **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Acqua di calce**, **Reattore di calcio**, **Cibo** o **Rabbocco**, e **Altro**. Il tipo di uso cambia due cose.
+Nel pannello delle impostazioni di una testa puoi impostarne il **tipo di uso**. Le opzioni sono **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Kalkwasser**, **Reattore di calcio**, **Cibo** o **Rabbocco**, e **Altro**. Il tipo di uso cambia due cose.
 
 - Quanto può essere grande il contenitore che segue. Ogni tipo di uso può seguire un contenitore fino a 1.000 litri. Oltre il contatore dell'Apex da 150 litri, Cora segue il volume da sé, e azzera il contatore dell'Apex ogni 100 litri.
 - Se può fare una dose grande a mano. Le teste Integratore e Cibo mantengono l'attuale limite piccolo e prudente. Ogni altro tipo di uso può avere il suo limite di **Dose massima manuale**, fino a un tetto fisso di 10 litri, e il suo **Limite giornaliero per automazioni e Assistant**. Una dose manuale grande richiede anche **Dosi grandi** attivo nelle impostazioni della testa, spento di default. Attivalo solo dopo aver guardato la prima dose grande eseguita alla vasca.
@@ -62,9 +62,9 @@ Puoi collegare una coppia per il cambio d'acqua (nuova acqua salata in entrata, 
 
 ### Se una dose grande si interrompe {#if-a-large-dose-is-interrupted}
 
-Una dose grande cambia per un po' quello che la testa sta facendo sull'Apex, poi rimette il suo programma normale. Se la connessione cade a metà, Cora Max mostra un banner nella pagina di quella testa: *"Una dose grande su [testa] non è terminata correttamente. Cora continua a provare a ripristinare il suo programma: controllalo in Apex Fusion."*
+Una dose grande cambia per un po' quello che la testa sta facendo sull'Apex, poi rimette la sua programmazione normale. Se la connessione cade a metà, Cora Max mostra un banner nella pagina di quella testa: *"Una dose grande su [testa] non è terminata correttamente. Cora continua a provare a ripristinare il suo programma: controllalo in Apex Fusion."*
 
-Controlla tu la testa in Apex Fusion, poi tocca **Ho controllato la testa in Fusion** per togliere il banner. Fallo solo dopo aver verificato che sta funzionando il programma della testa, non il programma di dosaggio di Cora.
+Controlla tu la testa in Apex Fusion, poi tocca **Ho controllato la testa in Fusion** per togliere il banner. Fallo solo dopo aver verificato che sta funzionando la programmazione della testa, non il programma di dosaggio di Cora.
 
 Se il banner non si toglie, o continua a tornare, dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting).
 
@@ -82,15 +82,15 @@ Un piano ReefDose e l'avanzamento programmato, il modello, la posizione e il Nuo
 La pagina Jecod mostra la modalità e l'intensità della pompa, e puoi cambiarle entrambe. Il suo stato è nella riga del titolo, accanto al nome della pompa. La barra in alto contiene l'interruttore, lo schema in corso e **Alimentazione** con quattro pulsanti: **5**, **10**, **15** e **30** min. Tocca un pulsante per mettere in pausa la pompa per quel tempo. Sotto la barra ci sono due schede:
 
 - **Uguale tutto il giorno**: tocca un'impostazione per eseguirla tutto il giorno.
-- **Programma**: il grafico della giornata e l'elenco dei piani, con **ora** su quello attuale. **Modifica** apre l'editor e il menu ⋮ contiene **Copia programma su…**, **Salva programma come…** e **Programmi salvati…**.
+- **Programmazione**: il grafico della giornata e l'elenco dei piani, con **ora** su quello attuale. **Modifica** apre l'editor e il menu ⋮ contiene **Copia programmazione su…**, **Salva programmazione come…** e **Programmazioni salvate…**.
 
-La scheda in funzione ha un contorno e un'etichetta **In funzione**. Una pompa Jecod non ha il pulsante **Termina alimentazione**. Ogni pompa Jecod che può mettersi in pausa per l'alimentazione mostra i pulsanti **5**, **10**, **15** e **30** min. Su una Jecod Pro il riquadro Alimentazione tra gli schemi d'onda fa lo stesso, per 10 minuti. Tramite un Cora Max lontano dalla vasca, una pompa Jecod alimenta solo per 10 minuti. Una pompa che non può alimentare in questo momento mostra il motivo in una breve riga sotto i pulsanti, e una pressione lunga mostra la frase completa.
+La scheda in funzione ha un contorno e un'etichetta **In funzione**. Una pompa Jecod non ha il pulsante **Termina alimentazione**. Ogni pompa Jecod che può mettersi in pausa per l'alimentazione mostra i pulsanti **5**, **10**, **15** e **30** min. Su una Jecod Pro il riquadro Alimentazione tra gli schemi d'onda fa lo stesso, per 10 minuti. Tramite un Cora Max lontano dalla vasca, una pompa Jecod alimenta solo per 10 minuti. Una pompa che non può alimentare in questo momento mostra il motivo in una breve riga sotto i pulsanti, e una pressione lunga mostra la frase completa. Un'alimentazione avviata dal telefono viene conclusa anche dal Cora Max: allo scadere del tempo la pompa torna al suo programma.
 
-Puoi scrivere i programmi giornalieri delle pompe Jecod sullo schermo a parete oltre che sul telefono. L'editor è lo stesso, con un grafico della giornata, un elenco di fasce e una fila di azioni. Di più in [Programmare l'attrezzatura](/help/mobile-schedules).
+Puoi scrivere le programmazioni giornaliere delle pompe Jecod sullo schermo a parete oltre che sul telefono. L'editor è lo stesso, con un grafico della giornata, un elenco di fasce e una fila di azioni. Di più in [Programmare l'attrezzatura](/help/mobile-schedules).
 
 ## AquaWiz {#aquawiz}
 
-Un controller KH AquaWiz non ha una pagina propria su Cora Max. È elencato in **Dispositivi**, dove puoi rinominarlo, e le sue letture compaiono sulla dashboard come qualsiasi altra fonte. Configuralo e gestiscilo dal telefono, vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+Un controller KH AquaWiz non ha una pagina propria su Cora Max. È elencato in **Dispositivi**, dove puoi rinominarlo, e le sue letture compaiono sulla dashboard come qualsiasi altra fonte. Un Cora Max sulla stessa vasca può anche leggerlo ogni ora, quando riesce a raggiungere il controller. Configuralo e gestiscilo dal telefono, vedi [Collegare la tua attrezzatura](/help/mobile-connections).
 
 
 ## Materiali di consumo {#consumables}
@@ -111,7 +111,7 @@ Quando più di un Cora Max mostra una vasca, uno di loro legge l'attrezzatura di
 Alcune cose funzionano solo sul Cora Max nella vasca.
 
 - **Misura per dosare** e **Rimisura** compaiono solo lì. Una volta misurata una testa, **Dosa ora** funziona da qualsiasi Cora Max.
-- Puoi cambiare un programma Jecod da un altro Cora Max solo se il Cora Max nella vasca ha letto la pompa nell'ultima ora, e mai per una pompa che comunica solo via Bluetooth. Un solo **Applica alla pompa** da lì invia al massimo 12 modifiche, quindi invia una modifica più grande in più parti.
+- Puoi cambiare una programmazione Jecod da un altro Cora Max solo se il Cora Max nella vasca ha letto la pompa nell'ultima ora, e mai per una pompa che comunica solo via Bluetooth. Un solo **Applica alla pompa** da lì invia al massimo 12 modifiche, quindi invia una modifica più grande in più parti.
 
 ## Cosa è stato cambiato, e da cosa {#what-was-changed-and-by-what}
 

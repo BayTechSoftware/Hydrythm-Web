@@ -2,7 +2,7 @@
 title: Scene su Cora Max
 description: Crea, avvia, modifica ed elimina scene su Cora Max, da Impostazioni → Automazioni o da un riquadro scena sulla dashboard.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -56,6 +56,8 @@ Se una scena non parte o non si ferma, dai un'occhiata a [Risoluzione dei proble
 :::note Il blocco bambini vale anche per le scene
 Mentre il [Blocco bambini](/help/max-settings#child-lock) tiene bloccato lo schermo, non puoi avviare, fermare o modificare una scena da lì, proprio come per tutti gli altri comandi.
 :::
+
+Un passaggio che fallisce o che dovrebbe aspettare non resta in sospeso. Scade subito, l'esecuzione viene registrata come non riuscita e ricevi una notifica che indica l'automazione, il passaggio e il motivo. Un passaggio fallisce, per esempio, se il suo dispositivo è offline, se nessun Cora Max può eseguirlo, se il dispositivo lo rifiuta o non risponde, oppure se un riscaldatore o un refrigeratore è stato commutato un attimo fa. Per un passaggio su una vasca rimossa non ricevi notifiche.
 
 ## Modificare o eliminare una scena
 

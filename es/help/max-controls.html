@@ -172,15 +172,15 @@
       <h1>Tomas y controles</h1>
       
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#the-three-states">Los tres estados</a></li><li><a href="#switching-from-the-dashboard">Cambiar desde el panel</a></li><li><a href="#the-controls-drawer">El cajón Tomas y alimentación</a></li><li><a href="#feed-mode">Modo alimentación</a></li><li><a href="#by-voice">Por voz</a></li><li><a href="#seeing-what-happened">Ver qué ha pasado</a></li></ul></nav>
-<p>Esta página explica cómo encender y apagar tomas e iniciar el modo alimentación desde Cora Max. Puedes hacerlo desde las casillas de tomas del panel, desde el cajón <strong>Tomas y alimentación</strong> o por voz.</p>
+<p>Esta página explica cómo encender y apagar tomas e iniciar el modo alimentación desde Cora Max. Puedes hacerlo desde las tarjetas de tomas del panel, desde el cajón <strong>Tomas y alimentación</strong> o por voz.</p>
 <aside class="cal cal-warning"><p class="cal-t">Estos controles actúan sobre tu acuario</p><p>No hay forma de deshacer. Las tomas con candado te piden que confirmes primero. Las demás cambian en cuanto tocas. Una orden puede volver <strong>Confirmado</strong>, <strong>Sin confirmar</strong> (enviada, pero sin respuesta), <strong>Rechazado</strong> o <strong>Sin cambios</strong>. Más información en <a href="/es/help/mobile-device-control">Controlar tus equipos</a>.</p></aside>
 <h2 id="the-three-states">Los tres estados</h2>
 <p>Cada toma está en uno de tres estados.</p>
 <p><strong>Auto</strong> devuelve la toma a su programación del Apex. La mayor parte del tiempo, ahí es donde debe estar una toma.</p>
 <p><strong>Apagado</strong> y <strong>Encendido</strong> son cambios manuales. Se aplican al momento y <strong>se mantienen hasta que los vuelvas a cambiar</strong>. No caducan, y nada los restablece por ti.</p>
-<aside class="cal cal-warning"><p class="cal-t">Un cambio manual no caduca</p><p>Vuelve a ponerla en <strong>Auto</strong> cuando termines, porque nada más lo hará. Eso sí, un cambio manual no es un bloqueo. Tú, tu voz o una automatización podéis cambiarlo más tarde.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Un cambio manual no caduca</p><p>Vuelve a ponerla en <strong>Auto</strong> cuando termines, porque nada más lo hará. Eso sí, un cambio manual no es un bloqueo. Puedes cambiarlo más tarde tú mismo, con tu voz o con una automatización.</p></aside>
 <h2 id="switching-from-the-dashboard">Cambiar desde el panel</h2>
-<p>Las casillas de tomas muestran los tres estados, con el actual resaltado. Toca el que quieras.</p>
+<p>Las tarjetas de tomas muestran los tres estados, con el actual resaltado. Toca el que quieras.</p>
 <p>Algunas tomas tienen un <strong>candado</strong>. Significa que la toma te pide que confirmes antes de cambiar, para que un toque accidental no apague algo crítico. Cuando la tocas, un cuadro de diálogo muestra la toma, su estado actual, el cambio que vas a hacer y lo que eso puede provocar en el acuario. No hay ningún bloqueo que desactivar en otro sitio.</p>
 <p>Por defecto, el candado está en calentadores, enfriadores, bombas de retorno, reposición (ATO), comederos y cualquier toma que Cora no sepa clasificar. Las luces, los skimmers, las bombas de circulación, las bombas dosificadoras, los reactores, el UV y los ventiladores cambian con un solo toque.</p>
 <h2 id="the-controls-drawer">El cajón Tomas y alimentación</h2>
@@ -202,7 +202,7 @@
 <p>Cada solicitud queda registrada, con lo que la pidió y cómo fue, venga de Cora Mobile, de un Cora Max, de la voz, del Asistente o de una automatización. En Cora Max, toca el nombre del acuario en la barra superior y elige <strong>Actividad</strong>. En tu teléfono, está en <strong>Ajustes → Actividad</strong>. Más información en <a href="/es/help/max-activity">Actividad en Cora Max</a>.</p>
 <p>Cuando algo ha cambiado y no sabes por qué, mira ahí primero.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-dashboard-editing"><span>Anterior</span><b>Editar el panel de Cora Max</b></a><a class="pn-n" href="/es/help/max-device-control"><span>Siguiente</span><b>Controlar equipos desde Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

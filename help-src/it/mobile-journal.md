@@ -57,7 +57,7 @@ Quando un giorno è diverso dalla routine, tocca **Alimentazione** nella fila di
 
 Altri modi in cui un pasto viene registrato:
 
-- Su un Neptune Apex, un ciclo di alimentazione da A a D viene registrato quando il Cora Max che legge il tuo Apex lo vede partire. Vale per un ciclo che avvii dall'Apex, in Apex Fusion o dal programma dell'Apex stesso.
+- Su un Neptune Apex, un ciclo di alimentazione da A a D viene registrato quando il Cora Max che legge il tuo Apex lo vede partire. Vale per un ciclo che avvii dall'Apex, in Apex Fusion o dalla programmazione dell'Apex stesso.
 - Dillo a Cora Assistant, a voce o in chat, con qualcosa come *"Annota che ho dato mysis."* Scrive la voce per te.
 
 ## Modificare ed eliminare le voci {#editing}

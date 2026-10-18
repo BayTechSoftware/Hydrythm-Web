@@ -2,7 +2,7 @@
 title: Gérer vos aquariums
 description: Ajoutez un autre aquarium, passez d’un aquarium à l’autre, changez leur ordre et les aquariums qui ont Reef Buddy, et supprimez ou restaurez un aquarium.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 group: Getting started
 ---
@@ -45,7 +45,7 @@ L’ordre est celui dans lequel vous les faites défiler sur le tableau de bord.
 
 ### L’ordre décide quels aquariums ont Reef Buddy {#reef-buddy-and-tank-order}
 
-Votre forfait couvre un nombre fixe d’aquariums pour le briefing quotidien de Reef Buddy. Cora le donne aux premiers dans votre ordre **Réorganiser les aquariums**. Avec Plus, et pendant l’essai de 30 jours, c’est uniquement votre premier aquarium. Pro couvre 5 aquariums et Max en couvre 20. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
+Votre forfait couvre un nombre fixe d’aquariums pour le briefing quotidien de Reef Buddy. Cora le donne aux premiers dans votre ordre **Réorganiser les aquariums**. Avec Essential, et pendant l’essai de 30 jours, c’est uniquement votre premier aquarium. Advanced couvre 5 aquariums et Expert en couvre 20. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 
 Si un aquarium n’a pas de briefing, placez-le en haut de la liste. Les aquariums supprimés ne comptent pas.
 
@@ -57,10 +57,10 @@ Si un aquarium n’a pas de briefing, placez-le en haut de la liste. Les aquariu
 
 Retirer un aquarium ne fait que le masquer. Il disparaît de votre tableau de bord et de votre liste dans les Réglages, et ses mesures, son journal et ses suivis sont conservés. Vous pouvez le faire revenir à tout moment.
 
-Pour un aquarium retiré, ces éléments s’arrêtent : le briefing de Reef Buddy, les rappels d’entretien, et sa place dans le nombre d’aquariums Reef Buddy de votre forfait.
+Un aquarium retiré est conservé pour son historique, mais il n’est jamais affiché et reste silencieux. Il n’envoie ni alertes ni rappels, ne reçoit aucun briefing de Reef Buddy, ne prend aucune place dans le décompte Reef Buddy de votre forfait, et ses automatisations s’arrêtent.
 
-:::warning L’équipement d’un aquarium retiré continue de fonctionner
-Retirer un aquarium ne dissocie rien. Ses appareils lui restent attribués et continuent de remonter des mesures, un Cora Max qui lui est attribué continue de l’afficher, et son équipement peut encore vous envoyer des alertes.
+:::note L’équipement d’un aquarium retiré reste associé
+Retirer un aquarium ne dissocie rien. Ses appareils lui restent attribués, et un Cora Max qui lui est attribué le reste, mais rien de cet aquarium n’est affiché et aucune alerte ni aucun rappel ne vous parvient.
 
 Avant de retirer un aquarium, déplacez ou retirez ses appareils dans l’onglet **Appareils**. Ouvrez ensuite votre Cora Max dans **Appareils** et touchez l’icône **Retirer l’aquarium** à côté de cet aquarium sous **Aquariums attribués**.
 :::

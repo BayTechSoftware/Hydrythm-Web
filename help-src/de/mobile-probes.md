@@ -35,13 +35,13 @@ Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf zuers
 
 ## Woher jeder Messwert kommt {#sources}
 
-![Der Tab Quellen](img/mobile-probes.webp "Jeder Messwert, die Sonde, die ihn liefert, und ob er Automatisch oder Von Ihnen gewählt ist.")
+![Der Tab Quellen](img/mobile-probes.webp "Jeder Messwert, die Sonde, die ihn liefert, und ob er Automatisch oder Von dir gewählt ist.")
 
 Der Tab **Quellen** listet jeden Wert auf, den Cora für dieses Becken verfolgt, etwa pH oder Temperatur, und zeigt, welche Sonde ihn gerade liefert.
 
 Tippe auf einen Messwert, um jede Sonde zu sehen, die ihn meldet, über alle Controller, die du verbunden hast. Jede zeigt ihre Marke, ihren eigenen Namen für die Sonde und ihren Live-Wert. Wähl eine, um sie festzulegen, oder wähl **Automatisch (neueste Messung gewinnt)**, damit Cora die Sonde nimmt, die zuletzt gemeldet hat. Die anderen bleiben im Verlauf.
 
-Ein Hinweis neben jedem Messwert zeigt, was gilt: **Automatisch** oder **Von Ihnen gewählt**, sobald du eine Sonde festgelegt hast. Deine Wahl gilt für diesen Messwert im ganzen Becken, nicht für ein einzelnes Widget.
+Ein Hinweis neben jedem Messwert zeigt, was gilt: **Automatisch** oder **Von dir gewählt**, sobald du eine Sonde festgelegt hast. Deine Wahl gilt für diesen Messwert im ganzen Becken, nicht für ein einzelnes Widget.
 
 Meldet sich eine festgelegte Sonde nicht mehr, zeigt Cora, wann sie zuletzt gehört wurde, und bietet **Zurück zu Automatisch** an, damit eine tote Sonde einen Messwert nicht festhalten kann.
 

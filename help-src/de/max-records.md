@@ -2,7 +2,7 @@
 title: Tagebuch, Besatz und Wartung
 description: Auf Cora Max einen Test eintragen, einen Tagebucheintrag hinzufügen, eine Fütterung festhalten und Wartung abhaken, und was du weiterhin auf dem Handy machst.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 10
 group: Records
 twin: mobile-journal
@@ -33,7 +33,7 @@ Wird für diesen Wasserwert schon ein neuerer Messwert angezeigt, steht bei dein
 
 ### Fütterung
 
-Oben auf dem Tagebuch-Bildschirm fügen **Extra gefüttert** und **Fütterung ausgelassen** jeweils einen Tagebucheintrag hinzu. Eine Zeile darunter zeigt deinen Fütterungsplan, zum Beispiel *Fütterungsplan: Flocken: 2 Prisen, zweimal täglich*. Den Plan legst du in Cora Mobile fest. Ist keiner gespeichert, steht in der Zeile *Lege deinen Fütterungsplan in der Handy-App fest*.
+Oben auf dem Tagebuch-Bildschirm fügen **Extra gefüttert** und **Fütterung ausgelassen** jeweils einen Tagebucheintrag hinzu. Eine Zeile darunter zeigt deine Fütterungsroutine, zum Beispiel *Fütterungsroutine: Flocken: 2 Prisen, zweimal täglich*. Die Routine legst du in Cora Mobile fest. Ist keine gespeichert, steht in der Zeile *Lege deine Fütterungsroutine in der Handy-App fest*.
 
 Fragt Cora Max deinen Neptune Apex ab, hält es außerdem einen Fütterungszyklus Feed A bis D fest, sobald einer startet, egal ob du ihn hier, am Apex oder in Apex Fusion gestartet hast.
 
@@ -47,7 +47,8 @@ Das Symbol neben dem Gerätesymbol ist **Reef Buddy**, und sein Punkt bedeutet, 
 
 Oben auf dem Bildschirm steht, wie viele Aufgaben fällig sind. Darunter listet **Anstehend** jede Aufgabe mit **HEUTE**, **IN 3T** oder **ÜBERFÄLLIG 2T** auf, und **Erledigt · letzte 7 Tage** zeigt, was du zuletzt gemacht hast.
 
-- Tippe auf **Fertig**, wenn du eine Aufgabe erledigt hast.
+- Tippe auf **Fertig**, wenn du eine Aufgabe erledigt hast. Ist sie überfällig, fragt Cora **Wann hast du es erledigt?**
+- Tippe auf **Früher erledigt…**, wenn du es vor heute gemacht hast. Wähle Datum und Uhrzeit, und die nächste Fälligkeit zählt ab dann. Ein Zeitpunkt in der Zukunft oder vor der letzten Erledigung wird nicht angenommen.
 - Tippe auf **Verschieben**, um sie um **1 Tag**, **3 Tage**, **1 Woche**, **2 Wochen** oder **1 Monat** zu verschieben.
 
 Aufgaben fügst du auf dem Handy hinzu und änderst sie dort. Mehr dazu unter [Wartung](/help/mobile-maintenance).

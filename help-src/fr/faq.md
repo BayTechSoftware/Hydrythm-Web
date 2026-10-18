@@ -2,7 +2,7 @@
 title: Questions fréquentes
 description: Des réponses courtes sur ce qu’il vous faut, Cora Max, l’utilisation de Cora loin de chez vous, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 4
 ---
 
@@ -82,7 +82,7 @@ Il a besoin de l’accès au réseau local pour trouver l’équipement Wi-Fi et
 
 ### Puis-je surveiller mon aquarium quand je ne suis pas chez moi ? {#can-i-check-on-my-tank-away}
 
-Oui. Avec un Cora Max à l’aquarium, vos mesures restent à jour où que vous soyez. Sans lui, un appareil Neptune Apex, Red Sea ou Jecod affiche les dernières mesures que votre téléphone a enregistrées pendant qu’il était sur le même Wi-Fi. Un AquaWiz est lu par le cloud de son fabricant, il continue donc de se mettre à jour dans tous les cas. Les mesures que vous notez à la main et l’historique de l’aquarium sont toujours là.
+Oui. Avec un Cora Max à l’aquarium, vos mesures restent à jour où que vous soyez. Sans lui, un appareil Neptune Apex, Red Sea ou Jecod affiche les dernières mesures que votre téléphone a enregistrées pendant qu’il était sur le même Wi-Fi. Un AquaWiz est lu par le cloud de son fabricant, il continue donc de se mettre à jour dans tous les cas, mais depuis ce cloud seulement toutes les 12 heures. Les mesures que vous notez à la main et l’historique de l’aquarium sont toujours là.
 
 ### Puis-je commander l’équipement quand je suis loin de chez moi ? {#can-i-control-equipment-away}
 
@@ -192,9 +192,9 @@ Non. Ce qui est déjà écrit reste dans sa langue d’origine. Les nouvelles al
 
 Voir [Forfaits et abonnements](/help/mobile-plans) pour ce que comprend chaque forfait.
 
-### Le forfait Max est-il la même chose que Cora Max ? {#max-plan-or-cora-max}
+### Le forfait Expert est-il la même chose que Cora Max ? {#max-plan-or-cora-max}
 
-Non. Le forfait **Max** est un abonnement dans Cora Mobile. Cora Max est l’écran mural. Vous n’avez pas besoin de l’un pour avoir l’autre.
+Non. Le forfait **Expert** est un abonnement dans Cora Mobile. Cora Max est l’écran mural. Vous n’avez pas besoin de l’un pour avoir l’autre.
 
 ### Que devient l’historique de mon aquarium si mon essai ou mon forfait se termine ? {#history-when-plan-ends}
 

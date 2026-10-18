@@ -2,7 +2,7 @@
 title: Fare domande a Cora
 description: Usa Cora Assistant scrivendo o parlando, scopri cosa vede, cosa può fare per te, l'interruttore di condivisione dei dati e la memoria.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -63,11 +63,22 @@ Il controllo dell'attrezzatura funziona fuori casa solo quando un Cora Max nella
 Verifica le cose importanti con i tuoi test. Tratta i cambiamenti grandi come faresti con il consiglio di chiunque altro, e controllali con buon senso prima di agire. Lo dice anche la riga sotto la casella dei messaggi.
 :::
 
+## Risposte dalla Guida {#help-answers}
+
+Chiedi come si fa una cosa, per esempio *"Come aggiungo una pompa dosatrice?"*, e Cora Assistant risponde da questa Guida, nella tua lingua, a scrittura o a voce. Una domanda sull'app conta come un messaggio normale.
+
+Sotto la risposta puoi vedere fino a due sezioni della Guida, ognuna con fino a due pulsanti:
+
+- **Apri questa schermata** ti porta subito alla schermata di cui parla la risposta. Non compare se sei già lì. Se la schermata è una delle schede principali, prima finisce la conversazione vocale.
+- **Leggi nella Guida** apre quella pagina della Guida nel browser integrato del telefono.
+
+I pulsanti compaiono solo se c'è una schermata o una pagina da aprire.
+
 ## Consenso
 
 ![Il consenso dell'Assistente](img/mobile-assistant-consent.webp "Due permessi separati, e la memoria che Cora conserva.")
 
-La prima volta che apri la dashboard, Cora chiede **Attivare la guida personalizzata per la barriera?** **Attiva** accende la condivisione dei dati. **Non ora** la lascia spenta. Se usi la configurazione guidata, la sua ultima pagina fa la stessa domanda.
+La prima volta che apri la dashboard, Cora chiede **Attivare la guida personalizzata per il reef?** **Attiva** accende la condivisione dei dati. **Non ora** la lascia spenta. Se usi la configurazione guidata, la sua ultima pagina fa la stessa domanda.
 
 Puoi cambiarlo quando vuoi in **Impostazioni → Cora Assistant**, che ha due interruttori separati.
 

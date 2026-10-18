@@ -183,6 +183,7 @@
 <p>Sous <strong>Réglages de mise à jour</strong>, sur le même écran :</p>
 <ul><li><strong>Plage d’installation</strong> définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de <strong>Début</strong> et de <strong>Fin</strong>, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous <strong>Appareils →</strong> votre Cora Max <strong>→ Fuseau horaire</strong>.</li></ul>
 <p>Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à <strong>Réglages Cora Max</strong> et faites défiler jusqu’à <strong>ÉTAT</strong>. La section affiche pour chaque aquarium l’<strong>État de l’interrogation</strong>, la <strong>Dernière interrogation</strong>, la <strong>Dernière écriture cloud</strong> et l’<strong>Enregistrement cloud</strong>.</p>
+<p>Si une mise à jour se télécharge lentement, vérifiez votre connexion avec le <strong>Test de débit réseau</strong> sur le même écran. <strong>Lancer le test</strong> télécharge jusqu’à 16 Mo du fichier de mise à jour depuis Cora Cloud, pendant 20 secondes au plus, et affiche le débit en Mo/s.</p>
 <h2 id="quand-une-mise-a-jour-est-disponible">Quand une mise à jour est disponible</h2>
 <p>Un message vous dit ce qui est nouveau et vous propose deux choix.</p>
 <ul><li><strong>Mettre à jour maintenant</strong> installe tout de suite et redémarre. Cela prend environ une minute. Gardez Cora Max alimenté.</li><li><strong>Reporter de 24 heures</strong> masque le message et vous redemande un jour plus tard.</li></ul>
@@ -196,7 +197,7 @@
 <p>Vous avez vu le code PIN lors de l’association de Cora Max. Vous le trouvez aussi dans Cora Mobile sous <strong>Appareils →</strong> votre Cora Max <strong>→ Code PIN de récupération</strong>. Cora Max lui-même ne l’affiche jamais, pour qu’un invité ou un enfant appuyé contre l’écran ne puisse pas entrer en récupération.</p>
 <p>Si vous tapez un mauvais code PIN trois fois, la récupération se verrouille pendant 30 secondes, puis plus longtemps après chaque nouvel essai erroné. <strong>Trop de tentatives</strong> vous indique combien de temps attendre. Si Cora Max n’a jamais été en ligne depuis l’association, il n’a pas encore de code PIN et affiche <strong>La récupération n’est pas disponible</strong>. Connectez-le d’abord au Wi-Fi.</p>
 <p>Depuis <strong>Récupération</strong>, vous pouvez :</p>
-<ul><li><strong>Refaire la configuration Wi-Fi</strong> : choisir un nouveau réseau Wi-Fi et son mot de passe</li><li><strong>Réappairer cet appareil</strong> : effacer l’association et le configurer à nouveau avec Cora Mobile</li><li><strong>Forcer la vérification OTA</strong> : rechercher des mises à jour maintenant</li><li><strong>Réinitialisation d’usine</strong> : retirer l’association et tous les réglages de l’écran</li></ul>
+<ul><li><strong>Refaire la configuration Wi-Fi</strong> : choisir un nouveau réseau Wi-Fi et son mot de passe</li><li><strong>Réassocier cet appareil</strong> : effacer l’association et le configurer à nouveau avec Cora Mobile</li><li><strong>Forcer la vérification OTA</strong> : rechercher des mises à jour maintenant</li><li><strong>Réinitialisation d’usine</strong> : retirer l’association et tous les réglages de l’écran</li></ul>
 <p>Les données d’aquarium déjà enregistrées dans Cora Cloud sont conservées dans tous les cas.</p>
 <p>Si Cora Max n’arrive pas à démarrer plusieurs fois de suite, il peut aussi revenir tout seul à la version précédente.</p>
 <aside class="cal cal-note"><p class="cal-t">Le même geste déverrouille le verrouillage enfant</p><p>Si le <a href="/fr/help/max-settings#child-lock">verrouillage enfant</a> est activé, poser cinq doigts dans le coin déverrouille aussi l’écran. Touchez <strong>Annuler</strong> dans la fenêtre <strong>Code PIN de récupération</strong> si vous vouliez seulement déverrouiller.</p></aside>
@@ -207,7 +208,7 @@
 <h2 id="si-un-appareil-ne-redemarre-pas">Si un appareil ne redémarre pas</h2>
 <p>Écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> en indiquant la version affichée à l’écran et le message qu’il affiche. Ne le réappairez pas avant. L’état de l’association aide souvent à comprendre ce qui s’est passé.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-settings"><span>Précédent</span><b>Réglages de Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

@@ -179,7 +179,7 @@
 <p>Si vous avez plusieurs aquariums, balayez vers la gauche ou la droite pour passer de l’un à l’autre. Les points en haut indiquent sur lequel vous êtes. Voir <a href="/fr/help/mobile-tanks">Gérer vos aquariums</a>.</p>
 <p>L’en-tête de l’aquarium affiche son nom, que vous touchez pour renommer l’aquarium, et une rangée d’icônes :</p>
 <ul><li><strong>Nourrir</strong> ouvre le <strong>Mode nourrissage</strong>, où vous lancez l’un des cycles de nourrissage de votre Neptune™ Apex. Il n’apparaît que sur un aquarium équipé d’un Apex. Voir <a href="/fr/help/mobile-dashboard#the-tank-header">L’en-tête de l’aquarium</a>.</li><li>L’icône de journal ouvre le dernier briefing <strong>Reef Buddy</strong>.</li><li>L’icône de partage crée un instantané de l’aquarium à envoyer. Voir <a href="/fr/help/mobile-sharing">Partager votre aquarium</a>.</li><li>La règle ouvre <strong>Unités</strong>, qui définit comment cet aquarium affiche ses mesures.</li><li>Le crayon ouvre le <a href="/fr/help/mobile-tank-profile">profil de l’aquarium</a>.</li></ul>
-<p>Juste sous les widgets se trouve <strong>Modifier le tableau de bord</strong>, pour changer le tableau de bord lui-même. En dessous, une rangée de boutons propose <strong>Enregistrer les paramètres</strong>, <strong>Historique des paramètres</strong> et <strong>Alimentation</strong>, puis des raccourcis vers le journal, les alertes, l’entretien et la population de l’aquarium.</p>
+<p>Juste sous les widgets se trouve <strong>Modifier le tableau de bord</strong>, pour changer le tableau de bord lui-même. En dessous, une rangée de boutons propose <strong>Enregistrer les paramètres</strong>, <strong>Historique des paramètres</strong> et <strong>Nourrissage</strong>, puis des raccourcis vers le journal, les alertes, l’entretien et la population de l’aquarium.</p>
 <p>Plus de détails dans <a href="/fr/help/mobile-dashboard">Lire votre tableau de bord</a>.</p>
 <h2 id="devices">Appareils</h2>
 <p>Voici tout ce que vous avez connecté, classé par marque. Chaque groupe se replie, si bien que même une pièce pleine d’équipement reste facile à lire.</p>
@@ -200,7 +200,7 @@
 <p><strong>La cloche</strong>, en haut à droite, contient l’historique de vos notifications, avec toutes les alertes de Cora, de la plus récente à la plus ancienne. Le chiffre indique combien vous n’en avez pas encore lu.</p>
 <p><strong>Le bouton Journal</strong> flotte en bas à droite du tableau de bord. Touchez-le et dites ce que vous venez de faire, comme un changement d’eau, un nouveau corail ou une dose modifiée. Touchez le bouton d’arrêt quand vous avez fini, et Cora l’écrit dans le journal. Voir <a href="/fr/help/mobile-journal">Le journal</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-setup"><span>Précédent</span><b>Configurer Cora Mobile</b></a><a class="pn-n" href="/fr/help/mobile-tank-profile"><span>Suivant</span><b>Le profil de votre aquarium</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

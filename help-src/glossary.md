@@ -2,7 +2,7 @@
 title: Glossary
 description: What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you'll see in the apps.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 5
 ---
 
@@ -158,7 +158,7 @@ The Cora Max screen that shows all your tanks side by side. On screen it's calle
 
 ## Removed tank
 
-A tank you removed. Its data is kept, and you can bring it back from **Settings → Removed tanks**. See [Managing your tanks](/help/mobile-tanks).
+A tank you removed. Its data is kept, and you can bring it back from **Settings → Removed tanks**. See [Managing your tanks](/help/mobile-tanks). It is never shown, sends no alerts or reminders, and its automations stop.
 
 
 ## Saved design

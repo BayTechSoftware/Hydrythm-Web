@@ -82,7 +82,7 @@ Tocca il nome della vasca per aprire il menu della vasca sullo schermo.
 | **Manutenzione** | L'[elenco delle attività](/help/max-records) |
 | **Report ICP** | I [risultati di laboratorio](/help/max-intelligence) caricati |
 | **Storico parametri** | Scegli un parametro qualsiasi che ha dati e apri il suo [grafico](/help/max-intelligence) |
-| **Soglie di avviso** | L'[intervallo sano](/help/max-alerts) di ogni parametro di questa vasca |
+| **Soglie di avviso** | L'[intervallo ideale](/help/max-alerts) di ogni parametro di questa vasca |
 | **Popolazione** | L'inventario di questa vasca, in sola visualizzazione su questo schermo |
 | **Attività** | [Ogni presa, alimentazione e dose](/help/max-activity), e cosa è successo |
 | **Layout dashboard** | [Disponi i widget su questo schermo](/help/max-dashboard-editing) |

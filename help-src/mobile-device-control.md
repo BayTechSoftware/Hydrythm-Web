@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's page to see its live state and switch outlets, pumps, dosing heads and testers, brand by brand.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
@@ -178,7 +178,7 @@ Defaults and other consumables are in [Consumables](/help/mobile-consumables).
 
 ## Jecod / Jebao pumps {#jecod}
 
-The pump page shows the current wave pattern (mode) and intensity, and you can change both. Its status sits in the title row, next to the pump's name. A switch with **Same all day** and **Schedule** marks the one that is running with *· running*, and the page opens on it. Building a day program, and copying, saving or sharing it, is in [Scheduling equipment](/help/mobile-schedules).
+The pump page shows the current wave pattern (mode) and intensity, and you can change both. Its status sits in the title row, next to the pump's name. A switch with **Same all day** and **Schedule** marks the one that is running with *· running*, and the page opens on it. Building a schedule, and copying, saving or sharing it, is in [Scheduling equipment](/help/mobile-schedules).
 
 If the pump is part of a group, the page shows its role, such as **Leads the group**, **Follows: in step** or **Follows: alternating**.
 
@@ -190,6 +190,8 @@ Start a feeding pause from **Feeding** on the pump's page: tap **5**, **10**, **
 Some pumps don't end a feed by themselves, and the page says so. For those, and for any pump on a schedule, Cora Mobile brings the wave pattern and the schedule back only while the pump's page stays open. If you leave the page, the pump stays stopped in feed mode, or stays off its schedule, until you change it again or tap **Schedule**.
 :::
 
+If your household has a Cora Max, it ends the feed and puts the pump back on its program when the time is up, even if Cora Mobile is closed. The warning above then matters only when there is no Cora Max.
+
 A Bluetooth pump has to be in range of your phone to start a feed, and a network pump has to be on your network.
 
 ### Fault checks {#jecod-fault-checks}
@@ -199,6 +201,10 @@ A Bluetooth pump has to be in range of your phone to start a feed, and a network
 ## AquaWiz {#aquawiz}
 
 The AquaWiz card shows your alkalinity readings, and pH if your unit reports it. It also shows your target KH, your dose strength and, for a unit with dosing set up, its maximum dose per hour and how much alkalinity supplement is left in the container. These come straight from your AquaWiz settings, so change them in the AquaWiz app. Cora can't control an AquaWiz.
+
+Under the readings the card shows when the last one was measured (*Measured 2:00 PM*, for example) and where it came from: **Hourly from your Cora Max** or **From AquaWiz cloud, every 12 hours**. It also shows the **pH change**. Opening the page asks for a fresh reading, and **Read now** asks again, at most once every 15 minutes. If a reading hasn't changed, that's normal: the unit only measures now and then.
+
+When a Cora Max reads the unit every hour, the card also shows its pump, pH probe and water box level, and Cora alerts you when the pump reports a fault, the pH probe has failed or is near the end of its life, or the water box level stays low or high for over an hour.
 
 If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default. Change it from its rule in the [Alert Center](/help/mobile-alerts).
 

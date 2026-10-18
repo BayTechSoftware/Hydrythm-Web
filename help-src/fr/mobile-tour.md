@@ -26,7 +26,7 @@ L’en-tête de l’aquarium affiche son nom, que vous touchez pour renommer l�
 - La règle ouvre **Unités**, qui définit comment cet aquarium affiche ses mesures.
 - Le crayon ouvre le [profil de l’aquarium](/help/mobile-tank-profile).
 
-Juste sous les widgets se trouve **Modifier le tableau de bord**, pour changer le tableau de bord lui-même. En dessous, une rangée de boutons propose **Enregistrer les paramètres**, **Historique des paramètres** et **Alimentation**, puis des raccourcis vers le journal, les alertes, l’entretien et la population de l’aquarium.
+Juste sous les widgets se trouve **Modifier le tableau de bord**, pour changer le tableau de bord lui-même. En dessous, une rangée de boutons propose **Enregistrer les paramètres**, **Historique des paramètres** et **Nourrissage**, puis des raccourcis vers le journal, les alertes, l’entretien et la population de l’aquarium.
 
 Plus de détails dans [Lire votre tableau de bord](/help/mobile-dashboard).
 

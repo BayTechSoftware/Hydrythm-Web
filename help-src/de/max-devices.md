@@ -2,7 +2,7 @@
 title: Geräte und Gerätezustand
 description: Die Ausrüstung sehen und umbenennen, die Cora Max abfragt, festlegen, welches Cora Max jedes Becken abfragt, ein Becken reparieren, dessen Messwerte stehen geblieben sind, und ein Cora Max vom Handy aus verwalten.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Equipment
 twin: mobile-devices
@@ -15,6 +15,8 @@ twin: mobile-devices
 ![Die Geräteliste auf Cora Max, nach Becken gefiltert und nach Marke gruppiert](img/max-devices.webp "Nach Becken filtern, dann jedes Gerät nach Marke gruppiert, mit einer einzeiligen Zusammenfassung und seinem Becken.")
 
 Cora Max sieht dieselbe Ausrüstung wie dein Handy, weil beide dasselbe Konto lesen.
+
+In der Liste stehen zuerst die Cora-Familien, dann jede Marke von A bis Z.
 
 Mit den Filter-Chips oben zeigst du **Alle Becken** oder nur eins. Die Geräte sind nach Marke gruppiert. Jeder Eintrag hat einen Statuspunkt (grau, wenn Cora es noch nicht weiß, grün, wenn es funktioniert, orange bei einer Warnung oder einem Fehler, rot, wenn es offline ist), eine einzeilige Zusammenfassung dessen, was das Gerät hat (*21 Steckdosen · 4 Fütterungen*, *19 Tests übrig*), das Becken, zu dem es gehört, und wann es **Zuletzt gesehen** wurde.
 

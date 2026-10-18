@@ -2,7 +2,7 @@
 title: Aktywność i oś czasu
 description: Zobacz każdą zmianę wysłaną do sprzętu, kto albo co o nią poprosiło i czy zadziałała, oraz przeczytaj oś czasu akwarium wokół danej daty.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 30
 group: Records
 twin: max-activity

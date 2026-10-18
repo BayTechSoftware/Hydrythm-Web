@@ -176,7 +176,7 @@
 <p>Allez dans Réglages → votre aquarium → <strong>Mode vacances</strong>. Si vous avez plusieurs aquariums, choisissez l’aquarium en haut. Chaque aquarium a son propre plan.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Le mode vacances dans Cora Mobile"><img src="/help/img/mobile-vacation.webp" alt="Le mode vacances dans Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>L’aquarium, un rappel que les alertes vous parviennent toujours, les dates du voyage, puis la liste pour le gardien.</figcaption></figure>
 <h2 id="setting-it-up">Le configurer</h2>
-<ol><li>Sous <strong>Quand êtes-vous absent ?</strong>, touchez <strong>Choisissez vos dates de voyage</strong>.</li><li>Préparez la <strong>Liste pour le gardien</strong>. Les tâches d’entretien qui arrivent à échéance pendant votre absence vous sont proposées, chacune avec sa fréquence. Touchez une suggestion pour l’ajouter, comme <strong>Nourrir l’aquarium</strong>, <strong>Vérifier le réservoir de l’ATO</strong>, <strong>Vider la coupelle de l’écumeur</strong> ou <strong>M’appeler si quelque chose semble anormal</strong>. Pour ajouter votre propre tâche, tapez-la sous <strong>Ajouter votre propre tâche…</strong> et touchez <strong>Ajouter une tâche</strong>.</li><li>Sous <strong>Notes et contact</strong>, rédigez les <strong>Notes pour le gardien</strong> et, sous <strong>Si quelque chose semble anormal</strong>, indiquez comment vous joindre.</li><li>Touchez <strong>Démarrer le mode vacances</strong>.</li></ol>
+<ol><li>Sous <strong>Quand êtes-vous absent ?</strong>, touchez <strong>Choisissez vos dates de voyage</strong>.</li><li>Préparez la <strong>Liste pour le gardien</strong>. Les tâches d’entretien qui arrivent à échéance pendant votre absence vous sont proposées, chacune avec sa fréquence. Touchez une suggestion pour l’ajouter, comme <strong>Nourrir l’aquarium</strong>, <strong>Vérifier le réservoir de l’ATO</strong>, <strong>Vider le godet de l’écumeur</strong> ou <strong>M’appeler si quelque chose semble anormal</strong>. Pour ajouter votre propre tâche, tapez-la sous <strong>Ajouter votre propre tâche…</strong> et touchez <strong>Ajouter une tâche</strong>.</li><li>Sous <strong>Notes et contact</strong>, rédigez les <strong>Notes pour le gardien</strong> et, sous <strong>Si quelque chose semble anormal</strong>, indiquez comment vous joindre.</li><li>Touchez <strong>Démarrer le mode vacances</strong>.</li></ol>
 <p>Chaque tâche indique sa fréquence, par exemple <strong>Quotidien</strong>, <strong>Tous les 3 jours</strong>, <strong>Une fois</strong> ou <strong>Toujours</strong> (une consigne permanente). Cora la déduit de la tâche d’entretien ou de la suggestion. Une tâche que vous tapez vous-même n’a pas d’étiquette, alors indiquez la fréquence dans son texte.</p>
 <p>Écrivez la liste pour quelqu’un qui ne connaît pas l’aquarium récifal. Donnez les quantités et la marche à suivre en toutes lettres. « Donner un cube de nourriture congelée, décongelé, une fois par jour » est bien plus clair que « nourrir comme d’habitude ».</p>
 <aside class="cal cal-note"><p class="cal-t">Dites à quoi il ne faut pas toucher</p><p>Ajoutez une tâche pour tout équipement auquel le gardien ne doit pas toucher, par exemple « Ne rien changer sur le contrôleur ». Mettez-le aussi dans les notes.</p></aside>
@@ -191,7 +191,7 @@
 <h2 id="coming-back">Au retour</h2>
 <p>Touchez <strong>Mettre fin au mode vacances</strong> et confirmez avec <strong>Y mettre fin</strong>. Le lien du gardien cesse de fonctionner immédiatement. Votre liste reste enregistrée pour la prochaine fois.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-automation"><span>Précédent</span><b>Automatisations et scènes</b></a><a class="pn-n" href="/fr/help/mobile-journal"><span>Suivant</span><b>Le journal</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

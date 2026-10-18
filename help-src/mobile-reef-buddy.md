@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Your daily Reef Buddy briefing, what it covers, when it arrives, how to read the scores, and why a briefing might not come.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -85,7 +85,7 @@ If you haven't tested anything for a week, the Data score drops and the Stabilit
 
 Reef Buddy is part of the paid plans. It's also included in the 30-day trial that starts when you create your account.
 
-Each plan covers a set number of tanks: 1 on the trial and on Plus, 5 on Pro and 20 on Max. Briefings go to the first tanks in the order set in **Settings → Reorder tanks**. To include a tank that's missing out, move it up the list. Removed tanks don't take a place.
+Each plan covers a set number of tanks: 1 on the trial and on Essential, 5 on Advanced and 20 on Expert. Briefings go to the first tanks in the order set in **Settings → Reorder tanks**. To include a tank that's missing out, move it up the list. Removed tanks don't take a place.
 
 After the trial, a free account sees a locked Reef Buddy card with **See plans** where the briefing was, and gets no briefing notification. More in [Plans and subscriptions](/help/mobile-plans).
 

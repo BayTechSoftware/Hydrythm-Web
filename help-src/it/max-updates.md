@@ -2,7 +2,7 @@
 title: Aggiornamenti e ripristino
 description: Come si aggiorna da solo Cora Max, la finestra di installazione e il canale di aggiornamento, come controllare la versione, il PIN di ripristino e cosa fare se Cora Max non si avvia o mostra un codice di assistenza.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 15
 group: Settings and account
 ---
@@ -28,6 +28,8 @@ In **Impostazioni aggiornamento** nella stessa schermata:
 - **Finestra di installazione** imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di **Inizio** e di **Fine**, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in **Dispositivi →** il tuo Cora Max **→ Fuso orario**.
 
 Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in **Impostazioni Cora Max** e scorri fino a **STATO**. Mostra per ogni vasca **Stato polling**, **Ultimo polling**, **Ultima scrittura cloud** e **Salvataggio cloud**.
+
+Se un aggiornamento si scarica lentamente, controlla la connessione con il **Test di velocità della rete** nella stessa schermata. **Avvia test** scarica fino a 16 MB del file di aggiornamento da Cora Cloud, per al massimo 20 secondi, e mostra la velocità in MB/s.
 
 ## Quando c'è un aggiornamento disponibile
 
@@ -60,7 +62,7 @@ Se sbagli il PIN tre volte, il ripristino si blocca per 30 secondi, e più a lun
 Da **Ripristino** puoi:
 
 - **Ripeti configurazione Wi-Fi**: scegliere una nuova rete Wi-Fi e una nuova password
-- **Ri-accoppia questo dispositivo**: cancellare l'associazione e configurarlo di nuovo con Cora Mobile
+- **Riassocia questo dispositivo**: cancellare l'associazione e configurarlo di nuovo con Cora Mobile
 - **Forza controllo OTA**: controllare subito gli aggiornamenti
 - **Ripristino di fabbrica**: rimuovere l'associazione e ogni impostazione dello schermo
 

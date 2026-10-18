@@ -2,7 +2,7 @@
 title: Interroger Cora
 description: Utilisez Cora Assistant à l’écrit ou à la voix, ce qu’il voit, ce qu’il peut faire pour vous, l’interrupteur de partage de données et la mémoire.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 32
 group: Intelligence
 twin: max-voice
@@ -24,7 +24,7 @@ Tapez dans la zone en bas et envoyez. Si vous ne savez pas par où commencer, to
 
 - *« Pourquoi mon alcalinité baisse-t-elle ? »*
 - *« Qu’est-ce qui a changé depuis la semaine dernière ? »*
-- *« Mon calcium est-il au bon niveau pour un bac SPS ? »*
+- *« Mon calcium est-il au bon niveau pour un aquarium SPS ? »*
 - *« Quand ai-je fait mon dernier changement d’eau ? »*
 
 Pour garder une réponse, touchez **Enregistrer dans le journal** en dessous. Elle va dans le [journal](/help/mobile-journal) de l’aquarium.
@@ -62,6 +62,17 @@ La commande de l’équipement ne fonctionne loin de chez vous que si un Cora Ma
 :::warning Cora conseille. Vous décidez
 Vérifiez tout ce qui est important avec vos propres tests. Traitez les gros changements comme vous traiteriez le conseil de n’importe qui, et vérifiez qu’ils tiennent debout avant d’agir. La ligne sous la zone de saisie dit la même chose.
 :::
+
+## Réponses tirées de l’aide {#help-answers}
+
+Demandez comment faire quelque chose, par exemple *« Comment ajouter une pompe doseuse ? »*, et Cora Assistant répond à partir de ce guide d’aide, dans votre langue, à l’écrit ou à la voix. Une question sur l’appli compte comme un message normal.
+
+Sous la réponse, vous voyez jusqu’à deux sections de l’aide, chacune avec jusqu’à deux boutons :
+
+- **Ouvrir cet écran** vous amène directement à l’écran dont parle la réponse. Il est omis si vous y êtes déjà. Si l’écran est l’un des onglets principaux, une conversation vocale se termine d’abord.
+- **Lire dans l'aide** ouvre cette page d’aide dans le navigateur intégré de votre téléphone.
+
+Les boutons n’apparaissent que s’il y a un écran ou une page à ouvrir.
 
 ## Consentement {#consent}
 

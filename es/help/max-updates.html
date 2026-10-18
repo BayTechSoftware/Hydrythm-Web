@@ -183,6 +183,7 @@
 <p>En <strong>Ajustes de actualización</strong>, en la misma pantalla:</p>
 <ul><li><strong>Ventana de instalación</strong> fija las horas en que se pueden instalar las actualizaciones, con una hora de <strong>Inicio</strong> y de <strong>Fin</strong>, en la hora local de esta pantalla. La zona horaria se fija en Cora Mobile, en <strong>Dispositivos →</strong> tu Cora Max <strong>→ Zona horaria</strong>.</li></ul>
 <p>Para ver si esta pantalla está leyendo tus dispositivos y guardando en Cora Cloud, vuelve a <strong>Ajustes de Cora Max</strong> y baja hasta <strong>ESTADO</strong>. Muestra el <strong>Estado de sondeo</strong>, el <strong>Último sondeo</strong>, la <strong>Última escritura en la nube</strong> y el <strong>Guardado en la nube</strong> de cada acuario.</p>
+<p>Si una actualización se descarga despacio, revisa tu conexión con la <strong>Prueba de velocidad de red</strong> de la misma pantalla. <strong>Iniciar prueba</strong> descarga hasta 16 MB del archivo de actualización desde Cora Cloud, durante 20 segundos como máximo, y muestra la velocidad en MB/s.</p>
 <h2 id="cuando-hay-una-actualizacion-disponible">Cuando hay una actualización disponible</h2>
 <p>Un aviso te cuenta las novedades y te da dos opciones.</p>
 <ul><li><strong>Actualizar ahora</strong> la instala al momento y reinicia. Tarda más o menos un minuto. Mantén Cora Max enchufado.</li><li><strong>Posponer 24 horas</strong> oculta el aviso y te vuelve a preguntar un día después.</li></ul>
@@ -207,7 +208,7 @@
 <h2 id="si-una-unidad-no-se-reinicia">Si una unidad no se reinicia</h2>
 <p>Escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con la versión que aparece en pantalla y el mensaje que muestra. No la vuelvas a emparejar antes. El estado del emparejamiento suele ayudar a saber qué pasó.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-settings"><span>Anterior</span><b>Ajustes de Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -2,7 +2,7 @@
 title: Adding, editing and removing devices
 description: Add equipment to Cora, assign it to a tank, rename it, check it's healthy and remove it, all from the Devices tab.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices

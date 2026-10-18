@@ -2,7 +2,7 @@
 title: Modifier le tableau de bord Cora Max
 description: Ajoutez, déplacez et retirez des tuiles sur le tableau de bord Cora Max, choisissez une grille, utilisez les modèles ou Concevoir avec l’IA, et enregistrez des dispositions à réutiliser sur n’importe quel Cora Max.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -56,6 +56,8 @@ Les types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBea
 
 **Prises et nourrissage**, dans l’éditeur, choisit quelles prises et quels cycles de nourrissage apparaissent dans **Commandes**, le tiroir que vous faites glisser vers le haut depuis le bas du tableau de bord. Cela n’ajoute pas de tuiles. Si vous n’en choisissez aucun, Commandes les liste tous. Pour mettre une prise sur la grille elle-même, ajoutez une tuile **Prise**. Plus de détails dans [Prises et commandes](/help/max-controls).
 
+Quand vous retirez un appareil d’un aquarium, ses tuiles quittent le tableau de bord toutes seules, sur votre téléphone et sur chaque Cora Max de cet aquarium. Une tuile dont l’appareil a disparu affiche **Cet appareil n'est plus dans cet aquarium** et n’ouvre rien.
+
 ## Modèles {#templates}
 
 **Modèles** se trouve en haut de l’éditeur, à côté de **Mes tableaux de bord** et **Concevoir avec l'IA**. C’est ouvert avec tous les forfaits et n’utilise jamais l’IA, donc cela fonctionne aussi sans partage de données avec l’IA.
@@ -81,7 +83,7 @@ On lit un écran mural de plus loin qu’un téléphone, et le plus souvent d’
 - Mettez vos paramètres clés en deux par deux. L’alcalinité, la température et le pH sont des valeurs que vous voudrez lire sans vous approcher.
 - Placez les commandes sur les bords. Les tuiles de prises sont celles que vous touchez, et elles sont plus faciles à atteindre sur les côtés.
 - Regroupez les tuiles par sujet. Gardez tout le dosage ensemble et tout le brassage ensemble, car on parcourt un écran mural par zones.
-- Gardez les oligo-éléments en petit. Ces valeurs et les autres valeurs lentes servent de repère, donc une tuile Valeur d’une case suffit largement.
+- Gardez les oligoéléments en petit. Ces valeurs et les autres valeurs lentes servent de repère, donc une tuile Valeur d’une case suffit largement.
 
 ## Enregistrer et réutiliser des dispositions {#saving-layouts}
 

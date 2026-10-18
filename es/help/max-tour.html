@@ -173,7 +173,7 @@
       <p class="twin">En Cora Mobile: <a href="/es/help/mobile-tour">Moverte por Cora Mobile</a></p>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#the-top-bar">La barra superior</a></li><li><a href="#the-dashboard">El panel</a></li><li><a href="#the-tank-menu">El menú del acuario</a></li><li><a href="#switching-tanks">Cambiar de acuario</a></li><li><a href="#the-outlets-feed-drawer">El cajón Tomas y alimentación</a></li><li><a href="#if-something-looks-out-of-place">Si algo no parece estar bien</a></li></ul></nav>
 <p>Esta página explica lo que ves en Cora Max. Muestra un acuario cada vez, con las lecturas en directo llenando la pantalla para que puedas leerlas desde el otro lado de la habitación.</p>
-<figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: La pantalla de inicio de Cora Max con los medidores, valores, gráficos y casillas de dispositivos de un acuario bajo la barra superior"><img src="/help/img/max-home.webp" alt="La pantalla de inicio de Cora Max con los medidores, valores, gráficos y casillas de dispositivos de un acuario bajo la barra superior" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>El panel de un acuario llena la pantalla, con la barra superior encima.</figcaption></figure>
+<figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: La pantalla de inicio de Cora Max con los medidores, valores, gráficos y tarjetas de dispositivos de un acuario bajo la barra superior"><img src="/help/img/max-home.webp" alt="La pantalla de inicio de Cora Max con los medidores, valores, gráficos y tarjetas de dispositivos de un acuario bajo la barra superior" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>El panel de un acuario llena la pantalla, con la barra superior encima.</figcaption></figure>
 <h2 id="the-top-bar">La barra superior</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: La barra superior de Cora Max"><img src="/help/img/max-topbar.webp" alt="La barra superior de Cora Max" width="1280" height="120" loading="lazy" decoding="async"></button><figcaption>La barra superior, numerada de izquierda a derecha según la lista de abajo.</figcaption></figure>
 <p>De izquierda a derecha:</p>
@@ -185,7 +185,7 @@
 <h2 id="the-dashboard">El panel</h2>
 <p>El resto de la pantalla es el panel, una cuadrícula fija que mantiene visibles todos los widgets. No se desplaza.</p>
 <p>Los widgets funcionan igual que en tu teléfono, pero lo bastante grandes para leerlos desde unos pasos atrás. Lo que muestra cada forma está en la <a href="/es/help/mobile-widgets">Referencia de widgets</a>. Para cambiar lo que hay en el panel, consulta <a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a>.</p>
-<p>Cada widget con un parámetro medido muestra su <strong>antigüedad</strong> y su <strong>fuente</strong>, igual que en tu teléfono. Un número con <code>2d</code> al lado tiene dos días. Las casillas de dispositivos y controles muestran su propio estado.</p>
+<p>Cada widget con un parámetro medido muestra su <strong>antigüedad</strong> y su <strong>fuente</strong>, igual que en tu teléfono. Un número con <code>2d</code> al lado tiene dos días. Las tarjetas de dispositivos y controles muestran su propio estado.</p>
 <h3 id="when-the-screen-is-dimmed">Cuando la pantalla está atenuada</h3>
 <p>Cuando pasa el tiempo de <strong>Atenuar después de</strong> sin que nadie la toque, la pantalla se atenúa. Tu primer toque solo la despierta, así que no puede pulsar un control por accidente. Vuelve a tocar para usar la pantalla.</p>
 <h2 id="the-tank-menu">El menú del acuario</h2>
@@ -202,7 +202,7 @@
 <h2 id="if-something-looks-out-of-place">Si algo no parece estar bien</h2>
 <p>Si las lecturas parecen antiguas, o la etiqueta de estado está en ámbar o en rojo, empieza por <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-setup"><span>Anterior</span><b>Configurar Cora Max</b></a><a class="pn-n" href="/es/help/max-reef-room"><span>Siguiente</span><b>El cuarto de los acuarios</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

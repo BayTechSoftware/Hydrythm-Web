@@ -2,7 +2,7 @@
 title: Markaya göre ekipman
 description: Neptune Apex, Red Sea ReefBeat, Jecod ya da AquaWiz ekipmanınızla ilgili her şey tek yerde: eklemekten kontrol etmeye, uyarılarından çözümlerine kadar.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 3
 ---
 
@@ -24,7 +24,7 @@ Cora, Apex'inizin problarını ve prizlerini okur, besleme döngülerini çalı�
 - Telefonunuzda kontrol: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Cora Max'te: [prizler ve besleme modu](/help/max-controls), [Apex ve Trident](/help/max-device-control#neptune-apex), [DŌS kafaları](/help/max-device-control#dos-heads)
 - Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting), [dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts)
-- Çözümler: ["Apex'e ulaşılamadı"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… Apex bilgileri yok"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex parolası"](/help/troubleshooting#cora-max-shows-apex-password), [Besleme başlamıyor](/help/troubleshooting#feed-does-not-start), [bir doz yarıda durdu](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Çözümler: ["Apex'e ulaşılamadı"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… Apex bilgileri yok"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex şifresi"](/help/troubleshooting#cora-max-shows-apex-password), [Besleme başlamıyor](/help/troubleshooting#feed-does-not-start), [bir doz yarıda durdu](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -41,14 +41,14 @@ ReefDose, ReefRun, ReefMat ve ReefATO+. Bir cihazın kendi ayarları yalnızca t
 Cora'ya ağınız ya da Bluetooth üzerinden ulaşan pompalar. Hangisi olduğu, uzaktayken neler yapabileceğinizi belirler.
 
 - Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#jecod)
-- Telefonunuzda kontrol: [Jecod pompaları](/help/mobile-device-control#jecod), [günlük programlar](/help/mobile-schedules)
+- Telefonunuzda kontrol: [Jecod pompaları](/help/mobile-device-control#jecod), [günlük zamanlamalar](/help/mobile-schedules)
 - Cora Max'te: [Jecod](/help/max-device-control#jecod)
 - Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting)
 - Çözümler: ["Bu pompaya ulaşılamadı"](/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent), [Bluetooth menzili dışında](/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t)
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora onu AquaWiz'in kendi bulutu üzerinden okur, bu yüzden Cora Max olmadan da güncellenmeye devam eder.
+Cora onu AquaWiz'in kendi bulutu üzerinden 12 saatte bir okur, bu yüzden Cora Max olmadan da güncellenmeye devam eder. Akvaryumdaki bir Cora Max saatlik bir ölçüm ekleyebilir.
 
 - Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#aquawiz-kh-controller)
 - Telefonunuzda: [AquaWiz](/help/mobile-device-control#aquawiz)

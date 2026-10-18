@@ -2,7 +2,7 @@
 title: Deine Ausrüstung verbinden
 description: So verbindest du ein Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Gerät mit Cora.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 12
 group: Equipment
 ---
@@ -54,7 +54,7 @@ Cora spricht mit ReefBeat-Ausrüstung in deinem lokalen Netzwerk. Unterstützt w
 
 Ein Red Sea-Gerät versorgt ein Becken. Wählst du ein anderes, wandert es dorthin.
 
-Jedes Gerät bekommt seine eigene Geräteseite, und seine Messwerte werden zu Quellen. ReefDose meldet seine Köpfe und Behälter, ReefATO+ sein Reservoir und seine Befüllungen, ReefMat die Tage, die es noch hat, und ReefRun den Zustand seiner Pumpe. Was jede Seite dich tun lässt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
+Jedes Gerät bekommt seine eigene Geräteseite, und seine Messwerte werden zu Quellen. ReefDose meldet seine Köpfe und Behälter, ReefATO+ seinen Nachfüllbehälter und seine Befüllungen, ReefMat die Tage, die es noch hat, und ReefRun den Zustand seiner Pumpe. Was jede Seite dich tun lässt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
 
 ## Jecod / Jebao {#jecod}
 
@@ -73,10 +73,10 @@ Findet eine Suche nichts, zeigt das Ergebnis die Adressen, die über WLAN geprü
 **Über Bluetooth.** Manche Pumpen lassen sich nur von einem Handy erreichen, das in ihrer Nähe steht. Die Seite der Pumpe sagt das und zeigt die letzten Einstellungen, die sie gelesen hat, und wie alt sie sind. Cora braucht dafür die Bluetooth-Berechtigung. Erteil sie, bevor du eine Bluetooth-Pumpe hinzufügst, sonst findet Cora die Pumpe gar nicht.
 
 :::warning Du musst in der Nähe einer Bluetooth-Pumpe sein
-Ihre Seite zeigt die letzten Einstellungen, die Cora gelesen hat, und wie lange das her ist. Etwas zu ändern, auch eine Fütterungspause zu starten, braucht die Pumpe in Reichweite. Stell dich in ihre Nähe und öffne die Seite noch einmal.
+Ihre Seite zeigt die letzten Einstellungen, die Cora gelesen hat, und wie lange das her ist. Etwas zu ändern, auch eine Futterpause zu starten, braucht die Pumpe in Reichweite. Stell dich in ihre Nähe und öffne die Seite noch einmal.
 :::
 
-Über beide Verbindungen bekommst du Live-Zustand, Modus und Intensität, eine Fütterungspause und ein Tagesprogramm. Eine Fütterungspause, die du auf dem Handy startest, braucht bei manchen Pumpen die geöffnete Seite der Pumpe. Die Details stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#jecod), und [Ausrüstung planen](/help/mobile-schedules) behandelt das Tagesprogramm.
+Über beide Verbindungen bekommst du Live-Zustand, Modus und Intensität, eine Futterpause und ein Tagesprogramm. Eine Futterpause, die du auf dem Handy startest, braucht bei manchen Pumpen die geöffnete Seite der Pumpe. Die Details stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#jecod), und [Ausrüstung planen](/help/mobile-schedules) behandelt das Tagesprogramm.
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
@@ -84,11 +84,11 @@ Cora liest die Alkalinität eines AquaWiz KH Controllers über dein AquaWiz-Kont
 
 1. Geh zu **Geräte → Gerät hinzufügen → AquaWiz**.
 2. Gib deinen AquaWiz-Benutzernamen und dein Passwort ein und tippe auf **Verbinden**.
-3. Wähl das Becken, schalte **Auch pH-Wert lesen** ein, wenn du willst, und tippe auf **Mit Cora verknüpfen**.
+3. Wähl das Becken, prüf **Auch pH-Wert lesen** (es ist bei einem Gerät, das den pH-Wert meldet, zuerst eingeschaltet), und tippe auf **Mit Cora verknüpfen**.
 
 Mit eingeschaltetem **Automatisch verbunden bleiben** behält Cora dein AquaWiz-Passwort und erneuert die Verbindung von selbst. Ist es aus, behält Cora nur ein Anmelde-Token, das AquaWiz etwa alle 30 Tage ablaufen lässt, und schickt dir eine Benachrichtigung, wenn du dich wieder anmelden musst.
 
-Du bekommst die Alkalinität als Quelle, so oft aktualisiert, wie dein Controller titriert, und auch den pH-Wert, wenn du ihn eingeschaltet hast und dein Gerät ihn meldet. Was die AquaWiz-Karte zeigt und ihre Warnung für den Zusatz stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#aquawiz).
+Du bekommst die Alkalinität als Quelle, und auch den pH-Wert, wenn dein Gerät ihn meldet und **Auch pH-Wert lesen** an ist. Dein erster Messwert kommt, sobald du verknüpfst. Danach erlaubt AquaWiz Cora nur alle 12 Stunden, seine Cloud automatisch abzufragen. Ein Messwert von dort kann also bis zu etwa einen halben Tag alt sein. Ein Cora Max am Becken kann den Controller auch selbst jede Stunde auslesen, wenn er ihn erreicht. Öffne die Seite des Geräts, um zu sehen, wann jeder Messwert gemessen wurde und woher er kam, und tippe auf **Jetzt auslesen** für einen frischen (höchstens alle 15 Minuten). Was die AquaWiz-Karte zeigt und welche Warnungen es gibt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#aquawiz).
 
 :::warning Cora teilt deine AquaWiz-Anmeldung
 AquaWiz vergibt pro Konto eine Anmeldung, deshalb nutzt Cora dieselbe wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, trennt sich Cora. Verbinde es danach über die Gerätezeile neu. Um Cora den Zugriff ganz zu entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.

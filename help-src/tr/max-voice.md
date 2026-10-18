@@ -2,7 +2,7 @@
 title: Cora ile konuşma
 description: Cora Max'te sesi ve "Hey Cora"yı kullanın, sesle neler yapıp neler yapamayacağını, yapay zeka veri paylaşımını ve aylık hakkınızı öğrenin, Cora yanıt vermediğinde ne yapacağınızı görün.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Intelligence
 twin: mobile-assistant
@@ -62,15 +62,19 @@ Devam soruları için kendinizi tekrarlamanız gerekmez. Ana akvaryumla ilgili b
 - Günlüğe yazar: *"Yirmi litrelik su değişimi yaptığımı kaydet."* *"Ekstra mysis verdiğimi kaydet."* *"Sabah beslemesini atladığımı kaydet."*
 - Red Sea ekipmanını kontrol eder: bir ReefDose kafasından dozaj yapar, günlük dozunu değiştirir, bir ReefATO+ dolumu başlatır, bir ReefMat'i ilerletir ya da bir ReefRun pompasının hızını ayarlar.
 - Jecod pompalarını kontrol eder.
+- Bir otomasyonu ya da sahneyi adıyla çalıştırır, telefonunuzdaki Cora Assistant gibi: *"Su değişimi sahnesini çalıştır."*
 
 ## Cora'nın Cora Max'te sesle yapamadıkları
 
-- Bir sahneyi çalıştırmak ya da durdurmak. Sahne kutucuğunu ya da **Ayarlar → Otomasyonlar**'ı kullanın.
 - Bir Neptune DŌS kafasından dozaj yapmak. Cora Max'te cihazın sayfasını kullanın.
 - Cora Max'in kendi ayarlarını değiştirmek, cihaz eklemek ya da panoyu düzenlemek.
 
 Telefonunuzdaki Cora Assistant bunlardan bazılarını yapabilir. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant#what-cora-can-change) sayfasında.
 
+
+## Yanıttan ekranı açma {#help-answers}
+
+Bir şeyin nasıl yapıldığını sorduğunuzda Cora Yardım rehberinden yanıt verir. Yanıt bir Cora Max ekranıyla ilgiliyse ses kartında ekranın başlığı ve **Bu ekranı aç** görünür. Oraya gitmek için dokunun. Yalnızca açılacak bir ekran varsa görünür. Cora Max'te tarayıcı yoktur, bu yüzden web sayfasına bağlantı verilmez.
 
 ## Onaylar
 
@@ -116,7 +120,7 @@ Cora Max dinlemek yerine bir mesaj gösterirse:
 | Mesaj | Ne yapmalı |
 |---|---|
 | **Sesli asistan onayınızı bekliyor** | Cora Mobile'da yapay zeka veri paylaşımını açın (**Ayarlar → Cora Assistant**), sonra tekrar deneyin |
-| **Ücretsiz ses limitine ulaşıldı** | Bu ayın hakkı bitti. Cora Mobile'da planınızı yükseltin ya da gelecek ayı bekleyin |
+| **Ücretsiz ses sınırına ulaşıldı** | Bu ayın hakkı bitti. Cora Mobile'da planınızı yükseltin ya da gelecek ayı bekleyin |
 | **Çok fazla istek** | Biraz bekleyin, sonra tekrar deneyin |
 | **Bağlantı sorunu** | Bu Cora Max'in Wi-Fi bağlantısını kontrol edin, sonra **Cora Assistant** simgesine yeniden dokunun |
 

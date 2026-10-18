@@ -33,7 +33,7 @@ Auf demselben Bildschirm steht ein kurzer Hinweis zu Anbindungen an Ausrüstung 
 
 ## Vom Handy aus koppeln {#pairing}
 
-Alles Weitere passiert in Cora Mobile. Ein Fenster führt dich durch fünf Schritte, die oben stehen: **Verbinden · Wi-Fi · Anmeldung · Becken · Fertig**.
+Alles Weitere passiert in Cora Mobile. Ein Fenster führt dich durch fünf Schritte, die oben stehen: **Verbinden · WLAN · Anmeldung · Becken · Fertig**.
 
 1. **Finden.** Öffne den Tab **Geräte**, tippe auf **Gerät hinzufügen** und dann auf **Cora**. Der Bildschirm **Füge dein Cora hinzu** listet Cora-Geräte in deinem Netzwerk und Einrichtungsgeräte in der Nähe auf, die über Bluetooth gefunden wurden. Tippe auf **Scannen**, wenn deins noch nicht dabei ist, und dann auf dein Cora Max.
 
@@ -41,7 +41,7 @@ Alles Weitere passiert in Cora Mobile. Ein Fenster führt dich durch fünf Schri
 
 2. **Verbinden.** Dein Handy verbindet sich über Bluetooth mit Cora Max und zeigt MAC-Adresse, Firmware, Variante und Hardware-Revision. Prüf, ob es das richtige ist, und tippe dann auf **Weiter**.
 
-3. **Wi-Fi.** Wähl dein Netzwerk aus der Liste oder tippe auf **Erneut scannen** und gib das Passwort auf dem Handy ein. Ab hier spricht dein Handy über WLAN mit Cora Max, lass das Handy also im selben Netzwerk.
+3. **WLAN.** Wähl dein Netzwerk aus der Liste oder tippe auf **Erneut scannen** und gib das Passwort auf dem Handy ein. Ab hier spricht dein Handy über WLAN mit Cora Max, lass das Handy also im selben Netzwerk.
 
 4. **Anmeldung.** Dein Handy verknüpft Cora Max mit deinem Konto. Das läuft von selbst, und Cora Max zeigt seinen eigenen Fortschritt, etwa **Dein Konto wird überprüft…** und **Dein Becken wird eingerichtet…**.
 
@@ -99,4 +99,4 @@ Cora Max aktualisiert sich selbst. Eine neue Version lädt im Hintergrund und in
 
 ## In ein anderes WLAN umziehen {#moving-it-to-a-different-network}
 
-Geh zu **Einstellungen → Cora Max-Einstellungen → Wi-Fi**, wähl das neue Netzwerk und gib das Passwort ein. Cora Max bleibt gekoppelt, du musst es also nicht neu einrichten.
+Geh zu **Einstellungen → Cora Max-Einstellungen → WLAN**, wähl das neue Netzwerk und gib das Passwort ein. Cora Max bleibt gekoppelt, du musst es also nicht neu einrichten.

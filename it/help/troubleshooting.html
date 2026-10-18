@@ -289,9 +289,9 @@
 <ul><li>La tua prova è finita. Reef Buddy fa parte dei piani a pagamento. Dopo la prova di 30 giorni, un account gratuito smette di ricevere il briefing giornaliero. Vedi <a href="/it/help/mobile-plans">Piani e abbonamenti</a>.</li><li>La vasca non è coperta dal tuo piano. Ogni piano copre un certo numero di vasche, contate nell'ordine di <strong>Impostazioni → Riordina vasche</strong>. Sposta una vasca più in alto per includerla.</li><li>Oggi non è cambiato niente. In una giornata tranquilla il briefing resta in silenzio.</li></ul>
 <p>Di più in <a href="/it/help/mobile-reef-buddy">Reef Buddy</a>.</p>
 <h3 id="alerts-from-a-removed-tank">Continuano ad arrivare avvisi da una vasca che ho rimosso</h3>
-<p>Rimuovere una vasca la nasconde soltanto. I suoi dispositivi restano collegati, e un Cora Max può ancora leggerla, quindi la sua attrezzatura può continuare a inviare dati e avvisi.</p>
-<ol><li>Ripristinala da <strong>Impostazioni → Vasche rimosse</strong> così puoi vederla di nuovo.</li><li>Rimuovi o sposta i suoi dispositivi nella scheda <strong>Dispositivi</strong>.</li><li>Toglila dal tuo Cora Max: sul telefono, apri <strong>Dispositivi</strong>, poi il tuo Cora Max, e in <strong>Vasche</strong> tocca <strong>Rimuovi vasca</strong> accanto a lei.</li></ol>
-<p>Poi rimuovi di nuovo la vasca. Di più in <a href="/it/help/mobile-tanks">Gestire le tue vasche</a>.</p>
+<p>Una vasca rimossa viene conservata per il suo storico, ma non invia avvisi né promemoria e le sue automazioni si fermano. Se ne ricevi ancora uno:</p>
+<ol><li>Apri <strong>Impostazioni → Vasche rimosse</strong>. Se la vasca non è nell'elenco, non è stata rimossa.</li><li>Aggiorna Cora Mobile e il tuo Cora Max all'ultima versione.</li><li>Gli avvisi continuano? Scrivi all'assistenza con il testo dell'avviso e l'ora in cui l'hai ricevuto. Vedi <a href="/it/help/mobile-support">Segnalare un problema</a>.</li></ol>
+<p>Di più in <a href="/it/help/mobile-tanks">Gestire le tue vasche</a>.</p>
 <h2 id="cora-assistant-and-voice">Cora Assistant e voce</h2>
 <h3 id="cora-assistant-answers-about-the-wrong-tank">Cora Assistant risponde sulla vasca sbagliata</h3>
 <p>Non hai scelto una vasca prima di chiedere, oppure è selezionata quella sbagliata. Scegli la vasca che intendi, poi chiedi di nuovo. Di più in <a href="/it/help/mobile-assistant">Fare domande a Cora</a>.</p>
@@ -321,7 +321,7 @@
 <h2 id="still-stuck">Ancora bloccato</h2>
 <p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, oppure segnalalo da Cora Mobile come descritto in <a href="/it/help/mobile-support">Segnalare un problema</a>. Dicci quale vasca, quale dispositivo, quale schermata e cosa ti aspettavi di vedere.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/how-do-i"><span>Successivo</span><b>Come faccio a...?</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.215 e Cora Mobile 0.5.124. Ultimo controllo il 2026-10-18.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -712,7 +712,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ed574cad08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

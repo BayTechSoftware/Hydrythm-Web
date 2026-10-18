@@ -18,8 +18,8 @@ Il pannello si chiama **Avvisi:** seguito dal nome del dispositivo. Se l'attrezz
 Dove impostarlo:
 
 - **La maggior parte dei dispositivi**: la campanella nella barra in alto della pagina del dispositivo.
-- **DŌS**: la scheda **Avvisi** nella pagina del DŌS, oppure la campanella. Vedi [Avvisi del dosatore](/help/mobile-device-control#doser-alerts).
-- **Dosatori AquaWiz**: la loro regola nella scheda **Regole** del [Centro avvisi](/help/mobile-alerts).
+- **DŌS**: la scheda **Avvisi** nella pagina del DŌS, oppure la campanella. Vedi [Avvisi della pompa dosometrica](/help/mobile-device-control#doser-alerts).
+- **Pompe dosometriche AquaWiz**: la loro regola nella scheda **Regole** del [Centro avvisi](/help/mobile-alerts).
 
 Quasi tutte le soglie sono in giorni, non in volume. Cora calcola quanto durerà quello che resta al ritmo con cui lo stai usando. "Quattro giorni di calcio rimasti" è un dato su cui puoi agire. "180 mL rimasti" no.
 
@@ -35,7 +35,7 @@ Quasi tutte le soglie sono in giorni, non in volume. Cora calcola quanto durerà
 | Testa DŌS | **Avvisi di dose mancata** (un interruttore) | |
 | Testa ReefDose | Giorni di integratore rimasti | 7 giorni |
 | ReefATO+ | **Autonomia del serbatoio**, stimata dal consumo recente di rabbocco | 2 giorni |
-| ReefMat | **Rullo rimanente**, stimato dalla velocità con cui avanza il rullo | 3 giorni |
+| ReefMat | **Rotolo rimanente**, stimato dalla velocità con cui avanza il rotolo | 3 giorni |
 | AquaWiz | Integratore di alcalinità rimasto | 100 mL |
 
 
@@ -46,7 +46,7 @@ Un avviso sui materiali di consumo funziona come tutti gli altri avvisi. Compare
 Impostala con abbastanza anticipo da avere il tempo di agire. Se scatta il giorno in cui qualcosa finisce, non è un avviso.
 
 :::warning Alcune attrezzature continuano anche quando sono vuote
-Una testa DŌS con il contenitore vuoto continua a seguire il suo programma e registra dosi che non ha mai erogato. Non ha un avviso di livello basso suo. L'avviso di rifornimento è il modo per accorgertene, quindi impostane uno per ogni testa che usi.
+Una testa DŌS con il contenitore vuoto continua a seguire la sua programmazione e registra dosi che non ha mai erogato. Non ha un avviso di livello basso suo. L'avviso di rifornimento è il modo per accorgertene, quindi impostane uno per ogni testa che usi.
 :::
 
 ## Dopo il rifornimento {#after-refilling}

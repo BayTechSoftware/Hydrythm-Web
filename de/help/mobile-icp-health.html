@@ -206,6 +206,7 @@
 <p>Jedes Element wird verfolgt, auch Spurenelemente und Schadstoffe neben den wichtigsten Wasserwerten. Cora erfasst alle 71 Elemente, die ein Labor melden kann, und die Zeile, die manche Labore <em>Acidity</em> nennen, ist der pH-Wert.</p>
 <p>In jeder Elementzeile siehst du den Bereich, den das Labor gedruckt hat, als <em>Laborbereich</em>, neben dem eigenen Bereich von Cora für dieses Element. Ein Element, für das Cora keinen Referenzbereich hat, trägt das Etikett <strong>Kein Cora-Bereich</strong>. Der Bericht sagt, wie viele Elemente einen Cora-Bereich haben, und bewertet den Rest nach allgemeinem Riffwissen. Cora Assistant kommentiert jedes getestete Element, und sein Kommentar gilt auch, wenn es keinen Cora-Bereich gibt.</p>
 <p>Druckt das Labor für ein Element <em>n.d.</em> oder <em>not detected</em>, erfasst Cora es als 0 und sagt, dass es nicht nachgewiesen wurde.</p>
+<p>Gibt ein Labor die <strong>spezifische Dichte</strong> (oder relative Dichte) statt der Salinität an, speichert Cora sie als Salinität, weiter in SG angezeigt, und bewertet sie nach deinem Salinitätsbereich.</p>
 <aside class="cal cal-note"><p class="cal-t">Gelöstes CO2 ist nicht das CO2 im Raum</p><p><strong>Gelöstes CO₂</strong> in einem ICP-Bericht ist das CO2 im Wasser, in mg/L. Es ist ein anderer Messwert als das CO2 der Luft in deinem Raum. Die beiden haben unterschiedliche Bereiche und werden nie vermischt.</p></aside>
 <p>Die Karte <strong>Seit deinem letzten ICP</strong> zeigt, was sich seit dem letzten Mal am stärksten geändert hat. Sie ist meist der schnellste Weg in einen neuen Bericht.</p>
 <p>Tippe auf <strong>Trends</strong>, um jedes Element über alle Tests zu sehen, die du hochgeladen hast. Hier wird ICP richtig nützlich.</p>
@@ -229,7 +230,7 @@
 <p>Der Intelligenz-Bildschirm hält die beiden Arten getrennt. Laborergebnisse stehen unter <strong>ICP-BERICHTE</strong> und erstellte Bewertungen unter <strong>GESUNDHEITSBERICHTE</strong>. Jede Liste zeigt die neuesten zuerst, mit ihrer Bewertung. Tippe auf einen, um ihn wieder vollständig zu öffnen.</p>
 <p>Du erreichst sie auch über <strong>Einstellungen</strong>: Öffne ein Becken, dann <strong>ICP-Berichte</strong> oder <strong>Gesundheitsberichte</strong>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-assistant"><span>Zurück</span><b>Cora fragen</b></a><a class="pn-n" href="/de/help/mobile-journeys"><span>Weiter</span><b>Geführte Journeys</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -620,7 +621,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -31,7 +31,7 @@ Steckdosen-Kacheln zeigen die drei Zustände und heben den aktuellen hervor. Tip
 
 Manche Steckdosen haben ein **Vorhängeschloss**. Es bedeutet, dass die Steckdose dich vor einer Änderung um Bestätigung bittet, damit ein versehentliches Tippen nichts Wichtiges schaltet. Wenn du darauf tippst, zeigt ein Dialog die Steckdose, ihren aktuellen Zustand, die Übersteuerung, die du gleich setzt, und was das mit dem Becken machen kann. Es gibt keine Sperre, die du anderswo ausschalten müsstest.
 
-Standardmäßig haben Heizer, Kühler, Rückförderpumpen, Nachfüllanlage (ATO), Futterautomaten und jede Steckdose, die Cora nicht einordnen kann, das Vorhängeschloss. Licht, Abschäumer, Strömungspumpen, Dosierpumpen, Reaktoren, UV und Lüfter schalten mit einem Tippen.
+Standardmäßig haben Heizer, Kühler, Rückförderpumpen, Nachfüllanlage (ATO), Futterautomaten und jede Steckdose, die Cora nicht einordnen kann, das Vorhängeschloss. Leuchten, Abschäumer, Strömungspumpen, Dosierpumpen, Reaktoren, UV und Lüfter schalten mit einem Tippen.
 
 ## Die Schublade Steckdosen & Füttern {#the-controls-drawer}
 

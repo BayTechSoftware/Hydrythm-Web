@@ -62,7 +62,7 @@ Puedes generar y leer un informe de salud en la pantalla de pared. Abre **Inform
 
 ## Gráficos del historial
 
-Abre el **menú del acuario** y toca **Historial de parámetros**, y después elige un parámetro. Se abre como un gráfico a pantalla completa. Tocar una casilla del panel abre el mismo gráfico. En una pantalla de pared, es la mejor forma de detectar una desviación lenta. Un mes de alcalinidad a pantalla completa muestra una tendencia que una casilla pequeña no puede mostrar.
+Abre el **menú del acuario** y toca **Historial de parámetros**, y después elige un parámetro. Se abre como un gráfico a pantalla completa. Tocar una tarjeta del panel abre el mismo gráfico. En una pantalla de pared, es la mejor forma de detectar una desviación lenta. Un mes de alcalinidad a pantalla completa muestra una tendencia que una tarjeta pequeña no puede mostrar.
 
 - El nombre del parámetro en la cabecera es un desplegable, así que puedes cambiar de parámetro y conservar el periodo.
 - **Periodo** fija el intervalo de tiempo.
@@ -77,6 +77,6 @@ Para la alcalinidad, el calcio y el magnesio, el botón **Calculadora de dosis**
 
 Un itinerario activo aparece como una franja estrecha en la parte de arriba del panel del acuario. Tócala para ver los pasos y cuánto has avanzado.
 
-En un acuario nuevo que está haciendo el ciclo, puedes anotar lecturas aquí. **Registrar una prueba** en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que coger el teléfono.
+En un acuario nuevo que está haciendo el ciclo, puedes anotar lecturas aquí. **Registrar una prueba** en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que tomar el teléfono.
 
 Un itinerario de **problema** es solo de consulta en la pantalla de pared. Empezarlo, completar un paso, anotar un resultado y resolverlo o descartarlo se hace en tu teléfono. Más información en [Itinerarios guiados](/help/mobile-journeys).

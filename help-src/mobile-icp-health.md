@@ -2,7 +2,7 @@
 title: ICP and health reports
 description: Upload an ICP test PDF or have your lab send it, read the score, track each element over time, and run a Health Report of your whole system.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -85,6 +85,8 @@ Every element is tracked, including trace elements and contaminants as well as t
 On each element row you'll see the range the lab printed, shown as *Lab range*, next to Cora's own range for that element. An element Cora has no reference range for carries the tag **No Cora range**. The report says how many elements have a Cora range and assesses the rest from general reef knowledge. Cora Assistant comments on every element that was tested, and its comment stands even when there's no Cora range.
 
 If the lab prints *n.d.*, or *not detected*, for an element, Cora records it as 0 and says it wasn't detected.
+
+If a lab reports **specific gravity** (or relative density) instead of salinity, Cora stores it as salinity, still shown in SG, and grades it against your salinity range.
 
 :::note Dissolved CO2 is not room CO2
 **Dissolved CO₂** in an ICP report is the CO2 in the water, in mg/L. It is a different reading from the CO2 of the air in your room. The two have different ranges and are never mixed.

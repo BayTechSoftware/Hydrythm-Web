@@ -197,12 +197,12 @@
 <p>If a search finds nothing, the result shows the addresses it checked over Wi-Fi. If the Jebao app shows a different address for your pump, your phone is on another network. A guest or IoT network, or a 5 GHz-only band, won't see these pumps. On iPhone, Cora also needs Local Network access to see pumps on your Wi-Fi. Without it the list stays empty and no error appears, so the result explains this and offers <strong>Open Settings</strong> to turn it back on. You can also get there any time from <strong>Settings → Device access</strong>, described in <a href="/help/mobile-settings">Settings</a>.</p>
 <p><strong>Over Bluetooth.</strong> Some pumps can only be reached from a phone standing near them. The pump's page says so, and shows the last settings it read and how old they are. Cora needs Bluetooth permission for this. Grant it before you add a Bluetooth pump, or Cora can't find the pump at all.</p>
 <aside class="cal cal-warning"><p class="cal-t">You have to be near a Bluetooth pump</p><p>Its page shows the last settings Cora read and how long ago. Changing anything, even starting a feeding pause, needs the pump in range. Stand near it and open the page again.</p></aside>
-<p>With either connection you get live state, mode and intensity, a feeding pause and a day program. A feeding pause started from your phone needs the pump's page kept open on some pumps. The details are in <a href="/help/mobile-device-control#jecod">Controlling your equipment</a>, and <a href="/help/mobile-schedules">Scheduling equipment</a> covers the day program.</p>
+<p>With either connection you get live state, mode and intensity, a feeding pause and a schedule. A feeding pause started from your phone needs the pump's page kept open on some pumps. The details are in <a href="/help/mobile-device-control#jecod">Controlling your equipment</a>, and <a href="/help/mobile-schedules">Scheduling equipment</a> covers the schedule.</p>
 <h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
 <p>Cora reads alkalinity from an AquaWiz KH controller through your AquaWiz account, so it works away from home and doesn't need a Cora Max.</p>
-<ol><li>Go to <strong>Devices → Add Device → AquaWiz</strong>.</li><li>Enter your AquaWiz username and password and tap <strong>Connect</strong>.</li><li>Pick the tank, turn on <strong>Also read its pH</strong> if you want it, and tap <strong>Link to Cora</strong>.</li></ol>
+<ol><li>Go to <strong>Devices → Add Device → AquaWiz</strong>.</li><li>Enter your AquaWiz username and password and tap <strong>Connect</strong>.</li><li>Pick the tank, check <strong>Also read its pH</strong> (it starts on for a unit that reports pH), and tap <strong>Link to Cora</strong>.</li></ol>
 <p>With <strong>Stay connected automatically</strong> on, Cora keeps your AquaWiz password and renews the connection on its own. With it off, Cora keeps only a sign-in token, which AquaWiz expires about every 30 days, and sends you a notification when it's time to sign in again.</p>
-<p>You get alkalinity as a source, updated as often as your controller titrates, and pH too if you turned it on and your unit reports it. What the AquaWiz card shows, and its supplement alert, are in <a href="/help/mobile-device-control#aquawiz">Controlling your equipment</a>.</p>
+<p>You get alkalinity as a source, and pH too if your unit reports it and <strong>Also read its pH</strong> is on. Your first reading arrives as soon as you link. After that AquaWiz lets Cora read its cloud automatically only every 12 hours, so a reading from there can be up to about half a day old. A Cora Max at the tank can also read the controller itself every hour when it can reach it. Open the device's page to see when each reading was measured and where it came from, and tap <strong>Read now</strong> for a fresh one (at most once every 15 minutes). What the AquaWiz card shows, and its alerts, are in <a href="/help/mobile-device-control#aquawiz">Controlling your equipment</a>.</p>
 <aside class="cal cal-warning"><p class="cal-t">Cora shares your AquaWiz sign-in</p><p>AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.</p></aside>
 <h2 id="logging-by-hand">Logging by hand</h2>
 <p>Some parameters come from a test kit, not from equipment. To enter a result, scroll to the bottom of the dashboard and tap <strong>Log Parameters</strong>.</p>
@@ -210,7 +210,7 @@
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you what kind of problem it is. Look it up in the table in <a href="/help/mobile-devices#health">Adding, editing and removing devices</a>. For anything that doesn't cover, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-devices"><span>Previous</span><b>Adding, editing and removing devices</b></a><a class="pn-n" href="/help/mobile-device-control"><span>Next</span><b>Controlling your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

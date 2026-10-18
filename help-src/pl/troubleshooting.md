@@ -2,7 +2,7 @@
 title: Rozwiązywanie problemów
 description: Napraw nieaktualny odczyt, urządzenie w trybie offline, polecenie, które nie przeszło, Cora Max, którego nie da się sparować, albo alert, który nie znika.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -37,7 +37,7 @@ Szary oznacza, że Cora nie ocenia tego odczytu. Są trzy typowe powody.
 2. Nie ma zakresu, według którego można go ocenić. Przytrzymaj widżet i ustaw zakres.
 3. Odczyt jest za stary. Sprawdź wiek na widżecie, a potem zapisz nowy odczyt albo sprawdź urządzenie.
 
-Co oznacza każdy kolor, opisuje [Jak czytać pulpit](/help/mobile-dashboard#colours).
+Co oznacza każdy kolor, opisuje [Jak czytać panel](/help/mobile-dashboard#colours).
 
 ### Odczyt jest nieaktualny {#a-reading-is-stale}
 
@@ -70,8 +70,8 @@ Tak ma być. Wskaźniki, kafelki i historia rysują się w wybranej jednostce. W
 
 Odczyty, historia i dziennik są przechowywane osobno od układu, więc nic nie przepadło.
 
-- **W telefonie** edytor nie ma cofania ani zapisanych projektów. Otwórz **Edytuj panel** i ułóż widżety z powrotem. Więcej w [Edytowaniu pulpitu](/help/mobile-dashboard-editing).
-- **Na Cora Max** wczytaj zapisany projekt: otwórz **Układ panelu**, dotknij **Moje panele** i wybierz jeden. Jeśli żadnego nie zapisano, odbuduj układ i dotknij **Zapisz ten projekt**, żeby następnym razem wystarczyło jedno dotknięcie. Więcej w [Edytowaniu pulpitu Cora Max](/help/max-dashboard-editing#saving-layouts).
+- **W telefonie** edytor nie ma cofania ani zapisanych projektów. Otwórz **Edytuj panel** i ułóż widżety z powrotem. Więcej w [Edytowaniu panelu](/help/mobile-dashboard-editing).
+- **Na Cora Max** wczytaj zapisany projekt: otwórz **Układ panelu**, dotknij **Moje panele** i wybierz jeden. Jeśli żadnego nie zapisano, odbuduj układ i dotknij **Zapisz ten projekt**, żeby następnym razem wystarczyło jedno dotknięcie. Więcej w [Edytowaniu panelu Cora Max](/help/max-dashboard-editing#saving-layouts).
 
 ### Ustalanie, dlaczego coś się zmieniło {#establishing-why-something-changed}
 
@@ -301,13 +301,13 @@ Więcej w [Reef Buddy](/help/mobile-reef-buddy).
 
 ### Alerty przychodzą z usuniętego akwarium {#alerts-from-a-removed-tank}
 
-Usunięcie akwarium tylko je ukrywa. Jego urządzenia zostają z nim połączone, a Cora Max może je dalej odczytywać, więc jego sprzęt może dalej raportować i wywoływać alerty.
+Usunięte akwarium jest zachowane ze względu na historię, ale nie wysyła alertów ani przypomnień, a jego automatyzacje się zatrzymują. Jeśli mimo to jakiś dostaniesz:
 
-1. Przywróć je z **Ustawienia → Usunięte akwaria**, żeby znów je widzieć.
-2. Usuń albo przenieś jego urządzenia w zakładce **Urządzenia**.
-3. Zdejmij je z Cora Max: w telefonie otwórz **Urządzenia**, potem swój Cora Max, i w **Akwaria** dotknij **Usuń akwarium** obok niego.
+1. Otwórz **Ustawienia → Usunięte akwaria**. Jeśli akwarium nie ma na liście, nie zostało usunięte.
+2. Zaktualizuj Cora Mobile i swój Cora Max do najnowszej wersji.
+3. Alerty nadal przychodzą? Napisz do pomocy technicznej, podając treść alertu i godzinę. Zobacz [Zgłaszanie problemu](/help/mobile-support).
 
-Potem usuń akwarium ponownie. Więcej w [Zarządzaniu akwariami](/help/mobile-tanks).
+Więcej w [Zarządzaniu akwariami](/help/mobile-tanks).
 
 
 ## Cora Assistant i głos {#cora-assistant-and-voice}

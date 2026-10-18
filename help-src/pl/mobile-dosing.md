@@ -39,7 +39,7 @@ Produkty do azotanów i fosforanów pochodzą z własnej listy Cory w kalkulator
 
 Kalkulator liczy, ile produktu trzeba, żeby podnieść parametr do wartości docelowej. Działa dla alkaliczności, wapnia, magnezu, azotanów i fosforanów.
 
-1. Na pulpicie dotknij widżetu parametru, żeby go otworzyć.
+1. Na panelu dotknij widżetu parametru, żeby go otworzyć.
 2. Dotknij ikony kalkulatora na górze. Kropka na niej oznacza, że odczyt jest poniżej wartości docelowej.
 3. Sprawdź liczby, które wpisała Cora:
    - Bieżąca to Twój ostatni odczyt. Zaktualizuj ją, jeśli właśnie robisz test.

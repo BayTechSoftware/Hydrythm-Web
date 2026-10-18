@@ -2,7 +2,7 @@
 title: Ausrüstung planen
 description: Ein Tagesprogramm für eine Jecod-Pumpe bauen und zwischen Pumpen kopieren.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
@@ -11,7 +11,7 @@ Auf dieser Seite gibst du einer Jecod-Pumpe ein **Tagesprogramm**: eine Folge vo
 
 Leuchten und Pumpen anderer Marken haben ihre Zeitpläne auf ihren eigenen Seiten: ReefDose von Red Sea unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
 
-![Eine Jecod-Pumpenseite in Cora Mobile mit gewähltem Zeitplan](img/mobile-schedules.webp "Oben Zeitplan gewählt, dann die Fütterungspause und der Tagesgraph.")
+![Eine Jecod-Pumpenseite in Cora Mobile mit gewähltem Zeitplan](img/mobile-schedules.webp "Oben Zeitplan gewählt, dann die Futterpause und der Tagesgraph.")
 
 ## Den ganzen Tag gleich oder Zeitplan {#same-all-day-or-schedule}
 
@@ -22,7 +22,7 @@ Eine Pumpe läuft in einem von zwei Modi. Wähl einen mit dem Schalter auf ihrer
 
 Cora schickt deine Wahl direkt an die Pumpe, wenn dein Handy in ihrem Netzwerk ist. Ist es das nicht, läuft sie über das Cora Max am Becken. Eine Bluetooth-Pumpe muss in Reichweite sein. Bis sie es ist, ändert deine Wahl nur, was du auf dem Bildschirm siehst.
 
-Eine Fütterungspause nimmt die Pumpe eine Weile aus ihrem Zeitplan, und auf dem Handy kommt der Zeitplan nur zurück, solange die Seite der Pumpe offen bleibt. Siehe [Fütterungspause](/help/mobile-device-control#jecod-feeding).
+Eine Futterpause nimmt die Pumpe eine Weile aus ihrem Zeitplan, und auf dem Handy kommt der Zeitplan nur zurück, solange die Seite der Pumpe offen bleibt. Siehe [Futterpause](/help/mobile-device-control#jecod-feeding).
 
 ## Der Zeitplan-Editor
 

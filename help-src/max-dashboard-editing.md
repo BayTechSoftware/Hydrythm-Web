@@ -2,7 +2,7 @@
 title: Editing the Cora Max dashboard
 description: Add, move and remove tiles on the Cora Max dashboard, pick a grid, use templates or Design with AI, and save layouts to reuse on any Cora Max.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -55,6 +55,8 @@ The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex mo
 ## Outlets & Feed {#outlets-feed}
 
 **Outlets & Feed** in the editor chooses which outlets and feed cycles appear in **Controls**, the drawer you swipe up from the bottom of the dashboard. It doesn't add tiles. If you pick none, Controls lists all of them. To put an outlet on the grid itself, add an **Outlet** tile. More in [Outlets and controls](/help/max-controls).
+
+When you remove a device from a tank, its tiles leave the dashboard by themselves, on your phone and on every Cora Max of that tank. A tile whose device has gone says **This device is no longer on this tank** and opens nothing.
 
 ## Templates {#templates}
 

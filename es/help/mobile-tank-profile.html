@@ -194,7 +194,7 @@
 <aside class="cal cal-note"><p class="cal-t">Los dispositivos están en la pestaña Dispositivos</p><p>Tu Apex, tus unidades Red Sea™ y el resto de dispositivos se añaden, se asignan y se quitan desde la pestaña <strong>Dispositivos</strong>, no desde el perfil. Consulta <a href="/es/help/mobile-devices">Añadir, editar y eliminar dispositivos</a>. La página del acuario en <strong>Ajustes</strong> muestra una lista de solo lectura, <strong>Dispositivos en este acuario</strong>, si solo quieres comprobar qué está asignado.</p></aside>
 <h2 id="units">Unidades</h2>
 <p>Cada acuario tiene sus propias unidades de visualización. Toca el icono de la regla en la cabecera del acuario, o ve a <strong>Ajustes</strong>, toca el acuario y elige <strong>Unidades</strong>. Puedes fijar cómo muestra este acuario la salinidad, la temperatura, la alcalinidad, el volumen, el fosfato y el nitrato. El volumen puede ser en litros, galones de EE. UU. o galones del Reino Unido.</p>
-<p>Las unidades se aplican a este acuario en todos los teléfonos y Cora Max que lo abran. Tus lecturas no cambian, solo cómo se muestran. Los medidores, las casillas, el historial, los informes y lo que dice Cora Assistant siguen la elección. En Cora Max, abre el menú del acuario y toca <strong>Unidades</strong>.</p>
+<p>Las unidades se aplican a este acuario en todos los teléfonos y Cora Max que lo abran. Tus lecturas no cambian, solo cómo se muestran. Los medidores, las tarjetas, el historial, los informes y lo que dice Cora Assistant siguen la elección. En Cora Max, abre el menú del acuario y toca <strong>Unidades</strong>.</p>
 <h2 id="volume">Volumen</h2>
 <p>Escribe el volumen real de agua, con el sump incluido. No uses el volumen nominal que figura en el acuario.</p>
 <aside class="cal cal-warning"><p class="cal-t">Las dosis dependen directamente del volumen</p><p>Si el volumen es un 20 % demasiado alto, las dosis sugeridas también salen un 20 % demasiado altas. Si no estás seguro, mídelo. No lo calcules a ojo.</p></aside>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Quitar un acuario</h2>
 <p><strong>Quitar acuario</strong> está al final del perfil. Oculta el acuario y conserva sus datos, y puedes recuperarlo más adelante. Antes de usarlo, lee <a href="/es/help/mobile-tanks#removing-a-tank">Quitar un acuario</a>, porque algunas cosas siguen funcionando.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-tour"><span>Anterior</span><b>Moverte por Cora Mobile</b></a><a class="pn-n" href="/es/help/mobile-tanks"><span>Siguiente</span><b>Gestionar tus acuarios</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -2,7 +2,7 @@
 title: Añadir, editar y eliminar dispositivos
 description: Añade equipos a Cora, asígnalos a un acuario, cámbiales el nombre, comprueba que funcionan bien y quítalos, todo desde la pestaña Dispositivos.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 11
 group: Equipment
 twin: max-devices

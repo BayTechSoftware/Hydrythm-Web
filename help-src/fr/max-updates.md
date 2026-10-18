@@ -2,7 +2,7 @@
 title: Mises à jour et récupération
 description: Comment Cora Max se met à jour tout seul, la plage d’installation et le canal de mise à jour, comment vérifier la version, le code PIN de récupération, et que faire si Cora Max ne démarre pas ou affiche un code d’assistance.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 15
 group: Settings and account
 ---
@@ -28,6 +28,8 @@ Sous **Réglages de mise à jour**, sur le même écran :
 - **Plage d’installation** définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de **Début** et de **Fin**, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous **Appareils →** votre Cora Max **→ Fuseau horaire**.
 
 Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Réglages Cora Max** et faites défiler jusqu’à **ÉTAT**. La section affiche pour chaque aquarium l’**État de l’interrogation**, la **Dernière interrogation**, la **Dernière écriture cloud** et l’**Enregistrement cloud**.
+
+Si une mise à jour se télécharge lentement, vérifiez votre connexion avec le **Test de débit réseau** sur le même écran. **Lancer le test** télécharge jusqu’à 16 Mo du fichier de mise à jour depuis Cora Cloud, pendant 20 secondes au plus, et affiche le débit en Mo/s.
 
 ## Quand une mise à jour est disponible
 
@@ -60,7 +62,7 @@ Si vous tapez un mauvais code PIN trois fois, la récupération se verrouille pe
 Depuis **Récupération**, vous pouvez :
 
 - **Refaire la configuration Wi-Fi** : choisir un nouveau réseau Wi-Fi et son mot de passe
-- **Réappairer cet appareil** : effacer l’association et le configurer à nouveau avec Cora Mobile
+- **Réassocier cet appareil** : effacer l’association et le configurer à nouveau avec Cora Mobile
 - **Forcer la vérification OTA** : rechercher des mises à jour maintenant
 - **Réinitialisation d’usine** : retirer l’association et tous les réglages de l’écran
 

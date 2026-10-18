@@ -200,7 +200,7 @@
 <ul><li><strong>Set up my tank, guided</strong> walks you through the rest of the profile, one section at a time. See <a href="/help/mobile-tank-profile#guided-setup">Guided setup</a>. It ends with <strong>Add devices</strong>, which takes you to adding your equipment.</li><li><strong>Connect your gear</strong> pairs a Cora Max. For a Neptune™ Apex, Red Sea™ or any other brand, use <strong>Devices → Add Device</strong> instead (see below).</li><li><strong>Log your first test</strong> opens the first-test step described in <a href="/help/mobile-setup#the-first-test-card">The first-test card</a>.</li><li><strong>Ask the assistant anything</strong> opens Cora Assistant with a first question ready to send.</li></ul>
 <p>When you're done, tap <strong>Go to my dashboard</strong>, or <strong>I'll do this later</strong>.</p>
 <h2 id="your-first-30-days">Your first 30 days</h2>
-<p>On a new free account, <strong>Go to my dashboard</strong> first shows <strong>Your first 30 days are on us</strong>. Your 30-day Pro trial started when you created your account, and no card is needed. Tap <strong>Start exploring</strong> to carry on, or <strong>See plans</strong> to look at the paid plans. More in <a href="/help/mobile-plans#the-trial">Plans and subscriptions</a>.</p>
+<p>On a new free account, <strong>Go to my dashboard</strong> first shows <strong>Your first 30 days are on us</strong>. Your 30-day Advanced trial started when you created your account, and no card is needed. Tap <strong>Start exploring</strong> to carry on, or <strong>See plans</strong> to look at the paid plans. More in <a href="/help/mobile-plans#the-trial">Plans and subscriptions</a>.</p>
 <h2 id="your-first-look-at-the-dashboard">Your first look at the dashboard</h2>
 <p>Two things happen the first time you open the dashboard.</p>
 <ul><li>Cora asks <strong>Enable Personalized Reef Guidance?</strong> Tap <strong>Enable</strong> if you want Cora Assistant to use your tank's saved data in its answers. <strong>Not Now</strong> leaves it off. More in <a href="/help/mobile-assistant#consent">Asking Cora</a>.</li><li>A short tour points out the main parts of the screen. See <a href="/help/mobile-tour#the-first-run-tour">The first-run tour</a>.</li></ul>
@@ -220,7 +220,7 @@
 <p>You're set up when the Dashboard shows your tank name at the top and a few widgets with numbers in them. A <strong>Reef Buddy</strong> card follows once the first briefing runs overnight.</p>
 <p>Next, have a look at <a href="/help/mobile-tour">Finding your way around</a>. To add a second tank, see <a href="/help/mobile-tanks">Managing your tanks</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/help/mobile-tour"><span>Next</span><b>Finding your way around Cora Mobile</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

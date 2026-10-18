@@ -171,7 +171,7 @@
       <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li><li><a href="/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/help/mobile-reef-buddy">Intelligence</a></li></ol></nav>
       <h1>Asking Cora</h1>
       <p class="twin">On Cora Max: <a href="/help/max-voice">Talking to Cora</a></p>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#pick-a-tank-first">Pick a tank first</a></li><li><a href="#typing">Typing</a></li><li><a href="#talking">Talking</a></li><li><a href="#what-cora-can-change">What Cora can do for you</a></li><li><a href="#consent">Consent</a></li><li><a href="#the-language-cora-replies-in">The language Cora replies in</a></li><li><a href="#what-cora-can-see">What Cora can see</a></li><li><a href="#memory">Memory</a></li><li><a href="#usage">Usage</a></li><li><a href="#if-an-answer-looks-wrong">If an answer looks wrong</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#pick-a-tank-first">Pick a tank first</a></li><li><a href="#typing">Typing</a></li><li><a href="#talking">Talking</a></li><li><a href="#what-cora-can-change">What Cora can do for you</a></li><li><a href="#help-answers">Help answers</a></li><li><a href="#consent">Consent</a></li><li><a href="#the-language-cora-replies-in">The language Cora replies in</a></li><li><a href="#what-cora-can-see">What Cora can see</a></li><li><a href="#memory">Memory</a></li><li><a href="#usage">Usage</a></li><li><a href="#if-an-answer-looks-wrong">If an answer looks wrong</a></li></ul></nav>
 <p>Cora Assistant answers questions about your tank in plain language, and can log things and run your equipment when you ask. It can see your live readings, your history and your lab results, so its answers are about <em>your</em> tank.</p>
 <p>Open it from the <strong>Assistant</strong> tab.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A Cora Assistant answer about alkalinity in Cora Mobile"><img src="/help/img/mobile-assistant.webp" alt="A Cora Assistant answer about alkalinity in Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>An answer built from the tank's live data, with this month's message count above the box.</figcaption></figure>
@@ -191,6 +191,11 @@
 <p>Logging a test, a journal entry or a feeding happens when you ask for it. Anything that changes your equipment or an alert range is different: Cora tells you exactly what it's about to change and waits for your yes. It won't act on an unclear instruction. If a command might have run but Cora couldn't confirm it, it says so. Check the equipment before you ask again.</p>
 <p>Equipment control works away from home only when a Cora Max at the tank can reach the equipment. See <a href="/help/mobile-multi-device#what-works-away-from-home">What works away from home</a>.</p>
 <aside class="cal cal-warning"><p class="cal-t">Cora advises. You decide</p><p>Check anything important with your own testing. Treat big changes the way you'd treat advice from anyone else, and sanity-check them before you act. The line under the message box says the same.</p></aside>
+<h2 id="help-answers">Help answers</h2>
+<p>Ask how to do something, for example <em>"How do I add a dosing pump?"</em>, and Cora Assistant answers from this Help guide, in your language, typed or spoken. A question about the app counts as a normal message.</p>
+<p>Under the answer you may see up to two Help sections, each with up to two buttons:</p>
+<ul><li><strong>Open this screen</strong> takes you straight to the screen the answer is about. It's left out when you're already there. If the screen is one of the main tabs, a voice conversation ends first.</li><li><strong>Read in Help</strong> opens that Help page in your phone's in-app browser.</li></ul>
+<p>The buttons only show when there's a screen or a page to open.</p>
 <h2 id="consent">Consent</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Assistant consent"><img src="/help/img/mobile-assistant-consent.webp" alt="Assistant consent" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Two separate permissions, and the memory Cora keeps.</figcaption></figure>
 <p>The first time you open the dashboard, Cora asks <strong>Enable Personalized Reef Guidance?</strong> <strong>Enable</strong> turns on data sharing. <strong>Not Now</strong> leaves it off. If you use guided setup, its last page asks the same question.</p>
@@ -221,7 +226,7 @@
 <p>If an answer sounds sure of itself but wrong, check the data chip first. Often the answer is right about the data Cora was given. The real problem is a stale reading, or a source assigned to the wrong tank.</p>
 <p>Rate an answer with the thumbs under it. A thumbs down asks <em>What was wrong with it?</em> Pick a reason, such as <strong>Wrong</strong> or <strong>Missed my tank</strong>, and tap <strong>Send rating</strong>. That's what helps us fix it.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-reef-buddy"><span>Previous</span><b>Reef Buddy</b></a><a class="pn-n" href="/help/mobile-icp-health"><span>Next</span><b>ICP and health reports</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -612,7 +617,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

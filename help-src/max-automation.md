@@ -2,7 +2,7 @@
 title: Scenes on Cora Max
 description: Build, run, edit and delete scenes on Cora Max, from Settings → Automations or a scene tile on the dashboard.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Alerts and automation
 twin: mobile-automation
@@ -56,6 +56,8 @@ If a scene won't run or won't stop, have a look at [Troubleshooting](/help/troub
 :::note Child lock covers scenes too
 While [Child lock](/help/max-settings#child-lock) has locked the screen, you can't run, stop or edit a scene from it, just like every other control.
 :::
+
+A step that fails or has to wait does not stay pending. It expires at once, the run is recorded as failed, and you get a notification that names the automation, the step and why. A step fails when, for example, its device is offline, no Cora Max is available to carry it out, the device refuses it or doesn't answer, or a heater or chiller was switched a moment ago. A step on a removed tank doesn't notify you.
 
 ## Editing or deleting a scene
 

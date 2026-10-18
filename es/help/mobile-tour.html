@@ -178,7 +178,7 @@
 <p>Es la pantalla principal de Cora Mobile. Muestra las lecturas en directo de un acuario.</p>
 <p>Si tienes más de un acuario, desliza a la izquierda o a la derecha para pasar de uno a otro. Los puntos de arriba te indican en cuál estás. Consulta <a href="/es/help/mobile-tanks">Gestionar tus acuarios</a>.</p>
 <p>La cabecera del acuario tiene el nombre del acuario, que puedes tocar para cambiarlo, y una fila de iconos:</p>
-<ul><li><strong>Alimentar</strong> abre el <strong>Modo de alimentación</strong>, donde inicias uno de los ciclos de alimentación de tu Neptune™ Apex. Solo aparece en un acuario con Apex. Consulta <a href="/es/help/mobile-dashboard#the-tank-header">La cabecera del acuario</a>.</li><li>El icono del periódico abre el último resumen de <strong>Reef Buddy</strong>.</li><li>El icono de compartir crea una instantánea del acuario para enviarla. Consulta <a href="/es/help/mobile-sharing">Compartir tu acuario</a>.</li><li>La regla abre <strong>Unidades</strong>, donde eliges cómo muestra este acuario sus lecturas.</li><li>El lápiz abre el <a href="/es/help/mobile-tank-profile">perfil del acuario</a>.</li></ul>
+<ul><li><strong>Alimentar</strong> abre el <strong>Modo alimentación</strong>, donde inicias uno de los ciclos de alimentación de tu Neptune™ Apex. Solo aparece en un acuario con Apex. Consulta <a href="/es/help/mobile-dashboard#the-tank-header">La cabecera del acuario</a>.</li><li>El icono del periódico abre el último resumen de <strong>Reef Buddy</strong>.</li><li>El icono de compartir crea una instantánea del acuario para enviarla. Consulta <a href="/es/help/mobile-sharing">Compartir tu acuario</a>.</li><li>La regla abre <strong>Unidades</strong>, donde eliges cómo muestra este acuario sus lecturas.</li><li>El lápiz abre el <a href="/es/help/mobile-tank-profile">perfil del acuario</a>.</li></ul>
 <p>Justo debajo de los widgets está <strong>Editar panel</strong>, para cambiar el propio panel. Debajo, una fila de botones tiene <strong>Registrar parámetros</strong>, <strong>Historial de parámetros</strong> y <strong>Alimentación</strong>, y después accesos directos al diario, las alertas, el mantenimiento y la fauna del acuario.</p>
 <p>Más información en <a href="/es/help/mobile-dashboard">Leer tu panel</a>.</p>
 <h2 id="devices">Dispositivos</h2>
@@ -200,7 +200,7 @@
 <p><strong>La campana</strong>, arriba a la derecha, guarda tu historial de notificaciones, con cada alerta que ha generado Cora, de la más reciente a la más antigua. El número indica cuántas no has leído todavía.</p>
 <p><strong>El botón del diario</strong> flota en la esquina inferior derecha del Panel. Tócalo y di lo que acabas de hacer, como un cambio de agua, un coral nuevo o una dosis que cambiaste. Toca el botón de parar cuando termines, y Cora lo escribe en el diario. Consulta <a href="/es/help/mobile-journal">El diario</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-setup"><span>Anterior</span><b>Configurar Cora Mobile</b></a><a class="pn-n" href="/es/help/mobile-tank-profile"><span>Siguiente</span><b>El perfil de tu acuario</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

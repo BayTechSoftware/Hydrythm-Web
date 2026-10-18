@@ -2,7 +2,7 @@
 title: Automatyzacje i sceny
 description: Spraw, żeby Cora działała sama, gdy zmieni się odczyt, pojawi się alert, nadejdzie godzina albo urządzenie przejdzie w tryb offline, i łącz akcje w sceny uruchamiane jednym dotknięciem.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -14,7 +14,7 @@ Przejdź do **Ustawienia → Automatyzacje**.
 
 ![Ekran Automatyzacje w Cora Mobile, z zakładkami Automatyzacje i Sceny](img/mobile-automation.webp "Automatyzacje i Sceny to osobne zakładki. Każda reguła ma własny przełącznik.")
 
-Ekran ma dwie zakładki, **Automatyzacje** i **Sceny**, z przyciskiem **Nowa automatyzacja** albo **Nowy scenariusz**. Każda reguła pokazuje jednolinijkowe podsumowanie, przełącznik i menu z **Edytuj** albo **Usuń**. Reguła, która jeszcze nie zadziałała, mówi o tym.
+Ekran ma dwie zakładki, **Automatyzacje** i **Sceny**, z przyciskiem **Nowa automatyzacja** albo **Nowa scena**. Każda reguła pokazuje jednolinijkowe podsumowanie, przełącznik i menu z **Edytuj** albo **Usuń**. Reguła, która jeszcze nie zadziałała, mówi o tym.
 
 :::warning Reguły działają na prawdziwy sprzęt
 Jeśli reguła przełącza pompę, pompa przełączy się także wtedy, gdy nie patrzysz. Twórz reguły po jednej i sprawdź, czy każda robi to, czego się spodziewasz, zanim dodasz następną.
@@ -77,14 +77,14 @@ Akcja, która wymaga sprzętu, pojawia się tylko przy akwarium, które ma ten s
 | Akcja | Co robi |
 |---|---|
 | **Steruj sprzętem Apex** | Przełącza gniazdo |
-| **Uruchom cykl karmienia Apex** | Zaczyna karmienie. Apex kończy je według własnego licznika |
+| **Uruchom cykl karmienia Apex** | Zaczyna karmienie. Apex kończy je według własnego timera |
 | **Uruchom test Trident** | Zaczyna test. Każde uruchomienie zużywa odczynnik |
 | **Zdawkuj z głowicy DŌS** | Podaje odmierzoną dawkę z głowicy DŌS |
 | **Steruj sprzętem Red Sea** | Steruje urządzeniem ReefBeat |
 | **Steruj pompą cyrkulacyjną** | Ustawia przepływ, tryb fali albo zasilanie pompy Jecod albo **Wstrzymaj na czas karmienia**. Cora Max przy akwarium przywraca pompę, gdy karmienie się skończy |
 | **Powiadom mnie** | Wysyła Ci powiadomienie z własnym **Tytułem** i **Wiadomością** |
 | **Czekaj przed następnym krokiem** | Robi przerwę przed kontynuacją |
-| **Uruchom scenariusz** | Uruchamia scenę z wnętrza tej reguły |
+| **Uruchom scenę** | Uruchamia scenę z wnętrza tej reguły |
 | **Zarządzaj automatyzacją** | Włącza albo wyłącza inną regułę |
 | **Utwórz zadanie konserwacyjne** | Dodaje pracę do listy [konserwacji](/help/mobile-maintenance) akwarium, na przykład wymianę wkładu skrubera CO2, gdy pH spadnie poniżej wartości |
 
@@ -103,7 +103,7 @@ Wybierz akwarium, a potem **Istniejące zadanie** (istniejące zadanie dostaje t
 
 ## Sceny {#scenes}
 
-Scena to nazwana grupa akcji, na przykład „Podmiana wody”, „Tryb zdjęć” albo „Noc”. Dotknij **Nowa automatyzacja** albo **Nowy scenariusz** i wybierz **Scena** na górze. Scena nie ma wyzwalacza. Uruchamiasz ją przyciskiem **Uruchom teraz** na liście, z wnętrza reguły przez **Uruchom scenariusz** albo według harmonogramu przez regułę z **O określonej godzinie**.
+Scena to nazwana grupa akcji, na przykład „Podmiana wody”, „Tryb zdjęć” albo „Noc”. Dotknij **Nowa automatyzacja** albo **Nowa scena** i wybierz **Scena** na górze. Scena nie ma wyzwalacza. Uruchamiasz ją przyciskiem **Uruchom teraz** na liście, z wnętrza reguły przez **Uruchom scenę** albo według harmonogramu przez regułę z **O określonej godzinie**.
 
 **Działaj przez** ustala, jak długo trwa scena: liczbę minut albo godzin albo **Aż to zmienię**. Gdy czas minie, Cora przełącza gniazda sceny z powrotem do stanu sprzed sceny. Pozostały sprzęt zostaje taki, jakim zostawiła go scena. Gdy działa scena czasowa, lista pokazuje odliczanie i przycisk **Zatrzymaj**, który kończy ją wcześniej.
 
@@ -124,3 +124,5 @@ Każda reguła ma przełącznik. Wyłączenie reguły zachowuje jej ustawienia, 
 ## Co zrobiła reguła {#seeing-what-a-rule-did}
 
 Każda akcja wykonana przez regułę jest zapisywana z przyczyną **Reguła automatyzacji**. Znajdziesz ją w [Aktywności](/help/mobile-activity).
+
+Krok, który się nie powiódł albo musiałby czekać, nie zostaje w zawieszeniu. Wygasa od razu, przebieg jest zapisany jako nieudany, a Ty dostajesz powiadomienie z nazwą automatyzacji, krokiem i przyczyną. Krok nie udaje się na przykład wtedy, gdy jego urządzenie jest offline, żaden Cora Max nie może go wykonać, urządzenie go odrzuca albo nie odpowiada, albo grzałka lub chłodziarka została przełączona chwilę temu. Dla kroku na usuniętym akwarium nie dostajesz powiadomienia.

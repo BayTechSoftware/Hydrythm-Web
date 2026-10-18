@@ -188,6 +188,7 @@
 <p>Les types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex et Jecod™. Vous les trouverez dans la <a href="/fr/help/mobile-widgets">Référence des widgets</a>. La tuile <strong>Scène</strong> n’existe que sur Cora Max. Elle lance une <a href="/fr/help/max-automation">scène</a> d’un seul appui.</p>
 <h2 id="outlets-feed">Prises et nourrissage</h2>
 <p><strong>Prises et nourrissage</strong>, dans l’éditeur, choisit quelles prises et quels cycles de nourrissage apparaissent dans <strong>Commandes</strong>, le tiroir que vous faites glisser vers le haut depuis le bas du tableau de bord. Cela n’ajoute pas de tuiles. Si vous n’en choisissez aucun, Commandes les liste tous. Pour mettre une prise sur la grille elle-même, ajoutez une tuile <strong>Prise</strong>. Plus de détails dans <a href="/fr/help/max-controls">Prises et commandes</a>.</p>
+<p>Quand vous retirez un appareil d’un aquarium, ses tuiles quittent le tableau de bord toutes seules, sur votre téléphone et sur chaque Cora Max de cet aquarium. Une tuile dont l’appareil a disparu affiche <strong>Cet appareil n'est plus dans cet aquarium</strong> et n’ouvre rien.</p>
 <h2 id="templates">Modèles</h2>
 <p><strong>Modèles</strong> se trouve en haut de l’éditeur, à côté de <strong>Mes tableaux de bord</strong> et <strong>Concevoir avec l'IA</strong>. C’est ouvert avec tous les forfaits et n’utilise jamais l’IA, donc cela fonctionne aussi sans partage de données avec l’IA.</p>
 <p>Cela ouvre <strong>Modèles de tableau de bord</strong>, quelques dispositions toutes prêtes construites à partir de ce que cet aquarium remonte et a associé :</p>
@@ -198,7 +199,7 @@
 <p>Un design de l’IA remplace ce qui se trouve actuellement sur ce tableau de bord. Rien n’est enregistré tant que vous n’appuyez pas sur <strong>Enregistrer</strong>, et vous pouvez d’abord garder votre disposition actuelle en l’enregistrant dans <strong>Mes tableaux de bord</strong>. Avec le forfait gratuit, <strong>Concevoir avec l'IA</strong> vous renvoie vers les forfaits. Il faut aussi que le partage de données avec l’IA soit activé dans Cora Mobile. Plus de détails dans <a href="/fr/help/mobile-assistant">Interroger Cora</a>.</p>
 <h2 id="designing-for-distance">Penser à la distance</h2>
 <p>On lit un écran mural de plus loin qu’un téléphone, et le plus souvent d’un simple coup d’œil.</p>
-<ul><li>Mettez vos paramètres clés en deux par deux. L’alcalinité, la température et le pH sont des valeurs que vous voudrez lire sans vous approcher.</li><li>Placez les commandes sur les bords. Les tuiles de prises sont celles que vous touchez, et elles sont plus faciles à atteindre sur les côtés.</li><li>Regroupez les tuiles par sujet. Gardez tout le dosage ensemble et tout le brassage ensemble, car on parcourt un écran mural par zones.</li><li>Gardez les oligo-éléments en petit. Ces valeurs et les autres valeurs lentes servent de repère, donc une tuile Valeur d’une case suffit largement.</li></ul>
+<ul><li>Mettez vos paramètres clés en deux par deux. L’alcalinité, la température et le pH sont des valeurs que vous voudrez lire sans vous approcher.</li><li>Placez les commandes sur les bords. Les tuiles de prises sont celles que vous touchez, et elles sont plus faciles à atteindre sur les côtés.</li><li>Regroupez les tuiles par sujet. Gardez tout le dosage ensemble et tout le brassage ensemble, car on parcourt un écran mural par zones.</li><li>Gardez les oligoéléments en petit. Ces valeurs et les autres valeurs lentes servent de repère, donc une tuile Valeur d’une case suffit largement.</li></ul>
 <h2 id="saving-layouts">Enregistrer et réutiliser des dispositions</h2>
 <p>Rien de ce que vous faites dans l’éditeur ne prend effet tant que vous n’appuyez pas sur <strong>Enregistrer</strong>. Si vous quittez avec des changements non enregistrés, Cora demande d’abord <strong>Abandonner les modifications ?</strong></p>
 <p><strong>Mes tableaux de bord</strong> garde les designs auxquels vous voulez revenir. Ils sont enregistrés sur votre compte, pas sur cet écran : n’importe quel Cora Max de votre compte peut donc les charger, pour un autre aquarium ou pour un écran de remplacement.</p>
@@ -207,7 +208,7 @@
 <h2 id="multiple-tanks">Plusieurs aquariums</h2>
 <p>Chaque aquarium a sa propre disposition. Passez sur cet aquarium et ouvrez <strong>Disposition du tableau de bord</strong> depuis son menu d’aquarium, ou utilisez <strong>Réglages → [cet aquarium] → Disposition du tableau de bord</strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-reef-room"><span>Précédent</span><b>La pièce du récif</b></a><a class="pn-n" href="/fr/help/max-controls"><span>Suivant</span><b>Prises et commandes</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

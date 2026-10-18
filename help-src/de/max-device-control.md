@@ -2,7 +2,7 @@
 title: Ausrüstung mit Cora Max steuern
 description: Geräteseiten auf Cora Max für Neptune Apex, Trident und DŌS, Red Sea ReefBeat, Jecod und AquaWiz, nach Marke sortiert.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -25,7 +25,7 @@ Ausrüstung fügst du auf dem Handy hinzu, weist sie dort zu und entfernst sie d
 | **Neptune Apex** | Sonden und Steckdosen, und du kannst jede Steckdose schalten |
 | **Trident** | Teststatus, Reagenz- und Abfallstand und eine Taste, um einen Test zu starten |
 | **DŌS**, auch der DŌS QD | Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden) |
-| **Red Sea ReefBeat** | Was das Gerät hat: Dosierköpfe, Reservoir, Rollentage, Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefMat-Einstellungen |
+| **Red Sea ReefBeat** | Was das Gerät hat: Dosierköpfe, Nachfüllbehälter, Rollentage, Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefMat-Einstellungen |
 | **Jecod** | Pumpenmodus und Intensität und ihr Tagesprogramm |
 | **AquaWiz** | Keine eigene Seite. Er steht unter **Geräte**, und seine Messwerte erscheinen auf dem Dashboard |
 
@@ -70,7 +70,7 @@ Lässt sich der Hinweis nicht schließen oder kommt er immer wieder, schau in di
 
 ## Red Sea ReefBeat {#red-sea}
 
-Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut: ReefDose-Köpfe und Behälter, das Reservoir des ReefATO+, die Rollentage des ReefMat und die Pumpengeschwindigkeiten des ReefRun. Vorratswarnungen für ReefDose-Köpfe, das ReefATO+-Reservoir und die ReefMat-Rolle legst du mit **Warnungseinstellungen** auf der Seite des Geräts fest.
+Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut: ReefDose-Köpfe und Behälter, den Nachfüllbehälter des ReefATO+, die Rollentage des ReefMat und die Pumpengeschwindigkeiten des ReefRun. Vorratswarnungen für ReefDose-Köpfe, den ReefATO+-Nachfüllbehälter und die ReefMat-Rolle legst du mit **Warnungseinstellungen** auf der Seite des Geräts fest.
 
 Stoppt sich ein Red Sea-Gerät selbst, sagt dir seine Seite, was los ist, und setzt die Lösung gleich daneben. Das ist **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder **Zurücksetzen** bei einem Dosierkopf.
 
@@ -84,13 +84,13 @@ Die Jecod-Seite zeigt Modus und Intensität der Pumpe, und du kannst beides änd
 - **Den ganzen Tag gleich**: tippe auf eine Einstellung, um sie den ganzen Tag laufen zu lassen.
 - **Zeitplan**: die Tagesgrafik und die Liste der Pläne, mit **jetzt** beim aktuellen. **Ändern** öffnet den Editor, und das ⋮-Menü enthält **Zeitplan kopieren nach…**, **Zeitplan speichern als…** und **Gespeicherte Zeitpläne…**.
 
-Die Karte, die läuft, hat einen Rahmen und einen Chip **Läuft**. Eine Jecod-Pumpe hat keine Schaltfläche **Fütterung beenden**. Jede Jecod-Pumpe, die für die Fütterung pausieren kann, zeigt die Chips **5**, **10**, **15** und **30** Min. Bei einer Jecod Pro tut die Kachel Füttern in den Wellenmustern dasselbe, für 10 Minuten. Über ein Cora Max, das nicht am Becken ist, füttert eine Jecod-Pumpe nur 10 Minuten lang. Kann eine Pumpe gerade nicht füttern, steht der Grund in einer kurzen Zeile unter den Chips, und ein langer Druck zeigt den ganzen Satz.
+Die Karte, die läuft, hat einen Rahmen und einen Chip **Läuft**. Eine Jecod-Pumpe hat keine Schaltfläche **Fütterung beenden**. Jede Jecod-Pumpe, die für die Fütterung pausieren kann, zeigt die Chips **5**, **10**, **15** und **30** Min. Bei einer Jecod Pro tut die Kachel Füttern in den Wellenmustern dasselbe, für 10 Minuten. Über ein Cora Max, das nicht am Becken ist, füttert eine Jecod-Pumpe nur 10 Minuten lang. Kann eine Pumpe gerade nicht füttern, steht der Grund in einer kurzen Zeile unter den Chips, und ein langer Druck zeigt den ganzen Satz. Eine vom Telefon gestartete Fütterung beendet auch das Cora Max: Läuft die Zeit ab, kehrt die Pumpe zu ihrem Programm zurück.
 
 Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
 
 ## AquaWiz {#aquawiz}
 
-Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Ein Cora Max am selben Becken kann ihn auch jede Stunde auslesen, wenn er den Controller erreicht. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 
 ## Verbrauchsmaterial {#consumables}

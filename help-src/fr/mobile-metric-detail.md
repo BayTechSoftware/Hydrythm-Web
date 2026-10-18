@@ -2,7 +2,7 @@
 title: Examiner un paramètre
 description: Touchez un widget pour voir tout l’historique d’un paramètre, comparer des sources et des paramètres, exclure une mesure erronée et noter l’entretien d’une sonde.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
@@ -22,6 +22,8 @@ Il y a deux façons d’y accéder. Touchez un widget sur le tableau de bord, ou
 
 L’écran s’ouvre toujours sur 24 h et **Toutes les sources**. Il ne retient pas ce que vous avez choisi la dernière fois.
 
+La densité (SG) s’affiche toujours avec trois ou quatre décimales : 1,022 ne devient donc pas 1,02. C’est pareil dans Cora Mobile et Cora Max, sur le tableau de bord, dans le graphique et dans la liste des mesures.
+
 ## Lire le graphique {#reading-the-chart}
 
 - La bande verte est votre plage d’alerte : vous voyez chaque mesure par rapport à elle. Pour changer la plage, faites un appui long sur le widget dans le tableau de bord. Plus de détails dans [Alertes et seuils](/help/mobile-alerts).
@@ -39,7 +41,7 @@ Choisissez la période qui correspond à la façon dont le paramètre évolue.
 | pH | 24 heures, car il oscille sur un cycle quotidien |
 | Température | 24 heures ou 7 jours |
 | Alcalinité | 7 ou 30 jours |
-| Oligo-éléments | 30 jours ou un an |
+| Oligoéléments | 30 jours ou un an |
 
 :::note Ligne plate ? Vérifiez l’âge de la mesure
 Une ligne qui ne bouge pas peut vouloir dire que le paramètre est stable. Elle peut aussi vouloir dire que la source a cessé de transmettre. L’âge affiché à côté de la valeur sur le widget vous dit lequel des deux.
@@ -79,7 +81,7 @@ Touchez **Enregistrer l’entretien de la sonde** (l’icône de capteur dans la
 
 ## Noter une mesure à la main {#logging-a-reading-by-hand}
 
-Vous notez les mesures depuis le tableau de bord, pas depuis cet écran. Touchez **Enregistrer les paramètres** sous les widgets et saisissez ce qu’indique votre kit de test. La liste est groupée, et le groupe **Oligo-éléments** couvre l’iode, le fer et le cuivre en µg/L, et le potassium en mg/L. Les mesures notées à la main comptent autant que les autres. Elles ont leur propre source et leur propre heure, s’affichent sur le graphique et alimentent Reef Buddy. C’est aussi à elles que Cora compare votre équipement.
+Vous notez les mesures depuis le tableau de bord, pas depuis cet écran. Touchez **Enregistrer les paramètres** sous les widgets et saisissez ce qu’indique votre kit de test. La liste est groupée, et le groupe **Oligoéléments** couvre l’iode, le fer et le cuivre en µg/L, et le potassium en mg/L. Les mesures notées à la main comptent autant que les autres. Elles ont leur propre source et leur propre heure, s’affichent sur le graphique et alimentent Reef Buddy. C’est aussi à elles que Cora compare votre équipement.
 
 :::note Cora revérifie les saisies qui semblent bizarres
 Si une valeur est loin de là où se trouvait l’aquarium, Cora vous demande de la confirmer avant de l’enregistrer. Cela attrape une virgule mal placée, ou une mesure saisie sous le mauvais paramètre. Une fois confirmée, la mesure est enregistrée comme d’habitude.

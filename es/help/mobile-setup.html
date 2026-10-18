@@ -200,7 +200,7 @@
 <ul><li><strong>Configurar mi acuario, guiado</strong> te lleva por el resto del perfil, sección a sección. Consulta <a href="/es/help/mobile-tank-profile#guided-setup">Configuración guiada</a>. Termina con <strong>Añadir dispositivos</strong>, que te lleva a añadir tus equipos.</li><li><strong>Conecta tu equipo</strong> empareja un Cora Max. Para un Neptune™ Apex, Red Sea™ o cualquier otra marca, usa <strong>Dispositivos → Agregar dispositivo</strong> (mira más abajo).</li><li><strong>Registra tu primera prueba</strong> abre el paso de la primera prueba que se explica en <a href="/es/help/mobile-setup#the-first-test-card">La tarjeta de la primera prueba</a>.</li><li><strong>Pregúntale lo que quieras al asistente</strong> abre Cora Assistant con una primera pregunta lista para enviar.</li></ul>
 <p>Cuando termines, toca <strong>Ir a mi panel</strong>, o <strong>Lo haré más tarde</strong>.</p>
 <h2 id="your-first-30-days">Tus primeros 30 días</h2>
-<p>En una cuenta gratuita nueva, <strong>Ir a mi panel</strong> muestra primero <strong>Tus primeros 30 días van por nuestra cuenta</strong>. Tu prueba de Pro de 30 días empezó cuando creaste tu cuenta, y no hace falta tarjeta. Toca <strong>Empezar a explorar</strong> para seguir, o <strong>Ver planes</strong> para mirar los planes de pago. Más información en <a href="/es/help/mobile-plans#the-trial">Planes y suscripciones</a>.</p>
+<p>En una cuenta gratuita nueva, <strong>Ir a mi panel</strong> muestra primero <strong>Tus primeros 30 días van por nuestra cuenta</strong>. Tu prueba de Advanced de 30 días empezó cuando creaste tu cuenta, y no hace falta tarjeta. Toca <strong>Empezar a explorar</strong> para seguir, o <strong>Ver planes</strong> para mirar los planes de pago. Más información en <a href="/es/help/mobile-plans#the-trial">Planes y suscripciones</a>.</p>
 <h2 id="your-first-look-at-the-dashboard">Tu primer vistazo al panel</h2>
 <p>La primera vez que abres el panel pasan dos cosas.</p>
 <ul><li>Cora pregunta <strong>¿Activar la orientación de arrecife personalizada?</strong> Toca <strong>Activar</strong> si quieres que Cora Assistant use los datos guardados de tu acuario en sus respuestas. <strong>Ahora no</strong> lo deja desactivado. Más información en <a href="/es/help/mobile-assistant#consent">Preguntar a Cora</a>.</li><li>Un breve recorrido te señala las partes principales de la pantalla. Consulta <a href="/es/help/mobile-tour#the-first-run-tour">El recorrido inicial</a>.</li></ul>
@@ -220,7 +220,7 @@
 <p>Ya está todo listo cuando el Panel muestra el nombre de tu acuario arriba y unos cuantos widgets con números. Una tarjeta de <strong>Reef Buddy</strong> aparece cuando se genera el primer resumen durante la noche.</p>
 <p>Después, echa un vistazo a <a href="/es/help/mobile-tour">Moverte por Cora Mobile</a>. Para añadir un segundo acuario, consulta <a href="/es/help/mobile-tanks">Gestionar tus acuarios</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-n" href="/es/help/mobile-tour"><span>Siguiente</span><b>Moverte por Cora Mobile</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.192 y Cora Mobile 0.5.115. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=c684e0ab63').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9566b962ea').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

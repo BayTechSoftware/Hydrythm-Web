@@ -2,7 +2,7 @@
 title: Einen Wasserwert genauer ansehen
 description: Tippe auf ein Widget, um den ganzen Verlauf eines Wasserwerts zu sehen, Quellen und Wasserwerte zu vergleichen, einen falschen Messwert auszuschließen und Sondenpflege festzuhalten.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 7
 group: Your dashboard
 ---
@@ -21,6 +21,8 @@ Es gibt zwei Wege hinein. Tippe auf ein Widget auf dem Dashboard, oder tippe in 
 - Symbole in der oberen Leiste: **Messwerte** öffnet die Liste der Rohmesswerte, und **Sondenpflege erfassen** hält eine Kalibrierung oder Reinigung fest. Bei Alkalinität, Calcium und Magnesium gibt es außerdem den Dosierrechner, der das Beckenvolumen aus deinem [Beckenprofil](/help/mobile-tank-profile) und die Stärken aus [Dosierung](/help/mobile-dosing) nutzt.
 
 Der Bildschirm öffnet sich immer mit 24h und **Alle Quellen**. Er merkt sich nicht, was du beim letzten Mal gewählt hast.
+
+Die spezifische Dichte (SG) zeigt immer drei oder vier Nachkommastellen, aus 1,022 wird also nicht 1,02. Das gilt in Cora Mobile und Cora Max gleich, auf dem Dashboard, im Diagramm und in der Messwerteliste.
 
 ## Das Diagramm lesen {#reading-the-chart}
 

@@ -2,13 +2,13 @@
 title: Sterowanie sprzętem
 description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i przełączać gniazda, pompy, głowice dozujące i testery, marka po marce.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 13
 group: Equipment
 twin: max-device-control
 ---
 
-Na własnej stronie urządzenia zobaczysz jego stan na żywo i zmienisz to, co robi. Otworzysz ją z **Urządzenia** → dotknij urządzenia albo dotknij jego kafelka na pulpicie.
+Na własnej stronie urządzenia zobaczysz jego stan na żywo i zmienisz to, co robi. Otworzysz ją z **Urządzenia** → dotknij urządzenia albo dotknij jego kafelka na panelu.
 
 ![Strona ReefATO+ w Cora Mobile](img/mobile-device-detail.webp "Stan, dzisiejsze odczyty i poziom wody, a pod nimi wyciek, dolewki i kalibracja sondy.")
 
@@ -42,9 +42,9 @@ Bez Cora Max przy akwarium sprzęt Neptune Apex, Red Sea i Jecod działa tylko l
 Strona Apex pokazuje stan kontrolera, a potem **Moduły**, **Mapowanie parametrów** i **Akwaria**.
 
 - **Moduły** wymieniają każdy zamontowany Trident i DŌS. Dotknij jednego, żeby otworzyć jego stronę.
-- W **Mapowaniu parametrów** wybierasz, co dostarcza każda sonda. Sondy zgłaszają się do Cory jako źródła, które możesz umieścić na pulpicie. Zobacz [Mapowanie parametrów i sondy](/help/mobile-probes).
+- W **Mapowaniu parametrów** wybierasz, co dostarcza każda sonda. Sondy zgłaszają się do Cory jako źródła, które możesz umieścić na panelu. Zobacz [Mapowanie parametrów i sondy](/help/mobile-probes).
 - **Akwaria** pokazują, które akwaria obsługuje Apex. Dotknij **Zmień**, żeby je edytować.
-- **Gniazda** przełączasz między **AUTO**, **WYŁ.** i **WŁ.** widżetem **Gniazdo** na pulpicie. AUTO oddaje sterowanie programowi Apex. Zobacz [Rodzaje widżetów](/help/mobile-widgets#outlet).
+- **Gniazda** przełączasz między **AUTO**, **WYŁ.** i **WŁ.** widżetem **Gniazdo** na panelu. AUTO oddaje sterowanie programowi Apex. Zobacz [Rodzaje widżetów](/help/mobile-widgets#outlet).
 
 Twój Apex dalej realizuje własny program. Cora zmienia gniazdo tylko wtedy, gdy o to poprosisz.
 
@@ -68,10 +68,10 @@ Dla każdej głowicy możesz:
 
 - **Wstrzymaj** i **Wznów** jej harmonogram
 - **Napełnij**, żeby powiedzieć Corze, że pojemnik znów jest pełny, albo ustawić, ile w nim jest (**Całkowita objętość** to rozmiar pojemnika, **Pozostała objętość** to to, co jest w nim teraz, a **Pełny** ustawia jedno na drugie)
-- **Dawkuj teraz**, żeby podać ręcznie odmierzoną dawkę
+- **Dozuj teraz**, żeby podać ręcznie odmierzoną dawkę
 
 :::note Harmonogramy edytuj w Apex Fusion
-Cora pokazuje harmonogram i śledzi, co zostało zdozowane, ale nie zmienia harmonogramu. Harmonogram, tempo dozowania i liczbę dawek edytujesz w aplikacji Apex Fusion. Wstrzymywanie, napełnianie i dozowanie ręczne działają tutaj.
+Cora pokazuje harmonogram i śledzi, co zostało zdozowane, ale nie zmienia harmonogramu. Harmonogram, szybkość dozowania i liczbę dawek edytujesz w aplikacji Apex Fusion. Wstrzymywanie, napełnianie i dozowanie ręczne działają tutaj.
 :::
 
 :::note Zmierz głowicę, zanim zaczniesz dozować ręcznie
@@ -111,7 +111,7 @@ Gdy jesteś poza siecią urządzenia, Cora Mobile wysyła polecenia Red Sea prze
 
 ![Strona ReefDose 4 w Cora Mobile](img/mobile-reefdose.webp "Stan, głowice i dzisiejsza suma, Używaj dozownika do zużycia, a pod nimi każda głowica dozująca.")
 
-Dla każdej głowicy możesz ustawić **Dawka dzienna** i **Pozostało w butelce**, uruchomić **Dawkuj teraz** i **Aktywuj harmonogram**. Alerty uzupełnienia ustawiasz dla każdej głowicy dzwonkiem, tak jak opisują [Alerty dozownika](#doser-alerts).
+Dla każdej głowicy możesz ustawić **Dawka dzienna** i **Pozostało w butelce**, uruchomić **Dozuj teraz** i **Aktywuj harmonogram**. Alerty uzupełnienia ustawiasz dla każdej głowicy dzwonkiem, tak jak opisują [Alerty dozownika](#doser-alerts).
 
 Sekcja **Dozowanie** pokazuje **Nadchodzące dawki**, to, co każda głowica dozowała dziś (**Dozowano dziś do tej pory**), oraz **Dozowane na głowicę** za **Ostatnie 7 dni** albo **Łącznie**. Cora odczytuje to, gdy Cora Max albo Twój telefon jest w Twojej sieci domowej.
 
@@ -134,7 +134,7 @@ Strona ReefMat pokazuje, ile zostało rolki, w dniach i metrach. Dotknij **Przew
 
 Dotknij koła zębatego, żeby otworzyć **Ustawienia ReefMat**:
 
-- **Zaplanowany posuw** włącza przesuwanie o stałych porach, niezależne od czujnika automatycznego posuwu, który już jest na stronie. Włącz go i ustaw, jak często i o ile ma przesuwać matę każdy posuw.
+- **Zaplanowane przewijanie** włącza przewijanie o stałych porach, niezależne od czujnika automatycznego przewijania, który już jest na stronie. Włącz go i ustaw, jak często i o ile ma przesuwać matę każde przewinięcie.
 - **Model ReefMat** i **Pozycja silnika** (**Lewa** albo **Prawa**) mówią Corze, jakie masz urządzenie i w jakim ułożeniu.
 
 Po założeniu nowej rolki daj znać Corze przez **Nowa rolka**: podaj jej grubość, a jeśli znasz, także średnicę zewnętrzną. **Przewiń teraz** przesuwa tylko już założoną matę.
@@ -178,7 +178,7 @@ Wartości domyślne i inne materiały eksploatacyjne opisują [Materiały eksplo
 
 ## Pompy Jecod / Jebao {#jecod}
 
-Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Przełącznik z **Tak samo cały dzień** i **Harmonogram** oznacza działający tryb napisem *· działa*, a strona otwiera się na nim. Układanie programu dnia, jego kopiowanie, zapisywanie i udostępnianie opisują [Harmonogramy sprzętu](/help/mobile-schedules).
+Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Przełącznik z **Cały dzień tak samo** i **Harmonogram** oznacza działający tryb napisem *· działa*, a strona otwiera się na nim. Układanie programu dnia, jego kopiowanie, zapisywanie i udostępnianie opisują [Harmonogramy sprzętu](/help/mobile-schedules).
 
 Jeśli pompa należy do grupy, strona pokazuje jej rolę, na przykład **Prowadzi grupę**, **Podąża: zgodnie** albo **Podąża: przemiennie**.
 
@@ -190,6 +190,8 @@ Przerwę na karmienie uruchomisz w **Karmienie** na stronie pompy: dotknij **5**
 Niektóre pompy same nie kończą karmienia, a strona o tym mówi. Dla nich i dla każdej pompy na harmonogramie Cora Mobile przywraca wzór fali i harmonogram tylko wtedy, gdy strona pompy pozostaje otwarta. Jeśli wyjdziesz ze strony, pompa zostaje zatrzymana w trybie karmienia albo poza harmonogramem, dopóki znów czegoś nie zmienisz albo nie dotkniesz **Harmonogram**.
 :::
 
+Jeśli w Twoim domu jest Cora Max, to on kończy karmienie i przywraca pompę do jej programu po upływie czasu, nawet gdy Cora Mobile jest zamknięty. Ostrzeżenie powyżej dotyczy wtedy tylko sytuacji bez Cora Max.
+
 Pompa Bluetooth musi być w zasięgu telefonu, żeby uruchomić karmienie, a pompa sieciowa musi być w Twojej sieci.
 
 ### Sprawdzanie awarii {#jecod-fault-checks}
@@ -199,6 +201,10 @@ Pompa Bluetooth musi być w zasięgu telefonu, żeby uruchomić karmienie, a pom
 ## AquaWiz {#aquawiz}
 
 Karta AquaWiz pokazuje odczyty alkaliczności, a także pH, jeśli Twoje urządzenie je zgłasza. Pokazuje też docelowe KH, siłę dawki, a dla urządzenia z ustawionym dozowaniem także maksymalną dawkę na godzinę i to, ile suplementu alkaliczności zostało w pojemniku. Te wartości pochodzą prosto z Twoich ustawień AquaWiz, więc zmieniasz je w aplikacji AquaWiz. Cora nie może sterować AquaWiz.
+
+Pod odczytami karta mówi, kiedy zrobiono ostatni pomiar (na przykład *Pomiar: 14:00*) i skąd pochodzi: **Co godzinę z Twojego Cora Max** albo **Z chmury AquaWiz, co 12 godzin**. Pokazuje też **zmianę pH**. Otwarcie strony prosi o świeży odczyt, a **Odczytaj teraz** prosi o niego jeszcze raz, najwyżej raz na 15 minut. Jeśli odczyt się nie zmienił, to normalne: urządzenie mierzy tylko od czasu do czasu.
+
+Gdy Cora Max czyta urządzenie co godzinę, karta pokazuje też pompę, sondę pH i poziom zbiornika wody, a Cora ostrzega Cię, gdy pompa zgłasza usterkę, sonda pH uległa awarii lub kończy się jej żywotność, albo poziom zbiornika wody jest niski lub wysoki dłużej niż godzinę.
 
 Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega Cię, gdy kończy się suplement, domyślnie przy 100 mL. Zmienisz to w jego regule w [Centrum alertów](/help/mobile-alerts).
 

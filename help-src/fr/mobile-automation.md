@@ -2,7 +2,7 @@
 title: Automatisations et scènes
 description: Faites agir Cora tout seul selon une mesure, une alerte, une heure ou un appareil qui se déconnecte, et regroupez des actions en scènes que vous lancez d’un seul appui.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 24
 group: Alerts and automation
 twin: max-automation
@@ -77,7 +77,7 @@ Une action qui nécessite un équipement n’apparaît que sur un aquarium qui a
 | Action | Ce qu’elle fait |
 |---|---|
 | **Contrôler un équipement Apex** | Commander une prise |
-| **Lancer un cycle d’alimentation Apex** | Lancer un nourrissage. L’Apex l’arrête avec sa propre minuterie |
+| **Lancer un cycle de nourrissage Apex** | Lancer un nourrissage. L’Apex l’arrête avec sa propre minuterie |
 | **Lancer un test Trident** | Lancer un test. Chaque exécution consomme du réactif |
 | **Doser une tête DŌS** | Faire une dose mesurée avec une tête DŌS |
 | **Contrôler un équipement Red Sea** | Piloter un appareil ReefBeat |
@@ -124,3 +124,5 @@ Chaque règle a un interrupteur d’activation. Désactiver une règle garde ses
 ## Voir ce qu’une règle a fait {#seeing-what-a-rule-did}
 
 Chaque action d’une règle est enregistrée avec **Règle d’automatisation** comme cause. Vous la trouverez dans [Activité](/help/mobile-activity).
+
+Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un refroidisseur vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.

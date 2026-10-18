@@ -192,7 +192,7 @@
 <p>Le letture di sonde e controller non fanno comparire questa proposta, perché arrivano per tutto il giorno.</p>
 <h2 id="perche-vedi-unosservazione">Perché vedi un'osservazione</h2>
 <p>Sotto un'osservazione, tocca <strong>Perché vedo questo?</strong> Il pannello <strong>Perché lo vedi</strong> elenca le <strong>Misurazioni usate</strong>, l'<strong>Obiettivo di confronto</strong> (il tuo obiettivo, o un intervallo di riferimento), tutto quello <strong>Dal tuo diario</strong> di cui ha tenuto conto e il periodo in giorni che ha guardato. Se il ragionamento non si adatta alla tua vasca, rispondi all'osservazione come spiegato in <a href="#correcting-an-insight">Correggere un'osservazione</a>.</p>
-<p>I briefing usano anche altro oltre ai valori dei parametri. Possono usare i programmi delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo e i totali delle tue teste DŌS.</p>
+<p>I briefing usano anche altro oltre ai valori dei parametri. Possono usare le programmazioni delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo e i totali delle tue teste DŌS.</p>
 <h2 id="quando-arriva">Quando arriva</h2>
 <p>Una volta al giorno per ogni vasca, all'ora che scegli. La imposti in <strong>Impostazioni → Orario del riepilogo</strong>, accanto a <strong>Notifiche</strong>. Il briefing arriva entro circa 15 minuti da quell'ora, nel tuo fuso orario. Se non scegli mai, arriva alle 8:00.</p>
 <p>Scegli un'ora successiva al tuo solito test del mattino, così il risultato di oggi è nel briefing.</p>
@@ -205,7 +205,7 @@
 <aside class="cal cal-note"><p class="cal-t">Un punteggio Dati in calo di solito vuol dire letture vecchie</p><p>Se non fai nessun test per una settimana, il punteggio Dati scende e il punteggio Stabilità diventa meno affidabile. Registra qualche lettura per farli risalire entrambi.</p></aside>
 <h2 id="availability">Quali vasche ricevono un briefing</h2>
 <p>Reef Buddy fa parte dei piani a pagamento. È compreso anche nella prova di 30 giorni che parte quando crei il tuo account.</p>
-<p>Ogni piano copre un certo numero di vasche: 1 nella prova e con Plus, 5 con Pro e 20 con Max. I briefing vanno alle prime vasche nell'ordine impostato in <strong>Impostazioni → Riordina vasche</strong>. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.</p>
+<p>Ogni piano copre un certo numero di vasche: 1 nella prova e con Essential, 5 con Advanced e 20 con Expert. I briefing vanno alle prime vasche nell'ordine impostato in <strong>Impostazioni → Riordina vasche</strong>. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.</p>
 <p>Dopo la prova, un account gratuito vede una scheda Reef Buddy bloccata con <strong>Vedi i piani</strong> al posto del briefing, e non riceve la notifica del briefing. Di più in <a href="/it/help/mobile-plans">Piani e abbonamenti</a>.</p>
 <h2 id="se-il-briefing-non-e-arrivato">Se il briefing non è arrivato</h2>
 <ul><li><strong>Niente richiedeva la tua attenzione.</strong> In una buona giornata Reef Buddy resta in silenzio. La scheda è comunque sulla dashboard.</li><li><strong>La tua prova è finita.</strong> Un account gratuito riceve la scheda bloccata e nessuna notifica.</li><li><strong>La vasca è oltre il limite del tuo piano.</strong> Spostala più in alto in <strong>Impostazioni → Riordina vasche</strong>.</li><li><strong>Le notifiche sono spente.</strong> Controlla <a href="/it/help/mobile-notifications">Notifiche</a>.</li></ul>
@@ -216,7 +216,7 @@
 <p>Quando Reef Buddy segnala una deriva, chiede anche <em>Questo avviso è stato utile?</em> Puoi rispondere <strong>Utile</strong>, <strong>Non utile</strong>, <strong>Questo cambiamento è previsto</strong> o <strong>La misurazione sembra errata</strong>. Le tue risposte influenzano cosa compare per primo nei briefing successivi. Nascondere un'osservazione vale solo per un po'. Se il problema c'è ancora, l'osservazione torna.</p>
 <aside class="cal cal-note"><p class="cal-t">I risultati seri non vengono mai nascosti</p><p>Le risposte attenuano solo le osservazioni meno gravi. Le osservazioni di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.</p></aside>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-activity"><span>Precedente</span><b>Attività e cronologia</b></a><a class="pn-n" href="/it/help/mobile-assistant"><span>Successivo</span><b>Fare domande a Cora</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.192 e Cora Mobile 0.5.115. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.215 e Cora Mobile 0.5.124. Ultimo controllo il 2026-10-18.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=dcf8dc6ce2').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ed574cad08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

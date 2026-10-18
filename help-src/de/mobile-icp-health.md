@@ -2,7 +2,7 @@
 title: ICP und Gesundheitsberichte
 description: Ein ICP-Test-PDF hochladen oder von deinem Labor schicken lassen, die Bewertung lesen, jedes Element über die Zeit verfolgen und einen Gesundheitsbericht über dein ganzes System erstellen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 33
 group: Intelligence
 twin: max-intelligence
@@ -85,6 +85,8 @@ Jedes Element wird verfolgt, auch Spurenelemente und Schadstoffe neben den wicht
 In jeder Elementzeile siehst du den Bereich, den das Labor gedruckt hat, als *Laborbereich*, neben dem eigenen Bereich von Cora für dieses Element. Ein Element, für das Cora keinen Referenzbereich hat, trägt das Etikett **Kein Cora-Bereich**. Der Bericht sagt, wie viele Elemente einen Cora-Bereich haben, und bewertet den Rest nach allgemeinem Riffwissen. Cora Assistant kommentiert jedes getestete Element, und sein Kommentar gilt auch, wenn es keinen Cora-Bereich gibt.
 
 Druckt das Labor für ein Element *n.d.* oder *not detected*, erfasst Cora es als 0 und sagt, dass es nicht nachgewiesen wurde.
+
+Gibt ein Labor die **spezifische Dichte** (oder relative Dichte) statt der Salinität an, speichert Cora sie als Salinität, weiter in SG angezeigt, und bewertet sie nach deinem Salinitätsbereich.
 
 :::note Gelöstes CO2 ist nicht das CO2 im Raum
 **Gelöstes CO₂** in einem ICP-Bericht ist das CO2 im Wasser, in mg/L. Es ist ein anderer Messwert als das CO2 der Luft in deinem Raum. Die beiden haben unterschiedliche Bereiche und werden nie vermischt.

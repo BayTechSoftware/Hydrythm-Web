@@ -2,13 +2,13 @@
 title: Sterowanie sprzętem z Cora Max
 description: Strony urządzeń na Cora Max dla Neptune Apex, Trident i DŌS, Red Sea ReefBeat, Jecod i AquaWiz, według marki.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Equipment
 twin: mobile-device-control
 ---
 
-Ta strona opisuje, co możesz zobaczyć i zrobić na stronie każdego urządzenia na Cora Max, marka po marce. Cora Max łączy się z tym samym sprzętem co telefon. Stronę urządzenia otworzysz ikoną urządzeń na górnym pasku, z **Ustawienia → Urządzenia** albo dotykając kafelka urządzenia na pulpicie.
+Ta strona opisuje, co możesz zobaczyć i zrobić na stronie każdego urządzenia na Cora Max, marka po marce. Cora Max łączy się z tym samym sprzętem co telefon. Stronę urządzenia otworzysz ikoną urządzeń na górnym pasku, z **Ustawienia → Urządzenia** albo dotykając kafelka urządzenia na panelu.
 
 ![Strona Apex na Cora Max z przyciskami karmienia i gniazdami](img/max-device-control.webp "Feed A do D i Anuluj, a pod nimi gniazda, ułożone pod ekran na ścianie.")
 
@@ -27,7 +27,7 @@ Sprzęt dodajesz, przypisujesz i usuwasz w telefonie. Cora Max pokazuje go, gdy 
 | **DŌS**, w tym DŌS QD | Dozowanie każdej głowicy, harmonogram, zapas i objętość pojemnika (z pauzą, napełnianiem, dawką od razu i jednorazowym dwudziestosekundowym pomiarem) |
 | **Red Sea ReefBeat** | To, co ma urządzenie: głowice dozujące, zbiornik, dni rolki, tryb pompy, a także pełny edytor planu ReefDose oraz ustawienia ReefMat |
 | **Jecod** | Tryb i intensywność pompy oraz jej program dnia |
-| **AquaWiz** | Nie ma własnej strony. Jest na liście w **Urządzenia**, a jego odczyty trafiają na pulpit |
+| **AquaWiz** | Nie ma własnej strony. Jest na liście w **Urządzenia**, a jego odczyty trafiają na panel |
 
 Większość stron urządzeń ma ołówek do zmiany nazwy urządzenia. Nowa nazwa pojawia się też w telefonie. Więcej w [Urządzeniach i ich stanie](/help/max-devices).
 
@@ -35,7 +35,7 @@ Większość stron urządzeń ma ołówek do zmiany nazwy urządzenia. Nowa nazw
 
 Strona Apex wymienia sondy i gniazda, z cyklami karmienia na górze. Każde gniazdo przełączasz między **AUTO**, **WYŁ.** i **WŁ.**, a gniazda z kłódką proszą o potwierdzenie. Jak działają trzy stany i tryb karmienia, opisują [Gniazda i sterowanie](/help/max-controls).
 
-Do gniazd dotrzesz też z szuflady **Gniazda i karmienie** na dole pulpitu. Wymienia gniazda włączone dla tego pulpitu (albo wszystkie, jeśli żadnych nie wybrano).
+Do gniazd dotrzesz też z szuflady **Gniazda i karmienie** na dole panelu. Wymienia gniazda włączone dla tego panelu (albo wszystkie, jeśli żadnych nie wybrano).
 
 Duży Apex z kilkoma modułami pokazuje wszystkie swoje gniazda i sondy. Głowice DŌS nigdy nie pojawiają się na liście gniazd, więc nie włączysz tam żadnej i nie zostawisz jej pracującej. Dozuj ze strony samej głowicy.
 
@@ -74,23 +74,23 @@ Każde urządzenie Red Sea ma stronę dopasowaną do tego, co robi: głowice i p
 
 Jeśli urządzenie Red Sea samo się zatrzyma, jego strona mówi, co jest nie tak, i daje rozwiązanie tuż obok. To **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana** albo **Resetuj** dla głowicy dozującej.
 
-Plan ReefDose oraz zaplanowany posuw, model, pozycja i nowa rolka ReefMat działają tu tak samo jak w telefonie. Szczegóły są w [Sterowaniu sprzętem](/help/mobile-device-control).
+Plan ReefDose oraz zaplanowane przewijanie, model, pozycja i nowa rolka ReefMat działają tu tak samo jak w telefonie. Szczegóły są w [Sterowaniu sprzętem](/help/mobile-device-control).
 
 
 ## Jecod {#jecod}
 
 Strona Jecod pokazuje tryb i intensywność pompy, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Górny pasek ma przełącznik, wzór działający teraz i **Karmienie** z czterema przyciskami: **5**, **10**, **15** i **30** min. Dotknij przycisku, aby wstrzymać pompę na ten czas. Pod paskiem są dwie karty:
 
-- **Tak samo cały dzień**: dotknij ustawienia, aby działało cały dzień.
+- **Cały dzień tak samo**: dotknij ustawienia, aby działało cały dzień.
 - **Harmonogram**: wykres doby i lista planów, z **teraz** przy bieżącym. **Edytuj** otwiera edytor, a menu ⋮ zawiera **Skopiuj harmonogram do…**, **Zapisz harmonogram jako…** i **Zapisane harmonogramy…**.
 
-Działająca karta ma obwódkę i znacznik **Działa**. Pompa Jecod nie ma przycisku **Zakończ karmienie**. Każda pompa Jecod, która może się wstrzymać na czas karmienia, pokazuje przyciski **5**, **10**, **15** i **30** min. W Jecod Pro robi to samo kafelek Karmienie we wzorach fal, na 10 minut. Przez Cora Max oddalony od akwarium pompa Jecod karmi tylko przez 10 minut. Pompa, która teraz nie może karmić, pokazuje powód w jednym krótkim wierszu pod przyciskami, a długie dotknięcie pokazuje całe zdanie.
+Działająca karta ma obwódkę i znacznik **Działa**. Pompa Jecod nie ma przycisku **Zakończ karmienie**. Każda pompa Jecod, która może się wstrzymać na czas karmienia, pokazuje przyciski **5**, **10**, **15** i **30** min. W Jecod Pro robi to samo kafelek Karmienie we wzorach fal, na 10 minut. Przez Cora Max oddalony od akwarium pompa Jecod karmi tylko przez 10 minut. Pompa, która teraz nie może karmić, pokazuje powód w jednym krótkim wierszu pod przyciskami, a długie dotknięcie pokazuje całe zdanie. Karmienie rozpoczęte z telefonu kończy też Cora Max: po upływie czasu pompa wraca do swojego programu.
 
 Programy dnia pomp Jecod możesz pisać przy ścianie tak samo jak w telefonie. Edytor jest taki sam, z wykresem dnia, listą okresów i rzędem akcji. Więcej w [Harmonogramach sprzętu](/help/mobile-schedules).
 
 ## AquaWiz {#aquawiz}
 
-AquaWiz KH Controller nie ma na Cora Max własnej strony. Jest na liście w **Urządzenia**, gdzie możesz zmienić jego nazwę, a jego odczyty pokazują się na pulpicie jak każde inne źródło. Konfigurujesz go i zarządzasz nim w telefonie, zobacz [Podłączanie sprzętu](/help/mobile-connections).
+AquaWiz KH Controller nie ma na Cora Max własnej strony. Jest na liście w **Urządzenia**, gdzie możesz zmienić jego nazwę, a jego odczyty pokazują się na panelu jak każde inne źródło. Cora Max przy tym samym akwarium może też czytać go co godzinę, gdy może osiągnąć kontroler. Konfigurujesz go i zarządzasz nim w telefonie, zobacz [Podłączanie sprzętu](/help/mobile-connections).
 
 
 ## Materiały eksploatacyjne {#consumables}
@@ -110,7 +110,7 @@ Gdy akwarium pokazuje więcej niż jeden Cora Max, jeden z nich odczytuje sprzę
 
 Kilka rzeczy działa tylko na Cora Max przy akwarium.
 
-- **Zmierz, aby dozować** i **Zmierz ponownie** pojawiają się tylko tam. Gdy głowica jest już zmierzona, **Dawkuj teraz** działa z każdego Cora Max.
+- **Zmierz, aby dozować** i **Zmierz ponownie** pojawiają się tylko tam. Gdy głowica jest już zmierzona, **Dozuj teraz** działa z każdego Cora Max.
 - Harmonogram Jecod zmienisz z innego Cora Max tylko wtedy, gdy Cora Max przy akwarium odczytał pompę w ciągu ostatniej godziny, i nigdy dla pompy, która łączy się tylko przez Bluetooth. Jedno **Zastosuj do pompy** z innego Cora Max wysyła najwyżej 12 zmian, więc większą edycję wyślij w częściach.
 
 ## Co zostało zmienione i przez co {#what-was-changed-and-by-what}

@@ -16,7 +16,7 @@ Ayarlar → akvaryumunuz → **Tatil modu** yoluna gidin. Birden fazla akvaryumu
 ## Kurulum {#setting-it-up}
 
 1. **Ne zaman uzaktasınız?** altında **Seyahat tarihlerinizi seçin**'e dokunun.
-2. **Bakıcı kontrol listesi**'ni hazırlayın. Siz yokken zamanı gelecek bakım görevleri, her biri ne sıklıkla gerektiğiyle birlikte size önerilir. Eklemek için bir öneriye dokunun, örneğin **Akvaryumu besle**, **ATO haznesini kontrol et**, **Skimmer kabını boşalt** ya da **Bir şey ters giderse beni ara**. Kendi işinizi eklemek için **Kendi görevinizi ekleyin…** alanına yazın ve **Görev ekle**'ye dokunun.
+2. **Bakıcı kontrol listesi**'ni hazırlayın. Siz yokken zamanı gelecek bakım görevleri, her biri ne sıklıkla gerektiğiyle birlikte size önerilir. Eklemek için bir öneriye dokunun, örneğin **Akvaryumu besle**, **ATO deposunu kontrol et**, **Skimmer kabını boşalt** ya da **Bir şey ters giderse beni ara**. Kendi işinizi eklemek için **Kendi görevinizi ekleyin…** alanına yazın ve **Görev ekle**'ye dokunun.
 3. **Notlar ve iletişim** altında **Bakıcı için notlar**'ı yazın, **Bir şey ters giderse** altına da size nasıl ulaşılacağını yazın.
 4. **Tatil modunu başlat**'a dokunun.
 
@@ -25,7 +25,7 @@ Her iş ne sıklıkla yapılacağını gösterir, örneğin **Günlük**, **Her 
 Kontrol listesini reef akvaryumlarını bilmeyen biri için yazın. Miktarları ve yöntemi açıkça yazın. "Günde bir kez, çözdürülmüş bir küp donmuş yem ver", "her zamanki gibi besle"den çok daha anlaşılırdır.
 
 :::note Neye dokunulmayacağını yazın
-Bakıcının dokunmaması gereken her ekipman için bir iş ekleyin, örneğin "Kontrolcüde hiçbir şeyi değiştirme". Bunu notlara da yazın.
+Bakıcının dokunmaması gereken her ekipman için bir iş ekleyin, örneğin "Kontrolörde hiçbir şeyi değiştirme". Bunu notlara da yazın.
 :::
 
 ## Bakıcınızla paylaşma {#sharing}

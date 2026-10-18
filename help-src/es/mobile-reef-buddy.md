@@ -2,7 +2,7 @@
 title: Reef Buddy
 description: Tu resumen diario de Reef Buddy: qué incluye, cuándo llega, cómo leer las puntuaciones y por qué puede no llegar un resumen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 31
 group: Intelligence
 twin: max-intelligence
@@ -85,7 +85,7 @@ Si no has medido nada en una semana, la puntuación de Datos baja y la de Estabi
 
 Reef Buddy forma parte de los planes de pago. También está incluido en la prueba gratuita de 30 días que empieza cuando creas tu cuenta.
 
-Cada plan cubre un número fijo de acuarios: 1 en la prueba y en Plus, 5 en Pro y 20 en Max. Los resúmenes van a los primeros acuarios según el orden de **Ajustes → Reordenar acuarios**. Para incluir un acuario que se queda fuera, súbelo en la lista. Los acuarios eliminados no ocupan sitio.
+Cada plan cubre un número fijo de acuarios: 1 en la prueba y en Essential, 5 en Advanced y 20 en Expert. Los resúmenes van a los primeros acuarios según el orden de **Ajustes → Reordenar acuarios**. Para incluir un acuario que se queda fuera, súbelo en la lista. Los acuarios eliminados no ocupan sitio.
 
 Después de la prueba, una cuenta gratuita ve una tarjeta de Reef Buddy bloqueada con **Ver planes** donde estaba el resumen, y no recibe la notificación del resumen. Más información en [Planes y suscripciones](/help/mobile-plans).
 

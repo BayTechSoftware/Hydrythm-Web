@@ -2,7 +2,7 @@
 title: Panonuzu okuma
 description: Cora panosu nasıl okunur: widget'lar, ölçüm yaşı ve kaynaklardan renklerin anlamına ve gelip giden kartlara kadar.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 6
 group: Your dashboard
 ---
@@ -40,7 +40,7 @@ Değer, ölçümün kendisidir, büyük ve ortadadır.
 
 Yaş, onun altında ya da yanında `şimdi`, `1 sa` ya da `2 g` olarak durur. Ekranın en son ne zaman yenilendiği değil, kaynağın o değeri en son ne kadar önce doğruladığıdır. Bir prob için bu, cihazının en son ne zaman bağlandığıdır, bu yüzden çalışan bir probdan gelen sabit bir ölçüm, sayı değişmese bile taze kalır. Bir test kiti ya da ICP sonucu için testi yaptığınız zamandır. Bir probda sürekli büyüyen bir yaş, cihazının bildirmeyi bıraktığı anlamına gelir.
 
-Kaynak rozeti, yaşın yanındaki küçük işarettir. Sayının nereden geldiğini gösterir: bir prob, bir kontrolcü, bir laboratuvar sonucu ya da test kitiyle siz. Kaynağın açık adını ve yakın geçmişini görmek için widget'a dokunun.
+Kaynak rozeti, yaşın yanındaki küçük işarettir. Sayının nereden geldiğini gösterir: bir prob, bir kontrolör, bir laboratuvar sonucu ya da test kitiyle siz. Kaynağın açık adını ve yakın geçmişini görmek için widget'a dokunun.
 
 :::note Yaş neden önemli
 Dört gün önceki kusursuz bir alkalinite ölçümü bugünkü alkaliniteniz değildir. Farkı hızlıca görebilmeniz için her değer yaşını gösterir.
@@ -82,9 +82,9 @@ Bazı kartlar yalnızca söylenecek bir şey olduğunda görünür. Çoğu başl
 | *Ölçümlerinize ulaşılamadı: önbellekteki gösteriliyor.* | Cora en son ölçümleri yükleyemiyor, çoğu zaman bağlantı olmadığında | **Tekrar dene** |
 | **{lab} laboratuvarından bir sonuç sizi bekliyor.** | Bir laboratuvar bir sonuç gönderdi ve Cora'nın hangi akvaryum için olduğunu bilmesi gerekiyor | **Akvaryum seç**. [ICP ve sağlık raporları](/help/mobile-icp-health) sayfasına bakın |
 | Profil hatırlatması (**Daha akıllı öngörülerin kilidini açın**) | Akvaryum profili %80'in altında tamamlanmış | Profile devam etmek için karta |
-| **Cora Pro deneme: 9 gün kaldı** | Denemenizin son günleri | Karta ya da **Pro'yu koru**'ya. [Planlar ve abonelikler](/help/mobile-plans) sayfasına bakın |
+| **Cora Advanced deneme: 9 gün kaldı** | Denemenizin son günleri | Karta ya da **Advanced'i koru**'ya. [Planlar ve abonelikler](/help/mobile-plans) sayfasına bakın |
 | **Reef Buddy** | Bir özet hazır | Karta |
-| **Normalde nasıl besliyorsun?** | Bir besleme rutini ayarlamadınız | **Rutini ayarla** |
+| **Normalde nasıl besliyorsunuz?** | Bir besleme rutini ayarlamadınız | **Rutini ayarla** |
 | *Red Sea değerleri güncellenmiyor.* | Bu akvaryumun Red Sea cihazlarını hiçbir şey okumuyor | [Uyarılar ve eşikler](/help/mobile-alerts) sayfasına bakın |
 | **İlk su testini kaydet** | Ölçüm ve bağlı ekipman yok, widget'ların altında | Karta. [Cora Mobile'ı kurma](/help/mobile-setup#the-first-test-card) sayfasına bakın |
 

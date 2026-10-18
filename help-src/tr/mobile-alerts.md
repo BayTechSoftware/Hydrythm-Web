@@ -2,7 +2,7 @@
 title: Uyarılar ve eşikler
 description: Her ölçüm için sağlıklı aralığı ayarlayın, bir uyarının sizi ne sıklıkla bilgilendirebileceğini seçin ve bir cihazın neden "bildirim yapmıyor" olduğunu öğrenin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -98,9 +98,9 @@ Cora'nın ne kadar beklediği cihaza bağlıdır:
 |---|---|
 | Neptune Apex | Güncelleme olmadan yaklaşık 30 dakika |
 | Red Sea ReefBeat | Yaklaşık 30 dakika |
-| AquaWiz | Yaklaşık 3 saat, çünkü daha seyrek bildirir |
+| AquaWiz | Yaklaşık 25 saat, çünkü AquaWiz Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir |
 | Jecod pompaları | Pompanın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 ile 90 dakika) |
-| Zigbee fişi | Hub yeniden başladıktan 30 dakika sonra hâlâ dönmemişse. Bildirimin onu adıyla anması için **Yeniden adlandır** ile ad verin |
+| Zigbee akıllı prizi | Hub yeniden başladıktan 30 dakika sonra hâlâ dönmemişse. Uyarının onu adıyla anması için **Yeniden adlandır** ile ad verin |
 
 Neyi kontrol edeceğiniz Cora'nın cihazı nasıl okuduğuna bağlıdır.
 

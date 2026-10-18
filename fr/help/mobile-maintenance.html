@@ -171,7 +171,7 @@
       <nav class="crumbs" aria-label="Fil d’Ariane"><ol><li><a href="/fr/help/">Aide</a></li><li><a href="/fr/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/fr/help/mobile-journal">Journaux</a></li></ol></nav>
       <h1>Entretien</h1>
       <p class="twin">Sur Cora Max : <a href="/fr/help/max-records">Journal, population et entretien</a></p>
-      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#summary">Le résumé</a></li><li><a href="#adding-a-task">Ajouter une tâche</a></li><li><a href="#reminders">Rappels</a></li><li><a href="#marking-done">Marquer une tâche comme faite</a></li><li><a href="#editing">Modifier une tâche</a></li><li><a href="#snoozing">Reporter</a></li></ul></nav>
+      <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#summary">Le résumé</a></li><li><a href="#adding-a-task">Ajouter une tâche</a></li><li><a href="#reminders">Rappels</a></li><li><a href="#marking-done">Marquer une tâche comme faite</a></li><li><a href="#done-earlier">Marquer une tâche comme faite plus tôt</a></li><li><a href="#editing">Modifier une tâche</a></li><li><a href="#snoozing">Reporter</a></li></ul></nav>
 <p>Entretien garde les tâches régulières dont votre aquarium a besoin, avec un rappel pour chacune.</p>
 <p>Touchez <strong>Entretien</strong> dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Réglages → votre aquarium → <strong>Entretien</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : La liste d’entretien"><img src="/help/img/mobile-maintenance.webp" alt="La liste d’entretien" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Le taux de conformité, le nombre de tâches en retard, et chaque tâche avec sa dernière réalisation et sa prochaine échéance.</figcaption></figure>
@@ -197,17 +197,20 @@
 <p>Les rappels relèvent de <strong>Rappels d’entretien</strong> dans <a href="/fr/help/mobile-notifications">Réglages → Notifications</a>. Si vous préférez simplement voir une tâche dans la liste, désactivez son <strong>Rappel</strong>.</p>
 <h2 id="marking-done">Marquer une tâche comme faite</h2>
 <p>Balayez la tâche vers la droite, ou ouvrez-la et touchez <strong>Terminer</strong>. Si vous avez balayé par erreur, touchez <strong>Annuler</strong> dans le message qui apparaît.</p>
-<p>Cora enregistre l’heure à laquelle vous avez fini et calcule la prochaine échéance à partir de là. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours aussi.</p>
+<p>Cora enregistre l’heure à laquelle vous avez fini et calcule la prochaine échéance à partir de là. Si vous faites une tâche avec trois jours de retard, la suivante est donc décalée de trois jours aussi. Si la tâche est en retard, Cora demande d’abord <strong>Quand l’avez-vous fait ?</strong> Choisissez <strong>À l’instant</strong>, ou <strong>Choisir la date et l’heure</strong> si vous l’avez fait plus tôt (voir plus bas).</p>
 <p>La fiche de la tâche affiche son <strong>Historique des validations</strong>, avec le retard de chacune.</p>
 <aside class="cal cal-note"><p class="cal-t">Terminer une tâche écrit aussi une entrée de journal</p><p>Cora ajoute pour vous une courte entrée à votre <a href="/fr/help/mobile-journal">journal</a>, en précisant si la tâche était en retard. Ajoutez votre propre entrée quand il y a plus à dire, par exemple quand la pompe était pleine de sable ou que les chaussettes étaient noires au bout d’un jour.</p></aside>
+<h2 id="done-earlier">Marquer une tâche comme faite plus tôt</h2>
+<p>Vous avez fait le travail hier et oublié de le cocher ? Ouvrez la tâche, touchez <strong>Fait plus tôt…</strong>, puis choisissez la date et l’heure. Cora date la validation, l’entrée de journal et la prochaine échéance à partir de cette heure : la prochaine échéance est donc l’heure choisie plus l’intervalle.</p>
+<p>Vous pouvez remonter jusqu’à un an, mais pas avant la dernière validation de la tâche. Si vous choisissez une heure qui n’est pas encore passée, ou antérieure à la dernière validation, Cora le dit et n’enregistre rien.</p>
 <h2 id="editing">Modifier une tâche</h2>
 <p>Touchez une tâche pour l’ouvrir. Vous pouvez changer le <strong>Nom de la tâche</strong>, l’<strong>Intervalle (jours)</strong>, les <strong>Notes (facultatif)</strong>, la <strong>Prochaine échéance</strong> et le rappel, puis touchez <strong>Enregistrer</strong>. <strong>Supprimer</strong> la retire.</p>
 <h2 id="snoozing">Reporter</h2>
 <p>Vous ne pouvez pas faire une tâche maintenant ? Ouvrez-la, touchez <strong>Reporter</strong> et choisissez <strong>1 jour</strong>, <strong>3 jours</strong>, <strong>1 semaine</strong>, <strong>2 semaines</strong> ou <strong>1 mois</strong>. Elle reste dans la liste comme <strong>Reportée</strong> avec sa nouvelle date, et vous n’êtes pas rappelé avant.</p>
-<aside class="cal cal-warning"><p class="cal-t">Ne marquez une tâche comme faite que si vous l’avez faite</p><p>La prochaine échéance est calculée à partir du jour où vous la marquez comme faite. Si vous marquez comme faite une tâche encore à faire, toutes les échéances suivantes se décalent. Reportez-la plutôt.</p></aside>
+<aside class="cal cal-warning"><p class="cal-t">Ne marquez une tâche comme faite que si vous l’avez faite</p><p>La prochaine échéance est calculée à partir de l’heure à laquelle vous avez fait la tâche. Si vous marquez comme faite une tâche encore à faire, toutes les échéances suivantes se décalent. Si vous l’avez faite plus tôt, utilisez <strong>Fait plus tôt…</strong> et choisissez l’heure réelle. Si vous ne l’avez pas faite, reportez-la plutôt.</p></aside>
 <p>Il n’est pas possible de mettre une tâche en pause. Pour une tâche qui ne s’applique pas cette saison, reportez-la de <strong>1 mois</strong>, ou supprimez-la et ajoutez-la à nouveau plus tard.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-dosing"><span>Précédent</span><b>Produits de dosage et calculateur de dose</b></a><a class="pn-n" href="/fr/help/mobile-livestock"><span>Suivant</span><b>Population</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.192 et Cora Mobile 0.5.115. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -598,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=13d399defc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=e3acc1a008').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

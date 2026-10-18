@@ -183,6 +183,7 @@
 <p>Unter <strong>Update-Einstellungen</strong> auf demselben Bildschirm:</p>
 <ul><li><strong>Installationsfenster</strong> legt die Stunden fest, in denen sich Updates installieren dürfen, mit einer Zeit für <strong>Start</strong> und <strong>Ende</strong>, in der Ortszeit dieses Bildschirms. Die Zeitzone stellst du in Cora Mobile ein, unter <strong>Geräte →</strong> dein Cora Max <strong>→ Zeitzone</strong>.</li></ul>
 <p>Um zu sehen, ob dieser Bildschirm deine Geräte abfragt und in Cora Cloud speichert, geh zurück zu <strong>Cora Max-Einstellungen</strong> und scroll zu <strong>STATUS</strong>. Dort stehen für jedes Becken <strong>Abfragestatus</strong>, <strong>Letzte Abfrage</strong>, <strong>Letzter Cloud-Schreibvorgang</strong> und <strong>Cloud-Speichern</strong>.</p>
+<p>Lädt ein Update langsam herunter, prüf deine Verbindung mit dem <strong>Netzwerk-Geschwindigkeitstest</strong> auf demselben Bildschirm. <strong>Test starten</strong> lädt bis zu 16 MB der Update-Datei aus Cora Cloud herunter, höchstens 20 Sekunden lang, und zeigt die Geschwindigkeit in MB/s.</p>
 <h2 id="wenn-ein-update-bereitsteht">Wenn ein Update bereitsteht</h2>
 <p>Ein Hinweis sagt dir, was neu ist, und gibt dir zwei Möglichkeiten.</p>
 <ul><li><strong>Jetzt aktualisieren</strong> installiert sofort und startet neu. Das dauert etwa eine Minute. Lass Cora Max am Strom.</li><li><strong>24 Stunden schlummern</strong> blendet den Hinweis aus und fragt dich einen Tag später noch einmal.</li></ul>
@@ -196,7 +197,7 @@
 <p>Die PIN hast du beim Koppeln von Cora Max gesehen. Du findest sie auch in Cora Mobile unter <strong>Geräte →</strong> dein Cora Max <strong>→ Wiederherstellungs-PIN</strong>. Cora Max selbst zeigt sie nie, damit ein Gast oder ein Kind, das sich an den Bildschirm lehnt, nicht in die Wiederherstellung kommt.</p>
 <p>Gibst du dreimal die falsche PIN ein, sperrt sich die Wiederherstellung für 30 Sekunden und nach jedem weiteren falschen Versuch länger. <strong>Zu viele Versuche</strong> sagt dir, wie lange du warten musst. War Cora Max seit dem Koppeln nie online, hat es noch keine PIN und zeigt <strong>Wiederherstellung nicht verfügbar</strong>. Verbinde es zuerst mit dem WLAN.</p>
 <p>In der <strong>Wiederherstellung</strong> kannst du:</p>
-<ul><li><strong>Wi-Fi-Einrichtung wiederholen</strong>: ein neues WLAN und Passwort wählen</li><li><strong>Dieses Gerät neu koppeln</strong>: die Kopplung löschen und es mit Cora Mobile neu einrichten</li><li><strong>OTA-Prüfung erzwingen</strong>: jetzt nach Updates suchen</li><li><strong>Werksreset</strong>: die Kopplung und alle Einstellungen auf dem Bildschirm entfernen</li></ul>
+<ul><li><strong>WLAN-Einrichtung wiederholen</strong>: ein neues WLAN und Passwort wählen</li><li><strong>Dieses Gerät neu koppeln</strong>: die Kopplung löschen und es mit Cora Mobile neu einrichten</li><li><strong>OTA-Prüfung erzwingen</strong>: jetzt nach Updates suchen</li><li><strong>Werksreset</strong>: die Kopplung und alle Einstellungen auf dem Bildschirm entfernen</li></ul>
 <p>Beckendaten, die schon in Cora Cloud gespeichert sind, bleiben in jedem Fall erhalten.</p>
 <p>Startet Cora Max mehrmals hintereinander nicht, kann es sich auch selbst auf die vorherige Version zurücksetzen.</p>
 <aside class="cal cal-note"><p class="cal-t">Dieselbe Geste entsperrt die Kindersicherung</p><p>Ist die <a href="/de/help/max-settings#child-lock">Kindersicherung</a> eingeschaltet, entsperrt das Halten mit fünf Fingern in der Ecke auch den Bildschirm. Tippe im Feld <strong>Wiederherstellungs-PIN</strong> auf <strong>Abbrechen</strong>, wenn du nur entsperren wolltest.</p></aside>
@@ -207,7 +208,7 @@
 <h2 id="wenn-ein-gerat-nicht-neu-startet">Wenn ein Gerät nicht neu startet</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> mit der Version, die auf dem Bildschirm steht, und der Meldung, die er zeigt. Koppel es vorher nicht neu. Der Kopplungsstatus hilft oft herauszufinden, was passiert ist.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-settings"><span>Zurück</span><b>Cora Max-Einstellungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -598,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

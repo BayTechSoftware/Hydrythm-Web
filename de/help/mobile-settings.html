@@ -206,12 +206,12 @@
 <aside class="cal cal-note"><p class="cal-t">Was das Löschen nicht entfernt</p><p>Ist <strong>Anonymisierte Beckendaten beisteuern</strong> eingeschaltet (und das ist es, außer du hast es ausgeschaltet), wird beim Löschen deines Kontos eine anonymisierte Kopie der Profile und des Wasserwerte-Verlaufs deiner Becken für die Forschung aufbewahrt. Sie hat keine Verbindung zu dir. Soll auch sie weg sein, schalte den Schalter <em>vor</em> dem Löschen aus.</p></aside>
 <h2 id="getting-help">Hilfe &amp; Support</h2>
 <p><strong>Einstellungen → Hilfe &amp; Support</strong> enthält:</p>
-<ul><li><strong>Support kontaktieren</strong> öffnet eine E-Mail an uns. Wir antworten meist innerhalb eines Tages.</li><li><strong>Fehler melden / Feedback senden</strong> schickt einen Bericht aus Cora Mobile heraus. Siehe <a href="/de/help/mobile-support">Ein Problem melden</a>.</li><li><strong>Absturzberichte senden</strong>, oben beschrieben.</li><li><strong>Cora Website &amp; FAQ</strong> öffnet die Cora-Website.</li></ul>
+<ul><li><strong>Support kontaktieren</strong> öffnet eine E-Mail an uns. Wir antworten meist innerhalb eines Tages.</li><li><strong>Fehler melden / Feedback senden</strong> schickt einen Bericht aus Cora Mobile heraus. Siehe <a href="/de/help/mobile-support">Ein Problem melden</a>.</li><li><strong>Absturzberichte senden</strong>, oben beschrieben.</li><li><strong>Cora Website &amp; FAQ</strong> öffnet die Cora-Website. Das öffnet diese Anleitung in deiner Sprache.</li></ul>
 <h2 id="uber">Über</h2>
 <p>Hier siehst du die Version, die du nutzt, und ein paar weitere Zeilen.</p>
 <ul><li><strong>Tipps erneut ansehen</strong> spielt die Dashboard-Tour vom ersten Start noch einmal ab, die unter <a href="/de/help/mobile-tour#the-first-run-tour">Die Tour beim ersten Start</a> beschrieben ist. Das ist praktisch nach einem Update oder wenn jemand Neues anfängt, Cora Mobile zu nutzen.</li><li><strong>Datenschutzrichtlinie</strong> und <strong>Allgemeine Geschäftsbedingungen</strong> verlinken auf die rechtlichen Seiten.</li><li><strong>Lizenzen</strong> listet die Open-Source-Software auf, auf der Cora Mobile aufbaut.</li></ul>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-journeys"><span>Zurück</span><b>Geführte Journeys</b></a><a class="pn-n" href="/de/help/mobile-multi-device"><span>Weiter</span><b>Mehr als ein Cora-Gerät</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.192 und Cora Mobile 0.5.115. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -602,7 +602,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8b664024eb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8dd4c81a9f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

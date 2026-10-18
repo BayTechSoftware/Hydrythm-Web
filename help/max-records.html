@@ -188,13 +188,13 @@
 <h2 id="maintenance">Maintenance</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: Maintenance on Cora Max"><img src="/help/img/max-records.webp" alt="Maintenance on Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Tasks due, with Snooze and Done on each, and what was completed recently.</figcaption></figure>
 <p>The top of the screen says how many tasks are due. Below it, <strong>Upcoming</strong> lists each task with <strong>TODAY</strong>, <strong>IN 3d</strong> or <strong>OVERDUE 2d</strong>, and <strong>Completed · last 7 days</strong> shows what you've done lately.</p>
-<ul><li>Tap <strong>Done</strong> when you finish a task.</li><li>Tap <strong>Snooze</strong> to push it back by <strong>1 Day</strong>, <strong>3 Days</strong>, <strong>1 Week</strong>, <strong>2 Weeks</strong> or <strong>1 Month</strong>.</li></ul>
+<ul><li>Tap <strong>Done</strong> when you finish a task. If it's overdue, Cora asks <strong>When did you do it?</strong></li><li>Tap <strong>Done earlier…</strong> if you did it before today. Pick the date and time, and the next due date counts from then. A time in the future, or before the last completion, isn't accepted.</li><li>Tap <strong>Snooze</strong> to push it back by <strong>1 Day</strong>, <strong>3 Days</strong>, <strong>1 Week</strong>, <strong>2 Weeks</strong> or <strong>1 Month</strong>.</li></ul>
 <p>You add and change tasks on your phone. More about this in <a href="/help/mobile-maintenance">Maintenance</a>.</p>
 <h2 id="livestock">Livestock</h2>
 <p>This is the full inventory, with what's <strong>In the tank</strong> and what's <strong>No longer in the tank</strong>. It's view only here. You add and edit livestock in Cora Mobile, and what you add there shows up on this screen right away. More about this in <a href="/help/mobile-livestock">Livestock</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">One set of records</p><p>Each tank has one journal, one livestock inventory and one maintenance list. Cora Max and your phone show the same records.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-automation"><span>Previous</span><b>Scenes on Cora Max</b></a><a class="pn-n" href="/help/max-activity"><span>Next</span><b>Activity on Cora Max</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.192 and Cora Mobile 0.5.115. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=28a09fb9da').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=730ed4e246').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

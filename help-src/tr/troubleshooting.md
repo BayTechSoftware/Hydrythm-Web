@@ -2,7 +2,7 @@
 title: Sorun giderme
 description: Eski bir ölçümü, çevrimdışı olan bir cihazı, ulaşmayan bir komutu, eşleşmeyen bir Cora Max'i ya da kapanmayan bir uyarıyı düzeltin.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -162,7 +162,7 @@ Cora Max bunu Apex'inize ulaşmanın hiçbir yolu olmadığında ve akvaryumdaki
 Telefonunuzda **Besle** yalnızca Neptune Apex'i olan bir akvaryumda görünür ve Apex'te programlanmış besleme döngülerinden birini başlatır.
 
 - *"Bu akvaryumdaki hiçbir Cora Apex'e ulaşamıyor ve siz onun ağında değilsiniz."* Apex'in Wi-Fi'ına katılın ya da akvaryuma bir Cora Max eşleştirin.
-- *"Apex yanıt vermedi ama zaten besleme yapıyor olabilir."* Tekrar denemeden önce kontrolcüyü kontrol edin.
+- *"Apex yanıt vermedi ama zaten besleme yapıyor olabilir."* Tekrar denemeden önce kontrolörü kontrol edin.
 
 ### Bir doz yarıda durdu ve bir "geri yükleme" uyarısı çıktı {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
 
@@ -207,9 +207,9 @@ Diğer her mesaj için **Tekrar dene**'ye dokunun. Kurulumun tamamı [Cora Max'i
 - Ağınızın kendisinin çalıştığını kontrol edin.
 - Etikette **Çevrimiçi** ya da **Bulut** yazıyor ve veri yine de eskiyse sorun Cora Max'ten öncedir. Aynı akvaryumu telefonunuzda kontrol edin.
 
-### Cora Max "Apex parolası" gösteriyor {#cora-max-shows-apex-password}
+### Cora Max "Apex şifresi" gösteriyor {#cora-max-shows-apex-password}
 
-Apex'iniz Cora'nın kaydettiği girişi reddetti, genellikle Apex parolası değiştirildiği için. Telefonunuzda **Cihazlar**'ı, ardından Apex'inizi açın ve yenisini girmek için **Bağlantı** altında **Bağlantıyı düzenle**'ye dokunun.
+Apex'iniz Cora'nın kaydettiği girişi reddetti, genellikle Apex şifresi değiştirildiği için. Telefonunuzda **Cihazlar**'ı, ardından Apex'inizi açın ve yenisini girmek için **Bağlantı** altında **Bağlantıyı düzenle**'ye dokunun.
 
 ### Cora Max "Bulut kaydı reddedildi" gösteriyor {#cora-max-shows-cloud-save-refused}
 
@@ -301,13 +301,13 @@ Ayrıntılar [Reef Buddy](/help/mobile-reef-buddy) sayfasında.
 
 ### Kaldırdığım bir akvaryumdan uyarılar gelmeye devam ediyor {#alerts-from-a-removed-tank}
 
-Bir akvaryumu kaldırmak onu yalnızca gizler. Cihazları ona bağlı kalır ve bir Cora Max onu hâlâ okuyor olabilir, bu yüzden ekipmanı bildirmeye ve uyarı vermeye devam edebilir.
+Kaldırılan bir akvaryum geçmişi için saklanır, ama uyarı ya da hatırlatıcı göndermez ve otomasyonları durur. Yine de biri gelirse:
 
-1. Onu yeniden görebilmek için **Ayarlar → Kaldırılan akvaryumlar** yolundan geri yükleyin.
-2. **Cihazlar** sekmesinde cihazlarını kaldırın ya da taşıyın.
-3. Onu Cora Max'inizden çıkarın: telefonunuzda **Cihazlar**'ı, ardından Cora Max'inizi açın ve **Akvaryumlar** altında yanındaki **Akvaryumu kaldır**'a dokunun.
+1. **Ayarlar → Kaldırılan akvaryumlar** yolunu açın. Akvaryum orada yoksa kaldırılmamıştır.
+2. Cora Mobile'ı ve Cora Max'inizi en son sürüme güncelleyin.
+3. Uyarılar hâlâ geliyor mu? Uyarının metni ve geldiği saatle destek ekibine yazın. Bkz. [Sorun bildirme](/help/mobile-support).
 
-Sonra akvaryumu yeniden kaldırın. Ayrıntılar [Akvaryumlarınızı yönetme](/help/mobile-tanks) sayfasında.
+Ayrıntılar [Akvaryumlarınızı yönetme](/help/mobile-tanks) sayfasında.
 
 
 ## Cora Assistant ve ses {#cora-assistant-and-voice}

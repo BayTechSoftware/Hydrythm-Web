@@ -2,7 +2,7 @@
 title: Alertas y umbrales
 description: Fija el rango saludable de cada lectura, elige cada cuánto puede avisarte una alerta y descubre por qué un dispositivo "dejó de informar".
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-17
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -20,7 +20,7 @@ Tiene dos pestañas. **Activas** lista las alertas que están saltando ahora mis
 
 Cada alerta activa muestra el parámetro y el acuario, la lectura que la provocó, una breve explicación, una etiqueta de gravedad, el tipo de regla que saltó (**Umbral** o **Tasa de cambio**) y cuándo saltó. Tiene dos botones:
 
-- **Ver regla** abre la regla que hay detrás, para que puedas ajustar el rango. En una alerta de dosificador, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, este botón es **Abrir dosificador**. Abre la página de ese dosificador con sus alertas.
+- **Ver regla** abre la regla que hay detrás, para que puedas ajustar el rango. En una alerta de dosificadora, como un cabezal DŌS o ReefDose con poco líquido o una dosis omitida, este botón es **Abrir dosificadora**. Abre la página de esa dosificadora con sus alertas.
 - **Explicar esta alerta** abre Cora Assistant con una pregunta sobre la alerta lista para enviar. Revísala, cámbiala si quieres y envíala.
 
 ## La pestaña Reglas {#rules}
@@ -29,7 +29,7 @@ Cada alerta activa muestra el parámetro y el acuario, la lectura que la provoc�
 
 Las reglas se agrupan por parámetro. Cada regla tiene su propio interruptor en su fila, así que puedes desactivar una sin abrirla. Una fila también muestra **Activada ahora** mientras su alerta está activa, o cuándo saltó por última vez (o **Nunca se ha activado**).
 
-Las reglas de un cabezal de dosificación llevan el nombre del cabezal y lo que vigilan, por ejemplo *Yodo · días restantes* o *Yodo · restante*. Una dosis omitida aparece como *Yodo · dosis omitida*. Cada DŌS y cada ReefDose tiene aquí una fila propia, y las alertas de sus cabezales no se listan una a una. Toca la fila para abrir la página de ese dosificador. Consulta [Alertas de dosificadores](/help/mobile-device-control#doser-alerts).
+Las reglas de un cabezal de dosificación llevan el nombre del cabezal y lo que vigilan, por ejemplo *Yodo · días restantes* o *Yodo · restante*. Una dosis omitida aparece como *Yodo · dosis omitida*. Cada DŌS y cada ReefDose tiene aquí una fila propia, y las alertas de sus cabezales no se listan una a una. Toca la fila para abrir la página de esa dosificadora. Consulta [Alertas de dosificadoras](/help/mobile-device-control#doser-alerts).
 
 Al final:
 
@@ -98,17 +98,17 @@ Cuánto espera Cora depende del dispositivo:
 |---|---|
 | Neptune Apex | Unos 30 minutos sin actualizaciones |
 | Red Sea ReefBeat | Unos 30 minutos |
-| AquaWiz | Unas 3 horas, porque informa con menos frecuencia |
+| AquaWiz | Unas 25 horas, porque AquaWiz solo deja que Cora lea su nube cada 12 horas |
 | Bombas Jecod | Tres lecturas perdidas seguidas, según el intervalo de lectura de la bomba (90 minutos con el predeterminado de 30) |
 | Enchufe Zigbee | No ha vuelto 30 minutos después de reiniciar el hub. Ponle nombre con **Renombrar** para que el aviso la nombre |
 
 Qué revisar depende de cómo lee Cora el dispositivo.
 
-- Apex, ReefBeat y Jecod los lee un Cora Max por Wi-Fi. Revisa la alimentación y el Wi-Fi del dispositivo, y que el Cora Max que lo lee esté encendido y en línea.
+- Apex, ReefBeat y Jecod los lee un Cora Max por Wi-Fi. Revisa la alimentación eléctrica y el Wi-Fi del dispositivo, y que el Cora Max que lo lee esté encendido y en línea.
 - AquaWiz se lee a través de tu cuenta con el fabricante. Revisa la conexión de la cuenta en la página del dispositivo en Cora Mobile.
 
 
-Estas notificaciones pertenecen a **Fallas de equipos** en **Ajustes → Notificaciones**.
+Estas notificaciones pertenecen a **Fallos de equipos** en **Ajustes → Notificaciones**.
 
 
 Un acuario Red Sea también puede mostrar un aviso, *"Las lecturas de Red Sea han dejado de actualizarse"*, cuando ningún teléfono ni Cora Max está leyendo sus equipos ReefBeat. Tócalo para elegir un **Cora Max principal**. La solución completa está en [Solución de problemas](/help/troubleshooting#red-sea-readings-have-stopped-updating).
@@ -131,7 +131,7 @@ El tiempo de espera no oculta la alerta. Solo limita cada cuánto te avisa Cora 
 
 Puedes elegir 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 1 día, 3 días o 1 semana.
 
-Un tiempo de espera corto va bien para una lectura que cambia rápido, como la temperatura. Uno largo, de hasta una semana, va bien para algo que sigue mal durante días mientras esperas una pieza, como un Trident sin reactivo o un envase de dosificación vacío.
+Un tiempo de espera corto va bien para una lectura que cambia rápido, como la temperatura. Uno largo, de hasta una semana, va bien para algo que sigue mal durante días mientras esperas una pieza, como un Trident sin reactivo o un recipiente de dosificación vacío.
 
 :::note Posponer está en Cora Max
 Cora Mobile no tiene un botón para posponer una alerta activa. Posponer está en la pantalla de Cora Max junto al acuario, y silencia la alerta durante el tiempo de espera que elegiste aquí. En tu teléfono, el tiempo de espera de cada regla es la forma de cambiar cada cuánto te enteras de algo.

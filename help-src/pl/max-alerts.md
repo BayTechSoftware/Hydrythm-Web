@@ -44,7 +44,7 @@ Każdy aktywny alert pojawia się też jako mała etykieta na górnym pasku, do�
 
 Dotknij nazwy akwarium na górnym pasku i wybierz **Progi alertów** albo przejdź do **Ustawienia → [Twoje akwarium] → Progi alertów**. Oba otwierają te same zakresy, które widzisz w telefonie, a zmiana wprowadzona tutaj działa wszędzie.
 
-Próg możesz też zmienić, przytrzymując jego widżet na pulpicie, albo głosem: *„Hey Cora, ustaw alert pH na 7,9 do 8,4.”* Cora powie, jaka to zmiana, i poczeka na Twoje OK.
+Próg możesz też zmienić, przytrzymując jego widżet na panelu, albo głosem: *„Hey Cora, ustaw alert pH na 7,9 do 8,4.”* Cora powie, jaka to zmiana, i poczeka na Twoje OK.
 
 Każdy parametr na liście ma własny przełącznik. Przy wyłączonym alercie widać **Alert wyłączony**. Cora zachowuje jego zakres, ale nie ocenia tego odczytu, dopóki alert jest wyłączony. Widżet zostaje neutralnie szary i nigdy nie wywoła alertu. Jeśli parametr nie ma jeszcze alertu, widać **Brak ustawionego alertu**, a **Dodaj alert** ustawia go z pokazanym zakresem.
 

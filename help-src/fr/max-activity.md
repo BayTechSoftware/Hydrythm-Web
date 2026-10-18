@@ -2,7 +2,7 @@
 title: Activité sur Cora Max
 description: Vérifiez sur Cora Max si une commande a vraiment atteint votre équipement, qui ou quoi l’a demandée, et pourquoi une commande a été refusée.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 11
 group: Records
 twin: mobile-activity

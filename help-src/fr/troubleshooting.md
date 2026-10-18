@@ -2,7 +2,7 @@
 title: Résolution de problèmes
 description: Réparez une mesure périmée, un appareil hors ligne, une commande qui n’est pas passée, un Cora Max qui ne s’associe pas ou une alerte qui ne disparaît pas.
 section: Help
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 1
 ---
 
@@ -195,7 +195,7 @@ Cora Mobile trouve un nouveau Cora Max en Bluetooth, puis lui donne votre Wi-Fi.
 - *« Aucun appareil de configuration Cora à proximité n’a été trouvé via Bluetooth. »* Placez-vous à côté de Cora Max, vérifiez qu’il affiche son écran de configuration, et relancez la recherche.
 - **Aucun aquarium trouvé** : créez d’abord un aquarium dans Cora Mobile, puis associez.
 - *« Votre téléphone n’a pas pu joindre le Cora Max sur votre Wi-Fi. »* Mettez votre téléphone et Cora Max sur le même réseau Wi-Fi. Sur iPhone, vérifiez aussi que Cora a l’accès au réseau local (**Réglages → Accès aux appareils**). Puis touchez **Réessayer**.
-- *« Le Cora Max n’a pas accepté cette session d’appairage. »* Réessayer n’aidera pas. Fermez l’écran et recommencez depuis **Appareils → Ajouter un appareil → Cora**.
+- *« Le Cora Max n’a pas accepté cette session d’association. »* Réessayer n’aidera pas. Fermez l’écran et recommencez depuis **Appareils → Ajouter un appareil → Cora**.
 
 Pour tout autre message, touchez **Réessayer**. Toute la configuration est dans [Configurer Cora Max](/help/max-setup).
 
@@ -301,13 +301,13 @@ Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy).
 
 ### Des alertes continuent d’arriver d’un aquarium retiré {#alerts-from-a-removed-tank}
 
-Retirer un aquarium ne fait que le masquer. Ses appareils lui restent liés, et un Cora Max peut encore le lire, donc son équipement peut continuer de transmettre et d’alerter.
+Un aquarium retiré est conservé pour son historique, mais il n’envoie ni alertes ni rappels, et ses automatisations s’arrêtent. Si vous en recevez encore une :
 
-1. Restaurez-le depuis **Réglages → Aquariums supprimés** pour le voir à nouveau.
-2. Retirez ou déplacez ses appareils dans l’onglet **Appareils**.
-3. Retirez-le de votre Cora Max : sur votre téléphone, ouvrez **Appareils**, puis votre Cora Max, et sous **Aquariums** touchez **Retirer l’aquarium** à côté de lui.
+1. Ouvrez **Réglages → Aquariums supprimés**. Si l’aquarium n’y figure pas, il n’a pas été retiré.
+2. Mettez à jour Cora Mobile et votre Cora Max vers la dernière version.
+3. Vous recevez toujours des alertes ? Écrivez au support avec le texte de l’alerte et l’heure. Voir [Signaler un problème](/help/mobile-support).
 
-Retirez ensuite l’aquarium à nouveau. Plus de détails dans [Gérer vos aquariums](/help/mobile-tanks).
+Plus de détails dans [Gérer vos aquariums](/help/mobile-tanks).
 
 
 ## Cora Assistant et voix {#cora-assistant-and-voice}
