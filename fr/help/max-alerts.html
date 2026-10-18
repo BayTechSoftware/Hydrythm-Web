@@ -200,7 +200,7 @@
 <p>Pour qu’un Cora Max n’affiche plus du tout d’alertes à l’écran, ouvrez Cora Mobile, allez dans <strong>Appareils →</strong> votre Cora Max, et désactivez <strong>Alertes</strong>. L’historique des notifications et les notifications de votre téléphone ne changent pas.</p>
 <aside class="cal cal-note"><p class="cal-t">Une seule alerte pour tout le compte</p><p>Chaque appareil ne déclenche pas sa propre copie d’une alerte. Cora Max, votre téléphone et tout autre écran affichent la même, et elle disparaît de tous quand la mesure revient dans sa plage.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-devices"><span>Précédent</span><b>Appareils et état des appareils</b></a><a class="pn-n" href="/fr/help/max-automation"><span>Suivant</span><b>Scènes sur Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

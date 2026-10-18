@@ -201,7 +201,7 @@
 <p>Zanim wyłączysz powiadomienia, przejrzyj progi. Za dużo alertów zwykle oznacza, że zakres jest węższy niż wartości, w których akwarium naprawdę pracuje, albo że źródło wymaga kalibracji. Więcej w <a href="/pl/help/mobile-alerts">Alertach i progach</a>.</p>
 <p>Wyłączenie kategorii wycisza ją w całości. Jeśli za często przychodzi jeden alert, zmień raczej <strong>Czas wstrzymania między alertami</strong> w tej regule. Wynosi od 15 minut do 1 tygodnia. Opcje czasu wstrzymania i to, co robi Odłóż na Cora Max, opisują <a href="/pl/help/mobile-alerts#cooldowns">Czasy wstrzymania</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-alerts"><span>Poprzedni</span><b>Alerty i progi</b></a><a class="pn-n" href="/pl/help/mobile-automation"><span>Następny</span><b>Automatyzacje i sceny</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=338e065cbf').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

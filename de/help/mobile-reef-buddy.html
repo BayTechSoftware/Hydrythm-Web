@@ -216,7 +216,7 @@
 <p>Meldet Reef Buddy eine Drift, fragt es außerdem <em>War dieser Hinweis nützlich?</em> Du kannst mit <strong>Hilfreich</strong>, <strong>Nicht hilfreich</strong>, <strong>Diese Änderung ist erwartet</strong> oder <strong>Messwert sieht falsch aus</strong> antworten. Deine Rückmeldung bestimmt, was in späteren Briefings zuerst erscheint. Ein Insight auszublenden, gilt nur eine Weile. Besteht das Problem noch, kommt das Insight zurück.</p>
 <aside class="cal cal-note"><p class="cal-t">Ernste Befunde werden nie ausgeblendet</p><p>Rückmeldungen beruhigen nur weniger ernste Insights. Warnungen und kritische Insights erscheinen weiter, egal was du vorher geantwortet hast.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-activity"><span>Zurück</span><b>Aktivität und Zeitleiste</b></a><a class="pn-n" href="/de/help/mobile-assistant"><span>Weiter</span><b>Cora fragen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=6aeec59ceb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

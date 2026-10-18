@@ -226,7 +226,7 @@
 <p>Si une réponse a l’air sûre d’elle mais fausse, vérifiez d’abord la puce de données. Souvent, la réponse est juste par rapport aux données que Cora a reçues. Le vrai problème est une mesure périmée, ou une source attribuée au mauvais aquarium.</p>
 <p>Évaluez une réponse avec les pouces en dessous. Un pouce vers le bas demande <em>Qu’est-ce qui n’allait pas ?</em> Choisissez une raison, comme <strong>Faux</strong> ou <strong>N’a pas tenu compte de mon aquarium</strong>, et touchez <strong>Envoyer l’évaluation</strong>. C’est ce qui nous aide à corriger.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-reef-buddy"><span>Précédent</span><b>Reef Buddy</b></a><a class="pn-n" href="/fr/help/mobile-icp-health"><span>Suivant</span><b>Rapports ICP et de santé</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -617,7 +617,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

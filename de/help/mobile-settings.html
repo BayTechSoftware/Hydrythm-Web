@@ -211,7 +211,7 @@
 <p>Hier siehst du die Version, die du nutzt, und ein paar weitere Zeilen.</p>
 <ul><li><strong>Tipps erneut ansehen</strong> spielt die Dashboard-Tour vom ersten Start noch einmal ab, die unter <a href="/de/help/mobile-tour#the-first-run-tour">Die Tour beim ersten Start</a> beschrieben ist. Das ist praktisch nach einem Update oder wenn jemand Neues anfängt, Cora Mobile zu nutzen.</li><li><strong>Datenschutzrichtlinie</strong> und <strong>Allgemeine Geschäftsbedingungen</strong> verlinken auf die rechtlichen Seiten.</li><li><strong>Lizenzen</strong> listet die Open-Source-Software auf, auf der Cora Mobile aufbaut.</li></ul>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-journeys"><span>Zurück</span><b>Geführte Journeys</b></a><a class="pn-n" href="/de/help/mobile-multi-device"><span>Weiter</span><b>Mehr als ein Cora-Gerät</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -602,7 +602,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=6aeec59ceb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

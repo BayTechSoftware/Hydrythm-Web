@@ -93,7 +93,7 @@ An AquaWiz KH Controller read every hour by your Cora Max raises the same kind o
 - its pH probe has failed, or is near the end of its life;
 - its water box level stays low or high for over an hour.
 
-These need the hourly reading from Cora Max (see [Cora Max device pages](/help/max-device-control#aquawiz-hourly)): AquaWiz's 12-hourly cloud reading doesn't carry them.
+These need the hourly reading from Cora Max (from the next Cora Max update) (see [Cora Max device pages](/help/max-device-control#aquawiz-hourly)): AquaWiz's 12-hourly cloud reading doesn't carry them.
 
 
 ## A device has stopped reporting {#stopped-reporting}

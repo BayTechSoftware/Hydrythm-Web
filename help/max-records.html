@@ -194,7 +194,7 @@
 <p>This is the full inventory, with what's <strong>In the tank</strong> and what's <strong>No longer in the tank</strong>. It's view only here. You add and edit livestock in Cora Mobile, and what you add there shows up on this screen right away. More about this in <a href="/help/mobile-livestock">Livestock</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">One set of records</p><p>Each tank has one journal, one livestock inventory and one maintenance list. Cora Max and your phone show the same records.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-automation"><span>Previous</span><b>Scenes on Cora Max</b></a><a class="pn-n" href="/help/max-activity"><span>Next</span><b>Activity on Cora Max</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=7b924462c4').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

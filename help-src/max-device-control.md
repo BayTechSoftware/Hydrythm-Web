@@ -94,6 +94,8 @@ An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **De
 
 ### Hourly reading from Cora Max {#aquawiz-hourly}
 
+Coming with the next Cora Max update.
+
 AquaWiz lets Cora read its cloud only every 12 hours. To keep alkalinity current, the tank's main Cora Max also reads the controller directly, once an hour at ten to the hour:
 
 - It joins the controller's own Wi-Fi for a few seconds, reads the latest result, and goes straight back to your home Wi-Fi. Cora Max is offline for about 4 seconds while it does this.

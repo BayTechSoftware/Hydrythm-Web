@@ -129,7 +129,7 @@ To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy,
 
 To może być normalne. AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin, więc bez Cora Max odczyt może mieć nawet pół doby. Otwórz stronę urządzenia w Cora Mobile: pokazuje, kiedy odczyt zmierzono i skąd pochodzi, a **Odczytaj teraz** prosi o świeży (najwyżej raz na 15 minut).
 
-Jeśli masz Cora Max, a karta nadal pokazuje **Z chmury AquaWiz, co 12 godzin**:
+Jeśli masz Cora Max (od następnej aktualizacji Cora Max), a karta nadal pokazuje **Z chmury AquaWiz, co 12 godzin**:
 
 - Sprawdź, czy kontroler jest w zasięgu Wi-Fi głównego Cora Max akwarium.
 - Sprawdź w aplikacji AquaWiz, czy oprogramowanie kontrolera jest aktualne; starsze nie ma dostępu lokalnego.

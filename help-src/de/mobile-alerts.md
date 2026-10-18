@@ -93,7 +93,7 @@ Ein AquaWiz KH Controller, den dein Cora Max jede Stunde ausliest, löst dieselb
 - seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist;
 - der Füllstand seines Wasserbehälters länger als eine Stunde zu niedrig oder zu hoch bleibt.
 
-Dafür braucht es das stündliche Auslesen durch das Cora Max (siehe [Ausrüstung mit Cora Max steuern](/help/max-device-control#aquawiz-hourly)): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.
+Dafür braucht es das stündliche Auslesen durch das Cora Max (ab dem nächsten Cora-Max-Update) (siehe [Ausrüstung mit Cora Max steuern](/help/max-device-control#aquawiz-hourly)): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.
 
 
 ## Ein Gerät meldet sich nicht mehr {#stopped-reporting}

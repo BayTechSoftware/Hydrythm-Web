@@ -194,7 +194,7 @@
 <p>Um eine Szene zu ändern, öffne sie über <strong>Einstellungen → Automationen</strong> oder drück lange auf ihre Kachel auf dem Dashboard. Ändere, was du brauchst, und tippe auf <strong>Speichern</strong>. Um sie zu entfernen, tippe auf <strong>Szene löschen</strong>. Das lässt sich nicht rückgängig machen.</p>
 <aside class="cal cal-note"><p class="cal-t">Ein älteres Cora Max kann eine Szene starten, aber nicht bearbeiten</p><p>Ältere Cora Max-Versionen zeigen und starten weiterhin jede Szene, können aber keine ändern. Aktualisiere Cora Max (<a href="/de/help/max-updates">Updates und Wiederherstellung</a>) oder bearbeite die Szene auf dem Handy.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-alerts"><span>Zurück</span><b>Warnungen auf Cora Max</b></a><a class="pn-n" href="/de/help/max-records"><span>Weiter</span><b>Tagebuch, Besatz und Wartung</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=6aeec59ceb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

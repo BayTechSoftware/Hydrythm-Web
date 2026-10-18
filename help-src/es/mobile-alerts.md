@@ -93,7 +93,7 @@ Un AquaWiz KH Controller que tu Cora Max lee cada hora genera el mismo tipo de a
 - su sonda de pH ha fallado o está cerca del final de su vida útil;
 - el nivel de su depósito de agua se queda bajo o alto durante más de una hora.
 
-Para esto hace falta la lectura cada hora desde Cora Max (consulta [Controlar equipos desde Cora Max](/help/max-device-control#aquawiz-hourly)): la lectura de la nube de AquaWiz cada 12 horas no las incluye.
+Para esto hace falta la lectura cada hora desde Cora Max (a partir de la próxima actualización de Cora Max) (consulta [Controlar equipos desde Cora Max](/help/max-device-control#aquawiz-hourly)): la lectura de la nube de AquaWiz cada 12 horas no las incluye.
 
 
 ## Un dispositivo ha dejado de informar {#stopped-reporting}

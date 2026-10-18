@@ -185,12 +185,12 @@
 <p>Bombas que llegan a Cora por tu red o por Bluetooth. Cuál de las dos decide lo que puedes hacer desde fuera de casa.</p>
 <ul><li>Añadirla: <a href="/es/help/mobile-connections#jecod">Conectar tus equipos</a></li><li>Controlarla en tu teléfono: <a href="/es/help/mobile-device-control#jecod">Bombas Jecod</a>, <a href="/es/help/mobile-schedules">horarios diarios</a></li><li>En Cora Max: <a href="/es/help/max-device-control#jecod">Jecod</a></li><li>Alertas: <a href="/es/help/mobile-alerts#stopped-reporting">dejó de informar</a></li><li>Soluciones: <a href="/es/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent">"No se pudo contactar a esta bomba"</a>, <a href="/es/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">fuera del alcance del Bluetooth</a></li></ul>
 <h2 id="aquawiz">AquaWiz KH Controller</h2>
-<p>Cora lo lee a través de la nube propia de AquaWiz cada 12 horas, así que se sigue actualizando sin un Cora Max. Un Cora Max en el acuario puede añadir una lectura cada hora.</p>
+<p>Cora lo lee a través de la nube propia de AquaWiz cada 12 horas, así que se sigue actualizando sin un Cora Max. Un Cora Max en el acuario lo lee cada hora en su lugar y suma avisos de bomba, sonda de pH y caja de agua. Mira <a href="/es/help/mobile-connections#how-cora-reads-aquawiz">Cómo lee Cora tu AquaWiz</a>.</p>
 <ul><li>Añadirlo: <a href="/es/help/mobile-connections#aquawiz-kh-controller">Conectar tus equipos</a></li><li>En tu teléfono: <a href="/es/help/mobile-device-control#aquawiz">AquaWiz</a></li><li>En Cora Max: <a href="/es/help/max-device-control#aquawiz">AquaWiz</a></li><li>Alertas: <a href="/es/help/mobile-alerts#stopped-reporting">dejó de informar</a></li><li>Soluciones: <a href="/es/help/troubleshooting#a-reading-is-stale">una lectura está desactualizada</a>, <a href="/es/help/troubleshooting#a-device-says-the-sign-in-was-refused">inicio de sesión rechazado</a></li></ul>
 <h2 id="anything-else">Cualquier otra cosa</h2>
 <p>Para los equipos a los que Cora no se conecta, registra las lecturas a mano. Consulta <a href="/es/help/mobile-connections#logging-by-hand">Registrar a mano</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/how-do-i"><span>Anterior</span><b>¿Cómo hago...?</b></a><a class="pn-n" href="/es/help/faq"><span>Siguiente</span><b>Preguntas frecuentes</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.217 y Cora Mobile 0.5.125. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cd79229e59').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=482fde868e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

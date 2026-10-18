@@ -209,6 +209,7 @@
 <h2 id="aquawiz">AquaWiz</h2>
 <p>AquaWiz KH Controller nie ma na Cora Max własnej strony. Jest na liście w <strong>Urządzenia</strong>, gdzie możesz zmienić jego nazwę, a jego odczyty pokazują się na panelu jak każde inne źródło. Konfigurujesz go i zarządzasz nim w telefonie, zobacz <a href="/pl/help/mobile-connections">Podłączanie sprzętu</a>.</p>
 <h3 id="aquawiz-hourly">Godzinowy odczyt z Cora Max</h3>
+<p>Pojawi się wraz z następną aktualizacją Cora Max.</p>
 <p>AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin. Żeby alkaliczność była aktualna, główny Cora Max akwarium czyta też kontroler bezpośrednio, raz na godzinę, dziesięć minut przed pełną godziną:</p>
 <ul><li>Na kilka sekund łączy się z własnym Wi-Fi kontrolera, czyta ostatni wynik i od razu wraca do Twojego domowego Wi-Fi. W tym czasie Cora Max jest offline przez około 4 sekundy.</li><li>Hasło do Twojego domowego Wi-Fi nigdy nie jest przy tym zapisywane ani nigdzie wysyłane.</li><li>Robi to tylko główny Cora Max akwarium. Drugi Cora Max przy tym samym akwarium nie.</li><li>Czeka, gdy Cora Max rozmawia z Tobą, się aktualizuje, paruje albo zmienia Wi-Fi, i próbuje ponownie w następnej godzinie.</li><li>Kontroler musi być w zasięgu Wi-Fi Cora Max, a jego oprogramowanie musi umożliwiać dostęp lokalny. Jeśli dwa odczyty z rzędu się nie uda, Cora Max przestaje próbować do końca dnia, a odczyt z chmury co 12 godzin działa dalej.</li></ul>
 <p>Odczyt z Cora Max pokazuje <strong>Co godzinę z Twojego Cora Max</strong> na karcie AquaWiz w telefonie. Wnosi też alerty pompy, sondy pH i zbiornika na wodę opisane w <a href="/pl/help/mobile-alerts#equipment-faults">Alerty</a>.</p>
@@ -224,7 +225,7 @@
 <h2 id="what-was-changed-and-by-what">Co zostało zmienione i przez co</h2>
 <p>Każda akcja jest zapisywana razem z tym, co ją spowodowało. Więcej w <a href="/pl/help/max-activity">Aktywności na Cora Max</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-controls"><span>Poprzedni</span><b>Gniazda i sterowanie</b></a><a class="pn-n" href="/pl/help/max-devices"><span>Następny</span><b>Urządzenia i ich stan</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -615,7 +616,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=338e065cbf').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

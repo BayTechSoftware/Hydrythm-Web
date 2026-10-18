@@ -219,7 +219,7 @@
 <p>Si ce n’est toujours pas là, touchez <strong>Restaurer les achats</strong>. Si les Réglages indiquent <em>Impossible de vérifier votre forfait</em>, vérifiez votre connexion et touchez <strong>Réessayer</strong>. Votre accès ne change pas pendant que Cora vérifie. Si rien de tout cela ne marche, écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> en indiquant la date de l’achat.</p>
 <p>Vos données restent à vous quel que soit votre forfait. Plus de détails dans <a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a>. Pour signaler un problème de facturation depuis Cora Mobile, voir <a href="/fr/help/mobile-support">Signaler un problème</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-multi-device"><span>Précédent</span><b>Plus d’un appareil Cora</b></a><a class="pn-n" href="/fr/help/mobile-data-export"><span>Suivant</span><b>Exporter vos données et supprimer votre compte</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -610,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

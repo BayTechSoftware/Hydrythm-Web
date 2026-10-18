@@ -207,7 +207,7 @@
 <p>Certaines alertes concernent l’équipement, pas une mesure. Quand un appareil comme un Trident ou une pompe Jecod™ signale une panne, Cora envoie une notification qui nomme l’aquarium et l’appareil, par exemple <em>« Aquarium principal : Pompe de remontée demande de l’attention »</em>. Elle dit aussi ce qui ne va pas, comme un rotor bloqué. Quand la panne disparaît, vous en recevez une deuxième : <em>« Aquarium principal : Pompe de remontée fonctionne de nouveau »</em>. Les deux relèvent de <strong>Pannes d’équipement</strong> dans <strong>Réglages → Notifications</strong>.</p>
 <p>Un AquaWiz™ KH Controller lu toutes les heures par votre Cora Max déclenche le même type d’alerte quand :</p>
 <ul><li>sa pompe doseuse signale une panne ;</li><li>sa sonde pH est défaillante ou proche de la fin de sa vie ;</li><li>le niveau de son réservoir d’eau reste bas ou haut pendant plus d’une heure.</li></ul>
-<p>Cela demande la lecture horaire par le Cora Max (voir <a href="/fr/help/max-device-control#aquawiz-hourly">Contrôler l’équipement depuis Cora Max</a>) : la lecture cloud d’AquaWiz toutes les 12 heures ne les transmet pas.</p>
+<p>Cela demande la lecture horaire par le Cora Max (à partir de la prochaine mise à jour de Cora Max) (voir <a href="/fr/help/max-device-control#aquawiz-hourly">Contrôler l’équipement depuis Cora Max</a>) : la lecture cloud d’AquaWiz toutes les 12 heures ne les transmet pas.</p>
 <h2 id="stopped-reporting">Un appareil ne remonte plus de mesures</h2>
 <p>Quand un appareil connecté devient silencieux, Cora envoie <em>« [Appareil] : ne remonte plus de mesures »</em>. Cela ne veut pas dire que l’appareil est en panne, seulement que Cora n’en a pas eu de nouvelles depuis un moment. Vous recevez une deuxième notification, <em>« [Appareil] : remonte de nouveau des mesures »</em>, quand il revient.</p>
 <p>Le temps d’attente de Cora dépend de l’appareil :</p>
@@ -235,7 +235,7 @@
 <p>Tant qu’une règle est désactivée, Cora n’évalue pas cette mesure. Son widget reste gris neutre et ne déclenche jamais d’alerte.</p>
 <aside class="cal cal-warning"><p class="cal-t">Désactivez un paramètre sans supprimer sa plage</p><p>Supprimer une règle n’empêche pas toujours Cora d’évaluer cette mesure. Les plages de référence par défaut colorent toujours la valeur et peuvent toujours alimenter le briefing. Utilisez l’interrupteur de la règle.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-consumables"><span>Précédent</span><b>Consommables et alertes de réapprovisionnement</b></a><a class="pn-n" href="/fr/help/mobile-notifications"><span>Suivant</span><b>Notifications</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

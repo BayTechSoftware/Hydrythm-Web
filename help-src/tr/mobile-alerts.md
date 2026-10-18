@@ -93,7 +93,7 @@ Cora Max'inizin her saat okuduğu bir AquaWiz KH Controller şu durumlarda aynı
 - pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında;
 - su haznesinin seviyesi bir saatten uzun süre düşük ya da yüksek kaldığında.
 
-Bunlar için Cora Max'ten saatlik okuma gerekir ([Cora Max'ten ekipman kontrolü](/help/max-device-control#aquawiz-hourly) sayfasına bakın): AquaWiz'in 12 saatlik bulut okuması bunları taşımaz.
+Bunlar için Cora Max'ten saatlik okuma gerekir (sonraki Cora Max güncellemesinden itibaren) ([Cora Max'ten ekipman kontrolü](/help/max-device-control#aquawiz-hourly) sayfasına bakın): AquaWiz'in 12 saatlik bulut okuması bunları taşımaz.
 
 
 ## Bir cihaz bildirmeyi bıraktı {#stopped-reporting}

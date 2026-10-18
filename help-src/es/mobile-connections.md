@@ -80,7 +80,7 @@ Con cualquiera de las dos conexiones tienes el estado en directo, el modo y la i
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
-Cora lee la alcalinidad de un controlador de KH AquaWiz a través de tu cuenta de AquaWiz, así que funciona fuera de casa y no necesita un Cora Max.
+Cora lee la alcalinidad de un controlador de KH AquaWiz a través de la nube de AquaWiz, así que funciona fuera de casa y no necesita un Cora Max. Un Cora Max añade lecturas cada hora: mira [Cómo lee Cora tu AquaWiz](#how-cora-reads-aquawiz).
 
 1. Ve a **Dispositivos → Agregar dispositivo → AquaWiz**.
 2. Escribe tu usuario y tu contraseña de AquaWiz y toca **Conectar**.
@@ -93,6 +93,20 @@ Tienes la alcalinidad como fuente, y también el pH si tu unidad lo informa y **
 :::warning Cora comparte tu inicio de sesión de AquaWiz
 AquaWiz da a cada cuenta un solo inicio de sesión, así que Cora usa el mismo que la app de AquaWiz. Si cambias tu contraseña de AquaWiz, Cora se desconecta. Vuelve a conectarlo después desde la fila del dispositivo. Para quitarle a Cora el acceso por completo, quita el dispositivo en Cora y cambia tu contraseña de AquaWiz.
 :::
+
+### Cómo lee Cora tu AquaWiz {#how-cora-reads-aquawiz}
+
+Cora llega a un AquaWiz por hasta tres vías, que trabajan juntas.
+
+| Vía | Qué le da a Cora | Con qué frecuencia |
+| --- | --- | --- |
+| Tu inicio de sesión de AquaWiz | Encuentra tus controladores, lee sus ajustes (KH objetivo, intensidad de dosificación, recipiente) y obtiene un historial diario. | Una vez al día y cuando hacen falta los ajustes |
+| El servicio Cora de AquaWiz | La última lectura de KH y pH. | Al vincular, después cada 12 horas (el límite de AquaWiz) y cuando abres la página del dispositivo o tocas **Leer ahora** (como máximo cada 15 minutos) |
+| Un Cora Max en el acuario | Lee el controlador directamente por su propio Wi-Fi y suma avisos de bomba, sonda de pH y caja de agua. | Cada hora |
+
+Sin un Cora Max, las lecturas llegan cada 12 horas, que es el límite de AquaWiz, así que una lectura puede tener hasta medio día. **¿Quieres lecturas cada hora? Añade un Cora Max a tu acuario.** [Conoce Cora Max](https://coraiq.tech/es/#max) y [configúralo](/help/max-setup). Llega con la próxima actualización de Cora Max y necesita el controlador al alcance del Wi-Fi de Cora Max y un firmware del controlador con acceso local. Los detalles están en [Lectura cada hora desde Cora Max](/help/max-device-control#aquawiz-hourly).
+
+La tarjeta del dispositivo muestra de dónde viene cada lectura: **Cada hora desde tu Cora Max** o **Desde la nube de AquaWiz, cada 12 horas**.
 
 
 ## Registrar a mano {#logging-by-hand}

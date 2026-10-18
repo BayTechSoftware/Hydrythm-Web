@@ -48,7 +48,7 @@ Bombas que llegan a Cora por tu red o por Bluetooth. Cuál de las dos decide lo 
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora lo lee a través de la nube propia de AquaWiz cada 12 horas, así que se sigue actualizando sin un Cora Max. Un Cora Max en el acuario puede añadir una lectura cada hora.
+Cora lo lee a través de la nube propia de AquaWiz cada 12 horas, así que se sigue actualizando sin un Cora Max. Un Cora Max en el acuario lo lee cada hora en su lugar y suma avisos de bomba, sonda de pH y caja de agua. Mira [Cómo lee Cora tu AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - Añadirlo: [Conectar tus equipos](/help/mobile-connections#aquawiz-kh-controller)
 - En tu teléfono: [AquaWiz](/help/mobile-device-control#aquawiz)

@@ -202,7 +202,7 @@
 <h2 id="if-something-looks-out-of-place">Si quelque chose semble anormal</h2>
 <p>Si les mesures semblent périmées, ou si l’étiquette d’état est orange ou rouge, commencez par <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-setup"><span>Précédent</span><b>Configurer Cora Max</b></a><a class="pn-n" href="/fr/help/max-reef-room"><span>Suivant</span><b>La pièce du récif</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

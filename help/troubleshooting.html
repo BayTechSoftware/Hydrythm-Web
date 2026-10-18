@@ -220,7 +220,7 @@
 <ol><li>Join the tank's Wi-Fi to change those settings.</li><li>Readings and history keep working when you're away.</li></ol>
 <h3 id="an-aquawiz-reading-is-hours-old">An AquaWiz™ reading is hours old</h3>
 <p>That can be normal. AquaWiz lets Cora read its cloud only every 12 hours, so without a Cora Max a reading can be up to about half a day old. Open the device's page in Cora Mobile: it shows when the reading was measured and where it came from, and <strong>Read now</strong> asks for a fresh one (at most once every 15 minutes).</p>
-<p>If you have a Cora Max and the card still says <strong>From AquaWiz cloud, every 12 hours</strong>:</p>
+<p>If you have a Cora Max (with the next Cora Max update) and the card still says <strong>From AquaWiz cloud, every 12 hours</strong>:</p>
 <ul><li>Check the controller is within Wi-Fi range of the tank's main Cora Max.</li><li>Check the controller's firmware is up to date in the AquaWiz app; older firmware has no local access.</li><li>After two failed reads in a row Cora Max waits until the next day. If it keeps failing, contact support.</li></ul>
 <h2 id="command-did-not-go-through">A command didn't go through</h2>
 <p>Every command ends as <strong>Confirmed</strong>, <strong>Unconfirmed</strong>, <strong>Refused</strong> or <strong>No change</strong>. What each one means is in <a href="/help/mobile-device-control">Controlling your equipment</a>.</p>
@@ -325,7 +325,7 @@
 <h2 id="still-stuck">Still stuck</h2>
 <p>Email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, or report it from Cora Mobile as described in <a href="/help/mobile-support">Reporting a problem</a>. Tell us which tank, which device, which screen, and what you expected to see.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-n" href="/help/how-do-i"><span>Next</span><b>How do I...?</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -716,7 +716,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=7b924462c4').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

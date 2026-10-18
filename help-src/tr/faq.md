@@ -82,7 +82,7 @@ Wi-Fi ekipmanını bulmak ve ev ağınızdaki bir Cora Max'e ulaşmak için Yere
 
 ### Evde değilken akvaryumuma bakabilir miyim? {#can-i-check-on-my-tank-away}
 
-Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder, ama oradan yalnızca 12 saatte bir. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
+Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder, ama oradan yalnızca 12 saatte bir. Akvaryumda bir Cora Max varsa her saat okunur. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
 
 ### Evden uzaktayken ekipmanı kontrol edebilir miyim? {#can-i-control-equipment-away}
 

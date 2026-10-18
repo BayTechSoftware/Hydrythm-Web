@@ -201,7 +201,7 @@
 <p>La page du paramètre indique ensuite depuis combien de temps cette sonde a été étalonnée. L’entretien des sondes fait aussi une bonne <a href="/fr/help/mobile-maintenance">tâche d’entretien</a> régulière.</p>
 <aside class="cal cal-note"><p class="cal-t">Les dates d’étalonnage expliquent les désaccords</p><p>Quand une sonde et un kit de test ne sont pas d’accord, regardez quand vous avez étalonné la sonde pour la dernière fois. C’est en général la réponse.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-schedules"><span>Précédent</span><b>Programmer l’équipement</b></a><a class="pn-n" href="/fr/help/mobile-consumables"><span>Suivant</span><b>Consommables et alertes de réapprovisionnement</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

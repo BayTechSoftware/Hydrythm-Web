@@ -216,7 +216,7 @@
 <p>Quand Reef Buddy signale une dérive, il demande aussi <em>Cet avertissement était-il utile ?</em> Vous pouvez répondre <strong>Utile</strong>, <strong>Pas utile</strong>, <strong>Ce changement est prévu</strong> ou <strong>La mesure semble erronée</strong>. Vos retours influencent ce qui apparaît en premier dans les briefings suivants. Masquer une analyse ne dure qu’un temps. Si le problème est toujours là, l’analyse revient.</p>
 <aside class="cal cal-note"><p class="cal-t">Les constats sérieux ne sont jamais masqués</p><p>Les retours ne font taire que les analyses de faible gravité. Les analyses d’avertissement et critiques continuent d’apparaître, quoi que vous ayez répondu avant.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-activity"><span>Précédent</span><b>Activité et chronologie</b></a><a class="pn-n" href="/fr/help/mobile-assistant"><span>Suivant</span><b>Interroger Cora</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

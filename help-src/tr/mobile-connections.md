@@ -80,7 +80,7 @@ Sayfası Cora'nın okuduğu son ayarları ve ne kadar önce okuduğunu gösterir
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
-Cora bir AquaWiz KH kontrolöründen alkaliniteyi AquaWiz hesabınız üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez.
+Cora bir AquaWiz KH kontrolöründen alkaliniteyi AquaWiz'in bulutu üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez. Cora Max saatlik ölçüm ekler: bkz. [Cora AquaWiz'inizi nasıl okur](#how-cora-reads-aquawiz).
 
 1. **Cihazlar → Cihaz Ekle → AquaWiz** yoluna gidin.
 2. AquaWiz kullanıcı adınızı ve şifrenizi girin ve **Bağlan**'a dokunun.
@@ -93,6 +93,20 @@ Kaynak olarak alkaliniteyi alırsınız. Üniteniz bildiriyorsa ve **pH'ını da
 :::warning Cora AquaWiz girişinizi paylaşır
 AquaWiz her hesaba tek bir giriş verir, bu yüzden Cora AquaWiz uygulamasıyla aynı girişi kullanır. AquaWiz şifrenizi değiştirirseniz Cora'nın bağlantısı kesilir. Sonrasında cihaz satırından yeniden bağlayın. Cora'nın erişimini tamamen kaldırmak için cihazı Cora'dan kaldırın ve AquaWiz şifrenizi değiştirin.
 :::
+
+### Cora AquaWiz'inizi nasıl okur {#how-cora-reads-aquawiz}
+
+Cora bir AquaWiz'e en fazla üç yolla ulaşır ve bu yollar birlikte çalışır.
+
+| Yol | Cora'ya ne verir | Ne sıklıkla |
+| --- | --- | --- |
+| AquaWiz girişiniz | Kontrolörlerinizi bulur, ayarlarını (hedef KH, dozaj gücü, kap) okur ve günlük bir geçmiş alır. | Günde bir kez ve ayarlar gerektiğinde |
+| AquaWiz'in Cora hizmeti | En son KH ve pH ölçümü. | Bağladığınızda, sonra 12 saatte bir (AquaWiz sınırı) ve cihaz sayfasını açtığınızda ya da **Şimdi oku**'ya dokunduğunuzda (en fazla 15 dakikada bir) |
+| Akvaryumdaki bir Cora Max | Kontrolörü kendi Wi-Fi'si üzerinden doğrudan okur ve pompa, pH probu ve su kutusu uyarıları ekler. | Her saat |
+
+Cora Max olmadan ölçümler 12 saatte bir gelir, bu AquaWiz'in sınırıdır; yani bir ölçüm yarım güne kadar eski olabilir. **Saatlik ölçüm mü istiyorsunuz? Akvaryumunuza bir Cora Max ekleyin.** [Cora Max'e göz atın](https://coraiq.tech/tr/#max) ve [kurun](/help/max-setup). Sonraki Cora Max güncellemesiyle gelir ve kontrolörün Cora Max'in Wi-Fi menzilinde olmasını ve yerel erişimli kontrolör yazılımını gerektirir. Ayrıntılar [Cora Max ile saatlik okuma](/help/max-device-control#aquawiz-hourly) sayfasında.
+
+Cihaz kartı her ölçümün nereden geldiğini gösterir: **Cora Max cihazınızdan saatlik** ya da **AquaWiz bulutundan, 12 saatte bir**.
 
 
 ## Elle kaydetme {#logging-by-hand}

@@ -194,7 +194,7 @@
 <p>Pour changer une scène, ouvrez-la depuis <strong>Réglages → Automatisations</strong> ou faites un appui long sur sa tuile dans le tableau de bord. Changez ce qu’il faut et touchez <strong>Enregistrer</strong>. Pour la retirer, touchez <strong>Supprimer la scène</strong>. C’est irréversible.</p>
 <aside class="cal cal-note"><p class="cal-t">Un Cora Max plus ancien peut lancer une scène mais pas la modifier</p><p>Les anciennes versions de Cora Max affichent et lancent toujours toutes les scènes, mais ne peuvent pas en changer une. Mettez Cora Max à jour (<a href="/fr/help/max-updates">Mises à jour et récupération</a>), ou modifiez la scène sur votre téléphone.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-alerts"><span>Précédent</span><b>Alertes sur Cora Max</b></a><a class="pn-n" href="/fr/help/max-records"><span>Suivant</span><b>Journal, population et entretien</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.215 et Cora Mobile 0.5.124. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=ac1369cad8').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

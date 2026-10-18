@@ -48,7 +48,7 @@ Pompe che arrivano a Cora sulla tua rete o via Bluetooth. Quale delle due decide
 
 ## Controller KH AquaWiz {#aquawiz}
 
-Cora lo legge attraverso il cloud di AquaWiz ogni 12 ore, quindi continua ad aggiornarsi senza un Cora Max. Un Cora Max nella vasca può aggiungere una lettura oraria.
+Cora lo legge attraverso il cloud di AquaWiz ogni 12 ore, quindi continua ad aggiornarsi senza un Cora Max. Un Cora Max nella vasca lo legge invece ogni ora e aggiunge gli avvisi di pompa, sonda pH e water box. Vedi [Come Cora legge il tuo AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - Aggiungerlo: [Collegare la tua attrezzatura](/help/mobile-connections#aquawiz-kh-controller)
 - Sul telefono: [AquaWiz](/help/mobile-device-control#aquawiz)

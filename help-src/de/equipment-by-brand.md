@@ -48,7 +48,7 @@ Pumpen, die Cora über dein Netzwerk oder über Bluetooth erreichen. Welcher Weg
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora liest ihn alle 12 Stunden über die eigene Cloud von AquaWiz, deshalb aktualisiert er sich auch ohne Cora Max weiter. Ein Cora Max am Becken kann einen stündlichen Messwert dazugeben.
+Cora liest ihn alle 12 Stunden über die eigene Cloud von AquaWiz, deshalb aktualisiert er sich auch ohne Cora Max weiter. Ein Cora Max am Becken liest ihn stattdessen jede Stunde und bringt Warnungen zu Pumpe, pH-Sonde und Wasserbox. Siehe [Wie Cora deinen AquaWiz liest](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - Hinzufügen: [Deine Ausrüstung verbinden](/help/mobile-connections#aquawiz-kh-controller)
 - Auf dem Handy: [AquaWiz](/help/mobile-device-control#aquawiz)

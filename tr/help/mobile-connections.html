@@ -199,18 +199,23 @@
 <aside class="cal cal-warning"><p class="cal-t">Bluetooth bir pompanın yakınında olmanız gerekir</p><p>Sayfası Cora'nın okuduğu son ayarları ve ne kadar önce okuduğunu gösterir. Herhangi bir şeyi değiştirmek, bir besleme duraklatması başlatmak bile, pompanın menzilde olmasını gerektirir. Yakınında durun ve sayfayı yeniden açın.</p></aside>
 <p>İki bağlantıyla da canlı durum, mod ve yoğunluk, besleme duraklatması ve günlük zamanlama elde edersiniz. Telefonunuzdan başlatılan bir besleme duraklatması bazı pompalarda pompanın sayfasının açık tutulmasını gerektirir. Ayrıntılar <a href="/tr/help/mobile-device-control#jecod">Ekipmanınızı kontrol etme</a> sayfasında, günlük zamanlama da <a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a> sayfasında anlatılır.</p>
 <h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
-<p>Cora bir AquaWiz KH kontrolöründen alkaliniteyi AquaWiz hesabınız üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez.</p>
+<p>Cora bir AquaWiz KH kontrolöründen alkaliniteyi AquaWiz'in bulutu üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez. Cora Max saatlik ölçüm ekler: bkz. <a href="#how-cora-reads-aquawiz">Cora AquaWiz'inizi nasıl okur</a>.</p>
 <ol><li><strong>Cihazlar → Cihaz Ekle → AquaWiz</strong> yoluna gidin.</li><li>AquaWiz kullanıcı adınızı ve şifrenizi girin ve <strong>Bağlan</strong>'a dokunun.</li><li>Akvaryumu seçin, <strong>pH'ını da oku</strong>'yu kontrol edin (pH bildiren bir ünitede başta açıktır) ve <strong>Cora'ya Bağla</strong>'ya dokunun.</li></ol>
 <p><strong>Otomatik olarak bağlı kal</strong> açıkken Cora AquaWiz şifrenizi saklar ve bağlantıyı kendisi yeniler. Kapalıyken Cora yalnızca AquaWiz'in yaklaşık 30 günde bir sona erdirdiği bir giriş belirteci saklar ve yeniden giriş yapma zamanı geldiğinde size bir bildirim gönderir.</p>
 <p>Kaynak olarak alkaliniteyi alırsınız. Üniteniz bildiriyorsa ve <strong>pH'ını da oku</strong> açıksa pH da gelir. İlk ölçümünüz bağlar bağlamaz gelir. Sonrasında AquaWiz, Cora'nın bulutunu otomatik olarak yalnızca 12 saatte bir okumasına izin verir; yani oradan gelen bir ölçüm yarım güne kadar eski olabilir. Akvaryumdaki bir Cora Max, ulaşabildiğinde kontrolörü her saat kendisi de okuyabilir. Her ölçümün ne zaman yapıldığını ve nereden geldiğini görmek için cihazın sayfasını açın, yenisi için <strong>Şimdi oku</strong>'ya dokunun (en fazla 15 dakikada bir). AquaWiz kartının ne gösterdiği ve uyarıları <a href="/tr/help/mobile-device-control#aquawiz">Ekipmanınızı kontrol etme</a> sayfasında.</p>
 <aside class="cal cal-warning"><p class="cal-t">Cora AquaWiz girişinizi paylaşır</p><p>AquaWiz her hesaba tek bir giriş verir, bu yüzden Cora AquaWiz uygulamasıyla aynı girişi kullanır. AquaWiz şifrenizi değiştirirseniz Cora'nın bağlantısı kesilir. Sonrasında cihaz satırından yeniden bağlayın. Cora'nın erişimini tamamen kaldırmak için cihazı Cora'dan kaldırın ve AquaWiz şifrenizi değiştirin.</p></aside>
+<h3 id="how-cora-reads-aquawiz">Cora AquaWiz'inizi nasıl okur</h3>
+<p>Cora bir AquaWiz'e en fazla üç yolla ulaşır ve bu yollar birlikte çalışır.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Yol</th><th>Cora'ya ne verir</th><th>Ne sıklıkla</th></tr></thead><tbody><tr><td data-th="Yol">AquaWiz girişiniz</td><td data-th="Cora&#x27;ya ne verir">Kontrolörlerinizi bulur, ayarlarını (hedef KH, dozaj gücü, kap) okur ve günlük bir geçmiş alır.</td><td data-th="Ne sıklıkla">Günde bir kez ve ayarlar gerektiğinde</td></tr><tr><td data-th="Yol">AquaWiz'in Cora hizmeti</td><td data-th="Cora&#x27;ya ne verir">En son KH ve pH ölçümü.</td><td data-th="Ne sıklıkla">Bağladığınızda, sonra 12 saatte bir (AquaWiz sınırı) ve cihaz sayfasını açtığınızda ya da <strong>Şimdi oku</strong>'ya dokunduğunuzda (en fazla 15 dakikada bir)</td></tr><tr><td data-th="Yol">Akvaryumdaki bir Cora Max</td><td data-th="Cora&#x27;ya ne verir">Kontrolörü kendi Wi-Fi'si üzerinden doğrudan okur ve pompa, pH probu ve su kutusu uyarıları ekler.</td><td data-th="Ne sıklıkla">Her saat</td></tr></tbody></table></div>
+<p>Cora Max olmadan ölçümler 12 saatte bir gelir, bu AquaWiz'in sınırıdır; yani bir ölçüm yarım güne kadar eski olabilir. <strong>Saatlik ölçüm mü istiyorsunuz? Akvaryumunuza bir Cora Max ekleyin.</strong> <a href="https://coraiq.tech/tr/#max">Cora Max'e göz atın</a> ve <a href="/tr/help/max-setup">kurun</a>. Sonraki Cora Max güncellemesiyle gelir ve kontrolörün Cora Max'in Wi-Fi menzilinde olmasını ve yerel erişimli kontrolör yazılımını gerektirir. Ayrıntılar <a href="/tr/help/max-device-control#aquawiz-hourly">Cora Max ile saatlik okuma</a> sayfasında.</p>
+<p>Cihaz kartı her ölçümün nereden geldiğini gösterir: <strong>Cora Max cihazınızdan saatlik</strong> ya da <strong>AquaWiz bulutundan, 12 saatte bir</strong>.</p>
 <h2 id="logging-by-hand">Elle kaydetme</h2>
 <p>Bazı parametreler ekipmandan değil, bir test kitinden gelir. Bir sonuç girmek için panonun en altına kaydırın ve <strong>Parametreleri Kaydet</strong>'e dokunun.</p>
 <p>Elle kaydettiğiniz ölçümler diğerleri kadar sayılır. Widget'larda kendi kaynakları ve yaşlarıyla görünürler ve Reef Buddy'yi beslerler. Cora, iki kaynağın uyuşmadığını size söylerken problarınızı da onlara göre kontrol eder.</p>
 <h2 id="if-a-connection-stops-working">Bir bağlantı çalışmayı bırakırsa</h2>
 <p>Cihaz satırı ne tür bir sorun olduğunu söyler. Ona <a href="/tr/help/mobile-devices#health">Cihaz ekleme, düzenleme ve kaldırma</a> sayfasındaki tablodan bakın. Orada olmayan her şey için <a href="/tr/help/troubleshooting">Sorun giderme</a> sayfasına bakın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-devices"><span>Önceki</span><b>Cihaz ekleme, düzenleme ve kaldırma</b></a><a class="pn-n" href="/tr/help/mobile-device-control"><span>Sonraki</span><b>Ekipmanınızı kontrol etme</b></a></nav>
-      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-17.</p>
+      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-17.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -601,7 +606,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=7866b39996').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

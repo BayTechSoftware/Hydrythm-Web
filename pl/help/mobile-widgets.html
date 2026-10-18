@@ -210,7 +210,7 @@
 <p>Kafelek dozownika (Apex DŌS albo ReefDose) pokazuje jeden wiersz na głowicę. Nazwa głowicy nigdy nie jest zmniejszana poniżej czytelnego rozmiaru. Na wysokim kafelku wiersz zajmuje dwie linie, z nazwą w pierwszej i tym, co zostało, w drugiej, na przykład <em>40d</em> i <em>2.8 L</em>. Na niskim kafelku linia ze szczegółami jest pomijana, a nazwa pozostaje czytelna.</p>
 <p>To, co jest pierwsze, ustawiasz w <strong>Pokaż pozostałe jako</strong>: <strong>Dni</strong> albo <strong>Mililitry (mL)</strong>. Głowica ReefDose bez własnej nazwy jest pokazana jako nazwa urządzenia, a po niej „head” i jej numer. Kafelek dozownika Jecod jest tylko do odczytu i pokazuje plan dzienny, bo Jecod nie zgłasza, ile zostało w butelce.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-dashboard-editing"><span>Poprzedni</span><b>Edytowanie panelu</b></a><a class="pn-n" href="/pl/help/mobile-sharing"><span>Następny</span><b>Udostępnianie akwarium</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=338e065cbf').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

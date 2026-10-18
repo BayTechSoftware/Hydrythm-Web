@@ -82,7 +82,7 @@ Le serve l'accesso alla Rete locale per trovare l'attrezzatura Wi-Fi e raggiunge
 
 ### Posso controllare la vasca quando non sono a casa? {#can-i-check-on-my-tank-away}
 
-Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz viene letto attraverso il cloud del suo produttore, quindi continua ad aggiornarsi in ogni caso, ma da lì solo ogni 12 ore. Le letture che registri a mano e lo storico della vasca ci sono sempre.
+Sì. Con un Cora Max nella vasca, le tue letture restano aggiornate ovunque tu sia. Senza, un dispositivo Neptune Apex, Red Sea o Jecod mostra le ultime letture che il telefono ha salvato mentre era sullo stesso Wi-Fi. Un AquaWiz viene letto attraverso il cloud del suo produttore, quindi continua ad aggiornarsi in ogni caso, ma da lì solo ogni 12 ore. Con un Cora Max nella vasca viene letto ogni ora. Le letture che registri a mano e lo storico della vasca ci sono sempre.
 
 ### Posso comandare l'attrezzatura quando sono fuori casa? {#can-i-control-equipment-away}
 

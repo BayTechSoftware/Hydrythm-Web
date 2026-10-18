@@ -82,7 +82,7 @@ Necesita acceso a la Red local para encontrar equipos Wi-Fi y llegar a un Cora M
 
 ### ¿Puedo ver cómo está mi acuario cuando no estoy en casa? {#can-i-check-on-my-tank-away}
 
-Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz se lee a través de la nube de su fabricante, así que se sigue actualizando de cualquier forma, aunque desde ahí solo cada 12 horas. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.
+Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz se lee a través de la nube de su fabricante, así que se sigue actualizando de cualquier forma, aunque desde ahí solo cada 12 horas. Con un Cora Max en el acuario se lee cada hora. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.
 
 ### ¿Puedo controlar los equipos cuando estoy fuera de casa? {#can-i-control-equipment-away}
 

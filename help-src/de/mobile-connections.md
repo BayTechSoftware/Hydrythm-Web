@@ -80,7 +80,7 @@ Ihre Seite zeigt die letzten Einstellungen, die Cora gelesen hat, und wie lange 
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
-Cora liest die Alkalinität eines AquaWiz KH Controllers über dein AquaWiz-Konto, das funktioniert also auch unterwegs und braucht kein Cora Max.
+Cora liest die Alkalinität eines AquaWiz KH Controllers über die Cloud von AquaWiz, das funktioniert also auch unterwegs und braucht kein Cora Max. Ein Cora Max bringt stündliche Messwerte dazu: siehe [Wie Cora deinen AquaWiz liest](#how-cora-reads-aquawiz).
 
 1. Geh zu **Geräte → Gerät hinzufügen → AquaWiz**.
 2. Gib deinen AquaWiz-Benutzernamen und dein Passwort ein und tippe auf **Verbinden**.
@@ -93,6 +93,20 @@ Du bekommst die Alkalinität als Quelle, und auch den pH-Wert, wenn dein Gerät 
 :::warning Cora teilt deine AquaWiz-Anmeldung
 AquaWiz vergibt pro Konto eine Anmeldung, deshalb nutzt Cora dieselbe wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, trennt sich Cora. Verbinde es danach über die Gerätezeile neu. Um Cora den Zugriff ganz zu entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.
 :::
+
+### Wie Cora deinen AquaWiz liest {#how-cora-reads-aquawiz}
+
+Cora erreicht einen AquaWiz auf bis zu drei Wegen, und sie arbeiten zusammen.
+
+| Weg | Was Cora bekommt | Wie oft |
+| --- | --- | --- |
+| Deine AquaWiz-Anmeldung | Findet deine Controller, liest ihre Einstellungen (Ziel-KH, Dosierstärke, Behälter) und holt einen täglichen Verlauf. | Einmal am Tag und wenn Einstellungen gebraucht werden |
+| Der Cora-Dienst von AquaWiz | Der neueste KH- und pH-Messwert. | Beim Verknüpfen, danach alle 12 Stunden (AquaWiz-Limit) und wenn du die Geräteseite öffnest oder auf **Jetzt auslesen** tippst (höchstens alle 15 Minuten) |
+| Ein Cora Max am Becken | Liest den Controller direkt über dessen eigenes WLAN und bringt Warnungen zu Pumpe, pH-Sonde und Wasserbox. | Jede Stunde |
+
+Ohne Cora Max kommen die Messwerte alle 12 Stunden, das ist das Limit von AquaWiz, ein Messwert kann also bis zu etwa einen halben Tag alt sein. **Stündliche Messwerte gewünscht? Stell ein Cora Max an dein Becken.** [Cora Max ansehen](https://coraiq.tech/de/#max) und [einrichten](/help/max-setup). Es kommt mit dem nächsten Cora-Max-Update und braucht den Controller in WLAN-Reichweite des Cora Max und eine Controller-Firmware mit lokalem Zugriff. Die Einzelheiten stehen unter [Stündliches Auslesen durch Cora Max](/help/max-device-control#aquawiz-hourly).
+
+Die Gerätekarte zeigt, woher jeder Messwert kam: **Stündlich von deinem Cora Max** oder **Aus der AquaWiz-Cloud, alle 12 Stunden**.
 
 
 ## Von Hand eintragen {#logging-by-hand}

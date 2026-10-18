@@ -210,7 +210,7 @@
 <h3 id="why-local-network-and-bluetooth">Why does Cora Mobile ask for Local Network and Bluetooth access?</h3>
 <p>It needs Local Network access to find Wi-Fi equipment and reach a Cora Max on your home network, and Bluetooth to pair a Cora Max and equipment that uses Bluetooth. Without them, it can't find the device. More in <a href="/help/mobile-settings">Cora Mobile settings</a>.</p>
 <h3 id="can-i-check-on-my-tank-away">Can I check on my tank when I'm not home?</h3>
-<p>Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz™ is read through its maker's cloud, so it keeps updating either way, though from there only every 12 hours. Readings you log by hand and the tank's history are always there.</p>
+<p>Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz™ is read through its maker's cloud, so it keeps updating either way, though from there only every 12 hours. With a Cora Max at the tank it is read every hour. Readings you log by hand and the tank's history are always there.</p>
 <h3 id="can-i-control-equipment-away">Can I control equipment when I'm away from home?</h3>
 <p>Yes, if a Cora Max at the tank is online and can reach that equipment. Your command goes to Cora Cloud and the Cora Max carries it out. Without a Cora Max, you can control a Neptune Apex, Red Sea or Jecod device only while your phone is on its network. More in <a href="/help/mobile-multi-device">More than one Cora device</a>.</p>
 <h3 id="can-two-people-use-the-same-tank">Can two people use the same tank?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Still can't find your answer? <a href="/help/troubleshooting">Troubleshooting</a> goes through fixes symptom by symptom, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/equipment-by-brand"><span>Previous</span><b>Equipment by brand</b></a><a class="pn-n" href="/help/glossary"><span>Next</span><b>Glossary</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=7b924462c4').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

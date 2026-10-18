@@ -94,6 +94,8 @@ Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **
 
 ### Stündliches Auslesen durch Cora Max {#aquawiz-hourly}
 
+Kommt mit dem nächsten Cora-Max-Update.
+
 AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalinität aktuell bleibt, liest das Haupt-Cora-Max des Beckens den Controller auch direkt aus, einmal pro Stunde, zehn Minuten vor der vollen Stunde:
 
 - Es verbindet sich für ein paar Sekunden mit dem eigenen WLAN des Controllers, liest das letzte Ergebnis und wechselt sofort zurück in dein Heim-WLAN. Dabei ist das Cora Max etwa 4 Sekunden offline.

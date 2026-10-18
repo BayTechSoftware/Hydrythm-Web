@@ -216,7 +216,7 @@
 <p>Quando Reef Buddy segnala una deriva, chiede anche <em>Questo avviso è stato utile?</em> Puoi rispondere <strong>Utile</strong>, <strong>Non utile</strong>, <strong>Questo cambiamento è previsto</strong> o <strong>La misurazione sembra errata</strong>. Le tue risposte influenzano cosa compare per primo nei briefing successivi. Nascondere un'osservazione vale solo per un po'. Se il problema c'è ancora, l'osservazione torna.</p>
 <aside class="cal cal-note"><p class="cal-t">I risultati seri non vengono mai nascosti</p><p>Le risposte attenuano solo le osservazioni meno gravi. Le osservazioni di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.</p></aside>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-activity"><span>Precedente</span><b>Attività e cronologia</b></a><a class="pn-n" href="/it/help/mobile-assistant"><span>Successivo</span><b>Fare domande a Cora</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.215 e Cora Mobile 0.5.124. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.217 e Cora Mobile 0.5.125. Ultimo controllo il 2026-10-18.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=080b4952da').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=5d2fb8db12').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

@@ -80,7 +80,7 @@ With either connection you get live state, mode and intensity, a feeding pause a
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 
-Cora reads alkalinity from an AquaWiz KH controller through your AquaWiz account, so it works away from home and doesn't need a Cora Max.
+Cora reads alkalinity from an AquaWiz KH controller through AquaWiz's cloud, so it works away from home and doesn't need a Cora Max. A Cora Max adds hourly readings: see [How Cora reads your AquaWiz](#how-cora-reads-aquawiz).
 
 1. Go to **Devices → Add Device → AquaWiz**.
 2. Enter your AquaWiz username and password and tap **Connect**.
@@ -93,6 +93,20 @@ You get alkalinity as a source, and pH too if your unit reports it and **Also re
 :::warning Cora shares your AquaWiz sign-in
 AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.
 :::
+
+### How Cora reads your AquaWiz {#how-cora-reads-aquawiz}
+
+Cora reaches an AquaWiz in up to three ways, and they work together.
+
+| Route | What it gives Cora | How often |
+| --- | --- | --- |
+| Your AquaWiz sign-in | Finds your controllers, reads their settings (target KH, dose strength, container) and fetches a daily history. | Once a day, and when settings are needed |
+| AquaWiz's Cora service | The latest KH and pH reading. | When you link, then every 12 hours (the AquaWiz limit), and when you open the device page or tap **Read now** (at most every 15 minutes) |
+| A Cora Max at the tank | Reads the controller directly over the controller's own Wi-Fi, and adds pump, pH probe and water box alerts. | Every hour |
+
+Without a Cora Max, readings come every 12 hours, which is AquaWiz's limit, so one can be up to about half a day old. **Want hourly readings? Add a Cora Max at your tank.** [See Cora Max](https://coraiq.tech/#max) and [set it up](/help/max-setup). It arrives with the next Cora Max update, and needs the controller within Cora Max's Wi-Fi range and controller firmware with local access. The details are in [Hourly reading from Cora Max](/help/max-device-control#aquawiz-hourly).
+
+The device card shows where each reading came from: **Hourly from your Cora Max** or **From AquaWiz cloud, every 12 hours**.
 
 
 ## Logging by hand {#logging-by-hand}

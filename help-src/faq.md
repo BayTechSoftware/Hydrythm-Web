@@ -82,7 +82,7 @@ It needs Local Network access to find Wi-Fi equipment and reach a Cora Max on yo
 
 ### Can I check on my tank when I'm not home? {#can-i-check-on-my-tank-away}
 
-Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz is read through its maker's cloud, so it keeps updating either way, though from there only every 12 hours. Readings you log by hand and the tank's history are always there.
+Yes. With a Cora Max at the tank, your readings stay current wherever you are. Without one, a Neptune Apex, Red Sea or Jecod device shows the last readings your phone saved while it was on the same Wi-Fi. An AquaWiz is read through its maker's cloud, so it keeps updating either way, though from there only every 12 hours. With a Cora Max at the tank it is read every hour. Readings you log by hand and the tank's history are always there.
 
 ### Can I control equipment when I'm away from home? {#can-i-control-equipment-away}
 

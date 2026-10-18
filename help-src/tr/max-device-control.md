@@ -94,6 +94,8 @@ Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** i�
 
 ### Cora Max'ten saatlik okuma {#aquawiz-hourly}
 
+Sonraki Cora Max güncellemesiyle geliyor.
+
 AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir. Alkaliniteyi güncel tutmak için akvaryumun ana Cora Max'i kontrolörü doğrudan da okur, saat başından on dakika önce, saatte bir kez:
 
 - Birkaç saniyeliğine kontrolörün kendi Wi-Fi ağına bağlanır, son sonucu okur ve hemen ev Wi-Fi'nize döner. Bu sırada Cora Max yaklaşık 4 saniye çevrimdışı kalır.

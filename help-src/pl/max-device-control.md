@@ -94,6 +94,8 @@ AquaWiz KH Controller nie ma na Cora Max własnej strony. Jest na liście w **Ur
 
 ### Godzinowy odczyt z Cora Max {#aquawiz-hourly}
 
+Pojawi się wraz z następną aktualizacją Cora Max.
+
 AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin. Żeby alkaliczność była aktualna, główny Cora Max akwarium czyta też kontroler bezpośrednio, raz na godzinę, dziesięć minut przed pełną godziną:
 
 - Na kilka sekund łączy się z własnym Wi-Fi kontrolera, czyta ostatni wynik i od razu wraca do Twojego domowego Wi-Fi. W tym czasie Cora Max jest offline przez około 4 sekundy.

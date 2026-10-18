@@ -220,7 +220,7 @@
 <ol><li>Verbinde dich mit dem WLAN des Beckens, um diese Einstellungen zu ändern.</li><li>Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.</li></ol>
 <h3 id="an-aquawiz-reading-is-hours-old">Ein AquaWiz™-Messwert ist Stunden alt</h3>
 <p>Das kann normal sein. AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen, ohne Cora Max kann ein Messwert also bis zu einem halben Tag alt sein. Öffne die Seite des Geräts in Cora Mobile: Sie zeigt, wann der Messwert gemessen wurde und woher er kam, und <strong>Jetzt auslesen</strong> fragt einen frischen an (höchstens alle 15 Minuten).</p>
-<p>Wenn du ein Cora Max hast und auf der Karte trotzdem <strong>Aus der AquaWiz-Cloud, alle 12 Stunden</strong> steht:</p>
+<p>Wenn du ein Cora Max hast (ab dem nächsten Cora-Max-Update) und auf der Karte trotzdem <strong>Aus der AquaWiz-Cloud, alle 12 Stunden</strong> steht:</p>
 <ul><li>Prüfe, ob der Controller in WLAN-Reichweite des Haupt-Cora-Max des Beckens ist.</li><li>Prüfe in der AquaWiz-App, ob die Firmware des Controllers aktuell ist; ältere Firmware bietet keinen lokalen Zugriff.</li><li>Nach zwei fehlgeschlagenen Messungen hintereinander wartet das Cora Max bis zum nächsten Tag. Klappt es weiterhin nicht, wende dich an den Support.</li></ul>
 <h2 id="command-did-not-go-through">Ein Befehl ist nicht durchgekommen</h2>
 <p>Jeder Befehl endet als <strong>Bestätigt</strong>, <strong>Unbestätigt</strong>, <strong>Abgelehnt</strong> oder <strong>Keine Änderung</strong>. Was jedes davon bedeutet, steht unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>.</p>
@@ -325,7 +325,7 @@
 <h2 id="still-stuck">Immer noch nicht gelöst</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> oder melde es aus Cora Mobile heraus, wie unter <a href="/de/help/mobile-support">Ein Problem melden</a> beschrieben. Sag uns, welches Becken, welches Gerät, welcher Bildschirm und was du erwartet hast.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/how-do-i"><span>Weiter</span><b>Wie mache ich...?</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -716,7 +716,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=6aeec59ceb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -82,7 +82,7 @@ Den Zugriff auf das lokale Netzwerk braucht es, um WLAN-Ausrüstung zu finden un
 
 ### Kann ich nach meinem Becken sehen, wenn ich nicht zu Hause bin? {#can-i-check-on-my-tank-away}
 
-Ja. Mit einem Cora Max am Becken bleiben deine Messwerte aktuell, wo immer du bist. Ohne Cora Max zeigt ein Neptune Apex-, Red Sea- oder Jecod-Gerät die letzten Messwerte, die dein Handy gespeichert hat, als es im selben WLAN war. Ein AquaWiz wird über die Cloud seines Herstellers abgefragt und aktualisiert sich deshalb so oder so, von dort aber nur alle 12 Stunden. Von Hand eingetragene Messwerte und der Verlauf des Beckens sind immer da.
+Ja. Mit einem Cora Max am Becken bleiben deine Messwerte aktuell, wo immer du bist. Ohne Cora Max zeigt ein Neptune Apex-, Red Sea- oder Jecod-Gerät die letzten Messwerte, die dein Handy gespeichert hat, als es im selben WLAN war. Ein AquaWiz wird über die Cloud seines Herstellers abgefragt und aktualisiert sich deshalb so oder so, von dort aber nur alle 12 Stunden. Mit einem Cora Max am Becken wird er jede Stunde gelesen. Von Hand eingetragene Messwerte und der Verlauf des Beckens sind immer da.
 
 ### Kann ich Ausrüstung steuern, wenn ich nicht zu Hause bin? {#can-i-control-equipment-away}
 

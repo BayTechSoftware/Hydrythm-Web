@@ -185,12 +185,12 @@
 <p>Cora'ya ağınız ya da Bluetooth üzerinden ulaşan pompalar. Hangisi olduğu, uzaktayken neler yapabileceğinizi belirler.</p>
 <ul><li>Ekleme: <a href="/tr/help/mobile-connections#jecod">Ekipmanınızı bağlama</a></li><li>Telefonunuzda kontrol: <a href="/tr/help/mobile-device-control#jecod">Jecod pompaları</a>, <a href="/tr/help/mobile-schedules">günlük zamanlamalar</a></li><li>Cora Max'te: <a href="/tr/help/max-device-control#jecod">Jecod</a></li><li>Uyarılar: <a href="/tr/help/mobile-alerts#stopped-reporting">bildirmeyi bıraktı</a></li><li>Çözümler: <a href="/tr/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent">"Bu pompaya ulaşılamadı"</a>, <a href="/tr/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">Bluetooth menzili dışında</a></li></ul>
 <h2 id="aquawiz">AquaWiz KH Controller</h2>
-<p>Cora onu AquaWiz'in kendi bulutu üzerinden 12 saatte bir okur, bu yüzden Cora Max olmadan da güncellenmeye devam eder. Akvaryumdaki bir Cora Max saatlik bir ölçüm ekleyebilir.</p>
+<p>Cora onu AquaWiz'in kendi bulutu üzerinden 12 saatte bir okur, bu yüzden Cora Max olmadan da güncellenmeye devam eder. Akvaryumdaki bir Cora Max onu bunun yerine her saat okur ve pompa, pH probu ve su kutusu uyarıları ekler. Bkz. <a href="/tr/help/mobile-connections#how-cora-reads-aquawiz">Cora AquaWiz'inizi nasıl okur</a>.</p>
 <ul><li>Ekleme: <a href="/tr/help/mobile-connections#aquawiz-kh-controller">Ekipmanınızı bağlama</a></li><li>Telefonunuzda: <a href="/tr/help/mobile-device-control#aquawiz">AquaWiz</a></li><li>Cora Max'te: <a href="/tr/help/max-device-control#aquawiz">AquaWiz</a></li><li>Uyarılar: <a href="/tr/help/mobile-alerts#stopped-reporting">bildirmeyi bıraktı</a></li><li>Çözümler: <a href="/tr/help/troubleshooting#a-reading-is-stale">bir ölçüm eski</a>, <a href="/tr/help/troubleshooting#a-device-says-the-sign-in-was-refused">giriş reddedildi</a></li></ul>
 <h2 id="anything-else">Diğer her şey</h2>
 <p>Cora'nın bağlanmadığı ekipman için ölçümleri elle kaydedin. <a href="/tr/help/mobile-connections#logging-by-hand">Elle kaydetme</a> bölümüne bakın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/how-do-i"><span>Önceki</span><b>Nasıl yaparım...?</b></a><a class="pn-n" href="/tr/help/faq"><span>Sonraki</span><b>Sıkça sorulan sorular</b></a></nav>
-      <p class="stamp">Cora Max 0.28.215 ve Cora Mobile 0.5.124 için yazılmıştır. Son kontrol: 2026-10-17.</p>
+      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-17.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=7866b39996').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

@@ -48,7 +48,7 @@ Cora'ya ağınız ya da Bluetooth üzerinden ulaşan pompalar. Hangisi olduğu, 
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora onu AquaWiz'in kendi bulutu üzerinden 12 saatte bir okur, bu yüzden Cora Max olmadan da güncellenmeye devam eder. Akvaryumdaki bir Cora Max saatlik bir ölçüm ekleyebilir.
+Cora onu AquaWiz'in kendi bulutu üzerinden 12 saatte bir okur, bu yüzden Cora Max olmadan da güncellenmeye devam eder. Akvaryumdaki bir Cora Max onu bunun yerine her saat okur ve pompa, pH probu ve su kutusu uyarıları ekler. Bkz. [Cora AquaWiz'inizi nasıl okur](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - Ekleme: [Ekipmanınızı bağlama](/help/mobile-connections#aquawiz-kh-controller)
 - Telefonunuzda: [AquaWiz](/help/mobile-device-control#aquawiz)

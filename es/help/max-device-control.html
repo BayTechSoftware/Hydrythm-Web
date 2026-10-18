@@ -209,6 +209,7 @@
 <h2 id="aquawiz">AquaWiz</h2>
 <p>Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en <strong>Dispositivos</strong>, donde puedes cambiarle el nombre, y sus lecturas salen en el panel como cualquier otra fuente. Configúralo y gestiónalo en tu teléfono, consulta <a href="/es/help/mobile-connections">Conectar tus equipos</a>.</p>
 <h3 id="aquawiz-hourly">Lectura cada hora desde Cora Max</h3>
+<p>Llega con la próxima actualización de Cora Max.</p>
 <p>AquaWiz solo deja que Cora lea su nube cada 12 horas. Para mantener la alcalinidad al día, el Cora Max principal del acuario también lee el controlador directamente, una vez por hora, diez minutos antes de cada hora en punto:</p>
 <ul><li>Se conecta unos segundos al Wi-Fi propio del controlador, lee el último resultado y vuelve enseguida a tu Wi-Fi de casa. El Cora Max queda sin conexión unos 4 segundos.</li><li>La contraseña de tu Wi-Fi de casa nunca se guarda ni se envía a ningún sitio por esto.</li><li>Solo lo hace el Cora Max principal del acuario. Un segundo Cora Max en el mismo acuario no.</li><li>Espera mientras el Cora Max habla contigo, se actualiza, se empareja o cambia de Wi-Fi, y lo intenta de nuevo a la hora siguiente.</li><li>El controlador debe estar al alcance del Wi-Fi del Cora Max, y su firmware debe ofrecer acceso local. Si fallan dos lecturas seguidas, el Cora Max deja de intentarlo el resto del día y la lectura de la nube cada 12 horas continúa.</li></ul>
 <p>Una lectura desde Cora Max muestra <strong>Cada hora desde tu Cora Max</strong> en la tarjeta de AquaWiz del teléfono. También trae las alertas de bomba, sonda de pH y depósito de agua descritas en <a href="/es/help/mobile-alerts#equipment-faults">Alertas</a>.</p>
@@ -224,7 +225,7 @@
 <h2 id="what-was-changed-and-by-what">Qué se cambió, y qué lo cambió</h2>
 <p>Cada acción queda registrada junto con lo que la provocó. Más información en <a href="/es/help/max-activity">Actividad en Cora Max</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-controls"><span>Anterior</span><b>Tomas y controles</b></a><a class="pn-n" href="/es/help/max-devices"><span>Siguiente</span><b>Dispositivos y estado de los dispositivos</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.217 y Cora Mobile 0.5.125. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -615,7 +616,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cd79229e59').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=482fde868e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

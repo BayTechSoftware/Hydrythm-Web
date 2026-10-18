@@ -200,7 +200,7 @@
 <p>If you have a connected doser, such as a Neptune™ DŌS or a Red Sea™ ReefDose, its heads show up with their own readings, including what each head has left and what it's been dosing. How to run and refill them is in <a href="/help/mobile-device-control">Controlling your equipment</a>, and their low-container and missed-dose alerts are in <a href="/help/mobile-device-control#doser-alerts">Doser alerts</a>.</p>
 <p>An automation can also dose from a DŌS head, capped at 10 mL per head per day. See <a href="/help/mobile-automation#actions">Automations and scenes</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-journal"><span>Previous</span><b>The journal</b></a><a class="pn-n" href="/help/mobile-maintenance"><span>Next</span><b>Maintenance</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.215 and Cora Mobile 0.5.124. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=7b924462c4').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

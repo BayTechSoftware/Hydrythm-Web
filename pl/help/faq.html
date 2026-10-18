@@ -210,7 +210,7 @@
 <h3 id="why-local-network-and-bluetooth">Dlaczego Cora Mobile prosi o dostęp do sieci lokalnej i Bluetooth?</h3>
 <p>Dostępu do sieci lokalnej potrzebuje, żeby znajdować sprzęt Wi-Fi i łączyć się z Cora Max w Twojej sieci domowej, a Bluetooth, żeby parować Cora Max i sprzęt korzystający z Bluetooth. Bez nich nie znajdzie urządzenia. Więcej w <a href="/pl/help/mobile-settings">Ustawieniach Cora Mobile</a>.</p>
 <h3 id="can-i-check-on-my-tank-away">Czy mogę sprawdzić akwarium, gdy nie ma mnie w domu?</h3>
-<p>Tak. Z Cora Max przy akwarium odczyty pozostają aktualne, gdziekolwiek jesteś. Bez niego urządzenie Neptune Apex, Red Sea albo Jecod pokazuje ostatnie odczyty zapisane przez telefon, gdy był w tej samej sieci Wi-Fi. AquaWiz™ jest odczytywany przez chmurę producenta, więc i tak się aktualizuje, ale stamtąd tylko co 12 godzin. Odczyty zapisane ręcznie i historia akwarium są zawsze dostępne.</p>
+<p>Tak. Z Cora Max przy akwarium odczyty pozostają aktualne, gdziekolwiek jesteś. Bez niego urządzenie Neptune Apex, Red Sea albo Jecod pokazuje ostatnie odczyty zapisane przez telefon, gdy był w tej samej sieci Wi-Fi. AquaWiz™ jest odczytywany przez chmurę producenta, więc i tak się aktualizuje, ale stamtąd tylko co 12 godzin. Z Cora Max przy akwarium jest odczytywany co godzinę. Odczyty zapisane ręcznie i historia akwarium są zawsze dostępne.</p>
 <h3 id="can-i-control-equipment-away">Czy mogę sterować sprzętem poza domem?</h3>
 <p>Tak, jeśli Cora Max przy akwarium jest online i może połączyć się z tym sprzętem. Twoje polecenie trafia do Cora Cloud, a Cora Max je wykonuje. Bez Cora Max możesz sterować urządzeniem Neptune Apex, Red Sea albo Jecod tylko wtedy, gdy telefon jest w jego sieci. Więcej w <a href="/pl/help/mobile-multi-device">Więcej niż jedno urządzenie Cora</a>.</p>
 <h3 id="can-two-people-use-the-same-tank">Czy dwie osoby mogą korzystać z tego samego akwarium?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Nadal nie ma odpowiedzi? <a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a> przechodzi przez rozwiązania objaw po objawie. Możesz też napisać na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/equipment-by-brand"><span>Poprzedni</span><b>Sprzęt według marki</b></a><a class="pn-n" href="/pl/help/glossary"><span>Następny</span><b>Słownik</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.215 i Cora Mobile 0.5.124. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=338e065cbf').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

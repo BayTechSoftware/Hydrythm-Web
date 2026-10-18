@@ -210,7 +210,7 @@
 <h3 id="why-local-network-and-bluetooth">¿Por qué Cora Mobile pide acceso a la Red local y al Bluetooth?</h3>
 <p>Necesita acceso a la Red local para encontrar equipos Wi-Fi y llegar a un Cora Max en tu red doméstica, y el Bluetooth para emparejar un Cora Max y los equipos que usan Bluetooth. Sin ellos, no puede encontrar el dispositivo. Más información en <a href="/es/help/mobile-settings">Ajustes de Cora Mobile</a>.</p>
 <h3 id="can-i-check-on-my-tank-away">¿Puedo ver cómo está mi acuario cuando no estoy en casa?</h3>
-<p>Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz™ se lee a través de la nube de su fabricante, así que se sigue actualizando de cualquier forma, aunque desde ahí solo cada 12 horas. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.</p>
+<p>Sí. Con un Cora Max en el acuario, tus lecturas se mantienen al día estés donde estés. Sin él, un dispositivo Neptune Apex, Red Sea o Jecod muestra las últimas lecturas que guardó tu teléfono mientras estaba en el mismo Wi-Fi. Un AquaWiz™ se lee a través de la nube de su fabricante, así que se sigue actualizando de cualquier forma, aunque desde ahí solo cada 12 horas. Con un Cora Max en el acuario se lee cada hora. Las lecturas que anotas a mano y el historial del acuario siempre están ahí.</p>
 <h3 id="can-i-control-equipment-away">¿Puedo controlar los equipos cuando estoy fuera de casa?</h3>
 <p>Sí, si un Cora Max del acuario está en línea y puede llegar a ese equipo. Tu orden va a Cora Cloud y el Cora Max la ejecuta. Sin un Cora Max, solo puedes controlar un dispositivo Neptune Apex, Red Sea o Jecod mientras tu teléfono está en su red. Más información en <a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a>.</p>
 <h3 id="can-two-people-use-the-same-tank">¿Pueden usar dos personas el mismo acuario?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>¿Sigues sin encontrar la respuesta? <a href="/es/help/troubleshooting">Solución de problemas</a> recorre las soluciones síntoma a síntoma, o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/equipment-by-brand"><span>Anterior</span><b>Equipos por marca</b></a><a class="pn-n" href="/es/help/glossary"><span>Siguiente</span><b>Glosario</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.215 y Cora Mobile 0.5.124. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.217 y Cora Mobile 0.5.125. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=cd79229e59').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=482fde868e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

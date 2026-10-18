@@ -129,7 +129,7 @@ C’est normal. Les réglages propres d’un appareil Red Sea ne s’ouvrent que
 
 Cela peut être normal. AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures, donc sans Cora Max une mesure peut dater d’une demi-journée. Ouvrez la page de l’appareil dans Cora Mobile : elle indique quand la mesure a été prise et d’où elle vient, et **Lire maintenant** en demande une fraîche (au plus une fois toutes les 15 minutes).
 
-Si vous avez un Cora Max et que la carte indique toujours **Depuis le cloud AquaWiz, toutes les 12 heures** :
+Si vous avez un Cora Max (à partir de la prochaine mise à jour de Cora Max) et que la carte indique toujours **Depuis le cloud AquaWiz, toutes les 12 heures** :
 
 - Vérifiez que le contrôleur est à portée Wi-Fi du Cora Max principal de l’aquarium.
 - Vérifiez dans l’application AquaWiz que le firmware du contrôleur est à jour ; un firmware plus ancien n’a pas d’accès local.

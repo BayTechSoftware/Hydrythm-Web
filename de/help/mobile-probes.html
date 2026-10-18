@@ -201,7 +201,7 @@
 <p>Die Wasserwert-Ansicht zeigt dann, wie lange es her ist, dass diese Sonde kalibriert wurde. Sondenpflege eignet sich auch gut als wiederkehrende <a href="/de/help/mobile-maintenance">Wartungsaufgabe</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Kalibrierdaten erklären Abweichungen</p><p>Widersprechen sich eine Sonde und ein Testkit, prüf, wann du die Sonde zuletzt kalibriert hast. Das ist meist die Antwort.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-schedules"><span>Zurück</span><b>Ausrüstung planen</b></a><a class="pn-n" href="/de/help/mobile-consumables"><span>Weiter</span><b>Verbrauchsmaterial und Nachfüllwarnungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.215 und Cora Mobile 0.5.124. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=6aeec59ceb').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
